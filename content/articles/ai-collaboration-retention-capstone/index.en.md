@@ -1,18 +1,18 @@
 ---
-title: "AI Collaboration Capstone: One Change, Both Tracks"
+title: "AI Collaboration Capstone: GitHub, Confluence, and Jira"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Deliver a synthetic retention change through GitHub-first and Confluence/Jira workflows with failure evidence and independent review."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "retention proposal", "GitHub review", "Confluence Jira workflow", "failure matrix", "independent acceptance"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **Deliver PROP-042 twice**, through GitHub-first and through GitHub with Confluence/Jira. You contribute, separate owners review, and authorized publishers apply the change. Use isolated synthetic sandboxes after preceding lessons. The capstone tests the complete procedure, including rejection, recovery, and independent handoff, rather than assistant prose quality.
 
@@ -25,7 +25,7 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Prerequisites:** preceding [course modules](/ai-collaboration-course-start/), approved sandbox access, and separate reviewers. **Estimated time:** three to four hours plus review. **Difficulty:** advanced.
+**Prerequisites:** preceding [course modules](/ai-collaboration-course-start/), approved sandbox access, and separate reviewers. **Planning allowance:** eight to twelve hours across multiple sessions, plus independent review. Actual time depends on account setup and repair work. **Difficulty:** advanced.
 
 **Required artifacts:** charter, map, policy, adapters, baseline, manifest, fixed proposal, owner reviews, ledger, recovery record, and handoff. Missing plan-dependent permissions block completion instead of becoming assumed passes.
 
@@ -90,6 +90,19 @@ Limit: no running deletion service exercised
 | **Handoff** | New session gets map/ledger only | Fresh read and correct next action |
 
 **Cross-system conflict belongs to Mixed.** In GitHub-first, test an Issue description conflicting with the approved file. Run other applicable cases in both tracks. A local validator failure does not replace live permission evidence.
+
+| Case and evidence file | GitHub-first run | Mixed run |
+|---|---|---|
+| **Approved change** `01-approved-change.md` | Reviewed PR and read-back | Reviewed pages, merge, and ledger |
+| **Stale context** `02-stale-context.md` | Change protected base after capture | Change an authority page after capture |
+| **Unauthorized write** `03-unauthorized-write.md` | Contributor direct-push denial | Contributor page edit and transition denial |
+| **Conflict** `04-conflict.md` | Issue disagrees with approved file | Jira text disagrees with Confluence |
+| **Partial publication** `05-partial-publication.md` | Stop before merge or read-back | Stop after one page write |
+| **Access denial** `06-access-denial.md` | Withhold a protected repository source | Exclude a user from a restricted page |
+| **Recovery** `07-recovery.md` | Reviewed revert or completion | Ledger-guided compensation |
+| **Handoff** `08-handoff.md` | New session reads protected files | New session reads mapped pages and ledger |
+
+**Create each file before its test.** Record expected result, observed result, actor role, initial and final revisions, native evidence reference, and reviewer decision. A browser route prompt is not direct-push denial. Keep the two track directories separate.
 
 **Keep expected and observed outcomes separate.** For each case record run ID, actor role, initial revisions, attempted action, expectation, observation, resulting revisions, and reviewer decision. Redact credentials and account identifiers from shared reports.
 
@@ -168,6 +181,43 @@ Does the fresh handoff reconstruct current state independently?
 ```
 
 **Score each requirement separately.** Use Supported, Failed, Blocked, or Not run with an evidence reference. Consistency, approval, permissions, recovery, and handoff are separate requirements. A collection of green local tests does not offset a failed live publication boundary.
+
+```text
+Run ID and track:
+Reviewer role and review date:
+Case 01 approved change: status ___ evidence ___ gap ___
+Case 02 stale context: status ___ evidence ___ gap ___
+Case 03 unauthorized write: status ___ evidence ___ gap ___
+Case 04 conflict: status ___ evidence ___ gap ___
+Case 05 partial publication: status ___ evidence ___ gap ___
+Case 06 access denial: status ___ evidence ___ gap ___
+Case 07 recovery: status ___ evidence ___ gap ___
+Case 08 handoff: status ___ evidence ___ gap ___
+Overall decision: Supported / Failed / Blocked / Not run
+Next accountable role and action:
+```
+
+**Supported means the reviewer located observed evidence for every applicable case.** Record Failed for an observed control failure, Blocked for missing access or a missing control, and Not run for an unattempted case. Keep each case's native reference in its named evidence file.
+
+**Course pass gate:** complete both the GitHub-first and mixed tracks. In each track, all eight applicable cases above need Supported evidence. A Failed boundary or a missing native read-back blocks the track. A missing paid plan or test identity produces Blocked, not a guessed pass. One completed track earns a documented partial result, not course completion.
+
+**Redacted model package, illustrative only:**
+
+```text
+Track: github-first | Run: G-01 | Reviewer: separate pilot role
+Base: protected commit base-001 | Fixed proposal: PROP-042 r1
+Approvals: product review ref P-01, operations review ref O-01
+Consistency: local check pass, saved output ref C-01
+Permission: contributor direct push denied, native event ref D-01
+Publication: merged commit merge-002, fresh clone confirms thirty
+Exception: backups and legal holds remain excluded
+Recovery: interruption case R-01 read back and resolved through review
+Handoff: second reader found current base, exception, and next action
+Runtime limit: no production deletion or deployment claim
+Decision: Supported for synthetic GitHub-first track only
+```
+
+Replace every illustrative reference with an observed sandbox artifact. Repeat the full package for the mixed track with its own source versions and reviews. The reviewer should reject a copied GitHub approval in the mixed package.
 
 ## Write a Bounded Decision
 

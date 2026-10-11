@@ -1,18 +1,18 @@
 ---
-title: "AI Collaboration with Confluence and Jira: Setup"
+title: "Confluence and Jira AI Setup: Permissions and Authority"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Configure Confluence authority pages and company-managed Jira permissions for reviewed mixed-team collaboration."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "Confluence Cloud", "Jira Cloud", "authority pages", "Jira permission scheme", "workflow transition", "access tests"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **The administrator configures workplace authority before connecting chat tools.** Product and operations owners publish requirements and runbooks in Confluence Cloud. Jira Cloud coordinates delivery. GitHub owns implementation. You build dedicated sandboxes after the foundation, because an incorrect permission grant exposes information independently of model behavior.
 
@@ -32,6 +32,17 @@ coverCaption: ""
 **Navigation note:** current Jira documentation uses “space” and “work item.” Some tenants retain “project” and “issue.” Select a company-managed configuration. Team-managed permission behavior is outside this procedure. No Rovo, marketplace app, Jira Service Management approvals, or paid chat connector is required.
 
 **Reader outcome:** finish with a permission matrix, named authority pages, a lab-only Jira workflow, and denial evidence from separate users. Record tenant plan and role assumptions beside the test results.
+
+**Preflight before creating records:**
+
+| Check | If available | If missing |
+|---|---|---|
+| Confluence page restrictions and space administration | Create separate approved and excluded pages | Mark page-edit and denied-read tests Blocked |
+| Company-managed Jira permission scheme and workflow editor | Copy lab-only scheme and workflow | Mark transition tests Blocked |
+| Separate contributor, owner, publisher, and excluded users | Run role-specific positive and negative tests | Mark untested roles Blocked |
+| Repository maintainer and protected branch | Link the reviewed implementation route | Complete the GitHub-first track before mixed publication |
+
+As of October 2026, use the page **Share** or restriction control for page access, the Confluence **Space settings** permission area for broader grants, and Jira **Settings > Work items > Permission schemes** for the lab scheme. Jira's company-managed workflow editor controls transitions. UI labels and plan features vary by tenant. Record the actual path and plan in your evidence before following these steps. See [Confluence page-level permissions](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/) and [Jira permission schemes](https://support.atlassian.com/jira-cloud-administration/docs/manage-project-permissions/).
 
 ## Create Authority Pages
 
@@ -54,6 +65,34 @@ Implementation reference: attach protected GitHub baseline commit
 ```
 
 **Apply restrictions to each authoritative page.** Do not assume a parent's edit restriction protects its children. View and edit inheritance differ, and space permissions still apply. A link alone does not grant access. Inspect all memberships when an allegedly read-only user still edits.
+
+**Use these starting bodies for the other two pages.** Replace placeholder review fields with actual sandbox evidence before marking a record approved.
+
+```text
+Source ID: RUN-04
+Owner role: operations-owner
+Status: Approved baseline
+Scope: synthetic export files only
+Configured retention: 7 days
+Procedure: compare REQ-17 with config.json before a reviewed change
+Runtime limit: this lab has no deletion job and produces no deletion evidence
+Recovery: restore the prior approved configuration through review
+Recovery limit: restoring configuration does not restore deleted files
+Review evidence: add actual reviewer, page version, and decision reference
+```
+
+```text
+Page: Decision Register
+Entry ID: DEC-12
+Decision: use seven days as the synthetic baseline
+Scope: export-service-lab only
+Requirement: REQ-17 page version, record after publication
+Runbook: RUN-04 page version, record after publication
+Policy: POL-01 protected GitHub revision, record after review
+Product review: pending until the named owner records a decision
+Operations review: pending until the named owner records a decision
+Status: draft example, replace with observed review evidence
+```
 
 ## Update the Map
 
@@ -80,6 +119,22 @@ snapshot_rule: repository requirement copies are not authoritative
 4. **Associate the scheme** with the lab space and verify no production space shares it.
 5. **Create PROP-042** as a work item. Record its generated key in the map and keep PROP-042 as the logical proposal ID in its description.
 
+**Paste this draft into PROP-042.** The Jira item tracks delivery. Its text does not replace approved Confluence wording.
+
+```text
+Proposal ID: PROP-042
+Status: Draft
+Current approved value: 7 days, REQ-17 page version to record
+Proposed value: 30 days for synthetic export files
+Exclusions: production data, backups, legal holds
+Affected records: REQ-17, RUN-04, config.json, proposal.json
+Fixed proposal attachment: pending
+Product-owner review: pending
+Operations-owner review: pending
+Publication ledger: pending
+Stop on changed source version, missing review, or denied access
+```
+
 | Role | Confluence | Jira | GitHub |
 |---|---|---|---|
 | **Contributor** | Read approved pages | Create/comment on drafts | Proposal branch or Issue |
@@ -100,6 +155,8 @@ snapshot_rule: repository requirement copies are not authoritative
 4. **Restrict Done** to the accountable delivery role. Remove alternate/global transitions bypassing the boundary.
 
 **A restricted transition is not two-person approval.** It controls the actor performing the transition. The two-role evidence check remains procedural in this pilot. Record this limit explicitly.
+
+**Example transition record:** For **Review to Approved**, permit only the designated owner/publisher group to activate the transition. Before activation, the actor opens the fixed PROP-042 attachment and checks a product-owner decision and an operations-owner decision against the same proposal revision. If either decision is missing or names an older revision, leave the item in Review and record the gap. The workflow restriction controls the actor. The evidence check is a separate human step.
 
 ## Verify Denial
 

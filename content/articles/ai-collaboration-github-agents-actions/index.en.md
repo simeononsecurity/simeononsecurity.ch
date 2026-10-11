@@ -1,18 +1,18 @@
 ---
-title: "GitHub AI Collaboration: Agent Adapters and Actions"
+title: "GitHub AI Agent Workflow: AGENTS.md, Manifests, and Actions"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Capture context manifests, load agent policies, and validate retention proposals with trusted-base GitHub Actions checks."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "GitHub Actions", "coding agents", "agent instructions", "context manifest", "trusted base", "consistency check"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **Connect coding agents to reviewed sources**, not a publication identity. The contributor loads POL-01, captures the protected baseline, and drafts PROP-042 in a branch. The maintainer installs consistency checks before routine proposals begin. This lesson establishes how you preserve evidence and detect mismatched implementation.
 
@@ -25,7 +25,7 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Prerequisites:** the [repository boundary](/articles/ai-collaboration-github-repository/), an approved local coding agent, and Actions enabled. **Estimated time:** 90 minutes. **Difficulty:** moderate.
+**Prerequisites:** the [repository boundary](/articles/ai-collaboration-github-repository/), Git installed locally, the bootstrap committed to **`main`** on GitHub, an approved local coding agent, and Actions enabled. **Estimated time:** 90 minutes. **Difficulty:** moderate. Browser-only contributors use the [next lesson](/articles/ai-collaboration-github-browser-workflow/) and ask the maintainer to run local checks.
 
 **Product scope:** no hosted GitHub coding agent or paid chat connector is required. Obtain provider approval before sending repository text to a model. Product instruction-loading behavior varies by installed version.
 
@@ -56,9 +56,24 @@ POL-01 version 1
 
 **Verify loading in a new session.** Ask for active instruction sources and inspect the tool's instruction display where available. Codex documents layered discovery and overrides. Claude Code documents imports and memory inspection. Cline exposes rule activation controls. An instruction summary does not prove permission enforcement.
 
+## Open the Local Repository
+
+**Copy the HTTPS clone URL from the repository's Code menu.** Replace `OWNER` below with your sandbox owner. The clone creates a local checkout and records the GitHub repository as **`origin`**.
+
+```bash
+git clone https://github.com/OWNER/export-service-lab.git
+cd export-service-lab
+git remote -v
+git branch --show-current
+git status --short
+test -f check.py && test -f requirement.json && test -f config.json
+```
+
+**Confirm `main`, the expected `origin`, and an empty status output** before proceeding. If a file check fails, return to the repository bootstrap lesson. A GitHub Actions workflow is a YAML file under **`.github/workflows/`**. The workflow below runs after a PR opens and reports its checks back to the PR.
+
 ## Capture a Trusted Base
 
-**Commit the bootstrap first**, then create two local worktrees. The proposal worktree holds editable candidates. The detached worktree supplies the captured approved base.
+**Commit the bootstrap first**, then use the clone as the proposal checkout and add a detached worktree for the approved base. The clone holds editable candidates. The detached worktree supplies the captured base.
 
 ```bash
 git fetch origin main
@@ -70,6 +85,16 @@ git rev-parse origin/main
 ```
 
 **Attach the printed commit ID** to the PR description. The root files copied from baseline are the GitHub-first source records. Keep **`baseline/`** as unit-test fixtures. The checker captures source bytes, not proof of owner approval.
+
+| Command or record | Evidence to retain |
+|---|---|
+| **`git rev-parse origin/main`** | Protected base commit in the PR description |
+| **`check.py capture`** | `context.json` with source hashes, kept with the candidate |
+| **`check.py validate`** | Output and exit status in `consistency-results.txt` |
+| **`python3 -m unittest`** | Ten test results and final `OK` in `unit-tests.txt` |
+| **`git diff`** | Exact changed files at the proposed revision |
+
+**The supplied lab has ten unit tests.** The stable success marker is `Ran 10 tests` followed by `OK`. Record the actual output from your extraction. A green test log does not identify an approved reviewer.
 
 ## Draft the Worked Change
 
@@ -255,12 +280,15 @@ Return:
 
 **Expected reasoning:** the checker reports **`IMPLEMENTATION_CONFLICT`**. Ask the requirement owner to review a proposal instead of bypassing the failure.
 
+**Agent task:** give an approved local agent the bounded PROP-042 request under **Draft the Worked Change**. Grade its response against four gates: it names REQ-17 and RUN-04 source revisions, preserves the seven-day approved baseline, changes all four candidate records consistently, and reports the diff and checker output without claiming owner approval. Mark an omitted gate Failed. Keep the proposal on its branch until a human reviews the final revision.
+
 ## Primary References
 
 - **Codex:** [Instruction discovery](https://developers.openai.com/codex/guides/agents-md).
 - **Claude Code:** [Project memory](https://code.claude.com/docs/en/memory).
 - **Cline:** [Rules](https://docs.cline.bot/customization/cline-rules).
 - **Actions:** [Secure use reference](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions).
+- **Git:** [Clone](https://git-scm.com/docs/git-clone) and [worktree](https://git-scm.com/docs/git-worktree) commands.
 
 ## Next Steps
 

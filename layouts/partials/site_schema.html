@@ -287,6 +287,7 @@
     (and (strings.Contains .RelPermalink "-course") (not .Section))
 }}
 {{ if $isCourseStart }}
+{{ $educationalLevel := or .Params.educationallevel "Intermediate" }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -295,7 +296,7 @@
   "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{ .Summary | truncate 200 | safeJS }}{{ end }}",
   "url": "{{ .Permalink }}",
   "inLanguage": "{{ $lang }}",
-  "educationalLevel": "Intermediate",
+  "educationalLevel": "{{ $educationalLevel | safeJS }}",
   "isAccessibleForFree": true,
   "provider": {
     "@type": "Organization",

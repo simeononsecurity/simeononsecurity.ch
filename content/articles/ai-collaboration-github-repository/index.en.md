@@ -6,13 +6,13 @@ toc: true
 draft: false
 description: "Build a GitHub-first source map, file ownership, and protected publication boundary for reviewed AI contributions."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "GitHub repository", "branch protection", "CODEOWNERS", "source map", "pull request review", "publication controls"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **The maintainer builds the GitHub-first publication boundary** after charter approval. Requirements, configuration, policy, and runbooks live in one disposable repository. Contributors propose through Issues and pull requests. You establish where approved facts live and block unreviewed changes before attaching agents.
 
@@ -98,9 +98,22 @@ PY
 | **New commit follows review** | Fresh approval required |
 | **Sensitive file lacks owner coverage** | Repair before publication |
 
-**Use the contributor's browser session.** Attempt a harmless synthetic direct edit on **`main`**. A UI directing you to a branch demonstrates the supported route. If you also test an authorized local direct push, retain the server's rejection separately.
+**Use the contributor's browser session to inspect the route.** GitHub's web editor does not edit a protected **`main`** branch. A prompt to create a branch shows the supported browser route. It does not prove the server rejected a direct push. For platform-denial evidence, have a contributor with approved local Git access attempt a harmless direct push to protected **`main`** and retain the server response. Mark this denial test Blocked when local access is unavailable.
 
 **Read `main` after denial** and confirm the revision did not change. Record actor role, attempted action, result, and source revision. An assistant promising not to publish is behavioral evidence, not a platform-permission test.
+
+**Use the contributor's own authenticated local clone for the direct-push test.** A maintainer token would test the wrong identity. This illustrative response shows the type of server evidence to retain. Exact wording varies by repository rules.
+
+```text
+Actor role: contributor
+Attempt: harmless synthetic direct push to main
+Remote result: rejected, protected branch update denied
+Initial main commit: [record sandbox commit]
+Final main commit: [record same commit after read-back]
+Decision: platform denial supported only if both records are observed
+```
+
+**If local Git authentication is unavailable, mark server-side denial Blocked.** Retain the browser branch prompt as route evidence, then ask the maintainer to arrange a separate contributor test. Do not score the route prompt as a rejected direct push.
 
 ## Build a Useful Source Map
 

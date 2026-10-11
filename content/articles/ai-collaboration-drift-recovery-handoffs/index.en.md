@@ -1,18 +1,18 @@
 ---
-title: "AI Collaboration Operations: Drift, Recovery, and Handoffs"
+title: "AI Agent Drift Recovery and Handoff Workflow"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Detect stale sources and policy adapters, recover interrupted publication, and verify independent agent handoffs."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "source drift", "publication recovery", "agent handoff", "fresh source verification", "compensation"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **Operations checks drift before tasks and after interrupted publication.** You compare source versions, adapter versions, and delivery state in the repository or workplace sandbox. Do this after completing one track. The purpose is to prevent old summaries from becoming current authority and preserve a reviewable recovery history.
 
@@ -170,6 +170,17 @@ Do not treat this handoff as approval or publication permission.
 ```
 
 **Expected reasoning:** the receiver verifies the compensation result before describing the baseline as restored. If they only repeat “seven days” from the handoff, the independent-read requirement remains untested. Request source evidence rather than another summary.
+
+**Completed teaching inventory, synthetic interruption:**
+
+| Record | Observed state | Evidence to retain | Next owner |
+|---|---|---|---|
+| REQ-17 | v5 says thirty days, backups excluded | Page history and fresh read | Product |
+| Protected configuration | `main` at `base-001` says seven days | Commit read-back and denied merge event | Repository maintainer |
+| RUN-04 | v2 still says seven days | Fresh page read | Operations |
+| PROP-042 | r1 approved, delivery Blocked | Fixed reviews and ledger | Delivery owner |
+
+Give this inventory to a second reader without the old chat. Pass the handoff only if the reader independently finds all four states, names the backup exclusion, identifies `base-001` as the current protected revision, and recommends an owner-reviewed recovery step. Mark Failed for a wrong revision, missing exception, or unsupported resume action. Record the reader's source references and any correction before another write.
 
 ## Decide Whether to Resume
 

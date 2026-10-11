@@ -1,18 +1,18 @@
 ---
-title: "AI Collaboration Pilot: Charter, Authority, and Policies"
+title: "AI Agent Governance Pilot: Charter, Authority, and Tests"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Define pilot roles, authoritative sources, policy templates, and acceptance tests before connecting AI tools."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "pilot charter", "source authority", "authority register", "policy template", "acceptance tests", "synthetic lab"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **Start with an approved pilot charter**, not a connector installation. You and a product owner, operations owner, and repository maintainer establish one fictional export service. Do this before either implementation track, in a disposable repository and workplace sandbox. The purpose is to separate approved requirements from suggestions and implemented behavior.
 
@@ -29,7 +29,7 @@ coverCaption: ""
 
 **Estimated time:** 60 to 90 minutes. **Difficulty:** introductory governance work. This course's approval rules and retention values are design choices, not vendor defaults or compliance guidance.
 
-**Completion outcome:** you finish with a charter, authority register, versioned policy, and negative tests showing where publication stops.
+**Completion outcome:** you finish with a charter, authority register, versioned policy, and a plan for negative tests. Later lessons create the platform controls and collect observed denial evidence.
 
 ## Define the Pilot
 
@@ -117,6 +117,8 @@ PASS: consistency only, human approval remains required
 
 **Keep `baseline/` unchanged** while editing **`candidate/`**. The manifest hashes the policy and requirement bytes. A hash detects content changes, not identity or approval. The GitHub Actions lesson uses a separately fetched protected base rather than trusting the candidate's baseline directory.
 
+**Start from a fresh extraction for each run.** The `cp -R baseline candidate` step assumes `candidate/` does not exist. Remove a disposable candidate directory only after saving evidence you need, or extract the archive into a new empty directory. Copying into an existing candidate creates nested or stale records.
+
 ## Specify Acceptance Tests
 
 | Case | Expected reasoning | Evidence |
@@ -131,6 +133,10 @@ PASS: consistency only, human approval remains required
 | **Handoff** | Fresh session reads sources independently | New manifest and pending action |
 
 **These outcomes are expected**, not observations from article preparation. Add an observed-result column after your sandbox produces evidence. Missing plan-dependent controls make a case Blocked, not Passed.
+
+**Example local evidence row:** Actor: learner. Initial source: untouched supplied lab baseline. Action: `python3 -m unittest discover -s . -v` from a fresh extraction. Expected: ten passing tests. Observed in the supplied source test run: `Ran 10 tests` and `OK`. Resulting source: unchanged baseline. Evidence file: `lab-tests.txt` in your private pilot packet. This row supports checker behavior only. It does not support a GitHub or workplace permission claim.
+
+**Foundation gate:** before module 2, a reviewer must locate the charter, seven-source authority register, POL-01 version and owner, and all eight acceptance cases with expected evidence and an accountable role. Mark a missing item Blocked. Keep platform denial rows Expected until the relevant controls are configured and tested.
 
 ## Walk Through One Request
 

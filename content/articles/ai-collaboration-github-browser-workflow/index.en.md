@@ -1,18 +1,18 @@
 ---
-title: "GitHub AI Collaboration for Non-Coders"
+title: "GitHub AI Workflow for Non-Coders: Issues and Pull Requests"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Use browser edits, Issues, chat context packets, and reviewed pull requests without a local development environment."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "GitHub browser editing", "GitHub Issues", "pull request", "non-coding contributors", "context packet", "review handoff"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **Non-coding contributors use the same authority rules through the browser.** You read GitHub sources, draft with an approved chat tool, and submit an Issue or branch edit. The maintainer runs checks and publishes after review. Use this workflow after repository protection is active, so browser access does not bypass the coding-agent controls.
 
@@ -25,7 +25,7 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Prerequisites:** the [agent and Actions lesson](/articles/ai-collaboration-github-agents-actions/), lab read access, and an approved chat tool if desired. **Estimated time:** 45 to 60 minutes. **Difficulty:** introductory.
+**Prerequisites:** the [repository boundary lesson](/articles/ai-collaboration-github-repository/), lab read access, and an approved chat tool if desired. **Estimated time:** 45 to 60 minutes. **Difficulty:** introductory. Issue-only contributors skip local Git and Actions. Contributors submitting a PR coordinate with a maintainer who completed the [agent and Actions lesson](/articles/ai-collaboration-github-agents-actions/).
 
 **Connector-free baseline:** open GitHub yourself and supply only synthetic excerpts. No chat subscription feature is assumed. If a provider is not approved, draft manually using the same records.
 
@@ -53,6 +53,23 @@ Stop: source unavailable, changed revision, conflicting authority
 
 **Attach actual sandbox revisions** privately. The template does not contain completed evidence. Ask the assistant to identify missing records before recommending publication.
 
+**Filled synthetic packet before a live source read:**
+
+```text
+Project: export-service-lab
+Task: draft PROP-042 in an Issue
+Approved baseline: REQ-17 revision 1, retention_days 7
+Proposal: retention_days 30, synthetic export files only
+Affected records: requirement.json, config.json, proposal.json, runbook.md
+Exclusions: production data, backups, legal holds
+Known evidence: supplied lab baseline files
+Missing evidence: current main commit, owner decisions, runtime deletion result
+Status: Draft, publication blocked until current revisions and reviews exist
+Next role: maintainer supplies verified main commit and runs checks
+```
+
+**The packet is complete as a draft request.** Its missing-evidence line is deliberate. Replace the supplied-lab baseline with live sandbox revisions before asking for publication.
+
 ## Open an Issue
 
 **Select Issues, New issue** and use the title **`PROP-042: propose thirty-day synthetic retention`**. Paste this description and attach the source packet.
@@ -76,12 +93,13 @@ Rollback: reviewed restoration of the approved baseline
 
 ## Submit Browser Edits
 
-1. **Create a proposal branch** from current **`main`**, then open the file editor on the branch. Protected branches restrict direct browser edits.
-2. **Edit the requirement** to thirty days and revision 2. Edit configuration and runbook in the same branch.
-3. **Edit `proposal.json`** with to_days 30, from_days 7, and base_revision 1.
-4. **Preview Markdown** and inspect JSON punctuation. Commit to the proposal branch.
-5. **Open a PR referencing the Issue.** Ask the maintainer to attach a fresh manifest from the protected base and run the consistency check.
-6. **Request owner reviews** at the final proposal revision. Keep delivery open until review and read-back succeed.
+1. **Open the repository's Code tab.** Select the branch menu above the file list, confirm **`main`**, type **`proposal-042`**, and choose **Create branch: proposal-042 from main**. If branch creation is unavailable, use an approved fork or the Issue route below.
+2. **Confirm `proposal-042` in the branch menu** before opening a file. Select the file and its pencil icon to edit. GitHub's web editor does not edit a protected branch.
+3. **Edit the requirement** to thirty days and revision 2. Reopen the branch menu before each remaining edit. Edit configuration and runbook on the same branch.
+4. **Edit `proposal.json`** with to_days 30, from_days 7, and base_revision 1.
+5. **Preview Markdown** and inspect JSON punctuation. Commit each browser edit to **`proposal-042`**.
+6. **Open Pull requests, then New pull request.** Compare **`proposal-042`** with **`main`**, inspect all four file changes, and create a PR referencing the Issue. Ask the maintainer to attach a fresh manifest from the protected base and run the consistency check.
+7. **Request owner reviews** at the final proposal revision. Keep delivery open until review and read-back succeed.
 
 **GitHub documents branch and fork contribution routes.** A contributor without repository write access uses an approved fork or Issue route. A fork does not grant publication access to the original repository.
 
@@ -145,6 +163,11 @@ Do not claim owner approval or delivered behavior.
 
 **The Issue route is a complete contribution**, not a failed coding exercise. You supply the intended change, evidence, scope, and review questions. The maintainer supplies the patch and manifest. You then inspect the patch for agreement with your request.
 
+| Route | Contributor completion check | Maintainer handoff |
+|---|---|---|
+| **Issue only** | Issue has a verified source packet, fixed proposed wording, exclusions, and open questions | Maintainer creates the branch, runs checks, and links the PR |
+| **PR** | One branch contains all affected files, the PR diff matches the proposal, and reviewers receive the final revision | Maintainer runs checks, obtains owner review, merges, and records read-back |
+
 **When using browser edits, stay on the proposal branch.** After the first edit creates the branch, reopen each remaining file from the same branch selector. Check the PR diff at the end. Creating four unrelated branches produces four incomplete changes rather than one reviewable package.
 
 ## Inspect the Proposed Wording
@@ -186,6 +209,15 @@ Not published. No runtime deletion service was tested.
 **Deliver an Issue or PR another maintainer executes without guessing.** It includes a source packet, proposed wording, affected records, exclusions, owner roles, and unresolved questions. After publication, capture read-back and separate it from the original proposal.
 
 **Self-check:** hand the package to someone unfamiliar with your chat. Ask them to distinguish requested, approved, and published values. If they report thirty as delivered before merge, repair the package's labels. Carry the same discipline into the workplace track.
+
+| Review gate | Pass condition |
+|---|---|
+| **Source revisions** | Every claimed commit or page version opens in the sandbox. Unknown revisions remain Missing. |
+| **Exclusions** | Production data, backups, and legal holds stay outside the proposal. |
+| **Questions** | Unresolved owner or source questions remain visible in the Issue or PR. |
+| **Approval freshness** | Reviews name the final proposal revision. Earlier approval does not cover later edits. |
+
+**Any failed gate keeps publication pending.** Issue-only contributors hand the result to the maintainer. PR contributors request another review after repairs.
 
 ## Troubleshooting and Rollback
 

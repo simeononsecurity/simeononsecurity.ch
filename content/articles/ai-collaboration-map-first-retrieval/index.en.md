@@ -1,18 +1,18 @@
 ---
-title: "AI Collaboration Retrieval: Maps, Search, and Optional RAG"
+title: "AI Source Retrieval: Maps, Search, and Optional RAG"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Use map-first source lookup, native search, live-source verification, and optional RAG evaluation without changing authority."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "source map", "native search", "retrieval-augmented generation", "RAG evaluation", "embeddings", "vector database"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **Add retrieval after publication controls work.** You start from MAP-01 and exact source IDs, then use native search for unknown records. Retrieval-augmented generation, or RAG, remains an optional discovery layer. The source owner determines authority, and the publisher checks live sources before consequential writes. This lesson applies in either lab track.
 
@@ -163,6 +163,17 @@ Observation: fill after test
 ```
 
 **Separate answer quality from access safety.** A correct answer containing unauthorized text fails the access requirement. A safe refusal with no protected text passes the tested denial expectation but does not prove ordinary discovery works. Keep both dimensions in the report.
+
+**Example observation format, synthetic lookup only:**
+
+| Question | Route | Selected source | Measured time | Result |
+|---|---|---|---|---|
+| RET-EXCEPTION | Direct map | REQ-17 v5 exceptions | 18 seconds | Pass: backups excluded, v5 named |
+| RET-EXCEPTION | Native search | REQ-17 v5 plus obsolete v4 | 41 seconds | Pass only after opening v5 and rejecting v4 |
+
+Start a timer when the learner receives the question. Stop after the learner opens sources and writes an answer with source revision and scope. Time is diagnostic, not a pass threshold. A route passes only if it selects the current governing source, preserves exclusions, names a verified revision, and returns no denied text. Record an unanswered case as Failed rather than filling an expected answer into the observed column.
+
+**No-index completion path:** run all six questions through the map and native search, keep the completed rows, explain one search failure or stale result, and choose the direct route or a map repair. An optional RAG service is not required for course completion. Leave its result Not run when no approved sandbox exists.
 
 ## Choose the Simplest Working Route
 

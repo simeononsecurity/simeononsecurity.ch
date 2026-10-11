@@ -1,18 +1,18 @@
 ---
-title: "AI Collaboration Across GitHub, Confluence, and Jira"
+title: "GitHub, Confluence, and Jira AI Publication Workflow"
 date: 2026-10-01
 lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Publish a fixed retention proposal across Confluence, GitHub, and Jira with version checks and partial-publication recovery."
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+tags: ["AI collaboration course", "Confluence Cloud", "Jira Cloud", "cross-system publication", "version check", "publication ledger", "partial publication"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""
 ---
 
-#### [Return to the AI Collaboration Course](/ai-collaboration-course-start/)
+[Return to the AI Collaboration Course](/ai-collaboration-course-start/)
 
 **The contributor freezes PROP-042 before owners approve it.** A Confluence publisher updates requirements, a GitHub maintainer merges implementation, and operations publishes the runbook. Jira records each step. Perform this after permission verification, because the three systems do not form one atomic transaction. Your publication ledger makes incomplete delivery visible.
 
@@ -152,6 +152,19 @@ Stop: changed source, missing review, denied write, failed read-back
 **Pending delivery is a meaningful state.** It avoids describing the old implementation as compliant with new intent while publication is incomplete. Readers need both values during this period, not a single summary claiming “retention is thirty.”
 
 **Append failed attempts as separate events.** If a runbook write fails, keep the successful requirement and configuration results. Record the attempted runbook action, failure, unchanged version, assigned role, and next action. Do not reset completed rows to Pending and erase the observed sequence.
+
+**Completed teaching example, synthetic values only:**
+
+| System | Initial source | Fixed review | Write and read-back | Final state |
+|---|---|---|---|---|
+| Confluence REQ-17 | v4, seven days | PROP-042 r1, product approved v4 to v5 | Publisher wrote v5, reviewer reopened v5 | Thirty days, backups and holds excluded |
+| GitHub configuration | `main` commit `base-001`, seven days | PROP-042 r1, operations approved candidate diff | PR merged as `merge-002`, independent clone read thirty | Thirty days in protected source |
+| Confluence RUN-04 | v2, seven days | PROP-042 r1, operations approved v2 to v3 | Publisher wrote v3, reviewer reopened v3 | Thirty-day operating step with rollback |
+| Jira PROP-042 | In Review | Both owner decisions tied to r1 | Delivery owner attached evidence and moved to Done | Closure after all three read-backs |
+
+The labels above are illustrative, not tenant evidence. Your ledger needs native page-version links and commit IDs. Before moving Jira to Done, attach the frozen proposal, both role reviews, the source-base record, each publication read-back, the negative-test result, and the unresolved runtime limits. If one item is missing, keep delivery open or Blocked.
+
+**Package gate:** mark each of five checks Supported or Blocked: source revisions are fresh, both owners approved the same fixed revision, all required publications match read-back, runtime limits remain explicit, and the recovery state is reconciled. Done requires five Supported checks and no unauthorized write.
 
 ## Handle an Uncertain Write
 
