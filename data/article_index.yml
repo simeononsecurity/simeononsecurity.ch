@@ -1,18 +1,21 @@
 articles:
-  # Picked from the Ahrefs backlink export (September 2026), ordered by the
-  # authority of the referring domain. The first entry loads eagerly.
-  - "/articles/modem-magic_-how-dial-up-internet-works-and-its-legacy-today"
-  - "/articles/smartwatches-for-privacy-and-security-enthusiasts"
-  - "/cyber-security-career-playbook/getting-a-job-in-cyber-security/the-best-locations-for-cybersecurity-jobs-in-the-united-states"
-  - "/articles/nextdns-vs-adguard-ad-blocker-comparison"
-  - "/articles/operating-systems_-windows,-linux,-and-macos-compared"
-  - "/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security"
-  - "/articles/best-cybersecurity-memes-pop-culture-references"
+  # Requested priority page.
+  - "/articles/flock-finder-alpr-surveillance-mapping-tool"
+  # Current Ahrefs organic top pages, 13 October 2026, all locations.
+  # Translated subdomain results use their English canonical paths. The first
+  # entry loads eagerly.
   - "/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026"
-  - "/articles/hackthebox-vs-tryhackme-what-is-best"
-  - "/guides/how-to-get-hashes-of-files-in-windows"
-  - "/other/mine-verus-on-android-guide"
-  - "/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"
+  - "/articles/how-to-install-windows-10-and-windows-11-from-scratch"
+  - "/articles/hackthebox-academy-vs-tryhackme-what-is-best"
+  - "/articles/privacy-com-virtual-debit-cards-security-privacy"
+  - "/other/install-honeygain-easily-using-docker"
+  - "/articles/protecting-your-tech_-the-best-surge-protectors"
+  - "/github/kms-auto-ps"
+  - "/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison"
+  - "/guides/how-to-setup-and-use-cloudflare-tunnels"
+  - "/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-manual-8140.03-cyberspace-workforce-qualification-and-management-program"
+  - "/articles/what-is-a-homelab-and-should-you-have-one"
+  - "/articles/active-directory-module-powershell-installation-usage-guide"
   # Long-running favorites
   - "/cyber-security-career-playbook-start"
   - "/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced"
