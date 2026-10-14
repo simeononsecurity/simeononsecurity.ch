@@ -1,7 +1,7 @@
 ---
 title: "Why DNS Filtering Is Bypassed: Test the Resolver Path"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Find why a device or browser skips your DNS filter. Compare direct and default queries, inspect logs, then check encrypted DNS, VPN, IPv6, and router settings."
@@ -12,7 +12,9 @@ coverAlt: "A laptop's blue DNS path passes through a filter and stops at a block
 coverCaption: "Trace the query path before changing the filter rule."
 ---
 
-You configured a filtering resolver, yet one device still reaches a domain your policy blocks. The cause might be the rule, the device's DNS assignment, a browser's encrypted resolver, or a VPN. **Test the path before changing settings.** A direct query to the filter and an ordinary device query answer different questions.
+You configured a filtering resolver, yet one device still reaches a domain your policy blocks. The cause might be the rule, the device's Domain Name System (DNS) assignment, a browser's encrypted resolver, or a VPN. **Test the path before changing settings.** A direct query to the filter and an ordinary device query answer different questions.
+
+<!--more-->
 
 ## Key Takeaways
 
@@ -50,21 +52,23 @@ Microsoft's [**`Resolve-DnsName`** reference](https://learn.microsoft.com/en-us/
 
 ## Trace the Device Path
 
-Use a fresh hostname to avoid a prior DNS cache entry. The following example sends one query directly to the filter and another through the laptop's normal resolver selection. The names are separate so you know which log entry belongs to each path. An **NXDOMAIN** response is normal if the random name does not exist. The query's presence in the filter log matters here.
+Use a fresh hostname to avoid a prior DNS cache entry. The following example sends one query directly to the filter and another through the laptop's normal resolver selection. The names are separate so you know which log entry belongs to each path. An **NXDOMAIN** response means the DNS server reports the hostname does not exist. This response is normal when the random name is unused. The query's presence in the filter log matters here.
 
 ```powershell
 $stamp = [guid]::NewGuid().ToString("N")
-Resolve-DnsName -Name "direct-${stamp}.example.com" -Server $filterAddress -Type A -DnsOnly -ErrorAction SilentlyContinue
-Resolve-DnsName -Name "default-${stamp}.example.com" -Type A -DnsOnly -ErrorAction SilentlyContinue
+Resolve-DnsName -Name "direct-${stamp}.example.com" -Server $filterAddress -Type A -DnsOnly
+Resolve-DnsName -Name "default-${stamp}.example.com" -Type A -DnsOnly
 ```
 
 Search the filter's log for both exact names and note the time and reported client. If **`direct-`** appears but **`default-`** does not, inspect the laptop's assigned DNS servers. On Windows, **`Get-DnsClientServerAddress`** shows DNS server addresses by interface. Check the active Wi-Fi or Ethernet adapter, not a disconnected adapter. [Microsoft's DNS client reference](https://learn.microsoft.com/en-us/powershell/module/dnsclient/get-dnsclientserveraddress) defines this read-only command.
+
+Leave errors visible during the first test. An error or timeout needs separate diagnosis from an absent query-log entry.
 
 ```powershell
 Get-DnsClientServerAddress | Select-Object InterfaceAlias, AddressFamily, ServerAddresses
 ```
 
-Compare IPv4 and IPv6 rows. An IPv4 lease might name the filter while IPv6 router advertisements supply another DNS server. Check the router's **DHCP** and **IPv6 DNS** advertisements, then renew the device's network lease after a correction. Pi-hole's [post-install guide](https://docs.pi-hole.net/main/post-install/) explains how DHCP points clients at Pi-hole. Its [router example](https://docs.pi-hole.net/routers/fritzbox/) covers IPv6 DNS advertisements.
+Compare IPv4 and IPv6 rows. **DHCP** assigns network settings such as DNS servers. **IPv6** is the newer Internet Protocol address family that uses 128-bit addresses. An IPv4 lease might name the filter while IPv6 router advertisements supply another DNS server. Check the router's **DHCP** and **IPv6 DNS** advertisements, then renew the device's network lease after a correction. Pi-hole's [post-install guide](https://docs.pi-hole.net/main/post-install/) explains how DHCP points clients at Pi-hole. Its [router example](https://docs.pi-hole.net/routers/fritzbox/) covers IPv6 DNS advertisements.
 
 If the log shows the **router** as the client, the router might be forwarding queries on behalf of devices. The filter log then proves the router reached the filter, not which device originated each query. Confirm the router's forwarding design before treating client identity as missing data.
 
@@ -103,3 +107,7 @@ A **VPN** might supply its own DNS resolver or send queries through the tunnel. 
 Change one layer at a time. Correct DHCP or IPv6 DNS advertisements, remove an unintended static resolver, select the intended browser DNS provider, or adjust the VPN's DNS policy. Do not silently weaken encrypted DNS or relay protections across every device to solve one test failure. Record the source device, interface, filter address, queried name, time, response, log client, browser mode, VPN state, and change made.
 
 Rerun the **direct**, **default**, and **browser** tests after each change. Keep a fresh hostname for each run. If a device has several network profiles, test each profile separately. The site's [DNS resolver comparison](/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/) helps choose a service. The [browser leak test](/articles/privacy-browser-leak-test-dns-webrtc/) addresses a different question: which network information leaves your browser and VPN setup. **A reliable filter result needs a verified rule and a verified client path.**
+
+## Next Steps
+
+Repeat the direct, default, and browser tests after each controlled change. Review the [DNS resolver comparison](/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/) when selecting a filtering service.

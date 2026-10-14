@@ -1,7 +1,7 @@
 ---
 title: "Migrate a Hyper-V VM to Proxmox VE: A Reversible Checklist"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Move one Hyper-V virtual machine to Proxmox VE with a stopped-source export, matched firmware, disk import, isolated boot test, and rollback plan."
@@ -12,7 +12,9 @@ coverAlt: "A disk moves across a bridge from a blue server rack to an orange ser
 coverCaption: "Keep the source VM available until the new guest passes its cutover checks."
 ---
 
-A **Hyper-V export** preserves a virtual machine's files, while Proxmox VE needs a new guest configuration and an imported disk. A successful copy alone does not prove the guest will boot or serve users. This checklist moves one VM through a stopped-source export, a controlled boot test, and a cutover with a clear return path.
+A **Hyper-V export** preserves a virtual machine's files, while Proxmox VE needs a new guest configuration and imported VHDX virtual disk files. A successful copy alone does not prove the guest will boot or serve users. This checklist moves one VM through a stopped-source export, a controlled boot test, and a cutover with a clear return path.
+
+<!--more-->
 
 ## Key Takeaways
 
@@ -31,15 +33,19 @@ This procedure covers a conventional VM with virtual disks. **Shielded VMs, pass
 |---|---|
 | **VM generation and firmware** | Select SeaBIOS or OVMF on Proxmox |
 | **Secure Boot state and template** | Match the boot policy and enroll compatible keys |
-| **Boot and data disks** | Import every required disk in the right order |
+| **Boot and data disks** | Import every required VHDX virtual disk file in the right order |
 | **Checkpoints and AVHDX files** | Avoid treating a differencing disk as an independent base disk |
 | **IP, DNS, MAC, and VLAN** | Restore reachability without creating a duplicate identity |
 | **vTPM and BitLocker** | Prepare recovery before virtual hardware changes |
 | **Services and data checks** | Define evidence for success and rollback |
 
+Generation 1 uses legacy BIOS. Generation 2 uses Unified Extensible Firmware Interface (UEFI). An **AVHDX file** is a Hyper-V differencing disk linked to a base VHDX. A **vTPM** is a virtual Trusted Platform Module used by BitLocker and other security features. A **VLAN** is a separate logical network carried over shared network hardware.
+
+**SeaBIOS** provides legacy BIOS firmware. **OVMF** provides UEFI firmware. **VirtIO** is a fast virtual device interface that needs guest drivers. An **initramfs** is the early Linux startup file system that loads drivers before the main system starts.
+
 ## Inventory the Hyper-V VM
 
-Run these read-only commands in an elevated PowerShell session on the Hyper-V host. Enter the VM name when prompted:
+Run these read-only commands in an elevated PowerShell session on the Hyper-V host. These are untested examples. Confirm each command against the installed Hyper-V module and your change procedure before use. Enter the VM name when prompted:
 
 ```powershell
 $vmName = Read-Host "Hyper-V VM name"
@@ -58,7 +64,7 @@ Get-VMFirmware -VMName $vmName | Format-List *
 Get-VMSecurity -VMName $vmName | Format-List *
 ```
 
-Record the **Secure Boot** state, template, and vTPM setting. Microsoft's [**`Get-VMFirmware`** reference](https://learn.microsoft.com/en-us/powershell/module/hyper-v/get-vmfirmware) limits the command to Generation 2. [**`Get-VMSecurity`**](https://learn.microsoft.com/en-us/powershell/module/hyper-v/get-vmsecurity) reports the VM security configuration. Do not run **`Get-VMFirmware`** against a Generation 1 guest.
+Record the **Secure Boot** state, template, and vTPM setting. Microsoft's [**`Get-VMFirmware`** reference](https://learn.microsoft.com/en-us/powershell/module/hyper-v/get-vmfirmware) limits the command to Generation 2. [**`Get-VMSecurity`**](https://learn.microsoft.com/en-us/powershell/module/hyper-v/get-vmsecurity) reports the VM security configuration. Do not run **`Get-VMFirmware`** against a Generation 1 guest. A **MAC address** identifies a network interface. **DNS** maps names to addresses. **DHCP** assigns network settings. An **EFI disk** stores UEFI settings.
 
 **Resolve checkpoints before the final export.** Microsoft says a Hyper-V export gathers checkpoint files as well as VHDX disks. Deleting a checkpoint through Hyper-V merges its differencing disk. Never delete an **`.avhdx`** file in the filesystem to clear a checkpoint. If a merge fails or a disk chain looks incomplete, stop and follow [Microsoft's checkpoint recovery guidance](https://learn.microsoft.com/en-us/troubleshoot/windows-server/virtualization/hyper-v-snapshots-checkpoints-differencing-disks). [Microsoft's checkpoint guide](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/checkpoints) explains normal deletion and merging.
 
@@ -71,12 +77,14 @@ Shut down the guest cleanly. Confirm Hyper-V shows **Off**, not Saved. Wait for 
 ```powershell
 $vmName = Read-Host "Stopped Hyper-V VM name"
 $exportPath = Read-Host "Export destination directory"
+$vm = Get-VM -Name $vmName -ErrorAction Stop
+if ($vm.State -ne 'Off') { throw "Stop the VM and wait for Hyper-V to show Off before exporting." }
 Export-VM -Name $vmName -Path $exportPath
 ```
 
 [Microsoft's export guide](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/deploy/export-and-import-virtual-machines) says an export contains virtual disks, configuration, and checkpoint files. Its [**`Export-VM`** reference](https://learn.microsoft.com/en-us/powershell/module/hyper-v/export-vm) defines the command. Confirm the expected disk files and sizes at the destination. Retain the stopped source VM and its independent backup. **Do not modify the exported files while importing them.**
 
-Transfer the VHDX files to a path accessible from the Proxmox host. Check available capacity on both the transfer location and target storage. Preserve an untouched export for rollback. If the export contains **`.avhdx`** files, do not pick a base **`.vhdx`** by filename and assume it contains the latest writes. Resolve the disk chain on Hyper-V before continuing.
+Transfer the VHDX files to a path accessible from the Proxmox host. Treat the export as sensitive guest data. Use encrypted transport, restrict access to the transfer location and target storage, and remove temporary copies after validation. Check available capacity on both the transfer location and target storage. Preserve an untouched export for rollback. If the export contains **`.avhdx`** files, do not pick a base **`.vhdx`** by filename and assume it contains the latest writes. Resolve the disk chain on Hyper-V before continuing.
 
 ## Create the Proxmox Shell
 
@@ -92,6 +100,8 @@ Create a new VM in the Proxmox web interface with the guest OS type, CPU, and me
 Microsoft's [VM generation guide](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/plan/Should-I-create-a-generation-1-or-2-virtual-machine-in-Hyper-V) maps Generation 1 to legacy BIOS and Generation 2 to UEFI. Proxmox's [VM documentation](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) documents SeaBIOS, OVMF, and the EFI disk used to keep UEFI settings. **Match the source boot mode.** Changing it during migration creates another boot problem to diagnose.
 
 For a Generation 2 source, match whether **Secure Boot** was enabled. Check the source template and select compatible enrolled keys for the guest. Hyper-V template names do not transfer to Proxmox. Proxmox's 4 MB EFI disk and **Pre-Enroll keys** option supply Secure Boot keys and enable Secure Boot by default. Verify the target's boot behavior before cutover. [Microsoft's firmware reference](https://learn.microsoft.com/en-us/powershell/module/hyper-v/set-vmfirmware) describes the source template requirement. [Proxmox's EFI disk documentation](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) describes the target keys.
+
+Before changing EFI keys, verify the recovery key is escrowed and record the current protector IDs. Follow the installed Proxmox VE and OVMF documentation for EFI-key enrollment. Reconfirm the recovery key and verify `manage-bde -status` before first boot. Do not suspend, disable, or delete protectors as a generic migration step. Record the firmware package version, Secure Boot state and firmware version, and BitLocker state.
 
 If the source uses a **vTPM**, add **TPM State** in Proxmox's Hardware panel before the first boot. Select **version 2.0** unless the source guest has a documented requirement for version 1.2. This creates new TPM state, not a copy of the Hyper-V vTPM. A BitLocker guest needs its verified recovery key at first boot. Proxmox's [TPM documentation](https://github.com/proxmox/pve-docs/blob/master/qm.adoc) describes the Hardware action and versions.
 
@@ -146,3 +156,7 @@ When the application checks pass, switch its production network path or address 
 If a required test fails before the rollback deadline, stop the Proxmox VM and disconnect its production network. Restore the source network path, then start the original Hyper-V VM. **Never run both copies with the same production identity.** Record any writes accepted by the Proxmox copy before returning to Hyper-V. Those writes need separate recovery or reconciliation because the source disk did not receive them.
 
 Keep the source VM and export until the Proxmox guest has passed your service checks, a new backup, an isolated restore test, and an agreed observation period. The site's [virtualization comparison](/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/) helps with platform choice. The [Proxmox upgrade guide](/articles/proxmox-ve-8-to-9-upgrade-guide/) covers a later maintenance task. **A migration ends after the workload and recovery path work on the new host, not when the disk import completes.**
+
+## Next Steps
+
+Keep the source VM and export until workload checks, backup checks, and rollback checks pass during the agreed observation period. Review the [Proxmox VM backup restore drill](/articles/proxmox-vm-backup-restore-drill/) before retiring the source.

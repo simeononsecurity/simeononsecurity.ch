@@ -1,7 +1,7 @@
 ---
-title: "Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents"
+title: "Bitbucket Cloud SSH Keys: Read-Only Git Access for AI Agents"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Set up Bitbucket Cloud SSH keys, Git CLI access, REST API tokens, 1Password, and MCP tools for read-only AI agent workflows."
@@ -12,7 +12,7 @@ coverAlt: "A terminal workflow connecting Bitbucket Cloud Git access, scoped SSH
 coverCaption: ""
 ---
 
-**A bounded agent workflow separates repository reads, API reads, secret handling, and remote writes.** Use Git over SSH for source access, a read-only Bitbucket access key for automated checkout, the REST API for metadata, and an MCP server for approved tools. Store private keys and API tokens in 1Password. Keep writes behind a human approval step.
+**A bounded agent workflow separates repository reads, API reads, secret handling, and remote writes.** Use Git over Secure Shell (SSH) for source access, a read-only Bitbucket access key for automated checkout, the REST API for metadata, and a Model Context Protocol (MCP) server for approved tools. Store private keys and API tokens in 1Password. Keep writes behind a human approval step.
 
 <!--more-->
 
@@ -27,7 +27,7 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Prerequisites:** Bitbucket Cloud access, Git, an OpenSSH client, a configured 1Password account, and an MCP host with server approval controls. Set aside 45 minutes. Difficulty is intermediate.
+**Prerequisites:** Bitbucket Cloud access, Git, an OpenSSH client, 1Password 8, 1Password CLI, a signed-in CLI or approved service account, and an MCP host with server approval controls. Set aside 45 minutes. Difficulty is intermediate.
 
 Use a test repository for the first pass. Replace every placeholder in the examples. The commands below are untested examples. They do not represent a live Bitbucket account or repository.
 
@@ -71,7 +71,7 @@ For private-key custody and 1Password SSH Agent consent, see [1Password CLI and 
 The phrase **Bitbucket CLI** often mixes three different interfaces. Keep them separate.
 
 - **Git CLI:** `git clone` and `git fetch` move repository data over SSH or HTTPS. `git diff` compares local files or revisions.
-- **REST client:** `curl` or a reviewed wrapper calls Bitbucket Cloud API endpoints for repository, source, branch, pull request, pipeline, and status data. The [Bitbucket Cloud REST API reference](https://developer.atlassian.com/cloud/bitbucket/rest/) lists the available resource groups.
+- **REST client:** `curl` or a reviewed wrapper calls the Bitbucket Cloud Representational State Transfer (REST) API. An API is a programmatic interface for requesting data or actions. The [Bitbucket Cloud REST API reference](https://developer.atlassian.com/cloud/bitbucket/rest/) lists repository, source, branch, pull request, pipeline, and status resources.
 - **Atlassian CLI:** `acli` is Atlassian's official command line. Its [introduction](https://developer.atlassian.com/cloud/acli/guides/introduction/) describes the product, while its [command reference](https://developer.atlassian.com/cloud/acli/reference/commands/) lists `admin`, `jira`, `feedback`, and `rovodev` surfaces. The reference does not document Bitbucket Cloud commands.
 
 **Atlassian's official `acli` command reference does not document Bitbucket Cloud commands.** Do not invent a command such as `acli bitbucket clone`. Use Git for Git operations and the REST API for Bitbucket Cloud data.
@@ -81,10 +81,10 @@ The phrase **Bitbucket CLI** often mixes three different interfaces. Keep them s
 **Atlassian also publishes the Teamwork Graph CLI, or `twg`.** Its [overview](https://developer.atlassian.com/cloud/twg-cli/) and [command catalog](https://developer.atlassian.com/platform/teamwork-graph/twg-cli/commands/commands-catalog/) document Bitbucket command families. The setup command is:
 
 ```bash
-twg setup bitbucket
+twg setup
 ```
 
-The setup command changes local authentication state. The CLI's Bitbucket token path is separate from Atlassian OAuth. Keep exact command syntax tied to the installed version and current command catalog. Use a separate profile, a restricted token, reviewed installed skills, and human approval for mutating commands.
+The setup command changes local authentication state. Follow the installed version's prompts for optional Bitbucket token configuration. The CLI's Bitbucket token path is separate from Atlassian OAuth. Keep exact command syntax tied to the installed version and current command catalog. Use a separate profile, a restricted token, reviewed installed skills, and human approval for mutating commands.
 
 **Expected result, untested:** The isolated profile receives Bitbucket authentication settings. Record the previous profile state before setup. Remove the saved credential through the installed version's documented logout or configuration-removal procedure during rollback.
 
@@ -182,7 +182,7 @@ sh -c 'curl --fail --silent --show-error \
   --header "Accept: application/json"'
 ```
 
-Keep `/path/to/agent.env` outside the repository. Store a reference such as `BITBUCKET_API_TOKEN=op://synthetic-vault/synthetic-api-token/credential` in the file. `op run` resolves the reference for the curl child process and removes the value with the process. Do not replace the placeholder with a literal token.
+Keep `/path/to/agent.env` outside the repository. Store a reference such as `BITBUCKET_API_TOKEN=op://synthetic-vault/synthetic-api-token/credential` in the file. `op run` resolves the reference and exposes the value to the curl child process for the subprocess lifetime. It does not prevent the child process from reading or logging the environment value. Do not replace the placeholder with a literal token.
 
 **Expected output:** JSON metadata for the selected repository. Untested example. The placeholder must never become a real token in a committed file or log.
 
@@ -198,17 +198,21 @@ The 2025-06-18 specification URL in the next paragraph is a historical version. 
 
 The [MCP specification](https://modelcontextprotocol.io/specification/2025-06-18) defines communication between an MCP host, client, and server. A server exposes tools, resources, or prompts through the protocol. MCP standardizes the connection format. The host, server implementation, account, token scope, and approval policy still decide what a call reaches.
 
-Use an MCP server as a narrow adapter over Git and the Bitbucket Cloud REST API. Example read tools include:
+Use an MCP server as a narrow adapter over Git and the Bitbucket Cloud REST API.
 
-Protect this adapter against token passthrough, confused-deputy behavior, SSRF, malicious local servers, unsafe OAuth redirects, and oversized source-data returns. Fix allowed Bitbucket origins and repository identifiers. Run local servers in a sandbox with a dedicated operating-system user. Redact secrets from tool results and logs.
+Protect this adapter against token passthrough, server-side request forgery (SSRF), and confused-deputy behavior. SSRF lets a server send requests to unintended destinations. Confused-deputy behavior occurs when a server uses broader privileges on behalf of a caller. Also protect against malicious local servers, unsafe OAuth redirects, and oversized source-data returns. Fix allowed Bitbucket origins and repository identifiers. Run local servers in a sandbox with a dedicated operating-system user. Redact secrets from tool results and logs.
 
 This section describes a design, not a tested MCP configuration. No client, server, transport, version, or fixture is pinned here. Validate one read-only server in a separate test profile before connecting an agent to a production repository.
 
-- **`get_repository_metadata`:** return one repository's metadata.
-- **`read_source_file`:** read one path at one revision.
-- **`list_branches`:** list branches for one repository.
-- **`get_pull_request`:** return one pull request after the token has pull request read scope.
-- **`get_build_status`:** return status data for one commit.
+Example read tools include:
+
+| Tool | Bounded result |
+|---|---|
+| **`get_repository_metadata`** | Return one repository's metadata |
+| **`read_source_file`** | Read one path at one revision |
+| **`list_branches`** | List branches for one repository |
+| **`get_pull_request`** | Return one pull request after the token has pull request read scope |
+| **`get_build_status`** | Return status data for one commit |
 
 These names describe a design. They are not Atlassian command names. Keep the server from accepting arbitrary URLs, arbitrary shell commands, raw tokens, private-key export requests, or unrestricted repository identifiers.
 
@@ -250,7 +254,7 @@ Rollback starts with access removal, then local configuration cleanup:
 
 Record each removal, the operator, and the time. Rotate a key or token when a value entered an unexpected log, process record, or transcript.
 
-## A Safe Read-Only Loop
+## A Remote-Read Loop With Local Reference Updates
 
 Use a small loop for recurring repository inspection:
 
@@ -261,7 +265,9 @@ git -C "$LOCAL_REPO" status --short --branch
 git -C "$LOCAL_REPO" log -1 --format='%H %ad %s' --date=iso-strict
 ```
 
-**Expected output:** a fetch result, branch status, and one commit line. Untested example. Fetch updates local Git references and `FETCH_HEAD`. The loop does not push or change branches.
+`HEAD` means the repository's current checked-out reference. A successful result proves one permitted SSH identity reached the named repository. It does not prove which key was selected or whether push access exists.
+
+**Expected output:** a fetch result, branch status, and one commit line. Untested example. `fetch` performs no remote write, but it updates local references and `FETCH_HEAD`. The loop does not push or change branches.
 
 The MCP server should expose the same read boundary through named operations. A local shell wrapper or MCP tool should reject a write verb before sending a request. Log the tool name, repository placeholder, revision, result class, and duration. Redact tokens, cookies, private paths, and file contents unless the task explicitly needs one file.
 

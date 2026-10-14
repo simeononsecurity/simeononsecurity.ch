@@ -1,7 +1,7 @@
 ---
 title: "Build a Read-Only Active Directory Inventory With PowerShell"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Inventory Active Directory OUs, users, and computers with scoped PowerShell queries. Export reviewable CSV files without changing directory objects."
@@ -13,6 +13,8 @@ coverCaption: "Scope the query, then export only the fields needed for review."
 ---
 
 An Active Directory cleanup starts with a trustworthy list of what exists. This **read-only inventory** gathers organizational units, users, and computers from one chosen scope. It exports three comma-separated values (CSV) files for review without changing directory objects. You still need to protect those files because names and device details reveal part of your environment.
+
+<!--more-->
 
 ## Key Takeaways
 

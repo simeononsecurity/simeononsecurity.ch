@@ -1,7 +1,7 @@
 ---
 title: "Test Guest and IoT Isolation on a Mesh Wi-Fi Network"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Verify whether your mesh guest and IoT networks block access to your home devices. Use a known working service, test each network, and record the limits."
@@ -14,6 +14,8 @@ coverCaption: "Test guest, IoT, and main-network paths separately."
 
 A separate Wi-Fi name does not reveal which devices communicate with each other. A mesh system might treat its **guest network**, **IoT network**, and **wireless client isolation** as different controls. This guide helps you test the paths on your own equipment without assuming a vendor's label describes your policy.
 
+<!--more-->
+
 ## Key Takeaways
 
 - **Prove the target works first:** Reach a known service from your main network before testing a blocked path.
@@ -23,11 +25,13 @@ A separate Wi-Fi name does not reveal which devices communicate with each other.
 
 ## Before You Begin
 
-Allow about 20 minutes. You need a laptop able to join your main, guest, and IoT Wi-Fi networks. You also need a trusted device on the main network with a **known open TCP service**, such as a NAS web interface. Use a service you own or administer. Note its local address and port without publishing them. Keep the service running throughout the test.
+Allow about 20 minutes. You need a laptop able to join your main, guest, and IoT Wi-Fi networks. You also need a trusted device on the main network with a **known open TCP service**, such as a NAS web interface. A TCP service is a network service listening on a numbered port, such as a NAS web page on port 443. Use a service you own or administer. Note its local address and port without publishing them. Keep the service running throughout the test.
 
 Write down the mesh model, firmware version, operating mode, and the settings for guest access, IoT access, shared devices, and client isolation. Confirm the laptop's Wi-Fi name after every switch. Disconnect a VPN or proxy for this local-path test if your normal policy permits the change, then restore the VPN or proxy afterward. A VPN changes the route under test.
 
 > **Warning:** Test only your own devices or devices you have permission to administer. A router's login page is a poor substitute for a main-network host because gateway access follows separate rules.
+
+A **local area network (LAN)** is your private home network. **IoT**, or Internet of Things, includes devices such as cameras, speakers, and smart plugs. **Client isolation** blocks direct device-to-device traffic on one Wi-Fi network.
 
 ## Define the Boundary
 
@@ -78,7 +82,7 @@ Switch back to the main network and confirm the service still returns `True`. If
 
 If you expect guests to be isolated from each other, use two devices you control on the guest network. Test a known service on one device from the other. Record this separately from guest-to-main access. If you expect a shared printer or display to work, test the intended exception as well. Cloud control of a smart device does not prove a direct local path.
 
-Repeat the guest-to-main test near each mesh node. Confirm the serving node in the app when the app reports one. If the main host supports IPv6 and the main-network positive control succeeds over IPv6, repeat the same address-family test from guest and IoT Wi-Fi. An IPv4-only pass does not cover an IPv6 path.
+Repeat the guest-to-main test near each mesh node. Confirm the serving node in the app when the app reports one. **IPv6** is the newer Internet Protocol address family that uses 128-bit addresses. If the main host supports IPv6 and the main-network positive control succeeds over IPv6, repeat the same address-family test from guest and IoT Wi-Fi. An IPv4-only pass does not cover an IPv6 path.
 
 ## Interpret a Mismatch
 
@@ -94,8 +98,12 @@ A failed **ping** does not settle the TCP question. A host firewall might block 
 
 ## Fix and Record the Result
 
-Change one control at a time. On a Deco in access-point mode, inspect **Allow Local Access**. On an ASUS guest profile, inspect **Access Intranet**. On Google Nest Wifi, remove an unintended item from **Shared devices**. If you need local smart-home control, decide which device must reach which service before adding an exception. The site's [VLAN segmentation plan](/articles/homelab-vlan-segmentation-plan/) covers a managed network when a consumer mesh lacks the access rule you need.
+Change one control at a time. On a Deco in access-point mode, inspect **Allow Local Access**. On an ASUS guest profile, inspect **Access Intranet**. On Google Nest Wifi, remove an unintended item from **Shared devices**. If you need local smart-home control, decide which device must reach which service before adding an exception. A **VLAN** is a logical network carried over shared hardware. The site's [VLAN segmentation plan](/articles/homelab-vlan-segmentation-plan/) covers a managed network when a consumer mesh lacks the access rule you need.
 
-Record the mesh model, firmware, operating mode, node, SSID, source device, destination service, address family, expected result, actual result, and the single change made. Do not publish private addresses or network passwords. Repeat the same tests after firmware updates, node changes, or a switch between router and access-point modes.
+Record the mesh model, firmware, operating mode, node, Wi-Fi network name, source device, destination service, address family, expected result, actual result, and the single change made. Do not publish private addresses or network passwords. Repeat the same tests after firmware updates, node changes, or a switch between router and access-point modes.
 
 If you are still choosing equipment, compare features in the site's [mesh Wi-Fi buying guide](/articles/best-wifi-mesh-system-for-consumers/). Then use this procedure to verify the network you install. **A label or app toggle is a claim. A positive control and a matched retest give you evidence for the exact path you care about.**
+
+## Next Steps
+
+Repeat the isolation tests after firmware, node, or operating-mode changes. Use the [VLAN segmentation plan](/articles/homelab-vlan-segmentation-plan/) when mesh controls do not meet the required boundary.

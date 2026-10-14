@@ -1,7 +1,7 @@
 ---
 title: "Test Browser DNS and WebRTC Leaks With a VPN"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Check your browser's public IP, DNS resolver, and WebRTC addresses before and after connecting a VPN. Interpret results and isolate routing problems."
@@ -12,7 +12,9 @@ coverAlt: "A browser window with three panels for public IP, DNS, and peer conne
 coverCaption: "Compare each network path before and after connecting your VPN."
 ---
 
-A VPN connection icon does not prove every browser request follows the same route. Test your **public IP**, **DNS resolver**, and **WebRTC addresses** separately. Each result answers a different question. This guide gives you a repeatable check and a way to investigate an unexpected result.
+A virtual private network (VPN) connection icon does not prove every browser request follows the same route. Test your **public IP**, **Domain Name System (DNS) resolver**, and **WebRTC addresses** separately. Each result answers a different question. This guide gives you a repeatable check and a way to investigate an unexpected result.
+
+<!--more-->
 
 ## Key Takeaways
 
@@ -24,6 +26,8 @@ A VPN connection icon does not prove every browser request follows the same rout
 ## Before You Begin
 
 Use the browser and network connection you intend to protect. Know whether your VPN should cover the whole device or only selected apps. If your VPN uses split tunneling, record whether the test browser belongs inside the tunnel. Keep the VPN client's DNS policy available for comparison.
+
+**Split tunneling** sends selected apps through the VPN while other apps use the normal network.
 
 This procedure uses [BrowserLeaks IP](https://browserleaks.com/ip), [DNS](https://browserleaks.com/dns), and [WebRTC](https://browserleaks.com/webrtc) pages. The service sees your connection address when you visit. Its DNS test asks the browser to resolve 50 random names, according to the test description. Avoid running an external test on a managed or restricted network without approval. Do not paste credentials, internal hostnames, or private browsing records into a test site.
 
@@ -37,7 +41,7 @@ This procedure uses [BrowserLeaks IP](https://browserleaks.com/ip), [DNS](https:
 | **DNS resolver** | Servers observed during new name lookups | Where every app sends DNS |
 | **WebRTC** | Local and public connection candidates | Which candidate a later call uses |
 
-The public IP page reports the address used for its web request. The DNS page triggers new lookups and reports the resolvers serving them. The WebRTC page checks addresses exposed through a browser peer connection. [RFC 8828](https://datatracker.ietf.org/doc/html/rfc8828) explains why WebRTC's connection candidates sometimes contain addresses beyond the one seen by an ordinary web request, especially with split tunnels or proxies.
+The public IP page reports the address used for its web request. The DNS page triggers new lookups and reports the resolvers serving them. WebRTC, short for Web Real-Time Communication, lets browser applications establish peer connections. The WebRTC page checks addresses exposed during those connections. An **ICE candidate** is a possible network address for a peer connection. A **VPN exit** is the public address used after traffic leaves the VPN. [RFC 8828](https://datatracker.ietf.org/doc/html/rfc8828) explains why WebRTC's connection candidates sometimes contain addresses beyond the one seen by an ordinary web request, especially with split tunnels or proxies.
 
 A DNS server owned by your VPN provider, a separate resolver selected inside the VPN, or a browser-selected encrypted resolver all produce different names in a test. A resolver name alone does not identify a leak. Compare the name with the policy you intended to use.
 
@@ -96,3 +100,7 @@ If your browser or VPN offers a documented WebRTC IP handling control, read its 
 | **Retest** | New result and any remaining uncertainty |
 
 Run the check again after browser, VPN, or network configuration changes. One clean result covers the tested browser, profile, network, and moment. A clean result does not establish anonymity or cover every app. If you are still choosing a browser, use the site's [privacy browser comparison](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/) for features, then run this test on your own setup.
+
+## Next Steps
+
+Repeat the test after browser, VPN, or network changes. Use the [privacy browser comparison](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/) when choosing a browser.

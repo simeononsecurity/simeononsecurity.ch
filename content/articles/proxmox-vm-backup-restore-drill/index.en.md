@@ -1,7 +1,7 @@
 ---
 title: "Proxmox VM Backup Restore Drill: Prove the Guest Works"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Test a Proxmox VM backup with an isolated restore. Check disk coverage, backup mode, guest data, service health, and recovery time without touching production."
@@ -14,7 +14,11 @@ coverCaption: "A completed backup job is the start of a recovery test."
 
 A green backup task tells you Proxmox wrote a backup. The task does not show whether the guest boots, its data is recent, or its main service works. **Restore a copy under a new VM ID on an isolated network.** The result gives you evidence for recovery before an outage forces the test.
 
+<!--more-->
+
 This drill covers one **Proxmox VE virtual machine**. Containers have different backup rules, especially for bind and device mounts. The site's [homelab backup restore drill](/articles/homelab-backup-restore-drill/) covers broader file recovery. Here, you will test a Proxmox VM backup and its workload.
+
+A **guest** is the operating system running inside a virtual machine. **Bind mounts** and **device mounts** expose host resources to a guest. Test those resources through a separate recovery plan.
 
 ## Key Takeaways
 
@@ -25,20 +29,22 @@ This drill covers one **Proxmox VE virtual machine**. Containers have different 
 
 ## Before You Begin
 
-Choose a VM whose backup is safe to test. You need Proxmox administrator access, a completed backup on file storage or Proxmox Backup Server (PBS), enough space for a second VM, and an isolated bridge or disconnected network device. Keep the production VM running. Reserve a new VM ID, such as **920**, after checking whether another guest uses the ID. Plan enough time for a full restore and a workload test.
+Choose a VM whose backup is safe to test. You need Proxmox administrator access, a completed backup on file storage or Proxmox Backup Server (PBS), enough space for a second VM, and an isolated bridge or disconnected network device. An isolated bridge is a Proxmox virtual network with no route to your production LAN. Use a disconnected adapter or a test VLAN when you do not have one. Keep the production VM running. Reserve a new VM ID, such as **920**, after checking whether another guest uses the ID. Plan enough time for a full restore and a workload test.
 
 Write the pass condition before restoring. For a file server, pick a recent file and its expected checksum or contents. For a database, pick a safe read query and a record written before the backup. For a web service, pick a local health check and a representative page. Record the latest acceptable data timestamp, your **recovery point objective (RPO)**, and the time allowed to restore service, your **recovery time objective (RTO)**. A boot screen alone does not meet these checks.
 
 | Record | Example evidence |
 |---|---|
-| Backup point | Snapshot time and the last expected data item |
-| Recovery target | Unused VM ID, target storage, isolated bridge |
-| Workload test | Login, volume mount, and application read |
-| Time limit | Start and finish time of the restore and service check |
+| **Backup point** | Snapshot time and the last expected data item |
+| **Recovery target** | Unused VM ID, target storage, isolated bridge |
+| **Workload test** | Login, volume mount, and application read |
+| **Time limit** | Start and finish time of the restore and service check |
 
 Do not attach the restored guest to the production network before reviewing its name, IP address, MAC address, scheduled jobs, and external integrations. A copied identity might conflict with the running VM or send duplicate work.
 
 ## Inspect What the Backup Covers
+
+**Version scope:** These examples were not executed during article preparation. Record the output of `pveversion --verbose` before testing. Use documentation matching the installed Proxmox VE release. Record the storage backend, guest type, and command output in the drill record.
 
 On a Proxmox node, the following read-only command shows the source VM configuration. Replace **120** with your source VM ID:
 
@@ -56,7 +62,7 @@ Check the latest backup's timestamp, size, task log, and storage location. In th
 | **Stop** | Shuts down the guest for the backup start and gives the strongest consistency. | Use when the workload requires a clean shutdown and the downtime is acceptable. |
 | **Suspend** | Suspends before snapshot mode and adds downtime without a general consistency benefit. | Avoid selecting suspend as a default improvement over snapshot. |
 
-These mode tradeoffs come from [Proxmox's backup mode reference](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc). A running guest with its QEMU guest agent enabled and healthy supports filesystem freeze and thaw during snapshot backup. Filesystem freeze improves consistency but does not replace a database-specific recovery check. Record the actual mode and guest-agent state instead of assuming a scheduled job uses your preferred settings.
+These mode tradeoffs come from [Proxmox's backup mode reference](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc). A **QEMU guest agent** is a service inside the guest that lets Proxmox request actions such as filesystem freeze and thaw. A running guest with its guest agent enabled and healthy supports those actions during snapshot backup. Filesystem freeze improves consistency but does not replace a database-specific recovery check. Record the actual mode and guest-agent state instead of assuming a scheduled job uses your preferred settings.
 
 ## Create or Select a Recovery Point
 
@@ -82,7 +88,7 @@ qmrestore /path/to/vzdump-qemu-120-2026_10_11-02_00_00.vma.zst 920 --storage loc
 
 The [Proxmox restore description](https://github.com/proxmox/pve-docs/blob/master/qmrestore.adoc) says a restore without a target storage tries the original storage. Set **`--storage`** when the old storage does not exist on the test node. Do not use **`--force`** for a drill. The option permits overwriting an existing VM, while this procedure requires an unused ID. PBS backups also restore through the Proxmox interface. Select the storage entry for the PBS snapshot rather than treating the snapshot as a local `.vma.zst` file.
 
-Before first boot, inspect the restored VM's hardware and **Network Device**. Disconnect the adapter or attach the adapter to an isolated bridge without a path to production. If the workload needs another test service, provide a test copy on the isolated network. Compare disk mappings, firmware, virtual TPM requirements, and any special devices with the source. External disks, passed-through devices, and secrets stored outside the VM need separate plans.
+Before first boot, inspect every restored network interface, including secondary and passthrough interfaces. A **MAC address** identifies a network interface. **DNS** maps names to addresses. **DHCP** assigns network settings. A **VLAN** is a logical network carried over shared hardware. A **virtual TPM** stores security state for a guest. Disconnect every interface or connect every interface only to an isolated test segment. Confirm no production route, DNS path, DHCP service, management network, or external integration remains reachable. If the workload needs another test service, provide a test copy on the isolated network. Compare disk mappings, firmware, virtual TPM requirements, and any special devices with the source. External disks, passed-through devices, and secrets stored outside the VM need separate plans.
 
 ## Test the Guest and Workload
 
@@ -99,6 +105,13 @@ Start the restored VM and use its console first. Confirm the operating system bo
 
 Keep the restored guest isolated while you inspect scheduled tasks, notification hooks, backup agents, and application credentials. Do not run a test sending live customer messages or writing to production services. If a check fails, record the exact stage. Separate **backup integrity failure**, **VM boot failure**, **missing data**, and **application failure**. Each points to a different repair.
 
+| Failure class | Confirming evidence | First correction | Retest |
+|---|---|---|---|
+| **Backup integrity** | Verification or restore task reports damaged data | Select another verified recovery point and inspect storage health | Repeat verification and restore |
+| **VM boot** | Console shows firmware, disk, or recovery errors | Compare firmware, disk mapping, and boot order with the source | Boot the isolated copy and record the console result |
+| **Missing data** | Expected file, volume, or database record is absent | Check excluded disks, mounts, snapshots, and external dependencies | Repeat the named file or data check |
+| **Application** | Guest boots but the service check fails | Inspect service logs, credentials, dependencies, and recovery steps | Run the same local health check and workload test |
+
 Proxmox offers [single-file restore for PBS backups](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc). Use single-file restore to test a file recovery path when your workload needs one. A recovered file still does not replace a full VM boot and service test. Proxmox also offers live restore from PBS. Its documentation says a failed live restore leaves the VM in an undefined state, so use the normal completed restore for this planned drill.
 
 ## Record the Result and Close the Drill
@@ -108,3 +121,7 @@ Record the source VM ID, backup storage, backup timestamp, backup mode, new VM I
 Shut down the restored VM when testing ends. Remove its test copy only after saving the result, and verify the production VM still runs as expected. Keep the backup under your normal retention policy. Do not change retention merely to make one drill pass.
 
 Repeat the test after major storage, guest, or backup configuration changes. Rotate through important VMs, including guests with excluded disks or external dependencies. The [Hyper-V to Proxmox migration guide](/articles/hyper-v-to-proxmox-migration-checklist/) uses this recovery proof before retiring a source VM. **A usable backup has a known restore path, a tested workload, and a measured recovery point.**
+
+## Next Steps
+
+Repeat the drill after storage, guest, or backup changes. Review the [homelab backup restore drill](/articles/homelab-backup-restore-drill/) for file-level recovery.

@@ -1,7 +1,7 @@
 ---
-title: "How to Find Your BitLocker Recovery Key Before Reinstalling Windows"
+title: "Find Your BitLocker Recovery Key Before Reinstalling Windows"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Find and verify the correct BitLocker recovery key, protect a separate backup, and choose the right Windows recovery or reinstall path before erasing a drive."
@@ -13,6 +13,8 @@ coverCaption: "Verify the recovery key before you erase the drive."
 ---
 
 A clean Windows installation erases the selected drive. If the old drive uses **BitLocker** or **Device Encryption**, locate its recovery key and copy your files before you start setup. The recovery key protects access to the old encrypted data. A new Windows installation does not restore files erased from the drive.
+
+<!--more-->
 
 ## Key Takeaways
 
@@ -56,7 +58,7 @@ Microsoft lists these locations in [Find your BitLocker recovery key](https://su
 
 ## Make a Separate Key Backup
 
-If Windows still starts on a Pro, Enterprise, or Education edition, search for **Manage BitLocker**. Select **Back up your recovery key** beside the encrypted drive. Microsoft offers an account backup, a USB drive, a text file on another unencrypted location, or a printout. Read [Back Up Your BitLocker Recovery Key](https://support.microsoft.com/en-us/windows/security/encryption/back-up-your-bitlocker-recovery-key) for the current interface and options.
+If Windows still starts on a Pro, Enterprise, or Education edition, search for **Manage BitLocker**. Select **Back up your recovery key** beside the encrypted drive. Microsoft offers an account backup, a USB drive, a text file, or a printout. If you choose a text file or USB, store it only on encrypted, access-controlled media separate from the computer. Do not use an unencrypted location. Read [Back Up Your BitLocker Recovery Key](https://support.microsoft.com/en-us/windows/security/encryption/back-up-your-bitlocker-recovery-key) for the current interface and options.
 
 On Windows Home, **Manage BitLocker** is absent. Check **Settings > Privacy & security > Device encryption** on Windows 11, then verify the key in the Microsoft account used during setup. Microsoft explains that [Device Encryption](https://support.microsoft.com/en-us/windows/security/encryption/device-encryption-in-windows) stores the key in the linked Microsoft or work account when it activates. Save a separate protected copy if your setup offers an export method.
 
@@ -81,6 +83,8 @@ The letters above are examples. After you identify the correct volumes, unlock t
 ```text
 manage-bde.exe -unlock D: -recoverypassword <48-digit-key>
 ```
+
+The documented `-recoverypassword` option takes the 48-digit key on the command line. This exposes the key to shell history, transcripts, and process inspection. Use the Windows recovery screen when you need to enter the key without a command-line argument. If you saved a separate `.bek` recovery-key file, `-recoverykey <path-to-external-bek>` avoids typing the 48-digit key. Keep the key out of screenshots and tickets.
 
 Microsoft documents the [unlock command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/manage-bde-unlock). Its [recovery guidance](https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-security/bitlocker-recovery-known-issues) also describes copying user files to another drive after unlocking. For an illustrative Documents copy, confirm the Windows account name and external-drive letter first, then replace both paths:
 

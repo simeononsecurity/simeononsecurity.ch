@@ -1,10 +1,10 @@
 ---
-title: "1Password CLI and SSH Agent: Secure SSH Keys for AI Agents"
+title: "1Password SSH Agent and CLI: Read-Only AI Agent Access"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
-description: "Use 1Password CLI, the SSH Agent, and MCP to manage SSH key access for AI agents without exposing private keys."
+description: "Design a read-only SSH workflow with 1Password CLI, the SSH Agent, and MCP. Use synthetic commands, narrow permissions, and human approval before live testing."
 genre: ["System Administration", "Cloud Security", "Automation"]
 tags: ["1Password CLI", "SSH keys", "1Password SSH Agent", "MCP", "Model Context Protocol", "agent administration", "systems administration", "Bitbucket Cloud", "Git over SSH", "secret references", "service accounts", "least privilege", "public key authentication", "secret management", "command line security", "automation safety"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
@@ -28,15 +28,17 @@ The key distinction is simple. **Interactive SSH uses consent through the 1Passw
 
 ## Before You Begin
 
-**Prerequisites:** Install the 1Password desktop app and 1Password CLI. Sign in through a supported 1Password account. Use an OpenSSH client. Create a test Bitbucket repository or another non-production target. Keep a second administrative path available for rollback.
+**Prerequisites:** Install 1Password 8 and 1Password CLI 2.20.0 or later. Sign in through a supported 1Password account. Use an OpenSSH client. Create a test Bitbucket repository or another non-production target. Keep a second administrative path available for rollback.
 
 **Time:** 30 to 45 minutes for a design review and synthetic walkthrough.
 
 **Difficulty:** Intermediate. You need basic Git, SSH, shell, and access-control knowledge.
 
-This guide does not test a live account, create a real key, connect to a real host, or register a real MCP server. Every identifier below is synthetic. **Replace placeholders only inside your own controlled environment.**
+This guide covers design and planning. The linked Bitbucket article covers Bitbucket-specific access boundaries. This guide does not test a live account, create a real key, connect to a real host, or register a real MCP server. Every identifier below is synthetic. **Replace placeholders only inside your own controlled environment.**
 
-**Version posture:** This article is design guidance, not a version-pinned runbook. Confirm the installed 1Password desktop app, 1Password CLI, Git, OpenSSH, MCP host, and MCP server versions before testing. The examples below remain untested.
+**Version posture:** Use 1Password 8 and [1Password CLI 2.20.0 or later](https://www.1password.dev/ssh/manage-keys) for this workflow. [1Password CLI 1 is deprecated](https://www.1password.dev/cli/upgrade/). [1Password 7 retires in early 2027](https://support.1password.com/add-account/). SSH-key generation, import, and sharing require 1Password 8. Confirm the installed Git, OpenSSH, MCP host, and MCP server versions before testing. The examples below remain untested.
+
+A **vault** is a protected 1Password collection of items. **OpenSSH** is the SSH client and server software used by many operating systems. **MCP**, or Model Context Protocol, connects an agent to approved tools or resources.
 
 ## Why Keep Private Keys Unread
 
@@ -49,7 +51,7 @@ This boundary reduces several exposure paths:
 - **Source control:** A private key does not enter a repository or a pull request.
 - **Shell history:** A private-key value does not appear in a command argument.
 - **Temporary files:** A script does not need to write a private key to `~/.ssh/`.
-- **Agent context:** An LLM does not need the private-key text to request an SSH operation.
+- **Agent context:** A large language model (LLM) does not need the private-key text to request an SSH operation.
 - **Accidental reuse:** A copied key does not remain in an old workspace after a task ends.
 
 The boundary does not make SSH harmless. A process with permission to use the agent socket might perform actions as the approved key. Host-key verification, remote account limits, repository permissions, command policy, and process isolation still matter.
@@ -174,7 +176,7 @@ rollback: remove public key and revoke test identity
 The official [1Password SSH key guide](https://www.1password.dev/ssh/manage-keys) documents the CLI creation pattern. The command below uses a synthetic title and named test vault.
 
 ```bash
-op item create --category ssh --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
+op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 ```
 
 **Expected output, untested:** 1Password creates an SSH Key item in the named test vault and redacts the private key in the terminal output. The command changes 1Password state. The exact human-readable output depends on the CLI version and sign-in state.
@@ -202,12 +204,16 @@ For Bitbucket, fetch the published host-key record and compare the record with a
 
 Turn on the 1Password SSH Agent in the desktop app. Configure OpenSSH with the platform-specific `IdentityAgent` or `SSH_AUTH_SOCK` value from the [official setup guide](https://www.1password.dev/ssh/get-started). Limit the first test to one repository or one non-production account.
 
+On macOS or Linux, set the socket from the platform setup guide and run `ssh-add -l`. On Windows, use the supported named-pipe configuration and verify available keys through the 1Password SSH Agent interface or a documented Windows SSH test. Do not present `ssh-add -l` as a cross-platform verification command.
+
+On macOS or Linux only:
+
 ```bash
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```
 
-**Expected output, untested:** `ssh-add -l` lists public fingerprints offered by the agent. Git requests access through the agent. 1Password displays a consent prompt. A successful read returns a commit reference. The repository placeholder above requires replacement in a controlled test.
+**Expected output, untested:** On macOS or Linux, `ssh-add -l` lists fingerprints from the active agent. On Windows, use the documented named-pipe test or the 1Password SSH Agent interface. A successful Git read returns a commit reference. The repository placeholder above requires replacement in a controlled test.
 
 The command uses a repository placeholder. Replace the placeholder only in a controlled test. **Do not approve a prompt for a target or process you did not expect.**
 
@@ -231,8 +237,9 @@ The following sequence shows the order without using real infrastructure. These 
 
 ```bash
 op --version
-op item create --category ssh --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
+op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
+# macOS or Linux only
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

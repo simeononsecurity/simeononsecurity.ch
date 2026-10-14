@@ -287,6 +287,7 @@ Good heading examples: `Why This Matters`, `Before You Begin`, `Common Mistakes`
 ## Code Blocks
 
 - Show the code first. Explain it afterward. Never explain before showing.
+- Check credential-handling command flags against primary documentation before changing examples. For BitLocker, `manage-bde -unlock D: -password` prompts for a password, while `-recoverypassword <48-digit-key>` takes the recovery password as an argument. Do not describe the former as a safe prompt for the latter.
 - Specify the language on every fenced block: ` ```bash`, ` ```yaml`, ` ```json`, ` ```toml`,
   ` ```python`, ` ```powershell`, ` ```go`, ` ```xml`, ` ```ini`, ` ```text`.
 - Keep code blocks short. Split long procedures into multiple small blocks, each preceded by

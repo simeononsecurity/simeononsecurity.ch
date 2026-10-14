@@ -1,7 +1,7 @@
 ---
 title: "Run a Homelab Backup Restore Drill With Restic"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Test whether a homelab backup restores usable files. Set a recovery target, restore to a separate location with Restic, check data, and record the result."
@@ -13,6 +13,10 @@ coverCaption: "Restore to a separate target, then check the data and the time re
 ---
 
 A backup job reporting success does not show whether you can restore a usable file. A **restore drill** tests the path from stored backup to working data without replacing your live files. This guide uses Restic for a file-level example and gives you a record to repeat after the lab changes.
+
+<!--more-->
+
+Restic is a backup program. A **repository** is the protected storage area holding backup data. A **snapshot** is one saved backup point.
 
 ## Key Takeaways
 
@@ -31,13 +35,13 @@ This drill checks files in one snapshot. A database, virtual machine, or applica
 
 ## Define the Recovery Goal
 
-Write down what you need after a failure. A **recovery point objective (RPO)** is the oldest acceptable recovered data. A **recovery time objective (RTO)** is how long the service can remain unavailable. NIST defines both in its [contingency planning guide](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf). Your own targets should reflect how often the data changes and how long a restore takes on your hardware.
+Write down what you need after a failure. A **recovery point objective (RPO)** is the point in time to which data must be recovered after an outage. It represents the maximum acceptable data loss. A **recovery time objective (RTO)** is how long the service can remain unavailable. NIST defines both in its [contingency planning guide](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf). Your own targets should reflect how often the data changes and how long a restore takes on your hardware.
 
 | Item | Illustrative target | What to record |
 |---|---|---|
 | **Family documents** | Latest nightly backup | Last snapshot time and opened files |
 | **Home service config** | Last known good change | Config version and required secrets |
-| **NAS media library** | Weekly backup | Sample playback and restore time |
+| **Network-attached storage (NAS) media library** | Weekly backup | Sample playback and restore time |
 
 The targets above are examples, not measured results. In your recovery plan, record the backup storage location and how an authorized person retrieves the repository password or encryption key. Do not place secret values in the plan or drill record. Store the secrets through a protected path independent of the failed host. A repository that survives while its only password does not is not recoverable.
 
@@ -45,7 +49,7 @@ Choose one **critical file set** for this drill. Add one small file you know sho
 
 ## Find a Snapshot
 
-Use repository access approved for a restore drill. Restic normally creates repository locks, so the commands below assume that the repository permits those lock writes. Keep the live source and test target separate. Replace `/path/to/repository` with your actual Restic repository path, then list snapshots:
+Use repository access approved for a restore drill. Restic uses a temporary repository lock while reading or changing backup data. The commands below assume the repository permits this lock operation. Keep the live source and test target separate. Replace `/path/to/repository` with your actual Restic repository path, then list snapshots:
 
 ```bash
 restic -r /path/to/repository snapshots
