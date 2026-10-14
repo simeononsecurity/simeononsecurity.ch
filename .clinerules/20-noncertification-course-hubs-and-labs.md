@@ -23,3 +23,5 @@ Check the learning path in order. Introduce terms before relying on them, instal
 Keep scored quiz questions and their answer key on separate pages. Keep a capstone prompt and its full reference decision on separate pages. Link the key only after the learner's attempt instructions. State the pass threshold, any required core questions, and the correction or retest route on the hub as well as the assessment page.
 
 An offline simulator must label its boundary and produce observed decisions from a fresh local copy. Check allow, deny, revocation, and cleanup where the lesson claims those outcomes. Refuse input/output path collisions and preexisting evidence files before writing or removing files. Give a paper-only plan partial credit when the outcome requires observed simulator evidence. Do not present local cleanup as proof that a live cloud object was removed.
+
+Keep course review sign-off JSON, source snapshots, and validation reports in temporary or ignored report paths. Do not add these records to Hugo `data/` or commit them with the course. Before committing, check `git ls-files data/course_release_signoffs` returns no files.

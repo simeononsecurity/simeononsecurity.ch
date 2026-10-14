@@ -37,6 +37,10 @@ __pycache__/
 
 # Other files and folders
 /reports/
+# Local course review records are validation output, not Hugo data.
+/data/course_release_signoffs/
+/data/course_review_*.json
+/data/course_validation_*.json
 .settings/
 .DS_Store
 dist
