@@ -1,7 +1,7 @@
 ---
-title: "Detection Engineering Lesson 3: Detection Hypotheses and Rules"
+title: "Detection Engineering: Hypotheses and Rules"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Turn a behavior hypothesis into portable detection logic, positive and negative tests, tuning criteria, and an operational runbook."
@@ -50,13 +50,13 @@ logsource:
 detection:
   parent_office:
     ParentImage|endswith:
-      - '\\WINWORD.EXE'
-      - '\\EXCEL.EXE'
-      - '\\POWERPNT.EXE'
+      - '\WINWORD.EXE'
+      - '\EXCEL.EXE'
+      - '\POWERPNT.EXE'
   child_powershell:
     Image|endswith:
-      - '\\powershell.exe'
-      - '\\pwsh.exe'
+      - '\powershell.exe'
+      - '\pwsh.exe'
   encoded_flag:
     CommandLine|contains:
       - '-EncodedCommand'

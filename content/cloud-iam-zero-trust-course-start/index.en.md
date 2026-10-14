@@ -1,10 +1,10 @@
 ---
 title: "Cloud IAM and Zero Trust Lab Course"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
-description: "Design, test, review, and remove cloud identity access across AWS, Azure, and Google Cloud with zero trust principles and disposable labs."
+description: "Compare IAM across AWS, Azure, and Google Cloud, then test and close one disposable provider lab or offline simulator."
 genre: ["Cloud Security", "Identity and Access Management", "Zero Trust", "Security Lab"]
 tags: ["cloud IAM course", "zero trust course", "AWS IAM lab", "Azure RBAC lab", "Google Cloud IAM lab", "least privilege", "workload identity", "access review"]
 cover: "/img/cover/cloud-iam-zero-trust-course.webp"
@@ -31,7 +31,7 @@ By the end, you will produce:
 - A **human access design** with federation, MFA, session, and emergency controls
 - A **workload identity design** without long-lived access keys
 - A **zero trust access policy** using identity, device, resource, context, and telemetry
-- A **disposable lab record** with observed allow, deny, revocation, teardown, and absence evidence from a provider sandbox or the local simulator
+- A **disposable lab record** matched to the chosen route. The offline simulator records synthetic allow, deny, revocation, local cleanup, and absence results. A provider sandbox records the grant and teardown checks. The AWS track also records simulated policy decisions. Mark unrun live authorization and revocation checks `not run`.
 - An **access review decision log** and remediation plan
 
 ## Course Order
@@ -43,7 +43,7 @@ By the end, you will produce:
 | **3** | [Human Access](/cloud-iam-zero-trust-course/03-human-access/) | Design federation, MFA, privileged access, and recovery |
 | **4** | [Workload Identity](/cloud-iam-zero-trust-course/04-workload-identity/) | Replace stored keys with short-lived identity |
 | **5** | [Zero Trust Policy](/cloud-iam-zero-trust-course/05-zero-trust-policy/) | Build resource-focused, context-aware access decisions |
-| **6** | [Disposable Provider and Offline Lab](/cloud-iam-zero-trust-course/06-disposable-cloud-lab/) | Test allow, deny, revocation, and cleanup evidence |
+| **6** | [Disposable Provider and Offline Lab](/cloud-iam-zero-trust-course/06-disposable-cloud-lab/) | Run one track and separate observed, simulated, and unrun checks |
 | **7** | [Quiz](/cloud-iam-zero-trust-course/07-quiz/) | Check policy and teardown knowledge before opening the key |
 | **7 review** | [Quiz Answer Key](/cloud-iam-zero-trust-course/09-quiz-answer-key/) | Score the attempt and correct missed reasons |
 | **8** | [Capstone](/cloud-iam-zero-trust-course/08-capstone/) | Review access and submit a zero trust migration plan |

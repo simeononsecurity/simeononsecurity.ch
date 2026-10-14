@@ -1,7 +1,7 @@
 ---
 title: "Cloud IAM and Zero Trust Capstone"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Review synthetic cloud access, design a least-privilege target state, test the offline simulator or a provider sandbox, and submit closure evidence."
@@ -58,7 +58,7 @@ Download [the Python simulator](/downloads/cloud-iam-zero-trust-course/policy_te
 - Do not finish a live lab with temporary objects present.
 - Do not label local simulator evidence as live cloud evidence.
 
-> **Expected Result:** required payroll reporting still works, policy administration stays denied, and every old grant has an owner-approved disposition.
+> **Expected Result:** your target design preserves required payroll reporting and denies policy administration. The offline route records synthetic allow, deny, revocation, and local cleanup results. A provider route records its grant and teardown checks, plus AWS policy simulation if selected. Label live authorization or revocation checks `not run` unless you observed them in an approved sandbox. Every old grant has an owner-approved disposition.
 
 ## Scoring Rubric
 

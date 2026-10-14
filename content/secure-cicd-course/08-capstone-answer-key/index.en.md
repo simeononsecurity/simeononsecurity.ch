@@ -1,7 +1,7 @@
 ---
 title: "Secure Release Gate Reference Packet"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Compare a completed local release decision packet with the Secure CI/CD capstone evidence and decision rules."
@@ -28,7 +28,9 @@ coverCaption: ""
 
 ## Authority and Findings
 
-**Test job:** `contents: read`, no release secret. **Release job:** `contents: read`, `id-token: write`, `attestations: write`, and `artifact-metadata: write` for the attestation exercise. A protected release ref and reviewed action pins remain required for a real release.
+**Test job:** `contents: read`, no release secret. **Release job:** `contents: read`, `id-token: write`, and `attestations: write` for this binary attestation exercise. A protected release ref and reviewed action pins remain required for a real release.
+
+The release job uses `subject-path` and does not create a linked artifact storage record. GitHub's [binary example](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations#generating-build-provenance-for-binaries) uses these permissions. Grant `artifact-metadata: write` only if the workflow also creates a linked artifact storage record.
 
 **Scorecard:** The sample Pinned-Dependencies score is 3 with a mutable-tag reason. This is illustrative. Review the action's upstream commit, pin the reviewed revision, and rerun a real Scorecard analysis. No live score was observed in the local path.
 

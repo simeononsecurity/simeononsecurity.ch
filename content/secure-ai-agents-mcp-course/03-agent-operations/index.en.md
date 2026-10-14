@@ -1,10 +1,10 @@
 ---
-title: "Lesson 3: Operate Agents with Evidence"
+title: "AI Agent Operations: Logging, Monitoring, and Recovery"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
-description: "Log agent decisions, detect policy failures, stop unsafe runs, and recover with evidence."
+description: "Log AI agent and MCP tool decisions, detect policy failures, stop unsafe runs, and recover with evidence."
 genre: ["Artificial Intelligence", "Cybersecurity", "Operations"]
 tags: ["AI agent monitoring", "agent audit log", "MCP logging", "AI incident response", "agent recovery"]
 cover: "/img/cover/secure-agent-operations-evidence.webp"

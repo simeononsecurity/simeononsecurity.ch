@@ -1,10 +1,10 @@
 ---
-title: "Lesson 1: Model Agent Trust Boundaries"
+title: "AI Agent Trust Boundaries: Lesson 1"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
-description: "Map agent authority, data origins, side effects, and approval points before connecting tools."
+description: "Map AI agent and MCP authority, data origins, side effects, and approval points before connecting tools."
 genre: ["Artificial Intelligence", "Cybersecurity"]
 tags: ["AI agent threat model", "agent trust boundary", "prompt injection", "agent authority", "AI security course"]
 cover: "/img/cover/agent-trust-boundaries.webp"

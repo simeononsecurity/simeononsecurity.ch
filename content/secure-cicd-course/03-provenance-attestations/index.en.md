@@ -1,7 +1,7 @@
 ---
 title: "SLSA Provenance and GitHub Artifact Attestations"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Read SLSA build provenance, create a GitHub artifact attestation, and verify digest, source, and workflow identity."
@@ -60,7 +60,6 @@ jobs:
       contents: read
       id-token: write
       attestations: write
-      artifact-metadata: write
     steps:
       - uses: actions/checkout@v7
         with:
@@ -74,6 +73,8 @@ jobs:
           name: workshop-release
           path: release.txt
 ```
+
+This binary `subject-path` exercise uses the three attestation permissions shown in [GitHub's binary example](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations#generating-build-provenance-for-binaries). It does not request a linked artifact storage record. Add `artifact-metadata: write` only when your workflow also creates that record, as described in [GitHub's linked artifacts guidance](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations#uploading-artifacts-to-the-linked-artifacts-page).
 
 **Expected result:** The Actions run reports an attestation for `release.txt`. This is a training workflow. It does not publish the file or meet a SLSA level. Protect a real release trigger, add project tests, and pin reviewed action commits before production use. If the attestation step reports a permission error, inspect the job permissions and repository feature availability. Do not add broad write access as a shortcut.
 

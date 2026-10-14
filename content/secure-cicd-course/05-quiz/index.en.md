@@ -1,7 +1,7 @@
 ---
 title: "Secure CI/CD Knowledge Check"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Test dependency, SBOM, pipeline, Scorecard, provenance, attestation, and tampered-release decisions before viewing the separate answer key."
@@ -14,7 +14,7 @@ coverCaption: ""
 
 [Return to the Secure CI/CD Course](/secure-cicd-course-start/)
 
-**Answer all ten questions before opening the separate [answer key](/secure-cicd-course/07-quiz-answer-key/).** Write one sentence explaining each choice. Score at least eight on a closed-book attempt and correct every miss before the capstone. Retake the full quiz after review if your first score is lower. This is a skills check, not certification prep.
+**Answer all ten questions before opening the separate answer key.** Write one sentence explaining each choice. Score at least eight on a closed-book attempt and correct every miss before the capstone. Retake the full quiz after review if your first score is lower. This is a skills check, not certification prep.
 
 ## Questions
 

@@ -1,7 +1,7 @@
 ---
 title: "Lesson 1: Choose Hardware and a Local AI Model"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Match a local model, quantization, context target, license, and runtime to your hardware."
@@ -81,30 +81,19 @@ Do not claim a universal bytes-per-token value. Context memory depends on archit
 
 For a host with **8 GB of system memory**, start with **`qwen3:1.7b`**. The official [Ollama library record](https://ollama.com/library/qwen3:1.7b) lists a **Q4_K_M** model with an approximate **1.4 GB download**. Open **Details**, then read the **license** entry and record its terms before use. The current record lists Apache License 2.0.
 
-```bash
-ollama pull qwen3:1.7b
-ollama show qwen3:1.7b
-```
+Record the model tag for Lesson 2. Install Ollama there before pulling or inspecting the model.
 
 The file size is not the full runtime memory requirement. Start with one request and a 2,048-token context. Measure available memory and swap before increasing the context.
 
 If **`qwen3:1.7b`** leaves too little headroom, use **`qwen3:0.6b`**. Its official [Ollama library record](https://ollama.com/library/qwen3:0.6b) lists an approximate **523 MB download** and includes the license entry.
 
-```bash
-ollama pull qwen3:0.6b
-ollama show qwen3:0.6b
-```
+Record this smaller tag as your fallback. Lesson 2 runs the download and inspection commands after installation.
 
 Treat both models as learning examples. Test output quality against your target task before choosing either one for a service.
 
 ## Verify Provenance
 
-Save the exact model identifier and runtime inspection output. With Ollama:
-
-```bash
-ollama show MODEL_NAME
-ollama ls
-```
+Save the exact model identifier, publisher, source, and license from the library record now. In Lesson 2, collect `ollama show` and `ollama ls` output after installing the runtime. Keep that output with your selection record.
 
 With a downloaded GGUF file:
 
@@ -132,7 +121,7 @@ Pass when your record answers these questions:
 1. Which exact model artifact will run?
 2. Which license governs use?
 3. How much memory stays free at the planned context?
-4. Which command proves the local artifact identity?
+4. Which model identifier and publisher record will you check after download in Lesson 2?
 5. Which synthetic prompt measures task quality?
 
 Continue with [Lesson 2: Run Your First Local Model](/local-ai-secure-server-course/02-first-local-model/).

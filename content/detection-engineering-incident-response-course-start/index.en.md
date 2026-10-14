@@ -1,7 +1,7 @@
 ---
 title: "Detection Engineering and Incident Response Course"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Build and test detections with synthetic identity, endpoint, and DNS evidence. Investigate an incident and report your findings."
@@ -58,8 +58,8 @@ Pass the capstone with **80 out of 100 or higher** and no evidence-integrity fai
 
 ## Prerequisites
 
-- **Python 3** for optional JSON parsing
-- **`jq`** for command-line JSON filters, or a text editor with JSON support
+- **Python 3** for the offline rule checker. On Windows, run it with `py -3`.
+- **One evidence path:** a macOS or Linux shell with `shasum` or `sha256sum`, `wc`, and optional `jq`, or Windows PowerShell with `Get-FileHash`, `Get-Content`, and a text editor with JSON support. Lessons 1 and 5 give both paths.
 - **A clean working folder** for evidence copies and analyst notes
 - **Forty-five to sixty minutes per lesson** and ninety minutes for the capstone
 
@@ -78,11 +78,11 @@ Download the [data README](/downloads/detection-engineering-incident-response-co
 
 ## Current Framework Note
 
-**MITRE ATT&CK v19.2 is current as of October 10, 2026.** ATT&CK deprecated Data Sources in v18. Use current **Detection Strategies**, platform-specific **Analytics**, and Data Components when planning detections. Legacy Data Source pages remain available for reference.
+**MITRE ATT&CK v20.0 is current as of October 14, 2026.** ATT&CK deprecated Data Sources in v18. Use current **Detection Strategies**, platform-specific **Analytics**, and Data Components when planning detections. Legacy Data Source pages remain available for reference.
 
 Incident response guidance also changed. **NIST SP 800-61 Rev. 3**, published in April 2025, places response inside the broader Cybersecurity Framework 2.0 risk cycle. Preparation, detection, response, recovery, and improvement operate as connected activities.
 
-**Primary references, checked 2026-10-10:** [MITRE ATT&CK version history](https://attack.mitre.org/resources/versions/), [MITRE ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/), [MITRE ATT&CK Analytics](https://attack.mitre.org/analytics/), and [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final).
+**Primary references, checked 2026-10-14:** [MITRE ATT&CK version history](https://attack.mitre.org/resources/versions/), [MITRE ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/), [MITRE ATT&CK Analytics](https://attack.mitre.org/analytics/), and [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final).
 
 ## Troubleshooting
 

@@ -1,7 +1,7 @@
 ---
 title: "Lesson 2: Run Your First Local Model"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Install a local runtime, pull a selected model, run a prompt, and verify the loopback API."
@@ -36,10 +36,10 @@ Keep the default loopback listener. The [Ollama FAQ](https://docs.ollama.com/faq
 
 ## Pull and Inspect the Model
 
-Set the exact identifier selected in Lesson 1:
+Set the exact identifier selected in Lesson 1. For its 8 GB example, use `qwen3:1.7b`. If you selected the smaller fallback, use `qwen3:0.6b` instead. Run these commands only after installation:
 
 ```bash
-MODEL_NAME='replace-with-your-model'
+MODEL_NAME='qwen3:1.7b'
 ollama pull "$MODEL_NAME"
 ollama show "$MODEL_NAME"
 ollama ls

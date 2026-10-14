@@ -1,7 +1,7 @@
 ---
 title: "Local AI Course: From First Model to Secure Server"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Run your first local model, measure fit and speed, then expose a controlled API through a secure server design."
@@ -64,6 +64,8 @@ After the course, you will:
 | **5** | [Run the Secure Exposure Lab](/local-ai-secure-server-course/05-secure-exposure-lab/) | Local access tests | Proxy and boundary tests |
 | **6** | [Check Your Knowledge](/local-ai-secure-server-course/06-knowledge-check/) | Quiz record | Quiz plus repair notes |
 | **7** | [Complete the Server Capstone](/local-ai-secure-server-course/07-capstone/) | Single-user deployment package | Multi-user operations package |
+
+Lesson 1 selects a model from published records. Lesson 2 installs Ollama before any `ollama` command runs.
 
 Open the [knowledge-check answer key](/local-ai-secure-server-course/08-knowledge-check-answer-key/) after your closed-book attempt. Open the [capstone answer key](/local-ai-secure-server-course/09-capstone-answer-key/) after your deployment package and decision are complete.
 

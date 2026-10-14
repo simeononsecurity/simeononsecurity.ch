@@ -1,7 +1,7 @@
 ---
-title: "Detection Engineering Capstone Answer Key"
+title: "Detection and Incident Response Capstone Answer Key"
 date: 2026-10-11
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Compare a completed detection and incident response package with the reference evidence, rule, recovery plan, and executive update."
@@ -68,13 +68,13 @@ logsource:
 detection:
   parent_office:
     ParentImage|endswith:
-      - '\\WINWORD.EXE'
-      - '\\EXCEL.EXE'
-      - '\\POWERPNT.EXE'
+      - '\WINWORD.EXE'
+      - '\EXCEL.EXE'
+      - '\POWERPNT.EXE'
   child_powershell:
     Image|endswith:
-      - '\\powershell.exe'
-      - '\\pwsh.exe'
+      - '\powershell.exe'
+      - '\pwsh.exe'
   encoded_flag:
     CommandLine|contains:
       - '-EncodedCommand'

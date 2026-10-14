@@ -1,7 +1,7 @@
 ---
 title: "Detection Engineering Lesson 1: Telemetry and Evidence"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Inventory identity, endpoint, and DNS telemetry. Normalize timestamps, preserve source events, and document evidence limits before analysis."
@@ -40,6 +40,15 @@ Record retention, clock source, ingestion delay, field transformations, and acce
 shasum -a 256 auth-events.jsonl endpoint-events.jsonl dns-events.csv
 ```
 
+On Linux, use `sha256sum` with the same three filenames. On Windows PowerShell, run:
+
+```powershell
+Get-FileHash -Algorithm SHA256 -Path 'auth-events.jsonl','endpoint-events.jsonl','dns-events.csv' |
+  Select-Object Path, Hash
+```
+
+PowerShell's [Get-FileHash](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5) computes the same SHA-256 digest from the file bytes. Keep the output with your source inventory.
+
 Expected output:
 
 ```text
@@ -58,6 +67,8 @@ List the JSON events in chronological order without changing the source.
 jq -sr 'sort_by(.timestamp)[] | [.timestamp, (.host // .device), .user, .event_type, .correlation_id] | @tsv' \
   auth-events.jsonl endpoint-events.jsonl
 ```
+
+**Without `jq`, use a text editor.** Open each JSONL file as lines of separate JSON objects. For every line, copy `timestamp`, `host` or `device`, `user`, `event_type`, and `correlation_id` into a new table. Use `-` for an absent field. Sort the new table by the UTC timestamp text, then inspect the DNS CSV and add selected rows. The first five JSON events in the merged order are `A-1001`, `E-2001`, `E-2002`, `E-2003`, and `E-2004`. If your order differs, check the `Z` suffix and sort the copied rows again. Leave the source files unchanged.
 
 Inspect the CSV separately, then place selected DNS rows in your analyst timeline. Keep the original correlation ID in every derived row.
 

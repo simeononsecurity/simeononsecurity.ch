@@ -1,14 +1,14 @@
 ---
 title: "Cloud IAM Lesson 6: Disposable Provider Lab"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Run a deterministic offline IAM simulator or create a read-only identity in one cloud sandbox, then record policy and teardown evidence."
 genre: ["Cloud Security", "Identity and Access Management", "Security Lab"]
 tags: ["disposable cloud lab", "AWS IAM CLI", "Azure managed identity", "Google Cloud service account", "cloud teardown", "least privilege lab"]
 cover: "/img/cover/disposable-cloud-iam-lab.webp"
-coverAlt: "Temporary AWS, Azure, and Google Cloud identities created, tested, and removed."
+coverAlt: "Temporary cloud identities moving through creation, validation, teardown, and verified absence."
 coverCaption: "Finish the lab with verified absence."
 ---
 
@@ -196,21 +196,24 @@ Confirm the active account and project.
 ```bash
 gcloud auth list
 LAB_GCP_PROJECT_ID=$(gcloud config get-value project)
+LAB_GCP_SA_NAME=sos-iam-lab-reader
+LAB_GCP_SA_EMAIL="${LAB_GCP_SA_NAME}@${LAB_GCP_PROJECT_ID}.iam.gserviceaccount.com"
 gcloud projects describe "$LAB_GCP_PROJECT_ID"
 gcloud iam service-accounts describe \
-  "sos-iam-lab-reader@${LAB_GCP_PROJECT_ID}.iam.gserviceaccount.com"
+  "$LAB_GCP_SA_EMAIL"
+gcloud projects get-iam-policy "$LAB_GCP_PROJECT_ID" \
+  --flatten="bindings[].members" \
+  --filter="bindings.members:serviceAccount:${LAB_GCP_SA_EMAIL}" \
+  --format="table(bindings.role,bindings.members)"
 ```
 
-The final preflight command must report a missing service account. Stop if the service account exists or the check fails for another reason. Record the created account email. Delete only that account and its binding after successful creation.
+The service-account lookup must report a missing account. The policy query must succeed and show no row with both `roles/viewer` and the exact `serviceAccount:${LAB_GCP_SA_EMAIL}` member. Stop if the account or exact binding exists, or if either check fails for another reason. Record the account email and the empty exact-binding result before creation. Record whether this run added the Viewer binding. Remove it only after a successful addition by this run.
 
 Create a service account and grant Viewer at the sandbox project.
 
 The `roles/viewer` grant applies across the disposable project, so treat every resource in that project as readable by the lab identity. Use a project created for this exercise, never a shared or production project. Remove the binding and service account before recording teardown as complete.
 
 ```bash
-LAB_GCP_SA_NAME=sos-iam-lab-reader
-LAB_GCP_SA_EMAIL="${LAB_GCP_SA_NAME}@${LAB_GCP_PROJECT_ID}.iam.gserviceaccount.com"
-
 gcloud iam service-accounts create "$LAB_GCP_SA_NAME" \
   --display-name="SimeonOnSecurity IAM Lab Reader"
 
@@ -227,6 +230,8 @@ gcloud projects get-iam-policy "$LAB_GCP_PROJECT_ID" \
 Viewer excludes IAM policy changes. This track inspects the project binding. It does not impersonate the service account or observe a denied action. Use the offline test matrix for that case. Do not create a service account key for testing.
 
 Teardown:
+
+Run the binding-removal command only if your run recorded a successful `add-iam-policy-binding` for this exact member and role. If the add command failed or you cannot establish ownership, inspect the current policy and keep the binding unchanged until ownership is resolved. Delete only the service account created by this run.
 
 ```bash
 gcloud projects remove-iam-policy-binding "$LAB_GCP_PROJECT_ID" \

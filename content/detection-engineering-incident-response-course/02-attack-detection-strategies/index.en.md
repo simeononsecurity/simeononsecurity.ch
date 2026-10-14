@@ -1,12 +1,12 @@
 ---
 title: "Detection Engineering Lesson 2: ATT&CK Detection Strategies"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Use current MITRE ATT&CK Detection Strategies and Analytics to describe behavior, telemetry needs, and platform logic without treating a mapping as proof."
 genre: ["Cybersecurity", "Detection Engineering", "Threat-Informed Defense"]
-tags: ["MITRE ATT&CK v19", "detection strategies", "ATT&CK analytics", "technique mapping", "detection coverage", "SOC course"]
+tags: ["MITRE ATT&CK v20", "detection strategies", "ATT&CK analytics", "technique mapping", "detection coverage", "SOC course"]
 cover: "/img/cover/attack-detection-strategies-course.webp"
 coverAlt: "A behavior chain mapped to ATT&CK detection strategies and platform analytics."
 coverCaption: "Use ATT&CK to organize detection logic and evidence needs."
@@ -18,7 +18,7 @@ coverCaption: "Use ATT&CK to organize detection logic and evidence needs."
 
 ## Use Current Objects
 
-ATT&CK v18 replaced technique-level detection text with **Detection Strategies** and platform-specific **Analytics**. ATT&CK v19.2 is current on October 10, 2026.
+ATT&CK v18 replaced technique-level detection text with **Detection Strategies** and platform-specific **Analytics**. The [MITRE version history](https://attack.mitre.org/resources/versions/) lists **ATT&CK v20.0** as current on October 14, 2026. Use the current technique page and follow its Detection Strategy, Analytic, and Data Component links. Record the version with your mapping.
 
 | Object | Purpose | Analyst use |
 |---|---|---|
@@ -76,7 +76,7 @@ The card starts with behavior and evidence. ATT&CK supplies vocabulary and relat
 
 | Problem | Fix |
 |---|---|
-| **Search results show old detection text** | Check the ATT&CK version and use the current v19.2 site |
+| **Search results show old detection text** | Check the version history and open the current ATT&CK site rather than an archived version |
 | **Several techniques fit** | Keep multiple candidates until evidence supports a narrower statement |
 | **An Analytic names unavailable fields** | Record the gap and adapt the logic without claiming full coverage |
 | **A rule matches one command string only** | Reframe the strategy around behavior and add platform-specific indicators later |
@@ -89,7 +89,7 @@ The card starts with behavior and evidence. ATT&CK supplies vocabulary and relat
 - [ ] Missing telemetry appears in the card
 - [ ] No mapping is presented as proof of malicious intent
 
-**Primary references, checked 2026-10-10:** [ATT&CK version history](https://attack.mitre.org/resources/versions/), [Detection Strategies](https://attack.mitre.org/detectionstrategies/), [Analytics](https://attack.mitre.org/analytics/), and [ATT&CK v18 defensive changes](https://attack.mitre.org/resources/updates/updates-october-2025/).
+**Primary references, checked 2026-10-14:** [ATT&CK version history](https://attack.mitre.org/resources/versions/), [Detection Strategies](https://attack.mitre.org/detectionstrategies/), [Analytics](https://attack.mitre.org/analytics/), and [ATT&CK v18 defensive changes](https://attack.mitre.org/resources/updates/updates-october-2025/).
 
 ## Next Steps
 

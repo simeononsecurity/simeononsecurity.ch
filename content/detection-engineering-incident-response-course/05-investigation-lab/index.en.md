@@ -1,7 +1,7 @@
 ---
 title: "Incident Response Lesson 5: Full Investigation Lab"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Investigate a synthetic identity and endpoint compromise from raw JSONL and CSV evidence. Build a timeline, scope statement, findings, and search plan."
@@ -34,6 +34,18 @@ shasum -a 256 auth-events.jsonl endpoint-events.jsonl dns-events.csv
 wc -l auth-events.jsonl endpoint-events.jsonl dns-events.csv
 ```
 
+On Linux, replace `shasum -a 256` with `sha256sum`. On Windows PowerShell, run these commands from the folder holding the three files:
+
+```powershell
+Get-FileHash -Algorithm SHA256 -Path 'auth-events.jsonl','endpoint-events.jsonl','dns-events.csv' |
+  Select-Object Path, Hash
+Get-Content 'auth-events.jsonl' | Measure-Object -Line
+Get-Content 'endpoint-events.jsonl' | Measure-Object -Line
+Get-Content 'dns-events.csv' | Measure-Object -Line
+```
+
+The three `Lines` values must be 8, 8, and 7. PowerShell's [Get-FileHash](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5) and [Measure-Object](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object?view=powershell-7.5) document these checks. Record the three hashes now and compare them again after the investigation.
+
 Expected record counts:
 
 ```text
@@ -50,6 +62,8 @@ If counts differ, download the files again before analysis.
 jq -r '[.timestamp, (.host // .device), .user, .event_type, (.source_ip // .destination_ip // "-")] | @tsv' \
   auth-events.jsonl endpoint-events.jsonl
 ```
+
+**Without `jq`, use a text editor.** Each JSONL line is one event. Search the authentication file for `user`, `device`, `source_ip`, `application`, and `rule_name`. Search the endpoint file for `user`, `host`, `destination_ip`, `sha256`, and `task_name`. Search the DNS CSV's `query` column for domains. Copy distinct values into an entity table with the source filename and `correlation_id` for each value. Keep unknown or missing values separate from observed values.
 
 List unique users, hosts, IP addresses, domains, hashes, application names, rule names, and task names. Mark documentation addresses and `.test` domains as synthetic indicators.
 

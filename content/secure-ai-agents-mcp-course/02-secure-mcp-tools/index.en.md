@@ -1,7 +1,7 @@
 ---
 title: "Lesson 2: Secure MCP Tools and Authorization"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Design MCP tools, authorization, input checks, and transport boundaries for least-privilege agent access."
@@ -29,6 +29,21 @@ The MCP specification separates features by control:
 A label does not erase side effects. A resource handler which updates an index writes state. A tool named `read_file` might expose secret files. Inspect implementation behavior and downstream authority.
 
 The [MCP specification](https://modelcontextprotocol.io/specification/2026-07-28/) defines protocol behavior. The [MCP security guidance](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices) addresses consent, confused deputy risks, token handling, and local server risks. Record the revision beside your design.
+
+## Terms Used Below
+
+| Term | Plain-language meaning |
+|---|---|
+| **Path traversal** | A path such as `../secrets.txt` tries to leave the allowed folder. |
+| **Symbolic-link escape** | A link inside the allowed folder points to a file outside it. |
+| **Issuer** | The authority which issued a remote access token. |
+| **Audience** | The service for which the token was issued. |
+| **Scope** | The actions the token grants, such as reading one resource. |
+| **Token passthrough** | Forwarding a caller's token to another service without checking its intended audience and authority. |
+| **Stdio** | A local server connection through a process's standard input and output. |
+| **Process ancestry** | The chain of parent processes which started the server. A familiar parent name is not authorization. |
+| **Target-state precondition** | The exact file revision or state which must still exist before a write. |
+| **Digest serialization** | Encoding the approved fields in one fixed byte format, then hashing those bytes. |
 
 ## Define Narrow Tools
 
@@ -89,6 +104,18 @@ Use this sequence for a write:
 Define the digest input before using this design. Serialize the approved action, normalized target, arguments, caller identity, policy version, expiry, preview or diff content digest, and base revision or target-state digest as UTF-8 JSON with sorted keys and fixed separators. Store those exact bytes as the reviewed action. The host shows the exact preview and these bound fields with their digest. Immediately before execution, the server recomputes the digest from the stored bytes and checks the current target state, identity, and preview again. Reject a changed field, changed target state, changed preview, alternate path representation, or expired approval. Apply a patch against the approved base revision only.
 
 Keep approval records in trusted host state, outside tool arguments and retrieved content. A digest calculated by the caller does not prove approval. Reject approval tokens after one use, after expiry, or after payload change.
+
+## Walk Through One Write
+
+**Suppose a user asks Patch Clerk to update `docs/runbook.md` in the synthetic lab.** The host connects to a remote MCP server with an access token. The server first checks the token's signature, issuer, audience, expiry, and write scope. This access token identifies and limits the caller. It is separate from the later single-use approval token.
+
+1. **Validate the target.** Resolve `docs/runbook.md` beneath the lab root. Reject `../` paths and links which leave the root.
+2. **Prepare the change.** Return a proposed diff and the current file revision. The target-state precondition is this revision.
+3. **Ask for approval.** The host shows the exact diff, target, caller, and expiry. It encodes those fields in the fixed JSON format above, hashes the bytes, and records the user's approval in trusted host state.
+4. **Apply once.** The host sends its single-use approval token. The server checks the trusted approval record, recomputes the digest, confirms the file revision still matches, applies only the approved diff, and consumes the token.
+5. **Check the result.** Compare the final diff with the preview and record the caller, decision, file revision, and result. If the file changed after preview, stop and request a new review.
+
+> **Expected Result:** an access token permits the caller to request a write, while the separate approval binds one exact change to the user's decision.
 
 ## Expected Result
 

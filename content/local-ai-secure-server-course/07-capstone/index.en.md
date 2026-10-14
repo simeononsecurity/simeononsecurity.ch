@@ -1,7 +1,7 @@
 ---
 title: "Capstone: Plan and Validate a Secure Local AI Server"
 date: 2026-10-10
-lastmod: 2026-10-11
+lastmod: 2026-10-14
 toc: true
 draft: false
 description: "Produce a deployment package for a measured, access-controlled, monitored, and recoverable local AI server."
@@ -123,7 +123,7 @@ Expected status codes are `200`, `401`, and `413` before restore, then `200`, `4
 |---|---|---|
 | **Model** | Source, license, identifier, and fit recorded | Digest and artifact retention added |
 | **Quality** | Synthetic task reviewed | Fixed evaluation set and acceptance rule |
-| **Performance** | Three warm single-user trials | Context and concurrency measurements, plus a queue and overload test plan or observed server profile |
+| **Performance** | Three warm single-user trials | Context and concurrency measurements, plus observed timeout and overload results from the approved gateway. A test plan alone earns partial credit. |
 | **Network** | Loopback-only runtime | Private route through gateway to loopback runtime |
 | **Identity** | Host user boundary | Per-user authentication and route authorization |
 | **Logs** | Local service and access record | Central protected metadata with retention rule |
