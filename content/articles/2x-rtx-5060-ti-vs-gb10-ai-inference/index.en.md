@@ -1,12 +1,12 @@
 ---
 title: "2x RTX 5060 Ti vs GB10: Five-Model Local AI Benchmark at 256K Context"
 date: 2026-10-10
-lastmod: 2026-10-14
+lastmod: 2026-10-15
 toc: true
 draft: false
-description: "A five-model comparison of two RTX 5060 Ti cards and an NVIDIA GB10, with three supplemental Qwen3.8 Flash-Next quantization benchmarks."
+description: "A five-model RTX 5060 Ti versus GB10 comparison, plus a same-host Qwen3.8 Flash-Next Strata benchmark through 256K context."
 genre: ["Artificial Intelligence", "Local AI", "GPU Hardware", "Benchmarking", "Computer Hardware"]
-tags: ["RTX 5060 Ti", "GB10", "DGX Spark", "Qwen3.8", "Qwen3.8 Flash-Next", "GSQ-RCO", "Qwen3.5", "Qwen3.6", "GPT-OSS", "Nemotron", "local LLM", "local inference", "unified memory", "VRAM", "GPU benchmark", "long context", "PCIe overhead", "AI hardware", "NVIDIA Blackwell", "LLM performance", "GPU memory"]
+tags: ["RTX 5060 Ti", "GB10", "DGX Spark", "Qwen3.8", "Qwen3.8 Flash-Next", "GSQ-RCO", "Qwen4Exp", "Strata", "Qwen3.5", "Qwen3.6", "GPT-OSS", "Nemotron", "local LLM", "local inference", "unified memory", "VRAM", "GPU benchmark", "long context", "PCIe overhead", "AI hardware", "NVIDIA Blackwell", "LLM performance", "GPU memory"]
 cover: "/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp"
 coverAlt: "An illustration showing two NVIDIA RTX 5060 Ti graphics cards on the left and an NVIDIA GB10 system on the right, both highlighted against a dark background with vibrant colors."
 coverCaption: "Local model performance depends on memory architecture, model choice, and context length."
@@ -15,6 +15,8 @@ coverCaption: "Local model performance depends on memory architecture, model cho
 **Two RTX 5060 Ti 16 GB cards provide 32 GB of aggregate VRAM.** An NVIDIA GB10 system provides 128 GB of coherent unified memory. The new five-model benchmark shows a more balanced result than the earlier Qwen-only test.
 
 The dual-card system leads on generation speed for four of the five models at the 256K setting. The GB10 leads clearly on Qwen3.8 27B and keeps a larger memory reserve for models, context, and runtime allocations. The best choice depends on the model and workload.
+
+A separate same-host run compared Qwen3.8-Flash-Next IQ2_XS on Strata with dense Qwen3.8 27B Q4_K_M on Ollama. The post-warmup generation median was 92.8 tokens per second for Flash-Next with a 260,446-token prompt. Dense Qwen3.8 reached 0.939 tokens per second with a 260,444-token prompt.
 
 The NVIDIA GB10 uses 128 GB of coherent unified memory. NVIDIA lists the GB10 platform with 128 GB of LPDDR5x unified memory and a 140 W chip TDP. The RTX 5060 Ti uses 16 GB of GDDR7 per card, a 128-bit memory interface, and a 180 W total graphics power rating. [NVIDIA RTX 5060 Ti specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/) and [NVIDIA GB10 specifications](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) describe the hardware difference.
 
@@ -123,7 +125,86 @@ ollama run hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S
 ollama run hf.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF:Q4_K_M
 ```
 
-These supplemental rows are dual-GPU observations. They are separate from the matched RTX 5060 Ti versus GB10 request matrix above. The supplied record identifies the exact model references, quantizations, requested context settings, and generation speed. The record omits resolved manifest digests, processed prompt-token counts, output length, warm state, device split, CPU, system RAM, cooling setup, and measurement date.
+These earlier supplemental rows are dual-GPU observations. They are separate from the matched RTX 5060 Ti versus GB10 request matrix above. The supplied record identifies the exact model references, quantizations, requested context settings, and generation speed. The record omits resolved manifest digests, processed prompt-token counts, output length, warm state, device split, CPU, system RAM, cooling setup, and measurement date.
+
+## Strata versus dense Ollama at 256K
+
+**A second benchmark from October 14, 2026 compared two model and runtime stacks on the same dual RTX 5060 Ti host.** The dense baseline used [`qwen3.8:27b`](https://ollama.com/library/qwen3.8:27b), a 27.3-billion-parameter Qwen35 model in Q4_K_M. The Flash stack used [Qwen3.8-Flash-Next IQ2_XS](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ2_XS), a Qwen4Exp mixture-of-experts model in a Strata unified native pack.
+
+This is a stack-level comparison. Model architecture, quantization, packaging, expert routing, and inference engine changed together. The IQ3_S and Q4_K_M Flash variants were outside this pass.
+
+### Test system and method
+
+| Component | Recorded configuration |
+|---|---|
+| **GPUs** | 2x NVIDIA GeForce RTX 5060 Ti, 16 GiB each, compute capability 12.0 |
+| **GPU link** | PCIe 4.0 x4 per card, PHB topology, no NVLink |
+| **CPU** | AMD Ryzen 9 5900XT, 32 threads |
+| **Host memory** | 62 GiB RAM and 15 GiB swap |
+| **NVIDIA driver** | 595.99.02 |
+
+The harness generated synthetic numbered records. Each row followed the format `Record 00001: alpha beta gamma delta epsilon zeta eta theta iota kappa.` The instruction required `BENCHMARK_OK` first, followed by a concise technical synthesis through the output limit. The six prompts contained 180, 720, 1,500, 3,100, 6,200, and 12,400 records.
+
+Each run used temperature 0, seed 42, and a maximum output length of 128 tokens. One warmup preceded five measured requests at each context. The Ollama tests used `/api/generate`. The Strata tests used `/v1/chat/completions`. All measured requests completed without API errors.
+
+The decode controls were not matched. Strata explicitly set `reasoning_effort` to `none` and disabled thinking through its chat template. The dense Ollama request did not send `think: false`, and dense output appeared in thinking and response fields during a follow-up probe. Treat the generation result as specific to these decode modes.
+
+| Context setting | Dense prompt tokens | Flash prompt tokens |
+|---:|---:|---:|
+| **4K** | 3,824 | 3,826 |
+| **16K** | 15,164 | 15,166 |
+| **32K** | 31,544 | 31,546 |
+| **64K** | 65,144 | 65,146 |
+| **128K** | 130,244 | 130,246 |
+| **256K** | 260,444 | 260,446 |
+
+Both model headers declared a 262,144-token maximum context. The paired prompts differed by two tokens at every checkpoint.
+
+### Median post-warmup generation speed
+
+Each median covers five measured requests after one warmup. Every dense measured request reused all but four prompt tokens. Every Flash measured request reused all but seven prompt tokens. The table measures warm, prefix-cached decode throughput. The table does not measure cold end-to-end latency.
+
+| Context | Flash IQ2_XS on Strata | Dense Q4_K_M on Ollama | Flash lead |
+|---:|---:|---:|---:|
+| **4K** | 98.4 tok/s | 65.0 tok/s | 1.51x |
+| **16K** | 96.8 tok/s | 60.6 tok/s | 1.60x |
+| **32K** | 95.3 tok/s | 64.4 tok/s | 1.48x |
+| **64K** | 89.6 tok/s | 51.2 tok/s | 1.75x |
+| **128K** | 92.9 tok/s | 31.5 tok/s | 2.95x |
+| **256K** | 92.8 tok/s | 0.939 tok/s | 98.9x |
+
+The Flash stack stayed near 90 tokens per second from 64K through 256K. Dense Qwen3.8 slowed sharply after 64K and reached 0.939 tokens per second at 256K. The 256K Flash response ended normally after 67 tokens. The dense run reached the 128-token output limit.
+
+### First-request prompt processing
+
+| Context | Flash first request | Dense first request |
+|---:|---:|---:|
+| **4K** | 1,134 tok/s | 832 tok/s |
+| **16K** | 2,013 tok/s | 856 tok/s |
+| **32K** | 2,386 tok/s | 799 tok/s |
+| **64K** | 2,509 tok/s | 690 tok/s |
+| **128K** | 2,538 tok/s | 489 tok/s |
+| **256K** | 2,399 tok/s | 214 tok/s |
+
+The dense first request processed the full prompt at every checkpoint. Strata reported 16,384 reused prefix tokens at 64K, 49,152 at 128K, and 114,688 at 256K. Treat the 64K through 256K Flash rates as first-request continuation throughput, not fully uncached prefill.
+
+At 256K, Strata processed the first request in 60.8 seconds. Ollama took about 1,215.4 seconds. The prefix reuse prevents a direct cold-prefill comparison at this checkpoint.
+
+### Runtime placement explains the long-context split
+
+Ollama 0.34.2 used llama-server 0.4.1-dev with CUDA layer offload, the ChatML template, and MTP speculative decoding with a maximum draft width of four. Batch and microbatch sizes were 1,024 at 32K and 512 from 64K through 256K. All 66 dense layers stayed on the GPUs at 32K and 64K. At 128K, 63 of 66 layers stayed on the GPUs and 1,404 MiB moved to CPU-mapped memory. At 256K, 42 of 66 layers stayed on the GPUs and 6,002 MiB moved to CPU-mapped memory. The 256K MTP acceptance rate was about 69.4 percent.
+
+Strata 0.1.44.1 with CUDA 13.0.3 kept its 48 layers split across both GPUs. The 4K and 16K configuration placed layers 0 through 23 on the first GPU and layers 24 through 47 on the second. This pass used an automatic 700 MiB VRAM reserve and 16,047 resident expert slots.
+
+The 32K through 256K configuration placed layers 0 through 24 on the first GPU and layers 25 through 47 on the second. This pass used automatic prefill, a speculative minimum probability of 0.5, INT8 KV storage, 32,768 resident KV cells per QSA layer, an 832 MiB VRAM reserve, an expert cache with 15,318 slots and 21,024 MiB, and MTP speculative decoding with a maximum draft width of four.
+
+The Strata native and PLE blob digest was `sha256:1473e0664c2017095f9164b6d617d7a71893452c1180c83002c4f28fc8c2b0da`. The run also depended on an expert profile and an MTP draft pack without published immutable digests.
+
+The Strata run used the default route-tail skip mode. This setting slightly changes model output and makes the result specific to the recorded runtime configuration. Flash responses carried `BENCHMARK_OK` markers. The dense requests returned zero API errors, but the primary harness did not capture the marker. Its raw rows recorded zero response characters. A follow-up probe found output in response and thinking fields and confirmed `BENCHMARK_OK` in the response.
+
+The 4K and 16K configuration logged one request at 409 MiB free and recommended an 832 MiB reserve. The long-context configuration logged one request at 481 MiB free and recommended an 896 MiB reserve. Both values fell below the engine's 512 MiB driver-paging threshold. No request failed, but these low-memory states affect repeatability.
+
+**Treat the 98.9x figure as a full-stack long-context result, not proof of a 98.9x engine-only advantage.** The test isolates the host. The test does not isolate the model, quantization, or runtime.
 
 ## Actual prompt lengths matter
 
@@ -208,6 +289,8 @@ For any long-context deployment, ask four questions before buying hardware:
 
 **The new benchmark answers these questions by model.** Qwen3.8 strongly favors the GB10 at 256K. The other four models favor the dual-card system for generation speed in this specific setup. The larger unified-memory pool still provides more capacity headroom, even when it does not deliver the highest measured throughput.
 
+The same dual-GPU hardware also recorded a 92.8-token-per-second post-warmup median at 256K with Flash-Next IQ2_XS on Strata. This separate result does not reverse the dense Qwen3.8 GB10 finding. Flash-Next uses a different mixture-of-experts architecture, quantization, package, runtime, and decode mode. No matched GB10 Flash-Next result exists in this dataset.
+
 ## Verdict
 
 **The dual RTX 5060 Ti system is faster for four of the five tested models at 256K generation.** It also costs about half as much as the listed GB10 system. The GB10 remains the better choice for Qwen3.8 27B at 256K, for capacity headroom, and for workloads that benefit from one coherent memory pool.
@@ -218,11 +301,17 @@ If you run GPT-OSS, Nemotron 3.5 Lightning, Qwen3.5, or Qwen3.6, the dual-card s
 
 **Memory capacity and throughput are separate buying criteria.** The GB10 offers four times the aggregate memory and a simpler shared working set. The dual-card system offers higher observed throughput on most tested models at a much lower listed system price.
 
+The Strata result adds a second lesson. Runtime placement, model architecture, and decode mode changed the 256K result on the same dual-card host. Flash-Next IQ2_XS kept a post-warmup median near 93 tokens per second while dense Qwen3.8 offloaded 24 layers and slowed below one token per second.
+
 ## Benchmark limits
 
 The benchmark records the model tags, requested contexts, actual prompt tokens, prompt-processing speed, generation speed, Ollama versions, and the 128-token generation target. It does not record resolved manifest digests, CPU power, wall power, fan speed, or cooling setup.
 
 The GPT-OSS 256K rows processed 65,538 actual prompt tokens on both systems. The other 256K rows processed about 171K actual prompt tokens. Treat the figures as an observed system comparison, not a universal ranking of every RTX 5060 Ti pair and every GB10 implementation.
+
+The Strata versus dense run records exact prompt counts, five measured requests per context, runtime versions, device placement, cache settings, and request status. The comparison changes model architecture, quantization, packaging, runtime, and decode mode together. Strata also reused prompt prefixes above 32K. The measured generation requests on both stacks reused nearly the entire prompt.
+
+Exact reproduction from this article is unavailable. The benchmark harness, Strata pack layout, expert profile, and MTP draft pack are not published with immutable digests. The low-VRAM warning also adds run-to-run risk. The test isolates the host, not the inference engine.
 
 The hardware specifications above come from NVIDIA. The performance figures come from the controlled benchmark run for this article.
 
