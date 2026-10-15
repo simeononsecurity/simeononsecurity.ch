@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network Security on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Network Security on simeononsecurity</title><link>https://simeononsecurity.com/genre/network-security/</link></image><link>https://simeononsecurity.com/genre/network-security/</link><description>Recent content in Network Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/network-security/index.xml" rel="self" type="application/rss+xml"/><item><title>Plan and Test VLAN Segmentation for a Homelab</title><link>https://simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Homelab"
+, "Network Security"
+, "Networking"</category><guid>https://simeononsecurity.com/articles/homelab-vlan-segmentation-plan/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Build a homelab VLAN plan for trusted devices, servers, IoT, and guests. Map allowed traffic, configure the network in stages, and test isolation.</description><enclosure url="https://simeononsecurity.com/img/cover/homelab-vlan-segmentation-plan.webp" length="105392" type="image/webp"/></item><item><title>Module 6: Home Network Security</title><link>https://simeononsecurity.com/personal-security-course/networks/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><category>
+"Personal Security"
+, "Network Security"
+, "Router Hardening"
+, "Privacy"
+, "WiFi"</category><guid>https://simeononsecurity.com/personal-security-course/networks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Back up and harden a home router, then test WiFi, guest, IoT, IPv6, DNS, VPN, and inbound access with a safe rollback plan through repeatable checks.</description><enclosure url="https://simeononsecurity.com/img/cover/home-network-security-router-devices-illustration.webp" length="200274" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Cloudflare Tunnel vs Access: Do You Need Both?</title><link>https://simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Self-Hosted"
+, "Cloud Security"</category><guid>https://simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand Cloudflare Tunnel vs Access, choose protection for a home dashboard, and avoid publishing a private application without authentication.</description><enclosure url="https://simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Why Port Forwarding Doesn't Work on T-Mobile Home Internet</title><link>https://simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port.</description><enclosure url="https://simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays</title><link>https://simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting.</description><enclosure url="https://simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>Flock Camera Detection Arms Race: What Changed in 2026</title><link>https://simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacy Technology"
+, "Counter Surveillance"
+, "Open Source Projects"
+, "Digital Rights"
+, "Network Security"
+, "Security Research"
+, "Hardware Hacking"
+, "Privacy Tools"</category><guid>https://simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Review reported Flock Safety detection changes, community responses, and infrared approaches for identifying camera systems.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Field-Deployable Connectivity and Data Security for Edge Nodes</title><link>https://simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge Computing"
+, "Field IT"
+, "Network Security"
+, "VPN"
+, "Encryption"
+, "Physical Security"
+, "Disaster Recovery"</category><guid>https://simeononsecurity.com/articles/field-deployable-connectivity-and-data-security-for-edge-nodes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A guide to connecting and securing field edge-compute nodes with cellular, satellite, LoRa, VPN, MFA, segmentation, logging, encryption, and theft response.</description><enclosure url="https://simeononsecurity.com/img/cover/field-deployable-edge-computing-connectivity-security.webp" length="273056" type="image/webp"/></item><item><title>Flock Finder: Map Flock Safety ALPR Cameras</title><link>https://simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Privacy Technology"
+, "Counter Surveillance"
+, "Open Source Projects"
+, "Digital Rights"
+, "Network Security"
+, "Privacy Tools"
+, "Hardware Hacking"
+, "Security Research"</category><guid>https://simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Map Flock Finder's ALPR camera records, review WiGLE and OUI detection limits, and compare mapping with field detection hardware.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with...</title><link>https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "WiFi Security"
+, "IoT Security"
+, "Security Research"
+, "Embedded Systems"
+, "Privacy Tools"
+, "ESP32 Projects"
+, "Hardware Security"
+, "Wireless Security"
+, "Open Source Security"</category><guid>https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A technical breakdown of ESP32 WiFi Canary, a passive 2.4GHz sensor for detecting evil twins, deauthentication, downgrades, and beacon floods.</description><enclosure url="https://simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>DagShell Custom Firmware for Orbic RCL400: 2026 Guide</title><link>https://simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Custom Firmware"
+, "Mobile Security"
+, "Privacy Tools"
+, "Network Security"
+, "Wardriving"
+, "Penetration Testing"
+, "IoT Hacking"
+, "Security Research"
+, "Hardware Hacking"
+, "Privacy Technology"</category><guid>https://simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A technical guide to DagShell firmware for the Orbic RCL400, covering installation, privacy tools, wardriving, and research limits.</description><enclosure url="https://simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock Safety Camera Vulnerabilities: 50+ Flaws Found</title><link>https://simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Security Research"
+, "Vulnerability Analysis"
+, "Surveillance Technology"
+, "Cybersecurity"
+, "Privacy Security"
+, "IoT Security"
+, "Physical Security"
+, "Network Security"
+, "Critical Infrastructure"
+, "Government Technology"</category><guid>https://simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Research into Flock Safety camera vulnerabilities covers exposed credentials, weak protections, physical access, and disclosure limits.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item><item><title>Flock-You Detection: Counter-Surveillance Setup Guide</title><link>https://simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Security Hardware"
+, "Counter Surveillance"
+, "Privacy Technology"
+, "Open Source Projects"
+, "ESP32 Development"
+, "WiFi Monitoring"
+, "Privacy Tools"
+, "Digital Rights"
+, "Hardware Hacking"
+, "Network Security"</category><guid>https://simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Set up Flock-You on ESP32 hardware to detect likely ALPR signals. Review firmware, hardware choices, and detection limits.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Fortinet vs Cisco: Complete Network Security Comparison...</title><link>https://simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Cybersecurity"
+, "Enterprise Networking"
+, "Firewall Comparison"
+, "IT Infrastructure"
+, "Network Hardware"
+, "Security Solutions"
+, "Network Management"
+, "Technology Comparison"
+, "IT Decision Making"</category><guid>https://simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Fortinet and Cisco firewalls, switches, SD-WAN, pricing factors, performance evidence, and deployment fit.</description><enclosure url="https://simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Tailscale vs Headscale</title><link>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Network Security"
+, "Self-Hosted"
+, "WireGuard"
+, "Zero Trust"
+, "Mesh Networking"
+, "Open Source"
+, "Cloud Infrastructure"
+, "Remote Access"
+, "Network Management"</category><guid>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Tailscale and Headscale by hosting model, identity, features, cost, operations, and support to choose a WireGuard mesh VPN for your needs.</description><enclosure url="https://simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>CEH v13: Cloud Computing Threats</title><link>https://simeononsecurity.com/ceh/cloud-computing-threats/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/cloud-computing-threats/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master cloud computing threats for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn the shared responsibility model, cloud misconfigurations, IAM weaknesses, ScoutSuite, Pacu, container escape, and CSPM.</description><enclosure url="https://simeononsecurity.com/img/cover/cloud-computing-threats-ceh-v13.webp" length="226622" type="image/webp"/></item><item><title>CEH v13: Cryptography and PKI</title><link>https://simeononsecurity.com/ceh/cryptography-and-pki/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/cryptography-and-pki/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master cryptography and PKI for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn symmetric and asymmetric encryption, PKI components, crypto attacks, the TLS handshake, and key management.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-cryptography-pki-illustration.webp" length="296754" type="image/webp"/></item><item><title>CEH v13: Denial-of-Service</title><link>https://simeononsecurity.com/ceh/denial-of-service/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/denial-of-service/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master denial-of-service for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn DoS vs DDoS, volumetric, protocol, and application attacks, amplification, botnets, and defenses.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-denial-of-service-attacks-techniques-defense.webp" length="387052" type="image/webp"/></item><item><title>CEH v13: Enumeration</title><link>https://simeononsecurity.com/ceh/enumeration/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/enumeration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master enumeration for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn NetBIOS, SNMP, LDAP, SMB, and DNS enumeration with tools like enum4linux, SNMPwalk, and NBTscan.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-enumeration-network-protocols-security.webp" length="175992" type="image/webp"/></item><item><title>CEH v13: Evading IDS, Firewalls, and Honeypots</title><link>https://simeononsecurity.com/ceh/evading-ids-firewalls-honeypots/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/evading-ids-firewalls-honeypots/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master evading IDS, firewalls, and honeypots for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn IDS/IPS detection, packet fragmentation, firewall bypass, tunneling, and honeypot identification.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-evading-ids-firewalls-honeypots.webp" length="277230" type="image/webp"/></item><item><title>CEH v13: Footprinting and Reconnaissance</title><link>https://simeononsecurity.com/ceh/footprinting-and-reconnaissance/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/footprinting-and-reconnaissance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master footprinting and reconnaissance for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn passive and active recon, OSINT, Google dorking, WHOIS, DNS, and tools like Maltego, theHarvester, and Shodan.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-footprinting-reconnaissance-techniques.webp" length="303370" type="image/webp"/></item><item><title>CEH v13: Hacking Mobile Platforms</title><link>https://simeononsecurity.com/ceh/hacking-mobile-platforms/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/hacking-mobile-platforms/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master hacking mobile platforms for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn Android and iOS attack surfaces, app sandboxing, malicious apps, ADB, MobSF, MDM bypass, and mobile defenses.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-hacking-mobile-platforms-security.webp" length="218986" type="image/webp"/></item><item><title>CEH v13: Hacking Web Applications</title><link>https://simeononsecurity.com/ceh/hacking-web-applications/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/hacking-web-applications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master hacking web applications for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn the OWASP Top 10, Burp Suite, broken access control, injection, LFI/RFI, XXE, and secure coding defenses.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-hacking-web-applications-owasp-top-10.webp" length="184828" type="image/webp"/></item><item><title>CEH v13: Hacking Web Servers</title><link>https://simeononsecurity.com/ceh/hacking-web-servers/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/hacking-web-servers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master hacking web servers for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn web server enumeration, misconfigurations, directory traversal, common attacks, and hardening with Nikto and dirb.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-hacking-web-servers-security.webp" length="215432" type="image/webp"/></item><item><title>CEH v13: Hacking Wireless Networks</title><link>https://simeononsecurity.com/ceh/hacking-wireless-networks/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.com/ceh/hacking-wireless-networks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master hacking wireless networks for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn Wi-Fi encryption, WPA2 handshake capture, evil twin attacks, Bluetooth threats, and WPA3 defenses.</description><enclosure url="https://simeononsecurity.com/img/cover/ceh-v13-hacking-wireless-networks-illustration.webp" length="229476" type="image/webp"/></item></channel></rss>
