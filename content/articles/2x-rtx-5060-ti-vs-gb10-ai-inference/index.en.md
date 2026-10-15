@@ -1,12 +1,12 @@
 ---
 title: "2x RTX 5060 Ti vs GB10: Five-Model Local AI Benchmark at 256K Context"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-14
 toc: true
 draft: false
-description: "A five-model comparison of two RTX 5060 Ti cards and an NVIDIA GB10 across context sizes, prompt processing, and generation speed."
+description: "A five-model comparison of two RTX 5060 Ti cards and an NVIDIA GB10, with three supplemental Qwen3.8 Flash-Next quantization benchmarks."
 genre: ["Artificial Intelligence", "Local AI", "GPU Hardware", "Benchmarking", "Computer Hardware"]
-tags: ["RTX 5060 Ti", "GB10", "DGX Spark", "Qwen3.8", "Qwen3.5", "Qwen3.6", "GPT-OSS", "Nemotron", "local LLM", "local inference", "unified memory", "VRAM", "GPU benchmark", "long context", "PCIe overhead", "AI hardware", "NVIDIA Blackwell", "LLM performance", "GPU memory"]
+tags: ["RTX 5060 Ti", "GB10", "DGX Spark", "Qwen3.8", "Qwen3.8 Flash-Next", "GSQ-RCO", "Qwen3.5", "Qwen3.6", "GPT-OSS", "Nemotron", "local LLM", "local inference", "unified memory", "VRAM", "GPU benchmark", "long context", "PCIe overhead", "AI hardware", "NVIDIA Blackwell", "LLM performance", "GPU memory"]
 cover: "/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp"
 coverAlt: "An illustration showing two NVIDIA RTX 5060 Ti graphics cards on the left and an NVIDIA GB10 system on the right, both highlighted against a dark background with vibrant colors."
 coverCaption: "Local model performance depends on memory architecture, model choice, and context length."
@@ -102,6 +102,28 @@ GB10:
 | 256K | 3243.4 | 2325.4 | 1938.5 | 1817.6 | 535.1 |
 
 At 256K, the dual-card system led on GPT-OSS and Qwen3.5 prompt processing. The GB10 led on Nemotron, Qwen3.6, and Qwen3.8. Model architecture and runtime behavior matter as much as the memory interface.
+
+## Supplemental Qwen3.8 Flash-Next benchmarks
+
+Three extra runs measured Qwen3.8 Flash-Next GGUF packages on the dual RTX 5060 Ti system at 4K and 16K context settings. The exact Hugging Face model reference and quantization appear in each row.
+
+| Exact model | Quantization | 4K generation | 16K generation |
+|---|---:|---:|---:|
+| [`hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ2_XS`](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ2_XS) | IQ2_XS | 31.77 tok/s | 28.20 tok/s |
+| [`hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S`](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ3_S) | IQ3_S | 24.54 tok/s | 22.60 tok/s |
+| [`hf.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF:Q4_K_M`](https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF/tree/main) | Q4_K_M | 17.91 tok/s | 17.02 tok/s |
+
+The IQ2_XS package produced the highest throughput in this set. Its 4K result was 31.77 tokens per second, compared with 24.54 for IQ3_S and 17.91 for Q4_K_M. At 16K, the same order held at 28.20, 22.60, and 17.02 tokens per second.
+
+Run the same exact model references with Ollama:
+
+```bash
+ollama run hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ2_XS
+ollama run hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S
+ollama run hf.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF:Q4_K_M
+```
+
+These supplemental rows are dual-GPU observations. They are separate from the matched RTX 5060 Ti versus GB10 request matrix above. The supplied record identifies the exact model references, quantizations, requested context settings, and generation speed. The record omits resolved manifest digests, processed prompt-token counts, output length, warm state, device split, CPU, system RAM, cooling setup, and measurement date.
 
 ## Actual prompt lengths matter
 
@@ -207,6 +229,8 @@ The hardware specifications above come from NVIDIA. The performance figures come
 ## References
 
 - [Ollama Qwen3.8 model library](https://ollama.com/library/qwen3.8)
+- [ISTA-DASLab Qwen3.8 Flash-Next GSQ-RCO GGUF models](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF)
+- [orcarouter Qwen3.8 Flash-Next Uncensored GGUF models](https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF)
 - [Ollama Qwen3.5 model library](https://ollama.com/library/qwen3.5)
 - [Ollama Qwen3.6 model library](https://ollama.com/library/qwen3.6)
 - [Ollama Nemotron 3.5 Lightning model library](https://ollama.com/library/nemotron-3.5-lightning)
