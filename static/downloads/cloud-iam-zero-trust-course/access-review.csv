@@ -1,5 +1,0 @@
-principal,type,scope,role,last_used_days,owner,business_need,recommendation
-alice@example.test,human,project-payroll,viewer,12,finance,monthly reconciliation,keep
-build-bot@example.test,workload,project-payroll,editor,3,platform,deploy read-only reports,reduce to custom read role
-legacy-export@example.test,workload,organization,owner,190,unknown,unknown,remove after owner review
-breakglass-01@example.test,human,tenant,global-admin,44,security,emergency recovery,keep with monitored emergency process
