@@ -20,8 +20,6 @@ This guide answers one question: how do you reach your broker and cloud models f
 
 *Aperture is under active development. Tailscale has not published a GA or stability badge for it as of October 2026. Treat every configuration key below as current to the September and October 2026 Aperture documentation and re-check it before a production rollout.*
 
-______
-
 ## Key Takeaways
 
 - **Aperture is the private edge.** It listens on your tailnet, so there are **no public ports** and no reverse proxy to harden on the open internet.
@@ -29,8 +27,6 @@ ______
 - **Access is deny-by-default.** Network reachability grants no model access on its own. A matching grant per identity is what opens a model.
 - **Clients need a base URL and a model name.** The provider key lives server-side, so most on-tailnet clients send no real credential.
 - **One gateway fronts many upstreams.** Put your broker behind Aperture for local models and add a cloud provider in the same config.
-
-______
 
 ## Before You Begin
 
@@ -42,8 +38,6 @@ You need the following in place:
 - An Aperture account from `aperture.tailscale.com`. The free personal plan is enough to follow along.
 
 **Estimated time:** 30 to 45 minutes. **Difficulty:** intermediate. You should be comfortable editing HuJSON config and reading Tailscale access rules.
-
-______
 
 ## What Aperture Does
 
@@ -57,8 +51,6 @@ Three properties make it the right fit for a private local-AI setup:
 
 > **Key Takeaway:** Aperture turns "reach my models securely from anywhere" into "join the tailnet and ask for a model by name."
 
-______
-
 ## The Private Edge, Not the Public Edge
 
 This series treats Aperture as the **private edge**: the entry point for your own devices and trusted identities over the tailnet. A **public edge** for anonymous internet traffic is a separate concern and out of scope here, where the usual pick is a public-facing proxy such as LiteLLM. The rest of this guide stays on the private path.
@@ -71,8 +63,6 @@ Agents  ->  Aperture (private edge)  ->  OpenAI-compatible broker  ->  backends
 
 Every hop after Aperture lives on the tailnet, and the first hop from a client to Aperture rides Tailscale's WireGuard transport. For the relay and direct-connection mechanics behind the first hop, see [why Tailscale uses a relay](/articles/why-tailscale-uses-a-relay/).
 
-______
-
 ## How Identity Works
 
 When a request arrives, Aperture takes the source Tailscale IP and performs a `WhoIs` lookup against your tailnet. The answer is the authenticated login or the device tags bound to the source address. The client never asserts its own identity, so a forged header buys nothing.
@@ -83,8 +73,6 @@ Two identity shapes matter:
 - **Tag identity** collapses every session behind a service tag into one synthetic login. Reserve tags for CI and shared service hosts, not for people, because per-user attribution disappears under a tag.
 
 *Tag-based identity is the common pitfall: a shared CI host tagged once will log every run as the same caller.*
-
-______
 
 ## Who Reaches What
 
@@ -99,8 +87,6 @@ The table below shows the access model you will build in the next sections. **Ne
 
 *Grants are additive and allow-only. You remove access by removing or narrowing a grant, never by writing a deny rule.*
 
-______
-
 ## Set Up the Gateway
 
 Each step is marked for how it was checked. **Verified against docs** means confirmed against the Tailscale Aperture documentation dated September and October 2026. **Not tested here** means the step was not independently run in a lab for this guide.
@@ -112,8 +98,6 @@ Each step is marked for how it was checked. **Verified against docs** means conf
 **Step 3. Narrow the default grants.** A new gateway ships with wide-open "all users, all models" grants. Narrowing these is the step enforcing per-identity access. *(Verified against docs.)*
 
 > **Warning: a fresh Aperture gateway is open to every tailnet identity until you narrow the shipped grants.** Do this before you add a paid cloud provider.
-
-______
 
 ## Front the Broker and a Cloud Model
 
@@ -147,8 +131,6 @@ Two settings decide whether the first request works:
 - **Omit `apikey` for a keyless broker.** The local broker needs no credential from the gateway. Add a key only when the broker itself requires one. *(Verified against docs.)*
 
 Test each upstream from **Administration > Models** with the play control before you expose it to clients. *(Not tested here.)*
-
-______
 
 ## Grants: Deny by Default
 
@@ -186,8 +168,6 @@ A few rules keep the grant layer correct:
 
 *For managing access as code in your policy file, mirror the same source-to-model mapping and add the network grant.*
 
-______
-
 ## Connect Your Clients
 
 On the tailnet, a client needs a **base URL and a model name**. The provider credential is already server-side. The matrix below shows the common clients.
@@ -212,8 +192,6 @@ The response lists **only the models the caller's identity is granted**. Each en
 
 A caveat on transport: plain `http://` over the tailnet works for OpenAI-wire SDKs, curl, and agent plugins. A few clients, Claude Desktop and Gemini CLI version 0.40 and later, require **HTTPS with a trusted certificate for a fully qualified gateway hostname**. Check your client before you assume plain `http://` is enough. *(Verified against docs.)*
 
-______
-
 ## One Gateway, Broker or Backends?
 
 With the gateway working, the design question is whether Aperture's upstream should be **your broker** (Agents to Aperture to broker to backends) or whether Aperture should **front each backend directly** (Agents to Aperture to the GPU host and the cloud). The Aperture docs support both shapes, so this is a judgment call.
@@ -232,8 +210,6 @@ With the gateway working, the design question is whether Aperture's upstream sho
 
 For the threat model behind these choices, see [the local AI broker threat model](/articles/local-ai-broker-threat-model-2026/). For wiring coding agents into this setup, see [local models in Claude Code, Cursor, and OpenCode](/articles/local-models-claude-code-cursor-opencode-2026/).
 
-______
-
 ## Devices Outside the Tailnet
 
 Aperture listens on Tailscale interfaces, so a device off the tailnet fails at the network level. To reach the gateway from such a device, use an **Aperture CLI bridge** or **`ts-unplug`**, an embedded tailnet node. The client then points at `http://localhost:<port>` and keeps its own Tailscale identity.
@@ -241,8 +217,6 @@ Aperture listens on Tailscale interfaces, so a device off the tailnet fails at t
 > **Warning: `ts-unplug` and `ts-plug` are under active development.** They build from source, have no prebuilt binaries, and bind to `localhost` only. Treat off-tailnet access as a beta path and verify it in a test environment before relying on it.
 
 The simpler answer for most readers is to join the device to the tailnet. For hardening the entry point itself, the course lab on [secure exposure](/local-ai-secure-server-course/05-secure-exposure-lab/) covers authentication, request limits, and listener scope.
-
-______
 
 ## Troubleshooting
 
@@ -256,8 +230,6 @@ ______
 | **HTTP 404 on `/v1/responses` or `/v1/messages`** | Provider missing the matching compatibility flag | Set `openai_responses` or `anthropic_messages` in the provider block |
 | **Client will not connect over `http://`** | Client requires HTTPS plus a trusted cert for an FQDN | Use the HTTPS hostname the client needs, plain `http://` stays for OpenAI-wire SDKs and curl |
 | **Connection fails from a non-tailnet device** | Aperture binds to Tailscale interfaces only | Use an Aperture CLI bridge or `ts-unplug`, point the client at `http://localhost:<port>` |
-
-______
 
 ## Next Steps
 
