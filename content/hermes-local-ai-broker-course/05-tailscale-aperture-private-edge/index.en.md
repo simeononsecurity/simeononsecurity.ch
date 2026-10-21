@@ -1,5 +1,5 @@
 ---
-title: "Tailscale Aperture: The Private Gateway to Your Local AI"
+title: "Lesson 5: Tailscale Aperture: The Private Gateway to Your Local AI"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/tailscale-aperture-local-ai-gateway-2026.webp"
 coverAlt: "An illustration of a private network gateway routing AI requests from laptops and phones to a local GPU server and a cloud model on a dark background."
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 ## Introduction
 
@@ -33,7 +34,7 @@ This guide answers one question: how do you reach your broker and cloud models f
 You need the following in place:
 
 - A **Tailscale tailnet** with **MagicDNS enabled** and your devices joined. If tailnets, identity, and MagicDNS are new to you, read the [Tailscale vs Headscale comparison](/articles/tailscale-vs-headscale-comparison-guide/) first.
-- An **OpenAI-compatible AI broker** already serving your local models on the tailnet. The sibling guide [one endpoint for every model](/articles/openai-compatible-ai-broker-one-endpoint-2026/) covers the broker itself.
+- An **OpenAI-compatible AI broker** already serving your local models on the tailnet. The sibling guide [one endpoint for every model](/hermes-local-ai-broker-course/03-openai-compatible-broker/) covers the broker itself.
 - A **GPU host** reachable from the device running the gateway, at a tailnet address shown here as `<GPU_HOST>`.
 - An Aperture account from `aperture.tailscale.com`. The free personal plan is enough to follow along.
 
@@ -208,7 +209,7 @@ With the gateway working, the design question is whether Aperture's upstream sho
 
 *Direct-fronting wins in one case: a single backend with no broker value-add, where per-user cost attribution on the backend itself matters. The two are not exclusive. Aperture fronts the broker for your local fleet and a cloud provider directly in the same config.*
 
-For the threat model behind these choices, see [the local AI broker threat model](/articles/local-ai-broker-threat-model-2026/). For wiring coding agents into this setup, see [local models in Claude Code, Cursor, and OpenCode](/articles/local-models-claude-code-cursor-opencode-2026/).
+For the threat model behind these choices, see [the local AI broker threat model](/hermes-local-ai-broker-course/09-threat-model/). For wiring coding agents into this setup, see [local models in Claude Code, Cursor, and OpenCode](/hermes-local-ai-broker-course/06-coding-agents-local-models/).
 
 ## Devices Outside the Tailnet
 
@@ -235,7 +236,9 @@ The simpler answer for most readers is to join the device to the tailnet. For ha
 
 You now have a private gateway fronting your broker and a cloud model, with deny-by-default access keyed to tailnet identity and one base URL for every client.
 
-- Read the series master, [the Hermes Agent local AI brokerized workflow](/articles/hermes-agent-local-ai-brokerized-workflow-2026/), for how the private edge fits the full stack.
-- Front your models first with the [OpenAI-compatible broker guide](/articles/openai-compatible-ai-broker-one-endpoint-2026/).
-- Review [the local AI broker threat model](/articles/local-ai-broker-threat-model-2026/) before widening access.
-- Point your coding agents at the gateway with [local models in Claude Code, Cursor, and OpenCode](/articles/local-models-claude-code-cursor-opencode-2026/).
+- Read the series master, [the Hermes Agent local AI brokerized workflow](/hermes-local-ai-broker-course-start/), for how the private edge fits the full stack.
+- Front your models first with the [OpenAI-compatible broker guide](/hermes-local-ai-broker-course/03-openai-compatible-broker/).
+- Review [the local AI broker threat model](/hermes-local-ai-broker-course/09-threat-model/) before widening access.
+- Point your coding agents at the gateway with [local models in Claude Code, Cursor, and OpenCode](/hermes-local-ai-broker-course/06-coding-agents-local-models/).
+
+Continue with [Lesson 6: Point Coding Agents at the Broker](/hermes-local-ai-broker-course/06-coding-agents-local-models/).

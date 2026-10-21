@@ -1,5 +1,5 @@
 ---
-title: "Threat Model: Your Local AI Agent Stack Under Attack"
+title: "Lesson 9: Threat Model: Your Local AI Agent Stack Under Attack"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/local-ai-agent-stack-threat-model.webp"
 coverAlt: "Abstract diagram of a layered local AI agent stack with trust boundaries between agents, a private edge, a broker, and GPU backends"
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 **A local AI agent stack is not one trusted machine.** It is a chain of trust boundaries: autonomous agents, a private network edge, a request broker, and the GPU backends behind it. Every boundary is a place where an attacker with the wrong foothold reaches further than you intend. This page models the attack surface of one specific design, names which controls hold in code, and states which protections are only deployment choices or out of scope on purpose.
 
@@ -26,7 +27,7 @@ coverCaption: ""
 
 ## Prerequisites
 
-This page assumes you know the stack from its companion articles. Read the [brokerized local AI workflow overview](/articles/hermes-agent-local-ai-brokerized-workflow-2026/) for the whole design, the [Tailscale private edge setup](/articles/tailscale-aperture-local-ai-gateway-2026/) for the edge, and the [broker governance guide](/articles/secure-ai-broker-governance-2026/) for keys and budgets. For the agent side of the chain, start with [AI agent trust boundaries](/secure-ai-agents-mcp-course/01-agent-trust-boundaries/).
+This page assumes you know the stack from its companion articles. Read the [brokerized local AI workflow overview](/hermes-local-ai-broker-course-start/) for the whole design, the [Tailscale private edge setup](/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/) for the edge, and the [broker governance guide](/hermes-local-ai-broker-course/08-broker-governance/) for keys and budgets. For the agent side of the chain, start with [AI agent trust boundaries](/secure-ai-agents-mcp-course/01-agent-trust-boundaries/).
 
 ## The Four Trust Boundaries
 
@@ -149,4 +150,6 @@ A threat model earns trust by admitting its gaps. These are the parts this desig
 
 ## Next Steps
 
-Work the chain end to end. Set keys and budgets with the [broker governance guide](/articles/secure-ai-broker-governance-2026/), lock the edge with the [Tailscale private edge setup](/articles/tailscale-aperture-local-ai-gateway-2026/), and see the full picture in the [brokerized local AI workflow overview](/articles/hermes-agent-local-ai-brokerized-workflow-2026/). For the agent side, where prompt injection lives, read [AI agent trust boundaries](/secure-ai-agents-mcp-course/01-agent-trust-boundaries/). For why the host underneath still matters, see [containers are no longer a security boundary](/articles/containers-no-longer-security-boundary-2026/).
+Work the chain end to end. Set keys and budgets with the [broker governance guide](/hermes-local-ai-broker-course/08-broker-governance/), lock the edge with the [Tailscale private edge setup](/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/), and see the full picture in the [brokerized local AI workflow overview](/hermes-local-ai-broker-course-start/). For the agent side, where prompt injection lives, read [AI agent trust boundaries](/secure-ai-agents-mcp-course/01-agent-trust-boundaries/). For why the host underneath still matters, see [containers are no longer a security boundary](/articles/containers-no-longer-security-boundary-2026/).
+
+That completes the course. Return to the [course overview](/hermes-local-ai-broker-course-start/), or go deeper on the agent side with the [Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/).

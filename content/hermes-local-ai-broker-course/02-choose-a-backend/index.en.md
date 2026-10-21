@@ -1,5 +1,5 @@
 ---
-title: "Ollama vs vLLM vs llama.cpp vs Strata: Choosing a Local Inference Backend in 2026"
+title: "Lesson 2: Ollama vs vLLM vs llama.cpp vs Strata: Choosing a Local Inference Backend in 2026"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/ollama-vllm-llamacpp-strata-backend-comparison-2026.webp"
 coverAlt: "An illustration comparing four local inference backends feeding one OpenAI-compatible broker on a dark background."
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 **The backend is the runtime loading your model weights and answering tokens.** In a brokerized setup your agents never talk to it straight. They reach an OpenAI-compatible broker, and the broker forwards each request to one of several backends on a GPU host. This page compares the four backends worth running there in 2026: **Ollama**, **vLLM**, **llama.cpp**, and **Strata**.
 
@@ -192,7 +193,9 @@ This is where the broker earns its place. The agent keeps one endpoint and one m
 
 ## Next Steps
 
-- Read [One Endpoint for Every Model: Building an OpenAI-Compatible AI Broker](/articles/openai-compatible-ai-broker-one-endpoint-2026/) for the layer routing to these backends.
-- Read [Auto-Routing Local and Cloud AI in One Mix](/articles/ai-auto-router-local-cloud-mix-2026/) for mixing local backends with hosted models.
-- Read the series master, [Hermes Agent plus Local AI: A Brokerized Agentic Workflow](/articles/hermes-agent-local-ai-brokerized-workflow-2026/), for the full stack.
+- Read [One Endpoint for Every Model: Building an OpenAI-Compatible AI Broker](/hermes-local-ai-broker-course/03-openai-compatible-broker/) for the layer routing to these backends.
+- Read [Auto-Routing Local and Cloud AI in One Mix](/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/) for mixing local backends with hosted models.
+- Read the series master, [Hermes Agent plus Local AI: A Brokerized Agentic Workflow](/hermes-local-ai-broker-course-start/), for the full stack.
 - Size your hardware with the [Local AI Model, GPU, and Context Guide](/articles/local-ai-model-gpu-context-guide/) before committing to a model.
+
+Continue with [Lesson 3: The OpenAI-Compatible Broker](/hermes-local-ai-broker-course/03-openai-compatible-broker/).

@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent for Security and Automation: Profiles, Skills, and Bots Explained"
+title: "Lesson 1: Hermes Agent for Security and Automation: Profiles, Skills, and Bots Explained"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/hermes-agent-overview-security-automation.webp"
 coverAlt: "Illustration of several labeled agent profiles linked to a shared coordination board and a local model endpoint on a dark background"
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 **Hermes Agent is a persistent agent platform, not a single chat window.** It gives each assistant its own home directory with separate configuration, memory, skills, credentials, and scheduled work. One install runs several named agents at once and coordinates them over a shared board.
 
@@ -222,10 +223,12 @@ Common failure modes, each phrased so you recognize it before it costs an hour.
 
 You now know the parts of Hermes Agent and the point where the persistent model earns its setup. Continue with the rest of the series and the related guides below.
 
-- Build a roster and fan out work in [Hermes Bots and profiles: a fan-out workflow](/articles/hermes-bot-profiles-fanout-2026/).
-- Put one endpoint in front of several model servers in [The OpenAI-compatible AI broker](/articles/openai-compatible-ai-broker-one-endpoint-2026/).
-- Add the tailnet-only private edge in [Tailscale Aperture as a local AI gateway](/articles/tailscale-aperture-local-ai-gateway-2026/).
-- Read the full architecture in [Hermes Agent and local AI: a brokerized workflow](/articles/hermes-agent-local-ai-brokerized-workflow-2026/).
+- Build a roster and fan out work in [Hermes Bots and profiles: a fan-out workflow](/hermes-local-ai-broker-course/07-bot-profiles-fan-out/).
+- Put one endpoint in front of several model servers in [The OpenAI-compatible AI broker](/hermes-local-ai-broker-course/03-openai-compatible-broker/).
+- Add the tailnet-only private edge in [Tailscale Aperture as a local AI gateway](/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/).
+- Read the full architecture in [Hermes Agent and local AI: a brokerized workflow](/hermes-local-ai-broker-course-start/).
 - Compare the software around a model call in [Best AI agent harnesses](/articles/best-ai-agent-harnesses/).
 - Write the repository rules your agents read in [Write AGENTS.md and CLAUDE.md for coding agents](/articles/effective-ai-agents-md-context/).
 - Start from the basics in the [Practical AI workflow course](/effective-ai-course-start/).
+
+Continue with [Lesson 2: Choose a Backend](/hermes-local-ai-broker-course/02-choose-a-backend/).

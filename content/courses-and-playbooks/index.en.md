@@ -37,6 +37,7 @@ We offer practical skills courses, career playbooks, certification study paths, 
 - #### [AI Collaboration Implementation Course](/ai-collaboration-course-start/)
 - #### [Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)
 - #### [Local AI: From First Model to Secure Server](/local-ai-secure-server-course-start/)
+- #### [Hermes Agent and Local AI: Brokerized Agentic Workflow](/hermes-local-ai-broker-course-start/)
 - #### [Detection Engineering and Incident Response Course](/detection-engineering-incident-response-course-start/)
 - #### [Cloud IAM and Zero Trust Lab Course](/cloud-iam-zero-trust-course-start/)
 - #### [Secure CI/CD and Software Supply Chains Course](/secure-cicd-course-start/)

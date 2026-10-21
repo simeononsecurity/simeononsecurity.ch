@@ -1,5 +1,5 @@
 ---
-title: "Hermes Bot Profiles: Fan Work Out to Specialized Agents With a Kanban Dispatcher"
+title: "Lesson 7: Hermes Bot Profiles: Fan Work Out to Specialized Agents With a Kanban Dispatcher"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,12 +11,13 @@ cover: "/img/cover/hermes-bot-profiles-fanout-2026.webp"
 coverAlt: "Diagram of one gateway dispatching work to researcher, writer, and reviewer profiles across linked kanban cards on a dark background"
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 **One agent in one chat hits a ceiling fast.** A long job mixes research, drafting, review, and a final safety check into a single context window, and quality drops as the window fills. Hermes answers this with **profiles**: each role runs as its own agent with its own memory, skills, and model, and a shared board routes work between them.
 
 This guide shows the pattern from end to end. You will define role-specific profiles, match each profile to a **model tier**, split a large job into **dependent cards** on a kanban board, and verify each result before the work counts as done.
 
-*Read the [Hermes Agent overview](/articles/hermes-agent-overview-security-automation/) first if profiles and the gateway are new to you.*
+*Read the [Hermes Agent overview](/hermes-local-ai-broker-course/01-hermes-agent-overview/) first if profiles and the gateway are new to you.*
 
 **Learning outcome:** by the end you move from applying this pattern to designing your own fan-out and its verification gate.
 
@@ -34,7 +35,7 @@ This guide shows the pattern from end to end. You will define role-specific prof
 
 **Prerequisites:** a working Hermes install with the gateway and kanban enabled, and at least three profiles you create during this guide. Set aside 45 minutes. Difficulty is intermediate.
 
-You also need a model endpoint each profile reaches. Use a local model behind a [private edge and broker](/articles/hermes-agent-local-ai-brokerized-workflow-2026/) or a cloud provider key.
+You also need a model endpoint each profile reaches. Use a local model behind a [private edge and broker](/hermes-local-ai-broker-course-start/) or a cloud provider key.
 
 ## Why Fan Work Out
 
@@ -98,7 +99,7 @@ Assign a tier by role. The table below is a generic shape, not one machine's mod
 
 *Spend the expensive tier on the gate, not the draft. A strong model reviewing cheap output beats a cheap model reviewing expensive output.*
 
-The [broker's router](/articles/ai-auto-router-local-cloud-mix-2026/) sends cheap tiers to local models and escalates expensive tiers to a cloud provider. Enforce the limit with [per-key budgets at the broker](/articles/secure-ai-broker-governance-2026/), so a runaway card never overspends.
+The [broker's router](/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/) sends cheap tiers to local models and escalates expensive tiers to a cloud provider. Enforce the limit with [per-key budgets at the broker](/hermes-local-ai-broker-course/08-broker-governance/), so a runaway card never overspends.
 
 A card inherits its assignee profile's tier unless the card sets its own `model` and `provider`. Create most cards without them and let the profile decide. Override per card only for a one-off escalation.
 
@@ -187,10 +188,10 @@ Run this checklist before you mark any card done.
 
 ## Next Steps
 
-- Start with the [Hermes Agent overview](/articles/hermes-agent-overview-security-automation/) if profiles and the gateway are new.
-- Route tiers automatically with the [local and cloud auto-router](/articles/ai-auto-router-local-cloud-mix-2026/).
-- Enforce spend with [broker key governance](/articles/secure-ai-broker-governance-2026/).
-- See the whole stack in the [brokerized workflow master guide](/articles/hermes-agent-local-ai-brokerized-workflow-2026/).
+- Start with the [Hermes Agent overview](/hermes-local-ai-broker-course/01-hermes-agent-overview/) if profiles and the gateway are new.
+- Route tiers automatically with the [local and cloud auto-router](/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/).
+- Enforce spend with [broker key governance](/hermes-local-ai-broker-course/08-broker-governance/).
+- See the whole stack in the [brokerized workflow master guide](/hermes-local-ai-broker-course-start/).
 - Sharpen each role with [agent delegation](/articles/effective-ai-agent-delegation/), [task packets](/articles/effective-ai-task-packets/), [bounded agent loops](/articles/effective-ai-bounded-agent-loops/), and [output verification](/articles/effective-ai-output-verification/).
 
 ## Your Turn: Design a Fan-Out
@@ -202,3 +203,5 @@ Design a three-role fan-out for a job you run for real. Produce three artifacts.
 3. **A verification checklist.** Adapt the checklist above to your job. Name the concrete artifact each card must produce and the exact command you run to confirm it.
 
 Expected reasoning: your gate card lists every child as a parent, your drafting cards each name one research parent, and no card trusts a worker's summary without a named artifact and a check command. If a card would mark itself done on a self-report alone, add the missing verification before you run it.
+
+Continue with [Lesson 8: Secure the Broker with Keys and Budgets](/hermes-local-ai-broker-course/08-broker-governance/).

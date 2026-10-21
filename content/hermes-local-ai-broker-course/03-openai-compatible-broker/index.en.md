@@ -1,5 +1,5 @@
 ---
-title: "The OpenAI-Compatible AI Broker: One Endpoint for Every Local Model"
+title: "Lesson 3: The OpenAI-Compatible AI Broker: One Endpoint for Every Local Model"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/openai-compatible-ai-broker-one-endpoint-2026.webp"
 coverAlt: "An illustration of a single API endpoint routing requests from agents to several local model runtimes on a GPU server, on a dark background."
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 ## Introduction
 
@@ -36,7 +37,7 @@ ______
 
 You need the following to follow along:
 
-- A **GPU host** running at least one model runtime. The broker supports **Ollama**, **vLLM**, **llama.cpp**, and **Strata**. To pick one, read the sibling comparison on [Ollama, vLLM, llama.cpp, and Strata backends](/articles/ollama-vllm-llamacpp-strata-backend-comparison-2026/).
+- A **GPU host** running at least one model runtime. The broker supports **Ollama**, **vLLM**, **llama.cpp**, and **Strata**. To pick one, read the sibling comparison on [Ollama, vLLM, llama.cpp, and Strata backends](/hermes-local-ai-broker-course/02-choose-a-backend/).
 - **Docker** or a Python environment to run the broker. The project publishes container images to GHCR in two flavors covered below.
 - Comfort editing **YAML** and reading HTTP request and response bodies.
 
@@ -54,7 +55,7 @@ This series builds a private stack where agents reach models they control. The b
 Agents  ->  Aperture (private edge)  ->  OpenAI-compatible broker  ->  backends
 ```
 
-The broker owns backend selection, model lifecycle, pools, retries, and per-key budgets. The layer in front of it, [Tailscale Aperture](/articles/tailscale-aperture-local-ai-gateway-2026/), is the private edge that gives each caller a tailnet identity and keeps the whole stack off the public internet. A public edge for anonymous internet traffic is out of scope here, where the usual pick is a public-facing proxy such as LiteLLM.
+The broker owns backend selection, model lifecycle, pools, retries, and per-key budgets. The layer in front of it, [Tailscale Aperture](/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/), is the private edge that gives each caller a tailnet identity and keeps the whole stack off the public internet. A public edge for anonymous internet traffic is out of scope here, where the usual pick is a public-facing proxy such as LiteLLM.
 
 > **Key Takeaway:** The agent sends one request to one URL. Everything about which model runs, where, and how it recovers from failure lives inside the broker.
 
@@ -123,7 +124,7 @@ The control fields decide routing and lifecycle without any logic in the agent:
 - **`pool`** groups several entries under one public name.
 - **`pricing`** sets a per-million-token cost used by per-key budgets.
 
-Those last fields feed the `auto` router and per-key governance, each its own deep dive. For how the broker, not the agent, chooses local against cloud from this registry data, see [the local and cloud auto-router](/articles/ai-auto-router-local-cloud-mix-2026/). For virtual keys, budgets, and placement enforcement, see [secure broker governance](/articles/secure-ai-broker-governance-2026/).
+Those last fields feed the `auto` router and per-key governance, each its own deep dive. For how the broker, not the agent, chooses local against cloud from this registry data, see [the local and cloud auto-router](/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/). For virtual keys, budgets, and placement enforcement, see [secure broker governance](/hermes-local-ai-broker-course/08-broker-governance/).
 
 > **Best Practice:** Add, alias, and retier a model by editing one registry entry. Clients keep sending the same model name, and nothing changes on their side.
 
@@ -271,8 +272,10 @@ ______
 
 You now have a mental model of the broker: one OpenAI-compatible endpoint, lazy loading, idle unload, pools with same-model failover, retries with cooldowns, and non-loading health checks.
 
-- Read the series master, [the Hermes Agent local AI brokerized workflow](/articles/hermes-agent-local-ai-brokerized-workflow-2026/), for how the broker fits the full stack.
-- Pick the runtime behind the broker with [the Ollama, vLLM, llama.cpp, and Strata comparison](/articles/ollama-vllm-llamacpp-strata-backend-comparison-2026/).
-- Let the broker choose local against cloud with [the local and cloud auto-router](/articles/ai-auto-router-local-cloud-mix-2026/).
-- Add virtual keys, budgets, and placement rules with [secure broker governance](/articles/secure-ai-broker-governance-2026/).
-- Expose the broker privately with [Tailscale Aperture](/articles/tailscale-aperture-local-ai-gateway-2026/).
+- Read the series master, [the Hermes Agent local AI brokerized workflow](/hermes-local-ai-broker-course-start/), for how the broker fits the full stack.
+- Pick the runtime behind the broker with [the Ollama, vLLM, llama.cpp, and Strata comparison](/hermes-local-ai-broker-course/02-choose-a-backend/).
+- Let the broker choose local against cloud with [the local and cloud auto-router](/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/).
+- Add virtual keys, budgets, and placement rules with [secure broker governance](/hermes-local-ai-broker-course/08-broker-governance/).
+- Expose the broker privately with [Tailscale Aperture](/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/).
+
+Continue with [Lesson 4: Auto-Routing Local and Cloud](/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/).

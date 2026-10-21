@@ -1,5 +1,5 @@
 ---
-title: "Secure Your AI Broker: Virtual Keys, Budgets, and Allowed Models"
+title: "Lesson 8: Secure Your AI Broker: Virtual Keys, Budgets, and Allowed Models"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/secure-ai-broker-governance-2026.webp"
 coverAlt: "Diagram of an AI broker checking a virtual key for rate limits, budgets, and an allowed-models list before reaching backends"
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 A **virtual key** is a per-caller credential your broker checks before it forwards a request to any backend. Give each agent and each person a separate key, attach **rate limits**, **token and cost budgets**, and a **model allow-list**, and one leaked or runaway caller stops at its own ceiling instead of draining your whole stack. This guide shows how to define those keys, read the exact refusal a blocked caller receives, and decide which limits belong on which key.
 
@@ -260,3 +261,5 @@ You now scope each caller with its own key, read the exact refusal it receives, 
 {{< centerbutton href="/secure-ai-agents-mcp-course-start/" >}}
   Take the Secure AI Agents Course
 {{< /centerbutton >}}
+
+Continue with [Lesson 9: Threat-Model the Stack](/hermes-local-ai-broker-course/09-threat-model/).

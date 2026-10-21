@@ -1,5 +1,5 @@
 ---
-title: "Point Claude Code, Cursor, and OpenCode at Your Local AI Broker"
+title: "Lesson 6: Point Claude Code, Cursor, and OpenCode at Your Local AI Broker"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/local-models-claude-code-cursor-opencode-2026.webp"
 coverAlt: "An illustration of three terminal coding agents connecting to a single private AI gateway host on a dark background with glowing network lines."
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 **One private base URL does not mean one wire format.** Tailscale Aperture exposes a single gateway host on your tailnet. Claude Code and OpenCode each point at the same host, yet each sends a different request format. The host stays constant. The path and the wire protocol change per tool.
 
@@ -211,6 +212,8 @@ ______
 - Compare the editors in the [GUI coding agents comparison](/articles/gui-coding-agents-comparison/).
 - Run [Claude Code with local models](/articles/claude-cowork-claude-code-local-models-2026/) through an Anthropic-compatible API.
 - Set up [Strata and OpenCode on a 16GB GPU](/articles/strata-opencode-local-coding-agent-16gb/).
-- Build the private edge in the [Tailscale Aperture local AI gateway](/articles/tailscale-aperture-local-ai-gateway-2026/) guide.
-- Front one endpoint with the [OpenAI-compatible AI broker](/articles/openai-compatible-ai-broker-one-endpoint-2026/) guide.
-- See the full stack in the [Hermes Agent brokerized local AI workflow](/articles/hermes-agent-local-ai-brokerized-workflow-2026/) master article.
+- Build the private edge in the [Tailscale Aperture local AI gateway](/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/) guide.
+- Front one endpoint with the [OpenAI-compatible AI broker](/hermes-local-ai-broker-course/03-openai-compatible-broker/) guide.
+- See the full stack in the [Hermes Agent brokerized local AI workflow](/hermes-local-ai-broker-course-start/) master article.
+
+Continue with [Lesson 7: Fan Work Out to Bot Profiles](/hermes-local-ai-broker-course/07-bot-profiles-fan-out/).

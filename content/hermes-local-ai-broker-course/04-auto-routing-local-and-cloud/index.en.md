@@ -1,5 +1,5 @@
 ---
-title: "Auto-Routing AI Requests: Mix Local and Cloud Models Behind One API"
+title: "Lesson 4: Auto-Routing AI Requests: Mix Local and Cloud Models Behind One API"
 date: 2026-10-21
 lastmod: 2026-10-21
 toc: true
@@ -11,6 +11,7 @@ cover: "/img/cover/ai-auto-router-local-cloud-mix-2026.webp"
 coverAlt: "A single API endpoint routing requests to a local GPU model and a remote cloud model on a dark background"
 coverCaption: ""
 ---
+[Return to the Hermes Agent and Local AI Course](/hermes-local-ai-broker-course-start/)
 
 **One endpoint. One request field.** An agent sends `"model": "auto"` to a single OpenAI-compatible base URL, and the broker decides which backend answers. The agent never names a local model or a premium model. The broker reads registry data and the request shape, then routes the call to the cheapest backend able to do the work.
 
@@ -30,7 +31,7 @@ This article explains how the broker's `auto` router makes a local or premium ch
 
 ## Prerequisites
 
-- A running OpenAI-compatible broker in front of your backends. Start with the companion guide, [One Endpoint for Many AI Backends](/articles/openai-compatible-ai-broker-one-endpoint-2026/).
+- A running OpenAI-compatible broker in front of your backends. Start with the companion guide, [One Endpoint for Many AI Backends](/hermes-local-ai-broker-course/03-openai-compatible-broker/).
 - At least two registered backends with different cost and capability, for example a small local model on a GPU box and a larger model on a remote GPU host.
 - Comfort editing a YAML registry and sending HTTP headers with your requests.
 
@@ -241,9 +242,11 @@ Check your policy against the decision table above. Each rule should map to one 
 
 ## Next Steps
 
-- Start with the prerequisite: [One Endpoint for Many AI Backends](/articles/openai-compatible-ai-broker-one-endpoint-2026/).
-- Add guardrails and per-key budgets in [Governing a Self-Hosted AI Broker](/articles/secure-ai-broker-governance-2026/).
-- Fan one request out to many agent profiles in [Hermes Bot Profiles and Fan-Out](/articles/hermes-bot-profiles-fanout-2026/).
-- See the whole series in [Hermes Agent and Local AI: A Brokerized Workflow](/articles/hermes-agent-local-ai-brokerized-workflow-2026/).
+- Start with the prerequisite: [One Endpoint for Many AI Backends](/hermes-local-ai-broker-course/03-openai-compatible-broker/).
+- Add guardrails and per-key budgets in [Governing a Self-Hosted AI Broker](/hermes-local-ai-broker-course/08-broker-governance/).
+- Fan one request out to many agent profiles in [Hermes Bot Profiles and Fan-Out](/hermes-local-ai-broker-course/07-bot-profiles-fan-out/).
+- See the whole series in [Hermes Agent and Local AI: A Brokerized Workflow](/hermes-local-ai-broker-course-start/).
 - Compare local and hosted model capability in [Local AI vs ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-we/).
 - Weigh the GPU economics in [GPU ROI for Qwen 27B](/articles/gpu-roi-qwen27b-mining-vs-api-roi-2026/).
+
+Continue with [Lesson 5: Tailscale Aperture, the Private Edge](/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/).
