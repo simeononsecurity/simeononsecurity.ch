@@ -1,7 +1,7 @@
 ---
 title: "Inside Our Hybrid Agentic AI Fleet: Hermes, LiteLLM, and Tailscale"
 date: 2026-10-21
-lastmod: 2026-10-21
+lastmod: 2026-10-22
 toc: true
 draft: false
 description: "See a verified lazy local AI fleet and its staged T0 to T4 control plane with Hermes, LiteLLM, Tailscale Aperture, and Pearl mining."
@@ -107,6 +107,8 @@ Vision is prepared to travel through the OpenAI Chat Completions format with ima
 
 The direct embedding route needs its own authorization boundary. LiteLLM authentication, restrictive Tailscale grants, service binding to the tailnet interface, and host firewall rules should limit access to approved identities or service tags. A private address alone is not an authorization policy.
 
+{{< figure src="request-routing-and-data-boundaries.webp" alt="Anonymized routing diagram separating approved hosted work from restricted requests routed to local GPU workers" caption="Identity, grants, and data classification decide whether a request leaves the private fleet" >}}
+
 ## LiteLLM Presents One Catalog
 
 Each inference host runs a LiteLLM gateway. Every gateway exposes the same logical model catalog, even when a model lives on another node. A client keeps one API shape and one set of aliases.
@@ -196,6 +198,8 @@ The same watchdog reconciles stale leases. If no worker owns a lease, reconcilia
 | **Miner omits an idle card** | Rebuild the device list from active leases and restart the miner |
 | **LiteLLM deployment fails** | Retry another replica in the same model group, then follow the fallback policy |
 | **Aperture grant blocks a route** | Fix the identity or model grant, never bypass the gateway policy |
+
+{{< figure src="failure-isolation-and-recovery.webp" alt="Anonymized recovery diagram for worker failures, stale leases, missing GPUs, guarded reboots, and operator lockout" caption="Routine failures release one lease, while confirmed device loss enters the guarded host-recovery path" >}}
 
 ## What Happened with the Experimental Broker
 
