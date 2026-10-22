@@ -9,13 +9,13 @@ description: "The seven-phase red team methodology: preparation, intelligence, r
 genre: ["Red Team", "Offensive Security", "Methodology"]
 tags: ["red team", "red team methodology", "mission preparation", "OSINT", "active reconnaissance", "target exploitation", "post exploitation", "cleanup", "backout", "mission objective", "adversary emulation", "red team course"]
 cover: "/img/cover/red-team-methodology-six-phases-visualization.webp"
-coverAlt: "An illustration of a circular flowchart representing the six phases of Red Team methodology, featuring vibrant colors against a dark background. Abstract elements suggest data streams and network connections."
+coverAlt: "An illustration of a circular flowchart representing the connected stages of Red Team methodology, featuring vibrant colors against a dark background. Abstract elements suggest data streams and network connections."
 coverCaption: "Module 1: the seven phases every technique slots into."
 ---
 
 [← Return to the Red Team Course](/red-team-course-start/)
 
-**Red team methodology** connects an agreed business question to a controlled test and evidence the customer is able to use. This course uses six phases to organize the work, with feedback between phases as observations change the plan. Your outcome is an evidence-backed conclusion, an explained limit, and a verified restoration record.
+**Red team methodology** connects an agreed business question to a controlled test and evidence the customer is able to use. This course uses seven phases to organize the work, with feedback between phases as observations change the plan. Your outcome is an evidence-backed conclusion, an explained limit, and a verified restoration record.
 
 *Allow 25 minutes for reading and 30 minutes for the tabletop exercise. No attack tooling is required for this module.*
 
@@ -27,7 +27,7 @@ coverCaption: "Module 1: the seven phases every technique slots into."
 - **Evaluate a result:** distinguish prevention, missing telemetry, and insufficient evidence.
 - **Create a test plan:** define entry conditions, stopping points, cleanup, and acceptance criteria.
 
-## The Six Phases
+## The Seven Phases
 
 **The seven-phase model** is this course's organizing convention. It is not the MITRE ATT&CK matrix, an official maturity score, or a guarantee of one correct sequence. An operation often returns to reconnaissance after a new observation, and some tests finish without persistence or a domain-controller objective.
 
