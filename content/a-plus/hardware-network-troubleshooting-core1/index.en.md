@@ -1,6 +1,8 @@
 ---
 title: "CompTIA A+ (220-1201): Hardware and Network Troubleshooting"
 date: 2025-01-01
+lastmod: 2026-10-21
+weight: 5
 toc: true
 draft: false
 description: "Master hardware and network troubleshooting for the CompTIA A+ 220-1201 Core 1 exam. Diagnose motherboards, RAM, CPUs, power, drives, displays, mobile devices, printers, and networks."

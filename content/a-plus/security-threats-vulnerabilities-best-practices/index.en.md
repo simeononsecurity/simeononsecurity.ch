@@ -1,6 +1,8 @@
 ---
 title: "CompTIA A+ (220-1202): Security"
 date: 2025-01-01
+lastmod: 2026-10-21
+weight: 7
 toc: true
 draft: false
 description: "Master security for the CompTIA A+ 220-1202 Core 2 exam. Learn physical and logical security, Windows security settings, wireless protocols, malware, social engineering, and hardening."

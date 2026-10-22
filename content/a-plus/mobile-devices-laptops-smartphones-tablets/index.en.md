@@ -1,6 +1,8 @@
 ---
 title: "CompTIA A+ (220-1201): Mobile Devices"
 date: 2025-01-01
+lastmod: 2026-10-21
+weight: 1
 toc: true
 draft: false
 description: "Master mobile devices for the CompTIA A+ 220-1201 Core 1 exam. Learn laptop hardware, accessories and connectivity, network connectivity, MDM, and mobile synchronization."

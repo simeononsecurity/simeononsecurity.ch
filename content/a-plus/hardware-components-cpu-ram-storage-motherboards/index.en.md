@@ -1,6 +1,8 @@
 ---
 title: "CompTIA A+ (220-1201): Hardware Components"
 date: 2025-01-01
+lastmod: 2026-10-21
+weight: 3
 toc: true
 draft: false
 description: "Master hardware for the CompTIA A+ 220-1201 Core 1 exam. Learn cables and connectors, RAM, storage devices, motherboards and CPUs, power supplies, and printers."

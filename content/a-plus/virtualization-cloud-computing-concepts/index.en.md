@@ -1,6 +1,8 @@
 ---
 title: "CompTIA A+ (220-1201): Virtualization and Cloud Computing"
 date: 2025-01-01
+lastmod: 2026-10-21
+weight: 4
 toc: true
 draft: false
 description: "Master virtualization and cloud computing for the CompTIA A+ 220-1201 Core 1 exam. Learn virtual machines, hypervisors, VDI, containers, cloud models, and cloud characteristics."
