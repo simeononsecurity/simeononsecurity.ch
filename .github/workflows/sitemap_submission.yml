@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
       - name: Push Bing 1
-        uses: 3Alan/search-engines-urls-push@v0.2.3
+        uses: 3Alan/search-engines-urls-push@517fdbb6b65a2fc73b688aba7d9060cd02d6fafe # v0.2.3
         with:
           site: ${{ secrets.SITE }}
           sitemap: ${{ secrets.SITEMAP }}
@@ -22,7 +22,7 @@ jobs:
           bing-token: ${{ secrets.BING_TOKEN }}
 
       - name: Run Search Engines URLs Push action (Google)
-        uses: 3Alan/search-engines-urls-push@v0.2.3
+        uses: 3Alan/search-engines-urls-push@517fdbb6b65a2fc73b688aba7d9060cd02d6fafe # v0.2.3
         with:
           site: ${{ secrets.SITE }}
           sitemap: ${{ secrets.SITEMAP }}

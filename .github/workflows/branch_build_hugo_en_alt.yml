@@ -27,7 +27,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           # enableGitInfo (used below) needs full history to compute an
           # accurate per-file Lastmod. actions/checkout defaults to a shallow
@@ -37,13 +37,13 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3
         with:
           hugo-version: "0.163.3"
           extended: true
 
       - name: Restore Hugo cache
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: |
             /tmp/hugo_cache
@@ -56,7 +56,7 @@ jobs:
         run: hugo --cleanDestinationDir -D -E -F --minify --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config_alt.toml
 
       - name: Save Hugo cache
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
         with:
           path: |
             /tmp/hugo_cache
