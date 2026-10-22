@@ -1,0 +1,149 @@
+name: Branch Build Hugo (matrix)
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - "!contents/**" # Exclude the contents folder
+      - "!github/**" # Exclude the .github folder
+      - "!git/**" # Exclude the .git folder
+      # Union of the per-language include globs that previously each lived in
+      # branch_build_hugo_<lang>.yml. Any one language's content change now
+      # triggers the single workflow, whose matrix rebuilds every language.
+      - "contents/**/*.ar.md"
+      - "index.ar.md"
+      - "**/index.ar.md"
+      - "contents/**/*.bn.md"
+      - "index.bn.md"
+      - "**/index.bn.md"
+      - "contents/**/*.ca.md"
+      - "index.ca.md"
+      - "**/index.ca.md"
+      - "contents/**/*.de.md"
+      - "index.de.md"
+      - "**/index.de.md"
+      - "contents/**/*.es.md"
+      - "index.es.md"
+      - "**/index.es.md"
+      - "contents/**/*.fr.md"
+      - "index.fr.md"
+      - "**/index.fr.md"
+      - "contents/**/*.hi.md"
+      - "index.hi.md"
+      - "**/index.hi.md"
+      - "contents/**/*.it.md"
+      - "index.it.md"
+      - "**/index.it.md"
+      - "contents/**/*.ja.md"
+      - "index.ja.md"
+      - "**/index.ja.md"
+      - "contents/**/*.nl.md"
+      - "index.nl.md"
+      - "**/index.nl.md"
+      - "contents/**/*.pa.md"
+      - "index.pa.md"
+      - "**/index.pa.md"
+      - "contents/**/*.pl.md"
+      - "index.pl.md"
+      - "**/index.pl.md"
+      - "contents/**/*.pt.md"
+      - "index.pt.md"
+      - "**/index.pt.md"
+      - "contents/**/*.ro.md"
+      - "index.ro.md"
+      - "**/index.ro.md"
+      - "contents/**/*.ru.md"
+      - "index.ru.md"
+      - "**/index.ru.md"
+      - "contents/**/*.zh.md"
+      - "index.zh.md"
+      - "**/index.zh.md"
+      - "bump.md"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      # Keep building the remaining languages even if one leg fails, matching
+      # the previous independent per-language workflows (a failure in one never
+      # stopped the others). All legs run concurrently, as before; max-parallel
+      # is intentionally NOT set so the concurrency behaviour is unchanged.
+      fail-fast: false
+      matrix:
+        language: [ar, bn, ca, de, es, fr, hi, it, ja, nl, pa, pl, pt, ro, ru, zh]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          # enableGitInfo (used below) needs full history to compute an
+          # accurate per-file Lastmod. actions/checkout defaults to a shallow
+          # (depth 1) clone, which collapses every page's Lastmod to the same
+          # commit and corrupts sitemap.xml <lastmod> and news.xml recency
+          # filtering. See .clinerules note on shallow clones + enableGitInfo.
+          fetch-depth: 0
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.163.3"
+          extended: true
+
+      - name: Print PWD
+        run: pwd
+
+      - name: Restore Hugo cache
+        uses: actions/cache/restore@v5
+        with:
+          path: |
+            /tmp/hugo_cache
+            resources/_gen
+          key: ${{ runner.os }}-hugo-${{ matrix.language }}-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-${{ matrix.language }}-
+
+      - name: Build Hugo site
+        run: |
+          # pl and ru historically build WITHOUT --minify; every other language
+          # builds with it. This drift is preserved verbatim from the original
+          # per-language workflows (likely a copy/paste omission). See handoff:
+          # unify by removing this case once a maintainer confirms intent.
+          MINIFY="--minify"
+          case "${{ matrix.language }}" in
+            pl|ru) MINIFY="" ;;
+          esac
+          hugo --cleanDestinationDir -D -E -F $MINIFY --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/${{ matrix.language }}/config.toml
+
+      - name: Save Hugo cache
+        uses: actions/cache/save@v5
+        with:
+          path: |
+            /tmp/hugo_cache
+            resources/_gen
+          key: ${{ runner.os }}-hugo-${{ matrix.language }}-${{ github.sha }}
+
+      - name: Delete non-public folders and files
+        run: |
+          find . -mindepth 1 -type d ! -path './public*' ! -path './.git*' ! -path './.github*' -print0 | xargs -0 rm -rf
+          find . -maxdepth 1 -type f -not -name 'netlify.toml' -print0 | xargs -0 rm -f
+
+      - name: Move files to root
+        run: |
+          mv ./public/* .
+          rm -r ./public
+
+      - name: Wait for 60 seconds
+        run: sleep 60
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "${{ secrets.USERNAME }}"
+          git config user.email "${{ secrets.EMAIL }}"
+          git add .
+          git commit -m "Update website-${{ matrix.language }} branch"
+          git push --force --quiet origin HEAD:refs/heads/website-${{ matrix.language }}
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

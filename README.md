@@ -101,10 +101,11 @@ sites ship with. A few things we're proud of:
 - **A live canary-token honeypot** (`content/admin/index.html`) that fires an
   alert if anyone actually goes digging where they shouldn't, kept out of search
   engines and sitemaps via `robotsdisallow`/`sitemap_ignore` front matter.
-- **Locked-down CI.** Every `branch_build_hugo_*.yml` workflow does a full,
-  non-shallow (`fetch-depth: 0`) Hugo build per language so `Lastmod`/GitInfo data
-  stays accurate, and `html_verify_built.yml` validates the actual built HTML
-  output on every push before it ships.
+- **Locked-down CI.** The `branch_build_hugo.yml` matrix workflow (plus the
+  `branch_build_hugo_en*.yml` variants) does a full, non-shallow
+  (`fetch-depth: 0`) Hugo build per language so `Lastmod`/GitInfo data stays
+  accurate, and `html_verify_built.yml` validates the actual built HTML output on
+  every push before it ships.
 
 ### SEO & Structured Data
 - **A per-bot-family `robots.txt` built for the AI-crawler era**, over 350 lines
