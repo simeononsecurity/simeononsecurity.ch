@@ -51,7 +51,7 @@ In addition to real-time monitoring, AI-powered threat detection systems can als
 Machine Learning for Anomaly Detection
 --------------------------------------
 
-{{< figure src="real-time-monitoring.webp" alt="Illustration related to Real-Time Monitoring" >}}
+{{< figure src="real-time-monitoring.webp" alt="A glowing central chip streaming data across a web of connected nodes marked with lock, warning, and location icons, depicting live network monitoring." >}}
 
 ### Behavioral Analysis
 
@@ -64,7 +64,7 @@ Predictive modeling is a powerful application of machine learning in cyber threa
 Natural Language Processing in Security
 ---------------------------------------
 
-{{< figure src="predictive-modeling.webp" alt="Illustration related to Predictive Modeling" >}}
+{{< figure src="predictive-modeling.webp" alt="A blue shield guarding a cylinder of binary data and a globe as cartoon malware bugs swarm around it, suggesting forecasting and blocking of attacks." >}}
 
 ### Text Mining for Threat Analysis
 
@@ -89,7 +89,7 @@ Language-based malware detection is a crucial aspect of cybersecurity. By using 
 Deep Learning for Intrusion Detection
 -------------------------------------
 
-{{< figure src="language-based-malware-detection.webp" alt="Illustration related to Language-Based Malware Detection" >}}
+{{< figure src="language-based-malware-detection.webp" alt="A glowing sphere holding a digital brain of connected nodes, rising from a circuit board lined with computer workstations above an Earth horizon." >}}
 
 ### Network Traffic Analysis
 
@@ -122,7 +122,7 @@ Advanced Persistent Threats (APTs) are highly sophisticated and [stealthy cyber 
 Automated Response and Remediation
 ----------------------------------
 
-{{< figure src="identification-of-advanced-persistent-threats.webp" alt="Illustration related to Identification of Advanced Persistent Threats" >}}
+{{< figure src="identification-of-advanced-persistent-threats.webp" alt="A satellite beaming a scan onto a dark threat cluster on a grid, ringed by binary code and a hidden figure, depicting detection of a stealthy intrusion." >}}
 
 ### Automated Incident Response
 

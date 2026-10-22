@@ -48,7 +48,7 @@ Considering these limitations, it is important to carefully evaluate the specifi
 eSATA vs Other External Storage Options
 ---------------------------------------
 
-{{< figure src="disadvantages-of-esata.webp" alt="Illustration related to Disadvantages of eSATA" >}}
+{{< figure src="disadvantages-of-esata.webp" alt="A cartoon crowd gathers in a semicircle looking up at external drives, discs, a USB block, and two large eSATA drive characters facing off in a comparison." >}}
 
 ### eSATA vs USB
 
@@ -73,7 +73,7 @@ To sum up, when it comes to cybersecurity, eSATA offers a more secure option com
 Choosing the Right eSATA Device
 -------------------------------
 
-{{< figure src="esata-vs-firewire.webp" alt="Illustration related to eSATA vs FireWire" >}}
+{{< figure src="esata-vs-firewire.webp" alt="An isometric collection of tower PCs, a monitor, a laptop, external hard drives, and cooling fans joined by a tangle of cables and connectors on a shelf." >}}
 
 ### Factors to Consider
 
@@ -120,7 +120,7 @@ Remember, following these best practices will help safeguard your data and maint
 eSATA in Professional Environments
 ----------------------------------
 
-{{< figure src="best-practices-for-using-esata.webp" alt="Illustration related to Best Practices for Using eSATA" >}}
+{{< figure src="best-practices-for-using-esata.webp" alt="A thick connector cable arcs over a blue globe between two businessmen at desks with monitors and server racks, showing data moving between systems." >}}
 
 ### eSATA for Video Editing
 
@@ -149,7 +149,7 @@ eSATA is a versatile option for audio production, offering [high-speed data tran
 Future of eSATA
 ---------------
 
-{{< figure src="esata-for-audio-production.webp" alt="Illustration related to eSATA for Audio Production" >}}
+{{< figure src="esata-for-audio-production.webp" alt="A glossy metallic external hard drive with cables plugged in emits bursts of green and blue light on a reflective circuit-patterned floor." >}}
 
 ### eSATA in the Age of USB-C
 

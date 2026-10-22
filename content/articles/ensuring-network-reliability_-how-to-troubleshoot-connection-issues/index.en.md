@@ -57,7 +57,7 @@ Connection issues can have a significant impact on business operations. **Applic
 Troubleshooting Network Connection Issues
 -----------------------------------------
 
-{{< figure src="the-impact-of-connection-issues-on-business-operations.webp" alt="Illustration related to The Impact of Connection Issues on Business Operations" >}}
+{{< figure src="the-impact-of-connection-issues-on-business-operations.webp" alt="A cartoon man on a ladder uses a magnifier on a huge tangled spider web with Wi-Fi and question-mark icons caught in it, picturing a troubled connection." >}}
 
 ### Identifying Network Connection Problems
 
@@ -103,7 +103,7 @@ Implementing redundancy and failover measures is crucial for ensuring network re
 Best Practices for Network Maintenance
 --------------------------------------
 
-{{< figure src="implementing-redundancy-and-failover-measures.webp" alt="Illustration related to Implementing Redundancy and Failover Measures" >}}
+{{< figure src="implementing-redundancy-and-failover-measures.webp" alt="Two IT technicians in a server room, a woman holding a server unit while a man plugs yellow cables into a rack, setting up backup and failover links." >}}
 
 ### Regular Monitoring and Maintenance
 

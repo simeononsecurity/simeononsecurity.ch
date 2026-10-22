@@ -86,7 +86,7 @@ You need to prioritize cybersecurity hygiene to mitigate these risks and protect
 Daily Habits for Strong Cybersecurity
 -------------------------------------
 
-{{< figure src="consequences-of-poor-cybersecurity-hygiene.webp" alt="Illustration related to Consequences of Poor Cybersecurity Hygiene" >}}
+{{< figure src="consequences-of-poor-cybersecurity-hygiene.webp" alt="Two worried cartoon users at a desk facing a padlock monitor, surrounded by speech bubbles of spiders, bugs, and warning signs, showing the fallout of neglect." >}}
 
 ### Creating Strong and Unique Passwords
 
@@ -135,7 +135,7 @@ Securing your home network is crucial for protecting your data and devices from 
 Educating Yourself and Others
 -----------------------------
 
-{{< figure src="securing-your-home-network.webp" alt="Illustration related to Securing Your Home Network" >}}
+{{< figure src="securing-your-home-network.webp" alt="An isometric monitor showing a padlock over a glowing globe, flanked by server racks and floating lock and shield icons, with a person using a laptop." >}}
 
 ### Staying Informed about the Latest Threats
 
@@ -167,7 +167,7 @@ Promoting cybersecurity awareness in the workplace is crucial for [maintaining a
 Securing Mobile Devices
 -----------------------
 
-{{< figure src="promoting-cybersecurity-awareness-in-the-workplace.webp" alt="Illustration related to Promoting Cybersecurity Awareness in the Workplace" >}}
+{{< figure src="promoting-cybersecurity-awareness-in-the-workplace.webp" alt="A large smartphone showing a shield and clock amid many padlocks, checkmarks, and message bubbles, representing shared security awareness among staff." >}}
 
 ### Using Secure Lock Screens and Biometric Authentication
 
@@ -184,7 +184,7 @@ Encrypting data on mobile devices is a crucial step in ensuring the security of 
 Protecting Your Online Identity
 -------------------------------
 
-{{< figure src="encrypting-data-on-mobile-devices.webp" alt="Illustration related to Encrypting Data on Mobile Devices" >}}
+{{< figure src="encrypting-data-on-mobile-devices.webp" alt="An isometric desk scene with a monitor showing a padlock over a masked password field and a glowing globe network, as two workers manage encrypted data." >}}
 
 ### Using Virtual Private Networks (VPNs)
 

@@ -48,7 +48,7 @@ Consensus mechanisms are a critical component of blockchain technology, ensuring
 Applications of Blockchain Technology
 -------------------------------------
 
-{{< figure src="consensus-mechanisms.webp" alt="Illustration related to Consensus Mechanisms" >}}
+{{< figure src="consensus-mechanisms.webp" alt="A dotted blue globe of the world ringed by floating isometric blockchain cubes linked by thin lines and nodes, depicting a worldwide distributed network." >}}
 
 ### Financial Services
 
@@ -88,7 +88,7 @@ The healthcare industry is an area where **blockchain technology** holds signifi
 Challenges and Limitations of Blockchain Technology
 ---------------------------------------------------
 
-{{< figure src="healthcare-industry.webp" alt="Illustration related to Healthcare Industry" >}}
+{{< figure src="healthcare-industry.webp" alt="A chain of blue blockchain cubes with a Bitcoin symbol amid gold Bitcoin and Ethereum coins, browser windows, and stacked coins, showing a crypto network." >}}
 
 ### Scalability
 
@@ -111,7 +111,7 @@ Interoperability is a critical challenge in blockchain technology. It refers to 
 Future Trends in Blockchain Technology
 --------------------------------------
 
-{{< figure src="interoperability.webp" alt="Illustration related to Interoperability" >}}
+{{< figure src="interoperability.webp" alt="A busy desk with monitors and a laptop showing a world map and charts, a server cabinet, gold coin stacks, and chains linking Bitcoin and Ethereum tokens." >}}
 
 ### Tokenization of Assets
 

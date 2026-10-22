@@ -56,7 +56,7 @@ Employees play a crucial role in maintaining the security of an organization's d
 Designing an Effective Cybersecurity Training Program
 -----------------------------------------------------
 
-{{< figure src="the-role-of-employees-in-cybersecurity.webp" alt="Illustration related to The Role of Employees in Cybersecurity" >}}
+{{< figure src="the-role-of-employees-in-cybersecurity.webp" alt="An instructor points to a screen of padlocks and shields while a diverse group of employees at laptops follow a cybersecurity training session." >}}
 
 ### Identifying Training Needs and Objectives
 
@@ -123,7 +123,7 @@ Continuous improvement and adaptation are crucial in cybersecurity training. As 
 Engaging Employees in Cybersecurity Training
 --------------------------------------------
 
-{{< figure src="continuous-improvement-and-adaptation.webp" alt="Illustration related to Continuous Improvement and Adaptation" >}}
+{{< figure src="continuous-improvement-and-adaptation.webp" alt="An isometric open office of staff at monitors, some standing to discuss, with a wall screen of shields and a padlock, showing ongoing security training." >}}
 
 ### Building Awareness and a Security Mindset
 
@@ -177,7 +177,7 @@ By implementing these strategies, organizations can create an environment where 
 Overcoming Challenges in Cybersecurity Training
 -----------------------------------------------
 
-{{< figure src="encouraging-reporting-and-incident-response.webp" alt="Illustration related to Encouraging Reporting and Incident Response" >}}
+{{< figure src="encouraging-reporting-and-incident-response.webp" alt="Four coworkers at desktop computers before a wall of linked padlock, shield, and message icons, showing a team reporting and handling security incidents." >}}
 
 ### Resistance to Change and Lack of Awareness
 
@@ -267,7 +267,7 @@ By following these strategies, organizations can enhance their cybersecurity pos
 Measuring the Impact of Cybersecurity Training
 ----------------------------------------------
 
-{{< figure src="overcoming-resistance-to-change.webp" alt="Illustration related to Overcoming Resistance to Change" >}}
+{{< figure src="overcoming-resistance-to-change.webp" alt="Two office workers focused at their computers as blue light arcs overhead and a faint glowing figure with a padlock looms behind them." >}}
 
 ### Assessing Knowledge and Skills Acquisition
 

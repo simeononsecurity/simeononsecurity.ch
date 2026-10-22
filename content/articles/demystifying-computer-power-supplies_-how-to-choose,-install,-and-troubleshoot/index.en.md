@@ -42,7 +42,7 @@ There are several different types of computer power supplies available in the ma
 Choosing the Right Power Supply
 -------------------------------
 
-{{< figure src="different-types-of-computer-power-supplies.webp" alt="Illustration related to Different types of computer power supplies" >}}
+{{< figure src="different-types-of-computer-power-supplies.webp" alt="An isometric spread of computer power supply units with cooling fans, heatsinks, and many colorful cables and connectors, showing different PSU designs." >}}
 
 ### Calculating power requirements
 
@@ -83,7 +83,7 @@ Wrapping up, efficiency ratings and certifications are important factors to cons
 Installing a Computer Power Supply
 ----------------------------------
 
-{{< figure src="efficiency-ratings-and-certifications.webp" alt="Illustration related to Efficiency ratings and certifications" >}}
+{{< figure src="efficiency-ratings-and-certifications.webp" alt="Gloved hands fit a power supply unit into an open computer case on a workbench, with a corkboard of notes, screwdrivers, and bolts nearby." >}}
 
 ### Preparing the computer case
 
@@ -123,7 +123,7 @@ When testing the power supply, it is important to ensure that it is functioning 
 Troubleshooting Power Supply Issues
 -----------------------------------
 
-{{< figure src="testing-the-power-supply.webp" alt="Illustration related to Testing the power supply" >}}
+{{< figure src="testing-the-power-supply.webp" alt="A technician in goggles and a face covering uses a screwdriver inside an open desktop case, with a tray of screws and a probe cable on the table." >}}
 
 ### Common power supply problems
 

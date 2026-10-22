@@ -47,7 +47,7 @@ Brute force attacks are a common method used by hackers to gain unauthorized acc
 Exploiting Vulnerabilities
 --------------------------
 
-{{< figure src="brute-force-attacks.webp" alt="Illustration related to Brute Force Attacks" >}}
+{{< figure src="brute-force-attacks.webp" alt="A hooded figure typing at a keyboard in a dark room before a monitor showing code and a padlock, depicting repeated attempts to crack a login." >}}
 
 ### Software Vulnerabilities
 
@@ -64,7 +64,7 @@ Human vulnerabilities refer to the weaknesses and susceptibilities that individu
 Privilege Escalation
 --------------------
 
-{{< figure src="human-vulnerabilities.webp" alt="Illustration related to Human Vulnerabilities" >}}
+{{< figure src="human-vulnerabilities.webp" alt="Two masked hooded attackers breaking into a monitor showing a brick fortress, one with a pickaxe and one prying a padlock, as lock icons float nearby." >}}
 
 ### Exploiting Misconfigurations
 
@@ -93,7 +93,7 @@ It is crucial for organizations to implement strong access controls and regularl
 Lateral Movement
 ----------------
 
-{{< figure src="exploiting-privilege-misuse.webp" alt="Illustration related to Exploiting Privilege Misuse" >}}
+{{< figure src="exploiting-privilege-misuse.webp" alt="An isometric maze built from binary code spiraling into a central pit on a blue circuit board, showing an attacker working deeper toward core access." >}}
 
 ### Exploiting Trust Relationships
 
@@ -121,7 +121,7 @@ Remote Desktop Protocol (RDP) Exploitation is a method used by hackers to gain u
 Data Exfiltration
 -----------------
 
-{{< figure src="remote-desktop-protocol-rdp-exploitation.webp" alt="Illustration related to Remote Desktop Protocol (RDP) Exploitation" >}}
+{{< figure src="remote-desktop-protocol-rdp-exploitation.webp" alt="Two cartoon burglar mice reaching a server, one typing on a laptop and one perched on top, with glowing padlock icons, showing remote access to a system." >}}
 
 ### Using Command and Control (C2) Channels
 

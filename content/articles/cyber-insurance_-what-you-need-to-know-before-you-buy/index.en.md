@@ -44,7 +44,7 @@ Cyber insurance policies offer various types of coverage to protect [individuals
 Evaluating Cyber Insurance Policies
 -----------------------------------
 
-{{< figure src="types-of-cyber-insurance-coverage.webp" alt="Illustration related to Types of Cyber Insurance Coverage" >}}
+{{< figure src="types-of-cyber-insurance-coverage.webp" alt="A standing agent hands a glowing padlock shield to a seated client at a desk before a screen of locks and shields, presenting cyber insurance options." >}}
 
 ### Key Factors to Consider
 
@@ -69,7 +69,7 @@ When comparing different cyber insurance policies, it is important to carefully 
 Choosing the Right Cyber Insurance Provider
 -------------------------------------------
 
-{{< figure src="comparing-different-policies.webp" alt="Illustration related to Comparing Different Policies" >}}
+{{< figure src="comparing-different-policies.webp" alt="Two professionals sit across a round table facing a floating screen of checkmark shields, a padlock, and gears, reviewing and comparing policy options." >}}
 
 ### Researching Insurance Companies
 
@@ -104,7 +104,7 @@ It is also important to note that policy terms and conditions can vary significa
 Cyber Insurance Claims Process
 ------------------------------
 
-{{< figure src="understanding-policy-terms-and-conditions.webp" alt="Illustration related to Understanding Policy Terms and Conditions" >}}
+{{< figure src="understanding-policy-terms-and-conditions.webp" alt="An isometric scene with a central padlock shield, a pointing hand, server racks, and code screens, showing review of security policy details." >}}
 
 ### Reporting a Cyber Incident
 
@@ -145,7 +145,7 @@ By following these steps and maintaining clear communication with your insurance
 Cyber Insurance Best Practices
 ------------------------------
 
-{{< figure src="navigating-the-claims-process.webp" alt="Illustration related to Navigating the Claims Process" >}}
+{{< figure src="navigating-the-claims-process.webp" alt="A silhouetted person at a desk works on a glowing monitor showing an insurance document and padlock shield, ringed by floating security and cloud icons." >}}
 
 ### Regularly Reviewing and Updating Policies
 

@@ -56,7 +56,7 @@ It is crucial for cybersecurity professionals to carefully consider these advant
 Understanding Port Address Translation (PAT)
 --------------------------------------------
 
-{{< figure src="advantages-and-disadvantages-of-nat.webp" alt="Illustration related to Advantages and Disadvantages of NAT" >}}
+{{< figure src="advantages-and-disadvantages-of-nat.webp" alt="A cartoon map of winding routes and location pins linking servers, monitors, and a cloud, with a puzzled figure amid the paths, showing NAT address routing." >}}
 
 ### Overview of PAT
 
@@ -84,7 +84,7 @@ To sum up, PAT is a vital mechanism in NAT that enables the efficient use of pub
 NAT vs PAT: A Comparison
 ------------------------
 
-{{< figure src="benefits-of-pat.webp" alt="Illustration related to Benefits of PAT" >}}
+{{< figure src="benefits-of-pat.webp" alt="A split image contrasting a glowing orderly network sphere of linked nodes on the left with a chaotic scatter of colored squares on the right." >}}
 
 ### Differences Between NAT and PAT
 
@@ -133,7 +133,7 @@ Considering these use cases, PAT is a valuable tool in network address translati
 Common Challenges and Solutions in NAT and PAT
 ----------------------------------------------
 
-{{< figure src="use-cases-for-pat.webp" alt="Illustration related to Use Cases for PAT" >}}
+{{< figure src="use-cases-for-pat.webp" alt="Two puzzled cartoon men on a field assemble orange puzzle pieces beside a stack of network switches, with thought bubbles comparing NAT and PAT devices." >}}
 
 ### Address Exhaustion
 
@@ -159,7 +159,7 @@ Load balancing is an important aspect in [network address translation](https://l
 Future Trends in NAT and PAT
 ----------------------------
 
-{{< figure src="load-balancing.webp" alt="Illustration related to Load Balancing" >}}
+{{< figure src="load-balancing.webp" alt="An isometric scene of monitors, laptops, servers, and Wi-Fi routers linked by pink lines spreading traffic across devices, showing connections being balanced." >}}
 
 ### IPv6 and NAT
 

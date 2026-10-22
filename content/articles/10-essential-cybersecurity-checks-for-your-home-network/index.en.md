@@ -66,7 +66,7 @@ Preventing unauthorized access is a crucial aspect of home network security. By 
 Securing Your Wi-Fi Network
 ---------------------------
 
-{{< figure src="preventing-unauthorized-access.webp" alt="Illustration related to Preventing Unauthorized Access" >}}
+{{< figure src="preventing-unauthorized-access.webp" alt="Isometric home network scene with a house linked to a laptop, phone, and router, plus floating padlock and shield icons for access control." >}}
 
 ### Changing Default Router Settings
 
@@ -91,7 +91,7 @@ Enabling network encryption is a crucial step in securing your home network. By 
 Updating and Patching Devices
 -----------------------------
 
-{{< figure src="enabling-network-encryption.webp" alt="Illustration related to Enabling Network Encryption" >}}
+{{< figure src="enabling-network-encryption.webp" alt="A house ringed by glowing blue shield and padlock icons and connected devices over a dark network mesh, showing an encrypted home network." >}}
 
 ### Keeping Operating Systems Up to Date
 
@@ -108,7 +108,7 @@ Installing security patches is a crucial step in maintaining the security of you
 Implementing Firewalls and Antivirus Software
 ---------------------------------------------
 
-{{< figure src="installing-security-patches.webp" alt="Illustration related to Installing Security Patches" >}}
+{{< figure src="installing-security-patches.webp" alt="A house behind a red fence backed by server towers with padlock shields, with orange malware bursts around it held off by patched defenses." >}}
 
 ### Setting Up a Firewall
 
@@ -135,7 +135,7 @@ By regularly scanning for malware, you can identify and eliminate any potential 
 Securing IoT Devices
 --------------------
 
-{{< figure src="regularly-scanning-for-malware.webp" alt="Illustration related to Regularly Scanning for Malware" >}}
+{{< figure src="regularly-scanning-for-malware.webp" alt="Cutaway of a smart home interior with a large central checkmark shield and connected device icons, representing a malware-free protected network." >}}
 
 ### Changing Default Passwords
 

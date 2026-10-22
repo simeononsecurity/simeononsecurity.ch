@@ -60,7 +60,7 @@ In addition to the table, note that immutability also plays a crucial role in pr
 Securing Blockchain Networks from External Threats
 --------------------------------------------------
 
-{{< figure src="immutability-protecting-data-integrity-on-the.webp" alt="Illustration related to Immutability: Protecting Data Integrity on the Blockchain" >}}
+{{< figure src="immutability-protecting-data-integrity-on-the.webp" alt="Cartoon businesspeople around a blue blockchain of linked cubes with a Bitcoin shield at the center, holding tools and checkmark shields for data integrity." >}}
 
 ### Cryptography: Safeguarding Transactions and Identities
 
@@ -77,7 +77,7 @@ Smart contract auditing plays a crucial role in ensuring the security and reliab
 Addressing Internal Vulnerabilities in Blockchain Systems
 ---------------------------------------------------------
 
-{{< figure src="smart-contract-auditing-mitigating-vulnerabilities.webp" alt="Illustration related to Smart Contract Auditing: Mitigating Vulnerabilities" >}}
+{{< figure src="smart-contract-auditing-mitigating-vulnerabilities.webp" alt="White padlock cubes chained together on a glowing blue circuit board with binary code and broken lock pieces, showing a reviewed chain of secured blocks." >}}
 
 ### Permissioned Blockchains: Controlling Access and Permissions
 
@@ -102,7 +102,7 @@ Privacy enhancements play a crucial role in ensuring the security of sensitive i
 Emerging Technologies for Enhanced Blockchain Security
 ------------------------------------------------------
 
-{{< figure src="privacy-enhancements-protecting-sensitive-information.webp" alt="Illustration related to Privacy Enhancements: Protecting Sensitive Information" >}}
+{{< figure src="privacy-enhancements-protecting-sensitive-information.webp" alt="A giant chain link with a glowing network sphere floats above a mountain scene as a cupped hand holds a Bitcoin coin, with laptop and data-block icons around." >}}
 
 ### Multi-Factor Authentication: Strengthening User Verification
 
@@ -148,7 +148,7 @@ Homomorphic encryption is a powerful technique that allows for secure data proce
 The Role of Security Audits in Blockchain Development
 -----------------------------------------------------
 
-{{< figure src="homomorphic-encryption-enabling-secure-data-processing.webp" alt="Illustration related to Homomorphic Encryption: Enabling Secure Data Processing" >}}
+{{< figure src="homomorphic-encryption-enabling-secure-data-processing.webp" alt="A colorful 3D block cube beside a shield with a Bitcoin symbol, flanked by document panels, a padlock on coins, and linked nodes for secure data processing." >}}
 
 ### Code Review: Identifying Vulnerabilities and Bugs
 

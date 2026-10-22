@@ -52,7 +52,7 @@ Finally, HDDs are more susceptible to data fragmentation compared to SSDs. As da
 Understanding SSDs
 ------------------
 
-{{< figure src="disadvantages-of-hdds.webp" alt="Illustration related to Disadvantages of HDDs" >}}
+{{< figure src="disadvantages-of-hdds.webp" alt="Cartoon storage trio with an open mechanical hard disk, a smiling cloud on a drive box, and a solid state drive with a colorful disc, comparing storage types." >}}
 
 ### How SSDs Work
 
@@ -69,7 +69,7 @@ From the perspective of a cybersecurity expert, there are several disadvantages 
 Understanding Cloud Storage
 ---------------------------
 
-{{< figure src="disadvantages-of-ssds.webp" alt="Illustration related to Disadvantages of SSDs" >}}
+{{< figure src="disadvantages-of-ssds.webp" alt="A hand-drawn sketch of hard drives, cooling fans, servers, tape cassettes, and a cloud linked by arrows, mapping storage and backup device tradeoffs." >}}
 
 ### What is Cloud Storage
 
