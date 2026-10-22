@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NVIDIA Blackwell on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>NVIDIA Blackwell on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/nvidia-blackwell/</link></image><link>https://it.simeononsecurity.com/tags/nvidia-blackwell/</link><description>Recent content in NVIDIA Blackwell on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/nvidia-blackwell/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti contro GB10: perché 32 GB di VRAM perdono contro 128 GB di memoria unificata</title><link>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "IA locale"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware del computer"</category><guid>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto basato su benchmark tra due schede RTX 5060 Ti da 16 GB e un sistema NVIDIA GB10 per Qwen 3 27B e l'inferenza locale con contesto lungo.</description><enclosure url="https://it.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Il DGX Spark da 64 GB è un segnale d'allarme per i prezzi dell'hardware AI locale</title><link>https://it.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI locale"
+, "Hardware AI"
+, "Semiconduttori"
+, "Hardware informatico"
+, "Economia dell'AI"
+, "AI self-hosted"</category><guid>https://it.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Il livello DGX Spark da 64 GB di NVIDIA mostra come la pressione sull'offerta di memoria stia influenzando l'hardware AI locale. Questa guida spiega il taglio di capacità, i compromessi della memoria unificata e perché un sollievo per la DRAM è improbabile prima della fine del 2027.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
