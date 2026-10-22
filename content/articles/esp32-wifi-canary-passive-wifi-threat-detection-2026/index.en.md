@@ -1,7 +1,7 @@
 ---
-title: "ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with..."
+title: "ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection"
 date: 2026-06-06
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "A technical breakdown of ESP32 WiFi Canary, a passive 2.4GHz sensor for detecting evil twins, deauthentication, downgrades, and beacon floods."

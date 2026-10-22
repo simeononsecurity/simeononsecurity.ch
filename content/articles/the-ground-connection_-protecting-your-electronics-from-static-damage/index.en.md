@@ -1,7 +1,7 @@
 ---
-title: "Defending Devices: A Guide to Preventing Static..."
+title: "Preventing Static Damage: Grounding and ESD Protection"
 date: 2024-03-04
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Shield Your Electronics from Harmful Static! Learn how grounding and anti-static tools maintain device integrity and avoid costly repairs."

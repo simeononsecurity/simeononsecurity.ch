@@ -1,7 +1,7 @@
 ---
-title: "The Importance of Compliance and Professionalism in..."
+title: "Compliance and Professionalism in Cybersecurity Work"
 date: 2023-02-08
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn how governance, documented procedures, and professional conduct support cybersecurity operations and reduce avoidable risk."

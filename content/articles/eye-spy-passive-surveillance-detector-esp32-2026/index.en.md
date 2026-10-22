@@ -1,7 +1,7 @@
 ---
-title: "Eye Spy: Passive Surveillance Detector for the M5Stack..."
+title: "Eye Spy: ESP32 Passive Surveillance and Tracker Detector"
 date: 2026-06-07
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "A technical reference for Eye Spy v1.1, an ESP32 passive BLE and WiFi detector for cameras, trackers, drones, and related signals."

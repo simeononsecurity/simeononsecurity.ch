@@ -1,7 +1,7 @@
 ---
-title: "Defending Against Social Engineering Attacks in..."
+title: "Defending Against Social Engineering Attacks and Fraud"
 date: 2023-03-05
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn how to defend against social engineering attacks and protect your data from cybercriminals in this informative article."

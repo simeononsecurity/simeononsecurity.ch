@@ -1,7 +1,7 @@
 ---
-title: "Defending Data: PCI-DSS Explained for Secure Card..."
+title: "PCI-DSS Explained: Secure Card Transaction Compliance"
 date: 2023-11-09
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn about PCI-DSS, its components, compliance, and benefits for safeguarding payment card data."

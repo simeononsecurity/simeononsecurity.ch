@@ -1,7 +1,7 @@
 ---
-title: "Nmap: A Comprehensive Guide to Network Scanning and..."
+title: "Nmap: A Guide to Network Scanning and Service Detection"
 date: 2023-06-13
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Discover how to effectively use Nmap for network scanning, port scanning, service detection, and operating system identification to assess network security."

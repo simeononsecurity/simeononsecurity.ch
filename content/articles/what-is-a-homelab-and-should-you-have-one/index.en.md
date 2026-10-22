@@ -1,7 +1,7 @@
 ---
-title: "Creating a Home Lab: A Guide for IT Professionals,..."
+title: "What Is a Homelab? A Setup Guide for IT Professionals"
 date: 2023-02-14
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "A practical homelab guide covering purpose, hardware, networking, services, costs, maintenance, and security trade-offs."

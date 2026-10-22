@@ -1,7 +1,7 @@
 ---
-title: "help Your Expertise: Essential Books for Cybersecurity &..."
+title: "Essential Books for Cybersecurity and IT Professionals"
 date: 2023-09-23
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Boost your skills with top Cybersecurity, Automation, Programming, and IT books."

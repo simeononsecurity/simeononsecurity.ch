@@ -1,7 +1,7 @@
 ---
-title: "Build an Affordable, Secure Home Lab for IT Testing &..."
+title: "Build an Affordable, Secure Home Lab for IT Testing"
 date: 2023-03-25
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn how to create a cost-effective, secure home lab for hands-on IT experience, experimenting with software, hardware, and networking concepts."

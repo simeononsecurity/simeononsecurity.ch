@@ -1,9 +1,9 @@
 ---
-title: "OT, ICS, and PLC Cybersecurity Is a Problem Industry..."
+title: "Why OT, ICS, and PLC Cybersecurity Is Still Broken"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 description: "Examine why OT, ICS, and PLC security controls lag behind legacy design, operational constraints, and real attack paths."
 tags: ["OT security", "ICS security", "PLC security", "IoT security", "industrial cybersecurity", "SCADA security", "NIST 800-82", "IEC 62443", "NERC CIP", "operational technology", "critical infrastructure", "analog sensors", "air gap", "legacy systems", "cybersecurity opinion", "industrial control systems", "SCADA", "Stuxnet", "control system security", "cyber-physical security", "supply chain security", "OT supply chain"]
 cover: "/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp"

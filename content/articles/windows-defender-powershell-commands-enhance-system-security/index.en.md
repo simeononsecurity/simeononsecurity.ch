@@ -1,7 +1,7 @@
 ---
-title: "Boost Your System Security with Windows Defender..."
+title: "Windows Defender PowerShell Commands for System Security"
 date: 2023-07-27
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Discover the power of Windows Defender PowerShell commands and learn how to enhance your system security with command-line control."

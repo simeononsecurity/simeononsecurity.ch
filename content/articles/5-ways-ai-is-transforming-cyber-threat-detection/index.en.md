@@ -1,7 +1,7 @@
 ---
-title: "AI enabled: 5 Ways Transformative Technology Shields..."
+title: "5 Ways AI Improves Cyber Threat Detection and Response"
 date: 2024-01-13
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn five uses of AI in threat detection, including anomaly analysis, behavior models, malware classification, real-time monitoring, and response support."

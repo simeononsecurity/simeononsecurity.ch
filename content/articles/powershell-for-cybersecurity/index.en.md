@@ -1,7 +1,7 @@
 ---
-title: "The Power of PowerShell for Enhanced Cybersecurity..."
+title: "PowerShell for Cybersecurity: Automation and Defense"
 date: 2023-02-02
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explore the power of PowerShell in enhancing cybersecurity operations and achieving compliance with industry standards through automation and simplified processes."

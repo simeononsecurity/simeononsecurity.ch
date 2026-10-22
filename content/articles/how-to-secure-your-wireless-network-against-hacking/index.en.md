@@ -1,7 +1,7 @@
 ---
-title: "Secure Your Wireless Network Against Hacking and..."
+title: "Secure Your Wireless Network Against Hacking and Snooping"
 date: 2023-03-09
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn how to protect your wireless network from hacking and eavesdropping with practical tips and security protocols."

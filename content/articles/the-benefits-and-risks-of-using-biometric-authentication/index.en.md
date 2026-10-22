@@ -1,7 +1,7 @@
 ---
-title: "The Pros and Cons of Biometric Authentication for Access..."
+title: "Pros and Cons of Biometric Authentication for Access"
 date: 2023-04-01
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Evaluate biometric authentication through accuracy, privacy, spoofing risk, fallback access, data storage, and practical deployment controls."

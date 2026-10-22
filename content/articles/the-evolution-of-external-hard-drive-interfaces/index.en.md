@@ -1,7 +1,7 @@
 ---
-title: "Fast-Forward Data: A Timeline of External Hard Drive..."
+title: "External Hard Drive Interfaces: A History and Timeline"
 date: 2024-03-02
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "From USB 1.0 to Thunderbolt: Trace the Rapid Evolution of Hard Drive Interfaces. Discover how data speeds have skyrocketed over the years!"

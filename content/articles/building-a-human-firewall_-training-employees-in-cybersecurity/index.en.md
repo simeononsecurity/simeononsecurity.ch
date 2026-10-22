@@ -1,7 +1,7 @@
 ---
-title: "help Your Workforce: Building a Resilient Human Firewall..."
+title: "Building a Human Firewall: Train Employees in Security"
 date: 2024-01-15
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Build a human firewall through role-based training, realistic phishing exercises, clear reporting, useful metrics, and frequent reinforcement."

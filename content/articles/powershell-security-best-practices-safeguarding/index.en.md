@@ -1,7 +1,7 @@
 ---
-title: "10 Essential PowerShell Security Best Practices for..."
+title: "10 PowerShell Security Best Practices to Protect Scripts"
 date: 2023-07-25
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Secure PowerShell scripts and sessions with execution controls, code signing, secret handling, access limits, and logging."

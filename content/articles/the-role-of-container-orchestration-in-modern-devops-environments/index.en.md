@@ -1,7 +1,7 @@
 ---
-title: "The role of container orchestration in modern DevOps..."
+title: "Container Orchestration in Modern DevOps Environments"
 date: 2023-04-14
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn how container orchestration manages deployment, scaling, networking, and recovery in modern DevOps environments."

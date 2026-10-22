@@ -1,7 +1,7 @@
 ---
-title: "Building and Managing an Effective Cybersecurity..."
+title: "Build an Effective Cybersecurity Awareness Training Program"
 date: 2023-02-18
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn how to build and manage an effective cybersecurity awareness training program that reduces the risk of cyber-attacks and protects sensitive data."

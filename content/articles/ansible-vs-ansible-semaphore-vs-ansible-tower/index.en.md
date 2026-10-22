@@ -1,7 +1,7 @@
 ---
-title: "Ansible Automation: From Plain Ansible to Ansible Tower..."
+title: "Ansible vs Semaphore vs Tower: Automation Compared"
 date: 2023-06-15
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Compare plain Ansible, Ansible Tower, and Ansible Semaphore by workflow, management features, and infrastructure use case."

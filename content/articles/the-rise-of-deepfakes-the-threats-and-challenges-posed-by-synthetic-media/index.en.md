@@ -1,9 +1,9 @@
 ---
-title: "Deepfakes: Threats and Challenges of Synthetic Media in..."
+title: "Deepfakes: The Threats and Challenges of Synthetic Media"
 draft: false
 toc: true
 date: 2023-05-21
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 description: "Explore the rise of deepfakes, their threats, challenges, and regulatory measures in combating synthetic media manipulation."
 tags: ["deepfakes", "synthetic media", "AI technology", "misinformation", "fake news", "fraud", "privacy invasion", "deepfake detection", "regulatory frameworks", "education", "awareness", "digital age", "technology", "society", "challenges", "threats", "combatting deepfakes", "accountability", "collaboration", "advanced algorithms"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"

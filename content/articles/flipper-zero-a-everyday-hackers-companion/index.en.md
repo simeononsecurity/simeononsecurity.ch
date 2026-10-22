@@ -1,9 +1,9 @@
 ---
-title: "Flipper Zero: The Complete Masterclass for Hackers and..."
+title: "Flipper Zero: The Complete Guide for Hackers and Makers"
 draft: false
 toc: true
 date: 2023-05-26
-lastmod: 2026-07-31
+lastmod: 2026-10-21
 description: "A Flipper Zero guide covering radios, protocols, firmware, GPIO, BadUSB, testing workflows, legal limits, and accessories."
 genre: ["Hardware Hacking", "Cybersecurity", "Penetration Testing", "Wireless Security", "Red Teaming"]
 tags: ["Flipper Zero", "hardware hacking", "sub-ghz", "NFC", "RFID", "infrared", "iButton", "BadUSB", "GPIO", "Bluetooth", "Unleashed firmware", "Xtreme firmware", "RogueMaster", "WiFi dev board", "penetration testing", "red team", "wireless security", "RFID cloning", "Mifare Classic", "EM4100", "HID Prox", "replay attack", "brute force", "flipper zero accessories", "open source", "security auditing", "physical security", "social engineering", "CTF", "flipper zero firmware", "flipper zero apps", "Sub-GHz replay", "U2F", "flipper zero legal", "frequency analysis", "UART hacking", "SPI", "I2C", "JTAG", "SWD", "flipper zero GPIO", "flipper zero WiFi", "flipper zero Bluetooth", "flipper zero NFC", "flipper zero RFID", "flipper zero IR", "flipper zero guide 2026"]

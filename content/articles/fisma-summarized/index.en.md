@@ -1,7 +1,7 @@
 ---
-title: "FISMA 101: An Overview of the Federal Information..."
+title: "FISMA 101: A Federal Information Security Overview"
 date: 2023-02-12
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "FISMA 101 explains the Federal Information Security Modernization Act, its components, requirements, and federal-agency scope."

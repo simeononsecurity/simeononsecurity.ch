@@ -1,7 +1,7 @@
 ---
-title: "Unraid vs TrueNas: Which NAS Operating System is Right..."
+title: "TrueNAS vs Unraid: Which NAS Operating System Wins?"
 date: 2023-02-16
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Compare TrueNAS and Unraid by storage design, usability, features, documentation, community, and workload fit."

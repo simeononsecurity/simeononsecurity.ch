@@ -1,7 +1,7 @@
 ---
-title: "Maximizing Your Credit Protection with Freeze and Fraud..."
+title: "Credit Freeze vs Fraud Alert: Protect Against ID Theft"
 date: 2023-02-15
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Compare credit freezes and fraud alerts, then choose the protection steps that fit identity theft risk."

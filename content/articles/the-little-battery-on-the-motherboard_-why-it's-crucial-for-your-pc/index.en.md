@@ -1,7 +1,7 @@
 ---
-title: "Essential Power: How the Motherboard Battery Keeps Your..."
+title: "The Motherboard Battery: CMOS, BIOS, and PC Timekeeping"
 date: 2024-03-05
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Understand the Critical Role of Your PC's Motherboard Battery. Explore its functions in CMOS, BIOS, timekeeping, and hardware detection."

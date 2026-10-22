@@ -1,7 +1,7 @@
 ---
-title: "Mastering GPOs: A Comprehensive Guide to Effective..."
+title: "Group Policy Objects (GPOs): A Guide to Windows Control"
 date: 2023-06-11
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn how Group Policy Objects manage Windows settings, security controls, software, and user or computer configuration."

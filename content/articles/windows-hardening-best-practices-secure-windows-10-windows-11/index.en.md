@@ -1,7 +1,7 @@
 ---
-title: "Basic Windows Hardening Best Practices for Secure..."
+title: "Windows Hardening Best Practices for Windows 10 and 11"
 date: 2023-07-27
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Discover effective strategies for enhancing the security of your Windows 10 and Windows 11 systems through comprehensive hardening techniques and best practices."

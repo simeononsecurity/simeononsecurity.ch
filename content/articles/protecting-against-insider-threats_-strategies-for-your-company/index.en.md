@@ -1,7 +1,7 @@
 ---
-title: "Shield Your Company: Insider Threat Protection..."
+title: "Insider Threat Protection Strategies for Your Company"
 date: 2024-01-25
-lastmod: 2026-10-11
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Reduce insider threat risk with access controls, activity monitoring, reporting channels, offboarding steps, and a security-focused workplace culture."
