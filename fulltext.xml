@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://es.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>es</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>2x RTX 5060 Ti frente a GB10: por qué 32 GB de VRAM pierden frente a 128 GB de memoria unificada</title><link>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Comparación basada en benchmarks entre dos tarjetas RTX 5060 Ti de 16 GB y un sistema NVIDIA GB10 para Qwen 3 27B e inferencia local con contexto largo.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Dos tarjetas RTX 5060 Ti de 16 GB parecen atractivas en una lista de componentes.</strong> Ofrecen 32 GB de VRAM agregada y buen procesamiento de prompts con contexto corto. La comparación cambia al ejecutar un modelo 27B con contexto largo.</p>
+<p>El sistema NVIDIA GB10 usa 128 GB de memoria unificada coherente. NVIDIA indica 128 GB de memoria unificada LPDDR5x y una TDP de chip de 140 W para la plataforma GB10. La RTX 5060 Ti usa 16 GB de GDDR7 por tarjeta, una interfaz de memoria de 128 bits y una potencia gráfica total de 180 W. Las 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="especificaciones de NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >especificaciones de NVIDIA RTX 5060 Ti</a>
+</span>
+ y las 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="especificaciones de NVIDIA GB10">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+    <a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >especificaciones de NVIDIA GB10</a>
+</span>
+ muestran la diferencia de hardware.</p>
+<p><strong>El punto es simple.</strong> Dos tarjetas de 16 GB no crean un pool rápido de 32 GB. Crean dos pools separados de 16 GB conectados mediant
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>El auge de la infraestructura de IA en 2026: demanda, deuda, energía y pruebas</title><link>https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>Una revisión verificada de los gastos en infraestructura de IA, la demanda eléctrica de los centros de datos, las estructuras de financiación, el valor empresarial y las pruebas necesarias antes de llamar burbuja al mercado.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>La infraestructura de IA crece a un ritmo igualado por pocos mercados tecnológicos.</strong> El gasto es real. La demanda de energía es real. El riesgo de financiación es real. El rendimiento es menos seguro.</p>
+<p>La pregunta útil no es si existe la inteligencia artificial. La pregunta útil es si los ingresos futuros y las ganancias de productividad justificarán el hardware, los centros de datos, los contratos eléctricos, los arrendamientos y la deuda que sostienen la expansión.</p>
+<p>Este artículo revisa las pruebas públicas detrás del debate sobre la burbuja de la IA. Las previsiones siguen identificadas como previsiones. Las afirmaciones de las empresas permanecen separadas de la investigación independiente. El resultado no demuestra un desplome inminente. Muestra dónde se concentra la presión financiera y operativa.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="The (Overdue) Collapse Of The AI Bu
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Privacidad de la IA local: qué permanece en su ordenador y qué no</title><link>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><description>Trace prompts, archivos de modelos, herramientas, registros, exposición de red y costes de energía antes de elegir inferencia local o un servicio de IA alojado.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>La IA local le ofrece un límite de datos más pequeño.</strong> Un prompt procesado por un runtime local permanece en su dispositivo cuando el modelo, las herramientas, los registros y la ruta de red son locales. Una GPU local no convierte un ordenador en un sistema sellado.</p>
+<p>Los runtimes de modelos, plugins de herramientas, extensiones del navegador, acceso remoto, API expuestas y descargas de modelos determinan el riesgo. El coste también importa. La electricidad puede costar menos que un precio de tokens alojado, mientras que el hardware retrasa mucho el punto de equilibrio completo.</p>
+<p>Esta guía traza primero el límite de privacidad. Después comprueba el coste con precios actuales de proveedores, una hipótesis explícita de potencia y las cifras del vídeo proporcionado.</p>
+<p>Esta comparación de costes local y alojado proporciona contexto para las fórmulas siguientes. No copie cifras de rendimiento sin probar el mismo archivo de modelo y runtime en su hardware.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>¿Son suficientes 16GB de VRAM para trabajar en serio con LLM locales?</title><link>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><description>Dimensiona una configuración de LLM local de 16GB según los pesos del modelo, la caché KV y el procesamiento de prompts. Compara los presupuestos de memoria, el ancho de banda de GPU y el coste de propiedad de Qwen3.8 27B.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p>16GB de memoria GPU dedicada permiten trabajar en serio con LLM locales cuando el modelo, el contexto y el runtime encajan. Cargar los pesos solo cumple el primer requisito. Una configuración útil también necesita memoria suficiente para la conversación activa y velocidad suficiente para terminar la tarea.</p>
+<p>Usa Qwen3.8 27B como ejemplo para presupuestar un flujo de código o documentos para un solo usuario. Empieza con el contexto que necesita la tarea. Después elige pesos y ajustes del runtime que encajen en la memoria restante. Las especificaciones de hardware y las fuentes del modelo se revisaron el 7 de octubre de 2026.</p>
+<h2 id="puntos-principales">
+  <a href="#puntos-principales" title="Puntos principales">Puntos principales</a>
+  <a href="#puntos-principales" class="h-anchor" aria-hidden="true" title="Puntos principales">#</a>
+</h2>
+<ul>
+<li>Reserva memoria para el contexto antes de elegir una cuantización.</li>
+<li>Mide el procesamiento del prompt por separado de la velocidad de salida.</li>
+<li>Desactiva el soporte de visión sin uso y prueba una caché KV de 8 bits.</li>
+<li>Compara la GPU, el backend, el archivo del modelo y la longitud del prompt exactos.</li>
+<li>Calcula el ahorro de propiedad según tu carga de trabajo y la factura del proveedor.</li>
+</ul>
+<p>Para este ejercicio necesitas el registro de memoria del runtime, el nombre exacto del archivo del modelo y una tarea representativa. Reserva unos 20 minutos para la configuración y el registro de resultados, además del tiempo de inferencia. La dificultad es intermedia.</p>
+<h2 id="ajusta-la-memoria-al-trabajo">
+  <a href="#ajusta-la-memoria-al-trabajo" title="Ajusta la memoria al trabajo">Ajusta la memoria al trabajo</a>
+  <a href="#ajusta-la-memoria-al-trabajo" class="h-anchor" aria-hidden="true" title="Ajusta la memoria al trabajo">#</a>
+</h2>
+<p>16GB sirven para una carga cuyos pesos, contexto activo y asignaciones temporales permanecen dentro de la memoria GPU disponible. El contexto necesario depende de la tarea. Un resumen corto y un agente de código que lee decenas de archivos necesitan presupuestos diferentes.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Carga de trabajo</th>
+					<th>Primera pregunta de dimensionamiento</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Chat corto o redacción</td>
+					<td>¿El modelo alcanza tu objetivo de calidad?</td>
+			</tr>
+			<tr>
+					<td>Análisis de documentos</td>
+					<td>¿Caben juntos el texto fuente y la respuesta?<
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>¿Qué modelo de IA local deberías ejecutar? Guía de GPU, contexto y programación para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><description>Guía práctica de octubre de 2026 para elegir modelos de IA locales para agentes de programación. Compara memoria de GPU, crecimiento de KV-cache, tamaño de contexto, calidad de cuantización, procesamiento de prompts, ajustes de razonamiento y costes de alquiler en la nube.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>El mejor modelo local para programar es el que mantiene suficiente parte de tu proyecto en memoria y lo lee con la rapidez necesaria para seguir siendo útil.</strong> El tamaño del modelo importa, pero un modelo que solo encaja después de pasar datos a la RAM del sistema suele sentirse peor que un modelo más pequeño con una ventana de contexto estable.</p>
+<p><em>Elige el modelo y el presupuesto de memoria juntos. No elijas un modelo de una lista de niveles y lo fuerces sobre hardware inadecuado.</em></p>
+<p>Esta guía se centra en agentes de programación, no en prompts cortos de autocompletado. Un agente lee archivos, salidas de herramientas, errores del compilador y resultados de pruebas antes de escribir una solución. Esas entradas consumen contexto y el contexto cambia la decisión de hardware.</p>
+<h2 id="el-vídeo-sirve-como-referencia">
+  <a href="#el-v%c3%addeo-sirve-como-referencia" title="El vídeo sirve como referencia">El vídeo sirve como referencia</a>
+  <a href="#el-v%c3%addeo-sirve-como-referencia" class="h-anchor" aria-hidden="true" title="El vídeo sirve como referencia">#</a>
+</h2>
+<p>El siguiente vídeo compara modelos locales en varios niveles de memoria de GPU. Es útil por sus observaciones prácticas sobre la selección de modelos y sus resultados de hardware. Este artículo sigue un camino separado y organiza la decisión en torno al comportamiento de la memoria, el contexto del agente, el procesamiento de prompts y el coste total de propiedad.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>10 plugins, skills y herramientas MCP de Claude Code: guía práctica</title><link>https://es.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><description>Elige extensiones de Claude Code para planificación, revisión de código, gestión del conocimiento, diseño y automatización. Compara diez herramientas, dependencias y comprobaciones prácticas.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Elige una extensión de Claude Code alrededor de un fallo concreto de tu flujo de trabajo.</strong> Los requisitos poco claros necesitan una conversación de planificación. Los defectos omitidos necesitan revisión y pruebas. La investigación repetida necesita fuentes trazables. Instalar más herramientas solo ayuda cuando sus responsabilidades están claras.</p>
+<p>Esta guía compara <strong>diez proyectos</strong> para esas tareas, con ejemplos de configuración y un ejercicio de evaluación. El análisis usa la documentación actual de los proyectos y el vídeo proporcionado de Chase AI. Las recomendaciones son juicios editoriales, no mediciones prácticas de rendimiento ni pruebas de un aumento de productividad de diez veces.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Elige según el resultado:</strong> un plan revisado, un mapa del código y una imagen generada necesitan herramientas diferentes.</li>
+<li><strong>Separa las capas de instalación:</strong> instrucciones, programas ejecutables, plugins y conexiones de servicio tienen dependencias diferentes.</li>
+<li><strong>Comprueba los nombres actuales:</strong> Graphify y grill-me-codex ahora tienen ubicaciones canónicas distintas.</li>
+<li><strong>Verifica más allá del acuerdo:</strong> que dos modelos acepten un plan no demuestra una implementación correcta.</li>
+<li><strong>Mide el trabajo aceptado:</strong> incluye configuración, uso del servicio, intentos fallidos y correcciones humanas.</li>
+</ul>
+<h2 id="antes-de-empezar">
+  <a href="#antes-de-empezar" title="Antes de empezar">Antes de empezar</a>
+  <a href="#antes-de-empezar" class="h-anchor" aria-hidden="true" title="Antes de empezar">#</a>
+</h2>
+<p><strong>Requisitos previos:</strong> una instalación funcional de Claude Code, un proyecto o rama desechable y permiso para usar los servicios externos seleccionados. Los ejemplos de CLI suponen un terminal y el gestor de paquetes indicado. Las integraciones en la nube necesitan sus propias cuentas y autenticación.</p>
+<p><strong>Tiempo estimado:</strong> 15 minutos de lectura y de 30 a 60 minutos para una prueba limitada. <strong>Dificultad:</strong> intermedia para la configuración de CLI y la integración de servicios. Leer skills de instrucciones necesita menos configuración.</p>
+<p><strong>Documentación comproba
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>9 proyectos de skills de agentes de IA para investigación, diseño y desarrollo</title><link>https://es.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><description>Compara nueve proyectos de skills de agentes según el flujo de trabajo, el soporte del host, las dependencias y el coste. Aprende a instalar, inspeccionar y probar las skills que necesitas.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Instala una skill de agente para mejorar una tarea repetible.</strong> Investigar debates actuales, revisar el diseño de una interfaz y renderizar un vídeo requieren procedimientos y dependencias diferentes. Una skill útil aporta las instrucciones, el material de referencia o los scripts que faltan para uno de esos trabajos.</p>
+<p><strong>Nueve proyectos merecen consideración:</strong> last30days, Humanizer, Impeccable, Superpowers, gstack, Claude Video, Remotion, HyperFrames y NVIDIA SkillSpector. Algunos son paquetes de instrucciones, algunos incluyen herramientas ejecutables y algunos son frameworks con skills complementarias. Esta guía compara sus funciones documentadas y ofrece una forma práctica de elegir, instalar y evaluar las skills que necesitas.</p>
+<p><strong>Instantánea de la documentación: 10 de octubre de 2026.</strong> Las recomendaciones reflejan la documentación del proyecto y la inspección del código fuente, no un benchmark comparativo de la calidad de salida. Una instalación gratuita no demuestra que la inferencia, el renderizado, el acceso a datos o el uso comercial sean gratuitos.</p>
+<h2 id="conclusiones-clave">
+  <a href="#conclusiones-clave" title="Conclusiones clave">Conclusiones clave</a>
+  <a href="#conclusiones-clave" class="h-anchor" aria-hidden="true" title="Conclusiones clave">#</a>
+</h2>
+<ul>
+<li><strong>Empieza con un trabajo recurrente:</strong> elige una skill con una salida clara y una comprobación de aceptación.</li>
+<li><strong>Separa las skills de los runtimes:</strong> instalar instrucciones no instala todos los ejecutables necesarios.</li>
+<li><strong>Comprueba el host:</strong> una integración funcional con Claude Code no demuestra un comportamiento idéntico en Codex o Cowork.</li>
+<li><strong>Inspecciona permisos y dependencias:</strong> los comandos de paquetes, hooks, servicios externos y credenciales requieren atención separada.</li>
+<li><strong>Personaliza después de probar:</strong> mantén la política del proyecto como autoridad y conserva un registro de las versiones upstream.</li>
+</ul>
+<h2 id="elige-según-el-entregable">
+  <a href="#elige-seg%c3%ban-el-entregable" title="Elige según el entregable">Elige según el entregable</a>
+  <a href="#elige-seg%c3%ban-el-entregable" class="h-anchor" aria-hidden="true" title="Elige según el entregable">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Salida necesaria</th>
+					<th>Proyecto que evaluar</th>
+					<th>Primera comprobación
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Agentes de programación GUI comparados: Cursor, Windsurf, Cline, Copilot y Continue</title><link>https://es.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><description>Compara agentes de programación gráficos, separa editores completos de extensiones y examina el cierre de Roo Code, el acceso a modelos, las aprobaciones y los flujos de revisión.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p>Los <strong>agentes de programación gráficos</strong> colocan las conversaciones de tareas junto a archivos, diffs, diagnósticos y vistas previas de aplicaciones. Esta guía compara Cursor, la línea de productos Windsurf/Cascade, la extensión Cline para VS Code, GitHub Copilot en VS Code y la extensión Continue para IDE. Roo Code aparece como opción de migración antigua porque su documentación anuncia un cierre.</p>
+<p><strong>Elige el espacio de trabajo antes que el modelo.</strong> Un editor independiente cambia tu entorno de desarrollo. Una extensión añade un agente a un editor existente. Evalúa el parche generado y el esfuerzo para inspeccionarlo.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Cursor y la línea de productos Windsurf</strong> pertenecen al grupo de editores completos.</li>
+<li><strong>Cline, Copilot y Continue</strong> ofrecen flujos de agentes dentro de un editor existente.</li>
+<li><strong>Roo Code necesita planificación de migración</strong>, no un tratamiento como despliegue nuevo normal.</li>
+<li><strong>Los cambios visibles aún necesitan pruebas</strong>, revisión de dependencias y una decisión explícita de aceptación.</li>
+</ul>
+<p><strong>Alcance y fecha:</strong> La documentación oficial se comprobó el 6 de octubre de 2026. Esta es una comparación de flujos de trabajo, no un benchmark de velocidad o calidad de código. Los productos de terminal aparecen en la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="comparación de CLI">
+    <meta itemprop="url" content="/articles/cli-coding-agents-comparison/">
+    <a href="/articles/cli-coding-agents-comparison/"
+    
+        rel="follow me"
+    >comparación de CLI</a>
+</span>
+.</p>
+<p><strong>Requisitos:</strong> Un proyecto existente, pruebas funcionales y permiso para instalar el editor o extensión elegidos. Dificultad de principiante a intermedia. Reserva una tarde para probar dos productos.</p>
+<h2 id="nomb
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Code CLI frente a Desktop: comparación del flujo de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><description>Compara Claude Code en el terminal y en el espacio de trabajo Code de escritorio, con ajustes compartidos, transferencia de sesiones, scripting, revisión visual y opciones de permisos.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Claude Code CLI y Desktop</strong> ofrecen dos formas de dirigir el agente de programación de Anthropic. La CLI favorece los flujos de shell y la invocación programática. Desktop favorece un espacio de trabajo de proyecto visible, con cambios de archivos y revisión junto a la conversación.</p>
+<p><strong>Esta comparación trata sobre el espacio de trabajo de programación de escritorio</strong>, descrito como la pestaña Code en el 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="inicio rápido de escritorio">
+    <meta itemprop="url" content="https://code.claude.com/docs/en/desktop-quickstart">
+    <a href="https://code.claude.com/docs/en/desktop-quickstart"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >inicio rápido de escritorio</a>
+</span>
+ de Anthropic. El chat general y otros flujos de escritorio quedan fuera del alcance. La distinción importa al comprobar el acceso al repositorio y la configuración.</p>
+<h2 id="conclusiones-principales">
+  <a href="#conclusiones-principales" title="Conclusiones principales">Conclusiones principales</a>
+  <a href="#conclusiones-principales" class="h-anchor" aria-hidden="true" title="Conclusiones principales">#</a>
+</h2>
+<ul>
+<li><strong>Usa la CLI para scripts</strong>, entrada canalizada y trabajo centrado en el terminal.</li>
+<li><strong>Usa Desktop para supervisión gráfica</strong>, archivos adjuntos y revisión de diffs.</li>
+<li><strong>La configuración compartida reduce la duplicación</strong>, pero el comportamiento de las sesiones y los controles disponibles difieren.</li>
+<li><strong>Mover una conversación requiere una transferencia compatible</strong>, no copiar un prompt en un chat nuevo.</li>
+</ul>
+<p><strong>Alcance y fecha:</strong> documentación oficial comprobada el 10 de octubre de 2026. Esta es una comparación de funciones y flujos de trabajo, no una prueba de programación. Necesitas un repositorio comprobable y una ruta de cuenta aprobada. Reserva entre 45 y 60 minutos para una p
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Codex CLI frente a Desktop: comparación del flujo de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><description>Elige entre Codex en el terminal y el espacio de trabajo de programación de escritorio de OpenAI. Compara scripts, worktrees, revisión visual, horarios y entornos de ejecución.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Codex CLI</strong> encaja con un flujo basado en shell, comandos explícitos y ejecuciones programables. <strong>Codex en desktop</strong> encaja con proyectos, conversaciones, resultados visuales y paneles de revisión. Elige la interfaz según cómo supervisas el trabajo y mantén iguales el modelo, el repositorio y la política de ejecución.</p>
+<p><strong>Nota de nombres:</strong> la documentación anterior de la aplicación Codex de OpenAI ahora redirige a la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="documentación de la aplicación ChatGPT para escritorio">
+    <meta itemprop="url" content="https://learn.chatgpt.com/docs/app">
+    <a href="https://learn.chatgpt.com/docs/app"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >documentación de la aplicación ChatGPT para escritorio</a>
+</span>
+. Esta guía usa “Codex desktop” para el flujo de programación dentro de la aplicación. Un chat normal sin acceso al repositorio no equivale a un agente de programación.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Usa la CLI para combinar comandos de shell</strong> y ejecutar tareas programables repetibles.</li>
+<li><strong>Usa desktop para organizar proyectos</strong>, revisar visualmente y administrar tareas programadas.</li>
+<li><strong>Mantén explícita la ubicación de ejecución</strong>, sobre todo con conexiones remotas.</li>
+<li><strong>La interfaz no garantiza mejor código</strong> ni crea una cuota de inferencia independiente.</li>
+</ul>
+<p><strong>Alcance y fecha:</strong> se revisó la documentación oficial el 10 de octubre de 2026. Las recomendaciones se refieren al flujo de trabajo, no al rendimiento medido del modelo. Necesitas un repositorio, pruebas funcionales y acceso adecuado a la cuenta. Reserva una hora para una prueba pequeña entre interfaces.</p>
+<h2 id="compara-lo
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Comparativa de agentes de codificación CLI: Claude Code, Codex, Gemini, OpenCode, Copilot y Aider</title><link>https://es.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><description>Compara seis agentes de codificación de terminal por flujo de trabajo, automatización, acceso a modelos, permisos y esfuerzo de revisión. Crea una lista corta con una prueba repetible en el repositorio.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p>Los <strong>agentes de codificación de terminal</strong> comparten una interfaz conocida, pero difieren en cómo recopilan contexto, editan archivos, solicitan aprobación y encajan en scripts. Esta guía compara Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI y Aider. Evalúa sus flujos de terminal de forma independiente de los productos de escritorio de cada proveedor.</p>
+<p><strong>Empieza por tus restricciones.</strong> El acceso al proveedor, la automatización repetible y los hábitos de revisión filtran mejor que una clasificación general. Las recomendaciones siguientes son juicios editoriales basados en documentación oficial revisada el 10 de octubre de 2026, no clasificaciones de rendimiento medido.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Claude Code, Codex y Gemini CLI</strong> merecen una prueba si quieres sus respectivos flujos de modelos propios.</li>
+<li><strong>OpenCode y Aider</strong> sirven para experimentar con varios proveedores de modelos, con enfoques distintos para la interacción y la edición.</li>
+<li><strong>Copilot CLI</strong> merece atención cuando el acceso a GitHub y la política de la organización ya definen tu flujo.</li>
+<li><strong>Una interfaz de terminal no implica inferencia local</strong>, elección libre de modelos ni ejecución desatendida.</li>
+</ul>
+<p><strong>Requisitos previos:</strong> Git, un checkout desechable, pruebas funcionales y credenciales de modelos aprobadas. La dificultad es intermedia. Reserva una tarde para comparar dos herramientas seleccionadas en tres tareas pequeñas.</p>
+<h2 id="la-lista-corta">
+  <a href="#la-lista-corta" title="La lista corta">La lista corta</a>
+  <a href="#la-lista-corta" class="h-anchor" aria-hidden="true" title="La lista corta">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Herramienta de terminal</th>
+					<th>Motivo para evaluarla</th>
+					<th>Decisión pendiente</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Claude Code CLI</strong></td>
+					<td>Trabajo de repositorio centrado en Claude</td>
+					<td>Ruta de cuenta y política de permisos</td>
+			</tr>
+			<tr>
+					<td><strong>Codex CLI</strong></td>
+					<td>Trabajo interactivo y ejecución mediante scripts</td>
+					<td>Ajustes de sandbox y gestión de salida</td>
+			</tr>
+			<tr>
+					<td><strong>Gemini CLI<
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GitHub Copilot CLI frente a VS Code: comparación de flujos de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><description>Compara el agente de terminal de Copilot con su experiencia en VS Code, incluido el contexto del editor, las diferencias visuales, el modo Agent, la integración CLI y las políticas de cuenta.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>GitHub Copilot CLI y Copilot en VS Code ofrecen puntos de entrada distintos para el trabajo de programación.</strong> CLI empieza con el shell y una tarea. VS Code combina contexto del editor, sugerencias, chat y flujos de agente. Evalúa ambos bajo la misma política de cuenta y repositorio.</p>
+<p><strong>La elección no es exclusiva.</strong> GitHub documenta una conexión entre Copilot CLI y VS Code. Una tarea desde terminal aprovecha la selección del editor y la revisión visual cuando conectas ambas interfaces de forma explícita.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Usa Copilot CLI para tareas desde terminal</strong> y llamadas programáticas compatibles.</li>
+<li><strong>Usa Copilot en VS Code para trabajo centrado en el editor</strong>, incluida la asistencia en línea y el modo Agent.</li>
+<li><strong>Conecta CLI con VS Code</strong> cuando necesites indicaciones de terminal con contexto y diferencias del editor.</li>
+<li><strong>Verifica la cuenta, el modelo y las políticas</strong>, incluso dentro de una misma familia de productos.</li>
+</ul>
+<p><strong>Alcance y fecha:</strong> Se revisó la documentación oficial el 10 de octubre de 2026. Esta comparación cubre el CLI independiente <code>copilot</code> y Copilot en VS Code, no la antigua extensión <code>gh copilot</code> ni un agente en la nube asignado a un issue de GitHub. Necesitas un repositorio comprobable y acceso permitido a Copilot. Reserva una hora para la prueba.</p>
+<h2 id="tres-formas-de-trabajar">
+  <a href="#tres-formas-de-trabajar" title="Tres formas de trabajar">Tres formas de trabajar</a>
+  <a href="#tres-formas-de-trabajar" class="h-anchor" aria-hidden="true" title="Tres formas de trabajar">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Flujo</th>
+					<th>Interacción principal</th>
+					<th>Tarea de prueba adecuada</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>CLI independiente</strong></td>
+					<td>Indicación de terminal y salida de comandos</td>
+					<td>Explicar y corregir un fallo de prueba reproducido</td>
+			</tr>
+			<tr>
+					<td><strong>Integración con VS Code</strong></td>
+					<td>Selección del editor, chat, sugerencias y diferencias</td>
+					<td>Modificar una función seleccionada y sus pruebas</td>
+			</tr>
+			<tr>
+					<td><strong>CLI conectado a VS Code</strong></t
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>IA local frente a ChatGPT: ¿Qué tan cerca estamos?</title><link>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><description>Compara la IA local con ChatGPT y Claude mediante puntuaciones de referencia, estimaciones de memoria, velocidad de servicio y verificación de agentes. Incluye escenarios con RTX 5090, DGX Spark y Mac Studio.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p>La <strong>IA local</strong> ofrece una opción práctica para trabajos delimitados con comprobaciones claras. Sustituir el trabajo que entregas a ChatGPT o Claude exige alinear tres elementos: capacidad del modelo, memoria disponible y un agente capaz de inspeccionar y verificar su resultado.</p>
+<p>Un modelo que cabe en tu estación de trabajo aún necesita herramientas adecuadas y velocidad suficiente para repetir intentos. Este artículo separa resultados de benchmarks, estimaciones de memoria y pruebas de tareas completadas para que evalúes cada aspecto por separado.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Capacidad:</strong> las puntuaciones de referencia describen configuraciones de evaluación concretas, no tu compilación local cuantizada.</li>
+<li><strong>Memoria:</strong> reserva espacio para pesos, caché de contexto y sobrecarga del tiempo de ejecución.</li>
+<li><strong>Velocidad:</strong> reproducir una conversación de agente mide el servicio, no la corrección.</li>
+<li><strong>Verificación:</strong> un agente necesita comprobaciones ajustadas al resultado solicitado.</li>
+<li><strong>Selección:</strong> compara tareas repetidas, tiempo de reparación y coste total antes de comprar hardware.</li>
+</ul>
+<h2 id="lee-las-puntuaciones-en-contexto">
+  <a href="#lee-las-puntuaciones-en-contexto" title="Lee las puntuaciones en contexto">Lee las puntuaciones en contexto</a>
+  <a href="#lee-las-puntuaciones-en-contexto" class="h-anchor" aria-hidden="true" title="Lee las puntuaciones en contexto">#</a>
+</h2>
+<p>El <strong>Artificial Analysis Intelligence Index</strong> reúne varias evaluaciones en una puntuación de referencia. El 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="clasificador de modelos">
+    <meta itemprop="url" content="https://artificialanalysis.ai/leaderboards/models">
+    <a href="https://artificialanalysis.ai/leaderboards/models"
+    
+        
+            
+            
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Los Context Language Models de Meta: mejor memoria para agentes, no el fin de las alucinaciones</title><link>https://es.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><description>Cómo los Context Language Models editan la memoria de los agentes, qué demuestran las pruebas y cómo afectan la fiabilidad los costes de caché, la capacidad del modelo y las notas no confiables.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Los Context Language Models (CLM)</strong> dan a un agente de IA control directo sobre la información que recibe en su siguiente llamada al modelo. El método mejora la gestión del contexto en varias evaluaciones publicadas, pero no demuestra el fin de las alucinaciones. El agente todavía necesita pruebas para sus afirmaciones y comprobaciones independientes de su trabajo.</p>
+<p>La pregunta de ingeniería es si la edición selectiva conserva los hechos correctos a un coste aceptable. Una conversación más corta sirve solo si el agente conserva sus requisitos, distingue observaciones de suposiciones y recupera pruebas de apoyo cuando las necesita.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Contexto editable:</strong> CLM describe un método de ejecución para modelos existentes, con entrenamiento opcional para mejorar su uso.</li>
+<li><strong>Ganancias condicionadas:</strong> el tamaño del modelo, el presupuesto de contexto, la tarea y el backend de servicio afectan los resultados.</li>
+<li><strong>Contabilidad de cómputo:</strong> los FLOPs de reutilización del prefijo incluyen el recálculo tras editar, pero no miden directamente el tiempo transcurrido ni la facturación.</li>
+<li><strong>Integridad de la memoria:</strong> las notas del propio agente siguen siendo falibles y entradas potencialmente inseguras.</li>
+<li><strong>Evaluación práctica:</strong> mide juntos los resultados aceptados, los hechos perdidos, las afirmaciones sin apoyo y el coste de recuperación.</li>
+</ul>
+<h2 id="separa-la-memoria-de-las-pruebas">
+  <a href="#separa-la-memoria-de-las-pruebas" title="Separa la memoria de las pruebas">Separa la memoria de las pruebas</a>
+  <a href="#separa-la-memoria-de-las-pruebas" class="h-anchor" aria-hidden="true" title="Separa la memoria de las pruebas">#</a>
+</h2>
+<p><strong>Una ventana de contexto</strong> contiene la entrada disponible para el modelo durante una llamada. Las instrucciones, las respuestas de herramientas, las notas de trabajo y los mensajes anteriores compiten por espacio. La compactación sustituye parte de este material por una representación más corta.</p>
+<p>Considera una <strong>tarea ilustrativa de actualización de dependencias</strong>. Un ejecutor de pruebas informa de dos fallos. El agente comprime su historial en una nota que dice que l
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Los mejores harnesses de agentes de IA en 2026: elige según el flujo de trabajo</title><link>https://es.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><description>Compara Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi y LangGraph según la ejecución de herramientas, la memoria, la recuperación y el esfuerzo de integración.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/ai-agent-execution-components.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Deep Agents es mi primera opción para un agente general con modelos configurables y gestión de contexto integrada.</strong> Claude Agent SDK encaja bien para insertar el comportamiento de ejecución de Claude Code. OpenAI Agents SDK y Pydantic AI merecen una prueba para agentes específicos de una aplicación. Pi prefiere un núcleo pequeño y extensible, mientras LangGraph prefiere un control explícito del flujo de trabajo.</p>
+<p><strong>La mejor opción depende del trabajo que pretendas aceptar.</strong> Un asistente de investigación, un editor de repositorios y un servicio que procese solicitudes de clientes necesitan herramientas y reglas de recuperación distintas. Estas recomendaciones son juicios editoriales basados en documentación oficial revisada el <strong>10 de octubre de 2026</strong>, no resultados de un benchmark práctico de rendimiento.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Elige primero la abstracción:</strong> agente ensamblado, SDK de aplicación o runtime de flujo de trabajo.</li>
+<li><strong>Comprueba los límites de ejecución:</strong> la aprobación de herramientas, el aislamiento del sistema de archivos y la política de red resuelven problemas distintos.</li>
+<li><strong>Prueba la recuperación:</strong> el historial de conversación por sí solo no evita acciones externas duplicadas.</li>
+<li><strong>Mide el trabajo aceptado:</strong> incluye fallos, tiempo de revisión e infraestructura en la comparación de costes.</li>
+<li><strong>Mantén explícito el modelo:</strong> cambiar el modelo y el software del agente prueba el sistema completo, no solo el software.</li>
+</ul>
+<h2 id="qué-proporciona-un-harness">
+  <a href="#qu%c3%a9-proporciona-un-harness" title="Qué proporciona un harness">Qué proporciona un harness</a>
+  <a href="#qu%c3%a9-proporciona-un-harness" class="h-anchor" aria-hidden="true" title="Qué proporciona un harness">#</a>
+</h2>
+<p>Un <strong>harness de agente es el software que rodea una llamada al modelo.</strong> Prepara el contexto, expone herramientas, ejecuta acciones aprobadas, devuelve resultados y decide cuándo continuar o detenerse. Según la implementación, también gestiona memoria, delegación, permisos y recuperación.</p>
+<p>Un <strong>modelo</strong> propone la siguiente acción. Una <strong>herramienta</strong> 
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode CLI frente a Desktop: comparación del flujo de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><description>Compara los clientes de terminal y escritorio de OpenCode mediante su arquitectura de servidor, configuración del proveedor, scripting, estado de sesión y solución de problemas.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode CLI y Desktop son clientes del mismo producto de agente de código.</strong> La interfaz de terminal sirve para el trabajo con teclado y los scripts. La aplicación de escritorio ofrece un espacio de trabajo gráfico. La comparación importante incluye el servidor, el proyecto, el proveedor y la configuración detrás de cada cliente.</p>
+<p><strong>Elige la interfaz después de identificar el backend.</strong> Dos ventanas de OpenCode no tienen por qué usar el mismo servidor o sesión. Una aplicación de escritorio conectada a otro servidor es un entorno de ejecución distinto, aunque la etiqueta del modelo parezca conocida.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Usa CLI para el trabajo de terminal</strong> y los comandos no interactivos.</li>
+<li><strong>Usa Desktop para un espacio gráfico</strong>, después de comprobar el servidor seleccionado.</li>
+<li><strong>La configuración del proveedor determina la inferencia</strong>, sin depender de la interfaz.</li>
+<li><strong>La misma identidad del producto no garantiza el mismo estado de sesión</strong> entre servidores o versiones separados.</li>
+</ul>
+<p><strong>Alcance y fecha:</strong> Documentación oficial comprobada el 6 de octubre de 2026. Esta guía compara interfaces, no la calidad de los modelos. Necesitas un repositorio, una conexión de proveedor funcional y conocimientos básicos de terminal. Reserva entre 45 y 60 minutos para la prueba.</p>
+<h2 id="el-cliente-y-el-servidor">
+  <a href="#el-cliente-y-el-servidor" title="El cliente y el servidor">El cliente y el servidor</a>
+  <a href="#el-cliente-y-el-servidor" class="h-anchor" aria-hidden="true" title="El cliente y el servidor">#</a>
+</h2>
+<p><strong>OpenCode separa la interfaz del servidor.</strong> La 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="documentación del servidor">
+    <meta itemprop="url" content="https://opencode.ai/docs/server/">
+    <a href="http
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode frente a Claude Code: comparación de agentes de programación de 2026</title><link>https://es.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><description>Compara OpenCode y Claude Code en elección de modelos, inferencia local, precios, permisos, instrucciones del proyecto y flujos diarios de programación.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/opencode-vs-claude-code/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode</strong> encaja con desarrolladores que quieren controlar los proveedores de modelos, la configuración del agente y la inferencia local. <strong>Claude Code</strong> encaja con desarrolladores que quieren el flujo de programación integrado de Anthropic, acceso mediante una suscripción de Claude y controles organizativos documentados. Ambos trabajan dentro de repositorios reales. Los resultados útiles dependen de la ejecución de herramientas, las instrucciones del proyecto y la verificación.</p>
+<p><strong>El agente y el modelo son decisiones separadas.</strong> Cambiar de Claude Code con un modelo Claude alojado a OpenCode con un modelo local pequeño cambia varias variables a la vez. Una diferencia en los resultados no demuestra qué aplicación de agente es mejor.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Elige OpenCode por la flexibilidad de proveedores</strong>, la personalización de código abierto y los experimentos con modelos alojados o locales.</li>
+<li><strong>Elige Claude Code para un flujo centrado en Claude</strong>, sobre todo si tu suscripción u organización ya lo admite.</li>
+<li><strong>La ejecución local necesita una precisión.</strong> Una aplicación de terminal sigue enviando los prompts a su servicio de inferencia configurado.</li>
+<li><strong>Compara el trabajo terminado</strong>, incluido el tiempo de revisión y los intentos fallidos, en vez de mirar solo la velocidad de tokens.</li>
+</ul>
+<p><strong>Alcance y fecha:</strong> Esta comparación revisa la documentación oficial y los precios del 6 de octubre de 2026. Ofrece orientación para elegir, no una prueba práctica de rendimiento.</p>
+<p><strong>Requisitos previos:</strong> Un repositorio Git, comandos de compilación y pruebas funcionales y acceso al modelo previsto. Reserva entre 60 y 90 minutos para una comparación inicial después de la instalación. La dificultad es intermedia.</p>
+<h2 id="comparación-de-funciones">
+  <a href="#comparaci%c3%b3n-de-funciones" title="Comparación de funciones">Comparación de funciones</a>
+  <a href="#comparaci%c3%b3n-de-funciones" class="h-anchor" aria-hidden="true" title="Comparación de funciones">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Área</th>
+					<th>OpenCode</th>
+					<th>Claude Code</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/opencode-vs-claude-code/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Programación de IA local en una GPU de 16 GB: Strata, OpenCode y Qwen3.8</title><link>https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><description>Ejecuta un agente de programación local con Strata y OpenCode. Examina los resultados publicados de la RTX 4060 Ti, los requisitos de RAM, la reutilización de prompts, los presupuestos de razonamiento y los límites de sustituir una suscripción de pago.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Un agente de programación local en una GPU de 16 GB es una opción práctica para tareas de desarrollo acotadas.</strong> Strata y OpenCode combinan la inferencia local con la edición de archivos, los comandos de shell y la ejecución de pruebas. Una ejecución publicada de Qwen3.8-Flash-Next en una RTX 4060 Ti completó una aplicación, cambios posteriores y un prototipo de juego de carreras sin llamadas de inferencia de pago.</p>
+<p><strong>Sustituir una suscripción requiere una prueba más amplia.</strong> Los resultados publicados muestran una configuración funcional en una máquina. No demuestran paridad con servicios de programación de pago entre lenguajes, repositorios o tareas difíciles de depuración. El hardware también incluye 64 GB de RAM del sistema, que contiene buena parte del modelo.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>16 GB describe la memoria de la GPU</strong>, no la memoria total necesaria para la configuración publicada.</li>
+<li><strong>La reutilización del prompt importa</strong> porque los agentes de programación envían repetidamente historiales de conversación superpuestos.</li>
+<li><strong>El razonamiento necesita un presupuesto</strong> para que la planificación deje espacio para el código y las llamadas a herramientas.</li>
+<li><strong>Pasar pruebas generadas es una evidencia parcial</strong>, y Docker y el juego requieren comprobaciones separadas.</li>
+<li><strong>El gasto cero en API excluye los costes de propiedad</strong>, la electricidad y el tiempo de mantenimiento.</li>
+</ul>
+<p><strong>Requisitos previos:</strong> Un ordenador compatible, suficiente almacenamiento libre para el modelo seleccionado, Git, Node.js con npm y familiaridad con herramientas de terminal. Iguala la configuración IQ3_S publicada con 64 GB de RAM. Usa el instalador actual de Strata para comprobar otras configuraciones.</p>
+<p><strong>Tiempo y dificultad:</strong> Intermedio. Reserva tiempo para descargar e instalar modelos grandes antes de evaluar la velocidad de finalización de tareas. Los tiempos publicados de las tareas excluyen la configuración.</p>
+<h2 id="la-configuración-probada">
+  <a href="#la-configuraci%c3%b3n-probada" title="La configuración probada">La configuración probada</a>
+  <a href="#la-configuraci%c3%b3n-probada" class="h-anchor" aria
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Enrutamiento de proveedores de OpenRouter: calidad del modelo, límites de tokens y costes reales</title><link>https://es.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><description>Diagnostica respuestas inconsistentes de OpenRouter, compara límites de endpoints y costes de caché, y configura el enrutamiento sin desactivar controles de calidad por accidente.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>El enrutamiento de proveedores de OpenRouter</strong> determina qué servicio de inferencia responde a tu solicitud. Dos llamadas con el mismo nombre de modelo siguen dependiendo de los límites del endpoint, los parámetros admitidos, el software de servicio y las preferencias de enrutamiento. Si las respuestas se acortan o fallan las llamadas a herramientas, revisa esas diferencias antes de culpar a la cuantización.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Las etiquetas de precisión</strong> describen un formato numérico, no una puntuación de exactitud.</li>
+<li><strong>Los límites del endpoint</strong> determinan el contexto, la longitud de salida y el soporte de funciones.</li>
+<li><strong>El enrutamiento explícito</strong> necesita una política de fallback además de la preferencia de proveedor.</li>
+<li><strong>Auto Exacto</strong> mejora la selección mediante señales de calidad y ofrece una ruta opcional para solicitudes sin herramientas.</li>
+<li><strong>El coste efectivo</strong> incluye salida, caché, reintentos y finalización correcta de la tarea.</li>
+</ul>
+<p><strong>Requisitos:</strong> Familiaridad con solicitudes JSON y acceso a la configuración de OpenRouter de tu aplicación. La inspección de endpoints usa una API pública. Enviar solicitudes de modelo requiere una clave de API y genera cargos. Vuelve a comprobar los metadatos antes de repetir un ejemplo fechado.</p>
+<p><strong>Tiempo y dificultad:</strong> Unos 20 minutos para una revisión inicial. Nivel intermedio. Una comparación útil entre proveedores requiere pruebas adicionales con prompts representativos.</p>
+<h2 id="lo-que-omite-el-nombre-del-modelo">
+  <a href="#lo-que-omite-el-nombre-del-modelo" title="Lo que omite el nombre del modelo">Lo que omite el nombre del modelo</a>
+  <a href="#lo-que-omite-el-nombre-del-modelo" class="h-anchor" aria-hidden="true" title="Lo que omite el nombre del modelo">#</a>
+</h2>
+<p><strong>El identificador del modelo</strong> selecciona el modelo solicitado. El proveedor ejecuta el servicio de inferencia, incluida su implementación, los límites de tokens y el analizador de llamadas a herramientas. Un benchmark del modelo no valida todos los servicios que alojan esos pesos.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Propiedad del endpoint</th>
+					<th>Qué comprobar<
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>32 GB de VRAM para Qwen 27B: guía de hardware de IA local para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><description>Guía práctica de octubre de 2026 para ejecutar un modelo Qwen 27B con 32 GB de memoria utilizable del acelerador. Compara GPU individuales, equipos con dos tarjetas, memoria unificada, tarjetas usadas de centros de datos, cómputo alquilado, soporte de software y límites de contexto completo.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Que el producto indique 32 GB no significa que haya 32 GB disponibles para una carga Qwen 27B.</strong> El sistema operativo, el tiempo de ejecución, la caché KV, el formato del modelo, los controladores y la distribución de las tarjetas cambian el resultado. Una tarjeta económica con capacidad suficiente aún puede perder por mucho en el procesamiento del prompt o en el tiempo de configuración.</p>
+<p><em>En octubre de 2026, compara la memoria utilizable y el trabajo completado por dólar, no solo la cifra de VRAM.</em></p>
+<p>Esta guía presenta formas prácticas de ejecutar un modelo Qwen 27B con calidad de 6 bits y una ventana de contexto amplia. Separa las especificaciones publicadas de los resultados de pruebas reportados, porque el resultado de tokens por segundo de una persona no es una propiedad universal de una GPU.</p>
+<h2 id="por-qué-el-objetivo-es-32-gb">
+  <a href="#por-qu%c3%a9-el-objetivo-es-32-gb" title="Por qué el objetivo es 32 GB">Por qué el objetivo es 32 GB</a>
+  <a href="#por-qu%c3%a9-el-objetivo-es-32-gb" class="h-anchor" aria-hidden="true" title="Por qué el objetivo es 32 GB">#</a>
+</h2>
+<p>El requisito de memoria empieza con los pesos. Un modelo denso de 27B lee el conjunto completo de parámetros durante la generación. Con cuantización de 6 bits, los pesos ocupan unos <strong>20,5 GB</strong> antes de añadir las asignaciones de tiempo de ejecución y la memoria de contexto.</p>
+<p>Un contexto de 128K tokens añade otra asignación grande. El tamaño exacto de la caché KV cambia según la arquitectura del modelo, la precisión de la caché, la configuración de lotes y el backend. Una estimación práctica cercana a <strong>8 GB</strong> sitúa la combinación de pesos y caché en unos <strong>28,5 GB</strong> antes de que el sistema operativo y el tiempo de ejecución de inferencia tomen su parte.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Configuración</th>
+					<th>Qué permite</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>GPU discreta de 24 GB</strong></td>
+					<td>Pesos de 4 bits con menos contexto, o descarga parcial</td>
+			</tr>
+			<tr>
+					<td><strong>GPU discreta de 32 GB</strong></td>
+					<td>Pesos de 6 bits con un objetivo útil de contexto 128K</td>
+			</tr>
+			<tr>
+					<td><strong>Dos GPU de 16 GB</strong></td>
+					<td>Modelo dividido con menos margen para el sobrecoste de ejecución</td>
+			</tr>
+			<tr>
+					<td><strong>64 GB de memoria unificada</strong></td>
+					<td>Más opci
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>El DGX Spark de 64 GB es una señal de advertencia para los precios del hardware de IA local</title><link>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><description>La versión de 64 GB del DGX Spark de NVIDIA muestra cómo la presión sobre el suministro de memoria está moldeando el hardware de IA local. Esta guía explica la reducción de capacidad, las concesiones de la memoria unificada y por qué el alivio de la DRAM es poco probable antes de finales de 2027.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>El DGX Spark de 64 GB es una señal del mercado para quienes compran IA local.</strong> Llega una configuración con menos memoria mientras la demanda de servidores de IA, HBM y DRAM convencional sigue alta. El cambio no demuestra que cada componente sea idéntico al sistema de 128 GB, pero muestra cómo los proveedores responden al coste, la disponibilidad y la segmentación del producto.</p>
+<p><em>Si necesitas un sistema de IA local con mucha memoria compartida, esperar una caída rápida de precios es un plan débil. Fija un presupuesto, sigue la capacidad de memoria por dólar y conserva una segunda ruta de hardware.</em></p>
+
+
+<h2 id="qué-cambió">
+  <a href="#qu%c3%a9-cambi%c3%b3" title="¿Qué cambió?">¿Qué cambió?</a>
+  <a href="#qu%c3%a9-cambi%c3%b3" class="h-anchor" aria-hidden="true" title="¿Qué cambió?">#</a>
+</h2>
+<p>El DGX Spark de 64 GB anunciado añade un nivel de menor capacidad al sistema compacto Grace Blackwell de NVIDIA. Tom&rsquo;s Hardware informa de un precio inicial de 4.999 dólares para la unidad de 64 GB y de 6.950 dólares para el modelo de 128 GB. Los dos niveles apuntan a presupuestos de memoria distintos, aunque conservan la misma familia general de producto y la plataforma GB10. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Tom&rsquo;s Hardware informa sobre el producto y sus precios">
+    <meta itemprop="url" content="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less">
+    <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Tom&rsquo;s Hardware informa sobre el producto y sus precios</a>
+</span>
+.</p>
+<p>La documentación de NVIDIA enumera la configurac
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Cómo desactivar el pago sin contacto en una tarjeta de crédito</title><link>https://es.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><description>Guía práctica para desactivar el pago sin contacto en una tarjeta de crédito de repuesto mientras mantienes disponibles los pagos con chip y banda magnética, con límites de seguridad y mejores alternativas.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p><strong>Una tarjeta sin contacto tiene una antena NFC independiente.</strong> Si guardas la tarjeta dentro de la funda del teléfono, la antena provoca conflictos entre tarjetas o alertas NFC repetidas en algunos teléfonos. Una interrupción física del circuito de la antena desactiva el pago con un toque, mientras el chip y la banda magnética siguen disponibles en algunas tarjetas.</p>
+<p><em>Usa una tarjeta de repuesto para este proyecto. Trata la modificación como permanente y confirma el resultado con el emisor antes de depender de ella.</em></p>
+<p><strong>No modifiques tu único método de pago.</strong> Las reglas del emisor, la construcción de la tarjeta y la compatibilidad de los terminales varían. Ten disponible una segunda tarjeta o efectivo mientras pruebas la tarjeta dañada.</p>
+<h2 id="por-qué-desactivar-el-pago-sin-contacto">
+  <a href="#por-qu%c3%a9-desactivar-el-pago-sin-contacto" title="¿Por qué desactivar el pago sin contacto?">¿Por qué desactivar el pago sin contacto?</a>
+  <a href="#por-qu%c3%a9-desactivar-el-pago-sin-contacto" class="h-anchor" aria-hidden="true" title="¿Por qué desactivar el pago sin contacto?">#</a>
+</h2>
+<p>Pagar con un toque resulta cómodo, y las billeteras móviles modernas añaden otro token de pago al mismo teléfono. El problema comienza cuando una tarjeta física con NFC queda cerca del lector NFC del teléfono.</p>
+<p>Dos instrumentos de pago podrían responder al mismo lector. Android también podría detectar la tarjeta física cuando abres o sostienes el teléfono. Sacar la tarjeta de la funda resuelve el problema, pero añade fricción cada vez que pagas.</p>
+<p>El objetivo es concreto: desactivar la interfaz sin contacto de la tarjeta y mantener disponibles los demás métodos de pago.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Método de pago</th>
+					<th>Resultado esperado después de romper la antena</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Pago sin contacto</strong></td>
+					<td>Desactivado porque el circuito de la antena NFC ya no se acopla a un lector</td>
+			</tr>
+			<tr>
+					<td><strong>Chip EMV</strong></td>
+					<td>Suele seguir disponible si el chip y sus contactos no sufren daños</td>
+			</tr>
+			<tr>
+					<td><strong>Banda magnética</strong></td>
+					<td>Suele seguir disponible si la banda no sufre daños</td>
+			</tr>
+			<tr>
+					<td><strong>Pagos con tarjeta en línea</strong></td>
+					<td>Normalmente no se ven afectados, pero el emisor podría reemplaz
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Capstone de colaboración con IA: GitHub, Confluence y Jira</title><link>https://es.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><description>Entrega un cambio sintético de retención mediante flujos GitHub-first y Confluence/Jira, con evidencia de fallos y revisión independiente.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Volver al curso de colaboración con IA">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >Volver al curso de colaboración con IA</a>
+</span>
+</p>
+<p><strong>Entrega PROP-042 dos veces</strong>, primero mediante GitHub-first y después mediante GitHub con Confluence y Jira. Tú contribuyes, propietarios separados revisan y las personas autorizadas para publicar aplican el cambio. Usa sandboxes sintéticos aislados después de las lecciones anteriores. El capstone prueba el procedimiento completo, incluido el rechazo, la recuperación y la transferencia independiente, no solo la calidad del texto del asistente.</p>
+<h2 id="ideas-principales">
+  <a href="#ideas-principales" title="Ideas principales">Ideas principales</a>
+  <a href="#ideas-principales" class="h-anchor" aria-hidden="true" title="Ideas principales">#</a>
+</h2>
+<ul>
+<li><strong>Un cambio compartido</strong> compara ambos modelos de autoridad.</li>
+<li><strong>Las pruebas negativas</strong> importan tanto como la entrega correcta.</li>
+<li><strong>Los paquetes de evidencia</strong> respaldan la revisión independiente.</li>
+<li><strong>Completar el laboratorio</strong> no autoriza el despliegue en producción.</li>
+</ul>
+<h2 id="antes-de-comenzar">
+  <a href="#antes-de-comenzar" title="Antes de comenzar">Antes de comenzar</a>
+  <a href="#antes-de-comenzar" class="h-anchor" aria-hidden="true" title="Antes de comenzar">#</a>
+</h2>
+<p><strong>Requisitos:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="módulos anteriores del curso">
+    <meta itemprop="url
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Colaboración de IA en GitHub: límites del repositorio y de la revisión</title><link>https://es.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><description>Crea un mapa de fuentes basado en GitHub, asigna propietarios de archivos y establece un límite de publicación protegido para contribuciones de IA revisadas.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Volver al curso de colaboración de IA">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >Volver al curso de colaboración de IA</a>
+</span>
+</p>
+<p><strong>El mantenedor crea el límite de publicación basado en GitHub</strong> después de aprobar el acta. Los requisitos, la configuración, la política y los procedimientos operativos viven en un repositorio desechable. Los colaboradores proponen cambios mediante Issues y pull requests. Tú defines dónde viven los hechos aprobados y bloqueas los cambios sin revisión antes de conectar agentes.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong><code>main</code> protegido</strong> es el límite de publicación.</li>
+<li><strong>Las Issues</strong> reúnen trabajo propuesto sin aprobar políticas.</li>
+<li><strong>CODEOWNERS</strong> asigna revisores elegibles para cada archivo.</li>
+<li><strong>Usuarios separados</strong> demuestran los controles de revisión y denegación.</li>
+</ul>
+<h2 id="antes-de-comenzar">
+  <a href="#antes-de-comenzar" title="Antes de comenzar">Antes de comenzar</a>
+  <a href="#antes-de-comenzar" class="h-anchor" aria-hidden="true" title="Antes de comenzar">#</a>
+</h2>
+<p><strong>Requisitos previos:</strong> la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="base del piloto">
+    <meta itemprop="url" content="/articles/ai-collaboration-pilot-foundation/">
+    <a href="/articles/ai-collaboration-pilo
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Flujo de trabajo de GitHub con IA para personas no programadoras: Issues y Pull Requests</title><link>https://es.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://es.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</guid><description>Usa ediciones desde el navegador, Issues, paquetes de contexto del chat y pull requests revisados sin un entorno de desarrollo local.</description><content:encoded><![CDATA[
+        
+            <img src="https://es.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/">Read the full article at https://es.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Volver al curso de colaboración con IA">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >Volver al curso de colaboración con IA</a>
+</span>
+</p>
+<p><strong>Los colaboradores que no programan usan las mismas reglas de autoridad desde el navegador.</strong> Lees fuentes de GitHub, redactas con una herramienta de chat aprobada y envías un Issue o una edición de rama. El mantenedor ejecuta las comprobaciones y publica después de revisar. Usa este flujo después de activar la protección del repositorio, para que el acceso desde el navegador no omita los controles del agente de código.</p>
+<h2 id="puntos-clave">
+  <a href="#puntos-clave" title="Puntos clave">Puntos clave</a>
+  <a href="#puntos-clave" class="h-anchor" aria-hidden="true" title="Puntos clave">#</a>
+</h2>
+<ul>
+<li><strong>Trabajo desde el navegador</strong> sin terminal local.</li>
+<li><strong>Paquetes de contexto</strong> que conservan el alcance y la evidencia de revisión.</li>
+<li><strong>Issues y ramas</strong> que siguen siendo propuestas.</li>
+<li><strong>Entregas</strong> que identifican el trabajo pendiente y el siguiente rol.</li>
+</ul>
+<h2 id="antes-de-empezar">
+  <a href="#antes-de-empezar" title="Antes de empezar">Antes de empezar</a>
+  <a href="#antes-de-empezar" class="h-anchor" aria-hidden="true" title="Antes de empezar">#</a>
+</h2>
+<p><strong>Requisitos:</strong> la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="lección sobre los límites del repositorio">
+    <meta itemprop="url" content="/articles/ai-collaboration-github-repository/">
+  
+
+        <br>
+        <a href="https://es.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/">Read More at https://es.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
