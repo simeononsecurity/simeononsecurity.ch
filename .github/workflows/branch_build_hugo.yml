@@ -2,68 +2,156 @@ name: Branch Build Hugo (matrix)
 
 on:
   workflow_dispatch:
+    inputs:
+      languages:
+        description: "Comma-separated languages to build (e.g. de,fr). Empty = all 16."
+        required: false
+        default: ""
   push:
     branches:
       - master
+    # A push rebuilds only the languages it touches (see the detect job). Each
+    # language L is triggered by its own content, i18n file, or language config.
+    # Shared files (layouts/, static/, themes/, config/_default/) are
+    # intentionally NOT listed: changing them did not trigger a language build
+    # before this change, and that behaviour is preserved. Flagged for the owner
+    # in the handoff as a decision to confirm.
     paths:
-      - "!contents/**" # Exclude the contents folder
-      - "!github/**" # Exclude the .github folder
-      - "!git/**" # Exclude the .git folder
-      # Union of the per-language include globs that previously each lived in
-      # branch_build_hugo_<lang>.yml. Any one language's content change now
-      # triggers the single workflow, whose matrix rebuilds every language.
-      - "contents/**/*.ar.md"
-      - "index.ar.md"
-      - "**/index.ar.md"
-      - "contents/**/*.bn.md"
-      - "index.bn.md"
-      - "**/index.bn.md"
-      - "contents/**/*.ca.md"
-      - "index.ca.md"
-      - "**/index.ca.md"
-      - "contents/**/*.de.md"
-      - "index.de.md"
-      - "**/index.de.md"
-      - "contents/**/*.es.md"
-      - "index.es.md"
-      - "**/index.es.md"
-      - "contents/**/*.fr.md"
-      - "index.fr.md"
-      - "**/index.fr.md"
-      - "contents/**/*.hi.md"
-      - "index.hi.md"
-      - "**/index.hi.md"
-      - "contents/**/*.it.md"
-      - "index.it.md"
-      - "**/index.it.md"
-      - "contents/**/*.ja.md"
-      - "index.ja.md"
-      - "**/index.ja.md"
-      - "contents/**/*.nl.md"
-      - "index.nl.md"
-      - "**/index.nl.md"
-      - "contents/**/*.pa.md"
-      - "index.pa.md"
-      - "**/index.pa.md"
-      - "contents/**/*.pl.md"
-      - "index.pl.md"
-      - "**/index.pl.md"
-      - "contents/**/*.pt.md"
-      - "index.pt.md"
-      - "**/index.pt.md"
-      - "contents/**/*.ro.md"
-      - "index.ro.md"
-      - "**/index.ro.md"
-      - "contents/**/*.ru.md"
-      - "index.ru.md"
-      - "**/index.ru.md"
-      - "contents/**/*.zh.md"
-      - "index.zh.md"
-      - "**/index.zh.md"
-      - "bump.md"
+      - "content/**/*.ar.md"
+      - "i18n/ar.yaml"
+      - "config/language/ar/**"
+      - "content/**/*.bn.md"
+      - "i18n/bn.yaml"
+      - "config/language/bn/**"
+      - "content/**/*.ca.md"
+      - "i18n/ca.yaml"
+      - "config/language/ca/**"
+      - "content/**/*.de.md"
+      - "i18n/de.yaml"
+      - "config/language/de/**"
+      - "content/**/*.es.md"
+      - "i18n/es.yaml"
+      - "config/language/es/**"
+      - "content/**/*.fr.md"
+      - "i18n/fr.yaml"
+      - "config/language/fr/**"
+      - "content/**/*.hi.md"
+      - "i18n/hi.yaml"
+      - "config/language/hi/**"
+      - "content/**/*.it.md"
+      - "i18n/it.yaml"
+      - "config/language/it/**"
+      - "content/**/*.ja.md"
+      - "i18n/ja.yaml"
+      - "config/language/ja/**"
+      - "content/**/*.nl.md"
+      - "i18n/nl.yaml"
+      - "config/language/nl/**"
+      - "content/**/*.pa.md"
+      - "i18n/pa.yaml"
+      - "config/language/pa/**"
+      - "content/**/*.pl.md"
+      - "i18n/pl.yaml"
+      - "config/language/pl/**"
+      - "content/**/*.pt.md"
+      - "i18n/pt.yaml"
+      - "config/language/pt/**"
+      - "content/**/*.ro.md"
+      - "i18n/ro.yaml"
+      - "config/language/ro/**"
+      - "content/**/*.ru.md"
+      - "i18n/ru.yaml"
+      - "config/language/ru/**"
+      - "content/**/*.zh.md"
+      - "i18n/zh.yaml"
+      - "config/language/zh/**"
 
 jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      languages: ${{ steps.detect.outputs.languages }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          # Full history so `git diff <before>..<sha>` and the force-push
+          # fallback (git cat-file -e) resolve the before commit.
+          fetch-depth: 0
+
+      - name: Detect changed languages
+        id: detect
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+          LANGUAGES_INPUT: ${{ github.event.inputs.languages }}
+        run: |
+          # This block is kept identical to .research/detect_languages.sh
+          # (verified by diff). See that file for local test instructions.
+          # >>> DETECT-LOGIC BEGIN (keep identical to branch_build_hugo.yml detect step)
+          ALL_LANGS="ar bn ca de es fr hi it ja nl pa pl pt ro ru zh"
+          ZERO="0000000000000000000000000000000000000000"
+
+          # Emit the given language codes as a JSON array, keeping only known languages
+          # and ordering them by ALL_LANGS (deduplicated). Empty -> [].
+          to_json() {
+            local want="$1" first=1 out="["
+            for l in $ALL_LANGS; do
+              case " $want " in
+                *" $l "*)
+                  if [ "$first" -eq 1 ]; then first=0; else out="$out,"; fi
+                  out="$out\"$l\"" ;;
+              esac
+            done
+            printf '%s]' "$out"
+          }
+
+          selected=""
+          if [ "${EVENT_NAME:-}" = "workflow_dispatch" ]; then
+            # Manual run: optional comma-separated `languages` input; empty means all.
+            if [ -n "${LANGUAGES_INPUT:-}" ]; then
+              selected="$(printf '%s' "$LANGUAGES_INPUT" | tr ',' ' ')"
+            else
+              selected="$ALL_LANGS"
+            fi
+          elif [ -z "${BEFORE:-}" ] || [ "${BEFORE:-}" = "$ZERO" ]; then
+            # New branch / first push: no usable diff base, rebuild everything.
+            selected="$ALL_LANGS"
+          elif ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            # Force push rewrote history; the before commit is absent from the clone.
+            selected="$ALL_LANGS"
+          else
+            changed="$(git diff --name-only "$BEFORE" "$SHA")"
+            langs=""
+            while IFS= read -r f; do
+              [ -z "$f" ] && continue
+              for l in $ALL_LANGS; do
+                # $l is a fixed lowercase language code (no glob metachars); the glob in
+                # the pattern is intentional (content/* spans any depth).
+                # shellcheck disable=SC2254
+                case "$f" in
+                  content/*.$l.md)      langs="$langs $l" ;;
+                  i18n/$l.yaml)         langs="$langs $l" ;;
+                  config/language/$l/*) langs="$langs $l" ;;
+                esac
+              done
+            done <<EOF
+          $changed
+          EOF
+            selected="$langs"
+          fi
+
+          languages="$(to_json "$selected")"
+          echo "languages=$languages"
+          if [ -n "${GITHUB_OUTPUT:-}" ]; then
+            echo "languages=$languages" >> "$GITHUB_OUTPUT"
+          fi
+          # <<< DETECT-LOGIC END
+
   build:
+    needs: detect
+    if: needs.detect.outputs.languages != '[]'
     runs-on: ubuntu-latest
 
     strategy:
@@ -73,7 +161,7 @@ jobs:
       # is intentionally NOT set so the concurrency behaviour is unchanged.
       fail-fast: false
       matrix:
-        language: [ar, bn, ca, de, es, fr, hi, it, ja, nl, pa, pl, pt, ro, ru, zh]
+        language: ${{ fromJSON(needs.detect.outputs.languages) }}
 
     steps:
       - name: Check out repository
