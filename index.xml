@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://ro.simeononsecurity.com/</link></image><link>https://ro.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti vs GB10: De ce 32 GB de VRAM pierd în fața a 128 GB de memorie unificată</title><link>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "AI local"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware pentru computere"</category><guid>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparație bazată pe benchmarkuri între două plăci RTX 5060 Ti de 16 GB și un sistem NVIDIA GB10 pentru Qwen 3 27B și inferență locală cu context lung.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Boomul infrastructurii AI în 2026: cerere, datorii, energie și dovezi</title><link>https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Economia AI"
+, "Centre de date"
+, "Infrastructură cloud"
+, "Securitate cibernetică"</category><guid>https://ro.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+O analiză verificată factual a cheltuielilor pentru infrastructura AI, consumului de electricitate al centrelor de date, structurilor de finanțare, valorii întreprinderilor și dovezilor necesare înainte de a numi piața o bulă.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>Confidențialitatea AI local: ce rămâne pe computer și ce nu</title><link>https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Confidențialitate"
+, "Self-Hosted AI"
+, "Securitate cibernetică"
+, "Economia AI"</category><guid>https://ro.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Urmărește prompturile, fișierele modelelor, instrumentele, logurile, expunerea rețelei și costurile energiei înainte de a alege inferență locală sau un serviciu AI găzduit.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Este suficientă memoria VRAM de 16 GB pentru lucrul serios cu un LLM local?</title><link>https://ro.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware pentru computere"
+, "AI găzduit propriu"</category><guid>https://ro.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensionează un sistem LLM local de 16 GB în funcție de greutățile modelului, memoria cache KV și procesarea promptului. Compară bugetele de memorie Qwen3.8 27B, lățimea de bandă GPU și costurile de deținere.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>10 pluginuri, skill-uri și instrumente MCP pentru Claude Code: ghid practic</title><link>https://ro.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Instrumente pentru dezvoltatori"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alege extensii Claude Code pentru planificare, revizuirea codului, gestionarea cunoștințelor, design și automatizare. Compară zece instrumente, dependențe și verificări practice.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>9 proiecte AI Agent Skill pentru cercetare, design și dezvoltare</title><link>https://ro.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Instrumente pentru dezvoltatori"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară nouă proiecte de agent skills după fluxul de lucru, suportul pentru host, dependențe și cost. Învață să instalezi, inspectezi și testezi skills de care ai nevoie.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>AI locală vs ChatGPT: cât de aproape suntem?</title><link>https://ro.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI locală"
+, "Inteligență artificială"
+, "Hardware AI"
+, "Instrumente pentru dezvoltatori"</category><guid>https://ro.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară AI locală cu ChatGPT și Claude prin scoruri de benchmark, estimări de memorie, viteză de servire și verificarea agenților. Include RTX 5090, DGX Spark și Mac Studio.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Ce model AI local ar trebui să rulezi? Ghid GPU, context și programare pentru octombrie 2026</title><link>https://ro.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware AI"
+, "AI self-hosted"
+, "Benchmarking GPU"
+, "Instrumente pentru dezvoltatori"
+, "Economia AI"</category><guid>https://ro.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un ghid practic din octombrie 2026 pentru alegerea modelelor AI locale destinate agenților de programare. Compară memoria GPU, creșterea KV cache, dimensiunea contextului, calitatea cuantizării, procesarea prompturilor, setările de raționament și costurile închirierii în cloud.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Cele mai bune harness-uri pentru agenți AI în 2026: alege după fluxul de lucru</title><link>https://ro.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Dezvoltare software"
+, "Securitate AI"</category><guid>https://ro.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi și LangGraph după execuția instrumentelor, memorie, recuperare și efort de integrare.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/ai-agent-execution-components.webp" length="228402" type="image/webp"/></item><item><title>Claude Code CLI versus Desktop: comparația fluxului de lucru din 2026</title><link>https://ro.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Instrumente pentru dezvoltatori"
+, "Inteligență artificială"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară Claude Code în terminal și în spațiul de lucru Code pentru desktop, cu setări comune, transferul sesiunii, scripturi, verificare vizuală și alegeri de permisiuni.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Codex CLI versus Desktop: comparația fluxului de lucru din 2026</title><link>https://ro.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Instrumente pentru dezvoltatori"
+, "Inteligență artificială"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Alege între Codex în terminal și spațiul desktop de programare OpenAI. Compară scripturile, worktree-urile, revizuirea vizuală, programările și mediile de execuție.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>Comparația agenților de codare CLI: Claude Code, Codex, Gemini, OpenCode, Copilot și Aider</title><link>https://ro.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Instrumente pentru dezvoltatori"
+, "Inteligență artificială"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară șase agenți de codare în terminal după flux de lucru, automatizare, acces la modele, permisiuni și efort de revizuire. Creează o listă scurtă printr-un test repetabil în repository.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Comparația agenților de programare GUI: Cursor, Windsurf, Cline, Copilot și Continue</title><link>https://ro.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Instrumente pentru dezvoltatori"
+, "Inteligență artificială"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară agenții grafici de programare, separă editorii compleți de extensii și examinează închiderea Roo Code, accesul la modele, aprobările și fluxurile de revizuire.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>GitHub Copilot CLI versus VS Code: comparația fluxului de lucru din 2026</title><link>https://ro.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Instrumente pentru dezvoltatori"
+, "Inteligență artificială"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară agentul Copilot din terminal cu experiența sa în VS Code, inclusiv contextul editorului, diferențele vizuale, modul Agent, integrarea CLI și politicile contului.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>Modelele lingvistice de context ale Meta: memorie mai bună pentru agenți, nu sfârșitul halucinațiilor</title><link>https://ro.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Agenți AI"
+, "AI local"
+, "Securitate AI"</category><guid>https://ro.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cum editează Context Language Models memoria agenților, ce arată benchmarkurile și cum afectează fiabilitatea costurile cache-ului, capacitatea modelului și notițele neverificate.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>OpenCode CLI versus Desktop: comparația fluxului de lucru din 2026</title><link>https://ro.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Instrumente pentru dezvoltatori"
+, "Inteligență artificială"
+, "Dezvoltare software"</category><guid>https://ro.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară clienții terminal și desktop OpenCode prin arhitectura serverului, configurarea furnizorului, scripturi, starea sesiunii și depanare.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode față de Claude Code: comparația agenților de programare în 2026</title><link>https://ro.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Instrumente pentru dezvoltatori"
+, "Inteligență artificială"
+, "Sursă deschisă"</category><guid>https://ro.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară OpenCode și Claude Code pentru alegerea modelelor, inferența locală, prețuri, permisiuni, instrucțiuni de proiect și fluxuri zilnice de programare.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Programare locală cu AI pe un GPU de 16 GB: Strata, OpenCode și Qwen3.8</title><link>https://ro.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Instrumente pentru dezvoltatori"
+, "AI găzduit local"
+, "Hardware AI"</category><guid>https://ro.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rulează un agent local de programare cu Strata și OpenCode. Analizează rezultatele raportate pe RTX 4060 Ti, necesarul de RAM, reutilizarea promptului, bugetele de raționament și limitele înlocuirii unui abonament plătit.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Rutarea furnizorilor OpenRouter: calitatea modelului, limitele tokenurilor și costurile reale</title><link>https://ro.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Infrastructură"
+, "Open Source"</category><guid>https://ro.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnostichează răspunsurile inconsistente OpenRouter, compară limitele endpointurilor și costurile cache-ului și configurează rutarea furnizorilor fără să dezactivezi accidental controalele de calitate.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>32 GB VRAM pentru Qwen 27B: ghid de hardware pentru AI local în octombrie 2026</title><link>https://ro.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware AI"
+, "Benchmarking GPU"
+, "AI auto-găzduit"
+, "Hardware de computer"
+, "Economia AI"</category><guid>https://ro.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un ghid practic pentru octombrie 2026 despre rularea unui model Qwen 27B cu 32 GB de memorie utilă a acceleratorului. Compară GPU-uri individuale, sisteme cu două plăci, memorie unificată, plăci de centru de date second-hand, calcul închiriat, suport software și limitele contextului complet.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>DGX Spark de 64GB este un semnal de avertizare pentru prețurile hardware-ului AI local</title><link>https://ro.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware AI"
+, "Semiconductori"
+, "Hardware de calculator"
+, "Economia AI"
+, "AI auto-găzduit"</category><guid>https://ro.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Nivelul de 64GB al NVIDIA DGX Spark arată cum presiunea asupra memoriei modelează hardware-ul AI local. Acest ghid explică reducerea capacității, compromisurile memoriei unificate și motivele pentru care o relaxare a pieței DRAM este puțin probabilă înainte de sfârșitul lui 2027.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Cum să dezactivezi plata contactless pe un card de credit</title><link>https://ro.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Securitatea plăților"
+, "Confidențialitate digitală"
+, "NFC"
+, "Securitate personală"
+, "Tehnologie pentru consumatori"</category><guid>https://ro.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un ghid practic pentru dezactivarea plății contactless pe un card de credit de rezervă, păstrând disponibile plățile prin cip și bandă magnetică, cu limite de siguranță și alternative mai bune.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp"/></item><item><title>Capstone de colaborare AI: GitHub, Confluence și Jira</title><link>https://ro.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Colaborare în echipă"
+, "Inginerie software"</category><guid>https://ro.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Livrează o modificare sintetică de retenție prin fluxuri GitHub-first și Confluence/Jira, cu dovezi de eșec și evaluare independentă.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Pilot de guvernanță pentru agenți AI: cartă, autoritate și teste</title><link>https://ro.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Colaborare în echipă"
+, "Inginerie software"</category><guid>https://ro.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Definește rolurile pilotului, sursele autorizate, șabloanele de politici și testele de acceptare înainte de conectarea instrumentelor AI.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Which AI Models Can Run on a Raspberry Pi 4 or 5?</title><link>https://ro.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Artificial Intelligence"
+, "Self Hosting"</category><guid>https://ro.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Use measured Raspberry Pi 4 and 5 results to choose local language models by memory, speed, and workload, from tiny LFM2.5 models to 3B and larger options.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item></channel></rss>
