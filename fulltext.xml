@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://bn.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>bn</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>২০২৬ সালে এআই অবকাঠামোর উত্থান: চাহিদা, ঋণ, বিদ্যুৎ ও প্রমাণ</title><link>https://bn.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>এআই অবকাঠামোতে ব্যয়, ডেটা সেন্টারের বিদ্যুৎ চাহিদা, অর্থায়ন কাঠামো, প্রতিষ্ঠানের মূল্য এবং বাজারকে বুদবুদ বলার আগে প্রয়োজনীয় প্রমাণের তথ্যভিত্তিক পর্যালোচনা।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>এআই অবকাঠামো এমন গতিতে বাড়ছে, যার সঙ্গে খুব কম প্রযুক্তি বাজারের তুলনা হয়।</strong> ব্যয় বাস্তব। বিদ্যুৎ চাহিদা বাস্তব। অর্থায়নের ঝুঁকি বাস্তব। লাভের নিশ্চয়তা কম।</p>
+<p>উপকারী প্রশ্নটি এআই আছে কি না, তা নয়। উপকারী প্রশ্নটি হলো ভবিষ্যৎ আয় এবং উৎপাদনশীলতার লাভ কি এই সম্প্রসারণকে বহন করা হার্ডওয়্যার, ডেটা সেন্টার, বিদ্যুৎ চুক্তি, লিজ ও ঋণকে ন্যায্যতা দেবে কি না।</p>
+<p>এই নিবন্ধে এআই বুদবুদ নিয়ে বিতর্কের পেছনের প্রকাশ্য প্রমাণ পরীক্ষা করা হয়েছে। পূর্বাভাসকে পূর্বাভাস হিসেবেই চিহ্নিত করা হয়েছে। কোম্পানির দাবি স্বাধীন গবেষণা থেকে আলাদা রাখা হয়েছে। ফলাফল আসন্ন পতন প্রমাণ করে না। এটি আর্থিক ও পরিচালনাগত চাপ কোথায় রয়েছে, তা দেখায়।</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style sco
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti বনাম GB10: কেন 32 GB VRAM, 128 GB ইউনিফায়েড মেমরির কাছে হারে</title><link>https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Qwen 3 27B এবং দীর্ঘ-কনটেক্সট স্থানীয় ইনফারেন্সের জন্য দুটি 16 GB RTX 5060 Ti কার্ড ও একটি NVIDIA GB10 সিস্টেমের বেঞ্চমার্ক-ভিত্তিক তুলনা।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>16 GB-এর দুটি RTX 5060 Ti একটি পার্টস তালিকায় আকর্ষণীয় দেখায়।</strong> এগুলো মোট 32 GB VRAM এবং ছোট কনটেক্সটে দ্রুত প্রম্পট প্রসেসিং দেয়। 27B মডেল দীর্ঘ কনটেক্সটে চালালে তুলনাটি বদলে যায়।</p>
+<p>NVIDIA GB10 সিস্টেম 128 GB সমন্বিত ইউনিফায়েড মেমরি ব্যবহার করে। NVIDIA GB10 প্ল্যাটফর্মের জন্য 128 GB LPDDR5x ইউনিফায়েড মেমরি এবং 140 W চিপ TDP উল্লেখ করে। RTX 5060 Ti প্রতি কার্ডে 16 GB GDDR7, 128-বিট মেমরি ইন্টারফেস এবং 180 W মোট গ্রাফিক্স পাওয়ার ব্যবহার করে। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="NVIDIA RTX 5060 Ti-এর স্পেসিফিকেশন">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >NVIDIA RTX 5060 Ti-এর স্পেসিফিকেশন</a>
+</span>
+ এবং 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="NVIDIA GB10-এর স্পেসিফিকেশন">
+    <me
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>স্থানীয় AI গোপনীয়তা: আপনার কম্পিউটারে কী থাকে এবং কী থাকে না</title><link>https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><description>স্থানীয় inference বা hosted AI service বেছে নেওয়ার আগে prompt, model file, tool, log, network exposure এবং বিদ্যুৎ খরচ অনুসরণ করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>স্থানীয় AI আপনার data boundary ছোট করে।</strong> Model, tool, log এবং network path local থাকলে local runtime-এ process করা prompt আপনার device-এই থাকে। Local GPU একটি computer-কে sealed system বানায় না।</p>
+<p>Model runtime, tool plugin, browser extension, remote access, exposed API এবং model download আপনার risk নির্ধারণ করে। Cost-ও গুরুত্বপূর্ণ। Electricity hosted token price-এর নিচে থাকতে পারে, কিন্তু hardware ownership পূর্ণ break-even অনেক দূরে ঠেলে দেয়।</p>
+<p>এই guide আগে privacy boundary map করে। এরপর current vendor price, একটি স্পষ্ট power assumption এবং supplied video-র reported figure দিয়ে cost পরীক্ষা করে।</p>
+<p>নিচের formula বোঝার জন্য এই local-versus-hosted cost comparison ব্যবহার করুন। একই model file এবং runtime আপনার hardware-এ test না করে throughput figure কপি করবেন না।</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>গুরুতর স্থানীয় LLM কাজের জন্য 16GB VRAM কি যথেষ্ট?</title><link>https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><description>মডেল ওজন, KV cache এবং prompt processing অনুযায়ী 16GB স্থানীয় LLM সেটআপের আকার নির্ধারণ করুন। Qwen3.8 27B memory budget, GPU bandwidth এবং ownership cost তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p>আপনার model, context এবং runtime একসঙ্গে ফিট হলে 16GB dedicated GPU memory গুরুতর স্থানীয় LLM কাজ সমর্থন করে। Weights load হওয়া প্রথম শর্ত পূরণ করে মাত্র। কার্যকর সেটআপে চলমান conversation-এর জন্য যথেষ্ট memory এবং কাজ শেষ করার মতো speed দরকার।</p>
+<p>একজন ব্যবহারকারীর coding বা document workflow-এর বাজেট বোঝাতে Qwen3.8 27B-এর worked example ব্যবহার করুন। কাজের প্রয়োজনীয় context দিয়ে শুরু করুন, তারপর বাকি memory-তে ফিট করে এমন weights এবং runtime setting বেছে নিন। Hardware specification এবং model source 7 October 2026-এ পরীক্ষা করা হয়েছে।</p>
+<h2 id="পরধন-বষয">
+  <a href="#%e0%a6%aa%e0%a6%b0%e0%a6%a7%e0%a6%a8-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="প্রধান বিষয়">প্রধান বিষয়</a>
+  <a href="#%e0%a6%aa%e0%a6%b0%e0%a6%a7%e0%a6%a8-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="প্রধান বিষয়">#</a>
+</h2>
+<ul>
+<li>Quantization বেছে নেওয়ার আগে context-এর জন্য memory রাখুন।</li>
+<li>Output speed থেকে prompt processing আলাদা করে মাপুন।</li>
+<li>অব্যবহৃত vision support বন্ধ করুন এবং 8-bit KV cache পরীক্ষা করুন।</li>
+<li>নির্দিষ্ট GPU, backend, model file এবং prompt length তুলনা করুন।</li>
+<li>আপনার workload এবং provider bill থেকে ownership saving হিসাব করুন।</li>
+</ul>
+<p>এই budgeting exercise-এর জন্য runtime memory log, exact model filename এবং একটি representative task দরকার। Setup ও result record করতে প্রায় 20 মিনিট রাখুন, inference time বাদে। Difficulty intermediate।</p>
+<h2 id="কজর-সঙগ-memory-মলয-নন">
+  <a href="#%e0%a6%95%e0%a6%9c%e0%a6%b0-%e0%a6%b8%e0%a6%99%e0%a6%97-memory-%e0%a6%ae%e0%a6%b2%e0%a6%af-%e0%a
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>16GB GPU-তে লোকাল AI কোডিং: Strata, OpenCode এবং Qwen3.8</title><link>https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><description>Strata এবং OpenCode দিয়ে একটি লোকাল কোডিং এজেন্ট চালান। প্রকাশিত RTX 4060 Ti ফলাফল, RAM প্রয়োজনীয়তা, প্রম্পট পুনর্ব্যবহার, reasoning বাজেট এবং পেইড সাবস্ক্রিপশন বদলানোর সীমা পরীক্ষা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>16GB GPU-তে লোকাল কোডিং এজেন্ট সীমিত উন্নয়ন কাজের জন্য ব্যবহারযোগ্য বিকল্প।</strong> Strata এবং OpenCode লোকাল inference-এর সঙ্গে ফাইল সম্পাদনা, shell command এবং test execution যুক্ত করে। RTX 4060 Ti-তে চালানো প্রকাশিত Qwen3.8-Flash-Next একটি application, পরের পরিবর্তন এবং racing-game prototype paid inference call ছাড়াই সম্পূর্ণ করেছে।</p>
+<p><strong>সাবস্ক্রিপশন বদলাতে আরও বিস্তৃত পরীক্ষা দরকার।</strong> প্রকাশিত ফলাফল একটি মেশিনে কাজ করা setup দেখায়। এগুলো ভাষা, repository বা কঠিন debugging task জুড়ে paid coding service-এর সমতা প্রমাণ করে না। হার্ডওয়্যারে 64GB system RAM-ও আছে, যা model-এর বড় অংশ বহন করে।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>16GB GPU memory বোঝায়</strong>, প্রকাশিত configuration-এর জন্য দরকারি মোট memory নয়।</li>
+<li><strong>Prompt reuse গুরুত্বপূর্ণ</strong>, কারণ coding agent বারবার overlap করা conversation history পাঠায়।</li>
+<li><strong>Reasoning-এর বাজেট দরকার</strong>, যাতে planning code ও tool call-এর জন্য জায়গা রাখে।</li>
+<li><strong>Generated test পাস করা আংশিক প্রমাণ</strong>, Docker ও gameplay-এর জন্য আলাদা check দরকার।</li>
+<li><strong>শূন্য API খরচ ownership cost বাদ দেয়</strong>, electricity ও maintenance time-সহ।</li>
+</ul>
+<p><strong>প্রয়োজনীয়তা:</strong> একটি compatible computer, নির্বাচ
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>২০২৬ সালের সেরা AI এজেন্ট হারনেস: কাজের ধরন অনুযায়ী বেছে নিন</title><link>https://bn.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><description>টুল এক্সিকিউশন, মেমরি, পুনরুদ্ধার এবং ইন্টিগ্রেশন প্রচেষ্টার ভিত্তিতে Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi এবং LangGraph তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/ai-agent-execution-components.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>কনফিগারযোগ্য মডেল ও বিল্ট-ইন কনটেক্সট ম্যানেজমেন্টসহ সাধারণ কাজের এজেন্টের জন্য Deep Agents আমার প্রথম পছন্দ।</strong> Claude Code-এর এক্সিকিউশন আচরণ অ্যাপ্লিকেশনে বসাতে Claude Agent SDK উপযুক্ত। অ্যাপ্লিকেশন-নির্দিষ্ট এজেন্টের জন্য OpenAI Agents SDK এবং Pydantic AI পরীক্ষা করা উচিত। Pi একটি ছোট এক্সটেনসিবল কোরকে অগ্রাধিকার দেয়, আর LangGraph স্পষ্ট ওয়ার্কফ্লো নিয়ন্ত্রণকে অগ্রাধিকার দেয়।</p>
+<p><strong>সেরা পছন্দ নির্ভর করে আপনি কোন কাজ গ্রহণ করবেন তার ওপর।</strong> গবেষণা সহকারী, রিপোজিটরি এডিটর এবং গ্রাহকের অনুরোধ প্রক্রিয়াকরণকারী সার্ভিসের জন্য আলাদা টুল ও পুনরুদ্ধার নিয়ম লাগে। এগুলো ১০ অক্টোবর ২০২৬ তারিখে পরীক্ষা করা অফিসিয়াল ডকুমেন্টেশনভিত্তিক সম্পাদকীয় মতামত, হাতে-কলমে পারফরম্যান্স বেঞ্চমার্কের ফল নয়।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>আগে abstraction বেছে নিন:</strong> assembled agent, application SDK, অথবা workflow runtime।</li>
+<li><strong>এক্সিকিউশন সীমা পরীক্ষা করুন:</strong> টুল অনুমোদন, ফাইলসিস্টেম আইসোলেশন এবং নেটওয়ার্ক নীতি আলাদা সমস্যা
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Code CLI বনাম Desktop: ২০২৬ সালের ওয়ার্কফ্লো তুলনা</title><link>https://bn.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><description>টার্মিনাল এবং ডেস্কটপ Code ওয়ার্কস্পেসে Claude Code তুলনা করুন। শেয়ার করা সেটিংস, সেশন হ্যান্ডঅফ, স্ক্রিপ্টিং, ভিজ্যুয়াল রিভিউ এবং অনুমতি পছন্দ এতে রয়েছে।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>Claude Code CLI এবং Desktop</strong> Anthropic-এর কোডিং এজেন্ট পরিচালনার দুটি উপায় দেয়। CLI শেল ওয়ার্কফ্লো এবং প্রোগ্রামেটিক কলের জন্য উপযোগী। Desktop কথোপকথনের পাশে ফাইল পরিবর্তন ও রিভিউ দেখানো দৃশ্যমান প্রজেক্ট ওয়ার্কস্পেস দেয়।</p>
+<p><strong>এই তুলনা ডেস্কটপ কোডিং ওয়ার্কস্পেস নিয়ে।</strong> Anthropic-এর 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ডেস্কটপ কুইক স্টার্ট">
+    <meta itemprop="url" content="https://code.claude.com/docs/en/desktop-quickstart">
+    <a href="https://code.claude.com/docs/en/desktop-quickstart"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >ডেস্কটপ কুইক স্টার্ট</a>
+</span>
+-এ একে Code ট্যাব বলা হয়েছে। সাধারণ চ্যাট এবং অন্য ডেস্কটপ ওয়ার্কফ্লো এর বাইরে। রিপোজিটরি অ্যাক্সেস ও কনফিগারেশন যাচাইয়ে এই পার্থক্য গুরুত্বপূর্ণ।</p>
+<h2 id="মল-বষয়">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a7%9f" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a7%9f" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>স্ক্রিপ্ট, পাইপ করা ইনপুট এবং টার্মিনাল-কেন্দ্রিক কাজের জন্য CLI ব্যবহার করুন।</strong></li>
+<li><strong>গ্র
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Code-এর ১০টি প্লাগইন, স্কিল ও MCP টুল: ব্যবহারিক নির্দেশিকা</title><link>https://bn.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><description>পরিকল্পনা, কোড পর্যালোচনা, জ্ঞান ব্যবস্থাপনা, ডিজাইন ও অটোমেশনের জন্য Claude Code এক্সটেনশন বেছে নিন। দশটি টুল, নির্ভরতা ও ব্যবহারিক পরীক্ষা তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>আপনার কর্মপ্রবাহের নির্দিষ্ট সমস্যাকে ঘিরে Claude Code এক্সটেনশন বেছে নিন।</strong> অস্পষ্ট প্রয়োজনের জন্য পরিকল্পনা আলোচনা দরকার। বাদ পড়া ত্রুটির জন্য পর্যালোচনা ও পরীক্ষা দরকার। বারবার গবেষণার জন্য অনুসরণযোগ্য উৎস দরকার। দায়িত্ব পরিষ্কার থাকলেই বেশি টুল উপকার করে।</p>
+<p>এই নির্দেশিকায় এসব কাজের জন্য <strong>দশটি প্রকল্প</strong> তুলনা করা হয়েছে। এতে সেটআপের উদাহরণ এবং একটি সম্পূর্ণ মূল্যায়ন অনুশীলন আছে। বিশ্লেষণটি বর্তমান প্রকল্পের ডকুমেন্টেশন এবং দেওয়া Chase AI ভিডিও থেকে নেওয়া। সুপারিশ সম্পাদনাগত মতামত। এগুলো হাতে-কলমে কর্মক্ষমতার মাপ বা দশগুণ উৎপাদনশীলতার প্রমাণ নয়।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>আউটপুট দেখে বাছুন:</strong> পর্যালোচিত পরিকল্পনা, কোড ম্যাপ এবং তৈরি ছবি আলাদা টুল চায়।</li>
+<li><strong>ইনস্টলেশনের স্তর আলাদা রাখুন:</strong> নির্দেশনা, এক্সিকিউটেবল প্রোগ্রাম, প্লাগইন এবং সার্ভিস সংযোগের নির্ভরতা আলাদা।</li>
+<li><strong>বর্তমান নাম পরীক্ষা করুন:</strong> Graphify এবং grill-me-codex এ
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CLI কোডিং এজেন্ট তুলনা: Claude Code, Codex, Gemini, OpenCode, Copilot এবং Aider</title><link>https://bn.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><description>কাজের ধারা, অটোমেশন, মডেল অ্যাক্সেস, অনুমতি এবং রিভিউ প্রচেষ্টার ভিত্তিতে ছয়টি টার্মিনাল কোডিং এজেন্ট তুলনা করুন। পুনরাবৃত্তিযোগ্য repository পরীক্ষায় একটি সংক্ষিপ্ত তালিকা তৈরি করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>টার্মিনাল কোডিং এজেন্টগুলোর</strong> ইন্টারফেস পরিচিত হলেও context সংগ্রহ, ফাইল সম্পাদনা, অনুমতি চাওয়া এবং script-এ সংযোগের পদ্ধতি আলাদা। এই গাইডে Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI এবং Aider তুলনা করা হয়েছে। প্রতিটি সরবরাহকারীর desktop পণ্য বাদ দিয়ে তাদের terminal workflow মূল্যায়ন করা হয়েছে।</p>
+<p><strong>আপনার সীমাবদ্ধতা দিয়ে শুরু করুন।</strong> সরবরাহকারীর অ্যাক্সেস, পুনরাবৃত্তিযোগ্য automation এবং review অভ্যাস সাধারণ leaderboard-এর চেয়ে ভালো filter। নিচের সুপারিশ ১০ অক্টোবর ২০২৬-এ পরীক্ষা করা official documentation-এর ভিত্তিতে editorial judgment, মাপা performance ranking নয়।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>Claude Code, Codex এবং Gemini CLI</strong> নিজ নিজ first-party model workflow চাইলে পরীক্ষার যোগ্য।</li>
+<li><strong>OpenCode এবং Aider</strong> একাধিক model provider-এর পরীক্ষা চালাতে উপযোগী, তবে interaction ও editing পদ্ধতি আলাদা।</li>
+<li><strong>Copilot CLI</strong> বিবেচনা করুন যখন GitHub access ও organization policy আপনার workflow নির্ধারণ করে।</li>
+<li><strong>Terminal interface মানেই local inference নয়</strong>, unrestricted model choice বা unattended execution-ও নয়।</li>
+</ul>
+<p><strong>পূর্বশর্ত:</strong> Git, একটি disposable checkout, কাজ করা test এবং অনুমোদিত model credent
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Codex CLI বনাম Desktop: ২০২৬ সালের কর্মপ্রবাহ তুলনা</title><link>https://bn.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><description>টার্মিনালে Codex এবং OpenAI-এর ডেস্কটপ কোডিং কর্মক্ষেত্রের মধ্যে বেছে নিন। স্ক্রিপ্টিং, worktree, ভিজ্যুয়াল পর্যালোচনা, সময়সূচি এবং execution environment তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>Codex CLI</strong> স্পষ্ট কমান্ড এবং scriptable run-সহ shell-নির্ভর workflow-এর জন্য উপযুক্ত। <strong>Codex desktop</strong> project, conversation, visual output এবং review panel ঘিরে সাজানো কাজের জন্য উপযুক্ত। আপনি যেভাবে কাজ তদারক করেন তার ভিত্তিতে interface বেছে নিন। Model, repository এবং execution policy একই রাখুন।</p>
+<p><strong>নামের নোট:</strong> OpenAI-এর আগের Codex app documentation এখন 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ChatGPT desktop app documentation">
+    <meta itemprop="url" content="https://learn.chatgpt.com/docs/app">
+    <a href="https://learn.chatgpt.com/docs/app"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >ChatGPT desktop app documentation</a>
+</span>
+-এ redirect করে। এই guide application-এর coding workflow বোঝাতে “Codex desktop” ব্যবহার করে। Repository access ছাড়া সাধারণ chat-কে coding agent হিসেবে ধরা হয় না।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>Shell composition-এর জন্য CLI ব্যবহার করুন</strong> এবং পুনরাবৃত্তিযোগ্য programmatic run চালান।</li>
+<li><strong>Project organization-এর জন্য desktop ব্যবহার করুন</strong>, visual review এবং scheduled-task management-এর জন্যও।</li>
+<li><strong>Execution location স্পষ্ট র�
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GitHub Copilot CLI বনাম VS Code: ২০২৬ কর্মপ্রবাহের তুলনা</title><link>https://bn.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><description>Copilot-এর টার্মিনাল এজেন্টের সঙ্গে VS Code অভিজ্ঞতা তুলনা করুন। এতে এডিটর প্রসঙ্গ, ভিজ্যুয়াল ডিফ, Agent মোড, CLI সংযোগ এবং অ্যাকাউন্ট নীতি রয়েছে।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>GitHub Copilot CLI এবং VS Code-এর Copilot কোডিং কাজের জন্য আলাদা প্রবেশপথ দেয়।</strong> CLI শুরু হয় shell ও কাজের প্রম্পট দিয়ে। VS Code এডিটর প্রসঙ্গ, সাজেশন, চ্যাট ও এজেন্ট কর্মপ্রবাহ একত্র করে। একই অ্যাকাউন্ট ও রিপোজিটরি নীতির অধীনে দুটিই মূল্যায়ন করুন।</p>
+<p><strong>পছন্দটি একচেটিয়া নয়।</strong> GitHub Copilot CLI এবং VS Code-এর সংযোগ নথিভুক্ত করেছে। স্পষ্টভাবে সংযোগ করলে টার্মিনাল কাজ এডিটর নির্বাচন ও ভিজ্যুয়াল রিভিউ থেকে সুবিধা পায়।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>টার্মিনাল-ভিত্তিক কাজের জন্য Copilot CLI ব্যবহার করুন</strong> এবং সমর্থিত প্রোগ্রামেটিক কল চালান।</li>
+<li><strong>এডিটর-কেন্দ্রিক কাজের জন্য VS Code-এ Copilot ব্যবহার করুন</strong>, ইনলাইন সহায়তা ও Agent মোডসহ।</li>
+<li><strong>CLI-কে VS Code-এর সঙ্গে সংযোগ করুন</strong> যখন টার্মিনাল প্রম্পটে এডিটর প্রসঙ্গ ও ডিফ দরকার।</li>
+<li><strong>অ্যাকাউন্ট, মডেল ও নীতি যাচাই করুন</strong>, একই পণ্য পরিবারের মধ্যেও।</li>
+</ul>
+<p><strong>পরিধি ও তারিখ:</strong> ১০ অক্টোবর ২০২৬-এ অফিসিয়াল নথি পরীক্ষা করা হয়েছে। এই তুলনায় স্বতন্ত্র <code>copilot</cod
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GUI কোডিং এজেন্ট তুলনা: Cursor, Windsurf, Cline, Copilot এবং Continue</title><link>https://bn.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><description>গ্রাফিক্যাল কোডিং এজেন্ট তুলনা করুন, পূর্ণ এডিটর ও এক্সটেনশন আলাদা করুন, এবং Roo Code বন্ধ হওয়ার প্রসঙ্গ, মডেল অ্যাক্সেস, অনুমোদন ও রিভিউ ওয়ার্কফ্লো পরীক্ষা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>গ্রাফিক্যাল কোডিং এজেন্ট</strong> কাজের কথোপকথনকে ফাইল, ডিফ, ডায়াগনস্টিক ও অ্যাপ্লিকেশন প্রিভিউয়ের পাশে রাখে। এই গাইড Cursor, Windsurf/Cascade পণ্যধারা, VS Code-এ Cline এক্সটেনশন, VS Code-এ GitHub Copilot এবং Continue IDE এক্সটেনশন তুলনা করে। Roo Code-কে পুরনো মাইগ্রেশন বিবেচনা হিসেবে দেখানো হয়েছে, কারণ তার ডকুমেন্টেশন এখন বন্ধ হওয়ার কথা জানায়।</p>
+<p><strong>মডেলের আগে ওয়ার্কস্পেস বেছে নিন।</strong> স্বতন্ত্র এডিটর আপনার ডেভেলপমেন্ট পরিবেশ বদলায়। এক্সটেনশন বিদ্যমান এডিটরে এজেন্ট যোগ করে। উৎপন্ন প্যাচ এবং সেটি পরীক্ষা করার প্রয়োজনীয় শ্রম, দুটোই মূল্যায়ন করুন।</p>
+<h2 id="মল-বষয়">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a7%9f" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a7%9f" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>Cursor এবং Windsurf পণ্যধারা</strong> পূর্ণ এডিটর শ্রেণিতে পড়ে।</li>
+<li><strong>Cline, Copilot এবং Continue</strong> বিদ্যমান এডিটরের মধ্যে এজেন্ট ওয়ার্কফ্লো দেয়।</li>
+<li><strong>Roo Code-এর জন্য মাইগ্রেশন পরিকল্পনা দরকার</strong>, সাধারণ নতুন ডেপ্লয়মেন্টের মতো ব্যবহার করা নয়।</li>
+<li><strong>দৃশ্যমান পরিবর্তনের জন্যও টেস্ট</strong>, ডিপেন্ডেন্সি রিভিউ এবং স্পষ্ট গ্রহণের সিদ্ধান্ত দরকার।</li>
+</ul>
+<p><strong>পর�
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Meta-র Context Language Models: এজেন্টের উন্নত স্মৃতি, হ্যালুসিনেশনের অবসান নয়</title><link>https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><description>Context Language Models কীভাবে এজেন্টের স্মৃতি সম্পাদনা করে, বেঞ্চমার্ক কী প্রমাণ করে, এবং ক্যাশের খরচ, মডেলের সক্ষমতা ও অবিশ্বস্ত নোট কীভাবে নির্ভরযোগ্যতাকে প্রভাবিত করে।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>Context Language Models (CLM)</strong> একটি AI এজেন্টকে তার পরবর্তী মডেল কলের জন্য পাঠানো তথ্যের ওপর সরাসরি নিয়ন্ত্রণ দেয়। প্রকাশিত কয়েকটি মূল্যায়নে এই পদ্ধতি কনটেক্সট ব্যবস্থাপনা উন্নত করেছে, কিন্তু হ্যালুসিনেশনের অবসান প্রমাণ করেনি। এজেন্টের দাবির জন্য এখনও প্রমাণ এবং কাজের স্বাধীন যাচাই প্রয়োজন।</p>
+<p>প্রকৌশলগত প্রশ্ন হলো, নির্বাচিত সম্পাদনা গ্রহণযোগ্য খরচে সঠিক তথ্য ধরে রাখে কি না। ছোট কথোপকথন তখনই উপকারী, যখন এজেন্ট নিজের প্রয়োজনীয়তা ধরে রাখে, পর্যবেক্ষণ ও অনুমান আলাদা করে, এবং প্রয়োজন হলে সহায়ক প্রমাণ উদ্ধার করে।</p>
+<h2 id="মল-বষয়গল">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a7%9f%e0%a6%97%e0%a6%b2" title="মূল বিষয়গুলো">মূল বিষয়গুলো</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a7%9f%e0%a6%97%e0%a6%b2" class="h-anchor" aria-hidden="true" title="মূল বিষয়গুলো">#</a>
+</h2>
+<ul>
+<li><strong>সম্পাদনাযোগ্য কনটেক্সট:</strong> CLM বিদ্যমান মডেলের জন্য একটি এক্সিকিউশন পদ্ধতি। এর ব্যবহার উন্নত করতে ঐচ্ছিক প্রশিক্ষণ যোগ করা যায়।</li>
+<li><strong>শর্তসাপেক্ষ লাভ:</strong> মডেলের আকার, কনটেক্সট বাজেট, কাজ এবং সার্ভিং ব্যাকএন্ড ফলাফলে প্রভাব ফেলে।</li>
+<li><strong>কম্পিউট হিসাব:</strong> prefix-reuse FLOPs সম্পাদনার পরের পুনর্গণনা ধরে, কি
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode CLI বনাম Desktop: ২০২৬ সালের ওয়ার্কফ্লো তুলনা</title><link>https://bn.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><description>সার্ভার আর্কিটেকচার, provider configuration, scripting, session state এবং troubleshooting-এর মাধ্যমে OpenCode-এর terminal ও desktop client তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode CLI এবং desktop একই coding-agent product-এর client।</strong> Terminal interface keyboard-driven কাজ ও script-এর জন্য উপযোগী। Desktop application একটি graphical workspace দেয়। গুরুত্বপূর্ণ তুলনায় প্রতিটি client-এর পেছনের server, project, provider এবং configuration অন্তর্ভুক্ত।</p>
+<p><strong>Backend শনাক্ত করার পর interface বেছে নিন।</strong> দুটি OpenCode window একই server বা session ব্যবহার করবে এমন নিশ্চয়তা নেই। ভিন্ন server-এ যুক্ত desktop application একটি ভিন্ন execution environment, model label পরিচিত দেখালেও।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>Terminal কাজের জন্য CLI ব্যবহার করুন</strong> এবং non-interactive command চালান।</li>
+<li><strong>Graphical workspace-এর জন্য desktop ব্যবহার করুন</strong>, তবে নির্বাচিত server পরীক্ষা করুন।</li>
+<li><strong>Provider configuration inference নির্ধারণ করে</strong>, interface স্বাধীনভাবে।</li>
+<li><strong>একই product identity আলাদা server বা version-এ একই session state নিশ্চিত করে না।</strong></li>
+</ul>
+<p><strong>পরিধি ও তারিখ:</strong> ৬ অক্টোবর ২০২৬-এ official documentation পরীক্ষা করা হয়েছে। এই guide interface তুলনা করে, model quality নয়। আপনার repository, কার্যকর provider connection এবং basic terminal knowledge দরকার। পরীক্ষার জন্য ৪৫ থেকে ৬০ মিনিট রাখুন।</p>
+<h2 id="client-ও-server">
+  <a href="#client-%e0%a6%93-server" title="Client ও Server">Client ও Server</a>
+  <a href="#client-%e0%a6%93-server" class="h-anchor"
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode বনাম Claude Code: 2026 সালের কোডিং এজেন্ট তুলনা</title><link>https://bn.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><description>মডেল নির্বাচন, স্থানীয় ইনফারেন্স, মূল্য, অনুমতি, প্রকল্পের নির্দেশনা এবং দৈনিক কোডিং ওয়ার্কফ্লোতে OpenCode ও Claude Code তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/opencode-vs-claude-code/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode</strong> এমন ডেভেলপারদের জন্য উপযোগী, যারা মডেল প্রদানকারী, এজেন্ট কনফিগারেশন এবং স্থানীয় ইনফারেন্স নিয়ন্ত্রণ করতে চান। <strong>Claude Code</strong> এমন ডেভেলপারদের জন্য উপযোগী, যারা Anthropic-এর সমন্বিত কোডিং ওয়ার্কফ্লো, Claude সাবস্ক্রিপশন অ্যাক্সেস এবং নথিভুক্ত সাংগঠনিক নিয়ন্ত্রণ চান। দুটিই বাস্তব রিপোজিটরির ভিতরে কাজ করে। উপযোগী ফলাফল টুল চালানো, প্রকল্পের নির্দেশনা এবং যাচাইয়ের উপর নির্ভর করে।</p>
+<p><strong>এজেন্ট ও মডেল আলাদা সিদ্ধান্ত।</strong> হোস্টেড Claude মডেলসহ Claude Code থেকে ছোট স্থানীয় মডেলসহ OpenCode-এ বদলালে একসঙ্গে কয়েকটি ভেরিয়েবল বদলে যায়। ফলাফলের পার্থক্য কোন এজেন্ট অ্যাপ্লিকেশন ভালো, তা প্রমাণ করে না।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>প্রদানকারী নমনীয়তার জন্য OpenCode বেছে নিন</strong>, ওপেন-সোর্স কাস্টমাইজেশন এবং হোস্টেড বা স্থানীয় মডেল নিয়ে পরীক্ষার জন্য।</li>
+<li><strong>Claude-কেন্দ্রিক ওয়ার্কফ্লোর জন্য Claude Code বেছে নিন</strong>, বিশেষ করে আপনার সাবস্ক্রিপশন বা প্রতিষ্ঠান এটি সমর্থন করলে�
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/opencode-vs-claude-code/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>কোন স্থানীয় AI মডেল চালাবেন? অক্টোবর ২০২৬-এর GPU কনটেক্সট ও কোডিং গাইড</title><link>https://bn.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><description>কোডিং এজেন্টের জন্য স্থানীয় AI মডেল বাছাইয়ের অক্টোবর ২০২৬-এর ব্যবহারিক গাইড। GPU মেমরি, KV-cache বৃদ্ধি, কনটেক্সট আকার, quantization quality, prompt processing, reasoning settings এবং cloud rental cost তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>সেরা স্থানীয় কোডিং মডেল হলো সেই মডেল, যা আপনার প্রকল্পের যথেষ্ট অংশ মেমরিতে রাখে এবং ব্যবহারযোগ্য থাকার মতো দ্রুত পড়ে।</strong> মডেলের আকার গুরুত্বপূর্ণ, কিন্তু system RAM-এ spill করার পর চলা বড় মডেলটি স্থিতিশীল context window-সহ ছোট মডেলের চেয়ে খারাপ অনুভূত হতে পারে।</p>
+<p><em>মডেল এবং মেমরি বাজেট একসঙ্গে বেছে নিন। Tier list থেকে মডেল বেছে অনুপযুক্ত হার্ডওয়্যারে জোর করে চালাবেন না।</em></p>
+<p>এই গাইড coding agent নিয়ে, ছোট autocomplete prompt নিয়ে নয়। Agent ফাইল, tool output, compiler error এবং test result পড়ে তারপর fix লেখে। এই input-গুলো context ব্যবহার করে, আর context হার্ডওয়্যার সিদ্ধান্ত বদলে দেয়।</p>
+<h2 id="ভডওট-একট-রফরনস">
+  <a href="#%e0%a6%ad%e0%a6%a1%e0%a6%93%e0%a6%9f-%e0%a6%8f%e0%a6%95%e0%a6%9f-%e0%a6%b0%e0%a6%ab%e0%a6%b0%e0%a6%a8%e0%a6%b8" title="ভিডিওটি একটি রেফারেন্স">ভিডিওটি একটি রেফারেন্স</a>
+  <a href="#%e0%a6%ad%e0%a6%a1%e0%a6%93%e0%a6%9f-%e0%a6%8f%e0%a6%95%e0%a6%9f-%e0%a6%b0%e0%a6%ab%e0%a6%b0%e0%a6%a8%e0%a6%b8" class="h-anchor" aria-hidden="true" title="ভিডিওটি একটি রেফারেন্স">#</a>
+</h2>
+<p>নিচের ভিডিওটি কয়েকটি GPU memory tier-এ স্থানীয় মডেল তুলনা করে। ব্যবহারিক model-selection observation এবং রিপোর্ট করা hardware result-এর জন্য এটি সহায়ক। এই নিবন্ধে memory behavior, agent context, prompt processing এবং total ownership cost ঘিরে সিদ্ধান্ত সাজানো হয়েছে।</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.qu
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>গবেষণা, ডিজাইন ও ডেভেলপমেন্টের জন্য ৯টি AI Agent Skill প্রকল্প</title><link>https://bn.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><description>ওয়ার্কফ্লো, হোস্ট সাপোর্ট, নির্ভরতা ও খরচ অনুযায়ী নয়টি agent skill প্রকল্প তুলনা করুন। আপনার প্রয়োজনীয় skill ইনস্টল, পরিদর্শন ও পরীক্ষা করতে শিখুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>পুনরাবৃত্ত কাজ উন্নত করতে একটি agent skill ইনস্টল করুন।</strong> বর্তমান আলোচনা গবেষণা, interface design পর্যালোচনা এবং video render-এর জন্য আলাদা প্রক্রিয়া ও নির্ভরতা লাগে। একটি কার্যকর skill এই কাজগুলোর একটির জন্য প্রয়োজনীয় নির্দেশনা, reference material বা script দেয়।</p>
+<p><strong>নয়টি প্রকল্প বিবেচনার যোগ্য:</strong> last30days, Humanizer, Impeccable, Superpowers, gstack, Claude Video, Remotion, HyperFrames এবং NVIDIA SkillSpector। কিছু instruction bundle, কিছু executable tool-সহ, আর কিছু companion skill-সহ framework। এই guide তাদের নথিভুক্ত ভূমিকা তুলনা করে এবং প্রয়োজনীয় skill বাছাই, ইনস্টল ও মূল্যায়নের ব্যবহারিক পদ্ধতি দেয়।</p>
+<p><strong>Documentation snapshot: 10 October 2026.</strong> সুপারিশ প্রকল্পের documentation ও source inspection-এর উপর ভিত্তি করে, output quality-এর comparative benchmark নয়। Free installation inference, rendering, data access বা commercial use free প্রমাণ করে না।</p>
+<h2 id="মল-শকষ">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%b6%e0%a6%95%e0%a6%b7" title="মূল শিক্ষা">মূল শিক্ষা</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%b6%e0%a6%95%e0%a6%b7" class="h-anchor" aria-hidden="true" title="মূল শিক্ষা">#</a>
+</h2>
+<ul>
+<li><strong>পুনরাবৃত্ত কাজ দিয়ে শুরু করুন:</strong> পরিষ্কার output ও acceptance check-সহ skill বাছুন।</li>
+<li><strong>Skill ও runtime আলাদা রাখুন:</strong> instruction ইনস্টল করলে প্রয়োজনীয় সব executable ইনস্টল হয় না।</li>
+<li><strong>Host পরীক্ষা করুন:</strong> কার্যকর Claude Code integration থেকে Codex বা Cowork-এর একই �
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>স্থানীয় AI বনাম ChatGPT: আমরা আসলে কতটা কাছাকাছি?</title><link>https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><description>বেঞ্চমার্ক স্কোর, মেমরি অনুমান, সার্ভিং গতি এবং এজেন্ট যাচাইয়ের মাধ্যমে স্থানীয় AI-এর সঙ্গে ChatGPT ও Claude-এর তুলনা করুন। RTX 5090, DGX Spark এবং Mac Studio-এর পরিস্থিতিও অন্তর্ভুক্ত।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>স্থানীয় AI</strong> স্পষ্ট যাচাইসহ সীমিত কাজের জন্য ব্যবহারিক বিকল্প। ChatGPT বা Claude-কে দেওয়া কাজ প্রতিস্থাপন করতে মডেলের সক্ষমতা, ব্যবহারযোগ্য মেমরি এবং আউটপুট পরীক্ষা ও যাচাই করতে পারে এমন এজেন্টকে একসঙ্গে মিলতে হবে।</p>
+<p>ওয়ার্কস্টেশনে মডেলটি ফিট করলেও পুনরাবৃত্ত চেষ্টার জন্য উপযুক্ত টুল ও পর্যাপ্ত গতি দরকার। এই নিবন্ধে বেঞ্চমার্ক ফল, মেমরি অনুমান এবং সম্পন্ন কাজের প্রমাণ আলাদা করে দেখা হয়েছে।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>সক্ষমতা:</strong> রেফারেন্স স্কোর নির্দিষ্ট পরীক্ষার পরিবেশ বোঝায়, স্থানীয় কোয়ান্টাইজড বিল্ড নয়।</li>
+<li><strong>মেমরি:</strong> ওজন, কনটেক্সট ক্যাশ এবং রানটাইম ওভারহেড একসঙ্গে হিসাব করুন।</li>
+<li><strong>গতি:</strong> এজেন্টের কথোপকথন পুনরায় চালানো সার্ভিং মাপে, সঠিকতা নয়।</li>
+<li><strong>যাচাই:</strong> অনুরোধ করা ফলের সঙ্গে মিলিয়ে এজেন্টের পরীক্ষা দরকার।</li>
+<li><strong>নির্বাচন:</strong> হার্ডওয়ার কেনার আগে পুনরাবৃত্ত কাজ, মেরামতের সময় এবং মোট খরচ তুলনা করুন।</li>
+</ul>
+<h2 id="পরসঙগসহ-�
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenRouter প্রোভাইডার রাউটিং: মডেলের মান, টোকেন সীমা এবং প্রকৃত খরচ</title><link>https://bn.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><description>OpenRouter-এর অসামঞ্জস্যপূর্ণ উত্তর নির্ণয় করুন, endpoint সীমা ও cache খরচ তুলনা করুন, এবং ভুল করে মান নিয়ন্ত্রণ বন্ধ না করে provider routing কনফিগার করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>OpenRouter provider routing</strong> নির্ধারণ করে কোন inference service আপনার অনুরোধের উত্তর দেবে। একই model name ব্যবহার করা দুইটি call-ও endpoint limit, সমর্থিত parameter, serving software এবং routing preference-এর ওপর নির্ভর করে। উত্তর ছোট হলে বা tool call ব্যর্থ হলে quantization-কে দোষ দেওয়ার আগে এই পার্থক্য পরীক্ষা করুন।</p>
+<h2 id="পরধন-বষয">
+  <a href="#%e0%a6%aa%e0%a6%b0%e0%a6%a7%e0%a6%a8-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="প্রধান বিষয়">প্রধান বিষয়</a>
+  <a href="#%e0%a6%aa%e0%a6%b0%e0%a6%a7%e0%a6%a8-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="প্রধান বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>Precision label</strong> একটি সংখ্যাগত format বোঝায়, উত্তরের accuracy score নয়।</li>
+<li><strong>Endpoint limit</strong> context, output length এবং feature support নির্ধারণ করে।</li>
+<li><strong>Explicit routing</strong>-এর জন্য provider preference-এর পাশাপাশি fallback policy দরকার।</li>
+<li><strong>Auto Exacto</strong> quality signal ব্যবহার করে provider নির্বাচন উন্নত করে এবং tool-বিহীন অনুরোধের জন্য opt-in route দেয়।</li>
+<li><strong>কার্যকর খরচে</strong> output, cache behavior, retry এবং সফল task completion অন্তর্ভুক্ত।</li>
+</ul>
+<p><strong>প্রয়োজনীয়তা:</strong> JSON request সম্পর্কে ধারণা এবং আপনার application-এর OpenRouter configuration-এ প্রবেশাধিকার। Endpoint inspection একটি public API ব্যবহার করে। Model request পাঠাতে API key এবং usage charge দরকার। পুরনো উদাহরণ পুনরায় ব্যবহারের আগে endpoint metadata পরীক্ষা করুন।</p>
+<p><strong>সময় ও কঠিনতা:</strong> প্রাথমিক configuration review-এর জ�
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>64GB DGX Spark স্থানীয় AI হার্ডওয়্যারের দামের জন্য সতর্কবার্তা</title><link>https://bn.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><description>NVIDIA-এর 64GB DGX Spark স্তর দেখায়, মেমরির সরবরাহের চাপ স্থানীয় AI হার্ডওয়্যারকে কীভাবে প্রভাবিত করছে। এই নির্দেশিকায় ক্ষমতা কমানো, unified memory-এর বিনিময় এবং 2027 সালের শেষের আগে DRAM স্বস্তি না আসার কারণ ব্যাখ্যা করা হয়েছে।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>64GB DGX Spark স্থানীয় AI ক্রেতাদের জন্য বাজারের একটি সংকেত।</strong> AI server, HBM এবং প্রচলিত DRAM-এর চাহিদা বেশি থাকা অবস্থায় কম মেমরির configuration আসছে। এই পরিবর্তন 128GB system-এর প্রতিটি component একই, এমন প্রমাণ নয়। তবে cost, availability এবং product segmentation-এর প্রতি vendor-এর প্রতিক্রিয়া এটি দেখায়।</p>
+<p><em>বড় shared memory-সহ স্থানীয় AI system দরকার হলে দ্রুত দাম কমার অপেক্ষার উপর পরিকল্পনা করবেন না। Budget নির্ধারণ করুন, প্রতি dollar-এ memory capacity অনুসরণ করুন এবং দ্বিতীয় hardware পথ রাখুন।</em></p>
+
+
+<h2 id="ক-পরবরতন-হযছ">
+  <a href="#%e0%a6%95-%e0%a6%aa%e0%a6%b0%e0%a6%ac%e0%a6%b0%e0%a6%a4%e0%a6%a8-%e0%a6%b9%e0%a6%af%e0%a6%9b" title="কী পরিবর্তন হয়েছে?">কী পরিবর্তন হয়েছে?</a>
+  <a href="#%e0%a6%95-%e0%a6%aa%e0%a6%b0%e0%a6%ac%e0%a6%b0%e0%a6%a4%e0%a6%a8-%e0%a6%b9%e0%a6%af%e0%a6%9b" class="h-anchor" aria-hidden="true" title="কী পরিবর্তন হয়েছে?">#</a>
+</h2>
+<p>ঘোষিত 64GB DGX Spark NVIDIA-এর compact Grace Blackwell system-এ কম capacity-র একটি স্তর যোগ করেছে। Tom&rsquo;s Hardware 64GB unit-এর starting price 4,999 dollar এবং 128GB model-এর price 6,950 dollar বলেছে। দুই স্তর আলাদা memory budget লক্ষ্য করে, কিন্তু একই product family ও GB10 platform রাখে। 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Tom&rsquo;s Hardware-এর product ও p
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Qwen 27B-এর জন্য 32GB VRAM: অক্টোবর 2026-এর লোকাল AI হার্ডওয়্যার গাইড</title><link>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><description>অক্টোবর 2026-এর ব্যবহারিক গাইড। 32GB ব্যবহারযোগ্য অ্যাক্সিলারেটর মেমরিতে Qwen 27B মডেল চালানো, একক GPU, দুই-কার্ড বিল্ড, unified memory, ব্যবহৃত ডেটা-সেন্টার কার্ড, ভাড়া করা কম্পিউট, সফটওয়্যার সমর্থন এবং পূর্ণ-কনটেক্সট সীমা তুলনা করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>পণ্যের লেবেলে 32GB লেখা থাকলেই Qwen 27B কাজের জন্য 32GB পাওয়া যায় না।</strong> অপারেটিং সিস্টেম, রানটাইম, KV cache, মডেল ফরম্যাট, ড্রাইভার স্ট্যাক এবং কার্ডের বিন্যাস ফল বদলে দেয়। যথেষ্ট ক্ষমতার সস্তা কার্ডও prompt processing বা সেটআপের সময়ে অনেক পিছিয়ে পড়তে পারে।</p>
+<p><em>অক্টোবর 2026-এ শুধু VRAM সংখ্যা নয়, ব্যবহারযোগ্য মেমরি এবং প্রতি ডলারে সম্পন্ন কাজ তুলনা করুন।</em></p>
+<p>এই গাইডে বড় কনটেক্সট উইন্ডার সঙ্গে 6-bit মানে Qwen 27B চালানোর ব্যবহারিক পথগুলো দেখানো হয়েছে। প্রকাশিত স্পেসিফিকেশন এবং রিপোর্ট করা পরীক্ষার ফল আলাদা রাখা হয়েছে। একজনের tokens-per-second ফল কোনো GPU-এর সার্বজনীন বৈশিষ্ট্য নয়।</p>
+<h2 id="কন-লকষয-32gb">
+  <a href="#%e0%a6%95%e0%a6%a8-%e0%a6%b2%e0%a6%95%e0%a6%b7%e0%a6%af-32gb" title="কেন লক্ষ্য 32GB">কেন লক্ষ্য 32GB</a>
+  <a href="#%e0%a6%95%e0%a6%a8-%e0%a6%b2%e0%a6%95%e0%a6%b7%e0%a6%af-32gb" class="h-anchor" aria-hidden="true" title="কেন লক্ষ্য 32GB">#</a>
+</h2>
+<p>মেমরির প্রয়োজন শুরু হয় weights দিয়ে। একটি dense 27B মডেল generation-এর সময় পুরো parameter set পড়ে। 6-bit quantization-এ runtime allocation এবং context memory যোগ করার আগে weights প্রায় <strong>20.5GB</strong> জায়গা নেয়।</p>
+<p>128K-token context আরও বড় allocation যোগ করে। মডেল architecture, cache precision, batch settings এবং backend অনুযায়ী KV-cache-এর সঠিক আকার বদলে যায়। প্রায় <strong>8GB</strong
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ক্রেডিট কার্ডে কনট্যাক্টলেস পেমেন্ট বন্ধ করার উপায়</title><link>https://bn.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><description>চিপ ও ম্যাগনেটিক-স্ট্রাইপ পেমেন্ট চালু রেখে অতিরিক্ত একটি ক্রেডিট কার্ডে কনট্যাক্টলেস পেমেন্ট বন্ধ করার ব্যবহারিক নির্দেশিকা, সঙ্গে নিরাপত্তা সীমা ও ভালো বিকল্প।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p><strong>একটি কনট্যাক্টলেস কার্ডে আলাদা NFC অ্যান্টেনা থাকে।</strong> কার্ডটি ফোনের কেসে রাখলে কিছু ফোনে অ্যান্টেনা কার্ড সংঘর্ষ বা বারবার NFC সতর্কতা তৈরি করে। অ্যান্টেনার লুপে শারীরিক বিচ্ছেদ ঘটালে ট্যাপ করে পেমেন্ট বন্ধ হয়, যদিও কিছু কার্ডে চিপ ও ম্যাগনেটিক স্ট্রাইপ চালু থাকে।</p>
+<p><em>এই কাজের জন্য অতিরিক্ত একটি কার্ড ব্যবহার করুন। পরিবর্তনটিকে স্থায়ী ধরে নিন, এবং কার্ডের ওপর নির্ভর করার আগে ইস্যুকারীর সঙ্গে ফল নিশ্চিত করুন।</em></p>
+<p><strong>আপনার একমাত্র পেমেন্ট পদ্ধতিতে পরিবর্তন করবেন না।</strong> ইস্যুকারীর নিয়ম, কার্ডের গঠন ও টার্মিনাল সমর্থন আলাদা। ক্ষতিগ্রস্ত কার্ড পরীক্ষা করার সময় দ্বিতীয় কার্ড বা নগদ রাখুন।</p>
+<h2 id="কনটযকটলস-পমনট-বনধ-করবন-কন">
+  <a href="#%e0%a6%95%e0%a6%a8%e0%a6%9f%e0%a6%af%e0%a6%95%e0%a6%9f%e0%a6%b2%e0%a6%b8-%e0%a6%aa%e0%a6%ae%e0%a6%a8%e0%a6%9f-%e0%a6%ac%e0%a6%a8%e0%a6%a7-%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a6%a8-%e0%a6%95%e0%a6%a8" title="কনট্যাক্টলেস পেমেন্ট বন্ধ করবেন কেন?">কনট্যাক্টলেস পেমেন্ট বন্ধ করবেন কেন?</a>
+  <a href="#%e0%a6%95%e0%a6%a8%e0%a6%9f%e0%a6%af%e0%a6%95%e0%a6%9f%e0%a6%b2%e0%a6%b8-%e0%a6%aa%e0%a6%ae%e0%a6%a8%e0%a6%9f-%e0%a6%ac%e0%a6%a8%e0%a6%a7-%e0%a6%95%e0%a6%b0%e0%a6%ac%e0%a6%a8-%e0%a6%95%e0%a6%a8" class="h-anchor" aria-hidden="true" title="কনট্যাক্টলেস পেমেন্ট বন্ধ করবেন কেন?">#</a>
+</h2>
+<p>ট্যাপ করে পেম
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI সহযোগিতার ক্যাপস্টোন: GitHub, Confluence এবং Jira</title><link>https://bn.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><description>ব্যর্থতার প্রমাণ এবং স্বাধীন পর্যালোচনাসহ GitHub-প্রথম এবং Confluence/Jira কর্মপ্রবাহে একটি কৃত্রিম retention পরিবর্তন সম্পন্ন করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="AI সহযোগিতা কোর্সে ফিরে যান">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >AI সহযোগিতা কোর্সে ফিরে যান</a>
+</span>
+</p>
+<p><strong>PROP-042 দুইবার সরবরাহ করুন</strong>, একবার GitHub-প্রথম পদ্ধতিতে এবং একবার GitHub-এর সঙ্গে Confluence/Jira ব্যবহার করে। আপনি অবদান রাখবেন, আলাদা মালিকেরা পর্যালোচনা করবেন, এবং অনুমোদিত প্রকাশকেরা পরিবর্তনটি প্রয়োগ করবেন। আগের পাঠের পর বিচ্ছিন্ন synthetic sandbox ব্যবহার করুন। এই ক্যাপস্টোন প্রত্যাখ্যান, পুনরুদ্ধার এবং স্বাধীন হস্তান্তরসহ সম্পূর্ণ প্রক্রিয়া পরীক্ষা করে। এটি শুধু সহকারীর লেখার মান পরীক্ষা করে না।</p>
+<h2 id="মল-শকষ">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%b6%e0%a6%95%e0%a6%b7" title="মূল শিক্ষা">মূল শিক্ষা</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%b6%e0%a6%95%e0%a6%b7" class="h-anchor" aria-hidden="true" title="মূল শিক্ষা">#</a>
+</h2>
+<ul>
+<li><strong>একটি অভিন্ন পরিবর্তন</strong> দুইটি authority model তুলনা করে।</li>
+<li><strong>নেতিবাচক পরীক্ষা</strong> সফল delivery-এর মতোই গুরুত্বপূর্ণ।</li>
+<li><strong>প্রমাণের প্যাকেজ</strong> স্বাধীন পর্যাল�
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI সোর্স রিট্রিভাল: ম্যাপ, সার্চ এবং ঐচ্ছিক RAG</title><link>https://bn.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><description>কর্তৃত্ব না বদলে ম্যাপ-প্রথম সোর্স লুকআপ, নেটিভ সার্চ, লাইভ-সোর্স যাচাই এবং ঐচ্ছিক RAG মূল্যায়ন ব্যবহার করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="AI সহযোগিতা কোর্সে ফিরুন">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >AI সহযোগিতা কোর্সে ফিরুন</a>
+</span>
+</p>
+<p><strong>প্রকাশনা নিয়ন্ত্রণ কাজ করার পরে রিট্রিভাল যোগ করুন।</strong> MAP-01 এবং নির্দিষ্ট সোর্স ID দিয়ে শুরু করুন। অজানা রেকর্ডের জন্য পরে নেটিভ সার্চ ব্যবহার করুন। রিকভারি-অগমেন্টেড জেনারেশন, বা RAG, ঐচ্ছিক ডিসকভারি স্তর হিসেবেই থাকে। সোর্সের মালিক কর্তৃত্ব নির্ধারণ করেন। গুরুত্বপূর্ণ লেখার আগে প্রকাশক লাইভ সোর্স পরীক্ষা করেন। এই পাঠ উভয় ল্যাব ট্র্যাকেই প্রযোজ্য।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>পরিচিত ID</strong> সরাসরি লুকআপের পক্ষে যায়।</li>
+<li><strong>সার্চ ফলাফল</strong> প্রার্থী শনাক্ত করে, অনুমোদিত নীতি নয়।</li>
+<li><strong>অ্যাক্সেস ফিল্টারিং</strong> মডেল কনটেক্সটের আগে হয়।</li>
+<li><strong>লাইভ-সোর্স পরীক্ষা</strong> 
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GitHub AI সহযোগিতা: রিপোজিটরি ও রিভিউ সীমা</title><link>https://bn.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://bn.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><description>GitHub-ভিত্তিক সোর্স ম্যাপ তৈরি করুন, ফাইলের মালিক নির্ধারণ করুন এবং পর্যালোচিত AI অবদানের জন্য সুরক্ষিত প্রকাশনা সীমা তৈরি করুন।</description><content:encoded><![CDATA[
+        
+            <img src="https://bn.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read the full article at https://bn.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="AI সহযোগিতা কোর্সে ফিরে যান">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >AI সহযোগিতা কোর্সে ফিরে যান</a>
+</span>
+</p>
+<p><strong>চার্টার অনুমোদনের পরে রক্ষণাবেক্ষণকারী GitHub-ভিত্তিক প্রকাশনা সীমা তৈরি করেন।</strong> প্রয়োজনীয়তা, কনফিগারেশন, নীতি এবং রানবুক একটি অস্থায়ী রিপোজিটরিতে থাকে। অবদানকারীরা Issues এবং pull request-এর মাধ্যমে প্রস্তাব দেয়। অনুমোদিত তথ্য কোথায় থাকবে তা নির্ধারণ করুন এবং এজেন্ট যুক্ত করার আগে অপর্যালোচিত পরিবর্তন আটকে দিন।</p>
+<h2 id="মল-বষয">
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" title="মূল বিষয়">মূল বিষয়</a>
+  <a href="#%e0%a6%ae%e0%a6%b2-%e0%a6%ac%e0%a6%b7%e0%a6%af" class="h-anchor" aria-hidden="true" title="মূল বিষয়">#</a>
+</h2>
+<ul>
+<li><strong>সুরক্ষিত <code>main</code></strong> প্রকাশনার সীমা।</li>
+<li><strong>Issues</strong> প্রস্তাবিত কাজ সংগ্রহ করে, নীতি অনুমোদন করে না।</li>
+<li><strong>CODEOWNERS</strong> যোগ্য ফাইল রিভিউয়ার নির্ধারণ করে।</li>
+<li><strong>আলাদা ব্যবহারকারী</strong> রিভিউ এবং প্রত্যাখ্যান নিয়ন্ত্রণ দেখায়।</li>
+</ul>
+<h2 
+
+        <br>
+        <a href="https://bn.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read More at https://bn.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DGX Spark on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>DGX Spark on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/dgx-spark/</link></image><link>https://bn.simeononsecurity.com/tags/dgx-spark/</link><description>Recent content in DGX Spark on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/dgx-spark/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti বনাম GB10: কেন 32 GB VRAM, 128 GB ইউনিফায়েড মেমরির কাছে হারে</title><link>https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"কৃত্রিম বুদ্ধিমত্তা"
+, "স্থানীয় AI"
+, "GPU হার্ডওয়্যার"
+, "বেঞ্চমার্কিং"
+, "কম্পিউটার হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Qwen 3 27B এবং দীর্ঘ-কনটেক্সট স্থানীয় ইনফারেন্সের জন্য দুটি 16 GB RTX 5060 Ti কার্ড ও একটি NVIDIA GB10 সিস্টেমের বেঞ্চমার্ক-ভিত্তিক তুলনা।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>স্থানীয় AI বনাম ChatGPT: আমরা আসলে কতটা কাছাকাছি?</title><link>https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "কৃত্রিম বুদ্ধিমত্তা"
+, "AI হার্ডওয়্যার"
+, "ডেভেলপার টুল"</category><guid>https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+বেঞ্চমার্ক স্কোর, মেমরি অনুমান, সার্ভিং গতি এবং এজেন্ট যাচাইয়ের মাধ্যমে স্থানীয় AI-এর সঙ্গে ChatGPT ও Claude-এর তুলনা করুন। RTX 5090, DGX Spark এবং Mac Studio-এর পরিস্থিতিও অন্তর্ভুক্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>64GB DGX Spark স্থানীয় AI হার্ডওয়্যারের দামের জন্য সতর্কবার্তা</title><link>https://bn.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "AI হার্ডওয়্যার"
+, "সেমিকন্ডাক্টর"
+, "কম্পিউটার হার্ডওয়্যার"
+, "AI অর্থনীতি"
+, "স্ব-হোস্টেড AI"</category><guid>https://bn.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIA-এর 64GB DGX Spark স্তর দেখায়, মেমরির সরবরাহের চাপ স্থানীয় AI হার্ডওয়্যারকে কীভাবে প্রভাবিত করছে। এই নির্দেশিকায় ক্ষমতা কমানো, unified memory-এর বিনিময় এবং 2027 সালের শেষের আগে DRAM স্বস্তি না আসার কারণ ব্যাখ্যা করা হয়েছে।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
