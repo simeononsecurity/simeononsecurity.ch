@@ -3,7 +3,6 @@ theme = "soshellofriend"
 # baseurl = "https://simeononsecurity.com"
 # languageCode = "en"
 # defaultContentLanguage = "en"
-paginate = 5
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -31,6 +30,9 @@ author = "SimeonOnSecurity"
 
 # Suppress raw HTML warnings
 ignoreLogs = ['warning-goldmark-raw-html']
+
+[pagination]
+  pagerSize = 5
 
 [Author]
 name = "SimeonOnSecurity"
