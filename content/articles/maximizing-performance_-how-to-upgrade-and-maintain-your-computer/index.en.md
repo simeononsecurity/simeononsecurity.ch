@@ -42,7 +42,7 @@ Measuring computer performance is crucial in understanding the capabilities and 
 Upgrading Your Computer
 -----------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/87bf1dc4-7e2b-4329-af7d-586d4a3edbb5/thumbnail.jpeg" alt="Illustration accompanying the section on measuring computer performance" >}}
+{{< figure src="measuring-computer-performance.webp" alt="Illustration accompanying the section on measuring computer performance" >}}
 
 ### Identifying Hardware Bottlenecks
 
@@ -74,7 +74,7 @@ Following these best practices will help you successfully install and configure 
 Maintaining Your Computer
 -------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/22ca15fe-b25c-41d8-8932-70353fa06f2e/thumbnail.jpeg" alt="Illustration accompanying the section on installing and configuring computer upgrades" >}}
+{{< figure src="installing-and-configuring-computer-upgrades.webp" alt="Illustration accompanying the section on installing and configuring computer upgrades" >}}
 
 ### Regular Software Updates
 
@@ -117,7 +117,7 @@ Remember, a clean computer is a happy computer!
 Monitoring Performance
 ----------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/c43d66d2-6625-43cd-89fb-54090a33b1a3/thumbnail.jpeg" alt="Illustration accompanying the section on cleaning and dusting a computer" >}}
+{{< figure src="cleaning-and-dusting-a-computer.webp" alt="Illustration accompanying the section on cleaning and dusting a computer" >}}
 
 ### Using Performance Monitoring Tools
 
@@ -174,7 +174,7 @@ By following these troubleshooting steps, you can effectively diagnose and resol
 Best Practices for Performance Optimization
 -------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/40188fde-a5c4-4993-9ef5-4b3e71a7e6b3/thumbnail.jpeg" alt="Illustration accompanying the section on troubleshooting computer performance issues" >}}
+{{< figure src="troubleshooting-computer-performance-issues.webp" alt="Illustration accompanying the section on troubleshooting computer performance issues" >}}
 
 ### Managing Startup Programs
 

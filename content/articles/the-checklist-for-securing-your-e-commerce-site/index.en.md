@@ -78,7 +78,7 @@ By prioritizing security and taking proactive measures to protect customer data,
 Essential Security Measures for E-commerce Sites
 ------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/fe60a063-538b-4bc0-a3f5-25b05d3dc40f/thumbnail.jpeg" alt="Illustration: The Role of Security in Building Customer Trust" >}}
+{{< figure src="the-role-of-security-in-building-customer-trust.webp" alt="Illustration: The Role of Security in Building Customer Trust" >}}
 
 ### Implementing Secure Socket Layer (SSL) Encryption
 
@@ -131,7 +131,7 @@ It is important for e-commerce sites to regularly assess the security of their p
 Best Practices for Securing Customer Data
 -----------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/154acc0c-e953-4748-a3a2-1ba6db2c7a17/thumbnail.jpeg" alt="Illustration: Securing Payment Processing Systems" >}}
+{{< figure src="securing-payment-processing-systems.webp" alt="Illustration: Securing Payment Processing Systems" >}}
 
 ### Collecting and Storing Data Responsibly
 
@@ -174,7 +174,7 @@ Complying with data protection regulations is crucial for e-commerce sites to en
 Protecting Against Common E-commerce Threats
 --------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/683b4fad-1d2e-4495-89c0-82f1d3cfeb96/thumbnail.jpeg" alt="Illustration: Complying with Data Protection Regulations" >}}
+{{< figure src="complying-with-data-protection-regulations.webp" alt="Illustration: Complying with Data Protection Regulations" >}}
 
 ### Preventing DDoS Attacks
 
@@ -232,7 +232,7 @@ Remember, a proactive and well-prepared approach to monitoring and responding to
 Building a Robust Incident Response Plan
 ----------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/84fa95a1-2cf8-4b9e-b5b6-3c94bca865c5/thumbnail.jpeg" alt="Illustration: Monitoring and Responding to Security Incidents" >}}
+{{< figure src="monitoring-and-responding-to-security-incidents.webp" alt="Illustration: Monitoring and Responding to Security Incidents" >}}
 
 ### Creating an Incident Response Team
 

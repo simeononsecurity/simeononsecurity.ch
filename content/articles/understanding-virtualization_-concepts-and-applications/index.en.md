@@ -62,7 +62,7 @@ From the perspective of a cybersecurity expert, virtualization offers several ke
 Virtualization Technologies
 ---------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/21958b24-22f4-4a28-a6d5-ccea15de7ee0/thumbnail.jpeg" alt="Illustration: Benefits of Virtualization" >}}
+{{< figure src="benefits-of-virtualization.webp" alt="Illustration: Benefits of Virtualization" >}}
 
 ### Hardware Virtualization
 
@@ -101,7 +101,7 @@ Overall, network virtualization plays a crucial role in enhancing the security a
 Virtualization in Data Centers
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/9dbe7af1-4f19-46cd-b5de-95dd0b6498c9/thumbnail.jpeg" alt="Illustration: Network Virtualization" >}}
+{{< figure src="network-virtualization.webp" alt="Illustration: Network Virtualization" >}}
 
 ### Virtualization in Server Consolidation
 
@@ -138,7 +138,7 @@ Wrapping up, virtualization is a critical component of disaster recovery from a 
 Virtualization in Cloud Computing
 ---------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/6afa13e6-ab1f-4b1c-973e-460a6e0293c8/thumbnail.jpeg" alt="Illustration: Virtualization in Disaster Recovery" >}}
+{{< figure src="virtualization-in-disaster-recovery.webp" alt="Illustration: Virtualization in Disaster Recovery" >}}
 
 ### Virtual Machines in Cloud Computing
 
@@ -165,7 +165,7 @@ Wrapping up, virtual storage plays a critical role in cloud computing, offering 
 Challenges and Considerations
 -----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/899e2984-ae90-4bed-abe8-c3691a854003/thumbnail.jpeg" alt="Illustration: Virtual Storage in Cloud Computing" >}}
+{{< figure src="virtual-storage-in-cloud-computing.webp" alt="Illustration: Virtual Storage in Cloud Computing" >}}
 
 ### Security and Privacy Concerns
 

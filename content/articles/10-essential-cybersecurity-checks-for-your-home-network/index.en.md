@@ -66,7 +66,7 @@ Preventing unauthorized access is a crucial aspect of home network security. By 
 Securing Your Wi-Fi Network
 ---------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/b7e171c3-43bb-436b-be91-8320d0825a0d/thumbnail.jpeg" alt="Illustration related to Preventing Unauthorized Access" >}}
+{{< figure src="preventing-unauthorized-access.webp" alt="Illustration related to Preventing Unauthorized Access" >}}
 
 ### Changing Default Router Settings
 
@@ -91,7 +91,7 @@ Enabling network encryption is a crucial step in securing your home network. By 
 Updating and Patching Devices
 -----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/de0b270f-9dde-4c29-8ece-5d2c7e120888/thumbnail.jpeg" alt="Illustration related to Enabling Network Encryption" >}}
+{{< figure src="enabling-network-encryption.webp" alt="Illustration related to Enabling Network Encryption" >}}
 
 ### Keeping Operating Systems Up to Date
 
@@ -108,7 +108,7 @@ Installing security patches is a crucial step in maintaining the security of you
 Implementing Firewalls and Antivirus Software
 ---------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/0f5f8e61-1779-4438-bffc-a79b27066d54/thumbnail.jpeg" alt="Illustration related to Installing Security Patches" >}}
+{{< figure src="installing-security-patches.webp" alt="Illustration related to Installing Security Patches" >}}
 
 ### Setting Up a Firewall
 
@@ -135,7 +135,7 @@ By regularly scanning for malware, you can identify and eliminate any potential 
 Securing IoT Devices
 --------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/416b4f52-2292-4d06-ba15-ad8e0faafbeb/thumbnail.jpeg" alt="Illustration related to Regularly Scanning for Malware" >}}
+{{< figure src="regularly-scanning-for-malware.webp" alt="Illustration related to Regularly Scanning for Malware" >}}
 
 ### Changing Default Passwords
 

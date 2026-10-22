@@ -123,7 +123,7 @@ lastmod: 2026-10-08
 उद्योग में शीर्ष नेटवर्क प्रमाणपत्र
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### Cisco Certified Network Associate (CCNA)
 
@@ -186,7 +186,7 @@ JNCIA प्रमाणन के बारे में जानने के
 नेटवर्क प्रमाणनों के साथ करियर के अवसर
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### नेटवर्क प्रशासक
 
@@ -278,7 +278,7 @@ JNCIA प्रमाणन के बारे में जानने के
 नेटवर्क प्रमाणपत्रों में सफलता के लिए सुझाव
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### अध्ययन योजना बनाएं
 

@@ -56,7 +56,7 @@ Employees play a crucial role in maintaining the security of an organization's d
 Designing an Effective Cybersecurity Training Program
 -----------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/579c47d0-49d4-4f55-a782-de427f3fce35/thumbnail.jpeg" alt="Illustration related to The Role of Employees in Cybersecurity" >}}
+{{< figure src="the-role-of-employees-in-cybersecurity.webp" alt="Illustration related to The Role of Employees in Cybersecurity" >}}
 
 ### Identifying Training Needs and Objectives
 
@@ -123,7 +123,7 @@ Continuous improvement and adaptation are crucial in cybersecurity training. As 
 Engaging Employees in Cybersecurity Training
 --------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/8eb7673e-9670-4760-b100-2b8eabb5cee6/thumbnail.jpeg" alt="Illustration related to Continuous Improvement and Adaptation" >}}
+{{< figure src="continuous-improvement-and-adaptation.webp" alt="Illustration related to Continuous Improvement and Adaptation" >}}
 
 ### Building Awareness and a Security Mindset
 
@@ -177,7 +177,7 @@ By implementing these strategies, organizations can create an environment where 
 Overcoming Challenges in Cybersecurity Training
 -----------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/97f31120-a592-41c2-a3db-01f978ead8e1/thumbnail.jpeg" alt="Illustration related to Encouraging Reporting and Incident Response" >}}
+{{< figure src="encouraging-reporting-and-incident-response.webp" alt="Illustration related to Encouraging Reporting and Incident Response" >}}
 
 ### Resistance to Change and Lack of Awareness
 
@@ -267,7 +267,7 @@ By following these strategies, organizations can enhance their cybersecurity pos
 Measuring the Impact of Cybersecurity Training
 ----------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/a1eaa667-7e8b-4cf1-b6ed-b58937a4170e/thumbnail.jpeg" alt="Illustration related to Overcoming Resistance to Change" >}}
+{{< figure src="overcoming-resistance-to-change.webp" alt="Illustration related to Overcoming Resistance to Change" >}}
 
 ### Assessing Knowledge and Skills Acquisition
 

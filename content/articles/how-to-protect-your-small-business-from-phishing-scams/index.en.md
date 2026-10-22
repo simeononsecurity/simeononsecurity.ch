@@ -56,7 +56,7 @@ To effectively protect against phishing scams, small businesses should prioritiz
 Recognizing Phishing Attempts
 -----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/0306cbb4-c428-4cb1-b532-14ec5090d72d/thumbnail.jpeg" alt="Illustration accompanying the section on common phishing targets" >}}
+{{< figure src="common-phishing-targets.webp" alt="Illustration accompanying the section on common phishing targets" >}}
 
 ### Signs of a Phishing Email
 
@@ -92,7 +92,7 @@ It is crucial for small businesses to educate their employees about these tactic
 Protecting Your Small Business
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/ada0348a-0fb7-4c5b-a021-b9302e3d6e9f/thumbnail.jpeg" alt="Illustration accompanying the section on social engineering tactics" >}}
+{{< figure src="social-engineering-tactics.webp" alt="Illustration accompanying the section on social engineering tactics" >}}
 
 ### Educating Employees about Phishing
 
@@ -118,7 +118,7 @@ Multi-factor authentication (MFA) is a crucial security measure for protecting y
 Responding to Phishing Incidents
 --------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/13800281-b6fa-4f8c-b4cd-6ba522e607e5/thumbnail.jpeg" alt="Illustration accompanying the section on multi-factor authentication" >}}
+{{< figure src="multi-factor-authentication.webp" alt="Illustration accompanying the section on multi-factor authentication" >}}
 
 ### Reporting Phishing Attempts
 
@@ -142,7 +142,7 @@ Updating security policies is a crucial step in [protecting your small business]
 Staying Ahead of Phishing Scams
 -------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/bf80099f-ffb0-42a9-a4ab-433e7e45ed55/thumbnail.jpeg" alt="Illustration accompanying the section on updating security policies" >}}
+{{< figure src="updating-security-policies.webp" alt="Illustration accompanying the section on updating security policies" >}}
 
 ### Keeping Up with Phishing Trends
 

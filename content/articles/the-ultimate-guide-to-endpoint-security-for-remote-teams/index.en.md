@@ -72,7 +72,7 @@ By implementing these best practices, remote teams can significantly reduce the 
 Choosing the Right Endpoint Security Solutions
 ----------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/c3aa0f6c-015d-49e3-9e98-71918618ed58/thumbnail.jpeg" alt="Illustration: Best Practices for Endpoint Security in Remote Work" >}}
+{{< figure src="best-practices-for-endpoint-security-in-remote-work.webp" alt="Illustration: Best Practices for Endpoint Security in Remote Work" >}}
 
 ### Key Considerations for Selecting Endpoint Security Solutions
 
@@ -113,7 +113,7 @@ It is also recommended to consult with cybersecurity experts or seek recommendat
 Implementing Endpoint Security Measures for Remote Teams
 --------------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/fb7408aa-14cd-44ef-866c-67fd04fcc174/thumbnail.jpeg" alt="Illustration: Comparing Different Endpoint Security Solutions" >}}
+{{< figure src="comparing-different-endpoint-security-solutions.webp" alt="Illustration: Comparing Different Endpoint Security Solutions" >}}
 
 ### Creating a Strong Endpoint Security Policy
 
@@ -130,7 +130,7 @@ Monitoring and managing endpoint security is crucial for remote teams to ensure 
 Addressing Endpoint Security Challenges in Remote Work
 ------------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/3dcc77fd-2d12-4daa-bbff-e6f386d03308/thumbnail.jpeg" alt="Illustration: Monitoring and Managing Endpoint Security" >}}
+{{< figure src="monitoring-and-managing-endpoint-security.webp" alt="Illustration: Monitoring and Managing Endpoint Security" >}}
 
 ### Securing Personal Devices in a Remote Work Environment
 
@@ -168,7 +168,7 @@ By implementing these measures, organizations can significantly reduce the risk 
 Future Trends in Endpoint Security for Remote Teams
 ---------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/9b8ed0e1-5887-438e-8a06-d1b4f06d5b47/thumbnail.jpeg" alt="Illustration: Protecting Data and Privacy in Remote Work" >}}
+{{< figure src="protecting-data-and-privacy-in-remote-work.webp" alt="Illustration: Protecting Data and Privacy in Remote Work" >}}
 
 ### Emerging Technologies for Endpoint Security
 

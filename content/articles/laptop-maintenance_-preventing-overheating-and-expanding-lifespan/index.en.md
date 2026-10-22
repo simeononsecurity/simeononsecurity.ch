@@ -42,7 +42,7 @@ When it comes to laptop overheating, there are several signs that indicate a [po
 Preventing Laptop Overheating
 -----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/dfadf953-6f13-41ef-870a-b2c0e86dc064/thumbnail.jpeg" alt="Illustration accompanying the section on signs of laptop overheating" >}}
+{{< figure src="signs-of-laptop-overheating.webp" alt="Illustration accompanying the section on signs of laptop overheating" >}}
 
 ### Keeping Your Laptop Clean
 
@@ -90,7 +90,7 @@ Direct sunlight can have detrimental effects on your laptop's performance and li
 Extending Laptop Lifespan
 -------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/6065b651-bcc2-488c-8474-03742b99f1ae/thumbnail.jpeg" alt="Illustration accompanying the section on avoiding direct sunlight" >}}
+{{< figure src="avoiding-direct-sunlight.webp" alt="Illustration accompanying the section on avoiding direct sunlight" >}}
 
 ### Proper Storage and Transportation
 

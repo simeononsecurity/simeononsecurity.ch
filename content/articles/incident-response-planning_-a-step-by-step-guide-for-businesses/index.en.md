@@ -73,7 +73,7 @@ An effective incident response plan should include several key components that e
 Creating an Incident Response Team
 ----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/8e50387f-eb2d-4eeb-992f-3c1aee3a93ba/thumbnail.jpeg" alt="Illustration accompanying the section on incident response team components" >}}
+{{< figure src="incident-response-team-components.webp" alt="Illustration accompanying the section on incident response team components" >}}
 
 ### Roles and responsibilities of the incident response team
 
@@ -96,7 +96,7 @@ Effective communication is crucial for the success of an incident response team.
 Developing an Incident Response Plan
 ------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/7316caa9-dffb-40a8-b11a-8e5f9b9702fa/thumbnail.jpeg" alt="Illustration accompanying the section on incident response communication channels" >}}
+{{< figure src="incident-response-communication-channels.webp" alt="Illustration accompanying the section on incident response communication channels" >}}
 
 ### Identifying potential threats and vulnerabilities
 
@@ -123,7 +123,7 @@ Documenting step-by-step incident response processes is a crucial aspect of deve
 Testing and Refining the Incident Response Plan
 -----------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/9c93d56e-8a11-4b57-9cf0-dd2991143f63/thumbnail.jpeg" alt="Illustration accompanying the section on documenting incident response processes" >}}
+{{< figure src="documenting-incident-response-processes.webp" alt="Illustration accompanying the section on documenting incident response processes" >}}
 
 ### Conducting tabletop exercises to simulate incidents
 
@@ -155,7 +155,7 @@ By following these practices, organizations can ensure that their incident respo
 Implementing Incident Response Tools and Technologies
 -----------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/723d164e-248d-4783-8426-1224c53946ec/thumbnail.jpeg" alt="Illustration accompanying the section on continuously improving an incident response plan" >}}
+{{< figure src="continuously-improving-an-incident-response-plan.webp" alt="Illustration accompanying the section on continuously improving an incident response plan" >}}
 
 ### Choosing the right incident response tools
 

@@ -123,7 +123,7 @@ Door deze tips te volgen, kun je je voorbereiding op netwerkcertificeringsexamen
 Top netwerkcertificeringen in de industrie
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### Cisco Certified Network Associate (CCNA)
 
@@ -186,7 +186,7 @@ Als cybersecurity-expert is de Microsoft Certified: Azure Administrator Associat
 Carrièremogelijkheden met Netwerkcertificeringen
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### Netwerkbeheerder
 
@@ -278,7 +278,7 @@ Als cybersecurity-expert is de rol van een Cloud Network Architect cruciaal bij 
 Tips voor succes bij netwercertificeringen
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### Maak een studieplan
 

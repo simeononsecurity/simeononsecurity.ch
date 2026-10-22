@@ -60,7 +60,7 @@ In addition to the table, note that immutability also plays a crucial role in pr
 Securing Blockchain Networks from External Threats
 --------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/a05a913f-1463-4b0a-a4a0-71eb4b1e05a6/thumbnail.jpeg" alt="Illustration related to Immutability: Protecting Data Integrity on the Blockchain" >}}
+{{< figure src="immutability-protecting-data-integrity-on-the.webp" alt="Illustration related to Immutability: Protecting Data Integrity on the Blockchain" >}}
 
 ### Cryptography: Safeguarding Transactions and Identities
 
@@ -77,7 +77,7 @@ Smart contract auditing plays a crucial role in ensuring the security and reliab
 Addressing Internal Vulnerabilities in Blockchain Systems
 ---------------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/1ac75489-abc7-4c41-923e-5e7e0f4f14c8/thumbnail.jpeg" alt="Illustration related to Smart Contract Auditing: Mitigating Vulnerabilities" >}}
+{{< figure src="smart-contract-auditing-mitigating-vulnerabilities.webp" alt="Illustration related to Smart Contract Auditing: Mitigating Vulnerabilities" >}}
 
 ### Permissioned Blockchains: Controlling Access and Permissions
 
@@ -102,7 +102,7 @@ Privacy enhancements play a crucial role in ensuring the security of sensitive i
 Emerging Technologies for Enhanced Blockchain Security
 ------------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/af8740c2-da26-4396-b267-72c9b734000b/thumbnail.jpeg" alt="Illustration related to Privacy Enhancements: Protecting Sensitive Information" >}}
+{{< figure src="privacy-enhancements-protecting-sensitive-information.webp" alt="Illustration related to Privacy Enhancements: Protecting Sensitive Information" >}}
 
 ### Multi-Factor Authentication: Strengthening User Verification
 
@@ -148,7 +148,7 @@ Homomorphic encryption is a powerful technique that allows for secure data proce
 The Role of Security Audits in Blockchain Development
 -----------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/f41c5560-cc33-41cf-b2e5-071884961a86/thumbnail.jpeg" alt="Illustration related to Homomorphic Encryption: Enabling Secure Data Processing" >}}
+{{< figure src="homomorphic-encryption-enabling-secure-data-processing.webp" alt="Illustration related to Homomorphic Encryption: Enabling Secure Data Processing" >}}
 
 ### Code Review: Identifying Vulnerabilities and Bugs
 

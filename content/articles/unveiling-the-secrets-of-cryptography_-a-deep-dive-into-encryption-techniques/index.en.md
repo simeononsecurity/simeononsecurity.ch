@@ -55,7 +55,7 @@ As a cybersecurity expert, you need to understand the **modern cryptography tech
 Principles of Cryptography
 --------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/6ce2ba3a-4f99-4c46-8c1e-9b9d43b6c97a/thumbnail.jpeg" alt="Illustration: Modern Cryptography Techniques" >}}
+{{< figure src="modern-cryptography-techniques.webp" alt="Illustration: Modern Cryptography Techniques" >}}
 
 ### Confidentiality
 
@@ -72,7 +72,7 @@ Authentication is a crucial aspect of **data verification** in cryptography. It 
 Symmetric Encryption Techniques
 -------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/0218275c-e6f7-4838-b639-baf597cb7243/thumbnail.jpeg" alt="Illustration: Authentication" >}}
+{{< figure src="authentication.webp" alt="Illustration: Authentication" >}}
 
 ### Substitution Ciphers
 
@@ -98,7 +98,7 @@ Transposition ciphers can be a useful component in a **layered** encryption stra
 Asymmetric Encryption Techniques
 --------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/36dc4167-234c-4f0b-b3e0-730b44ae20ef/thumbnail.jpeg" alt="Illustration: Transposition Ciphers" >}}
+{{< figure src="transposition-ciphers.webp" alt="Illustration: Transposition Ciphers" >}}
 
 ### Elliptic Curve Cryptography
 

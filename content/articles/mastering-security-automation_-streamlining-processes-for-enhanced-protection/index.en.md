@@ -49,7 +49,7 @@ Implementing automated security measures presents several [challenges](https://s
 Implementing Automated Security Measures
 ----------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/53ce43cf-a297-42e6-a8f3-6364d6100d8d/thumbnail.jpeg" alt="Illustration accompanying the section on security automation challenges" >}}
+{{< figure src="security-automation-challenges.webp" alt="Illustration accompanying the section on security automation challenges" >}}
 
 ### Security Orchestration and Incident Response
 
@@ -69,7 +69,7 @@ Automated compliance monitoring and reporting are crucial components of modern *
 using Machine Learning in Security Automation
 --------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/3b76ba36-e094-4f59-9bb5-7ba690279386/thumbnail.jpeg" alt="Illustration accompanying the section on automated compliance monitoring" >}}
+{{< figure src="automated-compliance-monitoring.webp" alt="Illustration accompanying the section on automated compliance monitoring" >}}
 
 ### Applications of Machine Learning in Security
 
@@ -86,7 +86,7 @@ Machine learning plays a crucial role in enhancing security operations by enabli
 Best Practices for Security Automation
 --------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/e6cd93b8-daf5-4016-88ca-67db1f965d82/thumbnail.jpeg" alt="Illustration accompanying the section on machine learning in security operations" >}}
+{{< figure src="machine-learning-in-security-operations.webp" alt="Illustration accompanying the section on machine learning in security operations" >}}
 
 ### Integration with Existing Security Infrastructure
 

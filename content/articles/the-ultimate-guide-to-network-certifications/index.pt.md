@@ -123,7 +123,7 @@ Seguindo essas dicas, você pode aprimorar sua preparação para os exames de ce
 Principais Certificações de Rede na Indústria
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### Cisco Certified Network Associate (CCNA)
 
@@ -186,7 +186,7 @@ Como especialista em cibersegurança, a certificação Microsoft Certified: Azur
 Oportunidades de Carreira com Certificações de Rede
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### Administrador de Rede
 
@@ -278,7 +278,7 @@ Como especialista em cibersegurança, o papel do Arquiteto de Redes em Nuvem é 
 Dicas para Sucesso em Certificações de Redes
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### Crie um Plano de Estudos
 

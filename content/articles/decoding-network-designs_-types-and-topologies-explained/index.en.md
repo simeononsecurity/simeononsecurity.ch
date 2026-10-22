@@ -85,7 +85,7 @@ Bus design is a type of network design where all devices are connected to a sing
 Exploring Network Topologies
 ----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/0c6f9cdc-fb67-45cf-bce5-6ff815e939bd/thumbnail.jpeg" alt="Illustration related to Bus Design" >}}
+{{< figure src="bus-design.webp" alt="Illustration related to Bus Design" >}}
 
 ### Physical Topology
 

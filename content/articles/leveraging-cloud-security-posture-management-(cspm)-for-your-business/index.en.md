@@ -50,7 +50,7 @@ By using these key features, businesses can effectively manage their cloud secur
 Implementing CSPM in Your Business
 ----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/8872dde9-dab4-4fe8-935e-e5a0c8c1723b/thumbnail.jpeg" alt="Illustration accompanying the section on CSPM solution features" >}}
+{{< figure src="cspm-solution-features.webp" alt="Illustration accompanying the section on CSPM solution features" >}}
 
 ### Assessing your cloud security posture
 
@@ -67,7 +67,7 @@ Integrating CSPM into your existing security infrastructure is a crucial step in
 Benefits of CSPM for Your Business
 ----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/e3883449-e5e2-4401-acc0-9566f1aebec7/thumbnail.jpeg" alt="Illustration accompanying the section on integrating CSPM into security infrastructure" >}}
+{{< figure src="integrating-cspm-into-security-infrastructure.webp" alt="Illustration accompanying the section on integrating CSPM into security infrastructure" >}}
 
 ### Enhanced visibility and control over cloud security
 
@@ -104,7 +104,7 @@ Compliance with industry regulations and standards is a critical aspect of cloud
 Challenges and Considerations in CSPM Adoption
 ----------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/3f195c39-1b1f-40cb-84fb-d6645216653d/thumbnail.jpeg" alt="Illustration accompanying the section on CSPM compliance" >}}
+{{< figure src="cspm-compliance.webp" alt="Illustration accompanying the section on CSPM compliance" >}}
 
 ### Addressing scalability and complexity
 
@@ -121,7 +121,7 @@ Achieving the right balance between automation and human oversight is crucial in
 Best Practices for Effective CSPM Implementation
 ------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/c72b212f-86b2-4183-89c5-5215444bbcb5/thumbnail.jpeg" alt="Illustration accompanying the section on balancing CSPM automation and human oversight" >}}
+{{< figure src="balancing-cspm-automation-and-human-oversight.webp" alt="Illustration accompanying the section on balancing CSPM automation and human oversight" >}}
 
 ### Establishing clear security policies and procedures
 

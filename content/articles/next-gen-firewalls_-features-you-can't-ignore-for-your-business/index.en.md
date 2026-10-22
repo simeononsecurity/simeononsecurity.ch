@@ -58,7 +58,7 @@ Next-Gen Firewalls offer several benefits that make them indispensable for busin
 Enhanced Security Measures
 --------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/002cabd8-28e5-4e9f-bebc-87dcd1ee66d9/thumbnail.jpeg" alt="Illustration accompanying the section on next-generation firewall benefits" >}}
+{{< figure src="next-generation-firewall-benefits.webp" alt="Illustration accompanying the section on next-generation firewall benefits" >}}
 
 ### Application Control and Visibility
 
@@ -94,7 +94,7 @@ Advanced Threat Protection is a crucial feature of next-gen firewalls that focus
 simplified Network Management
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/f7edd7fd-96f1-48ed-b777-a70c89465459/thumbnail.jpeg" alt="Illustration accompanying the section on advanced threat protection" >}}
+{{< figure src="advanced-threat-protection.webp" alt="Illustration accompanying the section on advanced threat protection" >}}
 
 ### Centralized Policy Management
 
@@ -129,7 +129,7 @@ User activity monitoring is an essential component of next-gen firewalls, provid
 Integration with Cloud Services
 -------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/3255c326-7adc-49fe-8f8e-bf23a1614c08/thumbnail.jpeg" alt="Illustration accompanying the section on user activity monitoring" >}}
+{{< figure src="user-activity-monitoring.webp" alt="Illustration accompanying the section on user activity monitoring" >}}
 
 ### Cloud-based Firewall Management
 
@@ -154,7 +154,7 @@ Cloud application visibility is a crucial feature of next-gen firewalls that all
 Scalability and Performance
 ---------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/e8104d9a-4f48-4da4-9a1d-4b3c6bf0bc11/thumbnail.jpeg" alt="Illustration accompanying the section on cloud application visibility" >}}
+{{< figure src="cloud-application-visibility.webp" alt="Illustration accompanying the section on cloud application visibility" >}}
 
 ### High Throughput and Low Latency
 

@@ -123,7 +123,7 @@ Wenn Sie diese Tipps befolgen, können Sie Ihre Vorbereitung auf Netzwerkzertifi
 Top-Netzwerkzertifizierungen in der Branche
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### Cisco Certified Network Associate (CCNA)
 
@@ -186,7 +186,7 @@ Als Cybersicherheitsexperte ist die Microsoft Certified: Azure Administrator Ass
 Karrieremöglichkeiten mit Netzwerkzertifizierungen
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### Netzwerkadministrator
 
@@ -278,7 +278,7 @@ Als Cybersecurity-Experte ist die Rolle eines Cloud Network Architect entscheide
 Tipps für den Erfolg bei Netzwerkzertifizierungen
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### Erstellen Sie einen Lernplan
 

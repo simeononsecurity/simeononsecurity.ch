@@ -44,7 +44,7 @@ Cyber insurance policies offer various types of coverage to protect [individuals
 Evaluating Cyber Insurance Policies
 -----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/6961daf3-6d53-476a-98dc-545233f3ba18/thumbnail.jpeg" alt="Illustration related to Types of Cyber Insurance Coverage" >}}
+{{< figure src="types-of-cyber-insurance-coverage.webp" alt="Illustration related to Types of Cyber Insurance Coverage" >}}
 
 ### Key Factors to Consider
 
@@ -69,7 +69,7 @@ When comparing different cyber insurance policies, it is important to carefully 
 Choosing the Right Cyber Insurance Provider
 -------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/a189890a-fd39-454f-8051-73a61a4fe627/thumbnail.jpeg" alt="Illustration related to Comparing Different Policies" >}}
+{{< figure src="comparing-different-policies.webp" alt="Illustration related to Comparing Different Policies" >}}
 
 ### Researching Insurance Companies
 
@@ -104,7 +104,7 @@ It is also important to note that policy terms and conditions can vary significa
 Cyber Insurance Claims Process
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/2e9e0037-a3ad-42d2-ac04-724e5c03236d/thumbnail.jpeg" alt="Illustration related to Understanding Policy Terms and Conditions" >}}
+{{< figure src="understanding-policy-terms-and-conditions.webp" alt="Illustration related to Understanding Policy Terms and Conditions" >}}
 
 ### Reporting a Cyber Incident
 
@@ -145,7 +145,7 @@ By following these steps and maintaining clear communication with your insurance
 Cyber Insurance Best Practices
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/eb244c1f-71db-4688-94ed-11f99bf00aff/thumbnail.jpeg" alt="Illustration related to Navigating the Claims Process" >}}
+{{< figure src="navigating-the-claims-process.webp" alt="Illustration related to Navigating the Claims Process" >}}
 
 ### Regularly Reviewing and Updating Policies
 

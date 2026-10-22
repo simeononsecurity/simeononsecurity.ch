@@ -48,7 +48,7 @@ Considering these limitations, it is important to carefully evaluate the specifi
 eSATA vs Other External Storage Options
 ---------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/87f9c580-8ae1-4c06-8ae1-edbe121d5c0b/thumbnail.jpeg" alt="Illustration related to Disadvantages of eSATA" >}}
+{{< figure src="disadvantages-of-esata.webp" alt="Illustration related to Disadvantages of eSATA" >}}
 
 ### eSATA vs USB
 
@@ -73,7 +73,7 @@ To sum up, when it comes to cybersecurity, eSATA offers a more secure option com
 Choosing the Right eSATA Device
 -------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/b6d86498-a93c-4477-b38a-3902f5cbcdfd/thumbnail.jpeg" alt="Illustration related to eSATA vs FireWire" >}}
+{{< figure src="esata-vs-firewire.webp" alt="Illustration related to eSATA vs FireWire" >}}
 
 ### Factors to Consider
 
@@ -120,7 +120,7 @@ Remember, following these best practices will help safeguard your data and maint
 eSATA in Professional Environments
 ----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/dacd5bf7-8483-47e4-a82e-f9621469480f/thumbnail.jpeg" alt="Illustration related to Best Practices for Using eSATA" >}}
+{{< figure src="best-practices-for-using-esata.webp" alt="Illustration related to Best Practices for Using eSATA" >}}
 
 ### eSATA for Video Editing
 
@@ -149,7 +149,7 @@ eSATA is a versatile option for audio production, offering [high-speed data tran
 Future of eSATA
 ---------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/182cb4c7-5ad1-4068-8cbc-a24449b8a866/thumbnail.jpeg" alt="Illustration related to eSATA for Audio Production" >}}
+{{< figure src="esata-for-audio-production.webp" alt="Illustration related to eSATA for Audio Production" >}}
 
 ### eSATA in the Age of USB-C
 

@@ -57,7 +57,7 @@ Interference and signal blockage are common issues that can affect the [strength
 Common Wi-Fi Connection Issues
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/b9d51468-3496-4259-90c8-9cea6ad3a5b7/thumbnail.jpeg" alt="Illustration: Interference and Signal Blockage" >}}
+{{< figure src="interference-and-signal-blockage.webp" alt="Illustration: Interference and Signal Blockage" >}}
 
 ### Slow Wi-Fi Speed
 
@@ -106,7 +106,7 @@ When dealing with limited range in a Wi-Fi network, it is important to understan
 Troubleshooting Wi-Fi Problems
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/fd70e401-7079-4cf6-8d06-baa2ea86919a/thumbnail.jpeg" alt="Illustration: Limited Range" >}}
+{{< figure src="limited-range.webp" alt="Illustration: Limited Range" >}}
 
 ### Restarting the Router
 
@@ -152,7 +152,7 @@ Changing the Wi-Fi channel is a simple yet powerful technique to optimize your w
 Securing Your Wi-Fi Network
 ---------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/229342f4-9120-48c0-8f71-925655f82f15/thumbnail.jpeg" alt="Illustration: Changing Wi-Fi Channel" >}}
+{{< figure src="changing-wi-fi-channel.webp" alt="Illustration: Changing Wi-Fi Channel" >}}
 
 ### Setting a Strong Password
 
@@ -169,7 +169,7 @@ Disabling remote access is an important step in securing your Wi-Fi network. By 
 Optimizing Wi-Fi Performance
 ----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/98a6d28e-4f24-4b2c-bdeb-13d68499fbc2/thumbnail.jpeg" alt="Illustration: Disabling Remote Access" >}}
+{{< figure src="disabling-remote-access.webp" alt="Illustration: Disabling Remote Access" >}}
 
 ### Placement of Wi-Fi Router
 

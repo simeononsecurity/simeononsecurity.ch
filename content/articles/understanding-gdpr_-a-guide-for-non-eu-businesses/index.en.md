@@ -86,7 +86,7 @@ Non-EU businesses must understand that GDPR has a broad reach and applies to var
 Compliance Requirements for Non-EU Businesses
 ---------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/3eb22d1d-45c1-4cfe-b8e4-bbbeb000e7ab/thumbnail.jpeg" alt="Illustration: Scope and Applicability of GDPR" >}}
+{{< figure src="scope-and-applicability-of-gdpr.webp" alt="Illustration: Scope and Applicability of GDPR" >}}
 
 ### Data Protection Officer (DPO)
 
@@ -170,7 +170,7 @@ International data transfers refer to the transfer of personal data from the Eur
 Implications of GDPR for Non-EU Businesses
 ------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/29270047-b069-4840-b32f-3450c55a8e09/thumbnail.jpeg" alt="Illustration: International Data Transfers" >}}
+{{< figure src="international-data-transfers.webp" alt="Illustration: International Data Transfers" >}}
 
 ### Impact on Marketing and Advertising
 
@@ -241,7 +241,7 @@ By following these practices, non-EU businesses can demonstrate their commitment
 Steps to Achieve GDPR Compliance
 --------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/3f5c185b-eee6-482f-bb19-d9139986292e/thumbnail.jpeg" alt="Illustration: Building Trust with EU Customers" >}}
+{{< figure src="building-trust-with-eu-customers.webp" alt="Illustration: Building Trust with EU Customers" >}}
 
 ### Conducting a Data Audit
 
@@ -292,7 +292,7 @@ Regularly reviewing and updating compliance is crucial for [non-EU businesses](h
 Challenges and Best Practices for Non-EU Businesses
 ---------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/e36a2b6e-9acc-463c-bbe1-ad6f36bab56d/thumbnail.jpeg" alt="Illustration: Regularly Reviewing and Updating Compliance" >}}
+{{< figure src="regularly-reviewing-and-updating-compliance.webp" alt="Illustration: Regularly Reviewing and Updating Compliance" >}}
 
 ### Navigating Cross-Border Data Transfers
 

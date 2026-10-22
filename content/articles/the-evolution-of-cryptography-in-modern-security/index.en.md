@@ -65,7 +65,7 @@ During the Renaissance era, cryptography saw significant advancements in **encry
 Modern Cryptographic Algorithms
 -------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/2e6233ef-cf60-4429-a25e-c674b6171e60/thumbnail.jpeg" alt="Illustration: Renaissance Era Contributions" >}}
+{{< figure src="renaissance-era-contributions.webp" alt="Illustration: Renaissance Era Contributions" >}}
 
 ### Symmetric Key Algorithms
 
@@ -100,7 +100,7 @@ Hash functions and digital signatures play a crucial role in modern cryptography
 Cryptanalysis and Cryptographic Attacks
 ---------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/842ac5da-6240-4c84-9f4d-d7b81b33ff35/thumbnail.jpeg" alt="Illustration: Hash Functions and Digital Signatures" >}}
+{{< figure src="hash-functions-and-digital-signatures.webp" alt="Illustration: Hash Functions and Digital Signatures" >}}
 
 ### Frequency Analysis
 
@@ -113,7 +113,7 @@ Cryptographic weaknesses and vulnerabilities have an [enduring presence](https:/
 Applications of Cryptography in Modern Security
 -----------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/29c9b8e1-3b00-42e7-8dd0-1b1b8f715f09/thumbnail.jpeg" alt="Illustration: Cryptographic Weaknesses and Vulnerabilities" >}}
+{{< figure src="cryptographic-weaknesses-and-vulnerabilities.webp" alt="Illustration: Cryptographic Weaknesses and Vulnerabilities" >}}
 
 ### Secure Communication Protocols
 

@@ -84,7 +84,7 @@ By following these tips, you can enhance your preparation for network certificat
 Top Network Certifications in the Industry
 ------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg" alt="Illustration: Preparing for Network Certification Exams" >}}
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### Cisco Certified Network Associate (CCNA)
 
@@ -147,7 +147,7 @@ As a cybersecurity expert, the Microsoft Certified: Azure Administrator Associat
 Career Opportunities with Network Certifications
 ------------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### Network Administrator
 
@@ -239,7 +239,7 @@ As a cybersecurity expert, the role of a Cloud Network Architect is crucial in d
 Tips for Success in Network Certifications
 ------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg" alt="Illustration: Cloud Network Architect" >}}
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### Create a Study Plan
 

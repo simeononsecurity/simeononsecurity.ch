@@ -123,7 +123,7 @@ lastmod: 2026-10-08
 শিল্পে শীর্ষ নেটওয়ার্ক সার্টিফিকেশনসমূহ
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### সিসকো সার্টিফাইড নেটওয়ার্ক অ্যাসোসিয়েট (CCNA)
 
@@ -186,7 +186,7 @@ JNCIA সার্টিফিকেশন সম্পর্কে কিছু
 নেটওয়ার্ক সার্টিফিকেশন সহ ক্যারিয়ার সুযোগসমূহ
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### নেটওয়ার্ক অ্যাডমিনিস্ট্রেটর
 
@@ -278,7 +278,7 @@ JNCIA সার্টিফিকেশন সম্পর্কে কিছু
 নেটওয়ার্ক সার্টিফিকেশনে সফলতার টিপস
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### একটি স্টাডি প্ল্যান তৈরি করুন
 

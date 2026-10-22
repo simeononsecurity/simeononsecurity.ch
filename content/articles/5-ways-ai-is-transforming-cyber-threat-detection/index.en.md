@@ -51,7 +51,7 @@ In addition to real-time monitoring, AI-powered threat detection systems can als
 Machine Learning for Anomaly Detection
 --------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/f14dd262-2aaf-46ef-960b-97b17d79fd29/thumbnail.jpeg" alt="Illustration related to Real-Time Monitoring" >}}
+{{< figure src="real-time-monitoring.webp" alt="Illustration related to Real-Time Monitoring" >}}
 
 ### Behavioral Analysis
 
@@ -64,7 +64,7 @@ Predictive modeling is a powerful application of machine learning in cyber threa
 Natural Language Processing in Security
 ---------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/ffcca673-73f8-4c04-a37e-2b362af88e6c/thumbnail.jpeg" alt="Illustration related to Predictive Modeling" >}}
+{{< figure src="predictive-modeling.webp" alt="Illustration related to Predictive Modeling" >}}
 
 ### Text Mining for Threat Analysis
 
@@ -89,7 +89,7 @@ Language-based malware detection is a crucial aspect of cybersecurity. By using 
 Deep Learning for Intrusion Detection
 -------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/ef6d42d2-4284-4afc-91e1-7bb9c78aa2c5/thumbnail.jpeg" alt="Illustration related to Language-Based Malware Detection" >}}
+{{< figure src="language-based-malware-detection.webp" alt="Illustration related to Language-Based Malware Detection" >}}
 
 ### Network Traffic Analysis
 
@@ -122,7 +122,7 @@ Advanced Persistent Threats (APTs) are highly sophisticated and [stealthy cyber 
 Automated Response and Remediation
 ----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/abae3d1c-a06e-4522-8880-d0f4a93a4a77/thumbnail.jpeg" alt="Illustration related to Identification of Advanced Persistent Threats" >}}
+{{< figure src="identification-of-advanced-persistent-threats.webp" alt="Illustration related to Identification of Advanced Persistent Threats" >}}
 
 ### Automated Incident Response
 

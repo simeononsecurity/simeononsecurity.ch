@@ -47,7 +47,7 @@ Brute force attacks are a common method used by hackers to gain unauthorized acc
 Exploiting Vulnerabilities
 --------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/8be7cfb4-d89e-416c-b438-80b4b752dd61/thumbnail.jpeg" alt="Illustration related to Brute Force Attacks" >}}
+{{< figure src="brute-force-attacks.webp" alt="Illustration related to Brute Force Attacks" >}}
 
 ### Software Vulnerabilities
 
@@ -64,7 +64,7 @@ Human vulnerabilities refer to the weaknesses and susceptibilities that individu
 Privilege Escalation
 --------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/32642936-e218-4f44-a4a8-124686fbd102/thumbnail.jpeg" alt="Illustration related to Human Vulnerabilities" >}}
+{{< figure src="human-vulnerabilities.webp" alt="Illustration related to Human Vulnerabilities" >}}
 
 ### Exploiting Misconfigurations
 
@@ -93,7 +93,7 @@ It is crucial for organizations to implement strong access controls and regularl
 Lateral Movement
 ----------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/7690dcb4-5368-4cf7-b2ca-0b0bb8b26e5a/thumbnail.jpeg" alt="Illustration related to Exploiting Privilege Misuse" >}}
+{{< figure src="exploiting-privilege-misuse.webp" alt="Illustration related to Exploiting Privilege Misuse" >}}
 
 ### Exploiting Trust Relationships
 
@@ -121,7 +121,7 @@ Remote Desktop Protocol (RDP) Exploitation is a method used by hackers to gain u
 Data Exfiltration
 -----------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/30262ff0-ee67-478f-ad5c-8bb911e79d25/thumbnail.jpeg" alt="Illustration related to Remote Desktop Protocol (RDP) Exploitation" >}}
+{{< figure src="remote-desktop-protocol-rdp-exploitation.webp" alt="Illustration related to Remote Desktop Protocol (RDP) Exploitation" >}}
 
 ### Using Command and Control (C2) Channels
 

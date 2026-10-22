@@ -82,7 +82,7 @@ Securing your social media accounts is crucial to protect your personal informat
 Protecting Your Personal Information
 ------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/492b751a-0b84-4b97-a51f-ee4a5633a859/thumbnail.jpeg)
+{{< figure src="protecting-personal-information.webp" alt="Illustration of a computer screen with a large central padlock surrounded by privacy, messaging, and device-security icons" >}}
 
 ### Managing Privacy Settings on Social Media Platforms
 
@@ -95,7 +95,7 @@ When it comes to social media, it is crucial to be mindful of the information yo
 Preventing Unauthorized Access
 ------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/58d8b36a-3775-4db4-86eb-d4794289c0cf/thumbnail.jpeg)
+{{< figure src="preventing-unauthorized-access.webp" alt="Illustration of a person filling a box labeled secure with checkmarks beside a security checklist, padlock, and keypad" >}}
 
 ### Creating Strong and Unique Passwords
 

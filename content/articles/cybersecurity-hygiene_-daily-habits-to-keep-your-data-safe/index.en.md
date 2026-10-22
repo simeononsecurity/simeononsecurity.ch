@@ -86,7 +86,7 @@ You need to prioritize cybersecurity hygiene to mitigate these risks and protect
 Daily Habits for Strong Cybersecurity
 -------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/e9977078-fd82-4172-839a-ddcd2a66abea/thumbnail.jpeg" alt="Illustration related to Consequences of Poor Cybersecurity Hygiene" >}}
+{{< figure src="consequences-of-poor-cybersecurity-hygiene.webp" alt="Illustration related to Consequences of Poor Cybersecurity Hygiene" >}}
 
 ### Creating Strong and Unique Passwords
 
@@ -135,7 +135,7 @@ Securing your home network is crucial for protecting your data and devices from 
 Educating Yourself and Others
 -----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/d6cb6bd4-f6c3-4eaf-9ec6-dafbd9ae12a4/thumbnail.jpeg" alt="Illustration related to Securing Your Home Network" >}}
+{{< figure src="securing-your-home-network.webp" alt="Illustration related to Securing Your Home Network" >}}
 
 ### Staying Informed about the Latest Threats
 
@@ -167,7 +167,7 @@ Promoting cybersecurity awareness in the workplace is crucial for [maintaining a
 Securing Mobile Devices
 -----------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/581f90c9-9b13-44b4-8493-2533bc3b0fe4/thumbnail.jpeg" alt="Illustration related to Promoting Cybersecurity Awareness in the Workplace" >}}
+{{< figure src="promoting-cybersecurity-awareness-in-the-workplace.webp" alt="Illustration related to Promoting Cybersecurity Awareness in the Workplace" >}}
 
 ### Using Secure Lock Screens and Biometric Authentication
 
@@ -184,7 +184,7 @@ Encrypting data on mobile devices is a crucial step in ensuring the security of 
 Protecting Your Online Identity
 -------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/94c2da85-27fa-4f2f-992d-c1f834aa7e88/thumbnail.jpeg" alt="Illustration related to Encrypting Data on Mobile Devices" >}}
+{{< figure src="encrypting-data-on-mobile-devices.webp" alt="Illustration related to Encrypting Data on Mobile Devices" >}}
 
 ### Using Virtual Private Networks (VPNs)
 

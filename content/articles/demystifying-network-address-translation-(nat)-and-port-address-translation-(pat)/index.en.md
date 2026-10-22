@@ -56,7 +56,7 @@ It is crucial for cybersecurity professionals to carefully consider these advant
 Understanding Port Address Translation (PAT)
 --------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/97eb266d-716e-49f5-9fcf-168e615d5d1c/thumbnail.jpeg" alt="Illustration related to Advantages and Disadvantages of NAT" >}}
+{{< figure src="advantages-and-disadvantages-of-nat.webp" alt="Illustration related to Advantages and Disadvantages of NAT" >}}
 
 ### Overview of PAT
 
@@ -84,7 +84,7 @@ To sum up, PAT is a vital mechanism in NAT that enables the efficient use of pub
 NAT vs PAT: A Comparison
 ------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/1f948037-e7d5-4169-84a3-5ed094929046/thumbnail.jpeg" alt="Illustration related to Benefits of PAT" >}}
+{{< figure src="benefits-of-pat.webp" alt="Illustration related to Benefits of PAT" >}}
 
 ### Differences Between NAT and PAT
 
@@ -133,7 +133,7 @@ Considering these use cases, PAT is a valuable tool in network address translati
 Common Challenges and Solutions in NAT and PAT
 ----------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/4172ed8c-6fb2-402a-9430-0bf787777274/thumbnail.jpeg" alt="Illustration related to Use Cases for PAT" >}}
+{{< figure src="use-cases-for-pat.webp" alt="Illustration related to Use Cases for PAT" >}}
 
 ### Address Exhaustion
 
@@ -159,7 +159,7 @@ Load balancing is an important aspect in [network address translation](https://l
 Future Trends in NAT and PAT
 ----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/b94ca7ac-a8a9-4e7e-a145-7c2eb8b4dda4/thumbnail.jpeg" alt="Illustration related to Load Balancing" >}}
+{{< figure src="load-balancing.webp" alt="Illustration related to Load Balancing" >}}
 
 ### IPv6 and NAT
 

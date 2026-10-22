@@ -123,7 +123,7 @@ lastmod: 2026-10-08
 ਉਦਯੋਗ ਵਿੱਚ ਸਿਖਰਲੇ ਨੈੱਟਵਰਕ ਸਰਟੀਫਿਕੇਸ਼ਨ
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### ਸਿਸਕੋ ਸਰਟੀਫਾਈਡ ਨੈੱਟਵਰਕ ਅਸੋਸੀਏਟ (CCNA)
 
@@ -186,7 +186,7 @@ JNCIA ਸਰਟੀਫਿਕੇਸ਼ਨ ਬਾਰੇ ਕੁਝ ਮੁੱਖ ਬ�
 ਨੈੱਟਵਰਕ ਸਰਟੀਫਿਕੇਸ਼ਨਾਂ ਨਾਲ ਕਰੀਅਰ ਮੌਕੇ
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### ਨੈੱਟਵਰਕ ਪ੍ਰਸ਼ਾਸਕ
 
@@ -278,7 +278,7 @@ JNCIA ਸਰਟੀਫਿਕੇਸ਼ਨ ਬਾਰੇ ਕੁਝ ਮੁੱਖ ਬ�
 ਨੈੱਟਵਰਕ ਪ੍ਰਮਾਣਪੱਤਰਾਂ ਵਿੱਚ ਸਫਲਤਾ ਲਈ ਸੁਝਾਅ
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### ਅਧਿਐਨ ਯੋਜਨਾ ਬਣਾਓ
 

@@ -123,7 +123,7 @@ Urmând aceste sfaturi, vă puteți îmbunătăți pregătirea pentru examenele 
 Cele Mai Bune Certificări de Rețea din Industrie
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### Cisco Certified Network Associate (CCNA)
 
@@ -186,7 +186,7 @@ Ca expert în securitate cibernetică, certificarea Microsoft Certified: Azure A
 Oportunități de carieră cu certificări în rețelistică
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### Administrator de rețea
 
@@ -278,7 +278,7 @@ Ca expert în securitate cibernetică, rolul unui Arhitect de Rețea Cloud este 
 Sfaturi pentru Succes în Certificările de Rețea
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### Creează un Plan de Studiu
 

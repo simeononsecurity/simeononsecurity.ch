@@ -56,7 +56,7 @@ Wrapping up, when choosing the right printer for your needs, considering the pri
 Troubleshooting Common Printing Issues
 --------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/5a654f83-ea04-4dda-8b6f-83a05ec9e374/thumbnail.jpeg" alt="Illustration accompanying the section on choosing a printer" >}}
+{{< figure src="choosing-a-printer.webp" alt="Illustration accompanying the section on choosing a printer" >}}
 
 ### Paper Jams and How to Clear Them
 
@@ -114,7 +114,7 @@ By addressing these common printer connectivity issues, you can ensure a secure 
 Optimizing Printer Performance
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/8d69fc1f-39b2-46a4-a2b2-b1fa9195fa6e/thumbnail.jpeg" alt="Illustration accompanying the section on printer connectivity problems" >}}
+{{< figure src="printer-connectivity-problems.webp" alt="Illustration accompanying the section on printer connectivity problems" >}}
 
 ### Regular Maintenance for Printers
 

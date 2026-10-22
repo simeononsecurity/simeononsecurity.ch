@@ -46,7 +46,7 @@ To effectively manage regulatory compliance, organizations often use compliance 
 Challenges in Cybersecurity
 ---------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/387b3368-517f-4f57-bbbe-736b8845b899/thumbnail.jpeg" alt="Illustration accompanying the section on cybersecurity regulatory compliance" >}}
+{{< figure src="cybersecurity-regulatory-compliance.webp" alt="Illustration accompanying the section on cybersecurity regulatory compliance" >}}
 
 ### Emerging Threats
 
@@ -64,7 +64,7 @@ Data privacy concerns in cybersecurity are a critical aspect of protecting sensi
 Technological Advancements in Cybersecurity
 -------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/f5d8915d-e7e5-432f-9a1d-d28033f66d70/thumbnail.jpeg" alt="Illustration accompanying the section on data privacy concerns" >}}
+{{< figure src="data-privacy-concerns.webp" alt="Illustration accompanying the section on data privacy concerns" >}}
 
 ### AI and Machine Learning
 
@@ -96,7 +96,7 @@ As the landscape of cybersecurity continues to evolve, _IoT Security_ has become
 Future Trends in Cybersecurity
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/ec2f0db2-9381-4f05-be51-7d1d9b2bb386/thumbnail.jpeg" alt="Illustration accompanying the section on IoT security" >}}
+{{< figure src="iot-security.webp" alt="Illustration accompanying the section on IoT security" >}}
 
 ### Quantum Computing Impact
 

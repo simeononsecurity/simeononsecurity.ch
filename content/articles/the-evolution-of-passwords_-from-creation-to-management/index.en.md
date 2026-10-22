@@ -42,7 +42,7 @@ In the early days of password security, [verification](https://www.techtarget.co
 Common Password Creation Practices
 ----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/585816ad-aa78-4676-93b2-e7cafe6880de/thumbnail.jpeg" alt="Illustration: Early Password Security Measures" >}}
+{{< figure src="early-password-security-measures.webp" alt="Illustration: Early Password Security Measures" >}}
 
 ### Choosing Strong Passwords
 
@@ -90,7 +90,7 @@ Note that while password generation tools can be helpful, users should still exe
 Password Management Techniques
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/98a15f0a-581e-4f9e-8ed5-2e8d00c6b22f/thumbnail.jpeg" alt="Illustration: Password Generation Tools" >}}
+{{< figure src="password-generation-tools.webp" alt="Illustration: Password Generation Tools" >}}
 
 ### Password Managers
 
@@ -157,7 +157,7 @@ It is important for organizations to implement robust password recovery methods 
 Emerging Trends in Password Security
 ------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/7622ff69-cf87-49f4-a554-1e64af8a5a22/thumbnail.jpeg" alt="Illustration: Password Recovery Methods" >}}
+{{< figure src="password-recovery-methods.webp" alt="Illustration: Password Recovery Methods" >}}
 
 ### Passwordless Authentication
 
@@ -211,7 +211,7 @@ To sum up, AI has the potential to revolutionize password protection by enhancin
 The Future of Passwords
 -----------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/97ac1d6a-c0a1-402d-92fb-fd12c8961242/thumbnail.jpeg" alt="Illustration: Artificial Intelligence in Password Protection" >}}
+{{< figure src="artificial-intelligence-in-password-protection.webp" alt="Illustration: Artificial Intelligence in Password Protection" >}}
 
 ### Post-Password Era
 

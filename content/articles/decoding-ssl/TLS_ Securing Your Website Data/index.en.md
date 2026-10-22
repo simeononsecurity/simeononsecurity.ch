@@ -56,7 +56,7 @@ SSL/TLS provides numerous benefits for securing website data. One of the key adv
 Implementing SSL/TLS
 --------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/2eda7cd1-6fc9-4662-9f08-85312f18924f/thumbnail.jpeg)
+{{< figure src="implementing-ssl-tls.webp" alt="Illustration of a laptop showing binary code behind a shield and padlock representing SSL/TLS encryption in transit" >}}
 
 ### Choosing the Right SSL/TLS Certificate
 
@@ -81,7 +81,7 @@ Implementing SSL/TLS correctly is crucial for ensuring the security of your webs
 Common SSL/TLS Vulnerabilities
 ------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/2dba6b79-ddff-4791-a98d-47f699277130/thumbnail.jpeg)
+{{< figure src="common-ssl-tls-vulnerabilities.webp" alt="Illustration of a laptop with a broken chain, bugs, and warning signs depicting common SSL/TLS vulnerabilities" >}}
 
 ### Weak Cipher Suites
 
@@ -106,7 +106,7 @@ It is essential for organizations to be aware of the risks posed by MitM attacks
 SSL/TLS in Practice
 -------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/429545ca-08d4-476b-87f3-09514e9c5bd6/thumbnail.jpeg)
+{{< figure src="ssl-tls-in-practice.webp" alt="Illustration of hands holding a magnifying glass over a browser padlock and secure badges, showing SSL/TLS in practice" >}}
 
 ### Securing E-commerce Websites
 
@@ -149,7 +149,7 @@ By implementing robust SSL/TLS protocols and following best practices, mobile ap
 Future of SSL/TLS
 -----------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/20434ae2-dba9-4d53-b00a-550feade3b2b/thumbnail.jpeg)
+{{< figure src="securing-ecommerce-ssl-tls.webp" alt="Illustration of a secured SSL/TLS login window with encrypted globes and padlocks over a glowing circuit board" >}}
 
 ### Emerging SSL/TLS Technologies
 

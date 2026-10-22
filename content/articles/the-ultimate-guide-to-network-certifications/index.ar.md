@@ -123,7 +123,7 @@ lastmod: 2026-10-08
 أفضل شهادات الشبكات في الصناعة
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### شهادة سيسكو المعتمدة لمتخصص الشبكات (CCNA)
 
@@ -186,7 +186,7 @@ lastmod: 2026-10-08
 فرص العمل مع شهادات الشبكات
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### مسؤول الشبكة
 
@@ -278,7 +278,7 @@ lastmod: 2026-10-08
 نصائح للنجاح في شهادات الشبكات
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### إنشاء خطة دراسة
 

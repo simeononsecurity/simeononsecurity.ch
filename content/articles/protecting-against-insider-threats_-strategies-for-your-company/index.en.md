@@ -49,7 +49,7 @@ It is important for organizations to be vigilant and proactive in identifying th
 Preventing Insider Threats
 --------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/4956cc93-3355-4b3a-b3da-49e49b0239d2/thumbnail.jpeg" alt="Illustration accompanying the section on common insider threat signs" >}}
+{{< figure src="common-insider-threat-signs.webp" alt="Illustration accompanying the section on common insider threat signs" >}}
 
 ### Implementing Strong Access Controls
 
@@ -66,7 +66,7 @@ Educating employees on security best practices is crucial in preventing insider 
 Detecting Insider Threats
 -------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/b1b246c8-efe9-4a3a-8ae5-3374793e96d8/thumbnail.jpeg" alt="Illustration accompanying the section on employee security education" >}}
+{{< figure src="employee-security-education.webp" alt="Illustration accompanying the section on employee security education" >}}
 
 ### Implementing Behavior Analytics
 
@@ -118,7 +118,7 @@ By following these best practices, organizations can establish robust incident r
 Responding to Insider Threats
 -----------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/24be3df6-d511-48a8-8161-bb37baf05d72/thumbnail.jpeg" alt="Illustration accompanying the section on insider threat incident response" >}}
+{{< figure src="insider-threat-incident-response.webp" alt="Illustration accompanying the section on insider threat incident response" >}}
 
 ### Investigating Suspicious Activities
 
@@ -135,7 +135,7 @@ Improving security measures is crucial in protecting against insider threats. By
 Creating a Culture of Security
 ------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/d6348430-d565-4170-890d-06725cffca9f/thumbnail.jpeg" alt="Illustration accompanying the section on improving security measures" >}}
+{{< figure src="improving-security-measures.webp" alt="Illustration accompanying the section on improving security measures" >}}
 
 ### Promoting Trust and Transparency
 

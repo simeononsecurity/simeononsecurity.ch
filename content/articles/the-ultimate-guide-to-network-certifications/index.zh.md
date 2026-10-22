@@ -123,7 +123,7 @@ lastmod: 2026-10-08
 行业顶级网络认证
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bd9c70cd-e9f5-4a38-ae7c-86f7dc7d51f2/thumbnail.jpeg)
+{{< figure src="preparing-for-network-certification-exams.webp" alt="Illustration: Preparing for Network Certification Exams" >}}
 
 ### 思科认证网络工程师（CCNA）
 
@@ -186,7 +186,7 @@ CISSP认证涵盖多个主题，包括**安全与风险管理**、**资产安全
 网络认证带来的职业机会
 ------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bdce74be-4b64-4f84-80f1-d10275865b8b/thumbnail.jpeg)
+{{< figure src="microsoft-certified-azure-administrator-associate.webp" alt="Illustration: Microsoft Certified: Azure Administrator Associate" >}}
 
 ### 网络管理员
 
@@ -278,7 +278,7 @@ CISSP认证涵盖多个主题，包括**安全与风险管理**、**资产安全
 网络认证成功技巧
 ------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/49224da7-0fa4-4ebf-9b04-54792acd2c02/thumbnail.jpeg)
+{{< figure src="cloud-network-architect.webp" alt="Illustration: Cloud Network Architect" >}}
 
 ### 制定学习计划
 

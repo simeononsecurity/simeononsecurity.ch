@@ -106,7 +106,7 @@ By following these best practices, organizations can enhance their cybersecurity
 The Process of Penetration Testing
 ----------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/4ffe1317-70bc-4257-bc26-0f2479afc85d/thumbnail.jpeg" alt="Illustration: Best Practices for Effective Penetration Testing" >}}
+{{< figure src="best-practices-for-effective-penetration-testing.webp" alt="Illustration: Best Practices for Effective Penetration Testing" >}}
 
 ### Planning and Scoping
 
@@ -183,7 +183,7 @@ The reporting and remediation phase plays a critical role in the overall effecti
 Penetration Testing Tools and Technologies
 ------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/86ff0919-ae78-443a-ab64-f5d48690cc4c/thumbnail.jpeg" alt="Illustration: Reporting and Remediation" >}}
+{{< figure src="reporting-and-remediation.webp" alt="Illustration: Reporting and Remediation" >}}
 
 ### Network Scanning Tools
 
@@ -216,7 +216,7 @@ Social engineering frameworks are essential tools for conducting effective [pene
 The Role of Penetration Testing in Compliance
 ---------------------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/f595043f-63e6-40b8-95a1-9b577cbefe0e/thumbnail.jpeg" alt="Illustration: Social Engineering Frameworks" >}}
+{{< figure src="social-engineering-frameworks.webp" alt="Illustration: Social Engineering Frameworks" >}}
 
 ### Identifying Vulnerabilities and Weaknesses
 
@@ -266,7 +266,7 @@ Demonstrating due diligence is a crucial aspect of penetration testing. It invol
 The Future of Penetration Testing
 ---------------------------------
 
-{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/20102905-2cd7-4f45-9fc7-05d80d0685f4/thumbnail.jpeg" alt="Illustration: Demonstrating Due Diligence" >}}
+{{< figure src="demonstrating-due-diligence.webp" alt="Illustration: Demonstrating Due Diligence" >}}
 
 ### Emerging Technologies and Threats
 
