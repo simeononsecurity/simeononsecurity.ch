@@ -1,0 +1,160 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samodzielnie Hostowane AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Samodzielnie Hostowane AI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/samodzielnie-hostowane-ai/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/samodzielnie-hostowane-ai/</link>
+
+    <description>Recent content in Samodzielnie Hostowane AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/samodzielnie-hostowane-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalne programowanie AI na GPU 16 GB: Strata, OpenCode i Qwen3.8</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalne AI"
+            
+              , "Narzędzia programistyczne"
+            
+              , "Samodzielnie hostowane AI"
+            
+              , "Sprzęt AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uruchom lokalnego agenta programistycznego ze Stratą i OpenCode. Sprawdź zgłoszone wyniki RTX 4060 Ti, wymagania RAM, ponowne użycie promptów, budżety rozumowania oraz ograniczenia zastępowania płatnej subskrypcji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>64GB DGX Spark ostrzega przed cenami sprzętu lokalnego AI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalne AI"
+            
+              , "Sprzęt AI"
+            
+              , "Półprzewodniki"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Ekonomia AI"
+            
+              , "Samodzielnie hostowane AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wersja 64GB DGX Spark firmy NVIDIA pokazuje, jak presja na podaż pamięci kształtuje sprzęt do lokalnego AI. Ten przewodnik wyjaśnia ograniczenie pojemności, kompromisy pamięci współdzielonej oraz powody, dla których ulga na rynku DRAM jest mało prawdopodobna przed końcem 2027 roku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

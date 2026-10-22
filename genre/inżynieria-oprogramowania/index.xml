@@ -1,0 +1,221 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inżynieria Oprogramowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Inżynieria Oprogramowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/in%C5%BCynieria-oprogramowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/in%C5%BCynieria-oprogramowania/</link>
+
+    <description>Recent content in Inżynieria Oprogramowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/in%C5%BCynieria-oprogramowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Capstone współpracy AI: GitHub, Confluence i Jira</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link>
+        
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Współpraca zespołowa"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dostarcz syntetyczną zmianę retencji przez przepływy GitHub-first oraz Confluence/Jira, z dowodami awarii i niezależnym przeglądem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Pilotaż zarządzania agentami AI: karta, zakres uprawnień i testy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link>
+        
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Współpraca zespołowa"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zdefiniuj role pilota, autorytatywne źródła, szablony zasad i testy akceptacyjne przed podłączeniem narzędzi AI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code kontra Visual Studio</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia programistyczne"
+            
+              , "IDE"
+            
+              , "Tworzenie oprogramowania"
+            
+              , "Programowanie"
+            
+              , "Edytory kodu"
+            
+              , "Visual Studio"
+            
+              , "VS Code"
+            
+              , "Microsoft Development"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Inżynieria oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie Visual Studio Code i Visual Studio Community/Professional/Enterprise na 2026 rok, obejmujące funkcje, wydajność, ceny i zastosowania, pomagające programistom wybrać odpowiednie IDE.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

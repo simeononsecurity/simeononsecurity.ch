@@ -1,0 +1,155 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funkcje Jellyfin on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Funkcje Jellyfin on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/funkcje-jellyfin/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/funkcje-jellyfin/</link>
+
+    <description>Recent content in Funkcje Jellyfin on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/funkcje-jellyfin/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jellyfin kontra Plex Media Server</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</link>
+        
+        <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "jellyfin kontra plex"
+            
+              , "Plex Media Server"
+            
+              , "Jellyfin"
+            
+              , "porównanie serwerów multimedialnych"
+            
+              , "strumieniowanie mediów"
+            
+              , "osobista biblioteka multimediów"
+            
+              , "organizacja mediów"
+            
+              , "przyjazny interfejs"
+            
+              , "otwarte oprogramowanie"
+            
+              , "opłacalny"
+            
+              , "przyjazny dla budżetu"
+            
+              , "funkcje premium"
+            
+              , "bezpłatny serwer multimedialny"
+            
+              , "funkcje serwera multimedialnego"
+            
+              , "strumieniowanie mediów"
+            
+              , "zarządzanie mediami"
+            
+              , "alternatywy dla Plex"
+            
+              , "funkcje Jellyfin"
+            
+              , "Plex kontra Jellyfin"
+            
+              , "koszty serwera multimedialnego"
+            
+              , "platformy serwerów multimedialnych"
+            
+              , "najlepszy serwer multimedialny"
+            
+              , "oprogramowanie serwera multimedialnego"
+            
+              , "serwer strumieniowy"
+            
+              , "konfiguracja serwera multimedialnego"
+            
+              , "aplikacja serwera multimedialnego"
+            
+              , "rozwiązania serwera multimedialnego"
+            
+              , "przewodnik po serwerach multimedialnych"
+            
+              , "serwer do strumieniowania mediów"
+            
+              , "porównaj Plex i Jellyfin"
+            
+              , "recenzja Plex"
+            
+              , "recenzja Jellyfin"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Plex Media Server a Jellyfin, dwoma popularnymi opcjami serwerów multimedialnych, i dokonaj świadomego wyboru na podstawie funkcji i kosztów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/plex-vs-jellyfin.webp" length="95538" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

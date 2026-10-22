@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Przeglądarki Internetowej on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Przeglądarki Internetowej on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-przegl%C4%85darki-internetowej/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-przegl%C4%85darki-internetowej/</link>
+
+    <description>Recent content in Bezpieczeństwo Przeglądarki Internetowej on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-przegl%C4%85darki-internetowej/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>LibreWolf kontra Firefox</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link>
+        
+        <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Prywatność"
+            
+              , "Przeglądarki internetowe"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Open Source"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Oprogramowanie"
+            
+              , "Porównanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje LibreWolf i Firefox, dwóch przeglądarek skoncentrowanych na prywatności, aby dokonać świadomego wyboru dla zwiększonego bezpieczeństwa i prywatności online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
