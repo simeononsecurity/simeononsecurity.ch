@@ -1,6 +1,7 @@
 ---
 title: "Linux+ XK0-006 Services and User Management Lab"
 date: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Practice Linux+ XK0-006 services and user management with accounts, processes, packages, systemd, logs, and containers in a disposable lab."
@@ -107,3 +108,7 @@ On Debian or Ubuntu, inspect `/etc/pam.d/sudo` with `cat` and identify which PAM
 Give a reviewer your account record, allowed and denied file test, process PID and signal result, package candidate, unit state and log excerpt, timer result, authentication and authorization trace, and container evidence or Not run reason. Include the initial snapshot name, the commands you ran, and cleanup. A pass needs observed evidence from your VM and a correct explanation of why each result occurred. Revisit any numbered objective without evidence before claiming exam readiness.
 
 Continue with [Linux Security](/linux-plus/linux-security/), then [Automation and Scripting](/linux-plus/scripting-containers-automation/).
+
+## Next Steps
+
+Continue with [Linux Security](/linux-plus/linux-security/) and return to the [Linux+ course](/linux-plus-start/).

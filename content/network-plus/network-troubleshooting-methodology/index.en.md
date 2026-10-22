@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Troubleshooting Method"
 date: 2023-07-27
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through scope, safety, baseline, theories, a controlled fault, saved evidence, and recovery proof."
@@ -86,6 +86,10 @@ Network troubleshooting is a systematic process that involves identifying and re
 
 Remember to gather information, establish theories based on the OSI model, test those theories, create a plan of action, implement solutions, verify system functionality, and document the entire process. By following these steps and using the right tools, you can become a proficient network troubleshooter.
 
+
+## Next Steps
+
+Continue with [Troubleshooting Cable Connectivity Issues](/network-plus/network-plus-course-troubleshooting-cable-connectivity-issues/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 27: Troubleshooting Method
 

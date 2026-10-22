@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Network Hardening"
 date: 2023-07-21
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through secure management, SNMPv3, DAI, RA Guard, a controlled fault, saved evidence, and recovery proof."
@@ -118,6 +118,10 @@ Remember, network security is an ongoing process, and it's important to regularl
 - Microsoft Security Blog - [https://www.microsoft.com/security/blog/](https://www.microsoft.com/security/blog/)
 - Cisco Networking Academy - [https://www.netacad.com/](https://www.netacad.com/)
 
+
+## Next Steps
+
+Continue with [Physical Security and Its Importance](/network-plus/network-plus-course-importance-of-physical-security/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 24: Network Hardening
 

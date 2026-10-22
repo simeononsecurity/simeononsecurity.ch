@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Facilities Monitoring"
 date: 2023-07-15
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through thresholds, units, placement, baselines, a controlled fault, saved evidence, and recovery proof."
@@ -104,6 +104,10 @@ By leveraging the knowledge gained from the CompTIA Network+ certification, netw
 4. [Zabbix](https://www.zabbix.com/)
 5. [Nagios](https://www.nagios.org/)
 
+
+## Next Steps
+
+Continue with [Plans, Procedures, and Policies](/network-plus/network-plus-course-plans-procedures-policies/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 15: Facilities Monitoring
 

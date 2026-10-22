@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Ports and Protocols"
 date: 2023-07-03
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through service identification, packet capture, a controlled fault, saved evidence, and recovery proof."
@@ -96,6 +96,10 @@ ______
 
 Ports, protocols, and network services are fundamental elements of computer networks. They enable communication, facilitate secure data transmission, and ensure the smooth operation of various network applications. By understanding common ports and protocols, their applications, and encrypted alternatives, individuals can enhance network security and make informed decisions regarding network configuration and administration. Additionally, having knowledge of IP protocol types allows for better network troubleshooting and optimization.
 
+
+## Next Steps
+
+Continue with [Network Services, Connectivity Options, and Architecture](/network-plus/network-services-connectivity-options-architecture/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 04: Ports and Protocols
 

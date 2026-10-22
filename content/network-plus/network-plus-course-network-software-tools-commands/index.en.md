@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Network Tools"
 date: 2023-07-29
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Use scoped address, route, DNS, socket, scan, and packet tools against the course topology, then save expected output and diagnose one fault."
@@ -137,6 +137,10 @@ Network software tools and command line utilities play a vital role in network t
 - [Microsoft netstat Command Reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat)
 - [Nmap Reference Guide](https://nmap.org/book/man.html)
 
+
+## Next Steps
+
+Continue with [Troubleshooting General Networking Issues](/network-plus/network-plus-course-troubleshooting-general-networking-issues/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 26: Network Tools
 

@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Network Devices"
 date: 2023-07-06
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through device placement, packet paths, OSI roles, a controlled fault, saved evidence, and recovery proof."
@@ -72,6 +72,10 @@ Networking devices are constantly evolving, and it is important to stay updated 
 3. [Federal Communications Commission (FCC)](https://www.fcc.gov/)
 4. [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
 
+
+## Next Steps
+
+Continue with [Routing Technologies and Concepts](/network-plus/routing-technologies-concepts/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 01: Network Devices
 

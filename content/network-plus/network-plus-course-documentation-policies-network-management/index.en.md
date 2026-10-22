@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Network Documentation"
 date: 2023-07-17
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through logical and physical diagrams, racks, cables, a controlled fault, saved evidence, and recovery proof."
@@ -112,6 +112,10 @@ ______
 - [PCI DSS](https://www.pcisecuritystandards.org/)
 - [GDPR](https://gdpr.eu/)
 
+
+## Next Steps
+
+Continue with [Network Availability and Resilience](/network-plus/network-availability-resilience-enhancement/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 16: Network Documentation
 

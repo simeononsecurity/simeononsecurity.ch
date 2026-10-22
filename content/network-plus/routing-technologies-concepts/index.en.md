@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Routing"
 date: 2023-07-07
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through longest-prefix match, route source, metrics, a controlled fault, saved evidence, and recovery proof."
@@ -106,6 +106,10 @@ By mastering **routing technologies and concepts**, network administrators can b
 
 ______
 
+
+## Next Steps
+
+Continue with [Bandwidth Management and QoS](/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 06: Routing
 

@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Physical Security"
 date: 2023-07-22
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through doors, racks, consoles, ports, a controlled fault, saved evidence, and recovery proof."
@@ -105,6 +105,10 @@ ______
 7. [Cisco Certified Network Associate (CCNA) Certification](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html)
 8. [Microsoft Technology Associate (MTA) Certification](https://www.microsoft.com/en-us/learning/mta-certification.aspx)
 
+
+## Next Steps
+
+Continue with [Patch and Firmware Management](/network-plus/network-plus-course-firmware-and-patch-management/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 22: Physical Security
 

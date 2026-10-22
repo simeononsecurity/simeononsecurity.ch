@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Performance Monitoring"
 date: 2023-07-13
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through sampling, utilization, errors, thresholds, a controlled fault, saved evidence, and recovery proof."
@@ -66,6 +66,10 @@ Performance monitoring and management are vital for maintaining a healthy and ef
 
 By implementing effective performance monitoring and management practices, organizations can enhance their network reliability, optimize resource utilization, and deliver a seamless experience to users.
 
+
+## Next Steps
+
+Continue with [Network Logs and Logging](/network-plus/network-plus-course-understanding-importance-network-logs-logging/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 17: Performance Monitoring
 

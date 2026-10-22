@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Plans and Procedures"
 date: 2023-07-16
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through change, incident, continuity, a controlled fault, saved evidence, and recovery proof."
@@ -82,6 +82,10 @@ ______
 
 ______
 
+
+## Next Steps
+
+Continue with [Documentation and Policies](/network-plus/network-plus-course-documentation-policies-network-management/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 21: Plans and Procedures
 

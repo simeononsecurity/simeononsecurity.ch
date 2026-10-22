@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Cable Troubleshooting"
 date: 2023-07-28
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through distance, PoE, auto-MDI-X, safety, a controlled fault, saved evidence, and recovery proof."
@@ -158,6 +158,10 @@ ______
 
 Troubleshooting cable connectivity issues is an essential skill for network technicians, and it plays a significant role in the CompTIA Network+ Certification Exam. By understanding common cable considerations, cable applications, and troubleshooting techniques, professionals can diagnose and resolve cable-related problems effectively. Equipped with the right knowledge and tools, network technicians can ensure reliable and efficient network connectivity.
 
+
+## Next Steps
+
+Continue with [Network Software Tools and Commands](/network-plus/network-plus-course-network-software-tools-commands/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 28: Cable Troubleshooting
 

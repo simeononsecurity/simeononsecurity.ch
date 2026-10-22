@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Cabling and Addressing"
 date: 2023-07-02
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn cabling and addressing for Network+ N10-009 through copper, fiber, DAC, AOC, a controlled fault, saved evidence, and recovery proof in a lab."
@@ -149,6 +149,10 @@ ______
 - [TIA/EIA-568A and TIA/EIA-568B Termination Standards](https://www.csd.uoc.gr/~hy435/material/Cabling%20Standard%20-%20ANSI-TIA-EIA%20568%20B%20-%20Commercial%20Building%20Telecommunications%20Cabling%20Standard.pdf)
 - [RFC 1918 - Address Allocation for Private Internets](https://tools.ietf.org/html/rfc1918)
 
+
+## Next Steps
+
+Continue with [Ports, Protocols, and Network Services](/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 03: Cabling and Addressing
 

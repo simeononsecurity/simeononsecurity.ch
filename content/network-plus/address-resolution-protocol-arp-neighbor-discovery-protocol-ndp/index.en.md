@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: ARP and NDP"
 date: 2023-07-10
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Capture ARP and IPv6 Neighbor Discovery for N10-009, inspect cache states, test duplicate detection, and document Layer 2 security limits in a lab."
@@ -173,6 +173,10 @@ Use [RFC 826](https://www.rfc-editor.org/rfc/rfc826) for ARP and [RFC 4861](http
 - [Wireshark](https://www.wireshark.org/)
 - [CompTIA Network+ Certification Exam](https://www.comptia.org/certifications/network)
 
+
+## Next Steps
+
+Continue with [Wireless Standards and Technologies](/network-plus/network-plus-course-wireless-standards-technologies/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 08: ARP and NDP
 

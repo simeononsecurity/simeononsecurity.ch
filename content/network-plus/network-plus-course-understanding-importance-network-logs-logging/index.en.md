@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Network Logs and Syslog"
 date: 2023-07-14
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through facility, severity, timestamps, time zones, a controlled fault, saved evidence, and recovery proof."
@@ -93,6 +93,10 @@ ______
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
 - [Syslog Protocol](https://tools.ietf.org/html/rfc5424)
 
+
+## Next Steps
+
+Continue with [Environmental Factors and Sensors](/network-plus/environmental-factors-sensors-network-monitoring/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 18: Network Logs and Syslog
 

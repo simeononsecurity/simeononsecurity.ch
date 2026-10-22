@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Network Services"
 date: 2023-07-04
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through DHCP DORA and relay, DNS recursion, a controlled fault, saved evidence, and recovery proof."
@@ -168,6 +168,10 @@ Network services, connectivity options, and architectural frameworks form the fo
 - Network Time Security: [RFC 8915](https://www.rfc-editor.org/rfc/rfc8915)
 - Cloud Concepts: [https://aws.amazon.com/what-is-cloud-computing/](https://aws.amazon.com/what-is-cloud-computing/)
 
+
+## Next Steps
+
+Continue with [Cloud Computing and Infrastructure Concepts](/network-plus/cloud-computing-infrastructure-concepts/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 05: Network Services
 

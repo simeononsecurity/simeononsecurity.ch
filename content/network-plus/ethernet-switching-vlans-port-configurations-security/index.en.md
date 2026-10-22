@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Switching and VLANs"
 date: 2023-07-09
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through access, trunk, native and voice VLANs, SVI, a controlled fault, saved evidence, and recovery proof."
@@ -97,6 +97,10 @@ Ethernet switching features and configurations play a crucial role in building r
 1. [CompTIA Network+ Certification](https://www.comptia.org/certifications/network)
 2. [IEEE 802.1Q VLAN Tagging](https://standards.ieee.org/standard/802_1Q-2018.html)
 
+
+## Next Steps
+
+Continue with [Address Resolution Protocol (ARP) and Neighbor Discovery Protocol](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 07: Switching and VLANs
 

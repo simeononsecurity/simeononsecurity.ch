@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Wireless Security"
 date: 2023-07-24
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn wireless security for Network+ N10-009 through WPA2, WPA3, PSK, 802.1X, a controlled fault, saved evidence, and recovery proof in a lab."
@@ -70,6 +70,10 @@ Remember, securing wireless networks and IoT devices is an ongoing process that 
 - [NIST Special Publication 800-48 - Wireless Network Security: 802.11, Bluetooth, and Handheld Devices](https://csrc.nist.gov/publications/detail/sp/800-48/rev-1/final)
 - [CompTIA Network+ Certification Exam](https://www.comptia.org/certifications/network)
 
+
+## Next Steps
+
+Continue with [Detection and Prevention Methods](/network-plus/network-plus-course-detection-prevention-methods/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 10: Wireless Security
 

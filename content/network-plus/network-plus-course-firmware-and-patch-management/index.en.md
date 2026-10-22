@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Firmware and Patching"
 date: 2023-07-23
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through advisories, asset versions, signatures, a controlled fault, saved evidence, and recovery proof."
@@ -72,6 +72,10 @@ ______
 2. [Payment Card Industry Data Security Standard (PCI DSS)](https://www.pcisecuritystandards.org/)
 3. [WPA3 Wi-Fi Security](https://www.wi-fi.org/discover-wi-fi/security)
 
+
+## Next Steps
+
+Continue with [Wireless Security and IoT Access](/network-plus/network-plus-course-wireless-security-iot-access/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 20: Firmware and Patching
 

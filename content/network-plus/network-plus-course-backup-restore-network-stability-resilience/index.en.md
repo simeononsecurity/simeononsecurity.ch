@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Backup and Restore"
 date: 2023-07-20
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through exports, secrets, versions, checksums, a controlled fault, saved evidence, and recovery proof."
@@ -143,6 +143,10 @@ ______
 14. [NGINX](https://www.nginx.com/)
 15. [Apache HTTP Server](https://httpd.apache.org/)
 
+
+## Next Steps
+
+Continue with [Network Hardening Techniques](/network-plus/network-plus-course-network-hardening-techniques/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 19: Backup and Restore
 

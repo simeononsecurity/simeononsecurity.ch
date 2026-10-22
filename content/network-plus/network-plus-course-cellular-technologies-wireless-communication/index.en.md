@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Cellular Networks"
 date: 2023-07-12
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through LTE, 5G NSA and SA, SIM, eSIM, a controlled fault, saved evidence, and recovery proof."
@@ -73,6 +73,10 @@ In conclusion, cellular technologies, including CDMA, GSM, LTE, 3G, 4G, and 5G, 
 - 4G Americas - [https://www.4gamericas.org/](https://www.4gamericas.org/)
 - 5G Americas - [https://www.5gamericas.org/](https://www.5gamericas.org/)
 
+
+## Next Steps
+
+Continue with [Performance Monitoring and Management](/network-plus/network-plus-course-performance-monitoring-management/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 11: Cellular Networks
 

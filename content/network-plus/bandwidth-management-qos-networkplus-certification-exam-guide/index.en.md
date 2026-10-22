@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: QoS and Bandwidth"
 date: 2023-07-08
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through DSCP, CoS, trust boundaries, queues, a controlled fault, saved evidence, and recovery proof."
@@ -65,6 +65,10 @@ Remember, successful network management requires continuous monitoring, analysis
 1. [Address Resolution Protocol (ARP) - RFC 826](https://datatracker.ietf.org/doc/html/rfc826)
 2. [Neighbor Discovery Protocol (NDP) - RFC 4861](https://datatracker.ietf.org/doc/html/rfc4861)
 
+
+## Next Steps
+
+Continue with [Ethernet Switching Features and Configurations](/network-plus/ethernet-switching-vlans-port-configurations-security/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 13: QoS and Bandwidth
 

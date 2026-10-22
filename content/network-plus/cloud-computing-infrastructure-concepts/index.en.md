@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Cloud Networking"
 date: 2023-07-05
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through VPC addressing, route tables, security groups, a controlled fault, saved evidence, and recovery proof."
@@ -136,6 +136,10 @@ ______
 - [Microsoft Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/)
 - [Multitenancy in Cloud Computing](https://www.redhat.com/en/topics/cloud-computing/what-is-multitenancy)
 
+
+## Next Steps
+
+Continue with [Introduction to Networking Devices](/network-plus/introduction-to-networking-devices-roles-features-comparison/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 12: Cloud Networking
 

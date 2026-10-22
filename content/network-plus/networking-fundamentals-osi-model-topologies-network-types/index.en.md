@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: OSI and Modern Networks"
 date: 2023-07-01
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through PDUs, MAC and IP addressing, encapsulation, a controlled fault, saved evidence, and recovery proof."
@@ -194,6 +194,10 @@ References:
 - [OSI Model - Cisco](https://learningnetwork.cisco.com/s/article/osi-model-reference-chart)
 - [How Does the Internet Work? - Stanford University](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 
+
+## Next Steps
+
+Continue with [Cables, Connectors, and IP Addressing](/network-plus/cables-connectors-ip-addressing-guide/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 02: OSI and Modern Networks
 

@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Physical Detection"
 date: 2023-07-25
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through cameras, badges, biometrics, lighting, a controlled fault, saved evidence, and recovery proof."
@@ -79,6 +79,10 @@ Remember, network security is an ongoing process, and organizations should stay 
 3. [ISO/IEC 27001:2013 - Information technology — Security techniques — Information security management systems — Requirements](https://www.iso.org/standard/54534.html)
 4. [HIPAA Security Rule - U.S. Department of Health & Human Services](https://www.hhs.gov/hipaa/for-professionals/security/index.html)
 
+
+## Next Steps
+
+Continue with [Asset Disposal and Sanitization](/network-plus/network-plus-course-asset-disposal-sanitization-network-security/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 23: Physical Detection
 

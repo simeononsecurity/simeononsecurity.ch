@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: High Availability"
 date: 2023-07-18
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through failure domains, quorum, split brain, VRRP, a controlled fault, saved evidence, and recovery proof."
@@ -57,6 +57,10 @@ ______
 
 Network availability and resilience are paramount for businesses in today's digital landscape. High availability and disaster recovery strategies, load balancing, multipathing, NIC teaming, redundant hardware, clustering, and robust facilities and infrastructure all contribute to ensuring uninterrupted network operations. By implementing these measures, organizations can minimize downtime, mitigate risks, and maintain a reliable and resilient network infrastructure.
 
+
+## Next Steps
+
+Continue with [Backup and Restore](/network-plus/network-plus-course-backup-restore-network-stability-resilience/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 14: High Availability
 

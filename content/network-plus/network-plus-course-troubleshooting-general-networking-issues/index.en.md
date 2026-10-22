@@ -1,7 +1,7 @@
 ---
 title: "CompTIA Network+ N10-009: Network Issues"
 date: 2023-07-30
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Learn Network Skills for CompTIA Network+ N10-009 through switching and routing loops, rogue DHCP, a controlled fault, saved evidence, and recovery proof."
@@ -235,6 +235,10 @@ ___
 - [Network Time Protocol (NTP)](https://en.wikipedia.org/wiki/Network_Time_Protocol)
 - [Bring Your Own Device (BYOD)](https://en.wikipedia.org/wiki/Bring_your_own_device)
 
+
+## Next Steps
+
+You have reached the final lesson in this course. Return to the [Network+ course](/network-plus-start/) to review the full N10-009 lesson sequence and the practical final.
 
 ## Progressive Lab Checkpoint 29: Network Issues
 

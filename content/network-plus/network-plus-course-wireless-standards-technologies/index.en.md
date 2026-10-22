@@ -4,7 +4,7 @@ date: 2023-07-11
 toc: true
 draft: false
 description: "Compare N10-009 wireless standards, bands, channels, security, antennas, roaming, and survey evidence through a measured RF planning exercise."
-lastmod: 2026-10-10
+lastmod: 2026-10-21
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Wireless Standards", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
@@ -107,6 +107,10 @@ Remember to stay up to date with the latest advancements and government regulati
 - [Federal Communications Commission (FCC)](https://www.fcc.gov/)
 - [WiFi Alliance](https://www.wi-fi.org/)
 
+
+## Next Steps
+
+Continue with [Cellular Technologies and Wireless Communication](/network-plus/network-plus-course-cellular-technologies-wireless-communication/) and return to the [Network+ course](/network-plus-start/).
 
 ## Progressive Lab Checkpoint 09: Wireless Standards
 
