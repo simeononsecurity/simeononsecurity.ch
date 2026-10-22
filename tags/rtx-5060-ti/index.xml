@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTX 5060 Ti on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>RTX 5060 Ti on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/rtx-5060-ti/</link></image><link>https://nl.simeononsecurity.com/tags/rtx-5060-ti/</link><description>Recent content in RTX 5060 Ti on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/rtx-5060-ti/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti versus GB10: waarom 32 GB VRAM verliest van 128 GB unified memory</title><link>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Lokale AI"
+, "GPU-hardware"
+, "Benchmarking"
+, "Computerhardware"</category><guid>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een benchmarkvergelijking van twee RTX 5060 Ti-kaarten met 16 GB en een NVIDIA GB10-systeem voor Qwen 3 27B en lokale inferentie met een lange context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Is 16 GB VRAM genoeg voor serieus lokaal LLM-werk?</title><link>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Computerhardware"
+, "Zelfgehoste AI"</category><guid>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bepaal de omvang van een lokale LLM-configuratie met 16 GB op basis van modelgewichten, KV-cache en promptverwerking. Vergelijk geheugenbudgetten, GPU-bandbreedte en eigendomskosten voor Qwen3.8 27B.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>32 GB VRAM voor Qwen 27B: hardwaregids voor lokale AI in oktober 2026</title><link>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "GPU-benchmarking"
+, "Zelf gehoste AI"
+, "Computerhardware"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktische gids voor oktober 2026 om een Qwen 27B-model te draaien met 32 GB bruikbaar acceleratorgeheugen. Vergelijk losse GPU's, systemen met twee kaarten, unified memory, gebruikte datacenterkaarten, gehuurde rekenkracht, softwareondersteuning en limieten bij volledige context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
