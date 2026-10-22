@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源虚拟化 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>开源虚拟化 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%BC%80%E6%BA%90%E8%99%9A%E6%8B%9F%E5%8C%96/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%BC%80%E6%BA%90%E8%99%9A%E6%8B%9F%E5%8C%96/</link><description>Recent content in 开源虚拟化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%BC%80%E6%BA%90%E8%99%9A%E6%8B%9F%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware vs Hyper-V vs Proxmox：虚拟化对比</title><link>https://zh.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "虚拟化"
+, "IT 基础设施"
+, "服务器虚拟化"
+, "企业软件"
+, "云计算"
+, "数据中心解决方案"
+, "开源虚拟化"
+, "虚拟机管理"
+, "虚拟化对比"</category><guid>https://zh.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+轻松比较 VMware ESXi、Citrix XenServer、Hyper-V、Proxmox VE 和 XCP-NG，选择理想的虚拟化解决方案，实现业务成功。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item></channel></rss>

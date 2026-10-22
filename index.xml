@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://zh.simeononsecurity.com/</link></image><link>https://zh.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>2026 年 AI 基础设施热潮：需求、债务、电力与证据</title><link>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "AI 经济学"
+, "数据中心"
+, "云基础设施"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 AI 基础设施支出、数据中心电力需求、融资结构、企业价值，以及在称市场为泡沫前所需证据的事实核查。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>2x RTX 5060 Ti 对比 GB10：为什么 32 GB 显存不敌 128 GB 统一内存</title><link>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "GPU 硬件"
+, "基准测试"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+基于基准测试，对比两张 16 GB RTX 5060 Ti 显卡与 NVIDIA GB10 系统运行 Qwen 3 27B 和长上下文本地推理的表现。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>本地 AI 隐私边界：哪些内容留在你的电脑上，哪些不会</title><link>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "隐私"
+, "自托管 AI"
+, "网络安全"
+, "AI 经济学"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在选择本地推理或托管 AI 服务前，追踪提示词、模型文件、工具、日志、网络暴露面和电力成本。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Claude Code CLI 与 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较终端中的 Claude Code 与桌面 Code 工作区，涵盖共享设置、会话交接、脚本、可视化审查和权限选择。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>CLI 编程代理比较：Claude Code、Codex、Gemini、OpenCode、Copilot 和 Aider</title><link>https://zh.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从工作流、自动化、模型访问、权限和审查工作量比较六种终端编程代理。通过可重复的仓库试验建立候选清单。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI 对比 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在终端中的 Codex 与 OpenAI 桌面编程工作区之间做出选择。比较脚本、worktree、可视化审查、计划和执行环境。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI 与 VS Code：2026 工作流对比</title><link>https://zh.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Copilot 终端代理与 VS Code 体验，涵盖编辑器上下文、可视化差异、Agent 模式、CLI 集成和账户策略。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUI 编程代理比较：Cursor、Windsurf、Cline、Copilot 与 Continue</title><link>https://zh.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较图形化编程代理，区分完整编辑器与扩展，并检查 Roo Code 停止服务的背景、模型访问、批准和审查流程。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>OpenCode CLI 对比 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从服务器架构、提供商配置、脚本、会话状态和故障排除方面比较 OpenCode 的终端客户端与桌面客户端。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>Which AI Models Can Run on a Raspberry Pi 4 or 5?</title><link>https://zh.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Artificial Intelligence"
+, "Self Hosting"</category><guid>https://zh.simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Use measured Raspberry Pi 4 and 5 results to choose local language models by memory, speed, and workload, from tiny LFM2.5 models to 3B and larger options.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Docker in LXC on Proxmox: Reliability, Evidence, and VM Migration</title><link>https://zh.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "Linux Administration"
+, "Homelab"</category><guid>https://zh.simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Evaluate Docker inside Proxmox LXC with a documented AppArmor failure, a careful reading of a host-freeze report, diagnostic commands, and a VM migration plan.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://zh.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>SenseCAP M1 Raspberry Pi Shield: Pinout and LoRaWAN Reuse</title><link>https://zh.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "IoT"
+, "Hardware Security"</category><guid>https://zh.simeononsecurity.com/articles/sensecap-m1-raspberry-pi-shield/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand the SenseCAP M1 shield, compare conflicting GPIO maps, inspect its ATECC608, and plan a LoRaWAN gateway with modern Raspberry Pi OS.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/sensecap-wm1302-shield-hardware.webp" length="563558" type="image/webp"/></item><item><title>Flock Safety's Sales Pitch: Warrantless Access to Every Movement</title><link>https://zh.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacy Technology"
+, "Digital Rights"
+, "Surveillance"
+, "Legal Analysis"
+, "Counter Surveillance"</category><guid>https://zh.simeononsecurity.com/articles/flock-safety-sales-pitch-warrantless-access-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety does not sell cameras. It sells a subscription to warrantless movement data. Here is how the sales pitch works, how it runs against the Fourth Amendment, and why the fight is about the pitch, not the company.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-warrantless-access-surveillance-database.webp" length="440804" type="image/webp"/></item><item><title>GrapheneOS Sandboxed Google Play Explained</title><link>https://zh.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Mobile Security"
+, "Open Source"</category><guid>https://zh.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026</title><link>https://zh.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Cloud Security"
+, "Career Development"</category><guid>https://zh.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>The Most Common Types of Cyberattacks and How Defenders Catch Them</title><link>https://zh.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Threat Detection"
+, "Blue Team"
+, "Security Operations"
+, "Career Development"</category><guid>https://zh.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Why Port Forwarding Doesn't Work on T-Mobile Home Internet</title><link>https://zh.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://zh.simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays</title><link>https://zh.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://zh.simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>Flock摄像头：公共安全工具还是无证监控机器？</title><link>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "监控"
+, "公民自由"
+, "执法技术"
+, "数字权利"</category><guid>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对Flock Safety ALPR摄像头的独立分析：它们的实际工作原理、除车牌之外收集的数据、数据共享如何创建隐蔽的全国数据库，以及为何搜查令问题才是真正的核心问题。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>Flock Finder：绘制 Flock Safety ALPR 摄像头地图</title><link>https://zh.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"隐私技术"
+, "反监控"
+, "开源项目"
+, "数字权利"
+, "网络安全"
+, "隐私工具"
+, "硬件黑客"
+, "安全研究"</category><guid>https://zh.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder 是一款开源工具，利用 WiGLE WiFi 数据和 OUI 指纹识别，绘制全球 40,000 多台 Flock Safety ALPR 摄像头的地图。了解其工作原理、局限性以及用于实时检测的硬件工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock Safety摄像头监控：隐私与保护</title><link>https://zh.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"隐私技术"
+, "监控系统"
+, "数字权利"
+, "执法技术"
+, "隐私保护"
+, "反监控"
+, "公民自由"
+, "技术伦理"
+, "智慧城市基础设施"
+, "安全硬件"</category><guid>https://zh.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解2026年Flock Safety ALPR摄像头的广泛部署情况，理解其隐私影响，并学习有效的反监控策略，包括检测设备。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item><item><title>Flock-You检测：反监控设置指南</title><link>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全硬件"
+, "反监控"
+, "隐私技术"
+, "开源项目"
+, "ESP32开发"
+, "WiFi监控"
+, "隐私工具"
+, "数字权利"
+, "硬件破解"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用基于ESP32硬件检测Flock Safety ALPR摄像头的开源Flock-You项目综合技术指南。包括设置说明、固件详情和购买选项。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Fortinet 与 Cisco：完整的网络安全对比</title><link>https://zh.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "网络安全"
+, "企业网络"
+, "防火墙对比"
+, "IT 基础设施"
+, "网络硬件"
+, "安全解决方案"
+, "网络管理"
+, "技术对比"
+, "IT 决策"</category><guid>https://zh.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+全面比较 Fortinet 和 Cisco 的网络安全解决方案，包括防火墙、交换机、SD-WAN、定价、性能基准以及 2026 年的部署建议。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Visual Studio Code 与 Visual Studio 对比</title><link>https://zh.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"开发工具"
+, "集成开发环境"
+, "软件开发"
+, "编程"
+, "代码编辑器"
+, "Visual Studio"
+, "VS Code"
+, "微软开发"
+, "开发者工具"
+, "软件工程"</category><guid>https://zh.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年全面比较 Visual Studio Code 与 Visual Studio Community/Professional/Enterprise，包括功能、性能、价格和使用场景，帮助开发者选择合适的IDE。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item></channel></rss>
