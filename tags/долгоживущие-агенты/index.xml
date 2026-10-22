@@ -1,0 +1,99 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Долгоживущие Агенты on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Долгоживущие Агенты on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D0%B6%D0%B8%D0%B2%D1%83%D1%89%D0%B8%D0%B5-%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D0%B6%D0%B8%D0%B2%D1%83%D1%89%D0%B8%D0%B5-%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%8B/</link>
+
+    <description>Recent content in Долгоживущие Агенты on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D0%B6%D0%B8%D0%B2%D1%83%D1%89%D0%B8%D0%B5-%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Контекстные языковые модели Meta: лучшая память агентов, но не конец галлюцинаций</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "ИИ-агенты"
+            
+              , "Локальный ИИ"
+            
+              , "Безопасность ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Как Context Language Models редактируют память агента, что показывают бенчмарки и как стоимость кеша, возможности модели и ненадёжные заметки влияют на надёжность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
