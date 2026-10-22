@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tesla V100 on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Tesla V100 on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/tesla-v100/</link></image><link>https://hi.simeononsecurity.com/tags/tesla-v100/</link><description>Recent content in Tesla V100 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/tesla-v100/index.xml" rel="self" type="application/rss+xml"/><item><title>Qwen 27B के लिए 32GB VRAM: अक्टूबर 2026 की लोकल AI हार्डवेयर गाइड</title><link>https://hi.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"लोकल AI"
+, "AI हार्डवेयर"
+, "GPU बेंचमार्किंग"
+, "Self-Hosted AI"
+, "कंप्यूटर हार्डवेयर"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+32GB उपयोगी accelerator memory के साथ Qwen 27B मॉडल चलाने के लिए अक्टूबर 2026 की व्यावहारिक गाइड। इसमें single GPU, दो कार्ड वाले सिस्टम, unified memory, इस्तेमाल किए गए data-center कार्ड, किराये की computing, software support और full-context सीमाओं की तुलना है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

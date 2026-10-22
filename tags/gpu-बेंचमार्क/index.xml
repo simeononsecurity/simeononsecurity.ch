@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GPU बेंचमार्क on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>GPU बेंचमार्क on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/gpu-%E0%A4%AC%E0%A5%87%E0%A4%82%E0%A4%9A%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95/</link></image><link>https://hi.simeononsecurity.com/tags/gpu-%E0%A4%AC%E0%A5%87%E0%A4%82%E0%A4%9A%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95/</link><description>Recent content in GPU बेंचमार्क on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/gpu-%E0%A4%AC%E0%A5%87%E0%A4%82%E0%A4%9A%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti बनाम GB10: 32 GB VRAM, 128 GB यूनिफाइड मेमोरी से क्यों हारती है</title><link>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "स्थानीय AI"
+, "GPU हार्डवेयर"
+, "बेंचमार्किंग"
+, "कंप्यूटर हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Qwen 3 27B और लंबे संदर्भ वाले स्थानीय इन्फरेंस के लिए दो 16 GB RTX 5060 Ti कार्ड और NVIDIA GB10 सिस्टम की बेंचमार्क आधारित तुलना।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Vast.ai पर Llama 3.1 8B और Qwen3.8 27B GPU बेंचमार्क</title><link>https://hi.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "GPU बेंचमार्किंग"
+, "Self-hosted AI"
+, "क्लाउड कंप्यूटिंग"
+, "कृत्रिम बुद्धिमत्ता"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+प्रमुख Vast.ai GPU पर Llama 3.1 8B और Qwen3.8 27B के मापे गए Ollama बेंचमार्क। डिकोड गति, लंबे संदर्भ, किराया लागत, self-hosting, API क्रेडिट और सदस्यताओं की तुलना।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
