@@ -1,6 +1,7 @@
 ---
-title: "Criando um laboratório doméstico: um guia para profissionais de TI, estudantes e amadores"
+title: "O que é um homelab? Um guia de configuração para profissionais de TI"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Este guia abrangente fornece uma visão geral detalhada do que é um Home Lab, por que criar um, quais componentes são necessários, como configurá-lo, tópicos avançados a serem explorados e práticas recomendadas a serem seguidas."

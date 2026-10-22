@@ -1,5 +1,5 @@
 ---
-title: "Opanowanie GPO: Kompleksowy przewodnik po skutecznym..."
+title: "Group Policy Objects (GPOs): przewodnik po kontroli systemu Windows"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: Symboliczny obraz w stylu artystycznym przedstawiający sieć połączonych kół zębatych, symbolizujących efektywne zarządzanie i optymalizację sieci.
 coverCaption: 'Odblokuj moc GPO: uprość zarządzanie siecią już dziś!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: Wszystko, co musisz wiedzieć o Obiektach Zasad Grupowych
 

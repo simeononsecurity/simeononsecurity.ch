@@ -1,6 +1,7 @@
 ---
-title: "Le rôle de l'orchestration de conteneurs dans les environnements DevOps modernes"
+title: "Orchestration de conteneurs dans les environnements DevOps modernes"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez l'importance et les avantages de l'orchestration de conteneurs dans le DevOps moderne, ainsi que les outils d'orchestration de conteneurs les plus courants et les réglementations gouvernementales relatives à la conteneurisation."

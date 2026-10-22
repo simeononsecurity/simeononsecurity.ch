@@ -1,6 +1,7 @@
 ---
-title: "Certificazioni di cybersecurity per professionisti governativi e militari"
+title: "Certificazioni di cybersicurezza per il governo e l'esercito"
 date: 2023-05-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite i requisiti, i vantaggi e i percorsi di carriera delle certificazioni di cybersecurity nei settori governativo e militare."

@@ -1,6 +1,7 @@
 ---
-title: "Zbuduj niedrogie, bezpieczne domowe laboratorium do testowania i nauki IT"
+title: "Zbuduj niedrogie, bezpieczne domowe laboratorium do testów IT"
 date: 2023-03-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi."

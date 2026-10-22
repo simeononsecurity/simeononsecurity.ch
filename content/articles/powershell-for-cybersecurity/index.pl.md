@@ -1,6 +1,7 @@
 ---
-title: "Potęga PowerShella dla usprawnienia operacji bezpieczeństwa cybernetycznego i zgodności z przepisami"
+title: "PowerShell w cyberbezpieczeństwie: automatyzacja i obrona"
 date: 2023-02-02
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów."

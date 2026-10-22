@@ -1,6 +1,7 @@
 ---
-title: "Ansible 自动化：从普通 Ansible 到 Ansible Tower 和 Semaphore"
+title: "Ansible、Semaphore 与 Tower：自动化对比"
 date: 2023-06-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "通过对普通 Ansible、Ansible Tower 和 Ansible Semaphore 的比较，了解 Ansible 自动化的强大功能，并为高效的基础架构管理选择合适的工具。"

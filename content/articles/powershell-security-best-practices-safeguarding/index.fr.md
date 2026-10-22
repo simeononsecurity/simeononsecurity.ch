@@ -1,6 +1,7 @@
 ---
-title: "10 bonnes pratiques essentielles de sécurité PowerShell pour protéger vos scripts"
+title: "10 bonnes pratiques de sécurité PowerShell pour protéger les scripts"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez les 10 meilleures pratiques de sécurité PowerShell essentielles pour protéger vos scripts, vos mots de passe et vos informations sensibles. Renforcez la sécurité de votre environnement PowerShell et protégez-vous contre les accès non autorisés et les failles de sécurité potentielles."

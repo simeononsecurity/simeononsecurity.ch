@@ -1,6 +1,7 @@
 ---
-title: "Voordelen en uitdagingen van open source beveiligingstools voor organisaties"
+title: "Voordelen en uitdagingen van opensource-beveiligingstools"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek de voordelen en uitdagingen van het gebruik van open source beveiligingstools om de beveiliging van uw organisatie te verbeteren."

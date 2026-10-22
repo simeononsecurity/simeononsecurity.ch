@@ -1,6 +1,7 @@
 ---
-title: "Die Bedeutung von Compliance und Professionalität in der Cybersicherheit"
+title: "Compliance und Professionalität in der Cybersicherheitsarbeit"
 date: 2023-02-08
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Cybersicherheit ist ein entscheidender Aspekt moderner Geschäftsabläufe und erfordert einen umfassenden Ansatz, der die richtigen Systeme, Protokolle und Mitarbeiter einbezieht, um den Schutz vor Cyberangriffen effektiv zu verwalten."

@@ -1,6 +1,7 @@
 ---
-title: "Uw kredietbescherming maximaliseren met de combinatie van bevriezing en fraudewaarschuwing"
+title: "Kredietbevriezing versus fraudewaarschuwing: bescherming tegen identiteitsdiefstal"
 date: 2023-02-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Bescherm uw krediet tegen onbevoegde toegang door een combinatie van een kredietbevriezing en een fraudewaarschuwing, de meest effectieve oplossing om gewone criminelen ervan te weerhouden zonder uw toestemming toegang tot uw kredietrapport te krijgen."

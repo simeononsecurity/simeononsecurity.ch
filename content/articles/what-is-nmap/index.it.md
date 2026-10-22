@@ -1,6 +1,7 @@
 ---
-title: "Nmap: Una guida completa alla scansione della rete e alla valutazione della sicurezza"
+title: "Nmap: una guida alla scansione di rete e al rilevamento dei servizi"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite come utilizzare efficacemente Nmap per la scansione della rete, la scansione delle porte, il rilevamento dei servizi e l'identificazione del sistema operativo per valutare la sicurezza della rete."

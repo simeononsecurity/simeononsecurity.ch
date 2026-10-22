@@ -1,5 +1,5 @@
 ---
-title: "创建家庭实验室：IT专业人士指南，..."
+title: "什么是家庭实验室？IT 专业人士的搭建指南"
 date: 2023-02-14
 toc: true
 draft: false
@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp
 coverAlt: 一个人坐在桌前，桌上有电脑和网络设备，周围摆满了书籍和笔记。
 coverCaption: 用您自己的家庭实验室释放学习的力量。
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 
 **家庭实验室** 是一个个人实验室设置，允许个人在包括 **网络**、**虚拟化**、**自动化** 等多个技术领域进行实验、学习和技能开发。随着经济实惠且强大的硬件的出现，创建家庭实验室比以往任何时候都更容易，为您提供一个 **安全且受控的环境** 来测试和玩转新技术。

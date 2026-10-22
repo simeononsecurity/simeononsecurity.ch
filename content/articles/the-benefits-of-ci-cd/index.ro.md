@@ -1,6 +1,7 @@
 ---
-title: "Puterea CD-ului CI: Stimularea colaborării, calității și vitezei"
+title: "Beneficiile CI/CD: colaborare, calitate și viteză sporite"
 date: 2023-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descoperiți beneficiile integrării continue și implementării continue (CI CD) în dezvoltarea de software, îmbunătățind colaborarea, calitatea și viteza."

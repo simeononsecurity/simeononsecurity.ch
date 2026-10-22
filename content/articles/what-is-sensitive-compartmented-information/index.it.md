@@ -1,6 +1,7 @@
 ---
-title: "Conoscere le informazioni sensibili compartimentate (SCI) per la sicurezza nazionale"
+title: "Le informazioni sensibili compartimentate (SCI) spiegate"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Esplorare l'importanza, i livelli di classificazione, la gestione e i regolamenti delle informazioni sensibili compartimentate (SCI) per scopi di sicurezza nazionale."

@@ -1,6 +1,7 @@
 ---
-title: "10 best practice essenziali per la sicurezza di PowerShell per salvaguardare gli script"
+title: "10 migliori pratiche di sicurezza di PowerShell per proteggere gli script"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite le 10 migliori pratiche di sicurezza essenziali di PowerShell per salvaguardare gli script, le password e le informazioni sensibili. Migliorate la sicurezza del vostro ambiente PowerShell e proteggetevi da accessi non autorizzati e potenziali violazioni della sicurezza."

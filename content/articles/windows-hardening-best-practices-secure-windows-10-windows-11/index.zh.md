@@ -1,6 +1,7 @@
 ---
-title: "确保 Windows 10 和 Windows 11 安全的基本 Windows 加固最佳实践"
+title: "Windows 10 和 11 的系统加固最佳实践"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "通过全面的加固技术和最佳实践，了解增强 Windows 10 和 Windows 11 系统安全性的有效策略。"

@@ -1,6 +1,7 @@
 ---
-title: "Ventajas y retos de las herramientas de seguridad de código abierto para las organizaciones"
+title: "Ventajas y desafíos de las herramientas de seguridad de código abierto"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explore las ventajas y los retos de utilizar herramientas de seguridad de código abierto para mejorar la seguridad de su organización."

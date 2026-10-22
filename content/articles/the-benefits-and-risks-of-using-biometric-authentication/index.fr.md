@@ -1,6 +1,7 @@
 ---
-title: "Le pour et le contre de l'authentification biométrique pour le contrôle d'accès"
+title: "Avantages et inconvénients de l'authentification biométrique pour l'accès"
 date: 2023-04-01
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez les avantages et les risques liés à l'utilisation de l'authentification biométrique pour le contrôle d'accès, y compris la sécurité renforcée, les problèmes de confidentialité et les meilleures pratiques de mise en œuvre."

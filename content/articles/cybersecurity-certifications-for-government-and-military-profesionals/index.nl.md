@@ -1,6 +1,7 @@
 ---
-title: "Cyberbeveiligingscertificaten voor overheid en militairen"
+title: "Cyberbeveiligingscertificeringen voor overheid en leger"
 date: 2023-05-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek de vereisten, voordelen en carrièrepaden voor cyberbeveiligingscertificaten bij de overheid en in de militaire sector."

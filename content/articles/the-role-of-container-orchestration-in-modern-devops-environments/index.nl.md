@@ -1,6 +1,7 @@
 ---
-title: "De rol van containerorkestratie in moderne DevOps-omgevingen"
+title: "Containerorkestratie in moderne DevOps-omgevingen"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Leer over het belang en de voordelen van containerorkestratie in moderne DevOps, samen met populaire containerorkestratietools en overheidsvoorschriften die relevant zijn voor containerisatie."

@@ -1,6 +1,7 @@
 ---
-title: "Privé webhosting: Bescherm uw online aanwezigheid met topaanbieders"
+title: "Privé webhosting vergeleken: de beste privacyproviders"
 date: 2023-08-28
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Vind de beste privé webhostingservice om je online aanwezigheid te beveiligen. Vergelijk Privex, OrangeWebsite, 1984 en Njalla voor de beste privacy en beveiliging."

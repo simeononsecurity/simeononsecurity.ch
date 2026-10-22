@@ -1,8 +1,9 @@
 ---
-title: "Esplorazione di Flipper Zero: un dispositivo versatile per l'hacking e la sicurezza"
+title: "Flipper Zero: la guida completa per hacker e maker"
 draft: false
 toc: true
 date: 2023-05-26
+lastmod: 2026-10-21
 description: "Scoprite i diversi casi d'uso di Flipper Zero, il gadget portatile definitivo per l'hacking dell'hardware, l'analisi delle comunicazioni wireless e le esigenze tecnologiche di tutti i giorni."
 tags: ["Flipper Zero", "dispositivo portatile", "hacking hardware", "ingegneria inversa", "analisi delle comunicazioni wireless", "controllo del dispositivo", "audit di sicurezza", "test di penetrazione", "compagno tecnologico di tutti i giorni", "open-source", "Bluetooth", "NFC", "RFID", "IR", "emulazione", "test di sicurezza", "Kali Linux", "display e-paper", "Codici QR", "automazione domestica", "vulnerabilità della sicurezza", "protocolli wireless", "estrazione del firmware", "lampeggiante", "debug", "sistemi di controllo degli accessi fisici", "sistemi di automazione domestica intelligente", "emulazione del dispositivo", "vulnerabilità del sistema wireless", "contromisure", "gadget compatto"]
 cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"

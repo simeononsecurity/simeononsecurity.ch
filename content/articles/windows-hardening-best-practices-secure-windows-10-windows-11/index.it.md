@@ -1,6 +1,7 @@
 ---
-title: "Migliori pratiche di base per l'irrobustimento di Windows per la sicurezza di Windows 10 e Windows 11"
+title: "Migliori pratiche di hardening per Windows 10 e 11"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite le strategie efficaci per migliorare la sicurezza dei vostri sistemi Windows 10 e Windows 11 attraverso tecniche di hardening complete e best practice."

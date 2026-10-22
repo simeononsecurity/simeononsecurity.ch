@@ -1,6 +1,7 @@
 ---
-title: "Die Leistungsfähigkeit von PowerShell für verbesserte Cybersicherheitsabläufe und Compliance"
+title: "PowerShell für Cybersicherheit: Automatisierung und Verteidigung"
 date: 2023-02-02
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von PowerShell bei der Verbesserung von Cybersicherheitsvorgängen und der Einhaltung von Branchenstandards durch Automatisierung und optimierte Prozesse."

@@ -1,6 +1,7 @@
 ---
-title: "Ventajas e inconvenientes de la autenticación biométrica para el control de acceso"
+title: "Ventajas y desventajas de la autenticación biométrica para el acceso"
 date: 2023-04-01
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Conozca las ventajas y los riesgos del uso de la autenticación biométrica para el control de acceso, incluida la mejora de la seguridad, los problemas de privacidad y las mejores prácticas de aplicación."

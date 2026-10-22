@@ -1,6 +1,7 @@
 ---
-title: "Znaczenie zgodności i profesjonalizmu w cyberbezpieczeństwie"
+title: "Zgodność i profesjonalizm w pracy w cyberbezpieczeństwie"
 date: 2023-02-08
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Bezpieczeństwo cybernetyczne jest krytycznym aspektem współczesnych działań biznesowych i wymaga kompleksowego podejścia, które obejmuje odpowiednie systemy, protokoły i personel, aby skutecznie zarządzać obroną przed cyberatakami."

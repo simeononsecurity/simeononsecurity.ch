@@ -1,6 +1,7 @@
 ---
-title: "Certifications en cybersécurité pour les professionnels du secteur public et militaire"
+title: "Certifications en cybersécurité pour le secteur public et l'armée"
 date: 2023-05-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez les exigences, les avantages et les perspectives de carrière des certifications en cybersécurité dans les secteurs gouvernementaux et militaires."

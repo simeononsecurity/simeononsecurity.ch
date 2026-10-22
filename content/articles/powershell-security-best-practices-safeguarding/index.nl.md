@@ -1,6 +1,7 @@
 ---
-title: "10 essentiële PowerShell-beveiligingsbest practices voor het beveiligen van uw scripts"
+title: "10 beste praktijken voor PowerShell-beveiliging om scripts te beschermen"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Leer de top 10 essentiële PowerShell-beveiligingsbest practices voor het beveiligen van uw scripts, wachtwoorden en gevoelige informatie. Verbeter de beveiliging van uw PowerShell-omgeving en bescherm u tegen onbevoegde toegang en potentiële beveiligingslekken."

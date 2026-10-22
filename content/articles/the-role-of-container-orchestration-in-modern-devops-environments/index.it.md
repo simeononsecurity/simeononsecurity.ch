@@ -1,6 +1,7 @@
 ---
-title: "Il ruolo dell'orchestrazione dei container nei moderni ambienti DevOps"
+title: "Orchestrazione dei container negli ambienti DevOps moderni"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite l'importanza e i vantaggi dell'orchestrazione dei container nel DevOps moderno, insieme agli strumenti di orchestrazione dei container più diffusi e alle normative governative rilevanti per la containerizzazione."

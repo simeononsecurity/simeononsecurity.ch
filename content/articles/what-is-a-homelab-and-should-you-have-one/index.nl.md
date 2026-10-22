@@ -1,6 +1,7 @@
 ---
-title: "Een thuislab maken: Een gids voor IT-professionals, studenten en hobbyisten"
+title: "Wat is een homelab? Een installatiegids voor IT-professionals"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Deze uitgebreide gids geeft een gedetailleerd overzicht van wat een thuislab is, waarom er een moet worden opgezet, welke onderdelen nodig zijn, hoe het moet worden opgezet, geavanceerde onderwerpen om te onderzoeken, en de beste praktijken die moeten worden gevolgd."

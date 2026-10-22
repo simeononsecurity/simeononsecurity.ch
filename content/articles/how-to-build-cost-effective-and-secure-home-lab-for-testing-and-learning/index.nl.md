@@ -1,6 +1,7 @@
 ---
-title: "Bouw een betaalbaar, veilig thuislab voor IT-testen en leren"
+title: "Een betaalbaar, veilig thuislab bouwen voor IT-testen"
 date: 2023-03-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Leer hoe je een kosteneffectief, veilig thuislab kunt maken voor praktische IT-ervaring door te experimenteren met software, hardware en netwerkconcepten."

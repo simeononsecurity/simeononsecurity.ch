@@ -1,5 +1,5 @@
 ---
-title: "Stăpânirea GPO-urilor: Un ghid cuprinzător pentru o gestionare eficientă..."
+title: "Group Policy Objects (GPOs): un ghid pentru controlul Windows"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: O imagine stil artă simbolică care ilustrează o rețea de roți dințate interconectate, simbolizând gestionarea și optimizarea eficientă a rețelei.
 coverCaption: 'Dezvăluie Puterea GPO-urilor: simplifică-ți astăzi gestionarea rețelei!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: Tot ce trebuie să știi despre Obiectele de Politică de Grup
 

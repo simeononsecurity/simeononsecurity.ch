@@ -1,6 +1,7 @@
 ---
-title: "FISMA 101: Een overzicht van de Federal Information Security Modernization Act"
+title: "FISMA 101: een overzicht van federale informatiebeveiliging"
 date: 2023-02-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "FISMA 101 biedt een uitgebreid overzicht van de Federal Information Security Modernization Act, inclusief de belangrijkste onderdelen, voordelen en vereisten voor federale instanties."

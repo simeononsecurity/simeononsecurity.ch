@@ -1,6 +1,7 @@
 ---
-title: "ESP32 WiFi Canary: Passive 2,4-GHz-Bedrohungserkennung mit RGB-LED-Alarmen"
+title: "ESP32 WiFi Canary: Passive Bedrohungserkennung im 2,4-GHz-Band"
 date: 2026-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Eine detaillierte Analyse des ESP32 WiFi Canary-Projekts - ein kompakter, passiver 2,4-GHz-Bewusstseinssensor für den M5Stack Atom Lite, der still nach Evil-Twin-APs, Deauthentifizierungsangriffen, Sicherheits-Downgrades und Beacon-Floods sucht und ein Konfidenz-Bewertungs-Bedrohungsmodell sowie eine einzige RGB-LED verwendet."

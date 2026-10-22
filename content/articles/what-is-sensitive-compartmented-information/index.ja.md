@@ -1,6 +1,7 @@
 ---
-title: "国家安全保障のための機密情報（SCI）の理解"
+title: "機密区分情報（SCI）の解説"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "国家安全保障上の機密情報（SCI）の重要性、分類レベル、取り扱い、規制について探求する。"

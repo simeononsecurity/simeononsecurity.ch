@@ -1,6 +1,7 @@
 ---
-title: "Nmap: Een uitgebreide gids voor netwerkscanning en veiligheidsbeoordeling"
+title: "Nmap: een gids voor netwerkscannen en servicedetectie"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek hoe u Nmap effectief kunt gebruiken voor het scannen van netwerken, het scannen van poorten, het opsporen van services en het identificeren van besturingssystemen om de netwerkbeveiliging te beoordelen."

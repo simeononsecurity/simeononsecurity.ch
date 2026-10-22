@@ -1,6 +1,7 @@
 ---
-title: "Windows 的最佳全盘加密解决方案有哪些？"
+title: "适用于 Windows PC 的最佳全盘加密方案"
 date: 2023-07-26
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "了解适用于 Windows 的顶级全磁盘加密解决方案，这些解决方案可提供强大的安全性，保护您的敏感数据免遭未经授权的访问。"

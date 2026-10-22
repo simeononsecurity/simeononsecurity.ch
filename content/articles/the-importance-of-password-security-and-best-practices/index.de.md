@@ -1,6 +1,7 @@
 ---
-title: "Die Bedeutung der Passwortsicherheit und bewährte Praktiken für die Passwortverwaltung"
+title: "Leitfaden für bewährte Praktiken bei Passwortsicherheit und -verwaltung"
 date: 2023-03-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Erfahren Sie, wie wichtig die Sicherheit von Passwörtern ist, und lernen Sie die besten Methoden für die Passwortverwaltung kennen, um Ihre persönlichen Daten und Ihre Online-Identität zu schützen."

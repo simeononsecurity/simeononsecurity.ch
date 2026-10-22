@@ -1,8 +1,9 @@
 ---
-title: "Deepfakes: Amenazas y desafíos de los medios sintéticos en la era digital"
+title: "Deepfakes: las amenazas y los desafíos de los medios sintéticos"
 draft: false
 toc: true
 date: 2023-05-21
+lastmod: 2026-10-21
 description: "Explore el auge de los deepfakes, sus amenazas, retos y medidas reguladoras en la lucha contra la manipulación sintética de los medios de comunicación."
 tags: ["deepfakes", "medios sintéticos", "Tecnología de IA", "desinformación", "noticias falsas", "fraude", "invasión de la intimidad", "detección de deepfake", "marcos normativos", "educación", "sensibilización", "era digital", "tecnología", "sociedad", "retos", "amenazas", "lucha contra los deepfakes", "rendición de cuentas", "colaboración", "algoritmos avanzados"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"

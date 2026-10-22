@@ -1,6 +1,7 @@
 ---
-title: "スクリプトを保護するために不可欠なPowerShellセキュリティのベストプラクティス10選"
+title: "スクリプトを保護するPowerShellセキュリティのベストプラクティス10選"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "スクリプト、パスワード、機密情報を保護するために不可欠なPowerShellセキュリティのベストプラクティスTOP10をご紹介します。PowerShell環境のセキュリティを強化し、不正アクセスや潜在的なセキュリティ侵害から保護します。"

@@ -1,6 +1,7 @@
 ---
-title: "开源安全工具对企业的益处和挑战"
+title: "开源安全工具的优势与挑战"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "探索使用开源安全工具改善组织安全状况的好处和挑战。"

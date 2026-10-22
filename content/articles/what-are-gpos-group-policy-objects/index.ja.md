@@ -1,5 +1,5 @@
 ---
-title: "GPOの習得：効果的な管理のための包括的ガイド..."
+title: "グループポリシーオブジェクト（GPOs）：Windows制御のガイド"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: 効率的なネットワーク管理と最適化を象徴する、相互に連結した歯車のネットワークを描いた象徴的なアートスタイルの画像。
 coverCaption: GPOの力を解き放つ：今日からネットワーク管理を簡素化！
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101：グループポリシーオブジェクトについて知っておくべきすべて
 

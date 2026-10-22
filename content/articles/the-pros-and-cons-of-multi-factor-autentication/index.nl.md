@@ -1,6 +1,7 @@
 ---
-title: "Voor- en nadelen van Multi-Factor Authenticatie voor bedrijfsbeveiliging"
+title: "Voor- en nadelen van multifactorauthenticatie (MFA)"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek de voor- en nadelen van multi-factor authenticatie (MFA) en leer hoe u de juiste oplossing kiest voor de beveiliging van uw bedrijf."

@@ -1,6 +1,7 @@
 ---
-title: "Avantajele și dezavantajele autentificării cu mai mulți factori pentru securitatea întreprinderilor"
+title: "Avantajele și dezavantajele autentificării cu mai mulți factori (MFA)"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explorați avantajele și dezavantajele autentificării cu mai mulți factori (MFA) și aflați cum să alegeți soluția potrivită pentru securitatea afacerii dumneavoastră."

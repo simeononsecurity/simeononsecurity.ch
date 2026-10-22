@@ -1,6 +1,7 @@
 ---
-title: "了解涉及国家安全的敏感机密信息 (SCI)"
+title: "敏感隔离信息（SCI）详解"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "探索出于国家安全目的的敏感机密信息（SCI）的重要性、分类级别、处理方法和法规。"

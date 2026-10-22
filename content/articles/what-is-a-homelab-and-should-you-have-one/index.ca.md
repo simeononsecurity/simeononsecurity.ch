@@ -1,6 +1,7 @@
 ---
-title: "Creació d'un laboratori a casa: una guia per a professionals de les TI, estudiants i aficionats"
+title: "Què és un homelab? Una guia de configuració per a professionals de les TI"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aquesta guia completa ofereix una visió general detallada de què és un Home Lab, per què crear-ne un, quins components es necessiten, com configurar-lo, temes avançats per explorar i bones pràctiques a seguir."

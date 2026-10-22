@@ -1,6 +1,7 @@
 ---
-title: "Ventajas e inconvenientes de la autenticación multifactor para la seguridad de las empresas"
+title: "Ventajas y desventajas de la autenticación multifactor (MFA)"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explore las ventajas e inconvenientes de la autenticación multifactor (AMF) y aprenda a elegir la solución adecuada para la seguridad de su empresa."

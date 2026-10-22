@@ -1,6 +1,7 @@
 ---
-title: "Grundlegende Best Practices zur Windows-Härtung für ein sicheres Windows 10 und Windows 11"
+title: "Bewährte Windows-Härtungspraktiken für Windows 10 und 11"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Entdecken Sie effektive Strategien zur Verbesserung der Sicherheit Ihrer Windows 10- und Windows 11-Systeme durch umfassende Härtungstechniken und Best Practices."

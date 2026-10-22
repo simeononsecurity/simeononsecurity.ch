@@ -1,6 +1,7 @@
 ---
-title: "Podstawowe najlepsze praktyki wzmacniania zabezpieczeń systemu Windows dla bezpiecznych systemów Windows 10 i Windows 11"
+title: "Najlepsze praktyki wzmacniania zabezpieczeń dla Windows 10 i 11"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Odkryj skuteczne strategie zwiększania bezpieczeństwa systemów Windows 10 i Windows 11 dzięki kompleksowym technikom wzmacniania zabezpieczeń i najlepszym praktykom."

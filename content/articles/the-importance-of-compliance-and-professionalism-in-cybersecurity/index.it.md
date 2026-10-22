@@ -1,6 +1,7 @@
 ---
-title: "L'importanza della conformità e della professionalità nella sicurezza informatica"
+title: "Conformità e professionalità nel lavoro di cybersicurezza"
 date: 2023-02-08
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "La cybersecurity è un aspetto critico delle moderne operazioni aziendali e richiede un approccio completo che coinvolga i giusti sistemi, protocolli e personale per gestire efficacemente le difese contro i cyberattacchi."

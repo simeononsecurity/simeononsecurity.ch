@@ -1,8 +1,9 @@
 ---
-title: "La cybersécurité OT, ICS et API est un problème que l'industrie ne peut pas honnêtement résoudre"
+title: "Pourquoi la cybersécurité des OT, ICS et PLC reste défaillante"
 draft: false
 toc: true
 date: 2026-06-26
+lastmod: 2026-10-21
 description: "Une opinion professionnelle sur pourquoi les orientations en cybersécurité OT, ICS et API ne peuvent pas suivre le problème réel. Ces systèmes n'ont jamais été conçus pour être sécurisés. La conformité aux normes écrites n'est pas la même chose que la sécurité."
 tags: ["sécurité OT", "sécurité ICS", "sécurité API", "sécurité IoT", "cybersécurité industrielle", "sécurité SCADA", "NIST 800-82", "IEC 62443", "NERC CIP", "technologie opérationnelle", "infrastructure critique", "capteurs analogiques", "air gap", "systèmes hérités", "opinion cybersécurité", "systèmes de contrôle industriel", "SCADA", "Stuxnet", "sécurité des systèmes de contrôle", "sécurité cyber-physique", "sécurité de la chaîne d'approvisionnement", "chaîne d'approvisionnement OT"]
 cover: "/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp"

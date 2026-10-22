@@ -1,6 +1,7 @@
 ---
-title: "Unraid vs TrueNas: qual sistema operacional NAS é ideal para você?"
+title: "TrueNAS contra Unraid: qual sistema operacional NAS vence?"
 date: 2023-02-16
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Uma comparação abrangente de Unraid e TrueNas, incluindo sua facilidade de uso, recursos, documentação e comunidade, para ajudar os usuários a tomar uma decisão informada sobre qual sistema operacional NAS é melhor para suas necessidades."

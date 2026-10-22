@@ -1,6 +1,7 @@
 ---
-title: "Defensa contra ataques de ingeniería social en ciberseguridad"
+title: "Defensa contra los ataques de ingeniería social y el fraude"
 date: 2023-03-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aprenda a defenderse de los ataques de ingeniería social y a proteger sus datos de los ciberdelincuentes en este artículo informativo."

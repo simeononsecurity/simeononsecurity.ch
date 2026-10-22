@@ -1,6 +1,7 @@
 ---
-title: "容器协调在现代 DevOps 环境中的作用"
+title: "现代 DevOps 环境中的容器编排"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "了解容器编排在现代 DevOps 中的意义和优势，以及流行的容器编排工具和与容器化相关的政府法规。"

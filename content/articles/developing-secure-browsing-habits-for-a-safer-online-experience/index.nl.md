@@ -1,8 +1,9 @@
 ---
-title: "Veilig internetgebruik ontwikkelen voor een veiligere online ervaring"
+title: "Veilige surfgewoonten voor een veiligere online-ervaring"
 draft: false
 toc: true
 date: 2023-06-13
+lastmod: 2026-10-21
 description: "Bescherm jezelf tegen online bedreigingen en zorg voor een veiligere online ervaring door veilige surfgewoonten te ontwikkelen. Leer meer over het belang van veilig surfen, de belangrijkste gewoonten die u moet aannemen en hoe u uw persoonlijke gegevens kunt beschermen."
 genre: ["Cyberbeveiliging", "Online veiligheid", "Veilig browsen", "Internet Beveiliging", "Bescherming van persoonlijke gegevens", "Online privacy", "Online bedreigingen", "Preventie van cybercriminaliteit", "Preventie van identiteitsdiefstal", "Veiligheid op internet"]
 tags: ["veilig browsen", "online bedreigingen", "cyberbeveiliging", "online veiligheid", "bescherming van persoonsgegevens", "online privacy", "preventie van identiteitsdiefstal", "internetbeveiliging", "preventie van cybercriminaliteit", "veilig surfen op het web", "online zwendel", "phishing-oplichting", "bescherming tegen malware", "bescherming tegen ransomware", "beveiliging van sociale media", "gegevensbeveiliging", "online privacybescherming", "veilige gegevensopslag", "wachtwoordbeveiliging", "twee-factor authenticatie", "VPN", "versleuteld browsen", "openbare Wi-Fi beveiliging", "voorlichting over online veiligheid", "cyberbewustzijn", "veilige online gewoonten", "online veiligheidscultuur", "communautaire veiligheid", "tips voor online veiligheid"]

@@ -1,6 +1,7 @@
 ---
-title: "L'importance de la conformité et du professionnalisme dans la cybersécurité"
+title: "Conformité et professionnalisme dans le travail de cybersécurité"
 date: 2023-02-08
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "La cybersécurité est un aspect essentiel des activités des entreprises modernes et nécessite une approche globale impliquant les systèmes, les protocoles et le personnel adéquats pour gérer efficacement les défenses contre les cyberattaques."

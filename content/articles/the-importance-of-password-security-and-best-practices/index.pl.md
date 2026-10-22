@@ -1,6 +1,7 @@
 ---
-title: "Znaczenie bezpieczeństwa haseł i najlepsze praktyki zarządzania hasłami"
+title: "Przewodnik po najlepszych praktykach bezpieczeństwa i zarządzania hasłami"
 date: 2023-03-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Dowiedz się o znaczeniu bezpieczeństwa haseł i poznaj najlepsze praktyki zarządzania hasłami, aby chronić swoje dane osobowe i tożsamość online."

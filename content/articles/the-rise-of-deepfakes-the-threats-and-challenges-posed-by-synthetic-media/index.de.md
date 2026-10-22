@@ -1,8 +1,9 @@
 ---
-title: "Deepfakes: Bedrohungen und Herausforderungen durch synthetische Medien im digitalen Zeitalter"
+title: "Deepfakes: Die Bedrohungen und Herausforderungen synthetischer Medien"
 draft: false
 toc: true
 date: 2023-05-21
+lastmod: 2026-10-21
 description: "Erforschen Sie den Anstieg von Deepfakes, ihre Bedrohungen, Herausforderungen und Regulierungsmaßnahmen zur Bekämpfung synthetischer Medienmanipulationen."
 tags: ["deepfakes", "synthetische Medien", "KI-Technologie", "Fehlinformationen", "Fake News", "Betrug", "Eingriff in die Privatsphäre", "Deepfake-Erkennung", "regulatorische Rahmenbedingungen", "Bildung", "Bewusstsein", "digitales Zeitalter", "Technologie", "Gesellschaft", "challenges", "Bedrohungen", "Bekämpfung von Deepfakes", "Rechenschaftspflicht", "Zusammenarbeit", "erweiterte Algorithmen"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"

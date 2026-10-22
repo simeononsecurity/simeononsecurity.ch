@@ -1,6 +1,7 @@
 ---
-title: "Zrozumienie informacji szczególnie chronionych (SCI) dla bezpieczeństwa narodowego"
+title: "Informacje wydzielone chronione (SCI) wyjaśnione"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Zapoznanie się ze znaczeniem, poziomami klasyfikacji, obsługą i przepisami dotyczącymi informacji szczególnie chronionych (SCI) dla celów bezpieczeństwa narodowego."

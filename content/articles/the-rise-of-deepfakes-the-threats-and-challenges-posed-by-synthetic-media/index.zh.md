@@ -1,8 +1,9 @@
 ---
-title: "深度伪造：数字时代合成媒体的威胁与挑战"
+title: "深度伪造：合成媒体的威胁与挑战"
 draft: false
 toc: true
 date: 2023-05-21
+lastmod: 2026-10-21
 description: "探讨深度伪造的兴起、其威胁、挑战以及打击合成媒体操纵的监管措施。"
 tags: ["深假", "合成媒体", "人工智能技术", "误导", "假新闻", "欺骗", "隐私侵犯", "深层伪造检测", "监管框架", "教育", "认识", "数字时代", "技术", "社团", "挑战", "威胁", "打击深度伪造", "问责制", "合作", "高级算法"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"

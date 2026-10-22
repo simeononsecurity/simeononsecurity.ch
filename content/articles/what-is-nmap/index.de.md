@@ -1,6 +1,7 @@
 ---
-title: "Nmap: Ein umfassender Leitfaden für Netzwerk-Scanning und Sicherheitsbewertung"
+title: "Nmap: Ein Leitfaden für Netzwerk-Scanning und Diensterkennung"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Nmap effektiv für Netzwerk-Scans, Port-Scans, Service-Erkennung und Betriebssystem-Identifizierung einsetzen können, um die Netzwerksicherheit zu bewerten."

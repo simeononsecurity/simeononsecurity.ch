@@ -1,6 +1,7 @@
 ---
-title: "Verteidigung gegen Social-Engineering-Angriffe in der Cybersicherheit"
+title: "Abwehr von Social-Engineering-Angriffen und Betrug"
 date: 2023-03-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "In diesem informativen Artikel erfahren Sie, wie Sie sich gegen Social-Engineering-Angriffe wehren und Ihre Daten vor Cyberkriminellen schützen können."

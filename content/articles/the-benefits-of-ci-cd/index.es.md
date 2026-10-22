@@ -1,6 +1,7 @@
 ---
-title: "El poder de CI CD: Impulsar la colaboración, la calidad y la rapidez"
+title: "Ventajas de CI/CD: colaboración, calidad y rapidez mejoradas"
 date: 2023-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descubra las ventajas de la integración continua y la implantación continua (CI CD) en el desarrollo de software, que mejoran la colaboración, la calidad y la velocidad."

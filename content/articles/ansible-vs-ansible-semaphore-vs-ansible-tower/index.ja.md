@@ -1,6 +1,7 @@
 ---
-title: "Ansibleの自動化：プレーンなAnsibleからAnsible TowerとSemaphoreまで"
+title: "Ansible対Semaphore対Tower：自動化の比較"
 date: 2023-06-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "プレーンなAnsible、Ansible Tower、Ansible Semaphoreを比較してAnsible自動化のパワーを発見し、効率的なインフラ管理のために適切なツールを選択しましょう。"

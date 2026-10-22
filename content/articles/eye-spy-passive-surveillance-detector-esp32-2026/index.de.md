@@ -1,6 +1,7 @@
 ---
-title: "Eye Spy: Passiver Überwachungsdetektor für den M5Stack Atom Lite (ESP32)"
+title: "Eye Spy: Passiver ESP32-Detektor für Überwachung und Tracker"
 date: 2026-06-07
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Eine vollständige technische Referenz für Eye Spy v1.1 - ein Open-Source-passiver BLE- und WiFi-Überwachungsdetektor, der auf dem M5Stack Atom Lite (ESP32-PICO-D4) läuft und nach Bodycams, ALPR-Systemen, AirTags, Drohnen und versteckten Kameras mit einem Konfidenz-Score-Bedrohungsmodell und einer einzigen RGB-LED sucht."

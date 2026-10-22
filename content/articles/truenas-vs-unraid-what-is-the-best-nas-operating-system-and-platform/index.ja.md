@@ -1,6 +1,7 @@
 ---
-title: "UnraidとTrueNas：どのNASオペレーティングシステムがあなたに適しているか？"
+title: "TrueNASとUnraid：どのNASオペレーティングシステムが勝つか？"
 date: 2023-02-16
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "UnraidとTrueNasの使い勝手、機能、ドキュメント、コミュニティなどを包括的に比較し、ユーザーのニーズに合ったNASオペレーティングシステムを決定するための情報を提供します。"

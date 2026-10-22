@@ -1,6 +1,7 @@
 ---
-title: "Preparación para el futuro de la ciberseguridad en un mundo pospandémico"
+title: "El futuro de la ciberseguridad en un mundo pospandémico"
 date: 2023-03-04
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descubra cómo prepararse para el futuro de la ciberseguridad en un mundo pospandémico y reduzca el riesgo de ser víctima de ciberataques."

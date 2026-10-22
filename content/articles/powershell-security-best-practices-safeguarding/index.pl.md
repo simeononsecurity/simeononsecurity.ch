@@ -1,6 +1,7 @@
 ---
-title: "10 podstawowych najlepszych praktyk bezpieczeństwa PowerShell w zakresie ochrony skryptów"
+title: "10 najlepszych praktyk bezpieczeństwa PowerShell dla ochrony skryptów"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Poznaj 10 najważniejszych najlepszych praktyk bezpieczeństwa PowerShell w celu ochrony skryptów, haseł i poufnych informacji. Zwiększ bezpieczeństwo swojego środowiska PowerShell i chroń się przed nieautoryzowanym dostępem i potencjalnymi naruszeniami bezpieczeństwa."

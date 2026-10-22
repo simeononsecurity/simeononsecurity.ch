@@ -1,6 +1,7 @@
 ---
-title: "Unraid vs TrueNas: Welk NAS-besturingssysteem is geschikt voor u?"
+title: "TrueNAS versus Unraid: welk NAS-besturingssysteem wint?"
 date: 2023-02-16
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Een uitgebreide vergelijking van Unraid en TrueNas, inclusief hun gebruiksvriendelijkheid, functies, documentatie en gemeenschap, om gebruikers te helpen een weloverwogen beslissing te nemen over welk NAS-besturingssysteem het beste is voor hun behoeften."

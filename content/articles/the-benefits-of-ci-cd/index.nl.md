@@ -1,6 +1,7 @@
 ---
-title: "De kracht van CI CD: Meer samenwerking, kwaliteit en snelheid"
+title: "Voordelen van CI/CD: snellere samenwerking, kwaliteit en snelheid"
 date: 2023-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek de voordelen van Continuous Integration en Continuous Deployment (CI CD) bij softwareontwikkeling, waardoor samenwerking, kwaliteit en snelheid verbeteren."

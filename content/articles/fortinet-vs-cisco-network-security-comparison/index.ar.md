@@ -1,5 +1,5 @@
 ---
-title: "فورتينت مقابل سيسكو: مقارنة كاملة لأمن الشبكات..."
+title: "فورتينت مقابل سيسكو: مقارنة كاملة لأمن الشبكات"
 date: 2026-05-24
 toc: true
 draft: false
@@ -65,7 +65,7 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 
 ## المقدمة: المواجهة بين فورتينت وسيسكو في أمن الشبكات

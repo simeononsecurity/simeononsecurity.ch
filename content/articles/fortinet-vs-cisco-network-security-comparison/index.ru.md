@@ -1,5 +1,5 @@
 ---
-title: "Fortinet против Cisco: Полное сравнение сетевой безопасности..."
+title: "Fortinet против Cisco: полное сравнение сетевой безопасности"
 date: 2026-05-24
 toc: true
 draft: false
@@ -65,7 +65,7 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 
 ## Введение: Противостояние сетевой безопасности Fortinet и Cisco

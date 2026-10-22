@@ -1,6 +1,7 @@
 ---
-title: "Apărarea împotriva atacurilor de inginerie socială în domeniul securității cibernetice"
+title: "Apărarea împotriva atacurilor de inginerie socială și a fraudei"
 date: 2023-03-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aflați cum să vă apărați împotriva atacurilor de inginerie socială și cum să vă protejați datele de infractorii cibernetici în acest articol informativ."

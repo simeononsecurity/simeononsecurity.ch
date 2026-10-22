@@ -1,6 +1,7 @@
 ---
-title: "Maximizar la protección de su crédito con la combinación de congelación y alerta de fraude"
+title: "Congelación de crédito o alerta de fraude: protéjase del robo de identidad"
 date: 2023-02-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Proteja su crédito de accesos no autorizados combinando una congelación de crédito y una alerta de fraude, la solución más eficaz para disuadir a los delincuentes comunes de acceder a su informe crediticio sin su permiso."

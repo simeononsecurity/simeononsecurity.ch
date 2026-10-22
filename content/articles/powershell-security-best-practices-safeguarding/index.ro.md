@@ -1,6 +1,7 @@
 ---
-title: "10 Cele mai bune practici esențiale de securitate PowerShell pentru protejarea scripturilor dvs"
+title: "10 bune practici de securitate PowerShell pentru protejarea scripturilor"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aflați cele mai bune 10 practici esențiale de securitate PowerShell pentru a vă proteja scripturile, parolele și informațiile sensibile. Îmbunătățiți securitatea mediului dumneavoastră PowerShell și protejați-vă împotriva accesului neautorizat și a potențialelor breșe de securitate."

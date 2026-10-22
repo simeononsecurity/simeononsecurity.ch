@@ -1,6 +1,7 @@
 ---
-title: "Importanța conformității și a profesionalismului în domeniul securității cibernetice"
+title: "Conformitate și profesionalism în activitatea de securitate cibernetică"
 date: 2023-02-08
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Securitatea cibernetică este un aspect critic al operațiunilor de afaceri moderne și necesită o abordare cuprinzătoare care implică sisteme, protocoale și personal adecvat pentru a gestiona eficient apărarea împotriva atacurilor cibernetice."

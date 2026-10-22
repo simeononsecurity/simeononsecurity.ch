@@ -1,6 +1,7 @@
 ---
-title: "Información confidencial (SCI) para la seguridad nacional"
+title: "Información confidencial compartimentada (SCI) explicada"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explore la importancia, los niveles de clasificación, el manejo y la normativa de la Información Sensible Compartimentada (SCI) con fines de seguridad nacional."

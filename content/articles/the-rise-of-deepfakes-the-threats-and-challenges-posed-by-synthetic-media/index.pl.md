@@ -1,8 +1,9 @@
 ---
-title: "Deepfakes: Zagrożenia i wyzwania związane z syntetycznymi mediami w erze cyfrowej"
+title: "Deepfake: zagrożenia i wyzwania związane z mediami syntetycznymi"
 draft: false
 toc: true
 date: 2023-05-21
+lastmod: 2026-10-21
 description: "Zapoznaj się z rozwojem zjawiska deepfake, jego zagrożeniami, wyzwaniami i środkami regulacyjnymi w zwalczaniu manipulacji w mediach syntetycznych."
 tags: ["deepfakes", "nośniki syntetyczne", "Technologia AI", "dezinformacja", "fałszywe wiadomości", "oszustwo", "naruszenie prywatności", "Wykrywanie podróbek", "ramy regulacyjne", "edukacja", "świadomość", "era cyfrowa", "technologia", "społeczeństwo", "wyzwania", "zagrożenia", "Walka z podróbkami", "odpowiedzialność", "współpraca", "zaawansowane algorytmy"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"

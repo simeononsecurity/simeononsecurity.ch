@@ -1,6 +1,7 @@
 ---
-title: "Nmap: Kompleksowy przewodnik po skanowaniu sieci i ocenie bezpieczeństwa"
+title: "Nmap: przewodnik po skanowaniu sieci i wykrywaniu usług"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Dowiedz się, jak skutecznie używać Nmap do skanowania sieci, skanowania portów, wykrywania usług i identyfikacji systemu operacyjnego w celu oceny bezpieczeństwa sieci."

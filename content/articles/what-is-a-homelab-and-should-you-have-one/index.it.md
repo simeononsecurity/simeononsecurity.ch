@@ -1,6 +1,7 @@
 ---
-title: "Creare un laboratorio domestico: Una guida per professionisti IT, studenti e hobbisti"
+title: "Cos'è un homelab? Una guida alla configurazione per professionisti IT"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Questa guida completa fornisce una panoramica dettagliata su cosa sia un Home Lab, perché crearne uno, quali siano i componenti necessari, come configurarlo, gli argomenti avanzati da esplorare e le migliori pratiche da seguire."

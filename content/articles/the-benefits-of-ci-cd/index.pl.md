@@ -1,6 +1,7 @@
 ---
-title: "Moc CI CD: Poprawa współpracy, jakości i szybkości działania"
+title: "Korzyści z CI/CD: szybsza współpraca, jakość i tempo"
 date: 2023-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Odkryj zalety ciągłej integracji i ciągłego wdrażania (CI CD) w tworzeniu oprogramowania, poprawiając współpracę, jakość i szybkość."

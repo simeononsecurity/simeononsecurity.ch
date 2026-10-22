@@ -1,6 +1,7 @@
 ---
-title: "Het belang van compliance en professionalisme in cyberbeveiliging"
+title: "Compliance en professionaliteit in cyberbeveiligingswerk"
 date: 2023-02-08
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Cyberbeveiliging is een cruciaal aspect van de moderne bedrijfsvoering en vereist een alomvattende aanpak met de juiste systemen, protocollen en personeel om de verdediging tegen cyberaanvallen doeltreffend te beheren."

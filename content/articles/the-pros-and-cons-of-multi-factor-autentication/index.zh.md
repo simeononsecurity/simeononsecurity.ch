@@ -1,6 +1,7 @@
 ---
-title: "多因素身份验证对企业安全的利弊"
+title: "多因素认证（MFA）的利与弊"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "探索多因素身份验证 (MFA) 的优点和缺点，了解如何为企业安全选择合适的解决方案。"

@@ -1,6 +1,7 @@
 ---
-title: "Vorteile und Herausforderungen von Open-Source-Sicherheitstools für Unternehmen"
+title: "Vorteile und Herausforderungen von Open-Source-Sicherheitstools"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Erfahren Sie mehr über die Vorteile und Herausforderungen des Einsatzes von Open-Source-Sicherheitstools zur Verbesserung der Sicherheitslage Ihres Unternehmens."

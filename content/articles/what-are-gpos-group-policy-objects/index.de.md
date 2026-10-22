@@ -1,5 +1,5 @@
 ---
-title: "GPOs meistern: Ein umfassender Leitfaden für effektive..."
+title: "Group Policy Objects (GPOs): Ein Leitfaden zur Windows-Steuerung"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: Ein symbolisches Kunstbild, das ein Netzwerk miteinander verbundener Zahnräder zeigt und effizientes Netzwerkmanagement und Optimierung symbolisiert.
 coverCaption: 'Entfesseln Sie die Kraft der GPOs: Vereinfachen Sie noch heute Ihr Netzwerkmanagement!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: Alles, was Sie über Gruppenrichtlinienobjekte wissen müssen
 

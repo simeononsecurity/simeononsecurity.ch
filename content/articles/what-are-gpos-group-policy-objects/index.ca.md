@@ -1,5 +1,5 @@
 ---
-title: "Dominar els GPOs: Una Guia Completa per a una Gestió Eficaç..."
+title: "Group Policy Objects (GPOs): una guia per al control de Windows"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: Una imatge d'estil simbòlic que il·lustra una xarxa d'engranatges interconnectats, simbolitzant la gestió i optimització eficient de la xarxa.
 coverCaption: 'Desbloqueja el Poder dels GPOs: simplifica la Gestió de la teva Xarxa Avui!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: Tot el que Necessites Saber sobre els Objectes de Política de Grup
 

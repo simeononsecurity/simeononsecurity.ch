@@ -1,6 +1,7 @@
 ---
-title: "Basis Windows Hardening Best Practices voor veilige Windows 10 en Windows 11"
+title: "Beste praktijken voor Windows-hardening voor Windows 10 en 11"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek effectieve strategieën om de beveiliging van uw Windows 10- en Windows 11-systemen te verbeteren met behulp van uitgebreide hardeningtechnieken en best practices."

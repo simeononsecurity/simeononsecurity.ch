@@ -1,6 +1,7 @@
 ---
-title: "Die Vor- und Nachteile der biometrischen Authentifizierung für die Zugangskontrolle"
+title: "Vor- und Nachteile der biometrischen Authentifizierung für die Zugangskontrolle"
 date: 2023-04-01
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Erfahren Sie mehr über die Vorteile und Risiken der biometrischen Authentifizierung für die Zugangskontrolle, einschließlich verbesserter Sicherheit, Datenschutzbedenken und bewährter Verfahren für die Implementierung."

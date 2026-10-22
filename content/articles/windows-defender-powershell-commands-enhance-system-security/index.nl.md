@@ -1,6 +1,7 @@
 ---
-title: "Verhoog de beveiliging van uw systeem met Windows Defender PowerShell-commando's"
+title: "Windows Defender PowerShell-opdrachten voor systeembeveiliging"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek de kracht van Windows Defender PowerShell-opdrachten en leer hoe u de beveiliging van uw systeem kunt verbeteren met opdrachtregelbediening."

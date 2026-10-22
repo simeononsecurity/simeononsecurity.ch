@@ -1,6 +1,7 @@
 ---
-title: "安全なWindows 10とWindows 11のための基本的なWindows強化のベストプラクティス"
+title: "Windows 10および11のためのWindowsハードニングのベストプラクティス"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "包括的なハードニング技術とベストプラクティスを通じて、Windows 10およびWindows 11システムのセキュリティを強化するための効果的な戦略をご覧ください。"

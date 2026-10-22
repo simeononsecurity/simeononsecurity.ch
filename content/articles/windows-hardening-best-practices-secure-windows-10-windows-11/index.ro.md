@@ -1,6 +1,7 @@
 ---
-title: "Cele mai bune practici de bază de întărire a Windows pentru Windows 10 și Windows 11 securizate"
+title: "Cele mai bune practici de întărire pentru Windows 10 și 11"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descoperiți strategii eficiente pentru îmbunătățirea securității sistemelor Windows 10 și Windows 11 prin tehnici complete de întărire și bune practici."

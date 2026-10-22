@@ -1,6 +1,7 @@
 ---
-title: "Creación y gestión de un programa eficaz de formación en ciberseguridad"
+title: "Crear un programa eficaz de formación en concienciación sobre ciberseguridad"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aprenda a crear y gestionar un programa eficaz de formación en ciberseguridad que reduzca el riesgo de ciberataques y proteja los datos confidenciales."

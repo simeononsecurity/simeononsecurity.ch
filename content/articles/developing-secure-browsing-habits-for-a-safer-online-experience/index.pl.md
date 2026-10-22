@@ -1,8 +1,9 @@
 ---
-title: "Rozwijanie bezpiecznych nawyków przeglądania dla bezpieczniejszego korzystania z Internetu"
+title: "Bezpieczne nawyki przeglądania dla bezpieczniejszego korzystania z internetu"
 draft: false
 toc: true
 date: 2023-06-13
+lastmod: 2026-10-21
 description: "Chroń się przed zagrożeniami internetowymi i zapewnij sobie bezpieczniejsze korzystanie z Internetu, rozwijając nawyki bezpiecznego przeglądania. Dowiedz się, jak ważne jest bezpieczne przeglądanie, jakie nawyki należy przyjąć i jak chronić swoje dane osobowe."
 genre: ["Cyberbezpieczeństwo", "Bezpieczeństwo online", "Bezpieczne przeglądanie", "Bezpieczeństwo w Internecie", "Ochrona danych osobowych", "Prywatność online", "Zagrożenia online", "Zapobieganie cyberprzestępczości", "Zapobieganie kradzieży tożsamości", "Bezpieczeństwo w Internecie"]
 tags: ["bezpieczne nawyki przeglądania", "zagrożenia online", "cyberbezpieczeństwo", "bezpieczeństwo online", "ochrona danych osobowych", "prywatność online", "Zapobieganie kradzieży tożsamości", "bezpieczeństwo w internecie", "Zapobieganie cyberprzestępczości", "bezpieczne przeglądanie stron internetowych", "oszustwa internetowe", "oszustwa phishingowe", "ochrona przed złośliwym oprogramowaniem", "ochrona przed ransomware", "bezpieczeństwo mediów społecznościowych", "bezpieczeństwo danych", "ochrona prywatności online", "bezpieczne przechowywanie danych", "bezpieczeństwo hasła", "uwierzytelnianie dwuskładnikowe", "VPN", "szyfrowane przeglądanie", "Bezpieczeństwo publicznych sieci Wi-Fi", "edukacja w zakresie bezpieczeństwa online", "świadomość cyberbezpieczeństwa", "bezpieczne nawyki online", "kultura bezpieczeństwa online", "bezpieczeństwo społeczności", "Wskazówki dotyczące bezpieczeństwa online"]

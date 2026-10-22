@@ -1,6 +1,7 @@
 ---
-title: "Maksymalizacja ochrony kredytu dzięki kombinacji Freeze i Fraud Alert"
+title: "Blokada kredytowa a alert o oszustwie: ochrona przed kradzieżą tożsamości"
 date: 2023-02-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Chroń swój kredyt przed nieautoryzowanym dostępem, łącząc zamrożenie kredytu z alertem o oszustwach, najskuteczniejszym rozwiązaniem powstrzymującym pospolitych przestępców przed dostępem do Twojego raportu kredytowego bez Twojej zgody."

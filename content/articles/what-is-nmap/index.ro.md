@@ -1,6 +1,7 @@
 ---
-title: "Nmap: Un ghid cuprinzător pentru scanarea rețelei și evaluarea securității"
+title: "Nmap: un ghid pentru scanarea rețelei și detectarea serviciilor"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descoperiți cum să utilizați eficient Nmap pentru scanarea rețelei, scanarea porturilor, detectarea serviciilor și identificarea sistemului de operare pentru a evalua securitatea rețelei."

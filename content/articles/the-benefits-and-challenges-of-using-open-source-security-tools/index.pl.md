@@ -1,6 +1,7 @@
 ---
-title: "Korzyści i wyzwania związane z narzędziami bezpieczeństwa Open Source dla organizacji"
+title: "Korzyści i wyzwania związane z narzędziami bezpieczeństwa open source"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji."

@@ -1,6 +1,7 @@
 ---
-title: "Creare e gestire un efficace programma di formazione sulla consapevolezza della cybersicurezza"
+title: "Creare un programma efficace di formazione sulla consapevolezza della cybersicurezza"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Imparate a costruire e gestire un efficace programma di formazione sulla consapevolezza della cybersecurity che riduca il rischio di attacchi informatici e protegga i dati sensibili."

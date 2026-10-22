@@ -1,5 +1,5 @@
 ---
-title: "GPO মাস্টারি: কার্যকরী... এর জন্য একটি বিস্তৃত গাইড"
+title: "Group Policy Objects (GPOs): Windows নিয়ন্ত্রণের একটি নির্দেশিকা"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: একটি প্রতীকী আর্ট-স্টাইল চিত্র যা আন্তঃসংযুক্ত গিয়ারগুলোর একটি নেটওয়ার্ক দেখায়, যা দক্ষ নেটওয়ার্ক ব্যবস্থাপনা এবং অপ্টিমাইজেশনকে প্রতীকী করে।
 coverCaption: 'GPOs এর শক্তি আনলক করুন: আজই আপনার নেটওয়ার্ক ব্যবস্থাপনাকে সহজ করুন!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: গ্রুপ পলিসি অবজেক্টস সম্পর্কে আপনার যা জানা দরকার সবকিছু
 

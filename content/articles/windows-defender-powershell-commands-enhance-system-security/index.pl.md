@@ -1,6 +1,7 @@
 ---
-title: "Zwiększ bezpieczeństwo swojego systemu dzięki poleceniom Windows Defender PowerShell"
+title: "Polecenia PowerShell programu Windows Defender dla bezpieczeństwa systemu"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Odkryj moc poleceń Windows Defender PowerShell i dowiedz się, jak zwiększyć bezpieczeństwo systemu za pomocą sterowania z wiersza poleceń."

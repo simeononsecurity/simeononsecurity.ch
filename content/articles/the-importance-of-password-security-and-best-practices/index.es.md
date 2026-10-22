@@ -1,6 +1,7 @@
 ---
-title: "La importancia de la seguridad de las contraseñas y las mejores prácticas para su gestión"
+title: "Guía de buenas prácticas para la seguridad y gestión de contraseñas"
 date: 2023-03-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Conozca la importancia de la seguridad de las contraseñas y descubra las mejores prácticas de gestión de contraseñas para proteger su información personal y su identidad en Internet."

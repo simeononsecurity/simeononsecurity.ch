@@ -1,6 +1,7 @@
 ---
-title: "Construya un laboratorio doméstico asequible y seguro para pruebas y aprendizaje de TI"
+title: "Crear un laboratorio doméstico económico y seguro para pruebas de TI"
 date: 2023-03-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aprenda a crear un laboratorio doméstico rentable y seguro para adquirir experiencia práctica en TI, experimentando con conceptos de software, hardware y redes."

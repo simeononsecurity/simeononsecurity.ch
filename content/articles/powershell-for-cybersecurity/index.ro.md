@@ -1,6 +1,7 @@
 ---
-title: "Puterea PowerShell pentru îmbunătățirea operațiunilor de securitate cibernetică și a conformității"
+title: "PowerShell pentru securitatea cibernetică: automatizare și apărare"
 date: 2023-02-02
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explorați puterea lui PowerShell în îmbunătățirea operațiunilor de securitate cibernetică și în atingerea conformității cu standardele din industrie prin automatizare și procese simplificate."

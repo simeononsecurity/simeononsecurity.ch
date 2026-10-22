@@ -1,6 +1,7 @@
 ---
-title: "Avantajele și dezavantajele autentificării biometrice pentru controlul accesului"
+title: "Avantajele și dezavantajele autentificării biometrice pentru acces"
 date: 2023-04-01
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aflați care sunt beneficiile și riscurile utilizării autentificării biometrice pentru controlul accesului, inclusiv securitatea sporită, problemele legate de confidențialitate și cele mai bune practici de implementare."

@@ -1,6 +1,7 @@
 ---
-title: "Nmap: Una guía completa para el escaneo de redes y la evaluación de la seguridad"
+title: "Nmap: una guía para el escaneo de redes y la detección de servicios"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descubra cómo utilizar eficazmente Nmap para el escaneado de redes, el escaneado de puertos, la detección de servicios y la identificación de sistemas operativos para evaluar la seguridad de la red."

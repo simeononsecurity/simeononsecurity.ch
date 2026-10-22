@@ -1,6 +1,7 @@
 ---
-title: "El papel de la orquestación de contenedores en los entornos DevOps modernos"
+title: "Orquestación de contenedores en entornos DevOps modernos"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Conozca la importancia y las ventajas de la orquestación de contenedores en el DevOps moderno, junto con las herramientas de orquestación de contenedores más populares y las normativas gubernamentales relevantes para la contenedorización."

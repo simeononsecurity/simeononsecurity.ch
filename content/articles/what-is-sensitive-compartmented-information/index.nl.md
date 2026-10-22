@@ -1,6 +1,7 @@
 ---
-title: "Inzicht in gevoelige informatie (SCI) voor de nationale veiligheid"
+title: "Sensitive Compartmented Information (SCI) uitgelegd"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Het belang, de classificatieniveaus, de verwerking en de regelgeving van Sensitive Compartmented Information (SCI) voor nationale veiligheidsdoeleinden onderzoeken."

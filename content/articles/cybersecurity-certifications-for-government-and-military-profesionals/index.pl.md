@@ -1,6 +1,7 @@
 ---
-title: "Certyfikaty bezpieczeństwa cybernetycznego dla specjalistów rządowych i wojskowych"
+title: "Certyfikaty cyberbezpieczeństwa dla rządu i wojska"
 date: 2023-05-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Poznaj wymagania, korzyści i ścieżki kariery dla certyfikatów cyberbezpieczeństwa w sektorze rządowym i wojskowym."

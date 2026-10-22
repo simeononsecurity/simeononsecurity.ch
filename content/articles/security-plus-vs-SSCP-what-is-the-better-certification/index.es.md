@@ -1,6 +1,7 @@
 ---
-title: "Security+ frente a SSCP: ¿qué certificación de ciberseguridad prevalece?"
+title: "Security+ frente a SSCP: ¿qué certificación deberías obtener?"
 date: 2023-06-09
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Comparación de las certificaciones Security+ y SSCP para determinar cuál es la mejor opción para los profesionales de la ciberseguridad que buscan oportunidades laborales, reconocimiento en el sector y una amplia cobertura de conocimientos."

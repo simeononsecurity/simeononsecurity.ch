@@ -1,6 +1,7 @@
 ---
-title: "Die Rolle der Container-Orchestrierung in modernen DevOps-Umgebungen"
+title: "Container-Orchestrierung in modernen DevOps-Umgebungen"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Erfahren Sie mehr über die Bedeutung und die Vorteile der Container-Orchestrierung in modernen DevOps, über gängige Container-Orchestrierungstools und über die für die Containerisierung relevanten staatlichen Vorschriften."

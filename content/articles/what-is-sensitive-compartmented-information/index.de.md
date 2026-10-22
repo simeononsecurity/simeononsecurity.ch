@@ -1,6 +1,7 @@
 ---
-title: "Sensitive Compartmented Information (SCI) für die nationale Sicherheit verstehen"
+title: "Sensitive Compartmented Information (SCI) erklärt"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Untersuchen Sie die Bedeutung, die Klassifizierungsstufen, die Handhabung und die Vorschriften von sensiblen Informationen (SCI) für Zwecke der nationalen Sicherheit."

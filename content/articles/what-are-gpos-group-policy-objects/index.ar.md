@@ -1,5 +1,5 @@
 ---
-title: "إتقان GPOs: دليل شامل للإدارة الفعالة..."
+title: "كائنات نهج المجموعة (GPOs): دليل للتحكم في Windows"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: صورة بأسلوب فني رمزي توضح شبكة من التروس المتصلة، ترمز إلى إدارة الشبكة بكفاءة وتحسينها.
 coverCaption: 'افتح قوة GPOs: بسّط إدارة شبكتك اليوم!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: كل ما تحتاج معرفته عن كائنات سياسة المجموعة
 

@@ -1,6 +1,7 @@
 ---
-title: "Meilleures pratiques de base de durcissement de Windows pour sécuriser Windows 10 et Windows 11"
+title: "Bonnes pratiques de durcissement pour Windows 10 et 11"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez des stratégies efficaces pour renforcer la sécurité de vos systèmes Windows 10 et Windows 11 grâce à des techniques complètes de durcissement et à des pratiques exemplaires."

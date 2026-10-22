@@ -1,6 +1,7 @@
 ---
-title: "Ansible-Automatisierung: Von einfachem Ansible zu Ansible Tower und Semaphore"
+title: "Ansible, Semaphore und Tower: Automatisierung im Vergleich"
 date: 2023-06-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit der Ansible-Automatisierung mit einem Vergleich von Ansible, Ansible Tower und Ansible Semaphore, und wählen Sie das richtige Tool für ein effizientes Infrastrukturmanagement."

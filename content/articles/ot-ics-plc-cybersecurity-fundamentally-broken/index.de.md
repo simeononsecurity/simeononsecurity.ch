@@ -1,8 +1,9 @@
 ---
-title: "OT-, ICS- und SPS-Cybersicherheit ist ein Problem, das die Industrie nicht ehrlich lösen kann"
+title: "Warum die Cybersicherheit von OT, ICS und PLC noch immer versagt"
 draft: false
 toc: true
 date: 2026-06-26
+lastmod: 2026-10-21
 description: "Eine professionelle Einschätzung, warum OT-, ICS- und SPS-Cybersicherheitsanleitungen mit dem tatsächlichen Problem nicht Schritt halten können. Die Systeme wurden nie für eine Absicherung ausgelegt. Compliance mit schriftlichen Standards ist nicht dasselbe wie Sicherheit."
 tags: ["OT-Sicherheit", "ICS-Sicherheit", "SPS-Sicherheit", "IoT-Sicherheit", "industrielle Cybersicherheit", "SCADA-Sicherheit", "NIST 800-82", "IEC 62443", "NERC CIP", "Betriebstechnologie", "kritische Infrastruktur", "Analogsensoren", "Air Gap", "Legacy-Systeme", "Cybersicherheitsmeinung", "industrielle Steuerungssysteme", "SCADA", "Stuxnet", "Steuerungssystemsicherheit", "cyber-physische Sicherheit", "Lieferkettensicherheit", "OT-Lieferkette"]
 cover: "/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp"

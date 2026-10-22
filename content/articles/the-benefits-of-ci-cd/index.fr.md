@@ -1,6 +1,7 @@
 ---
-title: "La puissance du CD CI : Stimuler la collaboration, la qualité et la rapidité"
+title: "Les avantages du CI/CD : collaboration, qualité et rapidité accrues"
 date: 2023-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez les avantages de l'intégration et du déploiement continus (CI CD) dans le développement de logiciels, en améliorant la collaboration, la qualité et la rapidité."

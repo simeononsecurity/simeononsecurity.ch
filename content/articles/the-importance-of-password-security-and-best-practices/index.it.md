@@ -1,6 +1,7 @@
 ---
-title: "L'importanza della sicurezza delle password e le migliori pratiche per la loro gestione"
+title: "Guida alle migliori pratiche per la sicurezza e la gestione delle password"
 date: 2023-03-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Imparate l'importanza della sicurezza delle password e scoprite le migliori pratiche per la gestione delle password per proteggere le vostre informazioni personali e la vostra identità online."

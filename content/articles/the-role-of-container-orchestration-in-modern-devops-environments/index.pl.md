@@ -1,6 +1,7 @@
 ---
-title: "Rola orkiestracji kontenerów w nowoczesnych środowiskach DevOps"
+title: "Orkiestracja kontenerów w nowoczesnych środowiskach DevOps"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji."

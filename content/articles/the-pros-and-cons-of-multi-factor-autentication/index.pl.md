@@ -1,6 +1,7 @@
 ---
-title: "Zalety i wady uwierzytelniania wieloczynnikowego dla bezpieczeństwa firmy"
+title: "Zalety i wady uwierzytelniania wieloskładnikowego (MFA)"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy."

@@ -1,6 +1,7 @@
 ---
-title: "Voorbereiding op de toekomst van cyberbeveiliging in een post-pandemische wereld"
+title: "De toekomst van cyberbeveiliging in een post-pandemische wereld"
 date: 2023-03-04
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek hoe u zich kunt voorbereiden op de toekomst van cyberbeveiliging in een post-pandemische wereld en uw risico om slachtoffer te worden van cyberaanvallen kunt verkleinen."

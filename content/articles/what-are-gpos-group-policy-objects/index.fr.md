@@ -1,5 +1,5 @@
 ---
-title: "Maîtriser les GPO : Un guide complet pour une gestion efficace..."
+title: "Group Policy Objects (GPOs) : un guide du contrôle de Windows"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: Une image symbolique de style artistique illustrant un réseau d'engrenages interconnectés, symbolisant une gestion et une optimisation efficaces du réseau.
 coverCaption: 'Libérez la puissance des GPO : simplifiez la gestion de votre réseau dès aujourd''hui !'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101 : Tout ce que vous devez savoir sur les objets de stratégie de groupe
 

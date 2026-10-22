@@ -1,6 +1,7 @@
 ---
-title: "保护脚本安全的 10 个基本 PowerShell 安全最佳实践"
+title: "保护脚本的 10 个 PowerShell 安全最佳实践"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "了解保护脚本、密码和敏感信息的 10 大基本 PowerShell 安全最佳实践。增强 PowerShell 环境的安全性，防止未经授权的访问和潜在的安全漏洞。"

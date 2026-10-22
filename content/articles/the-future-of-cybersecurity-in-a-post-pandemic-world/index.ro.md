@@ -1,6 +1,7 @@
 ---
-title: "Pregătirea pentru viitorul securității cibernetice într-o lume post-pandemică"
+title: "Viitorul securității cibernetice într-o lume post-pandemică"
 date: 2023-03-04
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descoperiți cum să vă pregătiți pentru viitorul securității cibernetice într-o lume post-pandemică și cum să vă reduceți riscul de a deveni victime ale atacurilor cibernetice."

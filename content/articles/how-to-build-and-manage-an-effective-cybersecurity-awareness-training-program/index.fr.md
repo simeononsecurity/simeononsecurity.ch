@@ -1,6 +1,7 @@
 ---
-title: "Construire et gérer un programme efficace de sensibilisation à la cybersécurité"
+title: "Créer un programme efficace de sensibilisation à la cybersécurité"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Apprenez à élaborer et à gérer un programme efficace de sensibilisation à la cybersécurité qui réduit le risque de cyber-attaques et protège les données sensibles."

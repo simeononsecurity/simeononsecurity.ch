@@ -1,6 +1,7 @@
 ---
-title: "Certificaciones de ciberseguridad para profesionales gubernamentales y militares"
+title: "Certificaciones de ciberseguridad para el gobierno y el ejército"
 date: 2023-05-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descubra los requisitos, ventajas y trayectorias profesionales de las certificaciones de ciberseguridad en los sectores gubernamental y militar."

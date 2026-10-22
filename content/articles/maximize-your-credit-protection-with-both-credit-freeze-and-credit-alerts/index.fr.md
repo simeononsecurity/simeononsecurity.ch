@@ -1,6 +1,7 @@
 ---
-title: "Maximiser la protection de votre crédit en combinant gel et alerte à la fraude"
+title: "Gel du crédit ou alerte à la fraude : se protéger du vol d'identité"
 date: 2023-02-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Protégez votre crédit contre tout accès non autorisé en combinant un gel de crédit et une alerte à la fraude, la solution la plus efficace pour dissuader les criminels ordinaires d'accéder à votre dossier de crédit sans votre permission."

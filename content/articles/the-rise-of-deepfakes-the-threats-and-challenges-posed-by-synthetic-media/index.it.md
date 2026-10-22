@@ -1,8 +1,9 @@
 ---
-title: "Deepfakes: Minacce e sfide dei media sintetici nell'era digitale"
+title: "Deepfake: le minacce e le sfide dei media sintetici"
 draft: false
 toc: true
 date: 2023-05-21
+lastmod: 2026-10-21
 description: "Esplora l'ascesa dei deepfakes, le loro minacce, le sfide e le misure normative per combattere la manipolazione sintetica dei media."
 tags: ["deepfakes", "media sintetici", "Tecnologia AI", "disinformazione", "notizie false", "frode", "invasione della privacy", "rilevamento deepfake", "quadri normativi", "educazione", "consapevolezza", "l'era digitale", "tecnologia", "società", "sfide", "minacce", "combattere i deepfakes", "responsabilità", "collaborazione", "algoritmi avanzati"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"

@@ -1,6 +1,7 @@
 ---
-title: "FISMA 101: Visión general de la Ley Federal de Modernización de la Seguridad de la Información"
+title: "FISMA 101: una visión general de la seguridad de la información federal"
 date: 2023-02-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "FISMA 101 ofrece una visión completa de la Ley Federal de Modernización de la Seguridad de la Información, incluidos sus componentes clave, beneficios y requisitos para las agencias federales."

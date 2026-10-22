@@ -1,6 +1,7 @@
 ---
-title: "Windows Defender PowerShellコマンドでシステムセキュリティを強化する"
+title: "システムセキュリティのためのWindows Defender PowerShellコマンド"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Windows Defender PowerShellコマンドのパワーを発見し、コマンドライン制御でシステムセキュリティを強化する方法を学びましょう。"

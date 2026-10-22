@@ -1,6 +1,7 @@
 ---
-title: "Aufbau und Verwaltung eines wirksamen Schulungsprogramms zur Cybersicherheit"
+title: "Ein wirksames Schulungsprogramm für Cybersicherheitsbewusstsein aufbauen"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie ein effektives Schulungsprogramm zur Cybersicherheit aufbauen und verwalten, das das Risiko von Cyberangriffen verringert und sensible Daten schützt."

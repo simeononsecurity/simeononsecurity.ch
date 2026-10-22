@@ -1,6 +1,7 @@
 ---
-title: "Vor- und Nachteile der Multi-Faktor-Authentifizierung für die Unternehmenssicherheit"
+title: "Vor- und Nachteile der Multi-Faktor-Authentifizierung (MFA)"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Lernen Sie die Vor- und Nachteile der Multi-Faktor-Authentifizierung (MFA) kennen und erfahren Sie, wie Sie die richtige Lösung für die Sicherheit Ihres Unternehmens auswählen."

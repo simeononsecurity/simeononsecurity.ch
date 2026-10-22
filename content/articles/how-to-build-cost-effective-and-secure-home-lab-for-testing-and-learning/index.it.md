@@ -1,6 +1,7 @@
 ---
-title: "Costruire un laboratorio domestico economico e sicuro per i test e l'apprendimento IT"
+title: "Creare un laboratorio domestico economico e sicuro per i test IT"
 date: 2023-03-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Imparate a creare un laboratorio domestico sicuro ed economico per fare esperienza pratica di IT, sperimentando concetti di software, hardware e networking."

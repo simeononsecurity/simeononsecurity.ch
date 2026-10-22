@@ -1,6 +1,7 @@
 ---
-title: "De kracht van PowerShell voor verbeterde cyberbeveiligingsoperaties en compliance"
+title: "PowerShell voor cyberbeveiliging: automatisering en verdediging"
 date: 2023-02-02
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ontdek de kracht van PowerShell bij het verbeteren van cyberbeveiligingsactiviteiten en het voldoen aan industrienormen door middel van automatisering en gestroomlijnde processen."

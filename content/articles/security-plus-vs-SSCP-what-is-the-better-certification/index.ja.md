@@ -1,6 +1,7 @@
 ---
-title: "Security+とSSCP：どちらのサイバーセキュリティ認定資格が頂点に君臨するのか？"
+title: "Security+とSSCP：どちらの認定資格を取得すべきか？"
 date: 2023-06-09
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Security+とSSCPの認定資格を比較し、就職の機会、業界での認知度、包括的な知識の網羅性を求めるサイバーセキュリティ専門家にとって最適な選択を決定します。"

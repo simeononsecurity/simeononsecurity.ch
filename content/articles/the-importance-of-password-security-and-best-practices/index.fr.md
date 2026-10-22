@@ -1,6 +1,7 @@
 ---
-title: "L'importance de la sécurité des mots de passe et les meilleures pratiques de gestion des mots de passe"
+title: "Guide des bonnes pratiques de sécurité et de gestion des mots de passe"
 date: 2023-03-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Apprenez l'importance de la sécurité des mots de passe et découvrez les meilleures pratiques de gestion des mots de passe pour protéger vos informations personnelles et votre identité en ligne."

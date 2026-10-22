@@ -1,6 +1,7 @@
 ---
-title: "La importancia del cumplimiento y la profesionalidad en la ciberseguridad"
+title: "Cumplimiento y profesionalidad en el trabajo de ciberseguridad"
 date: 2023-02-08
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "La ciberseguridad es un aspecto crítico de las operaciones empresariales modernas y requiere un enfoque integral que implique los sistemas, protocolos y personal adecuados para gestionar eficazmente las defensas contra los ciberataques."

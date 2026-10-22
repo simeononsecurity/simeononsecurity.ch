@@ -1,6 +1,7 @@
 ---
-title: "Zalety i wady uwierzytelniania biometrycznego dla kontroli dostępu"
+title: "Zalety i wady uwierzytelniania biometrycznego w kontroli dostępu"
 date: 2023-04-01
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Dowiedz się o korzyściach i zagrożeniach związanych z wykorzystaniem uwierzytelniania biometrycznego do kontroli dostępu, w tym o zwiększonym bezpieczeństwie, obawach dotyczących prywatności i najlepszych praktykach wdrażania."

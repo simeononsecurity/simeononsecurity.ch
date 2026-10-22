@@ -1,6 +1,7 @@
 ---
-title: "Difesa dagli attacchi di social engineering nella sicurezza informatica"
+title: "Difendersi dagli attacchi di ingegneria sociale e dalle frodi"
 date: 2023-03-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite come difendervi dagli attacchi di social engineering e proteggere i vostri dati dai criminali informatici in questo articolo informativo."

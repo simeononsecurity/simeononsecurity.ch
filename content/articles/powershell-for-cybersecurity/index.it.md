@@ -1,6 +1,7 @@
 ---
-title: "Il potere di PowerShell per migliorare le operazioni e la conformità della cybersecurity"
+title: "PowerShell per la cybersicurezza: automazione e difesa"
 date: 2023-02-02
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Esplorate la potenza di PowerShell per migliorare le operazioni di cybersecurity e raggiungere la conformità agli standard di settore attraverso l'automazione e la semplificazione dei processi."

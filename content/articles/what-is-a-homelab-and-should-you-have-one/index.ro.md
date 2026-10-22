@@ -1,6 +1,7 @@
 ---
-title: "Crearea unui laborator acasă: un ghid pentru profesioniștii IT, studenții și pasionații"
+title: "Ce este un homelab? Un ghid de configurare pentru profesioniștii IT"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Acest ghid cuprinzător oferă o imagine de ansamblu detaliată a ceea ce este un Home Lab, de ce să creați unul, de ce componente sunt necesare, cum să îl configurați, subiecte avansate de explorat și cele mai bune practici de urmat."

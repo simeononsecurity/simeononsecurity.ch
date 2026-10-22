@@ -1,6 +1,7 @@
 ---
-title: "Importanța securității parolelor și cele mai bune practici pentru gestionarea parolelor"
+title: "Ghid de bune practici pentru securitatea și gestionarea parolelor"
 date: 2023-03-10
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aflați despre importanța securității parolelor și descoperiți cele mai bune practici de gestionare a parolelor pentru a vă proteja informațiile personale și identitatea online."

@@ -1,6 +1,7 @@
 ---
-title: "Il potere del CD CI: Incrementare collaborazione, qualità e velocità"
+title: "I vantaggi del CI/CD: collaborazione, qualità e velocità migliori"
 date: 2023-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite i vantaggi della Continuous Integration e del Continuous Deployment (CI CD) nello sviluppo del software, migliorando la collaborazione, la qualità e la velocità."

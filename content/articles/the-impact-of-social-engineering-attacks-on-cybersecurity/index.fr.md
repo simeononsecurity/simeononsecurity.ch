@@ -1,6 +1,7 @@
 ---
-title: "Se défendre contre les attaques d'ingénierie sociale dans le domaine de la cybersécurité"
+title: "Se défendre contre les attaques d'ingénierie sociale et la fraude"
 date: 2023-03-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Apprenez à vous défendre contre les attaques d'ingénierie sociale et à protéger vos données contre les cybercriminels dans cet article informatif."

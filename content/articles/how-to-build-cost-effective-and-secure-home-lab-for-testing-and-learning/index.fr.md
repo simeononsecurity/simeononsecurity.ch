@@ -1,6 +1,7 @@
 ---
-title: "Construire un laboratoire à domicile abordable et sécurisé pour les tests et l'apprentissage des technologies de l'information"
+title: "Construire un laboratoire maison abordable et sécurisé pour les tests informatiques"
 date: 2023-03-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Apprenez à créer un laboratoire domestique rentable et sécurisé pour acquérir une expérience pratique des technologies de l'information, en expérimentant des logiciels, du matériel et des concepts de mise en réseau."

@@ -1,6 +1,7 @@
 ---
-title: "Erhöhen Sie Ihre Systemsicherheit mit Windows Defender PowerShell-Befehlen"
+title: "Windows Defender PowerShell-Befehle für die Systemsicherheit"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit der Windows Defender PowerShell-Befehle, und erfahren Sie, wie Sie die Sicherheit Ihres Systems mit der Befehlszeilensteuerung verbessern können."

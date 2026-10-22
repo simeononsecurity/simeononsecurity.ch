@@ -1,6 +1,7 @@
 ---
-title: "Nmap : Un guide complet pour l'analyse des réseaux et l'évaluation de la sécurité"
+title: "Nmap : un guide de l'analyse réseau et de la détection de services"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez comment utiliser efficacement Nmap pour l'analyse du réseau, l'analyse des ports, la détection des services et l'identification des systèmes d'exploitation afin d'évaluer la sécurité du réseau."

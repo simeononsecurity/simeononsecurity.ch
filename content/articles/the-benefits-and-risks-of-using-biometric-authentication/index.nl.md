@@ -1,6 +1,7 @@
 ---
-title: "De voor- en nadelen van biometrische authenticatie voor toegangscontrole"
+title: "Voor- en nadelen van biometrische authenticatie voor toegang"
 date: 2023-04-01
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Leer over de voordelen en risico's van het gebruik van biometrische authenticatie voor toegangscontrole, waaronder verbeterde beveiliging, privacyproblemen en beste praktijken voor implementatie."

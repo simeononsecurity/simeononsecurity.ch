@@ -1,6 +1,7 @@
 ---
-title: "Înțelegerea informațiilor sensibile compartimentate (SCI) pentru securitatea națională"
+title: "Informațiile sensibile compartimentate (SCI) explicate"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explorați importanța, nivelurile de clasificare, manipularea și reglementările privind informațiile clasificate sensibile (SCI) în scopuri de securitate națională."

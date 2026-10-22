@@ -1,6 +1,7 @@
 ---
-title: "PowerShell 在增强网络安全操作和合规性方面的强大功能"
+title: "用于网络安全的 PowerShell：自动化与防御"
 date: 2023-02-02
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "探索 PowerShell 在增强网络安全操作方面的强大功能，并通过自动化和简化流程来实现符合行业标准。"

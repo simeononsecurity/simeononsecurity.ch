@@ -1,6 +1,7 @@
 ---
-title: "Ein Heimlabor einrichten: Ein Leitfaden für IT-Profis, Studenten und Hobbyisten"
+title: "Was ist ein Homelab? Ein Einrichtungsleitfaden für IT-Profis"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Erschließen Sie das Potenzial Ihres Heimlabors mit diesem umfassenden Leitfaden, der sich an IT-Profis, Studenten und Hobbyisten richtet und die Einrichtung, Komponenten, fortgeschrittene Themen und bewährte Verfahren behandelt."

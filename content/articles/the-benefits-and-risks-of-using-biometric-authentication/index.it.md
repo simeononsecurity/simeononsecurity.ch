@@ -1,6 +1,7 @@
 ---
-title: "Pro e contro dell'autenticazione biometrica per il controllo degli accessi"
+title: "Vantaggi e svantaggi dell'autenticazione biometrica per l'accesso"
 date: 2023-04-01
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite i vantaggi e i rischi dell'utilizzo dell'autenticazione biometrica per il controllo degli accessi, tra cui la maggiore sicurezza, i problemi di privacy e le migliori pratiche per l'implementazione."

@@ -1,5 +1,5 @@
 ---
-title: "精通GPO：有效管理的全面指南..."
+title: "组策略对象（GPOs）：Windows 管控指南"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: 一幅象征性的艺术风格图像，展示了相互连接的齿轮网络，象征高效的网络管理与优化。
 coverCaption: 释放GPO的力量：今天就简化您的网络管理！
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101：关于组策略对象你需要知道的一切
 

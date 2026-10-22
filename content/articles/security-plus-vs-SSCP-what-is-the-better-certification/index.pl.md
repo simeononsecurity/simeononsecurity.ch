@@ -1,6 +1,7 @@
 ---
-title: "Security+ vs SSCP: Który certyfikat cyberbezpieczeństwa jest najlepszy?"
+title: "Security+ czy SSCP: który certyfikat wybrać?"
 date: 2023-06-09
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Porównanie certyfikatów Security+ i SSCP w celu określenia najlepszego wyboru dla specjalistów ds. cyberbezpieczeństwa poszukujących możliwości zatrudnienia, uznania w branży i kompleksowego zakresu wiedzy."

@@ -1,6 +1,7 @@
 ---
-title: "Повышение безопасности системы с помощью команд Windows Defender PowerShell"
+title: "Команды PowerShell для Windows Defender для безопасности системы"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Откройте для себя возможности команд Windows Defender PowerShell и узнайте, как повысить безопасность системы с помощью управления из командной строки."

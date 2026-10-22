@@ -1,6 +1,7 @@
 ---
-title: "Obrona przed atakami socjotechnicznymi w cyberbezpieczeństwie"
+title: "Obrona przed atakami socjotechnicznymi i oszustwami"
 date: 2023-03-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Z tego artykułu dowiesz się, jak bronić się przed atakami socjotechnicznymi i chronić swoje dane przed cyberprzestępcami."

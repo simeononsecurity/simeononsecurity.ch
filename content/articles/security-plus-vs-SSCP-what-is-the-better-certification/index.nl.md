@@ -1,6 +1,7 @@
 ---
-title: "Security+ vs SSCP: Welke cyberbeveiligingscertificering heeft de overhand?"
+title: "Security+ versus SSCP: welke certificering moet je halen?"
 date: 2023-06-09
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Het vergelijken van Security+ en SSCP certificeringen om de beste keuze te bepalen voor cyberbeveiligingsprofessionals die op zoek zijn naar kansen op de arbeidsmarkt, erkenning in de branche en uitgebreide kennisdekking."

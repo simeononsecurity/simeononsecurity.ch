@@ -1,6 +1,7 @@
 ---
-title: "Vantaggi e sfide degli strumenti di sicurezza open source per le organizzazioni"
+title: "Vantaggi e sfide degli strumenti di sicurezza open source"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Esplorate i vantaggi e le sfide dell'utilizzo di strumenti di sicurezza open source per migliorare la posizione di sicurezza della vostra organizzazione."

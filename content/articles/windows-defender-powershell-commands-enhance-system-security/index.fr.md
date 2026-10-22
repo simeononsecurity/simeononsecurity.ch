@@ -1,6 +1,7 @@
 ---
-title: "Renforcez la sécurité de votre système avec les commandes PowerShell de Windows Defender"
+title: "Commandes PowerShell de Windows Defender pour la sécurité du système"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez la puissance des commandes PowerShell de Windows Defender et apprenez à renforcer la sécurité de votre système grâce au contrôle de la ligne de commande."

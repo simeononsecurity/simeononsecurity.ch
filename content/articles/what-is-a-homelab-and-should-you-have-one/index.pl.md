@@ -1,6 +1,7 @@
 ---
-title: "Tworzenie domowego laboratorium: Przewodnik dla informatyków, studentów i hobbystów"
+title: "Czym jest homelab? Przewodnik konfiguracji dla informatyków"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Ten obszerny przewodnik zawiera szczegółowy przegląd tego, czym jest Domowe Laboratorium, dlaczego warto je stworzyć, jakie elementy są potrzebne, jak je skonfigurować, zaawansowane tematy do zbadania i najlepsze praktyki do naśladowania."

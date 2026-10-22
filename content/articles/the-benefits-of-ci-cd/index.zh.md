@@ -1,6 +1,7 @@
 ---
-title: "CI CD 的力量：提升协作、质量和速度"
+title: "CI/CD 的优势：更快的协作、质量与速度"
 date: 2023-06-06
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "了解持续集成和持续部署（CI CD）在软件开发中的优势，增强协作、提高质量和速度。"

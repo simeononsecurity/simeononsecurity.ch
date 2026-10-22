@@ -1,6 +1,7 @@
 ---
-title: "Rolul orchestrației containerelor în mediile moderne DevOps"
+title: "Orchestrarea containerelor în mediile DevOps moderne"
 date: 2023-04-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Aflați despre semnificația și beneficiile orchestrării containerelor în DevOps modern, împreună cu instrumentele populare de orchestrare a containerelor și reglementările guvernamentale relevante pentru containerizare."

@@ -1,6 +1,7 @@
 ---
-title: "サイバーセキュリティの運用とコンプライアンスを強化するPowerShellの威力"
+title: "サイバーセキュリティのためのPowerShell：自動化と防御"
 date: 2023-02-02
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "自動化と合理化されたプロセスにより、サイバーセキュリティの運用を強化し、業界標準へのコンプライアンスを達成するためのPowerShellの力を探求してください。"

@@ -1,6 +1,7 @@
 ---
-title: "使用 Windows Defender PowerShell 命令提高系统安全性"
+title: "用于系统安全的 Windows Defender PowerShell 命令"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "了解 Windows Defender PowerShell 命令的强大功能，学习如何通过命令行控制增强系统安全性。"

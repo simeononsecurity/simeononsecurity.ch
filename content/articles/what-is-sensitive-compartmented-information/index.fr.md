@@ -1,6 +1,7 @@
 ---
-title: "Comprendre les informations confidentielles sensibles (ICS) pour la sécurité nationale"
+title: "Les informations confidentielles compartimentées (SCI) expliquées"
 date: 2023-06-12
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explorer l'importance, les niveaux de classification, le traitement et la réglementation des informations sensibles et compartimentées (SCI) à des fins de sécurité nationale."

@@ -1,5 +1,5 @@
 ---
-title: "GPOs ਵਿੱਚ ਮਾਹਰ: ਪ੍ਰਭਾਵਸ਼ਾਲੀ... ਲਈ ਇੱਕ ਵਿਸਤ੍ਰਿਤ ਮਾਰਗਦਰਸ਼ਿਕਾ"
+title: "Group Policy Objects (GPOs): Windows ਕੰਟਰੋਲ ਲਈ ਇੱਕ ਗਾਈਡ"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: ਇੱਕ ਪ੍ਰਤੀਕਾਤਮਕ ਕਲਾ-ਸ਼ੈਲੀ ਦੀ ਛਵੀ ਜੋ ਜੁੜੇ ਹੋਏ ਗੀਅਰਾਂ ਦੇ ਨੈੱਟਵਰਕ ਨੂੰ ਦਰਸਾਉਂਦੀ ਹੈ, ਜੋ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ ਅਤੇ ਅਪਟੀਮਾਈਜ਼ੇਸ਼ਨ ਦਾ ਪ੍ਰਤੀਕ ਹੈ।
 coverCaption: 'GPOs ਦੀ ਤਾਕਤ ਖੋਲ੍ਹੋ: ਅੱਜ ਹੀ ਆਪਣੇ ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ ਨੂੰ ਸਧਾਰਨ ਬਣਾਓ!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: Group Policy Objects ਬਾਰੇ ਤੁਹਾਨੂੰ ਜੋ ਕੁਝ ਜਾਣਨਾ ਚਾਹੀਦਾ ਹੈ
 

@@ -1,6 +1,7 @@
 ---
-title: "Beneficiile și provocările instrumentelor de securitate Open Source pentru organizații"
+title: "Beneficiile și provocările instrumentelor de securitate open source"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explorați beneficiile și provocările legate de utilizarea instrumentelor de securitate open source pentru a îmbunătăți poziția de securitate a organizației dumneavoastră."

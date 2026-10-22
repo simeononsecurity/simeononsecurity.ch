@@ -1,6 +1,7 @@
 ---
-title: "10 wesentliche bewährte PowerShell-Sicherheitspraktiken zum Schutz Ihrer Skripts"
+title: "10 bewährte PowerShell-Sicherheitspraktiken zum Schutz von Skripten"
 date: 2023-07-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Lernen Sie die 10 wichtigsten PowerShell-Sicherheits-Best-Practices zum Schutz Ihrer Skripts, Kennwörter und sensiblen Informationen kennen. Verbessern Sie die Sicherheit Ihrer PowerShell-Umgebung und schützen Sie sich vor unbefugtem Zugriff und potenziellen Sicherheitsverletzungen."

@@ -1,5 +1,5 @@
 ---
-title: "GPOs में महारत हासिल करना: प्रभावी नेटवर्क प्रबंधन के लिए एक व्यापक मार्गदर्शिका..."
+title: "Group Policy Objects (GPOs): Windows नियंत्रण की एक मार्गदर्शिका"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: एक प्रतीकात्मक कला-शैली की छवि जो जुड़े हुए गियरों के नेटवर्क को दर्शाती है, जो कुशल नेटवर्क प्रबंधन और अनुकूलन का प्रतीक है।
 coverCaption: 'GPOs की शक्ति खोलें: आज ही अपने नेटवर्क प्रबंधन को सरल बनाएं!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: ग्रुप पॉलिसी ऑब्जेक्ट्स के बारे में आपको जो कुछ भी जानना चाहिए
 

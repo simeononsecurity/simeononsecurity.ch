@@ -1,6 +1,7 @@
 ---
-title: "Massimizzare la protezione del credito con la combinazione di congelamento e allarme frodi"
+title: "Blocco del credito o allerta frodi: proteggersi dal furto d'identità"
 date: 2023-02-15
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Proteggete il vostro credito da accessi non autorizzati combinando il blocco del credito e l'avviso di frode, la soluzione più efficace per impedire ai criminali comuni di accedere al vostro rapporto di credito senza il vostro permesso."

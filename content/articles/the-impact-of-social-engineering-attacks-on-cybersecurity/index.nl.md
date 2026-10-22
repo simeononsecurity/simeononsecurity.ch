@@ -1,6 +1,7 @@
 ---
-title: "Verdedigen tegen social engineering-aanvallen in cyberbeveiliging"
+title: "Verdediging tegen social engineering-aanvallen en fraude"
 date: 2023-03-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Leer in dit informatieve artikel hoe je je kunt verdedigen tegen social engineering-aanvallen en je gegevens kunt beschermen tegen cybercriminelen."

@@ -1,6 +1,7 @@
 ---
-title: "Unraid 与 TrueNas：哪种 NAS 操作系统适合您？"
+title: "TrueNAS 与 Unraid：哪种 NAS 操作系统胜出？"
 date: 2023-02-16
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "对 Unraid 和 TrueNas 的全面比较，包括它们的用户友好性、功能、文档和社区，以帮助用户就哪种 NAS 操作系统最适合他们的需求做出明智的决定。"

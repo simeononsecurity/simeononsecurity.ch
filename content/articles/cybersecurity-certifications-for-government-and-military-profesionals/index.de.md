@@ -1,6 +1,7 @@
 ---
-title: "Cybersecurity-Zertifizierungen für Regierungs- und Militärangehörige"
+title: "Cybersicherheitszertifizierungen für Behörden und Militär"
 date: 2023-05-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Entdecken Sie die Anforderungen, Vorteile und Karrieremöglichkeiten für Cybersecurity-Zertifizierungen im staatlichen und militärischen Bereich."

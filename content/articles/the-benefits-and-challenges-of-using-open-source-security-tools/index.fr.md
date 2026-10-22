@@ -1,6 +1,7 @@
 ---
-title: "Avantages et défis des outils de sécurité Open Source pour les organisations"
+title: "Avantages et défis des outils de sécurité open source"
 date: 2023-04-05
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Explorez les avantages et les défis liés à l'utilisation d'outils de sécurité open source pour améliorer la position de votre organisation en matière de sécurité."

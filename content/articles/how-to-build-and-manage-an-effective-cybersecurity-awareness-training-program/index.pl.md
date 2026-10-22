@@ -1,6 +1,7 @@
 ---
-title: "Budowanie i zarządzanie skutecznym programem szkoleniowym w zakresie świadomości cyberbezpieczeństwa"
+title: "Budowanie skutecznego programu szkoleń z zakresu świadomości cyberbezpieczeństwa"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Dowiedz się, jak zbudować i zarządzać skutecznym programem szkoleniowym w zakresie świadomości cyberbezpieczeństwa, który zmniejsza ryzyko cyberataków i chroni wrażliwe dane."

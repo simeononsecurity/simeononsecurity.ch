@@ -1,6 +1,7 @@
 ---
-title: "Een effectief trainingsprogramma voor bewustzijn van cyberbeveiliging opbouwen en beheren"
+title: "Een effectief bewustwordingsprogramma voor cyberbeveiliging opbouwen"
 date: 2023-02-18
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Leer hoe je een effectief cyberbewustzijnstrainingsprogramma opzet en beheert dat het risico op cyberaanvallen vermindert en gevoelige gegevens beschermt."

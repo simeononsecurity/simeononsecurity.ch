@@ -1,5 +1,5 @@
 ---
-title: "GPO's Beheersen: Een Uitgebreide Gids voor Effectieve..."
+title: "Group Policy Objects (GPOs): een gids voor Windows-beheer"
 date: 2023-06-11
 toc: true
 draft: false
@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: Een symbolische kunststijl afbeelding die een netwerk van onderling verbonden tandwielen illustreert, die efficiënte netwerkbeheer en optimalisatie symboliseren.
 coverCaption: 'Ontgrendel de Kracht van GPO''s: vereenvoudig vandaag nog je netwerkbeheer!'
-lastmod: 2026-10-08
+lastmod: 2026-10-21
 ---
 ## GPO 101: Alles wat je moet weten over Group Policy Objects
 

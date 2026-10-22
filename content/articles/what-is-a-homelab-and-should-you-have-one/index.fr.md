@@ -1,6 +1,7 @@
 ---
-title: "Création d'un laboratoire domestique : Un guide pour les professionnels de l'informatique, les étudiants et les amateurs"
+title: "Qu'est-ce qu'un homelab ? Guide de configuration pour les professionnels de l'informatique"
 date: 2023-02-14
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Libérez le potentiel de votre Home Lab grâce à ce guide complet, conçu pour les professionnels de l'informatique, les étudiants et les amateurs, qui couvre l'installation, les composants, les sujets avancés et les meilleures pratiques."

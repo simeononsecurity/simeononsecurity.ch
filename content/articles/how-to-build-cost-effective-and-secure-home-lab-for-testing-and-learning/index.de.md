@@ -1,6 +1,7 @@
 ---
-title: "Erstellen Sie ein erschwingliches, sicheres Heimlabor für IT-Tests und -Lernen"
+title: "Ein günstiges, sicheres Heimlabor für IT-Tests aufbauen"
 date: 2023-03-25
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Lernen Sie, wie Sie ein kostengünstiges, sicheres Heimlabor einrichten, um praktische IT-Erfahrungen zu sammeln und mit Software, Hardware und Netzwerkkonzepten zu experimentieren."

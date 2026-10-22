@@ -1,6 +1,7 @@
 ---
-title: "Îmbunătățiți securitatea sistemului cu comenzile PowerShell Windows Defender"
+title: "Comenzi PowerShell Windows Defender pentru securitatea sistemului"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descoperiți puterea comenzilor Windows Defender PowerShell și învățați cum să vă îmbunătățiți securitatea sistemului cu ajutorul controlului prin linia de comandă."

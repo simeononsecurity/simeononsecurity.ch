@@ -1,8 +1,9 @@
 ---
-title: "Deepfakes: Amenințări și provocări ale mediilor sintetice în era digitală"
+title: "Deepfake-uri: amenințările și provocările mediilor sintetice"
 draft: false
 toc: true
 date: 2023-05-21
+lastmod: 2026-10-21
 description: "Explorați creșterea numărului de deepfakes, amenințările și provocările acestora, precum și măsurile de reglementare în combaterea manipulării mediatice sintetice."
 tags: ["deepfakes", "medii sintetice", "Tehnologie AI", "dezinformare", "știri false", "fraudă", "invazia vieții private", "detectarea deepfake", "cadre de reglementare", "educație", "conștientizare", "era digitală", "tehnologie", "societate", "provocări", "amenințări", "combaterea deepfakes", "responsabilitate", "colaborare", "algoritmi avansați"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"

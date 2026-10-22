@@ -1,6 +1,7 @@
 ---
-title: "Préparer l'avenir de la cybersécurité dans un monde post-pandémique"
+title: "L'avenir de la cybersécurité dans un monde post-pandémique"
 date: 2023-03-04
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Découvrez comment vous préparer à l'avenir de la cybersécurité dans un monde post-pandémique et réduire le risque d'être victime de cyberattaques."

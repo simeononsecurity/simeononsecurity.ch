@@ -1,6 +1,7 @@
 ---
-title: "Migliorate la sicurezza del sistema con i comandi PowerShell di Windows Defender"
+title: "Comandi PowerShell di Windows Defender per la sicurezza del sistema"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Scoprite la potenza dei comandi PowerShell di Windows Defender e imparate a migliorare la sicurezza del vostro sistema con il controllo della riga di comando."

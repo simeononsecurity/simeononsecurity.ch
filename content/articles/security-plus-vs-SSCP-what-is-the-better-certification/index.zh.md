@@ -1,6 +1,7 @@
 ---
-title: "Security+ vs SSCP：哪个网络安全认证最重要？"
+title: "Security+ 与 SSCP：你该考取哪个认证？"
 date: 2023-06-09
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "比较 Security+ 和 SSCP 认证，为寻求工作机会、行业认可和全面知识覆盖的网络安全专业人员确定最佳选择。"

@@ -1,6 +1,7 @@
 ---
-title: "Buenas prácticas básicas de Windows Hardening para asegurar Windows 10 y Windows 11"
+title: "Buenas prácticas de fortalecimiento de Windows para Windows 10 y 11"
 date: 2023-07-27
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "Descubra estrategias eficaces para mejorar la seguridad de sus sistemas Windows 10 y Windows 11 mediante técnicas de refuerzo completas y prácticas recomendadas."

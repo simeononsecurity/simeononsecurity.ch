@@ -1,6 +1,7 @@
 ---
-title: "Nmap：网络扫描和安全评估综合指南"
+title: "Nmap：网络扫描与服务探测指南"
 date: 2023-06-13
+lastmod: 2026-10-21
 toc: true
 draft: false
 description: "了解如何有效使用 Nmap 进行网络扫描、端口扫描、服务检测和操作系统识别，以评估网络安全。"
