@@ -12,11 +12,17 @@ on:
       - master
     # A push rebuilds only the languages it touches (see the detect job). Each
     # language L is triggered by its own content, i18n file, or language config.
-    # Shared files (layouts/, static/, themes/, config/_default/) are
-    # intentionally NOT listed: changing them did not trigger a language build
-    # before this change, and that behaviour is preserved. Flagged for the owner
-    # in the handoff as a decision to confirm.
+    # A change to shared site files (layouts/, themes/, assets/, static/, data/,
+    # config/_default/) or to this workflow itself rebuilds ALL 16 languages, so
+    # those paths are listed here too to trigger the workflow in the first place.
     paths:
+      - "layouts/**"
+      - "themes/**"
+      - "assets/**"
+      - "static/**"
+      - "data/**"
+      - "config/_default/**"
+      - ".github/workflows/branch_build_hugo.yml"
       - "content/**/*.ar.md"
       - "i18n/ar.yaml"
       - "config/language/ar/**"
@@ -124,8 +130,14 @@ jobs:
           else
             changed="$(git diff --name-only "$BEFORE" "$SHA")"
             langs=""
+            shared=0
             while IFS= read -r f; do
               [ -z "$f" ] && continue
+              # Shared site files (and this workflow) rebuild ALL languages.
+              case "$f" in
+                layouts/*|themes/*|assets/*|static/*|data/*|config/_default/*|.github/workflows/branch_build_hugo.yml)
+                  shared=1 ;;
+              esac
               for l in $ALL_LANGS; do
                 # $l is a fixed lowercase language code (no glob metachars); the glob in
                 # the pattern is intentional (content/* spans any depth).
@@ -139,7 +151,11 @@ jobs:
             done <<EOF
           $changed
           EOF
-            selected="$langs"
+            if [ "$shared" -eq 1 ]; then
+              selected="$ALL_LANGS"
+            else
+              selected="$langs"
+            fi
           fi
 
           languages="$(to_json "$selected")"
