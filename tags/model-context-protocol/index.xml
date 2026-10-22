@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Model Context Protocol on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Model Context Protocol on simeononsecurity</title><link>https://simeononsecurity.com/tags/model-context-protocol/</link></image><link>https://simeononsecurity.com/tags/model-context-protocol/</link><description>Recent content in Model Context Protocol on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/model-context-protocol/index.xml" rel="self" type="application/rss+xml"/><item><title>Lesson 1: Hermes Agent for Security and Automation: Profiles, Skills, and Bots Explained</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/01-hermes-agent-overview/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Automation"
+, "Self-Hosted"
+, "AI Security"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/01-hermes-agent-overview/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand Hermes Agent and its parts — profiles, skills, memory, bots, the gateway, and the kanban board — and learn when the persistent model beats a per-project CLI coding agent.</description><enclosure url="https://simeononsecurity.com/img/cover/hermes-agent-overview-security-automation.webp" length="151304" type="image/webp"/></item><item><title>1Password SSH Agent and CLI: Read-Only AI Agent Access</title><link>https://simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"System Administration"
+, "Cloud Security"
+, "Automation"</category><guid>https://simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Design a read-only SSH workflow with 1Password CLI, the SSH Agent, and MCP. Use synthetic commands, narrow permissions, and human approval before live testing.</description><enclosure url="https://simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>Bitbucket Cloud SSH Keys: Read-Only Git Access for AI Agents</title><link>https://simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cloud Security"
+, "Developer Tools"
+, "Systems Administration"</category><guid>https://simeononsecurity.com/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Set up Bitbucket Cloud SSH keys, Git CLI access, REST API tokens, 1Password, and MCP tools for read-only AI agent workflows.</description><enclosure url="https://simeononsecurity.com/img/cover/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation.webp" length="159508" type="image/webp"/></item><item><title>MCP Server Setup: Permissions, Tool Tests, and Safe Removal</title><link>https://simeononsecurity.com/articles/effective-ai-mcp-server-setup/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Developer Tools"</category><guid>https://simeononsecurity.com/articles/effective-ai-mcp-server-setup/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Connect one read-only MCP documentation server, inspect its tools, run a real read, and remove the connection when finished.</description><enclosure url="https://simeononsecurity.com/img/cover/effective-ai-mcp-server-setup.webp" length="82234" type="image/webp"/></item><item><title>Secure AI Agents and MCP Course</title><link>https://simeononsecurity.com/secure-ai-agents-mcp-course-start/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Software Engineering"</category><guid>https://simeononsecurity.com/secure-ai-agents-mcp-course-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Design AI agents and MCP connections with narrow authority, explicit approval, isolated execution, and useful audit evidence.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-ai-agents-mcp-course.webp" length="90578" type="image/webp"/></item><item><title>One Source, Many Tools: Building an AI Collaboration Framework for Mixed Teams</title><link>https://simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Knowledge Management"
+, "Software Engineering"
+, "Team Collaboration"</category><guid>https://simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Build a shared AI collaboration system with source ownership, context versioning, durable change review, and clear choices between project maps and RAG.</description><enclosure url="https://simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>CompTIA SecAI+ (CY0-001): AI-assisted Security</title><link>https://simeononsecurity.com/secai-plus/ai-assisted-security/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecAI+ Course"
+, "AI-assisted Security"
+, "Security Automation"
+, "Threat Detection"
+, "Deepfakes"
+, "Offensive AI"
+, "AI Security"
+, "CY0-001"
+, "SOAR"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secai-plus/ai-assisted-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master AI-assisted security for the CompTIA SecAI+ CY0-001 exam. Learn AI-enabled security tools, defensive use cases, security automation, CI/CD integration, and how attackers weaponize AI for deepfakes, social engineering, and automated attack generation.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secai-plus-ai-assisted-security.webp" length="207436" type="image/webp"/></item></channel></rss>

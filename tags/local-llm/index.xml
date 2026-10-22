@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Local Llm on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Local Llm on simeononsecurity</title><link>https://simeononsecurity.com/tags/local-llm/</link></image><link>https://simeononsecurity.com/tags/local-llm/</link><description>Recent content in Local Llm on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/local-llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes Agent and Local AI Course: Build a Brokerized Agentic Workflow</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course-start/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI"
+, "Local AI"
+, "Self-Hosted"
+, "Zero Trust"
+, "Automation"
+, "Hermes Agent"
+, "API Gateway"
+, "Network Security"
+, "LLM Infrastructure"
+, "Agentic Workflows"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Wire Hermes Agent and other agents to models you control through one private endpoint, route each request to the right local or cloud model, and keep keys and budgets under your own policy.</description><enclosure url="https://simeononsecurity.com/img/cover/hermes-agent-local-ai-brokerized-workflow-2026.webp" length="141508" type="image/webp"/></item><item><title>Inside Our Hybrid Agentic AI Fleet: Hermes, LiteLLM, and Tailscale</title><link>https://simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Self-Hosted AI"
+, "AI Agents"
+, "AI Infrastructure"
+, "GPU Mining"</category><guid>https://simeononsecurity.com/articles/hybrid-agentic-ai-fleet-tailscale-litellm-hermes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+See a verified lazy local AI fleet and its staged T0 to T4 control plane with Hermes, LiteLLM, Tailscale Aperture, and Pearl mining.</description><enclosure url="https://simeononsecurity.com/img/cover/hybrid-agentic-ai-fleet-tailscale-litellm-hermes.webp" length="213706" type="image/webp"/></item><item><title>Lesson 4: Auto-Routing AI Requests: Mix Local and Cloud Models Behind One API</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Infrastructure"
+, "Self-Hosted AI"
+, "Developer Tools"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/04-auto-routing-local-and-cloud/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Send one auto request and let the broker, not the agent, pick a local GPU model or a remote premium model using capability filtering, cost tiers, cascade, latency budgets, and placement pinning.</description><enclosure url="https://simeononsecurity.com/img/cover/ai-auto-router-local-cloud-mix-2026.webp" length="134096" type="image/webp"/></item><item><title>2x RTX 5060 Ti vs GB10: Five-Model Local AI Benchmark at 256K Context</title><link>https://simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Local AI"
+, "GPU Hardware"
+, "Benchmarking"
+, "Computer Hardware"</category><guid>https://simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A five-model RTX 5060 Ti versus GB10 comparison, plus a same-host Qwen3.8 Flash-Next Strata benchmark through 256K context.</description><enclosure url="https://simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Is 16GB VRAM Enough for Serious Local LLM Work?</title><link>https://simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Computer Hardware"
+, "Self-Hosted AI"</category><guid>https://simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Size a 16GB local LLM setup around model weights, KV cache, and prompt processing. Compare Qwen3.8 27B memory budgets, GPU bandwidth, and ownership costs.</description><enclosure url="https://simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Local AI vs ChatGPT: How Close Are We Really?</title><link>https://simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Artificial Intelligence"
+, "AI Hardware"
+, "Developer Tools"</category><guid>https://simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare local AI with ChatGPT and Claude using benchmark scores, memory needs, serving speed, privacy tradeoffs, and agent verification results.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Which Local AI Model Should You Run? A GPU Context and Coding Guide for October 2026</title><link>https://simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Hardware"
+, "Self-Hosted AI"
+, "GPU Benchmarking"
+, "Developer Tools"
+, "AI Economics"</category><guid>https://simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Match local AI models and context lengths to GPU memory, system RAM, quantization, and runtime limits.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32GB VRAM for Qwen 27B: The Local AI Hardware Guide for October 2026</title><link>https://simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Hardware"
+, "GPU Benchmarking"
+, "Self-Hosted AI"
+, "Computer Hardware"
+, "AI Economics"</category><guid>https://simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical October 2026 guide to running Qwen 27B with 32GB of accelerator memory. Compare GPUs, unified memory, used cards, rented compute, and context limits.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>The 64GB DGX Spark Is a Warning Sign for Local AI Hardware Prices</title><link>https://simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Hardware"
+, "Semiconductors"
+, "Computer Hardware"
+, "AI Economics"
+, "Self-Hosted AI"</category><guid>https://simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Analyze the 64GB DGX Spark tier, unified-memory trade-offs, and DRAM supply pressure through late 2027.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Llama 3.1 8B and Qwen3.8 27B GPU Benchmarks on Vast.ai</title><link>https://simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "GPU Benchmarking"
+, "Self-Hosted AI"
+, "Cloud Computing"
+, "Artificial Intelligence"
+, "AI Economics"</category><guid>https://simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare measured Ollama results for Llama 3.1 8B and Qwen3.8 27B across Vast.ai GPUs, costs, and hosting options.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

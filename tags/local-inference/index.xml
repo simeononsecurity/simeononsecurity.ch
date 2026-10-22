@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Local Inference on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Local Inference on simeononsecurity</title><link>https://simeononsecurity.com/tags/local-inference/</link></image><link>https://simeononsecurity.com/tags/local-inference/</link><description>Recent content in Local Inference on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/local-inference/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti vs GB10: Five-Model Local AI Benchmark at 256K Context</title><link>https://simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Local AI"
+, "GPU Hardware"
+, "Benchmarking"
+, "Computer Hardware"</category><guid>https://simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A five-model RTX 5060 Ti versus GB10 comparison, plus a same-host Qwen3.8 Flash-Next Strata benchmark through 256K context.</description><enclosure url="https://simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Local AI Privacy: What Stays on Your Computer and What Does Not</title><link>https://simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Privacy"
+, "Self-Hosted AI"
+, "Cybersecurity"
+, "AI Economics"</category><guid>https://simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Trace prompts, model files, tools, logs, network exposure, and power costs before choosing local inference or a hosted AI service.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Local AI Coding on a 16GB GPU: Strata, OpenCode, and Qwen3.8</title><link>https://simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Developer Tools"
+, "Self-Hosted AI"
+, "AI Hardware"</category><guid>https://simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Run a local coding agent with Strata and OpenCode. Review RTX 4060 Ti results, RAM needs, prompt reuse, and subscription limits.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Local AI vs ChatGPT: How Close Are We Really?</title><link>https://simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Artificial Intelligence"
+, "AI Hardware"
+, "Developer Tools"</category><guid>https://simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare local AI with ChatGPT and Claude using benchmark scores, memory needs, serving speed, privacy tradeoffs, and agent verification results.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Local AI in 2026: A 27B Model Beats Sonnet 4.6, and the Hardware Window Is Closing</title><link>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Self-Hosted AI"
+, "Open Source Models"
+, "AI Hardware"
+, "Machine Learning"
+, "Quantization"
+, "Homelab"
+, "Privacy"
+, "AI Economics"
+, "Consumer Hardware"</category><guid>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plan a 2026 local AI rig around model size, VRAM, memory bandwidth, power, cost, and upgrade options.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
