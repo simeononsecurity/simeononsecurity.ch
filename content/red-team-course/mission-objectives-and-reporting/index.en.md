@@ -1,7 +1,8 @@
 ---
 title: "Module 20: Mission Objectives and Reporting"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 20
 toc: true
 draft: false
 description: "Turn red-team objectives into bounded tests and evidence-backed findings with explicit limits, remediation owners, and retest conditions."

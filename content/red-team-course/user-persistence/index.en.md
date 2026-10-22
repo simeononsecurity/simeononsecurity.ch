@@ -1,7 +1,8 @@
 ---
 title: "Module 12: User Persistence"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 12
 toc: true
 draft: false
 description: "Understand user startup triggers, HKCU context, and restoration. Follow a benign Notepad Run-entry lab with evidence and cleanup checks."

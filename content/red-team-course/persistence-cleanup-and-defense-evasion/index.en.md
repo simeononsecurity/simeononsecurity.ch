@@ -1,7 +1,8 @@
 ---
 title: "Module 15: Persistence Cleanup and Defense Evasion"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 15
 toc: true
 draft: false
 description: "Restore persistence changes with a precise artifact ledger, correct registry identity, evidence preservation, and independent verification of cleanup."

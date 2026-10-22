@@ -1,7 +1,8 @@
 ---
 title: "Module 16: Domain Privilege Escalation and Kerberos Abuse"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 16
 toc: true
 draft: false
 description: "Analyze Kerberos service-ticket exposure, account privilege, encryption choices, and delegation evidence with a domain escalation review record."

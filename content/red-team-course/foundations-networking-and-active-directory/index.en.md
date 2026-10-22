@@ -1,7 +1,8 @@
 ---
 title: "Module 3: Networking and Active Directory Foundations"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 3
 toc: true
 draft: false
 description: "The networking and Active Directory concepts every red team technique builds on: HTTP and HTTPS, TCP and UDP, the domain controller, users, groups, and group nesting."

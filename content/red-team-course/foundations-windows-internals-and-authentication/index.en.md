@@ -1,7 +1,8 @@
 ---
 title: "Module 4: Windows Internals and Authentication"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 4
 toc: true
 draft: false
 description: "How Windows stores configuration and credentials: the registry and hives, registry paths, NTLM hashes, and the difference between domain and local authentication."

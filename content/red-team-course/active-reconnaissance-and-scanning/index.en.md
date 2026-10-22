@@ -1,7 +1,8 @@
 ---
 title: "Module 9: Active Reconnaissance and Scanning"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 9
 toc: true
 draft: false
 description: "Interpret Nmap port states, scan methods, and vantage points through a loopback exercise, segmentation case, and evidence-based scan plan."

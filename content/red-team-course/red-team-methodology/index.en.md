@@ -1,7 +1,8 @@
 ---
 title: "Module 1: Red Team Methodology"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 1
 toc: true
 draft: false
 description: "The seven-phase red team methodology: preparation, intelligence, reconnaissance, access, post exploitation, cleanup and backout, and reporting, with the judgment behind each."

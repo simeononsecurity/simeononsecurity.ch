@@ -1,7 +1,8 @@
 ---
 title: "Module 7: Malleable C2 and Communication Evasion"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 7
 toc: true
 draft: false
 description: "Separate profile validity, working communication, telemetry, and detection with a local HTTP exercise and controlled comparison record."

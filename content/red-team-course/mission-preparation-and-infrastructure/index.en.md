@@ -1,7 +1,8 @@
 ---
 title: "Module 2: Mission Preparation and Infrastructure"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 2
 toc: true
 draft: false
 description: "Everything required before an attack: scope and rules of engagement, deconfliction, hardening the attack platform, standing up redirectors, and validating the infrastructure before go."

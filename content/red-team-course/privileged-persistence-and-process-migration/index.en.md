@@ -1,7 +1,8 @@
 ---
 title: "Module 14: Privileged Persistence and Process Migration"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 14
 toc: true
 draft: false
 description: "Understand Windows service persistence, process lifetime, architecture, and migration tradeoffs through read-only inspection and a service lifecycle exercise."

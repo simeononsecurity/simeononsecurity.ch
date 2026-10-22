@@ -1,7 +1,8 @@
 ---
 title: "Module 5: Command and Control Operations"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 5
 toc: true
 draft: false
 description: "Follow C2 task delivery, polling latency, uncertain outcomes, and operator handovers through worked examples and a task-ledger exercise."

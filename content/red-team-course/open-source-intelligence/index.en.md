@@ -1,7 +1,8 @@
 ---
 title: "Module 8: Open-Source Intelligence"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 8
 toc: true
 draft: false
 description: "Evaluate public sources, RDAP, DNS, certificate logs, and scan data. Build a traceable OSINT brief with worked examples and source-quality checks."

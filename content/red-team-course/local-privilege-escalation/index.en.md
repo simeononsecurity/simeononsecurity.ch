@@ -1,7 +1,8 @@
 ---
 title: "Module 13: Local Privilege Escalation"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 13
 toc: true
 draft: false
 description: "Evaluate Windows privilege escalation paths through service permissions, DLL loading, evidence quality, and a read-only lab exercise."

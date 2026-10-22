@@ -1,7 +1,8 @@
 ---
 title: "Module 11: Situational Awareness and Host Operations"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 11
 toc: true
 draft: false
 description: "Build a current host-state record using Windows and Linux identity, process, socket, and routing evidence, with a worked snapshot comparison."

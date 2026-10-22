@@ -1,7 +1,8 @@
 ---
 title: "Module 10: Initial Access: Phishing and Delivery"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 10
 toc: true
 draft: false
 description: "Distinguish phishing delivery, interaction, execution, and access. Interpret campaign metrics, modern Office controls, and Windows architecture with worked examples."

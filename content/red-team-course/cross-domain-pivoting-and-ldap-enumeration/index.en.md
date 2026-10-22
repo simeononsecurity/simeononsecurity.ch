@@ -1,7 +1,8 @@
 ---
 title: "Module 18: Cross-Domain Pivoting and LDAP Enumeration"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 18
 toc: true
 draft: false
 description: "Analyze trust direction, selective authentication, SID filtering, LDAP scope, and query results with a cross-domain pivot decision record."

@@ -1,7 +1,8 @@
 ---
 title: "Module 6: Beacon Execution and Beacon Object Files"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 6
 toc: true
 draft: false
 description: "Understand BOF file formats, architecture compatibility, client integration, runtime limits, and failure boundaries through a benign test design."

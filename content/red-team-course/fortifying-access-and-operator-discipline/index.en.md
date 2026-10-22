@@ -1,7 +1,8 @@
 ---
 title: "Module 19: Fortifying Access and Operator Discipline"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 19
 toc: true
 draft: false
 description: "Design bounded red-team access with expiry, ownership, redundancy, failover, and operator records that remain useful during a live assessment."

@@ -1,7 +1,8 @@
 ---
 title: "Module 17: Lateral Movement and Expanding Access"
 date: 2026-09-12
-lastmod: 2026-09-17
+lastmod: 2026-10-21
+weight: 17
 toc: true
 draft: false
 description: "Plan lateral movement with explicit name resolution, authentication, authorization, service, and rollback evidence instead of assuming every credential reaches every host."
