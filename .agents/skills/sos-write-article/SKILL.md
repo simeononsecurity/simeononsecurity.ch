@@ -7,6 +7,36 @@ description: "Write or revise sourced SimeonOnSecurity Hugo articles and guides,
 
 Locate the repository root through `AGENTS.md`. Read `.clinerules/08-clinerules-maintenance.md`, then rules 03, 04, 05, 06, 09, and 11. Read rule 10 for media generation and rule 18 when translations are in scope. Read `sos-hugo-validation` when rendered output needs inspection, `sos-content-media` when media work is in scope, and `sos-build-browser-tool` when the article ships a browser utility. These files remain authoritative. This skill supplies the workflow, not a second style guide. All paths below are repository-relative.
 
+The site is the Hugo repo at `~/Documents/GitHub/simeononsecurity.ch`. The GitHub profile
+repo `~/Documents/GitHub/simeononsecurity` is profile README only: no `AGENTS.md`,
+`.clinerules/`, or skills. When asked to read "the agents.md / .clinerules / skills for this
+repo", use `simeononsecurity.ch`. A bare `@folder` attachment can point at the empty profile
+repo, so confirm the folder carries the `content/` tree before treating it as the site.
+`AGENTS.md`, `CLAUDE.md`, `CODEX.md`, and `GEMINI.md` are bootstrap pointers to
+`.clinerules/` and `.agents/skills/`; keep them pointers, not copies.
+
+## Topic ideation (article ideas, master-topic and series requests)
+
+When the user asks for article ideas and descriptions rather than a finished page:
+
+1. Map existing coverage first: `grep -ril '<term>' content/` over the term list, so
+   proposals fill gaps instead of duplicating. Check the course hubs
+   (`local-ai-secure-server-course`, `effective-ai-course`, `secure-ai-agents-mcp-course`,
+   `ai-collaboration-course-start`) as well as `content/articles/`; courses already own big
+   territory and must be linked, not re-proposed.
+2. Propose one **master article** that ties the pieces together, plus a supporting set where
+   each topic covers one gap. Deliverable shape: title + slug + short description per topic,
+   a reader-outcome/key-takeaways block for the master, a series map showing how the pages
+   link, and an optional option to run the set as a non-certification course per rules
+   19/20.
+3. Titles follow the site's `Topic: Subtitle <current-year>` convention; get the year from
+   `date` first, never guess it. Descriptions are content output too: run rules 03 and 05
+   (banned words, no em dashes) over every proposed description.
+4. Anchor each idea to the existing page it extends or links, so the reader has a defined
+   prerequisite path within the site.
+5. Close by offering the next action (draft the master article, or fan the topics out to the
+   bot profiles as kanban cards) rather than stopping at the list.
+
 ## Execution modes and preflight
 
 Classify the request before editing:
