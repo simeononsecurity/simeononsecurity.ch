@@ -181,6 +181,10 @@ completed media run.
 
 ---
 
+## Original Design When Image Services Are Unavailable
+
+If the built-in image tool returns HTTP 405 and the configured API reports insufficient credits, stop API retries. When the request permits original graphic design, use the canvas-design skill to create a finished editorial PNG locally. Convert the artwork through this repository's `save_image` helper to the required 2048×1152 WebP, inspect the result, and match the cover alt text to the drawing. Describe the work as an original illustration, never as an AI-generated image or a photograph of the tested hardware. Keep design scripts, API logs, and design notes outside the published article.
+
 ## Article Body Limit
 
 Only the first 6,000 chars of the stripped article body are sent to GPT. This

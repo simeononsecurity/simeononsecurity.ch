@@ -532,6 +532,14 @@ GitHub Copilot in VS Code. Separate standalone editors from editor extensions
 inside GUI roundups, and distinguish the interface from the model and execution
 host. Check every comparison table against this scope before publishing.
 
+## Conclusions From Partial Benchmarks
+
+Lead personal benchmark articles with a recommendation for the tested configurations. Use GPU mappings, input-token counts, correctness outcomes, and request latency to support the choice. Avoid timestamped snapshot recaps, outcome-coverage percentages, and ledger terminology in the opening.
+
+When the user requests a general account of the testing, keep calendar dates and clock times out of the article body. Retain publication dates in front matter. Use neutral system letters for hardware mappings and remove private infrastructure identifiers.
+
+Do not narrate source artifacts or list absent fields as a substitute for analysis. Keep complete result tables and failed attempts visible. Scope recommendations to the passing routes and workloads, and explain limitations only where they change the practical choice.
+
 ## Original Articles From Source Material
 
 Treat supplied articles, videos, transcripts, reports, and notes as research inputs.
