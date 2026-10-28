@@ -1,7 +1,7 @@
 ---
 title: "Local AI Privacy: What Stays on Your Computer and What Does Not"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-28
 toc: true
 draft: false
 description: "Trace prompts, model files, tools, logs, network exposure, and power costs before choosing local inference or a hosted AI service."
@@ -77,6 +77,14 @@ Ollama's [FAQ](https://docs.ollama.com/faq) documents a local-only mode. Set `di
 ```
 
 Verify the setting after restart. A local-only runtime narrows one path. It does not establish a private host.
+
+## Ollama Speech and the Network Boundary
+
+*Ollama's [v0.40.11 release](https://github.com/ollama/ollama/releases/tag/v0.40.11) announces speech generation on macOS. Its [API reference](https://docs.ollama.com/api/openai-compatibility) dates `/v1/audio/speech` to v0.40.8, so v0.40.11 is not the endpoint's documented first version.* This is **text-to-speech**, not speech-to-text: a request sends text to a speech model such as Phonon and receives streamed audio. The [speech guide](https://docs.ollama.com/capabilities/speech) also shows `ollama run phonon` playing audio locally or writing a WAV file when output is redirected.
+
+The **local speech path** requires a downloaded local model and a local server. Ollama's [FAQ](https://docs.ollama.com/faq) says the server binds to `127.0.0.1:11434` by default and **`OLLAMA_HOST`** changes the bind address. Check the active listener with the `lsof` command above, rather than assuming the default is still in force. [Ollama's API introduction](https://docs.ollama.com/api/introduction) says local requests need no API key. Restrict any wider bind with a firewall and access controls before sending private text.
+
+**A loopback bind is not the entire boundary.** Ollama documents forwarding its HTTP server through a reverse proxy or tunnel. Check each proxy's listener, authentication, and request logging, even when Ollama itself still listens on loopback. The text you submit and the returned audio then cross the proxy connection. Ollama's [troubleshooting guide](https://docs.ollama.com/troubleshooting) identifies server logs, but the speech documentation makes no audio-retention promise. Check where clients save WAV output and where proxy or application logs persist. Ollama's FAQ says it does not see prompts or data for local runs. Model downloads require network access, and cloud models follow a different path. For an Ollama-only local model setup, the `OLLAMA_NO_CLOUD=1` setting described above disables Ollama cloud features. It does not control other applications.
 
 ## Count the Hosted Cost
 
@@ -191,4 +199,10 @@ The [local AI versus ChatGPT guide](/articles/local-ai-vs-chatgpt-how-close-are-
 - [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Ollama privacy policy](https://ollama.com/privacy)
+- [Ollama v0.40.11 release notes](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Ollama speech guide](https://docs.ollama.com/capabilities/speech)
+- [Ollama OpenAI compatibility API reference](https://docs.ollama.com/api/openai-compatibility)
+- [Ollama API introduction](https://docs.ollama.com/api/introduction)
+- [Ollama FAQ, server configuration, cloud settings, and reverse proxies](https://docs.ollama.com/faq)
+- [Ollama troubleshooting, server logs](https://docs.ollama.com/troubleshooting)
 - [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

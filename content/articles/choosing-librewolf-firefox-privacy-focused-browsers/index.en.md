@@ -1,7 +1,7 @@
 ---
 title: "LibreWolf vs Firefox"
 date: 2023-11-03
-lastmod: 2026-10-10
+lastmod: 2026-10-28
 toc: true
 draft: false
 description: "Explore the features of LibreWolf and Firefox, two privacy-focused browsers, to make an informed choice for enhanced online security and privacy."
@@ -69,11 +69,19 @@ ______
 
 ### LibreWolf's Commitment to Frequent Updates
 
-**LibreWolf** maintains a steadfast commitment to keeping users secure and up-to-date. By regularly synchronizing with the latest stable version of Firefox, the browser ensures that users can take advantage of the latest security measures. This proactive approach to updates allows users to enjoy a browsing experience that combines stability with advanced security enhancements.
+**LibreWolf** builds from Firefox's stable source, but release timing and installed-package updates matter. Check the project's release notes and your installed build before assuming an upstream Firefox security fix is present.
 
 ### Firefox's Reliable Performance
 
 **Firefox** has earned its reputation for reliable performance and smooth compatibility with diverse websites and web applications. The continuous efforts by Mozilla, the organization behind Firefox, to optimize the browser's performance contribute to its reliable and dependable nature. This dedication to providing a reliable browsing experience solidifies Firefox's position as a trustworthy option for users globally.
+
+## Security update: Firefox 159 (October 27, 2026)
+
+**Privacy settings do not replace security updates.** [Mozilla's Firefox 159 advisory](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/) lists high-impact issues including CVE-2026-117860, a same-origin policy bypass, and CVE-2026-117861, CVE-2026-117864, and CVE-2026-117868, all described as sandbox escapes. Mozilla lists **Firefox 159** as the fixed release, and its [159.0 release notes](https://www.firefox.com/en-US/firefox/159.0/releasenotes/) date that release to October 27. The advisory does not specify a first affected version for each issue or report active exploitation.
+
+**Check the branch you use.** If you run standard Firefox, install the current release through your normal update channel and confirm its version in the browser's About dialog. Firefox ESR follows separate advisories: Mozilla lists [ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/) as fixing those four named CVEs and publishes a separate [ESR 115.44 advisory](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/) for that branch. Do not use the standard Firefox version number as an ESR patch check.
+
+For **LibreWolf or another Firefox-based browser**, compare the installed build with the derivative project's own release notes and security notices. Mozilla's Firefox advisory alone does not establish whether a derivative build includes any particular fix. Check [LibreWolf's project releases](https://librewolf.dev/librewolf/bsys6/releases) for the build you install rather than treating privacy defaults or an upstream Firefox release as patch confirmation.
 
 ______
 
@@ -142,3 +150,8 @@ ______
 2. [Firefox Official Website](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Mozilla Foundation Security Advisory 2026-118: Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Firefox 159.0 release notes](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Mozilla Foundation Security Advisory 2026-120: Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Mozilla Foundation Security Advisory 2026-119: Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [LibreWolf project releases](https://librewolf.dev/librewolf/bsys6/releases)
