@@ -28,6 +28,9 @@ bin-release/
 
 # Python virtual environment
 .venv/
+.env.local
+.env.production
+!.env.example
 
 # Agent research evidence matrices (never published)
 /.research/
