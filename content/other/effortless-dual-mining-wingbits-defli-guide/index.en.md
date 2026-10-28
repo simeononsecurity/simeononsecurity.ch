@@ -172,7 +172,7 @@ config = {} # Ignore this line
 # MongoDB connection details (don't miss the username and password):
 config['db'] = {
                 'mongodb_conn_str':
-		        'mongodb+srv://team:kaPAIYJz1EhpWtTO@defli1.snqvy.mongodb.net/?retryWrites=true&w=majority',
+		        'mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster.example.invalid/',
                 'database_name': 'defli1'
                 } #Include username and password in mongodb_conn_str
 
