@@ -1,0 +1,162 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Длинный Контекст on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Длинный Контекст on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82/</link>
+
+    <description>Recent content in Длинный Контекст on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2x RTX 5060 Ti против GB10: почему 32 ГБ VRAM уступают 128 ГБ объединённой памяти</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Локальный ИИ"
+            
+              , "Оборудование GPU"
+            
+              , "Бенчмаркинг"
+            
+              , "Компьютерное оборудование"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение на основе бенчмарков двух карт RTX 5060 Ti по 16 ГБ и системы NVIDIA GB10 для Qwen 3 27B и локального вывода с длинным контекстом.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 ГБ VRAM для Qwen 27B: руководство по локальному AI-железу на октябрь 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-железо"
+            
+              , "Бенчмаркинг GPU"
+            
+              , "Самостоятельный хостинг AI"
+            
+              , "Компьютерное железо"
+            
+              , "Экономика AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практическое руководство за октябрь 2026 года по запуску модели Qwen 27B с 32 ГБ доступной памяти ускорителя. Сравните одиночные GPU, сборки с двумя картами, унифицированную память, бывшие в употреблении серверные карты, аренду вычислений, поддержку ПО и ограничения полного контекста.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
