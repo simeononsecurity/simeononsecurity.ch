@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://es.simeononsecurity.com/</link></image><link>https://es.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Acceso de solo lectura para agentes de IA</title><link>https://es.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Administración de sistemas"
+, "Seguridad en la nube"
+, "Automatización"</category><guid>https://es.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diseñe un flujo de trabajo SSH de solo lectura con 1Password CLI, el SSH Agent y MCP. Utilice comandos sintéticos, permisos restringidos y aprobación humana antes de las pruebas en vivo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>2x RTX 5060 Ti frente a GB10: por qué 32 GB de VRAM pierden frente a 128 GB de memoria unificada</title><link>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "IA local"
+, "Hardware GPU"
+, "Benchmarks"
+, "Hardware informático"</category><guid>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación basada en benchmarks entre dos tarjetas RTX 5060 Ti de 16 GB y un sistema NVIDIA GB10 para Qwen 3 27B e inferencia local con contexto largo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>El auge de la infraestructura de IA en 2026: demanda, deuda, energía y pruebas</title><link>https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Economía de la IA"
+, "Centros de datos"
+, "Infraestructura en la nube"
+, "Ciberseguridad"</category><guid>https://es.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una revisión verificada de los gastos en infraestructura de IA, la demanda eléctrica de los centros de datos, las estructuras de financiación, el valor empresarial y las pruebas necesarias antes de llamar burbuja al mercado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>Privacidad de la IA local: qué permanece en su ordenador y qué no</title><link>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privacidad"
+, "IA autoalojada"
+, "Ciberseguridad"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Trace prompts, archivos de modelos, herramientas, registros, exposición de red y costes de energía antes de elegir inferencia local o un servicio de IA alojado.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>¿Son suficientes 16GB de VRAM para trabajar en serio con LLM locales?</title><link>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware informático"
+, "IA autoalojada"</category><guid>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensiona una configuración de LLM local de 16GB según los pesos del modelo, la caché KV y el procesamiento de prompts. Compara los presupuestos de memoria, el ancho de banda de GPU y el coste de propiedad de Qwen3.8 27B.</description><enclosure url="https://es.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>¿Qué modelo de IA local deberías ejecutar? Guía de GPU, contexto y programación para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "IA autohospedada"
+, "Benchmarking de GPU"
+, "Herramientas para desarrolladores"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica de octubre de 2026 para elegir modelos de IA locales para agentes de programación. Compara memoria de GPU, crecimiento de KV-cache, tamaño de contexto, calidad de cuantización, procesamiento de prompts, ajustes de razonamiento y costes de alquiler en la nube.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>10 plugins, skills y herramientas MCP de Claude Code: guía práctica</title><link>https://es.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Herramientas para desarrolladores"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Elige extensiones de Claude Code para planificación, revisión de código, gestión del conocimiento, diseño y automatización. Compara diez herramientas, dependencias y comprobaciones prácticas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>9 proyectos de skills de agentes de IA para investigación, diseño y desarrollo</title><link>https://es.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Herramientas para desarrolladores"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara nueve proyectos de skills de agentes según el flujo de trabajo, el soporte del host, las dependencias y el coste. Aprende a instalar, inspeccionar y probar las skills que necesitas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>Agentes de programación GUI comparados: Cursor, Windsurf, Cline, Copilot y Continue</title><link>https://es.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara agentes de programación gráficos, separa editores completos de extensiones y examina el cierre de Roo Code, el acceso a modelos, las aprobaciones y los flujos de revisión.</description><enclosure url="https://es.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>Claude Code CLI frente a Desktop: comparación del flujo de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Claude Code en el terminal y en el espacio de trabajo Code de escritorio, con ajustes compartidos, transferencia de sesiones, scripting, revisión visual y opciones de permisos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Codex CLI frente a Desktop: comparación del flujo de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Elige entre Codex en el terminal y el espacio de trabajo de programación de escritorio de OpenAI. Compara scripts, worktrees, revisión visual, horarios y entornos de ejecución.</description><enclosure url="https://es.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>Comparativa de agentes de codificación CLI: Claude Code, Codex, Gemini, OpenCode, Copilot y Aider</title><link>https://es.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara seis agentes de codificación de terminal por flujo de trabajo, automatización, acceso a modelos, permisos y esfuerzo de revisión. Crea una lista corta con una prueba repetible en el repositorio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>GitHub Copilot CLI frente a VS Code: comparación de flujos de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara el agente de terminal de Copilot con su experiencia en VS Code, incluido el contexto del editor, las diferencias visuales, el modo Agent, la integración CLI y las políticas de cuenta.</description><enclosure url="https://es.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>IA local frente a ChatGPT: ¿Qué tan cerca estamos?</title><link>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Inteligencia artificial"
+, "Hardware de IA"
+, "Herramientas para desarrolladores"</category><guid>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la IA local con ChatGPT y Claude mediante puntuaciones de referencia, estimaciones de memoria, velocidad de servicio y verificación de agentes. Incluye escenarios con RTX 5090, DGX Spark y Mac Studio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Los Context Language Models de Meta: mejor memoria para agentes, no el fin de las alucinaciones</title><link>https://es.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Agentes de IA"
+, "IA local"
+, "Seguridad de IA"</category><guid>https://es.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Cómo los Context Language Models editan la memoria de los agentes, qué demuestran las pruebas y cómo afectan la fiabilidad los costes de caché, la capacidad del modelo y las notas no confiables.</description><enclosure url="https://es.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>Los mejores harnesses de agentes de IA en 2026: elige según el flujo de trabajo</title><link>https://es.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Desarrollo de software"
+, "Seguridad de IA"</category><guid>https://es.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi y LangGraph según la ejecución de herramientas, la memoria, la recuperación y el esfuerzo de integración.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ai-agent-execution-components.webp" length="228402" type="image/webp"/></item><item><title>OpenCode CLI frente a Desktop: comparación del flujo de trabajo de 2026</title><link>https://es.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Desarrollo de software"</category><guid>https://es.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara los clientes de terminal y escritorio de OpenCode mediante su arquitectura de servidor, configuración del proveedor, scripting, estado de sesión y solución de problemas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode frente a Claude Code: comparación de agentes de programación de 2026</title><link>https://es.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Código abierto"</category><guid>https://es.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara OpenCode y Claude Code en elección de modelos, inferencia local, precios, permisos, instrucciones del proyecto y flujos diarios de programación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Programación de IA local en una GPU de 16 GB: Strata, OpenCode y Qwen3.8</title><link>https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Herramientas para desarrolladores"
+, "IA autoalojada"
+, "Hardware de IA"</category><guid>https://es.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ejecuta un agente de programación local con Strata y OpenCode. Examina los resultados publicados de la RTX 4060 Ti, los requisitos de RAM, la reutilización de prompts, los presupuestos de razonamiento y los límites de sustituir una suscripción de pago.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Enrutamiento de proveedores de OpenRouter: calidad del modelo, límites de tokens y costes reales</title><link>https://es.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Infraestructura"
+, "Código abierto"</category><guid>https://es.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnostica respuestas inconsistentes de OpenRouter, compara límites de endpoints y costes de caché, y configura el enrutamiento sin desactivar controles de calidad por accidente.</description><enclosure url="https://es.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>32 GB de VRAM para Qwen 27B: guía de hardware de IA local para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Pruebas de GPU"
+, "IA autoalojada"
+, "Hardware informático"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica de octubre de 2026 para ejecutar un modelo Qwen 27B con 32 GB de memoria utilizable del acelerador. Compara GPU individuales, equipos con dos tarjetas, memoria unificada, tarjetas usadas de centros de datos, cómputo alquilado, soporte de software y límites de contexto completo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>El DGX Spark de 64 GB es una señal de advertencia para los precios del hardware de IA local</title><link>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Semiconductores"
+, "Hardware informático"
+, "Economía de la IA"
+, "IA autoalojada"</category><guid>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+La versión de 64 GB del DGX Spark de NVIDIA muestra cómo la presión sobre el suministro de memoria está moldeando el hardware de IA local. Esta guía explica la reducción de capacidad, las concesiones de la memoria unificada y por qué el alivio de la DRAM es poco probable antes de finales de 2027.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Cómo desactivar el pago sin contacto en una tarjeta de crédito</title><link>https://es.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de pagos"
+, "Privacidad digital"
+, "NFC"
+, "Seguridad personal"
+, "Tecnología de consumo"</category><guid>https://es.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica para desactivar el pago sin contacto en una tarjeta de crédito de repuesto mientras mantienes disponibles los pagos con chip y banda magnética, con límites de seguridad y mejores alternativas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp"/></item><item><title>Capstone de colaboración con IA: GitHub, Confluence y Jira</title><link>https://es.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Colaboración de equipos"
+, "Ingeniería de software"</category><guid>https://es.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entrega un cambio sintético de retención mediante flujos GitHub-first y Confluence/Jira, con evidencia de fallos y revisión independiente.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Colaboración de IA en GitHub: límites del repositorio y de la revisión</title><link>https://es.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "Colaboración de equipos"
+, "Ingeniería de software"</category><guid>https://es.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Crea un mapa de fuentes basado en GitHub, asigna propietarios de archivos y establece un límite de publicación protegido para contribuciones de IA revisadas.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item></channel></rss>

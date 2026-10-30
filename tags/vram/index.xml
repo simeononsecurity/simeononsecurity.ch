@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VRAM on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>VRAM on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/vram/</link></image><link>https://es.simeononsecurity.com/tags/vram/</link><description>Recent content in VRAM on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/vram/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti frente a GB10: por qué 32 GB de VRAM pierden frente a 128 GB de memoria unificada</title><link>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligencia artificial"
+, "IA local"
+, "Hardware GPU"
+, "Benchmarks"
+, "Hardware informático"</category><guid>https://es.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación basada en benchmarks entre dos tarjetas RTX 5060 Ti de 16 GB y un sistema NVIDIA GB10 para Qwen 3 27B e inferencia local con contexto largo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>¿Qué modelo de IA local deberías ejecutar? Guía de GPU, contexto y programación para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "IA autohospedada"
+, "Benchmarking de GPU"
+, "Herramientas para desarrolladores"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica de octubre de 2026 para elegir modelos de IA locales para agentes de programación. Compara memoria de GPU, crecimiento de KV-cache, tamaño de contexto, calidad de cuantización, procesamiento de prompts, ajustes de razonamiento y costes de alquiler en la nube.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>IA local frente a ChatGPT: ¿Qué tan cerca estamos?</title><link>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Inteligencia artificial"
+, "Hardware de IA"
+, "Herramientas para desarrolladores"</category><guid>https://es.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la IA local con ChatGPT y Claude mediante puntuaciones de referencia, estimaciones de memoria, velocidad de servicio y verificación de agentes. Incluye escenarios con RTX 5090, DGX Spark y Mac Studio.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>32 GB de VRAM para Qwen 27B: guía de hardware de IA local para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Pruebas de GPU"
+, "IA autoalojada"
+, "Hardware informático"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica de octubre de 2026 para ejecutar un modelo Qwen 27B con 32 GB de memoria utilizable del acelerador. Compara GPU individuales, equipos con dos tarjetas, memoria unificada, tarjetas usadas de centros de datos, cómputo alquilado, soporte de software y límites de contexto completo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
