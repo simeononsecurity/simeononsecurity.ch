@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DSC on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>DSC on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/dsc/</link></image><link>https://hi.simeononsecurity.com/tags/dsc/</link><description>Recent content in DSC on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/dsc/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC: एक प्रारंभिक मार्गदर्शिका</title><link>https://hi.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "कॉन्फ़िगरेशन प्रबंधन"
+, "स्वचालन"
+, "Windows"
+, "सिस्टम प्रशासन"
+, "सर्वोत्तम प्रथाएँ"
+, "अनुपालन"
+, "सुरक्षा"
+, "इन्फ्रास्ट्रक्चर"
+, "DevOps"
+, "सर्वर कॉन्फ़िगरेशन"
+, "परीक्षण"
+, "Git"
+, "स्रोत नियंत्रण"
+, "सरकारी नियम"
+, "NIST"
+, "CIS"
+, "कॉन्फ़िगरेशन ड्रिफ्ट"
+, "कस्टम संसाधन"</category><guid>https://hi.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShell Desired State Configuration (DSC) की शक्ति का अन्वेषण करें ताकि सिस्टम कॉन्फ़िगरेशन को स्वचालित और प्रबंधित किया जा सके, जिससे एक सुरक्षित और अनुपालन वातावरण सुनिश्चित हो।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp"/></item></channel></rss>

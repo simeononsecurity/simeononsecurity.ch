@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://hi.simeononsecurity.com/</link></image><link>https://hi.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Read-Only AI Agent Access</title><link>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"System Administration"
+, "Cloud Security"
+, "Automation"</category><guid>https://hi.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI, SSH Agent और MCP के साथ read-only SSH वर्कफ़्लो डिज़ाइन करें। लाइव टेस्टिंग से पहले सिंथेटिक कमांड्स, संकीर्ण अनुमतियाँ और मानवीय अनुमोदन का उपयोग करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>2026 में AI इन्फ्रास्ट्रक्चर का उछाल: मांग, कर्ज, बिजली और प्रमाण</title><link>https://hi.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "AI अर्थशास्त्र"
+, "डेटा सेंटर"
+, "क्लाउड इन्फ्रास्ट्रक्चर"
+, "साइबर सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AI इन्फ्रास्ट्रक्चर खर्च, डेटा सेंटर बिजली मांग, वित्तीय संरचनाओं, कंपनी मूल्य और बाजार को बुलबुला कहने से पहले जरूरी प्रमाण की तथ्य-जांच समीक्षा।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>2x RTX 5060 Ti बनाम GB10: 32 GB VRAM, 128 GB यूनिफाइड मेमोरी से क्यों हारती है</title><link>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "स्थानीय AI"
+, "GPU हार्डवेयर"
+, "बेंचमार्किंग"
+, "कंप्यूटर हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Qwen 3 27B और लंबे संदर्भ वाले स्थानीय इन्फरेंस के लिए दो 16 GB RTX 5060 Ti कार्ड और NVIDIA GB10 सिस्टम की बेंचमार्क आधारित तुलना।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>लोकल AI की गोपनीयता: आपके कंप्यूटर पर क्या रहता है और क्या नहीं</title><link>https://hi.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"लोकल AI"
+, "गोपनीयता"
+, "सेल्फ-होस्टेड AI"
+, "साइबर सुरक्षा"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+लोकल इन्फरेंस या होस्टेड AI सेवा चुनने से पहले प्रॉम्प्ट, मॉडल फाइल, टूल, लॉग, नेटवर्क एक्सपोज़र और बिजली की लागत का पता लगाएं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>क्या गंभीर स्थानीय LLM काम के लिए 16GB VRAM पर्याप्त है?</title><link>https://hi.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "कंप्यूटर हार्डवेयर"
+, "स्व-होस्टेड AI"</category><guid>https://hi.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मॉडल वेट, KV कैश और प्रॉम्प्ट प्रोसेसिंग के आधार पर 16GB स्थानीय LLM सेटअप का आकार तय करें। Qwen3.8 27B के मेमोरी बजट, GPU बैंडविड्थ और स्वामित्व लागत की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>16GB GPU पर स्थानीय AI कोडिंग: Strata, OpenCode और Qwen3.8</title><link>https://hi.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "डेवलपर टूल"
+, "स्व-होस्टेड AI"
+, "AI हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strata और OpenCode के साथ स्थानीय कोडिंग एजेंट चलाएँ। रिपोर्ट किए गए RTX 4060 Ti परिणामों, RAM आवश्यकताओं, प्रॉम्प्ट पुनःउपयोग, रीजनिंग बजट और भुगतान वाली सदस्यता बदलने की सीमाओं को देखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>2026 के सर्वश्रेष्ठ AI Agent Harnesses: कार्यप्रवाह के आधार पर चुनें</title><link>https://hi.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "सॉफ्टवेयर विकास"
+, "AI सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi और LangGraph की तुलना टूल निष्पादन, मेमोरी, रिकवरी और एकीकरण प्रयास के आधार पर करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/ai-agent-execution-components.webp" length="228402" type="image/webp"/></item><item><title>Claude Code CLI बनाम Desktop: 2026 वर्कफ़्लो तुलना</title><link>https://hi.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल"
+, "कृत्रिम बुद्धिमत्ता"
+, "सॉफ्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+टर्मिनल और डेस्कटॉप Code वर्कस्पेस में Claude Code की तुलना करें। साझा सेटिंग, सेशन हैंडऑफ, स्क्रिप्टिंग, दृश्य समीक्षा और अनुमति विकल्प शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Claude Code के 10 प्लगइन, स्किल और MCP टूल: व्यावहारिक गाइड</title><link>https://hi.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "डेवलपर टूल"
+, "सॉफ्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+प्लानिंग, कोड समीक्षा, ज्ञान प्रबंधन, डिजाइन और ऑटोमेशन के लिए Claude Code एक्सटेंशन चुनें। दस टूल, निर्भरताओं और व्यावहारिक जांचों की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>CLI कोडिंग एजेंट तुलना: Claude Code, Codex, Gemini, OpenCode, Copilot और Aider</title><link>https://hi.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल"
+, "कृत्रिम बुद्धिमत्ता"
+, "सॉफ्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+वर्कफ़्लो, ऑटोमेशन, मॉडल एक्सेस, अनुमतियों और समीक्षा प्रयास के आधार पर छह टर्मिनल कोडिंग एजेंट की तुलना करें। दोहराए जा सकने वाले repository परीक्षण से shortlist बनाएं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI बनाम Desktop: 2026 कार्यप्रवाह तुलना</title><link>https://hi.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल"
+, "कृत्रिम बुद्धिमत्ता"
+, "सॉफ्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+टर्मिनल में Codex और OpenAI के डेस्कटॉप कोडिंग कार्यक्षेत्र के बीच चुनें। स्क्रिप्टिंग, worktree, दृश्य समीक्षा, शेड्यूल और execution environment की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI बनाम VS Code: 2026 कार्यप्रवाह तुलना</title><link>https://hi.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल"
+, "कृत्रिम बुद्धिमत्ता"
+, "सॉफ्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Copilot के टर्मिनल एजेंट और VS Code अनुभव की तुलना करें। इसमें editor context, visual diffs, Agent mode, CLI integration और account policies शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUI कोडिंग एजेंट तुलना: Cursor, Windsurf, Cline, Copilot और Continue</title><link>https://hi.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल"
+, "कृत्रिम बुद्धिमत्ता"
+, "सॉफ्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ग्राफिकल कोडिंग एजेंट की तुलना करें, पूर्ण एडिटर और एक्सटेंशन अलग करें, तथा Roo Code के बंद होने, मॉडल एक्सेस, अनुमोदन और समीक्षा वर्कफ़्लो को जाँचें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>OpenCode CLI बनाम Desktop: 2026 वर्कफ़्लो तुलना</title><link>https://hi.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल्स"
+, "कृत्रिम बुद्धिमत्ता"
+, "सॉफ़्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OpenCode के terminal और desktop clients की तुलना server architecture, provider configuration, scripting, session state और troubleshooting के आधार पर करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode बनाम Claude Code: 2026 कोडिंग एजेंट तुलना</title><link>https://hi.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"डेवलपर टूल"
+, "कृत्रिम बुद्धिमत्ता"
+, "ओपन सोर्स"</category><guid>https://hi.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+मॉडल चयन, स्थानीय इन्फरेंस, कीमत, अनुमतियों, प्रोजेक्ट निर्देशों और दैनिक कोडिंग वर्कफ़्लो के आधार पर OpenCode और Claude Code की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>अनुसंधान, डिज़ाइन और विकास के लिए 9 AI एजेंट स्किल प्रोजेक्ट</title><link>https://hi.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "डेवलपर टूल"
+, "सॉफ्टवेयर विकास"</category><guid>https://hi.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+वर्कफ़्लो, होस्ट सपोर्ट, निर्भरताओं और लागत के आधार पर नौ एजेंट स्किल प्रोजेक्ट की तुलना करें। अपनी ज़रूरत की स्किल इंस्टॉल, निरीक्षण और परीक्षण करना सीखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>आपको कौन सा लोकल AI मॉडल चलाना चाहिए? अक्टूबर 2026 के लिए GPU, कॉन्टेक्स्ट और कोडिंग गाइड</title><link>https://hi.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"लोकल AI"
+, "AI हार्डवेयर"
+, "सेल्फ-होस्टेड AI"
+, "GPU बेंचमार्किंग"
+, "डेवलपर टूल"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+कोडिंग एजेंटों के लिए लोकल AI मॉडल चुनने की अक्टूबर 2026 की व्यावहारिक गाइड। GPU मेमोरी, KV-कैश वृद्धि, कॉन्टेक्स्ट आकार, क्वांटाइजेशन गुणवत्ता, प्रॉम्प्ट प्रोसेसिंग, रीजनिंग सेटिंग और क्लाउड रेंटल लागत की तुलना करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>स्थानीय AI बनाम ChatGPT: हम वास्तव में कितने करीब हैं?</title><link>https://hi.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "कृत्रिम बुद्धिमत्ता"
+, "AI हार्डवेयर"
+, "डेवलपर टूल"</category><guid>https://hi.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+बेंचमार्क स्कोर, मेमोरी अनुमान, सर्विंग गति और एजेंट सत्यापन के आधार पर स्थानीय AI की तुलना ChatGPT और Claude से करें। इसमें RTX 5090, DGX Spark और Mac Studio परिदृश्य शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>OpenRouter प्रोवाइडर रूटिंग: मॉडल गुणवत्ता, टोकन सीमाएं और वास्तविक लागत</title><link>https://hi.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "इन्फ्रास्ट्रक्चर"
+, "ओपन सोर्स"</category><guid>https://hi.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OpenRouter के असंगत उत्तरों का निदान करें, एंडपॉइंट सीमाओं और कैश लागत की तुलना करें, और गुणवत्ता नियंत्रणों को गलती से बंद किए बिना प्रोवाइडर रूटिंग कॉन्फ़िगर करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>64GB DGX Spark स्थानीय AI हार्डवेयर कीमतों के लिए चेतावनी संकेत है</title><link>https://hi.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "AI हार्डवेयर"
+, "सेमीकंडक्टर"
+, "कंप्यूटर हार्डवेयर"
+, "AI अर्थशास्त्र"
+, "स्व-होस्टेड AI"</category><guid>https://hi.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIA का 64GB DGX Spark स्तर दिखाता है कि मेमोरी आपूर्ति का दबाव स्थानीय AI हार्डवेयर को कैसे आकार दे रहा है। यह गाइड क्षमता में कटौती, यूनिफाइड मेमोरी के समझौतों और 2027 के अंत से पहले DRAM राहत की कम संभावना को समझाती है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27B के लिए 32GB VRAM: अक्टूबर 2026 की लोकल AI हार्डवेयर गाइड</title><link>https://hi.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"लोकल AI"
+, "AI हार्डवेयर"
+, "GPU बेंचमार्किंग"
+, "Self-Hosted AI"
+, "कंप्यूटर हार्डवेयर"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+32GB उपयोगी accelerator memory के साथ Qwen 27B मॉडल चलाने के लिए अक्टूबर 2026 की व्यावहारिक गाइड। इसमें single GPU, दो कार्ड वाले सिस्टम, unified memory, इस्तेमाल किए गए data-center कार्ड, किराये की computing, software support और full-context सीमाओं की तुलना है।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Vast.ai पर Llama 3.1 8B और Qwen3.8 27B GPU बेंचमार्क</title><link>https://hi.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "GPU बेंचमार्किंग"
+, "Self-hosted AI"
+, "क्लाउड कंप्यूटिंग"
+, "कृत्रिम बुद्धिमत्ता"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+प्रमुख Vast.ai GPU पर Llama 3.1 8B और Qwen3.8 27B के मापे गए Ollama बेंचमार्क। डिकोड गति, लंबे संदर्भ, किराया लागत, self-hosting, API क्रेडिट और सदस्यताओं की तुलना।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>क्रेडिट कार्ड पर कॉन्टैक्टलेस भुगतान कैसे बंद करें</title><link>https://hi.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"भुगतान सुरक्षा"
+, "डिजिटल गोपनीयता"
+, "NFC"
+, "व्यक्तिगत सुरक्षा"
+, "उपभोक्ता तकनीक"</category><guid>https://hi.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+चिप और मैग्नेटिक-स्ट्राइप भुगतान चालू रखते हुए अतिरिक्त क्रेडिट कार्ड पर कॉन्टैक्टलेस भुगतान बंद करने की व्यावहारिक मार्गदर्शिका, जिसमें सुरक्षा सीमाएं और बेहतर विकल्प शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp"/></item><item><title>AI एजेंट गवर्नेंस पायलट: चार्टर, प्राधिकरण और परीक्षण</title><link>https://hi.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "टीम सहयोग"
+, "सॉफ्टवेयर इंजीनियरिंग"</category><guid>https://hi.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AI उपकरण जोड़ने से पहले पायलट की भूमिकाएँ, प्राधिकृत स्रोत, नीति टेम्पलेट और स्वीकृति परीक्षण तय करें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI सहयोग कैपस्टोन: GitHub, Confluence और Jira</title><link>https://hi.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"कृत्रिम बुद्धिमत्ता"
+, "टीम सहयोग"
+, "सॉफ्टवेयर इंजीनियरिंग"</category><guid>https://hi.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+GitHub-first और Confluence/Jira वर्कफ़्लो से सिंथेटिक रिटेंशन बदलाव लागू करें, असफलता के प्रमाण रखें और स्वतंत्र समीक्षा कराएं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item></channel></rss>
