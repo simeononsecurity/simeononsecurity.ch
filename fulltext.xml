@@ -1,0 +1,2686 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://nl.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>nl</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>1Password SSH Agent en CLI: Alleen-lezen AI-agent-toegang</title><link>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>Ontwerp een alleen-lezen SSH-workflow met 1Password CLI, de SSH Agent en MCP. Gebruik synthetische commando's, beperkte machtigingen en menselijke goedkeuring voordat u live test.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Een command-line agent heeft nuttige toegang nodig, niet een kopie van elke inloggegevens.</strong> Deze gids presenteert een begrensd ontwerp voor 1Password CLI, de 1Password SSH Agent, Bitbucket Git-toegang en Model Context Protocol (MCP). De eerste workflow gebruikt synthetische namen, alleen-lezen acties en menselijke goedkeuring op het SSH-grensgebied.</p>
+<p>Het belangrijkste onderscheid is eenvoudig. <strong>Interactief SSH gebruikt toestemming via de 1Password SSH Agent. Onbeheerde automatisering heeft een aparte identiteit, beperkte toegang en een andere sleutellevenscyclus nodig.</strong> Behandel een MCP-verbinding niet als toestemming om een van deze workflows uit te voeren.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Bescherming van privésleutels:</strong> De 1Password SSH Agent voert SSH-authenticatie uit terwijl de privésleutels binnen de 1Password-app worden bewaard.</li>
+<li><strong>Verwerking van openbare sleutels:</strong> Publiceer alleen een openbare sleutel naar Bitbucket of een externe account. Bewaar de privé-helft in een SSH Key-item.</li>
+<li><strong>Interactieve toestemming:</strong> Een persoon keurt een client- of terminalsessie goed voordat de SSH Agent een sleutel gebruikt.</li>
+<li><strong>Scheiding voor onbeheerde taken:</strong> Een geplande taak heeft een toegewijde service-account en een beperkte vault-scope nodig. Een interactieve SSH Agent-goedkeuring voldoet niet aan deze behoefte.</li>
+<li><strong>MCP-grenzen:</strong> MCP verbindt een agent met tools en bronnen. De client, server, besturingssysteem en 1Password-beleid bepalen nog steeds de toegang.</li>
+</ul>
+<h2 id="voordat-u-begint">
+  <a href="#voordat-u-begint" title="Voordat u begint">Voordat u begint</a>
+  <a href="#voordat-u-begint" class="h-anchor" aria-hidden="true" title="Voordat u begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> Installeer 1Password 8 en 1Password CLI 2.20.0 of nieuwer. Meld u aan via een ondersteunde 1Password-account. Gebruik een OpenSSH-client. Maak een test-Bitbucket-repository of een andere niet-productie doel aan. Houd een tweede administratieve route beschikbaar voor terugrol.</p>
+<p><strong>Tijd:</strong> 30 tot 45 minuten voor een ontwerpbeoordeling en synthetische doorloop.</p>
+<p><strong>Moeilijkheidsgraad:</
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti versus GB10: waarom 32 GB VRAM verliest van 128 GB unified memory</title><link>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Een benchmarkvergelijking van twee RTX 5060 Ti-kaarten met 16 GB en een NVIDIA GB10-systeem voor Qwen 3 27B en lokale inferentie met een lange context.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Twee RTX 5060 Ti-kaarten van 16 GB lijken aantrekkelijk op een onderdelenlijst.</strong> Ze bieden samen 32 GB VRAM en sterke promptverwerking bij een korte context. De vergelijking verandert wanneer je een 27B-model met een lange context uitvoert.</p>
+<p>Het NVIDIA GB10-systeem gebruikt 128 GB coherent unified memory. NVIDIA vermeldt voor het GB10-platform 128 GB LPDDR5x unified memory en een chip-TDP van 140 W. De RTX 5060 Ti gebruikt 16 GB GDDR7 per kaart, een 128-bits geheugeninterface en een totaal grafisch vermogen van 180 W. De 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="specificaties van de NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >specificaties van de NVIDIA RTX 5060 Ti</a>
+</span>
+ en de 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="specificaties van de NVIDIA GB10">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+    <a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >specificaties van de NVIDIA GB10</a>
+</span>
+ maken het hardwareverschil duidelijk.</p>
+<p><strong>Het punt is eenvoudig.</strong> Twee kaarten van 16 GB maken geen snelle geheugenpool van 32 GB. Ze maken twee afzonderlijke pools van 16
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>De AI-infrastructuurhausse van 2026: vraag, schuld, energie en bewijs</title><link>https://nl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>Een gecontroleerde beoordeling van AI-infrastructuuruitgaven, elektriciteitsvraag van datacenters, financieringsstructuren, bedrijfswaarde en het bewijs dat nodig is voordat de markt een zeepbel wordt genoemd.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>AI-infrastructuur groeit in een tempo dat weinig technologiemarkten hebben geëvenaard.</strong> De uitgaven zijn echt. De energievraag is echt. Het financieringsrisico is echt. Het rendement is minder zeker.</p>
+<p>De nuttige vraag is niet of kunstmatige intelligentie bestaat. De nuttige vraag is of toekomstige omzet en productiviteitswinst de hardware, datacenters, elektriciteitscontracten, leases en schuld die de uitbreiding dragen zullen rechtvaardigen.</p>
+<p>Dit artikel controleert het openbare bewijs achter het debat over de AI-zeepbel. Prognoses blijven als prognoses aangeduid. Bedrijfsclaims blijven gescheiden van onafhankelijk onderzoek. Het resultaat bewijst geen aanstaande crash. Het laat zien waar financiële en operationele druk zit.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="The (Overdue) Collapse Of The AI Bubble">
+  <meta itemprop="description" content="A skeptical commentary on AI infrastructure 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Privacy van lokale AI: wat op je computer blijft en wat niet</title><link>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><description>Breng prompts, modelbestanden, tools, logs, netwerkblootstelling en stroomkosten in kaart voordat je kiest voor lokale inferentie of een gehoste AI-dienst.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Lokale AI geeft je een kleinere datagrens.</strong> Een prompt die door een lokale runtime wordt verwerkt, blijft op je apparaat wanneer het model, de tools, de logs en het netwerkpad lokaal blijven. Een lokale GPU maakt van een computer geen afgesloten systeem.</p>
+<p>Modelruntimes, toolplugins, browserextensies, externe toegang, blootgestelde API&rsquo;s en modeldownloads bepalen nog steeds je risico. Kosten tellen ook mee. Elektriciteit kan goedkoper zijn dan een gehoste tokenprijs, terwijl hardwarebezit het volledige omslagpunt ver naar de toekomst verschuift.</p>
+<p>Deze gids brengt eerst de privacygrens in kaart. Daarna controleert hij de kosten met actuele leveranciersprijzen, een expliciete stroomaanname en de gerapporteerde cijfers uit de meegeleverde video.</p>
+<p>Deze kostenvergelijking tussen lokaal en gehost geeft context voor de onderstaande formules. Kopieer de doorvoercijfers niet zonder hetzelfde modelfile en dezelfde runtime op je hardware te testen.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position:
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Is 16 GB VRAM genoeg voor serieus lokaal LLM-werk?</title><link>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><description>Bepaal de omvang van een lokale LLM-configuratie met 16 GB op basis van modelgewichten, KV-cache en promptverwerking. Vergelijk geheugenbudgetten, GPU-bandbreedte en eigendomskosten voor Qwen3.8 27B.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>16 GB toegewezen GPU-geheugen ondersteunt serieus lokaal LLM-werk wanneer model, context en runtime samen passen. Het laden van de gewichten bewijst alleen de eerste voorwaarde. Een bruikbare configuratie heeft ook genoeg geheugen nodig voor je lopende gesprek en genoeg snelheid om je taak af te ronden.</p>
+<p>Gebruik Qwen3.8 27B als uitgewerkt voorbeeld voor een codeer- of documentworkflow voor één gebruiker. Begin met de context die je taak nodig heeft. Kies daarna gewichten en runtime-instellingen die in het resterende geheugen passen. Hardware-specificaties en modelbronnen zijn gecontroleerd op 7 oktober 2026.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li>Reserveer geheugen voor context voordat je een kwantisatie kiest.</li>
+<li>Meet promptverwerking apart van uitvoersnelheid.</li>
+<li>Schakel ongebruikte visionondersteuning uit en test een 8-bits KV-cache.</li>
+<li>Vergelijk de exacte GPU, backend, modelbestand en promptlengte.</li>
+<li>Bereken besparingen op basis van je werklast en de rekening van je provider.</li>
+</ul>
+<p>Voor deze budgetoefening heb je het geheugenlog van je runtime, de exacte bestandsnaam van het model en een representatieve taak nodig. Reken ongeveer 20 minuten voor instellen en resultaten vastleggen, plus inferentietijd. De moeilijkheidsgraad is gemiddeld.</p>
+<h2 id="stem-geheugen-af-op-het-werk">
+  <a href="#stem-geheugen-af-op-het-werk" title="Stem geheugen af op het werk">Stem geheugen af op het werk</a>
+  <a href="#stem-geheugen-af-op-het-werk" class="h-anchor" aria-hidden="true" title="Stem geheugen af op het werk">#</a>
+</h2>
+<p>16 GB past bij een werklast waarvan gewichten, actieve context en tijdelijke toewijzingen binnen het beschikbare GPU-geheugen blijven. Je benodigde context hangt van de taak af. Een korte documentsamenvatting en een codeeragent die tientallen bestanden leest hebben verschillende budgetten nodig.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Werklast</th>
+					<th>Eerste vraag bij dimensionering</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Korte chat of concept</td>
+					<td>Haalt het model je kwaliteitsdoel?</td>
+			</tr>
+			<tr>
+					<td>Documentanalyse</td>
+					<td>Passen brontekst en antwoord samen?</td>
+			</tr>
+			<tr>
+					<td>Codeeragent</td>
+					<td>Hoeveel context gebruiken bestanden en to
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>10 Claude Code-plug-ins, skills en MCP-tools: praktische gids</title><link>https://nl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><description>Kies Claude Code-extensies voor planning, code review, kennisbeheer, ontwerp en automatisering. Vergelijk tien tools, afhankelijkheden en praktische controles.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Kies een Claude Code-extensie rond één concreet probleem in je workflow.</strong> Onduidelijke vereisten vragen om een planningsgesprek. Gemiste fouten vragen om review en tests. Herhaald onderzoek vraagt om traceerbare bronnen. Meer tools installeren helpt alleen wanneer hun verantwoordelijkheden duidelijk zijn.</p>
+<p>Deze gids vergelijkt <strong>tien projecten</strong> voor deze taken, met installatievoorbeelden en een uitgewerkte evaluatie. De analyse gebruikt actuele projectdocumentatie en de aangeleverde Chase AI-video. Aanbevelingen zijn redactionele beoordelingen. Ze zijn geen prestatiemetingen of bewijs van tien keer hogere productiviteit.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Kies op basis van de uitvoer:</strong> een gereviewd plan, een codemap en een gegenereerde afbeelding vragen om verschillende tools.</li>
+<li><strong>Scheid installatielagen:</strong> instructies, uitvoerbare programma&rsquo;s, plug-ins en serviceverbindingen hebben verschillende afhankelijkheden.</li>
+<li><strong>Controleer actuele namen:</strong> Graphify en grill-me-codex hebben nu verschillende canonieke repositorylocaties.</li>
+<li><strong>Ga verder dan overeenstemming:</strong> twee modellen die een plan accepteren bewijzen niet dat de implementatie klopt.</li>
+<li><strong>Meet geaccepteerd werk:</strong> neem installatie, servicegebruik, mislukte pogingen en menselijke correcties mee.</li>
+</ul>
+<h2 id="voor-je-begint">
+  <a href="#voor-je-begint" title="Voor je begint">Voor je begint</a>
+  <a href="#voor-je-begint" class="h-anchor" aria-hidden="true" title="Voor je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> een werkende Claude Code-installatie, een wegwerpbaar project of branch en toestemming voor de gekozen externe diensten. CLI-voorbeelden gaan uit van een terminal en de genoemde pakketbeheerder. Cloudintegraties vereisen eigen accounts en authenticatie.</p>
+<p><strong>Geschatte tijd:</strong> 15 minuten lezen, daarna 30 tot 60 minuten voor één afgebakende proef. <strong>Moeilijkheid:</strong> gemiddeld voor CLI-installatie en service-integratie. Instructieskills lezen vraagt minder voorbereiding.</p>
+<p><strong>Documentatie gecontroleerd op 10 oktober 2026.</strong> Commando&rsquo;s en toegangsregels volgen de gekoppelde bronnen. Co
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>9 AI-agentvaardigheidsprojecten voor onderzoek, ontwerp en ontwikkeling</title><link>https://nl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><description>Vergelijk negen agentvaardigheidsprojecten op workflow, hostondersteuning, afhankelijkheden en kosten. Leer hoe je de benodigde vaardigheden installeert, inspecteert en test.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Installeer een agentvaardigheid om een herhaalbare taak te verbeteren.</strong> Onderzoek naar recente discussies, beoordeling van interfaceontwerp en het renderen van een video gebruiken verschillende procedures en afhankelijkheden. Een nuttige vaardigheid levert de ontbrekende instructies, referentiematerialen of scripts voor een van deze taken.</p>
+<p><strong>Negen projecten verdienen aandacht:</strong> last30days, Humanizer, Impeccable, Superpowers, gstack, Claude Video, Remotion, HyperFrames en NVIDIA SkillSpector. Sommige zijn instructiebundels, sommige bevatten uitvoerbare tools en sommige zijn frameworks met aanvullende vaardigheden. Deze gids vergelijkt hun gedocumenteerde rollen en geeft een praktische manier om ze te kiezen, installeren en beoordelen.</p>
+<p><strong>Momentopname van de documentatie: 10 oktober 2026.</strong> De aanbevelingen zijn gebaseerd op projectdocumentatie en broninspectie, niet op een vergelijkende benchmark van uitvoerkwaliteit. Een gratis installatie bewijst niet dat inferentie, rendering, datatoegang of commercieel gebruik gratis is.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Begin met een terugkerende taak:</strong> kies een vaardigheid met een duidelijk resultaat en een acceptatiecontrole.</li>
+<li><strong>Scheid vaardigheden van runtimes:</strong> instructies installeren installeert niet elk vereist uitvoerbaar bestand.</li>
+<li><strong>Controleer de host:</strong> een werkende Claude Code-integratie bewijst geen identiek gedrag in Codex of Cowork.</li>
+<li><strong>Inspecteer rechten en afhankelijkheden:</strong> pakketcommando&rsquo;s, hooks, externe diensten en inloggegevens vragen elk om aparte aandacht.</li>
+<li><strong>Pas aan na het testen:</strong> houd het projectbeleid leidend en bewaar upstreamversies.</li>
+</ul>
+<h2 id="kies-op-basis-van-het-resultaat">
+  <a href="#kies-op-basis-van-het-resultaat" title="Kies op basis van het resultaat">Kies op basis van het resultaat</a>
+  <a href="#kies-op-basis-van-het-resultaat" class="h-anchor" aria-hidden="true" title="Kies op basis van het resultaat">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Vereiste uitvoer</th>
+					<th>Te beoordelen project</th>
+					<th>Eerste controle</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Actuele discussi
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Beste AI-agentharnassen in 2026: kies op basis van je workflow</title><link>https://nl.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><description>Vergelijk Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi en LangGraph op tooluitvoering, geheugen, herstel en integratie-inspanning.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/ai-agent-execution-components.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Deep Agents staat bij mij bovenaan voor een algemene agent met configureerbare modellen en ingebouwd contextbeheer.</strong> Claude Agent SDK past goed bij het inbedden van Claude Code&rsquo;s uitvoergedrag. OpenAI Agents SDK en Pydantic AI verdienen een proef voor toepassingsspecifieke agents. Pi kiest voor een kleine uitbreidbare kern, terwijl LangGraph expliciete workflowcontrole biedt.</p>
+<p><strong>De beste keuze hangt af van het werk dat je wilt accepteren.</strong> Een onderzoeksassistent, een repository-editor en een service voor klantverzoeken hebben verschillende tools en herstelregels nodig. Deze aanbevelingen zijn redactionele oordelen op basis van officiële documentatie die op <strong>10 oktober 2026</strong> is gecontroleerd. Het zijn geen resultaten van een praktische prestatietest.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Kies eerst de abstractie:</strong> samengestelde agent, applicatie-SDK of workflowruntime.</li>
+<li><strong>Controleer uitvoergrenzen:</strong> toolgoedkeuring, bestandssysteemisolatie en netwerkbeleid lossen verschillende problemen op.</li>
+<li><strong>Test herstel:</strong> alleen gesprekshistorie voorkomt geen dubbele externe acties.</li>
+<li><strong>Meet geaccepteerd werk:</strong> neem fouten, reviewtijd en infrastructuur op in je kostenvergelijking.</li>
+<li><strong>Houd het model expliciet:</strong> als je model en agentsoftware tegelijk wijzigt, test je het volledige systeem, niet alleen de software.</li>
+</ul>
+<h2 id="wat-een-harnas-biedt">
+  <a href="#wat-een-harnas-biedt" title="Wat een harnas biedt">Wat een harnas biedt</a>
+  <a href="#wat-een-harnas-biedt" class="h-anchor" aria-hidden="true" title="Wat een harnas biedt">#</a>
+</h2>
+<p>Een <strong>agentharnas is de software rond een modelaanroep.</strong> Het bereidt context voor, stelt tools beschikbaar, voert goedgekeurde acties uit, geeft resultaten terug en bepaalt wanneer het doorgaat of stopt. Afhankelijk van de implementatie beheert het ook geheugen, delegatie, machtigingen en herstel.</p>
+<p>Een <strong>model</strong> stelt de volgende actie voor. Een <strong>tool</strong> voert een bewerking uit. Een <strong>runtime</strong> voert de workflow uit en bewaart hem. Deze verantwoordelijkheden overlappen in verpakte producten. Door ze te 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Code CLI versus Desktop: workflowvergelijking voor 2026</title><link>https://nl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><description>Vergelijk Claude Code in de terminal met de Code-werkruimte op desktop, inclusief gedeelde instellingen, sessieoverdracht, scripting, visuele controle en permissiekeuzes.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Claude Code CLI en Desktop</strong> bieden twee manieren om Anthropic&rsquo;s programmeeragent aan te sturen. De CLI past bij shell-workflows en programmatische aanroepen. Desktop past bij een zichtbare projectwerkruimte met bestandswijzigingen en controle naast het gesprek.</p>
+<p><strong>Deze vergelijking gaat over de programmeerwerkruimte op desktop</strong>, beschreven als het tabblad Code in Anthropic&rsquo;s 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="desktop snelstart">
+    <meta itemprop="url" content="https://code.claude.com/docs/en/desktop-quickstart">
+    <a href="https://code.claude.com/docs/en/desktop-quickstart"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >desktop snelstart</a>
+</span>
+. Algemene chat en andere desktopworkflows vallen buiten het onderwerp. Dit onderscheid telt bij het controleren van repositorytoegang en configuratie.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Gebruik de CLI voor scripts</strong>, gepipete invoer en terminalgericht werk.</li>
+<li><strong>Gebruik Desktop voor grafische supervisie</strong>, bijlagen en diffcontrole.</li>
+<li><strong>Gedeelde configuratie vermindert dubbel werk</strong>, maar sessiegedrag en beschikbare bediening verschillen.</li>
+<li><strong>Een gesprek verplaatsen vereist ondersteunde overdracht</strong>, niet het kopiëren van een prompt naar een nieuwe chat.</li>
+</ul>
+<p><strong>Bereik en datum:</strong> Officiële documentatie gecontroleerd op 10 oktober 2026. Dit is een vergelijking van functies en workflows, geen programmeerbenchmark. Je hebt een testbare repository en een goedgekeurde accountroute nodig. Reken 45 tot 60 minuten voor een kleine proef.</p>
+<h2 id="dezelfde-engine-andere-bediening">
+  <a href="#dezelfde-engine-andere-bediening" title="Dezelfde engine, andere b
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CLI-codeeragenten vergeleken: Claude Code, Codex, Gemini, OpenCode, Copilot en Aider</title><link>https://nl.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><description>Vergelijk zes codeeragenten voor de terminal op workflow, automatisering, modeltoegang, rechten en revisiewerk. Stel een shortlist samen met een herhaalbare repository-test.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Codeeragenten in de terminal</strong> gebruiken een vertrouwde interface, maar verschillen in contextverzameling, bestandsbewerking, goedkeuringsvragen en aansluiting op scripts. Deze gids vergelijkt Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI en Aider. De terminalworkflows worden los van de desktopproducten van elke leverancier beoordeeld.</p>
+<p><strong>Begin bij je beperkingen.</strong> Leverancierstoegang, herhaalbare automatisering en reviewgewoonten zijn betere filters dan een algemene ranglijst. De aanbevelingen hieronder zijn redactionele oordelen op basis van officiële documentatie die op 10 oktober 2026 is gecontroleerd, geen gemeten prestatieranglijst.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Claude Code, Codex en Gemini CLI</strong> verdienen een proef wanneer je hun eigen first-party modelworkflows wilt.</li>
+<li><strong>OpenCode en Aider</strong> passen bij experimenten met meerdere modelproviders, met verschillende manieren van interactie en bewerking.</li>
+<li><strong>Copilot CLI</strong> verdient aandacht wanneer GitHub-toegang en organisatiebeleid je workflow al bepalen.</li>
+<li><strong>Een terminalinterface betekent geen lokale inferentie</strong>, onbeperkte modelkeuze of uitvoering zonder toezicht.</li>
+</ul>
+<p><strong>Vereisten:</strong> Git, een wegwerp-checkout, werkende tests en goedgekeurde modelcredentials. De moeilijkheid is gemiddeld. Trek een middag uit om twee geselecteerde tools op drie kleine taken te vergelijken.</p>
+<h2 id="de-shortlist">
+  <a href="#de-shortlist" title="De shortlist">De shortlist</a>
+  <a href="#de-shortlist" class="h-anchor" aria-hidden="true" title="De shortlist">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Terminaltool</th>
+					<th>Reden om te evalueren</th>
+					<th>Te nemen beslissing</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Claude Code CLI</strong></td>
+					<td>Claude-gerichte repositorybewerking</td>
+					<td>Accountroute en rechtenbeleid</td>
+			</tr>
+			<tr>
+					<td><strong>Codex CLI</strong></td>
+					<td>Interactief werk plus scriptuitvoering</td>
+					<td>Sandboxinstellingen en uitvoerafhandeling</td>
+			</tr>
+			<tr>
+					<td><strong>Gemini CLI</strong></td>
+					<td>Gemini-workflow en gestructureerde headless-uitvoer</td>
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Codex CLI versus Desktop: workflowvergelijking 2026</title><link>https://nl.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><description>Kies tussen Codex in de terminal en de desktopwerkplek voor programmeren van OpenAI. Vergelijk scripts, worktrees, visuele review, planning en uitvoeringsomgevingen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Codex CLI</strong> past bij shell-gestuurd werk met expliciete opdrachten en scriptbare runs. <strong>Codex desktop</strong> past bij projecten, gesprekken, visuele resultaten en reviewpanelen. Kies de interface op basis van je toezicht en houd model, repository en execution policy gelijk.
+<strong>Naam:</strong> de oude Codex-documentatie van OpenAI verwijst nu naar de 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ChatGPT desktop-appdocumentatie">
+    <meta itemprop="url" content="https://learn.chatgpt.com/docs/app">
+    <a href="https://learn.chatgpt.com/docs/app"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >ChatGPT desktop-appdocumentatie</a>
+</span>
+. Een gewone chat zonder repository-toegang is geen coding agent.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Gebruik CLI voor shell-compositie</strong> en herhaalbare runs.</li>
+<li><strong>Gebruik desktop voor projectorganisatie</strong>, visuele review en geplande taken.</li>
+<li><strong>Maak de uitvoeringslocatie expliciet</strong>, vooral bij remote verbindingen.</li>
+<li><strong>De interface garandeert geen betere code</strong> en maakt geen zelfstandig inferencebudget.
+<strong>Bereik en datum:</strong> officiële documentatie gecontroleerd op 10 oktober 2026. De aanbevelingen gaan over workflow, niet over gemeten modelprestaties. Gebruik een repository, werkende tests en geschikte accounttoegang. Plan een uur voor de proef.</li>
+</ul>
+<h2 id="workflows-vergelijken">
+  <a href="#workflows-vergelijken" title="Workflows vergelijken">Workflows vergelijken</a>
+  <a href="#workflows-vergelijken" class="h-anchor" aria-hidden="true" title="Workflows vergelijken">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Behoefte</th>
+					<th>Codex CLI</th>
+					<th>Codex desktop</th>
+			</tr>
+	</thead>
+	<tbody>
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GitHub Copilot CLI versus VS Code: workflowvergelijking voor 2026</title><link>https://nl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><description>Vergelijk de Copilot-terminalagent met de ervaring in VS Code, inclusief editorcontext, visuele verschillen, Agent-modus, CLI-integratie en accountbeleid.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>GitHub Copilot CLI en Copilot in VS Code bieden verschillende toegangspunten tot programmeerwerk.</strong> CLI begint met je shell en een taakprompt. VS Code combineert editorcontext, suggesties, chat en agentworkflows. Beoordeel beide onder hetzelfde account- en repositorybeleid.</p>
+<p><strong>De keuze sluit niets uit.</strong> GitHub documenteert een verbinding tussen Copilot CLI en VS Code. Een terminaltaak profiteert van editorselecties en visuele controle wanneer je beide expliciet verbindt.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Gebruik Copilot CLI voor terminaltaken</strong> en ondersteunde programmatische aanroepen.</li>
+<li><strong>Gebruik Copilot in VS Code voor editorgericht werk</strong>, met inline hulp en Agent-modus.</li>
+<li><strong>Verbind CLI met VS Code</strong> voor terminalprompts met editorcontext en verschillen.</li>
+<li><strong>Controleer account-, model- en beleidsinstellingen</strong>, ook binnen één productfamilie.</li>
+</ul>
+<p><strong>Bereik en datum:</strong> Officiële documentatie is gecontroleerd op 10 oktober 2026. Deze vergelijking gaat over de zelfstandige <code>copilot</code> CLI en Copilot in VS Code, niet over de oude <code>gh copilot</code>-extensie of een cloudagent voor een GitHub-issue. Je hebt een testbare repository en toegestane Copilot-toegang nodig. Reserveer een uur voor de proef.</p>
+<h2 id="drie-manieren-van-werken">
+  <a href="#drie-manieren-van-werken" title="Drie manieren van werken">Drie manieren van werken</a>
+  <a href="#drie-manieren-van-werken" class="h-anchor" aria-hidden="true" title="Drie manieren van werken">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Workflow</th>
+					<th>Hoofdinteractie</th>
+					<th>Geschikte proeftaak</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Zelfstandige CLI</strong></td>
+					<td>Terminalprompt en opdrachtuitvoer</td>
+					<td>Een gereproduceerde testfout uitleggen en herstellen</td>
+			</tr>
+			<tr>
+					<td><strong>VS Code-integratie</strong></td>
+					<td>Editorselectie, chat, suggesties en verschillen</td>
+					<td>Een geselecteerde functie en de tests wijzigen</td>
+			</tr>
+			<tr>
+					<td><strong>CLI verbonden met VS Code</strong></td>
+					<td>Terminaltaak met editorcontext en review</td>
+					<td>Vanuit de shell onderzoeke
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GUI-codeeragents vergeleken: Cursor, Windsurf, Cline, Copilot en Continue</title><link>https://nl.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><description>Vergelijk grafische codeeragents, scheid volledige editors van extensies en bekijk de sluiting van Roo Code, modeltoegang, goedkeuringen en reviewwerkwijzen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Grafische codeeragents</strong> plaatsen taakgesprekken naast bestanden, diffs, diagnoses en applicatievoorbeelden. Deze gids vergelijkt Cursor, de Windsurf/Cascade-productlijn, de Cline-extensie voor VS Code, GitHub Copilot in VS Code en de Continue-IDE-extensie. Roo Code verschijnt als oude migratieoptie omdat de documentatie een stopzetting meldt.</p>
+<p><strong>Kies de werkruimte vóór het model.</strong> Een zelfstandige editor verandert je ontwikkelomgeving. Een extensie voegt een agent toe aan een bestaande editor. Beoordeel de gemaakte patch en de inspanning om die te controleren.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Cursor en de Windsurf-productlijn</strong> horen bij volledige editors.</li>
+<li><strong>Cline, Copilot en Continue</strong> bieden agentwerkwijzen binnen een bestaande editor.</li>
+<li><strong>Roo Code vraagt om migratieplanning</strong>, geen normale nieuwe uitrol.</li>
+<li><strong>Zichtbare wijzigingen hebben nog tests nodig</strong>, dependencyreview en een expliciet acceptatiebesluit.</li>
+</ul>
+<p><strong>Bereik en datum:</strong> Officiële documentatie is gecontroleerd op 6 oktober 2026. Dit is een vergelijking van werkwijzen, geen benchmark van snelheid of codekwaliteit. Terminalproducten staan in de aparte 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="CLI-vergelijking">
+    <meta itemprop="url" content="/articles/cli-coding-agents-comparison/">
+    <a href="/articles/cli-coding-agents-comparison/"
+    
+        rel="follow me"
+    >CLI-vergelijking</a>
+</span>
+.</p>
+<p><strong>Vereisten:</strong> Een bestaand project, werkende tests en toestemming om de gekozen editor of extensie te installeren. Niveau: beginner tot gemiddeld. Plan een middag voor twee productproeven.</p>
+<h2 id="huidige-namen-en-status">
+  <a href="#huidige-namen-en-status" title="Huidige namen en status">Huidige namen en status</a>
+  <a href
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Lokale AI versus ChatGPT: hoe dichtbij zijn we echt?</title><link>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><description>Vergelijk lokale AI met ChatGPT en Claude aan de hand van benchmarkscores, geheugenschattingen, servicesnelheid en agentverificatie. Met scenario's voor RTX 5090, DGX Spark en Mac Studio.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Lokale AI</strong> is praktisch voor afgebakend werk met duidelijke controles. Om werk van ChatGPT of Claude te vervangen, moeten modelcapaciteit, bruikbaar geheugen en een agent die de uitvoer inspecteert en controleert samen passen.</p>
+<p>Een model dat op je werkstation past heeft geschikte hulpmiddelen en genoeg snelheid nodig voor herhaalde pogingen. Dit artikel scheidt benchmarkresultaten, geheugenschattingen en bewijs van voltooide taken, zodat je elk onderdeel afzonderlijk beoordeelt.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Capaciteit:</strong> referentiescores beschrijven specifieke evaluatie-instellingen, niet jouw lokale gekwantiseerde build.</li>
+<li><strong>Geheugen:</strong> plan gewichten, contextcache en runtime-overhead samen.</li>
+<li><strong>Snelheid:</strong> het opnieuw afspelen van een agentgesprek meet serverprestaties, niet correctheid.</li>
+<li><strong>Verificatie:</strong> een agent heeft controles nodig die bij het gevraagde resultaat passen.</li>
+<li><strong>Keuze:</strong> vergelijk herhaalde taken, hersteltijd en totale kosten voordat je hardware koopt.</li>
+</ul>
+<h2 id="scores-in-context-lezen">
+  <a href="#scores-in-context-lezen" title="Scores in context lezen">Scores in context lezen</a>
+  <a href="#scores-in-context-lezen" class="h-anchor" aria-hidden="true" title="Scores in context lezen">#</a>
+</h2>
+<p>De <strong>Artificial Analysis Intelligence Index</strong> combineert meerdere evaluaties tot een referentiescore. De 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="modellenranglijst">
+    <meta itemprop="url" content="https://artificialanalysis.ai/leaderboards/models">
+    <a href="https://artificialanalysis.ai/leaderboards/models"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >modellenranglijst</a>
+</span>
+ 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Lokale AI-programmering op een 16GB-GPU: Strata, OpenCode en Qwen3.8</title><link>https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><description>Draai een lokale codeeragent met Strata en OpenCode. Bekijk gemelde RTX 4060 Ti-resultaten, RAM-vereisten, prompthergebruik, redeneerbudgetten en de grenzen van het vervangen van een betaald abonnement.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Een lokale codeeragent op een 16GB-GPU is praktisch voor afgebakende ontwikkeltaken.</strong> Strata en OpenCode combineren lokale inferentie met bestandsbewerking, shellopdrachten en testuitvoering. Een gemelde Qwen3.8-Flash-Next-run op een RTX 4060 Ti voltooide een toepassing, vervolgaanpassingen en een prototype van een racegame zonder betaalde inferentie-aanroepen.</p>
+<p><strong>Een abonnement vervangen vereist een bredere test.</strong> De gepubliceerde resultaten tonen een werkende opstelling op één machine. Ze bewijzen geen gelijkwaardigheid met betaalde codeerdiensten voor verschillende talen, repositories of moeilijke debugtaken. De hardware bevat ook 64GB systeemgeheugen, dat een groot deel van het model draagt.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>16GB beschrijft GPU-geheugen</strong>, niet het totale geheugen dat de gemelde configuratie nodig heeft.</li>
+<li><strong>Prompthergebruik is belangrijk</strong>, omdat codeeragenten herhaaldelijk overlappende conversatiegeschiedenis versturen.</li>
+<li><strong>Redeneren heeft een budget nodig</strong>, zodat planning ruimte laat voor code en toolaanroepen.</li>
+<li><strong>Geslaagde gegenereerde tests zijn gedeeltelijk bewijs</strong>, terwijl Docker en gameplay aparte controles vereisen.</li>
+<li><strong>Nul API-uitgaven sluiten eigendomskosten uit</strong>, zoals elektriciteit en onderhoudstijd.</li>
+</ul>
+<p><strong>Vereisten:</strong> Een compatibele computer, genoeg vrije opslag voor het gekozen model, Git, Node.js met npm en ervaring met terminaltools. Combineer de gemelde IQ3_S-opstelling met 64GB RAM. Gebruik het huidige Strata-installatieprogramma om andere configuraties te controleren.</p>
+<p><strong>Tijd en moeilijkheid:</strong> Gemiddeld. Reserveer tijd voor grote modeldownloads en installatie voordat je de snelheid van taakvoltooiing beoordeelt. De gemelde taakduur is exclusief de installatie.</p>
+<h2 id="geteste-configuratie">
+  <a href="#geteste-configuratie" title="Geteste configuratie">Geteste configuratie</a>
+  <a href="#geteste-configuratie" class="h-anchor" aria-hidden="true" title="Geteste configuratie">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Component</th>
+					<th>Gemelde configuratie</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>GPU</s
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode CLI versus Desktop: workflowvergelijking voor 2026</title><link>https://nl.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><description>Vergelijk de terminal- en desktopclients van OpenCode via hun serverarchitectuur, providerconfiguratie, scripting, sessiestatus en probleemoplossing.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode CLI en Desktop zijn clients voor hetzelfde coding-agentproduct.</strong> De terminalinterface past bij toetsenbordgestuurd werk en scripts. De desktopapplicatie biedt een grafische werkruimte. De belangrijke vergelijking omvat de server, het project, de provider en de configuratie achter elke client.</p>
+<p><strong>Kies de interface nadat je de backend hebt vastgesteld.</strong> Twee OpenCode-vensters gebruiken niet noodzakelijk dezelfde server of sessie. Een desktopapplicatie die naar een andere server verwijst is een andere uitvoeringsomgeving, ook als de modellabel herkenbaar lijkt.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Gebruik CLI voor terminalwerk</strong> en niet-interactieve opdrachten.</li>
+<li><strong>Gebruik Desktop voor een grafische werkruimte</strong>, nadat je de geselecteerde server hebt gecontroleerd.</li>
+<li><strong>De providerconfiguratie bepaalt de inferentie</strong>, onafhankelijk van de interface.</li>
+<li><strong>Dezelfde productidentiteit garandeert geen gedeelde sessiestatus</strong> tussen afzonderlijke servers of versies.</li>
+</ul>
+<p><strong>Bereik en datum:</strong> Officiële documentatie gecontroleerd op 6 oktober 2026. Deze gids vergelijkt interfaces, niet modelkwaliteit. Je hebt een repository, een werkende providerverbinding en basiskennis van de terminal nodig. Trek 45 tot 60 minuten uit voor de proef.</p>
+<h2 id="client-en-server">
+  <a href="#client-en-server" title="Client en server">Client en server</a>
+  <a href="#client-en-server" class="h-anchor" aria-hidden="true" title="Client en server">#</a>
+</h2>
+<p><strong>OpenCode scheidt de interface van de server.</strong> De 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="serverdocumentatie">
+    <meta itemprop="url" content="https://opencode.ai/docs/server/">
+    <a href="https://opencode.ai/docs/server/"
+    
+        
+            
+               
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode versus Claude Code: vergelijking van codeeragents in 2026</title><link>https://nl.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><description>Vergelijk OpenCode en Claude Code voor modelkeuze, lokale inferentie, prijzen, machtigingen, projectinstructies en dagelijkse codeerworkflows.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/opencode-vs-claude-code/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode</strong> past bij ontwikkelaars die controle willen over modelproviders, agentconfiguratie en lokale inferentie. <strong>Claude Code</strong> past bij ontwikkelaars die Anthropic&rsquo;s geïntegreerde codeerworkflow, toegang via Claude-abonnementen en gedocumenteerde organisatiecontroles willen. Beide werken in echte repositories. Nuttige resultaten hangen af van tooluitvoering, projectinstructies en verificatie.</p>
+<p><strong>De agent en het model zijn aparte keuzes.</strong> Als je van Claude Code met een gehost Claude-model naar OpenCode met een klein lokaal model overstapt, veranderen meerdere variabelen tegelijk. Een verschil in resultaten bewijst niet welke agentapplicatie beter is.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Kies OpenCode voor flexibiliteit tussen providers</strong>, open-source maatwerk en experimenten met gehoste of lokale modellen.</li>
+<li><strong>Kies Claude Code voor een op Claude gerichte workflow</strong>, vooral wanneer je abonnement of organisatie het al ondersteunt.</li>
+<li><strong>Lokale uitvoering vraagt om controle.</strong> Een terminaltoepassing stuurt prompts nog steeds naar de geconfigureerde inferentieservice.</li>
+<li><strong>Vergelijk afgerond werk</strong>, inclusief reviewtijd en mislukte pogingen, in plaats van alleen tokensnelheid.</li>
+</ul>
+<p><strong>Scope en datum:</strong> deze vergelijking controleert officiële documentatie en prijzen op 6 oktober 2026. Het geeft keuzeadvies en is geen praktische prestatietest.</p>
+<p><strong>Vereisten:</strong> een Git-repository, werkende build- en testcommando&rsquo;s en toegang tot het beoogde model. Trek na installatie 60 tot 90 minuten uit voor een eerste vergelijking. De moeilijkheidsgraad is gemiddeld.</p>
+<h2 id="functievergelijking">
+  <a href="#functievergelijking" title="Functievergelijking">Functievergelijking</a>
+  <a href="#functievergelijking" class="h-anchor" aria-hidden="true" title="Functievergelijking">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Gebied</th>
+					<th>OpenCode</th>
+					<th>Claude Code</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Agentlicentie</strong></td>
+					<td>MIT open source</td>
+					<td>Eigen voorwaarden</td>
+			</tr>
+			<tr>
+					<td><strong>Primaire modelaanpak</strong></td>
+					<t
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/opencode-vs-claude-code/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Welk lokaal AI-model moet je draaien? Een GPU-, context- en programmeergids voor oktober 2026</title><link>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><description>Een praktische gids voor oktober 2026 voor het kiezen van lokale AI-modellen voor programmeeragents. Vergelijk GPU-geheugen, groei van de KV-cache, contextgrootte, quantisatiekwaliteit, promptverwerking, redeneerniveaus en cloudhuurkosten.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Het beste lokale programmeermodel is het model dat genoeg van je project in het geheugen houdt en het snel genoeg leest om bruikbaar te blijven.</strong> De modelgrootte telt nog steeds. Een model dat pas past nadat gegevens naar systeem-RAM zijn verplaatst, voelt vaak slechter dan een kleiner model met een stabiel contextvenster.</p>
+<p><em>Kies het model en het geheugenbudget samen. Kies geen model uit een tierlijst om het daarna op ongeschikte hardware te forceren.</em></p>
+<p>Deze gids gaat over programmeeragents, niet over korte autocomplete-prompts. Een agent leest bestanden, tooluitvoer, compilerfouten en testresultaten voordat hij een oplossing schrijft. Die invoer gebruikt context en verandert de hardwarekeuze.</p>
+<h2 id="de-video-is-een-referentie">
+  <a href="#de-video-is-een-referentie" title="De video is een referentie">De video is een referentie</a>
+  <a href="#de-video-is-een-referentie" class="h-anchor" aria-hidden="true" title="De video is een referentie">#</a>
+</h2>
+<p>De volgende video vergelijkt lokale modellen over verschillende GPU-geheugenniveaus. De video is nuttig voor praktische observaties over modelkeuze en gerapporteerde hardwareresultaten. Dit artikel kiest een eigen aanpak en ordent de beslissing rond geheugengedrag, agentcontext, promptverwerking en totale eigendomskosten.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Provider-routing in OpenRouter: modelkwaliteit, tokenlimieten en werkelijke kosten</title><link>https://nl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><description>Diagnosticeer inconsistente antwoorden van OpenRouter, vergelijk endpointlimieten en cachekosten en stel provider-routing in zonder kwaliteitscontroles per ongeluk uit te schakelen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Provider-routing in OpenRouter</strong> bepaalt welke inferentiedienst je verzoek beantwoordt. Twee aanroepen met dezelfde modelnaam hangen nog steeds af van endpointlimieten, ondersteunde parameters, servingsoftware en routeringsvoorkeuren. Worden antwoorden korter of mislukken toolaanroepen, controleer dan deze verschillen voordat je kwantisatie de schuld geeft.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Precisielabels</strong> beschrijven een numeriek formaat, geen nauwkeurigheidsscore.</li>
+<li><strong>Endpointlimieten</strong> bepalen beschikbare context, uitvoerlengte en functieondersteuning.</li>
+<li><strong>Expliciete routing</strong> heeft naast een provider voorkeur ook een fallbackbeleid nodig.</li>
+<li><strong>Auto Exacto</strong> verbetert de providerselectie met kwaliteitssignalen en biedt een opt-in-route voor verzoeken zonder tools.</li>
+<li><strong>Werkelijke kosten</strong> omvatten output, cachegedrag, nieuwe pogingen en geslaagde taakafronding.</li>
+</ul>
+<p><strong>Vereisten:</strong> kennis van JSON-verzoeken en toegang tot de OpenRouter-configuratie van je toepassing. Endpointinspectie gebruikt een publieke API. Modelverzoeken versturen vereist een API-sleutel en brengt gebruikskosten met zich mee. Controleer endpointmetadata opnieuw voordat je een gedateerd voorbeeld herhaalt.</p>
+<p><strong>Tijd en moeilijkheid:</strong> ongeveer 20 minuten voor een eerste configuratiecontrole. Gemiddeld niveau. Een bruikbare vergelijking tussen providers vereist extra tests met representatieve prompts.</p>
+<h2 id="wat-je-modelnaam-niet-vermeldt">
+  <a href="#wat-je-modelnaam-niet-vermeldt" title="Wat je modelnaam niet vermeldt">Wat je modelnaam niet vermeldt</a>
+  <a href="#wat-je-modelnaam-niet-vermeldt" class="h-anchor" aria-hidden="true" title="Wat je modelnaam niet vermeldt">#</a>
+</h2>
+<p><strong>Een model-ID</strong> selecteert het gevraagde model. De provider draait de inferentiedienst, inclusief modelimplementatie, tokenlimieten en parser voor toolaanroepen. Een benchmark op modelniveau valideert niet elke dienst die deze gewichten host.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Endpointeigenschap</th>
+					<th>Wat je controleert</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Contextlengte</strong></td>
+					<td>Ruimt
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>32 GB VRAM voor Qwen 27B: hardwaregids voor lokale AI in oktober 2026</title><link>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><description>Praktische gids voor oktober 2026 om een Qwen 27B-model te draaien met 32 GB bruikbaar acceleratorgeheugen. Vergelijk losse GPU's, systemen met twee kaarten, unified memory, gebruikte datacenterkaarten, gehuurde rekenkracht, softwareondersteuning en limieten bij volledige context.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>32 GB op het productlabel betekent niet 32 GB beschikbaar voor een Qwen 27B-werklast.</strong> Het besturingssysteem, de runtime, KV-cache, modelindeling, driverstack en kaartopstelling veranderen het resultaat. Een goedkope kaart met voldoende capaciteit kan alsnog verliezen op promptverwerking of insteltijd.</p>
+<p><em>Vergelijk voor oktober 2026 bruikbaar geheugen en uitgevoerd werk per dollar, niet alleen het VRAM-getal.</em></p>
+<p>Deze gids beschrijft praktische manieren om een Qwen 27B-model met 6-bitkwaliteit en een groot contextvenster te draaien. Gepubliceerde specificaties staan los van gemelde testresultaten. De tokens-per-seconde-score van één persoon is geen vaste eigenschap van een GPU.</p>
+<h2 id="waarom-32-gb-het-doel-is">
+  <a href="#waarom-32-gb-het-doel-is" title="Waarom 32 GB het doel is">Waarom 32 GB het doel is</a>
+  <a href="#waarom-32-gb-het-doel-is" class="h-anchor" aria-hidden="true" title="Waarom 32 GB het doel is">#</a>
+</h2>
+<p>De geheugenbehoefte begint bij de gewichten. Een dicht 27B-model leest tijdens generatie de volledige parameterset. Bij 6-bitquantisatie nemen de gewichten ongeveer <strong>20,5 GB</strong> in, voordat runtime-allocaties en contextgeheugen meetellen.</p>
+<p>Een context van 128K tokens vraagt nog een grote allocatie. De exacte KV-cachegrootte hangt af van modelarchitectuur, cacheprecisie, batchinstellingen en backend. Een praktische schatting van ongeveer <strong>8 GB</strong> brengt gewichten en cache samen op circa <strong>28,5 GB</strong>, vóór het aandeel van besturingssysteem en inferentieruntime.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Configuratie</th>
+					<th>Ondersteuning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>24GB discrete GPU</strong></td>
+					<td>4-bitgewichten met kleinere context, of gedeeltelijke offload</td>
+			</tr>
+			<tr>
+					<td><strong>32GB discrete GPU</strong></td>
+					<td>6-bitgewichten met een bruikbaar 128K-contextdoel</td>
+			</tr>
+			<tr>
+					<td><strong>Twee 16GB-GPU&rsquo;s</strong></td>
+					<td>Gesplitst model met minder ruimte voor runtime-overhead</td>
+			</tr>
+			<tr>
+					<td><strong>64GB unified memory</strong></td>
+					<td>Grotere context en modellen, binnen de GPU-geheugenlimiet</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>32 GB is een meetpunt voor dimensionering, geen garantie.</strong> Een model kan laden en toch te weinig ruimte overlaten voor een lange prompt, grotere batch, multimodale invoer of een tweede proces.</p>
+<h2 i
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>De DGX Spark van 64 GB is een waarschuwingssignaal voor prijzen van lokale AI-hardware</title><link>https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><description>De 64GB-laag van NVIDIA's DGX Spark laat zien hoe druk op het geheugenaanbod lokale AI-hardware vormt. Deze gids bespreekt de capaciteitsverlaging, de afwegingen van gedeeld geheugen en waarom verlichting op de DRAM-markt voor eind 2027 onwaarschijnlijk is.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>De DGX Spark van 64 GB is een marktsignaal voor kopers van lokale AI.</strong> Een configuratie met minder geheugen verschijnt terwijl de vraag naar AI-servers, HBM en conventionele DRAM hoog blijft. De wijziging bewijst niet dat elk onderdeel identiek is aan het 128GB-systeem, maar laat zien hoe leveranciers reageren op geheugenprijzen, beschikbaarheid en productsegmentatie.</p>
+<p><em>Als je een lokaal AI-systeem met veel gedeeld geheugen nodig hebt, is wachten op een snelle prijsdaling een zwak plan. Stel een budget vast, volg geheugen per dollar en houd een tweede hardwarepad klaar.</em></p>
+
+
+<h2 id="wat-is-er-veranderd">
+  <a href="#wat-is-er-veranderd" title="Wat is er veranderd?">Wat is er veranderd?</a>
+  <a href="#wat-is-er-veranderd" class="h-anchor" aria-hidden="true" title="Wat is er veranderd?">#</a>
+</h2>
+<p>De gemelde 64GB DGX Spark voegt een capaciteitsniveau met minder geheugen toe aan NVIDIA&rsquo;s compacte Grace Blackwell-systeem. Tom&rsquo;s Hardware meldt een vanafprijs van $4.999 voor de 64GB-eenheid en een prijs van $6.950 voor het 128GB-model. De twee niveaus richten zich op verschillende geheugenbudgetten binnen dezelfde algemene productfamilie en het GB10-platform. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Tom&rsquo;s Hardware meldt de product- en prijsdetails">
+    <meta itemprop="url" content="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less">
+    <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Tom&rsquo;s Hardware meldt de product- en prijsdetails</a>
+</span>
+.</p>
+<p>NVIDIA&rsquo;s eigen documentatie vermeldt voor de standaard DGX Spark-configuratie <stro
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Contactloos betalen op een creditcard uitschakelen</title><link>https://nl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><description>Praktische handleiding om contactloos betalen op een reservecreditcard uit te schakelen terwijl betalingen met chip en magneetstrip beschikbaar blijven, met veiligheidsgrenzen en betere alternatieven.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>Een contactloze kaart heeft een aparte NFC-antenne.</strong> Als je de kaart in een telefoonhoesje bewaart, veroorzaakt de antenne op sommige telefoons kaartbotsingen of herhaalde NFC-meldingen. Een fysieke onderbreking in de antennelus schakelt tikken om te betalen uit, terwijl de chip en magneetstrip bij sommige kaarten beschikbaar blijven.</p>
+<p><em>Gebruik voor dit project een reservekaart. Behandel de wijziging als permanent en bevestig het resultaat bij de kaartuitgever voordat je erop vertrouwt.</em></p>
+<p><strong>Wijzig je enige betaalmiddel niet.</strong> Regels van de uitgever, de kaartconstructie en de ondersteuning door betaalterminals verschillen. Houd tijdens het testen van de beschadigde kaart een tweede kaart of contant geld bij de hand.</p>
+<h2 id="waarom-contactloos-betalen-uitschakelen">
+  <a href="#waarom-contactloos-betalen-uitschakelen" title="Waarom contactloos betalen uitschakelen?">Waarom contactloos betalen uitschakelen?</a>
+  <a href="#waarom-contactloos-betalen-uitschakelen" class="h-anchor" aria-hidden="true" title="Waarom contactloos betalen uitschakelen?">#</a>
+</h2>
+<p>Tikken om te betalen is handig, en moderne mobiele wallets voegen een extra betalingstoken toe aan dezelfde telefoon. Het probleem begint wanneer een fysieke NFC-kaart dicht bij de NFC-lezer van de telefoon ligt.</p>
+<p>Twee betaalmiddelen kunnen op dezelfde lezer reageren. Android kan de fysieke kaart ook detecteren wanneer je de telefoon opent of vasthoudt. De kaart uit het hoesje halen lost het probleem op, maar zorgt bij elke betaling voor extra handelingen.</p>
+<p>Het doel is beperkt: de contactloze interface van de kaart uitschakelen en andere betaalmethoden beschikbaar houden.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Betaalmethode</th>
+					<th>Verwacht resultaat na een onderbreking van de antenne</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Contactloos betalen</strong></td>
+					<td>Uitgeschakeld omdat de NFC-antennelus geen koppeling meer maakt met een lezer</td>
+			</tr>
+			<tr>
+					<td><strong>EMV-chip</strong></td>
+					<td>Blijft vaak beschikbaar als de chip en de contacten onbeschadigd zijn</td>
+			</tr>
+			<tr>
+					<td><strong>Magneetstrip</strong></td>
+					<td>Blijft vaak beschikbaar als de strip onbeschadigd is</td>
+			</tr>
+			<tr>
+					<td><strong>Online kaartbetalingen</strong></td>
+					<td>Meestal niet beïnvloed, maar de uitgever kan de kaart na beschadiging vervangen of deactiveren</td>
+			</tr>
+	</tbody>
+</tab
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GPU-benchmarks van Llama 3.1 8B en Qwen3.8 27B op Vast.ai</title><link>https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><description>Gemeten Ollama-benchmarks van Llama 3.1 8B en Qwen3.8 27B op belangrijke Vast.ai-GPU's. Vergelijk decodeersnelheid, lange context, huurkosten, self-hosting, API-tegoed en abonnementen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p><strong>De H100 SXM was de snelste kaart in beide Ollama-tests, maar niet de beste waarde.</strong> De RTX PRO 5000 en RTX 6000 Ada boden een betere verhouding tussen snelheid en huurprijs. De CMP 170HX had het laagste uurtarief van de voltooide Qwen3.8 27B-runs.</p>
+<p><em>Deze resultaten meten één model, één Ollama-wrapper, één standaardkwantisering en één serveerpatroon. Gebruik ze voor deze werklast, niet als algemene GPU-ranglijst.</em></p>
+<p>Dit artikel vergelijkt <strong>Llama 3.1:8b</strong>, een Ollama Q4_K_M-build met 8,03 miljard parameters, met <strong>Qwen3.8:27b</strong>, een Ollama Q4_K_M-build met ongeveer 27,3 miljard parameters. Beide modellen zijn getest op GPU-instanties van Vast.ai. De tests richtten zich op decodeerdoorvoer bij echte promptlengtes tot de ondersteunde contextlimiet.</p>
+<h2 id="kort-antwoord">
+  <a href="#kort-antwoord" title="Kort antwoord">Kort antwoord</a>
+  <a href="#kort-antwoord" class="h-anchor" aria-hidden="true" title="Kort antwoord">#</a>
+</h2>
+<p><strong>Huur een RTX PRO 5000 of RTX 6000 Ada voor regelmatig werk door één gebruiker.</strong> De RTX PRO 5000 leidde bij korte en middelgrote contexten. De RTX 6000 Ada kostte minder en bleef sneller dan de A100-kaarten. Huur een H100 SXM wanneer reactiesnelheid belangrijker is dan het uurtarief of wanneer lange prompts deel van het werk zijn.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Doel</th>
+					<th>Advies</th>
+					<th>Reden</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Laagste testkosten</strong></td>
+					<td>CMP 170HX</td>
+					<td>$0.420 per uur en genoeg VRAM voor de geteste Q4_K_M-modellen</td>
+			</tr>
+			<tr>
+					<td><strong>Beste waarde onder $1.25/uur</strong></td>
+					<td>RTX PRO 5000 of RTX 6000 Ada</td>
+					<td>Sterke decodeersnelheid zonder H100-huurprijs</td>
+			</tr>
+			<tr>
+					<td><strong>Snelste antwoorden</strong></td>
+					<td>H100 SXM</td>
+					<td>Hoogste decodeersnelheid in beide tests</td>
+			</tr>
+			<tr>
+					<td><strong>Qwen met lange context</strong></td>
+					<td>H100 SXM of RTX PRO 6000 Max-Q</td>
+					<td>Beide voltooiden de Qwen-run van ongeveer 131k tokens met veel VRAM over</td>
+			</tr>
+			<tr>
+					<td><strong>Populaire 8B-baseline</strong></td>
+					<td>Llama 3.1:8b</td>
+					<td>Praktische 8B-vergelijking met 128K-contextlimiet</td>
+			</tr>
+			<tr>
+					<td><strong>Kleine terugkerende werklast</strong></td>
+					<td>API-tegoed of chatabonnement</td>
+					<td>Geen kosten voor een inactieve GPU, 
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI-bronophaling: kaarten, zoeken en optionele RAG</title><link>https://nl.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><description>Gebruik eerst een bronkaart, native zoeken, verificatie van live bronnen en optionele RAG-evaluatie zonder de autoriteit te wijzigen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Terug naar de AI-samenwerkingscursus">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >Terug naar de AI-samenwerkingscursus</a>
+</span>
+</p>
+<p><strong>Voeg bronophaling toe nadat de publicatiecontroles werken.</strong> Begin met MAP-01 en exacte bron-ID&rsquo;s. Gebruik daarna native zoeken voor onbekende records. Retrieval-augmented generation, of RAG, blijft een optionele ontdekkingslaag. De broneigenaar bepaalt de autoriteit. De publicist controleert live bronnen vóór schrijfacties met gevolgen. Deze les geldt voor beide labtrajecten.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Bekende ID&rsquo;s</strong> geven de voorkeur aan direct opzoeken.</li>
+<li><strong>Zoekresultaten</strong> identificeren kandidaten, geen goedgekeurd beleid.</li>
+<li><strong>Toegangsfiltering</strong> komt vóór de modelcontext.</li>
+<li><strong>Controles van live bronnen</strong> blijven verplicht vóór publicatie.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> één afgerond traject en het bijbehorende autoriteitsregister. <strong>Geschatte tijd:</strong> 60 minuten voor kaart- en native-zoektests. <strong>Moeilijkheid:</strong> gemiddeld.</p>
+<p><strong>Bereik:</strong> een embeddingprovider, vectordatabase of betaalde connector is niet nodig. De uitvoerbare basis gebruikt zoeken in de browser. Een latere RAG-implementatie heeft afzonderlijk goedgekeurde toegangscontroles en voorwaarden voor gegevensverwerking nodig.</p>
+<p><strong>Resultaat:</strong> je maakt een ophaalrecord met de bron-ID, revisie, toegangsbeslissing, o
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AI-samenwerking met GitHub: grenzen voor repository en review</title><link>https://nl.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://nl.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><description>Bouw een GitHub-gerichte bronnenkaart, wijs bestandseigenaars toe en stel een beschermde publicatiegrens in voor gereviewde AI-bijdragen.</description><content:encoded><![CDATA[
+        
+            <img src="https://nl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read the full article at https://nl.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Terug naar de cursus over AI-samenwerking">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >Terug naar de cursus over AI-samenwerking</a>
+</span>
+</p>
+<p><strong>De maintainer bouwt na goedkeuring van het charter de GitHub-gerichte publicatiegrens.</strong> Vereisten, configuratie, beleid en runbooks staan in één wegwerp-repository. Bijdragers stellen werk voor via Issues en pull requests. Jij bepaalt waar goedgekeurde feiten staan en blokkeert niet-gereviewde wijzigingen voordat je agents koppelt.</p>
+<h2 id="belangrijkste-punten">
+  <a href="#belangrijkste-punten" title="Belangrijkste punten">Belangrijkste punten</a>
+  <a href="#belangrijkste-punten" class="h-anchor" aria-hidden="true" title="Belangrijkste punten">#</a>
+</h2>
+<ul>
+<li><strong>Beschermde <code>main</code></strong> is de publicatiegrens.</li>
+<li><strong>Issues</strong> verzamelen voorgesteld werk zonder beleid goed te keuren.</li>
+<li><strong>CODEOWNERS</strong> wijst bevoegde bestandsreviewers toe.</li>
+<li><strong>Afzonderlijke gebruikers</strong> tonen review- en weigeringscontroles.</li>
+</ul>
+<h2 id="voordat-je-begint">
+  <a href="#voordat-je-begint" title="Voordat je begint">Voordat je begint</a>
+  <a href="#voordat-je-begint" class="h-anchor" aria-hidden="true" title="Voordat je begint">#</a>
+</h2>
+<p><strong>Vereisten:</strong> de 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="pilotfundering">
+    <meta itemprop="url" content="/articles/ai-collaboration-pilot-foundation/">
+    <a href="/articles/ai-collaboration-pilot-foundation/"
+    
+       
+
+        <br>
+        <a href="https://nl.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read More at https://nl.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

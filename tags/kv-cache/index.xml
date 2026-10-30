@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KV-Cache on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>KV-Cache on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/kv-cache/</link></image><link>https://nl.simeononsecurity.com/tags/kv-cache/</link><description>Recent content in KV-Cache on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/kv-cache/index.xml" rel="self" type="application/rss+xml"/><item><title>Is 16 GB VRAM genoeg voor serieus lokaal LLM-werk?</title><link>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Computerhardware"
+, "Zelfgehoste AI"</category><guid>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bepaal de omvang van een lokale LLM-configuratie met 16 GB op basis van modelgewichten, KV-cache en promptverwerking. Vergelijk geheugenbudgetten, GPU-bandbreedte en eigendomskosten voor Qwen3.8 27B.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Lokale AI versus ChatGPT: hoe dichtbij zijn we echt?</title><link>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Kunstmatige intelligentie"
+, "AI-hardware"
+, "Ontwikkelaarstools"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk lokale AI met ChatGPT en Claude aan de hand van benchmarkscores, geheugenschattingen, servicesnelheid en agentverificatie. Met scenario's voor RTX 5090, DGX Spark en Mac Studio.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Welk lokaal AI-model moet je draaien? Een GPU-, context- en programmeergids voor oktober 2026</title><link>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "Zelfgehoste AI"
+, "GPU-benchmarking"
+, "Ontwikkelaarstools"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een praktische gids voor oktober 2026 voor het kiezen van lokale AI-modellen voor programmeeragents. Vergelijk GPU-geheugen, groei van de KV-cache, contextgrootte, quantisatiekwaliteit, promptverwerking, redeneerniveaus en cloudhuurkosten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32 GB VRAM voor Qwen 27B: hardwaregids voor lokale AI in oktober 2026</title><link>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "GPU-benchmarking"
+, "Zelf gehoste AI"
+, "Computerhardware"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktische gids voor oktober 2026 om een Qwen 27B-model te draaien met 32 GB bruikbaar acceleratorgeheugen. Vergelijk losse GPU's, systemen met twee kaarten, unified memory, gebruikte datacenterkaarten, gehuurde rekenkracht, softwareondersteuning en limieten bij volledige context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

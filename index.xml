@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://nl.simeononsecurity.com/</link></image><link>https://nl.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent en CLI: Alleen-lezen AI-agent-toegang</title><link>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Systeembeheer"
+, "Cloudbeveiliging"
+, "Automatisering"</category><guid>https://nl.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontwerp een alleen-lezen SSH-workflow met 1Password CLI, de SSH Agent en MCP. Gebruik synthetische commando's, beperkte machtigingen en menselijke goedkeuring voordat u live test.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>2x RTX 5060 Ti versus GB10: waarom 32 GB VRAM verliest van 128 GB unified memory</title><link>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Lokale AI"
+, "GPU-hardware"
+, "Benchmarking"
+, "Computerhardware"</category><guid>https://nl.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een benchmarkvergelijking van twee RTX 5060 Ti-kaarten met 16 GB en een NVIDIA GB10-systeem voor Qwen 3 27B en lokale inferentie met een lange context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>De AI-infrastructuurhausse van 2026: vraag, schuld, energie en bewijs</title><link>https://nl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "AI-economie"
+, "Datacenters"
+, "Cloudinfrastructuur"
+, "Cybersecurity"</category><guid>https://nl.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een gecontroleerde beoordeling van AI-infrastructuuruitgaven, elektriciteitsvraag van datacenters, financieringsstructuren, bedrijfswaarde en het bewijs dat nodig is voordat de markt een zeepbel wordt genoemd.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>Privacy van lokale AI: wat op je computer blijft en wat niet</title><link>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Privacy"
+, "Zelfgehoste AI"
+, "Cybersecurity"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Breng prompts, modelbestanden, tools, logs, netwerkblootstelling en stroomkosten in kaart voordat je kiest voor lokale inferentie of een gehoste AI-dienst.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Is 16 GB VRAM genoeg voor serieus lokaal LLM-werk?</title><link>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Computerhardware"
+, "Zelfgehoste AI"</category><guid>https://nl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bepaal de omvang van een lokale LLM-configuratie met 16 GB op basis van modelgewichten, KV-cache en promptverwerking. Vergelijk geheugenbudgetten, GPU-bandbreedte en eigendomskosten voor Qwen3.8 27B.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>10 Claude Code-plug-ins, skills en MCP-tools: praktische gids</title><link>https://nl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Ontwikkelaarstools"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Kies Claude Code-extensies voor planning, code review, kennisbeheer, ontwerp en automatisering. Vergelijk tien tools, afhankelijkheden en praktische controles.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>9 AI-agentvaardigheidsprojecten voor onderzoek, ontwerp en ontwikkeling</title><link>https://nl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Ontwikkelaarstools"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk negen agentvaardigheidsprojecten op workflow, hostondersteuning, afhankelijkheden en kosten. Leer hoe je de benodigde vaardigheden installeert, inspecteert en test.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>Beste AI-agentharnassen in 2026: kies op basis van je workflow</title><link>https://nl.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Softwareontwikkeling"
+, "AI-beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi en LangGraph op tooluitvoering, geheugen, herstel en integratie-inspanning.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/ai-agent-execution-components.webp" length="228402" type="image/webp"/></item><item><title>Claude Code CLI versus Desktop: workflowvergelijking voor 2026</title><link>https://nl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ontwikkelaarstools"
+, "Kunstmatige intelligentie"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk Claude Code in de terminal met de Code-werkruimte op desktop, inclusief gedeelde instellingen, sessieoverdracht, scripting, visuele controle en permissiekeuzes.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>CLI-codeeragenten vergeleken: Claude Code, Codex, Gemini, OpenCode, Copilot en Aider</title><link>https://nl.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ontwikkelaarstools"
+, "Kunstmatige intelligentie"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk zes codeeragenten voor de terminal op workflow, automatisering, modeltoegang, rechten en revisiewerk. Stel een shortlist samen met een herhaalbare repository-test.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI versus Desktop: workflowvergelijking 2026</title><link>https://nl.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer-tools"
+, "Kunstmatige intelligentie"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Kies tussen Codex in de terminal en de desktopwerkplek voor programmeren van OpenAI. Vergelijk scripts, worktrees, visuele review, planning en uitvoeringsomgevingen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI versus VS Code: workflowvergelijking voor 2026</title><link>https://nl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ontwikkelaarstools"
+, "Kunstmatige intelligentie"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk de Copilot-terminalagent met de ervaring in VS Code, inclusief editorcontext, visuele verschillen, Agent-modus, CLI-integratie en accountbeleid.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUI-codeeragents vergeleken: Cursor, Windsurf, Cline, Copilot en Continue</title><link>https://nl.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer-tools"
+, "Kunstmatige intelligentie"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk grafische codeeragents, scheid volledige editors van extensies en bekijk de sluiting van Roo Code, modeltoegang, goedkeuringen en reviewwerkwijzen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>Lokale AI versus ChatGPT: hoe dichtbij zijn we echt?</title><link>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Kunstmatige intelligentie"
+, "AI-hardware"
+, "Ontwikkelaarstools"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk lokale AI met ChatGPT en Claude aan de hand van benchmarkscores, geheugenschattingen, servicesnelheid en agentverificatie. Met scenario's voor RTX 5090, DGX Spark en Mac Studio.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Lokale AI-programmering op een 16GB-GPU: Strata, OpenCode en Qwen3.8</title><link>https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "Ontwikkelaarstools"
+, "Zelfgehoste AI"
+, "AI-hardware"</category><guid>https://nl.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Draai een lokale codeeragent met Strata en OpenCode. Bekijk gemelde RTX 4060 Ti-resultaten, RAM-vereisten, prompthergebruik, redeneerbudgetten en de grenzen van het vervangen van een betaald abonnement.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>OpenCode CLI versus Desktop: workflowvergelijking voor 2026</title><link>https://nl.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer-tools"
+, "Kunstmatige intelligentie"
+, "Softwareontwikkeling"</category><guid>https://nl.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk de terminal- en desktopclients van OpenCode via hun serverarchitectuur, providerconfiguratie, scripting, sessiestatus en probleemoplossing.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode versus Claude Code: vergelijking van codeeragents in 2026</title><link>https://nl.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ontwikkelaarstools"
+, "Kunstmatige intelligentie"
+, "Open source"</category><guid>https://nl.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergelijk OpenCode en Claude Code voor modelkeuze, lokale inferentie, prijzen, machtigingen, projectinstructies en dagelijkse codeerworkflows.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Welk lokaal AI-model moet je draaien? Een GPU-, context- en programmeergids voor oktober 2026</title><link>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "Zelfgehoste AI"
+, "GPU-benchmarking"
+, "Ontwikkelaarstools"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een praktische gids voor oktober 2026 voor het kiezen van lokale AI-modellen voor programmeeragents. Vergelijk GPU-geheugen, groei van de KV-cache, contextgrootte, quantisatiekwaliteit, promptverwerking, redeneerniveaus en cloudhuurkosten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Provider-routing in OpenRouter: modelkwaliteit, tokenlimieten en werkelijke kosten</title><link>https://nl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Infrastructuur"
+, "Open Source"</category><guid>https://nl.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnosticeer inconsistente antwoorden van OpenRouter, vergelijk endpointlimieten en cachekosten en stel provider-routing in zonder kwaliteitscontroles per ongeluk uit te schakelen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>32 GB VRAM voor Qwen 27B: hardwaregids voor lokale AI in oktober 2026</title><link>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "GPU-benchmarking"
+, "Zelf gehoste AI"
+, "Computerhardware"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktische gids voor oktober 2026 om een Qwen 27B-model te draaien met 32 GB bruikbaar acceleratorgeheugen. Vergelijk losse GPU's, systemen met twee kaarten, unified memory, gebruikte datacenterkaarten, gehuurde rekenkracht, softwareondersteuning en limieten bij volledige context.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>De DGX Spark van 64 GB is een waarschuwingssignaal voor prijzen van lokale AI-hardware</title><link>https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "AI-hardware"
+, "Halfgeleiders"
+, "Computerhardware"
+, "AI-economie"
+, "Zelfgehoste AI"</category><guid>https://nl.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+De 64GB-laag van NVIDIA's DGX Spark laat zien hoe druk op het geheugenaanbod lokale AI-hardware vormt. Deze gids bespreekt de capaciteitsverlaging, de afwegingen van gedeeld geheugen en waarom verlichting op de DRAM-markt voor eind 2027 onwaarschijnlijk is.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Contactloos betalen op een creditcard uitschakelen</title><link>https://nl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Betaalbeveiliging"
+, "Digitale privacy"
+, "NFC"
+, "Persoonlijke beveiliging"
+, "Consumententechnologie"</category><guid>https://nl.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Praktische handleiding om contactloos betalen op een reservecreditcard uit te schakelen terwijl betalingen met chip en magneetstrip beschikbaar blijven, met veiligheidsgrenzen en betere alternatieven.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp"/></item><item><title>GPU-benchmarks van Llama 3.1 8B en Qwen3.8 27B op Vast.ai</title><link>https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale AI"
+, "GPU-benchmarking"
+, "Self-hosted AI"
+, "Cloud computing"
+, "Kunstmatige intelligentie"
+, "AI-economie"</category><guid>https://nl.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Gemeten Ollama-benchmarks van Llama 3.1 8B en Qwen3.8 27B op belangrijke Vast.ai-GPU's. Vergelijk decodeersnelheid, lange context, huurkosten, self-hosting, API-tegoed en abonnementen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>AI-bronophaling: kaarten, zoeken en optionele RAG</title><link>https://nl.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Teamwork"
+, "Software-engineering"</category><guid>https://nl.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Gebruik eerst een bronkaart, native zoeken, verificatie van live bronnen en optionele RAG-evaluatie zonder de autoriteit te wijzigen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AI-samenwerking met GitHub: grenzen voor repository en review</title><link>https://nl.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Kunstmatige intelligentie"
+, "Teamsamenwerking"
+, "Software-engineering"</category><guid>https://nl.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bouw een GitHub-gerichte bronnenkaart, wijs bestandseigenaars toe en stel een beschermde publicatiegrens in voor gereviewde AI-bijdragen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item></channel></rss>
