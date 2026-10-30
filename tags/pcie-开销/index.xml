@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PCIe 开销 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>PCIe 开销 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/pcie-%E5%BC%80%E9%94%80/</link></image><link>https://zh.simeononsecurity.com/tags/pcie-%E5%BC%80%E9%94%80/</link><description>Recent content in PCIe 开销 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/pcie-%E5%BC%80%E9%94%80/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti 对比 GB10：为什么 32 GB 显存不敌 128 GB 统一内存</title><link>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "GPU 硬件"
+, "基准测试"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+基于基准测试，对比两张 16 GB RTX 5060 Ti 显卡与 NVIDIA GB10 系统运行 Qwen 3 27B 和长上下文本地推理的表现。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item></channel></rss>

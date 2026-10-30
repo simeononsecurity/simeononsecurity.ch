@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>基础设施 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>基础设施 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/</link><description>Recent content in 基础设施 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC：入门指南</title><link>https://zh.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "配置管理"
+, "自动化"
+, "Windows"
+, "系统管理"
+, "最佳实践"
+, "合规性"
+, "安全"
+, "基础设施"
+, "DevOps"
+, "服务器配置"
+, "测试"
+, "Git"
+, "源代码管理"
+, "政府法规"
+, "NIST"
+, "CIS"
+, "配置漂移"
+, "自定义资源"</category><guid>https://zh.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索 PowerShell 期望状态配置（DSC）的强大功能，实现系统配置的自动化和管理，打造安全合规的环境。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp"/></item></channel></rss>
