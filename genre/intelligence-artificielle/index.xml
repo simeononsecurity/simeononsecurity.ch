@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intelligence Artificielle on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Intelligence Artificielle on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/intelligence-artificielle/</link></image><link>https://fr.simeononsecurity.com/genre/intelligence-artificielle/</link><description>Recent content in Intelligence Artificielle on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/intelligence-artificielle/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti contre GB10 : pourquoi 32 Go de VRAM perdent face à 128 Go de mémoire unifiée</title><link>https://fr.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "IA locale"
+, "Matériel GPU"
+, "Benchmarking"
+, "Matériel informatique"</category><guid>https://fr.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison fondée sur des benchmarks entre deux cartes RTX 5060 Ti de 16 Go et un système NVIDIA GB10 pour Qwen 3 27B et l'inférence locale à long contexte.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>L'essor de l'infrastructure de l'IA en 2026 : demande, dette, énergie et preuves</title><link>https://fr.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Économie de l'IA"
+, "Centres de données"
+, "Infrastructure cloud"
+, "Cybersécurité"</category><guid>https://fr.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Une analyse vérifiée des dépenses d'infrastructure de l'IA, de la demande électrique des centres de données, des structures de financement, de la valeur des entreprises et des preuves nécessaires avant de parler de bulle.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>10 plugins, compétences et outils MCP pour Claude Code : guide pratique</title><link>https://fr.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Outils pour développeurs"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choisissez des extensions Claude Code pour la planification, la revue de code, la gestion des connaissances, le design et l'automatisation. Comparez dix outils, leurs dépendances et des contrôles pratiques.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>9 projets de compétences d'agents IA pour la recherche, le design et le développement</title><link>https://fr.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Outils pour développeurs"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez neuf projets de compétences d'agents selon leur flux de travail, leur prise en charge des hôtes, leurs dépendances et leur coût. Apprenez à installer, inspecter et tester les compétences dont vous avez besoin.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>Agents de codage GUI comparés : Cursor, Windsurf, Cline, Copilot et Continue</title><link>https://fr.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez les agents de codage graphiques, séparez les éditeurs complets des extensions et examinez l'arrêt de Roo Code, l'accès aux modèles, les approbations et les flux de revue.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>Claude Code CLI contre Desktop : comparaison du flux de travail 2026</title><link>https://fr.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Claude Code dans le terminal et dans l'espace de travail Code sur ordinateur, avec les réglages partagés, le transfert de session, les scripts, la revue visuelle et les choix de permissions.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Codex CLI contre Desktop : comparaison des flux de travail en 2026</title><link>https://fr.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choisissez entre Codex dans le terminal et l'espace de travail de programmation de bureau d'OpenAI. Comparez les scripts, les worktrees, la revue visuelle, les planifications et les environnements d'exécution.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>Comparatif des agents de codage CLI : Claude Code, Codex, Gemini, OpenCode, Copilot et Aider</title><link>https://fr.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez six agents de codage dans le terminal selon le flux de travail, l'automatisation, l'accès aux modèles, les permissions et l'effort de revue. Constituez une sélection avec un essai reproductible dans le dépôt.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>GitHub Copilot CLI contre VS Code : comparaison des flux de travail en 2026</title><link>https://fr.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez l’agent de terminal Copilot avec son expérience dans VS Code, notamment le contexte de l’éditeur, les différences visuelles, le mode Agent, l’intégration CLI et les règles du compte.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>IA locale contre ChatGPT : où en sommes-nous vraiment ?</title><link>https://fr.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Intelligence artificielle"
+, "Matériel IA"
+, "Outils pour développeurs"</category><guid>https://fr.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez l'IA locale à ChatGPT et Claude avec des scores de référence, des estimations de mémoire, la vitesse de service et la vérification des agents. Inclut des scénarios RTX 5090, DGX Spark et Mac Studio.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Meilleurs harnesses d'agents IA en 2026 : choisir selon le flux de travail</title><link>https://fr.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Développement logiciel"
+, "Sécurité de l'IA"</category><guid>https://fr.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi et LangGraph selon l'exécution des outils, la mémoire, la reprise et l'effort d'intégration.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/ai-agent-execution-components.webp" length="228402" type="image/webp"/></item><item><title>OpenCode CLI contre Desktop : comparaison des flux de travail en 2026</title><link>https://fr.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez les clients terminal et bureau d'OpenCode à travers leur architecture serveur, la configuration du fournisseur, les scripts, l'état de session et le dépannage.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode contre Claude Code : comparaison des agents de codage en 2026</title><link>https://fr.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Open source"</category><guid>https://fr.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez OpenCode et Claude Code pour le choix des modèles, l'inférence locale, les prix, les permissions, les instructions de projet et les flux de travail de développement quotidiens.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Routage des fournisseurs OpenRouter : qualité des modèles, limites de tokens et coûts réels</title><link>https://fr.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Infrastructure"
+, "Open Source"</category><guid>https://fr.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnostiquez les réponses incohérentes d'OpenRouter, comparez les limites des endpoints et les coûts du cache, puis configurez le routage des fournisseurs sans désactiver les contrôles de qualité par accident.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>Benchmarks GPU de Llama 3.1 8B et Qwen3.8 27B sur Vast.ai</title><link>https://fr.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Benchmarks GPU"
+, "IA auto-hébergée"
+, "Cloud computing"
+, "Intelligence artificielle"
+, "Économie de l'IA"</category><guid>https://fr.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Benchmarks Ollama mesurés de Llama 3.1 8B et Qwen3.8 27B sur les principaux GPU Vast.ai. Comparez la vitesse de décodage, le long contexte, le coût de location, l'auto-hébergement, les crédits API et les abonnements.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Collaboration IA avec GitHub : limites du dépôt et des revues</title><link>https://fr.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Collaboration d'équipe"
+, "Génie logiciel"</category><guid>https://fr.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construisez une carte des sources centrée sur GitHub, attribuez la responsabilité des fichiers et définissez une limite de publication protégée pour les contributions IA révisées.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Flux d'agents IA GitHub : AGENTS.md, manifestes et Actions</title><link>https://fr.simeononsecurity.com/articles/ai-collaboration-github-agents-actions/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Collaboration d'équipe"
+, "Ingénierie logicielle"</category><guid>https://fr.simeononsecurity.com/articles/ai-collaboration-github-agents-actions/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Capturez les manifestes de contexte, chargez les politiques des agents et validez les propositions de conservation avec des contrôles GitHub Actions fondés sur une base fiable.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Pilote de gouvernance des agents IA : charte, autorité et tests</title><link>https://fr.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Collaboration d’équipe"
+, "Génie logiciel"</category><guid>https://fr.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Définissez les rôles du pilote, les sources faisant autorité, les modèles de politique et les tests d'acceptation avant de connecter des outils IA.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Projet final de collaboration IA : GitHub, Confluence et Jira</title><link>https://fr.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Collaboration d'équipe"
+, "Génie logiciel"</category><guid>https://fr.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Livrez une modification synthétique de rétention avec des workflows GitHub-first et Confluence/Jira, des preuves d'échec et une revue indépendante.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Récupération des sources d'IA : cartes, recherche et RAG facultatif</title><link>https://fr.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Collaboration d'équipe"
+, "Génie logiciel"</category><guid>https://fr.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Utilisez d'abord une carte des sources, la recherche native, la vérification des sources en direct et l'évaluation facultative du RAG sans modifier l'autorité.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Une source, de nombreux outils : construire un cadre de collaboration IA pour des équipes mixtes</title><link>https://fr.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Gestion des connaissances"
+, "Génie logiciel"
+, "Collaboration d'équipe"</category><guid>https://fr.simeononsecurity.com/articles/one-source-many-tools-ai-collaboration-framework/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Construisez un cadre de collaboration IA partagé pour les développeurs et les non-développeurs. Définissez les sources de vérité, suivez les versions du contexte, examinez les changements durables et choisissez une carte de projet, du RAG ou les deux.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>Workflow GitHub avec IA pour les non-développeurs : issues et pull requests</title><link>https://fr.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Collaboration d'équipe"
+, "Génie logiciel"</category><guid>https://fr.simeononsecurity.com/articles/ai-collaboration-github-browser-workflow/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Utilisez les modifications dans le navigateur, les issues, les paquets de contexte de chat et les pull requests révisées sans environnement de développement local.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>ATS Resume Improver : optimiseur de CV IA gratuit, auto-hébergeable, sans envoi de données</title><link>https://fr.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Outils de carrière"
+, "Projets open source"
+, "Intelligence artificielle"
+, "Technologie de confidentialité"
+, "Outils développeurs"
+, "Recherche d'emploi"
+, "Productivité"</category><guid>https://fr.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improver est un optimiseur de CV open source côté client supportant OpenAI, Anthropic Claude et les modèles Ollama locaux. Analysez, notez, comparez les mots-clés, optimisez et exportez votre CV sans que vos données ne quittent le navigateur.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>L'essor de l'automatisation : Transformer les industries et les opportunités d'emploi</title><link>https://fr.simeononsecurity.com/articles/the-rise-of-automation/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technologie de l'automatisation"
+, "Révolution industrielle"
+, "Progrès technologiques"
+, "Intelligence artificielle"
+, "Apprentissage automatique"
+, "Fabrication"
+, "Soins de santé"
+, "Transport"
+, "Vente au détail"
+, "Agriculture"</category><guid>https://fr.simeononsecurity.com/articles/the-rise-of-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez l'évolution de la technologie de l'automatisation, les industries qui l'adoptent et son impact sur les possibilités d'emploi.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp" length="380214" type="image/webp"/></item></channel></rss>
