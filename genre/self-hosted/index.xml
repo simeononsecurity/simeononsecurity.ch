@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Self-Hosted on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Self-Hosted on simeononsecurity</title><link>https://simeononsecurity.com/genre/self-hosted/</link></image><link>https://simeononsecurity.com/genre/self-hosted/</link><description>Recent content in Self-Hosted on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/self-hosted/index.xml" rel="self" type="application/rss+xml"/><item><title>Hermes Agent and Local AI Course: Build a Brokerized Agentic Workflow</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course-start/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI"
+, "Local AI"
+, "Self-Hosted"
+, "Zero Trust"
+, "Automation"
+, "Hermes Agent"
+, "API Gateway"
+, "Network Security"
+, "LLM Infrastructure"
+, "Agentic Workflows"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Wire Hermes Agent and other agents to models you control through one private endpoint, route each request to the right local or cloud model, and keep keys and budgets under your own policy.</description><enclosure url="https://simeononsecurity.com/img/cover/hermes-agent-local-ai-brokerized-workflow-2026.webp" length="141508" type="image/webp"/></item><item><title>Lesson 1: Hermes Agent for Security and Automation: Profiles, Skills, and Bots Explained</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/01-hermes-agent-overview/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Automation"
+, "Self-Hosted"
+, "AI Security"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/01-hermes-agent-overview/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand Hermes Agent and its parts — profiles, skills, memory, bots, the gateway, and the kanban board — and learn when the persistent model beats a per-project CLI coding agent.</description><enclosure url="https://simeononsecurity.com/img/cover/hermes-agent-overview-security-automation.webp" length="151304" type="image/webp"/></item><item><title>Lesson 3: The OpenAI-Compatible AI Broker: One Endpoint for Every Local Model</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/03-openai-compatible-broker/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI"
+, "Local AI"
+, "Self-Hosted"
+, "API Gateway"
+, "LLM Infrastructure"
+, "Open Source"
+, "MLOps"
+, "Inference"
+, "Reverse Proxy"
+, "Agentic Workflows"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/03-openai-compatible-broker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Put one OpenAI-compatible broker in front of Ollama, vLLM, llama.cpp, and Strata. Learn lazy loading, idle unload, pools, failover, retries, and non-loading health checks.</description><enclosure url="https://simeononsecurity.com/img/cover/openai-compatible-ai-broker-one-endpoint-2026.webp" length="141640" type="image/webp"/></item><item><title>Lesson 5: Tailscale Aperture: The Private Gateway to Your Local AI</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI"
+, "Network Security"
+, "Self-Hosted"
+, "Zero Trust"
+, "Local AI"
+, "Tailscale"
+, "API Gateway"
+, "Remote Access"
+, "Identity"
+, "Private Networking"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/05-tailscale-aperture-private-edge/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reach your local AI broker and cloud models from every device with zero public ports, tailnet identity, deny-by-default grants, and one URL using Tailscale Aperture.</description><enclosure url="https://simeononsecurity.com/img/cover/tailscale-aperture-local-ai-gateway-2026.webp" length="208942" type="image/webp"/></item><item><title>Lesson 8: Secure Your AI Broker: Virtual Keys, Budgets, and Allowed Models</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/08-broker-governance/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/08-broker-governance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Give each AI agent its own broker key with rate limits, token and cost budgets, and a fail-closed model allow-list, so one runaway caller stops at its own ceiling.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-ai-broker-governance-2026.webp" length="126912" type="image/webp"/></item><item><title>Local AI Secure Server Capstone Answer Key</title><link>https://simeononsecurity.com/local-ai-secure-server-course/09-capstone-answer-key/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Self-Hosted"
+, "Capstone"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/09-capstone-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare a completed Local AI Secure Server capstone package with the beginner and advanced reference decisions.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-capstone-answer-key.webp" length="113178" type="image/webp"/></item><item><title>Local AI Secure Server Knowledge Check Answer Key</title><link>https://simeononsecurity.com/local-ai-secure-server-course/08-knowledge-check-answer-key/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Self-Hosted"
+, "Assessment"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/08-knowledge-check-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Score the Local AI Secure Server knowledge check, repair missed concepts, and verify the security gate before the capstone.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-knowledge-check-answer-key.webp" length="140782" type="image/webp"/></item><item><title>Capstone: Plan and Validate a Secure Local AI Server</title><link>https://simeononsecurity.com/local-ai-secure-server-course/07-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Self-Hosted"
+, "Capstone"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/07-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Produce a deployment package for a measured, access-controlled, monitored, and recoverable local AI server.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-secure-server-capstone.webp" length="161044" type="image/webp"/></item><item><title>Lesson 1: Choose Hardware and a Local AI Model</title><link>https://simeononsecurity.com/local-ai-secure-server-course/01-hardware-model-fit/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Hardware"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/01-hardware-model-fit/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Match a local model, quantization, context target, license, and runtime to your hardware.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-hardware-model-fit.webp" length="180526" type="image/webp"/></item><item><title>Lesson 2: Run Your First Local Model</title><link>https://simeononsecurity.com/local-ai-secure-server-course/02-first-local-model/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Self-Hosted"
+, "Tutorial"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/02-first-local-model/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Install a local runtime, pull a selected model, run a prompt, and verify the loopback API.</description><enclosure url="https://simeononsecurity.com/img/cover/run-first-local-ai-model.webp" length="88392" type="image/webp"/></item><item><title>Lesson 3: Measure and Tune Local AI Inference</title><link>https://simeononsecurity.com/local-ai-secure-server-course/03-measure-tune/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Performance"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/03-measure-tune/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Measure prompt and generation speed, memory use, context cost, and concurrency with repeatable local tests.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-inference-measure-tune.webp" length="136146" type="image/webp"/></item><item><title>Lesson 4: Design a Secure Local AI Server</title><link>https://simeononsecurity.com/local-ai-secure-server-course/04-secure-server/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/04-secure-server/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Design network, identity, TLS, rate, logging, update, and recovery controls for a local AI service.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-local-ai-server-design.webp" length="125956" type="image/webp"/></item><item><title>Local AI Course: From First Model to Secure Server</title><link>https://simeononsecurity.com/local-ai-secure-server-course-start/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Self-Hosted"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Run your first local model, measure fit and speed, then expose a controlled API through a secure server design.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-first-model-secure-server.webp" length="156508" type="image/webp"/></item><item><title>Local AI Secure Server Knowledge Check</title><link>https://simeononsecurity.com/local-ai-secure-server-course/06-knowledge-check/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Self-Hosted"
+, "Assessment"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/06-knowledge-check/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Test model selection, local inference, performance measurement, server access, updates, and recovery.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-secure-server-knowledge-check.webp" length="109210" type="image/webp"/></item><item><title>Sibling Sites - SimeonOnSecurity's Standalone Cybersecurity Tools</title><link>https://simeononsecurity.com/sibling-sites/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Privacy"
+, "Open Source"
+, "Network Tools"
+, "Surveillance"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/sibling-sites/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Every SimeonOnSecurity sibling site in one place. Seven standalone tools on their own subdomains, covering WiFi data maps, ALPR surveillance mapping, ESP32 counter-surveillance firmware, and resume optimization.</description><enclosure url="https://simeononsecurity.com/img/cover/sibling-sites-simeononsecurity-cybersecurity-tools.webp" length="114820" type="image/webp"/></item><item><title>Cloudflare Tunnel vs Access: Do You Need Both?</title><link>https://simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Self-Hosted"
+, "Cloud Security"</category><guid>https://simeononsecurity.com/articles/cloudflare-tunnel-vs-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand Cloudflare Tunnel vs Access, choose protection for a home dashboard, and avoid publishing a private application without authentication.</description><enclosure url="https://simeononsecurity.com/img/cover/cloudflare-tunnel-vs-access.webp" length="81402" type="image/webp"/></item><item><title>Why Port Forwarding Doesn't Work on T-Mobile Home Internet</title><link>https://simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Self-Hosted"
+, "Network Security"</category><guid>https://simeononsecurity.com/articles/t-mobile-home-internet-port-forwarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port.</description><enclosure url="https://simeononsecurity.com/img/cover/t-mobile-home-internet-port-forwarding.webp" length="103506" type="image/webp"/></item><item><title>Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays</title><link>https://simeononsecurity.com/articles/why-tailscale-uses-a-relay/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Networking"
+, "Network Security"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/articles/why-tailscale-uses-a-relay/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting.</description><enclosure url="https://simeononsecurity.com/img/cover/why-tailscale-uses-a-relay.webp" length="103974" type="image/webp"/></item><item><title>Tailscale vs Headscale</title><link>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Network Security"
+, "Self-Hosted"
+, "WireGuard"
+, "Zero Trust"
+, "Mesh Networking"
+, "Open Source"
+, "Cloud Infrastructure"
+, "Remote Access"
+, "Network Management"</category><guid>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Tailscale and Headscale by hosting model, identity, features, cost, operations, and support to choose a WireGuard mesh VPN for your needs.</description><enclosure url="https://simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Boost Productivity with Homebox</title><link>https://simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Inventory Management"
+, "Asset Management"
+, "Open Source"
+, "Productivity"
+, "Small Business"
+, "Home Management"
+, "Self-hosted"
+, "Software"
+, "Organization"</category><guid>https://simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the power of Homebox, an open-source software for efficient inventory and asset management, enhancing productivity for your home or small business.</description><enclosure url="https://simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item></channel></rss>

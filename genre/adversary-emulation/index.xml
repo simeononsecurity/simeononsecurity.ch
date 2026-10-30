@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adversary Emulation on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Adversary Emulation on simeononsecurity</title><link>https://simeononsecurity.com/genre/adversary-emulation/</link></image><link>https://simeononsecurity.com/genre/adversary-emulation/</link><description>Recent content in Adversary Emulation on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/adversary-emulation/index.xml" rel="self" type="application/rss+xml"/><item><title>Red Team Course</title><link>https://simeononsecurity.com/red-team-course-start/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Adversary Emulation"
+, "Penetration Testing"
+, "Active Directory"</category><guid>https://simeononsecurity.com/red-team-course-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A structured red-team course that moves from objective and evidence design through reconnaissance, access, identity, persistence, movement, and reporting.</description><enclosure url="https://simeononsecurity.com/img/cover/red-team-cybersecurity-methodology-illustration.webp" length="232574" type="image/webp"/></item></channel></rss>

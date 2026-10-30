@@ -1,0 +1,4940 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>en</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>Module 1: Red Team Methodology</title><link>https://simeononsecurity.com/red-team-course/red-team-methodology/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/red-team-methodology/</guid><description>The seven-phase red team methodology: preparation, intelligence, reconnaissance, access, post exploitation, cleanup and backout, and reporting, with the judgment behind each.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/red-team-methodology-six-phases-visualization.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/red-team-methodology/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Red team methodology</strong> connects an agreed business question to a controlled test and evidence the customer is able to use. This course uses seven phases to organize the work, with feedback between phases as observations change the plan. Your outcome is an evidence-backed conclusion, an explained limit, and a verified restoration record.</p>
+<p><em>Allow 25 minutes for reading and 30 minutes for the tabletop exercise. No attack tooling is required for this module.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Recall the phases:</strong> place a technique within a larger operation.</li>
+<li><strong>Explain the objective:</strong> distinguish access, business impact, and assessment evidence.</li>
+<li><strong>Apply a planning method:</strong> connect an approved action to a specific observation.</li>
+<li><strong>Evaluate a result:</strong> distinguish prevention, missing telemetry, and insufficient evidence.</li>
+<li><strong>Create a test plan:</strong> define entry conditions, stopping points, cleanup, and acceptance criteria.</li>
+</ul>
+<h2 id="the-seven-phases">
+  <a href="#the-seven-phases" title="The Seven Phases">The Seven Phases</a>
+  <a href="#the-seven-phases" class="h-anchor" aria-hidden="true" title="The Seven Phases">#</a>
+</h2>
+<p><strong>The seven-phase model</strong> is this course&rsquo;s organizing convention. It is not the MITRE ATT&amp;CK matrix, an official maturity score, or a guarantee of one correct sequence. An operation often returns to reconnaissance after a new observation, and some tests finish without persistence or a domain-controller objective.</p>
+<table>
+	<thead>
+
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/red-team-methodology/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1201): Mobile Devices</title><link>https://simeononsecurity.com/a-plus/mobile-devices-laptops-smartphones-tablets/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/mobile-devices-laptops-smartphones-tablets/</guid><description>Master mobile devices for the CompTIA A+ 220-1201 Core 1 exam. Learn laptop hardware, accessories and connectivity, network connectivity, MDM, and mobile synchronization.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-mobile-devices-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/mobile-devices-laptops-smartphones-tablets/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Mobile Devices</strong> is <strong>13%</strong> of the <strong>CompTIA A+ 220-1201 Core 1</strong> exam. This module covers laptop hardware repair, accessories, connectivity, mobile device management, and synchronization. <em>Mobile support is daily work at any help desk, so know the parts and the settings cold.</em></p>
+<p>Laptops, smartphones, and tablets pack desktop power into sealed, compact bodies. You repair them with the right replacement parts, connect them with the right cables and radios, and manage them with policy. This module builds the hands-on knowledge you need to support users on the move.</p>
+<h2 id="laptop-hardware-and-components">
+  <a href="#laptop-hardware-and-components" title="Laptop Hardware and Components">Laptop Hardware and Components</a>
+  <a href="#laptop-hardware-and-components" class="h-anchor" aria-hidden="true" title="Laptop Hardware and Components">#</a>
+</h2>
+<p>You replace failed parts inside laptops. Unlike desktops, laptop parts are small, often glued, and model-specific.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Component</th>
+					<th>Replacement notes</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Battery</strong></td>
+					<td>Lithium-ion, often glued in. A <em>swollen battery</em> is a fire risk and a mandatory replacement</td>
+			</tr>
+			<tr>
+					<td><strong>Keyboard</strong></td>
+					<td>Often riveted to the chassis on thin models</td>
+			</tr>
+			<tr>
+					<td><strong>RAM</strong></td>
+					<td>Uses <strong>SODIMM</strong> modules, smaller than desktop DIMMs</td>
+			</tr>
+			<tr>
+					<td><strong>Storage</strong></td>
+					<td>M.2 NVMe, 2.5-inch SATA, or soldered storage</td>
+			</tr>
+			<tr>
+					<td><strong>Wireless card</strong></td>
+					<td>Mini-PCIe or M.2 with antenna leads</td>
+			</tr>
+	</tbody>
+</tabl
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/mobile-devices-laptops-smartphones-tablets/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 2: Mission Preparation and Infrastructure</title><link>https://simeononsecurity.com/red-team-course/mission-preparation-and-infrastructure/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/mission-preparation-and-infrastructure/</guid><description>Everything required before an attack: scope and rules of engagement, deconfliction, hardening the attack platform, standing up redirectors, and validating the infrastructure before go.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/red-team-mission-preparation-infrastructure.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/mission-preparation-and-infrastructure/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Mission preparation</strong> makes an assessment reproducible and controllable before the first test action. Scope, contacts, infrastructure ownership, evidence storage, and teardown belong in the same plan. This module turns the methodology test card into an operational readiness record.</p>
+<p><em>Allow 25 minutes for reading and 30 minutes for a preparation review. Complete Module 1 and use your own isolated lab for technical checks.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Define scope:</strong> name approved assets, accounts, actions, and time windows.</li>
+<li><strong>Explain dependencies:</strong> separate the management path, assessment traffic, and evidence storage.</li>
+<li><strong>Inspect readiness:</strong> verify the paths the test depends on without assuming a webpage proves everything works.</li>
+<li><strong>Resolve uncertainty:</strong> pause for a recorded decision when a dependency or target is ambiguous.</li>
+<li><strong>Create an asset register:</strong> account for ownership, expiration, collection, and removal.</li>
+</ul>
+<h2 id="scope-is-more-than-addresses">
+  <a href="#scope-is-more-than-addresses" title="Scope Is More Than Addresses">Scope Is More Than Addresses</a>
+  <a href="#scope-is-more-than-addresses" class="h-anchor" aria-hidden="true" title="Scope Is More Than Addresses">#</a>
+</h2>
+<p><strong>An address list</strong> is only one part of scope. An approved IP might host several tenants, a public hostname might point to a shared provider, and a login might expose both permitted and excluded resources. Record the relevant identities and actions as well as network
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/mission-preparation-and-infrastructure/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1201): Networking Fundamentals</title><link>https://simeononsecurity.com/a-plus/networking-fundamentals-tcp-ip-wireless-protocols/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/networking-fundamentals-tcp-ip-wireless-protocols/</guid><description>Master networking for the CompTIA A+ 220-1201 Core 1 exam. Learn TCP and UDP ports, wireless technologies, networked host services, network hardware, SOHO configuration, and tools.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-networking-fundamentals-devices-setup.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/networking-fundamentals-tcp-ip-wireless-protocols/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Networking</strong> is <strong>23%</strong> of the <strong>CompTIA A+ 220-1201 Core 1</strong> exam, the second-largest domain. This module covers ports and protocols, wireless standards, host services, network hardware, SOHO setup, and tools. <em>Memorize the common ports because the exam tests them directly.</em></p>
+<p>Every support call eventually touches the network. You diagnose connectivity by knowing which protocol runs on which port, how wireless bands differ, and what each device on the wire does. This module gives you that foundation.</p>
+<h2 id="common-ports-and-protocols">
+  <a href="#common-ports-and-protocols" title="Common Ports and Protocols">Common Ports and Protocols</a>
+  <a href="#common-ports-and-protocols" class="h-anchor" aria-hidden="true" title="Common Ports and Protocols">#</a>
+</h2>
+<p>You must know these ports by number. <strong>TCP</strong> is connection-oriented and reliable, while <strong>UDP</strong> is connectionless and fast.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Port</th>
+					<th>Protocol</th>
+					<th>Purpose</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>20/21</td>
+					<td><strong>FTP</strong></td>
+					<td>File transfer</td>
+			</tr>
+			<tr>
+					<td>22</td>
+					<td><strong>SSH/SFTP</strong></td>
+					<td>Secure remote shell</td>
+			</tr>
+			<tr>
+					<td>23</td>
+					<td><strong>Telnet</strong></td>
+					<td>Insecure remote shell</td>
+			</tr>
+			<tr>
+					<td>25</td>
+					<td><strong>SMTP</strong></td>
+					<td>Sending email</td>
+			</tr>
+			<tr>
+					<td>53</td>
+					<td><strong>DNS</strong></td>
+					<td>Name resolution</td>
+			</tr>
+			<tr>
+					<td>67/68</td>
+					<td><strong>DHCP</strong></td>
+					<td>IP address assignment</td>
+			</tr>
+			<tr>
+					<td>80</td>
+					<td><strong>HTTP</strong></td>
+					<td>Web traffi
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/networking-fundamentals-tcp-ip-wireless-protocols/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 3: Networking and Active Directory Foundations</title><link>https://simeononsecurity.com/red-team-course/foundations-networking-and-active-directory/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/foundations-networking-and-active-directory/</guid><description>The networking and Active Directory concepts every red team technique builds on: HTTP and HTTPS, TCP and UDP, the domain controller, users, groups, and group nesting.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/networking-active-directory-foundations-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/foundations-networking-and-active-directory/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Network reachability, authentication, and authorization</strong> answer different questions. A reachable server does not prove an account is valid, and a successful login does not grant every permission. This module connects web transports, directory services, DNS, and group membership so you diagnose the right layer before choosing a tool.</p>
+<p><em>Allow 25 minutes for reading and 20 minutes for a small domain-lab exercise. You need basic IP addressing and access to your own Windows lab.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Distinguish layers:</strong> separate an application protocol from its transport and encryption.</li>
+<li><strong>Explain the domain:</strong> identify the roles of DNS, a domain controller, and a resource server.</li>
+<li><strong>Trace permissions:</strong> follow a group-membership path to an explicit resource permission.</li>
+<li><strong>Interpret failure:</strong> distinguish name resolution, connection, authentication, and access denial.</li>
+<li><strong>Create an evidence map:</strong> connect observations without assuming a complete attack path.</li>
+</ul>
+<h2 id="protocols-have-different-jobs">
+  <a href="#protocols-have-different-jobs" title="Protocols Have Different Jobs">Protocols Have Different Jobs</a>
+  <a href="#protocols-have-different-jobs" class="h-anchor" aria-hidden="true" title="Protocols Have Different Jobs">#</a>
+</h2>
+<p><strong>TCP</strong> provides an ordered byte stream with mechanisms for acknowledging and retransmitting data. <strong>UDP</strong> sends datagrams without TCP&rsquo;s connection and delivery mechanisms. An application using U
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/foundations-networking-and-active-directory/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1201): Hardware Components</title><link>https://simeononsecurity.com/a-plus/hardware-components-cpu-ram-storage-motherboards/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/hardware-components-cpu-ram-storage-motherboards/</guid><description>Master hardware for the CompTIA A+ 220-1201 Core 1 exam. Learn cables and connectors, RAM, storage devices, motherboards and CPUs, power supplies, and printers.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-hardware-components-overview.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/hardware-components-cpu-ram-storage-motherboards/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Hardware</strong> is <strong>25%</strong> of the <strong>CompTIA A+ 220-1201 Core 1</strong> exam, the largest Core 1 domain. This module covers cables, RAM, storage, motherboards, CPUs, power supplies, and printers. <em>This domain is the hands-on heart of A+, so learn the parts by sight and by spec.</em></p>
+<p>Hardware is the physical foundation of every system you support. You pick the right RAM, install the correct drive, seat a CPU without bending pins, and size a power supply that will not fail under load. This module covers the components you touch every day.</p>
+<h2 id="cables-and-connectors">
+  <a href="#cables-and-connectors" title="Cables and Connectors">Cables and Connectors</a>
+  <a href="#cables-and-connectors" class="h-anchor" aria-hidden="true" title="Cables and Connectors">#</a>
+</h2>
+<p>You match each cable to its job.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Cable</th>
+					<th>Use</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Cat 5e/6/6a</strong></td>
+					<td>Copper Ethernet, RJ45 connector</td>
+			</tr>
+			<tr>
+					<td><strong>Fiber (single-mode)</strong></td>
+					<td>Long distance, SC/LC connectors</td>
+			</tr>
+			<tr>
+					<td><strong>Fiber (multimode)</strong></td>
+					<td>Short distance, higher bandwidth</td>
+			</tr>
+			<tr>
+					<td><strong>USB-C</strong></td>
+					<td>Reversible data, power, and video</td>
+			</tr>
+			<tr>
+					<td><strong>SATA</strong></td>
+					<td>Internal drive data</td>
+			</tr>
+			<tr>
+					<td><strong>HDMI/DisplayPort</strong></td>
+					<td>Digital video and audio</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Single-mode fiber</strong> carries one light path over long distances. <strong>Multimode fiber</strong> carries many paths over short runs inside a building.</p>
+<h2 id="ram-characteristics">
+  <a h
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/hardware-components-cpu-ram-storage-motherboards/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 4: Windows Internals and Authentication</title><link>https://simeononsecurity.com/red-team-course/foundations-windows-internals-and-authentication/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/foundations-windows-internals-and-authentication/</guid><description>How Windows stores configuration and credentials: the registry and hives, registry paths, NTLM hashes, and the difference between domain and local authentication.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/windows-internals-authentication-registry-structure.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/foundations-windows-internals-and-authentication/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Windows security context</strong> determines which account a process represents, which objects it is permitted to access, and which user profile it reads. This module connects registry paths, security identifiers, access tokens, and authentication. You will inspect a disposable Windows VM and produce an identity record before changing anything.</p>
+<p><em>Allow 25 minutes for reading and 20 minutes for the optional lab. Complete the networking and Active Directory module first.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Identify registry context:</strong> distinguish predefined keys from the loaded hives behind them.</li>
+<li><strong>Read a token:</strong> separate account identity, group membership, and enabled privileges.</li>
+<li><strong>Explain authentication artifacts:</strong> distinguish an NT password hash from a network challenge response and a Kerberos ticket.</li>
+<li><strong>Check an observation:</strong> use account authority, SID, process context, and timestamps together.</li>
+<li><strong>Create a context record:</strong> document the identity and registry view behind each lab observation.</li>
+</ul>
+<h2 id="the-registry-model">
+  <a href="#the-registry-model" title="The Registry Model">The Registry Model</a>
+  <a href="#the-registry-model" class="h-anchor" aria-hidden="true" title="The Registry Model">#</a>
+</h2>
+<p>The <strong>registry</strong> organizes operating-system and application configuration into keys and named values. A key contains subkeys and values, while each value has a name, a type, and data. A path identifies a location, but the process context and registry view d
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/foundations-windows-internals-and-authentication/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1201): Virtualization and Cloud Computing</title><link>https://simeononsecurity.com/a-plus/virtualization-cloud-computing-concepts/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/virtualization-cloud-computing-concepts/</guid><description>Master virtualization and cloud computing for the CompTIA A+ 220-1201 Core 1 exam. Learn virtual machines, hypervisors, VDI, containers, cloud models, and cloud characteristics.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-virtualization-cloud-computing.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/virtualization-cloud-computing-concepts/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Virtualization and Cloud Computing</strong> is <strong>11%</strong> of the <strong>CompTIA A+ 220-1201 Core 1</strong> exam. This module covers virtual machines, hypervisor types, VDI, containers, cloud models, and cloud characteristics. <em>This is the smallest Core 1 domain, but the concepts appear across modern IT support.</em></p>
+<p>Virtualization runs many systems on one machine. Cloud computing rents that capacity from a provider so you pay only for what you use. Together they power most of the infrastructure you support today. This module gives you the vocabulary and the models.</p>
+<h2 id="virtualization-concepts">
+  <a href="#virtualization-concepts" title="Virtualization Concepts">Virtualization Concepts</a>
+  <a href="#virtualization-concepts" class="h-anchor" aria-hidden="true" title="Virtualization Concepts">#</a>
+</h2>
+<p>You run software-defined computers on physical hardware.</p>
+<ul>
+<li>A <strong>virtual machine (VM)</strong> emulates a full computer with its own OS, isolated from the host.</li>
+<li>A <strong>sandbox</strong> restricts untrusted code and reduces host exposure. Escapes, shared folders, network access, and management mistakes remain possible.</li>
+<li><strong>Test and development environments</strong> let you try changes without risking production.</li>
+<li><strong>Snapshots</strong> capture a VM state so you roll back after a failed change.</li>
+</ul>
+<p><em>Virtualization saves money by packing many workloads onto fewer physical servers.</em></p>
+<h2 id="hypervisor-types">
+  <a href="#hypervisor-types" title="Hypervisor Types">Hypervisor Types</a>
+  <a href="#hypervisor-types" class="h-anchor" aria-hidden="true" title="Hypervisor Types">#</a>
+</h2>
+<p>You pick the hypervisor that fits the workload.</p>
+<table>
+	<thead>
+			<tr>
+					
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/virtualization-cloud-computing-concepts/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 5: Command and Control Operations</title><link>https://simeononsecurity.com/red-team-course/command-and-control-operations/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/command-and-control-operations/</guid><description>Follow C2 task delivery, polling latency, uncertain outcomes, and operator handovers through worked examples and a task-ledger exercise.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/command-and-control-operations-cybersecurity.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/command-and-control-operations/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Command and control (C2)</strong> connects an operator&rsquo;s decisions to an agent running in a test environment. A useful operator distinguishes a submitted task from a delivered task, a completed action, and a returned result. Those states explain delays, prevent duplicate changes, and support an accurate activity record.</p>
+<p><em>Allow about 18 minutes, plus time to complete the timing exercise. The exercise uses invented timestamps and requires no deployed agent.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Identify</strong> the client, team server, agent, listener, and redirector roles.</li>
+<li><strong>Explain</strong> how polling affects task latency without treating it as a stealth guarantee.</li>
+<li><strong>Calculate</strong> delivery delay from a short event timeline.</li>
+<li><strong>Compare</strong> evidence from the console, network, and endpoint.</li>
+<li><strong>Produce</strong> a task ledger with ownership, deadlines, and recovery decisions.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Client</strong></td>
+					<td>Operator interface connected to the shared backend</td>
+			</tr>
+			<tr>
+					<td><strong>Team server</strong></td>
+					<td>Backend coordinating sessions, tasks, and operation records</td>
+			</tr>
+			<tr>
+					<td><strong>Beacon</strong></td>
+					<td>Cobalt Strike&rsquo;s agent on an assessment endpoint</td>
+			</tr>
+			<tr>
+					<td><strong>Listener</strong></td>
+					<td>Named configuration for an agent&rsquo;s communication channel</td>
+			</tr>
+			<tr>
+					<td><st
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/command-and-control-operations/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1201): Hardware and Network Troubleshooting</title><link>https://simeononsecurity.com/a-plus/hardware-network-troubleshooting-core1/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/hardware-network-troubleshooting-core1/</guid><description>Master hardware and network troubleshooting for the CompTIA A+ 220-1201 Core 1 exam. Diagnose motherboards, RAM, CPUs, power, drives, displays, mobile devices, printers, and networks.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-hardware-network-troubleshooting.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/hardware-network-troubleshooting-core1/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Hardware and Network Troubleshooting</strong> is <strong>28%</strong> of the <strong>CompTIA A+ 220-1201 Core 1</strong> exam, tied with two Core 2 domains for the largest listed percentage across the two exams. This module covers the troubleshooting methodology and how to diagnose hardware, displays, mobile devices, printers, and networks. <em>The exam tests process as much as parts, so learn the methodology in order.</em></p>
+<p>Troubleshooting is the skill that defines a good technician. You follow a repeatable process, read the symptoms, form a theory, and prove it before you replace anything. This module turns scattered symptoms into a reliable diagnosis.</p>
+<h2 id="the-comptia-troubleshooting-methodology">
+  <a href="#the-comptia-troubleshooting-methodology" title="The CompTIA Troubleshooting Methodology">The CompTIA Troubleshooting Methodology</a>
+  <a href="#the-comptia-troubleshooting-methodology" class="h-anchor" aria-hidden="true" title="The CompTIA Troubleshooting Methodology">#</a>
+</h2>
+<p>You follow these steps in order on every problem. <em>The exam expects this exact sequence.</em></p>
+<ol>
+<li><strong>Identify the problem.</strong> Gather information, question the user, and back up data before changes.</li>
+<li><strong>Establish a theory</strong> of probable cause. Question the obvious.</li>
+<li><strong>Test the theory</strong> to confirm it. If it fails, form a new theory or escalate.</li>
+<li><strong>Establish a plan</strong> of action and identify potential effects.</li>
+<li><strong>Implement the solution</strong> or escalate as needed.</li>
+<li><strong>Verify full functionality</strong> and apply preventive measures.</li>
+<li><strong>Document</strong> findings, actions, and outcomes.</li>
+</ol>
+<h2 id="motherboard-ram-cpu-and-power-issues">
+  <a
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/hardware-network-troubleshooting-core1/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 6: Beacon Execution and Beacon Object Files</title><link>https://simeononsecurity.com/red-team-course/beacon-execution-and-beacon-object-files/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/beacon-execution-and-beacon-object-files/</guid><description>Understand BOF file formats, architecture compatibility, client integration, runtime limits, and failure boundaries through a benign test design.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/beacon-object-file-execution-process.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/beacon-execution-and-beacon-object-files/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p>A <strong>Beacon Object File (BOF)</strong> extends an agent with compiled code executed inside its process. Understanding the file format is only the starting point. You also need to reason about compatibility, dependencies, input handling, runtime behavior, and the consequences of a failure.</p>
+<p><em>Allow about 18 minutes, plus time to build the compatibility record. The examples are illustrative and do not require running an offensive payload.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Distinguish</strong> object files, executable images, scripts, and runtime code.</li>
+<li><strong>Explain</strong> how execution location changes the failure boundary.</li>
+<li><strong>Inspect</strong> architecture metadata without executing an object file.</li>
+<li><strong>Evaluate</strong> compatibility and evidence before selecting an execution method.</li>
+<li><strong>Create</strong> a test record covering valid input, invalid input, and failure handling.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>COFF</strong></td>
+					<td>Common Object File Format used for compiled object modules</td>
+			</tr>
+			<tr>
+					<td><strong>BOF</strong></td>
+					<td>Object code following a loader&rsquo;s expected entry and API conventions</td>
+			</tr>
+			<tr>
+					<td><strong>ABI</strong></td>
+					<td>Application binary interface governing how compiled components interact</td>
+			</tr>
+			<tr>
+					<td><strong>Aggressor Script</strong></td>
+					<td>Cobalt Strike client scripting and integration layer</td>
+			</tr>
+			<tr>
+					<td>
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/beacon-execution-and-beacon-object-files/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1202): Operating Systems</title><link>https://simeononsecurity.com/a-plus/operating-systems-windows-linux-macos/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/operating-systems-windows-linux-macos/</guid><description>Master operating systems for the CompTIA A+ 220-1202 Core 2 exam. Learn OS types, installations, Windows editions, tools, command line, settings, networking, macOS, and Linux.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-operating-systems-workspace.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/operating-systems-windows-linux-macos/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Operating Systems</strong> is <strong>28%</strong> of the <strong>CompTIA A+ 220-1202 Core 2</strong> exam, the largest Core 2 domain. This module covers OS types, installations, Windows editions, tools, the command line, settings, and macOS and Linux. <em>Core 2 is software-focused, and this domain rewards hands-on practice in real systems.</em></p>
+<p>The operating system is where users and hardware meet. You install it, configure it, fix it, and secure it. This module covers the three desktop platforms and the Windows tools and commands you will use every shift.</p>
+<h2 id="os-types-and-filesystems">
+  <a href="#os-types-and-filesystems" title="OS Types and Filesystems">OS Types and Filesystems</a>
+  <a href="#os-types-and-filesystems" class="h-anchor" aria-hidden="true" title="OS Types and Filesystems">#</a>
+</h2>
+<p>You match the OS and filesystem to the device.</p>
+<table>
+	<thead>
+			<tr>
+					<th>OS</th>
+					<th>Common filesystem</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Windows</strong></td>
+					<td>NTFS, ReFS, FAT32, exFAT</td>
+			</tr>
+			<tr>
+					<td><strong>macOS</strong></td>
+					<td>APFS, HFS+</td>
+			</tr>
+			<tr>
+					<td><strong>Linux</strong></td>
+					<td>ext4, XFS, Btrfs</td>
+			</tr>
+			<tr>
+					<td><strong>Chrome OS</strong></td>
+					<td>Cloud-centric, ext4 underneath</td>
+			</tr>
+			<tr>
+					<td><strong>Mobile (Android/iOS)</strong></td>
+					<td>Sandboxed app storage</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>NTFS</strong> supports permissions, encryption, and large files. <strong>FAT32</strong> is universal but caps files at 4 GB. <strong>exFAT</strong> removes that cap for large external drives.</p>
+<h2 id="installations-and-upgrades">
+  <a href="#installations-and-upgrades" title="Installations and Upgrades">Install
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/operating-systems-windows-linux-macos/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 7: Malleable C2 and Communication Evasion</title><link>https://simeononsecurity.com/red-team-course/malleable-c2-and-communication-evasion/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/malleable-c2-and-communication-evasion/</guid><description>Separate profile validity, working communication, telemetry, and detection with a local HTTP exercise and controlled comparison record.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/malleable-c2-communication-evasion-techniques.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/malleable-c2-and-communication-evasion/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p>A <strong>Malleable C2 profile</strong> describes configurable aspects of Cobalt Strike communication and related behavior. It changes indicators, but a changed indicator is insufficient evidence of a bypass. This module teaches you to separate configuration validity, successful communication, collected telemetry, and detection outcomes.</p>
+<p><em>Allow about 20 minutes, plus time for the local HTTP exercise. The exercise sends harmless requests to your own loopback interface and does not deploy an agent.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Define</strong> profiles, transforms, polling, jitter, and observation points.</li>
+<li><strong>Explain</strong> which parts of an HTTP exchange different sensors observe.</li>
+<li><strong>Inspect</strong> two local requests and compare their records.</li>
+<li><strong>Evaluate</strong> the evidence behind a claim of reduced detection.</li>
+<li><strong>Create</strong> a controlled comparison with explicit assumptions and limits.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Profile</strong></td>
+					<td>Configuration describing selected communication and runtime behavior</td>
+			</tr>
+			<tr>
+					<td><strong>Transform</strong></td>
+					<td>Reversible operation used to encode and recover exchanged data</td>
+			</tr>
+			<tr>
+					<td><strong>Polling</strong></td>
+					<td>Checking periodically for work or results</td>
+			</tr>
+			<tr>
+					<td><strong>Jitter</strong></td>
+					<td>Variation applied to a timing interval</td>
+			</tr>
+			<tr>
+					<td><strong>Telemetr
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/malleable-c2-and-communication-evasion/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1202): Security</title><link>https://simeononsecurity.com/a-plus/security-threats-vulnerabilities-best-practices/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/security-threats-vulnerabilities-best-practices/</guid><description>Master security for the CompTIA A+ 220-1202 Core 2 exam. Learn physical and logical security, Windows security settings, wireless protocols, malware, social engineering, and hardening.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-security-physical-logical-wireless-malware.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/security-threats-vulnerabilities-best-practices/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Security</strong> is <strong>28%</strong> of the <strong>CompTIA A+ 220-1202 Core 2</strong> exam, tied for the largest Core 2 domain. This module covers physical and logical security, Windows settings, wireless protocols, malware, social engineering, hardening, and data destruction. <em>Security knowledge protects every system you support, so master these controls.</em></p>
+<p>Security is everyone&rsquo;s job, and the technician is the first line of defense. You lock down access, configure permissions, recognize attacks, and remove malware. This module builds the practical security skills the exam demands.</p>
+<h2 id="physical-and-logical-security">
+  <a href="#physical-and-logical-security" title="Physical and Logical Security">Physical and Logical Security</a>
+  <a href="#physical-and-logical-security" class="h-anchor" aria-hidden="true" title="Physical and Logical Security">#</a>
+</h2>
+<p>You combine physical barriers with logical access controls.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Physical</th>
+					<th>Logical</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Bollards, fences, mantraps</td>
+					<td>Access Control Lists (ACLs)</td>
+			</tr>
+			<tr>
+					<td>Badge readers, key fobs</td>
+					<td>Least privilege</td>
+			</tr>
+			<tr>
+					<td>Biometrics (fingerprint, face)</td>
+					<td>Zero Trust</td>
+			</tr>
+			<tr>
+					<td>Locks, cameras, lighting</td>
+					<td>Multifactor authentication (MFA)</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>MFA</strong> combines factors: something you <strong>know</strong> (password), something you <strong>have</strong> (token), and something you <strong>are</strong> (biometric). <strong>Least privilege</strong> gives each user only the access the job requires.</p>
+<h2 id="windows-security-settings">
+  <a href="#windows-securi
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/security-threats-vulnerabilities-best-practices/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 8: Open-Source Intelligence</title><link>https://simeononsecurity.com/red-team-course/open-source-intelligence/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/open-source-intelligence/</guid><description>Evaluate public sources, RDAP, DNS, certificate logs, and scan data. Build a traceable OSINT brief with worked examples and source-quality checks.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/open-source-intelligence-osint-collection-techniques.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/open-source-intelligence/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Open-source intelligence (OSINT)</strong> turns publicly available information into an answer to a defined question. Collection alone produces observations. Useful intelligence adds provenance, context, corroboration, uncertainty, and a decision the assessment team is authorized to make.</p>
+<p><em>Allow about 25 minutes, plus time to complete the evidence-ledger exercise. All organizations, observations, and assessment decisions in the worked case are fictional.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Distinguish</strong> a source observation from an inference and a confirmed finding.</li>
+<li><strong>Explain</strong> the limits of registration, DNS, certificate, and scan-index data.</li>
+<li><strong>Apply</strong> search operators and normalize a synthetic list of names.</li>
+<li><strong>Compare</strong> evidence freshness and independent corroboration.</li>
+<li><strong>Create</strong> a research brief which supports a bounded next action.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Provenance</strong></td>
+					<td>Where information originated and how you obtained it</td>
+			</tr>
+			<tr>
+					<td><strong>Observation</strong></td>
+					<td>A specific item recorded from a source</td>
+			</tr>
+			<tr>
+					<td><strong>Inference</strong></td>
+					<td>A conclusion drawn from one or more observations</td>
+			</tr>
+			<tr>
+					<td><strong>Corroboration</strong></td>
+					<td>Additional evidence supporting or challenging a claim</td>
+			</tr>
+			<tr>
+					<td><strong>RDAP</strong></td>
+					<td>Regi
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/open-source-intelligence/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1202): Software Troubleshooting</title><link>https://simeononsecurity.com/a-plus/software-troubleshooting-windows-apps-malware/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/software-troubleshooting-windows-apps-malware/</guid><description>Master software troubleshooting for the CompTIA A+ 220-1202 Core 2 exam. Diagnose Windows OS issues, mobile OS and application problems, security symptoms, and malware removal.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-software-troubleshooting-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/software-troubleshooting-windows-apps-malware/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Software Troubleshooting</strong> is <strong>23%</strong> of the <strong>CompTIA A+ 220-1202 Core 2</strong> exam. This module covers Windows OS issues, mobile OS and application problems, security symptoms, and malware removal. <em>Pair this domain with the Core 1 troubleshooting methodology because the same process applies to software.</em></p>
+<p>Software problems frustrate users and fill the ticket queue. You read the symptoms, match them to a cause, and apply the fix that solves the problem without losing data. This module covers the software faults you will see most.</p>
+<h2 id="windows-os-troubleshooting">
+  <a href="#windows-os-troubleshooting" title="Windows OS Troubleshooting">Windows OS Troubleshooting</a>
+  <a href="#windows-os-troubleshooting" class="h-anchor" aria-hidden="true" title="Windows OS Troubleshooting">#</a>
+</h2>
+<p>You diagnose the common Windows failures.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Likely cause</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>BSOD / stop error</strong></td>
+					<td>Bad driver, RAM, or hardware</td>
+					<td>Check driver, run memory test</td>
+			</tr>
+			<tr>
+					<td><strong>Boot failure</strong></td>
+					<td>Corrupt boot files</td>
+					<td>Startup Repair, <code>bootrec</code></td>
+			</tr>
+			<tr>
+					<td><strong>Frequent shutdowns</strong></td>
+					<td>Overheating or PSU</td>
+					<td>Check temps and power</td>
+			</tr>
+			<tr>
+					<td><strong>Services not starting</strong></td>
+					<td>Dependency or corruption</td>
+					<td>Check Services and Event Viewer</td>
+			</tr>
+			<tr>
+					<td><strong>Slow performance</strong></td>
+					<td>Startup bloat, low disk, malware</td>
+					<td>Trim startup, free space, scan</td>
+			</tr>
+			<tr>
+					<td><strong>Time dri
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/software-troubleshooting-windows-apps-malware/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 9: Active Reconnaissance and Scanning</title><link>https://simeononsecurity.com/red-team-course/active-reconnaissance-and-scanning/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/active-reconnaissance-and-scanning/</guid><description>Interpret Nmap port states, scan methods, and vantage points through a loopback exercise, segmentation case, and evidence-based scan plan.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/active-reconnaissance-cybersecurity-scanning.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/active-reconnaissance-and-scanning/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Active reconnaissance</strong> sends requests to a system to answer a defined question about its current behavior. A scan result describes what the scanner observed from a particular location at a particular time. It becomes useful when you preserve the method, interpret the limits, and connect the result to an approved next action.</p>
+<p><em>Allow about 20 minutes, plus time for the loopback exercise. The exercise uses one port on your own machine.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Distinguish</strong> host discovery, port state, service identification, and vulnerability validation.</li>
+<li><strong>Explain</strong> the differences between TCP SYN and connect scans.</li>
+<li><strong>Run</strong> a bounded local scan and preserve its output.</li>
+<li><strong>Analyze</strong> conflicting observations from different vantage points.</li>
+<li><strong>Create</strong> a scan plan with evidence requirements and stopping conditions.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Vantage point</strong></td>
+					<td>Network location and routing context of the observer</td>
+			</tr>
+			<tr>
+					<td><strong>Host discovery</strong></td>
+					<td>Probes used to identify responsive addresses</td>
+			</tr>
+			<tr>
+					<td><strong>Port scan</strong></td>
+					<td>Probes used to classify transport endpoints</td>
+			</tr>
+			<tr>
+					<td><strong>Service identification</strong></td>
+					<td>Evidence about the application using an endpoint</td>
+			</tr>
+			<tr>
+					<td><strong>Deconfliction</strong></td>
+			
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/active-reconnaissance-and-scanning/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CompTIA A+ (220-1202): Operational Procedures</title><link>https://simeononsecurity.com/a-plus/operational-procedures-documentation-communication/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/a-plus/operational-procedures-documentation-communication/</guid><description>Master operational procedures for the CompTIA A+ 220-1202 Core 2 exam. Learn documentation, change management, backups, safety, environmental controls, communication, scripting, and AI basics.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/comptia-a-plus-operational-procedures.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/operational-procedures-documentation-communication/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Click Here to Return To the CompTIA A&#43; Course Page">
+    <meta itemprop="url" content="/a-plus-start/">
+    <a href="/a-plus-start/"
+    
+        rel="follow me"
+    >Click Here to Return To the CompTIA A+ Course Page</a>
+</span>
+</p>
+<p><strong>Operational Procedures</strong> is <strong>21%</strong> of the <strong>CompTIA A+ 220-1202 Core 2</strong> exam. This module covers documentation, change management, backups, safety, environment, professionalism, scripting, remote access, and AI basics. <em>This domain is about doing the job correctly and professionally, not just technically.</em></p>
+<p>A great technician follows process. You document your work, manage change safely, back up before you break things, stay safe, and treat customers well. This module covers the professional habits that keep IT running and keep you employed.</p>
+<h2 id="documentation-best-practices">
+  <a href="#documentation-best-practices" title="Documentation Best Practices">Documentation Best Practices</a>
+  <a href="#documentation-best-practices" class="h-anchor" aria-hidden="true" title="Documentation Best Practices">#</a>
+</h2>
+<p>You record everything so others can follow your work.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Document</th>
+					<th>Purpose</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Ticketing system</strong></td>
+					<td>Tracks issues and resolutions</td>
+			</tr>
+			<tr>
+					<td><strong>Asset management / CMDB</strong></td>
+					<td>Inventories hardware and software</td>
+			</tr>
+			<tr>
+					<td><strong>Standard Operating Procedures (SOPs)</strong></td>
+					<td>Step-by-step process guides</td>
+			</tr>
+			<tr>
+					<td><strong>Knowledge base</strong></td>
+					<td>Reusable how-to articles</td>
+			</tr>
+			<tr>
+					<td><strong>Network topology diagrams</strong></td>
+					<td>Maps the network layout</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="change-management">
+  <a href="#change-management" title="Change Management">Change Management</a>
+  <a href="#change-management" class="h-anchor" aria-hidden="true
+
+        <br>
+        <a href="https://simeononsecurity.com/a-plus/operational-procedures-documentation-communication/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 10: Initial Access: Phishing and Delivery</title><link>https://simeononsecurity.com/red-team-course/initial-access-phishing-and-delivery/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/initial-access-phishing-and-delivery/</guid><description>Distinguish phishing delivery, interaction, execution, and access. Interpret campaign metrics, modern Office controls, and Windows architecture with worked examples.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/initial-access-phishing-cybersecurity-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/initial-access-phishing-and-delivery/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Initial access</strong> is the establishment of a usable starting context for an assessment. A delivered message, a clicked link, and code execution represent different outcomes. Your test should identify which boundary it examines and collect evidence appropriate to the tested boundary.</p>
+<p><em>Allow about 20 minutes, plus time to design the simulation record. The worked examples use synthetic events and require no messages sent to real recipients.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Distinguish</strong> delivery, interaction, execution, and communication outcomes.</li>
+<li><strong>Explain</strong> how email, document, identity, and endpoint controls affect an access path.</li>
+<li><strong>Analyze</strong> a synthetic campaign&rsquo;s rates and ambiguous events.</li>
+<li><strong>Evaluate</strong> whether two simulations support a fair comparison.</li>
+<li><strong>Create</strong> a bounded initial-access test specification and handover record.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Delivery</strong></td>
+					<td>A message or artifact reaches the specified destination</td>
+			</tr>
+			<tr>
+					<td><strong>Interaction</strong></td>
+					<td>A recorded action such as following a link</td>
+			</tr>
+			<tr>
+					<td><strong>Execution</strong></td>
+					<td>Instructions run in an identified process and security context</td>
+			</tr>
+			<tr>
+					<td><strong>Foothold</strong></td>
+					<td>Usable access within the assessment&rsquo;s permitted scope</td>
+			</tr>
+			<tr>
+					<td><strong>Mar
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/initial-access-phishing-and-delivery/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 11: Situational Awareness and Host Operations</title><link>https://simeononsecurity.com/red-team-course/situational-awareness-and-host-operations/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/situational-awareness-and-host-operations/</guid><description>Build a current host-state record using Windows and Linux identity, process, socket, and routing evidence, with a worked snapshot comparison.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/situational-awareness-post-exploitation-techniques.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/situational-awareness-and-host-operations/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Situational awareness</strong> is a current, evidence-backed picture of the host and security context where an assessment action would run. It starts with identity and scope, then adds the process, network, and service facts needed for the next decision. Collecting every available field is less useful than answering the right questions accurately.</p>
+<p><em>Allow about 18 minutes, plus time to create the host-state record. Commands below inspect local state and do not require credential extraction.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Identify</strong> the host, account, process, and network context separately.</li>
+<li><strong>Explain</strong> why an interface address does not establish a usable route.</li>
+<li><strong>Apply</strong> read-only Windows or Linux checks in a training environment.</li>
+<li><strong>Analyze</strong> changes between two host snapshots.</li>
+<li><strong>Create</strong> a handover record with freshness and collection limits.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Host identity</strong></td>
+					<td>Evidence tying the current system to an approved asset</td>
+			</tr>
+			<tr>
+					<td><strong>Security context</strong></td>
+					<td>Identity and permissions used by the current process or thread</td>
+			</tr>
+			<tr>
+					<td><strong>PID</strong></td>
+					<td>Process identifier, valid within its host and lifetime</td>
+			</tr>
+			<tr>
+					<td><strong>Listener</strong></td>
+					<td>Socket accepting incoming communication</td>
+			</tr>
+			<tr>
+					<td><strong>Rout
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/situational-awareness-and-host-operations/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 12: User Persistence</title><link>https://simeononsecurity.com/red-team-course/user-persistence/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/user-persistence/</guid><description>Understand user startup triggers, HKCU context, and restoration. Follow a benign Notepad Run-entry lab with evidence and cleanup checks.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/user-persistence-techniques-windows-registry.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/user-persistence/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>User persistence</strong> arranges for an action to recur in a user&rsquo;s context after a defined trigger. A configuration entry, a successful launch, and a verified removal are three separate outcomes. This module uses a visible Notepad startup entry in a disposable Windows VM to examine the complete lifecycle.</p>
+<p><em>Allow about 20 minutes, plus two lab sign-ins. Use a dedicated test account and save your work before signing out.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li><strong>Distinguish</strong> logon-triggered startup from boot-triggered services.</li>
+<li><strong>Explain</strong> user identity, executable availability, and policy dependencies.</li>
+<li><strong>Inspect</strong> startup configuration before changing it.</li>
+<li><strong>Observe</strong> a benign entry through creation, trigger, and removal.</li>
+<li><strong>Create</strong> a lifecycle record with independent cleanup evidence.</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>Term</th>
+					<th>Meaning</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Startup entry</strong></td>
+					<td>Configuration requesting execution at a defined trigger</td>
+			</tr>
+			<tr>
+					<td><strong>Run value</strong></td>
+					<td>Named registry value specifying a command at user logon</td>
+			</tr>
+			<tr>
+					<td><strong>RunOnce value</strong></td>
+					<td>Startup configuration intended for a single logon execution</td>
+			</tr>
+			<tr>
+					<td><strong>HKCU</strong></td>
+					<td>HKEY_CURRENT_USER, resolved for the calling context</td>
+			</tr>
+			<tr>
+					<td><strong>Trigger</strong></td>
+					<td>Event which makes the co
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/user-persistence/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 13: Local Privilege Escalation</title><link>https://simeononsecurity.com/red-team-course/local-privilege-escalation/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/local-privilege-escalation/</guid><description>Evaluate Windows privilege escalation paths through service permissions, DLL loading, evidence quality, and a read-only lab exercise.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/local-privilege-escalation-techniques-windows-api.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/local-privilege-escalation/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Local privilege escalation</strong> crosses a permission boundary on a host. A writable directory, unusual service, or scanner finding starts an investigation. Establish which identity controls which operation, which privileged process consumes the result, and what evidence supports the claimed impact.</p>
+<p>This module develops a <strong>permission-boundary record</strong>. You will inspect a prepared training service without modifying it, compare incomplete findings, and design a minimal validation with a clear stopping point.</p>
+<p><em>Allow 35–50 minutes. Difficulty: intermediate. The worked case is illustrative, not an observed compromise.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Define</strong> service permissions, file permissions, and DLL search behavior.</li>
+<li><strong>Explain</strong> why a suspicious configuration is an incomplete escalation claim.</li>
+<li><strong>Inspect</strong> a training service and its filesystem permissions.</li>
+<li><strong>Compare</strong> evidence for competing escalation hypotheses.</li>
+<li><strong>Produce</strong> a validation record with a remediation and retest condition.</li>
+</ul>
+<h2 id="before-you-begin">
+  <a href="#before-you-begin" title="Before You Begin">Before You Begin</a>
+  <a href="#before-you-begin" class="h-anchor" aria-hidden="true" title="Before You Begin">#</a>
+</h2>
+<p>Use a <strong>disposable Windows lab VM</strong> with an instructor-provided service named <strong><code>CourseLabService</code></strong> and a documented application directory. Read 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/local-privilege-escalation/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 14: Privileged Persistence and Process Migration</title><link>https://simeononsecurity.com/red-team-course/privileged-persistence-and-process-migration/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/privileged-persistence-and-process-migration/</guid><description>Understand Windows service persistence, process lifetime, architecture, and migration tradeoffs through read-only inspection and a service lifecycle exercise.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/windows-service-architecture-privileged-persistence-process-migration.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/privileged-persistence-and-process-migration/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Privileged persistence</strong> preserves an approved execution opportunity across a defined interruption. A Windows service is one possible mechanism. Its configured account, startup behavior, running process, and recovery dependencies need separate verification.</p>
+<p>This module teaches you to build a <strong>service lifecycle record</strong> and judge whether process migration serves a concrete requirement. A running callback proves connectivity at one moment. It does not establish boot durability, service health, or successful restoration.</p>
+<p><em>Allow 35–45 minutes. Difficulty: intermediate. The timeline exercise uses synthetic observations.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Distinguish</strong> service configuration, service state, and process lifetime.</li>
+<li><strong>Explain</strong> account selection and filesystem redirection.</li>
+<li><strong>Inspect</strong> a prepared service without changing its configuration.</li>
+<li><strong>Evaluate</strong> migration against stability and evidence requirements.</li>
+<li><strong>Create</strong> a lifecycle record covering trigger, observation, and restoration.</li>
+</ul>
+<h2 id="before-you-begin">
+  <a href="#before-you-begin" title="Before You Begin">Before You Begin</a>
+  <a href="#before-you-begin" class="h-anchor" aria-hidden="true" title="Before You Begin">#</a>
+</h2>
+<p>Use the <strong>prepared Windows lab VM</strong> and service manifest from 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/privileged-persistence-and-process-migration/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 15: Persistence Cleanup and Defense Evasion</title><link>https://simeononsecurity.com/red-team-course/persistence-cleanup-and-defense-evasion/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/persistence-cleanup-and-defense-evasion/</guid><description>Restore persistence changes with a precise artifact ledger, correct registry identity, evidence preservation, and independent verification of cleanup.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/persistence-cleanup-defense-evasion-cybersecurity.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/persistence-cleanup-and-defense-evasion/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Cleanup restores agreed system state</strong> after an exercise. It removes or reverses the team&rsquo;s changes while preserving the evidence needed to explain them. Deleting a visible file is only one possible step, and a failed query does not prove an artifact is absent.</p>
+<p>This module develops a <strong>restoration ledger</strong> linking ownership, baseline, action, verification, and unresolved work. It also separates defense-evasion testing from evidence destruction, so the assessment&rsquo;s final state remains reviewable.</p>
+<p><em>Allow 30–45 minutes. Difficulty: intermediate. The worked cleanup case uses synthetic records.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Define</strong> restoration, artifact ownership, and verification scope.</li>
+<li><strong>Explain</strong> how registry identity and loaded hives affect cleanup.</li>
+<li><strong>Inspect</strong> the exact Run entry from the earlier benign exercise.</li>
+<li><strong>Analyze</strong> failed queries, file identity changes, and remaining processes.</li>
+<li><strong>Create</strong> a restoration ledger with an independent review condition.</li>
+</ul>
+<h2 id="before-you-begin">
+  <a href="#before-you-begin" title="Before You Begin">Before You Begin</a>
+  <a href="#before-you-begin" class="h-anchor" aria-hidden="true" title="Before You Begin">#</a>
+</h2>
+<p>Bring the <strong>baseline records</strong> from 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/persistence-cleanup-and-defense-evasion/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 16: Domain Privilege Escalation and Kerberos Abuse</title><link>https://simeononsecurity.com/red-team-course/domain-privilege-escalation-and-kerberos-abuse/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/red-team-course/domain-privilege-escalation-and-kerberos-abuse/</guid><description>Analyze Kerberos service-ticket exposure, account privilege, encryption choices, and delegation evidence with a domain escalation review record.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/kerberoasting-domain-privilege-escalation-cyber-security.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/domain-privilege-escalation-and-kerberos-abuse/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Red Team Course">
+    <meta itemprop="url" content="/red-team-course-start/">
+    <a href="/red-team-course-start/"
+    
+        rel="follow me"
+    >← Return to the Red Team Course</a>
+</span>
+</p>
+<p><strong>Domain privilege escalation</strong> combines identity, ticket, directory, and authorization evidence. Kerberoasting is one possible path. A service principal name (SPN) identifies a service account for Kerberos, but it does not grant administrative authority to the account.</p>
+<p>This module builds a <strong>ticket and privilege review</strong>. You will distinguish a ticket request from offline password analysis, compare service-account designs, and produce a defensible decision about the next approved test.</p>
+<p><em>Allow 40–55 minutes. Difficulty: intermediate. Examples use synthetic account names and expected evidence.</em></p>
+<h2 id="learning-outcomes">
+  <a href="#learning-outcomes" title="Learning Outcomes">Learning Outcomes</a>
+  <a href="#learning-outcomes" class="h-anchor" aria-hidden="true" title="Learning Outcomes">#</a>
+</h2>
+<ul>
+<li><strong>Define</strong> KDC, TGT, TGS, SPN, service account, and delegation.</li>
+<li><strong>Explain</strong> why ticket encryption and account privilege are separate questions.</li>
+<li><strong>Inspect</strong> ticket-cache and directory evidence in an approved lab.</li>
+<li><strong>Compare</strong> traditional service accounts with managed service accounts.</li>
+<li><strong>Create</strong> a domain escalation review with evidence and limits.</li>
+</ul>
+<h2 id="before-you-begin">
+  <a href="#before-you-begin" title="Before You Begin">Before You Begin</a>
+  <a href="#before-you-begin" class="h-anchor" aria-hidden="true" title="Before You Begin">#</a>
+</h2>
+<p>Use the <strong>domain lab and collection agreement</strong> from 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        <br>
+        <a href="https://simeononsecurity.com/red-team-course/domain-privilege-escalation-and-kerberos-abuse/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
