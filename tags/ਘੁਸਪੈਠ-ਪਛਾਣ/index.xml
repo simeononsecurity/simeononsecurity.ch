@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਘੁਸਪੈਠ ਪਛਾਣ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਘੁਸਪੈਠ ਪਛਾਣ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%98%E0%A9%81%E0%A8%B8%E0%A8%AA%E0%A9%88%E0%A8%A0-%E0%A8%AA%E0%A8%9B%E0%A8%BE%E0%A8%A3/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%98%E0%A9%81%E0%A8%B8%E0%A8%AA%E0%A9%88%E0%A8%A0-%E0%A8%AA%E0%A8%9B%E0%A8%BE%E0%A8%A3/</link><description>Recent content in ਘੁਸਪੈਠ ਪਛਾਣ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%98%E0%A9%81%E0%A8%B8%E0%A8%AA%E0%A9%88%E0%A8%A0-%E0%A8%AA%E0%A8%9B%E0%A8%BE%E0%A8%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>pfSense ਵਿਰੁੱਧ Firewalla ਵਿਰੁੱਧ OPNsense</title><link>https://pa.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਫਾਇਰਵਾਲ ਤੁਲਨਾ"
+, "ਸਾਇਬਰਸੁਰੱਖਿਆ ਹੱਲ"
+, "ਨੈੱਟਵਰਕ ਪ੍ਰਬੰਧਨ"
+, "ਘਰੇਲੂ ਨੈੱਟਵਰਕ"
+, "ਉਦਯੋਗਿਕ ਸੁਰੱਖਿਆ"
+, "ਫਾਇਰਵਾਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ"
+, "ਸੁਰੱਖਿਆ ਸਾਫਟਵੇਅਰ"
+, "VPN ਹੱਲ"
+, "IoT ਡਿਵਾਈਸ ਸੁਰੱਖਿਆ"</category><guid>https://pa.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਘਰੇਲੂ ਅਤੇ ਉਦਯੋਗਿਕ ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ ਲਈ pfSense, Firewalla, ਅਤੇ OPNsense ਫਾਇਰਵਾਲ ਹੱਲਾਂ ਦੀ 2026 ਦੀ ਵਿਸਤ੍ਰਿਤ ਤੁਲਨਾ। ਆਪਣੀਆਂ ਜ਼ਰੂਰਤਾਂ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਵਿਕਲਪ ਲੱਭੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>ਟੌਪ 5 ਲਿਨਕਸ ਸੁਰੱਖਿਆ ਅਤੇ ਮਜ਼ਬੂਤੀ ਤਕਨੀਕਾਂ</title><link>https://pa.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"ਟੈਕਨੋਲੋਜੀ"
+, "ਸਾਇਬਰਸੁਰੱਖਿਆ"
+, "ਲਿਨਕਸ"
+, "ਸਿਸਟਮ ਸੁਰੱਖਿਆ"
+, "ਓਪਨ-ਸੋਰਸ"
+, "ਮਜ਼ਬੂਤੀ"
+, "ਆਈਟੀ"
+, "ਡਾਟਾ ਸੁਰੱਖਿਆ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਕੰਪਿਊਟਰ ਵਿਗਿਆਨ"</category><guid>https://pa.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੇ ਸਿਸਟਮ ਨੂੰ ਖ਼ਤਰਨਾਕਾਂ ਤੋਂ ਬਚਾਉਣ ਲਈ ਟੌਪ 5 ਲਿਨਕਸ ਸੁਰੱਖਿਆ ਤਕਨੀਕਾਂ ਦੀ ਖੋਜ ਕਰੋ। ਪ੍ਰਣਾਲੀ ਦੀ ਅਖੰਡਤਾ ਵਿੱਚ ਸੁਧਾਰ ਕਰੋ ਅਤੇ ਮਹੱਤਵਪੂਰਨ ਡਾਟਾ ਨੂੰ ਮਾਹਿਰ ਮਜ਼ਬੂਤੀ ਉਪਾਅ ਨਾਲ ਸੁਰੱਖਿਅਤ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item></channel></rss>

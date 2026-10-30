@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਟੈਸਟਿੰਗ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਟੈਸਟਿੰਗ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%9F%E0%A9%88%E0%A8%B8%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%9F%E0%A9%88%E0%A8%B8%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/</link><description>Recent content in ਟੈਸਟਿੰਗ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%9F%E0%A9%88%E0%A8%B8%E0%A8%9F%E0%A8%BF%E0%A9%B0%E0%A8%97/index.xml" rel="self" type="application/rss+xml"/><item><title>VS ਕੋਡ ਵਿਰੁੱਧ ਵਿਜ਼ੂਅਲ ਸਟੂਡੀਓ: ਵਿਕਾਸਕਾਰਾਂ ਲਈ ਕਿਹੜਾ ਸਭ ਤੋਂ ਵਧੀਆ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"ਸੌਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "ਇੰਟੀਗ੍ਰੇਟਿਡ ਡਿਵੈਲਪਮੈਂਟ ਇਨਵਾਇਰਨਮੈਂਟ (IDE)"
+, "ਮਾਈਕ੍ਰੋਸੌਫਟ ਵਿਕਾਸ ਟੂਲ"
+, "ਕੋਡ ਐਡੀਟਰ"
+, "ਵਿਕਾਸ ਪਲੇਟਫਾਰਮ"
+, "ਸੌਫਟਵੇਅਰ ਤੁਲਨਾ"
+, "ਪ੍ਰੋਗ੍ਰਾਮਿੰਗ ਭਾਸ਼ਾਵਾਂ"
+, "ਸਹਿਯੋਗੀ ਵਿਕਾਸ"
+, "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਸੌਫਟਵੇਅਰ ਵਿਕਾਸ"
+, "ਕੋਡ ਡੀਬੱਗਿੰਗ"</category><guid>https://pa.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Visual Studio Code, Visual Studio Community, ਅਤੇ Visual Studio Enterprise ਵਿਚਕਾਰ ਫਰਕਾਂ ਦੀ ਖੋਜ ਕਰੋ ਤਾਂ ਜੋ ਤੁਹਾਡੇ ਵਿਕਾਸ ਦੀਆਂ ਜ਼ਰੂਰਤਾਂ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਚੋਣ ਦਾ ਪਤਾ ਲੱਗ ਸਕੇ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.webp" length="87414" type="image/webp"/></item><item><title>PowerShell DSC: ਇੱਕ ਸ਼ੁਰੂਆਤੀ ਮਾਰਗਦਰਸ਼ਕ</title><link>https://pa.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "ਸੰਰਚਨਾ ਪ੍ਰਬੰਧਨ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਵਿੰਡੋਜ਼"
+, "ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਨ"
+, "ਸਰਵੋਤਮ ਅਭਿਆਸ"
+, "ਅਨੁਕੂਲਤਾ"
+, "ਸੁਰੱਖਿਆ"
+, "ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "DevOps"
+, "ਸਰਵਰ ਸੰਰਚਨਾ"
+, "ਟੈਸਟਿੰਗ"
+, "Git"
+, "ਸਰੋਤ ਨਿਯੰਤਰਣ"
+, "ਸਰਕਾਰੀ ਨਿਯਮ"
+, "NIST"
+, "CIS"
+, "ਸੰਰਚਨਾ ਡ੍ਰਿਫਟ"
+, "ਕਸਟਮ ਸਰੋਤ"</category><guid>https://pa.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShell Desired State Configuration (DSC) ਦੀ ਤਾਕਤ ਨੂੰ ਖੋਜੋ ਤਾਂ ਜੋ ਸੁਰੱਖਿਅਤ ਅਤੇ ਅਨੁਕੂਲ ਵਾਤਾਵਰਣ ਲਈ ਸਿਸਟਮ ਸੰਰਚਨਾਵਾਂ ਨੂੰ ਆਟੋਮੇਟ ਅਤੇ ਪ੍ਰਬੰਧਿਤ ਕੀਤਾ ਜਾ ਸਕੇ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp"/></item></channel></rss>
