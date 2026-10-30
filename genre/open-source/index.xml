@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Open Source on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/open-source/</link></image><link>https://it.simeononsecurity.com/genre/open-source/</link><description>Recent content in Open Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenCode contro Claude Code: confronto degli agenti di coding nel 2026</title><link>https://it.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Strumenti per sviluppatori"
+, "Intelligenza artificiale"
+, "Open source"</category><guid>https://it.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta OpenCode e Claude Code per scelta dei modelli, inferenza locale, prezzi, permessi, istruzioni del progetto e flussi di lavoro quotidiani per il coding.</description><enclosure url="https://it.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Routing dei provider OpenRouter: qualità del modello, limiti dei token e costi reali</title><link>https://it.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "Infrastruttura"
+, "Open Source"</category><guid>https://it.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnostica le risposte incoerenti di OpenRouter, confronta i limiti degli endpoint e i costi della cache, poi configura il routing dei provider senza disattivare per errore i controlli di qualità.</description><enclosure url="https://it.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://it.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://it.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://it.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>GrapheneOS Sandboxed Google Play Explained</title><link>https://it.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Mobile Security"
+, "Open Source"</category><guid>https://it.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together.</description><enclosure url="https://it.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://it.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Privacy"
+, "Browser Web"
+, "Sicurezza Online"
+, "Open Source"
+, "Privacy Digitale"
+, "Software"
+, "Confronto"
+, "Cybersecurity"
+, "Privacy su Internet"</category><guid>https://it.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplora le caratteristiche di LibreWolf e Firefox, due browser focalizzati sulla privacy, per fare una scelta informata a favore di una maggiore sicurezza e privacy online.</description><enclosure url="https://it.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Le 5 Tecniche Principali per la Sicurezza e l'Indurimento di Linux</title><link>https://it.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cybersecurity"
+, "Linux"
+, "Sicurezza del Sistema"
+, "Open-source"
+, "Indurimento"
+, "IT"
+, "Protezione dei Dati"
+, "Sicurezza di Rete"
+, "Informatica"</category><guid>https://it.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le 5 tecniche principali per la sicurezza di Linux per rafforzare il tuo sistema contro le minacce. Migliora l'integrità del sistema e proteggi i dati sensibili con misure esperte di indurimento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>I Migliori Browser per la Privacy 2026: LibreWolf vs Brave vs Tor</title><link>https://it.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Browser"
+, "Privacy"
+, "Sicurezza"
+, "Internet"
+, "Tecnologia"
+, "Privacy Digitale"
+, "Sicurezza Online"
+, "Open Source"
+, "Anonimato"
+, "Navigazione Web"</category><guid>https://it.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto completo 2026 dei migliori browser focalizzati sulla privacy: LibreWolf, Brave, Firefox, Tor e altri. Test dettagliati sulla privacy, benchmark di prestazioni e analisi di sicurezza per proteggere i tuoi dati online.</description><enclosure url="https://it.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>Ansible, Semaphore e Tower: automazione a confronto</title><link>https://it.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Gestione dell'infrastruttura"
+, "Gestione della configurazione"
+, "DevOps"
+, "Operazioni IT"
+, "Open Source"
+, "Gestione del flusso di lavoro"
+, "Scalability"
+, "Collaborazione"
+, "Strumenti Ansible"</category><guid>https://it.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza dell'automazione di Ansible con un confronto tra Ansible semplice, Ansible Tower e Ansible Semaphore e scegliete lo strumento giusto per una gestione efficiente dell'infrastruttura.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp" length="98438" type="image/webp"/></item><item><title>Aumentare la produttività con Homebox: Gestione dell'inventario e dei beni open source</title><link>https://it.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Gestione dell'inventario"
+, "Gestione delle attività"
+, "Open Source"
+, "Produttività"
+, "Piccola impresa"
+, "Gestione della casa"
+, "In hosting autonomo"
+, "Software"
+, "Organizzazione"</category><guid>https://it.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scoprite la potenza di Homebox, un software open-source per la gestione efficiente dell'inventario e dei beni, che migliora la produttività della vostra casa o della vostra piccola impresa.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item></channel></rss>
