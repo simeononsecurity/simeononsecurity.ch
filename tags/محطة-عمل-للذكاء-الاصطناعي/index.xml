@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>محطة عمل للذكاء الاصطناعي on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>محطة عمل للذكاء الاصطناعي on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D9%85%D8%AD%D8%B7%D8%A9-%D8%B9%D9%85%D9%84-%D9%84%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/</link></image><link>https://ar.simeononsecurity.com/tags/%D9%85%D8%AD%D8%B7%D8%A9-%D8%B9%D9%85%D9%84-%D9%84%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/</link><description>Recent content in محطة عمل للذكاء الاصطناعي on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D9%85%D8%AD%D8%B7%D8%A9-%D8%B9%D9%85%D9%84-%D9%84%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>أي نموذج ذكاء اصطناعي محلي ينبغي أن تشغّل؟ دليل GPU للسياق والبرمجة لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتيا"
+, "قياس GPU"
+, "أدوات المطورين"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لاختيار نماذج الذكاء الاصطناعي المحلية لوكلاء البرمجة. قارن ذاكرة GPU، ونمو KV-cache، وحجم السياق، وجودة التكميم، ومعالجة المطالبات، وإعدادات الاستدلال، وتكاليف الاستئجار السحابي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>جهاز DGX Spark بسعة 64 جيجابايت إشارة تحذير لأسعار عتاد الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "أشباه الموصلات"
+, "عتاد الحاسوب"
+, "اقتصاد الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المستضاف ذاتياً"</category><guid>https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+توضح فئة DGX Spark بسعة 64 جيجابايت من NVIDIA كيف يؤثر ضغط توريد الذاكرة في عتاد الذكاء الاصطناعي المحلي. يشرح هذا الدليل خفض السعة، ومقايضات الذاكرة الموحدة، ولماذا لا يُرجح تحسن DRAM قبل أواخر 2027.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>ذاكرة VRAM بسعة 32GB لنموذج Qwen 27B: دليل عتاد الذكاء الاصطناعي المحلي لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "قياس أداء GPU"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "عتاد الحاسوب"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لتشغيل نموذج Qwen 27B مع 32GB من ذاكرة المسرّع القابلة للاستخدام. قارن بين وحدات GPU المنفردة، وبُنى البطاقتين، والذاكرة الموحدة، وبطاقات مراكز البيانات المستعملة، والحوسبة المستأجرة، ودعم البرمجيات، وحدود السياق الكامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

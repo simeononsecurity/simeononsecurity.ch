@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM محلي on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>LLM محلي on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/llm-%D9%85%D8%AD%D9%84%D9%8A/</link></image><link>https://ar.simeononsecurity.com/tags/llm-%D9%85%D8%AD%D9%84%D9%8A/</link><description>Recent content in LLM محلي on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/llm-%D9%85%D8%AD%D9%84%D9%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>هل تكفي ذاكرة VRAM بسعة 16GB للعمل الجاد مع نماذج LLM المحلية؟</title><link>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الحاسوب"
+, "الذكاء الاصطناعي المستضاف ذاتياً"</category><guid>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+حدّد حجم إعداد LLM محلي بسعة 16GB وفق أوزان النموذج وذاكرة KV ومعالجة المطالبات. قارن ميزانيات ذاكرة Qwen3.8 27B وعرض نطاق GPU وتكاليف التملك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>أي نموذج ذكاء اصطناعي محلي ينبغي أن تشغّل؟ دليل GPU للسياق والبرمجة لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتيا"
+, "قياس GPU"
+, "أدوات المطورين"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لاختيار نماذج الذكاء الاصطناعي المحلية لوكلاء البرمجة. قارن ذاكرة GPU، ونمو KV-cache، وحجم السياق، وجودة التكميم، ومعالجة المطالبات، وإعدادات الاستدلال، وتكاليف الاستئجار السحابي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>جهاز DGX Spark بسعة 64 جيجابايت إشارة تحذير لأسعار عتاد الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "أشباه الموصلات"
+, "عتاد الحاسوب"
+, "اقتصاد الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المستضاف ذاتياً"</category><guid>https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+توضح فئة DGX Spark بسعة 64 جيجابايت من NVIDIA كيف يؤثر ضغط توريد الذاكرة في عتاد الذكاء الاصطناعي المحلي. يشرح هذا الدليل خفض السعة، ومقايضات الذاكرة الموحدة، ولماذا لا يُرجح تحسن DRAM قبل أواخر 2027.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
