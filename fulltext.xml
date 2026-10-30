@@ -1,0 +1,2697 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ca.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ca</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>1Password SSH Agent and CLI: Accés de només lectura per a agents d'IA</title><link>https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>Dissenyar un flux de treball SSH de només lectura amb 1Password CLI, l'Agent SSH i MCP. Utilitzar comandes sintètiques, permisos restringits i aprovació humana abans de les proves en directe.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Un agent de línia d&rsquo;ordres necessita un accés útil, no una còpia de cada credencial.</strong> Aquesta guia presenta un disseny acotat per a 1Password CLI, l&rsquo;Agent SSH de 1Password, l&rsquo;accés a Git de Bitbucket i el Model Context Protocol (MCP). El primer flux de treball utilitza noms sintètics, accions només de lectura i aprovació humana a la frontera SSH.</p>
+<p>La distinció clau és senzilla. <strong>L&rsquo;SSH interactiu utilitza el consentiment a través de l&rsquo;Agent SSH de 1Password. L&rsquo;automatització no atesa necessita una identitat separada, un accés estret i un cicle de vida de clau diferent.</strong> No considereu una connexió MCP com a permís per executar cap dels dos fluxos de treball.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Protecció de la clau privada:</strong> L&rsquo;Agent SSH de 1Password realitza l&rsquo;autenticació SSH mantenint les claus privades dins de l&rsquo;aplicació 1Password.</li>
+<li><strong>Gestió de la clau pública:</strong> Publiqueu només una clau pública a Bitbucket o a un compte remot. Mantingueu la meitat privada en un element de Clau SSH.</li>
+<li><strong>Consentiment interactiu:</strong> Una persona aprova un client o una sessió de terminal abans que l&rsquo;Agent SSH utilitzi una clau.</li>
+<li><strong>Separació no atesa:</strong> Una tasca programada necessita un compte de servei dedicat i un abast de bóveda estret. Una aprovació de l&rsquo;Agent SSH interactiu no satisfà aquesta necessitat.</li>
+<li><strong>Límits de MCP:</strong> MCP connecta un agent amb eines i recursos. El client, el servidor, el sistema operatiu i la política de 1Password continuen controlant l&rsquo;accés.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Prerequisits:</strong> Installeu 1Password 8 i 1Password CLI 2.20.0 o posterior. Inicieu sessió a través d&rsquo;un compte de 1Password compatible. Utilitzeu un client OpenSSH. Creeu un repositori de Bitbucket de prova o un altre objectiu no de producció. Mantingueu disponible un segon camí administratiu per a la reversió.</p>
+<p><strong>Temps:</strong> De 30 a 45 minuts per a una r
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti contra GB10: per què 32 GB de VRAM perden davant 128 GB de memòria unificada</title><link>https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Comparació basada en benchmarks entre dues targetes RTX 5060 Ti de 16 GB i un sistema NVIDIA GB10 per a Qwen 3 27B i inferència local amb context llarg.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Dues RTX 5060 Ti de 16 GB semblen atractives en una llista de peces.</strong> Ofereixen 32 GB de VRAM agregada i un processament ràpid de prompts amb context curt. La comparació canvia quan executes un model 27B amb context llarg.</p>
+<p>El sistema NVIDIA GB10 utilitza 128 GB de memòria unificada coherent. NVIDIA indica 128 GB de memòria unificada LPDDR5x i una TDP de xip de 140 W per a la plataforma GB10. La RTX 5060 Ti utilitza 16 GB de GDDR7 per targeta, una interfície de memòria de 128 bits i una potència gràfica total de 180 W. Les 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="especificacions de NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >especificacions de NVIDIA RTX 5060 Ti</a>
+</span>
+ i les 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="especificacions de NVIDIA GB10">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+    <a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >especificacions de NVIDIA GB10</a>
+</span>
+ mostren la diferència de maquinari.</p>
+<p><strong>La idea és simple.</strong> Dues targetes de 16 GB no creen un únic pool ràpid de 32 GB. Creen dos pools separats de 16 GB connectats
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>El boom de la infraestructura d'IA el 2026: demanda, deute, energia i proves</title><link>https://ca.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>Una revisió contrastada de la despesa en infraestructura d'IA, la demanda elèctrica dels centres de dades, les estructures de finançament, el valor empresarial i les proves necessàries abans de qualificar el mercat de bombolla.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>La infraestructura d&rsquo;IA creix a un ritme que pocs mercats tecnològics han igualat.</strong> La despesa és real. La demanda d&rsquo;energia és real. El risc de finançament és real. El retorn és menys segur.</p>
+<p>La pregunta útil no és si existeix la intel·ligència artificial. La pregunta útil és si els ingressos futurs i els guanys de productivitat justificaran el maquinari, els centres de dades, els contractes elèctrics, els lloguers i el deute que sostenen aquest desplegament.</p>
+<p>Aquest article revisa les proves públiques del debat sobre la bombolla de la IA. Les previsions es mantenen identificades com a previsions. Les afirmacions de les empreses es mantenen separades de la recerca independent. El resultat no demostra un enfonsament imminent. Mostra on es troba la pressió financera i operativa.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="The (Overdue) Collapse Of The AI Bubble">
+  <met
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Privadesa de la IA local: què queda al vostre ordinador i què no</title><link>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><description>Seguiu els prompts, fitxers de model, eines, registres, exposició de xarxa i costos d'energia abans d'escollir inferència local o un servei d'IA allotjat.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>La IA local us ofereix un límit de dades més petit.</strong> Un prompt processat per un runtime local queda al dispositiu quan el model, les eines, els registres i la ruta de xarxa són locals. Una GPU local no converteix l&rsquo;ordinador en un sistema tancat.</p>
+<p>Els runtimes de models, plugins d&rsquo;eines, extensions del navegador, accés remot, API exposades i descàrregues de models defineixen el risc. El cost també importa. L&rsquo;electricitat pot costar menys que els tokens allotjats, mentre que la propietat del maquinari allarga el punt d&rsquo;equilibri complet.</p>
+<p>Aquesta guia mapeja primer el límit de privadesa. Després comprova el cost amb preus actuals dels proveïdors, una hipòtesi de potència explícita i les xifres del vídeo proporcionat.</p>
+<p>La comparació de costos local i allotjat dona context a les fórmules següents. No copieu xifres de rendiment sense provar el mateix fitxer de model i runtime al vostre maquinari.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Són suficients 16GB de VRAM per treballar seriosament amb LLM locals?</title><link>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><description>Dimensiona una configuració d'LLM local de 16GB segons els pesos del model, la memòria cau KV i el processament de prompts. Compara els pressupostos de memòria, l'amplada de banda de GPU i el cost de propietat de Qwen3.8 27B.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>16GB de memòria GPU dedicada permeten treballar seriosament amb LLM locals quan el model, el context i el runtime encaixen. Carregar els pesos només demostra el primer requisit. Una configuració útil també necessita prou memòria per a la conversa activa i prou velocitat per acabar la tasca.</p>
+<p>Fes servir Qwen3.8 27B com a exemple pràctic per pressupostar un flux de treball de codi o documents per a un sol usuari. Comença amb el context que necessita la tasca i després tria pesos i ajustos del runtime que encaixin amb la memòria restant. Les especificacions del maquinari i les fonts del model es van revisar el 7 d&rsquo;octubre de 2026.</p>
+<h2 id="idees-principals">
+  <a href="#idees-principals" title="Idees principals">Idees principals</a>
+  <a href="#idees-principals" class="h-anchor" aria-hidden="true" title="Idees principals">#</a>
+</h2>
+<ul>
+<li>Reserva memòria per al context abans d&rsquo;escollir una quantització.</li>
+<li>Mesura el processament del prompt per separat de la velocitat de sortida.</li>
+<li>Desactiva el suport de visió que no facis servir i prova una memòria cau KV de 8 bits.</li>
+<li>Compara la GPU, el backend, el fitxer del model i la llargada del prompt exactes.</li>
+<li>Calcula l&rsquo;estalvi de propietat segons la teva càrrega de treball i la factura del proveïdor.</li>
+</ul>
+<p>Per a l&rsquo;exercici de pressupost, necessites el registre de memòria del runtime, el nom exacte del fitxer del model i una tasca representativa. Reserva uns 20 minuts per configurar i registrar resultats, a més del temps d&rsquo;inferència. La dificultat és intermèdia.</p>
+<h2 id="ajusta-la-memòria-a-la-feina">
+  <a href="#ajusta-la-mem%c3%b2ria-a-la-feina" title="Ajusta la memòria a la feina">Ajusta la memòria a la feina</a>
+  <a href="#ajusta-la-mem%c3%b2ria-a-la-feina" class="h-anchor" aria-hidden="true" title="Ajusta la memòria a la feina">#</a>
+</h2>
+<p>16GB encaixen amb una càrrega els pesos, el context actiu i les assignacions temporals de la qual es mantenen dins de la memòria GPU disponible. El context requerit depèn de la tasca. Un resum curt i un agent de codi que llegeix desenes de fitxers necessiten pressupostos diferents.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Càrrega de treball</th>
+					<th>Primera pregunta de dimensionament</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Xat curt o redacció</td>
+					<td>El model compleix el teu objectiu de qualitat?</td>
+			</tr>
+			<tr>
+					<td>Anàlisi de docum
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>10 connectors, habilitats i eines MCP de Claude Code: guia pràctica</title><link>https://ca.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><description>Tria extensions de Claude Code per planificar, revisar codi, gestionar coneixement, dissenyar i automatitzar. Compara deu eines, dependències i comprovacions pràctiques.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Tria una extensió de Claude Code al voltant d&rsquo;un problema concret del teu flux de treball.</strong> Els requisits poc clars necessiten una conversa de planificació. Els defectes no detectats necessiten revisió i proves. La recerca repetida necessita fonts traçables. Instal·lar més eines només ajuda quan les responsabilitats són clares.</p>
+<p>Aquesta guia compara <strong>deu projectes</strong> per a aquestes tasques, amb exemples de configuració i un exercici d&rsquo;avaluació. L&rsquo;anàlisi es basa en la documentació actual dels projectes i en el vídeo proporcionat de Chase AI. Les recomanacions són judicis editorials, no mesures de rendiment pràctiques ni proves d&rsquo;un augment de productivitat de deu vegades.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Tria segons el resultat:</strong> un pla revisat, un mapa de codi i una imatge generada necessiten eines diferents.</li>
+<li><strong>Separa les capes d&rsquo;instal·lació:</strong> les instruccions, els programes executables, els connectors i les connexions de servei tenen dependències diferents.</li>
+<li><strong>Comprova els noms actuals:</strong> Graphify i grill-me-codex ara tenen ubicacions de repositori canòniques diferents.</li>
+<li><strong>Verifica més enllà de l&rsquo;acord:</strong> que dos models acceptin un pla no demostra una implementació correcta.</li>
+<li><strong>Mesura el treball acceptat:</strong> inclou la configuració, l&rsquo;ús del servei, els intents fallits i les correccions humanes.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Requisits previs:</strong> una instal·lació funcional de Claude Code, un projecte o branca d&rsquo;un sol ús i permís per usar els serveis externs seleccionats. Els exemples de CLI assumeixen un terminal i el gestor de paquets indicat. Les integracions al núvol necessiten els seus propis comptes i autenticació.</p>
+<p><strong>Temps estimat:</strong> 15 minuts de lectura i de 30 a 60 minuts per a una prova acotada. <strong>Dificultat:</strong> intermèdia per a la configuració de CLI i la integració de serveis. Llegir les habilitats d&rsquo;instruccions necessita 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>9 projectes de skills d'agents d'IA per a recerca, disseny i desenvolupament</title><link>https://ca.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><description>Compara nou projectes de skills d'agents segons el flux de treball, el suport de l'amfitrió, les dependències i el cost. Aprèn a instal·lar, inspeccionar i provar les skills que necessites.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Instal·la una skill d&rsquo;agent per millorar una tasca repetible.</strong> Investigar discussions actuals, revisar el disseny d&rsquo;una interfície i renderitzar un vídeo requereix procediments i dependències diferents. Una skill útil aporta les instruccions, el material de referència o els scripts que falten per a una d&rsquo;aquestes feines.</p>
+<p><strong>Nou projectes mereixen consideració:</strong> last30days, Humanizer, Impeccable, Superpowers, gstack, Claude Video, Remotion, HyperFrames i NVIDIA SkillSpector. Alguns són paquets d&rsquo;instruccions, alguns inclouen eines executables i alguns són frameworks amb skills complementàries. Aquesta guia compara els seus rols documentats i ofereix una manera pràctica de triar, instal·lar i avaluar les skills necessàries.</p>
+<p><strong>Instantània de la documentació: 10 d&rsquo;octubre de 2026.</strong> Les recomanacions reflecteixen la documentació dels projectes i la inspecció del codi font, no un benchmark comparatiu de la qualitat de sortida. Una instal·lació gratuïta no demostra que la inferència, el renderitzat, l&rsquo;accés a dades o l&rsquo;ús comercial siguin gratuïts.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Comença amb una feina recurrent:</strong> tria una skill amb una sortida clara i una comprovació d&rsquo;acceptació.</li>
+<li><strong>Separa les skills dels runtimes:</strong> instal·lar instruccions no instal·la tots els executables necessaris.</li>
+<li><strong>Comprova l&rsquo;amfitrió:</strong> una integració funcional amb Claude Code no demostra un comportament idèntic a Codex o Cowork.</li>
+<li><strong>Inspecciona permisos i dependències:</strong> els comandos de paquets, els hooks, els serveis externs i les credencials requereixen una revisió separada.</li>
+<li><strong>Personalitza després de provar:</strong> mantén la política del projecte com a autoritat i conserva un registre de les versions upstream.</li>
+</ul>
+<h2 id="tria-segons-el-lliurable">
+  <a href="#tria-segons-el-lliurable" title="Tria segons el lliurable">Tria segons el lliurable</a>
+  <a href="#tria-segons-el-lliurable" class="h-anchor" aria-hidden="true" title="Tria segons el lliurable">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Sortida necessària</th>
+					<th>Projecte per avaluar</th>
+					<th>Primera comprovació</th
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Code CLI contra Desktop: comparació del flux de treball de 2026</title><link>https://ca.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><description>Compara Claude Code al terminal i a l'espai de treball Code d'escriptori, amb configuració compartida, traspàs de sessions, scripts, revisió visual i opcions de permisos.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Claude Code CLI i Desktop</strong> ofereixen dues maneres de dirigir l&rsquo;agent de programació d&rsquo;Anthropic. La CLI afavoreix els fluxos de shell i la invocació programàtica. Desktop afavoreix un espai de treball de projecte visible, amb canvis de fitxers i revisió al costat de la conversa.</p>
+<p><strong>Aquesta comparació tracta l&rsquo;espai de treball de programació d&rsquo;escriptori</strong>, descrit com la pestanya Code a l&rsquo;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="inici ràpid d&rsquo;escriptori">
+    <meta itemprop="url" content="https://code.claude.com/docs/en/desktop-quickstart">
+    <a href="https://code.claude.com/docs/en/desktop-quickstart"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >inici ràpid d&rsquo;escriptori</a>
+</span>
+ d&rsquo;Anthropic. El xat general i altres fluxos d&rsquo;escriptori queden fora de l&rsquo;abast. La distinció importa quan comproves l&rsquo;accés al repositori i la configuració.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Fes servir la CLI per als scripts</strong>, l&rsquo;entrada canalitzada i el treball centrat en el terminal.</li>
+<li><strong>Fes servir Desktop per a la supervisió gràfica</strong>, els fitxers adjunts i la revisió de diffs.</li>
+<li><strong>La configuració compartida redueix la duplicació</strong>, però el comportament de les sessions i els controls disponibles difereixen.</li>
+<li><strong>Moure una conversa exigeix un traspàs compatible</strong>, no copiar un prompt en un xat nou.</li>
+</ul>
+<p><strong>Abast i data:</strong> documentació oficial comprovada el 10 d&rsquo;octubre de 2026. És una comparació de funcions i fluxos de treball, no una prova de programació. Necessites un repositori comprovable i una ruta de compte aprovada. Reserva entre 45 i 60 minuts per a una prova petita.</p>
+<h2 id="mateix-mo
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Codex CLI contra Desktop: comparació del flux de treball de 2026</title><link>https://ca.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><description>Tria entre Codex al terminal i l'espai de treball de programació d'escriptori d'OpenAI. Compara scripts, worktrees, revisió visual, programacions i entorns d'execució.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Codex CLI</strong> encaixa amb un flux de treball controlat per shell, amb ordres explícites i execucions programables. <strong>Codex a l&rsquo;escriptori</strong> encaixa amb treball organitzat al voltant de projectes, converses, sortides visuals i panells de revisió. Tria la interfície segons com supervises el treball i mantén constants el model, el repositori i la política d&rsquo;execució.</p>
+<p><strong>Nota sobre el nom:</strong> la documentació anterior de l&rsquo;aplicació Codex d&rsquo;OpenAI ara redirigeix a la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="documentació de l&rsquo;aplicació ChatGPT per a escriptori">
+    <meta itemprop="url" content="https://learn.chatgpt.com/docs/app">
+    <a href="https://learn.chatgpt.com/docs/app"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >documentació de l&rsquo;aplicació ChatGPT per a escriptori</a>
+</span>
+. Aquesta guia usa “Codex desktop” per al flux de programació dins l&rsquo;aplicació. No equipara un xat normal sense accés al repositori amb un agent de programació.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Usa la CLI per combinar ordres de shell</strong> i executar tasques programables repetibles.</li>
+<li><strong>Usa l&rsquo;escriptori per organitzar projectes</strong>, revisar visualment i gestionar tasques programades.</li>
+<li><strong>Mantén explícita la ubicació d&rsquo;execució</strong>, sobretot quan treballes amb connexions remotes.</li>
+<li><strong>La interfície no garanteix millor codi</strong> ni crea una quota d&rsquo;inferència independent.</li>
+</ul>
+<p><strong>Abast i data:</strong> documentació oficial revisada el 10 d&rsquo;octubre de 2026. Les recomanacions tracten del flux de treball, no del rendiment mesurat del model. Els requisits són un repositori, proves funcionals i accés adequat al compte. Res
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Comparació d'agents de codificació CLI: Claude Code, Codex, Gemini, OpenCode, Copilot i Aider</title><link>https://ca.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><description>Compara sis agents de codificació de terminal segons el flux de treball, l'automatització, l'accés als models, els permisos i l'esforç de revisió. Crea una llista curta amb una prova repetible al repositori.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Els <strong>agents de codificació de terminal</strong> comparteixen una interfície familiar, però difereixen en la recopilació de context, l&rsquo;edició de fitxers, les sol·licituds d&rsquo;aprovació i la integració amb scripts. Aquesta guia compara Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI i Aider. Avalua els seus fluxos de terminal separadament dels productes d&rsquo;escriptori de cada proveïdor.</p>
+<p><strong>Comença per les teves restriccions.</strong> L&rsquo;accés al proveïdor, l&rsquo;automatització repetible i els hàbits de revisió filtren millor que una classificació general. Les recomanacions següents són judicis editorials basats en documentació oficial revisada el 10 d&rsquo;octubre de 2026, no classificacions de rendiment mesurat.</p>
+<h2 id="idees-principals">
+  <a href="#idees-principals" title="Idees principals">Idees principals</a>
+  <a href="#idees-principals" class="h-anchor" aria-hidden="true" title="Idees principals">#</a>
+</h2>
+<ul>
+<li><strong>Claude Code, Codex i Gemini CLI</strong> mereixen una prova si vols els seus fluxos de models propis.</li>
+<li><strong>OpenCode i Aider</strong> serveixen per experimentar amb diversos proveïdors de models, amb enfocaments diferents d&rsquo;interacció i edició.</li>
+<li><strong>Copilot CLI</strong> mereix atenció quan l&rsquo;accés a GitHub i la política de l&rsquo;organització ja defineixen el teu flux.</li>
+<li><strong>Una interfície de terminal no implica inferència local</strong>, elecció il·limitada de models ni execució sense supervisió.</li>
+</ul>
+<p><strong>Requisits previs:</strong> Git, un checkout d&rsquo;un sol ús, proves funcionals i credencials de models aprovades. La dificultat és intermèdia. Reserva una tarda per comparar dues eines seleccionades en tres tasques petites.</p>
+<h2 id="la-llista-curta">
+  <a href="#la-llista-curta" title="La llista curta">La llista curta</a>
+  <a href="#la-llista-curta" class="h-anchor" aria-hidden="true" title="La llista curta">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Eina de terminal</th>
+					<th>Motiu per avaluar-la</th>
+					<th>Decisió pendent</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Claude Code CLI</strong></td>
+					<td>Treball de repositori centrat en Claude</td>
+					<td>Ruta del compte i política de permisos</td>
+			</tr>
+			<tr>
+					<td><strong>Codex CLI</strong></td>
+					<td>Treball interactiu i execució amb scripts</td>
+					<td>Configura
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Comparació d'agents de programació GUI: Cursor, Windsurf, Cline, Copilot i Continue</title><link>https://ca.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><description>Compareu agents de programació gràfics, separeu editors complets d'extensions i examineu el tancament de Roo Code, l'accés als models, les aprovacions i els fluxos de revisió.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>Els <strong>agents de programació gràfics</strong> posen les converses de tasques al costat de fitxers, diffs, diagnòstics i previsualitzacions. Aquesta guia compara Cursor, la línia Windsurf/Cascade, l&rsquo;extensió Cline per a VS Code, GitHub Copilot a VS Code i l&rsquo;extensió Continue per a IDE. Roo Code és una opció antiga de migració perquè la seva documentació anuncia el tancament.</p>
+<p><strong>Trieu l&rsquo;espai de treball abans que el model.</strong> Un editor independent canvia l&rsquo;entorn de desenvolupament. Una extensió afegeix un agent a un editor existent. Avalueu el pegat generat i l&rsquo;esforç per inspeccionar-lo.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Cursor i la línia Windsurf</strong> són editors complets.</li>
+<li><strong>Cline, Copilot i Continue</strong> ofereixen fluxos d&rsquo;agents dins d&rsquo;un editor existent.</li>
+<li><strong>Roo Code necessita planificació de migració</strong>, no un desplegament nou normal.</li>
+<li><strong>Els canvis visibles encara necessiten proves</strong>, revisió de dependències i acceptació explícita.</li>
+</ul>
+<p><strong>Abast i data:</strong> Documentació oficial comprovada el 6 d&rsquo;octubre de 2026. És una comparació de fluxos, no un benchmark de velocitat o qualitat. Els productes de terminal són a la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="comparació CLI">
+    <meta itemprop="url" content="/articles/cli-coding-agents-comparison/">
+    <a href="/articles/cli-coding-agents-comparison/"
+    
+        rel="follow me"
+    >comparació CLI</a>
+</span>
+.</p>
+<p><strong>Requisits:</strong> Projecte existent, proves funcionals i permís per instal·lar l&rsquo;editor o l&rsquo;extensió. Dificultat inicial a intermèdia. Reserveu una tarda per a dues proves.</p>
+<h2 id="noms-i-estat-actuals">
+  <a href="#noms-i-estat-actuals" title="Noms i estat actuals">Noms i estat actuals</a>
+  <a href="#noms-i-estat-actuals" 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Els Context Language Models de Meta: millor memòria per als agents, no la fi de les al·lucinacions</title><link>https://ca.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><description>Com els Context Language Models editen la memòria dels agents, què demostren els benchmarks i com afecten la fiabilitat els costos de la memòria cau, la capacitat del model i les notes no fiables.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Els Context Language Models (CLM)</strong> donen a un agent d&rsquo;IA control directe sobre la informació que rep en la seva propera crida al model. El mètode millora la gestió del context en diverses avaluacions publicades, però no demostra la fi de les al·lucinacions. L&rsquo;agent encara necessita proves per a les seves afirmacions i comprovacions independents del seu treball.</p>
+<p>La qüestió d&rsquo;enginyeria és si l&rsquo;edició selectiva conserva els fets correctes a un cost acceptable. Una conversa més curta només és útil si l&rsquo;agent conserva els requisits, distingeix les observacions de les suposicions i recupera proves de suport quan cal.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Context editable:</strong> CLM descriu un mètode d&rsquo;execució per a models existents, amb entrenament opcional per millorar-ne l&rsquo;ús.</li>
+<li><strong>Guanys condicionals:</strong> la mida del model, el pressupost de context, la tasca i el backend de servei afecten els resultats.</li>
+<li><strong>Comptabilitat de càlcul:</strong> els FLOPs de reutilització del prefix inclouen el recàlcul després de les edicions, però no mesuren directament el temps transcorregut ni la facturació.</li>
+<li><strong>Integritat de la memòria:</strong> les notes del mateix agent continuen sent fal·libles i entrades potencialment insegures.</li>
+<li><strong>Avaluació pràctica:</strong> mesura alhora els resultats acceptats, els fets perduts, les afirmacions sense suport i el cost de recuperació.</li>
+</ul>
+<h2 id="separa-la-memòria-de-les-proves">
+  <a href="#separa-la-mem%c3%b2ria-de-les-proves" title="Separa la memòria de les proves">Separa la memòria de les proves</a>
+  <a href="#separa-la-mem%c3%b2ria-de-les-proves" class="h-anchor" aria-hidden="true" title="Separa la memòria de les proves">#</a>
+</h2>
+<p><strong>Una finestra de context</strong> conté l&rsquo;entrada disponible per al model durant una crida. Les instruccions, les respostes de les eines, les notes de treball i els missatges anteriors competeixen per l&rsquo;espai. La compactació substitueix part d&rsquo;aquest material per una representació més curta.</p>
+<p>Considera una <strong>tasca il·lustrativa d&rsquo;actualització d&rsquo;una dependència</strong>. Un executor de proves informa de dos errors. L&rsquo;agent 
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Els millors harnesses d'agents d'IA el 2026: tria segons el flux de treball</title><link>https://ca.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><description>Compara Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi i LangGraph segons l'execució d'eines, la memòria, la recuperació i l'esforç d'integració.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/ai-agent-execution-components.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Deep Agents és la meva primera opció per a un agent general amb models configurables i gestió del context integrada.</strong> Claude Agent SDK encaixa bé per incrustar el comportament d&rsquo;execució de Claude Code. OpenAI Agents SDK i Pydantic AI mereixen una prova per a agents específics d&rsquo;una aplicació, mentre Pi prioritza un nucli petit i extensible i LangGraph prioritza el control explícit del flux de treball.</p>
+<p><strong>La millor opció depèn del treball que vulguis acceptar.</strong> Un assistent de recerca, un editor de repositoris i un servei que processa sol·licituds de clients necessiten eines i regles de recuperació diferents. Aquestes recomanacions són judicis editorials basats en documentació oficial revisada el <strong>10 d&rsquo;octubre de 2026</strong>, no resultats d&rsquo;un benchmark pràctic de rendiment.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Tria primer l&rsquo;abstracció:</strong> agent assemblat, SDK d&rsquo;aplicació o runtime de flux de treball.</li>
+<li><strong>Comprova els límits d&rsquo;execució:</strong> l&rsquo;aprovació d&rsquo;eines, l&rsquo;aïllament del sistema de fitxers i la política de xarxa resolen problemes diferents.</li>
+<li><strong>Prova la recuperació:</strong> l&rsquo;historial de conversa per si sol no evita accions externes duplicades.</li>
+<li><strong>Mesura el treball acceptat:</strong> inclou errors, temps de revisió i infraestructura en la comparació de costos.</li>
+<li><strong>Mantén explícit el model:</strong> canviar el model i el programari de l&rsquo;agent prova el sistema complet, no només el programari.</li>
+</ul>
+<h2 id="què-proporciona-un-harness">
+  <a href="#qu%c3%a8-proporciona-un-harness" title="Què proporciona un harness">Què proporciona un harness</a>
+  <a href="#qu%c3%a8-proporciona-un-harness" class="h-anchor" aria-hidden="true" title="Què proporciona un harness">#</a>
+</h2>
+<p>Un <strong>harness d&rsquo;agent és el programari que envolta una crida al model.</strong> Prepara el context, exposa eines, executa accions aprovades, retorna resultats i decideix quan continuar o aturar-se. Segons la implementació, també gestiona memòria, delegació, permisos i recuperació.</p>
+<p>Un <strong>model</strong> proposa la següent acció. Una <strong>eina</strong> executa una operació. Un <stron
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GitHub Copilot CLI contra VS Code: comparació del flux de treball de 2026</title><link>https://ca.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><description>Compara l’agent de terminal de Copilot amb l’experiència a VS Code, amb el context de l’editor, les diferències visuals, el mode Agent, la integració CLI i les polítiques del compte.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>GitHub Copilot CLI i Copilot a VS Code ofereixen punts d’entrada diferents per programar.</strong> CLI comença amb l’intèrpret d’ordres i una tasca. VS Code combina context de l’editor, suggeriments, xat i fluxos d’agent. Avalua’ls amb la mateixa política de compte i repositori.</p>
+<p><strong>L’elecció no és exclusiva.</strong> GitHub documenta una connexió entre Copilot CLI i VS Code. Una tasca de terminal aprofita la selecció de l’editor i la revisió visual quan connectes les dues eines explícitament.</p>
+<h2 id="idees-principals">
+  <a href="#idees-principals" title="Idees principals">Idees principals</a>
+  <a href="#idees-principals" class="h-anchor" aria-hidden="true" title="Idees principals">#</a>
+</h2>
+<ul>
+<li><strong>Fes servir Copilot CLI per a tasques de terminal</strong> i invocacions programàtiques admeses.</li>
+<li><strong>Fes servir Copilot a VS Code per a feina centrada en l’editor</strong>, amb assistència en línia i mode Agent.</li>
+<li><strong>Connecta CLI amb VS Code</strong> quan necessitis prompts de terminal amb context i diferències de l’editor.</li>
+<li><strong>Verifica el compte, el model i les polítiques</strong>, encara que pertanyin a la mateixa família de productes.</li>
+</ul>
+<p><strong>Abast i data:</strong> La documentació oficial es va comprovar el 10 d’octubre de 2026. Aquesta comparació tracta el CLI independent <code>copilot</code> i Copilot a VS Code, no l’antiga extensió <code>gh copilot</code> ni un agent del núvol assignat a una issue de GitHub. Cal un repositori provable i accés autoritzat a Copilot. Reserva una hora per a la prova.</p>
+<h2 id="tres-maneres-de-treballar">
+  <a href="#tres-maneres-de-treballar" title="Tres maneres de treballar">Tres maneres de treballar</a>
+  <a href="#tres-maneres-de-treballar" class="h-anchor" aria-hidden="true" title="Tres maneres de treballar">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Flux</th>
+					<th>Interacció principal</th>
+					<th>Tasca de prova adequada</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>CLI independent</strong></td>
+					<td>Prompt de terminal i sortida d’ordres</td>
+					<td>Explicar i corregir un error de prova reproduït</td>
+			</tr>
+			<tr>
+					<td><strong>Integració amb VS Code</strong></td>
+					<td>Selecció de l’editor, xat, suggeriments i diferències</td>
+					<td>Modificar una funció seleccionada i les seves proves</td>
+			</tr>
+			<tr>
+					<td><strong>CLI connectat a
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>IA local contra ChatGPT: fins a quin punt ens hi acostem?</title><link>https://ca.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><description>Compara la IA local amb ChatGPT i Claude amb puntuacions de referència, estimacions de memòria, velocitat de servei i verificació d'agents. Inclou escenaris amb RTX 5090, DGX Spark i Mac Studio.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>La <strong>IA local</strong> és una opció pràctica per a tasques delimitades amb comprovacions clares. Per substituir el treball que dones a ChatGPT o Claude, han d&rsquo;encaixar la capacitat del model, la memòria disponible i un agent capaç d&rsquo;inspeccionar i verificar el resultat.</p>
+<p>Un model que cap a la teva estació de treball encara necessita eines adequades i prou velocitat per repetir intents. Aquest article separa resultats de benchmarks, estimacions de memòria i proves de tasques completades.</p>
+<h2 id="idees-principals">
+  <a href="#idees-principals" title="Idees principals">Idees principals</a>
+  <a href="#idees-principals" class="h-anchor" aria-hidden="true" title="Idees principals">#</a>
+</h2>
+<ul>
+<li><strong>Capacitat:</strong> les puntuacions de referència descriuen configuracions concretes, no la teva compilació local quantitzada.</li>
+<li><strong>Memòria:</strong> reserva espai per als pesos, la cau de context i la sobrecàrrega d&rsquo;execució.</li>
+<li><strong>Velocitat:</strong> repetir una conversa d&rsquo;agent mesura el servei, no la correcció.</li>
+<li><strong>Verificació:</strong> un agent necessita comprovacions adaptades al resultat demanat.</li>
+<li><strong>Selecció:</strong> compara tasques repetides, temps de reparació i cost total abans de comprar maquinari.</li>
+</ul>
+<h2 id="llegeix-les-puntuacions-en-context">
+  <a href="#llegeix-les-puntuacions-en-context" title="Llegeix les puntuacions en context">Llegeix les puntuacions en context</a>
+  <a href="#llegeix-les-puntuacions-en-context" class="h-anchor" aria-hidden="true" title="Llegeix les puntuacions en context">#</a>
+</h2>
+<p>L&rsquo;<strong>Artificial Analysis Intelligence Index</strong> agrupa diverses avaluacions en una puntuació de referència. El 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="rànquing de models">
+    <meta itemprop="url" content="https://artificialanalysis.ai/leaderboards/models">
+    <a href="https://artificialanalysis.ai/leaderboards/models"
+    
+        
+            
+                
+                    rel="noopener exte
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode CLI vs Desktop: comparació del flux de treball de 2026</title><link>https://ca.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><description>Compara els clients de terminal i d'escriptori d'OpenCode mitjançant la seva arquitectura de servidor, la configuració del proveïdor, els scripts, l'estat de sessió i la resolució de problemes.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode CLI i Desktop són clients del mateix producte d&rsquo;agent de codi.</strong> La interfície de terminal s&rsquo;adapta al treball amb teclat i als scripts. L&rsquo;aplicació d&rsquo;escriptori ofereix un espai de treball gràfic. La comparació important inclou el servidor, el projecte, el proveïdor i la configuració que hi ha darrere de cada client.</p>
+<p><strong>Tria la interfície després d&rsquo;identificar el backend.</strong> Dues finestres d&rsquo;OpenCode no necessàriament utilitzen el mateix servidor o sessió. Una aplicació d&rsquo;escriptori connectada a un altre servidor és un entorn d&rsquo;execució diferent, encara que l&rsquo;etiqueta del model sembli familiar.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Utilitza CLI per al treball de terminal</strong> i les ordres no interactives.</li>
+<li><strong>Utilitza Desktop per a un espai gràfic</strong>, comprovant el servidor seleccionat.</li>
+<li><strong>La configuració del proveïdor determina la inferència</strong>, independentment de la interfície.</li>
+<li><strong>La mateixa identitat de producte no garanteix el mateix estat de sessió</strong> entre servidors o versions separats.</li>
+</ul>
+<p><strong>Abast i data:</strong> Documentació oficial comprovada el 6 d&rsquo;octubre de 2026. Aquesta guia compara interfícies, no la qualitat dels models. Necessites un repositori, una connexió de proveïdor funcional i coneixements bàsics de terminal. Reserva 45 a 60 minuts per a la prova.</p>
+<h2 id="el-client-i-el-servidor">
+  <a href="#el-client-i-el-servidor" title="El client i el servidor">El client i el servidor</a>
+  <a href="#el-client-i-el-servidor" class="h-anchor" aria-hidden="true" title="El client i el servidor">#</a>
+</h2>
+<p><strong>OpenCode separa la interfície del servidor.</strong> La 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="documentació del servidor">
+    <meta itemprop="url" content="https://openco
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode contra Claude Code: comparació d'agents de programació de 2026</title><link>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><description>Compara OpenCode i Claude Code en elecció de models, inferència local, preus, permisos, instruccions del projecte i fluxos diaris de programació.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode</strong> s&rsquo;adapta als desenvolupadors que volen controlar els proveïdors de models, la configuració de l&rsquo;agent i la inferència local. <strong>Claude Code</strong> s&rsquo;adapta als desenvolupadors que volen el flux de programació integrat d&rsquo;Anthropic, accés mitjançant una subscripció de Claude i controls organitzatius documentats. Tots dos treballen dins de repositoris reals. Els resultats útils depenen de l&rsquo;execució d&rsquo;eines, les instruccions del projecte i la verificació.</p>
+<p><strong>L&rsquo;agent i el model són decisions separades.</strong> Passar de Claude Code amb un model Claude allotjat a OpenCode amb un model local petit canvia diverses variables alhora. Una diferència en els resultats no demostra quina aplicació d&rsquo;agent és millor.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Tria OpenCode per la flexibilitat dels proveïdors</strong>, la personalització de codi obert i els experiments amb models allotjats o locals.</li>
+<li><strong>Tria Claude Code per a un flux centrat en Claude</strong>, sobretot si la teva subscripció o organització ja l&rsquo;admet.</li>
+<li><strong>L&rsquo;execució local necessita precisió.</strong> Una aplicació de terminal continua enviant els prompts al seu servei d&rsquo;inferència configurat.</li>
+<li><strong>Compara la feina acabada</strong>, inclosos el temps de revisió i els intents fallits, en lloc de mirar només la velocitat de tokens.</li>
+</ul>
+<p><strong>Abast i data:</strong> Aquesta comparació revisa la documentació oficial i els preus del 6 d&rsquo;octubre de 2026. Ofereix orientació per triar, no una prova pràctica de rendiment.</p>
+<p><strong>Requisits previs:</strong> Un repositori Git, ordres funcionals de compilació i proves, i accés al model previst. Reserva entre 60 i 90 minuts per a una comparació inicial després de la instal·lació. La dificultat és intermèdia.</p>
+<h2 id="comparació-de-funcions">
+  <a href="#comparaci%c3%b3-de-funcions" title="Comparació de funcions">Comparació de funcions</a>
+  <a href="#comparaci%c3%b3-de-funcions" class="h-anchor" aria-hidden="true" title="Comparació de funcions">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Àrea</th>
+					<th>OpenCode</th>
+					<th>Claude Code</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Llicè
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/opencode-vs-claude-code/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Programació d'IA local en una GPU de 16GB: Strata, OpenCode i Qwen3.8</title><link>https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><description>Executa un agent de programació local amb Strata i OpenCode. Examina els resultats publicats de l'RTX 4060 Ti, els requisits de RAM, la reutilització de prompts, els pressupostos de raonament i els límits de substituir una subscripció de pagament.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Un agent de programació local en una GPU de 16GB és una opció pràctica per a tasques de desenvolupament acotades.</strong> Strata i OpenCode combinen inferència local amb edició de fitxers, ordres de shell i execució de proves. Una execució publicada de Qwen3.8-Flash-Next en una RTX 4060 Ti va completar una aplicació, canvis posteriors i un prototip de joc de carreres sense crides d&rsquo;inferència de pagament.</p>
+<p><strong>Substituir una subscripció requereix una prova més àmplia.</strong> Els resultats publicats demostren una configuració funcional en una màquina. No demostren paritat amb serveis de programació de pagament entre llenguatges, repositoris o tasques difícils de depuració. El maquinari també inclou 64GB de RAM del sistema, que allotja bona part del model.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>16GB descriu la memòria de la GPU</strong>, no la memòria total necessària per a la configuració publicada.</li>
+<li><strong>La reutilització del prompt importa</strong> perquè els agents de programació envien repetidament historials de conversa solapats.</li>
+<li><strong>El raonament necessita un pressupost</strong> perquè la planificació deixi espai per al codi i les crides d&rsquo;eines.</li>
+<li><strong>Passar proves generades és una evidència parcial</strong>, i Docker i el joc necessiten comprovacions separades.</li>
+<li><strong>La despesa d&rsquo;API zero exclou els costos de propietat</strong>, l&rsquo;electricitat i el temps de manteniment.</li>
+</ul>
+<p><strong>Requisits previs:</strong> un ordinador compatible, prou emmagatzematge lliure per al model seleccionat, Git, Node.js amb npm i familiaritat amb eines de terminal. Reprodueix la configuració IQ3_S publicada amb 64GB de RAM. Usa l&rsquo;instal·lador actual de Strata per comprovar altres configuracions.</p>
+<p><strong>Temps i dificultat:</strong> intermedi. Reserva temps per a les baixades i la instal·lació de models grans abans d&rsquo;avaluar la velocitat de finalització de tasques. Els temps publicats de les tasques exclouen la configuració.</p>
+<h2 id="la-configuració-provada">
+  <a href="#la-configuraci%c3%b3-provada" title="La configuració provada">La configuració provada</a>
+  <a href="#la-configuraci%c3%b3-provada" class="h-anchor" aria-hidden="true" title="La configuració prov
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Quin model d'IA local hauries d'executar? Guia de GPU, context i programació per a l'octubre de 2026</title><link>https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><description>Guia pràctica d'octubre de 2026 per triar models d'IA locals per a agents de programació. Compara la memòria de GPU, el creixement de la KV-cache, la mida del context, la qualitat de la quantització, el processament de prompts, la configuració del raonament i el cost del lloguer al núvol.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>El millor model local per programar és el que manté prou part del teu projecte en memòria i el llegeix prou ràpid per continuar sent útil.</strong> La mida del model continua important, però un model que només encaixa després de passar dades a la RAM del sistema sovint funciona pitjor que un model més petit amb una finestra de context estable.</p>
+<p><em>Tria el model i el pressupost de memòria alhora. No triïs un model d&rsquo;una llista de nivells i l&rsquo;obliguis a funcionar en maquinari inadequat.</em></p>
+<p>Aquesta guia se centra en agents de programació, no en prompts curts d&rsquo;autocompletat. Un agent llegeix fitxers, sortida d&rsquo;eines, errors del compilador i resultats de proves abans d&rsquo;escriure una solució. Aquestes entrades consumeixen context, i el context canvia la decisió sobre el maquinari.</p>
+<h2 id="el-vídeo-és-una-referència">
+  <a href="#el-v%c3%addeo-%c3%a9s-una-refer%c3%a8ncia" title="El vídeo és una referència">El vídeo és una referència</a>
+  <a href="#el-v%c3%addeo-%c3%a9s-una-refer%c3%a8ncia" class="h-anchor" aria-hidden="true" title="El vídeo és una referència">#</a>
+</h2>
+<p>El vídeo següent compara models locals en diversos nivells de memòria de GPU. És útil per les seves observacions pràctiques sobre la selecció de models i els resultats de maquinari que presenta. Aquest article segueix un camí separat i organitza la decisió al voltant del comportament de la memòria, el context de l&rsquo;agent, el processament de prompts i el cost total de propietat.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: cente
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Enrutament de proveïdors d'OpenRouter: qualitat del model, límits de tokens i costos reals</title><link>https://ca.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><description>Diagnostica respostes inconsistents d'OpenRouter, compara els límits dels endpoints i els costos de la memòria cau, i configura l'enrutament sense desactivar controls de qualitat per accident.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>L&rsquo;enrutament de proveïdors d&rsquo;OpenRouter</strong> determina quin servei d&rsquo;inferència respon a la teva sol·licitud. Dues crides amb el mateix nom de model encara depenen dels límits de l&rsquo;endpoint, dels paràmetres admesos, del programari de servei i de les preferències d&rsquo;enrutament. Si les respostes es fan més curtes o fallen les crides d&rsquo;eines, revisa aquestes diferències abans de culpar la quantització.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong>Les etiquetes de precisió</strong> descriuen un format numèric, no una puntuació d&rsquo;exactitud.</li>
+<li><strong>Els límits de l&rsquo;endpoint</strong> determinen el context disponible, la longitud de sortida i el suport de funcions.</li>
+<li><strong>L&rsquo;enrutament explícit</strong> necessita una política de fallback i una preferència de proveïdor.</li>
+<li><strong>Auto Exacto</strong> millora la selecció amb senyals de qualitat i ofereix una ruta opt-in per a sol·licituds sense eines.</li>
+<li><strong>El cost efectiu</strong> inclou sortida, memòria cau, reintents i finalització correcta de la tasca.</li>
+</ul>
+<p><strong>Requisits:</strong> Coneixement de les sol·licituds JSON i accés a la configuració d&rsquo;OpenRouter de la teva aplicació. La inspecció dels endpoints usa una API pública. Enviar sol·licituds de model necessita una clau d&rsquo;API i genera càrrecs. Torna a comprovar les metadades abans de repetir un exemple datat.</p>
+<p><strong>Temps i dificultat:</strong> Uns 20 minuts per a una revisió inicial. Nivell intermedi. Una comparació útil entre proveïdors requereix proves addicionals amb prompts representatius.</p>
+<h2 id="què-omet-el-nom-del-model">
+  <a href="#qu%c3%a8-omet-el-nom-del-model" title="Què omet el nom del model">Què omet el nom del model</a>
+  <a href="#qu%c3%a8-omet-el-nom-del-model" class="h-anchor" aria-hidden="true" title="Què omet el nom del model">#</a>
+</h2>
+<p><strong>Un identificador de model</strong> selecciona el model sol·licitat. El proveïdor executa el servei d&rsquo;inferència, amb la implementació del model, els límits de tokens i l&rsquo;analitzador de crides d&rsquo;eines. Un benchmark del model no valida tots els serveis que allotgen aquests pesos.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Propietat de l&rsquo;endpoint</th>
+				
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>32 GB de VRAM per a Qwen 27B: guia de maquinari d'IA local per a l'octubre de 2026</title><link>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><description>Guia pràctica d'octubre de 2026 per executar un model Qwen 27B amb 32 GB de memòria utilitzable de l'accelerador. Compara GPU individuals, equips amb dues targetes, memòria unificada, targetes usades de centres de dades, còmput llogat, suport de programari i límits de context complet.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Que l&rsquo;etiqueta del producte indiqui 32 GB no vol dir que hi hagi 32 GB disponibles per a una càrrega Qwen 27B.</strong> El sistema operatiu, el temps d&rsquo;execució, la memòria cau KV, el format del model, els controladors i la distribució de les targetes canvien el resultat. Una targeta barata amb prou capacitat encara pot perdre clarament en el processament del prompt o en el temps de configuració.</p>
+<p><em>A l&rsquo;octubre de 2026, compara la memòria utilitzable i la feina completada per dòlar, no només el nombre de VRAM.</em></p>
+<p>Aquesta guia presenta maneres pràctiques d&rsquo;executar un model Qwen 27B amb qualitat de 6 bits i una finestra de context gran. Separa les especificacions publicades dels resultats de proves comunicats, perquè el resultat de tokens per segon d&rsquo;una persona no és una propietat universal d&rsquo;una GPU.</p>
+<h2 id="per-què-lobjectiu-és-32-gb">
+  <a href="#per-qu%c3%a8-lobjectiu-%c3%a9s-32-gb" title="Per què l&rsquo;objectiu és 32 GB">Per què l&rsquo;objectiu és 32 GB</a>
+  <a href="#per-qu%c3%a8-lobjectiu-%c3%a9s-32-gb" class="h-anchor" aria-hidden="true" title="Per què l&rsquo;objectiu és 32 GB">#</a>
+</h2>
+<p>La necessitat de memòria comença amb els pesos. Un model dens de 27B llegeix tot el conjunt de paràmetres durant la generació. Amb quantificació de 6 bits, els pesos ocupen aproximadament <strong>20,5 GB</strong> abans d&rsquo;afegir les assignacions d&rsquo;execució i la memòria de context.</p>
+<p>Un context de 128K tokens afegeix una altra assignació gran. La mida exacta de la memòria cau KV depèn de l&rsquo;arquitectura del model, la precisió de la memòria cau, els paràmetres dels lots i el backend. Una estimació pràctica d&rsquo;uns <strong>8 GB</strong> situa els pesos i la memòria cau plegats prop dels <strong>28,5 GB</strong> abans que el sistema operatiu i el temps d&rsquo;execució d&rsquo;inferència prenguin la seva part.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Configuració</th>
+					<th>Què permet</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>GPU discreta de 24 GB</strong></td>
+					<td>Pesos de 4 bits amb menys context, o descàrrega parcial</td>
+			</tr>
+			<tr>
+					<td><strong>GPU discreta de 32 GB</strong></td>
+					<td>Pesos de 6 bits amb un objectiu útil de context 128K</td>
+			</tr>
+			<tr>
+					<td><strong>Dues GPU de 16 GB</strong></td>
+					<td>Model dividit amb menys marge per a la sobrecàrrega d&rsquo;execució</td>
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>El DGX Spark de 64 GB és un senyal d'alerta per als preus del maquinari d'IA local</title><link>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><description>La versió de 64 GB del DGX Spark de NVIDIA mostra com la pressió sobre el subministrament de memòria afecta el maquinari d'IA local. Aquesta guia explica la reducció de capacitat, els compromisos de la memòria unificada i per què l'alleujament de la DRAM és poc probable abans de finals de 2027.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>El DGX Spark de 64 GB és un senyal del mercat per als compradors d&rsquo;IA local.</strong> Arriba una configuració amb menys memòria mentre la demanda de servidors d&rsquo;IA, HBM i DRAM convencional continua alta. El canvi no demostra que cada component sigui idèntic al sistema de 128 GB, però mostra com els proveïdors responen al cost, la disponibilitat i la segmentació del producte.</p>
+<p><em>Si necessites un sistema d&rsquo;IA local amb molta memòria compartida, esperar una baixada ràpida de preus és un pla feble. Fixa un pressupost, segueix la capacitat de memòria per dòlar i mantén una segona via de maquinari.</em></p>
+
+
+<h2 id="què-ha-canviat">
+  <a href="#qu%c3%a8-ha-canviat" title="Què ha canviat?">Què ha canviat?</a>
+  <a href="#qu%c3%a8-ha-canviat" class="h-anchor" aria-hidden="true" title="Què ha canviat?">#</a>
+</h2>
+<p>El DGX Spark de 64 GB anunciat afegeix un nivell de menor capacitat al sistema compacte Grace Blackwell de NVIDIA. Tom&rsquo;s Hardware informa d&rsquo;un preu inicial de 4.999 dòlars per a la unitat de 64 GB i de 6.950 dòlars per al model de 128 GB. Els dos nivells s&rsquo;adrecen a pressupostos de memòria diferents, però mantenen la mateixa família general de producte i plataforma GB10. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Tom&rsquo;s Hardware informa sobre el producte i els preus">
+    <meta itemprop="url" content="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less">
+    <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Tom&rsquo;s Hardware informa sobre el producte i els preus</a>
+</span>
+.</p>
+<p>La documentació de NVIDIA enume
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Com desactivar el pagament sense contacte d'una targeta de crèdit</title><link>https://ca.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><description>Guia pràctica per desactivar el pagament sense contacte d'una targeta de crèdit de reserva mentre mantens disponibles els pagaments amb xip i banda magnètica, amb límits de seguretat i millors alternatives.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p><strong>Una targeta sense contacte té una antena NFC separada.</strong> Si guardes la targeta dins de la funda del telèfon, l&rsquo;antena pot provocar conflictes entre targetes o alertes NFC repetides en alguns telèfons. Una interrupció física del circuit de l&rsquo;antena desactiva el pagament amb un toc, mentre el xip i la banda magnètica continuen disponibles en algunes targetes.</p>
+<p><em>Utilitza una targeta de reserva per a aquest projecte. Considera la modificació permanent i confirma el resultat amb l&rsquo;emissor de la targeta abans de confiar-hi.</em></p>
+<p><strong>No modifiquis el teu únic mètode de pagament.</strong> Les normes de l&rsquo;emissor, la construcció de la targeta i el suport dels terminals varien. Tingues una segona targeta o efectiu disponible mentre proves la targeta danyada.</p>
+<h2 id="per-què-desactivar-el-pagament-sense-contacte">
+  <a href="#per-qu%c3%a8-desactivar-el-pagament-sense-contacte" title="Per què desactivar el pagament sense contacte?">Per què desactivar el pagament sense contacte?</a>
+  <a href="#per-qu%c3%a8-desactivar-el-pagament-sense-contacte" class="h-anchor" aria-hidden="true" title="Per què desactivar el pagament sense contacte?">#</a>
+</h2>
+<p>Pagar amb un toc és còmode, i les carteres mòbils modernes afegeixen un altre testimoni de pagament al mateix telèfon. El problema comença quan una targeta física amb NFC queda a prop del lector NFC del telèfon.</p>
+<p>Dos instruments de pagament poden respondre al mateix lector. Android també pot detectar la targeta física quan obres o agafes el telèfon. Treure la targeta de la funda resol el problema, però afegeix fricció cada vegada que pagues.</p>
+<p>L&rsquo;objectiu és concret: desactivar la interfície sense contacte de la targeta i mantenir disponibles els altres mètodes de pagament.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Mètode de pagament</th>
+					<th>Resultat esperat després de trencar l&rsquo;antena</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Pagament sense contacte</strong></td>
+					<td>Desactivat perquè el circuit de l&rsquo;antena NFC ja no s&rsquo;acobla al lector</td>
+			</tr>
+			<tr>
+					<td><strong>Xip EMV</strong></td>
+					<td>Sovint continua disponible si el xip i els seus contactes no es toquen</td>
+			</tr>
+			<tr>
+					<td><strong>Banda magnètica</strong></td>
+					<td>Sovint continua disponible si no es toca la banda</td>
+			</tr>
+			<tr>
+					<td><strong>Pagaments amb targeta en línia<
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Capstone de col·laboració amb IA: GitHub, Confluence i Jira</title><link>https://ca.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><description>Executa un canvi de retenció sintètic amb fluxos de treball GitHub-first i Confluence/Jira, evidència de fallades i revisió independent.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al curs de col·laboració amb IA">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >Torna al curs de col·laboració amb IA</a>
+</span>
+</p>
+<p><strong>Lliura PROP-042 dues vegades</strong>, primer amb GitHub-first i després amb GitHub, Confluence i Jira. Tu contribueixes, propietaris separats revisen i els editors autoritzats apliquen el canvi. Fes servir sandbox sintètics aïllats després de les lliçons anteriors. El capstone prova el procediment complet, incloent-hi el rebuig, la recuperació i el traspàs independent. No prova només la qualitat de la prosa de l’assistent.</p>
+<h2 id="idees-clau">
+  <a href="#idees-clau" title="Idees clau">Idees clau</a>
+  <a href="#idees-clau" class="h-anchor" aria-hidden="true" title="Idees clau">#</a>
+</h2>
+<ul>
+<li><strong>Un canvi compartit</strong> compara els dos models d’autoritat.</li>
+<li><strong>Les proves negatives</strong> importen tant com el lliurament correcte.</li>
+<li><strong>Els paquets d’evidència</strong> permeten la revisió independent.</li>
+<li><strong>Completar el laboratori</strong> no autoritza el desplegament en producció.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Prerequisits:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="mòduls anteriors del curs">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a h
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Col·laboració d'IA a GitHub: límits del repositori i de la revisió</title><link>https://ca.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://ca.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><description>Crea un mapa de fonts basat en GitHub, assigna propietaris de fitxers i estableix un límit de publicació protegit per a contribucions d'IA revisades.</description><content:encoded><![CDATA[
+        
+            <img src="https://ca.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read the full article at https://ca.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Torna al curs de col·laboració d&rsquo;IA">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >Torna al curs de col·laboració d&rsquo;IA</a>
+</span>
+</p>
+<p><strong>El mantenidor construeix el límit de publicació basat en GitHub</strong> després d&rsquo;aprovar l&rsquo;acta. Els requisits, la configuració, la política i els procediments viuen en un repositori d&rsquo;un sol ús. Els col·laboradors proposen mitjançant Issues i pull requests. Tu estableixes on viuen els fets aprovats i bloqueges els canvis sense revisió abans d&rsquo;adjuntar agents.</p>
+<h2 id="punts-clau">
+  <a href="#punts-clau" title="Punts clau">Punts clau</a>
+  <a href="#punts-clau" class="h-anchor" aria-hidden="true" title="Punts clau">#</a>
+</h2>
+<ul>
+<li><strong><code>main</code> protegit</strong> és el límit de publicació.</li>
+<li><strong>Les Issues</strong> recullen feina proposada sense aprovar polítiques.</li>
+<li><strong>CODEOWNERS</strong> assigna revisors de fitxers elegibles.</li>
+<li><strong>Usuaris separats</strong> demostren els controls de revisió i denegació.</li>
+</ul>
+<h2 id="abans-de-començar">
+  <a href="#abans-de-comen%c3%a7ar" title="Abans de començar">Abans de començar</a>
+  <a href="#abans-de-comen%c3%a7ar" class="h-anchor" aria-hidden="true" title="Abans de començar">#</a>
+</h2>
+<p><strong>Requisits previs:</strong> la 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="base del pilot">
+    <meta itemprop="url" content="/articles/ai-collaboration-pilot-foundation/">
+    <a href="/articles/ai-collaboration-pilot
+
+        <br>
+        <a href="https://ca.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read More at https://ca.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
