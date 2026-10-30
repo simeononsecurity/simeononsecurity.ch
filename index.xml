@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://ja.simeononsecurity.com/</link></image><link>https://ja.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>1Password SSH Agent and CLI: Read-Only AI Agent Access</title><link>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"システム管理"
+, "クラウドセキュリティ"
+, "自動化"</category><guid>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+1Password CLI、SSH Agent、MCPを使用して、読み取り専用のSSHワークフローを設計します。ライブテストの前に、合成コマンド、権限の制限、人間の承認を使用します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp" length="150088" type="image/webp"/></item><item><title>2026年のAIインフラブーム：需要、債務、電力、根拠</title><link>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "AI経済"
+, "データセンター"
+, "クラウドインフラ"
+, "サイバーセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIインフラ投資、データセンターの電力需要、資金調達の構造、企業価値、市場をバブルと呼ぶ前に必要な根拠を検証する記事です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>2x RTX 5060 Ti 対 GB10: 32 GB VRAM が 128 GB 統合メモリに負ける理由</title><link>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ローカルAI"
+, "GPUハードウェア"
+, "ベンチマーク"
+, "コンピュータハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Qwen 3 27B と長いコンテキストのローカル推論を対象に、16 GB の RTX 5060 Ti 2 枚と NVIDIA GB10 システムをベンチマークで比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>ローカルAIのプライバシー境界: コンピューターに残るものと残らないもの</title><link>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "プライバシー"
+, "セルフホストAI"
+, "サイバーセキュリティ"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ローカル推論かホスト型AIサービスかを選ぶ前に、プロンプト、モデルファイル、ツール、ログ、ネットワーク公開範囲、電力コストを確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>本格的なローカル LLM 作業に 16GB VRAM は十分か</title><link>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "コンピュータハードウェア"
+, "セルフホスト AI"</category><guid>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデルウェイト、KV キャッシュ、プロンプト処理を基準に 16GB のローカル LLM 構成を見積もります。Qwen3.8 27B のメモリ予算、GPU 帯域幅、所有コストを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>16GB GPUでのローカルAIコーディング: Strata、OpenCode、Qwen3.8</title><link>https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "開発者ツール"
+, "セルフホストAI"
+, "AIハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+StrataとOpenCodeでローカルコーディングエージェントを実行します。報告されたRTX 4060 Tiの結果、RAM要件、プロンプト再利用、推論予算、有料サブスクリプション置き換えの限界を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>2026年のAIエージェントハーネス：ワークフローで選ぶ</title><link>https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "ソフトウェア開発"
+, "AIセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Deep Agents、Claude Agent SDK、OpenAI Agents SDK、Pydantic AI、Pi、LangGraphを、ツール実行、メモリ、復旧、統合の負担で比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/ai-agent-execution-components.webp" length="228402" type="image/webp"/></item><item><title>Claude Code CLI と Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルとデスクトップの Code ワークスペースで Claude Code を比較します。共有設定、セッション引き継ぎ、スクリプト、視覚的なレビュー、権限の選択を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Claude Codeのプラグイン、スキル、MCPツール10選：実践ガイド</title><link>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+計画、コードレビュー、ナレッジ管理、デザイン、自動化に使うClaude Code拡張を選びます。10個のツール、依存関係、実践的な確認方法を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>CLI コーディングエージェント比較: Claude Code、Codex、Gemini、OpenCode、Copilot、Aider</title><link>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+6 つのターミナルコーディングエージェントを、ワークフロー、自動化、モデルアクセス、権限、レビュー作業で比較します。再現可能なリポジトリ試験で候補を絞ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルの Codex と OpenAI のデスクトップ開発環境を比較します。スクリプト、worktree、目視レビュー、スケジュール、実行環境を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI と VS Code: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Copilot のターミナルエージェントと VS Code 体験を比較します。エディターコンテキスト、ビジュアル差分、Agent モード、CLI 統合、アカウントポリシーを扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUIコーディングエージェント比較: Cursor、Windsurf、Cline、Copilot、Continue</title><link>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+グラフィカルなコーディングエージェントを比較し、完全なエディターと拡張機能を分け、Roo Codeの終了、モデルアクセス、承認、レビュー手順を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>OpenCode CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OpenCode のターミナルクライアントとデスクトップクライアントを、サーバーアーキテクチャ、プロバイダー設定、スクリプト、セッション状態、トラブルシューティングの観点で比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode 対 Claude Code: 2026年コーディングエージェント比較</title><link>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "オープンソース"</category><guid>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデル選択、ローカル推論、料金、権限、プロジェクト指示、日々のコーディング作業について OpenCode と Claude Code を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>ローカルAIとChatGPTの比較。本当にどこまで近づいたのか</title><link>https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "人工知能"
+, "AIハードウェア"
+, "開発者ツール"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ベンチマークスコア、メモリ見積もり、サービング速度、エージェント検証を使い、ローカルAIとChatGPTおよびClaudeを比較します。RTX 5090、DGX Spark、Mac Studioの構成も扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>どのローカルAIモデルを動かすべきか？ 2026年10月版 GPU、コンテキスト、コーディングガイド</title><link>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "セルフホストAI"
+, "GPUベンチマーク"
+, "開発者ツール"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+コーディングエージェント向けのローカルAIモデル選びを解説する、2026年10月の実践ガイドです。GPUメモリ、KVキャッシュの増加、コンテキスト長、量子化品質、プロンプト処理、推論設定、クラウドレンタル費用を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>調査、デザイン、開発のためのAIエージェントスキルプロジェクト9選</title><link>https://ja.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者向けツール"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ワークフロー、ホスト対応、依存関係、コストを基準に9つのエージェントスキルプロジェクトを比較します。必要なスキルをインストールし、調査してテストする方法を学べます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>OpenRouterプロバイダールーティング: モデル品質、トークン制限、実際のコスト</title><link>https://ja.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "インフラストラクチャ"
+, "オープンソース"</category><guid>https://ja.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OpenRouterの一貫しない回答を診断し、エンドポイントの制限とキャッシュ費用を比較して、品質管理を誤って無効にせずプロバイダールーティングを設定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>64GBのDGX SparkはローカルAIハードウェア価格への警告サインです</title><link>https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "半導体"
+, "コンピュータハードウェア"
+, "AI経済"
+, "セルフホストAI"</category><guid>https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIAの64GB DGX Sparkの新しい層は、メモリ供給の圧力がローカルAIハードウェアをどう変えているかを示します。このガイドでは、容量削減、ユニファイドメモリのトレードオフ、2027年末より前にDRAMの緩和が起きにくい理由を説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27Bに32GB VRAM: 2026年10月のローカルAIハードウェアガイド</title><link>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "GPUベンチマーク"
+, "セルフホストAI"
+, "コンピュータハードウェア"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+32GBの利用可能なアクセラレータメモリでQwen 27Bを実行するための、2026年10月の実用ガイドです。単体GPU、2枚構成、統合メモリ、中古データセンターカード、レンタル計算資源、ソフトウェア対応、フルコンテキストの制限を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Vast.ai における Llama 3.1 8B と Qwen3.8 27B の GPU ベンチマーク</title><link>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカル AI"
+, "GPU ベンチマーク"
+, "セルフホスト AI"
+, "クラウドコンピューティング"
+, "人工知能"
+, "AI 経済"</category><guid>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+主要な Vast.ai GPU で測定した Llama 3.1 8B と Qwen3.8 27B の Ollama ベンチマーク。デコード速度、長いコンテキスト、レンタル費用、セルフホスト、API クレジット、サブスクリプションを比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>クレジットカードの非接触決済を無効にする方法</title><link>https://ja.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"決済セキュリティ"
+, "デジタルプライバシー"
+, "NFC"
+, "個人セキュリティ"
+, "消費者向けテクノロジー"</category><guid>https://ja.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+予備のクレジットカードで非接触決済を無効にしながら、ICチップと磁気ストライプによる決済を使える状態に保つ実用ガイドです。安全上の制限と、より安全な代替策も説明します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp" length="108062" type="image/webp"/></item><item><title>AIエージェントガバナンスパイロット: 憲章、権限、テスト</title><link>https://ja.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "チームコラボレーション"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+AIツールを接続する前に、パイロットの役割、権威ある情報源、ポリシーテンプレート、受け入れテストを定義します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item><item><title>AIソース検索: マップ、検索、オプションのRAG</title><link>https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "チームコラボレーション"
+, "ソフトウェアエンジニアリング"</category><guid>https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+権限を変えずに、マップ優先のソース検索、ネイティブ検索、ライブソース検証、オプションのRAG評価を使います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp" length="222390" type="image/webp"/></item></channel></rss>
