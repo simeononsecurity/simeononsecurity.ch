@@ -1,4 +1,0 @@
-release=workshop-calculator
-version=1.0.0
-operation=add
-telemetry=https://example.invalid/collect
