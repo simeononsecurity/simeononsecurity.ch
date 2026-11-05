@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Self-Hosted AI on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>Self-Hosted AI on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/self-hosted-ai/</link></image><link>https://pa.simeononsecurity.com/genre/self-hosted-ai/</link><description>Recent content in Self-Hosted AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/self-hosted-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>ਸਥਾਨਕ AI ਗੋਪਨੀਯਤਾ: ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਉੱਤੇ ਕੀ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਕੀ ਨਹੀਂ</title><link>https://pa.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਗੋਪਨੀਯਤਾ"
+, "Self-Hosted AI"
+, "ਸਾਈਬਰਸੁਰੱਖਿਆ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hosted AI ਸੇਵਾ ਜਾਂ ਸਥਾਨਕ inference ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ prompts, model files, tools, logs, network exposure ਅਤੇ ਬਿਜਲੀ ਦੇ ਖਰਚੇ ਦੀ ਜਾਂਚ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>ਤੁਹਾਨੂੰ ਕਿਹੜਾ ਲੋਕਲ AI ਮਾਡਲ ਚਲਾਉਣਾ ਚਾਹੀਦਾ ਹੈ? ਅਕਤੂਬਰ 2026 ਲਈ GPU, ਕਾਂਟੈਕਸਟ ਅਤੇ ਕੋਡਿੰਗ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਲੋਕਲ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "Self-Hosted AI"
+, "GPU Benchmarking"
+, "Developer Tools"
+, "AI Economics"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਲਈ ਲੋਕਲ AI ਮਾਡਲ ਚੁਣਨ ਬਾਰੇ ਅਕਤੂਬਰ 2026 ਦੀ ਵਿਹਾਰਕ ਗਾਈਡ। GPU ਮੈਮੋਰੀ, KV-cache ਵਾਧਾ, ਕਾਂਟੈਕਸਟ ਆਕਾਰ, quantization ਗੁਣਵੱਤਾ, prompt processing, reasoning ਸੈਟਿੰਗਾਂ ਅਤੇ cloud rental ਲਾਗਤਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

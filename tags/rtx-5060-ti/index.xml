@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTX 5060 Ti on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>RTX 5060 Ti on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/rtx-5060-ti/</link></image><link>https://pa.simeononsecurity.com/tags/rtx-5060-ti/</link><description>Recent content in RTX 5060 Ti on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/rtx-5060-ti/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti ਬਨਾਮ GB10: 32 GB VRAM, 128 GB ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ ਤੋਂ ਕਿਉਂ ਹਾਰਦੀ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ"
+, "ਲੋਕਲ AI"
+, "GPU ਹਾਰਡਵੇਅਰ"
+, "ਬੈਂਚਮਾਰਕਿੰਗ"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Qwen 3 27B ਅਤੇ ਲੰਬੇ-ਕਾਂਟੈਕਸਟ ਲੋਕਲ ਇਨਫਰੈਂਸ ਲਈ ਦੋ 16 GB RTX 5060 Ti ਕਾਰਡਾਂ ਅਤੇ NVIDIA GB10 ਸਿਸਟਮ ਦੀ ਬੈਂਚਮਾਰਕ-ਅਧਾਰਿਤ ਤੁਲਨਾ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>ਕੀ ਗੰਭੀਰ ਲੋਕਲ LLM ਕੰਮ ਲਈ 16GB VRAM ਕਾਫ਼ੀ ਹੈ?</title><link>https://pa.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਲੋਕਲ AI"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"</category><guid>https://pa.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਡਲ ਵਜ਼ਨ, KV ਕੈਸ਼ ਅਤੇ ਪ੍ਰੌਂਪਟ ਪ੍ਰੋਸੈਸਿੰਗ ਦੇ ਆਧਾਰ ਤੇ 16GB ਲੋਕਲ LLM ਸੈਟਅੱਪ ਦਾ ਆਕਾਰ ਨਿਰਧਾਰਤ ਕਰੋ। Qwen3.8 27B ਮੈਮੋਰੀ ਬਜਟ, GPU ਬੈਂਡਵਿਡਥ ਅਤੇ ਮਾਲਕੀ ਲਾਗਤ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Qwen 27B ਲਈ 32GB VRAM: ਅਕਤੂਬਰ 2026 ਦੀ ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "GPU ਬੈਂਚਮਾਰਕਿੰਗ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"</category><guid>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਕਤੂਬਰ 2026 ਦੀ ਇਹ ਕਾਰਗਰ ਗਾਈਡ 32GB ਵਰਤਣਯੋਗ ਐਕਸਲੇਰੇਟਰ ਮੈਮੋਰੀ ਨਾਲ Qwen 27B ਮਾਡਲ ਚਲਾਉਣ ਦੇ ਤਰੀਕੇ ਦੱਸਦੀ ਹੈ। ਸਿੰਗਲ GPU, ਦੋ-ਕਾਰਡ ਬਿਲਡ, ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ, ਵਰਤੇ ਡਾਟਾ-ਸੈਂਟਰ ਕਾਰਡ, ਕਿਰਾਏ ਦੀ ਕੰਪਿਊਟਿੰਗ, ਸਾਫਟਵੇਅਰ ਸਹਾਇਤਾ ਅਤੇ ਪੂਰੇ ਕਾਂਟੈਕਸਟ ਦੀਆਂ ਹੱਦਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
