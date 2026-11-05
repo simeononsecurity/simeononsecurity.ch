@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>نموذج لغوي محلي on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>نموذج لغوي محلي on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D9%84%D8%BA%D9%88%D9%8A-%D9%85%D8%AD%D9%84%D9%8A/</link></image><link>https://ar.simeononsecurity.com/tags/%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D9%84%D8%BA%D9%88%D9%8A-%D9%85%D8%AD%D9%84%D9%8A/</link><description>Recent content in نموذج لغوي محلي on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D9%84%D8%BA%D9%88%D9%8A-%D9%85%D8%AD%D9%84%D9%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>بطاقتا RTX 5060 Ti مقابل GB10: لماذا تخسر 32 جيجابايت من VRAM أمام 128 جيجابايت من الذاكرة الموحدة</title><link>https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي"
+, "الذكاء الاصطناعي المحلي"
+, "عتاد GPU"
+, "اختبار الأداء"
+, "عتاد الحاسوب"</category><guid>https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة قائمة على اختبار أداء بين بطاقتي RTX 5060 Ti بسعة 16 جيجابايت ونظام NVIDIA GB10 لتشغيل Qwen 3 27B والاستدلال المحلي بسياق طويل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي مقابل ChatGPT: ما مدى اقترابنا؟</title><link>https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي"
+, "عتاد الذكاء الاصطناعي"
+, "أدوات المطورين"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن الذكاء الاصطناعي المحلي مع ChatGPT وClaude عبر درجات الاختبارات، وتقديرات الذاكرة، وسرعة الخدمة، والتحقق من الوكلاء. يشمل RTX 5090 وDGX Spark وMac Studio.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>ذاكرة VRAM بسعة 32GB لنموذج Qwen 27B: دليل عتاد الذكاء الاصطناعي المحلي لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "قياس أداء GPU"
+, "الذكاء الاصطناعي المستضاف ذاتياً"
+, "عتاد الحاسوب"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لتشغيل نموذج Qwen 27B مع 32GB من ذاكرة المسرّع القابلة للاستخدام. قارن بين وحدات GPU المنفردة، وبُنى البطاقتين، والذاكرة الموحدة، وبطاقات مراكز البيانات المستعملة، والحوسبة المستأجرة، ودعم البرمجيات، وحدود السياق الكامل.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
