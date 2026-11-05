@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Self-Hosted AI on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Self-Hosted AI on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/self-hosted-ai/</link></image><link>https://bn.simeononsecurity.com/tags/self-hosted-ai/</link><description>Recent content in Self-Hosted AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/self-hosted-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>স্থানীয় AI গোপনীয়তা: আপনার কম্পিউটারে কী থাকে এবং কী থাকে না</title><link>https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "গোপনীয়তা"
+, "self-hosted AI"
+, "সাইবার নিরাপত্তা"
+, "AI অর্থনীতি"</category><guid>https://bn.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+স্থানীয় inference বা hosted AI service বেছে নেওয়ার আগে prompt, model file, tool, log, network exposure এবং বিদ্যুৎ খরচ অনুসরণ করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>16GB GPU-তে লোকাল AI কোডিং: Strata, OpenCode এবং Qwen3.8</title><link>https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"লোকাল AI"
+, "ডেভেলপার টুল"
+, "স্ব-হোস্টেড AI"
+, "AI হার্ডওয়্যার"</category><guid>https://bn.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strata এবং OpenCode দিয়ে একটি লোকাল কোডিং এজেন্ট চালান। প্রকাশিত RTX 4060 Ti ফলাফল, RAM প্রয়োজনীয়তা, প্রম্পট পুনর্ব্যবহার, reasoning বাজেট এবং পেইড সাবস্ক্রিপশন বদলানোর সীমা পরীক্ষা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://bn.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://bn.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://bn.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>
