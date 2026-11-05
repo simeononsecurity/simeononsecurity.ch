@@ -1,0 +1,99 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Context Language Models on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Context Language Models on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/context-language-models/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/context-language-models/</link>
+
+    <description>Recent content in Context Language Models on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/context-language-models/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Modele językowe kontekstu Meta: lepsza pamięć agentów, ale nie koniec halucynacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Agenci AI"
+            
+              , "Lokalna AI"
+            
+              , "Bezpieczeństwo AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Jak Context Language Models edytują pamięć agenta, co pokazują benchmarki oraz jak koszty cache, możliwości modelu i niezaufane notatki wpływają na niezawodność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

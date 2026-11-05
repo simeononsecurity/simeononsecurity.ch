@@ -1,0 +1,215 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qwen3.8 27B on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Qwen3.8 27B on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/qwen3.8-27b/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/qwen3.8-27b/</link>
+
+    <description>Recent content in Qwen3.8 27B on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/qwen3.8-27b/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy 16 GB VRAM wystarczy do poważnej pracy z lokalnym LLM?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Samodzielnie hostowana AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dobierz lokalny zestaw LLM z 16 GB, uwzględniając wagi modelu, pamięć podręczną KV i przetwarzanie promptu. Porównaj budżety pamięci Qwen3.8 27B, przepustowość GPU i koszty posiadania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Lokalna sztuczna inteligencja kontra ChatGPT: jak blisko jesteśmy?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Sprzęt AI"
+            
+              , "Narzędzia dla programistów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównanie lokalnej AI z ChatGPT i Claude na podstawie wyników testów, szacunków pamięci, szybkości obsługi i weryfikacji agentów. Omówiono RTX 5090, DGX Spark i Mac Studio.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 GB VRAM dla Qwen 27B: przewodnik po sprzęcie lokalnej AI na październik 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sprzęt AI"
+            
+              , "Benchmarking GPU"
+            
+              , "Samodzielnie hostowana AI"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Ekonomia AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny przewodnik na październik 2026 dotyczący uruchamiania modelu Qwen 27B z 32 GB użytecznej pamięci akceleratora. Porównaj pojedyncze GPU, zestawy z dwiema kartami, pamięć współdzieloną, używane karty centrów danych, wynajmowaną moc obliczeniową, obsługę oprogramowania i limity pełnego kontekstu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

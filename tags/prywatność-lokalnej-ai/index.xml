@@ -1,0 +1,101 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prywatność Lokalnej AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Prywatność Lokalnej AI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/prywatno%C5%9B%C4%87-lokalnej-ai/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/prywatno%C5%9B%C4%87-lokalnej-ai/</link>
+
+    <description>Recent content in Prywatność Lokalnej AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/prywatno%C5%9B%C4%87-lokalnej-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Prywatność lokalnej AI: co pozostaje na komputerze, a co nie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/local-ai-privacy-boundary/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Prywatność"
+            
+              , "Self-Hosted AI"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ekonomia AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Prześledź prompty, pliki modeli, narzędzia, logi, ekspozycję sieciową i koszty energii przed wyborem lokalnego wnioskowania albo hostowanej usługi AI.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

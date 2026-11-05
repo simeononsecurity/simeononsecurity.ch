@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Umiejętności Claude Code on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Umiejętności Claude Code on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/umiej%C4%99tno%C5%9Bci-claude-code/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/umiej%C4%99tno%C5%9Bci-claude-code/</link>
+
+    <description>Recent content in Umiejętności Claude Code on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/umiej%C4%99tno%C5%9Bci-claude-code/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 wtyczek, umiejętności i narzędzi MCP dla Claude Code: praktyczny przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sztuczna inteligencja"
+            
+              , "Narzędzia dla programistów"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz rozszerzenia Claude Code do planowania, przeglądu kodu, zarządzania wiedzą, projektowania i automatyzacji. Porównaj dziesięć narzędzi, zależności i praktyczne kontrole.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
