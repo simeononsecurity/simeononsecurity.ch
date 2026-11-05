@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>人工智能 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>人工智能 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link></image><link>https://zh.simeononsecurity.com/genre/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link><description>Recent content in 人工智能 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>2026 年 AI 基础设施热潮：需求、债务、电力与证据</title><link>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "AI 经济学"
+, "数据中心"
+, "云基础设施"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对 AI 基础设施支出、数据中心电力需求、融资结构、企业价值，以及在称市场为泡沫前所需证据的事实核查。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>2x RTX 5060 Ti 对比 GB10：为什么 32 GB 显存不敌 128 GB 统一内存</title><link>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工智能"
+, "本地 AI"
+, "GPU 硬件"
+, "基准测试"
+, "计算机硬件"</category><guid>https://zh.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+基于基准测试，对比两张 16 GB RTX 5060 Ti 显卡与 NVIDIA GB10 系统运行 Qwen 3 27B 和长上下文本地推理的表现。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Claude Code CLI 与 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较终端中的 Claude Code 与桌面 Code 工作区，涵盖共享设置、会话交接、脚本、可视化审查和权限选择。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>CLI 编程代理比较：Claude Code、Codex、Gemini、OpenCode、Copilot 和 Aider</title><link>https://zh.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从工作流、自动化、模型访问、权限和审查工作量比较六种终端编程代理。通过可重复的仓库试验建立候选清单。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI 对比 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在终端中的 Codex 与 OpenAI 桌面编程工作区之间做出选择。比较脚本、worktree、可视化审查、计划和执行环境。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI 与 VS Code：2026 工作流对比</title><link>https://zh.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Copilot 终端代理与 VS Code 体验，涵盖编辑器上下文、可视化差异、Agent 模式、CLI 集成和账户策略。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUI 编程代理比较：Cursor、Windsurf、Cline、Copilot 与 Continue</title><link>https://zh.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较图形化编程代理，区分完整编辑器与扩展，并检查 Roo Code 停止服务的背景、模型访问、批准和审查流程。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>OpenCode CLI 对比 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从服务器架构、提供商配置、脚本、会话状态和故障排除方面比较 OpenCode 的终端客户端与桌面客户端。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>自动化的崛起：改变行业和工作机会</title><link>https://zh.simeononsecurity.com/articles/the-rise-of-automation/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate><category>
+"自动化技术"
+, "工业革命"
+, "技术进步"
+, "人工智能"
+, "机器学习"
+, "制造业"
+, "医疗保健"
+, "交通运输"
+, "零售"
+, "农业"</category><guid>https://zh.simeononsecurity.com/articles/the-rise-of-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索自动化技术的发展、采用自动化技术的行业及其对工作机会的影响。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp" length="380214" type="image/webp"/></item><item><title>Python 中的安全编码：强大应用程序安全的最佳实践</title><link>https://zh.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><category>
+"编程"
+, "应用安全"
+, "Python 开发"
+, "安全编码"
+, "网络开发"
+, "数据分析"
+, "人工智能"
+, "软件开发"
+, "网络安全"
+, "编程语言"</category><guid>https://zh.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习 Python 安全编码的最佳实践，以确保应用程序的稳健安全，并防止 SQL 注入和跨站脚本等漏洞。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.webp" length="108162" type="image/webp"/></item></channel></rss>
