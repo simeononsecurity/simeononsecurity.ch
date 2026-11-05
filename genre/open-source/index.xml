@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Open Source on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/open-source/</link></image><link>https://ro.simeononsecurity.com/genre/open-source/</link><description>Recent content in Open Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Rutarea furnizorilor OpenRouter: calitatea modelului, limitele tokenurilor și costurile reale</title><link>https://ro.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "Infrastructură"
+, "Open Source"</category><guid>https://ro.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Diagnostichează răspunsurile inconsistente OpenRouter, compară limitele endpointurilor și costurile cache-ului și configurează rutarea furnizorilor fără să dezactivezi accidental controalele de calitate.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://ro.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://ro.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>GrapheneOS Sandboxed Google Play Explained</title><link>https://ro.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Mobile Security"
+, "Open Source"</category><guid>https://ro.simeononsecurity.com/articles/grapheneos-sandboxed-google-play-explained/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/grapheneos-sandboxed-google-play-explained.webp" length="102640" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://ro.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tehnologie"
+, "Confidențialitate"
+, "Browsere Web"
+, "Securitate Online"
+, "Open Source"
+, "Confidențialitate Digitală"
+, "Software"
+, "Comparație"
+, "Securitate Cibernetică"
+, "Confidențialitate pe Internet"</category><guid>https://ro.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explorați caracteristicile LibreWolf și Firefox, două browsere axate pe confidențialitate, pentru a face o alegere informată în vederea unei securități și confidențialități online sporite.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Top 5 Tehnici de Securitate și Hardening pentru Linux</title><link>https://ro.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tehnologie"
+, "Securitate Cibernetică"
+, "Linux"
+, "Securitatea Sistemului"
+, "Open-source"
+, "Hardening"
+, "IT"
+, "Protecția Datelor"
+, "Securitatea Rețelei"
+, "Informatică"</category><guid>https://ro.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți cele mai bune 5 tehnici de securitate Linux pentru a vă întări sistemul împotriva amenințărilor. Îmbunătățiți integritatea sistemului și protejați datele sensibile cu măsuri experte de hardening.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>Cele Mai Bune Browsere pentru Confidențialitate 2026: LibreWolf vs Brave vs Tor</title><link>https://ro.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Browsere"
+, "Confidențialitate"
+, "Securitate"
+, "Internet"
+, "Tehnologie"
+, "Confidențialitate Digitală"
+, "Siguranță Online"
+, "Open Source"
+, "Anonimat"
+, "Navigare Web"</category><guid>https://ro.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparație cuprinzătoare pentru 2026 a celor mai bune browsere axate pe confidențialitate: LibreWolf, Brave, Firefox, Tor și altele. Teste detaliate de confidențialitate, repere de performanță și analiză de securitate pentru a-ți proteja datele online.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item></channel></rss>
