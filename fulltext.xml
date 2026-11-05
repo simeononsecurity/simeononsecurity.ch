@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ja.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ja</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>1Password SSH Agent and CLI: Read-Only AI Agent Access</title><link>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/</guid><description>1Password CLI、SSH Agent、MCPを使用して、読み取り専用のSSHワークフローを設計します。ライブテストの前に、合成コマンド、権限の制限、人間の承認を使用します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>コマンドラインエージェントには、すべての認証情報のコピーではなく、有用なアクセス権限が必要です。</strong> このガイドでは、1Password CLI、1Password SSH Agent、Bitbucket Git アクセス、および Model Context Protocol (MCP) 向けの限定された設計を提示します。最初のワークフローでは、合成名、読み取り専用アクション、および SSH 境界での人間による承認を使用します。</p>
+<p>重要な区別は単純です。<strong>対話型 SSH は、1Password SSH Agent を通じた同意を使用します。無人自動化には、独立したアイデンティティ、狭いアクセス権限、および異なる鍵のライフサイクルが必要です。</strong> MCP 接続を、どちらかのワークフローを実行するための許可として扱わないでください。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>秘密鍵の保護:</strong> 1Password SSH Agent は、秘密鍵を 1Password アプリ内に保持したまま SSH 認証を実行します。</li>
+<li><strong>公開鍵の処理:</strong> Bitbucket またはリモートアカウントには公開鍵のみを公開します。秘密鍵の半分は SSH Key アイテム内に保持します。</li>
+<li><strong>対話型同意:</strong> SSH Agent が鍵を使用する前に、人がクライアントまたはターミナルセッションを承認します。</li>
+<li><strong>無人分離:</strong> スケジュールされたジョブには、専用のサービスアカウントと狭い Vault スコープが必要です。対話型 SSH Agent の承認はこのニーズを満たしません。</li>
+<li><strong>MCP の境界:</strong> MCP はエージェントをツールやリソースに接続します。クライアント、サーバー、オペレーティングシステム、および 1Password ポリシーが引き続きアクセスを制御します。</li>
+</ul>
+<h2 id="開始前">
+  <a href="#%e9%96%8b%e5%a7%8b%e5%89%8d" title="開始前">開始前</a>
+  <a href="#%e9%96%8b%e5%a7%8b%e5%89%8d" class="h-anchor" aria-hidden="true" title="開始前">#</a>
+</h2>
+<p><strong>前提条件:</strong> 1Password 8 と 1Password CLI 2.20.0 以降をインストールしてください。サポートされている 1Password アカウ�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/1password-cli-ssh-keys-mcp-agent-administration/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2026年のAIインフラブーム：需要、債務、電力、根拠</title><link>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>AIインフラ投資、データセンターの電力需要、資金調達の構造、企業価値、市場をバブルと呼ぶ前に必要な根拠を検証する記事です。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>AIインフラは、これまで少数の技術市場しか達成していない速度で拡大しています。</strong> 支出は現実です。電力需要も現実です。資金調達リスクも現実です。見返りの確実性は低くなっています。</p>
+<p>重要な問いは、人工知能が存在するかどうかではありません。将来の収益と生産性向上が、拡大を支えるハードウェア、データセンター、電力契約、リース、債務を正当化できるかどうかです。</p>
+<p>この記事は、AIバブルをめぐる議論の根拠となる公開情報を確認します。予測は予測として扱います。企業の主張と独立研究を分けます。この記事は差し迫った暴落を証明しません。金融面と運用面の圧力がどこにあるかを示します。</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style><div itemscope itemtype="http://schema.org/VideoObject http://schema.org/LearningResource" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <meta itemprop="name" content="The (Overdue) Collapse Of
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2x RTX 5060 Ti 対 GB10: 32 GB VRAM が 128 GB 統合メモリに負ける理由</title><link>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>Qwen 3 27B と長いコンテキストのローカル推論を対象に、16 GB の RTX 5060 Ti 2 枚と NVIDIA GB10 システムをベンチマークで比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>16 GB の RTX 5060 Ti 2 枚は、パーツ一覧では魅力的に見えます。</strong> 合計 32 GB の VRAM と、短いコンテキストでの高いプロンプト処理速度を得られます。27B モデルを長いコンテキストで動かすと、比較結果は変わります。</p>
+<p>NVIDIA GB10 システムは 128 GB のコヒーレントな統合メモリを使います。NVIDIA は GB10 プラットフォームについて、128 GB の LPDDR5x 統合メモリと 140 W のチップ TDP を示しています。RTX 5060 Ti はカードごとに 16 GB の GDDR7、128 ビットのメモリインターフェース、180 W の総グラフィックス電力を備えます。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="NVIDIA RTX 5060 Ti の仕様">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >NVIDIA RTX 5060 Ti の仕様</a>
+</span>
+と
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="NVIDIA GB10 の仕様">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+    <a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >NVIDIA GB10 の仕様</a>
+</span>
+がハードウェアの違いを示します。</p>
+<p><strong>要点は単純です
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ローカルAIのプライバシー境界: コンピューターに残るものと残らないもの</title><link>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><description>ローカル推論かホスト型AIサービスかを選ぶ前に、プロンプト、モデルファイル、ツール、ログ、ネットワーク公開範囲、電力コストを確認します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>ローカルAIはデータ境界を小さくします。</strong> ローカルランタイムで処理するプロンプトは、モデル、ツール、ログ、ネットワーク経路がローカルに保たれる場合、端末内に残ります。ローカルGPUがあっても、コンピューターが密閉されたシステムになるわけではありません。</p>
+<p>モデルランタイム、ツールプラグイン、ブラウザー拡張、リモートアクセス、公開API、モデルのダウンロードは、依然としてリスクを左右します。コストも重要です。電力料金はホスト型のトークン料金を下回る可能性がありますが、ハードウェア所有費を含めた損益分岐点は遠くなる場合があります。</p>
+<p>このガイドでは、まずプライバシー境界を整理します。次に、現在のベンダー価格、明示した電力の仮定、提供された動画の報告値を使ってコストを確認します。</p>
+<p>このローカルとホスト型のコスト比較は、以下の式の前提を示します。同じモデルファイルとランタイムを自分のハードウェアでテストせず、スループット値をそのまま使わないでください。</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>本格的なローカル LLM 作業に 16GB VRAM は十分か</title><link>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><description>モデルウェイト、KV キャッシュ、プロンプト処理を基準に 16GB のローカル LLM 構成を見積もります。Qwen3.8 27B のメモリ予算、GPU 帯域幅、所有コストを比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>16GB の専用 GPU メモリは、モデル、コンテキスト、ランタイムが収まれば、本格的なローカル LLM 作業を支えます。ウェイトを読み込めることは、最初の条件を満たすだけです。実用的な構成には、作業中の会話に必要なメモリと、タスクを終えるための速度も必要です。</p>
+<p>1 ユーザーのコーディングまたは文書ワークフローの予算を考える例として Qwen3.8 27B を使います。まずタスクに必要なコンテキストを決め、残りのメモリに収まるウェイトとランタイム設定を選びます。ハードウェア仕様とモデルソースは 2026 年 10 月 7 日に確認しました。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li>量子化を選ぶ前に、コンテキスト用のメモリを確保します。</li>
+<li>プロンプト処理を出力速度とは別に測定します。</li>
+<li>使わないビジョンサポートを無効にし、8 ビット KV キャッシュを試します。</li>
+<li>正確な GPU、バックエンド、モデルファイル、プロンプト長を比較します。</li>
+<li>ワークロードとプロバイダー料金から所有による節約を計算します。</li>
+</ul>
+<p>予算計算には、ランタイムのメモリログ、正確なモデルファイル名、代表的なタスクが必要です。セットアップと結果の記録に約 20 分を見込み、推論時間は別に考えます。難易度は中級です。</p>
+<h2 id="メモリを作業に合わせる">
+  <a href="#%e3%83%a1%e3%83%a2%e3%83%aa%e3%82%92%e4%bd%9c%e6%a5%ad%e3%81%ab%e5%90%88%e3%82%8f%e3%81%9b%e3%82%8b" title="メモリを作業に合わせる">メモリを作業に合わせる</a>
+  <a href="#%e3%83%a1%e3%83%a2%e3%83%aa%e3%82%92%e4%bd%9c%e6%a5%ad%e3%81%ab%e5%90%88%e3%82%8f%e3%81%9b%e3%82%8b" class="h-anchor" aria-hidden="true" title="メモリを作業に合わせる">#</a>
+</h2>
+<p>16GB は、ウェイト、アクティブなコンテキスト、一時割り当てが利用可能な GPU メモリ内に収まるワークロードに適します。必要なコンテキストはタスクで変わります。短い文書要約と、数十個のファイルを読むコーディングエージェントでは予算が異なります。</p>
+<table>
+	<thea
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>16GB GPUでのローカルAIコーディング: Strata、OpenCode、Qwen3.8</title><link>https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><description>StrataとOpenCodeでローカルコーディングエージェントを実行します。報告されたRTX 4060 Tiの結果、RAM要件、プロンプト再利用、推論予算、有料サブスクリプション置き換えの限界を確認します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>16GB GPU上のローカルコーディングエージェントは、範囲を限定した開発作業に実用的です。</strong> StrataとOpenCodeは、ローカル推論、ファイル編集、シェルコマンド、テスト実行を組み合わせます。RTX 4060 Tiで報告されたQwen3.8-Flash-Nextの実行は、有料推論呼び出しなしでアプリケーション、追加変更、レーシングゲームのプロトタイプを完成させました。</p>
+<p><strong>サブスクリプションの置き換えには、より広いテストが必要です。</strong> 公開結果は1台のマシンで動く構成を示します。複数の言語、リポジトリ、難しいデバッグ作業で有料コーディングサービスと同等とは証明していません。ハードウェアには64GBのシステムRAMもあり、モデルの大部分を支えています。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>16GBはGPUメモリを指します</strong>。報告された構成に必要な総メモリではありません。</li>
+<li><strong>プロンプト再利用は重要です</strong>。コーディングエージェントは重複する会話履歴を繰り返し送るからです。</li>
+<li><strong>推論には予算が必要です</strong>。計画、コード、ツール呼び出しに余地を残します。</li>
+<li><strong>生成テストの成功は部分的な証拠です</strong>。Dockerとゲームプレイには別の確認が必要です。</li>
+<li><strong>API費用ゼロには所有コストが含まれません</strong>。電力と保守時間も別に考えます。</li>
+</ul>
+<p><strong>前提条件:</strong> 対応するコンピューター、選択したモデル用の十分な空き容量、Git、npmを含むNode.js、ターミナルツールの知識。報告されたIQ3_S構成には64GB RAMを合わせます。他の構成は現在のStrataインストーラーで確認します。</p>
+<p><strong>時間と難易度:</strong> 中級。作業完了速度を評価する前に、大きなモデルのダウンロードとインストールに時間を割きます。報告された作業時間にセットアップは含まれません。</p>
+<h2 id="テスト構成">
+  <a href="#%e3%83%86%e3%82%b9%e3%83%88%e6%a7%8b%e6%88%90" title="テスト構成">テス�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>2026年のAIエージェントハーネス：ワークフローで選ぶ</title><link>https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><description>Deep Agents、Claude Agent SDK、OpenAI Agents SDK、Pydantic AI、Pi、LangGraphを、ツール実行、メモリ、復旧、統合の負担で比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/ai-agent-execution-components.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>Deep Agentsは、設定可能なモデルと組み込みのコンテキスト管理を備えた汎用エージェントの第一候補です。</strong> Claude Agent SDKはClaude Codeの実行動作を組み込む用途に適しています。アプリケーション固有のエージェントではOpenAI Agents SDKとPydantic AIを試す価値があります。Piは小さく拡張可能なコアを重視し、LangGraphは明示的なワークフロー制御を重視します。</p>
+<p><strong>最適な選択は、受け入れる仕事で決まります。</strong> 調査アシスタント、リポジトリ編集ツール、顧客要求を処理するサービスでは、必要なツールと復旧ルールが異なります。これらは<strong>2026年10月10日</strong>に公式ドキュメントを確認した編集上の判断であり、実測性能ベンチマークの結果ではありません。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>最初に抽象化を選ぶ:</strong> assembled agent、application SDK、workflow runtimeのどれかを決めます。</li>
+<li><strong>実行境界を確認する:</strong> ツール承認、ファイルシステム分離、ネットワークポリシーは別の問題を解決します。</li>
+<li><strong>復旧をテストする:</strong> 会話履歴だけでは外部操作の重複を防げません。</li>
+<li><strong>受け入れた作業を測る:</strong> コスト比較に失敗、レビュー時間、インフラを含めます。</li>
+<li><strong>モデルを明示する:</strong> モデルとエージェントソフトウェアを同時に変えると、ソフトウェアだけでなくシステム全体をテストします。</li>
+</ul>
+<h2 id="ハーネスが提供するもの">
+  <a href="#%e3%83%8f%e3%83%bc%e3%83%8d%e3%82%b9%e3%81%8c%e6%8f%90%e4%be%9b%e3%81%99%e3%82%8b%e3%82%82%e3%81%ae" title="ハーネスが提供するもの">ハーネスが提供するもの</a>
+  <a href="#%e3%83%8f%e3%83%bc%e3%83%8d%e3%82%b9%e3%81%8c%e6%8f%90%e4%be%9b%e3%81%99%e3%82%8b%e3%82%82%e3%81%ae" class="h-anchor" aria-hidden="true" title="ハーネスが提供するもの">#</a>
+</h2>
+<p><strong>エージェントハーネスは、モデル呼び出しを囲むソフトウェアです。</strong> コンテキストを準備し、ツールを公開し、承�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Code CLI と Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><description>ターミナルとデスクトップの Code ワークスペースで Claude Code を比較します。共有設定、セッション引き継ぎ、スクリプト、視覚的なレビュー、権限の選択を扱います。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>Claude Code CLI と Desktop</strong> には、Anthropic のコーディングエージェントを操作する二つの方法があります。CLI はシェルのワークフローとプログラムからの呼び出しに向きます。Desktop は会話の横でファイル変更とレビューを確認できる、見えるプロジェクトワークスペースに向きます。</p>
+<p><strong>この比較の対象はデスクトップのコーディングワークスペースです。</strong> Anthropic の 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="デスクトップクイックスタート">
+    <meta itemprop="url" content="https://code.claude.com/docs/en/desktop-quickstart">
+    <a href="https://code.claude.com/docs/en/desktop-quickstart"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >デスクトップクイックスタート</a>
+</span>
+では Code タブとして説明されています。一般的なチャットとほかのデスクトップワークフローは対象外です。リポジトリへのアクセスと設定を確認するとき、この区別が重要です。</p>
+<h2 id="主なポイント">
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" title="主なポイント">主なポイント</a>
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="h-anchor" aria-hidden="true" title="主なポイント">#</a>
+</h2>
+<ul>
+<li><strong>スクリプト、パイプ入力、ターミナル中心の作業には CLI を使います。</strong></li>
+<li><strong>グラフィカルな監視、添付ファイル、diff の確認には Desktop を使います。</strong></li>
+<li><strong>共有設定は重複を減らします。</strong> ただし、セッションの動作と利用できる操作は異なります。</li>
+<li><strong>会話の移動には対応した引き継ぎが必要です。</strong> 新しいチャットへ prompt をコピーする方法ではありません。</li>
+</ul>
+<p><st
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Codeのプラグイン、スキル、MCPツール10選：実践ガイド</title><link>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><description>計画、コードレビュー、ナレッジ管理、デザイン、自動化に使うClaude Code拡張を選びます。10個のツール、依存関係、実践的な確認方法を比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>Claude Code拡張は、ワークフローの具体的な問題に合わせて選びます。</strong> 要件が不明確なら計画の会話が必要です。見逃した不具合にはレビューとテストが必要です。繰り返す調査には追跡可能な情報源が必要です。ツールの役割が明確なときだけ、追加インストールが役立ちます。</p>
+<p>このガイドでは、こうした作業に使う<strong>10個のプロジェクト</strong>を、セットアップ例と評価演習とともに比較します。分析には各プロジェクトの最新ドキュメントと、提供されたChase AIの動画を使います。推奨は編集上の判断です。実測した性能や、生産性が10倍になった証拠ではありません。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>出力で選ぶ:</strong> レビュー済みの計画、コードマップ、生成画像には異なるツールが必要です。</li>
+<li><strong>インストール層を分ける:</strong> 指示、実行プログラム、プラグイン、サービス接続には異なる依存関係があります。</li>
+<li><strong>現在の名前を確認する:</strong> Graphifyとgrill-me-codexの正規リポジトリの場所は現在異なります。</li>
+<li><strong>合意だけで終わらせない:</strong> 2つのモデルが計画を認めても、実装の正しさは証明されません。</li>
+<li><strong>受け入れた作業を測る:</strong> セットアップ、サービス利用、失敗した試行、人による修正を記録します。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p><strong>前提条件:</strong> 動作するClaude Code、使い捨て可能なプロジェクトまたはブランチ、選択した外部サービスを使う許可が必要です。CLI例はターミナルと記載したパッケージマネージャーを前提にします。クラウド連携には各サービスのアカウントと認証が必要です。</p>
+<p><strong>所要時間の目安:</strong> 読む時間は15分です。限定した試行にはさ
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>CLI コーディングエージェント比較: Claude Code、Codex、Gemini、OpenCode、Copilot、Aider</title><link>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><description>6 つのターミナルコーディングエージェントを、ワークフロー、自動化、モデルアクセス、権限、レビュー作業で比較します。再現可能なリポジトリ試験で候補を絞ります。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>ターミナルコーディングエージェント</strong>は共通したインターフェースを持ちますが、コンテキストの収集、ファイル編集、承認の要求、スクリプトへの組み込み方が異なります。このガイドでは Claude Code CLI、Codex CLI、Gemini CLI、OpenCode CLI、GitHub Copilot CLI、Aider を比較します。各ベンダーのデスクトップ製品とは分けて、ターミナルワークフローを評価します。</p>
+<p><strong>自分の制約から始めてください。</strong> プロバイダーへのアクセス、再現可能な自動化、レビューの習慣は、一般的なランキングより良い選別条件です。以下の推奨は、2026 年 10 月 10 日に確認した公式ドキュメントに基づく編集上の判断であり、測定した性能ランキングではありません。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>Claude Code、Codex、Gemini CLI</strong> は、それぞれの first-party モデルワークフローを試したい場合に候補になります。</li>
+<li><strong>OpenCode と Aider</strong> は複数のモデルプロバイダーを試す用途に向きますが、対話と編集の方法は異なります。</li>
+<li><strong>Copilot CLI</strong> は GitHub アクセスと組織ポリシーがワークフローを決めている場合に検討できます。</li>
+<li><strong>ターミナルインターフェースはローカル推論を意味せず</strong>、無制限のモデル選択や無監視実行も意味しません。</li>
+</ul>
+<p><strong>前提条件:</strong> Git、破棄可能な checkout、動作するテスト、承認済みのモデル認証情報。難易度は中級です。2 つの候補ツールを 3 つの小さなタスクで比較するため、半日を確保してください。</p>
+<h2 id="候補リスト">
+  <a href="#%e5%80%99%e8%a3%9c%e3%83%aa%e3%82%b9%e3%83%88" title="候補リスト">候補リスト</a>
+  <a href="#%e5%80%99%e8%a3%9c%e3%83%aa%e3%82%b9%e3%83%88" class="h-anchor" aria-hidden="true" title="候補リスト">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>ターミナルツール</th>
+					<th>評価する理由</th>
+					<th>解決する判断</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Claude Code CLI</strong></td>
+	
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Codex CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><description>ターミナルの Codex と OpenAI のデスクトップ開発環境を比較します。スクリプト、worktree、目視レビュー、スケジュール、実行環境を確認します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>Codex CLI</strong> は明示的なコマンドとスクリプト実行を使う shell 中心の作業に向きます。<strong>Codex desktop</strong> はプロジェクト、会話、視覚的な出力、レビュー画面をまとめる作業に向きます。監督方法に合う画面を選び、model、repository、execution policy はそろえてください。
+<strong>名称について:</strong> 以前の OpenAI Codex app 文書は現在 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ChatGPT desktop app documentation">
+    <meta itemprop="url" content="https://learn.chatgpt.com/docs/app">
+    <a href="https://learn.chatgpt.com/docs/app"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >ChatGPT desktop app documentation</a>
+</span>
+ に移動します。このガイドではアプリの開発作業を “Codex desktop” と呼びます。repository access のない通常の chat は coding agent ではありません。</p>
+<h2 id="主なポイント">
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" title="主なポイント">主なポイント</a>
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="h-anchor" aria-hidden="true" title="主なポイント">#</a>
+</h2>
+<ul>
+<li><strong>shell の組み合わせと反復実行には CLI を使います。</strong></li>
+<li><strong>project organization、visual review、scheduled-task management には desktop を使います。</strong></li>
+<li><strong>実行場所を明示します。</strong> 特に remote connection では重要です。</li>
+<li><strong>画面は良い code や独立した inference allowance を保証しません。</strong>
+<strong>範囲と日付:</strong> 公式文書を 2026 年 10 月 10 日に確認しました。推奨は workflow の比較で、測定した model performance ではありません。repository、working tests、account access を用意し、1 時間の試行を行います。</li>
+</ul>
+<h2 id="workflow-を比較�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GitHub Copilot CLI と VS Code: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><description>Copilot のターミナルエージェントと VS Code 体験を比較します。エディターコンテキスト、ビジュアル差分、Agent モード、CLI 統合、アカウントポリシーを扱います。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>GitHub Copilot CLI と VS Code の Copilot は、コーディング作業への異なる入口を提供します。</strong> CLI はシェルとタスクプロンプトから始まります。VS Code はエディターコンテキスト、候補、チャット、エージェントワークフローを組み合わせます。同じアカウントとリポジトリポリシーで評価してください。</p>
+<p><strong>どちらか一方だけを選ぶ必要はありません。</strong> GitHub は Copilot CLI と VS Code の接続を文書化しています。明示的に接続すれば、ターミナル作業でもエディター選択とビジュアルレビューを使えます。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>ターミナル主導の作業には Copilot CLI を使う</strong>。対応するプログラム呼び出しにも使います。</li>
+<li><strong>エディター中心の作業には VS Code の Copilot を使う</strong>。インライン支援と Agent モードを含みます。</li>
+<li><strong>CLI を VS Code に接続する</strong>。エディターコンテキストと差分付きのターミナルプロンプトが必要な場合に使います。</li>
+<li><strong>アカウント、モデル、ポリシー設定を確認する</strong>。同じ製品群でも必要です。</li>
+</ul>
+<p><strong>範囲と日付:</strong> 公式ドキュメントを 2026 年 10 月 10 日に確認しました。この比較は独立した <code>copilot</code> CLI と VS Code の Copilotを対象にします。古い <code>gh copilot</code> 拡張や GitHub issue に割り当てたクラウドエージェントは対象外です。テスト可能なリポジトリと許可された Copilot アクセスが必要です。試行には 1 時間を確保してください。</p>
+<h2 id="3-つの作業方法">
+  <a href="#3-%e3%81%a4%e3%81%ae%e4%bd%9c%e6%a5%ad%e6%96%b9%e6%b3%95" title="3 つの作業方法">3 つの作業方法</a>
+  <a href="#3-%e3%81%a4%e3%81%ae%e4%bd%9c%e6%a5%ad%e6%96%b9%e6%b3%95" class="h-anchor" aria-hidden="true" title="3 つの作業方法">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>ワークフロー</th>
+					<th>主な操作</th>
+					<th>適した試行タスク</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>独立 CLI</strong></td>
+					<td>ター�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GUIコーディングエージェント比較: Cursor、Windsurf、Cline、Copilot、Continue</title><link>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><description>グラフィカルなコーディングエージェントを比較し、完全なエディターと拡張機能を分け、Roo Codeの終了、モデルアクセス、承認、レビュー手順を確認します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>グラフィカルなコーディングエージェント</strong>は、タスクの会話をファイル、差分、診断、アプリケーションのプレビューと並べます。このガイドでは、Cursor、Windsurf/Cascade製品ライン、VS CodeのCline拡張機能、VS CodeのGitHub Copilot、ContinueのIDE拡張機能を比較します。Roo Codeは、ドキュメントが終了を知らせているため、古い移行対象として扱います。</p>
+<p>**モデルより先にワークスペースを選びます。**独立したエディターは開発環境を変えます。拡張機能は既存のエディターにエージェントを追加します。生成されたパッチと、それを検査するための作業量を評価してください。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>CursorとWindsurf製品ライン</strong>は完全なエディターです。</li>
+<li><strong>Cline、Copilot、Continue</strong>は既存エディター内でエージェントの手順を提供します。</li>
+<li><strong>Roo Codeには移行計画が必要</strong>で、通常の新規導入として扱いません。</li>
+<li><strong>目に見える変更にもテスト</strong>、依存関係の確認、明確な受け入れ判断が必要です。</li>
+</ul>
+<p><strong>範囲と日付:</strong> 公式ドキュメントを2026年10月6日に確認しました。これは手順の比較であり、速度やコード品質のベンチマークではありません。ターミナル製品は
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="CLI比較">
+    <meta itemprop="url" content="/articles/cli-coding-agents-comparison/">
+    <a href="/articles/cli-coding-agents-comparison/"
+    
+        rel="follow me"
+    >CLI比較</a>
+</span>
+で扱います。</p>
+<p><strong>前提:</strong> 既存プロジェクト、動作するテスト、選んだエディターまたは拡張機能をインスト�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><description>OpenCode のターミナルクライアントとデスクトップクライアントを、サーバーアーキテクチャ、プロバイダー設定、スクリプト、セッション状態、トラブルシューティングの観点で比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode CLI と Desktop は、同じコーディングエージェント製品のクライアントです。</strong> ターミナルインターフェースはキーボード中心の作業とスクリプトに向いています。デスクトップアプリケーションはグラフィカルなワークスペースを提供します。重要な比較対象は、各クライアントの背後にあるサーバー、プロジェクト、プロバイダー、設定です。</p>
+<p><strong>バックエンドを確認してからインターフェースを選びます。</strong> 2 つの OpenCode ウィンドウが同じサーバーやセッションを使うとは限りません。別のサーバーを指すデスクトップアプリケーションは、モデル名が似ていても別の実行環境です。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>ターミナル作業と非対話コマンドには CLI を使います。</strong></li>
+<li><strong>グラフィカルなワークスペースには Desktop を使います。</strong> 選択したサーバーを確認してください。</li>
+<li><strong>推論はインターフェースとは別にプロバイダー設定で決まります。</strong></li>
+<li><strong>同じ製品名でも、別サーバーや別バージョン間で同じセッション状態になるとは限りません。</strong></li>
+</ul>
+<p><strong>範囲と日付:</strong> 公式ドキュメントを 2026 年 10 月 6 日に確認しました。このガイドはインターフェースを比較し、モデル品質は比較しません。リポジトリ、動作するプロバイダー接続、基本的なターミナル知識が必要です。試行には 45～60 分を見込みます。</p>
+<h2 id="クライアントとサーバー">
+  <a href="#%e3%82%af%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%83%88%e3%81%a8%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc" title="クライアントとサーバー">クライアントとサーバー</a>
+  <a href="#%e3%82%af%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%83%88%e3%81%a8%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc" class="h-anchor" aria-hidden="true" title="クライアントとサーバー">#</a>
+</h2>
+<p><strong>OpenCode はインターフェースとサーバーを分離します。</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode 対 Claude Code: 2026年コーディングエージェント比較</title><link>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><description>モデル選択、ローカル推論、料金、権限、プロジェクト指示、日々のコーディング作業について OpenCode と Claude Code を比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode</strong> は、モデルプロバイダー、エージェント設定、ローカル推論を管理したい開発者に向いています。<strong>Claude Code</strong> は、Anthropic の統合コーディングワークフロー、Claude のサブスクリプション、文書化された組織向け制御を求める開発者に向いています。どちらも実際のリポジトリで動作します。役に立つ結果は、ツール実行、プロジェクト指示、検証に左右されます。</p>
+<p><strong>エージェントとモデルは別の選択です。</strong> ホストされた Claude モデルを使う Claude Code から、小さなローカルモデルを使う OpenCode に切り替えると、複数の変数が同時に変わります。結果の差だけでは、どちらのエージェントアプリケーションが優れているかは判断できません。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>プロバイダーの柔軟性には OpenCode を選びます。</strong> オープンソースのカスタマイズと、ホスト型またはローカルモデルでの試行にも向いています。</li>
+<li><strong>Claude 中心のワークフローには Claude Code を選びます。</strong> サブスクリプションや組織がすでに対応している場合に適しています。</li>
+<li><strong>ローカル実行には注意が必要です。</strong> ターミナルアプリケーションでも、設定した推論サービスへプロンプトを送信します。</li>
+<li><strong>完了した作業を比較します。</strong> トークン速度だけでなく、レビュー時間と失敗した試行も含めます。</li>
+</ul>
+<p><strong>範囲と日付:</strong> この比較は、2026年10月6日時点の公式ドキュメントと料金を確認しています。選択の助言であり、実機パフォーマンスベンチマークではありません。</p>
+<p><strong>前提:</strong> Git リポジトリ、動作するビルドとテストコマンド、使用するモデルへのアクセスが必要です。インストール後の初回比較には60から90分を見込みます。難易度は中級です。</p>
+<h2 id="機能比較">
+  <a href="#%e6%a9%9f%e8%83%bd%e6%af%94%e8%bc%83" title="機能比較">機能比較</a>
+  <a h
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ローカルAIとChatGPTの比較。本当にどこまで近づいたのか</title><link>https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><description>ベンチマークスコア、メモリ見積もり、サービング速度、エージェント検証を使い、ローカルAIとChatGPTおよびClaudeを比較します。RTX 5090、DGX Spark、Mac Studioの構成も扱います。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>ローカルAI</strong>は、明確な確認手順を持つ限定的な作業に適した選択肢です。ChatGPTやClaudeに任せる作業を置き換えるには、モデル性能、利用可能なメモリ、出力を調査して検証するエージェントがそろう必要があります。</p>
+<p>ワークステーションに収まるモデルでも、試行を繰り返すには適切なツールと十分な速度が必要です。この記事では、ベンチマーク結果、メモリ見積もり、完了した作業の証拠を分けて扱います。</p>
+<h2 id="重要なポイント">
+  <a href="#%e9%87%8d%e8%a6%81%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" title="重要なポイント">重要なポイント</a>
+  <a href="#%e9%87%8d%e8%a6%81%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="h-anchor" aria-hidden="true" title="重要なポイント">#</a>
+</h2>
+<ul>
+<li><strong>性能:</strong> 参照スコアは特定の評価条件を示します。ローカルの量子化ビルドの結果ではありません。</li>
+<li><strong>メモリ:</strong> ウェイト、コンテキストキャッシュ、ランタイムの余裕をまとめて見積もります。</li>
+<li><strong>速度:</strong> エージェント会話の再生はサービング性能を測ります。正しさは測りません。</li>
+<li><strong>検証:</strong> エージェントには要求された結果に合うチェックが必要です。</li>
+<li><strong>選択:</strong> ハードウェアを買う前に、反復作業、修正時間、総費用を比較します。</li>
+</ul>
+<h2 id="スコアを文脈の中で読む">
+  <a href="#%e3%82%b9%e3%82%b3%e3%82%a2%e3%82%92%e6%96%87%e8%84%88%e3%81%ae%e4%b8%ad%e3%81%a7%e8%aa%ad%e3%82%80" title="スコアを文脈の中で読む">スコアを文脈の中で読む</a>
+  <a href="#%e3%82%b9%e3%82%b3%e3%82%a2%e3%82%92%e6%96%87%e8%84%88%e3%81%ae%e4%b8%ad%e3%81%a7%e8%aa%ad%e3%82%80" class="h-anchor" aria-hidden="true" title="スコアを文脈の中で読む">#</a>
+</h2>
+<p><strong>Artificial Analysis Intelligence Index</strong>は複数の評価を参照スコアにまとめます。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>どのローカルAIモデルを動かすべきか？ 2026年10月版 GPU、コンテキスト、コーディングガイド</title><link>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><description>コーディングエージェント向けのローカルAIモデル選びを解説する、2026年10月の実践ガイドです。GPUメモリ、KVキャッシュの増加、コンテキスト長、量子化品質、プロンプト処理、推論設定、クラウドレンタル費用を比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>最良のローカルコーディングモデルは、プロジェクトを十分にメモリへ保持し、役に立つ速度で読み取れるモデルです。</strong> モデルサイズは今も重要です。ただし、システムRAMへオフロードして初めて収まるモデルは、安定したコンテキストウィンドウを持つ小型モデルより使いにくいことが多くあります。</p>
+<p><em>モデルとメモリ予算を一緒に選んでください。ティアリストからモデルを選び、不適切なハードウェアへ無理に載せないでください。</em></p>
+<p>このガイドは短いオートコンプリート用プロンプトではなく、コーディングエージェントを扱います。エージェントは修正を書く前に、ファイル、ツール出力、コンパイラーエラー、テスト結果を読みます。これらの入力がコンテキストを消費し、ハードウェアの判断を変えます。</p>
+<h2 id="動画は参考資料です">
+  <a href="#%e5%8b%95%e7%94%bb%e3%81%af%e5%8f%82%e8%80%83%e8%b3%87%e6%96%99%e3%81%a7%e3%81%99" title="動画は参考資料です">動画は参考資料です</a>
+  <a href="#%e5%8b%95%e7%94%bb%e3%81%af%e5%8f%82%e8%80%83%e8%b3%87%e6%96%99%e3%81%a7%e3%81%99" class="h-anchor" aria-hidden="true" title="動画は参考資料です">#</a>
+</h2>
+<p>次の動画は、複数のGPUメモリ帯でローカルモデルを比較します。実践的なモデル選択の観察と、報告されたハードウェア結果を確認する資料として役立ちます。この記事では、メモリの挙動、エージェントのコンテキスト、プロンプト処理、総所有コストを軸に、別の方法で判断を整理します。</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteY
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>調査、デザイン、開発のためのAIエージェントスキルプロジェクト9選</title><link>https://ja.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><description>ワークフロー、ホスト対応、依存関係、コストを基準に9つのエージェントスキルプロジェクトを比較します。必要なスキルをインストールし、調査してテストする方法を学べます。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>繰り返し行う作業を改善するために、エージェントスキルをインストールします。</strong> 最近の議論の調査、インターフェースデザインの確認、動画のレンダリングには、それぞれ異なる手順と依存関係があります。役立つスキルは、いずれかの作業に必要な指示、参考資料、スクリプトを補います。</p>
+<p><strong>検討に値するプロジェクトは9つです。</strong> last30days、Humanizer、Impeccable、Superpowers、gstack、Claude Video、Remotion、HyperFrames、NVIDIA SkillSpectorです。指示の集合もあれば、実行可能なツールを含むものもあり、関連スキルを備えたフレームワークもあります。このガイドでは文書化された役割を比較し、選択、インストール、評価の実用的な方法を示します。</p>
+<p><strong>ドキュメントのスナップショット: 2026年10月10日。</strong> 推奨事項はプロジェクトのドキュメントとソース調査に基づき、出力品質の比較ベンチマークには基づきません。無料インストールでも、推論、レンダリング、データアクセス、商用利用が無料になるとは限りません。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>繰り返し作業から始めます:</strong> 明確な成果物と受け入れ確認を持つスキルを選びます。</li>
+<li><strong>スキルとランタイムを分けます:</strong> 指示をインストールしても、必要な実行ファイルがすべて入るわけではありません。</li>
+<li><strong>ホストを確認します:</strong> 動作するClaude Code統合が、CodexやCoworkで同じ動作をするとは限りません。</li>
+<li><strong>権限と依存関係を調査します:</strong> パッケージコマンド、フック、外部サービス、認証情報は別々に確認します。</li>
+<li><strong>テスト後にカスタマイズします:</strong> プロジェクトのポリシーを優先し、上流バージョンを記録します。</li>
+</ul>
+<h2 id="成果物で選ぶ">
+  <a href="#%e6%88%90%e6%9e%9c%e7%89%a9%e3%81%a7%e9%81%b8%e3%81%b6" title="成果物で選ぶ">成果物で選ぶ</a>
+  <a href="#%e6%88%90%e6%9e%9c%e7%89%a9%e3%81%a7%e9%81%b8%e3%8
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenRouterプロバイダールーティング: モデル品質、トークン制限、実際のコスト</title><link>https://ja.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><description>OpenRouterの一貫しない回答を診断し、エンドポイントの制限とキャッシュ費用を比較して、品質管理を誤って無効にせずプロバイダールーティングを設定します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>OpenRouterのプロバイダールーティング</strong>は、リクエストに応答する推論サービスを決めます。同じモデル名を使う2つの呼び出しでも、エンドポイントの制限、対応パラメーター、サービングソフトウェア、ルーティング設定に左右されます。回答が短くなったりツール呼び出しが失敗したりしたら、量子化を原因と決める前にこれらの違いを確認してください。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>精度ラベル</strong>は数値形式を示すもので、正確さのスコアではありません。</li>
+<li><strong>エンドポイント制限</strong>は利用できるコンテキスト、出力長、機能対応を決めます。</li>
+<li><strong>明示的なルーティング</strong>には、プロバイダーの優先順位だけでなくフォールバックポリシーも必要です。</li>
+<li><strong>Auto Exacto</strong>は品質シグナルでプロバイダー選択を改善し、ツールを含まないリクエスト向けにオプトインの経路を提供します。</li>
+<li><strong>実効コスト</strong>には出力、キャッシュ動作、再試行、タスク完了の成否が含まれます。</li>
+</ul>
+<p><strong>前提条件:</strong> JSONリクエストの知識と、アプリケーションのOpenRouter設定へのアクセス。エンドポイントの確認には公開APIを使います。モデルリクエストの送信にはAPIキーが必要で、利用料金が発生します。日付付きの例を再現する前にエンドポイントのメタデータを再確認してください。</p>
+<p><strong>所要時間と難易度:</strong> 初回の設定確認は約20分です。中級者向けです。プロバイダーを有効に比較するには、代表的なプロンプトを使った追加テストが必要です。</p>
+<h2 id="モデル名だけでは分からないこと">
+  <a href="#%e3%83%a2%e3%83%87%e3%83%ab%e5%90%8d%e3%81%a0%e3%81%91%e3%81%a7%e3%81%af%e5%88%86%e3%81%8b%e3%82%89%e3%81%aa%e3%81%84%e3%81%93%e3%81%a8" title="モデル名だけでは分からないこと">モデル名だけでは分からないこと</a>
+  <a href="#%e3%83%a2%e3%83%87%e3%83%ab%e5%90%8d%e3%81%a0%e3%81%91%e3%81%a7%e3%81%af%e5%88%86%e3%81%8b
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>64GBのDGX SparkはローカルAIハードウェア価格への警告サインです</title><link>https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><description>NVIDIAの64GB DGX Sparkの新しい層は、メモリ供給の圧力がローカルAIハードウェアをどう変えているかを示します。このガイドでは、容量削減、ユニファイドメモリのトレードオフ、2027年末より前にDRAMの緩和が起きにくい理由を説明します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>64GB DGX SparkはローカルAI購入者への市場シグナルです。</strong> AIサーバー、HBM、従来型DRAMへの需要が高い中で、メモリ容量の少ない構成が登場します。この変更は、すべての部品が128GBシステムと同一であることを証明しません。それでも、ベンダーがメモリのコスト、供給状況、製品区分にどう対応しているかを示します。</p>
+<p><em>大容量の共有メモリを持つローカルAIシステムが必要なら、価格の急落を待つ計画は弱いものです。予算を決め、1ドルあたりのメモリ容量を追跡し、別のハードウェア案を用意してください。</em></p>
+
+
+<h2 id="何が変わったのか">
+  <a href="#%e4%bd%95%e3%81%8c%e5%a4%89%e3%82%8f%e3%81%a3%e3%81%9f%e3%81%ae%e3%81%8b" title="何が変わったのか">何が変わったのか</a>
+  <a href="#%e4%bd%95%e3%81%8c%e5%a4%89%e3%82%8f%e3%81%a3%e3%81%9f%e3%81%ae%e3%81%8b" class="h-anchor" aria-hidden="true" title="何が変わったのか">#</a>
+</h2>
+<p>報告された64GB DGX Sparkは、NVIDIAの小型Grace Blackwellシステムに低容量の層を追加します。Tom&rsquo;s Hardwareは、64GBユニットの開始価格を4,999ドル、128GBモデルの価格を6,950ドルと報じています。2つの層は異なるメモリ予算を対象にしながら、同じ製品ファミリーとGB10プラットフォームを維持します。
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Tom&rsquo;s Hardwareの製品と価格の詳細">
+    <meta itemprop="url" content="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less">
+    <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
+    
+        
+            
+                
+                    rel
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Qwen 27Bに32GB VRAM: 2026年10月のローカルAIハードウェアガイド</title><link>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><description>32GBの利用可能なアクセラレータメモリでQwen 27Bを実行するための、2026年10月の実用ガイドです。単体GPU、2枚構成、統合メモリ、中古データセンターカード、レンタル計算資源、ソフトウェア対応、フルコンテキストの制限を比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>製品ラベルの32GBは、Qwen 27Bの処理で32GB使えるという意味ではありません。</strong> OS、ランタイム、KVキャッシュ、モデル形式、ドライバ、カード構成が結果を変えます。容量が足りる安価なカードでも、プロンプト処理や設定時間で大きく遅れる場合があります。</p>
+<p><em>2026年10月はVRAMの数字だけでなく、利用可能なメモリと1ドル当たりの処理量を比較してください。</em></p>
+<p>このガイドでは、6ビット品質と大きなコンテキストでQwen 27Bを動かす方法を比較します。公開仕様と報告されたテスト結果を分けて扱います。ある人のtokens-per-secondはGPUの普遍的な性能ではありません。</p>
+<h2 id="32gbを目標にする理由">
+  <a href="#32gb%e3%82%92%e7%9b%ae%e6%a8%99%e3%81%ab%e3%81%99%e3%82%8b%e7%90%86%e7%94%b1" title="32GBを目標にする理由">32GBを目標にする理由</a>
+  <a href="#32gb%e3%82%92%e7%9b%ae%e6%a8%99%e3%81%ab%e3%81%99%e3%82%8b%e7%90%86%e7%94%b1" class="h-anchor" aria-hidden="true" title="32GBを目標にする理由">#</a>
+</h2>
+<p>必要なメモリは重みから始まります。密な27Bモデルは生成時に全パラメータを読みます。6ビット量子化では、ランタイムとコンテキスト用の領域を除いて重みが約<strong>20.5GB</strong>を占めます。</p>
+<p>128Kトークンのコンテキストは、さらに大きな領域を必要とします。KVキャッシュの正確なサイズは、モデル構造、キャッシュ精度、バッチ設定、バックエンドで変わります。実用的な約<strong>8GB</strong>という見積もりでは、OSと推論ランタイムの領域を除く前に、重みとキャッシュで約<strong>28.5GB</strong>になります。</p>
+<table>
+	<thead>
+			<tr>
+					<th>構成</th>
+					<th>対応内容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>24GBディスクリートGPU</strong></td>
+					<td>コンテキストを減らした4ビット重み、または部分オフロード</td>
+			</tr>
+			<tr>
+					<td><strong>32GBディスクリートGPU</strong></td>
+					<td>実用的な128Kコンテキスト目標で6ビット重み</td>
+			</tr>
+			<tr>
+					<td><strong>16GB GPUを2枚</strong></td>
+					<td>ランタイム余裕が少ない分割モデル</td>
+			</tr>
+			<tr>
+					<td><strong>64GB統合メモリ</strong></td>
+					<td>GPU割�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Vast.ai における Llama 3.1 8B と Qwen3.8 27B の GPU ベンチマーク</title><link>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><description>主要な Vast.ai GPU で測定した Llama 3.1 8B と Qwen3.8 27B の Ollama ベンチマーク。デコード速度、長いコンテキスト、レンタル費用、セルフホスト、API クレジット、サブスクリプションを比較します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>H100 SXM は両方の Ollama テストで最速でしたが、最高の価値ではありませんでした。</strong> RTX PRO 5000 と RTX 6000 Ada は速度とレンタル費用のバランスに優れ、完了した Qwen3.8 27B 実行では CMP 170HX の時間単価が最も低くなりました。</p>
+<p><em>この結果は、1 つのモデル、1 つの Ollama ラッパー、デフォルト量子化、1 つのサービング方式を測定したものです。このワークロードのサイズ計画に使い、GPU の普遍的な順位とは考えないでください。</em></p>
+<p>この記事では、8.03B パラメーターの Ollama Q4_K_M ビルド <strong>Llama 3.1:8b</strong> と、約 27.3B パラメーターの Ollama Q4_K_M ビルド <strong>Qwen3.8:27b</strong> を比較します。両方を Vast.ai からレンタルした GPU インスタンスでテストしました。実際のプロンプト長を使い、対応するコンテキスト上限までのデコードスループットを測定しました。</p>
+<h2 id="短い答え">
+  <a href="#%e7%9f%ad%e3%81%84%e7%ad%94%e3%81%88" title="短い答え">短い答え</a>
+  <a href="#%e7%9f%ad%e3%81%84%e7%ad%94%e3%81%88" class="h-anchor" aria-hidden="true" title="短い答え">#</a>
+</h2>
+<p><strong>通常の単一ユーザー作業には RTX PRO 5000 または RTX 6000 Ada をレンタルしてください。</strong> 短いコンテキストと中程度のコンテキストでは RTX PRO 5000 が最も有利でした。RTX 6000 Ada は安価で、A100 より有用な速度を維持しました。速度が時間単価より重要な場合や長いプロンプトを使う場合は H100 SXM を選びます。</p>
+<table>
+	<thead>
+			<tr>
+					<th>目的</th>
+					<th>推奨</th>
+					<th>理由</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>最小のテスト費用</strong></td>
+					<td>CMP 170HX</td>
+					<td>1 時間 $0.420、テストした Q4_K_M モデルに十分な VRAM</td>
+			</tr>
+			<tr>
+					<td><strong>$1.25/時未満で最高の価値</strong></td>
+					<td>RTX PRO 5000 または RTX 6000 Ada</td>
+					<td>H100 のレンタル費用なしで高いデコード速度</td>
+			</tr>
+			<tr>
+					<td><strong>最速の応答</strong></td>
+					<td>H100 SXM</td>
+					<td>両方のモデルテストで最高のデコード速度</td>
+			</tr>
+			<tr>
+					<td><strong>長いコンテキストの Qwen 作業</strong></td>
+					<td>H100 SXM または RTX PRO 6000
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>クレジットカードの非接触決済を無効にする方法</title><link>https://ja.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><description>予備のクレジットカードで非接触決済を無効にしながら、ICチップと磁気ストライプによる決済を使える状態に保つ実用ガイドです。安全上の制限と、より安全な代替策も説明します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p><strong>非接触カードには独立したNFCアンテナがあります。</strong> カードをスマートフォンのケースに入れていると、一部のスマートフォンでアンテナがカードの干渉やNFC通知の繰り返しを引き起こします。アンテナのループを物理的に切断するとタップ決済が無効になります。一部のカードでは、ICチップと磁気ストライプは引き続き使えます。</p>
+<p><em>この作業には予備カードを使ってください。変更は元に戻せないものとして扱い、カード発行会社に結果を確認してから頼るようにしてください。</em></p>
+<p><strong>唯一の決済手段を変更しないでください。</strong> 発行会社の規則、カードの構造、端末の対応状況はそれぞれ異なります。損傷したカードを試す間は、別のカードか現金を用意してください。</p>
+<h2 id="非接触決済を無効にする理由">
+  <a href="#%e9%9d%9e%e6%8e%a5%e8%a7%a6%e6%b1%ba%e6%b8%88%e3%82%92%e7%84%a1%e5%8a%b9%e3%81%ab%e3%81%99%e3%82%8b%e7%90%86%e7%94%b1" title="非接触決済を無効にする理由">非接触決済を無効にする理由</a>
+  <a href="#%e9%9d%9e%e6%8e%a5%e8%a7%a6%e6%b1%ba%e6%b8%88%e3%82%92%e7%84%a1%e5%8a%b9%e3%81%ab%e3%81%99%e3%82%8b%e7%90%86%e7%94%b1" class="h-anchor" aria-hidden="true" title="非接触決済を無効にする理由">#</a>
+</h2>
+<p>タップ決済は便利です。最新のモバイルウォレットは、同じスマートフォンに別の決済トークンも追加します。NFC対応の物理カードがスマートフォンのNFCリーダーの近くにあると、問題が始まります。</p>
+<p>2つの決済手段が同じリーダーに応答する場合があります。スマートフォンを開いたり持ったりしたときに、Androidが物理カードを検出する場合もあります。ケースからカードを取り出せば問題は解決しますが、決済のたびに手間が増えます。</p>
+<p>ここでの目的は限定的です。カードの非接触インターフェースを無効にし、他の決済方法を使える状態に保ちます。</p>
+<table>
+	<thead>
+			<tr>
+					<th>決済方法</th>
+					<th>アンテナ切断後に予想される結果</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>非接触決済</strong></td>
+					<td>NFCアンテナのループがリーダーと結合しなく�
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AIエージェントガバナンスパイロット: 憲章、権限、テスト</title><link>https://ja.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/</guid><description>AIツールを接続する前に、パイロットの役割、権威ある情報源、ポリシーテンプレート、受け入れテストを定義します。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="AIコラボレーションコースに戻る">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >AIコラボレーションコースに戻る</a>
+</span>
+</p>
+<p><strong>コネクターのインストールではなく、承認済みのパイロット憲章から始めます。</strong> あなた、プロダクトオーナー、運用オーナー、リポジトリメンテナーで、架空のエクスポートサービスを定めます。どちらの実装トラックを選ぶ場合も、使い捨てリポジトリと職場のサンドボックスで先に行います。目的は、承認済みの要件、提案、実装済みの動作を分けることです。</p>
+<h2 id="主なポイント">
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" title="主なポイント">主なポイント</a>
+  <a href="#%e4%b8%bb%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="h-anchor" aria-hidden="true" title="主なポイント">#</a>
+</h2>
+<ul>
+<li><strong>権威</strong>は、特定の情報種別の正しい保管場所を割り当てます。</li>
+<li><strong>バージョンの証拠</strong>は、回答の根拠となる情報源を特定します。</li>
+<li><strong>アクセス制御</strong>は、指示とは独立して公開を制限します。</li>
+<li><strong>受け入れテスト</strong>には、拒否された変更と復旧を含めます。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p><strong>前提条件:</strong> 実行可能なラボには Python 3.10 以降、GitHub アクセス、ライブテスト用の別々のコントリビューターとレビュアーのユーザーが必要です。混合トラックには Confluence Cloud と会社管理の Jira Clou
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-collaboration-pilot-foundation/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>AIソース検索: マップ、検索、オプションのRAG</title><link>https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><description>権限を変えずに、マップ優先のソース検索、ネイティブ検索、ライブソース検証、オプションのRAG評価を使います。</description><content:encoded><![CDATA[
+        
+            <img src="https://ja.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read the full article at https://ja.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="AIコラボレーションコースに戻る">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >AIコラボレーションコースに戻る</a>
+</span>
+</p>
+<p><strong>公開管理が機能してから検索を追加します。</strong> MAP-01と正確なソースIDから始め、未知のレコードにはネイティブ検索を使います。検索拡張生成、つまりRAGは、引き続き任意の発見レイヤーです。ソースの所有者が権限を決め、公開担当者は重大な書き込みの前にライブソースを確認します。このレッスンはどちらのラボトラックにも適用されます。</p>
+<h2 id="要点">
+  <a href="#%e8%a6%81%e7%82%b9" title="要点">要点</a>
+  <a href="#%e8%a6%81%e7%82%b9" class="h-anchor" aria-hidden="true" title="要点">#</a>
+</h2>
+<ul>
+<li><strong>既知のID</strong>には直接検索を使います。</li>
+<li><strong>検索結果</strong>は候補を示すもので、承認済みポリシーではありません。</li>
+<li><strong>アクセスフィルタリング</strong>をモデルのコンテキストより先に行います。</li>
+<li><strong>ライブソースの確認</strong>は公開前に必須です。</li>
+</ul>
+<h2 id="始める前に">
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" title="始める前に">始める前に</a>
+  <a href="#%e5%a7%8b%e3%82%81%e3%82%8b%e5%89%8d%e3%81%ab" class="h-anchor" aria-hidden="true" title="始める前に">#</a>
+</h2>
+<p><strong>前提条件:</strong> 1つの完了したトラックと、その権限登録簿。<strong>推定時間:</strong> マップとネイティブ検索のテストに60分。<strong>難易度:</strong> 中程度。</p>
+<p><strong>範囲:</strong> 埋め込みプロバイダー、ベクトルデータベース、有料コネクターは不要です。実行可能なベースラインではブラウザー検索を使います。後でRAGを導入する場
+
+        <br>
+        <a href="https://ja.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read More at https://ja.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
