@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lokale Inferenz on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Lokale Inferenz on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/lokale-inferenz/</link></image><link>https://de.simeononsecurity.com/tags/lokale-inferenz/</link><description>Recent content in Lokale Inferenz on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/lokale-inferenz/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti gegen GB10: Warum 32 GB VRAM gegen 128 GB gemeinsamen Speicher verlieren</title><link>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Künstliche Intelligenz"
+, "Lokale KI"
+, "GPU-Hardware"
+, "Benchmarking"
+, "Computerhardware"</category><guid>https://de.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ein benchmarkbasierter Vergleich von zwei RTX 5060 Ti Karten mit 16 GB und einem NVIDIA GB10 System für Qwen 3 27B und lokale Inferenz mit langem Kontext.</description><enclosure url="https://de.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Lokale KI vs. ChatGPT: Wie nah sind wir wirklich?</title><link>https://de.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Künstliche Intelligenz"
+, "KI-Hardware"
+, "Entwicklerwerkzeuge"</category><guid>https://de.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleiche lokale KI mit ChatGPT und Claude anhand von Benchmarkwerten, Speicherschätzungen, Bereitstellungsgeschwindigkeit und Agentenprüfung. Mit Szenarien für RTX 5090, DGX Spark und Mac Studio.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Lokales KI-Coding auf einer 16-GB-GPU: Strata, OpenCode und Qwen3.8</title><link>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Entwicklerwerkzeuge"
+, "Selbst gehostete KI"
+, "KI-Hardware"</category><guid>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Betreibe einen lokalen Coding-Agenten mit Strata und OpenCode. Prüfe gemeldete RTX-4060-Ti-Ergebnisse, RAM-Anforderungen, Prompt-Wiederverwendung, Reasoning-Budgets und die Grenzen eines Ersatzes für ein kostenpflichtiges Abonnement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item></channel></rss>

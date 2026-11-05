@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selbst Gehostete KI on simeononsecurity</title><image><url>https://de.simeononsecurity.com/img/banner.webp</url><title>Selbst Gehostete KI on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/selbst-gehostete-ki/</link></image><link>https://de.simeononsecurity.com/genre/selbst-gehostete-ki/</link><description>Recent content in Selbst Gehostete KI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/selbst-gehostete-ki/index.xml" rel="self" type="application/rss+xml"/><item><title>Lokales KI-Coding auf einer 16-GB-GPU: Strata, OpenCode und Qwen3.8</title><link>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "Entwicklerwerkzeuge"
+, "Selbst gehostete KI"
+, "KI-Hardware"</category><guid>https://de.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Betreibe einen lokalen Coding-Agenten mit Strata und OpenCode. Prüfe gemeldete RTX-4060-Ti-Ergebnisse, RAM-Anforderungen, Prompt-Wiederverwendung, Reasoning-Budgets und die Grenzen eines Ersatzes für ein kostenpflichtiges Abonnement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Welches lokale KI-Modell solltest du ausführen? Ein GPU-, Kontext- und Coding-Leitfaden für Oktober 2026</title><link>https://de.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Hardware"
+, "Selbst gehostete KI"
+, "GPU-Benchmarking"
+, "Entwicklerwerkzeuge"
+, "KI-Ökonomie"</category><guid>https://de.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ein praktischer Leitfaden für Oktober 2026 zur Auswahl lokaler KI-Modelle für Coding-Agenten. Vergleiche GPU-Speicher, KV-Cache-Wachstum, Kontextgröße, Quantisierungsqualität, Prompt-Verarbeitung, Reasoning-Einstellungen und Cloud-Mietkosten.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Der 64-GB-DGX-Spark ist ein Warnsignal für die Preise lokaler KI-Hardware</title><link>https://de.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Lokale KI"
+, "KI-Hardware"
+, "Halbleiter"
+, "Computer-Hardware"
+, "KI-Ökonomie"
+, "Selbst gehostete KI"</category><guid>https://de.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Die 64-GB-Stufe des NVIDIA DGX Spark zeigt, wie der Speichermangel lokale KI-Hardware prägt. Dieser Leitfaden erklärt die Kapazitätskürzung, die Nachteile des Unified Memory und warum eine Entlastung bei DRAM vor Ende 2027 unwahrscheinlich ist.</description><enclosure url="https://de.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
