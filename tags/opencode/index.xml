@@ -1,0 +1,154 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCode on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>OpenCode on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/opencode/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/opencode/</link>
+
+    <description>Recent content in OpenCode on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/opencode/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenCode и Claude Code: сравнение агентов программирования в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/opencode-vs-claude-code/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты разработчика"
+            
+              , "Искусственный интеллект"
+            
+              , "Открытый исходный код"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/opencode-vs-claude-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните OpenCode и Claude Code по выбору моделей, локальному выводу, ценам, разрешениям, инструкциям проекта и ежедневным рабочим процессам программирования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальное программирование с ИИ на GPU 16 ГБ: Strata, OpenCode и Qwen3.8</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Инструменты разработчика"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+              , "Оборудование для ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Запустите локального агента программирования с Strata и OpenCode. Изучите заявленные результаты RTX 4060 Ti, требования к ОЗУ, повторное использование промпта, бюджеты рассуждений и ограничения замены платной подписки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

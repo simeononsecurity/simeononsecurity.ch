@@ -1,0 +1,209 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Квантизация on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Квантизация on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Квантизация on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Достаточно ли 16 ГБ VRAM для серьёзной работы с локальной LLM?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Компьютерное оборудование"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Рассчитайте конфигурацию локальной LLM на 16 ГБ с учётом весов модели, KV-кэша и обработки промпта. Сравните бюджет памяти Qwen3.8 27B, пропускную способность GPU и стоимость владения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальный ИИ и ChatGPT: насколько мы близки?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Искусственный интеллект"
+            
+              , "Оборудование для ИИ"
+            
+              , "Инструменты разработчика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение локального ИИ с ChatGPT и Claude по результатам тестов, оценкам памяти, скорости обслуживания и проверке агентов. Включены RTX 5090, DGX Spark и Mac Studio.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Маршрутизация провайдеров OpenRouter: качество моделей, лимиты токенов и реальные расходы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link>
+        
+        <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инфраструктура"
+            
+              , "Open Source"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Диагностируйте нестабильные ответы OpenRouter, сравнивайте лимиты endpoint и расходы на кэширование, а также настраивайте маршрутизацию провайдеров без случайного отключения контроля качества.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

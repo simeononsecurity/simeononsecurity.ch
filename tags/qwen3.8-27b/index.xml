@@ -1,0 +1,215 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qwen3.8 27B on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Qwen3.8 27B on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/qwen3.8-27b/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/qwen3.8-27b/</link>
+
+    <description>Recent content in Qwen3.8 27B on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/qwen3.8-27b/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Достаточно ли 16 ГБ VRAM для серьёзной работы с локальной LLM?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Компьютерное оборудование"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Рассчитайте конфигурацию локальной LLM на 16 ГБ с учётом весов модели, KV-кэша и обработки промпта. Сравните бюджет памяти Qwen3.8 27B, пропускную способность GPU и стоимость владения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальный ИИ и ChatGPT: насколько мы близки?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Искусственный интеллект"
+            
+              , "Оборудование для ИИ"
+            
+              , "Инструменты разработчика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравнение локального ИИ с ChatGPT и Claude по результатам тестов, оценкам памяти, скорости обслуживания и проверке агентов. Включены RTX 5090, DGX Spark и Mac Studio.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 ГБ VRAM для Qwen 27B: руководство по локальному AI-железу на октябрь 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-железо"
+            
+              , "Бенчмаркинг GPU"
+            
+              , "Самостоятельный хостинг AI"
+            
+              , "Компьютерное железо"
+            
+              , "Экономика AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практическое руководство за октябрь 2026 года по запуску модели Qwen 27B с 32 ГБ доступной памяти ускорителя. Сравните одиночные GPU, сборки с двумя картами, унифицированную память, бывшие в употреблении серверные карты, аренду вычислений, поддержку ПО и ограничения полного контекста.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

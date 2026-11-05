@@ -1,0 +1,225 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Экономика AI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Экономика AI on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-ai/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-ai/</link>
+
+    <description>Recent content in Экономика AI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-ai/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Какую локальную AI-модель запустить? Руководство по GPU, контексту и программированию на октябрь 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-оборудование"
+            
+              , "Self-hosted AI"
+            
+              , "Бенчмаркинг GPU"
+            
+              , "Инструменты разработчика"
+            
+              , "Экономика AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практическое руководство за октябрь 2026 года по выбору локальных AI-моделей для агентов программирования. Сравните память GPU, рост KV cache, размер контекста, качество квантования, обработку промптов, настройки рассуждений и стоимость аренды в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 ГБ VRAM для Qwen 27B: руководство по локальному AI-железу на октябрь 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-железо"
+            
+              , "Бенчмаркинг GPU"
+            
+              , "Самостоятельный хостинг AI"
+            
+              , "Компьютерное железо"
+            
+              , "Экономика AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практическое руководство за октябрь 2026 года по запуску модели Qwen 27B с 32 ГБ доступной памяти ускорителя. Сравните одиночные GPU, сборки с двумя картами, унифицированную память, бывшие в употреблении серверные карты, аренду вычислений, поддержку ПО и ограничения полного контекста.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>64GB DGX Spark предупреждает о ценах на локальное AI-оборудование</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-оборудование"
+            
+              , "Полупроводники"
+            
+              , "Компьютерное оборудование"
+            
+              , "Экономика AI"
+            
+              , "Самостоятельно размещённый AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Версия NVIDIA DGX Spark с 64GB показывает, как давление на поставки памяти влияет на локальное AI-оборудование. Это руководство объясняет сокращение ёмкости, компромиссы унифицированной памяти и причины, по которым облегчение дефицита DRAM маловероятно до конца 2027 года.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,327 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Контекстное Окно on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Контекстное Окно on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BD%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%BE/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BD%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%BE/</link>
+
+    <description>Recent content in Контекстное Окно on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BD%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Достаточно ли 16 ГБ VRAM для серьёзной работы с локальной LLM?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Компьютерное оборудование"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Рассчитайте конфигурацию локальной LLM на 16 ГБ с учётом весов модели, KV-кэша и обработки промпта. Сравните бюджет памяти Qwen3.8 27B, пропускную способность GPU и стоимость владения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Какую локальную AI-модель запустить? Руководство по GPU, контексту и программированию на октябрь 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-оборудование"
+            
+              , "Self-hosted AI"
+            
+              , "Бенчмаркинг GPU"
+            
+              , "Инструменты разработчика"
+            
+              , "Экономика AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практическое руководство за октябрь 2026 года по выбору локальных AI-моделей для агентов программирования. Сравните память GPU, рост KV cache, размер контекста, качество квантования, обработку промптов, настройки рассуждений и стоимость аренды в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Контекстные языковые модели Meta: лучшая память агентов, но не конец галлюцинаций</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "ИИ-агенты"
+            
+              , "Локальный ИИ"
+            
+              , "Безопасность ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Как Context Language Models редактируют память агента, что показывают бенчмарки и как стоимость кеша, возможности модели и ненадёжные заметки влияют на надёжность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Локальное программирование с ИИ на GPU 16 ГБ: Strata, OpenCode и Qwen3.8</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Инструменты разработчика"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+              , "Оборудование для ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Запустите локального агента программирования с Strata и OpenCode. Изучите заявленные результаты RTX 4060 Ti, требования к ОЗУ, повторное использование промпта, бюджеты рассуждений и ограничения замены платной подписки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Маршрутизация провайдеров OpenRouter: качество моделей, лимиты токенов и реальные расходы</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link>
+        
+        <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инфраструктура"
+            
+              , "Open Source"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Диагностируйте нестабильные ответы OpenRouter, сравнивайте лимиты endpoint и расходы на кэширование, а также настраивайте маршрутизацию провайдеров без случайного отключения контроля качества.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp" length="117470" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

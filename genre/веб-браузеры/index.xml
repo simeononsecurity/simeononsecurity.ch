@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Веб-Браузеры on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Веб-Браузеры on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B2%D0%B5%D0%B1-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B2%D0%B5%D0%B1-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D1%8B/</link>
+
+    <description>Recent content in Веб-Браузеры on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B2%D0%B5%D0%B1-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>LibreWolf против Firefox</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link>
+        
+        <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Конфиденциальность"
+            
+              , "Веб-браузеры"
+            
+              , "Онлайн-безопасность"
+            
+              , "Открытый исходный код"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Программное обеспечение"
+            
+              , "Сравнение"
+            
+              , "Кибербезопасность"
+            
+              , "Интернет-конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите особенности LibreWolf и Firefox, двух браузеров, ориентированных на конфиденциальность, чтобы сделать осознанный выбор для повышения безопасности и приватности в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
