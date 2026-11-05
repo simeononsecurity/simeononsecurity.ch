@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IA Local on simeononsecurity</title><image><url>https://es.simeononsecurity.com/img/banner.webp</url><title>IA Local on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/ia-local/</link></image><link>https://es.simeononsecurity.com/tags/ia-local/</link><description>Recent content in IA Local on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/ia-local/index.xml" rel="self" type="application/rss+xml"/><item><title>¿Son suficientes 16GB de VRAM para trabajar en serio con LLM locales?</title><link>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware informático"
+, "IA autoalojada"</category><guid>https://es.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensiona una configuración de LLM local de 16GB según los pesos del modelo, la caché KV y el procesamiento de prompts. Compara los presupuestos de memoria, el ancho de banda de GPU y el coste de propiedad de Qwen3.8 27B.</description><enclosure url="https://es.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>OpenCode frente a Claude Code: comparación de agentes de programación de 2026</title><link>https://es.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Herramientas para desarrolladores"
+, "Inteligencia artificial"
+, "Código abierto"</category><guid>https://es.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara OpenCode y Claude Code en elección de modelos, inferencia local, precios, permisos, instrucciones del proyecto y flujos diarios de programación.</description><enclosure url="https://es.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>32 GB de VRAM para Qwen 27B: guía de hardware de IA local para octubre de 2026</title><link>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Pruebas de GPU"
+, "IA autoalojada"
+, "Hardware informático"
+, "Economía de la IA"</category><guid>https://es.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía práctica de octubre de 2026 para ejecutar un modelo Qwen 27B con 32 GB de memoria utilizable del acelerador. Compara GPU individuales, equipos con dos tarjetas, memoria unificada, tarjetas usadas de centros de datos, cómputo alquilado, soporte de software y límites de contexto completo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>El DGX Spark de 64 GB es una señal de advertencia para los precios del hardware de IA local</title><link>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "Semiconductores"
+, "Hardware informático"
+, "Economía de la IA"
+, "IA autoalojada"</category><guid>https://es.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+La versión de 64 GB del DGX Spark de NVIDIA muestra cómo la presión sobre el suministro de memoria está moldeando el hardware de IA local. Esta guía explica la reducción de capacidad, las concesiones de la memoria unificada y por qué el alivio de la DRAM es poco probable antes de finales de 2027.</description><enclosure url="https://es.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
