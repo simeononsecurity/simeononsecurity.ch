@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuració De Servidors on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Configuració De Servidors on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/configuraci%C3%B3-de-servidors/</link></image><link>https://ca.simeononsecurity.com/tags/configuraci%C3%B3-de-servidors/</link><description>Recent content in Configuració De Servidors on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/configuraci%C3%B3-de-servidors/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC: Una Guia Inicial</title><link>https://ca.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Gestió de Configuració"
+, "Automatització"
+, "Windows"
+, "Administració de Sistemes"
+, "Millors Pràctiques"
+, "Compliment"
+, "Seguretat"
+, "Infraestructura"
+, "DevOps"
+, "Configuració de Servidors"
+, "Proves"
+, "Git"
+, "Control de Versions"
+, "Regulacions Governamentals"
+, "NIST"
+, "CIS"
+, "Deriva de Configuració"
+, "Recursos Personalitzats"</category><guid>https://ca.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explora el poder de PowerShell Desired State Configuration (DSC) per automatitzar i gestionar configuracions de sistema per a un entorn segur i complidor.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp"/></item></channel></rss>
