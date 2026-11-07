@@ -490,6 +490,12 @@ table, td:not(.js-line-number), th {
   border: 1px solid;
   padding: 10px;
 }
+@media (max-width: 683px) {
+  .post-content table:not(.js-file-line-container) {
+    display: block;
+    overflow-x: auto;
+  }
+}
 th {
   background: #eaeaea;
   background: var(--background-secondary);
@@ -1203,6 +1209,9 @@ div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, div.co
   /* Style the links in the table of contents */
   #TableOfContents a {
     display: inline-block;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-wrap: anywhere;
     padding: 10px;
     min-width: 48px;
     min-height: 48px;

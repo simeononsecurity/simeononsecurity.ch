@@ -395,6 +395,25 @@ keep this scoped to the related section rather than hiding page overflow.
 
 ---
 
+## Narrow Article Tables and Table of Contents
+
+At 320px, the career article has a 280px content column. Fixed-layout table cells
+can paint outside their table and widen the page. On the older baseline the related
+card grid also demanded a 320px track, but `layouts/partials/extended_head.html`
+already fixes that on current `master`; do not add another grid override. The narrow
+article-table rule in `themes/soshellofriend/assets/style-append.css` keeps the
+full table accessible through independent horizontal scrolling instead of clipping
+`.post-content` or hiding page overflow.
+
+The German translation's unbroken TOC link
+`Fortgeschrittene/Spezialisierte…` can separately extend beyond the column. Cap
+only mobile `#TableOfContents a` to its parent and allow long words to wrap; keep
+the whole link and its target intact. The stylesheet is loaded both in the head and
+near the footer, so a head-injected probe can lose to the later copy. Run
+`tools/mobile_article_overflow_probe.js` against the rendered EN and DE career
+articles at 320px: the document must fit while wide tables and EN `pre` remain
+independently scrollable.
+
 ## Homepage (`layouts/_default/index.html`) Search Was Missing Its Runtime (Fixed 2026-09)
 
 The homepage (Hugo `kind = home`, template `themes/soshellofriend/layouts/_default/index.html`)
