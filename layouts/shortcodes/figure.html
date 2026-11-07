@@ -142,6 +142,10 @@
     {{ end }}
   {{ end }}
 {{ end }}
+{{ $maxResponsiveDisplayWidth := 512 }}
+{{ if and $rasterImage (lt $rasterImage.Width $maxResponsiveDisplayWidth) }}
+  {{ $maxResponsiveDisplayWidth = $rasterImage.Width }}
+{{ end }}
 {{ $imgloading := cond (eq (.Get "loading") "eager") "eager" "lazy" }}
 {{ $credit := .Get "credit" }}
 <script type="application/ld+json">
@@ -179,7 +183,7 @@
 
 
 <center>
-    <figure align="center" style="text-align: center; margin: 0 auto;" {{ with .Get "class" }} class="{{ . }}"{{ end }} itemscope itemtype="http://schema.org/ImageObject">
+    <figure align="center" style="text-align: center; margin: 0 auto;{{ if $responsiveSrcset }} width: min(80vw, 640px); max-width: 100%;{{ end }}" {{ with .Get "class" }} class="{{ . }}"{{ end }} itemscope itemtype="http://schema.org/ImageObject">
         <meta property="article:published_time" content="{{ $articleDate | default $articleYear }}">
         <meta property="article:author" content="{{ .Page.Params.Author | default "SimeonOnSecurity" }}">
         <meta property="article:author:url" content="{{ $authorURL | default ("/authors/simeononsecurity" | absURL) }}">
@@ -193,8 +197,8 @@
         {{- if .Get "link" -}}
             <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }} alt="{{ or $alt (.Get "alt") (.Get "caption") }}" rel="{{ $rel }}" {{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
         {{- end }}
-        <img align="center" style="text-align: center; margin: 0 auto; max-width: 80%; max-height: 600px; min-width: 100px; min-height: 100px; height: auto; width: auto;" src="{{ $src }}"
-             {{- with $responsiveSrcset }} srcset="{{ delimit . ", " }}" sizes="(min-width: 900px) 640px, 80vw"{{ end -}}
+        <img align="center" style="text-align: center; margin: 0 auto; max-width: {{ if $responsiveSrcset }}min(80%, {{ $rasterImage.Width }}px){{ else }}80%{{ end }}; max-height: 600px; min-width: 100px; min-height: 100px; height: auto; width: {{ if $responsiveSrcset }}80%{{ else }}auto{{ end }};" src="{{ $src }}"
+             {{- with $responsiveSrcset }} srcset="{{ delimit . ", " }}" sizes="(min-width: 900px) {{ $maxResponsiveDisplayWidth }}px, {{ if lt $rasterImage.Width 640 }}min(64vw, {{ $rasterImage.Width }}px){{ else }}64vw{{ end }}"{{ end -}}
              {{- if or (.Get "alt") (.Get "caption") }}
              alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
              {{- end -}}

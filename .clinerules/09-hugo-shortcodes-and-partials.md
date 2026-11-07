@@ -341,9 +341,24 @@ To add a new ad partial to the rotation, add its path to the `$ads` slice in
 `layouts/partials/postcover.html` overrides the theme's older `postcover.html`.
 Maintain responsive `srcset` widths from each processed resource's actual `.Width`,
 not a hard-coded resize request: many source covers are narrower than 1920 px.
-Its `sizes` describes the displayed image's 85%-wide/mobile, 731px-max/desktop
-slot; the first visible cover remains eager/high priority. Do not put every cover
-derivative in a separate preload/prefetch link.
+Its `sizes` mirrors the CSS caps: 240px from 384px viewport width, 480px from
+780px, and 731px from 2560px; below 384px the measured slot is
+`calc(85vw - 34px)` (85% of the viewport width after the 40px article gutter). Match
+`sizes` to measured display widths when changing those CSS rules, including
+high-DPR mobile cases. The first visible cover remains eager/high priority.
+Do not put every cover derivative in a separate preload/prefetch link.
+
+The figure shortcode fixes its `<figure>` width at `min(80vw, 640px)` (capped to
+its container), then sets the `<img>` to 80% of that box. This preserves the
+preexisting rendered widths independently of the image candidate's intrinsic
+width. Its `sizes` is 64vw below the 900px article-column breakpoint and 512px
+on wider viewports, capped to the original image width for smaller local rasters
+so a 320px source is not stretched to the full desktop slot. Do not change
+`sizes` alone: the figure is a `display: table`
+element whose intrinsic width otherwise follows the browser-selected image, so
+smaller hints also shrink the rendered image and leave the hint overstated.
+Verify requested variants and `currentSrc` after scrolling lazy figures into view;
+do not confuse the `src` fallback with a requested original image.
 
 `layouts/partials/preload-images.html` intentionally overrides the theme's global
 `preload-images.html` with no speculative image hints. The theme prefetches every ad
@@ -354,7 +369,11 @@ HTML head has no such image prefetches before reporting a bandwidth reduction.
 `layouts/section/carousel.html` renders existing cover images as 480/731px WebP
 thumbnails rather than loading the raw source into 300px tiles. Both the initial
 HTML batch and the intersection-loaded batches need matching `srcset`/`sizes`;
-click-to-expand remains available and changes `sizes` to the expanded slot. Keep
+the inline `.carousel-item img` CSS must override the theme's 80% max-width
+with `max-width: 100%` so tiles display at their intended width;
+click-to-expand remains available and changes `sizes` to the expanded slot,
+capped at `100vw - 20px` on narrow screens so expanded tiles do not cause
+horizontal page scroll. Keep
 the original cover URL for build-time deduplication and other SEO metadata, not in
 the tile's automatic `srcset` or the deferred JSON payload. The deferred payload
 requires `jsonify | safeJS`: `jsonify` alone becomes a double-encoded JSON string
@@ -362,6 +381,17 @@ inside `<script type="application/json">`, so `JSON.parse` returns a string and
 silently disables lazy batches. Parse the rendered payload and assert it is an
 array, then validate a local browser's `currentSrc` at mobile and high-DPR
 viewports and confirm new batches actually appear on scroll.
+
+`layouts/partials/extended_head.html` scopes `overflow-wrap: anywhere` to
+inline code within `.post-content`, excluding `pre code`. This prevents long
+comma-separated commands from widening mobile pages while preserving the code
+block's independent scroll behavior. The same partial lets long translated
+headings break within the article column; a German H1 anchor otherwise widened
+a 320px viewport to 433px. Check `document.documentElement.scrollWidth`
+against `innerWidth` on a narrow article viewport when altering this style.
+The same partial overrides the theme's later 320px related-card grid minimum
+below 500px so the cards fit within the article's padded column at 320px;
+keep this scoped to the related section rather than hiding page overflow.
 
 ---
 

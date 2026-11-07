@@ -74,6 +74,7 @@
     position: absolute;
     inset: 0;
     width: 100%;
+    max-width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center center;
@@ -87,6 +88,7 @@
 
   .carousel-item.active {
     width: 500px;
+    max-width: calc(100vw - 20px);
     height: 400px;
     z-index: 2;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -159,6 +161,7 @@
 
   /* ── click-to-expand (works for both initial and dynamically added items) ── */
   var activeItem = null;
+  var expandedSizes = '(max-width: 520px) calc(100vw - 20px), 500px';
   document.addEventListener('click', function (e) {
     var item = e.target.closest && e.target.closest('.carousel-item');
     if (!item) return;
@@ -172,7 +175,7 @@
         if (activeItem.querySelector('img[srcset]')) activeItem.querySelector('img').sizes = '300px';
       }
       item.classList.add('active');
-      if (item.querySelector('img[srcset]')) item.querySelector('img').sizes = '500px';
+      if (item.querySelector('img[srcset]')) item.querySelector('img').sizes = expandedSizes;
       activeItem = item;
     }
   });

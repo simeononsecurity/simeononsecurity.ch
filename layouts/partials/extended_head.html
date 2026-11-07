@@ -7,6 +7,18 @@
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafafa">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#161617">
 <meta name="color-scheme" content="light dark">
+{{ if .IsPage }}
+<style>
+  /* Wrap long inline commands without changing scrollable code blocks. */
+  .post-content :not(pre) > code { overflow-wrap: anywhere; white-space: normal; }
+  /* Long translated heading words must not widen the article viewport. */
+  .post-content :is(h1, h2, h3, h4, h5, h6) { overflow-wrap: anywhere; }
+  /* The theme's 320px related-card minimum overflows a padded 320px viewport. */
+  @media (max-width: 500px) {
+    body #related-section .related-posts-list { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>
+{{ end }}
 
 <!-- ── Author meta ───────────────────────────────────────────────────── -->
 <meta name="author" content="{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}">

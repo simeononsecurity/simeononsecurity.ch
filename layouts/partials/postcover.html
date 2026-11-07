@@ -87,7 +87,7 @@
         <picture>
           <source
             srcset="{{ $optimizedtiny }} {{ $tiny.Width }}w, {{ $optimizedsmall }} {{ $small.Width }}w, {{ $optimizedmedium }} {{ $medium.Width }}w{{ if gt $highDPI.Width $medium.Width }}, {{ $optimizedhighDPI }} {{ $highDPI.Width }}w{{ end }}{{ if gt $large.Width $highDPI.Width }}, {{ $optimizedlarge }} {{ $large.Width }}w{{ end }}"
-            sizes="(min-width: 900px) 731px, 85vw"
+            sizes="(min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px, calc(85vw - 34px)"
             media="(min-width: 200px)">
           <img src="{{ $optimizedtiny }}"
             alt="{{ .context.Params.CoverAlt | plainify | default .context.Title }}"
