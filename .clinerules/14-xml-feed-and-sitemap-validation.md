@@ -64,9 +64,10 @@ diff against `git show origin/website-en-alt:<file>`.
   and time when the article was first published... Don't specify the time when you
   added the article to your sitemap") and which is immune to the Git-derived Lastmod
   inaccuracy below.
-- **Shallow-clone `Lastmod` corruption (root cause, all 19 `branch_build_hugo_*.yml`
-  workflows)**: every workflow uses `actions/checkout@v7` (default `fetch-depth: 1`,
-  i.e. shallow) together with `hugo --enableGitInfo`. Per Hugo's own docs
+- **Shallow-clone `Lastmod` corruption (historical per-language workflows,
+  now consolidated into a matrix)**: the old language workflows used
+  `actions/checkout` with its default `fetch-depth: 1` together with
+  `hugo --enableGitInfo`. Per Hugo's own docs
   ("Hosting considerations" on the GitInfo page), a shallow clone makes Git-derived
   `Lastmod` inaccurate, typically collapsing to the most recent repo commit for every
   file instead of that file's actual last-modifying commit. This explained why the live
@@ -132,6 +133,33 @@ diff against `git show origin/website-en-alt:<file>`.
    (`_240x135`, `_480x270`, `_731x411`, `_1920x1080` for a typical 16:9 cover) are all
    distinct file sizes/dimensions on disk under `img/cover/`, not two identical files
    under different names.
+7. Run `python3 tools/check_image_sitemap_paths.py <hugo-destination>` on the rendered
+   output. It decodes each same-site `<image:loc>` path exactly once before checking
+   for a real file; URL text containing `%20` must map to a filename with a space,
+   not a filename containing the literal characters `%20`. Remote image hosts are
+   reported separately and not checked against the local output directory.
+
+## Encoded Cover Names Are URLs, Not `resources.Copy` File Paths
+
+The source cover `assets/img/cover/TLS_ Securing Your Website Data.webp` has spaces.
+`$cover.RelPermalink` contains `%20`, and `urlize` preserves that escaped sequence in
+the generated derivative path. Passing the URLized string directly to `resources.Copy`
+creates a file whose **literal** name contains `%20`. A normal HTTP request for the
+emitted URL decodes `%20` to a space, so the file is not found even though the sitemap
+URL text and on-disk filename appear to match when compared as raw strings.
+
+For cover derivatives shared by `index.imagessitemap.xml`, `postcover.html`, social
+metadata (`opengraph.html`/`twitter_cards.html`/`site_schema.html`), and
+`relatedcontent.html`, pass `((urls.Parse $filename).Path)` to `resources.Copy` after
+building the URLized name. Hugo then writes the decoded filename and emits the same
+percent-encoded public permalink, preserving existing sitemap/HTML URL strings.
+Do not replace `%20` in the emitted `<image:loc>` or rename the original image just
+to make the audit pass. Verify both the source URL and the decoded destination file.
+This repair covers the existing space-named cover: there are no literal-percent source
+cover names today. In a Hugo 0.163.3 isolated fixture, sources named `A B.webp` and
+`A%20B.webp` produce the same `.RelPermalink`; a bare `A%B.webp` makes Hugo fail
+before copying. Do not introduce percent-named cover sources without a separate
+collision-safe naming policy and test.
 
 ## Front-Matter `lastmod` Is Ignored While `enableGitInfo` Is On (Found 2026-09-20)
 

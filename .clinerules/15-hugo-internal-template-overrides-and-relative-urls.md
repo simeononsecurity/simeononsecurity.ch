@@ -140,31 +140,21 @@ review notes. If fewer than two apply, leave `bump.md` unchanged.
 
 ## Pushing a Content Fix to `master` Does Not Guarantee It Deploys (Confirmed 2026-09)
 
-Every `branch_build_hugo_*.yml` workflow (one per language, plus `EN` and `EN_alt`) is
-`on: push: branches: [master]` with an explicit `paths:` filter, e.g.
-`branch_build_hugo_es.yml` only fires on `contents/**/*.es.md`, `index.es.md`,
-`**/index.es.md`, or `bump.md`. **Every single one of these workflows also lists
-`bump.md` as one of its trigger paths, and this is the load-bearing fallback, not a
-decoration.** When a push's changed-file set does not happen to match a given
-language's narrow filter, that language's build silently does not run, and the commit
-just sits in `master` unbuilt and undeployed until something else triggers it.
+The current repo has a **matrix workflow** at `.github/workflows/branch_build_hugo.yml`
+for the 16 non-English languages. Its push path filter includes `layouts/**`,
+`themes/**`, `assets/**`, `static/**`, `data/**`, and `config/_default/**`; its detect
+job rebuilds all 16 when any of these shared paths changes. The `EN_alt` workflow
+also includes `layouts/**` and `themes/**`. The legacy `EN` workflow only includes
+`bump.md` among its positive push paths, while `EN_github` includes `index.en.md`
+and `bump.md`. **Inspect the live workflow files**, rather than assuming there are
+still 19 independent per-language workflows (they were consolidated).
 
-**Symptom observed directly**: after committing a real content fix (2291 files under
-`content/**/index.*.md`, touching `**/index.en.md` among others) and pushing it, a
-second reported page confirmed the live production HTML at `origin/website-en-alt`
-(the branch Netlify actually serves, see `.clinerules/14`) still matched the pre-fix
-version. Comparing commit timestamps showed the `website-en-alt` branch's last update
-commit predated the fix's push, i.e. the fix had not been built/deployed yet. Fetching
-`https://github.com/<owner>/<repo>/actions` and reading the in-progress/queued run list
-is the fastest way to confirm whether a given push actually fired the language build
-workflows.
-
-**Historical workaround:** appending a trivial change to `bump.md` at the repo root
-was the former way to force every `branch_build_hugo_*` workflow. Because `bump.md`
-is in every workflow's path filter, that small commit reliably fired all language
-builds. This remains useful only when the current two-condition policy above is met.
-For ordinary changes, leave `bump.md` untouched and allow the normal GitHub Actions
-path filters to decide which builds run.
+A shared layout-only commit therefore triggers the matrix and EN_alt, but not the
+legacy EN workflow. When the two-condition `bump.md` policy above applies, updating
+`bump.md` additionally triggers the legacy EN path and other bump-filtered outputs.
+A local merge does not fire any workflow; a future push to `master` is separately
+authorized, and the branch-build workflows can force-push generated `website-*`
+branches once triggered. Never treat a successful local merge as a live deployment.
 
 **Do not assume** that because a workflow's path filter includes a broad pattern like
 `**/index.en.md`, every push touching any file under `content/` will fire it — path

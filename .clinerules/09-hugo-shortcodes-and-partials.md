@@ -63,10 +63,20 @@ Parameters:
   creator, copyright, and licensing claims. Image `contentUrl` uses the resolved
   `src`, independently of an optional click-through `link`.
 - `width`, `height` — pass through to the `<img>` tag.
+- `loading="eager"` — opt in only for a figure actually above the fold; the default
+  remains native lazy loading with low fetch priority.
 - `class` — CSS class on the `<figure>` element.
 
 The shortcode also emits `ImageObject` JSON-LD schema and sets `loading="lazy"` and
-`fetchpriority="low"` automatically. Never use raw `<img>` tags in content files.
+`fetchpriority="low"` automatically. Local page-bundle WebP/JPEG/PNG figures have a
+responsive WebP `srcset` (320/480/800/1280/1600 px, no upscaling), `sizes` matched to
+the article column, and intrinsic dimensions unless explicitly supplied. Their real
+`src` and `ImageObject.contentUrl` remain intact for search and no-JS fallback.
+Remote images, SVGs and animations keep their original URL and are not resized.
+SVG page resources also do not support `.Width`/`.Height` in Hugo 0.163.3;
+only infer intrinsic dimensions for processable rasters (a shared-template build
+caught this when a certification badge SVG hit the figure shortcode).
+Never use raw `<img>` tags in content files.
 
 **Image sizing guidelines:**
 - Diagrams: 900–1200 px wide
@@ -325,6 +335,33 @@ To add a new ad partial to the rotation, add its path to the `$ads` slice in
 | `mailerlite.html` | Mailing list signup form |
 | `cybersentinelsclub.html` | Cyber Sentinels Club promo block |
 | `blocks/image.html` | Reusable image block used inside other partials |
+
+### Bandwidth and responsive image delivery
+
+`layouts/partials/postcover.html` overrides the theme's older `postcover.html`.
+Maintain responsive `srcset` widths from each processed resource's actual `.Width`,
+not a hard-coded resize request: many source covers are narrower than 1920 px.
+Its `sizes` describes the displayed image's 85%-wide/mobile, 731px-max/desktop
+slot; the first visible cover remains eager/high priority. Do not put every cover
+derivative in a separate preload/prefetch link.
+
+`layouts/partials/preload-images.html` intentionally overrides the theme's global
+`preload-images.html` with no speculative image hints. The theme prefetches every ad
+creative plus several covers even when the page never displays them; the visible
+`<picture>/<img>` elements already request their chosen variant. Verify the built
+HTML head has no such image prefetches before reporting a bandwidth reduction.
+
+`layouts/section/carousel.html` renders existing cover images as 480/731px WebP
+thumbnails rather than loading the raw source into 300px tiles. Both the initial
+HTML batch and the intersection-loaded batches need matching `srcset`/`sizes`;
+click-to-expand remains available and changes `sizes` to the expanded slot. Keep
+the original cover URL for build-time deduplication and other SEO metadata, not in
+the tile's automatic `srcset` or the deferred JSON payload. The deferred payload
+requires `jsonify | safeJS`: `jsonify` alone becomes a double-encoded JSON string
+inside `<script type="application/json">`, so `JSON.parse` returns a string and
+silently disables lazy batches. Parse the rendered payload and assert it is an
+array, then validate a local browser's `currentSrc` at mobile and high-DPR
+viewports and confirm new batches actually appear on scroll.
 
 ---
 

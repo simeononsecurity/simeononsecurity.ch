@@ -129,6 +129,20 @@
         {{ $src = printf "%s%s" .Page.Permalink $src }}
     {{ end }}
 {{ end }}
+{{/* Only process page-bundle rasters. Remote images, SVGs and animations keep their original URL. */}}
+{{ $localImage := .Page.Resources.GetMatch (.Get "src") }}
+{{ $rasterImage := false }}
+{{ $responsiveSrcset := slice }}
+{{ if and $localImage (in (slice "webp" "jpeg" "png") $localImage.MediaType.SubType) }}
+  {{ $rasterImage = $localImage }}
+  {{ range (slice 320 480 800 1280 1600) }}
+    {{ if le . $localImage.Width }}
+      {{ $variant := $localImage.Resize (printf "%dx webp q75" .) }}
+      {{ $responsiveSrcset = $responsiveSrcset | append (printf "%s %dw" $variant.RelPermalink $variant.Width) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $imgloading := cond (eq (.Get "loading") "eager") "eager" "lazy" }}
 {{ $credit := .Get "credit" }}
 <script type="application/ld+json">
 {
@@ -180,13 +194,14 @@
             <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }} alt="{{ or $alt (.Get "alt") (.Get "caption") }}" rel="{{ $rel }}" {{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
         {{- end }}
         <img align="center" style="text-align: center; margin: 0 auto; max-width: 80%; max-height: 600px; min-width: 100px; min-height: 100px; height: auto; width: auto;" src="{{ $src }}"
+             {{- with $responsiveSrcset }} srcset="{{ delimit . ", " }}" sizes="(min-width: 900px) 640px, 80vw"{{ end -}}
              {{- if or (.Get "alt") (.Get "caption") }}
              alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
              {{- end -}}
-             {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-             {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-             loading="lazy"
-             fetchpriority="low"
+             {{- with .Get "width" }} width="{{ . }}"{{ else }}{{ with $rasterImage }} width="{{ .Width }}"{{ end }}{{ end -}}
+             {{- with .Get "height" }} height="{{ . }}"{{ else }}{{ with $rasterImage }} height="{{ .Height }}"{{ end }}{{ end -}}
+             loading="{{ $imgloading }}"
+             fetchpriority="{{ if eq $imgloading "eager" }}high{{ else }}low{{ end }}"
              itemprop="contentUrl"
         /> <!-- Closing img tag -->
         {{- if .Get "link" }}</a>{{ end -}}

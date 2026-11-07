@@ -29,7 +29,7 @@
     {{ $optimizedimage := ($cover.Resize "1200x630 webp q80") }}
     {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
     {{ $filename := printf "%s_%dx%d.%s" $permalink $optimizedimage.Width $optimizedimage.Height "webp" | urlize }}
-    {{ $renamedimage := $optimizedimage | resources.Copy $filename }}
+    {{ $renamedimage := $optimizedimage | resources.Copy ((urls.Parse $filename).Path) }}
     {{ $og_image = $renamedimage.Permalink }}
     {{ $og_image_width = $optimizedimage.Width | string }}
     {{ $og_image_height = $optimizedimage.Height | string }}

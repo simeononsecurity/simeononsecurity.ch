@@ -16,12 +16,27 @@
   {{ $src := .Params.cover }}
   {{ $alt := .Params.coverAlt | default "Cybersecurity Image" }}
   {{ if $src }}
+    {{ $original := $src | absURL }}
     {{ $alreadySeen := false }}
     {{ range $allImages }}
-      {{ if eq .src ($src | absURL) }}{{ $alreadySeen = true }}{{ end }}
+      {{ if eq .original $original }}{{ $alreadySeen = true }}{{ end }}
     {{ end }}
     {{ if not $alreadySeen }}
-      {{ $allImages = $allImages | append (dict "src" ($src | absURL) "alt" $alt) }}
+      {{ $thumbnail := $original }}
+      {{ $srcset := "" }}
+      {{ $mediumURL := "" }}
+      {{ $widths := slice }}
+      {{ with resources.Get $src }}
+        {{ if in (slice "webp" "jpeg" "png") .MediaType.SubType }}
+          {{ $small := .Resize "480x webp q50" }}
+          {{ $medium := .Resize "731x webp q50" }}
+          {{ $thumbnail = $small.Permalink }}
+          {{ $mediumURL = $medium.Permalink }}
+          {{ $widths = slice $small.Width $medium.Width }}
+          {{ $srcset = printf "%s %dw, %s %dw" $small.Permalink $small.Width $medium.Permalink $medium.Width }}
+        {{ end }}
+      {{ end }}
+      {{ $allImages = $allImages | append (dict "original" $original "src" $thumbnail "srcset" $srcset "medium" $mediumURL "widths" $widths "alt" $alt) }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -122,7 +137,7 @@
   {{/* Initial batch rendered in HTML — real DOM so they benefit from browser lazy-loading */}}
   {{ range $initBatch }}
   <div class="carousel-item">
-    <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" decoding="async" fetchpriority="low" onerror="this.closest('.carousel-item').remove()" />
+    <img src="{{ .src }}"{{ with .srcset }} srcset="{{ . }}" sizes="300px"{{ end }} alt="{{ .alt }}" loading="lazy" decoding="async" fetchpriority="low" onerror="this.closest('.carousel-item').remove()" />
   </div>
   {{ end }}
   <div id="carousel-sentinel"></div>
@@ -131,7 +146,11 @@
 
 {{/* Remaining images stored as an inert JSON blob — zero DOM/render cost until JS reads it */}}
 {{ if $remaining }}
-<script type="application/json" id="carousel-remaining">{{ $remaining | jsonify }}</script>
+{{ $payload := slice }}
+{{ range $remaining }}
+  {{ $payload = $payload | append (dict "src" .src "medium" .medium "widths" .widths "alt" .alt) }}
+{{ end }}
+<script type="application/json" id="carousel-remaining">{{ $payload | jsonify | safeJS }}</script>
 {{ end }}
 
 <script>
@@ -145,10 +164,15 @@
     if (!item) return;
     if (activeItem === item) {
       item.classList.remove('active');
+      if (item.querySelector('img[srcset]')) item.querySelector('img').sizes = '300px';
       activeItem = null;
     } else {
-      if (activeItem) activeItem.classList.remove('active');
+      if (activeItem) {
+        activeItem.classList.remove('active');
+        if (activeItem.querySelector('img[srcset]')) activeItem.querySelector('img').sizes = '300px';
+      }
       item.classList.add('active');
+      if (item.querySelector('img[srcset]')) item.querySelector('img').sizes = '500px';
       activeItem = item;
     }
   });
@@ -182,9 +206,14 @@
       wrapper.className = 'carousel-item';
       var img = document.createElement('img');
       img.src     = item.src;
+      if (item.medium && item.widths && item.widths.length === 2) {
+        img.srcset = item.src + ' ' + item.widths[0] + 'w, ' + item.medium + ' ' + item.widths[1] + 'w';
+        img.sizes = '300px';
+      }
       img.alt     = item.alt || 'Cybersecurity Image';
       img.loading = 'lazy';
       img.decoding = 'async';
+      img.fetchPriority = 'low';
       /* A single broken/blocked image request should not leave a dead
          tile in the grid; drop just that tile and keep the rest working. */
       img.onerror = function () { wrapper.remove(); };
