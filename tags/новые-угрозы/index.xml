@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Новые Угрозы on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Новые Угрозы on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D1%8B/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D1%8B/</link>
+
+    <description>Recent content in Новые Угрозы on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита данных ограниченного доступа</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</link>
+        
+        <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита данных"
+            
+              , "Кибербезопасность"
+            
+              , "Деловая этика"
+            
+              , "Информационная безопасность"
+            
+              , "Право на неприкосновенность частной жизни"
+            
+              , "Управление рисками"
+            
+              , "Цифровое доверие"
+            
+              , "Управление данными"
+            
+              , "Экономическое влияние"
+            
+              , "Личная конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/benefits-of-protecting-classified-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, зачем защищать данные ограниченного доступа по соображениям безопасности, экономики и этики, и чем опасны слабые меры контроля.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/benefits-of-protecting-classified-data.webp" length="279460" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

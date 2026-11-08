@@ -1,0 +1,155 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plex Против Jellyfin on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Plex Против Jellyfin on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/plex-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-jellyfin/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/plex-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-jellyfin/</link>
+
+    <description>Recent content in Plex Против Jellyfin on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/plex-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-jellyfin/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jellyfin против Plex Media Server</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</link>
+        
+        <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "jellyfin против plex"
+            
+              , "Plex Media Server"
+            
+              , "Jellyfin"
+            
+              , "сравнение медиасерверов"
+            
+              , "потоковое мультимедиа"
+            
+              , "личная медиатека"
+            
+              , "организация медиа"
+            
+              , "удобный интерфейс"
+            
+              , "открытый исходный код"
+            
+              , "экономичный"
+            
+              , "бюджетный"
+            
+              , "премиум-функции"
+            
+              , "бесплатный медиасервер"
+            
+              , "функции медиасервера"
+            
+              , "потоковое вещание медиа"
+            
+              , "управление медиа"
+            
+              , "альтернативы Plex"
+            
+              , "функции Jellyfin"
+            
+              , "Plex против Jellyfin"
+            
+              , "стоимость медиасервера"
+            
+              , "платформы медиасервера"
+            
+              , "лучший медиасервер"
+            
+              , "программное обеспечение медиасервера"
+            
+              , "потоковый сервер"
+            
+              , "настройка медиасервера"
+            
+              , "приложение медиасервера"
+            
+              , "решения для медиасервера"
+            
+              , "руководство по медиасерверу"
+            
+              , "потоковый медиасервер"
+            
+              , "сравнить Plex и Jellyfin"
+            
+              , "обзор Plex"
+            
+              , "обзор Jellyfin"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/plex-media-server-vs-jellyfin/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте различия между Plex Media Server и Jellyfin, двумя популярными вариантами медиасерверов, и сделайте осознанный выбор на основе функций и стоимости.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/plex-vs-jellyfin.webp" length="95538" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

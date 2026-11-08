@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Обнаружение Сетевых Аномалий on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Обнаружение Сетевых Аномалий on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D1%85-%D0%B0%D0%BD%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D1%85-%D0%B0%D0%BD%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9/</link>
+
+    <description>Recent content in Обнаружение Сетевых Аномалий on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D1%85-%D0%B0%D0%BD%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 основных проверок кибербезопасности для домашней сети</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</link>
+        
+        <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность домашней сети"
+            
+              , "Проверки кибербезопасности"
+            
+              , "Цифровая защита"
+            
+              , "Защита сети"
+            
+              , "Безопасность IoT"
+            
+              , "Конфиденциальность данных"
+            
+              , "Предотвращение киберугроз"
+            
+              , "Безопасность Wi-Fi"
+            
+              , "Защита персональной информации"
+            
+              , "Советы по цифровой безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/10-essential-cybersecurity-checks-for-your-home-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проведите аудит домашней сети с помощью десяти практических проверок, охватывающих обновления роутера, шифрование Wi-Fi, безопасность DNS, инвентаризацию устройств, резервное копирование и мониторинг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp" length="141312" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
