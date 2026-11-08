@@ -7,6 +7,8 @@ description: "Study the twenty CEH curriculum modules, with a v13 AI supplement 
 lastmod: 2026-10-10
 genre: ["CEH Course", "Certified Ethical Hacker", "Ethical Hacking", "Penetration Testing", "EC-Council Certification", "Network Security", "Web Application Security", "Malware Analysis", "Social Engineering", "Cryptography"]
 tags: ["CEH", "CEH v13", "Certified Ethical Hacker", "ethical hacking", "footprinting", "reconnaissance", "scanning", "enumeration", "system hacking", "malware", "social engineering", "denial of service", "session hijacking", "web server hacking", "SQL injection", "wireless hacking", "cloud security", "cryptography", "IoT security", "EC-Council"]
+course_landing: true
+course_keywords: ["ethical hacking", "social engineering", "SQL injection", "reconnaissance"]
 cover: "/img/cover/ec-council-ceh-course-study-guide-illustration.webp"
 coverAlt: "A digital illustration of a hacker silhouette analyzing network data against a dark background, with vibrant accents representing cybersecurity tools, networks, and vulnerabilities."
 coverCaption: "Master the CEH and Think Like an Attacker"

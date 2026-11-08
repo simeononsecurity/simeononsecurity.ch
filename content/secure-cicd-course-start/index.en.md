@@ -7,6 +7,8 @@ draft: false
 description: "Build a safer release path with dependency review, SBOMs, limited pipeline permissions, Scorecard, SLSA provenance, attestations, and release verification."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["secure CI/CD course", "software supply chain", "SBOM", "SLSA provenance", "artifact attestation", "OpenSSF Scorecard"]
+course_landing: true
+course_keywords: ["CI CD"]
 cover: "/img/cover/secure-cicd-course.webp"
 coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
 coverCaption: ""

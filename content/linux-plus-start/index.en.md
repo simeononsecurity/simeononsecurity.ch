@@ -7,6 +7,8 @@ draft: false
 description: "Build a disposable Ubuntu 24.04 Linux+ XK0-006 lab. Practice system management, services, security, scripting, and fault recovery with evidence."
 genre: ["CompTIA Linux+ Course", "Linux Certification", "System Administration", "Linux Security", "Shell Scripting", "CompTIA Certification", "DevOps", "Container Technologies", "Linux Troubleshooting", "Open Source"]
 tags: ["CompTIA Linux+", "XK0-006", "Linux", "system administration", "shell scripting", "bash", "security", "containers", "Docker", "Kubernetes", "automation", "troubleshooting", "file systems", "permissions", "networking", "CompTIA certification", "open source"]
+course_landing: true
+course_keywords: ["Linux+", "Linux security", "Linux Kernel", "SELinux"]
 cover: "/img/cover/comptia-linux-plus-xk0-005-study-guide-illustration.webp"
 coverAlt: "A digital illustration of a modern Linux server environment featuring a server rack with glowing components, network cables, and a monitor showing system tools. The background is dark with vibrant blue and green accents."
 coverCaption: "Master CompTIA Linux+ and Advance Your Linux Administration Skills"

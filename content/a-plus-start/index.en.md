@@ -6,6 +6,8 @@ draft: false
 description: "A CompTIA A+ topic guide for the 220-1201 Core 1 and 220-1202 Core 2 exams. Learn hardware, networking, operating systems, security, and troubleshooting. Compare lessons with the official objectives."
 genre: ["CompTIA A+ Course", "IT Certification", "Hardware Fundamentals", "Operating Systems", "Network Troubleshooting", "CompTIA Certification", "IT Support", "Help Desk", "Computer Hardware", "Windows Administration"]
 tags: ["CompTIA A+", "220-1201", "220-1202", "Core 1", "Core 2", "hardware", "networking", "operating systems", "security", "troubleshooting", "mobile devices", "virtualization", "Windows", "macOS", "Linux", "malware", "operational procedures", "CompTIA certification", "IT support", "help desk"]
+course_landing: true
+course_keywords: ["CompTIA A+", "operating systems", "mobile devices", "Windows administration"]
 cover: "/img/cover/comptia-a-plus-study-guide-220-1201-220-1202-exams.webp"
 coverAlt: "An organized IT study workspace featuring a laptop with a network diagram, hardware components like RAM and CPUs, a tablet displaying cloud services, and mobile devices, all set against a dark blue background."
 coverCaption: "Master CompTIA A+ and Launch Your IT Career"

@@ -7,6 +7,8 @@ draft: false
 description: "A structured red-team course that moves from objective and evidence design through reconnaissance, access, identity, persistence, movement, and reporting."
 genre: ["Red Team", "Offensive Security", "Adversary Emulation", "Penetration Testing", "Active Directory"]
 tags: ["red team", "red teaming", "adversary emulation", "offensive security", "Cobalt Strike", "Active Directory", "lateral movement", "reporting", "red team course"]
+course_landing: true
+course_keywords: ["red team"]
 cover: "/img/cover/red-team-cybersecurity-methodology-illustration.webp"
 coverAlt: "A digital illustration showing a cybersecurity command center with diverse professionals analyzing data on multiple screens, depicting a red team operation in a dark environment with vibrant accents."
 coverCaption: "Build an evidence-backed red-team mission"

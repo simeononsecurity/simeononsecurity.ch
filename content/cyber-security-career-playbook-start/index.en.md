@@ -7,6 +7,8 @@ lastmod: 2026-10-10
 description: "Plan a cybersecurity career with role comparisons, training choices, safe practice projects, job-search steps, and team leadership lessons."
 genre: ["Career Development", "Cybersecurity Education"]
 tags: ["cybersecurity career", "security career paths", "cybersecurity training", "security certifications", "cybersecurity jobs", "security management"]
+course_landing: true
+course_keywords: ["cybersecurity career", "security career paths", "cybersecurity training", "security certifications", "cybersecurity jobs"]
 cover: "/img/cover/An_animated_illustration_of_a_person_wearing_a_superhero_ca.webp"
 coverAlt: "Illustration of a person wearing a superhero cape at a computer desk."
 coverCaption: "Choose a role, practice safely, and document your evidence."

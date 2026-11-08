@@ -7,6 +7,8 @@ draft: false
 description: "Build and test detections with synthetic identity, endpoint, and DNS evidence. Investigate an incident and report your findings."
 genre: ["Cybersecurity", "Detection Engineering", "Incident Response", "Security Operations"]
 tags: ["detection engineering course", "incident response course", "MITRE ATT&CK", "Sigma rules", "security analytics", "alert triage", "incident investigation", "threat detection", "SOC training", "cybersecurity lab"]
+course_landing: true
+course_keywords: ["alert triage", "detection engineering", "MITRE ATT&CK"]
 cover: "/img/cover/detection-engineering-incident-response-course.webp"
 coverAlt: "Security analysts linking identity, endpoint, and DNS events across an investigation timeline."
 coverCaption: "Build detections and turn alerts into supported incident decisions."

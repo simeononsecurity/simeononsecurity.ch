@@ -7,6 +7,8 @@ lastmod: 2026-07-22
 description: "Choose an IT path, practice a safe troubleshooting case, compare training and job requirements, and prepare evidence for interviews."
 genre: ["IT career", "information technology", "career playbook", "IT certifications", "technology jobs", "career guidance", "professional development"]
 tags: ["IT career", "information technology career", "IT certifications", "CompTIA A+", "CompTIA Network+", "systems administration", "cloud computing", "DevOps", "help desk", "IT job search", "IT salary", "IT management", "IT career path", "IT training", "IT skills", "entry level IT", "IT internships", "remote IT jobs", "networking certifications", "AWS certification", "Microsoft certifications", "Google Cloud certification", "Linux certifications", "IT career change", "IT team management", "ITIL", "soft skills for IT", "IT job market", "IT career growth"]
+course_landing: true
+course_keywords: ["IT career", "system administration", "PowerShell scripting"]
 cover: "/img/cover/it-career-playbook-help-desk-cloud-architecture-management.webp"
 coverAlt: "An illustration showing diverse IT professionals: a help desk technician assisting a user, an architect designing cloud infrastructure, and a manager strategizing with team members, all in a modern tech setting."
 coverCaption: "A guide to IT roles, practice, credentials, and career decisions."

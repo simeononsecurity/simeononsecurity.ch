@@ -7,6 +7,8 @@ draft: false
 description: "Design AI agents and MCP connections with narrow authority, explicit approval, isolated execution, and useful audit evidence."
 genre: ["Artificial Intelligence", "Cybersecurity", "Software Engineering"]
 tags: ["secure AI agents", "MCP security", "Model Context Protocol", "prompt injection defense", "agent security", "least privilege", "tool approval", "AI threat model"]
+course_landing: true
+course_keywords: ["MCP security", "AI agents", "prompt injection"]
 cover: "/img/cover/secure-ai-agents-mcp-course.webp"
 coverAlt: "Diagram of an AI agent separated from data and tools by policy and approval controls"
 coverCaption: ""
