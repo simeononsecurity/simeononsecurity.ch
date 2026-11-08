@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>代码审查 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>代码审查 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5/</link></image><link>https://zh.simeononsecurity.com/tags/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5/</link><description>Recent content in 代码审查 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Code CLI 与 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较终端中的 Claude Code 与桌面 Code 工作区，涵盖共享设置、会话交接、脚本、可视化审查和权限选择。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>CLI 编程代理比较：Claude Code、Codex、Gemini、OpenCode、Copilot 和 Aider</title><link>https://zh.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+从工作流、自动化、模型访问、权限和审查工作量比较六种终端编程代理。通过可重复的仓库试验建立候选清单。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI 对比 Desktop：2026 工作流比较</title><link>https://zh.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在终端中的 Codex 与 OpenAI 桌面编程工作区之间做出选择。比较脚本、worktree、可视化审查、计划和执行环境。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI 与 VS Code：2026 工作流对比</title><link>https://zh.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较 Copilot 终端代理与 VS Code 体验，涵盖编辑器上下文、可视化差异、Agent 模式、CLI 集成和账户策略。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUI 编程代理比较：Cursor、Windsurf、Cline、Copilot 与 Continue</title><link>https://zh.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"开发者工具"
+, "人工智能"
+, "软件开发"</category><guid>https://zh.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+比较图形化编程代理，区分完整编辑器与扩展，并检查 Roo Code 停止服务的背景、模型访问、批准和审查流程。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>Python 的安全编码标准：最佳实践</title><link>https://zh.simeononsecurity.com/articles/secure-coding-standards-for-python/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><category>
+"Python"
+, "安全编码"
+, "安全风险"
+, "输入验证"
+, "密码学图书馆"
+, "最低特权"
+, "静态代码分析器"
+, "网络应用"
+, "Python 框架"
+, "Django"
+, "闪光灯"
+, "认证系统"
+, "密码散列"
+, "模板系统"
+, "会话管理"
+, "标记安全"
+, "WTForms"
+, "闪烁器"
+, "数据保护"
+, "脆弱性"
+, "安全编码"
+, "Python"
+, "安全风险"
+, "输入验证"
+, "密码学图书馆"
+, "最低特权"
+, "静态代码分析器"
+, "网络应用"
+, "Python 框架"
+, "Django"
+, "闪光灯"
+, "认证系统"
+, "密码散列"
+, "模板系统"
+, "会话管理"
+, "标记安全"
+, "WTForms"
+, "闪烁器"
+, "数据保护"
+, "脆弱性"
+, "Python 代码安全"
+, "代码审查"
+, "静态分析工具"
+, "安全的网络开发"
+, "安全编码实践"
+, "安全漏洞"
+, "代码安全最佳实践"
+, "数据加密"
+, "最小特权原则"
+, "代码分析"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+学习 Python 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.webp" length="169722" type="image/webp"/></item></channel></rss>
