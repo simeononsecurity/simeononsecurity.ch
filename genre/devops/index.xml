@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>DevOps on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/devops/</link></image><link>https://ar.simeononsecurity.com/genre/devops/</link><description>Recent content in DevOps on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible مقابل Puppet مقابل Chef: مقارنة أدوات الأتمتة</title><link>https://ar.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"التكنولوجيا"
+, "أدوات الأتمتة"
+, "إدارة التهيئة"
+, "البنية التحتية لتقنية المعلومات"
+, "DevOps"
+, "عمليات تقنية المعلومات"
+, "أتمتة السحابة"
+, "نشر البرامج"
+, "إدارة البنية التحتية"
+, "أدوات مفتوحة المصدر"</category><guid>https://ar.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين Ansible وPuppet وChef لاختيار أداة الأتمتة المناسبة لاحتياجات مؤسستك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp"/></item><item><title>Ansible وSemaphore وTower: مقارنة أدوات الأتمتة</title><link>https://ar.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"الأتمتة"
+, "إدارة البنية التحتية"
+, "إدارة الإعدادات"
+, "DevOps"
+, "عمليات تقنية المعلومات"
+, "المصدر المفتوح"
+, "إدارة سير العمل"
+, "قابلية التوسع"
+, "التعاون"
+, "أدوات Ansible"</category><guid>https://ar.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن Ansible الأساسي وAnsible Tower وAnsible Semaphore من حيث سير العمل وميزات الإدارة وحالات استخدام البنية التحتية.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item></channel></rss>

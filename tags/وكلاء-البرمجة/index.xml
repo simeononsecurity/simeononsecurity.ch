@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وكلاء البرمجة on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>وكلاء البرمجة on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D9%88%D9%83%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</link></image><link>https://ar.simeononsecurity.com/tags/%D9%88%D9%83%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</link><description>Recent content in وكلاء البرمجة on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D9%88%D9%83%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>هل تكفي ذاكرة VRAM بسعة 16GB للعمل الجاد مع نماذج LLM المحلية؟</title><link>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الحاسوب"
+, "الذكاء الاصطناعي المستضاف ذاتياً"</category><guid>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+حدّد حجم إعداد LLM محلي بسعة 16GB وفق أوزان النموذج وذاكرة KV ومعالجة المطالبات. قارن ميزانيات ذاكرة Qwen3.8 27B وعرض نطاق GPU وتكاليف التملك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>OpenCode مقابل Claude Code: مقارنة وكلاء البرمجة لعام 2026</title><link>https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"أدوات المطورين"
+, "الذكاء الاصطناعي"
+, "المصدر المفتوح"</category><guid>https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن بين OpenCode وClaude Code في اختيار النماذج والاستدلال المحلي والأسعار والأذونات وتعليمات المشروع وسير عمل البرمجة اليومي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>أي نموذج ذكاء اصطناعي محلي ينبغي أن تشغّل؟ دليل GPU للسياق والبرمجة لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "عتاد الذكاء الاصطناعي"
+, "ذكاء اصطناعي مستضاف ذاتيا"
+, "قياس GPU"
+, "أدوات المطورين"
+, "اقتصاديات الذكاء الاصطناعي"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل عملي لشهر أكتوبر 2026 لاختيار نماذج الذكاء الاصطناعي المحلية لوكلاء البرمجة. قارن ذاكرة GPU، ونمو KV-cache، وحجم السياق، وجودة التكميم، ومعالجة المطالبات، وإعدادات الاستدلال، وتكاليف الاستئجار السحابي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>الذكاء الاصطناعي المحلي مقابل ChatGPT: ما مدى اقترابنا؟</title><link>https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"الذكاء الاصطناعي المحلي"
+, "الذكاء الاصطناعي"
+, "عتاد الذكاء الاصطناعي"
+, "أدوات المطورين"</category><guid>https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+قارن الذكاء الاصطناعي المحلي مع ChatGPT وClaude عبر درجات الاختبارات، وتقديرات الذاكرة، وسرعة الخدمة، والتحقق من الوكلاء. يشمل RTX 5090 وDGX Spark وMac Studio.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item></channel></rss>
