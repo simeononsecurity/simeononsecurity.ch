@@ -7,6 +7,8 @@ draft: false
 description: "Compare IAM across AWS, Azure, and Google Cloud, then test and close one disposable provider lab or offline simulator."
 genre: ["Cloud Security", "Identity and Access Management", "Zero Trust", "Security Lab"]
 tags: ["cloud IAM course", "zero trust course", "AWS IAM lab", "Azure RBAC lab", "Google Cloud IAM lab", "least privilege", "workload identity", "access review"]
+course_landing: true
+course_keywords: ["zero trust", "least privilege", "identity and access management"]
 cover: "/img/cover/cloud-iam-zero-trust-course.webp"
 coverAlt: "Cloud identities passing through policy checks before reaching protected resources."
 coverCaption: "Grant narrow access, test the result, and remove the lab."

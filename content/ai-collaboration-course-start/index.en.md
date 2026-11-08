@@ -8,6 +8,8 @@ description: "Build two reviewed AI collaboration workflows with source authorit
 educationalLevel: "Beginner to Advanced"
 genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
 tags: ["AI collaboration course", "GitHub", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "context manifest", "agent handoff", "synthetic lab", "RAG"]
+course_landing: true
+course_keywords: ["AI collaboration", "Confluence Cloud", "Jira Cloud", "source authority", "human approval", "agent handoff", "synthetic lab"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration of professionals reviewing shared project work in a cybersecurity workspace"
 coverCaption: ""

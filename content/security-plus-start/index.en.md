@@ -7,6 +7,8 @@ draft: false
 description: "Study all five Security+ SY0-701 domains through a safe library case, evidence worksheets, control decisions, log triage, and a final assessment."
 genre: ["CompTIA Security+ Course", "Cybersecurity Certification", "Security Fundamentals", "Threat Analysis", "Security Architecture", "CompTIA Certification", "Information Security", "Risk Management", "Incident Response", "Security Operations"]
 tags: ["CompTIA Security+", "SY0-701", "security fundamentals", "threats", "vulnerabilities", "security architecture", "security operations", "risk management", "compliance", "cryptography", "PKI", "network security", "identity management", "incident response", "security controls", "CompTIA certification"]
+course_landing: true
+course_keywords: ["CompTIA Security+", "Security+ certification"]
 cover: "/img/cover/comptia-security-plus-sy0-701-exam-study-guide-illustration.webp"
 coverAlt: "An abstract digital illustration showing interconnected cybersecurity elements like firewalls and data encryption on a dark background, using vibrant colors to convey a technical theme."
 coverCaption: "Practice Security+ SY0-701 concepts with a synthetic library case"

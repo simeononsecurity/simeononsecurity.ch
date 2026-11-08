@@ -6,6 +6,8 @@ draft: false
 description: "A comprehensive CompTIA SecurityX (CAS-005, formerly CASP+) study course covering governance risk and compliance, security architecture, security engineering, and security operations for advanced security practitioners."
 genre: ["CompTIA SecurityX Course", "CASP+ Certification", "Security Architecture", "Security Engineering", "Governance Risk Compliance", "CompTIA Certification", "Enterprise Security", "Advanced Security", "Cryptography", "Threat Hunting"]
 tags: ["CompTIA SecurityX", "CASP+", "CAS-005", "security architecture", "security engineering", "governance", "risk", "compliance", "cryptography", "zero trust", "threat hunting", "incident response", "cloud security", "post-quantum cryptography", "enterprise security", "CompTIA certification", "SIEM", "IAM", "PKI", "OT security", "MITRE ATT&CK"]
+course_landing: true
+course_keywords: ["security architecture", "security engineering", "post-quantum cryptography", "threat hunting", "MITRE ATT&CK"]
 cover: "/img/cover/comptia-securityx-cas-005-exam-study-guide-illustration.webp"
 coverAlt: "A futuristic cybersecurity command center with a large digital screen showing data analytics, surrounded by advanced security tools like firewalls and cloud security devices, all on a dark background."
 coverCaption: "Master CompTIA SecurityX and Lead Enterprise Security"

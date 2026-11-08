@@ -8,6 +8,8 @@ description: "Build a reliable AI workflow with ChatGPT, Claude, coding agents, 
 educationallevel: "Beginner"
 genre: ["Artificial Intelligence", "Software Engineering", "Productivity"]
 tags: ["AI workflow course", "how to use AI effectively", "ChatGPT course", "Claude course", "Codex CLI", "Claude Code", "OpenCode", "MCP server", "AI agents", "context window management"]
+course_landing: true
+course_keywords: ["AI workflow", "ChatGPT", "Claude Code", "MCP server", "context window management"]
 cover: "/img/cover/effective-ai-course-start.webp"
 coverAlt: "A practical AI course path connecting a chat project, code repository, tool, review, and final result"
 coverCaption: ""

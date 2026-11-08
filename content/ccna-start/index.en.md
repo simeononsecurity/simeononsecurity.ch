@@ -7,6 +7,8 @@ description: "Build a six-stage Packet Tracer lab for CCNA 200-301 v1.1. Verify 
 lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking Certification", "Network Fundamentals", "Routing and Switching", "Network Security", "Cisco Certification", "IP Connectivity", "Network Automation", "Wireless Networking", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "networking", "routing", "switching", "OSPF", "VLANs", "spanning tree", "subnetting", "IPv4", "IPv6", "NAT", "DHCP", "DNS", "ACLs", "network security", "wireless", "automation", "Ansible", "SDN", "Cisco certification"]
+course_landing: true
+course_keywords: ["VLANs", "subnetting", "IPv4", "IPv6", "DHCP", "network automation"]
 cover: "/img/cover/cisco-ccna-200-301-exam-preparation-illustration.webp"
 coverAlt: "An illustration of a modern training environment for Cisco CCNA exam preparation, featuring a laptop with a network diagram, routers, and switches, all set against a dark background with vibrant colors."
 coverCaption: "Build and verify a CCNA 200-301 practice network"

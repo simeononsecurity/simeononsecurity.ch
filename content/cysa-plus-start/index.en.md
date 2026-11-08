@@ -6,6 +6,8 @@ draft: false
 description: "A CompTIA CySA+ CS0-004 topic guide for security operations, vulnerability management, incident response, and reporting. Use the official objectives to check exam coverage."
 genre: ["CompTIA CySA+ Course", "Cybersecurity Analyst", "Security Operations", "Vulnerability Management", "Incident Response", "CompTIA Certification", "SIEM", "Threat Intelligence", "Threat Hunting", "Security Analysis"]
 tags: ["CompTIA CySA+", "CS0-004", "cybersecurity analyst", "security operations", "vulnerability management", "incident response", "threat intelligence", "threat hunting", "SIEM", "log analysis", "digital forensics", "reporting", "compliance", "CompTIA certification"]
+course_landing: true
+course_keywords: ["vulnerability management", "threat intelligence", "threat hunting", "log analysis", "digital forensics", "cybersecurity analyst"]
 cover: "/img/cover/comptia-cysa-plus-security-operations-center-illustration.webp"
 coverAlt: "An illustration of a modern Security Operations Center with cybersecurity analysts working at a central workstation surrounded by multiple screens showing data analytics and threat intelligence."
 coverCaption: "Master CompTIA CySA+ and Excel as a Cybersecurity Analyst"

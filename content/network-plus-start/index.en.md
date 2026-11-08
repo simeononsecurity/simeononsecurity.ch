@@ -7,6 +7,8 @@ description: "Prepare for CompTIA Network+ N10-009 through focused lessons, a pr
 lastmod: 2026-10-10
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "network lab", "networking concepts", "network implementation", "network operations", "network security", "network troubleshooting", "exam prep"]
+course_landing: true
+course_keywords: ["network troubleshooting"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Network.webp"
 coverAlt: "A cartoon illustration of a person holding a Network+ certification badge, surrounded by networking devices and cables, representing the Network+ Mastery Course."
 coverCaption: "Empower Your Networking Career"

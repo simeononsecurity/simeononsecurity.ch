@@ -7,6 +7,8 @@ draft: false
 description: "Wire Hermes Agent and other agents to models you control through one private endpoint, route each request to the right local or cloud model, and keep keys and budgets under your own policy."
 genre: ["AI", "Local AI", "Self-Hosted", "Zero Trust", "Automation", "Hermes Agent", "API Gateway", "Network Security", "LLM Infrastructure", "Agentic Workflows"]
 tags: ["hermes agent", "local ai", "brokerized workflow", "agentic workflow", "openai compatible broker", "tailscale aperture", "private ai endpoint", "local llm", "ollama", "vllm", "llama.cpp", "strata", "ai auto router", "local cloud model mix", "ai broker governance", "virtual keys", "per key budgets", "deny by default", "tailnet identity", "ai threat model", "bot profiles", "kanban dispatcher", "coding agents local models", "self-hosted ai stack", "one base url ai", "private ai gateway", "hermes profiles", "ai fan out", "cost tier routing", "secure ai automation"]
+course_landing: true
+course_keywords: ["Hermes Agent", "Tailscale Aperture"]
 cover: "/img/cover/hermes-agent-local-ai-brokerized-workflow-2026.webp"
 coverAlt: "An illustration of AI agents sending requests through one private gateway to a broker routing to local GPU models and a cloud model on a dark background."
 coverCaption: ""

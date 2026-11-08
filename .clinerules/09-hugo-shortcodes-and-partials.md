@@ -323,6 +323,7 @@ To add a new ad partial to the rotation, add its path to the `$ads` slice in
 | `donatebutton.html` | Donate / support button |
 | `editbuttons.html` | "Edit on GitHub" and "Report an issue" buttons |
 | `comments.html` | Comment section integration |
+| `course-cta.html` | Shows one free course CTA when English article tags uniquely match a course's curated `course_keywords` |
 | `extended_head.html` | Additional `<head>` tags injected per-page |
 | `prepend_head.html` | Tags inserted at the very top of `<head>` |
 | `google_tag_manager.html` | GTM snippet |
@@ -335,6 +336,20 @@ To add a new ad partial to the rotation, add its path to the `$ads` slice in
 | `mailerlite.html` | Mailing list signup form |
 | `cybersentinelsclub.html` | Cyber Sentinels Club promo block |
 | `blocks/image.html` | Reusable image block used inside other partials |
+
+### Curated free-course CTAs
+
+Set `course_landing: true` and a curated `course_keywords` list on each English course landing
+page. The shared `course-cta.html` partial compares each keyword with English article tags
+using a case-insensitive substring match. Keep keywords specific and at least four characters
+long. The partial renders one free-course CTA after the article body only when exactly one
+course matches. Zero or multiple matching courses produce no CTA. Add the partial to the
+project override at `layouts/_default/single.html` immediately after `.Content`. Copy the theme
+template before changing its layout. Never edit the theme copy directly. Check a matching
+article, a nonmatching article, a multi-course match, and a course landing page in the built
+output. Include specific future article terms from the course curriculum even when no current
+article tag matches. Keep predicted terms grounded in lessons and outcomes, not generic SEO
+phrases.
 
 ### Bandwidth and responsive image delivery
 

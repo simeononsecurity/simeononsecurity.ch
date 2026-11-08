@@ -6,6 +6,8 @@ draft: false
 description: "A comprehensive CompTIA SecAI+ (CY0-001) study course covering basic AI concepts, securing AI systems, AI-assisted security, and AI governance, risk, and compliance for cybersecurity practitioners."
 genre: ["CompTIA SecAI+ Course", "CY0-001 Certification", "AI Security", "Machine Learning Security", "LLM Security", "AI Governance Risk Compliance", "CompTIA Certification", "Artificial Intelligence", "Adversarial Machine Learning", "Responsible AI"]
 tags: ["CompTIA SecAI+", "CY0-001", "AI security", "machine learning security", "LLM security", "prompt injection", "model poisoning", "data poisoning", "AI governance", "MITRE ATLAS", "OWASP LLM Top 10", "NIST AI RMF", "EU AI Act", "responsible AI", "AI risk management", "CompTIA certification"]
+course_landing: true
+course_keywords: ["AI security", "prompt injection"]
 
 coverCaption: "Master CompTIA SecAI+ and Secure the AI-Driven Enterprise"
 cover: "/img/cover/comptia-secaiplus-cy0-001-ai-cybersecurity-study-guide.webp"

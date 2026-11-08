@@ -6,6 +6,8 @@ draft: false
 description: "A draft-based SecOT+ SOT-001 topic guide for OT safety, risk, intelligence, architecture, operations, and incident management. Check final CompTIA objectives when released."
 genre: ["CompTIA SecOT+ Course", "SOT-001 Certification", "OT Security", "Operational Technology", "Industrial Control Systems", "SCADA Security", "ICS Security", "CompTIA Certification", "Critical Infrastructure", "OT Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "OT security", "operational technology", "industrial control systems", "SCADA", "PLC", "DCS", "safety instrumented system", "ISA/IEC 62443", "NERC CIP", "MITRE ATT&CK for ICS", "OT risk management", "OT threat intelligence", "OT incident response", "Purdue model", "CompTIA certification"]
+course_landing: true
+course_keywords: ["industrial control systems", "SCADA security"]
 cover: "/img/cover/index.en.md.webp"
 coverAlt: "Cover image for: CompTIA SecOT+ Course: Complete Study Guide for the SOT-001 Exam"
 coverCaption: "Master CompTIA SecOT+ and Secure Operational Technology Environments"

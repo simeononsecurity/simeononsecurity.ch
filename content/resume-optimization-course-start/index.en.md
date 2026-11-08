@@ -7,6 +7,8 @@ draft: false
 description: "A practical course for writing a clear, truthful resume, checking file readability, tailoring examples to a posting, and preparing a submission."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development", "Productivity"]
 tags: ["resume optimization", "ATS resume", "resume writing course", "beat ATS", "keyword optimization", "resume formatting", "cover letter", "job search course", "career development", "resume tips", "applicant tracking system", "resume course", "AI resume", "ATS Resume Improver", "resume keywords", "resume bullet points", "cover letter writing", "tailoring resume", "resume checklist", "interview preparation"]
+course_landing: true
+course_keywords: ["resume optimization"]
 cover: "/img/cover/resume-optimization-course-ats-systems.webp"
 coverAlt: "A person sitting at a desk working on a resume. The desk features a laptop displaying a structured resume, a document with highlighted keywords, a coffee mug, a notepad with notes, and a plant in the background."
 coverCaption: "Write and check a clear resume for a defined role."

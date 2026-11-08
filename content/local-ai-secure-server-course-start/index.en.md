@@ -7,6 +7,8 @@ draft: false
 description: "Run your first local model, measure fit and speed, then expose a controlled API through a secure server design."
 genre: ["Artificial Intelligence", "Self-Hosted", "Cybersecurity"]
 tags: ["local AI course", "Ollama course", "llama.cpp", "vLLM", "local LLM server", "secure AI server", "GGUF", "GPU inference", "self-hosted AI"]
+course_landing: true
+course_keywords: ["local AI", "Ollama", "llama.cpp", "local LLM", "self-hosted AI"]
 cover: "/img/cover/local-ai-first-model-secure-server.webp"
 coverAlt: "Learning path from a laptop model session to a monitored and access-controlled local AI server"
 coverCaption: ""

@@ -7,6 +7,8 @@ draft: false
 description: "A twelve-module personal security course with beginner exercises, recovery tests, evidence records, safe pause points, and a final review for beginners."
 genre: ["Personal Security", "Privacy", "Digital Hygiene", "Account Security", "Consumer Security", "Threat Modeling", "Data Protection"]
 tags: ["personal security course", "personal security", "digital security course", "privacy course", "personal cybersecurity", "security checklist course", "account security", "authentication module", "browser privacy", "email security", "secure messaging", "social media privacy", "home network security", "mobile device security", "computer security", "smart home privacy", "personal finance security", "social engineering defense", "physical security", "threat modeling", "security training", "free security course", "self-paced security course"]
+course_landing: true
+course_keywords: ["personal security checklist"]
 cover: "/img/cover/personal-security-course-illustration.webp"
 coverAlt: "An engaged individual surrounded by elements of personal security, including a password manager, a locked laptop, and a smartphone, all on a dark background with vibrant accent colors."
 coverCaption: "Twelve modules covering the security of one person"

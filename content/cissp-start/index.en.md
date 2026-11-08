@@ -6,6 +6,8 @@ draft: false
 description: "A comprehensive ISC2 CISSP study course covering all eight domains of the April 2024 exam outline: security and risk management, asset security, security architecture and engineering, communication and network security, IAM, security assessment and testing, security operations, and software development security."
 genre: ["ISC2 CISSP Course", "Cybersecurity Certification", "Security Management", "Security Architecture", "Risk Management", "ISC2 Certification", "Information Security", "Security Operations", "Network Security", "Identity Management"]
 tags: ["ISC2 CISSP", "CISSP", "security and risk management", "asset security", "security architecture", "network security", "identity and access management", "security assessment", "security operations", "software development security", "cryptography", "risk management", "ISC2 certification"]
+course_landing: true
+course_keywords: ["security architecture", "identity and access management", "security assessment", "security operations", "cryptography"]
 cover: "/img/cover/isc2-cissp-course-study-guide-cybersecurity-training.webp"
 coverAlt: "A diverse group of professionals studying in a modern cybersecurity training environment, surrounded by advanced digital tools and holographic displays with various cybersecurity concepts."
 coverCaption: "Master ISC2 CISSP and Lead Information Security"
