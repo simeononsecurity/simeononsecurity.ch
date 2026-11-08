@@ -167,71 +167,71 @@ Proposals -> Issues and proposal branches
   Authority: requested changes only
 ```
 
-**Current retention value हर map entry में न रखें।** “Seven days” वाली map PROP-042 के बाद synchronize करने के लिए एक और value बन जाती है। Map में stable identifiers और locations रखें और value authoritative record से पढ़ें।
+**हर मैप प्रविष्टि में मौजूदा प्रतिधारण अवधि न रखें।** “सात दिन” रखने वाला मैप PROP-042 के बाद समन्वय करने के लिए एक और मान बन जाता है। मैप में स्थिर पहचानकर्ता और स्थान रखें, और मान को प्रामाणिक रिकॉर्ड से पढ़ें।
 
-**Map changes को routing changes की तरह सुरक्षित करें।** REQ-17 को draft file पर redirect करना source selection बदलता है, चाहे approved requirement unchanged रहे। Map बदलने पर destination, owner और authority scope review करें।
+**मैप में बदलाव को रूटिंग बदलाव की तरह सुरक्षित करें।** REQ-17 को ड्राफ्ट फ़ाइल पर भेजने से स्रोत का चयन बदलता है, भले ही स्वीकृत requirement अपरिवर्तित रहे। मैप बदलने पर गंतव्य, ज़िम्मेदार व्यक्ति और अधिकार का दायरा जाँचें।
 
-## Baseline और candidate अलग करें
+## आधाररेखा और प्रस्तावित बदलाव अलग रखें
 
-**Repository root में active lab records रहते हैं।** Download किया गया **`baseline/`** directory teaching fixture है। हर बाद की PR के लिए यह अपने आप protected baseline नहीं है। Reviewed work **`main`** तक पहुँचने पर protected root records अगली proposal का base तय करते हैं।
+**रिपोज़िटरी रूट में सक्रिय लैब रिकॉर्ड रहते हैं।** डाउनलोड की गई **`baseline/`** डायरेक्टरी एक शिक्षण नमूना है। यह हर अगली PR के लिए अपने आप सुरक्षित आधाररेखा नहीं बनती। समीक्षा किया हुआ काम **`main`** तक पहुँचने के बाद सुरक्षित रूट रिकॉर्ड अगली प्रस्तावना का आधार तय करते हैं।
 
-| स्थान | उद्देश्य | PROP-042 के दौरान edit करें? |
+| स्थान | उद्देश्य | PROP-042 के दौरान संपादित करें? |
 |---|---|---|
-| **Root requirement/config/runbook** | Branch पर proposed active records | हाँ, reviewed changes के माध्यम से |
-| **`baseline/`** | Original offline exercise fixture | नहीं |
-| **Detached trusted worktree** | Captured protected root records | नहीं |
-| **`context.json`** | Captured base bytes का evidence | Reconciliation के बाद regenerate |
+| **रूट की आवश्यकता/कॉन्फ़िगरेशन/कार्य-पुस्तिका** | शाखा पर प्रस्तावित सक्रिय रिकॉर्ड | हाँ, समीक्षा किए गए बदलावों से |
+| **`baseline/`** | मूल ऑफ़लाइन अभ्यास नमूना | नहीं |
+| **अलग विश्वसनीय worktree** | सुरक्षित रूट रिकॉर्ड की कैप्चर की गई प्रति | नहीं |
+| **`context.json`** | कैप्चर किए गए आधार बाइट का प्रमाण | मिलान के बाद फिर से बनाएँ |
 
-**Control changes और retention changes अलग रखें।** पहले checker और review rules bootstrap करें। फिर seven-to-thirty-day change propose करें। Policy, workflow और value rewrite को मिलाने से repaired controls और bypassed controls में अंतर करना कठिन होता है।
+**नियंत्रण के बदलाव और प्रतिधारण अवधि के बदलाव अलग रखें।** पहले checker और समीक्षा नियम शुरू करें। फिर सात से तीस दिन का बदलाव प्रस्तावित करें। नीति, कार्यप्रवाह और मान को एक साथ बदलने से सुधारे गए नियंत्रणों और दरकिनार किए गए नियंत्रणों में अंतर करना कठिन होता है।
 
-## पूरा बदलाव review करें
+## पूरे बदलाव की समीक्षा करें
 
-**PR description स्वीकार करने से पहले Files changed खोलें।** Description author intent बताती है। Diff submitted change दिखाता है। PROP-042 के लिए requirement revision, scope exclusions, configuration, runbook, proposal base और manifest evidence देखें।
+**PR का विवरण स्वीकार करने से पहले बदली हुई फ़ाइलें खोलें।** विवरण लेखक का उद्देश्य बताता है। Diff जमा किया गया बदलाव दिखाता है। PROP-042 के लिए requirement संशोधन, दायरे से बाहर की चीज़ें, configuration, runbook, प्रस्ताव का आधार और manifest के प्रमाण देखें।
 
-1. **Product review:** thirty-day intent और unchanged exclusions की पुष्टि करें।
-2. **Operations review:** runbook proposed configuration से मेल खाता है और runtime limitation रखता है, इसकी पुष्टि करें।
-3. **Maintainer review:** JSON, source capture, check results और unrelated edits देखें।
-4. **Control review:** map, policy, CODEOWNERS या workflow change अलग से देखें।
+1. **उत्पाद समीक्षा:** तीस दिन का उद्देश्य और अपरिवर्तित अपवादों की पुष्टि करें।
+2. **संचालन समीक्षा:** पुष्टि करें कि runbook प्रस्तावित configuration से मेल खाता है और runtime सीमा बताता है।
+3. **रखरखावकर्ता समीक्षा:** JSON, स्रोत कैप्चर, जाँच के नतीजे और असंबंधित बदलाव देखें।
+4. **नियंत्रण समीक्षा:** मैप, नीति, CODEOWNERS या workflow में बदलाव को अलग से जाँचें।
 
-**Green check unrelated deletion नहीं समझाता।** Branch retention बदलते समय policy document हटाती है, तो separate proposal या specific owner review माँगें। Scope सीमित रखने से review object समझने योग्य रहता है।
+**हरा check असंबंधित deletion का कारण नहीं बताता।** यदि शाखा प्रतिधारण अवधि बदलते समय नीति दस्तावेज़ हटाती है, तो अलग प्रस्ताव या संबंधित owner की विशेष समीक्षा माँगें। दायरा सीमित रखने से समीक्षा का विषय स्पष्ट रहता है।
 
-## Denial test diagnose करें
+## अस्वीकृति परीक्षण का निदान करें
 
-**हर evidence row में एक attempted action रखें।** “Contributor failed” अस्पष्ट है। User के पास ordinary repository write access न हो, browser limitation मिले या intended branch rule hit हो। ये observations अलग boundaries स्थापित करते हैं।
+**प्रमाण की हर पंक्ति में एक प्रयास किया गया कार्य रखें।** “योगदानकर्ता विफल हुआ” अस्पष्ट है। उपयोगकर्ता के पास सामान्य repository लेखन अनुमति न हो सकती है, ब्राउज़र की सीमा आ सकती है या निर्धारित branch rule लागू हो सकता है। ये अवलोकन अलग-अलग सुरक्षा सीमाएँ दिखाते हैं।
 
-| Observation | Interpretation | Follow-up |
+| अवलोकन | अर्थ | अगला कदम |
 |---|---|---|
-| **कोई branch create नहीं कर सकता** | Contribution access अनुपस्थित है | Approved Issue/fork route इस्तेमाल करें |
-| **Branch बनाता है, main पर publish नहीं कर सकता** | Tested publication route restricted है | Unchanged main revision capture करें |
-| **One review पर merge blocked है** | Review count tested PR पर लागू है | Role-specific evidence जोड़ें |
-| **Admin rule के बावजूद publish करता है** | Tested identity boundary bypass करती है | Bypass settings और grants देखें |
+| **कोई branch नहीं बना सकता** | योगदान की अनुमति नहीं है | स्वीकृत Issue/fork मार्ग इस्तेमाल करें |
+| **branch बनाता है, main पर प्रकाशित नहीं कर सकता** | जाँचा गया प्रकाशन मार्ग सीमित है | main का अपरिवर्तित revision कैप्चर करें |
+| **एक review के बाद merge रुकता है** | जाँची गई PR पर review संख्या लागू होती है | भूमिका-विशिष्ट प्रमाण जोड़ें |
+| **नियम के बावजूद admin प्रकाशित करता है** | जाँची गई पहचान सीमा को दरकिनार करती है | Bypass settings और grants जाँचें |
 
-**Shared course evidence में account details उजागर किए बिना role और action दर्ज करें।** Native actor records reviewer के लिए privately उपलब्ध रखें। Rule configuration, attempted operation, denial और resulting protected revision साथ capture करें।
+**साझा किए जाने वाले पाठ्यक्रम प्रमाण में खाता विवरण उजागर किए बिना भूमिका और कार्रवाई दर्ज करें।** मूल actor रिकॉर्ड समीक्षक के लिए निजी रूप से उपलब्ध रखें। नियम configuration, प्रयास की गई कार्रवाई, अस्वीकृति और परिणामस्वरूप सुरक्षित revision साथ में कैप्चर करें।
 
-## Repository completion check
+## रिपॉज़िटरी पूर्णता की जाँच
 
-**ऐसी repository दें जिसे दूसरा contributor independently navigate कर सके।** README map की ओर point करता है, map authoritative records तक पहुँचता है, owner coverage sensitive paths शामिल करती है और protection **`main`** पर लागू होती है। एक permitted proposal और एक denied publication attempt रखें।
+**ऐसी रिपॉज़िटरी दें जिसे दूसरा योगदानकर्ता स्वतंत्र रूप से समझ और उपयोग कर सके।** README मैप तक पहुँचाता है, मैप प्रामाणिक रिकॉर्ड दिखाता है, मालिकों का दायरा संवेदनशील paths को शामिल करता है और सुरक्षा **`main`** पर लागू होती है। एक अनुमत प्रस्ताव और एक अस्वीकृत प्रकाशन प्रयास रखें।
 
-**केवल settings से enforcement claim न करें।** Settings intended configuration स्थापित करती हैं। Sandbox attempt किसी particular role और route के observed behavior को स्थापित करता है। दोनों को agent और Actions lesson में ले जाएँ।
+**केवल settings के आधार पर लागू होने का दावा न करें।** Settings इच्छित configuration बताती हैं। Sandbox परीक्षण किसी खास भूमिका और मार्ग का देखा गया व्यवहार बताता है। दोनों प्रकार के प्रमाण agent और Actions पाठ में रखें।
 
-## समस्या निवारण और वापस करना
+## समस्या निवारण और रोलबैक
 
-**Owner request missing:** write access और base-branch path coverage confirm करें। **Protection absent:** plan और visibility verify करें। **Merge enabled:** rule target, bypass configuration और review count देखें।
+**मालिक का अनुरोध नहीं:** लेखन अनुमति और आधार शाखा के path coverage की पुष्टि करें। **सुरक्षा मौजूद नहीं:** योजना और दृश्यता जाँचें। **Merge चालू:** rule target, bypass configuration और समीक्षा की संख्या देखें।
 
-**Rollback:** unmerged proposals बंद करें और lab automation deactivate करें। Merged lab content को दूसरी reviewed PR से revert करें। Disposable repository delete करने से पहले evidence रखें। Failing test पूरा करने के लिए protection कमजोर न करें।
+**रोलबैक:** merge न हुए प्रस्ताव बंद करें और लैब automation निष्क्रिय करें। Merge हुए लैब के बदलाव दूसरी समीक्षा की गई PR से वापस लें। अस्थायी repository हटाने से पहले प्रमाण रखें। विफल परीक्षण पूरा करने के लिए सुरक्षा कमजोर न करें।
 
-## अभ्यास और स्व-जाँच
+## अभ्यास और स्वयं-जाँच
 
-Contributor के रूप में **`docs/policy.md` में edit propose करें**। तय करें कि maintainer approval alone policy-owner approval स्थापित करती है या नहीं।
+योगदानकर्ता के रूप में **`docs/policy.md` में संपादन का प्रस्ताव दें**। तय करें कि केवल रखरखावकर्ता की स्वीकृति से नीति-मालिक की स्वीकृति स्थापित होती है या नहीं।
 
-**Expected reasoning:** review count अकेले authority स्थापित नहीं करता। Path को policy-owner coverage और current role review चाहिए। Unenforced role-specific requirements को procedural controls के रूप में सूचीबद्ध करें।
+**अपेक्षित तर्क:** समीक्षा की संख्या अकेले अधिकार स्थापित नहीं करती। Path के लिए नीति-मालिक का समावेश और वर्तमान भूमिका समीक्षा चाहिए। लागू न किए गए भूमिका-विशिष्ट नियमों को प्रक्रियागत नियंत्रण के रूप में सूचीबद्ध करें।
 
 ## मुख्य संदर्भ
 
-- **Plan और review controls:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)।
-- **Owner eligibility:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)।
-- **Browser contribution:** [Editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)।
+- **योजना और समीक्षा नियंत्रण:** [सुरक्षित शाखाएँ](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)।
+- **मालिक का निर्धारण:** [कोड के मालिक](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)।
+- **ब्राउज़र से योगदान:** [फ़ाइलें संपादित करना](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)।
 
 ## अगला कदम
 
-Executable checks से source evidence जोड़ने के लिए **[Agent Adapters and Actions](/articles/ai-collaboration-github-agents-actions/)** के साथ आगे बढ़ें।
+चलाए जा सकने वाले checks के साथ स्रोत प्रमाण जोड़ने के लिए **[एजेंट अडैप्टर और एक्शन](/articles/ai-collaboration-github-agents-actions/)** के साथ आगे बढ़ें।
