@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ferramentas De Desenvolvimento on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Ferramentas De Desenvolvimento on simeononsecurity</title><link>https://pt.simeononsecurity.com/genre/ferramentas-de-desenvolvimento/</link></image><link>https://pt.simeononsecurity.com/genre/ferramentas-de-desenvolvimento/</link><description>Recent content in Ferramentas De Desenvolvimento on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/genre/ferramentas-de-desenvolvimento/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Copilot CLI versus VS Code: comparação de fluxos de trabalho de 2026</title><link>https://pt.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Ferramentas de desenvolvimento"
+, "Inteligência artificial"
+, "Desenvolvimento de software"</category><guid>https://pt.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare o agente de terminal do Copilot com a experiência no VS Code, incluindo contexto do editor, diferenças visuais, modo Agent, integração CLI e políticas da conta.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>Programação local com IA em uma GPU de 16 GB: Strata, OpenCode e Qwen3.8</title><link>https://pt.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Ferramentas de desenvolvimento"
+, "IA auto-hospedada"
+, "Hardware para IA"</category><guid>https://pt.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Execute um agente de programação local com Strata e OpenCode. Examine os resultados relatados da RTX 4060 Ti, os requisitos de RAM, a reutilização de prompts, os limites de raciocínio e os limites de substituir uma assinatura paga.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Qual modelo de IA local você deve executar? Guia de GPU, contexto e programação para outubro de 2026</title><link>https://pt.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Hardware de IA"
+, "IA autohospedada"
+, "Benchmark de GPU"
+, "Ferramentas de desenvolvimento"
+, "Economia de IA"</category><guid>https://pt.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Um guia prático de outubro de 2026 para escolher modelos de IA locais para agentes de programação. Compare memória da GPU, crescimento do KV cache, tamanho do contexto, qualidade da quantização, processamento de prompts, configurações de raciocínio e custos de aluguel na nuvem.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Visual Studio Code vs Visual Studio</title><link>https://pt.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Ferramentas de Desenvolvimento"
+, "IDE"
+, "Desenvolvimento de Software"
+, "Programação"
+, "Editores de Código"
+, "Visual Studio"
+, "VS Code"
+, "Desenvolvimento Microsoft"
+, "Ferramentas para Desenvolvedores"
+, "Engenharia de Software"</category><guid>https://pt.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparação abrangente de 2026 entre Visual Studio Code e Visual Studio Community/Professional/Enterprise incluindo recursos, desempenho, preços e casos de uso para ajudar desenvolvedores a escolher o IDE certo.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item></channel></rss>
