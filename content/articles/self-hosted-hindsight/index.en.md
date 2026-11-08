@@ -30,9 +30,9 @@ This is a description of one working deployment. **Self-hosted does not mean off
 
 **Hindsight is the memory engine, not the model server.** Its full Docker image includes local embedding and reranking models, but language-model generation needs an endpoint. The [Hindsight installation guide](https://hindsight.vectorize.io/developer/installation) documents this split and shows local llama.cpp, Ollama, and vLLM servers as alternatives to hosted providers.
 
-Our API accepts agent requests over a private network. The web control plane stays on a local interface. A persistent volume holds the embedded database, so a container recreation does not discard banks. Authentication protects the memory API, and separate banks organize project context.
+**The memory API stays on the private network.** The web control plane stays on a local interface. A persistent volume holds the embedded database, so a container recreation does not discard banks. Authentication protects the API, and separate banks organize project context.
 
-For generation, Hindsight sends OpenAI-compatible requests through a private gateway over a VPN. The gateway exposes stable model names and forwards requests to local serving endpoints. The inspected Qwen route reaches a LiteLLM deployment mapped to a local CPU server. [LiteLLM's router documentation](https://docs.litellm.ai/docs/routing) describes this model-alias pattern. An equivalent OpenAI-compatible router serves the same role.
+**The generation gateway supplies stable model names.** Hindsight sends OpenAI-compatible requests through the private gateway over a VPN. The gateway forwards requests to local serving endpoints. The inspected Qwen route reaches a LiteLLM deployment mapped to a local CPU server. [LiteLLM's router documentation](https://docs.litellm.ai/docs/routing) describes this model-alias pattern. An equivalent OpenAI-compatible router serves the same role.
 
 {{< figure src="hindsight-private-request-path.webp" alt="Diagram showing agents, a private Hindsight service, local retrieval models, a private gateway, and local Qwen servers" caption="The diagram omits hostnames, addresses, access keys, and physical host labels" >}}
 
@@ -52,6 +52,8 @@ Hindsight's operations do different work. **Retain** extracts facts from new mat
 | **Consolidation** | Qwen3.5-4B through the private gateway | Small batches limit long structured responses |
 | **Knowledge-page refresh** | Dedicated local GPU Qwen route | Large background synthesis exceeded the CPU route's wall limit |
 
+*Keep small retrieval jobs on CPU and reserve GPU inference for measured long-running work.*
+
 The Hindsight container loads **BAAI/bge-small-en-v1.5** for embeddings and **hindsight-ai/hs-rerank-1** for reranking. Startup logs confirm both run locally on CPU. The [Hindsight model reference](https://hindsight.vectorize.io/developer/models) documents local model options and the optional decision-model path.
 
 We kept the existing embedding model because changing an embedding space requires rebuilding stored vectors. The reranker already runs locally, so a hosted reranking service would add a new data boundary without solving the observed generation timeout. A local **hs-decide-1-flash** pilot produced one correct Reflect answer, but the result finished close to its test wall limit. The synthetic consolidation data did not exercise the decision path. The decision model is therefore absent from production routing.
@@ -60,7 +62,7 @@ We kept the existing embedding model because changing an embedding space require
 
 **The normal model name and the refresh model name differ.** Retain, Reflect, and consolidation use the shared Qwen alias. Background page refresh uses a node-specific GPU alias with one concurrent language-model call. This limits a long maintenance job to one GPU at a time.
 
-The GPU pool starts a model worker when a request arrives. Its controller reserves one card, serves the request, stops the worker, and releases the reservation. The diagram omits the physical host inventory.
+**A request-scoped reservation limits GPU use.** The GPU pool starts a model worker when a request arrives. Its controller reserves one card, serves the request, stops the worker, and releases the reservation. The diagram omits the physical host inventory.
 
 {{< figure src="hindsight-gpu-lease-cycle.webp" alt="Diagram showing one GPU reserved for a background page refresh and released when the request completes" caption="A request-scoped lease reserves one GPU for a page refresh" >}}
 
@@ -72,20 +74,43 @@ This split came from a failure we measured. **One CPU-first page refresh reached
 
 **Hindsight's former output limits did not fit our local router.** The router accepts at most 8,192 output tokens and applies a 256-token limit when a request omits one. A former 64,000-token Retain limit drew HTTP 400. Eight-fact consolidation batches reached an output-length stop, and Reflect needed an explicit cap to avoid the router's 256-token fallback.
 
-We set **Retain to 8,192 output tokens**, **Reflect and consolidation to 4,096**, and **consolidation to four facts per call**. We disabled Qwen reasoning for these memory jobs. These changes address the observed limit failures without changing the embedding space or switching the production decision model.
+**We made the limits explicit for each job.** Qwen reasoning is off for these memory operations. Hindsight now permits four concurrent LLM calls overall, including at most one background page-refresh call. The global LLM timeout is 1,800 seconds with one model retry.
 
-**Multiple memory operations share local serving capacity.** Long page rebuilds compete with Retain and interactive Reflect for model slots. Hindsight now permits four concurrent LLM calls across ordinary work and one concurrent call for background page refresh. The refresh cap bounds this contention.
+| Workload | Output or batch cap | Call and operation limits |
+| --- | --- | --- |
+| **Retain** | 8,192 output tokens | Global 1,800-second call timeout |
+| **Reflect** | 4,096 output tokens | 900 seconds per call, 3,600-second operation wall |
+| **Consolidation** | 4,096 output tokens, four facts per call | 900 seconds per call, 14,400-second operation wall |
+| **Page refresh** | One concurrent model call | 900 seconds per call, dedicated GPU route |
 
-**The former 300-second call timeout cut off valid Qwen work.** The global LLM timeout is now 1,800 seconds, with 900-second limits for Reflect, consolidation, and page-refresh calls. Reflect has a 3,600-second operation wall and consolidation has a 14,400-second wall. Hindsight allows one model retry. Each limit bounds a different stage, so a longer operation wall does not remove the per-call limit.
+*These values describe our November 2026 deployment and its local router.*
+
+**A call timeout and an operation wall bound different stages.** Some valid Qwen calls exceeded the former 300-second call timeout. The longer operation walls permit multi-call work, while the 900-second per-call limits still bound each attempt.
 
 In the recovery run, several Retain jobs completed with **1,042 to 2,076 output tokens**. Two consolidation runs completed **41 of 41** and **30 of 30** items. A later page-refresh wall expiry led to the separate GPU route described above. These recovery results do not establish long-term reliability.
 
 ## What the Design Trades Away
 
-**No hosted model bill does not mean zero cost.** The deployment uses owned hardware, electricity, storage, maintenance time, and GPU time used during page refreshes. A CPU route preserves GPU availability but takes longer on large prompts. A node-specific GPU route finishes the tested page refreshes faster, yet depends on the GPU pool's health.
+**No hosted model bill does not mean zero cost.** The deployment uses owned hardware, electricity, storage, maintenance time, and GPU time during page refreshes. Each placement choice trades capacity for latency or operational simplicity.
 
-The embedded database keeps the stack compact. The [Hindsight installation guide](https://hindsight.vectorize.io/developer/installation) recommends a separate PostgreSQL service for larger production deployments. Our single-container layout accepts a narrower failure domain and needs backup and recovery testing as bank size grows.
+| Choice | Benefit | Trade-off |
+| --- | --- | --- |
+| **CPU-first generation** | Preserves GPU availability | A tested page refresh reached its one-hour wall |
+| **GPU page refresh** | Five pages finished in roughly two to six minutes in one run | Uses GPU capacity and depends on the dedicated route |
+| **Embedded database** | Keeps the deployment compact | Narrows the failure domain and requires backup testing |
+
+*Use a GPU refresh route after measured CPU latency exceeds your maintenance window.*
+
+The [Hindsight installation guide](https://hindsight.vectorize.io/developer/installation) recommends separate PostgreSQL for larger production deployments. **Our embedded database needs a tested backup and recovery path** as the bank grows.
 
 **Private inference is a path property.** Check the selected Hindsight provider, gateway model mapping, fallback rules, local model process, log retention, and network egress. Hindsight's trace IDs help correlate requests, and Docker rotates the container logs. Neither measure proves a downstream request stayed local. A gateway audit supplies the missing end-to-end evidence.
 
-If you plan a similar system, start with the [local AI privacy boundary guide](/articles/local-ai-privacy-boundary/). Draw your data path first. Then test Retain, Recall, Reflect, consolidation, and page refresh as separate workloads before assigning CPU or GPU capacity.
+## Recommendation
+
+**Start with local retrieval models and explicit generation limits.** Place Hindsight and its embedding and reranking models on owned compute. Route generation through a private OpenAI-compatible gateway over a VPN. Measure each operation before assigning CPU or GPU capacity, and reserve the GPU route for background jobs whose CPU latency exceeds your maintenance window.
+
+*Review every gateway fallback and test bank recovery before treating the deployment as private and resilient.* The [local AI privacy boundary guide](/articles/local-ai-privacy-boundary/) provides a starting checklist.
+
+## Conclusion
+
+**This deployment keeps Hindsight memory and the inspected inference paths on owned compute without a hosted model subscription.** CPU retrieval, bounded Qwen calls, and a single-call GPU refresh route address different workloads. The recovery runs completed Retain, consolidation, and page-refresh work under these settings. A full gateway fallback audit, backup test, and longer reliability observation remain the next checks.
