@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Outils Pour Développeurs on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/img/banner.webp</url><title>Outils Pour Développeurs on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/outils-pour-d%C3%A9veloppeurs/</link></image><link>https://fr.simeononsecurity.com/genre/outils-pour-d%C3%A9veloppeurs/</link><description>Recent content in Outils Pour Développeurs on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/outils-pour-d%C3%A9veloppeurs/index.xml" rel="self" type="application/rss+xml"/><item><title>10 plugins, compétences et outils MCP pour Claude Code : guide pratique</title><link>https://fr.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Outils pour développeurs"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choisissez des extensions Claude Code pour la planification, la revue de code, la gestion des connaissances, le design et l'automatisation. Comparez dix outils, leurs dépendances et des contrôles pratiques.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>9 projets de compétences d'agents IA pour la recherche, le design et le développement</title><link>https://fr.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligence artificielle"
+, "Outils pour développeurs"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez neuf projets de compétences d'agents selon leur flux de travail, leur prise en charge des hôtes, leurs dépendances et leur coût. Apprenez à installer, inspecter et tester les compétences dont vous avez besoin.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>Agents de codage GUI comparés : Cursor, Windsurf, Cline, Copilot et Continue</title><link>https://fr.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez les agents de codage graphiques, séparez les éditeurs complets des extensions et examinez l'arrêt de Roo Code, l'accès aux modèles, les approbations et les flux de revue.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>Claude Code CLI contre Desktop : comparaison du flux de travail 2026</title><link>https://fr.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez Claude Code dans le terminal et dans l'espace de travail Code sur ordinateur, avec les réglages partagés, le transfert de session, les scripts, la revue visuelle et les choix de permissions.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Coder avec une IA locale sur un GPU de 16 Go : Strata, OpenCode et Qwen3.8</title><link>https://fr.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Outils pour développeurs"
+, "IA auto-hébergée"
+, "Matériel IA"</category><guid>https://fr.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Exécutez un agent de codage local avec Strata et OpenCode. Examinez les résultats rapportés sur RTX 4060 Ti, les besoins en RAM, la réutilisation des prompts, les budgets de raisonnement et les limites du remplacement d'un abonnement payant.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Codex CLI contre Desktop : comparaison des flux de travail en 2026</title><link>https://fr.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choisissez entre Codex dans le terminal et l'espace de travail de programmation de bureau d'OpenAI. Comparez les scripts, les worktrees, la revue visuelle, les planifications et les environnements d'exécution.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>Comparatif des agents de codage CLI : Claude Code, Codex, Gemini, OpenCode, Copilot et Aider</title><link>https://fr.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez six agents de codage dans le terminal selon le flux de travail, l'automatisation, l'accès aux modèles, les permissions et l'effort de revue. Constituez une sélection avec un essai reproductible dans le dépôt.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>GitHub Copilot CLI contre VS Code : comparaison des flux de travail en 2026</title><link>https://fr.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez l’agent de terminal Copilot avec son expérience dans VS Code, notamment le contexte de l’éditeur, les différences visuelles, le mode Agent, l’intégration CLI et les règles du compte.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>IA locale contre ChatGPT : où en sommes-nous vraiment ?</title><link>https://fr.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Intelligence artificielle"
+, "Matériel IA"
+, "Outils pour développeurs"</category><guid>https://fr.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez l'IA locale à ChatGPT et Claude avec des scores de référence, des estimations de mémoire, la vitesse de service et la vérification des agents. Inclut des scénarios RTX 5090, DGX Spark et Mac Studio.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>OpenCode CLI contre Desktop : comparaison des flux de travail en 2026</title><link>https://fr.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Développement logiciel"</category><guid>https://fr.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez les clients terminal et bureau d'OpenCode à travers leur architecture serveur, la configuration du fournisseur, les scripts, l'état de session et le dépannage.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode contre Claude Code : comparaison des agents de codage en 2026</title><link>https://fr.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Outils pour développeurs"
+, "Intelligence artificielle"
+, "Open source"</category><guid>https://fr.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparez OpenCode et Claude Code pour le choix des modèles, l'inférence locale, les prix, les permissions, les instructions de projet et les flux de travail de développement quotidiens.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Quel modèle d'IA local devriez-vous exécuter ? Guide GPU, contexte et programmation pour octobre 2026</title><link>https://fr.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Matériel IA"
+, "IA auto-hébergée"
+, "Benchmark GPU"
+, "Outils pour développeurs"
+, "Économie de l'IA"</category><guid>https://fr.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide pratique d'octobre 2026 pour choisir des modèles d'IA locaux destinés aux agents de programmation. Comparez la mémoire GPU, la croissance du cache KV, la taille du contexte, la qualité de la quantification, le traitement des prompts, les niveaux de raisonnement et les coûts de location cloud.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Visual Studio Code vs Visual Studio</title><link>https://fr.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Outils de développement"
+, "IDE"
+, "Développement logiciel"
+, "Programmation"
+, "Éditeurs de code"
+, "Visual Studio"
+, "VS Code"
+, "Développement Microsoft"
+, "Outils pour développeurs"
+, "Génie logiciel"</category><guid>https://fr.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparaison complète 2026 de Visual Studio Code et Visual Studio Community/Professional/Enterprise incluant fonctionnalités, performances, tarifs et cas d'utilisation pour aider les développeurs à choisir le bon IDE.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item></channel></rss>
