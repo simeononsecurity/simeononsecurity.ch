@@ -23,6 +23,13 @@
       max-width: 560px;
       margin: 0 auto;
     }
+    .search-form form {
+      width: 100%;
+      min-width: 0;
+    }
+    .search-form #search-query {
+      min-width: 0;
+    }
     .search-box {
       display: flex;
       align-items: center;
@@ -113,6 +120,12 @@
       background: var(--border-color);
       border-color: var(--color-secondary);
       transform: translateY(-1px);
+    }
+
+    @media (max-width: 683px) {
+      .posts .post-title a {
+        overflow-wrap: anywhere;
+      }
     }
 
     /* ── Index section divider ─────────────────── */

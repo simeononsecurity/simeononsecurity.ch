@@ -440,6 +440,20 @@ actual result markup (not the empty-state) for a query known to match real conte
 for a nonsense query, and pagination links for a broad query. This is the same jsdom pattern used to
 validate `search.js` itself; it also works for any other page template that embeds the search widget.
 
+**Narrow-screen layout:** On the homepage, the later-loaded
+`themes/soshellofriend/assets/style-append.css` gives `#search-query` a 300px minimum
+plus 20px of horizontal margins. Together with the submit button and box padding,
+that forces the centered form past 320–384px viewports. Keep the existing margins
+and full-width search widget, but give `.search-form form` a shrinkable 100% width
+and override the input minimum with the more-specific `.search-form #search-query`.
+The footer copyright row is a separate nowrap flex overflow at these widths; let
+`.footer__copyright` wrap below 600px without hiding its logo or links. Long
+German post titles can also force `.posts` to its min-content width, so wrap only
+mobile `.posts .post-title a` at 683px and below. Run
+`tools/homepage_mobile_overflow_probe.js` on the rendered EN and DE homepages at
+320px and 375px, then check search and footer interactions at desktop width. A
+page-level `overflow-x: hidden` masks these failures and is not a fix.
+
 ## robots.txt Disallow Directives Do Not Inherit Across `User-agent:` Groups
 
 `static/robots.txt` and `layouts/_default/robots.txt` repeat the same `Disallow:` lines (e.g.
