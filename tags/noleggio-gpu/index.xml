@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Noleggio GPU on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Noleggio GPU on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/noleggio-gpu/</link></image><link>https://it.simeononsecurity.com/tags/noleggio-gpu/</link><description>Recent content in Noleggio GPU on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/noleggio-gpu/index.xml" rel="self" type="application/rss+xml"/><item><title>Quale modello di IA locale dovresti eseguire? Guida a GPU, contesto e programmazione per ottobre 2026</title><link>https://it.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Hardware IA"
+, "IA self-hosted"
+, "Benchmark GPU"
+, "Strumenti per sviluppatori"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guida pratica di ottobre 2026 alla scelta di modelli di IA locali per gli agenti di programmazione. Confronta memoria GPU, crescita della cache KV, dimensione del contesto, qualità della quantizzazione, elaborazione dei prompt, livelli di ragionamento e costi del noleggio cloud.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32 GB di VRAM per Qwen 27B: guida all'hardware IA locale per ottobre 2026</title><link>https://it.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Hardware IA"
+, "Benchmark GPU"
+, "IA self-hosted"
+, "Hardware informatico"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guida pratica di ottobre 2026 per eseguire un modello Qwen 27B con 32 GB di memoria dell'acceleratore utilizzabile. Confronta GPU singole, sistemi a due schede, memoria unificata, schede usate da data center, calcolo a noleggio, supporto software e limiti del contesto completo.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Benchmark GPU di Llama 3.1 8B e Qwen3.8 27B su Vast.ai</title><link>https://it.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Benchmark GPU"
+, "IA self-hosted"
+, "Cloud computing"
+, "Intelligenza artificiale"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Benchmark Ollama misurati di Llama 3.1 8B e Qwen3.8 27B sulle principali GPU Vast.ai. Confronta velocità di decodifica, contesto lungo, costo di noleggio, self-hosting, crediti API e abbonamenti.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
