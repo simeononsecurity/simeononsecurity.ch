@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>開発者ツール on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>開発者ツール on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E9%96%8B%E7%99%BA%E8%80%85%E3%83%84%E3%83%BC%E3%83%AB/</link></image><link>https://ja.simeononsecurity.com/genre/%E9%96%8B%E7%99%BA%E8%80%85%E3%83%84%E3%83%BC%E3%83%AB/</link><description>Recent content in 開発者ツール on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E9%96%8B%E7%99%BA%E8%80%85%E3%83%84%E3%83%BC%E3%83%AB/index.xml" rel="self" type="application/rss+xml"/><item><title>16GB GPUでのローカルAIコーディング: Strata、OpenCode、Qwen3.8</title><link>https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "開発者ツール"
+, "セルフホストAI"
+, "AIハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+StrataとOpenCodeでローカルコーディングエージェントを実行します。報告されたRTX 4060 Tiの結果、RAM要件、プロンプト再利用、推論予算、有料サブスクリプション置き換えの限界を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Claude Code CLI と Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルとデスクトップの Code ワークスペースで Claude Code を比較します。共有設定、セッション引き継ぎ、スクリプト、視覚的なレビュー、権限の選択を扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>Claude Codeのプラグイン、スキル、MCPツール10選：実践ガイド</title><link>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"人工知能"
+, "開発者ツール"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+計画、コードレビュー、ナレッジ管理、デザイン、自動化に使うClaude Code拡張を選びます。10個のツール、依存関係、実践的な確認方法を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>CLI コーディングエージェント比較: Claude Code、Codex、Gemini、OpenCode、Copilot、Aider</title><link>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+6 つのターミナルコーディングエージェントを、ワークフロー、自動化、モデルアクセス、権限、レビュー作業で比較します。再現可能なリポジトリ試験で候補を絞ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ターミナルの Codex と OpenAI のデスクトップ開発環境を比較します。スクリプト、worktree、目視レビュー、スケジュール、実行環境を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI と VS Code: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Copilot のターミナルエージェントと VS Code 体験を比較します。エディターコンテキスト、ビジュアル差分、Agent モード、CLI 統合、アカウントポリシーを扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUIコーディングエージェント比較: Cursor、Windsurf、Cline、Copilot、Continue</title><link>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+グラフィカルなコーディングエージェントを比較し、完全なエディターと拡張機能を分け、Roo Codeの終了、モデルアクセス、承認、レビュー手順を確認します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>OpenCode CLI 対 Desktop: 2026 年ワークフロー比較</title><link>https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "ソフトウェア開発"</category><guid>https://ja.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OpenCode のターミナルクライアントとデスクトップクライアントを、サーバーアーキテクチャ、プロバイダー設定、スクリプト、セッション状態、トラブルシューティングの観点で比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode 対 Claude Code: 2026年コーディングエージェント比較</title><link>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"開発者ツール"
+, "人工知能"
+, "オープンソース"</category><guid>https://ja.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+モデル選択、ローカル推論、料金、権限、プロジェクト指示、日々のコーディング作業について OpenCode と Claude Code を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>ローカルAIとChatGPTの比較。本当にどこまで近づいたのか</title><link>https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "人工知能"
+, "AIハードウェア"
+, "開発者ツール"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ベンチマークスコア、メモリ見積もり、サービング速度、エージェント検証を使い、ローカルAIとChatGPTおよびClaudeを比較します。RTX 5090、DGX Spark、Mac Studioの構成も扱います。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>どのローカルAIモデルを動かすべきか？ 2026年10月版 GPU、コンテキスト、コーディングガイド</title><link>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ローカルAI"
+, "AIハードウェア"
+, "セルフホストAI"
+, "GPUベンチマーク"
+, "開発者ツール"
+, "AI経済"</category><guid>https://ja.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+コーディングエージェント向けのローカルAIモデル選びを解説する、2026年10月の実践ガイドです。GPUメモリ、KVキャッシュの増加、コンテキスト長、量子化品質、プロンプト処理、推論設定、クラウドレンタル費用を比較します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Visual Studio Code と Visual Studio の比較</title><link>https://ja.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"開発ツール"
+, "IDE"
+, "ソフトウェア開発"
+, "プログラミング"
+, "コードエディター"
+, "Visual Studio"
+, "VS Code"
+, "Microsoft 開発"
+, "開発者ツール"
+, "ソフトウェア工学"</category><guid>https://ja.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Visual Studio Code と Visual Studio Community/Professional/Enterprise の機能、パフォーマンス、価格、ユースケースを網羅的に比較し、開発者が最適なIDEを選択できるよう支援する2026年版総合ガイド。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item></channel></rss>
