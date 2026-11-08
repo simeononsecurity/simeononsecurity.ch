@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਸਥਾਨਕ AI on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਸਥਾਨਕ AI on simeononsecurity</title><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%A5%E0%A8%BE%E0%A8%A8%E0%A8%95-ai/</link></image><link>https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%A5%E0%A8%BE%E0%A8%A8%E0%A8%95-ai/</link><description>Recent content in ਸਥਾਨਕ AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/genre/%E0%A8%B8%E0%A8%A5%E0%A8%BE%E0%A8%A8%E0%A8%95-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>ਸਥਾਨਕ AI ਗੋਪਨੀਯਤਾ: ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਉੱਤੇ ਕੀ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਕੀ ਨਹੀਂ</title><link>https://pa.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਗੋਪਨੀਯਤਾ"
+, "Self-Hosted AI"
+, "ਸਾਈਬਰਸੁਰੱਖਿਆ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"</category><guid>https://pa.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hosted AI ਸੇਵਾ ਜਾਂ ਸਥਾਨਕ inference ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ prompts, model files, tools, logs, network exposure ਅਤੇ ਬਿਜਲੀ ਦੇ ਖਰਚੇ ਦੀ ਜਾਂਚ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>16GB GPU ਉੱਤੇ ਸਥਾਨਕ AI ਕੋਡਿੰਗ: Strata, OpenCode ਅਤੇ Qwen3.8</title><link>https://pa.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "ਡਿਵੈਲਪਰ ਟੂਲ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"
+, "AI ਹਾਰਡਵੇਅਰ"</category><guid>https://pa.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strata ਅਤੇ OpenCode ਨਾਲ ਸਥਾਨਕ ਕੋਡਿੰਗ ਏਜੰਟ ਚਲਾਓ। RTX 4060 Ti ਦੇ ਦੱਸੇ ਨਤੀਜੇ, RAM ਦੀ ਲੋੜ, prompt ਦੀ ਮੁੜ ਵਰਤੋਂ, reasoning budgets ਅਤੇ ਭੁਗਤਾਨੀ subscription ਬਦਲਣ ਦੀਆਂ ਹੱਦਾਂ ਨੂੰ ਸਮਝੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>64GB DGX Spark ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਕੀਮਤਾਂ ਲਈ ਚੇਤਾਵਨੀ ਸੰਕੇਤ ਹੈ</title><link>https://pa.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "ਸੈਮੀਕੰਡਕਟਰ"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"</category><guid>https://pa.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+NVIDIA ਦਾ 64GB DGX Spark ਪੱਧਰ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਮੈਮੋਰੀ ਸਪਲਾਈ ਦਾ ਦਬਾਅ ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਨੂੰ ਕਿਵੇਂ ਪ੍ਰਭਾਵਿਤ ਕਰ ਰਿਹਾ ਹੈ। ਇਹ ਗਾਈਡ ਸਮਰੱਥਾ ਵਿੱਚ ਕਮੀ, ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ ਦੇ ਸਮਝੌਤੇ ਅਤੇ 2027 ਦੇ ਅੰਤ ਤੋਂ ਪਹਿਲਾਂ DRAM ਰਾਹਤ ਘੱਟ ਸੰਭਾਵਿਤ ਹੋਣ ਦੇ ਕਾਰਨਾਂ ਨੂੰ ਸਮਝਾਉਂਦੀ ਹੈ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Qwen 27B ਲਈ 32GB VRAM: ਅਕਤੂਬਰ 2026 ਦੀ ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"ਸਥਾਨਕ AI"
+, "AI ਹਾਰਡਵੇਅਰ"
+, "GPU ਬੈਂਚਮਾਰਕਿੰਗ"
+, "ਸਵੈ-ਹੋਸਟਡ AI"
+, "ਕੰਪਿਊਟਰ ਹਾਰਡਵੇਅਰ"
+, "AI ਅਰਥਸ਼ਾਸਤਰ"</category><guid>https://pa.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਅਕਤੂਬਰ 2026 ਦੀ ਇਹ ਕਾਰਗਰ ਗਾਈਡ 32GB ਵਰਤਣਯੋਗ ਐਕਸਲੇਰੇਟਰ ਮੈਮੋਰੀ ਨਾਲ Qwen 27B ਮਾਡਲ ਚਲਾਉਣ ਦੇ ਤਰੀਕੇ ਦੱਸਦੀ ਹੈ। ਸਿੰਗਲ GPU, ਦੋ-ਕਾਰਡ ਬਿਲਡ, ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ, ਵਰਤੇ ਡਾਟਾ-ਸੈਂਟਰ ਕਾਰਡ, ਕਿਰਾਏ ਦੀ ਕੰਪਿਊਟਿੰਗ, ਸਾਫਟਵੇਅਰ ਸਹਾਇਤਾ ਅਤੇ ਪੂਰੇ ਕਾਂਟੈਕਸਟ ਦੀਆਂ ਹੱਦਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

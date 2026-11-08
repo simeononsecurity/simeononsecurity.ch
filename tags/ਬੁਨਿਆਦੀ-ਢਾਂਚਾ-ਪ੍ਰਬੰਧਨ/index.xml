@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਪ੍ਰਬੰਧਨ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਪ੍ਰਬੰਧਨ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%AC%E0%A9%81%E0%A8%A8%E0%A8%BF%E0%A8%86%E0%A8%A6%E0%A9%80-%E0%A8%A2%E0%A8%BE%E0%A8%82%E0%A8%9A%E0%A8%BE-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A8%AC%E0%A9%B0%E0%A8%A7%E0%A8%A8/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%AC%E0%A9%81%E0%A8%A8%E0%A8%BF%E0%A8%86%E0%A8%A6%E0%A9%80-%E0%A8%A2%E0%A8%BE%E0%A8%82%E0%A8%9A%E0%A8%BE-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A8%AC%E0%A9%B0%E0%A8%A7%E0%A8%A8/</link><description>Recent content in ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਪ੍ਰਬੰਧਨ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%AC%E0%A9%81%E0%A8%A8%E0%A8%BF%E0%A8%86%E0%A8%A6%E0%A9%80-%E0%A8%A2%E0%A8%BE%E0%A8%82%E0%A8%9A%E0%A8%BE-%E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A8%AC%E0%A9%B0%E0%A8%A7%E0%A8%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible ਬਨਾਮ Puppet ਬਨਾਮ Chef: ਆਟੋਮੇਸ਼ਨ ਟੂਲਾਂ ਦੀ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"ਤਕਨਾਲੋਜੀ"
+, "ਆਟੋਮੇਸ਼ਨ ਟੂਲ"
+, "ਕੌਂਫਿਗਰੇਸ਼ਨ ਪ੍ਰਬੰਧਨ"
+, "ਆਈਟੀ ਬੁਨਿਆਦੀ ਢਾਂਚਾ"
+, "DevOps"
+, "ਆਈਟੀ ਕਾਰਜ"
+, "ਕਲਾਉਡ ਆਟੋਮੇਸ਼ਨ"
+, "ਸਾਫਟਵੇਅਰ ਤੈਨਾਤੀ"
+, "ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਪ੍ਰਬੰਧਨ"
+, "ਓਪਨ-ਸੋਰਸ ਟੂਲ"</category><guid>https://pa.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਆਪਣੀ ਸੰਸਥਾ ਦੀਆਂ ਲੋੜਾਂ ਲਈ ਢੁਕਵਾਂ ਆਟੋਮੇਸ਼ਨ ਟੂਲ ਚੁਣਨ ਵਾਸਤੇ Ansible, Puppet ਅਤੇ Chef ਦੇ ਫਰਕਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef.webp" length="227428" type="image/webp"/></item><item><title>Ansible ਬਨਾਮ Semaphore ਬਨਾਮ Tower: ਆਟੋਮੇਸ਼ਨ ਦੀ ਤੁਲਨਾ</title><link>https://pa.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"ਆਟੋਮੇਸ਼ਨ"
+, "ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਪ੍ਰਬੰਧਨ"
+, "ਸੰਰਚਨਾ ਪ੍ਰਬੰਧਨ"
+, "DevOps"
+, "ਆਈਟੀ ਕਾਰਜ"
+, "ਓਪਨ ਸੋਰਸ"
+, "ਕੰਮ ਦੇ ਪ੍ਰਵਾਹ ਦਾ ਪ੍ਰਬੰਧਨ"
+, "ਵਿਸਥਾਰਯੋਗਤਾ"
+, "ਸਹਿਯੋਗ"
+, "Ansible ਟੂਲ"</category><guid>https://pa.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਕੰਮ ਦੇ ਪ੍ਰਵਾਹ, ਪ੍ਰਬੰਧਨ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਅਤੇ ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੇ ਵਰਤੋਂ ਮਾਮਲਿਆਂ ਅਨੁਸਾਰ ਸਧਾਰਨ Ansible, Ansible Tower ਅਤੇ Ansible Semaphore ਦੀ ਤੁਲਨਾ ਕਰੋ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item></channel></rss>
