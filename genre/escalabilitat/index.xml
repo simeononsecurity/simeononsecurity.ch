@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Escalabilitat on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>Escalabilitat on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/escalabilitat/</link></image><link>https://ca.simeononsecurity.com/genre/escalabilitat/</link><description>Recent content in Escalabilitat on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/escalabilitat/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible contra Semaphore contra Tower: comparació d'automatització</title><link>https://ca.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatització"
+, "Gestió de la infraestructura"
+, "Gestió de la configuració"
+, "DevOps"
+, "Operacions de TI"
+, "Codi obert"
+, "Gestió de fluxos de treball"
+, "Escalabilitat"
+, "Col·laboració"
+, "Eines d'Ansible"</category><guid>https://ca.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara Ansible bàsic, Ansible Tower i Ansible Semaphore segons el flux de treball, les funcions de gestió i els casos d'ús d'infraestructura.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp" length="132234" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IA Local on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/img/banner.webp</url><title>IA Local on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/ia-local/</link></image><link>https://ca.simeononsecurity.com/genre/ia-local/</link><description>Recent content in IA Local on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/ia-local/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti contra GB10: per què 32 GB de VRAM perden davant 128 GB de memòria unificada</title><link>https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intel·ligència artificial"
+, "IA local"
+, "Maquinari GPU"
+, "Benchmarks"
+, "Maquinari informàtic"</category><guid>https://ca.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparació basada en benchmarks entre dues targetes RTX 5060 Ti de 16 GB i un sistema NVIDIA GB10 per a Qwen 3 27B i inferència local amb context llarg.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Privadesa de la IA local: què queda al vostre ordinador i què no</title><link>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Privadesa"
+, "IA autogestionada"
+, "Ciberseguretat"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Seguiu els prompts, fitxers de model, eines, registres, exposició de xarxa i costos d'energia abans d'escollir inferència local o un servei d'IA allotjat.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Són suficients 16GB de VRAM per treballar seriosament amb LLM locals?</title><link>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari informàtic"
+, "IA autohostada"</category><guid>https://ca.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensiona una configuració d'LLM local de 16GB segons els pesos del model, la memòria cau KV i el processament de prompts. Compara els pressupostos de memòria, l'amplada de banda de GPU i el cost de propietat de Qwen3.8 27B.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>Els Context Language Models de Meta: millor memòria per als agents, no la fi de les al·lucinacions</title><link>https://ca.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intel·ligència artificial"
+, "Agents d'IA"
+, "IA local"
+, "Seguretat de la IA"</category><guid>https://ca.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Com els Context Language Models editen la memòria dels agents, què demostren els benchmarks i com afecten la fiabilitat els costos de la memòria cau, la capacitat del model i les notes no fiables.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp"/></item><item><title>IA local contra ChatGPT: fins a quin punt ens hi acostem?</title><link>https://ca.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Intel·ligència artificial"
+, "Maquinari d'IA"
+, "Eines per a desenvolupadors"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compara la IA local amb ChatGPT i Claude amb puntuacions de referència, estimacions de memòria, velocitat de servei i verificació d'agents. Inclou escenaris amb RTX 5090, DGX Spark i Mac Studio.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Programació d'IA local en una GPU de 16GB: Strata, OpenCode i Qwen3.8</title><link>https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Eines per a desenvolupadors"
+, "IA autoallotjada"
+, "Maquinari d'IA"</category><guid>https://ca.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Executa un agent de programació local amb Strata i OpenCode. Examina els resultats publicats de l'RTX 4060 Ti, els requisits de RAM, la reutilització de prompts, els pressupostos de raonament i els límits de substituir una subscripció de pagament.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Quin model d'IA local hauries d'executar? Guia de GPU, context i programació per a l'octubre de 2026</title><link>https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "IA autogestionada"
+, "Benchmarking de GPU"
+, "Eines per a desenvolupadors"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia pràctica d'octubre de 2026 per triar models d'IA locals per a agents de programació. Compara la memòria de GPU, el creixement de la KV-cache, la mida del context, la qualitat de la quantització, el processament de prompts, la configuració del raonament i el cost del lloguer al núvol.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>32 GB de VRAM per a Qwen 27B: guia de maquinari d'IA local per a l'octubre de 2026</title><link>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "Benchmarking de GPU"
+, "IA autoallotjada"
+, "Maquinari informàtic"
+, "Economia de la IA"</category><guid>https://ca.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guia pràctica d'octubre de 2026 per executar un model Qwen 27B amb 32 GB de memòria utilitzable de l'accelerador. Compara GPU individuals, equips amb dues targetes, memòria unificada, targetes usades de centres de dades, còmput llogat, suport de programari i límits de context complet.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>El DGX Spark de 64 GB és un senyal d'alerta per als preus del maquinari d'IA local</title><link>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA local"
+, "Maquinari d'IA"
+, "Semiconductors"
+, "Maquinari informàtic"
+, "Economia de la IA"
+, "IA autoallotjada"</category><guid>https://ca.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+La versió de 64 GB del DGX Spark de NVIDIA mostra com la pressió sobre el subministrament de memòria afecta el maquinari d'IA local. Aquesta guia explica la reducció de capacitat, els compromisos de la memòria unificada i per què l'alleujament de la DRAM és poc probable abans de finals de 2027.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
