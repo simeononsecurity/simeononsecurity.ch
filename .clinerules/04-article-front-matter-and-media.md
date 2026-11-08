@@ -127,3 +127,7 @@ These shortcodes exist in `layouts/shortcodes/` and may be used when relevant:
 - `{{< readfile >}}`, `{{< param >}}`, `{{< jobsdate >}}`, and the `amp-*` family for AMP pages.
 
 Stick to the established shortcodes above instead of writing raw HTML in content.
+
+## Anonymized Infrastructure Articles
+
+When the user asks to anonymize a deployment, check the complete page bundle before delivery. Audit the title, description, tags, captions, alt text, link labels and URLs, figure text baked into raster images, and downloadable assets. Replace incidental host roles and vendor names with accurate generic terms. Re-render edited artwork, inspect every image, and search the final source and rendered page for the removed terms. Keep measured results and uncertainty about unverified routes explicit.
