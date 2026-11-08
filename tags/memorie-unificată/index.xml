@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memorie Unificată on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Memorie Unificată on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/memorie-unificat%C4%83/</link></image><link>https://ro.simeononsecurity.com/tags/memorie-unificat%C4%83/</link><description>Recent content in Memorie Unificată on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/memorie-unificat%C4%83/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti vs GB10: De ce 32 GB de VRAM pierd în fața a 128 GB de memorie unificată</title><link>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Inteligență artificială"
+, "AI local"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware pentru computere"</category><guid>https://ro.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparație bazată pe benchmarkuri între două plăci RTX 5060 Ti de 16 GB și un sistem NVIDIA GB10 pentru Qwen 3 27B și inferență locală cu context lung.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Este suficientă memoria VRAM de 16 GB pentru lucrul serios cu un LLM local?</title><link>https://ro.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware pentru computere"
+, "AI găzduit propriu"</category><guid>https://ro.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dimensionează un sistem LLM local de 16 GB în funcție de greutățile modelului, memoria cache KV și procesarea promptului. Compară bugetele de memorie Qwen3.8 27B, lățimea de bandă GPU și costurile de deținere.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>AI locală vs ChatGPT: cât de aproape suntem?</title><link>https://ro.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI locală"
+, "Inteligență artificială"
+, "Hardware AI"
+, "Instrumente pentru dezvoltatori"</category><guid>https://ro.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compară AI locală cu ChatGPT și Claude prin scoruri de benchmark, estimări de memorie, viteză de servire și verificarea agenților. Include RTX 5090, DGX Spark și Mac Studio.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>32 GB VRAM pentru Qwen 27B: ghid de hardware pentru AI local în octombrie 2026</title><link>https://ro.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware AI"
+, "Benchmarking GPU"
+, "AI auto-găzduit"
+, "Hardware de computer"
+, "Economia AI"</category><guid>https://ro.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un ghid practic pentru octombrie 2026 despre rularea unui model Qwen 27B cu 32 GB de memorie utilă a acceleratorului. Compară GPU-uri individuale, sisteme cu două plăci, memorie unificată, plăci de centru de date second-hand, calcul închiriat, suport software și limitele contextului complet.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>DGX Spark de 64GB este un semnal de avertizare pentru prețurile hardware-ului AI local</title><link>https://ro.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"AI local"
+, "Hardware AI"
+, "Semiconductori"
+, "Hardware de calculator"
+, "Economia AI"
+, "AI auto-găzduit"</category><guid>https://ro.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Nivelul de 64GB al NVIDIA DGX Spark arată cum presiunea asupra memoriei modelează hardware-ul AI local. Acest ghid explică reducerea capacității, compromisurile memoriei unificate și motivele pentru care o relaxare a pieței DRAM este puțin probabilă înainte de sfârșitul lui 2027.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

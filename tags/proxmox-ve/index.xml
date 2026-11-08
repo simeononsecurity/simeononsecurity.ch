@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proxmox VE on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/img/banner.webp</url><title>Proxmox VE on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/proxmox-ve/</link></image><link>https://ro.simeononsecurity.com/tags/proxmox-ve/</link><description>Recent content in Proxmox VE on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/proxmox-ve/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware vs Hyper-V vs Proxmox: Virtualizare Comparată</title><link>https://ro.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tehnologie"
+, "Virtualizare"
+, "Infrastructură IT"
+, "Virtualizare Server"
+, "Software Enterprise"
+, "Cloud Computing"
+, "Soluții pentru Centre de Date"
+, "Virtualizare Open Source"
+, "Managementul Mașinilor Virtuale"
+, "Comparație Virtualizare"</category><guid>https://ro.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți comparația simplă între VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE și XCP-NG și alegeți soluția ideală de virtualizare pentru succesul afacerii dumneavoastră.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item></channel></rss>
