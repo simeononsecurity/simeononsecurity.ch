@@ -1,4 +1,0 @@
-interface:
-  display_name: "Validate Hugo Output"
-  short_description: "Check rendered pages, schema, feeds, and URLs"
-  default_prompt: "Use $sos-hugo-validation for the requested work in this repository."

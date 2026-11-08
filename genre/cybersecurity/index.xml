@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Cybersecurity on simeononsecurity</title><link>https://simeononsecurity.com/genre/cybersecurity/</link></image><link>https://simeononsecurity.com/genre/cybersecurity/</link><description>Recent content in Cybersecurity on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/cybersecurity/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA A+ (220-1202): Security</title><link>https://simeononsecurity.com/a-plus/security-threats-vulnerabilities-best-practices/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA A+ Course"
+, "Security"
+, "Malware"
+, "Wireless Security"
+, "Windows Security"
+, "IT Support"
+, "CompTIA Certification"
+, "Help Desk"
+, "Social Engineering"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/a-plus/security-threats-vulnerabilities-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security for the CompTIA A+ 220-1202 Core 2 exam. Learn physical and logical security, Windows security settings, wireless protocols, malware, social engineering, and hardening.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-a-plus-security-physical-logical-wireless-malware.webp" length="205840" type="image/webp"/></item><item><title>Open WebUI v0.12.4: Upgrade and Access-Control Checklist 2026</title><link>https://simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Self-Hosted AI"
+, "Cybersecurity"
+, "System Administration"</category><guid>https://simeononsecurity.com/articles/open-webui-v0-12-4-upgrade-access-control-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Back up and upgrade Open WebUI to v0.12.4, then test chat sharing, export permissions, resource grants, accounts, and network access.</description></item><item><title>Thunderbird 153.6: Windows NTLM Credential Exposure and How to Update (2026)</title><link>https://simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Email Security"
+, "Windows Security"</category><guid>https://simeononsecurity.com/articles/thunderbird-153-6-windows-credential-exposure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Two high-impact Thunderbird flaws expose Windows NTLM authentication data when a crafted email is displayed. Learn the two paths, check your version, and limit outbound SMB while updating.</description></item><item><title>Lesson 8: Secure Your AI Broker: Virtual Keys, Budgets, and Allowed Models</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/08-broker-governance/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/08-broker-governance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Give each AI agent its own broker key with rate limits, token and cost budgets, and a fail-closed model allow-list, so one runaway caller stops at its own ceiling.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-ai-broker-governance-2026.webp" length="126912" type="image/webp"/></item><item><title>Lesson 9: Threat Model: Your Local AI Agent Stack Under Attack</title><link>https://simeononsecurity.com/hermes-local-ai-broker-course/09-threat-model/</link><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Local AI"
+, "Threat Modeling"
+, "AI Security"
+, "Self-Hosted AI"</category><guid>https://simeononsecurity.com/hermes-local-ai-broker-course/09-threat-model/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Map the real attack surface of a local AI agent stack: agents, a Tailscale private edge, an OpenAI-compatible broker, and GPU backends. See which controls hold in code and what stays unsolved.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-agent-stack-threat-model.webp" length="187370" type="image/webp"/></item><item><title>Detection and Incident Response Capstone Answer Key</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/10-capstone-answer-key/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Incident Response"
+, "Security Lab"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/10-capstone-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare a completed detection and incident response package with the reference evidence, rule, recovery plan, and executive update.</description><enclosure url="https://simeononsecurity.com/img/cover/detection-incident-response-capstone-answer-key.webp" length="168106" type="image/webp"/></item><item><title>Detection Engineering and Incident Response Quiz Answer Key</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/09-quiz-answer-key/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Incident Response"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/09-quiz-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Score the Detection Engineering and Incident Response quiz, review each reason, and complete the required corrections before the capstone.</description><enclosure url="https://simeononsecurity.com/img/cover/detection-incident-response-quiz-answer-key.webp" length="169632" type="image/webp"/></item><item><title>Secure AI Agents and MCP Capstone Answer Key</title><link>https://simeononsecurity.com/secure-ai-agents-mcp-course/08-capstone-answer-key/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Capstone"</category><guid>https://simeononsecurity.com/secure-ai-agents-mcp-course/08-capstone-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare a completed Secure AI Agents and MCP capstone with the reference deployment decision and required security conditions.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-agent-capstone-answer-key.webp" length="193392" type="image/webp"/></item><item><title>Secure AI Agents and MCP Quiz Answer Key</title><link>https://simeononsecurity.com/secure-ai-agents-mcp-course/07-quiz-answer-key/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Assessment"</category><guid>https://simeononsecurity.com/secure-ai-agents-mcp-course/07-quiz-answer-key/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Score the Secure AI Agents and MCP knowledge check, review each reason, and repair missed security artifacts before the capstone.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-agent-quiz-answer-key.webp" length="121010" type="image/webp"/></item><item><title>AI Agent Operations: Logging, Monitoring, and Recovery</title><link>https://simeononsecurity.com/secure-ai-agents-mcp-course/03-agent-operations/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Operations"</category><guid>https://simeononsecurity.com/secure-ai-agents-mcp-course/03-agent-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Log AI agent and MCP tool decisions, detect policy failures, stop unsafe runs, and recover with evidence.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-agent-operations-evidence.webp" length="88820" type="image/webp"/></item><item><title>AI Agent Trust Boundaries: Lesson 1</title><link>https://simeononsecurity.com/secure-ai-agents-mcp-course/01-agent-trust-boundaries/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secure-ai-agents-mcp-course/01-agent-trust-boundaries/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Map AI agent and MCP authority, data origins, side effects, and approval points before connecting tools.</description><enclosure url="https://simeononsecurity.com/img/cover/agent-trust-boundaries.webp" length="129944" type="image/webp"/></item><item><title>Capstone: Review a Secure Agent and MCP Design</title><link>https://simeononsecurity.com/secure-ai-agents-mcp-course/06-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Capstone"</category><guid>https://simeononsecurity.com/secure-ai-agents-mcp-course/06-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Produce and evaluate a review-ready security package for an AI agent with MCP tools.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-agent-mcp-capstone.webp" length="116652" type="image/webp"/></item><item><title>Dependency Review and SBOMs for a Secure Release</title><link>https://simeononsecurity.com/secure-cicd-course/01-dependencies-sbom/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Software Engineering"
+, "Cybersecurity"
+, "DevOps"</category><guid>https://simeononsecurity.com/secure-cicd-course/01-dependencies-sbom/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Review a dependency change, record its risk, and generate a CycloneDX SBOM before releasing software.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-cicd-dependencies-sbom.webp" length="102772" type="image/webp"/></item><item><title>Detection Engineering and Incident Response Capstone</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/08-capstone/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Incident Response"
+, "Security Lab"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/08-capstone/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Deliver a complete detection and incident package from the synthetic course data, then score the result with a defined rubric.</description><enclosure url="https://simeononsecurity.com/img/cover/detection-incident-response-capstone.webp" length="131470" type="image/webp"/></item><item><title>Detection Engineering and Incident Response Course</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course-start/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Incident Response"
+, "Security Operations"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Build and test detections with synthetic identity, endpoint, and DNS evidence. Investigate an incident and report your findings.</description><enclosure url="https://simeononsecurity.com/img/cover/detection-engineering-incident-response-course.webp" length="120742" type="image/webp"/></item><item><title>Detection Engineering and Incident Response Quiz</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/07-quiz/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Incident Response"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/07-quiz/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Test telemetry, ATT&amp;CK mapping, detection logic, triage, scoping, containment, recovery, and evidence handling.</description><enclosure url="https://simeononsecurity.com/img/cover/detection-incident-response-quiz.webp" length="129738" type="image/webp"/></item><item><title>Detection Engineering Lesson 1: Telemetry and Evidence</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/01-telemetry-evidence/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Incident Response"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/01-telemetry-evidence/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Inventory identity, endpoint, and DNS telemetry. Normalize timestamps, preserve source events, and document evidence limits before analysis.</description><enclosure url="https://simeononsecurity.com/img/cover/detection-engineering-telemetry-evidence.webp" length="136144" type="image/webp"/></item><item><title>Detection Engineering Lesson 2: ATT&amp;CK Detection Strategies</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/02-attack-detection-strategies/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Threat-Informed Defense"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/02-attack-detection-strategies/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Use current MITRE ATT&amp;CK Detection Strategies and Analytics to describe behavior, telemetry needs, and platform logic without treating a mapping as proof.</description><enclosure url="https://simeononsecurity.com/img/cover/attack-detection-strategies-course.webp" length="180974" type="image/webp"/></item><item><title>Detection Engineering: Hypotheses and Rules</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/03-detection-hypotheses-rules/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Detection Engineering"
+, "Security Operations"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/03-detection-hypotheses-rules/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Turn a behavior hypothesis into portable detection logic, positive and negative tests, tuning criteria, and an operational runbook.</description><enclosure url="https://simeononsecurity.com/img/cover/detection-hypotheses-rules.webp" length="90030" type="image/webp"/></item><item><title>GitHub Actions Permissions and OpenSSF Scorecard</title><link>https://simeononsecurity.com/secure-cicd-course/02-pipeline-scorecard/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Software Engineering"
+, "Cybersecurity"
+, "DevOps"</category><guid>https://simeononsecurity.com/secure-cicd-course/02-pipeline-scorecard/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Reduce GitHub Actions token scope, separate untrusted jobs, and turn OpenSSF Scorecard findings into release controls.</description><enclosure url="https://simeononsecurity.com/img/cover/secure-cicd-pipeline-scorecard.webp" length="156338" type="image/webp"/></item><item><title>Incident Response Lesson 4: Triage and Scoping</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/04-triage-scoping/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Incident Response"
+, "Security Operations"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/04-triage-scoping/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Triage an alert, separate severity from confidence, search related identity and endpoint activity, and write a bounded incident scope statement.</description><enclosure url="https://simeononsecurity.com/img/cover/incident-triage-scoping.webp" length="124988" type="image/webp"/></item><item><title>Incident Response Lesson 5: Full Investigation Lab</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/05-investigation-lab/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Incident Response"
+, "Security Lab"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/05-investigation-lab/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Investigate a synthetic identity and endpoint compromise from raw JSONL and CSV evidence. Build a timeline, scope statement, findings, and search plan.</description><enclosure url="https://simeononsecurity.com/img/cover/full-incident-investigation-lab.webp" length="124516" type="image/webp"/></item><item><title>Incident Response Lesson 6: Containment and Recovery</title><link>https://simeononsecurity.com/detection-engineering-incident-response-course/06-containment-recovery/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Incident Response"
+, "Security Operations"</category><guid>https://simeononsecurity.com/detection-engineering-incident-response-course/06-containment-recovery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plan evidence-aware containment, credential and token response, endpoint recovery, service restoration, communication, and detection improvements.</description><enclosure url="https://simeononsecurity.com/img/cover/incident-containment-recovery.webp" length="129386" type="image/webp"/></item><item><title>Lab: Block an Agent Prompt Injection</title><link>https://simeononsecurity.com/secure-ai-agents-mcp-course/04-attack-defense-lab/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Hands-On Lab"</category><guid>https://simeononsecurity.com/secure-ai-agents-mcp-course/04-attack-defense-lab/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Run a controlled indirect prompt injection, observe an unsafe policy, add enforcement, and verify the blocked action.</description><enclosure url="https://simeononsecurity.com/img/cover/agent-prompt-injection-defense-lab.webp" length="118432" type="image/webp"/></item><item><title>Lab: Test a Secure Local AI Entry Point</title><link>https://simeononsecurity.com/local-ai-secure-server-course/05-secure-exposure-lab/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Cybersecurity"
+, "Hands-On Lab"</category><guid>https://simeononsecurity.com/local-ai-secure-server-course/05-secure-exposure-lab/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Run a synthetic loopback model service and gateway, then test authentication, request limits, and listener scope.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-secure-exposure-lab.webp" length="119704" type="image/webp"/></item></channel></rss>
