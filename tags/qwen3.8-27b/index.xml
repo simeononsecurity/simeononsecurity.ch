@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.8 27B on simeononsecurity</title><image><url>https://bn.simeononsecurity.com/img/banner.webp</url><title>Qwen3.8 27B on simeononsecurity</title><link>https://bn.simeononsecurity.com/tags/qwen3.8-27b/</link></image><link>https://bn.simeononsecurity.com/tags/qwen3.8-27b/</link><description>Recent content in Qwen3.8 27B on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>bn</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bn.simeononsecurity.com/tags/qwen3.8-27b/index.xml" rel="self" type="application/rss+xml"/><item><title>গুরুতর স্থানীয় LLM কাজের জন্য 16GB VRAM কি যথেষ্ট?</title><link>https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "কম্পিউটার হার্ডওয়্যার"
+, "স্ব-হোস্টেড AI"</category><guid>https://bn.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+মডেল ওজন, KV cache এবং prompt processing অনুযায়ী 16GB স্থানীয় LLM সেটআপের আকার নির্ধারণ করুন। Qwen3.8 27B memory budget, GPU bandwidth এবং ownership cost তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp"/></item><item><title>স্থানীয় AI বনাম ChatGPT: আমরা আসলে কতটা কাছাকাছি?</title><link>https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"স্থানীয় AI"
+, "কৃত্রিম বুদ্ধিমত্তা"
+, "AI হার্ডওয়্যার"
+, "ডেভেলপার টুল"</category><guid>https://bn.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+বেঞ্চমার্ক স্কোর, মেমরি অনুমান, সার্ভিং গতি এবং এজেন্ট যাচাইয়ের মাধ্যমে স্থানীয় AI-এর সঙ্গে ChatGPT ও Claude-এর তুলনা করুন। RTX 5090, DGX Spark এবং Mac Studio-এর পরিস্থিতিও অন্তর্ভুক্ত।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Qwen 27B-এর জন্য 32GB VRAM: অক্টোবর 2026-এর লোকাল AI হার্ডওয়্যার গাইড</title><link>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"লোকাল AI"
+, "AI হার্ডওয়্যার"
+, "GPU বেঞ্চমার্কিং"
+, "সেল্ফ-হোস্টেড AI"
+, "কম্পিউটার হার্ডওয়্যার"
+, "AI অর্থনীতি"</category><guid>https://bn.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+অক্টোবর 2026-এর ব্যবহারিক গাইড। 32GB ব্যবহারযোগ্য অ্যাক্সিলারেটর মেমরিতে Qwen 27B মডেল চালানো, একক GPU, দুই-কার্ড বিল্ড, unified memory, ব্যবহৃত ডেটা-সেন্টার কার্ড, ভাড়া করা কম্পিউট, সফটওয়্যার সমর্থন এবং পূর্ণ-কনটেক্সট সীমা তুলনা করুন।</description><enclosure url="https://bn.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
