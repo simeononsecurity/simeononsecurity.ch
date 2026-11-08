@@ -1,0 +1,158 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Szybkość Inferencji on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Szybkość Inferencji on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/szybko%C5%9B%C4%87-inferencji/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/szybko%C5%9B%C4%87-inferencji/</link>
+
+    <description>Recent content in Szybkość Inferencji on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/szybko%C5%9B%C4%87-inferencji/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy 16 GB VRAM wystarczy do poważnej pracy z lokalnym LLM?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalna AI"
+            
+              , "Sprzęt komputerowy"
+            
+              , "Samodzielnie hostowana AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dobierz lokalny zestaw LLM z 16 GB, uwzględniając wagi modelu, pamięć podręczną KV i przetwarzanie promptu. Porównaj budżety pamięci Qwen3.8 27B, przepustowość GPU i koszty posiadania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Który lokalny model AI uruchomić? Przewodnik po GPU, kontekście i kodowaniu na październik 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lokalne AI"
+            
+              , "Sprzęt AI"
+            
+              , "AI self-hosted"
+            
+              , "Benchmarking GPU"
+            
+              , "Narzędzia deweloperskie"
+            
+              , "Ekonomia AI"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Praktyczny przewodnik z października 2026 po wyborze lokalnych modeli AI dla agentów kodujących. Porównaj pamięć GPU, wzrost KV cache, rozmiar kontekstu, jakość kwantyzacji, przetwarzanie promptów, ustawienia rozumowania i koszty wynajmu chmury.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

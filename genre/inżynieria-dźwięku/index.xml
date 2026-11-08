@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inżynieria Dźwięku on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Inżynieria Dźwięku on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/in%C5%BCynieria-d%C5%BAwi%C4%99ku/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/in%C5%BCynieria-d%C5%BAwi%C4%99ku/</link>
+
+    <description>Recent content in Inżynieria Dźwięku on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/in%C5%BCynieria-d%C5%BAwi%C4%99ku/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jakość dźwięku: przewodnik po częstotliwości próbkowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/audio-fidelity-and-mp3s_-understanding-sampling-rates/</link>
+        
+        <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia audio"
+            
+              , "Inżynieria dźwięku"
+            
+              , "Produkcja muzyczna"
+            
+              , "Audio cyfrowe"
+            
+              , "Edukacja techniczna"
+            
+              , "Formaty audio"
+            
+              , "Jakość dźwięku"
+            
+              , "Audio Hi-Fi"
+            
+              , "Słuchanie muzyki"
+            
+              , "Postęp technologiczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/audio-fidelity-and-mp3s_-understanding-sampling-rates/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj częstotliwość próbkowania i wybierz odpowiednią wierność dźwięku dla muzyki, pamięci i swoich potrzeb.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/audio-fidelity-and-mp3s_-understanding-sampling-rates.webp" length="286066" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

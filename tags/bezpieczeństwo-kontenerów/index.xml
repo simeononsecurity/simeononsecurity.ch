@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Kontenerów on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Bezpieczeństwo Kontenerów on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-kontener%C3%B3w/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-kontener%C3%B3w/</link>
+
+    <description>Recent content in Bezpieczeństwo Kontenerów on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-kontener%C3%B3w/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ansible, Docker i Kubernetes dla cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ansible"
+            
+              , "Docker"
+            
+              , "Kubernetes"
+            
+              , "Automatyzacja cyberbezpieczeństwa"
+            
+              , "Oceny podatności"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Orkiestracja kontenerów"
+            
+              , "Segmentacja sieci"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "Zarządzanie sekretami"
+            
+              , "Skanowanie bezpieczeństwa"
+            
+              , "Podpisywanie obrazów"
+            
+              , "Narzędzia automatyzacji"
+            
+              , "Infrastruktura IT"
+            
+              , "Zapobieganie naruszeniom danych"
+            
+              , "Zwiększanie wydajności"
+            
+              , "Automatyzacja bezpieczeństwa"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Konteneryzacja"
+            
+              , "Bezpieczeństwo kontenerów"
+            
+              , "Skalowalne systemy"
+            
+              , "Bezpieczne środowiska"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zarządzanie bezpieczeństwem"
+            
+              , "Operacje IT"
+            
+              , "Wydajne przepływy pracy"
+            
+              , "Automatyzacja systemów bezpieczeństwa"
+            
+              , "Wydajność IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Ansible, Docker i Kubernetes w automatyzacji procesów cyberbezpieczeństwa i zmniejszaniu ryzyka naruszenia danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ansible-docker-kubernetes-for-cybersecurity.webp" length="194350" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

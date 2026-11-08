@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aplikacja Codex on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Aplikacja Codex on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/aplikacja-codex/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/aplikacja-codex/</link>
+
+    <description>Recent content in Aplikacja Codex on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/aplikacja-codex/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Codex CLI a aplikacja desktopowa: porównanie przepływów pracy w 2026 roku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/codex-cli-vs-desktop/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia dla programistów"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Tworzenie oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wybierz między Codex w terminalu a desktopowym środowiskiem programistycznym OpenAI. Porównaj skrypty, worktree, przegląd wizualny, harmonogramy i środowiska wykonywania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
