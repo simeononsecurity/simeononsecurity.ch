@@ -41,6 +41,7 @@ Siga estas etapas para reforçar seu sistema Windows e remover componentes desne
 5. **Use software antivírus e antimalware**: instale e atualize regularmente **software antivírus e antimalware** para se proteger contra ataques cibernéticos.
 
 ## Uma ordem mais segura para remover componentes
+
 Remover componentes altera aplicativos instalados, tarefas agendadas, serviços, políticas e configurações de coleta de dados. Trate cada mudança como uma alteração de configuração, não como uma corrida de limpeza.
 
 1. Registre a edição e a compilação do Windows, os aplicativos instalados, os itens de inicialização, os serviços, as tarefas agendadas e as configurações de privacidade atuais.
@@ -55,6 +56,7 @@ Remover componentes altera aplicativos instalados, tarefas agendadas, serviços,
 A Microsoft documenta o modo de auditoria dos recursos de redução da superfície de ataque, incluindo o acesso controlado a pastas. O modo de auditoria registra bloqueios esperados sem aplicá-los. Consulte a [visão geral da Microsoft sobre redução da superfície de ataque](https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-overview?view=o365-worldwide).
 
 ## Revisão e reversão de serviços
+
 Os exemplos originais precisam de uma ressalva. **A Chamada de Procedimento Remoto (RPC) dá suporte a muitos componentes do Windows e não deve ser desativada como medida genérica de privacidade**. A decisão sobre o spooler de impressão depende da função do computador. Um servidor de impressão precisa dele. Mesmo um computador sem necessidade de impressão exige testes de dependências e aplicativos antes de uma alteração. O Registro Remoto também dá suporte a algumas ferramentas de gerenciamento.
 
 Registre o estado atual antes de alterar um serviço:
@@ -79,6 +81,7 @@ Get-Service -Name $name
 Não execute um script de remoção de componentes sem revisão em um sistema de produção. Guarde a versão do script, as configurações exportadas, os valores originais dos serviços e o registro da chave de recuperação junto ao chamado da alteração.
 
 ## Limites de privacidade
+
 Remover um aplicativo não prova que o Windows ou outro aplicativo instalado deixou de enviar telemetria. Configurações de privacidade, configuração da conta, política de diagnóstico, permissões de aplicativos, controles de rede e termos do fornecedor afetam os fluxos de dados. Verifique qualquer mudança de privacidade alegada com a documentação do produto e evidências da rede local ou dos eventos.
 
 O suporte padrão do Windows 10 também terminou em 14 de outubro de 2025. Uma instalação do Windows 10 sem componentes desnecessários ainda precisa de um caminho de atualização com suporte ou de uma exceção aprovada do ciclo de vida. Consulte o [aviso da Microsoft sobre o fim do suporte ao Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).

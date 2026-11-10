@@ -41,6 +41,7 @@ Pots seguir aquests passos per reforçar el sistema Windows i eliminar-ne el pro
 5. **Fes servir programari antivirus i antimalware**: instal·la i actualitza regularment **programari antivirus i antimalware** per protegir-te dels atacs cibernètics.
 
 ## Un ordre més segur per eliminar components
+
 Eliminar components canvia les aplicacions instal·lades, les tasques programades, els serveis, les polítiques i la configuració de recollida de dades. Tracta cada canvi com una modificació de configuració, no com una cursa de neteja.
 
 1. Anota l'edició i la compilació de Windows, les aplicacions instal·lades, les entrades d'inici, els serveis, les tasques programades i la configuració de privadesa actual.
@@ -55,6 +56,7 @@ Eliminar components canvia les aplicacions instal·lades, les tasques programade
 Microsoft documenta el mode d'auditoria de les funcions de reducció de superfície d'atac, inclòs l'accés controlat a les carpetes. El mode d'auditoria registra els bloquejos previstos sense aplicar-los. Consulta la [descripció general de Microsoft sobre la reducció de la superfície d'atac](https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-overview?view=o365-worldwide).
 
 ## Revisió i reversió dels serveis
+
 Cal matisar els exemples originals. **La crida a procediment remot (RPC) és compatible amb molts components de Windows i no s'ha de desactivar com a mesura genèrica de privadesa**. La decisió sobre la cua d'impressió depèn de la funció de l'equip. Un servidor d'impressió la necessita. En un ordinador sense necessitat d'imprimir, també cal provar les dependències i les aplicacions abans de fer un canvi. El registre remot també és compatible amb algunes eines d'administració.
 
 Registra l'estat actual abans de canviar un servei:
@@ -76,9 +78,10 @@ Start-Service -Name $name
 Get-Service -Name $name
 ```
 
-No executis un script de desbrossada no revisat en un sistema de producció. Guarda la versió de l'script, la configuració exportada, els valors originals dels serveis i el registre de la clau de recuperació amb la sol·licitud de canvi.
+No executis en un sistema de producció cap script no revisat per eliminar components innecessaris. Guarda la versió de l'script, la configuració exportada, els valors originals dels serveis i el registre de la clau de recuperació amb la sol·licitud de canvi.
 
 ## Límits de la privadesa
+
 Eliminar una aplicació no demostra que Windows o una altra aplicació instal·lada hagi deixat d'enviar telemetria. La configuració de privadesa, el compte, la política de diagnòstic, els permisos de les aplicacions, els controls de xarxa i les condicions del proveïdor afecten els fluxos de dades. Verifica qualsevol canvi de privadesa amb la documentació del producte i proves de la xarxa local o dels esdeveniments.
 
 El suport estàndard de Windows 10 també va acabar el 14 d'octubre de 2025. Una instal·lació de Windows 10 sense programari innecessari encara necessita una via d'actualització compatible o una excepció aprovada del cicle de vida. Consulta l'[avís de Microsoft sobre la fi del suport de Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).

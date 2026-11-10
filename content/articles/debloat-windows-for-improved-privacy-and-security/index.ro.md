@@ -41,6 +41,7 @@ Urmează acești pași pentru a întări sistemul Windows și a elimina componen
 5. **Folosește programe antivirus și antimalware**: instalează și actualizează regulat **software antivirus și antimalware** pentru a te proteja împotriva atacurilor cibernetice.
 
 ## O ordine mai sigură pentru eliminarea componentelor
+
 Eliminarea componentelor modifică aplicațiile instalate, activitățile programate, serviciile, politicile și setările de colectare a datelor. Tratează fiecare schimbare ca pe o modificare de configurare, nu ca pe o cursă de curățare.
 
 1. Notează ediția și versiunea Windows, aplicațiile instalate, elementele de pornire, serviciile, activitățile programate și setările actuale de confidențialitate.
@@ -55,6 +56,7 @@ Eliminarea componentelor modifică aplicațiile instalate, activitățile progra
 Microsoft documentează modul de audit pentru funcțiile de reducere a suprafeței de atac, inclusiv Controlled Folder Access. Modul de audit înregistrează blocările anticipate fără să le impună. Consultă [prezentarea generală Microsoft privind reducerea suprafeței de atac](https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-overview?view=o365-worldwide).
 
 ## Revizuirea serviciilor și revenirea la configurația anterioară
+
 Exemplele originale au nevoie de o precizare. **Remote Procedure Call (RPC) acceptă numeroase componente Windows și nu trebuie dezactivat ca măsură generală de confidențialitate**. Decizia privind Print Spooler depinde de rolul calculatorului. Un server de imprimare are nevoie de el. Chiar și un computer fără cerințe de imprimare are nevoie de teste pentru dependențe și aplicații înainte de o schimbare. Remote Registry este folosit și de unele instrumente de administrare.
 
 Înregistrează starea curentă înainte de a modifica un serviciu:
@@ -79,6 +81,7 @@ Get-Service -Name $name
 Nu rula un script de eliminare a componentelor care nu a fost revizuit pe un sistem de producție. Păstrează versiunea scriptului, setările exportate, valorile inițiale ale serviciilor și înregistrarea cheii de recuperare împreună cu tichetul de modificare.
 
 ## Limitele confidențialității
+
 Eliminarea unei aplicații nu dovedește că Windows sau o altă aplicație instalată a încetat să trimită telemetrie. Setările de confidențialitate, configurația contului, politica de diagnosticare, permisiunile aplicațiilor, controalele de rețea și condițiile producătorului afectează fluxurile de date. Verifică orice schimbare de confidențialitate pretinsă folosind documentația produsului și dovezi din rețeaua locală sau din evenimente.
 
 Suportul standard pentru Windows 10 s-a încheiat și la 14 octombrie 2025. O instalare Windows 10 fără componente inutile are în continuare nevoie de o cale de actualizare acceptată sau de o excepție aprobată pentru ciclul de viață. Consultă [notificarea Microsoft privind încheierea suportului pentru Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
