@@ -162,13 +162,13 @@ def security_scan(target_ip):
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
-    
+
     results = {
         'host': target_ip,
         'open_ports': [],
         'vulnerabilities': []
     }
-    
+
     for host in nm.all_hosts():
         for proto in nm[host].all_protocols():
             ports = nm[host][proto].keys()
@@ -179,7 +179,7 @@ def security_scan(target_ip):
                     'service': service['name'],
                     'version': service['version']
                 })
-    
+
     return json.dumps(results, indent=2)
 ```
 
@@ -295,10 +295,10 @@ Same umiejętności techniczne nie wystarczą. **Krytyczne myślenie** odróżni
 
 **Rozwijanie umiejętności komunikacyjnych**:
 ```
-Poziom początkujący: Pisz zrozumiałe raporty o incydentach
-Poziom średni: Przedstawiaj kierownictwu aktualizacje dotyczące bezpieczeństwa
-Poziom zaawansowany: Prowadź z kierownictwem rozmowy o strategii bezpieczeństwa
-Kadra kierownicza: Przedstawiaj radzie nadzorczej stan bezpieczeństwa
+Entry Level: Write clear incident reports
+Mid-Level: Present security updates to management
+Senior:Lead security strategy discussions with executives
+Executive: Communicate security posture to board of directors
 ```
 
 ### Nowe umiejętności w 2026 roku i później
@@ -440,15 +440,15 @@ Znajomość różnych specjalizacji pomaga wybrać właściwą drogę.
 
 **Rozwój kariery**:
 ```
-Młodszy analityk SOC (0-2 lata) → $55,000-75,000
+Junior SOC Analyst (0-2 years) → $55,000-75,000
     ↓
-Analityk SOC II (2-4 lata) → $75,000-95,000
+SOC Analyst II (2-4 years) → $75,000-95,000
     ↓
-Starszy analityk SOC (4-7 lat) → $95,000-120,000
+Senior SOC Analyst (4-7 years) → $95,000-120,000
     ↓
-Lider zespołu SOC (7-10 lat) → $120,000-145,000
+SOC Team Lead (7-10 years) → $120,000-145,000
     ↓
-Menedżer SOC (10+ lat) → $145,000-180,000
+SOC Manager (10+ years) → $145,000-180,000
 ```
 
 **Wymagane umiejętności**:
@@ -478,15 +478,15 @@ Menedżer SOC (10+ lat) → $145,000-180,000
 
 **Rozwój kariery**:
 ```
-Młodszy tester penetracyjny (0-2 lata) → $70,000-90,000
+Junior Penetration Tester (0-2 years) → $70,000-90,000
     ↓
-Tester penetracyjny (2-5 lat) → $95,000-130,000
+Penetration Tester (2-5 years) → $95,000-130,000
     ↓
-Starszy tester penetracyjny (5-8 lat) → $130,000-165,000
+Senior Penetration Tester (5-8 years) → $130,000-165,000
     ↓
-Główny pentester / lider red teamu (8-12 lat) → $165,000-200,000
+Lead Pentester / Red Team Lead (8-12 years) → $165,000-200,000
     ↓
-Główny konsultant ds. bezpieczeństwa (12+ lat) → $200,000-275,000+
+Principal Security Consultant (12+ years) → $200,000-275,000+
 ```
 
 **Wymagane umiejętności**:
@@ -517,15 +517,15 @@ Główny konsultant ds. bezpieczeństwa (12+ lat) → $200,000-275,000+
 
 **Rozwój kariery**:
 ```
-Młodszy inżynier bezpieczeństwa (0-2 lata) → $75,000-95,000
+Junior Security Engineer (0-2 years) → $75,000-95,000
     ↓
-Inżynier bezpieczeństwa (2-5 lat) → $105,000-135,000
+Security Engineer (2-5 years) → $105,000-135,000
     ↓
-Starszy inżynier bezpieczeństwa (5-8 lat) → $135,000-170,000
+Senior Security Engineer (5-8 years) → $135,000-170,000
     ↓
-Architekt bezpieczeństwa (8-12 lat) → $170,000-220,000
+Security Architect (8-12 years) → $170,000-220,000
     ↓
-Główny/lider architektury bezpieczeństwa (12+ lat) → $220,000-300,000+
+Principal/Lead Security Architect (12+ years) → $220,000-300,000+
 ```
 
 **Wymagane umiejętności**:
@@ -556,15 +556,15 @@ Główny/lider architektury bezpieczeństwa (12+ lat) → $220,000-300,000+
 
 **Rozwój kariery**:
 ```
-Młodszy inżynier bezpieczeństwa chmury (0-2 lata) → $80,000-100,000
+Junior Cloud Security Engineer (0-2 years) → $80,000-100,000
     ↓
-Inżynier bezpieczeństwa chmury (2-5 lat) → $115,000-145,000
+Cloud Security Engineer (2-5 years) → $115,000-145,000
     ↓
-Starszy inżynier bezpieczeństwa chmury (5-8 lat) → $145,000-185,000
+Senior Cloud Security Engineer (5-8 years) → $145,000-185,000
     ↓
-Architekt bezpieczeństwa chmury (8-12 lat) → $185,000-235,000
+Cloud Security Architect (8-12 years) → $185,000-235,000
     ↓
-Główny architekt bezpieczeństwa chmury (12+ lat) → $235,000-320,000+
+Principal Cloud Security Architect (12+ years) → $235,000-320,000+
 ```
 
 **Wymagane umiejętności**:
@@ -595,15 +595,15 @@ Główny architekt bezpieczeństwa chmury (12+ lat) → $235,000-320,000+
 
 **Rozwój kariery**:
 ```
-Młodszy analityk GRC (0-2 lata) → $60,000-78,000
+Junior GRC Analyst (0-2 years) → $60,000-78,000
     ↓
-Analityk GRC (2-4 lata) → $78,000-98,000
+GRC Analyst (2-4 years) → $78,000-98,000
     ↓
-Starszy analityk GRC (4-7 lat) → $98,000-125,000
+Senior GRC Analyst (4-7 years) → $98,000-125,000
     ↓
-Menedżer GRC (7-10 lat) → $125,000-155,000
+GRC Manager (7-10 years) → $125,000-155,000
     ↓
-Dyrektor ds. zgodności / chief compliance officer (10+ lat) → $155,000-225,000+
+Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,000+
 ```
 
 **Wymagane umiejętności**:
@@ -634,15 +634,15 @@ Dyrektor ds. zgodności / chief compliance officer (10+ lat) → $155,000-225,00
 
 **Rozwój kariery**:
 ```
-Młodszy analityk reagowania na incydenty (0-2 lata) → $65,000-85,000
+Junior Incident Response Analyst (0-2 years) → $65,000-85,000
     ↓
-Analityk reagowania na incydenty (2-5 lat) → $90,000-115,000
+Incident Response Analyst (2-5 years) → $90,000-115,000
     ↓
-Starszy specjalista reagowania na incydenty (5-8 lat) → $115,000-150,000
+Senior Incident Responder (5-8 years) → $115,000-150,000
     ↓
-Lider zespołu reagowania na incydenty (8-12 lat) → $150,000-190,000
+Incident Response Team Lead (8-12 years) → $150,000-190,000
     ↓
-Dyrektor ds. reagowania na incydenty (12+ lat) → $190,000-250,000+
+Director of Incident Response (12+ years) → $190,000-250,000+
 ```
 
 **Wymagane umiejętności**:
@@ -847,39 +847,39 @@ ______
 **Struktura CV**:
 
 ```
-[Imię i nazwisko]
-[LinkedIn URL] | [GitHub URL] | [E-mail] | [Telefon] | [Lokalizacja]
+[Your Name]
+[LinkedIn URL] | [GitHub URL] | [Email] | [Phone] | [Location]
 
-PODSUMOWANIE
-Specjalista cyberbezpieczeństwa nastawiony na wyniki, z praktycznym doświadczeniem w [konkretne umiejętności].
-Certyfikaty: [certyfikaty]. Zainteresowania: [konkretny obszar bezpieczeństwa].
+SUMMARY
+Results-driven cybersecurity professional with hands-on experience in [specific skills].
+Certified in [certifications]. Passionate about [specific security area].
 
-UMIEJĘTNOŚCI TECHNICZNE
-- Bezpieczeństwo: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Chmura: AWS (Security Groups, IAM, GuardDuty), Azure (NSG, Sentinel)
-- Narzędzia: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
-- Programowanie: Python, PowerShell, Bash, SQL
-- Ramy: NIST CSF, MITRE ATT&CK, OWASP Top 10
+TECHNICAL SKILLS
+- Security: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
+- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
+- Programming: Python, PowerShell, Bash, SQL
+- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
 
-CERTYFIKATY
-- CompTIA Security+ (data)
-- AWS Certified Security Specialty (data)
-- [Inne odpowiednie certyfikaty]
+CERTIFICATIONS
+- CompTIA Security+ (Date)
+- AWS Certified Security Specialty (Date)
+- [Other relevant certs]
 
-DOŚWIADCZENIE ZAWODOWE
-[Nazwa firmy] - [Stanowisko w bezpieczeństwie] (daty)
-- KWANTYFIKUJ osiągnięcia (ograniczono liczbę fałszywych alarmów o 40%)
-- UŻYWAJ słów kluczowych z branży (SIEM, reagowanie na incydenty, polowanie na zagrożenia)
-- POKAŻ wpływ (wykryto i usunięto 15 krytycznych podatności)
+PROFESSIONAL EXPERIENCE
+[Company Name] - [Security Role] (Dates)
+- QUANTIFY achievements (Reduced false positives by 40%)
+- USE security keywords (SIEM, incident response, threat hunting)
+- SHOW impact (Identified and remediated 15 critical vulnerabilities)
 
-PROJEKTY (dla początkujących i osób zmieniających branżę)
-[Nazwa projektu] - [Stos technologiczny]
-- Zbudowano [konkretne narzędzie lub system bezpieczeństwa]
-- Zademonstrowano [konkretne umiejętności]
+PROJECTS (If entry-level or career changer)
+[Project Name] - [Technology Stack]
+- Built [specific security tool/system]
+- Demonstrates [specific skills]
 - GitHub: [link]
 
-EDUKACJA
-[Stopień] w dziedzinie [kierunek], [uczelnia] (data)
+EDUCATION
+[Degree] in [Field], [University] (Date)
 ```
 
 **Wskazówki dotyczące CV**:
@@ -963,16 +963,18 @@ EDUKACJA
 
 **Przykładowa wiadomość e-mail do negocjacji**:
 ```
-Dziękuję za ofertę. Cieszę się z możliwości dołączenia do [Firma] na stanowisku [Rola].
+Thank you for the offer. I'm excited about the opportunity to join [Company] as [Role].
 
-Po przeanalizowaniu oferty i sprawdzeniu stawek rynkowych dla tego stanowiska w [Lokalizacja] chciałbym omówić pakiet wynagrodzenia. Biorąc pod uwagę moje [certyfikaty/doświadczenie/umiejętności], liczyłem na wynagrodzenie podstawowe w przedziale $[X-Y].
+After reviewing the offer and researching market rates for this position in [Location],
+I'd like to discuss the compensation package. Based on my [certifications/experience/skills],
+I was hoping for a base salary in the range of $[X-Y].
 
-Chciałbym także omówić:
-- Roczny budżet na szkolenia i certyfikaty
-- Elastyczność pracy zdalnej
-- [Inne priorytety]
+Additionally, I'd appreciate if we could discuss:
+- Annual training/certification budget
+- Remote work flexibility
+- [Other priorities]
 
-Jestem przekonany, że wniosę do zespołu dużą wartość, i chętnie omówię dalsze szczegóły.
+I'm confident I can deliver significant value to the team and look forward to discussing this further.
 ```
 
 ______
