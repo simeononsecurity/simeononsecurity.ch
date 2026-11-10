@@ -1,171 +1,171 @@
 ---
-title: "Why Port Forwarding Doesn't Work on T-Mobile Home Internet"
+title: "为什么端口转发在 T-Mobile Home Internet 上不起作用"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port."
+description: "了解 T-Mobile 5G Home Internet 的端口转发限制、运营商 NAT，以及无需公共入站端口访问家用服务器的实用方法。"
 genre: ["Networking", "Self-Hosted", "Network Security"]
-tags: ["T-Mobile Home Internet", "T-Mobile port forwarding", "5G Home Internet", "CGNAT", "carrier-grade NAT", "NAT", "remote access", "home server", "homelab", "T-Mobile gateway", "bridge mode", "dynamic IP", "public IPv4", "double NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "private networking", "inbound connections", "cellular internet"]
+tags: ["T-Mobile Home Internet", "T-Mobile 端口转发", "5G Home Internet", "CGNAT", "运营商级 NAT", "NAT", "远程访问", "家用服务器", "家庭实验室", "T-Mobile 网关", "桥接模式", "动态 IP", "公共 IPv4", "双重 NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "专用网络", "入站连接", "蜂窝互联网"]
 cover: "/img/cover/t-mobile-home-internet-port-forwarding.webp"
-coverAlt: "A home cellular gateway faces a distant tower and a shared network gate beside a glowing cloud connection."
+coverAlt: "家用蜂窝网关连接到远处的基站和共享网络入口，旁边显示着明亮的云连接。"
 coverCaption: ""
 ---
 
-**T-Mobile's consumer 5G Home Internet gateways** do not offer configurable port forwarding. Adding a rule to a second router does not change the carrier gateway's settings or create a public inbound route. T-Mobile also documents no bridge-mode toggle or adjustable network address translation (NAT) type. [T-Mobile gateway settings](https://www.t-mobile.com/support/home-internet/connect).
+**T-Mobile 5G Home Internet 面向消费者的网关**不提供可配置的端口转发。在第二台路由器上添加规则不会改变运营商网关的设置，也不会创建公共入站路径。T-Mobile 也没有记录桥接模式开关或更改网络地址转换 (NAT) 类型的选项。[T-Mobile 网关设置](https://www.t-mobile.com/support/home-internet/connect)。
 
-This article covers **cellular Home Internet**. Treat fiber and business products as separate services with their own documented capabilities.
+本文介绍的是**蜂窝版 Home Internet**。光纤和商业产品属于单独的服务，各自有不同的功能文档。
 
 ## 要点
 
-- **Identify the limit:** distinguish a gateway feature from upstream address translation.
-- **Inspect the path:** record where each address and port belongs.
-- **Compare alternatives:** match client access and protocol requirements to a hosting method.
-- **Write a decision:** produce a connection plan with a test and fallback.
+- **识别限制：** 区分网关功能和上游网络中的地址转换。
+- **检查路径：** 记录每个地址和端口属于哪个设备。
+- **比较替代方案：** 根据客户端访问方式和协议要求选择托管方法。
+- **记录决定：** 制定包含测试和备用方案的连接计划。
 
 ## 开始之前
 
-**Audience:** T-Mobile cellular Home Internet users trying to reach a home service from outside. **Prerequisites:** access to the server, its local network settings, and the supplied gateway's status information. A second Internet connection is useful for the final remote test.
+**适用读者：** 使用 T-Mobile 蜂窝版 Home Internet，希望从外部访问家中服务的用户。**前提条件：** 能访问服务器、本地网络设置和随附网关的状态信息。另一个互联网连接有助于完成最后的远程测试。
 
-**Estimated effort:** 15–20 minutes to gather requirements and run local checks. Configuring a replacement access method takes additional time. **Difficulty:** beginner to intermediate. The objective is a justified connection choice, rather than another unused router rule.
+**预计时间：** 收集要求并进行本地检查需要 15 到 20 分钟。配置替代访问方式需要额外时间。**难度：** 入门到中级。目标是做出有依据的连接选择，而不是再添加一条不会使用的路由器规则。
 
-## Why a Local Port Rule Is Insufficient
+## 为什么本地端口规则不够
 
-**Port forwarding** maps incoming traffic at a router to an internal destination. For a home server to receive unsolicited Internet traffic, the route must work through every relevant upstream device. A successful local connection proves the server is reachable inside your network, not from outside it.
+**端口转发**会将到达路由器的入站流量转发到内部目标。家用服务器要接收来自互联网的非请求流量，路径必须能够通过沿途每个相关的上游设备。本地连接成功只能证明服务器在家庭网络内可访问，不能证明从外部也能访问。
 
-**Carrier-grade NAT (CGNAT)** adds address translation in the provider's network. Subscribers share public IPv4 capacity, while the provider controls the outer translation. RFC 6598 reserves **`100.64.0.0/10`** for shared address space used in this kind of deployment. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**运营商级 NAT (CGNAT)** 会在运营商网络中增加地址转换。用户共享公共 IPv4 容量，外层转换由运营商控制。RFC 6598 为这类部署中使用的共享地址空间保留了 **`100.64.0.0/10`**。[RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html)。
 
-**Gateway support and carrier NAT are separate issues.** T-Mobile's support page establishes the gateway restriction. CGNAT explains why configuring your own router is also insufficient when upstream translation sits outside your control. A missing port-forwarding menu alone does not reveal the full carrier network design.
+**网关支持和运营商 NAT 是两个不同的问题。** T-Mobile 的支持页面说明了网关限制。如果上游转换不受你控制，CGNAT 就解释了为什么配置自己的路由器也不够。仅仅没有端口转发菜单，并不能揭示运营商网络的完整设计。
 
-**The practical outcome is a choice of connection model.** Use an overlay network for private access, an outbound tunnel for an HTTP service, or a hosted endpoint when outside users need public access. Test the chosen method from a separate network. Do not use a successful LAN request as evidence of external reachability.
+**实际需要选择一种连接模型。** 私人访问可使用覆盖网络，HTTP 服务可使用出站隧道，外部用户需要公共访问时可使用托管端点。从另一个网络测试所选方法。LAN 请求成功不能证明互联网用户能够访问。
 
-| Change | What it changes | What remains unresolved |
+| 变更 | 改变的内容 | 仍未解决的问题 |
 |---|---|---|
-| **Rule on a second router** | Forwarding on your router | Carrier gateway and upstream route |
-| **Different DNS resolver** | Name resolution | Inbound connectivity |
-| **Dynamic DNS hostname** | A name following an address | A usable inbound path |
-| **Faster Wi-Fi** | Local wireless performance | Reachability from the Internet |
+| **第二台路由器上的规则** | 你自己的路由器执行转发 | 运营商网关和上游路径 |
+| **更换 DNS 解析器** | 名称解析 | 入站连接 |
+| **动态 DNS 主机名** | 让名称跟随地址变化 | 可用的入站路径 |
+| **更快的 Wi-Fi** | 本地无线性能 | 互联网可访问性 |
 
-**Dynamic addressing** means an address changes over time. It is distinct from sharing an address through NAT. T-Mobile documents dynamic addressing and no consumer Home Internet option to change it to static on this support page. [T-Mobile connection limitations](https://www.t-mobile.com/support/home-internet/connect).
+**动态寻址**意味着地址会随时间变化。这与通过 NAT 共享地址不同。T-Mobile 记录了动态寻址，但在此支持页面没有说明消费者可将 Home Internet 改为静态地址。[T-Mobile 连接限制](https://www.t-mobile.com/support/home-internet/connect)。
 
-## Trace the Address Ownership
+## 追踪地址由谁控制
 
-In a **provider-NAT example**, the path has several independent boundaries:
+在一个**运营商 NAT 示例**中，路径经过多个独立边界：
 
 ```text
-Remote client -> provider translation -> home gateway -> optional router -> server
-                   provider controls      home devices and local settings
+远程客户端 -> 运营商转换 -> 家用网关 -> 可选路由器 -> 服务器
+                 由运营商控制   家用设备和本地设置
 ```
 
-**An address visible to a website** describes the connection reaching the website. It does not establish an inbound mapping to your server. The CGN requirements document discusses mappings in terms of subscriber identity, external address, port, and time. [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
+**网站看到的地址**描述的是到达该网站的连接，不能证明存在指向你服务器的入站映射。CGN 要求文档使用用户身份、外部地址、端口和时间描述映射。[RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html)。
 
-**Record the interface:** distinguish your server's local address, a second router's WAN address, the cellular gateway's reported address, and an external service's observation. Here, **WAN** means the upstream side of a router. An address without its interface label is weak diagnostic evidence.
+**记录接口：** 区分服务器的本地地址、第二台路由器的 WAN 地址、蜂窝网关报告的地址，以及外部服务观察到的地址。这里的 **WAN** 指路由器的上游侧。没有接口标签的地址只能提供有限的诊断证据。
 
-Consider this **illustrative observation**, using documentation addresses for the public side:
+参考下面这个**示例观察**，公共一侧使用文档专用地址：
 
-| Observation point | Example reading | Interpretation |
+| 观察位置 | 示例值 | 解读 |
 |---|---|---|
-| **Server LAN** | `192.168.50.10` | Local destination |
-| **Second router WAN** | `192.168.12.20` | Another private network upstream |
-| **External IPv4 check** | `203.0.113.25` | Address seen outside |
+| **服务器 LAN** | `192.168.50.10` | 本地目标 |
+| **第二台路由器 WAN** | `192.168.12.20` | 上游还有一个专用网络 |
+| **外部 IPv4 检查** | `203.0.113.25` | 外部可见的地址 |
 
-**Supported conclusion:** the second router is behind another private network. **Unsupported conclusion:** its WAN reading proves the exact carrier translation arrangement. Inspect the cellular gateway separately if its status page exposes the relevant address.
+**有依据的结论：** 第二台路由器位于另一个专用网络之后。**没有依据的结论：** WAN 值证明了运营商的确切转换方式。如果蜂窝网关状态页显示相关地址，请单独检查。
 
-**Address-space clue:** a provider-facing address in `100.64.0.0/10` is shared address space. Record which interface reports it. A private-network tool also assigning addresses from this range would make an unlabeled screenshot ambiguous. The range itself is defined by [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**地址范围线索：** 运营商侧 `100.64.0.0/10` 中的地址属于共享地址空间。记录报告该地址的接口。如果专用网络工具也从此范围分配地址，那么没有标签的截图就有歧义。[RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html)定义了此范围。
 
-## Check the Local Service
+## 检查本地服务
 
-For an **HTTP dashboard**, run this request from another Linux or macOS device on your home network. Replace the example address and port with your server's values:
+如果是**HTTP 仪表板**，请从家庭网络中的另一台 Linux 或 macOS 设备运行以下请求。将示例地址和端口替换为服务器的值：
 
 ```bash
 curl --connect-timeout 5 --max-time 10 --output /dev/null --write-out '%{http_code}\n' http://192.168.50.10:8080/
 ```
 
-**`--connect-timeout`** bounds connection setup. **`--max-time`** bounds the whole request. **`--output`** discards the response body, and **`--write-out`** displays the HTTP status. These options are documented in the [curl manual](https://curl.se/docs/manpage.html).
+**`--connect-timeout`** 限制建立连接的时间。**`--max-time`** 限制整个请求的时间。**`--output`** 会丢弃响应正文，**`--write-out`** 会显示 HTTP 状态。这些选项记录在 [curl 手册](https://curl.se/docs/manpage.html)中。
 
-**Interpret the result:** an HTTP response, including an authentication response, shows an HTTP endpoint answered on this route. Confirm its identity in your browser. A timeout does not identify the failing layer. Inspect the listening address, port, and host firewall next.
+**解读结果：** HTTP 响应，包括要求身份验证的响应，说明此路径上的 HTTP 端点作出了响应。请在浏览器中确认其身份。超时无法指出故障发生在哪一层。接下来检查监听地址、端口和主机防火墙。
 
-*This check applies to HTTP. A game using UDP needs a protocol-appropriate test.*
+*此检查适用于 HTTP。使用 UDP 的游戏需要符合其协议的测试。*
 
-## Choose an Alternative Around the Service
+## 选择适合服务的替代方案
 
-**Private access** and **public hosting** have different requirements. Start by deciding who needs the connection and whether they are willing to install a client.
+**专用访问**和**公共托管**有不同要求。先决定谁需要连接，以及他们是否愿意安装客户端。
 
-**TCP** transports an ordered stream over a connection. **UDP** transports individual datagrams. Hosting support must match the application's transport, even when two services use the same numeric port.
+**TCP** 通过连接传输有序的数据流。**UDP** 传输单个数据报。即使两个服务使用相同的端口号，托管方式仍须支持应用使用的传输协议。
 
-| Need | Approach to evaluate | Main constraint |
+| 需求 | 可评估的方案 | 主要限制 |
 |---|---|---|
-| **Your laptop reaching your home server** | Tailscale private network | Enroll devices and configure access rules |
-| **A private browser dashboard** | Cloudflare Tunnel plus Access | Configure the hostname and identity policy |
-| **A website for public visitors** | Public hosting or an appropriate tunnel | Review protocol, capacity, and service requirements |
-| **A game server for ordinary game clients** | Hosting with documented inbound port support | Match the game's TCP/UDP requirements |
+| **笔记本电脑访问家用服务器** | Tailscale 专用网络 | 注册设备并配置访问规则 |
+| **浏览器中的专用仪表板** | Cloudflare Tunnel 加 Access | 配置主机名和身份策略 |
+| **面向公众的网站** | 公共托管或合适的隧道 | 检查协议、容量和服务要求 |
+| **供普通游戏客户端使用的游戏服务器** | 有入站端口支持文档的托管服务 | 满足游戏的 TCP/UDP 要求 |
 
-**Tailscale** attempts a direct connection and supports relayed connectivity when direct communication fails. This avoids relying on a manually forwarded home port, although the resulting path affects performance. Read the [Tailscale connection overview](https://tailscale.com/docs/reference/connection-types) and our [relay explainer](/articles/why-tailscale-uses-a-relay/).
+**Tailscale** 会尝试直连，并在直接通信失败时支持中继连接。这样就不必手动转发家庭端口，但实际路径仍会影响性能。请阅读 [Tailscale 连接概览](https://tailscale.com/docs/reference/connection-types)和我们的[中继说明](/articles/why-tailscale-uses-a-relay/)。
 
-**Cloudflare Tunnel** establishes an outbound connection from your server. For a private dashboard, pair it with an Access policy. A published hostname without the policy does not add an identity check. See [Tunnel connectivity](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) and [Tunnel vs Access](/articles/cloudflare-tunnel-vs-access/).
+**Cloudflare Tunnel** 会从服务器建立出站连接。对于专用仪表板，应将其与 Access 策略配合使用。没有该策略，仅发布主机名不会增加身份检查。请参阅 [Tunnel 连接性](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/)和 [Tunnel 与 Access 对比](/articles/cloudflare-tunnel-vs-access/)。
 
-**A VPN subscription alone** does not specify an inbound hosting arrangement. Before buying any service, verify its supported protocols, exposed ports, authentication options, and restrictions. For a game server, ask specifically about the game's required UDP ports.
+**仅有 VPN 订阅**并不能确定入站托管方式。购买服务之前，请核实支持的协议、开放端口、身份验证选项和限制。对于游戏服务器，要具体询问游戏所需的 UDP 端口。
 
-## What About IPv6?
+## IPv6 呢？
 
-**IPv6 addressing and inbound permission** are separate requirements. IPv6 reduces dependence on IPv4 address translation, while stateful gateway filtering still controls incoming connections. RFC 6092 describes residential IPv6 filtering, including handling unsolicited traffic. It does not document the settings on your T-Mobile gateway. [Residential IPv6 security recommendations](https://www.rfc-editor.org/rfc/rfc6092.html).
+**IPv6 地址和允许入站流量**是两项不同的要求。IPv6 降低了对 IPv4 地址转换的依赖，但网关的有状态过滤仍会控制入站连接。RFC 6092 介绍了住宅 IPv6 过滤，包括如何处理非请求流量。它没有记录你的 T-Mobile 网关设置。[住宅 IPv6 安全建议](https://www.rfc-editor.org/rfc/rfc6092.html)。
 
-**Evaluate the complete route:** the remote client needs IPv6 connectivity, the server needs an appropriate address and listener, and the network must permit the traffic. A successful IPv6 browsing test proves an outbound path. It does not prove an Internet client reaches your server.
+**评估完整路径：** 远程客户端需要 IPv6 连接，服务器需要合适的地址和监听进程，网络也必须允许流量。通过 IPv6 成功浏览网页只能证明存在出站路径，不能证明互联网客户端能够访问服务器。
 
-| Evidence | What it establishes |
+| 证据 | 能证明什么 |
 |---|---|
-| **An IPv6 address on the server** | An address is assigned to an interface |
-| **A successful outbound IPv6 request** | This client reached an external service |
-| **A remote application response** | The tested inbound application route works |
+| **服务器上的 IPv6 地址** | 一个接口获得了地址 |
+| **成功的出站 IPv6 请求** | 此客户端到达了外部服务 |
+| **远程应用响应** | 测试的入站应用路径正常 |
 
-**Decision rule:** choose IPv6 hosting only after confirming the complete inbound path and your clients' compatibility. Avoid treating an address assignment as a substitute for a remote application test.
+**决策规则：** 确认完整的入站路径和客户端兼容性后，再选择 IPv6 托管。不要把分配到地址当成远程应用测试的替代品。
 
-## Check the Application Before Changing the Network
+## 更改网络之前先检查应用
 
-Use these **diagnostic steps** to separate local failures from remote-access limits:
+按照以下**诊断步骤**区分本地故障和远程访问限制：
 
-1. **Local connection:** confirm another home device reaches the server's local address and intended port.
-2. **Service configuration:** confirm the application listens on the expected interface and the host firewall permits the intended client.
-3. **Audience:** decide whether access is private or public.
-4. **Remote test:** test the chosen tunnel or private-network connection from a different Internet connection.
-5. **Performance:** measure the actual workload after connectivity succeeds.
+1. **本地连接：** 确认家庭中的另一台设备能够访问服务器的本地地址和指定端口。
+2. **服务配置：** 确认应用在预期接口上监听，并且主机防火墙允许目标客户端。
+3. **受众：** 决定访问应为专用还是公开。
+4. **远程测试：** 使用另一条互联网连接，测试所选隧道或专用网络。
+5. **性能：** 连接成功后测量实际工作负载。
 
-**A failed local test** needs attention before choosing a remote-access service. Port forwarding would not repair an application listening on the wrong interface.
+**本地测试失败时**，应先解决问题，再选择远程访问服务。端口转发无法修复监听在错误接口上的应用。
 
-## Work Through a Hosting Choice
+## 选择托管方案
 
-**Scenario:** you want to read a home dashboard while traveling, and two friends want to join a game server. Your dashboard is HTTP. The game requires UDP, and your friends want to use ordinary game clients without installing another network client.
+**场景：** 你想在旅行时查看家用仪表板，两位朋友想加入游戏服务器。仪表板使用 HTTP。游戏需要 UDP，而朋友希望使用普通游戏客户端，不安装另一个网络客户端。
 
-**Separate the requirements.** A browser-based dashboard with a small identity list fits an authenticated web publishing arrangement. The game needs a public route supporting its required transport and clients. Solving the first requirement does not establish support for the second.
+**拆分需求。** 带有少量身份名单的浏览器仪表板适合使用带身份验证的 Web 发布方案。游戏需要一条支持所需传输协议和客户端的公共路径。解决第一项需求并不能证明第二项也受支持。
 
-| Requirement | Reasoned choice |
+| 需求 | 有依据的选择 |
 |---|---|
-| **Private dashboard in a browser** | Evaluate Tunnel plus Access |
-| **Personal access with enrolled devices** | Evaluate a private overlay network |
-| **Public UDP game clients** | Evaluate hosting with documented UDP reachability |
+| **浏览器中的专用仪表板** | 评估 Tunnel 加 Access |
+| **通过已注册设备进行个人访问** | 评估专用覆盖网络 |
+| **公共 UDP 游戏客户端** | 评估有 UDP 可达性文档的托管服务 |
 
-**Review question:** would dynamic DNS make the game reachable through an unavailable inbound route? No. Updating a hostname does not create the required mapping or listener. Reject proposals addressing only the name while leaving the route unexplained.
+**检查问题：** 动态 DNS 能让游戏通过一条不存在的入站路径访问吗？不能。更新主机名不会创建所需的映射或监听进程。应拒绝只修改名称却不解释路径的建议。
 
-**Tradeoff to record:** moving the game to external hosting changes recurring cost and administration. Asking friends to join a private network changes their setup requirements. Choose after confirming which constraint is negotiable.
+**记录取舍：** 将游戏迁移到外部托管会增加持续费用和管理工作。让朋友加入专用网络则会改变他们的设置要求。先确定哪项限制可以调整，再做选择。
 
-## Build a Connection Plan
+## 制定连接计划
 
-Create a **one-service plan** with these fields:
+创建一份包含以下字段的**单项服务计划**：
 
 ```text
-Application and required TCP/UDP ports:
-People or devices needing access:
-Client installation acceptable:
-Local service test result:
-Inbound path available:
-Chosen access method:
-Authentication method:
-Remote test and success criterion:
-Fallback if the test fails:
+应用和所需的 TCP/UDP 端口：
+需要访问的人员或设备：
+是否接受安装客户端：
+本地服务测试结果：
+可用的入站路径：
+选择的访问方法：
+身份验证方法：
+远程测试和成功标准：
+测试失败时的备用方案：
 ```
 
-**Completion criterion:** every step from the remote client to the application has an identified owner and supported mechanism. For a home tunnel, include the connector. For external hosting, include the host's firewall and public listener. Leave unsupported assumptions visible until verified.
+**完成标准：** 从远程客户端到应用的每一步都有负责人和受支持的机制。使用家用隧道时，列出连接器。使用外部托管时，列出主机防火墙和公共监听进程。在验证之前，明确记录未经确认的假设。
 
 ## 后续步骤
 
-For a browser dashboard, start with the [Cloudflare Tunnel setup guide](/guides/how-to-setup-and-use-cloudflare-tunnels/) and add Access. For broader service context, read the [T-Mobile Home Internet overview](/other/t-mobile-home-internet-benefits-connectivity-features/).
+对于浏览器仪表板，请从 [Cloudflare Tunnel 设置指南](/guides/how-to-setup-and-use-cloudflare-tunnels/)开始，并添加 Access。要了解该服务的更多背景，请阅读 [T-Mobile Home Internet 概览](/other/t-mobile-home-internet-benefits-connectivity-features/)。

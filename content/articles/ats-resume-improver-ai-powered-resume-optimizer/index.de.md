@@ -1,9 +1,10 @@
 ---
-title: "ATS Resume Improver: Kostenloser, selbst hostbarer KI-Lebenslauf-Optimierer ohne Datenweitergabe"
+title: "ATS Resume Improver: Kostenloser, selbst hostbarer KI-Lebenslauf-Optimierer"
 date: 2026-07-22
+lastmod: 2026-11-08
 toc: true
 draft: false
-description: "ATS Resume Improver ist ein kostenloser, quelloffener, clientseitiger Lebenslauf-Optimierer, der OpenAI, Anthropic Claude und lokale Ollama-Modelle unterstützt. Parsen, bewerten, Keywords abgleichen, optimieren und exportieren Sie Ihren Lebenslauf, ohne dass Ihre Daten den Browser verlassen."
+description: "ATS Resume Improver ist ein kostenloser, quelloffener Lebenslauf-Optimierer. Ohne KI-Schlüssel läuft die Verarbeitung im Browser. Mit OpenAI oder Anthropic gehen Lebenslauf- und Stellenbeschreibungstext direkt an den Anbieter. Ollama kann lokal laufen."
 genre: ["Karriere-Tools", "Open-Source-Projekte", "Künstliche Intelligenz", "Datenschutztechnologie", "Entwickler-Tools", "Jobsuche", "Produktivität"]
 tags: ["ATS Resume Improver", "ATS-Optimierung", "Lebenslauf-Scanner", "KI-Lebenslauf", "OpenAI Lebenslauf", "Claude Lebenslauf", "Ollama lokale KI", "Selbst gehostet", "Datenschutz zuerst", "Job-Such-Tools", "Keyword-Lückenanalyse", "Anschreiben", "Lebenslauf-Bewertung", "React", "TypeScript", "Docker", "Vite", "Open Source", "PDF-Export", "DOCX-Export", "Lebenslauf-Parser", "Karriere-Tools", "Bewerbungsvorbereitung", "Gehaltsschätzer", "Lebenslauf-Typ-Erkennung", "ATS-Score", "kostenloses Lebenslauf-Tool", "GitHub", "keine Datenerhebung"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"
@@ -147,7 +148,7 @@ ______
 
 ## Anschreiben-Humanisierung
 
-Der Anschreiben-Generator wendet einen gezielten Schreibstil-Leitfaden an, um die verräterischen Zeichen von KI-generiertem Text zu eliminieren:
+Der Anschreiben-Generator wendet einen gezielten Schreibstil-Leitfaden an, um die verräterischen Zeichen von KI-generiertem Text zu eliminieren. Er orientiert sich an [Sabrina Ramonovs Rahmen zur Humanisierung von Texten](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing):
 
 - **Keine Gedankenstriche** — das stärkste KI-Verräterzeichen, vollständig entfernt
 - **50+ verbotene Wörter und Phrasen**: leverage, utilize, dive deep, delve, embark, game-changer, groundbreaking, cutting-edge, pivotal, tapestry, harness, moreover, in conclusion, it's worth noting, ever-evolving, landscape, testament usw.
@@ -203,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (empfohlen für reproduzierbare Umgebungen)
 
 ```bash
-# Entwicklung — Hot-Reload unter http://localhost:5173
+# Development — hot-reload on http://localhost:5173
 make docker-dev
 
-# Produktion — nginx unter http://localhost:8080
+# Production — nginx on http://localhost:8080
 make docker-prod
 
-# Dev + Ollama zusammen (vollständiger lokaler KI-Stack)
+# Dev + Ollama together (full local AI stack)
 make docker-dev-with-ollama
 ```
 
 ### Ollama Vollständig-Offline-Stack
 
 ```bash
-# Ollama-Container starten (Modelle über Neustarts hinweg persistent)
+# Start Ollama container (persists models across restarts)
 make ollama
 
-# Modell herunterladen
+# Pull a model
 make ollama-pull MODEL=llama3.2
 
-# Dev-App + Ollama nebeneinander starten
+# Start dev app + Ollama side-by-side
 make docker-dev-with-ollama
 ```
 
@@ -276,6 +277,21 @@ Exportieren Sie als PDF, DOCX, TXT oder Markdown. Mit aktivierter KI ist der Exp
 
 ______
 
+## Integration von Lebenslauf-Tipps
+
+Das Tool enthält eine ergänzende Referenzdatei `RESUME_TIPS.md` (auch im GitHub-Repository). Sie behandelt:
+
+- Wie ATS-Systeme Lebensläufe bewerten
+- Wichtige Formatierungsregeln und Formate, die Parser stören
+- Das Schreiben von Zusammenfassungen, Aufzählungspunkten und Kompetenzabschnitten
+- Keyword-Strategien ohne übermäßige Wiederholungen
+- Ton und Aufbau eines Anschreibens
+- Eine Checkliste vor dem Einreichen
+
+*Lesen Sie die Tipps vor der Nutzung des Tools, damit Sie die Bewertungen einordnen können.*
+
+______
+
 ## Häufig gestellte Fragen
 
 ### Speichert das Tool meinen Lebenslauf?
@@ -293,6 +309,10 @@ Ja. Fügen Sie jederzeit eine neue Stellenbeschreibung ein. Die Keyword-Analyse 
 ### Ist die Ollama-Integration wirklich offline?
 
 Ja, wenn Ollama auf Ihrem lokalen Rechner oder einem Rechner in Ihrem lokalen Netzwerk läuft. Die App sendet Text über HTTP an Ihre Ollama-Instanz. Nichts geht an externe Dienste.
+
+### Wie genau ist die Erkennung des Lebenslauf-Typs?
+
+Der Detektor verwendet regelbasierte Heuristiken für den Inhalt Ihres Lebenslaufs. Er sucht nach genannten Berufsjahren, Bildungsmerkmalen, Veröffentlichungs- oder Forschungsabschnitten und Hinweisen auf Karrierepausen. Bei den meisten Lebensläufen funktioniert er gut, kann aber bei ungewöhnlichen Profilen irren. Die Reihenfolge der Abschnitte lässt sich jederzeit ändern.
 
 ______
 
@@ -314,6 +334,14 @@ ______
 **ATS Resume Improver** füllt eine echte Lücke: ein Tool, das ernsthafte Lebenslaufanalyse durchführt, ohne Ihre Daten an jemanden zu vermitteln. Der Modus ohne Schlüssel gibt Ihnen sofortiges, umsetzbares Feedback zu Formatierung und Keyword-Abdeckung. Das Hinzufügen eines KI-Schlüssels verbessert die Analyse zu semantischem Denken, Anschreiben-Erstellung und Bewerbungsvorbereitung — alles für Cents pro Analyse oder völlig kostenlos mit Ollama.
 
 Die Live-gehostete Version ist unter **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** verfügbar. Der vollständige Quellcode ist unter **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+
+______
+
+## Kurs zur Lebenslauf-Optimierung
+
+Eine strukturierte Schritt-für-Schritt-Anleitung zur Anwendung der Bewertungen finden Sie im ergänzenden Kurs:
+
+**[Kurs zur Lebenslauf-Optimierung: ATS-Systeme meistern und mehr Vorstellungsgespräche erhalten](/resume-optimization-course-start/)**. Die 9 Module behandeln ATS-Bewertungen, Formatierung, Aufzählungen, Keywords, Anpassung an Stellenanzeigen, Anschreiben und die Checkliste vor dem Versand. Verwenden Sie das Tool zusammen mit dem Kurs, um in jedem Schritt direktes Feedback zu erhalten.
 
 ______
 

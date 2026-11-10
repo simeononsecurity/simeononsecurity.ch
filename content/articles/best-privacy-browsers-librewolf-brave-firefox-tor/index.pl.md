@@ -1,7 +1,7 @@
 ---
 title: "Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: 'Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.'
@@ -727,34 +727,34 @@ Need mobile privacy browser?
 ### Rekomendacje według zastosowań
 
 **Codzienne przeglądanie:**
-1. Brave
-2. Firefox
-3. LibreWolf
+Miejsce 1: Brave
+Miejsce 2: Firefox
+Miejsce 3: LibreWolf
 
 **Bankowość/zakupy:**
-1. Brave
-2. Firefox
-3. Chrome (strony często zoptymalizowane pod Chrome)
+Miejsce 1: Brave
+Miejsce 2: Firefox
+Miejsce 3: Chrome (strony często zoptymalizowane pod Chrome)
 
 **Badania/dziennikarstwo:**
-1. Tor Browser
-2. LibreWolf
-3. Brave
+Miejsce 1: Tor Browser
+Miejsce 2: LibreWolf
+Miejsce 3: Brave
 
 **Streaming treści:**
-1. Brave (wsparcie DRM)
-2. Firefox (z włączonym DRM)
-3. Chrome
+Miejsce 1: Brave (wsparcie DRM)
+Miejsce 2: Firefox (z włączonym DRM)
+Miejsce 3: Chrome
 
 **Programowanie/testowanie:**
-1. Firefox (doskonałe DevTools)
-2. Brave (testowanie Chromium)
-3. Chrome (referencyjne Chromium)
+Miejsce 1: Firefox (doskonałe DevTools)
+Miejsce 2: Brave (testowanie Chromium)
+Miejsce 3: Chrome (referencyjne Chromium)
 
 **Urządzenia mobilne:**
-1. Brave (bogate w funkcje)
-2. Firefox (rozszerzenia na Androidzie)
-3. Firefox Focus (prostota)
+Miejsce 1: Brave (bogate w funkcje)
+Miejsce 2: Firefox (rozszerzenia na Androidzie)
+Miejsce 3: Firefox Focus (prostota)
 
 ## Niezbędne rozszerzenia dla prywatności
 
@@ -922,6 +922,41 @@ Wielu użytkowników dbających o prywatność korzysta z kilku przeglądarek:
 - Chroni przed kradzieżą tożsamości
 - Zapobiega manipulacji
 - To podstawowe prawo człowieka
+
+## Testy przeglądarek dbających o prywatność w 2026 roku
+
+Nazwa marki przeglądarki nie dowodzi, że chroni ona prywatność. Przed codziennym użyciem sprawdź ustawienia domyślne, kanał aktualizacji, zasady dotyczące rozszerzeń i działanie synchronizacji.
+
+1. Pobieraj przeglądarkę z oficjalnej strony projektu lub zaufanego sklepu z aplikacjami. Unikaj przepakowanych wersji.
+2. Aktualizuj przeglądarkę i system operacyjny. Ustawienia prywatności nie naprawią niezałatanej przeglądarki.
+3. Sprawdź wbudowaną ochronę przed trackerami, fingerprintingiem, złośliwymi plikami i oszukańczymi stronami.
+4. Traktuj rozszerzenia jak oprogramowanie z uprzywilejowanym dostępem. Instaluj ich mniej, sprawdzaj uprawnienia i usuwaj nieużywane.
+5. Przetestuj przeglądarkę za pomocą [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) i [BrowserLeaks](https://browserleaks.com/). Test opisuje jeden profil przeglądarki, ale nie dowodzi anonimowości.
+6. Oddzielaj tożsamości za pomocą różnych profili przeglądarki. Nie loguj się do prywatnych kont w oknie Tor Browser używanym do wrażliwych badań.
+7. Używaj Tor Browser z domyślną konfiguracją. Dodatkowe czcionki, rozszerzenia i zmiana rozmiaru okna osłabiają korzyść ze wspólnego odcisku.
+
+LibreWolf jest odpowiedni dla osób, które chcą bardziej rygorystycznych ustawień domyślnych i akceptują sporadyczne problemy ze zgodnością. Brave sprawdzi się u osób, które chcą zgodności z Chromium i wbudowanego blokowania. Firefox pasuje osobom, które chcą wsparcia Mozilli i elastycznej kontroli prywatności. Tor Browser jest dla osób potrzebujących anonimowości na poziomie sieci, które akceptują niższą szybkość i zgodność z witrynami.
+
+[Podręcznik Tor Browser](https://tb-manual.torproject.org/) i [przewodnik prywatności Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) szczegółowo opisują te ustawienia.
+
+## Aktualne granice prywatności i lista kontrolna
+
+Zabezpieczenia przeglądarki zmniejszają ujawnianie danych, ale nie anonimizują konta, urządzenia ani połączenia. **Tryb prywatny** usuwa wybrane lokalne dane historii po zakończeniu sesji. Nie ukrywa ruchu przed operatorem sieci ani nie uniemożliwia witrynie rozpoznania zalogowanego użytkownika. [Tor Project wyjaśnia tę różnicę](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**W fingerprintingu znaczenie ma to, jak liczna jest grupa użytkowników o podobnej konfiguracji.** Tor Browser próbuje umieszczać użytkowników we wspólnych grupach odcisków za pomocą letterboxingu, standaryzowanych wartości i izolacji pierwszej strony. Tor Project zaznacza, że pełna anonimowość jest niemożliwa. Bez konkretnego powodu nie dodawaj nietypowych rozszerzeń, nie maksymalizuj okna Tor ani nie zmieniaj ustawień domyślnych. [Przeczytaj zalecenia Tor dotyczące fingerprintingu](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf wymaga regularnych aktualizacji.** Zgodnie z FAQ projektu nowe wersje często pojawiają się w ciągu trzech dni od wydania Firefox upstream, a przeglądarka nie ma własnego automatycznego aktualizatora. Używaj menedżera pakietów lub metody instalacji dla swojej platformy, a po aktualizacjach zabezpieczeń sprawdź zainstalowaną wersję. [Zobacz FAQ LibreWolf](https://librewolf.net/docs/faq/).
+
+Przed wyborem przeglądarki skorzystaj z tej listy:
+
+- **Model zagrożeń:** zdecyduj, czy chcesz ograniczyć śledzenie, oddzielić konta, przeciwdziałać cenzurze czy zachować anonimowość.
+- **Ścieżka aktualizacji:** ustal, kto dostarcza aktualizacje i jak będziesz je instalować.
+- **Zgodność:** przetestuj bankowość, pracę, media, rozszerzenia i dostępność przed przeniesieniem całego przepływu pracy.
+- **Oddzielenie tożsamości:** nie używaj prywatnych loginów w sesjach, które mają ograniczać powiązania między działaniami.
+- **Fingerprinting:** zachowaj ustawienia zbliżone do typowej konfiguracji przeglądarki. Wiele rozszerzeń prywatności może wyróżnić przeglądarkę.
+- **Warstwa sieciowa:** traktuj DNS, VPN i Tor jako oddzielne zabezpieczenia. Każde chroni inną część połączenia.
+
+Wyniki wydajności i prywatności podane w innych częściach tej strony są historycznymi pomiarami lub przykładami, jeśli nie podano metody, daty, profilu sprzętu i surowych danych. Nie traktuj ich jako aktualnych, uniwersalnych rankingów. Testuj własne strony i urządzenia po każdej dużej aktualizacji przeglądarki.
 
 ## Podsumowanie: Przejmij kontrolę nad swoją cyfrową prywatnością
 

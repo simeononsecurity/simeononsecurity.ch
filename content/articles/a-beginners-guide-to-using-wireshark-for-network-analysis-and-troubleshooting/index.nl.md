@@ -1,6 +1,7 @@
 ---
 title: "Wireshark onder de knie krijgen: Een uitgebreide beginnersgids voor netwerkanalyse"
 date: 2023-04-07
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Ontdek hoe u Wireshark effectief kunt gebruiken voor netwerkanalyse en probleemoplossing met deze gedetailleerde beginnersgids."
@@ -63,11 +64,31 @@ Wireshark is een uitstekend hulpmiddel voor het oplossen van diverse netwerkprob
 - **Het identificeren van trage netwerkverbindingen:** Bepaal of trage netwerkverbindingen worden veroorzaakt door netwerklatentie of applicatievertragingen door de round-trip time (RTT) tussen pakketten te analyseren. Gebruik de TCP Stream Graph functie om de RTT waarden te visualiseren en mogelijke knelpunten te identificeren.
 - **Onbevoegde toegang opsporen:** Controleer het netwerkverkeer op verdachte activiteiten of pogingen tot onbevoegde toegang door pakketten te filteren op basis van IP-adressen, poorten of protocollen.
 
+## Een captureplan voor beginners
+
+Begin met een vraag en een korte capture. Leg verkeer vast op de interface die het onderzochte verkeer vervoert, reproduceer één probleem, stop daarna en sla het pcapng-bestand met een tijdstempel op. Captures bevatten vaak inloggegevens, persoonsgegevens, hostnamen en interne adressen. Bewaar ze als gevoelige gegevens en deel ze alleen met bevoegde personen.
+
+Gebruik een **capturefilter** om tijdens de capture minder pakketten naar het bestand te schrijven. Gebruik na de capture een **weergavefilter** om pakketten te verbergen zonder ze uit het bestand te verwijderen. De syntaxis verschilt. De Wireshark-gids beschrijft beide filtertalen.
+
+| Doel | Weergavefilter | Wat je controleert |
+|---|---|---|
+| **DNS-fout** | `dns` | Opgevraagde naam, antwoordcode, serveradres en antwoordvertraging. |
+| **TCP-opbouw** | `tcp.flags.syn == 1` | SYN, SYN-ACK en de laatste ACK voor het bedoelde eindpunt. |
+| **Hertransmissies** | `tcp.analysis.retransmission` | Richting, timing en herhaald verlies op één route. |
+| **Eén host** | `ip.addr == 192.168.1.20` | Verkeer van of naar de geselecteerde host. |
+| **Eén dienst** | `tcp.port == 443` | De gekozen TCP-poort, zonder de toepassing aan te nemen. |
+
+In een terminal schrijft `tshark -i <interface> -f "host 192.168.1.20" -w incident.pcapng` een pcapng-capture met een libpcap-capturefilter. `tshark -r incident.pcapng -Y "dns or tcp.analysis.retransmission"` leest het bestand met een weergavefilter. Vervang interface, adres en bestandsnaam door waarden uit je toegestane test.
+
+Selecteer een pakket en kies **Analyze > Follow** om een protocolstroom te bekijken. Wireshark ondersteunt onder meer TCP, UDP, TLS, HTTP, HTTP/2, QUIC, WebSocket en SIP. Een stroom volgen ontsleutelt TLS niet vanzelf. De [Wireshark-gids voor stromen](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) beschrijft de mogelijkheden en beperkingen.
+
+Zie **Expert Information** als een aanwijzing. Vergelijk een hertransmissie, dubbel pakket of misvormd pakket met tijdstempels, eindpunten, interfacetellers en applicatielogboeken. Volgens de Wireshark-documentatie is Expert Information een startpunt, geen bewijs van een storing.
+
 ______
 
 ## Overheidsvoorschriften volgen
 
-Bepaalde overheidsvoorschriften, zoals de [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) and the [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html) vereisen dat organisaties gevoelige informatie beschermen en netwerkbeveiliging handhaven. Wireshark kan u helpen aan deze voorschriften te voldoen door netwerkverkeer te controleren op ongeoorloofde toegang of lekken van gegevens.
+Bepaalde overheidsvoorschriften, zoals de [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) en de [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html) vereisen dat organisaties gevoelige informatie beschermen en netwerkbeveiliging handhaven. Wireshark kan u helpen aan deze voorschriften te voldoen door netwerkverkeer te controleren op ongeoorloofde toegang of lekken van gegevens.
 
 Houd in gedachten dat het gebruik van Wireshark om netwerkverkeer vast te leggen en te analyseren ook onder wettelijke en ethische overwegingen kan vallen. Zorg er altijd voor dat u de juiste autorisatie hebt en het beleid van uw organisatie en lokale wetten naleeft voordat u Wireshark gebruikt voor netwerkanalyse.
 
@@ -85,6 +106,9 @@ ______
 2. [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/)
 3. [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 4. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+5. [Wireshark TShark-handleiding](https://www.wireshark.org/docs/man-pages/tshark.html)
+6. [Wireshark-protocolstromen volgen](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
+7. [Wireshark Expert Information](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvExpert.html)
 
 Vergeet niet om zelf te oefenen en te experimenteren met Wireshark om de mogelijkheden ervan beter te leren kennen. Hoe vaker u het gebruikt, hoe vaardiger u wordt in het identificeren en oplossen van netwerkproblemen.
 

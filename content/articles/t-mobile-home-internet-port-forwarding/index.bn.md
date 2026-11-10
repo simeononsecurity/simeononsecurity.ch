@@ -1,171 +1,171 @@
 ---
-title: "Why Port Forwarding Doesn't Work on T-Mobile Home Internet"
+title: "T-Mobile Home Internet-এ পোর্ট ফরোয়ার্ডিং কেন কাজ করে না"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port."
+description: "T-Mobile 5G Home Internet-এ পোর্ট ফরোয়ার্ডিংয়ের সীমা, ক্যারিয়ার NAT এবং প্রকাশ্য ইনবাউন্ড পোর্ট ছাড়া হোম সার্ভারে পৌঁছানোর ব্যবহারিক উপায় জানুন।"
 genre: ["Networking", "Self-Hosted", "Network Security"]
-tags: ["T-Mobile Home Internet", "T-Mobile port forwarding", "5G Home Internet", "CGNAT", "carrier-grade NAT", "NAT", "remote access", "home server", "homelab", "T-Mobile gateway", "bridge mode", "dynamic IP", "public IPv4", "double NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "private networking", "inbound connections", "cellular internet"]
+tags: ["T-Mobile Home Internet", "T-Mobile পোর্ট ফরোয়ার্ডিং", "5G Home Internet", "CGNAT", "ক্যারিয়ার-গ্রেড NAT", "NAT", "দূরবর্তী প্রবেশ", "হোম সার্ভার", "হোমল্যাব", "T-Mobile গেটওয়ে", "ব্রিজ মোড", "ডাইনামিক IP", "পাবলিক IPv4", "ডাবল NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "ব্যক্তিগত নেটওয়ার্ক", "ইনবাউন্ড সংযোগ", "সেলুলার ইন্টারনেট"]
 cover: "/img/cover/t-mobile-home-internet-port-forwarding.webp"
-coverAlt: "A home cellular gateway faces a distant tower and a shared network gate beside a glowing cloud connection."
+coverAlt: "একটি ঘরোয়া সেলুলার গেটওয়ে দূরের টাওয়ার ও শেয়ার করা নেটওয়ার্ক গেটের সঙ্গে যুক্ত, পাশে উজ্জ্বল ক্লাউড সংযোগ।"
 coverCaption: ""
 ---
 
-**T-Mobile's consumer 5G Home Internet gateways** do not offer configurable port forwarding. Adding a rule to a second router does not change the carrier gateway's settings or create a public inbound route. T-Mobile also documents no bridge-mode toggle or adjustable network address translation (NAT) type. [T-Mobile gateway settings](https://www.t-mobile.com/support/home-internet/connect).
+**T-Mobile 5G Home Internet-এর গ্রাহক গেটওয়েগুলোতে** কনফিগার করা যায় এমন পোর্ট ফরোয়ার্ডিং নেই। দ্বিতীয় রাউটারে নিয়ম যোগ করলেও ক্যারিয়ার গেটওয়ের সেটিং বদলায় না বা পাবলিক ইনবাউন্ড পথ তৈরি হয় না। T-Mobile ব্রিজ মোডের টগল বা নেটওয়ার্ক অ্যাড্রেস ট্রান্সলেশন (NAT)-এর ধরন বদলানোর ব্যবস্থাও নথিভুক্ত করেনি। [T-Mobile গেটওয়ে সেটিং](https://www.t-mobile.com/support/home-internet/connect).
 
-This article covers **cellular Home Internet**. Treat fiber and business products as separate services with their own documented capabilities.
+এই নিবন্ধটি **সেলুলার Home Internet** নিয়ে। ফাইবার ও ব্যবসায়িক পণ্যকে নিজস্ব নথিভুক্ত সুবিধাসহ আলাদা সেবা হিসেবে বিবেচনা করুন।
 
-## মূল বিষয়গুলো
+## মূল বিষয়
 
-- **Identify the limit:** distinguish a gateway feature from upstream address translation.
-- **Inspect the path:** record where each address and port belongs.
-- **Compare alternatives:** match client access and protocol requirements to a hosting method.
-- **Write a decision:** produce a connection plan with a test and fallback.
+- **সীমা চিহ্নিত করুন:** গেটওয়ের সুবিধা এবং নেটওয়ার্কের ওপরের স্তরের ঠিকানা রূপান্তরের পার্থক্য বুঝুন।
+- **পথ পরীক্ষা করুন:** প্রতিটি ঠিকানা ও পোর্ট কোন ডিভাইসের, তা লিখুন।
+- **বিকল্প তুলনা করুন:** ক্লায়েন্টের প্রবেশাধিকার ও প্রোটোকলের প্রয়োজনের সঙ্গে হোস্টিং পদ্ধতি মিলিয়ে নিন।
+- **সিদ্ধান্ত নথিভুক্ত করুন:** পরীক্ষা ও বিকল্পসহ সংযোগ পরিকল্পনা তৈরি করুন।
 
 ## শুরু করার আগে
 
-**Audience:** T-Mobile cellular Home Internet users trying to reach a home service from outside. **Prerequisites:** access to the server, its local network settings, and the supplied gateway's status information. A second Internet connection is useful for the final remote test.
+**পাঠক:** T-Mobile-এর সেলুলার Home Internet ব্যবহারকারী, যারা বাইরে থেকে ঘরের কোনো সেবায় পৌঁছাতে চান। **পূর্বশর্ত:** সার্ভার, তার স্থানীয় নেটওয়ার্ক সেটিং এবং সরবরাহ করা গেটওয়ের অবস্থা দেখার সুযোগ। চূড়ান্ত দূরবর্তী পরীক্ষার জন্য দ্বিতীয় ইন্টারনেট সংযোগ কাজে দেবে।
 
-**Estimated effort:** 15–20 minutes to gather requirements and run local checks. Configuring a replacement access method takes additional time. **Difficulty:** beginner to intermediate. The objective is a justified connection choice, rather than another unused router rule.
+**আনুমানিক সময়:** প্রয়োজন সংগ্রহ ও স্থানীয় পরীক্ষা করতে ১৫–২০ মিনিট। বিকল্প প্রবেশপথ কনফিগার করতে আরও সময় লাগবে। **কঠিনতা:** প্রাথমিক থেকে মধ্যম। লক্ষ্য হলো যুক্তিসহ সংযোগ বেছে নেওয়া, আরেকটি অব্যবহৃত রাউটার নিয়ম যোগ করা নয়।
 
-## Why a Local Port Rule Is Insufficient
+## স্থানীয় পোর্টের নিয়ম যথেষ্ট নয় কেন
 
-**Port forwarding** maps incoming traffic at a router to an internal destination. For a home server to receive unsolicited Internet traffic, the route must work through every relevant upstream device. A successful local connection proves the server is reachable inside your network, not from outside it.
+**পোর্ট ফরোয়ার্ডিং** রাউটারে আসা ট্রাফিককে অভ্যন্তরীণ গন্তব্যে পাঠায়। হোম সার্ভারে ইন্টারনেট থেকে অনুরোধহীন ট্রাফিক পৌঁছাতে হলে পথের প্রতিটি প্রাসঙ্গিক ওপরের ডিভাইস দিয়ে সংযোগ কাজ করতে হবে। স্থানীয় সংযোগ সফল হলে সার্ভার ঘরের নেটওয়ার্ক থেকে পাওয়া যায়, বাইরের নেটওয়ার্ক থেকে যায় কি না তা প্রমাণ হয় না।
 
-**Carrier-grade NAT (CGNAT)** adds address translation in the provider's network. Subscribers share public IPv4 capacity, while the provider controls the outer translation. RFC 6598 reserves **`100.64.0.0/10`** for shared address space used in this kind of deployment. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**ক্যারিয়ার-গ্রেড NAT (CGNAT)** সরবরাহকারীর নেটওয়ার্কে ঠিকানা রূপান্তর যোগ করে। গ্রাহকেরা পাবলিক IPv4 সক্ষমতা ভাগ করে নেন এবং বাইরের রূপান্তর সরবরাহকারী নিয়ন্ত্রণ করে। এই ব্যবস্থায় ব্যবহৃত শেয়ার করা ঠিকানা-পরিসরের জন্য RFC 6598 **`100.64.0.0/10`** সংরক্ষণ করেছে। [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
 
-**Gateway support and carrier NAT are separate issues.** T-Mobile's support page establishes the gateway restriction. CGNAT explains why configuring your own router is also insufficient when upstream translation sits outside your control. A missing port-forwarding menu alone does not reveal the full carrier network design.
+**গেটওয়ে সমর্থন ও ক্যারিয়ার NAT আলাদা সমস্যা।** T-Mobile-এর সহায়তা পৃষ্ঠা গেটওয়ের সীমা প্রতিষ্ঠা করে। ওপরের স্তরের রূপান্তর আপনার নিয়ন্ত্রণের বাইরে থাকলে নিজের রাউটার কনফিগার করাও কেন যথেষ্ট নয়, CGNAT তা ব্যাখ্যা করে। শুধু পোর্ট ফরোয়ার্ডিং মেনু না থাকলেই ক্যারিয়ার নেটওয়ার্কের পূর্ণ বিন্যাস জানা যায় না।
 
-**The practical outcome is a choice of connection model.** Use an overlay network for private access, an outbound tunnel for an HTTP service, or a hosted endpoint when outside users need public access. Test the chosen method from a separate network. Do not use a successful LAN request as evidence of external reachability.
+**বাস্তবে আপনাকে সংযোগের ধরন বেছে নিতে হবে।** ব্যক্তিগত প্রবেশের জন্য overlay নেটওয়ার্ক, HTTP সেবার জন্য আউটবাউন্ড টানেল, অথবা বাইরের ব্যবহারকারীদের পাবলিক প্রবেশের দরকার হলে হোস্ট করা endpoint ব্যবহার করুন। অন্য নেটওয়ার্ক থেকে নির্বাচিত পদ্ধতি পরীক্ষা করুন। LAN-এর অনুরোধ সফল হওয়াকে ইন্টারনেট থেকে পৌঁছানোর প্রমাণ ভাববেন না।
 
-| Change | What it changes | What remains unresolved |
+| পরিবর্তন | কী বদলায় | কী অমীমাংসিত থাকে |
 |---|---|---|
-| **Rule on a second router** | Forwarding on your router | Carrier gateway and upstream route |
-| **Different DNS resolver** | Name resolution | Inbound connectivity |
-| **Dynamic DNS hostname** | A name following an address | A usable inbound path |
-| **Faster Wi-Fi** | Local wireless performance | Reachability from the Internet |
+| **দ্বিতীয় রাউটারে নিয়ম** | নিজের রাউটারে ফরোয়ার্ডিং | ক্যারিয়ার গেটওয়ে ও ওপরের নেটওয়ার্ক পথ |
+| **অন্য DNS resolver** | নাম খোঁজা | ইনবাউন্ড সংযোগ |
+| **ডাইনামিক DNS হোস্টনাম** | ঠিকানার সঙ্গে বদলানো নাম | ব্যবহারযোগ্য ইনবাউন্ড পথ |
+| **দ্রুত Wi-Fi** | স্থানীয় বেতার কর্মদক্ষতা | ইন্টারনেট থেকে পৌঁছানো |
 
-**Dynamic addressing** means an address changes over time. It is distinct from sharing an address through NAT. T-Mobile documents dynamic addressing and no consumer Home Internet option to change it to static on this support page. [T-Mobile connection limitations](https://www.t-mobile.com/support/home-internet/connect).
+**ডাইনামিক অ্যাড্রেসিং** মানে সময়ের সঙ্গে ঠিকানা বদলায়। NAT দিয়ে ঠিকানা ভাগ করার সঙ্গে এর পার্থক্য আছে। T-Mobile ডাইনামিক অ্যাড্রেসিং নথিভুক্ত করেছে এবং এই সহায়তা পৃষ্ঠায় Home Internet-কে স্থির ঠিকানায় বদলানোর গ্রাহক-সুবিধা উল্লেখ করেনি। [T-Mobile সংযোগের সীমাবদ্ধতা](https://www.t-mobile.com/support/home-internet/connect).
 
-## Trace the Address Ownership
+## ঠিকানা কার নিয়ন্ত্রণে তা অনুসরণ করুন
 
-In a **provider-NAT example**, the path has several independent boundaries:
+**ক্যারিয়ার NAT-এর একটি উদাহরণে** পথটি একাধিক স্বাধীন সীমানা পার হয়:
 
 ```text
-Remote client -> provider translation -> home gateway -> optional router -> server
-                   provider controls      home devices and local settings
+দূরবর্তী ক্লায়েন্ট -> সরবরাহকারীর রূপান্তর -> ঘরের গেটওয়ে -> ঐচ্ছিক রাউটার -> সার্ভার
+                         সরবরাহকারী নিয়ন্ত্রণ করে   ঘরের ডিভাইস ও স্থানীয় সেটিং
 ```
 
-**An address visible to a website** describes the connection reaching the website. It does not establish an inbound mapping to your server. The CGN requirements document discusses mappings in terms of subscriber identity, external address, port, and time. [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
+**কোনো ওয়েবসাইটে দেখা ঠিকানা** সেই সাইটে পৌঁছানো সংযোগটি বর্ণনা করে। এটি আপনার সার্ভারে ইনবাউন্ড ম্যাপিং নিশ্চিত করে না। CGN-এর শর্তাবলিতে গ্রাহকের পরিচয়, বাইরের ঠিকানা, পোর্ট ও সময় দিয়ে ম্যাপিং বর্ণনা করা হয়েছে। [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
 
-**Record the interface:** distinguish your server's local address, a second router's WAN address, the cellular gateway's reported address, and an external service's observation. Here, **WAN** means the upstream side of a router. An address without its interface label is weak diagnostic evidence.
+**ইন্টারফেসের নাম লিখুন:** সার্ভারের স্থানীয় ঠিকানা, দ্বিতীয় রাউটারের WAN ঠিকানা, সেলুলার গেটওয়ে দেখানো ঠিকানা এবং বাইরের সেবার পর্যবেক্ষণ আলাদা রাখুন। এখানে **WAN** মানে রাউটারের ওপরের দিক। ইন্টারফেসের নাম ছাড়া ঠিকানা দুর্বল ডায়াগনস্টিক প্রমাণ।
 
-Consider this **illustrative observation**, using documentation addresses for the public side:
+পাবলিক পাশের জন্য নথিতে সংরক্ষিত ঠিকানা ব্যবহার করা এই **উদাহরণমূলক পর্যবেক্ষণ** দেখুন:
 
-| Observation point | Example reading | Interpretation |
+| পর্যবেক্ষণের স্থান | উদাহরণ | ব্যাখ্যা |
 |---|---|---|
-| **Server LAN** | `192.168.50.10` | Local destination |
-| **Second router WAN** | `192.168.12.20` | Another private network upstream |
-| **External IPv4 check** | `203.0.113.25` | Address seen outside |
+| **সার্ভার LAN** | `192.168.50.10` | স্থানীয় গন্তব্য |
+| **দ্বিতীয় রাউটারের WAN** | `192.168.12.20` | ওপরের স্তরে আরেকটি ব্যক্তিগত নেটওয়ার্ক আছে |
+| **বাইরের IPv4 পরীক্ষা** | `203.0.113.25` | বাইরে থেকে দেখা ঠিকানা |
 
-**Supported conclusion:** the second router is behind another private network. **Unsupported conclusion:** its WAN reading proves the exact carrier translation arrangement. Inspect the cellular gateway separately if its status page exposes the relevant address.
+**সমর্থিত সিদ্ধান্ত:** দ্বিতীয় রাউটারটি আরেকটি ব্যক্তিগত নেটওয়ার্কের পেছনে আছে। **অসমর্থিত সিদ্ধান্ত:** WAN-এর মান ক্যারিয়ারের সুনির্দিষ্ট রূপান্তর বিন্যাস প্রমাণ করে। সেলুলার গেটওয়ের স্ট্যাটাস পৃষ্ঠায় প্রাসঙ্গিক ঠিকানা থাকলে সেটি আলাদাভাবে পরীক্ষা করুন।
 
-**Address-space clue:** a provider-facing address in `100.64.0.0/10` is shared address space. Record which interface reports it. A private-network tool also assigning addresses from this range would make an unlabeled screenshot ambiguous. The range itself is defined by [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**ঠিকানা-পরিসরের সূত্র:** সরবরাহকারীর দিকের `100.64.0.0/10` ঠিকানা শেয়ার করা পরিসরের অংশ। কোন ইন্টারফেস এটি দেখায় তা লিখুন। ব্যক্তিগত নেটওয়ার্কের টুলও এই পরিসরের ঠিকানা দিলে লেবেলবিহীন স্ক্রিনশট দ্ব্যর্থক হবে। [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html) পরিসরটি নির্ধারণ করে।
 
-## Check the Local Service
+## স্থানীয় সেবা পরীক্ষা করুন
 
-For an **HTTP dashboard**, run this request from another Linux or macOS device on your home network. Replace the example address and port with your server's values:
+**HTTP ড্যাশবোর্ডের** ক্ষেত্রে, ঘরের নেটওয়ার্কে থাকা অন্য Linux বা macOS ডিভাইস থেকে এই অনুরোধ চালান। উদাহরণের ঠিকানা ও পোর্ট সার্ভারের মান দিয়ে বদলান:
 
 ```bash
 curl --connect-timeout 5 --max-time 10 --output /dev/null --write-out '%{http_code}\n' http://192.168.50.10:8080/
 ```
 
-**`--connect-timeout`** bounds connection setup. **`--max-time`** bounds the whole request. **`--output`** discards the response body, and **`--write-out`** displays the HTTP status. These options are documented in the [curl manual](https://curl.se/docs/manpage.html).
+**`--connect-timeout`** সংযোগ তৈরির সময়সীমা নির্ধারণ করে। **`--max-time`** পুরো অনুরোধের সময়সীমা নির্ধারণ করে। **`--output`** উত্তরবস্তু বাদ দেয় এবং **`--write-out`** HTTP স্ট্যাটাস দেখায়। এই বিকল্পগুলো [curl ম্যানুয়ালে](https://curl.se/docs/manpage.html) লেখা আছে।
 
-**Interpret the result:** an HTTP response, including an authentication response, shows an HTTP endpoint answered on this route. Confirm its identity in your browser. A timeout does not identify the failing layer. Inspect the listening address, port, and host firewall next.
+**ফল ব্যাখ্যা করুন:** প্রমাণীকরণ চাওয়া উত্তরসহ যেকোনো HTTP উত্তর দেখায় যে এই পথে একটি HTTP endpoint সাড়া দিয়েছে। ব্রাউজারে সেবাটির পরিচয় নিশ্চিত করুন। সময় শেষ হওয়া কোন স্তর ব্যর্থ হয়েছে তা জানায় না। এরপর listen address, পোর্ট এবং হোস্ট ফায়ারওয়াল পরীক্ষা করুন।
 
-*This check applies to HTTP. A game using UDP needs a protocol-appropriate test.*
+*এই পরীক্ষা HTTP-এর জন্য। UDP ব্যবহার করা গেমের জন্য প্রোটোকল-উপযোগী পরীক্ষা দরকার।*
 
-## Choose an Alternative Around the Service
+## সেবার উপযোগী বিকল্প বেছে নিন
 
-**Private access** and **public hosting** have different requirements. Start by deciding who needs the connection and whether they are willing to install a client.
+**ব্যক্তিগত প্রবেশ** ও **সর্বজনীন হোস্টিংয়ের** চাহিদা আলাদা। প্রথমে ঠিক করুন কারা সংযোগ করবে এবং তারা ক্লায়েন্ট ইনস্টল করতে রাজি কি না।
 
-**TCP** transports an ordered stream over a connection. **UDP** transports individual datagrams. Hosting support must match the application's transport, even when two services use the same numeric port.
+**TCP** সংযোগের মধ্যে ক্রমানুসারে সাজানো স্ট্রিম পাঠায়। **UDP** আলাদা datagram পাঠায়। দুটি সেবা একই পোর্ট নম্বর ব্যবহার করলেও হোস্টিংকে অ্যাপ্লিকেশনের পরিবহন প্রোটোকল সমর্থন করতে হবে।
 
-| Need | Approach to evaluate | Main constraint |
+| প্রয়োজন | বিবেচ্য পদ্ধতি | প্রধান সীমা |
 |---|---|---|
-| **Your laptop reaching your home server** | Tailscale private network | Enroll devices and configure access rules |
-| **A private browser dashboard** | Cloudflare Tunnel plus Access | Configure the hostname and identity policy |
-| **A website for public visitors** | Public hosting or an appropriate tunnel | Review protocol, capacity, and service requirements |
-| **A game server for ordinary game clients** | Hosting with documented inbound port support | Match the game's TCP/UDP requirements |
+| **ল্যাপটপ থেকে হোম সার্ভারে পৌঁছানো** | Tailscale ব্যক্তিগত নেটওয়ার্ক | ডিভাইস নিবন্ধন ও প্রবেশাধিকার নিয়ম কনফিগার করা |
+| **ব্রাউজারে ব্যক্তিগত ড্যাশবোর্ড** | Access-সহ Cloudflare Tunnel | হোস্টনাম ও পরিচয় নীতি কনফিগার করা |
+| **সর্বজনীন দর্শকের জন্য ওয়েবসাইট** | পাবলিক হোস্টিং বা উপযুক্ত টানেল | প্রোটোকল, সক্ষমতা ও সেবার চাহিদা দেখা |
+| **সাধারণ গেম ক্লায়েন্টের জন্য গেম সার্ভার** | ইনবাউন্ড পোর্ট সমর্থনের নথি থাকা হোস্টিং | গেমের TCP/UDP চাহিদা মেলানো |
 
-**Tailscale** attempts a direct connection and supports relayed connectivity when direct communication fails. This avoids relying on a manually forwarded home port, although the resulting path affects performance. Read the [Tailscale connection overview](https://tailscale.com/docs/reference/connection-types) and our [relay explainer](/articles/why-tailscale-uses-a-relay/).
+**Tailscale** সরাসরি সংযোগের চেষ্টা করে এবং সরাসরি যোগাযোগ ব্যর্থ হলে রিলে যোগাযোগ সমর্থন করে। এতে ঘরের পোর্ট হাতে ফরোয়ার্ড করার দরকার হয় না, যদিও ব্যবহৃত পথ কর্মদক্ষতায় প্রভাব ফেলে। [Tailscale সংযোগের সারাংশ](https://tailscale.com/docs/reference/connection-types) এবং আমাদের [রিলে ব্যাখ্যা](/articles/why-tailscale-uses-a-relay/) পড়ুন।
 
-**Cloudflare Tunnel** establishes an outbound connection from your server. For a private dashboard, pair it with an Access policy. A published hostname without the policy does not add an identity check. See [Tunnel connectivity](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) and [Tunnel vs Access](/articles/cloudflare-tunnel-vs-access/).
+**Cloudflare Tunnel** সার্ভার থেকে আউটবাউন্ড সংযোগ তৈরি করে। ব্যক্তিগত ড্যাশবোর্ডের জন্য এর সঙ্গে Access নীতি ব্যবহার করুন। নীতি ছাড়া হোস্টনাম প্রকাশ করলে পরিচয় যাচাই যোগ হয় না। দেখুন [Tunnel সংযোগ](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) এবং [Tunnel বনাম Access](/articles/cloudflare-tunnel-vs-access/).
 
-**A VPN subscription alone** does not specify an inbound hosting arrangement. Before buying any service, verify its supported protocols, exposed ports, authentication options, and restrictions. For a game server, ask specifically about the game's required UDP ports.
+**শুধু VPN সাবস্ক্রিপশন** ইনবাউন্ড হোস্টিংয়ের ব্যবস্থা নির্দিষ্ট করে না। কোনো সেবা কেনার আগে সমর্থিত প্রোটোকল, প্রকাশ করা পোর্ট, প্রমাণীকরণের বিকল্প ও সীমাবদ্ধতা যাচাই করুন। গেম সার্ভারের জন্য গেমের প্রয়োজনীয় UDP পোর্ট সরাসরি জিজ্ঞাসা করুন।
 
-## What About IPv6?
+## IPv6-এর ক্ষেত্রে কী হবে?
 
-**IPv6 addressing and inbound permission** are separate requirements. IPv6 reduces dependence on IPv4 address translation, while stateful gateway filtering still controls incoming connections. RFC 6092 describes residential IPv6 filtering, including handling unsolicited traffic. It does not document the settings on your T-Mobile gateway. [Residential IPv6 security recommendations](https://www.rfc-editor.org/rfc/rfc6092.html).
+**IPv6 ঠিকানা এবং ইনবাউন্ড অনুমতি** আলাদা প্রয়োজন। IPv6, IPv4 ঠিকানা রূপান্তরের ওপর নির্ভরতা কমায়, কিন্তু গেটওয়ের stateful ফিল্টারিং ইনকামিং সংযোগ নিয়ন্ত্রণ করে। RFC 6092 অনুরোধহীন ট্রাফিকসহ আবাসিক IPv6 ফিল্টারিং বর্ণনা করে। এটি আপনার T-Mobile গেটওয়ের সেটিং নথিভুক্ত করে না। [আবাসিক IPv6 নিরাপত্তা সুপারিশ](https://www.rfc-editor.org/rfc/rfc6092.html).
 
-**Evaluate the complete route:** the remote client needs IPv6 connectivity, the server needs an appropriate address and listener, and the network must permit the traffic. A successful IPv6 browsing test proves an outbound path. It does not prove an Internet client reaches your server.
+**সম্পূর্ণ পথ মূল্যায়ন করুন:** দূরবর্তী ক্লায়েন্টের IPv6 সংযোগ, সার্ভারের উপযুক্ত ঠিকানা ও listener এবং নেটওয়ার্কের ট্রাফিক অনুমতি দরকার। IPv6 দিয়ে ওয়েব ব্রাউজিং সফল হওয়া আউটবাউন্ড পথের প্রমাণ। এতে ইন্টারনেটের ক্লায়েন্ট সার্ভারে পৌঁছায় তা প্রমাণ হয় না।
 
-| Evidence | What it establishes |
+| প্রমাণ | কী প্রতিষ্ঠা করে |
 |---|---|
-| **An IPv6 address on the server** | An address is assigned to an interface |
-| **A successful outbound IPv6 request** | This client reached an external service |
-| **A remote application response** | The tested inbound application route works |
+| **সার্ভারে IPv6 ঠিকানা** | একটি ইন্টারফেসে ঠিকানা বরাদ্দ হয়েছে |
+| **আউটবাউন্ড IPv6 অনুরোধ সফল** | এই ক্লায়েন্ট বাহ্যিক সেবায় পৌঁছেছে |
+| **দূরবর্তী অ্যাপ্লিকেশনের উত্তর** | পরীক্ষিত ইনবাউন্ড অ্যাপ্লিকেশন পথ কাজ করছে |
 
-**Decision rule:** choose IPv6 hosting only after confirming the complete inbound path and your clients' compatibility. Avoid treating an address assignment as a substitute for a remote application test.
+**সিদ্ধান্তের নিয়ম:** সম্পূর্ণ ইনবাউন্ড পথ ও ক্লায়েন্টের সামঞ্জস্য নিশ্চিত করার পরেই IPv6 হোস্টিং বেছে নিন। ঠিকানা বরাদ্দ হওয়াকে দূরবর্তী অ্যাপ্লিকেশন পরীক্ষার বিকল্প ভাববেন না।
 
-## Check the Application Before Changing the Network
+## নেটওয়ার্ক বদলানোর আগে অ্যাপ্লিকেশন পরীক্ষা করুন
 
-Use these **diagnostic steps** to separate local failures from remote-access limits:
+স্থানীয় সমস্যা ও দূরবর্তী প্রবেশের সীমা আলাদা করতে এই **ডায়াগনস্টিক ধাপগুলো** নিন:
 
-1. **Local connection:** confirm another home device reaches the server's local address and intended port.
-2. **Service configuration:** confirm the application listens on the expected interface and the host firewall permits the intended client.
-3. **Audience:** decide whether access is private or public.
-4. **Remote test:** test the chosen tunnel or private-network connection from a different Internet connection.
-5. **Performance:** measure the actual workload after connectivity succeeds.
+1. **স্থানীয় সংযোগ:** ঘরের অন্য ডিভাইস সার্ভারের স্থানীয় ঠিকানা ও নির্ধারিত পোর্টে পৌঁছায় কি না নিশ্চিত করুন।
+2. **সেবা কনফিগারেশন:** অ্যাপ্লিকেশন প্রত্যাশিত ইন্টারফেসে listen করে এবং হোস্ট ফায়ারওয়াল নির্দিষ্ট ক্লায়েন্টকে অনুমতি দেয় কি না দেখুন।
+3. **ব্যবহারকারী:** প্রবেশাধিকার ব্যক্তিগত না সর্বজনীন হবে তা ঠিক করুন।
+4. **দূরবর্তী পরীক্ষা:** অন্য ইন্টারনেট সংযোগ থেকে নির্বাচিত টানেল বা ব্যক্তিগত নেটওয়ার্ক পরীক্ষা করুন।
+5. **কর্মদক্ষতা:** সংযোগ সফল হলে আসল কাজের চাপ মাপুন।
 
-**A failed local test** needs attention before choosing a remote-access service. Port forwarding would not repair an application listening on the wrong interface.
+**স্থানীয় পরীক্ষা ব্যর্থ হলে** দূরবর্তী প্রবেশের সেবা বাছাইয়ের আগে সেটি খতিয়ে দেখা দরকার। ভুল ইন্টারফেসে listen করা অ্যাপ্লিকেশন পোর্ট ফরোয়ার্ডিংয়ে ঠিক হবে না।
 
-## Work Through a Hosting Choice
+## হোস্টিং পদ্ধতি বেছে নিন
 
-**Scenario:** you want to read a home dashboard while traveling, and two friends want to join a game server. Your dashboard is HTTP. The game requires UDP, and your friends want to use ordinary game clients without installing another network client.
+**পরিস্থিতি:** ভ্রমণের সময় ঘরের ড্যাশবোর্ড দেখতে চান এবং দুই বন্ধু গেম সার্ভারে যোগ দিতে চান। ড্যাশবোর্ড HTTP ব্যবহার করে। গেমের UDP দরকার এবং বন্ধুরা আরেকটি নেটওয়ার্ক ক্লায়েন্ট ইনস্টল না করে সাধারণ গেম ক্লায়েন্ট ব্যবহার করতে চান।
 
-**Separate the requirements.** A browser-based dashboard with a small identity list fits an authenticated web publishing arrangement. The game needs a public route supporting its required transport and clients. Solving the first requirement does not establish support for the second.
+**প্রয়োজনগুলো আলাদা করুন।** অল্প পরিচয়তালিকাসহ ব্রাউজার ড্যাশবোর্ডে প্রমাণীকরণসহ ওয়েব প্রকাশের পদ্ধতি মানানসই। গেমের দরকার এমন একটি পাবলিক পথ, যা প্রয়োজনীয় পরিবহন ও ক্লায়েন্ট সমর্থন করে। প্রথম প্রয়োজন মেটানো দ্বিতীয়টির সমর্থন প্রমাণ করে না।
 
-| Requirement | Reasoned choice |
+| প্রয়োজন | যুক্তিসংগত পছন্দ |
 |---|---|
-| **Private dashboard in a browser** | Evaluate Tunnel plus Access |
-| **Personal access with enrolled devices** | Evaluate a private overlay network |
-| **Public UDP game clients** | Evaluate hosting with documented UDP reachability |
+| **ব্রাউজারে ব্যক্তিগত ড্যাশবোর্ড** | Tunnel ও Access মূল্যায়ন করুন |
+| **নিবন্ধিত ডিভাইস থেকে ব্যক্তিগত প্রবেশ** | ব্যক্তিগত overlay নেটওয়ার্ক বিবেচনা করুন |
+| **সর্বজনীন UDP গেম ক্লায়েন্ট** | নথিভুক্ত UDP পৌঁছানোর সুবিধাসহ হোস্টিং বিবেচনা করুন |
 
-**Review question:** would dynamic DNS make the game reachable through an unavailable inbound route? No. Updating a hostname does not create the required mapping or listener. Reject proposals addressing only the name while leaving the route unexplained.
+**যাচাইয়ের প্রশ্ন:** অনুপলভ্য ইনবাউন্ড পথে ডাইনামিক DNS কি গেমে প্রবেশ করাবে? না। হোস্টনাম আপডেট করলে প্রয়োজনীয় ম্যাপিং বা listener তৈরি হয় না। যে প্রস্তাব শুধু নাম বদলায় কিন্তু পথের ব্যাখ্যা দেয় না, তা বাদ দিন।
 
-**Tradeoff to record:** moving the game to external hosting changes recurring cost and administration. Asking friends to join a private network changes their setup requirements. Choose after confirming which constraint is negotiable.
+**বিনিময়টি লিখুন:** গেম বাইরের হোস্টিংয়ে নিলে নিয়মিত খরচ ও পরিচালনার কাজ বাড়ে। বন্ধুদের ব্যক্তিগত নেটওয়ার্কে যোগ দিতে বললে তাদের সেটআপের চাহিদা বদলায়। কোন সীমা বদলানো সম্ভব তা জেনে সিদ্ধান্ত নিন।
 
-## Build a Connection Plan
+## সংযোগ পরিকল্পনা তৈরি করুন
 
-Create a **one-service plan** with these fields:
+এই ক্ষেত্রগুলো দিয়ে **একটি সেবার পরিকল্পনা** তৈরি করুন:
 
 ```text
-Application and required TCP/UDP ports:
-People or devices needing access:
-Client installation acceptable:
-Local service test result:
-Inbound path available:
-Chosen access method:
-Authentication method:
-Remote test and success criterion:
-Fallback if the test fails:
+অ্যাপ্লিকেশন ও প্রয়োজনীয় TCP/UDP পোর্ট:
+যাদের প্রবেশ দরকার সেই ব্যক্তি বা ডিভাইস:
+ক্লায়েন্ট ইনস্টল গ্রহণযোগ্য কি না:
+স্থানীয় সেবা পরীক্ষার ফল:
+উপলভ্য ইনবাউন্ড পথ:
+নির্বাচিত প্রবেশ পদ্ধতি:
+প্রমাণীকরণ পদ্ধতি:
+দূরবর্তী পরীক্ষা ও সফলতার মানদণ্ড:
+পরীক্ষা ব্যর্থ হলে বিকল্প:
 ```
 
-**Completion criterion:** every step from the remote client to the application has an identified owner and supported mechanism. For a home tunnel, include the connector. For external hosting, include the host's firewall and public listener. Leave unsupported assumptions visible until verified.
+**সম্পন্ন হওয়ার মানদণ্ড:** দূরবর্তী ক্লায়েন্ট থেকে অ্যাপ্লিকেশন পর্যন্ত প্রতিটি ধাপের দায়িত্বপ্রাপ্ত ও সমর্থিত পদ্ধতি চিহ্নিত থাকবে। ঘরের টানেলের ক্ষেত্রে connector অন্তর্ভুক্ত করুন। বাইরের হোস্টিংয়ের ক্ষেত্রে হোস্ট ফায়ারওয়াল ও পাবলিক listener অন্তর্ভুক্ত করুন। যাচাই না হওয়া ধারণাগুলো পরীক্ষা না করা পর্যন্ত স্পষ্ট রাখুন।
 
-## পরবর্তী ধাপ
+## পরবর্তী পদক্ষেপ
 
-For a browser dashboard, start with the [Cloudflare Tunnel setup guide](/guides/how-to-setup-and-use-cloudflare-tunnels/) and add Access. For broader service context, read the [T-Mobile Home Internet overview](/other/t-mobile-home-internet-benefits-connectivity-features/).
+ব্রাউজার ড্যাশবোর্ডের জন্য [Cloudflare Tunnel সেটআপ গাইড](/guides/how-to-setup-and-use-cloudflare-tunnels/) দিয়ে শুরু করে Access যোগ করুন। সেবার বিস্তৃত পরিচয়ের জন্য [T-Mobile Home Internet সারাংশ](/other/t-mobile-home-internet-benefits-connectivity-features/) পড়ুন।

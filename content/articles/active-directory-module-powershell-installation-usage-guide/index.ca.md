@@ -252,6 +252,33 @@ Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
 
+## Comprovacions actuals de RSAT i PowerShell
+
+Microsoft ara distribueix el mòdul Active Directory mitjançant les eines d’administració remota del servidor (RSAT). A les edicions client compatibles de Windows, instal·la la característica a la carta des d’una sessió de PowerShell elevada:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+A Windows Server, fes servir el procediment de característiques de servidor documentat per Microsoft:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Verifica el mòdul abans d’executar ordres d’administració:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+La [referència del mòdul ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) indica que RSAT proporciona el mòdul i enumera les cmdlets disponibles. Fes servir la versió corresponent al sistema operatiu amfitrió. PowerShell 7 té consideracions de compatibilitat. Per això, prova el mòdul en una estació de treball que no sigui de producció abans de canviar un flux d’administració establert.
+
+Com a recomanació operativa, fes servir `-WhatIf` quan una cmdlet ho admeti, limita les consultes amb `-Server` quan sigui important un controlador de domini concret i demana només els permisos necessaris per a la tasca. PowerShell documenta `-WhatIf` als [paràmetres comuns](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). No desis contrasenyes a l’historial d’ordres ni als scripts. Prefereix el missatge segur de [Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), un magatzem protegit de secrets o un compte de servei delegat amb un procés de rotació documentat.
+
 ## Conclusió
 
 Per concloure, el **mòdul d'Active Directory per PowerShell** és una eina potent que permet una gestió eficient i còmoda de l'Active Directory de Windows. Instal·lant i important el mòdul, tens accés a un conjunt complet de **cmdlets** que simplifiquen diverses tasques relacionades amb AD.

@@ -1,11 +1,12 @@
 ---
 title: "Un ghid complet pentru începători privind instrumentele și tehnicile de testare a penetrării"
 date: 2023-03-31
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Învățați elementele esențiale ale instrumentelor și tehnicilor de testare a penetrării, metodologiile și certificările pentru a vă lansa cariera în domeniul securității cibernetice."
 tags: ["teste de penetrare", "securitate cibernetică", "hacking etic", "instrumente", "tehnici", "ghidul începătorului", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "teste de securitate", "evaluarea vulnerabilității", "securitatea rețelei", "securitatea informațiilor"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
+cover: "/img/cover/a-beginners-guide-to-penetration-testing-tools-and-techniques.webp"
 coverAlt: "Un hacker din desene animate purtând o cagulă și ținând în mână o lupă, examinând un ecran de calculator pe care sunt afișate diferite instrumente de testare a hacking-ului, cum ar fi Nmap, Metasploit, Wireshark și Burp Suite, cu încuietori digitale care simbolizează sisteme securizate în fundal."
 coverCaption: ""
 ---

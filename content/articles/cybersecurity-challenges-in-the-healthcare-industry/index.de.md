@@ -1,6 +1,7 @@
 ---
 title: "Schutz von Patientendaten: Strategien für Cybersecurity im Gesundheitswesen"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Entdecken Sie die Herausforderungen der Cybersicherheit im Gesundheitswesen und erkunden Sie Strategien zum Schutz und zur Einhaltung von Vorschriften, um Patientendaten zu schützen und die Einhaltung gesetzlicher Bestimmungen zu gewährleisten."

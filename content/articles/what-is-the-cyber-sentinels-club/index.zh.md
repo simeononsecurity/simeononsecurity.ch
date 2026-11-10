@@ -1,6 +1,7 @@
 ---
 title: "什么是网络哨兵以及为什么要加入"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "了解 Cyber Sentinels 的使命和原则，Cyber Sentinels 是一个由网络和 IT 专业人员组成的社区，致力于分享知识和开发创新解决方案以应对网络安全挑战。"
@@ -40,10 +41,10 @@ Cyber Sentinels 努力创造一个支持性和包容性的环境，让每个人�
 
 ## 加入网络哨兵
 
-如果您有兴趣加入网络哨兵，第一步是访问他们的网站 [https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) 并开始探索各种渠道并与社区互动。 Cyber Sentinels 欢迎各个级别的专业人士，从初学者到专家，并为成员提供各种参与渠道，包括用于一般性讨论、新闻和事件、学习和发展以及项目和协作的文本和语音渠道。他们还提供了一个专门的工作机会和职业建议渠道，以及一个轻松交谈和娱乐的渠道。加入 Cyber Sentinels，您将有机会结识网络安全领域志同道合的专业人士，学习他们的经验，并就新想法和项目展开合作。
+如果您有兴趣加入网络哨兵，第一步是访问他们的网站 [https://cybersentinels.org](https://cybersentinels.org). 接下来，您可以通过以下链接加入他们的 Discord 服务器：[https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) 并开始探索各种渠道并与社区互动。 Cyber Sentinels 欢迎各个级别的专业人士，从初学者到专家，并为成员提供各种参与渠道，包括用于一般性讨论、新闻和事件、学习和发展以及项目和协作的文本和语音渠道。他们还提供了一个专门的工作机会和职业建议渠道，以及一个轻松交谈和娱乐的渠道。加入 Cyber Sentinels，您将有机会结识网络安全领域志同道合的专业人士，学习他们的经验，并就新想法和项目展开合作。
 
 ___________________________________________________________________________
 
-＃＃ 结论
+## 结论
 
 Cyber Sentinels 是一个由网络和 IT 专业人士组成的社区，他们热衷于分享知识、协作研究新想法，并对数字世界的安全产生积极影响。他们代表协作、知识共享、持续学习、支持和包容，以及产生积极影响。如果您有兴趣加入网络安全领域志同道合的专业人士社区，Cyber Sentinels 可能非常适合您。

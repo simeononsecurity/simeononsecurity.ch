@@ -1,6 +1,7 @@
 ---
 title: "Què són els Cyber Sentinels i per què hauríeu d'unir-vos-hi"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Descobriu la missió i els principis dels Cyber Sentinels, una comunitat de ciberprofessionals i de TI compromesos a compartir coneixements i desenvolupar solucions innovadores per als reptes de la ciberseguretat."
@@ -40,7 +41,7 @@ Al final del dia, els Cyber Sentinels estan treballant per tenir un impacte posi
 
 ## Unint-se als Cyber Sentinels
 
-Si esteu interessats a unir-vos als Cyber Sentinels, el primer pas és visitar el seu lloc web a [https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) i comenceu a explorar els diferents canals i a relacionar-vos amb la comunitat. Els Cyber Sentinels donen la benvinguda a professionals de tots els nivells, des de principiants fins a experts, i ofereixen una varietat de canals perquè els membres puguin interactuar, inclosos canals de text i veu per a debats generals, notícies i esdeveniments, aprenentatge i desenvolupament, i projectes i col·laboracions. També ofereixen un canal dedicat per a oportunitats de treball i assessorament professional, així com un canal per a converses alegres i diversió. En unir-te a Cyber Sentinels, tindreu l'oportunitat de connectar amb professionals afins en l'àmbit de la ciberseguretat, aprendre de les seves experiències i col·laborar en noves idees i projectes.
+Si esteu interessats a unir-vos als Cyber Sentinels, el primer pas és visitar el seu lloc web a [https://cybersentinels.org](https://cybersentinels.org). Des d’allà, podeu unir-vos al seu servidor de Discord a [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) i comenceu a explorar els diferents canals i a relacionar-vos amb la comunitat. Els Cyber Sentinels donen la benvinguda a professionals de tots els nivells, des de principiants fins a experts, i ofereixen una varietat de canals perquè els membres puguin interactuar, inclosos canals de text i veu per a debats generals, notícies i esdeveniments, aprenentatge i desenvolupament, i projectes i col·laboracions. També ofereixen un canal dedicat per a oportunitats de treball i assessorament professional, així com un canal per a converses alegres i diversió. En unir-te a Cyber Sentinels, tindreu l'oportunitat de connectar amb professionals afins en l'àmbit de la ciberseguretat, aprendre de les seves experiències i col·laborar en noves idees i projectes.
 
 ________________________________________________________________________________
 

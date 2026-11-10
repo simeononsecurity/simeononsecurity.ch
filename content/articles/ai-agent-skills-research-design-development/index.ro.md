@@ -1,7 +1,7 @@
 ---
 title: "9 proiecte AI Agent Skill pentru cercetare, design și dezvoltare"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Compară nouă proiecte de agent skills după fluxul de lucru, suportul pentru host, dependențe și cost. Învață să instalezi, inspectezi și testezi skills de care ai nevoie."
@@ -223,16 +223,16 @@ record:
 
 ## Referințe
 
-- [last30days: research skill and installation](https://github.com/mvanhorn/last30days-skill)
-- [Humanizer: writing skill](https://github.com/blader/humanizer)
-- [Impeccable: design workflow](https://impeccable.style/)
-- [Impeccable: repository and host-specific setup](https://github.com/pbakaus/impeccable)
-- [Superpowers: development skills](https://github.com/obra/superpowers)
-- [gstack: engineering tools and host support](https://github.com/garrytan/gstack)
-- [Claude Video: Watch skill and runtime requirements](https://github.com/bradautomates/claude-video)
-- [Remotion: React video framework](https://github.com/remotion-dev/remotion)
-- [Remotion: agent skills](https://www.remotion.dev/docs/ai/skills)
-- [Remotion: licensing and pricing](https://www.remotion.dev/docs/license/pricing)
-- [HyperFrames: framework and skill distribution](https://github.com/heygen-com/hyperframes)
-- [NVIDIA SkillSpector: scanner behavior and data handling](https://github.com/NVIDIA/SkillSpector)
-- [Futurepedia: 9 Free AI Agent Skills You NEED to Install Now](https://www.youtube.com/watch?v=3fdb_giOrLo)
+- [last30days: abilitate de cercetare și instalare](https://github.com/mvanhorn/last30days-skill)
+- [Humanizer: abilitate de redactare](https://github.com/blader/humanizer)
+- [Impeccable: flux de lucru pentru design](https://impeccable.style/)
+- [Impeccable: depozit și configurare specifică gazdei](https://github.com/pbakaus/impeccable)
+- [Superpowers: abilități de dezvoltare](https://github.com/obra/superpowers)
+- [gstack: instrumente de inginerie și suport pentru gazde](https://github.com/garrytan/gstack)
+- [Claude Video: abilitatea Watch și cerințe de execuție](https://github.com/bradautomates/claude-video)
+- [Remotion: framework video pentru React](https://github.com/remotion-dev/remotion)
+- [Remotion: abilități pentru agenți](https://www.remotion.dev/docs/ai/skills)
+- [Remotion: licențiere și prețuri](https://www.remotion.dev/docs/license/pricing)
+- [HyperFrames: framework și distribuirea abilităților](https://github.com/heygen-com/hyperframes)
+- [NVIDIA SkillSpector: comportamentul scanerului și gestionarea datelor](https://github.com/NVIDIA/SkillSpector)
+- [Futurepedia: 9 abilități AI gratuite pentru agenți pe care să le instalezi acum](https://www.youtube.com/watch?v=3fdb_giOrLo)

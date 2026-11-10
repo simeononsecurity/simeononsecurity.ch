@@ -1,6 +1,7 @@
 ---
 title: "Cámaras Flock: ¿Herramienta de Seguridad Pública o Máquina de Vigilancia sin Orden Judicial?"
 date: 2026-08-01
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Un análisis independiente de las cámaras ALPR de Flock Safety: cómo funcionan realmente, qué datos recopilan más allá de las matrículas, cómo el intercambio de datos crea una base de datos nacional en la sombra, y por qué la cuestión de la orden judicial es el problema real."
@@ -72,7 +73,117 @@ Un ID de TPMS corresponde a un conjunto específico de neumáticos. Cuando esos 
 
 Esta no es una capacidad hipotética futura. Los receptores RTL-SDR que pueden registrar señales TPMS cuestan alrededor de 40 dólares. La barrera técnica para desplegar monitoreo TPMS pasivo junto a una red ALPR es muy baja.
 
+{{< figure src="flock-tpms-bluetooth-surveillance.webp" alt="Diagrama de cómo una cámara Flock al borde de la carretera captura a la vez matrículas, direcciones MAC Bluetooth de teléfonos e identificadores de sensores TPMS de vehículos que pasan" >}}
+
+
 ______
+
+
+## Lo que registró la cámara
+
+**En septiembre de 2026, un grupo de hackers retiró una cámara Flock de un poste, copió su almacenamiento y publicó las imágenes del sistema de archivos mediante Distributed Denial of Secrets.** Los registros recuperados dieron un historial completo de una instalación real y revelaron cifras superiores a las sugeridas por el marketing público.
+
+*No hackearon la cámara. La desatornillaron.*
+
+### Veintiún días de tráfico
+
+Los registros recuperables abarcan unos **21 días** en varios periodos. La cámara fotografió cerca de **50.200 vehículos y generó alrededor de 1,6 millones de imágenes**.
+
+| Medida | Valor |
+|---------|-------|
+| Vehículos fotografiados | **50.200** |
+| Imágenes generadas | **~1,6 millones** |
+| Día típico | ~3.300 vehículos |
+| Día registrado más concurrido | **4.454 vehículos** |
+| Imágenes por vehículo | ~28 normalmente, **más de 100 en algunos casos** |
+
+Los registros antiguos se habían sobrescrito, así que la cámara funcionó más tiempo que el periodo recuperado. **Un solo punto de carretera produjo un millón de imágenes en menos de un mes.**
+
+### Decenas de fotografías por vehículo
+
+Cuando detecta movimiento, la cámara dispara una ráfaga. Un vehículo típico produjo **28 imágenes**, y algunos más de 100.
+
+La cámara usa **distintas exposiciones** para captar la matrícula y el entorno en fotogramas separados. Después analiza las imágenes, recorta las útiles y las sube por la red celular. El dispositivo no lee la matrícula. Ejecuta unas **20 aplicaciones de Flock** para detectar movimiento, capturar y clasificar imágenes, subir datos y actualizarse a distancia. **La lectura de matrículas y la identificación de vehículos ocurren en los servidores de Flock, no junto a la carretera.**
+
+La diferencia importa en el debate sobre las órdenes judiciales. La cámara no registra pasivamente un número. Envía datos de sensores a un proceso remoto de identificación.
+
+### El software también detecta personas
+
+Flock afirma que sus cámaras detectan vehículos. El código recuperado muestra otra cosa.
+
+**El software incluye expresamente un detector de personas.** Cuando detecta a alguien, registra su posición en el encuadre y una puntuación de confianza. Esta función es independiente de los detectores de vehículos, matrículas y bicicletas. Forma parte deliberada del producto, no es un efecto secundario de un modelo general.
+
+WIRED probó la afirmación al extraer los modelos del dispositivo y ejecutarlos sobre grabaciones recuperadas e imágenes de control. **Los modelos detectaron personas con facilidad, incluso en la selfie de un reportero.** Al procesar **27.321 clips almacenados**, detectaron personas en 11, todos con motociclistas. El número bajo se debe a que la cámara está elevada sobre la carretera y apunta a los carriles, no a una limitación del detector.
+
+**Los clips también son un hallazgo importante.** Son **vídeos MP4 de uno a dos segundos, de 1024 × 768 píxeles y sin audio**, guardados aparte de las ráfagas fijas de alta resolución. Flock destaca públicamente las fotos de matrículas. El dispositivo también graba vídeos cortos.
+
+*Flock sostiene que sus cámaras no hacen reconocimiento facial. La investigación no encontró pruebas más allá de las capacidades predeterminadas de Android, que no parecían activadas ni en uso.*
+
+### El detector ve matrículas por todas partes
+
+La misma investigación halló que el detector clasificaba gráficos como matrículas.
+
+**Recortaba pegatinas de parachoques, marcos de concesionarios y otros gráficos como si fueran matrículas.** En un vídeo de una moto, aisló un **parche con la bandera estadounidense en la alforja del conductor** y lo trató como una placa.
+
+Esto afecta la precisión técnica y la privacidad. El sistema recoge imágenes de objetos que no debía captar y las envía a los mismos servidores que reciben las lecturas legítimas.
+
+### La cámara se quedaba sin espacio
+
+Los registros muestran presión constante de almacenamiento. Al guardar imágenes completas, anotaron **más de 27.000 errores “no space left on device”**, además de decenas de miles de errores relacionados, fallos y reinicios.
+
+Dos mensajes revelan detalles de diseño:
+
+- Cada dos minutos, un servicio comprobaba si la cámara seguía activa y registraba **“Who's a good boy?!”**. Los registros contienen más de **12.000** entradas.
+- Al reiniciarse la cámara, otro servicio dejaba **“A reboot was requested! ¡Adiós, Amigos!”**.
+
+El tono es informal. Las consecuencias no. El dispositivo lleva ocho años sin parches del sistema operativo y se bloquea o se queda sin disco mientras guarda las imágenes que recopila.
+
+______
+
+## La línea de productos recopila más que matrículas
+
+La cámara recuperada era una Falcon. La flota es mayor y los productos nuevos recopilan señales que un lector de matrículas nunca detectó.
+
+### El sensor de audio clasifica llamadas de auxilio
+
+**Raven** es un dispositivo de audio independiente de las cámaras. Usa un ESP32 con DSP neuronal Syntiant NDP120-B0. Al principio clasificaba cuatro sonidos: disparos, neumáticos, fondo y desconocido.
+
+**Una actualización de firmware de octubre de 2025 añadió una quinta clase: sonidos de angustia humana.** El sensor puntúa si alguien cercano parece necesitar ayuda y activa las cámaras Condor y Falcon del lugar mediante FlockOne.
+
+*Un dispositivo anunciado para detectar disparos se convirtió discretamente en un monitor acústico de angustia.*
+
+### Las cámaras ahora vuelan
+
+**Alpha** es el dron de Flock. Se presentó en octubre de 2025 y ya está desplegado, incluido un **piloto del South Bend Police Department en marzo de 2026**. Flock lo diseñó, se ensambla en EE. UU. y cumple la NDAA.
+
+| Especificación | Valor |
+|---------------|-------|
+| Velocidad máxima | **60 MPH** |
+| Vuelo | ~45 minutos |
+| Cambio de batería | **90 segundos** en una base de dos baterías |
+| Enlaces celulares | **4 módems independientes** para conmutación |
+| Altitud de lectura de matrículas | **hasta 2.000 pies** |
+| Cobertura | hasta **50 millas cuadradas por base** |
+
+**Aerodome** es la antigua línea de drones, adquirida por **300 millones de dólares en octubre de 2024**. Usa DJI Matrice M350 y M300 RTK. El nido Hextronics Atlas almacena ocho baterías para operar continuamente. Prosper Police y Scottsdale aún las usan.
+
+### La red integra cámaras de otras empresas
+
+**Wing** es un puente de software anunciado en octubre de 2025, no un dispositivo. Añade análisis de Flock a cámaras IP de terceros ya instaladas y las conecta a la interfaz de investigación **Nova**.
+
+**Esto cambia la escala del problema.** Una ciudad con cámaras Flock sabe qué instaló. Una ciudad que usa Wing convierte sus cámaras existentes en sensores Flock sin comprar otras. Las grabaciones llegan a un sistema único y consultable.
+
+### El remolque facilita el despliegue
+
+El **remolque LPR** monta una cámara Flock en un chasis All Traffic Solutions ATS-5 con **120 vatios solares**, una **batería de 47 amperios-hora** y radar con panel de mensajes. Se conecta a un enganche receptor de 2 pulgadas y una persona puede desplegarlo.
+
+También informa de manipulaciones y batería baja. La empresa espera que alguien interfiera con el equipo en el terreno.
+
+{{< figure src="flock-data-sharing-shadow-national-network.webp" alt="Mapa que muestra cómo las redes de cámaras Flock de ciudades y condados se conectan mediante acuerdos de intercambio de datos en una base regional y casi nacional consultable" >}}
+
+
+______
+
 
 ## El Problema Real: Fotografía versus Base de Datos
 
@@ -95,6 +206,8 @@ Las redes individuales de cámaras Flock no están aisladas. Las ciudades y los 
 **Así es como una red local de cámaras se convierte en un sistema de vigilancia nacional de facto sin que el Congreso haya votado nunca sobre ello.**
 
 El intercambio de datos es voluntario y legalmente turbio. No hay ningún estatuto federal que lo autorice. No hay límites estandarizados de retención de datos. No hay requisitos obligatorios de auditoría. Y no hay ningún mecanismo para que un ciudadano descubra si los movimientos de su vehículo han sido consultados.
+
+**La escala de este acceso ya está documentada.** En Alpharetta, Georgia, WIRED encontró que los registros de las cámaras Flock de la ciudad eran accesibles para **más de 2.000 organismos**, incluidos departamentos de policía, universidades, aeropuertos y la Oficina del Inspector General de la Administración federal de Servicios Generales. La cifra no es una particularidad de los acuerdos de Alpharetta. Refleja cómo Flock conecta por defecto su red nacional.
 
 DeFlock.org, que recopila de manera colectiva las ubicaciones de las cámaras Flock, ha mapeado más de **124.000 despliegues LPR sospechosos** en los Estados Unidos. La cobertura en áreas urbanas y suburbanas es suficientemente densa como para que conducir por la mayoría de las ciudades estadounidenses genere un registro de vigilancia casi continuo.
 
@@ -196,6 +309,10 @@ El camino a seguir no es destruir las cámaras. Es requerir órdenes judiciales 
 
 Esa es una respuesta aburrida y procedimental. No genera indignación en ninguno de los dos lados. Pero es la única respuesta que toma en serio tanto la seguridad pública como la libertad constitucional.
 
+Si quieres saber cuándo estás cerca de una de estas cámaras en vez de esperar una reforma política, ya existe hardware específico para detectarlas.
+
+{{< stscollective-ad "flockyou" >}}
+
 ______
 
 ## Artículos Relacionados
@@ -222,4 +339,9 @@ ______
 8. [FBI Vault — COINTELPRO](https://vault.fbi.gov/cointel-pro)
 9. [MuckRock — Flock Safety](https://www.muckrock.com/tags/flock-safety/)
 10. [Flock Finder GitHub](https://github.com/simeononsecurity/flock-finder)
-11. [Mapa Interactivo de Flock Finder](https://simeononsecurity.github.io/flock-finder/)
+11. [WIRED y 404 Media: piratas informáticos entraron en una cámara Flock](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+12. [Micah Lee: las cámaras Flock están plagadas de vulnerabilidades y credenciales codificadas](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+13. [Distributed Denial of Secrets: imágenes del sistema de archivos de una cámara ALPR Flock](https://ddosecrets.org/article/flock-alpr-camera)
+14. [Hackaday: Esta semana en seguridad, las cámaras Flock son antiguas](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+15. [WiFi Mothership: referencia de detección de dispositivos ALPR de Flock Safety](https://wifimothership.com/flock)
+16. [Mapa interactivo de Flock Finder](https://simeononsecurity.github.io/flock-finder/)

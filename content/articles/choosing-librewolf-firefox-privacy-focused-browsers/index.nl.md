@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp
 coverAlt: Een illustratie die een digitaal landschap toont met een schildachtige structuur die privacy symboliseert, omringd door levendige iconen die gegevensbescherming vertegenwoordigen, tegen een donkere achtergrond.
 coverCaption: 'Ontgrendel Je Privacy: Verkenning van de LibreWolf en Firefox Browsers'
-lastmod: 2026-10-08
+lastmod: 2026-11-09
 ---
 **Privacygerichte Browsers: Een Vergelijking van LibreWolf en Firefox**
 
@@ -117,6 +117,14 @@ ______
 
 ______
 
+## Beveiligingsupdate: Firefox 159 (27 oktober 2026)
+
+**Privacyinstellingen vervangen geen beveiligingsupdates.** [Mozilla’s beveiligingsadvies voor Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/) noemt ernstige problemen, waaronder CVE-2026-117860, een omzeiling van het same-origin-beleid, en CVE-2026-117861, CVE-2026-117864 en CVE-2026-117868, die allemaal als sandbox-ontsnappingen worden beschreven. Mozilla noemt **Firefox 159** als de versie met de oplossing. De [release-opmerkingen voor 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/) dateren de uitgave op 27 oktober. Het advies noemt niet per probleem de eerste getroffen versie en meldt geen actieve exploitatie.
+
+**Controleer welke tak je gebruikt.** Gebruik je de standaardversie van Firefox, installeer dan de actuele versie via je normale updatekanaal en controleer het versienummer in het venster ‘Over Firefox’. Firefox ESR heeft aparte adviezen: Mozilla noemt [ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/) als oplossing voor de vier genoemde CVE’s en publiceert een apart [ESR 115.44-advies](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/) voor die tak. Gebruik het versienummer van standaard-Firefox niet om ESR-patches te controleren.
+
+Gebruik je **LibreWolf of een andere op Firefox gebaseerde browser**, vergelijk dan de geïnstalleerde build met de release-opmerkingen en beveiligingsmeldingen van het afgeleide project. Mozilla’s Firefox-advies bewijst op zichzelf niet dat een afgeleide build een bepaalde oplossing bevat. Controleer de [LibreWolf-projectreleases](https://librewolf.dev/librewolf/bsys6/releases) voor de build die je installeert. Privacyinstellingen of een upstream Firefox-release bewijzen niet dat een patch is toegepast.
+
 ## Open source en betrokkenheid van de gemeenschap
 
 ### LibreWolf's nadruk op open source
@@ -141,11 +149,39 @@ Evenzo is **Firefox** gelicenseerd onder de Mozilla Public License 2.0, wat zijn
 
 ______
 
+## Beslischecklist voor 2026
+
+LibreWolf en Firefox gebruiken dezelfde Firefox-engine, maar passen bij verschillende onderhoudsvoorkeuren. LibreWolf gebruikt een privacygerichte configuratie en verwijdert of wijzigt sommige Mozilla-diensten. Firefox biedt een breder ondersteuningstraject, vertrouwde standaardinstellingen en directe integratie met een Mozilla-account.
+
+Controleer deze vier punten voordat je overstapt:
+
+- **Timing van updates.** Installeer beveiligingsupdates snel via het officiële kanaal van de browser.
+- **Compatibiliteit met sites.** Test bankzaken, werkportalen, videogesprekken en extensies voor wachtwoordbeheer in een apart profiel.
+- **Accounts scheiden.** Gebruik geen persoonlijke synchronisatiegegevens in een onderzoeksprofiel of op gedeelde apparaten.
+- **Herstel.** Exporteer bladwijzers, noteer extensienamen en controleer of je bij herstelcodes kunt voordat je overstapt.
+
+Privacy vereist ook controle van je besturingssysteem, account, router en netwerk. Een privébrowser verbergt activiteit niet voor een dienst waarbij je bent aangemeld, de eigenaar van het lokale apparaat of een netwerkprovider. Raadpleeg [Mozilla’s hulp over privacy en beveiliging](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) en de [LibreWolf-documentatie](https://librewolf.net/docs/) bij het controleren van een instelling.
+
+## Updates, fingerprinting en compatibiliteitscontroles
+
+**LibreWolf en Firefox lossen verschillende problemen op.** LibreWolf gebruikt strengere instellingen en verwijdert bepaalde Firefox-diensten. Volgens de project-FAQ volgen updates Firefox meestal binnen drie dagen, maar voor updates is LibreWolf afhankelijk van pakketbeheerders of gebruikers. Firefox biedt een regulier updatekanaal, accountsynchronisatie, bredere compatibiliteit en beschermingsinstellingen per site. Lees de [LibreWolf-FAQ](https://librewolf.net/docs/faq/) en Mozilla’s [gids voor bescherming tegen tracking](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false).
+
+**Bescherming tegen fingerprinting kent grenzen.** Strenge instellingen verminderen veelvoorkomende volgsignalen, maar laten niet iedere gebruiker er hetzelfde uitzien. Schermgrootte, taal, besturingssysteem, extensies en ongebruikelijke aanpassingen blijven van invloed. Firefox Total Cookie Protection isoleert siteopslag, maar verbergt je accountidentiteit niet voor de site die je bezoekt. In deze vergelijking is Tor Browser de optie die is ontworpen rond een gedeelde anonimiteitsgroep. [Lees de Tor Browser-documentatie over fingerprintingbescherming](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+| Beslispunt | LibreWolf | Firefox |
+|---|---|---|
+| **Standaardinstellingen** | Sterkere privacyinstellingen met meer compromissen voor compatibiliteit | Gebalanceerde instellingen met aanpasbare beschermingsniveaus |
+| **Updates** | Afhankelijk van pakketbeheerder of handmatige installatie | Browserupdates beheerd door Mozilla |
+| **Synchronisatie** | Geen synchronisatie met Mozilla-account, bewust zo ontworpen | Ingebouwde Firefox-accountsynchronisatie |
+| **Compatibiliteit met sites** | Test DRM, werkportalen en ongebruikelijke webapps eerst | Brede compatibiliteit met uitzonderingen per site |
+| **Geschikt voor** | Een aparte desktopbrowser voor privacygevoelig onderzoek | Een dagelijkse browser wanneer ondersteuning en synchronisatie tellen |
+
+Open vóór de overstap de sites die je gebruikt, controleer de geïnstalleerde versie en test een nieuw profiel. Stapel geen fingerprintingextensies zonder concrete reden. Extra aanpassingen vergroten de kans op problemen en kunnen je browser minder gebruikelijk maken.
+
 ## Conclusie: de juiste privacygerichte browser kiezen
 
-**LibreWolf** en **Firefox** bieden elk overtuigende opties voor gebruikers die op zoek zijn naar verbeterde privacy en beveiliging tijdens het browsen. De keuze tussen beide hangt af van individuele prioriteiten en voorkeuren. Als gebruikers waarde hechten aan diepe aanpasbaarheid en een sterke nadruk op gebruikersvrijheid
+**LibreWolf** en **Firefox** zijn aantrekkelijke opties voor mensen die meer privacy en beveiliging tijdens het browsen willen. De keuze hangt af van persoonlijke prioriteiten en voorkeuren. Als gebruikers veel aanpassingsmogelijkheden en een sterke nadruk op gebruikersvrijheid waarderen
 
-______
 
 ## Referenties
 
@@ -153,3 +189,8 @@ ______
 2. [Officiële website van Firefox](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Mozilla-beveiligingsadvies 2026-118: Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Release-opmerkingen Firefox 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Mozilla-beveiligingsadvies 2026-120: Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Mozilla-beveiligingsadvies 2026-119: Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [LibreWolf-projectreleases](https://librewolf.dev/librewolf/bsys6/releases)

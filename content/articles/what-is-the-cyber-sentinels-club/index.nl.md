@@ -1,6 +1,7 @@
 ---
 title: "Wat zijn de Cyber Sentinels en waarom moet je lid worden?"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Ontdek de missie en principes van de Cyber Sentinels, een gemeenschap van cyber- en IT-professionals die zich inzetten voor het delen van kennis en het ontwikkelen van innovatieve oplossingen voor cyberbeveiligingsuitdagingen."
@@ -14,7 +15,7 @@ De Cyber Sentinels zijn een gemeenschap van cyber- en IT-professionals die zich 
 
 Als gemeenschap staan de Cyber Sentinels open voor iedereen die hun passie voor cyberbeveiliging en IT deelt. Ze verwelkomen professionals op alle niveaus, van beginners tot experts, en streven ernaar een ondersteunende en inclusieve omgeving te creëren waarin iedereen kan leren en groeien.
 
-**Waar staan de Cyber Sentinels voor?
+**Waar staan de Cyber Sentinels voor?**
 
 In de kern staan de Cyber Sentinels voor een paar belangrijke principes die hun missie en visie bepalen. Deze principes omvatten:
 
@@ -40,7 +41,7 @@ Uiteindelijk willen de Cyber Sentinels een positieve impact hebben op de veiligh
 
 ## Lid worden van de Cyber Sentinels
 
-Als u zich wilt aansluiten bij de Cyber Sentinels, is de eerste stap een bezoek aan hun website op[https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) en beginnen met het verkennen van de verschillende kanalen en de betrokkenheid bij de gemeenschap. De Cyber Sentinels verwelkomen professionals op alle niveaus, van beginners tot experts, en bieden een verscheidenheid aan kanalen voor leden om zich mee bezig te houden, waaronder tekst- en spraakkanalen voor algemene discussie, nieuws en evenementen, leren en ontwikkelen, en projecten en samenwerkingen. Ze bieden ook een speciaal kanaal voor vacatures en loopbaanadvies, evenals een kanaal voor luchtige gesprekken en plezier. Door lid te worden van de Cyber Sentinels krijgt u de kans om in contact te komen met gelijkgestemde professionals op het gebied van cyberbeveiliging, te leren van hun ervaringen en samen te werken aan nieuwe ideeën en projecten.
+Als u zich wilt aansluiten bij de Cyber Sentinels, is de eerste stap een bezoek aan hun website op [https://cybersentinels.org](https://cybersentinels.org). Daar kunt u lid worden van hun Discord-server via [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) en beginnen met het verkennen van de verschillende kanalen en de betrokkenheid bij de gemeenschap. De Cyber Sentinels verwelkomen professionals op alle niveaus, van beginners tot experts, en bieden een verscheidenheid aan kanalen voor leden om zich mee bezig te houden, waaronder tekst- en spraakkanalen voor algemene discussie, nieuws en evenementen, leren en ontwikkelen, en projecten en samenwerkingen. Ze bieden ook een speciaal kanaal voor vacatures en loopbaanadvies, evenals een kanaal voor luchtige gesprekken en plezier. Door lid te worden van de Cyber Sentinels krijgt u de kans om in contact te komen met gelijkgestemde professionals op het gebied van cyberbeveiliging, te leren van hun ervaringen en samen te werken aan nieuwe ideeën en projecten.
 
 ___________________________________________________________________________
 

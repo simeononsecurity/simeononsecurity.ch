@@ -1,154 +1,154 @@
 ---
-title: "Flock Safety's Sales Pitch: Warrantless Access to Every Movement"
+title: "Flock Safety की बिक्री की कहानी: बिना वारंट हर गतिविधि तक पहुँच"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
-description: "Flock Safety does not sell cameras. It sells a subscription to warrantless movement data. Here is how the sales pitch works, how it runs against the Fourth Amendment, and why the fight is about the pitch, not the company."
-genre: ["Privacy Technology", "Digital Rights", "Surveillance", "Legal Analysis", "Counter Surveillance"]
-tags: ["Flock Safety", "ALPR", "license plate reader", "Fourth Amendment", "warrantless surveillance", "mass surveillance", "Carpenter v. United States", "United States v. Jones", "location tracking", "movement database", "privacy rights", "constitutional law", "Axon", "evidence.com", "red light cameras", "Redflex", "Pflugerville", "Knox County", "sales pitch", "pre-crime profiling", "separation of powers", "Bill of Rights", "counter surveillance", "digital rights", "T-Rex Lab"]
+description: "Flock Safety के बिक्री संदेश, गतिविधि डेटा तक पहुँच और बिना वारंट तलाशी से उठने वाले संवैधानिक सवालों की जाँच करें।"
+genre: ["गोपनीयता तकनीक", "डिजिटल अधिकार", "निगरानी", "कानूनी विश्लेषण", "प्रतिनिगरानी"]
+tags: ["Flock Safety", "ALPR", "लाइसेंस प्लेट रीडर", "चौथा संशोधन", "बिना वारंट निगरानी", "जन निगरानी", "Carpenter v. United States", "United States v. Jones", "स्थान ट्रैकिंग", "गतिविधि डेटाबेस", "गोपनीयता अधिकार", "संवैधानिक कानून", "Axon", "evidence.com", "लाल बत्ती कैमरे", "Redflex", "Pflugerville", "Knox County", "बिक्री संदेश", "अपराध-पूर्व प्रोफाइलिंग", "शक्तियों का पृथक्करण", "अधिकार विधेयक", "प्रतिनिगरानी", "डिजिटल अधिकार", "T-Rex Lab"]
 cover: "/img/cover/flock-safety-warrantless-access-surveillance-database.webp"
-coverAlt: "A futuristic cityscape at night with various surveillance cameras and a holographic display of movement data above the streets, illuminated by vibrant neon lights in blues and greens."
+coverAlt: "रात का भविष्यवादी शहरी दृश्य, जिसमें कई निगरानी कैमरे और सड़कों के ऊपर गतिविधि डेटा दिखाने वाला होलोग्राफिक डिस्प्ले नीली और हरी रोशनी में चमक रहा है।"
 coverCaption: ""
 ---
 
-**Flock Safety does not sell cameras.** The company sells a searchable record of where vehicles and people go, delivered to law enforcement as a subscription with no warrant and no delay. Watch the sales pitch instead of the hardware, because the pitch is the constitutional problem.
+**Flock Safety कैमरे नहीं बेचती।** कंपनी कानून प्रवर्तन एजेंसियों को सदस्यता के रूप में, बिना वारंट या देरी के, ऐसा खोजने योग्य रिकॉर्ड बेचती है जो बताता है कि वाहन और लोग कहाँ जाते हैं। हार्डवेयर के बजाय बिक्री संदेश पर ध्यान दें, क्योंकि संवैधानिक समस्या उसी संदेश में है।
 
-*The video below traces the argument end to end. It names the product, quotes the Fourth Amendment, walks the relevant court cases, and shows the two contradictory pitches Flock makes to different audiences.*
+*वीडियो तर्क को शुरू से अंत तक समझाता है। यह उत्पाद का नाम बताता है, चौथे संशोधन को उद्धृत करता है, संबंधित अदालती मामलों की समीक्षा करता है और अलग-अलग लोगों के लिए Flock के दो विरोधाभासी संदेश दिखाता है।*
 
 {{< youtube id="8OuBWAmoxE8" >}}
 
-The source video, [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) from the T-Rex Lab channel, lays out the full case. The write-up below keeps the claims and adds the supporting law.
+T-Rex Lab चैनल का मूल वीडियो [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) पूरा मामला रखता है। नीचे का लेख उन दावों को बरकरार रखते हुए सहायक कानून जोड़ता है।
 
 <!--more-->
 
 ## मुख्य बातें
 
-- **The camera is a decoy.** The product is the database, and the camera only feeds it.
-- **The Fourth Amendment reaches movement records.** Jones and Carpenter extend protection to continuous location tracking.
-- **Flock sells access, not data.** The wording reclassifies a search as a query and a record as an access plan.
-- **The pitch changes by audience.** Law enforcement hears "no warrants." The public hears "small and cautious."
-- **Watch the pitch, not the company.** Every competitor selling warrantless access to private movement is the same fight.
+- **कैमरा ध्यान भटकाने का साधन है।** उत्पाद डेटाबेस है, और कैमरा उसमें केवल जानकारी भेजता है।
+- **चौथा संशोधन गतिविधि रिकॉर्ड की रक्षा करता है।** Jones और Carpenter के फैसले निरंतर स्थान ट्रैकिंग तक सुरक्षा बढ़ाते हैं।
+- **Flock डेटा नहीं, पहुँच बेचती है।** शब्दों का चुनाव तलाशी को क्वेरी और रिकॉर्ड को पहुँच योजना कहता है।
+- **श्रोता के अनुसार संदेश बदलता है।** कानून प्रवर्तन को सुनाई देता है “कोई वारंट नहीं।” जनता को सुनाई देता है “छोटा और सावधान।”
+- **कंपनी नहीं, उसके संदेश पर ध्यान दें।** निजी गतिविधियों तक बिना वारंट पहुँच बेचने वाला हर प्रतियोगी इसी लड़ाई का हिस्सा है।
 
 ______
 
-## What the Company Sells
+## कंपनी क्या बेचती है
 
-Flock enters a market where cameras are already everywhere. Tens of millions of commercial cameras watch storefronts. Doorbell cameras sit on nearly half of American homes. Officers wear body cameras and drive dash cameras, and every phone carries several cameras.
+Flock ऐसे बाजार में आती है जहाँ कैमरे पहले से हर जगह हैं। करोड़ों व्यावसायिक कैमरे दुकानों पर नजर रखते हैं। अमेरिका के लगभग आधे घरों में डोरबेल कैमरे हैं। अधिकारी बॉडी कैमरे पहनते हैं और डैश कैमरों वाली गाड़ियाँ चलाते हैं, और हर फोन में कई कैमरे होते हैं।
 
-**Cameras are not scarce, so Flock does not sell cameras.** Access to crime footage is not scarce either: victims hand their recordings straight to departments, and phone video of a crime often lands on social media before an officer asks for it. **Automated license plate readers are not new** either. The technology dates to the 1970s and already runs on the traffic signals maintained by transportation departments.
+**कैमरों की कमी नहीं है, इसलिए Flock कैमरे नहीं बेचती।** अपराध की फुटेज तक पहुँच भी दुर्लभ नहीं है: पीड़ित अपनी रिकॉर्डिंग सीधे पुलिस विभागों को देते हैं, और अपराध का फोन वीडियो अक्सर किसी अधिकारी के माँगने से पहले सोशल मीडिया पर पहुँच जाता है। **स्वचालित लाइसेंस प्लेट रीडर भी नए नहीं हैं।** यह तकनीक 1970 के दशक की है और परिवहन विभागों द्वारा संचालित ट्रैफिक सिग्नलों पर पहले से चलती है।
 
-| Flock does not sell | Why |
+| Flock क्या नहीं बेचती | क्यों |
 |---|---|
-| **Cameras** | Commercial, doorbell, body, dash, and phone cameras already cover most public space |
-| **Access to footage** | Victims and bystanders supply footage directly, and phone video spreads online |
-| **License plate readers** | The technology dates to the 1970s and already runs on traffic signals |
+| **कैमरे** | व्यावसायिक, डोरबेल, बॉडी, डैश और फोन कैमरे पहले से अधिकांश सार्वजनिक जगहें कवर करते हैं। |
+| **फुटेज तक पहुँच** | पीड़ित और गवाह फुटेज सीधे देते हैं, और फोन वीडियो ऑनलाइन फैलते हैं। |
+| **लाइसेंस प्लेट रीडर** | यह तकनीक 1970 के दशक की है और ट्रैफिक सिग्नलों पर पहले से चलती है। |
 
-**The scarce thing is the database.** Flock aggregates plate reads, locations, and timestamps into a searchable record of movement, then sells access to it. The pitch to departments comes down to one line worth remembering: the same information a warrant would produce, but with no warrant and no wait.
-
-______
-
-## A Warrant Is Supposed to Add Friction
-
-Phone carriers, car makers, and phone vendors each hold large location stores. Those stores carry legal friction. A request for one person's movement history needs a warrant, and a warrant needs probable cause, a judge, and a written record. Courts have repeatedly narrowed the broad geo-fence warrants after challenges.
-
-Flock sells an equivalent record without the friction. Its stated position is simple: movement on public roads is public, so no warrant applies.
-
-The asymmetry is the whole business. The same movement data costs a warrant when a carrier holds it and nothing when Flock holds it. Removing the warrant removes the record of the search, and the record of the search is the part the public audits.
+**दुर्लभ चीज डेटाबेस है।** Flock प्लेट रीड, स्थान और समय-चिह्न जोड़कर गतिविधियों का खोजने योग्य रिकॉर्ड बनाती है, फिर उस तक पहुँच बेचती है। पुलिस विभागों के लिए संदेश एक वाक्य में है: वही जानकारी जो वारंट देता, लेकिन बिना वारंट और प्रतीक्षा के।
 
 ______
 
-## The Fourth Amendment
+## वारंट से अतिरिक्त प्रक्रिया जुड़नी चाहिए
 
-The amendment reads as a defense against general searches. Its full text:
+फोन कंपनियाँ, कार निर्माता और फोन विक्रेता बड़े स्थान डेटा भंडार रखते हैं। उन पर कानूनी रोक लागू होती है। किसी व्यक्ति का गतिविधि इतिहास माँगने के लिए वारंट चाहिए, जिसके लिए संभावित कारण, न्यायाधीश और लिखित रिकॉर्ड जरूरी हैं। चुनौतियों के बाद अदालतों ने व्यापक जियोफेंस वारंटों का दायरा बार-बार घटाया है।
 
-> The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.
+Flock ऐसी ही जानकारी बिना इन बाधाओं के बेचती है। कंपनी का घोषित तर्क सीधा है: सार्वजनिक सड़कों पर गतिविधि सार्वजनिक है, इसलिए वारंट लागू नहीं होता।
 
-The amendment responds to the general warrants, called writs of assistance, in use before independence. Those writs named no specific place or person and carried no expiry. Officials searched anywhere, at any time, on vague suspicion. The amendment rejects the practice by tying every search to probable cause, a sworn statement, and a particular description.
-
-Flock's service removes all three in one step: no probable cause, no oath, no particular description. The video's point is blunt. A subscription dispensing with the warrant dispenses with the entire safeguard.
+यही असमानता कारोबार का केंद्र है। वही गतिविधि डेटा किसी फोन कंपनी के पास हो तो वारंट चाहिए, Flock के पास हो तो कुछ नहीं। वारंट हटाने से तलाशी का रिकॉर्ड भी हट जाता है। जनता इसी रिकॉर्ड की जाँच करती है।
 
 ______
 
-## The Case Law
+## चौथा संशोधन
 
-Two lines of authority collide here.
+यह संशोधन सामान्य तलाशी से लोगों की रक्षा करता है। इसका पूरा पाठ है:
 
-The older line holds recording what happens on a public road needs no warrant, because a person on a public road keeps no reasonable expectation of privacy in the movements seen there. Flock leans on this line and the 1984 case the video discusses.
+> अनुचित तलाशी और जब्ती से व्यक्ति, घर, कागज और संपत्ति की सुरक्षा का लोगों का अधिकार भंग नहीं किया जाएगा। संभावित कारण होने पर ही वारंट जारी होंगे, जिसकी पुष्टि शपथ या घोषणा से हो, और वारंट में तलाशी के स्थान तथा जब्त की जाने वाली वस्तुओं या लोगों का स्पष्ट विवरण हो।
 
-The newer line pulls the other way. **United States v. Jones** (2012) held a GPS tracker fixed to a vehicle, and followed for weeks, is a search needing a warrant even on public roads. **Carpenter v. United States** (2018) reached the same result for cell-site location records held by wireless carriers, because a person keeps a reasonable expectation of privacy in the record of their physical movements.
+यह संशोधन स्वतंत्रता से पहले उपयोग होने वाले सामान्य वारंटों, जिन्हें writs of assistance कहा जाता था, की प्रतिक्रिया में आया। उनमें कोई खास स्थान या व्यक्ति नहीं बताया जाता था और उनकी समयसीमा नहीं होती थी। अधिकारी अस्पष्ट संदेह के आधार पर कहीं भी और कभी भी तलाशी ले सकते थे। संशोधन हर तलाशी को संभावित कारण, शपथपत्र और विशेष विवरण से जोड़कर इस प्रथा को अस्वीकार करता है।
 
-| Case | Year | Result |
+Flock की सेवा एक ही कदम में तीनों शर्तें हटा देती है: न संभावित कारण, न शपथ, न विशेष विवरण। वीडियो का संदेश स्पष्ट है। जो सदस्यता वारंट हटाती है, वह पूरी सुरक्षा हटा देती है।
+
+______
+
+## न्यायिक फैसले
+
+यहाँ न्यायिक फैसलों की दो धाराएँ टकराती हैं।
+
+पुरानी धारा कहती है कि सार्वजनिक सड़क पर होने वाली बात रिकॉर्ड करने के लिए वारंट नहीं चाहिए, क्योंकि सार्वजनिक सड़क पर दिखने वाली गतिविधि के लिए व्यक्ति को गोपनीयता की उचित अपेक्षा नहीं होती। Flock इसी धारा और वीडियो में चर्चा किए गए 1984 के मामले पर भरोसा करती है।
+
+नई धारा दूसरी दिशा में जाती है। **United States v. Jones** (2012) ने तय किया कि वाहन पर GPS ट्रैकर लगाकर उसे कई सप्ताह तक देखना वारंट वाली तलाशी है, भले वाहन सार्वजनिक सड़कों पर चले। **Carpenter v. United States** (2018) ने फोन कंपनियों द्वारा रखे सेल-साइट स्थान रिकॉर्ड पर भी यही निष्कर्ष दिया, क्योंकि लोगों को अपनी भौतिक गतिविधियों के रिकॉर्ड में गोपनीयता की उचित अपेक्षा होती है।
+
+| मामला | वर्ष | नतीजा |
 |---|---|---|
-| **Public-recording line** | 1984 | Recording movement from a public corner needs no warrant, since an officer present sees the same thing |
-| **United States v. Jones** | 2012 | A GPS device tracking a car over a sustained period needs a warrant, even on public roads |
-| **Carpenter v. United States** | 2018 | Cell-site location records need a warrant, since a person keeps privacy in the record of their movements |
-| **Chhatri v. United States** | cited in the video | Location shared with a third party stays protected, so the warrant requirement survives |
+| **सार्वजनिक रिकॉर्डिंग की धारा** | 1984 | सार्वजनिक चौराहे से गतिविधि रिकॉर्ड करने के लिए वारंट नहीं चाहिए, क्योंकि वहाँ मौजूद अधिकारी भी वही देखते हैं। |
+| **United States v. Jones** | 2012 | लंबे समय तक कार ट्रैक करने वाले GPS उपकरण के लिए सार्वजनिक सड़कों पर भी वारंट चाहिए। |
+| **Carpenter v. United States** | 2018 | सेल-साइट स्थान रिकॉर्ड के लिए वारंट चाहिए, क्योंकि लोग अपनी गतिविधियों के रिकॉर्ड में गोपनीयता रखते हैं। |
+| **Chhatri v. United States** | वीडियो में उद्धृत | तीसरे पक्ष के साथ साझा किया गया स्थान सुरक्षित रहता है, इसलिए वारंट की शर्त बनी रहती है। |
 
-*Flock's product is the comprehensive movement record Jones and Carpenter protect. The company argues its cameras escape those rulings because a sensor, not a GPS unit or a cell tower, gathers the positions. The distinction is in the sensor, not in the underlying record.*
+*Flock का उत्पाद वही व्यापक गतिविधि रिकॉर्ड है जिसकी रक्षा Jones और Carpenter करते हैं। कंपनी का तर्क है कि उसके कैमरे इन फैसलों से बाहर हैं, क्योंकि स्थान GPS या सेल टावर नहीं बल्कि सेंसर इकट्ठा करता है। अंतर सेंसर में है, मूल रिकॉर्ड में नहीं।*
 
-**Legal boundary:** Jones and Carpenter do not decide every automated license-plate-reader dispute. The cases provide a constitutional framework for long-term location tracking and government access to movement records. Courts, statutory rules, retention periods, access controls, and the facts of a particular query still affect the result. The sales claims in this article are an argument for scrutiny, not a substitute for jurisdiction-specific legal advice.
-
-______
-
-## The Loophole in Their Own Words
-
-A series of word choices does the legal work. Each one rewrites the same product out of the reach of the cases above.
-
-- **Sells access, not the record.** Flock states it sells a subscription to query the database, so it sells no comprehensive record of movement.
-- **Shares derived data, not your data.** The wording restyles every plate read, timestamp, and route as mined material, so no raw personal data changes hands.
-- **Queried, not searched.** The Fourth Amendment stops unreasonable searches, and Flock frames every lookup as a query, so no search occurs.
-
-*Each phrase relabels the same act. The activity stays identical to the thing a warrant would guard. Only the noun changes.*
+**कानूनी सीमा:** Jones और Carpenter स्वचालित लाइसेंस प्लेट रीडर के हर विवाद का फैसला नहीं करते। ये मामले लंबे समय तक स्थान ट्रैक करने और गतिविधि रिकॉर्ड तक सरकारी पहुँच के लिए संवैधानिक ढाँचा देते हैं। अदालतें, कानून, डेटा रखने की अवधि, पहुँच नियंत्रण और किसी खास क्वेरी के तथ्य भी नतीजे को प्रभावित करते हैं। इस लेख के बिक्री दावे जाँच की माँग करते हैं, पर किसी खास क्षेत्राधिकार की कानूनी सलाह का विकल्प नहीं हैं।
 
 ______
 
-## Two Contradictory Pitches
+## उनके अपने शब्दों में खामी
 
-Flock sells the same service two ways at once, and the versions contradict each other.
+कुछ शब्दों का चुनाव कानूनी काम करता है। हर शब्दावली उसी उत्पाद को ऊपर बताए मामलों के दायरे से बाहर दिखाती है।
 
-| Audience | The pitch |
+- **रिकॉर्ड नहीं, पहुँच बेचते हैं।** Flock कहती है कि वह डेटाबेस क्वेरी करने की सदस्यता बेचती है, इसलिए वह गतिविधि का व्यापक रिकॉर्ड नहीं बेचती।
+- **आपका डेटा नहीं, निकला हुआ डेटा साझा करते हैं।** शब्दावली हर प्लेट रीड, समय-चिह्न और रास्ते को निकला हुआ डेटा बताती है, ताकि कच्चा निजी डेटा हस्तांतरित न दिखे।
+- **तलाशी नहीं, क्वेरी।** चौथा संशोधन अनुचित तलाशी रोकता है। Flock हर खोज को क्वेरी कहती है और दावा करती है कि कोई तलाशी नहीं हुई।
+
+*हर वाक्य उसी काम का नाम बदलता है। गतिविधि वही है जिसे वारंट से सुरक्षा मिलनी चाहिए। केवल संज्ञा बदलती है।*
+
+______
+
+## दो विरोधाभासी संदेश
+
+Flock एक ही सेवा को एक ही समय दो तरह से बेचती है, और दोनों संदेश एक-दूसरे से टकराते हैं।
+
+| श्रोता | संदेश |
 |---|---|
-| **Law enforcement** | Wide, deep, and fast search, no delays, no warrants |
-| **The public and commissioners** | Small, limited, safe, slow, and cautious, tied to lower crime |
+| **कानून प्रवर्तन** | व्यापक, गहरी और तेज खोज, बिना देरी और बिना वारंट। |
+| **जनता और आयुक्त** | छोटा, सीमित, सुरक्षित, धीमा और सावधान, अपराध में कमी से जुड़ा। |
 
-The statements conflict. A database searched wide, deep, and fast with no warrants is not small or cautious in any sense the public hears. The one clause both sides share is a promise of lower crime, and the promise carries the sale. Many commissioners voting for cameras hold this belief honestly and never see the tool as mass surveillance.
-
-______
-
-## What the Records Show
-
-Concrete examples sharpen the concern beyond prediction.
-
-- **Pflugerville, Texas.** A town of roughly 70,000 people mounted 28 cameras after a promise of local control over its data. In six months the local department filed about 5,000 queries, and a public records request surfaced 1.66 million outside queries from 469 other agencies. The town now uninstalls the cameras.
-- **Knox County, Tennessee.** A 140-camera contract ended this week by unanimous commissioner vote. A deputy signed the $274,000 deal through installment orders of $24,990 each, ten dollars below the threshold requiring a commission vote. The deputy and ten colleagues face an indictment over roughly $300,000 in spending the video notes is separate from the camera system.
-- **Chicago, Illinois.** Years earlier a council member faced charges over a $130 million red-light camera deal with Redflex. The contract ended, yet the cameras stayed mounted and restarted under a new vendor without a missed day of service.
-
-**Demos run on live data.** The video reports Flock sales teams demonstrated the platform using real private records, not simulated ones. Their example searches read as a profiling tool: a vehicle with a political sticker, a truck with a Trump flag, a person wearing a mask, a person holding a weapon. A list of everyone holding a weapon in an open-carry state is not a suspect list. It is pre-crime demographic profiling.
+दावे परस्पर विरोधी हैं। जिस डेटाबेस में बिना वारंट व्यापक, गहरी और तेज खोज होती है, वह जनता के समझने के अर्थ में छोटा या सावधान नहीं है। दोनों पक्षों की साझा बात अपराध घटाने का वादा है, और यही वादा सेवा बेचता है। कैमरों के पक्ष में मतदान करने वाले कई आयुक्त इस वादे पर ईमानदारी से विश्वास करते हैं और इसे कभी जन निगरानी के रूप में नहीं देखते।
 
 ______
 
-## Not About the Camera Company
+## रिकॉर्ड क्या दिखाते हैं
 
-Focusing on one brand misses the larger fight. The video points to Axon, which sat among Flock's early investors, shared software and data, and integrated Flock's feed into its evidence.com platform. Red-light camera hardware in Chicago outlived its vendor and kept running under a new name. When one company falls, the sensors and the database stay behind for the next owner.
+ठोस उदाहरण अनुमान से अधिक स्पष्टता देते हैं।
 
-**The defining trait is the sales pitch, not the sensor.** Any company selling warrantless access to a comprehensive record of private movement repeats the same offense, whether the sensor is a camera, a phone, or something not yet invented.
+- **Pflugerville, Texas.** लगभग 70,000 लोगों वाले शहर ने डेटा पर स्थानीय नियंत्रण के वादे के बाद 28 कैमरे लगाए। छह महीने में स्थानीय विभाग ने करीब 5,000 क्वेरी कीं। सार्वजनिक रिकॉर्ड अनुरोध से 469 अन्य एजेंसियों की 1.66 million बाहरी क्वेरी सामने आईं। शहर अब कैमरे हटा रहा है।
+- **Knox County, Tennessee.** 140 कैमरों का अनुबंध इस सप्ताह आयुक्तों के सर्वसम्मत वोट से समाप्त हुआ। एक डिप्टी ने $274,000 का सौदा $24,990 की किस्तों में आदेश देकर हस्ताक्षरित किया, जो आयुक्तों के वोट की सीमा से दस डॉलर कम था। वीडियो के अनुसार, डिप्टी और दस सहयोगियों पर लगभग $300,000 खर्च के आरोप हैं, जो कैमरा प्रणाली से अलग हैं।
+- **Chicago, Illinois.** वर्षों पहले Redflex के $130 million लालबत्ती कैमरा सौदे को लेकर एक काउंसिल सदस्य पर आरोप लगे। अनुबंध समाप्त हुआ, लेकिन कैमरे लगे रहे और नए विक्रेता के तहत बिना एक दिन रुके फिर चालू हो गए।
 
-The two things worth defending stay fixed: the limits on government written into the Bill of Rights, and the separation of powers keeping jurisdictions apart. Mass surveillance erodes the first, and the loophole dissolves the second. Oppose the loophole wherever its sales pitch appears.
+**डेमो में असली डेटा इस्तेमाल हुआ।** वीडियो के अनुसार Flock की बिक्री टीमों ने नकली नहीं, वास्तविक निजी रिकॉर्ड से मंच दिखाया। उनके उदाहरण प्रोफाइलिंग टूल जैसे लगते हैं: राजनीतिक स्टिकर वाली गाड़ी, ट्रंप का झंडा लगा ट्रक, मास्क पहना व्यक्ति, हथियार पकड़े व्यक्ति। खुले रूप से हथियार ले जाने की अनुमति वाले राज्य में हथियारधारियों की सूची संदिग्धों की सूची नहीं है। यह अपराध से पहले जनसांख्यिकीय प्रोफाइलिंग है।
+
+______
+
+## बात केवल एक कैमरा कंपनी की नहीं है
+
+एक ब्रांड पर ध्यान देने से बड़ी लड़ाई छूट जाती है। वीडियो Axon का उल्लेख करता है, जो Flock के शुरुआती निवेशकों में था, सॉफ्टवेयर और डेटा साझा करता था और Flock की फीड को अपने evidence.com मंच में जोड़ता था। Chicago के लालबत्ती कैमरे अपने विक्रेता के बाद भी बचे रहे और नए नाम से चलते रहे। एक कंपनी के हटने पर सेंसर और डेटाबेस अगले मालिक के लिए रहते हैं।
+
+**पहचान बिक्री संदेश से बनती है, सेंसर से नहीं।** निजी गतिविधियों के व्यापक रिकॉर्ड तक बिना वारंट पहुँच बेचने वाली कोई भी कंपनी वही उल्लंघन दोहराती है, चाहे सेंसर कैमरा, फोन या अभी तक न बना कोई उपकरण हो।
+
+बचाव की दो बातें स्थिर हैं: अधिकार विधेयक में सरकार पर लगी सीमाएँ और न्यायक्षेत्रों को अलग रखने वाला शक्तियों का पृथक्करण। जन निगरानी पहली को कमजोर करती है, और यह खामी दूसरी को मिटाती है। बिक्री संदेश जहाँ भी यह खामी दिखाए, उसका विरोध करें।
 
 {{< centerbutton href="/articles/flock-camera-detection-arms-race-2026/" >}}
-  Read the Detection Arms-Race Write-Up
+  पहचान की दौड़ पर लेख पढ़ें
 {{< /centerbutton >}}
 
 ______
 
 ## अगले कदम
 
-Start with the sales pitch, then move to the technical and protective sides.
+बिक्री संदेश से शुरुआत करें, फिर तकनीकी और सुरक्षात्मक पहलू देखें।
 
-- **[Flock Camera Detection Arms Race: What Changed in 2026](/articles/flock-camera-detection-arms-race-2026/)** for the technical side of the same fight.
-- **[Flock Cameras: Public Safety Tool or Warrantless Surveillance Machine?](/articles/flock-cameras-public-safety-or-surveillance-2026/)** for the surveillance framing.
-- **[Flock Safety Camera Surveillance: Privacy and Protection](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** for how the cameras spread and what protection does.
-- **[Flock-You Detection: Counter-Surveillance Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** for building your own detector.
+- **[Flock कैमरा डिटेक्शन रेस: 2026 में क्या बदला](/articles/flock-camera-detection-arms-race-2026/)** उसी लड़ाई के तकनीकी पक्ष के लिए।
+- **[Flock कैमरे: सार्वजनिक सुरक्षा का साधन या बिना वारंट निगरानी मशीन?](/articles/flock-cameras-public-safety-or-surveillance-2026/)** निगरानी की प्रस्तुति के लिए।
+- **[Flock Safety कैमरा निगरानी: गोपनीयता और सुरक्षा](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** कैमरों के फैलाव और सुरक्षा उपायों के लिए।
+- **[Flock-You डिटेक्शन: प्रतिनिगरानी सेटअप गाइड](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** अपना डिटेक्टर बनाने के लिए।
 
-**Source material:** the argument, figures, and quotations follow [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) from the T-Rex Lab channel. The Fourth Amendment text comes from the [Legal Information Institute](https://www.law.cornell.edu/constitution/fourth_amendment).
+**स्रोत सामग्री:** तर्क, आँकड़े और उद्धरण T-Rex Lab चैनल के [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) वीडियो से हैं। चौथे संशोधन का पाठ [Legal Information Institute](https://www.law.cornell.edu/constitution/fourth_amendment) से है।

@@ -1,11 +1,12 @@
 ---
 title: "Beginnersgids voor Blockchain voor veilig identiteitsbeheer"
 date: 2023-04-06
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Leer hoe u blockchaintechnologie kunt gebruiken voor veilige authenticatie en identiteitsbeheer met deze beginnersgids."
 tags: ["blockchain", "identiteitsbeheer", "authenticatie", "gedecentraliseerde identiteit", "authenticatie zonder wachtwoord", "slimme contracten", "openbare sleutel cryptografie", "privé-sleutel cryptografie", "onveranderlijke records", "decentraal systeem", "eenmalige aanmelding", "onderzoek van referenties", "schaalbaarheid", "privacy", "adoptie", "digitale identiteit", "gedistribueerde grootboektechnologie", "cyberbeveiliging", "gegevensprivacy", "technologie"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.webp"
+cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "Een stripfiguurtje met een sleutel in de ene hand en een blockchain in de andere, omgeven door een netwerk van onderling verbonden knooppunten en blokken."
 coverCaption: ""
 ---

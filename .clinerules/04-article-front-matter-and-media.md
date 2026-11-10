@@ -10,18 +10,20 @@ bodies.
 
 Front matter is always **YAML**, delimited by `---` ... `---`. Never use TOML (`+++`). Keys:
 
-- `title` — quoted string. Comparison and guide titles usually carry the current year and a colon
-  subtitle, for example `"Tailscale vs Headscale: Complete 2026 Comparison Guide for Self-Hosted VPN"`.
+- `title` — quoted string. This value supplies the article's visible H1 and HTML page title.
+  Make it unique, specific, and accurate to the finished article. Include a year or a claim of
+  complete coverage only when the content supports it.
 - `date` — original publish date, format `YYYY-MM-DD` only (no time, no timezone).
 - `lastmod` — last-updated date, same `YYYY-MM-DD` format. Add or bump this whenever you revise an
   existing article.
 - `toc` — boolean, almost always `true`.
 - `draft` — boolean, effectively always `false`.
-- `description` — one or two skimmable sentences naming the topic and what the page covers.
+- `description` — a unique, concise meta description naming the topic and what the finished page
+  covers. Do not promise advice, results, or coverage missing from the article.
 - `genre` — array of broad topic categories. Optional (some older articles omit it). Include it on
   new content.
-- `tags` — array of many specific keyword phrases, often 20 to 40 entries seeded with the title's
-  key terms and search variants.
+- `tags` — array of specific terms relevant to the article. Do not add search variants solely
+  to repeat phrases for ranking.
 - `cover` — path to the cover image, usually `/img/cover/<slug>.webp` (PNG and other names also
   exist on older posts).
 - `coverAlt` — descriptive alt text for the cover image.
@@ -127,3 +129,7 @@ These shortcodes exist in `layouts/shortcodes/` and may be used when relevant:
 - `{{< readfile >}}`, `{{< param >}}`, `{{< jobsdate >}}`, and the `amp-*` family for AMP pages.
 
 Stick to the established shortcodes above instead of writing raw HTML in content.
+
+## Anonymized Infrastructure Articles
+
+When the user asks to anonymize a deployment, check the complete page bundle before delivery. Audit the title, description, tags, captions, alt text, link labels and URLs, figure text baked into raster images, and downloadable assets. Replace incidental host roles and vendor names with accurate generic terms. Re-render edited artwork, inspect every image, and search the final source and rendered page for the removed terms. Keep measured results and uncertainty about unverified routes explicit.

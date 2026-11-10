@@ -1,12 +1,13 @@
 ---
 title: "Guida per principianti: Uso della riga di comando di Linux per la sicurezza informatica"
 date: 2023-03-13
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Imparate a utilizzare la riga di comando di Linux per la sicurezza informatica con comandi di base e avanzati."
 tags: ["Linux", "Linea di comando", "Sicurezza informatica", "Guida per principianti", "Scansione di rete", "Test di vulnerabilità", "Analisi del malware", "Permessi", "Traffico di rete", "Stato del processo", "Statistiche di rete", "Ricerca file", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Sicurezza", "Test di penetrazione", "Forensica digitale"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "Un'illustrazione a fumetti di una persona che indossa una felpa con cappuccio, seduta davanti allo schermo di un computer con l'interfaccia della riga di comando di Linux visibile e con in mano una lente di ingrandimento per rappresentare l'aspetto della sicurezza informatica."
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Illustrazione di uno schermo con l’interfaccia della riga di comando Linux e comandi verdi su sfondo scuro. Intorno compaiono elementi di sicurezza informatica, come lucchetti digitali e linee di rete."
 coverCaption: ""
 ---
 
@@ -139,6 +140,8 @@ Nell'esempio precedente, il comando imposta i permessi del file "file2.txt" su u
 
 
 ## Comandi avanzati di Linux per la sicurezza informatica
+
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagramma di un terminale Linux con nmap, netstat e find per scansionare reti, monitorare processi e cercare file nelle attività di sicurezza informatica" >}}
 
 ### Network Mapper
 
@@ -282,7 +285,7 @@ ______
 
 L'uso della riga di comando di Linux per la cybersicurezza può risultare difficile per i principianti. Tuttavia, con i comandi di base e avanzati descritti in questa guida, è possibile iniziare a utilizzare la CLI di Linux a proprio vantaggio nella cybersecurity. Ricordate di usare cautela nell'esecuzione dei comandi e di comprendere a fondo le funzioni di ciascun comando prima di utilizzarlo.
 
-Per saperne di più sull'uso di Linux per la cybersicurezza, scaricate il documento **[Kali Linux](https://www.kali.org/downloads/) sistema operativo, progettato specificamente per i test di penetrazione e la digital forensics.
+Per saperne di più sull'uso di Linux per la sicurezza informatica, consulta la pagina di download di **[Kali Linux](https://www.kali.org/downloads/)**, un sistema operativo progettato appositamente per i test di penetrazione e l'analisi forense digitale.
 
 ## Conclusione
 

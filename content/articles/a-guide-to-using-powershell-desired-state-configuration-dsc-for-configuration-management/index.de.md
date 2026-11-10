@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC: Ein Einstiegshandbuch"
 date: 2023-04-02
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von PowerShell Desired State Configuration (DSC) zur Automatisierung und Verwaltung von Systemkonfigurationen für eine sichere und konforme Umgebung."
 tags: ["PowerShell", "DSC", "Konfigurationsmanagement", "Automatisierung", "Windows", "Systemverwaltung", "Bewährte Praktiken", "Einhaltung der Vorschriften", "Sicherheit", "Infrastruktur", "DevOps", "Server-Konfiguration", "Prüfung", "Git", "Quellenkontrolle", "Staatliche Vorschriften", "NIST", "CIS", "Konfiguration Drift", "Benutzerdefinierte Ressourcen"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "Ein Cartoon-Bild eines selbstbewussten Systemadministrators mit einem Superhelden-Umhang, der neben einem gut organisierten Server-Rack steht, ein PowerShell DSC-Skript in der einen und ein Schild mit dem Windows-Logo in der anderen Hand hält und die Server vor Konfigurationsabweichungen und Sicherheitsbedrohungen schützt."
 coverCaption: ""
 ---
@@ -65,7 +66,7 @@ Start-DscConfiguration -Path .\InstallIIS -Wait -Verbose
 
 ## Bewährte Praktiken für die Verwendung von PowerShell DSC
 
-## Modularisieren Sie Ihre Konfigurationen
+### Modularisieren Sie Ihre Konfigurationen
 
 Erstellen Sie **modulare und wiederverwendbare** Konfigurationen, indem Sie die verschiedenen Komponenten Ihrer Infrastruktur in **einzelne DSC-Ressourcen** aufteilen. Mit diesem Ansatz können Sie Ihre Konfigurationen leicht **verwalten und skalieren**, wenn Ihre Umgebung wächst.
 

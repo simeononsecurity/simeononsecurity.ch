@@ -1,152 +1,335 @@
 ---
-title: "2x RTX 5060 Ti बनाम GB10: 32 GB VRAM, 128 GB यूनिफाइड मेमोरी से क्यों हारती है"
+title: "2x RTX 5060 Ti बनाम GB10: 256K कॉन्टेक्स्ट पर पाँच मॉडलों का स्थानीय AI बेंचमार्क"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Qwen 3 27B और लंबे संदर्भ वाले स्थानीय इन्फरेंस के लिए दो 16 GB RTX 5060 Ti कार्ड और NVIDIA GB10 सिस्टम की बेंचमार्क आधारित तुलना।"
+description: "पाँच मॉडलों की RTX 5060 Ti और GB10 तुलना, साथ में 256K कॉन्टेक्स्ट तक समान होस्ट पर Qwen3.8 Flash-Next Strata बेंचमार्क।"
 genre: ["कृत्रिम बुद्धिमत्ता", "स्थानीय AI", "GPU हार्डवेयर", "बेंचमार्किंग", "कंप्यूटर हार्डवेयर"]
-tags: ["RTX 5060 Ti", "GB10", "DGX Spark", "Qwen 3 27B", "स्थानीय LLM", "स्थानीय इन्फरेंस", "यूनिफाइड मेमोरी", "VRAM", "GPU बेंचमार्क", "लंबा संदर्भ", "PCIe ओवरहेड", "AI हार्डवेयर", "NVIDIA Blackwell", "LLM प्रदर्शन", "GPU मेमोरी"]
+tags: ["RTX 5060 Ti", "GB10", "DGX Spark", "Qwen3.8", "Qwen3.8 Flash-Next", "GSQ-RCO", "Qwen4Exp", "Strata", "Qwen3.5", "Qwen3.6", "GPT-OSS", "Nemotron", "स्थानीय LLM", "स्थानीय इन्फरेंस", "यूनिफाइड मेमोरी", "VRAM", "GPU बेंचमार्क", "लंबा कॉन्टेक्स्ट", "PCIe ओवरहेड", "AI हार्डवेयर", "NVIDIA Blackwell", "LLM प्रदर्शन", "GPU मेमोरी"]
 cover: "/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp"
-coverAlt: "बाईं ओर दो NVIDIA RTX 5060 Ti ग्राफिक्स कार्ड और दाईं ओर NVIDIA GB10 सिस्टम का चित्र, दोनों गहरे और चमकीले रंगों वाले बैकग्राउंड पर दिखाए गए हैं।"
-coverCaption: "स्थानीय मॉडल का प्रदर्शन केवल GPU की संख्या पर नहीं, मेमोरी आर्किटेक्चर पर निर्भर करता है।"
+coverAlt: "बाईं ओर दो NVIDIA RTX 5060 Ti ग्राफिक्स कार्ड और दाईं ओर NVIDIA GB10 सिस्टम का चित्र, दोनों गहरे रंग की पृष्ठभूमि पर चमकदार रंगों के साथ दिखाए गए हैं।"
+coverCaption: "स्थानीय मॉडल का प्रदर्शन मेमोरी आर्किटेक्चर, मॉडल चयन और कॉन्टेक्स्ट लंबाई पर निर्भर करता है।"
 ---
 
-**16 GB वाले दो RTX 5060 Ti कार्ड पार्ट्स की सूची में अच्छे लगते हैं।** वे कुल 32 GB VRAM और छोटे संदर्भ के prompt processing की अच्छी गति देते हैं। 27B मॉडल को लंबे संदर्भ के साथ चलाने पर तुलना बदल जाती है।
+**दो RTX 5060 Ti 16 GB कार्ड मिलकर 32 GB कुल VRAM देते हैं।** NVIDIA GB10 सिस्टम में 128 GB सुसंगत यूनिफाइड मेमोरी है। पाँच मॉडलों का नया बेंचमार्क पहले के केवल Qwen वाले परीक्षण से अधिक संतुलित तस्वीर दिखाता है।
 
-NVIDIA GB10 सिस्टम 128 GB coherent unified memory इस्तेमाल करता है। NVIDIA GB10 प्लेटफॉर्म के लिए 128 GB LPDDR5x unified memory और 140 W chip TDP बताता है। RTX 5060 Ti में हर कार्ड पर 16 GB GDDR7, 128-bit memory interface और 180 W total graphics power है। [NVIDIA RTX 5060 Ti specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/) और [NVIDIA GB10 specifications](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) हार्डवेयर का अंतर स्पष्ट करते हैं।
+256K सेटिंग पर पाँच में से चार मॉडलों की जनरेशन गति में दो कार्ड वाला सिस्टम आगे है। Qwen3.8 27B पर GB10 स्पष्ट रूप से आगे है और मॉडल, कॉन्टेक्स्ट तथा रनटाइम आवंटन के लिए अधिक मेमोरी खाली रखता है। सही विकल्प मॉडल और कार्यभार पर निर्भर करता है।
 
-**मुख्य बात सरल है।** दो 16 GB कार्ड एक तेज 32 GB memory pool नहीं बनाते। वे host system से जुड़े दो अलग 16 GB pools बनाते हैं। बड़े मॉडल के inference में missing capacity और devices के बीच data movement, कार्डों की संख्या से अधिक महत्वपूर्ण होते हैं।
+एक अलग समान-होस्ट परीक्षण में Strata पर Qwen3.8-Flash-Next IQ2_XS की तुलना Ollama पर dense Qwen3.8 27B Q4_K_M से की गई। वार्मअप के बाद जनरेशन का माध्य Flash-Next के लिए 92.8 टोकन प्रति सेकंड था, जिसमें प्रॉम्प्ट 260,446 टोकन का था। Dense Qwen3.8 ने 260,444 टोकन के प्रॉम्प्ट पर 0.939 टोकन प्रति सेकंड हासिल किए।
+
+NVIDIA GB10 में 128 GB सुसंगत यूनिफाइड मेमोरी है। NVIDIA GB10 प्लेटफ़ॉर्म के लिए 128 GB LPDDR5x यूनिफाइड मेमोरी और 140 W चिप TDP सूचीबद्ध करता है। RTX 5060 Ti में हर कार्ड पर 16 GB GDDR7, 128-बिट मेमोरी इंटरफ़ेस और 180 W कुल ग्राफ़िक्स पावर है। [NVIDIA RTX 5060 Ti के विनिर्देश](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/) और [NVIDIA GB10 के विनिर्देश](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) हार्डवेयर का अंतर बताते हैं।
+
+**दोनों सिस्टम मेमोरी को अलग ढंग से उपलब्ध कराते हैं।** दो कार्ड दो अलग 16 GB पूल बनाते हैं। GB10 मॉडल, कॉन्टेक्स्ट डेटा, रनटाइम बफ़र और ऑपरेटिंग सिस्टम आवंटन को एक साझा एड्रेस स्पेस में रखता है।
 
 ## मेमोरी की तुलना
 
-| सिस्टम | मेमोरी | मेमोरी मॉडल | बताई गई power figure |
+| सिस्टम | मेमोरी | मेमोरी मॉडल | दर्ज पावर आँकड़ा |
 |---|---:|---|---:|
-| **2x RTX 5060 Ti 16 GB** | 32 GB कुल | दो अलग GPU memory pools | 360 W GPU कुल |
-| **GB10 सिस्टम** | 128 GB | coherent unified system memory | 140 W GB10 TDP |
+| **2x RTX 5060 Ti 16 GB** | 32 GB कुल | GPU मेमोरी के दो अलग पूल | कुल 360 W GPU |
+| **GB10 सिस्टम** | 128 GB | सुसंगत यूनिफाइड सिस्टम मेमोरी | 140 W GB10 TDP |
 
-GB10 इसलिए नहीं जीतता कि 128 GB LPDDR5x memory high-end discrete GPU की bandwidth के बराबर है। लाभ capacity और placement से आता है। CPU और GPU एक ही address space साझा करते हैं। इसलिए model, runtime buffers, activations और context data को दो अलग 16 GB devices में फिट होने की जरूरत नहीं होती।
+GB10 हर throughput परीक्षण इसलिए नहीं जीतता कि LPDDR5x मेमोरी अलग GPU की बैंडविड्थ से मेल खाती है। इसका लाभ क्षमता और डेटा की स्थिति से आता है। CPU और GPU एक ही एड्रेस स्पेस साझा करते हैं, इसलिए कामकाजी डेटा को दो अलग 16 GB डिवाइसों में फिट होने की जरूरत नहीं पड़ती।
 
-दो-कार्ड सिस्टम को placement की कठिन समस्या का सामना करना पड़ता है। मॉडल को दोनों कार्डों में फिट होना चाहिए। Inference runtime को उनके बीच data भेजना पड़ता है। PCIe traffic latency बढ़ाता है और bandwidth इस्तेमाल करता है। NVIDIA specifications के अनुसार RTX 5060 Ti NVLink support भी नहीं करता।
+दो कार्ड वाले सिस्टम को डेटा रखने की चुनौती होती है। मॉडल को दोनों कार्डों में बाँटना पड़ता है। रनटाइम को उनके बीच डेटा भेजना पड़ता है। PCIe ट्रैफ़िक लेटेंसी बढ़ाता है और बैंडविड्थ खर्च करता है। NVIDIA के विनिर्देशों के अनुसार RTX 5060 Ti NVLink का समर्थन भी नहीं करता।
 
-## बेंचमार्क का परिणाम
+## पाँच मॉडलों का बेंचमार्क
 
-नीचे के परिणाम दिए गए AI benchmark report से आते हैं। Report बिना नाम वाले dual-GPU system, जिसे **5060ti-x2** कहा गया है, की GB10 system से तुलना करती है। Test कई context sizes पर Qwen और GPT-OSS को कवर करता है।
+अपडेट किए गए परीक्षण में दोनों सिस्टम पर एक ही अनुरोध मैट्रिक्स चला। इसमें पाँच Ollama मॉडल 4K, 16K, 32K, 64K, 128K और 256K कॉन्टेक्स्ट सेटिंग पर जाँचे गए। हर अनुरोध में तापमान 0 पर 128 टोकन जनरेट किए गए।
 
-Models सीधे **Ollama** से आए। Test में literal default tags **`qwen3.8:27b`** और **`gpt-oss:latest`** इस्तेमाल हुए। कोई custom Modelfile या alternate quantization नहीं चुनी गई। Benchmark के समय 5060ti-x2 system ने **PCIe Gen4 x16** और उपलब्ध नवीनतम NVIDIA Linux drivers इस्तेमाल किए।
+परीक्षण में ये मॉडल टैग इस्तेमाल हुए:
 
-### Qwen prompt processing और generation
+- **Qwen3.8 27B:** `qwen3.8:27b`
+- **GPT-OSS 20B:** `gpt-oss:20b`
+- **Qwen3.6 35B-A3B:** `qwen3.6:35b`
+- **Qwen3.5 35B-A3B:** `qwen3.5:35b-a3b-q4_K_M`
+- **Nemotron 3.5 Lightning 30B-A3B:** `nemotron-3.5-lightning:30b-a3b-q4_K_M`
 
-| Context | 5060ti-x2 prompt tok/s | 5060ti-x2 generation tok/s | GB10 prompt tok/s | GB10 generation tok/s |
-|---:|---:|---:|---:|---:|
-| 4K | 862.5 | 56.9 | 57.4 | 27.7 |
-| 16K | 917.3 | 53.5 | 62.1 | 28.1 |
-| 32K | 881.4 | 48.8 | 62.4 | 26.9 |
-| 64K | 795.1 | 39.6 | 59.9 | 26.1 |
-| 128K | 538.7 | 28.3 | 59.9 | 28.6 |
-| 256K | 189.9 | 1.2 | 59.9 | 25.8 |
+दो कार्ड वाले सिस्टम में दो RTX 5060 Ti 16 GB कार्ड थे। GB10 सिस्टम में 128 GB यूनिफाइड मेमोरी थी। परीक्षण Ollama पर हुए। दो कार्ड वाले सिस्टम पर संस्करण 0.34.2 और GB10 पर 0.40.2 इस्तेमाल हुआ।
 
-4K पर dual-card system GB10 से करीब दो गुना तेज generation करता है। 64K पर यह बढ़त करीब 1.5 गुना रह जाती है। 128K पर दोनों systems लगभग समान generation speed तक पहुंचते हैं।
+### जनरेशन गति
 
-256K पर दो-कार्ड build की बढ़त समाप्त हो जाती है। 5060ti-x2 request केवल 171,359 actual prompt tokens तक पहुंची। Generation 1.2 tokens per second तक गिर गई। GB10 ने पूरा 256K test 25.8 tokens per second पर पूरा किया।
+जनरेशन गति बताती है कि प्रॉम्प्ट पढ़ने के बाद मॉडल कितनी तेजी से टोकन बनाता है। संवाद के दौरान यह आँकड़ा सबसे उपयोगी होता है।
 
-**Test किए गए 256K result में GB10 ने करीब 21.5 गुना तेज generation की।** इससे भी महत्वपूर्ण बात यह है कि GB10 ने requested context पूरा किया। Dual-card system ने वही workload पूरा नहीं किया।
+दो RTX 5060 Ti वाला सिस्टम:
 
-## Aggregate VRAM भ्रामक क्यों है
+| कॉन्टेक्स्ट | GPT-OSS 20B | Nemotron 3.5 | Qwen3.5 35B | Qwen3.6 35B | Qwen3.8 27B |
+|---:|---:|---:|---:|---:|---:|
+| 4K | 91.518 | 162.027 | 117.547 | 156.104 | 55.654 |
+| 16K | 87.176 | 161.377 | 112.903 | 140.596 | 51.656 |
+| 32K | 82.372 | 157.055 | 106.455 | 144.833 | 47.369 |
+| 64K | 74.661 | 135.106 | 95.979 | 125.008 | 38.863 |
+| 128K | 62.767 | 130.924 | 79.572 | 115.352 | 26.399 |
+| 256K | 67.853 | 106.221 | 58.947 | 67.159 | 1.079 |
 
-### 1. मॉडल को एक 32 GB कार्ड दिखाई नहीं देता
+GB10:
 
-दो GPUs अपनी memory को एक local address space में merge नहीं करते। Model-parallel runtime layers या tensors को devices में बांटता है। हर device को अपने assigned weights, temporary buffers और context state के हिस्से के लिए जगह चाहिए।
+| कॉन्टेक्स्ट | GPT-OSS 20B | Nemotron 3.5 | Qwen3.5 35B | Qwen3.6 35B | Qwen3.8 27B |
+|---:|---:|---:|---:|---:|---:|
+| 4K | 62.199 | 98.648 | 72.405 | 100.906 | 32.985 |
+| 16K | 56.764 | 94.366 | 69.782 | 95.448 | 32.939 |
+| 32K | 53.257 | 98.175 | 64.055 | 95.025 | 29.772 |
+| 64K | 49.201 | 96.132 | 58.428 | 84.528 | 25.625 |
+| 128K | 40.637 | 80.238 | 48.108 | 74.579 | 22.294 |
+| 256K | 43.688 | 68.043 | 36.649 | 62.115 | 22.371 |
 
-इसलिए usable capacity साधारण sum से कम होती है। Exact overhead model format, quantization, inference backend, tensor split और context length पर निर्भर करता है।
+256K पर दो कार्ड वाला सिस्टम GPT-OSS, Nemotron, Qwen3.5 और Qwen3.6 में तेज़ जनरेट करता है। Qwen3.8 पर GB10 तेज़ है। दो कार्ड वाले सिस्टम पर Qwen3.8 की गति घटकर 1.079 टोकन प्रति सेकंड रह गई, जबकि GB10 ने 22.371 टोकन प्रति सेकंड हासिल किए।
 
-### 2. Generation के दौरान context memory बढ़ती है
+Qwen3.6 के नतीजे करीब हैं। दो कार्ड वाले सिस्टम ने 67.159 टोकन प्रति सेकंड और GB10 ने 62.115 टोकन प्रति सेकंड हासिल किए। ये नतीजे इस दावे का समर्थन नहीं करते कि यूनिफाइड मेमोरी हमेशा जीतती है या दो अलग GPU हमेशा जीतते हैं।
 
-Model weights memory budget का केवल एक हिस्सा हैं। Key-value cache, या KV cache, पिछले tokens का attention data रखता है। लंबे contexts को अधिक cache memory चाहिए। 4K test, 128K या 256K deployment का अनुमान नहीं देता।
+### प्रॉम्प्ट प्रोसेसिंग गति
 
-दिए गए results यह सीमा साफ दिखाते हैं। Dual-card system prompt processing में मजबूत बढ़त रखता है, फिर context बढ़ने पर generation performance खोता है। GB10, 4K से 256K तक करीब 26 से 29 generation tokens per second पर रहता है।
+प्रॉम्प्ट प्रोसेसिंग बताती है कि जनरेशन से पहले रनटाइम इनपुट कॉन्टेक्स्ट को कितनी तेजी से पढ़ता है। लंबे दस्तावेज़ों और बार-बार कॉन्टेक्स्ट लोड करने में यह महत्वपूर्ण है।
 
-### 3. PCIe transfers अतिरिक्त लागत जोड़ते हैं
+दो RTX 5060 Ti वाला सिस्टम:
 
-जब runtime GPUs के बीच activations या tensors भेजता है, transfer host interconnect से गुजरता है। इससे हर step में synchronization points और latency जुड़ती है। Workload के device boundary पार करने की आवृत्ति बढ़ने पर penalty भी बढ़ती है।
+| कॉन्टेक्स्ट | GPT-OSS 20B | Nemotron 3.5 | Qwen3.5 35B | Qwen3.6 35B | Qwen3.8 27B |
+|---:|---:|---:|---:|---:|---:|
+| 4K | 4745.9 | 2409.0 | 2701.7 | 464.3 | 783.9 |
+| 16K | 7617.0 | 3031.8 | 4175.3 | 2654.0 | 840.1 |
+| 32K | 8099.5 | 3074.2 | 4335.8 | 2623.2 | 811.2 |
+| 64K | 6809.5 | 2893.0 | 4129.9 | 2400.4 | 727.8 |
+| 128K | 5089.9 | 2362.7 | 3084.0 | 1723.6 | 546.1 |
+| 256K | 5838.3 | 1813.2 | 2229.1 | 1011.0 | 251.3 |
 
-इससे dual-GPU system बेकार नहीं हो जाता। Memory placement performance result का हिस्सा है। केवल 4K prompt processing report करने वाला benchmark यह cost नहीं दिखाता।
+GB10:
 
-### 4. Power efficiency पूरे system का लाभ है
+| कॉन्टेक्स्ट | GPT-OSS 20B | Nemotron 3.5 | Qwen3.5 35B | Qwen3.6 35B | Qwen3.8 27B |
+|---:|---:|---:|---:|---:|---:|
+| 4K | 3295.5 | 576.0 | 2067.9 | 628.8 | 756.9 |
+| 16K | 4675.5 | 3006.7 | 2691.2 | 2556.3 | 812.6 |
+| 32K | 4571.4 | 3077.9 | 2691.7 | 2563.9 | 794.1 |
+| 64K | 3704.7 | 3066.9 | 2585.3 | 2444.9 | 714.0 |
+| 128K | 2857.0 | 2802.9 | 2360.4 | 2229.9 | 655.5 |
+| 256K | 3243.4 | 2325.4 | 1938.5 | 1817.6 | 535.1 |
 
-तुलना में GB10 कम power इस्तेमाल करता है और tested long-context workload के लिए अधिक memory capacity देता है। दो RTX 5060 Ti बाकी system से पहले कुल 360 W GPU power लेते हैं। NVIDIA GB10 TDP 140 W बताता है।
+256K पर दो कार्ड वाला सिस्टम GPT-OSS और Qwen3.5 की प्रॉम्प्ट प्रोसेसिंग में आगे था। GB10 Nemotron, Qwen3.6 और Qwen3.8 में आगे था। मेमोरी इंटरफ़ेस जितना ही मॉडल आर्किटेक्चर और रनटाइम व्यवहार भी महत्वपूर्ण है।
 
-**GB10 short-context की peak speed के बदले capacity, completion और कम GPU power देता है।** Long-context Qwen inference में यह trade-off महत्वपूर्ण है।
+## अतिरिक्त Qwen3.8 Flash-Next बेंचमार्क
 
-## 5060ti-x2 system की लागत बहुत कम है
+तीन अतिरिक्त परीक्षणों में दो RTX 5060 Ti सिस्टम पर Qwen3.8 Flash-Next GGUF पैकेज 4K और 16K कॉन्टेक्स्ट सेटिंग में मापे गए। हर पंक्ति में Hugging Face मॉडल और क्वांटाइज़ेशन का सटीक संदर्भ दिया है।
 
-Performance comparison price difference को समाप्त नहीं करता। दो 16 GB RTX 5060 Ti वाली complete workstation 10 October 2026 को **$3,479** पर listed थी। Configuration में Intel Ultra 7 265K, Z890 motherboard, 32 GB DDR5, 1 TB storage, 1,000 W power supply और दोनों GPUs शामिल हैं। [Complete dual-GPU workstation listing देखें](https://greenbeastgaming.com/products/dual-gpu-rtx-5060-ti-16gb-intel-focus-g-white)।
+| सटीक मॉडल | क्वांटाइज़ेशन | 4K जनरेशन | 16K जनरेशन |
+|---|---:|---:|---:|
+| [`hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ2_XS`](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ2_XS) | IQ2_XS | 31.77 tok/s | 28.20 tok/s |
+| [`hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S`](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ3_S) | IQ3_S | 24.54 tok/s | 22.60 tok/s |
+| [`hf.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF:Q4_K_M`](https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF/tree/main) | Q4_K_M | 17.91 tok/s | 17.02 tok/s |
 
-NVIDIA US marketplace 128 GB DGX Spark को **$6,950** पर list करता है। Listing में 128 GB coherent unified memory और 4 TB NVMe storage शामिल है, लेकिन system out of stock दिखता है। [NVIDIA की current DGX Spark listing देखें](https://marketplace.nvidia.com/en-us/enterprise/personal-ai-supercomputers/dgx-spark/)।
+इस समूह में IQ2_XS पैकेज की throughput सबसे अधिक थी। 4K पर इसके 31.77 टोकन प्रति सेकंड, IQ3_S के 24.54 और Q4_K_M के 17.91 से अधिक थे। 16K पर भी यही क्रम 28.20, 22.60 और 17.02 टोकन प्रति सेकंड रहा।
 
-AMD Ryzen AI Halo Developer Platform एक और comparison point देता है। यह Strix Halo system Micro Center पर **$3,999.99** में 128 GB LPDDR5x unified memory और 2 TB storage के साथ listed है। Strix Halo अक्सर GB10 systems जैसी practical local-AI class में आता है, हालांकि independent testing throughput और software maturity में GB10 को अक्सर आगे मापती है। [Current Micro Center Linux listing देखें](https://www.microcenter.com/product/711961/amd-ryzen-ai-halo-developer-platform?osfs=false) और [Strix Halo versus GB10 review पढ़ें](https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review/4)।
+Ollama में वही सटीक मॉडल संदर्भ चलाएँ:
 
-| Complete system | 10 October 2026 को listed price | Price difference |
+```bash
+ollama run hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ2_XS
+ollama run hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S
+ollama run hf.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF:Q4_K_M
+```
+
+ये पहले के अतिरिक्त नतीजे दो GPU वाले सिस्टम के हैं। ये ऊपर दिए गए मेल खाते RTX 5060 Ti और GB10 अनुरोध मैट्रिक्स से अलग हैं। रिकॉर्ड में सटीक मॉडल संदर्भ, क्वांटाइज़ेशन, अनुरोधित कॉन्टेक्स्ट सेटिंग और जनरेशन गति है। रिकॉर्ड में तय manifest digest, प्रोसेस किए गए प्रॉम्प्ट टोकन, आउटपुट लंबाई, वार्म स्थिति, डिवाइस विभाजन, CPU, सिस्टम RAM, कूलिंग सेटअप और मापन तिथि नहीं है।
+
+## 256K पर Strata बनाम dense Ollama
+
+**14 अक्टूबर 2026 के दूसरे बेंचमार्क ने उसी दो RTX 5060 Ti होस्ट पर दो मॉडल और रनटाइम स्टैक की तुलना की।** Dense baseline में Ollama पर [`qwen3.8:27b`](https://ollama.com/library/qwen3.8:27b), Q4_K_M में 27.3 अरब पैरामीटर वाला Qwen35 मॉडल था। Flash स्टैक में [Strata unified native pack](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ2_XS) में Qwen4Exp mixture-of-experts मॉडल Qwen3.8-Flash-Next IQ2_XS था।
+
+यह पूरे स्टैक की तुलना है। मॉडल आर्किटेक्चर, क्वांटाइज़ेशन, पैकेजिंग, expert routing और inference engine एक साथ बदले। IQ3_S और Q4_K_M Flash वैरिएंट इस परीक्षण में शामिल नहीं थे।
+
+### परीक्षण सिस्टम और विधि
+
+| घटक | दर्ज कॉन्फ़िगरेशन |
+|---|---|
+| **GPU** | 2x NVIDIA GeForce RTX 5060 Ti, प्रत्येक 16 GiB, compute capability 12.0 |
+| **GPU लिंक** | प्रत्येक कार्ड पर PCIe 4.0 x4, PHB topology, NVLink नहीं |
+| **CPU** | AMD Ryzen 9 5900XT, 32 थ्रेड |
+| **होस्ट मेमोरी** | 62 GiB RAM और 15 GiB swap |
+| **NVIDIA ड्राइवर** | 595.99.02 |
+
+हार्नेस ने क्रमांकित कृत्रिम रिकॉर्ड बनाए। हर पंक्ति का प्रारूप `Record 00001: alpha beta gamma delta epsilon zeta eta theta iota kappa.` था। निर्देश में कहा गया कि पहले `BENCHMARK_OK` दें, फिर आउटपुट सीमा तक संक्षिप्त तकनीकी सार लिखें। छह प्रॉम्प्ट में 180, 720, 1,500, 3,100, 6,200 और 12,400 रिकॉर्ड थे।
+
+हर रन में तापमान 0, seed 42 और अधिकतम 128 आउटपुट टोकन रखे गए। हर कॉन्टेक्स्ट पर मापे गए पाँच अनुरोधों से पहले एक वार्मअप हुआ। Ollama परीक्षण में `/api/generate` और Strata परीक्षण में `/v1/chat/completions` इस्तेमाल हुआ। सभी मापे गए अनुरोध API त्रुटि के बिना पूरे हुए।
+
+डिकोड नियंत्रण समान नहीं थे। Strata ने `reasoning_effort` को स्पष्ट रूप से `none` रखा और chat template से thinking बंद की। Dense Ollama अनुरोध में `think: false` नहीं भेजा गया। बाद की जाँच में dense आउटपुट thinking और response फ़ील्ड में दिखा। जनरेशन नतीजे को इन्हीं डिकोड मोड तक सीमित समझें।
+
+| कॉन्टेक्स्ट सेटिंग | Dense प्रॉम्प्ट टोकन | Flash प्रॉम्प्ट टोकन |
+|---:|---:|---:|
+| **4K** | 3,824 | 3,826 |
+| **16K** | 15,164 | 15,166 |
+| **32K** | 31,544 | 31,546 |
+| **64K** | 65,144 | 65,146 |
+| **128K** | 130,244 | 130,246 |
+| **256K** | 260,444 | 260,446 |
+
+दोनों मॉडल हेडर में अधिकतम 262,144 टोकन कॉन्टेक्स्ट लिखा था। हर जाँच बिंदु पर दोनों प्रॉम्प्ट में केवल दो टोकन का अंतर था।
+
+### वार्मअप के बाद जनरेशन गति का माध्य
+
+हर माध्य में एक वार्मअप के बाद पाँच मापे गए अनुरोध शामिल हैं। हर dense अनुरोध ने पिछले प्रॉम्प्ट के चार टोकन छोड़कर बाकी सभी टोकन फिर इस्तेमाल किए। Flash अनुरोध ने सात टोकन छोड़कर बाकी सब फिर इस्तेमाल किए। यह तालिका वार्म, prefix-cache वाली decode throughput मापती है। यह ठंडी शुरुआत से पूरी प्रतिक्रिया तक की लेटेंसी नहीं मापती।
+
+| कॉन्टेक्स्ट | Strata पर Flash IQ2_XS | Ollama पर Dense Q4_K_M | Flash की बढ़त |
+|---:|---:|---:|---:|
+| **4K** | 98.4 tok/s | 65.0 tok/s | 1.51x |
+| **16K** | 96.8 tok/s | 60.6 tok/s | 1.60x |
+| **32K** | 95.3 tok/s | 64.4 tok/s | 1.48x |
+| **64K** | 89.6 tok/s | 51.2 tok/s | 1.75x |
+| **128K** | 92.9 tok/s | 31.5 tok/s | 2.95x |
+| **256K** | 92.8 tok/s | 0.939 tok/s | 98.9x |
+
+64K से 256K तक Flash स्टैक लगभग 90 टोकन प्रति सेकंड पर रहा। Dense Qwen3.8 की गति 64K के बाद तेजी से घटी और 256K पर 0.939 टोकन प्रति सेकंड पहुँची। 256K Flash प्रतिक्रिया 67 टोकन के बाद सामान्य रूप से समाप्त हुई। Dense रन 128 टोकन की आउटपुट सीमा तक पहुँचा।
+
+### पहले अनुरोध की प्रॉम्प्ट प्रोसेसिंग
+
+| कॉन्टेक्स्ट | Flash का पहला अनुरोध | Dense का पहला अनुरोध |
+|---:|---:|---:|
+| **4K** | 1,134 tok/s | 832 tok/s |
+| **16K** | 2,013 tok/s | 856 tok/s |
+| **32K** | 2,386 tok/s | 799 tok/s |
+| **64K** | 2,509 tok/s | 690 tok/s |
+| **128K** | 2,538 tok/s | 489 tok/s |
+| **256K** | 2,399 tok/s | 214 tok/s |
+
+Dense के पहले अनुरोध ने हर जाँच बिंदु पर पूरा प्रॉम्प्ट प्रोसेस किया। Strata ने 64K पर 16,384, 128K पर 49,152 और 256K पर 114,688 prefix टोकन दोबारा इस्तेमाल किए। इसलिए 64K से 256K तक Flash दरों को पहले अनुरोध की continuation throughput समझें, पूरी तरह uncached prefill नहीं।
+
+256K पर Strata ने पहला अनुरोध 60.8 सेकंड में प्रोसेस किया। Ollama को लगभग 1,215.4 सेकंड लगे। Prefix reuse के कारण इस बिंदु पर ठंडी prefill की सीधी तुलना नहीं होती।
+
+### रनटाइम की स्थिति लंबा-कॉन्टेक्स्ट अंतर समझाती है
+
+Ollama 0.34.2 ने CUDA layer offload, ChatML template और अधिकतम चार draft वाले MTP speculative decoding के साथ llama-server 0.4.1-dev इस्तेमाल किया। Batch और microbatch आकार 32K पर 1,024 और 64K से 256K तक 512 थे। 32K और 64K पर सभी 66 dense layer GPU पर रहीं। 128K पर 66 में से 63 layer GPU पर रहीं और 1,404 MiB CPU-mapped मेमोरी में गई। 256K पर 66 में से 42 layer GPU पर रहीं और 6,002 MiB CPU-mapped मेमोरी में गई। 256K MTP स्वीकृति दर करीब 69.4 प्रतिशत थी।
+
+Strata 0.1.44.1 ने CUDA 13.0.3 के साथ अपनी 48 layer को दोनों GPU में बाँटा। 4K और 16K कॉन्फ़िगरेशन में layer 0 से 23 पहले GPU पर और 24 से 47 दूसरे GPU पर थीं। इस परीक्षण में अपने-आप चुना गया 700 MiB VRAM reserve और 16,047 resident expert slot इस्तेमाल हुए।
+
+32K से 256K कॉन्फ़िगरेशन में layer 0 से 24 पहले GPU पर और 25 से 47 दूसरे GPU पर थीं। इस परीक्षण में automatic prefill, 0.5 की speculative minimum probability, INT8 KV storage, हर QSA layer पर 32,768 resident KV cell, 832 MiB VRAM reserve, 15,318 slot और 21,024 MiB वाला expert cache तथा अधिकतम चार draft वाला MTP speculative decoding इस्तेमाल हुआ।
+
+Strata native और PLE blob का digest `sha256:1473e0664c2017095f9164b6d617d7a71893452c1180c83002c4f28fc8c2b0da` था। रन expert profile और MTP draft pack पर भी निर्भर था, जिनके immutable digest प्रकाशित नहीं हैं।
+
+Strata रन में default route-tail skip mode था। यह सेटिंग मॉडल आउटपुट को थोड़ा बदलती है और नतीजे को दर्ज रनटाइम कॉन्फ़िगरेशन तक सीमित करती है। Flash प्रतिक्रियाओं में `BENCHMARK_OK` marker था। Dense अनुरोधों में API त्रुटि नहीं आई, लेकिन मुख्य हार्नेस ने marker रिकॉर्ड नहीं किया। कच्ची पंक्तियों में शून्य response characters दर्ज हुए। बाद की जाँच में response और thinking फ़ील्ड में आउटपुट मिला और response में `BENCHMARK_OK` की पुष्टि हुई।
+
+4K और 16K कॉन्फ़िगरेशन ने एक अनुरोध में 409 MiB खाली VRAM देखा और 832 MiB reserve सुझाया। लंबे कॉन्टेक्स्ट कॉन्फ़िगरेशन ने एक अनुरोध में 481 MiB खाली VRAM देखा और 896 MiB reserve सुझाया। दोनों मान engine की 512 MiB driver-paging सीमा से नीचे थे। कोई अनुरोध विफल नहीं हुआ, लेकिन कम मेमोरी की ये स्थितियाँ दोहराए गए परीक्षण को प्रभावित करती हैं।
+
+**98.9x को लंबे-कॉन्टेक्स्ट के पूरे स्टैक का नतीजा समझें, केवल इंजन की 98.9x बढ़त का प्रमाण नहीं।** परीक्षण ने होस्ट को स्थिर रखा। इसने मॉडल, क्वांटाइज़ेशन या रनटाइम को अलग करके नहीं जाँचा।
+
+## वास्तविक प्रॉम्प्ट लंबाई मायने रखती है
+
+अनुरोधित कॉन्टेक्स्ट और प्रोसेस किए गए प्रॉम्प्ट टोकन एक जैसे नहीं होते। 256K सेटिंग पर Qwen3.5, Qwen3.6, Nemotron और Qwen3.8 दोनों सिस्टमों पर लगभग 171,359 से 171,365 वास्तविक प्रॉम्प्ट टोकन प्रोसेस करते हैं।
+
+256K सेटिंग पर GPT-OSS ने दोनों सिस्टम पर 65,538 वास्तविक प्रॉम्प्ट टोकन प्रोसेस किए। इसलिए इसकी 256K पंक्ति बाकी मॉडलों जितनी इनपुट लंबाई नहीं दर्शाती।
+
+256K का Qwen3.8 नतीजा सबसे स्पष्ट अंतर दिखाता है। दो कार्ड वाले सिस्टम ने 251.3 टोकन प्रति सेकंड पर 171,359 प्रॉम्प्ट टोकन प्रोसेस किए और 1.079 टोकन प्रति सेकंड पर जनरेट किया। GB10 ने उतने ही प्रॉम्प्ट टोकन 535.1 टोकन प्रति सेकंड पर प्रोसेस किए और 22.371 टोकन प्रति सेकंड पर जनरेट किया।
+
+**कॉन्टेक्स्ट सेटिंग अनुरोधित सीमा बताती है।** वास्तविक प्रॉम्प्ट टोकन संख्या बताती है कि रनटाइम ने कितना कार्य पूरा किया।
+
+## कुल VRAM अब भी क्यों मायने रखती है
+
+### 1. मॉडल को एक 32 GB कार्ड नहीं दिखता
+
+दो GPU अपनी मेमोरी को एक स्थानीय एड्रेस स्पेस में नहीं मिलाते। Model-parallel रनटाइम layer या tensor को डिवाइसों में बाँटता है। हर डिवाइस को अपने तय weights, अस्थायी buffer और कॉन्टेक्स्ट स्थिति के हिस्से के लिए जगह चाहिए।
+
+उपयोगी क्षमता साधारण जोड़ से कम होती है। सटीक ओवरहेड मॉडल फ़ॉर्मैट, क्वांटाइज़ेशन, inference backend, tensor विभाजन और कॉन्टेक्स्ट लंबाई पर निर्भर करता है।
+
+### 2. जनरेशन के दौरान कॉन्टेक्स्ट मेमोरी बढ़ती है
+
+मॉडल weights मेमोरी बजट का केवल एक हिस्सा हैं। Key-value cache, या KV cache, पिछले टोकन का attention डेटा रखता है। लंबे कॉन्टेक्स्ट के लिए अधिक cache मेमोरी चाहिए। 4K परीक्षण 128K या 256K परिनियोजन का अनुमान नहीं देता।
+
+नए नतीजे हर मॉडल के लिए अलग प्रदर्शन सीमा दिखाते हैं। 256K पर दो कार्ड वाले सिस्टम में Qwen3.8 की जनरेशन गति बुरी तरह गिरती है। बाकी चार मॉडल दोनों सिस्टम पर उपयोगी गति बनाए रखते हैं। क्षमता अब भी महत्वपूर्ण है, क्योंकि इसी से तय होता है कि मॉडल और कॉन्टेक्स्ट रनटाइम आवंटन के लिए जगह छोड़कर फिट होंगे या नहीं।
+
+### 3. PCIe ट्रांसफ़र लागत जोड़ते हैं
+
+जब रनटाइम GPU के बीच activation या tensor भेजता है, तो डेटा होस्ट interconnect से गुजरता है। इससे synchronization बिंदु बनते हैं और हर चरण में लेटेंसी जुड़ती है। लागत tensor स्थिति, मॉडल आर्किटेक्चर, क्वांटाइज़ेशन और कॉन्टेक्स्ट लंबाई पर निर्भर करती है।
+
+इसका मतलब यह नहीं कि दो GPU वाला सिस्टम बेकार है। नतीजा रनटाइम कॉन्फ़िगरेशन और मॉडल पर निर्भर करता है। केवल 4K की प्रॉम्प्ट प्रोसेसिंग बताने वाला बेंचमार्क यह लागत नहीं दिखाता।
+
+### 4. ऊर्जा दक्षता पूरे सिस्टम का लाभ है
+
+GB10 कम दर्ज चिप या GPU पावर इस्तेमाल करते हुए अधिक मेमोरी क्षमता देता है। दो RTX 5060 Ti कार्ड बाकी सिस्टम से पहले कुल 360 W GPU पावर लेते हैं। NVIDIA GB10 का TDP 140 W बताता है।
+
+**GB10 कई मॉडलों पर peak throughput के बदले अधिक क्षमता, साझा working set और कम दर्ज GPU पावर देता है।** दो कार्ड वाला सिस्टम इस परीक्षण में कई नए MoE मॉडल पर अधिक throughput देता है।
+
+## 5060ti-x2 सिस्टम की लागत बहुत कम है
+
+दो RTX 5060 Ti 16 GB वाला पूरा workstation 10 अक्टूबर 2026 को **$3,479** में सूचीबद्ध था। कॉन्फ़िगरेशन में Intel Ultra 7 265K, Z890 motherboard, 32 GB DDR5, 1 TB storage, 1,000 W power supply और दोनों GPU शामिल थे। [पूरे दो-GPU workstation की सूची देखें](https://greenbeastgaming.com/products/dual-gpu-rtx-5060-ti-16gb-intel-focus-g-white)।
+
+NVIDIA का US marketplace 128 GB DGX Spark को **$6,950** में सूचीबद्ध करता है। सूची में 128 GB सुसंगत यूनिफाइड मेमोरी और 4 TB NVMe storage शामिल हैं, लेकिन सिस्टम out of stock दिखता है। [NVIDIA की वर्तमान DGX Spark सूची देखें](https://marketplace.nvidia.com/en-us/enterprise/personal-ai-supercomputers/dgx-spark/)।
+
+AMD Ryzen AI Halo Developer Platform एक और तुलना देता है। Micro Center पर यह Strix Halo सिस्टम 128 GB LPDDR5x यूनिफाइड मेमोरी और 2 TB storage के साथ **$3,999.99** में सूचीबद्ध है। Strix Halo अक्सर GB10 सिस्टम जैसी व्यावहारिक स्थानीय-AI श्रेणी में आता है, हालाँकि स्वतंत्र परीक्षण throughput और software maturity में GB10 को आगे पाते हैं। [Micro Center की वर्तमान Linux सूची देखें](https://www.microcenter.com/product/711961/amd-ryzen-ai-halo-developer-platform?osfs=false) और [Strix Halo बनाम GB10 समीक्षा पढ़ें](https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review/4)।
+
+| पूरा सिस्टम | 10 अक्टूबर 2026 को सूचीबद्ध कीमत | कीमत का अंतर |
 |---|---:|---:|
-| **5060ti-x2 workstation** | $3,479 | Baseline |
+| **5060ti-x2 workstation** | $3,479 | आधार |
 | **AMD Ryzen AI Halo, Strix Halo** | $3,999.99 | $520.99 अधिक |
 | **128 GB GB10 DGX Spark** | $6,950 | $3,471 अधिक |
 
-GB10 बड़ा unified memory pool, कम power use और long-context के लिए बेहतर architecture देता है। AMD system करीब $4,000 में वही 128 GB memory class देता है। 5060ti-x2 workstation listed GB10 price का लगभग **50%** रहता है, tax और shipping से पहले। जिन buyers को unified memory चाहिए, लेकिन NVIDIA software stack नहीं चाहिए, उनके लिए Strix Halo कम लागत वाला विकल्प है।
+GB10 बड़ा यूनिफाइड मेमोरी पूल और कम दर्ज GPU पावर देता है। AMD सिस्टम लगभग $4,000 में वही 128 GB मेमोरी श्रेणी देता है। कर और शिपिंग से पहले 5060ti-x2 workstation की सूचीबद्ध कीमत GB10 की लगभग **50%** है।
 
-ये अलग vendors की listed prices हैं, controlled retail basket नहीं। Comparison में 5060ti-x2 system में कम system memory और storage भी है। Price gap फिर भी महत्वपूर्ण है, क्योंकि दोनों listings complete usable computers की हैं, bare GPU prices की नहीं। Current RTX 5060 Ti 16 GB card listings करीब **$789 से $830 प्रति card** हैं, जो $429 launch MSRP से बहुत अधिक है। Current GPU price spike में भी dual-card price advantage बना रहता है। [Current RTX 5060 Ti price checks देखें](https://www.pcgamer.com/hardware/graphics-cards/graphics-card-price-watch-deals/)।
+ये अलग-अलग विक्रेताओं की सूचीबद्ध कीमतें हैं, नियंत्रित retail basket नहीं। तुलना में 5060ti-x2 सिस्टम में सिस्टम मेमोरी और storage भी कम है। मौजूदा RTX 5060 Ti 16 GB कार्ड की कीमतें **$789 से $830 प्रति कार्ड** के करीब हैं, जो $429 launch MSRP से बहुत अधिक है। GPU कीमतों में मौजूदा उछाल के दौरान भी दो कार्डों वाले सिस्टम की कीमत का लाभ बना रहता है। [RTX 5060 Ti की मौजूदा कीमतें देखें](https://www.pcgamer.com/hardware/graphics-cards/graphics-card-price-watch-deals/)。
 
-## GPT-OSS result को अलग तरह से देखें
+## स्थानीय AI कार्यभार के लिए इसका अर्थ
 
-वही report 4K से 256K तक GPT-OSS के लिए मजबूत 5060ti-x2 generation results दिखाती है। GB10 4K से 128K tests पूरा करता है, लेकिन 256K GPT-OSS test unsupported marked है।
+दो 16 GB कार्ड वाला सिस्टम लंबे कॉन्टेक्स्ट सेटिंग पर कई quantized 27B से 35B मॉडल चला सकता है। बेंचमार्क हर मॉडल के लिए एक ही विजेता नहीं दिखाता।
 
-GPT-OSS table से universal winner का दावा न करें। 256K पर tests समान range cover नहीं करते। Qwen result long-context comparison के लिए साफ है, क्योंकि दोनों systems 256K result report करते हैं, भले ही 5060ti-x2 run केवल 171,359 actual prompt tokens तक पहुंची हो।
+दो कार्ड वाला सिस्टम चुनें जब आपको चाहिए:
 
-## Qwen 3 27B build के लिए इसका अर्थ
+- **इस परीक्षण में GPT-OSS, Nemotron, Qwen3.5 और Qwen3.6 पर अधिक जनरेशन गति।**
+- **पाँचों मॉडलों में छोटे कॉन्टेक्स्ट पर अधिक throughput।**
+- **सूचीबद्ध GB10 सिस्टम से कम खरीद लागत।**
+- **NVIDIA discrete-GPU software compatibility और नए मॉडल आज़माने की गुंजाइश।**
 
-दो 16 GB cards वाला setup छोटे context में quantized 27B model चला सकता है। Benchmark ऐसे use case को खारिज नहीं करता। Data इस दावे को खारिज करते हैं कि 32 GB aggregate VRAM, 128 GB unified-memory system जितनी practical headroom देती है।
+GB10 चुनें जब आपको चाहिए:
 
-**किसी card पर model fit होना केवल weight capacity साबित करता है।** असली memory requirement में model weights, active context, KV cache, runtime buffers और operating-system headroom शामिल हैं। Context को model के साथ fit होना चाहिए। Load होने वाला ऐसा model जिसमें working conversation के लिए जगह नहीं है, usable long-context setup नहीं है।
+- **256K पर Qwen3.8 27B**, जहाँ GB10 की जनरेशन गति 20 गुना से अधिक है।
+- **एक 128 GB मेमोरी पूल**, जिसमें model weights, KV cache और runtime buffer के लिए अधिक जगह हो।
+- **दो अलग कार्डों से कम दर्ज GPU या चिप पावर।**
+- **दो कार्ड वाले सिस्टम पर दबाव डालने वाले मॉडल के लिए कम multi-device placement सीमाएँ।**
 
-यह sizing guidance in [Is 16GB VRAM Enough for Serious Local LLM Work?](/articles/is-16gb-vram-enough-local-llm/) से मेल खाता है, जो weights, context और runtime allocations को एक budget मानती है। [32GB VRAM guide for Qwen 27B](/articles/32gb-vram-qwen-27b-hardware-guide/) two-card builds के लिए यही conclusion देती है। Aggregate capacity usable headroom के बराबर नहीं है।
+यह [क्या गंभीर स्थानीय LLM काम के लिए 16GB VRAM पर्याप्त है?](/articles/is-16gb-vram-enough-local-llm/) की sizing सलाह से मेल खाता है। वहाँ weights, कॉन्टेक्स्ट और runtime आवंटन को एक बजट माना गया है। [Qwen 27B के लिए 32GB VRAM गाइड](/articles/32gb-vram-qwen-27b-hardware-guide/) दो कार्ड वाले सिस्टम के लिए यही निष्कर्ष देती है। कुल क्षमता और उपयोगी headroom समान नहीं हैं।
 
-Hardware खरीदने से पहले Qwen 3 27B deployment के लिए चार प्रश्न पूछें:
+लंबे कॉन्टेक्स्ट का सिस्टम खरीदने से पहले चार सवाल पूछें:
 
-- **क्या requested quantization runtime buffers के साथ fit होती है?** केवल model weights memory requirement तय नहीं करते।
-- **क्या context severe KV-cache pressure के बिना fit होता है?** Long prompts result बदलते हैं।
-- **क्या runtime fast device split इस्तेमाल करता है?** PCIe transfers और tensor placement हर generated token को प्रभावित करते हैं।
-- **क्या system target context पूरा करता है?** Fast 4K result failed 256K workload की भरपाई नहीं करता।
+- **क्या चुना गया quantization runtime buffer के साथ फिट होता है?** केवल model weights से मेमोरी जरूरत तय नहीं होती।
+- **क्या कॉन्टेक्स्ट पर बहुत अधिक KV-cache दबाव के बिना फिट होगा?** लंबे प्रॉम्प्ट नतीजा बदलते हैं।
+- **क्या रनटाइम डिवाइसों में कुशल विभाजन करता है?** PCIe ट्रांसफ़र और tensor placement हर जनरेट किए गए टोकन को प्रभावित करते हैं।
+- **क्या सिस्टम तय कॉन्टेक्स्ट पूरा करता है?** तेज़ 4K नतीजा विफल 256K कार्यभार की भरपाई नहीं करता।
 
-Supplied test dual-card system के लिए आखिरी प्रश्न का उत्तर देता है। Run 256K Qwen request में 171,359 tokens तक पहुंची और 1.2 tokens per second पर generate हुई। GB10 ने 256K को 25.8 tokens per second पर पूरा किया।
+**नया बेंचमार्क हर मॉडल के लिए इन सवालों का जवाब देता है।** 256K पर Qwen3.8 स्पष्ट रूप से GB10 के पक्ष में है। इस खास कॉन्फ़िगरेशन में बाकी चार मॉडल जनरेशन गति में दो कार्ड वाले सिस्टम के पक्ष में हैं। अधिक throughput न मिलने पर भी बड़ा यूनिफाइड मेमोरी पूल अधिक क्षमता देता है।
 
-**इस long-context workload के लिए unified memory बेहतर architecture है, जब alternative model के working set को PCIe के सहारे फैलाता है।** PCIe capacity workaround है। PCIe वही memory pool, latency या transfer path नहीं बनाता। [Local AI GPU context guide](/articles/local-ai-model-gpu-context-guide/) बताती है कि model weights, KV cache, tool output और runtime buffers को साथ में size करना चाहिए। [Ollama Qwen3.8 27B GPU benchmark](/articles/qwen38-27b-vast-ai-gpu-benchmark/) भी दिखाता है कि long-context results को short-context decode numbers से अलग देखना चाहिए।
+उसी दो-GPU हार्डवेयर ने Strata पर Flash-Next IQ2_XS के साथ 256K पर वार्मअप के बाद 92.8 टोकन प्रति सेकंड का माध्य भी दर्ज किया। यह अलग नतीजा dense Qwen3.8 और GB10 की तुलना को नहीं बदलता। Flash-Next का mixture-of-experts आर्किटेक्चर, quantization, पैकेज, रनटाइम और decode mode अलग हैं। इस डेटा में GB10 पर Flash-Next का मेल खाता नतीजा नहीं है।
 
 ## निष्कर्ष
 
-**Long-context 27B inference के लक्ष्य में दो 16 GB RTX 5060 Ti cards GB10 का कमजोर विकल्प हैं।** वे छोटे context sizes पर अधिक prompt throughput देते हैं। वे अधिक GPU power लेते हैं और runtime को split-memory layout में चलाते हैं।
+**256K पर जाँचे गए पाँच में से चार मॉडलों के लिए दो RTX 5060 Ti सिस्टम तेज़ है।** इसकी कीमत सूचीबद्ध GB10 सिस्टम की लगभग आधी है। 256K पर Qwen3.8 27B, अधिक क्षमता और साझा मेमोरी पूल वाले काम के लिए GB10 बेहतर विकल्प है।
 
-Supplied results में GB10 prompt processing में धीमा है। System अधिक power efficient है, चार गुना aggregate memory देता है और पूरा 256K Qwen test usable generation speed पर पूरा करता है।
+पहले का केवल Qwen वाला नतीजा GB10 की आसान जीत दिखाता था। पाँच मॉडलों का नया परीक्षण बताता है कि यह निष्कर्ष बहुत व्यापक था। मॉडल आर्किटेक्चर, रनटाइम संस्करण, tensor placement और कॉन्टेक्स्ट व्यवहार नतीजे बदलते हैं।
 
-यदि आप short prompts चलाते हैं और prompt ingestion को प्राथमिकता देते हैं, तो 5060ti-x2 का सीमित use case है। 27B model के लिए बड़ा unified memory pool बेहतर है, क्योंकि model और context एक coherent working set साझा करते हैं। PCIe transfers inference path में आने पर unified memory बेहतर रहती है।
+यदि आप GPT-OSS, Nemotron 3.5 Lightning, Qwen3.5 या Qwen3.6 चलाते हैं, तो इस बेंचमार्क में दो कार्ड वाले सिस्टम की जनरेशन गति अधिक थी। यदि आप 256K पर Qwen3.8 27B चलाते हैं, तो GB10 ने उपयोगी गति दी जबकि दो कार्ड वाला सिस्टम लगभग रुक गया।
 
-Benchmark यह नहीं दिखाता कि दो RTX 5060 Ti कभी Qwen 3 27B शुरू नहीं करेंगे। Data दिखाते हैं कि model शुरू करना और workload को अच्छी तरह चलाना अलग बातें हैं।
+**मेमोरी क्षमता और throughput खरीद के अलग मानदंड हैं।** GB10 में कुल मेमोरी चार गुना है और साझा working set सरल है। दो कार्ड वाला सिस्टम कई जाँचे गए मॉडलों पर अधिक दर्ज throughput और बहुत कम सूचीबद्ध सिस्टम कीमत देता है।
 
-## Benchmark की सीमाएं
+Strata नतीजा एक और सीख देता है। उसी दो-GPU होस्ट पर रनटाइम स्थिति, मॉडल आर्किटेक्चर और decode mode ने 256K का परिणाम बदल दिया। Flash-Next IQ2_XS का वार्मअप के बाद माध्य लगभग 93 टोकन प्रति सेकंड रहा, जबकि dense Qwen3.8 ने 24 layer को CPU memory में भेजा और एक टोकन प्रति सेकंड से नीचे चला गया।
 
-Supplied report literal Ollama tags पहचानती है, लेकिन resolved manifest digests, model revisions, CPU, power measurements या cooling setup दर्ज नहीं करती। Report 5060ti-x2 system के लिए PCIe Gen4 x16 और test के समय current NVIDIA Linux drivers भी पहचानती है। Figures को observed system comparison मानें, हर RTX 5060 Ti pair और हर GB10 implementation की universal ranking नहीं।
+## बेंचमार्क की सीमाएँ
 
-ऊपर की hardware specifications NVIDIA से आती हैं। Performance figures इस article के लिए supplied benchmark data से आती हैं।
+बेंचमार्क में मॉडल टैग, अनुरोधित कॉन्टेक्स्ट, वास्तविक प्रॉम्प्ट टोकन, प्रॉम्प्ट प्रोसेसिंग गति, जनरेशन गति, Ollama संस्करण और 128 टोकन का जनरेशन लक्ष्य दर्ज हैं। इसमें तय manifest digest, CPU power, दीवार से ली गई power, fan गति या कूलिंग सेटअप दर्ज नहीं हैं।
 
-## References
+256K पर GPT-OSS पंक्तियों ने दोनों सिस्टम पर 65,538 वास्तविक प्रॉम्प्ट टोकन प्रोसेस किए। दूसरी 256K पंक्तियों ने लगभग 171K वास्तविक प्रॉम्प्ट टोकन प्रोसेस किए। इन आँकड़ों को देखे गए सिस्टम की तुलना समझें, हर RTX 5060 Ti जोड़ी और हर GB10 कार्यान्वयन की सार्वभौमिक रैंकिंग नहीं।
 
-- [Ollama Qwen3.8 model library](https://ollama.com/library/qwen3.8)
-- [Ollama GPT-OSS model tags](https://ollama.com/library/gpt-oss/tags)
-- [क्या गंभीर स्थानीय LLM कार्य के लिए 16GB VRAM पर्याप्त है?](/articles/is-16gb-vram-enough-local-llm/)
+Strata बनाम dense परीक्षण में सटीक प्रॉम्प्ट संख्या, हर कॉन्टेक्स्ट पर पाँच मापे गए अनुरोध, रनटाइम संस्करण, डिवाइस स्थिति, cache सेटिंग और अनुरोध स्थिति दर्ज हैं। तुलना में मॉडल आर्किटेक्चर, quantization, पैकेजिंग, रनटाइम और decode mode एक साथ बदले। 32K से बड़े कॉन्टेक्स्ट पर Strata ने प्रॉम्प्ट prefix फिर इस्तेमाल किए। दोनों स्टैक के मापे गए जनरेशन अनुरोधों ने लगभग पूरा प्रॉम्प्ट फिर इस्तेमाल किया।
+
+इस लेख से सटीक पुनरुत्पादन संभव नहीं है। बेंचमार्क हार्नेस, Strata pack layout, expert profile और MTP draft pack के immutable digest प्रकाशित नहीं हैं। कम VRAM की चेतावनी भी रन-दर-रन जोखिम बढ़ाती है। परीक्षण ने होस्ट को स्थिर रखा, inference engine को नहीं।
+
+ऊपर दिए गए हार्डवेयर विनिर्देश NVIDIA से हैं। प्रदर्शन आँकड़े इस लेख के नियंत्रित बेंचमार्क रन से हैं।
+
+## संदर्भ
+
+- [Ollama Qwen3.8 मॉडल लाइब्रेरी](https://ollama.com/library/qwen3.8)
+- [ISTA-DASLab Qwen3.8 Flash-Next GSQ-RCO GGUF मॉडल](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF)
+- [orcarouter Qwen3.8 Flash-Next Uncensored GGUF मॉडल](https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF)
+- [Ollama Qwen3.5 मॉडल लाइब्रेरी](https://ollama.com/library/qwen3.5)
+- [Ollama Qwen3.6 मॉडल लाइब्रेरी](https://ollama.com/library/qwen3.6)
+- [Ollama Nemotron 3.5 Lightning मॉडल लाइब्रेरी](https://ollama.com/library/nemotron-3.5-lightning)
+- [Ollama GPT-OSS मॉडल टैग](https://ollama.com/library/gpt-oss/tags)
+- [क्या गंभीर स्थानीय LLM काम के लिए 16GB VRAM पर्याप्त है?](/articles/is-16gb-vram-enough-local-llm/)
 - [Qwen 27B के लिए 32GB VRAM](/articles/32gb-vram-qwen-27b-hardware-guide/)
-- [स्थानीय AI GPU संदर्भ गाइड](/articles/local-ai-model-gpu-context-guide/)
-- [Vast.ai पर Qwen3.8 27B GPU benchmarks](/articles/qwen38-27b-vast-ai-gpu-benchmark/)
-- [दो RTX 5060 Ti 16 GB वाली complete workstation listing](https://greenbeastgaming.com/products/dual-gpu-rtx-5060-ti-16gb-intel-focus-g-white)
-- [NVIDIA DGX Spark US marketplace listing](https://marketplace.nvidia.com/en-us/enterprise/personal-ai-supercomputers/dgx-spark/)
-- [AMD Ryzen AI Halo 128 GB Linux listing](https://www.microcenter.com/product/711961/amd-ryzen-ai-halo-developer-platform?osfs=false)
-- [Tom's Hardware Strix Halo बनाम GB10 review](https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review/4)
-- [RTX 5060 Ti की वर्तमान कीमतें](https://www.pcgamer.com/hardware/graphics-cards/graphics-card-price-watch-deals/)
+- [स्थानीय AI GPU कॉन्टेक्स्ट गाइड](/articles/local-ai-model-gpu-context-guide/)
+- [Vast.ai पर Qwen3.8 27B GPU बेंचमार्क](/articles/qwen38-27b-vast-ai-gpu-benchmark/)
+- [पूरे दो RTX 5060 Ti 16 GB workstation की सूची](https://greenbeastgaming.com/products/dual-gpu-rtx-5060-ti-16gb-intel-focus-g-white)
+- [NVIDIA DGX Spark US marketplace की सूची](https://marketplace.nvidia.com/en-us/enterprise/personal-ai-supercomputers/dgx-spark/)
+- [AMD Ryzen AI Halo 128 GB Linux सूची](https://www.microcenter.com/product/711961/amd-ryzen-ai-halo-developer-platform?osfs=false)
+- [Tom's Hardware की Strix Halo बनाम GB10 समीक्षा](https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review/4)
+- [RTX 5060 Ti की मौजूदा कीमतें](https://www.pcgamer.com/hardware/graphics-cards/graphics-card-price-watch-deals/)

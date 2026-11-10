@@ -1,6 +1,7 @@
 ---
 title: "Pericolele stocării criptomonelor pe schimburi: de ce un portofel hardware este mai sigur"
 date: 2023-02-12
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Acest articol discută despre pericolele stocării criptomonedelor pe burse, explicând de ce este echivalent cu stocarea banilor într-o saltea și evidențiază beneficiile utilizării unui portofel hardware pentru stocarea securizată."
@@ -48,7 +49,7 @@ ______
 
 ## Recomandări pentru portofele hardware
 
-Dacă vă gândiți să cumpărați un portofel hardware, există mai multe opțiuni disponibile. Două opțiuni populare și foarte apreciate sunt [Trezor wallet](https://amzn.to/3xfyuEM) and the [Ledger wallet](https://amzn.to/3jSMyRE) **Aceste portofele oferă un nivel ridicat de securitate** și sunt ușor de utilizat, făcându-le **o alegere excelentă pentru investitorii cripto**.
+Dacă vă gândiți să cumpărați un portofel hardware, există mai multe opțiuni disponibile. Două opțiuni populare și foarte apreciate sunt [portofel Trezor](https://amzn.to/3xfyuEM) și [portofel Ledger](https://amzn.to/3jSMyRE) **Aceste portofele oferă un nivel ridicat de securitate** și sunt ușor de utilizat, făcându-le **o alegere excelentă pentru investitorii cripto**.
 
 ______
 

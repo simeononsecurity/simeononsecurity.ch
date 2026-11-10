@@ -1,7 +1,7 @@
 ---
 title: "Cele Mai Bune Browsere pentru Confidențialitate 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: 'Comparație cuprinzătoare pentru 2026 a celor mai bune browsere axate pe confidențialitate: LibreWolf, Brave, Firefox, Tor și altele. Teste detaliate de confidențialitate, repere de performanță și analiză de securitate pentru a-ți proteja datele online.'
@@ -922,6 +922,41 @@ Mulți utilizatori preocupați de confidențialitate folosesc mai multe browsere
 - Protejează împotriva furtului de identitate
 - Previne manipularea
 - Drept uman fundamental
+
+## Verificări ale browserelor de confidențialitate în 2026
+
+Numele unui browser nu dovedește că acesta protejează confidențialitatea. Înainte de utilizarea zilnică, verificați setările implicite, canalul de actualizare, politica extensiilor și modul de sincronizare.
+
+1. Descărcați browserul de pe site-ul oficial al proiectului sau dintr-un magazin de aplicații de încredere. Evitați versiunile reîmpachetate.
+2. Mențineți browserul și sistemul de operare actualizate. O setare de confidențialitate nu repară un browser fără patch-uri.
+3. Verificați protecția integrată împotriva trackerelor, amprentării digitale, descărcărilor malițioase și site-urilor înșelătoare.
+4. Tratați extensiile ca software cu privilegii. Instalați mai puține, verificați permisiunile și eliminați extensiile nefolosite.
+5. Testați cu [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) și [BrowserLeaks](https://browserleaks.com/). Testul descrie un profil de browser și nu dovedește anonimatul.
+6. Separați identitățile prin profiluri distincte. Nu vă autentificați în conturi personale dintr-o fereastră Tor Browser folosită pentru cercetări sensibile.
+7. Folosiți Tor Browser cu setările standard. Fonturile și extensiile suplimentare sau redimensionarea ferestrei reduc avantajul unei amprente comune.
+
+LibreWolf este potrivit pentru cei care vor setări implicite mai stricte și acceptă să rezolve uneori probleme de compatibilitate. Brave este potrivit pentru compatibilitate Chromium și blocare integrată. Firefox este potrivit pentru cei care vor asistența Mozilla și controale flexibile. Tor Browser este potrivit pentru cei care au nevoie de anonimat la nivel de rețea și acceptă viteze și compatibilitate mai reduse.
+
+[Manualul Tor Browser](https://tb-manual.torproject.org/) și [ghidul de confidențialitate Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) explică aceste controale în detaliu.
+
+## Limitele actuale ale confidențialității și listă de verificare
+
+Protecțiile browserului reduc expunerea, dar nu anonimizează contul, dispozitivul sau conexiunea. **Navigarea privată** șterge anumite date locale din istoric după sesiune. Nu ascunde traficul față de operatorul de rețea și nu împiedică un site să identifice un utilizator autentificat. [Tor Project explică această diferență](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**Amprentarea depinde de cât de mare este grupul de browsere asemănătoare.** Tor Browser încearcă să includă utilizatorii în grupuri comune de amprentă prin letterboxing, valori standardizate și izolarea primei părți. Tor Project spune că anonimatul perfect nu este posibil. Fără un motiv specific, nu adăugați extensii neobișnuite, nu maximizați fereastra Tor și nu modificați setările implicite. [Citiți recomandările Tor despre amprentare](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf necesită actualizări regulate.** Întrebările frecvente ale proiectului spun că versiunile urmează adesea Firefox upstream în trei zile și că browserul nu are propriul mecanism de actualizare automată. Folosiți managerul de pachete sau metoda de instalare a platformei și verificați versiunea instalată după actualizările de securitate. [Consultați FAQ-ul LibreWolf](https://librewolf.net/docs/faq/).
+
+Folosiți lista de mai jos înainte de a alege un browser:
+
+- **Modelul de amenințare:** decideți dacă trebuie să reduceți urmărirea, să separați conturile, să rezistați cenzurii sau să rămâneți anonim.
+- **Calea actualizărilor:** confirmați cine le oferă și cum le veți instala.
+- **Compatibilitate:** testați serviciile bancare, munca, media, extensiile și accesibilitatea înainte de a vă muta întregul flux de lucru.
+- **Separarea identității:** evitați autentificările personale în sesiunile destinate reducerii legăturilor dintre activități.
+- **Amprentare:** păstrați setările apropiate de configurația obișnuită. Multe extensii de confidențialitate pot face browserul mai ușor de identificat.
+- **Stratul de rețea:** tratați DNS, VPN și Tor ca măsuri distincte. Fiecare protejează o parte diferită a conexiunii.
+
+Scorurile de performanță și confidențialitate din alte secțiuni sunt măsurători istorice sau comparații ilustrative dacă nu sunt precizate metoda, data, profilul hardware și rezultatele brute. Nu le considerați clasamente universale actuale. Testați site-urile și dispozitivele proprii după fiecare actualizare majoră a browserului.
 
 ## Concluzie: Preluarea Controlului Asupra Confidențialității Digitale
 

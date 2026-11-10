@@ -252,6 +252,33 @@ Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
 
+## Verificações atuais de RSAT e PowerShell
+
+A Microsoft agora distribui o módulo Active Directory por meio do Remote Server Administration Tools (RSAT). Nas edições cliente compatíveis do Windows, instale o recurso sob demanda em uma sessão elevada do PowerShell:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+No Windows Server, use o fluxo de instalação de recursos de servidor documentado pela Microsoft:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Verifique o módulo antes de executar comandos administrativos:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+A [referência do módulo ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) informa que o RSAT fornece o módulo e lista os cmdlets disponíveis. Use a versão correspondente ao sistema operacional do host. O PowerShell 7 tem considerações de compatibilidade. Portanto, teste o módulo em uma estação de trabalho que não seja de produção antes de mudar um fluxo administrativo estabelecido.
+
+Como recomendação operacional, use `-WhatIf` quando o cmdlet oferecer suporte, limite consultas com `-Server` quando um controlador de domínio específico for importante e solicite apenas as permissões necessárias à tarefa. O PowerShell documenta `-WhatIf` nos [parâmetros comuns](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Não armazene senhas no histórico de comandos ou em scripts. Prefira o prompt seguro do [Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), um armazenamento protegido de segredos ou uma conta de serviço delegada com processo de rotação documentado.
+
 ## Conclusão
 
 Para concluir, o **módulo Active Directory para PowerShell** é uma ferramenta poderosa que permite uma gestão eficiente e conveniente do Active Directory do Windows. Ao instalar e importar o módulo, você obtém acesso a um conjunto abrangente de **cmdlets** que simplificam várias tarefas relacionadas ao AD.

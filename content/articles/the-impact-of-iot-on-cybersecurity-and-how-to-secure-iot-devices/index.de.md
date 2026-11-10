@@ -1,6 +1,7 @@
 ---
 title: "Absicherung von IoT-Geräten: Herausforderungen und Lösungen für die Cybersicherheit"
 date: 2023-03-27
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Entdecken Sie die Auswirkungen des IoT auf die Cybersicherheit und lernen Sie effektive Strategien zum Schutz Ihrer vernetzten Geräte kennen."
@@ -49,7 +50,7 @@ ______
 Regierungen und Branchenverbände haben die Bedeutung der IoT-Sicherheit erkannt und arbeiten an der Entwicklung und Durchsetzung von **Normen** und **Vorschriften**. Einige wichtige Initiativen sind:
 
 - Die [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) bietet Leitlinien für IoT-Sicherheit und Datenschutz.
-- Die [International Organization for Standardization (ISO)](https://www.iso.org/) has established an IoT security standard, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
+- Die [International Organization for Standardization (ISO)](https://www.iso.org/) hat eine IoT-Sicherheitsnorm eingeführt, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
 
 ______
 

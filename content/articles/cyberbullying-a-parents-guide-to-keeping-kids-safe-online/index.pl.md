@@ -1,16 +1,17 @@
 ---
-title: "Protecting Kids Online: Poradnik dla rodziców dotyczący cyberprzemocy"
+title: "Ochrona dzieci w internecie: poradnik dla rodziców o cyberprzemocy"
 date: 2023-05-12
 toc: true
 draft: false
 description: "Dowiedz się, jak chronić swoje dzieci przed cyberprzemocą dzięki temu kompleksowemu przewodnikowi dla rodziców."
-tags: ["cyberprzemoc", "bezpieczeństwo w sieci", "rodzicielstwo", "dzieci", "zdrowie psychiczne", "przepisy rządowe", "polityka bezpieczeństwa w internecie", "monitorowanie aktywności online", "prewencja", "molestowanie w sieci", "cyberbezpieczeństwo", "cyfrowe rodzicielstwo", "media społecznościowe", "obywatelstwo cyfrowe", "ślad cyfrowy", "zastraszanie", "prawo", "technologia", "bezpieczeństwo", "edukacja"]
+tags: ["Cyberprzemoc", "Bezpieczeństwo w sieci", "Rodzicielstwo", "Dzieci", "Zdrowie psychiczne", "Przepisy rządowe", "Polityka bezpieczeństwa w internecie", "Monitorowanie aktywności w sieci", "Profilaktyka", "Nękanie w sieci", "Cyberbezpieczeństwo", "Rodzicielstwo cyfrowe", "Media społecznościowe", "Obywatelstwo cyfrowe", "Ślad cyfrowy", "Nękanie", "Prawo", "Technologia", "Bezpieczeństwo", "Edukacja"]
 cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Kreskówka przedstawiająca rodzica i dziecko wspólnie korzystających z komputera, nad komputerem znajduje się dymek z napisem speech bubble przedstawiający pozytywny przekaz."
 coverCaption: ""
+lastmod: 2026-11-09
 ---
 
-**Cyberbullying: A Parent's Guide to Keeping Kids Safe Online**.
+**Cyberprzemoc: poradnik dla rodziców, jak zapewnić dzieciom bezpieczeństwo w internecie**
 
 Internet zrewolucjonizował sposób komunikacji i dostępu do informacji, ale przyniósł też nowe wyzwania, takie jak cyberprzemoc. Cyberprzemoc to wykorzystanie technologii do nękania, poniżania lub grożenia komuś. Może mieć miejsce za pośrednictwem mediów społecznościowych, wiadomości tekstowych, forów internetowych i platform do gier. Jako rodzic, ważne jest, aby edukować siebie i swoje dzieci na temat cyberprzemocy i podjąć kroki w celu zapewnienia im bezpieczeństwa w sieci.
 
@@ -74,7 +75,7 @@ Oto kilka materiałów dla rodziców, z których mogą dowiedzieć się więcej 
 
 - Federalna Komisja Handlu udostępnia przewodnik dla rodziców, jak rozmawiać z dziećmi o bezpieczeństwie i prywatności w sieci.[Link](https://consumer.ftc.gov/articles/talk-your-kids)
 
-## Government Regulations
+## Przepisy rządowe
 
 Rząd dostrzegł powagę cyberprzemocy i wprowadził prawa mające na celu jej zwalczanie. Ustawa o ochronie dzieci w Internecie wymaga od szkół i bibliotek wprowadzenia zasad bezpieczeństwa w Internecie, a ustawa o ochronie dzieci w XXI wieku wymaga od szkół kształcenia uczniów w zakresie bezpieczeństwa w Internecie. Ponadto w wielu stanach obowiązują przepisy dotyczące cyberprzemocy. Na przykład, prawo Kalifornii czyni cyberprzemoc przestępstwem, a prawo Nowego Jorku wymaga od szkół posiadania zasad dotyczących cyberprzemocy. Ważne jest, aby znać przepisy obowiązujące w danym stanie i upewnić się, że szkoła dziecka ich przestrzega.
 

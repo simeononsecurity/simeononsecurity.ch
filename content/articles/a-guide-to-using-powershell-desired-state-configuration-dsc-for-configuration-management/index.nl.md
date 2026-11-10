@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC: een startgids"
 date: 2023-04-02
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Ontdek de kracht van PowerShell Desired State Configuration (DSC) om systeemconfiguraties te automatiseren en te beheren voor een veilige en conforme omgeving."
 tags: ["PowerShell", "DSC", "Configuratiebeheer", "Automatisering", "Windows", "Systeembeheer", "Beste praktijken", "Naleving", "Beveiliging", "Infrastructuur", "DevOps", "Serverconfiguratie", "Testen", "Git", "Broncontrole", "Overheidsvoorschriften", "NIST", "CIS", "Configuratie Drift", "Aangepaste middelen"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "Een cartoonbeeld van een zelfverzekerde systeembeheerder met een superheldencape, staand naast een goed georganiseerd serverrek, met een PowerShell DSC-script in de ene hand en een schild met het Windows-logo in de andere, de servers beschermend tegen configuratiedrift en beveiligingsrisico's."
 coverCaption: ""
 ---
@@ -75,7 +76,7 @@ Sla uw DSC-configuraties en aangepaste bronnen altijd op in een **bronbeheersyst
 
 ### Test uw configuraties
 
-**Testen** is een cruciaal aspect van configuratiebeheer. Test een DSC-configuratie op een niet-productieomgeving** voordat u deze inzet, om er zeker van te zijn dat deze werkt zoals verwacht en geen onbedoelde gevolgen heeft. U kunt ook tools gebruiken zoals [Pester](https://github.com/pester/Pester) voor het automatisch testen van uw DSC-configuraties.
+**Testen** is een cruciaal aspect van configuratiebeheer. Test een DSC-configuratie in een **niet-productieomgeving** voordat u deze inzet, om er zeker van te zijn dat deze werkt zoals verwacht en geen onbedoelde gevolgen heeft. U kunt ook tools gebruiken zoals [Pester](https://github.com/pester/Pester) voor het automatisch testen van uw DSC-configuraties.
 
 ______
 

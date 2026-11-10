@@ -1,12 +1,12 @@
 ---
 title: "Modelele lingvistice de context ale Meta: memorie mai bună pentru agenți, nu sfârșitul halucinațiilor"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Cum editează Context Language Models memoria agenților, ce arată benchmarkurile și cum afectează fiabilitatea costurile cache-ului, capacitatea modelului și notițele neverificate."
 genre: ["Inteligență artificială", "Agenți AI", "AI local", "Securitate AI"]
-tags: ["Context Language Models", "CLM", "Meta AI", "halucinații AI", "memoria agentului", "gestionarea contextului", "compactarea contextului", "fereastra de context", "Suffix Cache Reuse", "cache KV", "SGLang", "llama.cpp", "cache pentru prompturi", "prompt injection", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agenți pe termen lung", "fiabilitate AI", "verificarea agentului"]
+tags: ["modele lingvistice contextuale", "CLM", "Meta AI", "halucinații AI", "memoria agentului", "gestionarea contextului", "compactarea contextului", "fereastra de context", "reutilizarea cache-ului de sufix", "cache KV", "SGLang", "llama.cpp", "memorarea prompturilor în cache", "injecție de prompt", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agenți de lungă durată", "fiabilitatea AI", "verificarea agenților"]
 cover: "/img/cover/context-language-models-editable-memory.webp"
 coverAlt: "Un procesor luminos lângă carduri translucide de documente reordonate și un teanc separat de arhivă pe o suprafață întunecată"
 coverCaption: "Ilustrație conceptuală a memoriei editabile a agentului."
@@ -109,6 +109,8 @@ reuse A, recompute replacement for B and C
 ```
 
 Metrica **FLOP-uri de reutilizare a prefixului** din lucrare numără generarea și procesarea promptului după prima nepotrivire. Un PFLOP reprezintă 10¹⁵ operații în virgulă mobilă. Este un total estimat de calcul, nu un scor de calitate, o măsură de debit sau o factură.
+
+**Exemplul de 7,7×** din Anexa C folosește un prompt ilustrativ de 20.000 de tokeni și un răspuns de 500 de tokeni. O editare la început costă de 7,7 ori mai mult decât o tură modelată cu adăugare simplă și un prefix reutilizabil de 18.000 de tokeni. Este penalizarea de recalculare pentru lungimile specificate, nu o reducere măsurată de 7,7 ori a halucinațiilor.
 
 **Latența locală depinde de debitul promptului.** Ca exemplu aritmetic, recitirea a 24.000 de tokeni la 800 de tokeni pe secundă durează 30 de secunde înaintea altor costuri. Nu este un benchmark pentru un Mac sau GPU anume. Măsoară backendul, cuantizarea și dimensiunile reale ale prompturilor folosite.
 

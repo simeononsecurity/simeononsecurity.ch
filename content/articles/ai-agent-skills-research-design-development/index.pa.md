@@ -1,7 +1,7 @@
 ---
 title: "ਖੋਜ, ਡਿਜ਼ਾਈਨ ਅਤੇ ਵਿਕਾਸ ਲਈ 9 AI Agent Skill ਪ੍ਰੋਜੈਕਟ"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "ਵਰਕਫਲੋ, ਹੋਸਟ ਸਹਾਇਤਾ, ਨਿਰਭਰਤਾਵਾਂ ਅਤੇ ਲਾਗਤ ਦੇ ਆਧਾਰ ਤੇ ਨੌਂ agent skill ਪ੍ਰੋਜੈਕਟਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ। ਆਪਣੀ ਲੋੜ ਵਾਲੀਆਂ skills ਨੂੰ ਇੰਸਟਾਲ, ਜਾਂਚ ਅਤੇ ਟੈਸਟ ਕਰਨਾ ਸਿੱਖੋ।"
@@ -221,18 +221,18 @@ record:
 
 {{< youtube id="3fdb_giOrLo" enable="true" title="9 Free AI Agent Skills You NEED to Install Now" >}}
 
-## References
+## ਹਵਾਲੇ
 
-- [last30days: research skill and installation](https://github.com/mvanhorn/last30days-skill)
-- [Humanizer: writing skill](https://github.com/blader/humanizer)
-- [Impeccable: design workflow](https://impeccable.style/)
-- [Impeccable: repository and host-specific setup](https://github.com/pbakaus/impeccable)
-- [Superpowers: development skills](https://github.com/obra/superpowers)
-- [gstack: engineering tools and host support](https://github.com/garrytan/gstack)
-- [Claude Video: Watch skill and runtime requirements](https://github.com/bradautomates/claude-video)
-- [Remotion: React video framework](https://github.com/remotion-dev/remotion)
-- [Remotion: agent skills](https://www.remotion.dev/docs/ai/skills)
-- [Remotion: licensing and pricing](https://www.remotion.dev/docs/license/pricing)
-- [HyperFrames: framework and skill distribution](https://github.com/heygen-com/hyperframes)
-- [NVIDIA SkillSpector: scanner behavior and data handling](https://github.com/NVIDIA/SkillSpector)
-- [Futurepedia: 9 Free AI Agent Skills You NEED to Install Now](https://www.youtube.com/watch?v=3fdb_giOrLo)
+- [last30days: ਖੋਜ ਹੁਨਰ ਅਤੇ ਇੰਸਟਾਲੇਸ਼ਨ](https://github.com/mvanhorn/last30days-skill)
+- [Humanizer: ਲਿਖਤ ਸੰਪਾਦਨ ਹੁਨਰ](https://github.com/blader/humanizer)
+- [Impeccable: ਡਿਜ਼ਾਈਨ ਕਾਰਜ-ਪ੍ਰਵਾਹ](https://impeccable.style/)
+- [Impeccable: ਰਿਪੋਜ਼ਟਰੀ ਅਤੇ ਹੋਸਟ-ਖਾਸ ਸੈਟਅੱਪ](https://github.com/pbakaus/impeccable)
+- [Superpowers: ਵਿਕਾਸ ਹੁਨਰ](https://github.com/obra/superpowers)
+- [gstack: ਇੰਜੀਨੀਅਰਿੰਗ ਟੂਲ ਅਤੇ ਹੋਸਟ ਸਹਾਇਤਾ](https://github.com/garrytan/gstack)
+- [Claude Video: Watch ਹੁਨਰ ਅਤੇ ਰਨਟਾਈਮ ਲੋੜਾਂ](https://github.com/bradautomates/claude-video)
+- [Remotion: React ਵੀਡੀਓ ਫਰੇਮਵਰਕ](https://github.com/remotion-dev/remotion)
+- [Remotion: ਏਜੰਟ ਹੁਨਰ](https://www.remotion.dev/docs/ai/skills)
+- [Remotion: ਲਾਇਸੈਂਸ ਅਤੇ ਕੀਮਤਾਂ](https://www.remotion.dev/docs/license/pricing)
+- [HyperFrames: ਫਰੇਮਵਰਕ ਅਤੇ ਹੁਨਰ ਵੰਡ](https://github.com/heygen-com/hyperframes)
+- [NVIDIA SkillSpector: ਸਕੈਨਰ ਦਾ ਵਰਤਾਅ ਅਤੇ ਡਾਟਾ ਸੰਭਾਲ](https://github.com/NVIDIA/SkillSpector)
+- [Futurepedia: 9 ਮੁਫ਼ਤ AI ਏਜੰਟ ਹੁਨਰ ਜੋ ਹੁਣੇ ਇੰਸਟਾਲ ਕਰਨੇ ਚਾਹੀਦੇ ਹਨ](https://www.youtube.com/watch?v=3fdb_giOrLo)

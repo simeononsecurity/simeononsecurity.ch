@@ -1,10 +1,11 @@
 ---
 title: "De beginnersgids voor CISSP-certificering: Tips voor examenvoorbereiding"
 date: 2023-05-15
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Leer de stappen ter voorbereiding op en het slagen voor het CISSP-examen, een prestigieuze certificering voor informatiebeveiligers."
-tags: ["CISSP-certificering", "informatiebeveiliging", "examenvoorbereiding", "onderzoekplan", "oefenexamens", "cyberbeveiliging", "professionele ontwikkeling", "certificatie-examen", "ISC2", "carrièrekansen", "veiligheidsarchitectuur", "netwerkbeveiliging", "toegangscontrole", "risicobeheer", "encryptie", "veiligheidsoperaties", "fysieke veiligheid", "bedrijfscontinuïteit", "noodherstel", "compliance"]
+tags: ["CISSP-certificering", "informatiebeveiliging", "examenvoorbereiding", "studieplan", "oefenexamens", "cyberbeveiliging", "professionele ontwikkeling", "certificatie-examen", "ISC2", "carrièrekansen", "veiligheidsarchitectuur", "netwerkbeveiliging", "toegangscontrole", "risicobeheer", "encryptie", "veiligheidsoperaties", "fysieke veiligheid", "bedrijfscontinuïteit", "noodherstel", "naleving", "CISSP-examentips", "CISSP-studiemateriaal", "CISSP-toelatingsvoorwaarden", "CISSP-examenindeling", "CISSP-oefenexamens", "CISSP-aanmelding", "certificering in informatiebeveiliging", "certificering voor beveiligingsprofessionals", "beveiligingsbeheer", "beveiligingsbeoordeling", "softwarebeveiliging"]
 cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "Een cartoonbeeld van een persoon met een CISSP-certificaat, met een gedachtebron die verschillende informatiebeveiligingsonderwerpen toont, zoals beveiligingsarchitectuur, toegangscontrole, encryptie en netwerkbeveiliging."
 coverCaption: ""
@@ -12,11 +13,11 @@ coverCaption: ""
 
 **Een beginnersgids voor het behalen van het CISSP-certificaat: Voorbereiding op het Certified Information Systems Security Professional Exam**.
 
-De [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) certification is a highly sought-after certification for professionals in the field of information security. It is considered the gold standard in the industry and is recognized worldwide as a benchmark for excellence in the field of information security. This guide will provide an overview of the [CISSP certification](https://www.isc2.org/Certifications/CISSP) en geven tips over hoe je je op het examen kunt voorbereiden.
+De certificering [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) is zeer gewild onder professionals in informatiebeveiliging. Ze geldt als de gouden standaard in de sector en wordt wereldwijd erkend als maatstaf voor uitmuntendheid op dit gebied. Deze gids geeft een overzicht van de [CISSP-certificering](https://www.isc2.org/Certifications/CISSP) en tips voor de voorbereiding op het examen.
 
 ## Wat is de CISSP certificering?
 
-De [CISSP certification](https://www.isc2.org/Certifications/CISSP) is an advanced-level certification that validates a candidate's expertise in information security. It is awarded by the International Information System Security Certification Consortium, or (ISC) een non-profitorganisatie die gespecialiseerd is in onderwijs en certificering op het gebied van informatiebeveiliging.
+De [CISSP-certificering](https://www.isc2.org/Certifications/CISSP) is een certificering op gevorderd niveau die de deskundigheid van een kandidaat op het gebied van informatiebeveiliging bevestigt. De certificering wordt toegekend door het International Information System Security Certification Consortium, oftewel (ISC)², een non-profitorganisatie die gespecialiseerd is in onderwijs en certificering op het gebied van informatiebeveiliging.
 
 Om de [CISSP certification](https://www.isc2.org/Certifications/CISSP) kandidaten moeten slagen voor een examen over acht domeinen van informatiebeveiliging. Deze domeinen omvatten **beveiliging en risicobeheer**, **beveiligingsactiva**, **beveiligingsengineering**, **communicatie- en netwerkbeveiliging**, **identiteits- en toegangsbeheer**, **veiligheidsbeoordeling en testen**, **beveiligingsoperaties**, en **beveiliging van softwareontwikkeling**.
 
@@ -30,7 +31,7 @@ Voorbereiding op het CISSP examen kan een ontmoedigende taak zijn, maar er zijn 
 
 ### Stap 1: voldoen aan de toelatingseisen
 
-Voordat u begint met het voorbereidingsproces, is het belangrijk om ervoor te zorgen dat u voldoet aan de vereisten voor het examen. [CISSP certification.](https://www.isc2.org/Certifications/CISSP) Candidates must have a minimum of five years of cumulative, paid, full-time work experience in two or more of the eight domains of the CISSP Common Body of Knowledge (CBK)
+Controleer voordat u met de voorbereiding begint of u voldoet aan de toelatingseisen voor de [CISSP-certificering](https://www.isc2.org/Certifications/CISSP). Kandidaten moeten minimaal vijf jaar cumulatieve, betaalde werkervaring in voltijd hebben in twee of meer van de acht domeinen van de CISSP Common Body of Knowledge (CBK).
 
 Kandidaten kunnen ook aan de toelatingsvoorwaarden voldoen met vier jaar werkervaring en een toepasselijke universitaire graad of een andere goedgekeurde kwalificatie.
 
@@ -49,9 +50,10 @@ Er zijn verschillende studiematerialen beschikbaar voor kandidaten, zoals studie
 ### Aanbevolen bronnen
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [PluralSight (Voorkeur)](https://www.pluralsight.com/)
+- [Officiële studiegids en oefentoetsen](https://amzn.to/3LAu3Ly)
+- [Meer leermiddelen](https://simeononsecurity.com/recommendations/learning_resources)
+- [Oefentoets CISSP van SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Stap 4: Oefenen met oefenexamens
 
@@ -59,7 +61,8 @@ Oefenexamens zijn een goede manier om uw kennis te meten en te bepalen op welke 
 
 Het is belangrijk om meerdere oefenexamens te maken om vertrouwd te raken met de soorten vragen die gesteld kunnen worden en om tijdmanagementvaardigheden te ontwikkelen.
 
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
+- [Officiële studiegids en oefentoetsen](https://amzn.to/3LAu3Ly)
+- [Oefentoets CISSP van SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Stap 5: Schrijf je in voor het examen
 

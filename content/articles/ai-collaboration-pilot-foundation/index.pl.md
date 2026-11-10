@@ -1,12 +1,12 @@
 ---
-title: "Pilotaż zarządzania agentami AI: karta, zakres uprawnień i testy"
+title: "Pilotaż zarządzania agentami AI: karta, źródła nadrzędne i testy"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Zdefiniuj role pilota, autorytatywne źródła, szablony zasad i testy akceptacyjne przed podłączeniem narzędzi AI."
 genre: ["Sztuczna inteligencja", "Współpraca zespołowa", "Inżynieria oprogramowania"]
-tags: ["kurs współpracy z AI", "karta pilota", "autorytet źródła", "rejestr uprawnień", "szablon zasad", "testy akceptacyjne", "laboratorium syntetyczne"]
+tags: ["kurs współpracy z AI", "karta pilota", "źródło nadrzędne", "rejestr źródeł miarodajnych", "szablon zasad", "testy akceptacyjne", "laboratorium syntetyczne"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Ilustracja przedstawiająca specjalistów przeglądających wspólną pracę projektową w środowisku cyberbezpieczeństwa"
 coverCaption: ""
@@ -18,7 +18,7 @@ coverCaption: ""
 
 ## Najważniejsze wnioski
 
-- **Uprawnienia** przypisują konkretnemu typowi informacji właściwe miejsce.
+- **Źródło nadrzędne** wskazuje właściwe miejsce dla danego typu informacji.
 - **Dowody wersji** wskazują źródła stojące za odpowiedzią.
 - **Kontrole dostępu** niezależnie od instrukcji ograniczają publikację.
 - **Testy akceptacyjne** obejmują odrzucone zmiany i odzyskiwanie.
@@ -29,7 +29,7 @@ coverCaption: ""
 
 **Szacowany czas:** 60 do 90 minut. **Poziom:** podstawy zarządzania. Zasady akceptacji i wartości retencji w tym kursie są decyzjami projektowymi, a nie ustawieniami dostawcy ani wskazówkami dotyczącymi zgodności.
 
-**Rezultat:** kończysz z kartą, rejestrem uprawnień, wersjonowanymi zasadami i planem testów negatywnych. Późniejsze lekcje tworzą kontrole platformy i zbierają zaobserwowane dowody odmowy.
+**Rezultat:** kończysz z kartą, rejestrem źródeł miarodajnych, wersjonowanymi zasadami i planem testów negatywnych. Późniejsze lekcje tworzą kontrole platformy i zbierają zaobserwowane dowody odmowy.
 
 ## Zdefiniuj pilota
 
@@ -58,7 +58,7 @@ stop_conditions:
 
 **Usługa syntetyczna** udostępnia rekord konfiguracji retencji. Nie dostarczono działającej usługi usuwania. Siedem i trzydzieści dni to fikcyjne wymagania. Cofnięcie konfiguracji nie przywraca usuniętych danych.
 
-## Zarejestruj uprawnienia
+## Zarejestruj źródła miarodajne
 
 | ID źródła | Główne miejsce w GitHub | Miejsce w środowisku mieszanym |
 |---|---|---|
@@ -72,7 +72,7 @@ stop_conditions:
 
 **Zapisz lokalizację, właściciela, rewizję, status i zakres każdego źródła** w `docs/project-map.md`. Identyfikatory commitów repozytorium wskazują migawki. Wersje liczbowe Confluence wskazują strony. Klucz Jira wskazuje element pracy, a nie niezmienny opis. Powiąż recenzję ze stałym eksportem propozycji albo z commitem repozytorium.
 
-**Kopie repozytorium w torze mieszanym są migawkami**, a nie źródłem wymagań. Jira planuje dostawę. GitHub zapisuje zaimplementowane zachowanie. Confluence przechowuje zatwierdzone brzmienie wymagań. Podsumowanie z czatu nigdy nie staje się dodatkowym źródłem uprawnień.
+**Kopie repozytorium w torze mieszanym są migawkami**, a nie źródłem wymagań. Jira planuje dostawę. GitHub zapisuje zaimplementowane zachowanie. Confluence przechowuje zatwierdzone brzmienie wymagań. Podsumowanie z czatu nigdy nie staje się dodatkowym źródłem wymagań.
 
 ## Opublikuj wspólne zasady
 
@@ -130,7 +130,7 @@ PASS: consistency only, human approval remains required
 | **Zatwierdzona zmiana** | Spójne rekordy i akceptacja człowieka | Końcowa rewizja, kontrole, recenzja |
 | **Nieaktualny kontekst** | Odrzuć zmienione bazy źródłowe | Stare i nowe rewizje oraz nieudana kontrola |
 | **Nieautoryzowany zapis** | Odmów publikacji contributorowi | Rola aktora, odmowa, niezmieniona rewizja |
-| **Konflikt między systemami** | Zatrzymaj się i zapytaj właściciela uprawnień | Sprzeczne rekordy i rozwiązanie |
+| **Konflikt między systemami** | Zatrzymaj się i zapytaj właściciela źródła miarodajnego | Sprzeczne rekordy i rozwiązanie |
 | **Częściowa publikacja** | Pozostaw dostawę nieukończoną | Ukończone i oczekujące wiersze rejestru |
 | **Odmowa dostępu** | Zatrzymaj się bez uprzywilejowanej zamiany | ID źródła i zredagowana odmowa |
 | **Odzyskiwanie** | Zastosuj sprawdzone odtworzenie | Wynikowa rewizja i odczyt po zapisie |
@@ -140,7 +140,7 @@ PASS: consistency only, human approval remains required
 
 **Przykładowy lokalny wiersz dowodu:** Actor: learner. Initial source: untouched supplied lab baseline. Action: `python3 -m unittest discover -s . -v` from a fresh extraction. Expected: ten passing tests. Observed in the supplied source test run: `Ran 10 tests` i `OK`. Resulting source: unchanged baseline. Evidence file: `lab-tests.txt` w prywatnym pakiecie pilota. Ten wiersz wspiera tylko zachowanie checkera. Nie wspiera twierdzenia o uprawnieniach GitHub ani środowiska pracy.
 
-**Bramka fundamentu:** przed modułem 2 recenzent musi znaleźć kartę, siedmioźródłowy rejestr uprawnień, wersję i właściciela POL-01 oraz wszystkie osiem przypadków akceptacyjnych z oczekiwanymi dowodami i odpowiedzialną rolą. Brakujący element oznacz jako Blocked. Wiersze odmowy platformy pozostaw jako Expected do czasu skonfigurowania i przetestowania odpowiednich kontroli.
+**Bramka fundamentu:** przed modułem 2 recenzent musi znaleźć kartę, rejestr siedmiu źródeł miarodajnych, wersję i właściciela POL-01 oraz wszystkie osiem przypadków akceptacyjnych z oczekiwanymi dowodami i odpowiedzialną rolą. Brakujący element oznacz jako Blocked. Wiersze odmowy platformy pozostaw jako Expected do czasu skonfigurowania i przetestowania odpowiednich kontroli.
 
 ## Przejdź przez jeden wniosek
 
@@ -204,7 +204,7 @@ Publication state: not published
 **Dostarcz jeden mały pakiet**, który inny autor zmian zrozumie bez historii rozmowy. Trzymaj go w sandboxie obok mapy.
 
 1. **Karta:** cel, zakres, wyłączenia, role i warunki zatrzymania.
-2. **Rejestr uprawnień:** jedno miejsce dla każdego typu informacji, z właścicielem i metodą rewizji.
+2. **Rejestr źródeł miarodajnych:** jedno miejsce dla każdego typu informacji, z właścicielem i metodą rewizji.
 3. **Zasady:** dozwolone dane wejściowe, działania, granica publikacji i ścieżka eskalacji.
 4. **Macierz akceptacji:** oczekiwany wynik, pole obserwacji, odnośnik do dowodu i recenzent.
 5. **Otwarte pytania:** nazwany właściciel i zablokowane działanie następcze dla każdego nierozstrzygniętego elementu.
@@ -213,15 +213,15 @@ Publication state: not published
 
 ## Rozwiązywanie problemów i wycofanie
 
-**Sprzeczni właściciele:** zawęź zakresy uprawnień przed podłączeniem narzędzi. **Nieoczekiwane dane prywatne:** zatrzymaj pracę, ogranicz rekord i zastosuj proces obsługi incydentu organizacji. **Brak dostępnych uprawnień:** użyj toru GitHub albo uzyskaj zatwierdzony sandbox firmowy.
+**Sprzeczni właściciele:** zawęź zakresy źródeł miarodajnych przed podłączeniem narzędzi. **Nieoczekiwane dane prywatne:** zatrzymaj pracę, ogranicz rekord i zastosuj proces obsługi incydentu organizacji. **Brak dostępnych uprawnień:** użyj toru GitHub albo uzyskaj zatwierdzony sandbox firmowy.
 
 **Wycofanie:** dezaktywuj adaptery i konektory pilota, zarchiwizuj szkice i pozostaw zasady produkcyjne bez zmian. Usuń artefakty syntetyczne dopiero po recenzji właściciela i upływie zadeklarowanego okresu przechowywania dowodów. Zachowaj dowody nieudanych testów.
 
 ## Ćwiczenie i samokontrola
 
-**Utwórz rejestr uprawnień dla formatu eksportu**, obok retencji. Określ, kto go zatwierdza, gdzie znajduje się implementacja i która rewizja wiąże recenzję.
+**Utwórz rejestr źródeł miarodajnych dla formatu eksportu**, obok retencji. Określ, kto go zatwierdza, gdzie znajduje się implementacja i która rewizja wiąże recenzję.
 
-**Oczekiwane rozumowanie:** właściciel produktu zatwierdza dozwolone formaty. GitHub zapisuje zaimplementowane zachowanie. Jira koordynuje dostawę. Ani notatka ze spotkania, ani wygenerowane podsumowanie nie uzyskują uprawnień do wymagań.
+**Oczekiwane rozumowanie:** właściciel produktu zatwierdza dozwolone formaty. GitHub zapisuje zaimplementowane zachowanie. Jira koordynuje dostawę. Ani notatka ze spotkania, ani wygenerowane podsumowanie nie uzyskują statusu źródła wymagań.
 
 ## Główne materiały
 

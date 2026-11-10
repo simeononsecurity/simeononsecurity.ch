@@ -1,118 +1,118 @@
 ---
-title: "SenseCAP M1 Raspberry Pi Shield: Pinout and LoRaWAN Reuse"
+title: "SenseCAP M1 Raspberry Pi Shield：引脚图与 LoRaWAN 再利用"
 date: 2026-09-12
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Understand the SenseCAP M1 shield, compare conflicting GPIO maps, inspect its ATECC608, and plan a LoRaWAN gateway with modern Raspberry Pi OS."
-genre: ["Raspberry Pi", "IoT", "Hardware Security"]
-tags: ["SenseCAP M1", "SenseCAP M1 shield", "SenseCAP M1 pinout", "Raspberry Pi shield", "Raspberry Pi HAT", "LoRaWAN gateway", "WM1302", "WM1303", "SX1302", "SX1303", "Seeed Studio", "Helium hotspot reuse", "LoRa concentrator", "SPI GPIO", "GPIO17", "GPIO22 LED", "libgpiod", "Raspberry Pi OS", "ATECC608", "CryptoAuthLib", "I2C diagnostics", "STTS751", "LoRa Basics Station", "ChirpStack", "The Things Stack", "hardware reverse engineering"]
+description: "了解 SenseCAP M1 shield，比较相互冲突的 GPIO 映射，检查 ATECC608，并使用新版 Raspberry Pi OS 规划 LoRaWAN 网关。"
+genre: ["Raspberry Pi", "IoT", "硬件安全"]
+tags: ["SenseCAP M1", "SenseCAP M1 shield", "SenseCAP M1 引脚图", "Raspberry Pi shield", "Raspberry Pi HAT", "LoRaWAN 网关", "WM1302", "WM1303", "SX1302", "SX1303", "Seeed Studio", "Helium hotspot 再利用", "LoRa 集中器", "SPI GPIO", "GPIO17", "GPIO22 LED", "libgpiod", "Raspberry Pi OS", "ATECC608", "CryptoAuthLib", "I2C 诊断", "STTS751", "LoRa Basics Station", "ChirpStack", "The Things Stack", "硬件逆向工程"]
 cover: "/img/cover/sensecap-wm1302-shield-hardware.webp"
-coverAlt: "SenseCAP M1 shield with a Seeed WM1302 module, Raspberry Pi header, antenna cable, USB-C socket, and fan connector"
-coverCaption: "Board photograph: Clockwork Bird, 2023. Source and attribution appear below."
+coverAlt: "SenseCAP M1 shield，配有 Seeed WM1302 模块、Raspberry Pi 排针、天线线缆、USB-C 插座和风扇接口"
+coverCaption: "电路板照片：Clockwork Bird，2023 年。来源和署名见文末。"
 coverCredit: "Clockwork Bird"
 coverCreditURL: "https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/"
 ---
 
-**The SenseCAP M1 shield is useful LoRaWAN gateway hardware, but its wiring deserves more scrutiny than a generic Raspberry Pi HAT tutorial provides.** This guide expands [Clockwork Bird’s 2023 investigation](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/) with manufacturer documentation, upstream driver inspection, and current GPIO guidance. You will identify the hardware, separate established facts from incomplete pinout evidence, and produce a repeatable bring-up record.
+**SenseCAP M1 shield 可用作 LoRaWAN 网关硬件，但其布线需要比通用 Raspberry Pi HAT 教程更仔细的检查。** 本指南在 [Clockwork Bird 2023 年的调查](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/)基础上，补充了制造商文档、上游驱动检查和当前 GPIO 指引。你将识别硬件，区分已确认事实和不完整的引脚图证据，并建立可重复的启动记录。
 
-> **Scope:** This is a documentation-based hardware guide. The commands and board mappings have not been tested on a physical M1 for this article.
+> **范围：** 这是基于文档的硬件指南。本文中的命令和板卡映射没有在实体 M1 上测试。
 
 ## 要点
 
-- **Identify both boards:** The M1 carrier and its removable concentrator have separate model and revision information.
-- **Audit reset scripts:** CoreCell defaults conflict with signals in the published M1 pinout.
-- **Check the OS interfaces:** SPI device files, GPIO numbering, and GPIO tool versions answer different questions.
-- **Preserve secure-element provisioning:** Reading device information differs from configuring or generating keys.
-- **Prove the whole path:** A detected concentrator does not establish successful sensor delivery.
+- **识别两块板：** M1 载板和可拆卸集中器有各自的型号与修订信息。
+- **审查复位脚本：** CoreCell 默认值与已发布 M1 引脚图中的一些信号冲突。
+- **检查系统接口：** SPI 设备文件、GPIO 编号和 GPIO 工具版本回答不同问题。
+- **保护安全元件配置：** 读取设备信息与配置设备或生成密钥不是同一操作。
+- **验证完整链路：** 检测到集中器不代表传感器数据已送达。
 
-## 开始之前
+## 开始前
 
-**Difficulty: intermediate.** Budget roughly one to two hours for inventory, OS preparation, and documentation checks. Electrical verification, driver adaptation, and network-server deployment add separate work, especially with an unfamiliar board revision.
+**难度：中级。** 盘点设备、准备系统和检查文档约需一到两小时。电气验证、驱动适配和网络服务器部署还需要额外工作，尤其是在板卡修订未知时。
 
-| Item | Purpose |
+| 项目 | 用途 |
 |---|---|
-| **M1 shield and concentrator** | Read the carrier revision and the complete module label |
-| **Raspberry Pi 4** | Start with the host used in the original M1 design |
-| **Spare microSD card** | Prepare a separate OS while preserving the original installation |
-| **Correct supply and antenna** | Match the assembled hardware and the module’s RF band |
-| **SSH or local console** | Record diagnostics and edit configuration |
-| **LoRaWAN sensor and server** | Verify actual application delivery after hardware bring-up |
-| **Meter and hardware experience** | Resolve undocumented connections before driving them |
+| **M1 shield 和集中器** | 读取载板修订信息和模块完整标签 |
+| **Raspberry Pi 4** | 从原 M1 设计使用的主机开始 |
+| **备用 microSD 卡** | 保留原安装，同时准备单独的操作系统 |
+| **合适的电源和天线** | 匹配组装硬件和模块的 RF 频段 |
+| **SSH 或本地控制台** | 记录诊断信息并编辑配置 |
+| **LoRaWAN 传感器和服务器** | 硬件启动后验证应用数据是否实际送达 |
+| **万用表和硬件经验** | 驱动未知连接前先查明情况 |
 
-Photograph both sides of your unpowered assembly before removing anything. Record connector orientation, screws, spacers, and antenna routing. Keep the original card and configuration available until the replacement installation passes your acceptance checks.
+拆卸前，给断电状态下的组装件两面拍照。记录连接器方向、螺丝、垫片和天线路径。在新安装通过验收检查前，保留原卡和配置。
 
-## Identify the Three Layers
+## 识别三个层次
 
-**The complete M1, its carrier shield, and its concentrator are different components.** Seeed documents the assembled hotspot as a Raspberry Pi 4 with either a WM1302/SX1302 or WM1303/SX1303 concentrator. A listing titled “SenseCAP M1 shield” does not establish which of those parts accompanies the carrier. [Seeed Studio’s M1 overview](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
+**完整 M1、载板 shield 和集中器是不同组件。** Seeed 将完整热点描述为 Raspberry Pi 4 搭配 WM1302/SX1302 或 WM1303/SX1303 集中器。标题写着“SenseCAP M1 shield”的商品信息无法说明载板附带哪种组件。[Seeed Studio 的 M1 概览](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
 
-The **carrier** routes power and peripheral signals between the Pi and module. The **concentrator** handles radio reception and transmission. A **packet forwarder** runs on the host and exchanges received radio packets and scheduled downlinks with a server. [Semtech’s SX1302 HAL overview](https://github.com/Lora-net/sx1302_hal)
+**载板**在 Pi 和模块之间连接电源与外围信号。**集中器**负责无线接收和发射。主机上的**数据包转发器**与服务器交换接收的无线数据包和已安排的下行数据。[Semtech 的 SX1302 HAL 概览](https://github.com/Lora-net/sx1302_hal)
 
-For a practical example, a shelf-temperature sensor sends an uplink over radio. The concentrator receives it, the host forwards it, and the network/application services process it. A successful Linux boot proves only the host portion of this chain.
+例如，货架温度传感器通过无线发送上行数据。集中器接收，主机转发，网络和应用服务再处理。Linux 成功启动只能证明这条链路中的主机部分。
 
-Clockwork Bird’s photograph shows an M1 v1.1 carrier with a module explicitly labeled `WM1302-SPI-EU868`. Use the photograph to locate the labels on your own hardware. Its serial numbers identify the photographed equipment, not configuration values for another gateway.
+Clockwork Bird 的照片展示了 M1 v1.1 载板，上面装有明确标注为 `WM1302-SPI-EU868` 的模块。用照片查找自己硬件上的标签。序列号标识照片中的设备，不是其他网关的配置值。
 
-{{< figure src="m1-carrier-wm1302-board.webp" alt="Green M1 carrier holding a labeled WM1302 SPI EU868 module beside USB-C, button, fan socket, and antenna cable" caption="M1 v1.1 hardware photographed by Clockwork Bird, also used for this article’s cover" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
+{{< figure src="m1-carrier-wm1302-board.webp" alt="绿色 M1 载板上装有带标签的 WM1302 SPI EU868 模块，旁边有 USB-C、按钮、风扇插座和天线线缆" caption="Clockwork Bird 拍摄的 M1 v1.1 硬件，也用于本文封面" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
 
-## Power and Radio Connections
+## 电源和无线连接
 
-**Treat the M1 USB-C connector as a power input.** The manufacturer specifies DC 5 V, 3 A for the complete gateway and identifies USB-C as its power-supply interface. Calling it a charging port suggests a battery function absent from those specifications. [SenseCAP M1 specifications](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
+**将 M1 的 USB-C 接口视为电源输入。** 制造商为整台网关指定 DC 5 V、3 A，并将 USB-C 定义为电源接口。称其为充电口会让人误以为设备有电池，而这些规格没有提到电池。[SenseCAP M1 规格](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
 
-The vendor block diagram separates the 5 V supply from the module’s regulated 3.3 V rail. This distinction matters during troubleshooting: a running Pi and an unpowered concentrator are separate possibilities. Do not inject 5 V into a signal pin or assume two power inputs are isolated from each other.
+制造商框图将 5 V 电源与模块的稳压 3.3 V 电源轨分开。排查问题时，这一区别很重要：Pi 运行时，集中器仍可能没有供电。不要向信号引脚注入 5 V，也不要假设两个电源输入彼此隔离。
 
-**SPI and USB module variants require different host connections.** Seeed’s WM1302 documentation describes direct SPI access for its SPI model and an STM32L4 USB bridge for its USB model. The mini-PCIe shape describes the module’s form factor, while the documented electrical interfaces are SPI or USB. A matching laptop socket is insufficient evidence of compatibility. [Seeed’s WM1302 documentation](https://github.com/seeed-lora/WM1302-doc)
+**SPI 和 USB 模块变体需要不同的主机连接。** Seeed 的 WM1302 文档说明，SPI 型号直接使用 SPI，USB 型号使用 STM32L4 USB bridge。mini-PCIe 外形描述模块形态，文档中列出的电气接口则是 SPI 或 USB。形状适合笔记本插槽不足以证明兼容。[Seeed 的 WM1302 文档](https://github.com/seeed-lora/WM1302-doc)
 
-Before powering the assembly, seat the module with power disconnected and attach a suitable antenna. Match the RF hardware, antenna, and intended network plan. Changing a configuration filename does not replace the module’s RF components, and the M1 power socket does not prove support for a USB concentrator variant.
+给组装件上电前，先断电安装模块并连接合适的天线。确保 RF 硬件、天线和计划使用的区域频段一致。更改配置文件名不会改变 RF 元件，M1 电源接口也无法证明它支持 USB 集中器变体。
 
-{{< figure src="m1-power-spi-system-diagram.webp" alt="Block diagram connecting Raspberry Pi 4 to the M1 shield through power, SPI, GPIO, and I2C buses" caption="SenseCAP manufacturer diagram reproduced in Clockwork Bird’s original article, showing the WM1302 design" credit="Seeed Studio / SenseCAP, via Clockwork Bird" attr="Seeed Studio / SenseCAP, via Clockwork Bird" attrlink="https://www.sensecapmx.com/docs/sensecap-m1/overview/" >}}
+{{< figure src="m1-power-spi-system-diagram.webp" alt="通过电源、SPI、GPIO 和 I2C 总线连接 Raspberry Pi 4 与 M1 shield 的框图" caption="Clockwork Bird 原文转载的 SenseCAP 制造商框图，展示 WM1302 设计" credit="Seeed Studio / SenseCAP, via Clockwork Bird" attr="Seeed Studio / SenseCAP, via Clockwork Bird" attrlink="https://www.sensecapmx.com/docs/sensecap-m1/overview/" >}}
 
-## Read the Pinout Carefully
+## 仔细读取引脚图
 
-**Use BCM GPIO numbers and physical header numbers as separate columns in your notes.** For example, BCM GPIO17 sits at physical pin 11 on the Pi header. The module edge connector introduces a third numbering system, so its reset pin number is not a Raspberry Pi GPIO number.
+**在记录中将 BCM GPIO 编号和排针物理编号分成两列。** 例如，BCM GPIO17 对应 Pi 排针的物理 11 号脚。模块边缘连接器采用第三种编号体系，因此它的复位脚编号不是 Raspberry Pi GPIO 编号。
 
-The table below transcribes the connections in Clockwork Bird’s annotated header image. It is a **community reference**, not a complete manufacturer-issued schematic or a measurement of every M1 revision. The drawing also uses `SX1262` labels, while the generic Semtech reset script uses `SX1261` names.
+下表转录了 Clockwork Bird 标注的排针图片中的连接。它是**社区参考资料**，不是制造商发布的完整原理图，也不是对所有 M1 修订版的测量。图中还使用 `SX1262` 标签，而 Semtech 通用复位脚本使用 `SX1261` 名称。
 
-| Signal in the drawing | BCM / physical pin | Interpretation |
+| 图中的信号 | BCM / 物理引脚 | 解释 |
 |---|---|---|
-| **I2C SDA / SCL** | GPIO2 / 3, GPIO3 / 5 | Shared management bus |
-| **SX1302 reset** | GPIO17 / 11 | Concentrator reset candidate |
-| **User LED** | GPIO22 / 15 | M1 annotation |
-| **SPI MOSI / MISO** | GPIO10 / 19, GPIO9 / 21 | SPI data signals |
-| **SPI clock** | GPIO11 / 23 | SPI clock signal |
-| **SX1302 chip select** | GPIO8 / 24 | SPI0 CE0 |
-| **SX1262 reset** | GPIO5 / 29 | Auxiliary radio reset candidate |
-| **SX1262 chip select** | GPIO6 / 31 | GPIO6, distinct from SPI0 CE1 |
-| **SX1262 BUSY** | GPIO18 / 12 | Auxiliary radio status output |
-| **SX1262 IO1 / IO2** | GPIO23 / 16, GPIO24 / 18 | Auxiliary signals, verify before use |
+| **I2C SDA / SCL** | GPIO2 / 3、GPIO3 / 5 | 共享管理总线 |
+| **SX1302 复位** | GPIO17 / 11 | 集中器复位候选引脚 |
+| **用户 LED** | GPIO22 / 15 | M1 标注 |
+| **SPI MOSI / MISO** | GPIO10 / 19、GPIO9 / 21 | SPI 数据信号 |
+| **SPI 时钟** | GPIO11 / 23 | SPI 时钟信号 |
+| **SX1302 片选** | GPIO8 / 24 | SPI0 CE0 |
+| **SX1262 复位** | GPIO5 / 29 | 辅助无线复位候选引脚 |
+| **SX1262 片选** | GPIO6 / 31 | GPIO6，与 SPI0 CE1 不同 |
+| **SX1262 BUSY** | GPIO18 / 12 | 辅助无线状态输出 |
+| **SX1262 IO1 / IO2** | GPIO23 / 16、GPIO24 / 18 | 使用前应验证的辅助信号 |
 
-The crossed-out GPS/UART annotations do not establish a GPS-equipped M1. Leave GPS-specific setup out of your configuration unless your actual hardware provides it. The published diagram also leaves the user button and fan control unresolved. [Clockwork Bird’s pinout investigation](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/)
+划掉的 GPS/UART 标注不能证明 M1 配有 GPS。如果你的设备没有 GPS，就不要添加 GPS 专用配置。已发布的图也没有说明用户按钮和风扇控制方式。[Clockwork Bird 的引脚图调查](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/)
 
-{{< figure src="m1-community-header-pinout.webp" alt="Annotated Raspberry Pi header drawing showing M1 LED, concentrator reset, SPI signals, and crossed-out GPS connections" caption="Community-annotated reference with unresolved board-revision coverage, not a complete M1 schematic" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
+{{< figure src="m1-community-header-pinout.webp" alt="标注的 Raspberry Pi 排针图，显示 M1 LED、集中器复位、SPI 信号和划掉的 GPS 连接" caption="社区标注参考，修订版覆盖不完整，不是完整的 M1 原理图" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
 
-## Resolve Reset-Script Conflicts
+## 解决复位脚本冲突
 
-**A reset script selects electrical outputs, not merely software preferences.** Semtech’s upstream `reset_lgw.sh` targets its CoreCell reference design. Its defaults include GPIO23 for concentrator reset, GPIO18 for power enable, GPIO22 for auxiliary reset, and GPIO13 for an AD5338R reset. [Semtech reset-script source](https://github.com/Lora-net/sx1302_hal/blob/master/tools/reset_lgw.sh)
+**复位脚本选择的是电气输出，不只是软件偏好。** Semtech 上游的 `reset_lgw.sh` 面向 CoreCell 参考设计。默认值包括：集中器复位 GPIO23、电源使能 GPIO18、辅助复位 GPIO22，以及 AD5338R 复位 GPIO13。[Semtech 复位脚本源代码](https://github.com/Lora-net/sx1302_hal/blob/master/tools/reset_lgw.sh)
 
-Seeed’s older setup instructions change the two reset assignments to GPIO17 and GPIO5 but retain the other reference-design entries. Compare those values with the annotated M1 image before following the example. [Seeed WM1302 setup instructions](https://github.com/seeed-lora/WM1302-doc)
+Seeed 的旧版设置说明将两个复位分配改为 GPIO17 和 GPIO5，但保留了参考设计的其他项目。照着示例操作前，先将这些值与 M1 标注图比较。[Seeed WM1302 设置说明](https://github.com/seeed-lora/WM1302-doc)
 
-| Assignment | Conflicting evidence | Required decision |
+| 分配 | 冲突证据 | 需要做出的决定 |
 |---|---|---|
-| **GPIO22 as auxiliary reset** | M1 image labels it as the user LED | Remove this assumption before enabling the LED |
-| **GPIO18 as power enable** | M1 image labels it as auxiliary BUSY | Verify the net and direction before driving it |
-| **GPIO13 as DAC reset** | Generic script names a different reference design | Establish whether the circuit exists |
-| **Auxiliary SPI device** | M1 image selects GPIO6 rather than CE1 | Confirm chip-select routing and driver support |
+| **GPIO22 作为辅助复位** | M1 图将它标为用户 LED | 启用 LED 前移除这一假设 |
+| **GPIO18 作为电源使能** | M1 图将它标为辅助 BUSY | 驱动前确认网络和信号方向 |
+| **GPIO13 作为 DAC 复位** | 通用脚本名称指向另一个参考设计 | 确认电路是否存在 |
+| **辅助 SPI 设备** | M1 图选择 GPIO6，而非 CE1 | 确认片选走线和驱动支持 |
 
-**Inference:** If GPIO18 connects to an auxiliary radio output as drawn, configuring the Pi end as an output creates a risk of electrical contention. The disagreement establishes a verification requirement, not proof of damage or proof of one universal M1 wiring map.
+**推断：** 如果 GPIO18 按图连接到辅助无线输出，将 Pi 端配置为输出会产生电气争用风险。这一分歧说明需要验证，但不能证明发生了损坏，也不能证明所有 M1 都采用相同布线。
 
-With all power disconnected, trace accessible connections between the header and module connector. Record the board revision and both endpoints. A continuity result establishes connectivity, while the component documentation establishes signal direction and electrical limits.
+断开所有电源后，追踪排针与模块连接器之间可接触的线路。记录板卡修订版和线路两端。导通结果证明存在连接，信号方向和电气限制则要查阅组件文档。
 
-Use the manufacturer’s module diagram below to avoid mixing edge-connector pins with Pi header pins. The auxiliary-radio labels describe the published module reference and do not establish identical silicon or supported features across every module revision. [Seeed WM1302 module pinout](https://github.com/seeed-lora/WM1302-doc/blob/master/pinout.jpg)
+使用下方的模块图，避免将边缘连接器引脚与 Pi 排针引脚混淆。辅助无线标签描述的是已发布的模块参考设计，不能证明各修订版采用相同芯片或支持相同功能。[Seeed WM1302 模块引脚图](https://github.com/seeed-lora/WM1302-doc/blob/master/pinout.jpg)
 
-{{< figure src="wm1302-module-edge-connector.webp" alt="Seeed diagram labeling both sides of the WM1302 module edge connector with power, SPI, I2C, and auxiliary radio signals" caption="Module edge-connector numbering differs from Raspberry Pi header numbering" credit="Seeed Studio" attr="Seeed Studio, WM1302-doc" attrlink="https://github.com/seeed-lora/WM1302-doc" >}}
+{{< figure src="wm1302-module-edge-connector.webp" alt="Seeed 图示 WM1302 模块边缘连接器两侧的电源、SPI、I2C 和辅助无线信号" caption="模块边缘连接器编号不同于 Raspberry Pi 排针编号" credit="Seeed Studio" attr="Seeed Studio, WM1302-doc" attrlink="https://github.com/seeed-lora/WM1302-doc" >}}
 
-## Prepare Raspberry Pi OS
+## 准备 Raspberry Pi OS
 
-Record the host environment on your spare installation:
+在备用系统中记录主机环境：
 
 ```bash
 cat /etc/os-release
@@ -120,9 +120,9 @@ uname -r
 tr -d '\0' < /proc/device-tree/model
 ```
 
-The OS release, kernel, and Pi model form the starting point for reproducibility. Record them before comparing your results with an older tutorial.
+系统版本、内核和 Pi 型号构成可复现的起点。与旧教程比较结果前，先记录这些信息。
 
-Install inspection and build tools:
+安装检查和构建工具：
 
 ```bash
 sudo apt update
@@ -130,9 +130,9 @@ sudo apt install git build-essential i2c-tools gpiod
 sudo raspi-config
 ```
 
-In **Interface Options**, enable SPI and I2C, then reboot. SPI serves the concentrator path, while I2C supports the management devices discussed below. Avoid importing unrelated GPS serial-port changes from another HAT tutorial.
+在 **Interface Options** 中启用 SPI 和 I2C，然后重启。SPI 用于集中器链路，I2C 用于后文介绍的管理设备。不要从其他 HAT 教程中照搬无关的 GPS 串口改动。
 
-Inspect the exposed interfaces:
+检查已公开的接口：
 
 ```bash
 ls -l /dev/spidev* /dev/i2c-*
@@ -142,129 +142,129 @@ gpioinfo
 gpioset --version
 ```
 
-These commands list device nodes, adapters, GPIO controllers, line information, and the installed GPIO tool version. **`i2cdetect -l` lists adapters without scanning device addresses.** A `/dev/spidev0.0` file establishes an exposed SPI interface, not communication with a working concentrator. [i2c-tools manual](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8), [Raspberry Pi GPIO guidance](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
+这些命令会列出设备节点、适配器、GPIO 控制器、线路和已安装 GPIO 工具的版本。**`i2cdetect -l` 只列出适配器，不扫描地址。** `/dev/spidev0.0` 文件证明 SPI 接口已公开，不能证明它与正常工作的集中器通信。[i2c-tools 手册](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8)、[Raspberry Pi GPIO 指引](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
 
-### Account for GPIO Versions
+### 考虑 GPIO 版本
 
-**Do not copy global GPIO numbers from another machine.** Old scripts write through `/sys/class/gpio`, an interface the kernel documents as deprecated. New userspace integrations should use the GPIO character-device interface, with the correct controller and line offset. [Linux GPIO documentation](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html)
+**不要复制其他机器的全局 GPIO 编号。** 旧脚本通过 `/sys/class/gpio` 操作，这是内核文档已弃用的接口。新的用户空间集成应使用 GPIO character device 接口，并选择正确的控制器和线路偏移。[Linux GPIO 文档](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html)
 
-Also inspect `gpioset --help` before adapting a script. Version 1 and version 2 differ in syntax and process behavior. The current tool holds requested lines by default, and its portable contract does not guarantee their state after process exit. [libgpiod gpioset documentation](https://libgpiod.readthedocs.io/en/master/gpioset.html)
+改编脚本前也要检查 `gpioset --help`。版本 1 和版本 2 的语法及进程行为不同。当前工具默认保持所请求的线路，但可移植的接口约定不保证进程退出后的线路状态。[libgpiod gpioset 文档](https://libgpiod.readthedocs.io/en/master/gpioset.html)
 
-Raspberry Pi documents an output-persistence behavior in its kernel, with options to change it. Record the actual kernel configuration instead of assuming every Linux system behaves identically. Neither updated numbering nor a newer GPIO tool resolves an incorrect electrical mapping. [Raspberry Pi GPIO usage guide](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
+Raspberry Pi 文档说明了内核中的输出保持行为，并提供更改选项。记录实际内核配置，不要假设所有 Linux 系统行为相同。更新编号或换用新版 GPIO 工具都不能修复错误的电气映射。[Raspberry Pi GPIO 使用指南](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
 
-## Test the User LED
+## 测试用户 LED
 
-After verifying GPIO22 belongs to the LED and removing conflicting GPIO consumers, edit the boot configuration:
+确认 GPIO22 连接到 LED，并移除冲突的 GPIO 使用者后，编辑启动配置：
 
 ```bash
 sudoedit /boot/firmware/config.txt
 ```
 
-Modern Raspberry Pi OS mounts the boot configuration at **`/boot/firmware/config.txt`**. Older images use `/boot/config.txt`, the path in the 2023 article. Back up the active file before editing it. [Raspberry Pi config.txt documentation](https://www.raspberrypi.com/documentation/computers/config_txt.html)
+新版 Raspberry Pi OS 将启动配置挂载在 **`/boot/firmware/config.txt`**。旧版镜像使用 2023 年文章中的路径 `/boot/config.txt`。编辑前备份当前生效的文件。[Raspberry Pi config.txt 文档](https://www.raspberrypi.com/documentation/computers/config_txt.html)
 
-Add the LED overlay under a section applying to your Pi, such as `[all]`:
+在适用于 Pi 的段落下添加 LED overlay，例如 `[all]`：
 
 ```ini
 dtoverlay=gpio-led,gpio=22,label=lorawan,trigger=heartbeat
 ```
 
-The **`gpio`** parameter uses BCM numbering. **`label`** names the Linux LED device, and **`trigger=heartbeat`** assigns the kernel heartbeat trigger. Clockwork Bird reports this assignment for the M1, and Raspberry Pi’s overlay reference documents these parameters. [Original LED observation](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/), [gpio-led overlay reference](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README)
+**`gpio`** 参数使用 BCM 编号。**`label`** 为 Linux LED 设备命名，**`trigger=heartbeat`** 则指定内核 heartbeat 触发器。Clockwork Bird 报告 M1 使用此分配，Raspberry Pi overlay 参考文档也说明了这些参数。[原始 LED 观察](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/)、[gpio-led overlay 参考](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README)
 
-After reboot, inspect the registered LED:
+重启后检查已注册的 LED：
 
 ```bash
 ls -l /sys/class/leds/
 cat /sys/class/leds/lorawan/trigger
 ```
 
-The expected result is a `lorawan` LED entry with `heartbeat` selected in brackets. A blinking LED demonstrates this GPIO/driver path. It does not report successful LoRaWAN registration, radio reception, or Helium status.
+预期结果是出现 `lorawan` LED 项，并且 `[heartbeat]` 为选中状态。LED 闪烁说明 GPIO/驱动链路正常，但不能说明 LoRaWAN 已注册、无线已接收或 Helium 状态正常。
 
-## Investigate I2C Devices
+## 检查 I2C 设备
 
-**An I2C address is a clue, not a device identity.** Clockwork Bird observed responses at `0x60` and `0x39`, then read ATECC608 information through the crypto library. The temperature-sensor identification remained tentative in the original article.
+**I2C 地址是线索，不是设备身份。** Clockwork Bird 观察到 `0x60` 和 `0x39` 有响应，随后通过加密库读取 ATECC608 信息。原文对温度传感器的识别仍是暂定结论。
 
-Start with the adapter listing from the previous section. Broad `i2cdetect` scans send probing transactions rather than passively observing traffic, and the upstream manual warns about disruption. Avoid routine scans of a running gateway or unknown attached devices. [i2c-tools probing behavior](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8)
+从前一节的适配器列表开始。广泛的 `i2cdetect` 扫描会发送探测事务，而非被动观察总线；上游手册还警告它可能造成干扰。不要定期扫描正在运行的网关或未知外接设备。[i2c-tools 探测行为](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8)
 
-| Observation | Supported conclusion | Unresolved question |
+| 观察 | 有证据支持的结论 | 未解决的问题 |
 |---|---|---|
-| **Response at `0x60`** | Something acknowledged the probe | Is it the expected secure element? |
-| **Response at `0x39`** | Something acknowledged the probe | Which component and revision responded? |
-| **`UU` in a scan** | A driver owns the address and probing was skipped | Which driver has ownership? |
-| **No response** | The probe received no acknowledgement | Power, bus, ownership, or device protocol? |
+| **`0x60` 有响应** | 某个设备确认了探测 | 它是预期的安全元件吗？ |
+| **`0x39` 有响应** | 某个设备确认了探测 | 哪个组件和修订版响应？ |
+| **扫描结果为 `UU`** | 地址由驱动占用，因此跳过了探测 | 哪个驱动占用了地址？ |
+| **没有响应** | 探测没有收到确认 | 是电源、总线、占用还是设备协议问题？ |
 
-### A Stronger Temperature-Sensor Lead
+### 进一步确认温度传感器线索
 
-**STTS751 is a source-supported candidate for `0x39`.** Semtech’s temperature-driver header explicitly associates `0x39` with `STTS751-0DP3F`. This strengthens the original hypothesis without identifying every board populated at this address. [Semtech STTS751 driver header](https://github.com/Lora-net/sx1302_hal/blob/master/libloragw/inc/loragw_stts751.h)
+**STTS751 是有来源支持的 `0x39` 候选设备。** Semtech 温度驱动头文件明确将 `0x39` 与 `STTS751-0DP3F` 关联。这增强了原文假设，但不能识别所有使用该地址的板卡元件。[Semtech STTS751 驱动头文件](https://github.com/Lora-net/sx1302_hal/blob/master/libloragw/inc/loragw_stts751.h)
 
-After identifying a compatible component and ensuring no other process owns it, these commands read its identification registers:
+确认组件兼容，并确认没有其他进程占用后，读取其识别寄存器：
 
 ```bash
 sudo i2cget 1 0x39 0xfd b
 sudo i2cget 1 0x39 0xfe b
 ```
 
-Here **`1`** selects the verified bus, **`0x39`** selects the device, and **`b`** requests an SMBus byte-data read. For an STTS751-0, the documented product ID at `0xFD` is `0x00`, and the manufacturer ID at `0xFE` is `0x53`. These transactions select register addresses but do not program configuration values. [STTS751 datasheet, register map and identification registers](https://www.st.com/resource/en/datasheet/stts751.pdf)
+这里，**`1`** 选择已验证的总线，**`0x39`** 选择设备，**`b`** 请求 SMBus byte-data 读取。对于 STTS751-0，文档指出 `0xFD` 处的产品 ID 为 `0x00`，`0xFE` 处的制造商 ID 为 `0x53`。这些事务选择寄存器地址，不会写入配置值。[STTS751 数据手册，寄存器映射与识别寄存器](https://www.st.com/resource/en/datasheet/stts751.pdf)
 
-Compare the readings with the chip marking and documentation. A matching pair adds evidence for identification, while an error calls for checking the bus and ownership before changing hardware configuration. The sensor measures its local temperature, which is a different measurement from the Pi’s CPU temperature.
+将读数与芯片标记和文档比较。两个值匹配会增加识别依据；如有错误，应先检查总线和占用情况，再更改硬件配置。该传感器测量自身附近的温度，与 Pi CPU 温度不同。
 
-## Inspect the Secure Element
+## 检查安全元件
 
-**The ATECC608 is a separate authentication component.** Treat its configuration, serial number, public key, and protected key material as distinct concepts. A readable public key does not reveal the corresponding private key.
+**ATECC608 是独立的身份验证组件。** 将其配置、序列号、公钥和受保护密钥材料视为不同概念。读取公钥不会泄露对应的私钥。
 
-Microchip’s **CryptoAuthLib** provides the device interface. Its **cryptoauthtools** repository contains examples built around the library. Prepare the native library and Python bindings for your target system using those projects’ instructions before invoking an example. Installing an unrelated Python package or copying one script alone does not establish an operational I2C backend. [Microchip CryptoAuthLib](https://github.com/MicrochipTech/cryptoauthlib), [Microchip cryptoauthtools](https://github.com/MicrochipTech/cryptoauthtools)
+Microchip 的 **CryptoAuthLib** 提供设备接口。**cryptoauthtools** 仓库包含基于该库的示例。运行示例前，按这两个项目的说明为目标系统准备原生库和 Python bindings。安装无关的 Python 包或只复制一个脚本，都不能证明 I2C 后端已正常工作。[Microchip CryptoAuthLib](https://github.com/MicrochipTech/cryptoauthlib)、[Microchip cryptoauthtools](https://github.com/MicrochipTech/cryptoauthtools)
 
-From a prepared `cryptoauthtools/python/examples` directory, the original article’s inspection command is:
+在准备好的 `cryptoauthtools/python/examples` 目录中运行原文的检查命令：
 
 ```bash
 sudo python3 info.py -i i2c
 ```
 
-The **`-i i2c`** argument selects the interface. With a virtual environment, use its explicit Python interpreter and ensure it locates the matching native library. `sudo python3` selects the system interpreter in many installations, which explains some module-import failures.
+**`-i i2c`** 参数用于选择接口。在虚拟环境中，使用该环境明确指定的 Python 解释器，并确保它能找到匹配的原生库。很多安装环境下，`sudo python3` 会选择系统解释器，这也是部分模块导入错误的原因。
 
-The reviewed `info.py` reads revision information, the serial number, configuration, and lock status. For a locked data zone, it attempts to retrieve the public key from slot 0. It does not run the example provisioning sequence. A slot-0 public-key failure alone does not establish a broken device. [Microchip info.py source](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/info.py)
+经过检查的 `info.py` 会读取修订信息、序列号、配置和锁定状态。如果数据区已锁定，它会尝试读取 slot 0 的公钥。该脚本不会运行示例中的配置流程。仅 slot 0 公钥读取失败，不能证明设备损坏。[Microchip info.py 源代码](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/info.py)
 
-| Output or operation | Meaning |
+| 输出或操作 | 含义 |
 |---|---|
-| **Configuration locked** | Configuration restrictions are in force |
-| **Data zone locked** | Interpret access through the configured slot policies |
-| **Public key displayed** | Public information was retrieved, not a private-key export |
-| **`config.py` execution** | Provisioning example with configuration, locking, and key-generation operations |
+| **Configuration locked** | 配置限制已生效 |
+| **Data zone locked** | 按已配置的 slot 策略解释访问权限 |
+| **显示公钥** | 已读取公开信息，不是导出私钥 |
+| **运行 `config.py`** | 包含配置、锁定和密钥生成操作的 provision 示例 |
 
-**Do not run `config.py` to repair an inspection error.** Its source includes configuration writes, zone-locking calls, and key generation. Its default key-generation path also matters on an already configured device. [Microchip config.py source](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/config.py)
+**不要运行 `config.py` 来修复检查错误。** 源码包含配置写入、锁定区域和生成密钥的调用。对于已配置设备，其默认密钥生成路径也需要考虑。[Microchip config.py 源代码](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/config.py)
 
-Microchip’s documented provisioning profiles illustrate why a locked data zone does not mean every slot has identical access permissions. Those profiles do not establish the M1’s exact configuration. Preserve the device’s existing configuration and consult the matching part documentation before planning any reuse involving keys. [Microchip memory and slot-access policies](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html)
+Microchip 的 provision 配置文件说明，锁定数据区不代表每个 slot 都有相同的访问权限。这些配置文件不能证明 M1 的具体设置。保留现有配置；计划复用密钥前，先查阅对应器件的文档。[Microchip 内存和 slot 访问策略](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html)
 
-## Handle Fan and Button Unknowns
+## 查明风扇和按钮的未知信息
 
-**A three-pin fan socket does not establish its voltage, polarity, or control method.** Photograph its pin numbering and read the fan label. Resolve power and control connections before attaching a replacement or choosing a GPIO overlay.
+**三针风扇接口不能说明它的电压、极性或控制方式。** 拍下引脚编号并读取风扇标签。接入替换风扇或选择 GPIO overlay 前，先确认电源和控制连接。
 
-Likewise, the original investigation leaves the button’s GPIO unknown. Search for a driver or configuration tied to your board revision, then verify connectivity with power disconnected. Do not assign every apparently unused GPIO as an output to find the button.
+原调查也没有确定按钮的 GPIO。查找适用于当前板卡修订版的驱动或配置，然后在断电状态下验证连通性。不要将所有看似空闲的 GPIO 设为输出，以此寻找按钮。
 
-| Peripheral | Evidence to collect | Acceptance condition |
+| 外设 | 需要收集的证据 | 验收条件 |
 |---|---|---|
-| **Fan power** | Fan rating, connector ground and supply | Measured supply matches the fan specification |
-| **Fan control** | Driver/configuration or traced control circuit | Defined behavior at startup and elevated temperature |
-| **User button** | Contact wiring, GPIO mapping, input polarity | One intentional press produces the expected event |
+| **风扇电源** | 风扇额定值、接口地线和供电 | 测得电源符合风扇规格 |
+| **风扇控制** | 驱动/配置或已追踪的控制电路 | 启动和高温时的行为明确 |
+| **用户按钮** | 触点布线、GPIO 映射、输入极性 | 有意按下一次会产生预期事件 |
 
-A fresh OS installation does not automatically reproduce the original appliance’s cooling policy. During your first sustained test, observe fan operation and temperatures together. Preserve the enclosure’s airflow path and stop the test if the assembly loses its required cooling.
+新安装的操作系统不会自动恢复原设备的散热策略。首次长时间测试时，同时观察风扇和温度。保持机箱气流通道畅通，若组装件失去必要散热就停止测试。
 
-## Choose a Gateway Stack
+## 选择网关软件栈
 
-**Separate board support from server protocol.** A compatible LoRaWAN server does not fix an incorrect reset routine or RF calibration. First choose software with support for the concentrator, carrier wiring, OS, and regional configuration.
+**将板卡支持与服务器协议分开考虑。** 兼容的 LoRaWAN 服务器无法修复错误的复位流程或 RF 校准。先选择支持该集中器、载板布线、操作系统和区域配置的软件。
 
-| Software path | Useful role | Check before deployment |
+| 软件路径 | 用途 | 部署前检查 |
 |---|---|---|
-| **Semtech SX1302 HAL** | Source-level bring-up and diagnostic tools | Board reset routine and module configuration |
-| **LoRa Basics Station** | Authenticated gateway connection to a server | Working board integration and server credentials |
-| **ChirpStack Concentratord** | Dedicated concentrator service | Supported model, calibration, and GPIO mapping |
+| **Semtech SX1302 HAL** | 源码级启动和诊断工具 | 板卡复位流程与模块配置 |
+| **LoRa Basics Station** | 网关与服务器之间的身份验证连接 | 可用的板卡集成和服务器凭证 |
+| **ChirpStack Concentratord** | 专用集中器服务 | 支持的型号、校准和 GPIO 映射 |
 
-ChirpStack lists a **`seeed_wm1302`** SPI model. This is evidence of module support, not a promise of a complete M1 image or support for every M1 revision. Avoid treating the separate SenseCAP M2 installation instructions as M1 firmware instructions. [ChirpStack hardware support](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html), [ChirpStack’s Seeed installation target](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html)
+ChirpStack 列出了 SPI **`seeed_wm1302`** 型号。这证明模块受支持，但不代表有完整 M1 镜像，也不保证支持每个 M1 修订版。不要把单独的 SenseCAP M2 安装说明当成 M1 固件说明。[ChirpStack 硬件支持](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html)、[ChirpStack Seeed 安装目标](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html)
 
-For The Things Stack, its documentation recommends **LoRa Basics Station** over the legacy Semtech UDP forwarder. Station provides TLS and token-based authentication alongside centralized configuration features. Existing UDP examples are useful for understanding packet forwarding, but their server-address settings do not provide those protections. [The Things Stack UDP guidance](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/), [LoRa Basics Station documentation](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/)
+对于 The Things Stack，其文档推荐使用 **LoRa Basics Station**，而非旧版 Semtech UDP 转发器。Station 提供 TLS、令牌身份验证和集中配置功能。现有 UDP 示例有助于理解数据包转发，但服务器地址设置不提供这些保护。[The Things Stack UDP 指引](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/)、[LoRa Basics Station 文档](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/)
 
-### Prepare the Upstream Tools
+### 准备上游工具
 
-Build on the target Pi in a new working directory:
+在目标 Pi 的新工作目录中构建：
 
 ```bash
 git clone https://github.com/Lora-net/sx1302_hal.git
@@ -273,102 +273,102 @@ git rev-parse HEAD
 make
 ```
 
-Save the commit identifier with your build output. A completed build establishes compiler compatibility, while the radio still requires the verified reset implementation and correct configuration. Semtech’s documentation explains the role of its HAL and helper programs. [SX1302 HAL build and tool documentation](https://github.com/Lora-net/sx1302_hal)
+将 commit ID 与构建输出一起保存。构建成功只说明与编译器兼容；无线功能还需要经过验证的复位实现和正确配置。Semtech 文档说明了 HAL 和辅助程序的作用。[SX1302 HAL 构建和工具文档](https://github.com/Lora-net/sx1302_hal)
 
-Review the reset file before running hardware-access tools:
+运行硬件访问工具前先检查复位文件：
 
 ```bash
 sed -n '1,180p' tools/reset_lgw.sh
 ```
 
-Do not copy this file into the runtime directory unchanged. Semtech documents automatic reset-script use by its hardware-access programs, including tools used during identification. Your review must cover every assigned pin, signal direction, GPIO API, and startup/shutdown state.
+不要未经修改就把该文件复制到运行目录。Semtech 文档指出，其硬件访问程序（包括识别工具）可能自动调用复位脚本。检查时应涵盖所有分配的引脚、信号方向、GPIO API、启动和关闭状态。
 
-After completing board verification, use the selected stack’s instructions to read the concentrator EUI and register the gateway. Preserve the module’s calibration and RF settings when adding the server configuration. In Semtech UDP configuration, `gateway_ID` represents the EUI, while The Things Stack’s console Gateway ID is its human-readable registration identifier. [The Things Stack gateway configuration](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/)
+验证板卡后，按照选定软件栈的说明读取集中器 EUI 并注册网关。添加服务器配置时，保留模块校准和 RF 设置。在 Semtech UDP 配置中，`gateway_ID` 表示 EUI；The Things Stack 控制台中的 Gateway ID 是用于注册的可读名称。[The Things Stack 网关配置](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/)
 
-## Prove Sensor Delivery
+## 验证传感器数据送达
 
-**Use staged evidence to locate the first failing layer.** A gateway marked online establishes a server connection. Your acceptance test also needs a known sensor, matching frequency plan, and a decoded application payload.
+**分阶段收集证据，以定位第一个故障层。** 网关显示在线只能证明它连接了服务器。验收测试还需要一个已知传感器、匹配的频率计划和已解码的应用数据。
 
-The following sequence is a proposed test plan, not measured M1 results:
+以下是建议的测试顺序，不是 M1 实测结果：
 
-| Checkpoint | Evidence to save | Meaning |
+| 检查点 | 保存的证据 | 含义 |
 |---|---|---|
-| **Host ready** | OS, kernel, power and interface inventory | Linux preparation completed |
-| **Concentrator responds** | EUI and successful initialization log | Host-to-concentrator communication works |
-| **Radio receives** | Expected sensor packet and reception metadata | The configured receive path works |
-| **Server accepts** | Gateway event associated with the sensor | Forwarding and server routing work |
-| **Application decodes** | Expected measurement and timestamp | The application path works |
-| **Reboot recovery** | Same checks after restart | Startup configuration is reproducible |
+| **主机就绪** | 系统、内核、电源和接口清单 | Linux 准备完成 |
+| **集中器响应** | EUI 和初始化成功日志 | 主机与集中器通信正常 |
+| **无线接收** | 预期传感器数据包和接收元数据 | 配置的接收链路正常 |
+| **服务器接受** | 与传感器相关的网关事件 | 转发和服务器路由正常 |
+| **应用解码** | 预期测量值和时间戳 | 应用链路正常 |
+| **重启恢复** | 重启后的相同检查 | 启动配置可重复 |
 
-For an **OTAA** sensor, also confirm the activation exchange and subsequent uplink. OTAA means over-the-air activation, the join procedure used to establish a session. A received join request alone does not establish a successful join or downlink path. [The Things Stack activation documentation](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/)
+对于 **OTAA** 传感器，还要确认激活交换和后续上行。OTAA 是 over-the-air activation（空中激活），即建立会话的入网过程。收到入网请求不等于入网成功，也不能证明下行链路正常。[The Things Stack 激活文档](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/)
 
-**Worked diagnosis:** Suppose the gateway connects to its server and reports its EUI, but your sensor never appears. Prioritize the sensor’s transmit configuration, selected receive channels, antenna path, and radio logs. Reprogramming the ATECC608 would not address the missing evidence in this scenario.
+**诊断示例：** 网关已连接服务器并报告 EUI，但传感器没有出现。优先检查传感器发送配置、选定接收信道、天线路径和无线日志。在这种情况下重新编程 ATECC608 不会补上缺失的证据。
 
-**Second diagnosis:** Suppose a sensor packet appears locally but never reaches the application. Correlate the packet time with gateway and server events, then inspect routing, device registration, and decoding. An RF packet in a log is insufficient evidence for blaming the payload decoder until the server accepts the event.
+**另一个诊断示例：** 传感器数据包在本地出现，却没有到达应用。将数据包时间与网关、服务器事件对照，再检查路由、设备注册和解码。服务器接受事件之前，仅凭日志中的 RF 数据包不足以认定是 payload 解码器的问题。
 
-## Troubleshooting by Symptom
+## 按症状排查
 
-| Symptom | Check first | Next action |
+| 症状 | 先检查 | 下一步 |
 |---|---|---|
-| **No SPI device file** | Active boot configuration and interface settings | Enable the intended interface and reboot |
-| **SPI exists, radio fails** | Power, seating, reset sequence and chip select | Verify the electrical path before server changes |
-| **GPIO export error** | Legacy sysfs assumptions and installed kernel | Use a reviewed implementation for the GPIO API |
-| **GPIO already in use** | Consumer shown by `gpioinfo` | Resolve ownership before retrying |
-| **LED fails after setup** | Overlay application and GPIO22 conflicts | Inspect registered LED devices and reset script |
-| **I2C device absent** | Bus number, power and existing ownership | Investigate without repeated broad scans |
-| **Crypto library import fails** | Interpreter, bindings and native library path | Fix the software environment |
-| **Public-key read fails** | Slot policy and earlier successful reads | Review configuration without provisioning |
-| **Fan does not run** | Verified supply and cooling-control implementation | Restore correct cooling before sustained tests |
-| **Uplinks arrive, join fails** | Downlink path and regional/device settings | Trace the join response and receive windows |
+| **没有 SPI 设备文件** | 当前启动配置和接口设置 | 启用目标接口并重启 |
+| **SPI 存在，无线失败** | 电源、插接、复位顺序和片选 | 更改服务器前先验证电气链路 |
+| **GPIO export 错误** | 旧 sysfs 假设和已安装内核 | 使用针对 GPIO API 审查过的实现 |
+| **GPIO 已占用** | `gpioinfo` 显示的使用者 | 重试前先解决占用关系 |
+| **设置后 LED 不工作** | overlay 是否应用和 GPIO22 冲突 | 检查已注册 LED 设备和复位脚本 |
+| **I2C 设备缺失** | 总线编号、电源和现有占用 | 避免反复大范围扫描，继续调查 |
+| **加密库导入失败** | 解释器、bindings 和原生库路径 | 修复软件环境 |
+| **公钥读取失败** | slot 策略和之前成功的读取 | 不做 provision，先检查配置 |
+| **风扇不转** | 已验证电源和散热控制实现 | 长时间测试前恢复散热 |
+| **上行到达但入网失败** | 下行链路和区域/设备设置 | 追踪入网响应和接收窗口 |
 
-Treat each correction as one experiment. Save the previous configuration, change one variable, repeat the same check, and record whether the expected evidence appeared.
+每次只把一个修复作为一次实验。保存旧配置，只更改一个变量，重复同一项检查，并记录预期证据是否出现。
 
-## Create Your Hardware Record
+## 创建硬件记录
 
-Use this template to turn the investigation into a reproducible handover:
+使用此模板，将调查结果整理成可重复交接的记录：
 
 ```text
-Carrier revision and photographs:
-Concentrator model, interface and RF band:
-Host model / OS / kernel / GPIO tool version:
-Supply / antenna / cooling arrangement:
-Verified pin mapping and evidence:
-Unresolved nets and excluded features:
-Software repository and commit:
-Reset implementation and GPIO ownership:
-Gateway EUI / server / frequency plan:
-Sensor activation and decoded uplink evidence:
-Reboot recovery result:
-Original-card location and rollback procedure:
+载板修订版和照片：
+集中器型号、接口和 RF 频段：
+主机型号 / OS / 内核 / GPIO 工具版本：
+电源 / 天线 / 散热布置：
+已验证的引脚映射和证据：
+未解决线路和排除的功能：
+软件仓库和 commit：
+复位实现和 GPIO 占用者：
+网关 EUI / 服务器 / 频率计划：
+传感器激活和已解码上行证据：
+重启恢复结果：
+原卡位置和回滚流程：
 ```
 
-**Decision exercise:** You have an inexpensive bare carrier with no module label, and a more expensive assembly with readable labels and documented operation. Decide which fits your project after adding the missing Pi, concentrator, antenna, supply, and verification time to the comparison. The stronger choice follows the total cost and evidence required for your intended service, rather than the carrier’s advertised price alone.
+**决策练习：** 你有一个价格低但没有模块标签的裸载板，以及一个价格较高、标签清晰且运行情况有文档记录的组装件。比较时还要计入缺少的 Pi、集中器、天线、电源和验证时间，再决定哪种适合项目。更好的选择取决于总成本和目标服务所需的证据，而非载板标价。
 
-**Expected reasoning:** A learning project tolerates unresolved wiring if you have measurement tools and time. A gateway supporting operational sensors needs repeatable startup, cooling, software support, and demonstrated delivery. Record which unresolved condition would stop your deployment.
+**预期思路：** 如果有测量工具和时间，学习项目可以接受未解决的布线问题。为运行中的传感器提供服务的网关则需要可重复启动、有效散热、软件支持和已验证的数据送达。记录哪项未解决条件会阻止部署。
 
 ## 后续步骤
 
-Start by completing the hardware record and resolving the reset-script discrepancies. Then bring up one known sensor and save evidence through application decoding before adding more devices.
+先完成硬件记录并解决复位脚本差异。然后启动一个已知传感器，在增加更多设备前保存从接收直到应用解码的证据。
 
-**Acceptance record:** save the board revision, module label, radio band, supply measurement, active SPI device, GPIO line names, reset sequence, concentrator log, server connection, and one decoded uplink. Mark every value as observed, documented, or still assumed. Do not treat a successful process start as proof of RF performance or application delivery.
+**验收记录：** 保存板卡修订版、模块标签、无线频段、电源测量值、活动 SPI 设备、GPIO 线路名称、复位顺序、集中器日志、服务器连接和一条已解码上行。将每个值标注为“已观察”“有文档依据”或“仍是假设”。进程启动成功不能证明 RF 性能或应用数据已送达。
 
-If your goal is mesh messaging, first compare the protocol roles in our [Meshtastic, MeshCore, and Reticulum guide](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/). Sharing LoRa radio technology does not establish firmware compatibility. Consult [MeshtasticD’s supported-hardware documentation](https://meshtastic.org/docs/meshtasticd/) for a messaging deployment instead of treating this LoRaWAN procedure as a Meshtastic conversion.
+如果你的目标是 mesh 消息传递，先阅读我们的 [Meshtastic、MeshCore 和 Reticulum 对比指南](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)，了解这些协议的角色。使用相同 LoRa 无线技术不代表固件兼容。部署消息系统时，请查阅 [MeshtasticD 支持的硬件文档](https://meshtastic.org/docs/meshtasticd/)，不要将此 LoRaWAN 流程视为 Meshtastic 转换方法。
 
-## Sources and Image Credits
+## 来源和图片署名
 
-Research checked September 12, 2026. Undated documentation and repository links refer to the versions reviewed for this article. Local figures retain their original labels and credited provenance.
+研究核查日期：2026 年 9 月 12 日。没有日期的文档和仓库链接指向本文审阅的版本。本地图片保留原始标签和来源署名。
 
-| Publisher | Source and date |
+| 发布方 | 来源和日期 |
 |---|---|
-| **Clockwork Bird** | [SenseCAP M1 Raspberry Pi Shield](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/), 2023-05-03. Board photograph, annotated header, and reproduced manufacturer block diagram |
-| **Seeed Studio / SenseCAP** | [M1 overview and specifications](https://www.sensecapmx.com/docs/sensecap-m1/overview/), undated. Original block-diagram attribution |
-| **Seeed Studio** | [WM1302 documentation and module pinout](https://github.com/seeed-lora/WM1302-doc), repository |
-| **Semtech** | [SX1302/SX1303 HAL](https://github.com/Lora-net/sx1302_hal), including linked reset-script and temperature-driver source |
-| **Raspberry Pi** | [Boot configuration](https://www.raspberrypi.com/documentation/computers/config_txt.html), [GPIO usage guide](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices), and [overlay reference](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README) |
-| **Linux / libgpiod** | [Deprecated GPIO sysfs interface](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html) and [gpioset manual](https://libgpiod.readthedocs.io/en/master/gpioset.html), latter dated August 2026 |
-| **i2c-tools** | [i2cdetect manual](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8), v4.3 source |
-| **STMicroelectronics** | [STTS751 datasheet](https://www.st.com/resource/en/datasheet/stts751.pdf), revision 7 |
-| **Microchip** | [CryptoAuthLib](https://github.com/MicrochipTech/cryptoauthlib), [cryptoauthtools](https://github.com/MicrochipTech/cryptoauthtools), and [slot-access policy documentation](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html) |
-| **ChirpStack** | [Concentratord hardware support](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html) and [Seeed installation target](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html) |
-| **The Things Industries** | [UDP forwarder](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/), [LoRa Basics Station](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/), and [device activation](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/) |
-| **Meshtastic** | [MeshtasticD documentation](https://meshtastic.org/docs/meshtasticd/), undated |
+| **Clockwork Bird** | [SenseCAP M1 Raspberry Pi Shield](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/)，2023-05-03。板卡照片、标注的排针和转载的制造商框图 |
+| **Seeed Studio / SenseCAP** | [M1 概览和规格](https://www.sensecapmx.com/docs/sensecap-m1/overview/)，无日期。原始框图署名 |
+| **Seeed Studio** | [WM1302 文档和模块引脚图](https://github.com/seeed-lora/WM1302-doc)，仓库 |
+| **Semtech** | [SX1302/SX1303 HAL](https://github.com/Lora-net/sx1302_hal)，包括链接的复位脚本和温度驱动源代码 |
+| **Raspberry Pi** | [启动配置](https://www.raspberrypi.com/documentation/computers/config_txt.html)、[GPIO 使用指南](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)和 [overlay 参考](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README) |
+| **Linux / libgpiod** | [已弃用的 GPIO sysfs 接口](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html)和 [gpioset 手册](https://libgpiod.readthedocs.io/en/master/gpioset.html)，后者发布于 2026 年 8 月 |
+| **i2c-tools** | [i2cdetect 手册](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8)，v4.3 源码 |
+| **STMicroelectronics** | [STTS751 数据手册](https://www.st.com/resource/en/datasheet/stts751.pdf)，修订版 7 |
+| **Microchip** | [CryptoAuthLib](https://github.com/MicrochipTech/cryptoauthlib)、[cryptoauthtools](https://github.com/MicrochipTech/cryptoauthtools)和 [slot 访问策略文档](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html) |
+| **ChirpStack** | [Concentratord 硬件支持](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html)和 [Seeed 安装目标](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html) |
+| **The Things Industries** | [UDP 转发器](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/)、[LoRa Basics Station](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/)和 [设备激活](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/) |
+| **Meshtastic** | [MeshtasticD 文档](https://meshtastic.org/docs/meshtasticd/)，无日期 |

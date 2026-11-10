@@ -1,6 +1,7 @@
 ---
 title: "Proteger los datos de los pacientes: Estrategias de ciberseguridad sanitaria"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Descubra los retos de ciberseguridad a los que se enfrenta la sanidad y explore estrategias de protección y cumplimiento de la normativa para proteger los datos de los pacientes y garantizar el cumplimiento de la normativa."

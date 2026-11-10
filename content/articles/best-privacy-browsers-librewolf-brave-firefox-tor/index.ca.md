@@ -1,7 +1,7 @@
 ---
 title: "Millors Navegadors de Privacitat 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: 'Comparació completa del 2026 dels millors navegadors centrats en la privacitat: LibreWolf, Brave, Firefox, Tor i més. Proves detallades de privacitat, referències de rendiment i anàlisi de seguretat per protegir les teves dades en línia.'
@@ -922,6 +922,41 @@ Molts usuaris preocupats per la privadesa utilitzen diversos navegadors:
 - Protegeix contra robatori d’identitat
 - Evita manipulació
 - Dret humà fonamental
+
+## Comprovacions dels navegadors de privacitat el 2026
+
+El nom o la marca d’un navegador no demostra que protegeixi la privacitat. Abans d’utilitzar-lo cada dia, reviseu-ne la configuració predeterminada, el canal d’actualització, la política d’extensions i el funcionament de la sincronització.
+
+1. Baixeu el navegador des del lloc oficial del projecte o d’una botiga d’aplicacions fiable. Eviteu les versions reempaquetades.
+2. Manteniu actualitzats el navegador i el sistema operatiu. Una configuració de privacitat no corregeix un navegador sense pedaços.
+3. Reviseu la protecció integrada contra rastrejadors, empremtes digitals, baixades malicioses i llocs enganyosos.
+4. Tracteu les extensions com a programari amb privilegis. Instal·leu-ne menys, reviseu-ne els permisos i elimineu les que no feu servir.
+5. Feu proves amb [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) i [BrowserLeaks](https://browserleaks.com/). La prova descriu un perfil del navegador, però no demostra l’anonimat.
+6. Separeu les identitats amb perfils diferents. No inicieu sessió als comptes personals des d’una finestra de Tor Browser destinada a recerques sensibles.
+7. Feu servir Tor Browser amb la configuració estàndard. Afegir tipus de lletra o extensions, o canviar la mida de la finestra, redueix el benefici d’una empremta compartida.
+
+LibreWolf és adequat per a qui vol valors predeterminats més estrictes i accepta resoldre alguns problemes de compatibilitat. Brave és adequat per a qui vol compatibilitat amb Chromium i bloqueig integrat. Firefox és adequat per a qui vol el suport de Mozilla i controls flexibles. Tor Browser és adequat per a qui necessita anonimat a escala de xarxa i accepta menys velocitat i compatibilitat amb els llocs.
+
+El [manual de Tor Browser](https://tb-manual.torproject.org/) i la [guia de privacitat de Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) expliquen aquests controls amb més detall.
+
+## Límits actuals de la privacitat i llista de comprovació
+
+Les proteccions del navegador redueixen l’exposició, però no fan anònims un compte, un dispositiu o una connexió. La **navegació privada** elimina determinats elements de l’historial local quan acaba la sessió. No amaga el trànsit a l’operador de xarxa ni impedeix que un lloc identifiqui un usuari que hi ha iniciat sessió. [Tor Project n’explica la diferència](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**En el fingerprinting, importa quantes persones tenen un perfil semblant al vostre.** Tor Browser intenta agrupar els usuaris en grups d’empremtes habituals amb letterboxing, valors estandarditzats i aïllament de primera part. Tor Project assenyala que l’anonimat perfecte no és possible. Sense un motiu concret, no afegiu extensions inusuals, no maximitzeu la finestra de Tor i no canvieu els valors predeterminats. [Llegiu les indicacions de Tor sobre fingerprinting](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf necessita actualitzacions regulars.** Les preguntes freqüents del projecte indiquen que les versions solen seguir Firefox upstream en tres dies i que el navegador no té un actualitzador automàtic propi. Feu servir el gestor de paquets o el mètode d’instal·lació de la vostra plataforma i comproveu la versió instal·lada després de les actualitzacions de seguretat. [Consulteu les preguntes freqüents de LibreWolf](https://librewolf.net/docs/faq/).
+
+Abans de triar un navegador, feu servir aquesta llista:
+
+- **Model d’amenaça:** decidiu si necessiteu reduir el seguiment, separar comptes, resistir la censura o mantenir l’anonimat.
+- **Via d’actualització:** confirmeu qui proporciona les actualitzacions i com les instal·lareu.
+- **Compatibilitat:** proveu bancs, feina, contingut multimèdia, extensions i accessibilitat abans de canviar tot el vostre flux de treball.
+- **Separació d’identitats:** no feu servir inicis de sessió personals en sessions pensades per reduir els vincles entre activitats.
+- **Fingerprinting:** manteniu una configuració propera a la configuració habitual. Moltes extensions de privacitat poden fer que el navegador sigui més distintiu.
+- **Capa de xarxa:** tracteu DNS, VPN i Tor com a controls separats. Cadascun protegeix una part diferent de la connexió.
+
+Les puntuacions de rendiment i privacitat que apareixen en altres parts d’aquesta pàgina són mesures històriques o comparacions il·lustratives si no s’indiquen el mètode, la data, el perfil de maquinari i els resultats en brut. No les considereu classificacions universals actuals. Proveu els vostres llocs i dispositius després de cada actualització important del navegador.
 
 ## Conclusió: Prendre el control de la teva privadesa digital
 

@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC : Guide de démarrage"
 date: 2023-04-02
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Découvrez la puissance de PowerShell Desired State Configuration (DSC) pour automatiser et gérer les configurations du système pour un environnement sécurisé et conforme."
 tags: ["PowerShell", "DSC", "Gestion de la configuration", "Automatisation", "Fenêtres", "Administration des systèmes", "Meilleures pratiques", "Conformité", "Sécurité", "Infrastructure", "DevOps", "Configuration du serveur", "Essais", "Git", "Contrôle à la source", "Réglementation gouvernementale", "NIST", "CEI", "Dérive de la configuration", "Ressources personnalisées"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "Image caricaturale d'un administrateur système confiant, portant une cape de super-héros, debout à côté d'un rack de serveurs bien organisé, tenant un script DSC PowerShell dans une main et un bouclier avec le logo Windows dans l'autre, protégeant les serveurs contre les dérives de configuration et les menaces de sécurité."
 coverCaption: ""
 ---
@@ -75,7 +76,7 @@ Stockez toujours vos configurations DSC et vos ressources personnalisées dans u
 
 ### Testez vos configurations
 
-**Les tests sont un aspect crucial de la gestion des configurations. Avant de déployer une configuration DSC, testez-la sur un **environnement hors production** pour vous assurer qu'elle fonctionne comme prévu et qu'elle n'a pas de conséquences inattendues. Vous pouvez également utiliser des outils tels que [Pester](https://github.com/pester/Pester) pour le test automatisé de vos configurations DSC.
+**Les tests** sont un aspect crucial de la gestion des configurations. Avant de déployer une configuration DSC, testez-la dans un **environnement hors production** pour vous assurer qu'elle fonctionne comme prévu et qu'elle n'a pas de conséquences inattendues. Vous pouvez également utiliser des outils tels que [Pester](https://github.com/pester/Pester) pour le test automatisé de vos configurations DSC.
 
 ______
 

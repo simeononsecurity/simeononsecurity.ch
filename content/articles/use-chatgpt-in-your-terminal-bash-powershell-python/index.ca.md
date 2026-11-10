@@ -1,6 +1,7 @@
 ---
 title: "Utilitzeu ChatGPT al vostre terminal (Bash, PowerShell, Python): una introducció a l'eina CLI de ChatGPT per a desenvolupadors"
 date: 2023-02-07
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Apreneu a utilitzar el model ChatGPT d'OpenAI mitjançant la còmoda interfície de línia d'ordres (CLI) per generar text i respondre preguntes amb facilitat."
@@ -10,7 +11,7 @@ coverAlt: "Un desenvolupador assegut al seu ordinador, escrivint al seu teclat a
 coverCaption: ""
 ---
 
-El model **ChatGPT**, desenvolupat per OpenAI, **és un model de llenguatge d'avantguarda** capaç de generar text semblant a l'ésser humà. Per als desenvolupadors, la ChatGPT CLI (Command Line Interface) ofereix una manera còmoda d'interactuar amb el model ChatGPT mitjançant la línia d'ordres. Amb la CLI de ChatGPT, els desenvolupadors poden generar text, text complet o respondre preguntes sense esforç mitjançant les capacitats avançades del model.
+El model **ChatGPT**, desenvolupat per OpenAI, **és un model de llenguatge d'avantguarda** capaç de generar text semblant a l'ésser humà. Per als desenvolupadors, la ChatGPT CLI (Command Line Interface) ofereix una manera còmoda d'interactuar amb el model ChatGPT mitjançant la línia d'ordres. Amb la CLI de ChatGPT, els desenvolupadors poden generar text, completar text o respondre preguntes sense esforç mitjançant les capacitats avançades del model.
 
 La instal·lació de la CLI de ChatGPT és senzilla i només requereix que Python 3.5 o posterior estigui instal·lat a la màquina del desenvolupador. El gestor de paquets pip es pot utilitzar per instal·lar la CLI de ChatGPT executant l'ordre següent:
 

@@ -1,6 +1,7 @@
 ---
 title: "Càmeres Flock: Eina de Seguretat Pública o Màquina de Vigilància Sense Ordre Judicial?"
 date: 2026-08-01
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Una anàlisi independent de les càmeres ALPR de Flock Safety: com funcionen realment, quines dades recullen més enllà de les matrícules, com l'intercanvi de dades crea una base de dades nacional oculta, i per què la qüestió de l'ordre judicial és el problema real."
@@ -72,6 +73,115 @@ Un identificador TPMS correspon a un conjunt específic de pneumàtics. Quan aqu
 
 Aquesta no és una capacitat hipotètica futura. Els receptors RTL-SDR que poden registrar senyals TPMS costen al voltant de 40 dòlars. La barrera tècnica per desplegar el monitoratge TPMS passiu juntament amb una xarxa ALPR és molt baixa.
 
+{{< figure src="flock-tpms-bluetooth-surveillance.webp" alt="Diagrama de com una càmera Flock al marge de la carretera capta alhora matrícules, adreces MAC Bluetooth dels telèfons i identificadors dels sensors TPMS dels pneumàtics" >}}
+
+______
+
+## Què va enregistrar la càmera
+
+**El setembre de 2026, un grup de pirates informàtics va desmuntar una càmera Flock d'un pal, en va copiar l'emmagatzematge i va publicar les imatges del sistema de fitxers a través de Distributed Denial of Secrets.** Els registres recuperats mostren el funcionament complet d'una instal·lació real. Les xifres superen el que suggereix el màrqueting públic.
+
+*La càmera no va ser piratejada. La van descargolar.*
+
+### Vint-i-un dies de trànsit
+
+Els registres recuperables cobreixen uns **21 dies** d'operació en diversos períodes. Durant aquests intervals, la càmera va fotografiar aproximadament **50.200 vehicles i va generar prop d'1,6 milions d'imatges**.
+
+| Mesura | Valor |
+|---------|-------|
+| Vehicles fotografiats | **50.200** |
+| Imatges generades | **~1,6 milions** |
+| Dia habitual | ~3.300 vehicles |
+| Dia més concorregut als registres | **4.454 vehicles** |
+| Imatges per vehicle que passa | normalment ~28, **més de 100 en alguns casos** |
+
+Els registres més antics s'havien sobreescrit al dispositiu, de manera que la càmera va funcionar durant més temps del que mostra el període conservat. **Un únic punt de la carretera va generar més d'un milió d'imatges en menys d'un mes.**
+
+### Cada vehicle rep desenes de fotografies
+
+Quan entra moviment al quadre, la càmera dispara una ràfega ràpida. Un vehicle habitual generava unes **28 imatges**, i alguns en generaven més de 100.
+
+La càmera fa servir **exposicions diferents** per captar la matrícula i l'escena general en fotogrames separats. Després escaneja les imatges, retalla els fotogrames útils i els puja a través de la xarxa mòbil. El dispositiu no llegeix la matrícula. Hi funcionen unes **20 aplicacions creades per Flock**, que s'encarreguen de detectar moviment, captar imatges, classificar objectes, pujar dades i rebre actualitzacions remotes. **La lectura de matrícules i la identificació del vehicle tenen lloc als servidors de Flock, no al marge de la carretera.**
+
+Aquesta diferència importa en el debat sobre les ordres judicials. La càmera no és un enregistrador passiu d'un número de matrícula. És un sensor que alimenta un procés d'identificació remot.
+
+### El programari també detecta persones
+
+Flock diu que les càmeres detecten vehicles. El codi recuperat mostra una altra cosa.
+
+**El programari del dispositiu inclou explícitament un detector de persones.** Quan en detecta una, enregistra la seva posició dins del fotograma i una puntuació de confiança. Aquesta funció és independent dels detectors de vehicles, matrícules i bicicletes. Forma part del producte intencionadament, no és un efecte accidental d'un model general.
+
+WIRED va comprovar la declaració extraient els models del dispositiu i executant-los sobre vídeos recuperats i imatges de control. **Els models detectaven persones fàcilment, també en una selfie d'un periodista.** En executar-los sobre **27.321 clips de vídeo emmagatzemats**, van trobar persones en 11 clips, tots de motoristes. La xifra baixa reflecteix que la càmera estava instal·lada sobre una carretera i apuntava als carrils, no una limitació del detector.
+
+**Aquests clips també són una altra troballa important.** Són **fitxers MP4 d'un o dos segons, de 1024 × 768 píxels i sense àudio**, emmagatzemats separadament de les ràfegues d'imatges d'alta resolució. Les descripcions públiques de Flock destaquen les fotografies de matrícules. El dispositiu també grava vídeos curts.
+
+*Flock afirma que les càmeres no fan reconeixement facial. La investigació no va trobar proves més enllà de les funcions incloses per defecte a Android, que semblaven desactivades i sense ús.*
+
+### El detector de matrícules veu matrícules pertot arreu
+
+La mateixa investigació va trobar que el detector de matrícules interpretava gràfics com si fossin matrícules.
+
+**Els adhesius dels para-xocs, els marcs dels concessionaris i altres gràfics dels vehicles es retallaven com si fossin matrícules.** En un vídeo d'una motocicleta que passava, el detector va aïllar un **pegat amb la bandera dels Estats Units a la bossa lateral del motorista** i el va tractar com una matrícula.
+
+Això és alhora un problema de precisió i de privadesa. La classificació és prou laxa per recollir imatges d'objectes que el sistema no havia de captar, i les envia als mateixos servidors que les lectures legítimes.
+
+### La càmera es quedava sense espai
+
+Els registres mostren un dispositiu sota una pressió constant d'emmagatzematge.
+
+En intentar desar imatges a resolució completa, els registres van recollir **més de 27.000 errors "no space left on device"**, a més de desenes de milers d'errors relacionats, bloquejos i reinicis.
+
+Dos missatges dels registres diuen molt sobre el disseny:
+
+- Aproximadament cada dos minuts, un servei comprovava si la càmera encara funcionava i escrivia **"Who's a good boy?!"**. Als registres recuperats hi ha més de **12.000** entrades d'aquest tipus.
+- Quan la càmera es reiniciava, un altre servei escrivia **"A reboot was requested! ¡Adiós, Amigos!"**.
+
+El to és informal. El problema no ho és. Aquest dispositiu de vigilància porta vuit anys sense actualitzacions del sistema operatiu. Es bloqueja i es queda sense espai mentre desa les imatges que havia de recollir.
+
+______
+
+## La línia de productes recull més que matrícules
+
+La càmera recuperada era una Falcon. La línia de productes és més àmplia, i els productes nous recullen senyals que un lector de matrícules mai no captava.
+
+### El sensor d'àudio classifica situacions d'emergència
+
+**Raven** és un dispositiu de detecció d'àudio instal·lat per separat. Utilitza un ESP32 amb un DSP neuronal Syntiant NDP120-B0. Inicialment distingia quatre classes de so: trets, pneumàtics, soroll de fons i desconegut.
+
+**Una actualització de microprogramari d'octubre de 2025 va afegir una cinquena classe: sons de persones en perill.** El sensor avalua si algú proper necessita ajuda i activa automàticament les càmeres Condor i Falcon co-localitzades mitjançant la plataforma FlockOne.
+
+*Un dispositiu comercialitzat per detectar trets es va convertir silenciosament en un monitor acústic d'emergències.*
+
+### Les càmeres ara volen
+
+**Alpha** és el dron propi de Flock. Es va presentar l'octubre de 2025 i ja opera sobre el terreny, inclòs un **pilot del departament de policia de South Bend el març de 2026**. Flock el va dissenyar, es munta als Estats Units i compleix els requisits NDAA.
+
+| Especificació | Valor |
+|---------------|-------|
+| Velocitat màxima | **60 MPH** |
+| Durada del vol | ~45 minuts |
+| Canvi de bateria | **90 segons** en una base de dues bateries |
+| Connexions mòbils | **4 mòdems independents** per a la commutació en cas d'error |
+| Altitud de lectura de matrícules | **fins a 2.000 peus** |
+| Cobertura | fins a **50 milles quadrades per base** |
+
+**Aerodome** és l'antiga línia de drons, incorporada mitjançant una **adquisició de 300 milions de dòlars l'octubre de 2024**. Utilitza aeronaus DJI Matrice M350 i M300 RTK. La base Hextronics Atlas conté vuit bateries per permetre un funcionament continu. Prosper Police i Scottsdale encara les utilitzen.
+
+### La xarxa incorpora càmeres d'altres empreses
+
+**Wing** no és maquinari. És un pont de programari anunciat l'octubre de 2025 que afegeix les analítiques de Flock a càmeres IP de tercers ja instal·lades. Així, les càmeres que no són de Flock també envien dades a la mateixa interfície d'investigació **Nova**.
+
+**Això canvia l'escala del problema.** Una ciutat que instal·la càmeres Flock sap què ha instal·lat. Una ciutat que executa Wing converteix les càmeres existents en sensors Flock sense comprar-ne cap de nova, i les imatges arriben a un sistema consultable.
+
+### El remolc simplifica la instal·lació
+
+El **remolc LPR** munta una càmera Flock en un xassís All Traffic Solutions ATS-5 amb **120 watts d'energia solar**, una **bateria de 47 amperes-hora** i un radar amb panell de missatges. Es fixa a un enganxall receptor de 2 polzades i una sola persona el pot desplegar.
+
+També informa de manipulacions i de bateria baixa. Això mostra que l'empresa espera interferències amb l'equip al carrer.
+
+
+{{< figure src="flock-data-sharing-shadow-national-network.webp" alt="Mapa que mostra com les xarxes de càmeres Flock de ciutats i comtats es connecten mitjançant acords d’intercanvi de dades per formar una base de dades regional i quasi nacional consultable" >}}
+
 ______
 
 ## El Problema Real: Fotografia versus Base de Dades
@@ -95,6 +205,8 @@ Les xarxes individuals de càmeres Flock no estan aïllades. Les ciutats i els c
 **Així és com una xarxa local de càmeres es converteix en un sistema de vigilància nacional de facto sense que el Congrés mai hi hagi votat.**
 
 L'intercanvi de dades és voluntari i legalment ambigu. No hi ha cap estatut federal que l'autoritzi. No hi ha límits estandarditzats de retenció de dades. No hi ha requisits d'auditoria obligatòria. I no hi ha cap mecanisme perquè un ciutadà pugui esbrinar si els moviments del seu vehicle han estat consultats.
+
+**L’abast d’aquest accés ja està documentat.** A Alpharetta, Geòrgia, WIRED va trobar registres de les càmeres Flock de la ciutat accessibles a **més de 2.000 organismes**, incloses policies, universitats, aeroports i l’Oficina de l’Inspector General de la General Services Administration federal. Aquesta xifra no és una particularitat dels acords d’Alpharetta. Reflecteix com Flock connecta per defecte la seva xarxa nacional.
 
 DeFlock.org, que rastreja col·lectivament les ubicacions de les càmeres Flock, ha mapejat més de **124.000 desplegaments LPR sospitosos** arreu dels Estats Units. La cobertura en àrees urbanes i suburbanes és prou densa que conduir per la majoria de les ciutats americanes genera un registre de vigilància gairebé continu.
 
@@ -196,9 +308,16 @@ El camí endavant no és destruir les càmeres. És requerir ordres judicials pe
 
 Aquesta és una resposta avorrida i procedimental. No genera indignació en cap dels dos bàndols. Però és l'única resposta que pren seriosament tant la seguretat pública com la llibertat constitucional.
 
+Si voleu saber quan sou a prop d’una d’aquestes càmeres en lloc d’esperar una reforma, avui ja hi ha maquinari específic per detectar-les.
+
+{{< stscollective-ad "flockyou" >}}
+
 ______
 
 ## Articles Relacionats
+
+
+
 
 | Article | Què Aprendreu |
 |---------|------------------|
@@ -222,4 +341,9 @@ ______
 8. [FBI Vault — COINTELPRO](https://vault.fbi.gov/cointel-pro)
 9. [MuckRock — Flock Safety](https://www.muckrock.com/tags/flock-safety/)
 10. [Flock Finder GitHub](https://github.com/simeononsecurity/flock-finder)
-11. [Mapa Interactiu de Flock Finder](https://simeononsecurity.github.io/flock-finder/)
+11. [WIRED i 404 Media: uns pirates van entrar en una càmera Flock](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+12. [Micah Lee: les càmeres Flock tenen moltes vulnerabilitats i credencials codificades](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+13. [Distributed Denial of Secrets: imatges del sistema de fitxers d’una càmera Flock ALPR](https://ddosecrets.org/article/flock-alpr-camera)
+14. [Hackaday: aquesta setmana en seguretat, les càmeres Flock són antigues](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+15. [WiFi Mothership: referència de detecció de dispositius Flock Safety ALPR](https://wifimothership.com/flock)
+16. [Mapa interactiu de Flock Finder](https://simeononsecurity.github.io/flock-finder/)

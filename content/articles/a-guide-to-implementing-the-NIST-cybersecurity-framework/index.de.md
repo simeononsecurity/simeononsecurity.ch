@@ -1,15 +1,16 @@
 ---
 title: "Implementierung des NIST Cybersecurity Framework"
 date: 2023-03-18
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie das NIST Cybersecurity Framework implementieren und Ihr Unternehmen vor Cyber-Bedrohungen schützen können."
 tags: ["Cybersicherheit", "NIST", "Rahmenwerk", "Risikomanagement", "Informationssicherheit", "Cyber-Bedrohungen", "implementierung", "beste Praktiken", "Leitlinien", "Normen", "Cyber-Angriffe", "Risikobewertung", "Cybersicherheitsrisiko", "datenschutz", "Compliance", "IT-Sicherheit", "Netzwerksicherheit", "Vorfallreaktion", "Sicherheitsmaßnahmen", "Cybersicherheitsplan"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
-coverAlt: "Ein Cartoonbild einer Person mit einem Schild, das verschiedene Cyberangriffe abwehrt."
+cover: "/img/cover/a-guide-to-implementing-the-NIST-cybersecurity-framework.webp"
+coverAlt: "Mehrere Fachleute arbeiten in einem modernen Büro vor einem großen digitalen Bildschirm mit Darstellungen zu Cybersicherheit zusammen. Die Szene zeigt Laptops und Tablets vor dunklem Hintergrund mit kräftigen Farben."
 coverCaption: ""
 ---
- Leitfaden zur Implementierung des NIST Cybersecurity Framework für Ihr Unternehmen**
+**Leitfaden zur Implementierung des NIST Cybersecurity Framework für Ihr Unternehmen**
 
 Das National Institute of Standards and Technology (**NIST**) hat ein Rahmenwerk für Cybersicherheit entwickelt, das Organisationen Richtlinien und bewährte Verfahren zur Verwaltung und Reduzierung von Cybersicherheitsrisiken bietet. Die **Umsetzung des NIST Cybersecurity Framework** kann Organisationen aller Größen und Arten dabei helfen, ihre Informationen und Vermögenswerte vor Cyber-Bedrohungen zu schützen.
 

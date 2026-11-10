@@ -1,162 +1,162 @@
 ---
-title: "GrapheneOS Sandboxed Google Play Explained"
+title: "GrapheneOS-এ Sandboxed Google Play-এর ব্যাখ্যা"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together."
-genre: ["Privacy", "Mobile Security", "Open Source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android privacy", "Android security", "app sandbox", "Google account", "GrapheneOS profiles", "Owner profile", "user profiles", "work profile", "app compatibility", "push notifications", "Firebase Cloud Messaging", "app permissions", "Pixel privacy", "Google Play installation", "mobile privacy", "GrapheneOS App Store"]
+description: "GrapheneOS-এ Sandboxed Google Play কী বদলায়, কখন আলাদা প্রোফাইল কাজে আসে এবং অ্যাকাউন্ট, বিজ্ঞপ্তি ও অ্যাপের সামঞ্জস্য কীভাবে সম্পর্কিত তা জানুন।"
+genre: ["গোপনীয়তা", "মোবাইল নিরাপত্তা", "ওপেন সোর্স"]
+tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android গোপনীয়তা", "Android নিরাপত্তা", "অ্যাপ স্যান্ডবক্স", "Google অ্যাকাউন্ট", "GrapheneOS প্রোফাইল", "মালিক প্রোফাইল", "ব্যবহারকারী প্রোফাইল", "কাজের প্রোফাইল", "অ্যাপ সামঞ্জস্য", "পুশ বিজ্ঞপ্তি", "Firebase Cloud Messaging", "অ্যাপ অনুমতি", "Pixel গোপনীয়তা", "Google Play ইনস্টলেশন", "মোবাইল গোপনীয়তা", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
-coverAlt: "A smartphone screen holds apps in separate transparent compartments, including a colorful app-store symbol."
+coverAlt: "স্মার্টফোনের পর্দায় আলাদা স্বচ্ছ ঘরে অ্যাপগুলো দেখা যাচ্ছে, যার মধ্যে একটি রঙিন অ্যাপ স্টোরের চিহ্নও রয়েছে।"
 coverCaption: ""
 ---
 
-**Sandboxed Google Play** lets you install official Google Play components on GrapheneOS as ordinary apps. They run without the system privileges Google Play normally receives on the stock OS. Installing them is optional. [GrapheneOS feature overview](https://grapheneos.org/features#sandboxed-google-play).
+**Sandboxed Google Play** দিয়ে GrapheneOS-এ Google Play-এর অফিসিয়াল উপাদানগুলো সাধারণ অ্যাপ হিসেবে ইনস্টল করা যায়। এগুলো স্টক অপারেটিং সিস্টেমে Google Play সাধারণত যে সিস্টেম-সুবিধা পায়, সেগুলো ছাড়াই চলে। ইনস্টল করা ঐচ্ছিক। [GrapheneOS ফিচারের পরিচিতি](https://grapheneos.org/features#sandboxed-google-play)।
 
-## মূল বিষয়গুলো
+## মূল কথা
 
-- **Explain isolation:** distinguish app permissions from online account activity.
-- **Place dependencies:** keep a dependent app and Play in the same profile.
-- **Test behavior:** check background notifications and essential workflows.
-- **Build a plan:** record your chosen profiles, accounts, and app requirements.
+- **বিচ্ছিন্নতা বুঝুন:** অ্যাপের অনুমতি ও অনলাইন অ্যাকাউন্টের কার্যকলাপকে আলাদা করে দেখুন।
+- **নির্ভরশীল উপাদান একসঙ্গে রাখুন:** নির্ভরশীল অ্যাপ ও Play একই প্রোফাইলে রাখুন।
+- **আচরণ পরীক্ষা করুন:** ব্যাকগ্রাউন্ড বিজ্ঞপ্তি ও জরুরি কাজগুলো যাচাই করুন।
+- **পরিকল্পনা করুন:** বেছে নেওয়া প্রোফাইল, অ্যাকাউন্ট ও অ্যাপের প্রয়োজন লিখে রাখুন।
 
 ## শুরু করার আগে
 
-**Audience:** GrapheneOS users deciding whether to install Google Play and where to put it. **Prerequisites:** a supported device with an updated GrapheneOS installation and access to your essential accounts. OS installation belongs in the [GrapheneOS installation guide](/guides/how-to-install-graphine-os/).
+**কারা পড়বেন:** GrapheneOS ব্যবহারকারীরা, যারা Google Play ইনস্টল করবেন কি না এবং কোথায় রাখবেন তা ঠিক করছেন। **যা লাগবে:** আপডেট করা GrapheneOS-সহ সমর্থিত ডিভাইস এবং জরুরি অ্যাকাউন্টে প্রবেশাধিকার। অপারেটিং সিস্টেম ইনস্টল করার ধাপ [GrapheneOS ইনস্টলেশন গাইডে](/guides/how-to-install-graphine-os/) আছে।
 
-**Estimated effort:** 20–30 minutes for the initial app inventory and checks, plus normal daily use to assess notification reliability. **Difficulty:** beginner. Start with one representative app before reorganizing your phone.
+**আনুমানিক সময়:** প্রাথমিক অ্যাপ তালিকা ও যাচাইয়ের জন্য ২০–৩০ মিনিট, এরপর বিজ্ঞপ্তির নির্ভরযোগ্যতা বোঝার জন্য স্বাভাবিক দৈনন্দিন ব্যবহার। **কঠিনতার স্তর:** প্রাথমিক। ফোনের বিন্যাস বদলানোর আগে একটি প্রতিনিধিত্বমূলক অ্যাপ দিয়ে শুরু করুন।
 
-## What the Sandbox Changes
+## স্যান্ডবক্স কী বদলায়
 
-Android's **application sandbox** separates app resources using operating-system protections. An app does not receive unrestricted access to another app's private files. The protection applies to native code as well as code running through Android's managed runtime. [Android application sandbox documentation](https://source.android.com/docs/security/app-sandbox).
+Android-এর **অ্যাপ্লিকেশন স্যান্ডবক্স** অপারেটিং সিস্টেমের সুরক্ষা দিয়ে অ্যাপের রিসোর্স আলাদা রাখে। কোনো অ্যাপ অন্য অ্যাপের ব্যক্তিগত ফাইলে সীমাহীন প্রবেশাধিকার পায় না। সুরক্ষা নেটিভ কোড এবং Android-এর পরিচালিত রানটাইমে চলা কোড, দুটির ক্ষেত্রেই প্রযোজ্য। [Android অ্যাপ্লিকেশন স্যান্ডবক্সের নথি](https://source.android.com/docs/security/app-sandbox)।
 
-GrapheneOS adds a **compatibility layer** so official Play components function within those ordinary restrictions. Apps in the same profile still have supported ways to communicate by mutual consent. Sandboxing limits privileges, but it does not prevent every intentional exchange between apps. [Sandboxed Google Play design](https://grapheneos.org/features#sandboxed-google-play).
+GrapheneOS একটি **সামঞ্জস্য স্তর** যোগ করে, যাতে সাধারণ সীমাবদ্ধতার মধ্যেই অফিসিয়াল Play উপাদানগুলো কাজ করে। একই প্রোফাইলের অ্যাপগুলো পারস্পরিক সম্মতিতে সমর্থিত উপায়ে যোগাযোগ করতে পারে। স্যান্ডবক্স অনুমতি সীমিত করে, তবে অ্যাপগুলোর প্রতিটি ইচ্ছাকৃত আদান-প্রদান ঠেকায় না। [Sandboxed Google Play-এর নকশা](https://grapheneos.org/features#sandboxed-google-play)।
 
-| Concern | Practical meaning |
+| বিষয় | ব্যবহারিক অর্থ |
 |---|---|
-| **Private app files** | Installing Play does not grant unrestricted access to other apps' data |
-| **Permissions** | Review requested access as you would for another app |
-| **Google-backed features** | An app choosing a Google service still communicates with it |
-| **Account activity** | Signing into a service remains a separate privacy decision |
+| **অ্যাপের ব্যক্তিগত ফাইল** | Play ইনস্টল করলে অন্য অ্যাপের ডেটায় সীমাহীন প্রবেশাধিকার মেলে না |
+| **অনুমতি** | অন্য অ্যাপের মতোই চাওয়া প্রবেশাধিকার পর্যালোচনা করুন |
+| **Google-নির্ভর ফিচার** | কোনো অ্যাপ Google পরিষেবা ব্যবহার করলে সেটির সঙ্গে যোগাযোগ করবেই |
+| **অ্যাকাউন্টের কার্যকলাপ** | কোনো পরিষেবায় সাইন ইন করা আলাদা গোপনীয়তার সিদ্ধান্ত |
 
-**Sandboxing and account privacy** answer different questions. A sandbox restricts local access. It does not erase information you deliberately submit to an online service. For example, signing into a shopping app still identifies your account to its operator.
+**স্যান্ডবক্স এবং অ্যাকাউন্টের গোপনীয়তা** ভিন্ন প্রশ্নের উত্তর দেয়। স্যান্ডবক্স স্থানীয় প্রবেশাধিকার সীমিত করে। আপনি জেনে-শুনে অনলাইন পরিষেবায় যে তথ্য পাঠান, তা মুছে দেয় না। যেমন, শপিং অ্যাপে সাইন ইন করলে সেটির পরিচালনাকারী আপনার অ্যাকাউন্ট জানতে পারে।
 
-## Separate Three Privacy Decisions
+## গোপনীয়তার তিনটি সিদ্ধান্ত আলাদা করুন
 
-**Local access, service use, and identity** are separate questions. For an app requesting contact access and account sign-in, review each request independently:
+**স্থানীয় প্রবেশাধিকার, পরিষেবা ব্যবহার এবং পরিচয়** আলাদা বিষয়। কোনো অ্যাপ পরিচিতিতে প্রবেশাধিকার ও অ্যাকাউন্টে সাইন ইন চাইলে, প্রতিটি অনুরোধ আলাদাভাবে পর্যালোচনা করুন:
 
-| Decision | Question to answer |
+| সিদ্ধান্ত | প্রশ্ন |
 |---|---|
-| **Local permission** | Does this feature need my contacts, microphone, or location? |
-| **Service dependency** | Which feature relies on Play services? |
-| **Online identity** | Which account am I associating with this activity? |
+| **স্থানীয় অনুমতি** | এই ফিচারের কি আমার পরিচিতি, মাইক্রোফোন বা অবস্থান দরকার? |
+| **পরিষেবার নির্ভরতা** | কোন ফিচার Play services-এর ওপর নির্ভর করে? |
+| **অনলাইন পরিচয়** | এই কাজটি কোন অ্যাকাউন্টের সঙ্গে যুক্ত করছি? |
 
-**A practical example:** a shopping account already contains your delivery address. Moving its app into another profile does not change the address held by the retailer. Declining contact access answers a different question about data available on your phone.
+**বাস্তব উদাহরণ:** শপিং অ্যাকাউন্টে আপনার ডেলিভারির ঠিকানা আগে থেকেই আছে। অ্যাপটিকে অন্য প্রোফাইলে নিলেও বিক্রেতার কাছে থাকা ঠিকানা বদলায় না। পরিচিতিতে প্রবেশাধিকার না দেওয়া ফোনে থাকা ডেটা নিয়ে আলাদা প্রশ্নের উত্তর দেয়।
 
-**Privacy objective:** write the specific exposure you want to reduce. “Keep this app away from my personal contacts” is testable. “Make this account anonymous” requires decisions beyond profile placement.
+**গোপনীয়তার লক্ষ্য:** কোন নির্দিষ্ট তথ্য প্রকাশ কমাতে চান, তা লিখুন। “এই অ্যাপকে আমার ব্যক্তিগত পরিচিতি থেকে দূরে রাখুন” পরীক্ষা করা যায়। “এই অ্যাকাউন্টকে বেনামী করুন” করতে প্রোফাইল বেছে নেওয়ার বাইরেও সিদ্ধান্ত লাগে।
 
-## Owner Profile or Separate Profile?
+## মালিক প্রোফাইল নাকি আলাদা প্রোফাইল?
 
-**Owner-profile installation** is a supported, straightforward choice. Google Play remains sandboxed there. A separate user or work profile helps you choose which group of apps has Play available. [GrapheneOS installation guidance](https://grapheneos.org/usage#sandboxed-google-play-installation).
+**মালিক প্রোফাইলে ইনস্টল করা** সমর্থিত ও সহজ একটি উপায়। সেখানে Google Play স্যান্ডবক্সেই থাকে। আলাদা ব্যবহারকারী বা কাজের প্রোফাইল ব্যবহার করলে কোন অ্যাপের গোষ্ঠী Play পাবে, তা বেছে নেওয়া যায়। [GrapheneOS ইনস্টলেশন নির্দেশনা](https://grapheneos.org/usage#sandboxed-google-play-installation)।
 
-| Your priority | Starting arrangement | Tradeoff |
+| আপনার অগ্রাধিকার | শুরুর বিন্যাস | বিনিময় |
 |---|---|---|
-| **Simple daily use** | Keep required apps and Play in Owner | Play is available to cooperating apps in this profile |
-| **Separate Google-dependent apps** | Install them together in another profile | More profile management |
-| **Avoid Google services** | Start without Play | Check each app's dependencies |
+| **সহজ দৈনন্দিন ব্যবহার** | দরকারি অ্যাপ ও Play মালিক প্রোফাইলে রাখুন | ওই প্রোফাইলের সহযোগী অ্যাপগুলো Play পাবে |
+| **Google-নির্ভর অ্যাপ আলাদা রাখা** | অন্য প্রোফাইলে একসঙ্গে ইনস্টল করুন | প্রোফাইল পরিচালনা বাড়বে |
+| **Google পরিষেবা এড়ানো** | Play ছাড়া শুরু করুন | প্রতিটি অ্যাপের নির্ভরতা যাচাই করুন |
 
-**Profile placement** matters more than installing the same component everywhere. GrapheneOS's FAQ explains how Play availability is scoped to selected profiles, while many apps work without it or need it for only part of their functionality. [Google services FAQ](https://grapheneos.org/faq#google-services).
+**প্রোফাইলের অবস্থান** একই উপাদান সর্বত্র ইনস্টল করার চেয়ে বেশি গুরুত্বপূর্ণ। GrapheneOS-এর FAQ-তে নির্বাচিত প্রোফাইলে Play-এর প্রাপ্যতা সীমিত করার ব্যাখ্যা আছে। অনেক অ্যাপ Play ছাড়াই চলে, অথবা কেবল কিছু ফিচারের জন্য এটি লাগে। [Google পরিষেবা FAQ](https://grapheneos.org/faq#google-services)।
 
-*Use a separate profile when selective Play availability solves a specific requirement you have identified.*
+*আপনি চিহ্নিত কোনো নির্দিষ্ট প্রয়োজন মেটাতে Play-এর নির্বাচিত প্রাপ্যতা কাজে লাগলে আলাদা প্রোফাইল ব্যবহার করুন।*
 
-## Understand Profile Activity
+## প্রোফাইলের কার্যকলাপ বুঝুন
 
-**A secondary user profile** has its own app instances and data. Switching to another user and ending the previous user's session are different actions. **End session** stops apps in the secondary profile and returns its encrypted storage to rest. [GrapheneOS encryption and profile FAQ](https://grapheneos.org/faq#encryption).
+**দ্বিতীয় ব্যবহারকারী প্রোফাইলে** নিজস্ব অ্যাপ ও ডেটা থাকে। অন্য ব্যবহারকারীতে পাল্টানো এবং আগের ব্যবহারকারীর সেশন শেষ করা আলাদা কাজ। **সেশন শেষ করুন** নির্বাচন করলে দ্বিতীয় প্রোফাইলের অ্যাপ বন্ধ হয় এবং এর এনক্রিপ্ট করা স্টোরেজ আবার বিশ্রাম অবস্থায় যায়। [এনক্রিপশন ও প্রোফাইল নিয়ে GrapheneOS FAQ](https://grapheneos.org/faq#encryption)।
 
-**Notification forwarding** optionally surfaces notifications from a user running in the background to the active user. It does not keep an ended session running. [GrapheneOS user-profile features](https://grapheneos.org/features).
+**বিজ্ঞপ্তি ফরওয়ার্ডিং** চালু করলে ব্যাকগ্রাউন্ডে চলা ব্যবহারকারীর বিজ্ঞপ্তি সক্রিয় ব্যবহারকারীর কাছে দেখা যেতে পারে। এটি শেষ হওয়া সেশন চালু রাখে না। [GrapheneOS ব্যবহারকারী প্রোফাইলের ফিচার](https://grapheneos.org/features)।
 
-| Profile state | Delivery condition |
+| প্রোফাইলের অবস্থা | বিজ্ঞপ্তি পাওয়ার শর্ত |
 |---|---|
-| **Active** | Test delivery inside this profile |
-| **Running in background** | Check forwarding to the active user |
-| **Session ended** | Apps in this profile are stopped |
+| **সক্রিয়** | এই প্রোফাইলের মধ্যে বিজ্ঞপ্তি পরীক্ষা করুন |
+| **ব্যাকগ্রাউন্ডে চলছে** | সক্রিয় ব্যবহারকারীর কাছে ফরওয়ার্ড হচ্ছে কি না দেখুন |
+| **সেশন শেষ** | এই প্রোফাইলের অ্যাপগুলো বন্ধ |
 
-For **a daily messaging app**, decide whether receiving messages while using Owner is essential. A profile arrangement demanding frequent session shutdown conflicts with continuous background delivery. Make this tradeoff before moving your main conversation history.
+**প্রতিদিনের মেসেজিং অ্যাপের** ক্ষেত্রে মালিক প্রোফাইল ব্যবহার করার সময় বার্তা পাওয়া জরুরি কি না ঠিক করুন। ঘন ঘন সেশন বন্ধ করতে হয় এমন বিন্যাসে অবিরত ব্যাকগ্রাউন্ড ডেলিভারি বাধাগ্রস্ত হয়। মূল কথোপকথনের ইতিহাস সরানোর আগে এই বিষয়টি বিবেচনা করুন।
 
-## Installation and Accounts
+## ইনস্টলেশন ও অ্যাকাউন্ট
 
-Open the built-in **GrapheneOS App Store**, select **Google Play services**, and install it. This also installs the dependent Play Store. Let the App Store maintain these components. Grant Play services a battery optimization exception for reliable background features such as push notifications. [Official installation instructions](https://grapheneos.org/usage#sandboxed-google-play-installation).
+অন্তর্নির্মিত **GrapheneOS App Store** খুলুন, **Google Play services** বেছে ইনস্টল করুন। এর ওপর নির্ভরশীল Play Store-ও ইনস্টল হবে। এই উপাদানগুলো App Store-কে পরিচালনা করতে দিন। পুশ বিজ্ঞপ্তির মতো ব্যাকগ্রাউন্ড ফিচার নির্ভরযোগ্য রাখতে Play services-কে ব্যাটারি অপ্টিমাইজেশন থেকে ছাড় দিন। [অফিসিয়াল ইনস্টলেশন নির্দেশনা](https://grapheneos.org/usage#sandboxed-google-play-installation)।
 
-**Google account sign-in** is optional for functionality without an account dependency. Installing apps through the Play Store requires sign-in. Older installations also include Google Services Framework, which the project says to retain. Follow current installation instructions instead of an old three-package checklist.
+অ্যাকাউন্টের ওপর নির্ভরশীল নয় এমন ফিচারের জন্য **Google অ্যাকাউন্টে সাইন ইন** ঐচ্ছিক। Play Store দিয়ে অ্যাপ ইনস্টল করতে সাইন ইন করতে হবে। পুরোনো ইনস্টলেশনে Google Services Framework-ও থাকে, যা রেখে দেওয়ার পরামর্শ প্রকল্পটি দেয়। তিনটি প্যাকেজের পুরোনো তালিকার বদলে বর্তমান নির্দেশনা অনুসরণ করুন।
 
-## Test One App First
+## আগে একটি অ্যাপ পরীক্ষা করুন
 
-Use a **low-risk representative app** to check your intended profile arrangement. Keep existing account recovery methods available throughout the exercise.
+আপনার প্রোফাইল বিন্যাস যাচাই করতে **কম ঝুঁকির একটি প্রতিনিধিত্বমূলক অ্যাপ** ব্যবহার করুন। পরীক্ষার সময় বর্তমান অ্যাকাউন্ট পুনরুদ্ধারের পদ্ধতিগুলো চালু রাখুন।
 
-1. **Select a profile:** decide where the app belongs before installing its dependencies.
-2. **Install Play:** use the official installation steps above within this profile.
-3. **Install the app:** use its trusted distribution source and complete initial setup.
-4. **Review requests:** approve permissions according to the feature you are testing.
-5. **Exercise one feature:** send a message, open a map, or perform another reversible action.
-6. **Record the result:** note the app version, OS version, profile, and exact operation.
+1. **প্রোফাইল বাছুন:** নির্ভরশীল উপাদান ইনস্টল করার আগে অ্যাপটির অবস্থান ঠিক করুন।
+2. **Play ইনস্টল করুন:** এই প্রোফাইলে ওপরের অফিসিয়াল ধাপগুলো অনুসরণ করুন।
+3. **অ্যাপ ইনস্টল করুন:** বিশ্বস্ত বিতরণ উৎস ব্যবহার করে প্রাথমিক সেটআপ শেষ করুন।
+4. **অনুরোধ পর্যালোচনা করুন:** পরীক্ষা করা ফিচারের উপযোগী অনুমতি দিন।
+5. **একটি ফিচার পরীক্ষা করুন:** বার্তা পাঠান, মানচিত্র খুলুন বা ফেরত নেওয়া যায় এমন অন্য কাজ করুন।
+6. **ফল নথিভুক্ত করুন:** অ্যাপ ও OS-এর সংস্করণ, প্রোফাইল এবং নির্দিষ্ট কাজটি লিখুন।
 
-**Expected evidence:** a repeatable description such as “a test message arrived with the screen locked in the active profile.” Avoid recording only “works,” which hides the feature and conditions tested.
+**প্রত্যাশিত প্রমাণ:** পুনরায় করা যায় এমন বিবরণ, যেমন “সক্রিয় প্রোফাইলে স্ক্রিন লক থাকা অবস্থায় পরীক্ষামূলক বার্তা এসেছে।” শুধু “কাজ করে” লিখবেন না, এতে কোন ফিচার ও কোন শর্ত পরীক্ষা হয়েছে তা বোঝা যায় না।
 
-## Diagnose Missing Notifications
+## বিজ্ঞপ্তি না এলে সমস্যা খুঁজুন
 
-**Push notifications** depend on the app's implementation. Some apps maintain their own background connection. Others rely on Google's Firebase Cloud Messaging. An app opening successfully does not prove its notifications work after you lock the phone. [GrapheneOS notification FAQ](https://grapheneos.org/faq#notifications).
+**পুশ বিজ্ঞপ্তি** অ্যাপের বাস্তবায়নের ওপর নির্ভর করে। কিছু অ্যাপ নিজস্ব ব্যাকগ্রাউন্ড সংযোগ বজায় রাখে। অন্যগুলো Google-এর Firebase Cloud Messaging ব্যবহার করে। অ্যাপ খোলা গেলেই ফোন লক করার পরও বিজ্ঞপ্তি আসবে, তা প্রমাণিত হয় না। [বিজ্ঞপ্তি নিয়ে GrapheneOS FAQ](https://grapheneos.org/faq#notifications)।
 
-**Check the delivery conditions** before changing permissions across several apps:
+একাধিক অ্যাপের অনুমতি বদলানোর আগে **বিজ্ঞপ্তি পৌঁছানোর শর্তগুলো পরীক্ষা করুন**:
 
-| Symptom | Narrow the investigation |
+| লক্ষণ | কী যাচাই করবেন |
 |---|---|
-| **Messages appear only after opening** | Check the app's background delivery method and battery settings |
-| **Delivery works only in its profile** | Check profile activity and notification forwarding |
-| **No delivery after End session** | Start the secondary profile before testing again |
-| **The notification arrives silently** | Inspect the app's notification channel and sound settings |
+| **অ্যাপ খোলার পরেই বার্তা দেখা যায়** | ব্যাকগ্রাউন্ড ডেলিভারি পদ্ধতি ও ব্যাটারি সেটিং দেখুন |
+| **শুধু অ্যাপটির প্রোফাইলেই বার্তা আসে** | প্রোফাইলের কার্যকলাপ ও বিজ্ঞপ্তি ফরওয়ার্ডিং দেখুন |
+| **সেশন শেষের পর কিছু আসে না** | আবার পরীক্ষার আগে দ্বিতীয় প্রোফাইল চালু করুন |
+| **বিজ্ঞপ্তি শব্দ ছাড়া আসে** | অ্যাপের বিজ্ঞপ্তি চ্যানেল ও শব্দ সেটিং দেখুন |
 
-**Notification channels** group an app's notification behavior, including importance and sound. Android exposes channel controls to the user. [Android notification-channel documentation](https://developer.android.com/develop/ui/compose/notifications/channels).
+**বিজ্ঞপ্তি চ্যানেল** অ্যাপের বিজ্ঞপ্তির গুরুত্ব ও শব্দসহ আচরণগুলো গুচ্ছবদ্ধ করে। Android ব্যবহারকারীকে চ্যানেল নিয়ন্ত্রণের সুযোগ দেয়। [Android বিজ্ঞপ্তি চ্যানেলের নথি](https://developer.android.com/develop/ui/compose/notifications/channels)।
 
-**Retest one condition at a time:** keep the sending device and message type fixed while changing the receiving profile's state. Record “active,” “running in background,” or “session ended” alongside each result. This distinguishes a profile-lifecycle problem from a notification configuration problem.
+**একবারে একটি শর্ত বদলে আবার পরীক্ষা করুন:** প্রেরণকারী ডিভাইস ও বার্তার ধরন একই রেখে গ্রহণকারী প্রোফাইলের অবস্থা পাল্টান। প্রতিটি ফলের সঙ্গে “সক্রিয়”, “ব্যাকগ্রাউন্ডে চলছে” বা “সেশন শেষ” লিখুন। এতে প্রোফাইলের জীবনচক্রের সমস্যা এবং বিজ্ঞপ্তির কনফিগারেশনের সমস্যা আলাদা করা যায়।
 
-## Evaluate Essential Workflows
+## জরুরি কাজগুলো মূল্যায়ন করুন
 
-Use a short **personal acceptance test** before relying on a new setup:
+নতুন সেটআপের ওপর নির্ভর করার আগে একটি সংক্ষিপ্ত **নিজস্ব গ্রহণযোগ্যতা পরীক্ষা** করুন:
 
-| Workflow | Check on your device |
+| কাজ | ডিভাইসে যা পরীক্ষা করবেন |
 |---|---|
-| **Messaging** | Receive a message with the screen locked |
-| **Account access** | Sign in and complete the required second factor |
-| **Banking or payments** | Test the exact function you need, including any device checks |
-| **Navigation** | Obtain location with your chosen permissions |
+| **মেসেজিং** | স্ক্রিন লক থাকা অবস্থায় বার্তা পাওয়া |
+| **অ্যাকাউন্টে প্রবেশ** | সাইন ইন ও প্রয়োজনীয় দ্বিতীয় ধাপ সম্পন্ন করা |
+| **ব্যাংকিং বা পেমেন্ট** | ডিভাইস যাচাইসহ প্রয়োজনীয় নির্দিষ্ট ফিচার পরীক্ষা |
+| **নেভিগেশন** | বেছে নেওয়া অনুমতিতে অবস্থান পাওয়া |
 
-**An app launching** is only the first check. Record the app version, GrapheneOS version, and failed operation when troubleshooting. This article provides a decision framework, not a tested compatibility list.
+**অ্যাপ চালু হওয়া** কেবল প্রথম পরীক্ষা। সমস্যা খুঁজতে অ্যাপ ও GrapheneOS-এর সংস্করণ এবং ব্যর্থ কাজটি লিখুন। এই নিবন্ধ সিদ্ধান্ত নেওয়ার কাঠামো দেয়, পরীক্ষিত সামঞ্জস্য তালিকা নয়।
 
-**Migration decision:** keep your previous access method until each essential operation has passed. A messaging app and a banking app need different acceptance criteria. Successful message delivery says nothing about another app's account or device checks.
+**স্থানান্তরের সিদ্ধান্ত:** প্রতিটি জরুরি কাজ সফল না হওয়া পর্যন্ত আগের প্রবেশের পদ্ধতি বজায় রাখুন। মেসেজিং অ্যাপ ও ব্যাংকিং অ্যাপের গ্রহণযোগ্যতার শর্ত আলাদা। বার্তা পৌঁছানো অন্য অ্যাপের অ্যাকাউন্ট বা ডিভাইস যাচাই সম্পর্কে কিছু প্রমাণ করে না।
 
-**Recheck after GrapheneOS or app updates.** Profile placement, permissions, notification channels, and session state still define the test. Record the version beside each result so a changed notification or sign-in behavior does not become an unexplained privacy conclusion.
+**GrapheneOS বা অ্যাপ আপডেটের পর আবার পরীক্ষা করুন।** প্রোফাইলের অবস্থান, অনুমতি, বিজ্ঞপ্তি চ্যানেল ও সেশনের অবস্থা পরীক্ষার শর্ত নির্ধারণ করে। সংস্করণসহ ফল লিখুন, যাতে বিজ্ঞপ্তি বা সাইন-ইন আচরণ বদলালে ভিত্তিহীন গোপনীয়তার সিদ্ধান্ত না হয়।
 
-For **a work login**, test the complete sign-in sequence and the required second factor. For a travel app, test the feature you expect to use away from home. Choose representative actions without making unnecessary purchases or changing account security.
+**কাজের লগইনের** ক্ষেত্রে পুরো সাইন-ইন ধাপ ও প্রয়োজনীয় দ্বিতীয় ধাপ পরীক্ষা করুন। ভ্রমণ অ্যাপে বাড়ির বাইরে যে ফিচারটি ব্যবহার করবেন তা পরীক্ষা করুন। অপ্রয়োজনীয় কেনাকাটা বা অ্যাকাউন্টের নিরাপত্তা পরিবর্তন ছাড়াই প্রতিনিধিত্বমূলক কাজ বেছে নিন।
 
-## Build Your App Plan
+## অ্যাপের পরিকল্পনা করুন
 
-Complete this **inventory** for your five most important apps. The rows below are prompts, not compatibility claims about specific products:
+আপনার সবচেয়ে গুরুত্বপূর্ণ পাঁচটি অ্যাপের জন্য এই **তালিকা** পূরণ করুন। নিচের সারিগুলো চিন্তার খোরাক, নির্দিষ্ট পণ্যের সামঞ্জস্যের দাবি নয়:
 
-| App category | Requirement to record | Evidence to collect |
+| অ্যাপের ধরন | যে প্রয়োজন লিখবেন | যে প্রমাণ সংগ্রহ করবেন |
 |---|---|---|
-| **Messaging** | Background delivery and profile choice | Locked-screen and background-profile test |
-| **Work access** | Required login and second factor | Completed sign-in |
-| **Navigation** | Location permission and offline needs | A route under expected conditions |
-| **Banking** | Essential supported operations | Results for each required function |
-| **Shopping** | Account and local-data access | Permission review and normal account use |
+| **মেসেজিং** | ব্যাকগ্রাউন্ড ডেলিভারি ও প্রোফাইল নির্বাচন | স্ক্রিন লক ও ব্যাকগ্রাউন্ড প্রোফাইলে পরীক্ষা |
+| **কাজের প্রবেশাধিকার** | প্রয়োজনীয় সাইন-ইন ও দ্বিতীয় ধাপ | সাইন-ইন সম্পন্ন |
+| **নেভিগেশন** | অবস্থান অনুমতি ও অফলাইন প্রয়োজন | প্রত্যাশিত অবস্থায় একটি রুট |
+| **ব্যাংকিং** | জরুরি সমর্থিত কাজ | প্রতিটি প্রয়োজনীয় ফিচারের ফল |
+| **কেনাকাটা** | অ্যাকাউন্ট ও স্থানীয় ডেটায় প্রবেশ | অনুমতি পর্যালোচনা ও স্বাভাবিক অ্যাকাউন্ট ব্যবহার |
 
-**Write a decision** for each row: chosen profile, Play dependency, account requirement, approved permissions, and fallback. Leave unknown dependencies marked unknown until you have evidence. This avoids installing additional components merely because another app needed them.
+প্রতিটি সারির জন্য **সিদ্ধান্ত লিখুন:** নির্বাচিত প্রোফাইল, Play-এর ওপর নির্ভরতা, অ্যাকাউন্টের প্রয়োজন, অনুমোদিত অনুমতি এবং বিকল্প ব্যবস্থা। প্রমাণ না পাওয়া পর্যন্ত অজানা নির্ভরতাকে অজানাই রাখুন। এতে অন্য অ্যাপের দরকার ছিল বলে অতিরিক্ত উপাদান ইনস্টল করতে হবে না।
 
-**Review exercise:** an app works while its secondary profile is active, then stops receiving messages after End session. The first action is to restart the profile and retest. Granting contact access would not address a stopped session.
+**পর্যালোচনা অনুশীলন:** দ্বিতীয় প্রোফাইল সক্রিয় থাকলে অ্যাপ চলে, কিন্তু সেশন শেষ করলে বার্তা পাওয়া বন্ধ হয়। প্রথমে প্রোফাইলটি চালু করে আবার পরীক্ষা করুন। পরিচিতিতে প্রবেশাধিকার দিলে বন্ধ সেশনের সমস্যা মিটবে না।
 
-**Completion criterion:** your plan should explain why each app sits in its chosen profile and which test supports relying on it. Revisit the relevant row after an update changes behavior.
+**সম্পন্ন হওয়ার মানদণ্ড:** প্রতিটি অ্যাপ কেন নির্দিষ্ট প্রোফাইলে আছে এবং কোন পরীক্ষা সেটির ওপর নির্ভর করার ভিত্তি দেয়, পরিকল্পনায় তার ব্যাখ্যা থাকবে। আপডেটের পর আচরণ বদলালে সংশ্লিষ্ট সারিটি আবার দেখুন।
 
-## পরবর্তী ধাপ
+## পরবর্তী পদক্ষেপ
 
-Use the site's [GrapheneOS installation guide](/guides/how-to-install-graphine-os/) if you have not installed the OS. Then choose one profile arrangement and test your essential apps before adding extra profiles or changing broad permission settings.
+OS ইনস্টল না করে থাকলে সাইটের [GrapheneOS ইনস্টলেশন গাইড](/guides/how-to-install-graphine-os/) ব্যবহার করুন। তারপর একটি প্রোফাইল বিন্যাস বেছে জরুরি অ্যাপ পরীক্ষা করুন। অতিরিক্ত প্রোফাইল যোগ করা বা সাধারণ অনুমতি সেটিং পাল্টানোর আগে এটি করুন।

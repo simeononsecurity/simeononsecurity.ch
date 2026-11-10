@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC: Guía de inicio"
 date: 2023-04-02
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Explore el poder de PowerShell Desired State Configuration (DSC) para automatizar y gestionar las configuraciones del sistema para un entorno seguro y conforme."
 tags: ["PowerShell", "DSC", "Gestión de la configuración", "Automatización", "Windows", "Administración del sistema", "Buenas prácticas", "Conformidad", "Seguridad", "Infraestructura", "DevOps", "Configuración del servidor", "Pruebas", "Git", "Control de las fuentes", "Normativa gubernamental", "NIST", "CIS", "Deriva de configuración", "Recursos personalizados"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "Una imagen de dibujos animados de un administrador de sistemas seguro de sí mismo con una capa de superhéroe, de pie junto a un bastidor de servidores bien organizado, sosteniendo un script DSC de PowerShell en una mano y un escudo con el logotipo de Windows en la otra, protegiendo los servidores de la deriva de la configuración y de las amenazas a la seguridad."
 coverCaption: ""
 ---

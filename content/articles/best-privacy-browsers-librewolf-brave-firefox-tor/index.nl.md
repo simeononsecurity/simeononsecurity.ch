@@ -1,7 +1,7 @@
 ---
 title: "Beste Privacy Browsers 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: 'Uitgebreide vergelijking 2026 van de beste privacygerichte browsers: LibreWolf, Brave, Firefox, Tor en meer. Gedetailleerde privacytests, prestatietests en beveiligingsanalyse om uw online gegevens te beschermen.'
@@ -922,6 +922,41 @@ Veel privacybewuste gebruikers gebruiken meerdere browsers:
 - Beschermt tegen identiteitsdiefstal
 - Voorkomt manipulatie
 - Fundamenteel mensenrecht
+
+## Privacycontroles voor browsers in 2026
+
+De merknaam van een browser bewijst niet dat deze privacy beschermt. Controleer vóór dagelijks gebruik de standaardinstellingen, het updatekanaal, het extensiebeleid en het synchronisatiegedrag.
+
+1. Download de browser van de officiële projectsite of een betrouwbare appwinkel. Vermijd opnieuw verpakte versies.
+2. Houd browser en besturingssysteem bijgewerkt. Een privacyinstelling herstelt geen browser zonder patches.
+3. Controleer de ingebouwde bescherming tegen trackers, fingerprinting, schadelijke downloads en misleidende websites.
+4. Beschouw extensies als software met uitgebreide rechten. Installeer er minder, controleer machtigingen en verwijder ongebruikte extensies.
+5. Test met [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) en [BrowserLeaks](https://browserleaks.com/). Een test beschrijft één browserprofiel en bewijst geen anonimiteit.
+6. Scheid identiteiten met afzonderlijke browserprofielen. Meld u niet aan bij persoonlijke accounts in een Tor Browser-venster voor gevoelig onderzoek.
+7. Gebruik Tor Browser met de standaardinstellingen. Extra lettertypen en extensies of wijzigingen aan het venster verzwakken het voordeel van een gedeelde vingerafdruk.
+
+LibreWolf past bij gebruikers die strengere standaardinstellingen willen en af en toe compatibiliteitsproblemen willen oplossen. Brave past bij gebruikers die Chromium-compatibiliteit en ingebouwde blokkering willen. Firefox past bij gebruikers die Mozilla-ondersteuning en flexibele privacyinstellingen willen. Tor Browser past bij gebruikers die anonimiteit op netwerkniveau nodig hebben en lagere snelheid en websitecompatibiliteit accepteren.
+
+De [Tor Browser-handleiding](https://tb-manual.torproject.org/) en de [privacygids voor Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) beschrijven deze instellingen uitgebreider.
+
+## Huidige privacygrenzen en controlelijst
+
+Browserbescherming vermindert blootstelling, maar maakt een account, apparaat of verbinding niet anoniem. **Privénavigatie** verwijdert na een sessie bepaalde lokale geschiedenis. Ze verbergt verkeer niet voor de netwerkbeheerder en voorkomt niet dat een website een aangemelde gebruiker herkent. [Tor Project licht dit verschil toe](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**Bij fingerprinting telt hoe groot de groep is waarop uw browser lijkt.** Tor Browser probeert gebruikers met letterboxing, gestandaardiseerde waarden en first-party-isolatie in veelvoorkomende fingerprintgroepen te plaatsen. Tor Project zegt dat perfecte anonimiteit niet mogelijk is. Voeg zonder specifieke reden geen ongebruikelijke extensies toe, maximaliseer het Tor-venster niet en wijzig de standaardinstellingen niet. [Lees de uitleg van Tor over fingerprinting](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf vereist regelmatige updates.** De project-FAQ meldt dat nieuwe versies Firefox upstream vaak binnen drie dagen volgen en dat de browser geen eigen automatische updater heeft. Gebruik de pakketbeheerder of installatiemethode voor uw platform en controleer na beveiligingsupdates de geïnstalleerde versie. [Bekijk de LibreWolf-FAQ](https://librewolf.net/docs/faq/).
+
+Gebruik deze controlelijst voordat u een browser kiest:
+
+- **Dreigingsmodel:** bepaal of u tracking wilt beperken, accounts wilt scheiden, censuur wilt weerstaan of anoniem wilt blijven.
+- **Updatepad:** controleer wie updates levert en hoe u ze installeert.
+- **Compatibiliteit:** test bankieren, werk, media, extensies en toegankelijkheid voordat u uw volledige werkwijze wijzigt.
+- **Identiteitsscheiding:** gebruik geen persoonlijke aanmeldingen in sessies die verbanden tussen activiteiten moeten beperken.
+- **Fingerprinting:** blijf dicht bij de gebruikelijke browserinstellingen. Veel privacy-extensies kunnen uw browser herkenbaarder maken.
+- **Netwerklaag:** behandel DNS, VPN en Tor als afzonderlijke maatregelen. Elk beschermt een ander deel van de verbinding.
+
+De prestatie- en privacyscores elders op deze pagina zijn historische metingen of illustratieve vergelijkingen, tenzij methode, datum, hardwareprofiel en ruwe resultaten zijn vermeld. Beschouw ze niet als actuele universele ranglijsten. Test uw eigen sites en apparaten na elke grote browserupdate.
 
 ## Conclusie: Neem controle over je digitale privacy
 

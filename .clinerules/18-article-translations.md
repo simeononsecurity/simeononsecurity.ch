@@ -32,21 +32,56 @@
 
 - Translate the full body and reader-facing metadata, including image alt text
   and captions. Keep technical names accurate and use Gurmukhi for Punjabi.
+- Translate reader-facing `genre` and `tags` values while preserving array order
+  and count. Retain product names, model identifiers, and other proper nouns where
+  translation would change the reference.
+- Check false friends that change evidence-handling meaning. For example,
+  “unredacted evidence” means sensitive details remain present, not that evidence
+  is unedited or unremediated. Keep such evidence only in the approved private
+  location.
 - Preserve publication dates, URLs, resource paths, code blocks, inline commands,
   shortcode names, and nontext shortcode parameters. Set `lastmod` when writing
-  a new or refreshed translation.
+  a new or refreshed translation. For a batch refresh, update and verify
+  `lastmod` in every changed locale file. Existing translations can carry
+  different older dates, so verify the complete changed-file set instead of
+  replacing only one known date value.
 - Protect code and markup before automated translation. Validate the exact
   placeholder counts before restoring the protected source text.
+- Use exact phrase or word-boundary substitutions for terminology. Do not
+  replace substrings inside other words. For example, matching `laybooks` inside
+  `playbooks` changes the correct technical term.
 - Require all translation segments to return. Reject truncation, missing keys,
   missing headings, and altered table structure. Never substitute English text
   for a failed translation.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
+- When a script splits a Markdown file on `---`, validate the split parts before
+  writing. With Python `text.split('---', 2)`, part 0 is the prefix before the
+  opening delimiter, part 1 is front matter, and part 2 is the body. Assert the
+  front matter contains expected keys and validate the complete output in memory
+  before writing any file.
+- When inserting a missing source section into an existing translation, do not
+  search for the English heading text as an insertion anchor. Locate the
+  corresponding localized heading or a verified structural boundary in each
+  locale, then compare the complete ordered heading sequence with English to
+  confirm the section was inserted exactly once.
+- When restoring omitted content, compare ordered source and translation links,
+  tables, and shortcode sequences before and after insertion. Reuse existing
+  references; remove duplicated related-link tables or reference entries, then
+  verify every source target appears exactly once in the expected order.
+- Validate translated tables by row/column shape and divider structure, not
+  literal cell-text equality. Cell text is expected to differ after translation.
 
 ## Validate the Result
 
 - Parse every changed file's YAML and compare nontranslated metadata with its
   source. Compare code, link targets, shortcode parameters, and heading levels.
+- Check bold and italic markup against the English source. Compare emphasis
+  placement and verify paired markers line by line. A matching total marker
+  count can still hide an unpaired delimiter in a translated line.
+- Translate source-attribution notes from the current article only. Before
+  retaining a citation summary, compare its claim and URL with the English
+  source; a note copied from another article can introduce an unrelated claim.
 - Check every configured language for every selected bundle after generation.
 - Treat language detection as a screening check. English product names and link
   labels distort results on short technical pages. Inspect script usage and

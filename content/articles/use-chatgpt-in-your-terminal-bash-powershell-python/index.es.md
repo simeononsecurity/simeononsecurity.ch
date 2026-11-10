@@ -1,6 +1,7 @@
 ---
 title: "Utilice ChatGPT en su Terminal (Bash, PowerShell, Python): Introducción a la herramienta ChatGPT CLI para desarrolladores"
 date: 2023-02-07
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Aprenda a utilizar el modelo ChatGPT de OpenAI a través de la cómoda interfaz de línea de comandos (CLI) para generar texto y responder preguntas con facilidad."
@@ -21,7 +22,7 @@ pip install chatgpt requests readline
 
 ```
 
-**Windows PowerShell
+**Windows PowerShell**
 ```powershell
 
 pip install chatgpt requests pyreadline3
@@ -42,7 +43,7 @@ chatgpt answer --question "What is the capital of France?"
 
 El ChatGPT CLI también puede ser utilizado con scripts básicos:
 
-**Linux
+**Linux:**
 ```bash
 prompt="What is the meaning of life?"
 answer=$(chatgpt generate --prompt "$prompt")
@@ -60,4 +61,4 @@ Este script producirá el texto basado en el prompt y mostrará el texto generad
 
 Además de la generación de texto y la respuesta a preguntas, la CLI de ChatGPT ofrece otras opciones, como especificar la longitud del texto generado, ajustar la temperatura de la salida y elegir el número de respuestas a generar.
 
-ChatGPT CLI es una valiosa adición al conjunto de herramientas de cualquier desarrollador**, ya que proporciona una forma sencilla y directa de interactuar con el avanzado modelo ChatGPT. Ya sea generando texto para un chatbot, completando texto para un editor de texto o respondiendo preguntas para un sistema de preguntas y respuestas, la CLI de ChatGPT puede ayudar a los desarrolladores a alcanzar sus objetivos con facilidad.
+**ChatGPT CLI es una valiosa adición al conjunto de herramientas de cualquier desarrollador**, ya que proporciona una forma sencilla y directa de interactuar con el avanzado modelo ChatGPT. Ya sea generando texto para un chatbot, completando texto para un editor de texto o respondiendo preguntas para un sistema de preguntas y respuestas, la CLI de ChatGPT puede ayudar a los desarrolladores a alcanzar sus objetivos con facilidad.

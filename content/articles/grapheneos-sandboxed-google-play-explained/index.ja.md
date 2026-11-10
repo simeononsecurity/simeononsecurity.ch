@@ -1,162 +1,162 @@
 ---
-title: "GrapheneOS Sandboxed Google Play Explained"
+title: "GrapheneOSのSandboxed Google Playを解説"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together."
-genre: ["Privacy", "Mobile Security", "Open Source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android privacy", "Android security", "app sandbox", "Google account", "GrapheneOS profiles", "Owner profile", "user profiles", "work profile", "app compatibility", "push notifications", "Firebase Cloud Messaging", "app permissions", "Pixel privacy", "Google Play installation", "mobile privacy", "GrapheneOS App Store"]
+description: "GrapheneOS上のSandboxed Google Playで何が変わるのか、別のプロファイルが役立つ場面、アカウント、通知、アプリ互換性の関係を説明します。"
+genre: ["プライバシー", "モバイルセキュリティ", "オープンソース"]
+tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Androidのプライバシー", "Androidのセキュリティ", "アプリのサンドボックス", "Googleアカウント", "GrapheneOSのプロファイル", "オーナープロファイル", "ユーザープロファイル", "仕事用プロファイル", "アプリ互換性", "プッシュ通知", "Firebase Cloud Messaging", "アプリ権限", "Pixelのプライバシー", "Google Playのインストール", "モバイルプライバシー", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
-coverAlt: "A smartphone screen holds apps in separate transparent compartments, including a colorful app-store symbol."
+coverAlt: "スマートフォンの画面に、カラフルなアプリストアの記号を含む複数のアプリが透明な区画に分かれて表示されています。"
 coverCaption: ""
 ---
 
-**Sandboxed Google Play** lets you install official Google Play components on GrapheneOS as ordinary apps. They run without the system privileges Google Play normally receives on the stock OS. Installing them is optional. [GrapheneOS feature overview](https://grapheneos.org/features#sandboxed-google-play).
+**Sandboxed Google Play**を使うと、GrapheneOSに公式のGoogle Playコンポーネントを通常のアプリとしてインストールできます。標準OSでGoogle Playが通常得るシステム権限なしで動作します。インストールは任意です。[GrapheneOSの機能概要](https://grapheneos.org/features#sandboxed-google-play)。
 
 ## 要点
 
-- **Explain isolation:** distinguish app permissions from online account activity.
-- **Place dependencies:** keep a dependent app and Play in the same profile.
-- **Test behavior:** check background notifications and essential workflows.
-- **Build a plan:** record your chosen profiles, accounts, and app requirements.
+- **分離の仕組みを理解する:** アプリの権限とオンラインアカウントの活動を区別します。
+- **依存関係をまとめる:** 依存するアプリとPlayを同じプロファイルに置きます。
+- **動作をテストする:** バックグラウンド通知と重要な操作を確認します。
+- **計画を作る:** 選んだプロファイル、アカウント、アプリの要件を記録します。
 
 ## 始める前に
 
-**Audience:** GrapheneOS users deciding whether to install Google Play and where to put it. **Prerequisites:** a supported device with an updated GrapheneOS installation and access to your essential accounts. OS installation belongs in the [GrapheneOS installation guide](/guides/how-to-install-graphine-os/).
+**対象:** Google Playをインストールするか、どこに置くかを決めるGrapheneOSユーザー。**必要なもの:** 対応端末、更新済みのGrapheneOS、重要なアカウントへのアクセス。OSのインストール方法は[GrapheneOSのインストールガイド](/guides/how-to-install-graphine-os/)を参照してください。
 
-**Estimated effort:** 20–30 minutes for the initial app inventory and checks, plus normal daily use to assess notification reliability. **Difficulty:** beginner. Start with one representative app before reorganizing your phone.
+**所要時間:** 最初のアプリ一覧作成と確認に20～30分。その後、通知の信頼性を評価するため通常どおり使います。**難易度:** 初心者向け。端末の構成を変更する前に、代表的なアプリを1つ試します。
 
-## What the Sandbox Changes
+## サンドボックスで変わること
 
-Android's **application sandbox** separates app resources using operating-system protections. An app does not receive unrestricted access to another app's private files. The protection applies to native code as well as code running through Android's managed runtime. [Android application sandbox documentation](https://source.android.com/docs/security/app-sandbox).
+Androidの**アプリケーションサンドボックス**は、OSの保護機能でアプリのリソースを分離します。あるアプリが別のアプリのプライベートファイルへ無制限にアクセスすることはできません。この保護はネイティブコードとAndroidの管理ランタイムで動くコードの両方に適用されます。[Androidアプリケーションサンドボックスのドキュメント](https://source.android.com/docs/security/app-sandbox)。
 
-GrapheneOS adds a **compatibility layer** so official Play components function within those ordinary restrictions. Apps in the same profile still have supported ways to communicate by mutual consent. Sandboxing limits privileges, but it does not prevent every intentional exchange between apps. [Sandboxed Google Play design](https://grapheneos.org/features#sandboxed-google-play).
+GrapheneOSは**互換レイヤー**を追加し、公式のPlayコンポーネントが通常の制限内で動くようにします。同じプロファイル内のアプリは、相互の同意に基づく対応済みの方法で引き続き通信できます。サンドボックスは権限を制限しますが、アプリ間の意図的なやり取りをすべて防ぐわけではありません。[Sandboxed Google Playの設計](https://grapheneos.org/features#sandboxed-google-play)。
 
-| Concern | Practical meaning |
+| 項目 | 実際の意味 |
 |---|---|
-| **Private app files** | Installing Play does not grant unrestricted access to other apps' data |
-| **Permissions** | Review requested access as you would for another app |
-| **Google-backed features** | An app choosing a Google service still communicates with it |
-| **Account activity** | Signing into a service remains a separate privacy decision |
+| **アプリのプライベートファイル** | Playをインストールしても、他のアプリのデータへ無制限にアクセスできません |
+| **権限** | 他のアプリと同じように、要求されたアクセスを確認します |
+| **Googleの機能** | Googleサービスを選んで使うアプリは、そのサービスと通信します |
+| **アカウントの活動** | サービスへのログインは別のプライバシー判断です |
 
-**Sandboxing and account privacy** answer different questions. A sandbox restricts local access. It does not erase information you deliberately submit to an online service. For example, signing into a shopping app still identifies your account to its operator.
+**サンドボックスとアカウントのプライバシー**は別の問いに答えます。サンドボックスは端末内のアクセスを制限しますが、オンラインサービスに自分で送った情報を消すものではありません。たとえば、ショッピングアプリにログインすると、運営者には引き続きアカウントが分かります。
 
-## Separate Three Privacy Decisions
+## 3つのプライバシー判断を分ける
 
-**Local access, service use, and identity** are separate questions. For an app requesting contact access and account sign-in, review each request independently:
+**端末内のアクセス、サービスの利用、身元**はそれぞれ別の問いです。連絡先へのアクセスとアカウントへのログインを求めるアプリでは、各要求を個別に確認します。
 
-| Decision | Question to answer |
+| 判断 | 確認すること |
 |---|---|
-| **Local permission** | Does this feature need my contacts, microphone, or location? |
-| **Service dependency** | Which feature relies on Play services? |
-| **Online identity** | Which account am I associating with this activity? |
+| **端末内の権限** | この機能に連絡先、マイク、位置情報が必要ですか？ |
+| **サービスへの依存** | どの機能がPlay servicesに依存していますか？ |
+| **オンラインの身元** | この操作をどのアカウントに関連付けますか？ |
 
-**A practical example:** a shopping account already contains your delivery address. Moving its app into another profile does not change the address held by the retailer. Declining contact access answers a different question about data available on your phone.
+**例:** ショッピングアカウントには配送先住所が登録済みです。アプリを別のプロファイルへ移しても、販売者が保有する住所は変わりません。連絡先へのアクセスを拒否するのは、端末上のデータに関する別の判断です。
 
-**Privacy objective:** write the specific exposure you want to reduce. “Keep this app away from my personal contacts” is testable. “Make this account anonymous” requires decisions beyond profile placement.
+**プライバシーの目標:** 減らしたい具体的な情報露出を記録します。「このアプリに個人の連絡先を見せない」は検証できます。「このアカウントを匿名にする」には、プロファイル配置以外の判断も必要です。
 
-## Owner Profile or Separate Profile?
+## オーナープロファイルと別プロファイル
 
-**Owner-profile installation** is a supported, straightforward choice. Google Play remains sandboxed there. A separate user or work profile helps you choose which group of apps has Play available. [GrapheneOS installation guidance](https://grapheneos.org/usage#sandboxed-google-play-installation).
+**オーナープロファイルへのインストール**は、サポートされている簡単な選択肢です。Google Playはそこでサンドボックス内にとどまります。別のユーザープロファイルまたは仕事用プロファイルを使えば、Playを利用できるアプリのグループを選べます。[GrapheneOSのインストール案内](https://grapheneos.org/usage#sandboxed-google-play-installation)。
 
-| Your priority | Starting arrangement | Tradeoff |
+| 優先事項 | 最初の構成 | トレードオフ |
 |---|---|---|
-| **Simple daily use** | Keep required apps and Play in Owner | Play is available to cooperating apps in this profile |
-| **Separate Google-dependent apps** | Install them together in another profile | More profile management |
-| **Avoid Google services** | Start without Play | Check each app's dependencies |
+| **日常利用の簡単さ** | 必要なアプリとPlayをオーナープロファイルに置く | このプロファイル内の連携するアプリはPlayを利用できます |
+| **Google依存アプリの分離** | それらを別のプロファイルにまとめてインストールする | プロファイル管理が増えます |
+| **Googleサービスを避ける** | Playなしで始める | アプリごとの依存関係を確認します |
 
-**Profile placement** matters more than installing the same component everywhere. GrapheneOS's FAQ explains how Play availability is scoped to selected profiles, while many apps work without it or need it for only part of their functionality. [Google services FAQ](https://grapheneos.org/faq#google-services).
+**プロファイルの配置**は、同じコンポーネントをどこにでもインストールすることより重要です。GrapheneOSのFAQには、Playの利用範囲を選択したプロファイルに限定する方法が記載されています。多くのアプリはPlayなしで動くか、一部の機能だけにPlayを必要とします。[Googleサービスに関するFAQ](https://grapheneos.org/faq#google-services)。
 
-*Use a separate profile when selective Play availability solves a specific requirement you have identified.*
+*Playを選択的に利用できる構成が、特定した要件を解決する場合に別のプロファイルを使います。*
 
-## Understand Profile Activity
+## プロファイルの状態を理解する
 
-**A secondary user profile** has its own app instances and data. Switching to another user and ending the previous user's session are different actions. **End session** stops apps in the secondary profile and returns its encrypted storage to rest. [GrapheneOS encryption and profile FAQ](https://grapheneos.org/faq#encryption).
+**セカンダリユーザープロファイル**には、独自のアプリとデータがあります。別のユーザーに切り替えることと、前のユーザーのセッションを終了することは別の操作です。**セッションを終了**すると、セカンダリプロファイルのアプリが停止し、暗号化ストレージは再び休止状態になります。[GrapheneOSの暗号化とプロファイルに関するFAQ](https://grapheneos.org/faq#encryption)。
 
-**Notification forwarding** optionally surfaces notifications from a user running in the background to the active user. It does not keep an ended session running. [GrapheneOS user-profile features](https://grapheneos.org/features).
+**通知の転送**を有効にすると、バックグラウンドで動作中のユーザーの通知をアクティブなユーザーに表示できます。終了済みのセッションを動作させ続ける機能ではありません。[GrapheneOSのユーザープロファイル機能](https://grapheneos.org/features)。
 
-| Profile state | Delivery condition |
+| プロファイルの状態 | 通知の条件 |
 |---|---|
-| **Active** | Test delivery inside this profile |
-| **Running in background** | Check forwarding to the active user |
-| **Session ended** | Apps in this profile are stopped |
+| **アクティブ** | このプロファイル内で通知をテストします |
+| **バックグラウンドで動作中** | アクティブなユーザーへの転送を確認します |
+| **セッション終了** | このプロファイルのアプリは停止しています |
 
-For **a daily messaging app**, decide whether receiving messages while using Owner is essential. A profile arrangement demanding frequent session shutdown conflicts with continuous background delivery. Make this tradeoff before moving your main conversation history.
+**毎日使うメッセージアプリ**について、オーナープロファイルを使いながらメッセージを受信する必要があるか決めます。頻繁にセッションを終了する構成では、継続的なバックグラウンド配信ができません。主な会話履歴を移動する前に、この違いを検討します。
 
-## Installation and Accounts
+## インストールとアカウント
 
-Open the built-in **GrapheneOS App Store**, select **Google Play services**, and install it. This also installs the dependent Play Store. Let the App Store maintain these components. Grant Play services a battery optimization exception for reliable background features such as push notifications. [Official installation instructions](https://grapheneos.org/usage#sandboxed-google-play-installation).
+内蔵の**GrapheneOS App Store**を開き、**Google Play services**を選んでインストールします。依存するPlay Storeもインストールされます。これらのコンポーネントはApp Storeに管理させます。プッシュ通知などのバックグラウンド機能を安定させるため、Play servicesをバッテリー最適化の対象外にします。[公式インストール手順](https://grapheneos.org/usage#sandboxed-google-play-installation)。
 
-**Google account sign-in** is optional for functionality without an account dependency. Installing apps through the Play Store requires sign-in. Older installations also include Google Services Framework, which the project says to retain. Follow current installation instructions instead of an old three-package checklist.
+アカウント依存のない機能なら、**Googleアカウントへのログイン**は任意です。Play Storeでアプリをインストールするにはログインが必要です。古いインストールにはGoogle Services Frameworkも含まれます。プロジェクトはこれを残すよう案内しています。3つのパッケージを並べた古いチェックリストではなく、現行の手順に従ってください。
 
-## Test One App First
+## まず1つのアプリをテストする
 
-Use a **low-risk representative app** to check your intended profile arrangement. Keep existing account recovery methods available throughout the exercise.
+予定するプロファイル構成を確認するため、**リスクの低い代表的なアプリ**を使います。テスト中は、既存のアカウント復旧手段を利用できる状態にしておきます。
 
-1. **Select a profile:** decide where the app belongs before installing its dependencies.
-2. **Install Play:** use the official installation steps above within this profile.
-3. **Install the app:** use its trusted distribution source and complete initial setup.
-4. **Review requests:** approve permissions according to the feature you are testing.
-5. **Exercise one feature:** send a message, open a map, or perform another reversible action.
-6. **Record the result:** note the app version, OS version, profile, and exact operation.
+1. **プロファイルを選ぶ:** 依存コンポーネントを入れる前に、アプリを置く場所を決めます。
+2. **Playをインストールする:** このプロファイル内で上記の公式手順を使います。
+3. **アプリをインストールする:** 信頼できる配布元を使い、初期設定を完了します。
+4. **要求を確認する:** テストする機能に必要な権限を許可します。
+5. **機能を試す:** メッセージを送る、地図を開くなど、元に戻せる操作を1つ行います。
+6. **結果を記録する:** アプリとOSのバージョン、プロファイル、具体的な操作を記録します。
 
-**Expected evidence:** a repeatable description such as “a test message arrived with the screen locked in the active profile.” Avoid recording only “works,” which hides the feature and conditions tested.
+**確認できる証拠:** 「画面をロックし、プロファイルをアクティブにした状態でテストメッセージが届いた」のような、再現可能な説明です。「動く」とだけ記録すると、テストした機能や条件が分かりません。
 
-## Diagnose Missing Notifications
+## 通知が届かない場合
 
-**Push notifications** depend on the app's implementation. Some apps maintain their own background connection. Others rely on Google's Firebase Cloud Messaging. An app opening successfully does not prove its notifications work after you lock the phone. [GrapheneOS notification FAQ](https://grapheneos.org/faq#notifications).
+**プッシュ通知**の動作はアプリの実装によります。独自のバックグラウンド接続を維持するアプリもあれば、GoogleのFirebase Cloud Messagingに依存するアプリもあります。アプリが起動するだけでは、端末をロックした後も通知が届くとは限りません。[GrapheneOSの通知に関するFAQ](https://grapheneos.org/faq#notifications)。
 
-**Check the delivery conditions** before changing permissions across several apps:
+複数のアプリの権限を変更する前に、**通知の条件を確認**します。
 
-| Symptom | Narrow the investigation |
+| 症状 | 確認する点 |
 |---|---|
-| **Messages appear only after opening** | Check the app's background delivery method and battery settings |
-| **Delivery works only in its profile** | Check profile activity and notification forwarding |
-| **No delivery after End session** | Start the secondary profile before testing again |
-| **The notification arrives silently** | Inspect the app's notification channel and sound settings |
+| **アプリを開いた後にだけメッセージが表示される** | アプリのバックグラウンド配信方法とバッテリー設定を確認します |
+| **アプリのプロファイル内でだけ配信される** | プロファイルの状態と通知転送を確認します |
+| **セッション終了後に届かない** | 再テストの前にセカンダリプロファイルを開始します |
+| **通知が無音で届く** | アプリの通知チャンネルとサウンド設定を確認します |
 
-**Notification channels** group an app's notification behavior, including importance and sound. Android exposes channel controls to the user. [Android notification-channel documentation](https://developer.android.com/develop/ui/compose/notifications/channels).
+**通知チャンネル**は、重要度やサウンドなど、アプリの通知動作をまとめます。Androidではユーザーがチャンネルを設定できます。[Android通知チャンネルのドキュメント](https://developer.android.com/develop/ui/compose/notifications/channels)。
 
-**Retest one condition at a time:** keep the sending device and message type fixed while changing the receiving profile's state. Record “active,” “running in background,” or “session ended” alongside each result. This distinguishes a profile-lifecycle problem from a notification configuration problem.
+**一度に1つの条件だけを変えて再テストします:** 送信端末とメッセージの種類を固定し、受信側プロファイルの状態を変えます。各結果に「アクティブ」「バックグラウンドで動作中」「セッション終了」と記録します。プロファイルのライフサイクルの問題と通知設定の問題を区別できます。
 
-## Evaluate Essential Workflows
+## 重要な操作を評価する
 
-Use a short **personal acceptance test** before relying on a new setup:
+新しい構成を信頼する前に、短い**自分用の受け入れテスト**を行います。
 
-| Workflow | Check on your device |
+| 操作 | 端末で確認すること |
 |---|---|
-| **Messaging** | Receive a message with the screen locked |
-| **Account access** | Sign in and complete the required second factor |
-| **Banking or payments** | Test the exact function you need, including any device checks |
-| **Navigation** | Obtain location with your chosen permissions |
+| **メッセージ** | 画面をロックした状態で受信する |
+| **アカウントへのアクセス** | ログインし、必要な第2要素を完了する |
+| **銀行または決済** | 端末チェックを含め、必要な機能をテストする |
+| **ナビゲーション** | 選択した権限で位置情報を取得する |
 
-**An app launching** is only the first check. Record the app version, GrapheneOS version, and failed operation when troubleshooting. This article provides a decision framework, not a tested compatibility list.
+**アプリが起動すること**は最初の確認にすぎません。問題を調べるときは、アプリとGrapheneOSのバージョン、失敗した操作を記録します。この記事は判断の枠組みを示すもので、互換性をテストした一覧ではありません。
 
-**Migration decision:** keep your previous access method until each essential operation has passed. A messaging app and a banking app need different acceptance criteria. Successful message delivery says nothing about another app's account or device checks.
+**移行の判断:** 重要な操作がすべて成功するまで、以前のアクセス方法を維持します。メッセージアプリと銀行アプリでは受け入れ基準が異なります。メッセージが届いても、別のアプリのアカウント確認や端末チェックについては分かりません。
 
-**Recheck after GrapheneOS or app updates.** Profile placement, permissions, notification channels, and session state still define the test. Record the version beside each result so a changed notification or sign-in behavior does not become an unexplained privacy conclusion.
+**GrapheneOSやアプリを更新した後も再確認します。** プロファイルの場所、権限、通知チャンネル、セッションの状態が引き続きテスト条件になります。通知やログインの動作が変わった際に、根拠のないプライバシー上の結論を出さないよう、結果と一緒にバージョンを記録します。
 
-For **a work login**, test the complete sign-in sequence and the required second factor. For a travel app, test the feature you expect to use away from home. Choose representative actions without making unnecessary purchases or changing account security.
+**仕事用ログイン**では、ログイン全体の流れと必要な第2要素をテストします。旅行アプリでは、外出先で使う予定の機能を試します。不要な購入やアカウントのセキュリティ変更を伴わない代表的な操作を選びます。
 
-## Build Your App Plan
+## アプリの計画を作る
 
-Complete this **inventory** for your five most important apps. The rows below are prompts, not compatibility claims about specific products:
+重要な5つのアプリについて、この**一覧**を作ります。以下の行は確認事項であり、特定製品の互換性を保証するものではありません。
 
-| App category | Requirement to record | Evidence to collect |
+| アプリの種類 | 記録する要件 | 集める証拠 |
 |---|---|---|
-| **Messaging** | Background delivery and profile choice | Locked-screen and background-profile test |
-| **Work access** | Required login and second factor | Completed sign-in |
-| **Navigation** | Location permission and offline needs | A route under expected conditions |
-| **Banking** | Essential supported operations | Results for each required function |
-| **Shopping** | Account and local-data access | Permission review and normal account use |
+| **メッセージ** | バックグラウンド配信とプロファイルの選択 | 画面ロック中およびバックグラウンドプロファイルでのテスト |
+| **仕事用アクセス** | 必要なログインと第2要素 | ログイン完了 |
+| **ナビゲーション** | 位置情報の権限とオフライン要件 | 予定する条件での経路確認 |
+| **銀行** | 必要な対応機能 | 各必須機能の結果 |
+| **ショッピング** | アカウントと端末内データへのアクセス | 権限確認と通常のアカウント利用 |
 
-**Write a decision** for each row: chosen profile, Play dependency, account requirement, approved permissions, and fallback. Leave unknown dependencies marked unknown until you have evidence. This avoids installing additional components merely because another app needed them.
+各行について、**判断を記録します:** 選んだプロファイル、Playへの依存、アカウント要件、許可した権限、代替手段です。証拠が得られるまでは、依存関係が不明であることを記録します。別のアプリが必要としたという理由だけでコンポーネントを追加せずに済みます。
 
-**Review exercise:** an app works while its secondary profile is active, then stops receiving messages after End session. The first action is to restart the profile and retest. Granting contact access would not address a stopped session.
+**確認問題:** セカンダリプロファイルがアクティブな間はアプリが動き、セッションを終了するとメッセージが届かなくなりました。まずプロファイルを再開してテストします。連絡先へのアクセスを許可しても、停止したセッションは解決しません。
 
-**Completion criterion:** your plan should explain why each app sits in its chosen profile and which test supports relying on it. Revisit the relevant row after an update changes behavior.
+**完了の基準:** 各アプリを選んだプロファイルに置く理由と、利用を信頼できる根拠となるテストを計画で説明できることです。更新後に動作が変わったら、該当する項目を見直します。
 
-## 次のステップ
+## 次の手順
 
-Use the site's [GrapheneOS installation guide](/guides/how-to-install-graphine-os/) if you have not installed the OS. Then choose one profile arrangement and test your essential apps before adding extra profiles or changing broad permission settings.
+OSをまだインストールしていない場合は、サイトの[GrapheneOSインストールガイド](/guides/how-to-install-graphine-os/)を使います。次にプロファイル構成を1つ選び、追加のプロファイルを作成したり広範な権限設定を変更したりする前に、重要なアプリをテストします。

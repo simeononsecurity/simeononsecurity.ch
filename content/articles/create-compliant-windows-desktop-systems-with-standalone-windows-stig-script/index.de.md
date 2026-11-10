@@ -1,13 +1,14 @@
 ---
-title: "Die Macht der Cybersicherheit: Wie man ein konformes und sicheres Windows-System mit Standalone-Windows-STIG-Script erstellt"
+title: "Standalone-Windows-STIG-Script: Einen STIG-konformen PC erstellen"
 date: 2023-02-02
 toc: true
 draft: false
-description: "Entdecken Sie, wie Sie mit dem benutzerfreundlichen Standalone-Windows-STIG-Skript ein sicheres und konformes Windows-System erstellen können. Dieser informative Artikel enthält Schritt-für-Schritt-Anleitungen und detaillierte Erklärungen zu den Parametern."
-tags: ["STIG-Skript", "Windows-Sicherheit", "Kompatibles Windows-System", "System Hardening", "Fenster STIG", "Secure Windows", "Windows-Konformität", "Manuelle Installation", "Windows-Updates", "Adobe Reader", "Firefox", "Chrom", "Internet Explorer 11", ".NET-Rahmenwerk", "Büro", "OneDrive", "Java", "Windows Defender", "Windows Firewall", "Abhilfemaßnahmen", "Nessus PID", "VMware Horizont", "Optionale Härtung"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
-coverAlt: "Ein Screenshot eines Computerbildschirms mit einem Fortschrittsbalken, der den Fertigstellungsgrad anzeigt."
+description: "Schritt-für-Schritt-Anleitung zur Verwendung des Standalone-Windows-STIG-Script für Windows-Systeme, mit Erläuterungen zu Parametern und Prüfung."
+tags: ["STIG-Skript", "Windows-Sicherheit", "STIG-konformes Windows-System", "Systemhärtung", "Windows STIG", "Windows-Sicherheit", "Windows-Compliance", "Manuelle Installation", "Windows-Updates", "Adobe Reader", "Firefox", "Chrome", "Internet Explorer 11", ".NET Framework", "Office", "OneDrive", "Java", "Windows Defender", "Windows-Firewall", "Gegenmaßnahmen", "Nessus PID", "VMware Horizon", "Optionale Härtung"]
+cover: "/img/cover/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script.webp"
+coverAlt: "Eine Illustration eines Computerbildschirms mit einer Sicherheits-Compliance-Oberfläche, dynamischen Fortschrittsbalken und Datenströmen auf dunkelblauem Hintergrund mit leuchtenden Akzentfarben."
 coverCaption: ""
+lastmod: 2026-11-09
 ---
 
 Windows-Systeme sind in Unternehmen, Organisationen und sogar zu Hause weit verbreitet. Angesichts der zunehmenden Zahl von Cyberangriffen ist es von entscheidender Bedeutung, sicherzustellen, dass diese Systeme sicher sind und den Branchenstandards entsprechen. Das Standalone-Windows-STIG-Skript ist ein nützliches Tool, das Ihnen dabei hilft, genau das zu erreichen. In diesem Artikel erfahren Sie, was das Standalone-Windows-STIG-Skript ist, wie es funktioniert und wie Sie es verwenden können, um ein sicheres und konformes Windows-System zu erstellen.

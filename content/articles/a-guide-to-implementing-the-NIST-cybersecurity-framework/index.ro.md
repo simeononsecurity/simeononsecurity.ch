@@ -1,15 +1,16 @@
 ---
 title: "Implementarea Cadrului de securitate cibernetică NIST"
 date: 2023-03-18
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Aflați cum să implementați Cadrul de securitate cibernetică NIST și cum să vă protejați organizația de amenințările cibernetice cu ajutorul ghidului nostru pas cu pas."
 tags: ["securitate cibernetică", "NIST", "cadru", "gestionarea riscurilor", "securitatea informațiilor", "amenințări cibernetice", "implementare", "cele mai bune practici", "orientări", "standarde", "atacuri cibernetice", "evaluarea riscurilor", "risc de securitate cibernetică", "protecția datelor", "conformitate", "Securitate IT", "securitatea rețelei", "răspunsul la incidente", "măsuri de securitate", "plan de securitate cibernetică"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
-coverAlt: "O imagine de desen animat a unei persoane cu un scut care blochează diverse atacuri cibernetice."
+cover: "/img/cover/a-guide-to-implementing-the-NIST-cybersecurity-framework.webp"
+coverAlt: "Mai mulți profesioniști colaborează într-un birou modern, în fața unui ecran digital mare care ilustrează concepte de securitate cibernetică. Scena include laptopuri și tablete, un fundal întunecat și culori vii."
 coverCaption: ""
 ---
- Ghid de implementare a Cadrului de securitate cibernetică NIST pentru organizația dumneavoastră**
+**Ghid de implementare a Cadrului de securitate cibernetică NIST pentru organizația dumneavoastră**
 
 Institutul Național de Standarde și Tehnologie (**NIST**) a elaborat un cadru de securitate cibernetică care oferă organizațiilor orientări și cele mai bune practici pentru a gestiona și a reduce riscul de securitate cibernetică. **Punerea în aplicare a Cadrului de securitate cibernetică NIST** poate ajuta organizațiile de toate dimensiunile și tipurile să își protejeze informațiile și activele împotriva amenințărilor cibernetice.
 

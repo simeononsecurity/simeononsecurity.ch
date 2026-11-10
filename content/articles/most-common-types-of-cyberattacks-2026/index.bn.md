@@ -1,284 +1,284 @@
 ---
-title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
+title: "সাধারণ সাইবার আক্রমণের ধরন এবং সেগুলো শনাক্ত করার উপায়"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
-genre: ["Cybersecurity", "Threat Detection", "Blue Team", "Security Operations", "Career Development"]
-tags: ["cyberattack types", "malware", "ransomware", "phishing", "spear phishing", "social engineering", "spoofing", "identity-based attacks", "credential stuffing", "password spraying", "SQL injection", "cross-site scripting", "supply chain attack", "insider threat", "DNS tunneling", "IoT attacks", "AI-powered attacks", "denial of service", "detection engineering", "SOC analyst", "blue team", "home lab", "log analysis", "incident response", "MITRE ATT&CK", "cybersecurity career", "threat hunting", "security operations center", "telemetry", "alert triage"]
+description: "সাধারণ সাইবার আক্রমণের ধরন, লগ ও টেলিমেট্রিতে রেখে যাওয়া চিহ্ন এবং ঘরের নিরাপত্তা ল্যাবে সেগুলো শনাক্ত করার অনুশীলন সম্পর্কে জানুন।"
+genre: ["সাইবার নিরাপত্তা", "হুমকি শনাক্তকরণ", "ব্লু টিম", "নিরাপত্তা কার্যক্রম", "পেশাগত উন্নয়ন"]
+tags: ["সাইবার আক্রমণের ধরন", "ম্যালওয়্যার", "র‍্যানসমওয়্যার", "ফিশিং", "স্পিয়ার ফিশিং", "সোশ্যাল ইঞ্জিনিয়ারিং", "স্পুফিং", "পরিচয়ভিত্তিক আক্রমণ", "ক্রেডেনশিয়াল স্টাফিং", "পাসওয়ার্ড স্প্রে", "SQL ইনজেকশন", "ক্রস-সাইট স্ক্রিপ্টিং", "সাপ্লাই চেইন আক্রমণ", "অভ্যন্তরীণ হুমকি", "DNS টানেলিং", "IoT আক্রমণ", "AI-চালিত আক্রমণ", "সেবা অস্বীকার", "ডিটেকশন ইঞ্জিনিয়ারিং", "SOC বিশ্লেষক", "ব্লু টিম", "ঘরোয়া ল্যাব", "লগ বিশ্লেষণ", "ঘটনায় সাড়া", "MITRE ATT&CK", "সাইবার নিরাপত্তায় ক্যারিয়ার", "থ্রেট হান্টিং", "সিকিউরিটি অপারেশনস সেন্টার", "টেলিমেট্রি", "সতর্কতা যাচাই"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"
-coverAlt: "A digital illustration featuring colorful abstract icons symbolizing various cyberattack types like ransomware, phishing, and denial of service against a dark background."
+coverAlt: "গাঢ় পটভূমিতে র‍্যানসমওয়্যার, ফিশিং ও সেবা অস্বীকারের মতো বিভিন্ন সাইবার আক্রমণের প্রতীকী রঙিন বিমূর্ত আইকনসহ একটি ডিজিটাল চিত্র।"
 coverCaption: ""
 ---
 
-An **attack type** is a category of technique, not a single tool. Ransomware, phishing, and credential stuffing each name a method an adversary repeats against many targets with minor variations. Learning the categories gives you a mental index for the alerts you will meet on a security team.
+**আক্রমণের ধরন** হলো কৌশলের একটি শ্রেণি, কোনো একক টুল নয়। র‍্যানসমওয়্যার, ফিশিং ও ক্রেডেনশিয়াল স্টাফিং এমন পদ্ধতি, যা আক্রমণকারী সামান্য পরিবর্তনসহ অনেক লক্ষ্যের বিরুদ্ধে বারবার ব্যবহার করে। এই শ্রেণিগুলো শিখলে নিরাপত্তা দলে দেখা সতর্কতাগুলো মনে মনে সাজিয়ে নিতে পারবেন।
 
-*Individual malware families appear and disappear within months. The attack categories below have stayed stable for years, and each one leaves a recognizable trail in endpoint, identity, network, or email telemetry.*
+*আলাদা ম্যালওয়্যার পরিবার কয়েক মাসের মধ্যে দেখা দেয় এবং হারিয়ে যায়। নিচের আক্রমণ-শ্রেণিগুলো বহু বছর ধরে স্থিতিশীল, আর প্রতিটিই এন্ডপয়েন্ট, পরিচয়, নেটওয়ার্ক বা ইমেইল টেলিমেট্রিতে চেনা যায় এমন চিহ্ন রেখে যায়।*
 
 <!--more-->
 
 ## মূল বিষয়গুলো
 
-- **Learn the pattern, not the payload.** Attack categories change far slower than individual tools.
-- **Every category leaves evidence.** The detection work starts with knowing which telemetry records the activity.
-- **Reproduce an attack to understand it.** A home lab turns an abstract category into a recorded observation.
-- **Write up what you found.** A short investigation note proves the work and teaches you the evidence.
+- **পেলোড নয়, ধরন শিখুন।** আলাদা টুলের তুলনায় আক্রমণের শ্রেণি অনেক ধীরে বদলায়।
+- **প্রতিটি শ্রেণিই প্রমাণ রেখে যায়।** কোন টেলিমেট্রি কার্যকলাপটি রেকর্ড করে, তা জানার মধ্য দিয়ে শনাক্তকরণের কাজ শুরু হয়।
+- **আক্রমণটি পুনরায় তৈরি করে বুঝুন।** ঘরোয়া ল্যাব বিমূর্ত শ্রেণিকে রেকর্ড করা পর্যবেক্ষণে রূপ দেয়।
+- **যা পেয়েছেন তা লিখে রাখুন।** ছোট তদন্ত-নোট কাজের প্রমাণ দেয় এবং সংগৃহীত প্রমাণ ব্যাখ্যা করে।
 
-## The Attack Types at a Glance
+## এক নজরে আক্রমণের ধরন
 
-The table below lists the categories security teams meet most often. Each later section describes the category, its common variants, and the data a defender reviews to find it.
+নিরাপত্তা দলগুলো যে শ্রেণির মুখোমুখি বেশি হয়, সেগুলো নিচের সারণিতে রয়েছে। পরের অংশগুলোতে প্রতিটি শ্রেণি, প্রচলিত রূপ এবং শনাক্ত করতে রক্ষকেরা যে তথ্য পর্যালোচনা করেন তা বর্ণনা করা হয়েছে।
 
-| Attack type | What it does |
+| আক্রমণের ধরন | কী করে |
 |---|---|
-| **Malware** | Runs malicious software such as ransomware, spyware, and trojans |
-| **Denial of service** | Floods a service with traffic until legitimate users lose access |
-| **Phishing** | Tricks a person into revealing credentials or running a malicious file |
-| **Spoofing** | Disguises an attacker as a trusted system, sender, or address |
-| **Identity-based attacks** | Abuses stolen or forged credentials to act as a valid user |
-| **Code injection** | Inserts malicious code into an application to change its behavior |
-| **Supply chain attacks** | Compromises a trusted vendor, library, or update channel |
-| **Social engineering** | Manipulates a person into taking an unsafe action |
-| **Insider threats** | Misuses access held by a current or former employee |
-| **DNS tunneling** | Encodes data inside DNS queries to move it past controls |
-| **IoT attacks** | Targets connected devices to pivot, spy, or join a botnet |
-| **AI-powered attacks** | Uses machine learning to generate content, impersonate people, or evade filters |
+| **ম্যালওয়্যার** | র‍্যানসমওয়্যার, স্পাইওয়্যার ও ট্রোজানের মতো ক্ষতিকর সফটওয়্যার চালায় |
+| **সেবা অস্বীকার** | বৈধ ব্যবহারকারীরা প্রবেশাধিকার হারানো পর্যন্ত কোনো সেবায় ট্রাফিকের চাপ বাড়ায় |
+| **ফিশিং** | কাউকে ক্রেডেনশিয়াল প্রকাশ করতে বা ক্ষতিকর ফাইল চালাতে প্রলুব্ধ করে |
+| **স্পুফিং** | আক্রমণকারীকে বিশ্বস্ত সিস্টেম, প্রেরক বা ঠিকানা হিসেবে দেখায় |
+| **পরিচয়ভিত্তিক আক্রমণ** | চুরি করা বা জাল ক্রেডেনশিয়াল ব্যবহার করে বৈধ ব্যবহারকারীর মতো কাজ করে |
+| **কোড ইনজেকশন** | অ্যাপ্লিকেশনে ক্ষতিকর কোড ঢুকিয়ে তার আচরণ বদলায় |
+| **সাপ্লাই চেইন আক্রমণ** | বিশ্বস্ত সরবরাহকারী, লাইব্রেরি বা আপডেট চ্যানেলকে ক্ষতিগ্রস্ত করে |
+| **সোশ্যাল ইঞ্জিনিয়ারিং** | অনিরাপদ কাজ করাতে কোনো ব্যক্তিকে প্রভাবিত করে |
+| **অভ্যন্তরীণ হুমকি** | বর্তমান বা সাবেক কর্মীর হাতে থাকা প্রবেশাধিকার অপব্যবহার করে |
+| **DNS টানেলিং** | নিয়ন্ত্রণ এড়াতে DNS কুয়েরির মধ্যে ডেটা এনকোড করে |
+| **IoT আক্রমণ** | নেটওয়ার্কে ছড়াতে, নজরদারি করতে বা বটনেটে যোগ দিতে সংযুক্ত যন্ত্রকে লক্ষ্য করে |
+| **AI-চালিত আক্রমণ** | কনটেন্ট তৈরি, মানুষের ছদ্মবেশ ধারণ বা ফিল্টার এড়াতে মেশিন লার্নিং ব্যবহার করে |
 
-**A note on scope:** these categories overlap. A phishing email often delivers malware, and a successful credential theft often precedes an identity-based attack. Treat the list as a set of lenses rather than rigid boxes.
+**পরিধি সম্পর্কে নোট:** শ্রেণিগুলো পরস্পরের সঙ্গে মিলে যেতে পারে। ফিশিং ইমেইলে প্রায়ই ম্যালওয়্যার থাকে, আর ক্রেডেনশিয়াল চুরির পরে পরিচয়ভিত্তিক আক্রমণ আসতে পারে। তালিকাটিকে কঠোর বাক্স হিসেবে নয়, বিভিন্ন দৃষ্টিকোণ হিসেবে দেখুন।
 
 ______
 
-## Malware
+## ম্যালওয়্যার
 
-**Malware** covers any program built to harm, control, or profit from a system. The term spans ransomware, fileless malware, spyware, adware, trojans, worms, rootkits, keyloggers, and botnets.
+**ম্যালওয়্যার** হলো সিস্টেমের ক্ষতি, নিয়ন্ত্রণ বা তা থেকে লাভের জন্য তৈরি যেকোনো প্রোগ্রাম। এতে র‍্যানসমওয়্যার, ফাইলবিহীন ম্যালওয়্যার, স্পাইওয়্যার, অ্যাডওয়্যার, ট্রোজান, ওয়ার্ম, রুটকিট, কীলগার ও বটনেট রয়েছে।
 
-| Subtype | Behavior |
+| উপধরন | আচরণ |
 |---|---|
-| **Ransomware** | Encrypts files and demands payment for the decryption key |
-| **Fileless malware** | Runs through built-in system tools and writes little to disk |
-| **Spyware** | Collects activity data without the user's knowledge |
-| **Trojan** | Poses as legitimate software to gain execution |
-| **Worm** | Copies itself across hosts without user action |
-| **Rootkit** | Hides inside the operating system to keep persistent control |
+| **র‍্যানসমওয়্যার** | ফাইল এনক্রিপ্ট করে এবং ডিক্রিপশন কী দেওয়ার বিনিময়ে অর্থ চায় |
+| **ফাইলবিহীন ম্যালওয়্যার** | বিল্ট-ইন সিস্টেম টুল চালায় এবং ডিস্কে খুব কম লেখে |
+| **স্পাইওয়্যার** | ব্যবহারকারীর অজান্তে কার্যকলাপের তথ্য সংগ্রহ করে |
+| **ট্রোজান** | চালানোর জন্য বৈধ সফটওয়্যারের ছদ্মবেশ নেয় |
+| **ওয়ার্ম** | ব্যবহারকারীর কাজ ছাড়াই হোস্টের মধ্যে নিজেকে কপি করে |
+| **রুটকিট** | দীর্ঘস্থায়ী নিয়ন্ত্রণ রাখতে অপারেটিং সিস্টেমের মধ্যে লুকিয়ে থাকে |
 
-**Where the evidence lives:** endpoint detection and response tools, or **EDR**, record process trees, command lines, file writes, and registry changes. Even a fileless attack produces process and script-block telemetry, because the operating system still launches the tools it abuses.
+**প্রমাণ কোথায় থাকে:** এন্ডপয়েন্ট ডিটেকশন অ্যান্ড রেসপন্স টুল, অর্থাৎ **EDR**, প্রসেস ট্রি, কমান্ড লাইন, ফাইল লেখা ও রেজিস্ট্রি পরিবর্তন রেকর্ড করে। ফাইলবিহীন আক্রমণও প্রসেস ও স্ক্রিপ্ট টেলিমেট্রি তৈরি করে, কারণ অপারেটিং সিস্টেম আক্রমণে ব্যবহৃত টুল চালায়।
 
 ______
 
-## Denial of Service
+## সেবা অস্বীকার
 
-**A denial-of-service (DoS) attack** floods a target with requests until legitimate users lose access. **A distributed denial-of-service (DDoS) attack** repeats the same idea from many systems at once, which makes the traffic far harder to filter by source address.
+**সেবা অস্বীকার (DoS) আক্রমণ** বৈধ ব্যবহারকারীরা প্রবেশাধিকার হারানো পর্যন্ত লক্ষ্যবস্তুতে অনুরোধ পাঠায়। **বিতরণকৃত সেবা অস্বীকার (DDoS) আক্রমণ** একসঙ্গে অনেক সিস্টেম থেকে একই কাজ করে, ফলে উৎস ঠিকানা ধরে ট্রাফিক আটকানো অনেক কঠিন হয়।
 
-| Trait | DoS | DDoS |
+| বৈশিষ্ট্য | DoS | DDoS |
 |---|---|---|
-| **Origin** | One system | Many systems |
-| **Blocking difficulty** | Moderate | High, since the sources span many networks |
-| **Typical impact** | Lost availability | Lost availability at larger scale |
+| **উৎস** | একটি সিস্টেম | অনেক সিস্টেম |
+| **আটকানোর কঠিনতা** | মাঝারি | উচ্চ, কারণ উৎসগুলো বহু নেটওয়ার্কে ছড়ানো |
+| **সাধারণ প্রভাব** | সেবা অপ্রাপ্য হওয়া | বৃহত্তর পরিসরে সেবা অপ্রাপ্য হওয়া |
 
-**Where the evidence lives:** traffic volume against a baseline, connection counts per source, request-rate spikes, and error-rate changes. Availability monitoring often alerts before the security team sees the event.
+**প্রমাণ কোথায় থাকে:** বেসলাইনের তুলনায় ট্রাফিকের পরিমাণ, উৎসভিত্তিক সংযোগের সংখ্যা, অনুরোধের হারে হঠাৎ বৃদ্ধি এবং ত্রুটির হারের পরিবর্তন। নিরাপত্তা দল ঘটনা দেখার আগেই প্রাপ্যতা পর্যবেক্ষণ ব্যবস্থা সতর্কতা দিতে পারে।
 
 ______
 
-## Phishing
+## ফিশিং
 
-**Phishing** uses email, text messages, phone calls, or social media to push a person toward revealing credentials or running a malicious attachment. The category splits by target and channel.
+**ফিশিং** ইমেইল, টেক্সট বার্তা, ফোন কল বা সামাজিক মাধ্যম ব্যবহার করে কাউকে ক্রেডেনশিয়াল প্রকাশ বা ক্ষতিকর সংযুক্তি খুলতে প্ররোচিত করে। লক্ষ্য ও চ্যানেল অনুযায়ী এর বিভিন্ন রূপ রয়েছে।
 
-| Variant | Target and channel |
+| ধরন | লক্ষ্য ও চ্যানেল |
 |---|---|
-| **Spear phishing** | A specific person or team, usually by email |
-| **Whaling** | Senior or executive staff, often to move money or data |
-| **Smishing** | Fraudulent text messages |
-| **Vishing** | Fraudulent phone calls or voice messages |
+| **স্পিয়ার ফিশিং** | নির্দিষ্ট ব্যক্তি বা দল, সাধারণত ইমেইলের মাধ্যমে |
+| **হোয়েলিং** | জ্যেষ্ঠ বা নির্বাহী কর্মী, প্রায়ই অর্থ বা ডেটা সরানোর উদ্দেশ্যে |
+| **স্মিশিং** | প্রতারণামূলক টেক্সট বার্তা |
+| **ভিশিং** | প্রতারণামূলক ফোন কল বা ভয়েস বার্তা |
 
-**Where the evidence lives:** mail-gateway logs, URL detonation results, attachment analysis, and user reports. A report from a cautious employee is one of the highest-value signals on this list.
+**প্রমাণ কোথায় থাকে:** মেইল গেটওয়ে লগ, URL বিশ্লেষণের ফল, সংযুক্তি বিশ্লেষণ ও ব্যবহারকারীর প্রতিবেদন। সতর্ক কর্মীর প্রতিবেদন এই তালিকার সবচেয়ে মূল্যবান সংকেতগুলোর একটি।
 
 ______
 
-## Spoofing
+## স্পুফিং
 
-**Spoofing** hides an attacker behind a trusted identity so a target accepts the connection, message, or address. The disguise buys time and defeats checks built around trust.
+**স্পুফিং** আক্রমণকারীকে বিশ্বস্ত পরিচয়ের আড়ালে লুকিয়ে রাখে, যাতে লক্ষ্য সংযোগ, বার্তা বা ঠিকানা গ্রহণ করে। এই ছদ্মবেশ সময় দেয় এবং আস্থার ওপর নির্ভরশীল পরীক্ষা এড়ায়।
 
-| Type | What gets faked |
+| ধরন | কী জাল করা হয় |
 |---|---|
-| **Domain spoofing** | A lookalike website or email domain impersonating a real brand |
-| **Email spoofing** | The sender address on a message |
-| **ARP spoofing** | A local network address, to intercept traffic between two hosts |
+| **ডোমেইন স্পুফিং** | বাস্তব ব্র্যান্ডের অনুকরণে তৈরি কাছাকাছি ওয়েবসাইট বা ইমেইল ডোমেইন |
+| **ইমেইল স্পুফিং** | বার্তার প্রেরক ঠিকানা |
+| **ARP স্পুফিং** | দুই হোস্টের মধ্যকার ট্রাফিক আটকাতে স্থানীয় নেটওয়ার্ক ঠিকানা |
 
-**Where the evidence lives:** SPF, DKIM, and DMARC results in mail headers, domain registration age, certificate mismatches, and duplicate address warnings on a local network.
+**প্রমাণ কোথায় থাকে:** ইমেইল হেডারে SPF, DKIM ও DMARC ফল, ডোমেইন নিবন্ধনের বয়স, সার্টিফিকেটের অমিল এবং স্থানীয় নেটওয়ার্কে একই ঠিকানার সতর্কতা।
 
 ______
 
-## Identity-Based Attacks
+## পরিচয়ভিত্তিক আক্রমণ
 
-**Identity-based attacks** use a valid account rather than a defect in software. The attacker holds a working credential, so the activity sits close to normal use and blends into the background. This category drives a large share of the alerts a **security operations center (SOC)** handles each day.
+**পরিচয়ভিত্তিক আক্রমণ** সফটওয়্যারের ত্রুটির বদলে বৈধ অ্যাকাউন্ট ব্যবহার করে। আক্রমণকারীর কাছে কার্যকর ক্রেডেনশিয়াল থাকে, তাই কার্যকলাপ স্বাভাবিক ব্যবহারের মতো দেখায় এবং চোখ এড়িয়ে যায়। **সিকিউরিটি অপারেশনস সেন্টার (SOC)** প্রতিদিন যে সতর্কতাগুলো সামলায়, তার বড় অংশ এই শ্রেণির।
 
-*If you practice one category in a home lab, choose this one. The signals are rich, the exercises repeat, and the setup stays small.*
+*ঘরোয়া ল্যাবে একটি শ্রেণি অনুশীলন করলে এটি বেছে নিন। সংকেত সমৃদ্ধ, অনুশীলন পুনরাবৃত্তিযোগ্য এবং সেটআপ ছোট।*
 
-| Technique | What happens |
+| কৌশল | কী ঘটে |
 |---|---|
-| **Kerberoasting** | Requests a service ticket, then cracks the encrypted password offline |
-| **Man-in-the-middle (MITM)** | Sits between two parties to read or alter a session |
-| **Pass-the-hash** | Reuses a stolen password hash to open a new session |
-| **Golden ticket** | Forges a Kerberos ticket-granting ticket for broad domain access |
-| **Silver ticket** | Forges a service ticket for one specific service |
-| **Credential harvesting** | Collects usernames and passwords in bulk |
-| **Credential stuffing** | Replays one set of credentials across many unrelated sites |
-| **Password spraying** | Tries one common password across many accounts |
-| **Brute force** | Guesses many passwords against one account |
-| **Downgrade** | Forces a connection into a weaker protocol version |
+| **Kerberoasting** | সার্ভিস টিকিট চাওয়ার পর এনক্রিপ্ট করা পাসওয়ার্ড অফলাইনে ভাঙে |
+| **ম্যান-ইন-দ্য-মিডল (MITM)** | সেশন পড়তে বা বদলাতে দুই পক্ষের মাঝে অবস্থান নেয় |
+| **Pass-the-hash** | নতুন সেশন খোলার জন্য চুরি করা পাসওয়ার্ড হ্যাশ আবার ব্যবহার করে |
+| **Golden ticket** | ডোমেইনে ব্যাপক প্রবেশাধিকার পেতে Kerberos টিকিট জাল করে |
+| **Silver ticket** | নির্দিষ্ট একটি সেবার জন্য সার্ভিস টিকিট জাল করে |
+| **ক্রেডেনশিয়াল সংগ্রহ** | বিপুল পরিমাণে ব্যবহারকারীর নাম ও পাসওয়ার্ড সংগ্রহ করে |
+| **ক্রেডেনশিয়াল স্টাফিং** | একই ক্রেডেনশিয়াল অনেক সম্পর্কহীন সাইটে আবার পরীক্ষা করে |
+| **পাসওয়ার্ড স্প্রে** | অনেক অ্যাকাউন্টে একটি পরিচিত পাসওয়ার্ড পরীক্ষা করে |
+| **ব্রুট ফোর্স** | এক অ্যাকাউন্টে অনেক পাসওয়ার্ড পরীক্ষা করে |
+| **ডাউনগ্রেড** | সংযোগকে প্রোটোকলের দুর্বল সংস্করণ ব্যবহার করতে বাধ্য করে |
 
-**Where the evidence lives:** sign-in records, failed-authentication counts, token anomalies, impossible-travel flags, and identity risk detections. **Adversary-in-the-middle (AiTM) phishing** belongs here too, because the attacker steals a live session token rather than a password, and the replay from unfamiliar infrastructure trips the identity risk engine.
+**প্রমাণ কোথায় থাকে:** সাইন-ইন রেকর্ড, ব্যর্থ প্রমাণীকরণের সংখ্যা, টোকেনের অস্বাভাবিকতা, অসম্ভব ভ্রমণ সতর্কতা ও পরিচয়-ঝুঁকি শনাক্তকরণ। **Adversary-in-the-middle (AiTM) ফিশিং**ও এই শ্রেণির, কারণ আক্রমণকারী পাসওয়ার্ডের বদলে সক্রিয় সেশন টোকেন চুরি করে। অচেনা অবকাঠামো থেকে টোকেনটি আবার ব্যবহার করলে পরিচয়-ঝুঁকি ইঞ্জিন সতর্ক হয়।
 
 ______
 
-## Code Injection
+## কোড ইনজেকশন
 
-**Code injection** places attacker-controlled code inside a vulnerable application so the application runs it as part of normal work. The application, not the attacker, carries out the harmful action.
+**কোড ইনজেকশন** আক্রমণকারীর নিয়ন্ত্রণাধীন কোড দুর্বল অ্যাপ্লিকেশনে ঢোকায়, যাতে স্বাভাবিক কাজের অংশ হিসেবে অ্যাপ্লিকেশন সেটি চালায়। ক্ষতিকর কাজটি অ্যাপ্লিকেশন করে, আক্রমণকারী নয়।
 
-| Type | Target |
+| ধরন | লক্ষ্য |
 |---|---|
-| **SQL injection** | A database query built from unvalidated input |
-| **Cross-site scripting (XSS)** | A web page which renders attacker script in a visitor's browser |
-| **Malvertising** | A legitimate ad slot filled with malicious code |
-| **Data poisoning** | A training set for an AI or machine learning model |
+| **SQL ইনজেকশন** | যাচাই না করা ইনপুট দিয়ে তৈরি ডেটাবেস কুয়েরি |
+| **ক্রস-সাইট স্ক্রিপ্টিং (XSS)** | যে ওয়েব পেজ দর্শকের ব্রাউজারে আক্রমণকারীর স্ক্রিপ্ট চালায় |
+| **ম্যালভার্টাইজিং** | ক্ষতিকর কোডে ভরা বৈধ বিজ্ঞাপন স্থান |
+| **ডেটা পয়জনিং** | AI বা মেশিন লার্নিং মডেলের প্রশিক্ষণ ডেটাসেট |
 
-**Where the evidence lives:** web application logs, database query records, content security policy reports, and request patterns which differ from normal application use.
-
-______
-
-## Supply Chain Attacks
-
-**A supply chain attack** targets a trusted third party whose product or service reaches many customers. A **software supply chain attack** injects malicious code into an application, library, or update so every user of the product receives it. A **hardware supply chain attack** compromises a physical component before it ships.
-
-*Modern software leans on third-party libraries, so one compromised dependency reaches far past the original vendor.*
-
-**Where the evidence lives:** software composition analysis, build-pipeline records, unexpected outbound connections from a trusted update, and integrity checks on shipped artifacts.
+**প্রমাণ কোথায় থাকে:** ওয়েব অ্যাপ্লিকেশন লগ, ডেটাবেস কুয়েরির রেকর্ড, কনটেন্ট সিকিউরিটি পলিসির প্রতিবেদন এবং স্বাভাবিক অ্যাপ্লিকেশন ব্যবহারের থেকে আলাদা অনুরোধের ধরন।
 
 ______
 
-## Social Engineering
+## সাপ্লাই চেইন আক্রমণ
 
-**Social engineering** uses psychological pressure to move a person toward an unsafe action. The attacker appeals to authority, urgency, fear, money, or trust.
+**সাপ্লাই চেইন আক্রমণ** এমন বিশ্বস্ত তৃতীয় পক্ষকে লক্ষ্য করে, যার পণ্য বা সেবা বহু গ্রাহকের কাছে পৌঁছায়। **সফটওয়্যার সাপ্লাই চেইন আক্রমণ** অ্যাপ্লিকেশন, লাইব্রেরি বা আপডেটে ক্ষতিকর কোড ঢুকিয়ে পণ্যের সব ব্যবহারকারীর কাছে পৌঁছে দেয়। **হার্ডওয়্যার সাপ্লাই চেইন আক্রমণ** পাঠানোর আগে কোনো ভৌত উপাদানকে ক্ষতিগ্রস্ত করে।
 
-| Technique | Approach |
+*আধুনিক সফটওয়্যার তৃতীয় পক্ষের লাইব্রেরির ওপর নির্ভরশীল। ফলে একটি নির্ভরতা ক্ষতিগ্রস্ত হলে মূল সরবরাহকারীর চেয়ে অনেক দূর পর্যন্ত প্রভাব পড়ে।*
+
+**প্রমাণ কোথায় থাকে:** সফটওয়্যার কম্পোজিশন বিশ্লেষণ, বিল্ড পাইপলাইনের রেকর্ড, বিশ্বস্ত আপডেট থেকে অপ্রত্যাশিত বহির্মুখী সংযোগ এবং বিতরণ করা আর্টিফ্যাক্টের অখণ্ডতা পরীক্ষা।
+
+______
+
+## সোশ্যাল ইঞ্জিনিয়ারিং
+
+**সোশ্যাল ইঞ্জিনিয়ারিং** মানসিক চাপ ব্যবহার করে কাউকে অনিরাপদ কাজ করায়। আক্রমণকারী কর্তৃত্ব, জরুরি অবস্থা, ভয়, অর্থ বা আস্থার আবেদন করে।
+
+| কৌশল | পদ্ধতি |
 |---|---|
-| **Pretexting** | Invents a believable scenario to gain trust |
-| **Business email compromise (BEC)** | Impersonates a trusted colleague to redirect a payment or share data |
-| **Disinformation** | Spreads false narratives through social media and bots |
-| **Quid pro quo** | Offers a reward in exchange for information or access |
-| **Honeytrap** | Builds a false relationship to extract money, data, or access |
-| **Tailgating** | Follows an employee through a secured door |
+| **প্রিটেক্সটিং** | আস্থা অর্জনের জন্য বিশ্বাসযোগ্য পরিস্থিতি বানায় |
+| **বিজনেস ইমেইল কমপ্রোমাইজ (BEC)** | অর্থ সরানো বা ডেটা ভাগ করাতে বিশ্বস্ত সহকর্মীর ছদ্মবেশ নেয় |
+| **ভুল তথ্য** | সামাজিক মাধ্যম ও বট দিয়ে মিথ্যা বর্ণনা ছড়ায় |
+| **Quid pro quo** | তথ্য বা প্রবেশাধিকারের বিনিময়ে পুরস্কার দেয় |
+| **হানিট্র্যাপ** | অর্থ, ডেটা বা প্রবেশাধিকার পেতে মিথ্যা সম্পর্ক গড়ে তোলে |
+| **টেইলগেটিং** | সুরক্ষিত দরজা দিয়ে কর্মীর পেছনে প্রবেশ করে |
 
-**Where the evidence lives:** email authentication results, unusual payment-change requests, helpdesk records, and physical access logs.
-
-______
-
-## Insider Threats
-
-**An insider threat** is misuse of access by a current or former employee, contractor, or partner. Some insiders act with intent, driven by money or grievance. Others act through negligence, such as leaving credentials in a shared document.
-
-*Negligent insiders appear more often than malicious ones in incident reports, and both call for the same detective control: compare access against a baseline for the role.*
-
-**Where the evidence lives:** data-transfer volume, activity outside normal hours, privilege changes, and bulk downloads from sensitive repositories.
+**প্রমাণ কোথায় থাকে:** ইমেইল প্রমাণীকরণের ফল, অর্থপ্রদানের তথ্য বদলানোর অস্বাভাবিক অনুরোধ, হেল্পডেস্ক রেকর্ড এবং শারীরিক প্রবেশের লগ।
 
 ______
 
-## DNS Tunneling
+## অভ্যন্তরীণ হুমকি
 
-**DNS tunneling** encodes data inside DNS queries and responses. Almost every network permits DNS, so the technique moves data past controls built to inspect web traffic.
+**অভ্যন্তরীণ হুমকি** হলো বর্তমান বা সাবেক কর্মী, ঠিকাদার বা অংশীদারের প্রবেশাধিকার অপব্যবহার। কেউ অর্থ বা অসন্তোষের কারণে ইচ্ছাকৃতভাবে কাজ করে। কেউ অবহেলায় কাজ করে, যেমন ভাগ করা নথিতে ক্রেডেনশিয়াল রেখে দেয়।
 
-*Detection leans on volume and shape. A single host sending thousands of queries to one domain stands apart from a normal baseline, and unusually long subdomains hint at an encoded payload.*
+*ঘটনার প্রতিবেদনে ক্ষতিকর উদ্দেশ্যসম্পন্ন ব্যক্তির চেয়ে অবহেলাকারী অভ্যন্তরীণ ব্যক্তির উল্লেখ বেশি। উভয় ক্ষেত্রেই একই শনাক্তকরণ নিয়ন্ত্রণ দরকার: ভূমিকার বেসলাইনের সঙ্গে প্রবেশাধিকার তুলনা করুন।*
 
-**Where the evidence lives:** DNS query records, query length and volume per host, uncommon record types such as TXT, and lookups to domains registered days earlier.
-
-______
-
-## IoT-Based Attacks
-
-**An IoT-based attack** targets a connected device such as a camera, printer, thermostat, or sensor. Weak default credentials and rare firmware updates make these devices a common foothold. Once compromised, a device joins a botnet, leaks data, or becomes a route into the wider network.
-
-*The 5G rollout adds connected devices at scale, and each new device is another target with a long patch cycle.*
-
-**Where the evidence lives:** device inventory, outbound connection patterns, abnormal data transfer from a device with a fixed role, and firmware version drift across a fleet.
+**প্রমাণ কোথায় থাকে:** ডেটা স্থানান্তরের পরিমাণ, স্বাভাবিক সময়ের বাইরের কার্যকলাপ, বিশেষাধিকার পরিবর্তন এবং সংবেদনশীল রিপোজিটরি থেকে একসঙ্গে অনেক ফাইল ডাউনলোড।
 
 ______
 
-## AI-Powered Attacks
+## DNS টানেলিং
 
-**AI-powered attacks** apply machine learning to the attacker's side of the work.
+**DNS টানেলিং** DNS কুয়েরি ও উত্তরের মধ্যে ডেটা এনকোড করে। প্রায় সব নেটওয়ার্ক DNS অনুমোদন করে, তাই এই কৌশল ওয়েব ট্রাফিক পরীক্ষা করার জন্য তৈরি নিয়ন্ত্রণ পেরিয়ে ডেটা পাঠায়।
 
-| Technique | Use |
+*শনাক্তকরণে পরিমাণ ও গঠন গুরুত্বপূর্ণ। একটি হোস্ট এক ডোমেইনে হাজারো কুয়েরি পাঠালে স্বাভাবিক বেসলাইন থেকে আলাদা দেখা যায়। অস্বাভাবিক লম্বা সাবডোমেইন এনকোড করা পেলোডের ইঙ্গিত দিতে পারে।*
+
+**প্রমাণ কোথায় থাকে:** DNS কুয়েরির রেকর্ড, প্রতি হোস্টে কুয়েরির দৈর্ঘ্য ও পরিমাণ, TXT-এর মতো বিরল রেকর্ড ধরন এবং কয়েক দিন আগে নিবন্ধিত ডোমেইনে অনুসন্ধান।
+
+______
+
+## IoT-ভিত্তিক আক্রমণ
+
+**IoT-ভিত্তিক আক্রমণ** ক্যামেরা, প্রিন্টার, থার্মোস্ট্যাট বা সেন্সরের মতো সংযুক্ত যন্ত্রকে লক্ষ্য করে। দুর্বল ডিফল্ট ক্রেডেনশিয়াল ও কম ফার্মওয়্যার আপডেট এসব যন্ত্রকে সাধারণ প্রবেশপথে পরিণত করে। আক্রান্ত যন্ত্র বটনেটে যোগ দেয়, ডেটা ফাঁস করে বা বৃহত্তর নেটওয়ার্কে প্রবেশের পথ হয়।
+
+*5G বিস্তারের ফলে বিপুল পরিমাণ সংযুক্ত যন্ত্র যোগ হচ্ছে। প্রতিটি নতুন যন্ত্র দীর্ঘ প্যাচ চক্রসহ আরেকটি লক্ষ্য।*
+
+**প্রমাণ কোথায় থাকে:** যন্ত্রের তালিকা, বহির্মুখী সংযোগের ধরন, নির্দিষ্ট কাজের একটি যন্ত্র থেকে অস্বাভাবিক ডেটা স্থানান্তর এবং যন্ত্রসমষ্টিতে ফার্মওয়্যার সংস্করণের অমিল।
+
+______
+
+## AI-চালিত আক্রমণ
+
+**AI-চালিত আক্রমণ** আক্রমণকারীর কাজে মেশিন লার্নিং প্রয়োগ করে।
+
+| কৌশল | ব্যবহার |
 |---|---|
-| **Adversarial AI/ML** | Manipulates training data or inputs to mislead a model |
-| **Dark AI** | Applies AI and machine learning specifically to exploit vulnerabilities |
-| **Deepfake** | Generates realistic fake audio, video, or images |
-| **AI-generated social engineering** | Runs convincing chat or voice conversations at scale |
+| **প্রতিপক্ষীয় AI/ML** | মডেলকে ভুল পথে চালাতে প্রশিক্ষণ ডেটা বা ইনপুট বদলে দেয় |
+| **Dark AI** | দুর্বলতা কাজে লাগাতে বিশেষভাবে AI ও মেশিন লার্নিং প্রয়োগ করে |
+| **ডিপফেক** | বাস্তবসম্মত নকল অডিও, ভিডিও বা ছবি তৈরি করে |
+| **AI-তৈরি সোশ্যাল ইঞ্জিনিয়ারিং** | বড় পরিসরে বিশ্বাসযোগ্য চ্যাট বা ভয়েস কথোপকথন চালায় |
 
-*A deepfake voice call or a fluent phishing chat raises the credibility of an old trick. The underlying technique stays familiar, which is why detection skills built on behavior outlast detection skills tied to one tool.*
+*ডিপফেক কণ্ঠের ফোনকল বা সাবলীল ফিশিং চ্যাট পুরোনো কৌশলকে আরও বিশ্বাসযোগ্য করে। মূল কৌশলটি পরিচিতই থাকে, তাই আচরণনির্ভর শনাক্তকরণ দক্ষতা একটি টুলনির্ভর দক্ষতার চেয়ে বেশি দিন কাজে লাগে।*
 
-**Where the evidence lives:** content provenance signals, out-of-band verification for money or access requests, and behavioral anomalies around identity and payment changes.
+**প্রমাণ কোথায় থাকে:** কনটেন্টের উৎস-সংকেত, অর্থ বা প্রবেশাধিকারের অনুরোধে বিকল্প পথে যাচাই এবং পরিচয় ও পেমেন্ট পরিবর্তনের আশপাশে আচরণগত অস্বাভাবিকতা।
 
 ______
 
-## Mapping Attacks to Telemetry
+## আক্রমণকে টেলিমেট্রির সঙ্গে মেলানো
 
-Each category feeds a different data source. The table below pairs them, which gives you a starting point for detection work.
+প্রতিটি শ্রেণি আলাদা ডেটা উৎস ব্যবহার করে। সারণিতে তাদের মিল দেখানো হয়েছে, যা শনাক্তকরণের কাজ শুরু করার জায়গা দেয়।
 
-| Attack type | Primary telemetry |
+| আক্রমণের ধরন | প্রধান টেলিমেট্রি |
 |---|---|
-| **Malware** | EDR process, file, and registry records |
-| **Denial of service** | Network flow and availability monitors |
-| **Phishing** | Mail gateway and URL detonation records |
-| **Spoofing** | Mail authentication and network address records |
-| **Identity-based** | Sign-in and identity protection records |
-| **Code injection** | Web application and database query logs |
-| **Supply chain** | Build pipeline and dependency inventory |
-| **Social engineering** | Mail, helpdesk, and physical access records |
-| **Insider threat** | Data access and transfer records |
-| **DNS tunneling** | DNS query records |
-| **IoT** | Device inventory and outbound flow records |
-| **AI-powered** | Identity, payment, and content provenance records |
+| **ম্যালওয়্যার** | প্রসেস, ফাইল ও রেজিস্ট্রির EDR রেকর্ড |
+| **সেবা অস্বীকার** | নেটওয়ার্ক ফ্লো ও প্রাপ্যতা পর্যবেক্ষণ |
+| **ফিশিং** | মেইল গেটওয়ে ও URL বিশ্লেষণের রেকর্ড |
+| **স্পুফিং** | ইমেইল প্রমাণীকরণ ও নেটওয়ার্ক ঠিকানার রেকর্ড |
+| **পরিচয়ভিত্তিক** | সাইন-ইন ও পরিচয় সুরক্ষার রেকর্ড |
+| **কোড ইনজেকশন** | ওয়েব অ্যাপ্লিকেশন ও ডেটাবেস কুয়েরি লগ |
+| **সাপ্লাই চেইন** | বিল্ড পাইপলাইন ও নির্ভরতার তালিকা |
+| **সোশ্যাল ইঞ্জিনিয়ারিং** | ইমেইল, হেল্পডেস্ক ও শারীরিক প্রবেশের রেকর্ড |
+| **অভ্যন্তরীণ হুমকি** | ডেটা প্রবেশাধিকার ও স্থানান্তরের রেকর্ড |
+| **DNS টানেলিং** | DNS কুয়েরির রেকর্ড |
+| **IoT** | যন্ত্রের তালিকা ও বহির্মুখী ফ্লো রেকর্ড |
+| **AI-চালিত** | পরিচয়, পেমেন্ট ও কনটেন্টের উৎসসংক্রান্ত রেকর্ড |
 
-*Begin detection work with the telemetry column. A useful rule grows from a known data source and a known behavior, not from a tool name.*
+*টেলিমেট্রি কলাম দিয়ে শনাক্তকরণের কাজ শুরু করুন। কার্যকর নিয়ম পরিচিত ডেটা উৎস ও পরিচিত আচরণ থেকে আসে, কোনো টুলের নাম থেকে নয়।*
 
-**Categories overlap during an incident.** A phishing message can lead to credential theft, malware execution, and an identity-based intrusion. Label the initial access technique, then record the follow-on behaviors separately. This keeps one event from becoming four unrelated alerts and gives your investigation a clearer timeline.
+**ঘটনার সময় শ্রেণিগুলো মিলে যেতে পারে।** ফিশিং বার্তা ক্রেডেনশিয়াল চুরি, ম্যালওয়্যার চালানো এবং পরিচয়ভিত্তিক অনুপ্রবেশ ঘটাতে পারে। প্রাথমিক প্রবেশের কৌশল চিহ্নিত করুন, পরে হওয়া আচরণগুলো আলাদা করে নথিবদ্ধ করুন। এতে এক ঘটনা চারটি সম্পর্কহীন সতর্কতায় ভাগ হবে না এবং তদন্তের সময়রেখা আরও পরিষ্কার হবে।
 
 ______
 
-## Practice Detecting Them in a Lab
+## ল্যাবে শনাক্তকরণের অনুশীলন
 
-A category stays abstract until you watch it happen. A home lab lets you generate the activity, capture the telemetry, and compare the alert against the raw record. The [career video on building a security operations center](https://www.youtube.com/watch?v=s3g8o7Np1_g) shows the full build for gaining job experience before being hired.
+নিজে না দেখা পর্যন্ত আক্রমণের শ্রেণি বিমূর্ত থাকে। ঘরোয়া ল্যাবে কার্যকলাপ তৈরি, টেলিমেট্রি সংগ্রহ এবং সতর্কতার সঙ্গে কাঁচা রেকর্ড তুলনা করা যায়। [সিকিউরিটি অপারেশনস সেন্টার তৈরির ক্যারিয়ার ভিডিও](https://www.youtube.com/watch?v=s3g8o7Np1_g) চাকরি পাওয়ার আগে অভিজ্ঞতা অর্জনের সম্পূর্ণ ল্যাব নির্মাণ দেখায়।
 
 {{< youtube id="s3g8o7Np1_g" >}}
 
-Start with the identity category. Create a test user, enable sign-in logging, and run a sequence of failed and successful sign-ins. Then read the sign-in record and write down the fields which separate normal use from the exercise.
+পরিচয়ভিত্তিক শ্রেণি দিয়ে শুরু করুন। একটি পরীক্ষামূলক ব্যবহারকারী তৈরি করুন, সাইন-ইন লগিং চালু করুন এবং ব্যর্থ ও সফল সাইন-ইনের ধারাবাহিকতা চালান। এরপর সাইন-ইন রেকর্ড পড়ুন এবং স্বাভাবিক ব্যবহার ও অনুশীলনকে আলাদা করে এমন ক্ষেত্রগুলো লিখে রাখুন।
 
-**A repeatable exercise:**
+**পুনরাবৃত্তিযোগ্য অনুশীলন:**
 
-1. **Pick one category** from the telemetry table above.
-2. **Reproduce a benign version** of the activity against your own test system or account.
-3. **Collect the telemetry** the category produces.
-4. **Write the detection idea** as a rule, a saved search, or a query.
-5. **Test the rule** against the exercise and confirm it fires on the intended behavior.
-6. **Record the limits** of the rule, including the activity it misses.
+1. উপরের টেলিমেট্রি সারণি থেকে **একটি শ্রেণি বেছে নিন**।
+2. নিজের পরীক্ষামূলক সিস্টেম বা অ্যাকাউন্টে **নিরাপদ সংস্করণটি পুনরায় তৈরি করুন**।
+3. শ্রেণিটি যে **টেলিমেট্রি তৈরি করে তা সংগ্রহ করুন**।
+4. শনাক্তকরণের ধারণাটি নিয়ম, সংরক্ষিত অনুসন্ধান বা কুয়েরি হিসেবে **লিখুন**।
+5. অনুশীলনে নিয়মটি **পরীক্ষা করুন** এবং প্রত্যাশিত আচরণে সতর্কতা আসে কি না নিশ্চিত করুন।
+6. নিয়মের সীমা, এমনকি যে কার্যকলাপগুলো এটি শনাক্ত করে না, সেগুলোও **নথিবদ্ধ করুন**।
 
-The [Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/) covers the environment build in detail: licensing, network segmentation, log collection, and identity control testing. The [Mad Hat Cyber Range guide](https://madhat.io/pages/cyber-range-guide) expands the same idea into a workshop-grade build with an attack, detect, and defend exercise.
+[Microsoft SOC Home Lab গাইড](/articles/microsoft-soc-home-lab-2026/) পরিবেশ তৈরির বিস্তারিত ব্যাখ্যা করে: লাইসেন্স, নেটওয়ার্ক বিভাজন, লগ সংগ্রহ ও পরিচয় নিয়ন্ত্রণ পরীক্ষা। [Mad Hat Cyber Range গাইড](https://madhat.io/pages/cyber-range-guide) একই ধারণাকে কর্মশালার উপযোগী পরিবেশে প্রসারিত করে, যেখানে আক্রমণ, শনাক্তকরণ ও প্রতিরক্ষার অনুশীলন থাকে।
 
-For a consistent vocabulary, map the observed behavior to the relevant [MITRE ATT&CK technique](https://attack.mitre.org/). Treat the mapping as an analyst aid, not as proof of attribution. Keep the raw event, query, rule version, and known blind spots with the exercise record.
+একই পরিভাষা বজায় রাখতে পর্যবেক্ষণ করা আচরণকে সংশ্লিষ্ট [MITRE ATT&CK কৌশলের](https://attack.mitre.org/) সঙ্গে মেলান। এটিকে বিশ্লেষকের সহায়ক উপকরণ হিসেবে দেখুন, উৎস নির্ধারণের প্রমাণ হিসেবে নয়। অনুশীলনের রেকর্ডের সঙ্গে কাঁচা ঘটনা, কুয়েরি, নিয়মের সংস্করণ এবং জানা অন্ধস্থান সংরক্ষণ করুন।
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
-  Read the Microsoft SOC Home Lab Guide
+  Microsoft SOC Home Lab গাইড পড়ুন
 {{< /centerbutton >}}
 
 ______
 
-## পরবর্তী ধাপ
+## পরবর্তী পদক্ষেপ
 
-Start with one category and one exercise. Add a second category after you complete and document the first. The goal is depth on a single investigation, not a checklist of tools.
+একটি শ্রেণি ও একটি অনুশীলন দিয়ে শুরু করুন। প্রথমটি শেষ করে নথিবদ্ধ করার পর দ্বিতীয় শ্রেণি যোগ করুন। লক্ষ্য একটি তদন্ত গভীরভাবে বোঝা, টুলের তালিকা তৈরি করা নয়।
 
-- **[Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/)** builds the environment for these exercises.
-- **[Building an IT home lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** covers the infrastructure layer underneath a security lab.
-- **[IT resume writing tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** shows how to present a documented lab as practical experience.
-- **[The top five cyber attack vectors and mitigations](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** narrows the list to the vectors seen most often.
+- **[Microsoft SOC Home Lab গাইড](/articles/microsoft-soc-home-lab-2026/)** এসব অনুশীলনের পরিবেশ তৈরি করে।
+- **[ঘরোয়া IT ল্যাব তৈরি](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** নিরাপত্তা ল্যাবের পেছনের অবকাঠামো ব্যাখ্যা করে।
+- **[IT রিজিউমে লেখার পরামর্শ](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** নথিবদ্ধ ল্যাবকে ব্যবহারিক অভিজ্ঞতা হিসেবে দেখানোর উপায় জানায়।
+- **[শীর্ষ পাঁচ সাইবার আক্রমণ ভেক্টর ও প্রতিরোধের উপায়](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** তালিকাকে সবচেয়ে বেশি দেখা ভেক্টরগুলোতে সীমিত করে।
 
-**Source material:** the attack categories and their subtypes follow [CrowdStrike's overview of common cyberattacks](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) by Kurt Baker. Product and reference links point to Microsoft documentation.
+**তথ্যসূত্র:** আক্রমণের শ্রেণি ও উপধরন Kurt Baker-এর [সাধারণ সাইবার আক্রমণ সম্পর্কে CrowdStrike-এর পর্যালোচনা](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) অনুসরণ করে। পণ্য ও রেফারেন্স লিংক Microsoft নথিতে যায়।

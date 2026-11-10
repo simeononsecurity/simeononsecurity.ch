@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC：スタートガイド"
 date: 2023-04-02
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "PowerShell Desired State Configuration (DSC)を使用して、安全でコンプライアンスに準拠した環境のためのシステム構成を自動化および管理する方法を説明します。"
 tags: ["パワーシェル", "ディスクロージャー", "コンフィギュレーションマネジメント", "オートメーション", "ウィンドウズ", "システム管理", "ベストプラクティス", "コンプライアンス", "セキュリティ", "インフラストラクチャー", "デブオプス", "サーバー構成", "テスト", "ギット", "ソースコントロール", "政府規制", "エヌアイエスティー", "CIS", "コンフィギュレーションドリフト", "カスタムリソース"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "スーパーヒーローのマントを羽織った自信に満ちたシステム管理者が、整然としたサーバーラックの横に立ち、片手にPowerShell DSCスクリプト、もう片手にWindowsロゴの入った盾を持ち、設定ドリフトやセキュリティ脅威からサーバーを守っている漫画のような画像です。"
 coverCaption: ""
 ---
@@ -75,7 +76,7 @@ DSCの設定とカスタムリソースは、常にGitのような**ソース管
 
 ### 設定をテストする
 
-**テストは、構成管理の重要な側面です。DSC 構成を展開する前に、**非本番環境**でテストし、期待通りに動作し、意図しない結果をもたらさないことを確認します。また、以下のようなツールを使用することができます。 [Pester](https://github.com/pester/Pester)DSCのコンフィギュレーションを自動テストするためのものです。
+**テスト**は構成管理の重要な要素です。DSC 構成を展開する前に、**非本番環境**でテストし、期待どおりに動作して意図しない結果を生まないことを確認してください。[Pester](https://github.com/pester/Pester) などのツールを使って、DSC 構成を自動テストすることもできます。
 
 ______
 

@@ -1,12 +1,13 @@
 ---
 title: "Handleiding voor beginners: Linux Command Line gebruiken voor cyberbeveiliging"
 date: 2023-03-13
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Leer hoe u de Linux-opdrachtregel kunt gebruiken voor cyberbeveiliging met basis- en geavanceerde commando's."
 tags: ["Linux", "Opdrachtregel", "Cyberbeveiliging", "Gids voor beginners", "Scannen van het netwerk", "Kwetsbaarheidstesten", "Analyse van malware", "Machtigingen", "Netwerkverkeer", "Processtatus", "Netwerkstatistieken", "Bestanden zoeken", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Beveiliging", "Penetratie testen", "Digitaal Forensisch Onderzoek"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "Een cartoonillustratie van een persoon met een capuchon op, zittend voor een computerscherm waarop de Linux-opdrachtregelinterface zichtbaar is, en met een vergrootglas in de hand om het aspect cyberbeveiliging weer te geven."
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Illustratie van een computerscherm met de Linux-opdrachtregelinterface en groene opdrachten op een donkere achtergrond. Er staan cyberbeveiligingselementen omheen, zoals digitale sloten en netwerklijnen."
 coverCaption: ""
 ---
 
@@ -139,6 +140,8 @@ In het bovenstaande voorbeeld stelt het commando de rechten van het bestand "fil
 
 
 ## Geavanceerde Linux commando's voor cyberbeveiliging
+
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagram van een Linux-terminal met nmap, netstat en find voor netwerkscans, procesbewaking en bestandsanalyse bij cyberbeveiligingstaken" >}}
 
 ### Network Mapper
 
@@ -282,7 +285,7 @@ ______
 
 Het gebruik van de Linux-opdrachtregel voor cyberbeveiliging kan voor beginners overweldigend zijn. Met de basis- en geavanceerde commando's die in deze gids worden beschreven, kunt u echter beginnen met het gebruik van de Linux CLI in uw voordeel bij cybersecurity. Denk eraan voorzichtig te zijn met het uitvoeren van commando's en goed te begrijpen wat elk commando doet voordat u het gebruikt.
 
-Voor meer informatie over het gebruik van Linux voor cyberbeveiliging kunt u de ** downloaden[Kali Linux](https://www.kali.org/downloads/) besturingssysteem, dat speciaal is ontworpen voor penetratietesten en digitaal forensisch onderzoek.
+Meer informatie over Linux voor cyberbeveiliging vindt u op de downloadpagina van **[Kali Linux](https://www.kali.org/downloads/)**, een besturingssysteem dat speciaal is ontworpen voor penetratietests en digitaal forensisch onderzoek.
 
 ## Conclusie
 

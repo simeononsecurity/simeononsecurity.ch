@@ -301,7 +301,7 @@ Bezpieczniejsza kolejność to:
 
 **Nieoczekiwany prompt zgody SSH:** Odrzuć prompt. Sprawdź nazwę procesu, sesję terminala, odcisk palca klucza, cel repozytorium oraz klucz hosta. Przeglądaj konfigurację klienta SSH przed ponowieniem próby.
 
-**Brak gniazda SSH Agent:** Upewnij się, że aplikacja desktopowa 1Password jest zainstalowana za pomocą wspieranego sposobu, że SSH Agent jest włączony oraz że klient używa gniazda specyficznego dla danej platformy. Oficjalna strona SSH Agent](https://www.1password.dev/ssh/agent) zawiera wymagania dotyczące systemów operacyjnych oraz linki do konfiguracji gniazd.
+**Brak gniazda SSH Agent:** Upewnij się, że aplikacja desktopowa 1Password jest zainstalowana za pomocą wspieranego sposobu, że SSH Agent jest włączony oraz że klient używa gniazda specyficznego dla danej platformy. [Oficjalna strona SSH Agent](https://www.1password.dev/ssh/agent) zawiera wymagania dotyczące systemów operacyjnych oraz linki do konfiguracji gniazd.
 
 **Uwierzytelnianie kluczem publicznym nie powiodło się:** Sprawdź wybrany klucz publiczny, konto zdalne, uprawnienia do repozytorium, klucz hosta oraz konfigurację SSH. Użyj porównania odcisków palców publicznych. Nie rozwiązuj błędu przez eksportowanie niezwiązanego klucza prywatnego.
 

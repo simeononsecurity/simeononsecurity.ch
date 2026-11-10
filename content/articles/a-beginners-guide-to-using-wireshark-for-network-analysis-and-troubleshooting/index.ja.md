@@ -1,6 +1,7 @@
 ---
 title: "Wiresharkをマスターする：ネットワーク解析のための包括的な初心者向けガイド"
 date: 2023-04-07
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "この詳細な初心者向けガイドで、ネットワーク分析やトラブルシューティングのためにWiresharkを効果的に使用する方法を発見してください。"
@@ -63,11 +64,31 @@ Wiresharkは、遅延、パケットロス、接続の問題など、さまざ�
 - 遅いネットワーク接続の特定：**パケット間のラウンドトリップタイム（RTT）を分析することにより、遅いネットワーク接続がネットワーク遅延またはアプリケーション遅延によって引き起こされているかどうかを判断します。TCPストリームグラフ機能を使用して、RTT値を視覚化し、ボトルネックの可能性を特定します。
 - 不正アクセスの検出：** IPアドレス、ポート、またはプロトコルに基づくパケットのフィルタリングによって、疑わしい活動や不正アクセスの試みがないか、ネットワークトラフィックを監視します。
 
+## 初心者向けのキャプチャ計画
+
+まず調査したい疑問を決め、短時間だけキャプチャします。対象の通信が流れるインターフェースで記録し、問題を再現したら停止します。時刻を付けて pcapng ファイルを保存してください。キャプチャには認証情報、個人データ、ホスト名、内部アドレスが含まれることがあります。機密記録として保管し、許可された相手だけに共有します。
+
+**キャプチャフィルター**は記録中に保存するパケットを減らします。**表示フィルター**は記録後にパケットを非表示にしますが、ファイルからは削除しません。両者の構文は異なります。Wireshark のガイドでは両方のフィルター言語を説明しています。
+
+| 目的 | 表示フィルター | 確認する内容 |
+|---|---|---|
+| **DNS の失敗** | `dns` | 問い合わせ名、応答コード、サーバーアドレス、応答時間。 |
+| **TCP 接続の開始** | `tcp.flags.syn == 1` | 対象エンドポイントの SYN、SYN-ACK、最後の ACK。 |
+| **再送** | `tcp.analysis.retransmission` | 方向、時刻、同じ経路で損失が繰り返されるか。 |
+| **1 台のホスト** | `ip.addr == 192.168.1.20` | 選択したホストとの送受信トラフィック。 |
+| **1 つのサービス** | `tcp.port == 443` | アプリケーションを決めつけず、選択した TCP ポートを確認。 |
+
+端末で `tshark -i <interface> -f "host 192.168.1.20" -w incident.pcapng` を実行すると、libpcap キャプチャフィルターを使って pcapng を保存します。`tshark -r incident.pcapng -Y "dns or tcp.analysis.retransmission"` は表示フィルターでファイルを読み込みます。許可されたテストの値に合わせて interface、アドレス、ファイル名を置き換えてください。
+
+パケットを選び、**Analyze > Follow** でプロトコルストリームを確認します。Wireshark は TCP、UDP、TLS、HTTP、HTTP/2、QUIC、WebSocket、SIP などのストリームに対応します。ストリームを追跡しても TLS は自動で復号されません。[Wireshark のストリームガイド](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) で範囲と制限を確認してください。
+
+**Expert Information** は手掛かりとして扱います。再送、重複パケット、形式不正パケットを、時刻、エンドポイント、インターフェースカウンター、アプリケーションログと照合してください。Wireshark の文書では、Expert Information は調査の出発点であり、障害の証明ではありません。
+
 ______
 
 ## 政府規制への対応
 
-のような特定の政府規制があります。 [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) and the [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html)は、機密情報を保護し、ネットワークセキュリティを維持することを組織に要求しています。Wiresharkは、ネットワークトラフィックを監視して不正アクセスやデータ漏洩を防ぐことで、こうした規制の遵守を支援します。
+[**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)や[**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html)などの政府規制は、組織に機密情報の保護とネットワークセキュリティの維持を求めています。Wiresharkは、ネットワークトラフィックを監視し、不正アクセスやデータ漏えいを検出することで、こうした規制への準拠を支援します。
 
 Wiresharkを使用してネットワークトラフィックをキャプチャおよび分析することは、法的および倫理的な考慮事項に該当する可能性があることに留意してください。ネットワーク解析のためにWiresharkを使用する前に、必ず適切な承認を得て、組織のポリシーと地域の法律を遵守してください。
 
@@ -85,6 +106,9 @@ ______
 2. [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/)
 3. [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 4. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+5. [Wireshark TShark マニュアル](https://www.wireshark.org/docs/man-pages/tshark.html)
+6. [Wireshark でプロトコルストリームを追跡する](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
+7. [Wireshark Expert Information](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvExpert.html)
 
 Wiresharkの機能をより深く理解するために、自分で練習して実験することを忘れないでください。使えば使うほど、ネットワークの特定と解決に熟達することができます。
 

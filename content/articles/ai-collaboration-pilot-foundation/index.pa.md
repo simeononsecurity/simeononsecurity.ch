@@ -1,35 +1,35 @@
 ---
 title: "AI ਏਜੰਟ ਗਵਰਨੈਂਸ ਪਾਇਲਟ: ਚਾਰਟਰ, ਅਧਿਕਾਰ ਅਤੇ ਟੈਸਟ"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "AI ਟੂਲ ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਪਾਇਲਟ ਦੀਆਂ ਭੂਮਿਕਾਵਾਂ, ਅਧਿਕਾਰਤ ਸਰੋਤ, ਨੀਤੀ ਟੈਂਪਲੇਟ ਅਤੇ ਸਵੀਕ੍ਰਿਤੀ ਟੈਸਟ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ।"
 genre: ["ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ", "ਟੀਮ ਸਹਿਯੋਗ", "ਸਾਫਟਵੇਅਰ ਇੰਜੀਨੀਅਰਿੰਗ"]
 tags: ["AI ਸਹਿਯੋਗ ਕੋਰਸ", "ਪਾਇਲਟ ਚਾਰਟਰ", "ਸਰੋਤ ਅਧਿਕਾਰ", "ਅਧਿਕਾਰ ਰਜਿਸਟਰ", "ਨੀਤੀ ਟੈਂਪਲੇਟ", "ਸਵੀਕ੍ਰਿਤੀ ਟੈਸਟ", "ਸਿੰਥੈਟਿਕ ਲੈਬ"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
-coverAlt: "ਸਾਈਬਰਸੁਰੱਖਿਆ workspace ਵਿੱਚ ਸਾਂਝੇ project work ਦੀ ਸਮੀਖਿਆ ਕਰਦੇ ਪੇਸ਼ੇਵਰਾਂ ਦਾ ਚਿੱਤਰ"
+coverAlt: "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਕਾਰਜਸਥਾਨ ਵਿੱਚ ਸਾਂਝੇ ਪ੍ਰੋਜੈਕਟ ਕੰਮ ਦੀ ਸਮੀਖਿਆ ਕਰਦੇ ਪੇਸ਼ੇਵਰਾਂ ਦਾ ਚਿੱਤਰ"
 coverCaption: ""
 ---
 
-[AI Collaboration Course ਤੇ ਵਾਪਸ ਜਾਓ](/ai-collaboration-course-start/)
+[AI ਸਹਿਯੋਗ ਕੋਰਸ ਵੱਲ ਵਾਪਸ ਜਾਓ](/ai-collaboration-course-start/)
 
-**ਮਨਜ਼ੂਰਸ਼ੁਦਾ pilot charter ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ**, connector installation ਨਾਲ ਨਹੀਂ। ਤੁਸੀਂ product owner, operations owner ਅਤੇ repository maintainer ਨਾਲ ਮਿਲ ਕੇ ਇੱਕ ਕਲਪਨਾਤਮਕ export service ਬਣਾਉਂਦੇ ਹੋ। ਇਹ ਕੰਮ ਦੋਹਾਂ implementation tracks ਤੋਂ ਪਹਿਲਾਂ, disposable repository ਅਤੇ workplace sandbox ਵਿੱਚ ਕਰੋ। ਉਦੇਸ਼ ਮਨਜ਼ੂਰਸ਼ੁਦਾ requirements ਨੂੰ suggestions ਅਤੇ implemented behavior ਤੋਂ ਵੱਖ ਕਰਨਾ ਹੈ।
+**ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਪਾਇਲਟ ਚਾਰਟਰ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ**, ਕਨੈਕਟਰ ਲਗਾਉਣ ਨਾਲ ਨਹੀਂ। ਤੁਸੀਂ ਉਤਪਾਦ ਮਾਲਕ, ਕਾਰਜ-ਸੰਚਾਲਨ ਮਾਲਕ ਅਤੇ ਰਿਪੋਜ਼ਟਰੀ ਰਖ-ਰਖਾਅ ਕਰਤਾ ਨਾਲ ਮਿਲ ਕੇ ਇੱਕ ਕਾਲਪਨਿਕ ਨਿਰਯਾਤ ਸੇਵਾ ਬਣਾਉਂਦੇ ਹੋ। ਕਿਸੇ ਵੀ ਲਾਗੂਕਰਨ ਰਾਹ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਕੰਮ ਅਸਥਾਈ ਰਿਪੋਜ਼ਟਰੀ ਅਤੇ ਕਾਰਜਸਥਾਨ ਦੇ ਜਾਂਚ ਮਾਹੌਲ ਵਿੱਚ ਕਰੋ। ਇਸਦਾ ਉਦੇਸ਼ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਲੋੜਾਂ ਨੂੰ ਸੁਝਾਵਾਂ ਅਤੇ ਲਾਗੂ ਕੀਤੇ ਵਰਤਾਅ ਤੋਂ ਵੱਖ ਕਰਨਾ ਹੈ।
 
 ## ਮੁੱਖ ਗੱਲਾਂ
 
-- **Authority** ਕਿਸੇ ਖਾਸ information type ਲਈ ਇੱਕ home ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ।
-- **Version evidence** ਕਿਸੇ answer ਦੇ ਪਿੱਛੇ ਮੌਜੂਦ sources ਦੀ ਪਛਾਣ ਕਰਦੀ ਹੈ।
-- **Access controls** instructions ਤੋਂ ਸੁਤੰਤਰ publication ਨੂੰ ਸੀਮਿਤ ਕਰਦੇ ਹਨ।
-- **Acceptance tests** rejected changes ਅਤੇ recovery ਨੂੰ ਸ਼ਾਮਲ ਕਰਦੇ ਹਨ।
+- **ਅਧਿਕਾਰਤ ਸਰੋਤ** ਦੱਸਦਾ ਹੈ ਕਿ ਹਰ ਜਾਣਕਾਰੀ ਕਿਸ ਥਾਂ ਤੋਂ ਮੰਨੀ ਜਾਵੇ।
+- **ਵਰਜਨ ਦੇ ਸਬੂਤ** ਜਵਾਬ ਲਈ ਵਰਤੇ ਸਰੋਤਾਂ ਦੀ ਪਛਾਣ ਕਰਦੇ ਹਨ।
+- **ਪਹੁੰਚ ਨਿਯੰਤਰਣ** ਹਦਾਇਤਾਂ ਤੋਂ ਵੱਖਰੇ ਤੌਰ ਤੇ ਪ੍ਰਕਾਸ਼ਨ ਨੂੰ ਰੋਕਦੇ ਹਨ।
+- **ਸਵੀਕ੍ਰਿਤੀ ਜਾਂਚਾਂ** ਰੱਦ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਅਤੇ ਬਹਾਲੀ ਨੂੰ ਵੀ ਪਰਖਦੀਆਂ ਹਨ।
 
 ## ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ
 
-**Prerequisites:** executable lab ਲਈ Python 3.10 ਜਾਂ ਬਾਅਦ ਦਾ version, GitHub access, ਅਤੇ live tests ਲਈ ਵੱਖਰੇ contributor ਅਤੇ reviewer users। Mixed track ਲਈ Confluence Cloud ਅਤੇ company-managed Jira Cloud sandbox ਵੀ ਚਾਹੀਦਾ ਹੈ। Customer data ਅਤੇ production credentials ਨੂੰ exercise ਤੋਂ ਬਾਹਰ ਰੱਖੋ।
+**ਪੂਰਵ-ਲੋੜਾਂ:** ਚਲਾਉਣਯੋਗ ਲੈਬ ਲਈ Python 3.10 ਜਾਂ ਨਵਾਂ ਵਰਜਨ, GitHub ਪਹੁੰਚ ਅਤੇ ਅਸਲ ਜਾਂਚਾਂ ਲਈ ਵੱਖਰੇ ਯੋਗਦਾਨਕਰਤਾ ਤੇ ਸਮੀਖਿਅਕ ਖਾਤੇ। ਮਿਲੇ-ਜੁਲੇ ਰਾਹ ਲਈ Confluence Cloud ਅਤੇ ਕੰਪਨੀ ਵੱਲੋਂ ਪ੍ਰਬੰਧਿਤ Jira Cloud ਜਾਂਚ ਮਾਹੌਲ ਵੀ ਲੋੜੀਂਦਾ ਹੈ। ਗਾਹਕਾਂ ਦਾ ਡਾਟਾ ਅਤੇ ਉਤਪਾਦਨ ਪ੍ਰਮਾਣ-ਪੱਤਰ ਅਭਿਆਸ ਵਿੱਚ ਨਾ ਵਰਤੋ।
 
-**ਅੰਦਾਜ਼ਿਤ ਸਮਾਂ:** 60 ਤੋਂ 90 ਮਿੰਟ। **ਮੁਸ਼ਕਲ:** introductory governance work। ਇਸ course ਦੇ approval rules ਅਤੇ retention values design choices ਹਨ, vendor defaults ਜਾਂ compliance guidance ਨਹੀਂ।
+**ਅੰਦਾਜ਼ਨ ਸਮਾਂ:** 60 ਤੋਂ 90 ਮਿੰਟ। **ਮੁਸ਼ਕਲ:** ਪ੍ਰਬੰਧਨ ਦੀ ਸ਼ੁਰੂਆਤੀ ਜਾਣ-ਪਛਾਣ। ਇਸ ਕੋਰਸ ਦੇ ਮਨਜ਼ੂਰੀ ਨਿਯਮ ਅਤੇ ਸੰਭਾਲ ਮਿਆਦਾਂ ਡਿਜ਼ਾਈਨ ਚੋਣਾਂ ਹਨ, ਵਿਕਰੇਤਾ ਦੀਆਂ ਮੂਲ ਸੈਟਿੰਗਾਂ ਜਾਂ ਕਾਨੂੰਨੀ ਪਾਲਣਾ ਦੀ ਸਲਾਹ ਨਹੀਂ।
 
-**Completion outcome:** ਤੁਹਾਡੇ ਕੋਲ charter, authority register, versioned policy ਅਤੇ negative tests ਦੀ ਯੋਜਨਾ ਹੁੰਦੀ ਹੈ। ਅਗਲੇ lessons platform controls ਬਣਾਉਂਦੇ ਹਨ ਅਤੇ observed denial evidence ਇਕੱਠਾ ਕਰਦੇ ਹਨ।
+**ਪੂਰਾ ਹੋਣ ਦਾ ਨਤੀਜਾ:** ਤੁਹਾਡੇ ਕੋਲ ਚਾਰਟਰ, ਅਧਿਕਾਰਤ ਸਰੋਤਾਂ ਦਾ ਰਜਿਸਟਰ, ਵਰਜਨ ਵਾਲੀ ਨੀਤੀ ਅਤੇ ਨਕਾਰਾਤਮਕ ਜਾਂਚਾਂ ਦੀ ਯੋਜਨਾ ਹੋਵੇਗੀ। ਅਗਲੇ ਪਾਠ ਪਲੇਟਫਾਰਮ ਨਿਯੰਤਰਣ ਬਣਾਉਂਦੇ ਅਤੇ ਅਸਲ ਇਨਕਾਰ ਦੇ ਸਬੂਤ ਇਕੱਠੇ ਕਰਦੇ ਹਨ।
 
 ## Pilot ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ
 
@@ -54,27 +54,27 @@ stop_conditions:
   - publication without revision-bound approval
 ```
 
-**ਲੋਕਾਂ ਨੂੰ roles ਨਾਲ ਜੋੜੋ** private roster ਵਿੱਚ। Overlapping roles ਨੂੰ ਸਪਸ਼ਟ ਤੌਰ ਤੇ ਦਰਜ ਕਰੋ। Contributor ਵੱਲੋਂ ਆਪਣੇ ਕੰਮ ਦੀ ਸਮੀਖਿਆ separation of duties ਸਾਬਤ ਨਹੀਂ ਕਰਦੀ। Shared exercise evidence ਨੂੰ role-based ਰੱਖੋ, account identifiers publish ਨਾ ਕਰੋ।
+**ਨਿੱਜੀ ਸੂਚੀ ਵਿੱਚ ਲੋਕਾਂ ਨੂੰ ਭੂਮਿਕਾਵਾਂ ਦਿਓ।** ਜੇ ਕਿਸੇ ਵਿਅਕਤੀ ਦੀਆਂ ਕਈ ਭੂਮਿਕਾਵਾਂ ਹਨ, ਤਾਂ ਇਹ ਸਪਸ਼ਟ ਲਿਖੋ। ਯੋਗਦਾਨਕਰਤਾ ਵੱਲੋਂ ਆਪਣੇ ਕੰਮ ਦੀ ਸਮੀਖਿਆ ਕਰਨਾ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਦੀ ਵੰਡ ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ। ਸਾਂਝੇ ਅਭਿਆਸ ਦੇ ਸਬੂਤ ਭੂਮਿਕਾ ਅਨੁਸਾਰ ਰੱਖੋ ਅਤੇ ਖਾਤਾ ਪਛਾਣਕਰਤਾ ਜਨਤਕ ਨਾ ਕਰੋ।
 
-**Synthetic service** retention configuration record ਦਿੰਦੀ ਹੈ। ਕੋਈ running deletion service ਨਹੀਂ ਦਿੱਤੀ ਗਈ। Seven ਅਤੇ thirty days ਕਲਪਨਾਤਮਕ requirements ਹਨ। Configuration ਵਾਪਸ ਕਰਨ ਨਾਲ deleted data restore ਨਹੀਂ ਹੁੰਦਾ।
+**ਕਾਲਪਨਿਕ ਸੇਵਾ** ਸੰਭਾਲ ਮਿਆਦ ਦੀ ਸੰਰਚਨਾ ਵਾਲਾ ਰਿਕਾਰਡ ਦਿੰਦੀ ਹੈ। ਚੱਲਣ ਵਾਲੀ ਮਿਟਾਉਣ ਸੇਵਾ ਸ਼ਾਮਲ ਨਹੀਂ। ਸੱਤ ਅਤੇ ਤੀਹ ਦਿਨ ਕਾਲਪਨਿਕ ਲੋੜਾਂ ਹਨ। ਸੰਰਚਨਾ ਪਹਿਲੀ ਹਾਲਤ ਵਿੱਚ ਵਾਪਸ ਕਰਨ ਨਾਲ ਮਿਟਿਆ ਡਾਟਾ ਮੁੜ ਨਹੀਂ ਆਉਂਦਾ।
 
 ## Authority ਰਜਿਸਟਰ ਕਰੋ
 
-| Source ID | GitHub-first home | Mixed-workplace home |
+| ਸਰੋਤ ID | GitHub ਮੁੱਖ ਰਾਹ | ਮਿਲਿਆ-ਜੁਲਿਆ ਕਾਰਜਸਥਾਨ ਰਾਹ |
 |---|---|---|
-| **MAP-01** | `docs/project-map.md` | Workplace references ਵਾਲਾ ਉਹੀ map |
-| **POL-01** | `policy.json` ਅਤੇ `docs/policy.md` | ਉਹੀ repository policy |
-| **REQ-17** | `requirement.json` | Confluence requirement page |
-| **RUN-04** | `runbook.md` | Confluence runbook page |
-| **PROP-042** | Issue ਅਤੇ proposal branch | Jira item ਅਤੇ fixed proposal attachment |
-| **DEC-12** | `docs/decisions/DEC-12.md` | Confluence decision register |
-| **Implementation** | Protected `config.json` | ਉਹੀ repository configuration |
+| **MAP-01** | `docs/project-map.md` | ਕਾਰਜਸਥਾਨ ਦੇ ਹਵਾਲਿਆਂ ਵਾਲਾ ਉਹੀ ਨਕਸ਼ਾ |
+| **POL-01** | `policy.json` ਅਤੇ `docs/policy.md` | ਰਿਪੋਜ਼ਟਰੀ ਦੀ ਉਹੀ ਨੀਤੀ |
+| **REQ-17** | `requirement.json` | Confluence ਦਾ ਲੋੜਾਂ ਵਾਲਾ ਪੰਨਾ |
+| **RUN-04** | `runbook.md` | Confluence ਦਾ ਕਾਰਜ-ਹਦਾਇਤਾਂ ਵਾਲਾ ਪੰਨਾ |
+| **PROP-042** | Issue ਅਤੇ ਪ੍ਰਸਤਾਵ ਸ਼ਾਖਾ | Jira ਕੰਮ-ਇਕਾਈ ਅਤੇ ਨਿਰਧਾਰਤ ਪ੍ਰਸਤਾਵ ਅਟੈਚਮੈਂਟ |
+| **DEC-12** | `docs/decisions/DEC-12.md` | Confluence ਦਾ ਫੈਸਲਾ ਰਜਿਸਟਰ |
+| **ਲਾਗੂਕਰਨ** | ਸੁਰੱਖਿਅਤ `config.json` | ਰਿਪੋਜ਼ਟਰੀ ਦੀ ਉਹੀ ਸੰਰਚਨਾ |
 
-**ਹਰ source ਲਈ location, owner, revision, status ਅਤੇ scope ਦਰਜ ਕਰੋ** `docs/project-map.md` ਵਿੱਚ। Repository commit IDs snapshots ਦੀ ਪਛਾਣ ਕਰਦੇ ਹਨ। Confluence numeric versions pages ਦੀ ਪਛਾਣ ਕਰਦੇ ਹਨ। Jira key work item ਦੀ ਪਛਾਣ ਕਰਦੀ ਹੈ, immutable description ਦੀ ਨਹੀਂ। Review ਨੂੰ fixed proposal export ਜਾਂ repository commit ਨਾਲ bind ਕਰੋ।
+**`docs/project-map.md` ਵਿੱਚ ਹਰ ਸਰੋਤ ਦੀ ਥਾਂ, ਮਾਲਕ, ਵਰਜਨ, ਸਥਿਤੀ ਅਤੇ ਦਾਇਰਾ ਦਰਜ ਕਰੋ।** ਰਿਪੋਜ਼ਟਰੀ ਦੇ commit ID ਸਨੈਪਸ਼ਾਟ ਦੀ ਪਛਾਣ ਕਰਦੇ ਹਨ। Confluence ਦੇ ਅੰਕ ਵਾਲੇ ਵਰਜਨ ਪੰਨਿਆਂ ਦੀ ਪਛਾਣ ਕਰਦੇ ਹਨ। Jira ਕੁੰਜੀ ਕੰਮ-ਇਕਾਈ ਦੱਸਦੀ ਹੈ, ਅਟੱਲ ਵੇਰਵਾ ਨਹੀਂ। ਸਮੀਖਿਆ ਨੂੰ ਨਿਰਧਾਰਤ ਪ੍ਰਸਤਾਵ ਨਿਰਯਾਤ ਜਾਂ ਰਿਪੋਜ਼ਟਰੀ commit ਨਾਲ ਜੋੜੋ।
 
-**Mixed-track repository copies snapshots ਹਨ**, requirement authority ਨਹੀਂ। Jira delivery schedule ਕਰਦਾ ਹੈ। GitHub implemented behavior ਦਰਜ ਕਰਦਾ ਹੈ। Confluence approved requirement wording ਦੀ ਮਾਲਕ ਹੈ। Chat summary ਕਦੇ ਵੀ ਵਾਧੂ authority ਨਹੀਂ ਬਣਦੀ।
+**ਮਿਲੇ-ਜੁਲੇ ਰਾਹ ਦੀਆਂ ਰਿਪੋਜ਼ਟਰੀ ਨਕਲਾਂ ਸਨੈਪਸ਼ਾਟ ਹਨ**, ਲੋੜਾਂ ਦੇ ਅਧਿਕਾਰਤ ਸਰੋਤ ਨਹੀਂ। Jira ਸਪੁਰਦਗੀ ਤੈਅ ਕਰਦਾ ਹੈ। GitHub ਲਾਗੂ ਕੀਤਾ ਵਰਤਾਅ ਦਰਜ ਕਰਦਾ ਹੈ। Confluence ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਲੋੜਾਂ ਦੀ ਲਿਖਤ ਦਾ ਸਰੋਤ ਹੈ। ਚੈਟ ਦਾ ਸਾਰ ਕਦੇ ਵਾਧੂ ਅਧਿਕਾਰਤ ਸਰੋਤ ਨਹੀਂ ਬਣਦਾ।
 
-## Shared policy publish ਕਰੋ
+## ਸਾਂਝੀ ਨੀਤੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ
 
 ```text
 POL-01 version 1
@@ -96,13 +96,13 @@ Exclude credentials, private prompts, and personal identifiers.
 Record exceptions, recovery steps, and the next accountable role.
 ```
 
-**Policy owner version 1 ਨੂੰ approve ਕਰਦਾ ਹੈ** adapters activate ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ। Charter ਅਤੇ approval reference ਨੂੰ DEC-12 ਵਿੱਚ store ਕਰੋ। Write-capable connector ਜੋੜਨ ਜਾਂ provider data handling ਬਦਲਣ ਲਈ ਇੱਕ ਹੋਰ review ਚਾਹੀਦਾ ਹੈ। Instructions behavior ਪ੍ਰਗਟ ਕਰਦੀਆਂ ਹਨ, ਜਦਕਿ platform permissions publication boundaries ਲਾਗੂ ਕਰਦੀਆਂ ਹਨ।
+**ਅਡੈਪਟਰ ਚਾਲੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਨੀਤੀ ਦਾ ਮਾਲਕ ਵਰਜਨ 1 ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ।** ਚਾਰਟਰ ਅਤੇ ਮਨਜ਼ੂਰੀ ਦਾ ਹਵਾਲਾ DEC-12 ਵਿੱਚ ਦਰਜ ਕਰੋ। ਲਿਖਣ ਦੀ ਪਹੁੰਚ ਵਾਲਾ ਕਨੈਕਟਰ ਜੋੜਨ ਜਾਂ ਪ੍ਰਦਾਤਾ ਵੱਲੋਂ ਡਾਟਾ ਸੰਭਾਲਣ ਦਾ ਤਰੀਕਾ ਬਦਲਣ ਲਈ ਨਵੀਂ ਸਮੀਖਿਆ ਲੋੜੀਂਦੀ ਹੈ। ਹਦਾਇਤਾਂ ਵਰਤਾਅ ਦੱਸਦੀਆਂ ਹਨ, ਜਦਕਿ ਪਲੇਟਫਾਰਮ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਪ੍ਰਕਾਸ਼ਨ ਦੀਆਂ ਹੱਦਾਂ ਲਾਗੂ ਕਰਦੀਆਂ ਹਨ।
 
-## Synthetic lab ਚਲਾਓ
+## ਕਾਲਪਨਿਕ ਲੈਬ ਚਲਾਓ
 
-**[Lab archive download ਕਰੋ](/downloads/ai-collaboration-lab.zip)** ਅਤੇ ਇਸਨੂੰ empty directory ਵਿੱਚ extract ਕਰੋ। ਇਹ baseline records, validator ਅਤੇ ten tests ਦਿੰਦਾ ਹੈ। ਕਿਸੇ external package, network call ਜਾਂ API key ਦੀ ਲੋੜ ਨਹੀਂ। ਇਸ lesson ਦੀ 2026-10-10 ਜਾਂਚ ਵੇਲੇ archive ਦਾ SHA-256 `d8aa9822747c71317d792eba3ab133ea6ebf124cb5a8537d09f2229ea2e571d1` ਸੀ। Extraction ਤੋਂ ਪਹਿਲਾਂ macOS ਤੇ `shasum -a 256 ai-collaboration-lab.zip`, Linux ਤੇ `sha256sum ai-collaboration-lab.zip`, ਜਾਂ PowerShell ਵਿੱਚ `Get-FileHash .\ai-collaboration-lab.zip -Algorithm SHA256` ਚਲਾਓ। ਪੂਰੇ digest ਦੀ ਤੁਲਨਾ ਕਰੋ। ਜੇ ਇਹ ਵੱਖਰਾ ਹੋਵੇ, ਰੁਕੋ ਅਤੇ ਨਵਾਂ reviewed archive ਅਤੇ digest ਲਵੋ। Digest downloaded bytes ਨੂੰ ਇਸ lesson ਨਾਲ ਮਿਲਾਉਂਦਾ ਹੈ। ਇਹ ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ ਕਿ archive ਕਿਸ ਨੇ publish ਕੀਤਾ।
+**[ਲੈਬ ਅਭਿਲੇਖ ਡਾਊਨਲੋਡ ਕਰੋ](/downloads/ai-collaboration-lab.zip)** ਅਤੇ ਇਸਨੂੰ ਖਾਲੀ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਖੋਲ੍ਹੋ। ਇਸ ਵਿੱਚ ਆਧਾਰ ਰਿਕਾਰਡ, ਜਾਂਚਕ ਅਤੇ ਦਸ ਟੈਸਟ ਹਨ। ਬਾਹਰੀ ਪੈਕੇਜ, ਨੈੱਟਵਰਕ ਕਾਲ ਜਾਂ API ਕੁੰਜੀ ਦੀ ਲੋੜ ਨਹੀਂ। 2026-10-10 ਨੂੰ ਇਸ ਪਾਠ ਦੀ ਜਾਂਚ ਵੇਲੇ ਅਭਿਲੇਖ ਦਾ SHA-256 `d8aa9822747c71317d792eba3ab133ea6ebf124cb5a8537d09f2229ea2e571d1` ਸੀ। ਖੋਲ੍ਹਣ ਤੋਂ ਪਹਿਲਾਂ macOS ਉੱਤੇ `shasum -a 256 ai-collaboration-lab.zip`, Linux ਉੱਤੇ `sha256sum ai-collaboration-lab.zip`, ਜਾਂ PowerShell ਵਿੱਚ `Get-FileHash .\ai-collaboration-lab.zip -Algorithm SHA256` ਚਲਾਓ। ਪੂਰੇ ਡਾਈਜੈਸਟ ਦੀ ਤੁਲਨਾ ਕਰੋ। ਜੇ ਇਹ ਵੱਖਰਾ ਹੋਵੇ, ਤਾਂ ਰੁਕੋ ਅਤੇ ਨਵਾਂ ਸਮੀਖਿਆ ਕੀਤਾ ਅਭਿਲੇਖ ਤੇ ਡਾਈਜੈਸਟ ਲਵੋ। ਡਾਈਜੈਸਟ ਡਾਊਨਲੋਡ ਕੀਤੇ ਬਾਈਟਾਂ ਦੀ ਇਸ ਪਾਠ ਨਾਲ ਤੁਲਨਾ ਕਰਦਾ ਹੈ। ਇਹ ਨਹੀਂ ਦੱਸਦਾ ਕਿ ਅਭਿਲੇਖ ਕਿਸ ਨੇ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ।
 
-Extracted directory ਵਿੱਚ terminal ਖੋਲ੍ਹੋ। macOS ਜਾਂ Linux ਤੇ `pwd` ਅਤੇ `python3 --version` ਚਲਾਓ। Windows PowerShell ਤੇ `Get-Location` ਅਤੇ `py -3 --version` ਚਲਾਓ। Directory ਵਿੱਚ `check.py`, `test_check.py` ਅਤੇ `baseline/` ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ, ਅਤੇ Python 3.10 ਜਾਂ ਬਾਅਦ ਦਾ version ਦਿਖਾਏ। ਹੇਠਾਂ ਦਿੱਤਾ command block POSIX shell, ਜਿਵੇਂ macOS Terminal, Linux ਜਾਂ Git Bash, ਵਰਤਦਾ ਹੈ।
+ਖੋਲ੍ਹੀ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਟਰਮੀਨਲ ਚਲਾਓ। macOS ਜਾਂ Linux ਉੱਤੇ `pwd` ਅਤੇ `python3 --version` ਵਰਤੋ। Windows PowerShell ਉੱਤੇ `Get-Location` ਅਤੇ `py -3 --version` ਵਰਤੋ। ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ `check.py`, `test_check.py` ਅਤੇ `baseline/` ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ, ਅਤੇ Python ਦਾ ਵਰਜਨ 3.10 ਜਾਂ ਨਵਾਂ ਹੋਵੇ। ਹੇਠਾਂ ਦਿੱਤੇ ਕਮਾਂਡ ਬਲਾਕ ਲਈ POSIX ਸ਼ੈੱਲ, ਜਿਵੇਂ macOS Terminal, Linux ਜਾਂ Git Bash, ਵਰਤੋ।
 
 ```bash
 python3 -m unittest discover -s . -v
@@ -111,52 +111,52 @@ python3 check.py capture --base baseline > candidate/context.json
 python3 check.py validate --base baseline --candidate candidate
 ```
 
-Expected final output:
+ਉਮੀਦ ਕੀਤਾ ਅੰਤਿਮ ਨਤੀਜਾ:
 
 ```text
 PASS: consistency only, human approval remains required
 ```
 
-**Editing ਦੌਰਾਨ `baseline/` ਨੂੰ unchanged ਰੱਖੋ** ਅਤੇ **`candidate/` ਵਿੱਚ ਕੰਮ ਕਰੋ**। Manifest policy ਅਤੇ requirement bytes ਨੂੰ hash ਕਰਦਾ ਹੈ। Hash content changes ਪਛਾਣਦਾ ਹੈ, identity ਜਾਂ approval ਨਹੀਂ। GitHub Actions lesson candidate ਦੀ baseline directory ਤੇ ਭਰੋਸਾ ਕਰਨ ਦੀ ਥਾਂ separately fetched protected base ਵਰਤਦਾ ਹੈ।
+**ਸੋਧ ਕਰਦੇ ਸਮੇਂ `baseline/` ਨੂੰ ਅਣਬਦਲਿਆ ਰੱਖੋ** ਅਤੇ **`candidate/` ਵਿੱਚ ਕੰਮ ਕਰੋ**। ਮੈਨੀਫੈਸਟ ਨੀਤੀ ਅਤੇ ਲੋੜਾਂ ਦੇ ਬਾਈਟਾਂ ਦਾ ਹੈਸ਼ ਬਣਾਉਂਦਾ ਹੈ। ਹੈਸ਼ ਸਮੱਗਰੀ ਦੀ ਤਬਦੀਲੀ ਦੱਸਦਾ ਹੈ, ਪਛਾਣ ਜਾਂ ਮਨਜ਼ੂਰੀ ਨਹੀਂ। GitHub Actions ਵਾਲਾ ਪਾਠ candidate ਦੀ ਆਧਾਰ ਡਾਇਰੈਕਟਰੀ ਉੱਤੇ ਭਰੋਸਾ ਕਰਨ ਦੀ ਬਜਾਏ ਸੁਰੱਖਿਅਤ ਅਧਾਰ ਨੂੰ ਵੱਖਰੇ ਤੌਰ ਤੇ ਲਿਆਉਂਦਾ ਹੈ।
 
-**ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ test evidence save ਕਰੋ।** POSIX shell ਵਿੱਚ `python3 -m unittest discover -s . -v > lab-tests.txt 2>&1` ਚਲਾਓ, ਫਿਰ ਤੁਰੰਤ `echo $?` ਚਲਾਓ। PowerShell ਵਿੱਚ `py -3 -m unittest discover -s . -v *> lab-tests.txt` ਚਲਾਓ, ਫਿਰ ਤੁਰੰਤ `$LASTEXITCODE` ਚਲਾਓ। Exit status `0`, `Ran 10 tests` ਅਤੇ `OK` passing local test ਦਾ ਸਮਰਥਨ ਕਰਦੇ ਹਨ। Saved `lab-tests.txt` ਖੋਲ੍ਹੋ ਅਤੇ ਇਸਨੂੰ private pilot packet ਵਿੱਚ ਰੱਖੋ। Nonzero status ਦੀ ਜਾਂਚ ਕਰੋ, ਭਾਵੇਂ ਆਖਰੀ ਦਿਖਦੀ line ਠੀਕ ਲੱਗੇ। Validator output ਨੂੰ ਵੱਖਰੇ `lab-validation.txt` ਵਿੱਚ save ਕਰੋ। `candidate/context.json` ਨੂੰ captured manifest ਵਜੋਂ ਰੱਖੋ।
+**ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਟੈਸਟ ਦੇ ਸਬੂਤ ਸੰਭਾਲੋ।** POSIX ਸ਼ੈੱਲ ਵਿੱਚ `python3 -m unittest discover -s . -v > lab-tests.txt 2>&1` ਚਲਾਓ ਅਤੇ ਤੁਰੰਤ `echo $?` ਵਰਤੋ। PowerShell ਵਿੱਚ `py -3 -m unittest discover -s . -v *> lab-tests.txt` ਚਲਾਓ ਅਤੇ ਤੁਰੰਤ `$LASTEXITCODE` ਵੇਖੋ। ਨਤੀਜਾ `0`, `Ran 10 tests` ਅਤੇ `OK` ਆਉਣਾ ਸਫਲ ਲੋਕਲ ਟੈਸਟ ਦਾ ਸਬੂਤ ਹੈ। `lab-tests.txt` ਖੋਲ੍ਹ ਕੇ ਨਿੱਜੀ ਪਾਇਲਟ ਪੈਕੇਟ ਵਿੱਚ ਰੱਖੋ। ਜੇ ਨਤੀਜਾ ਸਿਫ਼ਰ ਨਾ ਹੋਵੇ ਤਾਂ ਜਾਂਚ ਕਰੋ, ਭਾਵੇਂ ਆਖਰੀ ਦਿਖਦੀ ਲਾਈਨ ਠੀਕ ਲੱਗੇ। ਜਾਂਚਕ ਦਾ ਨਤੀਜਾ ਵੱਖਰੀ `lab-validation.txt` ਵਿੱਚ ਸੰਭਾਲੋ। `candidate/context.json` ਨੂੰ ਕੈਪਚਰ ਕੀਤਾ ਮੈਨੀਫੈਸਟ ਮੰਨ ਕੇ ਰੱਖੋ।
 
-**ਹਰ run ਲਈ fresh extraction ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ।** `cp -R baseline candidate` ਮੰਨਦਾ ਹੈ ਕਿ `candidate/` ਮੌਜੂਦ ਨਹੀਂ। Evidence save ਕਰਨ ਤੋਂ ਬਾਅਦ ਹੀ disposable candidate directory ਹਟਾਓ, ਜਾਂ ਨਵੀਂ empty directory ਵਿੱਚ archive extract ਕਰੋ। Existing candidate ਵਿੱਚ copy ਕਰਨ ਨਾਲ nested ਜਾਂ stale records ਬਣਦੇ ਹਨ।
+**ਹਰ ਵਾਰ ਨਵੀਂ ਕਾਪੀ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ।** `cp -R baseline candidate` ਮੰਨਦਾ ਹੈ ਕਿ `candidate/` ਪਹਿਲਾਂ ਮੌਜੂਦ ਨਹੀਂ। ਲੋੜੀਂਦੇ ਸਬੂਤ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ ਹੀ ਅਸਥਾਈ candidate ਡਾਇਰੈਕਟਰੀ ਹਟਾਓ, ਜਾਂ ਨਵੀਂ ਖਾਲੀ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਅਭਿਲੇਖ ਖੋਲ੍ਹੋ। ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ candidate ਵਿੱਚ ਨਕਲ ਕਰਨ ਨਾਲ ਅੰਦਰੂਨੀ ਜਾਂ ਪੁਰਾਣੇ ਰਿਕਾਰਡ ਬਣਦੇ ਹਨ।
 
-## Acceptance tests ਦੱਸੋ
+## ਸਵੀਕ੍ਰਿਤੀ ਜਾਂਚਾਂ ਨਿਰਧਾਰਤ ਕਰੋ
 
-| ਕੇਸ | ਉਮੀਦ ਕੀਤਾ reasoning | Evidence |
+| ਮਾਮਲਾ | ਉਮੀਦ ਕੀਤਾ ਤਰਕ | ਸਬੂਤ |
 |---|---|---|
-| **Approved change** | Consistent records ਅਤੇ human approval | Final revision, checks, review |
-| **Stale context** | Changed source bases ਨੂੰ reject ਕਰੋ | Old/new revisions ਅਤੇ failed check |
-| **Unauthorized write** | Contributor publication ਨੂੰ deny ਕਰੋ | Actor role, denial, unchanged revision |
-| **Cross-system conflict** | ਰੁਕੋ ਅਤੇ authority owner ਨੂੰ ਪੁੱਛੋ | Conflicting records ਅਤੇ resolution |
-| **Partial publication** | Delivery incomplete ਰੱਖੋ | Completed ਅਤੇ pending ledger rows |
-| **Access denial** | Privileged substitution ਤੋਂ ਬਿਨਾਂ ਰੁਕੋ | Source ID ਅਤੇ redacted denial |
-| **Recovery** | Reviewed restoration ਲਾਗੂ ਕਰੋ | Resulting revision ਅਤੇ read-back |
-| **Handoff** | Fresh session sources ਨੂੰ independently ਪੜ੍ਹੇ | New manifest ਅਤੇ pending action |
+| **ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਤਬਦੀਲੀ** | ਮੇਲ ਖਾਂਦੇ ਰਿਕਾਰਡ ਅਤੇ ਮਨੁੱਖੀ ਮਨਜ਼ੂਰੀ | ਅੰਤਿਮ ਵਰਜਨ, ਜਾਂਚਾਂ ਅਤੇ ਸਮੀਖਿਆ |
+| **ਪੁਰਾਣਾ ਸੰਦਰਭ** | ਬਦਲੇ ਸਰੋਤ-ਅਧਾਰ ਨੂੰ ਰੱਦ ਕਰੋ | ਪੁਰਾਣੇ ਅਤੇ ਨਵੇਂ ਵਰਜਨ, ਅਸਫਲ ਜਾਂਚ |
+| **ਬਿਨਾਂ ਮਨਜ਼ੂਰੀ ਲਿਖਣਾ** | ਯੋਗਦਾਨਕਰਤਾ ਦਾ ਪ੍ਰਕਾਸ਼ਨ ਰੋਕੋ | ਭੂਮਿਕਾ, ਇਨਕਾਰ ਅਤੇ ਅਣਬਦਲਿਆ ਵਰਜਨ |
+| **ਸਿਸਟਮਾਂ ਵਿਚਲਾ ਟਕਰਾਅ** | ਰੁਕੋ ਅਤੇ ਅਧਿਕਾਰਤ ਸਰੋਤ ਦੇ ਮਾਲਕ ਨੂੰ ਪੁੱਛੋ | ਟਕਰਾਉਂਦੇ ਰਿਕਾਰਡ ਅਤੇ ਹੱਲ |
+| **ਅਧੂਰਾ ਪ੍ਰਕਾਸ਼ਨ** | ਸਪੁਰਦਗੀ ਨੂੰ ਅਧੂਰਾ ਰੱਖੋ | ਪੂਰੀਆਂ ਅਤੇ ਬਾਕੀ ਰਜਿਸਟਰ ਕਤਾਰਾਂ |
+| **ਪਹੁੰਚ ਇਨਕਾਰ** | ਵੱਧ ਅਧਿਕਾਰ ਨਾਲ ਬਦਲਵਾਂ ਰਸਤਾ ਲਏ ਬਿਨਾਂ ਰੁਕੋ | ਸਰੋਤ ID ਅਤੇ ਸੰਵੇਦਨਸ਼ੀਲ ਵੇਰਵਿਆਂ ਤੋਂ ਰਹਿਤ ਇਨਕਾਰ |
+| **ਬਹਾਲੀ** | ਸਮੀਖਿਆ ਕੀਤੀ ਵਾਪਸੀ ਲਾਗੂ ਕਰੋ | ਨਤੀਜਾ ਵਰਜਨ ਅਤੇ ਮੁੜ ਪੜ੍ਹਤ |
+| **ਹਵਾਲਗੀ** | ਨਵਾਂ ਸੈਸ਼ਨ ਸਰੋਤਾਂ ਨੂੰ ਆਪਣੇ ਆਪ ਪੜ੍ਹੇ | ਨਵਾਂ ਮੈਨੀਫੈਸਟ ਅਤੇ ਬਾਕੀ ਕਾਰਵਾਈ |
 
-**ਇਹ outcomes expected ਹਨ**, article preparation ਦੀਆਂ observations ਨਹੀਂ। Sandbox evidence ਮਿਲਣ ਤੋਂ ਬਾਅਦ observed-result column ਜੋੜੋ। Plan-dependent controls ਗੁੰਮ ਹੋਣ ਤੇ case ਨੂੰ Blocked ਮਾਰਕ ਕਰੋ, Passed ਨਹੀਂ।
+**ਇਹ ਉਮੀਦ ਕੀਤੇ ਨਤੀਜੇ ਹਨ**, ਲੇਖ ਤਿਆਰ ਕਰਦੇ ਵੇਲੇ ਦੇਖੇ ਨਤੀਜੇ ਨਹੀਂ। ਜਾਂਚ ਮਾਹੌਲ ਤੋਂ ਸਬੂਤ ਮਿਲਣ ਮਗਰੋਂ ਵੇਖੇ ਨਤੀਜੇ ਵਾਲਾ ਕਾਲਮ ਜੋੜੋ। ਯੋਜਨਾ ਉੱਤੇ ਨਿਰਭਰ ਨਿਯੰਤਰਣ ਨਾ ਹੋਣ ਤੇ ਮਾਮਲੇ ਨੂੰ ਰੁਕਿਆ ਚਿੰਨ੍ਹਿਤ ਕਰੋ, ਪਾਸ ਨਹੀਂ।
 
-**Example local evidence row:** Actor: learner। Initial source: untouched supplied lab baseline। Action: `python3 -m unittest discover -s . -v` from a fresh extraction। Expected: ten passing tests। Supplied source test run ਵਿੱਚ observed: `Ran 10 tests` ਅਤੇ `OK`। Resulting source: unchanged baseline। Evidence file: private pilot packet ਵਿੱਚ `lab-tests.txt`। ਇਹ row checker behavior ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ। ਇਹ GitHub ਜਾਂ workplace permission claim ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੀ।
+**ਲੋਕਲ ਸਬੂਤ ਦੀ ਮਿਸਾਲ:** ਭੂਮਿਕਾ: ਸਿੱਖਿਆਰਥੀ। ਸ਼ੁਰੂਆਤੀ ਸਰੋਤ: ਦਿੱਤਾ ਹੋਇਆ ਅਣਬਦਲਿਆ ਲੈਬ ਅਧਾਰ। ਕਾਰਵਾਈ: ਨਵੀਂ ਕਾਪੀ ਵਿੱਚ `python3 -m unittest discover -s . -v` ਚਲਾਇਆ। ਉਮੀਦ: ਦਸ ਟੈਸਟ ਪਾਸ ਹੋਣ। ਦਿੱਤੇ ਸਰੋਤ ਦੇ ਟੈਸਟ ਵਿੱਚ ਨਤੀਜਾ: `Ran 10 tests` ਅਤੇ `OK`। ਨਤੀਜੇ ਵਾਲਾ ਸਰੋਤ: ਅਧਾਰ ਅਣਬਦਲਿਆ ਰਿਹਾ। ਸਬੂਤ ਫਾਈਲ: ਨਿੱਜੀ ਪਾਇਲਟ ਪੈਕੇਟ ਵਿੱਚ `lab-tests.txt`। ਇਹ ਮਿਸਾਲ ਸਿਰਫ਼ ਜਾਂਚਕ ਦੇ ਵਰਤਾਅ ਦਾ ਸਬੂਤ ਹੈ। ਇਹ GitHub ਜਾਂ ਕਾਰਜਸਥਾਨ ਦੀ ਪਹੁੰਚ ਬਾਰੇ ਦਾਅਵੇ ਦਾ ਸਬੂਤ ਨਹੀਂ।
 
-**Foundation gate:** module 2 ਤੋਂ ਪਹਿਲਾਂ reviewer ਨੂੰ charter, seven-source authority register, POL-01 version ਅਤੇ owner, ਅਤੇ expected evidence ਅਤੇ accountable role ਵਾਲੇ ਸਾਰੇ eight acceptance cases ਲੱਭਣੇ ਚਾਹੀਦੇ ਹਨ। Missing item ਨੂੰ Blocked ਮਾਰਕ ਕਰੋ। Relevant controls configure ਅਤੇ test ਹੋਣ ਤੱਕ platform denial rows ਨੂੰ Expected ਰੱਖੋ।
+**ਬੁਨਿਆਦੀ ਪੜਾਅ ਦੀ ਸ਼ਰਤ:** ਦੂਜਾ ਮੋਡੀਊਲ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਸਮੀਖਿਅਕ ਨੂੰ ਚਾਰਟਰ, ਸੱਤ ਸਰੋਤਾਂ ਵਾਲਾ ਅਧਿਕਾਰਤ ਸਰੋਤ ਰਜਿਸਟਰ, POL-01 ਦਾ ਵਰਜਨ ਅਤੇ ਮਾਲਕ, ਅਤੇ ਉਮੀਦ ਕੀਤੇ ਸਬੂਤ ਤੇ ਜ਼ਿੰਮੇਵਾਰ ਭੂਮਿਕਾ ਸਮੇਤ ਸਾਰੀਆਂ ਅੱਠ ਸਵੀਕ੍ਰਿਤੀ ਜਾਂਚਾਂ ਲੱਭਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਗੁੰਮ ਚੀਜ਼ ਨੂੰ ਰੁਕਿਆ ਚਿੰਨ੍ਹਿਤ ਕਰੋ। ਸੰਬੰਧਤ ਨਿਯੰਤਰਣ ਬਣਨ ਅਤੇ ਜਾਂਚੇ ਜਾਣ ਤੱਕ ਪਲੇਟਫਾਰਮ ਇਨਕਾਰ ਵਾਲੀਆਂ ਕਤਾਰਾਂ ਨੂੰ ਉਮੀਦਵਾਰ ਨਤੀਜਾ ਰੱਖੋ।
 
-## ਇੱਕ request ਦਾ walkthrough
+## ਇੱਕ ਬੇਨਤੀ ਕਿਵੇਂ ਅੱਗੇ ਵਧਦੀ ਹੈ
 
-**Illustrative request:** product colleague ਪੁੱਛਦਾ ਹੈ, “Keep synthetic exports for thirty days so our pilot reviewers have longer to inspect them.” ਤੁਹਾਡੇ ਕੋਲ request ਹੈ, approved requirement ਨਹੀਂ। ਪਹਿਲਾਂ requested outcome ਨੂੰ current service state ਤੋਂ ਵੱਖ ਕਰੋ।
+**ਮਿਸਾਲੀ ਬੇਨਤੀ:** ਉਤਪਾਦ ਟੀਮ ਦਾ ਸਾਥੀ ਪੁੱਛਦਾ ਹੈ, “ਸਾਡੇ ਪਾਇਲਟ ਸਮੀਖਿਅਕਾਂ ਨੂੰ ਨਿਰਯਾਤ ਕੀਤੀਆਂ ਕਾਲਪਨਿਕ ਫਾਈਲਾਂ ਵੇਖਣ ਲਈ ਹੋਰ ਸਮਾਂ ਦੇਣ ਵਾਸਤੇ ਉਨ੍ਹਾਂ ਨੂੰ ਤੀਹ ਦਿਨ ਰੱਖੋ।” ਤੁਹਾਡੇ ਕੋਲ ਬੇਨਤੀ ਹੈ, ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਲੋੜ ਨਹੀਂ। ਪਹਿਲਾਂ ਮੰਗੇ ਨਤੀਜੇ ਨੂੰ ਸੇਵਾ ਦੀ ਮੌਜੂਦਾ ਹਾਲਤ ਤੋਂ ਵੱਖ ਕਰੋ।
 
-**Baseline seven days ਕਹਿੰਦਾ ਹੈ।** REQ-17 approved value ਪਰਿਭਾਸ਼ਿਤ ਕਰਦਾ ਹੈ, configuration implemented value ਦਰਜ ਕਰਦੀ ਹੈ, ਅਤੇ RUN-04 operating procedure ਸਮਝਾਉਂਦਾ ਹੈ। Request proposed value ਲਿਆਉਂਦੀ ਹੈ। Summary ਵਿੱਚ thirty ਲਿਖਣ ਨਾਲ ਇਹਨਾਂ ਵਿੱਚੋਂ ਕੋਈ record update ਨਹੀਂ ਹੁੰਦਾ।
+**ਮੌਜੂਦਾ ਅਧਾਰ ਸੱਤ ਦਿਨ ਦੱਸਦਾ ਹੈ।** REQ-17 ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਮੁੱਲ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ, ਸੰਰਚਨਾ ਲਾਗੂ ਕੀਤਾ ਮੁੱਲ ਦਰਜ ਕਰਦੀ ਹੈ ਅਤੇ RUN-04 ਕਾਰਜ-ਵਿਧੀ ਸਮਝਾਉਂਦਾ ਹੈ। ਬੇਨਤੀ ਨਵਾਂ ਪ੍ਰਸਤਾਵਿਤ ਮੁੱਲ ਦਿੰਦੀ ਹੈ। ਸਾਰ ਵਿੱਚ ਤੀਹ ਲਿਖਣ ਨਾਲ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕੋਈ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦਾ।
 
-| ਸਵਾਲ | Pilot answer | Missing evidence |
+| ਸਵਾਲ | ਪਾਇਲਟ ਵਿੱਚ ਜਵਾਬ | ਗੁੰਮ ਸਬੂਤ |
 |---|---|---|
-| **ਕੀ ਬਦਲਦਾ ਹੈ?** | Synthetic export files ਦੀ retention | Product's fixed wording |
-| **ਕੀ unchanged ਰਹਿੰਦਾ ਹੈ?** | Production data, backups, legal holds | Owner confirmation of exclusions |
-| **Intent ਕੌਣ accept ਕਰਦਾ ਹੈ?** | Product owner | Revision-bound review |
-| **Operations ਕੌਣ accept ਕਰਦਾ ਹੈ?** | Operations owner | Cleanup ਅਤੇ recovery wording ਦੀ review |
-| **Delivery ਕੀ ਸਾਬਤ ਕਰਦੀ ਹੈ?** | Published records agree | Final read-back |
+| **ਕੀ ਬਦਲਦਾ ਹੈ?** | ਕਾਲਪਨਿਕ ਨਿਰਯਾਤ ਫਾਈਲਾਂ ਦੀ ਸੰਭਾਲ ਮਿਆਦ | ਉਤਪਾਦ ਮਾਲਕ ਦੀ ਨਿਰਧਾਰਤ ਲਿਖਤ |
+| **ਕੀ ਅਣਬਦਲਿਆ ਰਹਿੰਦਾ ਹੈ?** | ਉਤਪਾਦਨ ਡਾਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੋਕ | ਮਾਲਕ ਵੱਲੋਂ ਬਾਹਰ ਰੱਖੀਆਂ ਚੀਜ਼ਾਂ ਦੀ ਪੁਸ਼ਟੀ |
+| **ਇਰਾਦਾ ਕੌਣ ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ?** | ਉਤਪਾਦ ਮਾਲਕ | ਨਿਰਧਾਰਤ ਵਰਜਨ ਨਾਲ ਜੁੜੀ ਸਮੀਖਿਆ |
+| **ਕਾਰਜ-ਵਿਧੀ ਕੌਣ ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ?** | ਕਾਰਜ-ਸੰਚਾਲਨ ਮਾਲਕ | ਸਫ਼ਾਈ ਅਤੇ ਬਹਾਲੀ ਦੀ ਲਿਖਤ ਦੀ ਸਮੀਖਿਆ |
+| **ਸਪੁਰਦਗੀ ਦਾ ਸਬੂਤ ਕੀ ਹੈ?** | ਪ੍ਰਕਾਸ਼ਿਤ ਰਿਕਾਰਡਾਂ ਦਾ ਆਪਸ ਵਿੱਚ ਮੇਲ | ਅੰਤਿਮ ਮੁੜ ਪੜ੍ਹਤ |
 
-**Draft ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ bounded task ਲਿਖੋ।** Assistant ਨੂੰ affected records ਪਛਾਣਨ, exclusions ਬਚਾਉਣ ਅਤੇ unanswered questions ਦੀ ਸੂਚੀ ਦੇਣ ਲਈ ਕਹੋ। ਇਸਨੂੰ “update everything” ਨਾ ਕਹੋ, ਕਿਉਂਕਿ request write authority ਸਥਾਪਤ ਨਹੀਂ ਕਰਦੀ ਅਤੇ publication destinations ਨਹੀਂ ਦੱਸਦੀ।
+**ਮਸੌਦਾ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਸੀਮਿਤ ਕੰਮ ਲਿਖੋ।** ਸਹਾਇਕ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਰਿਕਾਰਡ ਪਛਾਣਨ, ਬਾਹਰ ਰੱਖੀਆਂ ਚੀਜ਼ਾਂ ਕਾਇਮ ਰੱਖਣ ਅਤੇ ਅਣਸੁਲਝੇ ਸਵਾਲ ਗਿਣਾਉਣ ਲਈ ਕਹੋ। “ਸਭ ਕੁਝ ਅਪਡੇਟ ਕਰੋ” ਨਾ ਕਹੋ, ਕਿਉਂਕਿ ਬੇਨਤੀ ਲਿਖਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੰਦੀ ਅਤੇ ਪ੍ਰਕਾਸ਼ਨ ਦੀਆਂ ਥਾਵਾਂ ਨਹੀਂ ਦੱਸਦੀ।
 
 ```text
 Prepare PROP-042 as a draft.
@@ -167,11 +167,11 @@ Do not approve, publish, or claim runtime verification.
 Return unresolved questions before proposed wording.
 ```
 
-**Expected reasoning:** draft thirty days ਨੂੰ proposed, seven ਨੂੰ current ਅਤੇ runtime deletion ਨੂੰ untested ਪਛਾਣਦਾ ਹੈ। ਜੇ ਇਹ request ਨੂੰ approved ਦੱਸੇ, ਤਾਂ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ task packet ਠੀਕ ਕਰੋ। ਇਹ drafting behavior ਜਾਂਚਦਾ ਹੈ, platform access ਨਹੀਂ।
+**ਉਮੀਦ ਕੀਤਾ ਤਰਕ:** ਮਸੌਦਾ ਤੀਹ ਦਿਨਾਂ ਨੂੰ ਪ੍ਰਸਤਾਵ, ਸੱਤ ਦਿਨਾਂ ਨੂੰ ਮੌਜੂਦਾ ਮੁੱਲ ਅਤੇ ਚੱਲਦੇ ਸਿਸਟਮ ਵਿੱਚ ਮਿਟਾਉਣ ਨੂੰ ਬਿਨਾਂ ਜਾਂਚਿਆ ਦਰਸਾਉਂਦਾ ਹੈ। ਜੇ ਇਹ ਬੇਨਤੀ ਨੂੰ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਦੱਸੇ, ਤਾਂ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਕੰਮ ਦਾ ਪੈਕੇਟ ਠੀਕ ਕਰੋ। ਇਹ ਮਸੌਦਾ ਬਣਾਉਣ ਦੇ ਵਰਤਾਅ ਦੀ ਜਾਂਚ ਹੈ, ਪਲੇਟਫਾਰਮ ਪਹੁੰਚ ਦੀ ਨਹੀਂ।
 
-## Approval ਨੂੰ meaningful ਬਣਾਓ
+## ਮਨਜ਼ੂਰੀ ਨੂੰ ਸਪਸ਼ਟ ਬਣਾਓ
 
-**Approval ਲਈ object ਚਾਹੀਦਾ ਹੈ।** Chat message ਵਿੱਚ “Looks good” reader ਨੂੰ ਅਸਪਸ਼ਟ ਛੱਡਦਾ ਹੈ ਕਿ owner ਨੇ retention value, wording, implementation ਜਾਂ ਪੂਰਾ delivery package ਮਨਜ਼ੂਰ ਕੀਤਾ ਹੈ। Proposal revision ਅਤੇ named review scope ਲਾਜ਼ਮੀ ਕਰੋ।
+**ਮਨਜ਼ੂਰੀ ਕਿਸੇ ਨਿਰਧਾਰਤ ਚੀਜ਼ ਲਈ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।** ਚੈਟ ਵਿੱਚ “ਠੀਕ ਲੱਗਦਾ ਹੈ” ਲਿਖਣ ਨਾਲ ਇਹ ਸਪਸ਼ਟ ਨਹੀਂ ਹੁੰਦਾ ਕਿ ਮਾਲਕ ਨੇ ਸੰਭਾਲ ਮਿਆਦ, ਲਿਖਤ, ਲਾਗੂਕਰਨ ਜਾਂ ਪੂਰਾ ਸਪੁਰਦਗੀ ਪੈਕੇਟ ਮਨਜ਼ੂਰ ਕੀਤਾ ਹੈ। ਪ੍ਰਸਤਾਵ ਦਾ ਵਰਜਨ ਅਤੇ ਸਮੀਖਿਆ ਦਾ ਦਾਇਰਾ ਨਿਰਧਾਰਤ ਕਰੋ।
 
 ```text
 Review object: PROP-042, revision 1
@@ -183,52 +183,52 @@ Conditions: operations review and protected implementation review
 Publication state: not published
 ```
 
-**ਇਹ illustrative review format ਹੈ**, completed approval ਨਹੀਂ। Real review evidence sandbox ਦੇ approved system ਵਿੱਚ ਰੱਖੋ। Copied role label reviewer ਦੀ identity ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ। Later lessons ਇਸ record ਨੂੰ native reviews ਅਤੇ publishing permissions ਨਾਲ ਜੋੜਦੇ ਹਨ।
+**ਇਹ ਸਮੀਖਿਆ ਦੇ ਰੂਪ ਦੀ ਮਿਸਾਲ ਹੈ**, ਪੂਰੀ ਹੋਈ ਮਨਜ਼ੂਰੀ ਨਹੀਂ। ਅਸਲ ਸਮੀਖਿਆ ਦੇ ਸਬੂਤ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਜਾਂਚ ਮਾਹੌਲ ਦੇ ਸਿਸਟਮ ਵਿੱਚ ਰੱਖੋ। ਨਕਲ ਕੀਤਾ ਭੂਮਿਕਾ-ਲੇਬਲ ਸਮੀਖਿਅਕ ਦੀ ਪਛਾਣ ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ। ਅਗਲੇ ਪਾਠ ਇਸ ਰਿਕਾਰਡ ਨੂੰ ਮੂਲ ਸਮੀਖਿਆਵਾਂ ਅਤੇ ਪ੍ਰਕਾਸ਼ਨ ਇਜਾਜ਼ਤਾਂ ਨਾਲ ਜੋੜਦੇ ਹਨ।
 
-**Wording ਬਦਲਣ ਤੇ review object ਬਦਲੋ।** Backup exception ਜੋੜਨਾ ਜਾਂ retention ਨੂੰ ਕਿਸੇ ਹੋਰ export category ਤੱਕ ਵਧਾਉਣਾ intent ਬਦਲਦਾ ਹੈ, ਭਾਵੇਂ number thirty ਰਹੇ। Amended package ਨੂੰ owners ਕੋਲ ਵਾਪਸ ਭੇਜੋ। ਵੱਖਰੀ wording ਲਈ ਪੁਰਾਣੀ approval ਨਾ ਰੱਖੋ।
+**ਲਿਖਤ ਬਦਲਣ ਤੇ ਸਮੀਖਿਆ ਵਾਲੀ ਚੀਜ਼ ਵੀ ਬਦਲੋ।** ਬੈਕਅੱਪ ਬਾਰੇ ਅਪਵਾਦ ਜੋੜਨਾ ਜਾਂ ਸੰਭਾਲ ਮਿਆਦ ਨੂੰ ਹੋਰ ਨਿਰਯਾਤ ਸ਼੍ਰੇਣੀ ਤੱਕ ਵਧਾਉਣਾ ਇਰਾਦਾ ਬਦਲਦਾ ਹੈ, ਭਾਵੇਂ ਗਿਣਤੀ ਤੀਹ ਹੀ ਰਹੇ। ਸੋਧਿਆ ਪੈਕੇਟ ਮਾਲਕਾਂ ਕੋਲ ਮੁੜ ਭੇਜੋ। ਬਦਲੀ ਲਿਖਤ ਲਈ ਪੁਰਾਣੀ ਮਨਜ਼ੂਰੀ ਨਾ ਵਰਤੋ।
 
-## Evidence strength ਦੀ ਤੁਲਨਾ ਕਰੋ
+## ਸਬੂਤ ਦੀ ਮਜ਼ਬੂਤੀ ਦੀ ਤੁਲਨਾ ਕਰੋ
 
-| Evidence | Useful conclusion | Unsupported conclusion |
+| ਸਬੂਤ | ਇਸ ਤੋਂ ਕੀ ਪਤਾ ਲੱਗਦਾ ਹੈ | ਕੀ ਸਾਬਤ ਨਹੀਂ ਹੁੰਦਾ |
 |---|---|---|
-| **Assistant summary** | Draft requested work ਨੂੰ describe ਕਰਦੀ ਹੈ | Owners approved it |
-| **Source hash** | Captured bytes supplied base ਨਾਲ match ਕਰਦੇ ਹਨ | Base is authorized |
-| **Owner review** | Named reviewer ਨੇ fixed scope accept ਕੀਤਾ | All records were published |
-| **Published read-back** | Records ਵਿੱਚ reviewed values ਹਨ | A deletion job ran correctly |
-| **Live denial test** | Tested role ਨੂੰ attempted action deny ਹੋਇਆ | Every bypass route is closed |
+| **ਸਹਾਇਕ ਦਾ ਸਾਰ** | ਮਸੌਦਾ ਮੰਗੇ ਕੰਮ ਦਾ ਵੇਰਵਾ ਦਿੰਦਾ ਹੈ | ਮਾਲਕਾਂ ਨੇ ਇਸਨੂੰ ਮਨਜ਼ੂਰ ਕੀਤਾ |
+| **ਸਰੋਤ ਹੈਸ਼** | ਦਰਜ ਬਾਈਟ ਦਿੱਤੇ ਆਧਾਰ ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਹਨ | ਆਧਾਰ ਅਧਿਕਾਰਤ ਹੈ |
+| **ਮਾਲਕ ਦੀ ਸਮੀਖਿਆ** | ਨਾਮਜ਼ਦ ਸਮੀਖਿਅਕ ਨੇ ਨਿਰਧਾਰਤ ਦਾਇਰਾ ਮਨਜ਼ੂਰ ਕੀਤਾ | ਸਾਰੇ ਰਿਕਾਰਡ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਏ |
+| **ਪ੍ਰਕਾਸ਼ਨ ਮਗਰੋਂ ਮੁੜ ਪੜ੍ਹਤ** | ਰਿਕਾਰਡਾਂ ਵਿੱਚ ਸਮੀਖਿਆ ਕੀਤੇ ਮੁੱਲ ਹਨ | ਮਿਟਾਉਣ ਵਾਲਾ ਕੰਮ ਠੀਕ ਚੱਲਿਆ |
+| **ਅਸਲ ਇਨਕਾਰ ਜਾਂਚ** | ਜਾਂਚੀ ਭੂਮਿਕਾ ਨੂੰ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਕਾਰਵਾਈ ਤੋਂ ਰੋਕਿਆ ਗਿਆ | ਹਰ ਬਦਲਵਾਂ ਰਾਹ ਬੰਦ ਹੈ |
 
-**ਆਪਣੇ claim ਲਈ ਲੋੜੀਂਦਾ evidence ਇਕੱਠਾ ਕਰੋ।** Local consistency pass acceptance matrix ਦੀ consistency row ਵਿੱਚ ਆਉਂਦਾ ਹੈ। ਇਹ approval ਜਾਂ permissions rows ਨੂੰ ਨਹੀਂ ਭਰਦਾ। Untested rows ਨੂੰ Not run ਅਤੇ unavailable controls ਨੂੰ Blocked ਮਾਰਕ ਕਰੋ।
+**ਆਪਣੇ ਦਾਅਵੇ ਲਈ ਲੋੜੀਂਦੇ ਸਬੂਤ ਇਕੱਠੇ ਕਰੋ।** ਲੋਕਲ ਇਕਸਾਰਤਾ ਜਾਂਚ ਸਵੀਕ੍ਰਿਤੀ ਸਾਰਣੀ ਦੀ ਇਕਸਾਰਤਾ ਕਤਾਰ ਵਿੱਚ ਆਉਂਦੀ ਹੈ। ਇਹ ਮਨਜ਼ੂਰੀ ਜਾਂ ਪਹੁੰਚ ਨਿਯੰਤਰਣ ਵਾਲੀਆਂ ਕਤਾਰਾਂ ਦਾ ਬਦਲ ਨਹੀਂ। ਬਿਨਾਂ ਜਾਂਚੀਆਂ ਕਤਾਰਾਂ ਨੂੰ “ਨਹੀਂ ਚਲਾਇਆ” ਅਤੇ ਅਣਉਪਲਬਧ ਨਿਯੰਤਰਣਾਂ ਨੂੰ “ਰੁਕਿਆ” ਦਰਜ ਕਰੋ।
 
-## Foundation packet ਪੂਰਾ ਕਰੋ
+## ਬੁਨਿਆਦੀ ਪੈਕੇਟ ਪੂਰਾ ਕਰੋ
 
-**ਇੱਕ ਛੋਟਾ packet ਦਿਓ** ਜਿਸਨੂੰ ਦੂਜਾ contributor ਤੁਹਾਡੇ conversation history ਤੋਂ ਬਿਨਾਂ ਸਮਝ ਸਕੇ। ਇਸਨੂੰ map ਦੇ ਨਾਲ sandbox ਵਿੱਚ ਰੱਖੋ।
+**ਇੱਕ ਛੋਟਾ ਪੈਕੇਟ ਦਿਓ** ਜਿਸਨੂੰ ਦੂਜਾ ਯੋਗਦਾਨਕਰਤਾ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਪੜ੍ਹੇ ਬਿਨਾਂ ਸਮਝ ਸਕੇ। ਇਸਨੂੰ ਨਕਸ਼ੇ ਦੇ ਨਾਲ ਜਾਂਚ ਮਾਹੌਲ ਵਿੱਚ ਰੱਖੋ।
 
-1. **Charter:** purpose, scope, exclusions, roles ਅਤੇ stop conditions।
-2. **Authority register:** ਹਰ information type ਲਈ owner ਅਤੇ revision method ਵਾਲਾ ਇੱਕ home।
-3. **Policy:** permitted input, permitted actions, publication boundary ਅਤੇ escalation route।
-4. **Acceptance matrix:** expected result, observation field, evidence reference ਅਤੇ reviewer।
-5. **Open questions:** ਹਰ unresolved item ਲਈ named owner ਅਤੇ blocked downstream action।
+1. **ਚਾਰਟਰ:** ਮਕਸਦ, ਦਾਇਰਾ, ਬਾਹਰ ਰੱਖੀਆਂ ਚੀਜ਼ਾਂ, ਭੂਮਿਕਾਵਾਂ ਅਤੇ ਰੁਕਣ ਦੀਆਂ ਸ਼ਰਤਾਂ।
+2. **ਅਧਿਕਾਰਤ ਸਰੋਤ ਰਜਿਸਟਰ:** ਹਰ ਜਾਣਕਾਰੀ ਕਿਸਮ ਲਈ ਇੱਕ ਸਰੋਤ, ਮਾਲਕ ਅਤੇ ਵਰਜਨ ਪਛਾਣਨ ਦਾ ਤਰੀਕਾ।
+3. **ਨੀਤੀ:** ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਇਨਪੁੱਟ, ਕਾਰਵਾਈਆਂ, ਪ੍ਰਕਾਸ਼ਨ ਹੱਦ ਅਤੇ ਮਸਲਾ ਉੱਪਰ ਭੇਜਣ ਦਾ ਰਾਹ।
+4. **ਸਵੀਕ੍ਰਿਤੀ ਸਾਰਣੀ:** ਉਮੀਦ ਕੀਤਾ ਨਤੀਜਾ, ਨਿਰੀਖਣ ਖਾਨਾ, ਸਬੂਤ ਹਵਾਲਾ ਅਤੇ ਸਮੀਖਿਅਕ।
+5. **ਖੁੱਲ੍ਹੇ ਸਵਾਲ:** ਹਰ ਅਣਸੁਲਝੀ ਗੱਲ ਲਈ ਜ਼ਿੰਮੇਵਾਰ ਮਾਲਕ ਅਤੇ ਰੁਕਿਆ ਅਗਲਾ ਕੰਮ।
 
-**Completion check:** reviewer ਨੂੰ packet ਦਿਓ ਅਤੇ ਪੁੱਛੋ ਕਿ thirty-day suggestion ਕਿੱਥੇ ਜਾਂਦੀ ਹੈ, ਇਸਨੂੰ ਕੌਣ approve ਕਰਦਾ ਹੈ ਅਤੇ delivery ਦਾ proof ਕੀ ਹੈ। ਜੇ oral explanation ਚਾਹੀਦੀ ਹੈ, packet revise ਕਰੋ। ਅਗਲਾ lesson ਇਹਨਾਂ decisions ਨੂੰ repository structure ਅਤੇ review boundaries ਵਿੱਚ ਬਦਲਦਾ ਹੈ।
+**ਪੂਰਾ ਹੋਣ ਦੀ ਜਾਂਚ:** ਸਮੀਖਿਅਕ ਨੂੰ ਪੈਕੇਟ ਦੇ ਕੇ ਪੁੱਛੋ ਕਿ ਤੀਹ ਦਿਨਾਂ ਦਾ ਸੁਝਾਅ ਕਿੱਥੇ ਦਰਜ ਹੁੰਦਾ ਹੈ, ਇਸਨੂੰ ਕੌਣ ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ ਅਤੇ ਸਪੁਰਦਗੀ ਦਾ ਸਬੂਤ ਕੀ ਹੈ। ਜੇ ਮੂੰਹੋਂ ਸਮਝਾਉਣਾ ਪਵੇ, ਪੈਕੇਟ ਸੋਧੋ। ਅਗਲਾ ਪਾਠ ਇਹ ਫੈਸਲੇ ਰਿਪੋਜ਼ਟਰੀ ਢਾਂਚੇ ਅਤੇ ਸਮੀਖਿਆ ਦੀਆਂ ਹੱਦਾਂ ਵਿੱਚ ਬਦਲਦਾ ਹੈ।
 
-## Troubleshooting ਅਤੇ backout
+## ਸਮੱਸਿਆ ਹੱਲ ਅਤੇ ਵਾਪਸੀ
 
-**Conflicting owners:** tools ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ authority scopes narrow ਕਰੋ। **Unexpected private data:** ਰੁਕੋ, record restrict ਕਰੋ ਅਤੇ organization ਦੀ incident process follow ਕਰੋ। **Unavailable permissions:** GitHub track ਵਰਤੋ ਜਾਂ approved workplace sandbox ਲਵੋ।
+**ਮਾਲਕਾਂ ਵਿੱਚ ਟਕਰਾਅ:** ਸਾਧਨ ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਅਧਿਕਾਰਤ ਸਰੋਤਾਂ ਦਾ ਦਾਇਰਾ ਸਪਸ਼ਟ ਕਰੋ। **ਅਣਉਮੀਦ ਨਿੱਜੀ ਡਾਟਾ:** ਰੁਕੋ, ਰਿਕਾਰਡ ਤੱਕ ਪਹੁੰਚ ਸੀਮਿਤ ਕਰੋ ਅਤੇ ਸੰਸਥਾ ਦੀ ਘਟਨਾ-ਕਾਰਵਾਈ ਵਿਧੀ ਅਪਣਾਓ। **ਲੋੜੀਂਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਉਪਲਬਧ ਨਹੀਂ:** GitHub ਰਾਹ ਵਰਤੋ ਜਾਂ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਕਾਰਜਸਥਾਨ ਜਾਂਚ ਮਾਹੌਲ ਲਵੋ।
 
-**Backout:** pilot adapters ਅਤੇ connectors deactivate ਕਰੋ, drafts archive ਕਰੋ ਅਤੇ production policy untouched ਛੱਡੋ। Owner review ਅਤੇ declared evidence-retention period ਤੋਂ ਬਾਅਦ ਹੀ synthetic artifacts delete ਕਰੋ। Failed-test evidence ਬਚਾ ਕੇ ਰੱਖੋ।
+**ਵਾਪਸੀ:** ਪਾਇਲਟ ਅਡੈਪਟਰ ਅਤੇ ਕਨੈਕਟਰ ਬੰਦ ਕਰੋ, ਮਸੌਦੇ ਸੰਭਾਲੋ ਅਤੇ ਉਤਪਾਦਨ ਨੀਤੀ ਨੂੰ ਨਾ ਬਦਲੋ। ਮਾਲਕ ਦੀ ਸਮੀਖਿਆ ਅਤੇ ਐਲਾਨੀ ਸਬੂਤ-ਸੰਭਾਲ ਮਿਆਦ ਤੋਂ ਬਾਅਦ ਹੀ ਕਾਲਪਨਿਕ ਫਾਈਲਾਂ ਮਿਟਾਓ। ਅਸਫਲ ਜਾਂਚਾਂ ਦੇ ਸਬੂਤ ਰੱਖੋ।
 
-## Exercise ਅਤੇ self-check
+## ਅਭਿਆਸ ਅਤੇ ਸਵੈ-ਜਾਂਚ
 
-**Export format ਲਈ authority register ਬਣਾਓ**, retention ਦੇ ਨਾਲ। ਦੱਸੋ ਕਿ ਇਸਨੂੰ ਕੌਣ approve ਕਰਦਾ ਹੈ, implementation ਕਿੱਥੇ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਕਿਹੜੀ revision review ਨੂੰ bind ਕਰਦੀ ਹੈ।
+**ਸੰਭਾਲ ਮਿਆਦ ਦੇ ਨਾਲ ਨਿਰਯਾਤ ਫਾਰਮੈਟ ਲਈ ਵੀ ਅਧਿਕਾਰਤ ਸਰੋਤ ਰਜਿਸਟਰ ਬਣਾਓ।** ਦੱਸੋ ਕਿ ਇਸਨੂੰ ਕੌਣ ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ, ਲਾਗੂਕਰਨ ਕਿੱਥੇ ਦਰਜ ਹੈ ਅਤੇ ਕਿਹੜਾ ਵਰਜਨ ਸਮੀਖਿਆ ਨਾਲ ਜੁੜਿਆ ਹੈ।
 
-**Expected reasoning:** product owner permitted formats approve ਕਰਦਾ ਹੈ। GitHub implemented behavior ਦਰਜ ਕਰਦਾ ਹੈ। Jira delivery coordinate ਕਰਦਾ ਹੈ। Meeting note ਜਾਂ generated summary requirement authority ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰਦੀ।
+**ਉਮੀਦ ਕੀਤਾ ਤਰਕ:** ਉਤਪਾਦ ਮਾਲਕ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਫਾਰਮੈਟ ਤੈਅ ਕਰਦਾ ਹੈ। GitHub ਲਾਗੂ ਕੀਤਾ ਵਰਤਾਅ ਦਰਜ ਕਰਦਾ ਹੈ। Jira ਸਪੁਰਦਗੀ ਦਾ ਤਾਲਮੇਲ ਕਰਦਾ ਹੈ। ਮੀਟਿੰਗ ਨੋਟ ਜਾਂ ਬਣਾਇਆ ਸਾਰ ਲੋੜਾਂ ਦਾ ਅਧਿਕਾਰਤ ਸਰੋਤ ਨਹੀਂ ਬਣਦਾ।
 
-## Primary references
+## ਮੁੱਖ ਹਵਾਲੇ
 
-- **GitHub controls:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)।
-- **Confluence controls:** [Content permissions](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/)。
-- **Jira controls:** [Permission schemes](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/)。
+- **GitHub ਨਿਯੰਤਰਣ:** [ਸੁਰੱਖਿਅਤ ਸ਼ਾਖਾਵਾਂ](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)।
+- **Confluence ਨਿਯੰਤਰਣ:** [ਸਮੱਗਰੀ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/)。
+- **Jira ਨਿਯੰਤਰਣ:** [ਇਜਾਜ਼ਤ ਯੋਜਨਾਵਾਂ](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/)。
 
 ## ਅਗਲੇ ਕਦਮ
 
-**[GitHub Repository Setup ਨਾਲ ਜਾਰੀ ਰੱਖੋ](/articles/ai-collaboration-github-repository/)**। Approved charter, map ਅਤੇ policy ਨੂੰ repository ਵਿੱਚ ਲੈ ਜਾਓ।
+**[GitHub ਰਿਪੋਜ਼ਟਰੀ ਸੈਟਅੱਪ ਨਾਲ ਜਾਰੀ ਰੱਖੋ](/articles/ai-collaboration-github-repository/)**। ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਚਾਰਟਰ, ਨਕਸ਼ਾ ਅਤੇ ਨੀਤੀ ਰਿਪੋਜ਼ਟਰੀ ਵਿੱਚ ਲਿਜਾਓ।

@@ -1,6 +1,7 @@
 ---
 title: "Os perigos de armazenar criptomoedas em exchanges: por que uma carteira de hardware é mais segura"
 date: 2023-02-12
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Este artigo discute os perigos de armazenar criptomoedas em bolsas, explicando por que é equivalente a armazenar dinheiro em um colchão e destaca os benefícios de usar uma carteira de hardware para armazenamento seguro."
@@ -48,7 +49,7 @@ ______
 
 ## Recomendações para carteiras de hardware
 
-Se você está pensando em comprar uma carteira de hardware, existem várias opções disponíveis. Duas opções populares e altamente cotadas são o [Trezor wallet](https://amzn.to/3xfyuEM) and the [Ledger wallet](https://amzn.to/3jSMyRE) **Essas carteiras oferecem um alto nível de segurança** e são fáceis de usar, tornando-as **uma ótima opção para investidores em criptomoedas**.
+Se você está pensando em comprar uma carteira de hardware, existem várias opções disponíveis. Duas opções populares e altamente cotadas são o [carteira Trezor](https://amzn.to/3xfyuEM) e [carteira Ledger](https://amzn.to/3jSMyRE) **Essas carteiras oferecem um alto nível de segurança** e são fáceis de usar, tornando-as **uma ótima opção para investidores em criptomoedas**.
 
 ______
 

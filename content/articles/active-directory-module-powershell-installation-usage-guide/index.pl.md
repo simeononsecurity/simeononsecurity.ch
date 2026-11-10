@@ -1,6 +1,7 @@
 ---
 title: "Mastering Active Directory Administration with PowerShell: Przewodnik instalacji i użytkowania"
 date: 2023-07-25
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Dowiedz się, jak skutecznie zainstalować i wykorzystać moduł Active Directory dla PowerShell, aby usprawnić zadania administracyjne Windows Active Directory."
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## Aktualne kontrole RSAT i PowerShell
+
+Microsoft udostępnia teraz moduł Active Directory za pośrednictwem Remote Server Administration Tools (RSAT). W obsługiwanych wersjach klienckich systemu Windows zainstaluj funkcję na żądanie z podwyższonej sesji PowerShell:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+W systemie Windows Server użyj udokumentowanej przez Microsoft procedury instalowania funkcji serwera:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Sprawdź moduł przed uruchomieniem poleceń administracyjnych:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+[Dokumentacja modułu ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) informuje, że RSAT udostępnia moduł i wymienia dostępne polecenia cmdlet. Użyj wersji odpowiedniej dla systemu operacyjnego hosta. PowerShell 7 wymaga uwzględnienia zgodności, dlatego przetestuj moduł na stacji roboczej spoza środowiska produkcyjnego przed zmianą istniejącego procesu administracyjnego.
+
+Zalecenie operacyjne: używaj `-WhatIf`, gdy obsługuje je polecenie cmdlet, ograniczaj zapytania parametrem `-Server`, gdy istotny jest konkretny kontroler domeny, i żądaj tylko uprawnień potrzebnych do zadania. PowerShell opisuje `-WhatIf` w dokumentacji [parametrów wspólnych](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Nie umieszczaj haseł w historii poleceń ani skryptach. Korzystaj z bezpiecznego [monitu Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), chronionego magazynu sekretów lub delegowanego konta usługi z udokumentowaną procedurą rotacji.
 
 ## Wnioski
 

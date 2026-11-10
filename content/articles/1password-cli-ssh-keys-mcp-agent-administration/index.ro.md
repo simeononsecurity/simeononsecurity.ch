@@ -196,13 +196,13 @@ op read "$PUBLIC_KEY_REF"
 
 **Rezultat așteptat, netestat:** O linie sintetică de cheie publică OpenSSH sau o valoare de cheie publică din câmpul confirmat. Numele câmpului placeholder de mai sus nu este o garanție privind eticheta câmpului din elementul dumneavoastră.
 
-Înregistrați cheia publică în contul Bitbucket aprobat, în depozitul Bitbucket sau în contul remote. Nu lipiți niciodată cheia privată corespunzătoare în Bitbucket. Ghidul SSH Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) recomandă, de asemenea, înregistrarea cheii de gazdă Bitbucket înainte de prima conexiune.
+Înregistrați cheia publică în contul Bitbucket aprobat, în depozitul Bitbucket sau în contul remote. Nu lipiți niciodată cheia privată corespunzătoare în Bitbucket. [Ghidul SSH Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) recomandă, de asemenea, înregistrarea cheii de gazdă Bitbucket înainte de prima conexiune.
 
 Pentru Bitbucket, preluați înregistrarea cheii de gazdă publicate și comparați înregistrarea cu o copie de încredere independentă înainte de a adăuga o linie în `~/.ssh/known_hosts`. Folosiți verificarea strictă a gazdei după ce comparația reușește. Nu acceptați o cheie de gazdă modificată în timpul unei execuții de agent.
 
 ### 4. Activare SSH interactiv
 
-Activați Agentul SSH 1Password în aplicația desktop. Configurați OpenSSH cu valoarea specifică platformei `IdentityAgent` sau `SSH_AUTH_SOCK` din ghidul oficial de configurare](https://www.1password.dev/ssh/get-started). Limitați primul test la un singur depozit sau la un singur cont non-producție.
+Activați Agentul SSH 1Password în aplicația desktop. Configurați OpenSSH cu valoarea specifică platformei `IdentityAgent` sau `SSH_AUTH_SOCK` din [ghidul oficial de configurare](https://www.1password.dev/ssh/get-started). Limitați primul test la un singur depozit sau la un singur cont non-producție.
 
 Pe macOS sau Linux, setați soclul din ghidul de configurare al platformei și rulați `ssh-add -l`. Pe Windows, folosiți configurația de tub numit (named-pipe) acceptată și verificați cheile disponibile prin interfața Agentului SSH 1Password sau printr-un test SSH Windows documentat. Nu prezentați `ssh-add -l` ca o comandă de verificare cross-platform.
 
@@ -301,7 +301,7 @@ Ordinea mai sigură este:
 
 **Prompt neașteptat de consimțământ SSH:** Refuzați promptul. Verificați numele procesului, sesiunea terminalului, amprenta cheii, ținta depozitului și cheia gazdei. Revizuiți configurația clientului SSH înainte de a reîncerca.
 
-**Lipsa soclului SSH Agent:** Confirmați că aplicația desktop 1Password este instalată printr-o metodă suportată, că SSH Agent este activat și că clientul utilizează soclul specific platformei. Pagina oficială a SSH Agent](https://www.1password.dev/ssh/agent) enumeră cerințele de sistem de operare și link-urile pentru configurarea soclului.
+**Lipsa soclului SSH Agent:** Confirmați că aplicația desktop 1Password este instalată printr-o metodă suportată, că SSH Agent este activat și că clientul utilizează soclul specific platformei. [Pagina oficială a SSH Agent](https://www.1password.dev/ssh/agent) enumeră cerințele de sistem de operare și link-urile pentru configurarea soclului.
 
 **Autentificarea cu cheie publică eșuează:** Verificați cheia publică selectată, contul de la distanță, permisiunea depozitului, cheia gazdei și configurația SSH. Folosiți o comparație a amprentei publice. Nu rezolvați eroarea exportând o cheie privată nerezonabilă.
 

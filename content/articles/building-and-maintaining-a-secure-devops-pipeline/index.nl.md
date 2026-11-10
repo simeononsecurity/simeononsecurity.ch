@@ -1,12 +1,13 @@
 ---
 title: "Een veilige DevOps-pijplijn bouwen en onderhouden: Beste praktijken en casestudies"
 date: 2023-02-25
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Leer in deze uitgebreide gids hoe u een veilige DevOps-pijplijn kunt bouwen en onderhouden aan de hand van best practices en voorbeelden uit de praktijk."
 tags: ["DevOps", "beveiliging", "pijpleiding", "voortdurende integratie", "continue levering", "automatisering", "containerisatie", "veilige codering", "scannen op kwetsbaarheden", "controle", "feedback", "versiebeheer", "toegangscontrole", "noodherstel", "bedrijfscontinuïteit", "casestudy", "Lente", "Django", "OWASP", "Netflix", "Capital One"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
-coverAlt: "Een cartoonbeeld van een schild dat een pijplijn beschermt met een slot en sleutel, omringd door verschillende DevOps-pijplijnstadia en beveiligingshulpmiddelen."
+cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
+coverAlt: "Abstracte digitale illustratie van een veilige DevOps-pijplijn, met visuele elementen voor codeontwikkeling, geautomatiseerde tests en implementatie tegen een donkere achtergrond met levendige kleuren."
 coverCaption: ""
 ---
 
@@ -113,9 +114,9 @@ Netflix is een streaming videodienst die een DevOps-pijplijn gebruikt om snel ni
 Capital One is een financiële dienstverlener die een DevOps-pijplijn gebruikt om nieuwe software-updates en functies aan zijn klanten te leveren. Om de veiligheid van zijn pijplijn te garanderen, gebruikt Capital One een aantal best practices, waaronder:
 
 - **Het gebruik van veilige codeerpraktijken en het uitvoeren van regelmatige codebeoordelingen**.
-    - Capital One heeft veilige coderingsnormen ontwikkeld op basis van best practices uit de sector, zoals OWASP. Ze voeren ook regelmatig codebeoordelingen uit om eventuele beveiligingsproblemen op te sporen en aan te pakken.
+    - Capital One heeft [veilige coderingsnormen](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) ontwikkeld op basis van best practices uit de sector, zoals OWASP. Ze voeren ook regelmatig codebeoordelingen uit om eventuele beveiligingsproblemen op te sporen en aan te pakken.
 - **Implementatie van geautomatiseerde beveiligingstests in de hele pijplijn**
-    - Capital One heeft een reeks geautomatiseerde tools voor beveiligingstests in hun DevOps-pijplijn geïmplementeerd, waaronder kwetsbaarhedenscanners en tools voor statische analyse. Ze gebruiken ook geautomatiseerde tests om ervoor te zorgen dat alle code voldoet aan hun normen voor veilig coderen.
+    - Capital One heeft een reeks geautomatiseerde tools voor beveiligingstests in hun DevOps-pijplijn geïmplementeerd, waaronder kwetsbaarhedenscanners en tools voor statische analyse. Ze gebruiken ook geautomatiseerde tests om ervoor te zorgen dat alle code voldoet aan hun [normen voor veilig coderen](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/).
 - Beveiligde containers gebruiken om applicaties te verpakken en te implementeren**
     - Capital One gebruikt containers voor het verpakken en implementeren van applicaties in hun DevOps-pijplijn. Ze hebben strenge beveiligingsmaatregelen ingevoerd rond hun containers, waaronder het gebruik van alleen betrouwbare bronnen en het regelmatig uitvoeren van kwetsbaarheidsscans.
 - **Het uitvoeren van regelmatige beveiligingsaudits en kwetsbaarheidsbeoordelingen**

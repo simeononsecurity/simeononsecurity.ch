@@ -1,171 +1,171 @@
 ---
-title: "Why Port Forwarding Doesn't Work on T-Mobile Home Internet"
+title: "Почему переадресация портов не работает в T-Mobile Home Internet"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port."
+description: "Узнайте об ограничениях переадресации портов в T-Mobile 5G Home Internet, NAT оператора и способах доступа к домашнему серверу без публичного входящего порта."
 genre: ["Networking", "Self-Hosted", "Network Security"]
-tags: ["T-Mobile Home Internet", "T-Mobile port forwarding", "5G Home Internet", "CGNAT", "carrier-grade NAT", "NAT", "remote access", "home server", "homelab", "T-Mobile gateway", "bridge mode", "dynamic IP", "public IPv4", "double NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "private networking", "inbound connections", "cellular internet"]
+tags: ["T-Mobile Home Internet", "переадресация портов T-Mobile", "5G Home Internet", "CGNAT", "NAT уровня оператора", "NAT", "удаленный доступ", "домашний сервер", "homelab", "шлюз T-Mobile", "режим моста", "динамический IP", "публичный IPv4", "двойной NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "частная сеть", "входящие соединения", "мобильный Интернет"]
 cover: "/img/cover/t-mobile-home-internet-port-forwarding.webp"
-coverAlt: "A home cellular gateway faces a distant tower and a shared network gate beside a glowing cloud connection."
+coverAlt: "Домашний шлюз сотовой связи соединяется с удаленной вышкой и общей сетевой границей, рядом показано яркое облачное соединение."
 coverCaption: ""
 ---
 
-**T-Mobile's consumer 5G Home Internet gateways** do not offer configurable port forwarding. Adding a rule to a second router does not change the carrier gateway's settings or create a public inbound route. T-Mobile also documents no bridge-mode toggle or adjustable network address translation (NAT) type. [T-Mobile gateway settings](https://www.t-mobile.com/support/home-internet/connect).
+**Потребительские шлюзы T-Mobile 5G Home Internet** не поддерживают настраиваемую переадресацию портов. Добавление правила на втором маршрутизаторе не меняет настройки шлюза оператора и не создает публичный входящий маршрут. T-Mobile также не документирует переключатель режима моста или настройку типа трансляции сетевых адресов (NAT). [Настройки шлюза T-Mobile](https://www.t-mobile.com/support/home-internet/connect).
 
-This article covers **cellular Home Internet**. Treat fiber and business products as separate services with their own documented capabilities.
+В этой статье рассматривается **мобильный Home Internet**. Оптоволоконный Интернет и бизнес-продукты считайте отдельными услугами с собственными документированными возможностями.
 
-## Главные выводы
+## Главное
 
-- **Identify the limit:** distinguish a gateway feature from upstream address translation.
-- **Inspect the path:** record where each address and port belongs.
-- **Compare alternatives:** match client access and protocol requirements to a hosting method.
-- **Write a decision:** produce a connection plan with a test and fallback.
+- **Определите ограничение:** отличайте функцию шлюза от трансляции адресов в сети оператора.
+- **Проследите маршрут:** запишите, какому устройству принадлежат каждый адрес и порт.
+- **Сравните альтернативы:** сопоставьте требования клиентов и протоколов со способом размещения сервиса.
+- **Зафиксируйте решение:** составьте план соединения с проверкой и запасным вариантом.
 
 ## Перед началом
 
-**Audience:** T-Mobile cellular Home Internet users trying to reach a home service from outside. **Prerequisites:** access to the server, its local network settings, and the supplied gateway's status information. A second Internet connection is useful for the final remote test.
+**Для кого:** пользователи мобильного T-Mobile Home Internet, которым нужен внешний доступ к домашней службе. **Требования:** доступ к серверу, его локальным настройкам сети и сведениям о состоянии поставленного шлюза. Для итоговой удаленной проверки пригодится второе Интернет-соединение.
 
-**Estimated effort:** 15–20 minutes to gather requirements and run local checks. Configuring a replacement access method takes additional time. **Difficulty:** beginner to intermediate. The objective is a justified connection choice, rather than another unused router rule.
+**Оценка времени:** 15–20 минут на сбор требований и локальные проверки. Настройка альтернативного способа доступа займет больше времени. **Сложность:** от начального до среднего уровня. Цель состоит в обоснованном выборе соединения, а не в добавлении еще одного неиспользуемого правила маршрутизатора.
 
-## Why a Local Port Rule Is Insufficient
+## Почему локального правила для порта недостаточно
 
-**Port forwarding** maps incoming traffic at a router to an internal destination. For a home server to receive unsolicited Internet traffic, the route must work through every relevant upstream device. A successful local connection proves the server is reachable inside your network, not from outside it.
+**Переадресация портов** направляет входящий трафик на маршрутизаторе к внутреннему получателю. Чтобы домашний сервер принимал незапрошенный трафик из Интернета, маршрут должен работать через каждое соответствующее устройство выше по цепочке. Успешное локальное соединение подтверждает доступность сервера внутри вашей сети, но не из Интернета.
 
-**Carrier-grade NAT (CGNAT)** adds address translation in the provider's network. Subscribers share public IPv4 capacity, while the provider controls the outer translation. RFC 6598 reserves **`100.64.0.0/10`** for shared address space used in this kind of deployment. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**NAT уровня оператора (CGNAT)** добавляет трансляцию адресов в сети поставщика. Абоненты совместно используют публичные ресурсы IPv4, а внешний уровень трансляции контролирует оператор. RFC 6598 резервирует **`100.64.0.0/10`** для общего адресного пространства, используемого в таких схемах. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
 
-**Gateway support and carrier NAT are separate issues.** T-Mobile's support page establishes the gateway restriction. CGNAT explains why configuring your own router is also insufficient when upstream translation sits outside your control. A missing port-forwarding menu alone does not reveal the full carrier network design.
+**Поддержка шлюза и NAT оператора относятся к разным вопросам.** Страница поддержки T-Mobile подтверждает ограничение шлюза. CGNAT объясняет, почему настройка собственного маршрутизатора также не помогает, если вышестоящая трансляция находится вне вашего контроля. Одно лишь отсутствие меню переадресации портов не раскрывает полную структуру сети оператора.
 
-**The practical outcome is a choice of connection model.** Use an overlay network for private access, an outbound tunnel for an HTTP service, or a hosted endpoint when outside users need public access. Test the chosen method from a separate network. Do not use a successful LAN request as evidence of external reachability.
+**На практике нужно выбрать модель соединения.** Для частного доступа используйте overlay-сеть, для службы HTTP настройте исходящий туннель, а для публичного доступа выберите размещенный извне endpoint. Проверьте выбранный способ из другой сети. Успешный запрос в локальной сети не доказывает доступность из Интернета.
 
-| Change | What it changes | What remains unresolved |
+| Изменение | Что меняется | Что остается нерешенным |
 |---|---|---|
-| **Rule on a second router** | Forwarding on your router | Carrier gateway and upstream route |
-| **Different DNS resolver** | Name resolution | Inbound connectivity |
-| **Dynamic DNS hostname** | A name following an address | A usable inbound path |
-| **Faster Wi-Fi** | Local wireless performance | Reachability from the Internet |
+| **Правило на втором маршрутизаторе** | Перенаправление на вашем маршрутизаторе | Шлюз оператора и вышестоящий маршрут |
+| **Другой DNS-резолвер** | Преобразование имен | Входящее соединение |
+| **Имя динамического DNS** | Имя, которое следует за адресом | Рабочий входящий маршрут |
+| **Более быстрый Wi-Fi** | Скорость локальной беспроводной сети | Доступность из Интернета |
 
-**Dynamic addressing** means an address changes over time. It is distinct from sharing an address through NAT. T-Mobile documents dynamic addressing and no consumer Home Internet option to change it to static on this support page. [T-Mobile connection limitations](https://www.t-mobile.com/support/home-internet/connect).
+**Динамическая адресация** означает, что адрес меняется со временем. Это не то же самое, что совместное использование адреса через NAT. T-Mobile документирует динамическую адресацию и на этой странице поддержки не описывает потребительскую возможность сменить Home Internet на статический адрес. [Ограничения соединений T-Mobile](https://www.t-mobile.com/support/home-internet/connect).
 
-## Trace the Address Ownership
+## Проследите, кто контролирует адреса
 
-In a **provider-NAT example**, the path has several independent boundaries:
+В **примере с NAT оператора** путь проходит через несколько независимых границ:
 
 ```text
-Remote client -> provider translation -> home gateway -> optional router -> server
-                   provider controls      home devices and local settings
+Удаленный клиент -> трансляция оператора -> домашний шлюз -> дополнительный маршрутизатор -> сервер
+                       контролирует оператор   домашние устройства и локальные настройки
 ```
 
-**An address visible to a website** describes the connection reaching the website. It does not establish an inbound mapping to your server. The CGN requirements document discusses mappings in terms of subscriber identity, external address, port, and time. [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
+**Адрес, который видит сайт**, описывает соединение, дошедшее до этого сайта. Он не подтверждает входящее сопоставление с вашим сервером. Требования CGN описывают сопоставления по идентификатору абонента, внешнему адресу, порту и времени. [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
 
-**Record the interface:** distinguish your server's local address, a second router's WAN address, the cellular gateway's reported address, and an external service's observation. Here, **WAN** means the upstream side of a router. An address without its interface label is weak diagnostic evidence.
+**Запишите интерфейс:** различайте локальный адрес сервера, WAN-адрес второго маршрутизатора, адрес в интерфейсе сотового шлюза и наблюдение внешней службы. Здесь **WAN** означает вышестоящую сторону маршрутизатора. Адрес без обозначения интерфейса дает мало диагностической информации.
 
-Consider this **illustrative observation**, using documentation addresses for the public side:
+Рассмотрите это **иллюстративное наблюдение** с документальными адресами для публичной стороны:
 
-| Observation point | Example reading | Interpretation |
+| Точка наблюдения | Пример | Интерпретация |
 |---|---|---|
-| **Server LAN** | `192.168.50.10` | Local destination |
-| **Second router WAN** | `192.168.12.20` | Another private network upstream |
-| **External IPv4 check** | `203.0.113.25` | Address seen outside |
+| **LAN сервера** | `192.168.50.10` | Локальный получатель |
+| **WAN второго маршрутизатора** | `192.168.12.20` | Выше находится еще одна частная сеть |
+| **Внешняя проверка IPv4** | `203.0.113.25` | Адрес, видимый извне |
 
-**Supported conclusion:** the second router is behind another private network. **Unsupported conclusion:** its WAN reading proves the exact carrier translation arrangement. Inspect the cellular gateway separately if its status page exposes the relevant address.
+**Обоснованный вывод:** второй маршрутизатор находится за другой частной сетью. **Необоснованный вывод:** его WAN-адрес точно показывает схему трансляции оператора. Отдельно проверьте сотовый шлюз, если его страница состояния показывает нужный адрес.
 
-**Address-space clue:** a provider-facing address in `100.64.0.0/10` is shared address space. Record which interface reports it. A private-network tool also assigning addresses from this range would make an unlabeled screenshot ambiguous. The range itself is defined by [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**Подсказка по диапазону:** адрес на стороне оператора из `100.64.0.0/10` относится к общему адресному пространству. Запишите, какой интерфейс его показывает. Если средство частной сети тоже назначает адреса из этого диапазона, снимок экрана без подписей неоднозначен. Диапазон определен в [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
 
-## Check the Local Service
+## Проверьте локальную службу
 
-For an **HTTP dashboard**, run this request from another Linux or macOS device on your home network. Replace the example address and port with your server's values:
+Для **панели HTTP** выполните запрос с другого устройства Linux или macOS в домашней сети. Замените пример адреса и порт значениями сервера:
 
 ```bash
 curl --connect-timeout 5 --max-time 10 --output /dev/null --write-out '%{http_code}\n' http://192.168.50.10:8080/
 ```
 
-**`--connect-timeout`** bounds connection setup. **`--max-time`** bounds the whole request. **`--output`** discards the response body, and **`--write-out`** displays the HTTP status. These options are documented in the [curl manual](https://curl.se/docs/manpage.html).
+**`--connect-timeout`** ограничивает время установки соединения. **`--max-time`** ограничивает время всего запроса. **`--output`** отбрасывает тело ответа, а **`--write-out`** отображает HTTP-код. Эти параметры описаны в [руководстве curl](https://curl.se/docs/manpage.html).
 
-**Interpret the result:** an HTTP response, including an authentication response, shows an HTTP endpoint answered on this route. Confirm its identity in your browser. A timeout does not identify the failing layer. Inspect the listening address, port, and host firewall next.
+**Интерпретация результата:** HTTP-ответ, включая ответ с требованием аутентификации, показывает, что по этому маршруту ответил HTTP endpoint. Проверьте его подлинность в браузере. Тайм-аут не определяет неисправный уровень. Затем проверьте адрес прослушивания, порт и брандмауэр хоста.
 
-*This check applies to HTTP. A game using UDP needs a protocol-appropriate test.*
+*Эта проверка относится к HTTP. Для игры, использующей UDP, нужен соответствующий протоколу тест.*
 
-## Choose an Alternative Around the Service
+## Выберите альтернативу для службы
 
-**Private access** and **public hosting** have different requirements. Start by deciding who needs the connection and whether they are willing to install a client.
+**Частный доступ** и **публичный хостинг** предъявляют разные требования. Сначала решите, кому нужно подключение и готовы ли эти пользователи установить клиент.
 
-**TCP** transports an ordered stream over a connection. **UDP** transports individual datagrams. Hosting support must match the application's transport, even when two services use the same numeric port.
+**TCP** передает упорядоченный поток в рамках соединения. **UDP** передает отдельные датаграммы. Хостинг должен поддерживать транспорт приложения, даже если две службы используют один номер порта.
 
-| Need | Approach to evaluate | Main constraint |
+| Потребность | Вариант для оценки | Главное ограничение |
 |---|---|---|
-| **Your laptop reaching your home server** | Tailscale private network | Enroll devices and configure access rules |
-| **A private browser dashboard** | Cloudflare Tunnel plus Access | Configure the hostname and identity policy |
-| **A website for public visitors** | Public hosting or an appropriate tunnel | Review protocol, capacity, and service requirements |
-| **A game server for ordinary game clients** | Hosting with documented inbound port support | Match the game's TCP/UDP requirements |
+| **Ноутбук должен подключаться к домашнему серверу** | Частная сеть Tailscale | Регистрация устройств и настройка правил доступа |
+| **Частная панель в браузере** | Cloudflare Tunnel с Access | Настройка имени хоста и политики идентификации |
+| **Сайт для публичных посетителей** | Публичный хостинг или подходящий туннель | Проверка протокола, емкости и требований службы |
+| **Игровой сервер для обычных клиентов игры** | Хостинг с документированной поддержкой входящих портов | Соответствие требованиям игры к TCP/UDP |
 
-**Tailscale** attempts a direct connection and supports relayed connectivity when direct communication fails. This avoids relying on a manually forwarded home port, although the resulting path affects performance. Read the [Tailscale connection overview](https://tailscale.com/docs/reference/connection-types) and our [relay explainer](/articles/why-tailscale-uses-a-relay/).
+**Tailscale** пытается установить прямое соединение и поддерживает ретрансляцию, если прямая связь не удается. Это избавляет от ручной переадресации домашнего порта, хотя выбранный маршрут влияет на производительность. Прочитайте [обзор соединений Tailscale](https://tailscale.com/docs/reference/connection-types) и наше [объяснение ретрансляторов](/articles/why-tailscale-uses-a-relay/).
 
-**Cloudflare Tunnel** establishes an outbound connection from your server. For a private dashboard, pair it with an Access policy. A published hostname without the policy does not add an identity check. See [Tunnel connectivity](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) and [Tunnel vs Access](/articles/cloudflare-tunnel-vs-access/).
+**Cloudflare Tunnel** устанавливает исходящее соединение с вашего сервера. Для частной панели дополните его политикой Access. Опубликованное имя хоста без этой политики не добавляет проверку идентичности. См. [подключение через Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) и [сравнение Tunnel и Access](/articles/cloudflare-tunnel-vs-access/).
 
-**A VPN subscription alone** does not specify an inbound hosting arrangement. Before buying any service, verify its supported protocols, exposed ports, authentication options, and restrictions. For a game server, ask specifically about the game's required UDP ports.
+**Одна только подписка на VPN** не определяет способ входящего размещения сервиса. Перед покупкой проверьте поддерживаемые протоколы, открытые порты, способы аутентификации и ограничения. Для игрового сервера отдельно уточните обязательные UDP-порты игры.
 
-## What About IPv6?
+## Как насчет IPv6?
 
-**IPv6 addressing and inbound permission** are separate requirements. IPv6 reduces dependence on IPv4 address translation, while stateful gateway filtering still controls incoming connections. RFC 6092 describes residential IPv6 filtering, including handling unsolicited traffic. It does not document the settings on your T-Mobile gateway. [Residential IPv6 security recommendations](https://www.rfc-editor.org/rfc/rfc6092.html).
+**IPv6-адресация и разрешение входящего трафика** являются отдельными требованиями. IPv6 снижает зависимость от трансляции IPv4-адресов, но межсетевой экран с отслеживанием состояния на шлюзе продолжает контролировать входящие соединения. RFC 6092 описывает фильтрацию в домашних сетях IPv6, в том числе обработку незапрошенного трафика. RFC не описывает настройки вашего шлюза T-Mobile. [Рекомендации по безопасности домашнего IPv6](https://www.rfc-editor.org/rfc/rfc6092.html).
 
-**Evaluate the complete route:** the remote client needs IPv6 connectivity, the server needs an appropriate address and listener, and the network must permit the traffic. A successful IPv6 browsing test proves an outbound path. It does not prove an Internet client reaches your server.
+**Оцените весь маршрут:** удаленному клиенту нужна связь IPv6, серверу нужен подходящий адрес и слушающий процесс, а сеть должна разрешать трафик. Успешный просмотр сайта через IPv6 подтверждает исходящий маршрут. Это не доказывает, что Интернет-клиент сможет подключиться к серверу.
 
-| Evidence | What it establishes |
+| Доказательство | Что оно подтверждает |
 |---|---|
-| **An IPv6 address on the server** | An address is assigned to an interface |
-| **A successful outbound IPv6 request** | This client reached an external service |
-| **A remote application response** | The tested inbound application route works |
+| **IPv6-адрес на сервере** | Интерфейсу назначен адрес |
+| **Успешный исходящий запрос IPv6** | Клиент подключился к внешней службе |
+| **Ответ удаленного приложения** | Проверенный входящий маршрут приложения работает |
 
-**Decision rule:** choose IPv6 hosting only after confirming the complete inbound path and your clients' compatibility. Avoid treating an address assignment as a substitute for a remote application test.
+**Правило выбора:** используйте IPv6-хостинг только после проверки полного входящего маршрута и совместимости клиентов. Не считайте назначение адреса заменой удаленной проверке приложения.
 
-## Check the Application Before Changing the Network
+## Проверьте приложение до изменения сети
 
-Use these **diagnostic steps** to separate local failures from remote-access limits:
+Выполните эти **диагностические шаги**, чтобы отделить локальные сбои от ограничений удаленного доступа:
 
-1. **Local connection:** confirm another home device reaches the server's local address and intended port.
-2. **Service configuration:** confirm the application listens on the expected interface and the host firewall permits the intended client.
-3. **Audience:** decide whether access is private or public.
-4. **Remote test:** test the chosen tunnel or private-network connection from a different Internet connection.
-5. **Performance:** measure the actual workload after connectivity succeeds.
+1. **Локальное соединение:** проверьте, что другое домашнее устройство подключается к локальному адресу и нужному порту сервера.
+2. **Настройка службы:** убедитесь, что приложение слушает нужный интерфейс, а брандмауэр хоста разрешает выбранный клиент.
+3. **Аудитория:** определите, нужен частный или публичный доступ.
+4. **Удаленная проверка:** протестируйте туннель или частную сеть из другого Интернет-соединения.
+5. **Производительность:** измерьте реальную нагрузку после восстановления связи.
 
-**A failed local test** needs attention before choosing a remote-access service. Port forwarding would not repair an application listening on the wrong interface.
+**Неудачную локальную проверку** нужно устранить до выбора удаленной службы доступа. Переадресация портов не исправит приложение, слушающее не тот интерфейс.
 
-## Work Through a Hosting Choice
+## Выберите вариант размещения
 
-**Scenario:** you want to read a home dashboard while traveling, and two friends want to join a game server. Your dashboard is HTTP. The game requires UDP, and your friends want to use ordinary game clients without installing another network client.
+**Сценарий:** вы хотите пользоваться домашней панелью во время поездок, а двое друзей хотят подключаться к игровому серверу. Панель использует HTTP. Игре нужен UDP, а друзья хотят запускать обычные игровые клиенты без установки дополнительного сетевого клиента.
 
-**Separate the requirements.** A browser-based dashboard with a small identity list fits an authenticated web publishing arrangement. The game needs a public route supporting its required transport and clients. Solving the first requirement does not establish support for the second.
+**Разделите требования.** Для панели в браузере с небольшим списком пользователей подходит публикация веб-службы с проверкой личности. Игре нужен публичный маршрут, поддерживающий ее транспорт и клиенты. Решение первой задачи не подтверждает поддержку второй.
 
-| Requirement | Reasoned choice |
+| Требование | Обоснованный выбор |
 |---|---|
-| **Private dashboard in a browser** | Evaluate Tunnel plus Access |
-| **Personal access with enrolled devices** | Evaluate a private overlay network |
-| **Public UDP game clients** | Evaluate hosting with documented UDP reachability |
+| **Частная панель в браузере** | Оценить Tunnel вместе с Access |
+| **Личный доступ с зарегистрированных устройств** | Оценить частную overlay-сеть |
+| **Публичные игровые клиенты UDP** | Оценить хостинг с документированной доступностью UDP |
 
-**Review question:** would dynamic DNS make the game reachable through an unavailable inbound route? No. Updating a hostname does not create the required mapping or listener. Reject proposals addressing only the name while leaving the route unexplained.
+**Проверочный вопрос:** сделает ли динамический DNS игру доступной через отсутствующий входящий маршрут? Нет. Обновление имени хоста не создает нужное сопоставление или слушающий процесс. Отклоняйте предложения, которые меняют только имя, не объясняя маршрут.
 
-**Tradeoff to record:** moving the game to external hosting changes recurring cost and administration. Asking friends to join a private network changes their setup requirements. Choose after confirming which constraint is negotiable.
+**Запишите компромисс:** перенос игры на внешний хостинг добавляет регулярные расходы и обслуживание. Просьба к друзьям подключиться к частной сети меняет требования к их настройке. Выбирайте после определения того, какое ограничение можно изменить.
 
-## Build a Connection Plan
+## Составьте план соединения
 
-Create a **one-service plan** with these fields:
+Создайте **план для одной службы** со следующими полями:
 
 ```text
-Application and required TCP/UDP ports:
-People or devices needing access:
-Client installation acceptable:
-Local service test result:
-Inbound path available:
-Chosen access method:
-Authentication method:
-Remote test and success criterion:
-Fallback if the test fails:
+Приложение и нужные порты TCP/UDP:
+Пользователи или устройства, которым нужен доступ:
+Допустима ли установка клиента:
+Результат локальной проверки службы:
+Доступный входящий маршрут:
+Выбранный способ доступа:
+Способ аутентификации:
+Удаленная проверка и критерий успеха:
+Резервный вариант при неудаче:
 ```
 
-**Completion criterion:** every step from the remote client to the application has an identified owner and supported mechanism. For a home tunnel, include the connector. For external hosting, include the host's firewall and public listener. Leave unsupported assumptions visible until verified.
+**Критерий завершения:** для каждого этапа от удаленного клиента до приложения указаны ответственный и поддерживаемый механизм. Для домашнего туннеля укажите коннектор. Для внешнего хостинга укажите брандмауэр хоста и публичный порт прослушивания. Не скрывайте непроверенные предположения до их подтверждения.
 
 ## Следующие шаги
 
-For a browser dashboard, start with the [Cloudflare Tunnel setup guide](/guides/how-to-setup-and-use-cloudflare-tunnels/) and add Access. For broader service context, read the [T-Mobile Home Internet overview](/other/t-mobile-home-internet-benefits-connectivity-features/).
+Для панели в браузере начните с [руководства по настройке Cloudflare Tunnel](/guides/how-to-setup-and-use-cloudflare-tunnels/) и добавьте Access. Для общего обзора услуги прочитайте [описание T-Mobile Home Internet](/other/t-mobile-home-internet-benefits-connectivity-features/).

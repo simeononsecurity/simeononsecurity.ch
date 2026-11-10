@@ -1,6 +1,7 @@
 ---
 title: "Beveiliging van IoT-apparaten: Cyberbeveiligingsuitdagingen en -oplossingen"
 date: 2023-03-27
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Ontdek de impact van IoT op cyberbeveiliging en leer effectieve strategieën voor de beveiliging van uw aangesloten apparaten."
@@ -25,8 +26,8 @@ ______
 Nu IoT-apparaten steeds gewoner worden, worden ze ook een aantrekkelijk doelwit voor cybercriminelen. Dit komt door verschillende factoren:
 
 - **Grootschalige inzet**: Alleen al het aantal IoT-apparaten betekent dat er een groter aanvalsoppervlak is voor hackers om te exploiteren.
-- Gebrek aan beveiliging**: Veel IoT-apparaten zijn niet ontworpen met beveiliging in gedachten, waardoor ze kwetsbaar zijn voor aanvallen.
-- Interconnectiviteit**: Een aanval op één apparaat kan zich mogelijk verspreiden naar andere apparaten binnen een netwerk.
+- **Gebrek aan beveiliging**: Veel IoT-apparaten zijn niet ontworpen met beveiliging in gedachten, waardoor ze kwetsbaar zijn voor aanvallen.
+- **Interconnectiviteit**: Een aanval op één apparaat kan zich mogelijk verspreiden naar andere apparaten binnen een netwerk.
 
 De gevolgen van een inbreuk op de IoT-beveiliging kunnen ernstig zijn, van **datadiefstal** tot **fysieke schade** of zelfs **levensbedreigende situaties**.
 
@@ -61,6 +62,6 @@ ______
 
 ### Referenties
 
-1.[NIST - IoT Security](https://www.nist.gov/topics/internet-things-iot)
-2.[ISO/IEC 27400:2022 - IoT Security and Privacy Guidelines](https://www.iso.org/standard/44373.html)
+1. [NIST - IoT-beveiliging](https://www.nist.gov/topics/internet-things-iot)
+2. [ISO/IEC 27400:2022 - richtlijnen voor IoT-beveiliging en privacy](https://www.iso.org/standard/44373.html)
 

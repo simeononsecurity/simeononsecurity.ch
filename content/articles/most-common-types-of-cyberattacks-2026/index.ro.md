@@ -1,284 +1,284 @@
 ---
-title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
+title: "Cele mai frecvente tipuri de atacuri cibernetice și cum le detectezi"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
-genre: ["Cybersecurity", "Threat Detection", "Blue Team", "Security Operations", "Career Development"]
-tags: ["cyberattack types", "malware", "ransomware", "phishing", "spear phishing", "social engineering", "spoofing", "identity-based attacks", "credential stuffing", "password spraying", "SQL injection", "cross-site scripting", "supply chain attack", "insider threat", "DNS tunneling", "IoT attacks", "AI-powered attacks", "denial of service", "detection engineering", "SOC analyst", "blue team", "home lab", "log analysis", "incident response", "MITRE ATT&CK", "cybersecurity career", "threat hunting", "security operations center", "telemetry", "alert triage"]
+description: "Află care sunt tipurile frecvente de atacuri cibernetice, ce urme lasă în jurnale și telemetrie și exersează detectarea lor într-un laborator de securitate de acasă."
+genre: ["Securitate cibernetică", "Detectarea amenințărilor", "Blue Team", "Operațiuni de securitate", "Dezvoltare profesională"]
+tags: ["tipuri de atacuri cibernetice", "malware", "ransomware", "phishing", "spear phishing", "inginerie socială", "spoofing", "atacuri bazate pe identitate", "credential stuffing", "password spraying", "injecție SQL", "cross-site scripting", "atac asupra lanțului de aprovizionare", "amenințare internă", "tunelare DNS", "atacuri IoT", "atacuri bazate pe inteligență artificială", "refuzul serviciului", "ingineria detectării", "analist SOC", "Blue Team", "laborator de acasă", "analiza jurnalelor", "răspuns la incidente", "MITRE ATT&CK", "carieră în securitate cibernetică", "vânătoare de amenințări", "centru de operațiuni de securitate", "telemetrie", "trierea alertelor"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"
-coverAlt: "A digital illustration featuring colorful abstract icons symbolizing various cyberattack types like ransomware, phishing, and denial of service against a dark background."
+coverAlt: "Ilustrație digitală cu pictograme abstracte și colorate care simbolizează diferite tipuri de atacuri cibernetice, precum ransomware, phishing și refuzul serviciului, pe un fundal întunecat."
 coverCaption: ""
 ---
 
-An **attack type** is a category of technique, not a single tool. Ransomware, phishing, and credential stuffing each name a method an adversary repeats against many targets with minor variations. Learning the categories gives you a mental index for the alerts you will meet on a security team.
+**Un tip de atac** este o categorie de tehnici, nu un instrument singular. Ransomware, phishing și credential stuffing denumesc metode pe care un adversar le repetă împotriva multor ținte, cu variații minore. Cunoașterea acestor categorii îți oferă un reper pentru alertele pe care le vei întâlni într-o echipă de securitate.
 
-*Individual malware families appear and disappear within months. The attack categories below have stayed stable for years, and each one leaves a recognizable trail in endpoint, identity, network, or email telemetry.*
+*Familiile individuale de malware apar și dispar în câteva luni. Categoriile de atac de mai jos sunt stabile de ani întregi, iar fiecare lasă urme recognoscibile în telemetria endpointurilor, identităților, rețelei sau e-mailului.*
 
 <!--more-->
 
 ## Idei principale
 
-- **Learn the pattern, not the payload.** Attack categories change far slower than individual tools.
-- **Every category leaves evidence.** The detection work starts with knowing which telemetry records the activity.
-- **Reproduce an attack to understand it.** A home lab turns an abstract category into a recorded observation.
-- **Write up what you found.** A short investigation note proves the work and teaches you the evidence.
+- **Învață tiparul, nu încărcătura utilă.** Categoriile de atac se schimbă mult mai lent decât instrumentele individuale.
+- **Fiecare categorie lasă dovezi.** Detectarea începe prin identificarea telemetriei care înregistrează activitatea.
+- **Reproduce un atac ca să îl înțelegi.** Un laborator de acasă transformă o categorie abstractă într-o observație înregistrată.
+- **Notează ce ai găsit.** O scurtă notă de investigație dovedește munca și explică dovezile colectate.
 
-## The Attack Types at a Glance
+## Tipurile de atac, pe scurt
 
-The table below lists the categories security teams meet most often. Each later section describes the category, its common variants, and the data a defender reviews to find it.
+Tabelul de mai jos enumeră categoriile întâlnite cel mai des de echipele de securitate. Secțiunile următoare descriu fiecare categorie, variantele sale comune și datele pe care un apărător le examinează pentru a o detecta.
 
-| Attack type | What it does |
+| Tip de atac | Ce face |
 |---|---|
-| **Malware** | Runs malicious software such as ransomware, spyware, and trojans |
-| **Denial of service** | Floods a service with traffic until legitimate users lose access |
-| **Phishing** | Tricks a person into revealing credentials or running a malicious file |
-| **Spoofing** | Disguises an attacker as a trusted system, sender, or address |
-| **Identity-based attacks** | Abuses stolen or forged credentials to act as a valid user |
-| **Code injection** | Inserts malicious code into an application to change its behavior |
-| **Supply chain attacks** | Compromises a trusted vendor, library, or update channel |
-| **Social engineering** | Manipulates a person into taking an unsafe action |
-| **Insider threats** | Misuses access held by a current or former employee |
-| **DNS tunneling** | Encodes data inside DNS queries to move it past controls |
-| **IoT attacks** | Targets connected devices to pivot, spy, or join a botnet |
-| **AI-powered attacks** | Uses machine learning to generate content, impersonate people, or evade filters |
+| **Malware** | Rulează programe rău intenționate precum ransomware, spyware și troieni |
+| **Refuzul serviciului** | Inundă un serviciu cu trafic până când utilizatorii legitimi pierd accesul |
+| **Phishing** | Păcălește o persoană să divulge acreditări sau să ruleze un fișier rău intenționat |
+| **Spoofing** | Face atacatorul să pară un sistem, un expeditor sau o adresă de încredere |
+| **Atacuri bazate pe identitate** | Abuzează de acreditări furate sau falsificate pentru a acționa ca un utilizator valid |
+| **Injectarea de cod** | Inserează cod rău intenționat într-o aplicație pentru a-i schimba comportamentul |
+| **Atacuri asupra lanțului de aprovizionare** | Compromit un furnizor, o bibliotecă sau un canal de actualizare de încredere |
+| **Inginerie socială** | Manipulează o persoană să întreprindă o acțiune nesigură |
+| **Amenințări interne** | Abuzează de accesul unui angajat actual sau fost |
+| **Tunelare DNS** | Codifică date în interogări DNS pentru a ocoli controalele |
+| **Atacuri IoT** | Vizează dispozitive conectate pentru a se deplasa prin rețea, a spiona sau a intra într-o rețea bot |
+| **Atacuri bazate pe IA** | Folosesc învățarea automată pentru a genera conținut, a imita persoane sau a evita filtrele |
 
-**A note on scope:** these categories overlap. A phishing email often delivers malware, and a successful credential theft often precedes an identity-based attack. Treat the list as a set of lenses rather than rigid boxes.
+**Notă despre domeniu:** categoriile se suprapun. Un mesaj de phishing livrează adesea malware, iar furtul de acreditări precedă frecvent un atac bazat pe identitate. Privește lista ca pe un set de perspective, nu ca pe delimitări stricte.
 
 ______
 
 ## Malware
 
-**Malware** covers any program built to harm, control, or profit from a system. The term spans ransomware, fileless malware, spyware, adware, trojans, worms, rootkits, keyloggers, and botnets.
+**Malware** este orice program creat pentru a deteriora, controla sau exploata un sistem. Termenul include ransomware, malware fără fișiere, spyware, adware, troieni, viermi, rootkituri, keyloggere și rețele bot.
 
-| Subtype | Behavior |
+| Subtip | Comportament |
 |---|---|
-| **Ransomware** | Encrypts files and demands payment for the decryption key |
-| **Fileless malware** | Runs through built-in system tools and writes little to disk |
-| **Spyware** | Collects activity data without the user's knowledge |
-| **Trojan** | Poses as legitimate software to gain execution |
-| **Worm** | Copies itself across hosts without user action |
-| **Rootkit** | Hides inside the operating system to keep persistent control |
+| **Ransomware** | Criptează fișiere și cere bani pentru cheia de decriptare |
+| **Malware fără fișiere** | Folosește instrumente încorporate în sistem și scrie puțin pe disc |
+| **Spyware** | Colectează date despre activitate fără știrea utilizatorului |
+| **Troian** | Se prezintă drept software legitim pentru a fi executat |
+| **Vierme** | Se copiază între gazde fără intervenția utilizatorului |
+| **Rootkit** | Se ascunde în sistemul de operare pentru a păstra controlul persistent |
 
-**Where the evidence lives:** endpoint detection and response tools, or **EDR**, record process trees, command lines, file writes, and registry changes. Even a fileless attack produces process and script-block telemetry, because the operating system still launches the tools it abuses.
+**Unde găsești dovezile:** instrumentele de detectare și răspuns pentru endpointuri, sau **EDR**, înregistrează arborii de procese, liniile de comandă, scrierile de fișiere și modificările registrului. Chiar și un atac fără fișiere generează telemetrie de procese și scripturi, deoarece sistemul de operare pornește în continuare instrumentele exploatate de atac.
 
 ______
 
-## Denial of Service
+## Refuzul serviciului
 
-**A denial-of-service (DoS) attack** floods a target with requests until legitimate users lose access. **A distributed denial-of-service (DDoS) attack** repeats the same idea from many systems at once, which makes the traffic far harder to filter by source address.
+**Un atac de refuz al serviciului (DoS)** inundă o țintă cu solicitări până când utilizatorii legitimi pierd accesul. **Un atac distribuit de refuz al serviciului (DDoS)** repetă aceeași idee de pe multe sisteme simultan, ceea ce îngreunează filtrarea traficului după adresa sursă.
 
-| Trait | DoS | DDoS |
+| Caracteristică | DoS | DDoS |
 |---|---|---|
-| **Origin** | One system | Many systems |
-| **Blocking difficulty** | Moderate | High, since the sources span many networks |
-| **Typical impact** | Lost availability | Lost availability at larger scale |
+| **Origine** | Un sistem | Multe sisteme |
+| **Dificultatea blocării** | Moderată | Ridicată, deoarece sursele provin din multe rețele |
+| **Impact obișnuit** | Pierderea disponibilității | Pierderea disponibilității la scară mai mare |
 
-**Where the evidence lives:** traffic volume against a baseline, connection counts per source, request-rate spikes, and error-rate changes. Availability monitoring often alerts before the security team sees the event.
+**Unde găsești dovezile:** volumul traficului față de o referință, numărul de conexiuni per sursă, creșterea bruscă a ratei solicitărilor și schimbările ratei de eroare. Monitorizarea disponibilității declanșează adesea o alertă înainte ca echipa de securitate să observe evenimentul.
 
 ______
 
 ## Phishing
 
-**Phishing** uses email, text messages, phone calls, or social media to push a person toward revealing credentials or running a malicious attachment. The category splits by target and channel.
+**Phishingul** folosește e-mailuri, mesaje text, apeluri telefonice sau rețele sociale pentru a convinge o persoană să divulge acreditări ori să deschidă un atașament rău intenționat. Variantele se diferențiază după țintă și canal.
 
-| Variant | Target and channel |
+| Variantă | Țintă și canal |
 |---|---|
-| **Spear phishing** | A specific person or team, usually by email |
-| **Whaling** | Senior or executive staff, often to move money or data |
-| **Smishing** | Fraudulent text messages |
-| **Vishing** | Fraudulent phone calls or voice messages |
+| **Spear phishing** | O anumită persoană sau echipă, de obicei prin e-mail |
+| **Whaling** | Directori și angajați cu funcții înalte, adesea pentru a muta bani sau date |
+| **Smishing** | Mesaje text frauduloase |
+| **Vishing** | Apeluri sau mesaje vocale frauduloase |
 
-**Where the evidence lives:** mail-gateway logs, URL detonation results, attachment analysis, and user reports. A report from a cautious employee is one of the highest-value signals on this list.
+**Unde găsești dovezile:** jurnalele gateway-ului de e-mail, rezultatele analizei URL-urilor, analiza atașamentelor și rapoartele utilizatorilor. Raportarea unui angajat atent este unul dintre cele mai valoroase semnale din această listă.
 
 ______
 
 ## Spoofing
 
-**Spoofing** hides an attacker behind a trusted identity so a target accepts the connection, message, or address. The disguise buys time and defeats checks built around trust.
+**Spoofingul** ascunde atacatorul în spatele unei identități de încredere, astfel încât ținta să accepte conexiunea, mesajul sau adresa. Deghizarea câștigă timp și învinge verificările bazate pe încredere.
 
-| Type | What gets faked |
+| Tip | Ce se falsifică |
 |---|---|
-| **Domain spoofing** | A lookalike website or email domain impersonating a real brand |
-| **Email spoofing** | The sender address on a message |
-| **ARP spoofing** | A local network address, to intercept traffic between two hosts |
+| **Spoofing de domeniu** | Un site sau domeniu de e-mail asemănător, care imită un brand real |
+| **Spoofing de e-mail** | Adresa expeditorului unui mesaj |
+| **Spoofing ARP** | O adresă locală de rețea pentru a intercepta traficul dintre două gazde |
 
-**Where the evidence lives:** SPF, DKIM, and DMARC results in mail headers, domain registration age, certificate mismatches, and duplicate address warnings on a local network.
+**Unde găsești dovezile:** rezultatele SPF, DKIM și DMARC din antetele e-mailurilor, vechimea înregistrării domeniului, nepotriviri de certificate și alerte privind adrese duplicate în rețeaua locală.
 
 ______
 
-## Identity-Based Attacks
+## Atacuri bazate pe identitate
 
-**Identity-based attacks** use a valid account rather than a defect in software. The attacker holds a working credential, so the activity sits close to normal use and blends into the background. This category drives a large share of the alerts a **security operations center (SOC)** handles each day.
+**Atacurile bazate pe identitate** folosesc un cont valid în locul unei vulnerabilități software. Atacatorul are acreditări funcționale, așa că activitatea seamănă cu utilizarea normală și se pierde în zgomotul de fond. Această categorie generează o mare parte dintre alertele gestionate zilnic de un **centru de operațiuni de securitate (SOC)**.
 
-*If you practice one category in a home lab, choose this one. The signals are rich, the exercises repeat, and the setup stays small.*
+*Dacă exersezi o singură categorie într-un laborator de acasă, alege-o pe aceasta. Semnalele sunt bogate, exercițiile se repetă, iar configurarea rămâne simplă.*
 
-| Technique | What happens |
+| Tehnică | Ce se întâmplă |
 |---|---|
-| **Kerberoasting** | Requests a service ticket, then cracks the encrypted password offline |
-| **Man-in-the-middle (MITM)** | Sits between two parties to read or alter a session |
-| **Pass-the-hash** | Reuses a stolen password hash to open a new session |
-| **Golden ticket** | Forges a Kerberos ticket-granting ticket for broad domain access |
-| **Silver ticket** | Forges a service ticket for one specific service |
-| **Credential harvesting** | Collects usernames and passwords in bulk |
-| **Credential stuffing** | Replays one set of credentials across many unrelated sites |
-| **Password spraying** | Tries one common password across many accounts |
-| **Brute force** | Guesses many passwords against one account |
-| **Downgrade** | Forces a connection into a weaker protocol version |
+| **Kerberoasting** | Solicită un tichet de serviciu, apoi sparge offline parola criptată |
+| **Atacul omului din mijloc (MITM)** | Se așază între două părți pentru a citi sau modifica o sesiune |
+| **Pass-the-hash** | Refolosește un hash de parolă furat pentru a deschide o sesiune nouă |
+| **Golden ticket** | Falsifică un tichet Kerberos pentru acces extins la domeniu |
+| **Silver ticket** | Falsifică un tichet de serviciu pentru un serviciu anume |
+| **Colectarea acreditărilor** | Adună în masă nume de utilizator și parole |
+| **Credential stuffing** | Reîncearcă aceleași acreditări pe multe site-uri fără legătură între ele |
+| **Password spraying** | Încearcă o parolă uzuală pe multe conturi |
+| **Forță brută** | Încearcă multe parole pentru un singur cont |
+| **Retrogradare** | Forțează conexiunea să folosească o versiune mai slabă a protocolului |
 
-**Where the evidence lives:** sign-in records, failed-authentication counts, token anomalies, impossible-travel flags, and identity risk detections. **Adversary-in-the-middle (AiTM) phishing** belongs here too, because the attacker steals a live session token rather than a password, and the replay from unfamiliar infrastructure trips the identity risk engine.
+**Unde găsești dovezile:** înregistrări de autentificare, numărul autentificărilor eșuate, anomalii ale tokenurilor, alerte de deplasare imposibilă și detectări ale riscurilor de identitate. **Phishingul adversary-in-the-middle (AiTM)** aparține tot aici, deoarece atacatorul fură un token de sesiune activ în locul unei parole, iar reutilizarea lui dintr-o infrastructură necunoscută declanșează motorul de risc de identitate.
 
 ______
 
-## Code Injection
+## Injectarea de cod
 
-**Code injection** places attacker-controlled code inside a vulnerable application so the application runs it as part of normal work. The application, not the attacker, carries out the harmful action.
+**Injectarea de cod** plasează cod controlat de atacator într-o aplicație vulnerabilă, astfel încât aplicația să îl ruleze în cadrul activității obișnuite. Aplicația, nu atacatorul, efectuează acțiunea dăunătoare.
 
-| Type | Target |
+| Tip | Țintă |
 |---|---|
-| **SQL injection** | A database query built from unvalidated input |
-| **Cross-site scripting (XSS)** | A web page which renders attacker script in a visitor's browser |
-| **Malvertising** | A legitimate ad slot filled with malicious code |
-| **Data poisoning** | A training set for an AI or machine learning model |
+| **Injecție SQL** | O interogare a bazei de date construită din intrări nevalidate |
+| **Cross-site scripting (XSS)** | O pagină web care rulează scriptul atacatorului în browserul unui vizitator |
+| **Malvertising** | Un spațiu publicitar legitim umplut cu cod rău intenționat |
+| **Otrăvirea datelor** | Un set de antrenament pentru un model de IA sau învățare automată |
 
-**Where the evidence lives:** web application logs, database query records, content security policy reports, and request patterns which differ from normal application use.
-
-______
-
-## Supply Chain Attacks
-
-**A supply chain attack** targets a trusted third party whose product or service reaches many customers. A **software supply chain attack** injects malicious code into an application, library, or update so every user of the product receives it. A **hardware supply chain attack** compromises a physical component before it ships.
-
-*Modern software leans on third-party libraries, so one compromised dependency reaches far past the original vendor.*
-
-**Where the evidence lives:** software composition analysis, build-pipeline records, unexpected outbound connections from a trusted update, and integrity checks on shipped artifacts.
+**Unde găsești dovezile:** jurnalele aplicațiilor web, înregistrările interogărilor bazei de date, rapoartele politicii de securitate a conținutului și tiparele de solicitări care diferă de utilizarea normală a aplicației.
 
 ______
 
-## Social Engineering
+## Atacuri asupra lanțului de aprovizionare
 
-**Social engineering** uses psychological pressure to move a person toward an unsafe action. The attacker appeals to authority, urgency, fear, money, or trust.
+**Un atac asupra lanțului de aprovizionare** vizează o terță parte de încredere, al cărei produs sau serviciu ajunge la mulți clienți. **Un atac asupra lanțului de aprovizionare software** introduce cod rău intenționat într-o aplicație, bibliotecă sau actualizare, astfel încât toți utilizatorii produsului să îl primească. **Un atac asupra lanțului de aprovizionare hardware** compromite o componentă fizică înainte de expediere.
 
-| Technique | Approach |
+*Software-ul modern se bazează pe biblioteci terțe, așa că o singură dependență compromisă ajunge mult mai departe decât furnizorul inițial.*
+
+**Unde găsești dovezile:** analiza compoziției software, înregistrările pipeline-ului de build, conexiuni de ieșire neașteptate de la o actualizare de încredere și verificări de integritate pentru artefactele distribuite.
+
+______
+
+## Inginerie socială
+
+**Ingineria socială** folosește presiunea psihologică pentru a împinge o persoană spre o acțiune nesigură. Atacatorul apelează la autoritate, urgență, frică, bani sau încredere.
+
+| Tehnică | Abordare |
 |---|---|
-| **Pretexting** | Invents a believable scenario to gain trust |
-| **Business email compromise (BEC)** | Impersonates a trusted colleague to redirect a payment or share data |
-| **Disinformation** | Spreads false narratives through social media and bots |
-| **Quid pro quo** | Offers a reward in exchange for information or access |
-| **Honeytrap** | Builds a false relationship to extract money, data, or access |
-| **Tailgating** | Follows an employee through a secured door |
+| **Pretexting** | Inventează un scenariu credibil pentru a câștiga încrederea |
+| **Compromiterea e-mailului de afaceri (BEC)** | Se dă drept un coleg de încredere pentru a redirecționa o plată sau a obține date |
+| **Dezinformare** | Răspândește narațiuni false prin rețele sociale și boți |
+| **Quid pro quo** | Oferă o recompensă în schimbul informațiilor sau accesului |
+| **Capcană sentimentală** | Construiește o relație falsă pentru a obține bani, date sau acces |
+| **Tailgating** | Urmează un angajat printr-o ușă securizată |
 
-**Where the evidence lives:** email authentication results, unusual payment-change requests, helpdesk records, and physical access logs.
-
-______
-
-## Insider Threats
-
-**An insider threat** is misuse of access by a current or former employee, contractor, or partner. Some insiders act with intent, driven by money or grievance. Others act through negligence, such as leaving credentials in a shared document.
-
-*Negligent insiders appear more often than malicious ones in incident reports, and both call for the same detective control: compare access against a baseline for the role.*
-
-**Where the evidence lives:** data-transfer volume, activity outside normal hours, privilege changes, and bulk downloads from sensitive repositories.
+**Unde găsești dovezile:** rezultate de autentificare a e-mailului, solicitări neobișnuite de schimbare a plăților, evidențe ale serviciului de asistență și jurnale de acces fizic.
 
 ______
 
-## DNS Tunneling
+## Amenințări interne
 
-**DNS tunneling** encodes data inside DNS queries and responses. Almost every network permits DNS, so the technique moves data past controls built to inspect web traffic.
+**O amenințare internă** este folosirea abuzivă a accesului de către un angajat actual sau fost, un contractant sau un partener. Unii acționează intenționat, din motive financiare sau resentimente. Alții acționează din neglijență, de exemplu lăsând acreditări într-un document partajat.
 
-*Detection leans on volume and shape. A single host sending thousands of queries to one domain stands apart from a normal baseline, and unusually long subdomains hint at an encoded payload.*
+*Rapoartele de incidente menționează mai des persoane interne neglijente decât persoane rău intenționate. Pentru ambele se aplică același control de detectare: compară accesul cu o referință stabilită pentru rol.*
 
-**Where the evidence lives:** DNS query records, query length and volume per host, uncommon record types such as TXT, and lookups to domains registered days earlier.
-
-______
-
-## IoT-Based Attacks
-
-**An IoT-based attack** targets a connected device such as a camera, printer, thermostat, or sensor. Weak default credentials and rare firmware updates make these devices a common foothold. Once compromised, a device joins a botnet, leaks data, or becomes a route into the wider network.
-
-*The 5G rollout adds connected devices at scale, and each new device is another target with a long patch cycle.*
-
-**Where the evidence lives:** device inventory, outbound connection patterns, abnormal data transfer from a device with a fixed role, and firmware version drift across a fleet.
+**Unde găsești dovezile:** volumul transferurilor de date, activitatea în afara programului normal, modificările de privilegii și descărcările în masă din depozite sensibile.
 
 ______
 
-## AI-Powered Attacks
+## Tunelare DNS
 
-**AI-powered attacks** apply machine learning to the attacker's side of the work.
+**Tunelarea DNS** codifică date în interogări și răspunsuri DNS. Aproape toate rețelele permit DNS, așa că tehnica transportă date dincolo de controalele concepute pentru inspectarea traficului web.
 
-| Technique | Use |
+*Detectarea se bazează pe volum și formă. O gazdă care trimite mii de interogări către un singur domeniu se distinge de referința normală, iar subdomeniile neobișnuit de lungi sugerează o încărcătură utilă codificată.*
+
+**Unde găsești dovezile:** înregistrări ale interogărilor DNS, lungimea și volumul acestora per gazdă, tipuri rare de înregistrări precum TXT și căutări către domenii înregistrate cu doar câteva zile înainte.
+
+______
+
+## Atacuri asupra dispozitivelor IoT
+
+**Un atac IoT** vizează un dispozitiv conectat, precum o cameră, imprimantă, termostat sau senzor. Acreditările implicite slabe și actualizările rare de firmware transformă aceste dispozitive în puncte de intrare comune. După compromitere, un dispozitiv intră într-o rețea bot, scurge date sau devine o cale spre rețeaua mai largă.
+
+*Extinderea 5G adaugă dispozitive conectate la scară mare, iar fiecare dispozitiv nou este o altă țintă cu un ciclu lung de actualizare.*
+
+**Unde găsești dovezile:** inventarul dispozitivelor, tiparele conexiunilor de ieșire, transferurile anormale de date de la un dispozitiv cu rol fix și diferențele de versiune firmware dintr-o flotă.
+
+______
+
+## Atacuri bazate pe IA
+
+**Atacurile bazate pe IA** aplică învățarea automată activităților atacatorului.
+
+| Tehnică | Utilizare |
 |---|---|
-| **Adversarial AI/ML** | Manipulates training data or inputs to mislead a model |
-| **Dark AI** | Applies AI and machine learning specifically to exploit vulnerabilities |
-| **Deepfake** | Generates realistic fake audio, video, or images |
-| **AI-generated social engineering** | Runs convincing chat or voice conversations at scale |
+| **IA/ML adversarială** | Manipulează datele de antrenament sau intrările pentru a păcăli un model |
+| **Dark AI** | Aplică IA și învățarea automată pentru a exploata vulnerabilități |
+| **Deepfake** | Generează materiale audio, video sau imagini false și realiste |
+| **Inginerie socială generată de IA** | Poartă conversații convingătoare prin chat sau voce, la scară mare |
 
-*A deepfake voice call or a fluent phishing chat raises the credibility of an old trick. The underlying technique stays familiar, which is why detection skills built on behavior outlast detection skills tied to one tool.*
+*Un apel cu voce deepfake sau o conversație de phishing fluentă sporește credibilitatea unei vechi metode. Tehnica de bază rămâne familiară, motiv pentru care competențele de detectare bazate pe comportament durează mai mult decât cele legate de un singur instrument.*
 
-**Where the evidence lives:** content provenance signals, out-of-band verification for money or access requests, and behavioral anomalies around identity and payment changes.
+**Unde găsești dovezile:** semnale privind proveniența conținutului, verificare pe un canal separat pentru cereri de bani sau acces și anomalii comportamentale în jurul schimbărilor de identitate și plată.
 
 ______
 
-## Mapping Attacks to Telemetry
+## Asocierea atacurilor cu telemetria
 
-Each category feeds a different data source. The table below pairs them, which gives you a starting point for detection work.
+Fiecare categorie alimentează o sursă de date diferită. Tabelul le asociază și oferă un punct de pornire pentru detectare.
 
-| Attack type | Primary telemetry |
+| Tip de atac | Telemetrie principală |
 |---|---|
-| **Malware** | EDR process, file, and registry records |
-| **Denial of service** | Network flow and availability monitors |
-| **Phishing** | Mail gateway and URL detonation records |
-| **Spoofing** | Mail authentication and network address records |
-| **Identity-based** | Sign-in and identity protection records |
-| **Code injection** | Web application and database query logs |
-| **Supply chain** | Build pipeline and dependency inventory |
-| **Social engineering** | Mail, helpdesk, and physical access records |
-| **Insider threat** | Data access and transfer records |
-| **DNS tunneling** | DNS query records |
-| **IoT** | Device inventory and outbound flow records |
-| **AI-powered** | Identity, payment, and content provenance records |
+| **Malware** | Înregistrări EDR despre procese, fișiere și registru |
+| **Refuzul serviciului** | Fluxuri de rețea și monitoare de disponibilitate |
+| **Phishing** | Jurnale ale gateway-ului de e-mail și analizei URL-urilor |
+| **Spoofing** | Înregistrări de autentificare a e-mailului și adrese de rețea |
+| **Bazat pe identitate** | Înregistrări de autentificare și protecție a identității |
+| **Injectarea de cod** | Jurnale ale aplicațiilor web și interogărilor bazei de date |
+| **Lanț de aprovizionare** | Pipeline de build și inventarul dependențelor |
+| **Inginerie socială** | E-mail, serviciu de asistență și acces fizic |
+| **Amenințare internă** | Înregistrări de acces și transfer de date |
+| **Tunelare DNS** | Înregistrări ale interogărilor DNS |
+| **IoT** | Inventarul dispozitivelor și înregistrări ale fluxurilor de ieșire |
+| **Bazat pe IA** | Înregistrări privind identitatea, plățile și proveniența conținutului |
 
-*Begin detection work with the telemetry column. A useful rule grows from a known data source and a known behavior, not from a tool name.*
+*Începe detectarea cu coloana de telemetrie. O regulă utilă pornește de la o sursă de date cunoscută și un comportament cunoscut, nu de la numele unui instrument.*
 
-**Categories overlap during an incident.** A phishing message can lead to credential theft, malware execution, and an identity-based intrusion. Label the initial access technique, then record the follow-on behaviors separately. This keeps one event from becoming four unrelated alerts and gives your investigation a clearer timeline.
+**Categoriile se suprapun în timpul unui incident.** Un mesaj de phishing poate duce la furtul acreditărilor, executarea malware-ului și o intruziune bazată pe identitate. Etichetează tehnica de acces inițial, apoi înregistrează separat comportamentele ulterioare. Astfel, un singur eveniment nu devine patru alerte fără legătură, iar investigația primește o cronologie mai clară.
 
 ______
 
-## Practice Detecting Them in a Lab
+## Exersează detectarea într-un laborator
 
-A category stays abstract until you watch it happen. A home lab lets you generate the activity, capture the telemetry, and compare the alert against the raw record. The [career video on building a security operations center](https://www.youtube.com/watch?v=s3g8o7Np1_g) shows the full build for gaining job experience before being hired.
+O categorie rămâne abstractă până când o observi. Un laborator de acasă îți permite să generezi activitatea, să colectezi telemetria și să compari alerta cu înregistrarea brută. [Videoclipul despre construirea unui centru de operațiuni de securitate](https://www.youtube.com/watch?v=s3g8o7Np1_g) prezintă configurarea completă pentru a dobândi experiență înainte de angajare.
 
 {{< youtube id="s3g8o7Np1_g" >}}
 
-Start with the identity category. Create a test user, enable sign-in logging, and run a sequence of failed and successful sign-ins. Then read the sign-in record and write down the fields which separate normal use from the exercise.
+Începe cu categoria de identitate. Creează un utilizator de test, activează jurnalizarea autentificărilor și execută o serie de autentificări eșuate și reușite. Apoi citește înregistrarea și notează câmpurile care separă utilizarea normală de exercițiu.
 
-**A repeatable exercise:**
+**Un exercițiu repetabil:**
 
-1. **Pick one category** from the telemetry table above.
-2. **Reproduce a benign version** of the activity against your own test system or account.
-3. **Collect the telemetry** the category produces.
-4. **Write the detection idea** as a rule, a saved search, or a query.
-5. **Test the rule** against the exercise and confirm it fires on the intended behavior.
-6. **Record the limits** of the rule, including the activity it misses.
+1. **Alege o categorie** din tabelul de telemetrie de mai sus.
+2. **Reproduce o versiune inofensivă** a activității pe propriul sistem sau cont de test.
+3. **Colectează telemetria** generată de categorie.
+4. **Scrie ideea de detectare** ca regulă, căutare salvată sau interogare.
+5. **Testează regula** cu exercițiul și confirmă că se declanșează pentru comportamentul vizat.
+6. **Notează limitele** regulii, inclusiv activitățile pe care nu le detectează.
 
-The [Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/) covers the environment build in detail: licensing, network segmentation, log collection, and identity control testing. The [Mad Hat Cyber Range guide](https://madhat.io/pages/cyber-range-guide) expands the same idea into a workshop-grade build with an attack, detect, and defend exercise.
+Ghidul [Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/) detaliază construirea mediului: licențiere, segmentarea rețelei, colectarea jurnalelor și testarea controalelor de identitate. Ghidul [Mad Hat Cyber Range](https://madhat.io/pages/cyber-range-guide) extinde aceeași idee într-un mediu de atelier, cu exerciții de atac, detectare și apărare.
 
-For a consistent vocabulary, map the observed behavior to the relevant [MITRE ATT&CK technique](https://attack.mitre.org/). Treat the mapping as an analyst aid, not as proof of attribution. Keep the raw event, query, rule version, and known blind spots with the exercise record.
+Pentru un vocabular consecvent, asociază comportamentul observat cu tehnica relevantă din [MITRE ATT&CK](https://attack.mitre.org/). Consideră asocierea un ajutor pentru analist, nu o dovadă de atribuire. Păstrează evenimentul brut, interogarea, versiunea regulii și punctele oarbe cunoscute împreună cu înregistrarea exercițiului.
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
-  Read the Microsoft SOC Home Lab Guide
+  Citește ghidul Microsoft SOC Home Lab
 {{< /centerbutton >}}
 
 ______
 
 ## Pașii următori
 
-Start with one category and one exercise. Add a second category after you complete and document the first. The goal is depth on a single investigation, not a checklist of tools.
+Începe cu o categorie și un exercițiu. Adaugă o a doua categorie după ce ai terminat și documentat prima. Scopul este să aprofundezi o investigație, nu să alcătuiești o listă de instrumente.
 
-- **[Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/)** builds the environment for these exercises.
-- **[Building an IT home lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** covers the infrastructure layer underneath a security lab.
-- **[IT resume writing tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** shows how to present a documented lab as practical experience.
-- **[The top five cyber attack vectors and mitigations](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** narrows the list to the vectors seen most often.
+- **[Ghidul Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/)** construiește mediul pentru aceste exerciții.
+- **[Construirea unui laborator IT acasă](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** prezintă infrastructura de bază a unui laborator de securitate.
+- **[Sfaturi pentru redactarea unui CV IT](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** arată cum să prezinți un laborator documentat drept experiență practică.
+- **[Principalii cinci vectori de atac cibernetic și măsurile de atenuare](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** restrânge lista la cei mai frecvenți vectori.
 
-**Source material:** the attack categories and their subtypes follow [CrowdStrike's overview of common cyberattacks](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) by Kurt Baker. Product and reference links point to Microsoft documentation.
+**Materiale-sursă:** categoriile de atac și subtipurile lor urmează [prezentarea CrowdStrike a atacurilor cibernetice comune](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) de Kurt Baker. Linkurile despre produse și referințe duc la documentația Microsoft.

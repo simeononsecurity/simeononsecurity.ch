@@ -1,284 +1,284 @@
 ---
-title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
+title: "常见网络攻击类型及其检测方法"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
-genre: ["Cybersecurity", "Threat Detection", "Blue Team", "Security Operations", "Career Development"]
-tags: ["cyberattack types", "malware", "ransomware", "phishing", "spear phishing", "social engineering", "spoofing", "identity-based attacks", "credential stuffing", "password spraying", "SQL injection", "cross-site scripting", "supply chain attack", "insider threat", "DNS tunneling", "IoT attacks", "AI-powered attacks", "denial of service", "detection engineering", "SOC analyst", "blue team", "home lab", "log analysis", "incident response", "MITRE ATT&CK", "cybersecurity career", "threat hunting", "security operations center", "telemetry", "alert triage"]
+description: "了解常见网络攻击类型及其在日志和遥测数据中留下的证据，并在家庭安全实验室中练习检测。"
+genre: ["网络安全", "威胁检测", "蓝队", "安全运营", "职业发展"]
+tags: ["网络攻击类型", "恶意软件", "勒索软件", "网络钓鱼", "鱼叉式网络钓鱼", "社会工程", "欺骗", "基于身份的攻击", "凭据填充", "密码喷洒", "SQL 注入", "跨站脚本", "供应链攻击", "内部威胁", "DNS 隧道", "物联网攻击", "人工智能攻击", "拒绝服务", "检测工程", "SOC 分析师", "蓝队", "家庭实验室", "日志分析", "事件响应", "MITRE ATT&CK", "网络安全职业", "威胁搜寻", "安全运营中心", "遥测", "告警分流"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"
-coverAlt: "A digital illustration featuring colorful abstract icons symbolizing various cyberattack types like ransomware, phishing, and denial of service against a dark background."
+coverAlt: "深色背景上的数字插画，包含代表勒索软件、网络钓鱼和拒绝服务等不同网络攻击类型的彩色抽象图标。"
 coverCaption: ""
 ---
 
-An **attack type** is a category of technique, not a single tool. Ransomware, phishing, and credential stuffing each name a method an adversary repeats against many targets with minor variations. Learning the categories gives you a mental index for the alerts you will meet on a security team.
+**攻击类型**是技术类别，而不是某个单独工具。勒索软件、网络钓鱼和凭据填充都指攻击者反复针对多个目标使用、只做少量变体的方法。了解这些类别，有助于你整理在安全团队中遇到的告警。
 
-*Individual malware families appear and disappear within months. The attack categories below have stayed stable for years, and each one leaves a recognizable trail in endpoint, identity, network, or email telemetry.*
+*单个恶意软件家族可能在几个月内出现又消失。下列攻击类别多年来一直相对稳定，并且每种都会在终端、身份、网络或电子邮件遥测数据中留下可识别的痕迹。*
 
 <!--more-->
 
 ## 要点
 
-- **Learn the pattern, not the payload.** Attack categories change far slower than individual tools.
-- **Every category leaves evidence.** The detection work starts with knowing which telemetry records the activity.
-- **Reproduce an attack to understand it.** A home lab turns an abstract category into a recorded observation.
-- **Write up what you found.** A short investigation note proves the work and teaches you the evidence.
+- **学习攻击模式，而非载荷。** 攻击类别的变化速度远慢于单个工具。
+- **每种类别都会留下证据。** 检测工作从了解哪种遥测记录了活动开始。
+- **通过复现攻击来理解它。** 家庭实验室能把抽象的攻击类别变成有记录的观察结果。
+- **记录你的发现。** 简短的调查记录既能证明工作，也能说明收集到的证据。
 
-## The Attack Types at a Glance
+## 常见攻击类型一览
 
-The table below lists the categories security teams meet most often. Each later section describes the category, its common variants, and the data a defender reviews to find it.
+下表列出了安全团队最常遇到的攻击类别。后续各节会介绍每种类别、常见变体，以及防御人员为检测它而查看的数据。
 
-| Attack type | What it does |
+| 攻击类型 | 作用 |
 |---|---|
-| **Malware** | Runs malicious software such as ransomware, spyware, and trojans |
-| **Denial of service** | Floods a service with traffic until legitimate users lose access |
-| **Phishing** | Tricks a person into revealing credentials or running a malicious file |
-| **Spoofing** | Disguises an attacker as a trusted system, sender, or address |
-| **Identity-based attacks** | Abuses stolen or forged credentials to act as a valid user |
-| **Code injection** | Inserts malicious code into an application to change its behavior |
-| **Supply chain attacks** | Compromises a trusted vendor, library, or update channel |
-| **Social engineering** | Manipulates a person into taking an unsafe action |
-| **Insider threats** | Misuses access held by a current or former employee |
-| **DNS tunneling** | Encodes data inside DNS queries to move it past controls |
-| **IoT attacks** | Targets connected devices to pivot, spy, or join a botnet |
-| **AI-powered attacks** | Uses machine learning to generate content, impersonate people, or evade filters |
+| **恶意软件** | 运行勒索软件、间谍软件和木马等恶意程序 |
+| **拒绝服务** | 用流量淹没服务，直到合法用户无法访问 |
+| **网络钓鱼** | 诱骗他人泄露凭据或运行恶意文件 |
+| **欺骗** | 伪装成可信系统、发件人或地址 |
+| **基于身份的攻击** | 滥用被盗或伪造的凭据，以有效用户身份行事 |
+| **代码注入** | 向应用程序插入恶意代码，改变其行为 |
+| **供应链攻击** | 入侵可信供应商、库或更新渠道 |
+| **社会工程** | 操纵他人采取不安全的行动 |
+| **内部威胁** | 滥用现任或前任员工拥有的访问权限 |
+| **DNS 隧道** | 在 DNS 查询中编码数据，以绕过控制措施 |
+| **物联网攻击** | 针对联网设备进行横向移动、监视或加入僵尸网络 |
+| **人工智能攻击** | 使用机器学习生成内容、冒充他人或绕过过滤器 |
 
-**A note on scope:** these categories overlap. A phishing email often delivers malware, and a successful credential theft often precedes an identity-based attack. Treat the list as a set of lenses rather than rigid boxes.
+**范围说明：** 这些类别会相互交叉。网络钓鱼邮件经常携带恶意软件，凭据被盗后也常会出现基于身份的攻击。请把列表当作不同的观察角度，而不是互不相干的固定类别。
 
 ______
 
-## Malware
+## 恶意软件
 
-**Malware** covers any program built to harm, control, or profit from a system. The term spans ransomware, fileless malware, spyware, adware, trojans, worms, rootkits, keyloggers, and botnets.
+**恶意软件**是任何旨在破坏、控制系统或从系统获利的程序。该术语涵盖勒索软件、无文件恶意软件、间谍软件、广告软件、木马、蠕虫、Rootkit、键盘记录器和僵尸网络。
 
-| Subtype | Behavior |
+| 子类型 | 行为 |
 |---|---|
-| **Ransomware** | Encrypts files and demands payment for the decryption key |
-| **Fileless malware** | Runs through built-in system tools and writes little to disk |
-| **Spyware** | Collects activity data without the user's knowledge |
-| **Trojan** | Poses as legitimate software to gain execution |
-| **Worm** | Copies itself across hosts without user action |
-| **Rootkit** | Hides inside the operating system to keep persistent control |
+| **勒索软件** | 加密文件，并要求支付解密密钥费用 |
+| **无文件恶意软件** | 通过系统内置工具运行，很少写入磁盘 |
+| **间谍软件** | 在用户不知情的情况下收集活动数据 |
+| **木马** | 伪装成合法软件，诱使用户运行 |
+| **蠕虫** | 无需用户操作便在主机之间复制自身 |
+| **Rootkit** | 隐藏在操作系统中以长期维持控制权 |
 
-**Where the evidence lives:** endpoint detection and response tools, or **EDR**, record process trees, command lines, file writes, and registry changes. Even a fileless attack produces process and script-block telemetry, because the operating system still launches the tools it abuses.
+**证据所在位置：** 终端检测与响应工具，即 **EDR**，会记录进程树、命令行、文件写入和注册表更改。无文件攻击同样会产生进程和脚本遥测，因为操作系统仍会启动攻击所滥用的工具。
 
 ______
 
-## Denial of Service
+## 拒绝服务
 
-**A denial-of-service (DoS) attack** floods a target with requests until legitimate users lose access. **A distributed denial-of-service (DDoS) attack** repeats the same idea from many systems at once, which makes the traffic far harder to filter by source address.
+**拒绝服务（DoS）攻击**向目标发送大量请求，直到合法用户无法访问。**分布式拒绝服务（DDoS）攻击**同时从多个系统重复相同做法，因此更难按源地址过滤流量。
 
-| Trait | DoS | DDoS |
+| 特征 | DoS | DDoS |
 |---|---|---|
-| **Origin** | One system | Many systems |
-| **Blocking difficulty** | Moderate | High, since the sources span many networks |
-| **Typical impact** | Lost availability | Lost availability at larger scale |
+| **来源** | 一个系统 | 多个系统 |
+| **阻止难度** | 中等 | 高，因为来源分布在多个网络中 |
+| **典型影响** | 可用性丧失 | 大规模可用性丧失 |
 
-**Where the evidence lives:** traffic volume against a baseline, connection counts per source, request-rate spikes, and error-rate changes. Availability monitoring often alerts before the security team sees the event.
+**证据所在位置：** 与基线相比的流量大小、每个来源的连接数、请求速率峰值和错误率变化。可用性监控通常会在安全团队发现事件之前发出告警。
 
 ______
 
-## Phishing
+## 网络钓鱼
 
-**Phishing** uses email, text messages, phone calls, or social media to push a person toward revealing credentials or running a malicious attachment. The category splits by target and channel.
+**网络钓鱼**利用电子邮件、短信、电话或社交媒体，诱使他人泄露凭据或运行恶意附件。不同变体按照目标和渠道区分。
 
-| Variant | Target and channel |
+| 变体 | 目标和渠道 |
 |---|---|
-| **Spear phishing** | A specific person or team, usually by email |
-| **Whaling** | Senior or executive staff, often to move money or data |
-| **Smishing** | Fraudulent text messages |
-| **Vishing** | Fraudulent phone calls or voice messages |
+| **鱼叉式网络钓鱼** | 通过电子邮件针对特定个人或团队 |
+| **高管钓鱼** | 针对高级或执行人员，通常意在转移资金或数据 |
+| **短信钓鱼** | 欺诈性短信 |
+| **语音钓鱼** | 欺诈性电话或语音消息 |
 
-**Where the evidence lives:** mail-gateway logs, URL detonation results, attachment analysis, and user reports. A report from a cautious employee is one of the highest-value signals on this list.
+**证据所在位置：** 邮件网关日志、URL 检查结果、附件分析和用户报告。谨慎员工的报告是此列表中价值最高的信号之一。
 
 ______
 
-## Spoofing
+## 欺骗
 
-**Spoofing** hides an attacker behind a trusted identity so a target accepts the connection, message, or address. The disguise buys time and defeats checks built around trust.
+**欺骗攻击**将攻击者隐藏在可信身份背后，使目标接受连接、消息或地址。伪装为攻击者争取时间，并绕过基于信任的检查。
 
-| Type | What gets faked |
+| 类型 | 伪造对象 |
 |---|---|
-| **Domain spoofing** | A lookalike website or email domain impersonating a real brand |
-| **Email spoofing** | The sender address on a message |
-| **ARP spoofing** | A local network address, to intercept traffic between two hosts |
+| **域名欺骗** | 冒充真实品牌的相似网站或电子邮件域名 |
+| **电子邮件欺骗** | 消息的发件人地址 |
+| **ARP 欺骗** | 本地网络地址，用于拦截两个主机之间的流量 |
 
-**Where the evidence lives:** SPF, DKIM, and DMARC results in mail headers, domain registration age, certificate mismatches, and duplicate address warnings on a local network.
+**证据所在位置：** 邮件标头中的 SPF、DKIM 和 DMARC 结果、域名注册年限、证书不匹配，以及本地网络上的重复地址警告。
 
 ______
 
-## Identity-Based Attacks
+## 基于身份的攻击
 
-**Identity-based attacks** use a valid account rather than a defect in software. The attacker holds a working credential, so the activity sits close to normal use and blends into the background. This category drives a large share of the alerts a **security operations center (SOC)** handles each day.
+**基于身份的攻击**使用有效账户，而非利用软件漏洞。攻击者拥有可用凭据，所以活动看起来像正常使用，并混在背景噪声中。这类攻击占**安全运营中心（SOC）**每日处理告警的很大一部分。
 
-*If you practice one category in a home lab, choose this one. The signals are rich, the exercises repeat, and the setup stays small.*
+*如果你只在家庭实验室中练习一种攻击类型，就选择这一类。相关信号丰富，练习可重复，而且设置规模不大。*
 
-| Technique | What happens |
+| 技术 | 过程 |
 |---|---|
-| **Kerberoasting** | Requests a service ticket, then cracks the encrypted password offline |
-| **Man-in-the-middle (MITM)** | Sits between two parties to read or alter a session |
-| **Pass-the-hash** | Reuses a stolen password hash to open a new session |
-| **Golden ticket** | Forges a Kerberos ticket-granting ticket for broad domain access |
-| **Silver ticket** | Forges a service ticket for one specific service |
-| **Credential harvesting** | Collects usernames and passwords in bulk |
-| **Credential stuffing** | Replays one set of credentials across many unrelated sites |
-| **Password spraying** | Tries one common password across many accounts |
-| **Brute force** | Guesses many passwords against one account |
-| **Downgrade** | Forces a connection into a weaker protocol version |
+| **Kerberoasting** | 请求服务票证，然后离线破解其中的加密密码 |
+| **中间人攻击（MITM）** | 插入双方之间，以读取或修改会话 |
+| **Pass-the-hash** | 重用被盗的密码哈希来开启新会话 |
+| **Golden ticket** | 伪造 Kerberos 票证以获得广泛的域访问权限 |
+| **Silver ticket** | 伪造某项特定服务的服务票证 |
+| **凭据收集** | 批量收集用户名和密码 |
+| **凭据填充** | 在许多互不相关的网站上重复尝试同一组凭据 |
+| **密码喷洒** | 对许多账户尝试一个常见密码 |
+| **暴力破解** | 对一个账户尝试许多密码 |
+| **降级攻击** | 迫使连接使用较弱版本的协议 |
 
-**Where the evidence lives:** sign-in records, failed-authentication counts, token anomalies, impossible-travel flags, and identity risk detections. **Adversary-in-the-middle (AiTM) phishing** belongs here too, because the attacker steals a live session token rather than a password, and the replay from unfamiliar infrastructure trips the identity risk engine.
+**证据所在位置：** 登录记录、身份验证失败次数、令牌异常、不可能的行程告警和身份风险检测。**对手中间人（AiTM）网络钓鱼**也属于此类，因为攻击者窃取的是有效会话令牌而非密码；从陌生基础设施重放令牌会触发身份风险引擎。
 
 ______
 
-## Code Injection
+## 代码注入
 
-**Code injection** places attacker-controlled code inside a vulnerable application so the application runs it as part of normal work. The application, not the attacker, carries out the harmful action.
+**代码注入**把攻击者控制的代码放进有漏洞的应用程序，使应用程序在正常工作时运行这些代码。执行有害操作的是应用程序，而不是攻击者本人。
 
-| Type | Target |
+| 类型 | 目标 |
 |---|---|
-| **SQL injection** | A database query built from unvalidated input |
-| **Cross-site scripting (XSS)** | A web page which renders attacker script in a visitor's browser |
-| **Malvertising** | A legitimate ad slot filled with malicious code |
-| **Data poisoning** | A training set for an AI or machine learning model |
+| **SQL 注入** | 使用未经验证的输入构建的数据库查询 |
+| **跨站脚本（XSS）** | 在访客浏览器中运行攻击者脚本的网页 |
+| **恶意广告** | 被恶意代码填充的合法广告位 |
+| **数据投毒** | AI 或机器学习模型的训练数据集 |
 
-**Where the evidence lives:** web application logs, database query records, content security policy reports, and request patterns which differ from normal application use.
-
-______
-
-## Supply Chain Attacks
-
-**A supply chain attack** targets a trusted third party whose product or service reaches many customers. A **software supply chain attack** injects malicious code into an application, library, or update so every user of the product receives it. A **hardware supply chain attack** compromises a physical component before it ships.
-
-*Modern software leans on third-party libraries, so one compromised dependency reaches far past the original vendor.*
-
-**Where the evidence lives:** software composition analysis, build-pipeline records, unexpected outbound connections from a trusted update, and integrity checks on shipped artifacts.
+**证据所在位置：** Web 应用日志、数据库查询记录、内容安全策略报告，以及不同于正常应用使用的请求模式。
 
 ______
 
-## Social Engineering
+## 供应链攻击
 
-**Social engineering** uses psychological pressure to move a person toward an unsafe action. The attacker appeals to authority, urgency, fear, money, or trust.
+**供应链攻击**针对受信任的第三方，该第三方的产品或服务会触达许多客户。**软件供应链攻击**会将恶意代码注入应用程序、库或更新，再交付给该产品的所有用户。**硬件供应链攻击**则在发货前入侵实体组件。
 
-| Technique | Approach |
+*现代软件依赖第三方库，因此一个被入侵的依赖项可能影响远超原始供应商的用户。*
+
+**证据所在位置：** 软件组成分析、构建流水线记录、可信更新产生的意外出站连接，以及已发布制品的完整性检查。
+
+______
+
+## 社会工程
+
+**社会工程**利用心理压力诱使他人采取不安全的行动。攻击者诉诸权威、紧迫感、恐惧、金钱或信任。
+
+| 技术 | 手法 |
 |---|---|
-| **Pretexting** | Invents a believable scenario to gain trust |
-| **Business email compromise (BEC)** | Impersonates a trusted colleague to redirect a payment or share data |
-| **Disinformation** | Spreads false narratives through social media and bots |
-| **Quid pro quo** | Offers a reward in exchange for information or access |
-| **Honeytrap** | Builds a false relationship to extract money, data, or access |
-| **Tailgating** | Follows an employee through a secured door |
+| **借口编造** | 编造可信情境以获取信任 |
+| **商业电子邮件欺诈（BEC）** | 冒充可信同事，以转移款项或索取数据 |
+| **虚假信息** | 通过社交媒体和机器人传播虚假说法 |
+| **互惠交换** | 以奖励换取信息或访问权限 |
+| **情感陷阱** | 建立虚假关系以获取金钱、数据或访问权限 |
+| **尾随进入** | 跟随员工通过安全门 |
 
-**Where the evidence lives:** email authentication results, unusual payment-change requests, helpdesk records, and physical access logs.
-
-______
-
-## Insider Threats
-
-**An insider threat** is misuse of access by a current or former employee, contractor, or partner. Some insiders act with intent, driven by money or grievance. Others act through negligence, such as leaving credentials in a shared document.
-
-*Negligent insiders appear more often than malicious ones in incident reports, and both call for the same detective control: compare access against a baseline for the role.*
-
-**Where the evidence lives:** data-transfer volume, activity outside normal hours, privilege changes, and bulk downloads from sensitive repositories.
+**证据所在位置：** 电子邮件身份验证结果、异常的付款更改请求、服务台记录和物理访问日志。
 
 ______
 
-## DNS Tunneling
+## 内部威胁
 
-**DNS tunneling** encodes data inside DNS queries and responses. Almost every network permits DNS, so the technique moves data past controls built to inspect web traffic.
+**内部威胁**是现任或前任员工、承包商或合作伙伴滥用访问权限。有些人出于金钱或不满而故意行动，另一些人则因疏忽而造成风险，例如把凭据留在共享文档中。
 
-*Detection leans on volume and shape. A single host sending thousands of queries to one domain stands apart from a normal baseline, and unusually long subdomains hint at an encoded payload.*
+*事件报告中，疏忽的内部人员比恶意内部人员更常见。两种情况都需要相同的检测控制：将访问行为与该角色的基线进行比较。*
 
-**Where the evidence lives:** DNS query records, query length and volume per host, uncommon record types such as TXT, and lookups to domains registered days earlier.
-
-______
-
-## IoT-Based Attacks
-
-**An IoT-based attack** targets a connected device such as a camera, printer, thermostat, or sensor. Weak default credentials and rare firmware updates make these devices a common foothold. Once compromised, a device joins a botnet, leaks data, or becomes a route into the wider network.
-
-*The 5G rollout adds connected devices at scale, and each new device is another target with a long patch cycle.*
-
-**Where the evidence lives:** device inventory, outbound connection patterns, abnormal data transfer from a device with a fixed role, and firmware version drift across a fleet.
+**证据所在位置：** 数据传输量、非正常工作时间的活动、权限变更，以及从敏感代码库批量下载文件的记录。
 
 ______
 
-## AI-Powered Attacks
+## DNS 隧道
 
-**AI-powered attacks** apply machine learning to the attacker's side of the work.
+**DNS 隧道**在 DNS 查询和响应中编码数据。几乎所有网络都允许 DNS，因此这种方法能绕过为检查 Web 流量而设的控制措施。
 
-| Technique | Use |
+*检测依赖流量大小和形态。单个主机向一个域名发送数千次查询，会明显偏离正常基线；异常长的子域名则可能包含编码后的载荷。*
+
+**证据所在位置：** DNS 查询记录、每台主机的查询长度和数量、TXT 等不常见的记录类型，以及对几天前才注册的域名发起的查询。
+
+______
+
+## 物联网攻击
+
+**物联网攻击**针对摄像头、打印机、恒温器或传感器等联网设备。较弱的默认凭据和罕见的固件更新，使这些设备成为常见的入侵入口。设备被攻陷后，可能加入僵尸网络、泄露数据，或成为进入更大网络的通道。
+
+*5G 部署会大规模增加联网设备，每台新设备都是一个补丁周期较长的新目标。*
+
+**证据所在位置：** 设备清单、出站连接模式、固定用途设备产生的异常数据传输，以及设备群中的固件版本差异。
+
+______
+
+## 人工智能攻击
+
+**人工智能攻击**将机器学习应用于攻击者的工作。
+
+| 技术 | 用途 |
 |---|---|
-| **Adversarial AI/ML** | Manipulates training data or inputs to mislead a model |
-| **Dark AI** | Applies AI and machine learning specifically to exploit vulnerabilities |
-| **Deepfake** | Generates realistic fake audio, video, or images |
-| **AI-generated social engineering** | Runs convincing chat or voice conversations at scale |
+| **对抗性 AI/ML** | 操纵训练数据或输入以误导模型 |
+| **Dark AI** | 专门运用 AI 和机器学习来利用漏洞 |
+| **深度伪造** | 生成逼真的伪造音频、视频或图像 |
+| **AI 生成的社会工程** | 大规模进行令人信服的聊天或语音交流 |
 
-*A deepfake voice call or a fluent phishing chat raises the credibility of an old trick. The underlying technique stays familiar, which is why detection skills built on behavior outlast detection skills tied to one tool.*
+*深度伪造语音电话或流畅的钓鱼聊天，会让老套路更有说服力。底层技术仍然熟悉，因此基于行为的检测技能比绑定某个工具的技能更经久耐用。*
 
-**Where the evidence lives:** content provenance signals, out-of-band verification for money or access requests, and behavioral anomalies around identity and payment changes.
+**证据所在位置：** 内容来源信号、通过其他渠道核实金钱或访问请求，以及身份和付款变更前后的行为异常。
 
 ______
 
-## Mapping Attacks to Telemetry
+## 将攻击与遥测数据对应起来
 
-Each category feeds a different data source. The table below pairs them, which gives you a starting point for detection work.
+每种类别都会进入不同的数据源。下表将二者对应起来，为检测工作提供一个起点。
 
-| Attack type | Primary telemetry |
+| 攻击类型 | 主要遥测数据 |
 |---|---|
-| **Malware** | EDR process, file, and registry records |
-| **Denial of service** | Network flow and availability monitors |
-| **Phishing** | Mail gateway and URL detonation records |
-| **Spoofing** | Mail authentication and network address records |
-| **Identity-based** | Sign-in and identity protection records |
-| **Code injection** | Web application and database query logs |
-| **Supply chain** | Build pipeline and dependency inventory |
-| **Social engineering** | Mail, helpdesk, and physical access records |
-| **Insider threat** | Data access and transfer records |
-| **DNS tunneling** | DNS query records |
-| **IoT** | Device inventory and outbound flow records |
-| **AI-powered** | Identity, payment, and content provenance records |
+| **恶意软件** | EDR 中的进程、文件和注册表记录 |
+| **拒绝服务** | 网络流量和可用性监控 |
+| **网络钓鱼** | 邮件网关和 URL 分析记录 |
+| **欺骗** | 邮件身份验证和网络地址记录 |
+| **基于身份** | 登录和身份保护记录 |
+| **代码注入** | Web 应用和数据库查询日志 |
+| **供应链** | 构建流水线和依赖项清单 |
+| **社会工程** | 邮件、服务台和物理访问记录 |
+| **内部威胁** | 数据访问和传输记录 |
+| **DNS 隧道** | DNS 查询记录 |
+| **物联网** | 设备清单和出站流量记录 |
+| **基于 AI** | 身份、付款和内容来源记录 |
 
-*Begin detection work with the telemetry column. A useful rule grows from a known data source and a known behavior, not from a tool name.*
+*从遥测数据列开始检测。有效规则应基于已知数据源和已知行为，而非工具名称。*
 
-**Categories overlap during an incident.** A phishing message can lead to credential theft, malware execution, and an identity-based intrusion. Label the initial access technique, then record the follow-on behaviors separately. This keeps one event from becoming four unrelated alerts and gives your investigation a clearer timeline.
+**事件中不同类别会相互交叉。** 一封钓鱼邮件可能导致凭据被盗、恶意软件运行和基于身份的入侵。标记最初的访问技术，然后分别记录后续行为。这样不会把一个事件拆成四个互不相关的告警，也能让调查时间线更清晰。
 
 ______
 
-## Practice Detecting Them in a Lab
+## 在实验室中练习检测
 
-A category stays abstract until you watch it happen. A home lab lets you generate the activity, capture the telemetry, and compare the alert against the raw record. The [career video on building a security operations center](https://www.youtube.com/watch?v=s3g8o7Np1_g) shows the full build for gaining job experience before being hired.
+除非亲眼观察，否则攻击类别仍然抽象。家庭实验室让你能够生成活动、收集遥测数据，并将告警与原始记录进行比较。[搭建安全运营中心的职业视频](https://www.youtube.com/watch?v=s3g8o7Np1_g)展示了完整搭建过程，帮助你在受聘前积累工作经验。
 
 {{< youtube id="s3g8o7Np1_g" >}}
 
-Start with the identity category. Create a test user, enable sign-in logging, and run a sequence of failed and successful sign-ins. Then read the sign-in record and write down the fields which separate normal use from the exercise.
+从身份类别开始。创建测试用户，启用登录记录，然后连续执行失败和成功的登录。接着阅读登录记录，写下哪些字段能够区分正常使用和练习活动。
 
-**A repeatable exercise:**
+**可重复的练习：**
 
-1. **Pick one category** from the telemetry table above.
-2. **Reproduce a benign version** of the activity against your own test system or account.
-3. **Collect the telemetry** the category produces.
-4. **Write the detection idea** as a rule, a saved search, or a query.
-5. **Test the rule** against the exercise and confirm it fires on the intended behavior.
-6. **Record the limits** of the rule, including the activity it misses.
+1. 从上面的遥测表中**选择一个类别**。
+2. 在自己的测试系统或账户上**复现安全版本的活动**。
+3. **收集**该类别产生的遥测数据。
+4. 将检测思路**写成**规则、已保存的搜索或查询。
+5. 用练习活动**测试规则**，确认它会针对预期行为触发。
+6. **记录规则的限制**，包括它无法检测到的活动。
 
-The [Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/) covers the environment build in detail: licensing, network segmentation, log collection, and identity control testing. The [Mad Hat Cyber Range guide](https://madhat.io/pages/cyber-range-guide) expands the same idea into a workshop-grade build with an attack, detect, and defend exercise.
+[Microsoft SOC Home Lab 指南](/articles/microsoft-soc-home-lab-2026/)详细介绍了环境搭建，包括许可、网络分段、日志收集和身份控制测试。[Mad Hat Cyber Range 指南](https://madhat.io/pages/cyber-range-guide)将同一思路扩展为适用于工作坊的环境，并包含攻击、检测和防御练习。
 
-For a consistent vocabulary, map the observed behavior to the relevant [MITRE ATT&CK technique](https://attack.mitre.org/). Treat the mapping as an analyst aid, not as proof of attribution. Keep the raw event, query, rule version, and known blind spots with the exercise record.
+为保持术语一致，请将观察到的行为映射到相应的 [MITRE ATT&CK 技术](https://attack.mitre.org/)。把映射当作分析师的辅助工具，而不是归因证据。请将原始事件、查询、规则版本和已知盲点与练习记录一并保存。
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
-  Read the Microsoft SOC Home Lab Guide
+  阅读 Microsoft SOC Home Lab 指南
 {{< /centerbutton >}}
 
 ______
 
 ## 后续步骤
 
-Start with one category and one exercise. Add a second category after you complete and document the first. The goal is depth on a single investigation, not a checklist of tools.
+从一个类别和一个练习开始。完成并记录第一个练习后，再加入第二个类别。目标是深入开展一次调查，而不是列出一份工具清单。
 
-- **[Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/)** builds the environment for these exercises.
-- **[Building an IT home lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** covers the infrastructure layer underneath a security lab.
-- **[IT resume writing tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** shows how to present a documented lab as practical experience.
-- **[The top five cyber attack vectors and mitigations](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** narrows the list to the vectors seen most often.
+- **[Microsoft SOC Home Lab 指南](/articles/microsoft-soc-home-lab-2026/)** 为这些练习搭建环境。
+- **[搭建家庭 IT 实验室](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** 介绍安全实验室所需的底层基础设施。
+- **[IT 简历写作建议](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** 展示如何把有记录的实验室作为实践经验写进简历。
+- **[五大网络攻击途径及其缓解措施](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** 将范围缩小到最常见的攻击途径。
 
-**Source material:** the attack categories and their subtypes follow [CrowdStrike's overview of common cyberattacks](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) by Kurt Baker. Product and reference links point to Microsoft documentation.
+**参考资料：** 攻击类别及其子类型参考了 Kurt Baker 撰写的 [CrowdStrike 常见网络攻击概述](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/)。产品和参考链接指向 Microsoft 文档。

@@ -1,0 +1,113 @@
+---
+title: "PowerCLI से vCenter अनुमतियों का ऑडिट कैसे करें"
+date: 2023-08-04
+lastmod: 2026-11-08
+toc: true
+draft: false
+description: "वर्चुअल इन्फ्रास्ट्रक्चर की सुरक्षा के लिए PowerCLI से vCenter अनुमतियों का ऑडिट करना सीखें।"
+genre: ["vCenter अनुमति ऑडिट", "PowerCLI स्वचालन", "VMware सुरक्षा", "वर्चुअल इन्फ्रास्ट्रक्चर प्रबंधन", "अनुमति असाइनमेंट", "उपयोगकर्ता पहुंच नियंत्रण", "सुरक्षा कमजोरियां", "PowerShell स्वचालन", "vSphere वातावरण प्रबंधन", "उपयोगकर्ता अनुमतियों की समीक्षा"]
+tags: ["vCenter", "PowerCLI", "अनुमति ऑडिट", "vSphere", "VMware", "वर्चुअल इन्फ्रास्ट्रक्चर", "PowerShell", "उपयोगकर्ता पहुंच नियंत्रण", "सुरक्षा कमजोरियां", "अनुमति असाइनमेंट", "स्वचालन", "PowerCLI cmdlets", "उपयोगकर्ता भूमिकाएं", "अनुमति समीक्षा", "सुरक्षा नीतियां", "अनुपालन", "ऑडिट रिपोर्ट", "डेटा सुरक्षा", "GDPR", "HIPAA", "उपयोगकर्ता प्रबंधन", "vCenter उपयोगकर्ता", "सुरक्षा के सर्वोत्तम तरीके", "सरकारी नियम", "PowerCLI स्थापना", "vCenter कनेक्शन", "PowerCLI स्क्रिप्ट", "ऑडिट प्रक्रिया", "ऑडिट डेटा निर्यात", "अनुमतियां हटाना"]
+cover: "/img/cover/audit-permissions-vcenter-powercli.webp"
+coverAlt: "गहरे नीले पृष्ठभूमि पर उपयोगकर्ता अनुमतियों और पहुंच स्तरों को दर्शाने वाले अमूर्त तत्वों के साथ वर्चुअल डेटा सेंटर का चित्र।"
+coverCaption: "PowerCLI से अनुमतियों का प्रभावी ऑडिट करके अपने vCenter को सुरक्षित रखें।"
+---
+
+**PowerCLI से vCenter अनुमतियों का ऑडिट कैसे करें**
+
+वर्चुअल इन्फ्रास्ट्रक्चर की सुरक्षा जरूरी है। vCenter की **अनुमतियों का ऑडिट** इसका अहम हिस्सा है। नियमित ऑडिट यह सुनिश्चित करने में मदद करते हैं कि हर उपयोगकर्ता के पास सही पहुंच स्तर हो और संभावित सुरक्षा कमजोरियां सामने आएं। यह लेख VMware वातावरण के स्वचालन उपकरण **PowerCLI** से vCenter अनुमतियों का ऑडिट करना बताता है।
+
+## परिचय
+
+वर्चुअलाइजेशन अपनाने के साथ अनुमतियों का प्रबंधन महत्वपूर्ण हो जाता है। **vCenter** VMware वातावरण का केंद्रीय प्रबंधन प्लेटफॉर्म है। प्रशासक यहां उपयोगकर्ता पहुंच नियंत्रित करते हैं और विशिष्ट विशेषाधिकार देते हैं। वातावरण की जटिलता और भूमिकाओं में लगातार बदलाव के कारण आपको अनुमतियों की नियमित समीक्षा और **ऑडिट** करना चाहिए।
+
+## PowerCLI को समझें
+
+**PowerCLI** एक कमांड-लाइन इंटरफेस है, जो **PowerShell** से कार्य स्वचालित करता है और VMware vSphere वातावरण प्रबंधित करता है। इसमें VMware इन्फ्रास्ट्रक्चर, उपयोगकर्ता प्रबंधन और अनुमति असाइनमेंट के लिए **cmdlets** शामिल हैं। PowerCLI से उपयोगकर्ता अनुमतियों की जानकारी लेकर ऑडिट कुशलता से किए जा सकते हैं।
+
+आइए PowerCLI से vCenter अनुमतियों का ऑडिट करने की प्रक्रिया देखें।
+
+## वातावरण तैयार करें
+
+पहले आवश्यक वातावरण सेट करें:
+
+1. **PowerCLI इंस्टॉल करें**: [VMware की आधिकारिक वेबसाइट](https://www.vmware.com/support/developer/PowerCLI/) से नवीनतम **PowerCLI** डाउनलोड और इंस्टॉल करें। इंस्टॉलेशन विज़ार्ड के निर्देश मानें।
+
+2. **vCenter से कनेक्ट करें**: **PowerCLI** कंसोल या **PowerShell** विंडो खोलें और `Connect-VIServer` cmdlet से vCenter सर्वर से जुड़ें। आवश्यक क्रेडेंशियल दें।
+
+   उदाहरण:
+   ```powershell
+   Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
+   ```
+
+   `<vCenterServer>` को अपने vCenter सर्वर के पते या होस्टनाम से बदलें। `<Username>` और `<Password>` की जगह सही क्रेडेंशियल दें।
+
+   कनेक्शन के बाद आप vCenter सर्वर पर PowerCLI कमांड चला सकेंगे।
+
+PowerCLI इंस्टॉल और कनेक्ट होने के बाद अनुमतियों की जांच शुरू करें।
+
+## PowerCLI से अनुमतियों का ऑडिट
+
+PowerCLI इंस्टॉल करके vCenter से कनेक्ट करें, फिर ये चरण अपनाएं:
+
+1. **सभी vCenter उपयोगकर्ताओं की सूची लें**: वातावरण के उपयोगकर्ताओं की सूची पाने के लिए `Get-VIUser` चलाएं।
+
+   उदाहरण:
+   ```powershell
+   Get-VIUser
+   ```
+
+   यह कमांड उपयोगकर्ता नाम, भूमिकाओं और समूहों जैसी जानकारी लौटाती है।
+
+2. **उपयोगकर्ता भूमिकाएं और अनुमतियां जांचें**: हर उपयोगकर्ता को दी गई अनुमतियां पाने के लिए `Get-VIPermission` चलाएं।
+
+   उदाहरण:
+   ```powershell
+   Get-VIPermission -Entity <vCenter> -Principal <Username>
+   ```
+
+   `<vCenter>` को vCenter सर्वर के नाम और `<Username>` को समीक्षा वाले उपयोगकर्ता से बदलें। आउटपुट में सौंपी गई भूमिकाएं और कस्टम विशेषाधिकार दिखेंगे।
+
+3. **अनुचित पहुंच पहचानें**: ऐसे उपयोगकर्ताओं को खोजें जिनकी पहुंच या अनुमतियां उनकी भूमिका की जरूरत से अधिक हों। आउटपुट की तुलना संगठन की सुरक्षा नीतियों से करें। अतिरिक्त विशेषाधिकारों और जिम्मेदारियों से मेल न खाने वाली अनुमतियों को चिह्नित करें।
+
+4. **अनावश्यक अनुमतियां हटाएं**: किसी उपयोगकर्ता की अनुमतियां वापस लेने के लिए `Remove-VIPermission` चलाएं।
+
+   उदाहरण:
+   ```powershell
+   Remove-VIPermission -Entity <vCenter> -Principal <Username>
+   ```
+
+   `<vCenter>` को सर्वर के नाम और `<Username>` को उस उपयोगकर्ता से बदलें जिसकी अनुमतियां हटानी हैं। यह कमांड उस उपयोगकर्ता की सभी सौंपी गई अनुमतियां वापस लेता है।
+
+5. **ऑडिट रिपोर्ट बनाएं**: ऑडिट का रिकॉर्ड रखने और अनुपालन में सहायता के लिए रिपोर्ट बनाएं। PowerShell स्क्रिप्ट से उपयोगकर्ता भूमिकाएं, अनुमतियां और ऑडिट के दौरान हुए बदलाव निकालें। विश्लेषण और रिकॉर्ड के लिए डेटा CSV या HTML में निर्यात करें।
+
+   उदाहरण:
+   ```powershell
+         # Connect to vCenter
+      Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
+
+      # Get all vCenter users
+      $users = Get-VIUser
+
+      # Initialize an array to store user permissions
+      $permissions = @()
+
+      # Iterate through each user and retrieve their permissions
+      foreach ($user in $users) {
+         $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
+         $permissions += $userPermissions
+      }
+
+      # Convert permissions to a CSV file
+      $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
+   ```
+
+## निष्कर्ष
+
+vCenter अनुमतियों का ऑडिट **वर्चुअल इन्फ्रास्ट्रक्चर** सुरक्षित रखने का अहम चरण है। **PowerCLI** प्रक्रिया को स्वचालित करता है और उपयोगकर्ता भूमिकाओं व अनुमतियों की कुशल समीक्षा में मदद करता है। नियमित ऑडिट कमजोरियां खोजते हैं और उपयुक्त पहुंच स्तर सुनिश्चित करते हैं।
+
+संगठन की सुरक्षा नीतियों की नियमित समीक्षा और अद्यतन करें। उन्हें अच्छे तरीकों और लागू नियमों, जैसे **General Data Protection Regulation (GDPR)** और **Health Insurance Portability and Accountability Act (HIPAA)**, के अनुरूप रखें। मजबूत ऑडिट प्रक्रिया vCenter वातावरण को अधिक सुरक्षित और अनुपालनयुक्त बनाती है।
+
+## संदर्भ
+- [PowerCLI डाउनलोड करें](https://www.vmware.com/support/developer/PowerCLI/)
+- [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
+- [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)

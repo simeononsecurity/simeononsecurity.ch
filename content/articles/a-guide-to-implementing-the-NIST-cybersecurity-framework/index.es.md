@@ -1,15 +1,16 @@
 ---
 title: "Implantación del Marco de Ciberseguridad del NIST"
 date: 2023-03-18
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Aprenda a implantar el Marco de Ciberseguridad del NIST y a proteger su organización de las ciberamenazas con nuestra guía paso a paso."
 tags: ["ciberseguridad", "NIST", "marco", "gestión de riesgos", "seguridad de la información", "amenazas cibernéticas", "aplicación", "buenas prácticas", "directrices", "normas", "ciberataques", "evaluación de riesgos", "riesgo de ciberseguridad", "protección de datos", "conformidad", "Seguridad informática", "seguridad de la red", "respuesta a incidentes", "medidas de seguridad", "plan de ciberseguridad"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
-coverAlt: "Imagen de dibujos animados de una persona con un escudo que bloquea varios ciberataques."
+cover: "/img/cover/a-guide-to-implementing-the-NIST-cybersecurity-framework.webp"
+coverAlt: "Varios profesionales colaboran en una oficina moderna frente a una gran pantalla digital que muestra conceptos de ciberseguridad. La escena incluye portátiles y tabletas, con un fondo oscuro y colores vivos."
 coverCaption: ""
 ---
- Guía para implantar el marco de ciberseguridad del NIST en su organización**
+**Guía para implantar el marco de ciberseguridad del NIST en su organización**
 
 El Instituto Nacional de Estándares y Tecnología (**NIST**) ha desarrollado un marco de ciberseguridad que proporciona a las organizaciones directrices y mejores prácticas para gestionar y reducir el riesgo de ciberseguridad. **La aplicación del marco de ciberseguridad del NIST** puede ayudar a organizaciones de todos los tamaños y tipos a proteger su información y sus activos frente a las ciberamenazas.
 

@@ -1,9 +1,10 @@
 ---
-title: "ATS Resume Improver : optimiseur de CV IA gratuit, auto-hébergeable, sans envoi de données"
+title: "ATS Resume Improver : optimiseur de CV avec IA gratuit et auto-hébergeable"
 date: 2026-07-22
+lastmod: 2026-11-08
 toc: true
 draft: false
-description: "ATS Resume Improver est un optimiseur de CV open source côté client supportant OpenAI, Anthropic Claude et les modèles Ollama locaux. Analysez, notez, comparez les mots-clés, optimisez et exportez votre CV sans que vos données ne quittent le navigateur."
+description: "ATS Resume Improver est un optimiseur de CV gratuit et open source. Sans clé IA, le traitement s'effectue dans le navigateur. Avec OpenAI ou Anthropic, le texte du CV et de l'offre est transmis directement au fournisseur. Ollama peut fonctionner en local."
 genre: ["Outils de carrière", "Projets open source", "Intelligence artificielle", "Technologie de confidentialité", "Outils développeurs", "Recherche d'emploi", "Productivité"]
 tags: ["ATS Resume Improver", "optimisation ATS", "scanner de CV", "CV IA", "CV OpenAI", "CV Claude", "Ollama IA locale", "auto-hébergé", "confidentialité d'abord", "outils recherche d'emploi", "analyse d'écart de mots-clés", "lettre de motivation", "score CV", "React", "TypeScript", "Docker", "Vite", "open source", "export PDF", "export DOCX", "parser CV", "outils carrière", "préparation entretien", "estimateur salaire", "détection type CV", "score ATS", "outil CV gratuit", "GitHub", "sans collecte de données"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"
@@ -147,7 +148,7 @@ ______
 
 ## Humanisation de la lettre de motivation
 
-Le générateur de lettre de motivation applique un guide de style délibéré pour éliminer les signes révélateurs du texte généré par IA :
+Le générateur de lettre de motivation applique un guide de style délibéré pour éliminer les signes révélateurs du texte généré par IA. Il s'inspire du [cadre de rédaction naturelle de Sabrina Ramonov](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing) :
 
 - **Pas de tirets longs** — le signe révélateur IA le plus fort, supprimé entièrement
 - **50+ mots et expressions interdits** : leverage, utilize, dive deep, delve, embark, game-changer, groundbreaking, cutting-edge, pivotal, tapestry, harness, moreover, in conclusion, it's worth noting, ever-evolving, landscape, testament, etc.
@@ -159,6 +160,19 @@ Le générateur de lettre de motivation applique un guide de style délibéré p
 - **Détail concret de l'offre d'emploi au paragraphe 1** — prouve que la lettre n'a pas été générée depuis un modèle
 
 *Le résultat se lit comme si un humain l'avait écrit, parce que les règles forcent le modèle à écrire comme un humain.*
+
+______
+
+## Qualité des exportations
+
+| Format | Contenu |
+|--------|-------------|
+| **PDF** | Typographie professionnelle, séparateurs de section, puces et en-tête de contact |
+| **DOCX** | Document Word correctement structuré (`Packer.toBlob`, compatible avec le navigateur) |
+| **TXT** | Texte brut propre avec un espacement cohérent, adapté aux ATS |
+| **Markdown** | Fichier `.md` structuré avec des titres et des listes |
+
+Si un fournisseur d'IA est configuré, il met en forme les exportations avant leur téléchargement. Le fichier porte le badge ✨ Amélioré par IA.
 
 ______
 
@@ -190,30 +204,95 @@ make dev           # http://localhost:5173
 ### Docker (recommandé pour les environnements reproductibles)
 
 ```bash
-# Développement — rechargement à chaud sur http://localhost:5173
+# Development — hot-reload on http://localhost:5173
 make docker-dev
 
-# Production — nginx sur http://localhost:8080
+# Production — nginx on http://localhost:8080
 make docker-prod
 
-# Dev + Ollama ensemble (pile IA locale complète)
+# Dev + Ollama together (full local AI stack)
 make docker-dev-with-ollama
 ```
 
 ### Pile Ollama entièrement hors ligne
 
 ```bash
-# Démarrer le conteneur Ollama (modèles persistants entre les redémarrages)
+# Start Ollama container (persists models across restarts)
 make ollama
 
-# Télécharger un modèle
+# Pull a model
 make ollama-pull MODEL=llama3.2
 
-# Démarrer l'application dev + Ollama côte à côte
+# Start dev app + Ollama side-by-side
 make docker-dev-with-ollama
 ```
 
 Ouvrez ensuite l'application, allez dans le panneau de clé API, sélectionnez **Ollama (Local)**, définissez l'URL sur `http://localhost:11434` et choisissez un modèle. Aucune donnée ne quitte votre machine.
+
+______
+
+## Pile technologique
+
+| Couche | Technologie |
+|-------|-----------|
+| **Framework** | React 19 + TypeScript |
+| **Build** | Vite 8 |
+| **Styles** | Tailwind CSS v4 |
+| **Icônes** | Lucide React |
+| **Analyse PDF** | pdfjs-dist |
+| **Analyse DOCX** | mammoth |
+| **Export PDF** | jsPDF |
+| **Export DOCX** | docx (`Packer.toBlob`) |
+| **IA** | OpenAI · Anthropic Claude · Ollama |
+| **Conteneur** | Docker + nginx (multi-stage) + service Ollama |
+
+Tout le processus de notation et d'analyse (`atsAnalyzer.ts`, `keywordMatcher.ts`, `resumeTypeDetector.ts`) s'exécute dans le navigateur. Les intégrations d'IA d'`aiProvider.ts` appellent directement les API des fournisseurs depuis le client, sans serveur proxy.
+
+______
+
+## Guide pratique d'utilisation
+
+### Étape 1 : importez votre CV
+
+Importez un fichier PDF, DOCX, TXT ou Markdown. Ouvrez l'onglet **« What the ATS Sees »** pour vérifier si l'analyseur a correctement extrait le contenu. Si des sections manquent ou si le texte est déformé dans cette vue, le logiciel ATS des recruteurs rencontrera le même problème.
+
+### Étape 2 : collez la description du poste
+
+Collez l'offre complète dans le panneau Job Description. Les offres plus détaillées donnent une meilleure analyse des mots-clés. Ne raccourcissez pas la section des exigences.
+
+### Étape 3 : examinez votre score ATS
+
+Le panneau affiche un score global de 0 à 100 et une répartition sur 5 dimensions. Cette répartition indique où concentrer vos efforts : les problèmes de format réduisent une dimension, les mots-clés manquants en réduisent une autre, et les descriptions faibles de l'expérience professionnelle en réduisent une troisième.
+
+### Étape 4 : vérifiez les lacunes de mots-clés
+
+La vue Keyword Analysis montre quels mots-clés de l'offre figurent dans votre CV et lesquels manquent. Avec l'IA activée, vous obtenez une correspondance sémantique et des niveaux d'importance. Une lacune « Critical » dans une compétence technique essentielle mérite plus d'attention qu'une lacune « Low » dans un cliché sur les qualités humaines.
+
+### Étape 5 : optimisez
+
+- **Mode déterministe** : applique une restructuration fondée sur des règles. C'est sûr, rapide et sans coût d'API.
+- **Mode IA** : réécriture complète par un LLM avec des instructions basées sur les bonnes pratiques ATS.
+
+Examinez la **différence avant/après** pour comprendre chaque modification avant de l'accepter.
+
+### Étape 6 : exportez
+
+Exportez en PDF, DOCX, TXT ou Markdown. Avec l'IA activée, l'export est mis en forme pour une présentation professionnelle. Le modèle PDF utilise une typographie et une mise en page adaptées aux recruteurs.
+
+______
+
+## Intégration de conseils pour les CV
+
+L'outil comprend une référence complémentaire dans `RESUME_TIPS.md` (également disponible dans le dépôt GitHub), qui explique :
+
+- Comment les systèmes ATS évaluent les CV
+- Les règles de format importantes et les formats qui perturbent les analyseurs
+- Comment rédiger des résumés, des puces et des sections de compétences
+- Les stratégies de mots-clés sans répétitions excessives
+- Le ton et la structure d'une lettre de motivation
+- La liste de vérification avant l'envoi
+
+*Lisez cette référence avant d'utiliser l'outil afin de comprendre les scores.*
 
 ______
 
@@ -235,6 +314,10 @@ Oui. Collez une nouvelle description de poste à tout moment. L'analyse de mots-
 
 Oui, si Ollama tourne sur votre machine locale ou sur une machine de votre réseau local. L'application envoie du texte à votre instance Ollama via HTTP. Rien ne va vers un service externe.
 
+### Quelle est la précision de la détection du type de CV ?
+
+Le détecteur applique des heuristiques fondées sur des règles au contenu du CV. Il examine les années d'expérience mentionnées, les indicateurs de formation, les sections de publications ou de recherche et les signes de pauses professionnelles. Il fonctionne bien pour la plupart des CV, mais peut se tromper pour des profils inhabituels. Vous pouvez toujours ajuster l'ordre des sections.
+
 ______
 
 ## Feuille de route du projet
@@ -252,9 +335,17 @@ ______
 
 ## Conclusion
 
-**ATS Resume Improver** comble un vrai manque : un outil qui effectue une analyse sérieuse de CV sans courtiser vos données à quiconque. Le mode sans clé vous donne un retour immédiat et actionnable sur le format et la couverture des mots-clés. Ajouter une clé IA fait progresser l'analyse vers le raisonnement sémantique, la rédaction de lettre de motivation et la préparation aux entretiens — pour des centimes par analyse ou complètement gratuit avec Ollama.
+**ATS Resume Improver** comble un vrai manque : un outil qui analyse sérieusement les CV sans confier vos données à un intermédiaire. Le mode sans clé fournit un retour immédiat et exploitable sur le format et la couverture des mots-clés. Ajouter une clé IA active le raisonnement sémantique, la rédaction de lettres de motivation et la préparation aux entretiens, pour quelques centimes par analyse ou gratuitement avec Ollama.
 
 La version hébergée en direct est sur **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Le code source complet est sur **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+
+______
+
+## Cours d'optimisation des CV
+
+Pour un guide structuré, étape par étape, sur l'application des critères évalués par cet outil, consultez le cours associé :
+
+**[Cours d'optimisation des CV : maîtrisez les systèmes ATS et obtenez plus d'entretiens](/resume-optimization-course-start/)**. Ses 9 modules couvrent la notation ATS, le format, les puces, les mots-clés, l'adaptation aux offres, les lettres de motivation et la liste de vérification avant l'envoi. Utilisez l'outil avec le cours pour obtenir un retour immédiat à chaque étape.
 
 ______
 

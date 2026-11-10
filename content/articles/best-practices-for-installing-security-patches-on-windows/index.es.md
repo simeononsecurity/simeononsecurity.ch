@@ -1,136 +1,136 @@
 ---
-title: "Instalación de parches de seguridad acumulativos en Windows: Buenas prácticas"
+title: "Instalar actualizaciones de seguridad acumulativas en Windows"
 date: 2023-03-22
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Aprenda a instalar los parches de seguridad acumulativos en Windows y siga las mejores prácticas para mantener su sistema a salvo de ciberataques."
-tags: ["Windows", "parches de seguridad", "ciberseguridad", "seguridad del sistema", "Microsoft", "parches acumulativos", "gestión de parches", "copia de seguridad de datos", "Spectre Deshielo", "codificación", "vulnerabilidades del sistema", "actualizaciones del sistema", "despliegue de parches", "entornos no productivos", "configuración del sistema", "Seguridad informática", "sistema de gestión de parches", "exploración de vulnerabilidades", "notas de la versión", "mantenimiento del sistema"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
-coverAlt: "Imagen animada de un escudo con el logotipo de Windows protegido por un candado"
+description: "Aprende a instalar actualizaciones de seguridad acumulativas en Windows y sigue prácticas recomendadas para proteger tu sistema contra ciberataques."
+tags: ["Windows", "actualizaciones de seguridad", "ciberseguridad", "seguridad del sistema", "Microsoft", "actualizaciones acumulativas", "gestión de parches", "copia de seguridad de datos", "Spectre Meltdown", "cifrado", "vulnerabilidades del sistema", "actualizaciones del sistema", "implementación de parches", "entornos no productivos", "configuración del sistema", "seguridad de TI", "sistema de gestión de parches", "análisis de vulnerabilidades", "notas de la versión", "mantenimiento del sistema"]
+cover: "/img/cover/best-practices-for-installing-security-patches-on-windows.webp"
+coverAlt: "Un técnico de orígenes diversos está sentado ante un escritorio con un monitor que muestra la pantalla de actualización de Windows. Hay dispositivos tecnológicos alrededor, en un entorno oscuro con detalles azules y verdes."
 coverCaption: ""
 ---
 
-**Instalación de parches de seguridad acumulativos en Windows**
+**Instalar actualizaciones de seguridad acumulativas en Windows**
 
-En el mundo actual, los **ataques cibernéticos** son una amenaza importante para la seguridad de los sistemas informáticos. Una de las formas de minimizar el riesgo de estos ataques es instalar **parches de seguridad**. En el caso de Windows, Microsoft publica periódicamente **parches de seguridad acumulativos**. Estos parches contienen todos los parches de seguridad anteriores, junto con nuevas actualizaciones de seguridad.
+Hoy en día, los **ciberataques** representan una amenaza importante para la seguridad de los sistemas informáticos. Instalar **parches de seguridad** es una forma de reducir ese riesgo. Microsoft publica periódicamente **actualizaciones de seguridad acumulativas** para Windows. Estas incluyen todos los parches de seguridad anteriores, además de las nuevas actualizaciones.
 
-## Importancia de instalar parches de seguridad acumulativos
+## Por qué es importante instalar actualizaciones de seguridad acumulativas
 
-**Los parches de seguridad acumulativos** son cruciales para mantener seguro el sistema Windows. Estos parches corrigen vulnerabilidades y lagunas de seguridad que pueden ser aprovechadas por los ciberatacantes. No instalar estos parches puede dar lugar a importantes problemas de seguridad y violaciones de datos.
+Las **actualizaciones de seguridad acumulativas** son esenciales para mantener seguro tu sistema Windows. Corrigen vulnerabilidades y brechas de seguridad que los atacantes podrían aprovechar. No instalarlas puede causar problemas graves de seguridad y filtraciones de datos.
 
-## Parches de seguridad acumulativos
+## Qué son las actualizaciones de seguridad acumulativas
 
-Como se ha mencionado anteriormente, Microsoft publica con regularidad **parches de seguridad acumulativos**. Estos parches contienen todas las actualizaciones y correcciones de seguridad publicadas anteriormente junto con las nuevas actualizaciones de seguridad. La ventaja de utilizar un **parche de seguridad acumulativo** es que ahorra tiempo y esfuerzo al eliminar la necesidad de instalar cada actualización individualmente.
-
-______
-
-## Pasos para instalar parches de seguridad acumulativos
-
-La instalación de un **parche de seguridad acumulativo** en Windows implica unos sencillos pasos, que son los siguientes:
-
-1. **El primer paso para instalar un parche de seguridad acumulativo en Windows es buscar actualizaciones. Para ello, dirígete a la sección **Windows Update** del **Panel de control** o busca **Windows Update** en la barra de búsqueda de Windows. Una vez allí, haz clic en el botón **Buscar actualizaciones** para ver si hay actualizaciones disponibles.
-
-2. **Si hay actualizaciones disponibles, descárgalas e instálalas. Es importante tener en cuenta que los parches de seguridad acumulativos suelen contener todas las actualizaciones anteriores, por lo que no tendrás que instalarlos individualmente. Simplemente descarga e instala el último parche, e incluirá todos los anteriores.
-
-3. **Una vez finalizada la instalación, reinicie el ordenador para aplicar las actualizaciones. Es importante reiniciar el ordenador aunque no te lo pida, ya que algunas actualizaciones no surtirán efecto hasta que lo hagas.
-
-Cabe señalar que algunas actualizaciones pueden requerir configuraciones adicionales o cambios en los ajustes después de la instalación. **Leer las notas del parche** de cada actualización es crucial para asegurarse de que se instala y configura correctamente. Además, algunas actualizaciones pueden tener requisitos adicionales a tener en cuenta. Por ejemplo, el parche Spectre/Meltdown requiere la configuración de registros adicionales.
-
-Siguiendo estos pasos puede asegurarse de que su sistema Windows está actualizado con los últimos parches de seguridad y protegido frente a las ciberamenazas.
+Como se indicó, Microsoft publica periódicamente **actualizaciones de seguridad acumulativas**. Incluyen todas las actualizaciones y correcciones de seguridad publicadas anteriormente, además de las nuevas. Una ventaja de una **actualización de seguridad acumulativa** es que ahorra tiempo y esfuerzo porque no tienes que instalar cada actualización por separado.
 
 ______
 
-## Prácticas recomendadas para instalar parches de seguridad acumulativos
+## Pasos para instalar actualizaciones de seguridad acumulativas
 
-Al instalar **parches de seguridad acumulativos**, es esencial seguir algunas buenas prácticas para garantizar que el proceso se realiza correctamente. Estas buenas prácticas son las siguientes:
+Instalar una **actualización de seguridad acumulativa** en Windows requiere unos pocos pasos sencillos:
 
-### Lectura de las notas del parche
+1. **Buscar actualizaciones:** Primero, comprueba si hay una actualización de seguridad acumulativa disponible. Abre la sección **Windows Update** del **Panel de control** o busca **Windows Update** en la barra de búsqueda de Windows. Después, haz clic en **Buscar actualizaciones**.
 
-Antes de instalar un **parche de seguridad acumulativo**, es fundamental leer atentamente las **notas de publicación**. Estas notas contienen información importante sobre el parche, como problemas conocidos, requisitos del sistema y requisitos previos. Al leer las notas de la versión, puede asegurarse de que el parche es compatible con su sistema y evitar cualquier problema que pueda surgir de la instalación.
+2. **Descargar e instalar:** Si hay actualizaciones disponibles, descárgalas e instálalas. Normalmente, las actualizaciones de seguridad acumulativas incluyen todas las anteriores, así que no tienes que instalarlas por separado. Descarga e instala el parche más reciente, que incluirá los anteriores.
 
-Por ejemplo, la **actualización acumulativa de mayo de 2021** para **Windows 10 versión 2004 y versión 20H2 tenía un problema conocido** que provocaba bloqueos del sistema cuando se utilizaban determinados controladores de impresora. **Este problema se mencionaba en las notas de la versión**, y se recomendaba a los usuarios que desinstalaran el parche si encontraban este problema.
+3. **Reiniciar:** Cuando termine la instalación, reinicia el equipo para aplicar las actualizaciones. Hazlo aunque Windows no te lo solicite, ya que algunos cambios no surtirán efecto hasta que reinicies.
 
-Además, **algunos parches pueden requerir configuraciones adicionales o cambios en los ajustes después de la instalación**. Las notas de la versión de cada actualización contendrán esta información, y es importante seguir las instrucciones cuidadosamente para asegurarse de que el parche se instala y configura correctamente.
+Algunas actualizaciones requieren configuraciones adicionales o cambios de ajustes después de instalarlas. **Lee la información del parche** para confirmar que se instaló y configuró correctamente. Algunas actualizaciones también tienen requisitos adicionales. Por ejemplo, el parche de Spectre/Meltdown requiere configurar registros adicionales.
 
-En conclusión, leer las notas de la versión antes de instalar un parche de seguridad acumulativo es un paso importante para mantener la seguridad y estabilidad de su sistema Windows. Si se toma el tiempo necesario para revisar la información proporcionada en las notas de la versión, podrá evitar posibles problemas y asegurarse de que el parche se instala correctamente.```
+Estos pasos ayudan a mantener Windows actualizado con los últimos parches de seguridad y a proteger el sistema frente a ciberamenazas.
 
-### Cumulative Patches
+______
 
-When it comes to installing **cumulative patches** on Windows, it's important to understand how they work. As the name suggests, cumulative patches include all previous security updates and patches, which means that you can apply the latest patch to your system without worrying about installing all the previous patches.
+## Prácticas recomendadas para instalar actualizaciones de seguridad acumulativas
 
-However, **it's still necessary to review the release notes for each patch to ensure that all previous patches are covered**. While the answer is typically yes, there may be exceptions where certain patches are not included in the cumulative patch. For example, if a patch was released after the last cumulative patch, it may not be included in the latest patch, and you'll need to install it separately.
+Sigue estas prácticas recomendadas para instalar correctamente las **actualizaciones de seguridad acumulativas**.
 
-Furthermore, **the patch notes for the latest security patch may not provide information about any additional configurations needed from previous patches**. **For example, the Spectre/Meltdown patch requires additional registers to be set**. To ensure that your system is fully secure, **it's important to review the notes for all patches** and implement any additional configurations as needed.
+### Leer la información de los parches
 
-In conclusion, while cumulative patches generally include all previous security updates and patches, it's still important to review the release notes for each patch to ensure that your system is fully protected. By taking the time to understand how cumulative patches work and reviewing the release notes, you can ensure that your system remains secure and protected against cybersecurity threats.
+Antes de instalar una **actualización de seguridad acumulativa**, lee atentamente las **notas de la versión**. Contienen información importante sobre el parche, como problemas conocidos, requisitos del sistema y condiciones previas. Al leerlas, podrás confirmar que el parche es compatible con el sistema y evitar problemas durante la instalación.
 
-### Additional Requirements
+Por ejemplo, la **actualización acumulativa de mayo de 2021** para **Windows 10, versiones 2004 y 20H2, tenía un problema conocido** que provocaba fallos del sistema al usar ciertos controladores de impresora. **El problema aparecía en las notas de la versión**, que recomendaban desinstalar el parche si se presentaba.
 
-In addition to reviewing the release notes for a **cumulative security patch**, it's important to check if the patch has any additional requirements that need to be considered. For instance, the Spectre/Meltdown patch requires additional registers to be set, which may impact system performance if not properly configured.
+**Algunos parches requieren configuraciones adicionales o cambios de ajustes después de la instalación.** Las notas de la versión de cada actualización incluyen esa información. Sigue las instrucciones con cuidado para instalar y configurar el parche correctamente.
 
-**To avoid any issues, make sure to review the release notes for the patch and follow any additional requirements as necessary**. These additional requirements may include setting up new configurations or modifying existing ones, so it's important to have a good understanding of your system and how it works.
+En resumen, leer las notas de la versión antes de instalar una actualización de seguridad acumulativa es un paso importante. Así puedes evitar problemas e instalar la actualización correctamente.```
 
-In conclusion, by being aware of any additional requirements for a **cumulative security patch**, you can ensure that your system remains secure and protected against cybersecurity threats. Take the time to review the release notes and understand any additional requirements to avoid any issues with the patch installation.
+### Parches acumulativos
 
-### Back Up Your Data
+Para instalar **parches acumulativos** en Windows, es importante entender cómo funcionan. Como indica el nombre, incluyen todas las actualizaciones y los parches de seguridad anteriores. Por eso puedes instalar el último parche sin instalar antes cada uno de los anteriores.
 
-It's always a good practice to back up your data before installing any updates or patches, especially when it comes to **cumulative security patches**. These patches can have a significant impact on your system, and in case of any issues during the installation process, you may need to recover your data from a backup.
+**Aun así, revisa las notas de la versión de cada parche para confirmar que incluye los parches anteriores.** Por lo general sí, pero hay excepciones. Un parche publicado después de la última actualización acumulativa podría no estar incluido en la más reciente y tendrías que instalarlo por separado.
 
-There are many ways to back up your data, such as using external hard drives, cloud storage services like Dropbox or Google Drive, or using backup software like Acronis or EaseUS. Whatever method you choose, make sure to create a full backup of your system and data, and store the backup in a safe place.
+**Las notas del parche de seguridad más reciente podrían no mencionar las configuraciones adicionales que requieren parches anteriores.** **Por ejemplo, el parche de Spectre/Meltdown requiere configurar registros adicionales.** Para proteger por completo el sistema, **revisa las notas de todos los parches** y aplica las configuraciones adicionales que correspondan.
 
-In addition to backing up your data, it's also a good idea to create a restore point before installing the patch. A restore point is a snapshot of your system's configuration and settings, and can be used to restore your system to a previous state in case of any issues.
+Los parches acumulativos suelen incluir todas las actualizaciones de seguridad y los parches anteriores. Aun así, revisa las notas de la versión para confirmar que el sistema está protegido.
 
-In conclusion, by backing up your data and creating a restore point before installing a **cumulative security patch**, you can ensure that your system and data are protected in case of any issues during the installation process.
+### Requisitos adicionales
 
-### Install Patches Regularly
+Además de revisar las notas de la versión de una **actualización de seguridad acumulativa**, comprueba si el parche tiene requisitos adicionales. Por ejemplo, el parche de Spectre/Meltdown requiere configurar registros adicionales. Una configuración incorrecta puede afectar al rendimiento del sistema.
 
-It is crucial to keep your system secure by installing **cumulative security patches** regularly. These patches address new vulnerabilities and security issues that may arise. 
+**Para evitar problemas, revisa las notas de la versión y cumple los requisitos adicionales que correspondan.** Estos pueden incluir nuevas configuraciones o cambios en las existentes. Asegúrate de entender el funcionamiento del sistema antes de modificarlo.
 
-For example, in 2021, Microsoft released several patches to address the PrintNightmare vulnerability. This vulnerability allowed attackers to take control of a victim's system remotely. Installing the patch provided by Microsoft would protect against this type of attack.
+Conocer los requisitos adicionales de una **actualización de seguridad acumulativa** ayuda a mantener el sistema protegido. Dedica tiempo a revisar las notas de la versión y esos requisitos.
 
-By installing patches promptly, you can ensure your system is up to date with the latest security measures. This will help protect against potential attacks and keep your system running smoothly.
+### Haz una copia de seguridad de tus datos
 
-### Test on a Non-Production Environment
+Es recomendable hacer una copia de seguridad antes de instalar actualizaciones o parches, especialmente **actualizaciones de seguridad acumulativas**. Pueden tener un impacto importante en el sistema. Si surge un problema durante la instalación, podrás recuperar los datos desde la copia.
 
-It is essential to test **cumulative security patches** on a non-production environment before installing them on a production environment. This practice will help identify any potential issues that may arise due to the patch.
+Puedes guardar los datos en un disco duro externo, en un servicio en la nube como Dropbox o Google Drive, o con un programa de copias de seguridad como Acronis o EaseUS. Sea cual sea el método, crea una copia completa del sistema y de los datos y guárdala en un lugar seguro.
 
-For example, suppose you have a web application running on a production environment. Before installing a new security patch, it is recommended to test the patch on a non-production environment to ensure it does not cause any compatibility or performance issues. 
+También conviene crear un punto de restauración antes de instalar el parche. Es una instantánea de la configuración y los ajustes del sistema que te permite volver a un estado anterior si algo falla.
 
-Testing on a non-production environment allows you to identify and fix any potential issues before they affect your live application. This reduces the risk of downtime or data loss due to an untested patch.
+Hacer una copia de seguridad y crear un punto de restauración antes de instalar una **actualización de seguridad acumulativa** protege el sistema y los datos ante posibles problemas de instalación.
 
-In summary, testing on a non-production environment is a best practice that helps ensure that the patch will not negatively impact the production environment.
+### Instala parches periódicamente
 
-### Use a Patch Management System
+Instala **actualizaciones de seguridad acumulativas** con regularidad para proteger el sistema. Estos parches corrigen nuevas vulnerabilidades y problemas de seguridad.
 
-A **patch management system** is an automated tool that helps manage and deploy **cumulative security patches** across multiple systems. It automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
+Por ejemplo, en 2021 Microsoft publicó varios parches para la vulnerabilidad PrintNightmare, que permitía a los atacantes tomar el control remoto del sistema de una víctima. El parche de Microsoft protegía contra ese tipo de ataque.
 
-For example, **Microsoft's System Center Configuration Manager (SCCM)** is a popular patch management system that allows you to manage and deploy patches across your organization. SCCM provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
+Instalar los parches pronto mantiene el sistema actualizado con las últimas medidas de seguridad. Esto ayuda a prevenir posibles ataques y a mantener el sistema en buen funcionamiento.
 
-Using a patch management system provides several benefits, including:
+### Prueba en un entorno que no sea de producción
 
-- **Automated patch deployment**: The system automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
-- **Centralized management**: A patch management system provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
-- **Reporting and compliance**: The system provides reporting and compliance features that help ensure systems are up to date and in compliance with security policies.
+Prueba las **actualizaciones de seguridad acumulativas** en un entorno que no sea de producción antes de instalarlas en producción. Así podrás detectar los problemas que podría causar el parche.
 
-In summary, using a patch management system can simplify the patch deployment process and ensure that all systems are up to date, reducing the risk of security breaches and downtime.```
+Por ejemplo, supongamos que tienes una aplicación web en producción. Antes de instalar un nuevo parche de seguridad, pruébalo en un entorno que no sea de producción para comprobar que no cause problemas de compatibilidad o rendimiento.
+
+Las pruebas en un entorno que no sea de producción permiten detectar y corregir problemas antes de que afecten a la aplicación activa. Esto reduce el riesgo de interrupciones o pérdida de datos por un parche no probado.
+
+Probar en un entorno que no sea de producción ayuda a confirmar que el parche no afectará negativamente al entorno de producción.
+
+### Usa un sistema de gestión de parches
+
+Un **sistema de gestión de parches** es una herramienta automatizada que ayuda a gestionar e implementar **actualizaciones de seguridad acumulativas** en varios sistemas. Automatiza la implementación y reduce el tiempo y el esfuerzo necesarios para mantener los sistemas actualizados.
+
+**Microsoft System Center Configuration Manager (SCCM)** es un sistema de gestión de parches popular. Permite gestionar e implementar parches en una organización. Una consola central facilita el seguimiento y la implementación de parches en varios sistemas.
+
+Un sistema de gestión de parches ofrece varias ventajas, entre ellas:
+
+- **Implementación automática de parches:** automatiza la instalación y reduce el esfuerzo necesario para mantener los sistemas al día.
+- **Gestión centralizada:** ofrece una consola central para hacer seguimiento e implementar parches en varios sistemas.
+- **Informes y cumplimiento:** ayuda a comprobar que los sistemas estén actualizados y cumplan las políticas de seguridad.
+
+Un sistema de gestión de parches puede simplificar su implementación y mantener los sistemas actualizados, lo que reduce el riesgo de brechas de seguridad e interrupciones.```
 
 ______
 
 ## Conclusión
 
-En conclusión, instalar **parches de seguridad acumulativos** en Windows es esencial para mantener tu sistema seguro. Siguiendo los pasos y las mejores prácticas comentadas en este artículo, puedes asegurarte de que el proceso de instalación se realiza correctamente y tu sistema se mantiene actualizado con los últimos parches de seguridad. Recuerda siempre hacer una copia de seguridad de tus datos antes de instalar cualquier actualización, y prueba regularmente los parches en entornos no productivos antes de desplegarlos en un entorno productivo. Siguiendo estas buenas prácticas, puede minimizar el riesgo de ciberataques y garantizar que su sistema permanezca seguro.
+Instalar **actualizaciones de seguridad acumulativas** en Windows es esencial para proteger el sistema. Sigue los pasos y las prácticas recomendadas de este artículo para instalar las actualizaciones correctamente y mantener el sistema al día. Haz siempre una copia de seguridad antes de instalar actualizaciones y prueba los parches periódicamente en un entorno que no sea de producción antes de implementarlos en producción. Estas prácticas reducen el riesgo de ciberataques y ayudan a mantener seguro el sistema.
 
 ## Referencias:
 
-[1] Microsoft. (2021, 12 de enero). Guía de actualizaciones de seguridad. Recuperado el 22 de marzo de 2023, de https://msrc.microsoft.com/update-guide/.
+[1] Microsoft. (2021, 12 de enero). Security Update Guide. Consultado el 22 de marzo de 2023 en https://msrc.microsoft.com/update-guide/
 
-[2] Microsoft (2021, 11 de agosto). System Center Configuration Manager (SCCM). Obtenido el 22 de marzo de 2023, del sitio Web: https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
+[2] Microsoft. (2021, 11 de agosto). System Center Configuration Manager (SCCM). Consultado el 22 de marzo de 2023 en https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
 
-[3] Acronis. (2022). Acronis True Image. Obtenido el 22 de marzo de 2023, de https://www.acronis.com/en-us/products/true-image/
+[3] Acronis. (2022). Acronis True Image. Consultado el 22 de marzo de 2023 en https://www.acronis.com/en-us/products/true-image/
 
-[4] EaseUS. (2022). Todo Backup. Extraído el 22 de marzo de 2023, de https://www.easeus.com/backup-software/
+[4] EaseUS. (2022). Todo Backup. Consultado el 22 de marzo de 2023 en https://www.easeus.com/backup-software/
 
-[5] Instituto Nacional de Estándares y Tecnología. (2022, 10 de febrero). Guía de tecnologías de gestión de parches para empresas. Obtenido el 22 de marzo de 2023, del sitio Web: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
+[5] National Institute of Standards and Technology. (2022, 10 de febrero). Guide to Enterprise Patch Management Technologies. Consultado el 22 de marzo de 2023 en https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
 
-[6] Centro Nacional de Ciberseguridad. (2021). 10 pasos hacia la ciberseguridad. Obtenido el 22 de marzo de 2023, del sitio Web: https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security
-
+[6] National Cyber Security Centre. (2021). 10 Steps to Cyber Security. Consultado el 22 de marzo de 2023 en https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security

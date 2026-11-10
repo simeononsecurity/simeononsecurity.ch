@@ -1,6 +1,7 @@
 ---
 title: "掌握 Wireshark：网络分析综合入门指南"
 date: 2023-04-07
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "通过本详细的入门指南，了解如何有效使用 Wireshark 进行网络分析和故障排除。"
@@ -63,11 +64,31 @@ Wireshark 是排除各种网络问题（如延迟、数据包丢失或连接问�
 - 识别缓慢的网络连接：** 通过分析数据包之间的往返时间 (RTT)，确定缓慢的网络连接是由网络延迟还是应用程序延迟造成的。使用 TCP 流图功能可视化 RTT 值并识别可能的瓶颈。
 - 检测未经授权的访问：** 根据 IP 地址、端口或协议过滤数据包，监控网络流量中的可疑活动或未经授权的访问尝试。
 
+## 初学者的抓包计划
+
+先明确一个问题，并设置较短的抓包时间。在承载待检查流量的接口上抓包，重现一次问题，然后停止抓包。保存 pcapng 文件并附上时间戳。抓包通常包含凭据、个人数据、主机名和内部地址。请将其作为敏感记录保存，只与获准人员共享。
+
+**捕获过滤器**用于减少抓包期间写入文件的数据包。抓包后，使用**显示过滤器**隐藏数据包，但不从文件中删除。两种过滤器的语法不同。Wireshark 指南分别介绍这两种过滤语言。
+
+| 目标 | 显示过滤器 | 检查内容 |
+|---|---|---|
+| **DNS 故障** | `dns` | 查询名称、响应代码、服务器地址和响应延迟。 |
+| **TCP 建连** | `tcp.flags.syn == 1` | 目标端点的 SYN、SYN-ACK 和最终 ACK。 |
+| **重传** | `tcp.analysis.retransmission` | 方向、时间，以及同一路径是否反复丢包。 |
+| **单个主机** | `ip.addr == 192.168.1.20` | 与所选主机之间的流量。 |
+| **单项服务** | `tcp.port == 443` | 所选 TCP 端口，不预设使用该端口的应用。 |
+
+在终端中，`tshark -i <interface> -f "host 192.168.1.20" -w incident.pcapng` 使用 libpcap 捕获过滤器写入 pcapng 文件。`tshark -r incident.pcapng -Y "dns or tcp.analysis.retransmission"` 使用显示过滤器读取文件。请将接口、地址和文件名替换为授权测试中的值。
+
+选择数据包并使用 **Analyze > Follow** 检查协议流。Wireshark 支持 TCP、UDP、TLS、HTTP、HTTP/2、QUIC、WebSocket、SIP 等协议流。跟踪协议流本身不会解密 TLS。[Wireshark 协议流指南](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)说明了功能范围和限制。
+
+将 **Expert Information** 视为线索。结合时间戳、端点、接口计数器和应用日志，核对重传、重复或格式错误的数据包。Wireshark 文档说明，Expert Information 是调查起点，不是故障证据。
+
 ______
 
 ## 遵循政府法规
 
-某些政府法规，如 [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) and the [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html)要求组织保护敏感信息并维护网络安全。Wireshark 可以通过监控网络流量来防止未经授权的访问或数据泄漏，从而帮助您遵守这些规定。
+某些政府法规，如 [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)和 [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html)要求组织保护敏感信息并维护网络安全。Wireshark 可以通过监控网络流量来防止未经授权的访问或数据泄漏，从而帮助您遵守这些规定。
 
 请记住，使用 Wireshark 捕获和分析网络流量可能也属于法律和道德方面的考虑。在使用 Wireshark 进行网络分析之前，请务必确保获得适当授权，并遵守贵组织的政策和当地法律。
 
@@ -85,6 +106,9 @@ ______
 2. [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/)
 3. [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 4. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+5. [Wireshark TShark 手册](https://www.wireshark.org/docs/man-pages/tshark.html)
+6. [在 Wireshark 中跟踪协议流](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
+7. [Wireshark Expert Information](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvExpert.html)
 
 切记要自己练习和尝试使用 Wireshark，以加深对其功能的理解。使用得越多，就能越熟练地识别和解决网络问题。
 

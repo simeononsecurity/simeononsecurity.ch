@@ -1,6 +1,7 @@
 ---
 title: "¿Qué son los centinelas cibernéticos y por qué deberías unirte a ellos?"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Descubra la misión y los principios de los Cibercentinelas, una comunidad de profesionales de la ciberseguridad y las TI comprometidos con el intercambio de conocimientos y el desarrollo de soluciones innovadoras a los retos de la ciberseguridad."
@@ -18,7 +19,7 @@ Como comunidad, los Cyber Sentinels están abiertos a cualquiera que comparta su
 
 En esencia, los Cyber Sentinels defienden algunos principios clave que guían su misión y visión. Estos principios incluyen:
 
-**1. 1. Colaboración
+**1. Colaboración**
 
 Los Cibercentinelas creen en el poder de la colaboración para lograr grandes cosas. Trabajando juntos y compartiendo conocimientos, pueden desarrollar soluciones innovadoras para los retos de ciberseguridad más complejos.
 
@@ -40,7 +41,7 @@ Al fin y al cabo, los Cibercentinelas trabajan para influir positivamente en la 
 
 ## Unirse a los Cyber Sentinels
 
-Si está interesado en unirse a los Cyber Sentinels, el primer paso es visitar su sitio web en [https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) y empiece a explorar los distintos canales y a participar en la comunidad. Los centinelas cibernéticos dan la bienvenida a profesionales de todos los niveles, desde principiantes hasta expertos, y ofrecen una gran variedad de canales para que los miembros participen, incluidos canales de texto y voz para debates generales, noticias y eventos, aprendizaje y desarrollo, y proyectos y colaboraciones. También ofrecen un canal dedicado a oportunidades de empleo y asesoramiento profesional, así como un canal para conversaciones desenfadadas y diversión. Al unirse a los centinelas cibernéticos, tendrá la oportunidad de conectar con profesionales afines en el campo de la ciberseguridad, aprender de sus experiencias y colaborar en nuevas ideas y proyectos.
+Si está interesado en unirse a los Cyber Sentinels, el primer paso es visitar su sitio web en [https://cybersentinels.org](https://cybersentinels.org). Desde allí, puede unirse a su servidor de Discord en [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) y empezar a explorar los distintos canales y a participar en la comunidad. Los centinelas cibernéticos dan la bienvenida a profesionales de todos los niveles, desde principiantes hasta expertos, y ofrecen una gran variedad de canales para que los miembros participen, incluidos canales de texto y voz para debates generales, noticias y eventos, aprendizaje y desarrollo, y proyectos y colaboraciones. También ofrecen un canal dedicado a oportunidades de empleo y asesoramiento profesional, así como un canal para conversaciones desenfadadas y diversión. Al unirse a los centinelas cibernéticos, tendrá la oportunidad de conectar con profesionales afines en el campo de la ciberseguridad, aprender de sus experiencias y colaborar en nuevas ideas y proyectos.
 
 ___________________________________________________________________________
 

@@ -1,12 +1,13 @@
 ---
 title: "Cyber-resistente Infrastruktur: Best Practices für die Planung der Wiederherstellung im Katastrophenfall"
 date: 2023-05-10
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie mit effektiver Notfallplanung und bewährten Verfahren eine widerstandsfähige Infrastruktur aufbauen können."
 tags: ["Cyber-Resilienz", "Notfallwiederherstellungsplanung", "DRP", "Risikomanagement", "Geschäftskontinuität", "datenschutz", "Einhaltung von Rechtsvorschriften", "NIST Cybersecurity Framework", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "Cloud-Backup", "Sicherungs- und Wiederherstellungssoftware", "Risikobewertungsinstrumente", "incident response services", "Cybersicherheit", "Informationssicherheit", "IT-Infrastruktur"]
-cover: "/img/cover/A_shield_with_a_check_mark.webp"
-coverAlt: "Ein Schild mit einem Häkchen und dem Schriftzug Cyber Resilient Infrastructure, umgeben von herabfallenden Pixeln und dem Hintergrund einer brennenden Stadt."
+cover: "/img/cover/building-a-cyber-resilient-infrastructure-best-practices-for-disaster-recovery.webp"
+coverAlt: "Ein futuristisches Rechenzentrum mit leuchtenden Servern und Netzwerkgeräten, in kräftigen Farben vor dunklem Hintergrund dargestellt. Holografische Elemente symbolisieren Strategien zur Notfallwiederherstellung und Risikobewertungen."
 coverCaption: ""
 ---
 
@@ -129,7 +130,7 @@ Durch die Durchführung einer Post-Mortem-Analyse als Teil der Implementierung e
 Mehrere staatliche Vorschriften verlangen von Unternehmen die Einführung eines DRP, um sensible Daten zu schützen und die Geschäftskontinuität zu gewährleisten. Zu diesen Vorschriften gehören unter anderem:
 
 - **HIPAA** (Health Insurance Portability and Accountability Act)
-- SOX** (Sarbanes-Oxley-Gesetz)
+- **SOX** (Sarbanes-Oxley-Gesetz)
 - **PCI DSS** (Payment Card Industry Data Security Standard)
 - **GLBA** (Gramm-Leach-Bliley-Gesetz)
 - **FERPA** (Family Educational Rights and Privacy Act)
@@ -142,11 +143,11 @@ Verschiedene Hilfsmittel und Dienste können Organisationen bei der Entwicklung 
 
 - **Cloud-Backup- und Disaster-Recovery-Dienste** - Cloud-basierte Backup- und Disaster-Recovery-Dienste bieten Unternehmen eine sichere und skalierbare Lösung für den Schutz wichtiger Daten und Anwendungen.
 
-- Dienste für die Reaktion auf Vorfälle** - Dienste für die Reaktion auf Vorfälle können Unternehmen im Falle eines Cyberangriffs oder einer anderen Katastrophe sofortige Unterstützung und Fachwissen bieten.
+- **Dienste für die Reaktion auf Vorfälle** - Dienste für die Reaktion auf Vorfälle können Unternehmen im Falle eines Cyberangriffs oder einer anderen Katastrophe sofortige Unterstützung und Fachwissen bieten.
 
 - **Sicherungs- und Wiederherstellungssoftware** - Sicherungs- und Wiederherstellungssoftware kann den Sicherungsprozess automatisieren und den Wiederherstellungsprozess im Falle einer Katastrophe vereinfachen.
 
-- Tools zur Risikobewertung** - Tools zur Risikobewertung können Unternehmen bei der Ermittlung potenzieller Bedrohungen und Schwachstellen sowie bei der Entwicklung von Strategien zur Abschwächung dieser Risiken unterstützen.
+- **Tools zur Risikobewertung** - Tools zur Risikobewertung können Unternehmen bei der Ermittlung potenzieller Bedrohungen und Schwachstellen sowie bei der Entwicklung von Strategien zur Abschwächung dieser Risiken unterstützen.
 
 ## Schlussfolgerung
 

@@ -1,7 +1,7 @@
 ---
 title: "9 проектов AI Agent Skill для исследований, дизайна и разработки"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Сравните девять проектов agent skills по рабочему процессу, поддержке хоста, зависимостям и стоимости. Узнайте, как устанавливать, проверять и тестировать нужные вам skills."
@@ -223,16 +223,16 @@ record:
 
 ## Ссылки
 
-- [last30days: research skill and installation](https://github.com/mvanhorn/last30days-skill)
-- [Humanizer: writing skill](https://github.com/blader/humanizer)
-- [Impeccable: design workflow](https://impeccable.style/)
-- [Impeccable: repository and host-specific setup](https://github.com/pbakaus/impeccable)
-- [Superpowers: development skills](https://github.com/obra/superpowers)
-- [gstack: engineering tools and host support](https://github.com/garrytan/gstack)
-- [Claude Video: Watch skill and runtime requirements](https://github.com/bradautomates/claude-video)
-- [Remotion: React video framework](https://github.com/remotion-dev/remotion)
-- [Remotion: agent skills](https://www.remotion.dev/docs/ai/skills)
-- [Remotion: licensing and pricing](https://www.remotion.dev/docs/license/pricing)
-- [HyperFrames: framework and skill distribution](https://github.com/heygen-com/hyperframes)
-- [NVIDIA SkillSpector: scanner behavior and data handling](https://github.com/NVIDIA/SkillSpector)
-- [Futurepedia: 9 Free AI Agent Skills You NEED to Install Now](https://www.youtube.com/watch?v=3fdb_giOrLo)
+- [last30days: навык исследования и установки](https://github.com/mvanhorn/last30days-skill)
+- [Humanizer: навык редактирования текста](https://github.com/blader/humanizer)
+- [Impeccable: рабочий процесс проектирования](https://impeccable.style/)
+- [Impeccable: репозиторий и настройки для конкретной среды](https://github.com/pbakaus/impeccable)
+- [Superpowers: навыки разработки](https://github.com/obra/superpowers)
+- [gstack: инженерные инструменты и поддержка сред](https://github.com/garrytan/gstack)
+- [Claude Video: навык Watch и требования к среде выполнения](https://github.com/bradautomates/claude-video)
+- [Remotion: видеоплатформа для React](https://github.com/remotion-dev/remotion)
+- [Remotion: навыки для агентов](https://www.remotion.dev/docs/ai/skills)
+- [Remotion: лицензирование и цены](https://www.remotion.dev/docs/license/pricing)
+- [HyperFrames: платформа и распространение навыков](https://github.com/heygen-com/hyperframes)
+- [NVIDIA SkillSpector: работа сканера и обработка данных](https://github.com/NVIDIA/SkillSpector)
+- [Futurepedia: 9 бесплатных навыков ИИ-агентов, которые стоит установить сейчас](https://www.youtube.com/watch?v=3fdb_giOrLo)

@@ -252,6 +252,33 @@ Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
 
+## RSAT और PowerShell की मौजूदा जाँच
+
+Microsoft अब Remote Server Administration Tools (RSAT) के माध्यम से Active Directory मॉड्यूल वितरित करता है। समर्थित Windows क्लाइंट संस्करणों में उन्नत PowerShell सत्र से वैकल्पिक सुविधा इंस्टॉल करें:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+Windows Server पर Microsoft द्वारा प्रलेखित सर्वर सुविधा प्रक्रिया अपनाएँ:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+प्रशासनिक कमांड चलाने से पहले मॉड्यूल की पुष्टि करें:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+[ActiveDirectory मॉड्यूल संदर्भ](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) बताता है कि RSAT मॉड्यूल उपलब्ध कराता है और उसके cmdlet सूचीबद्ध करता है। होस्ट ऑपरेटिंग सिस्टम के अनुरूप संस्करण चुनें। PowerShell 7 में संगतता संबंधी बातें हैं, इसलिए स्थापित प्रशासनिक कार्यप्रवाह बदलने से पहले गैर-उत्पादन वर्कस्टेशन पर मॉड्यूल जाँचें।
+
+कार्रवाई संबंधी सुझाव के रूप में, जहाँ cmdlet समर्थन करे वहाँ `-WhatIf` इस्तेमाल करें, किसी खास डोमेन कंट्रोलर के लिए `-Server` से क्वेरी सीमित करें और काम के लिए आवश्यक न्यूनतम अनुमति माँगें। PowerShell [सामान्य पैरामीटर](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters) में `-WhatIf` का दस्तावेज़ देता है। पासवर्ड को कमांड इतिहास या स्क्रिप्ट में न रखें। सुरक्षित [Get-Credential प्रॉम्प्ट](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), सुरक्षित सीक्रेट स्टोर या दस्तावेज़ित रोटेशन प्रक्रिया वाला प्रतिनिधिकृत सेवा खाता चुनें।
+
 ## निष्कर्ष
 
 सारांश में, **PowerShell के लिए Active Directory मॉड्यूल** एक शक्तिशाली उपकरण है जो Windows Active Directory के कुशल और सुविधाजनक प्रबंधन को सक्षम बनाता है। मॉड्यूल को इंस्टॉल और इम्पोर्ट करके, आप एक व्यापक सेट के **cmdlets** तक पहुँच प्राप्त करते हैं जो विभिन्न AD-संबंधित कार्यों को सरल बनाते हैं।

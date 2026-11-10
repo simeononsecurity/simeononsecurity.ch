@@ -1,11 +1,12 @@
 ---
 title: "Creare un data lake sicuro e conforme al cloud: Le migliori pratiche per proteggere i dati archiviati"
 date: 2023-04-16
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Questa guida completa illustra le best practice in materia di sicurezza e conformità per la pianificazione, la realizzazione e la gestione di data lake basati sul cloud."
 tags: ["lago di dati", "sicurezza del cloud", "regolamenti di conformità", "controlli di accesso", "crittografia", "AWS", "Azzurro", "HIPAA", "GDPR", "monitoring", "rattoppare", "sicurezza informatica", "Soluzione SIEM", "Team di supporto IT", "panorama delle minacce", "migrazione in cloud", "governance del cloud"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
+cover: "/img/cover/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake.webp"
 coverAlt: "Un'immagine a fumetti di un castello sorvegliato da un cavaliere guerriero, che simboleggia il concetto di forte protezione per uno storage sicuro e conforme al cloud"
 coverCaption: ""
 ---
@@ -42,7 +43,7 @@ Inoltre, assicuratevi che vengano eseguite **patching regolari dei componenti cr
 
 ## Tenere il passo con l'evoluzione del panorama delle minacce
 
-**A causa di un panorama di sicurezza in continua evoluzione, i controlli di sicurezza del cloud devono adattarsi rapidamente alle nuove minacce.
+**Poiché il panorama della sicurezza cambia continuamente, i controlli di sicurezza del cloud devono adattarsi rapidamente alle nuove minacce.**
 
 Se state cercando di conformarvi a normative specifiche che regolano l'archiviazione dei dati, adottate misure per mantenere questi requisiti di conformità attraverso audit di conformità e report regolari generati dai rispettivi servizi.
 

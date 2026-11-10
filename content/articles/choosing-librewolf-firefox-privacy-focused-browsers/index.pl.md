@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp
 coverAlt: Ilustracja przedstawiająca cyfrowy krajobraz z tarczą symbolizującą prywatność, otoczoną żywymi ikonami reprezentującymi ochronę danych, na ciemnym tle.
 coverCaption: 'Odblokuj swoją prywatność: poznaj przeglądarki LibreWolf i Firefox'
-lastmod: 2026-10-08
+lastmod: 2026-11-09
 ---
 **Przeglądarki skoncentrowane na prywatności: porównanie LibreWolf i Firefox**
 
@@ -117,6 +117,14 @@ ______
 
 ______
 
+## Aktualizacja zabezpieczeń: Firefox 159 (27 października 2026 r.)
+
+**Ustawienia prywatności nie zastępują aktualizacji zabezpieczeń.** [Komunikat bezpieczeństwa Mozilli dotyczący Firefoksa 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/) wymienia poważne problemy, w tym CVE-2026-117860, obejście polityki tego samego pochodzenia, oraz CVE-2026-117861, CVE-2026-117864 i CVE-2026-117868, opisane jako ucieczki z piaskownicy. Mozilla wskazuje **Firefoksa 159** jako wersję zawierającą poprawkę, a [informacje o wydaniu 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/) datują wydanie na 27 października. Komunikat nie określa pierwszej wersji podatnej na każdy problem ani nie zgłasza aktywnego wykorzystania.
+
+**Sprawdź używaną gałąź.** Jeśli korzystasz ze standardowego Firefoksa, zainstaluj aktualne wydanie z normalnego kanału aktualizacji i sprawdź numer w oknie „O programie Firefox”. Firefox ESR ma osobne komunikaty: Mozilla wskazuje [ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/) jako wydanie naprawiające cztery wymienione CVE i publikuje oddzielny [komunikat ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/) dla tej gałęzi. Nie używaj numeru standardowego Firefoksa do sprawdzania poprawek ESR.
+
+W przypadku **LibreWolf lub innej przeglądarki opartej na Firefoksie** porównaj zainstalowaną kompilację z informacjami o wydaniach i komunikatami bezpieczeństwa projektu pochodnego. Sam komunikat Mozilli o Firefoksie nie potwierdza, że kompilacja pochodna zawiera konkretną poprawkę. Sprawdź [wydania projektu LibreWolf](https://librewolf.dev/librewolf/bsys6/releases) dla instalowanej kompilacji, zamiast traktować ustawienia prywatności lub wydanie Firefoksa jako potwierdzenie poprawki.
+
 ## Oprogramowanie Open Source i zaangażowanie społeczności
 
 ### Nacisk LibreWolf na Open Source
@@ -141,11 +149,39 @@ Podobnie, **Firefox** jest licencjonowany na podstawie Mozilla Public License 2.
 
 ______
 
+## Lista kontrolna decyzji na 2026 rok
+
+LibreWolf i Firefox korzystają z tego samego silnika Firefox, ale odpowiadają różnym preferencjom dotyczącym utrzymania. LibreWolf stosuje konfigurację nastawioną na prywatność i usuwa lub zmienia niektóre usługi Mozilli. Firefox zapewnia szerszą ścieżkę wsparcia, bardziej znane ustawienia domyślne i bezpośrednią integrację z kontem Mozilla.
+
+Przed zmianą sprawdź cztery kwestie:
+
+- **Termin aktualizacji.** Szybko instaluj aktualizacje zabezpieczeń z oficjalnego kanału przeglądarki.
+- **Zgodność witryn.** Przetestuj bankowość, portale służbowe, rozmowy wideo i rozszerzenia menedżera haseł w osobnym profilu.
+- **Oddzielenie kont.** Nie używaj osobistych danych synchronizacji w profilu badawczym ani na współdzielonych urządzeniach.
+- **Odzyskiwanie.** Wyeksportuj zakładki, zapisz nazwy rozszerzeń i potwierdź dostęp do kodów odzyskiwania przed zmianą przeglądarki.
+
+Prywatność wymaga również przeglądu systemu operacyjnego, konta, routera i sieci. Prywatna przeglądarka nie ukrywa aktywności przed zalogowaną usługą, właścicielem lokalnego urządzenia ani dostawcą sieci. Przy sprawdzaniu ustawień skorzystaj z [pomocy Mozilli dotyczącej prywatności i bezpieczeństwa](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) oraz [dokumentacji LibreWolf](https://librewolf.net/docs/).
+
+## Aktualizacje, fingerprinting i zgodność
+
+**LibreWolf i Firefox rozwiązują różne problemy.** LibreWolf stosuje bardziej restrykcyjną konfigurację i usuwa wybrane usługi Firefoksa. FAQ projektu informuje, że aktualizacje zwykle pojawiają się w ciągu trzech dni od wydania Firefoksa, ale LibreWolf polega w tej kwestii na menedżerach pakietów lub użytkownikach. Firefox zapewnia standardową ścieżkę aktualizacji, synchronizację konta, szerszą zgodność i kontrolę ochrony dla poszczególnych witryn. Przeczytaj [FAQ LibreWolf](https://librewolf.net/docs/faq/) i [przewodnik Mozilli po ochronie przed śledzeniem](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false).
+
+**Ochrona przed fingerprintingiem ma ograniczenia.** Restrykcyjne ustawienia ograniczają typowe sygnały śledzenia, ale nie sprawiają, że wszyscy użytkownicy wyglądają identycznie. Rozmiar ekranu, język, system operacyjny, rozszerzenia i nietypowe modyfikacje nadal wpływają na wynik. Total Cookie Protection w Firefoksie izoluje pamięć witryn, ale nie ukrywa tożsamości konta przed odwiedzaną witryną. W tym porównaniu Tor Browser został zaprojektowany wokół wspólnego zbioru anonimowości. [Zobacz dokumentację Tor Browser dotyczącą ochrony przed fingerprintingiem](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+| Kryterium | LibreWolf | Firefox |
+|---|---|---|
+| **Ustawienia domyślne** | Silniejsza prywatność domyślna i większe kompromisy dotyczące zgodności | Zrównoważone ustawienia z regulowanymi poziomami ochrony |
+| **Aktualizacje** | Zależne od menedżera pakietów lub instalacji ręcznej | Aktualizacje przeglądarki zarządzane przez Mozillę |
+| **Synchronizacja** | Z założenia brak synchronizacji z kontem Mozilla | Wbudowana synchronizacja konta Firefox |
+| **Zgodność witryn** | Najpierw przetestuj DRM, portale służbowe i nietypowe aplikacje webowe | Szeroka zgodność z wyjątkami dla poszczególnych witryn |
+| **Najlepsze zastosowanie** | Osobna przeglądarka na komputer do badań wrażliwych na prywatność | Przeglądarka na co dzień, gdy ważne są wsparcie i synchronizacja |
+
+Przed zmianą otwórz potrzebne witryny, sprawdź zainstalowaną wersję i przetestuj nowy profil. Nie instaluj wielu rozszerzeń antyfingerprintingowych bez uzasadnionej potrzeby. Dodatkowe modyfikacje zwiększają liczbę problemów i mogą sprawić, że przeglądarka będzie mniej typowa.
+
 ## Podsumowanie: Wybór odpowiedniej przeglądarki skoncentrowanej na prywatności
 
-**LibreWolf** i **Firefox** oferują przekonujące opcje dla użytkowników poszukujących zwiększonej prywatności i bezpieczeństwa podczas przeglądania. Wybór między nimi zależy od indywidualnych priorytetów i preferencji. Jeśli użytkownicy cenią głęboką konfigurowalność i silny nacisk na wolność użytkownika
+**LibreWolf** i **Firefox** to atrakcyjne opcje dla osób szukających większej prywatności i bezpieczeństwa podczas przeglądania. Wybór zależy od indywidualnych priorytetów i preferencji. Jeśli użytkownicy cenią dużą możliwość personalizacji i silny nacisk na wolność użytkownika
 
-______
 
 ## Źródła
 
@@ -153,3 +189,8 @@ ______
 2. [Oficjalna strona Firefoksa](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Komunikat bezpieczeństwa Mozilli 2026-118: Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Informacje o wydaniu Firefox 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Komunikat bezpieczeństwa Mozilli 2026-120: Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Komunikat bezpieczeństwa Mozilli 2026-119: Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [Wydania projektu LibreWolf](https://librewolf.dev/librewolf/bsys6/releases)

@@ -1,7 +1,7 @@
 ---
 title: "I Migliori Browser per la Privacy 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: 'Confronto completo 2026 dei migliori browser focalizzati sulla privacy: LibreWolf, Brave, Firefox, Tor e altri. Test dettagliati sulla privacy, benchmark di prestazioni e analisi di sicurezza per proteggere i tuoi dati online.'
@@ -922,6 +922,41 @@ Molti utenti attenti alla privacy usano più browser:
 - Protegge dal furto d’identità
 - Previene manipolazioni
 - È un diritto umano fondamentale
+
+## Verifiche dei browser per la privacy nel 2026
+
+Il nome di un browser non dimostra che protegga la privacy. Prima di usarlo ogni giorno, verifica le impostazioni predefinite, il canale degli aggiornamenti, la policy sulle estensioni e il comportamento della sincronizzazione.
+
+1. Scarica il browser dal sito ufficiale del progetto o da un app store affidabile. Evita le versioni riconfezionate.
+2. Mantieni aggiornati browser e sistema operativo. Un’impostazione di privacy non corregge un browser senza patch.
+3. Controlla le protezioni integrate contro tracker, fingerprinting, download dannosi e siti ingannevoli.
+4. Considera le estensioni come software con privilegi elevati. Installane meno, controlla i permessi e rimuovi quelle che non usi.
+5. Esegui test con [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) e [BrowserLeaks](https://browserleaks.com/). Un test descrive un profilo del browser, ma non dimostra l’anonimato.
+6. Separa le identità con profili browser distinti. Non accedere ai tuoi account personali da una finestra di Tor Browser usata per ricerche sensibili.
+7. Usa Tor Browser con la configurazione standard. Font ed estensioni aggiuntivi, o modifiche alle dimensioni della finestra, riducono il vantaggio di un’impronta condivisa.
+
+LibreWolf è adatto a chi vuole impostazioni predefinite più rigorose e accetta qualche problema di compatibilità. Brave è adatto a chi vuole la compatibilità Chromium e il blocco integrato. Firefox è adatto a chi vuole il supporto Mozilla e controlli flessibili. Tor Browser è adatto a chi ha bisogno di anonimato a livello di rete e accetta velocità e compatibilità ridotte.
+
+Il [manuale di Tor Browser](https://tb-manual.torproject.org/) e la [guida alla privacy di Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) spiegano meglio questi controlli.
+
+## Limiti attuali della privacy e lista di verifica
+
+Le protezioni del browser riducono l’esposizione, ma non rendono anonimi un account, un dispositivo o una connessione. La **navigazione privata** elimina alcuni dati della cronologia locale al termine della sessione. Non nasconde il traffico al gestore della rete e non impedisce a un sito di identificare un utente che ha effettuato l’accesso. [Tor Project spiega la differenza](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**Il fingerprinting dipende da quante persone condividono caratteristiche simili al tuo browser.** Tor Browser cerca di raggruppare gli utenti in gruppi di impronte comuni con letterboxing, valori standardizzati e isolamento di prima parte. Tor Project afferma che l’anonimato perfetto non è possibile. Non aggiungere estensioni insolite, non massimizzare la finestra Tor e non cambiare le impostazioni predefinite senza un motivo preciso. [Leggi le indicazioni di Tor sul fingerprinting](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf richiede aggiornamenti regolari.** Le FAQ del progetto dicono che le versioni seguono Firefox upstream, spesso entro tre giorni, e che il browser non ha un aggiornamento automatico proprio. Usa il gestore di pacchetti o il metodo d’installazione della tua piattaforma, quindi controlla la versione installata dopo gli aggiornamenti di sicurezza. [Consulta le FAQ di LibreWolf](https://librewolf.net/docs/faq/).
+
+Prima di scegliere un browser, usa questa lista:
+
+- **Modello di minaccia:** stabilisci se vuoi ridurre il tracciamento, separare gli account, contrastare la censura o restare anonimo.
+- **Percorso degli aggiornamenti:** verifica chi li fornisce e come li installerai.
+- **Compatibilità:** prova servizi bancari, lavoro, contenuti multimediali, estensioni e accessibilità prima di migrare tutto il flusso di lavoro.
+- **Separazione delle identità:** evita gli accessi personali nelle sessioni create per ridurre i collegamenti tra attività.
+- **Fingerprinting:** mantieni impostazioni vicine alla configurazione comune. Molte estensioni per la privacy possono rendere il browser più riconoscibile.
+- **Livello di rete:** considera DNS, VPN e Tor controlli separati. Ognuno protegge una parte diversa della connessione.
+
+I punteggi di prestazioni e privacy riportati altrove in questa pagina sono misure storiche o confronti illustrativi se non sono indicati metodo, data, profilo hardware e risultati grezzi. Non considerarli classifiche universali attuali. Prova i tuoi siti e dispositivi dopo ogni aggiornamento importante del browser.
 
 ## Conclusione: Prendere il controllo della tua privacy digitale
 

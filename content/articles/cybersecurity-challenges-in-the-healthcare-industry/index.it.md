@@ -1,6 +1,7 @@
 ---
 title: "Proteggere i dati dei pazienti: Strategie per la sicurezza informatica dell'assistenza sanitaria"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Scoprite le sfide di cybersecurity che l'assistenza sanitaria deve affrontare ed esplorate le strategie di protezione e conformità per proteggere i dati dei pazienti e garantire la conformità normativa."

@@ -1,12 +1,13 @@
 ---
 title: "Creación y mantenimiento de un canal DevOps seguro: Mejores prácticas y casos prácticos"
 date: 2023-02-25
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Aprenda a crear y mantener un canal DevOps seguro utilizando las mejores prácticas y ejemplos reales en esta completa guía."
 tags: ["DevOps", "seguridad", "tubería", "integración continua", "entrega continua", "automatización", "contenedorización", "codificación segura", "exploración de vulnerabilidades", "control", "comentarios", "control de versiones", "control de acceso", "recuperación en caso de catástrofe", "continuidad de las actividades", "estudio monográfico", "Primavera", "Django", "OWASP", "Netflix", "Capital One"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
-coverAlt: "Una imagen de dibujos animados de un escudo que protege una tubería con un candado y una llave, rodeado de varias etapas de tuberías DevOps y herramientas de seguridad."
+cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
+coverAlt: "Ilustración digital abstracta de una canalización DevOps segura, con elementos visuales del desarrollo de código, las pruebas automatizadas y el despliegue sobre un fondo oscuro con colores vivos."
 coverCaption: ""
 ---
 

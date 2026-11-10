@@ -252,6 +252,33 @@ Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
 
+## বর্তমান RSAT ও PowerShell যাচাই
+
+Microsoft এখন Remote Server Administration Tools (RSAT)-এর মাধ্যমে Active Directory মডিউল বিতরণ করে। সমর্থিত Windows ক্লায়েন্ট সংস্করণে প্রশাসনিক অধিকারসহ PowerShell সেশন থেকে অন-ডিমান্ড ফিচারটি ইনস্টল করুন:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+Windows Server-এ Microsoft-নথিভুক্ত সার্ভার ফিচার পদ্ধতি ব্যবহার করুন:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+প্রশাসনিক কমান্ড চালানোর আগে মডিউলটি যাচাই করুন:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+[ActiveDirectory মডিউল রেফারেন্স](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) জানায় RSAT মডিউলটি সরবরাহ করে এবং উপলভ্য cmdlet-গুলোর তালিকা দেয়। হোস্ট অপারেটিং সিস্টেমের সঙ্গে মেলে এমন সংস্করণ ব্যবহার করুন। PowerShell 7-এ সামঞ্জস্যের কিছু বিষয় আছে, তাই প্রতিষ্ঠিত প্রশাসনিক কর্মপ্রবাহ বদলানোর আগে নন-প্রোডাকশন ওয়ার্কস্টেশনে মডিউল পরীক্ষা করুন।
+
+কাজের পরামর্শ হিসেবে, cmdlet সমর্থন করলে `-WhatIf` ব্যবহার করুন, নির্দিষ্ট ডোমেইন কন্ট্রোলার গুরুত্বপূর্ণ হলে `-Server` দিয়ে কোয়েরির সীমা নির্ধারণ করুন এবং কাজটির জন্য যতটুকু অনুমতি দরকার ততটুকুই নিন। PowerShell [সাধারণ প্যারামিটার](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters)-এ `-WhatIf` নথিভুক্ত করেছে। কমান্ডের ইতিহাস বা স্ক্রিপ্টে পাসওয়ার্ড রাখবেন না। নিরাপদ [Get-Credential প্রম্পট](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), সুরক্ষিত সিক্রেট স্টোর বা নথিভুক্ত রোটেশন প্রক্রিয়াসহ নির্ধারিত সার্ভিস অ্যাকাউন্ট ব্যবহার করুন।
+
 ## উপসংহার
 
 সংক্ষেপে, **PowerShell এর জন্য Active Directory মডিউল** একটি শক্তিশালী টুল যা Windows Active Directory এর কার্যকর ও সুবিধাজনক ব্যবস্থাপনা সক্ষম করে। মডিউল ইনস্টল ও ইমপোর্ট করার মাধ্যমে, আপনি একটি বিস্তৃত **cmdlet** সেটে প্রবেশাধিকার পান যা বিভিন্ন AD-সম্পর্কিত কাজ সহজ করে।

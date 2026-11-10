@@ -1,6 +1,7 @@
 ---
 title: "Flock-Kameras: Werkzeug der öffentlichen Sicherheit oder anlasslose Überwachungsmaschine?"
 date: 2026-08-01
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Eine unabhängige Analyse der ALPR-Kameras von Flock Safety: wie sie tatsächlich funktionieren, welche Daten sie über Kennzeichen hinaus erfassen, wie die Datenweitergabe eine schattenhafte nationale Datenbank schafft und warum die Frage des Durchsuchungsbefehls das eigentliche Problem ist."
@@ -72,7 +73,119 @@ Eine TPMS-ID entspricht einem bestimmten Reifensatz. Wenn diese Reifen an einem 
 
 Dies ist keine hypothetische zukünftige Fähigkeit. RTL-SDR-Empfänger, die TPMS-Signale aufzeichnen können, kosten etwa 40 Dollar. Die technische Hürde für die Bereitstellung von passivem TPMS-Monitoring neben einem ALPR-Netzwerk ist sehr niedrig.
 
+{{< figure src="flock-tpms-bluetooth-surveillance.webp" alt="Diagramm: Eine Flock-Kamera am Straßenrand erfasst gleichzeitig Kennzeichen, Bluetooth-MAC-Adressen von Handys und TPMS-Reifensensor-IDs vorbeifahrender Fahrzeuge" >}}
+
+
 ______
+
+
+## Was die Kamera aufgezeichnet hat
+
+**Im September 2026 nahm ein Hacker-Kollektiv eine Flock-Kamera von einem Mast ab, kopierte ihren Speicher und veröffentlichte die Dateisystemabbilder über Distributed Denial of Secrets.** Die wiederhergestellten Protokolle dokumentieren den Betrieb eines echten Einsatzes vollständig. Die Zahlen übertreffen die öffentlichen Marketingangaben.
+
+*Die Kamera wurde nicht gehackt. Sie wurde abgeschraubt.*
+
+### Einundzwanzig Tage Verkehr
+
+Die wiederherstellbaren Protokolle deckten über mehrere Zeiträume rund **21 Betriebstage** ab. Die Kamera fotografierte etwa **50.200 Fahrzeuge und erzeugte rund 1,6 Millionen Bilder**.
+
+| Messwert | Wert |
+|---------|-------|
+| Fotografierte Fahrzeuge | **50.200** |
+| Erzeugte Bilder | **~1,6 Millionen** |
+| Typischer Tag | ~3.300 Fahrzeuge |
+| Verkehrsstärkster protokollierter Tag | **4.454 Fahrzeuge** |
+| Bilder je vorbeifahrendem Fahrzeug | meist ~28, **in einigen Fällen über 100** |
+
+Ältere Protokolle waren auf dem Gerät überschrieben worden. Die Kamera war also länger in Betrieb, als das erfasste Zeitfenster zeigt. **Ein einzelner Straßenstandort erzeugte in weniger als einem Monat eine Million Bilder.**
+
+### Dutzende Aufnahmen pro Fahrzeug
+
+Sobald Bewegung ins Bild kommt, nimmt die Kamera rasch eine Bildserie auf. Ein typisches Fahrzeug erzeugte etwa **28 Bilder**, manche mehr als 100.
+
+Die Kamera fotografiert mit **unterschiedlichen Belichtungen**, um Kennzeichen und Umgebung getrennt zu erfassen. Danach wertet sie die Bilder aus, schneidet brauchbare Ausschnitte zu und lädt sie über Mobilfunk hoch. Das Gerät selbst liest das Kennzeichen nicht. Darauf laufen etwa **20 von Flock entwickelte Apps** für Bewegungserkennung, Bildaufnahme, Objektklassifizierung, Upload und Fernaktualisierungen. **Kennzeichenerkennung und Fahrzeugidentifikation erfolgen auf Flocks Servern, nicht am Straßenrand.**
+
+Das ist für die Diskussion um Durchsuchungsbeschlüsse wichtig. Die Kamera zeichnet nicht passiv nur eine Kennzeichennummer auf. Sie speist einen entfernten Identifikationsprozess mit Sensordaten.
+
+### Die Software erkennt auch Menschen
+
+Flock erklärt, seine Kameras würden Fahrzeuge erkennen. Der wiederhergestellte Code zeigt ein anderes Bild.
+
+**Die Gerätesoftware enthält ausdrücklich eine Personenerkennung.** Erkennt sie eine Person, speichert sie deren Position im Bild und einen Konfidenzwert. Diese Funktion ist von den Erkennungsmodulen für Fahrzeuge, Kennzeichen und Fahrräder getrennt. Sie gehört gezielt zum Produkt und ist kein Nebenprodukt eines allgemeinen Modells.
+
+WIRED prüfte die Aussage mit den aus dem Gerät extrahierten Modellen, wiederhergestellten Videos und Kontrollbildern. **Die Modelle erkannten Menschen zuverlässig, auch auf dem Selfie eines Reporters.** Bei **27.321 gespeicherten Videoclips** fanden sie Personen in 11 Clips, jeweils Motorradfahrer. Die geringe Zahl erklärt sich durch die erhöhte Montage über einer Straße mit Blick auf die Fahrspuren, nicht durch eine Einschränkung des Erkennungsmodells.
+
+**Auch diese Clips sind ein wichtiger Befund.** Es handelt sich um **ein bis zwei Sekunden lange MP4-Videos mit 1024 × 768 Pixeln und ohne Ton**, getrennt von den hochauflösenden Bildserien. Flocks öffentliche Beschreibungen betonen Standbilder von Kennzeichen. Das Gerät nimmt auch kurze Videos auf.
+
+*Flock erklärt, seine Kameras führten keine Gesichtserkennung aus. Die Untersuchung fand dafür keine Belege, abgesehen von Funktionen, die standardmäßig in Android enthalten sind und offenbar nicht aktiviert oder verwendet wurden.*
+
+### Der Kennzeichendetektor hält überall Grafiken für Kennzeichen
+
+Dieselbe Untersuchung ergab, dass der Kennzeichendetektor Grafiken als Kennzeichen einordnete.
+
+**Aufkleber, Kennzeichenrahmen von Autohäusern und andere Fahrzeugmotive wurden wie Kennzeichen ausgeschnitten.** In einem Motorradvideo isolierte der Detektor einen **Aufnäher mit amerikanischer Flagge an der Satteltasche des Fahrers** und behandelte ihn wie ein Kennzeichen.
+
+Das ist zugleich ein Genauigkeits- und Datenschutzproblem. Die Klassifizierung ist ungenau genug, um Bilder von Dingen zu sammeln, für deren Erfassung das System nicht ausgelegt wurde. Diese Bilder landen auf denselben Servern wie echte Treffer.
+
+### Der Speicher der Kamera lief voll
+
+Die Protokolle zeigen ein Gerät unter ständigem Speicherdruck.
+
+Beim Speichern von Bildern in voller Auflösung verzeichneten die Protokolle **mehr als 27.000 Fehler mit der Meldung „no space left on device“**, dazu Zehntausende weitere Fehler, Abstürze und Neustarts.
+
+Zwei Protokollmeldungen geben Einblick in die Entwicklung:
+
+- Etwa alle zwei Minuten prüfte ein Dienst, ob die Kamera noch lief, und protokollierte **„Who's a good boy?!“**. In den wiederhergestellten Protokollen stehen mehr als **12.000** solcher Einträge.
+- Nach einem Neustart hinterließ ein weiterer Dienst die Meldung **„A reboot was requested! ¡Adiós, Amigos!“**.
+
+Der Ton ist locker. Die Folgen sind es nicht. Dieses Überwachungsgerät erhält seit acht Jahren keine Betriebssystem-Patches mehr. Beim Speichern der Bilder, für die es gebaut wurde, stürzt es ab und läuft auf vollen Speicher.
+
+______
+
+## Die Produktpalette sammelt mehr als Kennzeichen
+
+Die wiederhergestellte Kamera war ein Falcon-Gerät. Die Flotte ist größer. Neuere Produkte erfassen Signale, die ein Kennzeichenleser nie erfasst hat.
+
+### Der Audiosensor erkennt Notlagen
+
+**Raven** ist ein separat montiertes Gerät zur Audioerkennung. Es verwendet einen ESP32 mit einem neuronalen DSP Syntiant NDP120-B0. Anfangs unterschied es vier Tonklassen: Schüsse, Reifen, Hintergrundgeräusche und Unbekanntes.
+
+**Ein Firmware-Update vom Oktober 2025 ergänzte eine fünfte Klasse: menschliche Notrufe.** Der Sensor bewertet, ob eine Person in der Nähe Hilfe benötigt, und löst über FlockOne automatisch die dort installierten Condor- und Falcon-Kameras aus.
+
+*Ein als Schusserkennung vermarktetes Gerät wurde stillschweigend zu einem akustischen Notfallmonitor.*
+
+### Die Kameras fliegen jetzt
+
+**Alpha** ist Flocks eigene Drohne. Flock stellte sie im Oktober 2025 vor. Sie wird bereits eingesetzt, darunter in einem **Pilotprojekt des South Bend Police Department im März 2026**. Flock hat sie entwickelt und in den USA montiert. Sie erfüllt die NDAA-Vorgaben.
+
+| Merkmal | Wert |
+|---------------|-------|
+| Höchstgeschwindigkeit | **60 MPH** |
+| Flugzeit | ~45 Minuten |
+| Akkuwechsel | **90 Sekunden** an einer Dockingstation mit zwei Akkus |
+| Mobilfunkverbindungen | **4 unabhängige Modems** für Ausfallsicherheit |
+| Höhe der Kennzeichenerkennung | **bis zu 2.000 Fuß** |
+| Abdeckung | bis zu **50 Quadratmeilen pro Dock** |
+
+**Aerodome** ist die ältere Drohnenlinie. Flock übernahm sie durch eine **Übernahme im Wert von 300 Millionen Dollar im Oktober 2024**. Sie nutzt DJI Matrice M350- und M300-RTK-Drohnen. Das Hextronics-Atlas-Nest hält acht Akkus für den Dauerbetrieb. Prosper Police und Scottsdale setzen sie weiterhin ein.
+
+### Das Netzwerk bindet Kameras anderer Anbieter ein
+
+**Wing** ist keine Hardware, sondern eine im Oktober 2025 angekündigte Softwarebrücke. Sie ergänzt vorhandene IP-Kameras von Drittanbietern um Flocks Analysen und führt deren Daten in derselben Ermittlungsoberfläche **Nova** zusammen.
+
+**Damit ändert sich die Größenordnung der Frage.** Eine Stadt, die Flock-Kameras installiert, weiß genau, welche Geräte sie aufgestellt hat. Mit Wing wird der vorhandene Kamerabestand einer Stadt zu Flock-Sensoren, ohne eine neue Kamera zu kaufen. Das Material landet in einem durchsuchbaren System.
+
+### Der Anhänger vereinfacht den Einsatz
+
+Der **LPR-Trailer** montiert eine Flock-Kamera auf einem All Traffic Solutions ATS-5-Chassis mit **120 Watt Solarleistung**, einem **47-Ampere-Stunden-Akku** und einem Radar mit Anzeigetafel. Er wird an eine 2-Zoll-Anhängerkupplung angeschlossen und lässt sich von einer Person aufstellen.
+
+Er meldet auch Manipulationen und einen niedrigen Akkustand. Das zeigt, dass das Unternehmen mit Eingriffen in die Geräte im Einsatz rechnet.
+
+{{< figure src="flock-data-sharing-shadow-national-network.webp" alt="Kartendiagramm: Datenweitergabevereinbarungen verbinden die Flock-Kameranetzwerke einzelner Städte und Landkreise zu einer größeren regionalen und quasi-nationalen durchsuchbaren Datenbank" >}}
+
+
+______
+
 
 ## Das eigentliche Problem: Fotografie vs. Datenbank
 
@@ -95,6 +208,8 @@ Einzelne Flock-Kameranetzwerke sind nicht isoliert. Städte und Landkreise schli
 **So wird ein lokales Kameranetzwerk zu einem de facto nationalen Überwachungssystem, ohne dass der Kongress jemals darüber abgestimmt hat.**
 
 Die Datenweitergabe ist freiwillig und rechtlich unklar. Es gibt kein Bundesgesetz, das sie genehmigt. Es gibt keine standardisierten Datenspeicherungsgrenzen. Es gibt keine verbindlichen Prüfungsanforderungen. Und es gibt keinen Mechanismus, durch den ein Bürger herausfinden kann, ob die Bewegungen seines Fahrzeugs abgefragt wurden.
+
+**Das Ausmaß dieses Zugriffs ist inzwischen dokumentiert.** In Alpharetta, Georgia, fand WIRED, dass Aufzeichnungen der städtischen Flock-Kameras für **mehr als 2.000 Behörden** erreichbar waren, darunter Polizeidienststellen, Hochschulen, Flughäfen und das Office of Inspector General der US-Bundesbehörde General Services Administration. Diese Behördenzahl ist keine Besonderheit der Vereinbarungen von Alpharetta. Sie zeigt, wie Flock sein nationales Netzwerk standardmäßig verknüpft.
 
 DeFlock.org, das Flock-Kamerastandorte durch Crowdsourcing sammelt, hat über **124.000 mutmaßliche LPR-Einsätze** in den Vereinigten Staaten kartiert. Die Abdeckung in städtischen und vorstädtischen Gebieten ist dicht genug, dass das Fahren durch die meisten amerikanischen Städte einen nahezu kontinuierlichen Überwachungsrekord erzeugt.
 
@@ -196,6 +311,10 @@ Der Weg nach vorne ist nicht, die Kameras zu zerstören. Es geht darum, Durchsuc
 
 Das ist eine langweilige, prozedurale Antwort. Sie erzeugt auf keiner Seite Empörung. Aber es ist die einzige Antwort, die sowohl öffentliche Sicherheit als auch verfassungsmäßige Freiheit ernst nimmt.
 
+Wer wissen möchte, wann er sich in der Nähe einer solchen Kamera befindet, muss nicht auf eine politische Reform warten. Spezielle Erkennungsgeräte gibt es bereits.
+
+{{< stscollective-ad "flockyou" >}}
+
 ______
 
 ## Verwandte Artikel
@@ -222,4 +341,9 @@ ______
 8. [FBI Vault — COINTELPRO](https://vault.fbi.gov/cointel-pro)
 9. [MuckRock — Flock Safety](https://www.muckrock.com/tags/flock-safety/)
 10. [Flock Finder GitHub](https://github.com/simeononsecurity/flock-finder)
-11. [Flock Finder Interaktive Karte](https://simeononsecurity.github.io/flock-finder/)
+11. [WIRED und 404 Media: Hacker drangen in eine Flock-Kamera ein](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+12. [Micah Lee: Flock-Kameras haben zahlreiche Sicherheitslücken und fest codierte Zugangsdaten](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+13. [Distributed Denial of Secrets: Dateisystemabbilder einer Flock-ALPR-Kamera](https://ddosecrets.org/article/flock-alpr-camera)
+14. [Hackaday: Diese Woche in der Sicherheit, Flock-Kameras sind veraltet](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+15. [WiFi Mothership: Referenz zur Erkennung von Flock-Safety-ALPR-Geräten](https://wifimothership.com/flock)
+16. [Flock Finder: interaktive Karte](https://simeononsecurity.github.io/flock-finder/)

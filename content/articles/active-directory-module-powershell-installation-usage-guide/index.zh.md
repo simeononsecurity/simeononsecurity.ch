@@ -1,6 +1,7 @@
 ---
 title: "使用 PowerShell 掌握 Active Directory 管理：安装和使用指南"
 date: 2023-07-25
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "了解如何有效安装和使用 PowerShell 的 Active Directory 模块来简化 Windows Active Directory 管理任务。"
@@ -39,7 +40,7 @@ Install-WindowsFeature -Name "RSAT-AD-PowerShell" -IncludeAllSubFeature
 
 3.等待安装完成。完成后，即可开始使用 Active Directory 模块。
 
-#### 离线系统
+### 离线系统
 
 离线系统比较复杂。有几种方法，但我们推荐使用以下脚本：
 - [Offine-PS-ActiveDirectory-Install](https://github.com/simeononsecurity/Offine-PS-ActiveDirectory-Install)
@@ -61,7 +62,7 @@ Import-Module ActiveDirectory
 
 导入 Active Directory 模块后，就可以利用其丰富的 cmdlet 执行各种管理任务。让我们来了解一些常用的 cmdlet 及其功能：
 
-#### 检索活动目录信息
+### 检索活动目录信息
 
 要有效管理 Active Directory (AD) 环境，检索有关各种 AD 对象（如用户、组和组织单位 (OU)）的信息至关重要。PowerShell 提供了功能强大的 cmdlet，可简化检索过程。
 
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## 当前 RSAT 和 PowerShell 检查
+
+Microsoft 现在通过远程服务器管理工具 (RSAT) 分发 Active Directory 模块。在受支持的 Windows 客户端版本中，请从提升权限的 PowerShell 会话按需安装该功能：
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+在 Windows Server 上，使用 Microsoft 文档说明的服务器功能安装流程：
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+运行管理命令前，请验证模块：
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+[ActiveDirectory 模块参考](https://learn.microsoft.com/en-us/powershell/module/activedirectory/)指出 RSAT 提供该模块，并列出可用 cmdlet。请使用与主机操作系统匹配的版本。PowerShell 7 存在兼容性注意事项，因此在更改既有管理流程前，请先在非生产工作站上测试该模块。
+
+作为运维建议，如果 cmdlet 支持，请使用 `-WhatIf`；当特定域控制器很重要时，使用 `-Server` 限定查询；并且只申请任务所需的权限。PowerShell 在[通用参数](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters)文档中说明了 `-WhatIf`。不要将密码放入命令历史或脚本。优先使用安全的 [Get-Credential 提示](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential)、受保护的密钥存储，或配有书面轮换流程的委派服务帐户。
 
 ## 结论
 

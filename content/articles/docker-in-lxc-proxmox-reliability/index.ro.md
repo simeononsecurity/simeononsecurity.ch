@@ -1,69 +1,69 @@
 ---
-title: "Docker in LXC on Proxmox: Reliability, Evidence, and VM Migration"
+title: "Docker în LXC pe Proxmox: fiabilitate, dovezi și migrare la VM"
 date: 2026-09-16
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
-description: "Evaluate Docker inside Proxmox LXC with a documented AppArmor failure, a careful reading of a host-freeze report, diagnostic commands, and a VM migration plan."
-genre: ["Virtualization", "Linux Administration", "Homelab"]
-tags: ["Docker in LXC", "Proxmox Docker", "Proxmox LXC", "Docker virtual machine", "homelab reliability", "Proxmox host freezes", "Debian Docker VM", "unprivileged containers", "container nesting", "Linux kernel isolation", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker storage drivers", "containerd image store", "memory pressure", "Linux PSI", "persistent journal", "Proxmox backups", "bind mount backups", "VM migration", "failure domains", "GPU passthrough", "home server troubleshooting"]
+description: "Evaluează Docker în Proxmox LXC printr-o defecțiune AppArmor documentată, o analiză atentă a unui raport despre blocarea gazdei, comenzi de diagnosticare și un plan de migrare la VM."
+genre: ["Virtualizare", "Administrarea Linux", "Homelab"]
+tags: ["Docker în LXC", "Docker pe Proxmox", "LXC Proxmox", "mașină virtuală Docker", "fiabilitatea homelabului", "blocarea gazdei Proxmox", "VM Debian pentru Docker", "containere fără privilegii", "imbricarea containerelor", "izolarea nucleului Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "drivere de stocare Docker", "depozit de imagini containerd", "presiune asupra memoriei", "Linux PSI", "jurnal persistent", "copii de rezervă Proxmox", "copii de rezervă pentru bind mount-uri", "migrare VM", "domenii de defectare", "passthrough GPU", "depanarea serverului de acasă"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
-coverAlt: "Isometric home server illustration showing nested workload boxes and a separate virtual machine compartment connected to shared hardware"
-coverCaption: "Conceptual illustration of shared hardware and different workload isolation boundaries"
+coverAlt: "Ilustrație izometrică a unui server de acasă, cu casete de sarcini imbricate și un compartiment separat pentru mașina virtuală, conectat la hardware partajat"
+coverCaption: "Ilustrație conceptuală a hardware-ului partajat și a diferitelor limite de izolare a sarcinilor"
 ---
 
-**Docker inside Linux Containers (LXC)** trades some infrastructure overhead for more interactions between the application runtime and the Proxmox host. For Docker services your household depends on, a Debian **virtual machine (VM)** is a practical starting point because it separates the guest kernel and simplifies the environment you must reproduce during troubleshooting. This article examines the supplied video, checks its underlying incident report, and adds documented failures and a migration plan.
+**Docker în Linux Containers (LXC)** reduce o parte din cheltuielile suplimentare de infrastructură, dar mărește numărul de interacțiuni dintre mediul de execuție al aplicațiilor și gazda Proxmox. Pentru serviciile Docker de care depinde locuința ta, o **mașină virtuală (VM) Debian** este un punct de pornire practic, deoarece separă nucleul invitat și simplifică mediul pe care trebuie să îl reproduci când investighezi o problemă. Acest articol examinează videoclipul furnizat, verifică raportul de incident asociat și adaugă defecțiuni documentate și un plan de migrare.
 
 <!--more-->
 
 ## Idei principale
 
-- **Separate failure types:** A Docker startup error, a stalled VM, and an unresponsive physical host require different investigations.
-- **Evaluate the evidence:** Stability after migration supports a recovery decision without proving the original cause.
-- **Check current documentation:** Native OCI image support and Docker nested inside LXC are different deployment paths.
-- **Protect persistent data:** Proxmox backups and Compose files do not automatically cover every application data location.
-- **Test the recovery plan:** Measure restoration, reboot behavior, and service availability before retiring the old deployment.
+- **Separă tipurile de defecțiuni:** o eroare la pornirea Docker, o VM blocată și o gazdă fizică fără răspuns necesită investigații diferite.
+- **Evaluează dovezile:** stabilitatea după migrare susține o decizie de recuperare fără să dovedească cauza inițială.
+- **Consultă documentația actuală:** suportul nativ pentru imagini OCI și Docker imbricat în LXC sunt căi diferite de implementare.
+- **Protejează datele persistente:** copiile de siguranță Proxmox și fișierele Compose nu acoperă automat toate locațiile cu date ale aplicațiilor.
+- **Testează planul de recuperare:** măsoară restaurarea, comportamentul la repornire și disponibilitatea serviciului înainte să retragi implementarea veche.
 
-## Înainte de a începe
+## Înainte să începi
 
-**Difficulty:** Intermediate. **Audience:** Proxmox administrators choosing between nested Docker and Docker in a VM. You should recognize a Compose project, a container mount, and a Linux shell prompt before following the diagnostic examples.
+**Dificultate:** medie. **Public:** administratori Proxmox care aleg între Docker imbricat și Docker într-o VM. Înainte să urmezi exemplele de diagnosticare, trebuie să recunoști un proiect Compose, o montare de container și un prompt de shell Linux.
 
-**Estimated effort:** Allow 30–60 minutes for inventory and evidence collection. Migration time depends on database size, storage throughput, hardware access, and the outage window you choose. The examples below are documented procedures and illustrative reasoning, not benchmarks from a lab operated for this article.
+**Efort estimat:** rezervă 30–60 de minute pentru inventariere și colectarea dovezilor. Durata migrării depinde de dimensiunea bazei de date, debitul stocării, accesul la hardware și fereastra de întrerupere aleasă. Exemplele de mai jos sunt proceduri documentate și raționamente ilustrative, nu măsurători dintr-un laborator operat pentru acest articol.
 
-| Requirement | Why it matters |
+| Cerință | De ce contează |
 |---|---|
-| **Host console access** | Distinguishes network failure from a host-wide stall |
-| **Current backups** | Provides a recovery path before changing the deployment |
-| **Container and VM IDs** | Keeps host commands directed at the intended workload |
-| **Application data inventory** | Identifies volumes, bind mounts, databases, and external dependencies |
-| **Separate test environment** | Supports migration rehearsal without duplicate production writers |
+| **Acces la consola gazdei** | Deosebește o defecțiune de rețea de o blocare a întregii gazde |
+| **Copii de siguranță recente** | Oferă o cale de recuperare înainte de modificarea implementării |
+| **ID-uri de container și VM** | Direcționează comenzile gazdei către sarcina vizată |
+| **Inventarul datelor aplicației** | Identifică volume, montări bind, baze de date și dependențe externe |
+| **Mediu de testare separat** | Permite repetiția migrării fără scriitori dubli în producție |
 
-## Watch the Source Video
+## Urmărește videoclipul sursă
 
-{{< youtube id="XyPBHhZg0Ok" enable="true" title="Proxmox: The Hidden Danger of Running Docker Inside LXC" description="An explainer about Docker nested inside Proxmox LXC, intermittent host freezes, and a migration to Debian virtual machines" uploadDate="2026-09-15T17:00:09-07:00" >}}
+{{< youtube id="XyPBHhZg0Ok" enable="true" title="Proxmox: The Hidden Danger of Running Docker Inside LXC" description="Explicație despre Docker imbricat în Proxmox LXC, blocări intermitente ale gazdei și migrarea către mașini virtuale Debian" uploadDate="2026-09-15T17:00:09-07:00" >}}
 
-**Source video:** [Proxmox: The Hidden Danger of Running Docker Inside LXC](https://www.youtube.com/watch?v=XyPBHhZg0Ok), published September 15, 2026, by *Proxmox x Kubernetes x Homelab x Backup*. The central question is useful: how much operational uncertainty accompanies a resource-saving architecture?
+**Videoclip sursă:** [Proxmox: The Hidden Danger of Running Docker Inside LXC](https://www.youtube.com/watch?v=XyPBHhZg0Ok), publicat la 15 septembrie 2026 de *Proxmox x Kubernetes x Homelab x Backup*. Întrebarea centrală este utilă: câtă incertitudine operațională însoțește o arhitectură care economisește resurse?
 
-**Evidence boundary:** The video narrates an incident and proposes lessons. The sections below distinguish the owner’s observations, documented software behavior, and recommendations derived from them.
+**Limitele dovezilor:** videoclipul relatează un incident și propune lecții. Secțiunile de mai jos separă observațiile proprietarului, comportamentul software documentat și recomandările derivate din acestea.
 
-## What the Incident Establishes
+## Ce demonstrează incidentul
 
-The original report describes an **Intel Core i3-13100 and BIOSTAR H610MHP host**. The owner reported intermittent freezes affecting management access and LXC services. A connected display stopped responding, although the report explicitly says syslog continued producing output. This is more specific than treating the event as entirely log-free. [Original Proxmox forum report](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
+Raportul inițial descrie o **gazdă cu Intel Core i3-13100 și BIOSTAR H610MHP**. Proprietarul a raportat blocări intermitente care afectau accesul de administrare și serviciile LXC. Un ecran conectat nu a mai răspuns, deși raportul precizează că syslog a continuat să genereze ieșire. Această descriere este mai exactă decât tratarea evenimentului ca fiind complet lipsit de jurnale. [Raportul original de pe forumul Proxmox](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
 
-The owner later reported **improvement after migration**. In an August 3 follow-up, they described moving Docker workloads into Debian virtual machines and stopping the Docker-bearing LXCs. They reported no further freezes at the time of the update, while the video cites a 16-day stable period. Neither statement supplies a controlled reproduction or identifies a particular defective component. [Owner’s follow-up in the same thread](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
+Ulterior, proprietarul a raportat **îmbunătățiri după migrare**. Într-o actualizare din 3 august, acesta a descris mutarea sarcinilor Docker în mașini virtuale Debian și oprirea containerelor LXC care găzduiau Docker. La momentul actualizării, nu raportase alte blocări, iar videoclipul menționează o perioadă stabilă de 16 zile. Niciuna dintre declarații nu oferă o reproducere controlată sau nu identifică o anumită componentă defectă. [Actualizarea proprietarului în același fir de discuție](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
 
-| Observation | What it supports | What it does not establish |
+| Observație | Ce susține | Ce nu demonstrează |
 |---|---|---|
-| **Long initial uptime** | The earlier workload and software combination operated successfully | Reliability after every later update |
-| **Host and services stall** | The outage extends beyond one application | Docker as the root cause |
-| **Migration precedes improvement** | A useful operational workaround | Which changed interaction removed the trigger |
-| **Sixteen stable days** | A bounded observation period | Resolution of every two-to-three-week failure pattern |
+| **Timp îndelungat de funcționare inițială** | Combinația anterioară de sarcini și software a funcționat | Fiabilitatea după fiecare actualizare ulterioară |
+| **Gazda și serviciile se blochează** | Întreruperea afectează mai mult decât o aplicație | Docker drept cauză principală |
+| **Migrarea precedă îmbunătățirea** | O soluție operațională utilă | Care interacțiune modificată a eliminat declanșatorul |
+| **Șaisprezece zile stabile** | O perioadă de observație delimitată | Eliminarea tuturor tiparelor de defecțiune la două sau trei săptămâni |
 
-The **observation period** deserves scrutiny. Sixteen days falls inside a 14–21 day recurrence window. A longer observation period covering several former failure intervals, comparable workloads, and ordinary maintenance improves confidence, but still falls short of a controlled cause-and-effect demonstration.
+**Perioada de observație** merită analizată. Șaisprezece zile se află în interiorul unei ferestre de recurență de 14–21 de zile. O perioadă mai lungă, care acoperă mai multe intervale anterioare de defecțiune, sarcini comparabile și întreținere obișnuită, crește încrederea, dar nu reprezintă o demonstrație controlată a relației cauză-efect.
 
-**Operational success and root-cause proof** are separate outcomes. Restoring trusted household services is a valid reason to migrate. Describe the result as improved observed reliability until stronger evidence establishes the mechanism.
+**Succesul operațional și demonstrarea cauzei principale** sunt rezultate separate. Restabilirea serviciilor de încredere pentru locuință este un motiv valid de migrare. Descrie rezultatul ca fiabilitate observată îmbunătățită până când dovezi mai puternice stabilesc mecanismul.
 
-## Locate the Kernel Boundary
+## Identifică limita nucleului
 
 ```text
 Docker inside LXC:
@@ -76,72 +76,72 @@ Application -> Docker runtime -> guest Linux kernel
             -> Proxmox host kernel -> physical hardware
 ```
 
-**LXC** uses the host kernel. Namespaces, control groups, capabilities, seccomp, and security profiles restrict processes without supplying a separate kernel. Adding Docker inside LXC creates another container-management layer around workloads using the same underlying host kernel. [LXC architecture and containment features](https://linuxcontainers.org/lxc/introduction/)
+**LXC** folosește nucleul gazdei. Spațiile de nume, grupurile de control, capabilitățile, seccomp și profilurile de securitate restricționează procesele fără să furnizeze un nucleu separat. Adăugarea Docker în LXC creează încă un nivel de gestionare a containerelor pentru sarcini care folosesc același nucleu de bază al gazdei. [Arhitectura LXC și funcțiile de izolare](https://linuxcontainers.org/lxc/introduction/)
 
-A **VM** introduces a guest kernel. A guest kernel failure normally affects its VM, while Proxmox continues managing the other guests. The VM still depends on the physical host, hypervisor, storage, and networking. Hardware failure or a host-kernel defect remains a shared dependency.
+O **VM** introduce un nucleu invitat. O defecțiune a nucleului invitat afectează în mod normal VM-ul respectiv, în timp ce Proxmox continuă să gestioneze ceilalți invitați. VM-ul depinde în continuare de gazda fizică, hipervizor, stocare și rețea. O defecțiune hardware sau a nucleului gazdei rămâne o dependență comună.
 
-| Boundary | Docker inside LXC | Docker inside a VM |
+| Limită | Docker în LXC | Docker într-o VM |
 |---|---|---|
-| **Kernel used by applications** | Proxmox host kernel | Guest kernel |
-| **Docker runtime environment** | Constrained by the outer container’s policy | Installed inside a conventional guest OS |
-| **Guest kernel updates** | Tied to the host kernel | Managed inside the guest |
-| **Physical host outage** | Stops dependent workloads | Stops dependent workloads |
+| **Nucleul folosit de aplicații** | Nucleul gazdei Proxmox | Nucleul invitat |
+| **Mediul de execuție Docker** | Restricționat de politica containerului exterior | Instalat într-un sistem de operare invitat convențional |
+| **Actualizări ale nucleului invitat** | Legate de nucleul gazdei | Gestionate în interiorul invitatului |
+| **Întreruperea gazdei fizice** | Oprește sarcinile dependente | Oprește sarcinile dependente |
 
-A VM limits **some failure propagation**, not all of it. An application process crash inside LXC does not automatically crash Proxmox. Likewise, putting every household service into one Docker VM still groups those services behind one guest operating system and one maintenance schedule.
+O VM limitează **o parte din propagarea defecțiunilor**, nu pe toate. Blocarea unui proces de aplicație în LXC nu blochează automat Proxmox. În mod similar, plasarea tuturor serviciilor locuinței într-o singură VM Docker le grupează în continuare sub același sistem de operare invitat și același program de întreținere.
 
-For the **broader conceptual comparison**, see [Docker containers versus virtual machines](/articles/docker-vs-vms/). Here, the decision concerns Docker’s placement within Proxmox and the resulting troubleshooting boundaries.
+Pentru **comparația conceptuală mai amplă**, consultă [Containere Docker versus mașini virtuale](/articles/docker-vs-vms/). Aici, decizia privește amplasarea Docker în Proxmox și limitele de depanare rezultate.
 
-## Define Support Precisely
+## Definește precis suportul
 
-**“Unsupported”** needs a named component and version. Distinguish vendor-recommended deployment, documented features, distribution maintenance, and a contractual support entitlement. A working nested stack does not prove all its combinations receive equal testing, while a recommendation for VMs does not mean maintainers refuse every nesting-related bug.
+**„Fără suport”** trebuie să indice o componentă și o versiune. Separă implementarea recomandată de furnizor, funcțiile documentate, mentenanța distribuției și dreptul contractual la asistență. O stivă imbricată funcțională nu dovedește că toate combinațiile primesc aceleași teste, iar o recomandare pentru VM-uri nu înseamnă că mentenanții refuză fiecare eroare legată de imbricare.
 
-**Current Proxmox documentation** adds an important distinction. Its container-toolkit source describes **Open Container Initiative (OCI)** application-image support as a technology preview, with images converted into the LXC framework. It also recommends containers inside a QEMU VM for requirements emphasizing isolation and live migration. Importing an OCI image into this framework differs from installing Docker Engine and running Compose inside an LXC guest. [Proxmox container-toolkit documentation](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
+**Documentația Proxmox actuală** adaugă o distincție importantă. Codul sursă al setului de instrumente pentru containere descrie suportul imaginilor de aplicații **Open Container Initiative (OCI)** ca previzualizare tehnologică, cu imagini convertite în cadrul LXC. Recomandă și containere în interiorul unui VM QEMU pentru cerințe care pun accent pe izolare și migrare live. Importarea unei imagini OCI în acest cadru diferă de instalarea Docker Engine și rularea Compose într-un invitat LXC. [Documentația setului de instrumente pentru containere Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
 
-| Deployment | Question to verify |
+| Implementare | Întrebare de verificat |
 |---|---|
-| **Traditional LXC guest** | Does its OS template and application fit the documented container restrictions? |
-| **Docker nested in LXC** | Which kernel, runtime, security-policy, and storage combinations have been tested? |
-| **Native OCI image import** | Does the installed Proxmox version provide the documented feature and required behavior? |
-| **Docker inside Debian VM** | Does the guest release meet Docker’s installation requirements? |
+| **Invitat LXC tradițional** | Șablonul sistemului de operare și aplicația se încadrează în restricțiile documentate ale containerelor? |
+| **Docker imbricat în LXC** | Ce combinații de nucleu, mediu de execuție, politică de securitate și stocare au fost testate? |
+| **Import nativ de imagini OCI** | Versiunea instalată Proxmox oferă funcția documentată și comportamentul necesar? |
+| **Docker într-un VM Debian** | Versiunea sistemului invitat respectă cerințele de instalare Docker? |
 
-Docker publishes a **Debian installation path**. Use its supported-release list and repository instructions for the guest. Record the versions you deploy rather than assuming an older tutorial remains accurate. This provides a documented installation baseline, not a guarantee of uptime or an automatic paid-support contract. [Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
+Docker publică o **cale de instalare pentru Debian**. Folosește lista versiunilor acceptate și instrucțiunile depozitului pentru invitat. Notează versiunile instalate în loc să presupui că un tutorial mai vechi este încă actual. Acesta oferă o bază de instalare documentată, nu o garanție de disponibilitate și nici un contract automat de asistență plătită. [Docker Engine pe Debian](https://docs.docker.com/engine/install/debian/)
 
-## A Confirmed Nesting Failure
+## O defecțiune de imbricare confirmată
 
-The **2025 runc/AppArmor incompatibility** is a verifiable example. The runc maintainers documented a failure involving descriptor reopening inside an outer container with an AppArmor profile. AppArmor misinterpreted an access under **`/proc/sys`** as an access under **`/sys`**, causing a policy denial. [runc issue 4968](https://github.com/opencontainers/runc/issues/4968)
+**Incompatibilitatea runc/AppArmor din 2025** este un exemplu verificabil. Mentenanții runc au documentat o defecțiune la redeschiderea descriptorilor într-un container exterior cu un profil AppArmor. AppArmor a interpretat greșit un acces din **`/proc/sys`** drept acces din **`/sys`**, provocând o interdicție a politicii. [Problema runc 4968](https://github.com/opencontainers/runc/issues/4968)
 
-An **affected startup** reported this error fragment:
+O **pornire afectată** a raportat acest fragment de eroare:
 
 ```text
 open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied
 ```
 
-The recorded failure prevented **container startup**. It does not explain the forum owner’s host freezes. The issue records **`lxc-pve 6.0.5-2`** as a Proxmox fix for this specific problem, and the corresponding upstream LXC change merged on November 20, 2025. *Those are historical fix references, not a recommended package pin for a current installation.* [Maintainer’s fix summary](https://github.com/opencontainers/runc/issues/4968), [merged LXC change](https://github.com/lxc/lxc/pull/4609)
+Defecțiunea înregistrată a împiedicat **pornirea containerului**. Nu explică blocările gazdei raportate de proprietarul de pe forum. Problema menționează **`lxc-pve 6.0.5-2`** drept corecția Proxmox pentru acest caz specific, iar modificarea LXC corespunzătoare a fost integrată upstream la 20 noiembrie 2025. *Acestea sunt referințe istorice la corecții, nu o recomandare de fixare a unui pachet pentru instalarea actuală.* [Rezumatul corecției mentenanților](https://github.com/opencontainers/runc/issues/4968), [modificarea LXC integrată](https://github.com/lxc/lxc/pull/4609)
 
-The lesson is **dependency coordination**. A runtime security change interacted with the outer container’s policy, and the fix required work in another layer. Prefer the appropriate maintained package update for your release over permanently disabling AppArmor or retaining an old vulnerable runtime.
+Lecția este **coordonarea dependențelor**. O schimbare de securitate a mediului de execuție a interacționat cu politica containerului exterior, iar corecția a necesitat lucru într-un alt nivel. Preferă actualizarea potrivită a pachetului întreținut pentru versiunea ta, în loc să dezactivezi permanent AppArmor sau să păstrezi un mediu de execuție vechi și vulnerabil.
 
-> **Key takeaway:** This incident demonstrates a real nested-container compatibility problem and a real maintainer response. It establishes neither universal LXC instability nor the cause of a separate host lockup.
+> **Ideea principală:** acest incident demonstrează o problemă reală de compatibilitate a containerelor imbricate și un răspuns real al mentenanților. Nu demonstrează instabilitatea universală a LXC și nici cauza unei blocări separate a gazdei.
 
-## Compare the Real Costs
+## Compară costurile reale
 
-Measure efficiency with your **actual workload**. Compare host memory pressure, CPU demand, storage latency, application response times, and recovery effort under equivalent conditions. Assigned VM RAM, guest free memory, and host resident memory represent different measurements.
+Măsoară eficiența cu **sarcina ta reală**. Compară presiunea memoriei pe gazdă, cererea CPU, latența stocării, timpii de răspuns ai aplicației și efortul de recuperare în condiții echivalente. RAM-ul alocat VM-ului, memoria liberă a invitatului și memoria rezidentă a gazdei sunt măsurători diferite.
 
-| Claimed saving | Measurement to collect | Additional cost to record |
+| Economie pretinsă | Măsurătoare de colectat | Cost suplimentar de înregistrat |
 |---|---|---|
-| **Lower memory overhead** | Host memory use and pressure during the same workload | Time spent managing nested limits and diagnosing contention |
-| **Faster deployment** | Time to a working service with its data restored | Time to rebuild after a failed update |
-| **Simpler hardware sharing** | Required devices, permissions, and successful application use | Host-driver dependency and migration constraints |
-| **Easier backups** | A successful restore of all required data | External mounts and application consistency |
+| **Suprasarcină redusă de memorie** | Utilizarea și presiunea memoriei gazdei în aceeași sarcină | Timpul de gestionare a limitelor imbricate și diagnosticare a concurenței |
+| **Implementare mai rapidă** | Timpul până la un serviciu funcțional cu datele restaurate | Timpul de reconstruire după o actualizare eșuată |
+| **Partajare hardware mai simplă** | Dispozitive necesare, permisiuni și utilizare reușită a aplicației | Dependența de driverul gazdei și restricții de migrare |
+| **Copii de siguranță mai ușoare** | Restaurarea reușită a tuturor datelor necesare | Montări externe și consistența aplicației |
 
-Docker documents **unrestricted CPU and memory use** by default unless constraints are applied. In an LXC deployment, the outer container adds its own limits. In a VM, the guest allocation adds another capacity boundary. A guest still needs capacity for its OS, Docker, caches, and peak application demand. [Docker resource constraints](https://docs.docker.com/engine/containers/resource_constraints/)
+Docker documentează **utilizarea nelimitată a CPU și memoriei** în mod implicit, cu excepția cazului în care se aplică restricții. Într-o implementare LXC, containerul exterior adaugă propriile limite. Într-o VM, alocarea invitatului adaugă o altă limită de capacitate. Invitatul are nevoie în continuare de capacitate pentru sistemul de operare, Docker, cache-uri și cererea maximă a aplicației. [Restricții de resurse Docker](https://docs.docker.com/engine/containers/resource_constraints/)
 
-**Hardware access** is a workload requirement. Sharing a host graphics device with a container and assigning a PCI device to a VM involve different driver and isolation arrangements. List the exact device and application requirement before choosing. For example, a media workload requiring hardware decoding needs a successful decode test after migration, alongside ordinary HTTP health checks.
+**Accesul la hardware** este o cerință a sarcinii. Partajarea unui dispozitiv grafic al gazdei cu un container și atribuirea unui dispozitiv PCI unui VM implică aranjamente diferite pentru drivere și izolare. Enumeră dispozitivul exact și cerința aplicației înainte să alegi. De exemplu, o sarcină media care necesită decodare hardware trebuie să treacă un test de decodare după migrare, pe lângă verificările HTTP obișnuite.
 
-Avoid **universal overhead numbers**. This article supplies no fixed RAM penalty or performance percentage because those figures require a controlled workload, configuration, and measurement method. Use an observed result from your own comparison in the decision record below.
+Evită **cifre universale pentru suprasarcină**. Acest articol nu oferă o penalizare RAM fixă sau un procent de performanță, deoarece aceste valori necesită o sarcină controlată, o configurație și o metodă de măsurare. Folosește un rezultat observat în propria comparație din registrul deciziei de mai jos.
 
-## Collect Evidence by Layer
+## Colectează dovezi pe niveluri
 
-**Begin on the Proxmox host**, using an administrative shell. Replace **`101`** with the LXC ID under investigation:
+**Începe pe gazda Proxmox**, folosind un shell administrativ. Înlocuiește **`101`** cu ID-ul LXC investigat:
 
 ```bash
 pveversion -v
@@ -151,9 +151,9 @@ journalctl --list-boots
 journalctl -k -b -1 --no-pager
 ```
 
-**`pveversion -v`** records the installed Proxmox component versions. **`pct config`** records the outer container configuration. In **`journalctl`**, **`-k`** selects kernel messages, **`-b -1`** selects the previous boot, and **`--no-pager`** produces plain terminal output. Previous-boot messages require retained journal data. [Proxmox toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc), [systemd journalctl reference](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
+**`pveversion -v`** înregistrează versiunile componentelor Proxmox instalate. **`pct config`** înregistrează configurația containerului exterior. În **`journalctl`**, **`-k`** selectează mesajele nucleului, **`-b -1`** selectează pornirea anterioară, iar **`--no-pager`** produce ieșire simplă în terminal. Mesajele pornirii anterioare necesită date de jurnal păstrate. [Setul de instrumente Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc), [referința systemd journalctl](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
 
-**Then inspect the Docker host**, inside the LXC or VM running its daemon:
+**Apoi inspectează gazda Docker**, în interiorul LXC sau VM care îi rulează daemonul:
 
 ```bash
 docker version
@@ -163,9 +163,9 @@ docker ps -a
 docker stats --no-stream
 ```
 
-Record **both environments**. The container image tag alone omits Docker, containerd, runc, the host kernel, security policy, and storage backend. Save the incident time, recent updates, and whether the local host console responded. Redact credentials and private application details before publishing diagnostic material.
+Înregistrează **ambele medii**. Eticheta imaginii containerului omite Docker, containerd, runc, nucleul gazdei, politica de securitate și backendul de stocare. Salvează ora incidentului, actualizările recente și dacă a răspuns consola locală. Elimină acreditările și detaliile private ale aplicației înainte să publici materialul de diagnosticare.
 
-**Inspect a specific workload**, replacing **`app`** with its container name:
+**Inspectează o sarcină anume**, înlocuind **`app`** cu numele containerului:
 
 ```bash
 docker inspect --format '{{json .State}}' app
@@ -173,11 +173,11 @@ docker inspect --format '{{.RestartCount}}' app
 docker inspect --format '{{json .Mounts}}' app
 ```
 
-**`docker inspect`** exposes state, restart count, and mount information for the named container. Treat a restart count as a clue to correlate with logs, not proof of a host-level defect. A recreated container also starts a new history. [Docker inspect reference](https://docs.docker.com/reference/cli/docker/inspect/)
+**`docker inspect`** expune starea, numărul de reporniri și informațiile de montare pentru containerul numit. Tratează numărul de reporniri ca indiciu de corelat cu jurnalele, nu ca dovadă a unei defecțiuni la nivelul gazdei. Un container recreat începe și un istoric nou. [Referința docker inspect](https://docs.docker.com/reference/cli/docker/inspect/)
 
-## Distinguish Pressure From Lockups
+## Deosebește presiunea de blocări
 
-**Capture Linux pressure information on the host** while the problem develops:
+**Colectează informații despre presiunea Linux pe gazdă** pe măsură ce problema se dezvoltă:
 
 ```bash
 cat /proc/pressure/cpu
@@ -185,41 +185,41 @@ cat /proc/pressure/memory
 cat /proc/pressure/io
 ```
 
-**Pressure Stall Information**, or PSI, reports time lost while tasks wait for resources. Its **`some`** and **`full`** fields describe different stall conditions, while **`avg10`**, **`avg60`**, and **`avg300`** summarize recent intervals. Memory pressure differs from memory occupancy: a large cache alone does not establish a shortage. [Linux PSI documentation](https://docs.kernel.org/accounting/psi.html)
+**Pressure Stall Information**, sau PSI, raportează timpul pierdut în timp ce sarcinile așteaptă resurse. Câmpurile **`some`** și **`full`** descriu condiții diferite de blocare, iar **`avg10`**, **`avg60`** și **`avg300`** rezumă intervale recente. Presiunea memoriei diferă de ocuparea memoriei: un cache mare nu demonstrează singur o lipsă de memorie. [Documentația Linux PSI](https://docs.kernel.org/accounting/psi.html)
 
-| Evidence | Useful interpretation | Next check |
+| Dovadă | Interpretare utilă | Verificare următoare |
 |---|---|---|
-| **One container repeatedly exits** | Application or container-runtime failure | Exit state, service logs, restart policy |
-| **SSH fails, console works** | Network or management-path failure | Link state, NIC driver, bridge, firewall |
-| **Memory PSI rises under load** | Tasks lose time to memory contention | Limits, reclaim activity, OOM records, workload growth |
-| **Storage requests stall** | I/O dependency is delaying work | Device health, storage logs, latency and queueing |
-| **Watchdog reports a lockup** | Kernel detector observed a defined stall condition | Full trace, kernel version, reproducible trigger |
-| **No final log entry** | Evidence collection ended before useful output arrived | Persistent or external capture before recurrence |
+| **Un container se oprește repetat** | Defecțiune a aplicației sau mediului de execuție | Starea de ieșire, jurnalele serviciului, politica de repornire |
+| **SSH nu funcționează, consola da** | Defecțiune de rețea sau a căii de administrare | Starea legăturii, driverul NIC, bridge-ul, firewallul |
+| **PSI de memorie crește sub sarcină** | Sarcinile pierd timp din cauza concurenței pentru memorie | Limite, activitatea de recuperare, înregistrări OOM, creșterea sarcinii |
+| **Solicitările de stocare se blochează** | O dependență de I/O întârzie lucrul | Starea dispozitivului, jurnalele stocării, latență și cozi |
+| **Watchdog-ul raportează o blocare** | Detectorul nucleului a observat o condiție definită de blocare | Urmărire completă, versiunea nucleului, declanșator reproductibil |
+| **Nu există o intrare finală în jurnal** | Colectarea dovezilor s-a oprit înainte să apară ieșire utilă | Captură persistentă sau externă înaintea recurenței |
 
-A **Linux lockup report** has a technical meaning. Kernel watchdogs distinguish soft and hard lockup conditions. A browser timing out does not establish either condition, and a missing watchdog report does not prove the host remained healthy. [Linux lockup-detector documentation](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)
+Un **raport de blocare Linux** are un sens tehnic. Watchdog-urile nucleului disting blocările soft și hard. Un browser care expiră nu dovedește niciuna dintre aceste condiții, iar lipsa unui raport de la watchdog nu dovedește că gazda a rămas sănătoasă. [Documentația detectorului de blocări Linux](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)
 
-**Firmware and power-state changes** are experiments. Record the previous setting, the reason for changing it, and the observation period. Disabling a CPU idle state changes power and thermal behavior, so a report involving another machine is insufficient evidence to prescribe the same setting universally.
+**Modificările de firmware și de stare energetică** sunt experimente. Notează setarea anterioară, motivul modificării și perioada de observație. Dezactivarea unei stări de repaus a CPU schimbă comportamentul energetic și termic, astfel încât un raport despre altă mașină nu este suficient pentru a prescrie universal aceeași setare.
 
-## Preserve Useful Logs
+## Păstrează jurnale utile
 
-**Persistent journaling** improves the chance of retaining evidence across a reboot. A journald configuration drop-in uses this setting:
+**Jurnalizarea persistentă** crește șansa de a păstra dovezile după repornire. Un fișier suplimentar de configurare journald folosește această setare:
 
 ```ini
 [Journal]
 Storage=persistent
 ```
 
-**`Storage=persistent`** requests disk-backed journal storage when available. Configure retention limits and available disk capacity as part of the change, then verify earlier boots appear in **`journalctl --list-boots`**. Persistent logging still depends on the host completing writes before the failure. [systemd journald configuration](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
+**`Storage=persistent`** solicită stocare pe disc a jurnalului când este disponibilă. Configurează limitele de păstrare și capacitatea discului ca parte a modificării, apoi verifică dacă pornirile anterioare apar în **`journalctl --list-boots`**. Jurnalizarea persistentă depinde în continuare de finalizarea scrierilor de către gazdă înaintea defecțiunii. [Configurarea systemd journald](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
 
-**External observation** adds another perspective. Monitor the service from a different machine and record timestamps. A monitor running on the failing Proxmox host disappears during the same outage, reducing its value for distinguishing downtime from missing telemetry.
+**Observarea externă** adaugă o perspectivă diferită. Monitorizează serviciul de pe altă mașină și înregistrează orele. Un monitor care rulează pe gazda Proxmox defectă dispare în aceeași întrerupere și își pierde utilitatea pentru a deosebi indisponibilitatea de lipsa telemetriei.
 
-**Illustrative test:** Schedule a lightweight HTTP check from a separate system, then compare failures with host reachability and local-console behavior. An application timeout with a responsive host points to a different investigation than simultaneous application, management, and console failure. This is a diagnostic design, not an observed result from the source incident.
+**Test ilustrativ:** programează o verificare HTTP simplă de pe un sistem separat și compară defecțiunile cu accesibilitatea gazdei și comportamentul consolei locale. Un timeout al aplicației cu gazda receptivă cere o investigație diferită față de eșecul simultan al aplicației, administrării și consolei. Acesta este un proiect de diagnosticare, nu un rezultat observat în incidentul sursă.
 
-## Plan a Controlled Migration
+## Planifică o migrare controlată
 
-Start with **one low-risk Compose project**. Prepare a Debian VM using a release listed in Docker’s installation documentation, establish backups, and configure resource allocations. Keep the original deployment available for rollback until the replacement passes its tests. [Docker’s Debian installation instructions](https://docs.docker.com/engine/install/debian/)
+Începe cu **un proiect Compose cu risc redus**. Pregătește un VM Debian cu o versiune enumerată în documentația de instalare Docker, stabilește copiile de siguranță și configurează alocările de resurse. Păstrează implementarea originală disponibilă pentru revenire până când înlocuitorul trece testele. [Instrucțiunile de instalare Docker pe Debian](https://docs.docker.com/engine/install/debian/)
 
-**Inventory the Compose project** from its working directory:
+**Inventariază proiectul Compose** din directorul său de lucru:
 
 ```bash
 docker compose config --quiet
@@ -227,67 +227,67 @@ docker compose config --images
 docker compose config --volumes
 ```
 
-**`--quiet`** validates the configuration without printing it. **`--images`** lists referenced images, while **`--volumes`** lists named volumes. These commands do not export application data or provide a complete bind-mount inventory. Review the Compose file and each container’s mounts as well. [Docker Compose config reference](https://docs.docker.com/reference/cli/docker/compose/config/)
+**`--quiet`** validează configurația fără să o afișeze. **`--images`** enumeră imaginile folosite, iar **`--volumes`** enumeră volumele cu nume. Aceste comenzi nu exportă datele aplicației și nu oferă un inventar complet al montărilor bind. Verifică și fișierul Compose, precum și montările fiecărui container. [Referința Docker Compose config](https://docs.docker.com/reference/cli/docker/compose/config/)
 
-| Data or dependency | Migration action |
+| Date sau dependență | Acțiune de migrare |
 |---|---|
-| **Compose definitions** | Transfer project files and retain the tested configuration |
-| **Secrets and environment** | Recreate required values through the chosen secret-management process |
-| **Named volumes** | Back up and restore their contents with application-consistent procedures |
-| **Bind-mounted paths** | Transfer or reconnect the actual source data and verify ownership |
-| **Databases** | Use the database’s supported backup/restore or quiesced-copy procedure |
-| **Devices and shares** | Re-establish access and test application behavior |
-| **Ports and DNS** | Stage the replacement address and plan the cutover |
+| **Definiții Compose** | Transferă fișierele proiectului și păstrează configurația testată |
+| **Secrete și mediu** | Recreează valorile necesare prin procesul ales de gestionare a secretelor |
+| **Volume cu nume** | Creează copii de siguranță și restaurează conținutul prin proceduri coerente cu aplicația |
+| **Căi montate bind** | Transferă sau reconectează datele sursă efective și verifică proprietarul |
+| **Baze de date** | Folosește procedura acceptată de backup/restaurare sau de copiere cu scrierile oprite |
+| **Dispozitive și partajări** | Restabilește accesul și testează comportamentul aplicației |
+| **Porturi și DNS** | Pregătește adresa înlocuitoare și planifică trecerea |
 
-**Volumes** outlive containers, but they do not migrate themselves. A Compose file names resources and defines services. Docker’s volume documentation describes separate backup and restore operations for persistent contents. Do not assume recreating the project restores its data. [Docker volume lifecycle and backups](https://docs.docker.com/engine/storage/volumes/)
+**Volumele** supraviețuiesc containerelor, dar nu se migrează singure. Un fișier Compose denumește resurse și definește servicii. Documentația Docker pentru volume descrie operațiuni separate de backup și restaurare a conținutului persistent. Nu presupune că recrearea proiectului restaurează datele. [Ciclul de viață și copiile de siguranță ale volumelor Docker](https://docs.docker.com/engine/storage/volumes/)
 
-Check **Proxmox backup coverage** separately. Its backup documentation excludes device and bind-mount contents from container backups. A successful backup of an LXC root filesystem therefore does not establish protection for every directory exposed inside it. [Proxmox backup documentation](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)
+Verifică separat **acoperirea backupurilor Proxmox**. Documentația de backup exclude conținutul dispozitivelor și al montărilor bind din copiile containerelor. Prin urmare, un backup reușit al sistemului de fișiere rădăcină LXC nu demonstrează protecția fiecărui director expus în interior. [Documentația backup Proxmox](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)
 
-### Check Storage Before Copying
+### Verifică stocarea înainte de copiere
 
-**Inspect Docker’s actual storage configuration** on each Docker host:
+**Inspectează configurația reală de stocare Docker** pe fiecare gazdă Docker:
 
 ```bash
 docker info
 findmnt -T /var/lib/docker
 ```
 
-**`findmnt`** identifies the filesystem containing the specified path. Replace **`/var/lib/docker`** if your daemon uses a different data root, and inspect containerd’s storage path when applicable. Docker documents a distinction between the containerd image store and classic storage drivers, with backend-specific requirements. [Docker storage-backend selection](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
+**`findmnt`** identifică sistemul de fișiere care conține calea specificată. Înlocuiește **`/var/lib/docker`** dacă daemonul folosește alt director de date și verifică și calea containerd când este cazul. Docker documentează o distincție între magazinul de imagini containerd și driverele de stocare clasice, fiecare cu cerințe specifice backendului. [Selectarea backendului de stocare Docker](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
 
-**Recreate images and restore application data** using the chosen backend’s documented procedures. Copying a live Docker data directory between different storage arrangements introduces additional assumptions about metadata, mount state, and consistency. It is a different operation from backing up a stopped application’s data volume.
+**Recreează imaginile și restaurează datele aplicației** folosind procedurile documentate ale backendului ales. Copierea unui director de date Docker activ între configurații diferite de stocare adaugă presupuneri despre metadate, starea montărilor și consistență. Operația diferă de backupul volumului de date al unei aplicații oprite.
 
-### Cut Over With Rollback
+### Treci în producție cu revenire posibilă
 
-1. **Rehearse restoration** in the VM using separate addresses and test data where appropriate.
-2. **Stop production writes** during the agreed outage window and take the final consistent backup.
-3. **Restore and validate** application data, permissions, credentials, and required hardware access.
-4. **Switch service routing** after the replacement passes application-specific checks.
-5. **Keep the original stopped** while retaining its configuration and recovery data.
-6. **Document rollback handling** for data written after cutover before restarting the old system.
+1. **Repetă restaurarea** în VM folosind adrese separate și date de test, dacă este potrivit.
+2. **Oprește scrierile din producție** în fereastra convenită și fă backupul final, coerent.
+3. **Restaurează și validează** datele aplicației, permisiunile, acreditările și accesul hardware necesar.
+4. **Schimbă rutarea serviciului** după ce înlocuitorul trece verificările specifice aplicației.
+5. **Păstrează implementarea originală oprită**, dar reține configurația și datele de recuperare.
+6. **Documentează revenirea** datelor scrise după trecere înainte să repornești sistemul vechi.
 
-Avoid **two active writers** against the same database storage. A rollback involving new production data requires a plan for preserving or intentionally discarding those writes. Merely restarting an old container does not reconcile two diverging data histories.
+Evită **doi scriitori activi** către aceeași stocare de bază de date. Revenirea după noi date de producție necesită un plan pentru a păstra sau a elimina intenționat acele scrieri. Simpla repornire a unui container vechi nu reconciliază două istorice de date divergente.
 
-## Test More Than Uptime
+## Testează mai mult decât timpul de funcționare
 
-**Acceptance tests** should follow the service’s purpose. A green container status establishes a running process. A usable service also requires its data, network access, dependencies, and recovery behavior.
+**Testele de acceptanță** trebuie să urmărească scopul serviciului. O stare verde a containerului confirmă un proces pornit. Un serviciu utilizabil are nevoie și de date, acces la rețea, dependențe și comportament de recuperare.
 
-| Test | Evidence to retain |
+| Test | Dovezi de păstrat |
 |---|---|
-| **Application function** | A successful real transaction, query, or media operation |
-| **Data completeness** | Expected records, files, permissions, and recent changes |
-| **Guest reboot** | Services return without manual repair |
-| **Backup restoration** | The restored copy completes the same functional check |
-| **Representative load** | Latency, CPU, memory pressure, and storage behavior |
-| **Maintenance rehearsal** | A tested update and a usable recovery procedure |
-| **Longer observation** | Availability records spanning several previous failure intervals |
+| **Funcția aplicației** | O tranzacție, interogare sau operație media reală reușită |
+| **Integritatea datelor** | Înregistrările, fișierele, permisiunile și modificările recente așteptate |
+| **Repornirea invitatului** | Serviciile revin fără reparații manuale |
+| **Restaurarea backupului** | Copia restaurată trece aceeași verificare funcțională |
+| **Sarcină reprezentativă** | Latență, CPU, presiune de memorie și comportamentul stocării |
+| **Repetiție de întreținere** | O actualizare testată și o procedură de recuperare utilizabilă |
+| **Observație mai lungă** | Înregistrări de disponibilitate care acoperă mai multe intervale anterioare de defecțiune |
 
-**Worked decision:** A camera service and an experimental downloader currently share one nested stack. Moving both into one VM improves kernel separation but preserves a shared guest-maintenance boundary. If camera availability is the priority, evaluate separate maintenance groups and resource limits, then test recording continuity during downloader updates.
+**Decizie lucrată:** un serviciu de cameră și un program de descărcare experimental împart în prezent aceeași stivă imbricată. Mutarea ambelor într-un VM îmbunătățește separarea nucleului, dar păstrează o limită comună de întreținere a invitatului. Dacă disponibilitatea camerei este prioritară, evaluează grupuri de întreținere separate și limite de resurse, apoi testează continuitatea înregistrărilor în timpul actualizărilor programului de descărcare.
 
-**Expected reasoning:** The best placement follows the service dependency you need to isolate. Two VMs on one physical server still share its power, storage, and host kernel. If the requirement includes surviving the server’s outage, the design needs an additional independent system or an acceptable manual fallback.
+**Raționament așteptat:** amplasarea potrivită urmează dependența serviciului pe care trebuie să o izolezi. Două VM-uri pe același server fizic partajează în continuare alimentarea, stocarea și nucleul gazdei. Dacă cerința include supraviețuirea unei întreruperi a serverului, proiectul are nevoie de un sistem independent suplimentar sau de o alternativă manuală acceptabilă.
 
-## Create Your Decision Record
+## Creează înregistrarea deciziei
 
-**Use measured evidence** to choose a deployment and define when you will revisit it:
+**Folosește dovezi măsurate** pentru a alege implementarea și a stabili când o vei reevalua:
 
 ```text
 Service and household impact:
@@ -303,32 +303,32 @@ Acceptance tests and observation period:
 Condition requiring another architecture review:
 ```
 
-**Choose LXC nesting deliberately** when its benefits justify the integration work and you have tested the recovery path. Choose a VM when a conventional Docker guest environment and a separate guest kernel simplify the service’s operation. Neither decision substitutes for backups, monitoring, and host maintenance.
+**Alege deliberat imbricarea LXC** când beneficiile justifică munca de integrare și ai testat calea de recuperare. Alege un VM când un mediu Docker convențional în sistemul invitat și un nucleu invitat separat simplifică operarea serviciului. Niciuna dintre decizii nu înlocuiește backupurile, monitorizarea și întreținerea gazdei.
 
-## Use a change gate before migration
+## Folosește o etapă de control înainte de migrare
 
-Treat migration as a **controlled change**, not as proof of the original incident cause. Before the cutover, capture the current container configuration, image digests, bind-mount paths, environment keys, device mappings, and last successful restore. After the cutover, compare the same service checks and resource readings. Keep the old workload stopped until the new copy passes its acceptance window.
+Tratează migrarea ca pe o **schimbare controlată**, nu ca pe dovada cauzei incidentului inițial. Înainte de trecere, capturează configurația curentă a containerului, digesturile imaginilor, căile montărilor bind, cheile de mediu, mapările dispozitivelor și ultima restaurare reușită. După trecere, compară aceleași verificări ale serviciului și citiri ale resurselor. Păstrează sarcina veche oprită până când noua copie trece perioada de acceptanță.
 
-If the incident returns after migration, compare host kernel, storage, memory pressure, device access, and Docker versions across both placements. The comparison narrows the investigation. It does not turn a successful migration into a causal experiment unless the relevant variables stayed controlled.
+Dacă incidentul revine după migrare, compară nucleul gazdei, stocarea, presiunea memoriei, accesul la dispozitive și versiunile Docker pentru ambele amplasări. Comparația restrânge investigația. O migrare reușită nu devine experiment cauzal decât dacă variabilele relevante au rămas controlate.
 
 ## Pașii următori
 
-**Inventory one service** first. Identify its persistent data, physical dependencies, failure symptoms, and recovery target. Rehearse a restore before deciding whether a migration is necessary.
+**Inventariază mai întâi un serviciu.** Identifică datele persistente, dependențele fizice, simptomele defecțiunilor și ținta de recuperare. Repetă o restaurare înainte să decizi dacă migrarea este necesară.
 
-For **related work**, use the [Proxmox VE upgrade guide](/articles/proxmox-ve-8-to-9-upgrade-guide/) for upgrade planning and the [Docker and Kubernetes security guide](/articles/how-to-secure-your-docker-and-kubernetes-environment/) for workload hardening. Keep architecture selection, upgrade execution, and incident diagnosis as distinct decisions with their own evidence.
+Pentru **activități conexe**, folosește [ghidul de actualizare Proxmox VE](/articles/proxmox-ve-8-to-9-upgrade-guide/) pentru planificarea actualizării și [ghidul de securitate Docker și Kubernetes](/articles/how-to-secure-your-docker-and-kubernetes-environment/) pentru protejarea sarcinilor. Păstrează alegerea arhitecturii, executarea actualizărilor și diagnosticarea incidentelor drept decizii separate, cu dovezi proprii.
 
-## Sources and Evidence
+## Surse și dovezi
 
-**Research checked:** September 16, 2026. The supplied transcript informed the topic. The video metadata, original incident report, upstream issue, and official documentation were checked separately. Illustrative exercises and proposed validation steps are labeled in the text.
+**Cercetare verificată:** 16 septembrie 2026. Transcrierea furnizată a orientat subiectul. Metadatele videoclipului, raportul original al incidentului, problema upstream și documentația oficială au fost verificate separat. Exercițiile ilustrative și pașii de validare propuși sunt etichetați în text.
 
-| Source | Role |
+| Sursă | Rol |
 |---|---|
-| **[Source video](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Original explainer and its reported stability interval |
-| **[Proxmox incident thread](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | First-person observations and migration follow-up |
-| **[Proxmox container toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Container architecture and current OCI distinction |
-| **[runc issue 4968](https://github.com/opencontainers/runc/issues/4968)** | Documented startup failure and historical package fix |
-| **[LXC pull request 4609](https://github.com/lxc/lxc/pull/4609)** | Merged upstream AppArmor change |
-| **[Docker documentation](https://docs.docker.com/engine/install/debian/)** | Guest installation baseline, with specific runtime and storage references linked above |
-| **[Linux PSI documentation](https://docs.kernel.org/accounting/psi.html)** | Resource-pressure interpretation |
-| **[Linux watchdog documentation](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Defined kernel lockup conditions |
-| **[Proxmox backup documentation](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)** | Container mount exclusions and backup behavior |
+| **[Videoclip sursă](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Explicația originală și intervalul de stabilitate raportat |
+| **[Discuția despre incidentul Proxmox](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Observații directe și actualizarea despre migrare |
+| **[Setul de instrumente pentru containere Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Arhitectura containerelor și distincția actuală OCI |
+| **[Problema runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Defecțiune de pornire documentată și remediere istorică a pachetului |
+| **[Cererea de integrare LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Modificare AppArmor upstream integrată |
+| **[Documentația Docker](https://docs.docker.com/engine/install/debian/)** | Bază pentru instalarea în invitat, cu referințe specifice la mediu de execuție și stocare mai sus |
+| **[Documentația Linux PSI](https://docs.kernel.org/accounting/psi.html)** | Interpretarea presiunii asupra resurselor |
+| **[Documentația watchdog Linux](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Condiții definite de blocare a nucleului |
+| **[Documentația backup Proxmox](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)** | Excluderea montărilor containerelor și comportamentul backupului |

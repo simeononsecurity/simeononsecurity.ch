@@ -4,13 +4,14 @@ date: 2023-05-12
 toc: true
 draft: false
 description: "Leer hoe u uw kinderen kunt beschermen tegen cyberpesten met deze uitgebreide gids voor ouders."
-tags: ["cyberpesten", "online veiligheid", "ouderschap", "kinderen", "geestelijke gezondheid", "overheidsvoorschriften", "veiligheidsbeleid voor internet", "monitoring van online activiteiten", "preventie", "online intimidatie", "cyberveiligheid", "digitaal ouderschap", "sociale media", "digitaal burgerschap", "digitale voetafdruk", "pesten", "wet", "technologie", "beveiliging", "onderwijs"]
+tags: ["Cyberpesten", "Onlineveiligheid", "Opvoeding", "Kinderen", "Mentale gezondheid", "Overheidsregelgeving", "Internetveiligheidsbeleid", "Controle van online activiteiten", "Preventie", "Online intimidatie", "Cyberveiligheid", "Digitaal ouderschap", "Sociale media", "Digitaal burgerschap", "Digitale voetafdruk", "Pesten", "Wetgeving", "Technologie", "Beveiliging", "Onderwijs"]
 cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Een cartoon van een ouder en een kind die samen een computer gebruiken, met een tekstballon boven de computer met een positieve boodschap."
 coverCaption: ""
+lastmod: 2026-11-09
 ---
 
-**Cyberpesten: A Parent's Guide to Keeping Kids Safe Online**.
+**Cyberpesten: een gids voor ouders om kinderen online veilig te houden**
 
 Het internet heeft een revolutie teweeggebracht in de manier waarop we communiceren en toegang hebben tot informatie, maar het heeft ook nieuwe uitdagingen met zich meegebracht, zoals cyberpesten. Cyberpesten is het gebruik van technologie om iemand lastig te vallen, te vernederen of te bedreigen. Het kan gebeuren via sociale media, tekstberichten, online forums en spelplatforms. Als ouder is het essentieel om uzelf en uw kinderen voor te lichten over cyberpesten en stappen te ondernemen om hen online veilig te houden.
 
@@ -74,7 +75,7 @@ Hier zijn enkele bronnen voor ouders om meer te weten te komen over cyberpesten 
 
 - De Federal Trade Commission geeft een gids voor ouders over hoe zij met hun kinderen kunnen praten over online veiligheid en privacy.[Link](https://consumer.ftc.gov/articles/talk-your-kids)
 
-## Government Regulations
+## Overheidsregelgeving
 
 De overheid heeft de ernst van cyberpesten ingezien en wetten ingevoerd om het te bestrijden. De Children's Internet Protection Act vereist dat scholen en bibliotheken een internetveiligheidsbeleid hebben, en de Protecting Children in the 21st Century Act vereist dat scholen leerlingen voorlichten over internetveiligheid. Bovendien hebben veel staten wetten die specifiek betrekking hebben op cyberpesten. De wet van Californië maakt cyberpesten bijvoorbeeld strafbaar en de wet van New York vereist dat scholen een beleid hebben om cyberpesten aan te pakken. Het is essentieel om op de hoogte te zijn van de wetten in uw staat en ervoor te zorgen dat de school van uw kind deze naleeft.
 

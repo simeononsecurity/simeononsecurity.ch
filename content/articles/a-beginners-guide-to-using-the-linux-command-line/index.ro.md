@@ -1,12 +1,13 @@
 ---
 title: "Ghid pentru începători: Utilizarea liniei de comandă Linux pentru securitatea cibernetică"
 date: 2023-03-13
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Învățați cum să utilizați linia de comandă Linux pentru securitatea cibernetică cu comenzi de bază și avansate."
 tags: ["Linux", "Linia de comandă", "Securitatea cibernetică", "Ghid pentru începători", "Scanarea rețelei", "Testarea vulnerabilității", "Analiza malware-ului", "Permisiuni", "Traficul de rețea", "Starea procesului", "Statistici de rețea", "Căutare fișiere", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Securitate", "Testarea de penetrare", "Criminalistică digitală"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "O ilustrație de desen animat a unei persoane care poartă un hanorac cu glugă, care stă în fața unui ecran de calculator pe care este vizibilă interfața liniei de comandă Linux și care ține în mână o lupă pentru a reprezenta aspectul de securitate cibernetică."
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Ilustrație a unui ecran de computer cu interfața liniei de comandă Linux și comenzi verzi pe un fundal întunecat. În jur apar elemente de securitate cibernetică, precum lacăte digitale și linii de rețea."
 coverCaption: ""
 ---
 
@@ -139,6 +140,8 @@ $ chmod ug=rw,o= file2.txt
 
 
 ## Comenzi Linux avansate pentru securitate cibernetică
+
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagramă a unui terminal Linux care rulează nmap, netstat și find pentru scanarea rețelei, monitorizarea proceselor și investigarea fișierelor în activități de securitate cibernetică" >}}
 
 ### Network Mapper
 
@@ -282,7 +285,7 @@ ______
 
 Utilizarea liniei de comandă Linux pentru securitatea cibernetică poate fi copleșitoare pentru începători. Cu toate acestea, cu ajutorul comenzilor de bază și avansate prezentate în acest ghid, puteți începe să folosiți CLI Linux în avantajul dumneavoastră în domeniul securității cibernetice. Nu uitați să fiți prudenți atunci când executați comenzi și să înțelegeți bine ce face fiecare comandă înainte de a o utiliza.
 
-Pentru a afla mai multe despre utilizarea Linux pentru securitatea cibernetică, consultați descărcarea **[Kali Linux](https://www.kali.org/downloads/) sistem de operare conceput special pentru testele de penetrare și criminalistică digitală.
+Pentru a afla mai multe despre utilizarea Linux în securitatea cibernetică, consultați pagina de descărcare **[Kali Linux](https://www.kali.org/downloads/)**, un sistem de operare conceput special pentru testarea penetrării și criminalistică digitală.
 
 ## Concluzie
 

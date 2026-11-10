@@ -1,69 +1,69 @@
 ---
-title: "Docker in LXC on Proxmox: Reliability, Evidence, and VM Migration"
+title: "Docker in LXC op Proxmox: betrouwbaarheid, bewijs en VM-migratie"
 date: 2026-09-16
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
-description: "Evaluate Docker inside Proxmox LXC with a documented AppArmor failure, a careful reading of a host-freeze report, diagnostic commands, and a VM migration plan."
-genre: ["Virtualization", "Linux Administration", "Homelab"]
-tags: ["Docker in LXC", "Proxmox Docker", "Proxmox LXC", "Docker virtual machine", "homelab reliability", "Proxmox host freezes", "Debian Docker VM", "unprivileged containers", "container nesting", "Linux kernel isolation", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker storage drivers", "containerd image store", "memory pressure", "Linux PSI", "persistent journal", "Proxmox backups", "bind mount backups", "VM migration", "failure domains", "GPU passthrough", "home server troubleshooting"]
+description: "Beoordeel Docker binnen Proxmox LXC aan de hand van een gedocumenteerde AppArmor-fout, een zorgvuldige lezing van een melding over een vastlopende host, diagnosecommando’s en een migratieplan naar een VM."
+genre: ["Virtualisatie", "Linux-beheer", "Homelab"]
+tags: ["Docker in LXC", "Docker op Proxmox", "Proxmox-LXC", "Docker-virtuele machine", "betrouwbaarheid van homelabs", "Proxmox-host loopt vast", "Debian Docker-VM", "niet-geprivilegieerde containers", "geneste containers", "isolatie van de Linux-kernel", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker-opslagstuurprogramma’s", "containerd-imageopslag", "geheugendruk", "Linux PSI", "persistent journaal", "Proxmox-back-ups", "back-ups van bind mounts", "VM-migratie", "foutdomeinen", "GPU-passthrough", "problemen met de thuisserver oplossen"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
-coverAlt: "Isometric home server illustration showing nested workload boxes and a separate virtual machine compartment connected to shared hardware"
-coverCaption: "Conceptual illustration of shared hardware and different workload isolation boundaries"
+coverAlt: "Isometrische illustratie van een thuisserver met geneste workloadvakken en een afzonderlijk VM-compartiment dat op gedeelde hardware is aangesloten"
+coverCaption: "Conceptuele illustratie van gedeelde hardware en verschillende grenzen voor workloadisolatie"
 ---
 
-**Docker inside Linux Containers (LXC)** trades some infrastructure overhead for more interactions between the application runtime and the Proxmox host. For Docker services your household depends on, a Debian **virtual machine (VM)** is a practical starting point because it separates the guest kernel and simplifies the environment you must reproduce during troubleshooting. This article examines the supplied video, checks its underlying incident report, and adds documented failures and a migration plan.
+**Docker binnen Linux Containers (LXC)** vraagt weinig extra infrastructuur, maar vergroot het aantal interacties tussen de applicatieruntime en de Proxmox-host. Voor Docker-diensten waar je huishouden op rekent, is een Debian-**virtuele machine (VM)** een praktisch vertrekpunt. De gastkernel staat los van de hostkernel en maakt de omgeving die je tijdens probleemoplossing moet nabouwen eenvoudiger. Dit artikel bekijkt de aangeleverde video, controleert het onderliggende incidentverslag en voegt gedocumenteerde fouten en een migratieplan toe.
 
 <!--more-->
 
 ## Belangrijkste punten
 
-- **Separate failure types:** A Docker startup error, a stalled VM, and an unresponsive physical host require different investigations.
-- **Evaluate the evidence:** Stability after migration supports a recovery decision without proving the original cause.
-- **Check current documentation:** Native OCI image support and Docker nested inside LXC are different deployment paths.
-- **Protect persistent data:** Proxmox backups and Compose files do not automatically cover every application data location.
-- **Test the recovery plan:** Measure restoration, reboot behavior, and service availability before retiring the old deployment.
+- **Onderscheid fouttypen:** Een Docker-startfout, een vastgelopen VM en een niet-reagerende fysieke host vragen elk om een ander onderzoek.
+- **Beoordeel het bewijs:** Stabiliteit na een migratie ondersteunt een herstelbesluit, maar bewijst de oorspronkelijke oorzaak niet.
+- **Controleer actuele documentatie:** Native ondersteuning voor OCI-images en Docker binnen LXC zijn verschillende implementatieroutes.
+- **Bescherm persistente gegevens:** Proxmox-back-ups en Compose-bestanden dekken niet automatisch elke locatie met applicatiegegevens.
+- **Test het herstelplan:** Meet herstel, gedrag na opnieuw opstarten en beschikbaarheid voordat je de oude implementatie buiten gebruik stelt.
 
 ## Voordat je begint
 
-**Difficulty:** Intermediate. **Audience:** Proxmox administrators choosing between nested Docker and Docker in a VM. You should recognize a Compose project, a container mount, and a Linux shell prompt before following the diagnostic examples.
+**Niveau:** Gemiddeld. **Doelgroep:** Proxmox-beheerders die kiezen tussen geneste Docker en Docker in een VM. Je moet een Compose-project, een containermount en een Linux-shellprompt herkennen voordat je de diagnosevoorbeelden volgt.
 
-**Estimated effort:** Allow 30–60 minutes for inventory and evidence collection. Migration time depends on database size, storage throughput, hardware access, and the outage window you choose. The examples below are documented procedures and illustrative reasoning, not benchmarks from a lab operated for this article.
+**Geschatte inspanning:** Reken op 30–60 minuten voor inventarisatie en bewijsverzameling. De migratietijd hangt af van de databasegrootte, opslagdoorvoer, hardwaretoegang en het onderhoudsvenster dat je kiest. De voorbeelden hieronder zijn gedocumenteerde procedures en illustratieve redeneringen, geen benchmarks uit een lab voor dit artikel.
 
-| Requirement | Why it matters |
+| Vereiste | Waarom dit belangrijk is |
 |---|---|
-| **Host console access** | Distinguishes network failure from a host-wide stall |
-| **Current backups** | Provides a recovery path before changing the deployment |
-| **Container and VM IDs** | Keeps host commands directed at the intended workload |
-| **Application data inventory** | Identifies volumes, bind mounts, databases, and external dependencies |
-| **Separate test environment** | Supports migration rehearsal without duplicate production writers |
+| **Toegang tot de hostconsole** | Onderscheidt een netwerkstoring van een vastloper van de hele host |
+| **Actuele back-ups** | Biedt een herstelroute voordat je de implementatie wijzigt |
+| **Container- en VM-ID’s** | Richt hostcommando’s op de bedoelde workload |
+| **Inventaris van applicatiegegevens** | Brengt volumes, bind mounts, databases en externe afhankelijkheden in kaart |
+| **Afzonderlijke testomgeving** | Maakt een migratierepetitie mogelijk zonder dubbele schrijvers in productie |
 
-## Watch the Source Video
+## Bekijk de bronvideo
 
-{{< youtube id="XyPBHhZg0Ok" enable="true" title="Proxmox: The Hidden Danger of Running Docker Inside LXC" description="An explainer about Docker nested inside Proxmox LXC, intermittent host freezes, and a migration to Debian virtual machines" uploadDate="2026-09-15T17:00:09-07:00" >}}
+{{< youtube id="XyPBHhZg0Ok" enable="true" title="Proxmox: The Hidden Danger of Running Docker Inside LXC" description="Een uitleg over Docker genest in Proxmox LXC, terugkerende hostvastlopers en een migratie naar Debian-VM’s" uploadDate="2026-09-15T17:00:09-07:00" >}}
 
-**Source video:** [Proxmox: The Hidden Danger of Running Docker Inside LXC](https://www.youtube.com/watch?v=XyPBHhZg0Ok), published September 15, 2026, by *Proxmox x Kubernetes x Homelab x Backup*. The central question is useful: how much operational uncertainty accompanies a resource-saving architecture?
+**Bronvideo:** [Proxmox: The Hidden Danger of Running Docker Inside LXC](https://www.youtube.com/watch?v=XyPBHhZg0Ok), gepubliceerd op 15 september 2026 door *Proxmox x Kubernetes x Homelab x Backup*. De centrale vraag is hoeveel operationele onzekerheid een architectuur met lager resourcegebruik met zich meebrengt.
 
-**Evidence boundary:** The video narrates an incident and proposes lessons. The sections below distinguish the owner’s observations, documented software behavior, and recommendations derived from them.
+**Afbakening van het bewijs:** De video vertelt over een incident en stelt lessen voor. De volgende secties onderscheiden de waarnemingen van de eigenaar, gedocumenteerd softwaregedrag en aanbevelingen die daaruit volgen.
 
-## What the Incident Establishes
+## Wat het incident aantoont
 
-The original report describes an **Intel Core i3-13100 and BIOSTAR H610MHP host**. The owner reported intermittent freezes affecting management access and LXC services. A connected display stopped responding, although the report explicitly says syslog continued producing output. This is more specific than treating the event as entirely log-free. [Original Proxmox forum report](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
+Het oorspronkelijke verslag beschrijft een **host met een Intel Core i3-13100 en BIOSTAR H610MHP**. De eigenaar meldde terugkerende vastlopers die beheerstoegang en LXC-diensten troffen. Een aangesloten beeldscherm reageerde niet meer, hoewel het verslag uitdrukkelijk vermeldt dat syslog uitvoer bleef produceren. Dat is specifieker dan stellen dat er helemaal geen logs waren. [Oorspronkelijk Proxmox-forumverslag](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
 
-The owner later reported **improvement after migration**. In an August 3 follow-up, they described moving Docker workloads into Debian virtual machines and stopping the Docker-bearing LXCs. They reported no further freezes at the time of the update, while the video cites a 16-day stable period. Neither statement supplies a controlled reproduction or identifies a particular defective component. [Owner’s follow-up in the same thread](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
+De eigenaar meldde later **verbetering na de migratie**. In een vervolgbericht van 3 augustus beschreef die de verplaatsing van Docker-workloads naar Debian-VM’s en het stopzetten van de LXC’s met Docker. Op het moment van de update waren er volgens de eigenaar geen nieuwe vastlopers. De video noemt een stabiele periode van 16 dagen. Geen van beide uitspraken bevat een gecontroleerde reproductie of wijst een specifiek defect onderdeel aan. [Vervolgbericht van de eigenaar in dezelfde discussie](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)
 
-| Observation | What it supports | What it does not establish |
+| Waarneming | Wat dit ondersteunt | Wat dit niet aantoont |
 |---|---|---|
-| **Long initial uptime** | The earlier workload and software combination operated successfully | Reliability after every later update |
-| **Host and services stall** | The outage extends beyond one application | Docker as the root cause |
-| **Migration precedes improvement** | A useful operational workaround | Which changed interaction removed the trigger |
-| **Sixteen stable days** | A bounded observation period | Resolution of every two-to-three-week failure pattern |
+| **Lange uptime in het begin** | De eerdere combinatie van workload en software werkte succesvol | Betrouwbaarheid na elke latere update |
+| **Host en diensten lopen vast** | De uitval gaat verder dan één applicatie | Docker als hoofdoorzaak |
+| **Migratie gaat vooraf aan verbetering** | Een bruikbare operationele workaround | Welke gewijzigde interactie de trigger wegnam |
+| **Zestien stabiele dagen** | Een begrensde observatieperiode | Oplossing van elk storingspatroon van twee tot drie weken |
 
-The **observation period** deserves scrutiny. Sixteen days falls inside a 14–21 day recurrence window. A longer observation period covering several former failure intervals, comparable workloads, and ordinary maintenance improves confidence, but still falls short of a controlled cause-and-effect demonstration.
+De **observatieperiode** verdient aandacht. Zestien dagen valt binnen een terugkeerinterval van 14–21 dagen. Een langere observatieperiode over meerdere eerdere storingsintervallen, met vergelijkbare workloads en regulier onderhoud, vergroot het vertrouwen. Ook dan ontbreekt nog een gecontroleerde demonstratie van oorzaak en gevolg.
 
-**Operational success and root-cause proof** are separate outcomes. Restoring trusted household services is a valid reason to migrate. Describe the result as improved observed reliability until stronger evidence establishes the mechanism.
+**Operationeel succes en bewijs van de hoofdoorzaak** zijn aparte uitkomsten. Het herstellen van betrouwbare diensten in huis is een geldige reden om te migreren. Beschrijf het resultaat als verbeterde waargenomen betrouwbaarheid totdat sterker bewijs het mechanisme aantoont.
 
-## Locate the Kernel Boundary
+## Bepaal de kernelgrens
 
 ```text
 Docker inside LXC:
@@ -76,72 +76,72 @@ Application -> Docker runtime -> guest Linux kernel
             -> Proxmox host kernel -> physical hardware
 ```
 
-**LXC** uses the host kernel. Namespaces, control groups, capabilities, seccomp, and security profiles restrict processes without supplying a separate kernel. Adding Docker inside LXC creates another container-management layer around workloads using the same underlying host kernel. [LXC architecture and containment features](https://linuxcontainers.org/lxc/introduction/)
+**LXC** gebruikt de hostkernel. Namespaces, control groups, capabilities, seccomp en beveiligingsprofielen beperken processen zonder een aparte kernel te leveren. Docker binnen LXC voegt een extra containerlaag toe rond workloads die dezelfde onderliggende hostkernel gebruiken. [LXC-architectuur en isolatiefuncties](https://linuxcontainers.org/lxc/introduction/)
 
-A **VM** introduces a guest kernel. A guest kernel failure normally affects its VM, while Proxmox continues managing the other guests. The VM still depends on the physical host, hypervisor, storage, and networking. Hardware failure or a host-kernel defect remains a shared dependency.
+Een **VM** voegt een gastkernel toe. Een storing in de gastkernel treft normaal gesproken de VM, terwijl Proxmox de andere gasten blijft beheren. De VM blijft afhankelijk van de fysieke host, hypervisor, opslag en het netwerk. Hardwarestoringen en defecten in de hostkernel blijven gedeelde afhankelijkheden.
 
-| Boundary | Docker inside LXC | Docker inside a VM |
+| Grens | Docker binnen LXC | Docker binnen een VM |
 |---|---|---|
-| **Kernel used by applications** | Proxmox host kernel | Guest kernel |
-| **Docker runtime environment** | Constrained by the outer container’s policy | Installed inside a conventional guest OS |
-| **Guest kernel updates** | Tied to the host kernel | Managed inside the guest |
-| **Physical host outage** | Stops dependent workloads | Stops dependent workloads |
+| **Kernel die applicaties gebruiken** | Proxmox-hostkernel | Gastkernel |
+| **Omgeving van de Docker-runtime** | Beperkt door het beleid van de buitenste container | Geïnstalleerd in een conventioneel gastbesturingssysteem |
+| **Updates van de gastkernel** | Gekoppeld aan de hostkernel | Beheerd binnen de gast |
+| **Uitval van de fysieke host** | Stopt afhankelijke workloads | Stopt afhankelijke workloads |
 
-A VM limits **some failure propagation**, not all of it. An application process crash inside LXC does not automatically crash Proxmox. Likewise, putting every household service into one Docker VM still groups those services behind one guest operating system and one maintenance schedule.
+Een VM beperkt **een deel van de foutdoorgifte**, maar niet alles. Een crash van een applicatieproces binnen LXC laat Proxmox niet automatisch crashen. Als je alle thuisdiensten in één Docker-VM zet, blijven ze wel afhankelijk van één gastbesturingssysteem en één onderhoudsschema.
 
-For the **broader conceptual comparison**, see [Docker containers versus virtual machines](/articles/docker-vs-vms/). Here, the decision concerns Docker’s placement within Proxmox and the resulting troubleshooting boundaries.
+Lees voor de **bredere conceptuele vergelijking** [Docker-containers versus virtuele machines](/articles/docker-vs-vms/). Hier gaat de keuze over de plaats van Docker binnen Proxmox en de gevolgen daarvan voor de grenzen van probleemoplossing.
 
-## Define Support Precisely
+## Omschrijf ondersteuning precies
 
-**“Unsupported”** needs a named component and version. Distinguish vendor-recommended deployment, documented features, distribution maintenance, and a contractual support entitlement. A working nested stack does not prove all its combinations receive equal testing, while a recommendation for VMs does not mean maintainers refuse every nesting-related bug.
+**“Niet ondersteund”** vereist een benoemd onderdeel en een versie. Onderscheid een door de leverancier aanbevolen implementatie, gedocumenteerde functies, onderhoud door de distributie en een contractueel recht op ondersteuning. Een werkende geneste stack bewijst niet dat alle combinaties even goed worden getest. Een aanbeveling voor VM’s betekent ook niet dat beheerders elke fout rond nesting afwijzen.
 
-**Current Proxmox documentation** adds an important distinction. Its container-toolkit source describes **Open Container Initiative (OCI)** application-image support as a technology preview, with images converted into the LXC framework. It also recommends containers inside a QEMU VM for requirements emphasizing isolation and live migration. Importing an OCI image into this framework differs from installing Docker Engine and running Compose inside an LXC guest. [Proxmox container-toolkit documentation](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
+**De actuele Proxmox-documentatie** maakt een belangrijk onderscheid. De broncode voor de container-toolkit beschrijft ondersteuning voor **Open Container Initiative (OCI)**-applicatie-images als een technologiepreview. De images worden daarbij omgezet naar het LXC-framework. Voor eisen rond isolatie en live migratie raadt Proxmox ook containers binnen een QEMU-VM aan. Een OCI-image in dit framework importeren verschilt van Docker Engine installeren en Compose uitvoeren in een LXC-gast. [Documentatie van de Proxmox-container-toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
 
-| Deployment | Question to verify |
+| Implementatie | Te controleren vraag |
 |---|---|
-| **Traditional LXC guest** | Does its OS template and application fit the documented container restrictions? |
-| **Docker nested in LXC** | Which kernel, runtime, security-policy, and storage combinations have been tested? |
-| **Native OCI image import** | Does the installed Proxmox version provide the documented feature and required behavior? |
-| **Docker inside Debian VM** | Does the guest release meet Docker’s installation requirements? |
+| **Traditionele LXC-gast** | Passen het OS-template en de applicatie binnen de gedocumenteerde containerbeperkingen? |
+| **Docker genest in LXC** | Welke combinaties van kernel, runtime, beveiligingsbeleid en opslag zijn getest? |
+| **Native import van een OCI-image** | Biedt de geïnstalleerde Proxmox-versie de gedocumenteerde functie en het benodigde gedrag? |
+| **Docker binnen een Debian-VM** | Voldoet de gastrelease aan de installatievereisten van Docker? |
 
-Docker publishes a **Debian installation path**. Use its supported-release list and repository instructions for the guest. Record the versions you deploy rather than assuming an older tutorial remains accurate. This provides a documented installation baseline, not a guarantee of uptime or an automatic paid-support contract. [Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
+Docker publiceert een **installatieroute voor Debian**. Gebruik de lijst met ondersteunde releases en de repository-instructies voor de gast. Leg vast welke versies je installeert in plaats van ervan uit te gaan dat een oudere handleiding nog klopt. Dit biedt een gedocumenteerde installatiebasis, geen uptimegarantie of automatisch betaald ondersteuningscontract. [Docker Engine op Debian](https://docs.docker.com/engine/install/debian/)
 
-## A Confirmed Nesting Failure
+## Een bevestigde nestingfout
 
-The **2025 runc/AppArmor incompatibility** is a verifiable example. The runc maintainers documented a failure involving descriptor reopening inside an outer container with an AppArmor profile. AppArmor misinterpreted an access under **`/proc/sys`** as an access under **`/sys`**, causing a policy denial. [runc issue 4968](https://github.com/opencontainers/runc/issues/4968)
+De **runc/AppArmor-incompatibiliteit uit 2025** is een verifieerbaar voorbeeld. De runc-beheerders documenteerden een fout bij het opnieuw openen van een descriptor binnen een buitenste container met een AppArmor-profiel. AppArmor zag toegang onder **`/proc/sys`** ten onrechte als toegang onder **`/sys`**, waardoor het beleid de toegang weigerde. [runc-issue 4968](https://github.com/opencontainers/runc/issues/4968)
 
-An **affected startup** reported this error fragment:
+Bij een **getroffen startpoging** verscheen dit foutfragment:
 
 ```text
 open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied
 ```
 
-The recorded failure prevented **container startup**. It does not explain the forum owner’s host freezes. The issue records **`lxc-pve 6.0.5-2`** as a Proxmox fix for this specific problem, and the corresponding upstream LXC change merged on November 20, 2025. *Those are historical fix references, not a recommended package pin for a current installation.* [Maintainer’s fix summary](https://github.com/opencontainers/runc/issues/4968), [merged LXC change](https://github.com/lxc/lxc/pull/4609)
+De vastgelegde fout voorkwam het **starten van containers**. Ze verklaart de hostvastlopers van de eigenaar uit het forum niet. In de issue staat **`lxc-pve 6.0.5-2`** als Proxmox-oplossing voor dit specifieke probleem. De bijbehorende upstreamwijziging in LXC is op 20 november 2025 samengevoegd. *Dit zijn historische verwijzingen naar oplossingen, geen advies om een huidige installatie op een pakketversie vast te zetten.* [Samenvatting van de beheerders over de oplossing](https://github.com/opencontainers/runc/issues/4968), [samengevoegde LXC-wijziging](https://github.com/lxc/lxc/pull/4609)
 
-The lesson is **dependency coordination**. A runtime security change interacted with the outer container’s policy, and the fix required work in another layer. Prefer the appropriate maintained package update for your release over permanently disabling AppArmor or retaining an old vulnerable runtime.
+De les is **afstemming tussen afhankelijkheden**. Een wijziging in runtimebeveiliging botste met het beleid van de buitenste container. De oplossing vereiste werk in een andere laag. Installeer de passende onderhouden pakketupdate voor jouw release. Schakel AppArmor niet blijvend uit en behoud geen oude, kwetsbare runtime.
 
-> **Key takeaway:** This incident demonstrates a real nested-container compatibility problem and a real maintainer response. It establishes neither universal LXC instability nor the cause of a separate host lockup.
+> **Belangrijkste punt:** Dit incident toont een echt compatibiliteitsprobleem met geneste containers en een echte reactie van de beheerders. Het bewijst geen algemene instabiliteit van LXC en verklaart geen afzonderlijke hostvastloper.
 
-## Compare the Real Costs
+## Vergelijk de werkelijke kosten
 
-Measure efficiency with your **actual workload**. Compare host memory pressure, CPU demand, storage latency, application response times, and recovery effort under equivalent conditions. Assigned VM RAM, guest free memory, and host resident memory represent different measurements.
+Meet efficiëntie met je **eigen workload**. Vergelijk onder gelijke omstandigheden de geheugendruk op de host, CPU-belasting, opslaglatentie, reactietijden van applicaties en herstelwerk. Toegewezen VM-geheugen, vrij geheugen in de gast en resident geheugen op de host zijn verschillende metingen.
 
-| Claimed saving | Measurement to collect | Additional cost to record |
+| Vermeende besparing | Te verzamelen meting | Extra kosten om vast te leggen |
 |---|---|---|
-| **Lower memory overhead** | Host memory use and pressure during the same workload | Time spent managing nested limits and diagnosing contention |
-| **Faster deployment** | Time to a working service with its data restored | Time to rebuild after a failed update |
-| **Simpler hardware sharing** | Required devices, permissions, and successful application use | Host-driver dependency and migration constraints |
-| **Easier backups** | A successful restore of all required data | External mounts and application consistency |
+| **Minder geheugenoverhead** | Geheugengebruik en druk op de host bij dezelfde workload | Tijd voor het beheren van geneste limieten en het diagnosticeren van conflicten |
+| **Snellere implementatie** | Tijd tot een werkende dienst met herstelde gegevens | Tijd om na een mislukte update opnieuw op te bouwen |
+| **Eenvoudiger hardware delen** | Benodigde apparaten, rechten en succesvolle werking van de applicatie | Afhankelijkheid van hostdrivers en migratiebeperkingen |
+| **Eenvoudiger back-ups** | Een succesvolle hersteltest van alle vereiste gegevens | Externe mounts en consistentie van applicatiegegevens |
 
-Docker documents **unrestricted CPU and memory use** by default unless constraints are applied. In an LXC deployment, the outer container adds its own limits. In a VM, the guest allocation adds another capacity boundary. A guest still needs capacity for its OS, Docker, caches, and peak application demand. [Docker resource constraints](https://docs.docker.com/engine/containers/resource_constraints/)
+Docker documenteert standaard **onbeperkt CPU- en geheugengebruik**, tenzij je limieten instelt. Bij LXC voegt de buitenste container eigen limieten toe. Bij een VM vormt de geheugentoewijzing aan de gast een extra capaciteitsgrens. De gast heeft ook capaciteit nodig voor het besturingssysteem, Docker, caches en piekbelasting van applicaties. [Docker-resourcebeperkingen](https://docs.docker.com/engine/containers/resource_constraints/)
 
-**Hardware access** is a workload requirement. Sharing a host graphics device with a container and assigning a PCI device to a VM involve different driver and isolation arrangements. List the exact device and application requirement before choosing. For example, a media workload requiring hardware decoding needs a successful decode test after migration, alongside ordinary HTTP health checks.
+**Hardwaretoegang** is een eis van de workload. Een grafisch apparaat van de host met een container delen en een PCI-apparaat aan een VM toewijzen vereisen verschillende driver- en isolatieconfiguraties. Noteer het exacte apparaat en de toepassingseis voordat je kiest. Een mediaworkload die hardwaredecodering vereist, heeft bijvoorbeeld na de migratie een geslaagde decodeertest nodig, naast gewone HTTP-gezondheidscontroles.
 
-Avoid **universal overhead numbers**. This article supplies no fixed RAM penalty or performance percentage because those figures require a controlled workload, configuration, and measurement method. Use an observed result from your own comparison in the decision record below.
+Vermijd **algemene overheadcijfers**. Dit artikel noemt geen vaste geheugentoeslag of prestatiepercentage. Daarvoor zijn een gecontroleerde workload, configuratie en meetmethode nodig. Gebruik hieronder in je beslisdocument een resultaat uit je eigen vergelijking.
 
-## Collect Evidence by Layer
+## Verzamel bewijs per laag
 
-**Begin on the Proxmox host**, using an administrative shell. Replace **`101`** with the LXC ID under investigation:
+**Begin op de Proxmox-host** met een beheerdersshell. Vervang **`101`** door het ID van de LXC die je onderzoekt:
 
 ```bash
 pveversion -v
@@ -151,9 +151,9 @@ journalctl --list-boots
 journalctl -k -b -1 --no-pager
 ```
 
-**`pveversion -v`** records the installed Proxmox component versions. **`pct config`** records the outer container configuration. In **`journalctl`**, **`-k`** selects kernel messages, **`-b -1`** selects the previous boot, and **`--no-pager`** produces plain terminal output. Previous-boot messages require retained journal data. [Proxmox toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc), [systemd journalctl reference](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
+**`pveversion -v`** registreert de versies van de geïnstalleerde Proxmox-onderdelen. **`pct config`** registreert de configuratie van de buitenste container. In **`journalctl`** selecteert **`-k`** kernelmeldingen, **`-b -1`** selecteert de vorige boot en **`--no-pager`** geeft gewone terminaluitvoer. Meldingen van de vorige boot vereisen bewaarde journalgegevens. [Proxmox-toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc), [journalctl-referentie van systemd](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
 
-**Then inspect the Docker host**, inside the LXC or VM running its daemon:
+**Inspecteer daarna de Docker-host** binnen de LXC of VM waar de daemon draait:
 
 ```bash
 docker version
@@ -163,9 +163,9 @@ docker ps -a
 docker stats --no-stream
 ```
 
-Record **both environments**. The container image tag alone omits Docker, containerd, runc, the host kernel, security policy, and storage backend. Save the incident time, recent updates, and whether the local host console responded. Redact credentials and private application details before publishing diagnostic material.
+Leg **beide omgevingen** vast. Alleen de container-imagetag vermeldt Docker, containerd, runc, de hostkernel, het beveiligingsbeleid en de opslagbackend niet. Noteer het tijdstip van het incident, recente updates en of de lokale hostconsole reageerde. Verwijder aanmeldgegevens en privégegevens over applicaties voordat je diagnosemateriaal publiceert.
 
-**Inspect a specific workload**, replacing **`app`** with its container name:
+**Inspecteer een specifieke workload** en vervang **`app`** door de containernaam:
 
 ```bash
 docker inspect --format '{{json .State}}' app
@@ -173,11 +173,11 @@ docker inspect --format '{{.RestartCount}}' app
 docker inspect --format '{{json .Mounts}}' app
 ```
 
-**`docker inspect`** exposes state, restart count, and mount information for the named container. Treat a restart count as a clue to correlate with logs, not proof of a host-level defect. A recreated container also starts a new history. [Docker inspect reference](https://docs.docker.com/reference/cli/docker/inspect/)
+**`docker inspect`** toont de status, het aantal herstarts en mountgegevens van de genoemde container. Gebruik het aantal herstarts als aanwijzing om met logs te vergelijken, niet als bewijs van een defect op hostniveau. Een opnieuw aangemaakte container begint ook een nieuwe geschiedenis. [Naslag voor docker inspect](https://docs.docker.com/reference/cli/docker/inspect/)
 
-## Distinguish Pressure From Lockups
+## Onderscheid druk van vastlopers
 
-**Capture Linux pressure information on the host** while the problem develops:
+**Leg op de host Linux-drukgegevens vast** terwijl het probleem zich ontwikkelt:
 
 ```bash
 cat /proc/pressure/cpu
@@ -185,41 +185,41 @@ cat /proc/pressure/memory
 cat /proc/pressure/io
 ```
 
-**Pressure Stall Information**, or PSI, reports time lost while tasks wait for resources. Its **`some`** and **`full`** fields describe different stall conditions, while **`avg10`**, **`avg60`**, and **`avg300`** summarize recent intervals. Memory pressure differs from memory occupancy: a large cache alone does not establish a shortage. [Linux PSI documentation](https://docs.kernel.org/accounting/psi.html)
+**Pressure Stall Information**, oftewel PSI, rapporteert hoeveel tijd taken verliezen doordat ze op resources wachten. De velden **`some`** en **`full`** beschrijven verschillende stallcondities. **`avg10`**, **`avg60`** en **`avg300`** vatten recente intervallen samen. Geheugendruk verschilt van geheugengebruik. Een grote cache alleen toont geen tekort aan. [Linux-PSI-documentatie](https://docs.kernel.org/accounting/psi.html)
 
-| Evidence | Useful interpretation | Next check |
+| Bewijs | Bruikbare interpretatie | Volgende controle |
 |---|---|---|
-| **One container repeatedly exits** | Application or container-runtime failure | Exit state, service logs, restart policy |
-| **SSH fails, console works** | Network or management-path failure | Link state, NIC driver, bridge, firewall |
-| **Memory PSI rises under load** | Tasks lose time to memory contention | Limits, reclaim activity, OOM records, workload growth |
-| **Storage requests stall** | I/O dependency is delaying work | Device health, storage logs, latency and queueing |
-| **Watchdog reports a lockup** | Kernel detector observed a defined stall condition | Full trace, kernel version, reproducible trigger |
-| **No final log entry** | Evidence collection ended before useful output arrived | Persistent or external capture before recurrence |
+| **Eén container stopt herhaaldelijk** | Fout in de applicatie of containerruntime | Afsluitstatus, servicelogs, herstartbeleid |
+| **SSH faalt, console werkt** | Fout in het netwerk of beheerkanaal | Linkstatus, NIC-driver, bridge, firewall |
+| **Memory PSI stijgt onder belasting** | Taken verliezen tijd door geheugenconflicten | Limieten, reclaim-activiteit, OOM-registraties, groei van de workload |
+| **Opslagverzoeken lopen vast** | Een I/O-afhankelijkheid vertraagt werk | Apparaatstatus, opslaglogs, latentie en wachtrijen |
+| **Watchdog meldt een lockup** | De kernel-detector zag een gedefinieerde stallconditie | Volledige trace, kernelversie, reproduceerbare trigger |
+| **Geen laatste logregel** | Het verzamelen van bewijs stopte voordat bruikbare uitvoer verscheen | Persistente of externe registratie vóór een herhaling |
 
-A **Linux lockup report** has a technical meaning. Kernel watchdogs distinguish soft and hard lockup conditions. A browser timing out does not establish either condition, and a missing watchdog report does not prove the host remained healthy. [Linux lockup-detector documentation](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)
+Een **Linux-lockupmelding** heeft een technische betekenis. Kernel-watchdogs onderscheiden soft- en hard-lockups. Een time-out in een browser bewijst geen van beide. Het ontbreken van een watchdogmelding bewijst evenmin dat de host gezond bleef. [Documentatie over Linux-lockupdetectie](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)
 
-**Firmware and power-state changes** are experiments. Record the previous setting, the reason for changing it, and the observation period. Disabling a CPU idle state changes power and thermal behavior, so a report involving another machine is insufficient evidence to prescribe the same setting universally.
+**Wijzigingen in firmware en energietoestanden** zijn experimenten. Noteer de vorige instelling, de reden voor de wijziging en de observatieperiode. Een CPU-idletoestand uitschakelen verandert het energieverbruik en thermisch gedrag. Een melding over een andere machine is onvoldoende bewijs om overal dezelfde instelling aan te raden.
 
-## Preserve Useful Logs
+## Bruikbare logs bewaren
 
-**Persistent journaling** improves the chance of retaining evidence across a reboot. A journald configuration drop-in uses this setting:
+**Persistente journaling** vergroot de kans dat bewijs na een herstart beschikbaar blijft. Een configuratiebestand voor journald gebruikt deze instelling:
 
 ```ini
 [Journal]
 Storage=persistent
 ```
 
-**`Storage=persistent`** requests disk-backed journal storage when available. Configure retention limits and available disk capacity as part of the change, then verify earlier boots appear in **`journalctl --list-boots`**. Persistent logging still depends on the host completing writes before the failure. [systemd journald configuration](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
+**`Storage=persistent`** vraagt om opslag van journalgegevens op schijf wanneer die beschikbaar is. Stel tegelijk retentielimieten en beschikbare schijfruimte in. Controleer daarna of eerdere boots verschijnen in **`journalctl --list-boots`**. Persistente logging is nog steeds afhankelijk van de host die schrijfacties voltooit voordat de storing optreedt. [Configuratie van systemd-journald](https://github.com/systemd/systemd/blob/main/man/journald.conf.xml)
 
-**External observation** adds another perspective. Monitor the service from a different machine and record timestamps. A monitor running on the failing Proxmox host disappears during the same outage, reducing its value for distinguishing downtime from missing telemetry.
+**Externe observatie** voegt een ander perspectief toe. Monitor de dienst vanaf een andere machine en noteer tijdstempels. Een monitor op de falende Proxmox-host valt bij dezelfde storing weg. Daardoor helpt die minder om downtime van ontbrekende telemetrie te onderscheiden.
 
-**Illustrative test:** Schedule a lightweight HTTP check from a separate system, then compare failures with host reachability and local-console behavior. An application timeout with a responsive host points to a different investigation than simultaneous application, management, and console failure. This is a diagnostic design, not an observed result from the source incident.
+**Illustratieve test:** Plan vanaf een ander systeem een lichte HTTP-controle en vergelijk storingen vervolgens met de bereikbaarheid van de host en het gedrag van de lokale console. Een time-out van de applicatie terwijl de host reageert vraagt om een ander onderzoek dan gelijktijdige uitval van applicatie, beheer en console. Dit is een diagnostisch ontwerp, geen waargenomen resultaat van het bronincident.
 
-## Plan a Controlled Migration
+## Plan een gecontroleerde migratie
 
-Start with **one low-risk Compose project**. Prepare a Debian VM using a release listed in Docker’s installation documentation, establish backups, and configure resource allocations. Keep the original deployment available for rollback until the replacement passes its tests. [Docker’s Debian installation instructions](https://docs.docker.com/engine/install/debian/)
+Begin met **één Compose-project met laag risico**. Bereid een Debian-VM voor met een release uit de installatiedocumentatie van Docker. Regel back-ups en stel de resourcetoewijzing in. Houd de oorspronkelijke implementatie beschikbaar voor terugdraaien totdat de vervanging de tests doorstaat. [Installatie-instructies van Docker voor Debian](https://docs.docker.com/engine/install/debian/)
 
-**Inventory the Compose project** from its working directory:
+**Inventariseer het Compose-project** vanuit de werkmap:
 
 ```bash
 docker compose config --quiet
@@ -227,67 +227,67 @@ docker compose config --images
 docker compose config --volumes
 ```
 
-**`--quiet`** validates the configuration without printing it. **`--images`** lists referenced images, while **`--volumes`** lists named volumes. These commands do not export application data or provide a complete bind-mount inventory. Review the Compose file and each container’s mounts as well. [Docker Compose config reference](https://docs.docker.com/reference/cli/docker/compose/config/)
+**`--quiet`** valideert de configuratie zonder uitvoer te tonen. **`--images`** toont gebruikte images en **`--volumes`** toont benoemde volumes. Deze commando’s exporteren geen applicatiegegevens en leveren geen volledige inventaris van bind mounts. Bekijk ook het Compose-bestand en de mounts van elke container. [Referentie voor docker compose config](https://docs.docker.com/reference/cli/docker/compose/config/)
 
-| Data or dependency | Migration action |
+| Gegevens of afhankelijkheid | Migratieactie |
 |---|---|
-| **Compose definitions** | Transfer project files and retain the tested configuration |
-| **Secrets and environment** | Recreate required values through the chosen secret-management process |
-| **Named volumes** | Back up and restore their contents with application-consistent procedures |
-| **Bind-mounted paths** | Transfer or reconnect the actual source data and verify ownership |
-| **Databases** | Use the database’s supported backup/restore or quiesced-copy procedure |
-| **Devices and shares** | Re-establish access and test application behavior |
-| **Ports and DNS** | Stage the replacement address and plan the cutover |
+| **Compose-definities** | Verplaats projectbestanden en behoud de geteste configuratie |
+| **Geheimen en omgevingsvariabelen** | Maak vereiste waarden opnieuw aan met het gekozen proces voor geheimbeheer |
+| **Benoemde volumes** | Maak back-ups en herstel de inhoud volgens applicatieconsistente procedures |
+| **Paden met bind mounts** | Verplaats of koppel de brongegevens opnieuw en controleer het eigenaarschap |
+| **Databases** | Gebruik de ondersteunde back-up- en herstelprocedure of een procedure voor een stilgelegde kopie |
+| **Apparaten en gedeelde opslag** | Herstel de toegang en test het gedrag van de applicatie |
+| **Poorten en DNS** | Bereid het vervangende adres voor en plan de omschakeling |
 
-**Volumes** outlive containers, but they do not migrate themselves. A Compose file names resources and defines services. Docker’s volume documentation describes separate backup and restore operations for persistent contents. Do not assume recreating the project restores its data. [Docker volume lifecycle and backups](https://docs.docker.com/engine/storage/volumes/)
+**Volumes** blijven bestaan nadat containers verdwijnen, maar migreren niet vanzelf. Een Compose-bestand benoemt resources en definieert diensten. De volume-documentatie van Docker beschrijft aparte procedures voor het maken van back-ups en het herstellen van persistente inhoud. Ga er niet van uit dat het opnieuw aanmaken van het project de gegevens herstelt. [Levenscyclus en back-ups van Docker-volumes](https://docs.docker.com/engine/storage/volumes/)
 
-Check **Proxmox backup coverage** separately. Its backup documentation excludes device and bind-mount contents from container backups. A successful backup of an LXC root filesystem therefore does not establish protection for every directory exposed inside it. [Proxmox backup documentation](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)
+Controleer apart de **dekking van Proxmox-back-ups**. De back-updocumentatie sluit de inhoud van apparaten en bind mounts uit van containerback-ups. Een geslaagde back-up van het rootbestandssysteem van een LXC bewijst dus niet dat elke daarin gekoppelde map is beschermd. [Proxmox-back-updocumentatie](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)
 
-### Check Storage Before Copying
+### Controleer opslag vóór kopiëren
 
-**Inspect Docker’s actual storage configuration** on each Docker host:
+**Controleer de echte opslagconfiguratie van Docker** op elke Docker-host:
 
 ```bash
 docker info
 findmnt -T /var/lib/docker
 ```
 
-**`findmnt`** identifies the filesystem containing the specified path. Replace **`/var/lib/docker`** if your daemon uses a different data root, and inspect containerd’s storage path when applicable. Docker documents a distinction between the containerd image store and classic storage drivers, with backend-specific requirements. [Docker storage-backend selection](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
+**`findmnt`** geeft het bestandssysteem aan waarin het opgegeven pad staat. Vervang **`/var/lib/docker`** als je daemon een andere dataroot gebruikt. Controleer indien nodig ook het opslagpad van containerd. Docker beschrijft het verschil tussen de containerd-imageopslag en klassieke storage drivers, met vereisten per backend. [Keuze van Docker-opslagbackend](https://docs.docker.com/engine/storage/drivers/select-storage-driver/)
 
-**Recreate images and restore application data** using the chosen backend’s documented procedures. Copying a live Docker data directory between different storage arrangements introduces additional assumptions about metadata, mount state, and consistency. It is a different operation from backing up a stopped application’s data volume.
+**Maak images opnieuw aan en herstel applicatiegegevens** volgens de gedocumenteerde procedures van de gekozen backend. Een actieve Docker-datamap kopiëren tussen verschillende opslagconfiguraties veronderstelt meer over metadata, mountstatus en consistentie. Dit verschilt van een back-up van een gegevensvolume nadat de applicatie is gestopt.
 
-### Cut Over With Rollback
+### Schakel om met terugdraaiplan
 
-1. **Rehearse restoration** in the VM using separate addresses and test data where appropriate.
-2. **Stop production writes** during the agreed outage window and take the final consistent backup.
-3. **Restore and validate** application data, permissions, credentials, and required hardware access.
-4. **Switch service routing** after the replacement passes application-specific checks.
-5. **Keep the original stopped** while retaining its configuration and recovery data.
-6. **Document rollback handling** for data written after cutover before restarting the old system.
+1. **Oefen het herstel** in de VM met aparte adressen en waar nodig testgegevens.
+2. **Stop schrijfacties in productie** tijdens het afgesproken onderhoudsvenster en maak de laatste consistente back-up.
+3. **Herstel en valideer** applicatiegegevens, rechten, aanmeldgegevens en vereiste hardwaretoegang.
+4. **Schakel de routering van diensten om** nadat de vervanging de applicatiespecifieke controles doorstaat.
+5. **Laat het origineel gestopt** en bewaar de configuratie en herstelgegevens.
+6. **Leg terugdraaiafspraken vast** voor gegevens die na de omschakeling zijn geschreven, voordat je het oude systeem opnieuw start.
 
-Avoid **two active writers** against the same database storage. A rollback involving new production data requires a plan for preserving or intentionally discarding those writes. Merely restarting an old container does not reconcile two diverging data histories.
+Voorkom **twee actieve schrijvers** naar dezelfde databaseopslag. Bij terugdraaien na nieuwe productiegegevens is een plan nodig om die schrijfacties te bewaren of bewust te verwerpen. Een oude container opnieuw starten brengt twee uiteenlopende gegevensgeschiedenissen niet samen.
 
-## Test More Than Uptime
+## Test meer dan uptime
 
-**Acceptance tests** should follow the service’s purpose. A green container status establishes a running process. A usable service also requires its data, network access, dependencies, and recovery behavior.
+**Acceptatietests** volgen het doel van de dienst. Een groene containerstatus toont dat een proces draait. Een bruikbare dienst vereist ook de gegevens, netwerktoegang, afhankelijkheden en herstelmogelijkheden.
 
-| Test | Evidence to retain |
+| Test | Te bewaren bewijs |
 |---|---|
-| **Application function** | A successful real transaction, query, or media operation |
-| **Data completeness** | Expected records, files, permissions, and recent changes |
-| **Guest reboot** | Services return without manual repair |
-| **Backup restoration** | The restored copy completes the same functional check |
-| **Representative load** | Latency, CPU, memory pressure, and storage behavior |
-| **Maintenance rehearsal** | A tested update and a usable recovery procedure |
-| **Longer observation** | Availability records spanning several previous failure intervals |
+| **Werking van de applicatie** | Een geslaagde echte transactie, query of mediahandeling |
+| **Volledigheid van gegevens** | Verwachte records, bestanden, rechten en recente wijzigingen |
+| **Herstart van de gast** | Diensten komen terug zonder handmatige reparatie |
+| **Herstel uit een back-up** | De herstelde kopie doorstaat dezelfde functionele controle |
+| **Representatieve belasting** | Latentie, CPU, geheugendruk en opslaggedrag |
+| **Onderhoudsrepetitie** | Een geteste update en een bruikbare herstelprocedure |
+| **Langere observatie** | Beschikbaarheidsregistraties over meerdere eerdere storingsintervallen |
 
-**Worked decision:** A camera service and an experimental downloader currently share one nested stack. Moving both into one VM improves kernel separation but preserves a shared guest-maintenance boundary. If camera availability is the priority, evaluate separate maintenance groups and resource limits, then test recording continuity during downloader updates.
+**Voorbeeldbesluit:** Een cameraservice en een experimentele downloader delen nu één geneste stack. Beide naar één VM verplaatsen verbetert de scheiding van kernels, maar houdt de gastonderhoudsgrens gedeeld. Als beschikbaarheid van de camera prioriteit heeft, beoordeel dan afzonderlijke onderhoudsgroepen en resourcelimieten. Test vervolgens de continuïteit van opnamen tijdens updates van de downloader.
 
-**Expected reasoning:** The best placement follows the service dependency you need to isolate. Two VMs on one physical server still share its power, storage, and host kernel. If the requirement includes surviving the server’s outage, the design needs an additional independent system or an acceptable manual fallback.
+**Verwachte redenering:** Kies de plaats op basis van de serviceafhankelijkheid die je wilt isoleren. Twee VM’s op één fysieke server delen nog steeds stroom, opslag en hostkernel. Als de serverstoring ook moet worden overleefd, is een extra onafhankelijk systeem of een aanvaardbare handmatige terugval nodig.
 
-## Create Your Decision Record
+## Leg je besluit vast
 
-**Use measured evidence** to choose a deployment and define when you will revisit it:
+**Gebruik gemeten bewijs** om een implementatie te kiezen en vast te leggen wanneer je die opnieuw beoordeelt:
 
 ```text
 Service and household impact:
@@ -303,32 +303,32 @@ Acceptance tests and observation period:
 Condition requiring another architecture review:
 ```
 
-**Choose LXC nesting deliberately** when its benefits justify the integration work and you have tested the recovery path. Choose a VM when a conventional Docker guest environment and a separate guest kernel simplify the service’s operation. Neither decision substitutes for backups, monitoring, and host maintenance.
+**Kies bewust voor LXC-nesting** als de voordelen het integratiewerk rechtvaardigen en je de herstelroute hebt getest. Kies een VM als een conventionele Docker-gastomgeving en aparte gastkernel de dienst eenvoudiger maken. Geen van beide keuzes vervangt back-ups, monitoring en hostonderhoud.
 
-## Use a change gate before migration
+## Gebruik een wijzigingspoort vóór migratie
 
-Treat migration as a **controlled change**, not as proof of the original incident cause. Before the cutover, capture the current container configuration, image digests, bind-mount paths, environment keys, device mappings, and last successful restore. After the cutover, compare the same service checks and resource readings. Keep the old workload stopped until the new copy passes its acceptance window.
+Behandel migratie als een **gecontroleerde wijziging**, niet als bewijs voor de oorzaak van het oorspronkelijke incident. Leg vóór de omschakeling de containerconfiguratie, image-digests, bind-mountpaden, omgevingssleutels, apparaatkoppelingen en de laatste geslaagde hersteltest vast. Vergelijk na de omschakeling dezelfde servicecontroles en resourcemetingen. Laat de oude workload gestopt totdat de nieuwe kopie de acceptatieperiode doorstaat.
 
-If the incident returns after migration, compare host kernel, storage, memory pressure, device access, and Docker versions across both placements. The comparison narrows the investigation. It does not turn a successful migration into a causal experiment unless the relevant variables stayed controlled.
+Keert het incident na de migratie terug, vergelijk dan de hostkernel, opslag, geheugendruk, apparaattoegang en Docker-versies van beide implementaties. De vergelijking vernauwt het onderzoek. Een geslaagde migratie wordt pas een oorzakelijk experiment als de relevante variabelen onder controle bleven.
 
 ## Volgende stappen
 
-**Inventory one service** first. Identify its persistent data, physical dependencies, failure symptoms, and recovery target. Rehearse a restore before deciding whether a migration is necessary.
+**Inventariseer eerst één dienst.** Breng de persistente gegevens, fysieke afhankelijkheden, storingssymptomen en het hersteldoel in kaart. Oefen een herstel voordat je beslist of migratie nodig is.
 
-For **related work**, use the [Proxmox VE upgrade guide](/articles/proxmox-ve-8-to-9-upgrade-guide/) for upgrade planning and the [Docker and Kubernetes security guide](/articles/how-to-secure-your-docker-and-kubernetes-environment/) for workload hardening. Keep architecture selection, upgrade execution, and incident diagnosis as distinct decisions with their own evidence.
+Bekijk voor **verwant werk** de [Proxmox VE-upgradegids](/articles/proxmox-ve-8-to-9-upgrade-guide/) voor upgradeplanning en de [beveiligingsgids voor Docker en Kubernetes](/articles/how-to-secure-your-docker-and-kubernetes-environment/) voor het beveiligen van workloads. Houd architectuurkeuze, upgrade-uitvoering en incidentdiagnose gescheiden en baseer elke beslissing op eigen bewijs.
 
-## Sources and Evidence
+## Bronnen en bewijs
 
-**Research checked:** September 16, 2026. The supplied transcript informed the topic. The video metadata, original incident report, upstream issue, and official documentation were checked separately. Illustrative exercises and proposed validation steps are labeled in the text.
+**Onderzoek gecontroleerd:** 16 september 2026. Het aangeleverde transcript bepaalde het onderwerp. De videometadata, het oorspronkelijke incidentverslag, de upstream-issue en de officiële documentatie zijn afzonderlijk gecontroleerd. Illustratieve oefeningen en voorgestelde validatiestappen zijn in de tekst aangeduid.
 
-| Source | Role |
+| Bron | Rol |
 |---|---|
-| **[Source video](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Original explainer and its reported stability interval |
-| **[Proxmox incident thread](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | First-person observations and migration follow-up |
-| **[Proxmox container toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Container architecture and current OCI distinction |
-| **[runc issue 4968](https://github.com/opencontainers/runc/issues/4968)** | Documented startup failure and historical package fix |
-| **[LXC pull request 4609](https://github.com/lxc/lxc/pull/4609)** | Merged upstream AppArmor change |
-| **[Docker documentation](https://docs.docker.com/engine/install/debian/)** | Guest installation baseline, with specific runtime and storage references linked above |
-| **[Linux PSI documentation](https://docs.kernel.org/accounting/psi.html)** | Resource-pressure interpretation |
-| **[Linux watchdog documentation](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Defined kernel lockup conditions |
-| **[Proxmox backup documentation](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)** | Container mount exclusions and backup behavior |
+| **[Bronvideo](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Oorspronkelijke uitleg en de gemelde stabiliteitsperiode |
+| **[Proxmox-incidentdiscussie](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Waarnemingen uit de eerste hand en de migratie-update |
+| **[Proxmox-container-toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Containerarchitectuur en huidig OCI-onderscheid |
+| **[runc-issue 4968](https://github.com/opencontainers/runc/issues/4968)** | Gedocumenteerde startfout en historische pakketoplossing |
+| **[LXC-pull request 4609](https://github.com/lxc/lxc/pull/4609)** | Samengevoegde upstreamwijziging in AppArmor |
+| **[Docker-documentatie](https://docs.docker.com/engine/install/debian/)** | Installatiebasis voor de gast, met specifieke verwijzingen naar runtime en opslag hierboven |
+| **[Linux-PSI-documentatie](https://docs.kernel.org/accounting/psi.html)** | Interpretatie van resourcebelasting |
+| **[Linux-watchdogdocumentatie](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Gedefinieerde kernel-lockupcondities |
+| **[Proxmox-back-updocumentatie](https://github.com/proxmox/pve-docs/blob/master/vzdump.adoc)** | Uitsluitingen voor containermounts en back-upgedrag |

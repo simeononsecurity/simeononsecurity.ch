@@ -3,6 +3,7 @@ title: "La ciberseguridad de IA y las certificaciones de gobernanza no están al
 draft: false
 toc: true
 date: 2026-06-26
+lastmod: 2026-11-08
 description: "Una opinión profesional sobre la brecha entre las certificaciones de gobernanza de IA y la práctica real de seguridad de IA. Aprobamos varias de ellas y salimos decepcionados. Los marcos son incipientes y están orientados a la gobernanza. La superficie de ataque creció más rápido."
 tags: ["seguridad IA", "gobernanza IA", "certificaciones IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "inyección de prompt", "ciberseguridad IA", "seguridad LLM", "OWASP LLM Top 10", "MITRE ATLAS", "gestión de riesgos IA", "cumplimiento IA", "seguridad machine learning", "cadena de suministro de modelos", "IA adversarial", "agentes IA", "seguridad MCP", "red teaming IA", "certificaciones gobernanza IA", "IA agéntica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
@@ -76,6 +77,8 @@ Ese requisito está en el texto. El Acto especifica intencionalmente resultados 
 Las certificaciones construidas alrededor del EU AI Act lo preparan para clasificar sistemas de IA, redactar documentación técnica y estructurar protocolos de supervisión. Lo preparan para la auditoría. El trabajo de ingeniería que produce un sistema conforme con los requisitos de robustez del Acto pertenece a una disciplina diferente a la que actualmente cubren las certificaciones.
 
 ## Qué está atacando realmente los sistemas de IA
+
+{{< figure src="ai-system-attack-surface-prompt-injection-poisoning.webp" alt="Diagrama de la superficie de ataque de un sistema de IA, con inyección de prompts, envenenamiento de datos de entrenamiento, compromiso de la cadena de suministro del modelo y rutas de ataque para extraer el modelo" >}}
 
 MITRE ATLAS y OWASP LLM Top 10 documentan el panorama de amenazas operacional. Estos son los recursos que enumeran los ataques a un nivel de detalle útil. Los marcos de gobernanza referencian amenazas a mayor nivel de abstracción. Lo siguiente proviene de esas fuentes específicas de seguridad.
 

@@ -1,15 +1,16 @@
 ---
 title: "Het NIST-cyberbeveiligingsraamwerk implementeren"
 date: 2023-03-18
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Leer hoe je het NIST Cybersecurity Framework implementeert en je organisatie beschermt tegen cyberbedreigingen met onze stapsgewijze handleiding."
 tags: ["cyberbeveiliging", "NIST", "kader", "risicobeheer", "informatiebeveiliging", "cyberbedreigingen", "implementatie", "optimale werkmethoden", "richtlijnen", "normen", "cyberaanvallen", "risicobeoordeling", "cyberbeveiligingsrisico", "gegevensbescherming", "naleving", "IT-beveiliging", "netwerkbeveiliging", "reactie op incidenten", "veiligheidsmaatregelen", "cyberbeveiligingsplan"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
-coverAlt: "Een cartoonafbeelding van een persoon met een schild die verschillende cyberaanvallen blokkeert."
+cover: "/img/cover/a-guide-to-implementing-the-NIST-cybersecurity-framework.webp"
+coverAlt: "Verschillende professionals werken samen in een modern kantoor voor een groot digitaal scherm met afbeeldingen over cybersecurity. De scène bevat laptops en tablets, met een donkere achtergrond en heldere kleuren."
 coverCaption: ""
 ---
- Gids voor de implementatie van het NIST Cybersecurity Framework voor uw organisatie**
+**Gids voor de implementatie van het NIST Cybersecurity Framework voor uw organisatie**
 
 Het National Institute of Standards and Technology (**NIST**) heeft een raamwerk voor cyberbeveiliging ontwikkeld dat organisaties voorziet van richtlijnen en best practices voor het beheren en verminderen van risico's op het gebied van cyberbeveiliging. **Het implementeren van het NIST Cybersecurity Framework** kan organisaties van alle soorten en maten helpen om hun informatie en bedrijfsmiddelen te beschermen tegen cyberbedreigingen.
 

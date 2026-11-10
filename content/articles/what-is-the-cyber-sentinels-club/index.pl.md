@@ -1,6 +1,7 @@
 ---
 title: "Czym są Cyber Sentinels i dlaczego powinieneś do nich dołączyć"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Poznaj misję i zasady działania Cyber Sentinels, społeczności profesjonalistów z branży cybernetycznej i IT, zaangażowanych w dzielenie się wiedzą i opracowywanie innowacyjnych rozwiązań dla wyzwań związanych z cyberbezpieczeństwem."
@@ -40,7 +41,7 @@ Pod koniec dnia Cyber Sentinels pracują, aby wywrzeć pozytywny wpływ na bezpi
 
 ## Dołączenie do Cyber Sentinels
 
-Jeśli jesteś zainteresowany dołączeniem do Cyber Sentinels, pierwszym krokiem jest odwiedzenie ich strony internetowej pod adresem[https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) i rozpocząć odkrywanie różnych kanałów i angażowanie się w społeczność. Cyber Sentinels zaprasza profesjonalistów na wszystkich poziomach, od początkujących do ekspertów, i oferuje wiele kanałów, z których członkowie mogą korzystać, w tym kanały tekstowe i głosowe do ogólnych dyskusji, wiadomości i wydarzeń, nauki i rozwoju oraz projektów i współpracy. Oferują również dedykowany kanał dla ofert pracy i porad zawodowych, a także kanał dla lekkich rozmów i zabawy. Dołączając do Cyber Sentinels, będziesz miał możliwość nawiązania kontaktu z podobnie myślącymi profesjonalistami w dziedzinie cyberbezpieczeństwa, uczenia się na podstawie ich doświadczeń oraz współpracy nad nowymi pomysłami i projektami.
+Jeśli jesteś zainteresowany dołączeniem do Cyber Sentinels, pierwszym krokiem jest odwiedzenie ich strony internetowej pod adresem[https://cybersentinels.org](https://cybersentinels.org). Stamtąd możesz dołączyć do ich serwera Discord pod adresem [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) i rozpocząć odkrywanie różnych kanałów i angażowanie się w społeczność. Cyber Sentinels zaprasza profesjonalistów na wszystkich poziomach, od początkujących do ekspertów, i oferuje wiele kanałów, z których członkowie mogą korzystać, w tym kanały tekstowe i głosowe do ogólnych dyskusji, wiadomości i wydarzeń, nauki i rozwoju oraz projektów i współpracy. Oferują również dedykowany kanał dla ofert pracy i porad zawodowych, a także kanał dla lekkich rozmów i zabawy. Dołączając do Cyber Sentinels, będziesz miał możliwość nawiązania kontaktu z podobnie myślącymi profesjonalistami w dziedzinie cyberbezpieczeństwa, uczenia się na podstawie ich doświadczeń oraz współpracy nad nowymi pomysłami i projektami.
 
 ___________________________________________________________________________
 

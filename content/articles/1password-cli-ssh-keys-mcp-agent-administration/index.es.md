@@ -88,7 +88,7 @@ La documentación de Bitbucket denomina a esto un flujo de trabajo de Git CLI. E
 
 ## El límite entre el Agente y MCP
 
-Utilice la especificación actual de MCP](https://modelcontextprotocol.io/specification/2026-07-28) al revisar un nuevo servidor.
+Utilice la [especificación actual de MCP](https://modelcontextprotocol.io/specification/2026-07-28) al revisar un nuevo servidor.
 
 La URL de la especificación del 18-06-2025 en el siguiente párrafo de contexto es una versión histórica. Utilice la especificación del 28-07-2026 para nuevas revisiones.
 

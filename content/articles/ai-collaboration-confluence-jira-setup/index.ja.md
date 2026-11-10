@@ -1,0 +1,254 @@
+---
+title: "Confluence と Jira の AI 設定：権限と決定権"
+date: 2026-10-01
+lastmod: 2026-11-08
+toc: true
+draft: false
+description: "Confluence の正式な根拠ページと、会社管理 Jira の権限を設定し、レビュー済みのチーム横断コラボレーションを実現します。"
+genre: ["人工知能", "チームコラボレーション", "ソフトウェアエンジニアリング"]
+tags: ["AI コラボレーションコース", "Confluence Cloud", "Jira Cloud", "正式な根拠ページ", "Jira 権限スキーム", "ワークフロー遷移", "アクセス検証"]
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
+coverAlt: "サイバーセキュリティの作業環境で、専門家が共有プロジェクトをレビューしているイラスト"
+coverCaption: ""
+---
+
+[AI コラボレーションコースに戻る](/ai-collaboration-course-start/)
+
+**管理者はチャットツールを接続する前に、職場での権限関係を設定します。** 製品と運用の責任者は、要件と手順書を Confluence Cloud で公開します。Jira Cloud はデリバリーを調整します。実装は GitHub が管理します。基盤を整えた後に専用のサンドボックスを構築します。権限の誤設定は、モデルの動作とは無関係に情報を露出させるためです。
+
+## 要点
+
+- **Confluence** は承認済みの要件文を管理します。
+- **Jira** はデリバリーの状態を管理し、保存ポリシーは管理しません。
+- **GitHub** は設定と共有ポリシーを管理します。
+- **権限テスト**には適切なプランと個別のユーザーが必要です。
+
+## 開始前の準備
+
+**前提条件：**[基盤コース](/articles/ai-collaboration-pilot-foundation/)、ラボ用リポジトリ、Confluence スペースと Jira の管理権限、コントリビューター、オーナー、公開担当者それぞれの個別ユーザー。**所要時間の目安：**90～120 分。**難易度：**高度な管理作業。
+
+**プラン要件：**Confluence Free はコンテンツ制限に対応していません。Jira Free では権限スキーム、スペースロール、作業項目のセキュリティスキームを設定できません。この手順では Standard 以上の適切なサンドボックスを使ってください。テスト前に、参照資料で実際のプランと権限を確認します。
+
+**画面移動に関する注意：**現在の Jira ドキュメントでは「space」と「work item」を使います。一部のテナントでは「project」と「issue」が残っています。会社管理の構成を選択してください。チーム管理の権限動作はこの手順の対象外です。Rovo、Marketplace アプリ、Jira Service Management の承認機能、有料チャットコネクタは不要です。
+
+**完了時の成果：**権限マトリクス、名前を付けた正式な根拠ページ、ラボ専用 Jira ワークフロー、別ユーザーで確認した拒否の証跡を用意します。テスト結果の横にテナントのプランとロールに関する前提を記録してください。
+
+**レコード作成前の確認事項：**
+
+| 確認項目 | 利用できる場合 | 利用できない場合 |
+|---|---|---|
+| Confluence のページ制限とスペース管理 | 承認対象ページと除外ページを分けて作成 | ページ編集と読み取り拒否のテストを「ブロック」と記録 |
+| 会社管理 Jira の権限スキームとワークフローエディター | ラボ専用のスキームとワークフローを複製 | 遷移テストを「ブロック」と記録 |
+| コントリビューター、オーナー、公開担当者、除外ユーザーの個別アカウント | ロール別に許可と拒否のテストを実行 | 未テストのロールを「ブロック」と記録 |
+| リポジトリの保守担当者と保護ブランチ | レビュー済みの実装経路をリンク | 混在型で公開する前に GitHub-first の手順を完了 |
+
+2026 年 10 月時点では、ページアクセスに **Share** または制限コントロールを使い、広範な権限には Confluence の **Space settings** にある権限領域を使います。Jira では **Settings > Work items > Permission schemes** からラボ用スキームを設定します。会社管理 Jira のワークフローエディターで遷移を制御します。UI のラベルやプランの機能はテナントによって異なります。以下の手順に進む前に、実際の画面経路とプランを証跡に記録してください。[Confluence のページ単位の権限](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/)と[Jira の権限スキーム](https://support.atlassian.com/jira-cloud-administration/docs/manage-project-permissions/)を参照してください。
+
+## 正式な根拠ページの作成
+
+1. **`Export Service Lab` という Confluence スペースを作成します。** 利用できるサイトまたはスペースの設定で、匿名アクセスと公開共有を無効にします。
+2. ライブドキュメントではなく、**公開済みページ**として **`REQ-17 Export Retention`**、**`RUN-04 Export Cleanup`**、**`Decision Register`** を作成します。
+3. 製品責任者として、下記の**初期要件を公開します。** 実際のページ ID とバージョンをリポジトリマップに記録します。
+4. 運用責任者として **RUN-04 を公開します。** 保存期間は 7 日とし、このラボでは削除ジョブが動作しないことを記載します。
+5. 各正式な根拠ページで **Share を開きます。** 対象のスペースメンバーには閲覧のみを許可し、指定したオーナーと公開担当者には個別に編集権限を付与します。保存してコントリビューターユーザーで確認します。
+
+```text
+Source ID: REQ-17
+Owner role: product-owner
+Status: Approved baseline
+Scope: synthetic export files only
+Retention: 7 days
+Delivery state: baseline lab configuration
+Exceptions: production data, backups, and legal holds excluded
+Approval evidence: DEC-12 baseline review
+Implementation reference: attach protected GitHub baseline commit
+```
+
+**各正式な根拠ページに制限を適用してください。** 親ページの編集制限が子ページも保護すると決めつけないでください。閲覧と編集の権限継承は異なり、スペースの権限も適用されます。リンクだけではアクセス権は付与されません。読み取り専用のはずのユーザーが編集できる場合は、すべてのグループ所属を確認してください。
+
+**ほかの 2 ページには次の本文を使います。** レコードを承認済みにする前に、レビュー項目のプレースホルダーをサンドボックスの実際の証跡に置き換えてください。
+
+```text
+Source ID: RUN-04
+Owner role: operations-owner
+Status: Approved baseline
+Scope: synthetic export files only
+Configured retention: 7 days
+Procedure: compare REQ-17 with config.json before a reviewed change
+Runtime limit: this lab has no deletion job and produces no deletion evidence
+Recovery: restore the prior approved configuration through review
+Recovery limit: restoring configuration does not restore deleted files
+Review evidence: add actual reviewer, page version, and decision reference
+```
+
+```text
+Page: Decision Register
+Entry ID: DEC-12
+Decision: use seven days as the synthetic baseline
+Scope: export-service-lab only
+Requirement: REQ-17 page version, record after publication
+Runbook: RUN-04 page version, record after publication
+Policy: POL-01 protected GitHub revision, record after review
+Product review: pending until the named owner records a decision
+Operations review: pending until the named owner records a decision
+Status: draft example, replace with observed review evidence
+```
+
+## マップの更新
+
+```yaml
+track: mixed-workplace
+policy: {source_id: POL-01, home: GitHub, version: 1}
+requirements: {source_id: REQ-17, home: Confluence, owner_role: product-owner}
+runbook: {source_id: RUN-04, home: Confluence, owner_role: operations-owner}
+decisions: {source_id: DEC-12, home: Confluence, owner_role: project-lead}
+implementation: {home: GitHub, file: config.json}
+delivery: {home: Jira, proposal_id: PROP-042}
+snapshot_rule: repository requirement copies are not authoritative
+```
+
+**実際の非公開サンドボックスの場所とページ ID**をマップに追加します。テンプレートは正式な情報源を示すもので、稼働中のアドレスを含むようには装っていません。混在型の要件権限をコピー済み JSON ファイルに割り当てる README の記述を削除してください。
+
+**両方の手順で POL-01 を GitHub に保持します。** Confluence はレビュー済みのリビジョンにリンクします。作業中にポリシーの権限元を移す場合は、権限移行を再度レビューしてください。
+
+## Jira 権限の設定
+
+1. **会社管理のラボ用スペースを作成し、権限スキームを専用のラボ用スキームに複製します。** 本番の共有スキームは編集しません。
+2. **Settings、Work items、Permission Schemes**を開き、ラボ用スキームを選択して権限を更新します。
+3. **コントリビューターに閲覧、作成、コメントの権限を付与します。** 管理者権限は制限します。編集と **Transition work items** の権限を明示的に確認します。
+4. **スキームをラボ用スペースに関連付け、**本番スペースと共有されていないことを確認します。
+5. 作業項目として **PROP-042 を作成します。** 生成されたキーをマップに記録し、説明内では PROP-042 を論理的な提案 ID として維持します。
+
+**この草案を PROP-042 に貼り付けます。** Jira の項目はデリバリーを追跡します。記載内容は Confluence の承認済み文言を置き換えません。
+
+```text
+Proposal ID: PROP-042
+Status: Draft
+Current approved value: 7 days, REQ-17 page version to record
+Proposed value: 30 days for synthetic export files
+Exclusions: production data, backups, legal holds
+Affected records: REQ-17, RUN-04, config.json, proposal.json
+Fixed proposal attachment: pending
+Product-owner review: pending
+Operations-owner review: pending
+Publication ledger: pending
+Stop on changed source version, missing review, or denied access
+```
+
+| ロール | Confluence | Jira | GitHub |
+|---|---|---|---|
+| **コントリビューター** | 承認済みページを読む | 草案を作成しコメントする | 提案ブランチまたは Issue |
+| **製品責任者** | 要件をレビュー | 要件のレビューを記録 | PR の証跡をレビュー |
+| **運用責任者** | 手順書をレビュー | 運用レビューを記録 | 運用への影響をレビュー |
+| **公開担当者** | 承認済みページを編集 | 公開状態を記録 | 自動マージ権限なし |
+| **保守担当者** | 要件を読む | 実装を記録 | 保護された PR をレビューしてマージ |
+
+**複数グループの権限は加算されます。** 限定的な権限が広範な権限を上書きすると想定せず、ラボで意図しない広い権限を削除してください。コネクタのIDを管理者グループに加えないでください。
+
+## デリバリー状態の設定
+
+**会社管理のワークフローを複製し、ラボ専用のワークフローにします。** 「下書き」「レビュー」「承認済み」「公開中」「完了」「ブロック」の状態を追加します。提出、承認、公開、完了、ブロック、レビューへの差し戻しの遷移を追加します。ラボの作業タイプだけに関連付けます。
+
+1. ワークフローエディターで**「承認済み」への遷移を選択します。**
+2. 指定したオーナーまたは公開担当者のロール・グループだけが遷移を実行できるよう、**条件または制限を追加します。** 文書化された条件コントロールを使い、管理者としてワークフロー草案を公開します。
+3. 遷移前に**両オーナーのレビューを手動で確認します。** 各レビューは固定した提案とソースのバージョンを特定します。
+4. **「完了」への遷移を**デリバリー責任者に制限します。境界を回避する別経路やグローバル遷移を削除します。
+
+**遷移制限は二者承認ではありません。** 遷移を実行するユーザーを制御します。このパイロットでは、2 つのロールの証跡確認は手順上の作業です。この制限を明記してください。
+
+**遷移記録の例：** **「レビュー」から「承認済み」**への遷移は、指定したオーナーと公開担当者のグループだけに許可します。実行前に担当者は固定された PROP-042 添付ファイルを開き、同一の提案リビジョンに対する製品責任者と運用責任者の決定を確認します。いずれかの決定がない場合や古いリビジョンを参照している場合は、項目を「レビュー」のままにして不足を記録します。ワークフロー制限は実行者を制御します。証跡の確認は別の人による手順です。
+
+## 拒否を確認する
+
+**コントリビューターとして** REQ-17 を読み、編集を試し、Jira の草案を作成して、「承認済み」への遷移を試します。期待される結果は、要件を読めること、編集が拒否されること、提案を作成できること、承認への遷移が拒否されることです。拒否前後でソースのバージョンを比較します。
+
+**除外ユーザーとして**別途制限された合成ページを開きます。コンテンツにアクセスできないことを確認します。子ページも個別にテストしてください。回避策として保護対象の文章を除外ユーザーのチャットに貼り付けないでください。
+
+## リポジトリマップの調整
+
+**保管場所が変わってもソース ID は維持します。** REQ-17 は引き続き承認済みの保存要件を意味しますが、混在型では Confluence ページがその保管場所です。リポジトリのスナップショットは確認とレビューを支援します。正式な情報源となるページを置き換えるものではありません。
+
+| レコード | 正式な保管場所 | リポジトリでの扱い |
+|---|---|---|
+| **REQ-17** | マップに記載した Confluence 要件ページ | ページのリビジョン証跡付きスナップショット |
+| **RUN-04** | マップに記載した Confluence 手順書ページ | 一貫性確認用に保存した運用抜粋 |
+| **POL-01** | 保護された GitHub ポリシー | 共有エージェント指示から参照 |
+| **設定** | 保護された GitHub レコード | 実装案の差分 |
+| **デリバリー** | Jira の作業項目 | ポリシーのコピーではなく関連付けリンク |
+
+**スナップショットに取得元の情報を追加します。** 非公開の提案パッケージに、ソース ID、ページ参照、ページバージョン、取得時刻、取得したロールを記録します。公開のコース課題にネイティブのページ ID を含めないでください。公開担当者が別の現行バージョンを見つけた場合は、スナップショットを使う前に差分を調整します。
+
+**ツールに合わせて権限元の名前を変えないでください。** Jira の編集可能な説明は議論に便利ですが、デリバリー記録のままです。Jira にある「30 日」という記述は、Confluence の「7 日」という要件を上書きしません。
+
+## アクセステストの設計
+
+**読み取り、草案作成、公開を分けます。** コントリビューターには合成要件を理解し、提案を送るのに十分なアクセスが必要です。正式な根拠ページの編集権限や、自分の提案を承認済みにする権限は不要です。
+
+```text
+Test record: PERM-REQ-EDIT
+Role: contributor
+Source: REQ-17
+Precondition: source is readable, published revision captured
+Attempt: edit the authoritative requirement
+Expected: edit denied, published revision unchanged
+Observed: fill from the sandbox
+Evidence: native result and independent revision read-back
+Reviewer: administrator or independent permission reviewer
+```
+
+**読み取り拒否は別の記録で確認します。** コントリビューターが要件を読めるかは公開と編集の分離をテストします。除外ユーザーがページを開けないことは機密性をテストします。両方を 1 行にまとめると、どの境界を確認したのか分からなくなります。
+
+**許可されたアクセスも確認します。** オーナーと公開担当者は割り当てられた手順を利用できる必要があります。全員が拒否される場合、サンドボックスは制限されていますが使えません。権限の調査中は承認済み要件を変更せず、使い捨てのテストページで許可された編集が成功した証拠を残します。
+
+## Jira レビューのリハーサル
+
+**状態名はこのパイロット用の設計として扱います。** 「下書き」には依頼を入れます。「レビュー」には固定したパッケージを入れます。「承認済み」はオーナーのレビュー完了を示します。「公開中」はデリバリーが未完了であることを示します。「完了」には読み戻しが必要です。「ブロック」は証跡またはアクセスの不足、未解決の競合を示します。
+
+| 遷移 | 必要なパッケージ | 責任者による確認 |
+|---|---|---|
+| **下書きからレビュー** | 固定した提案とソースのバージョン | コントリビューターが完全性を確認 |
+| **レビューから承認済み** | 製品と運用の決定 | 許可された実行者が両ロールを確認 |
+| **承認済みから公開中** | 現在のソースとの比較 | 公開担当者が基準の不変を確認 |
+| **公開中から完了** | システムごとの完了済み台帳 | デリバリー担当者が読み戻しを確認 |
+| **サポート対象の任意の段階からブロック** | 失敗内容と保留中の対応 | 復旧担当者を割り当て |
+
+**合成の不完全なパッケージで練習します。** 製品レビューだけを提出し、許可された遷移実行者に判断を依頼します。期待される対応は、「レビュー」の状態を維持し、運用レビューを依頼することです。これにより、コントリビューターのアクセス拒否とは別に手順上のレビューをテストします。
+
+**別経路も意図的にテストします。** サンドボックスのワークフロー画面で、「承認済み」と「完了」へ進むすべての経路を確認します。別の経路が同じレビュー境界を回避できる場合、名前付きの遷移を制限しただけでは不十分です。ワンクリックで完全に確認できたと主張せず、確認した経路と実行者を記録します。
+
+## 想定外のアクセスを診断する
+
+**実効 ID から確認します。** ブラウザーセッションが意図したテストロールのものか確認します。次に製品の管理ツールで、グループ所属、スペース権限、ページアクセス、ワークフローの関連付けを調べます。診断の価値が失われるため、複数の設定を同時に変更しないでください。
+
+1. **ID を確認：**コントリビューター、公開担当者、除外ユーザーのセッションを分けます。
+2. **権限の付与元を特定：**試した操作を許可する所属または設定を見つけます。
+3. **ラボの制御を調整：**正当なオーナーアクセスを維持します。
+4. **同じ操作を再試行：**拒否後にソースバージョンが変わっていないことを記録します。
+5. **許可されるケースも再試行：**許可された公開が引き続き機能することを確認します。
+
+**最終証跡チェックリスト：**Confluence のページツリーとマップに記載したページ ID、Jira のラボ用スキームとワークフローの関連付け、各テストロールのグループ所属、要件の許可された読み取り、バージョンが変わらない編集拒否、許可された草案作成、状態が変わらない承認遷移の拒否、除外ユーザーの読み取り拒否、クリーンアップ担当者を記録します。各項目には実行者のロール、前後のバージョンまたは状態、ネイティブの結果、独立したレビュー担当者を残します。ラベルや機能はプランで異なるため、テナントで確認した画面経路も記録してください。
+
+**完了確認：**マップに記載した正式な根拠ページ、ラボ専用のワークフロー、意図したロールマトリクス、観測した権限記録を成果として提出します。プランに必要な制御がない場合は、該当項目を「ブロック」とします。公開の教訓は、設定画面のスクリーンショットがあることではなく、テストに成功したことを前提とします。
+
+## トラブルシューティングとロールバック
+
+**コントリビューターがまだ編集できる：**ページアクセス、スペース権限、グループ所属を確認します。**遷移がまだ成功する：**ワークフローの関連付けと迂回経路を確認します。**設定が見つからない：**会社管理の構成か、エディション、管理者権限を確認します。
+
+**ロールバック：**コネクタの権限を削除し、草案をアーカイブします。証跡を保管してからラボ専用スキームとワークフローを切り離します。レビュー済み履歴または補正編集で承認済みページの文言を復元します。監査証跡は削除しないでください。
+
+## 演習と自己確認
+
+**Jira は 30 日、REQ-17 は 7 日と記録しています。** 実装に使う値と、差異を解消する責任者を特定します。
+
+**期待される考え方：**権限基準は Confluence が管理します。Jira には提案またはデリバリーの誤りがあります。最新のタイムスタンプを選ぶのではなく、公開を止めて製品責任者に差異の調整を依頼してください。
+
+## 主な参照資料
+
+- **制限とプラン：**[Confluence の権限](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/)。
+- **共有コントロール：**[特定コンテンツへのアクセス](https://support.atlassian.com/confluence-cloud/docs/add-or-remove-page-restrictions/)。
+- **スキーム管理：**[Jira の権限スキーム](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/)。
+- **遷移条件：**[高度なワークフロー](https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/)。
+
+## 次のステップ
+
+**アクセス検証に合格したら[システム間の公開](/articles/ai-collaboration-confluence-jira-publication/)に進みます。**

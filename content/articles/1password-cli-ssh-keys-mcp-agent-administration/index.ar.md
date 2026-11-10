@@ -70,19 +70,19 @@ coverCaption: ""
 
 جلسة الاعتماد ليست ترخيصًا دائمًا. تسجّل 1Password التفويض للفترة المهيأة أو حتى قفل التطبيق أو خروجه. عند قفل التطبيق، لا يحتفظ الوكيل بالمفاتيح الخاصة للاستخدام اللاحق. تستمر عملية SSH Agent في الخلفية عند تمكين الإعداد المدعوم بينما يكون 1Password مغلقًا، لكن طلب التوقيع الجديد يتطلب إلغاء قفل 1Password.
 
-يُظهر دليل إعداد SSH في 1Password](https://www.1password.dev/ssh/get-started) التدفق العام: توليد أو استيراد مفتاح، نشر المفتاح العام، تمكين SSH Agent، تكوين عميل SSH، تنفيذ أمر SSH أو Git، والاعتماد على الطلب. يختلف مسار المقبس (socket path) الدقيق حسب نظام التشغيل. استخدم تعليمات المنصة الحالية بدلاً من نسخ مسار من جهاز آخر.
+يُظهر [دليل إعداد SSH في 1Password](https://www.1password.dev/ssh/get-started) التدفق العام: توليد أو استيراد مفتاح، نشر المفتاح العام، تمكين SSH Agent، تكوين عميل SSH، تنفيذ أمر SSH أو Git، والاعتماد على الطلب. يختلف مسار المقبس (socket path) الدقيق حسب نظام التشغيل. استخدم تعليمات المنصة الحالية بدلاً من نسخ مسار من جهاز آخر.
 
 يجب إلغاء قفل تطبيق 1Password قبل نجاح طلب التوقيع الجديد. قد تستمر عملية الوكيل في الخلفية بينما يكون التطبيق مغلقًا. لا يحرر التطبيق المقفل مواد المفتاح الخاص للتوقيع.
 
 ## المفاتيح العامة وBitbucket
 
-يوثّق دليل إدارة المفاتيح في 1Password](https://www.1password.dev/ssh/manage-keys) عناصر SSH Key، وتوليد المفاتيح، واستيراد المفاتيح، والمفاتيح العامة، والبصمات، والمفاتيح الخاصة. يستخدم مثال CLI الأمر `op item create --category ssh` لإنشاء عنصر SSH Key. يولّد 1Password CLI مفتاح Ed25519 افتراضيًا لهذا المثال ويحجب المفتاح الخاص في مخرجاته.
+يوثّق [دليل إدارة المفاتيح في 1Password](https://www.1password.dev/ssh/manage-keys) عناصر SSH Key، وتوليد المفاتيح، واستيراد المفاتيح، والمفاتيح العامة، والبصمات، والمفاتيح الخاصة. يستخدم مثال CLI الأمر `op item create --category ssh` لإنشاء عنصر SSH Key. يولّد 1Password CLI مفتاح Ed25519 افتراضيًا لهذا المثال ويحجب المفتاح الخاص في مخرجاته.
 
-يستخدم Bitbucket Cloud سير عمل سطر الأوامر العادي لـ Git وOpenSSH. يصف دليل سطر الأوامر](https://support.atlassian.com/bitbucket-cloud/docs/find-the-command-line/) عمليات Git من مستودع محلي. يحدد دليل تكوين SSH](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) أشكال البعيد (remote) لـ SSH وأنصاف المفاتيح العامة المدعومة.
+يستخدم Bitbucket Cloud سير عمل سطر الأوامر العادي لـ Git وOpenSSH. يصف [دليل سطر الأوامر](https://support.atlassian.com/bitbucket-cloud/docs/find-the-command-line/) عمليات Git من مستودع محلي. يحدد [دليل تكوين SSH](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) أشكال البعيد (remote) لـ SSH وأنصاف المفاتيح العامة المدعومة.
 
 **عامل مع Bitbucket كمستهلك للمفتاح العام.** سجّل المفتاح العام أو البصمة عبر إعداد حساب Bitbucket المعتمد أو إعداد المستودع. احتفظ بالمفتاح الخاص في 1Password. يطلب عميل Git من SSH Agent التوقيع. لا يقرأ العميل ملف المفتاح الخاص.
 
-لمجال مفتاح الوصول لـ Bitbucket، ومسار التسجيل، واختبار Git للقراءة فقط، راجع Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+لمجال مفتاح الوصول لـ Bitbucket، ومسار التسجيل، واختبار Git للقراءة فقط، راجع [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 تُسمّي وثائق Bitbucket هذا سير عمل Git CLI. لا تفترض هذه المقالة وجود خادم MCP منفصل لـ Bitbucket أو منتجًا باسم Bitbucket CLI. يحتاج CLI الخاص بـ Bitbucket إلى وثائقه الحالية الخاصة ومراجعة أذونات خاصة به.
 
@@ -196,13 +196,13 @@ op read "$PUBLIC_KEY_REF"
 
 **المخرجات المتوقعة، غير مُختبرة:** سطر واحد اصطناعي لمفتاح OpenSSH العام أو قيمة مفتاح عام من الحقل المؤكَّد. اسم الحقل الوهمي أعلاه ليس وعدًا بتسمية حقل العنصر لديك.
 
-سجِّل المفتاح العام في حساب Bitbucket المعتمد، أو مستودع Bitbucket، أو الحساب البعيد. لا تلصق أبدًا المفتاح الخاص المطابق في Bitbucket. يوصي أيضًا دليل Bitbucket لـ SSH](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) بتسجيل مفتاح مضيف Bitbucket قبل أول اتصال.
+سجِّل المفتاح العام في حساب Bitbucket المعتمد، أو مستودع Bitbucket، أو الحساب البعيد. لا تلصق أبدًا المفتاح الخاص المطابق في Bitbucket. يوصي أيضًا [دليل Bitbucket لـ SSH](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) بتسجيل مفتاح مضيف Bitbucket قبل أول اتصال.
 
 بالنسبة إلى Bitbucket، احصل على سجل مفتاح المضيف المنشور وقارن السجل بنسخة موثوقة مستقلة قبل إضافة سطر إلى `~/.ssh/known_hosts`. استخدم فحص المضيف الصارم بعد نجاح المقارنة. لا تقبل مفتاح مضيف مُعدَّل أثناء تشغيل الوكيل.
 
 ### 4. تفعيل SSH التفاعلي
 
-فعِّل وكيل SSH الخاص بـ 1Password في تطبيق سطح المكتب. اضبط OpenSSH باستخدام القيمة `IdentityAgent` أو `SSH_AUTH_SOCK` الخاصة بالمنصة من دليل الإعداد الرسمي](https://www.1password.dev/ssh/get-started). قيِّد الاختبار الأول بمستودع واحد أو حساب غير إنتاجي واحد.
+فعِّل وكيل SSH الخاص بـ 1Password في تطبيق سطح المكتب. اضبط OpenSSH باستخدام القيمة `IdentityAgent` أو `SSH_AUTH_SOCK` الخاصة بالمنصة من [دليل الإعداد الرسمي](https://www.1password.dev/ssh/get-started). قيِّد الاختبار الأول بمستودع واحد أو حساب غير إنتاجي واحد.
 
 على macOS أو Linux، اضبط المقبس (socket) من دليل إعداد المنصة وشغِّل `ssh-add -l`. على Windows، استخدم إعداد الأنبوب المسمّى المدعوم وتحقَّق من المفاتيح المتاحة عبر واجهة وكيل SSH الخاص بـ 1Password أو اختبار SSH موثَّق على Windows. لا تُقدِّم `ssh-add -l` كأمر تحقق عبر المنصات.
 
@@ -221,7 +221,7 @@ git ls-remote "<repository-ssh-url>" HEAD
 
 أولًا، تحقَّق من عميل SSH والهدف دون MCP. ثم أضف خادم MCP للقراءة فقط أو مُوصِّلًا محليًا واحدًا. امنح الوكيل أداة مثل `read_status` أو `prepare_command`. لا تبدأ بأداة shell عامة.
 
-يجب أن تشير إعدادات MCP إلى قيم وقت التشغيل عبر آلية البيئة المدعومة من قبل العميل. يصف دليل أمان 1Password للذكاء الاصطناعي ](https://www.1password.dev/security-for-ai) استبدال رموز إعدادات MCP النص الصريح بمتغيرات بيئية يتم تحميلها من 1Password. **احتفظ بالمرجع أو اسم المتغير في الإعدادات. أبعد القيمة المحلولة عن سجل الوكيل.**
+يجب أن تشير إعدادات MCP إلى قيم وقت التشغيل عبر آلية البيئة المدعومة من قبل العميل. يصف [دليل أمان 1Password للذكاء الاصطناعي](https://www.1password.dev/security-for-ai) استبدال رموز إعدادات MCP النص الصريح بمتغيرات بيئية يتم تحميلها من 1Password. **احتفظ بالمرجع أو اسم المتغير في الإعدادات. أبعد القيمة المحلولة عن سجل الوكيل.**
 
 تصف هذه القسم تصميمًا، وليس إعداد MCP مُختبرًا. لا يتم تثبيت أي عميل، أو خادم، أو نقل، أو إصدار، أو عينة هنا هنا. تحقق من خادم للقراءة فقط في ملف اختبار منفصل قبل ربط الوكيل بنظام إنتاج.
 

@@ -1,6 +1,7 @@
 ---
 title: "Sécuriser les dispositifs IoT : Défis et solutions en matière de cybersécurité"
 date: 2023-03-27
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Découvrez l'impact de l'IdO sur la cybersécurité et apprenez des stratégies efficaces pour protéger vos appareils connectés."
@@ -49,7 +50,7 @@ ______
 Les gouvernements et les organisations industrielles ont reconnu l'importance de la sécurité de l'IdO et s'efforcent de développer et d'appliquer des **normes** et des **réglementations**. Parmi les initiatives clés, citons :
 
 - La [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) fournit des lignes directrices pour la sécurité et la confidentialité de l'IdO.
-- Les [International Organization for Standardization (ISO)](https://www.iso.org/) has established an IoT security standard, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
+- Les [International Organization for Standardization (ISO)](https://www.iso.org/) a établi une norme de sécurité pour l’IoT, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
 
 ______
 

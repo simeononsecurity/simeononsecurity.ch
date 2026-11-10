@@ -1,6 +1,7 @@
 ---
 title: "Telecamere Flock: Strumento di Sicurezza Pubblica o Macchina di Sorveglianza senza Mandato?"
 date: 2026-08-01
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Un'analisi indipendente delle telecamere ALPR di Flock Safety: come funzionano realmente, quali dati raccolgono oltre alle targhe, come la condivisione dei dati crea un database nazionale ombra, e perché la questione del mandato è il vero problema."
@@ -72,7 +73,117 @@ Un ID TPMS corrisponde a un set specifico di pneumatici. Quando quei pneumatici 
 
 Questa non è una capacità ipotetica futura. I ricevitori RTL-SDR in grado di registrare segnali TPMS costano circa 40 dollari. La barriera tecnica per il dispiegamento del monitoraggio TPMS passivo accanto a una rete ALPR è molto bassa.
 
+{{< figure src="flock-tpms-bluetooth-surveillance.webp" alt="Diagramma che mostra come una telecamera Flock a bordo strada acquisisce insieme targhe, indirizzi MAC Bluetooth dei telefoni e identificativi dei sensori TPMS dei veicoli" >}}
+
+
 ______
+
+
+## Che cosa ha registrato la telecamera
+
+**Nel settembre 2026 un collettivo di hacker ha rimosso una telecamera Flock da un palo, copiato la memoria e pubblicato le immagini del file system tramite Distributed Denial of Secrets.** I registri recuperati documentano per intero una vera installazione. I numeri superano quelli suggeriti dal marketing pubblico.
+
+*La telecamera non è stata hackerata. È stata svitata.*
+
+### Ventuno giorni di traffico
+
+I registri coprivano circa **21 giorni** di funzionamento in vari periodi. La telecamera fotografò circa **50.200 veicoli e generò 1,6 milioni di immagini**.
+
+| Misura | Valore |
+|---------|-------|
+| Veicoli fotografati | **50.200** |
+| Immagini generate | **~1,6 milioni** |
+| Giornata tipica | ~3.300 veicoli |
+| Giornata più trafficata nei registri | **4.454 veicoli** |
+| Immagini per veicolo | ~28 in genere, **oltre 100 in alcuni casi** |
+
+I vecchi registri erano stati sovrascritti, quindi la telecamera era in funzione da più tempo del periodo recuperato. **Un solo punto stradale ha prodotto un milione di immagini in meno di un mese.**
+
+### Decine di foto per ogni veicolo
+
+Quando rileva movimento nell'inquadratura, la telecamera scatta rapidamente una raffica. Un veicolo ha prodotto in media **28 immagini**, alcuni più di 100.
+
+La telecamera usa **esposizioni diverse** per riprendere separatamente la targa e la scena circostante. Poi analizza i risultati, ritaglia i fotogrammi utili e li carica tramite rete cellulare. Il dispositivo non legge la targa. Esegue circa **20 app sviluppate da Flock** per rilevare il movimento, acquisire e classificare immagini, caricare dati e ricevere aggiornamenti remoti. **La lettura della targa e l'identificazione del veicolo avvengono sui server Flock, non a bordo strada.**
+
+Questo conta nel dibattito sui mandati. La telecamera non registra soltanto un numero: invia dati dei sensori a un processo di identificazione remoto.
+
+### Il software rileva anche le persone
+
+Flock afferma che le telecamere rilevano veicoli. Il codice recuperato mostra altro.
+
+**Il software del dispositivo include un rilevatore di persone.** Quando ne individua una, registra la posizione nell'inquadratura e un punteggio di attendibilità. È distinto dai rilevatori di veicoli, targhe e biciclette, ed è una funzione intenzionale del prodotto, non un effetto collaterale di un modello generico.
+
+WIRED ha verificato la dichiarazione estraendo i modelli dal dispositivo e provandoli su filmati recuperati e immagini di controllo. **I modelli rilevavano facilmente le persone, anche in un selfie di un giornalista.** Su **27.321 clip video salvati**, hanno rilevato persone in 11 clip, tutti motociclisti. Il dato basso dipende dalla posizione elevata della telecamera rivolta alle corsie, non da un limite del rilevatore.
+
+**Anche questi clip sono un risultato importante.** Sono **video MP4 di uno o due secondi, a 1024 × 768 pixel e senza audio**, archiviati separatamente dalle raffiche di immagini statiche ad alta risoluzione. Le descrizioni pubbliche di Flock sottolineano le foto delle targhe. Il dispositivo registra anche brevi video.
+
+*Flock dichiara che le telecamere non fanno riconoscimento facciale. L'indagine non ha trovato prove oltre alle funzioni predefinite di Android, che non sembravano attive o in uso.*
+
+### Il rilevatore scambia ogni grafica per una targa
+
+La stessa indagine ha trovato il rilevatore di targhe classificare grafiche come targhe.
+
+**Adesivi, cornici dei concessionari e altre grafiche dei veicoli venivano ritagliati come se fossero targhe.** In un video di una moto, il sistema ha isolato una **toppa con la bandiera americana sulla borsa laterale** e l'ha trattata come una targa.
+
+È un problema sia di accuratezza sia di privacy. La classificazione raccoglie immagini di elementi che il sistema non doveva acquisire e le invia agli stessi server delle letture corrette.
+
+### La telecamera stava esaurendo lo spazio
+
+I registri mostrano una pressione continua sullo spazio. Durante il salvataggio di immagini alla massima risoluzione hanno registrato **oltre 27.000 errori «no space left on device»**, più decine di migliaia di errori correlati, arresti anomali e riavvii.
+
+Due messaggi rivelano l'ingegneria del sistema:
+
+- Circa ogni due minuti, un servizio controllava che la telecamera funzionasse e registrava **«Who's a good boy?!»**. I registri recuperati contengono oltre **12.000** voci di questo tipo.
+- Al riavvio, un altro servizio lasciava **«A reboot was requested! ¡Adiós, Amigos!»**.
+
+Il tono è informale, le conseguenze no. Questo dispositivo non riceve patch del sistema operativo da otto anni. Si blocca e resta senza spazio mentre salva le immagini che dovrebbe raccogliere.
+
+______
+
+## La gamma di prodotti raccoglie più delle targhe
+
+La telecamera recuperata era un'unità Falcon. La flotta è più ampia e i prodotti nuovi raccolgono segnali mai rilevati da un lettore di targhe.
+
+### Il sensore audio classifica le richieste di aiuto
+
+**Raven** è un dispositivo audio montato separatamente dalle telecamere. Usa un ESP32 con DSP neurale Syntiant NDP120-B0. All'inizio classificava quattro suoni: spari, pneumatici, rumore di fondo e sconosciuto.
+
+**Un aggiornamento firmware di ottobre 2025 ha aggiunto una quinta categoria, i suoni di sofferenza umana.** Ora il sensore stima se qualcuno vicino sembra avere bisogno di aiuto e attiva le telecamere Condor e Falcon nello stesso luogo tramite FlockOne.
+
+*Un dispositivo promosso per rilevare spari è diventato in sordina un monitor acustico della sofferenza.*
+
+### Ora le telecamere volano
+
+**Alpha** è il drone Flock, presentato nell'ottobre 2025 e già impiegato, anche nel **progetto pilota del South Bend Police Department a marzo 2026**. È progettato da Flock, assemblato negli Stati Uniti e conforme alla NDAA.
+
+| Specifica | Valore |
+|---------------|-------|
+| Velocità massima | **60 MPH** |
+| Durata del volo | ~45 minuti |
+| Cambio batteria | **90 secondi** in una base a due batterie |
+| Connessioni cellulari | **4 modem indipendenti** per la ridondanza |
+| Quota di lettura targhe | **fino a 2.000 piedi** |
+| Copertura | fino a **50 miglia quadrate per base** |
+
+**Aerodome** è la vecchia linea di droni, acquisita per **300 milioni di dollari nell'ottobre 2024**. Usa DJI Matrice M350 e M300 RTK. La base Hextronics Atlas ospita otto batterie per un funzionamento continuo. Prosper Police e Scottsdale li usano ancora.
+
+### La rete integra telecamere di altre aziende
+
+**Wing** è un ponte software annunciato nell'ottobre 2025, non hardware. Aggiunge l'analisi Flock alle telecamere IP di terze parti già installate e le collega alla stessa interfaccia investigativa **Nova**.
+
+**Questo cambia la portata del problema.** Una città che installa telecamere Flock sa cosa ha installato. Con Wing, una città trasforma le telecamere esistenti in sensori Flock senza acquistarne di nuove. I filmati finiscono in un sistema consultabile.
+
+### Il rimorchio semplifica l'installazione
+
+Il **rimorchio LPR** monta una telecamera Flock su un telaio All Traffic Solutions ATS-5 con **120 watt di energia solare**, una **batteria da 47 ampere-ora** e un radar con pannello messaggi. Si aggancia a un ricevitore da 2 pollici e una persona può installarlo.
+
+Segnala anche manomissioni e batteria scarica. L'azienda si aspetta quindi interferenze sul campo.
+
+{{< figure src="flock-data-sharing-shadow-national-network.webp" alt="Mappa che mostra come le reti di telecamere Flock di città e contee si collegano tramite accordi di condivisione dei dati a un database regionale e quasi nazionale consultabile" >}}
+
+
+______
+
 
 ## Il Vero Problema: Fotografia versus Database
 
@@ -95,6 +206,8 @@ Le reti individuali di telecamere Flock non sono isolate. Città e contee conclu
 **È così che una rete locale di telecamere diventa un sistema di sorveglianza nazionale de facto senza che il Congresso abbia mai votato in merito.**
 
 La condivisione dei dati è volontaria e legalmente opaca. Non esiste alcuna legge federale che la autorizzi. Non ci sono limiti standardizzati di conservazione dei dati. Non ci sono requisiti di audit obbligatori. E non esiste alcun meccanismo per cui un cittadino possa scoprire se i movimenti del suo veicolo siano stati interrogati.
+
+**La portata di questo accesso è ora documentata.** Ad Alpharetta, in Georgia, WIRED ha scoperto che i dati delle telecamere Flock della città erano accessibili a **oltre 2.000 enti**, tra cui dipartimenti di polizia, università, aeroporti e l’Office of Inspector General della General Services Administration federale. Il numero di enti non è una particolarità degli accordi di Alpharetta. Riflette il modo in cui Flock collega per impostazione predefinita la propria rete nazionale.
 
 DeFlock.org, che raccoglie in modo collaborativo le posizioni delle telecamere Flock, ha mappato oltre **124.000 dispiegamenti LPR sospetti** negli Stati Uniti. La copertura nelle aree urbane e suburbane è abbastanza densa da far sì che guidare attraverso la maggior parte delle città americane generi un registro di sorveglianza quasi continuo.
 
@@ -196,6 +309,10 @@ Il percorso da seguire non è distruggere le telecamere. È richiedere mandati p
 
 Questa è una risposta noiosa e procedurale. Non genera indignazione da nessuna delle due parti. Ma è l'unica risposta che prende sul serio sia la sicurezza pubblica che la libertà costituzionale.
 
+Se vuoi sapere quando sei vicino a una di queste telecamere senza aspettare una riforma delle politiche, oggi esiste hardware dedicato per rilevarle.
+
+{{< stscollective-ad "flockyou" >}}
+
 ______
 
 ## Articoli Correlati
@@ -222,4 +339,9 @@ ______
 8. [FBI Vault — COINTELPRO](https://vault.fbi.gov/cointel-pro)
 9. [MuckRock — Flock Safety](https://www.muckrock.com/tags/flock-safety/)
 10. [Flock Finder GitHub](https://github.com/simeononsecurity/flock-finder)
-11. [Mappa Interattiva Flock Finder](https://simeononsecurity.github.io/flock-finder/)
+11. [WIRED e 404 Media: gli hacker sono entrati in una videocamera Flock](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+12. [Micah Lee: le videocamere Flock sono piene di vulnerabilità e credenziali codificate](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+13. [Distributed Denial of Secrets: immagini del file system di una videocamera Flock ALPR](https://ddosecrets.org/article/flock-alpr-camera)
+14. [Hackaday: sicurezza della settimana, le videocamere Flock sono vecchie](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+15. [WiFi Mothership: riferimento per rilevare dispositivi Flock Safety ALPR](https://wifimothership.com/flock)
+16. [Mappa interattiva di Flock Finder](https://simeononsecurity.github.io/flock-finder/)

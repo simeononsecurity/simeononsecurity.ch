@@ -1,6 +1,7 @@
 ---
 title: "Ochrona danych pacjentów: Strategie bezpieczeństwa cybernetycznego w służbie zdrowia"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Odkryj wyzwania związane z cyberbezpieczeństwem, przed którymi stoi opieka zdrowotna i poznaj strategie ochrony i zgodności, aby chronić dane pacjentów i zapewnić zgodność z przepisami."

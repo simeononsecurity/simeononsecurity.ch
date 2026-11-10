@@ -1,136 +1,136 @@
 ---
-title: "Installation des correctifs de sécurité cumulatifs sous Windows : Meilleures pratiques"
+title: "Installer les mises à jour cumulatives de sécurité dans Windows"
 date: 2023-03-22
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Apprenez à installer les correctifs de sécurité cumulatifs sur Windows et à suivre les meilleures pratiques pour protéger votre système contre les cyberattaques."
-tags: ["Fenêtres", "correctifs de sécurité", "cybersécurité", "sécurité du système", "Microsoft", "correctifs cumulatifs", "gestion des correctifs", "sauvegarde des données", "Spectre Meltdown", "chiffrement", "vulnérabilités du système", "mises à jour du système", "déploiement de correctifs", "environnements de non-production", "configuration du système", "Sécurité informatique", "système de gestion des correctifs", "analyse de la vulnérabilité", "notes de mise à jour", "maintenance du système"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
-coverAlt: "Image de bande dessinée d'un bouclier portant le logo Windows et protégé par un cadenas"
+description: "Apprenez à installer les mises à jour cumulatives de sécurité dans Windows et appliquez les bonnes pratiques pour protéger votre système contre les cyberattaques."
+tags: ["Windows", "correctifs de sécurité", "cybersécurité", "sécurité du système", "Microsoft", "mises à jour cumulatives", "gestion des correctifs", "sauvegarde des données", "Spectre Meltdown", "chiffrement", "vulnérabilités du système", "mises à jour système", "déploiement de correctifs", "environnements hors production", "configuration du système", "sécurité informatique", "système de gestion des correctifs", "analyse des vulnérabilités", "notes de version", "maintenance du système"]
+cover: "/img/cover/best-practices-for-installing-security-patches-on-windows.webp"
+coverAlt: "Un technicien d'origines diverses est assis à un bureau devant un écran affichant une mise à jour Windows. Des appareils technologiques l'entourent, dans un décor sombre aux accents bleus et verts."
 coverCaption: ""
 ---
 
-**Installation des correctifs de sécurité cumulatifs sous Windows**
+**Installer les mises à jour cumulatives de sécurité dans Windows**
 
-Dans le monde d'aujourd'hui, les **attaques cybernétiques** constituent une menace importante pour la sécurité des systèmes informatiques. L'un des moyens de minimiser le risque de telles attaques est d'installer les **rattrapages de sécurité**. Dans le cas de Windows, des **rattrapages de sécurité cumulatifs** sont publiés régulièrement par Microsoft. Ces correctifs contiennent tous les correctifs de sécurité précédents, ainsi que de nouvelles mises à jour de sécurité.
+Les **cyberattaques** représentent aujourd'hui une menace importante pour la sécurité des systèmes informatiques. L'installation de **correctifs de sécurité** est l'un des moyens de réduire ce risque. Microsoft publie régulièrement des **mises à jour cumulatives de sécurité** pour Windows. Elles regroupent les correctifs précédents et les nouvelles mises à jour de sécurité.
 
-## Importance de l'installation des correctifs de sécurité cumulatifs
+## Pourquoi installer les mises à jour cumulatives de sécurité
 
-**Les correctifs de sécurité cumulatifs** sont essentiels pour assurer la sécurité de votre système Windows. Ces correctifs corrigent les vulnérabilités et les failles de sécurité qui peuvent être exploitées par les cyberattaquants. La non-installation de ces correctifs peut entraîner des problèmes de sécurité importants et des violations de données.
+Les **mises à jour cumulatives de sécurité** sont essentielles pour protéger Windows. Elles corrigent les vulnérabilités et les failles que des cybercriminels pourraient exploiter. Leur absence peut entraîner de graves problèmes de sécurité et des violations de données.
 
-## Comprendre les correctifs de sécurité cumulatifs
+## Comprendre les mises à jour cumulatives de sécurité
 
-Comme indiqué précédemment, Microsoft publie régulièrement des **rattrapages de sécurité cumulatifs**. Ces correctifs contiennent toutes les mises à jour et corrections de sécurité précédemment publiées ainsi que les nouvelles mises à jour de sécurité. L'avantage d'utiliser un **patch de sécurité cumulatif** est qu'il permet d'économiser du temps et des efforts en éliminant la nécessité d'installer chaque mise à jour individuellement.
-
-______
-
-## Étapes de l'installation des correctifs de sécurité cumulatifs
-
-L'installation d'un **patch de sécurité cumulatif** sur Windows implique quelques étapes simples, qui sont les suivantes :
-
-1. **La première étape de l'installation d'un correctif de sécurité cumulatif sur Windows consiste à vérifier la présence de mises à jour. Vous pouvez le faire en allant dans la section **Mise à jour de Windows** dans le **Panneau de configuration** ou en recherchant **Mise à jour de Windows** dans la barre de recherche de Windows. Une fois que vous y êtes, cliquez sur le bouton **Vérifier les mises à jour** pour voir si des mises à jour sont disponibles.
-
-2. **Télécharger et installer:** Si des mises à jour sont disponibles, téléchargez-les et installez-les. Il est important de noter que les correctifs de sécurité cumulatifs contiennent généralement toutes les mises à jour précédentes, de sorte que vous n'avez pas besoin de les installer individuellement. Il vous suffit de télécharger et d'installer le dernier correctif, qui comprendra toutes les mises à jour précédentes.
-
-3. **Redémarrer:** Une fois l'installation terminée, redémarrez l'ordinateur pour appliquer les mises à jour. Il est important de redémarrer l'ordinateur même si vous n'y êtes pas invité, car certaines mises à jour ne prendront pas effet tant que vous ne l'aurez pas fait.
-
-Il convient de noter que certaines mises à jour peuvent nécessiter des configurations supplémentaires ou des modifications de paramètres après l'installation. **Il est essentiel de lire les notes de mise à jour** de chaque mise à jour pour s'assurer qu'elle est installée et configurée correctement. En outre, certaines mises à jour peuvent présenter des exigences supplémentaires à prendre en compte. Par exemple, le correctif Spectre/Meltdown nécessite la configuration de registres supplémentaires.
-
-En suivant ces étapes, vous pouvez vous assurer que votre système Windows est à jour avec les derniers correctifs de sécurité et qu'il est protégé contre les cyber-menaces.
+Comme indiqué précédemment, Microsoft publie régulièrement des **mises à jour cumulatives de sécurité**. Elles comprennent toutes les mises à jour et corrections de sécurité déjà publiées, ainsi que les nouvelles. Une **mise à jour cumulative de sécurité** fait gagner du temps et réduit les efforts, car il n'est pas nécessaire d'installer chaque mise à jour séparément.
 
 ______
 
-## Meilleures pratiques pour l'installation des correctifs de sécurité cumulatifs
+## Étapes d'installation des mises à jour cumulatives
 
-Lors de l'installation des **rustines de sécurité cumulatives**, il est essentiel de suivre certaines bonnes pratiques pour s'assurer que le processus se déroule correctement. Ces bonnes pratiques sont les suivantes :
+L'installation d'une **mise à jour cumulative de sécurité** dans Windows se déroule en quelques étapes simples :
 
-### Lire les notes de correctifs
+1. **Rechercher des mises à jour :** Vérifiez d'abord si une mise à jour cumulative de sécurité est disponible. Ouvrez **Windows Update** dans le **Panneau de configuration** ou recherchez **Windows Update** dans la barre de recherche de Windows. Cliquez ensuite sur **Rechercher des mises à jour**.
 
-Avant d'installer un **patch de sécurité cumulatif**, il est essentiel de lire attentivement les **notes de publication**. Ces notes contiennent des informations importantes concernant le correctif, telles que les problèmes connus, la configuration requise et les conditions préalables. En lisant les notes de publication, vous pouvez vous assurer que le correctif est compatible avec votre système et éviter tout problème qui pourrait survenir lors de l'installation.
+2. **Télécharger et installer :** Si des mises à jour sont disponibles, téléchargez-les et installez-les. Les mises à jour cumulatives de sécurité comprennent généralement toutes les mises à jour antérieures, vous n'avez donc pas besoin de les installer séparément. Téléchargez et installez la mise à jour la plus récente pour inclure les précédentes.
 
-Par exemple, la **May 2021 Cumulative Update** pour **Windows 10 version 2004 et version 20H2 présentait un problème connu** qui provoquait des pannes du système lorsque certains pilotes d'imprimante étaient utilisés. **Ce problème était mentionné dans les notes de mise à jour**, et il était conseillé aux utilisateurs de désinstaller le correctif s'ils rencontraient ce problème.
+3. **Redémarrer :** Une fois l'installation terminée, redémarrez l'ordinateur pour appliquer les mises à jour. Faites-le même si Windows ne vous le demande pas, car certaines mises à jour ne prennent effet qu'après le redémarrage.
 
-En outre, **certains correctifs peuvent nécessiter des configurations supplémentaires ou des changements de paramètres après l'installation**. Les notes de publication de chaque mise à jour contiennent ces informations et il est important de suivre attentivement les instructions pour s'assurer que le correctif est installé et configuré correctement.
+Certaines mises à jour nécessitent une configuration supplémentaire ou des changements de paramètres après l'installation. **Lisez les informations du correctif** pour vérifier qu'il est correctement installé et configuré. Certaines mises à jour imposent d'autres exigences. Par exemple, le correctif Spectre/Meltdown nécessite de définir des registres supplémentaires.
 
-En conclusion, la lecture des notes de publication avant l'installation d'un correctif de sécurité cumulatif est une étape importante dans le maintien de la sécurité et de la stabilité de votre système Windows. En prenant le temps d'examiner les informations fournies dans les notes de publication, vous pouvez éviter les problèmes potentiels et vous assurer que le correctif est installé correctement.```
+Ces étapes contribuent à maintenir Windows à jour et à protéger le système contre les cybermenaces.
 
-### Cumulative Patches
+______
 
-When it comes to installing **cumulative patches** on Windows, it's important to understand how they work. As the name suggests, cumulative patches include all previous security updates and patches, which means that you can apply the latest patch to your system without worrying about installing all the previous patches.
+## Bonnes pratiques pour installer les mises à jour cumulatives de sécurité
 
-However, **it's still necessary to review the release notes for each patch to ensure that all previous patches are covered**. While the answer is typically yes, there may be exceptions where certain patches are not included in the cumulative patch. For example, if a patch was released after the last cumulative patch, it may not be included in the latest patch, and you'll need to install it separately.
+Suivez ces bonnes pratiques afin d'installer correctement les **mises à jour cumulatives de sécurité**.
 
-Furthermore, **the patch notes for the latest security patch may not provide information about any additional configurations needed from previous patches**. **For example, the Spectre/Meltdown patch requires additional registers to be set**. To ensure that your system is fully secure, **it's important to review the notes for all patches** and implement any additional configurations as needed.
+### Lire les informations sur les correctifs
 
-In conclusion, while cumulative patches generally include all previous security updates and patches, it's still important to review the release notes for each patch to ensure that your system is fully protected. By taking the time to understand how cumulative patches work and reviewing the release notes, you can ensure that your system remains secure and protected against cybersecurity threats.
+Avant d'installer une **mise à jour cumulative de sécurité**, lisez attentivement les **notes de version**. Elles contiennent des renseignements importants sur le correctif, notamment les problèmes connus, les exigences système et les prérequis. Vous pourrez ainsi vérifier sa compatibilité et éviter les problèmes liés à l'installation.
 
-### Additional Requirements
+Par exemple, la **mise à jour cumulative de mai 2021** pour **Windows 10 versions 2004 et 20H2 présentait un problème connu** qui provoquait des plantages avec certains pilotes d'imprimante. **Ce problème figurait dans les notes de version**, qui conseillaient aux utilisateurs de désinstaller le correctif s'ils le rencontraient.
 
-In addition to reviewing the release notes for a **cumulative security patch**, it's important to check if the patch has any additional requirements that need to be considered. For instance, the Spectre/Meltdown patch requires additional registers to be set, which may impact system performance if not properly configured.
+**Certains correctifs peuvent nécessiter une configuration supplémentaire ou des changements de paramètres après l'installation.** Les notes de version de chaque mise à jour précisent ces éléments. Suivez soigneusement les consignes pour installer et configurer correctement le correctif.
 
-**To avoid any issues, make sure to review the release notes for the patch and follow any additional requirements as necessary**. These additional requirements may include setting up new configurations or modifying existing ones, so it's important to have a good understanding of your system and how it works.
+En bref, lire les notes de version avant d'installer une mise à jour cumulative de sécurité aide à éviter les problèmes et à installer la mise à jour correctement.```
 
-In conclusion, by being aware of any additional requirements for a **cumulative security patch**, you can ensure that your system remains secure and protected against cybersecurity threats. Take the time to review the release notes and understand any additional requirements to avoid any issues with the patch installation.
+### Correctifs cumulatifs
 
-### Back Up Your Data
+Avant d'installer des **correctifs cumulatifs** dans Windows, il est important de comprendre leur fonctionnement. Comme leur nom l'indique, ils comprennent les mises à jour de sécurité et les correctifs précédents. Vous pouvez donc installer le dernier correctif sans installer d'abord chacun des précédents.
 
-It's always a good practice to back up your data before installing any updates or patches, especially when it comes to **cumulative security patches**. These patches can have a significant impact on your system, and in case of any issues during the installation process, you may need to recover your data from a backup.
+**Consultez tout de même les notes de version de chaque correctif pour vérifier que les versions antérieures sont bien incluses.** C'est généralement le cas, mais il existe des exceptions. Un correctif publié après la dernière mise à jour cumulative peut ne pas figurer dans la plus récente et devra alors être installé séparément.
 
-There are many ways to back up your data, such as using external hard drives, cloud storage services like Dropbox or Google Drive, or using backup software like Acronis or EaseUS. Whatever method you choose, make sure to create a full backup of your system and data, and store the backup in a safe place.
+**Les notes du correctif de sécurité le plus récent ne décrivent pas toujours les configurations supplémentaires requises par les correctifs précédents.** **Le correctif Spectre/Meltdown exige, par exemple, de définir des registres supplémentaires.** Pour protéger entièrement votre système, **consultez les notes de tous les correctifs** et appliquez les configurations supplémentaires nécessaires.
 
-In addition to backing up your data, it's also a good idea to create a restore point before installing the patch. A restore point is a snapshot of your system's configuration and settings, and can be used to restore your system to a previous state in case of any issues.
+Les correctifs cumulatifs comprennent généralement toutes les mises à jour de sécurité et tous les correctifs antérieurs. Vérifiez tout de même les notes de version pour confirmer que votre système est protégé.
 
-In conclusion, by backing up your data and creating a restore point before installing a **cumulative security patch**, you can ensure that your system and data are protected in case of any issues during the installation process.
+### Exigences supplémentaires
 
-### Install Patches Regularly
+En plus de lire les notes de version d'une **mise à jour cumulative de sécurité**, vérifiez si le correctif impose des exigences supplémentaires. Par exemple, le correctif Spectre/Meltdown nécessite de définir des registres supplémentaires. Une mauvaise configuration peut nuire aux performances du système.
 
-It is crucial to keep your system secure by installing **cumulative security patches** regularly. These patches address new vulnerabilities and security issues that may arise. 
+**Pour éviter les problèmes, consultez les notes de version et respectez les exigences supplémentaires.** Il peut s'agir de définir de nouveaux paramètres ou de modifier la configuration existante. Assurez-vous de bien comprendre votre système avant de le modifier.
 
-For example, in 2021, Microsoft released several patches to address the PrintNightmare vulnerability. This vulnerability allowed attackers to take control of a victim's system remotely. Installing the patch provided by Microsoft would protect against this type of attack.
+Connaître les exigences supplémentaires d'une **mise à jour cumulative de sécurité** contribue à maintenir votre système protégé. Prenez le temps d'examiner les notes de version et les exigences.
 
-By installing patches promptly, you can ensure your system is up to date with the latest security measures. This will help protect against potential attacks and keep your system running smoothly.
+### Sauvegarder vos données
 
-### Test on a Non-Production Environment
+Il est recommandé de sauvegarder vos données avant d'installer une mise à jour ou un correctif, en particulier une **mise à jour cumulative de sécurité**. Celle-ci peut avoir un impact important sur votre système. En cas de problème pendant l'installation, vous pourrez restaurer vos données depuis une sauvegarde.
 
-It is essential to test **cumulative security patches** on a non-production environment before installing them on a production environment. This practice will help identify any potential issues that may arise due to the patch.
+Vous pouvez utiliser un disque dur externe, un service cloud comme Dropbox ou Google Drive, ou un logiciel de sauvegarde comme Acronis ou EaseUS. Quelle que soit la méthode retenue, créez une sauvegarde complète du système et des données, puis conservez-la dans un endroit sûr.
 
-For example, suppose you have a web application running on a production environment. Before installing a new security patch, it is recommended to test the patch on a non-production environment to ensure it does not cause any compatibility or performance issues. 
+Il est également conseillé de créer un point de restauration avant d'installer le correctif. Ce point est un instantané de la configuration et des paramètres du système. Il vous permettra de revenir à un état antérieur en cas de problème.
 
-Testing on a non-production environment allows you to identify and fix any potential issues before they affect your live application. This reduces the risk of downtime or data loss due to an untested patch.
+La sauvegarde des données et la création d'un point de restauration avant l'installation d'une **mise à jour cumulative de sécurité** protègent votre système et vos données si l'installation rencontre un problème.
 
-In summary, testing on a non-production environment is a best practice that helps ensure that the patch will not negatively impact the production environment.
+### Installer régulièrement les correctifs
 
-### Use a Patch Management System
+Installez régulièrement les **mises à jour cumulatives de sécurité** pour protéger votre système. Elles corrigent les nouvelles vulnérabilités et les problèmes de sécurité.
 
-A **patch management system** is an automated tool that helps manage and deploy **cumulative security patches** across multiple systems. It automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
+En 2021, Microsoft a publié plusieurs correctifs pour la vulnérabilité PrintNightmare. Celle-ci permettait à des attaquants de prendre le contrôle à distance du système d'une victime. L'installation du correctif de Microsoft protégeait contre ce type d'attaque.
 
-For example, **Microsoft's System Center Configuration Manager (SCCM)** is a popular patch management system that allows you to manage and deploy patches across your organization. SCCM provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
+L'installation rapide des correctifs maintient votre système à jour avec les dernières mesures de sécurité. Elle contribue à prévenir les attaques et à assurer le bon fonctionnement du système.
 
-Using a patch management system provides several benefits, including:
+### Tester dans un environnement hors production
 
-- **Automated patch deployment**: The system automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
-- **Centralized management**: A patch management system provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
-- **Reporting and compliance**: The system provides reporting and compliance features that help ensure systems are up to date and in compliance with security policies.
+Testez les **mises à jour cumulatives de sécurité** dans un environnement hors production avant de les installer en production. Cela permet de repérer les problèmes potentiels liés au correctif.
 
-In summary, using a patch management system can simplify the patch deployment process and ensure that all systems are up to date, reducing the risk of security breaches and downtime.```
+Supposons qu'une application web fonctionne dans un environnement de production. Avant d'installer un nouveau correctif de sécurité, testez-le dans un environnement hors production afin de détecter d'éventuels problèmes de compatibilité ou de performances.
+
+Un test dans un environnement hors production permet de détecter et de corriger les problèmes avant qu'ils affectent l'application en service. Vous réduisez ainsi le risque d'interruption ou de perte de données causée par un correctif non testé.
+
+Les tests hors production permettent de vérifier qu'un correctif n'aura pas d'effet négatif sur l'environnement de production.
+
+### Utiliser un système de gestion des correctifs
+
+Un **système de gestion des correctifs** est un outil automatisé qui aide à gérer et à déployer les **mises à jour cumulatives de sécurité** sur plusieurs systèmes. Il automatise le déploiement et réduit le temps et les efforts nécessaires pour maintenir les systèmes à jour.
+
+**Microsoft System Center Configuration Manager (SCCM)** est un système de gestion des correctifs courant. Il permet de gérer et de déployer des correctifs dans une organisation. Une console centralisée facilite leur suivi et leur déploiement sur plusieurs systèmes.
+
+Un système de gestion des correctifs présente plusieurs avantages :
+
+- **Déploiement automatisé des correctifs :** automatise le déploiement et réduit le temps et les efforts requis pour maintenir les systèmes à jour.
+- **Gestion centralisée :** fournit une console unique pour suivre les correctifs et les déployer sur plusieurs systèmes.
+- **Rapports et conformité :** aide à vérifier que les systèmes sont à jour et respectent les politiques de sécurité.
+
+Un système de gestion des correctifs simplifie leur déploiement et contribue à maintenir tous les systèmes à jour, ce qui réduit les risques d'incident de sécurité et d'interruption.```
 
 ______
 
 ## Conclusion
 
-En conclusion, l'installation des **rattrapages de sécurité cumulatifs** sur Windows est essentielle pour assurer la sécurité de votre système. En suivant les étapes et les bonnes pratiques présentées dans cet article, vous pouvez vous assurer que le processus d'installation se déroule correctement et que votre système reste à jour avec les derniers correctifs de sécurité. N'oubliez pas de toujours sauvegarder vos données avant d'installer des mises à jour et de tester régulièrement les correctifs sur des environnements de non-production avant de les déployer dans un environnement de production. En suivant ces bonnes pratiques, vous pouvez minimiser le risque de cyberattaques et vous assurer que votre système reste sécurisé.
+L'installation de **mises à jour cumulatives de sécurité** dans Windows est essentielle pour protéger votre système. Suivez les étapes et les bonnes pratiques de cet article pour installer correctement les mises à jour et maintenir le système à jour. Sauvegardez toujours vos données avant une mise à jour et testez régulièrement les correctifs dans un environnement hors production avant leur déploiement en production. Ces bonnes pratiques réduisent le risque de cyberattaque et contribuent à protéger votre système.
 
 ## Références :
 
-[1] Microsoft (2021, 12 janvier). Security Update Guide. Consulté le 22 mars 2023, à l'adresse https://msrc.microsoft.com/update-guide/
+[1] Microsoft. (2021, 12 janvier). Security Update Guide. Consulté le 22 mars 2023 sur https://msrc.microsoft.com/update-guide/
 
-[2] Microsoft (2021, 11 août). System Center Configuration Manager (SCCM). Consulté le 22 mars 2023, à l'adresse https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
+[2] Microsoft. (2021, 11 août). System Center Configuration Manager (SCCM). Consulté le 22 mars 2023 sur https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
 
-[3] Acronis. (2022). Acronis True Image. Consulté le 22 mars 2023, à l'adresse https://www.acronis.com/en-us/products/true-image/
+[3] Acronis. (2022). Acronis True Image. Consulté le 22 mars 2023 sur https://www.acronis.com/en-us/products/true-image/
 
-[4] EaseUS (2022). Todo Backup. Consulté le 22 mars 2023, à l'adresse https://www.easeus.com/backup-software/
+[4] EaseUS. (2022). Todo Backup. Consulté le 22 mars 2023 sur https://www.easeus.com/backup-software/
 
-[5] National Institute of Standards and Technology. (2022, 10 février). Guide to Enterprise Patch Management Technologies. Consulté le 22 mars 2023, à l'adresse https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
+[5] National Institute of Standards and Technology. (2022, 10 février). Guide to Enterprise Patch Management Technologies. Consulté le 22 mars 2023 sur https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
 
-[6] Centre national de cybersécurité. (2021). 10 Steps to Cyber Security (10 étapes vers la cybersécurité). Consulté le 22 mars 2023, à l'adresse https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security
-
+[6] National Cyber Security Centre. (2021). 10 Steps to Cyber Security. Consulté le 22 mars 2023 sur https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security

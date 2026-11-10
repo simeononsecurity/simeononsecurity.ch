@@ -3,6 +3,7 @@ title: "VPNでよくある間違いと、誤って公開IPを漏らしてしま�
 draft: false
 toc: true
 date: 2023-05-08
+lastmod: 2026-11-09
 description: "あなたの公開IPアドレスを誤って漏らしてしまう、よくあるVPNの間違いを避け、あなたのオンラインプライバシーを守りましょう。"
 tags: ["VPNの失敗例", "IPリーク", "オンラインプライバシー", "サイバーセキュリティ", "インターネットセキュリティ", "仮想私設通信網", "ウェブアールティーシー", "DNSサーバー", "VPNプロバイダー", "二要素認証", "VPNソフト", "キルスイッチ", "データプライバシー", "インターネットプライバシー", "サイバー脅威", "データ機密保護", "ネットワークセキュリティ", "オンラインセキュリティ", "オンラインアノニマス", "えんかくブラウズ"]
 cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
@@ -30,7 +31,7 @@ VPNからIPアドレスが漏れているかどうかを確認するには、以
 
 VPNを使用する際のもう一つの一般的な間違いは、**安全なVPNプロバイダ**を選択しないことです。多くのVPNプロバイダーがありますが、そのすべてが信頼できるわけではありません。VPNプロバイダーの中には、あなたのインターネットトラフィックを記録したり、あなたのデータを第三者に販売したりするものがあります。また、ハッカーがあなたの情報にアクセスすることを可能にする脆弱性を持っている場合もあります。
 
-安全なVPNプロバイダーを選ぶには、厳密なロギング禁止ポリシーを持ち、強力な暗号化を使用し、ユーザーのプライバシーを保護する実績のあるプロバイダーを探せばよいでしょう。VPNプロバイダーのレビューは、以下のようなオンラインサイトで見ることができます。[providers recommended by simeononsecurity.com](https://simeononsecurity.com/recommendations/vpns/)を参考にしてください。
+安全なVPNプロバイダーを選ぶには、厳密なロギング禁止ポリシーを持ち、強力な暗号化を使用し、ユーザーのプライバシーを保護する実績のあるプロバイダーを探せばよいでしょう。VPNプロバイダーのレビューは、以下のようなオンラインサイトで見ることができます。[simeononsecurity.com が推奨する VPN プロバイダー](https://simeononsecurity.com/recommendations/vpns/)を参考にしてください。
 
 ### 無料のVPNを使う
 
@@ -44,11 +45,11 @@ VPNソフトウェアをアップデートしないことも、VPNを利用す�
 
 このような失敗を避けるために、VPNソフトウェアを定期的にアップデートするようにしてください。ほとんどのVPNプロバイダーは、アップデートが利用可能になると通知してくれますし、手動でアップデートを確認することもできます。
 
-VPN使用中に誤って公開IPを漏らさないようにするには ## 。
+## VPN使用中にパブリックIPを誤って漏らさない方法
 
 ### キルスイッチを使用する
 
-キルスイッチとは、VPN接続が切断された場合に、インターネット接続を自動的に切断する機能です。これにより、VPN接続に失敗してもIPアドレスが公開されるのを防ぐことができます。
+**キルスイッチ**とは、VPN接続が切断された場合に、インターネット接続を自動的に切断する機能です。これにより、VPN接続に失敗してもIPアドレスが公開されるのを防ぐことができます。
 
 多くのVPNプロバイダーがキルスイッチ機能を提供していますので、利用できる場合は必ず有効にしてください。
 
@@ -62,13 +63,13 @@ WebブラウザでWebRTCを無効にするには、Chromeの**WebRTC Control**�
 
 ウェブサイトに接続すると、デバイスはDNS（ドメインネームシステム）サーバーにリクエストを送信し、ウェブサイトのドメイン名をIPアドレスに変換します。デフォルトでは、お使いのデバイスはインターネットサービスプロバイダ（ISP）のDNSサーバーを使用し、インターネット活動を記録することができます。
 
-これを避けるには、あなたの活動を記録しないプライベートDNSサーバーを使用することができます。VPNプロバイダーの中には、独自のプライベートDNSサーバーを提供しているところもありますし、以下のようなサードパーティーのサービスを利用することもできます。[**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns)
+これを避けるには、あなたの活動を記録しないプライベートDNSサーバーを使用することができます。VPNプロバイダーの中には、独自のプライベートDNSサーバーを提供しているところもありますし、以下のようなサードパーティーのサービスを利用することもできます。[**Cloudflare DNS**](https://1.1.1.1/) または [**Google DNS**](https://developers.google.com/speed/public-dns)
 
-###[Use Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [二要素認証を使う](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-使用する[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、不正アクセスからVPNアカウントを保護するのに役立ちます。二要素認証では、アカウントにアクセスするために、パスワードと携帯電話に送信されるコードなど、2つの識別情報を提供する必要があります。
+使用する[**二要素認証**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、不正アクセスからVPNアカウントを保護するのに役立ちます。二要素認証では、アカウントにアクセスするために、パスワードと携帯電話に送信されるコードなど、2つの識別情報を提供する必要があります。
 
-多くのVPNプロバイダーが提供する[two-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)をオプションとして用意していますので、利用可能な場合は必ず有効にしてください。
+多くのVPNプロバイダーが提供する[二要素認証](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)をオプションとして用意していますので、利用可能な場合は必ず有効にしてください。
 
 ### まとめ
 
@@ -78,11 +79,10 @@ VPNは、オンラインのプライバシーとセキュリティを保護す�
 
 ## 参考文献
 
--[simeononsecurity.com's VPN Provider Recommendations](https://simeononsecurity.com/recommendations/vpns/)
--[simeononsecurity.com - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
--[IPLeak.net](https://ipleak.net/)
--[WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
--[Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
--[Cloudflare DNS](https://1.1.1.1/)
--[Google DNS](https://developers.google.com/speed/public-dns)
-
+- [simeononsecurity.com の VPN プロバイダー推奨](https://simeononsecurity.com/recommendations/vpns/)
+- [多要素認証ガイド: 種類とベストプラクティス](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [IPLeak.net](https://ipleak.net/)
+- [Chrome 用 WebRTC Control 拡張機能](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
+- [Firefox 用 Disable WebRTC 拡張機能](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [Cloudflare DNS](https://1.1.1.1/)
+- [Google DNS](https://developers.google.com/speed/public-dns)

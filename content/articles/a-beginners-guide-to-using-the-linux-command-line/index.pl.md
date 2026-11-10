@@ -1,12 +1,13 @@
 ---
 title: "Przewodnik dla początkujących: Korzystanie z wiersza poleceń Linux dla cyberbezpieczeństwa"
 date: 2023-03-13
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Dowiedz się, jak korzystać z wiersza poleceń systemu Linux w celu zapewnienia cyberbezpieczeństwa za pomocą podstawowych i zaawansowanych poleceń."
 tags: ["Linux", "Wiersz poleceń", "Cyberbezpieczeństwo", "Przewodnik dla początkujących", "Skanowanie sieci", "Testowanie podatności", "Analiza złośliwego oprogramowania", "Uprawnienia", "Ruch sieciowy", "Status procesu", "Statystyki sieciowe", "Wyszukiwanie plików", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Bezpieczeństwo", "Testy penetracyjne", "Kryminalistyka cyfrowa"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "Kreskówkowa ilustracja przedstawiająca osobę ubraną w bluzę z kapturem, siedzącą przed ekranem komputera z widocznym interfejsem wiersza poleceń systemu Linux i trzymającą szkło powiększające w celu przedstawienia aspektu cyberbezpieczeństwa."
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Ilustracja ekranu komputera z interfejsem wiersza poleceń systemu Linux i zielonymi poleceniami na ciemnym tle. Wokół znajdują się elementy cyberbezpieczeństwa, takie jak cyfrowe kłódki i linie sieciowe."
 coverCaption: ""
 ---
 
@@ -139,6 +140,8 @@ W powyższym przykładzie polecenie ustawia uprawnienia pliku "plik2.txt" na ug=
 
 
 ## Zaawansowane polecenia Linux dla cyberbezpieczeństwa
+
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Schemat terminala Linux uruchamiającego nmap, netstat i find do skanowania sieci, monitorowania procesów i badania plików w zadaniach cyberbezpieczeństwa" >}}
 
 ### Network Mapper
 
@@ -282,7 +285,7 @@ ______
 
 Korzystanie z wiersza poleceń systemu Linux do celów cyberbezpieczeństwa może być przytłaczające dla początkujących. Jednak dzięki podstawowym i zaawansowanym poleceniom opisanym w tym przewodniku możesz zacząć wykorzystywać Linux CLI na swoją korzyść w cyberbezpieczeństwie. Pamiętaj, aby zachować ostrożność podczas uruchamiania poleceń i dokładnie zrozumieć, co robi każde polecenie przed jego użyciem.
 
-Aby dowiedzieć się więcej o używaniu Linuksa do cyberbezpieczeństwa, pobierz **[Kali Linux](https://www.kali.org/downloads/) system operacyjny, który został zaprojektowany specjalnie do testów penetracyjnych i kryminalistyki cyfrowej.
+Aby dowiedzieć się więcej o Linuksie w cyberbezpieczeństwie, odwiedź stronę pobierania **[Kali Linux](https://www.kali.org/downloads/)**, systemu operacyjnego zaprojektowanego specjalnie do testów penetracyjnych i kryminalistyki cyfrowej.
 
 ## Wnioski
 

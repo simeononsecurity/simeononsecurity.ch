@@ -1,162 +1,162 @@
 ---
-title: "GrapheneOS Sandboxed Google Play Explained"
+title: "Sandboxed Google Play в GrapheneOS: объяснение"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together."
-genre: ["Privacy", "Mobile Security", "Open Source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android privacy", "Android security", "app sandbox", "Google account", "GrapheneOS profiles", "Owner profile", "user profiles", "work profile", "app compatibility", "push notifications", "Firebase Cloud Messaging", "app permissions", "Pixel privacy", "Google Play installation", "mobile privacy", "GrapheneOS App Store"]
+description: "Узнайте, что меняет Sandboxed Google Play в GrapheneOS, когда полезен отдельный профиль и как связаны учетные записи, уведомления и совместимость приложений."
+genre: ["Конфиденциальность", "Безопасность мобильных устройств", "Открытый исходный код"]
+tags: ["GrapheneOS", "sandboxed Google Play", "Сервисы Google Play", "Google Play Store", "конфиденциальность Android", "безопасность Android", "песочница приложений", "аккаунт Google", "профили GrapheneOS", "профиль владельца", "профили пользователей", "рабочий профиль", "совместимость приложений", "push-уведомления", "Firebase Cloud Messaging", "разрешения приложений", "конфиденциальность Pixel", "установка Google Play", "мобильная конфиденциальность", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
-coverAlt: "A smartphone screen holds apps in separate transparent compartments, including a colorful app-store symbol."
+coverAlt: "На экране смартфона приложения размещены в отдельных прозрачных ячейках, включая цветной значок магазина приложений."
 coverCaption: ""
 ---
 
-**Sandboxed Google Play** lets you install official Google Play components on GrapheneOS as ordinary apps. They run without the system privileges Google Play normally receives on the stock OS. Installing them is optional. [GrapheneOS feature overview](https://grapheneos.org/features#sandboxed-google-play).
+**Sandboxed Google Play** позволяет устанавливать официальные компоненты Google Play в GrapheneOS как обычные приложения. Они работают без системных привилегий, которые Google Play обычно получает в стандартной ОС. Установка необязательна. [Обзор возможностей GrapheneOS](https://grapheneos.org/features#sandboxed-google-play).
 
-## Главные выводы
+## Главное
 
-- **Explain isolation:** distinguish app permissions from online account activity.
-- **Place dependencies:** keep a dependent app and Play in the same profile.
-- **Test behavior:** check background notifications and essential workflows.
-- **Build a plan:** record your chosen profiles, accounts, and app requirements.
+- **Понимайте изоляцию:** отличайте разрешения приложений от активности учетной записи в сети.
+- **Размещайте зависимости вместе:** зависимое приложение и компоненты Play должны находиться в одном профиле.
+- **Проверяйте работу:** тестируйте фоновые уведомления и важные сценарии.
+- **Составьте план:** запишите выбранные профили, учетные записи и требования приложений.
 
 ## Перед началом
 
-**Audience:** GrapheneOS users deciding whether to install Google Play and where to put it. **Prerequisites:** a supported device with an updated GrapheneOS installation and access to your essential accounts. OS installation belongs in the [GrapheneOS installation guide](/guides/how-to-install-graphine-os/).
+**Для кого:** пользователи GrapheneOS, которые решают, устанавливать ли Google Play и где его разместить. **Требования:** поддерживаемое устройство с обновленной GrapheneOS и доступом к важным учетным записям. Установка ОС описана в [руководстве по установке GrapheneOS](/guides/how-to-install-graphine-os/).
 
-**Estimated effort:** 20–30 minutes for the initial app inventory and checks, plus normal daily use to assess notification reliability. **Difficulty:** beginner. Start with one representative app before reorganizing your phone.
+**Время:** 20–30 минут на первичную инвентаризацию приложений и проверки, затем обычное ежедневное использование для оценки надежности уведомлений. **Уровень сложности:** начальный. Сначала проверьте одно типичное приложение и только потом меняйте структуру телефона.
 
-## What the Sandbox Changes
+## Что меняет песочница
 
-Android's **application sandbox** separates app resources using operating-system protections. An app does not receive unrestricted access to another app's private files. The protection applies to native code as well as code running through Android's managed runtime. [Android application sandbox documentation](https://source.android.com/docs/security/app-sandbox).
+**Песочница приложений** Android разделяет ресурсы приложений средствами защиты операционной системы. Приложение не получает неограниченный доступ к личным файлам другого приложения. Защита применяется и к машинному коду, и к коду в управляемой среде выполнения Android. [Документация о песочнице приложений Android](https://source.android.com/docs/security/app-sandbox).
 
-GrapheneOS adds a **compatibility layer** so official Play components function within those ordinary restrictions. Apps in the same profile still have supported ways to communicate by mutual consent. Sandboxing limits privileges, but it does not prevent every intentional exchange between apps. [Sandboxed Google Play design](https://grapheneos.org/features#sandboxed-google-play).
+GrapheneOS добавляет **слой совместимости**, чтобы официальные компоненты Play работали в рамках обычных ограничений. Приложения в одном профиле по-прежнему могут взаимодействовать разрешенными способами и с взаимного согласия. Песочница ограничивает привилегии, но не предотвращает каждый намеренный обмен между приложениями. [Устройство Sandboxed Google Play](https://grapheneos.org/features#sandboxed-google-play).
 
-| Concern | Practical meaning |
+| Вопрос | Практическое значение |
 |---|---|
-| **Private app files** | Installing Play does not grant unrestricted access to other apps' data |
-| **Permissions** | Review requested access as you would for another app |
-| **Google-backed features** | An app choosing a Google service still communicates with it |
-| **Account activity** | Signing into a service remains a separate privacy decision |
+| **Личные файлы приложений** | Установка Play не дает неограниченного доступа к данным других приложений |
+| **Разрешения** | Проверяйте запрашиваемый доступ так же, как у любого другого приложения |
+| **Функции Google** | Если приложение использует сервис Google, оно продолжает с ним взаимодействовать |
+| **Активность учетной записи** | Вход в сервис остается отдельным решением о конфиденциальности |
 
-**Sandboxing and account privacy** answer different questions. A sandbox restricts local access. It does not erase information you deliberately submit to an online service. For example, signing into a shopping app still identifies your account to its operator.
+**Песочница и конфиденциальность учетной записи** отвечают на разные вопросы. Песочница ограничивает локальный доступ. Она не удаляет информацию, которую вы намеренно отправляете в интернет-сервис. Например, вход в приложение магазина по-прежнему раскрывает ваш аккаунт его оператору.
 
-## Separate Three Privacy Decisions
+## Разделите три решения о конфиденциальности
 
-**Local access, service use, and identity** are separate questions. For an app requesting contact access and account sign-in, review each request independently:
+**Локальный доступ, использование сервисов и личность** — разные вопросы. Если приложение запрашивает доступ к контактам и вход в учетную запись, оценивайте каждый запрос отдельно:
 
-| Decision | Question to answer |
+| Решение | Вопрос |
 |---|---|
-| **Local permission** | Does this feature need my contacts, microphone, or location? |
-| **Service dependency** | Which feature relies on Play services? |
-| **Online identity** | Which account am I associating with this activity? |
+| **Локальное разрешение** | Нужны ли этой функции мои контакты, микрофон или местоположение? |
+| **Зависимость от сервиса** | Какая функция зависит от Play services? |
+| **Сетевая личность** | С какой учетной записью я связываю эту активность? |
 
-**A practical example:** a shopping account already contains your delivery address. Moving its app into another profile does not change the address held by the retailer. Declining contact access answers a different question about data available on your phone.
+**Пример:** в аккаунте магазина уже сохранен адрес доставки. Перенос приложения в другой профиль не изменит адрес, который хранит продавец. Отказ в доступе к контактам касается других данных на телефоне.
 
-**Privacy objective:** write the specific exposure you want to reduce. “Keep this app away from my personal contacts” is testable. “Make this account anonymous” requires decisions beyond profile placement.
+**Цель защиты конфиденциальности:** запишите, какое именно раскрытие данных вы хотите сократить. «Не давать этому приложению доступ к моим личным контактам» можно проверить. «Сделать учетную запись анонимной» требует решений помимо выбора профиля.
 
-## Owner Profile or Separate Profile?
+## Профиль владельца или отдельный профиль?
 
-**Owner-profile installation** is a supported, straightforward choice. Google Play remains sandboxed there. A separate user or work profile helps you choose which group of apps has Play available. [GrapheneOS installation guidance](https://grapheneos.org/usage#sandboxed-google-play-installation).
+**Установка в профиле владельца** — поддерживаемый и простой вариант. Google Play там по-прежнему работает в песочнице. Отдельный пользовательский или рабочий профиль позволяет выбрать группу приложений, которым доступен Play. [Рекомендации по установке GrapheneOS](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
-| Your priority | Starting arrangement | Tradeoff |
+| Ваш приоритет | Начальная конфигурация | Компромисс |
 |---|---|---|
-| **Simple daily use** | Keep required apps and Play in Owner | Play is available to cooperating apps in this profile |
-| **Separate Google-dependent apps** | Install them together in another profile | More profile management |
-| **Avoid Google services** | Start without Play | Check each app's dependencies |
+| **Простое ежедневное использование** | Оставить нужные приложения и Play в профиле владельца | Play доступен взаимодействующим приложениям в этом профиле |
+| **Отделить приложения, зависящие от Google** | Установить их вместе в другом профиле | Потребуется больше управления профилями |
+| **Избегать сервисов Google** | Начать без Play | Проверить зависимости каждого приложения |
 
-**Profile placement** matters more than installing the same component everywhere. GrapheneOS's FAQ explains how Play availability is scoped to selected profiles, while many apps work without it or need it for only part of their functionality. [Google services FAQ](https://grapheneos.org/faq#google-services).
+**Расположение профиля** важнее установки одинаковых компонентов повсюду. В FAQ GrapheneOS объясняется, как доступность Play ограничивается выбранными профилями. Многие приложения работают без него или используют его только для части функций. [FAQ о сервисах Google](https://grapheneos.org/faq#google-services).
 
-*Use a separate profile when selective Play availability solves a specific requirement you have identified.*
+*Используйте отдельный профиль, если выборочная доступность Play решает конкретную выявленную вами задачу.*
 
-## Understand Profile Activity
+## Понимайте активность профилей
 
-**A secondary user profile** has its own app instances and data. Switching to another user and ending the previous user's session are different actions. **End session** stops apps in the secondary profile and returns its encrypted storage to rest. [GrapheneOS encryption and profile FAQ](https://grapheneos.org/faq#encryption).
+**Дополнительный профиль пользователя** имеет собственные экземпляры приложений и данные. Переключение на другого пользователя и завершение сеанса предыдущего пользователя — разные действия. **Завершить сеанс** останавливает приложения дополнительного профиля и возвращает его зашифрованное хранилище в закрытое состояние. [FAQ GrapheneOS о шифровании и профилях](https://grapheneos.org/faq#encryption).
 
-**Notification forwarding** optionally surfaces notifications from a user running in the background to the active user. It does not keep an ended session running. [GrapheneOS user-profile features](https://grapheneos.org/features).
+**Пересылка уведомлений** по желанию показывает активному пользователю уведомления пользователя, работающего в фоне. Она не сохраняет завершенный сеанс активным. [Возможности пользовательских профилей GrapheneOS](https://grapheneos.org/features).
 
-| Profile state | Delivery condition |
+| Состояние профиля | Условие доставки |
 |---|---|
-| **Active** | Test delivery inside this profile |
-| **Running in background** | Check forwarding to the active user |
-| **Session ended** | Apps in this profile are stopped |
+| **Активен** | Проверьте доставку в этом профиле |
+| **Работает в фоне** | Проверьте пересылку уведомлений активному пользователю |
+| **Сеанс завершен** | Приложения в профиле остановлены |
 
-For **a daily messaging app**, decide whether receiving messages while using Owner is essential. A profile arrangement demanding frequent session shutdown conflicts with continuous background delivery. Make this tradeoff before moving your main conversation history.
+Для **ежедневного приложения для обмена сообщениями** решите, важно ли получать сообщения при использовании профиля владельца. Конфигурация, требующая часто завершать сеанс, мешает постоянной доставке уведомлений в фоне. Учтите это до переноса основной истории переписки.
 
-## Installation and Accounts
+## Установка и учетные записи
 
-Open the built-in **GrapheneOS App Store**, select **Google Play services**, and install it. This also installs the dependent Play Store. Let the App Store maintain these components. Grant Play services a battery optimization exception for reliable background features such as push notifications. [Official installation instructions](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Откройте встроенный **GrapheneOS App Store**, выберите **Google Play services** и установите их. Зависимый от них Play Store также установится. Позвольте App Store управлять компонентами. Исключите Play services из оптимизации батареи, чтобы фоновые функции, например push-уведомления, работали надежно. [Официальные инструкции по установке](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
-**Google account sign-in** is optional for functionality without an account dependency. Installing apps through the Play Store requires sign-in. Older installations also include Google Services Framework, which the project says to retain. Follow current installation instructions instead of an old three-package checklist.
+**Вход в учетную запись Google** необязателен для функций, не зависящих от нее. Для установки приложений через Play Store нужно войти в аккаунт. В старых установках есть также Google Services Framework, который проект рекомендует сохранить. Следуйте актуальным инструкциям, а не старому списку из трех пакетов.
 
-## Test One App First
+## Сначала проверьте одно приложение
 
-Use a **low-risk representative app** to check your intended profile arrangement. Keep existing account recovery methods available throughout the exercise.
+Выберите **типичное приложение с низким риском**, чтобы проверить запланированную конфигурацию профилей. На время проверки сохраните доступ к существующим способам восстановления учетных записей.
 
-1. **Select a profile:** decide where the app belongs before installing its dependencies.
-2. **Install Play:** use the official installation steps above within this profile.
-3. **Install the app:** use its trusted distribution source and complete initial setup.
-4. **Review requests:** approve permissions according to the feature you are testing.
-5. **Exercise one feature:** send a message, open a map, or perform another reversible action.
-6. **Record the result:** note the app version, OS version, profile, and exact operation.
+1. **Выберите профиль:** решите, где должно работать приложение, до установки его зависимостей.
+2. **Установите Play:** выполните в этом профиле официальные действия, описанные выше.
+3. **Установите приложение:** используйте надежный источник и завершите первоначальную настройку.
+4. **Проверьте запросы:** предоставляйте разрешения согласно проверяемой функции.
+5. **Проверьте функцию:** отправьте сообщение, откройте карту или выполните другое обратимое действие.
+6. **Запишите результат:** укажите версии приложения и ОС, профиль и точную выполненную операцию.
 
-**Expected evidence:** a repeatable description such as “a test message arrived with the screen locked in the active profile.” Avoid recording only “works,” which hides the feature and conditions tested.
+**Ожидаемое подтверждение:** воспроизводимое описание, например «тестовое сообщение пришло при заблокированном экране в активном профиле». Не записывайте только «работает»: это не указывает проверенную функцию и условия.
 
-## Diagnose Missing Notifications
+## Диагностика отсутствующих уведомлений
 
-**Push notifications** depend on the app's implementation. Some apps maintain their own background connection. Others rely on Google's Firebase Cloud Messaging. An app opening successfully does not prove its notifications work after you lock the phone. [GrapheneOS notification FAQ](https://grapheneos.org/faq#notifications).
+**Push-уведомления** зависят от реализации приложения. Некоторые приложения сами поддерживают соединение в фоне. Другие используют Firebase Cloud Messaging от Google. Успешный запуск приложения не доказывает, что уведомления приходят после блокировки телефона. [FAQ GrapheneOS об уведомлениях](https://grapheneos.org/faq#notifications).
 
-**Check the delivery conditions** before changing permissions across several apps:
+**Проверьте условия доставки**, прежде чем менять разрешения сразу у нескольких приложений:
 
-| Symptom | Narrow the investigation |
+| Симптом | Как сузить поиск |
 |---|---|
-| **Messages appear only after opening** | Check the app's background delivery method and battery settings |
-| **Delivery works only in its profile** | Check profile activity and notification forwarding |
-| **No delivery after End session** | Start the secondary profile before testing again |
-| **The notification arrives silently** | Inspect the app's notification channel and sound settings |
+| **Сообщения появляются только после открытия приложения** | Проверьте способ фоновой доставки и настройки батареи |
+| **Доставка работает только в профиле приложения** | Проверьте активность профиля и пересылку уведомлений |
+| **После «Завершить сеанс» ничего не приходит** | Перед повторной проверкой запустите дополнительный профиль |
+| **Уведомление приходит без звука** | Проверьте канал уведомлений и настройки звука приложения |
 
-**Notification channels** group an app's notification behavior, including importance and sound. Android exposes channel controls to the user. [Android notification-channel documentation](https://developer.android.com/develop/ui/compose/notifications/channels).
+**Каналы уведомлений** группируют поведение уведомлений приложения, включая важность и звук. Android предоставляет пользователю настройки каналов. [Документация о каналах уведомлений Android](https://developer.android.com/develop/ui/compose/notifications/channels).
 
-**Retest one condition at a time:** keep the sending device and message type fixed while changing the receiving profile's state. Record “active,” “running in background,” or “session ended” alongside each result. This distinguishes a profile-lifecycle problem from a notification configuration problem.
+**Повторяйте тест, меняя только одно условие:** оставьте неизменными отправляющее устройство и тип сообщения, меняя состояние принимающего профиля. Записывайте для каждого результата «активен», «работает в фоне» или «сеанс завершен». Это поможет отличить проблему жизненного цикла профиля от ошибки настройки уведомлений.
 
-## Evaluate Essential Workflows
+## Оцените важные сценарии
 
-Use a short **personal acceptance test** before relying on a new setup:
+Перед тем как полагаться на новую конфигурацию, проведите короткую **личную приемочную проверку**:
 
-| Workflow | Check on your device |
+| Сценарий | Проверка на устройстве |
 |---|---|
-| **Messaging** | Receive a message with the screen locked |
-| **Account access** | Sign in and complete the required second factor |
-| **Banking or payments** | Test the exact function you need, including any device checks |
-| **Navigation** | Obtain location with your chosen permissions |
+| **Сообщения** | Получить сообщение при заблокированном экране |
+| **Доступ к учетной записи** | Войти и пройти требуемую вторую проверку |
+| **Банковские операции или платежи** | Проверить нужную функцию, включая проверки устройства |
+| **Навигация** | Получить местоположение с выбранными разрешениями |
 
-**An app launching** is only the first check. Record the app version, GrapheneOS version, and failed operation when troubleshooting. This article provides a decision framework, not a tested compatibility list.
+**Запуск приложения** — только первая проверка. При поиске проблемы запишите версии приложения и GrapheneOS, а также действие, которое не удалось выполнить. В статье описан способ принятия решений, а не проверенный список совместимости.
 
-**Migration decision:** keep your previous access method until each essential operation has passed. A messaging app and a banking app need different acceptance criteria. Successful message delivery says nothing about another app's account or device checks.
+**Решение о переходе:** сохраняйте прежний способ доступа, пока не пройдут все важные проверки. Для приложения сообщений и банковского приложения нужны разные критерии приемки. Успешная доставка сообщения ничего не говорит о проверках учетной записи или устройства в другом приложении.
 
-**Recheck after GrapheneOS or app updates.** Profile placement, permissions, notification channels, and session state still define the test. Record the version beside each result so a changed notification or sign-in behavior does not become an unexplained privacy conclusion.
+**Повторяйте проверки после обновления GrapheneOS или приложений.** Профиль, разрешения, каналы уведомлений и состояние сеанса по-прежнему определяют условия проверки. Записывайте версии рядом с результатами, чтобы изменение уведомлений или входа не стало необоснованным выводом о конфиденциальности.
 
-For **a work login**, test the complete sign-in sequence and the required second factor. For a travel app, test the feature you expect to use away from home. Choose representative actions without making unnecessary purchases or changing account security.
+Для **рабочего входа** проверьте весь процесс авторизации и нужный второй фактор. В приложении для путешествий проверьте функцию, которой собираетесь пользоваться вне дома. Выбирайте типичные действия, не совершая ненужных покупок и не меняя защиту учетной записи.
 
-## Build Your App Plan
+## Составьте план приложений
 
-Complete this **inventory** for your five most important apps. The rows below are prompts, not compatibility claims about specific products:
+Заполните эту **таблицу** для пяти самых важных приложений. Строки содержат вопросы для проверки, а не заявления о совместимости конкретных продуктов:
 
-| App category | Requirement to record | Evidence to collect |
+| Категория приложения | Что записать | Какие подтверждения собрать |
 |---|---|---|
-| **Messaging** | Background delivery and profile choice | Locked-screen and background-profile test |
-| **Work access** | Required login and second factor | Completed sign-in |
-| **Navigation** | Location permission and offline needs | A route under expected conditions |
-| **Banking** | Essential supported operations | Results for each required function |
-| **Shopping** | Account and local-data access | Permission review and normal account use |
+| **Сообщения** | Фоновая доставка и выбор профиля | Проверка с заблокированным экраном и профилем в фоне |
+| **Рабочий доступ** | Требуемый вход и второй фактор | Успешный вход |
+| **Навигация** | Разрешение на местоположение и работа без сети | Маршрут в ожидаемых условиях |
+| **Банковские приложения** | Важные поддерживаемые операции | Результат для каждой необходимой функции |
+| **Покупки** | Доступ к учетной записи и локальным данным | Проверка разрешений и обычная работа с аккаунтом |
 
-**Write a decision** for each row: chosen profile, Play dependency, account requirement, approved permissions, and fallback. Leave unknown dependencies marked unknown until you have evidence. This avoids installing additional components merely because another app needed them.
+**Запишите решение** для каждой строки: выбранный профиль, зависимость от Play, требование учетной записи, одобренные разрешения и запасной вариант. Неизвестные зависимости отмечайте как неизвестные, пока не появятся подтверждения. Так вы не установите лишние компоненты только потому, что они нужны другому приложению.
 
-**Review exercise:** an app works while its secondary profile is active, then stops receiving messages after End session. The first action is to restart the profile and retest. Granting contact access would not address a stopped session.
+**Проверочное упражнение:** приложение работает, пока активен дополнительный профиль, но перестает получать сообщения после завершения сеанса. Сначала запустите профиль снова и повторите проверку. Доступ к контактам не решит проблему остановленного сеанса.
 
-**Completion criterion:** your plan should explain why each app sits in its chosen profile and which test supports relying on it. Revisit the relevant row after an update changes behavior.
+**Критерий завершения:** в плане объяснено, почему каждое приложение находится в выбранном профиле и какой тест подтверждает его надежную работу. Пересмотрите соответствующую строку, если после обновления поведение изменится.
 
 ## Следующие шаги
 
-Use the site's [GrapheneOS installation guide](/guides/how-to-install-graphine-os/) if you have not installed the OS. Then choose one profile arrangement and test your essential apps before adding extra profiles or changing broad permission settings.
+Если GrapheneOS еще не установлен, воспользуйтесь [руководством по установке GrapheneOS](/guides/how-to-install-graphine-os/). Затем выберите конфигурацию профилей и проверьте важные приложения, прежде чем создавать дополнительные профили или менять общие настройки разрешений.

@@ -1,12 +1,12 @@
 ---
 title: "Els Context Language Models de Meta: millor memòria per als agents, no la fi de les al·lucinacions"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Com els Context Language Models editen la memòria dels agents, què demostren els benchmarks i com afecten la fiabilitat els costos de la memòria cau, la capacitat del model i les notes no fiables."
-genre: ["Intel·ligència artificial", "Agents d'IA", "IA local", "Seguretat de la IA"]
-tags: ["Context Language Models", "CLM", "Meta AI", "al·lucinacions d'IA", "memòria de l'agent", "gestió del context", "compactació del context", "finestra de context", "Suffix Cache Reuse", "memòria cau KV", "SGLang", "llama.cpp", "memòria cau de prompts", "injecció de prompts", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agents de llarga durada", "fiabilitat de la IA", "verificació d'agents"]
+genre: ["Intel·ligència artificial", "Agents d’IA", "IA local", "Seguretat de la IA"]
+tags: ["models de llenguatge contextuals", "CLM", "Meta AI", "al·lucinacions de la IA", "memòria de l’agent", "gestió del context", "compactació del context", "finestra de context", "reutilització de la memòria cau del sufix", "memòria cau KV", "SGLang", "llama.cpp", "memòria cau de prompts", "injecció de prompts", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agents de llarga durada", "fiabilitat de la IA", "verificació d’agents"]
 cover: "/img/cover/context-language-models-editable-memory.webp"
 coverAlt: "Un processador lluminós al costat de targetes de documents translúcides reordenades i una pila d'arxiu separada sobre una superfície fosca"
 coverCaption: "Il·lustració conceptual de la memòria editable d'un agent."

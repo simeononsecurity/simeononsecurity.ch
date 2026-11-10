@@ -1,6 +1,7 @@
 ---
 title: "Mastering Active Directory Administration met PowerShell: Installatie- en gebruikshandleiding"
 date: 2023-07-25
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Ontdek hoe u de Active Directory module voor PowerShell effectief kunt installeren en gebruiken om uw Windows Active Directory beheertaken te stroomlijnen."
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## Huidige controles voor RSAT en PowerShell
+
+Microsoft distribueert de Active Directory-module nu via Remote Server Administration Tools (RSAT). Installeer de functie op ondersteunde Windows-clientversies op aanvraag vanuit een verhoogde PowerShell-sessie:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+Gebruik op Windows Server de door Microsoft gedocumenteerde procedure voor serverfuncties:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Controleer de module voordat u beheeropdrachten uitvoert:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+De [referentie voor de ActiveDirectory-module](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) vermeldt dat RSAT de module levert en somt de beschikbare cmdlets op. Gebruik de versie die bij het hostbesturingssysteem past. PowerShell 7 vereist aandacht voor compatibiliteit. Test de module daarom op een niet-productiewerkstation voordat u een bestaande beheerworkflow wijzigt.
+
+Als operationele aanbeveling: gebruik `-WhatIf` wanneer een cmdlet dit ondersteunt, beperk query’s met `-Server` wanneer een specifieke domeincontroller van belang is en vraag alleen de benodigde machtigingen aan. PowerShell documenteert `-WhatIf` bij de [algemene parameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Bewaar wachtwoorden niet in de opdrachtgeschiedenis of in scripts. Gebruik liever de veilige [Get-Credential-prompt](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), een beveiligde geheimenopslag of een gedelegeerd serviceaccount met een gedocumenteerde rotatieprocedure.
 
 ## Conclusie
 

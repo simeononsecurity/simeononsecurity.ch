@@ -1,6 +1,7 @@
 ---
 title: "Dominio de la administración de Active Directory con PowerShell: Guía de instalación y uso"
 date: 2023-07-25
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Descubra cómo instalar y utilizar eficazmente el módulo Active Directory para PowerShell con el fin de agilizar las tareas de administración de Active Directory de Windows."
@@ -156,7 +157,7 @@ Cuando se trata de modificar las propiedades y atributos de objetos existentes d
 Utilizando estos cmdlets, puede modificar fácilmente las propiedades y atributos de los objetos de AD, realizando las actualizaciones y ajustes necesarios para satisfacer los requisitos de su organización.
 
 
-### Managing Active Directory Security
+### Gestión de la seguridad de Active Directory
 
 Además de gestionar y administrar objetos de Active Directory (AD), el módulo Active Directory de PowerShell proporciona cmdlets específicamente diseñados para gestionar aspectos de AD relacionados con la seguridad. Estos cmdlets permiten a los administradores gestionar eficazmente el acceso de usuarios, la pertenencia a grupos y las tareas relacionadas con contraseñas dentro del entorno AD.
 
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## Comprobaciones actuales de RSAT y PowerShell
+
+Microsoft distribuye ahora el módulo de Active Directory mediante las herramientas de administración remota del servidor (RSAT). En las ediciones cliente de Windows compatibles, instale la característica a petición desde una sesión de PowerShell con privilegios elevados:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+En Windows Server, utilice el flujo de instalación de características de servidor documentado por Microsoft:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Compruebe el módulo antes de ejecutar comandos administrativos:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+La [referencia del módulo ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) indica que RSAT proporciona el módulo y enumera los cmdlets disponibles. Utilice la versión que corresponda al sistema operativo del host. PowerShell 7 requiere tener en cuenta la compatibilidad, así que pruebe el módulo en una estación de trabajo que no sea de producción antes de cambiar un flujo administrativo establecido.
+
+Como recomendación operativa, use `-WhatIf` cuando el cmdlet lo admita, limite las consultas con `-Server` cuando importe un controlador de dominio concreto y solicite solo los permisos necesarios para la tarea. PowerShell documenta `-WhatIf` en sus [parámetros comunes](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Evite guardar contraseñas en el historial de comandos o en scripts. Prefiera el aviso seguro de [Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), un almacén de secretos protegido o una cuenta de servicio delegada con un proceso de rotación documentado.
 
 ## Conclusión
 

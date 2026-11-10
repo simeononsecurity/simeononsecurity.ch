@@ -1,6 +1,7 @@
 ---
 title: "ターミナル（Bash、PowerShell、Python）でChatGPTを使う：開発者向けCLIツール「ChatGPT」入門編"
 date: 2023-02-07
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "OpenAIのChatGPTモデルを、便利なコマンドラインインターフェース（CLI）を使って、テキスト生成や質問応答を簡単に行う方法をご紹介します。"
@@ -10,7 +11,7 @@ coverAlt: "開発者がパソコンに向かい、ターミナルでChatGPT CLI�
 coverCaption: ""
 ---
 
-OpenAIが開発した**ChatGPT**モデルは、人間のようなテキストを生成することができる最先端の言語モデル**です。開発者は、ChatGPT CLI (Command Line Interface)を使って、コマンドラインからChatGPTモデルと対話する便利な方法を提供します。ChatGPT CLIを使えば、開発者は、モデルの高度な機能を使って、簡単にテキストを生成したり、テキストを完成させたり、質問に答えたりすることができます。
+OpenAIが開発した**ChatGPT**モデルは、人間のようなテキストを生成することができる**最先端の言語モデル**です。開発者は、ChatGPT CLI (Command Line Interface)を使って、コマンドラインからChatGPTモデルと対話する便利な方法を提供します。ChatGPT CLIを使えば、開発者は、モデルの高度な機能を使って、簡単にテキストを生成したり、テキストを完成させたり、質問に答えたりすることができます。
 
 ChatGPT CLIのインストールは簡単で、開発者のマシンにPython 3.5以降がインストールされている必要があるだけです。ChatGPTのインストールには、pipパッケージマネージャを使用し、以下のコマンドを実行します：
 
@@ -21,7 +22,7 @@ pip install chatgpt requests readline
 
 ```
 
-**Windows PowerShell
+**Windows PowerShell**
 ```powershell
 
 pip install chatgpt requests pyreadline3
@@ -42,14 +43,14 @@ chatgpt answer --question "What is the capital of France?"
 
 ChatGPT CLIは、基本的なスクリプトでも活用することができます：
 
-**Linux:**です。
+**Linux:**
 ```bash
 prompt="What is the meaning of life?"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
-**Windows PowerShell：***．
+**Windows PowerShell:**
 ```powershell
 $prompt = "What is the meaning of life?"
 $answer = chatgpt generate --prompt $prompt
@@ -60,4 +61,4 @@ Write-Host $answer
 
 ChatGPT CLIでは、テキスト生成と質問応答の他に、生成テキストの長さの指定、出力の温度調整、生成する応答数の選択など、いくつかのオプションがあります。
 
-ChatGPT CLIは、先進的なChatGPTモデルと対話するためのシンプルでわかりやすい方法を提供し、あらゆる開発者のツールキット**に追加される価値あるものです。チャットボットのテキスト生成、テキストエディタのテキスト補完、Q&Aシステムの質問回答など、ChatGPT CLIは開発者が簡単に目標を達成できるようサポートします。
+**ChatGPT CLIは、先進的なChatGPTモデルと対話するためのシンプルでわかりやすい方法を提供し、あらゆる開発者のツールキットに追加される価値あるものです。**チャットボットのテキスト生成、テキストエディタのテキスト補完、Q&Aシステムの質問回答など、ChatGPT CLIは開発者が簡単に目標を達成できるようサポートします。

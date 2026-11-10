@@ -1,7 +1,7 @@
 ---
 title: "2026年最佳隐私浏览器：LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: 2026年最全面的隐私浏览器对比：LibreWolf、Brave、Firefox、Tor等。详细的隐私测试、性能基准和安全分析，保护您的在线数据。
@@ -922,6 +922,41 @@ Import Extensions: Manually reinstall
 - 保护身份盗窃
 - 防止操控
 - 基本人权
+
+## 2026 年隐私浏览器检查
+
+浏览器的品牌名称并不能证明它保护隐私。日常使用前，请检查默认设置、更新渠道、扩展政策和同步行为。
+
+1. 从项目官方网站或可信的应用商店下载浏览器。避免使用重新打包的版本。
+2. 保持浏览器和操作系统更新。隐私设置无法修复未打补丁的浏览器。
+3. 检查浏览器是否内置了防跟踪、防指纹识别、恶意下载和欺骗性网站的保护。
+4. 将扩展视为拥有特殊权限的软件。减少扩展数量，检查权限，并移除不再使用的扩展。
+5. 使用 [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) 和 [BrowserLeaks](https://browserleaks.com/) 测试。测试结果描述一个浏览器配置，不能证明匿名性。
+6. 使用不同的浏览器配置文件分隔身份。不要在用于敏感研究的 Tor Browser 窗口中登录个人账户。
+7. 使用 Tor Browser 的标准配置。额外字体、扩展和窗口大小改动会削弱共享指纹带来的保护。
+
+LibreWolf 适合希望使用更严格默认设置并能处理偶尔兼容性问题的用户。Brave 适合希望获得 Chromium 兼容性和内置拦截功能的用户。Firefox 适合希望获得 Mozilla 支持和灵活隐私控制的用户。Tor Browser 适合需要网络层匿名性且能接受速度较慢、网站兼容性较低的用户。
+
+[Tor Browser 手册](https://tb-manual.torproject.org/) 和 [Mozilla Firefox 隐私指南](https://support.mozilla.org/en-US/products/firefox/privacy-and-security)会更详细地介绍这些控制措施。
+
+## 当前隐私边界和检查清单
+
+浏览器保护能减少信息暴露，但不能让账户、设备或连接匿名。**隐私浏览**会在会话结束后删除选定的本地历史记录。它不会向网络运营方隐藏流量，也不能阻止网站识别已登录用户。[Tor Project 解释了这一差别](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/)。
+
+**指纹识别风险取决于你的浏览器配置有多常见。**Tor Browser 通过 letterboxing、标准化数值和第一方隔离，尝试将用户归入常见指纹群组。Tor Project 指出，完美匿名并不可能。没有具体理由时，不要添加特殊扩展，不要最大化 Tor 窗口，也不要更改默认设置。[阅读 Tor 的指纹保护说明](https://support.torproject.org/tor-browser/features/fingerprinting-protections/)。
+
+**LibreWolf 需要定期更新。**项目常见问题说明，新版本通常会在上游 Firefox 发布后三天内跟进，而且浏览器没有自己的自动更新程序。使用适用于你平台的包管理器或安装方式，并在安全更新后核对已安装版本。[查看 LibreWolf 常见问题](https://librewolf.net/docs/faq/)。
+
+选择浏览器前，请使用以下清单：
+
+- **威胁模型：**确定你需要减少跟踪、分隔账户、抵抗审查还是保持匿名。
+- **更新途径：**确认由谁提供更新，以及你将如何安装。
+- **兼容性：**迁移整个工作流程前，测试银行、工作、媒体、扩展和辅助功能。
+- **身份分隔：**在旨在减少活动关联的会话中，不要使用个人登录信息。
+- **指纹识别：**尽量保持浏览器常见的默认配置。大量隐私扩展可能让浏览器更容易被识别。
+- **网络层：**将 DNS、VPN 和 Tor 视为不同的控制措施。每项措施保护连接的不同部分。
+
+本页其他位置的性能和隐私分数属于历史测量或示例对比，除非同时提供方法、日期、硬件配置和原始结果。不要将它们视为当前通用排名。每次浏览器重大更新后，请测试自己使用的网站和设备。
 
 ## 结论：掌控你的数字隐私
 

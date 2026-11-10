@@ -1,6 +1,7 @@
 ---
 title: "Els perills d'emmagatzemar criptografia als intercanvis: per què una cartera de maquinari és més segura"
 date: 2023-02-12
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "En aquest article s'analitza els perills d'emmagatzemar criptomoneda en els intercanvis, explica per què és equivalent a emmagatzemar diners en un matalàs i destaca els avantatges d'utilitzar una cartera de maquinari per a l'emmagatzematge segur."
@@ -48,7 +49,7 @@ ______
 
 ## Recomanacions per a carteres de maquinari
 
-Si esteu pensant en comprar una cartera de maquinari, hi ha diverses opcions disponibles. Dues opcions populars i molt ben valorades són [Trezor wallet](https://amzn.to/3xfyuEM) and the [Ledger wallet](https://amzn.to/3jSMyRE) **Aquestes carteres ofereixen un alt nivell de seguretat** i són fàcils d'utilitzar, la qual cosa les converteix en **una gran opció per als inversors criptogràfics**.
+Si esteu pensant en comprar una cartera de maquinari, hi ha diverses opcions disponibles. Dues opcions populars i molt ben valorades són [cartera Trezor](https://amzn.to/3xfyuEM) i [cartera Ledger](https://amzn.to/3jSMyRE) **Aquestes carteres ofereixen un alt nivell de seguretat** i són fàcils d'utilitzar, la qual cosa les converteix en **una gran opció per als inversors criptogràfics**.
 
 ______
 

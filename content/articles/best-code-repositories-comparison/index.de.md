@@ -1,7 +1,7 @@
 ---
 title: "Azure DevOps, GitHub, GitLab und BitBucket im Vergleich: Die besten Code-Repositories finden"
 date: 2023-12-08
-lastmod: 2026-05-24
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Entdecken Sie die besten Code-Repositories, darunter Azure DevOps, GitHub, GitLab und BitBucket, um Ihren Entwicklungsweg mühelos und produktiv zu gestalten."
