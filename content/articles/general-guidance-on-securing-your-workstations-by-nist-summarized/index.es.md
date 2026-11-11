@@ -1,10 +1,11 @@
 ---
 title: "Protección de los puestos de trabajo: Guía basada en las recomendaciones del NIST"
 date: 2023-02-14
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Aprenda a asegurar sus estaciones de trabajo y a proteger la información confidencial con esta completa guía basada en las recomendaciones del NIST para implantar controles de acceso estrictos, mantener el software actualizado, utilizar software antivirus, activar la protección mediante cortafuegos, implantar el cifrado de datos y realizar copias de seguridad periódicas."
-tags: ["Recomendaciones del NIST", "seguridad del puesto de trabajo", "ciberseguridad", "encriptación de datos", "protección firewall", "antivirus software", "controles de acceso", "información sensible", "ciberataques", "copia de seguridad de datos"]
+description: "Proteja las estaciones de trabajo según el NIST: controles de acceso, actualizaciones, antivirus, cortafuegos, cifrado y copias de seguridad."
+tags: ["Recomendaciones del NIST", "seguridad del puesto de trabajo", "ciberseguridad", "encriptación de datos", "protección mediante cortafuegos", "software antivirus", "controles de acceso", "información sensible", "ciberataques", "copia de seguridad de datos"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Imagen de una persona sentada en su puesto de trabajo con un candado de seguridad en primer plano, que indica la importancia de proteger los puestos de trabajo."
 coverCaption: ""
@@ -24,7 +25,7 @@ Las directrices del NIST sobre la seguridad de las estaciones de trabajo proporc
 
 ### 1. Implantar controles de acceso estrictos
 
-Las organizaciones deben **implantar fuertes controles de acceso** para garantizar que sólo las personas autorizadas tengan acceso a las estaciones de trabajo y a la información sensible. Esto incluye la implementación de contraseñas seguras, autenticación de dos factores y restricción de privilegios administrativos a unos pocos individuos.
+Las organizaciones deben **implantar fuertes controles de acceso** para garantizar que sólo las personas autorizadas tengan acceso a las estaciones de trabajo y a la información sensible. Esto incluye la implementación de [contraseñas seguras](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), autenticación de dos factores y restricción de privilegios administrativos a unos pocos individuos.
 
 ### 2. Mantenga el software actualizado
 

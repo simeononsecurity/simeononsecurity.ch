@@ -1,16 +1,17 @@
 ---
 title: "Proteggere le postazioni di lavoro: Una guida basata sulle raccomandazioni del NIST"
 date: 2023-02-14
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Imparate a mettere in sicurezza le vostre postazioni di lavoro e a proteggere le informazioni sensibili con questa guida completa basata sulle raccomandazioni del NIST per l'implementazione di forti controlli di accesso, l'aggiornamento del software, l'utilizzo di software antivirus, l'attivazione di una protezione firewall, l'implementazione della crittografia dei dati e il backup regolare dei dati."
+description: "Proteggi le postazioni di lavoro secondo le indicazioni NIST su accessi, aggiornamenti, antivirus, firewall, crittografia e backup."
 tags: ["Raccomandazioni del NIST", "sicurezza della postazione di lavoro", "sicurezza informatica", "crittografia dei dati", "protezione firewall", "software antivirus", "controlli di accesso", "informazioni sensibili", "attacchi informatici", "backup dei dati"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Un'immagine di una persona seduta alla propria postazione di lavoro con un lucchetto di sicurezza in primo piano, a indicare l'importanza di proteggere le postazioni di lavoro."
 coverCaption: ""
 ---
 
-Le workstation, ovvero i desktop, i laptop e i dispositivi mobili utilizzati dai dipendenti di un'organizzazione, sono sempre più spesso bersaglio di attacchi informatici. Questi attacchi possono compromettere la riservatezza, l'integrità e la disponibilità di informazioni sensibili, con conseguenti danni finanziari e di reputazione. Per aiutare le organizzazioni a proteggere le proprie postazioni di lavoro, il National Institute of Standards and Technology (NIST) ha pubblicato la NIST Special Publication 800-46 Revision 2, "General Guidance on Securing Workstations".
+Le workstation, ovvero i desktop, i laptop e i dispositivi mobili utilizzati dai dipendenti di un'organizzazione, sono sempre più spesso bersaglio di attacchi informatici. Questi attacchi possono compromettere la riservatezza, l'integrità e la disponibilità di informazioni sensibili, con conseguenti perdite finanziarie e danni reputazionali. Per aiutare le organizzazioni a proteggere le proprie postazioni di lavoro, il National Institute of Standards and Technology (NIST) ha pubblicato la NIST Special Publication 800-46 Revision 2, "General Guidance on Securing Workstations".
 
 ## Comprendere il panorama delle minacce per le workstation
 
@@ -24,7 +25,7 @@ La guida del NIST sulla sicurezza delle postazioni di lavoro fornisce alle organ
 
 ### 1. Implementare forti controlli di accesso
 
-Le organizzazioni devono **implementare controlli di accesso forti** per garantire che solo le persone autorizzate abbiano accesso alle postazioni di lavoro e alle informazioni sensibili. Ciò include l'implementazione di password forti, l'autenticazione a due fattori e la limitazione dei privilegi amministrativi a pochi individui selezionati.
+Le organizzazioni devono **implementare controlli di accesso forti** per garantire che solo le persone autorizzate abbiano accesso alle postazioni di lavoro e alle informazioni sensibili. Ciò include l'implementazione di [password robuste](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), l'autenticazione a due fattori e la limitazione dei privilegi amministrativi a pochi individui selezionati.
 
 ### 2. Mantenere il software aggiornato
 

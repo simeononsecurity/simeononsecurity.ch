@@ -1,10 +1,11 @@
 ---
 title: "Zabezpieczanie stacji roboczych: Przewodnik oparty na zaleceniach NIST"
 date: 2023-02-14
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Dowiedz się, jak zabezpieczyć stacje robocze i chronić wrażliwe informacje dzięki temu kompleksowemu przewodnikowi opartemu na zaleceniach NIST dotyczących wdrażania silnej kontroli dostępu, utrzymywania aktualnego oprogramowania, korzystania z oprogramowania antywirusowego, włączania ochrony firewall, wdrażania szyfrowania danych i regularnego tworzenia kopii zapasowych danych."
-tags: ["Zalecenia NIST", "bezpieczeństwo stacji roboczych", "cybersecurity", "szyfrowanie danych", "ochrona firewalla", "oprogramowanie antywirusowe", "kontrole dostępu", "informacje wrażliwe", "cyberataki", "kopia zapasowa danych"]
+description: "Zabezpiecz stacje robocze zgodnie z zaleceniami NIST dotyczącymi kontroli dostępu, aktualizacji, antywirusa, zapór, szyfrowania i kopii zapasowych."
+tags: ["Zalecenia NIST", "bezpieczeństwo stacji roboczych", "cyberbezpieczeństwo", "szyfrowanie danych", "ochrona zapory sieciowej", "oprogramowanie antywirusowe", "kontrole dostępu", "informacje wrażliwe", "cyberataki", "kopia zapasowa danych"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Obraz osoby siedzącej przy swoim stanowisku pracy z zamkiem bezpieczeństwa na pierwszym planie, wskazujący na znaczenie zabezpieczenia stanowisk pracy."
 coverCaption: ""
@@ -24,7 +25,7 @@ Wytyczne NIST dotyczące zabezpieczania stacji roboczych dostarczają organizacj
 
 ### 1. Wdrożenie silnej kontroli dostępu
 
-Organizacje powinny **wdrożyć silną kontrolę dostępu**, aby zapewnić, że tylko upoważnione osoby mają dostęp do stacji roboczych i wrażliwych informacji. Obejmuje to wdrożenie silnych haseł, dwuskładnikowego uwierzytelniania i ograniczenie uprawnień administracyjnych do wybranych osób.
+Organizacje powinny **wdrożyć silną kontrolę dostępu**, aby zapewnić, że tylko upoważnione osoby mają dostęp do stacji roboczych i wrażliwych informacji. Obejmuje to wdrożenie [silnych haseł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), dwuskładnikowego uwierzytelniania i ograniczenie uprawnień administracyjnych do wybranych osób.
 
 ### 2. Aktualizuj oprogramowanie
 
@@ -40,7 +41,7 @@ Organizacje powinny **włączyć ochronę firewall na wszystkich stacjach robocz
 
 ### 5. Wdrożenie szyfrowania danych
 
-Organizacje powinny **wdrożyć szyfrowanie danych w celu ochrony wrażliwych informacji przechowywanych na stacjach roboczych**. Obejmuje to szyfrowanie danych w stanie spoczynku i w tranzycie.
+Organizacje powinny **wdrożyć szyfrowanie danych w celu ochrony wrażliwych informacji przechowywanych na stacjach roboczych**. Obejmuje to szyfrowanie danych tijdens opslag en overdracht.
 
 ### 6. Regularne tworzenie kopii zapasowych danych
 
