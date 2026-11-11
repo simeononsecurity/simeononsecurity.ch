@@ -1,42 +1,42 @@
 ---
-title: "Metodi approvati dal NIST per la sanificazione dei dispositivi multimediali rimovibili"
+title: "Metodi approvati dal NIST per la sanificazione dei supporti rimovibili"
 date: 2023-02-11
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Scoprite i metodi approvati dal NIST per sanificare dischi rigidi, SSD, unità flash USB, CD, DVD e dischi Blu-ray per proteggere i dati sensibili da accessi non autorizzati."
+description: "Scopri i metodi NIST per sanificare dischi rigidi, SSD, unità USB, CD, DVD e Blu-ray e proteggere i dati sensibili dagli accessi non autorizzati."
 tags: ["Metodi approvati dal NIST", "Sanificazione dei supporti rimovibili", "Dischi rigidi", "SSD", "Unità flash USB", "CD", "DVD", "Dischi Blu-ray", "Sicurezza dei dati", "Protezione dei dati sensibili"]
 cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
-coverAlt: "Un'immagine di una persona che tiene in mano una chiavetta USB con un distruggidocumenti sullo sfondo"
+coverAlt: "Una persona tiene in mano un'unità flash USB, con un distruggidocumenti sullo sfondo."
 coverCaption: ""
 ---
 
-I supporti rimovibili, come dischi rigidi, unità a stato solido (SSD), unità flash USB, CD, DVD e dischi Blu-ray, sono parte integrante del mondo digitale di oggi. Questi dispositivi sono ampiamente utilizzati per archiviare e trasferire dati sensibili ed è fondamentale garantire che le informazioni in essi contenute non vengano divulgate o accessibili a persone non autorizzate. In questo articolo discuteremo i metodi approvati dal NIST per sanificare tutti i tipi di supporti rimovibili.
+I supporti rimovibili, come dischi rigidi, unità a stato solido (SSD), unità flash USB, CD, DVD e dischi Blu-ray, fanno parte del mondo digitale attuale. Sono usati spesso per archiviare e trasferire dati sensibili. È quindi essenziale impedire che le informazioni contenute vengano divulgate o consultate da persone non autorizzate. Questo articolo illustra i metodi approvati dal NIST per sanificare ogni tipo di supporto rimovibile.
 
 ## Perché sanificare i supporti rimovibili?
 
-**La sanificazione dei supporti rimovibili è essenziale perché i dati memorizzati su questi dispositivi possono essere facilmente recuperati, anche se sono stati cancellati **Questo perché quando i dati vengono cancellati, viene rimosso solo il riferimento ai dati, ma i dati effettivi rimangono sul disco finché non vengono sovrascritti. Questo rende possibile per i malintenzionati recuperare i dati sensibili utilizzando un software di recupero dati.
+**La sanificazione dei supporti rimovibili è essenziale perché i dati salvati su questi dispositivi possono essere recuperati facilmente, anche dopo la cancellazione.** Quando si eliminano i dati, viene rimosso solo il riferimento. I dati effettivi restano sul disco finché non vengono sovrascritti. Di conseguenza, soggetti malintenzionati possono recuperarli con un software apposito.
 
-## NIST 800-88 Revisione 1 Tipi di distruzione
+## Tipi di distruzione in NIST 800-88 Revision 1
 
-Il National Institute of Standards and Technology (NIST) ha pubblicato una linea guida per la sanificazione dei supporti rimovibili, nota come NIST Special Publication 800-88 Revision 1. La linea guida illustra diversi metodi per la distruzione dei dati. La linea guida descrive diversi metodi per la sanificazione dei supporti rimovibili, tra cui la distruzione fisica, la cancellazione e l'epurazione.
+Il National Institute of Standards and Technology (NIST) ha pubblicato una linea guida per la sanificazione dei supporti rimovibili, chiamata NIST Special Publication 800-88 Revision 1. Descrive diversi metodi, tra cui la distruzione fisica, Clear e Purge.
 
 ### Distruzione fisica
 
-**La distruzione fisica è il metodo più sicuro di sanificazione dei supporti rimovibili ** Questo metodo prevede la distruzione fisica del dispositivo, rendendo impossibile il recupero dei dati. La distruzione fisica può essere ottenuta distruggendo, fondendo o polverizzando il dispositivo.
+**La distruzione fisica è il metodo più sicuro per sanificare i supporti rimovibili.** Consiste nel distruggere fisicamente il dispositivo, così nessuno può recuperarne i dati. Si può triturare, fondere o polverizzare il dispositivo.
 
-### Cancellazione
+### Clear (cancellazione)
 
-La cancellazione è il processo di sovrascrittura dei dati su un dispositivo con una serie di valori binari. Questo metodo è meno sicuro della distruzione fisica, ma è comunque efficace per sanificare la maggior parte dei supporti rimovibili. NIST 800-88 Revisione 1 raccomanda di utilizzare uno strumento software che soddisfi gli standard stabiliti dal Dipartimento della Difesa (DoD). [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specifiche.
+Clear consiste nel sovrascrivere i dati del dispositivo con una sequenza di valori binari. È meno sicuro della distruzione fisica, ma resta efficace per sanificare la maggior parte dei supporti rimovibili. NIST 800-88 Revision 1 raccomanda uno strumento software conforme ai requisiti della specifica [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) del Dipartimento della Difesa degli Stati Uniti.
 
-### Spurgo
+### Purge
 
-L'epurazione è il processo di sovrascrittura dei dati su un dispositivo più volte con uno schema di valori binari. Questo metodo è più sicuro della cancellazione ed è consigliato per la sanificazione dei dati sensibili. Il NIST 800-88 Revisione 1 raccomanda l'utilizzo di uno strumento software che soddisfi gli standard stabiliti dall'Agenzia per la Sicurezza Nazionale (NIST). [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specifiche.
+Purge consiste nel sovrascrivere più volte i dati del dispositivo con uno schema di valori binari. È più sicuro di Clear ed è consigliato per i dati sensibili. NIST 800-88 Revision 1 raccomanda uno strumento software conforme ai requisiti della specifica [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/).
 
 __________________________________________
 
 ## Conclusione
 
-In conclusione, la **sanitizzazione dei supporti rimovibili è fondamentale per garantire che i dati sensibili memorizzati su questi dispositivi non vengano divulgati o accessibili a persone non autorizzate.** Il NIST 800-88 Revisione 1 fornisce le linee guida per la sanitizzazione di tutti i tipi di supporti rimovibili, tra cui dischi rigidi, SSD, unità flash USB, CD, DVD e dischi Blu-ray, tra cui la distruzione fisica, la cancellazione e l'epurazione. **La distruzione fisica è il metodo più sicuro per la sanificazione dei supporti rimovibili, ma anche la cancellazione e l'epurazione sono metodi efficaci che garantiscono un elevato livello di sicurezza.**
+In sintesi, **sanificare i supporti rimovibili è essenziale per evitare che i dati sensibili memorizzati su questi dispositivi vengano divulgati o consultati da persone non autorizzate.** NIST 800-88 Revision 1 fornisce indicazioni per sanificare tutti i tipi di supporti rimovibili, inclusi dischi rigidi, SSD, unità flash USB, CD, DVD e dischi Blu-ray, attraverso distruzione fisica, Clear e Purge. **La distruzione fisica è il metodo più sicuro, ma anche Clear e Purge sono efficaci e garantiscono un livello elevato di sicurezza.**
 
-**È importante notare che l'igienizzazione dei supporti rimovibili è solo un aspetto di una strategia completa di sicurezza dei dati ** Per garantire la protezione dei dati sensibili è necessario implementare anche altre misure, come la crittografia e l'archiviazione sicura dei dati.
-
+**La sanificazione dei supporti rimovibili è solo una parte di una strategia completa per la sicurezza dei dati.** Occorre applicare anche altre misure, come la crittografia e l'archiviazione sicura, per proteggere i dati sensibili.
