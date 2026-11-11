@@ -1,9 +1,10 @@
 ---
 title: "Proteja sus aplicaciones web con OWASP ASVS"
 date: 2023-04-03
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Aprenda a proteger sus aplicaciones web utilizando el estándar de verificación de seguridad de aplicaciones (ASVS) de OWASP para cumplir las medidas de seguridad más rigurosas y protegerse contra las vulnerabilidades más comunes."
+description: "Organice con OWASP ASVS los requisitos de seguridad, las pruebas y las evidencias de verificación de aplicaciones web."
 tags: ["seguridad de las aplicaciones web", "OWASP", "ASVS", "seguridad de las aplicaciones", "normas de seguridad", "ciberseguridad", "gestión de vulnerabilidades", "codificación segura", "pruebas de penetración", "modelización de amenazas", "controles de seguridad", "evaluación de la seguridad", "pruebas de seguridad automatizadas", "pruebas de seguridad manuales", "ciclo de desarrollo seguro", "buenas prácticas de seguridad", "seguridad de los datos", "gestión de riesgos", "conformidad", "seguridad de la información"]
 cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "Un escudo blindado con las letras ASVS en negrita, con el escudo protegiendo una aplicación web detrás"
@@ -46,7 +47,7 @@ Este nivel está reservado para aplicaciones con los requisitos de seguridad má
 
 ______
 
-## Implementando OWASP ASVS en su Aplicación Web
+## Implementar OWASP ASVS en su aplicación web
 
 ### Paso 1: Determinar el perfil de riesgo de su aplicación
 
@@ -54,11 +55,11 @@ Identifique las **amenazas y riesgos** asociados con su aplicación para determi
 
 ### Paso 2: Revisar los requisitos ASVS
 
-Familiarícese con los requisitos ASVS para el nivel de verificación elegido. En [ASVS github](https://github.com/OWASP/ASVS) ofrece información detallada sobre cada requisito y los controles de seguridad asociados.
+Familiarícese con los requisitos ASVS para el nivel de verificación elegido. La página de [ASVS en GitHub](https://github.com/OWASP/ASVS) ofrece información detallada sobre cada requisito y los controles de seguridad asociados.
 
-### Paso 3: Integre la seguridad en su proceso de desarrollo.
+### Paso 3: Integrar la seguridad en el proceso de desarrollo
 
-Incorpore las mejores prácticas de seguridad en todo el ciclo de vida del desarrollo, incluidos el diseño, la codificación, las pruebas y la implantación. Utilice herramientas como [OWASP ZAP](https://www.zaproxy.org/) for automated security testing and [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) para identificar vulnerabilidades en bibliotecas de terceros.
+Incorpore las mejores prácticas de seguridad en todo el ciclo de vida del desarrollo, incluidos el diseño, la codificación, las pruebas y la implantación. Utilice herramientas como [OWASP ZAP](https://www.zaproxy.org/) para realizar pruebas de seguridad automatizadas y [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) para identificar vulnerabilidades en bibliotecas de terceros.
 
 ### Paso 4: Realizar evaluaciones de seguridad
 
@@ -76,7 +77,7 @@ El OWASP ASVS proporciona un marco robusto para asegurar aplicaciones web. Al im
 
 ### Referencias
 
-- [OWASP ASVS github](https://github.com/OWASP/ASVS)
+- [OWASP ASVS en GitHub](https://github.com/OWASP/ASVS)
 - [OWASP ZAP](https://www.zaproxy.org/)
 - [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
 - [NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)

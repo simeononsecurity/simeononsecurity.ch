@@ -1,34 +1,35 @@
 ---
 title: "OWASP ASVSによるWebアプリケーションの安全性確保"
 date: 2023-04-03
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "OWASP Application Security Verification Standard (ASVS)を使用して、最も厳格なセキュリティ対策を満たし、一般的な脆弱性から保護するために、Webアプリケーションを保護する方法を学びます。"
-tags: ["ウェブアプリケーションセキュリティ", "オワスプ", "エーエスブイエス", "アプリケーションセキュリティ", "安全保護基準", "サイバーセキュリティ", "脆弱性管理", "えんぎ", "侵入テスト", "スレットモデリング", "セキュリティ制御", "セキュリティアセスメント", "自動化セキュリティ試験", "手動セキュリティテスト", "安全な開発ライフサイクル", "セキュリティベストプラクティス", "データ機密保護", "リスクマネージメント", "コンプライアンス", "情報セキュリティ"]
+description: "OWASP ASVSを使って、Webアプリケーションのセキュリティ要件、テスト、検証証跡を整理する方法を説明します。"
+tags: ["ウェブアプリケーションセキュリティ", "OWASP", "ASVS", "アプリケーションセキュリティ", "セキュリティ標準", "サイバーセキュリティ", "脆弱性管理", "安全なコーディング", "侵入テスト", "脅威モデリング", "セキュリティ制御", "セキュリティアセスメント", "自動セキュリティテスト", "手動セキュリティテスト", "安全な開発ライフサイクル", "セキュリティベストプラクティス", "データセキュリティ", "リスク管理", "コンプライアンス", "情報セキュリティ"]
 cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
-coverAlt: "ASVS」の文字を太字にした装甲の盾、その後ろにWebアプリケーションを守る盾がある"
+coverAlt: "ASVSの文字を太字で描いた装甲の盾が、その背後にあるWebアプリケーションを守っています。"
 coverCaption: ""
 ---
 
-**OWASP Application Security Verification Standard**でWebアプリケーションを保護する方法。
+**OWASP Application Security Verification Standard (ASVS)**でWebアプリケーションを保護する方法。
 
 ______
 
 ## 序章
 
-OWASP Application Security Verification Standard (ASVS)**は、ウェブアプリケーションを保護するための包括的なフレームワークです。ベストプラクティスを概説し、開発者とセキュリティ専門家が安全なWebアプリケーションを構築し維持するための明確なロードマップを提供します。この記事では、アプリケーションのセキュリティを強化するために、ASVSを実装するためのプロセスを説明します。
+**OWASP Application Security Verification Standard (ASVS)**は、ウェブアプリケーションを保護するための包括的なフレームワークです。ベストプラクティスを概説し、開発者とセキュリティ専門家が安全なWebアプリケーションを構築し維持するための明確なロードマップを提供します。この記事では、アプリケーションのセキュリティを強化するために、ASVSを実装するためのプロセスを説明します。
 
 ______
 
 ## OWASP ASVSを理解する
 
-は、その[OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)は、ウェブアプリケーションセキュリティの標準を定義するコミュニティ主導のプロジェクトです。4つの検証レベル**で構成され、アプリケーションの安全性を段階的に高めるベースラインを提供し、組織はニーズに最も適したレベルを選択することができます。
+[OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)は、ウェブアプリケーションのセキュリティ基準を定めるコミュニティ主導のプロジェクトです。**4つの検証レベル**で構成され、アプリケーションの安全性を段階的に高めるベースラインを提供し、組織はニーズに最も適したレベルを選択することができます。
 
 ______
 
 ## 4つの検証レベル
 
-### レベル1：機会的
+### レベル1：機会主義的
 
 このレベルは、低リスクのアプリケーションを対象とし、基本的なセキュリティの基礎を提供します。一般的な脆弱性を特定し、緩和するための**自動化されたセキュリティテスト**が含まれます。
 
@@ -50,15 +51,15 @@ ______
 
 ### ステップ1：アプリケーションのリスクプロファイルを決定する
 
-ASVS 検証の適切なレベルを決定するために、アプリケーションに関連する **脅威とリスク** を特定します。アプリケーションが扱うデータの種類、セキュリティ侵害の潜在的な影響、規制要件などの要因を考慮する。
+ASVS検証の適切なレベルを決めるため、アプリケーションに関する**脅威とリスク**を特定します。アプリケーションが扱うデータの種類、セキュリティ侵害の潜在的な影響、規制要件などの要因を考慮する。
 
 ### ステップ2：ASVSの要件を確認する
 
-選択した検証レベルの ASVS 要件をよく理解する。その[ASVS github](https://github.com/OWASP/ASVS)は、各要件と関連するセキュリティ対策に関する詳細な情報を提供します。
+選択した検証レベルの ASVS 要件をよく理解する。[ASVSのGitHubページ](https://github.com/OWASP/ASVS)には、各要件と関連するセキュリティ対策の詳細が記載されています。
 
 ### ステップ 3: セキュリティを開発プロセスに組み込む
 
-設計、コーディング、テスト、デプロイメントなど、開発ライフサイクル全体を通じてセキュリティのベストプラクティスを取り入れる。以下のようなツールを活用する。[OWASP ZAP](https://www.zaproxy.org/) for automated security testing and [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)サードパーティライブラリの脆弱性を特定するために。
+設計、コーディング、テスト、デプロイメントなど、開発ライフサイクル全体を通じてセキュリティのベストプラクティスを取り入れる。[OWASP ZAP](https://www.zaproxy.org/)で自動セキュリティテストを実施し、[OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)でサードパーティ製ライブラリの脆弱性を検出します。
 
 ### ステップ4：セキュリティ診断の実施
 
@@ -72,11 +73,11 @@ ______
 
 ## 結論
 
-OWASP ASVS は、Web アプリケーションを保護するための強固なフレームワークを提供します。ASVS を実装することで、開発ライフサイクルの早い段階で脆弱性を特定し対処することができ、アプリケーションの寿命が尽きるまで安全であることを保証することができます。この記事で説明したステップに従うことで、Webアプリケーションのセキュリティを強化し、ユーザーのデータを保護することができます。
+OWASP ASVS は、Web アプリケーションを保護するための強固なフレームワークを提供します。ASVS を実装することで、開発ライフサイクルの早い段階で脆弱性を特定し対処することができ、アプリケーションのライフサイクル全体を通じて安全性を保つことができます。この記事で説明したステップに従うことで、Webアプリケーションのセキュリティを強化し、ユーザーのデータを保護することができます。
 
 ### 参考文献
 
--[OWASP ASVS github](https://github.com/OWASP/ASVS)
--[OWASP ZAP](https://www.zaproxy.org/)
--[OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
--[NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
+- [OWASP ASVSのGitHub](https://github.com/OWASP/ASVS)
+- [OWASP ZAP](https://www.zaproxy.org/)
+- [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
+- [NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
