@@ -3,8 +3,9 @@ title: "了解勒索软件威胁：预防措施"
 draft: false
 toc: true
 date: 2023-05-09
+lastmod: 2026-11-11
 description: "了解勒索软件威胁以及您可以采取的防范措施。"
-tags: ["勒索软件", "网络安全", "预防", "后援", "杀毒", "虚拟专用网", "多因素认证", "政府法规", "网络钓鱼", "社会工程", "恶意代码", "网络犯罪", "数据安全", "网络安全", "网络攻击", "加密", "网络卫生", "事件响应", "数据保护", "网络意识"]
+tags: ["勒索软件", "网络安全", "预防", "数据备份", "杀毒软件", "虚拟专用网络", "多因素认证", "政府法规", "网络钓鱼", "社会工程", "恶意软件", "网络犯罪", "数据安全", "网络防护", "网络攻击", "加密", "网络安全习惯", "事件响应", "数据保护", "网络安全意识"]
 cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "一台电脑上挂着锁和链条，象征着勒索软件对数据的加密。"
 coverCaption: ""
@@ -18,7 +19,7 @@ coverCaption: ""
 
 勒索软件已经存在了十多年。第一个已知的勒索软件诞生于 1989 年，被称为 AIDS 木马，通过软盘传播。然而，直到比特币和其他加密货币兴起，勒索软件攻击才变得更加普遍。
 
-加密货币允许黑客匿名接收赎金，使执法部门难以追踪他们。根据 [Cybersecurity Ventures](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.)据估计，到 2021 年，勒索软件将在全球范围内造成 200 亿美元的损失，高于 2019 年的 115 亿美元。
+加密货币允许攻击者匿名接收赎金，使执法部门难以追踪他们。据 [Cybersecurity Ventures 报告](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.)估计，2021 年勒索软件在全球造成的损失为 200 亿美元，高于 2019 年的 115 亿美元。
 
 ## 勒索软件如何运作
 
@@ -28,25 +29,25 @@ coverCaption: ""
 
 ## 勒索软件的影响
 
-勒索软件攻击已影响到世界各地的个人、企业和政府。2021 年 [Colonial Pipeline ransomware attack](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack)美国一些州的汽油短缺和价格上涨。
+勒索软件攻击影响了世界各地的个人、企业和政府。2021 年，美国的[Colonial Pipeline 勒索软件攻击](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack)导致多个州出现汽油短缺和价格上涨。
 
-2017 年，美国 [WannaCry ransomware attack](https://www.cisa.gov/wannacry)影响了 150 个国家的 20 多万台电脑，造成了重大经济损失。这次攻击的目标是运行过时版本微软视窗的计算机，并利用了视窗操作系统中的一个漏洞。
+2017 年，[WannaCry 勒索软件攻击](https://www.cisa.gov/wannacry)影响了 150 个国家的 20 多万台电脑，造成重大经济损失。这次攻击的目标是运行过时版本微软视窗的计算机，并利用了视窗操作系统中的一个漏洞。
 
 ## 预防措施
 
 预防措施可以帮助个人和组织防范勒索软件攻击。以下是一些值得考虑的预防措施：
 
-- [**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)如果发生勒索软件攻击，定期数据备份有助于恢复数据。
+- [**定期备份数据:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)如果发生勒索软件攻击，定期数据备份有助于恢复数据。
 
-- [**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/)使用最新的安全补丁更新所有软件，包括操作系统和应用程序。
+- [**及时更新软件:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/)使用最新的安全补丁更新所有软件，包括操作系统和应用程序。
 
-- [**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus)安装并使用杀毒软件来检测和预防勒索软件攻击。
+- [**使用防病毒软件:**](https://simeononsecurity.com/recommendations/anti-virus)安装并使用杀毒软件来检测和预防勒索软件攻击。
 
-- [**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/)教育员工如何识别和避免网络钓鱼电子邮件和其他类型的社交工程攻击。
+- [**培训员工:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/)教育员工如何识别和避免网络钓鱼电子邮件和其他类型的社交工程攻击。
 
-- [**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA)以防止未经授权访问账户。
+- [**使用多因素身份验证:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) 使用多因素身份验证（MFA）以防止未经授权访问账户。
 
-- [**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/)使用 VPN 加密互联网流量，防范网络攻击。
+- [**使用虚拟专用网络（VPN）:**](https://simeononsecurity.com/recommendations/vpns/)使用 VPN 加密互联网流量，防范网络攻击。
 
 ## 结论
 
@@ -56,6 +57,6 @@ coverCaption: ""
 
 
 ## 参考文献
- [cybersecurityventures.com - Global Ransomware Damage Costs Predicted To Reach $20 Billion (USD) By 2021](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.)
+- [cybersecurityventures.com - Global Ransomware Damage Costs Predicted To Reach $20 Billion (USD) By 2021](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.)
 - [NCCIC - WHAT IS WANNACRY/WANACRYPT0R?](https://www.cisa.gov/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf)
 - [Wikipedia - Colonial Pipeline ransomware attack](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack)
