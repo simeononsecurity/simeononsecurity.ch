@@ -1,17 +1,17 @@
 ---
 title: "Blocco del credito o allerta frodi: proteggersi dal furto d'identità"
 date: 2023-02-15
-lastmod: 2026-10-21
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Proteggete il vostro credito da accessi non autorizzati combinando il blocco del credito e l'avviso di frode, la soluzione più efficace per impedire ai criminali comuni di accedere al vostro rapporto di credito senza il vostro permesso."
+description: "Confrontate i blocchi del credito e gli avvisi di frode, quindi scegliete le misure di protezione adatte al rischio di furto d'identità."
 tags: ["protezione del credito", "congelamento del credito", "allarme frode", "accesso non autorizzato", "rapporto di credito", "furto d'identità", "Equifax", "Experian", "TransUnion", "uffici di credito", "massima protezione"]
 cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Una persona che tiene in mano una carta di credito con il simbolo del lucchetto per rappresentare la protezione del credito."
 coverCaption: ""
 ---
 
-Gli **allarmi antifrode** e il **congelamento del credito** sono due misure importanti che potete adottare per proteggere il vostro credito da accessi non autorizzati. Mentre il congelamento del credito vieta un controllo del credito, l'avviso di frode chiede semplicemente al creditore di effettuare ulteriori verifiche prima di concedere il credito. In questo articolo analizzeremo i vantaggi della combinazione di un blocco del credito e di un avviso di frode per massimizzare la protezione del vostro credito.
+Gli **allarmi antifrode** e il **congelamento del credito** sono due misure importanti che potete adottare per proteggere il vostro credito da accessi non autorizzati. Mentre il congelamento del credito vieta una richiesta di credito con verifica approfondita, l'avviso di frode chiede semplicemente al creditore di effettuare ulteriori verifiche prima di concedere il credito. In questo articolo analizzeremo i vantaggi della combinazione di un blocco del credito e di un avviso di frode per massimizzare la protezione del vostro credito.
 
 ## Che cos'è il blocco del credito?
 
@@ -29,7 +29,7 @@ ____________________
 
 ## Come impostare una combinazione di congelamento e allarme
 
-L'impostazione di un blocco del credito e di un avviso di frode è semplice e può essere effettuata online in pochi minuti. Per impostare un blocco del credito, visitate i siti web di Equifax[https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html), and TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) e seguire le istruzioni per congelare il credito. Per impostare un avviso di frode, visitate gli stessi siti web e selezionate l'opzione di avviso di frode esteso a 7 anni. Se siete vittime di un furto d'identità, potreste avere diritto a un avviso di frode di 7 anni, ma potrebbe essere necessaria una prova del furto d'identità, come una denuncia alla polizia.
+L'impostazione di un blocco del credito e di un avviso di frode è semplice e può essere effettuata online in pochi minuti. Per impostare un blocco del credito, visitate i siti web di Equifax [https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html) e TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) e seguire le istruzioni per congelare il credito. Per impostare un avviso di frode, visitate gli stessi siti web e selezionate l'opzione di avviso di frode esteso a 7 anni. Se siete vittime di un furto d'identità, potreste avere diritto a un avviso di frode di 7 anni, ma potrebbe essere necessaria una prova del furto d'identità, come una denuncia alla polizia.
 
 ____________________
 

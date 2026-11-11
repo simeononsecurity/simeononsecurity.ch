@@ -1,10 +1,10 @@
 ---
 title: "Gel du crédit ou alerte à la fraude : se protéger du vol d'identité"
 date: 2023-02-15
-lastmod: 2026-10-21
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Protégez votre crédit contre tout accès non autorisé en combinant un gel de crédit et une alerte à la fraude, la solution la plus efficace pour dissuader les criminels ordinaires d'accéder à votre dossier de crédit sans votre permission."
+description: "Comparez les gels de crédit et les alertes à la fraude, puis choisissez les mesures de protection adaptées au risque de vol d'identité."
 tags: ["protection du crédit", "gel du crédit", "alerte à la fraude", "accès non autorisé", "rapport de solvabilité", "vol d'identité", "Equifax", "Experian", "TransUnion", "bureaux de crédit", "protection maximale"]
 cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Une personne tenant une carte de crédit sur laquelle figure le symbole d'un cadenas représentant la protection du crédit."
@@ -29,7 +29,7 @@ ____________________
 
 ## Comment mettre en place une combinaison de gel et d'alerte
 
-La mise en place d'un gel de crédit et d'une alerte à la fraude est simple et peut être effectuée en ligne en quelques minutes. Pour mettre en place un gel de crédit, visitez les sites Web d'Equifax [https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html), and TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) et suivez les instructions pour geler votre crédit. Pour mettre en place une alerte à la fraude, visitez les mêmes sites web et sélectionnez l'option d'alerte à la fraude prolongée de 7 ans. Si vous êtes victime d'une usurpation d'identité, vous pouvez bénéficier d'une alerte à la fraude de 7 ans, mais une preuve de l'usurpation d'identité, telle qu'un rapport de police, peut être exigée.
+La mise en place d'un gel de crédit et d'une alerte à la fraude est simple et peut être effectuée en ligne en quelques minutes. Pour mettre en place un gel de crédit, visitez les sites Web d'Equifax [https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html) et TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) et suivez les instructions pour geler votre crédit. Pour mettre en place une alerte à la fraude, visitez les mêmes sites web et sélectionnez l'option d'alerte à la fraude prolongée de 7 ans. Si vous êtes victime d'une usurpation d'identité, vous pouvez bénéficier d'une alerte à la fraude de 7 ans, mais une preuve de l'usurpation d'identité, telle qu'un rapport de police, peut être exigée.
 
 ____________________
 
