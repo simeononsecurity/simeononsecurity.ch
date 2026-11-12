@@ -46,7 +46,10 @@
   different older dates, so verify the complete changed-file set instead of
   replacing only one known date value.
 - Protect code and markup before automated translation. Validate the exact
-  placeholder counts before restoring the protected source text.
+  placeholder counts before restoring the protected source text. Restore symbolic
+  placeholders by exact token match. When names share prefixes, replace longer tokens
+  first or use a token-aware mapping. For example, restore `@academy_home` before
+  `@academy`, then compare restored ordered URL targets with the source.
 - Use exact phrase or word-boundary substitutions for terminology. Do not
   replace substrings inside other words. For example, matching `laybooks` inside
   `playbooks` changes the correct technical term.
