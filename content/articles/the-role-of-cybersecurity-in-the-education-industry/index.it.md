@@ -1,6 +1,7 @@
 ---
 title: "Proteggere l'istruzione: Il ruolo della sicurezza informatica nella protezione dei dati degli studenti"
 date: 2023-03-28
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Scoprite l'importanza della sicurezza informatica nel settore dell'istruzione e imparate a proteggere i dati sensibili degli studenti."
@@ -14,7 +15,7 @@ coverCaption: ""
 
 ## Introduzione
 
-Negli ultimi anni, il **settore dell'istruzione** è diventato sempre più dipendente dalle tecnologie digitali. Questo cambiamento ha portato alla necessità di misure di **cybersecurity** più solide per proteggere i dati sensibili degli **studenti** dalle minacce informatiche. Questo articolo analizza l'importanza della sicurezza informatica nel settore dell'istruzione e fornisce misure pratiche per salvaguardare le informazioni degli studenti.
+Negli ultimi anni, il **settore dell'istruzione** è diventato sempre più dipendente dalle tecnologie digitali. Questo cambiamento ha portato alla necessità di misure di **sicurezza informatica** più solide per proteggere i dati sensibili degli **studenti** dalle minacce informatiche. Questo articolo analizza l'importanza della sicurezza informatica nel settore dell'istruzione e fornisce misure pratiche per salvaguardare le informazioni degli studenti.
 
 ______
 
@@ -82,9 +83,10 @@ ______
 
 ## Riferimenti
 
-1.[National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-2.[Family Educational Rights and Privacy Act (FERPA)](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
-3.[Higher Education Information Security Council (HEISC)](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program)
-4.[Internet2](https://www.internet2.edu/)
-5.[SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
+1. [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
+2. [Family Educational Rights and Privacy Act (FERPA)](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
+3. [Higher Education Information Security Council (HEISC)](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program)
+4. [Internet2](https://www.internet2.edu/)
+5. [SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
 
+lastmod: 2026-10-11

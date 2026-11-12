@@ -1,6 +1,7 @@
 ---
 title: "Обеспечение безопасности образования: Роль кибербезопасности в защите данных учащихся"
 date: 2023-03-28
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Откройте для себя важность кибербезопасности в образовательной отрасли и узнайте, как защитить конфиденциальные данные студентов."
@@ -88,3 +89,4 @@ ______
 4. [Internet2](https://www.internet2.edu/)
 5. [SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
 
+lastmod: 2026-10-11
