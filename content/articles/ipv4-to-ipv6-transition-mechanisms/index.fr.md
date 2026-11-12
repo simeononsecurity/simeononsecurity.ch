@@ -1,15 +1,16 @@
 ---
-title: "Mécanismes de transition d'IPv4 à IPv6 : Un guide complet"
+title: "Mécanismes de transition d’IPv4 à IPv6 : Un guide complet"
 date: 2023-02-18
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez les différents mécanismes utilisés pour passer d'IPv4 à IPv6 dans ce guide complet."
-tags: ["IPv4", "IPv6", "la mise en réseau", "mécanismes de transition", "double pile", "NAT64", "DNS64", "Tunnel IPv6", "ISATAP", "6to4", "DS-lite", "MAP-T", "Migration IPv6", "les protocoles de réseau", "internet protocol", "architecture du réseau", "routage", "sous-réseau", "l'adressage"]
+tags: ["IPv4", "IPv6", "la mise en réseau", "mécanismes de transition", "double pile", "NAT64", "DNS64", "Tunnel IPv6", "ISATAP", "6to4", "DS-lite", "MAP-T", "Migration IPv6", "les protocoles de réseau", "protocole internet", "architecture du réseau", "routage", "sous-réseau", "l'adressage"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp"
 coverAlt: "Dessin humoristique d'une personne se tenant à un carrefour, avec un panneau indiquant les directions IPv4 et IPv6, représentant le choix et la transition entre les deux protocoles."
 coverCaption: ""
 ---
- Mécanismes de transition vers IPv6**
+**Mécanismes de transition d’IPv4 à IPv6**
 
 Le nombre d'appareils connectés et le volume du trafic internet ne cessant d'augmenter, le monde commence à manquer d'adresses IPv4 disponibles. Le protocole IPv6 a été introduit pour résoudre ce problème et a été adopté par de nombreux réseaux, mais la transition vers IPv6 est encore en cours. Dans cet article, nous allons explorer les différents mécanismes de transition qui peuvent être utilisés pour migrer d'IPv4 à IPv6.
 
@@ -29,9 +30,9 @@ Le mécanisme de transition le plus simple consiste à faire fonctionner IPv4 et
 
 ### Traduction
 
-**La traduction est un mécanisme utilisé pour faciliter la communication entre les réseaux IPv4 et IPv6. Il existe deux types de traduction : Traduction d'adresses de réseau - Traduction de protocole (NAT-PT) et Routeur de transition de famille d'adresses (AFTR). Le **NAT-PT** traduit les paquets IPv6 en paquets IPv4 et vice versa, tandis que l'**AFTR** fournit une connectivité IPv6 aux hôtes exclusivement IPv4.
+**La traduction** est un mécanisme qui facilite la communication entre les réseaux IPv4 et IPv6. Il en existe deux types : Network Address Translation-Protocol Translation (NAT-PT) et Address Family Transition Router (AFTR). **NAT-PT** traduit les paquets IPv6 en paquets IPv4 et inversement, tandis qu’**AFTR** fournit une connectivité IPv6 aux hôtes qui utilisent uniquement IPv4.
 
-### 6ème
+### 6rd
 
 **Le déploiement rapide d'IPv6 (6rd)** est un mécanisme qui permet le déploiement rapide d'IPv6 dans un réseau IPv4. Dans le 6rd, un préfixe IPv6 est encapsulé dans un paquet IPv4 et envoyé sur le réseau IPv4. Le paquet IPv6 est ensuite décapsulé à l'autre extrémité et livré à sa destination. Ce mécanisme est utile pour les fournisseurs de services qui souhaitent déployer IPv6 rapidement et efficacement.
 

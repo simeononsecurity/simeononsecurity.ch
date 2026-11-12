@@ -1,15 +1,16 @@
 ---
-title: "Mechanizmy przejścia z IPv4 na IPv6: A Comprehensive Guide"
+title: "Mechanizmy przejścia z IPv4 na IPv6: kompletny przewodnik"
 date: 2023-02-18
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj różne mechanizmy wykorzystywane do przejścia z IPv4 na IPv6 w tym kompleksowym przewodniku."
-tags: ["IPv4", "IPv6", "tworzenie sieci", "mechanizmy przejściowe", "podwójny komin", "NAT64", "DNS64", "Tunelowanie IPv6", "ISATAP", "6to4", "DS-lite", "MAP-T", "Migracja IPv6", "protokoły sieciowe", "protokół internetowy", "architektura sieci", "routing", "podsieciowanie", "adresując"]
+tags: ["IPv4", "IPv6", "tworzenie sieci", "mechanizmy przejściowe", "podwójny stos", "NAT64", "DNS64", "Tunelowanie IPv6", "ISATAP", "6to4", "DS-lite", "MAP-T", "Migracja IPv6", "protokoły sieciowe", "protokół internetowy", "architektura sieci", "routing", "podsieciowanie", "adresowanie"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp"
 coverAlt: "Kreskówkowy obrazek osoby stojącej na skrzyżowaniu, z drogowskazem pokazującym kierunki IPv4 i IPv6, reprezentujący wybór i przejście między tymi dwoma protokołami."
 coverCaption: ""
 ---
- Mechanizmy przejścia na IPv6**
+**Mechanizmy przejścia z IPv4 na IPv6**
 
 Wraz z ciągłym wzrostem liczby podłączonych urządzeń i natężenia ruchu internetowego, na świecie zaczyna brakować dostępnych adresów IPv4. IPv6 został wprowadzony w celu rozwiązania tego problemu i został przyjęty przez wiele sieci, ale przejście na IPv6 to wciąż praca w toku. W tym artykule zbadamy różne mechanizmy przejścia, które można wykorzystać do migracji z IPv4 do IPv6.
 
@@ -21,13 +22,13 @@ Wraz z ciągłym wzrostem liczby podłączonych urządzeń i natężenia ruchu i
 
 ### Dual Stack
 
-Najprostszym mechanizmem przejścia jest uruchomienie zarówno IPv4 jak i IPv6 w tej samej sieci. Jest to znane jako **Dual Stack**. W sieci Dual Stack oba protokoły są włączone na wszystkich urządzeniach sieciowych i mogą one komunikować się ze sobą przy użyciu obu protokołów. Takie podejście pozwala na stopniową migrację do IPv6 i zapewnia płynne przejście.
+Najprostszym mechanizmem przejścia jest uruchomienie zarówno IPv4 jak i IPv6 w tej samej sieci. Jest to znane jako **Dual Stack**. W sieci Dual Stack oba protokoły są włączone na wszystkich urządzeniach sieciowych i mogą komunikować się ze sobą przy użyciu jednego z tych protokołów. Takie podejście pozwala na stopniową migrację do IPv6 i zapewnia płynne przejście.
 
 ### Tunelowanie
 
 **Tunneling** jest metodą enkapsulacji pakietów IPv6 wewnątrz pakietów IPv4 w celu ich transportu przez sieć IPv4. Mechanizm ten jest używany do zapewnienia łączności między wyspami IPv6, które są oddzielone siecią IPv4. W tunelu pakiet IPv6 jest enkapsulowany w pakiecie IPv4, a sieć IPv4 kieruje go na drugi koniec tunelu, gdzie jest on dekapsulowany i dostarczany do miejsca przeznaczenia.
 
-### Tłumaczenie
+### Translacja
 
 **Translacja** to mechanizm wykorzystywany do ułatwienia komunikacji między sieciami IPv4 i IPv6. Istnieją dwa rodzaje translacji: Network Address Translation-Protocol Translation (NAT-PT) oraz Address Family Transition Router (AFTR). **NAT-PT** tłumaczy pakiety IPv6 na pakiety IPv4 i odwrotnie, podczas gdy **AFTR** zapewnia łączność IPv6 z hostami wyłącznie IPv4.
 
