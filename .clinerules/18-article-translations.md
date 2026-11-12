@@ -53,6 +53,15 @@
 
 - Parse every changed file's YAML and compare nontranslated metadata with its
   source. Compare code, link targets, shortcode parameters, and heading levels.
+- Check bold and italic markup against the English source. Compare emphasis
+  placement and verify paired markers line by line. A matching total marker
+  count can still hide an unpaired delimiter in a translated line.
+- Inspect emphasis boundaries in the target script. Do not split a word, compound,
+  or grammatical particle with Markdown markers, and keep bold spans focused on
+  a scannable term or phrase rather than a long sentence.
+- Translate source-attribution notes from the current article only. Before
+  retaining a citation summary, compare its claim and URL with the English
+  source; a note copied from another article can introduce an unrelated claim.
 - Check every configured language for every selected bundle after generation.
 - Treat language detection as a screening check. English product names and link
   labels distort results on short technical pages. Inspect script usage and
