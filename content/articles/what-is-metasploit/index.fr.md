@@ -4,13 +4,14 @@ date: 2023-06-12
 toc: true
 draft: false
 description: "Découvrez la puissance de Metasploit, un framework open-source pour les tests de pénétration et le développement d'exploits, doté de fonctionnalités robustes et d'une large communauté."
-tags: ["Metasploit", "tests de pénétration", "développement de l'exploitation", "analyse de la vulnérabilité", "génération de la charge utile", "post-exploitation", "piratage éthique", "cybersécurité", "open-source", "cadre de sécurité", "évaluation de la vulnérabilité", "ingénierie sociale", "Cadre Metasploit", "Metasploit Pro", "sécurité informatique", "HD Moore", "Rapid7", "solutions de sécurité", "les réglementations gouvernementales", "Loi sur la fraude et les abus informatiques", "CFAA", "sensibilisation à la sécurité", "outils de piratage", "outils de cybersécurité", "communauté de la cybersécurité", "Ressources en matière de cybersécurité", "les professionnels de la cybersécurité", "meilleures pratiques en matière de cybersécurité", "conformité en matière de cybersécurité", "lois sur la cybersécurité"]
+tags: ["Metasploit", "tests de pénétration", "développement d'exploits", "analyse de la vulnérabilité", "génération de la charge utile", "post-exploitation", "piratage éthique", "cybersécurité", "open-source", "cadre de sécurité", "évaluation de la vulnérabilité", "ingénierie sociale", "Metasploit Framework", "Metasploit Pro", "sécurité informatique", "HD Moore", "Rapid7", "solutions de sécurité", "les réglementations gouvernementales", "Loi sur la fraude et les abus informatiques", "CFAA", "sensibilisation à la sécurité", "outils de piratage", "outils de cybersécurité", "communauté de la cybersécurité", "Ressources en matière de cybersécurité", "les professionnels de la cybersécurité", "meilleures pratiques en matière de cybersécurité", "conformité en matière de cybersécurité", "lois sur la cybersécurité"]
 cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "Illustration animée d'un pirate informatique utilisant un ordinateur et une loupe pour représenter l'exploration et l'analyse des vulnérabilités et des exploits dans les systèmes informatiques."
 coverCaption: ""
+lastmod: 2026-11-11
 ---
 
-**Qu'est-ce que Metasploit ?
+**Qu'est-ce que Metasploit ?**
 
 Metasploit est un puissant framework open-source utilisé pour développer, tester et exécuter des exploits contre des systèmes informatiques. Il fournit aux professionnels de la sécurité, aux testeurs de pénétration et aux hackers éthiques une suite complète d'outils et de ressources pour évaluer les vulnérabilités et les faiblesses des systèmes cibles.
 
@@ -69,3 +70,4 @@ ______
 3. [Metasploit Pro Documentation](https://docs.rapid7.com/metasploit/)
 4. [Computer Fraud and Abuse Act (CFAA)](https://www.law.cornell.edu/uscode/text/18/1030)
 
+lastmod: 2026-10-11

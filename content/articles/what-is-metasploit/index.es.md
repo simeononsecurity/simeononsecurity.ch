@@ -4,13 +4,14 @@ date: 2023-06-12
 toc: true
 draft: false
 description: "Descubra la potencia de Metasploit, un marco de trabajo de código abierto para pruebas de penetración y desarrollo de exploits, con sólidas funciones y una gran comunidad."
-tags: ["Metasploit", "pruebas de penetración", "desarrollo de exploits", "exploración de vulnerabilidades", "generación de carga útil", "postoperatorio", "hacking ético", "ciberseguridad", "código abierto", "marco de seguridad", "evaluación de la vulnerabilidad", "ingeniería social", "Marco Metasploit", "Metasploit Pro", "seguridad informática", "HD Moore", "Rápido7", "soluciones de seguridad", "normativa gubernamental", "Ley contra el fraude y el abuso informáticos", "CFAA", "concienciación sobre seguridad", "herramientas de hacking", "herramientas de ciberseguridad", "comunidad de ciberseguridad", "recursos de ciberseguridad", "profesionales de la ciberseguridad", "buenas prácticas de ciberseguridad", "cumplimiento de la ciberseguridad", "leyes de ciberseguridad"]
+tags: ["Metasploit", "pruebas de penetración", "desarrollo de exploits", "exploración de vulnerabilidades", "generación de carga útil", "post-explotación", "hacking ético", "ciberseguridad", "código abierto", "marco de seguridad", "evaluación de la vulnerabilidad", "ingeniería social", "Metasploit Framework", "Metasploit Pro", "seguridad informática", "HD Moore", "Rapid7", "soluciones de seguridad", "normativa gubernamental", "Ley contra el fraude y el abuso informáticos", "CFAA", "concienciación sobre seguridad", "herramientas de hacking", "herramientas de ciberseguridad", "comunidad de ciberseguridad", "recursos de ciberseguridad", "profesionales de la ciberseguridad", "buenas prácticas de ciberseguridad", "cumplimiento de la ciberseguridad", "leyes de ciberseguridad"]
 cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "Ilustración animada de un hacker que utiliza un ordenador y una lupa para representar la exploración y el análisis de vulnerabilidades y exploits en sistemas informáticos."
 coverCaption: ""
+lastmod: 2026-11-11
 ---
 
-**¿Qué es Metasploit?
+**¿Qué es Metasploit?**
 
 Metasploit es un potente marco de código abierto utilizado para desarrollar, probar y ejecutar exploits contra sistemas informáticos. Proporciona a los profesionales de la seguridad, probadores de penetración y hackers éticos un conjunto completo de herramientas y recursos para evaluar las vulnerabilidades y debilidades de los sistemas de destino.
 
@@ -69,3 +70,4 @@ ______
 3. [Metasploit Pro Documentation](https://docs.rapid7.com/metasploit/)
 4. [Computer Fraud and Abuse Act (CFAA)](https://www.law.cornell.edu/uscode/text/18/1030)
 
+lastmod: 2026-10-11

@@ -4,10 +4,11 @@ date: 2023-06-12
 toc: true
 draft: false
 description: "Descoperiți puterea lui Metasploit, un cadru open-source pentru testarea penetrării și dezvoltarea de exploit-uri, cu caracteristici robuste și o comunitate numeroasă."
-tags: ["Metasploit", "teste de penetrare", "dezvoltarea exploatării", "scanarea vulnerabilităților", "generarea încărcăturii utile", "post-operație", "hacking etic", "securitate cibernetică", "open-source", "cadru de securitate", "evaluarea vulnerabilității", "inginerie socială", "Cadrul Metasploit", "Metasploit Pro", "securitate informatică", "HD Moore", "Rapid7", "soluții de securitate", "reglementări guvernamentale", "Legea privind frauda și abuzul de calculator", "CFAA", "conștientizarea securității", "instrumente de hacking", "instrumente de securitate cibernetică", "comunitatea de securitate cibernetică", "resurse de securitate cibernetică", "profesioniști în domeniul securității cibernetice", "cele mai bune practici în materie de securitate cibernetică", "conformitatea cu securitatea cibernetică", "legile privind securitatea cibernetică"]
+tags: ["Metasploit", "teste de penetrare", "dezvoltarea exploit-urilor", "scanarea vulnerabilităților", "generarea încărcăturii utile", "post-exploatare", "hacking etic", "securitate cibernetică", "open-source", "cadru de securitate", "evaluarea vulnerabilității", "inginerie socială", "Metasploit Framework", "Metasploit Pro", "securitate informatică", "HD Moore", "Rapid7", "soluții de securitate", "reglementări guvernamentale", "Legea privind frauda și abuzul de calculator", "CFAA", "conștientizarea securității", "instrumente de hacking", "instrumente de securitate cibernetică", "comunitatea de securitate cibernetică", "resurse de securitate cibernetică", "profesioniști în domeniul securității cibernetice", "cele mai bune practici în materie de securitate cibernetică", "conformitatea cu securitatea cibernetică", "legile privind securitatea cibernetică"]
 cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "O ilustrație animată a unui hacker care folosește un computer și o lupă pentru a reprezenta explorarea și analiza vulnerabilităților și a exploatărilor în sistemele informatice."
 coverCaption: ""
+lastmod: 2026-11-11
 ---
 
 **Ce este Metasploit?**
@@ -69,3 +70,4 @@ ______
 3. [Metasploit Pro Documentation](https://docs.rapid7.com/metasploit/)
 4. [Computer Fraud and Abuse Act (CFAA)](https://www.law.cornell.edu/uscode/text/18/1030)
 
+lastmod: 2026-10-11
