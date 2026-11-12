@@ -1,10 +1,11 @@
 ---
 title: "Comment sécuriser votre environnement Docker et Kubernetes ?"
 date: 2023-04-04
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques pour sécuriser votre environnement Docker et Kubernetes, notamment en utilisant des images officielles, en limitant les autorisations et en mettant en œuvre la sécurité du réseau."
-tags: ["Docker", "Kubernetes", "Sécurité", "Conteneurs", "Sécurité des réseaux", "RBAC", "API Server", "Vulnérabilités", "Contrôle", "Enregistrement", "Pare-feu", "TLS", "Ancre", "Clair", "Aqua Security", "Pile ELK", "Splunk", "Prométhée", "Cybersécurité", "Meilleures pratiques"]
+tags: ["Docker", "Kubernetes", "Sécurité", "Conteneurs", "Sécurité des réseaux", "RBAC", "API Server", "Vulnérabilités", "Surveillance", "Journalisation", "Pare-feu", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometheus", "Cybersécurité", "Meilleures pratiques"]
 cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Un conteneur docker de dessin animé et un pod kubernetes de dessin animé se tenant la main et se tenant au-dessus d'un coffre-fort verrouillé. L'arrière-plan est un mur de code informatique."
 coverCaption: ""
@@ -40,7 +41,7 @@ Limiter l'accès est la première étape de la sécurisation de votre environnem
 
 ### Sécurisez votre serveur API
 
-Le serveur API est un composant critique de votre environnement Kubernetes, et il est essentiel de le sécuriser. **Utilisez des connexions sécurisées pour la communication avec le serveur API**, telles que TLS. En outre, **restrictez l'accès réseau au serveur API** et utilisez RBAC pour contrôler l'accès.
+Le serveur API est un composant critique de votre environnement Kubernetes, et il est essentiel de le sécuriser. **Utilisez des connexions sécurisées pour la communication avec le serveur API**, telles que TLS. En outre, **restreignez l'accès réseau au serveur API** et utilisez RBAC pour contrôler l'accès.
 
 ### Utiliser des images sécurisées
 

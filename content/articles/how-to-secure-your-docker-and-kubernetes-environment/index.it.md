@@ -1,10 +1,11 @@
 ---
-title: "Come proteggere l'ambiente Docker e Kubernetes"
+title: "Come proteggere l’ambiente Docker e Kubernetes"
 date: 2023-04-04
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Imparare le migliori pratiche per proteggere l'ambiente Docker e Kubernetes, tra cui l'uso di immagini ufficiali, la limitazione dei permessi e l'implementazione della sicurezza di rete."
-tags: ["Docker", "Kubernetes", "Sicurezza", "Contenitori", "Sicurezza di rete", "RBAC", "Server API", "Vulnerabilità", "Monitoraggio", "Registrazione", "Firewall", "TLS", "Ancora", "Clair", "Aqua Security", "Pila ELK", "Splunk", "Prometeo", "Sicurezza informatica", "Migliori pratiche"]
+tags: ["Docker", "Kubernetes", "Sicurezza", "Contenitori", "Sicurezza di rete", "RBAC", "Server API", "Vulnerabilità", "Monitoraggio", "Registrazione", "Firewall", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometheus", "Sicurezza informatica", "Migliori pratiche"]
 cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Un contenitore docker e un pod kubernetes in cartone animato che si tengono per mano e sono in piedi sopra una cassaforte chiusa a chiave. Lo sfondo è un muro di codici informatici."
 coverCaption: ""
@@ -60,11 +61,11 @@ Seguire queste best practice vi aiuterà a proteggere il vostro ambiente Docker 
 
 ## Riferimenti
 
--[Docker Security](https://docs.docker.com/engine/security/security/)
--[Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
--[Anchore Documentation](https://docs.anchore.com/)
--[Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
--[Aqua Security](https://www.aquasec.com/)
--[ELK Stack](https://www.elastic.co/what-is/elk-stack)
--[Splunk](https://www.splunk.com/)
--[Prometheus](https://prometheus.io/)
+- [Docker Security](https://docs.docker.com/engine/security/security/)
+- [Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
+- [Anchore Documentation](https://docs.anchore.com/)
+- [Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
+- [Aqua Security](https://www.aquasec.com/)
+- [ELK Stack](https://www.elastic.co/what-is/elk-stack)
+- [Splunk](https://www.splunk.com/)
+- [Prometheus](https://prometheus.io/)

@@ -1,10 +1,11 @@
 ---
 title: "Hoe uw Docker- en Kubernetes-omgeving te beveiligen"
 date: 2023-04-04
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Leer best practices voor het beveiligen van uw Docker- en Kubernetes-omgeving, waaronder het gebruik van officiële images, het beperken van machtigingen en het implementeren van netwerkbeveiliging."
-tags: ["Docker", "Kubernetes", "Beveiliging", "Containers", "Netwerkbeveiliging", "RBAC", "API-server", "Kwetsbaarheden", "Toezicht op", "Loggen", "Firewalls", "TLS", "Anchore", "Clair", "Aqua Veiligheid", "ELK Stapel", "Splunk", "Prometheus", "Cyberbeveiliging", "Beste praktijken"]
+tags: ["Docker", "Kubernetes", "Beveiliging", "Containers", "Netwerkbeveiliging", "RBAC", "API-server", "Kwetsbaarheden", "Monitoring", "Loggen", "Firewalls", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometheus", "Cyberbeveiliging", "Beste praktijken"]
 cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Een cartoon docker container en een cartoon kubernetes pod houden elkaars hand vast en staan bovenop een afgesloten kluis. De achtergrond is een muur van computercode."
 coverCaption: ""
@@ -36,11 +37,11 @@ Het monitoren van uw Docker-omgeving is cruciaal voor het detecteren van en reag
 
 ### Toegang beperken
 
-Toegang beperken is de eerste stap in het beveiligen van uw Kubernetes-omgeving. **Implementeer rolgebaseerde toegangscontrole (RBAC)** om de toegang tot Kubernetes-bronnen te beperken op basis van gebruikersrollen en -machtigingen. Gebruik daarnaast sterke authenticatie- en autorisatiemechanismen** om ongeautoriseerde toegang tot uw Kubernetes-cluster te voorkomen.
+Toegang beperken is de eerste stap in het beveiligen van uw Kubernetes-omgeving. **Implementeer rolgebaseerde toegangscontrole (RBAC)** om de toegang tot Kubernetes-bronnen te beperken op basis van gebruikersrollen en -machtigingen. **Gebruik daarnaast sterke authenticatie- en autorisatiemechanismen** om ongeautoriseerde toegang tot uw Kubernetes-cluster te voorkomen.
 
 ### Beveilig uw API-server
 
-De API-server is een kritisch onderdeel van uw Kubernetes-omgeving, en het beveiligen ervan is essentieel. **Gebruik veilige verbindingen voor communicatie met de API-server**, zoals TLS. Beperk daarnaast de netwerktoegang tot de API-server** en gebruik RBAC om de toegang te controleren.
+De API-server is een kritisch onderdeel van uw Kubernetes-omgeving, en het beveiligen ervan is essentieel. **Gebruik veilige verbindingen voor communicatie met de API-server**, zoals TLS. **Beperk daarnaast de netwerktoegang tot de API-server** en gebruik RBAC om de toegang te controleren.
 
 ### Gebruik veilige afbeeldingen
 
@@ -56,15 +57,15 @@ Net als bij Docker is het monitoren van uw Kubernetes-omgeving cruciaal voor het
 
 ______
 
-Als u deze best practices volgt, kunt u uw Docker- en Kubernetes-omgeving beter beveiligen. Houd er echter rekening mee dat beveiliging een continu proces is en continue aandacht vereist. Blijf op de hoogte van beveiligingsnieuws en -updates en beoordeel uw beveiligingsmaatregelen** regelmatig om er zeker van te zijn dat ze nog steeds effectief zijn.
+Als u deze best practices volgt, kunt u uw Docker- en Kubernetes-omgeving beter beveiligen. Houd er echter rekening mee dat beveiliging een continu proces is en continue aandacht vereist. Blijf op de hoogte van beveiligingsnieuws en -updates en **beoordeel uw beveiligingsmaatregelen regelmatig** om er zeker van te zijn dat ze nog steeds effectief zijn.
 
 ## Referenties
 
--[Docker Security](https://docs.docker.com/engine/security/security/)
--[Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
--[Anchore Documentation](https://docs.anchore.com/)
--[Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
--[Aqua Security](https://www.aquasec.com/)
--[ELK Stack](https://www.elastic.co/what-is/elk-stack)
--[Splunk](https://www.splunk.com/)
--[Prometheus](https://prometheus.io/)
+- [Docker Security](https://docs.docker.com/engine/security/security/)
+- [Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
+- [Anchore Documentation](https://docs.anchore.com/)
+- [Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
+- [Aqua Security](https://www.aquasec.com/)
+- [ELK Stack](https://www.elastic.co/what-is/elk-stack)
+- [Splunk](https://www.splunk.com/)
+- [Prometheus](https://prometheus.io/)
