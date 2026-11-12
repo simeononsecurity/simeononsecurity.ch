@@ -1,17 +1,17 @@
 ---
 title: "オープンソースセキュリティツールの利点と課題"
 date: 2023-04-05
-lastmod: 2026-10-21
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "オープンソースのセキュリティツールを使用して、組織のセキュリティ態勢を改善するメリットと課題を探ります。"
-tags: ["オープンソースセキュリティツール", "サイバーセキュリティ", "地域支援", "透明性", "コスト削減", "柔軟性", "専用ツール", "セキュリティリスク", "スキルセット", "ソフトウェアライセンス料", "総所有コスト", "商業支援", "プログラミング言語", "統合", "セキュリティテスウティング", "会計監査", "エヌアイエスティー", "シーサ", "オワスプ", "全米標準技術協会"]
+tags: ["オープンソースセキュリティツール", "サイバーセキュリティ", "コミュニティ支援", "透明性", "コスト削減", "柔軟性", "独自ツール", "セキュリティリスク", "スキル", "ソフトウェアライセンス料", "総所有コスト", "商用サポート", "プログラミング言語", "統合", "セキュリティテスト", "セキュリティ監査", "NIST", "CISA", "OWASP", "米国国立標準技術研究所"]
 cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "バイナリーコードを背景に、各ツールにオープンソースのロゴが入ったツールボックスと、サイバーセキュリティを表す中央に鍵のついた盾が描かれた漫画風のイメージです。"
 coverCaption: ""
 ---
 
-**オープンソースセキュリティツールを組織で利用するメリットと課題**について
+**組織でオープンソースセキュリティツールを使うメリットと課題**
 
 オープンソースのセキュリティツールは、セキュリティ態勢の改善を目指す組織にとって、ますます人気が高まっています。今回は、オープンソースのセキュリティツールを組織で使用する際の**利点と課題**について説明します。
 
@@ -53,18 +53,18 @@ coverCaption: ""
 
 ______
 
-結論として、オープンソースセキュリティツールは、コスト削減、柔軟性、コミュニティサポート、透明性など、多くの利点を提供します。しかし、組織は、サポート、統合、セキュリティ、スキルセットの要件など、オープンソースツールの使用に関連する課題も認識しておく必要があります。オープンソースセキュリティツールを使用するかどうかを決定する場合、組織は、利点と課題を慎重に検討し、これらのツールを効果的に管理し保護するために必要なリソースを確保する必要があります。
+オープンソースセキュリティツールは、コスト削減、柔軟性、コミュニティサポート、透明性など、多くの利点を提供します。しかし、組織は、サポート、統合、セキュリティ、スキルセットの要件など、オープンソースツールの使用に関連する課題も認識しておく必要があります。オープンソースセキュリティツールを使用するかどうかを決定する場合、組織は、利点と課題を慎重に検討し、これらのツールを効果的に管理し保護するために必要なリソースを確保する必要があります。
 
 ## 参考文献
 
--[Open Source Security Tools](https://opensource.com/tags/security)
--[Open Source Security Foundation](https://openSSF.org/)
--[National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
--[Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
--[Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
--[Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
--[National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
--[Open Web Application Security Project (OWASP)](https://owasp.org/)
+- [Open Source Security Tools](https://opensource.com/tags/security)
+- [Open Source Security Foundation](https://openSSF.org/)
+- [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [Cybersecurity and Infrastructure Security Agency (CISA) Cyber Essentials](https://www.cisa.gov/cyber-essentials)
+- [Open-Source vs. Commercial Security Tools: Pros and Cons Explained](https://simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/)
+- [Benefits of Open Source Software](https://opensource.com/resources/what-open-source)
+- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
+- [Open Web Application Security Project (OWASP)](https://owasp.org/)
 
 
-
+lastmod: 2026-10-11
