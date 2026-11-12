@@ -1,6 +1,7 @@
 ---
 title: "Conduzione di una valutazione del rischio di sicurezza per la vostra organizzazione"
 date: 2023-03-19
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Scoprite come condurre un'accurata valutazione del rischio di sicurezza per proteggere le informazioni e le risorse sensibili della vostra organizzazione."
@@ -9,7 +10,7 @@ cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp
 coverAlt: "Uno scudo a fumetti che protegge un computer portatile e le risorse fisiche con una lente di ingrandimento che identifica i rischi."
 coverCaption: ""
 ---
- Una valutazione del rischio di sicurezza per la vostra organizzazione**
+**Conduzione di una valutazione del rischio di sicurezza per la vostra organizzazione**
 
 Siete preoccupati per la sicurezza delle informazioni sensibili della vostra organizzazione? Condurre una **valutazione del rischio di sicurezza** è un passo essenziale per identificare e mitigare le potenziali minacce alla sicurezza. In questo articolo vi guideremo attraverso il processo di valutazione approfondita del rischio di sicurezza per garantire la sicurezza delle risorse della vostra organizzazione.
 

@@ -1,6 +1,7 @@
 ---
 title: "Effectuer une évaluation des risques de sécurité pour votre organisation"
 date: 2023-03-19
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Apprenez à mener une évaluation approfondie des risques de sécurité afin de protéger les informations et les biens sensibles de votre organisation."
@@ -9,7 +10,7 @@ cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp
 coverAlt: "Un bouclier de bande dessinée protégeant un ordinateur portable et des biens matériels avec une loupe identifiant les risques."
 coverCaption: ""
 ---
- une évaluation des risques de sécurité pour votre organisation**
+**Effectuer une évaluation des risques de sécurité pour votre organisation**
 
 Êtes-vous préoccupé par la sécurité des informations sensibles de votre organisation ? La réalisation d'une **évaluation des risques de sécurité** est une étape essentielle dans l'identification et l'atténuation des menaces potentielles pour la sécurité. Dans cet article, nous vous guiderons tout au long du processus d'évaluation des risques de sécurité afin de garantir la sécurité des actifs de votre organisation.
 

@@ -1,6 +1,7 @@
 ---
 title: "Durchführen einer Sicherheitsrisikobewertung für Ihr Unternehmen"
 date: 2023-03-19
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie eine gründliche Sicherheitsrisikobewertung durchführen, um die sensiblen Daten und Vermögenswerte Ihres Unternehmens zu schützen."
@@ -9,7 +10,7 @@ cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp
 coverAlt: "Ein Cartoon-Schild zum Schutz eines Laptops und von Sachwerten mit einem Vergrößerungsglas zur Identifizierung von Risiken."
 coverCaption: ""
 ---
- eine Sicherheitsrisikobewertung für Ihr Unternehmen**
+**Durchführen einer Sicherheitsrisikobewertung für Ihr Unternehmen**
 
 Machen Sie sich Sorgen um die Sicherheit der sensiblen Daten in Ihrem Unternehmen? Die Durchführung einer **Sicherheitsrisikobewertung** ist ein wichtiger Schritt, um potenzielle Sicherheitsbedrohungen zu erkennen und abzuschwächen. In diesem Artikel führen wir Sie durch den Prozess der Durchführung einer gründlichen Sicherheitsrisikobewertung, um die Sicherheit der Vermögenswerte Ihres Unternehmens zu gewährleisten.
 
@@ -25,7 +26,7 @@ Bevor Sie mit einer Sicherheitsrisikobewertung beginnen, müssen Sie unbedingt *
 
 ### Schritt 2: Potenzielle Bedrohungen identifizieren
 
-Nachdem Sie die zu schützenden Werte ermittelt haben, müssen Sie im nächsten Schritt **potenzielle Bedrohungen** für diese Werte ermitteln. Dazu gehören sowohl interne als auch externe Bedrohungen. Interne Bedrohungen können von Mitarbeitern, Auftragnehmern oder Drittanbietern ausgehen. Externe Bedrohungen können von Hackern, Cyber-Kriminellen oder Konkurrenten ausgehen.
+Nachdem Sie die zu schützenden Vermögenswerte ermittelt haben, müssen Sie im nächsten Schritt **potenzielle Bedrohungen** für diese Vermögenswerte ermitteln. Dazu gehören sowohl interne als auch externe Bedrohungen. Interne Bedrohungen können von Mitarbeitern, Auftragnehmern oder Drittanbietern ausgehen. Externe Bedrohungen können von Hackern, Cyber-Kriminellen oder Konkurrenten ausgehen.
 
 ### Schritt 3: Bewertung der Schwachstellen
 
