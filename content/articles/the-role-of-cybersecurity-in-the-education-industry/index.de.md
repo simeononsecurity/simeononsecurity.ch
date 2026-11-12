@@ -1,10 +1,11 @@
 ---
 title: "Sicherheit im Bildungswesen: Die Rolle der Cybersicherheit beim Schutz von Schülerdaten"
 date: 2023-03-28
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Entdecken Sie die Bedeutung der Cybersicherheit in der Bildungsbranche und erfahren Sie, wie Sie sensible Schülerdaten schützen können."
-tags: ["Cybersicherheit", "Bildung", "Studentendaten", "datenschutz", "Datenschutz", "FERPA", "NIST", "HEISC", "Internet2", "SANS-Institut", "Sicherheitspolitik", "Phishing", "Bewusstseinsschulung", "Risikobewertung", "Multi-Faktor-Authentifizierung", "Verschlüsselung", "Vorfallreaktion", "Netzwerksicherheit", "sicherer Zugang", "Firewalls"]
+tags: ["Cybersicherheit", "Bildung", "Studentendaten", "Datenschutz", "Privatsphäre", "FERPA", "NIST", "HEISC", "Internet2", "SANS-Institut", "Sicherheitspolitik", "Phishing", "Bewusstseinsschulung", "Risikobewertung", "Multi-Faktor-Authentifizierung", "Verschlüsselung", "Vorfallreaktion", "Netzwerksicherheit", "sicherer Zugang", "Firewalls"]
 cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Ein animiertes 3D-Bild mit einem Schild, das einen Laptop mit einer Abschlusskappe schützt und den Schutz von Schülerdaten in der Bildungsbranche symbolisiert."
 coverCaption: ""
@@ -28,7 +29,7 @@ ______
 
 ## Herausforderungen für die Bildungsbranche
 
-## Begrenzte Budgets und Ressourcen
+### Begrenzte Budgets und Ressourcen
 
 Viele Bildungseinrichtungen sind mit Budgetbeschränkungen konfrontiert, was zu unzureichenden Investitionen in die **Cybersicherheitsinfrastruktur** und das Personal führt. Diese begrenzten Ressourcen können die Umsetzung wirksamer Sicherheitsmaßnahmen und den angemessenen Schutz sensibler Daten erschweren.
 
@@ -88,3 +89,4 @@ ______
 4. [Internet2](https://www.internet2.edu/)
 5. [SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
 
+lastmod: 2026-10-11

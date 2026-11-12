@@ -1,10 +1,11 @@
 ---
 title: "Proteger la educación: El papel de la ciberseguridad en la protección de los datos de los estudiantes"
 date: 2023-03-28
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Descubra la importancia de la ciberseguridad en el sector educativo y aprenda a proteger los datos confidenciales de los estudiantes."
-tags: ["ciberseguridad", "educación", "datos del alumno", "protección de datos", "privacidad", "FERPA", "NIST", "HEISC", "Internet2", "Instituto SANS", "políticas de seguridad", "phishing", "formación de sensibilización", "evaluación de riesgos", "autenticación multifactor", "codificación", "respuesta a incidentes", "seguridad de la red", "acceso seguro", "cortafuegos"]
+tags: ["ciberseguridad", "educación", "datos del alumno", "protección de datos", "privacidad", "FERPA", "NIST", "HEISC", "Internet2", "Instituto SANS", "políticas de seguridad", "phishing", "formación de sensibilización", "evaluación de riesgos", "autenticación multifactor", "cifrado", "respuesta a incidentes", "seguridad de la red", "acceso seguro", "cortafuegos"]
 cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Imagen animada en 3D que muestra un escudo que protege un ordenador portátil con un birrete de graduación, símbolo de la protección de los datos de los estudiantes en el sector educativo."
 coverCaption: ""
@@ -14,7 +15,7 @@ coverCaption: ""
 
 ## Introducción
 
-En los últimos años, el sector de la educación ha pasado a depender cada vez más de las tecnologías digitales. Este cambio ha llevado a la necesidad de medidas de ciberseguridad más robustas para proteger los datos confidenciales de los estudiantes de las amenazas cibernéticas. Este artículo explorará la importancia de la ciberseguridad en la industria de la educación y proporcionará pasos prácticos para salvaguardar la información de los estudiantes.
+En los últimos años, el **sector de la educación** ha pasado a depender cada vez más de las tecnologías digitales. Este cambio ha llevado a la necesidad de medidas de **ciberseguridad** más robustas para proteger los datos confidenciales de los **estudiantes** de las amenazas cibernéticas. Este artículo explora la importancia de la ciberseguridad en el sector educativo y ofrece pasos prácticos para proteger la información de los estudiantes.
 
 ______
 
@@ -88,3 +89,4 @@ ______
 4. [Internet2](https://www.internet2.edu/)
 5. [SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
 
+lastmod: 2026-10-11

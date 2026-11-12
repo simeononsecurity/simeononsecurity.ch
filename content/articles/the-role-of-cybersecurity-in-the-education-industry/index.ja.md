@@ -1,16 +1,17 @@
 ---
 title: "教育の安全性を確保する：学生データ保護におけるサイバーセキュリティの役割"
 date: 2023-03-28
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "教育業界におけるサイバーセキュリティの重要性を理解し、生徒の機密データを保護する方法を学びます。"
-tags: ["サイバーセキュリティ", "教育", "学生データ", "データ保護", "プライバシー", "フェルパ", "エヌアイエスティー", "ハイスク", "インターネットツー", "SANSインスティテュート", "安全保護方針", "フィッシング", "アウェアネス・トレーニング", "リスクアセスメント", "多要素認証", "暗号化", "インシデントレスポンス", "ネットワークセキュリティ", "セキュアアクセス", "ファイアウォール"]
+tags: ["サイバーセキュリティ", "教育", "学生データ", "データ保護", "プライバシー", "FERPA", "NIST", "HEISC", "Internet2", "SANS Institute", "セキュリティポリシー", "フィッシング", "セキュリティ意識向上研修", "リスク評価", "多要素認証", "暗号化", "インシデント対応", "ネットワークセキュリティ", "セキュアアクセス", "ファイアウォール"]
 cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "教育産業における学生データの保護を象徴する、卒業帽を掲げたノートパソコンを守る盾をモチーフにした3Dアニメーション画像です。"
 coverCaption: ""
 ---
 
-**教育産業におけるサイバーセキュリティの役割：学生データの保護**について
+**教育産業におけるサイバーセキュリティの役割：学生データの保護**
 
 ## はじめに
 
@@ -82,9 +83,10 @@ ______
 
 ## 参考文献
 
-1.[National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-2.[Family Educational Rights and Privacy Act (FERPA)](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
-3.[Higher Education Information Security Council (HEISC)](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program)
-4.[Internet2](https://www.internet2.edu/)
-5.[SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
+1. [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
+2. [Family Educational Rights and Privacy Act (FERPA)](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
+3. [Higher Education Information Security Council (HEISC)](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program)
+4. [Internet2](https://www.internet2.edu/)
+5. [SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
 
+lastmod: 2026-10-11

@@ -1,6 +1,7 @@
 ---
 title: "Asigurarea educației: Rolul securității cibernetice în protejarea datelor elevilor"
 date: 2023-03-28
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Descoperiți importanța securității cibernetice în industria educației și învățați cum să protejați datele sensibile ale elevilor."
@@ -88,3 +89,4 @@ ______
 4. [Internet2](https://www.internet2.edu/)
 5. [SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
 
+lastmod: 2026-10-11
