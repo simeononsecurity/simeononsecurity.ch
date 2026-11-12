@@ -1,6 +1,7 @@
 ---
 title: "Realización de una evaluación de riesgos para la seguridad de su organización"
 date: 2023-03-19
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Aprenda a realizar una evaluación exhaustiva de los riesgos de seguridad para proteger la información y los activos confidenciales de su organización."
@@ -9,7 +10,7 @@ cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp
 coverAlt: "Un escudo de dibujos animados que protege un ordenador portátil y los activos físicos con una lupa que identifica los riesgos."
 coverCaption: ""
 ---
- una evaluación de los riesgos para la seguridad de su organización**
+**Realización de una evaluación de riesgos para la seguridad de su organización**
 
 ¿Le preocupa la seguridad de la información confidencial de su organización? Llevar a cabo una **evaluación de riesgos de seguridad** es un paso esencial para identificar y mitigar las posibles amenazas a la seguridad. En este artículo, le guiaremos a través del proceso de realización de una evaluación exhaustiva de los riesgos de seguridad para garantizar la seguridad de los activos de su organización.
 

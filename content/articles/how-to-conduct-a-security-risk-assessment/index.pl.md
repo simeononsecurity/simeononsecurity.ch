@@ -1,21 +1,22 @@
 ---
 title: "Przeprowadzenie oceny ryzyka bezpieczeństwa dla Twojej organizacji"
 date: 2023-03-19
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Dowiedz się, jak przeprowadzić dokładną ocenę ryzyka związanego z bezpieczeństwem, aby chronić wrażliwe informacje i zasoby Twojej organizacji."
-tags: ["Ocena ryzyka w zakresie bezpieczeństwa", "Cybersecurity", "Ocena podatności na zagrożenia", "Identyfikacja zagrożeń", "Zarządzanie ryzykiem", "Strategie łagodzenia skutków", "Bezpieczeństwo fizyczne", "Bezpieczeństwo informacji", "Ochrona majątku", "Ochrona danych", "Priorytetyzacja ryzyka", "Protokoły bezpieczeństwa", "Systemy informatyczne", "Szkolenie pracowników", "Przegląd oceny ryzyka", "Zagrożenia wewnętrzne", "Zagrożenia zewnętrzne", "Zagrożenia bezpieczeństwa", "Zapobieganie naruszeniom danych", "Analiza ryzyka"]
+tags: ["Ocena ryzyka w zakresie bezpieczeństwa", "Cyberbezpieczeństwo", "Ocena podatności na zagrożenia", "Identyfikacja zagrożeń", "Zarządzanie ryzykiem", "Strategie łagodzenia skutków", "Bezpieczeństwo fizyczne", "Bezpieczeństwo informacji", "Ochrona majątku", "Ochrona danych", "Priorytetyzacja ryzyka", "Protokoły bezpieczeństwa", "Systemy informatyczne", "Szkolenie pracowników", "Przegląd oceny ryzyka", "Zagrożenia wewnętrzne", "Zagrożenia zewnętrzne", "Zagrożenia bezpieczeństwa", "Zapobieganie naruszeniom danych", "Analiza ryzyka"]
 cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "Kreskówkowa tarcza chroniąca laptopa i aktywa fizyczne z lupą identyfikującą zagrożenia."
 coverCaption: ""
 ---
- Ocena ryzyka bezpieczeństwa dla Twojej organizacji**
+**Przeprowadzenie oceny ryzyka bezpieczeństwa dla Twojej organizacji**
 
 Czy martwisz się o bezpieczeństwo wrażliwych informacji Twojej organizacji? Przeprowadzenie **oceny ryzyka bezpieczeństwa** jest istotnym krokiem w identyfikacji i ograniczaniu potencjalnych zagrożeń bezpieczeństwa. W tym artykule przeprowadzimy Cię przez proces przeprowadzania dokładnej oceny ryzyka bezpieczeństwa, aby zapewnić bezpieczeństwo aktywów Twojej organizacji.
 
 ## Zrozumienie oceny ryzyka bezpieczeństwa
 
-Ocena ryzyka bezpieczeństwa** to proces identyfikacji, analizy i oceny potencjalnych zagrożeń bezpieczeństwa dla informacji, aktywów i operacji Twojej organizacji. Celem oceny ryzyka bezpieczeństwa jest identyfikacja potencjalnych zagrożeń bezpieczeństwa, ocena prawdopodobieństwa i wpływu tych zagrożeń oraz ustalenie priorytetów w oparciu o poziom ich dotkliwości.
+**Ocena ryzyka bezpieczeństwa** to proces identyfikacji, analizy i oceny potencjalnych zagrożeń bezpieczeństwa dla informacji, aktywów i operacji Twojej organizacji. Celem oceny ryzyka bezpieczeństwa jest identyfikacja potencjalnych zagrożeń bezpieczeństwa, ocena prawdopodobieństwa i wpływu tych zagrożeń oraz ustalenie priorytetów w oparciu o poziom ich dotkliwości.
 
 ## Kroki do przeprowadzenia oceny ryzyka bezpieczeństwa
 
@@ -35,7 +36,7 @@ Po zidentyfikowaniu potencjalnych zagrożeń, kluczowa jest **ocena podatności*
 
 Po zidentyfikowaniu potencjalnych zagrożeń i ocenie podatności, następnym krokiem jest **ocena prawdopodobieństwa i wpływu** każdego zagrożenia. Obejmuje to określenie prawdopodobieństwa wystąpienia każdego zagrożenia oraz potencjalnego wpływu, jaki może ono mieć na organizację.
 
-### Krok 5: Nadanie priorytetu zagrożeniom
+### Krok 5: Priorytetyzacja ryzyka
 
 W oparciu o prawdopodobieństwo i wpływ każdego zagrożenia, konieczne jest **ustalenie priorytetów ryzyka**. Polega to na określeniu, które z ryzyk są najbardziej znaczące i które wymagają natychmiastowej uwagi. Pomoże to w alokacji zasobów i ustaleniu priorytetów działań łagodzących.
 
