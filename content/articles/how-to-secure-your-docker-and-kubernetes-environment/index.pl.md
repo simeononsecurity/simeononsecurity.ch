@@ -1,10 +1,11 @@
 ---
 title: "Jak zabezpieczyć środowisko Docker i Kubernetes"
 date: 2023-04-04
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes, w tym korzystanie z oficjalnych obrazów, ograniczanie uprawnień i wdrażanie zabezpieczeń sieciowych."
-tags: ["Docker", "Kubernetes", "Bezpieczeństwo", "Pojemniki", "Bezpieczeństwo sieci", "RBAC", "Serwer API", "Podatności", "Monitoring", "Rejestrowanie", "Firewalle", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometeusz", "Cybersecurity", "Najlepsze praktyki"]
+tags: ["Docker", "Kubernetes", "Bezpieczeństwo", "Pojemniki", "Bezpieczeństwo sieci", "RBAC", "Serwer API", "Podatności", "Monitoring", "Rejestrowanie", "Firewalle", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometheus", "Cyberbezpieczeństwo", "Najlepsze praktyki"]
 cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Kreskówkowy kontener docker i kreskówkowy kubernetes pod trzymając się za ręce i stojąc na szczycie zamkniętego sejfu. W tle znajduje się ściana z kodu komputerowego."
 coverCaption: ""
@@ -14,7 +15,7 @@ coverCaption: ""
 
 Docker i Kubernetes to popularne narzędzia do konteneryzacji i zarządzania aplikacjami. Jednak z ich popularnością wiąże się ryzyko wystąpienia luk w zabezpieczeniach. W tym artykule omówimy **najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes**.
 
-## Securing Your Docker Environment
+## Zabezpieczanie środowiska Docker
 
 ### Używaj tylko oficjalnych obrazów
 
@@ -48,7 +49,7 @@ Używanie bezpiecznych obrazów jest kluczowe dla zabezpieczenia środowiska Kub
 
 ### Zabezpiecz swoją sieć
 
-Zabezpieczenie sieci jest kolejnym ważnym aspektem zabezpieczenia środowiska Kubernetes. **Wykorzystaj polityki sieciowe do kontroli ruchu między strąkami** i ogranicz dostęp do serwera API Kubernetes. Dodatkowo, używaj bezpiecznych połączeń do komunikacji między węzłami.
+Zabezpieczenie sieci jest kolejnym ważnym aspektem zabezpieczenia środowiska Kubernetes. **Wykorzystaj polityki sieciowe do kontroli ruchu między podami Kubernetes** i ogranicz dostęp do serwera API Kubernetes. Dodatkowo, używaj bezpiecznych połączeń do komunikacji między węzłami.
 
 ### Monitoruj swoje środowisko
 
@@ -60,11 +61,11 @@ Przestrzeganie tych najlepszych praktyk pomoże Ci zabezpieczyć Twoje środowis
 
 ## Referencje
 
--[Docker Security](https://docs.docker.com/engine/security/security/)
--[Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
--[Anchore Documentation](https://docs.anchore.com/)
--[Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
--[Aqua Security](https://www.aquasec.com/)
--[ELK Stack](https://www.elastic.co/what-is/elk-stack)
--[Splunk](https://www.splunk.com/)
--[Prometheus](https://prometheus.io/)
+- [Docker Security](https://docs.docker.com/engine/security/security/)
+- [Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
+- [Anchore Documentation](https://docs.anchore.com/)
+- [Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
+- [Aqua Security](https://www.aquasec.com/)
+- [ELK Stack](https://www.elastic.co/what-is/elk-stack)
+- [Splunk](https://www.splunk.com/)
+- [Prometheus](https://prometheus.io/)

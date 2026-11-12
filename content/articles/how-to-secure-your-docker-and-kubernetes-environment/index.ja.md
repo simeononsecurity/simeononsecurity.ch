@@ -1,10 +1,11 @@
 ---
 title: "DockerとKubernetes環境のセキュリティを確保する方法"
 date: 2023-04-04
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "公式イメージの使用、権限の制限、ネットワークセキュリティの実装など、DockerとKubernetes環境のセキュリティを確保するためのベストプラクティスを学びます。"
-tags: ["ドッカー", "クーベルネッツ", "セキュリティ", "コンテナ", "ネットワークセキュリティ", "アールビーエーシー", "APIサーバー", "脆弱性（ぜいじゃくせい", "モニタリング", "ロギング", "ファイアウォール", "ティーエスエルエス", "アンコール", "クレア", "アクアセキュリティ", "ELKスタック", "スプランク", "プロメテウス", "サイバーセキュリティ", "ベストプラクティス"]
+tags: ["ドッカー", "クーベルネッツ", "セキュリティ", "コンテナ", "ネットワークセキュリティ", "アールビーエーシー", "APIサーバー", "脆弱性（ぜいじゃくせい", "モニタリング", "ロギング", "ファイアウォール", "ティーエスエルエス", "Anchore", "クレア", "アクアセキュリティ", "ELKスタック", "スプランク", "プロメテウス", "サイバーセキュリティ", "ベストプラクティス"]
 cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "漫画のdockerコンテナと漫画のkubernetesポッドが手をつないで、鍵のかかった金庫の上に立っています。背景はコンピュータコードの壁です。"
 coverCaption: ""
@@ -22,7 +23,7 @@ Dockerを使用する際には、Docker Hubや信頼できるサードパーテ�
 
 ### パーミッションの制限
 
-パーミッションの制限は、Docker環境を保護するために不可欠な要素です。**Dockerデーモンにアクセスできるユーザ数を制限し、ユーザがタスクを実行するために必要なパーミッションのみを持つようにします。さらに、コンテナが必要最小限の権限で実行されていることを確認し、特権を持つコンテナは避けるようにします。
+パーミッションの制限は、Docker環境を保護するために不可欠な要素です。**Dockerデーモンにアクセスできるユーザー数を制限し**、ユーザーにはタスクの実行に必要な権限だけを与えてください。また、コンテナは必要最小限の権限で実行し、特権コンテナは避けてください。
 
 ### ネットワークセキュリティの実装
 
@@ -40,11 +41,11 @@ Docker環境を監視することは、セキュリティインシデントを�
 
 ### APIサーバーの安全性
 
-APIサーバーはKubernetes環境の重要なコンポーネントであり、これを保護することは不可欠です。**APIサーバーとの通信には、TLSなどの安全な接続を使用します。また、APIサーバーへのネットワークアクセスを制限し、RBACを使用してアクセスを制御してください。
+APIサーバーはKubernetes環境の重要なコンポーネントであり、保護が不可欠です。**APIサーバーとの通信には、TLSなどの安全な接続を使用してください**。また、**APIサーバーへのネットワークアクセスを制限し**、RBACを使ってアクセスを制御してください。
 
 ### 安全な画像を使用する
 
-Kubernetes環境の安全性を確保するためには、安全なイメージを使用することが重要です。**Ensure that images are scanned for vulnerabilities** before they are used in your environment.Anchore、Clair、Aqua Securityなどのツールを使用して、イメージをスキャンすることができます。
+Kubernetes環境の安全性を確保するには、安全なイメージを使用することが重要です。**環境で使用する前に、イメージの脆弱性をスキャンしてください**。Anchore、Clair、Aqua Securityなどのツールを使ってイメージをスキャンできます。
 
 ### ネットワークの安全性を確保する
 
@@ -60,11 +61,11 @@ ______
 
 ## 参考文献
 
--[Docker Security](https://docs.docker.com/engine/security/security/)
--[Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
--[Anchore Documentation](https://docs.anchore.com/)
--[Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
--[Aqua Security](https://www.aquasec.com/)
--[ELK Stack](https://www.elastic.co/what-is/elk-stack)
--[Splunk](https://www.splunk.com/)
--[Prometheus](https://prometheus.io/)
+- [Docker Security](https://docs.docker.com/engine/security/security/)
+- [Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
+- [Anchore Documentation](https://docs.anchore.com/)
+- [Clair Documentation](https://github.com/quay/clair/blob/master/Documentation/)
+- [Aqua Security](https://www.aquasec.com/)
+- [ELK Stack](https://www.elastic.co/what-is/elk-stack)
+- [Splunk](https://www.splunk.com/)
+- [Prometheus](https://prometheus.io/)

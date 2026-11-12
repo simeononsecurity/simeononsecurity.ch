@@ -1,10 +1,11 @@
 ---
 title: "Cómo proteger su entorno Docker y Kubernetes"
 date: 2023-04-04
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Conozca las mejores prácticas para proteger su entorno Docker y Kubernetes, incluido el uso de imágenes oficiales, la limitación de permisos y la implementación de la seguridad de red."
-tags: ["Docker", "Kubernetes", "Seguridad", "Contenedores", "Seguridad de las redes", "RBAC", "Servidor API", "Vulnerabilidades", "Supervisión", "Registro", "Cortafuegos", "TLS", "Anchore", "Clair", "Seguridad Aqua", "Pila ELK", "Splunk", "Prometeo", "Ciberseguridad", "Buenas prácticas"]
+tags: ["Docker", "Kubernetes", "Seguridad", "Contenedores", "Seguridad de las redes", "RBAC", "Servidor API", "Vulnerabilidades", "Supervisión", "Registro", "Cortafuegos", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometheus", "Ciberseguridad", "Buenas prácticas"]
 cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Un contenedor docker de dibujos animados y un pod kubernetes de dibujos animados cogidos de la mano y de pie encima de una caja fuerte cerrada. El fondo es un muro de código informático."
 coverCaption: ""
