@@ -133,7 +133,7 @@ Integration mit Cloud-Diensten
 
 ### Cloudbasiertes Firewall-Management
 
-Cloudbasiertes Firewall-Management ermöglicht es Unternehmen, ihre Firewall-Infrastruktur zentral über die Cloud zu verwalten und zu überwachen. Dieser Ansatz bietet **Flexibilität** bei Bereitstellung und Skalierung sowie **geringere Wartungs-** und **Betriebskosten**. Unternehmen können Firewalls an mehreren Standorten einfach **bereitstellen** und **konfigurieren**, damit Sicherheitsrichtlinien und Einstellungen überall einheitlich sind. Die Cloud ermöglicht außerdem **Echtzeiteinblicke** in Netzwerkverkehr und Sicherheitsereignisse. So lassen sich Bedrohungen **schneller erkennen** und **abwehren**.
+Cloudbasiertes Firewall-Management ermöglicht es Unternehmen, ihre Firewall-Infrastruktur zentral über die Cloud zu verwalten und zu überwachen. Dieser Ansatz bietet **Flexibilität** bei Bereitstellung und Skalierung sowie **geringere Wartungs- und Betriebskosten**. Unternehmen können Firewalls an mehreren Standorten einfach **bereitstellen** und **konfigurieren**, damit Sicherheitsrichtlinien und Einstellungen überall einheitlich sind. Die Cloud ermöglicht außerdem **Echtzeiteinblicke** in Netzwerkverkehr und Sicherheitsereignisse. So lassen sich Bedrohungen **schneller erkennen** und **abwehren**.
 
 ### Sichere Cloud-Konnektivität
 
