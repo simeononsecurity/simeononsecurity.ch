@@ -133,7 +133,7 @@ Integració amb serveis al núvol
 
 ### Gestió de tallafocs al núvol
 
-La gestió de tallafocs al núvol permet administrar i supervisar centralment la infraestructura de tallafocs des del núvol. Aquest enfocament ofereix **flexibilitat** de desplegament i escalabilitat, així com **costos de manteniment** i **operació més baixos**. Les empreses poden **desplegar** i **configurar** tallafocs a diverses ubicacions amb polítiques i configuracions coherents. El núvol també proporciona **visibilitat en temps real** del trànsit i dels esdeveniments de seguretat, cosa que facilita una **detecció més ràpida** i una **resposta** àgil a les amenaces.
+La gestió de tallafocs al núvol permet administrar i supervisar centralment la infraestructura de tallafocs des del núvol. Aquest enfocament ofereix **flexibilitat** de desplegament i escalabilitat, així com **costos de manteniment i operació més baixos**. Les empreses poden **desplegar** i **configurar** tallafocs a diverses ubicacions amb polítiques i configuracions coherents. El núvol també proporciona **visibilitat en temps real** del trànsit i dels esdeveniments de seguretat, cosa que facilita una **detecció més ràpida** i una **resposta** àgil a les amenaces.
 
 ### Connectivitat segura al núvol
 

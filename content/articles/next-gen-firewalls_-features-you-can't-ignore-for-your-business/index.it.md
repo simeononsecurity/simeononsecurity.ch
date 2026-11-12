@@ -133,7 +133,7 @@ Integrazione con i servizi cloud
 
 ### Gestione cloud dei firewall
 
-La gestione cloud dei firewall consente alle organizzazioni di amministrare e monitorare centralmente la propria infrastruttura firewall nel cloud. Questo approccio offre **flessibilità** nell'implementazione e nella scalabilità, oltre a **minori costi di manutenzione** e **gestione**. Le aziende possono **distribuire** e **configurare** facilmente i firewall in più sedi, mantenendo policy e impostazioni coerenti. L'approccio cloud offre anche **visibilità in tempo reale** sul traffico di rete e sugli eventi di sicurezza, consentendo un **rilevamento più rapido** e una **risposta più veloce** alle minacce.
+La gestione cloud dei firewall consente alle organizzazioni di amministrare e monitorare centralmente la propria infrastruttura firewall nel cloud. Questo approccio offre **flessibilità** nell'implementazione e nella scalabilità, oltre a **minori costi di manutenzione e di esercizio**. Le aziende possono **distribuire** e **configurare** facilmente i firewall in più sedi, mantenendo policy e impostazioni coerenti. L'approccio cloud offre anche **visibilità in tempo reale** sul traffico di rete e sugli eventi di sicurezza, consentendo un **rilevamento più rapido** e una **risposta più veloce** alle minacce.
 
 ### Connettività cloud sicura
 

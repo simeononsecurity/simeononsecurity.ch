@@ -133,7 +133,7 @@ Integración con servicios en la nube
 
 ### Administración de firewalls en la nube
 
-La administración de firewalls en la nube permite gestionar y supervisar de forma centralizada la infraestructura de firewalls desde la nube. Este enfoque ofrece **flexibilidad** de implementación y escalabilidad, además de **menores costos de mantenimiento** y **operación**. Las empresas pueden **implementar** y **configurar** firewalls en distintas ubicaciones, con políticas y configuraciones uniformes. El enfoque en la nube también ofrece **visibilidad en tiempo real** del tráfico y los eventos de seguridad, lo que facilita una **detección más rápida** y una **respuesta más ágil** ante las amenazas.
+La administración de firewalls en la nube permite gestionar y supervisar de forma centralizada la infraestructura de firewalls desde la nube. Este enfoque ofrece **flexibilidad** de implementación y escalabilidad, además de **menores costos de mantenimiento y operación**. Las empresas pueden **implementar** y **configurar** firewalls en distintas ubicaciones, con políticas y configuraciones uniformes. El enfoque en la nube también ofrece **visibilidad en tiempo real** del tráfico y los eventos de seguridad, lo que facilita una **detección más rápida** y una **respuesta más ágil** ante las amenazas.
 
 ### Conectividad segura con la nube
 

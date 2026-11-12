@@ -133,7 +133,7 @@ Integracja z usługami chmurowymi
 
 ### Zarządzanie zaporą w chmurze
 
-Zarządzanie zaporą w chmurze pozwala organizacjom centralnie administrować infrastrukturą zapory i monitorować ją z chmury. Takie podejście zapewnia **elastyczność** wdrożenia i skalowania oraz **niższe koszty utrzymania** i **operacyjne**. Firmy mogą łatwo **wdrażać** i **konfigurować** zapory w wielu lokalizacjach, zachowując spójne zasady bezpieczeństwa i konfiguracje. Podejście chmurowe zapewnia też **widoczność w czasie rzeczywistym** ruchu sieciowego i zdarzeń bezpieczeństwa, co przyspiesza **wykrywanie zagrożeń** i **reakcję** na nie.
+Zarządzanie zaporą w chmurze pozwala organizacjom centralnie administrować infrastrukturą zapory i monitorować ją z chmury. Takie podejście zapewnia **elastyczność** wdrożenia i skalowania oraz **niższe koszty utrzymania i koszty operacyjne**. Firmy mogą łatwo **wdrażać** i **konfigurować** zapory w wielu lokalizacjach, zachowując spójne zasady bezpieczeństwa i konfiguracje. Podejście chmurowe zapewnia też **widoczność w czasie rzeczywistym** ruchu sieciowego i zdarzeń bezpieczeństwa, co przyspiesza **wykrywanie zagrożeń** i **reakcję** na nie.
 
 ### Bezpieczna łączność z chmurą
 
