@@ -75,3 +75,13 @@
   article text, image paths, and structured data.
 - Distinguish automated structural checks from native-speaker review. Translation
   work does not establish a new technical fact-check of the English source.
+
+## Commit and Integrate Reviewed Bundles
+
+- After a bundle passes its assigned peer review and coordinator validation,
+  create one local commit containing only that article's translation files.
+- Merge each approved bundle into the existing local `master` or `main` checkout
+  as soon as validation and worktree state allow. Preserve unrelated changes and
+  avoid creating additional worktrees when an existing main checkout is usable.
+- Do not push, publish, or deploy unless the user separately authorizes that
+  action. A commit or local merge does not imply permission to publish.
