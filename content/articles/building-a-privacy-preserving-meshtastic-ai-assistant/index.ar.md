@@ -1,7 +1,7 @@
 ---
 title: "بناء مساعد ذكاء اصطناعي يحمي الخصوصية لـ Meshtastic"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "تجربة عملية لبناء مساعد ذكاء اصطناعي محلي لـ Meshtastic، مع إعدادات خاصة ووصول TCP عبر طابور وأدوات لجلب المعلومات ولوحة تحكم أكثر أمانًا."
@@ -34,9 +34,9 @@ coverCaption: ""
 استخدم الجسر نقطة نهاية محلية متوافقة مع OpenAI. أبقى ذلك واجهة النموذج بسيطة وخيار النموذج في ملف بيئة.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+عقدة Meshtastic -> TCP -> جسر Python -> نموذج محلي
                               |
-                              -> reply over Meshtastic
+                              -> رد عبر Meshtastic
 ```
 
 في البداية، أجاب المساعد عن الرسائل المباشرة فقط. قلل ذلك الضجيج أثناء اختبار مسار الرسائل.
@@ -46,10 +46,10 @@ Meshtastic node -> TCP -> Python bridge -> local model
 الرد على كل رسالة بث سيولد ضجيجًا ويستهلك وقت الإرسال اللاسلكي. يتجاهل الجسر الآن حركة القنوات العادية. يجب أن يبدأ طلب القناة ببادئة قابلة للضبط.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot ما هو المجموع الاختباري؟
+!bot weather <المدينة أو الرمز البريدي>
+!bot news <موضوع>
+!bot wiki <موضوع>
 ```
 
 لا تحتاج الرسائل المباشرة إلى البادئة. تبقي هذه القاعدة المساعد هادئًا أثناء محادثات mesh المعتادة.
@@ -72,9 +72,9 @@ BOT_PREFIX=!bot
 يعرض الجسر الآن واجهة تحكم صغيرة على الجهاز المحلي. تطلب لوحة التحكم منه الحالة وبيانات العقدة والقنوات. ولا تفتح اتصال Meshtastic ثانيًا.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+لوحة التحكم -> واجهة API للتحكم المحلي -> عملية الجسر في قائمة الانتظار -> عقدة TCP في Meshtastic
                                              ^
-Meshtastic TCP connection owned by the bridge
+اتصال TCP في Meshtastic يديره الجسر
 ```
 
 ينفذ الطابور طلبات التحكم بالتتابع. ويحمي قفل عمليات الكتابة المشتركة بين إجراءات لوحة التحكم وردود الروبوت. وتحافظ رسالة نبض على جلسات TCP الخاملة. ويسمح مراقب الاتصال لمدير الخدمات بإعادة تشغيل الجسر بعد الانقطاع.

@@ -1,12 +1,12 @@
 ---
 title: "Einen datenschutzfreundlichen KI-Assistenten für Meshtastic bauen"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Praxisbericht über einen lokalen KI-Assistenten für Meshtastic mit privater Konfiguration, eingereihtem TCP-Zugriff, Abrufwerkzeugen und einem sichereren Dashboard."
-genre: ["Netzwerksicherheit", "Datenschutz", "Open Source", "Automatisierung"]
-tags: ["Meshtastic-KI-Assistent", "Meshtastic-Automatisierung", "lokale KI", "Ollama", "Raspberry Pi", "LoRa-Mesh", "datenschutzfreundliche KI", "privates Netzwerk", "TCP-Warteschlange", "Flask-Dashboard", "Wikipedia-Abruf", "Wetter-API", "Nachrichten-RSS", "sichere Konfiguration", "Prompt-Sicherheit", "selbst gehostete KI", "Meshnetzwerke", "KI-Betrieb"]
+genre: ["Netzwerksicherheit", "Datenschutz", "Open-Source-Software", "Automatisierung"]
+tags: ["Meshtastic-KI-Assistent", "Meshtastic-Automatisierung", "lokale KI", "Ollama", "Raspberry Pi", "LoRa-Maschennetz", "datenschutzfreundliche KI", "privates Netzwerk", "TCP-Warteschlange", "Flask-Steuerkonsole", "Wikipedia-Abruf", "Wetter-API", "Nachrichten-RSS", "sichere Konfiguration", "Prompt-Sicherheit", "selbst gehostete KI", "Meshnetzwerke", "KI-Betrieb"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Technische Illustration robuster Mesh-Kommunikationsnetze"
 coverCaption: ""
@@ -34,9 +34,9 @@ Der erste Entwurf bestand aus vier Teilen:
 Die Brücke verwendete einen lokalen OpenAI-kompatiblen Endpunkt. So blieb die Modellschnittstelle einfach und die Modellauswahl in einer Umgebungsdatei.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Meshtastic-Knoten -> TCP -> Python-Brücke -> lokales Modell
                               |
-                              -> reply over Meshtastic
+                              -> Antwort über Meshtastic
 ```
 
 Zuerst beantwortete der Assistent nur direkte Nachrichten. Das verringerte Störungen, während der Nachrichtenpfad getestet wurde.
@@ -46,10 +46,10 @@ Zuerst beantwortete der Assistent nur direkte Nachrichten. Das verringerte Stör
 Jede Broadcast-Nachricht zu beantworten würde Funkzeit verbrauchen und unnötigen Verkehr erzeugen. Die Brücke ignoriert gewöhnlichen Kanalverkehr. Eine Kanal-Anfrage muss mit einem konfigurierbaren Präfix beginnen.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot was ist eine Prüfsumme?
+!bot weather <Stadt oder Postleitzahl>
+!bot news <Thema>
+!bot wiki <Thema>
 ```
 
 Direktnachrichten benötigen kein Präfix. So bleibt der Assistent in gewöhnlichen Meshgesprächen still.
@@ -72,9 +72,9 @@ Die Lösung war, der Brücke als einzigem Prozess die TCP-Verbindung zuzuweisen.
 Die Brücke stellt nun eine kleine Steuerungs-API auf dem lokalen Rechner bereit. Das Dashboard fragt darüber Status, Knotendaten und Kanaldaten ab. Es öffnet keine zweite Meshtastic-Verbindung.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Übersicht -> lokale Steuerungs-API -> eingereihter Brückenvorgang -> Meshtastic-TCP-Knoten
                                              ^
-Meshtastic TCP connection owned by the bridge
+Die Meshtastic-TCP-Verbindung verwaltet die Brücke
 ```
 
 Eine Warteschlange ordnet Steuerungsanfragen nacheinander. Eine Sperre schützt Schreibvorgänge, die Dashboardoperationen und Bot-Antworten gemeinsam verwenden. Ein Heartbeat hält ungenutzte TCP-Sitzungen offen. Eine Verbindungsüberwachung lässt den Dienstemanager die Brücke nach einer Trennung neu starten.

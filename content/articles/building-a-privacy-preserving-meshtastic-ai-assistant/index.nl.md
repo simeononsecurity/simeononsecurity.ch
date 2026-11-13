@@ -1,12 +1,12 @@
 ---
 title: "Een privacyvriendelijke AI-assistent voor Meshtastic bouwen"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Praktijkervaring met een lokale AI-assistent voor Meshtastic, met privéconfiguratie, TCP-toegang via een wachtrij, ophaaltools en een veiliger dashboard."
-genre: ["Netwerkbeveiliging", "Privacy", "Open source", "Automatisering"]
-tags: ["Meshtastic AI-assistent", "Meshtastic-automatisering", "lokale AI", "Ollama", "Raspberry Pi", "LoRa-mesh", "privacyvriendelijke AI", "privénetwerk", "TCP-wachtrij", "Flask-dashboard", "Wikipedia-ophaling", "weer-API", "nieuws-RSS", "veilige configuratie", "promptveiligheid", "zelfgehoste AI", "meshnetwerken", "AI-operaties"]
+genre: ["Netwerkbeveiliging", "Gegevensbescherming", "Openbronsoftware", "Automatisering"]
+tags: ["Meshtastic AI-assistent", "Meshtastic-automatisering", "lokale AI", "Ollama", "Raspberry Pi", "LoRa-meshnetwerk", "privacyvriendelijke AI", "privénetwerk", "TCP-wachtrij", "Flask-bedieningspaneel", "Wikipedia-ophaling", "weer-API", "nieuws-RSS", "veilige configuratie", "promptveiligheid", "zelfgehoste AI", "meshnetwerken", "AI-operaties"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Technische illustratie van veerkrachtige meshcommunicatienetwerken"
 coverCaption: ""
@@ -34,9 +34,9 @@ Het eerste ontwerp bestond uit vier onderdelen:
 De brug gebruikte een lokale endpoint die compatibel is met OpenAI. Daardoor bleef de modelinterface eenvoudig en kon ik het model in een omgevingsbestand kiezen.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Meshtastic-node -> TCP -> Python-brug -> lokaal model
                               |
-                              -> reply over Meshtastic
+                              -> antwoord via Meshtastic
 ```
 
 De assistent beantwoordde eerst directe berichten. Zo bleef het rustig terwijl ik het berichtenpad testte.
@@ -46,10 +46,10 @@ De assistent beantwoordde eerst directe berichten. Zo bleef het rustig terwijl i
 Elk uitgezonden kanaalbericht beantwoorden zou ruis veroorzaken en zendtijd gebruiken. De brug negeert gewone kanaalberichten. Een kanaalverzoek moet met een instelbaar voorvoegsel beginnen.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot wat is een controlesom?
+!bot weather <stad of postcode>
+!bot news <onderwerp>
+!bot wiki <onderwerp>
 ```
 
 Directe berichten hebben geen voorvoegsel nodig. De regel houdt de assistent stil tijdens gewone meshgesprekken.
@@ -72,9 +72,9 @@ Ik loste dit op door de brug de enige eigenaar van de TCP-verbinding te maken.
 De brug biedt nu een kleine lokale besturings-API. Het dashboard vraagt de brug om status, nodegegevens en kanaalgegevens. Het opent nooit een tweede Meshtastic-verbinding.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Bedieningspaneel -> lokale besturings-API -> actie in de brugwachtrij -> Meshtastic TCP-node
                                              ^
-Meshtastic TCP connection owned by the bridge
+De TCP-verbinding van Meshtastic wordt beheerd door de brug
 ```
 
 Een wachtrij verwerkt besturingsverzoeken na elkaar. Een vergrendeling beschermt schrijfbewerkingen die dashboardtaken en botantwoorden delen. Een heartbeat houdt inactieve TCP-sessies open. Een verbindingsbewaker laat de servicemanager de brug na een verbreking opnieuw starten.

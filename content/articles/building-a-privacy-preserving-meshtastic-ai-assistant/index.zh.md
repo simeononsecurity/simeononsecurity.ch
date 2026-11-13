@@ -1,7 +1,7 @@
 ---
 title: "为 Meshtastic 构建保护隐私的 AI 助手"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "介绍为 Meshtastic 构建本地 AI 助手的实践经验，涵盖私密配置、排队处理的 TCP 访问、信息检索工具和更安全的仪表板。"
@@ -34,9 +34,9 @@ Meshtastic 通过低功耗 LoRa 无线电传输文本。Ollama 可在本地硬�
 桥接程序使用兼容 OpenAI 的本地端点。这样模型接口保持简单，模型选择也保存在环境文件中。
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Meshtastic 节点 -> TCP -> Python 桥接程序 -> 本地模型
                               |
-                              -> reply over Meshtastic
+                              -> 通过 Meshtastic 回复
 ```
 
 助手起初只回复直接消息。这样在测试消息路径时能减少噪声。
@@ -46,10 +46,10 @@ Meshtastic node -> TCP -> Python bridge -> local model
 回复每条广播消息会产生噪声并占用无线电时隙。现在桥接程序会忽略普通频道流量。频道请求必须以可配置的前缀开头。
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot 什么是校验和？
+!bot weather <城市或邮政编码>
+!bot news <主题>
+!bot wiki <主题>
 ```
 
 直接消息不需要前缀。这个规则让助手在普通网状网络对话中保持安静。
@@ -72,9 +72,9 @@ BOT_PREFIX=!bot
 现在桥接程序在本机提供一个小型控制 API。仪表板通过它读取状态、节点数据和频道数据，从不建立第二条 Meshtastic 连接。
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+仪表板 -> 本地控制 API -> 排队的桥接操作 -> Meshtastic TCP 节点
                                              ^
-Meshtastic TCP connection owned by the bridge
+Meshtastic TCP 连接由桥接程序管理
 ```
 
 队列会按顺序处理控制请求。锁可保护仪表板操作与机器人回复共用的写入操作。心跳让空闲 TCP 会话保持连接。连接监视器可在断开后让服务管理器重启桥接程序。

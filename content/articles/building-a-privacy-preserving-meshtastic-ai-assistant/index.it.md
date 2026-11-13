@@ -1,11 +1,11 @@
 ---
 title: "Creare un assistente AI rispettoso della privacy per Meshtastic"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Resoconto pratico di un assistente AI locale per Meshtastic con configurazione privata, accesso TCP in coda, strumenti di recupero delle fonti e dashboard più sicura."
-genre: ["Sicurezza di rete", "Privacy", "Open source", "Automazione"]
+genre: ["Sicurezza di rete", "Riservatezza", "Software open source", "Automazione"]
 tags: ["assistente AI Meshtastic", "automazione Meshtastic", "AI locale", "Ollama", "Raspberry Pi", "rete mesh LoRa", "AI rispettosa della privacy", "rete privata", "coda TCP", "dashboard Flask", "recupero da Wikipedia", "API meteo", "RSS notizie", "configurazione sicura", "sicurezza dei prompt", "AI self-hosted", "reti mesh", "operazioni AI"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Illustrazione tecnica di reti di comunicazione mesh resilienti"
@@ -34,9 +34,9 @@ Il primo progetto aveva quattro componenti:
 Il bridge usava un endpoint locale compatibile con OpenAI. Così l'interfaccia del modello restava semplice e la scelta del modello rimaneva in un file di ambiente.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Nodo Meshtastic -> TCP -> ponte Python -> modello locale
                               |
-                              -> reply over Meshtastic
+                              -> risposta tramite Meshtastic
 ```
 
 All'inizio l'assistente rispondeva soltanto ai messaggi diretti. Questo riduceva il rumore durante i test del percorso dei messaggi.
@@ -46,10 +46,10 @@ All'inizio l'assistente rispondeva soltanto ai messaggi diretti. Questo riduceva
 Rispondere a ogni messaggio broadcast avrebbe creato rumore e occupato tempo radio. Il bridge ora ignora il normale traffico di canale. Una richiesta sul canale deve iniziare con un prefisso configurabile.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot che cos'è un checksum?
+!bot weather <città o codice postale>
+!bot news <argomento>
+!bot wiki <argomento>
 ```
 
 I messaggi diretti non richiedono il prefisso. Questa regola mantiene silenzioso l'assistente durante le normali conversazioni mesh.
@@ -72,9 +72,9 @@ Ho risolto assegnando al bridge la proprietà esclusiva della connessione TCP.
 Ora il bridge espone una piccola API di controllo sulla macchina locale. La dashboard chiede al bridge lo stato, i dati del nodo e quelli dei canali. Non apre mai una seconda connessione Meshtastic.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Pannello -> API di controllo locale -> operazione del ponte in coda -> nodo TCP Meshtastic
                                              ^
-Meshtastic TCP connection owned by the bridge
+La connessione TCP di Meshtastic è gestita dal ponte
 ```
 
 Una coda serializza le richieste di controllo. Un lock protegge le scritture condivise dalle operazioni della dashboard e dalle risposte del bot. Un heartbeat mantiene attive le sessioni TCP inattive. Un watchdog della connessione permette al gestore dei servizi di riavviare il bridge dopo una disconnessione.

@@ -1,11 +1,11 @@
 ---
 title: "Créer un assistant IA respectueux de la vie privée pour Meshtastic"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Retour pratique sur un assistant IA local pour Meshtastic, avec configuration privée, accès TCP en file d'attente, outils de récupération et tableau de bord plus sûr."
-genre: ["Sécurité réseau", "Vie privée", "Open source", "Automatisation"]
+genre: ["Sécurité réseau", "Vie privée", "Logiciel à code source ouvert", "Automatisation"]
 tags: ["assistant IA Meshtastic", "automatisation Meshtastic", "IA locale", "Ollama", "Raspberry Pi", "réseau LoRa", "IA respectueuse de la vie privée", "réseau privé", "file d'attente TCP", "tableau de bord Flask", "récupération Wikipédia", "API météo", "flux RSS d'actualités", "configuration sécurisée", "sécurité des prompts", "IA auto-hébergée", "réseaux mesh", "opérations IA"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Illustration technique de réseaux de communication mesh résilients"
@@ -34,9 +34,9 @@ La première conception comportait quatre éléments :
 Le pont utilisait un point de terminaison local compatible avec OpenAI. L'interface du modèle restait ainsi simple et le choix du modèle se trouvait dans un fichier d'environnement.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Nœud Meshtastic -> TCP -> pont Python -> modèle local
                               |
-                              -> reply over Meshtastic
+                              -> réponse via Meshtastic
 ```
 
 Au début, l'assistant répondait uniquement aux messages directs. Cela limitait le bruit pendant les tests du chemin des messages.
@@ -46,10 +46,10 @@ Au début, l'assistant répondait uniquement aux messages directs. Cela limitait
 Répondre à chaque message diffusé aurait créé du bruit et consommé du temps d'antenne. Le pont ignore maintenant le trafic de canal ordinaire. Une demande dans un canal doit commencer par un préfixe configurable.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot qu'est-ce qu'une somme de contrôle ?
+!bot weather <ville ou code postal>
+!bot news <sujet>
+!bot wiki <sujet>
 ```
 
 Les messages directs n'ont pas besoin du préfixe. Cette règle laisse l'assistant silencieux pendant les conversations mesh ordinaires.
@@ -72,9 +72,9 @@ La solution a consisté à faire du pont l'unique propriétaire de la connexion 
 Le pont expose maintenant une petite API de contrôle locale. Le tableau de bord demande au pont l'état, les données du nœud et celles des canaux. Il n'ouvre jamais une deuxième connexion Meshtastic.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Tableau de bord -> API de contrôle locale -> opération du pont mise en file d'attente -> nœud TCP Meshtastic
                                              ^
-Meshtastic TCP connection owned by the bridge
+La connexion TCP de Meshtastic est gérée par le pont
 ```
 
 Une file sérialise les demandes de contrôle. Un verrou protège les écritures partagées par les opérations du tableau de bord et les réponses du bot. Un heartbeat garde ouvertes les sessions TCP inactives. Un watchdog de connexion permet au gestionnaire de services de redémarrer le pont après une déconnexion.

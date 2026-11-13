@@ -1,11 +1,11 @@
 ---
 title: "Budowa asystenta AI chroniącego prywatność dla Meshtastic"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Praktyczny opis lokalnego asystenta AI dla Meshtastic z prywatną konfiguracją, kolejkowanym dostępem TCP, narzędziami pobierania danych i bezpieczniejszym panelem."
-genre: ["Bezpieczeństwo sieci", "Prywatność", "Open source", "Automatyzacja"]
+genre: ["Bezpieczeństwo sieci", "Prywatność", "Oprogramowanie open source", "Automatyzacja"]
 tags: ["Asystent AI Meshtastic", "automatyzacja Meshtastic", "lokalna AI", "Ollama", "Raspberry Pi", "sieć LoRa", "AI chroniąca prywatność", "sieć prywatna", "kolejka TCP", "panel Flask", "pobieranie z Wikipedii", "API pogody", "RSS z wiadomościami", "bezpieczna konfiguracja", "bezpieczeństwo promptów", "samodzielnie hostowane AI", "sieci mesh", "operacje AI"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Ilustracja techniczna przedstawiająca odporne sieci komunikacyjne mesh"
@@ -34,9 +34,9 @@ Pierwszy projekt składał się z czterech części:
 Most korzystał z lokalnego punktu końcowego zgodnego z OpenAI. Dzięki temu interfejs modelu pozostał prosty, a wybór modelu znajdował się w pliku środowiskowym.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Węzeł Meshtastic -> TCP -> most Python -> model lokalny
                               |
-                              -> reply over Meshtastic
+                              -> odpowiedź przez Meshtastic
 ```
 
 Na początku asystent odpowiadał tylko na wiadomości bezpośrednie. Ograniczało to szum podczas testów ścieżki wiadomości.
@@ -46,10 +46,10 @@ Na początku asystent odpowiadał tylko na wiadomości bezpośrednie. Ogranicza�
 Odpowiadanie na każdą wiadomość rozgłoszeniową powodowałoby szum i zajmowało czas antenowy. Most ignoruje zwykły ruch kanałowy. Żądanie kanałowe musi zaczynać się od konfigurowalnego prefiksu.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot czym jest suma kontrolna?
+!bot weather <miasto lub kod pocztowy>
+!bot news <temat>
+!bot wiki <temat>
 ```
 
 Wiadomości bezpośrednie nie wymagają prefiksu. Ta reguła utrzymuje asystenta w ciszy podczas zwykłych rozmów w sieci mesh.
@@ -72,9 +72,9 @@ Rozwiązaniem było przydzielenie mostowi wyłącznej odpowiedzialności za TCP.
 Most udostępnia teraz niewielkie lokalne API sterujące. Panel pobiera przez most stan, dane węzła i kanałów. Nie otwiera drugiego połączenia Meshtastic.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Panel -> lokalne API sterujące -> operacja mostu w kolejce -> węzeł TCP Meshtastic
                                              ^
-Meshtastic TCP connection owned by the bridge
+Połączeniem TCP Meshtastic zarządza most
 ```
 
 Kolejka szereguje żądania sterujące. Blokada chroni zapisy współdzielone przez operacje panelu i odpowiedzi bota. Mechanizm heartbeat utrzymuje bezczynne sesje TCP. Monitor połączenia pozwala menedżerowi usług ponownie uruchomić most po rozłączeniu.

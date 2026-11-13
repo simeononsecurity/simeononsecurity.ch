@@ -1,12 +1,12 @@
 ---
 title: "Meshtastic के लिए निजता-सुरक्षित AI सहायक बनाना"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Meshtastic के लिए स्थानीय AI सहायक बनाने का व्यावहारिक अनुभव, जिसमें निजी कॉन्फ़िगरेशन, कतारबद्ध TCP पहुँच, सूचना-प्राप्ति टूल और अधिक सुरक्षित डैशबोर्ड शामिल हैं।"
 genre: ["नेटवर्क सुरक्षा", "निजता", "ओपन सोर्स", "स्वचालन"]
-tags: ["Meshtastic AI सहायक", "Meshtastic स्वचालन", "स्थानीय AI", "Ollama", "Raspberry Pi", "LoRa mesh", "निजता-सुरक्षित AI", "निजी नेटवर्क", "TCP कतार", "Flask डैशबोर्ड", "Wikipedia से जानकारी", "मौसम API", "समाचार RSS", "सुरक्षित कॉन्फ़िगरेशन", "प्रॉम्प्ट सुरक्षा", "स्वयं होस्ट किया AI", "mesh नेटवर्क", "AI संचालन"]
+tags: ["Meshtastic AI सहायक", "Meshtastic स्वचालन", "स्थानीय AI", "Ollama", "Raspberry Pi", "LoRa जाल", "निजता-सुरक्षित AI", "निजी नेटवर्क", "TCP कतार", "Flask डैशबोर्ड", "Wikipedia से जानकारी", "मौसम API", "समाचार RSS", "सुरक्षित कॉन्फ़िगरेशन", "प्रॉम्प्ट सुरक्षा", "स्वयं होस्ट किया AI", "mesh नेटवर्क", "AI संचालन"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "लचीले mesh संचार नेटवर्क दिखाने वाला तकनीकी चित्र"
 coverCaption: ""
@@ -34,9 +34,9 @@ Meshtastic कम बिजली वाले LoRa रेडियो से �
 Bridge ने OpenAI-संगत स्थानीय endpoint इस्तेमाल किया। इससे मॉडल इंटरफ़ेस सरल रहा और मॉडल का चुनाव environment फ़ाइल में रखा गया।
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Meshtastic नोड -> TCP -> Python ब्रिज -> स्थानीय मॉडल
                               |
-                              -> reply over Meshtastic
+                              -> Meshtastic के माध्यम से जवाब
 ```
 
 सहायक पहले केवल सीधे संदेशों का जवाब देता था। इससे संदेश मार्ग का परीक्षण करते समय अनावश्यक शोर कम हुआ।
@@ -46,10 +46,10 @@ Meshtastic node -> TCP -> Python bridge -> local model
 हर प्रसारण संदेश का जवाब देना शोर पैदा करता और रेडियो समय खर्च करता। अब bridge सामान्य चैनल ट्रैफ़िक को अनदेखा करता है। चैनल अनुरोध एक कॉन्फ़िगर किए जा सकने वाले prefix से शुरू होना चाहिए।
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot चेकसम क्या है?
+!bot weather <शहर या डाक कोड>
+!bot news <विषय>
+!bot wiki <विषय>
 ```
 
 सीधे संदेशों के लिए prefix आवश्यक नहीं है। यह नियम सामान्य mesh बातचीत के दौरान सहायक को शांत रखता है।
@@ -72,9 +72,9 @@ BOT_PREFIX=!bot
 अब bridge स्थानीय मशीन पर छोटा नियंत्रण API उपलब्ध कराता है। डैशबोर्ड स्थिति, नोड डेटा और चैनल डेटा के लिए bridge से पूछता है। वह दूसरी Meshtastic connection नहीं खोलता।
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+डैशबोर्ड -> स्थानीय नियंत्रण API -> कतार में रखा ब्रिज ऑपरेशन -> Meshtastic TCP नोड
                                              ^
-Meshtastic TCP connection owned by the bridge
+Meshtastic TCP कनेक्शन ब्रिज के नियंत्रण में है
 ```
 
 कतार नियंत्रण अनुरोधों को क्रम से चलाती है। Lock डैशबोर्ड संचालन और bot जवाबों के साझा लेखन की सुरक्षा करता है। Heartbeat निष्क्रिय TCP सत्र खुले रखता है। Connection watchdog disconnect के बाद सेवा प्रबंधक को bridge फिर शुरू करने देता है।

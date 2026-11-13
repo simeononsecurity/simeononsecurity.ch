@@ -1,11 +1,11 @@
 ---
 title: "Construirea unui asistent AI care protejează confidențialitatea pentru Meshtastic"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Experiență practică de construire a unui asistent AI local pentru Meshtastic, cu configurare privată, acces TCP prin coadă, instrumente de preluare și un panou mai sigur."
-genre: ["Securitatea rețelelor", "Confidențialitate", "Open source", "Automatizare"]
+genre: ["Securitatea rețelelor", "Confidențialitate", "Software cu sursă deschisă", "Automatizare"]
 tags: ["asistent AI Meshtastic", "automatizare Meshtastic", "AI local", "Ollama", "Raspberry Pi", "rețea LoRa", "AI care protejează confidențialitatea", "rețea privată", "coadă TCP", "panou Flask", "preluare Wikipedia", "API meteo", "RSS de știri", "configurare sigură", "siguranța prompturilor", "AI găzduit local", "rețele mesh", "operațiuni AI"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "Ilustrație tehnică a rețelelor de comunicații mesh reziliente"
@@ -34,9 +34,9 @@ Prima variantă avea patru părți:
 Puntea folosea un endpoint local compatibil cu OpenAI. Astfel, interfața modelului rămânea simplă, iar alegerea modelului era păstrată într-un fișier de mediu.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Nod Meshtastic -> TCP -> punte Python -> model local
                               |
-                              -> reply over Meshtastic
+                              -> răspuns prin Meshtastic
 ```
 
 La început, asistentul răspundea numai la mesaje directe. Acest lucru a redus zgomotul în timpul testării traseului mesajelor.
@@ -46,10 +46,10 @@ La început, asistentul răspundea numai la mesaje directe. Acest lucru a redus 
 Răspunsul la fiecare mesaj difuzat ar fi creat zgomot și ar fi ocupat timpul radio. Puntea ignoră acum traficul obișnuit de canal. O solicitare trimisă pe canal trebuie să înceapă cu un prefix configurabil.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot ce este o sumă de control?
+!bot weather <oraș sau cod poștal>
+!bot news <subiect>
+!bot wiki <subiect>
 ```
 
 Mesajele directe nu au nevoie de prefix. Regula păstrează asistentul tăcut în conversațiile obișnuite din rețeaua mesh.
@@ -72,9 +72,9 @@ Soluția a fost ca puntea să fie unicul proprietar al conexiunii TCP.
 Acum puntea expune un API mic de control pe mașina locală. Panoul cere punții starea, datele nodului și datele canalelor. Nu deschide niciodată o a doua conexiune Meshtastic.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Panou -> API local de control -> operațiune a punții în coadă -> nod TCP Meshtastic
                                              ^
-Meshtastic TCP connection owned by the bridge
+Conexiunea TCP Meshtastic este gestionată de punte
 ```
 
 O coadă serializează cererile de control. O blocare protejează scrierile partajate de operațiile panoului și răspunsurile botului. Un heartbeat menține deschise sesiunile TCP inactive. Un watchdog al conexiunii permite managerului de servicii să repornească puntea după o deconectare.

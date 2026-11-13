@@ -1,12 +1,12 @@
 ---
 title: "Meshtastic-এর জন্য গোপনীয়তা-সুরক্ষিত AI সহকারী তৈরি"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Meshtastic-এর জন্য স্থানীয় AI সহকারী তৈরির ব্যবহারিক অভিজ্ঞতা, যেখানে ব্যক্তিগত কনফিগারেশন, সারিবদ্ধ TCP অ্যাক্সেস, তথ্য সংগ্রহের টুল এবং আরও নিরাপদ ড্যাশবোর্ড রয়েছে।"
 genre: ["নেটওয়ার্ক নিরাপত্তা", "গোপনীয়তা", "ওপেন সোর্স", "স্বয়ংক্রিয়করণ"]
-tags: ["Meshtastic AI সহকারী", "Meshtastic স্বয়ংক্রিয়করণ", "স্থানীয় AI", "Ollama", "Raspberry Pi", "LoRa mesh", "গোপনীয়তা-সুরক্ষিত AI", "ব্যক্তিগত নেটওয়ার্ক", "TCP সারি", "Flask ড্যাশবোর্ড", "Wikipedia তথ্য সংগ্রহ", "আবহাওয়া API", "সংবাদ RSS", "নিরাপদ কনফিগারেশন", "প্রম্পট নিরাপত্তা", "নিজস্ব হোস্টে AI", "mesh নেটওয়ার্ক", "AI পরিচালনা"]
+tags: ["Meshtastic AI সহকারী", "Meshtastic স্বয়ংক্রিয়করণ", "স্থানীয় AI", "Ollama", "Raspberry Pi", "LoRa জাল", "গোপনীয়তা-সুরক্ষিত AI", "ব্যক্তিগত নেটওয়ার্ক", "TCP সারি", "Flask ড্যাশবোর্ড", "Wikipedia তথ্য সংগ্রহ", "আবহাওয়া API", "সংবাদ RSS", "নিরাপদ কনফিগারেশন", "প্রম্পট নিরাপত্তা", "নিজস্ব হোস্টে AI", "mesh নেটওয়ার্ক", "AI পরিচালনা"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"
 coverAlt: "স্থিতিস্থাপক mesh যোগাযোগ নেটওয়ার্কের একটি প্রযুক্তিগত চিত্র"
 coverCaption: ""
@@ -34,9 +34,9 @@ Meshtastic কম-শক্তির LoRa রেডিও দিয়ে লে
 ব্রিজটি OpenAI-সামঞ্জস্যপূর্ণ স্থানীয় endpoint ব্যবহার করত। এতে মডেল ইন্টারফেস সহজ ছিল এবং পরিবেশ ফাইলে মডেল বেছে নেওয়া যেত।
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Meshtastic নোড -> TCP -> Python ব্রিজ -> স্থানীয় মডেল
                               |
-                              -> reply over Meshtastic
+                              -> Meshtastic-এর মাধ্যমে উত্তর
 ```
 
 সহকারী প্রথমে শুধু সরাসরি বার্তার উত্তর দিত। বার্তার পথ পরীক্ষা করার সময় এতে অপ্রয়োজনীয় শব্দ কমেছিল।
@@ -46,10 +46,10 @@ Meshtastic node -> TCP -> Python bridge -> local model
 প্রতিটি সম্প্রচারিত বার্তার উত্তর দিলে শব্দ বাড়ত এবং রেডিও সময় খরচ হতো। ব্রিজ এখন সাধারণ চ্যানেল ট্রাফিক উপেক্ষা করে। চ্যানেলের অনুরোধ একটি কনফিগারযোগ্য prefix দিয়ে শুরু হতে হয়।
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot চেকসাম কী?
+!bot weather <শহর বা পোস্টাল কোড>
+!bot news <বিষয়>
+!bot wiki <বিষয়>
 ```
 
 সরাসরি বার্তায় prefix দরকার হয় না। সাধারণ mesh কথোপকথনের সময় এই নিয়ম সহকারীকে নীরব রাখে।
@@ -72,9 +72,9 @@ BOT_PREFIX=!bot
 এখন ব্রিজ স্থানীয় মেশিনে ছোট একটি কন্ট্রোল API দেয়। ড্যাশবোর্ড অবস্থা, নোডের তথ্য ও চ্যানেলের তথ্য ব্রিজের কাছ থেকে নেয়। এটি কখনো দ্বিতীয় Meshtastic সংযোগ খোলে না।
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+ড্যাশবোর্ড -> স্থানীয় নিয়ন্ত্রণ API -> সারিতে থাকা ব্রিজ অপারেশন -> Meshtastic TCP নোড
                                              ^
-Meshtastic TCP connection owned by the bridge
+Meshtastic TCP সংযোগটি ব্রিজ পরিচালনা করে
 ```
 
 একটি সারি কন্ট্রোল অনুরোধগুলো ক্রমানুসারে চালায়। একটি lock ড্যাশবোর্ডের কাজ ও bot উত্তরের মধ্যে ভাগ করা write সুরক্ষিত রাখে। Heartbeat নিষ্ক্রিয় TCP session খোলা রাখে। সংযোগ watchdog বিচ্ছিন্ন হওয়ার পর সার্ভিস ম্যানেজারকে ব্রিজ পুনরায় চালু করতে দেয়।

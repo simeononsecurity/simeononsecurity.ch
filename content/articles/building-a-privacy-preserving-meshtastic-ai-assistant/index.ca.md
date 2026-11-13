@@ -1,7 +1,7 @@
 ---
 title: "Crear un assistent d'IA que protegeix la privadesa per a Meshtastic"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Experiència pràctica amb un assistent d'IA local per a Meshtastic, amb configuració privada, accés TCP en cua, eines de recuperació i un tauler més segur."
@@ -34,9 +34,9 @@ El primer disseny tenia quatre parts:
 El pont feia servir un endpoint local compatible amb OpenAI. Això mantenia senzilla la interfície del model i deixava la tria del model en un fitxer d'entorn.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Node Meshtastic -> TCP -> pont Python -> model local
                               |
-                              -> reply over Meshtastic
+                              -> resposta a través de Meshtastic
 ```
 
 Al principi, l'assistent només responia a missatges directes. Això reduïa el soroll mentre es provava el recorregut dels missatges.
@@ -46,10 +46,10 @@ Al principi, l'assistent només responia a missatges directes. Això reduïa el 
 Respondre a tots els missatges de difusió generaria soroll i consumiria temps de ràdio. Ara el pont ignora el trànsit ordinari dels canals. Una petició al canal ha de començar amb un prefix configurable.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot què és una suma de verificació?
+!bot weather <ciutat o codi postal>
+!bot news <tema>
+!bot wiki <tema>
 ```
 
 Els missatges directes no necessiten el prefix. Aquesta regla manté l'assistent en silenci durant les converses mesh habituals.
@@ -72,9 +72,9 @@ La solució va ser deixar la connexió TCP sota el control exclusiu del pont.
 Ara el pont exposa una petita API de control a la màquina local. El tauler demana al pont l'estat i les dades del node i dels canals. Mai no obre una segona connexió Meshtastic.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Tauler -> API de control local -> operació del pont a la cua -> node TCP de Meshtastic
                                              ^
-Meshtastic TCP connection owned by the bridge
+La connexió TCP de Meshtastic la gestiona el pont
 ```
 
 Una cua serialitza les peticions de control. Un bloqueig protegeix les escriptures compartides per les operacions del tauler i les respostes del bot. Un heartbeat manté obertes les sessions TCP inactives. Un vigilant de connexió permet que el gestor de serveis reiniciï el pont després d'una desconnexió.

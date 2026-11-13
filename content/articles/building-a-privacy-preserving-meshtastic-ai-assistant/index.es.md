@@ -1,7 +1,7 @@
 ---
 title: "Crear un asistente de IA que proteja la privacidad para Meshtastic"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Experiencia práctica al crear un asistente de IA local para Meshtastic, con configuración privada, acceso TCP en cola, herramientas de recuperación y un panel más seguro."
@@ -34,9 +34,9 @@ El diseño inicial tenía cuatro partes:
 El puente usaba un endpoint local compatible con OpenAI. Así, la interfaz del modelo seguía siendo sencilla y la selección del modelo quedaba en un archivo de entorno.
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Nodo Meshtastic -> TCP -> puente Python -> modelo local
                               |
-                              -> reply over Meshtastic
+                              -> respuesta a través de Meshtastic
 ```
 
 Al principio, el asistente respondía solo a mensajes directos. Así reducía el ruido mientras se probaba la ruta de los mensajes.
@@ -46,10 +46,10 @@ Al principio, el asistente respondía solo a mensajes directos. Así reducía el
 Responder a todos los mensajes de difusión generaría ruido y consumiría tiempo de radio. El puente ahora ignora el tráfico normal del canal. Una solicitud en el canal debe empezar con un prefijo configurable.
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot ¿qué es una suma de comprobación?
+!bot weather <ciudad o código postal>
+!bot news <tema>
+!bot wiki <tema>
 ```
 
 Los mensajes directos no necesitan el prefijo. Esta regla mantiene al asistente en silencio durante las conversaciones habituales de la red mesh.
@@ -72,9 +72,9 @@ La solución fue convertir el puente en el único propietario de la conexión TC
 Ahora el puente expone una pequeña API de control en el equipo local. El panel le solicita el estado y los datos del nodo y los canales. Nunca abre una segunda conexión Meshtastic.
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+Panel -> API de control local -> operación del puente en cola -> nodo TCP de Meshtastic
                                              ^
-Meshtastic TCP connection owned by the bridge
+La conexión TCP de Meshtastic la gestiona el puente
 ```
 
 Una cola serializa las solicitudes de control. Un bloqueo protege las escrituras compartidas por las operaciones del panel y las respuestas del bot. Un heartbeat mantiene abiertas las sesiones TCP inactivas. Un supervisor de conexión permite que el gestor de servicios reinicie el puente tras una desconexión.

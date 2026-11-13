@@ -1,7 +1,7 @@
 ---
 title: "プライバシーを守るMeshtastic向けAIアシスタントの構築"
 date: 2026-09-13
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "非公開の設定、キュー経由のTCPアクセス、情報取得ツール、安全性を高めたダッシュボードを備えるMeshtastic用ローカルAIアシスタントの構築記録。"
@@ -34,9 +34,9 @@ Meshtasticは低消費電力のLoRa無線でテキストを送信します。Oll
 ブリッジはOpenAI互換のローカルエンドポイントを使いました。モデルのインターフェースを単純に保ち、モデルの選択を環境ファイルに置けました。
 
 ```text
-Meshtastic node -> TCP -> Python bridge -> local model
+Meshtasticノード -> TCP -> Pythonブリッジ -> ローカルモデル
                               |
-                              -> reply over Meshtastic
+                              -> Meshtastic経由の返信
 ```
 
 最初はダイレクトメッセージだけに回答しました。メッセージ経路を試す間のノイズを減らせました。
@@ -46,10 +46,10 @@ Meshtastic node -> TCP -> Python bridge -> local model
 すべてのブロードキャストに回答するとノイズが増え、無線の送信時間を消費します。現在のブリッジは通常のチャンネル通信を無視します。チャンネルへの要求は、設定可能なプレフィックスで始める必要があります。
 
 ```text
-!bot what is a checksum?
-!bot weather <city or postal code>
-!bot news <topic>
-!bot wiki <subject>
+!bot チェックサムとは何ですか？
+!bot weather <都市または郵便番号>
+!bot news <トピック>
+!bot wiki <件名>
 ```
 
 ダイレクトメッセージにはプレフィックスは不要です。通常のメッシュ会話中にアシスタントが反応しないようにします。
@@ -72,9 +72,9 @@ BOT_PREFIX=!bot
 ブリッジはローカルマシン上に小さな制御APIを公開します。ダッシュボードは状態、ノードデータ、チャンネルデータをブリッジに要求します。2つ目のMeshtastic接続は開きません。
 
 ```text
-Dashboard -> local control API -> queued bridge operation -> Meshtastic TCP node
+ダッシュボード -> ローカル制御API -> キューに入ったブリッジ操作 -> Meshtastic TCPノード
                                              ^
-Meshtastic TCP connection owned by the bridge
+Meshtastic TCP接続はブリッジが管理します
 ```
 
 キューは制御要求を順番に処理します。ロックは、ダッシュボード操作とボットの回答が共有する書き込みを保護します。ハートビートはアイドル状態のTCPセッションを維持します。接続ウォッチドッグは、切断後にサービスマネージャーがブリッジを再起動できるようにします。
