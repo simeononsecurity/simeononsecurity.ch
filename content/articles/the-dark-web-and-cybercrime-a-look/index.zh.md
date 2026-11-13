@@ -1,6 +1,7 @@
 ---
 title: "暗网与网络犯罪：揭开互联网的神秘面纱"
 date: 2023-05-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "探索暗网的隐秘世界及其与网络犯罪的联系，同时揭示其在新闻报道和举报方面的双重性质和潜力。"
@@ -50,25 +51,25 @@ coverCaption: ""
 
 防范暗网和网络犯罪需要采取积极主动的措施来降低风险。以下是一些保护自己的基本步骤：
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)在网上共享个人信息时要谨慎，避免向不熟悉或不信任的来源提供敏感信息。保护好您的姓名、地址、社会保险号和其他个人身份信息。
+[**1. 谨慎处理个人信息:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)在网上共享个人信息时要谨慎，避免向不熟悉或不信任的来源提供敏感信息。保护好您的姓名、地址、社会保险号和其他个人身份信息。
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的所有在线账户设置强大而独特的密码。避免在多个平台上重复使用密码，以防数据泄露时出现未经授权的访问。
+[**2. 使用强密码且不要重复使用:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的所有在线账户设置强大而独特的密码。避免在多个平台上重复使用密码，以防数据泄露时出现未经授权的访问。
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)定期更新软件，包括操作系统、网络浏览器和防病毒程序。这些更新通常包含安全补丁，可解决漏洞并防范新出现的网络威胁。
+[**3. 及时更新软件:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)定期更新软件，包括操作系统、网络浏览器和防病毒程序。这些更新通常包含安全补丁，可解决漏洞并防范新出现的网络威胁。
 
 **4.养成安全的浏览习惯：** 对您访问的网站要擦亮眼睛，不要点击电子邮件或陌生网站中的链接。在分享任何个人或财务信息之前，请坚持使用信誉良好的来源，并核实网站的合法性。
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/)利用防火墙控制入站和出站网络流量，并部署可靠的防病毒软件来检测和清除设备上的恶意软件或可疑活动。
+[**5. 使用防火墙和杀毒软件:**](https://simeononsecurity.com/recommendations/anti-virus/)利用防火墙控制入站和出站网络流量，并部署可靠的防病毒软件来检测和清除设备上的恶意软件或可疑活动。
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)定期备份重要数据和文件。这样可以确保即使您的计算机受到威胁或数据被盗，您也能恢复信息并将潜在网络攻击的影响降至最低。
+[**6. 定期备份数据:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)定期备份重要数据和文件。这样可以确保即使您的计算机受到威胁或数据被盗，您也能恢复信息并将潜在网络攻击的影响降至最低。
 
 ## 政府法规和举措
 
 世界各国政府越来越认识到通过立法和倡议打击暗网和网络犯罪的必要性。一些著名的法规和倡议包括
 
-- 美国 [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/): Aimed at protecting the personal data and privacy of EU citizens, the GDPR sets strict guidelines and requirements for businesses and organizations handling personal information. More information can be found in [this article](https://gdpr.eu/)
+- [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/)旨在保护欧盟公民的个人数据和隐私。GDPR为处理个人信息的企业和组织设定了严格的准则和要求。更多信息请参阅[这篇文章](https://gdpr.eu/)。
 
-- "(《世界人权宣言》) [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- 美国的[**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754)促进私营机构与政府共享网络威胁信息，以加强国家安全并降低网络风险。详情请参阅[这份文档](https://www.congress.gov/bill/114th-congress/senate-bill/754)。
 
 这些法规和倡议在促进更安全的数字环境方面发挥了重要作用，但个人意识和积极主动的网络安全实践对于打击暗网和网络犯罪仍然至关重要。
 
@@ -78,5 +79,5 @@ coverCaption: ""
 
 参考资料
 
-- 欧盟《通用数据保护条例》（GDPR）： [link](https://gdpr.eu/)
-- 网络安全信息共享法》（CISA）： [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- 欧盟《通用数据保护条例》（GDPR）： [法规原文](https://gdpr.eu/)
+- 网络安全信息共享法》（CISA）： [法律原文](https://www.congress.gov/bill/114th-congress/senate-bill/754)

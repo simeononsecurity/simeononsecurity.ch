@@ -1,6 +1,7 @@
 ---
 title: "ダークウェブとサイバー犯罪インターネットの裏側を解き明かす"
 date: 2023-05-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ダークウェブの隠された世界とサイバー犯罪との関連性を探るとともに、その二面性とジャーナリズムや内部告発の可能性を明らかにする。"
@@ -50,25 +51,25 @@ coverCaption: ""
 
 ダークウェブやサイバー犯罪から身を守るには、リスクを軽減するための積極的な対策が必要です。ここでは、自分自身を守るために必要ないくつかのステップを紹介します：
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)個人情報をオンラインで共有する場合は、慎重に行い、見慣れない、または信頼できない情報源に機密情報を提供することは控える。氏名、住所、社会保障番号、その他の個人を特定できる情報を保護する。
+[**1. 個人情報の共有に注意する:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)個人情報をオンラインで共有する場合は、慎重に行い、見慣れない、または信頼できない情報源に機密情報を提供することは控える。氏名、住所、社会保障番号、その他の個人を特定できる情報を保護する。
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)すべてのオンラインアカウントに、強力でユニークなパスワードを使用する。万が一の情報漏えいを防ぐため、複数のプラットフォームでパスワードを再利用しないようにしましょう。
+[**2. 強力で固有のパスワードを使う:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)すべてのオンラインアカウントに、強力でユニークなパスワードを使用する。万が一の情報漏えいを防ぐため、複数のプラットフォームでパスワードを再利用しないようにしましょう。
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)オペレーティングシステム、ウェブブラウザ、アンチウイルスプログラムなどのソフトウェアを定期的に更新する。これらのアップデートには、脆弱性に対処し、新たなサイバー脅威から保護するためのセキュリティパッチが含まれていることが多い。
+[**3. ソフトウェアを最新の状態に保つ:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)オペレーティングシステム、ウェブブラウザ、アンチウイルスプログラムなどのソフトウェアを定期的に更新する。これらのアップデートには、脆弱性に対処し、新たなサイバー脅威から保護するためのセキュリティパッチが含まれていることが多い。
 
 **4.安全なブラウジングを実践する：** 訪問するウェブサイトを見極め、電子メールや見知らぬウェブサイトのリンクをクリックすることは控える。個人情報や金銭的な情報を共有する前に、信頼できる情報源に固執し、ウェブサイトの正当性を確認する。
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/)ファイアウォールを利用してネットワークの入出力を制御し、信頼性の高いアンチウイルスソフトウェアを導入して、デバイスからマルウェアや疑わしい活動を検出・除去します。
+[**5. ファイアウォールとウイルス対策ソフトを使う:**](https://simeononsecurity.com/recommendations/anti-virus/)ファイアウォールを利用してネットワークの入出力を制御し、信頼性の高いアンチウイルスソフトウェアを導入して、デバイスからマルウェアや疑わしい活動を検出・除去します。
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)重要なデータやファイルのバックアップを定期的に作成しましょう。これにより、コンピュータが危険にさらされたり、データが盗まれたりしても、情報を復元することができ、潜在的なサイバー攻撃の影響を最小限に抑えることができます。
+[**6. データを定期的にバックアップする:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)重要なデータやファイルのバックアップを定期的に作成しましょう。これにより、コンピュータが危険にさらされたり、データが盗まれたりしても、情報を復元することができ、潜在的なサイバー攻撃の影響を最小限に抑えることができます。
 
 ## 政府の規制と取り組み
 
 世界各国の政府は、法律やイニシアティブを通じて、ダークウェブやサイバー犯罪に対抗する必要性をますます認識しつつあります。注目すべき規制や取り組みには、以下のようなものがあります：
 
-- 以下はその例です。 [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/): Aimed at protecting the personal data and privacy of EU citizens, the GDPR sets strict guidelines and requirements for businesses and organizations handling personal information. More information can be found in [this article](https://gdpr.eu/)
+- [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/)は、EU市民の個人データとプライバシーの保護を目的としています。GDPRは、個人情報を扱う企業や組織に厳格な指針と要件を定めています。詳しくは[こちらの記事](https://gdpr.eu/)をご覧ください。
 
-- のことです。 [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- 米国の[**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754)は、民間組織と政府の間でサイバー脅威情報を共有し、国家安全保障を強化してサイバーリスクを軽減することを促進します。詳しくは[こちらの資料](https://www.congress.gov/bill/114th-congress/senate-bill/754)をご覧ください。
 
 これらの規制や取り組みは、より安全なデジタル環境の醸成に重要な役割を果たしていますが、ダークウェブやサイバー犯罪に対抗するためには、個人の意識と積極的なサイバーセキュリティの実践が依然として重要です。
 
@@ -78,5 +79,5 @@ coverCaption: ""
 
 参考文献
 
-- 欧州連合一般データ保護規則（GDPR）： [link](https://gdpr.eu/)
-- サイバーセキュリティ情報共有法（CISA）： [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- 欧州連合一般データ保護規則（GDPR）： [規則の本文](https://gdpr.eu/)
+- サイバーセキュリティ情報共有法（CISA）： [法律の本文](https://www.congress.gov/bill/114th-congress/senate-bill/754)
