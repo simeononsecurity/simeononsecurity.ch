@@ -1,88 +1,88 @@
 ---
-title: "Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026"
+title: "Microsoft SOCホームラボ：2026年にサイバーセキュリティ経験を積む"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence."
-genre: ["Cybersecurity", "Cloud Security", "Career Development"]
-tags: ["SOC home lab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure home lab", "cybersecurity experience", "SOC analyst", "security operations center", "incident response", "KQL", "Log Analytics", "Conditional Access", "phishing-resistant MFA", "passkeys", "identity security", "cybersecurity portfolio", "cloud cost management", "endpoint security"]
+description: "Sentinel、Defender、Intune、Entraを使ってMicrosoft SOCホームラボを構築します。インシデント調査やパスキーポリシーを検証し、ポートフォリオ用の証拠を記録します。"
+genre: ["サイバーセキュリティ", "クラウドセキュリティ", "キャリア開発"]
+tags: ["SOCホームラボ", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azureホームラボ", "サイバーセキュリティ経験", "SOCアナリスト", "セキュリティオペレーションセンター", "インシデント対応", "KQL", "Log Analytics", "Conditional Access", "フィッシング耐性MFA", "パスキー", "IDセキュリティ", "サイバーセキュリティポートフォリオ", "クラウドコスト管理", "エンドポイントセキュリティ"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
-coverAlt: "A laptop showing security incident timelines on a home desk beneath a cloud containing servers and endpoints."
+coverAlt: "自宅の机のノートパソコンにセキュリティインシデントのタイムラインが表示され、サーバーとエンドポイントを含むクラウドが上に描かれている。"
 coverCaption: ""
 ---
 
-A **security operations center (SOC) home lab** gives you a place to investigate alerts, explain evidence, and test defensive changes. Build a small Microsoft environment, collect its telemetry, and write up each investigation. The useful result is a repeatable investigation with supporting evidence.
+**セキュリティオペレーションセンター（SOC）のホームラボ**では、アラートを調査し、証拠を説明し、防御策の変更を試せます。小規模なMicrosoft環境を構築し、テレメトリを収集して各調査を記録します。目指す成果は、証拠で裏付けた再現可能な調査です。
 
-This guide develops the lab approach described in Mad Hat's cybersecurity career video and supplied Cyber Range runbook. It uses Microsoft documentation for product requirements and separates setup, detection, and validation into measurable tasks.
+このガイドは、Mad Hatのサイバーセキュリティ職業紹介動画と提供されたCyber Rangeランブックのラボ構成を発展させます。製品要件にはMicrosoftの資料を使い、構築、検知、検証を測定可能な作業に分けます。
 
 ## 要点
 
-- **Start small:** one managed Windows client and one test identity support the first exercises.
-- **Verify telemetry:** a visible device or connected portal does not prove logs are arriving.
-- **Complete the investigation:** record the trigger, evidence, response, and retest.
-- **Control spending:** track licenses, retained data, networking, and compute separately.
-- **Describe experience accurately:** list the environment as a lab project on your resume.
+- **小さく始める：** 最初の演習には、管理対象Windowsクライアント1台とテスト用ID 1つで十分です。
+- **テレメトリを確認する：** デバイスやポータルが表示されても、ログ到着の証明にはなりません。
+- **調査を完了する：** きっかけ、証拠、対応、再テストを記録します。
+- **費用を管理する：** ライセンス、保持データ、ネットワーク、コンピューティングを分けて追跡します。
+- **経験を正確に説明する：** 履歴書にはラボプロジェクトとして記載します。
 
 ## 始める前に
 
-**Prerequisites:** basic Windows administration, networking, and familiarity with virtual machines. Use a dedicated Microsoft Entra tenant and an Azure subscription reserved for the lab. Keep production identities, personal files, and employer systems outside the exercise.
+**前提知識：** Windows管理とネットワークの基礎、仮想マシンの基本知識が必要です。専用のMicrosoft Entraテナントとラボ専用のAzureサブスクリプションを使います。本番ID、個人ファイル、勤務先のシステムを演習に含めないでください。
 
-**Estimated effort:** allow a weekend for the initial setup, followed by focused investigation sessions. This is a planning estimate. Trial approval, quota availability, and service provisioning affect elapsed time. **Difficulty:** intermediate.
+**所要時間の目安：** 初期構築に週末程度、その後は調査ごとに集中したセッションを計画します。これは計画上の目安です。試用申請、クォータ、サービス準備状況により実時間は変わります。**難易度：** 中級。
 
-Prepare a separate administrative account and an unprivileged test user. Before testing access policies, establish and verify emergency access. Assign privileges for each setup task, then use a lower-privilege account for routine investigation.
+管理者アカウントと権限のないテストユーザーを分けます。アクセス制御を試す前に緊急アクセスを確立し、動作を確認します。構築作業には必要な権限を割り当て、日常の調査には低い権限のアカウントを使います。
 
-| Component | Lab purpose |
+| コンポーネント | ラボでの役割 |
 |---|---|
-| **Sentinel** | Security information and event management, or SIEM, for connected log sources |
-| **Defender XDR** | Correlation and investigation across licensed Microsoft security services |
-| **Defender for Endpoint** | Endpoint detection and response, or EDR, on onboarded devices |
-| **Intune** | Device enrollment and endpoint security policy management |
-| **Entra ID** | Identity, sign-in records, and access policy evaluation |
-| **Defender for Servers** | Server protection through Defender for Cloud |
+| **Sentinel** | 接続したログソースを扱うセキュリティ情報イベント管理（SIEM） |
+| **Defender XDR** | ライセンス対象のMicrosoftセキュリティサービス間の相関と調査 |
+| **Defender for Endpoint** | 登録済みデバイスのエンドポイント検知・対応（EDR） |
+| **Intune** | デバイス登録とエンドポイントセキュリティポリシー管理 |
+| **Entra ID** | ID、サインイン記録、アクセス方針の評価 |
+| **Defender for Servers** | Defender for Cloudによるサーバー保護 |
 
-## Check Licenses First
+## まずライセンスを確認
 
-**Microsoft 365 E5** is one route to a broad lab, but access depends on the service plans and licenses assigned to the participating users. Office 365 E5 and Microsoft 365 E5 are different bundles. A single administrator's license does not establish coverage for every test user or workload. Review the [Defender XDR prerequisites](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) before selecting a subscription.
+**Microsoft 365 E5**は幅広いラボを構成する選択肢の1つですが、利用可否は参加ユーザーに割り当てたサービスプランとライセンスによります。Office 365 E5とMicrosoft 365 E5は別の製品です。管理者1人のライセンスだけでは、すべてのテストユーザーやワークロードの対象範囲を確認できません。サブスクリプションを選ぶ前に[Defender XDRの前提条件](https://learn.microsoft.com/en-us/defender-xdr/prerequisites)を確認してください。
 
-**Sentinel in the Defender portal** works without E5 or Defender XDR. Adding XDR introduces its own licensing and configuration requirements. An empty incident view is not evidence of missing E5 licensing. Microsoft's [Sentinel onboarding documentation](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explains both configurations.
+**DefenderポータルのSentinel**はE5やDefender XDRがなくても利用できます。XDRを追加すると、別途ライセンスと構成の要件が生じます。インシデント一覧が空でも、E5ライセンスがない証拠にはなりません。Microsoftの[Sentinelオンボード資料](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)では両方の構成を説明しています。
 
-**Server protection** has a separate licensing path. Defender for Servers integrates with Defender for Endpoint for supported server workloads. Windows client operating systems need appropriate client coverage. Do not treat every Azure VM as an automatically licensed server. See Microsoft's [Defender for Endpoint integration documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**サーバー保護**には別のライセンス経路があります。Defender for Serversは対応するサーバーワークロードでDefender for Endpointと連携します。WindowsクライアントOSには適切なクライアントライセンスが必要です。Azure VMなら自動的にサーバーライセンスの対象になると考えないでください。[Defender for Endpoint連携の資料](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint)を確認してください。
 
-**Trial planning:** confirm eligibility, expiration, renewal settings, and included services in your own account. Avoid budgeting around a promised trial duration or a fixed monthly total from a video.
+**試用の計画：** 自分のアカウントで利用資格、期限、更新設定、対象サービスを確認します。動画で紹介された試用期間や固定の月額費用を前提に予算を組まないでください。
 
-## Set a Spending Plan
+## 支出計画を立てる
 
-**Azure budgets** send notifications. They do not stop consumption when you reach a threshold. Cost reporting also has a delay. Create alerts early and review spending after each session, following Microsoft's [budget setup guide](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+**Azureの予算**は通知を送りますが、しきい値に達しても利用を停止しません。コスト報告にも遅延があります。早めにアラートを設定し、各セッション後に費用を確認します。[Microsoftの予算設定ガイド](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets)を参照してください。
 
-| Cost category | Planning question |
+| 費用項目 | 計画時の質問 |
 |---|---|
-| **User licenses** | Which users need which service plans, and when do trials expire? |
-| **Compute** | How many VM hours will each exercise require? |
-| **Storage** | Which disks and snapshots remain after shutdown? |
-| **Log collection** | Which tables need ingestion and how long should data remain? |
-| **Networking** | Does the design include paid Bastion, public IPs, or outbound services? |
-| **Server protection** | Which workloads have a paid Defender plan enabled? |
+| **ユーザーライセンス** | どのユーザーにどのサービスプランが必要か。試用期間はいつ終わるか。 |
+| **コンピューティング** | 各演習に何時間のVM稼働が必要か。 |
+| **ストレージ** | 停止後も残るディスクやスナップショットはどれか。 |
+| **ログ収集** | どのテーブルを取り込み、どのくらい保持するか。 |
+| **ネットワーク** | 有料Bastion、パブリックIP、外部向けサービスを含むか。 |
+| **サーバー保護** | 有料Defenderプランを有効にするワークロードはどれか。 |
 
-**Design choice:** begin with one client. Add a server when an exercise needs server telemetry. Four clients and several servers add administration and cost before they add useful investigation practice.
+**設計の選択：** クライアント1台から始めます。サーバーのテレメトリが必要な演習でサーバーを追加します。クライアント4台と複数サーバーは、調査の練習に役立つ前に管理負担と費用を増やします。
 
-## Build the Network
+## ネットワークを構築する
 
-**Suggested layout:** put Azure resources in a clearly named group such as **`rg-soc-lab`**. Use separate client and server subnets, explicit network security group rules, and private management access. Subnet separation alone does not block traffic between workloads.
+**推奨構成：** Azureリソースを**`rg-soc-lab`**のような分かりやすいリソースグループにまとめます。クライアント用とサーバー用のサブネットを分け、ネットワークセキュリティグループの規則を明示し、管理アクセスにはプライベート経路を使います。サブネットを分けるだけではワークロード間通信を遮断できません。
 
-For a dedicated **Azure Bastion** deployment, follow the SKU requirements, including the reserved **`AzureBastionSubnet`** name and a **`/26`** or larger subnet for current deployments. Developer SKU uses a different deployment model. Review [Bastion configuration settings](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) before choosing a design.
+専用の**Azure Bastion**を展開する場合はSKU要件に従います。現在の展開では、予約名**`AzureBastionSubnet`**と**`/26`**以上のサブネットが必要です。Developer SKUは展開方法が異なります。設計を選ぶ前に[Bastionの構成設定](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings)を確認してください。
 
-Keep RDP and SSH closed to the public internet. Restrict management traffic to the selected management path. Allow the outbound service connectivity needed for enrollment and security telemetry.
+RDPとSSHをインターネットに公開しないでください。選んだ管理経路に通信を制限します。登録とセキュリティテレメトリに必要な外向き接続は許可します。
 
-**Validation:** establish private management access and verify effective network rules before installing workloads. If you add a deliberately vulnerable application later, keep it inside the exercise network and restrict access to the test machines.
+**検証：** ワークロードを導入する前に、プライベート管理アクセスを確立し、有効なネットワーク規則を確認します。後で意図的に脆弱なアプリを追加する場合は、演習用ネットワーク内に置き、テストマシンからのアクセスに制限します。
 
-## Connect Sentinel and Logs
+## Sentinelとログを接続する
 
-**Portal setup:** create a Log Analytics workspace and enable Sentinel on it. If the workspace is absent from the Defender portal, open **System > Settings > Microsoft Sentinel > Connect a workspace**. Verify the tenant and required Azure and Entra roles against the [onboarding prerequisites](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**ポータルの設定：** Log Analyticsワークスペースを作成し、Sentinelを有効にします。Defenderポータルにワークスペースがない場合は、**System > Settings > Microsoft Sentinel > Connect a workspace**を開きます。[オンボードの前提条件](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)を参照し、テナントとAzure、Entraの必要なロールを確認してください。
 
-**Log collection is a separate step.** In Entra, configure diagnostic settings to send the required activity categories to the same workspace. Start with interactive sign-ins and audit events. Microsoft's [Entra log integration guide](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) covers the permissions and destination setup.
+**ログ収集は別の手順です。** Entraで診断設定を構成し、必要なアクティビティカテゴリを同じワークスペースに送ります。対話型サインインと監査イベントから始めます。[Entraログ連携ガイド](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs)に権限と送信先の説明があります。
 
-The current Sentinel workflow also supports connection through the Microsoft Defender portal. Confirm the workspace is the intended primary workspace, the tenant matches the test identities, and the account has the required roles before troubleshooting an empty table. Portal visibility alone does not prove ingestion. [Sentinel onboarding in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+現在のSentinelの手順では、Microsoft Defenderポータルからも接続できます。テーブルが空の場合は、意図したプライマリワークスペースか、テストIDと同じテナントか、アカウントに必要なロールがあるかを確認します。ポータルに表示されるだけではデータ取り込みの証明になりません。[DefenderポータルでのSentinelオンボード](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -93,107 +93,107 @@ SigninLogs
 | order by TimeGenerated desc
 ```
 
-Run this **Kusto Query Language (KQL)** example in the workspace's Logs view after generating a fresh test sign-in. Replace the sample user principal name with your lab user. The columns follow the [SigninLogs table schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
+新しいテストサインインを発生させた後、ワークスペースのLogs画面で**Kusto Query Language（KQL）**の例を実行します。サンプルのユーザープリンシパル名をラボのユーザーに置き換えてください。列は[SigninLogsテーブルのスキーマ](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs)に基づいています。
 
-**Expected result:** a row matching the test account and sign-in time. No rows means you need to check the time range, identity, collection settings, destination, and ingestion delay. A missing table points to a collection or workspace issue before it points to a detection issue.
+**期待する結果：** テストアカウントとサインイン時刻に一致する行です。行がない場合は、期間、ID、収集設定、送信先、取り込み遅延を確認します。テーブルがない場合は、検知の問題より先に収集またはワークスペースの問題を調べます。
 
-## Onboard the First Endpoint
+## 最初のエンドポイントを登録する
 
-**Intune enrollment and EDR onboarding** are separate checkpoints. Connect Intune and Defender for Endpoint, enroll a supported Windows client, then assign an endpoint detection and response onboarding policy to its lab group. Entra registration alone does not establish either checkpoint.
+**Intune登録とEDRオンボード**は別々の確認項目です。IntuneとDefender for Endpointを接続し、対応するWindowsクライアントを登録し、ラボグループにEDRオンボードポリシーを割り当てます。Entraへの登録だけでは、どちらも完了したことになりません。
 
-In Intune, check **Endpoint security > Defender for Endpoint**. If the connection is unavailable, enable the Intune connection in Defender's endpoint advanced features. Follow the platform-specific steps in Microsoft's [Intune and Defender integration guide](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+Intuneで**Endpoint security > Defender for Endpoint**を確認します。接続できない場合は、Defenderのエンドポイント詳細機能でIntune連携を有効にします。[IntuneとDefenderの連携ガイド](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)でプラットフォームごとの手順を確認してください。
 
-| Checkpoint | Evidence to capture |
+| 確認項目 | 収集する証拠 |
 |---|---|
-| **Enrollment** | Client appears in Intune with a recent check-in |
-| **Policy assignment** | Onboarding policy applies to the intended device group |
-| **Sensor reporting** | Defender shows onboarded status and recent telemetry |
-| **Detection test** | A documented test produces the expected security signal |
+| **登録** | Intuneにクライアントが表示され、最近チェックインしている |
+| **ポリシー割り当て** | 対象デバイスグループにオンボードポリシーが適用されている |
+| **センサーの報告** | Defenderにオンボード状態と最近のテレメトリが表示される |
+| **検知テスト** | 文書化されたテストが想定したセキュリティ信号を生成する |
 
-**For servers**, enable the chosen Defender for Servers plan and its endpoint integration, then verify sensor deployment and reporting. Defender for Cloud also discovers machines before onboarding completes. Inventory presence alone is insufficient, as Microsoft explains in its [resource discovery and onboarding guidance](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**サーバーの場合は、**選んだDefender for Serversプランとエンドポイント連携を有効にし、センサーの展開と報告を確認します。Defender for Cloudのインベントリにはオンボード完了前でもマシンが表示されます。インベントリにあるだけでは不十分です。[リソースの検出とオンボードのガイダンス](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint)を参照してください。
 
-## Investigate a Test Alert
+## テストアラートを調査する
 
-**Start with Microsoft's documented EDR detection test** on the lab endpoint. Follow the [current test instructions](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), including platform prerequisites and troubleshooting. Record the execution time before opening the alert queue.
+ラボのエンドポイントで**Microsoftが文書化したEDR検知テスト**から始めます。[最新のテスト手順](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection)に従い、プラットフォーム要件とトラブルシューティングを確認します。アラートキューを開く前に実行時刻を記録します。
 
-Treat the resulting alert as an investigation exercise. A security product's title gives you a starting point. Your job is to establish what happened and support the disposition with evidence.
+生成されたアラートを調査演習として扱います。製品のタイトルは出発点です。何が起きたかを確認し、証拠に基づいて判断してください。
 
-1. **Triage:** identify the alert source, device, account, and event time.
-2. **Inspect:** review the process tree, command line, file details, and network activity available for the event.
-3. **Scope:** search for related activity on the test identity and other lab devices.
-4. **Assess:** explain whether the evidence matches the planned exercise or an unrelated event.
-5. **Respond:** document the selected response, its impact, and the recovery steps. Perform supported containment only when the exercise requires it.
-6. **Retest:** repeat the relevant test after changing a control and compare the evidence.
+1. **トリアージ：** アラートの発生元、デバイス、アカウント、イベント時刻を特定します。
+2. **確認：** プロセスツリー、コマンドライン、ファイル情報、取得可能なネットワーク活動を調べます。
+3. **範囲の確認：** テストIDや他のラボデバイスに関連する活動を探します。
+4. **評価：** 証拠が計画した演習に一致するか、無関係なイベントかを説明します。
+5. **対応：** 選んだ対応、その影響、復旧手順を記録します。演習で必要な場合に限り、サポートされた隔離を実施します。
+6. **再テスト：** 制御を変更した後、関連テストを繰り返し、証拠を比較します。
 
-**Do not manufacture missing results.** If the alert fails to arrive, preserve the execution record and troubleshoot collection. If a control blocks the test before the expected event, document the prevention result.
+**存在しない結果を作らないでください。** アラートが届かない場合は実行記録を残して収集を調査します。想定イベントの前に制御がテストを阻止した場合は、その防止結果を記録します。
 
-## Test Identity Controls
+## ID制御をテストする
 
-**Adversary-in-the-middle (AiTM) phishing** places an attacker-controlled intermediary in a sign-in flow. The supplied runbook uses this scenario to motivate stronger authentication. For the first identity exercise, test policy behavior directly with your own unprivileged account.
+**中間者型フィッシング（AiTM）**では、攻撃者が制御する中継者がサインインの流れに入ります。提供されたランブックでは、このシナリオを強い認証の理由として使っています。最初のID演習では、権限のない自分のアカウントでポリシーの動作を直接テストします。
 
-Begin by recording a legitimate sign-in and its authentication details. Review Microsoft's [Entra risk detection reference](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) before interpreting risk signals. Detection prerequisites and processing differ by signal. A new IP address or a failed sign-in does not guarantee an AiTM alert.
+正規のサインインと認証の詳細を記録します。リスク信号を解釈する前に、Microsoftの[Entraリスク検知リファレンス](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks)を確認します。検知の前提条件と処理は信号ごとに異なります。新しいIPアドレスやサインイン失敗だけでAiTMアラートが出るとは限りません。
 
-**Passkeys (FIDO2)** use credentials bound to the legitimate service rather than reusable codes entered into a relayed login page. Enable an appropriate passkey profile for the pilot group and register the method before enforcing a policy. Follow Microsoft's [passkey configuration guide](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) for supported authenticators and restrictions.
+**パスキー（FIDO2）**は、正規サービスに結び付いた資格情報を使い、中継ログインページに入力する再利用可能なコードを避けます。パイロットグループに適切なパスキープロファイルを有効にし、ポリシー適用前に認証方法を登録します。対応する認証器と制約は[パスキー設定ガイド](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2)で確認します。
 
-**Conditional Access exercise:** create a policy targeting only the lab pilot group, exclude emergency access accounts, and select **Require authentication strength > Phishing-resistant MFA strength**. Start in **Report-only**, review its impact, then enable it. This adapts Microsoft's [administrator policy example](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) to a narrow test group.
+**Conditional Access演習：** ラボのパイロットグループだけを対象にするポリシーを作成し、緊急アクセスアカウントを除外して、**Require authentication strength > Phishing-resistant MFA strength**を選択します。まず**Report-only**で影響を確認し、その後有効にします。これはMicrosoftの[管理者ポリシー例](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)を小規模なテストグループ向けに適用したものです。
 
-| Test | Evidence to collect |
+| テスト | 収集する証拠 |
 |---|---|
-| **Report-only policy** | Sign-in record showing how the proposed policy evaluates |
-| **Enforced policy, weaker method** | Fresh authentication requires a stronger method before access |
-| **Enforced policy, registered passkey** | Successful sign-in satisfying the required strength |
+| **Report-onlyポリシー** | 提案されたポリシーの評価を示すサインイン記録 |
+| **強制ポリシー、弱い方式** | 新しい認証でアクセス前により強い方式が求められる |
+| **強制ポリシー、登録済みパスキー** | 必要な強度を満たしたサインイン成功 |
 
-Use fresh authentication for each comparison and inspect the policy details. Existing sessions complicate comparisons. **Scope of proof:** this exercise validates the authentication requirement. It does not demonstrate universal protection against endpoint compromise or theft of an existing session.
+比較ごとに新しい認証を使い、ポリシーの詳細を確認します。既存セッションがあると比較が複雑になります。**証明できる範囲：** この演習で検証するのは認証要件です。エンドポイント侵害や既存セッション窃取を含むあらゆる攻撃への保護を証明するものではありません。
 
-## Write Portfolio Evidence
+## ポートフォリオの証拠を書く
 
-**A useful portfolio entry** explains a decision another analyst is able to review. Include a short architecture description, the collection prerequisites, the event timeline, and the reasoning behind your response.
+**有用なポートフォリオ項目**では、別の分析者が確認できる形で判断を説明します。簡潔な構成説明、収集の前提条件、イベント時系列、対応の理由を含めます。
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+演習：
+日付とUTC時間帯：
+ラボの範囲と前提条件：
+トリガーと期待する信号：
+観測したアラートまたは防止結果：
+証拠とクエリ：
+影響を受けたIDとデバイス：
+判断と理由：
+対応と復旧：
+制御の変更と再テスト：
+制約とフォローアップ：
 ```
 
-Replace every field with your own observations. **Sanitize exports:** remove credentials, session material, personal information, and unnecessary identifiers before publishing screenshots or query results.
+各欄を自分の観察結果で埋めます。スクリーンショットやクエリ結果を公開する前に、**エクスポートをサニタイズ：** 資格情報、セッション情報、個人情報、不要な識別子を削除します。
 
-**Resume example:** "Built a Microsoft security lab, connected identity logs to Sentinel, investigated endpoint test alerts, and documented Conditional Access validation." Use this wording only after completing those tasks. Put it under projects or practical training with the actual dates and scope.
+**履歴書の例：**「Microsoftセキュリティラボを構築し、IDログをSentinelに接続し、エンドポイントのテストアラートを調査し、Conditional Accessを検証した。」これらを完了した場合に限って使います。実際の日付と範囲を添えて、プロジェクトまたは実習経験に記載します。
 
-A lab demonstrates independent practice. **Production SOC work** also involves business impact, escalation, service commitments, and coordination with other teams. Explain which parts you practiced and which remain outside your experience.
+ラボは自主的な練習を示します。**本番SOC業務**には、事業への影響、エスカレーション、サービス基準、他チームとの調整もあります。練習した内容と経験していない内容を説明します。
 
-## Troubleshooting
+## トラブルシューティング
 
-| Symptom | First check |
+| 症状 | 最初の確認項目 |
 |---|---|
-| **Workspace absent from Defender** | Same tenant, Sentinel enabled, and onboarding role requirements |
-| **SigninLogs absent or empty** | Diagnostic categories, destination workspace, fresh events, and time range |
-| **Client absent from Intune** | Enrollment prerequisites and enrollment status |
-| **Device visible without telemetry** | Actual onboarding state, sensor health, and outbound connectivity |
-| **Onboarding policy unapplied** | Assignment scope, device platform, and recent check-in |
-| **No identity risk alert** | Signal prerequisites and recorded activity, without assuming deterministic detection |
-| **Unexpected access allowed** | Report-only status, exclusions, resource scope, and existing session |
-| **Charges after shutdown** | Allocation state and resources billed independently of compute |
+| **Defenderにワークスペースがない** | 同じテナントか、Sentinelが有効か、必要なオンボードロールがあるか |
+| **SigninLogsがない、または空** | 診断カテゴリ、送信先ワークスペース、新しいイベント、期間 |
+| **Intuneにクライアントがない** | 登録の前提条件と登録状態 |
+| **デバイスは見えるがテレメトリがない** | 実際のオンボード状態、センサーの状態、外向き接続 |
+| **オンボードポリシーが未適用** | 割り当て範囲、デバイスのプラットフォーム、最近のチェックイン |
+| **IDリスクアラートがない** | 信号の前提条件と記録済み活動。検知が確実だと思い込まない |
+| **予期しないアクセス許可** | Report-only状態、除外、リソース範囲、既存セッション |
+| **停止後も料金が発生** | 割り当て状態とコンピューティング以外で課金されるリソース |
 
-**Troubleshooting order:** prove the event happened, prove collection worked, then investigate detection logic. Record each failure and fix in the project notes.
+**トラブルシューティングの順番：** イベントが発生した証拠を確認し、収集の動作を確かめてから検知ロジックを調べます。各失敗と修正をプロジェクトノートに記録します。
 
-## Pause or Remove the Lab
+## ラボを停止または削除する
 
-**Deallocation** releases VM compute allocation. A guest operating system shutdown alone does not guarantee deallocation. Check Azure's displayed power state and review Microsoft's [VM states and billing documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
+**割り当て解除**はVMのコンピューティング割り当てを解放します。ゲストOSをシャットダウンしただけでは解除は保証されません。Azureに表示される電源状態を確認し、Microsoftの[VM状態と課金の資料](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing)を参照します。
 
-**Retained resources** still need review. Disks, snapshots, networking services, log retention, and user subscriptions have separate lifecycles. Set a reminder before each trial expires and verify the next usage report after cleanup.
+**保持中のリソース**も確認が必要です。ディスク、スナップショット、ネットワークサービス、ログ保持、ユーザーサブスクリプションには別々のライフサイクルがあります。試用期限の前に通知を設定し、削除後の使用状況レポートも確認します。
 
-Before deleting the lab resource group, export the evidence you intend to retain and inspect its contents. **Resource group deletion is destructive** for contained resources. Tenant users, Intune policies, Conditional Access policies, subscriptions, and subscription-level security settings require separate cleanup where applicable.
+ラボのリソースグループを削除する前に、保持したい証拠をエクスポートして内容を確認します。**リソースグループの削除は破壊的な操作**で、含まれるリソースが削除されます。テナントユーザー、Intuneポリシー、Conditional Accessポリシー、サブスクリプション、サブスクリプションレベルのセキュリティ設定は別途クリーンアップが必要な場合があります。
 
 ## 次のステップ
 
-**Finish one documented investigation** before adding another workload. Then add a server, an identity exercise, or a detection rule with a clear test condition. Track what the added component teaches and what it costs.
+別のワークロードを追加する前に、**記録を残した調査を1つ完了**します。その後、明確なテスト条件を持つサーバー、ID演習、検知ルールを追加します。追加要素から学べることと費用を記録します。
 
-Use the [IT home lab guide](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) for infrastructure practice and the [IT resume guide](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) to present the work. Keep the next project small enough to explain from setup through evidence and cleanup.
+インフラ演習には[ITホームラボガイド](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)を、学んだ作業の紹介には[IT履歴書ガイド](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)を使います。構築、証拠、クリーンアップまで説明できる規模に次のプロジェクトを保ちます。

@@ -1,88 +1,88 @@
 ---
-title: "Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026"
+title: "Microsoft SOC-thuislab: bouw cybersecurityervaring op in 2026"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence."
-genre: ["Cybersecurity", "Cloud Security", "Career Development"]
-tags: ["SOC home lab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure home lab", "cybersecurity experience", "SOC analyst", "security operations center", "incident response", "KQL", "Log Analytics", "Conditional Access", "phishing-resistant MFA", "passkeys", "identity security", "cybersecurity portfolio", "cloud cost management", "endpoint security"]
+description: "Bouw een Microsoft SOC-lab met Sentinel, Defender, Intune en Entra. Onderzoek incidenten, toets passkeybeleid en documenteer bewijs voor je portfolio."
+genre: ["Cybersecurity", "Cloudbeveiliging", "Loopbaanontwikkeling"]
+tags: ["SOC-thuislab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure-thuislab", "cybersecurityervaring", "SOC-analist", "security operations center", "incidentrespons", "KQL", "Log Analytics", "Conditional Access", "phishingbestendige MFA", "passkeys", "identiteitsbeveiliging", "cybersecurityportfolio", "cloudkostenbeheer", "endpointbeveiliging"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
-coverAlt: "A laptop showing security incident timelines on a home desk beneath a cloud containing servers and endpoints."
+coverAlt: "Een laptop toont tijdlijnen van beveiligingsincidenten op een bureau thuis onder een wolk met servers en endpoints."
 coverCaption: ""
 ---
 
-A **security operations center (SOC) home lab** gives you a place to investigate alerts, explain evidence, and test defensive changes. Build a small Microsoft environment, collect its telemetry, and write up each investigation. The useful result is a repeatable investigation with supporting evidence.
+Een **SOC-thuislab** biedt een plek om meldingen te onderzoeken, bewijs uit te leggen en beveiligingswijzigingen te testen. Bouw een kleine Microsoft-omgeving, verzamel telemetrie en documenteer elk onderzoek. Het nuttige resultaat is een herhaalbaar onderzoek met onderbouwing.
 
-This guide develops the lab approach described in Mad Hat's cybersecurity career video and supplied Cyber Range runbook. It uses Microsoft documentation for product requirements and separates setup, detection, and validation into measurable tasks.
+Deze gids werkt de labaanpak uit die wordt beschreven in Mad Hats carrièrevideo over cybersecurity en het meegeleverde Cyber Range-runbook. Microsoft-documentatie vormt de basis voor productvereisten. De gids verdeelt inrichting, detectie en validatie in meetbare taken.
 
 ## Belangrijkste punten
 
-- **Start small:** one managed Windows client and one test identity support the first exercises.
-- **Verify telemetry:** a visible device or connected portal does not prove logs are arriving.
-- **Complete the investigation:** record the trigger, evidence, response, and retest.
-- **Control spending:** track licenses, retained data, networking, and compute separately.
-- **Describe experience accurately:** list the environment as a lab project on your resume.
+- **Begin klein:** één beheerde Windows-client en één testidentiteit volstaan voor de eerste oefeningen.
+- **Controleer telemetrie:** een zichtbaar apparaat of verbonden portal bewijst niet dat logs binnenkomen.
+- **Rond het onderzoek af:** noteer de trigger, het bewijs, de reactie en de hertest.
+- **Beheers de uitgaven:** volg licenties, gegevensbewaring, netwerk en rekenkracht afzonderlijk.
+- **Beschrijf ervaring nauwkeurig:** vermeld de omgeving als labproject op je cv.
 
 ## Voordat je begint
 
-**Prerequisites:** basic Windows administration, networking, and familiarity with virtual machines. Use a dedicated Microsoft Entra tenant and an Azure subscription reserved for the lab. Keep production identities, personal files, and employer systems outside the exercise.
+**Vereisten:** basiskennis van Windows-beheer en netwerken, plus ervaring met virtuele machines. Gebruik een aparte Microsoft Entra-tenant en een Azure-abonnement voor het lab. Houd productie-identiteiten, persoonlijke bestanden en systemen van je werkgever buiten de oefening.
 
-**Estimated effort:** allow a weekend for the initial setup, followed by focused investigation sessions. This is a planning estimate. Trial approval, quota availability, and service provisioning affect elapsed time. **Difficulty:** intermediate.
+**Geschatte inspanning:** reserveer een weekend voor de eerste inrichting en plan daarna gerichte onderzoekssessies. Dit is een planningsschatting. Goedkeuring van de proefperiode, quota en dienstverlening beïnvloeden de werkelijke duur. **Moeilijkheid:** gemiddeld.
 
-Prepare a separate administrative account and an unprivileged test user. Before testing access policies, establish and verify emergency access. Assign privileges for each setup task, then use a lower-privilege account for routine investigation.
+Bereid een aparte beheerdersaccount en een ongeprivilegieerde testgebruiker voor. Stel noodtoegang in en controleer die voordat je toegangsbeleid test. Ken per inrichtingstaak de benodigde rechten toe en gebruik voor routineonderzoek een account met minder rechten.
 
-| Component | Lab purpose |
+| Onderdeel | Doel in het lab |
 |---|---|
-| **Sentinel** | Security information and event management, or SIEM, for connected log sources |
-| **Defender XDR** | Correlation and investigation across licensed Microsoft security services |
-| **Defender for Endpoint** | Endpoint detection and response, or EDR, on onboarded devices |
-| **Intune** | Device enrollment and endpoint security policy management |
-| **Entra ID** | Identity, sign-in records, and access policy evaluation |
-| **Defender for Servers** | Server protection through Defender for Cloud |
+| **Sentinel** | Beheer van beveiligingsinformatie en gebeurtenissen (SIEM) voor verbonden logbronnen |
+| **Defender XDR** | Correlatie en onderzoek over gelicentieerde Microsoft-beveiligingsdiensten |
+| **Defender for Endpoint** | Detectie en reactie op ingeschreven endpoints |
+| **Intune** | Apparaatinschrijving en beheer van endpointbeveiligingsbeleid |
+| **Entra ID** | Identiteiten, aanmeldingsrecords en beoordeling van toegangsbeleid |
+| **Defender for Servers** | Serverbeveiliging via Defender for Cloud |
 
-## Check Licenses First
+## Controleer eerst licenties
 
-**Microsoft 365 E5** is one route to a broad lab, but access depends on the service plans and licenses assigned to the participating users. Office 365 E5 and Microsoft 365 E5 are different bundles. A single administrator's license does not establish coverage for every test user or workload. Review the [Defender XDR prerequisites](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) before selecting a subscription.
+**Microsoft 365 E5** is een optie voor een uitgebreid lab, maar toegang hangt af van serviceplannen en licenties die aan deelnemende gebruikers zijn toegewezen. Office 365 E5 en Microsoft 365 E5 zijn verschillende bundels. Een beheerderslicentie dekt niet automatisch elke testgebruiker of workload. Bekijk de [vereisten voor Defender XDR](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) voordat je een abonnement kiest.
 
-**Sentinel in the Defender portal** works without E5 or Defender XDR. Adding XDR introduces its own licensing and configuration requirements. An empty incident view is not evidence of missing E5 licensing. Microsoft's [Sentinel onboarding documentation](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explains both configurations.
+**Sentinel in de Defender-portal** werkt zonder E5 of Defender XDR. XDR toevoegen brengt eigen licentie- en configuratievereisten mee. Een lege incidentweergave bewijst niet dat een E5-licentie ontbreekt. De [Sentinel-onboardingdocumentatie](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) beschrijft beide configuraties.
 
-**Server protection** has a separate licensing path. Defender for Servers integrates with Defender for Endpoint for supported server workloads. Windows client operating systems need appropriate client coverage. Do not treat every Azure VM as an automatically licensed server. See Microsoft's [Defender for Endpoint integration documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**Serverbeveiliging** heeft een apart licentiepad. Defender for Servers integreert met Defender for Endpoint voor ondersteunde serverworkloads. Windows-clientbesturingssystemen hebben passende clientdekking nodig. Ga er niet van uit dat elke Azure-VM automatisch als server is gelicentieerd. Lees Microsofts documentatie over de [integratie van Defender for Endpoint](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-**Trial planning:** confirm eligibility, expiration, renewal settings, and included services in your own account. Avoid budgeting around a promised trial duration or a fixed monthly total from a video.
+**Plan de proefperiode:** controleer in je eigen account de geschiktheid, einddatum, verlenging en inbegrepen services. Baseer je begroting niet op een beloofde proefduur of een vast maandbedrag uit een video.
 
-## Set a Spending Plan
+## Plan de uitgaven
 
-**Azure budgets** send notifications. They do not stop consumption when you reach a threshold. Cost reporting also has a delay. Create alerts early and review spending after each session, following Microsoft's [budget setup guide](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+**Azure-budgetten** sturen meldingen. Ze stoppen het gebruik niet zodra een drempel wordt bereikt. Kostenrapportage loopt ook achter. Maak vroeg waarschuwingen aan en controleer na elke sessie de uitgaven met de [Microsoft-gids voor budgetten](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
 
-| Cost category | Planning question |
+| Kostencategorie | Planningsvraag |
 |---|---|
-| **User licenses** | Which users need which service plans, and when do trials expire? |
-| **Compute** | How many VM hours will each exercise require? |
-| **Storage** | Which disks and snapshots remain after shutdown? |
-| **Log collection** | Which tables need ingestion and how long should data remain? |
-| **Networking** | Does the design include paid Bastion, public IPs, or outbound services? |
-| **Server protection** | Which workloads have a paid Defender plan enabled? |
+| **Gebruikerslicenties** | Welke gebruikers hebben welke serviceplannen nodig en wanneer verlopen proefperiodes? |
+| **Rekenkracht** | Hoeveel VM-uren vraagt elke oefening? |
+| **Opslag** | Welke schijven en momentopnamen blijven na afsluiten bestaan? |
+| **Logverzameling** | Welke tabellen moeten gegevens opnemen en hoe lang moeten die bewaard blijven? |
+| **Netwerk** | Omvat het ontwerp betaald Bastion, openbare IP-adressen of uitgaande services? |
+| **Serverbeveiliging** | Op welke workloads staat een betaald Defender-plan aan? |
 
-**Design choice:** begin with one client. Add a server when an exercise needs server telemetry. Four clients and several servers add administration and cost before they add useful investigation practice.
+**Ontwerpkeuze:** begin met één client. Voeg een server toe wanneer een oefening servertelemetrie nodig heeft. Vier clients en meerdere servers verhogen beheer en kosten voordat ze nuttige onderzoekservaring toevoegen.
 
-## Build the Network
+## Bouw het netwerk
 
-**Suggested layout:** put Azure resources in a clearly named group such as **`rg-soc-lab`**. Use separate client and server subnets, explicit network security group rules, and private management access. Subnet separation alone does not block traffic between workloads.
+**Voorgestelde indeling:** plaats Azure-resources in een groep met een duidelijke naam, zoals **`rg-soc-lab`**. Gebruik aparte subnetten voor clients en servers, expliciete regels voor netwerkbeveiligingsgroepen en privébeheerstoegang. Subnetten scheiden blokkeert op zichzelf geen verkeer tussen workloads.
 
-For a dedicated **Azure Bastion** deployment, follow the SKU requirements, including the reserved **`AzureBastionSubnet`** name and a **`/26`** or larger subnet for current deployments. Developer SKU uses a different deployment model. Review [Bastion configuration settings](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) before choosing a design.
+Volg bij een aparte **Azure Bastion**-implementatie de SKU-vereisten, waaronder de gereserveerde naam **`AzureBastionSubnet`** en een subnet van **`/26`** of groter voor huidige implementaties. Developer SKU gebruikt een ander implementatiemodel. Bekijk de [Bastion-configuratie](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) voordat je een ontwerp kiest.
 
-Keep RDP and SSH closed to the public internet. Restrict management traffic to the selected management path. Allow the outbound service connectivity needed for enrollment and security telemetry.
+Houd RDP en SSH gesloten voor het openbare internet. Beperk beheer naar het gekozen pad. Sta uitgaande verbindingen toe die nodig zijn voor inschrijving en beveiligingstelemetrie.
 
-**Validation:** establish private management access and verify effective network rules before installing workloads. If you add a deliberately vulnerable application later, keep it inside the exercise network and restrict access to the test machines.
+**Validatie:** regel privébeheerstoegang en controleer de effectieve netwerkregels voordat je workloads installeert. Als je later een opzettelijk kwetsbare toepassing toevoegt, houd die binnen het oefennetwerk en beperk toegang tot testmachines.
 
-## Connect Sentinel and Logs
+## Verbind Sentinel en logs
 
-**Portal setup:** create a Log Analytics workspace and enable Sentinel on it. If the workspace is absent from the Defender portal, open **System > Settings > Microsoft Sentinel > Connect a workspace**. Verify the tenant and required Azure and Entra roles against the [onboarding prerequisites](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Portaal instellen:** maak een Log Analytics-werkruimte en schakel Sentinel daarop in. Staat de werkruimte niet in de Defender-portal, open dan **System > Settings > Microsoft Sentinel > Connect a workspace**. Controleer de tenant en vereiste Azure- en Entra-rollen aan de hand van de [onboardingvereisten](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
-**Log collection is a separate step.** In Entra, configure diagnostic settings to send the required activity categories to the same workspace. Start with interactive sign-ins and audit events. Microsoft's [Entra log integration guide](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) covers the permissions and destination setup.
+**Logverzameling is een aparte stap.** Stel in Entra diagnostische instellingen in die de vereiste activiteitcategorieën naar dezelfde werkruimte sturen. Begin met interactieve aanmeldingen en auditgebeurtenissen. De [Entra-logintegratiegids](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) beschrijft rechten en bestemming.
 
-The current Sentinel workflow also supports connection through the Microsoft Defender portal. Confirm the workspace is the intended primary workspace, the tenant matches the test identities, and the account has the required roles before troubleshooting an empty table. Portal visibility alone does not prove ingestion. [Sentinel onboarding in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+De huidige Sentinel-werkwijze ondersteunt ook verbinding via de Microsoft Defender-portal. Controleer voordat je een lege tabel onderzoekt of de juiste primaire werkruimte is gekozen, de tenant overeenkomt met de testidentiteiten en de account de vereiste rollen heeft. Zichtbaarheid in het portaal bewijst geen gegevensinname. [Sentinel onboarden in de Defender-portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -93,107 +93,107 @@ SigninLogs
 | order by TimeGenerated desc
 ```
 
-Run this **Kusto Query Language (KQL)** example in the workspace's Logs view after generating a fresh test sign-in. Replace the sample user principal name with your lab user. The columns follow the [SigninLogs table schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
+Voer dit **Kusto Query Language (KQL)**-voorbeeld uit in de Logs-weergave van de werkruimte nadat je een nieuwe testaanmelding hebt gemaakt. Vervang de voorbeeld-UPN door je labgebruiker. De kolommen volgen het [schema van de SigninLogs-tabel](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
 
-**Expected result:** a row matching the test account and sign-in time. No rows means you need to check the time range, identity, collection settings, destination, and ingestion delay. A missing table points to a collection or workspace issue before it points to a detection issue.
+**Verwacht resultaat:** een rij die overeenkomt met het testaccount en de aanmeldingstijd. Controleer zonder rijen de periode, identiteit, verzamelinstellingen, bestemming en innamevertraging. Een ontbrekende tabel wijst eerst op een probleem met verzameling of werkruimte en daarna pas op detectie.
 
-## Onboard the First Endpoint
+## Onboard het eerste endpoint
 
-**Intune enrollment and EDR onboarding** are separate checkpoints. Connect Intune and Defender for Endpoint, enroll a supported Windows client, then assign an endpoint detection and response onboarding policy to its lab group. Entra registration alone does not establish either checkpoint.
+**Intune-inschrijving en EDR-onboarding** zijn aparte controlepunten. Verbind Intune en Defender for Endpoint, schrijf een ondersteunde Windows-client in en wijs een EDR-onboardingbeleid toe aan de labgroep. Entra-registratie alleen bevestigt geen van beide punten.
 
-In Intune, check **Endpoint security > Defender for Endpoint**. If the connection is unavailable, enable the Intune connection in Defender's endpoint advanced features. Follow the platform-specific steps in Microsoft's [Intune and Defender integration guide](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+Controleer in Intune **Endpoint security > Defender for Endpoint**. Is de verbinding niet beschikbaar, schakel dan de Intune-verbinding in bij de geavanceerde endpointfuncties van Defender. Volg de platformspecifieke stappen in de [integratiegids voor Intune en Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
-| Checkpoint | Evidence to capture |
+| Controlepunt | Te verzamelen bewijs |
 |---|---|
-| **Enrollment** | Client appears in Intune with a recent check-in |
-| **Policy assignment** | Onboarding policy applies to the intended device group |
-| **Sensor reporting** | Defender shows onboarded status and recent telemetry |
-| **Detection test** | A documented test produces the expected security signal |
+| **Inschrijving** | Client staat in Intune met een recente check-in |
+| **Beleidstoewijzing** | Onboardingbeleid geldt voor de bedoelde apparaatgroep |
+| **Sensorrapportage** | Defender toont onboardingstatus en recente telemetrie |
+| **Detectietest** | Een gedocumenteerde test produceert het verwachte beveiligingssignaal |
 
-**For servers**, enable the chosen Defender for Servers plan and its endpoint integration, then verify sensor deployment and reporting. Defender for Cloud also discovers machines before onboarding completes. Inventory presence alone is insufficient, as Microsoft explains in its [resource discovery and onboarding guidance](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**Voor servers:** schakel het gekozen Defender for Servers-plan en de endpointintegratie in. Controleer daarna sensorimplementatie en rapportage. Defender for Cloud ontdekt machines ook voordat onboarding is voltooid. Alleen aanwezigheid in de inventaris is onvoldoende, zoals Microsoft uitlegt in de gids voor [resourcedetectie en onboarding](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-## Investigate a Test Alert
+## Onderzoek een testwaarschuwing
 
-**Start with Microsoft's documented EDR detection test** on the lab endpoint. Follow the [current test instructions](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), including platform prerequisites and troubleshooting. Record the execution time before opening the alert queue.
+**Begin met Microsofts gedocumenteerde EDR-detectietest** op het labendpoint. Volg de [actuele testinstructies](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), inclusief platformvereisten en probleemoplossing. Noteer de uitvoeringstijd voordat je de waarschuwingswachtrij opent.
 
-Treat the resulting alert as an investigation exercise. A security product's title gives you a starting point. Your job is to establish what happened and support the disposition with evidence.
+Behandel de waarschuwing als een onderzoeksoefening. De titel van het beveiligingsproduct is een beginpunt. Stel vast wat er gebeurde en onderbouw de beslissing met bewijs.
 
-1. **Triage:** identify the alert source, device, account, and event time.
-2. **Inspect:** review the process tree, command line, file details, and network activity available for the event.
-3. **Scope:** search for related activity on the test identity and other lab devices.
-4. **Assess:** explain whether the evidence matches the planned exercise or an unrelated event.
-5. **Respond:** document the selected response, its impact, and the recovery steps. Perform supported containment only when the exercise requires it.
-6. **Retest:** repeat the relevant test after changing a control and compare the evidence.
+1. **Triage:** bepaal de bron van de waarschuwing, het apparaat, de account en de gebeurtenistijd.
+2. **Inspectie:** bekijk de procesboom, opdrachtregel, bestandsdetails en beschikbare netwerkactiviteit.
+3. **Afbakening:** zoek verwante activiteit op de testidentiteit en andere labapparaten.
+4. **Beoordeling:** leg uit of het bewijs past bij de geplande oefening of een andere gebeurtenis.
+5. **Reactie:** documenteer de gekozen reactie, impact en herstelstappen. Gebruik ondersteunde insluiting alleen als de oefening dat vraagt.
+6. **Hertest:** herhaal na een wijziging de relevante test en vergelijk het bewijs.
 
-**Do not manufacture missing results.** If the alert fails to arrive, preserve the execution record and troubleshoot collection. If a control blocks the test before the expected event, document the prevention result.
+**Verzin geen ontbrekende resultaten.** Komt de waarschuwing niet binnen, bewaar dan het uitvoeringsrecord en onderzoek de verzameling. Blokkeert een controle de test vóór de verwachte gebeurtenis, documenteer dan de preventie-uitkomst.
 
-## Test Identity Controls
+## Test identiteitscontroles
 
-**Adversary-in-the-middle (AiTM) phishing** places an attacker-controlled intermediary in a sign-in flow. The supplied runbook uses this scenario to motivate stronger authentication. For the first identity exercise, test policy behavior directly with your own unprivileged account.
+**Adversary-in-the-middle-phishing (AiTM)** plaatst een door een aanvaller beheerde tussenpersoon in de aanmeldstroom. Het meegeleverde runbook gebruikt dit scenario als reden voor sterkere authenticatie. Test de eerste identiteitscontrole rechtstreeks met je eigen account zonder privileges.
 
-Begin by recording a legitimate sign-in and its authentication details. Review Microsoft's [Entra risk detection reference](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) before interpreting risk signals. Detection prerequisites and processing differ by signal. A new IP address or a failed sign-in does not guarantee an AiTM alert.
+Leg eerst een legitieme aanmelding en de authenticatiedetails vast. Lees Microsofts [referentie voor Entra-risicodetectie](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) voordat je risicosignalen interpreteert. Vereisten en verwerking verschillen per signaal. Een nieuw IP-adres of mislukte aanmelding garandeert geen AiTM-waarschuwing.
 
-**Passkeys (FIDO2)** use credentials bound to the legitimate service rather than reusable codes entered into a relayed login page. Enable an appropriate passkey profile for the pilot group and register the method before enforcing a policy. Follow Microsoft's [passkey configuration guide](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) for supported authenticators and restrictions.
+**Passkeys (FIDO2)** gebruiken aanmeldgegevens die aan de legitieme dienst zijn gebonden, in plaats van herbruikbare codes op een doorgestuurde aanmeldpagina. Schakel een passend passkeyprofiel in voor de pilotgroep en registreer de methode voordat je een beleid afdwingt. De [Microsoft-gids voor passkeyconfiguratie](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) beschrijft ondersteunde authenticators en beperkingen.
 
-**Conditional Access exercise:** create a policy targeting only the lab pilot group, exclude emergency access accounts, and select **Require authentication strength > Phishing-resistant MFA strength**. Start in **Report-only**, review its impact, then enable it. This adapts Microsoft's [administrator policy example](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) to a narrow test group.
+**Conditional Access-oefening:** maak een beleid voor alleen de labpilotgroep, sluit noodtoegangsaccounts uit en kies **Require authentication strength > Phishing-resistant MFA strength**. Begin met **Report-only**, beoordeel de gevolgen en schakel het beleid daarna in. Pas het [Microsoft-voorbeeldbeleid voor beheerders](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) aan op een kleine testgroep.
 
-| Test | Evidence to collect |
+| Test | Te verzamelen bewijs |
 |---|---|
-| **Report-only policy** | Sign-in record showing how the proposed policy evaluates |
-| **Enforced policy, weaker method** | Fresh authentication requires a stronger method before access |
-| **Enforced policy, registered passkey** | Successful sign-in satisfying the required strength |
+| **Report-only-beleid** | Aanmeldrecord dat laat zien hoe het voorgestelde beleid wordt beoordeeld |
+| **Afgedwongen beleid, zwakkere methode** | Nieuwe authenticatie vereist een sterkere methode vóór toegang |
+| **Afgedwongen beleid, geregistreerde passkey** | Geslaagde aanmelding die aan het vereiste niveau voldoet |
 
-Use fresh authentication for each comparison and inspect the policy details. Existing sessions complicate comparisons. **Scope of proof:** this exercise validates the authentication requirement. It does not demonstrate universal protection against endpoint compromise or theft of an existing session.
+Gebruik voor elke vergelijking nieuwe authenticatie en bekijk de beleidsdetails. Bestaande sessies bemoeilijken vergelijkingen. **Bewijsbereik:** deze oefening controleert de authenticatie-eis. Ze bewijst geen universele bescherming tegen endpointcompromittering of diefstal van een bestaande sessie.
 
-## Write Portfolio Evidence
+## Leg portfolio-bewijs vast
 
-**A useful portfolio entry** explains a decision another analyst is able to review. Include a short architecture description, the collection prerequisites, the event timeline, and the reasoning behind your response.
+**Een nuttige portfoliovermelding** legt een beslissing uit zodat een andere analist die kan beoordelen. Voeg een korte architectuurbeschrijving, verzamelvereisten, gebeurtenistijdlijn en onderbouwing van de reactie toe.
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+Oefening:
+Datum en UTC-tijdsvenster:
+Labomvang en vereisten:
+Trigger en verwacht signaal:
+Waargenomen waarschuwing of preventie:
+Bewijs en query’s:
+Betrokken identiteiten en apparaten:
+Beoordeling en onderbouwing:
+Reactie en herstel:
+Wijziging van de controle en hertest:
+Beperkingen en opvolging:
 ```
 
-Replace every field with your own observations. **Sanitize exports:** remove credentials, session material, personal information, and unnecessary identifiers before publishing screenshots or query results.
+Vervang elk veld door je eigen waarnemingen. **Zuiver exports:** verwijder inloggegevens, sessiemateriaal, persoonlijke informatie en onnodige identificatoren voordat je screenshots of queryresultaten publiceert.
 
-**Resume example:** "Built a Microsoft security lab, connected identity logs to Sentinel, investigated endpoint test alerts, and documented Conditional Access validation." Use this wording only after completing those tasks. Put it under projects or practical training with the actual dates and scope.
+**Voorbeeld voor je cv:** “Ik bouwde een Microsoft-beveiligingslab, koppelde identiteitslogs aan Sentinel, onderzocht endpointtestwaarschuwingen en documenteerde Conditional Access-validatie.” Gebruik deze formulering pas nadat je de taken hebt uitgevoerd. Zet de ervaring onder projecten of praktijktraining met echte datums en scope.
 
-A lab demonstrates independent practice. **Production SOC work** also involves business impact, escalation, service commitments, and coordination with other teams. Explain which parts you practiced and which remain outside your experience.
+Een lab toont zelfstandige oefening. **Werk in een productie-SOC** omvat ook bedrijfsimpact, escalatie, serviceafspraken en coördinatie met andere teams. Leg uit welke onderdelen je hebt geoefend en welke buiten je ervaring vallen.
 
-## Troubleshooting
+## Problemen oplossen
 
-| Symptom | First check |
+| Symptoom | Eerste controle |
 |---|---|
-| **Workspace absent from Defender** | Same tenant, Sentinel enabled, and onboarding role requirements |
-| **SigninLogs absent or empty** | Diagnostic categories, destination workspace, fresh events, and time range |
-| **Client absent from Intune** | Enrollment prerequisites and enrollment status |
-| **Device visible without telemetry** | Actual onboarding state, sensor health, and outbound connectivity |
-| **Onboarding policy unapplied** | Assignment scope, device platform, and recent check-in |
-| **No identity risk alert** | Signal prerequisites and recorded activity, without assuming deterministic detection |
-| **Unexpected access allowed** | Report-only status, exclusions, resource scope, and existing session |
-| **Charges after shutdown** | Allocation state and resources billed independently of compute |
+| **Werkruimte ontbreekt in Defender** | Dezelfde tenant, Sentinel ingeschakeld en vereiste onboardingrollen |
+| **SigninLogs ontbreekt of is leeg** | Diagnosecategorieën, doelwerkruimte, nieuwe gebeurtenissen en periode |
+| **Client ontbreekt in Intune** | Inschrijfvereisten en inschrijfstatus |
+| **Apparaat zichtbaar zonder telemetrie** | Werkelijke onboardingstatus, sensorstatus en uitgaande verbinding |
+| **Onboardingbeleid niet toegepast** | Toewijzingsscope, apparaatplatform en recente check-in |
+| **Geen identiteitsrisicomelding** | Signaalvereisten en vastgelegde activiteit, zonder deterministische detectie aan te nemen |
+| **Toegang onverwacht toegestaan** | Report-only-status, uitzonderingen, resourcescope en bestaande sessie |
+| **Kosten na afsluiten** | Allocatiestatus en resources die buiten rekenkracht worden gefactureerd |
 
-**Troubleshooting order:** prove the event happened, prove collection worked, then investigate detection logic. Record each failure and fix in the project notes.
+**Volgorde van probleemoplossing:** bewijs eerst dat de gebeurtenis plaatsvond, controleer daarna of verzameling werkte en onderzoek vervolgens de detectielogica. Noteer storingen en oplossingen in de projectnotities.
 
-## Pause or Remove the Lab
+## Pauzeer of verwijder het lab
 
-**Deallocation** releases VM compute allocation. A guest operating system shutdown alone does not guarantee deallocation. Check Azure's displayed power state and review Microsoft's [VM states and billing documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
+**Deallocatie** geeft de VM-rekenallocatie vrij. Alleen het gastbesturingssysteem afsluiten garandeert geen deallocatie. Controleer de energiestatus in Azure en bekijk Microsofts documentatie over [VM-statussen en facturering](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
 
-**Retained resources** still need review. Disks, snapshots, networking services, log retention, and user subscriptions have separate lifecycles. Set a reminder before each trial expires and verify the next usage report after cleanup.
+**Aangehouden resources** vragen ook aandacht. Schijven, snapshots, netwerkservices, logbewaring en gebruikersabonnementen hebben aparte levenscycli. Stel vóór elke proefperiode een herinnering in en controleer na opruimen het volgende gebruiksrapport.
 
-Before deleting the lab resource group, export the evidence you intend to retain and inspect its contents. **Resource group deletion is destructive** for contained resources. Tenant users, Intune policies, Conditional Access policies, subscriptions, and subscription-level security settings require separate cleanup where applicable.
+Exporteer en inspecteer het bewijs dat je wilt bewaren voordat je de labresourcegroep verwijdert. **Verwijderen van de resourcegroep is destructief** voor de resources erin. Tenantgebruikers, Intune-beleid, Conditional Access-beleid, abonnementen en beveiligingsinstellingen op abonnementsniveau vragen mogelijk afzonderlijke opruiming.
 
 ## Volgende stappen
 
-**Finish one documented investigation** before adding another workload. Then add a server, an identity exercise, or a detection rule with a clear test condition. Track what the added component teaches and what it costs.
+**Rond één gedocumenteerd onderzoek af** voordat je een workload toevoegt. Voeg daarna een server, identiteitsoefening of detectieregel met een duidelijke testvoorwaarde toe. Noteer wat het onderdeel leert en wat het kost.
 
-Use the [IT home lab guide](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) for infrastructure practice and the [IT resume guide](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) to present the work. Keep the next project small enough to explain from setup through evidence and cleanup.
+Gebruik de [IT-thuislabgids](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) voor infrastructuuroefeningen en de [IT-cvgids](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) om je werk te presenteren. Houd het volgende project klein genoeg om inrichting, bewijs en opruiming uit te leggen.

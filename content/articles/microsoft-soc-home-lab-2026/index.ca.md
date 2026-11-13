@@ -1,88 +1,88 @@
 ---
-title: "Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026"
+title: "Laboratori SOC domèstic de Microsoft: desenvolupa experiència en ciberseguretat el 2026"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence."
-genre: ["Cybersecurity", "Cloud Security", "Career Development"]
-tags: ["SOC home lab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure home lab", "cybersecurity experience", "SOC analyst", "security operations center", "incident response", "KQL", "Log Analytics", "Conditional Access", "phishing-resistant MFA", "passkeys", "identity security", "cybersecurity portfolio", "cloud cost management", "endpoint security"]
+description: "Crea un laboratori SOC Microsoft amb Sentinel, Defender, Intune i Entra. Investiga incidents, valida polítiques de claus d’accés i documenta proves per al portfolio."
+genre: ["Ciberseguretat", "Seguretat al núvol", "Desenvolupament professional"]
+tags: ["laboratori SOC domèstic", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "laboratori Azure domèstic", "experiència en ciberseguretat", "analista SOC", "centre d’operacions de seguretat", "resposta a incidents", "KQL", "Log Analytics", "Conditional Access", "MFA resistent al phishing", "claus d’accés", "seguretat d’identitats", "portfolio de ciberseguretat", "gestió de costos al núvol", "seguretat d’endpoints"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
-coverAlt: "A laptop showing security incident timelines on a home desk beneath a cloud containing servers and endpoints."
+coverAlt: "Un portàtil mostra cronologies d’incidents de seguretat en un escriptori domèstic, sota un núvol amb servidors i endpoints."
 coverCaption: ""
 ---
 
-A **security operations center (SOC) home lab** gives you a place to investigate alerts, explain evidence, and test defensive changes. Build a small Microsoft environment, collect its telemetry, and write up each investigation. The useful result is a repeatable investigation with supporting evidence.
+Un **laboratori SOC domèstic** ofereix un espai per investigar alertes, explicar proves i provar canvis defensius. Crea un entorn Microsoft petit, recull-ne la telemetria i documenta cada investigació. El resultat útil és una investigació repetible amb proves que la sustentin.
 
-This guide develops the lab approach described in Mad Hat's cybersecurity career video and supplied Cyber Range runbook. It uses Microsoft documentation for product requirements and separates setup, detection, and validation into measurable tasks.
+Aquesta guia amplia l’enfocament de laboratori descrit al vídeo professional de ciberseguretat de Mad Hat i al runbook Cyber Range proporcionat. Utilitza documentació de Microsoft per als requisits dels productes i divideix la configuració, la detecció i la validació en tasques mesurables.
 
-## Punts clau
+## Idees principals
 
-- **Start small:** one managed Windows client and one test identity support the first exercises.
-- **Verify telemetry:** a visible device or connected portal does not prove logs are arriving.
-- **Complete the investigation:** record the trigger, evidence, response, and retest.
-- **Control spending:** track licenses, retained data, networking, and compute separately.
-- **Describe experience accurately:** list the environment as a lab project on your resume.
+- **Comença amb poc:** un client Windows gestionat i una identitat de prova serveixen per als primers exercicis.
+- **Verifica la telemetria:** veure un dispositiu o un portal connectat no prova que arribin els registres.
+- **Completa la investigació:** registra el desencadenant, les proves, la resposta i la nova prova.
+- **Controla les despeses:** segueix per separat llicències, retenció de dades, xarxa i càlcul.
+- **Descriu l’experiència amb precisió:** presenta l’entorn com a projecte de laboratori al currículum.
 
 ## Abans de començar
 
-**Prerequisites:** basic Windows administration, networking, and familiarity with virtual machines. Use a dedicated Microsoft Entra tenant and an Azure subscription reserved for the lab. Keep production identities, personal files, and employer systems outside the exercise.
+**Requisits previs:** coneixements bàsics d’administració de Windows i xarxes, i familiaritat amb les màquines virtuals. Utilitza un tenant dedicat de Microsoft Entra i una subscripció Azure reservada al laboratori. Mantén fora de l’exercici les identitats de producció, els fitxers personals i els sistemes de l’ocupador.
 
-**Estimated effort:** allow a weekend for the initial setup, followed by focused investigation sessions. This is a planning estimate. Trial approval, quota availability, and service provisioning affect elapsed time. **Difficulty:** intermediate.
+**Esforç estimat:** reserva un cap de setmana per a la configuració inicial i, després, programa sessions d’investigació concretes. És una estimació de planificació. L’aprovació de la prova, les quotes i el subministrament dels serveis afecten la durada real. **Dificultat:** intermèdia.
 
-Prepare a separate administrative account and an unprivileged test user. Before testing access policies, establish and verify emergency access. Assign privileges for each setup task, then use a lower-privilege account for routine investigation.
+Prepara un compte administratiu separat i un usuari de prova sense privilegis. Abans de provar les polítiques d’accés, estableix i verifica l’accés d’emergència. Assigna privilegis per a cada tasca de configuració i utilitza un compte de menys privilegis per a les investigacions habituals.
 
-| Component | Lab purpose |
+| Component | Ús al laboratori |
 |---|---|
-| **Sentinel** | Security information and event management, or SIEM, for connected log sources |
-| **Defender XDR** | Correlation and investigation across licensed Microsoft security services |
-| **Defender for Endpoint** | Endpoint detection and response, or EDR, on onboarded devices |
-| **Intune** | Device enrollment and endpoint security policy management |
-| **Entra ID** | Identity, sign-in records, and access policy evaluation |
-| **Defender for Servers** | Server protection through Defender for Cloud |
+| **Sentinel** | Gestió d’informació i esdeveniments de seguretat (SIEM) per a fonts de registre connectades |
+| **Defender XDR** | Correlació i investigació entre serveis de seguretat Microsoft amb llicència |
+| **Defender for Endpoint** | Detecció i resposta als endpoints incorporats |
+| **Intune** | Inscripció de dispositius i gestió de polítiques de seguretat dels endpoints |
+| **Entra ID** | Identitats, registres d’inici de sessió i avaluació de polítiques d’accés |
+| **Defender for Servers** | Protecció de servidors mitjançant Defender for Cloud |
 
-## Check Licenses First
+## Comprova primer les llicències
 
-**Microsoft 365 E5** is one route to a broad lab, but access depends on the service plans and licenses assigned to the participating users. Office 365 E5 and Microsoft 365 E5 are different bundles. A single administrator's license does not establish coverage for every test user or workload. Review the [Defender XDR prerequisites](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) before selecting a subscription.
+**Microsoft 365 E5** és una opció per a un laboratori ampli, però l’accés depèn dels plans de servei i les llicències assignats als usuaris participants. Office 365 E5 i Microsoft 365 E5 són paquets diferents. La llicència d’un administrador no garanteix cobertura per a cada usuari de prova o càrrega de treball. Consulta els [requisits de Defender XDR](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) abans de triar una subscripció.
 
-**Sentinel in the Defender portal** works without E5 or Defender XDR. Adding XDR introduces its own licensing and configuration requirements. An empty incident view is not evidence of missing E5 licensing. Microsoft's [Sentinel onboarding documentation](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explains both configurations.
+**Sentinel al portal Defender** funciona sense E5 ni Defender XDR. Afegir XDR comporta requisits propis de llicències i configuració. Una vista d’incidents buida no prova que falti una llicència E5. La [documentació d’incorporació de Sentinel](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) descriu ambdues configuracions.
 
-**Server protection** has a separate licensing path. Defender for Servers integrates with Defender for Endpoint for supported server workloads. Windows client operating systems need appropriate client coverage. Do not treat every Azure VM as an automatically licensed server. See Microsoft's [Defender for Endpoint integration documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**La protecció de servidors** té una via de llicències pròpia. Defender for Servers s’integra amb Defender for Endpoint per a les càrregues de servidor compatibles. Els sistemes Windows client necessiten una cobertura de client adequada. No donis per fet que cada VM d’Azure té automàticament una llicència de servidor. Consulta la documentació Microsoft sobre la [integració de Defender for Endpoint](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-**Trial planning:** confirm eligibility, expiration, renewal settings, and included services in your own account. Avoid budgeting around a promised trial duration or a fixed monthly total from a video.
+**Planifica la prova:** comprova al teu compte l’elegibilitat, la caducitat, la renovació i els serveis inclosos. No pressupostis segons una durada de prova promesa o un total mensual fix esmentat en un vídeo.
 
-## Set a Spending Plan
+## Planifica la despesa
 
-**Azure budgets** send notifications. They do not stop consumption when you reach a threshold. Cost reporting also has a delay. Create alerts early and review spending after each session, following Microsoft's [budget setup guide](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+**Els pressupostos Azure** envien notificacions. No aturen el consum quan arribes a un llindar. Els informes de costos també tenen retard. Crea alertes aviat i revisa les despeses després de cada sessió segons la [guia de pressupostos Microsoft](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
 
-| Cost category | Planning question |
+| Categoria de cost | Pregunta de planificació |
 |---|---|
-| **User licenses** | Which users need which service plans, and when do trials expire? |
-| **Compute** | How many VM hours will each exercise require? |
-| **Storage** | Which disks and snapshots remain after shutdown? |
-| **Log collection** | Which tables need ingestion and how long should data remain? |
-| **Networking** | Does the design include paid Bastion, public IPs, or outbound services? |
-| **Server protection** | Which workloads have a paid Defender plan enabled? |
+| **Llicències d’usuari** | Quins usuaris necessiten quins plans de servei i quan caduquen les proves? |
+| **Càlcul** | Quantes hores de VM necessita cada exercici? |
+| **Emmagatzematge** | Quins discos i instantànies queden després d’apagar? |
+| **Recollida de registres** | Quines taules necessiten ingestió i durant quant de temps s’han de conservar les dades? |
+| **Xarxa** | El disseny inclou Bastion de pagament, IP públiques o serveis de sortida? |
+| **Protecció de servidors** | Quines càrregues tenen habilitat un pla Defender de pagament? |
 
-**Design choice:** begin with one client. Add a server when an exercise needs server telemetry. Four clients and several servers add administration and cost before they add useful investigation practice.
+**Decisió de disseny:** comença amb un client. Afegeix un servidor quan un exercici necessiti telemetria de servidor. Quatre clients i diversos servidors augmenten l’administració i el cost abans d’aportar pràctica d’investigació útil.
 
-## Build the Network
+## Construeix la xarxa
 
-**Suggested layout:** put Azure resources in a clearly named group such as **`rg-soc-lab`**. Use separate client and server subnets, explicit network security group rules, and private management access. Subnet separation alone does not block traffic between workloads.
+**Distribució suggerida:** col·loca els recursos Azure en un grup amb un nom clar, com ara **`rg-soc-lab`**. Utilitza subxarxes separades per a clients i servidors, regles explícites de grups de seguretat de xarxa i accés d’administració privat. Separar subxarxes no bloqueja per si sol el trànsit entre càrregues.
 
-For a dedicated **Azure Bastion** deployment, follow the SKU requirements, including the reserved **`AzureBastionSubnet`** name and a **`/26`** or larger subnet for current deployments. Developer SKU uses a different deployment model. Review [Bastion configuration settings](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) before choosing a design.
+Per a un desplegament dedicat d’**Azure Bastion**, segueix els requisits de SKU, inclòs el nom reservat **`AzureBastionSubnet`** i una subxarxa **`/26`** o més gran en els desplegaments actuals. Developer SKU utilitza un altre model. Consulta la [configuració de Bastion](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) abans de triar.
 
-Keep RDP and SSH closed to the public internet. Restrict management traffic to the selected management path. Allow the outbound service connectivity needed for enrollment and security telemetry.
+Mantén RDP i SSH tancats a Internet públic. Limita el trànsit administratiu al camí triat. Permet la connectivitat de sortida necessària per a la inscripció i la telemetria de seguretat.
 
-**Validation:** establish private management access and verify effective network rules before installing workloads. If you add a deliberately vulnerable application later, keep it inside the exercise network and restrict access to the test machines.
+**Validació:** estableix l’accés privat d’administració i comprova les regles de xarxa efectives abans d’instal·lar càrregues. Si després afegeixes una aplicació deliberadament vulnerable, mantén-la dins la xarxa d’exercici i limita l’accés a les màquines de prova.
 
-## Connect Sentinel and Logs
+## Connecta Sentinel i els registres
 
-**Portal setup:** create a Log Analytics workspace and enable Sentinel on it. If the workspace is absent from the Defender portal, open **System > Settings > Microsoft Sentinel > Connect a workspace**. Verify the tenant and required Azure and Entra roles against the [onboarding prerequisites](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configuració del portal:** crea un espai de treball Log Analytics i habilita-hi Sentinel. Si no apareix al portal Defender, obre **System > Settings > Microsoft Sentinel > Connect a workspace**. Comprova el tenant i els rols Azure i Entra necessaris als [requisits d’incorporació](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
-**Log collection is a separate step.** In Entra, configure diagnostic settings to send the required activity categories to the same workspace. Start with interactive sign-ins and audit events. Microsoft's [Entra log integration guide](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) covers the permissions and destination setup.
+**La recollida de registres és un pas separat.** A Entra, configura els paràmetres de diagnòstic perquè enviïn les categories d’activitat necessàries al mateix espai de treball. Comença amb inicis de sessió interactius i esdeveniments d’auditoria. La [guia d’integració de registres Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) explica els permisos i la destinació.
 
-The current Sentinel workflow also supports connection through the Microsoft Defender portal. Confirm the workspace is the intended primary workspace, the tenant matches the test identities, and the account has the required roles before troubleshooting an empty table. Portal visibility alone does not prove ingestion. [Sentinel onboarding in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+El flux actual de Sentinel també admet la connexió a través del portal Microsoft Defender. Abans d’investigar una taula buida, confirma que l’espai de treball principal sigui el previst, que el tenant coincideixi amb les identitats de prova i que el compte tingui els rols necessaris. Veure el portal no prova la ingestió. [Incorporació de Sentinel al portal Defender](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -93,107 +93,107 @@ SigninLogs
 | order by TimeGenerated desc
 ```
 
-Run this **Kusto Query Language (KQL)** example in the workspace's Logs view after generating a fresh test sign-in. Replace the sample user principal name with your lab user. The columns follow the [SigninLogs table schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
+Executa aquest exemple de **Kusto Query Language (KQL)** a la vista Logs de l’espai de treball després de generar un nou inici de sessió de prova. Substitueix l’UPN d’exemple pel teu usuari del laboratori. Les columnes segueixen l’[esquema de la taula SigninLogs](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
 
-**Expected result:** a row matching the test account and sign-in time. No rows means you need to check the time range, identity, collection settings, destination, and ingestion delay. A missing table points to a collection or workspace issue before it points to a detection issue.
+**Resultat esperat:** una fila que coincideixi amb el compte de prova i l’hora d’inici de sessió. Si no hi ha files, comprova el període, la identitat, la recollida, la destinació i el retard d’ingestió. Si falta la taula, primer apunta a un problema de recollida o de l’espai de treball i després a la detecció.
 
-## Onboard the First Endpoint
+## Incorpora el primer endpoint
 
-**Intune enrollment and EDR onboarding** are separate checkpoints. Connect Intune and Defender for Endpoint, enroll a supported Windows client, then assign an endpoint detection and response onboarding policy to its lab group. Entra registration alone does not establish either checkpoint.
+**La inscripció d’Intune i la incorporació EDR** són punts de control diferents. Connecta Intune i Defender for Endpoint, inscriu un client Windows compatible i assigna una política d’incorporació EDR al seu grup de laboratori. El registre d’Entra, tot sol, no confirma cap dels dos punts.
 
-In Intune, check **Endpoint security > Defender for Endpoint**. If the connection is unavailable, enable the Intune connection in Defender's endpoint advanced features. Follow the platform-specific steps in Microsoft's [Intune and Defender integration guide](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+A Intune, comprova **Endpoint security > Defender for Endpoint**. Si la connexió no està disponible, habilita la connexió Intune a les funcions avançades d’endpoint de Defender. Segueix els passos específics de la plataforma a la [guia d’integració d’Intune i Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
-| Checkpoint | Evidence to capture |
+| Punt de control | Prova que cal recollir |
 |---|---|
-| **Enrollment** | Client appears in Intune with a recent check-in |
-| **Policy assignment** | Onboarding policy applies to the intended device group |
-| **Sensor reporting** | Defender shows onboarded status and recent telemetry |
-| **Detection test** | A documented test produces the expected security signal |
+| **Inscripció** | El client apareix a Intune amb una sincronització recent |
+| **Assignació de política** | La política d’incorporació s’aplica al grup de dispositius previst |
+| **Informes del sensor** | Defender mostra l’estat d’incorporació i telemetria recent |
+| **Prova de detecció** | Una prova documentada produeix el senyal de seguretat esperat |
 
-**For servers**, enable the chosen Defender for Servers plan and its endpoint integration, then verify sensor deployment and reporting. Defender for Cloud also discovers machines before onboarding completes. Inventory presence alone is insufficient, as Microsoft explains in its [resource discovery and onboarding guidance](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**Per als servidors**, habilita el pla Defender for Servers triat i la integració d’endpoint, i després comprova el desplegament i els informes del sensor. Defender for Cloud també descobreix màquines abans que acabi la incorporació. La presència a l’inventari no és suficient, com explica la guia Microsoft de [descobriment i incorporació de recursos](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-## Investigate a Test Alert
+## Investiga una alerta de prova
 
-**Start with Microsoft's documented EDR detection test** on the lab endpoint. Follow the [current test instructions](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), including platform prerequisites and troubleshooting. Record the execution time before opening the alert queue.
+**Comença amb la prova de detecció EDR documentada per Microsoft** a l’endpoint de laboratori. Segueix les [instruccions actuals de la prova](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), inclosos els requisits de plataforma i la resolució de problemes. Anota l’hora d’execució abans d’obrir la cua d’alertes.
 
-Treat the resulting alert as an investigation exercise. A security product's title gives you a starting point. Your job is to establish what happened and support the disposition with evidence.
+Tracta l’alerta resultant com un exercici d’investigació. El títol del producte és un punt de partida. Has d’establir què ha passat i justificar la decisió amb proves.
 
-1. **Triage:** identify the alert source, device, account, and event time.
-2. **Inspect:** review the process tree, command line, file details, and network activity available for the event.
-3. **Scope:** search for related activity on the test identity and other lab devices.
-4. **Assess:** explain whether the evidence matches the planned exercise or an unrelated event.
-5. **Respond:** document the selected response, its impact, and the recovery steps. Perform supported containment only when the exercise requires it.
-6. **Retest:** repeat the relevant test after changing a control and compare the evidence.
+1. **Triatge:** identifica l’origen de l’alerta, el dispositiu, el compte i l’hora de l’esdeveniment.
+2. **Inspecció:** revisa l’arbre de processos, la línia d’ordres, els detalls del fitxer i l’activitat de xarxa disponible.
+3. **Abast:** cerca activitat relacionada amb la identitat de prova i els altres dispositius del laboratori.
+4. **Avaluació:** explica si les proves coincideixen amb l’exercici planificat o amb un esdeveniment aliè.
+5. **Resposta:** documenta la resposta triada, l’impacte i els passos de recuperació. Aplica contenció compatible només quan l’exercici ho requereixi.
+6. **Nova prova:** després de canviar un control, repeteix la prova pertinent i compara les proves.
 
-**Do not manufacture missing results.** If the alert fails to arrive, preserve the execution record and troubleshoot collection. If a control blocks the test before the expected event, document the prevention result.
+**No inventis resultats absents.** Si l’alerta no arriba, conserva el registre d’execució i resol el problema de recollida. Si un control bloqueja la prova abans de l’esdeveniment previst, documenta el resultat de prevenció.
 
-## Test Identity Controls
+## Prova els controls d’identitat
 
-**Adversary-in-the-middle (AiTM) phishing** places an attacker-controlled intermediary in a sign-in flow. The supplied runbook uses this scenario to motivate stronger authentication. For the first identity exercise, test policy behavior directly with your own unprivileged account.
+**El phishing de tipus adversary-in-the-middle (AiTM)** posa un intermediari controlat per l’atacant dins del flux d’inici de sessió. El runbook proporcionat utilitza aquest escenari per justificar una autenticació més forta. Per al primer exercici d’identitat, prova directament el comportament de les polítiques amb el teu compte sense privilegis.
 
-Begin by recording a legitimate sign-in and its authentication details. Review Microsoft's [Entra risk detection reference](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) before interpreting risk signals. Detection prerequisites and processing differ by signal. A new IP address or a failed sign-in does not guarantee an AiTM alert.
+Comença registrant un inici de sessió legítim i els seus detalls d’autenticació. Consulta la [referència Microsoft de detecció de riscos Entra](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) abans d’interpretar els senyals de risc. Els prerequisits i el processament varien segons el senyal. Una IP nova o un inici de sessió fallit no garanteixen una alerta AiTM.
 
-**Passkeys (FIDO2)** use credentials bound to the legitimate service rather than reusable codes entered into a relayed login page. Enable an appropriate passkey profile for the pilot group and register the method before enforcing a policy. Follow Microsoft's [passkey configuration guide](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) for supported authenticators and restrictions.
+**Les claus d’accés (FIDO2)** utilitzen credencials vinculades al servei legítim, no codis reutilitzables introduïts en una pàgina d’inici de sessió retransmesa. Habilita un perfil adequat per al grup pilot i registra el mètode abans d’aplicar una política. Consulta la [guia Microsoft de configuració de claus d’accés](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) per conèixer els autenticadors admesos i les restriccions.
 
-**Conditional Access exercise:** create a policy targeting only the lab pilot group, exclude emergency access accounts, and select **Require authentication strength > Phishing-resistant MFA strength**. Start in **Report-only**, review its impact, then enable it. This adapts Microsoft's [administrator policy example](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) to a narrow test group.
+**Exercici Conditional Access:** crea una política només per al grup pilot del laboratori, exclou els comptes d’accés d’emergència i selecciona **Require authentication strength > Phishing-resistant MFA strength**. Comença en **Report-only**, revisa l’impacte i després habilita la política. Adapta l’[exemple Microsoft de política d’administrador](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) a un grup de prova reduït.
 
-| Test | Evidence to collect |
+| Prova | Evidència que cal recollir |
 |---|---|
-| **Report-only policy** | Sign-in record showing how the proposed policy evaluates |
-| **Enforced policy, weaker method** | Fresh authentication requires a stronger method before access |
-| **Enforced policy, registered passkey** | Successful sign-in satisfying the required strength |
+| **Política Report-only** | Registre d’inici de sessió que mostra l’avaluació de la política proposada |
+| **Política aplicada, mètode més feble** | Una nova autenticació exigeix un mètode més fort abans de concedir accés |
+| **Política aplicada, clau d’accés registrada** | Inici de sessió correcte que satisfà el nivell de seguretat exigit |
 
-Use fresh authentication for each comparison and inspect the policy details. Existing sessions complicate comparisons. **Scope of proof:** this exercise validates the authentication requirement. It does not demonstrate universal protection against endpoint compromise or theft of an existing session.
+Utilitza una autenticació nova per a cada comparació i consulta els detalls de la política. Les sessions existents compliquen les comparacions. **Abast de la prova:** aquest exercici valida el requisit d’autenticació. No demostra protecció universal contra la intrusió d’un endpoint ni el robatori d’una sessió existent.
 
-## Write Portfolio Evidence
+## Escriu proves per al portfolio
 
-**A useful portfolio entry** explains a decision another analyst is able to review. Include a short architecture description, the collection prerequisites, the event timeline, and the reasoning behind your response.
+**Una entrada útil al portfolio** explica una decisió perquè un altre analista la pugui avaluar. Inclou una descripció breu de l’arquitectura, prerequisits de recollida, cronologia de l’esdeveniment i raonament de la resposta.
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+Exercici:
+Data i interval horari UTC:
+Abast del laboratori i prerequisits:
+Activador i senyal esperat:
+Alerta observada o prevenció:
+Proves i consultes:
+Identitats i dispositius afectats:
+Conclusió i raonament:
+Resposta i recuperació:
+Canvi de control i nova prova:
+Limitacions i seguiment:
 ```
 
-Replace every field with your own observations. **Sanitize exports:** remove credentials, session material, personal information, and unnecessary identifiers before publishing screenshots or query results.
+Substitueix cada camp per observacions pròpies. **Neteja les exportacions:** elimina credencials, material de sessió, informació personal i identificadors innecessaris abans de publicar captures o resultats de consultes.
 
-**Resume example:** "Built a Microsoft security lab, connected identity logs to Sentinel, investigated endpoint test alerts, and documented Conditional Access validation." Use this wording only after completing those tasks. Put it under projects or practical training with the actual dates and scope.
+**Exemple de currículum:** «He creat un laboratori de seguretat Microsoft, he connectat registres d’identitat a Sentinel, he investigat alertes de prova d’endpoint i he documentat la validació Conditional Access». Utilitza aquesta redacció només després de completar les tasques. Inclou-la a projectes o formació pràctica amb dates i abast reals.
 
-A lab demonstrates independent practice. **Production SOC work** also involves business impact, escalation, service commitments, and coordination with other teams. Explain which parts you practiced and which remain outside your experience.
+Un laboratori demostra pràctica independent. **La feina en un SOC de producció** també inclou impacte empresarial, escalació, compromisos de servei i coordinació amb altres equips. Explica quines parts has practicat i quines queden fora de la teva experiència.
 
-## Troubleshooting
+## Resolució de problemes
 
-| Symptom | First check |
+| Símptoma | Primera comprovació |
 |---|---|
-| **Workspace absent from Defender** | Same tenant, Sentinel enabled, and onboarding role requirements |
-| **SigninLogs absent or empty** | Diagnostic categories, destination workspace, fresh events, and time range |
-| **Client absent from Intune** | Enrollment prerequisites and enrollment status |
-| **Device visible without telemetry** | Actual onboarding state, sensor health, and outbound connectivity |
-| **Onboarding policy unapplied** | Assignment scope, device platform, and recent check-in |
-| **No identity risk alert** | Signal prerequisites and recorded activity, without assuming deterministic detection |
-| **Unexpected access allowed** | Report-only status, exclusions, resource scope, and existing session |
-| **Charges after shutdown** | Allocation state and resources billed independently of compute |
+| **Espai de treball absent de Defender** | Mateix tenant, Sentinel habilitat i rols d’incorporació necessaris |
+| **SigninLogs absent o buit** | Categories de diagnòstic, destinació, esdeveniments nous i període |
+| **Client absent d’Intune** | Requisits i estat d’inscripció |
+| **Dispositiu visible sense telemetria** | Estat real d’incorporació, salut del sensor i connectivitat de sortida |
+| **Política d’incorporació no aplicada** | Abast de l’assignació, plataforma i sincronització recent |
+| **Sense alerta de risc d’identitat** | Requisits del senyal i activitat registrada, sense pressuposar detecció determinista |
+| **Accés concedit inesperadament** | Estat Report-only, exclusions, abast del recurs i sessió existent |
+| **Càrrecs després d’apagar** | Estat d’assignació i recursos facturats independentment del càlcul |
 
-**Troubleshooting order:** prove the event happened, prove collection worked, then investigate detection logic. Record each failure and fix in the project notes.
+**Ordre de resolució:** demostra primer que l’esdeveniment ha passat, després que la recollida ha funcionat i finalment investiga la lògica de detecció. Anota cada fallada i correcció a les notes del projecte.
 
-## Pause or Remove the Lab
+## Atura o elimina el laboratori
 
-**Deallocation** releases VM compute allocation. A guest operating system shutdown alone does not guarantee deallocation. Check Azure's displayed power state and review Microsoft's [VM states and billing documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
+**La desassignació** allibera el càlcul de la VM. Aturar només el sistema convidat no garanteix la desassignació. Comprova l’estat d’alimentació a Azure i consulta la documentació Microsoft sobre [estats i facturació de VM](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
 
-**Retained resources** still need review. Disks, snapshots, networking services, log retention, and user subscriptions have separate lifecycles. Set a reminder before each trial expires and verify the next usage report after cleanup.
+**Els recursos retinguts** també necessiten revisió. Discos, instantànies, serveis de xarxa, retenció de registres i subscripcions d’usuari tenen cicles de vida separats. Programa un recordatori abans de cada venciment de prova i consulta el següent informe d’ús després de la neteja.
 
-Before deleting the lab resource group, export the evidence you intend to retain and inspect its contents. **Resource group deletion is destructive** for contained resources. Tenant users, Intune policies, Conditional Access policies, subscriptions, and subscription-level security settings require separate cleanup where applicable.
+Abans d’eliminar el grup de recursos del laboratori, exporta les proves que vulguis conservar i inspecciona’n el contingut. **Eliminar el grup de recursos és destructiu** per als recursos que conté. Els usuaris del tenant, les polítiques d’Intune i Conditional Access, les subscripcions i la configuració de seguretat de la subscripció poden requerir una neteja separada.
 
 ## Passos següents
 
-**Finish one documented investigation** before adding another workload. Then add a server, an identity exercise, or a detection rule with a clear test condition. Track what the added component teaches and what it costs.
+**Completa una investigació documentada** abans d’afegir una altra càrrega. Després, afegeix un servidor, un exercici d’identitat o una regla de detecció amb una condició de prova clara. Anota què ensenya el component nou i quant costa.
 
-Use the [IT home lab guide](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) for infrastructure practice and the [IT resume guide](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) to present the work. Keep the next project small enough to explain from setup through evidence and cleanup.
+Utilitza la [guia de laboratori d’IT](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) per practicar infraestructura i la [guia de currículum d’IT](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) per presentar la feina. Mantén el projecte següent prou petit per explicar configuració, proves i neteja.

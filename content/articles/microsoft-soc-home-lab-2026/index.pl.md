@@ -1,7 +1,7 @@
 ---
 title: "Domowe laboratorium SOC Microsoft: zdobądź doświadczenie w cyberbezpieczeństwie w 2026 roku"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Zbuduj domowe laboratorium SOC Microsoft z Sentinel, Defender, Intune i Entra. Ćwicz analizę incydentów, sprawdzaj zasady dotyczące kluczy dostępu i dokumentuj dowody do portfolio."
@@ -150,17 +150,17 @@ Przy każdym porównaniu wymuś nowe uwierzytelnienie i sprawdź szczegóły zas
 **Przydatny wpis w portfolio** wyjaśnia decyzję w sposób umożliwiający innemu analitykowi jej ocenę. Dodaj krótki opis architektury, wymagania wstępne dotyczące zbierania danych, oś czasu zdarzeń i uzasadnienie reakcji.
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+Ćwiczenie:
+Data i przedział czasu UTC:
+Zakres laboratorium i wymagania wstępne:
+Wyzwalacz i oczekiwany sygnał:
+Zaobserwowany alert lub zapobieżenie:
+Dowody i zapytania:
+Dotknięte tożsamości i urządzenia:
+Ocena i uzasadnienie:
+Reakcja i przywrócenie:
+Zmiana kontroli i ponowny test:
+Ograniczenia i dalsze działania:
 ```
 
 Wypełnij każde pole własnymi obserwacjami. **Przed publikacją oczyść eksporty:** usuń poświadczenia, dane sesji, informacje osobiste i zbędne identyfikatory ze zrzutów ekranu oraz wyników zapytań.
@@ -178,7 +178,7 @@ Laboratorium pokazuje samodzielną praktykę. **Praca w produkcyjnym SOC** obejm
 | **Urządzenia nie ma w Intune** | Wymagania rejestracji i jej stan |
 | **Urządzenie jest widoczne, ale nie ma telemetrii** | Rzeczywisty stan wdrożenia, kondycja czujnika i łączność wychodząca |
 | **Zasada wdrożeniowa nie została zastosowana** | Zakres przypisania, platforma urządzenia i ostatnie zameldowanie |
-| **Brak alertu ryzyka tożsamości** | Wymagania sygnału i zarejestrowana aktywność; nie zakładaj deterministycznego wykrywania |
+| **Brak alertu ryzyka tożsamości** | Wymagania sygnału i zarejestrowana aktywność. Nie zakładaj deterministycznego wykrywania |
 | **Nieoczekiwane przyznanie dostępu** | Tryb raportowania, wykluczenia, zakres zasobów i istniejąca sesja |
 | **Koszty po wyłączeniu** | Przydział zasobów i opłaty niezależne od mocy obliczeniowej |
 
