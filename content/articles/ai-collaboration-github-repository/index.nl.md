@@ -1,7 +1,7 @@
 ---
 title: "AI-samenwerking met GitHub: grenzen voor repository en review"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Bouw een GitHub-gerichte bronnenkaart, wijs bestandseigenaars toe en stel een beschermde publicatiegrens in voor gereviewde AI-bijdragen."
@@ -129,12 +129,12 @@ Eigenaren hebben schrijftoegang nodig zodat GitHub hen herkent. Controleer het C
 **Gebruik de eigen geauthenticeerde lokale clone van de bijdrager voor de directe-pushtest.** Een maintainer-token zou de verkeerde identiteit testen. Deze illustratieve respons toont het type serverbewijs dat je moet bewaren. De exacte formulering verschilt per repositoryregel.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Rol van actor: bijdrager
+Poging: onschadelijke synthetische directe push naar main
+Resultaat op remote: geweigerd, update van beschermde branch afgewezen
+Initiële commit van main: [sandbox-commit noteren]
+Definitieve commit van main: [dezelfde commit na opnieuw lezen noteren]
+Besluit: weigering door het platform is alleen onderbouwd als beide registraties zijn waargenomen
 ```
 
 **Als lokale Git-authenticatie niet beschikbaar is, markeer je server-side weigering als Blocked.** Bewaar de browserprompt voor de branch als routebewijs en vraag de maintainer een afzonderlijke bijdragerstest te organiseren. Beoordeel de routeprompt niet als een geweigerde directe push.
@@ -145,26 +145,26 @@ Decision: platform denial supported only if both records are observed
 
 ```text
 Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Traject: GitHub-first
+Goedgekeurde grens: beschermde main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Bevoegdheid: bewaardoel voor synthetische exportbestanden
+  Eigenaar: product-owner
+  Revisie: revisie en beschermde commit noteren
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Bevoegdheid: bedieningsinstructies voor het synthetische lab
+  Eigenaar: operations-owner
+  Revisie: beschermde commit
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Gedrag -> config.json
+  Bevoegdheid: vastgelegde bewaarconfiguratie
+  Eigenaar: repository-maintainer
+  Revisie: beschermde commit
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Voorstellen -> Issues en voorstelbranches
+  Bevoegdheid: alleen aangevraagde wijzigingen
 ```
 
 **Zet de actuele bewaartermijn niet in elke kaartvermelding.** Een kaart met “zeven dagen” wordt na PROP-042 nog een waarde die je moet synchroniseren. Houd stabiele identificatoren en locaties in de kaart en lees de waarde uit het gezaghebbende record.
@@ -228,9 +228,9 @@ Proposals -> Issues and proposal branches
 
 ## Belangrijkste referenties
 
-- **Plan- en reviewcontroles:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Geschiktheid van eigenaren:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
-- **Bijdragen in de browser:** [Editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
+- **Plan- en reviewcontroles:** [Beschermde branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+- **Geschiktheid van eigenaren:** [Code-eigenaren](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+- **Bijdragen in de browser:** [Bestanden bewerken](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
 ## Volgende stappen
 

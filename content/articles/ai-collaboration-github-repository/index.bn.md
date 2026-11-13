@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI সহযোগিতা: রিপোজিটরি ও রিভিউ সীমা"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "GitHub-ভিত্তিক সোর্স ম্যাপ তৈরি করুন, ফাইলের মালিক নির্ধারণ করুন এবং পর্যালোচিত AI অবদানের জন্য সুরক্ষিত প্রকাশনা সীমা তৈরি করুন।"
@@ -129,12 +129,12 @@ PY
 **Direct-push test-এ contributor-এর নিজের authenticated local clone ব্যবহার করুন।** Maintainer token ভুল identity পরীক্ষা করবে। নিচের illustrative response-এ রাখার মতো server evidence-এর ধরন দেখানো হয়েছে। Exact wording repository rule অনুযায়ী বদলায়।
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+অভিনেতার ভূমিকা: অবদানকারী
+চেষ্টা: main-এ নিরাপদ কৃত্রিম সরাসরি পুশ
+রিমোটের ফলাফল: প্রত্যাখ্যাত, সুরক্ষিত শাখা আপডেট নিষিদ্ধ
+প্রাথমিক main কমিট: [sandbox কমিট নথিভুক্ত করুন]
+চূড়ান্ত main কমিট: [পড়ে যাচাইয়ের পর একই কমিট নথিভুক্ত করুন]
+সিদ্ধান্ত: দুই রেকর্ড দেখা গেলেই কেবল প্ল্যাটফর্মের প্রত্যাখ্যান সমর্থিত
 ```
 
 **Local Git authentication না থাকলে server-side denial-কে Blocked করুন।** Browser branch prompt route evidence হিসেবে রাখুন এবং maintainer-কে আলাদা contributor test আয়োজন করতে বলুন। route prompt-কে rejected direct push হিসেবে score করবেন না।
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **Source map হলো routing document**, দ্বিতীয় requirements document নয়। chat থেকে আসা ব্যক্তি যেন competing summary বেছে না নিয়ে current intent, implemented behavior এবং operational instruction খুঁজে পায়।
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+প্রকল্প: export-service-lab
+ট্র্যাক: GitHub-first
+অনুমোদিত সীমা: সুরক্ষিত main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  কর্তৃত্ব: কৃত্রিম এক্সপোর্ট ফাইলের সংরক্ষণ-সংক্রান্ত অভিপ্রায়
+  মালিক: product-owner
+  রিভিশন: রিভিশন ও সুরক্ষিত কমিট নথিভুক্ত করুন
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  কর্তৃত্ব: কৃত্রিম ল্যাবের পরিচালন নির্দেশনা
+  মালিক: operations-owner
+  রিভিশন: সুরক্ষিত কমিট
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+আচরণ -> config.json
+  কর্তৃত্ব: কমিট করা সংরক্ষণ কনফিগারেশন
+  মালিক: repository-maintainer
+  রিভিশন: সুরক্ষিত কমিট
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+প্রস্তাব -> Issues এবং প্রস্তাব শাখা
+  কর্তৃত্ব: কেবল অনুরোধ করা পরিবর্তন
 ```
 
 **প্রতিটি মানচিত্র-এন্ট্রিতে বর্তমান সংরক্ষণ-মেয়াদ রাখবেন না।** “সাত দিন” রাখলে PROP-042-এর পরে মানচিত্রে আরেকটি মান সমন্বয় করতে হবে। মানচিত্রে স্থায়ী শনাক্তকারী ও অবস্থান রাখুন, আর মানটি কর্তৃত্বপূর্ণ রেকর্ড থেকে পড়ুন।

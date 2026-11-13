@@ -1,7 +1,7 @@
 ---
 title: "Collaboration IA avec GitHub : limites du dépôt et des revues"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Construisez une carte des sources centrée sur GitHub, attribuez la responsabilité des fichiers et définissez une limite de publication protégée pour les contributions IA révisées."
@@ -129,12 +129,12 @@ Les propriétaires ont besoin d'un accès en écriture pour que GitHub les recon
 **Utilisez le clone local authentifié du contributeur pour le test de push direct.** Un jeton de mainteneur testerait la mauvaise identité. Cette réponse illustrative montre le type de preuve serveur à conserver. La formulation exacte varie selon les règles du dépôt.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Rôle de l’acteur : contributeur
+Tentative : push direct synthétique et sans risque vers main
+Résultat du dépôt distant : rejeté, mise à jour de la branche protégée refusée
+Commit initial de main : [consigner le commit du sandbox]
+Commit final de main : [consigner le même commit après relecture]
+Décision : le refus de la plateforme est étayé uniquement si les deux relevés sont observés
 ```
 
 **Si l'authentification Git locale est indisponible, marquez le refus côté serveur comme Bloqué.** Conservez l'invite de branche du navigateur comme preuve du parcours, puis demandez au mainteneur d'organiser un test séparé avec un contributeur. Ne considérez pas l'invite du parcours comme un push direct rejeté.
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **Une carte des sources est un document de routage**, pas un second document d'exigences. Une personne arrivant depuis une conversation doit trouver l'intention actuelle, le comportement implémenté et les instructions opérationnelles sans choisir entre plusieurs résumés concurrents.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Projet : export-service-lab
+Parcours : GitHub-first
+Limite approuvée : main protégé
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Autorité : intention de conservation des fichiers d’export synthétiques
+  Responsable : product-owner
+  Révision : consigner la révision et le commit protégé
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Autorité : instructions opérationnelles du laboratoire synthétique
+  Responsable : operations-owner
+  Révision : commit protégé
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Comportement -> config.json
+  Autorité : configuration de conservation validée et commitée
+  Responsable : repository-maintainer
+  Révision : commit protégé
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Propositions -> Issues et branches de proposition
+  Autorité : changements demandés uniquement
 ```
 
 **Ne placez pas la valeur actuelle de conservation dans chaque entrée de la carte.** Une carte contenant « sept jours » devient une valeur supplémentaire à synchroniser après PROP-042. Gardez les identifiants stables et les emplacements dans la carte, puis lisez la valeur depuis l'enregistrement faisant autorité.
@@ -229,7 +229,7 @@ Proposals -> Issues and proposal branches
 ## Références principales
 
 - **Contrôles du plan et de la revue :** [Branches protégées](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Admissibilité des propriétaires :** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+- **Admissibilité des propriétaires :** [Propriétaires de code](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 - **Contribution dans le navigateur :** [Modification de fichiers](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
 ## Étapes suivantes

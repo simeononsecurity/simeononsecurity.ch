@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI सहयोग: रिपॉजिटरी और समीक्षा की सीमाएँ"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "GitHub-केंद्रित स्रोत मानचित्र बनाएँ, फ़ाइल स्वामित्व तय करें और समीक्षित AI योगदान के लिए सुरक्षित प्रकाशन सीमा स्थापित करें।"
@@ -129,12 +129,12 @@ GitHub द्वारा पहचान के लिए स्वामिय
 **Direct-push test के लिए contributor का अपना authenticated local clone इस्तेमाल करें।** Maintainer token गलत identity का परीक्षण करेगा। यह illustrative response रखने योग्य server evidence का प्रकार दिखाता है। Exact wording repository rules के अनुसार बदलती है।
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+अभिनेता की भूमिका: योगदानकर्ता
+प्रयास: main पर सुरक्षित सिंथेटिक डायरेक्ट पुश
+रिमोट परिणाम: अस्वीकृत, संरक्षित शाखा अपडेट निषिद्ध
+प्रारंभिक main कमिट: [sandbox कमिट दर्ज करें]
+अंतिम main कमिट: [पुनः पढ़ने के बाद वही कमिट दर्ज करें]
+निर्णय: प्लेटफ़ॉर्म की अस्वीकृति तभी समर्थित है जब दोनों रिकॉर्ड देखे गए हों
 ```
 
 **यदि local Git authentication उपलब्ध नहीं है, तो server-side denial को Blocked चिह्नित करें।** Browser branch prompt को route evidence रखें और maintainer से अलग contributor test की व्यवस्था करने को कहें। Route prompt को rejected direct push न मानें।
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **Source map routing document है**, दूसरा requirements document नहीं। Chat से आने वाले व्यक्ति को competing summaries में चुनाव किए बिना current intent, implemented behavior और operational instructions मिलनी चाहिए।
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+प्रोजेक्ट: export-service-lab
+ट्रैक: GitHub-first
+स्वीकृत सीमा: संरक्षित main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  प्राधिकरण: सिंथेटिक एक्सपोर्ट फ़ाइलों को रखने का उद्देश्य
+  स्वामी: product-owner
+  संशोधन: संशोधन और संरक्षित कमिट दर्ज करें
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  प्राधिकरण: सिंथेटिक लैब के संचालन निर्देश
+  स्वामी: operations-owner
+  संशोधन: संरक्षित कमिट
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+व्यवहार -> config.json
+  प्राधिकरण: कमिट किया गया प्रतिधारण कॉन्फ़िगरेशन
+  स्वामी: repository-maintainer
+  संशोधन: संरक्षित कमिट
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+प्रस्ताव -> Issues और प्रस्ताव शाखाएँ
+  प्राधिकरण: केवल अनुरोधित बदलाव
 ```
 
 **हर मैप प्रविष्टि में मौजूदा प्रतिधारण अवधि न रखें।** “सात दिन” रखने वाला मैप PROP-042 के बाद समन्वय करने के लिए एक और मान बन जाता है। मैप में स्थिर पहचानकर्ता और स्थान रखें, और मान को प्रामाणिक रिकॉर्ड से पढ़ें।

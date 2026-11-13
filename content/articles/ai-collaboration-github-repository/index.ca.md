@@ -1,7 +1,7 @@
 ---
 title: "Col·laboració d'IA a GitHub: límits del repositori i de la revisió"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Crea un mapa de fonts basat en GitHub, assigna propietaris de fitxers i estableix un límit de publicació protegit per a contribucions d'IA revisades."
@@ -129,12 +129,12 @@ PY
 **Usa el clon local autenticat del mateix col·laborador per a la prova de push directe.** Un token del mantenidor provaria la identitat equivocada. Aquesta resposta il·lustrativa mostra el tipus d'evidència del servidor que cal conservar. El text exacte varia segons les regles del repositori.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Rol de l’actor: col·laborador
+Intent: pujada directa sintètica i innòcua a main
+Resultat del remot: rebutjat, actualització de la branca protegida denegada
+Commit inicial de main: [registra el commit del sandbox]
+Commit final de main: [registra el mateix commit després de tornar-lo a llegir]
+Decisió: la denegació de la plataforma només queda acreditada si s’observen tots dos registres
 ```
 
 **Si l'autenticació Git local no està disponible, marca la denegació del servidor com a Bloquejada.** Conserva l'avís de branca del navegador com a evidència de ruta i demana al mantenidor que organitzi una prova separada amb un col·laborador. No puntuis l'avís de ruta com un push directe rebutjat.
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **Un mapa de fonts és un document d'encaminament**, no un segon document de requisits. Algú que arriba des del xat ha de trobar la intenció actual, el comportament implementat i les instruccions operatives sense triar entre resums que competeixen.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Projecte: export-service-lab
+Itinerari: GitHub-first
+Límit aprovat: main protegit
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Autoritat: intenció de retenció dels fitxers d’exportació sintètics
+  Responsable: product-owner
+  Revisió: registra la revisió i el commit protegit
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Autoritat: instruccions operatives del laboratori sintètic
+  Responsable: operations-owner
+  Revisió: commit protegit
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Comportament -> config.json
+  Autoritat: configuració de retenció confirmada al repositori
+  Responsable: repository-maintainer
+  Revisió: commit protegit
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Propostes -> Issues i branques de proposta
+  Autoritat: només canvis sol·licitats
 ```
 
 **No posis el valor actual de retenció a cada entrada del mapa.** Un mapa que conté “set dies” es converteix en un altre valor per sincronitzar després de PROP-042. Conserva identificadors i ubicacions estables al mapa, i llegeix el valor del registre autoritzat.

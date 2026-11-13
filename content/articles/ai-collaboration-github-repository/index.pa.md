@@ -1,7 +1,7 @@
 ---
 title: "GitHub ਵਿੱਚ AI ਸਹਿਯੋਗ: ਰਿਪੋਜ਼ਟਰੀ ਅਤੇ ਸਮੀਖਿਆ ਦੀਆਂ ਹੱਦਾਂ"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "AI ਵੱਲੋਂ ਦਿੱਤੇ ਸਮੀਖਿਆਯੋਗ ਯੋਗਦਾਨਾਂ ਲਈ ਸਰੋਤ ਨਕਸ਼ਾ, ਫਾਈਲ ਮਾਲਕੀ ਅਤੇ ਸੁਰੱਖਿਅਤ ਪ੍ਰਕਾਸ਼ਨ ਹੱਦ ਬਣਾਓ।"
@@ -128,12 +128,12 @@ PY
 **ਸਿੱਧੇ push ਟੈਸਟ ਲਈ ਯੋਗਦਾਨਕਰਤਾ ਦਾ ਆਪਣਾ ਪ੍ਰਮਾਣਿਤ ਸਥਾਨਕ clone ਵਰਤੋ।** ਰੱਖ-ਰਖਾਅਕਾਰ ਦਾ ਟੋਕਨ ਗਲਤ ਪਛਾਣ ਜਾਂਚੇਗਾ। ਇਹ ਨਮੂਨਾ ਜਵਾਬ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਕਿਸ ਕਿਸਮ ਦਾ ਸਰਵਰ ਸਬੂਤ ਰੱਖਣਾ ਹੈ। ਸਹੀ ਸ਼ਬਦਾਵਲੀ ਰਿਪੋਜ਼ਟਰੀ ਨਿਯਮਾਂ ਅਨੁਸਾਰ ਵੱਖ ਹੋ ਸਕਦੀ ਹੈ।
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+ਅਦਾਕਾਰ ਦੀ ਭੂਮਿਕਾ: ਯੋਗਦਾਨਕਰਤਾ
+ਕੋਸ਼ਿਸ਼: main ਉੱਤੇ ਨੁਕਸਾਨ-ਰਹਿਤ ਸਿੰਥੈਟਿਕ ਸਿੱਧਾ ਪੁਸ਼
+ਰਿਮੋਟ ਨਤੀਜਾ: ਰੱਦ, ਸੁਰੱਖਿਅਤ ਬ੍ਰਾਂਚ ਅੱਪਡੇਟ ਮਨਜ਼ੂਰ ਨਹੀਂ
+main ਦੀ ਸ਼ੁਰੂਆਤੀ ਕਮਿਟ: [sandbox ਕਮਿਟ ਦਰਜ ਕਰੋ]
+main ਦੀ ਆਖ਼ਰੀ ਕਮਿਟ: [ਮੁੜ ਪੜ੍ਹਨ ਤੋਂ ਬਾਅਦ ਉਹੀ ਕਮਿਟ ਦਰਜ ਕਰੋ]
+ਫ਼ੈਸਲਾ: ਪਲੇਟਫ਼ਾਰਮ ਵੱਲੋਂ ਇਨਕਾਰ ਦੀ ਪੁਸ਼ਟੀ ਕੇਵਲ ਤਾਂ ਹੁੰਦੀ ਹੈ ਜੇ ਦੋਵੇਂ ਰਿਕਾਰਡ ਵੇਖੇ ਜਾਣ
 ```
 
 **ਸਥਾਨਕ Git ਅਥੈਂਟੀਕੇਸ਼ਨ ਨਾ ਹੋਵੇ ਤਾਂ ਸਰਵਰ-ਪਾਸੇ ਇਨਕਾਰ ਨੂੰ ਰੁਕਿਆ ਹੋਇਆ ਦਰਜ ਕਰੋ।** ਬ੍ਰਾਂਚ ਬਣਾਉਣ ਵਾਲਾ ਬ੍ਰਾਊਜ਼ਰ ਸੁਨੇਹਾ ਰਸਤੇ ਦੇ ਸਬੂਤ ਵਜੋਂ ਰੱਖੋ, ਫਿਰ ਰੱਖ-ਰਖਾਅਕਾਰ ਤੋਂ ਵੱਖਰਾ ਯੋਗਦਾਨਕਰਤਾ ਟੈਸਟ ਕਰਵਾਉਣ ਲਈ ਕਹੋ। ਰਸਤੇ ਦੇ ਸੁਨੇਹੇ ਨੂੰ ਰੱਦ ਸਿੱਧੇ push ਵਜੋਂ ਅੰਕ ਨਾ ਦਿਓ।
@@ -143,27 +143,27 @@ Decision: platform denial supported only if both records are observed
 **ਸਰੋਤ ਨਕਸ਼ਾ ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ ਦਸਤਾਵੇਜ਼ ਹੈ,** ਦੂਜਾ ਲੋੜਾਂ ਦਾ ਦਸਤਾਵੇਜ਼ ਨਹੀਂ। ਚੈਟ ਤੋਂ ਆਉਣ ਵਾਲੇ ਵਿਅਕਤੀ ਨੂੰ ਵਿਰੋਧੀ ਸਾਰਾਂ ਵਿੱਚੋਂ ਚੁਣੇ ਬਿਨਾਂ ਮੌਜੂਦਾ ਇਰਾਦਾ, ਲਾਗੂ ਵਰਤਾਅ ਅਤੇ ਕਾਰਜਕਾਰੀ ਹਦਾਇਤਾਂ ਲੱਭ ਸਕਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ।
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+ਪ੍ਰੋਜੈਕਟ: export-service-lab
+ਰਾਹ: GitHub-first
+ਮਨਜ਼ੂਰ ਹੱਦ: ਸੁਰੱਖਿਅਤ main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  ਅਧਿਕਾਰ: ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ ਫ਼ਾਈਲਾਂ ਸੰਭਾਲਣ ਦਾ ਮਕਸਦ
+  ਮਾਲਕ: product-owner
+  ਰਿਵਿਜ਼ਨ: ਰਿਵਿਜ਼ਨ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਮਿਟ ਦਰਜ ਕਰੋ
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  ਅਧਿਕਾਰ: ਸਿੰਥੈਟਿਕ ਲੈਬ ਲਈ ਚਲਾਉਣ ਦੀਆਂ ਹਦਾਇਤਾਂ
+  ਮਾਲਕ: operations-owner
+  ਰਿਵਿਜ਼ਨ: ਸੁਰੱਖਿਅਤ ਕਮਿਟ
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+ਵਿਹਾਰ -> config.json
+  ਅਧਿਕਾਰ: ਰਿਪੋਜ਼ਟਰੀ ਵਿੱਚ ਕਮਿਟ ਕੀਤੀ ਸੰਭਾਲ ਸੰਰਚਨਾ
+  ਮਾਲਕ: repository-maintainer
+  ਰਿਵਿਜ਼ਨ: ਸੁਰੱਖਿਅਤ ਕਮਿਟ
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+ਪ੍ਰਸਤਾਵ -> Issues ਅਤੇ ਪ੍ਰਸਤਾਵ ਬ੍ਰਾਂਚਾਂ
+  ਅਧਿਕਾਰ: ਸਿਰਫ਼ ਮੰਗੇ ਗਏ ਬਦਲਾਅ
 ```
 
 **ਮੌਜੂਦਾ ਧਾਰਨ ਮੁੱਲ ਹਰ ਨਕਸ਼ਾ ਐਂਟਰੀ ਵਿੱਚ ਨਾ ਲਿਖੋ।** “ਸੱਤ ਦਿਨ” ਵਾਲਾ ਨਕਸ਼ਾ PROP-042 ਮਗਰੋਂ ਸਮਕਾਲੀ ਕਰਨ ਲਈ ਹੋਰ ਮੁੱਲ ਬਣ ਜਾਂਦਾ ਹੈ। ਨਕਸ਼ੇ ਵਿੱਚ ਸਥਿਰ ਪਛਾਣ ਅਤੇ ਥਾਂ ਰੱਖੋ, ਮੁੱਲ ਅਧਿਕਾਰਤ ਰਿਕਾਰਡ ਤੋਂ ਪੜ੍ਹੋ।
@@ -233,4 +233,4 @@ Proposals -> Issues and proposal branches
 
 ## ਅਗਲੇ ਕਦਮ
 
-**ਸਰੋਤ ਸਬੂਤ ਨੂੰ ਚੱਲਣਯੋਗ ਜਾਂਚਾਂ ਨਾਲ ਜੋੜਨ ਲਈ [Agent Adapters and Actions](/articles/ai-collaboration-github-agents-actions/) ਜਾਰੀ ਰੱਖੋ।**
+**ਸਰੋਤ ਸਬੂਤ ਨੂੰ ਚੱਲਣਯੋਗ ਜਾਂਚਾਂ ਨਾਲ ਜੋੜਨ ਲਈ [ਏਜੰਟ ਅਡੈਪਟਰ ਅਤੇ ਕਾਰਵਾਈਆਂ](/articles/ai-collaboration-github-agents-actions/) ਜਾਰੀ ਰੱਖੋ।**

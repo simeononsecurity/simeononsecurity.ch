@@ -1,7 +1,7 @@
 ---
 title: "Совместная работа с ИИ в GitHub: границы репозитория и проверки"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Создайте карту источников, определите владельцев файлов и защитите границу публикации проверяемых изменений с помощью ИИ."
@@ -128,12 +128,12 @@ PY
 **Для прямого push используйте собственный аутентифицированный локальный клон участника.** Токен сопровождающего проверил бы не ту личность. Этот пример показывает тип ответа сервера, который следует сохранить. Точная формулировка зависит от правил репозитория.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Роль участника: участник проекта
+Попытка: безвредная синтетическая прямая отправка в main
+Результат удалённого репозитория: отклонено, обновление защищённой ветки запрещено
+Начальный коммит main: [запишите коммит sandbox]
+Итоговый коммит main: [запишите тот же коммит после повторного чтения]
+Решение: отказ платформы подтверждён только если наблюдались обе записи
 ```
 
 **Если локальная Git-аутентификация недоступна, отметьте отказ на стороне сервера как заблокированный.** Сохраните предложение браузера создать ветку как доказательство маршрута, затем попросите сопровождающего организовать отдельный тест участника. Не засчитывайте предложение маршрута как отклонённый прямой push.
@@ -143,27 +143,27 @@ Decision: platform denial supported only if both records are observed
 **Карта источников — это навигационный документ**, а не второй документ требований. Пользователь, пришедший из чата, должен найти актуальное намерение, реализованное поведение и эксплуатационные инструкции, не выбирая между противоречивыми сводками.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Проект: export-service-lab
+Трек: GitHub-first
+Утверждённая граница: защищённая main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Полномочие: намерение по хранению синтетических файлов экспорта
+  Ответственный: product-owner
+  Ревизия: укажите ревизию и защищённый коммит
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Полномочие: инструкции по работе с синтетической лабораторией
+  Ответственный: operations-owner
+  Ревизия: защищённый коммит
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Поведение -> config.json
+  Полномочие: зафиксированная конфигурация хранения
+  Ответственный: repository-maintainer
+  Ревизия: защищённый коммит
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Предложения -> Issues и ветки предложений
+  Полномочие: только запрошенные изменения
 ```
 
 **Не указывайте текущее значение хранения данных в каждой записи карты.** Карта со значением «семь дней» станет ещё одним значением, которое нужно синхронизировать после PROP-042. Храните в карте стабильные идентификаторы и расположения, а значение читайте из авторитетной записи.

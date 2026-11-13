@@ -1,7 +1,7 @@
 ---
 title: "KI-Zusammenarbeit mit GitHub: Grenzen für Repository und Review"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Erstelle eine GitHub-zentrierte Quellenkarte, weise Dateieigentümer zu und richte eine geschützte Veröffentlichungsgrenze für geprüfte KI-Beiträge ein."
@@ -129,12 +129,12 @@ PY
 **Nutze für den direkten Push-Test den eigenen authentifizierten lokalen Klon des Mitwirkenden.** Ein Maintainer-Token würde die falsche Identität testen. Die folgende Beispielantwort zeigt, welche Serverbelege aufzubewahren sind. Der genaue Wortlaut hängt von den Repository-Regeln ab.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Akteursrolle: Mitwirkender
+Versuch: harmloser synthetischer Direkt-Push auf main
+Ergebnis des Remote-Repositorys: abgelehnt, Aktualisierung des geschützten Branches verweigert
+Ausgangs-Commit von main: [Sandbox-Commit eintragen]
+Abschließender Commit von main: [denselben Commit nach dem erneuten Auslesen eintragen]
+Entscheidung: Die Ablehnung durch die Plattform ist nur belegt, wenn beide Einträge beobachtet werden
 ```
 
 **Wenn lokale Git-Authentifizierung fehlt, markiere die serverseitige Ablehnung als Blockiert.** Bewahre die Browser-Aufforderung zum Branch-Erstellen als Wegbeleg auf und bitte den Maintainer um einen separaten Mitwirkenden-Test. Werte die Wegaufforderung nicht als abgelehnten direkten Push.
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **Eine Quellenkarte ist ein Routing-Dokument**, kein zweites Anforderungsdokument. Jemand aus dem Chat muss aktuelle Absicht, implementiertes Verhalten und Betriebsanweisungen finden, ohne zwischen konkurrierenden Zusammenfassungen zu wählen.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Projekt: export-service-lab
+Arbeitsweg: GitHub-first
+Genehmigte Grenze: geschütztes main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Zuständigkeit: Aufbewahrungsabsicht für synthetische Exportdateien
+  Verantwortlich: product-owner
+  Revision: Revision und geschützten Commit eintragen
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Zuständigkeit: Betriebsanweisungen für das synthetische Labor
+  Verantwortlich: operations-owner
+  Revision: geschützter Commit
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Verhalten -> config.json
+  Zuständigkeit: festgeschriebene Aufbewahrungskonfiguration
+  Verantwortlich: repository-maintainer
+  Revision: geschützter Commit
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Vorschläge -> Issues und Vorschlags-Branches
+  Zuständigkeit: nur angeforderte Änderungen
 ```
 
 **Trage den aktuellen Aufbewahrungswert nicht in jedem Karteneintrag ein.** Eine Karte mit „sieben Tage“ wird nach PROP-042 zu einem weiteren zu synchronisierenden Wert. Bewahre stabile Kennungen und Orte in der Karte auf und lies den Wert aus dem maßgeblichen Datensatz.

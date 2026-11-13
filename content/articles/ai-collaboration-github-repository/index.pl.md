@@ -1,7 +1,7 @@
 ---
 title: "Współpraca AI w GitHubie: granice repozytorium i przeglądu"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Zbuduj mapę źródeł, własność plików i chronioną granicę publikacji dla sprawdzanych zmian wnoszonych przez AI."
@@ -128,12 +128,12 @@ PY
 **Do testu bezpośredniego pushu użyj własnego uwierzytelnionego klonu współpracownika.** Token opiekuna sprawdzałby niewłaściwą tożsamość. Ten przykładowy komunikat pokazuje rodzaj odpowiedzi serwera, który należy zachować. Dokładne sformułowanie zależy od reguł repozytorium.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Rola aktora: współtwórca
+Próba: nieszkodliwy, syntetyczny bezpośredni push do main
+Wynik zdalny: odrzucono, aktualizacja chronionej gałęzi zabroniona
+Początkowy commit main: [zapisz commit sandboxa]
+Końcowy commit main: [po ponownym odczycie zapisz ten sam commit]
+Decyzja: odmowa platformy jest potwierdzona tylko wtedy, gdy zaobserwowano oba wpisy
 ```
 
 **Jeśli lokalne uwierzytelnianie Git jest niedostępne, oznacz odmowę po stronie serwera jako Zablokowaną.** Zachowaj monit przeglądarki o utworzenie gałęzi jako dowód ścieżki, a następnie poproś opiekuna o zorganizowanie oddzielnego testu współpracownika. Nie oceniaj monitu o ścieżce jako odrzuconego bezpośredniego pushu.
@@ -143,27 +143,27 @@ Decision: platform denial supported only if both records are observed
 **Mapa źródeł to dokument nawigacyjny**, a nie drugi dokument wymagań. Osoba przechodząca z czatu musi znaleźć aktualny zamiar, wdrożone zachowanie i instrukcje operacyjne bez wybierania między konkurencyjnymi podsumowaniami.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Projekt: export-service-lab
+Ścieżka: GitHub-first
+Zatwierdzona granica: chroniony main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Zakres uprawnień: intencja retencji syntetycznych plików eksportu
+  Właściciel: product-owner
+  Rewizja: zapisz rewizję i chroniony commit
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Zakres uprawnień: instrukcje obsługi syntetycznego laboratorium
+  Właściciel: operations-owner
+  Rewizja: chroniony commit
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Zachowanie -> config.json
+  Zakres uprawnień: zatwierdzona konfiguracja retencji
+  Właściciel: repository-maintainer
+  Rewizja: chroniony commit
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Propozycje -> Issues i gałęzie propozycji
+  Zakres uprawnień: tylko żądane zmiany
 ```
 
 **Nie wpisuj aktualnej wartości retencji do każdego wiersza mapy.** Mapa zawierająca „siedem dni” staje się kolejną wartością do synchronizowania po PROP-042. Umieszczaj w niej stabilne identyfikatory i lokalizacje, a wartość odczytuj z autorytatywnego rekordu.

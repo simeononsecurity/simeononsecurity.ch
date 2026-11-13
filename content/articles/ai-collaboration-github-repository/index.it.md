@@ -1,7 +1,7 @@
 ---
 title: "Collaborazione IA con GitHub: confini del repository e delle revisioni"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Crea una mappa delle fonti centrata su GitHub, assegna la proprietà dei file e definisci un confine di pubblicazione protetto per i contributi IA revisionati."
@@ -129,12 +129,12 @@ I proprietari devono avere accesso in scrittura perché GitHub li riconosca. Con
 **Usa il clone locale autenticato del collaboratore per il test del push diretto.** Un token del maintainer verificherebbe l'identità sbagliata. Questa risposta illustrativa mostra il tipo di evidenza del server da conservare. La formulazione esatta varia secondo le regole del repository.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Ruolo dell’attore: collaboratore
+Tentativo: push diretto sintetico e innocuo su main
+Risultato del remoto: rifiutato, aggiornamento del branch protetto negato
+Commit iniziale di main: [registra il commit del sandbox]
+Commit finale di main: [registra lo stesso commit dopo averlo riletto]
+Decisione: il rifiuto della piattaforma è comprovato solo se si osservano entrambi i registri
 ```
 
 **Se l'autenticazione Git locale non è disponibile, segna il rifiuto lato server come Bloccato.** Conserva il prompt del branch del browser come evidenza del percorso, poi chiedi al maintainer di organizzare un test separato con un collaboratore. Non valutare il prompt del percorso come un push diretto rifiutato.
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **Una mappa delle fonti è un documento di instradamento**, non un secondo documento dei requisiti. Chi arriva dalla chat deve trovare intento corrente, comportamento implementato e istruzioni operative senza scegliere tra riepiloghi concorrenti.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Progetto: export-service-lab
+Percorso: GitHub-first
+Limite approvato: main protetto
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Autorità: intento di conservazione dei file di esportazione sintetici
+  Responsabile: product-owner
+  Revisione: registra la revisione e il commit protetto
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Autorità: istruzioni operative per il laboratorio sintetico
+  Responsabile: operations-owner
+  Revisione: commit protetto
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Comportamento -> config.json
+  Autorità: configurazione di conservazione registrata nel repository
+  Responsabile: repository-maintainer
+  Revisione: commit protetto
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Proposte -> Issues e branch di proposta
+  Autorità: solo modifiche richieste
 ```
 
 **Non inserire il valore corrente di conservazione in ogni voce della mappa.** Una mappa con «sette giorni» diventa un altro valore da sincronizzare dopo PROP-042. Mantieni nella mappa identificatori stabili e posizioni, poi leggi il valore dal record autorevole.
@@ -229,7 +229,7 @@ Proposals -> Issues and proposal branches
 ## Riferimenti principali
 
 - **Controlli del piano e delle revisioni:** [Branch protetti](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Idoneità dei proprietari:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+- **Idoneità dei proprietari:** [Responsabili del codice](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 - **Contributo dal browser:** [Modifica dei file](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
 ## Prossimi passi

@@ -1,7 +1,7 @@
 ---
 title: "التعاون مع الذكاء الاصطناعي في GitHub: حدود المستودع والمراجعة"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "أنشئ خريطة مصادر تعتمد على GitHub، وعيّن مالكي الملفات، وأنشئ حد نشر محميًا للمساهمات التي راجعها الفريق."
@@ -129,12 +129,12 @@ PY
 **استخدم clone المحلي الموثق الخاص بالمساهم في اختبار push المباشر.** يختبر رمز المشرف هوية خاطئة. يوضح الرد التالي نوع دليل الخادم الذي يجب الاحتفاظ به. يختلف النص الدقيق حسب قواعد المستودع.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+دور الفاعل: مساهم
+المحاولة: دفع مباشر اصطناعي غير ضار إلى main
+نتيجة المستودع البعيد: رُفضت، تحديث الفرع المحمي ممنوع
+التزام main الأولي: [سجّل التزام sandbox]
+التزام main النهائي: [سجّل الالتزام نفسه بعد إعادة القراءة]
+القرار: لا يُدعم رفض المنصة إلا إذا لوحظ السجلان
 ```
 
 **إذا تعذرت مصادقة Git المحلية، ضع رفض الخادم في حالة محظور.** احتفظ بطلب إنشاء الفرع في المتصفح كدليل مسار، واطلب من المشرف ترتيب اختبار منفصل مع مساهم. لا تعد طلب المسار push مباشرًا مرفوضًا.
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **خريطة المصادر وثيقة توجيه** وليست وثيقة متطلبات ثانية. يحتاج القادم من المحادثة إلى العثور على النية الحالية والسلوك المنفذ وتعليمات التشغيل من دون الاختيار بين ملخصات متنافسة.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+المشروع: export-service-lab
+المسار: GitHub-first
+الحد المعتمد: main محمي
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  الصلاحية: نية الاحتفاظ بملفات التصدير الاصطناعية
+  المالك: product-owner
+  الإصدار: سجّل الإصدار بالإضافة إلى الالتزام المحمي
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  الصلاحية: تعليمات تشغيل المختبر الاصطناعي
+  المالك: operations-owner
+  المراجعة: الالتزام المحمي
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+السلوك -> config.json
+  الصلاحية: إعداد الاحتفاظ المعتمد في المستودع
+  المالك: repository-maintainer
+  المراجعة: الالتزام المحمي
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+المقترحات -> Issues وفروع المقترحات
+  الصلاحية: التغييرات المطلوبة فقط
 ```
 
 **لا تضع قيمة الاحتفاظ الحالية في كل إدخال بالخريطة.** ستصبح خريطة تحمل “سبعة أيام” قيمة أخرى يجب مزامنتها بعد PROP-042. احتفظ بالمعرفات والمواقع الثابتة واقرأ القيمة من السجل المعتمد.

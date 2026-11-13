@@ -1,7 +1,7 @@
 ---
 title: "Colaboração com IA no GitHub: limites do repositório e da revisão"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Crie um mapa de fontes, defina a responsabilidade pelos arquivos e proteja o limite de publicação de contribuições de IA revisadas."
@@ -128,12 +128,12 @@ PY
 **Use o clone local autenticado do próprio colaborador no teste de push direto.** Um token do mantenedor testaria a identidade errada. Esta resposta ilustrativa mostra o tipo de evidência do servidor a preservar. O texto exato varia conforme as regras do repositório.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Papel do ator: colaborador
+Tentativa: push direto sintético e inofensivo para main
+Resultado remoto: rejeitado, atualização da branch protegida negada
+Commit inicial de main: [registre o commit do sandbox]
+Commit final de main: [registre o mesmo commit após a releitura]
+Decisão: a recusa da plataforma só tem respaldo se os dois registros forem observados
 ```
 
 **Se a autenticação Git local não estiver disponível, marque como bloqueada a recusa no servidor.** Guarde o aviso do navegador sobre criar uma branch como evidência do caminho e peça ao mantenedor que organize um teste separado de colaborador. Não pontue o aviso de rota como um push direto recusado.
@@ -143,27 +143,27 @@ Decision: platform denial supported only if both records are observed
 **Um mapa de fontes é um documento de navegação**, não um segundo documento de requisitos. Quem chega do chat precisa encontrar a intenção atual, o comportamento implementado e as instruções operacionais sem escolher entre resumos conflitantes.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Projeto: export-service-lab
+Fluxo: GitHub-first
+Limite aprovado: main protegido
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Autoridade: intenção de retenção dos arquivos de exportação sintéticos
+  Responsável: product-owner
+  Revisão: registre a revisão e o commit protegido
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Autoridade: instruções operacionais do laboratório sintético
+  Responsável: operations-owner
+  Revisão: commit protegido
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Comportamento -> config.json
+  Autoridade: configuração de retenção confirmada no repositório
+  Responsável: repository-maintainer
+  Revisão: commit protegido
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Propostas -> Issues e branches de proposta
+  Autoridade: somente alterações solicitadas
 ```
 
 **Não coloque o valor atual de retenção em cada entrada do mapa.** Um mapa com “sete dias” vira mais um valor a sincronizar após PROP-042. Mantenha identificadores estáveis e localizações no mapa e leia o valor no registro oficial.
@@ -228,7 +228,7 @@ Proposals -> Issues and proposal branches
 ## Referências principais
 
 - **Controles de plano e revisão:** [Branches protegidas](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Elegibilidade dos responsáveis:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+- **Elegibilidade dos responsáveis:** [Responsáveis pelo código](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 - **Contribuição pelo navegador:** [Edição de arquivos](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
 ## Próximas etapas
