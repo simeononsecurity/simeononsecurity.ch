@@ -1,6 +1,7 @@
 ---
 title: "Shopping online sicuro: Consigli per transazioni di commercio elettronico sicure"
 date: 2023-06-20
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Scoprite come acquistare online in modo sicuro e proteggere le vostre informazioni personali con questi consigli di esperti e servizi di mascheramento."
@@ -32,7 +33,7 @@ Quando si effettuano acquisti online, è essenziale proteggere le proprie inform
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) è un altro servizio affidabile che consente di generare carte di debito virtuali per gli acquisti online. Con Privacy.com è possibile creare numeri di carta unici per ogni transazione, garantendo la sicurezza dei dati della carta di credito reale. Questo servizio consente inoltre di impostare limiti di spesa e di controllare gli abbonamenti, offrendo un migliore controllo sulle transazioni online.
 
-Per saperne di più [recommended privacy services](https://simeononsecurity.com/recommendations/services)
+Per saperne di più [servizi per la privacy consigliati](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +59,23 @@ Quando fate acquisti online, rivolgetevi a piattaforme di e-commerce affidabili 
 
 Aggiornate regolarmente il sistema operativo, il browser web e il software antivirus per assicurarvi di avere le ultime patch di sicurezza e la protezione contro malware e minacce informatiche. Attivate gli aggiornamenti automatici quando possibile.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Attenzione ai tentativi di phishing](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) e-mail, messaggi di testo o telefonate che cercano di indurvi a rivelare informazioni personali o credenziali di accesso. Evitate di cliccare su link sospetti e verificate l'autenticità di qualsiasi comunicazione proveniente da venditori online prima di condividere dati sensibili.
+[**Attenzione al phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) e-mail, messaggi di testo o telefonate che cercano di indurvi a rivelare informazioni personali o credenziali di accesso. Evitate di cliccare su link sospetti e verificate l'autenticità di qualsiasi comunicazione proveniente da venditori online prima di condividere dati sensibili.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+### 4. [Usa password robuste e uniche](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) per i vostri account di shopping online. Evitate di riutilizzare le password su più piattaforme. Considerate l'utilizzo di un gestore di password, come **LastPass** o **Dashlane**, per memorizzare e generare password complesse in modo sicuro.
+[**Crea password robuste e uniche**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) per i vostri account di shopping online. Evitate di riutilizzare le password su più piattaforme. Considerate l'utilizzo di un gestore di password, come **LastPass** o **Dashlane**, per memorizzare e generare password complesse in modo sicuro.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Attiva l’autenticazione a due fattori (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aggiunge un ulteriore livello di sicurezza richiedendo una seconda forma di verifica, come un codice univoco inviato al dispositivo mobile, oltre alla password. Attivate la 2FA ogni volta che è possibile per proteggere i vostri account di shopping online.
+[**Autenticazione a due fattori**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) aggiunge un ulteriore livello di sicurezza richiedendo una seconda forma di verifica, come un codice univoco inviato al dispositivo mobile, oltre alla password. Attivate la 2FA ogni volta che è possibile per proteggere i vostri account di shopping online.
 
 ### 6. Controllare le valutazioni e le recensioni dei venditori
 
 Prima di effettuare un acquisto da un nuovo venditore, controllate le valutazioni e le recensioni degli altri clienti. Queste informazioni possono aiutarvi a valutare la credibilità e l'affidabilità del venditore.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Fai attenzione alle reti Wi-Fi pubbliche](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 Evitate di fare acquisti online quando siete connessi a reti Wi-Fi pubbliche, perché spesso non sono protette e sono soggette a intercettazioni. Utilizzate invece una connessione Internet sicura e privata, come la rete domestica o un servizio VPN (Virtual Private Network) affidabile.
 

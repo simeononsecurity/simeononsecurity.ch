@@ -1,6 +1,7 @@
 ---
 title: "Bezpieczne zakupy online: Wskazówki dotyczące bezpiecznych transakcji e-commerce"
 date: 2023-06-20
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Dowiedz się, jak bezpiecznie robić zakupy online i chronić swoje dane osobowe dzięki tym poradom ekspertów i usługom maskowania."
@@ -32,7 +33,7 @@ Dokonując zakupów online, ważne jest, aby chronić swoje dane osobowe. Usług
 
 [**Privacy.com**](https://privacy.com/join/SU86Y) to kolejna niezawodna usługa, która umożliwia generowanie wirtualnych kart debetowych do zakupów online. Dzięki Privacy.com możesz tworzyć unikalne numery kart dla każdej transakcji, zapewniając, że informacje o Twojej prawdziwej karcie kredytowej pozostaną bezpieczne. Usługa ta pozwala również ustawić limity wydatków i kontrolować subskrypcje, zapewniając lepszą kontrolę nad transakcjami online.
 
-Dowiedz się więcej o naszej usłudze [recommended privacy services](https://simeononsecurity.com/recommendations/services)
+Dowiedz się więcej o naszej usłudze [polecane usługi ochrony prywatności](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +59,23 @@ Podczas dokonywania zakupów online należy trzymać się renomowanych i dobrze 
 
 Regularnie aktualizuj swój system operacyjny, przeglądarkę internetową i oprogramowanie antywirusowe, aby mieć pewność, że masz najnowsze poprawki zabezpieczeń i ochronę przed złośliwym oprogramowaniem i zagrożeniami cybernetycznymi. Włącz automatyczne aktualizacje, gdy tylko jest to możliwe.
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [Uważaj na próby phishingu](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) wiadomości e-mail, wiadomości tekstowych lub połączeń telefonicznych, które próbują nakłonić użytkownika do ujawnienia danych osobowych lub danych logowania. Unikaj klikania podejrzanych linków i weryfikuj autentyczność komunikacji od sprzedawców internetowych przed udostępnieniem jakichkolwiek poufnych danych.
+[**Uważaj na phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) wiadomości e-mail, wiadomości tekstowych lub połączeń telefonicznych, które próbują nakłonić użytkownika do ujawnienia danych osobowych lub danych logowania. Unikaj klikania podejrzanych linków i weryfikuj autentyczność komunikacji od sprzedawców internetowych przed udostępnieniem jakichkolwiek poufnych danych.
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+### 4. [Używaj silnych, unikatowych haseł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) dla kont zakupów online. Unikaj ponownego używania haseł na wielu platformach. Rozważ użycie menedżera haseł, takiego jak **LastPass** lub **Dashlane**, aby bezpiecznie przechowywać i generować złożone hasła.
+[**Twórz silne i unikatowe hasła**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) dla kont zakupów online. Unikaj ponownego używania haseł na wielu platformach. Rozważ użycie menedżera haseł, takiego jak **LastPass** lub **Dashlane**, aby bezpiecznie przechowywać i generować złożone hasła.
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [Włącz uwierzytelnianie dwuskładnikowe (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) dodaje dodatkową warstwę zabezpieczeń, wymagając drugiej formy weryfikacji, takiej jak unikalny kod wysłany na urządzenie mobilne, oprócz hasła. Włącz 2FA, gdy tylko jest to możliwe, aby chronić swoje konta zakupów online.
+[**Uwierzytelnianie dwuskładnikowe**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) dodaje dodatkową warstwę zabezpieczeń, wymagając drugiej formy weryfikacji, takiej jak unikalny kod wysłany na urządzenie mobilne, oprócz hasła. Włącz 2FA, gdy tylko jest to możliwe, aby chronić swoje konta zakupów online.
 
 ### 6. Sprawdź oceny i recenzje sprzedawców
 
 Przed dokonaniem zakupu od nowego sprzedawcy, sprawdź jego oceny i recenzje od innych klientów. Informacje te pomogą ci ocenić wiarygodność i rzetelność sprzedawcy.
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
+### 7. [Uważaj na publiczne sieci Wi-Fi](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 Unikaj dokonywania zakupów online przy połączeniu z publicznymi sieciami Wi-Fi, ponieważ są one często niezabezpieczone i podatne na podsłuch. Zamiast tego korzystaj z bezpiecznego i prywatnego połączenia internetowego, takiego jak sieć domowa lub zaufana usługa VPN (Virtual Private Network).
 
