@@ -1,6 +1,7 @@
 ---
 title: "Chasse aux menaces : Défense proactive contre les cyberattaques"
 date: 2023-03-11
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez comment la chasse aux menaces peut prévenir les cyberattaques et quels sont les avantages et les défis liés à sa mise en œuvre en tant que mesure proactive de cybersécurité."
@@ -95,7 +96,7 @@ ______
 
 La mise en œuvre de la **chasse aux menaces** en tant que **stratégie proactive de cybersécurité** est essentielle dans le paysage des menaces en constante évolution d'aujourd'hui. En combinant des techniques manuelles et automatisées, les organisations peuvent identifier et répondre de manière proactive aux menaces **avant qu'elles ne causent des dommages**.
 
-Pour mieux comprendre ce qu'est la chasse aux menaces, vous pouvez consulter des ressources telles que le site Web de l'Agence européenne pour la sécurité des réseaux et de l'information. [MITRE ATT&CK framework](https://attack.mitre.org/), which provides a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs) Ce cadre peut aider les organisations à développer des stratégies et des méthodologies de chasse aux menaces efficaces. En outre, il existe divers **outils de chasse aux menaces**, tels que Sysmon de Sysinternals, Elastic Security et Falcon X, qui peuvent faciliter le processus de chasse aux menaces.
+Pour mieux comprendre ce qu'est la chasse aux menaces, vous pouvez consulter des ressources telles que le [MITRE ATT&CK framework](https://attack.mitre.org/), qui fournit une base de connaissances complète sur les tactiques, techniques et procédures des adversaires (TTPs). Ce cadre peut aider les organisations à développer des stratégies et des méthodologies de chasse aux menaces efficaces. En outre, il existe divers **outils de chasse aux menaces**, tels que Sysmon de Sysinternals, Elastic Security et Falcon X, qui peuvent faciliter le processus de chasse aux menaces.
 
 Il est essentiel de reconnaître que la chasse aux menaces doit être un processus continu. Les menaces de cybersécurité évoluent constamment et les organisations doivent rester vigilantes et proactives dans l'identification et l'atténuation de ces menaces.
 
