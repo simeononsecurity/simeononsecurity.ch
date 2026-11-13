@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: Ein symbolisches Kunstbild, das ein Netzwerk miteinander verbundener Zahnräder zeigt und effizientes Netzwerkmanagement und Optimierung symbolisiert.
 coverCaption: 'Entfesseln Sie die Kraft der GPOs: Vereinfachen Sie noch heute Ihr Netzwerkmanagement!'
-lastmod: 2026-10-21
+lastmod: 2026-11-13
 ---
 ## GPO 101: Alles, was Sie über Gruppenrichtlinienobjekte wissen müssen
 
@@ -69,7 +69,7 @@ GPOs bieten umfangreiche Konfigurationsmöglichkeiten, mit denen Administratoren
 
 4. **Anmeldeskripte**: GPOs können genutzt werden, um Anmeldeskripte auszuführen, also Anweisungen, die beim Anmelden eines Benutzers auf seinem Computer ausgeführt werden. Anmeldeskripte können verschiedene Aktionen ausführen, wie das Zuordnen von Netzlaufwerken, das Verbinden mit Netzwerkressourcen, das Ausführen von Befehlen oder das Konfigurieren spezifischer Benutzereinstellungen. Dies ermöglicht Administratoren, benutzerspezifische Aufgaben und Konfigurationen während des Anmeldevorgangs zu automatisieren.
 
-Die Vielseitigkeit und Leistungsfähigkeit von GPOs machen sie zu einem unverzichtbaren Werkzeug für effizientes Netzwerkmanagement, konsistente Richtliniendurchsetzung und vereinfachte Administration. Um GPOs weiter zu erkunden und zu lernen, wie man sie effektiv nutzt, können Sie die [offizielle Microsoft-Dokumentation zu Gruppenrichtlinien](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11) konsultieren.
+Die Vielseitigkeit und Leistungsfähigkeit von GPOs machen sie zu einem unverzichtbaren Werkzeug für effizientes Netzwerkmanagement, konsistente Richtliniendurchsetzung und vereinfachte Administration. Um GPOs weiter zu erkunden und zu lernen, wie man sie effektiv nutzt, können Sie die [offizielle Microsoft-Dokumentation zu Gruppenrichtlinien](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)) konsultieren.
 
 ### Vorteile der Verwendung von GPOs
 
@@ -83,7 +83,7 @@ Die Vielseitigkeit und Leistungsfähigkeit von GPOs machen sie zu einem unverzic
 
 Durch die Nutzung der Leistungsfähigkeit von GPOs können Sie eine effiziente Verwaltung, konsistente Richtlinienumsetzung und vereinfachte Automatisierung von Netzwerkverwaltungsaufgaben erreichen. Dies führt letztlich zu erhöhter Produktivität, Sicherheit und Stabilität in Ihrer Netzwerkumgebung.
 
-Um mehr über GPOs und deren Funktionen zu erfahren, können Sie die [offizielle Microsoft-Dokumentation zu Gruppenrichtlinien](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11) konsultieren.
+Um mehr über GPOs und deren Funktionen zu erfahren, können Sie die [offizielle Microsoft-Dokumentation zu Gruppenrichtlinien](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)) konsultieren.
 
 
 ### GPO-Hierarchie und Vererbung
@@ -113,7 +113,7 @@ Mit der GPMC können Sie verschiedene Aufgaben im Zusammenhang mit der GPO-Verwa
 4. **Anzeigen des GPO-Status und der Einstellungen**: Die GPMC liefert umfassende Informationen über den Status und die Einstellungen Ihrer GPOs. Sie können leicht die angewendeten Richtlinien, Konfigurationen und Vererbungsdetails für jedes GPO überprüfen. Diese Transparenz ermöglicht es Ihnen, GPO-Bereitstellungen effektiv zu validieren und zu beheben.
 5. **Delegieren von GPO-Verwaltungsaufgaben**: Die GPMC unterstützt die Delegierung von GPO-Verwaltungsaufgaben an andere Administratoren. Diese Funktion ermöglicht es Ihnen, Verantwortlichkeiten zu verteilen und die GPO-Verwaltungsprozesse innerhalb Ihrer Organisation zu vereinfachen.
 
-Die GPMC ist ein unverzichtbares Werkzeug für die Verwaltung von GPOs und ist in **Windows Server 2008** und späteren Versionen enthalten. Um mehr über die GPMC und ihre Funktionen zu erfahren, können Sie die [offizielle Microsoft-Dokumentation](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731764(v=ws.10) konsultieren.
+Die GPMC ist ein unverzichtbares Werkzeug für die Verwaltung von GPOs und ist in **Windows Server 2008** und späteren Versionen enthalten. Um mehr über die GPMC und ihre Funktionen zu erfahren, können Sie die [offizielle Microsoft-Dokumentation](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731764(v=ws.10)) konsultieren.
 
 
 ### Erstellen und Bearbeiten von GPOs
