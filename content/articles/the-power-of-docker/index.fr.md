@@ -1,10 +1,11 @@
 ---
 title: "Libérer la puissance de Docker : le guide essentiel pour la transformation de l'entreprise"
 date: 2023-02-02
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Découvrez la puissance de Docker et ses avantages pour la transformation de l'entreprise dans ce guide complet pour améliorer la portabilité, la sécurité, l'efficacité et le développement des applications."
-tags: ["Docker", "Enterprise Transformation", "Portabilité des applications", "Efficacité accrue", "Amélioration de la sécurité", "Développement et déploiement simplifiés", "Applications logicielles", "Conteneurs", "Productivité", "Délai de mise sur le marché"]
+tags: ["Docker", "Transformation d'entreprise", "Portabilité des applications", "Efficacité accrue", "Amélioration de la sécurité", "Développement et déploiement simplifiés", "Applications logicielles", "Conteneurs", "Productivité", "Délai de mise sur le marché"]
 cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "Une baleine bleue qui émet de la lumière"
 coverCaption: ""
