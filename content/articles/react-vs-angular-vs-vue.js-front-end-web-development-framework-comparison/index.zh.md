@@ -1,10 +1,11 @@
 ---
 title: "前端框架比较：React vs. Angular vs. Vue.js"
 date: 2023-06-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "探索 React、Angular 和 Vue.js 之间的区别，为你的网站开发项目选择合适的前端框架。"
-tags: ["前端框架", "网站开发", "反应", "Angular", "Vue.js", "框架比较", "用户界面", "性能", "声望", "社区支持", "学习曲线", "生态系统", "用例", "JavaScript", "虚拟 DOM", "组件式架构", "国家管理", "扩展性", "文献资料", "工具", "项目要求", "React 与 Angular", "React 与 Vue.js", "Angular 与 Vue.js", "前端开发", "网络应用框架", "用户界面开发", "JavaScript 框架", "网络开发工具", "网络开发技术"]
+tags: ["前端框架", "网站开发", "React", "Angular", "Vue.js", "框架比较", "用户界面", "性能", "受欢迎程度", "社区支持", "学习曲线", "生态系统", "用例", "JavaScript", "虚拟 DOM", "组件式架构", "状态管理", "扩展性", "文献资料", "工具", "项目要求", "React 与 Angular", "React 与 Vue.js", "Angular 与 Vue.js", "前端开发", "网络应用框架", "用户界面开发", "JavaScript 框架", "网络开发工具", "网络开发技术"]
 cover: "/img/cover/An_image_depicting_three_interconnected_gears.webp"
 coverAlt: "描述三个相互连接的齿轮的图片，标有 React、Angular 和 Vue.js 标记"
 coverCaption: ""
@@ -18,7 +19,7 @@ coverCaption: ""
 
 前端框架是一种工具或库，为开发网络应用程序的用户界面提供了一种结构化的方法。它们提供预置组件、高效的状态管理和简化的开发工作流程，使开发人员能够轻松构建复杂的网络应用程序。
 
-## [React: Building User Interfaces with Efficiency and Flexibility](https://reactjs.org/)
+## [React：高效、灵活地构建用户界面](https://reactjs.org/)
 
 [**React**](https://reactjs.org/)是一个用于构建用户界面的流行 JavaScript 库。它采用基于组件的架构，将用户界面元素分解为可重复使用的组件。React 的虚拟 DOM 可以实现高效的渲染，从而开发出快速响应的网络应用程序。React 拥有一个庞大而活跃的社区，提供了一个由第三方库和大量文档组成的庞大生态系统，使开发人员可以轻松找到问题的解决方案。
 
@@ -28,7 +29,7 @@ React 的主要优势之一是其灵活性。它可以无缝集成到现有项�
 
 {{< youtube id="N3AkSS5hXMA" >}}
 
-## [Angular: Full-Featured Framework for Large-Scale Applications](https://angular.io/)
+## [Angular：面向大型应用的功能全面的框架](https://angular.io/)
 
 [**Angular**](https://angular.io/)由 Google 开发和维护，是一个功能全面的前端框架。它为构建大型 Web 应用程序提供了一套完整的解决方案，具有健壮的架构、强大的功能和广泛的工具。Angular 遵循与 React 类似的基于组件的架构，但还包括其他功能，如双向数据绑定、依赖注入以及用于脚手架和管理项目的综合 CLI。
 
@@ -38,7 +39,7 @@ Angular 的一个显著优势是它非常重视可扩展性和可维护性。它
 
 {{< youtube id="a6E5pzst2YE" >}}
 
-## [Vue.js: Versatile and Approachable Framework](https://vuejs.org/)
+## [Vue.js：灵活易用的框架](https://vuejs.org/)
 
 [**Vue.js**](https://vuejs.org/)是一个渐进式 JavaScript 框架，专注于网络应用程序的视图层。Vue.js 由 Evan You 开发，兼顾了 React 的灵活性和 Angular 的全面功能。它提供了简单直观的 API，即使是前端框架新手也能轻松上手。
 
@@ -48,7 +49,7 @@ Vue.js 的学习曲线平缓，文档出色，因此在开发人员中颇受欢�
 
 {{< youtube id="nhBVL41-_Cw" >}}
 
-### 比较：React vs. Angular vs. Vue.js
+## 比较：React vs. Angular vs. Vue.js
 
 {{< youtube id="i8xsbYgMiBs" >}}
 
@@ -56,7 +57,7 @@ Vue.js 的学习曲线平缓，文档出色，因此在开发人员中颇受欢�
 
 说到性能，这三种框架都各有所长。React 的虚拟 DOM 和高效的渲染机制可实现快速响应的应用程序。Angular 强大的变化检测机制和优化技术为卓越的性能做出了贡献。Vue.js以捆绑包小而著称，其性能也非常出色，是轻量级应用程序的绝佳选择。
 
-#### 人气和社区支持
+### 人气和社区支持
 
 React 近年来大受欢迎，拥有一个庞大而活跃的社区。它拥有广泛的社区支持，有大量第三方库和资源可用。由 Google 支持的 Angular 也拥有庞大的用户群和强大的生态系统。Vue.js 虽然与 React 和 Angular 相比相对较新，但也经历了快速发展，并拥有一个支持性社区。
 
@@ -68,7 +69,7 @@ React 的学习曲线比较平缓，尤其适合熟悉 JavaScript 的开发人�
 
 React 拥有一个庞大的生态系统，其中有大量库和工具可用于各种用例。Angular 在其生态系统中提供了一套全面的工具和库，几乎涵盖了网络开发的所有方面。Vue.js 虽然与 React 和 Angular 相比规模较小，但其生态系统不断发展壮大，拥有大量插件和扩展。
 
-###使用案例
+### 使用案例
 
 React 非常适合构建复杂的用户界面和单页面应用程序。它被 Facebook、Instagram 和 Airbnb 等科技巨头广泛使用。Angular 功能全面，是具有复杂需求的大型应用程序的绝佳选择。Vue.js 具有多功能性，既可用于小型项目，也可用于大型项目，因此深受初创公司和个人开发者的青睐。
 
@@ -79,6 +80,6 @@ React 非常适合构建复杂的用户界面和单页面应用程序。它被 F
 ______
 
 参考资料
-- [React Documentation](https://reactjs.org/)
-- [Angular Documentation](https://angular.io/)
-- [Vue.js Documentation](https://vuejs.org/)
+- [React 文档](https://reactjs.org/)
+- [Angular 文档](https://angular.io/)
+- [Vue.js 文档](https://vuejs.org/)
