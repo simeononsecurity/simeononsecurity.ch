@@ -1,26 +1,31 @@
 ---
-title: "Refuerce la seguridad de su ordenador desactivando SSL y TLS 1.2 e inferiores"
+title: "Refuerce la seguridad de su ordenador desactivando SSL y TLS 1.1 y anteriores"
 date: 2023-02-08
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "En este artículo se analizan los pasos para mejorar la seguridad de los datos desactivando las versiones antiguas de los protocolos SSL y TLS, vulnerables a ciberamenazas como POODLE, BEAST y Heartbleed, en sistemas Windows y Linux."
-tags: ["Refuerzo de la seguridad informática", "Desactivación de SSL y TLS", "Seguridad de los datos", "POODLE", "BESTIA", "Heartbleed", "Editor del registro de Windows", "Configuración de OpenSSL en Linux", "Apache", "Nginx"]
+description: "Desactive SSL y las versiones antiguas de TLS, manteniendo TLS 1.2 o posterior. El artículo cubre Schannel y .NET en Windows y los servicios de Linux."
+tags: ['Refuerzo de la seguridad informática', 'Desactivación de SSL y TLS', 'Seguridad de los datos', 'POODLE', 'BEAST', 'Heartbleed', 'Editor del Registro de Windows', 'Configuración de OpenSSL en Linux', 'Apache', 'Nginx']
 cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
-coverAlt: "Un ordenador con el símbolo de un candado que representa la seguridad de los datos"
+coverAlt: "Un ordenador con un símbolo de candado que representa la seguridad de los datos"
 coverCaption: ""
 ---
 
 ## Introducción:
 
-Los ordenadores se han convertido en un aspecto crucial de nuestra vida cotidiana y, con ello, la necesidad de seguridad de los datos ha crecido sustancialmente. Entre los diversos métodos utilizados para proteger los datos en tránsito, SSL (Secure Socket Layer) y TLS (Transport Layer Security) son protocolos muy utilizados. Sin embargo, a medida que la tecnología evoluciona, las versiones más antiguas de estos protocolos se están volviendo vulnerables a los ciberataques. En este artículo, vamos a discutir los pasos para endurecer los ordenadores mediante la desactivación de SSL y todas las versiones TLS 1.2 e inferiores para mantener los datos seguros.
+Los ordenadores forman parte esencial de la vida diaria, y la necesidad de proteger los datos también ha aumentado. SSL (Secure Socket Layer) y TLS (Transport Layer Security) protegen los datos en tránsito. Las versiones antiguas ahora son vulnerables a ataques. Este artículo explica cómo desactivar SSL y TLS 1.0 y 1.1, manteniendo TLS 1.2 o TLS 1.3 disponible.
 
-### ¿Por qué desactivar SSL y TLS 1.2 e inferiores?
+*TLS 1.2 no es un protocolo obsoleto. La base mínima actual es TLS 1.2 o posterior. [RFC 8446](https://www.rfc-editor.org/rfc/rfc8446) define TLS 1.3, mientras que [RFC 8996](https://www.rfc-editor.org/rfc/rfc8996) declara obsoletos TLS 1.0 y TLS 1.1.*
 
-Las versiones antiguas de SSL y TLS son vulnerables a varias amenazas de seguridad como POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) y Heartbleed. Estos ataques pueden llevar a la exposición de información sensible, por lo que es crucial desactivar el uso de protocolos obsoletos.
+### ¿Por qué desactivar SSL y TLS 1.1 y anteriores?
 
-### Deshabilitar SSL y TLS 1.2 e inferiores en Windows:
+Las versiones antiguas de SSL y TLS son vulnerables a amenazas como POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) y Heartbleed. Estos ataques pueden exponer información sensible. Heartbleed afectó a implementaciones vulnerables de OpenSSL, no era una versión del protocolo. Aplique el parche a la biblioteca y cambie las credenciales expuestas.
 
-En Windows, el proceso de deshabilitar SSL y TLS 1.2 e inferiores se puede realizar a través del editor del registro. Aquí hay un script de powershell para realizar la tarea:
+La [guía actual de Microsoft sobre el Registro de Schannel](https://learn.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings) enumera ajustes de protocolo para las versiones de Windows compatibles. Microsoft recomienda usar Directiva de grupo u otras herramientas de administración compatibles cuando estén disponibles. Edite el Registro directamente solo cuando no exista un control mejor.
+
+### Desactivar SSL y TLS 1.1 y anteriores en Windows:
+
+En Windows, puede desactivar estos protocolos mediante el Registro. El script de PowerShell cambia los ajustes de Schannel para cliente y servidor. También configura .NET para usar los valores TLS predeterminados del sistema operativo y criptografía segura.
 
 ```powershell
 Function Disable-Protocol {
@@ -47,8 +52,7 @@ Disable-Protocol -Protocol "TLS 1.0"
 Disable-Protocol -Protocol "DTLS 1.0"
 # Disable TLS 1.1
 Disable-Protocol -Protocol "TLS 1.1"
-# Disable DTLS 1.1
-Disable-Protocol -Protocol "DTLS 1.1"
+# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
 
 function Set-NETStrongAuthentication {
     param(
@@ -70,21 +74,29 @@ foreach ($version in $NETVersions) {
 }
 ```
 
-#### Desactivación de SSL y TLS 1.2 e inferiores en Linux:
+#### Desactivar SSL y TLS 1.1 y anteriores en Linux:
 
-En Linux, el proceso de deshabilitar SSL y TLS 1.2 e inferiores se puede conseguir modificando el fichero de configuración de OpenSSL. Estos son los pasos a seguir:
+En Linux, la forma de desactivar protocolos antiguos depende de la aplicación y la biblioteca. Modificar `/etc/ssl/openssl.cnf` no sustituye la configuración de cada daemon ni de las bibliotecas TLS incluidas. Siga estos pasos:
 
-1. Abre el terminal e inicia sesión como root.
-2. Navegue hasta el archivo de configuración de OpenSSL. Normalmente, se encuentra en /etc/ssl/openssl.cnf.
-3. Abre el archivo utilizando un editor de texto como nano o vim.
-4. Localice la directiva SSLProtocol y establezca su valor en -TLSv1.2.
-5. Guarde el archivo y cierre el editor de texto.
-6. 6. Reinicie los servicios que utilizan OpenSSL, como Apache o Nginx, para que los cambios surtan efecto.
+1. Abra el terminal e inicie sesión como root.
+2. Vaya al archivo de configuración de OpenSSL. Normalmente está en /etc/ssl/openssl.cnf.
+3. Abra el archivo con un editor de texto como nano o vim.
+4. Busque la directiva de protocolo del servicio y establezca TLS 1.2 como mínimo. La instrucción antigua `-TLSv1.2` desactivaba TLS 1.2. No la use como mínimo actual.
+5. Guarde el archivo y cierre el editor.
+6. Reinicie los servicios que usan OpenSSL, como Apache o Nginx, para aplicar los cambios.
 
 ## Conclusión:
 
-Desactivando SSL y todas las versiones TLS 1.2 e inferiores, puedes reforzar la seguridad de tu equipo y proteger la información sensible de posibles ciberamenazas. Se trata de un proceso sencillo que puede llevarse a cabo con el mínimo esfuerzo, por lo que es un aspecto crítico para mantener la seguridad de tu ordenador. Al poner en práctica los pasos descritos en este artículo, puede mantener sus datos seguros y prevenir los ataques cibernéticos, reduciendo así el riesgo de que la información sensible quede expuesta.
+Desactivar SSL y TLS 1.1 y anteriores refuerza la seguridad del ordenador y mantiene la compatibilidad con clientes TLS modernos. El ajuste correcto pertenece al servicio que negocia la conexión TLS. Pruebe cada aplicación, sin suponer que un único archivo de OpenSSL controla todos los daemons.
 
-Es importante tener en cuenta que, aunque deshabilitar estas versiones antiguas de los protocolos SSL y TLS puede mejorar la seguridad de tu ordenador, también puede afectar a la compatibilidad con algunos sistemas antiguos. Por lo tanto, es esencial probar a fondo los cambios realizados y asegurarse de que no hay impactos adversos en su sistema antes de implementarlos completamente.
+Desactivar estas versiones antiguas puede afectar a la compatibilidad con algunos sistemas heredados. Pruebe los cambios a fondo y compruebe que no tengan efectos adversos antes de aplicarlos por completo.
 
-En conclusión, reforzar su ordenador deshabilitando SSL y todas las versiones TLS 1.2 e inferiores es un paso fundamental para mantener la seguridad de la información confidencial y prevenir los ciberataques. Los pasos descritos en este artículo proporcionan una guía sencilla para proteger su ordenador, facilitando a particulares y organizaciones la aplicación de las medidas de seguridad necesarias.
+Proteja la información sensible y reduzca el riesgo de ataques. Compruebe qué protocolo negocia cada servicio y documente las excepciones temporales.
+
+## Lista de verificación actual
+
+- **Confirme el protocolo negociado.** Pruebe el cliente y el servidor con un escáner TLS o una prueba interna aprobada en ambos extremos de la conexión.
+- **Mantenga TLS 1.2 activado.** Algunas aplicaciones antiguas aún lo necesitan. El soporte de TLS 1.3 depende del sistema operativo y la biblioteca.
+- **Revise DTLS por separado.** RFC 8996 declara obsoleto DTLS 1.0. No define un protocolo DTLS 1.1.
+- **Reinicie los servicios afectados.** Los ajustes de Schannel y de las aplicaciones suelen requerir reiniciar el servicio o el sistema.
+- **Documente las excepciones.** Registre cada endpoint antiguo que necesite temporalmente un ajuste de compatibilidad y asigne una fecha para retirarlo.

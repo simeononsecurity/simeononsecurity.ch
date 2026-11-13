@@ -1,26 +1,31 @@
 ---
-title: "Wzmocnienie bezpieczeństwa komputera poprzez wyłączenie SSL i TLS 1.2 i niższych"
+title: "Wzmocnij bezpieczeństwo komputera, wyłączając SSL oraz TLS 1.1 i starsze wersje"
 date: 2023-02-08
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "W artykule omówiono kroki mające na celu zwiększenie bezpieczeństwa danych poprzez wyłączenie w systemach Windows i Linux starszych wersji protokołów SSL i TLS, które są podatne na cyberzagrożenia, takie jak POODLE, BEAST i Heartbleed."
-tags: ["Wzmocnienie bezpieczeństwa komputerowego", "Wyłączenie SSL i TLS", "Bezpieczeństwo danych", "POODLE", "BEAST", "Heartbleed", "Edytor rejestru Windows", "Konfiguracja OpenSSL w systemie Linux", "Apache", "Nginx"]
+description: "Wyłącz SSL i stare wersje TLS, pozostawiając TLS 1.2 lub nowszy. Artykuł omawia Schannel i .NET w Windows oraz usługi Linux."
+tags: ['Wzmocnienie bezpieczeństwa komputera', 'Wyłączanie SSL i TLS', 'Bezpieczeństwo danych', 'POODLE', 'BEAST', 'Heartbleed', 'Edytor rejestru Windows', 'Konfiguracja OpenSSL w Linux', 'Apache', 'Nginx']
 cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
-coverAlt: "Komputer z symbolem kłódki symbolizującym bezpieczeństwo danych"
+coverAlt: "Komputer z symbolem kłódki oznaczającym bezpieczeństwo danych"
 coverCaption: ""
 ---
 
 ## Wprowadzenie:
 
-Komputery stały się istotnym aspektem naszego codziennego życia, a wraz z tym znacznie wzrosła potrzeba zapewnienia bezpieczeństwa danych. Wśród różnych metod stosowanych do zabezpieczenia danych w tranzycie, SSL (Secure Socket Layer) i TLS (Transport Layer Security) są powszechnie stosowanymi protokołami. Jednak wraz z rozwojem technologii starsze wersje tych protokołów stają się podatne na cyberataki. W tym artykule omówimy kroki mające na celu utwardzenie komputerów poprzez wyłączenie SSL i wszystkich wersji TLS 1.2 i niższych, aby zachować bezpieczeństwo danych.
+Komputery stały się ważną częścią codziennego życia, a wraz z nimi wzrosła potrzeba ochrony danych. SSL (Secure Socket Layer) i TLS (Transport Layer Security) chronią dane przesyłane przez sieć. Starsze wersje są podatne na ataki. Ten artykuł wyjaśnia, jak wyłączyć SSL oraz TLS 1.0 i 1.1, pozostawiając TLS 1.2 lub TLS 1.3.
 
-### Dlaczego warto wyłączyć SSL i TLS 1.2 i niższe?
+*TLS 1.2 nie jest przestarzałym protokołem. Obecnym minimum jest TLS 1.2 lub nowszy. [RFC 8446](https://www.rfc-editor.org/rfc/rfc8446) definiuje TLS 1.3, a [RFC 8996](https://www.rfc-editor.org/rfc/rfc8996) formalnie uznaje TLS 1.0 i TLS 1.1 za przestarzałe.*
 
-Starsze wersje SSL i TLS są podatne na kilka zagrożeń bezpieczeństwa, takich jak POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) i Heartbleed. Ataki te mogą prowadzić do ujawnienia wrażliwych informacji, co sprawia, że kluczowe jest wyłączenie stosowania przestarzałych protokołów.
+### Dlaczego wyłączyć SSL oraz TLS 1.1 i starsze wersje?
 
-### Wyłączenie SSL i TLS 1.2 i niższych w systemie Windows:
+Starsze wersje SSL i TLS są podatne na zagrożenia takie jak POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) i Heartbleed. Ataki te mogą ujawnić poufne dane. Heartbleed dotyczył podatnych implementacji OpenSSL, a nie wersji protokołu. Zainstaluj poprawkę biblioteki i zmień ujawnione dane uwierzytelniające.
 
-W systemie Windows proces wyłączenia protokołów SSL i TLS 1.2 i niższych można osiągnąć poprzez edytor rejestru. Poniżej znajduje się skrypt powershell do wykonania zadania:
+Aktualne [wskazówki Microsoft dotyczące ustawień rejestru Schannel](https://learn.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings) opisują protokoły dla obsługiwanych wersji Windows. Microsoft zaleca zasady grupy lub inne obsługiwane narzędzia zarządzania, jeśli są dostępne. Edytuj rejestr bezpośrednio tylko wtedy, gdy nie ma lepszej metody kontroli.
+
+### Wyłączanie SSL oraz TLS 1.1 i starszych wersji w Windows:
+
+W Windows można wyłączyć te protokoły w rejestrze. Poniższy skrypt PowerShell zmienia ustawienia Schannel dla klienta i serwera. Konfiguruje również .NET tak, aby używał systemowych ustawień TLS i silnej kryptografii.
 
 ```powershell
 Function Disable-Protocol {
@@ -47,8 +52,7 @@ Disable-Protocol -Protocol "TLS 1.0"
 Disable-Protocol -Protocol "DTLS 1.0"
 # Disable TLS 1.1
 Disable-Protocol -Protocol "TLS 1.1"
-# Disable DTLS 1.1
-Disable-Protocol -Protocol "DTLS 1.1"
+# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
 
 function Set-NETStrongAuthentication {
     param(
@@ -70,21 +74,29 @@ foreach ($version in $NETVersions) {
 }
 ```
 
-#### Wyłączenie SSL i TLS 1.2 i niższych w systemie Linux:
+#### Wyłączanie SSL oraz TLS 1.1 i starszych wersji w Linux:
 
-W systemie Linux proces wyłączenia SSL i TLS 1.2 i poniżej można osiągnąć poprzez modyfikację pliku konfiguracyjnego OpenSSL. Oto kroki, które należy wykonać:
+W Linux sposób wyłączenia starszych protokołów zależy od aplikacji i biblioteki. Zmiana `/etc/ssl/openssl.cnf` nie zastępuje ustawień każdego demona ani dołączonej biblioteki TLS. Wykonaj następujące kroki:
 
 1. Otwórz terminal i zaloguj się jako root.
-2. Przejdź do pliku konfiguracyjnego OpenSSL. Zazwyczaj znajduje się on pod adresem /etc/ssl/openssl.cnf.
-3. Otwórz plik za pomocą edytora tekstu, takiego jak nano lub vim.
-4. Zlokalizuj dyrektywę SSLProtocol i ustaw jej wartość na -TLSv1.2.
-5. Zapisz plik i zamknij edytor tekstu.
-6. Uruchom ponownie usługi korzystające z OpenSSL, takie jak Apache czy Nginx, aby zmiany zaczęły obowiązywać.
+2. Przejdź do pliku konfiguracji OpenSSL, zwykle /etc/ssl/openssl.cnf.
+3. Otwórz plik w edytorze tekstu, takim jak nano lub vim.
+4. Znajdź dyrektywę protokołu usługi i ustaw TLS 1.2 jako wersję minimalną. Stara instrukcja `-TLSv1.2` wyłączała TLS 1.2, więc nie używaj jej jako współczesnego minimum.
+5. Zapisz plik i zamknij edytor.
+6. Uruchom ponownie usługi korzystające z OpenSSL, takie jak Apache lub Nginx, aby zastosować zmiany.
 
-## Wnioski:
+## Podsumowanie:
 
-Wyłączając SSL i wszystkie TLS w wersji 1.2 i niższej, możesz utwardzić bezpieczeństwo swojego komputera i chronić wrażliwe informacje przed potencjalnymi cyberzagrożeniami. Jest to prosty proces, który można wykonać przy minimalnym wysiłku, co czyni go krytycznym aspektem utrzymania bezpieczeństwa komputera. Wdrażając kroki opisane w tym artykule, możesz zabezpieczyć swoje dane i zapobiec cyberatakom, zmniejszając tym samym ryzyko narażenia wrażliwych informacji.
+Wyłączenie SSL oraz TLS 1.1 i starszych wersji wzmacnia bezpieczeństwo komputera, zachowując zgodność z nowoczesnymi klientami TLS. Właściwe ustawienie należy do usługi negocjującej połączenie TLS. Testuj każdą aplikację osobno i nie zakładaj, że jeden plik OpenSSL kontroluje wszystkie demony.
 
-Należy pamiętać, że chociaż wyłączenie tych starszych wersji protokołów SSL i TLS może poprawić bezpieczeństwo komputera, może również wpłynąć na kompatybilność z niektórymi starszymi systemami. Dlatego przed pełnym wdrożeniem wprowadzonych zmian należy dokładnie przetestować je i upewnić się, że nie mają one negatywnego wpływu na system.
+Wyłączenie starszych wersji może wpłynąć na zgodność z niektórymi starszymi systemami. Dokładnie przetestuj zmiany i sprawdź ich skutki przed pełnym wdrożeniem.
 
-Podsumowując, utwardzenie komputera poprzez wyłączenie protokołu SSL i wszystkich wersji TLS 1.2 i niższych jest krytycznym krokiem w utrzymaniu bezpieczeństwa poufnych informacji i zapobieganiu cyberatakom. Kroki przedstawione w tym artykule stanowią prosty przewodnik po zabezpieczeniu komputera, ułatwiając osobom i organizacjom wdrożenie niezbędnych środków bezpieczeństwa.
+Chroń poufne informacje i ogranicz ryzyko ataków. Sprawdź protokół negocjowany przez każdą usługę i udokumentuj tymczasowe wyjątki.
+
+## Bieżąca lista kontrolna
+
+- **Sprawdź negocjowany protokół.** Przetestuj klienta i serwer skanerem TLS lub zatwierdzonym testem wewnętrznym po obu stronach połączenia.
+- **Pozostaw TLS 1.2 włączony.** Niektóre starsze aplikacje nadal go wymagają. Obsługa TLS 1.3 zależy od systemu operacyjnego i biblioteki.
+- **Sprawdź DTLS osobno.** RFC 8996 uznaje DTLS 1.0 za przestarzały i nie definiuje protokołu DTLS 1.1.
+- **Uruchom ponownie usługi.** Ustawienia Schannel i aplikacji często wymagają ponownego uruchomienia usługi lub systemu.
+- **Udokumentuj wyjątki.** Zapisz każdy starszy punkt końcowy wymagający tymczasowych ustawień zgodności i wyznacz termin ich usunięcia.
