@@ -1,6 +1,7 @@
 ---
 title: "Средства безопасности с открытым кодом и коммерческие средства защиты: Плюсы и минусы"
 date: 2023-03-24
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Изучение преимуществ и недостатков открытых и коммерческих средств защиты поможет вам принять обоснованное решение для стратегии безопасности вашей организации."
@@ -90,5 +91,5 @@ ______
 
 ## Ссылки
 
-- [Open-source security tools](https://en.wikipedia.org/wiki/Open-source_software_security)
-- [Commercial security tools](https://en.wikipedia.org/wiki/Computer_security_software)
+- [Инструменты безопасности с открытым исходным кодом](https://en.wikipedia.org/wiki/Open-source_software_security)
+- [Коммерческие инструменты безопасности](https://en.wikipedia.org/wiki/Computer_security_software)
