@@ -1,17 +1,18 @@
 ---
 title: "Zwiększ produktywność z Homebox: Otwarte oprogramowanie do zarządzania zapasami i zasobami"
 date: 2023-06-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy."
-genre: ["Technologia", "Zarządzanie zapasami", "Zarządzanie aktywami", "Open Source", "Wydajność", "Mała firma", "Zarządzanie domem", "Self-hosted", "Oprogramowanie", "Organizacja"]
-tags: ["Homebox", "zarządzanie zapasami", "zarządzanie aktywami", "open source", "self-hosted", "oprogramowanie", "wydajność", "mały biznes", "zarządzanie domem", "organizacja", "scentralizowana inwentaryzacja", "śledzenie zasobów", "niestandardowe pola danych", "przypomnienia", "raportowanie", "prywatność danych", "zgodność", "regulacje rządowe", "serwer WWW", "baza danych", "proces instalacji", "Repozytorium GitHub", "bezpieczeństwo danych", "prywatność", "prowadzenie dokumentacji", "prywatność i bezpieczeństwo danych", "instrukcje instalacji", "interfejs sieciowy", "prywatność danych", "zgodność z lokalnymi przepisami"]
+genre: ["Technologia", "Zarządzanie zapasami", "Zarządzanie aktywami", "Otwarte oprogramowanie", "Produktywność", "Mała firma", "Zarządzanie domem", "Samodzielny hosting", "Oprogramowanie", "Organizacja"]
+tags: ["Homebox", "zarządzanie zapasami", "zarządzanie aktywami", "otwarte oprogramowanie", "samodzielny hosting", "oprogramowanie", "produktywność", "mała firma", "zarządzanie domem", "organizacja", "scentralizowana ewidencja", "śledzenie aktywów", "niestandardowe pola danych", "przypomnienia", "raporty", "prywatność danych", "zgodność z przepisami", "przepisy rządowe", "serwer WWW", "baza danych", "proces instalacji", "repozytorium GitHub", "bezpieczeństwo danych", "prywatność", "prowadzenie ewidencji", "prywatność i bezpieczeństwo danych", "instrukcje instalacji", "interfejs WWW", "prywatność danych", "zgodność z lokalnym prawem"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca osobę porządkującą różne przedmioty za pomocą oprogramowania Homebox."
 coverCaption: "Usprawnij inwentaryzację i zasoby dzięki Homebox, zwiększając wydajność!"
 ---
 
-## Co to jest Homebox - Open Source, Self-hosted Inventory and Asset Management dla Twojego domu lub małej firmy!
+## Czym jest Homebox? Otwarta i samodzielnie hostowana ewidencja zapasów i aktywów w domu lub małej firmie
 
 ### Wprowadzenie
 
@@ -29,7 +30,7 @@ W dzisiejszym szybko zmieniającym się świecie, efektywne zarządzanie zapasam
 
 Dzięki Homebox możesz stworzyć kompleksową **listę inwentarzową** wszystkich swoich rzeczy lub aktywów. Oprogramowanie umożliwia **katalogowanie przedmiotów** według kategorii, lokalizacji, daty zakupu, wartości i innych istotnych atrybutów. Takie scentralizowane podejście zapewnia przejrzysty przegląd posiadanych przedmiotów i ułatwia ich znalezienie w razie potrzeby.
 
-#### 2. Śledzenie i monitorowanie zasobów
+#### 2. Śledzenie i monitorowanie aktywów
 
 Homebox wykracza poza proste zarządzanie zapasami, zapewniając potężne możliwości **śledzenia zasobów**. Możesz przypisać unikalne identyfikatory lub **kody kreskowe** do swoich zasobów, dzięki czemu wygodnie jest śledzić ich ruchy i status. Funkcja ta jest szczególnie korzystna dla firm, które muszą mieć oko na cenny sprzęt lub urządzenia.
 
@@ -47,7 +48,7 @@ Zrozumienie danych dotyczących inwentaryzacji i zasobów jest niezbędne do pod
 
 ### Wdrożenie i konfiguracja
 
-Rozpoczęcie pracy z **Homebox** jest proste dzięki jego **otwartemu źródłu** i dobrze udokumentowanemu **procesowi instalacji**. Oprogramowanie może być hostowane na lokalnym serwerze, zapewniając pełną kontrolę i prywatność danych. Homebox obsługuje różne systemy operacyjne, a szczegółowe instrukcje instalacji można znaleźć na oficjalnej stronie Homebox. [documentation](https://hay-kot.github.io/homebox/)
+Rozpoczęcie pracy z **Homebox** jest proste dzięki jego **otwartemu źródłu** i dobrze udokumentowanemu **procesowi instalacji**. Oprogramowanie może być hostowane na lokalnym serwerze, zapewniając pełną kontrolę i prywatność danych. Homebox obsługuje różne systemy operacyjne, a szczegółowe instrukcje instalacji można znaleźć na oficjalnej stronie Homebox. [oficjalna dokumentacja](https://hay-kot.github.io/homebox/)
 
 Aby zainstalować Homebox, potrzebny będzie **serwer WWW**, **baza danych** i niezbędne zależności. Proces instalacji zazwyczaj obejmuje **klonowanie repozytorium Homebox** z pliku [GitHub](https://github.com/hay-kot/homebox) skonfigurowanie wymaganych ustawień i uruchomienie skryptów instalacyjnych. Po zainstalowaniu można uzyskać dostęp do interfejsu internetowego Homebox za pośrednictwem preferowanej przeglądarki internetowej.
 
@@ -57,5 +58,5 @@ Homebox oferuje potężne, **otwarte rozwiązanie** do zarządzania zapasami i a
 
 Przejmij kontrolę nad swoimi zapasami i aktywami dzięki Homebox już dziś!
 
-### Referencje
-- [Homebox GitHub Repository](https://hay-kot.github.io/homebox/)
+### Źródła
+- [Dokumentacja Homebox](https://hay-kot.github.io/homebox/)

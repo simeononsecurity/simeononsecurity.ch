@@ -1,19 +1,20 @@
 ---
 title: "Verhoog uw productiviteit met Homebox: Open source inventaris- en activabeheer"
 date: 2023-06-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ontdek de kracht van Homebox, open-source software voor efficiënt inventaris- en activabeheer, waardoor de productiviteit van je huis of klein bedrijf toeneemt."
-genre: ["Technologie", "Voorraadbeheer", "Vermogensbeheer", "Open Bron", "Productiviteit", "Klein Bedrijf", "Home Beheer", "Zelf gehost", "Software", "Organisatie"]
-tags: ["Thuisbox", "voorraadbeheer", "vermogensbeheer", "open bron", "zelf gehost", "software", "productiviteit", "klein bedrijf", "woningbeheer", "organisatie", "gecentraliseerde inventaris", "het volgen van activa", "aangepaste gegevensvelden", "reminders", "rapportage", "gegevensprivacy", "naleving", "overheidsvoorschriften", "webserver", "database", "installatieproces", "GitHub opslagplaats", "gegevensbeveiliging", "privacy", "administratie", "privacy en beveiliging van gegevens", "installatie-instructies", "web-interface", "gegevensprivacy", "naleving van lokale wetten"]
+genre: ["Technologie", "Voorraadbeheer", "Vermogensbeheer", "opensourcesoftware", "Productiviteit", "Klein bedrijf", "Woningbeheer", "Zelf hosten", "computerprogramma", "Organisatie"]
+tags: ["Homebox", "voorraadbeheer", "vermogensbeheer", "opensourcesoftware", "zelf gehost", "computerprogramma", "productiviteit", "klein bedrijf", "woningbeheer", "organisatie", "centrale inventaris", "activa volgen", "aangepaste gegevensvelden", "herinneringen", "rapporten", "gegevensprivacy", "naleving", "overheidsregels", "webserver", "gegevensbank", "installatieproces", "projectarchief van GitHub", "gegevensbeveiliging", "gegevensbescherming", "registratie", "privacy en gegevensbeveiliging", "installatie-instructies", "webinterface", "gegevensprivacy", "naleving van lokale wetten"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "Een cartoonillustratie van een persoon die verschillende items organiseert met Homebox-software."
 coverCaption: "Stroomlijn je inventaris en bedrijfsmiddelen met Homebox en verhoog je efficiëntie!"
 ---
 
-## Wat is Homebox - Open Source, Self-hosted Inventaris en Activabeheer voor thuis of kleine bedrijven!
+## Wat is Homebox? Open source inventaris- en activabeheer op eigen hosting voor thuis of een klein bedrijf
 
-### Introductie
+### Inleiding
 
 In de snelle wereld van vandaag is efficiënt inventaris- en activabeheer cruciaal voor zowel particulieren als kleine bedrijven. Of u nu uw huishoudelijke artikelen beheert of activa bijhoudt voor uw bedrijf, een **betrouwbaar en georganiseerd systeem** is essentieel. Dit is waar **Homebox** om de hoek komt kijken, met een krachtige **open-source** oplossing voor **zelf gehost** inventaris- en activabeheer. In dit artikel gaan we dieper in op de functies, voordelen en implementatie van Homebox, zodat je gemakkelijk controle krijgt over je bezittingen en activa.
 
@@ -23,9 +24,9 @@ In de snelle wereld van vandaag is efficiënt inventaris- en activabeheer crucia
 
 **Homebox** is een **open-source** software ontworpen om een intuïtief en gebruiksvriendelijk platform te bieden voor **het beheren van inventarissen en activa** in uw huis of kleine bedrijfsomgeving. Hiermee kun je verschillende items bijhouden, van persoonlijke bezittingen tot bedrijfsapparatuur, allemaal op één centrale locatie. Door Homebox te gebruiken, kunt u uw bezittingen efficiënt organiseren, categoriseren en controleren, wat leidt tot een hogere productiviteit en minder administratieve overhead.
 
-### Kenmerken en Voordelen van Homebox
+### Functies en voordelen van Homebox
 
-#### 1. Gecentraliseerd voorraadbeheer
+#### 1. Centraal voorraadbeheer
 
 Met Homebox kun je een uitgebreide **inventarislijst** maken van al je bezittingen of activa. Met de software kun je items **catalogiseren** op categorie, locatie, aankoopdatum, waarde en andere relevante kenmerken. Deze gecentraliseerde aanpak zorgt ervoor dat je een duidelijk overzicht hebt van je bezittingen en maakt het gemakkelijker om specifieke items terug te vinden wanneer dat nodig is.
 
@@ -47,9 +48,9 @@ Inzicht in uw inventaris- en activagegevens is essentieel om weloverwogen beslis
 
 ### Implementatie en installatie
 
-Aan de slag gaan met **Homebox** is eenvoudig dankzij het **open-source** karakter en het goed gedocumenteerde **installatieproces**. De software kan gehost worden op je lokale server, waardoor volledige controle en privacy van gegevens gegarandeerd is. Homebox ondersteunt verschillende besturingssystemen en je kunt gedetailleerde installatie-instructies vinden op hun officiële [documentation](https://hay-kot.github.io/homebox/)
+Aan de slag gaan met **Homebox** is eenvoudig dankzij het **open-source** karakter en het goed gedocumenteerde **installatieproces**. De software kan gehost worden op je lokale server, waardoor volledige controle en privacy van gegevens gegarandeerd is. Homebox ondersteunt verschillende besturingssystemen en je kunt gedetailleerde installatie-instructies vinden op hun officiële [officiële documentatie](https://hay-kot.github.io/homebox/)
 
-Om Homebox te installeren heb je een **webserver**, een **database** en de nodige afhankelijkheden nodig. Het installatieproces bestaat meestal uit het **klonen** van de Homebox-repository** van [GitHub](https://github.com/hay-kot/homebox) het configureren van de vereiste instellingen en het uitvoeren van de installatiescripts. Na de installatie heb je toegang tot de webinterface van Homebox via de webbrowser van je voorkeur.
+Om Homebox te installeren heb je een **webserver**, een **database** en de nodige afhankelijkheden nodig. Het installatieproces bestaat meestal uit het **klonen** van de Homebox-repository van [GitHub](https://github.com/hay-kot/homebox) het configureren van de vereiste instellingen en het uitvoeren van de installatiescripts. Na de installatie heb je toegang tot de webinterface van Homebox via de webbrowser van je voorkeur.
 
 ### Conclusie
 
@@ -58,4 +59,4 @@ Homebox biedt een krachtige, **open-source oplossing** voor het beheren van inve
 Neem vandaag nog de controle over uw inventaris en bedrijfsmiddelen met Homebox!
 
 ### Referenties
-- [Homebox GitHub Repository](https://hay-kot.github.io/homebox/)
+- [Homebox-documentatie](https://hay-kot.github.io/homebox/)
