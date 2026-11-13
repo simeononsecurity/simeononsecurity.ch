@@ -68,6 +68,17 @@ LOCALE_STOPWORDS = {
     "pt": set("o a os as um uma e ou de que em para por com é são não do da dos das como se também".split()),
     "ro": set("și de în la este sunt cu pentru din nu pe un o că ca aceasta acești".split()),
 }
+CSV_FIELDS = [
+    "path", "locale", "reasons", "tokens", "english_stopword_ratio",
+    "locale_stopword_ratio", "exact_english_paragraphs",
+    "exact_english_sentences", "copied_reader_fenced_lines",
+    "copied_reader_code_prose", "copied_english_spans",
+    "split_word_emphasis", "english_dominant_paragraphs",
+    "copied_english_table_cells", "copied_english_headings",
+    "copied_english_metadata", "taxonomy_count_differences",
+    "expected_script_ratio", "copied_link_labels",
+    "markdown_structure_differences", "note",
+]
 SCRIPT_RANGES = {
     "ar": ((0x0600, 0x06FF), (0x0750, 0x077F), (0x08A0, 0x08FF)),
     "bn": ((0x0980, 0x09FF),),
@@ -222,8 +233,8 @@ def taxonomy_count_differences(source: dict, target: dict) -> dict[str, tuple[in
 
 def visible_text(text: str, *, include_link_labels: bool = True) -> str:
     # `text`, `plaintext`, and `markdown` fences hold reader-facing samples.
-    # Keep those in the leakage screen. Exclude executable and other fenced
-    # content, which often contains literal English identifiers.
+    # Keep those in the leakage screen. Exclude executable fences here, then
+    # screen their comments and natural-language command strings separately.
     text = re.sub(
         r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n(?P<body>.*?)(?:\n)?(?P=fence)",
         lambda match: match.group("body")
@@ -251,6 +262,41 @@ def reader_fenced_prose(text: str) -> list[str]:
         )
         if match.group("language").lower() in {"text", "plaintext", "markdown"}
     ]
+
+
+def reader_fenced_code_prose(text: str) -> set[str]:
+    """Extract reader-facing comments and natural-language command strings from code fences."""
+    executable_languages = {
+        "bash", "sh", "shell", "zsh", "powershell", "pwsh", "python", "py",
+        "ruby", "javascript", "js", "typescript", "ts", "sql", "go", "rust",
+        "c", "cpp", "csharp", "cs", "java", "php", "r",
+    }
+    findings = set()
+    pattern = re.compile(
+        r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n"
+        r"(?P<body>.*?)(?:\n)?(?P=fence)"
+    )
+    for match in pattern.finditer(text):
+        language = match.group("language").lower()
+        if language not in executable_languages:
+            continue
+        for line in match.group("body").splitlines():
+            comment = re.match(r"^\s*(?:#(?![!])|//|--|;)\s+(.+?)\s*$", line)
+            if comment:
+                findings.add(normalize(comment.group(1)))
+            commit_subjects = re.finditer(
+                r"\bgit\s+commit\b[^\n]*?\s-m\s+([\"'])(.+?)\1", line
+            )
+            for subject in commit_subjects:
+                findings.add(normalize(subject.group(2)))
+            user_output = re.finditer(
+                r"\b(?:echo|printf|Write-Host|Write-Output|print)\b[^\n]*?"
+                r"([\"'])([^\"']{3,})\1",
+                line,
+            )
+            for message in user_output:
+                findings.add(normalize(message.group(2)))
+    return {finding for finding in findings if finding}
 
 
 def copied_reader_fenced_examples(source: str, target: str) -> set[str]:
@@ -297,6 +343,26 @@ def copied_reader_fenced_lines(source: str, target: str) -> set[str]:
         return lines
 
     return eligible_lines(source) & eligible_lines(target)
+
+
+def copied_reader_code_prose(source: str, target: str) -> set[str]:
+    """Find unchanged natural-language comments or output strings in executable examples."""
+    return reader_fenced_code_prose(source) & reader_fenced_code_prose(target)
+
+
+def split_word_emphasis(text: str, locale: str | None = None) -> list[str]:
+    """Find Markdown emphasis markers placed between letters in a word."""
+    # Japanese and Chinese do not use spaces between words, so adjacent
+    # emphasized text is normal typography rather than a split word.
+    if locale and locale.lower() in {"ja", "zh"}:
+        return []
+    visible = visible_text(text)
+    findings = []
+    for match in re.finditer(r"(?<=\w)(?:\*\*|\*)(?=\w)", visible):
+        start = max(0, match.start() - 28)
+        end = min(len(visible), match.end() + 28)
+        findings.append(visible[start:end].strip())
+    return sorted(set(findings))
 
 
 def normalize(text: str) -> str:
@@ -769,8 +835,12 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_fence_lines = sorted(copied_reader_fenced_lines(source_body, body))
         if copied_fence_lines:
             reasons.append("copied_reader_fenced_line")
-            copied_sentences.extend(copied_fence_lines)
-            copied_sentences = sorted(set(copied_sentences))
+        copied_code_prose = sorted(copied_reader_code_prose(source_body, body))
+        if copied_code_prose:
+            reasons.append("copied_reader_code_prose")
+        split_emphasis = split_word_emphasis(body, locale)
+        if split_emphasis:
+            reasons.append("markdown_split_word_emphasis")
         if copied_sentences:
             reasons.append("exact_English_sentences")
         if copied_spans:
@@ -804,7 +874,10 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "locale_stopword_ratio": f"{locale_ratio:.3f}",
                 "exact_english_paragraphs": f"{exact}/{len(paragraphs)}",
                 "exact_english_sentences": " | ".join(copied_sentences),
+                "copied_reader_fenced_lines": " | ".join(copied_fence_lines),
+                "copied_reader_code_prose": " | ".join(copied_code_prose),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
+                "split_word_emphasis": " | ".join(split_emphasis),
                 "english_dominant_paragraphs": " | ".join(english_paragraphs),
                 "copied_english_table_cells": " | ".join(copied_table_cells),
                 "copied_english_headings": " | ".join(copied_headings),
@@ -855,9 +928,8 @@ def main() -> int:
         print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:
         args.csv.parent.mkdir(parents=True, exist_ok=True)
-        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "english_dominant_paragraphs", "copied_english_table_cells", "copied_english_headings", "copied_english_metadata", "taxonomy_count_differences", "expected_script_ratio", "copied_link_labels", "markdown_structure_differences", "note"]
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
-            writer = csv.DictWriter(handle, fieldnames=fields)
+            writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS)
             writer.writeheader()
             writer.writerows(findings)
         print(f"CSV report: {args.csv}")

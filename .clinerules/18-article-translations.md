@@ -98,7 +98,9 @@
   locale in the review report.
 - Inspect emphasis boundaries in the target script. Do not split a word, compound,
   or grammatical particle with Markdown markers, and keep bold spans focused on
-  a scannable term or phrase rather than a long sentence.
+  a scannable term or phrase rather than a long sentence. Review Japanese and
+  Chinese boundaries manually; the automated split-word check skips those
+  scripts because they do not use spaces between words.
 - Translate source-attribution notes from the current article only. Before
   retaining a citation summary, compare its claim and URL with the English
   source; a note copied from another article can introduce an unrelated claim.
@@ -186,6 +188,11 @@
   Preserve literal runtime diagnostics and expected validation output exactly.
   Translate explanatory labels or surrounding prose, but do not translate fixed
   output such as a permission error or a required `PASS:` result.
+  Inspect executable fences for reader-facing comments and natural-language
+  strings as well. Translate comments and example text such as a commit subject
+  while preserving valid command syntax. Keep literal runtime output, identifiers,
+  paths, and command names unchanged. Treat an unchanged comment or example string
+  as a manual-review flag, not as executable syntax to ignore.
   Compare individual lines inside `text`, `plaintext`, and `markdown` fences as well as full
   examples. A localized sample can still contain copied English field labels or
   short instructions that a whole-block comparison misses. Translate those
@@ -217,6 +224,13 @@
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
+  In CSV reports, review `copied_reader_fenced_lines` and
+  `copied_reader_code_prose` separately from `exact_english_sentences`; fixed
+  examples and executable-code comments are distinct findings and must not be
+  mistaken for copied article sentences.
+  The checker also flags unchanged prose in executable-fence comments or
+  natural-language command strings, and Markdown emphasis that splits a word.
+  Preserve command syntax and classify fixed output separately.
   The checker also queues differences in ordered heading levels, Markdown table
   row/cell shapes, ordered and unordered list counts per section, link targets
   and order, shortcode sequences, and fenced-code language inventories. Compare

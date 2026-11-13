@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from check_translation_english_leakage import (
+    CSV_FIELDS,
     copied_english_prose_spans,
     copied_english_link_labels,
     copied_english_headings,
@@ -12,18 +13,30 @@ from check_translation_english_leakage import (
     taxonomy_count_differences,
     copied_reader_fenced_examples,
     copied_reader_fenced_lines,
+    copied_reader_code_prose,
     english_dominant_paragraphs,
     markdown_structure,
     markdown_structure_differences,
     normalize,
     prose_sentences_with_link_slots,
+    reader_fenced_code_prose,
     reader_fenced_prose,
+    split_word_emphasis,
     yaml_front_matter_lists,
     visible_text,
 )
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_csv_report_keeps_reader_fence_findings_in_separate_columns(self):
+        self.assertIn("exact_english_sentences", CSV_FIELDS)
+        self.assertIn("copied_reader_fenced_lines", CSV_FIELDS)
+        self.assertIn("copied_reader_code_prose", CSV_FIELDS)
+        self.assertLess(
+            CSV_FIELDS.index("exact_english_sentences"),
+            CSV_FIELDS.index("copied_reader_fenced_lines"),
+        )
+
     def test_flags_unchanged_descriptive_table_cell(self):
         source = (
             "| Méthode | Mean prefix reuse per trial |\n"
@@ -368,6 +381,48 @@ class FencedProseTests(unittest.TestCase):
         self.assertIn("This form is reader facing.", visible)
         self.assertNotIn("English code string", visible)
         self.assertEqual(len(reader_fenced_prose(sample)), 2)
+
+    def test_screens_comments_and_natural_language_strings_in_code_fences(self):
+        source = (
+            "```bash\n"
+            "# If you created CLAUDE.md, run: git add CLAUDE.md\n"
+            'git commit -m "Add lab guidance"\n'
+            "git status --short\n"
+            "```"
+        )
+        translated = (
+            "```bash\n"
+            "# Si creaste CLAUDE.md, ejecuta: git add CLAUDE.md\n"
+            'git commit -m "Añadir guía del laboratorio"\n'
+            "git status --short\n"
+            "```"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(source),
+            {"if you created claude md run git add claude md", "add lab guidance"},
+        )
+        self.assertEqual(copied_reader_code_prose(source, source), reader_fenced_code_prose(source))
+        self.assertFalse(copied_reader_code_prose(source, translated))
+
+    def test_detects_emphasis_markers_that_split_words(self):
+        prose = (
+            "**Lies** die Hinweise. Codex unterstützt AGENTS.md. "
+            "Lie**s** die [Anweisungen](https://example.com). "
+            "Nutze `Con**sulta**` als unveränderten Codewert."
+        )
+
+        findings = split_word_emphasis(prose)
+
+        self.assertEqual(len(findings), 1)
+        self.assertIn("Lie**s**", findings[0])
+
+    def test_does_not_flag_emphasis_adjacent_to_japanese_or_chinese_words(self):
+        japanese = "**未分類情報**とは、政府機関で使われる用語です。"
+        chinese = "**非机密信息**是政府机构常用的术语。"
+
+        self.assertEqual(split_word_emphasis(japanese, "ja"), [])
+        self.assertEqual(split_word_emphasis(chinese, "zh"), [])
 
     def test_effective_ai_delegation_examples_detect_an_english_copy(self):
         bundle = Path(__file__).resolve().parents[1] / "content/articles/effective-ai-agent-delegation"
