@@ -117,6 +117,11 @@
   prose whose remaining word count falls below the normal span threshold after
   link labels are removed. Translate the sentence around product names while
   preserving the names and their targets.
+  When a source repeats a destination, preserve each link occurrence in its
+  original translated sentence, list item, step, or table cell. Matching the
+  total URL count and order does not prove correct placement; compare each
+  occurrence with its source context so a duplicate link does not migrate to a
+  different claim.
   Record which locales were screened and how each finding was resolved. File
   presence, script checks, and a detector score do not establish translated
   prose coverage.
