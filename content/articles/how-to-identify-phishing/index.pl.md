@@ -1,10 +1,11 @@
 ---
 title: "Jak rozpoznać phishingowe e-maile, SMS-y i telefony"
 date: 2023-03-01
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Dowiedz się, jak rozpoznać próby wyłudzenia informacji w wiadomościach e-mail, SMS-ach i rozmowach telefonicznych, aby zachować bezpieczeństwo swoich danych osobowych."
-tags: ["phishing", "bezpieczeństwo w sieci", "bezpieczeństwo poczty elektronicznej", "cybersecurity", "bezpieczeństwo internetu", "maile phishingowe", "teksty phishingowe", "rozmowy phishingowe", "zagrożenia cyfrowe", "kradzież tożsamości", "ochrona danych", "oszustwo internetowe", "oszustwa internetowe", "prywatność w sieci", "wskazówki dotyczące bezpieczeństwa w sieci", "cyberprzestępczość", "bezpieczeństwo informacji", "hasło bezpieczeństwa", "bezpieczeństwo danych", "świadomość bezpieczeństwa"]
+tags: ["phishing", "bezpieczeństwo w sieci", "bezpieczeństwo poczty elektronicznej", "cyberbezpieczeństwo", "bezpieczeństwo internetu", "maile phishingowe", "teksty phishingowe", "rozmowy phishingowe", "zagrożenia cyfrowe", "kradzież tożsamości", "ochrona danych", "oszustwo internetowe", "oszustwa internetowe", "prywatność w sieci", "wskazówki dotyczące bezpieczeństwa w sieci", "cyberprzestępczość", "bezpieczeństwo informacji", "hasło bezpieczeństwa", "bezpieczeństwo danych", "świadomość bezpieczeństwa"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Obraz postaci z kreskówki w kostiumie superbohatera i z tarczą blokującą wędkę, na której znajduje się e-mail phishingowy."
 coverCaption: ""
@@ -40,7 +41,7 @@ Wiadomości phishingowe są zaprojektowane tak, aby wyglądały na pochodzące z
 - email zawiera ogólne pozdrowienie, takie jak "Drogi Kliencie" zamiast Twojego imienia
 - email zawiera podejrzany załącznik lub link
 
-Teksty phishingowe ###
+### SMS-y phishingowe
 
 Phishingowe teksty są podobne do phishingowych e-maili, ale często zawierają **link** do fałszywej strony internetowej. Oto kilka rzeczy, których należy szukać:
 
@@ -49,7 +50,7 @@ Phishingowe teksty są podobne do phishingowych e-maili, ale często zawierają 
 - Strona prosi o wprowadzenie danych do logowania lub danych osobowych
 - Strona zawiera błędy ortograficzne lub gramatyczne
 
-### Phishing Calls
+### Połączenia phishingowe
 
 Połączenia phishingowe często pochodzą z **nieznanych numerów** lub numerów, które wydają się być z legalnej firmy. Oto kilka rzeczy, na które należy zwrócić uwagę:
 
@@ -61,7 +62,7 @@ Połączenia phishingowe często pochodzą z **nieznanych numerów** lub numeró
 
 Teraz, gdy już rozumiesz rodzaje wiadomości wykorzystywanych w próbach phishingu, nadszedł czas na **stosowanie** tej wiedzy. Jeśli otrzymasz wiadomość, która pasuje do jednego z tych typów, bądź podejrzliwy. Jeśli wiadomość pochodzi od instytucji finansowej lub innej firmy, nie klikaj na żadne linki ani nie podawaj żadnych danych osobowych. Zamiast tego zadzwoń na linię obsługi klienta firmy, aby zweryfikować autentyczność wiadomości.
 
-## Spread the Word
+## Podziel się wiedzą
 
 Teraz, gdy nauczyłeś się już, jak rozpoznawać phishingowe e-maile, SMS-y i telefony, ważne jest, abyś podzielił się swoją wiedzą z innymi. Jednym z najbardziej efektywnych sposobów jest rozmowa z przyjaciółmi i członkami rodziny o tym, czego się nauczyłeś.
 

@@ -1,6 +1,7 @@
 ---
 title: "Cómo identificar correos electrónicos, mensajes de texto y llamadas de phishing"
 date: 2023-03-01
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Aprenda a identificar los intentos de phishing en correos electrónicos, mensajes de texto y llamadas para mantener a salvo su información personal."
@@ -57,7 +58,7 @@ Las llamadas de phishing suelen proceder de **números desconocidos** o de núme
 - La persona que llama afirma pertenecer a una empresa, pero no aporta ninguna prueba.
 - La persona que llama le amenaza con emprender acciones legales si no facilita la información solicitada.
 
-## Solicitud
+## Aplicar
 
 Ahora que conoces los tipos de mensajes utilizados en los intentos de phishing, es hora de **aplicar** esos conocimientos. Si recibe un mensaje que se ajusta a uno de estos tipos, desconfíe. Si el mensaje procede de una entidad financiera u otra empresa, no haga clic en ningún enlace ni facilite información personal. Llame al servicio de atención al cliente de la empresa para verificar la autenticidad del mensaje.
 

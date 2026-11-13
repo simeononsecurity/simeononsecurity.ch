@@ -1,10 +1,11 @@
 ---
 title: "Come identificare le e-mail, i messaggi e le chiamate di phishing"
 date: 2023-03-01
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Imparate a identificare i tentativi di phishing nelle e-mail, negli SMS e nelle chiamate per mantenere al sicuro i vostri dati personali."
-tags: ["phishing", "sicurezza online", "sicurezza delle e-mail", "sicurezza informatica", "sicurezza in internet", "e-mail di phishing", "testi di phishing", "chiamate di phishing", "minacce digitali", "furto d'identità", "protezione dei dati", "frode online", "online scams", "online privacy", "Consigli per la sicurezza online", "criminalità informatica", "sicurezza delle informazioni", "sicurezza della password", "sicurezza dei dati", "consapevolezza della sicurezza"]
+tags: ["phishing", "sicurezza online", "sicurezza delle e-mail", "sicurezza informatica", "sicurezza in internet", "e-mail di phishing", "testi di phishing", "chiamate di phishing", "minacce digitali", "furto d'identità", "protezione dei dati", "frode online", "truffe online", "privacy online", "Consigli per la sicurezza online", "criminalità informatica", "sicurezza delle informazioni", "sicurezza della password", "sicurezza dei dati", "consapevolezza della sicurezza"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Un'immagine di un personaggio dei cartoni animati con un costume da supereroe e uno scudo che blocca una canna da pesca con un'e-mail di phishing."
 coverCaption: ""
