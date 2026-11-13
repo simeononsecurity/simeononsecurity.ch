@@ -102,6 +102,10 @@
   Record which locales were screened and how each finding was resolved. File
   presence, script checks, and a detector score do not establish translated
   prose coverage.
+- Inspect fenced examples separately. A text template, form, or sample dialogue
+  remains reader-facing prose even when Markdown fences exclude it from the
+  checker. Translate labels and explanatory text inside those fences while
+  preserving placeholders and syntax. Exclude only code and literal commands.
 - Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
   for each finished bundle. For a repository audit, use
   `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.
