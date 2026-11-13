@@ -202,3 +202,6 @@ For memory estimates, distinguish decimal GB from binary GiB. Include cache
 quantization metadata, recurrent state, and runtime buffers. Label a chosen
 memory reserve as an assumption unless the exact runtime version documents the
 default. Recalculate supplied estimates before presenting them as capacity limits.
+## OEM Power Supply Compatibility Claims
+
+For hardware replacement articles, name the exact chassis variant, backplane revision, PSU model, AC input range, and observed test result. A vendor list for a separate breakout board establishes compatibility with that board only. It does not establish compatibility with an OEM backplane, even when both use an X12 name. Keep a successful start separate from a sustained load test. Record an LED sequence as an observation, not a diagnosis of the PSU or backplane. Check the manufacturer's troubleshooting guide and the exact PSU label before recommending a replacement.
