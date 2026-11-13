@@ -3,6 +3,7 @@ title: "Comprender los fundamentos de la ciberseguridad"
 draft: false
 toc: true
 date: 2023-06-11
+lastmod: 2026-11-12
 description: "Descubra la importancia de la ciberseguridad y aprenda a proteger la seguridad personal, empresarial y nacional frente a las cambiantes ciberamenazas."
 genre: ["Comprender los fundamentos de la ciberseguridad", "Importancia de la ciberseguridad", "Protección de datos personales", "Protección de datos empresariales", "Cuestiones de seguridad nacional", "Terminología clave de ciberseguridad", "Tipos de ciberataques", "Buenas prácticas de ciberseguridad", "Papel del cifrado en la ciberseguridad", "Ciberseguridad para empresas"]
 tags: ["Ciberseguridad", "Conceptos básicos de ciberseguridad", "Importancia de la ciberseguridad", "Protección de datos personales", "Protección de datos empresariales", "Seguridad nacional", "Ciberamenazas", "Malware", "Phishing", "ransomware", "Vulnerabilidades", "Explota", "Ataques de ingeniería social", "Ataques a contraseñas", "Ataques Man-in-the-Middle", "Ataques DDoS", "Buenas prácticas de ciberseguridad", "Contraseñas seguras", "Actualizaciones de software", "Autenticación multifactor", "Terminología de ciberseguridad", "Tipos de ciberataques", "Papel del cifrado en la ciberseguridad", "Tipos de cifrado", "Protección de datos", "Plan de ciberseguridad", "Formación y sensibilización de los empleados", "Auditorías de seguridad periódicas", "Ciberamenazas emergentes", "Inteligencia artificial en ciberseguridad"]
@@ -109,7 +110,7 @@ Muchos servicios en línea, como los proveedores de correo electrónico y las pl
 
 #### Hábitos de navegación segura
 
-Ser cauteloso con los sitios web que se visitan, los enlaces que se pulsan y la información que se comparte en línea puede ayudar a prevenir [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) o **sitios web falsos** para engañar a los usuarios con el fin de que revelen información confidencial o descarguen programas maliciosos.
+Ser prudente con los sitios web que visitas, los enlaces en los que haces clic y la información que compartes en línea puede ayudar a prevenir los [**ataques de ingeniería social**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) y otros tipos de **ciberamenazas**. Los ciberdelincuentes suelen utilizar [**correos electrónicos de phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) o **sitios web falsos** para engañar a los usuarios y hacer que revelen información confidencial o descarguen malware.
 
 Se recomienda visitar únicamente sitios web de confianza, evitar hacer clic en enlaces o ventanas emergentes sospechosos y no compartir nunca información personal o financiera en línea a menos que se esté seguro de que el sitio web es legítimo.
 

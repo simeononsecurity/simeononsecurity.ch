@@ -3,6 +3,7 @@ title: "Die Grundlagen der Cybersicherheit verstehen"
 draft: false
 toc: true
 date: 2023-06-11
+lastmod: 2026-11-12
 description: "Entdecken Sie die Bedeutung der Cybersicherheit und erfahren Sie, wie Sie Ihre persönliche, geschäftliche und nationale Sicherheit vor den sich entwickelnden Cyberbedrohungen schützen können."
 genre: ["Die Grundlagen der Cybersicherheit verstehen", "Bedeutung der Cybersicherheit", "Schutz von persönlichen Informationen", "Schutz von Unternehmensdaten", "Nationale Sicherheitsbedenken", "Wichtige Terminologie zur Cybersicherheit", "Arten von Cyberangriffen", "Bewährte Praktiken der Cybersicherheit", "Die Rolle der Verschlüsselung bei der Cybersicherheit", "Cybersecurity für Unternehmen"]
 tags: ["Cybersecurity", "Grundlagen der Cybersicherheit", "Bedeutung der Cybersicherheit", "Schutz von persönlichen Informationen", "Schutz von Unternehmensdaten", "Nationale Sicherheit", "Cyber-Bedrohungen", "Malware", "Phishing", "Ransomware", "Schwachstellen", "Exploits", "Social-Engineering-Angriffe", "Passwort-Angriffe", "Man-in-the-Middle-Angriffe", "DDoS-Angriffe", "Bewährte Praktiken der Cybersicherheit", "Starke Passwörter", "Software-Aktualisierungen", "Multi-Faktor-Authentifizierung", "Terminologie der Cybersicherheit", "Arten von Cyberangriffen", "Die Rolle der Verschlüsselung bei der Cybersicherheit", "Verschlüsselungstypen", "Datenschutz", "Cybersicherheitsplan", "Schulung und Sensibilisierung der Mitarbeiter", "Regelmäßige Sicherheitsaudits", "Aufkommende Cyber-Bedrohungen", "Künstliche Intelligenz in der Cybersicherheit"]
@@ -109,7 +110,7 @@ Viele Online-Dienste wie E-Mail-Provider und Social-Media-Plattformen bieten die
 
 #### Sichere Browsing-Gewohnheiten
 
-Wenn Sie darauf achten, welche Websites Sie besuchen, welche Links Sie anklicken und welche Informationen Sie online weitergeben, können Sie Folgendes verhindern [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) oder **gefälschte Websites**, um Benutzer zur Preisgabe vertraulicher Informationen oder zum Herunterladen von Malware zu verleiten.
+Wenn Sie darauf achten, welche Websites Sie besuchen, welche Links Sie anklicken und welche Informationen Sie online teilen, können Sie [**Social-Engineering-Angriffe**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) und andere Arten von **Cyberbedrohungen** verhindern. Cyberkriminelle verwenden häufig [**Phishing-E-Mails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) oder **gefälschte Websites**, um Nutzer zur Preisgabe vertraulicher Informationen oder zum Herunterladen von Schadsoftware zu verleiten.
 
 Es wird empfohlen, nur vertrauenswürdige Websites zu besuchen, nicht auf verdächtige Links oder Pop-ups zu klicken und niemals persönliche oder finanzielle Informationen online weiterzugeben, wenn Sie nicht sicher sind, dass die Website seriös ist.
 

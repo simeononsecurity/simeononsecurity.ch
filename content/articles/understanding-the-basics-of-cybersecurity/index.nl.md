@@ -3,6 +3,7 @@ title: "De basis van cyberbeveiliging begrijpen"
 draft: false
 toc: true
 date: 2023-06-11
+lastmod: 2026-11-12
 description: "Ontdek het belang van cyberbeveiliging en leer hoe u uw persoonlijke, zakelijke en nationale veiligheid kunt beschermen tegen evoluerende cyberbedreigingen."
 genre: ["De basis van cyberbeveiliging begrijpen", "Het belang van cyberbeveiliging", "Persoonlijke gegevens beschermen", "Bedrijfsgegevens beveiligen", "Nationale veiligheid", "Belangrijke cyberbeveiligingsterminologie", "Soorten cyberaanvallen", "Beste praktijken voor cyberbeveiliging", "De rol van encryptie in cyberbeveiliging", "Cyberbeveiliging voor bedrijven"]
 tags: ["Cyberbeveiliging", "Basisprincipes van cyberbeveiliging", "Het belang van cyberbeveiliging", "Persoonlijke gegevens beschermen", "Bescherming van bedrijfsgegevens", "Nationale Veiligheid", "Cyberbedreigingen", "Malware", "Phishing", "Ransomware", "Kwetsbaarheden", "Uitbuitingen", "Social engineering-aanvallen", "Wachtwoordaanvallen", "Man-in-the-Middle-aanvallen", "DDoS-aanvallen", "Beste praktijken voor cyberbeveiliging", "Sterke wachtwoorden", "Software-updates", "Multi-Factor Authenticatie", "Cyberbeveiligingsterminologie", "Soorten cyberaanvallen", "De rol van encryptie in cyberbeveiliging", "Encryptietypen", "Gegevensbescherming", "Cyberbeveiligingsplan", "Training en bewustwording van werknemers", "Regelmatige beveiligingsaudits", "Opkomende cyberbedreigingen", "Kunstmatige intelligentie in cyberbeveiliging"]
@@ -109,7 +110,7 @@ Veel online diensten, zoals e-mailproviders en sociale mediaplatforms, bieden mu
 
 #### veilig browsen
 
-Door voorzichtig te zijn met welke websites bezocht worden, op welke links geklikt wordt en welke informatie online gedeeld wordt, kan het volgende voorkomen worden [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) of **nepwebsites** om gebruikers te verleiden tot het vrijgeven van gevoelige informatie of het downloaden van malware.
+Door goed op te letten welke websites u bezoekt, op welke links u klikt en welke informatie u online deelt, kunt u [**socialengineeringaanvallen**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) en andere soorten **cyberdreigingen** helpen voorkomen. Cybercriminelen gebruiken vaak [**phishingmails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) of **nepwebsites** om gebruikers ertoe te verleiden gevoelige informatie prijs te geven of malware te downloaden.
 
 Het wordt aanbevolen om alleen vertrouwde websites te bezoeken, niet op verdachte links of pop-ups te klikken en nooit persoonlijke of financiële informatie online te delen tenzij je zeker weet dat de website legitiem is.
 

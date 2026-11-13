@@ -3,6 +3,7 @@ title: "Înțelegerea principiilor de bază ale securității cibernetice"
 draft: false
 toc: true
 date: 2023-06-11
+lastmod: 2026-11-12
 description: "Descoperiți importanța securității cibernetice și învățați cum să vă protejați securitatea personală, profesională și națională împotriva amenințărilor cibernetice în continuă evoluție."
 genre: ["Înțelegerea principiilor de bază ale securității cibernetice", "Importanța securității cibernetice", "Protejarea informațiilor personale", "Protejarea datelor de afaceri", "Preocupări legate de securitatea națională", "Terminologie cheie în domeniul securității cibernetice", "Tipuri de atacuri cibernetice", "Cele mai bune practici în materie de securitate cibernetică", "Rolul criptării în securitatea cibernetică", "Securitatea cibernetică pentru întreprinderi"]
 tags: ["Securitatea cibernetică", "Bazele securității cibernetice", "Importanța securității cibernetice", "Protejarea informațiilor personale", "Protecția datelor de afaceri", "Securitatea națională", "Amenințări cibernetice", "Malware", "Phishing", "Ransomware", "Vulnerabilități", "Exploatează", "Atacuri de inginerie socială", "Atacuri cu parole", "Atacurile Man-in-the-Middle", "Atacuri DDoS", "Cele mai bune practici în materie de securitate cibernetică", "Parole puternice", "Actualizări de software", "Autentificarea cu mai mulți factori", "Terminologia securității cibernetice", "Tipuri de atacuri cibernetice", "Rolul criptării în securitatea cibernetică", "Tipuri de criptare", "Protecția datelor", "Planul de securitate cibernetică", "Formarea și conștientizarea angajaților", "Audituri regulate de securitate", "Amenințări cibernetice emergente", "Inteligența artificială în securitatea cibernetică"]
@@ -109,7 +110,7 @@ Multe servicii online, cum ar fi furnizorii de e-mail și platformele de sociali
 
 #### Obiceiuri de navigare în siguranță
 
-A fi precaut cu privire la site-urile web vizitate, la legăturile pe care se face clic și la informațiile partajate online poate ajuta la prevenirea [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) sau **site-uri web false** pentru a păcăli utilizatorii să dezvăluie informații sensibile sau să descarce programe malware.
+Prudența cu privire la site-urile vizitate, linkurile accesate și informațiile distribuite online poate ajuta la prevenirea [**atacurilor de inginerie socială**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) și a altor tipuri de **amenințări cibernetice**. Infractorii cibernetici folosesc adesea [**e-mailuri de phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) sau **site-uri web false** pentru a păcăli utilizatorii să dezvăluie informații sensibile sau să descarce programe malware.
 
 Se recomandă să vizitați numai site-uri web de încredere, să evitați să dați clic pe linkuri suspecte sau pe ferestre pop-up și să nu partajați niciodată informații personale sau financiare online decât dacă sunteți sigur că site-ul web este legitim.
 

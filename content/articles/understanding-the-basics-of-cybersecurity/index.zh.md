@@ -3,6 +3,7 @@ title: "了解网络安全基础知识"
 draft: false
 toc: true
 date: 2023-06-11
+lastmod: 2026-11-12
 description: "了解网络安全的重要性，学习如何保护个人、企业和国家安全，应对不断变化的网络威胁。"
 genre: ["了解网络安全基础知识", "网络安全的重要性", "保护个人信息", "保护业务数据", "国家安全问题", "关键网络安全术语", "网络攻击类型", "网络安全最佳做法", "加密在网络安全中的作用", "企业网络安全"]
 tags: ["网络安全", "网络安全基础知识", "网络安全的重要性", "保护个人信息", "商业数据保护", "国家安全", "网络威胁", "恶意软件", "网络钓鱼", "勒索软件", "脆弱性", "利用", "社会工程学攻击", "密码攻击", "中间人攻击", "DDoS 攻击", "网络安全最佳做法", "强密码", "软件更新", "多因素身份验证", "网络安全术语", "网络攻击类型", "加密在网络安全中的作用", "加密类型", "数据保护", "网络安全计划", "员工培训和认识", "定期安全审计", "新出现的网络威胁", "网络安全中的人工智能"]
@@ -109,7 +110,7 @@ coverAlt: "一个带有锁符号的盾牌，代表网络安全和防范网络威
 
 #### 安全浏览习惯
 
-谨慎对待访问的网站、点击的链接以及在线共享的信息，有助于防止以下情况发生 [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)或**虚假网站**，诱骗用户泄露敏感信息或下载恶意软件。
+谨慎选择访问的网站、点击的链接以及在线分享的信息，有助于防范[**社会工程攻击**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)及其他**网络威胁**。网络犯罪分子常利用[**钓鱼邮件**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)或**虚假网站**，诱骗用户泄露敏感信息或下载恶意软件。
 
 建议只访问值得信赖的网站，避免点击可疑链接或弹出窗口，除非确定网站合法，否则切勿在网上分享个人或财务信息。
 
