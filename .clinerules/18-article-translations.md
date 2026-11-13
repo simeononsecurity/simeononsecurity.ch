@@ -34,9 +34,10 @@
   and captions. Keep technical names accurate and use Gurmukhi for Punjabi.
 - Translate reader-facing `genre` and `tags` values while preserving array order
   and count. Retain product names, model identifiers, and other proper nouns where
-  translation would change the reference. Screen identical multiword source tag
-  and genre values in inline and block-style YAML lists for manual review, then
-  translate reader-facing taxonomy terms and record any proper-name exception.
+  translation would change the reference. Screen every identical source tag and
+  genre value, including single-word values, in inline and block-style YAML lists
+  for manual review. Translate reader-facing taxonomy terms and record any
+  proper-name exception.
 - Check false friends that change evidence-handling meaning. For example,
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private
@@ -84,6 +85,12 @@
 - Check bold and italic markup against the English source. Compare emphasis
   placement and verify paired markers line by line. A matching total marker
   count can still hide an unpaired delimiter in a translated line.
+- Treat source-level marker counts as insufficient. After rendering each changed
+  locale, inspect the generated article prose outside `pre` and `code` elements
+  for literal Markdown markers such as `**` or `__`. Any such marker in rendered
+  prose is a failed render check until reviewed and fixed. Compare the rendered
+  `<strong>` and `<em>` spans with the source meaning, then record this check per
+  locale in the review report.
 - Inspect emphasis boundaries in the target script. Do not split a word, compound,
   or grammatical particle with Markdown markers, and keep bold spans focused on
   a scannable term or phrase rather than a long sentence.
@@ -97,7 +104,9 @@
   Translate each descriptive link label in the sentence where it appears, and
   adjust nearby articles, prepositions, case, gender, number, and word order to
   fit the translated label. Read the complete sentence after each label change;
-  a translated label can still leave the sentence ungrammatical.
+  a translated label can still leave the sentence ungrammatical. Keep the link
+  inside the source-aligned sentence or list item; preserving its target and
+  order does not catch a link moved after the sentence it completes.
 - Before approval, screen every reader-facing segment in each locale file for
   English-copy leakage: front matter, headings, inline link labels, paragraphs,
   table cells, list items, captions, and alt text. Compare segments with the English source and
@@ -133,6 +142,9 @@
   evidence such as MAC/OUI records, hashes, and literal data values unchanged.
   These values are not English prose even inside a `text` fence. Exclude code,
   literal commands, and data-only examples from prose review.
+  Preserve literal runtime diagnostics and expected validation output exactly.
+  Translate explanatory labels or surrounding prose, but do not translate fixed
+  output such as a permission error or a required `PASS:` result.
   Compare individual lines inside `text` and `plaintext` fences as well as full
   examples. A localized sample can still contain copied English field labels or
   short instructions that a whole-block comparison misses. Translate those

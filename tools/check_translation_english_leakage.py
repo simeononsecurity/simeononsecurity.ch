@@ -167,7 +167,7 @@ def read_page(path: Path) -> tuple[dict, str]:
 
 
 def copied_english_taxonomy(source: dict, target: dict) -> dict[str, list[str]]:
-    """Find unchanged multiword genre or tag values for manual review."""
+    """Find unchanged genre or tag values for manual review."""
     copied: dict[str, list[str]] = {}
     for key in ("genre", "tags"):
         source_values = source.get(key, [])
@@ -178,7 +178,7 @@ def copied_english_taxonomy(source: dict, target: dict) -> dict[str, list[str]]:
         values = [
             value for value in source_values
             if isinstance(value, str)
-            and len(normalize(value).split()) >= 2
+            and normalize(value)
             and normalize(value) in target_normalized
         ]
         if values:
@@ -245,6 +245,9 @@ def copied_reader_fenced_lines(source: str, target: str) -> set[str]:
         for block in reader_fenced_prose(text):
             for line in block.splitlines():
                 stripped = line.strip().strip("`*_ ")
+                if re.match(r"^(?:PASS|FAIL|ERROR|WARN|INFO):\s", stripped, re.I):
+                    # Literal validation output is evidence, not reader prose.
+                    continue
                 mapping = re.split(r"\s*(?:->|→)\s*", stripped)
                 if len(mapping) > 1 and all(
                     re.fullmatch(r"[A-Za-z0-9_./-]+", part.strip())

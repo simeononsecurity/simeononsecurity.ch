@@ -33,13 +33,21 @@ class FencedProseTests(unittest.TestCase):
             ["Digital Safety", "Online Security"],
         )
 
-    def test_flags_identical_multiword_taxonomy_values_only(self):
+    def test_flags_identical_taxonomy_values_including_single_words(self):
         source = {"tags": ["Online Privacy", "Product X", "privacy tips"]}
         target = {"tags": ["Online Privacy", "Producto X", "consejos de privacidad"]}
 
         self.assertEqual(
             copied_english_taxonomy(source, target),
             {"tags": ["Online Privacy"]},
+        )
+
+        self.assertEqual(
+            copied_english_taxonomy(
+                {"tags": ["cybersecurity", "FISMA"]},
+                {"tags": ["cybersecurity", "FISMA"]},
+            ),
+            {"tags": ["FISMA", "cybersecurity"]},
         )
 
     def test_flags_copied_descriptive_headings_but_not_product_name_headings(self):
@@ -135,6 +143,11 @@ class FencedProseTests(unittest.TestCase):
         mapping = "```text\nREQ-17 -> requirement.json\nRUN-04 → runbook.md\n```"
 
         self.assertFalse(copied_reader_fenced_lines(mapping, mapping))
+
+    def test_ignores_literal_validation_output_in_reader_fences(self):
+        output = "```text\nPASS: consistency only, human approval remains required\n```"
+
+        self.assertFalse(copied_reader_fenced_lines(output, output))
 
     def test_finds_english_sentences_inside_translated_copy(self):
         source = "The reviewer should translate each sentence while preserving technical names and URLs."
