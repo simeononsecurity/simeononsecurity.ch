@@ -6,13 +6,30 @@ from pathlib import Path
 from check_translation_english_leakage import (
     copied_english_prose_spans,
     copied_english_link_labels,
+    copied_english_headings,
     copied_reader_fenced_examples,
+    prose_sentences_with_link_slots,
     reader_fenced_prose,
     visible_text,
 )
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_flags_copied_descriptive_headings_but_not_product_name_headings(self):
+        source = "## Be Wary of Public Wi-Fi\n\n## Visual Studio Code"
+        target = "## Be Wary of Public Wi-Fi\n\n## Visual Studio Code"
+
+        self.assertEqual(
+            copied_english_headings(source, target),
+            ["be wary of public wi fi"],
+        )
+
+    def test_ignores_heading_text_inside_code_fences(self):
+        source = "```text\n## Be Wary of Public Wi-Fi\n```"
+        target = "```text\n## Be Wary of Public Wi-Fi\n```"
+
+        self.assertEqual(copied_english_headings(source, target), [])
+
     def test_flags_two_word_descriptive_link_labels_but_not_single_word_names(self):
         source = (
             "[VPN service](https://example.com/vpn) "
@@ -68,6 +85,31 @@ class FencedProseTests(unittest.TestCase):
         target = "本文は翻訳済みです。 The reviewer should translate each sentence while preserving technical names and URLs."
 
         self.assertTrue(copied_english_prose_spans(source, target))
+
+    def test_finds_copied_english_sentence_around_retained_product_links(self):
+        source = (
+            "Opt for secure communication apps such as "
+            "[Signal](https://signal.org) or [Wire](https://wire.com)."
+        )
+        target = (
+            "Opt for secure communication apps such as "
+            "[Signal](https://signal.org) or [Wire](https://wire.com)."
+        )
+
+        self.assertEqual(
+            prose_sentences_with_link_slots(source),
+            prose_sentences_with_link_slots(target),
+        )
+        self.assertTrue(prose_sentences_with_link_slots(source))
+
+    def test_link_slots_do_not_flag_translated_surrounding_prose(self):
+        source = "Opt for secure communication apps such as [Signal](https://signal.org) or [Wire](https://wire.com)."
+        target = "Utilisez des applications de messagerie sécurisées comme [Signal](https://signal.org) ou [Wire](https://wire.com)."
+
+        self.assertNotEqual(
+            prose_sentences_with_link_slots(source),
+            prose_sentences_with_link_slots(target),
+        )
 
     def test_does_not_treat_unchanged_book_titles_as_copied_prose(self):
         source = "Read [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://example.com/book)."

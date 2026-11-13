@@ -171,6 +171,31 @@ def copied_english_link_labels(source: str, target: str) -> list[str]:
     return copied
 
 
+def markdown_headings(text: str) -> list[tuple[int, str]]:
+    """Return Markdown heading levels and normalized visible labels."""
+    text = re.sub(r"(?s)(`{3,}|~{3,}).*?\1", " ", text)
+    headings = []
+    for match in re.finditer(r"(?m)^\s{0,3}(#{1,6})[ \t]+(.+?)\s*#*\s*$", text):
+        label = re.sub(r"!?(?:\[([^\]]*)\]\([^)]*\))", r"\1", match.group(2))
+        headings.append((len(match.group(1)), normalize(label)))
+    return headings
+
+
+def copied_english_headings(source: str, target: str) -> list[str]:
+    """Find unchanged descriptive headings that remain in English."""
+    source_labels = {label for _, label in markdown_headings(source)}
+    copied = []
+    for _, label in markdown_headings(target):
+        words = label.split()
+        if (
+            label in source_labels
+            and len(words) >= 3
+            and any(word in ENGLISH_STOPWORDS for word in words)
+        ):
+            copied.append(label)
+    return sorted(set(copied))
+
+
 def prose_sentences(text: str) -> set[str]:
     """Return normalized reader-facing sentences outside code and markup."""
     visible = visible_text(text, include_link_labels=False)
@@ -178,6 +203,22 @@ def prose_sentences(text: str) -> set[str]:
         normalize(part)
         for part in re.split(r"(?<=[.!?])\s+|\n+", visible)
         if len(normalize(part).split()) >= 8
+    }
+
+
+def prose_sentences_with_link_slots(text: str) -> set[str]:
+    """Return sentences with inline links replaced by neutral slots.
+
+    This exposes copied English around retained product and organization links
+    without requiring their labels to be translated or counted as prose.
+    """
+    slotted = re.sub(r"!?\[([^\]]*)\]\([^)]+\)", " LINK_SLOT ", text)
+    visible = visible_text(slotted)
+    return {
+        normalize(part)
+        for part in re.split(r"(?<=[.!?])\s+|\n+", visible)
+        if len(normalize(part).split()) >= 5
+        and sum(word in ENGLISH_STOPWORDS for word in normalize(part).split()) >= 2
     }
 
 
@@ -270,11 +311,16 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         exact = sum(part in source_paragraphs for part in paragraphs)
         exact_ratio = exact / max(1, len(paragraphs))
         copied_sentences = sorted(prose_sentences(body) & source_sentences)
+        linked_source_sentences = prose_sentences_with_link_slots(source_body)
+        linked_target_sentences = prose_sentences_with_link_slots(body)
+        copied_sentences.extend(sorted(linked_source_sentences & linked_target_sentences))
+        copied_sentences = sorted(set(copied_sentences))
         copied_sentences = [
             sentence for sentence in copied_sentences
             if sum(word in ENGLISH_STOPWORDS for word in sentence.split()) >= 2
         ]
         copied_spans = copied_english_prose_spans(source_body, body)
+        copied_headings = copied_english_headings(source_body, body)
         ratio = script_ratio(prose, locale)
         reasons = []
         if misplaced:
@@ -296,6 +342,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("exact_English_sentences")
         if copied_spans:
             reasons.append("copied_English_prose_span")
+        if copied_headings:
+            reasons.append("English_reader_heading_copy")
         if len(tokens) >= 120 and english_ratio >= 0.22 and locale_ratio < 0.12:
             reasons.append("English_stopword_dominance")
         if ratio is not None and len(prose) > 500 and ratio < 0.08:
@@ -316,6 +364,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "exact_english_paragraphs": f"{exact}/{len(paragraphs)}",
                 "exact_english_sentences": " | ".join(copied_sentences),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
+                "copied_english_headings": " | ".join(copied_headings),
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_link_labels": " | ".join(copied_link_labels),
                 "note": "Screening flag. Review prose and metadata manually.",
@@ -353,7 +402,7 @@ def main() -> int:
         print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:
         args.csv.parent.mkdir(parents=True, exist_ok=True)
-        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "expected_script_ratio", "copied_link_labels", "note"]
+        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "copied_english_headings", "expected_script_ratio", "copied_link_labels", "note"]
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
             writer = csv.DictWriter(handle, fieldnames=fields)
             writer.writeheader()

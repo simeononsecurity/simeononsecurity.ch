@@ -92,12 +92,16 @@
 - Treat language detection as a screening check. English product names and link
   labels distort results on short technical pages. Inspect script usage and
   surrounding prose before replacing a translation flagged by a detector.
+  Translate each descriptive link label in the sentence where it appears, and
+  adjust nearby articles, prepositions, case, gender, number, and word order to
+  fit the translated label. Read the complete sentence after each label change;
+  a translated label can still leave the sentence ungrammatical.
 - Before approval, screen every reader-facing segment in each locale file for
   English-copy leakage: front matter, headings, inline link labels, paragraphs,
   table cells, list items, captions, and alt text. Compare segments with the English source and
-  flag unchanged multiword prose or prose a language detector identifies as
-  English. Exclude code, URLs, shortcode syntax, product names, and technical
-  identifiers from automatic findings. Also compare Markdown link labels by
+  flag unchanged multiword prose, descriptive headings, or prose a language
+  detector identifies as English. Exclude code, URLs, shortcode syntax, product
+  names, and technical identifiers from automatic findings. Also compare Markdown link labels by
   their unchanged target and order. Flag identical descriptive labels of two
   or more words for manual review, even when surrounding paragraph prose differs.
   Review each flag in context, then translate copied reader-facing prose before
@@ -106,6 +110,11 @@
   words as well as full paragraphs. A translated paragraph can still contain
   English clauses between localized text, so a low English-word ratio does not
   clear the paragraph.
+  For sentences containing inline links, compare the surrounding sentence with
+  each link replaced by a neutral placeholder. This catches copied English
+  prose whose remaining word count falls below the normal span threshold after
+  link labels are removed. Translate the sentence around product names while
+  preserving the names and their targets.
   Record which locales were screened and how each finding was resolved. File
   presence, script checks, and a detector score do not establish translated
   prose coverage.
@@ -134,6 +143,9 @@
 - Render a copied subset with the real Hugo templates for large multilingual
   batches. Verify expected output files exist, then inspect language metadata,
   article text, image paths, and structured data.
+  Hugo 0.169 does not accept `--resourceDir`. When a copied render needs an
+  isolated resource directory, set `resourceDir` in a task-scoped TOML overlay
+  and include that overlay after the locale config in `--config`.
 - Distinguish automated structural checks from native-speaker review. Translation
   work does not establish a new technical fact-check of the English source.
 
