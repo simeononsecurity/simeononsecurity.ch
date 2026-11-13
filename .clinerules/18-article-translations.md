@@ -92,6 +92,25 @@
 - Treat language detection as a screening check. English product names and link
   labels distort results on short technical pages. Inspect script usage and
   surrounding prose before replacing a translation flagged by a detector.
+- Before approval, screen every reader-facing segment in each locale file for
+  English-copy leakage: front matter, headings, paragraphs, table cells, list
+  items, captions, and alt text. Compare segments with the English source and
+  flag unchanged multiword prose or prose a language detector identifies as
+  English. Exclude code, URLs, shortcode syntax, product names, and technical
+  identifiers from automatic findings. Review each flag in context, then
+  translate any copied reader-facing prose before freezing the hash snapshot.
+  Record which locales were screened and how each finding was resolved. File
+  presence, script checks, and a detector score do not establish translated
+  prose coverage.
+- Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
+  for each finished bundle. For a repository audit, use
+  `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.
+  The checker flags empty bodies, repeated English source paragraphs, English
+  stopword dominance, missing expected scripts, and exact English reader
+  metadata. Treat each result as a manual-review queue. Inspect all reader-facing
+  metadata and prose, resolve confirmed English copy, and record any false
+  positives before peer review. Do not approve a bundle solely because the
+  checker returns no flags.
 - Scan the full translated prose for style violations. A filter requiring Latin
   letters skips paragraphs written entirely in another script.
 - Check Punjabi, Bengali, and Hindi for stray letters from other Indic scripts.
