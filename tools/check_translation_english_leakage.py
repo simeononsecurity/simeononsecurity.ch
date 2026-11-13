@@ -86,20 +86,102 @@ def read_page(path: Path) -> tuple[dict, str]:
     return metadata, match.group(2)
 
 
-def visible_text(text: str) -> str:
-    text = re.sub(r"(?s)```.*?```|~~~.*?~~~", " ", text)
+def visible_text(text: str, *, include_link_labels: bool = True) -> str:
+    # `text` and `plaintext` fences hold reader-facing samples such as prompts,
+    # forms, and dialogue. Keep those in the leakage screen. Exclude executable
+    # and other fenced content, which often contains literal English identifiers.
+    text = re.sub(
+        r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n(?P<body>.*?)(?:\n)?(?P=fence)",
+        lambda match: match.group("body")
+        if match.group("language").lower() in {"text", "plaintext"}
+        else " ",
+        text,
+    )
     text = re.sub(r"(?m)^\s*\{\{<.*?>\}\}\s*$", " ", text)
     text = re.sub(r"\{\{<.*?>\}\}", " ", text)
     text = re.sub(r"`[^`]*`", " ", text)
     text = re.sub(r"https?://[^\s)\]>]+", " ", text)
-    text = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    link_replacement = r"\1" if include_link_labels else " "
+    text = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", link_replacement, text)
     text = re.sub(r"<[^>]+>", " ", text)
     return text
+
+
+def reader_fenced_prose(text: str) -> list[str]:
+    """Return complete reader-facing `text`/`plaintext` fenced examples."""
+    return [
+        match.group("body").strip()
+        for match in re.finditer(
+            r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n(?P<body>.*?)(?:\n)?(?P=fence)",
+            text,
+        )
+        if match.group("language").lower() in {"text", "plaintext"}
+    ]
+
+
+def copied_reader_fenced_examples(source: str, target: str) -> set[str]:
+    """Find unchanged reader-facing fenced examples with enough prose to review."""
+    def has_english_prose(block: str) -> bool:
+        tokens = normalize(block).split()
+        return len(tokens) >= 8 and sum(token in ENGLISH_STOPWORDS for token in tokens) >= 2
+
+    source_blocks = {
+        normalize(block)
+        for block in reader_fenced_prose(source)
+        if has_english_prose(block)
+    }
+    target_blocks = {
+        normalize(block)
+        for block in reader_fenced_prose(target)
+        if has_english_prose(block)
+    }
+    return source_blocks & target_blocks
 
 
 def normalize(text: str) -> str:
     text = unicodedata.normalize("NFKC", text).lower()
     return " ".join(re.findall(r"\w+", text, flags=re.UNICODE))
+
+
+def markdown_links(text: str) -> list[tuple[str, str]]:
+    """Return reader-facing Markdown link labels and targets outside code."""
+    text = re.sub(r"(?s)```.*?```|~~~.*?~~~", " ", text)
+    text = re.sub(r"`[^`]*`", " ", text)
+    links = []
+    for match in re.finditer(r"(?<!!)\[([^\]]+)\]\(([^)\n]+)\)", text):
+        label = match.group(1).strip()
+        target = match.group(2).strip().split(maxsplit=1)[0].strip("<>")
+        links.append((label, target))
+    return links
+
+
+def prose_sentences(text: str) -> set[str]:
+    """Return normalized reader-facing sentences outside code and markup."""
+    visible = visible_text(text, include_link_labels=False)
+    return {
+        normalize(part)
+        for part in re.split(r"(?<=[.!?])\s+|\n+", visible)
+        if len(normalize(part).split()) >= 8
+    }
+
+
+def copied_english_prose_spans(source: str, target: str) -> set[str]:
+    """Find unchanged eight-word English spans inside otherwise translated text."""
+    def windows(text: str) -> set[tuple[str, ...]]:
+        result: set[tuple[str, ...]] = set()
+        # Link labels have their own comparison and often retain official book,
+        # product, or organization names. Do not count them as copied prose.
+        prose = visible_text(text, include_link_labels=False)
+        for sentence in re.split(r"(?<=[.!?])\s+|\n+", prose):
+            words = re.findall(r"[a-z]+(?:'[a-z]+)?", sentence.lower())
+            for start in range(max(0, len(words) - 7)):
+                span = tuple(words[start:start + 8])
+                if len(span) == 8 and sum(word in ENGLISH_STOPWORDS for word in span) >= 3:
+                    result.add(span)
+        return result
+
+    matches = windows(source) & windows(target)
+    return {" ".join(span) for span in matches}
 
 
 def script_ratio(text: str, locale: str) -> float | None:
@@ -135,6 +217,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         for part in re.split(r"\n\s*\n", visible_text(source_body))
         if len(normalize(part).split()) >= 12
     }
+    source_links = markdown_links(source_body)
+    source_sentences = prose_sentences(source_body)
     findings: list[dict[str, str]] = []
     for locale in locales:
         target = source.with_name(f"index.{locale}.md")
@@ -159,6 +243,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             misplaced = True
         metadata, body = read_page(target)
         prose = visible_text(body)
+        target_links = markdown_links(body)
         tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", prose.lower())
         english_ratio = sum(word in ENGLISH_STOPWORDS for word in tokens) / max(1, len(tokens))
         locale_words = LOCALE_STOPWORDS.get(locale, set())
@@ -170,6 +255,12 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         ]
         exact = sum(part in source_paragraphs for part in paragraphs)
         exact_ratio = exact / max(1, len(paragraphs))
+        copied_sentences = sorted(prose_sentences(body) & source_sentences)
+        copied_sentences = [
+            sentence for sentence in copied_sentences
+            if sum(word in ENGLISH_STOPWORDS for word in sentence.split()) >= 2
+        ]
+        copied_spans = copied_english_prose_spans(source_body, body)
         ratio = script_ratio(prose, locale)
         reasons = []
         if misplaced:
@@ -185,12 +276,31 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("empty_or_nearly_empty")
         if exact >= 3 and exact_ratio >= 0.35:
             reasons.append("many_exact_English_paragraphs")
+        if copied_reader_fenced_examples(source_body, body):
+            reasons.append("copied_reader_fenced_example")
+        if copied_sentences:
+            reasons.append("exact_English_sentences")
+        if copied_spans:
+            reasons.append("copied_English_prose_span")
         if len(tokens) >= 120 and english_ratio >= 0.22 and locale_ratio < 0.12:
             reasons.append("English_stopword_dominance")
         if ratio is not None and len(prose) > 500 and ratio < 0.08:
             reasons.append("expected_script_missing")
         if copied_metadata:
             reasons.append("English_reader_metadata_copy:" + ",".join(copied_metadata))
+        copied_link_labels = []
+        for source_link, target_link in zip(source_links, target_links):
+            source_label, source_target = source_link
+            target_label, target_target = target_link
+            normalized_label = normalize(source_label)
+            if (
+                source_target == target_target
+                and len(normalized_label.split()) >= 3
+                and normalized_label == normalize(target_label)
+            ):
+                copied_link_labels.append(f"{source_label} => {source_target}")
+        if copied_link_labels:
+            reasons.append("English_reader_link_label_copy")
         if reasons:
             findings.append({
                 "path": target.relative_to(ROOT).as_posix(),
@@ -200,7 +310,10 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "english_stopword_ratio": f"{english_ratio:.3f}",
                 "locale_stopword_ratio": f"{locale_ratio:.3f}",
                 "exact_english_paragraphs": f"{exact}/{len(paragraphs)}",
+                "exact_english_sentences": " | ".join(copied_sentences),
+                "copied_english_spans": " | ".join(sorted(copied_spans)),
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
+                "copied_link_labels": " | ".join(copied_link_labels),
                 "note": "Screening flag. Review prose and metadata manually.",
             })
     return findings
@@ -236,7 +349,7 @@ def main() -> int:
         print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:
         args.csv.parent.mkdir(parents=True, exist_ok=True)
-        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "expected_script_ratio", "note"]
+        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "expected_script_ratio", "copied_link_labels", "note"]
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
             writer = csv.DictWriter(handle, fieldnames=fields)
             writer.writeheader()

@@ -93,25 +93,37 @@
   labels distort results on short technical pages. Inspect script usage and
   surrounding prose before replacing a translation flagged by a detector.
 - Before approval, screen every reader-facing segment in each locale file for
-  English-copy leakage: front matter, headings, paragraphs, table cells, list
-  items, captions, and alt text. Compare segments with the English source and
+  English-copy leakage: front matter, headings, inline link labels, paragraphs,
+  table cells, list items, captions, and alt text. Compare segments with the English source and
   flag unchanged multiword prose or prose a language detector identifies as
   English. Exclude code, URLs, shortcode syntax, product names, and technical
-  identifiers from automatic findings. Review each flag in context, then
-  translate any copied reader-facing prose before freezing the hash snapshot.
+  identifiers from automatic findings. Also compare Markdown link labels by
+  their unchanged target and order. Flag identical descriptive labels of three
+  or more words for manual review, even when surrounding paragraph prose differs.
+  Review each flag in context, then translate copied reader-facing prose before
+  freezing the hash snapshot.
+  Compare sentence-sized segments and unchanged source spans of eight or more
+  words as well as full paragraphs. A translated paragraph can still contain
+  English clauses between localized text, so a low English-word ratio does not
+  clear the paragraph.
   Record which locales were screened and how each finding was resolved. File
   presence, script checks, and a detector score do not establish translated
   prose coverage.
-- Inspect fenced examples separately. A text template, form, or sample dialogue
-  remains reader-facing prose even when Markdown fences exclude it from the
-  checker. Translate labels and explanatory text inside those fences while
-  preserving placeholders and syntax. Exclude only code and literal commands.
+- Inspect fenced examples separately. A `text` or `plaintext` template, form, or
+  sample dialogue remains reader-facing prose. The leakage checker includes
+  these fence types and flags unchanged examples copied from English. It excludes
+  executable and other fenced code. Translate labels and explanatory text in
+  reader-facing fences while preserving placeholders and syntax. Keep structured
+  evidence such as MAC/OUI records, hashes, and literal data values unchanged.
+  These values are not English prose even inside a `text` fence. Exclude code,
+  literal commands, and data-only examples from prose review.
 - Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
   for each finished bundle. For a repository audit, use
   `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.
   The checker flags missing locale files, empty bodies, repeated English source
-  paragraphs, English stopword dominance, missing expected scripts, and exact
-  English reader metadata. Treat each result as a manual-review queue. Inspect
+  paragraphs, sentences, or unchanged eight-word source spans, English stopword
+  dominance, missing expected scripts, and exact English reader metadata. Treat
+  each result as a manual-review queue. Inspect
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
