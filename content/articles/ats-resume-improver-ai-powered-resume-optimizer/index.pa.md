@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver: ਮੁਫ਼ਤ AI-ਚਲਿਤ ਰਿਜ਼ਿਊਮੇ ਓਪਟੀਮਾਈਜ਼ਰ"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver ਮੁਫ਼ਤ, ਓਪਨ-ਸੋਰਸ ਅਤੇ ਕਲਾਇੰਟ-ਸਾਈਡ ਟੂਲ ਹੈ। ਇਹ ਕਲਾਉਡ ਜਾਂ ਸਥਾਨਕ ਮਾਡਲਾਂ ਨਾਲ ਰਿਜ਼ਿਊਮੇ ਦੀ ਜਾਂਚ, ਸਕੋਰਿੰਗ, ਮੇਲ, ਸੁਧਾਰ ਅਤੇ ਨਿਰਯਾਤ ਕਰਦਾ ਹੈ।"
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਚੱਲਣ ਵਾਲਾ ਓਪਨ-ਸੋਰਸ ਰਿਜ਼ਿਊਮੇ ਓਪਟੀਮਾਈਜ਼ਰ ਹੈ। ਇਹ ਤੁਹਾਡੇ ਰਿਜ਼ਿਊਮੇ ਦੀ ਨੌਕਰੀ ਦੇ ਵੇਰਵੇ ਨਾਲ ਤੁਲਨਾ ਕਰਦਾ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਤਜਰਬੇ ਤੇ applicant tracking systems (ATS) ਦੇ ਮੁਲਾਂਕਣ ਵਿਚਕਾਰਲਾ ਫ਼ਰਕ ਘਟਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। ਇਹ React 19, Vite ਅਤੇ TypeScript ਨਾਲ ਬਣਿਆ ਹੈ। **ਪਾਰਸਿੰਗ ਅਤੇ ਸਕੋਰਿੰਗ ਦੀ ਪੂਰੀ ਪ੍ਰਕਿਰਿਆ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਚੱਲਦੀ ਹੈ**, ਕੋਈ ਬੈਕਐਂਡ ਸਰਵਰ ਨਹੀਂ ਹੈ।
 
-ਸਰੋਤ ਕੋਡ **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)** ਉੱਤੇ ਹੈ। ਹੋਸਟ ਕੀਤਾ ਰੂਪ ਵਰਤੋ, Vercel, Netlify, Cloudflare ਜਾਂ GitHub Pages ਉੱਤੇ ਇੱਕ ਕਲਿੱਕ ਨਾਲ ਆਪਣੀ ਕਾਪੀ ਤੈਨਾਤ ਕਰੋ, ਜਾਂ Docker ਨਾਲ ਸਥਾਨਕ ਤੌਰ ਉੱਤੇ ਚਲਾਓ।
+ਸਰੋਤ ਕੋਡ **[GitHub ਉੱਤੇ ATS Resume Improver ਰਿਪੋਜ਼ਟਰੀ](https://github.com/simeononsecurity/ats-resume-improver)** ਉੱਤੇ ਹੈ। ਹੋਸਟ ਕੀਤਾ ਰੂਪ ਵਰਤੋ, Vercel, Netlify, Cloudflare ਜਾਂ GitHub Pages ਉੱਤੇ ਇੱਕ ਕਲਿੱਕ ਨਾਲ ਆਪਣੀ ਕਾਪੀ ਤੈਨਾਤ ਕਰੋ, ਜਾਂ Docker ਨਾਲ ਸਥਾਨਕ ਤੌਰ ਉੱਤੇ ਚਲਾਓ।
 
 ### ਇਹ ਕਿਹੜੀ ਗੋਪਨੀਯਤਾ ਸਮੱਸਿਆ ਹੱਲ ਕਰਦਾ ਹੈ
 
@@ -180,7 +180,7 @@ ______
 
 ### ਹੋਸਟ ਕੀਤਾ ਰੂਪ (ਸੈੱਟਅਪ ਦੀ ਲੋੜ ਨਹੀਂ)
 
-ਚੱਲਦੀ ਐਪ **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** ਉੱਤੇ ਵਰਤੋ। ਕੋਈ ਖਾਤਾ, ਸਾਈਨਅੱਪ ਜਾਂ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਨਹੀਂ ਚਾਹੀਦਾ।
+ਚੱਲਦੀ ਐਪ **[ATS Resume Improver ਦਾ ਲਾਈਵ ਸੰਸਕਰਣ](https://atsresumeimprover.netlify.app/)** ਉੱਤੇ ਵਰਤੋ। ਕੋਈ ਖਾਤਾ, ਸਾਈਨਅੱਪ ਜਾਂ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਨਹੀਂ ਚਾਹੀਦਾ।
 
 ### ਇੱਕ ਕਲਿੱਕ ਨਾਲ ਕਲਾਉਡ ਤੈਨਾਤੀ
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (ਦੁਹਰਾਏ ਜਾ ਸਕਣ ਵਾਲੇ ਮਾਹੌਲ ਲਈ ਸਿਫ਼ਾਰਸ਼ੀ)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# ਵਿਕਾਸ — http://localhost:5173 ਉੱਤੇ ਹੌਟ ਰੀਲੋਡ
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# ਪ੍ਰੋਡਕਸ਼ਨ — http://localhost:8080 ਉੱਤੇ nginx
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# ਵਿਕਾਸ ਅਤੇ Ollama ਇਕੱਠੇ (ਪੂਰਾ ਲੋਕਲ AI ਸਟੈਕ)
 make docker-dev-with-ollama
 ```
 
 ### Ollama ਦੀ ਪੂਰੀ ਆਫ਼ਲਾਈਨ ਸਟੈਕ
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Ollama ਕੰਟੇਨਰ ਸ਼ੁਰੂ ਕਰੋ (ਮਾਡਲ ਰੀਸਟਾਰਟ ਤੋਂ ਬਾਅਦ ਵੀ ਰਹਿੰਦੇ ਹਨ)
 make ollama
 
-# Pull a model
+# ਇੱਕ ਮਾਡਲ ਡਾਊਨਲੋਡ ਕਰੋ
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# ਡਿਵੈਲਪਮੈਂਟ ਐਪ ਅਤੇ Ollama ਇਕੱਠੇ ਸ਼ੁਰੂ ਕਰੋ
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** ਇੱਕ ਅਸਲ ਲੋੜ ਪੂਰੀ ਕਰਦਾ ਹੈ: ਕਿਸੇ ਹੋਰ ਨੂੰ ਤੁਹਾਡਾ ਡਾਟਾ ਦਿੱਤੇ ਬਿਨਾਂ ਰਿਜ਼ਿਊਮੇ ਦਾ ਗੰਭੀਰ ਵਿਸ਼ਲੇਸ਼ਣ। ਬਿਨਾਂ ਕੁੰਜੀ ਵਾਲਾ ਮੋਡ ਫਾਰਮੈਟਿੰਗ ਅਤੇ ਕੀਵਰਡ ਕਵਰੇਜ ਬਾਰੇ ਤੁਰੰਤ, ਕਾਰਵਾਈਯੋਗ ਸੁਝਾਅ ਦਿੰਦਾ ਹੈ। AI ਕੁੰਜੀ ਜੋੜਨ ਨਾਲ ਅਰਥ-ਅਧਾਰਿਤ ਤਰਕ, ਕਵਰ ਲੈਟਰ ਲਿਖਣ ਅਤੇ ਇੰਟਰਵਿਊ ਤਿਆਰੀ ਮਿਲਦੀ ਹੈ। ਹਰ ਵਿਸ਼ਲੇਸ਼ਣ ਦੀ ਲਾਗਤ ਕੁਝ ਸੈਂਟ ਹੈ ਜਾਂ Ollama ਨਾਲ ਪੂਰੀ ਤਰ੍ਹਾਂ ਮੁਫ਼ਤ।
 
-ਹੋਸਟ ਕੀਤਾ ਰੂਪ **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** ਉੱਤੇ ਹੈ। ਪੂਰਾ ਸਰੋਤ ਕੋਡ **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)** ਉੱਤੇ ਹੈ।
+ਹੋਸਟ ਕੀਤਾ ਰੂਪ **[ATS Resume Improver ਦਾ ਲਾਈਵ ਸੰਸਕਰਣ](https://atsresumeimprover.netlify.app/)** ਉੱਤੇ ਹੈ। ਪੂਰਾ ਸਰੋਤ ਕੋਡ **[GitHub ਉੱਤੇ ATS Resume Improver ਰਿਪੋਜ਼ਟਰੀ](https://github.com/simeononsecurity/ats-resume-improver)** ਉੱਤੇ ਹੈ।
 
 ਜੇ ਤੁਸੀਂ ਆਪਣੀ ਨੌਕਰੀ ਦੀ ਭਾਲ ਲਈ ਇਸਨੂੰ ਆਪ ਹੋਸਟ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖ਼ਾਸ ਉਦਯੋਗ ਲਈ ਸਕੋਰ ਭਾਰ ਅਤੇ ਪ੍ਰੌਂਪਟ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ Docker ਸੈੱਟਅਪ ਅਤੇ ਸਾਫ਼ ਪ੍ਰੋਜੈਕਟ ਬਣਤਰ ਇਸਨੂੰ fork ਕਰਨਾ ਤੇ ਢਾਲਣਾ ਸੌਖਾ ਕਰਦੇ ਹਨ।
 
@@ -353,10 +353,10 @@ ______
 
 ## ਹਵਾਲੇ
 
-1. [ATS Resume Improver — ਚੱਲਦਾ ਟੂਲ](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — GitHub ਰਿਪੋਜ਼ਟਰੀ](https://github.com/simeononsecurity/ats-resume-improver)
+1. [ਲਾਈਵ ਟੂਲ](https://atsresumeimprover.netlify.app/)
+2. [ਸਰੋਤ ਕੋਡ ਰਿਪੋਜ਼ਟਰੀ](https://github.com/simeononsecurity/ats-resume-improver)
 3. [ਰਿਜ਼ਿਊਮੇ ਸੁਝਾਅ — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — AI ਲਿਖਤ ਨੂੰ ਮਨੁੱਖੀ ਬਣਾਉਣ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਪ੍ਰੌਂਪਟ](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
 5. [OpenAI API ਦਸਤਾਵੇਜ਼](https://platform.openai.com/docs/)
-6. [Anthropic Claude ਦਸਤਾਵੇਜ਼](https://docs.anthropic.com/)
+6. [Anthropic Claude API ਦਸਤਾਵੇਜ਼](https://docs.anthropic.com/)
 7. [Ollama — ਸਥਾਨਕ LLM ਸਰਵਰ](https://ollama.com/)

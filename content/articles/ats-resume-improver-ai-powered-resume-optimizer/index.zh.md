@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver：免费的 AI 简历优化工具"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver 是一款免费的开源客户端工具，可借助云端或本地模型分析、评分、匹配、优化并导出简历。"
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** 是一款在浏览器中运行的开源简历优化工具。它会根据职位描述分析简历，帮助你缩小个人经历与申请人跟踪系统（ATS）评估标准之间的差距。该工具使用 React 19、Vite 和 TypeScript 构建。**解析和评分流程完全在浏览器中运行**，没有后端服务器。
 
-源代码位于 **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**。你可以使用托管版，也可以一键部署到 Vercel、Netlify、Cloudflare 或 GitHub Pages，或使用 Docker 在本地运行。
+源代码位于 **[GitHub 上的 ATS Resume Improver 仓库](https://github.com/simeononsecurity/ats-resume-improver)**。你可以使用托管版，也可以一键部署到 Vercel、Netlify、Cloudflare 或 GitHub Pages，或使用 Docker 在本地运行。
 
 ### 它解决的隐私问题
 
@@ -180,7 +180,7 @@ ______
 
 ### 托管版本（无需设置）
 
-访问正在运行的应用 **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**。无需账户、注册或信用卡。
+访问正在运行的应用 **[ATS Resume Improver 在线版](https://atsresumeimprover.netlify.app/)**。无需账户、注册或信用卡。
 
 ### 一键云部署
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker（推荐用于可复现环境）
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# 开发：在 http://localhost:5173 热重载
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# 生产环境：在 http://localhost:8080 使用 nginx
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# 开发与 Ollama 一起运行（完整的本地 AI 技术栈）
 make docker-dev-with-ollama
 ```
 
 ### 完全离线的 Ollama 技术栈
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# 启动 Ollama 容器（模型在重启后仍会保留）
 make ollama
 
-# Pull a model
+# 拉取模型
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# 同时启动开发应用和 Ollama
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** 填补了一个实际空白：认真分析简历，同时不把你的数据转交给任何人。无密钥模式会立即提供格式和关键词覆盖方面的实用反馈。添加 AI 密钥后，就能启用语义推理、求职信撰写和面试准备，每次分析只需几美分；使用 Ollama 则完全免费。
 
-托管版本位于 **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**。完整源代码位于 **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**。
+托管版本位于 **[ATS Resume Improver 在线版](https://atsresumeimprover.netlify.app/)**。完整源代码位于 **[GitHub 上的 ATS Resume Improver 仓库](https://github.com/simeononsecurity/ats-resume-improver)**。
 
 如果你要为自己的求职过程自行托管，或想针对某个行业调整评分权重和提示词，Docker 设置和清晰的项目结构会让 fork 和修改变得简单。
 
@@ -353,10 +353,10 @@ ______
 
 ## 参考资料
 
-1. [ATS Resume Improver — 在线工具](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — GitHub 仓库](https://github.com/simeononsecurity/ats-resume-improver)
+1. [在线工具](https://atsresumeimprover.netlify.app/)
+2. [源代码仓库](https://github.com/simeononsecurity/ats-resume-improver)
 3. [简历技巧 — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — 让 AI 写作更自然的最佳提示词](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
 5. [OpenAI API 文档](https://platform.openai.com/docs/)
-6. [Anthropic Claude 文档](https://docs.anthropic.com/)
+6. [Anthropic Claude API 文档](https://docs.anthropic.com/)
 7. [Ollama — 本地 LLM 服务器](https://ollama.com/)

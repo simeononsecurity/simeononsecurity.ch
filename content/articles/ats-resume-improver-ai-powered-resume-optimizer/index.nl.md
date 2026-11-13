@@ -1,12 +1,12 @@
 ---
 title: "ATS Resume Improver: gratis AI-gestuurde cv-optimalisatie"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver is een gratis, open-source cv-optimalisatietool. Zonder AI-sleutel wordt de tekst in je browser verwerkt. Met OpenAI of Anthropic gaan cv- en vacatureteksten rechtstreeks naar de aanbieder. Ollama kan lokaal draaien."
 genre: ["Loopbaantools", "Open-sourceprojecten", "Kunstmatige intelligentie", "Privacytechnologie", "Ontwikkelaarstools", "Banen zoeken", "Productiviteit"]
-tags: ["ATS Resume Improver", "ATS-optimalisatie", "cv-scanner", "AI-cv", "OpenAI-cv", "Claude-cv", "Ollama lokale AI", "zelf hosten", "privacy eerst", "hulpmiddelen voor zoeken naar werk", "analyse van zoekwoordhiaten", "sollicitatiebrief", "cv-score", "React", "TypeScript", "Docker", "Vite", "open source", "PDF-export", "DOCX-export", "cv-parser", "loopbaantools", "sollicitatiegesprek voorbereiden", "salarisschatting", "cv-type detecteren", "ATS-score", "gratis cv-tool", "GitHub", "geen gegevensverzameling"]
+tags: ["ATS Resume Improver", "ATS-optimalisatie", "cv-scanner", "AI-cv", "OpenAI-cv", "Claude-cv", "Ollama lokale AI", "zelf hosten", "privacy eerst", "hulpmiddelen voor zoeken naar werk", "analyse van zoekwoordhiaten", "sollicitatiebrief", "cv-score", "React", "TypeScript", "Docker", "Vite", "openbronsoftware", "PDF-uitvoer", "DOCX-uitvoer", "cv-parser", "loopbaantools", "sollicitatiegesprek voorbereiden", "salarisschatting", "cv-type detecteren", "ATS-beoordeling", "gratis cv-tool", "GitHub", "geen gegevensverzameling"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"
 coverAlt: "Een moderne laptop op een bureau toont een kleurrijke interface voor cv-optimalisatie met grafieken, tegen een diepblauwe achtergrond."
 coverCaption: "ATS Resume Improver analyseert en optimaliseert cv's volledig in de browser, zonder gegevens te verzamelen."
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** is een open-source cv-optimalisatieprogramma in je browser. Het analyseert je cv aan de hand van een vacature en helpt je de kloof te dichten tussen je huidige cv en wat applicant tracking systems (ATS) beoordelen. Het is gebouwd met React 19, Vite en TypeScript. De volledige **verwerkings- en scoreketen draait in je browser**, zonder backendserver.
 
-De broncode staat op **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Je kunt de gehoste versie gebruiken, de app met één klik op Vercel/Netlify/Cloudflare/GitHub Pages publiceren of lokaal met Docker starten.
+De broncode staat op **[GitHub-repository van ATS Resume Improver](https://github.com/simeononsecurity/ats-resume-improver)**. Je kunt de gehoste versie gebruiken, de app met één klik op Vercel/Netlify/Cloudflare/GitHub Pages publiceren of lokaal met Docker starten.
 
 ### Het privacyprobleem dat het oplost
 
@@ -106,7 +106,7 @@ Alle AI-aanroepen bevatten prompts voor ATS-aanbevelingen op basis van richtlijn
 
 ### OpenAI
 
-| Model | Geschikt voor |
+| Modelnaam | Geschikt voor |
 |-------|----------|
 | **GPT-4.1 mini** (standaard) | Slim en betaalbaar, snelle keuze aanbevolen |
 | GPT-4o mini | Klassiek snel en betaalbaar model |
@@ -119,7 +119,7 @@ Alle AI-aanroepen bevatten prompts voor ATS-aanbevelingen op basis van richtlijn
 
 ### Anthropic Claude
 
-| Model | Geschikt voor |
+| Modelnaam | Geschikt voor |
 |-------|----------|
 | **Claude Sonnet 4.5** (standaard) | Snel en intelligent, aanbevolen |
 | Claude Opus 4.5 | Meest capabel, goed voor complexe taken |
@@ -131,12 +131,12 @@ Alle AI-aanroepen bevatten prompts voor ATS-aanbevelingen op basis van richtlijn
 
 Je hebt geen API-sleutel nodig. Voer het model uit op je eigen hardware. Stel `OLLAMA_ORIGINS=*` in om browsertoegang toe te staan.
 
-| Model | Opmerkingen |
+| Modelnaam | Opmerkingen |
 |-------|-------|
 | **Llama 3.3** (standaard) | Nieuwste Meta Llama, aanbevolen |
 | Llama 3.2 | Meta Llama 3.2 |
 | Mistral 7B | Snel en capabel |
-| Mixtral 8x7B | Mixture of experts |
+| Mixtral 8x7B | Mengsel van experts |
 | Qwen 2.5 | Alibaba Qwen 2.5 |
 | DeepSeek R1 | Sterk redeneermodel |
 | Phi-4 | Microsoft Phi-4 |
@@ -180,7 +180,7 @@ ______
 
 ### Gehoste versie (geen installatie)
 
-Gebruik de live app op **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Je hebt geen account, aanmelding of creditcard nodig.
+Gebruik de live app op **[liveversie van ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. Je hebt geen account, aanmelding of creditcard nodig.
 
 ### Clouddeployment met één klik
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (aanbevolen voor reproduceerbare omgevingen)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# Ontwikkeling: hot reload op http://localhost:5173
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# Productie: nginx op http://localhost:8080
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# Ontwikkeling en Ollama samen (volledige lokale AI-stack)
 make docker-dev-with-ollama
 ```
 
 ### Volledig offline met Ollama
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Ollama-container starten (modellen blijven na herstarts behouden)
 make ollama
 
-# Pull a model
+# Een model ophalen
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# Ontwikkelapp en Ollama naast elkaar starten
 make docker-dev-with-ollama
 ```
 
@@ -244,7 +244,7 @@ ______
 | **PDF-export** | jsPDF |
 | **DOCX-export** | docx (Packer.toBlob) |
 | **AI** | OpenAI · Anthropic Claude · Ollama |
-| **Container** | Docker + nginx (multi-stage) + Ollama-service |
+| **Container** | Docker + nginx (meerfasig) + Ollama-dienst |
 
 De volledige score- en verwerkingsketen (`atsAnalyzer.ts`, `keywordMatcher.ts`, `resumeTypeDetector.ts`) draait in de browser. Alle AI-integraties in `aiProvider.ts` roepen de API's van providers rechtstreeks vanuit de client aan. Er is geen proxyserver.
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** vult een echte leemte: serieuze cv-analyse zonder je gegevens via een tussenpartij te laten lopen. De modus zonder sleutel geeft direct bruikbare feedback over opmaak en zoekwoorddekking. Met een AI-sleutel komen daar semantische analyse, sollicitatiebrieven en voorbereiding op sollicitatiegesprekken bij. Dat kost enkele centen per analyse of is helemaal gratis met Ollama.
 
-De gehoste versie staat op **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. De volledige broncode staat op **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+De gehoste versie staat op **[liveversie van ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. De volledige broncode staat op **[GitHub-repository van ATS Resume Improver](https://github.com/simeononsecurity/ats-resume-improver)**.
 
 Als je de tool zelf host voor je zoektocht naar werk of de scores en prompts voor een bepaalde sector wilt aanpassen, zijn de Docker-configuratie en heldere projectstructuur eenvoudig aan te passen.
 
@@ -353,10 +353,10 @@ ______
 
 ## Bronnen
 
-1. [ATS Resume Improver — live tool](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — GitHub-repository](https://github.com/simeononsecurity/ats-resume-improver)
+1. [live tool](https://atsresumeimprover.netlify.app/)
+2. [broncode-repository](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Cv-tips — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — beste AI-prompt om AI-tekst menselijker te maken](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
 5. [OpenAI API-documentatie](https://platform.openai.com/docs/)
-6. [Anthropic Claude API-documentatie](https://docs.anthropic.com/)
+6. [documentatie van de Anthropic Claude API](https://docs.anthropic.com/)
 7. [Ollama — lokale LLM-server](https://ollama.com/)

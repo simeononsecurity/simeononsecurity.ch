@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver: أداة مجانية لتحسين السيرة الذاتية بالذكاء الاصطناعي"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver أداة مجانية مفتوحة المصدر تعمل في المتصفح لتحليل السير الذاتية وتقييمها ومطابقتها وتحسينها وتصديرها باستخدام نماذج سحابية أو محلية."
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** أداة مفتوحة المصدر لتحسين السير الذاتية تعمل في المتصفح. تحلل سيرتك الذاتية مقابل وصف وظيفة وتساعدك على سد الفجوة بين مؤهلاتك وما تقيمه أنظمة تتبع المتقدمين (ATS). بُنيت باستخدام React 19 وVite وTypeScript. تعمل **أنابيب التحليل والتقييم كاملة داخل المتصفح** من دون خادم خلفي.
 
-يوجد المصدر في **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. يمكنك استخدام النسخة المستضافة أو نشر نسختك على Vercel/Netlify/Cloudflare/GitHub Pages بنقرة واحدة أو تشغيلها محلياً باستخدام Docker.
+يوجد المصدر في **[مستودع ATS Resume Improver على GitHub](https://github.com/simeononsecurity/ats-resume-improver)**. يمكنك استخدام النسخة المستضافة أو نشر نسختك على Vercel/Netlify/Cloudflare/GitHub Pages بنقرة واحدة أو تشغيلها محلياً باستخدام Docker.
 
 ### مشكلة الخصوصية التي تحلها
 
@@ -180,7 +180,7 @@ ______
 
 ### النسخة المستضافة (من دون إعداد)
 
-استخدم التطبيق المتاح على **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. لا يلزم حساب أو تسجيل أو بطاقة ائتمان.
+استخدم التطبيق المتاح على **[نسخة ATS Resume Improver المباشرة](https://atsresumeimprover.netlify.app/)**. لا يلزم حساب أو تسجيل أو بطاقة ائتمان.
 
 ### النشر السحابي بنقرة واحدة
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (موصى به للبيئات القابلة لإعادة الإنتاج)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# التطوير — إعادة تحميل فورية على http://localhost:5173
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# الإنتاج — nginx على http://localhost:8080
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# تشغيل التطوير وOllama معاً (بيئة ذكاء اصطناعي محلية متكاملة)
 make docker-dev-with-ollama
 ```
 
 ### مجموعة Ollama للعمل دون اتصال بالكامل
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# بدء حاوية Ollama (تحفظ النماذج بين عمليات إعادة التشغيل)
 make ollama
 
-# Pull a model
+# تنزيل نموذج
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# تشغيل تطبيق التطوير وOllama جنباً إلى جنب
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 يسد **ATS Resume Improver** فجوة فعلية: فهو يوفر تحليلاً جاداً للسيرة الذاتية من دون تمرير بياناتك إلى جهة وسيطة. يقدم وضع عدم استخدام المفتاح ملاحظات فورية قابلة للتطبيق عن التنسيق وتغطية الكلمات المفتاحية. وتضيف إضافة مفتاح الذكاء الاصطناعي الاستدلال الدلالي وكتابة رسائل التقديم والاستعداد للمقابلات، مقابل سنتات قليلة لكل تحليل أو مجاناً بالكامل مع Ollama.
 
-النسخة المستضافة متاحة على **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. والمصدر الكامل على **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+النسخة المستضافة متاحة على **[نسخة ATS Resume Improver المباشرة](https://atsresumeimprover.netlify.app/)**. والمصدر الكامل على **[مستودع ATS Resume Improver على GitHub](https://github.com/simeononsecurity/ats-resume-improver)**.
 
 إذا كنت تستضيف الأداة للبحث عن وظيفة أو تريد تخصيص أوزان التقييم والمطالبات لقطاع معين، فإن إعداد Docker وبنية المشروع الواضحة يسهّلان إنشاء نسخة معدلة وتكييفها.
 
@@ -353,10 +353,10 @@ ______
 
 ## المراجع
 
-1. [ATS Resume Improver — الأداة المباشرة](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — مستودع GitHub](https://github.com/simeononsecurity/ats-resume-improver)
+1. [الأداة المباشرة](https://atsresumeimprover.netlify.app/)
+2. [مستودع الشيفرة المصدرية](https://github.com/simeononsecurity/ats-resume-improver)
 3. [نصائح السيرة الذاتية — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — أفضل مطالبة لجعل النص الآلي طبيعياً](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [توثيق API لـ OpenAI](https://platform.openai.com/docs/)
-6. [توثيق API لـ Anthropic Claude](https://docs.anthropic.com/)
+5. [توثيق OpenAI API](https://platform.openai.com/docs/)
+6. [توثيق Anthropic Claude API](https://docs.anthropic.com/)
 7. [Ollama — خادم LLM محلي](https://ollama.com/)

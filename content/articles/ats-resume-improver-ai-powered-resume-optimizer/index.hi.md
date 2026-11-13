@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver: मुफ़्त AI-संचालित रिज़्यूमे ऑप्टिमाइज़र"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver एक मुफ़्त, ओपन-सोर्स क्लाइंट-साइड टूल है। यह क्लाउड या स्थानीय मॉडल से रिज़्यूमे का विश्लेषण, स्कोर, मिलान, अनुकूलन और निर्यात करता है।"
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** ब्राउज़र में चलने वाला ओपन-सोर्स रिज़्यूमे ऑप्टिमाइज़र है। यह आपके रिज़्यूमे का नौकरी के विवरण से विश्लेषण करता है और आपके अनुभव तथा applicant tracking systems (ATS) के मूल्यांकन के बीच की कमी भरने में मदद करता है। इसे React 19, Vite और TypeScript से बनाया गया है। पूरा **पार्सिंग और स्कोरिंग क्रम ब्राउज़र के भीतर चलता है**, कोई backend server नहीं है।
 
-सोर्स कोड **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)** पर है। होस्ट किया हुआ संस्करण इस्तेमाल करें, एक क्लिक में Vercel/Netlify/Cloudflare/GitHub Pages पर अपना संस्करण तैनात करें, या Docker से स्थानीय रूप से चलाएँ।
+सोर्स कोड **[GitHub पर ATS Resume Improver का रिपॉज़िटरी](https://github.com/simeononsecurity/ats-resume-improver)** पर है। होस्ट किया हुआ संस्करण इस्तेमाल करें, एक क्लिक में Vercel/Netlify/Cloudflare/GitHub Pages पर अपना संस्करण तैनात करें, या Docker से स्थानीय रूप से चलाएँ।
 
 ### यह किस गोपनीयता समस्या को हल करता है
 
@@ -180,7 +180,7 @@ ______
 
 ### होस्टेड संस्करण (सेटअप नहीं)
 
-**[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** पर live app इस्तेमाल करें। अकाउंट, signup या credit card नहीं चाहिए।
+**[ATS Resume Improver का लाइव संस्करण](https://atsresumeimprover.netlify.app/)** पर live app इस्तेमाल करें। अकाउंट, signup या credit card नहीं चाहिए।
 
 ### एक क्लिक में cloud deploy
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (दोहराने योग्य परिवेश के लिए सुझाया गया)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# डेवलपमेंट — http://localhost:5173 पर हॉट रीलोड
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# प्रोडक्शन — http://localhost:8080 पर nginx
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# डेवलपमेंट और Ollama साथ में (पूरा लोकल AI स्टैक)
 make docker-dev-with-ollama
 ```
 
 ### Ollama का पूरी तरह ऑफ़लाइन stack
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Ollama कंटेनर शुरू करें (रीस्टार्ट के बाद भी मॉडल सुरक्षित रहते हैं)
 make ollama
 
-# Pull a model
+# मॉडल डाउनलोड करें
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# डेवलपमेंट ऐप और Ollama साथ-साथ शुरू करें
 make docker-dev-with-ollama
 ```
 
@@ -244,7 +244,7 @@ ______
 | **PDF export** | jsPDF |
 | **DOCX export** | docx (Packer.toBlob) |
 | **AI** | OpenAI · Anthropic Claude · Ollama |
-| **Container** | Docker + nginx (multi-stage) + Ollama service |
+| **Container** | Docker + nginx (बहु-चरणीय) + Ollama सेवा |
 
 पूरा स्कोरिंग और parsing क्रम (`atsAnalyzer.ts`, `keywordMatcher.ts`, `resumeTypeDetector.ts`) ब्राउज़र में चलता है। `aiProvider.ts` के AI integration सीधे client से provider API call करते हैं। कोई proxy server नहीं है।
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** एक वास्तविक कमी पूरी करता है: आपका डेटा किसी मध्यस्थ को दिए बिना गंभीर रिज़्यूमे विश्लेषण। बिना key का मोड फ़ॉर्मेटिंग और कीवर्ड कवरेज पर तुरंत उपयोगी प्रतिक्रिया देता है। AI key जोड़ने पर अर्थगत तर्क, कवर लेटर लेखन और इंटरव्यू तैयारी मिलती है। हर विश्लेषण में कुछ पैसे लगते हैं या Ollama के साथ पूरी तरह मुफ़्त है।
 
-Live hosted संस्करण **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** पर है। पूरा source **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)** पर है।
+Live hosted संस्करण **[ATS Resume Improver का लाइव संस्करण](https://atsresumeimprover.netlify.app/)** पर है। पूरा source **[GitHub पर ATS Resume Improver का रिपॉज़िटरी](https://github.com/simeononsecurity/ats-resume-improver)** पर है।
 
 अपनी नौकरी खोज के लिए स्वयं होस्ट करें या किसी उद्योग के लिए स्कोर भार और prompt बदलना चाहें, तो Docker सेटअप और साफ़ परियोजना संरचना fork करके अनुकूलित करना आसान बनाती है।
 
@@ -353,10 +353,10 @@ ______
 
 ## संदर्भ
 
-1. [ATS Resume Improver — लाइव टूल](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — GitHub repository](https://github.com/simeononsecurity/ats-resume-improver)
+1. [लाइव टूल](https://atsresumeimprover.netlify.app/)
+2. [सोर्स कोड रिपॉज़िटरी](https://github.com/simeononsecurity/ats-resume-improver)
 3. [रिज़्यूमे सुझाव — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — AI लेखन को स्वाभाविक बनाने का बेहतरीन prompt](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [OpenAI API documentation](https://platform.openai.com/docs/)
-6. [Anthropic Claude API documentation](https://docs.anthropic.com/)
+5. [OpenAI API दस्तावेज़](https://platform.openai.com/docs/)
+6. [Anthropic Claude API दस्तावेज़](https://docs.anthropic.com/)
 7. [Ollama — स्थानीय LLM server](https://ollama.com/)

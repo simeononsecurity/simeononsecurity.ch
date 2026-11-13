@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver: бесплатная оптимизация резюме с ИИ"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver — бесплатный инструмент с открытым исходным кодом, который работает в браузере и анализирует, оценивает, сопоставляет, оптимизирует и экспортирует резюме с помощью облачных или локальных моделей."
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** — это браузерный оптимизатор резюме с открытым исходным кодом. Он сравнивает резюме с описанием вакансии и помогает устранить разрыв между вашим опытом и тем, что оценивают системы отслеживания кандидатов (ATS). Инструмент создан на React 19, Vite и TypeScript. Весь **процесс разбора и оценки выполняется в браузере**, серверная часть не нужна.
 
-Исходный код находится на **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Используйте размещённую версию, разверните свою на Vercel/Netlify/Cloudflare/GitHub Pages одним нажатием или запустите локально в Docker.
+Исходный код находится на **[репозиторий ATS Resume Improver на GitHub](https://github.com/simeononsecurity/ats-resume-improver)**. Используйте размещённую версию, разверните свою на Vercel/Netlify/Cloudflare/GitHub Pages одним нажатием или запустите локально в Docker.
 
 ### Какой риск для конфиденциальности устраняется
 
@@ -180,7 +180,7 @@ ______
 
 ### Размещённая версия (без настройки)
 
-Используйте приложение по адресу **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Учётная запись, регистрация и банковская карта не нужны.
+Используйте приложение по адресу **[онлайн-версия ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. Учётная запись, регистрация и банковская карта не нужны.
 
 ### Развёртывание в облаке одним нажатием
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (рекомендуется для воспроизводимой среды)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# Разработка: горячая перезагрузка на http://localhost:5173
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# Продакшен: nginx на http://localhost:8080
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# Разработка и Ollama вместе (полный локальный стек ИИ)
 make docker-dev-with-ollama
 ```
 
 ### Полностью автономный стек Ollama
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Запустить контейнер Ollama (модели сохраняются после перезапуска)
 make ollama
 
-# Pull a model
+# Загрузить модель
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# Запустить приложение и Ollama одновременно
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** закрывает реальную потребность: серьёзный анализ резюме без передачи данных посредникам. Режим без ключа сразу даёт полезные замечания по форматированию и покрытию ключевых слов. Ключ ИИ добавляет семантический анализ, написание сопроводительных писем и подготовку к собеседованию. Каждая проверка стоит несколько центов или полностью бесплатна с Ollama.
 
-Размещённая версия доступна на **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Полный исходный код находится на **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+Размещённая версия доступна на **[онлайн-версия ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. Полный исходный код находится на **[репозиторий ATS Resume Improver на GitHub](https://github.com/simeononsecurity/ats-resume-improver)**.
 
 Если вы размещаете инструмент для собственного поиска работы или хотите настроить веса оценки и промпты под отрасль, конфигурация Docker и ясная структура проекта упрощают создание форка и адаптацию.
 
@@ -353,10 +353,10 @@ ______
 
 ## Источники
 
-1. [ATS Resume Improver — рабочий инструмент](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — репозиторий GitHub](https://github.com/simeononsecurity/ats-resume-improver)
+1. [онлайн-инструмент](https://atsresumeimprover.netlify.app/)
+2. [репозиторий исходного кода](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Советы по резюме — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Сабрина Рамонов — лучший промпт ИИ для естественного текста](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [Документация API OpenAI](https://platform.openai.com/docs/)
-6. [Документация API Anthropic Claude](https://docs.anthropic.com/)
+5. [документация API OpenAI](https://platform.openai.com/docs/)
+6. [документация API Anthropic Claude](https://docs.anthropic.com/)
 7. [Ollama — локальный сервер LLM](https://ollama.com/)

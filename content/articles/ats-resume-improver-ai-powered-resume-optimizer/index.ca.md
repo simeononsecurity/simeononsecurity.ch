@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver: optimitzador de currículums amb IA gratuït"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver és una eina gratuïta, de codi obert i executada al client per analitzar, puntuar, comparar, optimitzar i exportar currículums amb models al núvol o locals."
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** és un optimitzador de currículums que funciona al navegador. Analitza el teu currículum en relació amb la descripció d'una oferta de feina i t'ajuda a reduir la diferència entre la teva experiència i els criteris dels sistemes de seguiment de candidats (ATS). Està fet amb React 19, Vite i TypeScript. **Tot el procés d'anàlisi i puntuació funciona al navegador**, sense servidor de backend.
 
-El codi font és a **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Fes servir la versió allotjada, desplega la teva còpia amb un sol clic a Vercel, Netlify, Cloudflare o GitHub Pages, o executa-la localment amb Docker.
+El codi font és a **[repositori d’ATS Resume Improver a GitHub](https://github.com/simeononsecurity/ats-resume-improver)**. Fes servir la versió allotjada, desplega la teva còpia amb un sol clic a Vercel, Netlify, Cloudflare o GitHub Pages, o executa-la localment amb Docker.
 
 ### Quin problema de privadesa resol
 
@@ -29,7 +29,7 @@ La majoria de serveis d'optimització de currículums els pugen als seus servido
 |------|------------------------|
 | **Sense clau d'IA** | Cap. Tot funciona localment al navegador. |
 | **OpenAI / Anthropic** | El text del currículum i la descripció de l'oferta van directament a l'API del proveïdor d'IA amb la teva clau. No hi ha cap servidor intermedi. |
-| **Ollama (local)** | Cap. El model funciona al teu ordinador. |
+| **Ollama (al teu ordinador)** | Cap. El model funciona al teu ordinador. |
 
 **Les claus API només es conserven a la memòria** i desapareixen quan tanques la pestanya. No hi ha analítica, seguiment ni galetes.
 
@@ -106,7 +106,7 @@ Totes les crides a la IA inclouen instruccions de bones pràctiques d'ATS deriva
 
 ### OpenAI
 
-| Model | Adequat per a |
+| Nom del model | Adequat per a |
 |-------|----------|
 | **GPT-4.1 mini** (per defecte) | Intel·ligent, ràpid i assequible. Recomanat. |
 | GPT-4o mini | L'opció clàssica, ràpida i assequible |
@@ -119,7 +119,7 @@ Totes les crides a la IA inclouen instruccions de bones pràctiques d'ATS deriva
 
 ### Anthropic Claude
 
-| Model | Adequat per a |
+| Nom del model | Adequat per a |
 |-------|----------|
 | **Claude Sonnet 4.5** (per defecte) | Ràpid i intel·ligent. Recomanat. |
 | Claude Opus 4.5 | El més capaç, per a tasques complexes |
@@ -131,7 +131,7 @@ Totes les crides a la IA inclouen instruccions de bones pràctiques d'ATS deriva
 
 No cal cap clau API. Executa el model al teu propi maquinari. Defineix `OLLAMA_ORIGINS=*` per permetre l'accés del navegador.
 
-| Model | Notes |
+| Nom del model | Notes |
 |-------|-------|
 | **Llama 3.3** (per defecte) | L'últim model de Meta. Recomanat. |
 | Llama 3.2 | Model de Meta |
@@ -180,7 +180,7 @@ ______
 
 ### Versió allotjada (sense configuració)
 
-Fes servir l'aplicació activa a **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. No cal cap compte, registre ni targeta de crèdit.
+Fes servir l'aplicació activa a **[versió en línia d’ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. No cal cap compte, registre ni targeta de crèdit.
 
 ### Desplegament al núvol amb un clic
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (recomanat per a entorns reproduïbles)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# Desenvolupament: recàrrega en calent a http://localhost:5173
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# Producció: nginx a http://localhost:8080
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# Desenvolupament i Ollama junts (pila d’IA local completa)
 make docker-dev-with-ollama
 ```
 
 ### Pila Ollama completament fora de línia
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Inicia el contenidor d’Ollama (conserva els models entre reinicis)
 make ollama
 
-# Pull a model
+# Baixa un model
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# Inicia l’aplicació de desenvolupament i Ollama alhora
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** resol una necessitat real: ofereix una anàlisi completa del currículum sense cedir les teves dades a ningú. El mode sense clau proporciona comentaris immediats i pràctics sobre el format i la cobertura de paraules clau. Si hi afegeixes una clau d'IA, obtens raonament semàntic, redacció de cartes de presentació i preparació d'entrevistes per cèntims per anàlisi, o sense cost amb Ollama.
 
-La versió allotjada és a **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Tot el codi font és a **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+La versió allotjada és a **[versió en línia d’ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. Tot el codi font és a **[repositori d’ATS Resume Improver a GitHub](https://github.com/simeononsecurity/ats-resume-improver)**.
 
 Si l'allotges per a la teva pròpia cerca de feina o vols personalitzar els pesos de puntuació i les instruccions per a un sector concret, la configuració de Docker i l'estructura clara del projecte faciliten fer-ne un fork i adaptar-lo.
 
@@ -353,10 +353,10 @@ ______
 
 ## Referències
 
-1. [ATS Resume Improver — eina en línia](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — repositori GitHub](https://github.com/simeononsecurity/ats-resume-improver)
+1. [eina en línia](https://atsresumeimprover.netlify.app/)
+2. [repositori del codi font](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Consells per a currículums — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — millor prompt d'IA per naturalitzar l'escriptura](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [Documentació de l'API d'OpenAI](https://platform.openai.com/docs/)
-6. [Documentació d'Anthropic Claude](https://docs.anthropic.com/)
+5. [documentació de l’API d’OpenAI](https://platform.openai.com/docs/)
+6. [documentació de l’API d’Anthropic Claude](https://docs.anthropic.com/)
 7. [Ollama — servidor local de LLM](https://ollama.com/)

@@ -1,12 +1,12 @@
 ---
 title: "ATS Resume Improver: Optimizator gratuit de CV-uri cu IA"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver este un instrument gratuit, open-source și rulat în client pentru analizarea, evaluarea, compararea, optimizarea și exportarea CV-urilor cu modele cloud sau locale."
 genre: ["Instrumente pentru carieră", "Proiecte open-source", "Inteligență artificială", "Tehnologie pentru confidențialitate", "Instrumente pentru dezvoltatori", "Căutarea unui loc de muncă", "Productivitate"]
-tags: ["ATS Resume Improver", "Optimizare ATS", "Scanner de CV-uri", "CV cu IA", "CV OpenAI", "CV Claude", "IA locală Ollama", "Găzduire proprie", "Confidențialitate pe primul loc", "Instrumente pentru căutarea unui loc de muncă", "Analiza lacunelor de cuvinte-cheie", "Scrisoare de intenție", "Evaluarea CV-ului", "React", "TypeScript", "Docker", "Vite", "Open-source", "Export PDF", "Export DOCX", "Parser de CV-uri", "Instrumente pentru carieră", "Pregătire pentru interviuri", "Estimator salarial", "Detectarea tipului de CV", "Scor ATS", "Instrument gratuit pentru CV", "GitHub", "Fără colectare de date"]
+tags: ["ATS Resume Improver", "Optimizare ATS", "Scanner de CV-uri", "CV cu IA", "CV OpenAI", "CV Claude", "IA locală Ollama", "Găzduire proprie", "Confidențialitate pe primul loc", "Instrumente pentru căutarea unui loc de muncă", "Analiza lacunelor de cuvinte-cheie", "Scrisoare de intenție", "Evaluarea CV-ului", "React", "TypeScript", "Docker", "Vite", "software cu sursă deschisă", "Export PDF", "Export DOCX", "Parser de CV-uri", "Instrumente pentru carieră", "Pregătire pentru interviuri", "Estimator salarial", "Detectarea tipului de CV", "Scor ATS", "Instrument gratuit pentru CV", "GitHub", "Fără colectare de date"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"
 coverAlt: "Un laptop modern pe un birou afișează o interfață colorată de optimizare a CV-urilor, cu grafice, pe un fundal albastru închis."
 coverCaption: "ATS Resume Improver analizează și optimizează CV-urile în întregime în client, fără colectare de date."
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** este un optimizator de CV-uri care rulează în browser. Îți analizează CV-ul în raport cu descrierea unui loc de muncă și te ajută să reduci diferența dintre experiența ta și criteriile sistemelor de urmărire a candidaților (ATS). Este construit cu React 19, Vite și TypeScript. **Întregul proces de analiză și evaluare se desfășoară în browser**, fără server backend.
 
-Codul sursă se află la **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Folosește versiunea găzduită, implementează propria copie cu un singur clic pe Vercel, Netlify, Cloudflare sau GitHub Pages ori ruleaz-o local cu Docker.
+Codul sursă se află la **[depozitul ATS Resume Improver de pe GitHub](https://github.com/simeononsecurity/ats-resume-improver)**. Folosește versiunea găzduită, implementează propria copie cu un singur clic pe Vercel, Netlify, Cloudflare sau GitHub Pages ori ruleaz-o local cu Docker.
 
 ### Problema de confidențialitate pe care o rezolvă
 
@@ -29,7 +29,7 @@ Majoritatea serviciilor de optimizare a CV-urilor îl încarcă pe serverele lor
 |------|------------------------|
 | **Fără cheie IA** | Nimic. Totul rulează local în browser. |
 | **OpenAI / Anthropic** | Textul CV-ului și descrierea postului ajung direct la API-ul furnizorului de IA, folosind cheia ta. Nu există server intermediar. |
-| **Ollama (local)** | Nimic. Modelul rulează pe propriul computer. |
+| **Ollama (pe propriul computer)** | Nimic. Modelul rulează pe propriul computer. |
 
 **Cheile API rămân doar în memorie** și dispar când închizi fila. Nu există analize, urmărire sau cookie-uri.
 
@@ -106,7 +106,7 @@ Toate apelurile IA includ instrucțiuni privind bunele practici ATS, derivate di
 
 ### OpenAI
 
-| Model | Potrivit pentru |
+| Denumirea modelului | Potrivit pentru |
 |-------|----------|
 | **GPT-4.1 mini** (implicit) | Inteligent, rapid și accesibil. Recomandat. |
 | GPT-4o mini | Varianta clasică, rapidă și accesibilă |
@@ -119,7 +119,7 @@ Toate apelurile IA includ instrucțiuni privind bunele practici ATS, derivate di
 
 ### Anthropic Claude
 
-| Model | Potrivit pentru |
+| Denumirea modelului | Potrivit pentru |
 |-------|----------|
 | **Claude Sonnet 4.5** (implicit) | Rapid și inteligent. Recomandat. |
 | Claude Opus 4.5 | Cel mai capabil, potrivit pentru sarcini complexe |
@@ -131,7 +131,7 @@ Toate apelurile IA includ instrucțiuni privind bunele practici ATS, derivate di
 
 Nu este necesară o cheie API. Rulează modelul pe propriul hardware. Setează `OLLAMA_ORIGINS=*` pentru a permite accesul browserului.
 
-| Model | Note |
+| Denumirea modelului | Note |
 |-------|-------|
 | **Llama 3.3** (implicit) | Cel mai nou model Meta. Recomandat. |
 | Llama 3.2 | Model Meta |
@@ -180,7 +180,7 @@ ______
 
 ### Versiunea găzduită (fără configurare)
 
-Folosește aplicația activă la **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Nu ai nevoie de cont, înregistrare sau card de credit.
+Folosește aplicația activă la **[versiunea online ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. Nu ai nevoie de cont, înregistrare sau card de credit.
 
 ### Implementare cloud cu un singur clic
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (recomandat pentru medii reproductibile)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# Dezvoltare: reîncărcare automată la http://localhost:5173
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# Producție: nginx la http://localhost:8080
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# Dezvoltare și Ollama împreună (stivă AI locală completă)
 make docker-dev-with-ollama
 ```
 
 ### Stiva Ollama complet offline
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Pornește containerul Ollama (modelele se păstrează după reporniri)
 make ollama
 
-# Pull a model
+# Descarcă un model
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# Pornește aplicația de dezvoltare și Ollama simultan
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** răspunde unei nevoi reale: oferă o analiză serioasă a CV-ului fără să transmită datele tale altcuiva. Modul fără cheie oferă imediat feedback practic despre formatare și acoperirea cuvintelor-cheie. Adăugarea unei chei IA activează raționamentul semantic, redactarea scrisorilor de intenție și pregătirea pentru interviuri, pentru câțiva cenți per analiză sau gratuit prin Ollama.
 
-Versiunea găzduită este la **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Codul sursă complet este la **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+Versiunea găzduită este la **[versiunea online ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. Codul sursă complet este la **[depozitul ATS Resume Improver de pe GitHub](https://github.com/simeononsecurity/ats-resume-improver)**.
 
 Dacă îl găzduiești pentru propria căutare de loc de muncă sau vrei să ajustezi ponderile scorurilor și instrucțiunile pentru un anumit domeniu, configurarea Docker și structura clară a proiectului facilitează ramificarea și adaptarea.
 
@@ -353,10 +353,10 @@ ______
 
 ## Referințe
 
-1. [ATS Resume Improver — instrument activ](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — depozitul GitHub](https://github.com/simeononsecurity/ats-resume-improver)
+1. [instrument online](https://atsresumeimprover.netlify.app/)
+2. [depozitul codului sursă](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Sfaturi pentru CV — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — cel mai bun prompt IA pentru exprimare naturală](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [Documentația API OpenAI](https://platform.openai.com/docs/)
-6. [Documentația Anthropic Claude](https://docs.anthropic.com/)
+5. [documentația API-ului OpenAI](https://platform.openai.com/docs/)
+6. [documentația API-ului Anthropic Claude](https://docs.anthropic.com/)
 7. [Ollama — server LLM local](https://ollama.com/)

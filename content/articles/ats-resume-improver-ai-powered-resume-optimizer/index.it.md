@@ -1,12 +1,12 @@
 ---
 title: "ATS Resume Improver: ottimizzatore CV gratuito con IA"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver è uno strumento gratuito e open source per ottimizzare i CV. Senza chiave IA, il testo viene elaborato nel browser. Con OpenAI o Anthropic, CV e descrizione dell'offerta vengono inviati direttamente al provider. Ollama può funzionare in locale."
 genre: ["Strumenti per la carriera", "Progetti open source", "Intelligenza artificiale", "Tecnologie per la privacy", "Strumenti per sviluppatori", "Ricerca di lavoro", "Produttività"]
-tags: ["ATS Resume Improver", "ottimizzazione ATS", "scanner CV", "CV con IA", "CV OpenAI", "CV Claude", "IA locale Ollama", "self-hosting", "privacy al primo posto", "strumenti per cercare lavoro", "analisi delle lacune di parole chiave", "lettera di presentazione", "punteggio CV", "React", "TypeScript", "Docker", "Vite", "open source", "esportazione PDF", "esportazione DOCX", "parser CV", "strumenti per la carriera", "preparazione colloqui", "stima dello stipendio", "rilevamento tipo di CV", "punteggio ATS", "strumento CV gratuito", "GitHub", "nessuna raccolta dati"]
+tags: ["ATS Resume Improver", "ottimizzazione ATS", "scanner CV", "CV con IA", "CV OpenAI", "CV Claude", "IA locale Ollama", "self-hosting", "privacy al primo posto", "strumenti per cercare lavoro", "analisi delle lacune di parole chiave", "lettera di presentazione", "punteggio CV", "React", "TypeScript", "Docker", "Vite", "software a sorgente aperto", "esportazione PDF", "esportazione DOCX", "parser CV", "strumenti per la carriera", "preparazione colloqui", "stima dello stipendio", "rilevamento tipo di CV", "punteggio ATS", "strumento CV gratuito", "GitHub", "nessuna raccolta dati"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"
 coverAlt: "Un laptop moderno su una scrivania mostra un'interfaccia colorata per ottimizzare il CV con grafici, su uno sfondo blu navy scuro."
 coverCaption: "ATS Resume Improver analizza e ottimizza il CV interamente nel browser, senza raccogliere dati."
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** è un ottimizzatore di CV open source basato sul browser. Analizza il CV rispetto a un annuncio di lavoro e aiuta a colmare la distanza tra ciò che hai e ciò che valutano i sistemi di tracciamento delle candidature (ATS). È sviluppato con React 19, Vite e TypeScript. L'intera **pipeline di analisi e valutazione viene eseguita nel browser**, senza un server backend.
 
-Il codice sorgente è disponibile su **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Puoi usare la versione ospitata, distribuire la tua istanza su Vercel/Netlify/Cloudflare/GitHub Pages con un clic oppure avviarla localmente con Docker.
+Il codice sorgente è disponibile su **[repository GitHub di ATS Resume Improver](https://github.com/simeononsecurity/ats-resume-improver)**. Puoi usare la versione ospitata, distribuire la tua istanza su Vercel/Netlify/Cloudflare/GitHub Pages con un clic oppure avviarla localmente con Docker.
 
 ### Il problema di privacy che risolve
 
@@ -136,7 +136,7 @@ Non serve una chiave API. Esegui il modello sul tuo hardware. Imposta `OLLAMA_OR
 | **Llama 3.3** (predefinito) | Ultimo Meta Llama, consigliato |
 | Llama 3.2 | Meta Llama 3.2 |
 | Mistral 7B | Rapido e capace |
-| Mixtral 8x7B | Mixture of experts |
+| Mixtral 8x7B | Miscela di esperti |
 | Qwen 2.5 | Alibaba Qwen 2.5 |
 | DeepSeek R1 | Modello di ragionamento avanzato |
 | Phi-4 | Microsoft Phi-4 |
@@ -180,7 +180,7 @@ ______
 
 ### Versione ospitata (nessuna configurazione)
 
-Usa l'app disponibile su **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**: non servono account, registrazione o carta di credito.
+Usa l'app disponibile su **[versione online di ATS Resume Improver](https://atsresumeimprover.netlify.app/)**: non servono account, registrazione o carta di credito.
 
 ### Distribuzione cloud con un clic
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (consigliato per ambienti riproducibili)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# Sviluppo: ricaricamento automatico su http://localhost:5173
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# Produzione: nginx su http://localhost:8080
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# Sviluppo e Ollama insieme (stack AI locale completo)
 make docker-dev-with-ollama
 ```
 
 ### Stack Ollama completamente offline
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Avvia il container Ollama (i modelli persistono dopo i riavvii)
 make ollama
 
-# Pull a model
+# Scarica un modello
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# Avvia l’app di sviluppo e Ollama insieme
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** colma una lacuna reale: offre un'analisi seria del CV senza affidare i dati a intermediari. La modalità senza chiave fornisce subito consigli pratici su formattazione e copertura delle parole chiave. Una chiave IA aggiunge ragionamento semantico, scrittura di lettere di presentazione e preparazione ai colloqui, per pochi centesimi a ogni analisi o gratis con Ollama.
 
-La versione ospitata è disponibile su **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. Il codice completo è su **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+La versione ospitata è disponibile su **[versione online di ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. Il codice completo è su **[repository GitHub di ATS Resume Improver](https://github.com/simeononsecurity/ats-resume-improver)**.
 
 Se vuoi ospitare lo strumento per cercare lavoro o personalizzare i pesi dei punteggi e i prompt per un settore specifico, la configurazione Docker e la struttura pulita del progetto rendono semplice creare una fork e adattarla.
 
@@ -353,10 +353,10 @@ ______
 
 ## Riferimenti
 
-1. [ATS Resume Improver — strumento online](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — repository GitHub](https://github.com/simeononsecurity/ats-resume-improver)
+1. [strumento online](https://atsresumeimprover.netlify.app/)
+2. [repository del codice sorgente](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Consigli per il CV — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — il miglior prompt IA per rendere umano un testo generato dall'IA](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [Documentazione API OpenAI](https://platform.openai.com/docs/)
-6. [Documentazione API Anthropic Claude](https://docs.anthropic.com/)
+5. [documentazione dell’API OpenAI](https://platform.openai.com/docs/)
+6. [documentazione dell’API Anthropic Claude](https://docs.anthropic.com/)
 7. [Ollama — server LLM locale](https://ollama.com/)

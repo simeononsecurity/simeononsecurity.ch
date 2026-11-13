@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver: 無料のAI履歴書最適化ツール"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improverは、ブラウザー内で動作する無料のオープンソースツールです。クラウドまたはローカルモデルを使って、履歴書の解析、採点、照合、最適化、書き出しを行います。"
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)**は、ブラウザーで動作するオープンソースの履歴書最適化ツールです。履歴書を求人票と照合し、あなたの経験と応募者追跡システム（ATS）の評価基準とのギャップを埋める支援をします。React 19、Vite、TypeScriptで構築され、すべての**解析と採点処理がブラウザー内で完結**します。バックエンドサーバーはありません。
 
-ソースコードは**[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**にあります。ホスト版を使うか、Vercel/Netlify/Cloudflare/GitHub Pagesにワンクリックで自分の環境をデプロイするか、Dockerでローカル起動できます。
+ソースコードは**[GitHub上のATS Resume Improverリポジトリ](https://github.com/simeononsecurity/ats-resume-improver)**にあります。ホスト版を使うか、Vercel/Netlify/Cloudflare/GitHub Pagesにワンクリックで自分の環境をデプロイするか、Dockerでローカル起動できます。
 
 ### 解決するプライバシーの問題
 
@@ -180,7 +180,7 @@ ______
 
 ### ホスト版（設定不要）
 
-**[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**で公開中のアプリを使えます。アカウント登録やクレジットカードは不要です。
+**[ATS Resume Improverのライブ版](https://atsresumeimprover.netlify.app/)**で公開中のアプリを使えます。アカウント登録やクレジットカードは不要です。
 
 ### ワンクリックでクラウドにデプロイ
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker（再現可能な環境に推奨）
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# 開発: http://localhost:5173 でホットリロード
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# 本番環境: http://localhost:8080 の nginx
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# 開発環境と Ollama を連携（ローカル AI 環境一式）
 make docker-dev-with-ollama
 ```
 
 ### Ollama完全オフライン構成
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Ollama コンテナを起動（再起動後もモデルを保持）
 make ollama
 
-# Pull a model
+# モデルを取得
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# 開発アプリと Ollama を同時に起動
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver**は、データを第三者に預けずに本格的な履歴書分析を行うというニーズに応えます。キーなしモードでも、書式やキーワードの網羅性についてすぐに実用的なフィードバックが得られます。AIキーを追加すれば、意味的な推論、カバーレター作成、面接準備も使えます。分析1回あたり数セント、Ollamaなら完全無料です。
 
-ホスト版は**[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**で利用できます。全ソースコードは**[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**にあります。
+ホスト版は**[ATS Resume Improverのライブ版](https://atsresumeimprover.netlify.app/)**で利用できます。全ソースコードは**[GitHub上のATS Resume Improverリポジトリ](https://github.com/simeononsecurity/ats-resume-improver)**にあります。
 
 自分の就職活動向けにセルフホストする場合も、特定の業界に合わせて採点の重みやプロンプトを変更する場合も、Dockerの設定と整理されたプロジェクト構成により、フォークして調整しやすくなっています。
 
@@ -353,10 +353,10 @@ ______
 
 ## 参考資料
 
-1. [ATS Resume Improver — ライブツール](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — GitHubリポジトリ](https://github.com/simeononsecurity/ats-resume-improver)
+1. [ライブツール](https://atsresumeimprover.netlify.app/)
+2. [ソースコードのリポジトリ](https://github.com/simeononsecurity/ats-resume-improver)
 3. [履歴書のヒント — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — AI文を自然にする最適なプロンプト](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [OpenAI APIドキュメント](https://platform.openai.com/docs/)
-6. [Anthropic Claude APIドキュメント](https://docs.anthropic.com/)
+5. [OpenAI APIのドキュメント](https://platform.openai.com/docs/)
+6. [Anthropic Claude APIのドキュメント](https://docs.anthropic.com/)
 7. [Ollama — ローカルLLMサーバー](https://ollama.com/)

@@ -1,7 +1,7 @@
 ---
 title: "ATS Resume Improver: optimizador de currículum con IA gratuito y autoalojable"
 date: 2026-07-22
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ATS Resume Improver es un optimizador de currículum gratuito y de código abierto. Sin clave de IA, el procesamiento se realiza en el navegador. Con OpenAI o Anthropic, el texto del currículum y de la oferta se envía directamente al proveedor. Ollama puede ejecutarse localmente."
@@ -19,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** es un optimizador de currículum de código abierto basado en navegador que analiza su currículum frente a una descripción de trabajo y le ayuda a cerrar la brecha entre lo que tiene y lo que los sistemas de seguimiento de candidatos realmente puntúan. Construido con React 19, Vite y TypeScript, todo el **pipeline de análisis y puntuación se ejecuta dentro de su navegador** sin servidor backend.
 
-El código fuente está en **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Puede usar la versión alojada, desplegar la suya propia en Vercel/Netlify/Cloudflare/GitHub Pages con un clic, o iniciarlo localmente con Docker.
+El código fuente está en **[repositorio de ATS Resume Improver en GitHub](https://github.com/simeononsecurity/ats-resume-improver)**. Puede usar la versión alojada, desplegar la suya propia en Vercel/Netlify/Cloudflare/GitHub Pages con un clic, o iniciarlo localmente con Docker.
 
 ### El problema de privacidad que resuelve
 
@@ -29,7 +29,7 @@ La mayoría de los servicios de optimización de currículum cargan su currícul
 |------|------------------------|
 | **Sin clave de IA** | Nada — 100% local, se ejecuta en su navegador |
 | **OpenAI / Anthropic** | El texto del currículum y la descripción del trabajo van directamente a la API del proveedor de IA con su clave, sin servidor intermediario |
-| **Ollama (local)** | Nada — el modelo se ejecuta en su propia máquina |
+| **Ollama (en tu equipo)** | Nada — el modelo se ejecuta en su propia máquina |
 
 **Las claves API se almacenan solo en memoria** y desaparecen cuando cierra la pestaña. Sin análisis, sin seguimiento, sin cookies.
 
@@ -180,7 +180,7 @@ ______
 
 ### Versión alojada (sin configuración)
 
-Use la aplicación en vivo en **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** — sin cuenta, sin registro, sin tarjeta de crédito.
+Use la aplicación en vivo en **[versión en línea de ATS Resume Improver](https://atsresumeimprover.netlify.app/)** — sin cuenta, sin registro, sin tarjeta de crédito.
 
 ### Despliegue en la nube con un clic
 
@@ -204,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (recomendado para entornos reproducibles)
 
 ```bash
-# Development — hot-reload on http://localhost:5173
+# Desarrollo: recarga en caliente en http://localhost:5173
 make docker-dev
 
-# Production — nginx on http://localhost:8080
+# Producción: nginx en http://localhost:8080
 make docker-prod
 
-# Dev + Ollama together (full local AI stack)
+# Desarrollo y Ollama juntos (stack local de IA completo)
 make docker-dev-with-ollama
 ```
 
 ### Pila Ollama completamente fuera de línea
 
 ```bash
-# Start Ollama container (persists models across restarts)
+# Iniciar el contenedor de Ollama (conserva los modelos tras reiniciar)
 make ollama
 
-# Pull a model
+# Descargar un modelo
 make ollama-pull MODEL=llama3.2
 
-# Start dev app + Ollama side-by-side
+# Iniciar la aplicación de desarrollo y Ollama en paralelo
 make docker-dev-with-ollama
 ```
 
@@ -337,7 +337,7 @@ ______
 
 **ATS Resume Improver** llena una brecha real: una herramienta que realiza un análisis serio de currículum sin ceder sus datos a nadie. El modo sin clave le da retroalimentación inmediata y accionable sobre el formato y la cobertura de palabras clave. Agregar una clave de IA actualiza el análisis a razonamiento semántico, redacción de cartas de presentación y preparación para entrevistas, todo por centavos por análisis o completamente gratis con Ollama.
 
-La versión alojada en vivo está en **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. El código fuente completo está en **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+La versión alojada en vivo está en **[versión en línea de ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. El código fuente completo está en **[repositorio de ATS Resume Improver en GitHub](https://github.com/simeononsecurity/ats-resume-improver)**.
 
 ______
 
@@ -351,10 +351,10 @@ ______
 
 ## Referencias
 
-1. [ATS Resume Improver — herramienta en vivo](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — repositorio GitHub](https://github.com/simeononsecurity/ats-resume-improver)
+1. [herramienta en línea](https://atsresumeimprover.netlify.app/)
+2. [repositorio del código fuente](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Consejos y trucos para el currículum — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — Mejor prompt de IA para humanizar la escritura IA](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [Documentación de la API de OpenAI](https://platform.openai.com/docs/)
-6. [Documentación de la API de Anthropic Claude](https://docs.anthropic.com/)
+5. [documentación de la API de OpenAI](https://platform.openai.com/docs/)
+6. [documentación de la API de Anthropic Claude](https://docs.anthropic.com/)
 7. [Ollama — servidor LLM local](https://ollama.com/)
