@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400向けDagShellカスタムファームウェアガイド 2026年版"
 date: 2026-05-28
-lastmod: 2026-11-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Orbic RCL400用DagShellファームウェアの技術ガイドです。インストール、プライバシーツール、ウォードライビング、調査の限界を説明します。"
@@ -130,10 +130,10 @@ AT+CGSN      - Get IMEI (device identifier)
 
 **コマンド**:
 ```bash
-# Enable TTL fix
+# TTL 修正を有効化
 iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
 
-# Disable TTL fix  
+# TTL 修正を無効化
 iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ```
 
@@ -226,7 +226,7 @@ Message text here^Z
 
 **コマンド**:
 ```bash
-# Scan ports 1-1000 on target
+# target のポート 1～1000 をスキャン
 nc -zv -w 2 TARGET_IP 1-1000 2>&1
 ```
 
@@ -247,11 +247,11 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 
 **コマンド**:
 ```bash
-# Block IP
+# IP をブロック
 iptables -I INPUT -s IP_ADDRESS -j DROP
 iptables -I OUTPUT -d IP_ADDRESS -j DROP
 
-# Unblock IP
+# IP のブロックを解除
 iptables -D INPUT -s IP_ADDRESS -j DROP
 iptables -D OUTPUT -d IP_ADDRESS -j DROP
 ```
@@ -535,13 +535,13 @@ WantedBy=multi-user.target
 
 **コマンド**:
 ```bash
-# Enable auto-start
+# 自動起動を有効化
 sudo systemctl enable pi-companion
 
-# Start service
+# サービスを開始
 sudo systemctl start pi-companion
 
-# Check status
+# 状態を確認
 sudo systemctl status pi-companion
 ```
 
@@ -654,39 +654,39 @@ ______
 
 **Windows**:
 ```powershell
-# Install Python 3
-# Download from python.org
+# Python 3 をインストール
+# python.org からダウンロード
 
-# Install required modules
+# 必要なモジュールをインストール
 pip install requests cryptography
 
-# ARM cross-compiler included in gcc_win/ folder
+# ARM クロスコンパイラーは gcc_win フォルダーに含まれます
 ```
 
 **macOS**:
 ```bash
-# Install Homebrew if not already installed
+# Homebrew が未導入ならインストール
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
+# Python 3 をインストール
 brew install python3
 
-# Install required modules
+# 必要なモジュールをインストール
 pip3 install requests cryptography
 
-# ARM toolchain included in gcc_mac/ folder
+# ARM ツールチェーンは gcc_mac フォルダーに含まれます
 ```
 
 **Linux**:
 ```bash
-# Install Python 3 and pip
+# Python 3 と pip をインストール
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 
-# Install required modules
+# 必要なモジュールをインストール
 pip3 install requests cryptography
 
-# Install ARM cross-compiler
+# ARM クロスコンパイラーをインストール
 sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
@@ -702,15 +702,15 @@ cd DagShell
 **Windows**:
 ```powershell
 cd orbic_fw_c
-python gen_pki.py          # Generate certificates
-.\build.ps1                # Compile firmware
+python gen_pki.py          # 証明書を生成
+.\build.ps1                # ファームウェアをコンパイル
 ```
 
 **macOS/Linux**:
 ```bash
 cd orbic_fw_c
-python3 gen_pki.py         # Generate certificates
-./build.sh                 # Compile firmware (auto-builds BearSSL)
+python3 gen_pki.py         # 証明書を生成
+./build.sh                 # ファームウェアをコンパイル (BearSSL も自動ビルド)
 ```
 
 **出力**: `orbic_app` (静的ARMバイナリー)とDER証明書ファイル。
@@ -720,8 +720,8 @@ python3 gen_pki.py         # Generate certificates
 #### 手順4: OrbicでRoot Shellを有効化
 
 ```bash
-# Connect to Orbic WiFi
-# Replace YOUR_ADMIN_PASSWORD with actual password
+# Orbic WiFi に接続
+# YOUR_ADMIN_PASSWORD を実際のパスワードに置き換え
 
 python enable_shell.py YOUR_ADMIN_PASSWORD
 ```
@@ -744,11 +744,11 @@ python deploy_base64.py
 #### 手順6: 再起動してアクセス
 
 ```bash
-# Reboot Orbic (power cycle or via SSH)
+# Orbic を再起動 (電源を入れ直すか SSH を使用)
 reboot
 
-# After reboot, access DagShell
-# Browser: https://192.168.1.1:8443/
+# 再起動後に DagShell にアクセス
+# ブラウザー: https://192.168.1.1:8443/
 ```
 
 ### セキュリティ証明書の警告
@@ -791,11 +791,11 @@ ______
 
 **手順2**: Raspberry Pi OSをインストール
 ```bash
-# Download Raspberry Pi Imager
+# Raspberry Pi Imager をダウンロード
 # https://www.raspberrypi.org/software/
 
-# Flash "Raspberry Pi OS Lite" to SD card
-# Boot Pi and complete setup
+# SD カードに Raspberry Pi OS Lite を書き込む
+# Pi を起動してセットアップを完了
 ```
 
 **手順3**: GPSドングルを接続
@@ -815,74 +815,74 @@ cd DagShell/pi_companion
 **手順2**: 依存関係をインストール
 
 ```bash
-# Update package list
+# パッケージ一覧を更新
 sudo apt-get update
 
-# Install required packages
+# 必要なパッケージをインストール
 sudo apt-get install python3-serial python3-requests gpsd gpsd-clients
 
-# Install Python modules
+# Python モジュールをインストール
 pip3 install pyserial gps3 bluetooth pybluez
 ```
 
 **手順3**: GPSデーモンを設定
 
 ```bash
-# Edit gpsd config
+# gpsd の設定を編集
 sudo nano /etc/default/gpsd
 
-# Set DEVICES line to your GPS serial port
-DEVICES="/dev/ttyUSB0"  # Adjust if different
+# DEVICES 行に GPS のシリアルポートを設定
+DEVICES="/dev/ttyUSB0"  # 必要に応じて調整
 
-# Restart gpsd
+# gpsd を再起動
 sudo systemctl restart gpsd
 
-# Test GPS
-cgps -s  # Should show satellite data after ~30 seconds
+# GPS をテスト
+cgps -s  # 約 30 秒後に衛星データが表示されることを確認
 ```
 
 **手順4**: Piコンパニオンを設定
 
 ```bash
-# Edit configuration file
+# 設定ファイルを編集
 nano pi_companion/config.py
 
-# Set Orbic IP address
+# Orbic の IP アドレスを設定
 ORBIC_IP = "192.168.1.1"
 ORBIC_PORT = "8443"
 
-# Set GPS serial port
+# GPS のシリアルポートを設定
 GPS_DEVICE = "/dev/ttyUSB0"
 
-# Save and exit
+# 保存して終了
 ```
 
 **手順5**: systemdサービスをインストール
 
 ```bash
-# Copy service file
+# サービスファイルをコピー
 sudo cp pi_companion.service /etc/systemd/system/
 
-# Reload systemd
+# systemd を再読み込み
 sudo systemctl daemon-reload
 
-# Enable auto-start
+# 自動起動を有効化
 sudo systemctl enable pi-companion
 
-# Start service
+# サービスを開始
 sudo systemctl start pi-companion
 
-# Check status
+# 状態を確認
 sudo systemctl status pi-companion
 ```
 
 **手順6**: 通信を確認
 
 ```bash
-# Check logs
+# ログを確認
 journalctl -u pi-companion -f
 
-# Should see GPS coordinates being sent to Orbic
+# GPS 座標が Orbic に送信されることを確認
 ```
 
 ### ネットワーク設定
@@ -890,17 +890,17 @@ journalctl -u pi-companion -f
 **方法A**: Wi-Fi接続
 
 ```bash
-# Pi connects to Orbic hotspot
-# Edit wpa_supplicant config
+# Pi が Orbic のホットスポットに接続
+# wpa_supplicant の設定を編集
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-# Add network
+# ネットワークを追加
 network={
     ssid="Orbic_SSID"
     psk="PASSWORD"
 }
 
-# Restart WiFi
+# WiFi を再起動
 sudo systemctl restart networking
 ```
 
@@ -914,19 +914,19 @@ sudo systemctl restart networking
 
 **USBガジェットの設定**:
 ```bash
-# Edit config.txt
+# config.txt を編集
 sudo nano /boot/config.txt
 
-# Add at end
+# 末尾に追加
 dtoverlay=dwc2
 
-# Edit cmdline.txt
+# cmdline.txt を編集
 sudo nano /boot/cmdline.txt
 
-# Add after rootwait
+# rootwait の後に追加
 modules-load=dwc2,g_ether
 
-# Reboot
+# 再起動
 sudo reboot
 ```
 
@@ -1309,24 +1309,24 @@ ______
 
 **Wiresharkへのデータエクスポート**:
 ```bash
-# Capture pcap file
+# pcap ファイルを取得
 tcpdump -i wlan0 -w /data/capture.pcap
 
-# Download via file browser
-# Open in Wireshark on PC
+# ファイルブラウザーでダウンロード
+# PC の Wireshark で開く
 ```
 
 **GPSトラックをQGISにインポート**:
 ```bash
-# Export GPX format
+# GPX 形式でエクスポート
 python gps_to_gpx.py /data/gps_coords.txt
 
-# Import to QGIS as vector layer
+# QGIS にベクターレイヤーとしてインポート
 ```
 
 **外部データベースとの同期**:
 ```python
-# Custom script to upload wardrive data to MySQL
+# wardrive データを MySQL にアップロードするカスタムスクリプト
 import mysql.connector
 import csv
 
@@ -1349,16 +1349,16 @@ conn.commit()
 
 **スキャン速度の最適化**:
 ```bash
-# Edit wardrive scan interval
-# In DagShell web UI, change from 5s to 3s for faster scanning
-# Trade-off: Higher CPU usage, potential missed networks
+# wardrive のスキャン間隔を編集
+# DagShell の Web UI で 5 秒から 3 秒に変更してスキャンを高速化
+# その代わり CPU 使用率が上がり、一部のネットワークを見逃す可能性があります
 ```
 
 **バッテリーの最適化** (バッテリーパックを使用する場合):
 ```bash
-# Reduce screen brightness on Orbic
-# Disable unused features (BT, GPS when not needed)
-# Use sleep mode between wardrive sessions
+# Orbic の画面の明るさを下げる
+# 使わない機能を無効化 (不要なときは BT と GPS)
+# wardrive セッションの間はスリープモードを使用
 ```
 
 ______

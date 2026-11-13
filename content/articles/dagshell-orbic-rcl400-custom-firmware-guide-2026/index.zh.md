@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400 的 DagShell 定制固件：2026 指南"
 date: 2026-05-28
-lastmod: 2026-11-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Orbic RCL400 DagShell 固件技术指南，介绍安装、隐私工具、巡行扫描和研究限制。"
@@ -130,10 +130,10 @@ AT+CGSN      - Get IMEI (device identifier)
 
 **命令**：
 ```bash
-# Enable TTL fix
+# 启用 TTL 修复
 iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
 
-# Disable TTL fix  
+# 禁用 TTL 修复
 iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ```
 
@@ -220,7 +220,7 @@ Message text here^Z
 
 **命令**：
 ```bash
-# Scan ports 1-1000 on target
+# 扫描目标的 1–1000 端口
 nc -zv -w 2 TARGET_IP 1-1000 2>&1
 ```
 
@@ -241,11 +241,11 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 
 **命令**：
 ```bash
-# Block IP
+# 屏蔽 IP
 iptables -I INPUT -s IP_ADDRESS -j DROP
 iptables -I OUTPUT -d IP_ADDRESS -j DROP
 
-# Unblock IP
+# 解除 IP 屏蔽
 iptables -D INPUT -s IP_ADDRESS -j DROP
 iptables -D OUTPUT -d IP_ADDRESS -j DROP
 ```
@@ -522,13 +522,13 @@ WantedBy=multi-user.target
 
 **命令**：
 ```bash
-# Enable auto-start
+# 启用自动启动
 sudo systemctl enable pi-companion
 
-# Start service
+# 启动服务
 sudo systemctl start pi-companion
 
-# Check status
+# 检查状态
 sudo systemctl status pi-companion
 ```
 
@@ -641,39 +641,39 @@ ______
 
 **Windows**:
 ```powershell
-# Install Python 3
-# Download from python.org
+# 安装 Python 3
+# 从 python.org 下载
 
-# Install required modules
+# 安装所需模块
 pip install requests cryptography
 
-# ARM cross-compiler included in gcc_win/ folder
+# ARM 交叉编译器位于 gcc_win 文件夹
 ```
 
 **macOS**:
 ```bash
-# Install Homebrew if not already installed
+# 如果尚未安装，请安装 Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
+# 安装 Python 3
 brew install python3
 
-# Install required modules
+# 安装所需模块
 pip3 install requests cryptography
 
-# ARM toolchain included in gcc_mac/ folder
+# ARM 工具链位于 gcc_mac 文件夹
 ```
 
 **Linux**:
 ```bash
-# Install Python 3 and pip
+# 安装 Python 3 和 pip
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 
-# Install required modules
+# 安装所需模块
 pip3 install requests cryptography
 
-# Install ARM cross-compiler
+# 安装 ARM 交叉编译器
 sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
@@ -689,15 +689,15 @@ cd DagShell
 **Windows**:
 ```powershell
 cd orbic_fw_c
-python gen_pki.py          # Generate certificates
-.\build.ps1                # Compile firmware
+python gen_pki.py          # 生成证书
+.\build.ps1                # 编译固件
 ```
 
 **macOS/Linux**:
 ```bash
 cd orbic_fw_c
-python3 gen_pki.py         # Generate certificates
-./build.sh                 # Compile firmware (auto-builds BearSSL)
+python3 gen_pki.py         # 生成证书
+./build.sh                 # 编译固件时会自动构建 BearSSL
 ```
 
 **输出**：`orbic_app`（静态 ARM 二进制文件）和 DER 证书文件
@@ -707,8 +707,8 @@ python3 gen_pki.py         # Generate certificates
 #### 步骤 4：在 Orbic 上启用 Root Shell
 
 ```bash
-# Connect to Orbic WiFi
-# Replace YOUR_ADMIN_PASSWORD with actual password
+# 连接到 Orbic WiFi
+# 将 YOUR_ADMIN_PASSWORD 替换为实际密码
 
 python enable_shell.py YOUR_ADMIN_PASSWORD
 ```
@@ -731,11 +731,11 @@ python deploy_base64.py
 #### 步骤 6：重启并访问
 
 ```bash
-# Reboot Orbic (power cycle or via SSH)
+# 重启 Orbic（断电重启或通过 SSH）
 reboot
 
-# After reboot, access DagShell
-# Browser: https://192.168.1.1:8443/
+# 重启后访问 DagShell
+# 浏览器：https://192.168.1.1:8443/
 ```
 
 ### 安全证书警告
@@ -778,11 +778,11 @@ ______
 
 **步骤 2**：安装 Raspberry Pi OS
 ```bash
-# Download Raspberry Pi Imager
+# 下载 Raspberry Pi Imager
 # https://www.raspberrypi.org/software/
 
-# Flash "Raspberry Pi OS Lite" to SD card
-# Boot Pi and complete setup
+# 将 Raspberry Pi OS Lite 刷写到 SD 卡
+# 启动 Pi 并完成设置
 ```
 
 **步骤 3**：连接 GPS 接收器
@@ -802,74 +802,74 @@ cd DagShell/pi_companion
 **步骤 2**：安装依赖
 
 ```bash
-# Update package list
+# 更新软件包列表
 sudo apt-get update
 
-# Install required packages
+# 安装所需软件包
 sudo apt-get install python3-serial python3-requests gpsd gpsd-clients
 
-# Install Python modules
+# 安装 Python 模块
 pip3 install pyserial gps3 bluetooth pybluez
 ```
 
 **步骤 3**：配置 GPS 守护进程
 
 ```bash
-# Edit gpsd config
+# 编辑 gpsd 配置
 sudo nano /etc/default/gpsd
 
-# Set DEVICES line to your GPS serial port
-DEVICES="/dev/ttyUSB0"  # Adjust if different
+# 将 DEVICES 行设为 GPS 串口
+DEVICES="/dev/ttyUSB0"  # 按需调整
 
-# Restart gpsd
+# 重启 gpsd
 sudo systemctl restart gpsd
 
-# Test GPS
-cgps -s  # Should show satellite data after ~30 seconds
+# 测试 GPS
+cgps -s  # 约 30 秒后应显示卫星数据
 ```
 
 **步骤 4**：配置 Pi Companion
 
 ```bash
-# Edit configuration file
+# 编辑配置文件
 nano pi_companion/config.py
 
-# Set Orbic IP address
+# 设置 Orbic IP 地址
 ORBIC_IP = "192.168.1.1"
 ORBIC_PORT = "8443"
 
-# Set GPS serial port
+# 设置 GPS 串口
 GPS_DEVICE = "/dev/ttyUSB0"
 
-# Save and exit
+# 保存并退出
 ```
 
 **步骤 5**：安装 systemd 服务
 
 ```bash
-# Copy service file
+# 复制服务文件
 sudo cp pi_companion.service /etc/systemd/system/
 
-# Reload systemd
+# 重新加载 systemd
 sudo systemctl daemon-reload
 
-# Enable auto-start
+# 启用自动启动
 sudo systemctl enable pi-companion
 
-# Start service
+# 启动服务
 sudo systemctl start pi-companion
 
-# Check status
+# 检查状态
 sudo systemctl status pi-companion
 ```
 
 **步骤 6**：验证通信
 
 ```bash
-# Check logs
+# 检查日志
 journalctl -u pi-companion -f
 
-# Should see GPS coordinates being sent to Orbic
+# 应能看到 GPS 坐标发送到 Orbic
 ```
 
 ### 网络设置
@@ -877,17 +877,17 @@ journalctl -u pi-companion -f
 **选项 A**：WiFi 连接
 
 ```bash
-# Pi connects to Orbic hotspot
-# Edit wpa_supplicant config
+# Pi 连接到 Orbic 热点
+# 编辑 wpa_supplicant 配置
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-# Add network
+# 添加网络
 network={
     ssid="Orbic_SSID"
     psk="PASSWORD"
 }
 
-# Restart WiFi
+# 重启 WiFi
 sudo systemctl restart networking
 ```
 
@@ -901,19 +901,19 @@ sudo systemctl restart networking
 
 **USB Gadget 配置**：
 ```bash
-# Edit config.txt
+# 编辑 config.txt
 sudo nano /boot/config.txt
 
-# Add at end
+# 在末尾添加
 dtoverlay=dwc2
 
-# Edit cmdline.txt
+# 编辑 cmdline.txt
 sudo nano /boot/cmdline.txt
 
-# Add after rootwait
+# 在 rootwait 后添加
 modules-load=dwc2,g_ether
 
-# Reboot
+# 重启
 sudo reboot
 ```
 
@@ -1297,24 +1297,24 @@ ______
 
 **将数据导出到 Wireshark**：
 ```bash
-# Capture pcap file
+# 抓取 pcap 文件
 tcpdump -i wlan0 -w /data/capture.pcap
 
-# Download via file browser
-# Open in Wireshark on PC
+# 通过文件浏览器下载
+# 在电脑上的 Wireshark 中打开
 ```
 
 **将 GPS 轨迹导入 QGIS**：
 ```bash
-# Export GPX format
+# 导出为 GPX 格式
 python gps_to_gpx.py /data/gps_coords.txt
 
-# Import to QGIS as vector layer
+# 导入到 QGIS 作为矢量图层
 ```
 
 **与外部数据库同步**：
 ```python
-# Custom script to upload wardrive data to MySQL
+# 将 wardrive 数据上传到 MySQL 的自定义脚本
 import mysql.connector
 import csv
 
@@ -1337,16 +1337,16 @@ conn.commit()
 
 **优化扫描速度**：
 ```bash
-# Edit wardrive scan interval
-# In DagShell web UI, change from 5s to 3s for faster scanning
-# Trade-off: Higher CPU usage, potential missed networks
+# 编辑 wardrive 扫描间隔
+# 在 DagShell 网页界面将 5 秒改为 3 秒以加快扫描
+# 代价是 CPU 使用率上升，且可能漏掉网络
 ```
 
 **优化电池使用**（使用外接电池时）：
 ```bash
-# Reduce screen brightness on Orbic
-# Disable unused features (BT, GPS when not needed)
-# Use sleep mode between wardrive sessions
+# 降低 Orbic 屏幕亮度
+# 禁用未使用的功能（不需要时关闭 BT 和 GPS）
+# 在 wardrive 会话之间使用睡眠模式
 ```
 
 ______

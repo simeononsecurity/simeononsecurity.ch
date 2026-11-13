@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400 ਲਈ DagShell ਕਸਟਮ ਫਰਮਵੇਅਰ: 2026 ਗਾਈਡ"
 date: 2026-05-28
-lastmod: 2026-11-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Orbic RCL400 ਉੱਤੇ DagShell ਫਰਮਵੇਅਰ ਲਈ ਤਕਨੀਕੀ ਗਾਈਡ। ਇਸ ਵਿੱਚ ਇੰਸਟਾਲੇਸ਼ਨ, ਗੋਪਨੀਯਤਾ ਟੂਲ, ਵਾਰਡਰਾਈਵਿੰਗ ਅਤੇ ਖੋਜ ਦੀਆਂ ਸੀਮਾਵਾਂ ਸ਼ਾਮਲ ਹਨ।"
@@ -130,10 +130,10 @@ AT+CGSN      - Get IMEI (device identifier)
 
 **ਕਮਾਂਡਾਂ**:
 ```bash
-# Enable TTL fix
+# TTL ਸੁਧਾਰ ਚਾਲੂ ਕਰੋ
 iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
 
-# Disable TTL fix  
+# TTL ਸੁਧਾਰ ਬੰਦ ਕਰੋ
 iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ```
 
@@ -225,7 +225,7 @@ Message text here^Z
 
 **ਕਮਾਂਡ**:
 ```bash
-# Scan ports 1-1000 on target
+# target ਉੱਤੇ ਪੋਰਟ 1–1000 ਸਕੈਨ ਕਰੋ
 nc -zv -w 2 TARGET_IP 1-1000 2>&1
 ```
 
@@ -246,11 +246,11 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 
 **ਕਮਾਂਡਾਂ**:
 ```bash
-# Block IP
+# IP ਬਲਾਕ ਕਰੋ
 iptables -I INPUT -s IP_ADDRESS -j DROP
 iptables -I OUTPUT -d IP_ADDRESS -j DROP
 
-# Unblock IP
+# IP ਅਨਬਲੌਕ ਕਰੋ
 iptables -D INPUT -s IP_ADDRESS -j DROP
 iptables -D OUTPUT -d IP_ADDRESS -j DROP
 ```
@@ -534,13 +534,13 @@ WantedBy=multi-user.target
 
 **ਕਮਾਂਡਾਂ**:
 ```bash
-# Enable auto-start
+# ਆਟੋ-ਸਟਾਰਟ ਚਾਲੂ ਕਰੋ
 sudo systemctl enable pi-companion
 
-# Start service
+# ਸੇਵਾ ਸ਼ੁਰੂ ਕਰੋ
 sudo systemctl start pi-companion
 
-# Check status
+# ਸਥਿਤੀ ਵੇਖੋ
 sudo systemctl status pi-companion
 ```
 
@@ -653,39 +653,39 @@ ______
 
 **Windows**:
 ```powershell
-# Install Python 3
-# Download from python.org
+# Python 3 ਇੰਸਟਾਲ ਕਰੋ
+# python.org ਤੋਂ ਡਾਊਨਲੋਡ ਕਰੋ
 
-# Install required modules
+# ਲੋੜੀਂਦੇ ਮੋਡੀਊਲ ਇੰਸਟਾਲ ਕਰੋ
 pip install requests cryptography
 
-# ARM cross-compiler included in gcc_win/ folder
+# gcc_win ਫੋਲਡਰ ਵਿੱਚ ARM ਕ੍ਰਾਸ-ਕੰਪਾਈਲਰ ਸ਼ਾਮਲ ਹੈ
 ```
 
 **macOS**:
 ```bash
-# Install Homebrew if not already installed
+# ਜੇ Homebrew ਪਹਿਲਾਂ ਨਹੀਂ ਤਾਂ ਇੰਸਟਾਲ ਕਰੋ
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
+# Python 3 ਇੰਸਟਾਲ ਕਰੋ
 brew install python3
 
-# Install required modules
+# ਲੋੜੀਂਦੇ ਮੋਡੀਊਲ ਇੰਸਟਾਲ ਕਰੋ
 pip3 install requests cryptography
 
-# ARM toolchain included in gcc_mac/ folder
+# gcc_mac ਫੋਲਡਰ ਵਿੱਚ ARM ਟੂਲਚੇਨ ਸ਼ਾਮਲ ਹੈ
 ```
 
 **Linux**:
 ```bash
-# Install Python 3 and pip
+# Python 3 ਅਤੇ pip ਇੰਸਟਾਲ ਕਰੋ
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 
-# Install required modules
+# ਲੋੜੀਂਦੇ ਮੋਡੀਊਲ ਇੰਸਟਾਲ ਕਰੋ
 pip3 install requests cryptography
 
-# Install ARM cross-compiler
+# ARM ਕ੍ਰਾਸ-ਕੰਪਾਈਲਰ ਇੰਸਟਾਲ ਕਰੋ
 sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
@@ -701,15 +701,15 @@ cd DagShell
 **Windows**:
 ```powershell
 cd orbic_fw_c
-python gen_pki.py          # Generate certificates
-.\build.ps1                # Compile firmware
+python gen_pki.py          # ਸਰਟੀਫਿਕੇਟ ਬਣਾਓ
+.\build.ps1                # ਫਰਮਵੇਅਰ ਕੰਪਾਈਲ ਕਰੋ
 ```
 
 **macOS/Linux**:
 ```bash
 cd orbic_fw_c
-python3 gen_pki.py         # Generate certificates
-./build.sh                 # Compile firmware (auto-builds BearSSL)
+python3 gen_pki.py         # ਸਰਟੀਫਿਕੇਟ ਬਣਾਓ
+./build.sh                 # ਫਰਮਵੇਅਰ ਕੰਪਾਈਲ ਕਰੋ, BearSSL ਆਪਣੇ ਆਪ ਬਣੇਗਾ
 ```
 
 **ਆਉਟਪੁੱਟ**: `orbic_app` (static ARM binary) ਅਤੇ DER ਸਰਟੀਫਿਕੇਟ ਫਾਈਲਾਂ
@@ -719,8 +719,8 @@ python3 gen_pki.py         # Generate certificates
 #### ਕਦਮ 4: Orbic ਉੱਤੇ Root Shell ਚਾਲੂ ਕਰੋ
 
 ```bash
-# Connect to Orbic WiFi
-# Replace YOUR_ADMIN_PASSWORD with actual password
+# Orbic WiFi ਨਾਲ ਜੁੜੋ
+# YOUR_ADMIN_PASSWORD ਦੀ ਥਾਂ ਅਸਲ ਪਾਸਵਰਡ ਪਾਓ
 
 python enable_shell.py YOUR_ADMIN_PASSWORD
 ```
@@ -743,11 +743,11 @@ python deploy_base64.py
 #### ਕਦਮ 6: ਰੀਬੂਟ ਕਰੋ ਅਤੇ ਖੋਲ੍ਹੋ
 
 ```bash
-# Reboot Orbic (power cycle or via SSH)
+# Orbic ਰੀਬੂਟ ਕਰੋ (ਪਾਵਰ ਬੰਦ-ਚਾਲੂ ਕਰੋ ਜਾਂ SSH ਵਰਤੋ)
 reboot
 
-# After reboot, access DagShell
-# Browser: https://192.168.1.1:8443/
+# ਰੀਬੂਟ ਤੋਂ ਬਾਅਦ DagShell ਖੋਲ੍ਹੋ
+# ਬ੍ਰਾਊਜ਼ਰ: https://192.168.1.1:8443/
 ```
 
 ### ਸੁਰੱਖਿਆ ਸਰਟੀਫਿਕੇਟ ਚੇਤਾਵਨੀ
@@ -790,11 +790,11 @@ ______
 
 **ਕਦਮ 2**: Raspberry Pi OS ਇੰਸਟਾਲ ਕਰੋ
 ```bash
-# Download Raspberry Pi Imager
+# Raspberry Pi Imager ਡਾਊਨਲੋਡ ਕਰੋ
 # https://www.raspberrypi.org/software/
 
-# Flash "Raspberry Pi OS Lite" to SD card
-# Boot Pi and complete setup
+# SD ਕਾਰਡ ਉੱਤੇ Raspberry Pi OS Lite ਲਿਖੋ
+# Pi ਚਾਲੂ ਕਰਕੇ ਸੈੱਟਅੱਪ ਪੂਰਾ ਕਰੋ
 ```
 
 **ਕਦਮ 3**: GPS ਡੌਂਗਲ ਜੋੜੋ
@@ -814,74 +814,74 @@ cd DagShell/pi_companion
 **ਕਦਮ 2**: ਨਿਰਭਰਤਾਵਾਂ ਇੰਸਟਾਲ ਕਰੋ
 
 ```bash
-# Update package list
+# ਪੈਕੇਜ ਸੂਚੀ ਅੱਪਡੇਟ ਕਰੋ
 sudo apt-get update
 
-# Install required packages
+# ਲੋੜੀਂਦੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਕਰੋ
 sudo apt-get install python3-serial python3-requests gpsd gpsd-clients
 
-# Install Python modules
+# Python ਮੋਡੀਊਲ ਇੰਸਟਾਲ ਕਰੋ
 pip3 install pyserial gps3 bluetooth pybluez
 ```
 
 **ਕਦਮ 3**: GPS daemon ਸੈੱਟ ਕਰੋ
 
 ```bash
-# Edit gpsd config
+# gpsd ਕੌਂਫਿਗ ਸੋਧੋ
 sudo nano /etc/default/gpsd
 
-# Set DEVICES line to your GPS serial port
-DEVICES="/dev/ttyUSB0"  # Adjust if different
+# DEVICES ਲਾਈਨ ਵਿੱਚ GPS ਸੀਰੀਅਲ ਪੋਰਟ ਦਿਓ
+DEVICES="/dev/ttyUSB0"  # ਲੋੜ ਅਨੁਸਾਰ ਬਦਲੋ
 
-# Restart gpsd
+# gpsd ਮੁੜ ਚਾਲੂ ਕਰੋ
 sudo systemctl restart gpsd
 
-# Test GPS
-cgps -s  # Should show satellite data after ~30 seconds
+# GPS ਜਾਂਚੋ
+cgps -s  # ਲਗਭਗ 30 ਸਕਿੰਟ ਬਾਅਦ ਸੈਟੇਲਾਈਟ ਡਾਟਾ ਦਿਖਣਾ ਚਾਹੀਦਾ ਹੈ
 ```
 
 **ਕਦਮ 4**: Pi ਸਾਥੀ ਸੈੱਟ ਕਰੋ
 
 ```bash
-# Edit configuration file
+# ਕੌਂਫਿਗਰੇਸ਼ਨ ਫਾਈਲ ਸੋਧੋ
 nano pi_companion/config.py
 
-# Set Orbic IP address
+# Orbic IP ਪਤਾ ਸੈੱਟ ਕਰੋ
 ORBIC_IP = "192.168.1.1"
 ORBIC_PORT = "8443"
 
-# Set GPS serial port
+# GPS ਸੀਰੀਅਲ ਪੋਰਟ ਸੈੱਟ ਕਰੋ
 GPS_DEVICE = "/dev/ttyUSB0"
 
-# Save and exit
+# ਸੇਵ ਕਰਕੇ ਬਾਹਰ ਆਓ
 ```
 
 **ਕਦਮ 5**: systemd ਸੇਵਾ ਇੰਸਟਾਲ ਕਰੋ
 
 ```bash
-# Copy service file
+# ਸੇਵਾ ਫਾਈਲ ਕਾਪੀ ਕਰੋ
 sudo cp pi_companion.service /etc/systemd/system/
 
-# Reload systemd
+# systemd ਮੁੜ ਲੋਡ ਕਰੋ
 sudo systemctl daemon-reload
 
-# Enable auto-start
+# ਆਟੋ-ਸਟਾਰਟ ਚਾਲੂ ਕਰੋ
 sudo systemctl enable pi-companion
 
-# Start service
+# ਸੇਵਾ ਸ਼ੁਰੂ ਕਰੋ
 sudo systemctl start pi-companion
 
-# Check status
+# ਸਥਿਤੀ ਵੇਖੋ
 sudo systemctl status pi-companion
 ```
 
 **ਕਦਮ 6**: ਸੰਚਾਰ ਦੀ ਜਾਂਚ ਕਰੋ
 
 ```bash
-# Check logs
+# ਲੌਗ ਵੇਖੋ
 journalctl -u pi-companion -f
 
-# Should see GPS coordinates being sent to Orbic
+# GPS ਕੋਆਰਡੀਨੇਟ Orbic ਨੂੰ ਭੇਜੇ ਜਾਂਦੇ ਦਿਖਣੇ ਚਾਹੀਦੇ ਹਨ
 ```
 
 ### ਨੈੱਟਵਰਕ ਸੈੱਟਅੱਪ
@@ -889,17 +889,17 @@ journalctl -u pi-companion -f
 **ਚੋਣ A**: WiFi ਕਨੈਕਸ਼ਨ
 
 ```bash
-# Pi connects to Orbic hotspot
-# Edit wpa_supplicant config
+# Pi Orbic ਹੌਟਸਪੌਟ ਨਾਲ ਜੁੜਦਾ ਹੈ
+# wpa_supplicant ਕੌਂਫਿਗ ਸੋਧੋ
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-# Add network
+# ਨੈੱਟਵਰਕ ਜੋੜੋ
 network={
     ssid="Orbic_SSID"
     psk="PASSWORD"
 }
 
-# Restart WiFi
+# WiFi ਮੁੜ ਚਾਲੂ ਕਰੋ
 sudo systemctl restart networking
 ```
 
@@ -913,19 +913,19 @@ sudo systemctl restart networking
 
 **USB Gadget ਸੰਰਚਨਾ**:
 ```bash
-# Edit config.txt
+# config.txt ਸੋਧੋ
 sudo nano /boot/config.txt
 
-# Add at end
+# ਅੰਤ ਵਿੱਚ ਜੋੜੋ
 dtoverlay=dwc2
 
-# Edit cmdline.txt
+# cmdline.txt ਸੋਧੋ
 sudo nano /boot/cmdline.txt
 
-# Add after rootwait
+# rootwait ਤੋਂ ਬਾਅਦ ਜੋੜੋ
 modules-load=dwc2,g_ether
 
-# Reboot
+# ਰੀਬੂਟ ਕਰੋ
 sudo reboot
 ```
 
@@ -1309,24 +1309,24 @@ ______
 
 **Wireshark ਵਿੱਚ ਡਾਟਾ ਨਿਰਯਾਤ ਕਰਨਾ**:
 ```bash
-# Capture pcap file
+# pcap ਫਾਈਲ ਕੈਪਚਰ ਕਰੋ
 tcpdump -i wlan0 -w /data/capture.pcap
 
-# Download via file browser
-# Open in Wireshark on PC
+# ਫਾਈਲ ਬ੍ਰਾਊਜ਼ਰ ਰਾਹੀਂ ਡਾਊਨਲੋਡ ਕਰੋ
+# PC ਉੱਤੇ Wireshark ਵਿੱਚ ਖੋਲ੍ਹੋ
 ```
 
 **GPS ਟ੍ਰੈਕ QGIS ਵਿੱਚ ਲਿਆਉਣਾ**:
 ```bash
-# Export GPX format
+# GPX ਫਾਰਮੈਟ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ
 python gps_to_gpx.py /data/gps_coords.txt
 
-# Import to QGIS as vector layer
+# QGIS ਵਿੱਚ ਵੈਕਟਰ ਲੇਅਰ ਵਜੋਂ ਆਯਾਤ ਕਰੋ
 ```
 
 **ਬਾਹਰੀ ਡਾਟਾਬੇਸ ਨਾਲ ਸਿੰਕ ਕਰਨਾ**:
 ```python
-# Custom script to upload wardrive data to MySQL
+# wardrive ਡਾਟਾ MySQL ਵਿੱਚ ਭੇਜਣ ਲਈ ਕਸਟਮ ਸਕ੍ਰਿਪਟ
 import mysql.connector
 import csv
 
@@ -1349,16 +1349,16 @@ conn.commit()
 
 **ਸਕੈਨ ਦੀ ਗਤੀ ਵਧਾਉਣਾ**:
 ```bash
-# Edit wardrive scan interval
-# In DagShell web UI, change from 5s to 3s for faster scanning
-# Trade-off: Higher CPU usage, potential missed networks
+# wardrive ਸਕੈਨ ਅੰਤਰਾਲ ਸੋਧੋ
+# ਤੇਜ਼ ਸਕੈਨ ਲਈ DagShell ਵੈੱਬ UI ਵਿੱਚ 5s ਨੂੰ 3s ਕਰੋ
+# ਇਸ ਨਾਲ CPU ਵਰਤੋਂ ਵਧੇਗੀ ਅਤੇ ਕੁਝ ਨੈੱਟਵਰਕ ਛੁੱਟ ਸਕਦੇ ਹਨ
 ```
 
 **ਬੈਟਰੀ ਦੀ ਬਚਤ** (ਜੇ ਬਾਹਰੀ ਬੈਟਰੀ ਵਰਤ ਰਹੇ ਹੋ):
 ```bash
-# Reduce screen brightness on Orbic
-# Disable unused features (BT, GPS when not needed)
-# Use sleep mode between wardrive sessions
+# Orbic ਸਕ੍ਰੀਨ ਦੀ ਰੌਸ਼ਨੀ ਘਟਾਓ
+# ਨਾ ਵਰਤੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਕਰੋ (ਲੋੜ ਨਾ ਹੋਵੇ ਤਾਂ BT ਅਤੇ GPS)
+# wardrive ਸੈਸ਼ਨਾਂ ਵਿਚਕਾਰ ਸਲੀਪ ਮੋਡ ਵਰਤੋ
 ```
 
 ______

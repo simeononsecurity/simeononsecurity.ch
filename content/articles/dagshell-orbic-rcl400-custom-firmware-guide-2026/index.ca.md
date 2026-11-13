@@ -1,7 +1,7 @@
 ---
 title: "Firmware personalitzat DagShell per a Orbic RCL400: guia de 2026"
 date: 2026-05-28
-lastmod: 2026-11-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Guia tècnica del firmware DagShell per a Orbic RCL400. Explica la instal·lació, les eines de privacitat, el wardriving i els límits de la recerca."
@@ -130,10 +130,10 @@ AT+CGSN      - Get IMEI (device identifier)
 
 **Comandes**:
 ```bash
-# Enable TTL fix
+# Activa la correcció TTL
 iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
 
-# Disable TTL fix  
+# Desactiva la correcció TTL
 iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ```
 
@@ -225,7 +225,7 @@ Message text here^Z
 
 **Comanda**:
 ```bash
-# Scan ports 1-1000 on target
+# Escaneja els ports 1–1000 de l'objectiu
 nc -zv -w 2 TARGET_IP 1-1000 2>&1
 ```
 
@@ -246,11 +246,11 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 
 **Comandes**:
 ```bash
-# Block IP
+# Bloqueja l'IP
 iptables -I INPUT -s IP_ADDRESS -j DROP
 iptables -I OUTPUT -d IP_ADDRESS -j DROP
 
-# Unblock IP
+# Desbloqueja l'IP
 iptables -D INPUT -s IP_ADDRESS -j DROP
 iptables -D OUTPUT -d IP_ADDRESS -j DROP
 ```
@@ -534,13 +534,13 @@ WantedBy=multi-user.target
 
 **Comandes**:
 ```bash
-# Enable auto-start
+# Activa l'inici automàtic
 sudo systemctl enable pi-companion
 
-# Start service
+# Inicia el servei
 sudo systemctl start pi-companion
 
-# Check status
+# Comprova l'estat
 sudo systemctl status pi-companion
 ```
 
@@ -653,39 +653,39 @@ Per a **usuaris avançats** que volen compilar des del codi font.
 
 **Windows**:
 ```powershell
-# Install Python 3
-# Download from python.org
+# Instal·la Python 3
+# Baixa-ho de python.org
 
-# Install required modules
+# Instal·la els mòduls necessaris
 pip install requests cryptography
 
-# ARM cross-compiler included in gcc_win/ folder
+# El compilador creuat ARM és a la carpeta gcc_win
 ```
 
 **macOS**:
 ```bash
-# Install Homebrew if not already installed
+# Instal·la Homebrew si encara no hi és
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
+# Instal·la Python 3
 brew install python3
 
-# Install required modules
+# Instal·la els mòduls necessaris
 pip3 install requests cryptography
 
-# ARM toolchain included in gcc_mac/ folder
+# La cadena d'eines ARM és a la carpeta gcc_mac
 ```
 
 **Linux**:
 ```bash
-# Install Python 3 and pip
+# Instal·la Python 3 i pip
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 
-# Install required modules
+# Instal·la els mòduls necessaris
 pip3 install requests cryptography
 
-# Install ARM cross-compiler
+# Instal·la el compilador creuat ARM
 sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
@@ -701,15 +701,15 @@ cd DagShell
 **Windows**:
 ```powershell
 cd orbic_fw_c
-python gen_pki.py          # Generate certificates
-.\build.ps1                # Compile firmware
+python gen_pki.py          # Genera els certificats
+.\build.ps1                # Compila el microprogramari
 ```
 
 **macOS/Linux**:
 ```bash
 cd orbic_fw_c
-python3 gen_pki.py         # Generate certificates
-./build.sh                 # Compile firmware (auto-builds BearSSL)
+python3 gen_pki.py         # Genera els certificats
+./build.sh                 # Compila el microprogramari, BearSSL es compila automàticament
 ```
 
 **Resultat**: `orbic_app` (binari ARM estàtic) i fitxers de certificat DER
@@ -719,8 +719,8 @@ python3 gen_pki.py         # Generate certificates
 #### Pas 4: activa el shell root a l’Orbic
 
 ```bash
-# Connect to Orbic WiFi
-# Replace YOUR_ADMIN_PASSWORD with actual password
+# Connecta't a la WiFi de l'Orbic
+# Substitueix YOUR_ADMIN_PASSWORD per la contrasenya real
 
 python enable_shell.py YOUR_ADMIN_PASSWORD
 ```
@@ -743,11 +743,11 @@ Puja i instal·la:
 #### Pas 6: reinicia i accedeix
 
 ```bash
-# Reboot Orbic (power cycle or via SSH)
+# Reinicia l'Orbic (talla l'alimentació o usa SSH)
 reboot
 
-# After reboot, access DagShell
-# Browser: https://192.168.1.1:8443/
+# Després de reiniciar, accedeix a DagShell
+# Navegador: https://192.168.1.1:8443/
 ```
 
 ### Avís del certificat de seguretat
@@ -790,11 +790,11 @@ ______
 
 **Pas 2**: instal·la Raspberry Pi OS
 ```bash
-# Download Raspberry Pi Imager
+# Baixa Raspberry Pi Imager
 # https://www.raspberrypi.org/software/
 
-# Flash "Raspberry Pi OS Lite" to SD card
-# Boot Pi and complete setup
+# Flasheja Raspberry Pi OS Lite a la targeta SD
+# Arrenca la Pi i completa la configuració
 ```
 
 **Pas 3**: connecta el dongle GPS
@@ -814,74 +814,74 @@ cd DagShell/pi_companion
 **Pas 2**: instal·la les dependències
 
 ```bash
-# Update package list
+# Actualitza la llista de paquets
 sudo apt-get update
 
-# Install required packages
+# Instal·la els paquets necessaris
 sudo apt-get install python3-serial python3-requests gpsd gpsd-clients
 
-# Install Python modules
+# Instal·la els mòduls de Python
 pip3 install pyserial gps3 bluetooth pybluez
 ```
 
 **Pas 3**: configura el dimoni GPS
 
 ```bash
-# Edit gpsd config
+# Edita la configuració de gpsd
 sudo nano /etc/default/gpsd
 
-# Set DEVICES line to your GPS serial port
-DEVICES="/dev/ttyUSB0"  # Adjust if different
+# Configura la línia DEVICES amb el port sèrie del GPS
+DEVICES="/dev/ttyUSB0"  # Ajusta-ho si cal
 
-# Restart gpsd
+# Reinicia gpsd
 sudo systemctl restart gpsd
 
-# Test GPS
-cgps -s  # Should show satellite data after ~30 seconds
+# Prova el GPS
+cgps -s  # Les dades dels satèl·lits haurien d'aparèixer al cap d'uns 30 segons
 ```
 
 **Pas 4**: configura el Pi complementari
 
 ```bash
-# Edit configuration file
+# Edita el fitxer de configuració
 nano pi_companion/config.py
 
-# Set Orbic IP address
+# Configura l'adreça IP de l'Orbic
 ORBIC_IP = "192.168.1.1"
 ORBIC_PORT = "8443"
 
-# Set GPS serial port
+# Configura el port sèrie del GPS
 GPS_DEVICE = "/dev/ttyUSB0"
 
-# Save and exit
+# Desa i surt
 ```
 
 **Pas 5**: instal·la el servei systemd
 
 ```bash
-# Copy service file
+# Copia el fitxer del servei
 sudo cp pi_companion.service /etc/systemd/system/
 
-# Reload systemd
+# Torna a carregar systemd
 sudo systemctl daemon-reload
 
-# Enable auto-start
+# Activa l'inici automàtic
 sudo systemctl enable pi-companion
 
-# Start service
+# Inicia el servei
 sudo systemctl start pi-companion
 
-# Check status
+# Comprova l'estat
 sudo systemctl status pi-companion
 ```
 
 **Pas 6**: verifica la comunicació
 
 ```bash
-# Check logs
+# Comprova els registres
 journalctl -u pi-companion -f
 
-# Should see GPS coordinates being sent to Orbic
+# Hauries de veure com s'envien les coordenades GPS a l'Orbic
 ```
 
 ### Configuració de xarxa
@@ -889,17 +889,17 @@ journalctl -u pi-companion -f
 **Opció A**: connexió WiFi
 
 ```bash
-# Pi connects to Orbic hotspot
-# Edit wpa_supplicant config
+# La Pi es connecta al punt d'accés de l'Orbic
+# Edita la configuració de wpa_supplicant
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-# Add network
+# Afegeix una xarxa
 network={
     ssid="Orbic_SSID"
     psk="PASSWORD"
 }
 
-# Restart WiFi
+# Reinicia la WiFi
 sudo systemctl restart networking
 ```
 
@@ -913,19 +913,19 @@ sudo systemctl restart networking
 
 **Configuració USB gadget**:
 ```bash
-# Edit config.txt
+# Edita config.txt
 sudo nano /boot/config.txt
 
-# Add at end
+# Afegeix al final
 dtoverlay=dwc2
 
-# Edit cmdline.txt
+# Edita cmdline.txt
 sudo nano /boot/cmdline.txt
 
-# Add after rootwait
+# Afegeix després de rootwait
 modules-load=dwc2,g_ether
 
-# Reboot
+# Reinicia
 sudo reboot
 ```
 
@@ -1307,24 +1307,24 @@ ______
 
 **Exportar dades a Wireshark**:
 ```bash
-# Capture pcap file
+# Captura el fitxer pcap
 tcpdump -i wlan0 -w /data/capture.pcap
 
-# Download via file browser
-# Open in Wireshark on PC
+# Baixa-ho amb el navegador de fitxers
+# Obre-ho a Wireshark al PC
 ```
 
 **Importar traces GPS a QGIS**:
 ```bash
-# Export GPX format
+# Exporta-ho en format GPX
 python gps_to_gpx.py /data/gps_coords.txt
 
-# Import to QGIS as vector layer
+# Importa-ho a QGIS com a capa vectorial
 ```
 
 **Sincronitzar amb una base de dades externa**:
 ```python
-# Custom script to upload wardrive data to MySQL
+# Script personalitzat per pujar dades de wardrive a MySQL
 import mysql.connector
 import csv
 
@@ -1347,16 +1347,16 @@ conn.commit()
 
 **Optimitzar la velocitat d’escaneig**:
 ```bash
-# Edit wardrive scan interval
-# In DagShell web UI, change from 5s to 3s for faster scanning
-# Trade-off: Higher CPU usage, potential missed networks
+# Edita l'interval d'escaneig wardrive
+# A la interfície web de DagShell, canvia de 5s a 3s per escanejar més ràpid
+# A canvi, augmenta l'ús de CPU i es poden perdre xarxes
 ```
 
 **Optimitzar la bateria** (si fas servir una bateria externa):
 ```bash
-# Reduce screen brightness on Orbic
-# Disable unused features (BT, GPS when not needed)
-# Use sleep mode between wardrive sessions
+# Redueix la brillantor de la pantalla de l'Orbic
+# Desactiva les funcions que no facis servir (BT i GPS quan no calguin)
+# Fes servir el mode de repòs entre sessions de wardrive
 ```
 
 ______

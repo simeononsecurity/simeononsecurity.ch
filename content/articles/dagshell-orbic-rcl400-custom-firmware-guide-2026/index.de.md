@@ -1,7 +1,7 @@
 ---
 title: "DagShell Custom-Firmware für Orbic RCL400: Leitfaden 2026"
 date: 2026-05-28
-lastmod: 2026-11-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Technischer Leitfaden zur DagShell-Firmware für Orbic RCL400. Behandelt Installation, Datenschutzwerkzeuge, Wardriving und Forschungsgrenzen."
@@ -130,10 +130,10 @@ AT+CGSN      - Get IMEI (device identifier)
 
 **Befehle:**
 ```bash
-# Enable TTL fix
+# TTL-Korrektur aktivieren
 iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
 
-# Disable TTL fix  
+# TTL-Korrektur deaktivieren
 iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ```
 
@@ -225,7 +225,7 @@ Message text here^Z
 
 **Befehl:**
 ```bash
-# Scan ports 1-1000 on target
+# Ports 1–1000 auf dem Ziel scannen
 nc -zv -w 2 TARGET_IP 1-1000 2>&1
 ```
 
@@ -246,11 +246,11 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 
 **Befehle:**
 ```bash
-# Block IP
+# IP-Adresse sperren
 iptables -I INPUT -s IP_ADDRESS -j DROP
 iptables -I OUTPUT -d IP_ADDRESS -j DROP
 
-# Unblock IP
+# IP-Sperre aufheben
 iptables -D INPUT -s IP_ADDRESS -j DROP
 iptables -D OUTPUT -d IP_ADDRESS -j DROP
 ```
@@ -533,13 +533,13 @@ WantedBy=multi-user.target
 
 **Befehle:**
 ```bash
-# Enable auto-start
+# Autostart aktivieren
 sudo systemctl enable pi-companion
 
-# Start service
+# Dienst starten
 sudo systemctl start pi-companion
 
-# Check status
+# Status prüfen
 sudo systemctl status pi-companion
 ```
 
@@ -652,39 +652,39 @@ ______
 
 **Windows:**
 ```powershell
-# Install Python 3
-# Download from python.org
+# Python 3 installieren
+# Von python.org herunterladen
 
-# Install required modules
+# Erforderliche Module installieren
 pip install requests cryptography
 
-# ARM cross-compiler included in gcc_win/ folder
+# ARM-Cross-Compiler im Ordner gcc_win enthalten
 ```
 
 **macOS:**
 ```bash
-# Install Homebrew if not already installed
+# Homebrew installieren, falls noch nicht vorhanden
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
+# Python 3 installieren
 brew install python3
 
-# Install required modules
+# Erforderliche Module installieren
 pip3 install requests cryptography
 
-# ARM toolchain included in gcc_mac/ folder
+# ARM-Toolchain im Ordner gcc_mac enthalten
 ```
 
 **Linux:**
 ```bash
-# Install Python 3 and pip
+# Python 3 und pip installieren
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 
-# Install required modules
+# Erforderliche Module installieren
 pip3 install requests cryptography
 
-# Install ARM cross-compiler
+# ARM-Cross-Compiler installieren
 sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
@@ -700,15 +700,15 @@ cd DagShell
 **Windows:**
 ```powershell
 cd orbic_fw_c
-python gen_pki.py          # Generate certificates
-.\build.ps1                # Compile firmware
+python gen_pki.py          # Zertifikate erstellen
+.\build.ps1                # Firmware kompilieren
 ```
 
 **macOS/Linux:**
 ```bash
 cd orbic_fw_c
-python3 gen_pki.py         # Generate certificates
-./build.sh                 # Compile firmware (auto-builds BearSSL)
+python3 gen_pki.py         # Zertifikate erstellen
+./build.sh                 # Firmware kompilieren, BearSSL wird automatisch mitgebaut
 ```
 
 **Ausgabe:** `orbic_app`, eine statische ARM-Binärdatei, sowie DER-Zertifikatsdateien.
@@ -718,8 +718,8 @@ python3 gen_pki.py         # Generate certificates
 #### Schritt 4: Root-Shell auf Orbic aktivieren
 
 ```bash
-# Connect to Orbic WiFi
-# Replace YOUR_ADMIN_PASSWORD with actual password
+# Mit dem Orbic-WLAN verbinden
+# YOUR_ADMIN_PASSWORD durch das tatsächliche Passwort ersetzen
 
 python enable_shell.py YOUR_ADMIN_PASSWORD
 ```
@@ -742,11 +742,11 @@ Das Skript lädt folgende Dateien hoch und installiert sie:
 #### Schritt 6: Neustarten und zugreifen
 
 ```bash
-# Reboot Orbic (power cycle or via SSH)
+# Orbic neu starten (Strom aus- und einschalten oder per SSH)
 reboot
 
-# After reboot, access DagShell
-# Browser: https://192.168.1.1:8443/
+# Nach dem Neustart auf DagShell zugreifen
+# Öffne im Webbrowser: https://192.168.1.1:8443/
 ```
 
 ### Sicherheitswarnung zum Zertifikat
@@ -789,11 +789,11 @@ ______
 
 **Schritt 2:** Raspberry Pi OS installieren.
 ```bash
-# Download Raspberry Pi Imager
+# Raspberry Pi Imager herunterladen
 # https://www.raspberrypi.org/software/
 
-# Flash "Raspberry Pi OS Lite" to SD card
-# Boot Pi and complete setup
+# Raspberry Pi OS Lite auf SD-Karte flashen
+# Pi starten und Einrichtung abschließen
 ```
 
 **Schritt 3:** GPS-Empfänger verbinden.
@@ -813,74 +813,74 @@ cd DagShell/pi_companion
 **Schritt 2:** Abhängigkeiten installieren.
 
 ```bash
-# Update package list
+# Paketliste aktualisieren
 sudo apt-get update
 
-# Install required packages
+# Erforderliche Pakete installieren
 sudo apt-get install python3-serial python3-requests gpsd gpsd-clients
 
-# Install Python modules
+# Python-Module installieren
 pip3 install pyserial gps3 bluetooth pybluez
 ```
 
 **Schritt 3:** GPS-Dienst konfigurieren.
 
 ```bash
-# Edit gpsd config
+# gpsd-Konfiguration bearbeiten
 sudo nano /etc/default/gpsd
 
-# Set DEVICES line to your GPS serial port
-DEVICES="/dev/ttyUSB0"  # Adjust if different
+# DEVICES-Zeile auf den seriellen GPS-Port setzen
+DEVICES="/dev/ttyUSB0"  # Bei Bedarf anpassen
 
-# Restart gpsd
+# gpsd neu starten
 sudo systemctl restart gpsd
 
-# Test GPS
-cgps -s  # Should show satellite data after ~30 seconds
+# GPS testen
+cgps -s  # Satellitendaten sollten nach etwa 30 Sekunden angezeigt werden
 ```
 
 **Schritt 4:** Pi-Begleitgerät konfigurieren.
 
 ```bash
-# Edit configuration file
+# Konfigurationsdatei bearbeiten
 nano pi_companion/config.py
 
-# Set Orbic IP address
+# Orbic-IP-Adresse festlegen
 ORBIC_IP = "192.168.1.1"
 ORBIC_PORT = "8443"
 
-# Set GPS serial port
+# Seriellen GPS-Port festlegen
 GPS_DEVICE = "/dev/ttyUSB0"
 
-# Save and exit
+# Speichern und schließen
 ```
 
 **Schritt 5:** systemd-Dienst installieren.
 
 ```bash
-# Copy service file
+# Dienstdatei kopieren
 sudo cp pi_companion.service /etc/systemd/system/
 
-# Reload systemd
+# systemd neu laden
 sudo systemctl daemon-reload
 
-# Enable auto-start
+# Autostart aktivieren
 sudo systemctl enable pi-companion
 
-# Start service
+# Dienst starten
 sudo systemctl start pi-companion
 
-# Check status
+# Status prüfen
 sudo systemctl status pi-companion
 ```
 
 **Schritt 6:** Kommunikation prüfen.
 
 ```bash
-# Check logs
+# Protokolle prüfen
 journalctl -u pi-companion -f
 
-# Should see GPS coordinates being sent to Orbic
+# GPS-Koordinaten sollten an den Orbic gesendet werden
 ```
 
 ### Netzwerkeinrichtung
@@ -888,17 +888,17 @@ journalctl -u pi-companion -f
 **Option A:** WLAN-Verbindung
 
 ```bash
-# Pi connects to Orbic hotspot
-# Edit wpa_supplicant config
+# Pi verbindet sich mit dem Orbic-Hotspot
+# wpa_supplicant-Konfiguration bearbeiten
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-# Add network
+# Netzwerk hinzufügen
 network={
     ssid="Orbic_SSID"
     psk="PASSWORD"
 }
 
-# Restart WiFi
+# WLAN neu starten
 sudo systemctl restart networking
 ```
 
@@ -912,19 +912,19 @@ sudo systemctl restart networking
 
 **USB-Gadget-Konfiguration:**
 ```bash
-# Edit config.txt
+# config.txt bearbeiten
 sudo nano /boot/config.txt
 
-# Add at end
+# Am Ende hinzufügen
 dtoverlay=dwc2
 
-# Edit cmdline.txt
+# cmdline.txt bearbeiten
 sudo nano /boot/cmdline.txt
 
-# Add after rootwait
+# Nach rootwait hinzufügen
 modules-load=dwc2,g_ether
 
-# Reboot
+# Neu starten
 sudo reboot
 ```
 
@@ -1311,24 +1311,24 @@ ______
 
 **Daten nach Wireshark exportieren**:
 ```bash
-# Capture pcap file
+# pcap-Datei aufzeichnen
 tcpdump -i wlan0 -w /data/capture.pcap
 
-# Download via file browser
-# Open in Wireshark on PC
+# Über den Dateibrowser herunterladen
+# Auf dem PC in Wireshark öffnen
 ```
 
 **GPS-Tracks in QGIS importieren**:
 ```bash
-# Export GPX format
+# Als GPX exportieren
 python gps_to_gpx.py /data/gps_coords.txt
 
-# Import to QGIS as vector layer
+# Als Vektorebene in QGIS importieren
 ```
 
 **Mit einer externen Datenbank synchronisieren**:
 ```python
-# Custom script to upload wardrive data to MySQL
+# Eigenes Skript zum Hochladen von Wardrive-Daten nach MySQL
 import mysql.connector
 import csv
 
@@ -1351,16 +1351,16 @@ conn.commit()
 
 **Scan-Geschwindigkeit optimieren**:
 ```bash
-# Edit wardrive scan interval
-# In DagShell web UI, change from 5s to 3s for faster scanning
-# Trade-off: Higher CPU usage, potential missed networks
+# Wardrive-Scanintervall bearbeiten
+# In der DagShell-Weboberfläche für schnelleres Scannen von 5 s auf 3 s wechseln
+# Dafür steigt die CPU-Auslastung und Netzwerke können übersehen werden
 ```
 
 **Akkulaufzeit optimieren** (bei Verwendung eines Akkupacks):
 ```bash
-# Reduce screen brightness on Orbic
-# Disable unused features (BT, GPS when not needed)
-# Use sleep mode between wardrive sessions
+# Bildschirmhelligkeit des Orbic verringern
+# Nicht benötigte Funktionen deaktivieren (BT und GPS bei Nichtgebrauch)
+# Zwischen Wardrive-Sitzungen den Ruhezustand verwenden
 ```
 
 ______

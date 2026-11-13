@@ -1,7 +1,7 @@
 ---
 title: "Firmware personalizat DagShell pentru Orbic RCL400: Ghidul din 2026"
 date: 2026-05-28
-lastmod: 2026-11-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ghid tehnic pentru firmware-ul DagShell pe Orbic RCL400, cu instalare, instrumente de confidențialitate, wardriving și limitele cercetării."
@@ -130,10 +130,10 @@ AT+CGSN      - Get IMEI (device identifier)
 
 **Comenzi**:
 ```bash
-# Enable TTL fix
+# Activează corecția TTL
 iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
 
-# Disable TTL fix  
+# Dezactivează corecția TTL
 iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ```
 
@@ -220,7 +220,7 @@ Message text here^Z
 
 **Comandă**:
 ```bash
-# Scan ports 1-1000 on target
+# Scanează porturile 1–1000 de pe țintă
 nc -zv -w 2 TARGET_IP 1-1000 2>&1
 ```
 
@@ -241,11 +241,11 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 
 **Comenzi**:
 ```bash
-# Block IP
+# Blochează IP-ul
 iptables -I INPUT -s IP_ADDRESS -j DROP
 iptables -I OUTPUT -d IP_ADDRESS -j DROP
 
-# Unblock IP
+# Deblochează IP-ul
 iptables -D INPUT -s IP_ADDRESS -j DROP
 iptables -D OUTPUT -d IP_ADDRESS -j DROP
 ```
@@ -522,13 +522,13 @@ WantedBy=multi-user.target
 
 **Comenzi**:
 ```bash
-# Enable auto-start
+# Activează pornirea automată
 sudo systemctl enable pi-companion
 
-# Start service
+# Pornește serviciul
 sudo systemctl start pi-companion
 
-# Check status
+# Verifică starea
 sudo systemctl status pi-companion
 ```
 
@@ -641,39 +641,39 @@ Pentru **utilizatorii avansați** care doresc să compileze din sursă
 
 **Windows**:
 ```powershell
-# Install Python 3
-# Download from python.org
+# Instalează Python 3
+# Descarcă de pe python.org
 
-# Install required modules
+# Instalează modulele necesare
 pip install requests cryptography
 
-# ARM cross-compiler included in gcc_win/ folder
+# Compilatorul încrucișat ARM este inclus în folderul gcc_win
 ```
 
 **macOS**:
 ```bash
-# Install Homebrew if not already installed
+# Instalează Homebrew dacă nu este deja instalat
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
+# Instalează Python 3
 brew install python3
 
-# Install required modules
+# Instalează modulele necesare
 pip3 install requests cryptography
 
-# ARM toolchain included in gcc_mac/ folder
+# Lanțul de instrumente ARM este inclus în folderul gcc_mac
 ```
 
 **Linux**:
 ```bash
-# Install Python 3 and pip
+# Instalează Python 3 și pip
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 
-# Install required modules
+# Instalează modulele necesare
 pip3 install requests cryptography
 
-# Install ARM cross-compiler
+# Instalează compilatorul încrucișat ARM
 sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
@@ -689,15 +689,15 @@ cd DagShell
 **Windows**:
 ```powershell
 cd orbic_fw_c
-python gen_pki.py          # Generate certificates
-.\build.ps1                # Compile firmware
+python gen_pki.py          # Generează certificatele
+.\build.ps1                # Compilează firmware-ul
 ```
 
 **macOS/Linux**:
 ```bash
 cd orbic_fw_c
-python3 gen_pki.py         # Generate certificates
-./build.sh                 # Compile firmware (auto-builds BearSSL)
+python3 gen_pki.py         # Generează certificatele
+./build.sh                 # Compilează firmware-ul, BearSSL se construiește automat
 ```
 
 **Rezultat**: `orbic_app` (binar ARM static) și fișierele de certificat DER
@@ -707,8 +707,8 @@ python3 gen_pki.py         # Generate certificates
 #### Pasul 4: Activați shell-ul root pe Orbic
 
 ```bash
-# Connect to Orbic WiFi
-# Replace YOUR_ADMIN_PASSWORD with actual password
+# Conectează-te la WiFi Orbic
+# Înlocuiește YOUR_ADMIN_PASSWORD cu parola reală
 
 python enable_shell.py YOUR_ADMIN_PASSWORD
 ```
@@ -731,11 +731,11 @@ Acest pas încarcă și instalează:
 #### Pasul 6: Reporniți și accesați DagShell
 
 ```bash
-# Reboot Orbic (power cycle or via SSH)
+# Repornește Orbic (ciclul de alimentare sau prin SSH)
 reboot
 
-# After reboot, access DagShell
-# Browser: https://192.168.1.1:8443/
+# După repornire, accesează DagShell
+# Deschide în browser: https://192.168.1.1:8443/
 ```
 
 ### Avertisment privind certificatul de securitate
@@ -778,11 +778,11 @@ Opțional, dar **recomandat insistent** pentru funcționalitate completă
 
 **Pasul 2**: instalați Raspberry Pi OS
 ```bash
-# Download Raspberry Pi Imager
+# Descarcă Raspberry Pi Imager
 # https://www.raspberrypi.org/software/
 
-# Flash "Raspberry Pi OS Lite" to SD card
-# Boot Pi and complete setup
+# Scrie Raspberry Pi OS Lite pe cardul SD
+# Pornește Pi și finalizează configurarea
 ```
 
 **Pasul 3**: conectați adaptorul GPS
@@ -802,74 +802,74 @@ cd DagShell/pi_companion
 **Pasul 2**: Instalați dependențele
 
 ```bash
-# Update package list
+# Actualizează lista de pachete
 sudo apt-get update
 
-# Install required packages
+# Instalează pachetele necesare
 sudo apt-get install python3-serial python3-requests gpsd gpsd-clients
 
-# Install Python modules
+# Instalează modulele Python
 pip3 install pyserial gps3 bluetooth pybluez
 ```
 
 **Pasul 3**: Configurați serviciul GPS
 
 ```bash
-# Edit gpsd config
+# Editează configurația gpsd
 sudo nano /etc/default/gpsd
 
-# Set DEVICES line to your GPS serial port
-DEVICES="/dev/ttyUSB0"  # Adjust if different
+# Setează linia DEVICES la portul serial GPS
+DEVICES="/dev/ttyUSB0"  # Ajustează dacă este necesar
 
-# Restart gpsd
+# Repornește gpsd
 sudo systemctl restart gpsd
 
-# Test GPS
-cgps -s  # Should show satellite data after ~30 seconds
+# Testează GPS-ul
+cgps -s  # Datele sateliților ar trebui să apară după aproximativ 30 de secunde
 ```
 
 **Pasul 4**: Configurați modulul însoțitor pentru Pi
 
 ```bash
-# Edit configuration file
+# Editează fișierul de configurare
 nano pi_companion/config.py
 
-# Set Orbic IP address
+# Setează adresa IP Orbic
 ORBIC_IP = "192.168.1.1"
 ORBIC_PORT = "8443"
 
-# Set GPS serial port
+# Setează portul serial GPS
 GPS_DEVICE = "/dev/ttyUSB0"
 
-# Save and exit
+# Salvează și ieși
 ```
 
 **Pasul 5**: Instalați serviciul systemd
 
 ```bash
-# Copy service file
+# Copiază fișierul serviciului
 sudo cp pi_companion.service /etc/systemd/system/
 
-# Reload systemd
+# Reîncarcă systemd
 sudo systemctl daemon-reload
 
-# Enable auto-start
+# Activează pornirea automată
 sudo systemctl enable pi-companion
 
-# Start service
+# Pornește serviciul
 sudo systemctl start pi-companion
 
-# Check status
+# Verifică starea
 sudo systemctl status pi-companion
 ```
 
 **Pasul 6**: Verificați comunicarea
 
 ```bash
-# Check logs
+# Verifică jurnalele
 journalctl -u pi-companion -f
 
-# Should see GPS coordinates being sent to Orbic
+# Ar trebui să vezi coordonatele GPS trimise către Orbic
 ```
 
 ### Configurarea rețelei
@@ -877,17 +877,17 @@ journalctl -u pi-companion -f
 **Option A**: WiFi Connection
 
 ```bash
-# Pi connects to Orbic hotspot
-# Edit wpa_supplicant config
+# Pi se conectează la hotspotul Orbic
+# Editează configurația wpa_supplicant
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-# Add network
+# Adaugă o rețea
 network={
     ssid="Orbic_SSID"
     psk="PASSWORD"
 }
 
-# Restart WiFi
+# Repornește WiFi
 sudo systemctl restart networking
 ```
 
@@ -901,19 +901,19 @@ sudo systemctl restart networking
 
 **Configurarea USB Gadget**:
 ```bash
-# Edit config.txt
+# Editează config.txt
 sudo nano /boot/config.txt
 
-# Add at end
+# Adaugă la final
 dtoverlay=dwc2
 
-# Edit cmdline.txt
+# Editează cmdline.txt
 sudo nano /boot/cmdline.txt
 
-# Add after rootwait
+# Adaugă după rootwait
 modules-load=dwc2,g_ether
 
-# Reboot
+# Repornește
 sudo reboot
 ```
 
@@ -1297,24 +1297,24 @@ ______
 
 **Exportarea datelor în Wireshark**:
 ```bash
-# Capture pcap file
+# Capturează fișierul pcap
 tcpdump -i wlan0 -w /data/capture.pcap
 
-# Download via file browser
-# Open in Wireshark on PC
+# Descarcă prin browserul de fișiere
+# Deschide în Wireshark pe PC
 ```
 
 **Importarea traseelor GPS în QGIS**:
 ```bash
-# Export GPX format
+# Exportă în format GPX
 python gps_to_gpx.py /data/gps_coords.txt
 
-# Import to QGIS as vector layer
+# Importă în QGIS ca strat vectorial
 ```
 
 **Sincronizarea cu o bază de date externă**:
 ```python
-# Custom script to upload wardrive data to MySQL
+# Script personalizat pentru încărcarea datelor wardrive în MySQL
 import mysql.connector
 import csv
 
@@ -1337,16 +1337,16 @@ conn.commit()
 
 **Optimizarea vitezei de scanare**:
 ```bash
-# Edit wardrive scan interval
-# In DagShell web UI, change from 5s to 3s for faster scanning
-# Trade-off: Higher CPU usage, potential missed networks
+# Editează intervalul de scanare wardrive
+# În interfața web DagShell, schimbă de la 5 s la 3 s pentru scanare mai rapidă
+# În schimb, crește utilizarea CPU și pot fi ratate rețele
 ```
 
 **Optimizarea bateriei** (dacă folosiți un acumulator extern):
 ```bash
-# Reduce screen brightness on Orbic
-# Disable unused features (BT, GPS when not needed)
-# Use sleep mode between wardrive sessions
+# Redu luminozitatea ecranului Orbic
+# Dezactivează funcțiile nefolosite (BT și GPS când nu sunt necesare)
+# Folosește modul de repaus între sesiunile wardrive
 ```
 
 ______

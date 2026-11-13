@@ -1,7 +1,7 @@
 ---
 title: "دليل DagShell للبرامج الثابتة المخصصة لجهاز Orbic RCL400 لعام 2026"
 date: 2026-05-28
-lastmod: 2026-11-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "دليل تقني لبرنامج DagShell الثابت على Orbic RCL400، يشمل التثبيت وأدوات الخصوصية والقيادة لمسح الشبكات وحدود البحث."
@@ -130,10 +130,10 @@ AT+CGSN      - Get IMEI (device identifier)
 
 **الأوامر**:
 ```bash
-# Enable TTL fix
+# فعّل إصلاح TTL
 iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
 
-# Disable TTL fix  
+# عطّل إصلاح TTL
 iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 ```
 
@@ -225,7 +225,7 @@ Message text here^Z
 
 **الأمر**:
 ```bash
-# Scan ports 1-1000 on target
+# افحص المنافذ من 1 إلى 1000 على الهدف
 nc -zv -w 2 TARGET_IP 1-1000 2>&1
 ```
 
@@ -246,11 +246,11 @@ nc -zv -w 2 TARGET_IP 1-1000 2>&1
 
 **الأوامر**:
 ```bash
-# Block IP
+# احظر عنوان IP
 iptables -I INPUT -s IP_ADDRESS -j DROP
 iptables -I OUTPUT -d IP_ADDRESS -j DROP
 
-# Unblock IP
+# أزل حظر عنوان IP
 iptables -D INPUT -s IP_ADDRESS -j DROP
 iptables -D OUTPUT -d IP_ADDRESS -j DROP
 ```
@@ -534,13 +534,13 @@ WantedBy=multi-user.target
 
 **الأوامر**:
 ```bash
-# Enable auto-start
+# فعّل التشغيل التلقائي
 sudo systemctl enable pi-companion
 
-# Start service
+# ابدأ الخدمة
 sudo systemctl start pi-companion
 
-# Check status
+# تحقق من الحالة
 sudo systemctl status pi-companion
 ```
 
@@ -653,39 +653,39 @@ ______
 
 **Windows**:
 ```powershell
-# Install Python 3
-# Download from python.org
+# ثبّت Python 3
+# نزّل من python.org
 
-# Install required modules
+# ثبّت الوحدات المطلوبة
 pip install requests cryptography
 
-# ARM cross-compiler included in gcc_win/ folder
+# مترجم ARM متضمن في مجلد gcc_win
 ```
 
 **macOS**:
 ```bash
-# Install Homebrew if not already installed
+# ثبّت Homebrew إن لم يكن مثبتاً
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
+# ثبّت Python 3
 brew install python3
 
-# Install required modules
+# ثبّت الوحدات المطلوبة
 pip3 install requests cryptography
 
-# ARM toolchain included in gcc_mac/ folder
+# أدوات ARM متضمنة في مجلد gcc_mac
 ```
 
 **Linux**:
 ```bash
-# Install Python 3 and pip
+# ثبّت Python 3 وpip
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 
-# Install required modules
+# ثبّت الوحدات المطلوبة
 pip3 install requests cryptography
 
-# Install ARM cross-compiler
+# ثبّت مترجم ARM
 sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
@@ -701,15 +701,15 @@ cd DagShell
 **Windows**:
 ```powershell
 cd orbic_fw_c
-python gen_pki.py          # Generate certificates
-.\build.ps1                # Compile firmware
+python gen_pki.py          # أنشئ الشهادات
+.\build.ps1                # جمّع البرنامج الثابت
 ```
 
 **macOS/Linux**:
 ```bash
 cd orbic_fw_c
-python3 gen_pki.py         # Generate certificates
-./build.sh                 # Compile firmware (auto-builds BearSSL)
+python3 gen_pki.py         # أنشئ الشهادات
+./build.sh                 # جمّع البرنامج الثابت، ويُبنى BearSSL تلقائياً
 ```
 
 **الناتج**: `orbic_app` (ملف ARM ثنائي ثابت) وملفات شهادات DER
@@ -719,8 +719,8 @@ python3 gen_pki.py         # Generate certificates
 #### الخطوة 4: تفعيل shell root على Orbic
 
 ```bash
-# Connect to Orbic WiFi
-# Replace YOUR_ADMIN_PASSWORD with actual password
+# اتصل بشبكة Orbic WiFi
+# استبدل YOUR_ADMIN_PASSWORD بكلمة المرور الفعلية
 
 python enable_shell.py YOUR_ADMIN_PASSWORD
 ```
@@ -743,11 +743,11 @@ python deploy_base64.py
 #### الخطوة 6: إعادة التشغيل والوصول
 
 ```bash
-# Reboot Orbic (power cycle or via SSH)
+# أعد تشغيل Orbic (افصل الطاقة أو استخدم SSH)
 reboot
 
-# After reboot, access DagShell
-# Browser: https://192.168.1.1:8443/
+# بعد إعادة التشغيل، افتح DagShell
+# المتصفح: https://192.168.1.1:8443/
 ```
 
 ### تحذير شهادة الأمان
@@ -790,11 +790,11 @@ ______
 
 **الخطوة 2**: ثبّت Raspberry Pi OS
 ```bash
-# Download Raspberry Pi Imager
+# نزّل Raspberry Pi Imager
 # https://www.raspberrypi.org/software/
 
-# Flash "Raspberry Pi OS Lite" to SD card
-# Boot Pi and complete setup
+# اكتب Raspberry Pi OS Lite على بطاقة SD
+# شغّل Pi وأكمل الإعداد
 ```
 
 **الخطوة 3**: صِل وحدة GPS
@@ -814,74 +814,74 @@ cd DagShell/pi_companion
 **الخطوة 2**: ثبّت التبعيات
 
 ```bash
-# Update package list
+# حدّث قائمة الحزم
 sudo apt-get update
 
-# Install required packages
+# ثبّت الحزم المطلوبة
 sudo apt-get install python3-serial python3-requests gpsd gpsd-clients
 
-# Install Python modules
+# ثبّت وحدات Python
 pip3 install pyserial gps3 bluetooth pybluez
 ```
 
 **الخطوة 3**: أعد إعداد خدمة GPS
 
 ```bash
-# Edit gpsd config
+# عدّل إعدادات gpsd
 sudo nano /etc/default/gpsd
 
-# Set DEVICES line to your GPS serial port
-DEVICES="/dev/ttyUSB0"  # Adjust if different
+# اضبط سطر DEVICES على منفذ GPS التسلسلي
+DEVICES="/dev/ttyUSB0"  # عدّل إذا لزم الأمر
 
-# Restart gpsd
+# أعد تشغيل gpsd
 sudo systemctl restart gpsd
 
-# Test GPS
-cgps -s  # Should show satellite data after ~30 seconds
+# اختبر GPS
+cgps -s  # يفترض ظهور بيانات الأقمار الصناعية بعد نحو 30 ثانية
 ```
 
 **الخطوة 4**: أعد إعداد Pi المرافق
 
 ```bash
-# Edit configuration file
+# عدّل ملف الإعدادات
 nano pi_companion/config.py
 
-# Set Orbic IP address
+# اضبط عنوان IP لـ Orbic
 ORBIC_IP = "192.168.1.1"
 ORBIC_PORT = "8443"
 
-# Set GPS serial port
+# اضبط منفذ GPS التسلسلي
 GPS_DEVICE = "/dev/ttyUSB0"
 
-# Save and exit
+# احفظ واخرج
 ```
 
 **الخطوة 5**: ثبّت خدمة systemd
 
 ```bash
-# Copy service file
+# انسخ ملف الخدمة
 sudo cp pi_companion.service /etc/systemd/system/
 
-# Reload systemd
+# أعد تحميل systemd
 sudo systemctl daemon-reload
 
-# Enable auto-start
+# فعّل التشغيل التلقائي
 sudo systemctl enable pi-companion
 
-# Start service
+# ابدأ الخدمة
 sudo systemctl start pi-companion
 
-# Check status
+# تحقق من الحالة
 sudo systemctl status pi-companion
 ```
 
 **الخطوة 6**: تحقق من الاتصال
 
 ```bash
-# Check logs
+# تحقق من السجلات
 journalctl -u pi-companion -f
 
-# Should see GPS coordinates being sent to Orbic
+# يفترض أن ترى إحداثيات GPS تُرسل إلى Orbic
 ```
 
 ### إعداد الشبكة
@@ -889,17 +889,17 @@ journalctl -u pi-companion -f
 **الخيار A**: اتصال WiFi
 
 ```bash
-# Pi connects to Orbic hotspot
-# Edit wpa_supplicant config
+# يتصل Pi بنقطة اتصال Orbic
+# عدّل إعداد wpa_supplicant
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
-# Add network
+# أضف شبكة
 network={
     ssid="Orbic_SSID"
     psk="PASSWORD"
 }
 
-# Restart WiFi
+# أعد تشغيل WiFi
 sudo systemctl restart networking
 ```
 
@@ -913,19 +913,19 @@ sudo systemctl restart networking
 
 **إعداد USB gadget**:
 ```bash
-# Edit config.txt
+# عدّل config.txt
 sudo nano /boot/config.txt
 
-# Add at end
+# أضف في النهاية
 dtoverlay=dwc2
 
-# Edit cmdline.txt
+# عدّل cmdline.txt
 sudo nano /boot/cmdline.txt
 
-# Add after rootwait
+# أضف بعد rootwait
 modules-load=dwc2,g_ether
 
-# Reboot
+# أعد التشغيل
 sudo reboot
 ```
 
@@ -1307,24 +1307,24 @@ ______
 
 **تصدير البيانات إلى Wireshark**:
 ```bash
-# Capture pcap file
+# التقط ملف pcap
 tcpdump -i wlan0 -w /data/capture.pcap
 
-# Download via file browser
-# Open in Wireshark on PC
+# نزّل عبر متصفح الملفات
+# افتح في Wireshark على الكمبيوتر
 ```
 
 **استيراد مسارات GPS إلى QGIS**:
 ```bash
-# Export GPX format
+# صدّر بصيغة GPX
 python gps_to_gpx.py /data/gps_coords.txt
 
-# Import to QGIS as vector layer
+# استورد إلى QGIS كطبقة متجهة
 ```
 
 **المزامنة مع قاعدة بيانات خارجية**:
 ```python
-# Custom script to upload wardrive data to MySQL
+# برنامج مخصص لرفع بيانات wardrive إلى MySQL
 import mysql.connector
 import csv
 
@@ -1347,16 +1347,16 @@ conn.commit()
 
 **تحسين سرعة المسح**:
 ```bash
-# Edit wardrive scan interval
-# In DagShell web UI, change from 5s to 3s for faster scanning
-# Trade-off: Higher CPU usage, potential missed networks
+# عدّل فترة مسح wardrive
+# في واجهة DagShell على الويب، غيّر الفترة من 5 ثوانٍ إلى 3 ثوانٍ لتسريع المسح
+# مقابل ذلك، يزداد استخدام CPU وقد تفوت بعض الشبكات
 ```
 
 **تحسين البطارية** (عند استخدام بطارية خارجية):
 ```bash
-# Reduce screen brightness on Orbic
-# Disable unused features (BT, GPS when not needed)
-# Use sleep mode between wardrive sessions
+# خفّض سطوع شاشة Orbic
+# عطّل الميزات غير المستخدمة (BT وGPS عند عدم الحاجة)
+# استخدم وضع السكون بين جلسات wardrive
 ```
 
 ______
