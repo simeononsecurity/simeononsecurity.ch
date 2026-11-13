@@ -1,7 +1,7 @@
 ---
 title: "NISTサイバーセキュリティフレームワークの導入"
 date: 2023-03-18
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "NISTサイバーセキュリティフレームワークを導入し、サイバー脅威から組織を保護する方法を、ステップバイステップのガイドでご覧ください。"
@@ -16,7 +16,7 @@ coverCaption: ""
 
 ## NIST サイバーセキュリティフレームワークを理解する
 
-その [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)は、組織がサイバーセキュリティリスクを管理するための一連のガイドライン、ベストプラクティス、基準を提供する自主的な枠組みである。政府機関、業界の専門家、その他の利害関係者からのフィードバックに基づいて策定された。
+その [NISTサイバーセキュリティフレームワーク](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)は、組織がサイバーセキュリティリスクを管理するための一連のガイドライン、ベストプラクティス、基準を提供する自主的な枠組みである。政府機関、業界の専門家、その他の利害関係者からのフィードバックに基づいて策定された。
 
 このフレームワークは、**5つのコア機能**で構成されている：
 
@@ -39,15 +39,15 @@ ______
 
 ### NIST サイバーセキュリティフレームワークを実施するためのステップ
 
-NISTサイバーセキュリティ・フレームワークの [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)には、評価、計画、実施、モニタリングの継続的なサイクルが含まれる。以下はその手順である：
+[NISTサイバーセキュリティフレームワーク](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)には、評価、計画、実施、モニタリングの継続的なサイクルが含まれる。以下はその手順である：
 
 #### ステップ1：優先順位とスコープ
 
-を実施する最初のステップは [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)は、サイバーセキュリティへの取り組みに優先順位を付け、範囲を決めることである。重要な資産とビジネス・プロセスを特定し、そのリスク・レベルを判断する。これにより、どの分野に最も注意を払う必要があるかを判断することができます。
+[NISTサイバーセキュリティフレームワーク](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)を実施する最初のステップは、サイバーセキュリティへの取り組みの優先順位と範囲を決めることです。重要な資産と業務プロセスを特定し、そのリスクレベルを判断します。これにより、特に注意を払うべき分野を把握できます。
 
 #### ステップ 2: オリエンテーション
 
-次のステップは、組織の方向性を定めることです。 [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)従業員や利害関係者に、フレームワークと組織にとってのその重要性についての研修を実施する。フレームワークの実施と維持のための役割と責任を確立する。
+次のステップは、組織が [NISTサイバーセキュリティフレームワーク](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)に沿えるようにすることです。従業員や関係者にフレームワークと組織にとっての重要性を説明し、導入と維持に関する役割と責任を定めます。
 
 #### ステップ3：現在のプロファイルを作成する
 
@@ -93,5 +93,5 @@ ______
 
 NIST サイバーセキュリティ・フレームワークを導入することは、組織がサイバー脅威から情報と資産を保護するのに役立ちます。本ガイドで説明したステップに従うことで、組織のリスク許容度やビジネス目標に沿った形でフレームワークを導入することができます。サイバーセキュリティは継続的な取り組みであり、継続的な監視と改善が必要であることを忘れないでください。
 
-*フレームワークの詳細については [**NIST Cybersecurity Framework**](https://www.nist.gov/cyberframework),visit the official NIST website and explore their [Cybersecurity Framework page](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)手遅れになるまで待つことなく、NISTサイバーセキュリティ・フレームワークの導入を開始し、サイバー脅威から組織を確実に保護しましょう。
+*フレームワークの詳細については [**NISTサイバーセキュリティフレームワーク**](https://www.nist.gov/cyberframework)、NIST公式ウェブサイトで[サイバーセキュリティフレームワークのページ](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)をご覧ください。手遅れになるまで待つことなく、NISTサイバーセキュリティ・フレームワークの導入を開始し、サイバー脅威から組織を確実に保護しましょう。
 

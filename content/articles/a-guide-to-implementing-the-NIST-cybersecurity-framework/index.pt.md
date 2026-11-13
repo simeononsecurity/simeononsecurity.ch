@@ -1,11 +1,11 @@
 ---
 title: "Implementação do NIST Cybersecurity Framework"
 date: 2023-03-18
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda a implementar o NIST Cybersecurity Framework e proteger sua organização contra ameaças cibernéticas com este guia passo a passo."
-tags: ["cibersegurança", "NIST", "framework", "gestão de riscos", "segurança da informação", "ameaças cibernéticas", "implementação", "melhores práticas", "diretrizes", "normas", "ataques cibernéticos", "avaliação de riscos", "risco de cibersegurança", "proteção de dados", "conformidade", "segurança de TI", "segurança de rede", "resposta a incidentes", "medidas de segurança", "plano de cibersegurança"]
+tags: ["cibersegurança", "NIST", "estrutura", "gestão de riscos", "segurança da informação", "ameaças cibernéticas", "implementação", "melhores práticas", "diretrizes", "normas", "ataques cibernéticos", "avaliação de riscos", "risco de cibersegurança", "proteção de dados", "conformidade", "segurança de TI", "segurança de rede", "resposta a incidentes", "medidas de segurança", "plano de cibersegurança"]
 cover: "/img/cover/a-guide-to-implementing-the-NIST-cybersecurity-framework.webp"
 coverAlt: "Profissionais de diferentes áreas colaboram em um escritório moderno diante de uma grande tela digital que mostra conceitos de cibersegurança. A cena inclui laptops e tablets, com fundo escuro e cores vibrantes."
 coverCaption: ""
@@ -16,7 +16,7 @@ O National Institute of Standards and Technology (**NIST**) desenvolveu um frame
 
 ## Entenda o NIST Cybersecurity Framework
 
-O [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) é um framework voluntário que reúne diretrizes, melhores práticas e padrões para ajudar organizações a gerenciar riscos de cibersegurança. Ele foi desenvolvido com base em comentários de órgãos governamentais, especialistas do setor e outras partes interessadas.
+A [Estrutura de Cibersegurança do NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) é um framework voluntário que reúne diretrizes, melhores práticas e padrões para ajudar organizações a gerenciar riscos de cibersegurança. Ele foi desenvolvido com base em comentários de órgãos governamentais, especialistas do setor e outras partes interessadas.
 
 O framework está organizado em **cinco funções principais**:
 
@@ -38,15 +38,15 @@ ______
 
 ### Etapas para implementar o NIST Cybersecurity Framework
 
-A implementação do [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) segue um ciclo contínuo de avaliação, planejamento, implementação e monitoramento. Siga estas etapas:
+A implementação da [Estrutura de Cibersegurança do NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) segue um ciclo contínuo de avaliação, planejamento, implementação e monitoramento. Siga estas etapas:
 
 #### Etapa 1: Defina prioridades e escopo
 
-O primeiro passo para implementar o [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) é definir prioridades e escopo para seus esforços de cibersegurança. Identifique ativos e processos de negócio críticos e determine o nível de risco de cada um. Isso indica quais áreas exigem mais atenção.
+O primeiro passo para implementar a [Estrutura de Cibersegurança do NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) é definir prioridades e escopo para seus esforços de cibersegurança. Identifique ativos e processos de negócio críticos e determine o nível de risco de cada um. Isso indica quais áreas exigem mais atenção.
 
 #### Etapa 2: Oriente a organização
 
-Prepare sua organização para o [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Treine funcionários e partes interessadas sobre o framework e sua importância para a organização. Defina funções e responsabilidades para implementá-lo e mantê-lo.
+Prepare sua organização para a [Estrutura de Cibersegurança do NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Treine funcionários e partes interessadas sobre o framework e sua importância para a organização. Defina funções e responsabilidades para implementá-lo e mantê-lo.
 
 #### Etapa 3: Crie um perfil atual
 
@@ -92,4 +92,4 @@ ______
 
 Implementar o NIST Cybersecurity Framework ajuda sua organização a proteger informações e ativos contra ameaças cibernéticas. Siga as etapas deste guia e alinhe a implementação à tolerância a riscos e aos objetivos de negócio da organização. Cibersegurança é um esforço contínuo que exige monitoramento e melhoria constantes.
 
-*Para saber mais sobre o [**NIST Cybersecurity Framework**](https://www.nist.gov/cyberframework), visite o site oficial do NIST e consulte a página do [Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Comece a implementar o framework antes que seja tarde e mantenha sua organização protegida contra ameaças cibernéticas.*
+*Para saber mais sobre a [**Estrutura de Cibersegurança do NIST**](https://www.nist.gov/cyberframework), visite o site oficial do NIST e consulte a página da [Estrutura de Cibersegurança](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Comece a implementar o framework antes que seja tarde e mantenha sua organização protegida contra ameaças cibernéticas.*

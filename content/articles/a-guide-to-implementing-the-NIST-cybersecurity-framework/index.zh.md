@@ -1,7 +1,7 @@
 ---
 title: "实施 NIST 网络安全框架"
 date: 2023-03-18
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "了解如何实施 NIST 网络安全框架，并通过我们的分步指南保护您的组织免受网络威胁。"
@@ -16,7 +16,7 @@ coverCaption: ""
 
 ## 了解 NIST 网络安全框架
 
-网络安全框架 [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)是一个自愿性框架，提供了一套指南、最佳实践和标准，以帮助组织管理网络安全风险。它是根据政府机构、行业专家和其他利益相关者的反馈意见制定的。
+网络安全框架 [NIST 网络安全框架](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)是一个自愿性框架，提供了一套指南、最佳实践和标准，以帮助组织管理网络安全风险。它是根据政府机构、行业专家和其他利益相关者的反馈意见制定的。
 
 该框架分为**五项核心功能**：
 
@@ -39,15 +39,15 @@ ______
 
 ### 实施 NIST 网络安全框架的步骤
 
-实施 [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)这涉及评估、规划、实施和监测的持续循环。以下是应遵循的步骤：
+实施 [NIST 网络安全框架](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)这涉及评估、规划、实施和监测的持续循环。以下是应遵循的步骤：
 
 #### 步骤 1：确定优先次序和范围
 
-实施 [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)是确定网络安全工作的优先顺序和范围。确定关键资产和业务流程，并确定其风险程度。这将帮助您确定哪些领域最需要关注。
+实施 [NIST 网络安全框架](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)是确定网络安全工作的优先顺序和范围。确定关键资产和业务流程，并确定其风险程度。这将帮助您确定哪些领域最需要关注。
 
 #### 第 2 步：定位
 
-下一步是让您的组织了解 [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)为员工和利益相关者提供有关框架及其对组织重要性的培训。确立实施和维护框架的角色和责任。
+下一步是让您的组织了解 [NIST 网络安全框架](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)为员工和利益相关者提供有关框架及其对组织重要性的培训。确立实施和维护框架的角色和责任。
 
 #### 第 3 步：创建当前概况
 
@@ -93,5 +93,5 @@ ______
 
 实施 NIST 网络安全框架可帮助贵组织保护其信息和资产免受网络威胁。按照本指南中概述的步骤，您可以根据贵组织的风险承受能力和业务目标实施该框架。请记住，网络安全是一项持续性工作，必须不断进行监控和改进。
 
-*更多信息 [**NIST Cybersecurity Framework**](https://www.nist.gov/cyberframework),visit the official NIST website and explore their [Cybersecurity Framework page](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)不要等到为时已晚，请开始实施 NIST 网络安全框架，以确保您的组织受到良好保护，免受网络威胁。
+*更多信息 [**NIST 网络安全框架**](https://www.nist.gov/cyberframework)，请访问 NIST 官方网站并查看其 [网络安全框架页面](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework)。不要等到为时已晚，请开始实施 NIST 网络安全框架，以确保您的组织受到良好保护，免受网络威胁。
 

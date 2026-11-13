@@ -1,7 +1,7 @@
 ---
 title: "Implementarea Cadrului de securitate cibernetică NIST"
 date: 2023-03-18
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aflați cum să implementați Cadrul de securitate cibernetică NIST și cum să vă protejați organizația de amenințările cibernetice cu ajutorul ghidului nostru pas cu pas."
@@ -16,7 +16,7 @@ Institutul Național de Standarde și Tehnologie (**NIST**) a elaborat un cadru 
 
 ## Înțelegerea cadrului de securitate cibernetică NIST
 
-Site-ul [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) este un cadru voluntar care oferă un set de orientări, bune practici și standarde pentru a ajuta organizațiile să gestioneze riscurile de securitate cibernetică. Acesta a fost elaborat pe baza feedback-ului primit de la agențiile guvernamentale, experții din industrie și alte părți interesate.
+Site-ul [Cadrului de securitate cibernetică NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) este un cadru voluntar care oferă un set de orientări, bune practici și standarde pentru a ajuta organizațiile să gestioneze riscurile de securitate cibernetică. Acesta a fost elaborat pe baza feedback-ului primit de la agențiile guvernamentale, experții din industrie și alte părți interesate.
 
 Cadrul este organizat în **cinci funcții de bază**:
 
@@ -39,15 +39,15 @@ ______
 
 ### Pași pentru implementarea Cadrului de securitate cibernetică NIST
 
-Punerea în aplicare a [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) implică un ciclu continuu de evaluare, planificare, punere în aplicare și monitorizare. Iată care sunt pașii care trebuie urmați:
+Punerea în aplicare a [Cadrului de securitate cibernetică NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) implică un ciclu continuu de evaluare, planificare, punere în aplicare și monitorizare. Iată care sunt pașii care trebuie urmați:
 
 #### Etapa 1: Stabilirea priorităților și a domeniului de aplicare
 
-Primul pas în punerea în aplicare a [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) este de a vă stabili prioritățile și de a stabili domeniul de aplicare a eforturilor de securitate cibernetică. Identificați-vă activele și procesele de afaceri esențiale și determinați nivelul de risc al acestora. Acest lucru vă va ajuta să determinați care sunt domeniile care necesită cea mai mare atenție.
+Primul pas în punerea în aplicare a [Cadrului de securitate cibernetică NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) este de a vă stabili prioritățile și de a stabili domeniul de aplicare a eforturilor de securitate cibernetică. Identificați-vă activele și procesele de afaceri esențiale și determinați nivelul de risc al acestora. Acest lucru vă va ajuta să determinați care sunt domeniile care necesită cea mai mare atenție.
 
 #### Etapa 2: Orientați-vă
 
-Următorul pas constă în orientarea organizației dvs. [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) Oferiți instruire angajaților și părților interesate cu privire la acest cadru și la importanța acestuia pentru organizația dumneavoastră. Stabiliți rolurile și responsabilitățile pentru implementarea și menținerea cadrului.
+Următorul pas constă în orientarea organizației dvs. [Cadrul de securitate cibernetică NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Oferiți instruire angajaților și părților interesate cu privire la acest cadru și la importanța acestuia pentru organizația dumneavoastră. Stabiliți rolurile și responsabilitățile pentru implementarea și menținerea cadrului.
 
 #### Etapa 3: Crearea unui profil actual
 
@@ -93,5 +93,5 @@ ______
 
 Punerea în aplicare a Cadrului de securitate cibernetică NIST poate ajuta organizația dumneavoastră să își protejeze informațiile și activele împotriva amenințărilor cibernetice. Urmând pașii descriși în acest ghid, puteți implementa cadrul într-un mod care să se alinieze cu toleranța la risc și obiectivele de afaceri ale organizației dumneavoastră. Nu uitați că securitatea cibernetică este un efort continuu și că este necesară o monitorizare și o îmbunătățire continuă.
 
-*Pentru mai multe informații despre [**NIST Cybersecurity Framework**](https://www.nist.gov/cyberframework),visit the official NIST website and explore their [Cybersecurity Framework page](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) Nu așteptați până când va fi prea târziu, începeți să implementați Cadrul de securitate cibernetică NIST pentru a vă asigura că organizația dumneavoastră este bine protejată împotriva amenințărilor cibernetice.
+*Pentru mai multe informații despre [**Cadrul de securitate cibernetică NIST**](https://www.nist.gov/cyberframework), vizitați site-ul oficial NIST și consultați [pagina Cadrului de securitate cibernetică](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Nu așteptați până când va fi prea târziu, începeți să implementați Cadrul de securitate cibernetică NIST pentru a vă asigura că organizația dumneavoastră este bine protejată împotriva amenințărilor cibernetice.
 
