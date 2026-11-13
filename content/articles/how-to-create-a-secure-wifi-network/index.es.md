@@ -3,8 +3,9 @@ title: "Creación de una red Wi-Fi segura: Pasos esenciales para una sólida pro
 draft: false
 toc: true
 date: 2023-05-27
+lastmod: 2026-11-12
 description: "Aprenda a crear una red Wi-Fi segura para proteger sus datos y garantizar una experiencia en línea segura."
-tags: ["red Wi-Fi segura", "Seguridad Wi-Fi", "cifrado de red", "Contraseña Wi-Fi", "actualizaciones del firmware del router", "protección firewall", "gestión remota desactivada", "login por defecto del router", "Filtrado de direcciones MAC", "desactivar WPS", "red de invitados", "supervisar la actividad de la red", "seguridad en línea", "protección de datos", "privacidad de la red", "ciberseguridad", "red inalámbrica", "seguridad en internet", "salvaguardias de la red", "vulnerabilidad de la red"]
+tags: ["red Wi-Fi segura", "Seguridad Wi-Fi", "cifrado de red", "Contraseña Wi-Fi", "actualizaciones del firmware del router", "protección firewall", "gestión remota desactivada", "credenciales predeterminadas del router", "Filtrado de direcciones MAC", "desactivar WPS", "red de invitados", "supervisar la actividad de la red", "seguridad en línea", "protección de datos", "privacidad de la red", "ciberseguridad", "red inalámbrica", "seguridad en internet", "salvaguardias de la red", "vulnerabilidad de la red"]
 cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Un escudo que protege la señal Wi-Fi de los piratas informáticos."
 coverCaption: ""
@@ -12,7 +13,7 @@ coverCaption: ""
 
 **Cómo crear una red Wi-Fi segura**
 
-En la era digital actual, disponer de una red Wi-Fi segura es esencial para proteger sus datos confidenciales y garantizar una experiencia en línea segura. Una red Wi-Fi segura no sólo evita el acceso no autorizado a tu conexión a Internet, sino que también protege tu información personal para que no se vea comprometida. En este artículo, le proporcionaremos valiosos consejos y técnicas para crear una **red Wi-Fi segura** que pueda ayudarle a mantenerse protegido.
+En la era digital actual, disponer de una red Wi-Fi segura es esencial para proteger sus datos confidenciales y garantizar una experiencia en línea segura. Una red Wi-Fi segura no sólo evita el acceso no autorizado a su conexión a Internet, sino que también protege su información personal para que no se vea comprometida. En este artículo, le proporcionaremos valiosos consejos y técnicas para crear una **red Wi-Fi segura** que pueda ayudarle a mantenerse protegido.
 
 ______
 
@@ -30,7 +31,7 @@ ______
 
 ## Habilitar cifrado WPA2 o WPA3
 
-**La encriptación juega un papel crucial en la seguridad de tu red Wi-Fi. Garantiza que los datos transmitidos entre tus dispositivos y el router estén protegidos de accesos no autorizados. Los estándares de encriptación recomendados son **WPA2 (Wi-Fi Protected Access II)** y el más reciente **WPA3**, que proporcionan una seguridad mayor que el anticuado y vulnerable protocolo WEP (Wired Equivalent Privacy). Comprueba la configuración de tu router para asegurarte de que el cifrado WPA2 o WPA3 está activado. Si tu router no admite estos métodos de cifrado, es hora de que te plantees actualizarlo a un modelo más reciente que ofrezca funciones de seguridad mejoradas.
+La encriptación juega un papel crucial en la seguridad de su red Wi-Fi. Garantiza que los datos transmitidos entre sus dispositivos y el router estén protegidos de accesos no autorizados. Los estándares de encriptación recomendados son **WPA2 (Wi-Fi Protected Access II)** y el más reciente **WPA3**, que proporcionan una seguridad mayor que el anticuado y vulnerable protocolo WEP (Wired Equivalent Privacy). Compruebe la configuración de su router para confirmar que el cifrado WPA2 o WPA3 está activado. Si su router no admite estos métodos de cifrado, considere actualizarlo a un modelo más reciente que ofrezca funciones de seguridad mejoradas.
 
 ______
 
@@ -42,25 +43,25 @@ ______
 
 ## Activar Firewall de Red
 
-Habilitar un **cortafuegos** en tu red Wi-Fi añade una capa extra de protección monitorizando y filtrando el tráfico de red entrante y saliente. La mayoría de los routers modernos tienen cortafuegos integrados que pueden activarse fácilmente a través de la página de configuración del router. El cortafuegos actúa como un guardián que sólo permite el paso del tráfico autorizado y bloquea la entrada a la red de posibles amenazas. Ayuda a proteger tus dispositivos de malware, intentos de pirateo y otras actividades maliciosas.
+Habilitar un **cortafuegos** en su red Wi-Fi añade una capa extra de protección monitorizando y filtrando el tráfico de red entrante y saliente. La mayoría de los routers modernos tienen cortafuegos integrados que pueden activarse fácilmente a través de la página de configuración del router. El cortafuegos actúa como un guardián que sólo permite el paso del tráfico autorizado y bloquea la entrada a la red de posibles amenazas. Ayuda a proteger sus dispositivos de malware, intentos de pirateo y otras actividades maliciosas.
 
 ______
 
 ## Actualice regularmente el firmware del router
 
-Mantener actualizado el firmware de su **router** es crucial para mantener una red Wi-Fi segura. Los fabricantes lanzan a menudo actualizaciones de firmware que solucionan vulnerabilidades de seguridad y proporcionan funciones adicionales. Comprueba regularmente si hay actualizaciones de firmware en el sitio web del fabricante de tu router o en el panel de administración del router. Siga las instrucciones proporcionadas para descargar e instalar la última versión del firmware. De este modo, te aseguras de que tu router cuenta con los últimos parches de seguridad, reduciendo el riesgo de posibles ataques.
+Mantener actualizado el firmware de su **router** es crucial para mantener una red Wi-Fi segura. Los fabricantes lanzan a menudo actualizaciones de firmware que solucionan vulnerabilidades de seguridad y proporcionan funciones adicionales. Compruebe regularmente si hay actualizaciones de firmware en el sitio web del fabricante de su router o en el panel de administración del router. Siga las instrucciones proporcionadas para descargar e instalar la última versión del firmware. De este modo, se asegura de que su router cuenta con los últimos parches de seguridad, reduciendo el riesgo de posibles ataques.
 
 ______
 
 ## Desactivar la gestión remota
 
-La gestión remota le permite acceder y configurar los ajustes de su router desde una ubicación remota. Aunque esta característica puede ser conveniente, también plantea un riesgo de seguridad. **Desactive la gestión remota** para evitar accesos no autorizados a la interfaz de administración de su router. Dejar activada la gestión remota puede facilitar a los hackers explotar cualquier vulnerabilidad y hacerse con el control de tu red. Consulta el manual de usuario de tu router o la página web del fabricante para obtener instrucciones sobre cómo desactivar la gestión remota.
+La gestión remota le permite acceder y configurar los ajustes de su router desde una ubicación remota. Aunque esta característica puede ser conveniente, también plantea un riesgo de seguridad. **Desactive la gestión remota** para evitar accesos no autorizados a la interfaz de administración de su router. Dejar activada la gestión remota puede facilitar a los hackers explotar cualquier vulnerabilidad y hacerse con el control de su red. Consulte el manual de usuario de su router o la página web del fabricante para obtener instrucciones sobre cómo desactivar la gestión remota.
 
 ______
 
 ## Cambiar las credenciales de inicio de sesión por defecto del router
 
-Cuando se configura un nuevo router, a menudo viene con credenciales de inicio de sesión predeterminadas. Estos nombres de usuario y contraseñas predeterminados son ampliamente conocidos, lo que facilita a los atacantes el acceso a la configuración del router. Es importante **cambiar las credenciales de inicio de sesión predeterminadas del router** por otras únicas y seguras. Elija una contraseña compleja que incluya una combinación de letras, números y caracteres especiales. Además, si es posible, cambia el nombre de usuario predeterminado. Este paso añade una capa extra de seguridad a tu red Wi-Fi.
+Cuando se configura un nuevo router, a menudo viene con credenciales de inicio de sesión predeterminadas. Estos nombres de usuario y contraseñas predeterminados son ampliamente conocidos, lo que facilita a los atacantes el acceso a la configuración del router. Es importante **cambiar las credenciales de inicio de sesión predeterminadas del router** por otras únicas y seguras. Elija una contraseña compleja que incluya una combinación de letras, números y caracteres especiales. Además, si es posible, cambie el nombre de usuario predeterminado. Este paso añade una capa extra de seguridad a su red Wi-Fi.
 
 ______
 
@@ -72,13 +73,13 @@ ______
 
 ## Desactivar WPS (Wi-Fi Protected Setup)
 
-Wi-Fi Protected Setup (WPS) es una función diseñada para simplificar el proceso de conexión de dispositivos a una red Wi-Fi. Sin embargo, también introduce una potencial vulnerabilidad de seguridad. WPS es susceptible de ataques de fuerza bruta, en los que los piratas informáticos pueden adivinar sistemáticamente el PIN utilizado para la autenticación. Es aconsejable **desactivar WPS** en el router para eliminar este riesgo de seguridad. La mayoría de los routers ofrecen una opción para desactivar WPS en la página de configuración del router. Consulta el manual de usuario de tu router o la página web del fabricante para obtener instrucciones específicas.
+Wi-Fi Protected Setup (WPS) es una función diseñada para simplificar el proceso de conexión de dispositivos a una red Wi-Fi. Sin embargo, también introduce una potencial vulnerabilidad de seguridad. WPS es susceptible de ataques de fuerza bruta, en los que los piratas informáticos pueden adivinar sistemáticamente el PIN utilizado para la autenticación. Es aconsejable **desactivar WPS** en el router para eliminar este riesgo de seguridad. La mayoría de los routers ofrecen una opción para desactivar WPS en la página de configuración del router. Consulte el manual de usuario de su router o la página web del fabricante para obtener instrucciones específicas.
 
 ______
 
 ## Habilitar red de invitados para visitantes
 
-Si recibe visitas o invitados con frecuencia que necesitan conectarse a su red Wi-Fi, considere la posibilidad de habilitar una **red de invitados**. Una red de invitados proporciona una red Wi-Fi separada para los invitados, manteniéndolos aislados de su red principal. Esto ayuda a proteger sus datos y dispositivos sensibles de posibles brechas de seguridad. Configura tu router para habilitar una red de invitados y establece una contraseña diferente para el acceso de invitados. De este modo, tus invitados podrán disfrutar de conectividad a Internet sin poner en peligro la seguridad de tu red principal.
+Si recibe visitas o invitados con frecuencia que necesitan conectarse a su red Wi-Fi, considere la posibilidad de habilitar una **red de invitados**. Una red de invitados proporciona una red Wi-Fi separada para los invitados, manteniéndolos aislados de su red principal. Esto ayuda a proteger sus datos y dispositivos sensibles de posibles brechas de seguridad. Configure su router para habilitar una red de invitados y establezca una contraseña diferente para el acceso de invitados. De este modo, sus invitados podrán disfrutar de conectividad a Internet sin poner en peligro la seguridad de su red principal.
 
 ______
 
@@ -88,7 +89,44 @@ Para garantizar la seguridad continua de su red Wi-Fi, es esencial **vigilar reg
 
 ______
 
+## Elija el modo de seguridad inalámbrica adecuado
+
+Use **WPA3-Personal** con una frase de contraseña robusta cuando todos los dispositivos importantes lo admitan. Use **WPA2-Personal con AES o CCMP** para los dispositivos antiguos. Use el modo de transición WPA2/WPA3 durante un periodo de compatibilidad planificado. Después, cambie los dispositivos compatibles a WPA3 y retire los que necesiten seguridad antigua.
+
+En una organización, use **WPA3-Enterprise** o WPA2-Enterprise con 802.1X y un servicio RADIUS. La autenticación Enterprise proporciona credenciales separadas para cada usuario o dispositivo. Requiere procedimientos para certificados, identidades y recuperación.
+
+Evite WEP, el WPA original, WPA2 con TKIP y la seguridad abierta en una red privada. Active **Protected Management Frames** cuando el punto de acceso y los dispositivos lo admitan. La guía de la NSA para redes domésticas recomienda WPA3-Personal, una frase de contraseña de al menos veinte caracteres y marcos de administración protegidos cuando estén disponibles. Consulte las [recomendaciones de la NSA para redes domésticas](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF).
+
+No considere que ocultar el SSID sea un control de acceso. Ocultar el nombre no sustituye al cifrado y causa problemas de compatibilidad con algunos dispositivos. El filtrado MAC tampoco autentica a una persona. Muchos dispositivos aleatorizan su dirección MAC y un atacante con acceso local puede copiar una dirección permitida.
+
+## Itinerancia, ubicación y segmentación
+
+Use el mismo SSID y la misma política de seguridad en todos los puntos de acceso si quiere que los dispositivos cambien entre ellos. El dispositivo cliente sigue decidiendo cuándo usar la itinerancia. 802.11k, 802.11v y 802.11r mejoran la asistencia y la transferencia, pero los dispositivos antiguos o de bajo consumo a veces se desconectan cuando se activa Fast Transition. Pruebe teléfonos, impresoras, cámaras y dispositivos de voz antes de activar todas las opciones de itinerancia.
+
+Coloque los puntos de acceso por encima de los muebles y lejos del metal, los acuarios, los microondas y los muros gruesos. Empiece con zonas de cobertura solapadas. Después, reduzca la potencia de transmisión o cambie los canales si los clientes se quedan conectados al punto de acceso equivocado o si las celdas vecinas compiten en el mismo canal. Un enlace Ethernet cableado proporciona una ruta estable a cada nodo. Un enlace de retorno inalámbrico necesita una conexión fuerte entre nodos. Coloque el satélite entre el router y la zona con señal débil, no dentro de esa zona.
+
+Cree redes separadas de **uso principal, invitados e IoT**. Bloquee el acceso de invitados y dispositivos IoT a las interfaces de administración y a los dispositivos personales. Permita solo el tráfico entre dispositivos y servicios que requiera el uso de IoT. Compruebe el aislamiento con un dispositivo de prueba en vez de confiar en el nombre de la red.
+
+## Lista de comprobación de Wi-Fi seguro
+
+- **Administración del router:** Cambie la contraseña de administrador, actualice el firmware, desactive la administración accesible desde Internet y desactive UPnP salvo que un dispositivo documentado lo necesite.
+- **Modo inalámbrico:** Use WPA3-Personal o WPA2-Personal con AES si la compatibilidad lo exige.
+- **Credenciales:** Use una frase de contraseña única de al menos 16 caracteres. Elija 20 caracteres o más para una instalación nueva.
+- **WPS:** Desactive WPS después de la configuración. Para incorporar dispositivos, prefiera una aplicación o un código QR.
+- **Segmentación:** Aísle los dispositivos invitados e IoT de los dispositivos de confianza.
+- **Itinerancia:** Pruebe Fast Transition con todos los dispositivos importantes antes de activarlo en todas partes.
+- **Recuperación:** Guarde una copia de seguridad de la configuración y documente el procedimiento de restablecimiento y restauración.
+
+La [guía de la FTC sobre Wi-Fi doméstico](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network) también recomienda WPA3 o WPA2, actualizaciones de firmware, credenciales predeterminadas modificadas y la desactivación de la administración remota, WPS y UPnP.
+
 ## Conclusión
 
 Crear una red Wi-Fi segura es esencial para salvaguardar su información personal y garantizar una experiencia en línea segura. Siguiendo los pasos mencionados en este artículo, como elegir un nombre de red seguro, activar el cifrado, establecer una contraseña Wi-Fi segura y actualizar periódicamente el firmware del router, puede mejorar significativamente la seguridad de su red Wi-Fi. Además, la aplicación de medidas como la activación de un cortafuegos, la desactivación de la gestión remota y la utilización del filtrado de direcciones MAC refuerzan aún más la seguridad de su red. Manténgase alerta y supervise periódicamente su red para detectar cualquier indicio de acceso no autorizado o actividad sospechosa. Al dar prioridad a la seguridad Wi-Fi
 
+
+
+## Referencias
+
+- [NSA: Mejores prácticas para proteger la red doméstica](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF)
+- [FTC: Cómo proteger la red Wi-Fi doméstica](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network)
+- [CISA: Uso seguro de la tecnología inalámbrica](https://www.cisa.gov/sites/default/files/publications/Wireless-Security.pdf)

@@ -3,8 +3,9 @@ title: "Tworzenie bezpiecznej sieci Wi-Fi: Niezbędne kroki dla silnej ochrony o
 draft: false
 toc: true
 date: 2023-05-27
+lastmod: 2026-11-12
 description: "Dowiedz się, jak utworzyć bezpieczną sieć Wi-Fi, aby chronić swoje dane i zapewnić bezpieczne korzystanie z Internetu."
-tags: ["bezpieczna sieć Wi-Fi", "Bezpieczeństwo Wi-Fi", "szyfrowanie sieci", "Hasło Wi-Fi", "aktualizacje oprogramowania sprzętowego routera", "ochrona firewall", "zdalne zarządzanie wyłączone", "domyślny login routera", "Filtrowanie adresów MAC", "wyłączenie WPS", "sieć gości", "monitorowanie aktywności sieciowej", "bezpieczeństwo online", "ochrona danych", "prywatność sieci", "cyberbezpieczeństwo", "sieć bezprzewodowa", "bezpieczeństwo w internecie", "zabezpieczenia sieciowe", "podatność sieci"]
+tags: ["bezpieczna sieć Wi-Fi", "Bezpieczeństwo Wi-Fi", "szyfrowanie sieci", "Hasło Wi-Fi", "aktualizacje oprogramowania sprzętowego routera", "ochrona firewall", "zdalne zarządzanie wyłączone", "domyślne dane logowania do routera", "Filtrowanie adresów MAC", "wyłączenie WPS", "sieć gości", "monitorowanie aktywności sieciowej", "bezpieczeństwo online", "ochrona danych", "prywatność sieci", "cyberbezpieczeństwo", "sieć bezprzewodowa", "bezpieczeństwo w internecie", "zabezpieczenia sieciowe", "podatność sieci"]
 cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Osłona chroniąca sygnał Wi-Fi przed hakerami."
 coverCaption: ""
@@ -88,7 +89,44 @@ Aby zapewnić ciągłe bezpieczeństwo sieci Wi-Fi, konieczne jest **regularne m
 
 ______
 
+## Wybierz odpowiedni tryb zabezpieczeń sieci bezprzewodowej
+
+Używaj **WPA3-Personal** z silnym hasłem, jeśli obsługują go wszystkie ważne urządzenia. Dla starszych urządzeń wybierz **WPA2-Personal z AES lub CCMP**. Tryb przejściowy WPA2/WPA3 stosuj w zaplanowanym okresie zgodności. Następnie przenieś zgodne urządzenia do WPA3 i wymień te, które wymagają starszych zabezpieczeń.
+
+W organizacji używaj **WPA3-Enterprise** lub WPA2-Enterprise z 802.1X i usługą RADIUS. Uwierzytelnianie Enterprise zapewnia osobne dane logowania dla każdego użytkownika lub urządzenia. Wymaga procedur dotyczących certyfikatów, tożsamości i odzyskiwania dostępu.
+
+Unikaj WEP, pierwotnego WPA, WPA2 z TKIP oraz otwartych zabezpieczeń w sieci prywatnej. Włącz **Protected Management Frames**, jeśli obsługują je punkt dostępowy i klienci. Przewodnik NSA dotyczący sieci domowych zaleca WPA3-Personal, hasło o długości co najmniej dwudziestu znaków oraz chronione ramki zarządzania, jeśli są dostępne. Przeczytaj [zalecenia NSA dla sieci domowych](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF).
+
+Nie traktuj ukrytego identyfikatora SSID jako kontroli dostępu. Ukrycie nazwy nie zastępuje szyfrowania i powoduje problemy ze zgodnością u niektórych klientów. Filtrowanie MAC również nie uwierzytelnia osoby. Wiele klientów losuje adres MAC, a atakujący z lokalnym dostępem może skopiować dozwolony adres.
+
+## Roaming, rozmieszczenie i segmentacja
+
+Jeśli klienci mają przełączać się między punktami dostępowymi, używaj na wszystkich tego samego SSID i tych samych zasad zabezpieczeń. O roamingu nadal decyduje klient. 802.11k, 802.11v i 802.11r usprawniają asystę i przekazywanie połączenia, ale starsze lub energooszczędne urządzenia czasem rozłączają się po włączeniu Fast Transition. Przetestuj telefony, drukarki, kamery i urządzenia głosowe przed włączeniem wszystkich opcji roamingu.
+
+Umieść punkty dostępowe powyżej mebli oraz z dala od metalu, akwariów, kuchenek mikrofalowych i grubych murów. Zacznij od nakładających się obszarów zasięgu. Następnie obniż moc nadawania lub zmień kanały, jeśli klienci trzymają się niewłaściwego punktu dostępowego albo sąsiednie komórki korzystają z tego samego kanału. Przewodowy Ethernet zapewnia każdemu węzłowi stabilną trasę. Bezprzewodowy backhaul wymaga silnego połączenia między węzłami. Umieść więc satelitę między routerem a obszarem ze słabym sygnałem, a nie w tym obszarze.
+
+Utwórz osobne sieci **główną, gościnną i IoT**. Zablokuj gościom i urządzeniom IoT dostęp do interfejsów zarządzania oraz urządzeń osobistych. Zezwalaj wyłącznie na ruch między urządzeniem a usługą wymagany przez dane zastosowanie IoT. Sprawdź izolację z klienta testowego, zamiast polegać na nazwie sieci.
+
+## Lista kontrolna bezpiecznej sieci Wi-Fi
+
+- **Administracja routerem:** Zmień hasło administratora, zaktualizuj oprogramowanie sprzętowe, wyłącz zarządzanie z Internetu i wyłącz UPnP, chyba że potrzebuje go udokumentowane urządzenie.
+- **Tryb bezprzewodowy:** Używaj WPA3-Personal albo WPA2-Personal z AES, gdy wymaga tego zgodność.
+- **Dane logowania:** Używaj unikatowego hasła o długości co najmniej 16 znaków. Przy nowym wdrożeniu wybierz 20 lub więcej znaków.
+- **WPS:** Po konfiguracji wyłącz WPS. Do dodawania urządzeń preferuj aplikację lub kod QR.
+- **Segmentacja:** Odizoluj gości i klientów IoT od zaufanych urządzeń.
+- **Roaming:** Przetestuj Fast Transition ze wszystkimi ważnymi klientami przed włączeniem tej funkcji wszędzie.
+- **Odzyskiwanie:** Zachowaj kopię zapasową konfiguracji i zapisz procedurę resetowania oraz przywracania.
+
+[Przewodnik FTC dotyczący domowego Wi-Fi](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network) również zaleca WPA3 lub WPA2, aktualizacje oprogramowania sprzętowego, zmianę domyślnych danych logowania oraz wyłączenie zdalnego zarządzania, WPS i UPnP.
+
 ## Wnioski
 
 Stworzenie bezpiecznej sieci Wi-Fi jest niezbędne do ochrony danych osobowych i zapewnienia bezpiecznego korzystania z Internetu. Postępując zgodnie z krokami wymienionymi w tym artykule, takimi jak wybór silnej nazwy sieci, włączenie szyfrowania, ustawienie silnego hasła Wi-Fi i regularne aktualizowanie oprogramowania układowego routera, można znacznie zwiększyć bezpieczeństwo sieci Wi-Fi. Dodatkowo, wdrożenie środków takich jak włączenie zapory sieciowej, wyłączenie zdalnego zarządzania i wykorzystanie filtrowania adresów MAC dodatkowo wzmacnia bezpieczeństwo sieci. Zachowaj czujność i regularnie monitoruj swoją sieć pod kątem wszelkich oznak nieautoryzowanego dostępu lub podejrzanej aktywności. Nadając priorytet bezpieczeństwu Wi-Fi
 
+
+
+## Źródła
+
+- [NSA: Najlepsze praktyki zabezpieczania sieci domowej](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF)
+- [FTC: Jak zabezpieczyć domową sieć Wi-Fi](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network)
+- [CISA: Bezpieczne korzystanie z technologii bezprzewodowych](https://www.cisa.gov/sites/default/files/publications/Wireless-Security.pdf)

@@ -3,8 +3,9 @@ title: "Erstellen eines sicheren Wi-Fi-Netzwerks: Wichtige Schritte für einen s
 draft: false
 toc: true
 date: 2023-05-27
+lastmod: 2026-11-12
 description: "Erfahren Sie, wie Sie ein sicheres Wi-Fi-Netzwerk einrichten, um Ihre Daten zu schützen und ein sicheres Online-Erlebnis zu gewährleisten."
-tags: ["sicheres Wi-Fi-Netzwerk", "Wi-Fi-Sicherheit", "Netzwerkverschlüsselung", "Wi-Fi-Passwort", "Router-Firmware-Updates", "Firewall-Schutz", "remote management disable", "Standard-Router-Anmeldung", "MAC-Adressfilterung", "disable WPS", "Gastnetzwerk", "Netzwerkaktivitäten überwachen", "Online-Sicherheit", "datenschutz", "Datenschutz im Netz", "Cybersicherheit", "drahtloses Netzwerk", "Internetsicherheit", "Netzsicherheitsmaßnahmen", "Netzwerkverwundbarkeit"]
+tags: ["sicheres Wi-Fi-Netzwerk", "Wi-Fi-Sicherheit", "Netzwerkverschlüsselung", "Wi-Fi-Passwort", "Aktualisierungen der Router-Firmware", "Firewall-Schutz", "Fernverwaltung deaktivieren", "Standard-Router-Anmeldung", "MAC-Adressfilterung", "WPS deaktivieren", "Gastnetzwerk", "Netzwerkaktivitäten überwachen", "Online-Sicherheit", "datenschutz", "Datenschutz im Netz", "Cybersicherheit", "drahtloses Netzwerk", "Internetsicherheit", "Netzsicherheitsmaßnahmen", "Netzwerkverwundbarkeit"]
 cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Ein Schild, das ein Wi-Fi-Signal vor Hackern schützt."
 coverCaption: ""
@@ -34,7 +35,7 @@ ______
 
 ______
 
-## Festes Wi-Fi-Passwort einrichten
+## Starkes Wi-Fi-Passwort einrichten
 
 Ein starkes und eindeutiges **Wi-Fi-Passwort** ist ein grundlegender Aspekt beim Aufbau eines sicheren Wi-Fi-Netzwerks. Es dient als Barriere gegen unbefugte Benutzer, die versuchen, sich mit Ihrem Netzwerk zu verbinden. Ihr Wi-Fi-Passwort sollte lang und komplex sein und eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten. Vermeiden Sie leicht zu erratende Passwörter wie Wörter aus dem Wörterbuch, Geburtsdaten oder fortlaufende Zahlen. Ändern Sie Ihr Wi-Fi-Passwort in regelmäßigen Abständen, um die Sicherheit zu erhöhen.
 
@@ -72,7 +73,7 @@ ______
 
 ## WPS (Wi-Fi Protected Setup) deaktivieren
 
-Wi-Fi Protected Setup (WPS) ist eine Funktion, die die Verbindung von Geräten mit einem Wi-Fi-Netzwerk vereinfachen soll. Sie stellt jedoch auch eine potenzielle Sicherheitslücke dar. WPS ist anfällig für Brute-Force-Angriffe, bei denen Hacker systematisch die für die Authentifizierung verwendete PIN erraten können. Es ist ratsam, WPS** auf Ihrem Router zu **deaktivieren**, um dieses Sicherheitsrisiko zu beseitigen. Die meisten Router bieten eine Option zur Deaktivierung von WPS auf der Einstellungsseite des Routers. Genaue Anweisungen finden Sie im Benutzerhandbuch Ihres Routers oder auf der Website des Herstellers.
+Wi-Fi Protected Setup (WPS) ist eine Funktion, die die Verbindung von Geräten mit einem Wi-Fi-Netzwerk vereinfachen soll. Sie stellt jedoch auch eine potenzielle Sicherheitslücke dar. WPS ist anfällig für Brute-Force-Angriffe, bei denen Hacker systematisch die für die Authentifizierung verwendete PIN erraten können. Es ist ratsam, **WPS auf Ihrem Router zu deaktivieren**, um dieses Sicherheitsrisiko zu beseitigen. Die meisten Router bieten eine Option zur Deaktivierung von WPS auf der Einstellungsseite des Routers. Genaue Anweisungen finden Sie im Benutzerhandbuch Ihres Routers oder auf der Website des Herstellers.
 
 ______
 
@@ -88,7 +89,44 @@ Um die kontinuierliche Sicherheit Ihres Wi-Fi-Netzwerks zu gewährleisten, ist e
 
 ______
 
+## Den richtigen WLAN-Sicherheitsmodus wählen
+
+Verwenden Sie **WPA3-Personal** mit einer starken Passphrase, wenn alle wichtigen Geräte es unterstützen. Verwenden Sie **WPA2-Personal mit AES oder CCMP** für ältere Geräte. Nutzen Sie den Übergangsmodus WPA2/WPA3 nur während einer geplanten Kompatibilitätsphase. Stellen Sie kompatible Geräte danach auf WPA3 um und ersetzen Sie Geräte, die ältere Sicherheitsverfahren benötigen.
+
+Verwenden Sie in einer Organisation **WPA3-Enterprise** oder WPA2-Enterprise mit 802.1X und einem RADIUS-Dienst. Bei der Enterprise-Authentifizierung erhält jede Person oder jedes Gerät eigene Anmeldedaten. Dafür benötigen Sie Verfahren für Zertifikate, Identitäten und Wiederherstellung.
+
+Vermeiden Sie WEP, das ursprüngliche WPA, WPA2 mit TKIP und offene Sicherheit in einem privaten Netzwerk. Aktivieren Sie **Protected Management Frames**, wenn Access Point und Geräte sie unterstützen. Der Leitfaden der NSA für Heimnetzwerke empfiehlt WPA3-Personal, eine Passphrase mit mindestens zwanzig Zeichen und geschützte Verwaltungsframes, sofern verfügbar. Lesen Sie die [NSA-Empfehlungen für Heimnetzwerke](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF).
+
+Betrachten Sie eine versteckte SSID nicht als Zugriffskontrolle. Das Verbergen des Namens ersetzt keine Verschlüsselung und verursacht bei manchen Geräten Kompatibilitätsprobleme. MAC-Filterung authentifiziert auch keine Person. Viele Geräte verwenden zufällige MAC-Adressen, und ein Angreifer mit lokalem Zugriff kann eine erlaubte Adresse kopieren.
+
+## Roaming, Platzierung und Segmentierung
+
+Verwenden Sie dieselbe SSID und Sicherheitsrichtlinie auf allen Access Points, wenn Geräte zwischen ihnen wechseln sollen. Die Entscheidung zum Roaming trifft weiterhin das Endgerät. 802.11k, 802.11v und 802.11r unterstützen die Übergabe, doch ältere oder stromsparende Geräte trennen manchmal die Verbindung, wenn Fast Transition aktiviert ist. Testen Sie Smartphones, Drucker, Kameras und Sprachgeräte, bevor Sie alle Roaming-Optionen aktivieren.
+
+Platzieren Sie Access Points oberhalb von Möbeln und mit Abstand zu Metall, Aquarien, Mikrowellen und dichtem Mauerwerk. Beginnen Sie mit überlappender Abdeckung. Senken Sie dann die Sendeleistung oder ändern Sie Kanäle, wenn sich Geräte zu lange mit einem Access Point verbinden oder gleichkanalige Funkzellen einander stören. Eine kabelgebundene Ethernet-Verbindung zwischen den Access Points bietet jedem Knoten einen stabilen Pfad. Ein drahtloser Rückkanal braucht eine starke Verbindung zwischen den Knoten. Platzieren Sie einen Satelliten daher zwischen dem Router und dem Bereich mit schwachem Signal, nicht in diesem Bereich.
+
+Richten Sie getrennte **Haupt-, Gäste- und IoT-Netzwerke** ein. Sperren Sie Gästen und IoT-Geräten den Zugriff auf Verwaltungsoberflächen und persönliche Geräte. Erlauben Sie nur den Datenverkehr, den das jeweilige IoT-Gerät für seine Dienste benötigt. Prüfen Sie die Trennung mit einem Testgerät, statt sich auf den Netzwerknamen zu verlassen.
+
+## Checkliste für sicheres WLAN
+
+- **Routerverwaltung:** Ändern Sie das Administratorpasswort, aktualisieren Sie die Firmware, deaktivieren Sie die Verwaltung aus dem Internet und schalten Sie UPnP aus, sofern kein dokumentiertes Gerät es benötigt.
+- **WLAN-Modus:** Verwenden Sie WPA3-Personal oder bei Kompatibilitätsbedarf WPA2-Personal mit AES.
+- **Anmeldedaten:** Verwenden Sie eine einzigartige Passphrase mit mindestens 16 Zeichen. Bei einer neuen Bereitstellung sollte sie mindestens 20 Zeichen lang sein.
+- **WPS:** Deaktivieren Sie WPS nach der Einrichtung. Nutzen Sie zum Verbinden neuer Geräte bevorzugt eine App oder einen QR-Code.
+- **Segmentierung:** Trennen Sie Gäste- und IoT-Geräte von vertrauenswürdigen Geräten.
+- **Roaming:** Testen Sie Fast Transition mit allen wichtigen Geräten, bevor Sie die Funktion überall aktivieren.
+- **Wiederherstellung:** Bewahren Sie eine Konfigurationssicherung auf und dokumentieren Sie das Zurücksetzen und Wiederherstellen.
+
+Der [FTC-Leitfaden für Heim-WLAN](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network) empfiehlt ebenfalls WPA3 oder WPA2, Firmware-Updates, geänderte Standard-Anmeldedaten sowie deaktivierte Fernverwaltung, WPS und UPnP.
+
 ## Schlussfolgerung
 
 Die Einrichtung eines sicheren Wi-Fi-Netzwerks ist für den Schutz Ihrer persönlichen Daten und die Gewährleistung eines sicheren Online-Erlebnisses unerlässlich. Wenn Sie die in diesem Artikel erwähnten Schritte befolgen, z. B. einen sicheren Netzwerknamen wählen, die Verschlüsselung aktivieren, ein sicheres Wi-Fi-Passwort festlegen und die Firmware Ihres Routers regelmäßig aktualisieren, können Sie die Sicherheit Ihres Wi-Fi-Netzwerks erheblich verbessern. Darüber hinaus können Sie die Sicherheit Ihres Netzwerks durch Maßnahmen wie die Aktivierung einer Firewall, die Deaktivierung der Fernverwaltung und die Verwendung von MAC-Adressfiltern weiter erhöhen. Bleiben Sie wachsam und überwachen Sie Ihr Netzwerk regelmäßig auf Anzeichen von unbefugtem Zugriff oder verdächtigen Aktivitäten. Durch Priorisierung der Wi-Fi-Sicherheit
 
+
+
+## Referenzen
+
+- [NSA: Bewährte Verfahren zum Schutz Ihres Heimnetzwerks](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF)
+- [FTC: So sichern Sie Ihr Heim-WLAN](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network)
+- [CISA: Drahtlose Technologie sicher verwenden](https://www.cisa.gov/sites/default/files/publications/Wireless-Security.pdf)
