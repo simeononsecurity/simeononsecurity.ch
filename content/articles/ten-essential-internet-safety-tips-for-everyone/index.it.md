@@ -2,10 +2,11 @@
 title: "10 consigli essenziali per la sicurezza in Internet: Proteggete voi stessi e la vostra famiglia online"
 draft: false
 toc: true
+lastmod: 2026-11-12
 date: 2023-06-12
 description: "Imparate 10 consigli fondamentali per la sicurezza su Internet, per proteggere la vostra privacy, la vostra sicurezza e le vostre finanze online e per tenere la vostra famiglia al sicuro dalle minacce informatiche."
 genre: ["Sicurezza in Internet", "Sicurezza online", "Suggerimenti per la sicurezza informatica", "Protezione della privacy", "Sicurezza digitale", "Minacce online", "Sicurezza dei dati", "Pratiche di Internet sicure", "Protezione delle informazioni personali", "Privacy online"]
-tags: ["Consigli per la sicurezza in Internet", "sicurezza online", "minacce informatiche", "protezione della privacy", "sicurezza digitale", "minacce online", "sicurezza dei dati", "pratiche di internet sicure", "protezione delle informazioni personali", "online privacy", "Consigli per la sicurezza informatica", "privacy in internet", "online scams", "attacchi di phishing", "protezione da malware", "password sicure", "autenticazione a due fattori", "Wi-Fi sicuro", "monitoraggio della rete", "sicurezza delle e-mail", "privacy sui social media", "sicurezza delle informazioni finanziarie", "siti web sicuri", "monitoraggio dell'estratto conto bancario", "password forti", "gestori di password", "istruzione online", "consapevolezza della cybersicurezza", "un software di sicurezza affidabile"]
+tags: ["Consigli per la sicurezza in Internet", "sicurezza online", "minacce informatiche", "protezione della privacy", "sicurezza digitale", "minacce online", "sicurezza dei dati", "pratiche di internet sicure", "protezione delle informazioni personali", "tutela della privacy online", "Consigli per la sicurezza informatica", "privacy in internet", "truffe online", "attacchi di phishing", "protezione da malware", "password sicure", "autenticazione a due fattori", "Wi-Fi sicuro", "monitoraggio della rete", "sicurezza delle e-mail", "privacy sui social media", "sicurezza delle informazioni finanziarie", "siti web sicuri", "monitoraggio dell'estratto conto bancario", "password forti", "gestori di password", "istruzione online", "consapevolezza della cybersicurezza", "un software di sicurezza affidabile"]
 cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "Un'immagine simbolica che rappresenta la sicurezza di Internet, con uno scudo che protegge lo schermo di un computer dalle minacce informatiche."
 ---
@@ -20,15 +21,15 @@ Prima di addentrarci nei consigli, è fondamentale capire perché la sicurezza d
 
 #### I rischi dell'essere online
 
-Ogni volta che si va online, c'è il rischio di cadere vittima di truffe online, violazioni di dati o altre minacce informatiche. Alcuni dei rischi includono **scaricare inconsapevolmente software dannoso, fornire i propri dati personali agli hacker, collegarsi a siti web fraudolenti** e altro ancora. Purtroppo, i rischi non sono limitati agli adulti; [**children are also vulnerable to online predators and cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Pertanto, è diventato fondamentale sapere come proteggere se stessi e i propri cari quando si utilizzano i servizi online.
+Ogni volta che si va online, c'è il rischio di cadere vittima di truffe online, violazioni di dati o altre minacce informatiche. Alcuni dei rischi includono **scaricare inconsapevolmente software dannoso, fornire i propri dati personali agli hacker, collegarsi a siti web fraudolenti** e altro ancora. Purtroppo, i rischi non sono limitati agli adulti; [**anche i bambini sono vulnerabili ai predatori online e al cyberbullismo**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Pertanto, è diventato fondamentale sapere come proteggere se stessi e i propri cari quando si utilizzano i servizi online.
 
 Un modo per proteggersi dalle truffe online è quello di essere cauti quando si aprono **email da mittenti sconosciuti**. Queste e-mail possono contenere link di phishing che possono rubare le vostre informazioni personali. È anche importante fare attenzione quando si scarica un software da Internet. Alcuni software possono contenere malware che possono danneggiare il vostro dispositivo o rubare i vostri dati.
 
-Un altro rischio dell'essere online è [**cyberbullying**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Il cyberbullismo può avere un grave impatto sulla salute mentale e sul benessere di una persona. È fondamentale parlare con i propri figli dei pericoli del cyberbullismo e di come segnalarlo.
+Un altro rischio dell'essere online è [**cyberbullismo**](https://simeononsecurity.com/articles/cyberbullying-a-parents-guid-to-keeping-kids-safe-online/) Il cyberbullismo può avere un grave impatto sulla salute mentale e sul benessere di una persona. È fondamentale parlare con i propri figli dei pericoli del cyberbullismo e di come segnalarlo.
 
 #### Proteggere le informazioni personali
 
-Le informazioni personali sono preziose e devono essere protette. È buona abitudine utilizzare [**strong passwords, enable two-factor authentication**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) e fate attenzione quando condividete le vostre informazioni online. Evitate di condividere dati sensibili, come il vostro **numero di previdenza sociale, i numeri delle carte di credito e gli indirizzi di casa**. Utilizzate siti web legittimi che dispongono di **certificati SSL** per garantire che i vostri dati siano criptati prima della trasmissione.
+Le informazioni personali sono preziose e devono essere protette. Prendete l’abitudine di [**utilizzare password sicure e attivare l’autenticazione a due fattori**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) e fate attenzione quando condividete le vostre informazioni online. Evitate di condividere dati sensibili, come il vostro **numero di previdenza sociale, i numeri delle carte di credito e gli indirizzi di casa**. Utilizzate siti web legittimi che dispongono di **certificati SSL** per garantire che i vostri dati siano criptati prima della trasmissione.
 
 È inoltre importante **mantenere aggiornati i propri software e dispositivi**. Gli aggiornamenti del software spesso includono patch di sicurezza che possono proteggere il dispositivo da attacchi informatici. Inoltre, fate attenzione quando utilizzate le reti Wi-Fi pubbliche. Le reti Wi-Fi pubbliche sono spesso non protette, il che significa che i vostri dati possono essere intercettati dai criminali informatici.
 
@@ -48,13 +49,13 @@ Il software obsoleto è uno dei modi più comuni con cui gli hacker accedono ai 
 
 #### Utilizzare password forti e l'autenticazione a due fattori
 
-Creare [**unique, strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) utilizzando un mix di lettere maiuscole e minuscole, numeri e simboli. Puntate su almeno 12 caratteri. L'autenticazione a due fattori aggiunge un ulteriore livello di protezione, chiedendo all'utente di fornire un codice aggiuntivo ricevuto via SMS o e-mail prima di accedere al proprio account.
+Creare [**password uniche e sicure**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) utilizzando un mix di lettere maiuscole e minuscole, numeri e simboli. Puntate su almeno 12 caratteri. L'autenticazione a due fattori aggiunge un ulteriore livello di protezione, chiedendo all'utente di fornire un codice aggiuntivo ricevuto via SMS o e-mail prima di accedere al proprio account.
 
 L'uso di password deboli è uno dei modi più semplici per gli hacker di accedere ai vostri account e alle vostre informazioni personali. Creando password forti e attivando l'autenticazione a due fattori, potete ridurre notevolmente il rischio di violazione dei vostri account.
 
 #### Proteggete la vostra rete Wi-Fi
 
-Utilizzare [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) per proteggere la rete Wi-Fi e impedire l'accesso non autorizzato ai dispositivi e ai dati. Non utilizzate password predefinite perché sono facilmente violabili.
+Utilizzare [**password sicure**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) per proteggere la rete Wi-Fi e impedire l'accesso non autorizzato ai dispositivi e ai dati. Non utilizzate password predefinite perché sono facilmente violabili.
 
 La rete Wi-Fi è la porta d'accesso ai vostri dispositivi e ai vostri dati. Proteggendo la rete Wi-Fi con una password forte, è possibile impedire l'accesso non autorizzato alla rete e proteggere i dispositivi e i dati dalle **minacce informatiche**.
 
@@ -70,11 +71,11 @@ Monitorando l'attività sulla rete, è possibile identificare rapidamente qualsi
 
 Nell'era digitale di oggi, le e-mail e i messaggi sono diventati una modalità di comunicazione comune. Tuttavia, è importante fare attenzione quando si condividono dati personali attraverso questi mezzi. I **criminali informatici** sono sempre alla ricerca di modi per rubare informazioni personali e le e-mail e i messaggi sono uno dei modi più semplici per farlo.
 
-[**Phishing scams**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) sono un modo comune per i criminali informatici di ottenere informazioni personali. Queste truffe fanno credere di comunicare con un contatto o un'organizzazione legittima e chiedono di fornire informazioni sensibili. Le e-mail o i messaggi possono sembrare autentici, ma sono progettati per rubare le vostre informazioni personali. È quindi importante diffidare di queste truffe e non condividere informazioni personali tramite e-mail o messaggi.
+[**Truffe di phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) sono un modo comune per i criminali informatici di ottenere informazioni personali. Queste truffe fanno credere di comunicare con un contatto o un'organizzazione legittima e chiedono di fornire informazioni sensibili. Le e-mail o i messaggi possono sembrare autentici, ma sono progettati per rubare le vostre informazioni personali. È quindi importante diffidare di queste truffe e non condividere informazioni personali tramite e-mail o messaggi.
 
-#### [Identifying Phishing Scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+#### [riconoscere le truffe di phishing](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[Phishing scams](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) possono essere difficili da identificare, ma ci sono alcune cose che si possono fare per proteggersi. Innanzitutto, controllate l'indirizzo e-mail del mittente. Se sembra **sospetto o non familiare**, non rispondete all'e-mail. In secondo luogo, **sfogliate i link** presenti nell'e-mail per vedere dove portano prima di cliccare. Se il link sembra sospetto, non cliccateci sopra. Infine, se non siete sicuri della legittimità di un'e-mail o di un messaggio, contattate direttamente l'organizzazione o la persona per confermare l'invio dell'e-mail.
+[truffe di phishing](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) possono essere difficili da identificare, ma ci sono alcune cose che si possono fare per proteggersi. Innanzitutto, controllate l'indirizzo e-mail del mittente. Se sembra **sospetto o non familiare**, non rispondete all'e-mail. In secondo luogo, **sfogliate i link** presenti nell'e-mail per vedere dove portano prima di cliccare. Se il link sembra sospetto, non cliccateci sopra. Infine, se non siete sicuri della legittimità di un'e-mail o di un messaggio, contattate direttamente l'organizzazione o la persona per confermare l'invio dell'e-mail.
 
 #### Evitare di cliccare su link sospetti
 
@@ -90,7 +91,7 @@ Poiché i social media sono parte integrante della nostra vita quotidiana, è es
 
 Uno dei primi passi per proteggere i propri account sui social media è regolare le impostazioni sulla privacy. In questo modo è possibile limitare la quantità di informazioni personali visibili al pubblico. Si raccomanda di divulgare il minor numero possibile di informazioni personali. Potete controllare chi vede i vostri post, le foto del profilo e altri dettagli sui vostri account di social media. In questo modo si può evitare che i criminali informatici accedano alle informazioni personali.
 
-Inoltre, potete attivare l'autenticazione a due fattori** per i vostri account sui social media. Questo aggiunge un ulteriore livello di sicurezza al vostro account, rendendo difficile per i criminali informatici accedere al vostro account anche se sono in possesso della vostra password.
+Inoltre, potete attivare **l'autenticazione a due fattori** per i vostri account sui social media. Questo aggiunge un ulteriore livello di sicurezza al vostro account, rendendo difficile per i criminali informatici accedere al vostro account anche se sono in possesso della vostra password.
 
 #### Fate attenzione a ciò che condividete
 
@@ -120,11 +121,11 @@ Anche se si fanno acquisti su siti web sicuri, il rischio di frode è sempre pre
 
 La maggior parte delle banche e delle società di carte di credito dispone di **sistemi di rilevamento delle frodi** che possono avvisare di attività sospette. È comunque importante tenere d'occhio gli estratti conto e segnalare al più presto eventuali transazioni non autorizzate.
 
-#### [Use Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### [Usare password sicure](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Un altro modo per proteggere le proprie informazioni finanziarie è quello di utilizzare [**strong passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Evitate di usare la stessa password per più account e non usate password facilmente indovinabili come "123456" o "password". Utilizzate invece una combinazione di lettere, numeri e simboli per creare una password forte e unica per ogni account.
+Un altro modo per proteggere le proprie informazioni finanziarie è quello di utilizzare [**password sicure**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/). Evitate di usare la stessa password per più account e non usate password facilmente indovinabili come "123456" o "password". Utilizzate invece una combinazione di lettere, numeri e simboli per creare una password forte e unica per ogni account.
 
-Considerate l'utilizzo di una [**password manager**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) per aiutarvi a creare e memorizzare password forti. I gestori di password possono generare password casuali per voi e memorizzarle in modo sicuro in modo da non doverle ricordare.
+Considerate l'utilizzo di una [**applicazione per la gestione delle password**](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) per aiutarvi a creare e memorizzare password forti. I gestori di password possono generare password casuali per voi e memorizzarle in modo sicuro in modo da non doverle ricordare.
 
 #### Conclusione
 
@@ -137,49 +138,49 @@ La sicurezza online sta diventando sempre più importante, dato che ci affidiamo
 Ecco alcuni suggerimenti per aiutarvi a stare al sicuro:
 
 * Utilizzare **password forti e uniche** per tutti i vostri account.
-* Abilitare l'autenticazione a due fattori** quando possibile.
+* Abilitare **l'autenticazione a due fattori** quando possibile.
 * Fare attenzione a **email, link e allegati sospetti**.
-* Mantenete il vostro software e il vostro sistema operativo **aggiornati*.
-* Utilizzare [**antivirus software**](https://simeononsecurity.com/recommendations/anti-virus/) e un **firewall**
+* Mantenete il vostro software e il vostro sistema operativo **aggiornati**.
+* Utilizzare [**software antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) e un **firewall**
 
 #### Rimanete informati sulle minacce online
 
 È importante rimanere aggiornati sulle ultime **minacce alla sicurezza** e sulle vulnerabilità per proteggere se stessi e la propria famiglia. I criminali informatici escogitano sempre nuove tattiche per rubare informazioni personali, infettare i dispositivi con **malware** e truffare le persone.
 
-Potete rimanere informati seguendo blog** e notiziari di sicurezza affidabili e abbonandovi agli avvisi di sicurezza del vostro sito web. [**antivirus software provider**](https://simeononsecurity.com/recommendations/anti-virus/)
+Potete rimanere informati seguendo **blog** e notiziari di sicurezza affidabili e abbonandovi agli avvisi di sicurezza del vostro [**fornitore di antivirus**](https://simeononsecurity.com/recommendations/anti-virus/).
 
 #### Insegnare ai bambini la sicurezza di Internet
 
-I bambini sono particolarmente vulnerabili alle minacce online, poiché potrebbero non essere consapevoli dei potenziali rischi e delle conseguenze delle loro azioni. È importante parlare con i propri figli** della sicurezza di Internet e insegnare loro pratiche sicure online.
+I bambini sono particolarmente vulnerabili alle minacce online, poiché potrebbero non essere consapevoli dei potenziali rischi e delle conseguenze delle loro azioni. È importante **parlare con i propri figli** della sicurezza di Internet e insegnare loro pratiche sicure online.
 
 Si può iniziare impostando il **controllo parentale** sui loro dispositivi, limitando il loro accesso a Internet e **monitorando la loro attività online**. Dovreste anche insegnare loro a:
 
 * Non condividere mai informazioni personali online
 * Essere prudenti nei confronti degli sconosciuti online.
 * Segnalare qualsiasi attività sospetta a un adulto fidato.
-* Evitare di cliccare su link sospetti** o di scaricare file sconosciuti
+* Evitare di cliccare su **link sospetti** o di scaricare file sconosciuti
 
 Seguendo questi consigli, potrete proteggere voi stessi e la vostra famiglia dalle minacce online e vivere un'esperienza online **più sicura e protetta**.
 
 ### Utilizzare un software di sicurezza affidabile
 
-Installare [**reliable anti-virus and anti-malware software**](https://simeononsecurity.com/recommendations/anti-virus/) on your devices. Use **firewalls** and [**VPN services**](https://simeononsecurity.com/recommendations/vpns) per salvaguardare la vostra rete e impedire l'accesso non autorizzato ai vostri dati.
+Installate sui vostri dispositivi [**software antivirus e antimalware affidabile**](https://simeononsecurity.com/recommendations/anti-virus/). Usate **firewall** e [**servizi VPN**](https://simeononsecurity.com/recommendations/vpns) per proteggere la rete e impedire accessi non autorizzati ai vostri dati.
 
-Con il continuo aumento delle **minacce informatiche**, è importante assicurarsi che i dispositivi siano protetti da un software di sicurezza affidabile. Installazione [**antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) e il software antimalware** sui vostri dispositivi è un passo fondamentale per proteggere le vostre informazioni personali e sensibili. Questi programmi sono progettati per rilevare, prevenire e rimuovere il software dannoso che può danneggiare il computer e rubare i dati.
+Con il continuo aumento delle **minacce informatiche**, è importante assicurarsi che i dispositivi siano protetti da un software di sicurezza affidabile. Installare [**un programma antivirus**](https://simeononsecurity.com/recommendations/anti-virus/) e il **software antimalware** sui vostri dispositivi è un passo fondamentale per proteggere le vostre informazioni personali e sensibili. Questi programmi sono progettati per rilevare, prevenire e rimuovere il software dannoso che può danneggiare il computer e rubare i dati.
 
-I **firewall** e i [**VPN services**](https://simeononsecurity.com/recommendations/vpns) sono strumenti essenziali per la sicurezza della rete. I firewall fungono da barriera tra il vostro dispositivo e Internet, bloccando il traffico indesiderato e impedendo agli hacker di accedere alla vostra rete. I servizi VPN, invece, creano una connessione sicura e crittografata tra il vostro dispositivo e Internet, fornendo un ulteriore livello di protezione contro le minacce informatiche.
+I **firewall** e i [**servizi VPN**](https://simeononsecurity.com/recommendations/vpns) sono strumenti essenziali per la sicurezza della rete. I firewall fungono da barriera tra il vostro dispositivo e Internet, bloccando il traffico indesiderato e impedendo agli hacker di accedere alla vostra rete. I servizi VPN, invece, creano una connessione sicura e crittografata tra il vostro dispositivo e Internet, fornendo un ulteriore livello di protezione contro le minacce informatiche.
 
-#### [Antivirus and Anti-Malware Protection](https://simeononsecurity.com/recommendations/anti-virus/)
+#### [Protezione antivirus e antimalware](https://simeononsecurity.com/recommendations/anti-virus/)
 
-Utilizzo [antivirus](https://simeononsecurity.com/recommendations/anti-virus/) e software anti-malware per proteggere il computer da **virus, malware** e altre minacce informatiche. Questi programmi sono in grado di rilevare e rimuovere il software dannoso che può danneggiare il computer e compromettere i dati. È importante mantenere questi programmi **aggiornati** ed eseguire scansioni regolari per garantire la protezione del dispositivo.
+Utilizzo [programma antivirus](https://simeononsecurity.com/recommendations/anti-virus/) e software anti-malware per proteggere il computer da **virus, malware** e altre minacce informatiche. Questi programmi sono in grado di rilevare e rimuovere il software dannoso che può danneggiare il computer e compromettere i dati. È importante mantenere questi programmi **aggiornati** ed eseguire scansioni regolari per garantire la protezione del dispositivo.
 
 Alcuni programmi antivirus e antimalware molto diffusi sono **Norton, McAfee e Avast**. Questi programmi offrono **protezione in tempo reale** contro le minacce informatiche, **aggiornamenti automatici** e altre funzioni che possono aiutare a mantenere sicuro il dispositivo.
 
 #### Servizi firewall e VPN
 
-Un **firewall** e [**VPN (Virtual Private Network)**](https://simeononsecurity.com/recommendations/vpns) proteggere la vostra rete da malware e accessi non autorizzati creando una rete privata sicura all'interno di una rete pubblica. I firewall monitorano e controllano il traffico di rete in entrata e in uscita, mentre le VPN criptano la connessione a Internet e nascondono l'indirizzo IP, rendendo difficile per gli hacker intercettare i dati.
+Un **firewall** e [**Rete privata virtuale (VPN)**](https://simeononsecurity.com/recommendations/vpns) proteggere la vostra rete da malware e accessi non autorizzati creando una rete privata sicura all'interno di una rete pubblica. I firewall monitorano e controllano il traffico di rete in entrata e in uscita, mentre le VPN criptano la connessione a Internet e nascondono l'indirizzo IP, rendendo difficile per gli hacker intercettare i dati.
 
-Esistono molti **firewall** e [**VPN services**](https://simeononsecurity.com/recommendations/vpns) available, both free and paid. Some popular firewall software programs include **ZoneAlarm and Comodo Firewall**, while popular VPN services include [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns)
+Esistono molti **firewall** e [**servizi VPN**](https://simeononsecurity.com/recommendations/vpns), sia gratuiti sia a pagamento. ZoneAlarm e Comodo Firewall sono tra i programmi firewall più diffusi. Tra i servizi VPN più diffusi ci sono [**NordVPN and ExpressVPN**](https://simeononsecurity.com/recommendations/vpns).
 
 Utilizzando un **software di sicurezza affidabile**, è possibile proteggere i dispositivi e le reti dalle minacce informatiche e garantire che le informazioni personali e sensibili rimangano al sicuro.
 
@@ -195,11 +196,11 @@ Pertanto, è importante **evitare di accedere a servizi personali** su reti Wi-F
 
 Inoltre, è importante essere prudenti quando si utilizzano computer pubblici per le transazioni sensibili. Su questi computer potrebbero essere installati **keylogger** o altri malware che possono catturare i tasti premuti e rubare le informazioni personali.
 
-#### [Using a VPN for Public Wi-Fi](https://simeononsecurity.com/recommendations/vpns)
+#### [Usare una VPN sulle reti Wi-Fi pubbliche](https://simeononsecurity.com/recommendations/vpns)
 
 Una **VPN**, o **rete privata virtuale**, è uno strumento di sicurezza che cripta la vostra connessione a Internet e nasconde il vostro indirizzo IP. Questo rende difficile per gli hacker intercettare i vostri dati e protegge il vostro dispositivo da potenziali attacchi.
 
-Quando si utilizza il Wi-Fi pubblico, si consiglia di utilizzare una rete privata virtuale. [**VPN service**](https://simeononsecurity.com/recommendations/vpns) per crittografare i dati. In questo modo i vostri dati personali rimarranno al sicuro, anche se la rete non è protetta. Molti servizi VPN sono disponibili gratuitamente o a pagamento e sono facili da installare e utilizzare sul vostro dispositivo.
+Quando si utilizza il Wi-Fi pubblico, si consiglia di utilizzare una rete privata virtuale. [**servizio VPN**](https://simeononsecurity.com/recommendations/vpns) per crittografare i dati. In questo modo i vostri dati personali rimarranno al sicuro, anche se la rete non è protetta. Molti servizi VPN sono disponibili gratuitamente o a pagamento e sono facili da installare e utilizzare sul vostro dispositivo.
 
 In generale, è importante essere prudenti quando si utilizza il Wi-Fi pubblico e prendere le precauzioni necessarie per proteggere i propri dati. Utilizzando un servizio **VPN** ed evitando le reti non protette, è possibile rimanere connessi mantenendo al sicuro i propri dati personali.
 
