@@ -155,6 +155,22 @@ def markdown_links(text: str) -> list[tuple[str, str]]:
     return links
 
 
+def copied_english_link_labels(source: str, target: str) -> list[str]:
+    """Find unchanged multiword link labels for manual review."""
+    copied = []
+    for source_link, target_link in zip(markdown_links(source), markdown_links(target)):
+        source_label, source_target = source_link
+        target_label, target_target = target_link
+        normalized_label = normalize(source_label)
+        if (
+            source_target == target_target
+            and len(normalized_label.split()) >= 2
+            and normalized_label == normalize(target_label)
+        ):
+            copied.append(f"{source_label} => {source_target}")
+    return copied
+
+
 def prose_sentences(text: str) -> set[str]:
     """Return normalized reader-facing sentences outside code and markup."""
     visible = visible_text(text, include_link_labels=False)
@@ -217,7 +233,6 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         for part in re.split(r"\n\s*\n", visible_text(source_body))
         if len(normalize(part).split()) >= 12
     }
-    source_links = markdown_links(source_body)
     source_sentences = prose_sentences(source_body)
     findings: list[dict[str, str]] = []
     for locale in locales:
@@ -243,7 +258,6 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             misplaced = True
         metadata, body = read_page(target)
         prose = visible_text(body)
-        target_links = markdown_links(body)
         tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", prose.lower())
         english_ratio = sum(word in ENGLISH_STOPWORDS for word in tokens) / max(1, len(tokens))
         locale_words = LOCALE_STOPWORDS.get(locale, set())
@@ -288,17 +302,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("expected_script_missing")
         if copied_metadata:
             reasons.append("English_reader_metadata_copy:" + ",".join(copied_metadata))
-        copied_link_labels = []
-        for source_link, target_link in zip(source_links, target_links):
-            source_label, source_target = source_link
-            target_label, target_target = target_link
-            normalized_label = normalize(source_label)
-            if (
-                source_target == target_target
-                and len(normalized_label.split()) >= 3
-                and normalized_label == normalize(target_label)
-            ):
-                copied_link_labels.append(f"{source_label} => {source_target}")
+        copied_link_labels = copied_english_link_labels(source_body, body)
         if copied_link_labels:
             reasons.append("English_reader_link_label_copy")
         if reasons:

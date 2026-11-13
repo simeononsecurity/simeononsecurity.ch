@@ -5,6 +5,7 @@ from pathlib import Path
 
 from check_translation_english_leakage import (
     copied_english_prose_spans,
+    copied_english_link_labels,
     copied_reader_fenced_examples,
     reader_fenced_prose,
     visible_text,
@@ -12,6 +13,27 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_flags_two_word_descriptive_link_labels_but_not_single_word_names(self):
+        source = (
+            "[VPN service](https://example.com/vpn) "
+            "[FBI](https://example.com/fbi)"
+        )
+        target = (
+            "[VPN service](https://example.com/vpn) "
+            "[FBI](https://example.com/fbi)"
+        )
+
+        self.assertEqual(
+            copied_english_link_labels(source, target),
+            ["VPN service => https://example.com/vpn"],
+        )
+
+    def test_link_label_copy_requires_the_same_target(self):
+        source = "[VPN service](https://example.com/vpn)"
+        target = "[VPN service](https://example.com/other)"
+
+        self.assertEqual(copied_english_link_labels(source, target), [])
+
     def test_keeps_text_fences_and_excludes_executable_fences(self):
         sample = (
             "```text\nTranslate this prompt for the reader.\n```\n"

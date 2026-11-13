@@ -98,7 +98,7 @@
   flag unchanged multiword prose or prose a language detector identifies as
   English. Exclude code, URLs, shortcode syntax, product names, and technical
   identifiers from automatic findings. Also compare Markdown link labels by
-  their unchanged target and order. Flag identical descriptive labels of three
+  their unchanged target and order. Flag identical descriptive labels of two
   or more words for manual review, even when surrounding paragraph prose differs.
   Review each flag in context, then translate copied reader-facing prose before
   freezing the hash snapshot.
