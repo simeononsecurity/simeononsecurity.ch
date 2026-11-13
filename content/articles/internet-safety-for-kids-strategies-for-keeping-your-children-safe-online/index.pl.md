@@ -1,10 +1,11 @@
 ---
 title: "Bezpieczeństwo w Internecie dla dzieci: Porady i strategie zapewnienia dzieciom bezpieczeństwa w sieci"
 date: 2023-05-13
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Chroń swoje dzieci przed niebezpieczeństwami w sieci za pomocą tych wskazówek i strategii dotyczących bezpieczeństwa w Internecie."
-tags: ["Bezpieczeństwo w Internecie", "bezpieczeństwo w sieci", "bezpieczeństwo dziecka", "kontrole rodzicielskie", "cyberprzemoc", "umiejętność posługiwania się technologią cyfrową", "drapieżcy internetowi", "media społecznościowe", "gaming", "urządzenia mobilne", "prywatność", "bezpieczeństwo", "bezpieczne korzystanie z Internetu", "wskazówki dotyczące bezpieczeństwa internetowego", "ochrona dzieci w Internecie", "rodzicielstwo w erze cyfrowej", "prywatność w sieci dla dzieci", "zagrożenia w sieci dla dzieci", "bezpieczne nawyki internetowe", "edukacja w zakresie bezpieczeństwa w internecie"]
+tags: ["Bezpieczeństwo w Internecie", "bezpieczeństwo w sieci", "bezpieczeństwo dziecka", "kontrole rodzicielskie", "cyberprzemoc", "umiejętność posługiwania się technologią cyfrową", "drapieżcy internetowi", "media społecznościowe", "gry komputerowe", "urządzenia mobilne", "prywatność", "bezpieczeństwo", "bezpieczne korzystanie z Internetu", "wskazówki dotyczące bezpieczeństwa internetowego", "ochrona dzieci w Internecie", "rodzicielstwo w erze cyfrowej", "prywatność w sieci dla dzieci", "zagrożenia w sieci dla dzieci", "bezpieczne nawyki internetowe", "edukacja w zakresie bezpieczeństwa w internecie"]
 cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Kreskówkowy obrazek rodzica i dziecka korzystających wspólnie z komputera, przy czym dziecko trzyma lupę, a rodzic wskazuje na ekran."
 coverCaption: ""
@@ -22,7 +23,7 @@ Pierwszym krokiem do zapewnienia dzieciom bezpieczeństwa w sieci jest ustalenie
 
 Nawet jeśli ufasz swoim dzieciom, nadal ważne jest, aby monitorować ich aktywność w sieci. Komputer należy trzymać w centralnym miejscu, gdzie można łatwo zobaczyć, co robią dzieci. Możesz również użyć oprogramowania do kontroli rodzicielskiej, aby ograniczyć dostęp do niektórych stron internetowych i monitorować aktywność dziecka w sieci.
 
-Jednym z takich programów jest[Norton Family](https://us.norton.com/norton-family-premier) która oferuje szereg funkcji ułatwiających rodzicom monitorowanie aktywności dzieci w sieci. Obejmuje to filtrowanie stron internetowych, nadzór nad czasem i śledzenie lokalizacji. Można również otrzymywać powiadomienia, jeśli dziecko próbuje uzyskać dostęp do zablokowanej witryny lub aplikacji.
+Jednym z takich programów jest [Norton Family](https://us.norton.com/norton-family-premier), który oferuje rodzicom funkcje do monitorowania aktywności dzieci w sieci. Obejmują one filtrowanie stron internetowych, limity czasu i śledzenie lokalizacji. Można też otrzymywać powiadomienia, gdy dziecko próbuje otworzyć zablokowaną witrynę lub aplikację.
 
 ## Naucz swoje dzieci rozpoznawać niebezpieczne sytuacje
 
@@ -30,7 +31,7 @@ Naucz swoje dzieci rozpoznawać niebezpieczne sytuacje w sieci, takie jak cyberp
 
 ## Używaj oprogramowania do kontroli rodzicielskiej
 
-Oprogramowanie do kontroli rodzicielskiej może być pomocne w utrzymaniu bezpieczeństwa dzieci w sieci. Istnieje wiele różnych dostępnych opcji, każda z nich ma swój własny zestaw funkcji. Niektóre popularne opcje obejmują.[Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids), and [Net Nanny](https://www.netnanny.com/)
+Oprogramowanie do kontroli rodzicielskiej może pomóc chronić dzieci w sieci. Dostępnych jest wiele różnych opcji, z których każda oferuje własny zestaw funkcji. Do popularnych opcji należą [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) i [Net Nanny](https://www.netnanny.com/).
 
 [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) oferuje szereg funkcji, w tym blokowanie stron internetowych i aplikacji, zarządzanie czasem ekranowym i śledzenie lokalizacji. Zawiera również funkcję ostrzegania rodziców, jeśli ich dziecko próbuje uzyskać dostęp do zablokowanej witryny lub aplikacji.
 
@@ -38,9 +39,9 @@ Oprogramowanie do kontroli rodzicielskiej może być pomocne w utrzymaniu bezpie
 
 Ważne jest, aby prowadzić otwarte i szczere rozmowy z dziećmi na temat bezpieczeństwa w sieci. Zachęcaj je, aby zgłaszały się do Ciebie, jeśli kiedykolwiek poczują się niekomfortowo lub zagrożone w sieci. Upewnij się, że wiedzą, że mogą Ci zaufać i pomóc w każdej sytuacji.
 
-## Keep Your Computer Secure
+## Zadbaj o bezpieczeństwo komputera
 
-Dbanie o bezpieczeństwo swojego komputera jest ważnym elementem bezpieczeństwa w sieci. Upewnij się, że Twój komputer jest wyposażony w aktualne oprogramowanie antywirusowe i że wszystkie aktualizacje zabezpieczeń są zainstalowane. Zachęcaj swoje dzieci do używania silnych haseł i nie dzielenia się nimi z nikim.
+Dbanie o bezpieczeństwo swojego komputera jest ważnym elementem bezpieczeństwa w sieci. Upewnij się, że Twój komputer jest wyposażony w aktualne oprogramowanie antywirusowe i że wszystkie aktualizacje zabezpieczeń są zainstalowane. Zachęcaj swoje dzieci do używania [silnych haseł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) i nie dzielenia się nimi z nikim.
 
 ## Używaj dwuskładnikowego uwierzytelniania
 

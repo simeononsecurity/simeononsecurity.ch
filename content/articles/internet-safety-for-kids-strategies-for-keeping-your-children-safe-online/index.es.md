@@ -1,10 +1,11 @@
 ---
 title: "Seguridad en Internet para los niños: consejos y estrategias para mantener a sus hijos seguros en línea"
 date: 2023-05-13
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Proteja a sus hijos de los peligros de Internet con estos consejos y estrategias de seguridad."
-tags: ["Seguridad en Internet", "seguridad en línea", "seguridad infantil", "controles parentales", "ciberacoso", "alfabetización digital", "depredadores en línea", "social media", "juegos", "dispositivos móviles", "privacidad", "seguridad", "uso seguro de internet", "consejos de seguridad en internet", "protección de la infancia en internet", "crianza en la era digital", "privacidad en línea para niños", "peligros de internet para los niños", "hábitos seguros en internet", "educación para la seguridad en internet"]
+tags: ["Seguridad en Internet", "seguridad en línea", "seguridad infantil", "controles parentales", "ciberacoso", "alfabetización digital", "depredadores en línea", "redes sociales", "juegos", "dispositivos móviles", "privacidad", "seguridad", "uso seguro de internet", "consejos de seguridad en internet", "protección de la infancia en internet", "crianza en la era digital", "privacidad en línea para niños", "peligros de internet para los niños", "hábitos seguros en internet", "educación para la seguridad en internet"]
 cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Imagen de dibujos animados de un padre y su hijo utilizando juntos un ordenador, con el niño sosteniendo una lupa y el padre señalando la pantalla."
 coverCaption: ""
@@ -22,7 +23,7 @@ El primer paso para mantener a sus hijos seguros en Internet es establecer norma
 
 Aunque confíes en tus hijos, es importante que vigiles su actividad en Internet. Mantenga el ordenador en un lugar central donde pueda ver fácilmente lo que hacen sus hijos. También puede utilizar software de control parental para limitar el acceso a determinados sitios web y supervisar la actividad en línea de sus hijos.
 
-Uno de estos programas es[Norton Family](https://us.norton.com/norton-family-premier) que ofrece una serie de funciones para ayudar a los padres a supervisar la actividad en línea de sus hijos. Esto incluye filtrado de sitios web, supervisión horaria y seguimiento de la ubicación. También puedes recibir alertas si tu hijo intenta acceder a un sitio web o aplicación bloqueados.
+Un programa de este tipo es [Norton Family](https://us.norton.com/norton-family-premier), que ofrece varias funciones para ayudar a los padres a supervisar la actividad en línea de sus hijos. Incluye filtros para sitios web, límites de tiempo y seguimiento de ubicación. También puede recibir alertas si su hijo intenta acceder a un sitio web o una aplicación bloqueados.
 
 ## Enseñe a sus hijos a reconocer situaciones peligrosas
 
@@ -30,7 +31,7 @@ Enseñe a sus hijos a reconocer situaciones peligrosas en Internet, como el cibe
 
 ## Utiliza programas de control parental
 
-El software de control parental puede ser una herramienta útil para mantener a tus hijos seguros en Internet. Hay muchas opciones disponibles, cada una con sus propias características. Algunas opciones populares son[Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids), and [Net Nanny](https://www.netnanny.com/)
+El software de control parental puede ser una herramienta útil para proteger a sus hijos en Internet. Hay muchas opciones disponibles, cada una con sus propias funciones. Algunas opciones populares son [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) y [Net Nanny](https://www.netnanny.com/).
 
 [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) ofrece una serie de funciones, como el bloqueo de sitios web y aplicaciones, la gestión del tiempo de pantalla y el seguimiento de la ubicación. También incluye una función que avisa a los padres si su hijo intenta acceder a un sitio web o una aplicación bloqueados.
 
@@ -40,7 +41,7 @@ Es importante que mantengas conversaciones abiertas y sinceras con tus hijos sob
 
 ## Mantén tu ordenador seguro
 
-Mantener tu ordenador seguro es una parte importante de la seguridad en Internet. Asegúrese de que su ordenador está equipado con un software antivirus actualizado y de que tiene instaladas todas las actualizaciones de seguridad. Anime a sus hijos a utilizar contraseñas seguras y a no compartirlas nunca con nadie.
+Mantener tu ordenador seguro es una parte importante de la seguridad en Internet. Asegúrese de que su ordenador está equipado con un software antivirus actualizado y de que tiene instaladas todas las actualizaciones de seguridad. Anime a sus hijos a utilizar [contraseñas seguras](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) y a no compartirlas nunca con nadie.
 
 ## Utilice la autenticación de dos factores
 
