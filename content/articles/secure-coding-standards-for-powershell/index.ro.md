@@ -10,7 +10,7 @@ cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Imaginea unui supererou care stă în fața unui computer cu logo-ul Windows pe ecran și un scut în mână, simbolizând importanța practicilor de codare sigură pentru protejarea sistemelor bazate pe Windows."
 coverCaption: ""
 ---
- este un cadru popular de automatizare a sarcinilor și de gestionare a configurației care este utilizat pentru a automatiza sarcinile repetitive și pentru a simplifica gestionarea sistemelor bazate pe Windows. La fel ca orice limbaj de programare, codul PowerShell poate fi vulnerabil la amenințări de securitate dacă dezvoltatorii nu respectă standardele de codare sigură. În acest articol, vom discuta despre cele mai bune practici pentru codarea securizată în PowerShell.
+PowerShell este un cadru popular de automatizare a sarcinilor și de gestionare a configurației care este utilizat pentru a automatiza sarcinile repetitive și pentru a simplifica gestionarea sistemelor bazate pe Windows. La fel ca orice limbaj de programare, codul PowerShell poate fi vulnerabil la amenințări de securitate dacă dezvoltatorii nu respectă standardele de codare sigură. În acest articol, vom discuta despre cele mai bune practici pentru codarea securizată în PowerShell.
 
 ____
 
@@ -42,10 +42,10 @@ PowerShell are mai multe funcții care pot fi vulnerabile la probleme de securit
 
 De exemplu, în loc să utilizeze funcția Invoke-Expression pentru a executa o comandă, dezvoltatorii ar trebui să utilizeze funcția Start-Process.
 ```powershell
-# Instead of using Invoke-Expression
+# În loc să folosești Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Folosește Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -88,7 +88,7 @@ Prin actualizarea bibliotecilor și a cadrelor de lucru, dezvoltatorii se pot as
 
 ____
 
-## Utilizați un analizor de cod static
+## Utilizați un instrument de analiză statică
 
 Un analizor de cod static este un instrument care poate identifica potențiale vulnerabilități de securitate în cod înainte ca acesta să fie executat. Analizând codul înainte de implementare, dezvoltatorii pot detecta și remedia problemele de securitate înainte ca acestea să devină o problemă.
 
@@ -105,7 +105,7 @@ Prin utilizarea unui analizor de cod static, dezvoltatorii pot identifica și re
 
 ____
 
-## Utilizați practici de codare securizată pentru scripturile PowerShell
+## Programați în siguranță
 
 Scripturile PowerShell sunt vulnerabile la mai multe riscuri de securitate, cum ar fi injectarea de cod, escaladarea privilegiilor și scurgerea de date. Pentru a asigura securitatea scripturilor PowerShell, dezvoltatorii ar trebui să urmeze practici de codare securizată, cum ar fi:
 

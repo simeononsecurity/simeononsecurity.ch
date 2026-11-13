@@ -5,12 +5,12 @@ lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Windowsベースのシステムをセキュリティの脆弱性から保護するために、安全なPowerShellコードを記述するためのベストプラクティスを学びます。"
-tags: ["パワーシェル", "セキュアコーディング", "Windowsベースのシステム", "入力バリデーション", "暗号ライブラリ", "最少特権", "スタティックコードアナライザー", "セキュアな通信プロトコル", "ロギングとモニタリング", "脆弱性スキャン", "教育", "インジェクションコード", "特権のエスカレーション", "データ漏えい", "ハード化環境", "セキュリティポリシー", "ファイアウォール", "侵入検知システム", "脆弱性管理", "ネットワークセキュリティ", "PowerShell コーディングのベストプラクティス", "安全な PowerShell コード", "Windows システムのセキュリティ", "PowerShell の入力検証", "PowerShell の暗号化", "最小権限の原則", "PowerShell 用静的コード解析ツール", "PowerShell の安全な通信プロトコル", "PowerShell のログ記録と監視", "PowerShell の脆弱性スキャン", "PowerShell のセキュリティ教育", "コードインジェクションの防止", "権限昇格の軽減", "PowerShell によるデータ漏えいの防止", "PowerShell 環境の強化", "PowerShell のセキュリティポリシー", "PowerShell のファイアウォール設定", "PowerShell の侵入検知システム", "PowerShell の脆弱性管理", "PowerShell のネットワークセキュリティ", "PowerShell スクリプトのセキュアコーディング", "PowerShell の入力と出力のサニタイズ", "PowerShell 向け安全な通信プロトコル", "PowerShell スクリプトのログ記録と監視", "PowerShell 環境の強化", "PowerShell で脆弱性スキャンを実施", "PowerShell のセキュリティについてユーザーと管理者を教育", "安全な PowerShell コードの実践", "安全で堅牢な PowerShell コード", "PowerShell セキュリティのベストプラクティス", "PowerShell セキュリティのベストプラクティス"]
+tags: ["PowerShell", "セキュアコーディング", "Windowsベースのシステム", "入力バリデーション", "暗号ライブラリ", "最少特権", "スタティックコードアナライザー", "セキュアな通信プロトコル", "ロギングとモニタリング", "脆弱性スキャン", "教育", "インジェクションコード", "特権のエスカレーション", "データ漏えい", "ハード化環境", "セキュリティポリシー", "ファイアウォール", "侵入検知システム", "脆弱性管理", "ネットワークセキュリティ", "PowerShell コーディングのベストプラクティス", "安全な PowerShell コード", "Windows システムのセキュリティ", "PowerShell の入力検証", "PowerShell の暗号化", "最小権限の原則", "PowerShell 用静的コード解析ツール", "PowerShell の安全な通信プロトコル", "PowerShell のログ記録と監視", "PowerShell の脆弱性スキャン", "PowerShell のセキュリティ教育", "コードインジェクションの防止", "権限昇格の軽減", "PowerShell によるデータ漏えいの防止", "PowerShell 環境の強化", "PowerShell のセキュリティポリシー", "PowerShell のファイアウォール設定", "PowerShell の侵入検知システム", "PowerShell の脆弱性管理", "PowerShell のネットワークセキュリティ", "PowerShell スクリプトのセキュアコーディング", "PowerShell の入力と出力のサニタイズ", "PowerShell 向け安全な通信プロトコル", "PowerShell スクリプトのログ記録と監視", "PowerShell 環境の強化", "PowerShell で脆弱性スキャンを実施", "PowerShell のセキュリティについてユーザーと管理者を教育", "安全な PowerShell コードの実践", "安全で堅牢な PowerShell コード", "PowerShell セキュリティのベストプラクティス", "PowerShell セキュリティのベストプラクティス"]
 cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Windowsのロゴが表示されたPCの前に立ち、盾を手にしたスーパーヒーローのイメージで、Windowsベースのシステムを保護するためのセキュアコーディングの実践の重要性を象徴しています。"
 coverCaption: ""
 ---
-は、タスクの自動化や構成管理のフレームワークとして普及しており、反復作業を自動化し、Windows ベースのシステムの管理を簡素化するために使用されています。他のプログラミング言語と同様に、開発者が安全なコーディング基準に従わない場合、PowerShellコードはセキュリティの脅威に対して脆弱になる可能性があります。この記事では、PowerShellで安全なコーディングを行うためのベストプラクティスについて説明します。
+PowerShell は、タスクの自動化や構成管理のフレームワークとして普及しており、反復作業を自動化し、Windows ベースのシステムの管理を簡素化するために使用されています。他のプログラミング言語と同様に、開発者が安全なコーディング基準に従わない場合、PowerShellコードはセキュリティの脅威に対して脆弱になる可能性があります。この記事では、PowerShellで安全なコーディングを行うためのベストプラクティスについて説明します。
 
 ____
 
@@ -42,10 +42,10 @@ PowerShellには、慎重に使用しないとセキュリティ上の問題が�
 
 例えば、コマンドを実行するために Invoke-Expression 関数を使用する代わりに、Start-Process を使用する必要があります。
 ```powershell
-# Instead of using Invoke-Expression
+# Invoke-Expression の代わりに
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Start-Process を使用
 Start-Process "Get-ChildItem"
 ```
 
@@ -105,7 +105,7 @@ PowerShellでは、以下のような静的コードアナライザが利用可�
 
 ____
 
-## PowerShell スクリプトに安全なコーディング方法を使用する。
+## スクリプトを安全に作成する
 
 PowerShellスクリプトは、コードインジェクション、権限昇格、データ漏洩など、いくつかのセキュリティリスクに対して脆弱です。PowerShell スクリプトのセキュリティを確保するために、開発者は以下のようなセキュアコーディングプラクティスに従う必要があります：
 

@@ -10,7 +10,7 @@ cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "L'immagine di un supereroe in piedi davanti a un computer con il logo di Windows sullo schermo e uno scudo in mano, simboleggia l'importanza delle pratiche di codifica sicura per proteggere i sistemi basati su Windows."
 coverCaption: ""
 ---
- è un popolare framework per l'automazione delle attività e la gestione della configurazione, utilizzato per automatizzare le attività ripetitive e semplificare la gestione dei sistemi basati su Windows. Come qualsiasi altro linguaggio di programmazione, il codice di PowerShell può essere vulnerabile alle minacce alla sicurezza se gli sviluppatori non seguono gli standard di codifica sicuri. In questo articolo discuteremo le migliori pratiche per la codifica sicura in PowerShell.
+PowerShell è un framework popolare per l'automazione delle attività e la gestione della configurazione, utilizzato per automatizzare le attività ripetitive e semplificare la gestione dei sistemi basati su Windows. Come qualsiasi altro linguaggio di programmazione, il codice di PowerShell può essere vulnerabile alle minacce alla sicurezza se gli sviluppatori non seguono gli standard di codifica sicuri. In questo articolo discuteremo le migliori pratiche per la codifica sicura in PowerShell.
 
 ____
 
@@ -42,10 +42,10 @@ PowerShell dispone di diverse funzioni che possono essere vulnerabili a problemi
 
 Ad esempio, invece di usare la funzione Invoke-Expression per eseguire un comando, gli sviluppatori dovrebbero usare Start-Process.
 ```powershell
-# Instead of using Invoke-Expression
+# Invece di usare Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Usa Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -105,11 +105,11 @@ Utilizzando un analizzatore di codice statico, gli sviluppatori possono identifi
 
 ____
 
-## Utilizzare pratiche di codifica sicure per gli script PowerShell
+## Programmare in modo sicuro
 
 Gli script PowerShell sono vulnerabili a diversi rischi per la sicurezza, come l'iniezione di codice, l'escalation dei privilegi e la fuga di dati. Per garantire la sicurezza degli script PowerShell, gli sviluppatori dovrebbero seguire pratiche di codifica sicure come:
 
-### Sanificare input e output
+### Sanificare i dati in ingresso e in uscita
 La sanificazione dell'input dell'utente è importante per prevenire gli attacchi di code injection. Gli sviluppatori devono convalidare e sanificare l'input dell'utente per garantire che soddisfi i criteri previsti e non contenga codice dannoso. Inoltre, quando si scrive l'output su un file di log o su un'altra destinazione, gli sviluppatori devono sanificare qualsiasi dato sensibile prima di scriverlo sul file, per evitare la perdita di dati.
 
 ### Utilizzare protocolli di comunicazione sicuri

@@ -10,7 +10,7 @@ cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Imagen de un superhéroe frente a un ordenador con el logotipo de Windows en la pantalla y un escudo en la mano, que simboliza la importancia de las prácticas de codificación seguras para proteger los sistemas basados en Windows."
 coverCaption: ""
 ---
- es un popular marco de automatización de tareas y gestión de la configuración que se utiliza para automatizar tareas repetitivas y simplificar la gestión de sistemas basados en Windows. Como ocurre con cualquier lenguaje de programación, el código de PowerShell puede ser vulnerable a amenazas de seguridad si los desarrolladores no siguen las normas de codificación segura. En este artículo, analizaremos las mejores prácticas para la codificación segura en PowerShell.
+PowerShell es un marco popular de automatización de tareas y gestión de la configuración que se utiliza para automatizar tareas repetitivas y simplificar la gestión de sistemas basados en Windows. Como ocurre con cualquier lenguaje de programación, el código de PowerShell puede ser vulnerable a amenazas de seguridad si los desarrolladores no siguen las normas de codificación segura. En este artículo, analizaremos las mejores prácticas para la codificación segura en PowerShell.
 
 ____
 
@@ -42,10 +42,10 @@ PowerShell tiene varias funciones que pueden ser vulnerables a problemas de segu
 
 Por ejemplo, en lugar de utilizar la función Invoke-Expression para ejecutar un comando, los desarrolladores deberían utilizar Start-Process.
 ```powershell
-# Instead of using Invoke-Expression
+# En lugar de usar Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Usa Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -105,7 +105,7 @@ Mediante el uso de un analizador de código estático, los desarrolladores puede
 
 ____
 
-## Utilizar prácticas de codificación seguras para scripts PowerShell
+## Aplicar prácticas de programación segura
 
 Los scripts PowerShell son vulnerables a varios riesgos de seguridad como la inyección de código, la escalada de privilegios y la fuga de datos. Para garantizar la seguridad de los scripts PowerShell, los desarrolladores deben seguir prácticas de codificación seguras como:
 

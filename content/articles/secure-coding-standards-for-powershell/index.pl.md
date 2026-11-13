@@ -10,7 +10,7 @@ cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Obraz superbohatera stojącego przed komputerem z logo Windows na ekranie i tarczą w ręku, symbolizujący znaczenie praktyk bezpiecznego kodowania dla ochrony systemów opartych na Windows."
 coverCaption: ""
 ---
- to popularny framework do automatyzacji zadań i zarządzania konfiguracją, który służy do automatyzacji powtarzalnych zadań i uproszczenia zarządzania systemami opartymi na Windows. Jak każdy język programowania, kod PowerShella może być podatny na zagrożenia bezpieczeństwa, jeśli programiści nie przestrzegają standardów bezpiecznego kodowania. W tym artykule omówimy najlepsze praktyki bezpiecznego kodowania w PowerShell.
+PowerShell to popularny framework do automatyzacji zadań i zarządzania konfiguracją, który służy do automatyzacji powtarzalnych zadań i uproszczenia zarządzania systemami opartymi na Windows. Jak każdy język programowania, kod PowerShella może być podatny na zagrożenia bezpieczeństwa, jeśli programiści nie przestrzegają standardów bezpiecznego kodowania. W tym artykule omówimy najlepsze praktyki bezpiecznego kodowania w PowerShell.
 
 ____
 
@@ -42,10 +42,10 @@ PowerShell posiada kilka funkcji, które mogą być podatne na problemy bezpiecz
 
 Na przykład, zamiast używać funkcji Invoke-Expression do wykonania polecenia, programiści powinni użyć funkcji Start-Process.
 ```powershell
-# Instead of using Invoke-Expression
+# Zamiast używać Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Użyj Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -105,7 +105,7 @@ Używając statycznego analizatora kodu, programiści mogą zidentyfikować i na
 
 ____
 
-## Używaj bezpiecznych praktyk kodowania dla skryptów PowerShell
+## Stosuj bezpieczne zasady programowania
 
 Skrypty PowerShell są podatne na kilka zagrożeń bezpieczeństwa, takich jak wstrzykiwanie kodu, eskalacja uprawnień i wyciek danych. Aby zapewnić bezpieczeństwo skryptów PowerShell, programiści powinni stosować bezpieczne praktyki kodowania, takie jak:
 

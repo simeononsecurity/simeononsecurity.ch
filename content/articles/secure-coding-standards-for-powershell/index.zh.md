@@ -42,10 +42,10 @@ ____
 
 例如，开发人员不应使用 Invoke-Expression 函数来执行命令，而应使用 Start-Process 函数。
 ```powershell
-# Instead of using Invoke-Expression
+# 请勿使用 Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# 请改用 Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -105,7 +105,7 @@ ____
 
 ____
 
-## 为 PowerShell 脚本使用安全编码实践
+## 安全编写脚本
 
 PowerShell 脚本容易受到代码注入、权限升级和数据泄漏等多种安全风险的影响。为确保 PowerShell 脚本的安全性，开发人员应遵循以下安全编码实践：
 
