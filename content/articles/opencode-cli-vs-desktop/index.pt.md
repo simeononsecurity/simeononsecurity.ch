@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI versus Desktop: comparação de fluxo de trabalho em 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Compare os clientes de terminal e desktop do OpenCode por meio da arquitetura do servidor, configuração do provedor, scripts, estado da sessão e solução de problemas."
 genre: ["Ferramentas para desenvolvedores", "Inteligência artificial", "Desenvolvimento de software"]
-tags: ["OpenCode CLI versus desktop", "OpenCode Desktop", "terminal OpenCode", "servidor OpenCode", "TUI", "CLI versus GUI", "agente de código", "configuração do provedor", "modelos locais", "inferência hospedada", "automação sem interface", "opencode run", "opencode serve", "permissões do agente", "regras do projeto", "estado da sessão", "fluxo do desenvolvedor", "autenticação do servidor", "ferramentas de código com IA", "harness do agente"]
+tags: ["OpenCode CLI em comparação com desktop", "OpenCode Desktop", "terminal do OpenCode", "servidor do OpenCode", "TUI", "CLI e GUI em comparação", "agente de programação", "configuração do provedor", "modelos locais", "inferência hospedada", "automação sem interface", "opencode run", "opencode serve", "permissões do agente", "regras do projeto", "estado da sessão", "fluxo de trabalho do desenvolvedor", "autenticação do servidor", "ferramentas de programação com IA", "estrutura de execução do agente"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Clientes de terminal e desktop conectados a um servidor central com símbolos separados para repositório e inferência"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Evite alterações simultâneas no mesmo checkout.** Duas conversas com planos diferentes compartilham arquivos quando apontam para o mesmo diretório. Use worktrees ou checkouts separados para experimentos independentes. Revise as alterações antes da integração.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Registro de transferência
+Objetivo:
+Branch atual e diretório de trabalho:
+Arquivos alterados:
+Verificações já concluídas:
+Falhas conhecidas:
+Próxima ação aprovada:
 ```
 
 **Esse registro torna a passagem verificável.** Ele também ajuda a distinguir um problema de interface de uma instrução ausente ou de um ambiente incompatível. Mantenha credenciais fora do registro.

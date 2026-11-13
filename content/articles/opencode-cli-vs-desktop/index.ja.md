@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI 対 Desktop: 2026 年ワークフロー比較"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "OpenCode のターミナルクライアントとデスクトップクライアントを、サーバーアーキテクチャ、プロバイダー設定、スクリプト、セッション状態、トラブルシューティングの観点で比較します。"
 genre: ["開発者ツール", "人工知能", "ソフトウェア開発"]
-tags: ["OpenCode CLI 対 desktop", "OpenCode Desktop", "OpenCode terminal", "OpenCode server", "TUI", "CLI 対 GUI", "コーディングエージェント", "プロバイダー設定", "ローカルモデル", "ホスト型推論", "ヘッドレス自動化", "opencode run", "opencode serve", "エージェント権限", "プロジェクトルール", "セッション状態", "開発者ワークフロー", "サーバー認証", "AI コーディングツール", "エージェントハーネス"]
+tags: ["OpenCode CLI とデスクトップの比較", "OpenCode Desktop", "OpenCode ターミナル", "OpenCode サーバー", "TUI", "CLI と GUI の比較", "コーディングエージェント", "プロバイダー設定", "ローカルモデル", "ホスト型推論", "ヘッドレス自動化", "opencode run", "opencode serve", "エージェント権限", "プロジェクトルール", "セッション状態", "開発者ワークフロー", "サーバー認証", "AI コーディングツール", "エージェント実行基盤"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "中央サーバーに接続されたターミナルとデスクトップのクライアント、リポジトリと推論を示す別々の記号"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **1 つの checkout への同時編集を避けます。** 異なる計画の 2 つの会話が同じディレクトリを対象にすると、ファイルを共有します。独立した試行には別の worktree または checkout を使います。統合前に変更を確認します。
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+引き継ぎ記録
+目標:
+現在のブランチと作業ディレクトリ:
+変更したファイル:
+完了済みの確認:
+既知の失敗:
+次に承認された作業:
 ```
 
 **この記録は引き継ぎを検査可能にします。** インターフェースの問題、指示不足、環境不一致の切り分けにも役立ちます。認証情報は記録に含めません。

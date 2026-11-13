@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI frente a Desktop: comparación del flujo de trabajo de 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Compara los clientes de terminal y escritorio de OpenCode mediante su arquitectura de servidor, configuración del proveedor, scripting, estado de sesión y solución de problemas."
 genre: ["Herramientas para desarrolladores", "Inteligencia artificial", "Desarrollo de software"]
-tags: ["OpenCode CLI frente a desktop", "OpenCode Desktop", "terminal de OpenCode", "servidor de OpenCode", "TUI", "CLI frente a GUI", "agente de código", "configuración del proveedor", "modelos locales", "inferencia alojada", "automatización sin interfaz", "opencode run", "opencode serve", "permisos del agente", "reglas del proyecto", "estado de sesión", "flujo del desarrollador", "autenticación del servidor", "herramientas de código con IA", "arnés del agente"]
+tags: ["OpenCode CLI frente a escritorio", "OpenCode Desktop", "terminal de OpenCode", "servidor de OpenCode", "TUI", "CLI frente a GUI", "agente de programación", "configuración del proveedor", "modelos locales", "inferencia alojada", "automatización sin interfaz", "opencode run", "opencode serve", "permisos del agente", "reglas del proyecto", "estado de la sesión", "flujo de trabajo del desarrollador", "autenticación del servidor", "herramientas de programación con IA", "entorno de ejecución del agente"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Clientes de terminal y escritorio conectados a un servidor central con símbolos separados para el repositorio y la inferencia"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Evita cambios simultáneos en un checkout.** Dos conversaciones con planes distintos comparten archivos cuando apuntan al mismo directorio. Usa worktrees o checkouts separados para experimentos independientes. Revisa los cambios antes de integrarlos.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Registro de entrega
+Objetivo:
+Rama actual y directorio de trabajo:
+Archivos modificados:
+Comprobaciones ya completadas:
+Fallos conocidos:
+Próxima acción aprobada:
 ```
 
 **Este registro hace que la entrega sea inspeccionable.** También ayuda a distinguir un problema de interfaz de una instrucción ausente o un desajuste del entorno. Mantén las credenciales fuera del registro.

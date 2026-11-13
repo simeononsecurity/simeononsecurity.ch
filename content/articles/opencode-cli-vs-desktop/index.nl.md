@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI versus Desktop: workflowvergelijking voor 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Vergelijk de terminal- en desktopclients van OpenCode via hun serverarchitectuur, providerconfiguratie, scripting, sessiestatus en probleemoplossing."
-genre: ["Developer-tools", "Kunstmatige intelligentie", "Softwareontwikkeling"]
-tags: ["OpenCode CLI versus desktop", "OpenCode Desktop", "OpenCode-terminal", "OpenCode-server", "TUI", "CLI versus GUI", "codeeragent", "providerconfiguratie", "lokale modellen", "gehoste inferentie", "headless automatisering", "opencode run", "opencode serve", "agentmachtigingen", "projectregels", "sessiestatus", "developerworkflow", "serverauthenticatie", "AI-codeertools", "agent-harnas"]
+genre: ["Hulpmiddelen voor ontwikkelaars", "Kunstmatige intelligentie", "Softwareontwikkeling"]
+tags: ["OpenCode CLI vergeleken met desktop", "OpenCode Desktop", "OpenCode-console", "OpenCode-dienst", "TUI", "CLI en GUI vergeleken", "codeeragent", "providerconfiguratie", "lokale modellen", "gehoste inferentie", "automatisering zonder interface", "opencode run", "opencode serve", "agentmachtigingen", "projectregels", "sessiestatus", "ontwikkelaarsworkflow", "serverauthenticatie", "AI-codeerhulpmiddelen", "agentframework"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Terminal- en desktopclients verbonden met een centrale server en afzonderlijke symbolen voor repository en inferentie"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Vermijd gelijktijdige wijzigingen in één checkout.** Twee gesprekken met verschillende plannen delen bestanden wanneer ze dezelfde map gebruiken. Gebruik afzonderlijke worktrees of checkouts voor onafhankelijke proeven. Beoordeel wijzigingen voordat je ze integreert.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Overdrachtsnotitie
+Doel:
+Huidige branch en werkmap:
+Gewijzigde bestanden:
+Reeds uitgevoerde controles:
+Bekende fouten:
+Volgende goedgekeurde actie:
 ```
 
 **Dit record maakt de overdracht controleerbaar.** Het helpt ook een interfaceprobleem te onderscheiden van een ontbrekende instructie of een afwijkende omgeving. Houd inloggegevens uit het record.

@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI contro Desktop: confronto del flusso di lavoro 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Confronta i client terminale e desktop di OpenCode attraverso l'architettura del server, la configurazione del provider, gli script, lo stato della sessione e la risoluzione dei problemi."
 genre: ["Strumenti per sviluppatori", "Intelligenza artificiale", "Sviluppo software"]
-tags: ["OpenCode CLI contro desktop", "OpenCode Desktop", "terminale OpenCode", "server OpenCode", "TUI", "CLI contro GUI", "agente di codice", "configurazione del provider", "modelli locali", "inferenza ospitata", "automazione headless", "opencode run", "opencode serve", "permessi dell'agente", "regole del progetto", "stato della sessione", "flusso dello sviluppatore", "autenticazione del server", "strumenti di coding con IA", "harness dell'agente"]
+tags: ["OpenCode CLI rispetto al desktop", "OpenCode Desktop", "terminale OpenCode", "server OpenCode", "TUI", "CLI e GUI a confronto", "agente di programmazione", "configurazione del provider", "modelli locali", "inferenza ospitata", "automazione senza interfaccia", "opencode run", "opencode serve", "autorizzazioni dell’agente", "regole del progetto", "stato della sessione", "flusso di lavoro dello sviluppatore", "autenticazione del server", "strumenti di programmazione con IA", "ambiente operativo dell’agente"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Client terminale e desktop collegati a un server centrale con simboli separati per repository e inferenza"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Evita modifiche contemporanee allo stesso checkout.** Due conversazioni con piani diversi condividono i file se puntano alla stessa directory. Usa worktree o checkout separati per esperimenti indipendenti. Rivedi i cambiamenti prima di integrarli.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Registro di passaggio
+Obiettivo:
+Branch corrente e directory di lavoro:
+File modificati:
+Controlli già completati:
+Problemi noti:
+Prossima azione approvata:
 ```
 
 **Questo registro rende il passaggio verificabile.** Aiuta anche a distinguere un problema dell'interfaccia da un'istruzione mancante o da un ambiente non coerente. Tieni le credenziali fuori dal registro.

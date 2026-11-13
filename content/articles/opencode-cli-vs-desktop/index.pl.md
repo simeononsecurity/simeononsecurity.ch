@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI a aplikacja desktopowa: porównanie przepływów pracy w 2026 roku"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Porównanie terminalowego i desktopowego klienta OpenCode pod kątem architektury serwera, konfiguracji dostawcy, skryptów, stanu sesji i rozwiązywania problemów."
 genre: ["Narzędzia dla programistów", "Sztuczna inteligencja", "Tworzenie oprogramowania"]
-tags: ["OpenCode CLI a desktop", "OpenCode Desktop", "terminal OpenCode", "serwer OpenCode", "TUI", "CLI a GUI", "agent programistyczny", "konfiguracja dostawcy", "modele lokalne", "wnioskowanie hostowane", "automatyzacja bez interfejsu", "opencode run", "opencode serve", "uprawnienia agenta", "reguły projektu", "stan sesji", "przepływ pracy programisty", "uwierzytelnianie serwera", "narzędzia AI do kodowania", "uprząż agenta"]
+tags: ["OpenCode CLI w porównaniu z wersją desktopową", "OpenCode Desktop", "terminal OpenCode", "serwer OpenCode", "TUI", "CLI i GUI w porównaniu", "agent programistyczny", "konfiguracja dostawcy", "modele lokalne", "wnioskowanie hostowane", "automatyzacja bez interfejsu", "opencode run", "opencode serve", "uprawnienia agenta", "reguły projektu", "stan sesji", "przepływ pracy programisty", "uwierzytelnianie serwera", "narzędzia programistyczne AI", "środowisko uruchomieniowe agenta"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Klienci terminalowy i desktopowy połączeni z centralnym serwerem oraz oddzielnymi symbolami repozytorium i wnioskowania"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Unikaj równoczesnych zmian w jednym checkoutcie.** Dwie rozmowy z różnymi planami nadal współdzielą pliki, jeśli kierujesz je do tego samego katalogu. Do niezależnych prób używaj oddzielnych worktree lub checkoutów. Przejrzyj zmiany przed ich integracją.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Rekord przekazania
+Cel:
+Bieżąca gałąź i katalog roboczy:
+Zmienione pliki:
+Wykonane już kontrole:
+Znane błędy:
+Następne zatwierdzone działanie:
 ```
 
 **Ten zapis ułatwia kontrolę przekazania pracy.** Pomaga też odróżnić problem interfejsu od brakującej instrukcji lub niezgodności środowiska. Nie umieszczaj poświadczeń w zapisie.

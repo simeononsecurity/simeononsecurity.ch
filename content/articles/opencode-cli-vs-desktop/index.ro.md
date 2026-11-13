@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI versus Desktop: comparația fluxului de lucru din 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Compară clienții terminal și desktop OpenCode prin arhitectura serverului, configurarea furnizorului, scripturi, starea sesiunii și depanare."
 genre: ["Instrumente pentru dezvoltatori", "Inteligență artificială", "Dezvoltare software"]
-tags: ["OpenCode CLI versus desktop", "OpenCode Desktop", "terminal OpenCode", "server OpenCode", "TUI", "CLI versus GUI", "agent de cod", "configurarea furnizorului", "modele locale", "inferință găzduită", "automatizare headless", "opencode run", "opencode serve", "permisiuni agent", "reguli proiect", "stare sesiune", "flux dezvoltator", "autentificare server", "instrumente de cod AI", "harness agent"]
+tags: ["OpenCode CLI în comparație cu desktopul", "OpenCode Desktop", "terminalul OpenCode", "serverul OpenCode", "TUI", "CLI și GUI în comparație", "agent de programare", "configurarea furnizorului", "modele locale", "inferență găzduită", "automatizare fără interfață", "opencode run", "opencode serve", "permisiunile agentului", "regulile proiectului", "starea sesiunii", "fluxul de lucru al dezvoltatorului", "autentificarea serverului", "instrumente de programare cu IA", "mediu de execuție al agentului"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Clienți terminal și desktop conectați la un server central, cu simboluri separate pentru depozit și inferență"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Evită modificările concurente în același checkout.** Două conversații cu planuri diferite partajează fișiere când folosesc același director. Folosește worktree sau checkout separat pentru experimente independente. Revizuiește modificările înainte de integrare.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Înregistrarea predării
+Obiectiv:
+Ramura curentă și directorul de lucru:
+Fișiere modificate:
+Verificări deja finalizate:
+Erori cunoscute:
+Următoarea acțiune aprobată:
 ```
 
 **Acest registru face transferul verificabil.** Ajută și la separarea unei probleme de interfață de o instrucțiune lipsă sau de un mediu nepotrivit. Ține acreditările în afara registrului.

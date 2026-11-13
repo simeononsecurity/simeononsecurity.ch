@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI बनाम Desktop: 2026 वर्कफ़्लो तुलना"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "OpenCode के terminal और desktop clients की तुलना server architecture, provider configuration, scripting, session state और troubleshooting के आधार पर करें।"
 genre: ["डेवलपर टूल्स", "कृत्रिम बुद्धिमत्ता", "सॉफ़्टवेयर विकास"]
-tags: ["OpenCode CLI बनाम desktop", "OpenCode Desktop", "OpenCode terminal", "OpenCode server", "TUI", "CLI बनाम GUI", "coding agent", "provider configuration", "local models", "hosted inference", "headless automation", "opencode run", "opencode serve", "agent permissions", "project rules", "session state", "developer workflow", "server authentication", "AI coding tools", "agent harness"]
+tags: ["OpenCode CLI बनाम डेस्कटॉप", "OpenCode Desktop", "OpenCode टर्मिनल", "OpenCode सर्वर", "TUI", "CLI बनाम GUI", "कोडिंग एजेंट", "प्रदाता कॉन्फ़िगरेशन", "स्थानीय मॉडल", "होस्टेड इन्फरेंस", "हेडलेस ऑटोमेशन", "opencode run", "opencode serve", "एजेंट अनुमतियाँ", "परियोजना नियम", "सत्र स्थिति", "डेवलपर कार्यप्रवाह", "सर्वर प्रमाणीकरण", "AI कोडिंग टूल", "एजेंट का निष्पादन ढाँचा"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "एक केंद्रीय server से जुड़े terminal और desktop clients तथा repository और inference के अलग प्रतीक"
 coverCaption: ""
@@ -27,9 +27,9 @@ coverCaption: ""
 
 ## Client और Server
 
-**OpenCode interface और server को अलग रखता है।** [Server documentation](https://opencode.ai/docs/server/) terminal UI को client और `opencode serve` को standalone server बताती है। यह architecture agent के साथ interaction के कई तरीके देता है।
+**OpenCode interface और server को अलग रखता है।** [सर्वर दस्तावेज़](https://opencode.ai/docs/server/) terminal UI को client और `opencode serve` को standalone server बताती है। यह architecture agent के साथ interaction के कई तरीके देता है।
 
-**Desktop default रूप से local server शुरू करता है।** [Troubleshooting guide](https://opencode.ai/docs/troubleshooting/) उसके `opencode-cli` sidecar और configured server URL से connect करने का option बताती है। Clients का व्यवहार अलग हो तो prompt बदलने से पहले इस connection की जाँच करें।
+**Desktop default रूप से local server शुरू करता है।** [समस्या निवारण मार्गदर्शिका](https://opencode.ai/docs/troubleshooting/) उसके `opencode-cli` sidecar और configured server URL से connect करने का option बताती है। Clients का व्यवहार अलग हो तो prompt बदलने से पहले इस connection की जाँच करें।
 
 | Layer | उत्तर देने योग्य प्रश्न |
 |---|---|
@@ -57,7 +57,7 @@ Wider bind address तभी उपयोग करें जब authentication,
 opencode
 ```
 
-**Default command terminal UI खोलता है।** [CLI reference](https://opencode.ai/docs/cli/) programmatic commands भी document करती है। Intended repository में शुरू करें और edits माँगने से पहले selected agent और model की पुष्टि करें।
+**Default command terminal UI खोलता है।** [CLI संदर्भ](https://opencode.ai/docs/cli/) programmatic commands भी document करती है। Intended repository में शुरू करें और edits माँगने से पहले selected agent और model की पुष्टि करें।
 
 ```bash
 opencode run "Identify this project's test command. Do not modify files."
@@ -69,7 +69,7 @@ opencode run "Identify this project's test command. Do not modify files."
 
 ## Desktop Setup और Compatibility
 
-**Intended release के लिए official download page उपयोग करें।** [OpenCode download page](https://opencode.ai/download) terminal और desktop packages सूचीबद्ध करती है। इस जाँच में page v2 terminal packages दिखाती है, जबकि general documentation में पुराने installation examples भी हैं। Exact client और backend versions लिखें। अलग release tracks की instructions न मिलाएँ।
+**Intended release के लिए आधिकारिक डाउनलोड पृष्ठ उपयोग करें।** [OpenCode का डाउनलोड पृष्ठ](https://opencode.ai/download) terminal और desktop packages सूचीबद्ध करती है। इस जाँच में पृष्ठ v2 terminal packages दिखाती है, जबकि general documentation में पुराने installation examples भी हैं। Exact client और backend versions लिखें। अलग release tracks की instructions न मिलाएँ।
 
 **छोटे real task से desktop interaction का मूल्यांकन करें।** Project खोलें, server confirm करें, bounded request भेजें, changed files inspect करें और correction माँगें। Agent के actions समझने में लगने वाला effort आँकें। Graphical client को editor और debugger का complete replacement न मानें।
 
@@ -83,9 +83,9 @@ opencode run "Identify this project's test command. Do not modify files."
 
 ## Configuration और Model Access
 
-**OpenCode कई locations से configuration merge करता है।** [Configuration reference](https://opencode.ai/docs/config/) precedence और non-conflicting settings के preservation को समझाती है। केवल project file नहीं, effective model, agent और permissions की तुलना करें।
+**OpenCode कई locations से configuration merge करता है।** [कॉन्फ़िगरेशन संदर्भ](https://opencode.ai/docs/config/) precedence और non-conflicting settings के preservation को समझाती है। केवल project file नहीं, effective model, agent और permissions की तुलना करें।
 
-**Provider access execution setup का भाग है।** [Provider guide](https://opencode.ai/docs/providers/) supported services और compatible endpoints बताती है। Credentials, endpoint reachability और model tool support महत्वपूर्ण हैं। दूसरे स्थान पर चल रहे server को provider और repository के लिए अपना valid access चाहिए।
+**Provider access execution setup का भाग है।** [प्रदाता मार्गदर्शिका](https://opencode.ai/docs/providers/) supported services और compatible endpoints बताती है। Credentials, endpoint reachability और model tool support महत्वपूर्ण हैं। दूसरे स्थान पर चल रहे server को provider और repository के लिए अपना valid access चाहिए।
 
 **Client total inference cost तय नहीं करता।** Matching models और tasks पर billed usage की तुलना करें। Configuration errors से हुई repeated runs भी गिनें। Local inference में system memory, model format, context size और runtime settings record करें। Desktop download को hosted computation का free replacement न बताएं।
 
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **एक checkout पर concurrent edits से बचें।** अलग plans वाली दो conversations एक ही directory को target करें तो files share करती हैं। Independent experiments के लिए separate worktrees या checkouts उपयोग करें। Changes integrate करने से पहले review करें।
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+हस्तांतरण अभिलेख
+लक्ष्य:
+वर्तमान ब्रांच और कार्यशील निर्देशिका:
+बदली गई फ़ाइलें:
+पहले से पूरी की गई जाँचें:
+ज्ञात विफलताएँ:
+अगली स्वीकृत कार्रवाई:
 ```
 
 **यह record handover को inspectable बनाता है।** यह interface issue को missing instruction या environment mismatch से अलग करने में भी मदद करता है। Credentials record में न रखें।
@@ -111,7 +111,7 @@ Next approved action:
 
 **Agent server को execution service मानें।** Server documentation `OPENCODE_SERVER_PASSWORD` के माध्यम से optional authentication बताती है। Machines connect करने से पहले access को जानबूझकर configure करें। Reachable agent server harmless static website नहीं है।
 
-**Tool permissions की अलग समीक्षा करें।** [Permission guide](https://opencode.ai/docs/permissions/) allow, ask और deny behavior परिभाषित करती है। Interface trial में वही policy लागू करें। Effective rules जाँचे बिना कम prompts वाले client को safer या more capable न मानें।
+**Tool permissions की अलग समीक्षा करें।** [अनुमति मार्गदर्शिका](https://opencode.ai/docs/permissions/) allow, ask और deny behavior परिभाषित करती है। Interface trial में वही policy लागू करें। Effective rules जाँचे बिना कम prompts वाले client को safer या more capable न मानें।
 
 **Harmless policy test से शुरू करें।** Disposable project में allowed file inspection और prohibited edit माँगें। Observed behavior verify करके bounded implementation पर जाएँ। इससे permission assumption testable बनती है।
 
@@ -127,4 +127,4 @@ Next approved action:
 
 **Terminal चुनें** यदि scripted requests और shell context काम आसान बनाते हैं। **Desktop चुनें** यदि graphical project navigation supervision बेहतर करती है। Provider और policy decisions को इस preference से अलग रखें।
 
-**अगले कदम:** [CLI roundup](/articles/cli-coding-agents-comparison/) में terminal alternatives की तुलना करें। Local inference requirements के लिए [OpenCode and Strata guide](/articles/strata-opencode-local-coding-agent-16gb/) पढ़ें। Graphical alternatives के लिए [GUI roundup](/articles/gui-coding-agents-comparison/) देखें।
+**अगले कदम:** [CLI विकल्पों की तुलना](/articles/cli-coding-agents-comparison/) में terminal alternatives की तुलना करें। Local inference requirements के लिए [OpenCode और Strata मार्गदर्शिका](/articles/strata-opencode-local-coding-agent-16gb/) पढ़ें। Graphical alternatives के लिए [GUI विकल्पों की तुलना](/articles/gui-coding-agents-comparison/) देखें।

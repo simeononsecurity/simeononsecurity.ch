@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI vs. Desktop: Workflow-Vergleich 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Vergleiche die Terminal- und Desktop-Clients von OpenCode anhand ihrer Serverarchitektur, Provider-Konfiguration, Skripte, Sitzungszustände und Fehlerbehebung."
 genre: ["Entwicklerwerkzeuge", "Künstliche Intelligenz", "Softwareentwicklung"]
-tags: ["OpenCode CLI vs desktop", "OpenCode Desktop", "OpenCode Terminal", "OpenCode Server", "TUI", "CLI vs GUI", "Coding-Agent", "Provider-Konfiguration", "lokale Modelle", "gehostete Inferenz", "kopfl ose Automatisierung", "opencode run", "opencode serve", "Agent-Berechtigungen", "Projektregeln", "Sitzungszustand", "Entwickler-Workflow", "Serverauthentifizierung", "KI-Coding-Tools", "Agent-Harness"]
+tags: ["OpenCode CLI im Vergleich zur Desktop-App", "OpenCode Desktop", "OpenCode-Kommandozeile", "OpenCode-Dienst", "TUI", "CLI und GUI im Vergleich", "Programmieragent", "Provider-Konfiguration", "lokale Modelle", "gehostete Inferenz", "Automatisierung ohne Benutzeroberfläche", "opencode run", "opencode serve", "Agentenberechtigungen", "Projektregeln", "Sitzungsstatus", "Entwickler-Workflow", "Serverauthentifizierung", "KI-Programmierwerkzeuge", "Agenten-Framework"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Terminal- und Desktop-Clients, die mit einem zentralen Server sowie getrennten Symbolen für Repository und Inferenz verbunden sind"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Vermeide parallele Änderungen an einem Checkout.** Zwei Gespräche mit unterschiedlichen Plänen teilen Dateien, wenn sie dasselbe Verzeichnis verwenden. Nutze getrennte Worktrees oder Checkouts für unabhängige Versuche. Prüfe Änderungen vor der Integration.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Übergabeprotokoll
+Ziel:
+Aktueller Branch und Arbeitsverzeichnis:
+Geänderte Dateien:
+Bereits abgeschlossene Prüfungen:
+Bekannte Fehler:
+Nächste freigegebene Aktion:
 ```
 
 **Dieses Protokoll macht eine Übergabe prüfbar.** Es hilft auch, ein Oberflächenproblem von einer fehlenden Anweisung oder einer nicht passenden Umgebung zu unterscheiden. Halte Zugangsdaten aus dem Protokoll heraus.

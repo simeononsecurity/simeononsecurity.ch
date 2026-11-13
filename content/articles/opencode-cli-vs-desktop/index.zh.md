@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI 对比 Desktop：2026 工作流比较"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "从服务器架构、提供商配置、脚本、会话状态和故障排除方面比较 OpenCode 的终端客户端与桌面客户端。"
 genre: ["开发者工具", "人工智能", "软件开发"]
-tags: ["OpenCode CLI 对比 desktop", "OpenCode Desktop", "OpenCode 终端", "OpenCode 服务器", "TUI", "CLI 对比 GUI", "编码代理", "提供商配置", "本地模型", "托管推理", "无界面自动化", "opencode run", "opencode serve", "代理权限", "项目规则", "会话状态", "开发者工作流", "服务器身份验证", "AI 编码工具", "代理框架"]
+tags: ["OpenCode CLI 与桌面版对比", "OpenCode Desktop", "OpenCode 终端", "OpenCode 服务器", "TUI", "CLI 与 GUI 对比", "编程智能体", "提供商配置", "本地模型", "托管推理", "无界面自动化", "opencode run", "opencode serve", "智能体权限", "项目规则", "会话状态", "开发者工作流", "服务器身份验证", "AI 编程工具", "智能体运行框架"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "连接到中央服务器的终端和桌面客户端，以及代表仓库和推理的独立符号"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **避免对同一 checkout 进行并发编辑。** 两个计划不同的对话如果指向同一目录，就会共享文件。独立实验使用不同的 worktree 或 checkout。合并变更前先审查。
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+交接记录
+目标:
+当前分支和工作目录:
+已更改的文件:
+已完成的检查:
+已知故障:
+下一项获批操作:
 ```
 
 **这份记录让交接可检查。** 它也能帮助区分界面问题、缺少指令和环境不匹配。不要把凭据放入记录。
