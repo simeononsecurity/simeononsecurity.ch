@@ -340,6 +340,58 @@ def reader_fenced_code_prose(text: str) -> set[str]:
         if language in non_code_languages or language not in comment_languages:
             continue
         code = block["body"]
+        if language in {"yaml", "yml"}:
+            yaml_lines = code.splitlines()
+            yaml_index = 0
+            while yaml_index < len(yaml_lines):
+                line = yaml_lines[yaml_index]
+                key = re.match(r"^(\s*)(?:-\s*name|msg)\s*:\s*(.*?)\s*$", line)
+                yaml_index += 1
+                if not key:
+                    continue
+                indent = len(key.group(1))
+                value = key.group(2).strip()
+                is_message = re.match(r"^\s*msg\s*:", line) is not None
+                if re.fullmatch(r"[|>](?:[+-]\d?|\d?[+-]?)?", value):
+                    continuation = []
+                    content_indent = None
+                    while yaml_index < len(yaml_lines):
+                        next_line = yaml_lines[yaml_index]
+                        if next_line.strip():
+                            next_indent = len(next_line) - len(next_line.lstrip())
+                            if content_indent is None:
+                                content_indent = next_indent
+                            elif next_indent < content_indent:
+                                break
+                        continuation.append(next_line.strip())
+                        yaml_index += 1
+                    value = " ".join(continuation)
+                if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+                    value = value[1:-1]
+                if re.fullmatch(r"\s*{{[^{}]+}}\s*", value):
+                    continue
+                if is_message and (
+                    re.fullmatch(
+                        r"(?:ok|success|failure|failed|error|complete|"
+                        r"unknown|enabled|disabled|yes|no|true|false)",
+                        value,
+                        re.I,
+                    )
+                    or re.match(
+                        r"^(?:PASS|FAIL|ERROR|WARN|INFO):\s|"
+                        r"(?:permission denied|operation not permitted|command not found|"
+                        r"no such file or directory|access denied|operation timed out|"
+                        r"connection refused|connection timed out|request timed out|"
+                        r"network is unreachable|host is unreachable|broken pipe|"
+                        r"address already in use|no route to host|no changes detected)\b",
+                        value,
+                        re.I,
+                    )
+                ):
+                    continue
+                normalized = normalize(value)
+                if normalized:
+                    findings.add(normalized)
         if language in {"html", "xml"}:
             for element in re.finditer(
                 r"<(button|a|label|option|title|summary|legend|h[1-6])\b[^>]*>(.*?)</\1\s*>",
@@ -442,7 +494,7 @@ def reader_fenced_code_prose(text: str) -> set[str]:
                 if (
                     identifier_only
                     or re.fullmatch(
-                        r"(?:start|stop|done|ok|success|failure|failed|error|ready|"
+                        r"(?:ok|success|failure|failed|error|"
                         r"complete|unknown|enabled|disabled|yes|no|true|false)",
                         text_value,
                         re.I,

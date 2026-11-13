@@ -199,7 +199,12 @@
   syntax to ignore. Exempt
   fixed diagnostics and identifier-only values from translation. Review any
   output-string finding in context, preserve fixed runtime output, and record
-  the reason when retaining English text the checker flags. It is not a language
+  the reason when retaining English text the checker flags. Do not exempt generic
+  status words such as `start`, `stop`, `ready`, or `done` automatically. Review
+  those strings in context because they can serve as visible instructions or labels.
+  Inspect YAML block scalars under `name:` and `msg:` line by line, including
+  continuation lines, and translate all reader-facing text. The checker scans
+  these fields but cannot establish whether their wording is appropriate. It is not a language
   parser, so manually inspect user-facing strings and markup in every other
   executable fence, including template literals, UI labels, and generated sample text.
   Compare individual lines inside `text`, `plaintext`, and `markdown` fences as well as full
@@ -236,7 +241,14 @@
   In CSV reports, review `copied_reader_fenced_lines` and
   `copied_reader_code_prose` separately from `exact_english_sentences`; fixed
   examples and executable-code comments are distinct findings and must not be
-  mistaken for copied article sentences.
+  mistaken for copied article sentences. Before approval, resolve every
+  `copied_reader_code_prose` finding in context: translate reader-facing code
+  comments, help text, and natural-language sample strings; retain fixed runtime
+  output, identifiers, and literal data only with a recorded reason. A clean
+  article-prose scan does not approve a locale while copied reader-facing code
+  prose remains. In YAML and Ansible examples, also inspect list-item `name:`
+  labels and `msg:` values because they are reader-facing even though they are
+  structured fields rather than comments.
   The checker also flags unchanged prose in executable-fence comments or
   natural-language command strings, and Markdown emphasis that splits a word.
   Preserve command syntax and classify fixed output separately.

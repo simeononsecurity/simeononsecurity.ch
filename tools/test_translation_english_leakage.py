@@ -461,11 +461,64 @@ class FencedProseTests(unittest.TestCase):
                 "translate this ui note",
                 "verify project before continuing",
                 "explain this output",
+                "start",
             },
         )
 
     def test_ignores_structured_jsonc_fences(self):
         sample = '```jsonc\n{"print": "Reader-facing label"}\n```'
+        self.assertEqual(reader_fenced_code_prose(sample), set())
+
+    def test_screens_ansible_and_workflow_yaml_labels_and_messages(self):
+        sample = (
+            '```yaml\n- name: Configure web servers\n  hosts: webservers\n'
+            '  tasks:\n    - name: Install Nginx\n      apt:\n        name: nginx\n'
+            '    - name: Report status\n      debug:\n        msg: "Restart the service now"\n```'
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {
+                "configure web servers",
+                "install nginx",
+                "report status",
+                "restart the service now",
+            },
+        )
+
+    def test_screens_multiline_yaml_block_scalar_labels_and_messages(self):
+        sample = (
+            "```yaml\n- name: |\n    Configure secure web servers before deployment\n"
+            "  hosts: webservers\n  tasks:\n    - name: Report status\n"
+            "      debug:\n        msg: >-\n          Restart the service now\n"
+            "          and verify the health check before continuing.\n```"
+            "\n```yml\n- name: Verify backups\n  debug:\n    msg: |\n"
+            "      Verify the backup before deployment.\n```"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {
+                "configure secure web servers before deployment",
+                "report status",
+                "restart the service now and verify the health check before continuing",
+                "verify backups",
+                "verify the backup before deployment",
+            },
+        )
+
+    def test_yaml_ignores_identifier_only_and_fixed_status_messages(self):
+        sample = (
+            '```yml\n- name: "{{ result.stdout }}"\n'
+            '  debug:\n    msg: "{{ result.stdout }}"\n'
+            '- name: Report state\n  debug:\n    msg: "Ready"\n'
+            '- name: Start\n```'
+        )
+
+        self.assertEqual(reader_fenced_code_prose(sample), {"report state", "ready", "start"})
+
+    def test_ignores_fixed_status_output(self):
+        sample = '```python\nprint("OK")\nprint("PASS: validated")\n```'
         self.assertEqual(reader_fenced_code_prose(sample), set())
 
     def test_screens_comments_in_perl_lua_and_scala_fences(self):
@@ -484,19 +537,21 @@ class FencedProseTests(unittest.TestCase):
             },
         )
 
-    def test_preserves_fixed_status_output_in_executable_fences(self):
+    def test_flags_generic_status_words_and_preserves_fixed_runtime_output(self):
         output = (
             '```python\nprint("PASS: all checks passed")\n'
             'print("Permission denied")\n'
             'print("Operation timed out")\n'
             'print("No changes detected")\n'
             'print("start")\n'
+            'print("Done")\n'
+            'print("Ready")\n'
             'print("CODE_NOT_FOUND")\n'
             'print("status_code")\n'
             '```javascript\nconsole.log("statusCode")\n```'
         )
 
-        self.assertEqual(reader_fenced_code_prose(output), set())
+        self.assertEqual(reader_fenced_code_prose(output), {"start", "done", "ready"})
 
     def test_detects_javascript_reader_facing_output_strings(self):
         output = '```javascript\nconsole.log("Configure your account before continuing")\n```'
