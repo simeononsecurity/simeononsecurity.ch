@@ -3,9 +3,9 @@ title: "Ansible для начинающих 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "Руководство по Ansible на 2026 год: установка, плейбуки, роли, примеры, лучшие практики и сравнение с Terraform, Puppet и Chef."
-tags: ["Введение в Ansible", "Автоматизация управления ИТ-инфраструктурой", "Основы Ansible", "Автоматизация ИТ-инфраструктуры", "Управление конфигурацией", "Развертывание приложений", "Подготовка инфраструктуры", "Непрерывная доставка", "Безопасность и соответствие требованиям", "Оркестрация", "YAML", "Модули Ansible", "Роли", "Лучшие практики", "Контроль версий", "Тестирование", "Red Hat", "Системные администраторы", "Linux", "macOS", "Windows", "Установка Ansible", "Инвентаризация Ansible", "Плейбуки Ansible", "Модули Ansible", "Роли Ansible", "Лучшие практики Ansible", "Тестирование Ansible", "Инструмент автоматизации ИТ-инфраструктуры", "Учебник по Ansible", "Автоматизация управления инфраструктурой", "Ansible для начинающих", "Изучение Ansible", "Учебник Ansible 2026", "Ansible и Terraform", "Ansible и Puppet", "Примеры плейбуков Ansible", "Автоматизация Ansible", "Инструменты DevOps", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Коллекции Ansible", "Ansible Galaxy", "Ansible Vault", "Облачная автоматизация Ansible"]
+tags: ["Введение в Ansible", "Автоматизация управления ИТ-инфраструктурой", "Основы Ansible", "Автоматизация ИТ-инфраструктуры", "Управление конфигурацией", "Развертывание приложений", "Подготовка инфраструктуры", "Непрерывная доставка", "Безопасность и соответствие требованиям", "Оркестрация", "YAML", "Модули Ansible", "Роли", "Лучшие практики", "Контроль версий", "Тестирование", "Red Hat", "Системные администраторы", "Linux", "macOS", "Windows", "Установка Ansible", "Инвентаризация Ansible", "Плейбуки Ansible", "Модули Ansible", "Роли Ansible", "Лучшие практики Ansible", "Тестирование Ansible", "Инструмент автоматизации ИТ-инфраструктуры", "Учебник по Ansible", "Автоматизация управления инфраструктурой", "Ansible для начинающих", "Изучение Ansible", "Учебник Ansible 2026", "Ansible и Terraform", "Ansible и Puppet", "Примеры плейбуков Ansible", "Автоматизация Ansible", "Инструменты DevOps", "Инфраструктура как код", "Ansible AWX", "Ansible Tower", "Коллекции Ansible", "Ansible Galaxy", "Ansible Vault", "Облачная автоматизация Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "Иллюстрация современной ИТ-инфраструктуры с взаимосвязанными серверами и устройствами. На ней показаны соединения SSH и WinRM, стилизованный файл YAML и значки облачных сервисов на темном фоне."
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansible подходит для автоматизации:
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# Добавить PPA Ansible для последней версии
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# Включить репозиторий EPEL
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Использовать Homebrew
 brew install ansible
 ```
 
 #### Способ 2: Python pip (новейшие функции)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# Установить pipx (рекомендуемая изолированная среда)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# Установить Ansible с помощью pipx
 pipx install --include-deps ansible
 
-# Verify installation
+# Проверить установку
 ansible --version
 ```
 
 #### Способ 3: Docker (переносимый вариант)
 
 ```bash
-# Pull official Ansible container
+# Получить официальный контейнер Ansible
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# Запустить Ansible в контейнере
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### Проверка установки
 
 ```bash
-# Check Ansible version
+# Проверить версию Ansible
 ansible --version
 
-# Expected output (2026):
+# Ожидаемый вывод (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Создайте файл конфигурации Ansible:
 
 ```bash
-# Create config directory
+# Создать каталог конфигурации
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# Создать ansible.cfg
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ EOF
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# Группа веб-серверов
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# Группа серверов баз данных
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# Балансировщики нагрузки
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# Группа групп
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# Переменные для всех веб-серверов
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# Переменные для всех хостов
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ keyed_groups:
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: Настроить веб-серверы
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Установить Nginx
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Запустить и включить Nginx
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: Скопировать содержимое сайта
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ keyed_groups:
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: Настроить брандмауэр
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ keyed_groups:
 #### Запуск плейбуков
 
 ```bash
-# Basic execution
+# Базовый запуск
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# С указанным inventory
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# Ограничить выбранными хостами
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# Пробный запуск (режим проверки)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# Подробный вывод для устранения неполадок
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ ansible-playbook simple_playbook.yml -vvv
 
 **Системные модули:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# Управление пакетами
+- name: Установить пакеты (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ ansible-playbook simple_playbook.yml -vvv
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# Управление службами
+- name: Управлять службами
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ ansible-playbook simple_playbook.yml -vvv
 
 **Модули файлов:**
 ```yaml
-# File operations
-- name: Create directory
+# Операции с файлами
+- name: Создать каталог
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# Скопировать файлы
+- name: Развернуть конфигурацию
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# Шаблон с переменными
+- name: Развернуть конфигурацию nginx
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ ansible-playbook simple_playbook.yml -vvv
 
 **Облачные модули (пример AWS):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# Создать экземпляр EC2
+- name: Запустить экземпляр EC2
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ ansible-playbook simple_playbook.yml -vvv
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# Создать бакет S3
+- name: Создать бакет S3
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ ansible-playbook simple_playbook.yml -vvv
 
 **Модули баз данных:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# Управление базой данных MySQL
+- name: Создать базу данных MySQL
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: Создать пользователя MySQL
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ ansible-playbook simple_playbook.yml -vvv
 **Переменные плейбука:**
 ```yaml
 ---
-- name: Deploy Application
+- name: Развернуть приложение
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ ansible-playbook simple_playbook.yml -vvv
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: Развернуть {{ app_name }} версии {{ app_version }}
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (зашифрованные переменные):**
 ```bash
-# Create encrypted file
+# Создать зашифрованный файл
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# Изменить зашифрованный файл
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# Содержимое secrets.yml:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# Использовать в playbook
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ ansible-playbook deploy.yml --ask-vault-pass
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # Переменные по умолчанию
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # Переменные роли
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # Основной список задач
+    │   ├── install.yml       # Задачи установки
+    │   └── configure.yml     # Задачи настройки
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # Обработчики (перезапуск служб)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Шаблоны Jinja2
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # Статические файлы
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # Зависимости роли
+    └── README.md             # Документация
 ```
 
 #### Пример роли: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: Включить переменные для конкретной ОС
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Установить Nginx
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Настроить Nginx
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: Убедиться, что Nginx запущен
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Установить Nginx (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Установить Nginx (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: Перезапустить nginx
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: Перезагрузить nginx
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **Использование роли:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: Настроить веб-серверы с ролью Nginx
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ http {
 #### Установка коллекций
 
 ```bash
-# Install from Ansible Galaxy
+# Установить из Ansible Galaxy
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# Установить из файла требований
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: Использовать модули коллекций
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: Использовать модуль Docker из community.general
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: Использовать модуль AWS EC2
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **Установка AWX с Docker Compose:**
 ```bash
-# Clone AWX repository
+# Клонировать репозиторий AWX
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# Развернуть с помощью docker-compose
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# Открыть http://localhost:80
+# Вход по умолчанию: admin / password
 ```
 
 ### Автоматизация Windows с Ansible
@@ -742,7 +742,7 @@ docker-compose -f docker-compose.yml up -d
 
 **Требования для Windows:**
 ```powershell
-# On Windows host, enable WinRM
+# Включить WinRM на узле Windows
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Плейбук для автоматизации Windows:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Настройка сервера Windows
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: Установить IIS
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: Развернуть веб-сайт
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: Настроить брандмауэр
       win_firewall_rule:
-        name: Allow HTTP
+        name: Разрешить HTTP
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Установить программу через Chocolatey
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ Ansible поддерживает крупных поставщиков сете�
 **Плейбук сетевого устройства:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Настроить коммутаторы Cisco
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ Ansible поддерживает крупных поставщиков сете�
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: Настроить VLAN
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ Ansible поддерживает крупных поставщиков сете�
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: Настроить интерфейс
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: Сохранить конфигурацию
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (развертывание полного стека):**
 ```yaml
 ---
-- name: Configure all servers
+- name: Настроить все серверы
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: Настроить серверы баз данных
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: Настроить веб-серверы
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: Настроить балансировщики нагрузки
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Настроить кластер Kubernetes
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Установить Docker
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Добавить apt-ключ Kubernetes
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Добавить репозиторий Kubernetes
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Установить компоненты Kubernetes
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Инициализировать главный узел Kubernetes
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: Инициализировать кластер
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: Создать каталог .kube
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: Скопировать admin.conf
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: Усилить защиту
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: Обновить все пакеты
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: Установить средства безопасности
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: Настроить fail2ban
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: Настроить брандмауэр
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: Включить брандмауэр
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: Отключить вход root
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: Задать политику паролей
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: Перезапустить fail2ban
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: Перезапустить sshd
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **Плохо (не идемпотентно):**
 ```yaml
-- name: Add line to file
+- name: Добавить строку в файл
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **Хорошо (идемпотентно):**
 ```yaml
-- name: Ensure line in file
+- name: Проверить наличие строки в файле
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. Используйте Ansible Lint для проверки качества кода
 
 ```bash
-# Install ansible-lint
+# Установить ansible-lint
 pip install ansible-lint
 
-# Run linter
+# Запустить линтер
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# Автоматически исправить распространенные проблемы
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. Настройте тестирование с Molecule
 
 ```bash
-# Install Molecule
+# Установить Molecule
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# Инициализировать новую роль с тестами
 molecule init role my_role --driver-name docker
 
-# Run tests
+# Запустить тесты
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# Этапы тестирования:
+# - Создать тестовую среду
+# - Сходимость (запустить playbook)
+# - Проверка (запустить тесты)
+# - Уничтожить среду
 ```
 
 **Пример molecule.yml:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: Полная настройка сервера
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: Установить пакеты
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Настроить Nginx
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: Развернуть приложение
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# Запустить только задачи nginx
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# Пропустить развертывание
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: Надежное выполнение задач
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: Попробовать рискованную операцию
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: Вывод отладки
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: Обработать сбой
       debug:
-        msg: "Command failed but continuing..."
+        msg: "Команда завершилась с ошибкой, но выполнение продолжается..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: Блок с восстановлением
       block:
-        - name: Try this first
+        - name: Сначала попробуйте это
           command: /may/fail
         
-        - name: If successful, do this
+        - name: При успехе выполнить это
           debug:
-            msg: "Success!"
+            msg: "Успешно!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: При сбое выполнить это вместо предыдущего
           debug:
-            msg: "Recovered from failure"
+            msg: "Восстановление после сбоя"
       
       always:
-        - name: Always run this
+        - name: Всегда выполнять это
           debug:
-            msg: "Cleanup operations"
+            msg: "Операции очистки"
 ```
 
 ### 7. Оптимизация производительности
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Использование Mitogen (ускорение в 3-7 раз)
 ```bash
-# Install Mitogen
+# Установить Mitogen
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### Параллельное выполнение
 ```yaml
 ---
-- name: Parallel Updates
+- name: Параллельные обновления
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # Не ждать все хосты
+  serial: 10      # Обрабатывать по 10 хостов за раз
   
   tasks:
-    - name: Update packages
+    - name: Обновить пакеты
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **Решения:**
 ```bash
-# Test raw SSH connection
+# Проверить прямое SSH-подключение
 ssh -vvv user@host
 
-# Test Ansible connection
+# Проверить подключение Ansible
 ansible host -m ping -vvv
 
-# Add to inventory
+# Добавить в inventory
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: Задача, требующая root
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **Решение:**
 ```bash
-# Ensure collection is installed
+# Убедиться, что коллекция установлена
 ansible-galaxy collection install community.general
 
-# Verify collection
+# Проверить коллекцию
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# Использовать FQCN (полное имя коллекции)
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. Используйте асинхронный режим для длительных задач:
    ```yaml
-   - name: Long running task
+   - name: Длительная задача
      command: /usr/bin/long_task
      async: 3600
      poll: 0

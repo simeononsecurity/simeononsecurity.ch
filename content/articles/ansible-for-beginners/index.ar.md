@@ -3,9 +3,9 @@ title: "دليل Ansible للمبتدئين 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "دليل Ansible لعام 2026، ويغطي التثبيت وملفات Playbook والأدوار والأمثلة وأفضل الممارسات ومقارنات Terraform وPuppet وChef."
-tags: ["مقدمة إلى Ansible", "أتمتة إدارة بنية تقنية المعلومات", "أساسيات Ansible", "أتمتة بنية تقنية المعلومات", "إدارة الإعدادات", "نشر التطبيقات", "تجهيز البنية التحتية", "التسليم المستمر", "الأمان والامتثال", "التنسيق", "YAML", "وحدات Ansible", "الأدوار", "أفضل الممارسات", "التحكم في الإصدارات", "الاختبار", "Red Hat", "مسؤولو الأنظمة", "Linux", "macOS", "Windows", "تثبيت Ansible", "جرد Ansible", "ملفات Playbook في Ansible", "وحدات Ansible", "أدوار Ansible", "أفضل ممارسات Ansible", "اختبار Ansible", "أداة أتمتة بنية تقنية المعلومات", "شرح Ansible", "أتمتة إدارة البنية التحتية", "Ansible للمبتدئين", "تعلم Ansible", "شرح Ansible لعام 2026", "Ansible مقارنة بـ Terraform", "Ansible مقارنة بـ Puppet", "أمثلة على ملفات Playbook في Ansible", "أتمتة Ansible", "أدوات DevOps", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "مجموعات Ansible", "Ansible Galaxy", "Ansible Vault", "أتمتة السحابة باستخدام Ansible"]
+tags: ["مقدمة إلى Ansible", "أتمتة إدارة بنية تقنية المعلومات", "أساسيات Ansible", "أتمتة بنية تقنية المعلومات", "إدارة الإعدادات", "نشر التطبيقات", "تجهيز البنية التحتية", "التسليم المستمر", "الأمان والامتثال", "التنسيق", "YAML", "وحدات Ansible", "الأدوار", "أفضل الممارسات", "التحكم في الإصدارات", "الاختبار", "Red Hat", "مسؤولو الأنظمة", "Linux", "macOS", "Windows", "تثبيت Ansible", "جرد Ansible", "ملفات Playbook في Ansible", "وحدات Ansible", "أدوار Ansible", "أفضل ممارسات Ansible", "اختبار Ansible", "أداة أتمتة بنية تقنية المعلومات", "شرح Ansible", "أتمتة إدارة البنية التحتية", "Ansible للمبتدئين", "تعلم Ansible", "شرح Ansible لعام 2026", "Ansible مقارنة بـ Terraform", "Ansible مقارنة بـ Puppet", "أمثلة على ملفات Playbook في Ansible", "أتمتة Ansible", "أدوات DevOps", "البنية التحتية كرمز", "Ansible AWX", "Ansible Tower", "مجموعات Ansible", "Ansible Galaxy", "Ansible Vault", "أتمتة السحابة باستخدام Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "رسم توضيحي لبنية تقنية معلومات حديثة تضم خوادم وأجهزة مترابطة. يعرض اتصالات SSH وWinRM وملف YAML منمقًا وأيقونات لخدمات سحابية على خلفية داكنة."
 coverCaption: ""
@@ -122,7 +122,7 @@ coverCaption: ""
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# إضافة مستودع Ansible PPA لأحدث إصدار
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# تمكين مستودع EPEL
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# استخدام Homebrew
 brew install ansible
 ```
 
 #### الطريقة 2: Python pip (أحدث الميزات)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# تثبيت pipx (بيئة معزولة موصى بها)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# تثبيت Ansible باستخدام pipx
 pipx install --include-deps ansible
 
-# Verify installation
+# التحقق من التثبيت
 ansible --version
 ```
 
 #### الطريقة 3: Docker (قابل للنقل)
 
 ```bash
-# Pull official Ansible container
+# سحب حاوية Ansible الرسمية
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# تشغيل Ansible داخل حاوية
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### التحقق من التثبيت
 
 ```bash
-# Check Ansible version
+# التحقق من إصدار Ansible
 ansible --version
 
-# Expected output (2026):
+# المخرجات المتوقعة (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 أنشئ ملف إعداد Ansible:
 
 ```bash
-# Create config directory
+# إنشاء مجلد الإعدادات
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# إنشاء ansible.cfg
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ EOF
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# مجموعة خوادم الويب
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# مجموعة خوادم قواعد البيانات
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# موازنات التحميل
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# مجموعة من المجموعات
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# المتغيرات لجميع خوادم الويب
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# المتغيرات لجميع المضيفين
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ keyed_groups:
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: إعداد خوادم الويب
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: تثبيت Nginx
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: تشغيل Nginx وتمكينه
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: نسخ محتوى الموقع
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ keyed_groups:
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: إعداد جدار الحماية
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ keyed_groups:
 #### تشغيل ملفات Playbook
 
 ```bash
-# Basic execution
+# التنفيذ الأساسي
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# باستخدام مخزون محدد
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# تقييد التشغيل على مضيفين محددين
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# تشغيل تجريبي (وضع الفحص)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# مخرجات تفصيلية لاستكشاف الأخطاء
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ ansible-playbook simple_playbook.yml -vvv
 
 **وحدات النظام:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# إدارة الحزم
+- name: تثبيت الحزم (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ ansible-playbook simple_playbook.yml -vvv
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# إدارة الخدمات
+- name: إدارة الخدمات
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ ansible-playbook simple_playbook.yml -vvv
 
 **وحدات الملفات:**
 ```yaml
-# File operations
-- name: Create directory
+# عمليات الملفات
+- name: إنشاء مجلد
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# نسخ الملفات
+- name: نشر الإعدادات
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# قالب مع متغيرات
+- name: نشر إعدادات nginx
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ ansible-playbook simple_playbook.yml -vvv
 
 **الوحدات السحابية (مثال AWS):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# إنشاء مثيل EC2
+- name: إنشاء مثيل EC2
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ ansible-playbook simple_playbook.yml -vvv
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# إنشاء حاوية S3
+- name: إنشاء حاوية S3
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ ansible-playbook simple_playbook.yml -vvv
 
 **وحدات قواعد البيانات:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# إدارة قاعدة بيانات MySQL
+- name: إنشاء قاعدة بيانات MySQL
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: إنشاء مستخدم MySQL
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ ansible-playbook simple_playbook.yml -vvv
 **متغيرات Playbook:**
 ```yaml
 ---
-- name: Deploy Application
+- name: نشر التطبيق
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ ansible-playbook simple_playbook.yml -vvv
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: نشر {{ app_name }} الإصدار {{ app_version }}
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (متغيرات مشفّرة):**
 ```bash
-# Create encrypted file
+# إنشاء ملف مشفر
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# تحرير ملف مشفر
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# محتوى secrets.yml:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# الاستخدام في playbook
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ ansible-playbook deploy.yml --ask-vault-pass
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # المتغيرات الافتراضية
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # متغيرات الدور
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # قائمة المهام الرئيسية
+    │   ├── install.yml       # مهام التثبيت
+    │   └── configure.yml     # مهام الإعداد
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # المعالجات (إعادة تشغيل الخدمات)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # قوالب Jinja2
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # ملفات ثابتة
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # اعتماديات الدور
+    └── README.md             # التوثيق
 ```
 
 #### مثال على دور: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: تضمين متغيرات نظام التشغيل الخاصة
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: تثبيت Nginx
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: إعداد Nginx
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: التأكد من تشغيل Nginx
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: تثبيت Nginx (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: تثبيت Nginx (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: إعادة تشغيل nginx
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: إعادة تحميل nginx
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **استخدام الدور:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: إعداد خوادم الويب باستخدام دور Nginx
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ http {
 #### تثبيت المجموعات
 
 ```bash
-# Install from Ansible Galaxy
+# التثبيت من Ansible Galaxy
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# التثبيت من ملف المتطلبات
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: استخدام وحدات المجموعات
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: استخدام وحدة Docker من community.general
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: استخدام وحدة AWS EC2
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **تثبيت AWX باستخدام Docker Compose:**
 ```bash
-# Clone AWX repository
+# استنساخ مستودع AWX
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# النشر باستخدام docker-compose
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# الوصول عبر http://localhost:80
+# تسجيل الدخول الافتراضي: admin / password
 ```
 
 ### أتمتة Windows باستخدام Ansible
@@ -742,7 +742,7 @@ docker-compose -f docker-compose.yml up -d
 
 **متطلبات Windows:**
 ```powershell
-# On Windows host, enable WinRM
+# على مضيف Windows، تمكين WinRM
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **ملف Playbook لأتمتة Windows:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: إعداد خادم Windows
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: تثبيت IIS
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: نشر الموقع
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: إعداد جدار الحماية
       win_firewall_rule:
-        name: Allow HTTP
+        name: السماح بـ HTTP
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: تثبيت البرامج عبر Chocolatey
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ ansible_port=5986
 **ملف Playbook لأجهزة الشبكة:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: إعداد محولات Cisco
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ ansible_port=5986
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: إعداد شبكات VLAN
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ ansible_port=5986
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: إعداد الواجهة
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: حفظ الإعدادات
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (نشر المكدس الكامل):**
 ```yaml
 ---
-- name: Configure all servers
+- name: إعداد جميع الخوادم
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: إعداد خوادم قواعد البيانات
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: إعداد خوادم الويب
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: إعداد موازنات التحميل
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: إعداد مجموعة Kubernetes
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: تثبيت Docker
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: إضافة مفتاح apt لـ Kubernetes
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: إضافة مستودع Kubernetes
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: تثبيت مكونات Kubernetes
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: تهيئة Kubernetes master
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: تهيئة المجموعة
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: إنشاء مجلد .kube
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: نسخ admin.conf
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: تعزيز الأمان
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: تحديث جميع الحزم
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: تثبيت أدوات الأمان
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: إعداد fail2ban
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: إعداد جدار الحماية
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: تمكين جدار الحماية
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: تعطيل تسجيل دخول root
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: تعيين سياسة كلمات المرور
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: إعادة تشغيل fail2ban
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: إعادة تشغيل sshd
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **مثال سيئ (غير آمن عند التكرار):**
 ```yaml
-- name: Add line to file
+- name: إضافة سطر إلى ملف
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **مثال جيد (آمن عند التكرار):**
 ```yaml
-- name: Ensure line in file
+- name: التأكد من وجود السطر في الملف
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. استخدم Ansible Lint لضمان جودة الكود
 
 ```bash
-# Install ansible-lint
+# تثبيت ansible-lint
 pip install ansible-lint
 
-# Run linter
+# تشغيل المدقق
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# إصلاح المشكلات الشائعة تلقائياً
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. نفّذ الاختبارات باستخدام Molecule
 
 ```bash
-# Install Molecule
+# تثبيت Molecule
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# تهيئة دور جديد مع الاختبارات
 molecule init role my_role --driver-name docker
 
-# Run tests
+# تشغيل الاختبارات
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# مراحل الاختبار:
+# - إنشاء بيئة اختبار
+# - التنفيذ (تشغيل playbook)
+# - التحقق (تشغيل الاختبارات)
+# - تدمير البيئة
 ```
 
 **مثال molecule.yml:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: إعداد الخادم بالكامل
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: تثبيت الحزم
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: إعداد Nginx
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: نشر التطبيق
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# تشغيل مهام nginx فقط
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# تخطي النشر
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: تنفيذ المهام بمتانة
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: محاولة عملية محفوفة بالمخاطر
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: مخرجات التصحيح
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: معالجة الفشل
       debug:
-        msg: "Command failed but continuing..."
+        msg: "فشل الأمر، لكن التنفيذ مستمر..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: كتلة مع إجراء استرداد
       block:
-        - name: Try this first
+        - name: جرّب هذا أولاً
           command: /may/fail
         
-        - name: If successful, do this
+        - name: إذا نجح، نفّذ هذا
           debug:
-            msg: "Success!"
+            msg: "نجاح!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: إذا فشل، نفّذ هذا بدلاً منه
           debug:
-            msg: "Recovered from failure"
+            msg: "تم التعافي من الفشل"
       
       always:
-        - name: Always run this
+        - name: شغّل هذا دائماً
           debug:
-            msg: "Cleanup operations"
+            msg: "عمليات التنظيف"
 ```
 
 ### 7. تحسين الأداء
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### استخدام Mitogen (أداء أسرع من 3 إلى 7 مرات)
 ```bash
-# Install Mitogen
+# تثبيت Mitogen
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### التنفيذ المتوازي
 ```yaml
 ---
-- name: Parallel Updates
+- name: تحديثات متوازية
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # لا تنتظر جميع المضيفين
+  serial: 10      # معالجة 10 مضيفين في كل مرة
   
   tasks:
-    - name: Update packages
+    - name: تحديث الحزم
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **الحلول:**
 ```bash
-# Test raw SSH connection
+# اختبار اتصال SSH مباشر
 ssh -vvv user@host
 
-# Test Ansible connection
+# اختبار اتصال Ansible
 ansible host -m ping -vvv
 
-# Add to inventory
+# الإضافة إلى المخزون
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: مهمة تتطلب صلاحيات root
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **الحل:**
 ```bash
-# Ensure collection is installed
+# التأكد من تثبيت المجموعة
 ansible-galaxy collection install community.general
 
-# Verify collection
+# التحقق من المجموعة
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# استخدام FQCN (الاسم المؤهل بالكامل للمجموعة)
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. استخدم التنفيذ غير المتزامن للمهام الطويلة:
    ```yaml
-   - name: Long running task
+   - name: مهمة طويلة التشغيل
      command: /usr/bin/long_task
      async: 3600
      poll: 0

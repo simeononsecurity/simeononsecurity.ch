@@ -3,9 +3,9 @@ title: "নতুনদের জন্য Ansible গাইড ২০২৬"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "২০২৬ সালের Ansible গাইড। এতে ইনস্টলেশন, প্লেবুক, রোল, উদাহরণ, সেরা অনুশীলন এবং Terraform, Puppet ও Chef-এর সঙ্গে তুলনা রয়েছে।"
-tags: ["Ansible পরিচিতি", "IT অবকাঠামো ব্যবস্থাপনা স্বয়ংক্রিয়করণ", "Ansible-এর মৌলিক বিষয়", "IT অবকাঠামো স্বয়ংক্রিয়করণ", "কনফিগারেশন ব্যবস্থাপনা", "অ্যাপ্লিকেশন স্থাপন", "প্রভিশনিং", "ধারাবাহিক ডেলিভারি", "নিরাপত্তা ও সম্মতি", "অর্কেস্ট্রেশন", "YAML", "Ansible মডিউল", "রোল", "সেরা অনুশীলন", "সংস্করণ নিয়ন্ত্রণ", "পরীক্ষা", "Red Hat", "সিস্টেম অ্যাডমিনিস্ট্রেটর", "Linux", "macOS", "Windows", "Ansible ইনস্টলেশন", "Ansible ইনভেন্টরি", "Ansible প্লেবুক", "Ansible মডিউল", "Ansible রোল", "Ansible-এর সেরা অনুশীলন", "Ansible পরীক্ষা", "IT অবকাঠামো স্বয়ংক্রিয়করণ টুল", "Ansible টিউটোরিয়াল", "অবকাঠামো ব্যবস্থাপনা স্বয়ংক্রিয়করণ", "নতুনদের জন্য Ansible", "Ansible শেখা", "Ansible টিউটোরিয়াল ২০২৬", "Ansible ও Terraform", "Ansible ও Puppet", "Ansible প্লেবুকের উদাহরণ", "Ansible স্বয়ংক্রিয়করণ", "DevOps টুল", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Ansible কালেকশন", "Ansible Galaxy", "Ansible Vault", "Ansible ক্লাউড স্বয়ংক্রিয়করণ"]
+tags: ["Ansible পরিচিতি", "IT অবকাঠামো ব্যবস্থাপনা স্বয়ংক্রিয়করণ", "Ansible-এর মৌলিক বিষয়", "IT অবকাঠামো স্বয়ংক্রিয়করণ", "কনফিগারেশন ব্যবস্থাপনা", "অ্যাপ্লিকেশন স্থাপন", "প্রভিশনিং", "ধারাবাহিক ডেলিভারি", "নিরাপত্তা ও সম্মতি", "অর্কেস্ট্রেশন", "YAML", "Ansible মডিউল", "রোল", "সেরা অনুশীলন", "সংস্করণ নিয়ন্ত্রণ", "পরীক্ষা", "Red Hat", "সিস্টেম অ্যাডমিনিস্ট্রেটর", "Linux", "macOS", "Windows", "Ansible ইনস্টলেশন", "Ansible ইনভেন্টরি", "Ansible প্লেবুক", "Ansible মডিউল", "Ansible রোল", "Ansible-এর সেরা অনুশীলন", "Ansible পরীক্ষা", "IT অবকাঠামো স্বয়ংক্রিয়করণ টুল", "Ansible টিউটোরিয়াল", "অবকাঠামো ব্যবস্থাপনা স্বয়ংক্রিয়করণ", "নতুনদের জন্য Ansible", "Ansible শেখা", "Ansible টিউটোরিয়াল ২০২৬", "Ansible ও Terraform", "Ansible ও Puppet", "Ansible প্লেবুকের উদাহরণ", "Ansible স্বয়ংক্রিয়করণ", "DevOps টুল", "কোড হিসেবে অবকাঠামো", "Ansible AWX", "Ansible Tower", "Ansible কালেকশন", "Ansible Galaxy", "Ansible Vault", "Ansible ক্লাউড স্বয়ংক্রিয়করণ"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "আধুনিক IT অবকাঠামোর একটি চিত্র, যেখানে পরস্পর-সংযুক্ত সার্ভার ও ডিভাইস, SSH এবং WinRM সংযোগ, একটি নকশা করা YAML ফাইল এবং গাঢ় পটভূমিতে ক্লাউড পরিষেবার আইকন দেখা যায়।"
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansible দিয়ে এই কাজগুলো স্বয়ংক্র
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# সর্বশেষ সংস্করণের জন্য Ansible PPA যোগ করুন
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# EPEL রিপোজিটরি সক্রিয় করুন
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Homebrew ব্যবহার
 brew install ansible
 ```
 
 #### পদ্ধতি ২: Python pip (নতুন বৈশিষ্ট্য)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# pipx ইনস্টল করুন (প্রস্তাবিত বিচ্ছিন্ন পরিবেশ)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# pipx দিয়ে Ansible ইনস্টল করুন
 pipx install --include-deps ansible
 
-# Verify installation
+# ইনস্টলেশন যাচাই করুন
 ansible --version
 ```
 
 #### পদ্ধতি ৩: Docker (বহনযোগ্য)
 
 ```bash
-# Pull official Ansible container
+# অফিশিয়াল Ansible কনটেইনার টানুন
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# কনটেইনারে Ansible চালান
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### ইনস্টলেশন যাচাই
 
 ```bash
-# Check Ansible version
+# Ansible সংস্করণ পরীক্ষা করুন
 ansible --version
 
-# Expected output (2026):
+# প্রত্যাশিত আউটপুট (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Ansible কনফিগারেশন ফাইল তৈরি করুন:
 
 ```bash
-# Create config directory
+# কনফিগ ডিরেক্টরি তৈরি করুন
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# ansible.cfg তৈরি করুন
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ EOF
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# ওয়েব সার্ভার গ্রুপ
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# ডেটাবেস সার্ভার গ্রুপ
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# লোড ব্যালান্সার
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# গ্রুপের গ্রুপ
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# সব ওয়েবসার্ভারের জন্য ভেরিয়েবল
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# সব হোস্টের জন্য ভেরিয়েবল
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ keyed_groups:
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: ওয়েব সার্ভার কনফিগার করুন
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Nginx ইনস্টল করুন
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Nginx শুরু ও সক্রিয় করুন
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: ওয়েবসাইটের বিষয়বস্তু কপি করুন
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ keyed_groups:
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: ফায়ারওয়াল কনফিগার করুন
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ keyed_groups:
 #### প্লেবুক চালানো
 
 ```bash
-# Basic execution
+# মৌলিক কার্যসম্পাদন
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# নির্দিষ্ট ইনভেন্টরি দিয়ে
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# নির্দিষ্ট হোস্টে সীমাবদ্ধ করুন
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# ড্রাই রান (চেক মোড)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# সমস্যা নির্ণয়ের জন্য বিস্তারিত আউটপুট
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
 
 **সিস্টেম মডিউল:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# প্যাকেজ ব্যবস্থাপনা
+- name: প্যাকেজ ইনস্টল করুন (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# সার্ভিস ব্যবস্থাপনা
+- name: সার্ভিস পরিচালনা করুন
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
 
 **ফাইল মডিউল:**
 ```yaml
-# File operations
-- name: Create directory
+# ফাইল অপারেশন
+- name: ডিরেক্টরি তৈরি করুন
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# ফাইল কপি করুন
+- name: কনফিগারেশন স্থাপন করুন
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# ভেরিয়েবলসহ টেমপ্লেট
+- name: nginx কনফিগারেশন স্থাপন করুন
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
 
 **ক্লাউড মডিউল (AWS উদাহরণ):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# EC2 ইনস্ট্যান্স তৈরি করুন
+- name: EC2 ইনস্ট্যান্স চালু করুন
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# S3 বাকেট তৈরি করুন
+- name: S3 বাকেট তৈরি করুন
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
 
 **ডেটাবেস মডিউল:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# MySQL ডেটাবেস ব্যবস্থাপনা
+- name: MySQL ডেটাবেস তৈরি করুন
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: MySQL ব্যবহারকারী তৈরি করুন
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
 **প্লেবুক ভেরিয়েবল:**
 ```yaml
 ---
-- name: Deploy Application
+- name: অ্যাপ্লিকেশন স্থাপন করুন
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ Ansible মডিউল স্বয়ংক্রিয়করণের ম�
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: "{{ app_name }} সংস্করণ {{ app_version }} স্থাপন করুন"
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (এনক্রিপ্ট করা ভেরিয়েবল):**
 ```bash
-# Create encrypted file
+# এনক্রিপ্ট করা ফাইল তৈরি করুন
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# এনক্রিপ্ট করা ফাইল সম্পাদনা করুন
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# secrets.yml-এর বিষয়বস্তু:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# প্লেবুকে ব্যবহার
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ ansible-playbook deploy.yml --ask-vault-pass
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # ডিফল্ট ভেরিয়েবল
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # রোল ভেরিয়েবল
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # প্রধান টাস্ক তালিকা
+    │   ├── install.yml       # ইনস্টলেশন টাস্ক
+    │   └── configure.yml     # কনফিগারেশন টাস্ক
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # হ্যান্ডলার (সার্ভিস পুনরায় চালু)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Jinja2 টেমপ্লেট
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # স্থির ফাইল
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # রোল নির্ভরতা
+    └── README.md             # ডকুমেন্টেশন
 ```
 
 #### রোলের উদাহরণ: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: OS-নির্দিষ্ট ভেরিয়েবল অন্তর্ভুক্ত করুন
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Nginx ইনস্টল করুন
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Nginx কনফিগার করুন
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: Nginx চলছে তা নিশ্চিত করুন
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Nginx ইনস্টল করুন (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Nginx ইনস্টল করুন (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: nginx পুনরায় চালু করুন
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: nginx পুনরায় লোড করুন
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **রোল ব্যবহার:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: Nginx রোল দিয়ে ওয়েব সার্ভার কনফিগার করুন
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ http {
 #### কালেকশন ইনস্টল
 
 ```bash
-# Install from Ansible Galaxy
+# Ansible Galaxy থেকে ইনস্টল করুন
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# requirements ফাইল থেকে ইনস্টল করুন
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: কালেকশন মডিউল ব্যবহার করুন
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: community.general-এর Docker মডিউল ব্যবহার করুন
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: AWS EC2 মডিউল ব্যবহার করুন
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **Docker Compose দিয়ে AWX ইনস্টল:**
 ```bash
-# Clone AWX repository
+# AWX রিপোজিটরি ক্লোন করুন
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# docker-compose দিয়ে স্থাপন করুন
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# http://localhost:80-এ প্রবেশ করুন
+# ডিফল্ট লগইন: admin / password
 ```
 
 ### Ansible দিয়ে Windows স্বয়ংক্রিয়করণ
@@ -742,7 +742,7 @@ docker-compose -f docker-compose.yml up -d
 
 **Windows-এর পূর্বশর্ত:**
 ```powershell
-# On Windows host, enable WinRM
+# Windows হোস্টে WinRM সক্রিয় করুন
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Windows স্বয়ংক্রিয়করণ প্লেবুক:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Windows সার্ভার কনফিগারেশন
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: IIS ইনস্টল করুন
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: ওয়েবসাইট স্থাপন করুন
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: ফায়ারওয়াল কনফিগার করুন
       win_firewall_rule:
-        name: Allow HTTP
+        name: HTTP অনুমোদন করুন
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Chocolatey দিয়ে সফটওয়্যার ইনস্টল করুন
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ Ansible Cisco, Juniper, Arista ও F5-সহ প্রধান নেটওয�
 **নেটওয়ার্ক ডিভাইসের প্লেবুক:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Cisco সুইচ কনফিগার করুন
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ Ansible Cisco, Juniper, Arista ও F5-সহ প্রধান নেটওয�
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: VLAN কনফিগার করুন
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ Ansible Cisco, Juniper, Arista ও F5-সহ প্রধান নেটওয�
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: ইন্টারফেস কনফিগার করুন
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: কনফিগারেশন সংরক্ষণ করুন
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (সম্পূর্ণ স্ট্যাক স্থাপন):**
 ```yaml
 ---
-- name: Configure all servers
+- name: সব সার্ভার কনফিগার করুন
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: ডেটাবেস সার্ভার কনফিগার করুন
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: ওয়েব সার্ভার কনফিগার করুন
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: লোড ব্যালান্সার কনফিগার করুন
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Kubernetes ক্লাস্টার সেটআপ করুন
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Docker ইনস্টল করুন
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Kubernetes apt কী যোগ করুন
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Kubernetes রিপোজিটরি যোগ করুন
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Kubernetes কম্পোনেন্ট ইনস্টল করুন
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Kubernetes মাস্টার চালু করুন
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: ক্লাস্টার চালু করুন
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: .kube ডিরেক্টরি তৈরি করুন
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: admin.conf কপি করুন
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: নিরাপত্তা জোরদার করুন
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: সব প্যাকেজ আপডেট করুন
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: নিরাপত্তা টুল ইনস্টল করুন
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: fail2ban কনফিগার করুন
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: ফায়ারওয়াল কনফিগার করুন
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: ফায়ারওয়াল সক্রিয় করুন
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: root লগইন বন্ধ করুন
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: পাসওয়ার্ড নীতি সেট করুন
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: fail2ban পুনরায় চালু করুন
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: sshd পুনরায় চালু করুন
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **ভুল (ইডেম্পোটেন্ট নয়):**
 ```yaml
-- name: Add line to file
+- name: ফাইলে লাইন যোগ করুন
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **সঠিক (ইডেম্পোটেন্ট):**
 ```yaml
-- name: Ensure line in file
+- name: ফাইলে লাইন থাকা নিশ্চিত করুন
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### ৩. কোডের গুণমানের জন্য Ansible Lint ব্যবহার করুন
 
 ```bash
-# Install ansible-lint
+# ansible-lint ইনস্টল করুন
 pip install ansible-lint
 
-# Run linter
+# লিন্টার চালান
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# সাধারণ সমস্যা স্বয়ংক্রিয়ভাবে ঠিক করুন
 ansible-lint --fix playbook.yml
 ```
 
 ### ৪. Molecule দিয়ে পরীক্ষা করুন
 
 ```bash
-# Install Molecule
+# Molecule ইনস্টল করুন
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# পরীক্ষাসহ নতুন রোল তৈরি করুন
 molecule init role my_role --driver-name docker
 
-# Run tests
+# পরীক্ষা চালান
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# পরীক্ষার ধাপ:
+# - পরীক্ষার পরিবেশ তৈরি করুন
+# - কনভার্জ (প্লেবুক চালান)
+# - যাচাই (পরীক্ষা চালান)
+# - পরিবেশ ধ্বংস করুন
 ```
 
 **molecule.yml উদাহরণ:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: সম্পূর্ণ সার্ভার সেটআপ
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: প্যাকেজ ইনস্টল করুন
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Nginx কনফিগার করুন
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: অ্যাপ্লিকেশন স্থাপন করুন
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# শুধু nginx টাস্ক চালান
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# ডিপ্লয়মেন্ট এড়িয়ে যান
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: নির্ভরযোগ্য টাস্ক এক্সিকিউশন
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: ঝুঁকিপূর্ণ অপারেশন চেষ্টা করুন
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: ডিবাগ আউটপুট
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: ব্যর্থতা সামলান
       debug:
-        msg: "Command failed but continuing..."
+        msg: "কমান্ড ব্যর্থ হয়েছে, তবে কাজ চলবে..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: rescue ব্লক
       block:
-        - name: Try this first
+        - name: এটি আগে চেষ্টা করুন
           command: /may/fail
         
-        - name: If successful, do this
+        - name: সফল হলে এটি করুন
           debug:
-            msg: "Success!"
+            msg: "সফল!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: ব্যর্থ হলে এর বদলে এটি করুন
           debug:
-            msg: "Recovered from failure"
+            msg: "ব্যর্থতা থেকে পুনরুদ্ধার হয়েছে"
       
       always:
-        - name: Always run this
+        - name: এটি সবসময় চালান
           debug:
-            msg: "Cleanup operations"
+            msg: "পরিষ্কারের কাজ"
 ```
 
 ### ৭. কর্মদক্ষতা উন্নত করা
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Mitogen ব্যবহার করুন (৩-৭ গুণ দ্রুত)
 ```bash
-# Install Mitogen
+# Mitogen ইনস্টল করুন
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### সমান্তরালভাবে চালানো
 ```yaml
 ---
-- name: Parallel Updates
+- name: সমান্তরাল আপডেট
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # সব হোস্টের জন্য অপেক্ষা করবেন না
+  serial: 10      # একবারে ১০টি হোস্ট প্রসেস করুন
   
   tasks:
-    - name: Update packages
+    - name: প্যাকেজ আপডেট করুন
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **সমাধান:**
 ```bash
-# Test raw SSH connection
+# raw SSH সংযোগ পরীক্ষা করুন
 ssh -vvv user@host
 
-# Test Ansible connection
+# Ansible সংযোগ পরীক্ষা করুন
 ansible host -m ping -vvv
 
-# Add to inventory
+# ইনভেন্টরিতে যোগ করুন
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: root প্রয়োজন এমন কাজ
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **সমাধান:**
 ```bash
-# Ensure collection is installed
+# কালেকশন ইনস্টল আছে নিশ্চিত করুন
 ansible-galaxy collection install community.general
 
-# Verify collection
+# কালেকশন যাচাই করুন
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# FQCN (সম্পূর্ণ যোগ্য কালেকশন নাম) ব্যবহার করুন
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. দীর্ঘ সময় চলা কাজের জন্য অ্যাসিঙ্ক্রোনাস রান ব্যবহার করুন:
    ```yaml
-   - name: Long running task
+   - name: দীর্ঘ সময় ধরে চলা কাজ
      command: /usr/bin/long_task
      async: 3600
      poll: 0

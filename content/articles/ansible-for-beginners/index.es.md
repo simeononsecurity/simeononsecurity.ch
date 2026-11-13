@@ -3,9 +3,9 @@ title: "Ansible para principiantes 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "Guía de Ansible para 2026 sobre instalación, playbooks, roles, ejemplos, buenas prácticas y comparaciones con Terraform, Puppet y Chef."
-tags: ["Introducción a Ansible", "Automatización de la gestión de infraestructura de TI", "Fundamentos de Ansible", "Automatización de infraestructura de TI", "Gestión de configuración", "Implementación de aplicaciones", "Aprovisionamiento", "Entrega continua", "Seguridad y cumplimiento", "Orquestación", "YAML", "Módulos de Ansible", "Roles", "Buenas prácticas", "Control de versiones", "Pruebas", "Red Hat", "Administradores de sistemas", "Linux", "macOS", "Windows", "Instalación de Ansible", "Inventario de Ansible", "Playbooks de Ansible", "Módulos de Ansible", "Roles de Ansible", "Buenas prácticas de Ansible", "Pruebas de Ansible", "Herramienta de automatización de infraestructura de TI", "Tutorial de Ansible", "Automatización de la gestión de infraestructura", "Ansible para principiantes", "Aprender Ansible", "Tutorial de Ansible 2026", "Ansible frente a Terraform", "Ansible frente a Puppet", "Ejemplos de playbooks de Ansible", "Automatización con Ansible", "Herramientas DevOps", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Colecciones de Ansible", "Ansible Galaxy", "Ansible Vault", "Automatización de nube con Ansible"]
+tags: ["Introducción a Ansible", "Automatización de la gestión de infraestructura de TI", "Fundamentos de Ansible", "Automatización de infraestructura de TI", "Gestión de configuración", "Implementación de aplicaciones", "Aprovisionamiento", "Entrega continua", "Seguridad y cumplimiento", "Orquestación", "YAML", "Módulos de Ansible", "Roles", "Buenas prácticas", "Control de versiones", "Pruebas", "Red Hat", "Administradores de sistemas", "Linux", "macOS", "Windows", "Instalación de Ansible", "Inventario de Ansible", "Playbooks de Ansible", "Módulos de Ansible", "Roles de Ansible", "Buenas prácticas de Ansible", "Pruebas de Ansible", "Herramienta de automatización de infraestructura de TI", "Tutorial de Ansible", "Automatización de la gestión de infraestructura", "Ansible para principiantes", "Aprender Ansible", "Tutorial de Ansible 2026", "Ansible frente a Terraform", "Ansible frente a Puppet", "Ejemplos de playbooks de Ansible", "Automatización con Ansible", "Herramientas DevOps", "Infraestructura como código", "Ansible AWX", "Ansible Tower", "Colecciones de Ansible", "Ansible Galaxy", "Ansible Vault", "Automatización de nube con Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "Ilustración de una infraestructura de TI moderna con servidores y dispositivos interconectados. Muestra conexiones SSH y WinRM, un archivo YAML estilizado e iconos de servicios en la nube sobre un fondo oscuro."
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansible es adecuado para automatizar:
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# Añadir el PPA de Ansible para la versión más reciente
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# Habilitar el repositorio EPEL
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Usar Homebrew
 brew install ansible
 ```
 
 #### Método 2: Python pip (funciones más recientes)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# Instalar pipx (entorno aislado recomendado)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# Instalar Ansible con pipx
 pipx install --include-deps ansible
 
-# Verify installation
+# Verificar la instalación
 ansible --version
 ```
 
 #### Método 3: Docker (portátil)
 
 ```bash
-# Pull official Ansible container
+# Descargar el contenedor oficial de Ansible
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# Ejecutar Ansible en un contenedor
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### Verificar la instalación
 
 ```bash
-# Check Ansible version
+# Comprobar la versión de Ansible
 ansible --version
 
-# Expected output (2026):
+# Salida esperada (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Crea el archivo de configuración de Ansible:
 
 ```bash
-# Create config directory
+# Crear directorio de configuración
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# Crear ansible.cfg
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ Un **inventario** define los hosts y grupos que administra Ansible. Puede ser es
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# Grupo de servidores web
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# Grupo de servidores de bases de datos
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# Balanceadores de carga
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# Grupo de grupos
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# Variables para todos los servidores web
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# Variables para todos los hosts
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ Los **playbooks** son archivos YAML que describen flujos de trabajo de automatiz
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: Configurar servidores web
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Instalar Nginx
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Iniciar y habilitar Nginx
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: Copiar el contenido del sitio web
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ Los **playbooks** son archivos YAML que describen flujos de trabajo de automatiz
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: Configurar el cortafuegos
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ Los **playbooks** son archivos YAML que describen flujos de trabajo de automatiz
 #### Ejecutar playbooks
 
 ```bash
-# Basic execution
+# Ejecución básica
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# Con un inventario específico
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# Limitar a hosts específicos
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# Prueba en seco (modo de comprobación)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# Salida detallada para solucionar problemas
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ Los módulos de Ansible son los componentes básicos de la automatización. Cada
 
 **Módulos del sistema:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# Administración de paquetes
+- name: Instalar paquetes (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ Los módulos de Ansible son los componentes básicos de la automatización. Cada
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# Administración de servicios
+- name: Administrar servicios
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ Los módulos de Ansible son los componentes básicos de la automatización. Cada
 
 **Módulos de archivos:**
 ```yaml
-# File operations
-- name: Create directory
+# Operaciones con archivos
+- name: Crear un directorio
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# Copiar archivos
+- name: Implementar la configuración
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# Plantilla con variables
+- name: Implementar la configuración de nginx
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ Los módulos de Ansible son los componentes básicos de la automatización. Cada
 
 **Módulos de nube (ejemplo de AWS):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# Crear una instancia EC2
+- name: Iniciar una instancia EC2
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ Los módulos de Ansible son los componentes básicos de la automatización. Cada
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# Crear un bucket S3
+- name: Crear un bucket de S3
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ Los módulos de Ansible son los componentes básicos de la automatización. Cada
 
 **Módulos de bases de datos:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# Administración de bases de datos MySQL
+- name: Crear una base de datos MySQL
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: Crear un usuario de MySQL
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ Las variables permiten reutilizar playbooks en distintos entornos.
 **Variables del playbook:**
 ```yaml
 ---
-- name: Deploy Application
+- name: Implementar la aplicación
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ Las variables permiten reutilizar playbooks en distintos entornos.
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: Implementar {{ app_name }} versión {{ app_version }}
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (variables cifradas):**
 ```bash
-# Create encrypted file
+# Crear archivo cifrado
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# Editar archivo cifrado
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# Contenido de secrets.yml:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# Usar en el playbook
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ Los **roles** ofrecen una forma estructurada de organizar playbooks y hacerlos m
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # Variables predeterminadas
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # Variables del rol
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # Lista principal de tareas
+    │   ├── install.yml       # Tareas de instalación
+    │   └── configure.yml     # Tareas de configuración
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # Manejadores (reiniciar servicios)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Plantillas Jinja2
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # Archivos estáticos
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # Dependencias del rol
+    └── README.md             # Documentación
 ```
 
 #### Ejemplo de rol: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: Incluir variables específicas del sistema operativo
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Instalar Nginx
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Configurar Nginx
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: Asegurar que Nginx esté en ejecución
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Instalar Nginx (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Instalar Nginx (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: Reiniciar nginx
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: Recargar nginx
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **Uso del rol:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: Configurar servidores web con el rol de Nginx
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ Las **colecciones** son un formato de distribución de contenido de Ansible, com
 #### Instalar colecciones
 
 ```bash
-# Install from Ansible Galaxy
+# Instalar desde Ansible Galaxy
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# Instalar desde el archivo de requisitos
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: Usar módulos de colecciones
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: Usar el módulo Docker de community.general
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: Usar el módulo AWS EC2
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **Instalación de AWX con Docker Compose:**
 ```bash
-# Clone AWX repository
+# Clonar el repositorio AWX
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# Implementar con docker-compose
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# Acceder a http://localhost:80
+# Inicio de sesión predeterminado: admin / password
 ```
 
 ### Automatización de Windows con Ansible
@@ -742,7 +742,7 @@ En 2026, Ansible ofrece una compatibilidad con Windows mucho mejor:
 
 **Requisitos previos de Windows:**
 ```powershell
-# On Windows host, enable WinRM
+# Habilitar WinRM en el host Windows
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Playbook de automatización de Windows:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Configuración del servidor Windows
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: Instalar IIS
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: Implementar el sitio web
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: Configurar el cortafuegos
       win_firewall_rule:
-        name: Allow HTTP
+        name: Permitir HTTP
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Instalar software mediante Chocolatey
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ Ansible es compatible con proveedores de redes importantes, incluidos Cisco, Jun
 **Playbook para dispositivos de red:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Configurar switches Cisco
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ Ansible es compatible con proveedores de redes importantes, incluidos Cisco, Jun
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: Configurar VLAN
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ Ansible es compatible con proveedores de redes importantes, incluidos Cisco, Jun
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: Configurar interfaz
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: Guardar configuración
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (implementación de toda la pila):**
 ```yaml
 ---
-- name: Configure all servers
+- name: Configurar todos los servidores
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: Configurar servidores de bases de datos
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: Configurar servidores web
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: Configurar balanceadores de carga
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Configurar clúster de Kubernetes
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Instalar Docker
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Añadir clave apt de Kubernetes
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Añadir repositorio de Kubernetes
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Instalar componentes de Kubernetes
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Inicializar el maestro de Kubernetes
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: Inicializar clúster
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: Crear directorio .kube
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: Copiar admin.conf
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: Reforzar la seguridad
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: Actualizar todos los paquetes
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: Instalar herramientas de seguridad
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: Configurar fail2ban
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: Configurar el cortafuegos
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: Habilitar cortafuegos
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: Deshabilitar inicio de sesión de root
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: Establecer política de contraseñas
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: Reiniciar fail2ban
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: Reiniciar sshd
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **Incorrecto (no idempotente):**
 ```yaml
-- name: Add line to file
+- name: Añadir línea al archivo
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **Correcto (idempotente):**
 ```yaml
-- name: Ensure line in file
+- name: Asegurarse de que la línea esté en el archivo
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. Usa Ansible Lint para revisar la calidad del código
 
 ```bash
-# Install ansible-lint
+# Instalar ansible-lint
 pip install ansible-lint
 
-# Run linter
+# Ejecutar el linter
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# Corregir problemas comunes automáticamente
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. Implementa pruebas con Molecule
 
 ```bash
-# Install Molecule
+# Instalar Molecule
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# Inicializar un rol nuevo con pruebas
 molecule init role my_role --driver-name docker
 
-# Run tests
+# Ejecutar pruebas
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# Etapas de prueba:
+# - Crear entorno de prueba
+# - Converger (ejecutar playbook)
+# - Verificar (ejecutar pruebas)
+# - Destruir el entorno
 ```
 
 **Ejemplo de molecule.yml:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: Configuración completa del servidor
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: Instalar paquetes
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Configurar Nginx
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: Implementar la aplicación
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# Ejecutar solo las tareas de nginx
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# Omitir implementación
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: Ejecución robusta de tareas
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: Intentar una operación arriesgada
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: Salida de depuración
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: Gestionar el fallo
       debug:
-        msg: "Command failed but continuing..."
+        msg: "El comando falló, pero la ejecución continúa..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: Bloque con recuperación
       block:
-        - name: Try this first
+        - name: Probar esto primero
           command: /may/fail
         
-        - name: If successful, do this
+        - name: Si funciona, hacer esto
           debug:
-            msg: "Success!"
+            msg: "¡Éxito!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: Si falla, hacer esto en su lugar
           debug:
-            msg: "Recovered from failure"
+            msg: "Recuperación tras el error"
       
       always:
-        - name: Always run this
+        - name: Ejecutar siempre esto
           debug:
-            msg: "Cleanup operations"
+            msg: "Operaciones de limpieza"
 ```
 
 ### 7. Optimizar el rendimiento
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Usar Mitogen (rendimiento de 3 a 7 veces mayor)
 ```bash
-# Install Mitogen
+# Instalar Mitogen
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### Ejecución en paralelo
 ```yaml
 ---
-- name: Parallel Updates
+- name: Actualizaciones en paralelo
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # No esperar a todos los hosts
+  serial: 10      # Procesar 10 hosts a la vez
   
   tasks:
-    - name: Update packages
+    - name: Actualizar paquetes
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **Soluciones:**
 ```bash
-# Test raw SSH connection
+# Probar conexión SSH directa
 ssh -vvv user@host
 
-# Test Ansible connection
+# Probar conexión de Ansible
 ansible host -m ping -vvv
 
-# Add to inventory
+# Añadir al inventario
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: Tarea que requiere root
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **Solución:**
 ```bash
-# Ensure collection is installed
+# Asegurarse de que la colección esté instalada
 ansible-galaxy collection install community.general
 
-# Verify collection
+# Verificar colección
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# Usar FQCN (nombre de colección completo)
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. Usa la ejecución asíncrona para tareas largas:
    ```yaml
-   - name: Long running task
+   - name: tarea de larga duración
      command: /usr/bin/long_task
      async: 3600
      poll: 0

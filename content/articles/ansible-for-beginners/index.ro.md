@@ -3,9 +3,9 @@ title: "Ansible pentru începători 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "Ghid Ansible pentru 2026 despre instalare, playbook-uri, roluri, exemple, bune practici și comparații cu Terraform, Puppet și Chef."
-tags: ["Introducere în Ansible", "Automatizarea gestionării infrastructurii IT", "Noțiuni de bază despre Ansible", "Automatizarea infrastructurii IT", "Gestionarea configurației", "Implementarea aplicațiilor", "Provisionare", "Livrare continuă", "Securitate și conformitate", "Orchestrare", "YAML", "Module Ansible", "Roluri", "Bune practici", "Controlul versiunilor", "Testare", "Red Hat", "Administratori de sistem", "Linux", "macOS", "Windows", "Instalarea Ansible", "Inventar Ansible", "Playbook-uri Ansible", "Module Ansible", "Roluri Ansible", "Bune practici Ansible", "Testarea Ansible", "Instrument de automatizare a infrastructurii IT", "Tutorial Ansible", "Automatizarea gestionării infrastructurii", "Ansible pentru începători", "Învățarea Ansible", "Tutorial Ansible 2026", "Ansible și Terraform", "Ansible și Puppet", "Exemple de playbook-uri Ansible", "Automatizare cu Ansible", "Instrumente DevOps", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Colecții Ansible", "Ansible Galaxy", "Ansible Vault", "Automatizare cloud cu Ansible"]
+tags: ["Introducere în Ansible", "Automatizarea gestionării infrastructurii IT", "Noțiuni de bază despre Ansible", "Automatizarea infrastructurii IT", "Gestionarea configurației", "Implementarea aplicațiilor", "Provisionare", "Livrare continuă", "Securitate și conformitate", "Orchestrare", "YAML", "Module Ansible", "Roluri", "Bune practici", "Controlul versiunilor", "Testare", "Red Hat", "Administratori de sistem", "Linux", "macOS", "Windows", "Instalarea Ansible", "Inventar Ansible", "Playbook-uri Ansible", "Module Ansible", "Roluri Ansible", "Bune practici Ansible", "Testarea Ansible", "Instrument de automatizare a infrastructurii IT", "Tutorial Ansible", "Automatizarea gestionării infrastructurii", "Ansible pentru începători", "Învățarea Ansible", "Tutorial Ansible 2026", "Ansible și Terraform", "Ansible și Puppet", "Exemple de playbook-uri Ansible", "Automatizare cu Ansible", "Instrumente DevOps", "Infrastructură ca cod", "Ansible AWX", "Ansible Tower", "Colecții Ansible", "Ansible Galaxy", "Ansible Vault", "Automatizare cloud cu Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "Ilustrație a unei infrastructuri IT moderne, cu servere și dispozitive interconectate. Prezintă conexiuni SSH și WinRM, un fișier YAML stilizat și pictograme ale serviciilor cloud pe un fundal întunecat."
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansible este potrivit pentru automatizarea:
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# Adaugă PPA Ansible pentru cea mai recentă versiune
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# Activează depozitul EPEL
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Folosește Homebrew
 brew install ansible
 ```
 
 #### Metoda 2: Python pip (funcții mai noi)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# Instalează pipx (mediu izolat recomandat)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# Instalează Ansible cu pipx
 pipx install --include-deps ansible
 
-# Verify installation
+# Verifică instalarea
 ansible --version
 ```
 
 #### Metoda 3: Docker (portabil)
 
 ```bash
-# Pull official Ansible container
+# Obține containerul oficial Ansible
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# Rulează Ansible într-un container
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### Verificarea instalării
 
 ```bash
-# Check Ansible version
+# Verifică versiunea Ansible
 ansible --version
 
-# Expected output (2026):
+# Rezultat așteptat (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Creează fișierul de configurare Ansible:
 
 ```bash
-# Create config directory
+# Creează directorul de configurare
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# Creează ansible.cfg
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ Un **inventar** definește gazdele și grupurile gestionate de Ansible. Poate fi
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# Grup de servere web
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# Grup de servere de baze de date
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# Echilibratoare de sarcină
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# Grup de grupuri
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# Variabile pentru toate serverele web
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# Variabile pentru toate gazdele
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ keyed_groups:
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: Configurează serverele web
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Instalează Nginx
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Pornește și activează Nginx
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: Copiază conținutul site-ului
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ keyed_groups:
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: Configurează paravanul de protecție
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ keyed_groups:
 #### Rularea playbook-urilor
 
 ```bash
-# Basic execution
+# Execuție de bază
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# Cu inventar specific
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# Limitează la gazde specifice
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# Rulare de probă (mod de verificare)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# Rezultat detaliat pentru depanare
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ Modulele Ansible sunt elementele de bază ale automatizării. Fiecare modul exec
 
 **Module de sistem:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# Gestionarea pachetelor
+- name: Instalează pachetele (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ Modulele Ansible sunt elementele de bază ale automatizării. Fiecare modul exec
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# Gestionarea serviciilor
+- name: Gestionează serviciile
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ Modulele Ansible sunt elementele de bază ale automatizării. Fiecare modul exec
 
 **Module pentru fișiere:**
 ```yaml
-# File operations
-- name: Create directory
+# Operațiuni cu fișiere
+- name: Creează un director
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# Copiază fișiere
+- name: Implementează configurația
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# Șablon cu variabile
+- name: Implementează configurația nginx
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ Modulele Ansible sunt elementele de bază ale automatizării. Fiecare modul exec
 
 **Module cloud (exemplu AWS):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# Creează o instanță EC2
+- name: Pornește o instanță EC2
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ Modulele Ansible sunt elementele de bază ale automatizării. Fiecare modul exec
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# Creează un bucket S3
+- name: Creează un bucket S3
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ Modulele Ansible sunt elementele de bază ale automatizării. Fiecare modul exec
 
 **Module pentru baze de date:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# Gestionarea bazelor de date MySQL
+- name: Creează o bază de date MySQL
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: Creează un utilizator MySQL
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ Variabilele permit reutilizarea playbook-urilor în medii diferite.
 **Variabile de playbook:**
 ```yaml
 ---
-- name: Deploy Application
+- name: Implementează aplicația
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ Variabilele permit reutilizarea playbook-urilor în medii diferite.
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: Implementează {{ app_name }} versiunea {{ app_version }}
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (variabile criptate):**
 ```bash
-# Create encrypted file
+# Creează un fișier criptat
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# Editează un fișier criptat
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# Conținutul secrets.yml:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# Folosește în playbook
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ ansible-playbook deploy.yml --ask-vault-pass
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # Variabile implicite
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # Variabile ale rolului
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # Lista principală de sarcini
+    │   ├── install.yml       # Sarcini de instalare
+    │   └── configure.yml     # Sarcini de configurare
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # Gestionare (repornirea serviciilor)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Șabloane Jinja2
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # Fișiere statice
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # Dependențele rolului
+    └── README.md             # Documentație
 ```
 
 #### Exemplu de rol: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: Include variabile specifice sistemului de operare
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Instalează Nginx
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Configurează Nginx
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: Asigură-te că Nginx rulează
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Instalează Nginx (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Instalează Nginx (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: Repornește nginx
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: Reîncarcă nginx
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **Utilizarea rolului:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: Configurează serverele web cu rolul Nginx
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ http {
 #### Instalarea colecțiilor
 
 ```bash
-# Install from Ansible Galaxy
+# Instalează din Ansible Galaxy
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# Instalează din fișierul de cerințe
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: Folosește modulele colecției
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: Folosește modulul Docker din community.general
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: Folosește modulul AWS EC2
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **Instalarea AWX cu Docker Compose:**
 ```bash
-# Clone AWX repository
+# Clonează depozitul AWX
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# Implementează cu docker-compose
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# Accesează http://localhost:80
+# Autentificare implicită: admin / password
 ```
 
 ### Automatizarea Windows cu Ansible
@@ -742,7 +742,7 @@ docker-compose -f docker-compose.yml up -d
 
 **Cerințe Windows:**
 ```powershell
-# On Windows host, enable WinRM
+# Activează WinRM pe gazda Windows
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Playbook de automatizare Windows:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Configurarea serverului Windows
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: Instalează IIS
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: Implementează site-ul web
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: Configurează paravanul de protecție
       win_firewall_rule:
-        name: Allow HTTP
+        name: Permite HTTP
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Instalează software prin Chocolatey
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ Ansible acceptă principalii furnizori de echipamente de rețea, inclusiv Cisco,
 **Playbook pentru dispozitive de rețea:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Configurează switch-urile Cisco
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ Ansible acceptă principalii furnizori de echipamente de rețea, inclusiv Cisco,
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: Configurează VLAN-urile
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ Ansible acceptă principalii furnizori de echipamente de rețea, inclusiv Cisco,
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: Configurează interfața
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: Salvează configurația
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (implementarea întregii stive):**
 ```yaml
 ---
-- name: Configure all servers
+- name: Configurează toate serverele
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: Configurează serverele de baze de date
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: Configurează serverele web
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: Configurează echilibratoarele de sarcină
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Configurează clusterul Kubernetes
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Instalează Docker
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Adaugă cheia apt Kubernetes
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Adaugă depozitul Kubernetes
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Instalează componentele Kubernetes
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Inițializează masterul Kubernetes
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: Inițializează clusterul
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: Creează directorul .kube
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: Copiază admin.conf
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: Consolidează securitatea
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: Actualizează toate pachetele
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: Instalează instrumente de securitate
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: Configurează fail2ban
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: Configurează paravanul de protecție
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: Activează paravanul de protecție
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: Dezactivează autentificarea root
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: Setează politica parolelor
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: Repornește fail2ban
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: Repornește sshd
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **Greșit (nu este idempotent):**
 ```yaml
-- name: Add line to file
+- name: Adaugă o linie în fișier
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **Corect (idempotent):**
 ```yaml
-- name: Ensure line in file
+- name: Asigură-te că linia se află în fișier
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. Folosește Ansible Lint pentru calitatea codului
 
 ```bash
-# Install ansible-lint
+# Instalează ansible-lint
 pip install ansible-lint
 
-# Run linter
+# Rulează linterul
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# Repară automat problemele frecvente
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. Implementează testarea cu Molecule
 
 ```bash
-# Install Molecule
+# Instalează Molecule
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# Inițializează un rol nou cu teste
 molecule init role my_role --driver-name docker
 
-# Run tests
+# Rulează testele
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# Etapele testării:
+# - Creează mediul de testare
+# - Convergență (rulează playbook-ul)
+# - Verificare (rulează testele)
+# - Distruge mediul
 ```
 
 **Exemplu molecule.yml:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: Configurare completă a serverului
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: Instalează pachetele
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Configurează Nginx
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: Implementează aplicația
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# Rulează doar sarcinile nginx
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# Omite implementarea
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: Executare robustă a sarcinilor
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: Încearcă o operațiune riscantă
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: Ieșire de depanare
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: Gestionează eșecul
       debug:
-        msg: "Command failed but continuing..."
+        msg: "Comanda a eșuat, dar execuția continuă..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: Bloc cu recuperare
       block:
-        - name: Try this first
+        - name: Încearcă mai întâi acest lucru
           command: /may/fail
         
-        - name: If successful, do this
+        - name: Dacă reușește, fă acest lucru
           debug:
-            msg: "Success!"
+            msg: "Succes!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: Dacă eșuează, fă acest lucru în schimb
           debug:
-            msg: "Recovered from failure"
+            msg: "Recuperare după eșec"
       
       always:
-        - name: Always run this
+        - name: Rulează întotdeauna acest lucru
           debug:
-            msg: "Cleanup operations"
+            msg: "Operațiuni de curățare"
 ```
 
 ### 7. Optimizarea performanței
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Folosește Mitogen (performanță de 3-7 ori mai bună)
 ```bash
-# Install Mitogen
+# Instalează Mitogen
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### Execuție paralelă
 ```yaml
 ---
-- name: Parallel Updates
+- name: Actualizări paralele
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # Nu aștepta toate gazdele
+  serial: 10      # Procesează câte 10 gazde
   
   tasks:
-    - name: Update packages
+    - name: Actualizează pachetele
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **Soluții:**
 ```bash
-# Test raw SSH connection
+# Testează conexiunea SSH brută
 ssh -vvv user@host
 
-# Test Ansible connection
+# Testează conexiunea Ansible
 ansible host -m ping -vvv
 
-# Add to inventory
+# Adaugă în inventar
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: Sarcină care necesită root
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **Soluție:**
 ```bash
-# Ensure collection is installed
+# Asigură-te că este instalată colecția
 ansible-galaxy collection install community.general
 
-# Verify collection
+# Verifică colecția
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# Folosește FQCN (numele complet calificat al colecției)
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. Folosește execuția asincronă pentru sarcini de durată:
    ```yaml
-   - name: Long running task
+   - name: Sarcină de lungă durată
      command: /usr/bin/long_task
      async: 3600
      poll: 0

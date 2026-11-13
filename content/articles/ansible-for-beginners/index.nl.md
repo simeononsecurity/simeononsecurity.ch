@@ -3,9 +3,9 @@ title: "Ansible voor beginners 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "Een Ansible-gids voor 2026 over installatie, playbooks, rollen, voorbeelden, aanbevolen werkwijzen en vergelijkingen met Terraform, Puppet en Chef."
-tags: ["Introductie tot Ansible", "IT-infrastructuurbeheer automatiseren", "Ansible-basis", "IT-infrastructuurautomatisering", "Configuratiebeheer", "Applicatie-implementatie", "Inrichting", "Continue levering", "Naleving van beveiligingseisen", "Orkestratie", "YAML", "Ansible-modules", "Rollen", "Aanbevolen werkwijzen", "Versiebeheer", "Testen", "Red Hat", "Systeembeheerders", "Linux", "macOS", "Windows", "Ansible-installatie", "Ansible-inventaris", "Ansible-playbooks", "Ansible-modules", "Ansible-rollen", "Ansible-aanbevelingen", "Ansible-testen", "IT-infrastructuurautomatiseringstool", "Ansible-handleiding", "Automatisering van infrastructuurbeheer", "Ansible voor beginners", "Ansible leren", "Ansible-handleiding 2026", "Ansible versus Terraform", "Ansible versus Puppet", "Voorbeelden van Ansible-playbooks", "Ansible-automatisering", "DevOps-tools", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Ansible-collecties", "Ansible Galaxy", "Ansible Vault", "Ansible-cloudautomatisering"]
+tags: ["Introductie tot Ansible", "IT-infrastructuurbeheer automatiseren", "Ansible-basis", "IT-infrastructuurautomatisering", "Configuratiebeheer", "Applicatie-implementatie", "Inrichting", "Continue levering", "Naleving van beveiligingseisen", "Orkestratie", "YAML", "Ansible-modules", "Rollen", "Aanbevolen werkwijzen", "Versiebeheer", "Testen", "Red Hat", "Systeembeheerders", "Linux", "macOS", "Windows", "Ansible-installatie", "Ansible-inventaris", "Ansible-playbooks", "Ansible-modules", "Ansible-rollen", "Ansible-aanbevelingen", "Ansible-testen", "IT-infrastructuurautomatiseringstool", "Ansible-handleiding", "Automatisering van infrastructuurbeheer", "Ansible voor beginners", "Ansible leren", "Ansible-handleiding 2026", "Ansible versus Terraform", "Ansible versus Puppet", "Voorbeelden van Ansible-playbooks", "Ansible-automatisering", "DevOps-hulpmiddelen", "Infrastructuur als code", "Ansible AWX", "Ansible Tower", "Ansible-collecties", "Ansible Galaxy", "Ansible Vault", "Ansible-cloudautomatisering"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "Een illustratie van moderne IT-infrastructuur met verbonden servers en apparaten, waarop SSH- en WinRM-verbindingen, een gestileerd YAML-bestand en pictogrammen voor clouddiensten tegen een donkere achtergrond staan."
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansible is geschikt voor automatisering van:
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# Ansible-PPA voor de nieuwste versie toevoegen
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# EPEL-repository inschakelen
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Homebrew gebruiken
 brew install ansible
 ```
 
 #### Methode 2: Python pip (nieuwste functies)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# pipx installeren (aanbevolen geïsoleerde omgeving)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# Ansible installeren met pipx
 pipx install --include-deps ansible
 
-# Verify installation
+# Installatie controleren
 ansible --version
 ```
 
 #### Methode 3: Docker (draagbaar)
 
 ```bash
-# Pull official Ansible container
+# Officiële Ansible-container ophalen
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# Ansible in een container uitvoeren
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### De installatie controleren
 
 ```bash
-# Check Ansible version
+# Ansible-versie controleren
 ansible --version
 
-# Expected output (2026):
+# Verwachte uitvoer (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Maak het configuratiebestand voor Ansible aan:
 
 ```bash
-# Create config directory
+# Configuratiemap aanmaken
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# ansible.cfg aanmaken
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ Een **inventaris** bevat de hosts en groepen die Ansible beheert. Een inventaris
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# Webservergroep
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# Databaseservergroep
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# Loadbalancers
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# Groep van groepen
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# Variabelen voor alle webservers
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# Variabelen voor alle hosts
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ keyed_groups:
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: Webservers configureren
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Nginx installeren
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Nginx starten en inschakelen
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: Website-inhoud kopiëren
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ keyed_groups:
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: Firewall configureren
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ keyed_groups:
 #### Playbooks uitvoeren
 
 ```bash
-# Basic execution
+# Basisuitvoering
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# Met specifieke inventaris
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# Beperken tot specifieke hosts
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# Proefrun (checkmodus)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# Uitgebreide uitvoer voor probleemoplossing
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ Ansible-modules vormen de bouwstenen van automatisering. Elke module voert een s
 
 **Systeemmodules:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# Pakketbeheer
+- name: Pakketten installeren (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ Ansible-modules vormen de bouwstenen van automatisering. Elke module voert een s
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# Servicebeheer
+- name: Services beheren
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ Ansible-modules vormen de bouwstenen van automatisering. Elke module voert een s
 
 **Bestandsmodules:**
 ```yaml
-# File operations
-- name: Create directory
+# Bestandsbewerkingen
+- name: Map aanmaken
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# Bestanden kopiëren
+- name: Configuratie implementeren
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# Sjabloon met variabelen
+- name: nginx-configuratie implementeren
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ Ansible-modules vormen de bouwstenen van automatisering. Elke module voert een s
 
 **Cloudmodules (AWS-voorbeeld):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# EC2-instantie aanmaken
+- name: EC2-instantie starten
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ Ansible-modules vormen de bouwstenen van automatisering. Elke module voert een s
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# S3-bucket aanmaken
+- name: S3-bucket aanmaken
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ Ansible-modules vormen de bouwstenen van automatisering. Elke module voert een s
 
 **Databasemodules:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# MySQL-databasebeheer
+- name: MySQL-database aanmaken
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: MySQL-gebruiker aanmaken
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ Met variabelen kun je playbooks in verschillende omgevingen hergebruiken.
 **Playbookvariabelen:**
 ```yaml
 ---
-- name: Deploy Application
+- name: Applicatie implementeren
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ Met variabelen kun je playbooks in verschillende omgevingen hergebruiken.
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: "{{ app_name }} versie {{ app_version }} implementeren"
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (versleutelde variabelen):**
 ```bash
-# Create encrypted file
+# Versleuteld bestand aanmaken
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# Versleuteld bestand bewerken
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# Inhoud van secrets.yml:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# In playbook gebruiken
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ ansible-playbook deploy.yml --ask-vault-pass
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # Standaardvariabelen
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # Rolvariabelen
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # Hoofdtakenlijst
+    │   ├── install.yml       # Installatietaken
+    │   └── configure.yml     # Configuratietaken
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # Handlers (services opnieuw starten)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Jinja2-sjablonen
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # Statische bestanden
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # Rolafhankelijkheden
+    └── README.md             # Documentatie
 ```
 
 #### Voorbeeldrol: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: OS-specifieke variabelen opnemen
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Nginx installeren
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Nginx configureren
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: Controleren of Nginx actief is
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Nginx installeren (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Nginx installeren (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: nginx opnieuw starten
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: nginx opnieuw laden
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **De rol gebruiken:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: Webservers configureren met de Nginx-rol
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ http {
 #### Collecties installeren
 
 ```bash
-# Install from Ansible Galaxy
+# Installeren via Ansible Galaxy
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# Installeren vanuit requirements-bestand
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: Collectiemodules gebruiken
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: Docker-module van community.general gebruiken
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: AWS EC2-module gebruiken
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **AWX installeren met Docker Compose:**
 ```bash
-# Clone AWX repository
+# AWX-repository klonen
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# Implementeren met docker-compose
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# Ga naar http://localhost:80
+# Standaardaanmelding: admin / password
 ```
 
 ### Ansible voor Windows-automatisering
@@ -742,7 +742,7 @@ Ansible biedt in 2026 aanzienlijk betere ondersteuning voor Windows:
 
 **Vereisten voor Windows:**
 ```powershell
-# On Windows host, enable WinRM
+# WinRM inschakelen op Windows-host
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Playbook voor Windows-automatisering:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Windows-serverconfiguratie
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: IIS installeren
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: Website implementeren
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: Firewall configureren
       win_firewall_rule:
-        name: Allow HTTP
+        name: HTTP toestaan
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Software installeren via Chocolatey
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ Ansible ondersteunt grote netwerkleveranciers, waaronder Cisco, Juniper, Arista 
 **Playbook voor netwerkapparaten:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Cisco-switches configureren
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ Ansible ondersteunt grote netwerkleveranciers, waaronder Cisco, Juniper, Arista 
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: VLANs configureren
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ Ansible ondersteunt grote netwerkleveranciers, waaronder Cisco, Juniper, Arista 
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: Interface configureren
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: Configuratie opslaan
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (implementatie van de volledige stack):**
 ```yaml
 ---
-- name: Configure all servers
+- name: Alle servers configureren
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: Databaseservers configureren
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: Webservers configureren
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: Loadbalancers configureren
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Kubernetes-cluster instellen
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Docker installeren
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Kubernetes apt-sleutel toevoegen
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Kubernetes-repository toevoegen
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Kubernetes-componenten installeren
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Kubernetes-master initialiseren
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: Cluster initialiseren
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: .kube-map aanmaken
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: admin.conf kopiëren
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: Beveiliging versterken
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: Alle pakketten bijwerken
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: Beveiligingstools installeren
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: fail2ban configureren
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: Firewall configureren
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: Firewall inschakelen
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: Rootaanmelding uitschakelen
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: Wachtwoordbeleid instellen
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: fail2ban opnieuw starten
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: sshd opnieuw starten
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **Slecht (niet-idempotent):**
 ```yaml
-- name: Add line to file
+- name: Regel aan bestand toevoegen
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **Goed (idempotent):**
 ```yaml
-- name: Ensure line in file
+- name: Controleren of de regel in het bestand staat
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. Gebruik Ansible Lint voor codekwaliteit
 
 ```bash
-# Install ansible-lint
+# ansible-lint installeren
 pip install ansible-lint
 
-# Run linter
+# Linter uitvoeren
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# Veelvoorkomende problemen automatisch oplossen
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. Test met Molecule
 
 ```bash
-# Install Molecule
+# Molecule installeren
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# Nieuwe rol met tests initialiseren
 molecule init role my_role --driver-name docker
 
-# Run tests
+# Tests uitvoeren
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# Testfasen:
+# - Testomgeving aanmaken
+# - Convergeren (playbook uitvoeren)
+# - Verifiëren (tests uitvoeren)
+# - Omgeving vernietigen
 ```
 
 **Voorbeeld van molecule.yml:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: Volledige server instellen
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: Pakketten installeren
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Nginx configureren
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: Applicatie implementeren
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# Alleen nginx-taken uitvoeren
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# Implementatie overslaan
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: Robuuste taakuitvoering
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: Riskante bewerking proberen
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: Debuguitvoer
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: Fout afhandelen
       debug:
-        msg: "Command failed but continuing..."
+        msg: "Opdracht mislukt, maar wordt voortgezet..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: Blok met herstel
       block:
-        - name: Try this first
+        - name: Probeer dit eerst
           command: /may/fail
         
-        - name: If successful, do this
+        - name: Voer dit uit bij succes
           debug:
-            msg: "Success!"
+            msg: "Geslaagd!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: Voer dit in plaats daarvan uit bij een fout
           debug:
-            msg: "Recovered from failure"
+            msg: "Hersteld na de fout"
       
       always:
-        - name: Always run this
+        - name: Altijd uitvoeren
           debug:
-            msg: "Cleanup operations"
+            msg: "Opschoonwerkzaamheden"
 ```
 
 ### 7. Prestaties verbeteren
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Mitogen gebruiken (3-7 keer sneller)
 ```bash
-# Install Mitogen
+# Mitogen installeren
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### Parallelle uitvoering
 ```yaml
 ---
-- name: Parallel Updates
+- name: Parallelle updates
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # Niet op alle hosts wachten
+  serial: 10      # 10 hosts tegelijk verwerken
   
   tasks:
-    - name: Update packages
+    - name: Pakketten bijwerken
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **Oplossingen:**
 ```bash
-# Test raw SSH connection
+# Ruwe SSH-verbinding testen
 ssh -vvv user@host
 
-# Test Ansible connection
+# Ansible-verbinding testen
 ansible host -m ping -vvv
 
-# Add to inventory
+# Aan inventaris toevoegen
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: Taak waarvoor rootrechten nodig zijn
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **Oplossing:**
 ```bash
-# Ensure collection is installed
+# Controleren of de collectie is geïnstalleerd
 ansible-galaxy collection install community.general
 
-# Verify collection
+# Collectie verifiëren
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# FQCN (volledig gekwalificeerde collectienaam) gebruiken
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. Gebruik asynchrone uitvoering voor langlopende taken:
    ```yaml
-   - name: Long running task
+   - name: Langlopende taak
      command: /usr/bin/long_task
      async: 3600
      poll: 0

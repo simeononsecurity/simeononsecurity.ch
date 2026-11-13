@@ -3,9 +3,9 @@ title: "शुरुआती लोगों के लिए Ansible गाइ
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "2026 के लिए Ansible गाइड। इसमें इंस्टॉलेशन, प्लेबुक, रोल, उदाहरण, श्रेष्ठ तरीके और Terraform, Puppet तथा Chef से तुलना शामिल है।"
-tags: ["Ansible का परिचय", "IT इंफ्रास्ट्रक्चर प्रबंधन का स्वचालन", "Ansible की मूल बातें", "IT इंफ्रास्ट्रक्चर स्वचालन", "कॉन्फ़िगरेशन प्रबंधन", "एप्लिकेशन परिनियोजन", "प्रोविज़निंग", "निरंतर डिलीवरी", "सुरक्षा और अनुपालन", "ऑर्केस्ट्रेशन", "YAML", "Ansible मॉड्यूल", "रोल", "श्रेष्ठ तरीके", "वर्ज़न नियंत्रण", "परीक्षण", "Red Hat", "सिस्टम प्रशासक", "Linux", "macOS", "Windows", "Ansible इंस्टॉलेशन", "Ansible इन्वेंटरी", "Ansible प्लेबुक", "Ansible मॉड्यूल", "Ansible रोल", "Ansible के श्रेष्ठ तरीके", "Ansible परीक्षण", "IT इंफ्रास्ट्रक्चर स्वचालन टूल", "Ansible ट्यूटोरियल", "इंफ्रास्ट्रक्चर प्रबंधन स्वचालन", "शुरुआती लोगों के लिए Ansible", "Ansible सीखें", "Ansible ट्यूटोरियल 2026", "Ansible और Terraform", "Ansible और Puppet", "Ansible प्लेबुक के उदाहरण", "Ansible स्वचालन", "DevOps टूल", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Ansible संग्रह", "Ansible Galaxy", "Ansible Vault", "Ansible क्लाउड स्वचालन"]
+tags: ["Ansible का परिचय", "IT इंफ्रास्ट्रक्चर प्रबंधन का स्वचालन", "Ansible की मूल बातें", "IT इंफ्रास्ट्रक्चर स्वचालन", "कॉन्फ़िगरेशन प्रबंधन", "एप्लिकेशन परिनियोजन", "प्रोविज़निंग", "निरंतर डिलीवरी", "सुरक्षा और अनुपालन", "ऑर्केस्ट्रेशन", "YAML", "Ansible मॉड्यूल", "रोल", "श्रेष्ठ तरीके", "वर्ज़न नियंत्रण", "परीक्षण", "Red Hat", "सिस्टम प्रशासक", "Linux", "macOS", "Windows", "Ansible इंस्टॉलेशन", "Ansible इन्वेंटरी", "Ansible प्लेबुक", "Ansible मॉड्यूल", "Ansible रोल", "Ansible के श्रेष्ठ तरीके", "Ansible परीक्षण", "IT इंफ्रास्ट्रक्चर स्वचालन टूल", "Ansible ट्यूटोरियल", "इंफ्रास्ट्रक्चर प्रबंधन स्वचालन", "शुरुआती लोगों के लिए Ansible", "Ansible सीखें", "Ansible ट्यूटोरियल 2026", "Ansible और Terraform", "Ansible और Puppet", "Ansible प्लेबुक के उदाहरण", "Ansible स्वचालन", "DevOps टूल", "कोड के रूप में इंफ्रास्ट्रक्चर", "Ansible AWX", "Ansible Tower", "Ansible संग्रह", "Ansible Galaxy", "Ansible Vault", "Ansible क्लाउड स्वचालन"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "आधुनिक IT इंफ्रास्ट्रक्चर का चित्र, जिसमें जुड़े हुए सर्वर और उपकरण, SSH और WinRM कनेक्शन, शैलीबद्ध YAML फ़ाइल और गहरे रंग की पृष्ठभूमि पर क्लाउड सेवा आइकन दिखाए गए हैं।"
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansible इन कामों के स्वचालन के लिए उ
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# नवीनतम संस्करण के लिए Ansible PPA जोड़ें
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# EPEL रिपॉज़िटरी सक्षम करें
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Homebrew का उपयोग
 brew install ansible
 ```
 
 #### तरीका 2: Python pip (नई सुविधाएँ)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# pipx इंस्टॉल करें (अनुशंसित पृथक वातावरण)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# pipx से Ansible इंस्टॉल करें
 pipx install --include-deps ansible
 
-# Verify installation
+# इंस्टॉलेशन सत्यापित करें
 ansible --version
 ```
 
 #### तरीका 3: Docker (पोर्टेबल)
 
 ```bash
-# Pull official Ansible container
+# आधिकारिक Ansible कंटेनर प्राप्त करें
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# कंटेनर में Ansible चलाएँ
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### इंस्टॉलेशन सत्यापित करें
 
 ```bash
-# Check Ansible version
+# Ansible संस्करण जाँचें
 ansible --version
 
-# Expected output (2026):
+# अपेक्षित आउटपुट (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Ansible कॉन्फ़िगरेशन फ़ाइल बनाएँ:
 
 ```bash
-# Create config directory
+# कॉन्फ़िग डायरेक्टरी बनाएँ
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# ansible.cfg बनाएँ
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ EOF
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# वेब सर्वर समूह
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# डेटाबेस सर्वर समूह
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# लोड बैलेंसर
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# समूहों का समूह
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# सभी वेब सर्वर के लिए वेरिएबल
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# सभी होस्ट के लिए वेरिएबल
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ keyed_groups:
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: वेब सर्वर कॉन्फ़िगर करें
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Nginx इंस्टॉल करें
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Nginx शुरू और सक्षम करें
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: वेबसाइट की सामग्री कॉपी करें
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ keyed_groups:
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: फ़ायरवॉल कॉन्फ़िगर करें
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ keyed_groups:
 #### प्लेबुक चलाना
 
 ```bash
-# Basic execution
+# मूल निष्पादन
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# विशिष्ट इन्वेंटरी के साथ
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# विशिष्ट होस्ट तक सीमित करें
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# ड्राई रन (चेक मोड)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# समस्या निवारण के लिए विस्तृत आउटपुट
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
 
 **सिस्टम मॉड्यूल:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# पैकेज प्रबंधन
+- name: पैकेज इंस्टॉल करें (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# सेवा प्रबंधन
+- name: सेवाओं का प्रबंधन करें
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
 
 **फ़ाइल मॉड्यूल:**
 ```yaml
-# File operations
-- name: Create directory
+# फ़ाइल संचालन
+- name: डायरेक्टरी बनाएँ
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# फ़ाइलें कॉपी करें
+- name: कॉन्फ़िगरेशन तैनात करें
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# वेरिएबल वाला टेम्पलेट
+- name: nginx कॉन्फ़िगरेशन तैनात करें
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
 
 **क्लाउड मॉड्यूल (AWS उदाहरण):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# EC2 इंस्टेंस बनाएँ
+- name: EC2 इंस्टेंस लॉन्च करें
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# S3 बकेट बनाएँ
+- name: S3 बकेट बनाएँ
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
 
 **डेटाबेस मॉड्यूल:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# MySQL डेटाबेस प्रबंधन
+- name: MySQL डेटाबेस बनाएँ
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: MySQL उपयोगकर्ता बनाएँ
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
 **प्लेबुक चर:**
 ```yaml
 ---
-- name: Deploy Application
+- name: एप्लिकेशन तैनात करें
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ Ansible मॉड्यूल स्वचालन के मूल घटक �
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: "{{ app_name }} संस्करण {{ app_version }} तैनात करें"
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (एन्क्रिप्ट किए गए चर):**
 ```bash
-# Create encrypted file
+# एन्क्रिप्टेड फ़ाइल बनाएँ
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# एन्क्रिप्टेड फ़ाइल संपादित करें
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# secrets.yml की सामग्री:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# प्लेबुक में उपयोग
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ ansible-playbook deploy.yml --ask-vault-pass
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # डिफ़ॉल्ट वेरिएबल
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # रोल वेरिएबल
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # मुख्य टास्क सूची
+    │   ├── install.yml       # इंस्टॉलेशन टास्क
+    │   └── configure.yml     # कॉन्फ़िगरेशन टास्क
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # हैंडलर (सेवाएँ रीस्टार्ट करें)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Jinja2 टेम्पलेट
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # स्थिर फ़ाइलें
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # रोल निर्भरताएँ
+    └── README.md             # दस्तावेज़ीकरण
 ```
 
 #### रोल का उदाहरण: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: OS-विशिष्ट वेरिएबल शामिल करें
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Nginx इंस्टॉल करें
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Nginx कॉन्फ़िगर करें
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: सुनिश्चित करें कि Nginx चल रहा है
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Nginx इंस्टॉल करें (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Nginx इंस्टॉल करें (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: nginx रीस्टार्ट करें
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: nginx री-लोड करें
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **रोल का उपयोग:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: Nginx भूमिका से वेब सर्वर कॉन्फ़िगर करें
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ http {
 #### संग्रह इंस्टॉल करें
 
 ```bash
-# Install from Ansible Galaxy
+# Ansible Galaxy से इंस्टॉल करें
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# requirements फ़ाइल से इंस्टॉल करें
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: कलेक्शन मॉड्यूल का उपयोग करें
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: community.general का Docker मॉड्यूल उपयोग करें
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: AWS EC2 मॉड्यूल उपयोग करें
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **Docker Compose से AWX इंस्टॉल करें:**
 ```bash
-# Clone AWX repository
+# AWX रिपॉज़िटरी क्लोन करें
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# docker-compose से तैनात करें
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# http://localhost:80 पर जाएँ
+# डिफ़ॉल्ट लॉगिन: admin / password
 ```
 
 ### Ansible से Windows स्वचालन
@@ -742,7 +742,7 @@ docker-compose -f docker-compose.yml up -d
 
 **Windows की पूर्वापेक्षाएँ:**
 ```powershell
-# On Windows host, enable WinRM
+# Windows होस्ट पर WinRM सक्षम करें
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Windows स्वचालन प्लेबुक:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Windows सर्वर कॉन्फ़िगरेशन
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: IIS इंस्टॉल करें
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: वेबसाइट तैनात करें
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: फ़ायरवॉल कॉन्फ़िगर करें
       win_firewall_rule:
-        name: Allow HTTP
+        name: HTTP की अनुमति दें
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Chocolatey से सॉफ़्टवेयर इंस्टॉल करें
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ Ansible Cisco, Juniper, Arista और F5 सहित प्रमुख ने�
 **नेटवर्क उपकरण प्लेबुक:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Cisco स्विच कॉन्फ़िगर करें
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ Ansible Cisco, Juniper, Arista और F5 सहित प्रमुख ने�
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: VLAN कॉन्फ़िगर करें
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ Ansible Cisco, Juniper, Arista और F5 सहित प्रमुख ने�
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: इंटरफ़ेस कॉन्फ़िगर करें
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: कॉन्फ़िगरेशन सहेजें
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (पूरा स्टैक परिनियोजन):**
 ```yaml
 ---
-- name: Configure all servers
+- name: सभी सर्वर कॉन्फ़िगर करें
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: डेटाबेस सर्वर कॉन्फ़िगर करें
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: वेब सर्वर कॉन्फ़िगर करें
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: लोड बैलेंसर कॉन्फ़िगर करें
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Kubernetes क्लस्टर सेटअप करें
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Docker इंस्टॉल करें
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Kubernetes apt कुंजी जोड़ें
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Kubernetes रिपॉज़िटरी जोड़ें
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Kubernetes घटक इंस्टॉल करें
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Kubernetes मास्टर प्रारंभ करें
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: क्लस्टर प्रारंभ करें
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: .kube डायरेक्टरी बनाएँ
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: admin.conf कॉपी करें
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: सुरक्षा सुदृढ़ करें
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: सभी पैकेज अपडेट करें
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: सुरक्षा उपकरण इंस्टॉल करें
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: fail2ban कॉन्फ़िगर करें
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: फ़ायरवॉल कॉन्फ़िगर करें
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: फ़ायरवॉल सक्षम करें
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: root लॉगिन अक्षम करें
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: पासवर्ड नीति निर्धारित करें
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: fail2ban रीस्टार्ट करें
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: sshd रीस्टार्ट करें
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **गलत (इडेम्पोटेंट नहीं):**
 ```yaml
-- name: Add line to file
+- name: फ़ाइल में पंक्ति जोड़ें
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **सही (इडेम्पोटेंट):**
 ```yaml
-- name: Ensure line in file
+- name: सुनिश्चित करें कि पंक्ति फ़ाइल में है
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. कोड गुणवत्ता के लिए Ansible Lint का उपयोग करें
 
 ```bash
-# Install ansible-lint
+# ansible-lint इंस्टॉल करें
 pip install ansible-lint
 
-# Run linter
+# लिंटर चलाएँ
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# सामान्य समस्याएँ अपने आप ठीक करें
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. Molecule से परीक्षण करें
 
 ```bash
-# Install Molecule
+# Molecule इंस्टॉल करें
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# परीक्षणों के साथ नई भूमिका शुरू करें
 molecule init role my_role --driver-name docker
 
-# Run tests
+# परीक्षण चलाएँ
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# परीक्षण चरण:
+# - परीक्षण वातावरण बनाएँ
+# - कन्वर्ज करें (प्लेबुक चलाएँ)
+# - सत्यापित करें (परीक्षण चलाएँ)
+# - वातावरण नष्ट करें
 ```
 
 **molecule.yml उदाहरण:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: पूरा सर्वर सेटअप
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: पैकेज इंस्टॉल करें
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Nginx कॉन्फ़िगर करें
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: एप्लिकेशन तैनात करें
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# केवल nginx टास्क चलाएँ
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# डिप्लॉयमेंट छोड़ें
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: मज़बूत टास्क निष्पादन
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: जोखिम भरा ऑपरेशन आज़माएँ
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: डीबग आउटपुट
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: विफलता संभालें
       debug:
-        msg: "Command failed but continuing..."
+        msg: "कमांड विफल हुआ, लेकिन निष्पादन जारी है..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: rescue ब्लॉक
       block:
-        - name: Try this first
+        - name: पहले यह आज़माएँ
           command: /may/fail
         
-        - name: If successful, do this
+        - name: सफल होने पर यह करें
           debug:
-            msg: "Success!"
+            msg: "सफलता!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: विफल होने पर इसके बजाय यह करें
           debug:
-            msg: "Recovered from failure"
+            msg: "विफलता से उबर गया"
       
       always:
-        - name: Always run this
+        - name: इसे हमेशा चलाएँ
           debug:
-            msg: "Cleanup operations"
+            msg: "सफ़ाई के कार्य"
 ```
 
 ### 7. प्रदर्शन अनुकूलित करें
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Mitogen का उपयोग करें (3-7 गुना बेहतर प्रदर्शन)
 ```bash
-# Install Mitogen
+# Mitogen इंस्टॉल करें
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### समानांतर निष्पादन
 ```yaml
 ---
-- name: Parallel Updates
+- name: समानांतर अपडेट
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # सभी होस्ट की प्रतीक्षा न करें
+  serial: 10      # एक बार में 10 होस्ट प्रोसेस करें
   
   tasks:
-    - name: Update packages
+    - name: पैकेज अपडेट करें
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **समाधान:**
 ```bash
-# Test raw SSH connection
+# कच्चे SSH कनेक्शन का परीक्षण करें
 ssh -vvv user@host
 
-# Test Ansible connection
+# Ansible कनेक्शन का परीक्षण करें
 ansible host -m ping -vvv
 
-# Add to inventory
+# इन्वेंटरी में जोड़ें
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: root अधिकार आवश्यक टास्क
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **समाधान:**
 ```bash
-# Ensure collection is installed
+# सुनिश्चित करें कि कलेक्शन इंस्टॉल है
 ansible-galaxy collection install community.general
 
-# Verify collection
+# कलेक्शन सत्यापित करें
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# FQCN (पूरी तरह योग्य कलेक्शन नाम) का उपयोग करें
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. लंबे समय वाले काम के लिए असिंक्रोनस निष्पादन उपयोग करें:
    ```yaml
-   - name: Long running task
+   - name: लंबा चलने वाला टास्क
      command: /usr/bin/long_task
      async: 3600
      poll: 0

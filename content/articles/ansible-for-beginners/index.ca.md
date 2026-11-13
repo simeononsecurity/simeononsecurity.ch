@@ -3,9 +3,9 @@ title: "Ansible per a principiants 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "Guia d’Ansible per a 2026 sobre instal·lació, playbooks, rols, exemples, bones pràctiques i comparacions amb Terraform, Puppet i Chef."
-tags: ["Introducció a Ansible", "Automatització de la gestió d’infraestructura de TI", "Conceptes bàsics d’Ansible", "Automatització d’infraestructura de TI", "Gestió de la configuració", "Desplegament d’aplicacions", "Aprovisionament", "Lliurament continu", "Seguretat i compliment", "Orquestració", "YAML", "Mòduls d’Ansible", "Rols", "Bones pràctiques", "Control de versions", "Proves", "Red Hat", "Administradors de sistemes", "Linux", "macOS", "Windows", "Instal·lació d’Ansible", "Inventari d’Ansible", "Playbooks d’Ansible", "Mòduls d’Ansible", "Rols d’Ansible", "Bones pràctiques d’Ansible", "Proves d’Ansible", "Eina d’automatització d’infraestructura de TI", "Tutorial d’Ansible", "Automatització de la gestió d’infraestructura", "Ansible per a principiants", "Aprendre Ansible", "Tutorial d’Ansible 2026", "Ansible i Terraform", "Ansible i Puppet", "Exemples de playbooks d’Ansible", "Automatització amb Ansible", "Eines DevOps", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Col·leccions d’Ansible", "Ansible Galaxy", "Ansible Vault", "Automatització del núvol amb Ansible"]
+tags: ["Introducció a Ansible", "Automatització de la gestió d’infraestructura de TI", "Conceptes bàsics d’Ansible", "Automatització d’infraestructura de TI", "Gestió de la configuració", "Desplegament d’aplicacions", "Aprovisionament", "Lliurament continu", "Seguretat i compliment", "Orquestració", "YAML", "Mòduls d’Ansible", "Rols", "Bones pràctiques", "Control de versions", "Proves", "Red Hat", "Administradors de sistemes", "Linux", "macOS", "Windows", "Instal·lació d’Ansible", "Inventari d’Ansible", "Playbooks d’Ansible", "Mòduls d’Ansible", "Rols d’Ansible", "Bones pràctiques d’Ansible", "Proves d’Ansible", "Eina d’automatització d’infraestructura de TI", "Tutorial d’Ansible", "Automatització de la gestió d’infraestructura", "Ansible per a principiants", "Aprendre Ansible", "Tutorial d’Ansible 2026", "Ansible i Terraform", "Ansible i Puppet", "Exemples de playbooks d’Ansible", "Automatització amb Ansible", "Eines DevOps", "Infraestructura com a codi", "Ansible AWX", "Ansible Tower", "Col·leccions d’Ansible", "Ansible Galaxy", "Ansible Vault", "Automatització del núvol amb Ansible"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "Il·lustració d’una infraestructura de TI moderna amb servidors i dispositius interconnectats. Mostra connexions SSH i WinRM, un fitxer YAML estilitzat i icones de serveis al núvol sobre un fons fosc."
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansible és adequat per automatitzar:
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# Afegir el PPA d’Ansible per a la versió més recent
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# Habilitar el repositori EPEL
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Utilitzar Homebrew
 brew install ansible
 ```
 
 #### Mètode 2: Python pip (funcions més recents)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# Instal·lar pipx (entorn aïllat recomanat)
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# Instal·lar Ansible amb pipx
 pipx install --include-deps ansible
 
-# Verify installation
+# Verificar la instal·lació
 ansible --version
 ```
 
 #### Mètode 3: Docker (portable)
 
 ```bash
-# Pull official Ansible container
+# Descarregar el contenidor oficial d’Ansible
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# Executar Ansible en un contenidor
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### Verificar la instal·lació
 
 ```bash
-# Check Ansible version
+# Comprovar la versió d’Ansible
 ansible --version
 
-# Expected output (2026):
+# Sortida esperada (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Crea el fitxer de configuració d’Ansible:
 
 ```bash
-# Create config directory
+# Crear el directori de configuració
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# Crear ansible.cfg
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ Un **inventari** defineix els hosts i grups que gestiona Ansible. Pot ser estàt
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# Grup de servidors web
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# Grup de servidors de bases de dades
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# Equilibradors de càrrega
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# Grup de grups
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# Variables per a tots els servidors web
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# Variables per a tots els amfitrions
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ Els **playbooks** són fitxers YAML que descriuen fluxos de treball d’automati
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: Configurar els servidors web
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Instal·lar Nginx
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Iniciar i habilitar Nginx
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: Copiar el contingut del lloc web
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ Els **playbooks** són fitxers YAML que descriuen fluxos de treball d’automati
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: Configurar el tallafoc
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ Els **playbooks** són fitxers YAML que descriuen fluxos de treball d’automati
 #### Executar playbooks
 
 ```bash
-# Basic execution
+# Execució bàsica
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# Amb un inventari específic
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# Limitar a amfitrions específics
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# Execució de prova (mode de comprovació)
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# Sortida detallada per resoldre problemes
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ Els mòduls d’Ansible són els components bàsics de l’automatització. Cada
 
 **Mòduls del sistema:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# Gestió de paquets
+- name: Instal·lar paquets (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ Els mòduls d’Ansible són els components bàsics de l’automatització. Cada
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# Gestió de serveis
+- name: Gestionar els serveis
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ Els mòduls d’Ansible són els components bàsics de l’automatització. Cada
 
 **Mòduls de fitxers:**
 ```yaml
-# File operations
-- name: Create directory
+# Operacions amb fitxers
+- name: Crear un directori
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# Copiar fitxers
+- name: Desplegar la configuració
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# Plantilla amb variables
+- name: Desplegar la configuració de nginx
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ Els mòduls d’Ansible són els components bàsics de l’automatització. Cada
 
 **Mòduls del núvol (exemple d’AWS):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# Crear una instància EC2
+- name: Iniciar una instància EC2
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ Els mòduls d’Ansible són els components bàsics de l’automatització. Cada
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# Crear un bucket S3
+- name: Crear un bucket S3
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ Els mòduls d’Ansible són els components bàsics de l’automatització. Cada
 
 **Mòduls de bases de dades:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# Gestió de bases de dades MySQL
+- name: Crear una base de dades MySQL
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: Crear un usuari MySQL
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ Les variables permeten reutilitzar playbooks en entorns diferents.
 **Variables del playbook:**
 ```yaml
 ---
-- name: Deploy Application
+- name: Desplegar l’aplicació
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ Les variables permeten reutilitzar playbooks en entorns diferents.
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: Desplegar {{ app_name }} versió {{ app_version }}
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (variables xifrades):**
 ```bash
-# Create encrypted file
+# Crear un fitxer xifrat
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# Editar un fitxer xifrat
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# Contingut de secrets.yml:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# Utilitzar al playbook
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ Els **rols** ofereixen una manera estructurada d’organitzar playbooks i fer-lo
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # Variables predeterminades
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # Variables del rol
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # Llista principal de tasques
+    │   ├── install.yml       # Tasques d’instal·lació
+    │   └── configure.yml     # Tasques de configuració
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # Controladors (reinici dels serveis)
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Plantilles Jinja2
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # Fitxers estàtics
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # Dependències del rol
+    └── README.md             # Documentació
 ```
 
 #### Exemple de rol: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: Incloure les variables específiques del sistema operatiu
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Instal·lar Nginx
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Configurar Nginx
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: Assegurar que Nginx estigui en execució
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Instal·lar Nginx (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Instal·lar Nginx (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: Reiniciar nginx
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: Recarregar nginx
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **Utilitzar el rol:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: Configurar servidors web amb el rol de Nginx
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ Les **col·leccions** són un format de distribució de contingut d’Ansible, c
 #### Instal·lar col·leccions
 
 ```bash
-# Install from Ansible Galaxy
+# Instal·lar des d’Ansible Galaxy
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# Instal·lar des del fitxer de requisits
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: Utilitzar mòduls de col·lecció
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: Utilitzar el mòdul Docker de community.general
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: Utilitzar el mòdul AWS EC2
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **Instal·lació d’AWX amb Docker Compose:**
 ```bash
-# Clone AWX repository
+# Clonar el repositori AWX
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# Desplegar amb docker-compose
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# Accedir a http://localhost:80
+# Inici de sessió predeterminat: admin / password
 ```
 
 ### Automatització de Windows amb Ansible
@@ -742,7 +742,7 @@ El 2026, Ansible ofereix un suport per a Windows molt millorat:
 
 **Requisits previs de Windows:**
 ```powershell
-# On Windows host, enable WinRM
+# Al servidor Windows, habilitar WinRM
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Playbook d’automatització de Windows:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Configuració del servidor Windows
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: Instal·lar IIS
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: Desplegar el lloc web
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: Configurar el tallafoc
       win_firewall_rule:
-        name: Allow HTTP
+        name: Permetre HTTP
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Instal·lar programari amb Chocolatey
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ Ansible és compatible amb els principals proveïdors de xarxes, com Cisco, Juni
 **Playbook per a dispositius de xarxa:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Configurar commutadors Cisco
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ Ansible és compatible amb els principals proveïdors de xarxes, com Cisco, Juni
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: Configurar VLAN
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ Ansible és compatible amb els principals proveïdors de xarxes, com Cisco, Juni
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: Configurar la interfície
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: Desar la configuració
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (desplegament de tota la pila):**
 ```yaml
 ---
-- name: Configure all servers
+- name: Configurar tots els servidors
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: Configurar els servidors de bases de dades
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: Configurar els servidors web
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: Configurar els equilibradors de càrrega
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Configurar el clúster Kubernetes
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Instal·lar Docker
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Afegir la clau apt de Kubernetes
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Afegir el repositori de Kubernetes
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Instal·lar components de Kubernetes
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Inicialitzar el node principal de Kubernetes
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: Inicialitzar el clúster
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: Crear el directori .kube
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: Copiar admin.conf
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: Reforçar la seguretat
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: Actualitzar tots els paquets
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: Instal·lar eines de seguretat
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: Configurar fail2ban
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: Configurar el tallafoc
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: Habilitar el tallafoc
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: Desactivar l’inici de sessió de root
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: Establir la política de contrasenyes
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: Reiniciar fail2ban
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: Reiniciar sshd
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **Incorrecte (no idempotent):**
 ```yaml
-- name: Add line to file
+- name: Afegir una línia al fitxer
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **Correcte (idempotent):**
 ```yaml
-- name: Ensure line in file
+- name: Assegurar que la línia sigui al fitxer
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. Utilitza Ansible Lint per a la qualitat del codi
 
 ```bash
-# Install ansible-lint
+# Instal·lar ansible-lint
 pip install ansible-lint
 
-# Run linter
+# Executar el linter
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# Corregir automàticament els problemes habituals
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. Implementa proves amb Molecule
 
 ```bash
-# Install Molecule
+# Instal·lar Molecule
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# Inicialitzar un rol nou amb proves
 molecule init role my_role --driver-name docker
 
-# Run tests
+# Executar les proves
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# Fases de prova:
+# - Crear l’entorn de prova
+# - Convergir (executar el playbook)
+# - Verificar (executar les proves)
+# - Destruir l’entorn
 ```
 
 **Exemple de molecule.yml:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: Configuració completa del servidor
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: Instal·lar paquets
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Configurar Nginx
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: Desplegar l’aplicació
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# Executar només les tasques de nginx
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# Ometre el desplegament
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: Execució robusta de tasques
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: Provar una operació arriscada
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: Sortida de depuració
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: Gestionar l’error
       debug:
-        msg: "Command failed but continuing..."
+        msg: "L'ordre ha fallat, però l'execució continua..."
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: Bloc amb recuperació
       block:
-        - name: Try this first
+        - name: Provar això primer
           command: /may/fail
         
-        - name: If successful, do this
+        - name: Si funciona, fer això
           debug:
-            msg: "Success!"
+            msg: "Èxit!"
       
       rescue:
-        - name: If failed, do this instead
+        - name: Si falla, fer això en lloc seu
           debug:
-            msg: "Recovered from failure"
+            msg: "Recuperació després de l’error"
       
       always:
-        - name: Always run this
+        - name: Executar-ho sempre
           debug:
-            msg: "Cleanup operations"
+            msg: "Operacions de neteja"
 ```
 
 ### 7. Optimitzar el rendiment
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Utilitza Mitogen (rendiment de 3 a 7 vegades superior)
 ```bash
-# Install Mitogen
+# Instal·lar Mitogen
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### Execució paral·lela
 ```yaml
 ---
-- name: Parallel Updates
+- name: Actualitzacions en paral·lel
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # No esperar tots els amfitrions
+  serial: 10      # Processar 10 amfitrions cada vegada
   
   tasks:
-    - name: Update packages
+    - name: Actualitzar paquets
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **Solucions:**
 ```bash
-# Test raw SSH connection
+# Provar la connexió SSH directa
 ssh -vvv user@host
 
-# Test Ansible connection
+# Provar la connexió d’Ansible
 ansible host -m ping -vvv
 
-# Add to inventory
+# Afegir a l’inventari
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: Tasca que requereix privilegis de root
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **Solució:**
 ```bash
-# Ensure collection is installed
+# Assegurar que la col·lecció estigui instal·lada
 ansible-galaxy collection install community.general
 
-# Verify collection
+# Verificar la col·lecció
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# Utilitzar FQCN (nom completament qualificat de la col·lecció)
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. Utilitza l’execució asíncrona per a tasques llargues:
    ```yaml
-   - name: Long running task
+   - name: Tasca de llarga durada
      command: /usr/bin/long_task
      async: 3600
      poll: 0

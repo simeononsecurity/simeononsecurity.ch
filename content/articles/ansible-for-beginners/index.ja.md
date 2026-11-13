@@ -3,9 +3,9 @@ title: "初心者向けAnsibleガイド 2026"
 draft: false
 toc: true
 date: 2023-02-25
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "2026年版Ansibleガイド。インストール、Playbook、ロール、例、ベストプラクティスを説明し、Terraform、Puppet、Chefと比較します。"
-tags: ["Ansible入門", "ITインフラ管理の自動化", "Ansibleの基礎", "ITインフラの自動化", "構成管理", "アプリケーションのデプロイ", "プロビジョニング", "継続的デリバリー", "セキュリティとコンプライアンス", "オーケストレーション", "YAML", "Ansibleモジュール", "ロール", "ベストプラクティス", "バージョン管理", "テスト", "Red Hat", "システム管理者", "Linux", "macOS", "Windows", "Ansibleのインストール", "Ansibleインベントリ", "Ansible Playbook", "Ansibleモジュール", "Ansibleロール", "Ansibleのベストプラクティス", "Ansibleのテスト", "ITインフラ自動化ツール", "Ansibleチュートリアル", "インフラ管理の自動化", "初心者向けAnsible", "Ansibleを学ぶ", "Ansibleチュートリアル2026", "AnsibleとTerraform", "AnsibleとPuppet", "Ansible Playbookの例", "Ansible自動化", "DevOpsツール", "Infrastructure as Code", "Ansible AWX", "Ansible Tower", "Ansibleコレクション", "Ansible Galaxy", "Ansible Vault", "Ansibleクラウド自動化"]
+tags: ["Ansible入門", "ITインフラ管理の自動化", "Ansibleの基礎", "ITインフラの自動化", "構成管理", "アプリケーションのデプロイ", "プロビジョニング", "継続的デリバリー", "セキュリティとコンプライアンス", "オーケストレーション", "YAML", "Ansibleモジュール", "ロール", "ベストプラクティス", "バージョン管理", "テスト", "Red Hat", "システム管理者", "Linux", "macOS", "Windows", "Ansibleのインストール", "Ansibleインベントリ", "Ansible Playbook", "Ansibleモジュール", "Ansibleロール", "Ansibleのベストプラクティス", "Ansibleのテスト", "ITインフラ自動化ツール", "Ansibleチュートリアル", "インフラ管理の自動化", "初心者向けAnsible", "Ansibleを学ぶ", "Ansibleチュートリアル2026", "AnsibleとTerraform", "AnsibleとPuppet", "Ansible Playbookの例", "Ansible自動化", "DevOpsツール", "コードとしてのインフラストラクチャ", "Ansible AWX", "Ansible Tower", "Ansibleコレクション", "Ansible Galaxy", "Ansible Vault", "Ansibleクラウド自動化"]
 cover: "/img/cover/ansible-for-beginners.webp"
 coverAlt: "サーバーとデバイスが接続された最新のITインフラを描いたイラスト。SSHとWinRMの接続、様式化されたYAMLファイル、暗い背景に配置されたクラウドサービスのアイコンを示しています。"
 coverCaption: ""
@@ -122,7 +122,7 @@ Ansibleは次の自動化に適しています。
 
 **Ubuntu/Debian:**
 ```bash
-# Add Ansible PPA for latest version
+# 最新バージョン用のAnsible PPAを追加
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
@@ -130,48 +130,48 @@ sudo apt install ansible -y
 
 **RHEL/CentOS/Rocky Linux:**
 ```bash
-# Enable EPEL repository
+# EPELリポジトリを有効化
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 ```
 
 **macOS:**
 ```bash
-# Using Homebrew
+# Homebrewを使用
 brew install ansible
 ```
 
 #### 方法2: Python pip (最新機能)
 
 ```bash
-# Install pipx (recommended isolated environment)
+# pipxをインストール（推奨される分離環境）
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-# Install Ansible using pipx
+# pipxでAnsibleをインストール
 pipx install --include-deps ansible
 
-# Verify installation
+# インストールを確認
 ansible --version
 ```
 
 #### 方法3: Docker (移植可能)
 
 ```bash
-# Pull official Ansible container
+# 公式Ansibleコンテナを取得
 docker pull quay.io/ansible/ansible:latest
 
-# Run Ansible in container
+# コンテナ内でAnsibleを実行
 docker run --rm -it quay.io/ansible/ansible:latest ansible --version
 ```
 
 ### インストールの確認
 
 ```bash
-# Check Ansible version
+# Ansibleのバージョンを確認
 ansible --version
 
-# Expected output (2026):
+# 想定される出力 (2026):
 # ansible [core 2.16.5]
 #   config file = /etc/ansible/ansible.cfg
 #   python version = 3.11.8
@@ -183,10 +183,10 @@ ansible --version
 Ansibleの構成ファイルを作成します。
 
 ```bash
-# Create config directory
+# 構成ディレクトリを作成
 mkdir -p ~/.ansible
 
-# Create ansible.cfg
+# ansible.cfgを作成
 cat > ~/.ansible/ansible.cfg << 'EOF'
 [defaults]
 inventory = ~/ansible/inventory
@@ -216,35 +216,35 @@ EOF
 ```ini
 # inventory/hosts.ini
 
-# Web servers group
+# Webサーバーグループ
 [webservers]
 web1.example.com
 web2.example.com
 web3.example.com
 
-# Database servers group
+# データベースサーバーグループ
 [databases]
 db1.example.com ansible_host=192.168.1.100
 db2.example.com ansible_host=192.168.1.101
 
-# Load balancers
+# ロードバランサー
 [loadbalancers]
 lb1.example.com
 
-# Group of groups
+# グループのグループ
 [production:children]
 webservers
 databases
 loadbalancers
 
-# Variables for all webservers
+# すべてのWebサーバー向け変数
 [webservers:vars]
 ansible_user=deploy
 ansible_port=22
 http_port=80
 https_port=443
 
-# Variables for all hosts
+# すべてのホスト向け変数
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ```
@@ -318,25 +318,25 @@ keyed_groups:
 ```yaml
 # simple_playbook.yml
 ---
-- name: Configure Web Servers
+- name: Webサーバーを構成
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install Nginx
+    - name: Nginxをインストール
       apt:
         name: nginx
         state: present
         update_cache: yes
       when: ansible_os_family == "Debian"
     
-    - name: Start and enable Nginx
+    - name: Nginxを起動して有効化
       service:
         name: nginx
         state: started
         enabled: yes
     
-    - name: Copy website content
+    - name: Webサイトのコンテンツをコピー
       copy:
         src: ./website/
         dest: /var/www/html/
@@ -344,7 +344,7 @@ keyed_groups:
         group: www-data
         mode: '0644'
     
-    - name: Configure firewall
+    - name: ファイアウォールを構成
       ufw:
         rule: allow
         port: '{{ item }}'
@@ -357,19 +357,19 @@ keyed_groups:
 #### Playbookを実行する
 
 ```bash
-# Basic execution
+# 基本的な実行
 ansible-playbook simple_playbook.yml
 
-# With specific inventory
+# 指定したインベントリを使用
 ansible-playbook -i inventory/hosts.yml simple_playbook.yml
 
-# Limit to specific hosts
+# 指定したホストに限定
 ansible-playbook simple_playbook.yml --limit web1.example.com
 
-# Dry run (check mode)
+# ドライラン（チェックモード）
 ansible-playbook simple_playbook.yml --check
 
-# Verbose output for troubleshooting
+# トラブルシューティング用の詳細出力
 ansible-playbook simple_playbook.yml -vvv
 ```
 
@@ -381,8 +381,8 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
 
 **システムモジュール:**
 ```yaml
-# Package management
-- name: Install packages (apt)
+# パッケージ管理
+- name: パッケージをインストール (apt)
   apt:
     name:
       - nginx
@@ -390,8 +390,8 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
       - python3-pip
     state: present
 
-# Service management
-- name: Manage services
+# サービス管理
+- name: サービスを管理
   systemd:
     name: nginx
     state: started
@@ -400,23 +400,23 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
 
 **ファイルモジュール:**
 ```yaml
-# File operations
-- name: Create directory
+# ファイル操作
+- name: ディレクトリを作成
   file:
     path: /opt/myapp
     state: directory
     owner: appuser
     mode: '0755'
 
-# Copy files
-- name: Deploy configuration
+# ファイルをコピー
+- name: 構成をデプロイ
   copy:
     src: config.yml
     dest: /etc/myapp/config.yml
     backup: yes
 
-# Template with variables
-- name: Deploy nginx config
+# 変数付きテンプレート
+- name: nginxの構成をデプロイ
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
@@ -425,8 +425,8 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
 
 **クラウドモジュール (AWSの例):**
 ```yaml
-# Create EC2 instance
-- name: Launch EC2 instance
+# EC2インスタンスを作成
+- name: EC2インスタンスを起動
   amazon.aws.ec2_instance:
     name: webserver-01
     instance_type: t3.medium
@@ -439,8 +439,8 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
       Environment: production
       Application: web
 
-# Create S3 bucket
-- name: Create S3 bucket
+# S3バケットを作成
+- name: S3バケットを作成
   amazon.aws.s3_bucket:
     name: my-app-bucket
     region: us-east-1
@@ -450,15 +450,15 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
 
 **データベースモジュール:**
 ```yaml
-# MySQL database management
-- name: Create MySQL database
+# MySQLデータベース管理
+- name: MySQLデータベースを作成
   mysql_db:
     name: webapp_db
     state: present
     login_user: root
     login_password: "{{ mysql_root_password }}"
 
-- name: Create MySQL user
+- name: MySQLユーザーを作成
   mysql_user:
     name: webapp_user
     password: "{{ db_password }}"
@@ -489,7 +489,7 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
 **Playbook変数:**
 ```yaml
 ---
-- name: Deploy Application
+- name: アプリケーションをデプロイ
   hosts: webservers
   vars:
     app_name: myapp
@@ -497,7 +497,7 @@ Ansibleモジュールは自動化の構成要素です。各モジュールは�
     app_port: 8080
   
   tasks:
-    - name: Deploy {{ app_name }} version {{ app_version }}
+    - name: "{{ app_name }} バージョン {{ app_version }} をデプロイ"
       docker_container:
         name: "{{ app_name }}"
         image: "registry.example.com/{{ app_name }}:{{ app_version }}"
@@ -524,17 +524,17 @@ max_connections: 100
 
 **Ansible Vault (暗号化された変数):**
 ```bash
-# Create encrypted file
+# 暗号化ファイルを作成
 ansible-vault create secrets.yml
 
-# Edit encrypted file
+# 暗号化ファイルを編集
 ansible-vault edit secrets.yml
 
-# secrets.yml content:
+# secrets.ymlの内容:
 # db_password: supersecret123
 # api_key: abc123xyz789
 
-# Use in playbook
+# プレイブックで使用
 ansible-playbook deploy.yml --ask-vault-pass
 ```
 
@@ -548,23 +548,23 @@ ansible-playbook deploy.yml --ask-vault-pass
 roles/
 └── nginx/
     ├── defaults/
-    │   └── main.yml          # Default variables
+    │   └── main.yml          # デフォルト変数
     ├── vars/
-    │   └── main.yml          # Role variables
+    │   └── main.yml          # ロール変数
     ├── tasks/
-    │   ├── main.yml          # Main task list
-    │   ├── install.yml       # Installation tasks
-    │   └── configure.yml     # Configuration tasks
+    │   ├── main.yml          # 主なタスクリスト
+    │   ├── install.yml       # インストールタスク
+    │   └── configure.yml     # 構成タスク
     ├── handlers/
-    │   └── main.yml          # Handlers (restart services)
+    │   └── main.yml          # ハンドラー（サービスを再起動）
     ├── templates/
-    │   ├── nginx.conf.j2     # Jinja2 templates
+    │   ├── nginx.conf.j2     # Jinja2テンプレート
     │   └── site.conf.j2
     ├── files/
-    │   └── custom_module.sh  # Static files
+    │   └── custom_module.sh  # 静的ファイル
     ├── meta/
-    │   └── main.yml          # Role dependencies
-    └── README.md             # Documentation
+    │   └── main.yml          # ロールの依存関係
+    └── README.md             # ドキュメント
 ```
 
 #### ロールの例: nginx
@@ -581,16 +581,16 @@ nginx_worker_connections: 1024
 **tasks/main.yml:**
 ```yaml
 ---
-- name: Include OS-specific variables
+- name: OS固有の変数を含める
   include_vars: "{{ ansible_os_family }}.yml"
 
-- name: Install Nginx
+- name: Nginxをインストール
   include_tasks: install.yml
 
-- name: Configure Nginx
+- name: Nginxを構成
   include_tasks: configure.yml
 
-- name: Ensure Nginx is running
+- name: Nginxが実行中であることを確認
   service:
     name: nginx
     state: started
@@ -600,14 +600,14 @@ nginx_worker_connections: 1024
 **tasks/install.yml:**
 ```yaml
 ---
-- name: Install Nginx (Debian)
+- name: Nginxをインストール (Debian)
   apt:
     name: nginx
     state: present
     update_cache: yes
   when: ansible_os_family == "Debian"
 
-- name: Install Nginx (RedHat)
+- name: Nginxをインストール (RedHat)
   yum:
     name: nginx
     state: present
@@ -617,12 +617,12 @@ nginx_worker_connections: 1024
 **handlers/main.yml:**
 ```yaml
 ---
-- name: restart nginx
+- name: nginxを再起動
   service:
     name: nginx
     state: restarted
 
-- name: reload nginx
+- name: nginxを再読み込み
   service:
     name: nginx
     state: reloaded
@@ -656,7 +656,7 @@ http {
 **ロールを使う:**
 ```yaml
 ---
-- name: Configure Web Servers with Nginx Role
+- name: NginxロールでWebサーバーを構成
   hosts: webservers
   become: yes
   
@@ -676,12 +676,12 @@ http {
 #### コレクションをインストールする
 
 ```bash
-# Install from Ansible Galaxy
+# Ansible Galaxyからインストール
 ansible-galaxy collection install community.general
 ansible-galaxy collection install amazon.aws
 ansible-galaxy collection install ansible.windows
 
-# Install from requirements file
+# requirementsファイルからインストール
 # requirements.yml:
 collections:
   - name: community.general
@@ -696,15 +696,15 @@ ansible-galaxy collection install -r requirements.yml
 
 ```yaml
 ---
-- name: Use collection modules
+- name: コレクションモジュールを使用
   hosts: localhost
   tasks:
-    - name: Use docker module from community.general
+    - name: community.generalのDockerモジュールを使用
       community.general.docker_container:
         name: webapp
         image: nginx:latest
     
-    - name: Use AWS EC2 module
+    - name: AWS EC2モジュールを使用
       amazon.aws.ec2_instance:
         name: webserver
         instance_type: t3.micro
@@ -724,16 +724,16 @@ ansible-galaxy collection install -r requirements.yml
 
 **AWXのインストール (Docker Compose):**
 ```bash
-# Clone AWX repository
+# AWXリポジトリをクローン
 git clone https://github.com/ansible/awx.git
 cd awx
 
-# Deploy using docker-compose
+# docker-composeでデプロイ
 cd tools/docker-compose
 docker-compose -f docker-compose.yml up -d
 
-# Access at http://localhost:80
-# Default login: admin / password
+# http://localhost:80にアクセス
+# 既定のログイン: admin / password
 ```
 
 ### AnsibleによるWindows自動化
@@ -742,7 +742,7 @@ docker-compose -f docker-compose.yml up -d
 
 **Windowsの前提条件:**
 ```powershell
-# On Windows host, enable WinRM
+# WindowsホストでWinRMを有効化
 $url = "https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1"
 $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
@@ -766,32 +766,32 @@ ansible_port=5986
 **Windows自動化Playbook:**
 ```yaml
 ---
-- name: Windows Server Configuration
+- name: Windowsサーバー構成
   hosts: windows
   gather_facts: yes
   
   tasks:
-    - name: Install IIS
+    - name: IISをインストール
       win_feature:
         name: Web-Server
         state: present
         include_management_tools: yes
     
-    - name: Deploy website
+    - name: Webサイトをデプロイ
       win_copy:
         src: ./website/
         dest: C:\inetpub\wwwroot\
     
-    - name: Configure firewall
+    - name: ファイアウォールを構成
       win_firewall_rule:
-        name: Allow HTTP
+        name: HTTPを許可
         localport: 80
         protocol: tcp
         action: allow
         direction: in
         enabled: yes
     
-    - name: Install software via Chocolatey
+    - name: Chocolateyでソフトウェアをインストール
       win_chocolatey:
         name:
           - googlechrome
@@ -807,7 +807,7 @@ AnsibleはCisco、Juniper、Arista、F5など主要なネットワークベン�
 **ネットワーク機器用Playbook:**
 ```yaml
 ---
-- name: Configure Cisco Switches
+- name: Ciscoスイッチを構成
   hosts: cisco_switches
   gather_facts: no
   connection: network_cli
@@ -818,7 +818,7 @@ AnsibleはCisco、Juniper、Arista、F5など主要なネットワークベン�
     ansible_password: "{{ vault_switch_password }}"
   
   tasks:
-    - name: Configure VLANs
+    - name: VLANを構成
       cisco.ios.ios_vlans:
         config:
           - vlan_id: 10
@@ -829,14 +829,14 @@ AnsibleはCisco、Juniper、Arista、F5など主要なネットワークベン�
             name: GUEST
         state: merged
     
-    - name: Configure interface
+    - name: インターフェースを構成
       cisco.ios.ios_interfaces:
         config:
           - name: GigabitEthernet1/0/1
             description: Uplink to Core
             enabled: true
     
-    - name: Save configuration
+    - name: 構成を保存
       cisco.ios.ios_config:
         save_when: always
 ```
@@ -869,26 +869,26 @@ webapp-deployment/
 **site.yml (フルスタックのデプロイ):**
 ```yaml
 ---
-- name: Configure all servers
+- name: すべてのサーバーを構成
   hosts: all
   become: yes
   roles:
     - common
 
-- name: Configure database servers
+- name: データベースサーバーを構成
   hosts: databases
   become: yes
   roles:
     - postgresql
 
-- name: Configure web servers
+- name: Webサーバーを構成
   hosts: webservers
   become: yes
   roles:
     - nginx
     - application
 
-- name: Configure load balancers
+- name: ロードバランサーを構成
   hosts: loadbalancers
   become: yes
   roles:
@@ -899,27 +899,27 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Setup Kubernetes Cluster
+- name: Kubernetesクラスターをセットアップ
   hosts: k8s_cluster
   become: yes
   
   tasks:
-    - name: Install Docker
+    - name: Dockerをインストール
       apt:
         name: docker.io
         state: present
     
-    - name: Add Kubernetes apt key
+    - name: Kubernetesのaptキーを追加
       apt_key:
         url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
         state: present
     
-    - name: Add Kubernetes repository
+    - name: Kubernetesリポジトリを追加
       apt_repository:
         repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
         state: present
     
-    - name: Install Kubernetes components
+    - name: Kubernetesコンポーネントをインストール
       apt:
         name:
           - kubelet=1.28.0-00
@@ -927,22 +927,22 @@ webapp-deployment/
           - kubectl=1.28.0-00
         state: present
 
-- name: Initialize Kubernetes master
+- name: Kubernetesマスターを初期化
   hosts: k8s_master
   become: yes
   tasks:
-    - name: Initialize cluster
+    - name: クラスターを初期化
       command: kubeadm init --pod-network-cidr=10.244.0.0/16
       args:
         creates: /etc/kubernetes/admin.conf
     
-    - name: Create .kube directory
+    - name: .kubeディレクトリを作成
       file:
         path: /home/{{ ansible_user }}/.kube
         state: directory
         owner: "{{ ansible_user }}"
     
-    - name: Copy admin.conf
+    - name: admin.confをコピー
       copy:
         src: /etc/kubernetes/admin.conf
         dest: /home/{{ ansible_user }}/.kube/config
@@ -954,17 +954,17 @@ webapp-deployment/
 
 ```yaml
 ---
-- name: Security Hardening
+- name: セキュリティを強化
   hosts: all
   become: yes
   
   tasks:
-    - name: Update all packages
+    - name: すべてのパッケージを更新
       apt:
         upgrade: dist
         update_cache: yes
     
-    - name: Install security tools
+    - name: セキュリティツールをインストール
       apt:
         name:
           - fail2ban
@@ -972,13 +972,13 @@ webapp-deployment/
           - aide
         state: present
     
-    - name: Configure fail2ban
+    - name: fail2banを構成
       copy:
         src: jail.local
         dest: /etc/fail2ban/jail.local
       notify: restart fail2ban
     
-    - name: Configure firewall
+    - name: ファイアウォールを構成
       ufw:
         rule: "{{ item.rule }}"
         port: "{{ item.port }}"
@@ -989,30 +989,30 @@ webapp-deployment/
         - { rule: 'allow', port: '443', proto: 'tcp' }
         - { rule: 'deny', port: '3306', proto: 'tcp' }
     
-    - name: Enable firewall
+    - name: ファイアウォールを有効化
       ufw:
         state: enabled
     
-    - name: Disable root login
+    - name: rootログインを無効化
       lineinfile:
         path: /etc/ssh/sshd_config
         regexp: '^PermitRootLogin'
         line: 'PermitRootLogin no'
       notify: restart sshd
     
-    - name: Set password policy
+    - name: パスワードポリシーを設定
       lineinfile:
         path: /etc/login.defs
         regexp: '^PASS_MAX_DAYS'
         line: 'PASS_MAX_DAYS   90'
   
   handlers:
-    - name: restart fail2ban
+    - name: fail2banを再起動
       service:
         name: fail2ban
         state: restarted
     
-    - name: restart sshd
+    - name: sshdを再起動
       service:
         name: sshd
         state: restarted
@@ -1049,13 +1049,13 @@ secrets.yml
 
 **悪い例 (冪等ではない):**
 ```yaml
-- name: Add line to file
+- name: ファイルに行を追加
   shell: echo "new line" >> /etc/myconfig
 ```
 
 **良い例 (冪等):**
 ```yaml
-- name: Ensure line in file
+- name: ファイル内に行があることを確認
   lineinfile:
     path: /etc/myconfig
     line: "new line"
@@ -1065,34 +1065,34 @@ secrets.yml
 ### 3. コード品質にAnsible Lintを使う
 
 ```bash
-# Install ansible-lint
+# ansible-lintをインストール
 pip install ansible-lint
 
-# Run linter
+# リンターを実行
 ansible-lint playbook.yml
 
-# Fix common issues automatically
+# 一般的な問題を自動修正
 ansible-lint --fix playbook.yml
 ```
 
 ### 4. Moleculeでテストする
 
 ```bash
-# Install Molecule
+# Moleculeをインストール
 pip install molecule molecule-docker
 
-# Initialize new role with tests
+# テスト付きの新しいロールを初期化
 molecule init role my_role --driver-name docker
 
-# Run tests
+# テストを実行
 cd my_role
 molecule test
 
-# Test stages:
-# - Create test environment
-# - Converge (run playbook)
-# - Verify (run tests)
-# - Destroy environment
+# テスト段階:
+# - テスト環境を作成
+# - 収束（プレイブックを実行）
+# - 検証（テストを実行）
+# - 環境を破棄
 ```
 
 **molecule.ymlの例:**
@@ -1116,12 +1116,12 @@ verifier:
 
 ```yaml
 ---
-- name: Full Server Setup
+- name: サーバー全体をセットアップ
   hosts: webservers
   become: yes
   
   tasks:
-    - name: Install packages
+    - name: パッケージをインストール
       apt:
         name: nginx
         state: present
@@ -1129,7 +1129,7 @@ verifier:
         - packages
         - nginx
     
-    - name: Configure Nginx
+    - name: Nginxを構成
       template:
         src: nginx.conf.j2
         dest: /etc/nginx/nginx.conf
@@ -1137,7 +1137,7 @@ verifier:
         - configuration
         - nginx
     
-    - name: Deploy application
+    - name: アプリケーションをデプロイ
       copy:
         src: app/
         dest: /var/www/html/
@@ -1145,10 +1145,10 @@ verifier:
         - deployment
         - application
 
-# Run only nginx tasks
+# nginxのタスクのみ実行
 # ansible-playbook play.yml --tags nginx
 
-# Skip deployment
+# デプロイをスキップ
 # ansible-playbook play.yml --skip-tags deployment
 ```
 
@@ -1156,44 +1156,44 @@ verifier:
 
 ```yaml
 ---
-- name: Robust Task Execution
+- name: 堅牢なタスク実行
   hosts: webservers
   
   tasks:
-    - name: Attempt risky operation
+    - name: 危険な操作を試行
       command: /usr/bin/risky_command
       register: result
       failed_when: false
       changed_when: result.rc == 0
     
-    - name: Debug output
+    - name: デバッグ出力
       debug:
         var: result
         verbosity: 2
     
-    - name: Handle failure
+    - name: 失敗を処理
       debug:
-        msg: "Command failed but continuing..."
+        msg: "コマンドは失敗しましたが、実行を続けます…"
       when: result.rc != 0
     
-    - name: Block with rescue
+    - name: 復旧ブロック
       block:
-        - name: Try this first
+        - name: まずこれを試す
           command: /may/fail
         
-        - name: If successful, do this
+        - name: 成功したらこれを実行
           debug:
-            msg: "Success!"
+            msg: "成功！"
       
       rescue:
-        - name: If failed, do this instead
+        - name: 失敗したら代わりにこれを実行
           debug:
-            msg: "Recovered from failure"
+            msg: "失敗から復旧しました"
       
       always:
-        - name: Always run this
+        - name: 常にこれを実行
           debug:
-            msg: "Cleanup operations"
+            msg: "クリーンアップ処理"
 ```
 
 ### 7. パフォーマンスの最適化
@@ -1207,7 +1207,7 @@ pipelining = True
 
 #### Mitogenを使用する (3～7倍の高速化)
 ```bash
-# Install Mitogen
+# Mitogenをインストール
 pip install mitogen
 ```
 
@@ -1221,13 +1221,13 @@ strategy = mitogen_linear
 #### 並列実行
 ```yaml
 ---
-- name: Parallel Updates
+- name: 並列更新
   hosts: all
-  strategy: free  # Don't wait for all hosts
-  serial: 10      # Process 10 hosts at a time
+  strategy: free  # すべてのホストを待たない
+  serial: 10      # 一度に10台のホストを処理
   
   tasks:
-    - name: Update packages
+    - name: パッケージを更新
       apt:
         upgrade: dist
 ```
@@ -1240,13 +1240,13 @@ strategy = mitogen_linear
 
 **解決策:**
 ```bash
-# Test raw SSH connection
+# 生のSSH接続をテスト
 ssh -vvv user@host
 
-# Test Ansible connection
+# Ansible接続をテスト
 ansible host -m ping -vvv
 
-# Add to inventory
+# インベントリに追加
 [all:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
@@ -1264,7 +1264,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
   become_user: root
   
   tasks:
-    - name: Task requiring root
+    - name: root権限が必要なタスク
       file:
         path: /etc/myconfig
         state: touch
@@ -1276,13 +1276,13 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 **解決策:**
 ```bash
-# Ensure collection is installed
+# コレクションがインストール済みであることを確認
 ansible-galaxy collection install community.general
 
-# Verify collection
+# コレクションを検証
 ansible-galaxy collection list
 
-# Use FQCN (Fully Qualified Collection Name)
+# FQCN（完全修飾コレクション名）を使用
 community.general.docker_container:
   name: mycontainer
 ```
@@ -1299,7 +1299,7 @@ community.general.docker_container:
    ```
 4. 時間のかかるタスクには非同期処理を使う。
    ```yaml
-   - name: Long running task
+   - name: 長時間実行するタスク
      command: /usr/bin/long_task
      async: 3600
      poll: 0
