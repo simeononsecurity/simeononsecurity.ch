@@ -1,7 +1,7 @@
 ---
 title: "Implementierung des NIST Cybersecurity Framework"
 date: 2023-03-18
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie das NIST Cybersecurity Framework implementieren und Ihr Unternehmen vor Cyber-Bedrohungen schützen können."
@@ -93,5 +93,5 @@ ______
 
 Die Umsetzung des NIST Cybersecurity Framework kann Ihrem Unternehmen helfen, seine Informationen und Vermögenswerte vor Cyber-Bedrohungen zu schützen. Wenn Sie die in diesem Leitfaden beschriebenen Schritte befolgen, können Sie das Rahmenwerk auf eine Weise implementieren, die mit der Risikotoleranz und den Geschäftszielen Ihres Unternehmens übereinstimmt. Denken Sie daran, dass Cybersicherheit ein fortlaufender Prozess ist, der eine kontinuierliche Überwachung und Verbesserung erfordert.
 
-*Für weitere Informationen über das [**NIST Cybersecurity Framework**](https://www.nist.gov/cyberframework),visit the official NIST website and explore their [Cybersecurity Framework page](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) Warten Sie nicht, bis es zu spät ist, sondern beginnen Sie mit der Umsetzung des NIST Cybersecurity Framework, um sicherzustellen, dass Ihr Unternehmen gut vor Cyber-Bedrohungen geschützt ist.
+*Weitere Informationen zum [**NIST Cybersecurity Framework**](https://www.nist.gov/cyberframework) finden Sie auf der offiziellen NIST-Website. Besuchen Sie auch die offizielle [Seite zum Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Warten Sie nicht, bis es zu spät ist, sondern beginnen Sie mit der Umsetzung des NIST Cybersecurity Frameworks, damit Ihr Unternehmen gut vor Cyber-Bedrohungen geschützt ist.*
 
