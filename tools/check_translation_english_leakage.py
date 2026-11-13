@@ -231,17 +231,62 @@ def taxonomy_count_differences(source: dict, target: dict) -> dict[str, tuple[in
     return differences
 
 
+def fenced_blocks(text: str) -> list[dict[str, object]]:
+    """Return Markdown fenced blocks, including their language, body, and offsets."""
+    lines = text.splitlines(keepends=True)
+    blocks = []
+    offsets = []
+    offset = 0
+    for line in lines:
+        offsets.append(offset)
+        offset += len(line)
+    index = 0
+    opener = re.compile(r"^ {0,3}(?P<marker>`{3,}|~{3,})[ \t]*(?P<info>[^\n]*)$")
+    closer = re.compile(r"^ {0,3}(?P<marker>`+|~+)[ \t]*$")
+    while index < len(lines):
+        match = opener.match(lines[index].rstrip("\r\n"))
+        if not match:
+            index += 1
+            continue
+        marker = match.group("marker")
+        info = match.group("info").strip()
+        if marker[0] == "`" and "`" in info:
+            index += 1
+            continue
+        language = info.split(maxsplit=1)[0].lower() if info else ""
+        body_start = index + 1
+        close_index = body_start
+        while close_index < len(lines):
+            close = closer.match(lines[close_index].rstrip("\r\n"))
+            if close and close.group("marker")[0] == marker[0] and len(close.group("marker")) >= len(marker):
+                break
+            close_index += 1
+        body_end = close_index if close_index < len(lines) else len(lines)
+        end_index = close_index + 1 if close_index < len(lines) else len(lines)
+        blocks.append({
+            "language": language,
+            "body": "".join(lines[body_start:body_end]),
+            "start": offsets[index],
+            "end": offsets[end_index] if end_index < len(offsets) else len(text),
+        })
+        index = end_index
+    return blocks
+
+
+def strip_fenced_blocks(text: str) -> str:
+    """Remove all fenced blocks from prose before Markdown syntax checks."""
+    for block in reversed(fenced_blocks(text)):
+        text = text[:block["start"]] + " " + text[block["end"]:]
+    return text
+
+
 def visible_text(text: str, *, include_link_labels: bool = True) -> str:
     # `text`, `plaintext`, and `markdown` fences hold reader-facing samples.
     # Keep those in the leakage screen. Exclude executable fences here, then
     # screen their comments and natural-language command strings separately.
-    text = re.sub(
-        r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n(?P<body>.*?)(?:\n)?(?P=fence)",
-        lambda match: match.group("body")
-        if match.group("language").lower() in {"text", "plaintext", "markdown"}
-        else " ",
-        text,
-    )
+    for block in reversed(fenced_blocks(text)):
+        replacement = block["body"] if block["language"] in {"text", "plaintext", "markdown"} else " "
+        text = text[:block["start"]] + replacement + text[block["end"]:]
     text = re.sub(r"(?m)^\s*\{\{<.*?>\}\}\s*$", " ", text)
     text = re.sub(r"\{\{<.*?>\}\}", " ", text)
     text = re.sub(r"`[^`]*`", " ", text)
@@ -255,47 +300,182 @@ def visible_text(text: str, *, include_link_labels: bool = True) -> str:
 def reader_fenced_prose(text: str) -> list[str]:
     """Return complete reader-facing text, plaintext, or Markdown examples."""
     return [
-        match.group("body").strip()
-        for match in re.finditer(
-            r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n(?P<body>.*?)(?:\n)?(?P=fence)",
-            text,
-        )
-        if match.group("language").lower() in {"text", "plaintext", "markdown"}
+        block["body"].strip()
+        for block in fenced_blocks(text)
+        if block["language"] in {"text", "plaintext", "markdown"}
     ]
 
 
 def reader_fenced_code_prose(text: str) -> set[str]:
     """Extract reader-facing comments and natural-language command strings from code fences."""
-    executable_languages = {
+    non_code_languages = {"text", "plaintext", "markdown", "json", "csv", "diff", "console", "output"}
+    hash_comment_languages = {
         "bash", "sh", "shell", "zsh", "powershell", "pwsh", "python", "py",
-        "ruby", "javascript", "js", "typescript", "ts", "sql", "go", "rust",
-        "c", "cpp", "csharp", "cs", "java", "php", "r",
+        "ruby", "perl", "pl", "yaml", "yml", "toml", "ini", "dockerfile",
+        "make", "makefile", "r", "terraform", "tf", "hcl", "julia", "jl",
+    }
+    slash_comment_languages = {
+        "javascript", "js", "typescript", "ts", "go", "rust", "c", "cpp",
+        "csharp", "cs", "java", "php", "kotlin", "swift", "scala", "sbt",
+        "groovy", "gradle", "objectivec", "objc", "dart", "solidity", "sol",
+        "fsharp", "fs", "terraform", "tf", "hcl",
+    }
+    comment_languages = (
+        hash_comment_languages | slash_comment_languages
+        | {"sql", "lua", "haskell", "hs", "erlang", "erl", "clojure", "clj", "html", "xml", "css"}
+    )
+    command_languages = {
+        "bash", "sh", "shell", "zsh", "powershell", "pwsh", "python", "py",
+        "ruby", "perl", "r", "javascript", "js", "typescript", "ts", "c", "cpp",
+        "java", "csharp", "cs", "go", "rust", "swift", "kotlin", "php", "lua",
+        "scala", "groovy", "html",
+    }
+    hash_inline_requires_space = {
+        "bash", "sh", "shell", "zsh", "powershell", "pwsh", "yaml", "yml",
+        "toml", "ini", "dockerfile", "make", "makefile", "terraform", "tf", "hcl",
     }
     findings = set()
-    pattern = re.compile(
-        r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n"
-        r"(?P<body>.*?)(?:\n)?(?P=fence)"
-    )
-    for match in pattern.finditer(text):
-        language = match.group("language").lower()
-        if language not in executable_languages:
+    for block in fenced_blocks(text):
+        language = block["language"]
+        if language in non_code_languages or language not in comment_languages:
             continue
-        for line in match.group("body").splitlines():
-            comment = re.match(r"^\s*(?:#(?![!])|//|--|;)\s+(.+?)\s*$", line)
+        code = block["body"]
+        if language in {"html", "xml"}:
+            for element in re.finditer(
+                r"<(button|a|label|option|title|summary|legend|h[1-6])\b[^>]*>(.*?)</\1\s*>",
+                code,
+                re.I | re.S,
+            ):
+                label = normalize(re.sub(r"<[^>]+>", " ", element.group(2)))
+                if label:
+                    findings.add(label)
+            for attribute in re.finditer(
+                r"\b(?:aria-label|title|placeholder|alt)\s*=\s*([\"'])(.*?)\1",
+                code,
+                re.I | re.S,
+            ):
+                label = normalize(attribute.group(2))
+                if label:
+                    findings.add(label)
+        for comment in re.finditer(r"(?s)<!--(.*?)-->|/\*(.*?)\*/", code):
+            normalized = normalize(comment.group(1) or comment.group(2))
+            if normalized:
+                findings.add(normalized)
+        line_comment_markers = []
+        if language in hash_comment_languages:
+            line_comment_markers.append(r"#(?![!])")
+        if language in slash_comment_languages:
+            line_comment_markers.append(r"//")
+        if language in {"sql", "lua", "haskell", "hs"}:
+            line_comment_markers.append(r"--")
+        if language in {"ini", "clojure", "clj"}:
+            line_comment_markers.append(r";")
+        if language in {"erlang", "erl"}:
+            line_comment_markers.append(r"%")
+        line_comment_marker = "|".join(line_comment_markers) or r"(?!)"
+        for line in code.splitlines():
+            comment = re.match(rf"^\s*(?:{line_comment_marker})\s*(.+?)\s*$", line)
             if comment:
-                findings.add(normalize(comment.group(1)))
+                normalized = normalize(comment.group(1))
+                if normalized:
+                    findings.add(normalized)
+            inline_markers: list[tuple[str, bool]] = []
+            if any(marker.startswith("#") for marker in line_comment_markers):
+                inline_markers.append((r"#", language in hash_inline_requires_space))
+            if "//" in line_comment_markers:
+                inline_markers.append((r"//", False))
+            if language in {"sql", "lua", "haskell", "hs"}:
+                inline_markers.append((r"--", False))
+            if language in {"ini", "clojure", "clj"}:
+                inline_markers.append((r";", language == "ini"))
+            if language in {"erlang", "erl"}:
+                inline_markers.append((r"%", False))
+            for marker, needs_space in inline_markers:
+                for inline_comment in re.finditer(rf"{marker}\s*(.+?)\s*$", line):
+                    prefix = line[:inline_comment.start()]
+                    if needs_space and prefix and not prefix[-1].isspace():
+                        continue
+                    if marker == r"//" and re.search(r"https?:$", prefix, re.I):
+                        continue
+                    quote = None
+                    escaped = False
+                    for char in prefix:
+                        if escaped:
+                            escaped = False
+                        elif char == "\\":
+                            escaped = True
+                        elif quote:
+                            if char == quote:
+                                quote = None
+                        elif char in {"'", '"', "`"}:
+                            quote = char
+                    if quote:
+                        continue
+                    normalized = normalize(inline_comment.group(1))
+                    if normalized:
+                        findings.add(normalized)
             commit_subjects = re.finditer(
                 r"\bgit\s+commit\b[^\n]*?\s-m\s+([\"'])(.+?)\1", line
-            )
+            ) if language in {"bash", "sh", "shell", "zsh", "powershell", "pwsh"} else []
             for subject in commit_subjects:
                 findings.add(normalize(subject.group(2)))
             user_output = re.finditer(
-                r"\b(?:echo|printf|Write-Host|Write-Output|print)\b[^\n]*?"
-                r"([\"'])([^\"']{3,})\1",
+                r"(?:\b(?:echo|printf|Write-Host|Write-Output|Write-Warning|Write-Error|print|println|puts|say|warn|"
+                r"console\.(?:log|info|warn|error)|process\.stdout\.write|"
+                r"logger\.(?:debug|info|warn|error)|System\.(?:out|err)\.(?:print|println|printf)|"
+                r"Console\.(?:Write|WriteLine)|fmt\.(?:Print|Println|Printf)|"
+                r"log\.(?:Print|Println|Printf|Fatal|Panic)|NSLog|debugPrint|"
+                r"document\.write|alert)\b|std::(?:cout|cerr)\s*<<|"
+                r"(?:println|print|eprintln|eprint)!)[^\n]*?"
+                r"([\"'`])((?:\\.|(?!\1)[^\\]){2,})\1",
                 line,
-            )
+            ) if language in command_languages else []
             for message in user_output:
-                findings.add(normalize(message.group(2)))
+                text_value = message.group(2).strip()
+                identifier_only = (
+                    re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]*", text_value)
+                    and (
+                        "_" in text_value
+                        or re.search(r"[a-z0-9][A-Z]", text_value)
+                    )
+                )
+                if (
+                    identifier_only
+                    or re.fullmatch(
+                        r"(?:start|stop|done|ok|success|failure|failed|error|ready|"
+                        r"complete|unknown|enabled|disabled|yes|no|true|false)",
+                        text_value,
+                        re.I,
+                    )
+                    or re.match(
+                        r"^(?:PASS|FAIL|ERROR|WARN|INFO):\s|"
+                        r"(?:permission denied|operation not permitted|command not found|"
+                        r"no such file or directory|access denied|operation timed out|"
+                        r"connection refused|connection timed out|request timed out|"
+                        r"network is unreachable|host is unreachable|broken pipe|"
+                        r"address already in use|no route to host|no changes detected)\b",
+                        text_value,
+                        re.I,
+                    )
+                ):
+                    continue
+                normalized = normalize(text_value)
+                if normalized:
+                    findings.add(normalized)
+        if language == "html":
+            html = re.sub(r"(?is)<(?:script|style)\b.*?</(?:script|style)\s*>", " ", code)
+            for visible in re.finditer(r">([^<>]+)<", html):
+                text_value = visible.group(1).strip()
+                if normalize(text_value):
+                    findings.add(normalize(text_value))
+            for attribute in re.finditer(
+                r"\b(?:aria-label|placeholder|title|alt)\s*=\s*([\"'])(.*?)\1",
+                html,
+                re.I,
+            ):
+                text_value = attribute.group(2).strip()
+                if normalize(text_value):
+                    findings.add(normalize(text_value))
     return {finding for finding in findings if finding}
 
 
@@ -351,18 +531,53 @@ def copied_reader_code_prose(source: str, target: str) -> set[str]:
 
 
 def split_word_emphasis(text: str, locale: str | None = None) -> list[str]:
-    """Find Markdown emphasis markers placed between letters in a word."""
-    # Japanese and Chinese do not use spaces between words, so adjacent
-    # emphasized text is normal typography rather than a split word.
-    if locale and locale.lower() in {"ja", "zh"}:
-        return []
-    visible = visible_text(text)
+    """Find emphasis spans embedded in words or isolated Japanese particles."""
+    visible = visible_text(strip_fenced_blocks(text))
     findings = []
-    for match in re.finditer(r"(?<=\w)(?:\*\*|\*)(?=\w)", visible):
-        start = max(0, match.start() - 28)
-        end = min(len(visible), match.end() + 28)
-        findings.append(visible[start:end].strip())
+    spans = re.finditer(r"(?<!\\)(\*\*|__|\*|_)(.+?)(?<!\\)(\*\*|__|\*|_)", visible)
+    japanese_particles = {
+        "は", "が", "を", "に", "で", "と", "の", "へ", "も", "や", "か", "ね", "よ",
+        "から", "まで", "より", "だけ", "しか", "こそ", "さえ", "など", "って",
+    }
+    for match in spans:
+        start_marker = match.group(1)
+        span_text = match.group(2).strip()
+        end_marker = match.group(3)
+        if start_marker != end_marker:
+            continue
+        open_start, open_end = match.span(1)
+        close_start, close_end = match.span(3)
+        boundaries = (
+            (visible[open_start - 1] if open_start else " ", visible[open_end]),
+            (visible[close_start - 1], visible[close_end] if close_end < len(visible) else " "),
+        )
+        splits_word = start_marker.startswith("*") and any(
+            before.isalnum() and after.isalnum()
+            and not _is_cjk(before) and not _is_cjk(after)
+            for before, after in boundaries
+        )
+        isolates_particle = (
+            start_marker.startswith("*")
+            and locale and locale.lower() == "ja" and span_text in japanese_particles
+        )
+        if not (splits_word or isolates_particle):
+            continue
+        start, end = match.span()
+        context_start = max(0, start - 28)
+        context_end = min(len(visible), end + 28)
+        findings.append(visible[context_start:context_end].strip())
     return sorted(set(findings))
+
+
+def _is_cjk(char: str) -> bool:
+    codepoint = ord(char)
+    return (
+        0x3040 <= codepoint <= 0x30FF
+        or 0x3400 <= codepoint <= 0x9FFF
+        or 0xF900 <= codepoint <= 0xFAFF
+        or 0xAC00 <= codepoint <= 0xD7AF
+        or 0x1100 <= codepoint <= 0x11FF
+    )
 
 
 def normalize(text: str) -> str:

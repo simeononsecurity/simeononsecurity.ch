@@ -18,6 +18,7 @@ from check_translation_english_leakage import (
     markdown_structure,
     markdown_structure_differences,
     normalize,
+    fenced_blocks,
     prose_sentences_with_link_slots,
     reader_fenced_code_prose,
     reader_fenced_prose,
@@ -405,6 +406,188 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(copied_reader_code_prose(source, source), reader_fenced_code_prose(source))
         self.assertFalse(copied_reader_code_prose(source, translated))
 
+    def test_screens_comments_without_space_and_markup_language_comments(self):
+        sample = (
+            "```swift\n"
+            "//Translate this instruction for readers.\n"
+            "```\n"
+            "```html\n"
+            "<!-- Keep this explanatory label localized. -->\n"
+            "````\n"
+            "```c\n"
+            "printf(\"Choose a file\");\n"
+            "````\n"
+            "```haskell\n-- Translate this Haskell comment\n````\n"
+            "```erlang\n% Localize this Erlang comment\nio:format(\"ok\").% Explain this result\n````\n"
+            "```clojure\n; Explain this Clojure comment\n````\n"
+            "```css\n.icon { background: url(//cdn.example.com/icon.svg); }\n````\n"
+            "```hcl\nresource \"thing\" {} // Explain this Terraform resource\n````\n"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {
+                "translate this instruction for readers",
+                "keep this explanatory label localized",
+                "choose a file",
+                "translate this haskell comment",
+                "localize this erlang comment",
+                "explain this result",
+                "explain this clojure comment",
+                "explain this terraform resource",
+            },
+        )
+
+    def test_screens_inline_sql_and_ini_comments(self):
+        sample = (
+            "```sql\nSELECT 1; -- Translate this reader instruction\nSELECT 1;-- No-space SQL comment\n```\n"
+            "```ini\nkey=value ; Localize this setting description\n```\n"
+            "```python\nvalue=1# Translate this Python comment\nprint(\"Continue\")\n```\n"
+            "```clojure\n(run); Explain this example\n```\n"
+            "```javascript\ncall();// Translate this UI note\nconst url = \"https://example.com/path\";\n"
+            "console.log(`Verify ${project} before continuing`);\n```\n"
+            "```lua\nprint('start')-- Explain this output\n```\n"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {
+                "translate this reader instruction",
+                "no space sql comment",
+                "localize this setting description",
+                "translate this python comment",
+                "continue",
+                "explain this example",
+                "translate this ui note",
+                "verify project before continuing",
+                "explain this output",
+            },
+        )
+
+    def test_ignores_structured_jsonc_fences(self):
+        sample = '```jsonc\n{"print": "Reader-facing label"}\n```'
+        self.assertEqual(reader_fenced_code_prose(sample), set())
+
+    def test_screens_comments_in_perl_lua_and_scala_fences(self):
+        sample = (
+            "```perl\n# Translate this note for readers.\n```\n"
+            "```lua\n-- Localize this instruction.\n```\n"
+            "```scala\n// Explain this example.\n```"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {
+                "translate this note for readers",
+                "localize this instruction",
+                "explain this example",
+            },
+        )
+
+    def test_preserves_fixed_status_output_in_executable_fences(self):
+        output = (
+            '```python\nprint("PASS: all checks passed")\n'
+            'print("Permission denied")\n'
+            'print("Operation timed out")\n'
+            'print("No changes detected")\n'
+            'print("start")\n'
+            'print("CODE_NOT_FOUND")\n'
+            'print("status_code")\n'
+            '```javascript\nconsole.log("statusCode")\n```'
+        )
+
+        self.assertEqual(reader_fenced_code_prose(output), set())
+
+    def test_detects_javascript_reader_facing_output_strings(self):
+        output = '```javascript\nconsole.log("Configure your account before continuing")\n```'
+
+        self.assertEqual(
+            reader_fenced_code_prose(output),
+            {"configure your account before continuing"},
+        )
+
+    def test_detects_cpp_stream_output_strings(self):
+        output = '```cpp\nstd::cout << "Configure your account now";\n```'
+
+        self.assertEqual(
+            reader_fenced_code_prose(output),
+            {"configure your account now"},
+        )
+
+    def test_detects_single_word_html_labels_and_accessibility_text(self):
+        sample = (
+            '```html\n<button>Submit</button>\n'
+            '<span>Continue</span><div>Waiting</div>\n'
+            '<input aria-label="Search" placeholder="Email">\n```'
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {"submit", "continue", "waiting", "search", "email"},
+        )
+
+    def test_does_not_treat_hyphenated_ui_copy_as_an_identifier(self):
+        sample = '```java\nSystem.out.println("Click-to-continue");\n```'
+
+        self.assertEqual(reader_fenced_code_prose(sample), {"click to continue"})
+
+    def test_extracts_output_strings_with_other_quote_characters(self):
+        sample = '''```python
+print("Don't skip setup")
+print('She said "Continue before saving"')
+```'''
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {"don t skip setup", "she said continue before saving"},
+        )
+
+    def test_extracts_two_character_reader_facing_output_labels(self):
+        sample = '```python\nprint("Go")\n```'
+
+        self.assertEqual(reader_fenced_code_prose(sample), {"go"})
+
+    def test_queues_uppercase_ui_labels_for_manual_review(self):
+        sample = '```javascript\nconsole.log("SAVE");\n```'
+
+        self.assertEqual(reader_fenced_code_prose(sample), {"save"})
+
+    def test_detects_reader_facing_output_strings_across_languages(self):
+        sample = (
+            '```java\nSystem.out.println("Configure your account now");\n```\n'
+            '```go\nfmt.Println("Continue setup before running");\n```\n'
+            '```csharp\nConsole.WriteLine("Save your changes now");\n```\n'
+            '```rust\nprintln!("Restart the service when prompted");\n```\n'
+            '```swift\nprint("Review the generated report");\n```\n'
+            '```kotlin\nprintln("Choose your language below");\n```\n'
+            '```php\necho "Select the preferred option";\n```\n'
+            '```javascript\nconsole.log(`Configure your account before continuing`);\n```\n'
+            '```html\n<button aria-label="Continue with setup">Continue to the next step</button>\n```'
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {
+                "configure your account now",
+                "continue setup before running",
+                "save your changes now",
+                "restart the service when prompted",
+                "review the generated report",
+                "choose your language below",
+                "select the preferred option",
+                "configure your account before continuing",
+                "continue with setup",
+                "continue to the next step",
+            },
+        )
+
+    def test_longer_fence_closer_ends_the_correct_block(self):
+        sample = "```bash\n# Translate this instruction for readers.\n````\nAfter the example."
+
+        self.assertEqual(len(fenced_blocks(sample)), 1)
+        self.assertIn("After the example.", visible_text(sample))
+        self.assertNotIn("Translate this instruction", visible_text(sample))
+
     def test_detects_emphasis_markers_that_split_words(self):
         prose = (
             "**Lies** die Hinweise. Codex unterstützt AGENTS.md. "
@@ -417,12 +600,25 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(len(findings), 1)
         self.assertIn("Lie**s**", findings[0])
 
+    def test_ignores_intraword_underscores_but_flags_asterisk_emphasis(self):
+        self.assertEqual(split_word_emphasis("Keep some_config_value unchanged."), [])
+        findings = split_word_emphasis("Translate trans*la*tion carefully.")
+        self.assertEqual(len(findings), 1)
+
+    def test_ignores_literal_emphasis_syntax_in_fenced_examples(self):
+        sample = "```markdown\nUse Con**sulta** as a markup example.\n```"
+
+        self.assertEqual(split_word_emphasis(sample), [])
+
     def test_does_not_flag_emphasis_adjacent_to_japanese_or_chinese_words(self):
         japanese = "**未分類情報**とは、政府機関で使われる用語です。"
         chinese = "**非机密信息**是政府机构常用的术语。"
 
         self.assertEqual(split_word_emphasis(japanese, "ja"), [])
         self.assertEqual(split_word_emphasis(chinese, "zh"), [])
+
+    def test_flags_a_japanese_particle_bolded_by_itself(self):
+        self.assertEqual(len(split_word_emphasis("内容**は**次の通りです。", "ja")), 1)
 
     def test_effective_ai_delegation_examples_detect_an_english_copy(self):
         bundle = Path(__file__).resolve().parents[1] / "content/articles/effective-ai-agent-delegation"

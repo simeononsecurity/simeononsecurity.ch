@@ -191,8 +191,17 @@
   Inspect executable fences for reader-facing comments and natural-language
   strings as well. Translate comments and example text such as a commit subject
   while preserving valid command syntax. Keep literal runtime output, identifiers,
-  paths, and command names unchanged. Treat an unchanged comment or example string
-  as a manual-review flag, not as executable syntax to ignore.
+  paths, and command names unchanged. The checker screens comments and common
+  output calls in shell, Python, JavaScript/TypeScript, C/C++, Java, C#, Go, Rust,
+  Swift, Kotlin, PHP, Lua, Scala, and Groovy. It also screens visible text and
+  accessibility labels in fenced HTML, including single-word labels. Treat an
+  unchanged comment or example string as a manual-review flag, not as executable
+  syntax to ignore. Exempt
+  fixed diagnostics and identifier-only values from translation. Review any
+  output-string finding in context, preserve fixed runtime output, and record
+  the reason when retaining English text the checker flags. It is not a language
+  parser, so manually inspect user-facing strings and markup in every other
+  executable fence, including template literals, UI labels, and generated sample text.
   Compare individual lines inside `text`, `plaintext`, and `markdown` fences as well as full
   examples. A localized sample can still contain copied English field labels or
   short instructions that a whole-block comparison misses. Translate those
