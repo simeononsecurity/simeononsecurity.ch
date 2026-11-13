@@ -1,6 +1,7 @@
 ---
 title: "Înțelegerea troienilor de acces la distanță: Riscuri, prevenire și protecție"
 date: 2023-07-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Descoperiți riscurile pe care le prezintă troienii de acces la distanță (RAT) și învățați măsuri eficiente de prevenire și protecție pentru a vă proteja sistemele și datele informatice."
@@ -66,19 +67,19 @@ ______
 
 Pentru a reduce riscurile asociate cu **troienii de acces la distanță**, persoanele și organizațiile trebuie să implementeze măsuri de securitate solide. Iată câțiva pași esențiali de luat în considerare:
 
-1. [**Keep software up to date:**](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/) Actualizați în mod regulat sistemele de operare și aplicațiile software pentru a remedia vulnerabilitățile cunoscute pe care atacatorii le pot exploata. De exemplu, Microsoft lansează în mod regulat actualizări de securitate pentru a remedia vulnerabilitățile din produsele sale.
+1. [**Mențineți software-ul actualizat:**](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/) Actualizați în mod regulat sistemele de operare și aplicațiile software pentru a remedia vulnerabilitățile cunoscute pe care atacatorii le pot exploata. De exemplu, Microsoft lansează în mod regulat actualizări de securitate pentru a remedia vulnerabilitățile din produsele sale.
 
-2. [**Use strong passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create unique and complex passwords for all accounts and consider implementing **multi-factor authentication (MFA) pentru o securitate sporită. Servicii precum **Google Authenticator** sau **Microsoft Authenticator** oferă un nivel suplimentar de protecție.
+2. [**Folosiți parole puternice:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Creați parole unice și complexe pentru toate conturile și luați în considerare activarea **autentificării multifactor (MFA)** pentru un plus de securitate. Servicii precum **Google Authenticator** sau **Microsoft Authenticator** oferă un nivel suplimentar de protecție.
 
-3. [**Exercise caution with email attachments and downloads:**](https://simeononsecurity.com/articles/how-to-identify-phishing/) Aveți grijă să nu deschideți atașamente de e-mail sau să descărcați fișiere din surse nesigure. Scanați fișierele cu **un software antivirus** înainte de a le executa. Instrumente precum **Malwarebytes** sau **Norton Antivirus** pot ajuta la detectarea și eliminarea fișierelor malițioase.
+3. [**Aveți grijă la atașamentele de e-mail și la descărcări:**](https://simeononsecurity.com/articles/how-to-identify-phishing/) Aveți grijă să nu deschideți atașamente de e-mail sau să descărcați fișiere din surse nesigure. Scanați fișierele cu **un software antivirus** înainte de a le executa. Instrumente precum **Malwarebytes** sau **Norton Antivirus** pot ajuta la detectarea și eliminarea fișierelor malițioase.
 
-4. [**Enable firewalls and intrusion detection systems:**](https://simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/) These network security measures can help detect and prevent unauthorized access attempts. **Windows Firewall** and **Intrusion Detection Systems (IDS) cum ar fi **Snort** sunt utilizate în mod obișnuit pentru protecția rețelei.
+4. [**Activați firewallurile și sistemele de detectare a intruziunilor:**](https://simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/) Aceste măsuri de securitate a rețelei ajută la detectarea și prevenirea tentativelor de acces neautorizat. **Windows Firewall** și **sistemele de detectare a intruziunilor (IDS)**, precum **Snort**, sunt utilizate frecvent pentru protecția rețelelor.
 
-5. [**Educate users:**](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/) Promovarea **conștientizării în materie de securitate cibernetică** și oferirea de cursuri de formare privind recunoașterea e-mailurilor de phishing, a linkurilor suspecte și a altor tehnici de inginerie socială utilizate în atacurile RAT. Organizațiile organizează adesea **formare de conștientizare a securității** pentru a educa angajații cu privire la cele mai bune practici.
+5. [**Instruiți utilizatorii:**](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/) Promovarea **conștientizării în materie de securitate cibernetică** și oferirea de cursuri de formare privind recunoașterea e-mailurilor de phishing, a linkurilor suspecte și a altor tehnici de inginerie socială utilizate în atacurile RAT. Organizațiile organizează adesea **formare de conștientizare a securității** pentru a educa angajații cu privire la cele mai bune practici.
 
-6. [**Implement endpoint protection:**](https://simeononsecurity.com/recommendations/anti-virus) Utilizați soluții **antivirus** și **anti-malware** fiabile care pot detecta și bloca troienii de acces la distanță. Produse precum **McAfee Endpoint Security** sau **Kaspersky Total Security** oferă o protecție completă împotriva diferitelor tipuri de malware.
+6. [**Implementați protecția endpointurilor:**](https://simeononsecurity.com/recommendations/anti-virus) Utilizați soluții **antivirus** și **anti-malware** fiabile care pot detecta și bloca troienii de acces la distanță. Produse precum **McAfee Endpoint Security** sau **Kaspersky Total Security** oferă o protecție completă împotriva diferitelor tipuri de malware.
 
-7. [**Regularly backup data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Mențineți copii de rezervă securizate ale datelor critice pentru a minimiza impactul pierderii de date în cazul unui atac RAT de succes. Serviciile de stocare în cloud, precum **Google Drive** sau **Microsoft OneDrive**, oferă opțiuni convenabile pentru salvarea în siguranță a fișierelor importante.
+7. [**Faceți periodic copii de rezervă ale datelor:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Mențineți copii de rezervă securizate ale datelor critice pentru a minimiza impactul pierderii de date în cazul unui atac RAT de succes. Serviciile de stocare în cloud, precum **Google Drive** sau **Microsoft OneDrive**, oferă opțiuni convenabile pentru salvarea în siguranță a fișierelor importante.
 
 Urmând aceste măsuri preventive și adoptând o atitudine proactivă în materie de securitate, persoanele și organizațiile pot reduce semnificativ riscul de a deveni victime ale troienilor de acces la distanță.
 
