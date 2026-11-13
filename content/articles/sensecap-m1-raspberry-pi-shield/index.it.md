@@ -1,7 +1,7 @@
 ---
 title: "SenseCAP M1 Raspberry Pi Shield: pinout e riuso LoRaWAN"
 date: 2026-09-12
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Esamina lo shield SenseCAP M1, confronta le mappature GPIO in conflitto, controlla il chip ATECC608 e pianifica un gateway LoRaWAN con Raspberry Pi OS moderno."
@@ -318,18 +318,18 @@ Considera ogni correzione un singolo esperimento. Salva la configurazione preced
 Usa questo modello per rendere ripetibile il passaggio di consegne:
 
 ```text
-Carrier revision and photographs:
-Concentrator model, interface and RF band:
-Host model / OS / kernel / GPIO tool version:
-Supply / antenna / cooling arrangement:
-Verified pin mapping and evidence:
-Unresolved nets and excluded features:
-Software repository and commit:
-Reset implementation and GPIO ownership:
-Gateway EUI / server / frequency plan:
-Sensor activation and decoded uplink evidence:
-Reboot recovery result:
-Original-card location and rollback procedure:
+Revisione del carrier e fotografie:
+Modello del concentratore, interfaccia e banda RF:
+Modello host / OS / versione kernel / versione dello strumento GPIO:
+Alimentazione / antenna / configurazione di raffreddamento:
+Mappatura pin verificata e prove:
+Reti non risolte e funzioni escluse:
+Repository software e commit:
+Implementazione del reset e gestione GPIO:
+EUI gateway / server / piano di frequenze:
+Attivazione del sensore e prove dell’uplink decodificato:
+Esito del ripristino dopo il riavvio:
+Posizione della scheda originale e procedura di rollback:
 ```
 
 **Esercizio decisionale:** puoi acquistare un carrier economico senza etichetta del modulo oppure un assemblaggio più costoso con etichette leggibili e funzionamento documentato. Scegli l'opzione adatta al tuo progetto includendo nel confronto Pi, concentratore, antenna, alimentazione e tempo di verifica mancanti. La scelta migliore dipende dal costo totale e dalle prove necessarie per il servizio previsto, non solo dal prezzo pubblicizzato del carrier.

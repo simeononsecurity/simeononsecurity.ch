@@ -1,7 +1,7 @@
 ---
 title: "SenseCAP M1 Raspberry Pi Shield: pinout en hergebruik voor LoRaWAN"
 date: 2026-09-12
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Bekijk de SenseCAP M1-shield, vergelijk tegenstrijdige GPIO-schema's, inspecteer de ATECC608 en plan met modern Raspberry Pi OS een LoRaWAN-gateway."
@@ -328,18 +328,18 @@ Behandel iedere correctie als één experiment. Bewaar de vorige configuratie, w
 Gebruik deze sjabloon voor een reproduceerbare overdracht:
 
 ```text
-Carrier revision and photographs:
-Concentrator model, interface and RF band:
-Host model / OS / kernel / GPIO tool version:
-Supply / antenna / cooling arrangement:
-Verified pin mapping and evidence:
-Unresolved nets and excluded features:
-Software repository and commit:
-Reset implementation and GPIO ownership:
-Gateway EUI / server / frequency plan:
-Sensor activation and decoded uplink evidence:
-Reboot recovery result:
-Original-card location and rollback procedure:
+Revisie van carrier en foto’s:
+Model concentrator, interface en RF-band:
+Hostmodel / OS / kernelversie / versie GPIO-tool:
+Voeding / antenne / koelopstelling:
+Geverifieerde pinmapping en bewijs:
+Onopgeloste verbindingen en uitgesloten functies:
+Softwarerepository en commit:
+Resetimplementatie en GPIO-eigenaarschap:
+Gateway-EUI / server / frequentieplan:
+Sensoractivering en bewijs van gedecodeerde uplink:
+Herstelresultaat na opnieuw opstarten:
+Locatie van de oorspronkelijke kaart en rollbackprocedure:
 ```
 
 **Beslisoefening:** je kunt een goedkope losse drager zonder modulelabel kopen of een duurdere assemblage met leesbare labels en gedocumenteerde werking. Bepaal welke bij je project past nadat je de ontbrekende Pi, concentrator, antenne, voeding en verificatietijd aan de vergelijking hebt toegevoegd. De betere keuze volgt uit de totale kosten en het vereiste bewijs voor de beoogde dienst, niet alleen uit de geadverteerde prijs van de drager.

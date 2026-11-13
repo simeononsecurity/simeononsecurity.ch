@@ -1,7 +1,7 @@
 ---
 title: "SenseCAP M1 Raspberry Pi Shield: pinout i ponowne użycie w LoRaWAN"
 date: 2026-09-12
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj shield SenseCAP M1, porównaj sprzeczne mapy GPIO, sprawdź układ ATECC608 i zaplanuj bramę LoRaWAN z nowoczesnym Raspberry Pi OS."
@@ -318,18 +318,18 @@ Każdą zmianę traktuj jako osobny eksperyment. Zapisz poprzednią konfiguracj�
 Użyj tego szablonu, aby przygotować powtarzalny protokół przekazania:
 
 ```text
-Carrier revision and photographs:
-Concentrator model, interface and RF band:
-Host model / OS / kernel / GPIO tool version:
-Supply / antenna / cooling arrangement:
-Verified pin mapping and evidence:
-Unresolved nets and excluded features:
-Software repository and commit:
-Reset implementation and GPIO ownership:
-Gateway EUI / server / frequency plan:
-Sensor activation and decoded uplink evidence:
-Reboot recovery result:
-Original-card location and rollback procedure:
+Wersja nośnika i zdjęcia:
+Model koncentratora, interfejs i pasmo RF:
+Model hosta / system operacyjny / wersja jądra / wersja narzędzia GPIO:
+Zasilanie / antena / układ chłodzenia:
+Zweryfikowane mapowanie pinów i dowody:
+Nierozpoznane połączenia i wykluczone funkcje:
+Repozytorium oprogramowania i commit:
+Implementacja resetu i obsługa GPIO:
+EUI bramy / serwer / plan częstotliwości:
+Aktywacja czujnika i dowody zdekodowanego uplinku:
+Wynik odzyskiwania po ponownym uruchomieniu:
+Lokalizacja oryginalnej karty i procedura wycofania zmian:
 ```
 
 **Ćwiczenie decyzyjne:** możesz kupić tani nośnik bez oznaczenia modułu albo droższy zestaw z czytelnymi oznaczeniami i udokumentowanym działaniem. Uwzględnij brakujące Pi, koncentrator, antenę, zasilacz i czas weryfikacji, a następnie zdecyduj, co pasuje do projektu. Lepszy wybór wynika z całkowitego kosztu i wymaganego poziomu dowodów dla planowanej usługi, a nie wyłącznie z reklamowanej ceny nośnika.
