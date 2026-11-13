@@ -1,6 +1,7 @@
 ---
 title: "Standarde de codare securizată pentru Python: Cele mai bune practici"
 date: 2023-02-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Învățați cele mai bune practici de codare securizată în Python pentru a minimiza riscul de breșe de securitate și pentru a proteja datele sensibile."
@@ -48,7 +49,7 @@ x = int('10')
 
 ### 3. Utilizarea bibliotecilor de criptografie
 
-**Bibliotecile de criptografie**, cum ar fi [`cryptography`](https://pypi.org/project/cryptography/) and [`pycryptodome`](https://pypi.org/project/pycryptodome/) oferă o modalitate sigură de a efectua operațiuni de criptare și decriptare. Utilizați aceste biblioteci în loc să creați metode de criptare personalizate, care pot fi predispuse la vulnerabilități.
+**Bibliotecile de criptografie**, cum ar fi [`cryptography`](https://pypi.org/project/cryptography/) și [`pycryptodome`](https://pypi.org/project/pycryptodome/) oferă o modalitate sigură de a efectua operațiuni de criptare și decriptare. Utilizați aceste biblioteci în loc să creați metode de criptare personalizate, care pot fi predispuse la vulnerabilități.
 
 De exemplu, pentru a cripta o parolă, utilizați bibliotecile [`cryptography`](https://pypi.org/project/cryptography/) bibliotecă, după cum urmează:
 ```py
@@ -82,7 +83,7 @@ De exemplu, dacă aplicația utilizează o bibliotecă terță parte, cum ar fi 
 
 ### 6. Utilizați un analizor de cod static
 
-**Un analizor de cod static** este un instrument care poate identifica potențiale vulnerabilități de securitate în cod înainte ca acesta să fie executat. Utilizați instrumente precum [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) pentru a detecta problemele de securitate din cod și a le remedia înainte de implementare.
+**Un analizor de cod static** este un instrument care poate identifica potențiale vulnerabilități de securitate în cod înainte ca acesta să fie executat. Utilizați instrumente precum [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), și [`Pyflakes`](https://pypi.org/project/pyflakes/) pentru a detecta problemele de securitate din cod și a le remedia înainte de implementare.
 
 De exemplu, [`bandit`](https://pypi.org/project/bandit/) este un popular analizor de cod static care examinează codul Python pentru a detecta potențiale vulnerabilități de securitate. Acesta poate detecta probleme precum parolele codate în mod greșit, injectarea SQL și utilizarea de funcții nesigure.
 
@@ -104,17 +105,17 @@ De asemenea, dezvoltatorii ar trebui să **valideze toate datele introduse de ut
 
 ## Standarde de codare securizată pentru cadrele Python
 
-Cadrele Python, cum ar fi [Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/) au standardele lor de codare sigură. Dezvoltatorii ar trebui să respecte aceste standarde atunci când dezvoltă aplicații utilizând aceste cadre. Iată câteva standarde de codare sigură pentru cadrele Python:
+Frameworkurile Python, precum [Django](https://www.djangoproject.com/) și [Flask](https://flask.palletsprojects.com/), au propriile standarde de codare securizată. Dezvoltatorii ar trebui să respecte aceste standarde atunci când dezvoltă aplicații utilizând aceste cadre. Iată câteva standarde de codare sigură pentru cadrele Python:
 
 ### 1. [Django](https://www.djangoproject.com/)
 
-[Django](https://www.djangoproject.com/) is a popular web framework for Python. Here are some secure coding standards for [Django](https://www.djangoproject.com/)
+[Django](https://www.djangoproject.com/) este un framework web popular pentru Python. Iată câteva standarde de codare securizată pentru [Django](https://www.djangoproject.com/):
 
 - Utilizare [Django](https://www.djangoproject.com/) built-in **sistem de autentificare** în loc să creați un sistem de autentificare personalizat.
 - Utilizați [Django](https://www.djangoproject.com/) funcțiile încorporate **funcții de hașurare a parolelor** în loc să creați metode personalizate de hașurare a parolelor.
 - Utilizați [Django](https://www.djangoproject.com/) **sistemul de modele** pentru a se asigura că rezultatul este sigur și fără vulnerabilități de scripting cross-site.
 
-De exemplu, pentru a utiliza [Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the ` modul.
+De exemplu, pentru a folosi funcția încorporată de hashare a parolelor din [Django](https://www.djangoproject.com/), apelați `make_password()` din modulul `django.contrib.auth.hashers`.
 
 ```python
 from [Django](https://www.djangoproject.com/).contrib.auth.hashers import make_password
@@ -124,14 +125,14 @@ hashed_password = make_password(password)
 ```
 
 ### 2. [Flask](https://flask.palletsprojects.com/)
-[Flask](https://flask.palletsprojects.com/) is a micro web framework for Python. Here are some secure coding standards for [Flask](https://flask.palletsprojects.com/)
+[Flask](https://flask.palletsprojects.com/) este un framework web ușor pentru Python. Iată câteva standarde de codare securizată pentru [Flask](https://flask.palletsprojects.com/):
 
 - Utilizare [Flask](https://flask.palletsprojects.com/) **sistem de gestionare a sesiunilor** încorporat pentru a asigura gestionarea securizată a sesiunilor.
-- Utilizați [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) pentru a se asigura că rezultatul este sigur și nu prezintă vulnerabilități de scripting cross-site.
-- Utilizați [Flask](https://flask.palletsprojects.com/)'s [`WTForms`](https://pypi.org/project/WTForms/) pentru a gestiona validarea intrărilor utilizatorilor și pentru a se asigura că acestea nu prezintă riscuri de securitate.
-- Utilizați [Flask](https://flask.palletsprojects.com/)'s [`Blinker`](https://pypi.org/project/blinker/) pentru gestionarea sigură a semnalelor.
+- Folosiți [Flask](https://flask.palletsprojects.com/) împreună cu biblioteca [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) pentru a securiza rezultatul și a preveni vulnerabilitățile de tip cross-site scripting.
+- Folosiți [Flask](https://flask.palletsprojects.com/) cu biblioteca [`WTForms`](https://pypi.org/project/WTForms/) pentru a valida datele introduse de utilizatori și a evita riscurile de securitate.
+- Folosiți [Flask](https://flask.palletsprojects.com/) împreună cu biblioteca [`Blinker`](https://pypi.org/project/blinker/) pentru procesarea securizată a semnalelor.
 
-De exemplu, pentru a utiliza [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) importați-o și folosiți-o pentru a scăpa etichetele HTML de la ieșire.
+De exemplu, folosiți [Flask](https://flask.palletsprojects.com/) cu biblioteca [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) pentru a neutraliza etichetele HTML din rezultat.
 ```py
 from markupsafe import escape
 
@@ -146,7 +147,7 @@ ______
 
 1. **Începeți să implementați de astăzi aceste bune practici în codul dvs. Python** pentru a minimiza riscul de breșe de securitate și pentru a proteja datele sensibile. Puteți începe prin a identifica zonele din codul dvs. care sunt susceptibile la riscuri de securitate, cum ar fi validarea intrărilor, hashing-ul parolei și gestionarea sesiunilor. Apoi puteți implementa cele mai bune practici, precum cele discutate în acest articol, pentru a vă securiza codul. De exemplu, puteți utiliza expresiile regulate încorporate în Python pentru a valida datele introduse de utilizator sau puteți utiliza o bibliotecă de hashing securizată pentru parole, cum ar fi [`bcrypt`](https://pypi.org/project/bcrypt/)
 
-2. **Revizuiți baza de cod existentă pentru a găsi potențiale vulnerabilități de securitate** și utilizați analizatori de cod static, cum ar fi [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) pentru a detecta și a remedia orice problemă. De asemenea, puteți utiliza revizuirea manuală a codului pentru a identifica problemele de securitate pe care analizatorii de cod static nu le pot detecta. Căutați vulnerabilitățile comune, cum ar fi injecția SQL, scriptingul cross-site și problemele de validare a intrărilor. Odată ce ați identificat potențialele vulnerabilități de securitate, puteți utiliza cele mai bune practici pentru a remedia problemele.
+2. **Revizuiți baza de cod existentă pentru a găsi potențiale vulnerabilități de securitate** și utilizați analizatori de cod static, cum ar fi [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), și [`Pyflakes`](https://pypi.org/project/pyflakes/) pentru a detecta și a remedia orice problemă. De asemenea, puteți utiliza revizuirea manuală a codului pentru a identifica problemele de securitate pe care analizatorii de cod static nu le pot detecta. Căutați vulnerabilitățile comune, cum ar fi injecția SQL, scriptingul cross-site și problemele de validare a intrărilor. Odată ce ați identificat potențialele vulnerabilități de securitate, puteți utiliza cele mai bune practici pentru a remedia problemele.
 
 3. ** Rămâneți la curent cu cele mai recente bune practici și instrumente de securitate** pentru a vă asigura că codul dvs. rămâne sigur și lipsit de vulnerabilități. Urmăriți blogurile de securitate, participați la conferințe și participați la comunități online pentru a fi la curent cu cele mai recente tendințe și practici de securitate. Păstrați bibliotecile și cadrele de lucru actualizate pentru a vă asigura că utilizați cele mai recente versiuni sigure.
 

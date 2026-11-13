@@ -1,6 +1,7 @@
 ---
 title: "Pythonのためのセキュアコーディングスタンダード：ベストプラクティス"
 date: 2023-02-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "セキュリティ侵害のリスクを最小限に抑え、機密データを保護するために、Pythonでセキュアコーディングするためのベストプラクティスを学びます。"
@@ -48,7 +49,7 @@ x = int('10')
 
 ### 3.暗号ライブラリの利用
 
-**以下のような暗号化ライブラリ**を使用します。[`cryptography`](https://pypi.org/project/cryptography/) and [`pycryptodome`](https://pypi.org/project/pycryptodome/)は、暗号化および復号化処理を安全に実行するための方法を提供します。これらのライブラリは、脆弱性がある可能性のあるカスタム暗号化メソッドを作成する代わりに使用してください。
+**以下のような暗号化ライブラリ**を使用します。[`cryptography`](https://pypi.org/project/cryptography/) と [`pycryptodome`](https://pypi.org/project/pycryptodome/)は、暗号化および復号化処理を安全に実行するための方法を提供します。これらのライブラリは、脆弱性がある可能性のあるカスタム暗号化メソッドを作成する代わりに使用してください。
 
 例えば、パスワードを暗号化する場合は、以下のライブラリを使用します。[`cryptography`](https://pypi.org/project/cryptography/)を以下のようにライブラリ化しました：
 ```py
@@ -82,7 +83,7 @@ encrypted_password = encrypt_password(password)
 
 ### 6.スタティックコードアナライザーを使用する
 
-**静的コード解析ツール**は、コードが実行される前に、コードの潜在的なセキュリティ脆弱性を特定することができるツールです。などのツールを使用します。[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/)で、コード内のセキュリティ問題を検出し、デプロイ前に修正することができます。
+**静的コード解析ツール**は、コードが実行される前に、コードの潜在的なセキュリティ脆弱性を特定することができるツールです。などのツールを使用します。[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), と [`Pyflakes`](https://pypi.org/project/pyflakes/)で、コード内のセキュリティ問題を検出し、デプロイ前に修正することができます。
 
 例えば、以下のようなものです、[`bandit`](https://pypi.org/project/bandit/)は、Pythonのコードに潜在的なセキュリティ脆弱性がないか調べる、人気の静的コードアナライザです。ハードコードされたパスワード、SQLインジェクション、安全でない関数の使用などの問題を検出することができます。
 
@@ -104,17 +105,17 @@ cursor.execute(query, (username,))
 
 ## Python フレームワークの安全なコーディング基準
 
-以下のようなPythonフレームワークがあります。[Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/)には、セキュアコーディングの基準があります。開発者は、これらのフレームワークを使用したアプリケーションを開発する際に、これらの標準に従うべきです。ここでは、Pythonフレームワークのセキュアコーディング標準をいくつか紹介します：
+Python フレームワークの [Django](https://www.djangoproject.com/) や [Flask](https://flask.palletsprojects.com/) には、それぞれ安全なコーディング基準があります。開発者は、これらのフレームワークを使用したアプリケーションを開発する際に、これらの標準に従うべきです。ここでは、Pythonフレームワークのセキュアコーディング標準をいくつか紹介します：
 
 ### 1.[Django](https://www.djangoproject.com/)
 
-[Django](https://www.djangoproject.com/) is a popular web framework for Python. Here are some secure coding standards for [Django](https://www.djangoproject.com/)
+[Django](https://www.djangoproject.com/) は Python 用の人気のある Web フレームワークです。[Django](https://www.djangoproject.com/) を使う際は、次の安全なコーディング基準に従ってください。
 
 - 使用する[Django](https://www.djangoproject.com/)カスタム認証システムを作成する代わりに、組み込みの**認証システム**を使用します。
 - 使用する[Django](https://www.djangoproject.com/)パスワードハッシュのカスタムメソッドを作成する代わりに、組み込みの **パスワードハッシュ関数** を使用します。
 - 使用する[Django](https://www.djangoproject.com/)**template system** は、クロスサイトスクリプティングの脆弱性を排除した安全な出力を保証するものです。
 
-例えば、以下のように使用します。[Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the `モジュールになります。
+たとえば、[Django](https://www.djangoproject.com/) の組み込みパスワードハッシュ化関数を使うには、モジュール `django.contrib.auth.hashers` の `make_password()` を使用します。
 
 ```python
 from [Django](https://www.djangoproject.com/).contrib.auth.hashers import make_password
@@ -124,14 +125,14 @@ hashed_password = make_password(password)
 ```
 
 ### 2.[Flask](https://flask.palletsprojects.com/)
-[Flask](https://flask.palletsprojects.com/) is a micro web framework for Python. Here are some secure coding standards for [Flask](https://flask.palletsprojects.com/)
+[Flask](https://flask.palletsprojects.com/) は Python 向けの軽量な Web フレームワークです。[Flask](https://flask.palletsprojects.com/) を使う際は、次の安全なコーディング基準に従ってください。
 
 - 使用する[Flask](https://flask.palletsprojects.com/)を内蔵し、安全なセッションの取り扱いを保証します。
-- 使用する[Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/)ライブラリを使用することで、クロスサイトスクリプティングの脆弱性を排除した安全な出力が可能です。
-- 使用方法[Flask](https://flask.palletsprojects.com/)'s [`WTForms`](https://pypi.org/project/WTForms/)ライブラリを使用して、ユーザーの入力検証を処理し、入力がセキュリティリスクから解放されることを保証します。
-- 使用する[Flask](https://flask.palletsprojects.com/)'s [`Blinker`](https://pypi.org/project/blinker/)ライブラリで、安全な信号処理を行うことができます。
+- [Flask](https://flask.palletsprojects.com/) でライブラリ [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) を使うと、出力を安全にし、クロスサイトスクリプティングの脆弱性を防げます。
+- [Flask](https://flask.palletsprojects.com/) でライブラリ [`WTForms`](https://pypi.org/project/WTForms/) を使い、ユーザー入力を検証してセキュリティリスクを防ぎます。
+- [Flask](https://flask.palletsprojects.com/) でライブラリ [`Blinker`](https://pypi.org/project/blinker/) を使い、安全にシグナルを処理します。
 
-例えば[Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/)ライブラリをインポートして、出力からHTMLタグをエスケープするために使用します。
+たとえば、[Flask](https://flask.palletsprojects.com/) でライブラリ [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) を使い、出力中の HTML タグをエスケープします。
 ```py
 from markupsafe import escape
 
@@ -146,7 +147,7 @@ ______
 
 1.セキュリティ侵害のリスクを最小化し、機密データを保護するために、**今日からあなたのPythonコードにこれらのベストプラクティスを実装してください**。まず、入力検証、パスワードハッシュ、セッション管理など、セキュリティリスクの影響を受けやすい部分を特定することから始めましょう。そして、この記事で取り上げたようなベストプラクティスを実装して、コードの安全性を確保することができます。例えば、Pythonに内蔵されている正規表現を使ってユーザーの入力を検証したり、以下のような安全なパスワードハッシュライブラリを使用することができます。[`bcrypt`](https://pypi.org/project/bcrypt/)
 
-2.**既存のコードベースに潜在的なセキュリティ脆弱性がないかどうかを確認し、以下のような静的コードアナライザーを使用します。[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/)を使用して、問題を検出して修正します。また、静的コードアナライザーが検出できないようなセキュリティ問題を特定するために、手動コードレビューを使用することもできます。SQLインジェクション、クロスサイトスクリプティング、入力検証の問題など、一般的な脆弱性を探します。潜在的なセキュリティの脆弱性を特定したら、ベストプラクティスを使用して問題を修正することができます。
+2.**既存のコードベースに潜在的なセキュリティ脆弱性がないかどうかを確認し、以下のような静的コードアナライザーを使用します。[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), と [`Pyflakes`](https://pypi.org/project/pyflakes/)を使用して、問題を検出して修正します。また、静的コードアナライザーが検出できないようなセキュリティ問題を特定するために、手動コードレビューを使用することもできます。SQLインジェクション、クロスサイトスクリプティング、入力検証の問題など、一般的な脆弱性を探します。潜在的なセキュリティの脆弱性を特定したら、ベストプラクティスを使用して問題を修正することができます。
 
 3.**最新のセキュリティベストプラクティスとツール**を入手し、あなたのコードが脆弱性から解放され、安全であることを確認することができます。セキュリティに関するブログをフォローしたり、カンファレンスに参加したり、オンラインコミュニティに参加したりして、最新のセキュリティトレンドやプラクティスを身につけましょう。ライブラリやフレームワークを常に最新の状態に保ち、最新の安全なバージョンを使用するようにする。
 

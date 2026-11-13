@@ -1,6 +1,7 @@
 ---
 title: "Normen voor veilig coderen in Python: Beste praktijken"
 date: 2023-02-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Leer de beste praktijken voor veilig coderen in Python om het risico van beveiligingslekken te minimaliseren en gevoelige gegevens te beschermen."
@@ -48,7 +49,7 @@ x = int('10')
 
 ### 3. Cryptografiebibliotheken gebruiken
 
-**Cryptografiebibliotheken** zoals[`cryptography`](https://pypi.org/project/cryptography/) and [`pycryptodome`](https://pypi.org/project/pycryptodome/) bieden een veilige manier om encryptie- en decryptiebewerkingen uit te voeren. Gebruik deze bibliotheken in plaats van zelf encryptiemethodes te maken, die gevoelig kunnen zijn voor kwetsbaarheden.
+**Cryptografiebibliotheken** zoals[`cryptography`](https://pypi.org/project/cryptography/) en [`pycryptodome`](https://pypi.org/project/pycryptodome/) bieden een veilige manier om encryptie- en decryptiebewerkingen uit te voeren. Gebruik deze bibliotheken in plaats van zelf encryptiemethodes te maken, die gevoelig kunnen zijn voor kwetsbaarheden.
 
 Om bijvoorbeeld een wachtwoord te versleutelen, gebruikt u de[`cryptography`](https://pypi.org/project/cryptography/) bibliotheek als volgt:
 ```py
@@ -82,7 +83,7 @@ Als de toepassing bijvoorbeeld een bibliotheek van derden gebruikt, zoals[`Reque
 
 ### 6. Gebruik een statische code-analyser
 
-**Een statische code analyzer** is een hulpmiddel dat potentiële beveiligingsproblemen in de code kan identificeren voordat deze wordt uitgevoerd. Gebruik tools zoals[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) om beveiligingsproblemen in de code op te sporen en deze op te lossen voordat ze worden ingezet.
+**Een statische code analyzer** is een hulpmiddel dat potentiële beveiligingsproblemen in de code kan identificeren voordat deze wordt uitgevoerd. Gebruik tools zoals[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), en [`Pyflakes`](https://pypi.org/project/pyflakes/) om beveiligingsproblemen in de code op te sporen en deze op te lossen voordat ze worden ingezet.
 
 Bijvoorbeeld,[`bandit`](https://pypi.org/project/bandit/) is een populaire statische code-analyzer die Python-code onderzoekt op mogelijke veiligheidslekken. Het kan problemen opsporen zoals hardgecodeerde wachtwoorden, SQL-injectie en het gebruik van onveilige functies.
 
@@ -104,17 +105,17 @@ Ontwikkelaars moeten ook **alle gebruikersinvoer valideren**, uitvoer coderen, e
 
 ## Veilige coderingsstandaarden voor Python Frameworks
 
-Python raamwerken zoals[Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/) hebben hun normen voor veilig coderen. Ontwikkelaars moeten deze standaarden volgen bij het ontwikkelen van toepassingen met behulp van deze frameworks. Hier zijn enkele veilige coderingsstandaarden voor Python-raamwerken:
+Python-frameworks zoals [Django](https://www.djangoproject.com/) en [Flask](https://flask.palletsprojects.com/) hebben hun eigen normen voor veilig coderen. Ontwikkelaars moeten deze standaarden volgen bij het ontwikkelen van toepassingen met behulp van deze frameworks. Hier zijn enkele veilige coderingsstandaarden voor Python-raamwerken:
 
 ### 1.[Django](https://www.djangoproject.com/)
 
-[Django](https://www.djangoproject.com/) is a popular web framework for Python. Here are some secure coding standards for [Django](https://www.djangoproject.com/)
+[Django](https://www.djangoproject.com/) is een populair webframework voor Python. Hieronder staan enkele richtlijnen voor veilig programmeren met [Django](https://www.djangoproject.com/):
 
 - Gebruik[Django](https://www.djangoproject.com/) ingebouwd **authenticatiesysteem** in plaats van een aangepast authenticatiesysteem aan te maken.
 - Gebruik[Django](https://www.djangoproject.com/) ingebouwde **wachtwoord hashing functies** in plaats van het maken van aangepaste wachtwoord hashing methoden.
 - Gebruik[Django](https://www.djangoproject.com/) **template systeem** om ervoor te zorgen dat de uitvoer veilig is en vrij van cross-site scripting kwetsbaarheden.
 
-Om bijvoorbeeld[Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the ` module.
+Gebruik bijvoorbeeld de ingebouwde functie voor wachtwoordhashing van [Django](https://www.djangoproject.com/) met `make_password()` uit de module `django.contrib.auth.hashers`.
 
 ```python
 from [Django](https://www.djangoproject.com/).contrib.auth.hashers import make_password
@@ -124,14 +125,14 @@ hashed_password = make_password(password)
 ```
 
 ### 2.[Flask](https://flask.palletsprojects.com/)
-[Flask](https://flask.palletsprojects.com/) is a micro web framework for Python. Here are some secure coding standards for [Flask](https://flask.palletsprojects.com/)
+[Flask](https://flask.palletsprojects.com/) is een lichtgewicht webframework voor Python. Hieronder staan enkele richtlijnen voor veilig programmeren met [Flask](https://flask.palletsprojects.com/):
 
 - Gebruik[Flask](https://flask.palletsprojects.com/) ingebouwd **sessiebeheersysteem** voor een veilige sessieafhandeling.
-- Gebruik[Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) bibliotheek om ervoor te zorgen dat de uitvoer veilig is en vrij van cross-site scripting kwetsbaarheden.
-- Gebruik[Flask](https://flask.palletsprojects.com/)'s [`WTForms`](https://pypi.org/project/WTForms/) bibliotheek om de validatie van gebruikersinvoer af te handelen en ervoor te zorgen dat de invoer vrij is van veiligheidsrisico's.
-- Gebruik[Flask](https://flask.palletsprojects.com/)'s [`Blinker`](https://pypi.org/project/blinker/) bibliotheek voor veilige signaalverwerking.
+- Gebruik [Flask](https://flask.palletsprojects.com/) samen met de bibliotheek [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) om de uitvoer veilig te maken en cross-site-scriptingkwetsbaarheden te voorkomen.
+- Gebruik [Flask](https://flask.palletsprojects.com/) met de bibliotheek [`WTForms`](https://pypi.org/project/WTForms/) om gebruikersinvoer te valideren en beveiligingsrisico’s te voorkomen.
+- Gebruik [Flask](https://flask.palletsprojects.com/) met de bibliotheek [`Blinker`](https://pypi.org/project/blinker/) voor veilige signaalverwerking.
 
-Om bijvoorbeeld[Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) bibliotheek, deze importeren en gebruiken om HTML-tags uit de uitvoer te ontsnappen.
+Gebruik bijvoorbeeld in [Flask](https://flask.palletsprojects.com/) de bibliotheek [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) om HTML-tags in de uitvoer te escapen.
 ```py
 from markupsafe import escape
 
@@ -146,7 +147,7 @@ ______
 
 1. **Begin vandaag nog met het implementeren van deze best practices in uw Python-code** om het risico op beveiligingslekken te minimaliseren en gevoelige gegevens te beschermen. U kunt beginnen met het identificeren van gebieden in uw code die gevoelig zijn voor beveiligingsrisico's, zoals input validatie, wachtwoord hashing en sessiebeheer. Vervolgens kunt u best practices, zoals die in dit artikel worden besproken, toepassen om uw code te beveiligen. U kunt bijvoorbeeld de ingebouwde reguliere expressies van Python gebruiken om gebruikersinvoer te valideren of een beveiligde wachtwoord-hashbibliotheek gebruiken zoals[`bcrypt`](https://pypi.org/project/bcrypt/)
 
-2. **Bekijk uw bestaande codebase op mogelijke beveiligingsproblemen** en gebruik statische code analyzers zoals[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) om eventuele problemen op te sporen en te verhelpen. U kunt ook handmatige codecontrole gebruiken om beveiligingsproblemen op te sporen die statische codeanalyzers mogelijk niet detecteren. Zoek naar veelvoorkomende kwetsbaarheden zoals SQL-injectie, cross-site scripting en problemen met invoervalidatie. Zodra u potentiële beveiligingsproblemen hebt geïdentificeerd, kunt u best practices gebruiken om de problemen op te lossen.
+2. **Bekijk uw bestaande codebase op mogelijke beveiligingsproblemen** en gebruik statische code analyzers zoals[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), en [`Pyflakes`](https://pypi.org/project/pyflakes/) om eventuele problemen op te sporen en te verhelpen. U kunt ook handmatige codecontrole gebruiken om beveiligingsproblemen op te sporen die statische codeanalyzers mogelijk niet detecteren. Zoek naar veelvoorkomende kwetsbaarheden zoals SQL-injectie, cross-site scripting en problemen met invoervalidatie. Zodra u potentiële beveiligingsproblemen hebt geïdentificeerd, kunt u best practices gebruiken om de problemen op te lossen.
 
 3. **Blijf op de hoogte van de nieuwste best practices en tools voor beveiliging** om ervoor te zorgen dat uw code veilig en vrij van kwetsbaarheden blijft. Volg beveiligingsblogs, woon conferenties bij en neem deel aan online communities om op de hoogte te blijven van de laatste beveiligingstrends en -praktijken. Houd uw bibliotheken en frameworks up-to-date om ervoor te zorgen dat u de laatste veilige versies gebruikt.
 

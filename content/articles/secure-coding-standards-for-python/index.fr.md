@@ -1,6 +1,7 @@
 ---
 title: "Normes de codage sécurisé pour Python : Meilleures pratiques"
 date: 2023-02-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques de codage sécurisé en Python pour minimiser le risque de failles de sécurité et protéger les données sensibles."
@@ -48,7 +49,7 @@ x = int('10')
 
 ### 3. Utiliser les bibliothèques de cryptographie
 
-**Les bibliothèques de cryptographie** telles que [`cryptography`](https://pypi.org/project/cryptography/) and [`pycryptodome`](https://pypi.org/project/pycryptodome/) fournissent un moyen sûr d'effectuer des opérations de cryptage et de décryptage. Utilisez ces bibliothèques au lieu de créer des méthodes de chiffrement personnalisées, qui peuvent être sujettes à des vulnérabilités.
+**Les bibliothèques de cryptographie** telles que [`cryptography`](https://pypi.org/project/cryptography/) et [`pycryptodome`](https://pypi.org/project/pycryptodome/) fournissent un moyen sûr d'effectuer des opérations de cryptage et de décryptage. Utilisez ces bibliothèques au lieu de créer des méthodes de chiffrement personnalisées, qui peuvent être sujettes à des vulnérabilités.
 
 Par exemple, pour chiffrer un mot de passe, utilisez la bibliothèque [`cryptography`](https://pypi.org/project/cryptography/) comme suit :
 ```py
@@ -82,7 +83,7 @@ Par exemple, si l'application utilise une bibliothèque tierce, telle que [`Requ
 
 ### 6. Utiliser un analyseur de code statique
 
-**Un analyseur de code statique** est un outil qui permet d'identifier les failles de sécurité potentielles dans le code avant qu'il ne soit exécuté. Utilisez des outils tels que [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) pour détecter les problèmes de sécurité dans le code et les corriger avant le déploiement.
+**Un analyseur de code statique** est un outil qui permet d'identifier les failles de sécurité potentielles dans le code avant qu'il ne soit exécuté. Utilisez des outils tels que [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), et [`Pyflakes`](https://pypi.org/project/pyflakes/) pour détecter les problèmes de sécurité dans le code et les corriger avant le déploiement.
 
 Par exemple, [`bandit`](https://pypi.org/project/bandit/) est un analyseur de code statique populaire qui examine le code Python à la recherche de failles de sécurité potentielles. Il peut détecter des problèmes tels que les mots de passe codés en dur, l'injection SQL et l'utilisation de fonctions non sécurisées.
 
@@ -104,17 +105,17 @@ Les développeurs doivent également **valider toutes les entrées utilisateur**
 
 ## Normes de codage sécurisé pour les frameworks Python
 
-Les frameworks Python tels que [Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/) ont leurs propres normes de codage sécurisé. Les développeurs doivent respecter ces normes lorsqu'ils développent des applications à l'aide de ces frameworks. Voici quelques normes de codage sécurisé pour les frameworks Python :
+Les frameworks Python comme [Django](https://www.djangoproject.com/) et [Flask](https://flask.palletsprojects.com/) ont leurs propres normes de codage sécurisé. Les développeurs doivent respecter ces normes lorsqu'ils développent des applications à l'aide de ces frameworks. Voici quelques normes de codage sécurisé pour les frameworks Python :
 
 ### 1. [Django](https://www.djangoproject.com/)
 
-[Django](https://www.djangoproject.com/) is a popular web framework for Python. Here are some secure coding standards for [Django](https://www.djangoproject.com/)
+[Django](https://www.djangoproject.com/) est un framework web populaire pour Python. Voici quelques normes de codage sécurisé pour [Django](https://www.djangoproject.com/) :
 
 - Utilisation [Django](https://www.djangoproject.com/) **système d'authentification** intégré au lieu de créer un système d'authentification personnalisé.
 - Utiliser [Django](https://www.djangoproject.com/) les **fonctions de hachage de mot de passe** intégrées au lieu de créer des méthodes de hachage de mot de passe personnalisées.
 - Utiliser [Django](https://www.djangoproject.com/) **système de modèles** pour s'assurer que la sortie est sécurisée et exempte de vulnérabilités de type cross-site scripting.
 
-Par exemple, pour utiliser [Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the ` module.
+Par exemple, pour utiliser la fonction intégrée de hachage des mots de passe de [Django](https://www.djangoproject.com/), utilisez `make_password()` du module `django.contrib.auth.hashers`.
 
 ```python
 from [Django](https://www.djangoproject.com/).contrib.auth.hashers import make_password
@@ -124,14 +125,14 @@ hashed_password = make_password(password)
 ```
 
 ### 2. [Flask](https://flask.palletsprojects.com/)
-[Flask](https://flask.palletsprojects.com/) is a micro web framework for Python. Here are some secure coding standards for [Flask](https://flask.palletsprojects.com/)
+[Flask](https://flask.palletsprojects.com/) est un framework web léger pour Python. Voici quelques normes de codage sécurisé pour [Flask](https://flask.palletsprojects.com/) :
 
 - Utilisation [Flask](https://flask.palletsprojects.com/) **système de gestion de session** intégré pour garantir un traitement sécurisé des sessions.
-- Utiliser [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) afin de s'assurer que la sortie est sécurisée et exempte de vulnérabilités de type cross-site scripting.
-- Utiliser [Flask](https://flask.palletsprojects.com/)'s [`WTForms`](https://pypi.org/project/WTForms/) pour gérer la validation des entrées des utilisateurs et s'assurer que ces entrées ne présentent pas de risques pour la sécurité.
-- Utiliser [Flask](https://flask.palletsprojects.com/)'s [`Blinker`](https://pypi.org/project/blinker/) pour le traitement sécurisé des signaux.
+- Utilisez [Flask](https://flask.palletsprojects.com/) avec la bibliothèque [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) afin de sécuriser la sortie et de prévenir les vulnérabilités de type cross-site scripting.
+- Utilisez [Flask](https://flask.palletsprojects.com/) avec la bibliothèque [`WTForms`](https://pypi.org/project/WTForms/) pour valider les entrées des utilisateurs et éviter les risques de sécurité.
+- Utilisez [Flask](https://flask.palletsprojects.com/) avec la bibliothèque [`Blinker`](https://pypi.org/project/blinker/) pour traiter les signaux de manière sécurisée.
 
-Par exemple, pour utiliser [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) l'importer et l'utiliser pour échapper aux balises HTML de la sortie.
+Par exemple, utilisez [Flask](https://flask.palletsprojects.com/) avec la bibliothèque [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) pour échapper les balises HTML de la sortie.
 ```py
 from markupsafe import escape
 
@@ -146,7 +147,7 @@ ______
 
 1. **Commencez dès aujourd'hui à mettre en œuvre ces bonnes pratiques dans votre code Python** afin de minimiser les risques de failles de sécurité et de protéger les données sensibles. Vous pouvez commencer par identifier les zones de votre code qui sont susceptibles de présenter des risques de sécurité, comme la validation des entrées, le hachage des mots de passe et la gestion des sessions. Vous pouvez ensuite mettre en œuvre des bonnes pratiques telles que celles présentées dans cet article pour sécuriser votre code. Par exemple, vous pouvez utiliser les expressions régulières intégrées à Python pour valider les entrées des utilisateurs ou utiliser une bibliothèque de hachage de mots de passe sécurisée telle que [`bcrypt`](https://pypi.org/project/bcrypt/)
 
-2. **Examinez votre base de code existante à la recherche de failles de sécurité potentielles** et utilisez des analyseurs de code statique tels que [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) pour détecter et corriger les problèmes. Vous pouvez également utiliser l'examen manuel du code pour identifier les problèmes de sécurité que les analyseurs de code statique ne peuvent pas détecter. Recherchez les vulnérabilités courantes telles que les injections SQL, les scripts intersites et les problèmes de validation des entrées. Une fois que vous avez identifié les failles de sécurité potentielles, vous pouvez utiliser les meilleures pratiques pour résoudre les problèmes.
+2. **Examinez votre base de code existante à la recherche de failles de sécurité potentielles** et utilisez des analyseurs de code statique tels que [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), et [`Pyflakes`](https://pypi.org/project/pyflakes/) pour détecter et corriger les problèmes. Vous pouvez également utiliser l'examen manuel du code pour identifier les problèmes de sécurité que les analyseurs de code statique ne peuvent pas détecter. Recherchez les vulnérabilités courantes telles que les injections SQL, les scripts intersites et les problèmes de validation des entrées. Une fois que vous avez identifié les failles de sécurité potentielles, vous pouvez utiliser les meilleures pratiques pour résoudre les problèmes.
 
 3. **Restez au courant des meilleures pratiques et des outils de sécurité les plus récents** pour vous assurer que votre code reste sécurisé et exempt de vulnérabilités. Suivez les blogs sur la sécurité, assistez à des conférences et participez à des communautés en ligne pour vous tenir au courant des dernières tendances et pratiques en matière de sécurité. Maintenez vos bibliothèques et frameworks à jour pour vous assurer que vous utilisez les dernières versions sécurisées.
 
