@@ -1,6 +1,7 @@
 ---
 title: "効率的で安全なDockerコンテナの構築：初心者のためのガイド"
 date: 2023-02-24
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "この包括的なガイドでは、ベストプラクティス、ヒント、ステップバイステップの手順を使用して、効率的で安全なDockerコンテナを作成する方法について説明します。"
@@ -214,11 +215,11 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Dockerドキュメントの有用なセクションには、以下のようなものがあります：
 
--[Get started with Docker](https://docs.docker.com/get-started/)
--[Docker CLI reference](https://docs.docker.com/engine/reference/commandline/cli/)
--[Docker API reference](https://docs.docker.com/engine/api/v1.41/)
--[Docker-compose reference](https://docs.docker.com/compose/compose-file/)
--[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Docker を始める](https://docs.docker.com/get-started/)
+- [Docker CLI リファレンス](https://docs.docker.com/engine/reference/commandline/cli/)
+- [Docker API リファレンス](https://docs.docker.com/engine/api/v1.41/)
+- [Docker Compose リファレンス](https://docs.docker.com/compose/compose-file/)
+- [Dockerfile リファレンス](https://docs.docker.com/engine/reference/builder/)
 
 Dockerのドキュメントは、Dockerの使い方を学び、遭遇した問題のトラブルシューティングを行うための素晴らしいリソースとなります。
 
@@ -227,9 +228,9 @@ Dockerのドキュメントは、Dockerの使い方を学び、遭遇した問�
 
 Docker Hubの便利な機能には、以下のようなものがあります：
 
--[Search for Docker images](https://hub.docker.com/search?type=image)
--[Store and manage Docker images in repositories](https://hub.docker.com/repositories)
--[Automate builds and testing with Docker Hub workflows](https://docs.docker.com/docker-hub/builds/)
+- [Docker イメージを検索する](https://hub.docker.com/search?type=image)
+- [リポジトリで Docker イメージを保存・管理する](https://hub.docker.com/repositories)
+- [Docker Hub のワークフローでビルドとテストを自動化する](https://docs.docker.com/docker-hub/builds/)
 
 Docker HubはDockerを扱う上で欠かせないツールであり、Dockerイメージの管理や共有にかかる時間や労力を大幅に削減することができます。
 

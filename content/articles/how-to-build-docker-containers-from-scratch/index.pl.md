@@ -1,10 +1,11 @@
 ---
 title: "Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących"
 date: 2023-02-24
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku."
-tags: ["docker", "pojemniki", "konteneryzacja", "devops", "wdrożenie", "przenośność", "efektywność", "bezpieczeństwo", "najlepsze praktyki", "Dockerfile", "obrazy bazowe", "zmienne środowiskowe", "uchwyty na woluminy", "użytkownik root", "aktualne obrazy", "rozwój oprogramowania", "obrazy kontenerów", "Docker Hub", "orkiestracja kontenerów", "Kubernetes"]
+tags: ["docker", "pojemniki", "konteneryzacja", "devops", "wdrożenie", "przenośność", "efektywność", "bezpieczeństwo", "najlepsze praktyki", "Dockerfile", "obrazy bazowe", "zmienne środowiskowe", "montowanie woluminów", "użytkownik root", "aktualne obrazy", "rozwój oprogramowania", "obrazy kontenerów", "Docker Hub", "orkiestracja kontenerów", "Kubernetes"]
 cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Animowany obraz 3D bezpiecznego, dobrze zorganizowanego kontenera z umieszczonym na nim logo Docker, w otoczeniu różnych narzędzi i urządzeń związanych z inżynierią oprogramowania i DevOps."
 coverCaption: ""
@@ -120,7 +121,7 @@ CMD ["yarn", "start"]
 ```
 
 
-### Używanie uchwytów objętościowych
+### Montowanie woluminów
 
 Mocowania wolumenów są sposobem na dzielenie danych pomiędzy systemem hosta a kontenerem Docker. Ułatwia to zarządzanie danymi i zmniejsza rozmiar kontenera Docker. Na przykład, możesz użyć montowania woluminu do współdzielenia pliku bazy danych między systemem hosta a kontenerem.
 
@@ -184,7 +185,7 @@ EXPOSE 3000
 CMD ["yarn", "start"]
 ```
 
-### Keep Images Up to Date
+### Aktualizuj obrazy
 
 Aby zapewnić, że kontenery Docker są bezpieczne i wolne od luk, ważne jest, aby obrazy Docker były aktualne. Oznacza to regularne aktualizowanie obrazu bazowego i wszelkich zależności, na których opiera się Twoja aplikacja. Na przykład, możesz użyć`apt-get update` oraz`apt-get upgrade` w swoim pliku Dockerfile, aby utrzymać kontener na bieżąco z najnowszymi łatami bezpieczeństwa i poprawkami błędów.
 
@@ -208,17 +209,17 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
-## Further Your Studies
+## Materiały do dalszej nauki
 ### Dokumentacja Docker
 [Docker](https://www.docker.com/) to platforma open-source do budowania, wysyłania i uruchamiania aplikacji w kontenerach. Strona internetowa z dokumentacją Dockera zawiera szczegółowe informacje o tym, jak zainstalować, skonfigurować i używać Dockera w różnych systemach operacyjnych i przypadkach użycia. Strona zawiera również informacje na temat interfejsów API Dockera, poleceń Docker CLI oraz wskazówki dotyczące rozwiązywania problemów.
 
 Niektóre przydatne sekcje dokumentacji Dockera obejmują:
 
--[Get started with Docker](https://docs.docker.com/get-started/)
--[Docker CLI reference](https://docs.docker.com/engine/reference/commandline/cli/)
--[Docker API reference](https://docs.docker.com/engine/api/v1.41/)
--[Docker-compose reference](https://docs.docker.com/compose/compose-file/)
--[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Pierwsze kroki z Dockerem](https://docs.docker.com/get-started/)
+- [Dokumentacja Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/)
+- [Dokumentacja API Docker](https://docs.docker.com/engine/api/v1.41/)
+- [Dokumentacja Docker Compose](https://docs.docker.com/compose/compose-file/)
+- [Dokumentacja Dockerfile](https://docs.docker.com/engine/reference/builder/)
 
 Dokumentacja Dockera jest doskonałym źródłem wiedzy na temat używania Dockera i rozwiązywania wszelkich problemów, które możesz napotkać.
 
@@ -227,9 +228,9 @@ Dokumentacja Dockera jest doskonałym źródłem wiedzy na temat używania Docke
 
 Niektóre przydatne funkcje Docker Hub obejmują:
 
--[Search for Docker images](https://hub.docker.com/search?type=image)
--[Store and manage Docker images in repositories](https://hub.docker.com/repositories)
--[Automate builds and testing with Docker Hub workflows](https://docs.docker.com/docker-hub/builds/)
+- [Wyszukaj obrazy Dockera](https://hub.docker.com/search?type=image)
+- [Przechowywanie obrazów Dockera w repozytoriach i zarządzanie nimi](https://hub.docker.com/repositories)
+- [Automatyzowanie kompilacji i testów za pomocą przepływów pracy Docker Hub](https://docs.docker.com/docker-hub/builds/)
 
 Docker Hub to podstawowe narzędzie do pracy z Dockerem, które może zaoszczędzić wiele czasu i wysiłku, jeśli chodzi o zarządzanie i udostępnianie obrazów Docker.
 

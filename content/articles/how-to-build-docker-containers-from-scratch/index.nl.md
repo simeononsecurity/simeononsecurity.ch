@@ -1,10 +1,11 @@
 ---
 title: "Efficiënte en veilige Docker-containers bouwen: Een gids voor beginners"
 date: 2023-02-24
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Leer hoe u efficiënte en veilige Docker-containers maakt met behulp van best practices, tips en stapsgewijze instructies in deze uitgebreide gids."
-tags: ["docker", "containers", "containerisatie", "devops", "inzet", "draagbaarheid", "efficiëntie", "beveiliging", "beste praktijken", "Dockerfile", "basisbeelden", "omgevingsvariabelen", "volume mounts", "root-gebruiker", "actuele beelden", "softwareontwikkeling", "containerbeelden", "Docker Hub", "container orkestratie", "Kubernetes"]
+tags: ["docker", "containers", "containerisatie", "devops", "inzet", "draagbaarheid", "efficiëntie", "beveiliging", "beste praktijken", "Dockerfile", "basisbeelden", "omgevingsvariabelen", "volumekoppelingen", "root-gebruiker", "actuele beelden", "softwareontwikkeling", "containerbeelden", "Docker Hub", "container orkestratie", "Kubernetes"]
 cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Een 3D-geanimeerde afbeelding van een veilige, goed georganiseerde container met het Docker-logo erop, omringd door verschillende gereedschappen en apparatuur die te maken hebben met software engineering en DevOps."
 coverCaption: ""
@@ -120,7 +121,7 @@ CMD ["yarn", "start"]
 ```
 
 
-### Gebruik Volume Mounts
+### Volumekoppelingen gebruiken
 
 Volume mounts zijn een manier om gegevens te delen tussen uw hostsysteem en uw Docker-container. Dit maakt het gemakkelijker om gegevens te beheren en vermindert de grootte van je Docker-container. U kunt bijvoorbeeld een volume mount gebruiken om een databasebestand te delen tussen uw hostsysteem en uw container.
 
@@ -208,17 +209,17 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
-## Further Your Studies
+## Verder leren
 ### Docker Documentatie
 [Docker](https://www.docker.com/) is een open-source platform voor het bouwen, verschepen en draaien van applicaties in containers. De Docker-documentatiewebsite biedt gedetailleerde informatie over de installatie, configuratie en het gebruik van Docker voor verschillende besturingssystemen en gebruikssituaties. De website bevat ook informatie over Docker API's, Docker CLI-commando's en tips voor probleemoplossing.
 
 Enkele nuttige secties van de Docker-documentatie zijn:
 
--[Get started with Docker](https://docs.docker.com/get-started/)
--[Docker CLI reference](https://docs.docker.com/engine/reference/commandline/cli/)
--[Docker API reference](https://docs.docker.com/engine/api/v1.41/)
--[Docker-compose reference](https://docs.docker.com/compose/compose-file/)
--[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Aan de slag met Docker](https://docs.docker.com/get-started/)
+- [Docker CLI-referentie](https://docs.docker.com/engine/reference/commandline/cli/)
+- [Docker API-referentie](https://docs.docker.com/engine/api/v1.41/)
+- [Docker Compose-referentie](https://docs.docker.com/compose/compose-file/)
+- [Dockerfile-referentie](https://docs.docker.com/engine/reference/builder/)
 
 De Docker-documentatie is een geweldige bron om te leren hoe Docker te gebruiken en om problemen op te lossen die u kunt tegenkomen.
 
@@ -227,9 +228,9 @@ De Docker-documentatie is een geweldige bron om te leren hoe Docker te gebruiken
 
 Enkele nuttige functies van Docker Hub zijn:
 
--[Search for Docker images](https://hub.docker.com/search?type=image)
--[Store and manage Docker images in repositories](https://hub.docker.com/repositories)
--[Automate builds and testing with Docker Hub workflows](https://docs.docker.com/docker-hub/builds/)
+- [Docker-images zoeken](https://hub.docker.com/search?type=image)
+- [Docker-images in repositories opslaan en beheren](https://hub.docker.com/repositories)
+- [Builds en tests automatiseren met Docker Hub-workflows](https://docs.docker.com/docker-hub/builds/)
 
 Docker Hub is een essentieel hulpmiddel voor het werken met Docker, en het kan u veel tijd en moeite besparen bij het beheren en delen van Docker-images.
 
