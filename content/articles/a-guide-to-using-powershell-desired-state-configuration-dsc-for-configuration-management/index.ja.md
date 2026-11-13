@@ -1,11 +1,11 @@
 ---
 title: "PowerShell DSC：スタートガイド"
 date: 2023-04-02
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "PowerShell Desired State Configuration (DSC)を使用して、安全でコンプライアンスに準拠した環境のためのシステム構成を自動化および管理する方法を説明します。"
-tags: ["パワーシェル", "ディスクロージャー", "コンフィギュレーションマネジメント", "オートメーション", "ウィンドウズ", "システム管理", "ベストプラクティス", "コンプライアンス", "セキュリティ", "インフラストラクチャー", "デブオプス", "サーバー構成", "テスト", "ギット", "ソースコントロール", "政府規制", "エヌアイエスティー", "CIS", "コンフィギュレーションドリフト", "カスタムリソース"]
+tags: ["PowerShell", "DSC", "コンフィギュレーションマネジメント", "オートメーション", "Windows", "システム管理", "ベストプラクティス", "コンプライアンス", "セキュリティ", "インフラストラクチャー", "DevOps", "サーバー構成", "テスト", "Git", "ソースコントロール", "政府規制", "NIST", "CIS", "コンフィギュレーションドリフト", "カスタムリソース"]
 cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "スーパーヒーローのマントを羽織った自信に満ちたシステム管理者が、整然としたサーバーラックの横に立ち、片手にPowerShell DSCスクリプト、もう片手にWindowsロゴの入った盾を持ち、設定ドリフトやセキュリティ脅威からサーバーを守っている漫画のような画像です。"
 coverCaption: ""
@@ -84,7 +84,7 @@ ______
 
 ### NIST ガイドライン
 
-米国国立標準技術研究所（NIST）は、システム構成管理に関するガイドラインを提供しています。特に、その [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) publication contains a section (CM-2)DSC の使用に関連する「ベースラインコンフィギュレーション」に関するガイドラインです。このガイドラインでは、システム構成の変更を維持、監視、制御することの重要性が強調されています。PowerShell DSCは、システム構成を管理するための一貫した自動化された方法を提供することで、組織がこれらのガイドラインに準拠するのを助けることができます。
+米国国立標準技術研究所（NIST）は、システム構成管理に関するガイドラインを提供しています。特に、[NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) には、DSC の使用に関連するベースライン構成に関するセクション（CM-2）があります。このガイドラインでは、システム構成の変更を維持、監視、制御することの重要性が強調されています。PowerShell DSCは、システム構成を管理するための一貫した自動化された方法を提供することで、組織がこれらのガイドラインに準拠するのを助けることができます。
 
 ### 連邦情報セキュリティ管理法(FISMA)
 
@@ -98,12 +98,12 @@ ______
 
 ## 参考文献
 
-- [PowerShell Desired State Configuration (DSC) official documentation](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+- [PowerShell Desired State Configuration (DSC) の公式ドキュメント](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
-- [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [Pester - PowerShell 用テストフレームワーク](https://github.com/pester/Pester)
+- [データ保護のための暗号化入門](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Windows にセキュリティパッチをインストールする際のベストプラクティス](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 

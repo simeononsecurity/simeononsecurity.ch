@@ -1,7 +1,7 @@
 ---
 title: "PowerShell DSC: Un ghid de pornire"
 date: 2023-04-02
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Explorați puterea PowerShell Desired State Configuration (DSC) pentru a automatiza și gestiona configurațiile de sistem pentru un mediu sigur și conform."
@@ -84,7 +84,7 @@ ______
 
 ### Orientări NIST
 
-Institutul Național de Standarde și Tehnologie (NIST) oferă orientări pentru gestionarea configurației sistemului. În special [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) publication contains a section (CM-2) privind configurațiile de bază, care este relevantă pentru utilizarea DSC. Orientările subliniază importanța menținerii, monitorizării și controlului modificărilor aduse configurațiilor de sistem. PowerShell DSC poate ajuta organizațiile să se conformeze acestor orientări, oferind o modalitate coerentă și automatizată de gestionare a configurațiilor de sistem.
+Institutul Național de Standarde și Tehnologie (NIST) oferă orientări pentru gestionarea configurației sistemului. În special, publicația [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) conține o secțiune (CM-2) despre configurațiile de bază, relevantă pentru utilizarea DSC. Orientările subliniază importanța menținerii, monitorizării și controlului modificărilor aduse configurațiilor de sistem. PowerShell DSC poate ajuta organizațiile să se conformeze acestor orientări, oferind o modalitate coerentă și automatizată de gestionare a configurațiilor de sistem.
 
 ### Legea federală privind gestionarea securității informațiilor (FISMA)
 
@@ -98,12 +98,12 @@ ______
 
 ## Referințe
 
-- [PowerShell Desired State Configuration (DSC) official documentation](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+- [Documentația oficială PowerShell Desired State Configuration (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
-- [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [Pester - cadru de testare pentru PowerShell](https://github.com/pester/Pester)
+- [Ghid pentru începători privind utilizarea criptării pentru protecția datelor](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Bune practici pentru instalarea actualizărilor de securitate în Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 

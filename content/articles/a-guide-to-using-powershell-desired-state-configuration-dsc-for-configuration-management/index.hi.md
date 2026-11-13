@@ -28,7 +28,7 @@ tags:
 cover: /img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp
 coverAlt: एक चित्र जिसमें एक स्टाइलिश PowerShell टर्मिनल है, जिसके चारों ओर अमूर्त प्रतीक हैं, जो कॉन्फ़िगरेशन प्रबंधन और स्वचालन का प्रतिनिधित्व करते हैं, गहरे नौसेना रंग की पृष्ठभूमि के खिलाफ।
 coverCaption: ''
-lastmod: 2026-10-08
+lastmod: 2026-11-12
 ---
 
 **कॉन्फ़िगरेशन प्रबंधन के लिए PowerShell Desired State Configuration (DSC) का उपयोग करने के लिए एक मार्गदर्शिका**
@@ -104,7 +104,7 @@ ______
 
 ### NIST दिशानिर्देश
 
-National Institute of Standards and Technology (NIST) सिस्टम कॉन्फ़िगरेशन प्रबंधन के लिए दिशानिर्देश प्रदान करता है। विशेष रूप से, [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) प्रकाशन में Baseline Configurations पर एक अनुभाग (CM-2) है, जो DSC के उपयोग से संबंधित है। दिशानिर्देश सिस्टम कॉन्फ़िगरेशन में परिवर्तनों को बनाए रखने, निगरानी करने और नियंत्रित करने के महत्व पर जोर देते हैं। PowerShell DSC संगठनों को इन दिशानिर्देशों का पालन करने में मदद कर सकता है क्योंकि यह सिस्टम कॉन्फ़िगरेशन को प्रबंधित करने का एक सुसंगत और स्वचालित तरीका प्रदान करता है।
+National Institute of Standards and Technology (NIST) सिस्टम कॉन्फ़िगरेशन प्रबंधन के लिए दिशानिर्देश प्रदान करता है। विशेष रूप से, [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) प्रकाशन में आधारभूत कॉन्फ़िगरेशन पर एक अनुभाग (CM-2) है, जो DSC के उपयोग से संबंधित है। दिशानिर्देश सिस्टम कॉन्फ़िगरेशन में परिवर्तनों को बनाए रखने, निगरानी करने और नियंत्रित करने के महत्व पर जोर देते हैं। PowerShell DSC संगठनों को इन दिशानिर्देशों का पालन करने में मदद कर सकता है क्योंकि यह सिस्टम कॉन्फ़िगरेशन को प्रबंधित करने का एक सुसंगत और स्वचालित तरीका प्रदान करता है।
 
 ### Federal Information Security Management Act (FISMA)
 

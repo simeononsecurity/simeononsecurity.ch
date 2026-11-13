@@ -1,7 +1,7 @@
 ---
 title: "PowerShell DSC: начальное руководство"
 date: 2023-04-02
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Познакомьтесь с возможностями PowerShell Desired State Configuration (DSC) для автоматизации и управления конфигурациями системы в целях обеспечения безопасности и соответствия требованиям среды."
@@ -84,7 +84,7 @@ ______
 
 ### Руководство NIST
 
-Национальный институт стандартов и технологий (NIST) предоставляет рекомендации по управлению конфигурацией системы. В частности, в [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) publication contains a section (CM-2) по базовым конфигурациям, который имеет отношение к использованию DSC. В руководстве подчеркивается важность поддержки, мониторинга и контроля изменений в конфигурации системы. PowerShell DSC может помочь организациям в соблюдении этих рекомендаций, предоставляя последовательный и автоматизированный способ управления системными конфигурациями.
+Национальный институт стандартов и технологий (NIST) предоставляет рекомендации по управлению конфигурацией системы. В частности, в публикации [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) есть раздел (CM-2), посвящённый базовым конфигурациям и относящийся к использованию DSC. В руководстве подчеркивается важность поддержки, мониторинга и контроля изменений в конфигурации системы. PowerShell DSC может помочь организациям в соблюдении этих рекомендаций, предоставляя последовательный и автоматизированный способ управления системными конфигурациями.
 
 ### Федеральный закон об управлении информационной безопасностью (FISMA)
 
@@ -98,12 +98,12 @@ ______
 
 ## Ссылки
 
-- [PowerShell Desired State Configuration (DSC) official documentation](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+- [Официальная документация PowerShell Desired State Configuration (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
-- [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [Pester - платформа тестирования PowerShell](https://github.com/pester/Pester)
+- [Руководство для начинающих по шифрованию данных для их защиты](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Рекомендации по установке обновлений безопасности в Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 

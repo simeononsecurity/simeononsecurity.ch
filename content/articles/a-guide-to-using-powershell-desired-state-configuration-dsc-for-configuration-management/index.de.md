@@ -1,7 +1,7 @@
 ---
 title: "PowerShell DSC: Ein Einstiegshandbuch"
 date: 2023-04-02
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von PowerShell Desired State Configuration (DSC) zur Automatisierung und Verwaltung von Systemkonfigurationen für eine sichere und konforme Umgebung."
@@ -70,9 +70,9 @@ Start-DscConfiguration -Path .\InstallIIS -Wait -Verbose
 
 Erstellen Sie **modulare und wiederverwendbare** Konfigurationen, indem Sie die verschiedenen Komponenten Ihrer Infrastruktur in **einzelne DSC-Ressourcen** aufteilen. Mit diesem Ansatz können Sie Ihre Konfigurationen leicht **verwalten und skalieren**, wenn Ihre Umgebung wächst.
 
-### Source Control verwenden
+### Versionsverwaltung verwenden
 
-Speichern Sie Ihre DSC-Konfigurationen und benutzerdefinierten Ressourcen immer in einem **Source Control System** wie Git. Auf diese Weise können Sie Änderungen nachverfolgen, mit Ihrem Team zusammenarbeiten und bei Bedarf einfach auf frühere Versionen Ihrer Konfigurationen zurückgreifen.
+Speichern Sie Ihre DSC-Konfigurationen und benutzerdefinierten Ressourcen immer in einem **Versionsverwaltungssystem** wie Git. Auf diese Weise können Sie Änderungen nachverfolgen, mit Ihrem Team zusammenarbeiten und bei Bedarf einfach auf frühere Versionen Ihrer Konfigurationen zurückgreifen.
 
 ### Testen Sie Ihre Konfigurationen
 
@@ -84,7 +84,7 @@ ______
 
 ### NIST-Richtlinien
 
-Das National Institute of Standards and Technology (NIST) bietet Richtlinien für das Systemkonfigurationsmanagement. Insbesondere die [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) publication contains a section (CM-2) über Basiskonfigurationen, die für die Verwendung von DSC relevant ist. Die Richtlinien betonen die Bedeutung der Pflege, Überwachung und Kontrolle von Änderungen an Systemkonfigurationen. PowerShell DSC kann Unternehmen dabei helfen, diese Richtlinien einzuhalten, indem es eine konsistente und automatisierte Methode zur Verwaltung von Systemkonfigurationen bietet.
+Das National Institute of Standards and Technology (NIST) bietet Richtlinien für das Systemkonfigurationsmanagement. Insbesondere enthält die Veröffentlichung [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) einen Abschnitt (CM-2) zu Basiskonfigurationen, der für die Verwendung von DSC relevant ist. Die Richtlinien betonen die Bedeutung der Pflege, Überwachung und Kontrolle von Änderungen an Systemkonfigurationen. PowerShell DSC kann Unternehmen dabei helfen, diese Richtlinien einzuhalten, indem es eine konsistente und automatisierte Methode zur Verwaltung von Systemkonfigurationen bietet.
 
 ### Federal Information Security Management Act (FISMA)
 
@@ -93,17 +93,17 @@ ______
 
 ## Schlussfolgerung
 
-PowerShell Desired State Configuration (DSC) ist ein leistungsstarkes und flexibles Tool zur Automatisierung der Bereitstellung und Verwaltung von Systemkonfigurationen. Durch die Befolgung von Best Practices und die Einhaltung gesetzlicher Vorschriften können Sie sicherstellen, dass die Systeme Ihres Unternehmens im gewünschten Zustand bleiben und gleichzeitig die Compliance eingehalten wird. Vergessen Sie nicht, die in diesem Artikel bereitgestellten Ressourcen zu nutzen, um Ihr Verständnis von PowerShell DSC zu erweitern und Ihre Konfigurationsverwaltungsprozesse zu verbessern.
+PowerShell Desired State Configuration (DSC) ist ein leistungsstarkes und flexibles Tool zur Automatisierung der Bereitstellung und Verwaltung von Systemkonfigurationen. Mit bewährten Verfahren und unter Beachtung staatlicher Vorschriften stellen Sie sicher, dass die Systeme Ihrer Organisation im gewünschten Zustand bleiben und alle geltenden Anforderungen erfüllen. Vergessen Sie nicht, die in diesem Artikel bereitgestellten Ressourcen zu nutzen, um Ihr Verständnis von PowerShell DSC zu erweitern und Ihre Konfigurationsverwaltungsprozesse zu verbessern.
 ______
 
 ## Referenzen
 
-- [PowerShell Desired State Configuration (DSC) official documentation](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+- [Offizielle Dokumentation zu PowerShell Desired State Configuration (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
-- [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [Pester - PowerShell-Testframework](https://github.com/pester/Pester)
+- [Einsteigerleitfaden zur Verwendung von Verschlüsselung für den Datenschutz](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Bewährte Verfahren zur Installation von Sicherheitspatches unter Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 
