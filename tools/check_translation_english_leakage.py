@@ -283,18 +283,26 @@ def markdown_links(text: str) -> list[tuple[str, str]]:
 
 
 def copied_english_link_labels(source: str, target: str) -> list[str]:
-    """Find unchanged multiword link labels for manual review."""
+    """Find unchanged source link phrases in target labels for manual review."""
     copied = []
     for source_link, target_link in zip(markdown_links(source), markdown_links(target)):
         source_label, source_target = source_link
         target_label, target_target = target_link
         normalized_label = normalize(source_label)
+        normalized_target_label = normalize(target_label)
+        copied_phrase = bool(
+            normalized_label
+            and re.search(
+                rf"(?<![A-Za-z0-9]){re.escape(normalized_label)}(?![A-Za-z0-9])",
+                normalized_target_label,
+            )
+        )
         if (
             source_target == target_target
             and len(normalized_label.split()) >= 2
-            and normalized_label == normalize(target_label)
+            and copied_phrase
         ):
-            copied.append(f"{source_label} => {source_target}")
+            copied.append(f"{source_label} => {target_label} => {source_target}")
     return copied
 
 
@@ -306,6 +314,127 @@ def markdown_headings(text: str) -> list[tuple[int, str]]:
         label = re.sub(r"!?(?:\[([^\]]*)\]\([^)]*\))", r"\1", match.group(2))
         headings.append((len(match.group(1)), normalize(label)))
     return headings
+
+
+def markdown_structure(text: str) -> dict[str, object]:
+    """Return source-aligned Markdown shape signals for manual comparison."""
+    def table_cell_count(line: str) -> int | None:
+        stripped = line.strip()
+        if "|" not in stripped:
+            return None
+        cells = re.split(r"(?<!\\)\|", stripped)
+        if stripped.startswith("|"):
+            cells = cells[1:]
+        if stripped.endswith("|"):
+            cells = cells[:-1]
+        return len(cells) if cells else None
+
+    def is_table_separator(line: str) -> bool:
+        stripped = line.strip()
+        if "|" not in stripped:
+            return False
+        cells = re.split(r"(?<!\\)\|", stripped)
+        if stripped.startswith("|"):
+            cells = cells[1:]
+        if stripped.endswith("|"):
+            cells = cells[:-1]
+        return bool(cells) and all(re.fullmatch(r"\s*:?-{3,}:?\s*", cell) for cell in cells)
+
+    heading_levels: list[int] = []
+    fence_languages: list[str] = []
+    unordered_items = 0
+    ordered_items = 0
+    section_items: list[dict[str, int]] = [{"ordered": 0, "unordered": 0}]
+    table_shapes: list[list[int]] = []
+    visible_lines: list[str] = []
+    in_fence = False
+    fence_char = ""
+    fence_length = 0
+
+    lines = text.splitlines()
+    line_index = 0
+    while line_index < len(lines):
+        line = lines[line_index]
+        fence = re.match(r"^\s*(`{3,}|~{3,})\s*([^\s`~]*)", line)
+        if fence:
+            marker = fence.group(1)
+            if not in_fence:
+                in_fence = True
+                fence_char = marker[0]
+                fence_length = len(marker)
+                fence_languages.append(fence.group(2).lower())
+            elif marker[0] == fence_char and len(marker) >= fence_length:
+                in_fence = False
+                fence_char = ""
+                fence_length = 0
+            line_index += 1
+            continue
+        if in_fence:
+            line_index += 1
+            continue
+
+        header_cells = table_cell_count(line)
+        if (
+            header_cells
+            and line_index + 1 < len(lines)
+            and is_table_separator(lines[line_index + 1])
+            and table_cell_count(lines[line_index + 1]) == header_cells
+        ):
+            table = [header_cells, header_cells]
+            visible_lines.extend((line, lines[line_index + 1]))
+            line_index += 2
+            while line_index < len(lines):
+                row = lines[line_index]
+                if re.match(r"^\s*(`{3,}|~{3,})", row):
+                    break
+                cells = table_cell_count(row)
+                if cells != header_cells:
+                    break
+                table.append(cells)
+                visible_lines.append(row)
+                line_index += 1
+            table_shapes.append(table)
+            continue
+
+        visible_lines.append(line)
+
+        heading = re.match(r"^\s{0,3}(#{1,6})[ \t]+", line)
+        if heading:
+            heading_levels.append(len(heading.group(1)))
+            section_items.append({"ordered": 0, "unordered": 0})
+
+        list_item = re.match(r"^\s*(?P<marker>[-+*]|\d+[.)])\s+", line)
+        if list_item:
+            if list_item.group("marker")[0].isdigit():
+                ordered_items += 1
+                section_items[-1]["ordered"] += 1
+            else:
+                unordered_items += 1
+                section_items[-1]["unordered"] += 1
+
+        line_index += 1
+
+    return {
+        "heading_levels": heading_levels,
+        "table_shapes": table_shapes,
+        "ordered_items": ordered_items,
+        "unordered_items": unordered_items,
+        "section_items": section_items,
+        "fence_languages": fence_languages,
+        "link_targets": [target for _, target in markdown_links(text)],
+        "shortcodes": re.findall(r"\{\{[<%]\s*([\w-]+)", "\n".join(visible_lines)),
+    }
+
+
+def markdown_structure_differences(source: str, target: str) -> dict[str, tuple[object, object]]:
+    """Find Markdown shape differences that need human inspection."""
+    source_shape = markdown_structure(source)
+    target_shape = markdown_structure(target)
+    return {
+        key: (source_shape[key], target_shape[key])
+        for key in source_shape
+        if source_shape[key] != target_shape[key]
+    }
 
 
 def copied_english_headings(source: str, target: str) -> list[str]:
@@ -448,6 +577,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         ]
         copied_spans = copied_english_prose_spans(source_body, body)
         copied_headings = copied_english_headings(source_body, body)
+        structure_differences = markdown_structure_differences(source_body, body)
         ratio = script_ratio(prose, locale)
         reasons = []
         if misplaced:
@@ -487,6 +617,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_link_labels = copied_english_link_labels(source_body, body)
         if copied_link_labels:
             reasons.append("English_reader_link_label_copy")
+        for key in structure_differences:
+            reasons.append(f"markdown_{key}_mismatch")
         if reasons:
             findings.append({
                 "path": target.relative_to(ROOT).as_posix(),
@@ -505,6 +637,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 ),
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_link_labels": " | ".join(copied_link_labels),
+                "markdown_structure_differences": json.dumps(
+                    structure_differences, ensure_ascii=False, sort_keys=True
+                ),
                 "note": "Screening flag. Review prose and metadata manually.",
             })
     return findings
@@ -540,7 +675,7 @@ def main() -> int:
         print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:
         args.csv.parent.mkdir(parents=True, exist_ok=True)
-        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "copied_english_headings", "copied_english_metadata", "expected_script_ratio", "copied_link_labels", "note"]
+        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "copied_english_headings", "copied_english_metadata", "expected_script_ratio", "copied_link_labels", "markdown_structure_differences", "note"]
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
             writer = csv.DictWriter(handle, fieldnames=fields)
             writer.writeheader()

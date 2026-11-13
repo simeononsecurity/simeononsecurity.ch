@@ -10,6 +10,8 @@ from check_translation_english_leakage import (
     copied_english_taxonomy,
     copied_reader_fenced_examples,
     copied_reader_fenced_lines,
+    markdown_structure,
+    markdown_structure_differences,
     prose_sentences_with_link_slots,
     reader_fenced_prose,
     yaml_front_matter_lists,
@@ -18,6 +20,86 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_markdown_structure_counts_reader_content(self):
+        page = (
+            "## Section\n\n"
+            "- One\n- Two\n\n1. Three\n2. Four\n\n"
+            "| A | B |\n| --- | --- |\n| X | Y |\n\n"
+            "```text\nSample text\n```\n"
+        )
+
+        self.assertEqual(
+            markdown_structure(page),
+            {
+                "heading_levels": [2],
+                "table_shapes": [[2, 2, 2]],
+                "ordered_items": 2,
+                "unordered_items": 2,
+                "section_items": [
+                    {"ordered": 0, "unordered": 0},
+                    {"ordered": 2, "unordered": 2},
+                ],
+                "fence_languages": ["text"],
+                "link_targets": [],
+                "shortcodes": [],
+            },
+        )
+
+    def test_markdown_structure_flags_omitted_sections_and_table_rows(self):
+        source = (
+            "## First\n\n- One\n- Two\n\n"
+            "## Second\n\n1. One\n2. Two\n\n"
+            "| A | B |\n| --- | --- |\n| X | Y |\n| Z | W |\n"
+            "```text\nReader sample\n```\n"
+        )
+        target = (
+            "## First\n\n- One\n\n"
+            "| A | B |\n| --- | --- |\n| X | Y |\n"
+        )
+
+        differences = markdown_structure_differences(source, target)
+        self.assertEqual(differences["heading_levels"], ([2, 2], [2]))
+        self.assertEqual(differences["ordered_items"], (2, 0))
+        self.assertEqual(differences["unordered_items"], (2, 1))
+        self.assertEqual(
+            differences["section_items"],
+            (
+                [
+                    {"ordered": 0, "unordered": 0},
+                    {"ordered": 0, "unordered": 2},
+                    {"ordered": 2, "unordered": 0},
+                ],
+                [
+                    {"ordered": 0, "unordered": 0},
+                    {"ordered": 0, "unordered": 1},
+                ],
+            ),
+        )
+        self.assertEqual(differences["fence_languages"], (["text"], []))
+        self.assertEqual(differences["table_shapes"], ([[2, 2, 2, 2]], [[2, 2, 2]]))
+
+    def test_markdown_structure_allows_translated_cell_text(self):
+        source = "## Source\n\n| Name | Value |\n| --- | --- |\n| First | Second |\n"
+        target = "## Quelle\n\n| Nom | Valeur |\n| --- | --- |\n| Premier | Deuxième |\n"
+
+        self.assertEqual(markdown_structure_differences(source, target), {})
+
+    def test_markdown_structure_recognizes_tables_without_outer_pipes(self):
+        source = "Name | Value\n--- | ---\nFirst | Second\n"
+        target = "Nom | Valeur\n--- | ---\nPremier | Deuxième\n"
+
+        self.assertEqual(markdown_structure(source)["table_shapes"], [[2, 2, 2]])
+        self.assertEqual(markdown_structure_differences(source, target), {})
+
+    def test_markdown_structure_preserves_link_targets_and_shortcodes(self):
+        source = "See [the guide](https://example.com/guide).\n\n{{< figure src=\"one.webp\" >}}"
+        translated = "Consultez [le guide](https://example.com/guide).\n\n{{< figure src=\"one.webp\" >}}"
+        altered = "Consultez [le guide](https://example.com/other)."
+
+        self.assertEqual(markdown_structure_differences(source, translated), {})
+        self.assertIn("link_targets", markdown_structure_differences(source, altered))
+        self.assertIn("shortcodes", markdown_structure_differences(source, altered))
+
     def test_parses_inline_and_block_yaml_tag_lists(self):
         header = (
             'tags: ["Online Privacy", "Safe, trusted sites", \'reader\'\'s guide\']\n'
@@ -84,8 +166,44 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(
             copied_english_link_labels(source, target),
-            ["VPN service => https://example.com/vpn"],
+            ["VPN service => VPN service => https://example.com/vpn"],
         )
+
+    def test_flags_english_source_phrase_inside_longer_target_link_label(self):
+        source = "[Cybersecurity framework](https://example.com/framework)"
+        target = "[Consulte el Cybersecurity framework recomendado aquí](https://example.com/framework)"
+
+        self.assertEqual(
+            copied_english_link_labels(source, target),
+            [
+                "Cybersecurity framework => Consulte el Cybersecurity framework recomendado aquí => "
+                "https://example.com/framework"
+            ],
+        )
+
+    def test_flags_copied_source_link_phrase_with_attached_cjk_suffix(self):
+        source = "[Cybersecurity framework](https://example.com/framework)"
+        targets = [
+            "[Cybersecurity frameworkのページ](https://example.com/framework)",
+            "[Cybersecurity framework指南](https://example.com/framework)",
+        ]
+
+        for target in targets:
+            with self.subTest(target=target):
+                self.assertEqual(
+                    copied_english_link_labels(source, target),
+                    [
+                        "Cybersecurity framework => "
+                        f"{target.split('[', 1)[1].split(']', 1)[0]} => "
+                        "https://example.com/framework"
+                    ],
+                )
+
+    def test_does_not_flag_single_word_source_label_inside_longer_target_label(self):
+        source = "[Framework](https://example.com/framework)"
+        target = "[Consulte el framework recomendado](https://example.com/framework)"
+
+        self.assertEqual(copied_english_link_labels(source, target), [])
 
     def test_link_label_copy_requires_the_same_target(self):
         source = "[VPN service](https://example.com/vpn)"

@@ -115,6 +115,10 @@
   names, and technical identifiers from automatic findings. Also compare Markdown link labels by
   their unchanged target and order. Flag identical descriptive labels of two
   or more words for manual review, even when surrounding paragraph prose differs.
+  The checker also flags an unchanged multiword source label embedded inside a
+  longer target label. Inspect these matches in context and translate copied
+  descriptive wording, while retaining official titles, product names, and
+  fixed identifiers when context supports them.
   Review each flag in context, then translate copied reader-facing prose before
   freezing the hash snapshot.
   Compare sentence-sized segments and unchanged source spans of eight or more
@@ -149,6 +153,15 @@
   examples. A localized sample can still contain copied English field labels or
   short instructions that a whole-block comparison misses. Translate those
   lines while preserving paths, commands, placeholders, and structured values.
+  Compare the ordered fence inventory with the English source before approval.
+  Every reader-facing `text` or `plaintext` example must appear exactly once in
+  each locale and retain its field and line coverage. File presence and a clean
+  leakage scan do not prove that an example was translated; omitted examples
+  and shortened sections are completeness failures. Also compare ordered
+  heading levels, table shapes, and ordered/unordered list item counts with the
+  source. Inspect count differences to distinguish an intentional language
+  format change from omitted content, and repair confirmed omissions before
+  peer review.
 - Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
   for each finished bundle. For a repository audit, use
   `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.
@@ -159,6 +172,12 @@
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
+  The checker also queues differences in ordered heading levels, Markdown table
+  row/cell shapes, ordered and unordered list counts per section, link targets
+  and order, shortcode sequences, and fenced-code language inventories. Compare
+  each flagged structure with the source and restore omitted content before
+  review. These shape signals require human inspection and do not establish
+  translation completeness on their own.
 - Scan the full translated prose for style violations. A filter requiring Latin
   letters skips paragraphs written entirely in another script.
 - Check Punjabi, Bengali, and Hindi for stray letters from other Indic scripts.
