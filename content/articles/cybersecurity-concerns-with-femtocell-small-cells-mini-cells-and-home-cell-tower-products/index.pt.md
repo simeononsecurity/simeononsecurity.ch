@@ -1,11 +1,11 @@
 ---
-title: "Proteja-se de ataques a femtocells: dicas e orientações"
+title: "Proteja-se de ataques a femtocélulas: dicas e orientações"
 draft: false
 toc: true
 date: 2023-05-08
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "Saiba como invasores exploram femtocells para interceptar chamadas e mensagens e veja como se proteger desses ataques."
-tags: ["ataques a femtocells", "segurança móvel", "cibersegurança", "redes celulares", "VPN", "clonagem de telefones", "privacidade de dados", "segurança na Internet", "dispositivos móveis", "operadoras celulares", "segurança de rede", "segurança sem fio", "segurança de telefones móveis", "vulnerabilidades", "ataques cibernéticos", "correções de segurança", "criptografia de dados", "cibercrime", "dicas de segurança", "mensagens seguras"]
+tags: ["ataques a femtocélulas", "segurança móvel", "cibersegurança", "redes celulares", "VPN", "clonagem de telefones", "privacidade de dados", "segurança na Internet", "dispositivos móveis", "operadoras celulares", "segurança de rede", "segurança sem fio", "segurança de telefones móveis", "vulnerabilidades", "ataques cibernéticos", "correções de segurança", "criptografia de dados", "cibercrime", "dicas de segurança", "mensagens seguras"]
 cover: "/img/cover/cybersecurity-concerns-with-femtocell-small-cells-mini-cells-and-home-cell-tower-products.webp"
 coverAlt: "Ilustração de uma femtocell com linhas coloridas que representam comunicações móveis e ondas abstratas que simbolizam dados interceptados, sobre um fundo escuro."
 coverCaption: ""
@@ -14,11 +14,11 @@ coverCaption: ""
 
 À medida que dependemos mais de dispositivos móveis, os riscos associados ao uso deles também aumentam. Um desses riscos é o comprometimento da infraestrutura de redes móveis, que permite a invasores interceptar chamadas e mensagens, clonar celulares e acessar recursos da rede da operadora. Este artigo explica como invasores exploram vulnerabilidades em femtocells e o que usuários finais podem fazer para se proteger.
 
-## O que é uma femtocell?
+## O que é uma femtocélula?
 
 Uma femtocell é uma pequena estação rádio-base celular de baixa potência. Ela costuma fornecer cobertura celular em áreas com sinal fraco ou que precisam de capacidade adicional. A femtocell se conecta à rede da operadora pela Internet e usa uma conexão de banda larga para encaminhar chamadas e dados de e para o dispositivo móvel.
 
-## Como invasores exploram femtocells?
+## Como invasores exploram femtocélulas?
 
 {{< youtube id="gfcq8clu1RI" >}}
 

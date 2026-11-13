@@ -1,11 +1,11 @@
 ---
-title: "Protejează-te de atacurile femtocell: sfaturi și recomandări"
+title: "Protejează-te de atacurile femtocelulelor: sfaturi și recomandări"
 draft: false
 toc: true
 date: 2023-05-08
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 description: "Află cum pot atacatorii exploata femtocell-urile pentru a intercepta apeluri și mesaje și cum te poți proteja de astfel de atacuri."
-tags: ["atacuri femtocell", "securitate mobilă", "securitate cibernetică", "rețele celulare", "VPN", "clonarea telefoanelor", "confidențialitatea datelor", "securitatea internetului", "dispozitive mobile", "operatori celulari", "securitatea rețelei", "securitate wireless", "securitatea telefoanelor mobile", "vulnerabilități", "atacuri cibernetice", "patch-uri de securitate", "criptarea datelor", "criminalitate cibernetică", "sfaturi de securitate", "mesagerie securizată"]
+tags: ["atacuri de femtocelule", "securitate mobilă", "securitate cibernetică", "rețele celulare", "VPN", "clonarea telefoanelor", "confidențialitatea datelor", "securitatea internetului", "dispozitive mobile", "operatori celulari", "securitatea rețelei", "securitate wireless", "securitatea telefoanelor mobile", "vulnerabilități", "atacuri cibernetice", "patch-uri de securitate", "criptarea datelor", "criminalitate cibernetică", "sfaturi de securitate", "mesagerie securizată"]
 cover: "/img/cover/cybersecurity-concerns-with-femtocell-small-cells-mini-cells-and-home-cell-tower-products.webp"
 coverAlt: "Ilustrație cu un dispozitiv femtocell înconjurat de linii colorate care reprezintă comunicațiile mobile și de unde abstracte care simbolizează date interceptate, pe un fundal întunecat."
 coverCaption: ""
@@ -14,11 +14,11 @@ coverCaption: ""
 
 Pe măsură ce depindem tot mai mult de dispozitive mobile, cresc și riscurile asociate utilizării lor. Un astfel de risc este compromiterea infrastructurii de rețea mobilă. Aceasta le poate permite atacatorilor să intercepteze apeluri și mesaje, să cloneze telefoane mobile și să acceseze resursele rețelei operatorului celular. Acest articol explică modul în care atacatorii exploatează vulnerabilitățile femtocell-urilor și ce pot face utilizatorii pentru a se proteja.
 
-## Ce este o femtocell?
+## Ce este o femtocelulă?
 
 O femtocell este o stație de bază celulară mică și de putere redusă. De obicei, oferă acoperire celulară în zone cu semnal slab sau unde este nevoie de capacitate suplimentară. Femtocell-ul se conectează la rețeaua operatorului prin internet și folosește o conexiune de bandă largă pentru a direcționa apeluri și date către și de la dispozitivul mobil.
 
-## Cum exploatează atacatorii femtocell-urile?
+## Cum exploatează atacatorii femtocelulele?
 
 {{< youtube id="gfcq8clu1RI" >}}
 
