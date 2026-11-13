@@ -1,6 +1,7 @@
 ---
 title: "Guide du développement de sites web pour les débutants : HTML, CSS et JavaScript"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apprenez les bases du développement de sites Web, notamment HTML, CSS et JavaScript, grâce à ce guide destiné aux débutants."
@@ -16,7 +17,7 @@ Le développement de sites web est un domaine lucratif qui connaît une croissan
 
 Le HTML est la base de tout site web. Il signifie Hypertext Markup Language (langage de balisage hypertexte) et est utilisé pour créer la structure des pages web. Le HTML utilise des balises pour définir les différents éléments d'une page web, tels que les titres, les paragraphes, les images, les liens, etc.
 
-Pour débuter avec le HTML, nous vous recommandons de visiter [w3schools.com](https://www.w3schools.com/html/) which provides a comprehensive guide to HTML. You can also use [CodePen.io](https://codepen.io/) pour s'entraîner à écrire du HTML, du CSS et du JavaScript dans un éditeur en temps réel.
+Pour débuter avec le HTML, nous vous recommandons [w3schools.com](https://www.w3schools.com/html/), qui propose un guide complet sur le HTML. Vous pouvez aussi utiliser [CodePen.io](https://codepen.io/) pour vous entraîner à écrire du HTML, du CSS et du JavaScript dans un éditeur en temps réel.
 
 ### Exemple de base de HTML
 
@@ -37,7 +38,7 @@ Voici un exemple de document HTML simple :
 ## Styliser avec CSS
 Les feuilles de style en cascade (CSS) sont utilisées pour ajouter un style et une mise en page aux pages HTML. Les feuilles de style en cascade peuvent être utilisées pour ajouter des couleurs, des polices, des marges, des bordures, etc. aux éléments HTML. Les feuilles de style en cascade permettent aux développeurs web de créer des sites web visuellement attrayants et réactifs.
 
-Pour en savoir plus sur les feuilles de style CSS, nous vous recommandons de visiter le site suivant [w3schools.com](https://www.w3schools.com/css) which provides a comprehensive guide to CSS. You can also use [CodePen.io](https://codepen.io/) pour s'entraîner à rédiger des feuilles de style CSS et voir les résultats en temps réel.
+Pour en savoir plus sur les feuilles de style CSS, nous vous recommandons [w3schools.com](https://www.w3schools.com/css), qui propose un guide complet sur le CSS. Vous pouvez aussi utiliser [CodePen.io](https://codepen.io/) pour vous entraîner à écrire du CSS et voir les résultats en temps réel.
 
 ### Exemple de base de CSS
 Voici un exemple d'utilisation de CSS pour styliser un document HTML :
@@ -57,7 +58,7 @@ Ce code modifiera la couleur et la taille de la police de tous les éléments h1
 ## Ajouter de l'interactivité avec JavaScript
 JavaScript est un langage de programmation qui peut être utilisé pour ajouter de l'interactivité et des fonctionnalités aux sites web. JavaScript peut être utilisé pour ajouter des animations, créer des pop-ups et valider des formulaires.
 
-Pour en savoir plus sur JavaScript, nous vous recommandons de visiter [w3schools.com](https://www.w3schools.com/js/) which provides a comprehensive guide to JavaScript. You can also use [CodePen.io](https://codepen.io/) pour s'entraîner à écrire du JavaScript et voir les résultats en temps réel.
+Pour en savoir plus sur JavaScript, nous vous recommandons [w3schools.com](https://www.w3schools.com/js/), qui propose un guide complet sur JavaScript. Vous pouvez aussi utiliser [CodePen.io](https://codepen.io/) pour vous entraîner à écrire du JavaScript et voir les résultats en temps réel.
 
 ### Exemple de base de JavaScript
 

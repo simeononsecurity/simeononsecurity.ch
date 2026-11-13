@@ -1,10 +1,11 @@
 ---
 title: "Poradnik dla początkujących Tworzenie stron internetowych: HTML, CSS i JavaScript"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj podstawy tworzenia stron internetowych, w tym HTML, CSS i JavaScript, dzięki temu przyjaznemu dla początkujących przewodnikowi."
-tags: ["rozwój sieci", "HTML", "CSS", "JavaScript", "kodowanie", "samouczek", "nauka", "początkujący", "CodePen", "W3Szkoły", "najlepsze praktyki", "zasoby", "freeCodeCamp", "Dokumenty internetowe MDN", "Codecademy", "Udacity", "współpraca", "debugowanie", "projekty"]
+tags: ["rozwój sieci", "HTML", "CSS", "JavaScript", "kodowanie", "samouczek", "nauka", "początkujący", "CodePen", "W3Schools", "najlepsze praktyki", "zasoby", "freeCodeCamp", "MDN Web Docs", "Codecademy", "Udacity", "współpraca", "debugowanie", "projekty"]
 cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Kreskówkowy deweloper siedzący przy biurku z laptopem, otoczony różnymi elementami HTML, CSS i JavaScript unoszącymi się w powietrzu wokół nich."
 coverCaption: ""
@@ -16,7 +17,7 @@ Tworzenie stron internetowych to szybko rozwijająca się i lukratywna dziedzina
 
 HTML jest podstawą każdej strony internetowej. Jest to skrót od Hypertext Markup Language i służy do tworzenia struktury stron internetowych. HTML używa znaczników do definiowania różnych elementów strony internetowej, takich jak nagłówki, akapity, obrazy, linki i inne.
 
-Aby rozpocząć pracę z językiem HTML, polecamy odwiedzić stronę[w3schools.com](https://www.w3schools.com/html/) which provides a comprehensive guide to HTML. You can also use [CodePen.io](https://codepen.io/) aby ćwiczyć pisanie HTML, CSS i JavaScript w edytorze czasu rzeczywistego.
+Aby rozpocząć naukę HTML, polecamy [w3schools.com](https://www.w3schools.com/html/), gdzie znajdziesz obszerny przewodnik po HTML. Możesz też używać [CodePen.io](https://codepen.io/), aby ćwiczyć pisanie HTML, CSS i JavaScript w edytorze pokazującym wyniki na bieżąco.
 
 ### Podstawowy przykład HTML
 
@@ -37,7 +38,7 @@ Oto przykład prostego dokumentu HTML:
 ## Stylizacja za pomocą CSS
 CSS (Cascading Style Sheets) jest używany do dodawania stylu i układu do stron HTML. CSS może być użyty do dodania kolorów, czcionek, marginesów, obramowań i innych elementów HTML. CSS pozwala twórcom stron internetowych na tworzenie wizualnie atrakcyjnych i responsywnych stron.
 
-Aby dowiedzieć się więcej o CSS, polecamy odwiedzić stronę[w3schools.com](https://www.w3schools.com/css) which provides a comprehensive guide to CSS. You can also use [CodePen.io](https://codepen.io/) aby ćwiczyć pisanie CSS i widzieć rezultaty w czasie rzeczywistym.
+Aby dowiedzieć się więcej o CSS, polecamy [w3schools.com](https://www.w3schools.com/css), gdzie znajdziesz obszerny przewodnik po CSS. Możesz też używać [CodePen.io](https://codepen.io/), aby ćwiczyć pisanie CSS i od razu oglądać wyniki.
 
 ### Podstawowy przykład CSS
 Oto przykład jak użyć CSS do stylizacji dokumentu HTML:
@@ -57,7 +58,7 @@ Ten kod zmieni kolor i rozmiar czcionki wszystkich elementów h1 i p na stronie.
 ## Dodawanie interaktywności za pomocą JavaScript
 JavaScript jest językiem programowania, który może być używany do dodawania interaktywności i funkcjonalności do stron internetowych. JavaScript może być używany do dodawania animacji, tworzenia wyskakujących okienek i sprawdzania poprawności formularzy.
 
-Aby dowiedzieć się więcej o JavaScript, polecamy odwiedzić[w3schools.com](https://www.w3schools.com/js/) which provides a comprehensive guide to JavaScript. You can also use [CodePen.io](https://codepen.io/) aby poćwiczyć pisanie w języku JavaScript i zobaczyć wyniki w czasie rzeczywistym.
+Aby dowiedzieć się więcej o JavaScript, polecamy [w3schools.com](https://www.w3schools.com/js/), gdzie znajdziesz obszerny przewodnik po JavaScript. Możesz też używać [CodePen.io](https://codepen.io/), aby ćwiczyć pisanie JavaScript i od razu oglądać wyniki.
 
 ### Podstawowy przykład JavaScript
 
@@ -69,7 +70,7 @@ Oto przykład, jak użyć JavaScript (wewnątrz html) do stworzenia alertu:
 
 Ten kod utworzy przycisk, który po kliknięciu wyświetli alert z komunikatem "Witaj, świecie!".
 
-## Best Practices for Learning
+## Dobre praktyki w nauce
 
 Aby stać się biegłym w tworzeniu stron internetowych, ważne jest, aby przestrzegać najlepszych praktyk, które pomogą Ci uczyć się i rozwijać jako programista. Oto kilka wskazówek, jak efektywnie uczyć się tworzenia stron internetowych:
 
@@ -91,10 +92,10 @@ Stosując się do tych najlepszych praktyk, będziesz w stanie nauczyć się two
 
 Oto kilka dodatkowych zasobów, które możesz wykorzystać, aby dowiedzieć się więcej o tworzeniu stron internetowych:
 
--[freeCodeCamp](https://www.freecodecamp.org/) - Darmowy bootcamp online, który uczy tworzenia stron internetowych i innych umiejętności programowania.
--[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web) - Wszechstronny zasób dla twórców stron internetowych, prowadzony przez Mozillę.
--[Codecademy](https://www.codecademy.com/) - Platforma oferująca interaktywne kursy kodowania w różnych językach programowania.
--[Udacity](https://www.udacity.com/) - Internetowa platforma edukacyjna, która oferuje kursy i nanostopy z zakresu tworzenia stron internetowych.
+- [freeCodeCamp](https://www.freecodecamp.org/) - Darmowy bootcamp online, który uczy tworzenia stron internetowych i innych umiejętności programowania.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web) - Wszechstronny zasób dla twórców stron internetowych, prowadzony przez Mozillę.
+- [Codecademy](https://www.codecademy.com/) - Platforma oferująca interaktywne kursy kodowania w różnych językach programowania.
+- [Udacity](https://www.udacity.com/) - Internetowa platforma edukacyjna, która oferuje kursy i nanostopy z zakresu tworzenia stron internetowych.
 
 ## Wnioski.
 
