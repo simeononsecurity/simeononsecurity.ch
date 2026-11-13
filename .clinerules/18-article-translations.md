@@ -61,6 +61,13 @@
 - Require all translation segments to return. Reject truncation, missing keys,
   missing headings, and altered table structure. Never substitute English text
   for a failed translation.
+- Never copy or rename `index.en.md` into a locale filename as a placeholder,
+  and never keep a partially translated file when a translation call fails.
+  Write generated translations to a temporary path first. Before moving one into
+  the content bundle, verify that its title, opening, and every reader-facing
+  section contain target-language prose. If any segment is missing or still
+  source English, leave that locale marked incomplete in the work report and
+  do not create or approve its locale file.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
 - When a script splits a Markdown file on `---`, validate the split parts before
@@ -246,9 +253,10 @@
   comments, help text, and natural-language sample strings; retain fixed runtime
   output, identifiers, and literal data only with a recorded reason. A clean
   article-prose scan does not approve a locale while copied reader-facing code
-  prose remains. In YAML and Ansible examples, also inspect list-item `name:`
-  labels and `msg:` values because they are reader-facing even though they are
-  structured fields rather than comments.
+  prose remains. In YAML examples, inspect top-level, mapping-level, and
+  list-item `name:` labels, plus `msg:` values. These fields can be reader-facing
+  even though they are structured values rather than comments. Preserve technical
+  package names and identifiers when the field carries literal data.
   The checker also flags unchanged prose in executable-fence comments or
   natural-language command strings, and Markdown emphasis that splits a word.
   Preserve command syntax and classify fixed output separately.

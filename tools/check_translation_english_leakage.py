@@ -345,7 +345,7 @@ def reader_fenced_code_prose(text: str) -> set[str]:
             yaml_index = 0
             while yaml_index < len(yaml_lines):
                 line = yaml_lines[yaml_index]
-                key = re.match(r"^(\s*)(?:-\s*name|msg)\s*:\s*(.*?)\s*$", line)
+                key = re.match(r"^(\s*)(?:-\s*)?(?:name|msg)\s*:\s*(.*?)\s*$", line)
                 yaml_index += 1
                 if not key:
                     continue

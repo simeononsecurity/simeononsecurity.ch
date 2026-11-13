@@ -482,6 +482,7 @@ class FencedProseTests(unittest.TestCase):
                 "configure web servers",
                 "install nginx",
                 "report status",
+                "nginx",
                 "restart the service now",
             },
         )
@@ -504,6 +505,23 @@ class FencedProseTests(unittest.TestCase):
                 "restart the service now and verify the health check before continuing",
                 "verify backups",
                 "verify the backup before deployment",
+            },
+        )
+
+    def test_screens_top_level_and_mapping_yaml_name_labels(self):
+        sample = (
+            "```yaml\nname: Build and test the application\n"
+            "jobs:\n  build:\n    name: Compile and package the release\n"
+            "  deploy:\n    name: |\n      Publish the verified release\n"
+            "      after approval\n```"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(sample),
+            {
+                "build and test the application",
+                "compile and package the release",
+                "publish the verified release after approval",
             },
         )
 
