@@ -1,7 +1,7 @@
 ---
 title: "ローカルAIのプライバシー境界: コンピューターに残るものと残らないもの"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ローカル推論かホスト型AIサービスかを選ぶ前に、プロンプト、モデルファイル、ツール、ログ、ネットワーク公開範囲、電力コストを確認します。"
@@ -68,7 +68,7 @@ lsof -nP -iTCP -sTCP:LISTEN | rg 'ollama|llama|8080|11434'
 
 選択したモデル名も確認します。Ollamaのクラウド文書はクラウドモデルを別のサービス経路として説明しています。ローカルのインターフェースは、ローカル実行の証明になりません。
 
-[OllamaのFAQ](https://docs.ollama.com/faq)にはローカル専用モードが記載されています。`~/.ollama/server.json`に`disable_ollama_cloud`を設定するか、サービスを再起動する前に`OLLAMA_NO_CLOUD=1`を設定します。これにより、選択したランタイムからOllamaのクラウドモデルとウェブ検索が除かれます。ホスト上の他のアプリ、ブラウザツール、プラグイン、ネットワークアクセスは制限しません。
+[OllamaのFAQ](https://docs.ollama.com/faq)にはローカル専用モードが記載されています。サービスを再起動する前に`disable_ollama_cloud`を`~/.ollama/server.json`に設定するか、`OLLAMA_NO_CLOUD=1`を設定します。これにより、選択したランタイムからOllamaのクラウドモデルとウェブ検索が除かれます。ホスト上の他のアプリ、ブラウザツール、プラグイン、ネットワークアクセスは制限しません。
 
 ```json
 {
@@ -77,6 +77,15 @@ lsof -nP -iTCP -sTCP:LISTEN | rg 'ollama|llama|8080|11434'
 ```
 
 再起動後に設定を確認します。ローカル専用ランタイムは1つの経路を狭めます。プライベートなホストを確立するものではありません。
+
+
+## Ollamaの音声生成とネットワーク境界
+
+*Ollamaの[v0.40.11リリース](https://github.com/ollama/ollama/releases/tag/v0.40.11)はmacOSでの音声生成を発表しています。[APIリファレンス](https://docs.ollama.com/api/openai-compatibility)では`/v1/audio/speech`はv0.40.8の機能とされているため、v0.40.11がこのエンドポイントの文書上の初出ではありません。* これは音声認識ではなく**テキスト読み上げ**です。リクエストでPhononなどの音声モデルにテキストを送り、ストリーミング音声を受け取ります。[音声ガイド](https://docs.ollama.com/capabilities/speech)には、`ollama run phonon`で音声をローカル再生する例と、出力をリダイレクトしてWAVファイルに書き込む例もあります。
+
+**ローカル音声経路**には、ダウンロード済みのローカルモデルとローカルサーバーが必要です。Ollamaの[FAQ](https://docs.ollama.com/faq)によると、サーバーは既定で`127.0.0.1:11434`にバインドし、**`OLLAMA_HOST`**でバインド先を変更できます。既定値が維持されていると思い込まず、上記の`lsof`コマンドで稼働中のリスナーを確認してください。Ollamaの[API入門](https://docs.ollama.com/api/introduction)によると、ローカルリクエストにAPIキーは不要です。プライベートなテキストを送る前に、より広いバインドをファイアウォールとアクセス制御で制限してください。
+
+**ループバックへのバインドだけでは境界全体を守れません。** OllamaはHTTPサーバーをリバースプロキシまたはトンネル経由で転送する方法を説明しています。Ollama自体がループバックで待ち受けていても、各プロキシのリスナー、認証、リクエスト記録を確認してください。送信したテキストと返された音声はプロキシ接続を通ります。Ollamaの[トラブルシューティングガイド](https://docs.ollama.com/troubleshooting)はサーバーログを示していますが、音声の保持について音声ドキュメントは保証していません。クライアントがWAV出力を保存する場所と、プロキシやアプリのログが残る場所を確認してください。OllamaのFAQは、ローカル実行ではOllamaがプロンプトやデータを見ないと説明しています。モデルのダウンロードにはネットワークが必要で、クラウドモデルは別の経路を使います。Ollamaのローカルモデルだけを使う場合、前述の`OLLAMA_NO_CLOUD=1`設定でOllamaのクラウド機能を無効にできます。他のアプリは制御しません。
 
 ## ホスト型コストを数える
 
@@ -97,7 +106,7 @@ GPUの電力値はシステム全体の電力ではありません。PCには電
 生成出力には次の式を使います。
 
 ```text
-local cost per 1M output tokens =
+1M出力トークンあたりのローカルコスト =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -124,8 +133,8 @@ local cost per 1M output tokens =
 毎秒50出力トークンでは、
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 ホスト型出力料金 - $0.40 ローカル電力コスト = 1M出力トークンあたり$0.10の節約
+$549 GPU価格 / $0.10 = 約55億個の出力トークン
 ```
 
 毎秒94出力トークンでは、丸めた節約額は100万トークンあたり約0.28ドルに増えます。549ドルのGPUを回収するには約20億の出力トークンが必要です。どちらの数字もシステムメモリ、ストレージ、マザーボード、電源、冷却、保守、再販価値を含みません。
@@ -191,4 +200,10 @@ $549 GPU price / $0.10 = about 5.5 billion output tokens
 - [Anthropic Claudeプラットフォーム価格](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI、トークンの理解とカウント](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Ollamaプライバシーポリシー](https://ollama.com/privacy)
+- [Ollama v0.40.11リリースノート](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Ollama音声ガイド](https://docs.ollama.com/capabilities/speech)
+- [Ollama OpenAI互換APIリファレンス](https://docs.ollama.com/api/openai-compatibility)
+- [Ollama API入門](https://docs.ollama.com/api/introduction)
+- [Ollama FAQ：サーバー設定、クラウド設定、リバースプロキシ](https://docs.ollama.com/faq)
+- [Ollamaトラブルシューティングとサーバーログ](https://docs.ollama.com/troubleshooting)
 - [llama.cppサーバー文書](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

@@ -1,12 +1,12 @@
 ---
 title: "Datenschutz bei lokaler KI: Was auf Ihrem Computer bleibt und was nicht"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Verfolgen Sie Prompts, Modelldateien, Tools, Protokolle, Netzwerkzugriff und Stromkosten, bevor Sie lokale Inferenz oder einen gehosteten KI-Dienst wählen."
-genre: ["Lokale KI", "Datenschutz", "Self-Hosted-KI", "Cybersicherheit", "KI-Ökonomie"]
-tags: ["local AI privacy", "local inference", "cloud AI", "AI data privacy", "self-hosted AI", "LLM privacy", "GPU ownership cost", "AI electricity cost", "RTX 5070", "Claude Haiku 5.5", "Ollama privacy", "llama.cpp", "AI security", "offline AI", "local language models", "prompt privacy", "AI threat model", "GPU break-even", "AI data boundary", "private AI"]
+genre: ["Lokale KI", "Datenschutz", "selbstgehostete KI", "Cybersicherheit", "KI-Ökonomie"]
+tags: ["Datenschutz bei lokaler KI", "lokale Inferenz", "Cloud-KI", "Datenschutz für KI-Daten", "selbstgehostete KI", "LLM-Datenschutz", "Gesamtkosten einer GPU", "Stromkosten für KI", "RTX 5070", "Claude Haiku 5.5", "Ollama-Datenschutz", "llama.cpp", "KI-Sicherheit", "Offline-KI", "lokale Sprachmodelle", "Prompt-Datenschutz", "KI-Bedrohungsmodell", "GPU-Kostendeckungspunkt", "KI-Datengrenze", "private KI"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Eine lokale KI-Workstation mit sichtbaren Datenpfaden zu einem Cloud-Dienst"
 coverCaption: "Darstellung lokaler und gehosteter KI-Datenpfade"
@@ -74,6 +74,15 @@ Ollamas [FAQ](https://docs.ollama.com/faq) dokumentiert einen lokalen Modus. Set
 
 Prüfen Sie die Einstellung nach dem Neustart. Eine lokale Laufzeit verengt einen Pfad. Sie macht den Host nicht privat.
 
+
+## Ollama-Sprachausgabe und Netzwerkgrenze
+
+*Ollamas [Version v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11) kündigt Spracherzeugung unter macOS an. Die [API-Referenz](https://docs.ollama.com/api/openai-compatibility) datiert `/v1/audio/speech` auf v0.40.8. v0.40.11 ist daher nicht die erste dokumentierte Version des Endpunkts.* Das ist **Text-zu-Sprache**, nicht Sprache-zu-Text: Eine Anfrage sendet Text an ein Sprachmodell wie Phonon und erhält gestreamtes Audio. Der [Sprachleitfaden](https://docs.ollama.com/capabilities/speech) zeigt außerdem, wie `ollama run phonon` Audio lokal wiedergibt oder bei umgeleiteter Ausgabe eine WAV-Datei schreibt.
+
+Der **lokale Sprachpfad** benötigt ein heruntergeladenes lokales Modell und einen lokalen Server. Ollamas [FAQ](https://docs.ollama.com/faq) zufolge bindet der Server standardmäßig an `127.0.0.1:11434`, und **`OLLAMA_HOST`** ändert die Bind-Adresse. Prüfen Sie den aktiven Listener mit dem obigen `lsof`-Befehl, statt den Standardwert vorauszusetzen. Die [Ollama-API-Einführung](https://docs.ollama.com/api/introduction) sagt, lokale Anfragen benötigen keinen API-Schlüssel. Sichern Sie jede breitere Bind-Adresse mit Firewall und Zugriffskontrollen, bevor Sie private Texte senden.
+
+**Eine Loopback-Bindung ist nicht die gesamte Grenze.** Ollama dokumentiert die Weiterleitung seines HTTP-Servers über einen Reverse-Proxy oder Tunnel. Prüfen Sie Listener, Authentifizierung und Anfrageprotokollierung jedes Proxys, auch wenn Ollama selbst weiterhin nur an Loopback gebunden ist. Der gesendete Text und das zurückgegebene Audio durchlaufen dann die Proxy-Verbindung. Der [Ollama-Fehlerbehebungsleitfaden](https://docs.ollama.com/troubleshooting) nennt Serverprotokolle, aber die Sprachdokumentation verspricht keine Audioaufbewahrung. Prüfen Sie, wo Clients WAV-Ausgaben speichern und wo Proxy- oder Anwendungsprotokolle bestehen bleiben. Laut Ollamas FAQ sieht Ollama bei lokalen Läufen keine Prompts oder Daten. Modelldownloads benötigen Netzwerkzugriff, Cloud-Modelle folgen einem anderen Pfad. Bei einer reinen lokalen Ollama-Modellkonfiguration deaktiviert `OLLAMA_NO_CLOUD=1` aus dem vorherigen Abschnitt Ollamas Cloud-Funktionen. Andere Anwendungen werden dadurch nicht gesteuert.
+
 ## Berechnen Sie gehostete Kosten
 
 Tokenpreise trennen Eingabe und Ausgabe. [Anthropic nennt für Claude Haiku 5.5 $0.10 pro Million Eingabetoken und $0.50 pro Million Ausgabetoken bis 100.000 Token](https://www.anthropic.com/claude/haiku). Darüber gelten die höheren angegebenen Preise.
@@ -91,7 +100,7 @@ Die GPU-Leistung ist nicht die Gesamtleistung des Systems. Nutzen Sie ein Wattme
 Die [Prognose der U.S. Energy Information Administration](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) verwendete für 2026 einen durchschnittlichen Haushaltsstrompreis von 18,2 Cent pro Kilowattstunde. Ihr Tarif verändert das Ergebnis.
 
 ```text
-local cost per 1M output tokens =
+lokale Kosten pro 1M Ausgabetoken =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -111,13 +120,13 @@ Die Eingaberechnung nutzt dieselbe Formel. Bei 2.650 Eingabetoken pro Sekunde da
 
 Das bereitgestellte Transkript nennt für das RTX-5070-Beispiel 94 Ausgabe- und 2.650 Eingabetoken pro Sekunde. Die Rechnung stimmt unter der 400-W-Annahme damit überein. Es fehlen unabhängiges Laborprotokoll, Modelldatei-Hash, Laufzeit-Build, Prompt und Wattmeterwert. Behandeln Sie diese Geschwindigkeiten als Referenz, nicht als Kaufgarantie.
 
-## Hardwareänderungen und Break-even
+## Hardwareänderungen und Kostendeckungspunkt
 
 Stromeinsparungen zahlen Hardware nicht allein zurück. Vergleichen Sie den vollständigen Kauf mit der Differenz aus gehosteten Ausgabekosten und lokalen variablen Kosten.
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 gehosteter Ausgabepreis - $0.40 lokale Stromkosten = $0.10 Ersparnis pro 1M Ausgabetoken
+$549 GPU-Preis / $0.10 = etwa 5,5 Milliarden Ausgabetoken
 ```
 
 Bei 94 Ausgabetoken pro Sekunde steigt die gerundete Ersparnis auf etwa $0.28 pro Million. Für eine $549-GPU brauchen Sie etwa 2 Milliarden Ausgabetoken. Beide Zahlen schließen Speicher, Speicherlaufwerke, Mainboard, Netzteil, Kühlung, Wartung und Wiederverkaufswert aus.
@@ -156,7 +165,7 @@ Der [Strata-Leitfaden für lokale Coding-Agents](/articles/strata-opencode-local
 | **Gelegentliche allgemeine Entwürfe** | Gehostete API oder Chatdienst | Kleinen Workload bezahlen und Wartung vermeiden |
 | **Spitzenmodell oder spezielles Cloudtool** | Gehosteter Dienst | Modell oder Tool ist lokal nicht verfügbar |
 | **Großes wiederkehrendes Volumen mit geprüftem lokalen Modell** | Lokal oder hybrid | Strom, Qualität, Supportzeit und Anbieterpreis vergleichen |
-| **Gemischte Workloads** | Hybrides Routing | Sensible Aufgaben lokal halten und genehmigte allgemeine Aufgaben hosten |
+| **Gemischte Workloads** | Hybrides Routing | Sensible Aufgaben lokal halten und genehmigte allgemeine Aufgaben an ein gehostetes Modell weiterleiten |
 
 **Hybrides Routing braucht eine ausdrückliche Klassifizierungsregel.** Markieren Sie Daten als nur lokal, für gehostete Verarbeitung genehmigt oder bis zur Prüfung verboten. Erzwingen Sie die Regel nicht über Modellnamen oder App-Symbole.
 
@@ -182,5 +191,11 @@ Der [Leitfaden lokale KI gegen ChatGPT](/articles/local-ai-vs-chatgpt-how-close-
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
 - [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
-- [Ollama privacy policy](https://ollama.com/privacy)
-- [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
+- [Ollamas Datenschutzrichtlinie](https://ollama.com/privacy)
+- [Ollama-Versionshinweise v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Ollama-Sprachleitfaden](https://docs.ollama.com/capabilities/speech)
+- [Ollama-API-Referenz zur OpenAI-Kompatibilität](https://docs.ollama.com/api/openai-compatibility)
+- [Ollama-API-Einführung](https://docs.ollama.com/api/introduction)
+- [Ollama-FAQ: Serverkonfiguration, Cloud-Einstellungen und Reverse-Proxys](https://docs.ollama.com/faq)
+- [Ollama-Fehlerbehebung und Serverprotokolle](https://docs.ollama.com/troubleshooting)
+- [Serverdokumentation für llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

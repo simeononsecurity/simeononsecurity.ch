@@ -1,7 +1,7 @@
 ---
 title: "लोकल AI की गोपनीयता: आपके कंप्यूटर पर क्या रहता है और क्या नहीं"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "लोकल इन्फरेंस या होस्टेड AI सेवा चुनने से पहले प्रॉम्प्ट, मॉडल फाइल, टूल, लॉग, नेटवर्क एक्सपोज़र और बिजली की लागत का पता लगाएं।"
@@ -68,7 +68,7 @@ lsof -nP -iTCP -sTCP:LISTEN | rg 'ollama|llama|8080|11434'
 
 चुने गए मॉडल का नाम भी जांचें। Ollama का क्लाउड दस्तावेज क्लाउड मॉडल को अलग सेवा पथ बताता है। लोकल इंटरफेस लोकल निष्पादन साबित नहीं करता।
 
-Ollama का [FAQ](https://docs.ollama.com/faq) लोकल-ओनली मोड बताता है। `~/.ollama/server.json` में `disable_ollama_cloud` सेट करें, या सेवा रीस्टार्ट करने से पहले `OLLAMA_NO_CLOUD=1` सेट करें। इससे चुने गए रनटाइम से Ollama क्लाउड मॉडल और वेब सर्च हटते हैं। इससे होस्ट पर दूसरे ऐप, ब्राउज़र टूल, प्लगइन या नेटवर्क एक्सेस सीमित नहीं होते।
+Ollama का [FAQ](https://docs.ollama.com/faq) लोकल-ओनली मोड बताता है। सेवा रीस्टार्ट करने से पहले `disable_ollama_cloud` को `~/.ollama/server.json` में सेट करें, या `OLLAMA_NO_CLOUD=1` सेट करें। इससे चुने गए रनटाइम से Ollama क्लाउड मॉडल और वेब सर्च हटते हैं। इससे होस्ट पर दूसरे ऐप, ब्राउज़र टूल, प्लगइन या नेटवर्क एक्सेस सीमित नहीं होते।
 
 ```json
 {
@@ -77,6 +77,15 @@ Ollama का [FAQ](https://docs.ollama.com/faq) लोकल-ओनली म�
 ```
 
 रीस्टार्ट के बाद सेटिंग जांचें। लोकल-ओनली रनटाइम एक पथ को छोटा करता है। यह निजी होस्ट स्थापित नहीं करता।
+
+
+## Ollama की वाक्-सुविधा और नेटवर्क सीमा
+
+*Ollama की [v0.40.11 रिलीज़](https://github.com/ollama/ollama/releases/tag/v0.40.11) macOS पर speech generation की घोषणा करती है। इसकी [API संदर्भ](https://docs.ollama.com/api/openai-compatibility) `/v1/audio/speech` को v0.40.8 से जोड़ती है, इसलिए v0.40.11 इस endpoint का दस्तावेज़ित पहला संस्करण नहीं है।* यह **पाठ से वाक्** है, वाक् से पाठ नहीं: request Phonon जैसे speech model को text भेजती है और streamed audio पाती है। [वाक् मार्गदर्शिका](https://docs.ollama.com/capabilities/speech) में `ollama run phonon` से audio स्थानीय रूप से चलाने या output redirect होने पर WAV file लिखने का उदाहरण भी है।
+
+**स्थानीय वाक् पथ** के लिए डाउनलोड किया हुआ local model और local server चाहिए। Ollama की [FAQ](https://docs.ollama.com/faq) कहती है कि server डिफ़ॉल्ट रूप से `127.0.0.1:11434` पर bind होता है और **`OLLAMA_HOST`** bind address बदलता है। पहले वाले `lsof` command से active listener जांचें, यह मानकर न चलें कि default अभी भी लागू है। Ollama का [API परिचय](https://docs.ollama.com/api/introduction) बताता है कि local requests को API key नहीं चाहिए। निजी text भेजने से पहले किसी भी व्यापक bind को firewall और access controls से सीमित करें।
+
+**Loopback bind पूरी सीमा नहीं है।** Ollama अपने HTTP server को reverse proxy या tunnel से forward करने का तरीका बताता है। हर proxy का listener, authentication और request logging जांचें, भले Ollama स्वयं loopback पर ही सुन रहा हो। भेजा गया text और लौटा audio proxy connection से गुजरता है। Ollama की [समस्या-समाधान मार्गदर्शिका](https://docs.ollama.com/troubleshooting) server logs की पहचान करती है, लेकिन speech documentation audio retention का वादा नहीं करती। देखें कि clients WAV output कहां सहेजते हैं और proxy या application logs कहां बने रहते हैं। Ollama की FAQ कहती है कि local runs में Ollama prompts या data नहीं देखता। Model downloads को network चाहिए और cloud models अलग रास्ता अपनाते हैं। केवल Ollama local model setup के लिए ऊपर बताई `OLLAMA_NO_CLOUD=1` setting Ollama cloud features बंद करती है। यह दूसरी applications को नियंत्रित नहीं करती।
 
 ## होस्टेड लागत गिनें
 
@@ -97,7 +106,7 @@ GPU पावर पूरी सिस्टम पावर नहीं ह�
 जनरेटेड आउटपुट के लिए यह सूत्र इस्तेमाल करें:
 
 ```text
-local cost per 1M output tokens =
+प्रति 1M आउटपुट टोकन की स्थानीय लागत =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -117,15 +126,15 @@ local cost per 1M output tokens =
 
 दिए गए ट्रांसक्रिप्ट में RTX 5070 उदाहरण के लिए 94 आउटपुट टोकन प्रति सेकंड और 2,650 इनपुट टोकन प्रति सेकंड बताया गया है। 400 W धारणा के तहत ऊपर की गणना इन आंकड़ों से मिलती है। ट्रांसक्रिप्ट में स्वतंत्र लैब रिकॉर्ड, मॉडल फाइल हैश, रनटाइम बिल्ड, प्रॉम्प्ट या वॉल मीटर रीडिंग नहीं है। इन गतियों को संदर्भ परिणाम मानें, खरीद गारंटी नहीं।
 
-## हार्डवेयर ब्रेक-ईवन बदलता है
+## हार्डवेयर लागत-समता बिंदु बदलता है
 
 बिजली की बचत अकेले हार्डवेयर का भुगतान नहीं करती। पूरी खरीद की तुलना होस्टेड आउटपुट लागत और लोकल परिवर्तनीय लागत के अंतर से करें।
 
 50 आउटपुट टोकन प्रति सेकंड पर:
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 होस्टेड आउटपुट कीमत - $0.40 स्थानीय बिजली लागत = प्रति 1M आउटपुट टोकन $0.10 की बचत
+$549 GPU कीमत / $0.10 = लगभग 5.5 अरब आउटपुट टोकन
 ```
 
 94 आउटपुट टोकन प्रति सेकंड पर गोल की गई बचत प्रति दस लाख टोकन लगभग $0.28 हो जाती है। $549 GPU की लागत वापस पाने के लिए लगभग 2 अरब आउटपुट टोकन चाहिए। दोनों आंकड़ों में सिस्टम मेमोरी, स्टोरेज, मदरबोर्ड, पावर सप्लाई, कूलिंग, रखरखाव और पुनर्विक्रय मूल्य शामिल नहीं हैं।
@@ -191,4 +200,10 @@ $549 GPU price / $0.10 = about 5.5 billion output tokens
 - [Anthropic Claude प्लेटफॉर्म कीमत](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, टोकन समझना और गिनना](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Ollama गोपनीयता नीति](https://ollama.com/privacy)
+- [Ollama v0.40.11 रिलीज़ नोट्स](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Ollama वाक् मार्गदर्शिका](https://docs.ollama.com/capabilities/speech)
+- [Ollama OpenAI-संगतता API संदर्भ](https://docs.ollama.com/api/openai-compatibility)
+- [Ollama API परिचय](https://docs.ollama.com/api/introduction)
+- [Ollama FAQ: server configuration, cloud settings और reverse proxies](https://docs.ollama.com/faq)
+- [Ollama समस्या-समाधान और server logs](https://docs.ollama.com/troubleshooting)
 - [llama.cpp सर्वर दस्तावेज](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

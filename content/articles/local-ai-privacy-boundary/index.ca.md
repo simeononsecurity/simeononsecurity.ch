@@ -1,12 +1,12 @@
 ---
 title: "Privadesa de la IA local: què queda al vostre ordinador i què no"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Seguiu els prompts, fitxers de model, eines, registres, exposició de xarxa i costos d'energia abans d'escollir inferència local o un servei d'IA allotjat."
 genre: ["IA local", "Privadesa", "IA autogestionada", "Ciberseguretat", "Economia de la IA"]
-tags: ["local AI privacy", "local inference", "cloud AI", "AI data privacy", "self-hosted AI", "LLM privacy", "GPU ownership cost", "AI electricity cost", "RTX 5070", "Claude Haiku 5.5", "Ollama privacy", "llama.cpp", "AI security", "offline AI", "local language models", "prompt privacy", "AI threat model", "GPU break-even", "AI data boundary", "private AI"]
+tags: ["privadesa de la IA local", "inferència local", "IA al núvol", "privadesa de les dades de la IA", "IA autoallotjada", "privadesa dels LLM", "cost de propietat de la GPU", "cost elèctric de la IA", "RTX 5070", "Claude Haiku 5.5", "privadesa d'Ollama", "llama.cpp", "seguretat de la IA", "IA sense connexió", "models lingüístics locals", "privadesa dels prompts", "model d'amenaces de la IA", "punt d'equilibri de la GPU", "límit de dades de la IA", "IA privada"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Una estació de treball d'IA local connectada a un servei al núvol per rutes de dades visibles"
 coverCaption: "Il·lustració de les rutes de dades d'IA local i allotjada"
@@ -74,6 +74,15 @@ Les [preguntes freqüents d'Ollama](https://docs.ollama.com/faq) documenten un m
 
 Verifiqueu la configuració després de reiniciar. Un runtime només local redueix una ruta. No crea un host privat.
 
+
+## Veu d'Ollama i límit de xarxa
+
+*[La versió v0.40.11 d'Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11) anuncia la generació de veu a macOS. La seva [referència de l'API](https://docs.ollama.com/api/openai-compatibility) situa `/v1/audio/speech` a la v0.40.8, de manera que la v0.40.11 no és la primera versió documentada de l'endpoint.* Això és **text a veu**, no veu a text: la petició envia text a un model de veu com Phonon i rep àudio en flux. La [guia de veu](https://docs.ollama.com/capabilities/speech) també mostra `ollama run phonon` reproduint àudio localment o escrivint un fitxer WAV quan es redirigeix la sortida.
+
+El **camí de veu local** requereix un model local descarregat i un servidor local. Les [preguntes freqüents d'Ollama](https://docs.ollama.com/faq) indiquen que, per defecte, el servidor escolta a `127.0.0.1:11434` i que **`OLLAMA_HOST`** canvia l'adreça d'escolta. Comproveu l'escolta activa amb l'ordre `lsof` anterior en lloc de donar per fet que el valor per defecte continua vigent. La [introducció a l'API d'Ollama](https://docs.ollama.com/api/introduction) diu que les peticions locals no necessiten clau d'API. Limiteu qualsevol escolta més àmplia amb un tallafoc i controls d'accés abans d'enviar-hi text privat.
+
+**Una vinculació a loopback no és tot el límit.** Ollama documenta el reenviament del seu servidor HTTP mitjançant un proxy invers o un túnel. Comproveu l'escolta, l'autenticació i els registres de peticions de cada proxy, encara que Ollama continuï escoltant només a loopback. El text que envieu i l'àudio rebut travessen la connexió del proxy. La [guia de resolució de problemes d'Ollama](https://docs.ollama.com/troubleshooting) identifica els registres del servidor, però la documentació de veu no promet cap política de retenció d'àudio. Comproveu on els clients desen la sortida WAV i on persisteixen els registres del proxy o de l'aplicació. Les preguntes freqüents d'Ollama diuen que no veu les peticions ni les dades de les execucions locals. Les descàrregues de models necessiten xarxa i els models al núvol segueixen una ruta diferent. En una configuració només amb models locals d'Ollama, `OLLAMA_NO_CLOUD=1`, descrit més amunt, desactiva les funcions al núvol d'Ollama. No controla les altres aplicacions.
+
 ## Calculeu el cost allotjat
 
 Els preus dels tokens separen entrada i sortida. [Anthropic llista Claude Haiku 5.5 a $0.10 per milió de tokens d'entrada i $0.50 per milió de sortida fins a 100.000 tokens](https://www.anthropic.com/claude/haiku). Els prompts més grans usen les tarifes superiors indicades.
@@ -91,7 +100,7 @@ La xifra de potència de la GPU no és la potència de tot el sistema. Useu un m
 [La previsió de la U.S. Energy Information Administration](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) va usar 18,2 cèntims per kWh com a preu residencial mitjà de l'electricitat el 2026. La vostra tarifa canvia el resultat.
 
 ```text
-local cost per 1M output tokens =
+cost local per 1M tokens de sortida =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -116,8 +125,8 @@ La transcripció proporcionada informa de 94 tokens de sortida per segon i 2.650
 L'estalvi d'energia no paga el maquinari per si sol. Compareu la compra completa amb la diferència entre cost de sortida allotjat i cost variable local.
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 preu de sortida allotjada - $0.40 cost de l’electricitat local = $0.10 estalviats per 1M tokens de sortida
+$549 preu de la GPU / $0.10 = uns 5.5 mil milions de tokens de sortida
 ```
 
 A 94 tokens de sortida per segon, l'estalvi arrodonit puja a uns $0.28 per milió. Recuperar una GPU de $549 requereix uns 2.000 milions de tokens. Ambdues xifres exclouen memòria, emmagatzematge, placa, font, refrigeració, manteniment i revenda.
@@ -182,5 +191,11 @@ La [guia d'IA local contra ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
 - [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
-- [Ollama privacy policy](https://ollama.com/privacy)
-- [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
+- [Política de privadesa d'Ollama](https://ollama.com/privacy)
+- [Notes de la versió v0.40.11 d’Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Guia de veu d’Ollama](https://docs.ollama.com/capabilities/speech)
+- [Referència de l’API compatible amb OpenAI d’Ollama](https://docs.ollama.com/api/openai-compatibility)
+- [Introducció a l’API d’Ollama](https://docs.ollama.com/api/introduction)
+- [FAQ d’Ollama: configuració del servidor, núvol i proxies inversos](https://docs.ollama.com/faq)
+- [Resolució de problemes d’Ollama i registres del servidor](https://docs.ollama.com/troubleshooting)
+- [Documentació del servidor llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

@@ -1,12 +1,12 @@
 ---
 title: "Privacidade da IA local: o que permanece no seu computador e o que não permanece"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Rastreie prompts, arquivos de modelos, ferramentas, logs, exposição de rede e custos de energia antes de escolher inferência local ou um serviço de IA hospedado."
-genre: ["IA local", "Privacidade", "Self-Hosted AI", "Cibersegurança", "Economia da IA"]
-tags: ["privacidade de IA local", "inferência local", "cloud AI", "privacidade de dados de IA", "self-hosted AI", "privacidade de LLM", "custo de propriedade da GPU", "custo de eletricidade da IA", "RTX 5070", "Claude Haiku 5.5", "privacidade do Ollama", "llama.cpp", "segurança de IA", "offline AI", "modelos de linguagem locais", "privacidade de prompts", "modelo de ameaças de IA", "break-even da GPU", "limite de dados da IA", "IA privada"]
+genre: ["IA local", "Privacidade", "IA auto-hospedada", "Cibersegurança", "Economia da IA"]
+tags: ["privacidade de IA local", "inferência local", "IA na nuvem", "privacidade de dados de IA", "IA auto-hospedada", "privacidade de LLM", "custo de propriedade da GPU", "custo de eletricidade da IA", "RTX 5070", "Claude Haiku 5.5", "privacidade do Ollama", "llama.cpp", "segurança de IA", "IA sem ligação à Internet", "modelos de linguagem locais", "privacidade de prompts", "modelo de ameaças de IA", "ponto de equilíbrio da GPU", "limite de dados da IA", "IA privada"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Uma estação de trabalho de IA local conectada a um serviço de nuvem por caminhos de dados visíveis"
 coverCaption: "Ilustração dos caminhos de dados de IA locais e hospedados"
@@ -54,9 +54,9 @@ Mapeie cada componente envolvido em uma solicitação. O nome do modelo sozinho 
 
 ## Local não significa privado por padrão
 
-[Ollama's privacy policy](https://ollama.com/privacy) declara que o Ollama não vê prompts ou dados quando um modelo roda localmente. A política também separa a operação local dos modelos hospedados na nuvem. Um modelo de nuvem ainda cria um limite de serviço, mesmo quando o mesmo aplicativo inicia os dois modos.
+[Política de privacidade do Ollama](https://ollama.com/privacy) declara que o Ollama não vê prompts ou dados quando um modelo roda localmente. A política também separa a operação local dos modelos hospedados na nuvem. Um modelo de nuvem ainda cria um limite de serviço, mesmo quando o mesmo aplicativo inicia os dois modos.
 
-[llama.cpp's server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) mostra um servidor local escutando em `127.0.0.1:8080` por padrão. Seus exemplos Docker também mostram `--host 0.0.0.0`, que expõe o serviço em todas as interfaces. Um endereço de bind mais amplo muda o limite de acesso.
+[Documentação do servidor llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) mostra um servidor local escutando em `127.0.0.1:8080` por padrão. Seus exemplos Docker também mostram `--host 0.0.0.0`, que expõe o serviço em todas as interfaces. Um endereço de bind mais amplo muda o limite de acesso.
 
 Confira o endereço de escuta antes de enviar texto sensível:
 
@@ -78,26 +78,35 @@ O [FAQ do Ollama](https://docs.ollama.com/faq) documenta um modo somente local. 
 
 Verifique a configuração depois do reinício. Um runtime somente local reduz um caminho. Ele não estabelece um host privado.
 
+
+## Voz do Ollama e limite da rede
+
+*A [versão v0.40.11 do Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11) anuncia geração de fala no macOS. A [referência da API](https://docs.ollama.com/api/openai-compatibility) situa `/v1/audio/speech` na v0.40.8, portanto a v0.40.11 não é a primeira versão documentada desse endpoint.* Isso é **texto para fala**, não fala para texto: uma solicitação envia texto a um modelo de fala, como o Phonon, e recebe áudio em fluxo. O [guia de fala](https://docs.ollama.com/capabilities/speech) também mostra `ollama run phonon` reproduzindo áudio localmente ou gravando um arquivo WAV quando a saída é redirecionada.
+
+O **caminho local de fala** exige um modelo local baixado e um servidor local. O [FAQ do Ollama](https://docs.ollama.com/faq) informa que, por padrão, o servidor se vincula a `127.0.0.1:11434` e que **`OLLAMA_HOST`** altera o endereço de vinculação. Confira o listener ativo com o comando `lsof` acima, sem presumir que o padrão continua em vigor. A [introdução à API do Ollama](https://docs.ollama.com/api/introduction) diz que solicitações locais não precisam de chave de API. Restrinja qualquer vinculação mais ampla com firewall e controles de acesso antes de enviar texto privado.
+
+**Uma vinculação a loopback não define todo o limite.** O Ollama documenta o encaminhamento do servidor HTTP por proxy reverso ou túnel. Confira o listener, a autenticação e o registro de solicitações de cada proxy, mesmo quando o próprio Ollama continua escutando em loopback. O texto enviado e o áudio recebido atravessam a conexão do proxy. O [guia de solução de problemas do Ollama](https://docs.ollama.com/troubleshooting) identifica logs do servidor, mas a documentação de fala não promete retenção de áudio. Verifique onde os clientes salvam a saída WAV e onde persistem os logs do proxy ou do aplicativo. O FAQ do Ollama diz que ele não vê prompts nem dados em execuções locais. Downloads de modelos exigem rede, e modelos na nuvem seguem outro caminho. Em uma configuração só com modelos locais do Ollama, `OLLAMA_NO_CLOUD=1`, descrito acima, desativa os recursos de nuvem do Ollama. Isso não controla outros aplicativos.
+
 ## Calcule o custo hospedado
 
-Os preços dos tokens separam entrada e saída. [Anthropic lists Claude Haiku 5.5 at $0.10 per million input tokens and $0.50 per million output tokens for prompts up to 100,000 tokens](https://www.anthropic.com/claude/haiku). Prompts acima de 100.000 tokens usam as tarifas maiores listadas.
+Os preços dos tokens separam entrada e saída. [A Anthropic informa que o Claude Haiku 5.5 custa US$ 0,10 por milhão de tokens de entrada e US$ 0,50 por milhão de tokens de saída em prompts de até 100 mil tokens](https://www.anthropic.com/claude/haiku). Prompts acima de 100.000 tokens usam as tarifas maiores listadas.
 
-[OpenAI's token guide](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens) explica por que uma contagem de palavras não equivale a uma contagem de tokens. Ela também separa tokens de entrada, saída, entrada em cache e raciocínio. Use os campos de uso do fornecedor, não uma estimativa por palavras.
+O [guia de tokens da OpenAI](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens) explica por que uma contagem de palavras não equivale a uma contagem de tokens. Ele também separa tokens de entrada, saída, entrada em cache e raciocínio. Use os campos de uso do fornecedor, não uma estimativa baseada em palavras.
 
 Para uma comparação simples, use um milhão de tokens gerados e um milhão de tokens de entrada como cargas separadas. Um agente de programação costuma enviar contexto repetido e produzir uma resposta menor, então um único número combinado esconde a mistura de custos.
 
 ## Calcule a energia local
 
-[NVIDIA's RTX 5070 launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/) listou preço inicial de $549. [NVIDIA's RTX 5070 family page](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/) lista 12 GB de memória e 250 W de potência gráfica total para o design de referência Founders Edition. A página de produto da NVIDIA ainda lista $549 e mostrou a placa sem estoque durante esta revisão.
+[O anúncio de lançamento da NVIDIA RTX 5070](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/) listou o preço inicial de $549. [A página da família NVIDIA RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/) lista 12 GB de memória e 250 W de potência gráfica total para o design de referência Founders Edition. A página de produto da NVIDIA ainda lista $549 e mostrou a placa sem estoque durante esta revisão.
 
 A potência da GPU não é a potência do sistema inteiro. Use um medidor de tomada no seu PC. O exemplo abaixo assume **consumo de 400 W no sistema inteiro**, incluindo GPU, processador, memória, armazenamento, ventoinhas e perdas da fonte. Isso é uma hipótese para a aritmética, não um resultado medido.
 
-[The U.S. Energy Information Administration forecast](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) usou 18,2 centavos por quilowatt-hora como preço residencial médio de eletricidade para 2026. Sua tarifa muda o resultado.
+A [previsão da Administração de Informação Energética dos EUA](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) usou 18,2 centavos por quilowatt-hora como preço residencial médio de eletricidade para 2026. Sua tarifa muda o resultado.
 
 Use esta fórmula para a saída gerada:
 
 ```text
-local cost per 1M output tokens =
+custo local por 1M tokens de saída =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -107,9 +116,9 @@ Com 400 W e $0.182 por quilowatt-hora, o sistema custa $0.0728 por hora ativa.
 
 | Velocidade de saída | Tempo para 1M tokens | Custo de energia para 1M tokens |
 |---:|---:|---:|
-| **20 tokens per second** | 13 horas 53 minutos | **$1.01** |
-| **50 tokens per second** | 5 horas 33 minutos | **$0.40** |
-| **94 tokens per second** | 2 horas 57 minutos | **$0.22** |
+| **20 tokens por segundo** | 13 horas 53 minutos | **$1.01** |
+| **50 tokens por segundo** | 5 horas 33 minutos | **$0.40** |
+| **94 tokens por segundo** | 2 horas 57 minutos | **$0.22** |
 
 A 50 tokens de saída por segundo, a energia local custa menos que o preço de saída de $0.50 do Haiku 5.5. A 20 tokens por segundo, a energia local custa mais. O limite de velocidade de saída nestas hipóteses é cerca de 40 tokens por segundo.
 
@@ -117,15 +126,15 @@ O cálculo de entrada usa a mesma fórmula. A 2.650 tokens de entrada por segund
 
 A transcrição fornecida relata 94 tokens de saída por segundo e 2.650 tokens de entrada por segundo para seu exemplo com RTX 5070. A aritmética acima concorda com esses números sob a hipótese de 400 W. A transcrição não fornece registro independente de laboratório, hash do arquivo do modelo, build do runtime, prompt ou leitura do medidor. Trate essas velocidades como resultado de referência, não como garantia de compra.
 
-## O hardware muda o break-even
+## O hardware muda o ponto de equilíbrio
 
 Economia de energia não paga o hardware sozinha. Compare a compra completa com a diferença entre o custo hospedado da saída e o custo variável local.
 
 A 50 tokens de saída por segundo:
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 preço da saída hospedada - $0.40 custo da energia local = $0.10 poupados por 1M tokens de saída
+$549 preço da GPU / $0.10 = cerca de 5.5 mil milhões de tokens de saída
 ```
 
 A 94 tokens por segundo, a economia arredondada sobe para cerca de $0.28 por milhão de tokens. Recuperar uma GPU de $549 exige então cerca de 2 bilhões de tokens de saída. Ambos os números excluem memória do sistema, armazenamento, placa-mãe, fonte, refrigeração, manutenção e valor de revenda.
@@ -134,7 +143,7 @@ O preço de lançamento não é uma cotação universal. A página atual da NVID
 
 **Hardware existente muda a decisão.** Se sua estação já tem memória suficiente e uma GPU adequada, o custo do hardware está amortizado para a próxima tarefa. Compare energia, tempo, qualidade, privacidade e manutenção. Se precisa comprar um sistema completo, compare o sistema inteiro com o uso hospedado.
 
-Para detalhes de adequação dos modelos, leia o [local AI model and GPU context guide](/articles/local-ai-model-gpu-context-guide/) e o [16GB VRAM sizing guide](/articles/is-16gb-vram-enough-local-llm/). Para uma configuração de agente de programação local relatada, leia o [Strata and OpenCode guide](/articles/strata-opencode-local-coding-agent-16gb/).
+Para detalhes sobre a adequação dos modelos, leia o [guia de modelos de IA local e contexto da GPU](/articles/local-ai-model-gpu-context-guide/) e o [guia de dimensionamento de VRAM de 16 GB](/articles/is-16gb-vram-enough-local-llm/). Para conhecer uma configuração relatada de agente de programação local, leia o [guia do Strata e do OpenCode](/articles/strata-opencode-local-coding-agent-16gb/).
 
 ## O que a privacidade local oferece
 
@@ -154,17 +163,17 @@ Esses ganhos importam mais para código-fonte, registros de clientes, projetos n
 - **Endpoint de rede seguro:** um servidor vinculado a todas as interfaces cria um novo serviço para defender.
 - **Sistema gratuito:** eletricidade, armazenamento, refrigeração, desgaste do hardware e manutenção continuam tendo custo.
 
-O [Strata local coding-agent guide](/articles/strata-opencode-local-coding-agent-16gb/) mostra por que memória do sistema, contexto, acesso às ferramentas e configurações do runtime entram na avaliação. A memória da GPU sozinha não define o limite de privacidade ou desempenho.
+O [guia do agente de programação local Strata](/articles/strata-opencode-local-coding-agent-16gb/) mostra por que memória do sistema, contexto, acesso às ferramentas e configurações do runtime entram na avaliação. A memória da GPU sozinha não define o limite de privacidade ou desempenho.
 
 ## Escolha o limite certo
 
 | Situação | Primeira escolha melhor | Motivo |
 |---|---|---|
-| **Documentos sensíveis e PC compatível existente** | Local inference | Mantenha prompts no host controlado e evite gasto com hardware novo |
-| **Redação genérica ocasional** | Hosted API ou chat service | Pague pela carga pequena e evite manutenção |
-| **Modelo de fronteira ou ferramenta especializada na nuvem** | Hosted service | O modelo ou ferramenta exigido não está disponível no host local |
-| **Grande volume recorrente com modelo local verificado** | Local ou híbrido | Compare energia, qualidade, tempo de suporte e preços do fornecedor |
-| **Cargas mistas** | Hybrid routing | Mantenha tarefas sensíveis locais e envie tarefas genéricas aprovadas a um modelo hospedado |
+| **Documentos sensíveis e PC compatível existente** | Inferência local | Mantenha prompts no host controlado e evite gasto com hardware novo |
+| **Redação genérica ocasional** | API hospedada ou serviço de bate-papo | Pague pela carga pequena e evite manutenção |
+| **Modelo de fronteira ou ferramenta especializada na nuvem** | Serviço hospedado | O modelo ou ferramenta exigido não está disponível no host local |
+| **Grande volume recorrente com modelo local verificado** | Execução local ou híbrida | Compare energia, qualidade, tempo de suporte e preços do fornecedor |
+| **Cargas mistas** | Roteamento híbrido | Mantenha tarefas sensíveis locais e envie tarefas genéricas aprovadas a um modelo hospedado |
 
 **O roteamento híbrido precisa de uma regra explícita de classificação.** Marque os dados como somente locais, aprovados para processamento hospedado ou proibidos até revisão. Não confie no nome do modelo ou no ícone do aplicativo para aplicar a regra.
 
@@ -178,17 +187,23 @@ O [Strata local coding-agent guide](/articles/strata-opencode-local-coding-agent
 6. **Meça o sistema.** Registre potência na tomada, velocidade de saída, velocidade de entrada, tamanho do contexto e tentativas.
 7. **Teste o trabalho aceito.** Compare tarefas concluídas e esforço de revisão, não somente tokens por segundo.
 
-O [local AI versus ChatGPT guide](/articles/local-ai-vs-chatgpt-how-close-are-we/) cobre os compromissos de capacidade dos modelos. Use esta lista de privacidade junto com o teste de qualidade.
+O [guia que compara IA local e ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-we/) aborda os compromissos de capacidade dos modelos. Use esta lista de privacidade junto com o teste de qualidade.
 
 ## Referências
 
-- [Video, Is local AI worth it? We did the math vs Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
-- [NVIDIA Blackwell GeForce RTX 50 Series launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
-- [NVIDIA GeForce RTX 5070 family specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
-- [NVIDIA GeForce RTX 5070 product page](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, October 2026 Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
-- [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
-- [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
-- [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
-- [Ollama privacy policy](https://ollama.com/privacy)
-- [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
+- [Vídeo: A IA local compensa? Comparação com Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
+- [Anúncio de lançamento da NVIDIA Blackwell GeForce RTX 50 Series](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
+- [Especificações da família NVIDIA GeForce RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
+- [Página do produto NVIDIA GeForce RTX 5070](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
+- [Administração de Informação Energética dos EUA, Perspetiva Energética de Curto Prazo de outubro de 2026](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [Informações sobre o modelo Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
+- [Preços da plataforma Anthropic](https://platform.claude.com/docs/en/about-claude/pricing)
+- [OpenAI, compreender e contar tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
+- [Política de privacidade do Ollama](https://ollama.com/privacy)
+- [Notas da versão v0.40.11 do Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Guia de fala do Ollama](https://docs.ollama.com/capabilities/speech)
+- [Referência da API compatível com OpenAI do Ollama](https://docs.ollama.com/api/openai-compatibility)
+- [Introdução à API do Ollama](https://docs.ollama.com/api/introduction)
+- [FAQ do Ollama: configuração do servidor, opções de nuvem e proxies reversos](https://docs.ollama.com/faq)
+- [Solução de problemas do Ollama e logs do servidor](https://docs.ollama.com/troubleshooting)
+- [Documentação do servidor llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

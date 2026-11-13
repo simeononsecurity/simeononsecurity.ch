@@ -1,11 +1,11 @@
 ---
 title: "Privacy dell'IA locale: cosa resta sul computer e cosa no"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Traccia prompt, file del modello, strumenti, log, esposizione di rete e costi energetici prima di scegliere l'inferenza locale o un servizio IA ospitato."
-genre: ["IA locale", "Privacy", "IA self-hosted", "Cybersecurity", "Economia dell'IA"]
+genre: ["IA locale", "Riservatezza", "IA self-hosted", "Sicurezza informatica", "Economia dell'IA"]
 tags: ["privacy IA locale", "inferenza locale", "IA cloud", "privacy dati IA", "IA self-hosted", "privacy LLM", "costo possesso GPU", "costo elettricità IA", "RTX 5070", "Claude Haiku 5.5", "privacy Ollama", "llama.cpp", "sicurezza IA", "IA offline", "modelli linguistici locali", "privacy prompt", "modello minacce IA", "break-even GPU", "confine dati IA", "IA privata"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Una workstation IA locale collegata a un servizio cloud da percorsi dati visibili"
@@ -78,6 +78,15 @@ Le [FAQ di Ollama](https://docs.ollama.com/faq) documentano una modalità solo l
 
 Verifica l'impostazione dopo il riavvio. Un runtime solo locale restringe un percorso. Non stabilisce un host privato.
 
+
+## Sintesi vocale di Ollama e confine di rete
+
+*La [versione v0.40.11 di Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11) annuncia la generazione vocale su macOS. La [documentazione API](https://docs.ollama.com/api/openai-compatibility) colloca `/v1/audio/speech` nella v0.40.8, quindi la v0.40.11 non è la prima versione documentata dell'endpoint.* Questa è **sintesi vocale**, non conversione della voce in testo: una richiesta invia testo a un modello vocale come Phonon e riceve audio in streaming. La [guida vocale](https://docs.ollama.com/capabilities/speech) mostra anche `ollama run phonon` che riproduce l'audio in locale o scrive un file WAV quando l'output viene reindirizzato.
+
+Il **percorso vocale locale** richiede un modello locale scaricato e un server locale. Le [FAQ di Ollama](https://docs.ollama.com/faq) indicano che per impostazione predefinita il server si collega a `127.0.0.1:11434` e che **`OLLAMA_HOST`** cambia l'indirizzo di binding. Controlla il listener attivo con il comando `lsof` riportato sopra, senza presumere che il valore predefinito sia ancora in vigore. L'[introduzione all'API di Ollama](https://docs.ollama.com/api/introduction) dice che le richieste locali non richiedono una chiave API. Limita ogni binding più ampio con un firewall e controlli di accesso prima di inviare testo privato.
+
+**Un binding loopback non è l'intero confine.** Ollama documenta l'inoltro del suo server HTTP tramite proxy inverso o tunnel. Controlla listener, autenticazione e registrazione delle richieste di ogni proxy, anche se Ollama continua ad ascoltare solo su loopback. Il testo inviato e l'audio restituito attraversano la connessione del proxy. La [guida alla risoluzione dei problemi di Ollama](https://docs.ollama.com/troubleshooting) indica i log del server, ma la documentazione vocale non promette la conservazione dell'audio. Controlla dove i client salvano l'output WAV e dove persistono i log del proxy o dell'applicazione. Le FAQ di Ollama dicono che non vede prompt o dati nelle esecuzioni locali. I download dei modelli richiedono rete e i modelli cloud seguono un percorso diverso. In una configurazione con soli modelli locali Ollama, `OLLAMA_NO_CLOUD=1`, descritto sopra, disattiva le funzioni cloud di Ollama. Non controlla le altre applicazioni.
+
 ## Conta il costo ospitato
 
 I prezzi dei token separano input e output. [Anthropic indica Claude Haiku 5.5 a 0,10 $ per milione di token di input e 0,50 $ per milione di token di output per prompt fino a 100.000 token](https://www.anthropic.com/claude/haiku). I prompt sopra 100.000 token usano le tariffe superiori indicate.
@@ -97,7 +106,7 @@ Il dato di potenza della GPU non è il consumo dell'intero sistema. Usa un wattm
 Usa questa formula per l'output generato:
 
 ```text
-local cost per 1M output tokens =
+costo locale per 1M token di output =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -124,8 +133,8 @@ Il risparmio energetico da solo non ripaga l'hardware. Confronta l'acquisto comp
 A 50 token output al secondo:
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 prezzo dell’output ospitato - $0.40 costo dell’energia locale = $0.10 risparmiati per 1M token di output
+$549 prezzo della GPU / $0.10 = circa 5.5 miliardi di token in output
 ```
 
 A 94 token output al secondo, il risparmio arrotondato sale a circa 0,28 $ per milione di token. Recuperare una GPU da 549 $ richiede quindi circa 2 miliardi di token output. Entrambi i dati escludono memoria di sistema, archiviazione, scheda madre, alimentatore, raffreddamento, manutenzione e valore di rivendita.
@@ -190,5 +199,11 @@ La [guida IA locale contro ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
 - [Prezzi della piattaforma Anthropic Claude](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, comprendere e contare i token](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
-- [Privacy policy di Ollama](https://ollama.com/privacy)
-- [Documentazione server llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
+- [Informativa sulla privacy di Ollama](https://ollama.com/privacy)
+- [Note di rilascio Ollama v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Guida vocale Ollama](https://docs.ollama.com/capabilities/speech)
+- [Riferimento API di compatibilità OpenAI di Ollama](https://docs.ollama.com/api/openai-compatibility)
+- [Introduzione all’API Ollama](https://docs.ollama.com/api/introduction)
+- [FAQ Ollama: configurazione server, opzioni cloud e proxy inversi](https://docs.ollama.com/faq)
+- [Risoluzione dei problemi Ollama e log del server](https://docs.ollama.com/troubleshooting)
+- [Documentazione del server llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
