@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel と Access は両方必要？"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Cloudflare Tunnel と Access の違いを理解し、自宅のダッシュボードを保護する方法を選び、認証なしで非公開アプリを公開する事態を防ぎます。"
@@ -45,9 +45,9 @@ coverCaption: ""
 **`dashboard.example.com`** の論理的なリクエスト経路は次のとおりです。
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+ブラウザー -> Cloudflare Access -> トンネル接続 -> cloudflared -> ダッシュボード
+                      |
+                      +-> 認証が必要な場合の ID プロバイダー
 ```
 
 **コネクターはネットワークから外向きにトンネル接続を開始します。** その後、ブラウザーのリクエストは確立済みの接続を通ってオリジンへ届きます。外向き接続でアプリへの内向きリクエストを運ぶ仕組みが、一般的なオリジンポートの転送なしで Tunnel を使える主な理由です。[Tunnel の接続モデル](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/)。

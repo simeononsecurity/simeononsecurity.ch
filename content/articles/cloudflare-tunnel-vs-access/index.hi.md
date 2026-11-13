@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel और Access: क्या आपको दोनों चाहिए?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Cloudflare Tunnel और Access का अंतर समझें, घरेलू डैशबोर्ड के लिए सुरक्षा चुनें और निजी ऐप को बिना प्रमाणीकरण सार्वजनिक करने से बचें।"
@@ -45,9 +45,9 @@ coverCaption: ""
 **`dashboard.example.com`** के लिए अनुरोध का तार्किक मार्ग यह है:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+ब्राउज़र -> Cloudflare Access -> टनल कनेक्शन -> cloudflared -> डैशबोर्ड
+                    |
+                    +-> प्रमाणीकरण आवश्यक होने पर पहचान प्रदाता
 ```
 
 **कनेक्टर आपके नेटवर्क से बाहर की ओर टनल कनेक्शन शुरू करता है।** ब्राउज़र अनुरोध उस स्थापित कनेक्शन से ओरिजिन तक पहुँचते हैं। बाहर जाने वाला कनेक्शन आने वाले ऐप अनुरोध ले जाता है, यही मुख्य कारण है कि Tunnel सामान्य ओरिजिन पोर्ट फ़ॉरवर्ड किए बिना काम करता है। [Tunnel कनेक्शन मॉडल](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

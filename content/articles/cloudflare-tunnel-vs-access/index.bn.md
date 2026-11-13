@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel ও Access: দুটিই কি আপনার দরকার?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Cloudflare Tunnel ও Access-এর পার্থক্য বুঝুন, বাড়ির ড্যাশবোর্ডের জন্য সুরক্ষা বেছে নিন এবং প্রমাণীকরণ ছাড়া ব্যক্তিগত অ্যাপ প্রকাশ করা এড়ান।"
@@ -45,9 +45,9 @@ coverCaption: ""
 **`dashboard.example.com`**-এর জন্য অনুরোধের যৌক্তিক পথ হলো:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+ব্রাউজার -> Cloudflare Access -> টানেল সংযোগ -> cloudflared -> ড্যাশবোর্ড
+                    |
+                    +-> প্রমাণীকরণ প্রয়োজন হলে পরিচয় প্রদানকারী
 ```
 
 **কানেক্টর আপনার নেটওয়ার্ক থেকে বাইরে যাওয়া টানেল সংযোগ শুরু করে।** এরপর ব্রাউজারের অনুরোধ ওই প্রতিষ্ঠিত সংযোগ দিয়ে অরিজিনে পৌঁছায়। বাইরে যাওয়া সংযোগ দিয়ে ভেতরে আসা অ্যাপ অনুরোধ বহন করা হয় বলেই সাধারণ অরিজিন পোর্ট ফরোয়ার্ড না করেও Tunnel কাজ করে। [Tunnel সংযোগের মডেল](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

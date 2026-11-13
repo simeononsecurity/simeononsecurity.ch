@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel a Access: czy potrzebujesz obu usług?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj różnice między Cloudflare Tunnel i Access, wybierz ochronę dla domowego panelu i uniknij udostępnienia prywatnej aplikacji bez uwierzytelniania."
@@ -45,9 +45,9 @@ coverCaption: ""
 Dla **`dashboard.example.com`** logiczna ścieżka żądania wygląda tak:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+Przeglądarka -> Cloudflare Access -> połączenie tunelu -> cloudflared -> panel
+                        |
+                        +-> dostawca tożsamości, gdy uwierzytelnianie jest wymagane
 ```
 
 **Łącznik inicjuje połączenie tunelowe na zewnątrz** z twojej sieci. Żądania przeglądarki trafiają później do origina przez to ustanowione połączenie. Połączenie wychodzące, które przenosi przychodzące żądania aplikacji, jest głównym powodem, dla którego Tunnel działa bez tradycyjnego przekierowania portu origina. [Model połączeń Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

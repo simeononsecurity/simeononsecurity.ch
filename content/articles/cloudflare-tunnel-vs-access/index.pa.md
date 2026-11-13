@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel ਅਤੇ Access: ਕੀ ਤੁਹਾਨੂੰ ਦੋਵੇਂ ਚਾਹੀਦੇ ਹਨ?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Cloudflare Tunnel ਅਤੇ Access ਦਾ ਫਰਕ ਸਮਝੋ, ਘਰੇਲੂ ਡੈਸ਼ਬੋਰਡ ਲਈ ਸੁਰੱਖਿਆ ਚੁਣੋ ਅਤੇ ਬਿਨਾਂ ਪ੍ਰਮਾਣਿਕਤਾ ਦੇ ਨਿੱਜੀ ਐਪ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨ ਤੋਂ ਬਚੋ।"
@@ -45,9 +45,9 @@ coverCaption: ""
 **`dashboard.example.com`** ਲਈ ਬੇਨਤੀ ਦਾ ਤਰਕਸੰਗਤ ਰਸਤਾ ਇਹ ਹੈ:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+ਬ੍ਰਾਊਜ਼ਰ -> Cloudflare Access -> ਟਨਲ ਕਨੈਕਸ਼ਨ -> cloudflared -> ਡੈਸ਼ਬੋਰਡ
+                    |
+                    +-> ਜਦੋਂ ਪ੍ਰਮਾਣੀਕਰਨ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਪਛਾਣ ਪ੍ਰਦਾਤਾ
 ```
 
 **ਕਨੈਕਟਰ ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਤੋਂ ਬਾਹਰ ਵੱਲ ਟਨਲ ਕਨੈਕਸ਼ਨ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ।** ਬ੍ਰਾਊਜ਼ਰ ਦੀਆਂ ਬੇਨਤੀਆਂ ਫਿਰ ਇਸ ਬਣੇ ਕਨੈਕਸ਼ਨ ਰਾਹੀਂ ਮੂਲ ਸਰਵਰ ਤੱਕ ਜਾਂਦੀਆਂ ਹਨ। ਬਾਹਰ ਜਾਣ ਵਾਲਾ ਕਨੈਕਸ਼ਨ ਅੰਦਰ ਆਉਣ ਵਾਲੀਆਂ ਐਪ ਬੇਨਤੀਆਂ ਲੈ ਜਾਂਦਾ ਹੈ। ਇਸੇ ਕਰਕੇ Tunnel ਨੂੰ ਆਮ ਤਰੀਕੇ ਨਾਲ ਮੂਲ ਸਰਵਰ ਦਾ ਪੋਰਟ ਫਾਰਵਰਡ ਕੀਤੇ ਬਿਨਾਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ। [Tunnel ਕਨੈਕਸ਼ਨ ਮਾਡਲ](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

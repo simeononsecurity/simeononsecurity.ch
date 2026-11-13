@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel 与 Access：两者都需要吗？"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "了解 Cloudflare Tunnel 与 Access 的区别，为家庭仪表板选择保护方式，并避免在没有身份验证时公开私有应用。"
@@ -45,9 +45,9 @@ coverCaption: ""
 对于 **`dashboard.example.com`**，请求的逻辑路径如下：
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+浏览器 -> Cloudflare Access -> 隧道连接 -> cloudflared -> 控制面板
+                  |
+                  +-> 需要身份验证时的身份提供商
 ```
 
 **连接器从你的网络向外发起隧道连接。** 浏览器请求随后通过这条已建立的连接到达源站。出站连接承载入站应用请求，这正是 Tunnel 无需传统源站端口转发即可工作的主要原因。[Tunnel 连接模型](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/)。

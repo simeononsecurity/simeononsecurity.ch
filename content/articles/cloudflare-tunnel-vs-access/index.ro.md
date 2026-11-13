@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel și Access: ai nevoie de ambele?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Înțelege diferența dintre Cloudflare Tunnel și Access, alege protecția pentru un panou de acasă și evită publicarea unei aplicații private fără autentificare."
@@ -45,9 +45,9 @@ Un **furnizor de identitate (IdP)** autentifică vizitatorul. O **politică Acce
 Pentru **`dashboard.example.com`**, traseul logic al solicitării este:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+Navigator web -> Cloudflare Access -> conexiunea tunelului -> cloudflared -> panou de control
+                         |
+                         +-> furnizor de identitate atunci când este necesară autentificarea
 ```
 
 **Conectorul inițiază conexiunea de tunel spre exterior** din rețeaua ta. Apoi, solicitările browserului ajung la origine prin conexiunea stabilită. O conexiune de ieșire care transportă solicitări de intrare către aplicație este principalul motiv pentru care Tunnel funcționează fără redirecționarea tradițională a unui port către origine. [Modelul de conexiune Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel versus Access: heb je beide nodig?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Leer het verschil tussen Cloudflare Tunnel en Access, kies bescherming voor een thuisdashboard en voorkom dat je een privéapp zonder authenticatie publiceert."
@@ -45,9 +45,9 @@ Een **identiteitsprovider (IdP)** verifieert de bezoeker. Een **Access-beleidsre
 Voor **`dashboard.example.com`** is de logische aanvraagroute:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+Webbrowser -> Cloudflare Access -> tunnelverbinding -> cloudflared -> beheerpaneel
+                      |
+                      +-> identiteitsprovider wanneer authenticatie nodig is
 ```
 
 De **connector start de tunnelverbinding naar buiten** vanuit je netwerk. Browseraanvragen reizen daarna via deze bestaande verbinding naar de origin. Een uitgaande verbinding die inkomende applicatieaanvragen draagt, is de belangrijkste reden waarom Tunnel werkt zonder een gewone doorgestuurde poort op de origin. [Verbindingsmodel van Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

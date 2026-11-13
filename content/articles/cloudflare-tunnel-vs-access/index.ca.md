@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel i Access: necessites tots dos?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Entén les diferències entre Cloudflare Tunnel i Access, tria la protecció d'un tauler domèstic i evita publicar una aplicació privada sense autenticació."
@@ -45,9 +45,9 @@ Un **proveïdor d'identitat (IdP)** autentica el visitant. Una **política d'Acc
 Per a **`dashboard.example.com`**, la ruta lògica és:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+Navegador -> Cloudflare Access -> connexió del túnel -> cloudflared -> tauler
+                     |
+                     +-> proveïdor d’identitat quan calgui autenticar-se
 ```
 
 El **connector inicia la connexió de túnel de sortida** des de la teva xarxa. Després, les peticions del navegador arriben a l'origen per aquesta connexió establerta. Una connexió de sortida que transporta peticions entrants de l'aplicació és la raó principal per la qual Tunnel funciona sense reenviar un port convencional de l'origen. [Model de connexió de Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

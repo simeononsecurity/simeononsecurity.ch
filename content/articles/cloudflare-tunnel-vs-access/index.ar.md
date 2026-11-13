@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel وAccess: هل تحتاج إلى كليهما؟"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "تعرّف على الفرق بين Cloudflare Tunnel وAccess، واختر حماية لوحة تحكم منزلية، وتجنب نشر تطبيق خاص دون مصادقة."
@@ -45,9 +45,9 @@ coverCaption: ""
 بالنسبة إلى **`dashboard.example.com`**، يكون مسار الطلب المنطقي كما يلي:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+المتصفح -> Cloudflare Access -> اتصال النفق -> cloudflared -> لوحة المعلومات
+                   |
+                   +-> موفر الهوية عند الحاجة إلى المصادقة
 ```
 
 **يبدأ الموصل اتصال النفق الصادر** من شبكتك. ثم تنتقل طلبات المتصفح إلى الأصل عبر هذا الاتصال المنشأ. والاتصال الصادر الذي يحمل طلبات التطبيق الواردة هو السبب الرئيسي لعمل Tunnel دون تحويل تقليدي لمنفذ الأصل. [نموذج اتصال Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

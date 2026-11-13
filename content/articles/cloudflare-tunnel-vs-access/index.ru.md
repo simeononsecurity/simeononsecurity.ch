@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel и Access: нужны ли вам оба сервиса?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Разберитесь в различиях между Cloudflare Tunnel и Access, выберите защиту для домашней панели и не публикуйте частное приложение без аутентификации."
@@ -45,9 +45,9 @@ coverCaption: ""
 Для **`dashboard.example.com`** логический путь запроса выглядит так:
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+Браузер -> Cloudflare Access -> туннельное соединение -> cloudflared -> панель управления
+                   |
+                   +-> поставщик удостоверений, когда требуется аутентификация
 ```
 
 **Коннектор инициирует исходящее туннельное подключение** из вашей сети. Запросы браузера затем идут к источнику по этому установленному соединению. Исходящее соединение, передающее входящие запросы к приложению, — главная причина, по которой Tunnel работает без обычной переадресации порта источника. [Модель подключения Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).

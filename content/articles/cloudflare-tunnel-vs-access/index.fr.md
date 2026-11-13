@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Tunnel et Access : avez-vous besoin des deux ?"
 date: 2026-09-11
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Comprenez la différence entre Cloudflare Tunnel et Access, choisissez une protection pour un tableau de bord domestique et évitez de publier une application privée sans authentification."
@@ -45,9 +45,9 @@ Un **fournisseur d'identité (IdP)** authentifie le visiteur. Une **règle Acces
 Pour **`dashboard.example.com`**, le trajet logique d'une requête est le suivant :
 
 ```text
-Browser -> Cloudflare Access -> tunnel connection -> cloudflared -> dashboard
-               |
-               +-> identity provider when authentication is needed
+Navigateur -> Cloudflare Access -> connexion du tunnel -> cloudflared -> tableau de bord
+                      |
+                      +-> fournisseur d’identité lorsque l’authentification est nécessaire
 ```
 
 Le **connecteur initie la connexion sortante du tunnel** depuis votre réseau. Les requêtes du navigateur empruntent ensuite cette connexion établie jusqu'à l'origine. Une connexion sortante qui transporte des requêtes entrantes de l'application explique principalement pourquoi Tunnel fonctionne sans redirection de port classique vers l'origine. [Modèle de connexion Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).
