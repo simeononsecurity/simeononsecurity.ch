@@ -1,6 +1,7 @@
 ---
 title: "Que faire lorsque vous avez été victime d'un doxxing ? Un guide complet"
 date: 2023-07-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez les mesures essentielles à prendre lorsque vous avez été victime d'un doxxing, notamment comment supprimer vos informations personnelles, renforcer la sécurité en ligne, signaler l'incident, demander de l'aide et envisager des recours juridiques."
@@ -74,7 +75,7 @@ Par exemple, si quelqu'un a partagé vos informations personnelles sur une plate
 
 N'oubliez pas de **préserver les preuves originales** et de faire des sauvegardes des fichiers. Cela permet de s'assurer que les informations restent intactes et recevables, au cas où vous devriez les fournir aux forces de l'ordre ou à des professionnels du droit.
 
-Si vous ne savez pas comment effectuer des captures d'écran sur votre appareil, reportez-vous à la **documentation** fournie par le fabricant ou recherchez en ligne des instructions spécifiques à votre appareil et à votre système d'exploitation. Sinon, veuillez consulter ce qui suit [article](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device)
+Si vous ne savez pas comment faire des captures d’écran sur votre appareil, consultez la **documentation** du fabricant ou recherchez en ligne des instructions adaptées à votre appareil et à son système d’exploitation. Sinon, consultez [l’article suivant](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device).
 
 ______
 
@@ -91,9 +92,9 @@ En outre, si vous avez des **profils professionnels** sur des plateformes telles
 En prenant ces mesures, vous réduisez l'accessibilité de vos informations personnelles et rendez plus difficile leur exploitation par des individus. N'oubliez pas de contrôler régulièrement votre présence en ligne pour vous assurer que vos informations restent sécurisées et protégées.
 
 #### Lectures complémentaires pour l'étape 3
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Services de confidentialité recommandés](https://simeononsecurity.com/recommendations/services/)
+- [Supprimer vos informations des courtiers en données](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Utiliser les réseaux sociaux en toute sécurité](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -103,19 +104,19 @@ Il est essentiel de renforcer vos mesures de **confidentialité** et de **sécur
 
 #### a. Réviser et mettre à jour les paramètres de confidentialité
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) de vos comptes en ligne et veillez à ce qu'ils soient réglés sur le niveau de protection le plus élevé. Limitez la visibilité de vos informations personnelles et de vos publications à vos amis ou relations de confiance. Par exemple, sur les plateformes de médias sociaux comme Facebook, accédez aux paramètres de confidentialité et déterminez qui peut voir votre profil, vos publications et vos informations personnelles.
+[**Vérifiez les paramètres de confidentialité**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) de vos comptes en ligne et veillez à ce qu'ils soient réglés sur le niveau de protection le plus élevé. Limitez la visibilité de vos informations personnelles et de vos publications à vos amis ou relations de confiance. Par exemple, sur les plateformes de médias sociaux comme Facebook, accédez aux paramètres de confidentialité et déterminez qui peut voir votre profil, vos publications et vos informations personnelles.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Activez l’authentification à deux facteurs (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) sur tous vos comptes en ligne. Le 2FA ajoute une couche de sécurité supplémentaire en exigeant une étape de vérification supplémentaire, généralement via un appareil mobile, pour accéder à vos comptes. Des services tels que Google, Facebook et Twitter proposent des options 2FA. Activez-les en suivant les instructions fournies par les plateformes respectives.
+[**Activez l’authentification à deux facteurs (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) sur tous vos comptes en ligne. Le 2FA ajoute une couche de sécurité supplémentaire en exigeant une étape de vérification supplémentaire, généralement via un appareil mobile, pour accéder à vos comptes. Des services tels que Google, Facebook et Twitter proposent des options 2FA. Activez-les en suivant les instructions fournies par les plateformes respectives.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Utilisez des mots de passe robustes et uniques](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Créer [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour chacun de vos comptes en ligne. **Évitez d'utiliser des mots de passe communs ou de réutiliser des mots de passe sur plusieurs plateformes **Envisagez d'utiliser un **gestionnaire de mots de passe** pour stocker et gérer vos mots de passe en toute sécurité. Les gestionnaires de mots de passe tels que LastPass, Dashlane ou 1Password génèrent et stockent des mots de passe complexes pour vous.
+Créer [**des mots de passe robustes et uniques**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour chacun de vos comptes en ligne. **Évitez d'utiliser des mots de passe communs ou de réutiliser des mots de passe sur plusieurs plateformes **Envisagez d'utiliser un **gestionnaire de mots de passe** pour stocker et gérer vos mots de passe en toute sécurité. Les gestionnaires de mots de passe tels que LastPass, Dashlane ou 1Password génèrent et stockent des mots de passe complexes pour vous.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Soyez prudent lorsque vous partagez des informations personnelles en ligne](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) sur des plateformes publiques ou avec des inconnus. **Soyez prudent** lorsque vous remplissez des formulaires en ligne ou que vous engagez des conversations avec des inconnus. Vérifiez la légitimité et la sécurité des sites web ou des plateformes avant de fournir des informations personnelles. Par exemple, **évitez de communiquer votre adresse complète ou votre numéro de téléphone** dans les forums publics ou les communautés en ligne.
+[**Évitez de partager des informations personnelles sensibles**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) sur des plateformes publiques ou avec des inconnus. **Soyez prudent** lorsque vous remplissez des formulaires en ligne ou que vous engagez des conversations avec des inconnus. Vérifiez la légitimité et la sécurité des sites web ou des plateformes avant de fournir des informations personnelles. Par exemple, **évitez de communiquer votre adresse complète ou votre numéro de téléphone** dans les forums publics ou les communautés en ligne.
 
 #### e. Mettez régulièrement à jour vos logiciels et utilisez une protection antivirus
 
@@ -132,7 +133,7 @@ ______
 
 Par exemple, aux États-Unis, vous pouvez contacter votre **département de police** local ou **le bureau du shérif** pour signaler l'incident de doxxing. Fournissez-leur un compte-rendu détaillé de l'incident, y compris les **preuves** que vous avez recueillies, telles que des captures d'écran, des messages ou toute autre information pertinente.
 
-Dans certains cas, en fonction de la gravité du doxxing et de l'impact qu'il a eu sur votre vie, vous devrez peut-être faire appel à d'autres organisations ou autorités. Il peut s'agir de **signaler l'incident aux unités de lutte contre la cybercriminalité**, telles que le [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) or the [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx)
+Selon la gravité du doxxing et ses conséquences, vous devrez parfois contacter d’autres organisations ou autorités. Vous pouvez notamment signaler l’incident aux services de lutte contre la cybercriminalité, comme le [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) ou l’[**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx).
 
 N'oubliez pas de documenter toutes les **communications** que vous avez avec les forces de l'ordre, y compris les noms des agents ou des enquêteurs avec lesquels vous vous entretenez et les numéros de dossier qui vous ont été communiqués. Cela vous aidera à suivre l'évolution de votre dossier et à fournir des informations supplémentaires si nécessaire.
 
@@ -146,7 +147,7 @@ Faire face aux conséquences d'un incident de doxxing peut être **émotionnelle
 
 En outre, il peut être utile d'entrer en contact avec des **groupes de soutien ou des communautés en ligne** de personnes ayant vécu des situations similaires. Le fait de partager vos expériences et d'apprendre des autres peut vous donner un sentiment de solidarité et des conseils précieux pour faire face aux conséquences d'un acte de "doxxing".
 
-Si vous ne savez pas par où commencer, [**organizations such as the National Domestic Violence Hotline**](https://www.thehotline.org/) peut fournir des ressources et des références à des services de soutien pour les victimes de harcèlement en ligne et de doxxing. Ils offrent une **assistance confidentielle** et peuvent vous orienter vers des professionnels spécialisés dans le traitement des conséquences psychologiques de la cybercriminalité.
+Si vous ne savez pas par où commencer, [**un organisme comme la National Domestic Violence Hotline**](https://www.thehotline.org/) peut proposer des ressources et vous orienter vers des services d’aide aux victimes de harcèlement en ligne et de doxxing. Ce service offre une **aide confidentielle** et peut vous diriger vers des professionnels spécialisés dans les conséquences psychologiques de la cybercriminalité.
 
 N'oubliez pas que le fait de demander une aide et un soutien professionnels n'est pas un signe de faiblesse, mais une étape proactive vers la guérison et le rétablissement. N'hésitez pas à vous adresser à des personnes et des organisations de confiance pour vous aider dans cette période difficile.
 
@@ -170,7 +171,7 @@ ______
 
 Si l'incident de doxxing a causé un **préjudice important** ou si vous pensez que votre sécurité est menacée, envisagez de consulter un **avocat** spécialisé dans la **cybercriminalité** ou le **droit de la protection de la vie privée**. Il peut vous donner des **conseils juridiques** sur les options qui s'offrent à vous pour obtenir justice et intenter une **action en justice** contre le doxxer.
 
-Familiarisez-vous avec les **réglementations gouvernementales** pertinentes, telles que la [**General Data Protection Regulation (GDPR)**](https://gdpr-info.eu/) in the European Union or the [**California Consumer Privacy Act (CCPA)**](https://www.oag.ca.gov/privacy/ccpa) aux États-Unis, qui peuvent offrir des **protections** et des voies de recours supplémentaires.
+Informez-vous sur les **réglementations gouvernementales** pertinentes, notamment le [**Règlement général sur la protection des données (GDPR)**](https://gdpr-info.eu/) dans l’Union européenne et la [**Loi californienne sur la protection de la vie privée des consommateurs (CCPA)**](https://www.oag.ca.gov/privacy/ccpa) aux États-Unis. Ces textes peuvent offrir des **protections** et des voies de recours supplémentaires.
 
 Par exemple, en vertu du GDPR, les personnes de l'Union européenne ont le droit de demander la suppression ou la rectification de leurs informations personnelles sur les plateformes en ligne et le droit à l'oubli. La CCPA accorde aux résidents de Californie certains droits sur leurs informations personnelles, notamment le droit de savoir quelles informations personnelles sont collectées, partagées ou vendues par les entreprises.
 
@@ -198,10 +199,10 @@ ______
 
 ## Références
 
-1. [Federal Trade Commission: Protecting Your Personal Information](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
-2. [Electronic Frontier Foundation: Guide to Online Privacy](https://ssd.eff.org/en/module/your-security-plan)
-3. [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/)
-4. [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
+1. [Federal Trade Commission : protéger vos informations personnelles](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
+2. [Electronic Frontier Foundation : guide de confidentialité en ligne](https://ssd.eff.org/en/module/your-security-plan)
+3. [Règlement général sur la protection des données (GDPR)](https://gdpr-info.eu/)
+4. [Loi californienne sur la protection de la vie privée des consommateurs (CCPA)](https://oag.ca.gov/privacy/ccpa)
 5. [Google Alerts](https://www.google.com/alerts)
 6. [National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/)
 

@@ -1,6 +1,7 @@
 ---
 title: "当你被骚扰时该怎么办？综合指南"
 date: 2023-07-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "了解当你被诽谤时应采取的基本步骤，包括如何删除个人信息、加强网络安全、报告事件、寻求支持和探索法律途径。"
@@ -74,7 +75,7 @@ ______
 
 切记**保存原始证据**并备份文件。这样可以确保信息完好无损，并在需要提供给执法部门或法律专业人士时具有可采性。
 
-如果你不确定如何在你的设备上截图，请参考制造商提供的**文档，或根据你的设备和操作系统在网上搜索具体说明。否则，请参阅以下内容 [article](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device)
+如果你不确定如何在设备上截屏，请查阅制造商提供的**文档**，或在网上搜索适用于你的设备和操作系统的具体说明。另外，也请参阅这篇[文章](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device)。
 
 ______
 
@@ -91,9 +92,9 @@ ______
 通过采取这些步骤，您可以减少个人信息的可访问性，并使个人利用这些信息的难度加大。切记定期监控您的在线状态，确保您的信息安全无虞。
 
 #### 第 3 步的补充阅读
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [推荐的隐私保护服务](https://simeononsecurity.com/recommendations/services/)
+- [从数据经纪商处删除个人信息](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [安全使用社交媒体的做法](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -103,19 +104,19 @@ ______
 
 #### a. 查看并更新隐私设置
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)您的在线账户，并确保将其设置为最高级别的保护。限制个人信息和帖子的可见度，仅限于信任的朋友或关系人。例如，在 Facebook 等社交媒体平台上，导航至隐私设置，自定义谁可以查看您的个人资料、帖子和个人信息。
+[**检查隐私设置**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)您的在线账户，并确保将其设置为最高级别的保护。限制个人信息和帖子的可见度，仅限于信任的朋友或关系人。例如，在 Facebook 等社交媒体平台上，导航至隐私设置，自定义谁可以查看您的个人资料、帖子和个人信息。
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [启用双重身份验证（2FA）](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)尽可能在您的所有在线账户上使用 2FA。2FA 通过要求额外的验证步骤（通常通过移动设备）来访问您的账户，从而增加了一层额外的安全性。谷歌、Facebook 和 Twitter 等服务都提供 2FA 选项。请按照相应平台提供的说明启用它。
+[**启用双重身份验证（2FA）**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)尽可能在您的所有在线账户上使用 2FA。2FA 通过要求额外的验证步骤（通常通过移动设备）来访问您的账户，从而增加了一层额外的安全性。谷歌、Facebook 和 Twitter 等服务都提供 2FA 选项。请按照相应平台提供的说明启用它。
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [使用强且唯一的密码](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-创建 [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的每个在线账户设置密码。**避免使用通用密码或在多个平台上重复使用密码。**考虑使用**密码管理器**来安全地存储和管理你的密码。LastPass、Dashlane 或 1Password 等密码管理器可为您生成和存储复杂的密码。
+创建 [**强且唯一的密码**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)为您的每个在线账户设置密码。**避免使用通用密码或在多个平台上重复使用密码。**考虑使用**密码管理器**来安全地存储和管理你的密码。LastPass、Dashlane 或 1Password 等密码管理器可为您生成和存储复杂的密码。
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [在线分享个人信息时保持谨慎](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)在公共平台上或与陌生人交谈。在填写在线表格或与陌生人交谈时，**要谨慎**。在提供任何个人信息之前，请核实网站或平台的合法性和安全性。例如，**避免在公共论坛或在线社区**您的完整地址或电话号码。
+[**避免分享敏感个人信息**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)在公共平台上或与陌生人交谈。在填写在线表格或与陌生人交谈时，**要谨慎**。在提供任何个人信息之前，请核实网站或平台的合法性和安全性。例如，**避免在公共论坛或在线社区**您的完整地址或电话号码。
 
 #### e. 定期更新软件并使用杀毒软件
 
@@ -132,7 +133,7 @@ ______
 
 例如，在美国，你可以联系当地的**警察部门**或**警长办公室**，报告骚扰事件。向他们提供事件的详细经过，包括你收集到的**证据，如截图、信息或任何其他相关信息。
 
-在某些情况下，根据诽谤的严重程度和对你生活的影响，你可能需要让其他组织或当局介入。这可能包括**向网络犯罪部门**报告该事件，例如 [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) or the [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx)
+根据人肉搜索的严重程度及其对生活的影响，你可能需要联系其他组织或主管部门。你可以向网络犯罪执法机构举报，例如 [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) 或 [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx)。
 
 记住记录下你与执法机构的所有***通信，包括与你通话的官员或调查人员的姓名以及提供的任何案件编号。这将有助于您跟踪案件进展，并在需要时提供更多信息。
 
@@ -146,7 +147,7 @@ ______
 
 此外，与经历过类似情况的个人组成的**支持团体或在线社区**建立联系也会有所帮助。分享你的经历并向他人学习，可以让你感受到团结的力量，并在处理被诽谤的后果时获得宝贵的建议。
 
-如果你不确定从哪里开始、 [**organizations such as the National Domestic Violence Hotline**](https://www.thehotline.org/)可以为网络骚扰和诽谤的受害者提供资源和转介支持服务。他们提供**保密支持**，并可指导您向专门处理网络犯罪心理影响的适当专业人员求助。
+如果你不知道从哪里开始，[**National Domestic Violence Hotline 等支援机构**](https://www.thehotline.org/)可以为遭受网络骚扰和人肉搜索的受害者提供资源并转介相关服务。该机构提供**保密支持**，也可以帮助你联系处理网络犯罪心理影响的专业人员。
 
 请记住，寻求专业帮助和支持并不是软弱的表现，而是走向治愈和康复的积极步骤。在这个充满挑战的时刻，不要犹豫，向值得信赖的个人和组织寻求帮助。
 
@@ -170,7 +171,7 @@ ______
 
 如果 "dxxing "事件已造成**重大伤害**，或者你认为自己的安全受到威胁，请考虑咨询**网络犯罪**或**隐私法**方面的专业**律师。他们可以为你提供**法律建议**，帮助你寻求正义并对侵权者采取**法律行动**。
 
-熟悉相关的**政府法规**，例如 [**General Data Protection Regulation (GDPR)**](https://gdpr-info.eu/) in the European Union or the [**California Consumer Privacy Act (CCPA)**](https://www.oag.ca.gov/privacy/ccpa)在美国，这可能会提供额外的**保护和追索途径。
+了解相关的**政府法规**，例如欧盟的[**《通用数据保护条例》（GDPR）**](https://gdpr-info.eu/)和美国加州的[**《加州消费者隐私法》（CCPA）**](https://www.oag.ca.gov/privacy/ccpa)。这些法规可能提供额外的**保护**和救济途径。
 
 例如，根据 GDPR，欧盟的个人有权要求从在线平台删除或更正其个人信息，并有权要求被遗忘。CCPA 赋予加州居民对其个人信息的某些权利，包括了解企业收集、共享或出售哪些个人信息的权利。
 
@@ -198,10 +199,10 @@ ______
 
 ## 参考资料
 
-1. [Federal Trade Commission: Protecting Your Personal Information](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
-2. [Electronic Frontier Foundation: Guide to Online Privacy](https://ssd.eff.org/en/module/your-security-plan)
-3. [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/)
-4. [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
+1. [Federal Trade Commission：保护个人信息](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
+2. [Electronic Frontier Foundation：在线隐私指南](https://ssd.eff.org/en/module/your-security-plan)
+3. [《通用数据保护条例》（GDPR）](https://gdpr-info.eu/)
+4. [《加州消费者隐私法》（CCPA）](https://oag.ca.gov/privacy/ccpa)
 5. [Google Alerts](https://www.google.com/alerts)
 6. [National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/)
 

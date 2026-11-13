@@ -1,6 +1,7 @@
 ---
 title: "Doxされたときの対処法：総合ガイド"
 date: 2023-07-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "個人情報の削除、オンライン・セキュリティの強化、事件の報告、サポートの求め方、法的手段の検討など、Doxedを受けたときに取るべき重要なステップをご覧ください。"
@@ -74,7 +75,7 @@ ______
 
 オリジナルの証拠**を保存し、ファイルのバックアップを取ることを忘れないでください。これにより、法執行機関や法律専門家に情報を提供する必要が生じた場合でも、情報が無傷のままであり、証拠として認められるようになります。
 
-お使いのデバイスでスクリーンショットをキャプチャする方法が不明な場合は、メーカーが提供する**ドキュメント**を参照するか、お使いのデバイスとオペレーティングシステムに基づく特定の手順をオンラインで検索してください。それ以外の場合は、以下を参照してください。 [article](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device)
+お使いのデバイスでスクリーンショットを撮る方法がわからない場合は、メーカーが提供する**ドキュメント**を参照するか、お使いのデバイスとオペレーティングシステムに応じた手順をオンラインで検索してください。また、こちらの[記事](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device)も参考にしてください。
 
 ______
 
@@ -91,9 +92,9 @@ ______
 このような措置を講じることで、個人情報へのアクセスを減らし、個人による悪用をより困難にすることができます。あなたの情報が安全に保護されていることを確認するために、定期的にオンラインプレゼンスを監視することを忘れないでください。
 
 #### ステップ3の追加情報
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [おすすめのプライバシーサービス](https://simeononsecurity.com/recommendations/services/)
+- [データブローカーから個人情報を削除する方法](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [ソーシャルメディアを安全に利用する方法](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -103,19 +104,19 @@ ______
 
 #### a. プライバシー設定を見直し、更新する。
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)オンライン・アカウントの保護レベルを最高レベルに設定する。個人情報や投稿の閲覧を、信頼できる友人や関係者のみに制限する。例えば、Facebookのようなソーシャルメディア・プラットフォームでは、プライバシー設定に移動し、自分のプロフィール、投稿、個人情報を閲覧できる人をカスタマイズする。
+[**プライバシー設定を確認する**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)オンライン・アカウントの保護レベルを最高レベルに設定する。個人情報や投稿の閲覧を、信頼できる友人や関係者のみに制限する。例えば、Facebookのようなソーシャルメディア・プラットフォームでは、プライバシー設定に移動し、自分のプロフィール、投稿、個人情報を閲覧できる人をカスタマイズする。
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [二要素認証（2FA）を有効にする](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を、可能な限りすべてのオンライン・アカウントに適用してください。2FAは、あなたのアカウントにアクセスするために、通常はモバイルデバイスを介して、追加の認証ステップを必要とすることにより、セキュリティの追加レイヤーを追加します。Google、Facebook、Twitterなどのサービスでは、2FAオプションを提供しています。各プラットフォームが提供する指示に従って、2FAを有効にしてください。
+[**二要素認証（2FA）を有効にする**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)を、可能な限りすべてのオンライン・アカウントに適用してください。2FAは、あなたのアカウントにアクセスするために、通常はモバイルデバイスを介して、追加の認証ステップを必要とすることにより、セキュリティの追加レイヤーを追加します。Google、Facebook、Twitterなどのサービスでは、2FAオプションを提供しています。各プラットフォームが提供する指示に従って、2FAを有効にしてください。
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [強力で一意のパスワードを使う](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-作成 [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)各オンライン・アカウントのパスワード**パスワードを安全に保存・管理するために、**パスワードマネージャー**の利用を検討しましょう。LastPass、Dashlane、1Passwordのようなパスワード管理ツールは、複雑なパスワードを生成して保存してくれます。
+作成 [**強力で一意のパスワード**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)各オンライン・アカウントのパスワード**パスワードを安全に保存・管理するために、**パスワードマネージャー**の利用を検討しましょう。LastPass、Dashlane、1Passwordのようなパスワード管理ツールは、複雑なパスワードを生成して保存してくれます。
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [オンラインで個人情報を共有するときは注意する](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)公共のプラットフォームや見知らぬ人との会話ではオンライン・フォームに記入したり、見知らぬ人と会話したりするときは、**慎重にしてください**。個人情報を提供する前に、ウェブサイトやプラットフォームの正当性と安全性を確認してください。例えば、**パブリック・フォーラムやオンライン・コミュニティでは、**完全な住所や電話番号**を共有しないようにしましょう。
+[**機微な個人情報の共有を避ける**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)公共のプラットフォームや見知らぬ人との会話ではオンライン・フォームに記入したり、見知らぬ人と会話したりするときは、**慎重にしてください**。個人情報を提供する前に、ウェブサイトやプラットフォームの正当性と安全性を確認してください。例えば、**パブリック・フォーラムやオンライン・コミュニティでは、**完全な住所や電話番号**を共有しないようにしましょう。
 
 #### e. 定期的にソフトウェアをアップデートし、ウイルス対策を行う。
 
@@ -132,7 +133,7 @@ ______
 
 例えば、米国では、地元の**警察署**または**保安官事務所**に連絡して、doxing事件を報告することができます。スクリーンショット、メッセージ、その他の関連情報など、あなたが収集した**証拠**を含め、事件の詳細な説明を提供してください。
 
-場合によっては、Doxingの深刻さとそれがあなたの人生に与えた影響に応じて、他の組織や当局を巻き込む必要があるかもしれません。これには、以下のようなサイバー犯罪部門**に事件を報告することが含まれます。 [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) or the [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx)
+doxxingの深刻さや生活への影響によっては、ほかの組織や当局への連絡が必要です。たとえば、サイバー犯罪を担当する機関に報告できます。[**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber)や[**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx)がその例です。
 
 警察官や捜査官の名前、提供された事件番号など、法執行機関と交わしたすべての**通信**を記録することを忘れないでください。これは、あなたのケースの進捗状況を把握し、必要に応じて追加情報を提供するのに役立ちます。
 
@@ -146,7 +147,7 @@ Doxing事件の余波に対処することは、**感情的にも精神的にも
 
 さらに、同じような状況を経験した人の**サポートグループやオンラインコミュニティ**とつながることも役に立ちます。自分の経験を共有したり、他の人から学んだりすることで、連帯感を得たり、Doxingを受けた後を乗り越えるための貴重なアドバイスを得たりすることができます。
 
-何から始めたらよいかわからない場合は [**organizations such as the National Domestic Violence Hotline**](https://www.thehotline.org/)は、オンライン・ハラスメントやDoxingの被害者のためのリソースや支援サービスの紹介を提供することができます。また、サイバー犯罪の心理的影響を専門に扱う適切な専門家を紹介することもできます。
+どこから始めればよいかわからない場合は、[**National Domestic Violence Hotline などの支援機関**](https://www.thehotline.org/)が、オンラインでの嫌がらせやdoxxingの被害者向けに情報や支援窓口を案内しています。**秘密が守られる支援**を提供し、サイバー犯罪による心理的影響を扱う専門家につなぐこともできます。
 
 専門家の助けやサポートを求めることは、弱さの表れではなく、癒しと回復に向けた積極的な一歩であることを忘れないでください。この困難な時期にあなたを助けてくれる信頼できる個人や組織に、ためらわずに手を差し伸べてください。
 
@@ -170,7 +171,7 @@ ______
 
 doxing事件が**重大な被害**をもたらした場合、またはあなたの安全が脅かされていると思われる場合は、**サイバー犯罪**または**プライバシー法**を専門とする**弁護士**に相談することを検討してください。弁護士は、正義を求め、ドクサーに対する**法的措置**を追求するための**選択肢について、**法的助言**を提供することができます。
 
-のような関連する**政府規制**に精通する。 [**General Data Protection Regulation (GDPR)**](https://gdpr-info.eu/) in the European Union or the [**California Consumer Privacy Act (CCPA)**](https://www.oag.ca.gov/privacy/ccpa)米国では、さらなる**保護**と救済手段を提供する可能性があります。
+関連する**政府の規制**を確認してください。たとえば、欧州連合の[**一般データ保護規則（GDPR）**](https://gdpr-info.eu/)や、米国カリフォルニア州の[**消費者プライバシー法（CCPA）**](https://www.oag.ca.gov/privacy/ccpa)があります。これらの規則は追加の**保護**や救済手段を定めている場合があります。
 
 例えば、GDPRの下では、欧州連合（EU）の個人は、オンラインプラットフォームから個人情報の削除または修正を要求する権利と、忘れられる権利を有する。CCPAは、カリフォルニア州の住民に、企業が収集、共有、販売する個人情報を知る権利など、個人情報に関する一定の権利を認めている。
 
@@ -198,10 +199,10 @@ ______
 
 ## 参考文献
 
-1. [Federal Trade Commission: Protecting Your Personal Information](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
-2. [Electronic Frontier Foundation: Guide to Online Privacy](https://ssd.eff.org/en/module/your-security-plan)
-3. [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/)
-4. [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
+1. [Federal Trade Commission：個人情報を保護する方法](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
+2. [Electronic Frontier Foundation：オンラインプライバシーガイド](https://ssd.eff.org/en/module/your-security-plan)
+3. [一般データ保護規則（GDPR）](https://gdpr-info.eu/)
+4. [カリフォルニア州消費者プライバシー法（CCPA）](https://oag.ca.gov/privacy/ccpa)
 5. [Google Alerts](https://www.google.com/alerts)
 6. [National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/)
 

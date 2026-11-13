@@ -1,6 +1,7 @@
 ---
 title: "Wat je moet doen als je bent gedupeerd: Een uitgebreide gids"
 date: 2023-07-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Ontdek de belangrijkste stappen die je moet nemen als je gedoxxed bent, inclusief het verwijderen van persoonlijke informatie, het versterken van online beveiliging, het melden van het incident, het zoeken naar ondersteuning en het onderzoeken van juridische stappen."
@@ -74,7 +75,7 @@ Als iemand bijvoorbeeld je persoonlijke informatie heeft gedeeld op een social m
 
 Vergeet niet om **het originele bewijs te bewaren** en back-ups te maken van de bestanden. Dit zorgt ervoor dat de informatie intact en toelaatbaar blijft, mocht je het nodig hebben om het te overhandigen aan wetshandhavers of juridische professionals.
 
-Als je niet zeker weet hoe je screenshots moet maken op je apparaat, raadpleeg dan de **documentatie** van de fabrikant of zoek online naar specifieke instructies voor jouw apparaat en besturingssysteem. Raadpleeg anders het volgende [article](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device)
+Weet u niet hoe u schermafbeeldingen maakt op uw apparaat? Raadpleeg dan de **documentatie** van de fabrikant of zoek online naar specifieke instructies voor uw apparaat en besturingssysteem. Bekijk anders het volgende [artikel](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device).
 
 ______
 
@@ -91,9 +92,9 @@ Als u daarnaast **professionele profielen** hebt op platforms zoals LinkedIn, co
 Door deze stappen te nemen, verminder je de toegankelijkheid van je persoonlijke informatie en maak je het moeilijker voor individuen om er misbruik van te maken. Vergeet niet om uw online aanwezigheid regelmatig te controleren om ervoor te zorgen dat uw informatie veilig en beschermd blijft.
 
 #### Aanvullend lezen voor stap 3
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Aanbevolen privacydiensten](https://simeononsecurity.com/recommendations/services/)
+- [Uw gegevens uit databanken van databrokers verwijderen](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Veilig gebruik van sociale media](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -103,19 +104,19 @@ Het verbeteren van uw **online privacy** en **veiligheidsmaatregelen** is crucia
 
 #### a. Bekijk en update privacy-instellingen
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) van je online accounts en zorg ervoor dat ze zijn ingesteld op het hoogste beveiligingsniveau. Beperk de zichtbaarheid van persoonlijke informatie en berichten tot vertrouwde vrienden of connecties. Ga bijvoorbeeld op sociale mediaplatforms zoals Facebook naar de privacy-instellingen en pas aan wie je profiel, berichten en persoonlijke informatie kan zien.
+[**Controleer de privacyinstellingen**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) van je online accounts en zorg ervoor dat ze zijn ingesteld op het hoogste beveiligingsniveau. Beperk de zichtbaarheid van persoonlijke informatie en berichten tot vertrouwde vrienden of connecties. Ga bijvoorbeeld op sociale mediaplatforms zoals Facebook naar de privacy-instellingen en pas aan wie je profiel, berichten en persoonlijke informatie kan zien.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Schakel tweefactorauthenticatie (2FA) in](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) zoveel mogelijk op al je online accounts. 2FA voegt een extra beveiligingslaag toe door een extra verificatiestap te vereisen, meestal via een mobiel apparaat, om toegang te krijgen tot je accounts. Diensten zoals Google, Facebook en Twitter bieden 2FA opties. Schakel het in door de instructies van de respectieve platforms te volgen.
+[**Schakel tweefactorauthenticatie (2FA) in**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) zoveel mogelijk op al je online accounts. 2FA voegt een extra beveiligingslaag toe door een extra verificatiestap te vereisen, meestal via een mobiel apparaat, om toegang te krijgen tot je accounts. Diensten zoals Google, Facebook en Twitter bieden 2FA opties. Schakel het in door de instructies van de respectieve platforms te volgen.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Gebruik sterke, unieke wachtwoorden](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Maak [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) voor elk van uw online accounts. **Vermijd het gebruik van veelgebruikte wachtwoorden of het hergebruiken van wachtwoorden op meerdere platforms**. Overweeg het gebruik van een **wachtwoordmanager** om uw wachtwoorden veilig op te slaan en te beheren. Wachtwoordmanagers zoals LastPass, Dashlane of 1Password genereren en bewaren complexe wachtwoorden voor u.
+Maak [**sterke, unieke wachtwoorden**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) voor elk van uw online accounts. **Vermijd het gebruik van veelgebruikte wachtwoorden of het hergebruiken van wachtwoorden op meerdere platforms**. Overweeg het gebruik van een **wachtwoordmanager** om uw wachtwoorden veilig op te slaan en te beheren. Wachtwoordmanagers zoals LastPass, Dashlane of 1Password genereren en bewaren complexe wachtwoorden voor u.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Wees voorzichtig met het online delen van persoonlijke gegevens](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) op openbare platforms of met onbekende personen. **Wees voorzichtig** bij het invullen van online formulieren of het aangaan van gesprekken met vreemden. Controleer de legitimiteit en veiligheid van websites of platforms voordat u persoonlijke gegevens verstrekt. **Vermijd bijvoorbeeld het delen van uw volledige adres of telefoonnummer** op openbare forums of online gemeenschappen.
+[**Deel geen gevoelige persoonsgegevens**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) op openbare platforms of met onbekende personen. **Wees voorzichtig** bij het invullen van online formulieren of het aangaan van gesprekken met vreemden. Controleer de legitimiteit en veiligheid van websites of platforms voordat u persoonlijke gegevens verstrekt. **Vermijd bijvoorbeeld het delen van uw volledige adres of telefoonnummer** op openbare forums of online gemeenschappen.
 
 #### e. Werk software regelmatig bij en gebruik antivirusbescherming
 
@@ -132,7 +133,7 @@ ______
 
 In de Verenigde Staten kun je bijvoorbeeld contact opnemen met je lokale **politie** of **sheriff** om het doxxing-incident te melden. Geef hen een gedetailleerd verslag van het incident, inclusief het **bewijsmateriaal** dat je hebt verzameld, zoals schermafbeeldingen, berichten of andere relevante informatie.
 
-In sommige gevallen, afhankelijk van de ernst van de doxxing en de impact die het heeft gehad op je leven, kan het nodig zijn om andere organisaties of autoriteiten in te schakelen. Dit kan zijn **het incident melden bij cybercrime-units**, zoals de [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) or the [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx)
+Afhankelijk van de ernst van het doxxingincident en de gevolgen voor uw leven moet u soms andere organisaties of autoriteiten inschakelen. U kunt het incident melden bij instanties voor cybercriminaliteit, zoals het [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) of het [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx).
 
 Vergeet niet om alle **communicatie** die je hebt met wetshandhavingsinstanties te documenteren, inclusief de namen van de agenten of rechercheurs met wie je spreekt en eventuele zaaknummers. Zo kun je de voortgang van je zaak bijhouden en indien nodig aanvullende informatie verstrekken.
 
@@ -146,7 +147,7 @@ Omgaan met de nasleep van een doxxing-incident kan **emotioneel en mentaal uitda
 
 Daarnaast kan het nuttig zijn om je aan te sluiten bij **steungroepen of online gemeenschappen** van mensen die soortgelijke situaties hebben meegemaakt. Het delen van je ervaringen en het leren van anderen kan zorgen voor een gevoel van solidariteit en waardevol advies over het omgaan met de nasleep van een doxx.
 
-Als je niet zeker weet waar je moet beginnen, [**organizations such as the National Domestic Violence Hotline**](https://www.thehotline.org/) kan hulpbronnen en doorverwijzingen bieden naar hulpdiensten voor slachtoffers van online intimidatie en doxxing. Ze bieden **vertrouwelijke ondersteuning** en kunnen je doorverwijzen naar geschikte professionals die gespecialiseerd zijn in het omgaan met de psychologische impact van cybercriminaliteit.
+Als u niet weet waar u moet beginnen, kan [**een organisatie zoals de National Domestic Violence Hotline**](https://www.thehotline.org/) informatie en doorverwijzingen bieden aan slachtoffers van online intimidatie en doxxing. De organisatie biedt **vertrouwelijke hulp** en kan u in contact brengen met deskundigen op het gebied van de psychologische gevolgen van cybercriminaliteit.
 
 Onthoud dat professionele hulp en ondersteuning zoeken geen teken van zwakte is, maar een proactieve stap naar genezing en herstel. Aarzel niet om contact op te nemen met betrouwbare personen en organisaties om je te helpen in deze moeilijke tijd.
 
@@ -170,7 +171,7 @@ ______
 
 Als het doxxing-incident **significante schade** heeft veroorzaakt of als u denkt dat uw veiligheid in gevaar is, overweeg dan om een **advocaat** te raadplegen die gespecialiseerd is in **cybercriminaliteit** of **privacywetgeving**. Zij kunnen u juridisch advies** geven over uw mogelijkheden om gerechtigheid te zoeken en juridische stappen** te ondernemen tegen de doxxer.
 
-Maak uzelf vertrouwd met relevante **overheidsvoorschriften**, zoals de [**General Data Protection Regulation (GDPR)**](https://gdpr-info.eu/) in the European Union or the [**California Consumer Privacy Act (CCPA)**](https://www.oag.ca.gov/privacy/ccpa) in de Verenigde Staten, die aanvullende **bescherming** en verhaalsmogelijkheden kunnen bieden.
+Maak uzelf vertrouwd met relevante **overheidsregels**, zoals de [**Algemene verordening gegevensbescherming (GDPR)**](https://gdpr-info.eu/) van de Europese Unie en de [**Californische wet op consumentenprivacy (CCPA)**](https://www.oag.ca.gov/privacy/ccpa) van de Verenigde Staten. Deze regels kunnen aanvullende **bescherming** en rechtsmiddelen bieden.
 
 Onder de GDPR hebben personen in de Europese Unie bijvoorbeeld het recht om de verwijdering of rectificatie van hun persoonlijke gegevens van online platforms aan te vragen en het recht om vergeten te worden. De CCPA geeft inwoners van Californië bepaalde rechten over hun persoonlijke informatie, waaronder het recht om te weten welke persoonlijke informatie wordt verzameld, gedeeld of verkocht door bedrijven.
 
@@ -198,10 +199,10 @@ ______
 
 ## Verwijzingen
 
-1. [Federal Trade Commission: Protecting Your Personal Information](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
-2. [Electronic Frontier Foundation: Guide to Online Privacy](https://ssd.eff.org/en/module/your-security-plan)
-3. [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/)
-4. [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
+1. [Federal Trade Commission: uw persoonsgegevens beschermen](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
+2. [Electronic Frontier Foundation: gids voor online privacy](https://ssd.eff.org/en/module/your-security-plan)
+3. [Algemene verordening gegevensbescherming (GDPR)](https://gdpr-info.eu/)
+4. [Californische wet op consumentenprivacy (CCPA)](https://oag.ca.gov/privacy/ccpa)
 5. [Google Alerts](https://www.google.com/alerts)
 6. [National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/)
 

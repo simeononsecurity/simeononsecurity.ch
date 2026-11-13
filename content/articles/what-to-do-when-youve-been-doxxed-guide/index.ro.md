@@ -1,6 +1,7 @@
 ---
 title: "Ce trebuie să faci atunci când ai fost doxxed: Un ghid cuprinzător"
 date: 2023-07-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Descoperiți pașii esențiali pe care trebuie să-i urmați atunci când ați fost doxxed, inclusiv cum să eliminați informațiile personale, să consolidați securitatea online, să raportați incidentul, să căutați sprijin și să explorați căile legale de atac."
@@ -74,7 +75,7 @@ De exemplu, dacă cineva a partajat informațiile dvs. personale pe o platformă
 
 Nu uitați să **conservați dovezile originale** și să faceți copii de rezervă ale fișierelor. Acest lucru asigură faptul că informațiile rămân intacte și admisibile, în cazul în care trebuie să le furnizați forțelor de ordine sau profesioniștilor din domeniul juridic.
 
-Dacă nu sunteți sigur cum să capturați capturi de ecran pe dispozitivul dvs., consultați **documentația** furnizată de producător sau căutați online instrucțiuni specifice în funcție de dispozitiv și de sistemul de operare. În caz contrar, vă rugăm să consultați următoarele [article](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device)
+Dacă nu știți cum să faceți capturi de ecran pe dispozitivul dvs., consultați **documentația** oferită de producător sau căutați online instrucțiuni specifice pentru dispozitivul și sistemul de operare folosite. În caz contrar, consultați următorul [articol](https://www.pcmag.com/news/how-to-take-a-screenshot-on-any-device).
 
 ______
 
@@ -91,9 +92,9 @@ Efectuați o căutare pe motoarele de căutare populare folosind **numele** dvs.
 Luând aceste măsuri, reduceți accesibilitatea informațiilor dvs. personale și faceți mai dificilă exploatarea acestora de către indivizi. Nu uitați să vă monitorizați în mod regulat prezența online pentru a vă asigura că informațiile dvs. rămân sigure și protejate.
 
 #### Lecturi suplimentare pentru etapa 3
-- [Recommended Privacy Services](https://simeononsecurity.com/recommendations/services/)
-- [Removing your information from Data Brokers](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
-- [Safe Social Media Practices](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+- [Servicii recomandate pentru protejarea confidențialității](https://simeononsecurity.com/recommendations/services/)
+- [Eliminarea informațiilor personale din bazele brokerilor de date](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/)
+- [Practici sigure pe rețelele sociale](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
 ______
 
@@ -103,19 +104,19 @@ Consolidarea măsurilor de **privacitate online** și **securitate** este crucia
 
 #### a. Revizuiți și actualizați setările de confidențialitate
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) conturilor dvs. online și asigurați-vă că acestea sunt setate la cel mai înalt nivel de protecție. Limitați vizibilitatea informațiilor personale și a postărilor doar la prietenii sau conexiunile de încredere. De exemplu, pe platformele de socializare precum Facebook, navigați la setările de confidențialitate și personalizați cine vă poate vizualiza profilul, postările și informațiile personale.
+[**Verificați setările de confidențialitate**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) conturilor dvs. online și asigurați-vă că acestea sunt setate la cel mai înalt nivel de protecție. Limitați vizibilitatea informațiilor personale și a postărilor doar la prietenii sau conexiunile de încredere. De exemplu, pe platformele de socializare precum Facebook, navigați la setările de confidențialitate și personalizați cine vă poate vizualiza profilul, postările și informațiile personale.
 
-#### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### b. [Activați autentificarea cu doi factori (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pe toate conturile dvs. online ori de câte ori este posibil. 2FA adaugă un nivel suplimentar de securitate prin faptul că necesită o etapă suplimentară de verificare, de obicei prin intermediul unui dispozitiv mobil, pentru a vă accesa conturile. Servicii precum Google, Facebook și Twitter oferă opțiuni 2FA. Activați-o urmând instrucțiunile furnizate de platformele respective.
+[**Activați autentificarea cu doi factori (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pe toate conturile dvs. online ori de câte ori este posibil. 2FA adaugă un nivel suplimentar de securitate prin faptul că necesită o etapă suplimentară de verificare, de obicei prin intermediul unui dispozitiv mobil, pentru a vă accesa conturile. Servicii precum Google, Facebook și Twitter oferă opțiuni 2FA. Activați-o urmând instrucțiunile furnizate de platformele respective.
 
-#### c. [Use strong, unique passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### c. [Folosiți parole puternice și unice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-Creați [**strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pentru fiecare dintre conturile dvs. online. **Evitați să folosiți parole comune sau să refolosiți parolele pe mai multe platforme.** Luați în considerare utilizarea unui **gestionar de parole** pentru a vă stoca și gestiona parolele în siguranță. Managerii de parole, cum ar fi LastPass, Dashlane sau 1Password, generează și stochează parole complexe pentru dvs.
+Creați [**parole puternice și unice**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pentru fiecare dintre conturile dvs. online. **Evitați să folosiți parole comune sau să refolosiți parolele pe mai multe platforme.** Luați în considerare utilizarea unui **gestionar de parole** pentru a vă stoca și gestiona parolele în siguranță. Managerii de parole, cum ar fi LastPass, Dashlane sau 1Password, generează și stochează parole complexe pentru dvs.
 
-#### d. [Be cautious with sharing personal information online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
+#### d. [Aveți grijă când distribuiți informații personale online](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/)
 
-[**Avoid sharing sensitive personal information**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) pe platforme publice sau cu persoane necunoscute. **Să fiți prudenți** atunci când completați formulare online sau purtați conversații cu persoane necunoscute. Verificați legitimitatea și securitatea site-urilor web sau a platformelor înainte de a furniza orice detalii personale. De exemplu, **evitați să vă comunicați adresa completă sau numărul de telefon** în forumuri publice sau comunități online.
+[**Evitați să divulgați informații personale sensibile**](https://simeononsecurity.com/articles/developing-secure-browsing-habits-for-a-safer-online-experience/) pe platforme publice sau cu persoane necunoscute. **Să fiți prudenți** atunci când completați formulare online sau purtați conversații cu persoane necunoscute. Verificați legitimitatea și securitatea site-urilor web sau a platformelor înainte de a furniza orice detalii personale. De exemplu, **evitați să vă comunicați adresa completă sau numărul de telefon** în forumuri publice sau comunități online.
 
 #### e. Actualizați în mod regulat software-ul și utilizați protecția antivirus
 
@@ -132,7 +133,7 @@ ______
 
 De exemplu, în Statele Unite, puteți contacta **departamentul local de poliție** sau **oficiul șerifului** pentru a raporta incidentul de doxxing. Furnizați-le o relatare detaliată a incidentului, inclusiv **dovezile** pe care le-ați adunat, cum ar fi capturi de ecran, mesaje sau orice alte informații relevante.
 
-În unele cazuri, în funcție de gravitatea doxxing-ului și de impactul pe care l-a avut asupra vieții dumneavoastră, poate fi necesar să implicați și alte organizații sau autorități. Acest lucru ar putea include **raportarea incidentului la unitățile de combatere a criminalității cibernetice**, cum ar fi [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) or the [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx)
+În funcție de gravitatea doxxing-ului și de impactul asupra vieții dumneavoastră, poate fi necesar să contactați și alte organizații sau autorități. Puteți raporta incidentul unităților de combatere a criminalității cibernetice, precum [**Federal Bureau of Investigation (FBI)**](https://www.fbi.gov/investigate/cyber) sau [**Internet Crime Complaint Center (IC3)**](https://www.ic3.gov/Home/ComplaintChoice/default.aspx).
 
 Nu uitați să documentați toate **comunicările** pe care le aveți cu agențiile de aplicare a legii, inclusiv numele ofițerilor sau anchetatorilor cu care vorbiți și orice număr de caz furnizat. Acest lucru vă va ajuta să urmăriți evoluția cazului dumneavoastră și să furnizați informații suplimentare, dacă este necesar.
 
@@ -146,7 +147,7 @@ Gestionarea consecințelor unui incident de doxxing poate fi **obișnuită din p
 
 În plus, conectarea la **grupuri de sprijin sau comunități online** de persoane care au trecut prin situații similare poate fi utilă. Împărtășirea experiențelor dumneavoastră și învățarea de la ceilalți vă poate oferi un sentiment de solidaritate și sfaturi valoroase pentru a naviga în consecințele doxxed-ului.
 
-Dacă nu sunteți sigur de unde să începeți, [**organizations such as the National Domestic Violence Hotline**](https://www.thehotline.org/) poate oferi resurse și trimiteri către servicii de sprijin pentru victimele hărțuirii online și ale doxxing-ului. Aceștia oferă **suport confidențial** și vă pot îndruma către profesioniști adecvați, specializați în tratarea impactului psihologic al infracțiunilor informatice.
+Dacă nu știți de unde să începeți, [**o organizație precum National Domestic Violence Hotline**](https://www.thehotline.org/) poate oferi resurse și îndrumări către servicii de sprijin pentru victimele hărțuirii online și ale doxxing-ului. Organizația oferă **sprijin confidențial** și vă poate îndruma către specialiști în efectele psihologice ale criminalității informatice.
 
 Nu uitați că solicitarea de ajutor și sprijin profesional nu este un semn de slăbiciune, ci un pas proactiv spre vindecare și recuperare. Nu ezitați să apelați la persoane și organizații de încredere pentru a vă ajuta în această perioadă dificilă.
 
@@ -170,7 +171,7 @@ ______
 
 În cazul în care incidentul de doxxing a provocat **prejudicii semnificative** sau credeți că siguranța dumneavoastră este în pericol, luați în considerare posibilitatea de a vă consulta cu un **avocat** specializat în **criminalitate informatică** sau **legislație privind confidențialitatea**. Aceștia vă pot oferi **consiliere juridică** cu privire la opțiunile pe care le aveți pentru a căuta dreptate și pentru a întreprinde **acțiuni juridice** împotriva celui care a făcut doxxer-ul.
 
-Familiarizați-vă cu **reglementările guvernamentale** relevante, cum ar fi [**General Data Protection Regulation (GDPR)**](https://gdpr-info.eu/) in the European Union or the [**California Consumer Privacy Act (CCPA)**](https://www.oag.ca.gov/privacy/ccpa) în Statele Unite, care pot oferi **protecții** și căi de atac suplimentare.
+Familiarizați-vă cu **reglementările** relevante, precum [**Regulamentul general privind protecția datelor (GDPR)**](https://gdpr-info.eu/) al Uniunii Europene și [**Legea californiană privind confidențialitatea consumatorilor (CCPA)**](https://www.oag.ca.gov/privacy/ccpa) din Statele Unite. Aceste legi pot oferi **protecție** suplimentară și căi de atac.
 
 De exemplu, în conformitate cu GDPR, persoanele fizice din Uniunea Europeană au dreptul de a solicita eliminarea sau rectificarea informațiilor lor personale de pe platformele online și dreptul de a fi uitate. CCPA acordă rezidenților din California anumite drepturi asupra informațiilor lor personale, inclusiv dreptul de a ști ce informații personale sunt colectate, partajate sau vândute de către întreprinderi.
 
@@ -198,10 +199,10 @@ ______
 
 ## Referințe
 
-1. [Federal Trade Commission: Protecting Your Personal Information](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
-2. [Electronic Frontier Foundation: Guide to Online Privacy](https://ssd.eff.org/en/module/your-security-plan)
-3. [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/)
-4. [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
+1. [Federal Trade Commission: protejarea informațiilor personale](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
+2. [Electronic Frontier Foundation: ghid de confidențialitate online](https://ssd.eff.org/en/module/your-security-plan)
+3. [Regulamentul general privind protecția datelor (GDPR)](https://gdpr-info.eu/)
+4. [Legea californiană privind confidențialitatea consumatorilor (CCPA)](https://oag.ca.gov/privacy/ccpa)
 5. [Google Alerts](https://www.google.com/alerts)
 6. [National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/)
 
