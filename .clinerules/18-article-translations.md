@@ -134,9 +134,12 @@
   Review each flag in context, then translate copied reader-facing prose before
   freezing the hash snapshot.
   Compare unchanged descriptive table cells directly with the source. The
-  leakage checker queues copied multiword cells for manual review. Translate
+  leakage checker queues copied descriptive cells, including common
+  single-word labels, for manual review. Translate
   headers, method names, and explanatory labels; preserve product/model names,
   identifiers, commands, and numeric results when they are fixed data.
+  Review each unchanged table-cell flag in context and record the reason
+  when you preserve it as a product name, status, identifier, or fixed value.
   A locale filename, nonempty body, expected-script sample, or low file-wide
   English ratio does not establish translated coverage. Before approval, inspect
   the title, description, opening, every section, and reader-facing examples in

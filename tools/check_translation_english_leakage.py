@@ -31,8 +31,17 @@ ENGLISH_STOPWORDS = set(
     "which can will have has it its was were if than these those they we you our "
     "should also when how what where after before use more into about through "
     "your yourself yourselves "
-    "each one other any only all do does then their them there such using used per "
+    "each one other any only all do does then their them there such using used "
     "may might could would must been being"
+    .split()
+)
+TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
+    "average mean final score latency memory bandwidth method trial throughput "
+    "value category result benchmark stage test cost price output input time "
+    "performance description rate duration total size count level status per "
+    "component privacy question local model server situation better choice "
+    "reason evidence collect action recommendation finding concern response "
+    "what check example setting location boundary control"
     .split()
 )
 GENERIC_ENGLISH_LINK_LABELS = {
@@ -445,6 +454,12 @@ def markdown_structure(text: str) -> dict[str, object]:
     return {
         "heading_levels": heading_levels,
         "table_shapes": table_shapes,
+        "strong_emphasis_markers": len(
+            re.findall(
+                r"(?<!\\)(?:\*\*|__)",
+                re.sub(r"`+[^`\n]*`+", " ", "\n".join(visible_lines)),
+            )
+        ),
         "ordered_items": ordered_items,
         "unordered_items": unordered_items,
         "section_items": section_items,
@@ -545,8 +560,8 @@ def copied_english_table_cells(source: str, target: str) -> list[str]:
                 if (
                     normalized
                     and normalized == normalize(target_cell)
-                    and len(words) >= 2
-                    and any(word in ENGLISH_STOPWORDS for word in words)
+                    and words
+                    and any(word in TABLE_ENGLISH_REVIEW_WORDS for word in words)
                 ):
                     copied.append(
                         f"table {table_index}, row {row_index}, cell {cell_index}: {normalized}"

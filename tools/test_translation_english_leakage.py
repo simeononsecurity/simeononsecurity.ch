@@ -40,8 +40,37 @@ class FencedProseTests(unittest.TestCase):
             ["table 1, row 1, cell 2: mean prefix reuse per trial"],
         )
 
+    def test_flags_descriptive_table_cells_without_stopwords(self):
+        table = "| Average latency |\n| --- |\n| 42 ms |\n"
+        self.assertEqual(
+            copied_english_table_cells(table, table),
+            ["table 1, row 1, cell 1: average latency"],
+        )
+
+    def test_flags_generic_table_labels_missed_by_stopword_screen(self):
+        table = (
+            "| Component | Privacy question |\n"
+            "| --- | --- |\n"
+            "| Local model server | Evidence to collect |\n"
+            "| Situation | Better first choice |\n"
+            "| Reason | Other |\n"
+        )
+        self.assertEqual(
+            copied_english_table_cells(table, table),
+            [
+                "table 1, row 1, cell 1: component",
+                "table 1, row 1, cell 2: privacy question",
+                "table 1, row 2, cell 1: local model server",
+                "table 1, row 2, cell 2: evidence to collect",
+                "table 1, row 3, cell 1: situation",
+                "table 1, row 3, cell 2: better first choice",
+                "table 1, row 4, cell 1: reason",
+                "table 1, row 4, cell 2: other",
+            ],
+        )
+
     def test_ignores_table_like_content_inside_code_fence(self):
-        source = "```text\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
+        source = "```bash\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
         target = source
         self.assertEqual(copied_english_table_cells(source, target), [])
 
@@ -100,6 +129,7 @@ class FencedProseTests(unittest.TestCase):
             {
                 "heading_levels": [2],
                 "table_shapes": [[2, 2, 2]],
+                "strong_emphasis_markers": 0,
                 "ordered_items": 2,
                 "unordered_items": 2,
                 "section_items": [
@@ -150,6 +180,17 @@ class FencedProseTests(unittest.TestCase):
         target = "## Quelle\n\n| Nom | Valeur |\n| --- | --- |\n| Premier | Deuxième |\n"
 
         self.assertEqual(markdown_structure_differences(source, target), {})
+
+    def test_markdown_structure_flags_unbalanced_strong_emphasis(self):
+        source = "A **bold phrase** remains in this sentence."
+        balanced = "Une **phrase en gras** reste dans cette phrase."
+        unbalanced = "Une **phrase en gras reste dans cette phrase."
+
+        self.assertEqual(markdown_structure_differences(source, balanced), {})
+        self.assertIn(
+            "strong_emphasis_markers",
+            markdown_structure_differences(source, unbalanced),
+        )
 
     def test_markdown_structure_recognizes_tables_without_outer_pipes(self):
         source = "Name | Value\n--- | ---\nFirst | Second\n"
