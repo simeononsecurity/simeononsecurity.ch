@@ -1,6 +1,7 @@
 ---
 title: "Segmentacja sieci: Jak poprawić bezpieczeństwo w Twojej organizacji"
 date: 2023-03-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Przewodnik po tym, jak przeprowadzić segmentację sieci w celu poprawy bezpieczeństwa i zmniejszenia ryzyka w organizacji."
@@ -49,15 +50,15 @@ Na koniec należy **testować i monitorować sieć**, aby upewnić się, że seg
 
 ____
 
-## Najlepsze praktyki segmentacji sieci
+## Sprawdzone metody segmentacji sieci
 
 Oto kilka najlepszych praktyk, których należy przestrzegać podczas wykonywania segmentacji sieci:
 
 - **Postępuj zgodnie z zasadą najmniejszego przywileju**: Ogranicz dostęp do każdego segmentu sieci tylko do tych, którzy potrzebują go do wykonywania swoich funkcji zawodowych. Użyj kontroli dostępu, takich jak VLAN, VRF lub innych technologii, aby wymusić tę zasadę.
 
-- **Wdrożenie silnej kontroli dostępu**: Użyj silnego uwierzytelniania i kontroli dostępu, aby ograniczyć dostęp do wrażliwych danych i systemów. Może to obejmować stosowanie wieloczynnikowego uwierzytelniania, silnych haseł i innych kontroli dostępu, aby zapewnić, że tylko autoryzowani użytkownicy mogą uzyskać dostęp do krytycznych zasobów.
+- **Wdrożenie silnej kontroli dostępu**: Użyj silnego uwierzytelniania i kontroli dostępu, aby ograniczyć dostęp do wrażliwych danych i systemów. Może to obejmować stosowanie wieloczynnikowego uwierzytelniania, [silnych haseł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) i innych kontroli dostępu, aby zapewnić, że tylko autoryzowani użytkownicy mogą uzyskać dostęp do krytycznych zasobów.
 
-- Rozmieść zapory ogniowe**: Rozmieść zapory sieciowe w celu ograniczenia ruchu między segmentami sieci i ochrony przed cyberatakami. Może to obejmować użycie zarówno sprzętowych, jak i programowych zapór sieciowych w celu ochrony sieci przed zagrożeniami wewnętrznymi i zewnętrznymi.
+- **Rozmieść zapory ogniowe**: Rozmieść zapory sieciowe w celu ograniczenia ruchu między segmentami sieci i ochrony przed cyberatakami. Może to obejmować użycie zarówno sprzętowych, jak i programowych zapór sieciowych w celu ochrony sieci przed zagrożeniami wewnętrznymi i zewnętrznymi.
 
 - **Regularnie testuj i monitoruj sieć**: Regularne testowanie i monitorowanie pomoże Ci zidentyfikować potencjalne luki w zabezpieczeniach i wprowadzić wszelkie niezbędne poprawki do kontroli bezpieczeństwa. Może to obejmować wykorzystanie testów penetracyjnych, skanowania podatności i innych narzędzi testowania bezpieczeństwa w celu zidentyfikowania potencjalnych luk w zabezpieczeniach.
 
@@ -67,14 +68,14 @@ Stosując się do tych najlepszych praktyk, można skutecznie przeprowadzić seg
 
 ____
 
-## Wnioski.
+## Podsumowanie
 
 Segmentacja sieci jest kluczowym elementem strategii bezpieczeństwa każdej organizacji. Dzieląc swoją sieć na mniejsze podsieci, można ograniczyć zakres naruszenia bezpieczeństwa i zmniejszyć ryzyko cyberataków. Postępuj zgodnie z najlepszymi praktykami przedstawionymi w tym artykule, aby skutecznie przeprowadzić segmentację sieci i wykorzystać ją jako część warstwowego podejścia do bezpieczeństwa, które obejmuje inne środki bezpieczeństwa. W ten sposób można lepiej chronić swoją organizację przed zagrożeniami cybernetycznymi i zachować bezpieczeństwo wrażliwych danych i systemów.
 
 ## Referencje
 
-- Cisco. (n.d.).[What is Network Segmentation?](https://www.cisco.com/c/en/us/products/security/what-is-network-segmentation.html) 
-- NIST. (2022).[Guide to a Secure Enterprise Network Landscape](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-215.pdf) 
-- Palo Alto Networks. (n.d.).[What is Network Segmentation?](https://www.paloaltonetworks.com/cyberpedia/what-is-network-segmentation)
+- Cisco. (n.d.).[Czym jest segmentacja sieci?](https://www.cisco.com/c/en/us/products/security/what-is-network-segmentation.html)
+- NIST. (2022).[Przewodnik po bezpiecznym środowisku sieci korporacyjnej](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-215.pdf)
+- Palo Alto Networks. (n.d.).[Czym jest segmentacja sieci?](https://www.paloaltonetworks.com/cyberpedia/what-is-network-segmentation)
 
 Te zasoby dostarczają dodatkowych informacji i najlepszych praktyk dotyczących segmentacji sieci, które mogą pomóc w poprawie bezpieczeństwa sieci organizacji.
