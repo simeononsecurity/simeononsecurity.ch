@@ -1,7 +1,7 @@
 ---
 title: "Os tipos mais comuns de ataques cibernéticos e como detectá-los"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Conheça os tipos mais comuns de ataques cibernéticos, as evidências que deixam em logs e telemetria e pratique a detecção em um laboratório de segurança doméstico."
@@ -118,7 +118,7 @@ ______
 |---|---|
 | **Kerberoasting** | Solicita um tíquete de serviço e depois quebra a senha criptografada offline |
 | **Ataque man-in-the-middle (MITM)** | Fica entre duas partes para ler ou alterar uma sessão |
-| **Pass-the-hash** | Reutiliza um hash de senha roubado para abrir uma nova sessão |
+| **Ataque de reutilização do hash (Pass-the-Hash)** | Reutiliza um hash de senha roubado para abrir uma nova sessão |
 | **Golden ticket** | Falsifica um tíquete Kerberos para obter amplo acesso ao domínio |
 | **Silver ticket** | Falsifica um tíquete de serviço para um serviço específico |
 | **Coleta de credenciais** | Reúne nomes de usuário e senhas em grande quantidade |

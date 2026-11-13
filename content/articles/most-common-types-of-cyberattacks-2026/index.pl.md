@@ -1,7 +1,7 @@
 ---
 title: "Najczęstsze rodzaje cyberataków i metody ich wykrywania"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj częste rodzaje cyberataków, ślady pozostawiane w logach i telemetrii oraz ćwicz ich wykrywanie w domowym laboratorium bezpieczeństwa."
@@ -117,8 +117,8 @@ ______
 | Technika | Co się dzieje |
 |---|---|
 | **Kerberoasting** | Żąda biletu usługi, a następnie łamie zaszyfrowane hasło offline |
-| **Man-in-the-middle (MITM)** | Umieszcza się między dwiema stronami, aby odczytać lub zmienić sesję |
-| **Pass-the-hash** | Ponownie wykorzystuje skradziony skrót hasła do otwarcia nowej sesji |
+| **Atak typu man-in-the-middle (MITM)** | Umieszcza się między dwiema stronami, aby odczytać lub zmienić sesję |
+| **Atak z ponownym użyciem skrótu (Pass-the-Hash)** | Ponownie wykorzystuje skradziony skrót hasła do otwarcia nowej sesji |
 | **Golden ticket** | Fałszuje bilet przyznający bilety Kerberos, aby uzyskać szeroki dostęp do domeny |
 | **Silver ticket** | Fałszuje bilet usługi przeznaczony dla jednej konkretnej usługi |
 | **Pozyskiwanie danych logowania** | Zbiera masowo nazwy użytkowników i hasła |

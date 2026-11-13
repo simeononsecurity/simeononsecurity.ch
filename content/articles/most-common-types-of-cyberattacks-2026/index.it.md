@@ -1,7 +1,7 @@
 ---
 title: "I tipi di attacco informatico più comuni e come rilevarli"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Scopri i tipi di attacco informatico più comuni, individua le tracce lasciate nei log e nella telemetria e prova le tecniche di rilevamento in un laboratorio domestico di sicurezza."
@@ -117,8 +117,8 @@ ______
 | Tecnica | Cosa succede |
 |---|---|
 | **Kerberoasting** | Richiede un ticket di servizio e poi ne decifra offline la password cifrata |
-| **Man-in-the-middle (MITM)** | Si inserisce tra due parti per leggere o modificare una sessione |
-| **Pass-the-hash** | Riutilizza un hash di password rubato per aprire una nuova sessione |
+| **Attacco dell’uomo nel mezzo (MITM)** | Si inserisce tra due parti per leggere o modificare una sessione |
+| **Attacco con riutilizzo dell’hash (Pass-the-Hash)** | Riutilizza un hash di password rubato per aprire una nuova sessione |
 | **Golden ticket** | Falsifica un ticket-granting ticket Kerberos per ottenere ampio accesso al dominio |
 | **Silver ticket** | Falsifica un ticket di servizio per un singolo servizio |
 | **Raccolta di credenziali** | Raccoglie in massa nomi utente e password |

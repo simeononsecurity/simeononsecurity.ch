@@ -1,7 +1,7 @@
 ---
 title: "Los tipos de ciberataque más comunes y cómo detectarlos"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprende cuáles son los ciberataques más comunes, qué rastros dejan en los registros y la telemetría, y practica su detección en un laboratorio de seguridad doméstico."
@@ -118,7 +118,7 @@ ______
 |---|---|
 | **Kerberoasting** | Solicita un ticket de servicio y después descifra sin conexión la contraseña cifrada |
 | **Ataque de intermediario (MITM)** | Se sitúa entre dos partes para leer o modificar una sesión |
-| **Pass-the-hash** | Reutiliza un hash de contraseña robado para abrir una sesión nueva |
+| **Ataque de reutilización del hash (Pass-the-Hash)** | Reutiliza un hash de contraseña robado para abrir una sesión nueva |
 | **Golden ticket** | Falsifica un ticket de Kerberos para obtener un amplio acceso al dominio |
 | **Silver ticket** | Falsifica un ticket de servicio para un servicio concreto |
 | **Recolección de credenciales** | Recopila nombres de usuario y contraseñas en bloque |

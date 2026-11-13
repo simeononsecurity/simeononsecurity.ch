@@ -1,7 +1,7 @@
 ---
 title: "Cele mai frecvente tipuri de atacuri cibernetice și cum le detectezi"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Află care sunt tipurile frecvente de atacuri cibernetice, ce urme lasă în jurnale și telemetrie și exersează detectarea lor într-un laborator de securitate de acasă."
@@ -118,7 +118,7 @@ ______
 |---|---|
 | **Kerberoasting** | Solicită un tichet de serviciu, apoi sparge offline parola criptată |
 | **Atacul omului din mijloc (MITM)** | Se așază între două părți pentru a citi sau modifica o sesiune |
-| **Pass-the-hash** | Refolosește un hash de parolă furat pentru a deschide o sesiune nouă |
+| **Atac de reutilizare a hashului (Pass-the-Hash)** | Refolosește un hash de parolă furat pentru a deschide o sesiune nouă |
 | **Golden ticket** | Falsifică un tichet Kerberos pentru acces extins la domeniu |
 | **Silver ticket** | Falsifică un tichet de serviciu pentru un serviciu anume |
 | **Colectarea acreditărilor** | Adună în masă nume de utilizator și parole |

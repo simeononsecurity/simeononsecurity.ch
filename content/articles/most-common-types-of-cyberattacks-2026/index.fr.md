@@ -1,7 +1,7 @@
 ---
 title: "Les types de cyberattaques les plus courants et leur détection"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Découvrez les cyberattaques les plus courantes, les traces qu'elles laissent dans les journaux et la télémétrie, et entraînez-vous à les détecter dans un laboratoire de sécurité à domicile."
@@ -118,7 +118,7 @@ ______
 |---|---|
 | **Kerberoasting** | Demande un ticket de service, puis en casse le mot de passe chiffré hors ligne |
 | **Attaque de l'homme du milieu (MITM)** | S'intercale entre deux parties pour lire ou modifier une session |
-| **Pass-the-hash** | Réutilise un hachage de mot de passe volé pour ouvrir une nouvelle session |
+| **Attaque par réutilisation du hachage (Pass-the-Hash)** | Réutilise un hachage de mot de passe volé pour ouvrir une nouvelle session |
 | **Golden ticket** | Forge un ticket Kerberos pour obtenir un accès étendu au domaine |
 | **Silver ticket** | Forge un ticket de service pour un service précis |
 | **Collecte d'identifiants** | Rassemble en masse des noms d'utilisateur et des mots de passe |

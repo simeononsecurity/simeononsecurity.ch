@@ -1,7 +1,7 @@
 ---
 title: "Die häufigsten Arten von Cyberangriffen und wie Verteidiger sie erkennen"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Lernen Sie die häufigsten Arten von Cyberangriffen kennen, erkennen Sie ihre Spuren in Protokollen und Telemetriedaten und üben Sie die Erkennung in einem Sicherheitslabor zu Hause."
@@ -32,7 +32,7 @@ Die Tabelle enthält Kategorien, denen Sicherheitsteams besonders häufig begegn
 | Angriffstyp | Wirkung |
 |---|---|
 | **Malware** | Führt Schadsoftware wie Ransomware, Spyware und Trojaner aus |
-| **Denial-of-Service** | Überflutet einen Dienst mit Datenverkehr, bis legitime Nutzer keinen Zugriff mehr haben |
+| **Dienstverweigerungsangriff** | Überflutet einen Dienst mit Datenverkehr, bis legitime Nutzer keinen Zugriff mehr haben |
 | **Phishing** | Täuscht eine Person, damit sie Zugangsdaten preisgibt oder eine schädliche Datei ausführt |
 | **Spoofing** | Gibt einen Angreifer als vertrauenswürdiges System, einen Absender oder eine Adresse aus |
 | **Identitätsbasierte Angriffe** | Missbrauchen gestohlene oder gefälschte Zugangsdaten, um als gültiger Nutzer aufzutreten |
@@ -117,8 +117,8 @@ ______
 | Technik | Ablauf |
 |---|---|
 | **Kerberoasting** | Fordert ein Service-Ticket an und knackt anschließend das verschlüsselte Passwort offline |
-| **Man-in-the-Middle (MITM)** | Schaltet sich zwischen zwei Parteien, um eine Sitzung mitzulesen oder zu verändern |
-| **Pass-the-Hash** | Verwendet einen gestohlenen Passwort-Hash erneut, um eine neue Sitzung zu öffnen |
+| **Man-in-the-Middle-Angriff (MITM)** | Schaltet sich zwischen zwei Parteien, um eine Sitzung mitzulesen oder zu verändern |
+| **Angriff mit Hash-Wiederverwendung (Pass-the-Hash)** | Verwendet einen gestohlenen Passwort-Hash erneut, um eine neue Sitzung zu öffnen |
 | **Golden Ticket** | Fälscht ein Kerberos-Ticket-Granting-Ticket für weitreichenden Domänenzugriff |
 | **Silver Ticket** | Fälscht ein Service-Ticket für einen einzelnen Dienst |
 | **Abgreifen von Zugangsdaten** | Sammelt Benutzernamen und Passwörter in großer Zahl |
@@ -227,7 +227,7 @@ Jede Kategorie speist eine andere Datenquelle. Die Tabelle ordnet sie einander z
 | Angriffstyp | Zentrale Telemetrie |
 |---|---|
 | **Malware** | EDR-Prozess-, Datei- und Registrierungsdaten |
-| **Denial-of-Service** | Netzwerkfluss- und Verfügbarkeitsüberwachung |
+| **Dienstverweigerungsangriff** | Netzwerkfluss- und Verfügbarkeitsüberwachung |
 | **Phishing** | E-Mail-Gateway- und URL-Analyseprotokolle |
 | **Spoofing** | E-Mail-Authentifizierungs- und Netzwerkadressdaten |
 | **Identitätsbasiert** | Anmelde- und Identitätsschutzprotokolle |

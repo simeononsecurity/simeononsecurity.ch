@@ -1,7 +1,7 @@
 ---
 title: "De meest voorkomende soorten cyberaanvallen en hoe verdedigers ze herkennen"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer de meest voorkomende soorten cyberaanvallen herkennen, ontdek welk bewijs ze achterlaten in logs en telemetrie en oefen detectie in een thuislab voor beveiliging."
@@ -32,7 +32,7 @@ De tabel toont categorieën die beveiligingsteams vaak tegenkomen. De volgende s
 | Aanvalstype | Wat het doet |
 |---|---|
 | **Malware** | Voert schadelijke software uit, zoals ransomware, spyware en trojans |
-| **Denial of service** | Overbelast een dienst met verkeer zodat legitieme gebruikers geen toegang meer hebben |
+| **Dienstweigering** | Overbelast een dienst met verkeer zodat legitieme gebruikers geen toegang meer hebben |
 | **Phishing** | Verleidt iemand om inloggegevens te delen of een schadelijk bestand uit te voeren |
 | **Spoofing** | Doet zich voor als een vertrouwd systeem, een afzender of een adres |
 | **Identiteitsaanvallen** | Misbruikt gestolen of vervalste inloggegevens om als geldige gebruiker op te treden |
@@ -117,8 +117,8 @@ ______
 | Techniek | Wat er gebeurt |
 |---|---|
 | **Kerberoasting** | Vraagt een serviceticket aan en kraakt daarna offline het versleutelde wachtwoord |
-| **Man-in-the-middle (MITM)** | Plaatst zich tussen twee partijen om een sessie te lezen of aan te passen |
-| **Pass-the-hash** | Hergebruikt een gestolen wachtwoordhash om een nieuwe sessie te openen |
+| **Man-in-the-middle-aanval (MITM)** | Plaatst zich tussen twee partijen om een sessie te lezen of aan te passen |
+| **Aanval met hergebruik van de hash (Pass-the-Hash)** | Hergebruikt een gestolen wachtwoordhash om een nieuwe sessie te openen |
 | **Golden ticket** | Vervalst een Kerberos-ticket-grantingticket voor brede domeintoegang |
 | **Silver ticket** | Vervalst een serviceticket voor één specifieke dienst |
 | **Inloggegevens verzamelen** | Verzamelt gebruikersnamen en wachtwoorden op grote schaal |
@@ -227,7 +227,7 @@ Elke categorie levert gegevens aan een andere bron. De tabel koppelt de categori
 | Aanvalstype | Belangrijkste telemetrie |
 |---|---|
 | **Malware** | EDR-registraties van processen, bestanden en het register |
-| **Denial of service** | Netwerkstromen en beschikbaarheidsbewaking |
+| **Dienstweigering** | Netwerkstromen en beschikbaarheidsbewaking |
 | **Phishing** | E-mailgateway en URL-analyse |
 | **Spoofing** | E-mailauthenticatie en netwerkadresregistraties |
 | **Identiteitsaanvallen** | Aanmeldings- en identiteitsbeschermingsregistraties |

@@ -1,7 +1,7 @@
 ---
 title: "Els tipus de ciberatac més habituals i com detectar-los"
 date: 2026-09-11
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprèn quins són els ciberatacs més habituals, quins rastres deixen als registres i a la telemetria, i practica la detecció en un laboratori de seguretat domèstic."
@@ -118,7 +118,7 @@ ______
 |---|---|
 | **Kerberoasting** | Sol·licita un tiquet de servei i després n'esquerda fora de línia la contrasenya xifrada |
 | **Atac de l'home del mig (MITM)** | S'interposa entre dues parts per llegir o modificar una sessió |
-| **Pass-the-hash** | Reutilitza un hash de contrasenya robat per obrir una sessió nova |
+| **Atac de reutilització del hash (Pass-the-Hash)** | Reutilitza un hash de contrasenya robat per obrir una sessió nova |
 | **Golden ticket** | Falsifica un tiquet Kerberos per obtenir accés ampli al domini |
 | **Silver ticket** | Falsifica un tiquet de servei per a un servei concret |
 | **Recollida de credencials** | Recopila noms d'usuari i contrasenyes en massa |
