@@ -126,6 +126,10 @@
   evidence such as MAC/OUI records, hashes, and literal data values unchanged.
   These values are not English prose even inside a `text` fence. Exclude code,
   literal commands, and data-only examples from prose review.
+  Compare individual lines inside `text` and `plaintext` fences as well as full
+  examples. A localized sample can still contain copied English field labels or
+  short instructions that a whole-block comparison misses. Translate those
+  lines while preserving paths, commands, placeholders, and structured values.
 - Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
   for each finished bundle. For a repository audit, use
   `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.

@@ -8,6 +8,7 @@ from check_translation_english_leakage import (
     copied_english_link_labels,
     copied_english_headings,
     copied_reader_fenced_examples,
+    copied_reader_fenced_lines,
     prose_sentences_with_link_slots,
     reader_fenced_prose,
     visible_text,
@@ -16,12 +17,19 @@ from check_translation_english_leakage import (
 
 class FencedProseTests(unittest.TestCase):
     def test_flags_copied_descriptive_headings_but_not_product_name_headings(self):
-        source = "## Be Wary of Public Wi-Fi\n\n## Visual Studio Code"
-        target = "## Be Wary of Public Wi-Fi\n\n## Visual Studio Code"
+        source = (
+            "## Be Wary of Public Wi-Fi\n\n"
+            "## Safeguard Your Social Media Accounts\n\n"
+            "## Visual Studio Code"
+        )
+        target = source
 
         self.assertEqual(
             copied_english_headings(source, target),
-            ["be wary of public wi fi"],
+            [
+                "be wary of public wi fi",
+                "safeguard your social media accounts",
+            ],
         )
 
     def test_ignores_heading_text_inside_code_fences(self):
@@ -79,6 +87,29 @@ class FencedProseTests(unittest.TestCase):
         evidence = "```text\n2,12,127,221:506f9a16030103,45,191,221:0050f208000000\n```"
 
         self.assertFalse(copied_reader_fenced_examples(evidence, evidence))
+        self.assertFalse(copied_reader_fenced_lines(evidence, evidence))
+
+    def test_finds_short_copied_prose_lines_in_reader_fences(self):
+        source = (
+            "```text\n"
+            "Source: docs/requirements.md, revision 1.\n"
+            "Retain synthetic export files for 30 days.\n"
+            "```"
+        )
+        target = source
+
+        self.assertEqual(
+            copied_reader_fenced_lines(source, target),
+            {
+                "source docs requirements md revision 1",
+                "retain synthetic export files for 30 days",
+            },
+        )
+
+    def test_ignores_identifier_and_path_mappings_in_reader_fences(self):
+        mapping = "```text\nREQ-17 -> requirement.json\nRUN-04 → runbook.md\n```"
+
+        self.assertFalse(copied_reader_fenced_lines(mapping, mapping))
 
     def test_finds_english_sentences_inside_translated_copy(self):
         source = "The reviewer should translate each sentence while preserving technical names and URLs."

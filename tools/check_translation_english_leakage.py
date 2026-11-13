@@ -29,6 +29,7 @@ ENGLISH_STOPWORDS = set(
     "the and of to in a is that for on with as by are be this or from at an not "
     "which can will have has it its was were if than these those they we you our "
     "should also when how what where after before use more into about through "
+    "your yourself yourselves "
     "each one other any only all do does then their them there such using used "
     "may might could would must been being"
     .split()
@@ -136,6 +137,30 @@ def copied_reader_fenced_examples(source: str, target: str) -> set[str]:
         if has_english_prose(block)
     }
     return source_blocks & target_blocks
+
+
+def copied_reader_fenced_lines(source: str, target: str) -> set[str]:
+    """Find unchanged descriptive lines inside reader-facing text fences."""
+    def eligible_lines(text: str) -> set[str]:
+        lines = set()
+        for block in reader_fenced_prose(text):
+            for line in block.splitlines():
+                stripped = line.strip().strip("`*_ ")
+                mapping = re.split(r"\s*(?:->|→)\s*", stripped)
+                if len(mapping) > 1 and all(
+                    re.fullmatch(r"[A-Za-z0-9_./-]+", part.strip())
+                    for part in mapping
+                ):
+                    # Identifier/path mappings carry structural evidence, not prose.
+                    continue
+                normalized = normalize(line)
+                words = normalized.split()
+                # Ignore short proper names and numeric or identifier-only data.
+                if len(words) >= 3 and sum(word.isalpha() for word in words) >= 3:
+                    lines.add(normalized)
+        return lines
+
+    return eligible_lines(source) & eligible_lines(target)
 
 
 def normalize(text: str) -> str:
@@ -338,6 +363,11 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("many_exact_English_paragraphs")
         if copied_reader_fenced_examples(source_body, body):
             reasons.append("copied_reader_fenced_example")
+        copied_fence_lines = sorted(copied_reader_fenced_lines(source_body, body))
+        if copied_fence_lines:
+            reasons.append("copied_reader_fenced_line")
+            copied_sentences.extend(copied_fence_lines)
+            copied_sentences = sorted(set(copied_sentences))
         if copied_sentences:
             reasons.append("exact_English_sentences")
         if copied_spans:
