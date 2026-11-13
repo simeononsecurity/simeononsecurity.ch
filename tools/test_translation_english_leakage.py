@@ -69,6 +69,16 @@ class FencedProseTests(unittest.TestCase):
             ],
         )
 
+    def test_flags_short_project_and_responsive_assistant_table_labels(self):
+        self.assertEqual(
+            copied_english_table_cells("| Short project |\n| --- |\n", "| Short project |\n| --- |\n"),
+            ["table 1, row 1, cell 1: short project"],
+        )
+        self.assertEqual(
+            copied_english_table_cells("| Responsive assistant |\n| --- |\n", "| Responsive assistant |\n| --- |\n"),
+            ["table 1, row 1, cell 1: responsive assistant"],
+        )
+
     def test_ignores_table_like_content_inside_code_fence(self):
         source = "```bash\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
         target = source
@@ -191,6 +201,11 @@ class FencedProseTests(unittest.TestCase):
             "strong_emphasis_markers",
             markdown_structure_differences(source, unbalanced),
         )
+
+    def test_markdown_structure_does_not_count_underscore_rules_as_emphasis(self):
+        page = "Text with __emphasis__.\n\n______\n"
+
+        self.assertEqual(markdown_structure(page)["strong_emphasis_markers"], 2)
 
     def test_markdown_structure_recognizes_tables_without_outer_pipes(self):
         source = "Name | Value\n--- | ---\nFirst | Second\n"

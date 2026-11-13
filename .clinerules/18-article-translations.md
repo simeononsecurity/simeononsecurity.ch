@@ -87,6 +87,7 @@
 - Check bold and italic markup against the English source. Compare emphasis
   placement and verify paired markers line by line. A matching total marker
   count can still hide an unpaired delimiter in a translated line.
+  Do not count underscore-only horizontal-rule lines as emphasis.
 - Treat source-level marker counts as insufficient. After rendering each changed
   locale, inspect the generated article prose outside `pre` and `code` elements
   for literal Markdown emphasis delimiters: `*`, `**`, and `__`. Valid emphasis

@@ -41,7 +41,7 @@ TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "performance description rate duration total size count level status per "
     "component privacy question local model server situation better choice "
     "reason evidence collect action recommendation finding concern response "
-    "what check example setting location boundary control"
+    "what check example setting location boundary control short project responsive assistant"
     .split()
 )
 GENERIC_ENGLISH_LINK_LABELS = {
@@ -451,15 +451,18 @@ def markdown_structure(text: str) -> dict[str, object]:
 
         line_index += 1
 
+    emphasis_markdown = re.sub(
+        r"(?m)^\s*_{3,}\s*$", " ", "\n".join(visible_lines)
+    )
+    emphasis_markdown = re.sub(r"`+[^`\n]*`+", " ", emphasis_markdown)
+    strong_emphasis_markers = len(
+        re.findall(r"(?<!\\)(?:\*\*|__)", emphasis_markdown)
+    )
+
     return {
         "heading_levels": heading_levels,
         "table_shapes": table_shapes,
-        "strong_emphasis_markers": len(
-            re.findall(
-                r"(?<!\\)(?:\*\*|__)",
-                re.sub(r"`+[^`\n]*`+", " ", "\n".join(visible_lines)),
-            )
-        ),
+        "strong_emphasis_markers": strong_emphasis_markers,
         "ordered_items": ordered_items,
         "unordered_items": unordered_items,
         "section_items": section_items,
