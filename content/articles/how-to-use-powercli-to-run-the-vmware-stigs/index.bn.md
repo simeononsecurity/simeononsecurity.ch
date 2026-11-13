@@ -1,7 +1,7 @@
 ---
 title: "VMware নিরাপত্তায় দক্ষতা অর্জন"
 date: 2023-08-03
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "এই বিস্তৃত নির্দেশিকায় PowerCLI দিয়ে VMware STIG প্রয়োগ করে VMware পরিবেশ সুরক্ষিত করার পদ্ধতি জানুন।"
@@ -53,31 +53,31 @@ Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false
 Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false -Confirm:$false
 $vcenters = 127.0.0.1, 127.0.0.2
 
-#Connect to each vcenter server
+#প্রতিটি vCenter সার্ভারে সংযোগ করুন
 ForEach ($vc in $vcenters) {
     Connect-VIServer -Server $vc
 }
 
-#Automated
+#স্বয়ংক্রিয়
 
-Write-Host "Vul ID: V-243098 Rule ID: SV-243098r719537_rule STIG ID: VCTR-67-000036"
-Write-Host "If the 'config.log.level' value is not set to "info" or does not exist, this is a finding."
+Write-Host "দুর্বলতার ID: V-243098 নিয়মের ID: SV-243098r719537_rule STIG ID: VCTR-67-000036"
+Write-Host "'config.log.level' মান "info"-তে সেট না থাকলে বা সেটিংটি না থাকলে এটি একটি ত্রুটি।"
 ForEach ($vc in $vcenters) {
     Get-AdvancedSetting -Entity $vc -Name config.log.level | Set-AdvancedSetting -Value info
     Get-AdvancedSetting -Entity $vc -Name config.log.level
 }
 
-Write-Host "Vul ID: V-243090 Rule ID: SV-243090r719513_rule STIG ID: VCTR-67-000024"
-Write-Host "If the 'config.vpxd.hostPasswordLength' is set to a value other than "32", this is a finding. 
-If the setting does not exist, this is not a finding."
+Write-Host "দুর্বলতার ID: V-243090 নিয়মের ID: SV-243090r719513_rule STIG ID: VCTR-67-000024"
+Write-Host "'config.vpxd.hostPasswordLength' মান "32" ছাড়া অন্য কিছু হলে এটি একটি ত্রুটি।
+সেটিংটি না থাকলে এটি ত্রুটি নয়।"
 ForEach ($vc in $vcenters) {
     Get-AdvancedSetting -Entity $vc -Name config.vpxd.hostPasswordLength | Set-AdvancedSetting -Value 32
     Get-AdvancedSetting -Entity $vc -Name config.vpxd.hostPasswordLength
 }
 
 
-Write-Host "Vul ID: V-243089 Rule ID: SV-243089r719510_rule STIG ID: VCTR-67-000023"
-Write-Host "If the 'VirtualCenter.VimPasswordExpirationInDays' is set to a value other than "30" or does not exist, this is a finding."
+Write-Host "দুর্বলতার ID: V-243089 নিয়মের ID: SV-243089r719510_rule STIG ID: VCTR-67-000023"
+Write-Host "'VirtualCenter.VimPasswordExpirationInDays' মান "30" ছাড়া অন্য কিছু হলে বা সেটিংটি না থাকলে এটি একটি ত্রুটি।"
 ForEach ($vc in $vcenters) {
     Try {
         Get-AdvancedSetting -Entity $vc -Name VirtualCenter.VimPasswordExpirationInDays | Set-AdvancedSetting -Value 30
@@ -87,8 +87,8 @@ ForEach ($vc in $vcenters) {
     }
 }
 
-Write-Host "Vul ID: V-243084 Rule ID: SV-243085r719498_rule STIG ID: VCTR-67-000016"
-Write-Host "If NetFlow is configured and the collector IP is not known and documented, this is a finding."
+Write-Host "দুর্বলতার ID: V-243084 নিয়মের ID: SV-243085r719498_rule STIG ID: VCTR-67-000016"
+Write-Host "NetFlow কনফিগার করা থাকলেও collector IP অজানা ও নথিভুক্ত না থাকলে এটি একটি ত্রুটি।"
 $pgs = Get-VDPortgroup | Get-View
 ForEach ($pg in $pgs) {
     $spec = New-Object VMware.Vim.DVPortgroupConfigSpec
@@ -101,94 +101,94 @@ ForEach ($pg in $pgs) {
 }
 Get-VDPortgroup | Select-Object Name, VirtualSwitch, @{N = "NetFlowEnabled"; E = { $_.Extensiondata.Config.defaultPortConfig.ipfixEnabled.Value } }
 
-Write-Host "Vul ID: V-243084 Rule ID: SV-243084r719495_rule STIG ID: VCTR-67-000015"
-Write-Host "The vCenter Server must set the distributed port group Promiscuous Mode policy to reject."
+Write-Host "দুর্বলতার ID: V-243084 নিয়মের ID: SV-243084r719495_rule STIG ID: VCTR-67-000015"
+Write-Host "vCenter Server-কে distributed port group-এর Promiscuous Mode নীতি reject-এ সেট করতে হবে।"
 Get-VDSwitch | Get-VDSecurityPolicy | Set-VDSecurityPolicy -AllowPromiscuous $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy | Set-VDSecurityPolicy -AllowPromiscuous $false
 Get-VDSwitch | Get-VDSecurityPolicy
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy
 
 
-Write-Host "Vul ID: V-243083 Rule ID: SV-243083r719492_rule STIG ID: VCTR-67-000014"
-Write-Host "The vCenter Server must set the distributed port group MAC Address Change policy to reject."
+Write-Host "দুর্বলতার ID: V-243083 নিয়মের ID: SV-243083r719492_rule STIG ID: VCTR-67-000014"
+Write-Host "vCenter Server-কে distributed port group-এর MAC Address Change নীতি reject-এ সেট করতে হবে।"
 Get-VDSwitch | Get-VDSecurityPolicy | Set-VDSecurityPolicy -MacChanges $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy | Set-VDSecurityPolicy -MacChanges $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy
 
-Write-Host "Vul ID: V-243082 Rule ID: SV-243082r719489_rule STIG ID: VCTR-67-000013"
-Write-Host "The vCenter Server must set the distributed port group Forged Transmits policy to reject."
+Write-Host "দুর্বলতার ID: V-243082 নিয়মের ID: SV-243082r719489_rule STIG ID: VCTR-67-000013"
+Write-Host "vCenter Server-কে distributed port group-এর Forged Transmits নীতি reject-এ সেট করতে হবে।"
 Get-VDSwitch | Get-VDSecurityPolicy | Set-VDSecurityPolicy -ForgedTransmits $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy | Set-VDSecurityPolicy -ForgedTransmits $false
 Get-VDSwitch | Get-VDSecurityPolicy
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy
 
-Write-Host "Vul ID: V-243081 Rule ID: SV-243081r719486_rule STIG ID: VCTR-67-000012"
-Write-Host "The vCenter Server must disable the distributed virtual switch health check."
+Write-Host "দুর্বলতার ID: V-243081 নিয়মের ID: SV-243081r719486_rule STIG ID: VCTR-67-000012"
+Write-Host "vCenter Server-কে distributed virtual switch-এর health check নিষ্ক্রিয় করতে হবে।"
 Get-View -ViewType DistributedVirtualSwitch | Where-Object { ($_.config.HealthCheckConfig | Where-Object { $_.enable -notmatch "False" }) } | ForEach-Object { $_.UpdateDVSHealthCheckConfig(@((New-Object Vmware.Vim.VMwareDVSVlanMtuHealthCheckConfig -property @{enable = 0 }), (New-Object Vmware.Vim.VMwareDVSTeamingHealthCheckConfig -property @{enable = 0 }))) }
 $vds = Get-VDSwitch
 $vds.ExtensionData.Config.HealthCheckConfig
 
-Write-Host "Vul ID: V-243077 Rule ID: SV-243077r719474_rule STIG ID: VCTR-67-00000"
-Write-Host "The vCenter Server must manage excess capacity, bandwidth, or other redundancy to limit the effects of information-flooding types of denial-of-service (DoS) attacks by enabling Network I/O Control (NIOC)."
-Write-Host "If an alarm is not created and enabled to alert when syslog failures occur, this is a finding."
+Write-Host "দুর্বলতার ID: V-243077 নিয়মের ID: SV-243077r719474_rule STIG ID: VCTR-67-00000"
+Write-Host "তথ্য-স্রোত ও denial-of-service (DoS) আক্রমণের প্রভাব সীমিত করতে Network I/O Control (NIOC) চালু করে vCenter Server-কে অতিরিক্ত সক্ষমতা, ব্যান্ডউইথ বা অন্য redundancy পরিচালনা করতে হবে।"
+Write-Host "syslog ব্যর্থতার সতর্কতা দিতে কোনো alert তৈরি ও চালু না থাকলে এটি একটি ত্রুটি।"
 ForEach ($vdswitch in (Get-VDSwitch.name)){
     (Get-VDSwitch $vdswitch | Get-View).EnableNetworkResourceManagement($true)
 }
 Get-VDSwitch | Select-Object Name, @{N = "NIOC Enabled"; E = { $_.ExtensionData.config.NetworkResourceManagementEnabled } }
 
-#Manual Review
+#ম্যানুয়াল পর্যালোচনা
 
-Write-Host "Vul ID: V-243076 Rule ID: SV-243076r719471_rule STIG ID: VCTR-67-000005"
-Write-Host "The vCenter Server users must have the correct roles assigned."
-Write-Host "Application service account and user required privileges should be documented.
-If any user or service account has more privileges than required, this is a finding."
+Write-Host "দুর্বলতার ID: V-243076 নিয়মের ID: SV-243076r719471_rule STIG ID: VCTR-67-000005"
+Write-Host "vCenter Server ব্যবহারকারীদের সঠিক role দিতে হবে।"
+Write-Host "service account ও ব্যবহারকারীর প্রয়োজনীয় privilege নথিভুক্ত করতে হবে।
+কোনো ব্যবহারকারী বা service account-এর প্রয়োজনের চেয়ে বেশি privilege থাকলে এটি একটি ত্রুটি।"
 Get-VIPermission | Sort-Object Role | Select-Object Role, Principal, Entity, Propagate, IsGroup | Format-Table -Auto
 
-Write-Host "Vul ID: V-243119 Rule ID: SV-243119r719600_rule STIG ID: VCTR-67-000064"
-Write-Host "If any role other than Administrator and any site-specific group(s) have any of these permissions, this is a finding."
+Write-Host "দুর্বলতার ID: V-243119 নিয়মের ID: SV-243119r719600_rule STIG ID: VCTR-67-000064"
+Write-Host "Administrator ছাড়া অন্য কোনো role বা site-specific group-এর কাছে এই permission-গুলোর কোনোটি থাকলে এটি একটি ত্রুটি।"
 $roles = Get-VIRole
 ForEach ($role in $roles) {
     $privileges = $role.PrivilegeList
     If ($privileges -match "Crypto*" -or $privileges -match "Global.Diagnostics" -or $privileges -match "Host.Inventory.Add*" -or $privileges -match "Host.Local operations.Manage user groups") {
-        Write-Host "$role has Cryptographic privileges"
+        Write-Host "$role-এর cryptographic privilege আছে"
     }
 }
 
-Write-Host "Vul ID: V-243118 Rule ID: SV-243118r719597_rule STIG ID: VCTR-67-000063"
-Write-Host "If there are any users other than Solution Users with the "Administrator" role that are not explicitly designated for cryptographic operations, this is a finding."
+Write-Host "দুর্বলতার ID: V-243118 নিয়মের ID: SV-243118r719597_rule STIG ID: VCTR-67-000063"
+Write-Host "Solution Users ছাড়া অন্য ব্যবহারকারীর "Administrator" role থাকলে এবং তাঁকে cryptographic operation-এর জন্য স্পষ্টভাবে নির্ধারণ না করা হলে এটি একটি ত্রুটি।"
 Get-VIPermission | Where-Object { $_.Role -eq "Admin" } | Select-Object Role, Principal, Entity, Propagate, IsGroup | Format-Table -Auto
 
 
-Write-Host "Vul ID: V-243111 Rule ID: SV-243111r719576_rule STIG ID: VCTR-67-000055"
-Write-Host "If no clusters are enabled for vSAN, this is not applicable."
-Write-host "If vSAN is enabled and the datastore is named 'vsanDatastore', this is a finding."
+Write-Host "দুর্বলতার ID: V-243111 নিয়মের ID: SV-243111r719576_rule STIG ID: VCTR-67-000055"
+Write-Host "কোনো vSAN cluster চালু না থাকলে প্রযোজ্য নয়।"
+Write-host "vSAN চালু থাকলে এবং datastore-এর নাম 'vsanDatastore' হলে এটি একটি ত্রুটি।"
 If ($(Get-Cluster | Where-Object { $_.VsanEnabled } | Measure-Object).Count -gt 0) {
-    Write-Host "vSAN Enabled Cluster found"
+    Write-Host "চালু vSAN cluster পাওয়া গেছে"
     $Clusters = Get-Cluster | Where-Object { $_.VsanEnabled } 
     Foreach ($clus in $clusters) {
         $clus | Get-Datastore | Where-Object { $_.type -match "vsan" } | Set-Datastore -Name $(($clus.name) + "_vSAN_Datastore")
     }
 }
 else {
-    Write-Host "vSAN is not enabled, this finding is not applicable"
+    Write-Host "vSAN চালু নেই; এই ত্রুটি প্রযোজ্য নয়"
 }
 
-Write-Host "If any user or service account has more privileges than required, this is a finding."
+Write-Host "কোনো ব্যবহারকারী বা service account-এর প্রয়োজনের চেয়ে বেশি privilege থাকলে এটি একটি ত্রুটি।"
 Get-VIPermission | Sort-Object Role | Select-Object Role, Principal, Entity, Propagate, IsGroup | Format-Table -Auto
 
-Write-Host "Vul ID: V-243088 Rule ID: SV-243088r719507_rule STIG ID: VCTR-67-000020"
-Write-Host "Review the port group VLAN tags and verify they are not set to a reserved VLAN ID."
-Write-Host "Certain physical switches reserve certain VLAN IDs for internal purposes and often disallow traffic configured to these values. For example, Cisco Catalyst switches typically reserve VLANs 1001–1024 and 4094, while Nexus switches typically reserve 3968–4047 and 4094."
+Write-Host "দুর্বলতার ID: V-243088 নিয়মের ID: SV-243088r719507_rule STIG ID: VCTR-67-000020"
+Write-Host "port group-এর VLAN tag পরীক্ষা করুন এবং নিশ্চিত করুন যে সংরক্ষিত VLAN ID ব্যবহার করা হয়নি।"
+Write-Host "কিছু physical switch অভ্যন্তরীণ ব্যবহারের জন্য VLAN ID সংরক্ষণ করে এবং এসব মানে কনফিগার করা traffic প্রায়ই আটকে দেয়। যেমন, Cisco Catalyst সাধারণত VLAN 1001–1024 ও 4094 সংরক্ষণ করে, আর Nexus সাধারণত 3968–4047 ও 4094 সংরক্ষণ করে।"
 Get-VDPortgroup | Select-Object Name, VlanConfiguration
 
-Write-Host "Vul ID: V-243087 Rule ID: SV-243087r719504_rule STIG ID: VCTR-67-000019"
-Write-Host "If any port group is configured with 'VLAN Trunk' and is not documented as a needed exception (such as NSX appliances), this is a finding.
-If any port group is authorized to be configured with 'VLAN trunking' but is not configured with the most limited range necessary, this is a finding."
+Write-Host "দুর্বলতার ID: V-243087 নিয়মের ID: SV-243087r719504_rule STIG ID: VCTR-67-000019"
+Write-Host "কোনো port group 'VLAN Trunk' হিসেবে কনফিগার করা থাকলেও (যেমন NSX appliance-এর জন্য) প্রয়োজনীয় ব্যতিক্রম নথিভুক্ত না থাকলে এটি একটি ত্রুটি।
+VLAN trunking অনুমোদিত হলেও প্রয়োজনীয় সর্বনিম্ন range-এ সীমাবদ্ধ না থাকলে এটি একটি ত্রুটি।"
 Get-VDPortgroup | Where-Object { $_.ExtensionData.Config.Uplink -ne "True" } | Select-Object Name, VlanConfiguration
 
-Write-Host "Vul ID: V-243078 Rule ID: SV-243078r719644_rule STIG ID: VCTR-67-000008"
-Write-Host "The vCenter Server must provide an immediate real-time alert to the SA and ISSO, at a minimum, of all audit failure events."
-Write-Host "If an alarm is not created and enabled to alert when syslog failures occur, this is a finding."
+Write-Host "দুর্বলতার ID: V-243078 নিয়মের ID: SV-243078r719644_rule STIG ID: VCTR-67-000008"
+Write-Host "সব audit failure event সম্পর্কে vCenter Server-কে অন্তত তাৎক্ষণিক real-time alert SA ও ISSO-কে দিতে হবে।"
+Write-Host "syslog ব্যর্থতার সতর্কতা দিতে কোনো alert তৈরি ও চালু না থাকলে এটি একটি ত্রুটি।"
 Get-AlarmDefinition | Where-Object { $_.ExtensionData.Info.Expression.Expression.EventTypeId -eq "esx.problem.vmsyslogd.remote.failure" } | Select-Object Name, Enabled, @{N = "EventTypeId"; E = { $_.ExtensionData.Info.Expression.Expression.EventTypeId } }
 ```
 
@@ -218,9 +218,9 @@ Connect-VIServer -Server 127.0.0.1
 $cluster = Get-Cluster -Name "Cluster"
 $folder = Get-Folder -Name "Folder"
 
-# Credit to https://github.com/rlakey/vmware-stig-powercli/blob/master/VMware_vSphere_6.7_VM_STIG_Remediation.ps1
+#সূত্র: https://github.com/rlakey/vmware-stig-powercli/blob/master/VMware_vSphere_6.7_VM_STIG_Remediation.ps1
 $vmconfig = @{
-    #Hardening/STIG Settings
+    #হার্ডেনিং/STIG সেটিংস
     vmAdvSettings       = @{
         "isolation.tools.copy.disable"          = $true
         "isolation.tools.dnd.disable"           = $true
@@ -241,37 +241,37 @@ $vmconfig = @{
 }
 
 ForEach ($vm in (Get-VM -Location $cluster | Where-Object { (Get-VM -Location $folder) -contains $_ } )) {
-    Write-Output "...Remediating advanced settings on $vm on $vcenter"
+    Write-Output "...$vcenter-এর $vm-এ advanced setting সংশোধন করা হচ্ছে"
     ForEach ($setting in ($vmconfig.vmAdvSettings.GetEnumerator() | Sort-Object Name)) {
-        #Pulling values for each setting specified
+        #প্রতিটি নির্দিষ্ট সেটিংয়ের মান সংগ্রহ করুন
         $settingname = $setting.name
         $settingvalue = $setting.value
         If ($asetting = $vm | Get-AdvancedSetting -Name $settingname) {
             If ($asetting.value -eq $settingvalue) {
-                Write-Output "...Setting $settingname is already configured correctly to $settingvalue on $vm"
+                Write-Output "...$vm-এ $settingname ইতিমধ্যে সঠিকভাবে $settingvalue-তে সেট করা আছে"
             }
             else {
-                Write-Output "...Setting $settingname was incorrectly set to $($asetting.value) on $vm setting to $settingvalue"
+                Write-Output "...$vm-এ $settingname ভুলভাবে $($asetting.value)-তে সেট ছিল; $settingvalue-তে সেট করা হচ্ছে"
                 $asetting | Set-AdvancedSetting -Value $settingvalue -Confirm:$false
             }
         }
         else {
-            Write-Output "...Setting $settingname does not exist on $vm creating setting..."
+            Write-Output "...$vm-এ $settingname নেই; তৈরি করা হচ্ছে..."
             $vm | New-AdvancedSetting -Name $settingname -Value $settingvalue -Confirm:$false
         }
-        Write-Output "...Removing advanced settings if necessary on $vm on $vcenter"
+        Write-Output "...প্রয়োজনে $vcenter-এর $vm থেকে advanced setting সরানো হচ্ছে"
         ForEach ($setting in ($vmconfig.vmAdvSettingsRemove | Sort-Object Name)) {
-            #Checking to see if current setting exists
+            #বর্তমান সেটিং আছে কি না যাচাই করুন
             If ($asetting = $vm | Get-AdvancedSetting -Name $setting) {
-                Write-Output "...Setting $setting exists on $vm...removing setting"
+                Write-Output "...$vm-এ $setting আছে...সরানো হচ্ছে"
                 $asetting | Remove-AdvancedSetting -Confirm:$false
             }
             else {
-                Write-Output "...Setting $setting does not exist on $vm"
+                Write-Output "...$vm-এ $setting নেই"
             }
         }   
         If ($vm.extensiondata.Config.MigrateEncryption -eq $vmconfig.vmotionEncryption) {
-            Write-Output "...vMotion encryption set correctly on $vm to $($vmconfig.vmotionEncryption)"
+            Write-Output "...$vm-এ vMotion encryption সঠিকভাবে $($vmconfig.vmotionEncryption)-এ সেট করা আছে"
         }
         else {
             $vmv = $vm | get-view
@@ -298,8 +298,8 @@ _____
 
 ## অতিরিক্ত সম্পদ
 
-- **DoD STIG VIB** আগে 5.0 থেকে 6.7 সংস্করণের জন্য [পাওয়া যেত](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib), তবে এখন আর পাওয়া যায় না।
-- **[Ryan Lakey](https://core.vmware.com/users/ryan-lakey)** VMware-এ DoD STIG প্রয়োগের জন্য উপযোগী নির্দেশনা দিয়েছেন। সেগুলো পড়ার সুপারিশ করছি।
+- **DoD STIG VIB আগে 5.0 থেকে 6.7 সংস্করণের জন্য [পাওয়া যেত](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib), তবে এখন আর পাওয়া যায় না।**
+- [Ryan Lakey](https://core.vmware.com/users/ryan-lakey) VMware-এ DoD STIG প্রয়োগের জন্য উপযোগী নির্দেশনা দিয়েছেন। সেগুলো পড়ার সুপারিশ করছি।
     - [VMware vSphere 8 STIG](https://core.vmware.com/resource/vmware-vsphere-8-stig)
     - [VMware vSphere 7 STIG](https://core.vmware.com/vsphere-7-stig)
     - [VMware vSphere 6.7 STIG](https://core.vmware.com/vmware-vsphere-67-stig)
