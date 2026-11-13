@@ -1,12 +1,12 @@
 ---
 title: "Beste praktijken voor Windows-hardening voor Windows 10 en 11"
 date: 2023-07-27
-lastmod: 2026-10-21
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ontdek effectieve strategieën om de beveiliging van uw Windows 10- en Windows 11-systemen te verbeteren met behulp van uitgebreide hardeningtechnieken en best practices."
-genre: ["Windows hardening", "Windows beveiliging", "Windows 10 hardening", "Windows 11 hardening", "Best practices voor Windows-beveiliging", "Beveiligingstips voor Windows", "Windows beveiligingsrichtlijnen", "Windows-besturingssystemen beveiligen", "Windows systeem hardening", "Beveiligingsmaatregelen voor Windows"]
-tags: ["Windows hardening", "Windows beveiliging", "Windows 10", "Windows 11", "beveiliging van het besturingssysteem", "Windows Verdediger", "Gebruikersaccountbeheer", "BitLocker encryptie", "firewallconfiguratie", "AppLocker beleid", "Windows-updates", "sterke wachtwoorden", "gegevensback-up", "Windows Hello", "Beveiligd opstarten", "TPM", "Microsoft Defender Antivirus", "Windows Sandbox", "Microsoft Defender Application Guard", "Gecontroleerde maptoegang", "Best practices voor het beveiligen van Windows 10 en Windows 11", "Hoe Windows-besturingssystemen te harden", "Windows beveiligingsmaatregelen voor individuen en organisaties", "De systeembeveiliging van Windows verbeteren", "Gegevens beschermen met BitLocker-encryptie", "Browsersessies isoleren met Microsoft Defender Application Guard", "Beveiligingstips en -richtlijnen voor Windows 10", "Beveiligingsfuncties van Windows implementeren", "Windows beveiligen met isolatie op basis van hardware", "De systeemintegriteit van Windows waarborgen"]
+genre: ["Windows beveiligen", "Windows beveiliging", "Windows 10 beveiligen", "Windows 11 beveiligen", "Best practices voor Windows-beveiliging", "Beveiligingstips voor Windows", "Windows beveiligingsrichtlijnen", "Windows-besturingssystemen beveiligen", "Beveiliging van Windows-systemen", "Beveiligingsmaatregelen voor Windows"]
+tags: ["Windows beveiligen", "Windows beveiliging", "Windows 10", "Windows 11", "beveiliging van het besturingssysteem", "Windows Defender", "Gebruikersaccountbeheer", "BitLocker encryptie", "firewallconfiguratie", "AppLocker beleid", "Updates voor Windows", "sterke wachtwoorden", "gegevensback-up", "Windows Hello", "Beveiligd opstarten", "TPM", "Microsoft Defender Antivirus", "Windows Sandbox", "Microsoft Defender Application Guard", "Gecontroleerde maptoegang", "Beste werkwijzen voor het beveiligen van Windows 10 en Windows 11", "Windows-besturingssystemen beveiligen", "Windows beveiligingsmaatregelen voor individuen en organisaties", "De systeembeveiliging van Windows verbeteren", "Gegevens beschermen met BitLocker-encryptie", "Browsersessies isoleren met Microsoft Defender Application Guard", "Beveiligingstips en -richtlijnen voor Windows 10", "Beveiligingsfuncties van Windows implementeren", "Windows beveiligen met isolatie op basis van hardware", "De systeemintegriteit van Windows waarborgen"]
 cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp"
 coverAlt: "Een cartoonillustratie van een schild dat een Windows-logo beschermt tegen verschillende cyberbedreigingen."
 coverCaption: "Beveilig je Windows-fort met effectieve hardeningtechnieken."
@@ -22,11 +22,11 @@ ______
 
 Windows hardening is het proces van het versterken van de beveiliging van een Windows besturingssysteem. Het omvat het configureren van verschillende instellingen en het implementeren van beveiligingsmaatregelen om bescherming te bieden tegen ongeautoriseerde toegang, malware en andere bedreigingen. Door je Windows-systeem te harden, kun je de risico's van cyberaanvallen minimaliseren en de vertrouwelijkheid, integriteit en beschikbaarheid van je gegevens garanderen.
 
-### [Hardening Windows 10](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Windows 10 beveiligen](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 10 is wereldwijd een van de meest gebruikte besturingssystemen. Overweeg de volgende best practices om je Windows 10-omgeving te harden:
 
-#### 1. [**Enable Windows Defender**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+#### 1. [**Windows Defender inschakelen**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 
 Windows Defender is een **robuuste antivirusoplossing** die bij Windows 10 wordt geleverd. Het biedt een reeks beveiligingsfuncties om uw systeem te beschermen tegen verschillende soorten **malware**, waaronder **virussen, spyware en ransomware**. Door Windows Defender in te schakelen, kunt u de beveiliging van uw Windows 10-omgeving aanzienlijk verbeteren.
 
@@ -49,7 +49,7 @@ Door Windows Defender in te schakelen en up-to-date te houden, kun je je Windows
 
 Onthoud dat Windows Defender weliswaar een solide beschermingsniveau biedt, maar dat het essentieel is om dit aan te vullen met **veilige surfgewoonten**, **regelmatige software-updates** en andere beveiligingsmaatregelen om een veilige Windows 10-omgeving te behouden.
 
-#### 2. [**Keep Windows 10 Updated**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
+#### 2. [**Windows 10 up-to-date houden**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
 Het regelmatig installeren van Windows-updates is een cruciaal aspect van **het verbeteren van Windows 10**. Deze updates bevatten **beveiligingspatches**, bugfixes en prestatieverbeteringen die helpen **kwetsbaarheden in de beveiliging te verhelpen** en de stabiliteit van het systeem te verbeteren.
 
 Microsoft brengt regelmatig **updates** uit voor Windows 10 om nieuw ontdekte beveiligingsproblemen aan te pakken en de algemene gebruikerservaring te verbeteren. Door uw systeem up-to-date te houden, zorgt u ervoor dat uw besturingssysteem over de nieuwste **beveiligingsverbeteringen** beschikt om u te verdedigen tegen nieuwe bedreigingen.
@@ -71,7 +71,7 @@ Het is belangrijk om te benadrukken dat het belangrijk is om **regelmatig uw sys
 
 Door **uw Windows 10-systeem up-to-date te houden**, verbetert u niet alleen de beveiliging, maar profiteert u ook van de nieuwste functies, prestatieverbeteringen en compatibiliteitsoplossingen. Het is een proactieve maatregel om ervoor te zorgen dat je systeem bestand blijft tegen mogelijke beveiligingsrisico's.
 
-#### 3. [**Configure User Account Control (UAC)**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
+#### 3. [**User Account Control (UAC) configureren**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
 User Account Control (UAC) is een beveiligingsfunctie in Windows 10 die helpt ongeautoriseerde wijzigingen aan je systeem te voorkomen door zo nodig om goedkeuring van de beheerder te vragen. Het fungeert als een beveiliging tegen kwaadaardige software of ongeautoriseerde gebruikers die wijzigingen proberen aan te brengen die de veiligheid of stabiliteit van het systeem kunnen beïnvloeden.
 
 Het configureren van UAC-instellingen op een geschikt niveau is cruciaal voor **het versterken van Windows 10**. Het gaat erom een balans te vinden tussen beveiliging en bruikbaarheid om ervoor te zorgen dat UAC uw systeem effectief beschermt zonder onnodige onderbrekingen te veroorzaken.
@@ -98,7 +98,9 @@ Het wordt aanbevolen om UAC ingeschakeld te laten en in te stellen op een niveau
 
 Door UAC-instellingen te configureren, verbeter je de beveiliging van je Windows 10-systeem door ervoor te zorgen dat beheerdersrechten vereist zijn voor kritieke systeemwijzigingen, waardoor het risico op ongeoorloofde toegang en malware-infecties afneemt.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+{{< figure src="windows-10-uac-bitlocker-security-overview.webp" alt="Diagram van Windows 10-niveaus voor Gebruikersaccountbeheer en BitLocker-versleuteling die de systeemintegriteit en gevoelige gegevens beschermen" >}}
+
+#### 4. [**Gebruik sterke wachtwoorden**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 Het gebruik van sterke wachtwoorden is essentieel voor het handhaven van de beveiliging van je Windows 10-systeem en de bescherming tegen onbevoegde toegang. Zwakke of gemakkelijk te raden wachtwoorden kunnen je systeem kwetsbaar maken voor aanvallen, zoals brute-force aanvallen of het kraken van wachtwoorden.
 
 Volg deze best practices voor wachtwoorden om ervoor te zorgen dat alle gebruikersaccounts op je Windows 10-systeem sterke wachtwoorden hebben:
@@ -117,11 +119,11 @@ Volg deze best practices voor wachtwoorden om ervoor te zorgen dat alle gebruike
 
 Door sterke wachtwoordpraktijken te implementeren, verbetert u de beveiliging van uw Windows 10-systeem aanzienlijk en verlaagt u het risico op onbevoegde toegang of inbreuken op gegevens. Informeer gebruikers regelmatig over wachtwoordbeveiliging en bied hulpmiddelen, zoals wachtwoordsterktemeters of richtlijnen voor het maken van wachtwoorden, om hen te helpen bij het maken van sterke wachtwoorden.
 
-Voor meer gedetailleerde informatie over het maken van sterke wachtwoorden en best practices, kunt u dit raadplegen [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Het biedt uitgebreide richtlijnen voor het beveiligen van wachtwoorden en tips voor het maken van sterke en memorabele wachtwoorden.
+Voor meer gedetailleerde informatie over het maken van sterke wachtwoorden en best practices, kunt u dit raadplegen [artikel](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Het biedt uitgebreide richtlijnen voor het beveiligen van wachtwoorden en tips voor het maken van sterke en memorabele wachtwoorden.
 
 Onthoud dat het gebruik van sterke wachtwoorden een fundamenteel aspect van systeembeveiliging is en prioriteit moet krijgen om gevoelige gegevens te beschermen en de integriteit van je Windows 10-omgeving te waarborgen.
 
-#### 5. [**Enable BitLocker Encryption**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
+#### 5. [**BitLocker-versleuteling inschakelen**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
 Een van de meest effectieve manieren om gevoelige gegevens op je Windows 10-systeem te beschermen is door BitLocker-encryptie in te schakelen. BitLocker biedt volledige schijfversleuteling, zodat zelfs als je apparaat zoekraakt of wordt gestolen, je gegevens veilig en ontoegankelijk blijven voor onbevoegden.
 
 Volg deze stappen om BitLocker-encryptie in te schakelen en je gevoelige informatie te beveiligen:
@@ -138,7 +140,7 @@ Volg deze stappen om BitLocker-encryptie in te schakelen en je gevoelige informa
 
 Door BitLocker-encryptie in te schakelen, voeg je een extra beschermingslaag toe aan je Windows 10-systeem, zodat je gegevens veilig en ontoegankelijk blijven, zelfs als je apparaat in verkeerde handen valt. Het is belangrijk om je BitLocker-instellingen regelmatig bij te werken en te onderhouden om op de hoogte te blijven van de beste beveiligingspraktijken.
 
-Voor meer gedetailleerde informatie over het inschakelen en beheren van BitLocker-encryptie, kunt u de officiële [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Het biedt uitgebreide richtlijnen voor BitLocker-encryptie, inclusief geavanceerde functies en configuratieopties.
+Voor meer gedetailleerde informatie over het inschakelen en beheren van BitLocker-encryptie, kunt u de officiële [Microsoft-documentatie](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Het biedt uitgebreide richtlijnen voor BitLocker-encryptie, inclusief geavanceerde functies en configuratieopties.
 
 Vergeet niet dat het inschakelen van BitLocker-encryptie uw gevoelige gegevens helpt beschermen en u gemoedsrust geeft in de wetenschap dat uw informatie veilig is, zelfs in het geval van verlies of diefstal.
 
@@ -151,13 +153,15 @@ Hier volgen de stappen om onnodige services en functies op je Windows 10-systeem
 
 2. **Schakel onnodige services uit**: Zodra u de onnodige services hebt geïdentificeerd, klikt u met de rechtermuisknop op elke service en selecteert u **Eigenschappen**. Wijzig in het venster Eigenschappen het **Opstarttype** in **Uitgeschakeld**. Dit voorkomt dat de service automatisch start wanneer je systeem opstart. Wees voorzichtig en zorg ervoor dat u alleen services uitschakelt die niet nodig zijn voor de normale werking van uw systeem.
 
-3. **Schakel onnodige functies uit**: Naast services bevat Windows 10 ook verschillende functies die mogelijk niet nodig zijn voor uw systeem. Open het Configuratiescherm**, navigeer naar **Programma's** of **Programma's en onderdelen** en klik op **Windowsfuncties in- of uitschakelen**. Vink alle functies uit die u niet nodig hebt. Deze stap helpt het aanvalsoppervlak verder te verkleinen en minimaliseert de bronnen die door onnodige functies worden verbruikt.
+3. **Schakel onnodige functies uit**: Naast services bevat Windows 10 ook verschillende functies die mogelijk niet nodig zijn voor uw systeem. Open het Configuratiescherm&#8203;**, navigeer naar**&#8203; Programma's &#8203;**of**&#8203; Programma's en onderdelen &#8203;**en klik op**&#8203; Windowsfuncties in- of uitschakelen. Vink alle functies uit die u niet nodig hebt. Deze stap helpt het aanvalsoppervlak verder te verkleinen en minimaliseert de bronnen die door onnodige functies worden verbruikt.
 
 4. **Regelmatig controleren en bijwerken**: Het is cruciaal om de lijst met services en functies die zijn ingeschakeld op je Windows 10-systeem regelmatig te controleren. Als de vereisten van je systeem na verloop van tijd veranderen, moet je mogelijk de services en functies die nodig zijn opnieuw evalueren. Blijf waakzaam en werk je configuratie zo nodig bij.
 
 Door onnodige services en functies uit te schakelen, beperkt u de potentiële toegangspunten voor aanvallers en verkleint u het totale aanvalsoppervlak van uw Windows 10-systeem. Deze praktijk verbetert de beveiliging van je systeem en vermindert het risico op uitbuiting.
 
-Voor meer informatie over het beheren van services en functies in Windows 10 kunt u het volgende raadplegen [article](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) voor gedetailleerde richtlijnen.
+{{< figure src="windows-10-firewall-applocker-attack-surface-reduction.webp" alt="Diagram van Windows 10-firewallregels, AppLocker-beleidsregels voor toepassingsbeheer en aanvalsoppervlakreductie die samen onbevoegde toegang blokkeren" >}}
+
+Voor meer informatie over het beheren van services en functies in Windows 10 kunt u het volgende raadplegen [artikel](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) voor gedetailleerde richtlijnen.
 
 Onthoud dat het cruciaal is om voorzichtig te zijn met het uitschakelen van services en functies, omdat het uitschakelen van essentiële onderdelen de functionaliteit van je systeem negatief kan beïnvloeden. Onderzoek en begrijp altijd het doel van een service of functie voordat u wijzigingen aanbrengt.
 
@@ -176,12 +180,12 @@ Volg deze stappen om firewallregels te implementeren op je Windows 10-systeem:
 
 Door firewallregels te implementeren en te onderhouden, kunt u het risico op onbevoegde toegang tot het netwerk aanzienlijk verkleinen en de beveiliging van uw Windows 10-systeem verbeteren. Overweeg daarnaast om de optie **Stealthmodus** in de firewallinstellingen in te schakelen om je systeem minder zichtbaar te maken voor potentiële aanvallers.
 
-Voor meer gedetailleerde informatie over het configureren van firewallregels in Windows 10, kunt u de officiële [Microsoft documentation](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) voor stapsgewijze instructies.
+Voor meer gedetailleerde informatie over het configureren van firewallregels in Windows 10, kunt u de officiële [Microsoft-documentatie](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) voor stapsgewijze instructies.
 
 Onthoud dat een goed geconfigureerde firewall een essentieel onderdeel is van een alomvattende beveiligingsstrategie, maar dat deze gebruikt moet worden in combinatie met andere beveiligingsmaatregelen om een robuuste bescherming voor je systeem te bieden.
 
-#### 8. [**Use AppLocker**](https://github.com/simeononsecurity/AppLocker)
-AppLocker is een krachtige functie in Windows 10 waarmee je kunt bepalen welke toepassingen op je systeem kunnen worden uitgevoerd. Door AppLocker-beleidsregels te implementeren, kunt u de uitvoering van niet-geautoriseerde of mogelijk schadelijke toepassingen beperken en zo de beveiliging van uw Windows 10-omgeving verbeteren.
+#### 8. [**AppLocker gebruiken**](https://github.com/simeononsecurity/AppLocker)
+[AppLocker](https://simeononsecurity.com/github/applocker-hardening/) is een krachtige functie in Windows 10 waarmee je kunt bepalen welke toepassingen op je systeem kunnen worden uitgevoerd. Door AppLocker-beleidsregels te implementeren, kunt u de uitvoering van niet-geautoriseerde of mogelijk schadelijke toepassingen beperken en zo de beveiliging van uw Windows 10-omgeving verbeteren.
 
 Volg deze stappen om AppLocker te gebruiken op je Windows 10-systeem:
 
@@ -197,11 +201,11 @@ Volg deze stappen om AppLocker te gebruiken op je Windows 10-systeem:
 
 AppLocker biedt granulaire controle over de uitvoering van toepassingen en helpt voorkomen dat niet-geautoriseerde of schadelijke software wordt uitgevoerd op uw Windows 10-systeem. Door AppLocker te gebruiken, kunt u het risico op malware-infecties, ongeautoriseerde software-installaties en andere beveiligingsincidenten verminderen.
 
-Voor meer gedetailleerde informatie over het implementeren van AppLocker-beleidsregels kunt u de officiële [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [AppLocker GitHub repository](https://github.com/simeononsecurity/AppLocker) voor aanvullende bronnen en voorbeelden.
+Voor meer gedetailleerde informatie over het implementeren van AppLocker-beleidsregels kunt u de officiële [Microsoft-documentatie](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [AppLocker-repository op GitHub](https://github.com/simeononsecurity/AppLocker) voor aanvullende bronnen en voorbeelden.
 
 Vergeet niet om je AppLocker beleid regelmatig te herzien en bij te werken om je aan te passen aan veranderende applicatie-eisen en nieuwe beveiligingsrisico's. AppLocker is een waardevol hulpmiddel in je verdediging tegen ongeautoriseerde en mogelijk schadelijke toepassingen op je Windows 10-systeem.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Maak regelmatig een back-up van je gegevens**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Het regelmatig maken van back-ups van je gegevens is essentieel om je te beschermen tegen gegevensverlies door beveiligingsincidenten, hardwarestoringen of andere onverwachte gebeurtenissen. Door regelmatig back-ups te maken en de integriteit ervan te controleren, kun je ervoor zorgen dat je belangrijke gegevens veilig blijven en kunnen worden hersteld in het geval van een ramp.
 
 Volg deze stappen om regelmatig een back-up te maken van je gegevens op een Windows 10-systeem:
@@ -222,14 +226,13 @@ Volg deze stappen om regelmatig een back-up te maken van je gegevens op een Wind
 
 Door deze stappen te volgen en een regelmatige back-uproutine aan te houden, kunt u de impact van gegevensverlies minimaliseren en de beschikbaarheid van uw belangrijke informatie behouden. Vergeet niet om uw back-ups veilig op te slaan, niet in de buurt van de oorspronkelijke gegevens, en overweeg om de **3-2-1 back-upregel** toe te passen door ten minste drie kopieën van uw gegevens te bewaren op twee verschillende opslagmedia, met één kopie op een andere locatie.
 
-Voor meer gedetailleerde informatie over best practices voor back-ups en de **3-2-1 back-upregel** kunt u het artikel op [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Het biedt waardevolle inzichten en aanbevelingen voor het implementeren van een effectieve back-upstrategie.
+Voor meer gedetailleerde informatie over best practices voor back-ups en de **3-2-1 back-upregel** kunt u het artikel op [Wat is de 3-2-1-back-upregel en waarom pas je die toe?](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Het biedt waardevolle inzichten en aanbevelingen voor het implementeren van een effectieve back-upstrategie.
 
 Vergeet niet dat regelmatige back-ups cruciaal zijn om je gegevens te beschermen en de beschikbaarheid ervan te garanderen in geval van onvoorziene gebeurtenissen. Maak het maken van back-ups een integraal onderdeel van je Windows 10 hardening inspanningen om je waardevolle informatie te beschermen.
 
 ______
 
-
-### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Windows 11 beveiligen](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 11 is de nieuwste versie van het Windows-besturingssysteem en biedt verbeterde functies en een betere beveiliging. Overweeg de volgende best practices om je Windows 11-omgeving te harden:
 
@@ -256,14 +259,14 @@ Merk op dat de beschikbaarheid en specifieke stappen om Secure Boot en TPM in te
 
 Door Secure Boot en TPM in te schakelen op je Windows 11-apparaat, verbeter je de algemene beveiliging en versterk je de bescherming van je besturingssysteem en gevoelige gegevens.
 
-#### 2. [**Enable Microsoft Defender Antivirus**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
-Windows 11 wordt geleverd met ingebouwde antivirusbescherming genaamd **Microsoft Defender Antivirus**. Het biedt uitgebreide beveiliging tegen verschillende soorten **malware**, waaronder virussen, ransomware en spyware. Door **Microsoft Defender Antivirus** in te schakelen** en** regelmatig bij te werken**, kunt u ervoor zorgen dat bedreigingen** op uw Windows 11-systeem in realtime worden opgespoord en voorkomen**.
+#### 2. [**Microsoft Defender Antivirus inschakelen**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+Windows 11 wordt geleverd met ingebouwde antivirusbescherming genaamd **Microsoft Defender Antivirus**. Het biedt uitgebreide beveiliging tegen verschillende soorten **malware**, waaronder virussen, ransomware en spyware. Door **Microsoft Defender Antivirus** in te schakelen &#8203;**en** regelmatig bij te werken&#8203;**, kunt u ervoor zorgen dat bedreigingen** op uw Windows 11-systeem in realtime worden opgespoord en voorkomen.
 
 Volg deze stappen om Microsoft Defender Antivirus in te schakelen en bij te werken op uw Windows 11-apparaat:
 
 1. **Controleer de antivirusstatus**: Controleer eerst de status van Microsoft Defender Antivirus op uw systeem. Open de app **Windows Beveiliging** door in het menu Start te klikken, te zoeken naar "Windows Beveiliging" en de app te selecteren in de zoekresultaten. Zodra de toepassing is geopend, navigeert u naar het gedeelte **"Virus- en bedreigingsbescherming"** om de status van Microsoft Defender Antivirus te controleren. Het zou standaard **ingeschakeld** moeten zijn op een nieuwe installatie van Windows 11.
 
-2. **2. Schakel Real-Time Protection** in: Zorg er in de Windows Beveiligingsapp voor dat **Realtime bescherming** is ingeschakeld voor Microsoft Defender Antivirus. Realtime bescherming controleert uw systeem voortdurend op malware en andere schadelijke activiteiten en biedt **onmiddellijke reacties** en **blokkeert bedreigingen** in realtime. Als realtime bescherming niet is ingeschakeld, klik dan op de schakelaar** om deze in te schakelen.
+2. **2. Schakel Real-Time Protection** in: Zorg er in de Windows Beveiligingsapp voor dat **Realtime bescherming** is ingeschakeld voor Microsoft Defender Antivirus. Realtime bescherming controleert uw systeem voortdurend op malware en andere schadelijke activiteiten en biedt **onmiddellijke reacties** en **blokkeert bedreigingen** in realtime. Als realtime bescherming niet is ingeschakeld, klik dan op de schakelaar om deze in te schakelen.
 
 3. 3. **definities bijwerken**: Het regelmatig bijwerken van de **virusdefinities** is cruciaal om ervoor te zorgen dat Microsoft Defender Antivirus de nieuwste bedreigingen kan detecteren en er bescherming tegen kan bieden. Navigeer in de Windows Beveiligingsapp naar de sectie **"Virus- en bedreigingsbescherming"** en klik op de knop **"Controleren op updates"** om de antivirusdefinities bij te werken. Dit proces zorgt ervoor dat je systeem is uitgerust met de **laatste handtekeningen** en **detectiemogelijkheden**.
 
@@ -274,6 +277,8 @@ Volg deze stappen om Microsoft Defender Antivirus in te schakelen en bij te werk
 Het inschakelen en regelmatig bijwerken van Microsoft Defender Antivirus in Windows 11 is essentieel voor een sterke verdediging tegen malware en andere beveiligingsbedreigingen. Door deze stappen te volgen en Microsoft Defender Antivirus up-to-date te houden, kunt u ervoor zorgen dat uw Windows 11-systeem goed beschermd is.
 
 Hoewel Microsoft Defender Antivirus robuuste bescherming biedt, is het altijd aan te raden om **veilige surfgewoonten** te gebruiken, voorzichtig te zijn met **het downloaden van bestanden** of **het openen van e-mailbijlagen**, en uw **besturingssysteem en toepassingen** up-to-date te houden om uw algemene beveiliging verder te verbeteren.
+
+{{< figure src="windows-11-secure-boot-tpm-defender-security-stack.webp" alt="Diagram van de Windows 11-beveiligingsstack met Secure Boot, TPM-hardwarebeveiliging, Microsoft Defender Antivirus en virtualisatiegebaseerde beveiliging" >}}
 
 #### 3. **Standaard hardware-gebaseerde isolatie** toepassen
 Windows 11 maakt gebruik van op hardware gebaseerde isolatiefuncties zoals **Virtualization-based Security (VBS)** en **Hypervisor-protected Code Integrity (HVCI)** om verbeterde beveiliging te bieden en kritieke systeemonderdelen te beschermen.
@@ -309,14 +314,14 @@ Zorg ervoor dat u uw systeem regelmatig bijwerkt met de nieuwste beveiligingspat
 
 Houd er rekening mee dat de beschikbaarheid en vereisten van hardwarematige isolatiefuncties kunnen variëren afhankelijk van uw systeemconfiguratie en editie van Windows 11. Het wordt aanbevolen om de officiële **Microsoft documentatie** te raadplegen en compatibiliteitscontroles uit te voeren om de juiste implementatie van deze beveiligingsfuncties te garanderen.
 
-#### 4. [**Use Windows Sandbox**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+#### 4. [**Windows Sandbox gebruiken**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
 **Windows Sandbox** is een waardevol hulpmiddel waarmee u niet-vertrouwde toepassingen of testsoftware kunt uitvoeren in een geïsoleerde omgeving, waardoor uw systeem een extra beveiligingslaag krijgt. Door Windows Sandbox te gebruiken, kunt u potentiële risico's beperken die gepaard gaan met het uitvoeren van niet-vertrouwde programma's.
 
 Windows Sandbox creëert een lichte, tijdelijke bureaubladomgeving die volledig gescheiden is van uw hoofdbesturingssysteem. Alle wijzigingen die in de Sandbox worden gemaakt, worden verwijderd zodra je deze afsluit, zodat je primaire systeem onaangetast blijft.
 
 Volg deze stappen om Windows Sandbox te gebruiken:
 
-1. **Controleer de systeemvereisten**: Controleer voordat u verdergaat of uw systeem voldoet aan de vereisten voor het uitvoeren van Windows Sandbox. Over het algemeen heb je een Windows 10 Pro of Enterprise editie nodig en een processor met virtualisatiemogelijkheden ingeschakeld in de BIOS/UEFI firmware. Raadpleeg de officiële [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) voor specifieke systeemvereisten.
+1. **Controleer de systeemvereisten**: Controleer voordat u verdergaat of uw systeem voldoet aan de vereisten voor het uitvoeren van Windows Sandbox. Over het algemeen heb je een Windows 10 Pro of Enterprise editie nodig en een processor met virtualisatiemogelijkheden ingeschakeld in de BIOS/UEFI firmware. Raadpleeg de officiële [**Microsoft-documentatie**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) voor specifieke systeemvereisten.
 
 2. **Schakel Windows Sandbox** in: Windows Sandbox is een ingebouwde functie in Windows 10 Pro en Enterprise edities. Voer de volgende stappen uit om Windows Sandbox in te schakelen:
 
@@ -339,14 +344,16 @@ Windows Sandbox is een effectief hulpmiddel voor het testen van onbekende softwa
 
 Door Windows Sandbox op te nemen in je beveiligingspraktijken, kun je de risico's die gepaard gaan met het uitvoeren van niet-vertrouwde toepassingen aanzienlijk beperken en je systeem beschermen tegen potentiële bedreigingen.
 
-Raadpleeg voor meer informatie over Windows Sandbox en het gebruik ervan de officiële [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+{{< figure src="windows-sandbox-application-guard-isolation-architecture.webp" alt="Diagram van Windows Sandbox en Microsoft Defender Application Guard met geïsoleerde virtuele containers die het hostsysteem beschermen tegen niet-vertrouwde toepassingen en browsersessies" >}}
 
-#### 5. [**Implement Microsoft Defender Application Guard**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
+Raadpleeg voor meer informatie over Windows Sandbox en het gebruik ervan de officiële [**Microsoft-documentatie**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+
+#### 5. [**Microsoft Defender Application Guard implementeren**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
 Microsoft Defender Application Guard is een krachtige beveiligingsfunctie die browsersessies van Microsoft Edge isoleert van het onderliggende besturingssysteem. Door Edge in een veilige, geïsoleerde omgeving uit te voeren, helpt Application Guard je systeem te beschermen tegen browsergebaseerde aanvallen en schadelijke websites.
 
 Volg deze stappen om Microsoft Defender Application Guard te implementeren en de beveiliging van uw browser te verbeteren:
 
-1. **Controleer compatibiliteit**: Controleer voordat u verdergaat of uw systeem voldoet aan de vereisten voor het uitvoeren van Microsoft Defender Application Guard. Meestal hebt u een Windows 10 Pro of Enterprise-editie nodig, een compatibele processor met virtualisatiemogelijkheden en minstens 8 GB RAM. Raadpleeg de officiële [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) voor specifieke systeemvereisten.
+1. **Controleer compatibiliteit**: Controleer voordat u verdergaat of uw systeem voldoet aan de vereisten voor het uitvoeren van Microsoft Defender Application Guard. Meestal hebt u een Windows 10 Pro of Enterprise-editie nodig, een compatibele processor met virtualisatiemogelijkheden en minstens 8 GB RAM. Raadpleeg de officiële [**Microsoft-documentatie**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) voor specifieke systeemvereisten.
 
 2. **Schakel Application Guard** in: Application Guard is beschikbaar als optionele functie in Windows 10. Voer de volgende stappen uit om Microsoft Defender Application Guard in te schakelen:
 
@@ -363,7 +370,7 @@ Volg deze stappen om Microsoft Defender Application Guard te implementeren en de
 
 Door Microsoft Defender Application Guard te implementeren, voegt u een extra beschermingslaag toe aan uw systeem door de browsersessies te isoleren en potentiële bedreigingen binnen de beveiligde omgeving te houden. Dit helpt uw systeem en gegevens te beschermen tegen browsergebaseerde aanvallen, zoals drive-by downloads, schadelijke scripts en zero-day exploits.
 
-Raadpleeg voor meer gedetailleerde informatie over het configureren en gebruiken van Microsoft Defender Application Guard de officiële [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
+Raadpleeg voor meer gedetailleerde informatie over het configureren en gebruiken van Microsoft Defender Application Guard de officiële [**Microsoft-documentatie**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
 
 #### 6. [**Controlled Folder Access**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Controlled Folder Access is een krachtige beveiligingsfunctie die beschikbaar is in Windows 11 en die belangrijke mappen helpt beschermen tegen ongeoorloofde wijzigingen door ransomware en andere kwaadaardige software. Door Toegang tot gecontroleerde mappen in te schakelen en de benodigde mappen toe te voegen aan de lijst met beveiligde mappen, kun je de beveiliging van je systeem verbeteren en mogelijk gegevensverlies voorkomen.
@@ -388,8 +395,7 @@ Volg deze stappen om Toegang tot gecontroleerde mappen te implementeren en uw be
 
 Door de gecontroleerde maptoegang te implementeren, voegt u een extra beschermingslaag toe aan uw belangrijke mappen en beperkt u het risico op onbevoegde wijzigingen en mogelijk gegevensverlies door ransomware-aanvallen. Controleer regelmatig de instellingen voor Toegang tot gecontroleerde mappen om ervoor te zorgen dat de beveiligde mappen voldoen aan uw beveiligingsvereisten.
 
-Raadpleeg voor meer gedetailleerde informatie over het configureren en gebruiken van gecontroleerde maptoegang de officiële [**Microsoft documentation**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
-
+Raadpleeg voor meer gedetailleerde informatie over het configureren en gebruiken van gecontroleerde maptoegang de officiële [**Microsoft-documentatie**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
 
 #### 7. **Automatisch onderhoud van Windows inschakelen**
 Windows 11 bevat een handige functie met de naam Automatisch onderhoud die helpt om je systeem geoptimaliseerd en beschermd te houden door regelmatig onderhoudstaken uit te voeren. Door Automatisch onderhoud in te schakelen, zorgt u ervoor dat uw systeem soepel draait en veilig blijft.
@@ -412,19 +418,71 @@ Voer de volgende stappen uit om automatisch onderhoud van Windows in te schakele
 
 Het inschakelen van Windows Automatisch Onderhoud zorgt ervoor dat uw systeem geoptimaliseerd en beschermd blijft door regelmatig essentiële onderhoudstaken uit te voeren, zoals software-updates, schijfoptimalisatie en beveiligingsscans. Door uw systeem gezond te houden, kunt u genieten van een soepelere en veiligere computerervaring.
 
-Raadpleeg voor meer gedetailleerde informatie over Windows automatisch onderhoud en de configuratieopties de officiële [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
+Raadpleeg voor meer gedetailleerde informatie over Windows automatisch onderhoud en de configuratieopties de officiële [**Microsoft-documentatie**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
+
+______
+
+## Aanbevolen volgorde voor hardening
+
+Pas beveiligingsmaatregelen toe in een volgorde die eerst de toegang en het herstel beschermt:
+
+1. Controleer de Windows-editie en build, de ondersteuningsstatus, beschikbare hardwarebeveiliging en herstelopties.
+2. Installeer de actuele beveiligingsupdates en start opnieuw op tijdens een gepland onderhoudsvenster.
+3. Maak een geteste back-up en leg de huidige status vast van de firewall, Defender, BitLocker, services en lokaal beleid.
+4. Houd UAC ingeschakeld, gebruik aparte beheerdersaccounts en vereis MFA voor ondersteunde externe toegang en cloudtoegang.
+5. Schakel Defender-beveiliging, firewallprofielen, Secure Boot, BitLocker en hardware-isolatie in als de editie en hardware deze ondersteunen.
+6. Test ASR-regels, Controlled Folder Access, AppLocker en servicewijzigingen eerst in audit- of pilotmodus voordat je ze breed blokkeert of uitschakelt.
+7. Centraliseer logboeken en controleer mislukte aanmeldingen, beleidswijzigingen, Defender-gebeurtenissen en geblokkeerd firewallverkeer.
+8. Start opnieuw op, test vereiste toepassingen, controleer de toegang tot herstel en documenteer de eindstatus.
+
+De [Microsoft Security Compliance Toolkit](https://learn.microsoft.com/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10) biedt versiegebonden baselines voor Windows 10, Windows 11 en Windows Server. Gebruik de passende baseline als beoordeeld startpunt. Microsoft adviseert wijzigingen aan baselines te testen voordat je ze in productie inzet.
+
+## Ondersteuningsgrens van Windows 10
+
+Microsoft heeft de ondersteuning voor Windows 10 versie 22H2 op 14 oktober 2025 beëindigd. Een geharde Windows 10-installatie ontvangt na die datum geen reguliere beveiligingsupdates, tenzij een afzonderlijke levenscyclus- of Extended Security Update-regeling geldt. Neem migratie, vervanging of een goedgekeurde uitzondering op in het beveiligingsplan. Hardening verlengt de productlevenscyclus niet. Zie Microsofts [bericht over het einde van ondersteuning voor Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+## Wijzigingen aan services en functies terugdraaien
+
+Een service uitschakelen vereist tests van afhankelijkheden en workloads. Schakel **RPC**, **Windows Update**, **Windows Event Log** of een andere service niet uit omdat een algemene lijst deze overbodig noemt. De servicenaam alleen beschrijft de rol op jouw systeem niet.
+
+Exporteer vóór een wijziging de serviceconfiguratie en noteer afhankelijke services:
+
+```powershell
+$name = 'Spooler'
+Get-CimInstance Win32_Service -Filter "Name='$name'" |
+    Select-Object Name, DisplayName, State, StartMode, StartName, PathName |
+    Export-Csv "C:\Temp\$name-before.csv" -NoTypeInformation
+Get-Service -Name $name -DependentServices
+Get-Service -Name $name -RequiredServices
+```
+
+Wijzig één service tegelijk. Kies **Manual** vóór **Disabled** wanneer een workload de service op aanvraag start. Noteer het eerdere opstarttype. Controleer na de test het gedrag van toepassingen, Logboeken, Windows Update, afdrukken, extern beheer, VPN-toegang en geplande taken.
+
+Draai de wijziging terug door het vastgelegde opstarttype te herstellen. Start de service pas nadat je de afhankelijkheden hebt gecontroleerd:
+
+```powershell
+Set-Service -Name $name -StartupType Manual
+Start-Service -Name $name
+Get-Service -Name $name
+```
+
+Herstel bij een bredere beleidswijziging de opgeslagen GPO- of registerback-up met hetzelfde beheertool waarmee je die hebt gemaakt. Zorg vóór wijzigingen op afstand voor een offline herstelroute en de gegevens van een lokaal beheerdersaccount. Microsoft documenteert de syntaxis voor serviceconfiguratie bij [`sc.exe config`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config).
+
+## Validatierecord voor maatregelen
+
+Noteer voor elke hardeningwijziging de maatregel, scope, vorige waarde, nieuwe waarde, testresultaat, gecontroleerde gebeurtenis-ID's, eigenaar en opdracht om terug te draaien. Een geblokkeerde toepassing of defecte printer is een operationele bevinding, geen bewijs dat de maatregel verkeerd is. Pas de scope, uitzonderingen of implementatiering aan nadat je de gegevens hebt beoordeeld.
 
 ______
 
 ## Conclusie
 
-Het implementeren van deze **Windows hardening best practices** is essentieel voor het waarborgen van de veiligheid van uw Windows-systemen. Door uw besturingssysteem regelmatig **up te daten**, kunt u zwakke plekken in de beveiliging verhelpen en de stabiliteit van het systeem verbeteren. Het inschakelen van beveiligingsfuncties zoals **antivirus** en **encryptie** voegt een extra beschermingslaag toe aan uw gegevens. Het configureren van de juiste **toegangscontroles** helpt bij het voorkomen van ongeautoriseerde wijzigingen en beperkt de toegang tot gevoelige bronnen.
+Deze **best practices voor Windows-hardening** toepassen is essentieel om je Windows-systemen te beveiligen. Door je besturingssysteem regelmatig **bij te werken**, dicht je beveiligingslekken en verbeter je de stabiliteit. Beveiligingsfuncties zoals **antivirus** en **versleuteling** voegen bescherming toe aan je gegevens. Passende **toegangscontroles** helpen ongeautoriseerde wijzigingen voorkomen en beperken toegang tot gevoelige bronnen.
 
-Door u aan deze best practices te houden, kunt u de beveiliging van uw **Windowsomgeving** verbeteren, uw gegevens beschermen en de integriteit van uw **digitale infrastructuur** behouden. Het is belangrijk om **proactief** te blijven en regelmatig uw beveiligingsmaatregelen te herzien en bij te werken om potentiële bedreigingen voor te blijven.
+Met deze best practices verbeter je de beveiliging van je **Windows-omgeving**, bescherm je je gegevens en behoud je de integriteit van je **digitale infrastructuur**. Blijf **proactief** en beoordeel en actualiseer je beveiligingsmaatregelen regelmatig om potentiële bedreigingen voor te blijven.
 
-Onthoud dat **Windows hardening** een doorlopend proces is en dat het essentieel is om op de hoogte te blijven van de nieuwste beveiligingsupdates en -praktijken. Door proactief te blijven en deze best practices te implementeren, kunt u beveiligingsrisico's effectief beperken en de veiligheid van uw Windows-systemen garanderen.
+Onthoud dat **Windows-hardening** een doorlopend proces is. Blijf op de hoogte van de nieuwste beveiligingsupdates en werkwijzen. Door proactief te blijven en deze best practices toe te passen, beperk je beveiligingsrisico's en bescherm je je Windows-systemen.
 
-Raadpleeg voor meer informatie over Windows hardening en best practices gerenommeerde bronnen zoals **Microsoft documentatie**, **beveiligingsforums** en vertrouwde **cybersecurity websites**.
+Raadpleeg voor meer informatie over Windows-hardening en best practices betrouwbare bronnen zoals **Microsoft-documentatie**, **beveiligingsforums** en vertrouwde **cybersecuritywebsites**.
 
 ______
 

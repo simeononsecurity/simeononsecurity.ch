@@ -1,12 +1,12 @@
 ---
 title: "Bewährte Windows-Härtungspraktiken für Windows 10 und 11"
 date: 2023-07-27
-lastmod: 2026-10-21
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Entdecken Sie effektive Strategien zur Verbesserung der Sicherheit Ihrer Windows 10- und Windows 11-Systeme durch umfassende Härtungstechniken und Best Practices."
 genre: ["Windows-Härtung", "Windows-Sicherheit", "Härtung von Windows 10", "Härtung von Windows 11", "Bewährte Windows-Sicherheitspraktiken", "Tipps zur Windows-Sicherheit", "Windows-Sicherheitsrichtlinien", "Absicherung von Windows-Betriebssystemen", "Härtung des Windows-Systems", "Windows-Sicherheitsmaßnahmen"]
-tags: ["Windows-Härtung", "Windows-Sicherheit", "Windows 10", "Fenster 11", "Sicherheit des Betriebssystems", "Windows Defender", "Benutzerkontensteuerung", "BitLocker-Verschlüsselung", "Firewall-Konfiguration", "AppLocker-Richtlinien", "Windows-Updates", "sichere Passwörter", "Datensicherung", "Windows Hello", "Sicherer Start", "TPM", "Microsoft Defender Antivirus", "Windows-Sandkasten", "Microsoft Defender Application Guard", "Kontrollierter Ordnerzugriff", "Bewährte Verfahren zur Sicherung von Windows 10 und Windows 11", "Wie man Windows-Betriebssysteme härtet", "Windows-Sicherheitsmaßnahmen für Einzelpersonen und Unternehmen", "Verbesserung der Sicherheit des Windows-Systems", "Schutz von Daten mit BitLocker-Verschlüsselung", "Isolierung von Browser-Sitzungen mit Microsoft Defender Application Guard", "Tipps und Richtlinien zur Sicherheit von Windows 10", "Implementierung von Windows-Sicherheitsfunktionen", "Absicherung von Windows mit hardwarebasierter Isolierung", "Sicherstellung der Integrität des Windows-Systems"]
+tags: ["Windows-Härtung", "Windows-Sicherheit", "Windows 10", "Windows 11", "Sicherheit des Betriebssystems", "Windows Defender", "Benutzerkontensteuerung", "BitLocker-Verschlüsselung", "Firewall-Konfiguration", "AppLocker-Richtlinien", "Aktualisierungen für Windows", "sichere Passwörter", "Datensicherung", "Windows Hello", "Sicherer Start", "TPM", "Microsoft Defender Antivirus", "Windows-Sandkasten", "Microsoft Defender Application Guard", "Kontrollierter Ordnerzugriff", "Bewährte Verfahren zur Sicherung von Windows 10 und Windows 11", "Wie man Windows-Betriebssysteme härtet", "Windows-Sicherheitsmaßnahmen für Einzelpersonen und Unternehmen", "Verbesserung der Sicherheit des Windows-Systems", "Schutz von Daten mit BitLocker-Verschlüsselung", "Isolierung von Browser-Sitzungen mit Microsoft Defender Application Guard", "Tipps und Richtlinien zur Sicherheit von Windows 10", "Implementierung von Windows-Sicherheitsfunktionen", "Absicherung von Windows mit hardwarebasierter Isolierung", "Sicherstellung der Integrität des Windows-Systems"]
 cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp"
 coverAlt: "Eine Cartoon-Illustration eines Schildes, das ein Windows-Logo vor verschiedenen Cyber-Bedrohungen schützt."
 coverCaption: "Sichern Sie Ihre Windows-Festung mit effektiven Härtungstechniken."
@@ -22,11 +22,11 @@ ______
 
 Unter Windows-Härtung versteht man den Prozess der Verbesserung der Sicherheit eines Windows-Betriebssystems. Dazu gehören die Konfiguration verschiedener Einstellungen und die Implementierung von Sicherheitsmaßnahmen zum Schutz vor unbefugtem Zugriff, Malware und anderen Bedrohungen. Durch die Härtung Ihres Windows-Systems können Sie die mit Cyberangriffen verbundenen Risiken minimieren und die Vertraulichkeit, Integrität und Verfügbarkeit Ihrer Daten sicherstellen.
 
-### [Hardening Windows 10](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Windows 10 härten](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 10 ist eines der weltweit am häufigsten verwendeten Betriebssysteme. Um Ihre Windows 10-Umgebung abzusichern, sollten Sie die folgenden Best Practices beachten:
 
-#### 1. [**Enable Windows Defender**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+#### 1. [**Windows Defender aktivieren**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 
 Windows Defender ist eine **robuste Antivirenlösung**, die in Windows 10 enthalten ist. Sie bietet eine Reihe von Sicherheitsfunktionen zum Schutz Ihres Systems vor verschiedenen Arten von **Malware**, einschließlich **Viren, Spyware und Ransomware**. Durch die Aktivierung von Windows Defender können Sie die Sicherheit Ihrer Windows 10-Umgebung erheblich verbessern.
 
@@ -49,7 +49,7 @@ Wenn Sie Windows Defender aktivieren und auf dem neuesten Stand halten, können 
 
 Denken Sie daran, dass Windows Defender zwar ein solides Schutzniveau bietet, es aber unbedingt mit **sicheren Surfgewohnheiten**, **regelmäßigen Software-Updates** und anderen Sicherheitsmaßnahmen ergänzt werden muss, um eine sichere Windows 10-Umgebung zu erhalten.
 
-#### 2. [**Keep Windows 10 Updated**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
+#### 2. [**Windows 10 aktuell halten**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
 Die regelmäßige Installation von Windows-Updates ist ein wichtiger Aspekt der **Härtung von Windows 10**. Diese Updates enthalten **Sicherheitspatches**, Fehlerbehebungen und Leistungsverbesserungen, die dazu beitragen, **Sicherheitslücken** zu schließen und die Systemstabilität zu verbessern.
 
 Microsoft veröffentlicht **regelmäßige Updates** für Windows 10, um neu entdeckte Sicherheitsprobleme zu beheben und die allgemeine Benutzerfreundlichkeit zu verbessern. Indem Sie Ihr System auf dem neuesten Stand halten, stellen Sie sicher, dass Ihr Betriebssystem über die neuesten **Sicherheitsverbesserungen** verfügt, um sich vor neuen Bedrohungen zu schützen.
@@ -71,7 +71,7 @@ Es ist wichtig zu betonen, dass Sie Ihr System **regelmäßig neu starten**, nac
 
 Wenn Sie **Ihr Windows 10-System auf dem neuesten Stand halten**, erhöhen Sie nicht nur seine Sicherheit, sondern profitieren auch von den neuesten Funktionen, Leistungsverbesserungen und Kompatibilitätsbehebungen. Es ist eine proaktive Maßnahme, um sicherzustellen, dass Ihr System gegen potenzielle Sicherheitsbedrohungen widerstandsfähig bleibt.
 
-#### 3. [**Configure User Account Control (UAC)**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
+#### 3. [**User Account Control (UAC) konfigurieren**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
 Die Benutzerkontensteuerung (UAC) ist eine Sicherheitsfunktion in Windows 10, die dazu beiträgt, unbefugte Änderungen an Ihrem System zu verhindern, indem sie bei Bedarf die Genehmigung des Administrators einholt. Sie dient als Schutz vor bösartiger Software oder unbefugten Benutzern, die versuchen, Änderungen vorzunehmen, die die Systemsicherheit oder -stabilität beeinträchtigen könnten.
 
 Die Konfiguration der UAC-Einstellungen auf eine angemessene Stufe ist entscheidend für die **Härtung von Windows 10**. Es geht darum, ein Gleichgewicht zwischen Sicherheit und Benutzerfreundlichkeit zu finden, um sicherzustellen, dass die UAC Ihr System effektiv schützt, ohne unnötige Unterbrechungen zu verursachen.
@@ -85,10 +85,10 @@ Um die UAC-Einstellungen in Windows 10 zu konfigurieren, können Sie die folgend
 3. Klicken Sie auf **"Einstellungen der Benutzerkontensteuerung ändern "**.
 
 4. Sie sehen einen Schieberegler mit verschiedenen Stufen der UAC-Einstellungen. Hier sind die verfügbaren Optionen:
-   - **"Immer benachrichtigen "**: Dies ist die höchste Sicherheitsstufe der Benutzerkontensteuerung, bei der Sie bei allen Systemänderungen, selbst bei einfachen Aufgaben, um Ihre Zustimmung gebeten werden.
-   - **"Nur benachrichtigen, wenn Anwendungen versuchen, Änderungen an meinem Computer vorzunehmen (Standard) "**: Dies ist die empfohlene Einstellung, die ein Gleichgewicht zwischen Sicherheit und Benutzerfreundlichkeit bietet. Sie werden um Zustimmung gebeten, wenn Anwendungen Änderungen vornehmen, aber nicht bei Änderungen der Windows-Einstellungen.
-   - **"Nur benachrichtigen, wenn Anwendungen versuchen, Änderungen an meinem Computer vorzunehmen (den Desktop nicht verdunkeln) "**: Ähnlich wie die vorherige Option, aber der Desktop wird nicht abgedunkelt, wenn UAC-Aufforderungen erscheinen.
-   - **"Nie benachrichtigen "**: Dies ist die niedrigste Stufe der UAC-Sicherheit, bei der Sie nicht zu Systemänderungen aufgefordert werden.
+   - **"Immer benachrichtigen"**: Dies ist die höchste Sicherheitsstufe der Benutzerkontensteuerung, bei der Sie bei allen Systemänderungen, selbst bei einfachen Aufgaben, um Ihre Zustimmung gebeten werden.
+   - **"Nur benachrichtigen, wenn Anwendungen versuchen, Änderungen an meinem Computer vorzunehmen (Standard)"**: Dies ist die empfohlene Einstellung, die ein Gleichgewicht zwischen Sicherheit und Benutzerfreundlichkeit bietet. Sie werden um Zustimmung gebeten, wenn Anwendungen Änderungen vornehmen, aber nicht bei Änderungen der Windows-Einstellungen.
+   - **"Nur benachrichtigen, wenn Anwendungen versuchen, Änderungen an meinem Computer vorzunehmen (den Desktop nicht verdunkeln)"**: Ähnlich wie die vorherige Option, aber der Desktop wird nicht abgedunkelt, wenn UAC-Aufforderungen erscheinen.
+   - **"Nie benachrichtigen"**: Dies ist die niedrigste Stufe der UAC-Sicherheit, bei der Sie nicht zu Systemänderungen aufgefordert werden.
 
 5. Wählen Sie die UAC-Sicherheitsstufe, die Ihren Bedürfnissen entspricht, indem Sie den Schieberegler in die gewünschte Position schieben.
 
@@ -98,7 +98,9 @@ Es wird empfohlen, die Benutzerkontensteuerung zu aktivieren und auf eine Stufe 
 
 Durch die Konfiguration der UAC-Einstellungen erhöhen Sie die Sicherheit Ihres Windows 10-Systems, indem Sie sicherstellen, dass für kritische Systemänderungen Administratorrechte erforderlich sind, wodurch das Risiko eines unbefugten Zugriffs und einer Malware-Infektion verringert wird.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+{{< figure src="windows-10-uac-bitlocker-security-overview.webp" alt="Diagramm der Windows-10-Benutzerkontensteuerung und BitLocker-Verschlüsselung zum Schutz der Systemintegrität und vertraulicher Daten" >}}
+
+#### 4. [**Starke Passwörter verwenden**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 Die Verwendung sicherer Kennwörter ist für die Sicherheit Ihres Windows 10-Systems und den Schutz vor unbefugtem Zugriff unerlässlich. Schwache oder leicht zu erratende Passwörter können Ihr System anfällig für Angriffe machen, wie z. B. Brute-Force-Angriffe oder Passwort-Cracking.
 
 Um sicherzustellen, dass alle Benutzerkonten auf Ihrem Windows 10-System über sichere Kennwörter verfügen, befolgen Sie diese bewährten Kennwortpraktiken:
@@ -117,11 +119,11 @@ Um sicherzustellen, dass alle Benutzerkonten auf Ihrem Windows 10-System über s
 
 Durch die Einführung sicherer Kennwortpraktiken erhöhen Sie die Sicherheit Ihres Windows 10-Systems erheblich und verringern das Risiko eines unbefugten Zugriffs oder von Datenverletzungen. Informieren Sie die Benutzer regelmäßig über die Sicherheit von Passwörtern und stellen Sie ihnen Ressourcen zur Verfügung, z. B. Messgeräte für die Passwortstärke oder Richtlinien zur Erstellung von Passwörtern, um sie bei der Erstellung sicherer Passwörter zu unterstützen.
 
-Ausführlichere Informationen über die Erstellung sicherer Kennwörter und bewährte Verfahren finden Sie in diesem [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Es bietet eine umfassende Anleitung zur Passwortsicherheit und gibt Tipps zur Erstellung sicherer und einprägsamer Passwörter.
+Ausführlichere Informationen über die Erstellung sicherer Kennwörter und bewährte Verfahren finden Sie in diesem [Artikel](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Es bietet eine umfassende Anleitung zur Passwortsicherheit und gibt Tipps zur Erstellung sicherer und einprägsamer Passwörter.
 
 Denken Sie daran, dass die Verwendung sicherer Passwörter ein grundlegender Aspekt der Systemsicherheit ist und Priorität haben sollte, um sensible Daten zu schützen und die Integrität Ihrer Windows 10-Umgebung zu gewährleisten.
 
-#### 5. [**Enable BitLocker Encryption**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
+#### 5. [**BitLocker-Verschlüsselung aktivieren**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
 Eine der effektivsten Möglichkeiten, sensible Daten auf Ihrem Windows 10-System zu schützen, ist die Aktivierung der BitLocker-Verschlüsselung. BitLocker bietet eine vollständige Festplattenverschlüsselung und stellt sicher, dass Ihre Daten auch bei Verlust oder Diebstahl Ihres Geräts sicher und für Unbefugte unzugänglich bleiben.
 
 Führen Sie die folgenden Schritte aus, um die BitLocker-Verschlüsselung zu aktivieren und Ihre vertraulichen Daten zu schützen:
@@ -138,7 +140,7 @@ Führen Sie die folgenden Schritte aus, um die BitLocker-Verschlüsselung zu akt
 
 Durch die Aktivierung der BitLocker-Verschlüsselung fügen Sie Ihrem Windows 10-System eine zusätzliche Schutzebene hinzu und stellen sicher, dass Ihre Daten sicher und unzugänglich bleiben, selbst wenn Ihr Gerät in die falschen Hände gerät. Es ist wichtig, Ihre BitLocker-Einstellungen regelmäßig zu aktualisieren und zu pflegen, um mit den bewährten Sicherheitsverfahren auf dem neuesten Stand zu bleiben.
 
-Ausführlichere Informationen zur Aktivierung und Verwaltung der BitLocker-Verschlüsselung finden Sie in der offiziellen [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Es bietet eine umfassende Anleitung zur BitLocker-Verschlüsselung, einschließlich erweiterter Funktionen und Konfigurationsoptionen.
+Ausführlichere Informationen zur Aktivierung und Verwaltung der BitLocker-Verschlüsselung finden Sie in der offiziellen [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Es bietet eine umfassende Anleitung zur BitLocker-Verschlüsselung, einschließlich erweiterter Funktionen und Konfigurationsoptionen.
 
 Denken Sie daran, dass die Aktivierung der BitLocker-Verschlüsselung zum Schutz Ihrer sensiblen Daten beiträgt und Ihnen die Gewissheit verschafft, dass Ihre Informationen auch bei Verlust oder Diebstahl sicher sind.
 
@@ -157,7 +159,9 @@ Hier sind die Schritte zum Deaktivieren unnötiger Dienste und Funktionen auf Ih
 
 Indem Sie unnötige Dienste und Funktionen deaktivieren, schränken Sie die potenziellen Einstiegspunkte für Angreifer ein und verringern die gesamte Angriffsfläche Ihres Windows 10-Systems. Diese Vorgehensweise verbessert die Sicherheitslage Ihres Systems und verringert das Risiko eines Angriffs.
 
-Weitere Informationen zur Verwaltung von Diensten und Funktionen in Windows 10 finden Sie im Folgenden [article](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) für eine ausführliche Anleitung.
+{{< figure src="windows-10-firewall-applocker-attack-surface-reduction.webp" alt="Diagramm, das Windows-10-Firewallregeln, AppLocker-Anwendungssteuerung und Angriffsflächenreduzierung beim Blockieren unbefugter Zugriffe zeigt" >}}
+
+Weitere Informationen zur Verwaltung von Diensten und Funktionen in Windows 10 finden Sie im Folgenden [Artikel](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) für eine ausführliche Anleitung.
 
 Denken Sie daran, dass Sie bei der Deaktivierung von Diensten und Funktionen Vorsicht walten lassen müssen, da die Deaktivierung wichtiger Komponenten die Funktionalität Ihres Systems beeinträchtigen kann. Informieren Sie sich immer über den Zweck eines Dienstes oder einer Funktion, bevor Sie Änderungen vornehmen.
 
@@ -176,12 +180,12 @@ Folgen Sie diesen Schritten, um Firewall-Regeln auf Ihrem Windows 10-System zu i
 
 Durch die Implementierung und Pflege von Firewall-Regeln können Sie das Risiko eines unbefugten Netzwerkzugriffs erheblich verringern und die Sicherheit Ihres Windows 10-Systems verbessern. Ziehen Sie außerdem in Erwägung, die Option **Stealth-Modus** in den Firewall-Einstellungen zu aktivieren, um Ihr System für potenzielle Angreifer weniger sichtbar zu machen.
 
-Ausführlichere Informationen zur Konfiguration von Firewall-Regeln in Windows 10 finden Sie in der offiziellen [Microsoft documentation](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) für eine schrittweise Anleitung.
+Ausführlichere Informationen zur Konfiguration von Firewall-Regeln in Windows 10 finden Sie in der offiziellen [Microsoft-Dokumentation](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) für eine schrittweise Anleitung.
 
 Denken Sie daran, dass eine gut konfigurierte Firewall ein wesentlicher Bestandteil einer umfassenden Sicherheitsstrategie ist, aber sie sollte in Verbindung mit anderen Sicherheitsmaßnahmen eingesetzt werden, um einen zuverlässigen Schutz für Ihr System zu gewährleisten.
 
-#### 8. [**Use AppLocker**](https://github.com/simeononsecurity/AppLocker)
-AppLocker ist eine leistungsstarke Funktion in Windows 10, mit der Sie steuern können, welche Anwendungen auf Ihrem System ausgeführt werden können. Durch die Implementierung von AppLocker-Richtlinien können Sie die Ausführung von nicht autorisierten oder potenziell bösartigen Anwendungen einschränken und so die Sicherheit Ihrer Windows 10-Umgebung erhöhen.
+#### 8. [**AppLocker verwenden**](https://github.com/simeononsecurity/AppLocker)
+[AppLocker](https://simeononsecurity.com/github/applocker-hardening/) ist eine leistungsstarke Funktion in Windows 10, mit der Sie steuern können, welche Anwendungen auf Ihrem System ausgeführt werden können. Durch die Implementierung von AppLocker-Richtlinien können Sie die Ausführung von nicht autorisierten oder potenziell bösartigen Anwendungen einschränken und so die Sicherheit Ihrer Windows 10-Umgebung erhöhen.
 
 Folgen Sie diesen Schritten, um AppLocker auf Ihrem Windows 10-System zu verwenden:
 
@@ -197,11 +201,11 @@ Folgen Sie diesen Schritten, um AppLocker auf Ihrem Windows 10-System zu verwend
 
 AppLocker bietet eine granulare Kontrolle über die Ausführung von Anwendungen und hilft Ihnen dabei, die Ausführung nicht autorisierter oder bösartiger Software auf Ihrem Windows 10-System zu verhindern. Durch die Verwendung von AppLocker können Sie das Risiko von Malware-Infektionen, nicht autorisierten Software-Installationen und anderen Sicherheitsvorfällen verringern.
 
-Ausführlichere Informationen zur Implementierung von AppLocker-Richtlinien finden Sie in der offiziellen [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [AppLocker GitHub repository](https://github.com/simeononsecurity/AppLocker) für zusätzliche Ressourcen und Beispiele.
+Ausführlichere Informationen zur Implementierung von AppLocker-Richtlinien finden Sie in der offiziellen [Microsoft-Dokumentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [GitHub-Repository von AppLocker](https://github.com/simeononsecurity/AppLocker) für zusätzliche Ressourcen und Beispiele.
 
 Denken Sie daran, Ihre AppLocker-Richtlinien regelmäßig zu überprüfen und zu aktualisieren, um sie an sich ändernde Anwendungsanforderungen und neue Sicherheitsbedrohungen anzupassen. AppLocker ist ein wertvolles Werkzeug für Ihre Verteidigung gegen nicht autorisierte und potenziell schädliche Anwendungen auf Ihrem Windows 10-System.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Daten regelmäßig sichern**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Regelmäßige Datensicherungen sind eine wichtige Maßnahme zum Schutz vor Datenverlusten aufgrund von Sicherheitsvorfällen, Hardwareausfällen oder anderen unerwarteten Ereignissen. Durch die Erstellung regelmäßiger Backups und die Überprüfung ihrer Integrität können Sie sicherstellen, dass Ihre wichtigen Daten sicher bleiben und im Falle einer Katastrophe wiederhergestellt werden können.
 
 Befolgen Sie diese Schritte, um Ihre Daten auf einem Windows 10-System regelmäßig zu sichern:
@@ -222,14 +226,13 @@ Befolgen Sie diese Schritte, um Ihre Daten auf einem Windows 10-System regelmä�
 
 Wenn Sie diese Schritte befolgen und sich an eine regelmäßige Backup-Routine halten, können Sie die Auswirkungen von Datenverlusten minimieren und die Verfügbarkeit Ihrer wichtigen Informationen aufrechterhalten. Denken Sie daran, Ihre Backups sicher und getrennt von den Originaldaten aufzubewahren, und ziehen Sie die **3-2-1-Backup-Regel** in Betracht, d. h. mindestens drei Kopien Ihrer Daten auf zwei verschiedenen Speichermedien und eine Kopie außerhalb des Unternehmens.
 
-Ausführlichere Informationen über bewährte Verfahren zur Datensicherung und die **3-2-1-Backup-Regel** finden Sie in dem Artikel auf [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Er bietet wertvolle Einblicke und Empfehlungen für die Umsetzung einer effektiven Sicherungsstrategie.
+Ausführlichere Informationen über bewährte Verfahren zur Datensicherung und die **3-2-1-Backup-Regel** finden Sie in dem Artikel auf [Was ist die 3-2-1-Backup-Regel und warum sollte man sie anwenden?](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Er bietet wertvolle Einblicke und Empfehlungen für die Umsetzung einer effektiven Sicherungsstrategie.
 
 Denken Sie daran, dass regelmäßige Backups entscheidend sind, um Ihre Daten zu schützen und ihre Verfügbarkeit im Falle unvorhergesehener Ereignisse zu gewährleisten. Machen Sie die Datensicherung zu einem festen Bestandteil Ihrer Windows 10-Härtungsmaßnahmen, um Ihre wertvollen Informationen zu schützen.
 
 ______
 
-
-### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Windows 11 härten](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 11 ist die neueste Version des Windows-Betriebssystems und bietet erweiterte Funktionen und verbesserte Sicherheit. Um Ihre Windows 11-Umgebung abzusichern, sollten Sie die folgenden Best Practices beachten:
 
@@ -256,7 +259,7 @@ Beachten Sie, dass die Verfügbarkeit und die spezifischen Schritte zur Aktivier
 
 Durch die Aktivierung von Secure Boot und TPM auf Ihrem Windows 11-Gerät verbessern Sie die allgemeine Sicherheitslage und stärken den Schutz Ihres Betriebssystems und sensibler Daten.
 
-#### 2. [**Enable Microsoft Defender Antivirus**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+#### 2. [**Microsoft Defender Antivirus aktivieren**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Windows 11 verfügt über einen integrierten Virenschutz namens **Microsoft Defender Antivirus**. Er bietet umfassenden Schutz vor verschiedenen Arten von **Malware**, einschließlich Viren, Ransomware und Spyware. Durch **Aktivierung** und **regelmäßige Updates** von Microsoft Defender Antivirus können Sie eine **Echtzeit-Bedrohungserkennung und -abwehr** auf Ihrem Windows 11-System sicherstellen.
 
 Folgen Sie diesen Schritten, um Microsoft Defender Antivirus auf Ihrem Windows 11-Gerät zu aktivieren und zu aktualisieren:
@@ -269,11 +272,13 @@ Folgen Sie diesen Schritten, um Microsoft Defender Antivirus auf Ihrem Windows 1
 
 4. **Planen Sie Scans**: Mit Microsoft Defender Antivirus können Sie regelmäßige **Systemüberprüfungen** planen, um potenzielle Bedrohungen proaktiv zu erkennen und zu entfernen. Gehen Sie in der Windows-Sicherheits-App zum Abschnitt **Viren- und Bedrohungsschutz "** und klicken Sie auf die Option **Schnellüberprüfung "** oder **Vollüberprüfung "**, um eine Überprüfung zu starten. Sie können auch auf den Link **"Scanoptionen "** klicken, um die Scaneinstellungen anzupassen und regelmäßige Scans nach Ihren Wünschen zu planen.
 
-5. **Zusätzliche Einstellungen konfigurieren**: Microsoft Defender Antivirus bietet zusätzliche Einstellungen und Funktionen, die Sie je nach Ihren Sicherheitsanforderungen konfigurieren können. Erkunden Sie in der Windows-Sicherheits-App die verschiedenen Abschnitte wie **"App- und Browserkontrolle", **"Gerätesicherheit" und **"Firewall und Netzwerkschutz "**, um die Antiviren-Einstellungen anzupassen und erweiterte Schutzfunktionen zu nutzen.
+5. **Zusätzliche Einstellungen konfigurieren**: Microsoft Defender Antivirus bietet zusätzliche Einstellungen und Funktionen, die Sie je nach Ihren Sicherheitsanforderungen konfigurieren können. Erkunden Sie in der Windows-Sicherheits-App die verschiedenen Abschnitte wie **"App- und Browserkontrolle",** "Gerätesicherheit" und **"Firewall und Netzwerkschutz "**, um die Antiviren-Einstellungen anzupassen und erweiterte Schutzfunktionen zu nutzen.
 
 Das Aktivieren und regelmäßige Aktualisieren von Microsoft Defender Antivirus in Windows 11 ist für die Aufrechterhaltung einer starken Verteidigung gegen Malware und andere Sicherheitsbedrohungen unerlässlich. Wenn Sie diese Schritte befolgen und Microsoft Defender Antivirus auf dem neuesten Stand halten, können Sie sicherstellen, dass Ihr Windows 11-System gut geschützt ist.
 
 Beachten Sie, dass Microsoft Defender Antivirus zwar einen zuverlässigen Schutz bietet, es jedoch immer empfehlenswert ist, **sichere Surfgewohnheiten** zu praktizieren, beim **Herunterladen von Dateien** oder **Öffnen von E-Mail-Anhängen** Vorsicht walten zu lassen und Ihr **Betriebssystem und Ihre Anwendungen auf dem neuesten Stand zu halten**, um Ihre allgemeine Sicherheitslage weiter zu verbessern.
+
+{{< figure src="windows-11-secure-boot-tpm-defender-security-stack.webp" alt="Diagramm des Windows-11-Sicherheitsstapels mit Secure Boot, TPM-Hardwareschutz, Microsoft Defender Antivirus und Virtualisierungsbasierter Sicherheit" >}}
 
 #### 3. **Standardmäßige Hardware-basierte Isolierung anwenden**
 Windows 11 nutzt hardwarebasierte Isolierungsfunktionen wie **Virtualisierungsbasierte Sicherheit (VBS)** und **Hypervisor-geschützte Code-Integrität (HVCI)**, um verbesserte Sicherheit zu bieten und kritische Systemkomponenten zu schützen.
@@ -309,14 +314,14 @@ Stellen Sie sicher, dass Sie Ihr System regelmäßig mit den neuesten Sicherheit
 
 Beachten Sie, dass die Verfügbarkeit und die Anforderungen der hardwarebasierten Isolierungsfunktionen je nach Systemkonfiguration und Edition von Windows 11 variieren können. Es wird empfohlen, die offizielle **Microsoft-Dokumentation** zu konsultieren und Kompatibilitätsprüfungen durchzuführen, um die ordnungsgemäße Implementierung dieser Sicherheitsfunktionen sicherzustellen.
 
-#### 4. [**Use Windows Sandbox**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+#### 4. [**Windows Sandbox verwenden**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
 Die **Windows Sandbox** ist ein wertvolles Tool, mit dem Sie nicht vertrauenswürdige Anwendungen oder Testsoftware in einer isolierten Umgebung ausführen können, was eine zusätzliche Sicherheitsebene für Ihr System darstellt. Durch die Verwendung von Windows Sandbox können Sie potenzielle Risiken, die mit der Ausführung nicht vertrauenswürdiger Programme verbunden sind, minimieren.
 
 Windows Sandbox erstellt eine leichtgewichtige, temporäre Desktop-Umgebung, die vollständig von Ihrem Hauptbetriebssystem getrennt ist. Alle in der Sandbox vorgenommenen Änderungen werden verworfen, sobald Sie die Sandbox schließen, so dass Ihr Hauptsystem davon unberührt bleibt.
 
 Gehen Sie folgendermaßen vor, um Windows Sandbox zu verwenden:
 
-1. **Systemanforderungen prüfen**: Bevor Sie fortfahren, stellen Sie sicher, dass Ihr System die Anforderungen für die Ausführung von Windows Sandbox erfüllt. Im Allgemeinen benötigen Sie eine Windows 10 Pro oder Enterprise Edition und einen Prozessor, bei dem die Virtualisierungsfunktionen in der BIOS/UEFI-Firmware aktiviert sind. Konsultieren Sie die offizielle [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) für spezifische Systemanforderungen.
+1. **Systemanforderungen prüfen**: Bevor Sie fortfahren, stellen Sie sicher, dass Ihr System die Anforderungen für die Ausführung von Windows Sandbox erfüllt. Im Allgemeinen benötigen Sie eine Windows 10 Pro oder Enterprise Edition und einen Prozessor, bei dem die Virtualisierungsfunktionen in der BIOS/UEFI-Firmware aktiviert sind. Konsultieren Sie die offizielle [**Microsoft-Dokumentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) für spezifische Systemanforderungen.
 
 2. **Windows Sandbox aktivieren**: Windows Sandbox ist eine integrierte Funktion in den Editionen Windows 10 Pro und Enterprise. Führen Sie die folgenden Schritte aus, um Windows Sandbox zu aktivieren:
 
@@ -339,14 +344,16 @@ Die Windows-Sandbox ist ein effektives Tool zum Testen unbekannter Software, zum
 
 Wenn Sie die Windows-Sandbox in Ihre Sicherheitspraktiken einbeziehen, können Sie die Risiken, die mit der Ausführung nicht vertrauenswürdiger Anwendungen verbunden sind, erheblich verringern und Ihr System vor potenziellen Bedrohungen schützen.
 
-Weitere Informationen zur Windows Sandbox und ihrer Verwendung finden Sie in der offiziellen [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+{{< figure src="windows-sandbox-application-guard-isolation-architecture.webp" alt="Diagramm zu Windows Sandbox und Microsoft Defender Application Guard mit isolierten virtuellen Containern zum Schutz des Hostbetriebssystems vor nicht vertrauenswürdigen Anwendungen und Browsersitzungen" >}}
 
-#### 5. [**Implement Microsoft Defender Application Guard**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
+Weitere Informationen zur Windows Sandbox und ihrer Verwendung finden Sie in der offiziellen [**Microsoft-Dokumentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+
+#### 5. [**Microsoft Defender Application Guard implementieren**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
 Microsoft Defender Application Guard ist eine leistungsstarke Sicherheitsfunktion, die Microsoft Edge-Browsersitzungen vom zugrunde liegenden Betriebssystem isoliert. Indem Edge in einer sicheren, isolierten Umgebung ausgeführt wird, hilft Application Guard, Ihr System vor browserbasierten Angriffen und bösartigen Websites zu schützen.
 
 Führen Sie die folgenden Schritte aus, um Microsoft Defender Application Guard zu implementieren und Ihre Browsersicherheit zu verbessern:
 
-1. **Kompatibilität prüfen**: Bevor Sie fortfahren, stellen Sie sicher, dass Ihr System die Anforderungen für die Ausführung von Microsoft Defender Application Guard erfüllt. In der Regel benötigen Sie ein Windows 10 Pro oder Enterprise Edition, einen kompatiblen Prozessor mit Virtualisierungsfunktionen und mindestens 8 GB RAM. Siehe die offizielle [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) für spezifische Systemanforderungen.
+1. **Kompatibilität prüfen**: Bevor Sie fortfahren, stellen Sie sicher, dass Ihr System die Anforderungen für die Ausführung von Microsoft Defender Application Guard erfüllt. In der Regel benötigen Sie ein Windows 10 Pro oder Enterprise Edition, einen kompatiblen Prozessor mit Virtualisierungsfunktionen und mindestens 8 GB RAM. Siehe die offizielle [**Microsoft-Dokumentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) für spezifische Systemanforderungen.
 
 2. **Aktivieren Sie Application Guard**: Application Guard ist als optionale Funktion in Windows 10 verfügbar. Gehen Sie folgendermaßen vor, um den Microsoft Defender Application Guard zu aktivieren:
 
@@ -363,7 +370,7 @@ Führen Sie die folgenden Schritte aus, um Microsoft Defender Application Guard 
 
 Durch die Implementierung von Microsoft Defender Application Guard fügen Sie Ihrem System eine zusätzliche Schutzebene hinzu, indem Sie die Browsersitzungen isolieren und alle potenziellen Bedrohungen innerhalb der sicheren Umgebung eindämmen. Dies trägt dazu bei, Ihr System und Ihre Daten vor browserbasierten Angriffen wie Drive-by-Downloads, bösartigen Skripten und Zero-Day-Exploits zu schützen.
 
-Ausführlichere Informationen zur Konfiguration und Verwendung von Microsoft Defender Application Guard finden Sie in der offiziellen [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
+Ausführlichere Informationen zur Konfiguration und Verwendung von Microsoft Defender Application Guard finden Sie in der offiziellen [**Microsoft-Dokumentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
 
 #### 6. [**Controlled Folder Access**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Gesteuerter Ordnerzugriff ist eine leistungsstarke Sicherheitsfunktion in Windows 11, die wichtige Ordner vor unbefugten Änderungen durch Ransomware und andere bösartige Software schützen kann. Durch die Aktivierung des kontrollierten Ordnerzugriffs und das Hinzufügen notwendiger Ordner zur geschützten Liste können Sie die Sicherheit Ihres Systems erhöhen und einen möglichen Datenverlust verhindern.
@@ -388,8 +395,7 @@ Gehen Sie folgendermaßen vor, um den kontrollierten Ordnerzugriff zu implementi
 
 Durch die Implementierung des kontrollierten Ordnerzugriffs fügen Sie Ihren wichtigen Ordnern eine zusätzliche Schutzebene hinzu, die das Risiko unbefugter Änderungen und möglicher Datenverluste durch Ransomware-Angriffe mindert. Überprüfen Sie regelmäßig die Einstellungen für den kontrollierten Ordnerzugriff, um sicherzustellen, dass die geschützten Ordner Ihren Sicherheitsanforderungen entsprechen.
 
-Ausführlichere Informationen zur Konfiguration und Verwendung von Controlled Folder Access finden Sie in der offiziellen [**Microsoft documentation**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
-
+Ausführlichere Informationen zur Konfiguration und Verwendung von Controlled Folder Access finden Sie in der offiziellen [**Microsoft-Dokumentation**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
 
 #### 7. **Automatische Windows-Wartung aktivieren**
 Windows 11 enthält eine praktische Funktion namens Automatische Wartung, die dazu beiträgt, Ihr System durch die Durchführung regelmäßiger Wartungsaufgaben zu optimieren und zu schützen. Durch die Aktivierung der automatischen Wartung stellen Sie sicher, dass Ihr System reibungslos funktioniert und sicher bleibt.
@@ -412,19 +418,71 @@ Gehen Sie folgendermaßen vor, um die automatische Wartung von Windows zu aktivi
 
 Durch die Aktivierung der automatischen Windows-Wartung wird sichergestellt, dass Ihr System optimiert und geschützt bleibt, indem regelmäßig wichtige Wartungsaufgaben wie Software-Updates, Festplattenoptimierung und Sicherheitsüberprüfungen durchgeführt werden. Indem Sie Ihr System in einem guten Zustand halten, können Sie eine reibungslosere und sicherere Computererfahrung genießen.
 
-Ausführlichere Informationen über die automatische Windows-Wartung und ihre Konfigurationsoptionen finden Sie in der offiziellen [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
+Ausführlichere Informationen über die automatische Windows-Wartung und ihre Konfigurationsoptionen finden Sie in der offiziellen [**Microsoft-Dokumentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
+
+______
+
+## Empfohlene Reihenfolge für die Härtung
+
+Wenden Sie die Schutzmaßnahmen in einer Reihenfolge an, die zuerst Zugänge und Wiederherstellung absichert:
+
+1. Prüfen Sie Windows-Edition und Build, den Supportstatus, verfügbare Hardware-Sicherheitsfunktionen und Wiederherstellungsoptionen.
+2. Installieren Sie aktuelle Sicherheitsupdates und starten Sie das Gerät während eines geplanten Wartungsfensters neu.
+3. Erstellen Sie eine getestete Sicherung und dokumentieren Sie den aktuellen Zustand von Firewall, Defender, BitLocker, Diensten und lokalen Richtlinien.
+4. Lassen Sie UAC aktiviert, verwenden Sie separate Administratorkonten und verlangen Sie MFA für unterstützten Fernzugriff und Cloudzugriff.
+5. Aktivieren Sie Defender-Schutz, Firewallprofile, Secure Boot, BitLocker und hardwarebasierte Isolation, sofern Edition und Hardware diese Funktionen unterstützen.
+6. Testen Sie ASR-Regeln, Controlled Folder Access, AppLocker und Dienständerungen zuerst im Überwachungsmodus oder in einem Pilotbereich, bevor Sie Funktionen breit blockieren oder deaktivieren.
+7. Zentralisieren Sie Protokolle und prüfen Sie fehlgeschlagene Anmeldungen, Richtlinienänderungen, Defender-Ereignisse und verworfene Firewallverbindungen.
+8. Starten Sie neu, testen Sie benötigte Anwendungen, prüfen Sie den Wiederherstellungszugriff und dokumentieren Sie den Endzustand.
+
+Das [Microsoft Security Compliance Toolkit](https://learn.microsoft.com/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10) stellt versionierte Baselines für Windows 10, Windows 11 und Windows Server bereit. Verwenden Sie die passende Baseline als geprüften Ausgangspunkt. Microsoft weist darauf hin, dass Änderungen an einer Baseline vor dem produktiven Einsatz getestet werden müssen.
+
+## Supportende von Windows 10
+
+Microsoft hat den Support für Windows 10 Version 22H2 am 14. Oktober 2025 eingestellt. Eine gehärtete Windows-10-Installation erhält nach diesem Datum weiterhin keine regulären Sicherheitsupdates, sofern kein separates Lifecycle- oder Extended-Security-Update-Programm gilt. Berücksichtigen Sie Migration, Austausch oder eine genehmigte Ausnahme im Sicherheitsplan. Härtung verlängert den Produktlebenszyklus nicht. Siehe [Microsofts Hinweis zum Supportende von Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+## Änderungen an Diensten und Funktionen zurücksetzen
+
+Das Deaktivieren eines Dienstes erfordert Tests seiner Abhängigkeiten und Workloads. Deaktivieren Sie **RPC**, **Windows Update**, **Windows Event Log** oder einen anderen Dienst nicht, nur weil eine allgemeine Liste ihn als unnötig bezeichnet. Der Dienstname allein beschreibt seine Rolle auf Ihrem System nicht.
+
+Exportieren Sie vor einer Änderung die Dienstkonfiguration und erfassen Sie abhängige Dienste:
+
+```powershell
+$name = 'Spooler'
+Get-CimInstance Win32_Service -Filter "Name='$name'" |
+    Select-Object Name, DisplayName, State, StartMode, StartName, PathName |
+    Export-Csv "C:\Temp\$name-before.csv" -NoTypeInformation
+Get-Service -Name $name -DependentServices
+Get-Service -Name $name -RequiredServices
+```
+
+Ändern Sie jeweils nur einen Dienst. Verwenden Sie **Manual** vor **Disabled**, wenn ein Workload den Dienst bei Bedarf startet. Halten Sie den vorherigen Starttyp fest. Prüfen Sie nach dem Test das Verhalten der Anwendungen, die Ereignisanzeige, Windows Update, Drucken, Fernverwaltung, VPN-Zugriff und geplante Aufgaben.
+
+Setzen Sie die Änderung zurück, indem Sie den dokumentierten Starttyp wiederherstellen. Starten Sie den Dienst erst, nachdem Sie seine Abhängigkeiten geprüft haben:
+
+```powershell
+Set-Service -Name $name -StartupType Manual
+Start-Service -Name $name
+Get-Service -Name $name
+```
+
+Stellen Sie bei umfassenderen Richtlinienänderungen die gesicherte GPO- oder Registrierungssicherung mit demselben Verwaltungstool wieder her, mit dem Sie sie erstellt haben. Halten Sie vor Fernänderungen einen Offline-Wiederherstellungsweg und die Zugangsdaten eines lokalen Administratorkontos bereit. Microsoft dokumentiert die Syntax zur Dienstkonfiguration unter [`sc.exe config`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config).
+
+## Protokoll zur Kontrollvalidierung
+
+Dokumentieren Sie für jede Härtungsänderung die Kontrolle, den Umfang, den vorherigen und neuen Wert, das Testergebnis, geprüfte Ereignis-IDs, die verantwortliche Person und den Rücksetzungsbefehl. Eine blockierte Anwendung oder ein ausgefallener Drucker ist ein betrieblicher Befund, kein Beweis für eine falsche Kontrolle. Passen Sie nach Prüfung der Belege den Umfang, Ausnahmen oder den Bereitstellungsring an.
 
 ______
 
 ## Schlussfolgerung
 
-Die Umsetzung dieser **Best Practices für die Windows-Härtung** ist für die Sicherheit Ihrer Windows-Systeme unerlässlich. Durch regelmäßige **Aktualisierungen Ihres Betriebssystems** können Sie Sicherheitslücken schließen und die Systemstabilität verbessern. Die Aktivierung von Sicherheitsfunktionen wie **Virenschutz** und **Verschlüsselung** bietet eine zusätzliche Schutzschicht für Ihre Daten. Die Konfiguration geeigneter **Zugangskontrollen** hilft, unbefugte Änderungen zu verhindern und den Zugriff auf sensible Ressourcen einzuschränken.
+Die Umsetzung dieser **Best Practices zur Windows-Härtung** ist entscheidend für die Sicherheit Ihrer Windows-Systeme. Durch regelmäßige **Betriebssystemupdates** können Sie Sicherheitslücken schließen und die Systemstabilität verbessern. Sicherheitsfunktionen wie **Virenschutz** und **Verschlüsselung** bieten Ihren Daten zusätzlichen Schutz. Geeignete **Zugriffskontrollen** verhindern unbefugte Änderungen und beschränken den Zugriff auf vertrauliche Ressourcen.
 
-Durch die Einhaltung dieser bewährten Verfahren können Sie die Sicherheit Ihrer **Windows-Umgebung** verbessern, Ihre Daten schützen und die Integrität Ihrer **digitalen Infrastruktur** aufrechterhalten. Es ist wichtig, **proaktiv** zu bleiben und Ihre Sicherheitsmaßnahmen regelmäßig zu überprüfen und zu aktualisieren, um potenziellen Bedrohungen einen Schritt voraus zu sein.
+Mit diesen Best Practices erhöhen Sie die Sicherheit Ihrer **Windows-Umgebung**, schützen Ihre Daten und bewahren die Integrität Ihrer **digitalen Infrastruktur**. Bleiben Sie **vorausschauend** und prüfen sowie aktualisieren Sie Ihre Sicherheitsmaßnahmen regelmäßig, um potenziellen Bedrohungen zuvorzukommen.
 
-Denken Sie daran, dass die **Windows-Härtung** ein fortlaufender Prozess ist, und dass es wichtig ist, über die neuesten Sicherheitsupdates und -praktiken informiert zu bleiben. Indem Sie proaktiv bleiben und diese bewährten Verfahren anwenden, können Sie Sicherheitsrisiken wirksam eindämmen und die Sicherheit Ihrer Windows-Systeme gewährleisten.
+Denken Sie daran: **Windows-Härtung** ist ein fortlaufender Prozess. Informieren Sie sich über aktuelle Sicherheitsupdates und Verfahren. Durch vorausschauendes Handeln und die Umsetzung dieser Best Practices können Sie Sicherheitsrisiken wirksam mindern und Ihre Windows-Systeme schützen.
 
-Weitere Informationen zur Windows-Härtung und zu bewährten Verfahren finden Sie in seriösen Quellen wie der **Microsoft-Dokumentation**, **Sicherheitsforen** und vertrauenswürdigen **Cybersecurity-Websites**.
+Weitere Informationen zur Windows-Härtung und zu Best Practices finden Sie in verlässlichen Quellen wie der **Microsoft-Dokumentation**, **Sicherheitsforen** und vertrauenswürdigen **Cybersicherheits-Websites**.
 
 ______
 
