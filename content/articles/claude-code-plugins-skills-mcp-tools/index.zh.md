@@ -1,7 +1,7 @@
 ---
 title: "Claude Code 的 10 款插件、技能与 MCP 工具：实用指南"
 date: 2026-10-06
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "根据规划、代码审查、知识管理、设计和自动化需求选择 Claude Code 扩展。比较十款工具、依赖项和实用检查方法。"
@@ -119,7 +119,7 @@ coverCaption: "工作流概念插图。图表形状不代表任何实测结果�
 /codex:result
 ```
 
-**常规审查**适合检查当前改动或分支差异。需要集中挑战时，使用 **`/codex:adversarial-review`**。`/codex:rescue` 等委派命令与只读审查用途不同，因此要明确授权范围。
+**常规审查**适合检查当前改动或分支差异。需要集中挑战时，使用 **`/codex:adversarial-review`**。**`/codex:rescue`** 等委派命令与只读审查用途不同，因此要明确授权范围。
 
 **单独核算 Codex 用量。** 项目将 ChatGPT Free 列为支持的账户类型之一，但仍受用量限制。安装插件并不会带来无限访问。
 

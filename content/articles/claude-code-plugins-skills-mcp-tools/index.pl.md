@@ -1,7 +1,7 @@
 ---
 title: "10 wtyczek, umiejętności i narzędzi MCP dla Claude Code: praktyczny przewodnik"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Wybierz rozszerzenia Claude Code do planowania, przeglądu kodu, zarządzania wiedzą, projektowania i automatyzacji. Porównaj dziesięć narzędzi, zależności i praktyczne kontrole."
@@ -226,7 +226,7 @@ notebooklm skill install
 **Ćwiczenie ilustracyjne:** dodaj importer CSV do małej aplikacji. Importer pokazuje podgląd wierszy, zgłasza nieprawidłowe pola e-mail i zapobiega tworzeniu duplikatów. To ćwiczenie nie wymaga danych klientów ani aktywnych zewnętrznych miejsc docelowych.
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# Arkusz oceny, nie plik konfiguracji narzędzia
 task: "add CSV import preview"
 inputs:
   - "valid rows"

@@ -1,7 +1,7 @@
 ---
 title: "10 connectors, habilitats i eines MCP de Claude Code: guia pràctica"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Tria extensions de Claude Code per planificar, revisar codi, gestionar coneixement, dissenyar i automatitzar. Compara deu eines, dependències i comprovacions pràctiques."
@@ -226,7 +226,7 @@ notebooklm skill install
 **Exercici il·lustratiu:** afegeix un importador CSV a una aplicació petita. L'importador previsualitza files, informa de camps de correu invàlids i impedeix duplicats. No calen registres de clients ni destinacions externes actives.
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# Full d'avaluació, no és un fitxer de configuració de l'eina
 task: "add CSV import preview"
 inputs:
   - "valid rows"

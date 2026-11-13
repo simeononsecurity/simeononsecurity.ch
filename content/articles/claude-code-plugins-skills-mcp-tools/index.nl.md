@@ -1,7 +1,7 @@
 ---
 title: "10 Claude Code-plug-ins, skills en MCP-tools: praktische gids"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Kies Claude Code-extensies voor planning, code review, kennisbeheer, ontwerp en automatisering. Vergelijk tien tools, afhankelijkheden en praktische controles."
@@ -226,7 +226,7 @@ notebooklm skill install
 **Illustratieve oefening:** voeg een CSV-importer toe aan een kleine applicatie. De importer toont rijen vooraf, meldt ongeldige e-mailvelden en voorkomt dubbele creatie. Klantrecords of live externe bestemmingen zijn niet nodig.
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# Evaluatiewerkblad, geen configuratiebestand voor een tool
 task: "add CSV import preview"
 inputs:
   - "valid rows"

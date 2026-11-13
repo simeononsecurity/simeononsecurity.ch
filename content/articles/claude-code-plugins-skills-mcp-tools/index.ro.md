@@ -1,7 +1,7 @@
 ---
 title: "10 pluginuri, skill-uri și instrumente MCP pentru Claude Code: ghid practic"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Alege extensii Claude Code pentru planificare, revizuirea codului, gestionarea cunoștințelor, design și automatizare. Compară zece instrumente, dependențe și verificări practice."
@@ -226,7 +226,7 @@ notebooklm skill install
 **Exercițiu ilustrativ:** adaugă un importator CSV într-o aplicație mică. Importatorul previzualizează rândurile, raportează câmpurile de e-mail invalide și previne crearea duplicatelor. Exercițiul nu cere date de clienți sau destinații externe active.
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# Fișă de evaluare, nu un fișier de configurare a instrumentului
 task: "add CSV import preview"
 inputs:
   - "valid rows"

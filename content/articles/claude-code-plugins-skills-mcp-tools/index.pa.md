@@ -1,7 +1,7 @@
 ---
 title: "Claude Code ਲਈ 10 ਪਲੱਗਇਨ, ਸਕਿਲਾਂ ਅਤੇ MCP ਟੂਲ: ਇੱਕ ਵਿਹਾਰਕ ਗਾਈਡ"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਪਲਾਨਿੰਗ, ਕੋਡ ਰਿਵਿਊ, ਗਿਆਨ ਪ੍ਰਬੰਧਨ, ਡਿਜ਼ਾਈਨ ਅਤੇ ਆਟੋਮੇਸ਼ਨ ਲਈ Claude Code ਐਕਸਟੈਂਸ਼ਨ ਚੁਣੋ। ਦਸ ਟੂਲਾਂ, ਨਿਰਭਰਤਾਵਾਂ ਅਤੇ ਵਿਹਾਰਕ ਜਾਂਚਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।"
@@ -211,9 +211,9 @@ notebooklm skill install
 
 ### n8n MCP
 
-**n8n ਦਾ built-in MCP server** ਜੁੜੇ clients ਨੂੰ ਵਰਕਫਲੋ operations ਦਿੰਦਾ ਹੈ। [ਮੌਜੂਦਾ connection documentation](https://docs.n8n.io/connect/connect-to-n8n-mcp-server) Cloud ਅਤੇ self-hosted instances ਨੂੰ ਕਵਰ ਕਰਦੀ ਹੈ। ਵਰਕਫਲੋ ਬਣਾਉਣ ਅਤੇ ਸੋਧਣ ਦੀ ਡੌਕੂਮੈਂਟੇਸ਼ਨ n8n 2.13.0 ਤੋਂ ਹੈ। ਇਹ n8n ਦੇ ਆਪਣੇ server ਬਾਰੇ ਹੈ, ਸਮਾਨ ਨਾਮ ਵਾਲੇ community package ਬਾਰੇ ਨਹੀਂ।
+**n8n ਦਾ built-in MCP server** ਜੁੜੇ clients ਨੂੰ ਵਰਕਫਲੋ operations ਦਿੰਦਾ ਹੈ। [ਮੌਜੂਦਾ ਕਨੈਕਸ਼ਨ ਦਸਤਾਵੇਜ਼](https://docs.n8n.io/connect/connect-to-n8n-mcp-server) Cloud ਅਤੇ self-hosted instances ਨੂੰ ਕਵਰ ਕਰਦੀ ਹੈ। ਵਰਕਫਲੋ ਬਣਾਉਣ ਅਤੇ ਸੋਧਣ ਦੀ ਡੌਕੂਮੈਂਟੇਸ਼ਨ n8n 2.13.0 ਤੋਂ ਹੈ। ਇਹ n8n ਦੇ ਆਪਣੇ server ਬਾਰੇ ਹੈ, ਸਮਾਨ ਨਾਮ ਵਾਲੇ community package ਬਾਰੇ ਨਹੀਂ।
 
-**ਇਸ ਇੰਟੀਗ੍ਰੇਸ਼ਨ ਲਈ instance-level access ਵਰਤੋ।** MCP Server Trigger node ਦਾ scope ਵੱਖਰਾ ਹੈ ਅਤੇ ਇੱਕ workflow ਦੇ tools ਦਿੰਦਾ ਹੈ। [Tools reference](https://docs.n8n.io/connect/connect-to-n8n-mcp-server/mcp-server-tools-reference) ਨੂੰ ਆਪਣੀ deployed version ਨਾਲ ਮਿਲਾਓ।
+**ਇਸ ਇੰਟੀਗ੍ਰੇਸ਼ਨ ਲਈ instance-level access ਵਰਤੋ।** MCP Server Trigger node ਦਾ scope ਵੱਖਰਾ ਹੈ ਅਤੇ ਇੱਕ workflow ਦੇ tools ਦਿੰਦਾ ਹੈ। [ਟੂਲਾਂ ਦਾ ਹਵਾਲਾ](https://docs.n8n.io/connect/connect-to-n8n-mcp-server/mcp-server-tools-reference) ਨੂੰ ਆਪਣੀ deployed version ਨਾਲ ਮਿਲਾਓ।
 
 **ਪਹੁੰਚ ਸੋਚ-ਸਮਝ ਕੇ ਚਾਲੂ ਕਰੋ।** Existing workflows ਨੂੰ full access ਲਈ MCP exposure ਚਾਹੀਦਾ ਹੈ। Search previews ਵਰਤੋਂਕਾਰ ਦੀਆਂ ਮੌਜੂਦਾ permissions ਵਿੱਚ ਵੱਧ visibility ਰੱਖਦੇ ਹਨ। Workflow exposure ਵੱਖਰੀ client allowlist ਨਹੀਂ ਹੈ, ਹਾਲਾਂਕਿ client permissions operations ਨੂੰ ਨਿਯੰਤਰਿਤ ਕਰਦੀਆਂ ਹਨ।
 
@@ -226,7 +226,7 @@ notebooklm skill install
 **ਉਦਾਹਰਨ ਕਸਰਤ:** ਛੋਟੀ application ਵਿੱਚ CSV importer ਜੋੜੋ। ਇਹ rows ਦਾ preview ਦਿੰਦਾ ਹੈ, invalid email fields ਦੱਸਦਾ ਹੈ ਅਤੇ duplicate creation ਰੋਕਦਾ ਹੈ। ਇਸ ਕਸਰਤ ਲਈ customer records ਜਾਂ live external destinations ਨਹੀਂ ਚਾਹੀਦੇ।
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# ਮੁਲਾਂਕਣ ਵਰਕਸ਼ੀਟ, ਟੂਲ ਕੌਂਫਿਗਰੇਸ਼ਨ ਫਾਈਲ ਨਹੀਂ
 task: "add CSV import preview"
 inputs:
   - "valid rows"
@@ -286,7 +286,7 @@ record:
 
 **ਇੱਕ ਦੁਹਰਾਉਂਦੀ ਸਮੱਸਿਆ ਅਤੇ ਇੱਕ acceptance test ਚੁਣੋ।** disposable project ਉੱਤੇ matching extension ਟ੍ਰਾਇਲ ਕਰੋ, ਫਿਰ ਨਤੀਜਾ ਸੁਧਾਰਨ ਵਾਲਾ ਸਭ ਤੋਂ ਛੋਟਾ combination ਰੱਖੋ। knowledge management, media generation ਜਾਂ automation ਤਦੋਂ ਹੀ ਜੋੜੋ ਜਦੋਂ ਕੰਮ ਨੂੰ ਉਹ outputs ਚਾਹੀਦੇ ਹੋਣ।
 
-**ਸੰਬੰਧਿਤ ਮਾਰਗਦਰਸ਼ਨ ਲਈ**, agent ਚੁਣਦੇ ਸਮੇਂ [CLI coding-agent comparison](/articles/cli-coding-agents-comparison/) ਪੜ੍ਹੋ। requirements, evidence ਅਤੇ review responsibilities ਲਈ [AI collaboration course](/ai-collaboration-course-start/) ਵਰਤੋ।
+**ਸੰਬੰਧਿਤ ਮਾਰਗਦਰਸ਼ਨ ਲਈ**, agent ਚੁਣਦੇ ਸਮੇਂ [CLI ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਦੀ ਤੁਲਨਾ](/articles/cli-coding-agents-comparison/) ਪੜ੍ਹੋ। requirements, evidence ਅਤੇ review responsibilities ਲਈ [AI collaboration course](/ai-collaboration-course-start/) ਵਰਤੋ।
 
 {{< centerbutton href="/ai-collaboration-course-start/" >}}
 AI Collaboration Course ਪੜ੍ਹੋ
@@ -294,13 +294,13 @@ AI Collaboration Course ਪੜ੍ਹੋ
 
 ## ਹਵਾਲੇ
 
-- [Graphify: code graphs ਅਤੇ installation](https://github.com/Graphify-Labs/graphify)
-- [Matt Pocock: skill collection](https://github.com/mattpocock/skills)
-- [Claudex Loop: current grill-me-codex project](https://github.com/chaseai-yt/claudex-loop)
+- [Graphify: ਕੋਡ ਗ੍ਰਾਫ਼ ਅਤੇ ਇੰਸਟਾਲੇਸ਼ਨ](https://github.com/Graphify-Labs/graphify)
+- [Matt Pocock: ਸਕਿੱਲਾਂ ਦਾ ਸੰਗ੍ਰਹਿ](https://github.com/mattpocock/skills)
+- [Claudex Loop: ਮੌਜੂਦਾ grill-me-codex ਪ੍ਰੋਜੈਕਟ](https://github.com/chaseai-yt/claudex-loop)
 - [OpenAI: Claude Code ਲਈ Codex plugin](https://github.com/openai/codex-plugin-cc)
-- [claude-obsidian: source-linked knowledge management](https://github.com/AgriciDaniel/claude-obsidian)
-- [Multica: Karpathy-inspired coding guidelines](https://github.com/multica-ai/andrej-karpathy-skills)
-- [Impeccable: design commands ਅਤੇ installation](https://github.com/pbakaus/impeccable)
-- [Higgsfield: agent integration](https://higgsfield.ai/mcp)
-- [notebooklm-py: unofficial library, CLI ਅਤੇ skill](https://github.com/teng-lin/notebooklm-py)
-- [n8n: official MCP connection guide](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)
+- [claude-obsidian: ਸਰੋਤਾਂ ਨਾਲ ਜੁੜਿਆ ਗਿਆਨ ਪ੍ਰਬੰਧਨ](https://github.com/AgriciDaniel/claude-obsidian)
+- [Multica: Karpathy ਤੋਂ ਪ੍ਰੇਰਿਤ ਕੋਡਿੰਗ ਹਦਾਇਤਾਂ](https://github.com/multica-ai/andrej-karpathy-skills)
+- [Impeccable: ਡਿਜ਼ਾਈਨ ਕਮਾਂਡ ਅਤੇ ਇੰਸਟਾਲੇਸ਼ਨ](https://github.com/pbakaus/impeccable)
+- [Higgsfield: ਏਜੰਟ ਇੰਟੀਗ੍ਰੇਸ਼ਨ](https://higgsfield.ai/mcp)
+- [notebooklm-py: ਗੈਰ-ਅਧਿਕਾਰਤ ਲਾਇਬ੍ਰੇਰੀ, CLI ਅਤੇ ਸਕਿੱਲ](https://github.com/teng-lin/notebooklm-py)
+- [n8n: MCP ਕਨੈਕਸ਼ਨ ਲਈ ਅਧਿਕਾਰਤ ਗਾਈਡ](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)

@@ -1,7 +1,7 @@
 ---
 title: "Claude Code के 10 प्लगइन, स्किल और MCP टूल: व्यावहारिक गाइड"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "प्लानिंग, कोड समीक्षा, ज्ञान प्रबंधन, डिजाइन और ऑटोमेशन के लिए Claude Code एक्सटेंशन चुनें। दस टूल, निर्भरताओं और व्यावहारिक जांचों की तुलना करें।"
@@ -90,13 +90,13 @@ coverCaption: "वर्कफ़्लो का वैचारिक चि�
 | **Requirement** | उपयोगकर्ता को दिखने वाला परिणाम बताता है |
 | **Glossary entry** | अस्पष्ट शब्द को एक अर्थ देता है |
 | **Decision record** | महत्वपूर्ण चयन का कारण बचाता है |
-| **Acceptance check** | completion आकलन करने का तरीका तय करता है |
+| **स्वीकृति जांच** | completion आकलन करने का तरीका तय करती है |
 
 ## प्लान और कोड की समीक्षा करें
 
 ### grill-me-codex, अब Claudex Loop
 
-**Claudex Loop** मूल grill-me-codex रिपॉजिटरी का वर्तमान गंतव्य है। इसकी [documentation](https://github.com/chaseai-yt/claudex-loop) repository reconnaissance, requirements, दूसरे provider की review, implementation और independent inspection समझाती है। पूरा loop दोनों CLI और Python 3.10 या बाद का संस्करण मांगता है।
+**Claudex Loop** मूल grill-me-codex रिपॉजिटरी का वर्तमान गंतव्य है। इसके [दस्तावेज़](https://github.com/chaseai-yt/claudex-loop) repository reconnaissance, requirements, दूसरे provider की review, implementation और independent inspection समझाते हैं। पूरा loop दोनों CLI और Python 3.10 या बाद का संस्करण मांगता है।
 
 **महत्वपूर्ण योजनाओं के लिए Claudex Loop लें** जिनकी assumptions को इम्प्लीमेंटेशन से पहले चुनौती चाहिए। वर्तमान workflow Claude Code या Codex से शुरू हो सकता है। यह findings और dispositions रिकॉर्ड करता है और review की अनुमति को build की अनुमति से अलग रखता है। वीडियो का पुराना five-round विवरण installed workflow के वर्तमान round budget की जगह नहीं लेता।
 
@@ -111,7 +111,7 @@ coverCaption: "वर्कफ़्लो का वैचारिक चि�
 /codex:setup
 ```
 
-**Claude Code के लिए OpenAI का Codex plugin** Claude Code के भीतर code review और task delegation जोड़ता है। ये Claude Code commands हैं, shell commands नहीं। [Official repository](https://github.com/openai/codex-plugin-cc) Node.js 18.18 या बाद और ChatGPT अथवा OpenAI API key से authenticated Codex access बताती है।
+**Claude Code के लिए OpenAI का Codex plugin** Claude Code के भीतर code review और task delegation जोड़ता है। ये Claude Code commands हैं, shell commands नहीं। [आधिकारिक रिपॉज़िटरी](https://github.com/openai/codex-plugin-cc) Node.js 18.18 या बाद और ChatGPT अथवा OpenAI API key से authenticated Codex access बताती है।
 
 ```text
 /codex:review --background
@@ -136,7 +136,7 @@ graphify extract . --code-only
 graphify query "show the authentication flow"
 ```
 
-**Graphify** repository संबंधों को queryable knowledge graph में मैप करता है। इसका [canonical repository](https://github.com/Graphify-Labs/graphify) अब Graphify-Labs के अंतर्गत है। Package name **`graphifyy`** है, अंत में दो y हैं। Executable **`graphify`** ही है।
+**Graphify** repository संबंधों को queryable knowledge graph में मैप करता है। इसकी [प्रामाणिक रिपॉज़िटरी](https://github.com/Graphify-Labs/graphify) अब Graphify-Labs के अंतर्गत है। Package name **`graphifyy`** है, अंत में दो y हैं। Executable **`graphify`** ही है।
 
 **Code-only extraction** स्थानीय abstract syntax tree parsing इस्तेमाल करता है। Document और media interpretation अलग model-backed path इस्तेमाल करते हैं। Local privacy या cost का दावा हर mode पर लागू न करें।
 
@@ -185,7 +185,7 @@ notebooklm skill install
 /impeccable polish settings
 ```
 
-**Impeccable** focused interface work के लिए design vocabulary देता है। इसकी [documentation](https://github.com/pbakaus/impeccable) critique, layout, typography, accessibility checks, motion और browser visual iteration बताती है। उदाहरण installed skill और settings surface वाले project मानते हैं।
+**Impeccable** focused interface work के लिए design vocabulary देता है। इसके [दस्तावेज़](https://github.com/pbakaus/impeccable) critique, layout, typography, accessibility checks, motion और browser visual iteration बताते हैं। उदाहरण installed skill और settings surface वाले project मानते हैं।
 
 **Interaction problem से शुरू करें।** Importer में पूछें कि users validation errors क्यों चूकते हैं या duplicate choice को गलत समझते हैं। Visual polish लगाने से पहले proposed changes review करें। अच्छा spacing ambiguous action ठीक नहीं करता।
 
@@ -193,7 +193,7 @@ notebooklm skill install
 
 ### Higgsfield
 
-**Higgsfield का MCP integration** agents को image और video generation service से जोड़ता है। इसकी [official integration page](https://higgsfield.ai/mcp) Claude Code और CLI connection options बताती है। अपने account और interface के लिए वर्तमान setup flow लें।
+**Higgsfield का MCP integration** agents को image और video generation service से जोड़ता है। इसका [आधिकारिक एकीकरण पृष्ठ](https://higgsfield.ai/mcp) Claude Code और CLI connection options बताता है। अपने account और interface के लिए वर्तमान setup flow लें।
 
 **जब missing deliverable media हो तब Higgsfield चुनें।** Illustrative product page के लिए variants बनाने से पहले aspect ratio, composition, brand constraints और placement लिखें। Visual brief को page implementation से अलग रखें।
 
@@ -201,7 +201,7 @@ notebooklm skill install
 
 **Final file को intended display size पर review करें।** Visible text, unwanted symbols, crop और product consistency जांचें। Generated terminal screens और diagrams सफल test का प्रमाण नहीं हैं।
 
-| Design deliverable | Completion evidence |
+| डिज़ाइन परिणाम | पूरा होने का प्रमाण |
 |---|---|
 | **Interface revision** | Required actions target viewports पर काम करें |
 | **Image asset** | Dimensions, crop और content brief से मेल खाएं |
@@ -211,9 +211,9 @@ notebooklm skill install
 
 ### n8n MCP
 
-**n8n का built-in MCP server** connected clients के लिए workflow operations खोलता है। वर्तमान [connection documentation](https://docs.n8n.io/connect/connect-to-n8n-mcp-server) Cloud और self-hosted instances कवर करती है। Workflow building और editing n8n 2.13.0 से documented है। यह लेख n8n के अपने server पर है, समान नाम वाले community package पर नहीं।
+**n8n का built-in MCP server** connected clients के लिए workflow operations खोलता है। वर्तमान [कनेक्शन दस्तावेज़](https://docs.n8n.io/connect/connect-to-n8n-mcp-server) Cloud और self-hosted instances कवर करते हैं। Workflow building और editing n8n 2.13.0 से documented है। यह लेख n8n के अपने server पर है, समान नाम वाले community package पर नहीं।
 
-**यहां instance-level access लें।** MCP Server Trigger node का scope अलग है: एक workflow से exposed tools। [Tools reference](https://docs.n8n.io/connect/connect-to-n8n-mcp-server/mcp-server-tools-reference) को deployed version से मिलाएं।
+**यहां instance-level access लें।** MCP Server Trigger node का scope अलग है: एक workflow से exposed tools। [टूल संदर्भ](https://docs.n8n.io/connect/connect-to-n8n-mcp-server/mcp-server-tools-reference) को deployed version से मिलाएं।
 
 **Access सोच-समझकर enable करें।** Existing workflows को full access के लिए MCP exposure चाहिए। Search previews user permissions के भीतर अधिक visibility रखते हैं। Workflow exposure client-specific अलग allowlist नहीं है, हालांकि client permissions operations को नियंत्रित करती हैं।
 
@@ -226,7 +226,7 @@ notebooklm skill install
 **Illustrative exercise:** छोटी application में CSV importer जोड़ें। Importer rows preview करता है, invalid email fields बताता है और duplicate creation रोकता है। Customer records या live external destinations की जरूरत नहीं।
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# मूल्यांकन कार्यपत्रक, टूल कॉन्फ़िगरेशन फ़ाइल नहीं
 task: "add CSV import preview"
 inputs:
   - "valid rows"
@@ -286,7 +286,7 @@ record:
 
 **एक recurring failure और एक acceptance test चुनें।** Matching extension को disposable project पर trial करें। फिर वह सबसे छोटा combination रखें जो result सुधारता है। Knowledge management, media generation या automation तभी जोड़ें जब work को ये outputs चाहिए।
 
-**संबंधित मार्गदर्शन के लिए** agent चुनते समय [CLI coding-agent comparison](/articles/cli-coding-agents-comparison/) पढ़ें। Requirements, evidence और review responsibilities के practical work के लिए [AI collaboration course](/ai-collaboration-course-start/) लें।
+**संबंधित मार्गदर्शन के लिए** agent चुनते समय [CLI कोडिंग एजेंटों की तुलना](/articles/cli-coding-agents-comparison/) पढ़ें। Requirements, evidence और review responsibilities के practical work के लिए [AI collaboration course](/ai-collaboration-course-start/) लें।
 
 {{< centerbutton href="/ai-collaboration-course-start/" >}}
 AI Collaboration Course पढ़ें
@@ -294,13 +294,13 @@ AI Collaboration Course पढ़ें
 
 ## संदर्भ
 
-- [Graphify: code graphs और installation](https://github.com/Graphify-Labs/graphify)
-- [Matt Pocock: skill collection](https://github.com/mattpocock/skills)
-- [Claudex Loop: current grill-me-codex project](https://github.com/chaseai-yt/claudex-loop)
-- [OpenAI: Codex plugin for Claude Code](https://github.com/openai/codex-plugin-cc)
-- [claude-obsidian: source-linked knowledge management](https://github.com/AgriciDaniel/claude-obsidian)
-- [Multica: Karpathy-inspired coding guidelines](https://github.com/multica-ai/andrej-karpathy-skills)
-- [Impeccable: design commands and installation](https://github.com/pbakaus/impeccable)
-- [Higgsfield: agent integration](https://higgsfield.ai/mcp)
-- [notebooklm-py: unofficial library, CLI, and skill](https://github.com/teng-lin/notebooklm-py)
-- [n8n: official MCP connection guide](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)
+- [Graphify: कोड ग्राफ़ और इंस्टॉलेशन](https://github.com/Graphify-Labs/graphify)
+- [Matt Pocock: स्किल संग्रह](https://github.com/mattpocock/skills)
+- [Claudex Loop: मौजूदा grill-me-codex प्रोजेक्ट](https://github.com/chaseai-yt/claudex-loop)
+- [OpenAI: Claude Code के लिए Codex प्लगइन](https://github.com/openai/codex-plugin-cc)
+- [claude-obsidian: स्रोतों से जुड़ा ज्ञान प्रबंधन](https://github.com/AgriciDaniel/claude-obsidian)
+- [Multica: Karpathy से प्रेरित कोडिंग दिशानिर्देश](https://github.com/multica-ai/andrej-karpathy-skills)
+- [Impeccable: डिज़ाइन कमांड और इंस्टॉलेशन](https://github.com/pbakaus/impeccable)
+- [Higgsfield: एजेंट इंटीग्रेशन](https://higgsfield.ai/mcp)
+- [notebooklm-py: अनौपचारिक लाइब्रेरी, CLI और स्किल](https://github.com/teng-lin/notebooklm-py)
+- [n8n: MCP कनेक्शन की आधिकारिक मार्गदर्शिका](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)
