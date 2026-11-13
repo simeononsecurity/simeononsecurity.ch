@@ -3,6 +3,7 @@ title: "Topul distribuțiilor Linux pentru confidențialitate și securitate: Pr
 draft: false
 toc: true
 date: 2023-06-01
+lastmod: 2026-11-12
 description: "Descoperiți cele mai bune distribuții Linux pentru confidențialitate și securitate, asigurându-vă că datele dumneavoastră rămân protejate și că activitățile dumneavoastră online sunt în siguranță."
 tags: ["Distribuții Linux", "confidențialitate și securitate", "Cozi", "Qubes OS", "Whonix", "Sistemul de securitate Parrot Security OS", "Ubuntu Privacy Remix", "OpenBSD", "protecția datelor", "calcul securizat", "navigare anonimă", "virtualizare", "teste de securitate", "analiză criminalistică", "teste de penetrare", "instrumente de criptare", "ștergere securizată", "anonimat", "securitate cibernetică", "corectitudinea codului", "siguranța online", "protecția datelor utilizatorului", "confidențialitate", "recuperarea datelor", "servicii bancare online", "confidențialitatea online", "mediu securizat", "navigare securizată", "Rețeaua Tor", "măsuri de securitate", "securizat în mod implicit"]
 cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
@@ -66,7 +67,7 @@ ______
 
 {{< youtube id="0UoZX0wdXWI" >}}
 
-[OpenBSD](https://www.openbsd.org/) is an open-source operating system known for its strong focus on security and code correctness. While not a Linux distribution (it belongs to the BSD family), it is worth mentioning due to its outstanding security track record. OpenBSD undergoes rigorous code audits and follows the principle of "secure by default." It includes various security features such as address space layout randomization (ASLR) și gestionarea sigură a memoriei.
+[OpenBSD](https://www.openbsd.org/) este un sistem de operare open-source, cunoscut pentru accentul puternic pus pe securitate și corectitudinea codului. Nu este o distribuție Linux, ci face parte din familia BSD. Merită menționat datorită istoricului său remarcabil în materie de securitate. OpenBSD trece prin audituri riguroase ale codului și urmează principiul „sigur în mod implicit”. Include diverse funcții de securitate, precum randomizarea aranjamentului spațiului de adrese (ASLR) și gestionarea sigură a memoriei.
 
 ______
 
