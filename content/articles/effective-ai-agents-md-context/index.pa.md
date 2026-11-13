@@ -1,7 +1,7 @@
 ---
 title: ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਲਈ AGENTS.md ਅਤੇ CLAUDE.md ਲਿਖੋ
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਨੂੰ ਸਹੀ ਸੰਦਰਭ ਦੇਣ ਲਈ ਸੱਚ ਦੇ ਸਰੋਤ ਅਤੇ ਟੈਸਟ ਕਮਾਂਡ ਵਾਲਾ ਛੋਟਾ ਰਿਪੋਜ਼ਿਟਰੀ ਨਕਸ਼ਾ ਬਣਾਓ।
@@ -35,31 +35,31 @@ coverCaption: ''
 ## ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ
 **ਲੋੜੀਂਦੀਆਂ ਚੀਜ਼ਾਂ:** ਖੋਲ੍ਹੀ ਹੋਈ [ਸ਼ੁਰੂਆਤੀ ਲੈਬ](/downloads/effective-ai-course-lab.zip), ਟੈਕਸਟ ਐਡੀਟਰ ਅਤੇ [ਕੋਰਸ ਸੈੱਟਅੱਪ](/articles/effective-ai-course-setup/). 35 ਮਿੰਟ ਰੱਖੋ। ਪੱਧਰ ਨਵੇਂ ਤੋਂ ਦਰਮਿਆਨੇ ਤੱਕ ਹੈ। ਪਿਛਲੀ ਕਸਰਤ ਨੇ ਫਾਈਲਾਂ ਬਦਲੀਆਂ ਹੋਣ ਤਾਂ ਲੈਬ ਰੀਸੈੱਟ ਕਰੋ।
 
-**ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਲੋੜ **`docs/requirements.md` ਵਿੱਚ, Python ਸਰੋਤ `task_report.py` ਵਿੱਚ ਅਤੇ ਟੈਸਟ `tests/` ਵਿੱਚ ਹਨ। ਇਨ੍ਹਾਂ ਦੀਆਂ ਭੂਮਿਕਾਵਾਂ ਵੱਖਰੀਆਂ ਹਨ: ਚਾਹੀਦਾ ਵਿਹਾਰ, ਲਾਗੂਕਰਨ ਅਤੇ ਜਾਂਚ।
+**ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਲੋੜ** `docs/requirements.md` ਵਿੱਚ, Python ਸਰੋਤ `task_report.py` ਵਿੱਚ ਅਤੇ ਟੈਸਟ `tests/` ਵਿੱਚ ਹਨ। ਇਨ੍ਹਾਂ ਦੀਆਂ ਭੂਮਿਕਾਵਾਂ ਵੱਖਰੀਆਂ ਹਨ: ਚਾਹੀਦਾ ਵਿਹਾਰ, ਲਾਗੂਕਰਨ ਅਤੇ ਜਾਂਚ।
 
 ## ਛੋਟਾ ਨਕਸ਼ਾ ਬਣਾਓ
 **ਖੋਲ੍ਹੀ ਲੈਬ ਦੇ ਮੁੱਖ ਫੋਲਡਰ ਵਿੱਚ `AGENTS.md` ਬਣਾਓ।** ਇਹ ਸ਼ੁਰੂਆਤੀ ਲਿਖਤ ਰੱਖੋ:
 
 ```markdown
-# Project instructions
+# ਪ੍ਰੋਜੈਕਟ ਨਿਰਦੇਸ਼
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- ਵਿਹਾਰ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ `docs/requirements.md` ਪੜ੍ਹੋ।
+- `task_report.py` ਅਤੇ `tests/` ਵਿੱਚ ਨਿਸ਼ਾਨੇ ਵਾਲੇ ਟੈਸਟ ਸੋਧੋ।
+- `tasks.json` ਨੂੰ ਸਥਿਰ ਨਮੂਨਾ ਡੇਟਾ ਮੰਨੋ। ਇਸ ਨੂੰ ਨਾ ਬਦਲੋ।
+- ਤਬਦੀਲੀਆਂ ਤੋਂ ਬਾਅਦ `python3 -m unittest discover -s tests -v` ਚਲਾਓ।
+- ਬਦਲੀਆਂ ਫ਼ਾਈਲਾਂ, ਟੈਸਟ ਨਤੀਜੇ ਅਤੇ ਅਣਸੁਲਝੇ ਮਸਲੇ ਦੱਸੋ।
+- ਅਭਿਆਸ ਦੇ ਕੰਮਾਂ ਦੌਰਾਨ commit, push ਜਾਂ publish ਨਾ ਕਰੋ।
 ```
 
 **ਸੈੱਟਅੱਪ ਦੌਰਾਨ ਸਫਲਤਾ ਨਾਲ ਪਰਖਿਆ ਟੈਸਟ ਕਮਾਂਡ ਸੰਭਾਲੋ।** Windows ’ਤੇ Python launcher ਵਰਤਿਆ ਹੋਵੇ ਤਾਂ `python3` ਦੀ ਥਾਂ `py -3` ਲਿਖੋ ਅਤੇ ਕਮਾਂਡ ਚਲਾ ਕੇ ਜਾਂਚੋ। **ਇਹ ਫਾਈਲ ਨਕਸ਼ਾ ਹੈ, ਗੱਲਬਾਤ ਦੀ ਨਕਲ ਨਹੀਂ।** ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਮੁੱਲ `docs/requirements.md` ਵਿੱਚ ਰੱਖੋ ਅਤੇ ਲੋੜ ਬਦਲੇ ਤਾਂ ਉਸ ਸਰੋਤ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ।
 
-**Codex ਅਤੇ OpenCode `AGENTS.md` ਦਾ ਸਮਰਥਨ ਕਰਦੇ ਹਨ। ਫਾਈ**ਲ ਲੱਭਣ ਦੇ ਨਿਯਮਾਂ ’ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ [Codex ਦਸਤਾਵੇਜ਼](https://learn.chatgpt.com/docs/agent-configuration/agents-md) ਅਤੇ [OpenCode ਦਸਤਾਵੇਜ਼](https://opencode.ai/docs/rules/) ਵੇਖੋ। ਹੱਦਾਂ ਅਤੇ ਤਰਜੀਹ ਟੂਲ ਤੇ ਵਰਜਨ ਅਨੁਸਾਰ ਬਦਲਦੀਆਂ ਹਨ।
+**Codex ਅਤੇ OpenCode `AGENTS.md` ਦਾ ਸਮਰਥਨ ਕਰਦੇ ਹਨ।** ਫਾਈਲ ਲੱਭਣ ਦੇ ਨਿਯਮਾਂ ’ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ [Codex ਦਸਤਾਵੇਜ਼](https://learn.chatgpt.com/docs/agent-configuration/agents-md) ਅਤੇ [OpenCode ਦਸਤਾਵੇਜ਼](https://opencode.ai/docs/rules/) ਵੇਖੋ। ਹੱਦਾਂ ਅਤੇ ਤਰਜੀਹ ਟੂਲ ਤੇ ਵਰਜਨ ਅਨੁਸਾਰ ਬਦਲਦੀਆਂ ਹਨ।
 
 ## Claude ਲਈ ਲਿੰਕ ਜੋੜੋ
 **Claude Code ਵਰਤਦੇ ਹੋ ਤਾਂ** ਨਾਲ ਛੋਟੀ `CLAUDE.md` ਬਣਾਓ ਅਤੇ `@path` ਨਾਲ ਸਾਂਝੀ ਫਾਈਲ ਲਿਆਓ:
 
 ```markdown
-# Claude Code project entry
+# Claude Code ਪ੍ਰੋਜੈਕਟ ਲਈ ਦਾਖਲਾ ਬਿੰਦੂ
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# ਜੇ CLAUDE.md ਬਣਾਈ ਹੈ, ਤਾਂ ਚਲਾਓ: git add CLAUDE.md
+git commit -m "ਲੈਬ ਲਈ ਹਦਾਇਤਾਂ ਸ਼ਾਮਲ ਕਰੋ"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **ਪੁਰਾਣੇ ਚੈਟ ਸਾਰ ਵਿੱਚ ਹੋ ਸਕਦਾ ਹੈ** ਕਿ status filter `pending` ਲੈਂਦਾ ਹੈ, ਪਰ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਲੋੜ `open` ਅਤੇ `done` ਕਹਿੰਦੀ ਹੈ। ਬਦਲਾਅ ਤੋਂ ਪਹਿਲਾਂ ਏਜੰਟ ਨੂੰ ਟਕਰਾਅ ਦੱਸਣ ਲਈ ਕਹੋ।
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+AGENTS.md ਅਤੇ docs/requirements.md ਪੜ੍ਹੋ।
+ਪਿਛਲੇ ਚੈਟ ਸਾਰ ਵਿੱਚ ਕਿਹਾ ਗਿਆ ਹੈ ਕਿ ਫਿਲਟਰ pending ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ।
+ਕਿਹੜੇ ਮੁੱਲ ਮਨਜ਼ੂਰ ਹਨ? ਸਰੋਤ ਅਤੇ ਰਿਵਿਜ਼ਨ ਦੱਸੋ।
+ਹਾਲੇ ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਸੋਧ ਨਾ ਕਰੋ।
 ```
 
 **ਸਹੀ ਜਵਾਬ** `docs/requirements.md`, ਸੋਧ 1 ਵਿੱਚ `open` ਅਤੇ `done` ਹਨ। ਚੈਟ ਸਾਰ ਮਨਜ਼ੂਰ ਸਰੋਤ ਨਹੀਂ। ਸਰੋਤ ਖੁਦ ਅਸਪਸ਼ਟ ਹੋਵੇ ਤਾਂ ਮੁੱਲ ਘੜਨ ਦੀ ਥਾਂ ਰੁਕ ਕੇ ਮਾਲਕ ਤੋਂ ਪੁੱਛੋ।

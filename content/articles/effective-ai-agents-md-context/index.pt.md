@@ -1,7 +1,7 @@
 ---
 title: Escreva AGENTS.md e CLAUDE.md para agentes de programação
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Crie um mapa curto do repositório com a fonte oficial e o comando de teste para os agentes começarem com o contexto correto.
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Antes de começar
 **Pré-requisitos:** o [laboratório inicial extraído](/downloads/effective-ai-course-lab.zip), um editor de texto e a [configuração do curso](/articles/effective-ai-course-setup/). Reserve 35 minutos. Nível iniciante a intermediário. Redefina o laboratório se um exercício anterior alterou os arquivos.
 
-**O requisito aprovado está em **`docs/requirements.md`, o código Python em `task_report.py` e os testes em `tests/`. Cada arquivo tem uma função: comportamento desejado, implementação e verificação.
+**O requisito aprovado** está em `docs/requirements.md`, o código Python em `task_report.py` e os testes em `tests/`. Cada arquivo tem uma função: comportamento desejado, implementação e verificação.
 
 ## Faça um mapa curto
 **Crie `AGENTS.md` na raiz do laboratório extraído.** Use este conteúdo inicial:
 
 ```markdown
-# Project instructions
+# Instruções do projeto
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Leia `docs/requirements.md` antes de alterar o comportamento.
+- Edite `task_report.py` e os testes específicos em `tests/`.
+- Trate `tasks.json` como dados de exemplo fixos. Não o altere.
+- Após as edições, execute `python3 -m unittest discover -s tests -v`.
+- Informe os arquivos alterados, os resultados dos testes e qualquer problema não resolvido.
+- Não faça commit, push nem publicação durante tarefas de prática.
 ```
 
 **Salve o comando de teste que você validou durante a configuração.** No Windows, substitua `python3` por `py -3` se usou o lançador Python. Execute o comando antes de confiar nele. **Este arquivo é um mapa, não uma transcrição.** Mantenha os valores aprovados em `docs/requirements.md` e atualize essa fonte quando o requisito mudar.
 
-**Codex e OpenCode aceitam `AGENTS.md`. Con**sulte as [instruções do Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) e as [regras do OpenCode](https://opencode.ai/docs/rules/) antes de depender dos detalhes de descoberta de arquivos. O escopo e a prioridade variam conforme a ferramenta e a versão.
+**Codex e OpenCode aceitam `AGENTS.md`.** Consulte as [instruções do Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) e as [regras do OpenCode](https://opencode.ai/docs/rules/) antes de depender dos detalhes de descoberta de arquivos. O escopo e a prioridade variam conforme a ferramenta e a versão.
 
 ## Adicione uma referência para Claude
 **Se usar Claude Code,** crie um `CLAUDE.md` curto na mesma pasta e importe o arquivo compartilhado com `@path`:
 
 ```markdown
-# Claude Code project entry
+# Entrada do projeto Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Se você criou CLAUDE.md, execute: git add CLAUDE.md
+git commit -m "Adicionar orientações do laboratório"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Imagine que um resumo antigo do chat diga** que o filtro de status aceita `pending`, enquanto o requisito aprovado aceita `open` e `done`. Peça ao agente que identifique o conflito antes de editar.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Leia AGENTS.md e docs/requirements.md.
+Um resumo anterior da conversa diz que o filtro aceita pending.
+Quais valores estão aprovados? Informe a fonte e a revisão.
+Ainda não edite os arquivos.
 ```
 
 **A resposta correta** é `open` e `done`, em `docs/requirements.md`, revisão 1. O resumo do chat não é fonte aprovada. Se a própria fonte não estiver clara, pare e pergunte ao responsável em vez de inventar um valor.

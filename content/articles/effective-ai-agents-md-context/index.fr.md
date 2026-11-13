@@ -1,7 +1,7 @@
 ---
 title: Écrire AGENTS.md et CLAUDE.md pour les agents de codage
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Créez une courte carte du dépôt indiquant la source de référence et la commande de test afin que les agents démarrent avec le bon contexte.
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Avant de commencer
 **Prérequis :** le [laboratoire de départ extrait](/downloads/effective-ai-course-lab.zip), un éditeur de texte et la [configuration du cours](/articles/effective-ai-course-setup/). Prévoyez 35 minutes. Niveau débutant à intermédiaire. Réinitialisez le laboratoire si un exercice précédent a modifié ses fichiers.
 
-**L’exigence approuvée se trouve dans **`docs/requirements.md`, le code Python dans `task_report.py` et les tests dans `tests/`. Chaque fichier a un rôle distinct : comportement attendu, implémentation et vérification.
+**L’exigence approuvée** se trouve dans `docs/requirements.md`, le code Python dans `task_report.py` et les tests dans `tests/`. Chaque fichier a un rôle distinct : comportement attendu, implémentation et vérification.
 
 ## Créez une petite carte
 **Créez `AGENTS.md` à la racine du laboratoire extrait.** Utilisez ce contenu de départ :
 
 ```markdown
-# Project instructions
+# Instructions du projet
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Lisez `docs/requirements.md` avant de modifier le comportement.
+- Modifiez `task_report.py` et les tests ciblés dans `tests/`.
+- Considérez `tasks.json` comme des données d'exemple fixes. Ne le modifiez pas.
+- Après les modifications, exécutez `python3 -m unittest discover -s tests -v`.
+- Indiquez les fichiers modifiés, les résultats des tests et tout problème non résolu.
+- Ne faites pas de commit, de push ni de publication pendant les exercices.
 ```
 
 **Enregistrez la commande de test que vous avez vérifiée lors de la configuration.** Sous Windows, remplacez `python3` par `py -3` si vous avez utilisé le lanceur Python. Testez la commande avant de vous y fier. **Ce fichier est une carte, pas une transcription.** Gardez les valeurs approuvées dans `docs/requirements.md` et mettez cette source à jour si l’exigence change.
 
-**Codex et OpenCode acceptent `AGENTS.md`. Con**sultez la [documentation Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) et la [documentation OpenCode](https://opencode.ai/docs/rules/) avant de vous fier aux détails de découverte des fichiers. La portée et la priorité varient selon l’outil et sa version.
+**Codex et OpenCode prennent en charge `AGENTS.md`.** Consultez la [documentation Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) et la [documentation OpenCode](https://opencode.ai/docs/rules/) avant de vous fier aux détails de découverte des fichiers. La portée et la priorité varient selon l’outil et sa version.
 
 ## Ajoutez un pointeur pour Claude
 **Si vous utilisez Claude Code,** créez un petit `CLAUDE.md` dans le même dossier et importez le fichier commun avec `@path` :
 
 ```markdown
-# Claude Code project entry
+# Point d'entrée du projet Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Si vous avez créé CLAUDE.md, exécutez : git add CLAUDE.md
+git commit -m "Ajouter les consignes du laboratoire"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Supposons qu’un ancien résumé de discussion** indique que le filtre d’état accepte `pending`, alors que l’exigence approuvée indique `open` et `done`. Demandez à l’agent de relever le conflit avant toute modification.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Lis AGENTS.md et docs/requirements.md.
+Un ancien résumé de discussion indique que le filtre accepte pending.
+Quelles valeurs sont approuvées ? Indique la source et la révision.
+Ne modifie pas encore les fichiers.
 ```
 
 **La réponse correcte** est `open` et `done`, dans `docs/requirements.md`, révision 1. Le résumé n’est pas une source approuvée. Si la source elle-même manque de clarté, arrêtez-vous et demandez à son responsable au lieu d’inventer une valeur.

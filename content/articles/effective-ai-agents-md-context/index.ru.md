@@ -1,7 +1,7 @@
 ---
 title: Создайте AGENTS.md и CLAUDE.md для программных агентов
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Составьте краткую карту репозитория с главным источником требований и командой тестирования, чтобы агент начинал с нужным контекстом.
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Перед началом
 **Понадобятся:** распакованная [стартовая лабораторная работа](/downloads/effective-ai-course-lab.zip), текстовый редактор и [настройка курса](/articles/effective-ai-course-setup/). Выделите 35 минут. Уровень от начального до среднего. Сначала сбросьте лабораторную работу, если предыдущее упражнение изменило ее файлы.
 
-**Утвержденное требование находится в **`docs/requirements.md`, исходный код Python в `task_report.py`, а тесты в `tests/`. У этих файлов разные задачи: требуемое поведение, реализация и проверка.
+**Утвержденное требование** находится в `docs/requirements.md`, исходный код Python в `task_report.py`, а тесты в `tests/`. У этих файлов разные задачи: требуемое поведение, реализация и проверка.
 
 ## Составьте небольшую карту
 **Создайте `AGENTS.md` в корне распакованной лабораторной работы.** Возьмите за основу этот текст:
 
 ```markdown
-# Project instructions
+# Инструкции проекта
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Прочитайте `docs/requirements.md` перед изменением поведения.
+- Изменяйте `task_report.py` и целевые тесты в `tests/`.
+- Считайте `tasks.json` неизменяемыми тестовыми данными. Не меняйте его.
+- После изменений выполните `python3 -m unittest discover -s tests -v`.
+- Укажите изменённые файлы, результаты тестов и нерешённые вопросы.
+- Во время учебных заданий не создавайте коммиты, не отправляйте изменения и не публикуйте их.
 ```
 
 **Сохраните команду тестирования, которую проверили при настройке.** В Windows замените `python3` на `py -3`, если использовали запускатель Python. Запустите сохраненную команду, прежде чем полагаться на нее. **Это карта, а не стенограмма.** Храните утвержденные значения в `docs/requirements.md` и обновляйте этот источник при изменении требований.
 
-**Codex и OpenCode поддерживают `AGENTS.md`. Пер**ед тем как полагаться на особенности поиска файлов, прочитайте [инструкции Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) и [правила OpenCode](https://opencode.ai/docs/rules/). Область действия и приоритет отличаются в зависимости от инструмента и версии.
+**Codex и OpenCode поддерживают `AGENTS.md`.** Прочитайте [инструкции Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) и [правила OpenCode](https://opencode.ai/docs/rules/), прежде чем полагаться на особенности поиска файлов. Область действия и приоритет отличаются в зависимости от инструмента и версии.
 
 ## Добавьте указатель для Claude
 **Если вы используете Claude Code,** создайте рядом короткий `CLAUDE.md` и импортируйте общий файл через `@path`:
 
 ```markdown
-# Claude Code project entry
+# Входной файл проекта Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Если вы создали CLAUDE.md, выполните: git add CLAUDE.md
+git commit -m "Добавить инструкции для лаборатории"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Представьте, что в старом резюме чата сказано**: фильтр состояния принимает `pending`, а утвержденное требование допускает `open` и `done`. Попросите агента обозначить противоречие до редактирования.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Прочитайте AGENTS.md и docs/requirements.md.
+В прежнем резюме чата сказано, что фильтр принимает pending.
+Какие значения утверждены? Укажите источник и редакцию.
+Пока не редактируйте файлы.
 ```
 
 **Правильный ответ**: `open` и `done` указаны в `docs/requirements.md`, редакция 1. Резюме чата не является утвержденным источником. Если неясен сам источник, остановитесь и спросите его владельца, а не придумывайте значение.

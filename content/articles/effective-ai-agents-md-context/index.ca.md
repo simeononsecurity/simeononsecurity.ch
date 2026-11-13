@@ -1,7 +1,7 @@
 ---
 title: Escriu AGENTS.md i CLAUDE.md per als agents de programació
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Crea un mapa breu del repositori amb la font de veritat i l’ordre de prova perquè els agents comencin amb el context adequat.
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Abans de començar
 **Requisits:** el [laboratori inicial extret](/downloads/effective-ai-course-lab.zip), un editor de text i la [configuració del curs](/articles/effective-ai-course-setup/). Reserva 35 minuts. Dificultat de principiant a intermèdia. Reinicia el laboratori si un exercici n’ha canviat els fitxers.
 
-**El requisit aprovat és a **`docs/requirements.md`, el codi Python a `task_report.py` i les proves a `tests/`. Cada fitxer té una funció: comportament desitjat, implementació i comprovació.
+**El requisit aprovat** és a `docs/requirements.md`, el codi Python a `task_report.py` i les proves a `tests/`. Cada fitxer té una funció: comportament desitjat, implementació i comprovació.
 
 ## Fes un mapa petit
 **Crea `AGENTS.md` a l’arrel del laboratori extret.** Fes servir aquest contingut:
 
 ```markdown
-# Project instructions
+# Instruccions del projecte
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Llegeix `docs/requirements.md` abans de canviar el comportament.
+- Edita `task_report.py` i les proves específiques de `tests/`.
+- Tracta `tasks.json` com a dades d'exemple fixes. No el modifiquis.
+- Després dels canvis, executa `python3 -m unittest discover -s tests -v`.
+- Indica els fitxers modificats, els resultats de les proves i qualsevol problema pendent.
+- No facis commit, push ni publiquis durant les tasques de pràctica.
 ```
 
 **Desa l’ordre de prova que hagis verificat durant la configuració.** A Windows, usa `py -3` en lloc de `python3` si has fet servir el llançador de Python. Prova l’ordre abans de confiar-hi. **El fitxer és un mapa, no una transcripció.** Mantén els valors aprovats a `docs/requirements.md` i actualitza la font quan canviï el requisit.
 
-**Codex i OpenCode admeten `AGENTS.md`. Con**sulta les [instruccions de Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) i les [d’OpenCode](https://opencode.ai/docs/rules/) abans de dependre de detalls de descoberta. L’abast i la precedència varien segons l’eina i la versió.
+**Codex i OpenCode admeten `AGENTS.md`.** Consulta les [instruccions de Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) i les [d’OpenCode](https://opencode.ai/docs/rules/) abans de dependre de detalls de descoberta. L’abast i la precedència varien segons l’eina i la versió.
 
 ## Afegeix un indicador per a Claude
 **Si fas servir Claude Code,** crea un `CLAUDE.md` breu a la mateixa carpeta. Importa el fitxer compartit amb `@path`:
 
 ```markdown
-# Claude Code project entry
+# Punt d'entrada del projecte Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Si has creat CLAUDE.md, executa: git add CLAUDE.md
+git commit -m "Afegeix les instruccions del laboratori"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Suposa que un resum antic** diu que el filtre accepta `pending`, però el requisit aprovat diu `open` i `done`. Demana a l’agent que identifiqui el conflicte abans de modificar res.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Llegeix AGENTS.md i docs/requirements.md.
+Un resum de xat anterior diu que el filtre accepta pending.
+Quins valors estan aprovats? Indica la font i la revisió.
+Encara no editis cap fitxer.
 ```
 
 **La resposta correcta** és `open` i `done`, de `docs/requirements.md`, revisió 1. El resum no és una font aprovada. Si la font no és clara, atura’t i pregunta’n al responsable.

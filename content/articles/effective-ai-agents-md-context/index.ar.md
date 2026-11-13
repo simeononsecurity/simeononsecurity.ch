@@ -1,7 +1,7 @@
 ---
 title: اكتب AGENTS.md وCLAUDE.md لوكلاء البرمجة
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: أنشئ خريطة قصيرة للمستودع تحدد مصدر الحقيقة وأمر الاختبار كي يبدأ الوكلاء بالسياق الصحيح.
@@ -35,31 +35,31 @@ coverCaption: ''
 ## قبل أن تبدأ
 **المتطلبات:** [ملف المختبر المبدئي](/downloads/effective-ai-course-lab.zip) بعد استخراجه، ومحرر نصوص، و[إعداد الدورة](/articles/effective-ai-course-setup/). خصص 35 دقيقة. المستوى من مبتدئ إلى متوسط. أعد ضبط المختبر إذا غيّر تمرين سابق ملفاته.
 
-**المتطلب المعتمد في **`docs/requirements.md`، ومصدر Python في `task_report.py`، والاختبارات في `tests/`. تحدد هذه الملفات السلوك المطلوب والتنفيذ والتحقق، ولكل منها دور مستقل.
+**المتطلب المعتمد** في `docs/requirements.md`، ومصدر Python في `task_report.py`، والاختبارات في `tests/`. تحدد هذه الملفات السلوك المطلوب والتنفيذ والتحقق، ولكل منها دور مستقل.
 
 ## أنشئ خريطة صغيرة
 **أنشئ `AGENTS.md` في جذر المختبر المستخرج.** استخدم هذا المحتوى:
 
 ```markdown
-# Project instructions
+# تعليمات المشروع
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- اقرأ `docs/requirements.md` قبل تغيير السلوك.
+- عدّل `task_report.py` والاختبارات المحددة في `tests/`.
+- اعتبر `tasks.json` بيانات نموذجية ثابتة. لا تغيّرها.
+- بعد التعديلات، شغّل `python3 -m unittest discover -s tests -v`.
+- اذكر الملفات التي تغيّرت ونتائج الاختبارات وأي مشكلة لم تُحل.
+- لا تنفّذ commit أو push ولا تنشر أثناء المهام التدريبية.
 ```
 
 **احفظ أمر الاختبار الذي أثبت نجاحه أثناء الإعداد.** في Windows استخدم `py -3` بدل `python3` إذا استخدمت مشغّل Python، واختبر الأمر قبل الاعتماد عليه. **الملف خريطة لا سجل محادثة.** احتفظ بالقيم المعتمدة في `docs/requirements.md` وحدّثه عند تغير المتطلب.
 
-**يدعم Codex وOpenCode `AGENTS.md`. راج**ع [وثائق Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) و[وثائق OpenCode](https://opencode.ai/docs/rules/) قبل الاعتماد على تفاصيل اكتشاف الملفات، فهي تختلف حسب الأداة والإصدار.
+**يدعم Codex وOpenCode ملف `AGENTS.md`.** راجع [وثائق Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) و[وثائق OpenCode](https://opencode.ai/docs/rules/) قبل الاعتماد على تفاصيل اكتشاف الملفات، فهي تختلف حسب الأداة والإصدار.
 
 ## أضف مؤشرًا إلى Claude
 **إذا كنت تستخدم Claude Code،** أنشئ `CLAUDE.md` صغيرًا بجوار الملف المشترك. يدعم `@path` لاستيراد القواعد:
 
 ```markdown
-# Claude Code project entry
+# مدخل المشروع لـ Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# إذا أنشأت ملف CLAUDE.md، نفّذ: git add CLAUDE.md
+git commit -m "إضافة إرشادات المختبر"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **افترض أن ملخصًا قديمًا** يقول إن مرشح الحالة يقبل `pending`، بينما المتطلب المعتمد يقبل `open` و`done`. اطلب من الوكيل تحديد التعارض قبل التعديل:
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+اقرأ AGENTS.md و docs/requirements.md.
+يقول ملخص محادثة سابق إن المرشح المقبول هو pending.
+ما القيم المعتمدة؟ اذكر المصدر والمراجعة.
+لا تعدّل الملفات الآن.
 ```
 
 **الإجابة المعتمدة** هي `open` و`done` من `docs/requirements.md`، المراجعة 1. الملخص ليس مصدرًا معتمدًا. إذا كان المصدر نفسه غير واضح، توقف واسأل مالكه بدل اختراع قيمة.

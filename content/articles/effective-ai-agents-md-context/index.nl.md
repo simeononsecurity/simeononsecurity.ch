@@ -1,13 +1,13 @@
 ---
 title: AGENTS.md en CLAUDE.md schrijven voor codeeragenten
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Maak een korte repositorykaart met de gezaghebbende bron en testopdracht, zodat codeeragenten met de juiste context beginnen.
 genre:
 - Kunstmatige intelligentie
-- Software engineering
+- Softwareontwikkeling
 tags:
 - AGENTS.md-handleiding
 - CLAUDE.md-handleiding
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Voordat je begint
 **Benodigdheden:** het uitgepakte [startlab](/downloads/effective-ai-course-lab.zip), een teksteditor en de [cursusinstallatie](/articles/effective-ai-course-setup/). Trek 35 minuten uit. Niveau: beginner tot gemiddeld. Zet het lab eerst terug als een eerdere oefening bestanden wijzigde.
 
-**De goedgekeurde eis staat in **`docs/requirements.md`, de Python-bron in `task_report.py` en de tests onder `tests/`. Elk bestand heeft een andere rol: gewenst gedrag, implementatie en controle.
+**De goedgekeurde eis** staat in `docs/requirements.md`, de Python-bron in `task_report.py` en de tests onder `tests/`. Elk bestand heeft een andere rol: gewenst gedrag, implementatie en controle.
 
 ## Maak een kleine kaart
 **Maak `AGENTS.md` in de hoofdmap van het uitgepakte lab.** Gebruik deze begininhoud:
 
 ```markdown
-# Project instructions
+# Projectinstructies
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Lees `docs/requirements.md` voordat je gedrag wijzigt.
+- Bewerk `task_report.py` en gerichte tests in `tests/`.
+- Behandel `tasks.json` als vaste voorbeeldgegevens. Wijzig het niet.
+- Voer na de wijzigingen `python3 -m unittest discover -s tests -v` uit.
+- Meld welke bestanden zijn gewijzigd, wat de testresultaten zijn en welke problemen nog openstaan.
+- Commit, push en publiceer niet tijdens oefentaken.
 ```
 
 **Bewaar de testopdracht die je tijdens de installatie hebt gecontroleerd.** Vervang op Windows `python3` door `py -3` als je de Python-launcher gebruikte. Voer de opdracht uit voordat je erop vertrouwt. **Dit bestand is een kaart, geen transcript.** Bewaar goedgekeurde waarden in `docs/requirements.md` en werk die bron bij als de eis verandert.
 
-**Codex en OpenCode ondersteunen `AGENTS.md`. Lee**s de [Codex-instructies](https://learn.chatgpt.com/docs/agent-configuration/agents-md) en [OpenCode-regels](https://opencode.ai/docs/rules/) voordat je op details van bestandsdetectie vertrouwt. Bereik en prioriteit verschillen per tool en versie.
+**Codex en OpenCode ondersteunen `AGENTS.md`.** Lees de [Codex-instructies](https://learn.chatgpt.com/docs/agent-configuration/agents-md) en [OpenCode-regels](https://opencode.ai/docs/rules/) voordat je op details van bestandsdetectie vertrouwt. Bereik en prioriteit verschillen per tool en versie.
 
 ## Voeg een verwijzing voor Claude toe
 **Gebruik je Claude Code,** maak dan in dezelfde map een korte `CLAUDE.md` en importeer het gedeelde bestand met `@path`:
 
 ```markdown
-# Claude Code project entry
+# Startpunt voor een Claude Code-project
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Als je CLAUDE.md hebt gemaakt, voer uit: git add CLAUDE.md
+git commit -m "Labhandleiding toevoegen"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Stel dat een oude chatsamenvatting zegt** dat het statusfilter `pending` accepteert, terwijl de goedgekeurde eis `open` en `done` noemt. Vraag de agent het conflict te benoemen voordat die iets wijzigt.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Lees AGENTS.md en docs/requirements.md.
+Een eerdere chatsamenvatting zegt dat het filter pending accepteert.
+Welke waarden zijn goedgekeurd? Noem de bron en revisie.
+Bewerk de bestanden nog niet.
 ```
 
 **Het juiste antwoord** is `open` en `done` uit `docs/requirements.md`, revisie 1. De samenvatting is geen goedgekeurde bron. Is de bron zelf onduidelijk, stop dan en vraag de eigenaar in plaats van een waarde te verzinnen.

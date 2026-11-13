@@ -1,7 +1,7 @@
 ---
 title: AGENTS.md und CLAUDE.md für Programmieragenten schreiben
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Erstelle eine kurze Repository-Übersicht mit maßgeblicher Quelle und Testbefehl, damit Programmieragenten mit dem richtigen Kontext starten.
@@ -9,8 +9,8 @@ genre:
 - Künstliche Intelligenz
 - Softwareentwicklung
 tags:
-- AGENTS.md-Tutorial
-- CLAUDE.md-Tutorial
+- Anleitung zu AGENTS.md
+- Anleitung zu CLAUDE.md
 - Repository-Kontext für Agenten
 - Anweisungen für Programmieragenten
 - maßgebliche Quelle
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Bevor du beginnst
 **Voraussetzungen:** das entpackte [Startlabor](/downloads/effective-ai-course-lab.zip), ein Texteditor und die [Kurseinrichtung](/articles/effective-ai-course-setup/). Plane 35 Minuten ein. Schwierigkeitsgrad: Anfänger bis Mittelstufe. Setze das Labor zurück, falls eine frühere Übung Dateien geändert hat.
 
-**Die genehmigte Anforderung steht in **`docs/requirements.md`, der Python-Code in `task_report.py`, die Tests liegen unter `tests/`. Sie beschreiben gewünschtes Verhalten, Implementierung und Prüfung.
+**Die genehmigte Anforderung** steht in `docs/requirements.md`, der Python-Code in `task_report.py`, die Tests liegen unter `tests/`. Sie beschreiben gewünschtes Verhalten, Implementierung und Prüfung.
 
 ## Erstelle eine kleine Übersicht
 **Lege `AGENTS.md` im Stammverzeichnis des entpackten Labors an.** Verwende diesen Text:
 
 ```markdown
-# Project instructions
+# Projektanweisungen
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Lies `docs/requirements.md`, bevor du das Verhalten änderst.
+- Bearbeite `task_report.py` und gezielte Tests in `tests/`.
+- Behandle `tasks.json` als unveränderte Beispieldaten. Ändere die Datei nicht.
+- Führe nach den Änderungen `python3 -m unittest discover -s tests -v` aus.
+- Nenne geänderte Dateien, Testergebnisse und ungelöste Probleme.
+- Erstelle während Übungsaufgaben keine Commits, pushe nichts und veröffentliche nichts.
 ```
 
 **Speichere den Testbefehl, den du bei der Einrichtung geprüft hast.** Nutze unter Windows `py -3` statt `python3`, falls du den Python-Launcher verwendet hast. Prüfe den Befehl vor der Nutzung. **Die Datei ist eine Übersicht, kein Protokoll.** Genehmigte Werte stehen in `docs/requirements.md`. Aktualisiere diese Quelle, wenn sich die Anforderung ändert.
 
-**Codex und OpenCode unterstützen `AGENTS.md`. Lie**s die [Codex-Anweisungen](https://learn.chatgpt.com/docs/agent-configuration/agents-md) und die [OpenCode-Anweisungen](https://opencode.ai/docs/rules/), bevor du dich auf Dateisuche verlässt. Umfang und Vorrang unterscheiden sich je nach Werkzeug und Version.
+**Codex und OpenCode unterstützen `AGENTS.md`.** Lies die [Codex-Anweisungen](https://learn.chatgpt.com/docs/agent-configuration/agents-md) und die [OpenCode-Anweisungen](https://opencode.ai/docs/rules/), bevor du dich auf Dateisuche verlässt. Umfang und Vorrang unterscheiden sich je nach Werkzeug und Version.
 
 ## Ergänze einen Claude-Verweis
 **Wenn du Claude Code nutzt,** lege daneben eine kurze `CLAUDE.md` an und importiere die gemeinsame Datei per `@path`:
 
 ```markdown
-# Claude Code project entry
+# Projekteinstieg für Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Wenn du CLAUDE.md erstellt hast, führe aus: git add CLAUDE.md
+git commit -m "Laboranweisungen hinzufügen"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Ein alter Chat-Überblick behauptet vielleicht**, der Statusfilter akzeptiere `pending`. Die genehmigte Anforderung nennt `open` und `done`. Bitte den Agenten, den Konflikt vor der Änderung zu benennen.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Lies AGENTS.md und docs/requirements.md.
+Eine frühere Chat-Zusammenfassung sagt, der Filter akzeptiere pending.
+Welche Werte sind freigegeben? Nenne Quelle und Revision.
+Bearbeite die Dateien noch nicht.
 ```
 
 **Richtig sind** `open` und `done` aus `docs/requirements.md`, Revision 1. Der Chat-Überblick ist keine genehmigte Quelle. Ist die Quelle selbst unklar, halte an und frage die zuständige Person.

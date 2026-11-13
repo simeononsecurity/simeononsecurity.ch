@@ -1,7 +1,7 @@
 ---
 title: Scrieți AGENTS.md și CLAUDE.md pentru agenții de programare
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Creați o hartă scurtă a depozitului, cu sursa de referință și comanda de testare, pentru ca agenții să înceapă cu contextul potrivit.
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Înainte să începeți
 **Cerințe:** [laboratorul inițial extras](/downloads/effective-ai-course-lab.zip), un editor text și [configurarea cursului](/articles/effective-ai-course-setup/). Rezervați 35 de minute. Nivel de la începător la mediu. Resetați laboratorul dacă un exercițiu anterior i-a schimbat fișierele.
 
-**Cerința aprobată este în **`docs/requirements.md`, codul Python în `task_report.py`, iar testele în `tests/`. Fișierele au roluri distincte: comportament dorit, implementare și verificare.
+**Cerința aprobată** este în `docs/requirements.md`, codul Python în `task_report.py`, iar testele în `tests/`. Fișierele au roluri distincte: comportament dorit, implementare și verificare.
 
 ## Creați o hartă scurtă
 **Creați `AGENTS.md` în rădăcina laboratorului extras.** Folosiți acest conținut inițial:
 
 ```markdown
-# Project instructions
+# Instrucțiuni pentru proiect
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Citește `docs/requirements.md` înainte de a modifica comportamentul.
+- Editează `task_report.py` și testele specifice din `tests/`.
+- Tratează `tasks.json` ca date fixe de exemplu. Nu îl modifica.
+- După editări, rulează `python3 -m unittest discover -s tests -v`.
+- Raportează fișierele modificate, rezultatele testelor și orice problemă nerezolvată.
+- Nu face commit, push sau publicare în timpul sarcinilor de exercițiu.
 ```
 
 **Salvați comanda de testare verificată la configurare.** În Windows, înlocuiți `python3` cu `py -3` dacă ați folosit lansatorul Python. Rulați comanda înainte să vă bazați pe ea. **Fișierul este o hartă, nu o transcriere.** Păstrați valorile aprobate în `docs/requirements.md` și actualizați sursa când se schimbă cerința.
 
-**Codex și OpenCode acceptă `AGENTS.md`. Con**sultați [instrucțiunile Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) și [regulile OpenCode](https://opencode.ai/docs/rules/) înainte să vă bazați pe detaliile de detectare a fișierelor. Domeniul și prioritatea diferă în funcție de instrument și versiune.
+**Codex și OpenCode acceptă `AGENTS.md`.** Consultați [instrucțiunile Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) și [regulile OpenCode](https://opencode.ai/docs/rules/) înainte să vă bazați pe detaliile de detectare a fișierelor. Domeniul și prioritatea diferă în funcție de instrument și versiune.
 
 ## Adăugați o referință pentru Claude
 **Dacă folosiți Claude Code,** creați un `CLAUDE.md` scurt în același folder și importați fișierul comun cu `@path`:
 
 ```markdown
-# Claude Code project entry
+# Fișier de intrare al proiectului Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Dacă ai creat CLAUDE.md, rulează: git add CLAUDE.md
+git commit -m "Adăugați instrucțiunile laboratorului"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Un rezumat vechi al conversației poate spune** că filtrul de stare acceptă `pending`, în timp ce cerința aprobată spune `open` și `done`. Cereți agentului să identifice conflictul înainte de editare.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Citește AGENTS.md și docs/requirements.md.
+Un rezumat anterior al conversației spune că filtrul acceptă pending.
+Ce valori sunt aprobate? Menționează sursa și revizia.
+Nu edita încă fișierele.
 ```
 
 **Răspunsul corect** este `open` și `done`, în `docs/requirements.md`, revizia 1. Rezumatul nu este o sursă aprobată. Dacă sursa însăși nu este clară, opriți-vă și întrebați responsabilul, în loc să inventați o valoare.

@@ -1,7 +1,7 @@
 ---
 title: Napisz AGENTS.md i CLAUDE.md dla agentów kodujących
 date: '2026-10-10'
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Utwórz krótką mapę repozytorium ze źródłem prawdy i poleceniem testów, aby agenci zaczynali z właściwym kontekstem.
@@ -35,31 +35,31 @@ coverCaption: ''
 ## Zanim zaczniesz
 **Potrzebujesz:** rozpakowanego [laboratorium startowego](/downloads/effective-ai-course-lab.zip), edytora tekstu i [konfiguracji kursu](/articles/effective-ai-course-setup/). Zarezerwuj 35 minut. Poziom od początkującego do średniego. Zresetuj laboratorium, jeśli poprzednie ćwiczenie zmieniło pliki.
 
-**Zatwierdzone wymaganie znajduje się w **`docs/requirements.md`, kod źródłowy Python w `task_report.py`, a testy w `tests/`. Każdy plik ma inną funkcję: wymagane zachowanie, implementacja i sprawdzenie.
+**Zatwierdzone wymaganie** znajduje się w `docs/requirements.md`, kod źródłowy Python w `task_report.py`, a testy w `tests/`. Każdy plik ma inną funkcję: wymagane zachowanie, implementacja i sprawdzenie.
 
 ## Utwórz krótką mapę
 **Utwórz `AGENTS.md` w katalogu głównym rozpakowanego laboratorium.** Użyj tego tekstu:
 
 ```markdown
-# Project instructions
+# Instrukcje projektu
 
-- Read `docs/requirements.md` before changing behavior.
-- Edit `task_report.py` and focused tests in `tests/`.
-- Treat `tasks.json` as fixed sample data. Do not change it.
-- Run `python3 -m unittest discover -s tests -v` after edits.
-- Report changed files, test results, and any unresolved issue.
-- Do not commit, push, or publish during practice tasks.
+- Przeczytaj `docs/requirements.md` przed zmianą zachowania.
+- Edytuj `task_report.py` i ukierunkowane testy w `tests/`.
+- Traktuj `tasks.json` jako niezmienne dane przykładowe. Nie zmieniaj go.
+- Po edycji uruchom `python3 -m unittest discover -s tests -v`.
+- Podaj zmienione pliki, wyniki testów i wszelkie nierozwiązane kwestie.
+- Podczas zadań ćwiczeniowych nie wykonuj commitów, pushów ani publikacji.
 ```
 
 **Zapisz polecenie testów sprawdzone podczas konfiguracji.** W Windows zastąp `python3` przez `py -3`, jeśli używasz launchera Pythona. Uruchom zapisane polecenie przed użyciem. **Ten plik to mapa, a nie transkrypcja.** Zatwierdzone wartości przechowuj w `docs/requirements.md` i aktualizuj ten dokument po zmianie wymagań.
 
-**Codex i OpenCode obsługują `AGENTS.md`. Prz**ed poleganiem na szczegółach wykrywania plików przeczytaj [instrukcje Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) i [reguły OpenCode](https://opencode.ai/docs/rules/). Zakres i kolejność pierwszeństwa zależą od narzędzia i wersji.
+**Codex i OpenCode obsługują `AGENTS.md`.** Przeczytaj [instrukcje Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md) i [reguły OpenCode](https://opencode.ai/docs/rules/), zanim oprzesz się na szczegółach wykrywania plików. Zakres i kolejność pierwszeństwa zależą od narzędzia i wersji.
 
 ## Dodaj odnośnik dla Claude
 **Jeśli używasz Claude Code,** utwórz obok krótki plik `CLAUDE.md` i zaimportuj wspólny plik przez `@path`:
 
 ```markdown
-# Claude Code project entry
+# Wpis projektu Claude Code
 
 @AGENTS.md
 ```
@@ -68,8 +68,8 @@ coverCaption: ''
 
 ```bash
 git add AGENTS.md
-# If you created CLAUDE.md, run: git add CLAUDE.md
-git commit -m "Add lab guidance"
+# Jeśli utworzono CLAUDE.md, uruchom: git add CLAUDE.md
+git commit -m "Dodaj instrukcje do laboratorium"
 git status --short
 ```
 
@@ -79,10 +79,10 @@ git status --short
 **Załóżmy, że stary skrót rozmowy** mówi, że filtr statusu akceptuje `pending`, a zatwierdzone wymaganie wymienia `open` i `done`. Poproś agenta o wskazanie konfliktu przed edycją.
 
 ```text
-Read AGENTS.md and docs/requirements.md.
-A previous chat summary says the filter accepts pending.
-Which values are approved? Name the source and revision.
-Do not edit files yet.
+Przeczytaj AGENTS.md i docs/requirements.md.
+Poprzednie podsumowanie czatu mówi, że filtr akceptuje pending.
+Które wartości są zatwierdzone? Podaj źródło i rewizję.
+Na razie nie edytuj plików.
 ```
 
 **Poprawna odpowiedź**: `open` i `done` z `docs/requirements.md`, wersja 1. Skrót rozmowy nie jest zatwierdzonym źródłem. Jeśli samo źródło jest niejasne, zatrzymaj się i zapytaj jego właściciela, zamiast wymyślać wartość.
