@@ -34,7 +34,9 @@
   and captions. Keep technical names accurate and use Gurmukhi for Punjabi.
 - Translate reader-facing `genre` and `tags` values while preserving array order
   and count. Retain product names, model identifiers, and other proper nouns where
-  translation would change the reference.
+  translation would change the reference. Screen identical multiword source tag
+  and genre values in inline and block-style YAML lists for manual review, then
+  translate reader-facing taxonomy terms and record any proper-name exception.
 - Check false friends that change evidence-handling meaning. For example,
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private

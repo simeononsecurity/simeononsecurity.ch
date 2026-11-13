@@ -7,15 +7,41 @@ from check_translation_english_leakage import (
     copied_english_prose_spans,
     copied_english_link_labels,
     copied_english_headings,
+    copied_english_taxonomy,
     copied_reader_fenced_examples,
     copied_reader_fenced_lines,
     prose_sentences_with_link_slots,
     reader_fenced_prose,
+    yaml_front_matter_lists,
     visible_text,
 )
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_parses_inline_and_block_yaml_tag_lists(self):
+        header = (
+            'tags: ["Online Privacy", "Safe, trusted sites", \'reader\'\'s guide\']\n'
+            'genre:\n  - "Digital Safety"\n  - "Online Security"\n'
+        )
+
+        self.assertEqual(
+            yaml_front_matter_lists(header, "tags"),
+            ["Online Privacy", "Safe, trusted sites", "reader's guide"],
+        )
+        self.assertEqual(
+            yaml_front_matter_lists(header, "genre"),
+            ["Digital Safety", "Online Security"],
+        )
+
+    def test_flags_identical_multiword_taxonomy_values_only(self):
+        source = {"tags": ["Online Privacy", "Product X", "privacy tips"]}
+        target = {"tags": ["Online Privacy", "Producto X", "consejos de privacidad"]}
+
+        self.assertEqual(
+            copied_english_taxonomy(source, target),
+            {"tags": ["Online Privacy"]},
+        )
+
     def test_flags_copied_descriptive_headings_but_not_product_name_headings(self):
         source = (
             "## Be Wary of Public Wi-Fi\n\n"
@@ -76,11 +102,10 @@ class FencedProseTests(unittest.TestCase):
     def test_effective_ai_delegation_examples_detect_an_english_copy(self):
         bundle = Path(__file__).resolve().parents[1] / "content/articles/effective-ai-agent-delegation"
         english = (bundle / "index.en.md").read_text(encoding="utf-8")
-        misplaced_english = (bundle / "locale/index.fr.md").read_text(encoding="utf-8")
         translated = (bundle / "index.de.md").read_text(encoding="utf-8")
 
         self.assertEqual(len(reader_fenced_prose(english)), 2)
-        self.assertTrue(copied_reader_fenced_examples(english, misplaced_english))
+        self.assertTrue(copied_reader_fenced_examples(english, english))
         self.assertFalse(copied_reader_fenced_examples(english, translated))
 
     def test_identical_structured_evidence_is_not_english_prose(self):

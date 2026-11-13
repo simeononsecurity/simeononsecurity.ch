@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import json
 import re
 import sys
 import tomllib
@@ -64,6 +65,80 @@ def configured_locales() -> list[str]:
     return sorted(code for code, value in languages.items() if code.lower() != "en" and isinstance(value, dict))
 
 
+def yaml_sequence_values(raw: str) -> list[str]:
+    """Parse simple quoted or plain YAML sequence values."""
+    values = []
+    current = []
+    quote = None
+    index = 0
+    while index < len(raw):
+        char = raw[index]
+        following = raw[index + 1] if index + 1 < len(raw) else ""
+        if quote == "'" and char == "'" and following == "'":
+            current.extend((char, following))
+            index += 2
+            continue
+        if quote == '"' and char == "\\" and following:
+            current.extend((char, following))
+            index += 2
+            continue
+        if quote and char == quote:
+            current.append(char)
+            quote = None
+        elif quote:
+            current.append(char)
+        elif char in {"'", '"'}:
+            quote = char
+            current.append(char)
+        elif char == ",":
+            values.append("".join(current).strip())
+            current = []
+        elif char not in "[]":
+            current.append(char)
+        index += 1
+    if current:
+        values.append("".join(current).strip())
+
+    parsed = []
+    for value in values:
+        if not value:
+            continue
+        if value.startswith('"') and value.endswith('"'):
+            try:
+                value = json.loads(value)
+            except json.JSONDecodeError:
+                value = value[1:-1]
+        elif value.startswith("'") and value.endswith("'"):
+            value = value[1:-1].replace("''", "'")
+        else:
+            value = re.sub(r"\s+#.*$", "", value).strip()
+        parsed.append(value)
+    return parsed
+
+
+def yaml_front_matter_lists(header: str, key: str) -> list[str]:
+    """Read an inline or block-style YAML list from article front matter."""
+    lines = header.splitlines()
+    for index, line in enumerate(lines):
+        match = re.match(rf"^{re.escape(key)}\s*:\s*(.*)$", line)
+        if not match:
+            continue
+        value = match.group(1).strip()
+        if value.startswith("["):
+            return yaml_sequence_values(value)
+        if value:
+            return []
+        items = []
+        for child in lines[index + 1:]:
+            item = re.match(r"^\s*-\s+(.*?)\s*$", child)
+            if item:
+                items.extend(yaml_sequence_values(item.group(1)))
+            elif child.strip():
+                break
+        return items
+    return []
+
+
 def read_page(path: Path) -> tuple[dict, str]:
     text = path.read_text(encoding="utf-8", errors="replace")
     match = re.match(r"\A---\s*\n(.*?)\n---\s*\n(.*)\Z", text, re.S)
@@ -84,7 +159,31 @@ def read_page(path: Path) -> tuple[dict, str]:
         value = re.search(rf"(?m)^{re.escape(key)}\s*:\s*(['\"])(.*?)\1\s*$", header)
         if value:
             metadata[key] = value.group(2)
+    for key in ("genre", "tags"):
+        values = yaml_front_matter_lists(header, key)
+        if values:
+            metadata[key] = values
     return metadata, match.group(2)
+
+
+def copied_english_taxonomy(source: dict, target: dict) -> dict[str, list[str]]:
+    """Find unchanged multiword genre or tag values for manual review."""
+    copied: dict[str, list[str]] = {}
+    for key in ("genre", "tags"):
+        source_values = source.get(key, [])
+        target_values = target.get(key, [])
+        if not isinstance(source_values, list) or not isinstance(target_values, list):
+            continue
+        target_normalized = {normalize(value) for value in target_values if isinstance(value, str)}
+        values = [
+            value for value in source_values
+            if isinstance(value, str)
+            and len(normalize(value).split()) >= 2
+            and normalize(value) in target_normalized
+        ]
+        if values:
+            copied[key] = sorted(set(values))
+    return copied
 
 
 def visible_text(text: str, *, include_link_labels: bool = True) -> str:
@@ -357,6 +456,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             and len(normalize(str(source_meta[key])).split()) >= 3
             and normalize(str(metadata[key])) == normalize(str(source_meta[key]))
         ]
+        copied_taxonomy = copied_english_taxonomy(source_meta, metadata)
+        metadata_keys = copied_metadata + sorted(copied_taxonomy)
         if len(prose.strip()) < 30:
             reasons.append("empty_or_nearly_empty")
         if exact >= 3 and exact_ratio >= 0.35:
@@ -378,8 +479,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("English_stopword_dominance")
         if ratio is not None and len(prose) > 500 and ratio < 0.08:
             reasons.append("expected_script_missing")
-        if copied_metadata:
-            reasons.append("English_reader_metadata_copy:" + ",".join(copied_metadata))
+        if metadata_keys:
+            reasons.append("English_reader_metadata_copy:" + ",".join(metadata_keys))
         copied_link_labels = copied_english_link_labels(source_body, body)
         if copied_link_labels:
             reasons.append("English_reader_link_label_copy")
@@ -395,6 +496,10 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "exact_english_sentences": " | ".join(copied_sentences),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
                 "copied_english_headings": " | ".join(copied_headings),
+                "copied_english_metadata": " | ".join(
+                    [f"{key}: {metadata[key]}" for key in copied_metadata]
+                    + [f"{key}: {', '.join(values)}" for key, values in copied_taxonomy.items()]
+                ),
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_link_labels": " | ".join(copied_link_labels),
                 "note": "Screening flag. Review prose and metadata manually.",
@@ -432,7 +537,7 @@ def main() -> int:
         print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:
         args.csv.parent.mkdir(parents=True, exist_ok=True)
-        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "copied_english_headings", "expected_script_ratio", "copied_link_labels", "note"]
+        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "copied_english_headings", "copied_english_metadata", "expected_script_ratio", "copied_link_labels", "note"]
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
             writer = csv.DictWriter(handle, fieldnames=fields)
             writer.writeheader()
