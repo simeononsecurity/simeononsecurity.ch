@@ -1,7 +1,8 @@
 ---
-title: "HackTheBox Academy vs TryHackMe"
+title: 'HackTheBox Academy contra TryHackMe'
 date: 2023-02-26
-lastmod: 2026-10-08
+lastmod: 2026-11-13
+draft: false
 description: Comparació exhaustiva del 2026 entre HackTheBox Academy i TryHackMe incloent preus, característiques, rutes d'aprenentatge i mètriques de rendiment per ajudar els principiants a triar la millor plataforma per aprendre habilitats en ciberseguretat.
 tags:
 - ciberseguretat
@@ -23,8 +24,8 @@ tags:
 - comunitat
 - aprenentatge en línia
 - aprenentatge estructurat
-- hackthebox vs tryhackme
-- tryhackme vs hackthebox
+- hackthebox contra tryhackme
+- tryhackme contra hackthebox
 - plataformes de proves de penetració
 - aprenentatge en ciberseguretat
 - proves de penetració junior
@@ -69,6 +70,8 @@ El 2026, la bretxa d'habilitats en ciberseguretat continua ampliant-se, amb més
 
 Aquesta comparació exhaustiva analitza ambdues plataformes basant-se en preus del 2026, característiques, rutes d'aprenentatge, suport comunitari i resultats reals per ajudar-te a prendre una decisió informada.
 
+**Nota sobre les fonts actuals, consultades el 10 d'octubre de 2026:** Diverses estadístiques de les plataformes, taules de resultats i noms de plans provenen d'una versió anterior. Les pàgines oficials revisades no publiquen conjunts de dades independents equivalents per als dos serveis. Tracta aquestes xifres com a context històric, no com a mesures actuals. Consulta els preus, les rutes i els detalls de certificació oficials i datats que s'afegeixen a continuació abans de pagar.
+
 ______
 
 ## Visió general de HackTheBox Academy i TryHackMe
@@ -89,6 +92,8 @@ Tot i que ambdues plataformes tenen com a objectiu ensenyar conceptes de ciberse
 | **Mida de la comunitat** | 850K membres a Discord | 1,2M membres a Discord |
 | **Clients empresarials** | Més de 2.500 organitzacions | Més de 4.100 organitzacions |
 
+La [pàgina de certificacions de TryHackMe](https://tryhackme.com/certifications) indica **més de 8 milions d'usuaris** i **més de 1.100 laboratoris pràctics**. La [pàgina per a principiants](https://tryhackme.com/beginner-path) indica una comunitat Discord de **més de 300.000 membres**. Aquests recomptes fan servir definicions diferents de les de la taula anterior. Les pàgines Academy consultades no indiquen un nombre actual equivalent d'usuaris de HTB Academy. Tracta les dades dels proveïdors com a indicadors de la mida del producte, no com a resultats d'una auditoria independent.
+
 ### HackTheBox Academy
 
 **HackTheBox Academy** és una plataforma en línia que proporciona una experiència d'aprenentatge estructurada per a professionals de la ciberseguretat. Ofereix molts temes de ciberseguretat, incloent proves de penetració, forense i anàlisi de malware, i disposa d'opcions de subscripció gratuïtes i de pagament.
@@ -98,6 +103,12 @@ Tot i que ambdues plataformes tenen com a objectiu ensenyar conceptes de ciberse
 El 2026, HackTheBox Academy ha afegit **sistemes d'ajuda impulsats per IA**, **sessions en viu amb instructors** i **alineació amb certificacions de la indústria** per millorar l'experiència d'aprenentatge.
 
 {{< youtube id="J4NmHJon2wY" >}}
+
+### Estructura actual de HTB Academy
+
+HTB Academy separa ara els plans **basats en cube** dels **basats en accés**. Els plans de cube assignen crèdits mensuals. Els mòduls oberts amb aquests crèdits continuen al compte després de cancel·lar. Els plans d'accés cobreixen contingut fins a un nivell mentre la subscripció és activa. Els mòduls completats continuen disponibles després de la caducitat, però els incomplets es tornen a bloquejar. [La guia d'abonaments de HTB](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) també indica que HTB Academy i HTB Labs tenen abonaments separats.
+
+Els noms i preus actuals apareixen a la secció de preus. Compara la propietat permanent dels mòduls, l'accés a les rutes, els vals d'examen i el ritme d'estudi previst.
 
 ### TryHackMe
 
@@ -109,7 +120,13 @@ Fins al 2026, TryHackMe ha crescut significativament amb **rutes d'aprenentatge 
 
 ______
 
+### Estructura actual de TryHackMe
+
+TryHackMe ofereix els plans individuals **Free**, **Premium** i **MAX**. La pàgina pública mostra Free a €0, Premium a €16,99 al mes o €7,35 amb una promoció anual, i MAX a €29,11 o €17,99 mensuals amb la promoció anual. Premium inclou rutes per a principiants, certificats de finalització, AttackBox il·limitat i un 15% de descompte en certificacions. MAX afegeix rutes avançades, contingut cloud, AttackBox persistent, totes les sales i un 40% de descompte en una certificació. La moneda, les promocions, els impostos i la facturació canvien el total. Consulta la [pàgina de preus actual de TryHackMe](https://tryhackme.com/pricing) abans de comprar.
+
 ## Comparació de preus 2026
+
+Les taules següents conserven xifres d'una versió anterior per donar context. No coincideixen amb tots els noms ni preus actuals. Fes servir la taula de fonts actuals per comparar les ofertes amb data.
 
 ### Preus de HackTheBox Academy
 
@@ -118,8 +135,8 @@ ______
 | **Nivell gratuït** | 0 $ | 0 $ | Accés a més de 25 mòduls inicials, fòrums comunitaris, temps limitat als labs |
 | **Pack Estudiant** | 8 $/mes | 90 $/any | Accés complet als mòduls, temps il·limitat als labs, rutes de certificació (requereix correu .edu) |
 | **Individual** | 19 $/mes | 190 $/any | Accés complet als mòduls, temps il·limitat als labs, rutes de certificació, suport prioritari |
-| **Anual Plata** | N/A | 490 $/any | Totes les funcions Individuals + mòduls exclusius, certificacions avançades |
-| **Anual Or** | N/A | 990 $/any | Totes les funcions Plata + sessions de mentoratge, assistència per col·locació laboral |
+| **Anual Plata** | No aplica | 490 $/any | Totes les funcions Individuals + mòduls exclusius, certificacions avançades |
+| **Anual Or** | No aplica | 990 $/any | Totes les funcions Plata + sessions de mentoratge, assistència per col·locació laboral |
 
 ### Preus de TryHackMe
 
@@ -132,7 +149,25 @@ ______
 
 **Anàlisi preu-valor:** TryHackMe ofereix més accessibilitat de contingut a preus més baixos, fent-la **un 20-30% més rendible per a principiants**. HackTheBox Academy proporciona una especialització més profunda i rutes de certificació reconegudes per la indústria en nivells premium, fent-la més valuosa per a **l'avanç professional i rols especialitzats**.
 
+L'estimació del **20-30% no és una comparació auditada**. La versió anterior no identifica quines funcions compara, ni la moneda, els impostos, les hores d'estudi o les dades d'origen. Les pàgines oficials dels plans mostren noms, monedes, descomptes i regles d'accés diferents.
+
 ______
+
+### Plans oficials actuals, consultats el 10 d'octubre de 2026
+
+| Pla | Preu publicat | Accés i límits dels certificats |
+|-----|---------------|---------------------------------|
+| **HTB Academy Silver** | $18/mes, basat en cube | 200 cube mensuals, Pwnbox il·limitat i tramesa CPE |
+| **HTB Academy Gold** | $38/mes, basat en cube | 500 cube mensuals, Pwnbox il·limitat i tramesa CPE |
+| **HTB Academy Platinum** | $68/mes, basat en cube | 1.000 cube mensuals, Pwnbox il·limitat i tramesa CPE |
+| **HTB Academy Silver Annual** | $490/any, basat en accés | Accés Tier II, rutes professionals, Pwnbox il·limitat i vals anuals indicats per HTB |
+| **HTB Academy Gold Annual** | $1.260/any, basat en accés | Accés Tier III, rutes avançades, Pwnbox il·limitat i més avantatges amb vals |
+| **HTB Academy Student** | $8/mes, basat en accés | Cal verificació acadèmica, accés Tier II, rutes professionals i Pwnbox il·limitat |
+| **TryHackMe Free** | €0 | Sales gratuïtes, rutes limitades i una hora diària d'AttackBox |
+| **TryHackMe Premium** | €16,99/mes, €7,35 amb la promoció anual | Rutes per a principiants, certificats, AttackBox il·limitat i 15% de descompte en certificacions professionals |
+| **TryHackMe MAX** | €29,11/mes, €17,99 amb la promoció anual | Rutes avançades, contingut cloud, AttackBox persistent, totes les sales i 40% de descompte en una certificació |
+
+La [guia d'abonaments de HTB Academy](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) dona els preus i les regles d'accés de HTB. La [pàgina de preus de TryHackMe](https://tryhackme.com/pricing) dona les seves xifres. Són pàgines comercials que poden canviar. Torna-les a consultar abans de pagar.
 
 ## Comparació detallada de característiques
 
@@ -177,6 +212,21 @@ ______
 | **Temps de Reinici del Laboratori** | Instantani | 1-3 minuts |
 
 ______
+
+## Inici per a principiants el 2026
+
+Totes dues plataformes ofereixen pràctica al navegador, però els primers passos difereixen.
+
+| Punt de partida | HackTheBox Academy | TryHackMe |
+|-----------------|--------------------|-----------|
+| **Sense experiència prèvia** | Les preguntes freqüents de HTB recomanen mòduls Fundamental i Easy. Un compte nou rep cube gratuïts per iniciar els mòduls Fundamental. | Pre Security s'adreça a principiants absoluts, no requereix experiència prèvia en ciberseguretat i funciona al navegador. |
+| **Primera ruta guiada** | Information Security Foundations condueix a rutes professionals. La ruta Penetration Tester indica aquesta base com a coneixement previ. | Pre Security condueix a Web Fundamentals. Cyber Security 101 cobreix xarxes, sistemes operatius, fonaments ofensius i defensius i temes professionals. |
+| **Primera ruta defensiva** | Les rutes SOC Analyst i Junior Cybersecurity Analyst figuren al catàleg Academy actual. | SOC Level 1 cobreix triatge d'alertes, informes, SIEM, EDR, phishing i anàlisi del trànsit de xarxa. |
+| **Temps estimat** | Les preguntes freqüents descriuen nivells i regles d'accés, però no donen una durada única per a tots els principiants. | La pàgina per a principiants estima de 30 a 40 hores per a Pre Security. És una estimació, no una garantia. |
+
+Consulta la [FAQ de HTB Academy](https://academy.hackthebox.com/faq), la [ruta Penetration Tester de HTB](https://academy.hackthebox.com/path/preview/penetration-tester), la [ruta per a principiants de TryHackMe](https://tryhackme.com/beginner-path) i [Cyber Security 101 de TryHackMe](https://tryhackme.com/path/outline/cybersecurity101) abans de triar. Aquestes pàgines mostren millor l'inici actual que les xifres generals.
+
+*Per a qui comença de zero, TryHackMe ofereix un primer pas més clar. HTB Academy també serveix als principiants que prefereixen documentació, exercicis basats en objectius i un progrés gradual cap a les proves d'intrusió.*
 
 ## Fortaleses i Febleses de Totes Dues Plataformes
 
@@ -225,6 +275,8 @@ Abans de triar una plataforma, és important entendre les fortaleses i febleses 
 ______
 
 ## Comparació de Rutes d’Aprenentatge
+
+Les llistes detallades conserven els noms de rutes, les estimacions d'hores i els intervals de cost de la versió anterior. El contingut de les rutes canvia. Compara-les amb el [catàleg actual de rutes de HTB Academy](https://academy.hackthebox.com/catalogue/paths), la ruta [Cyber Security 101 de TryHackMe](https://tryhackme.com/path/outline/cybersecurity101) i la ruta [SOC Level 1 de TryHackMe](https://tryhackme.com/path/outline/soclevel1) abans d'usar els totals com a pla d'estudi.
 
 ### De Principiant a Penetration Tester Junior
 
@@ -313,6 +365,38 @@ Basat en enquestes a més de 10.000 usuaris per plataforma:
 | **Recomanaria** | 92% | 94% |
 
 ______
+
+### Què avalen les pàgines oficials
+
+| Evidència | Afirmació actual avalada | Límit |
+|----------|---------------------------|-------|
+| **Rutes professionals de HTB Academy** | HTB afirma que preparen per a exàmens pràctics de certificació. Cal completar el 100% de la ruta i tenir un val vàlid per examinar-se. | Una ruta o un certificat no demostren ocupació, sou ni antiguitat professional. |
+| **Rutes d'aprenentatge de TryHackMe** | TryHackMe emet certificats de finalització. Les certificacions professionals fan servir rutes associades i credencials verificables que es poden compartir. | Un certificat no prova el rendiment en una avaluació independent. |
+| **Perfils de plataforma** | Tots dos serveis registren el progrés o els continguts completats. | L'activitat del perfil no demostra per si sola la qualitat dels informes, el treball en equip ni el rendiment laboral. |
+
+Consulta la [guia de certificacions de HTB Academy](https://help.hackthebox.com/en/articles/12741732-academy-certifications) i la [pàgina de certificacions de TryHackMe](https://tryhackme.com/certifications) per veure les normes actuals. Cap de les pàgines promet feina ni sou.
+
+## Certificats i valor del portafolis
+
+Els registres de formació ajuden un responsable de contractació a entendre com has estudiat. No substitueixen mostres de feina.
+
+| Element del portafolis | Què mostra | Què no mostra |
+|------------------------|------------|---------------|
+| **Certificat de finalització d'una ruta** | Has acabat un pla d'estudis guiat | Resolució independent de problemes en situacions noves |
+| **Certificació professional** | Has superat una avaluació pràctica definida | Rendiment laboral a llarg termini o experiència d'equip |
+| **Perfil públic** | Pràctica constant i sales o mòduls completats | La qualitat de cada solució ni l'ajuda rebuda |
+| **Informe de pràctica anonimitzat** | Mètode, proves, ordres i criteri de correcció | Permís per publicar dades reals de clients o empreses |
+| **Informe o script de mostra** | Comunicació, repetibilitat i criteri tècnic | Un substitut de referències o experiència professional |
+
+Construeix un petit portafolis mentre estudies:
+
+- Completa una ruta actual per al lloc que busques.
+- Publica tres informes anonimitzats amb data, abast, proves i correccions.
+- Afegeix un informe breu d'avaluació o d'incident defensiu.
+- Enllaça el perfil públic i les pàgines dels certificats.
+- Indica on has fet servir pistes, guies o solucions proporcionades.
+
+El valor principal del portafolis és mostrar el teu procés. Una insígnia prova que has acabat. Un informe clar mostra com treballes.
 
 ## Triar la Millor Plataforma per a Principiants
 
@@ -430,6 +514,17 @@ ______
 
 ______
 
+## Verifica l'oferta actual abans de pagar
+
+Els noms dels plans, els preus, els mòduls inclosos i les regles d'accés canvien. Tracta les xifres com a observacions datades, no com a dades permanents. Abans d'un pla de pagament, consulta [Hack The Box Academy](https://academy.hackthebox.com/) i les [rutes i preus de TryHackMe](https://tryhackme.com/paths).
+
+1. Obre el programa de la ruta que vols. Compta els mòduls adequats al teu lloc objectiu, no les llistes generals de temes.
+2. Comprova si el pla inclou els laboratoris, objectius i funcions de revisió que necessites. Un abonament barat no ajuda si la ruta queda fora del pla.
+3. Confirma les normes actuals per a certificats, insígnies, notes i visibilitat de la feina completada. Aquests registres ajuden el portafolis, però no substitueixen una certificació professional supervisada ni una mostra de feina.
+4. Defineix un resultat concret, com acabar una ruta inicial i publicar un informe de laboratori anonimitzat. Després de quatre setmanes, revisa mòduls completats, temps de pràctica i habilitats retingudes.
+
+Aquesta guia també respon la pregunta dels principiants. TryHackMe ofereix un inici més gradual quan necessites fonaments guiats. HTB Academy s'adapta millor si ja coneixes les bases i vols pràctica més profunda basada en tasques. L'elecció depèn de la ruta, les normes actuals del pla i l'objectiu d'estudi.
+
 ## Fonts Autoritzades i Referències
 
 1. [Cybersecurity Ventures - Mercat de Treball en Ciberseguretat 2026](https://cybersecurityventures.com/)
@@ -439,6 +534,15 @@ ______
 5. [Estudi de la Força Laboral en Ciberseguretat ISC² 2026](https://www.isc2.org/workforce-study)
 6. [Estat de la Ciberseguretat CompTIA 2026](https://www.comptia.org/)
 7. [Estadístiques de Certificació en Seguretat Ofensiva](https://www.offensive-security.com/)
+8. [Subscripcions de HTB Academy](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions)
+9. [Certificacions de HTB Academy](https://help.hackthebox.com/en/articles/12741732-academy-certifications)
+10. [Preguntes freqüents de HTB Academy](https://academy.hackthebox.com/faq)
+11. [Catàleg de rutes de HTB Academy](https://academy.hackthebox.com/catalogue/paths)
+12. [Plans Premium de TryHackMe](https://tryhackme.com/pricing)
+13. [Ruta per a principiants de TryHackMe](https://tryhackme.com/beginner-path)
+14. [Ruta Cyber Security 101 de TryHackMe](https://tryhackme.com/path/outline/cybersecurity101)
+15. [Ruta SOC Level 1 de TryHackMe](https://tryhackme.com/path/outline/soclevel1)
+16. [Certificacions de TryHackMe](https://tryhackme.com/certifications)
 
 ______
 
@@ -451,3 +555,5 @@ Tant HackTheBox Academy com TryHackMe són plataformes excel·lents per aprendre
 Finalment, l'elecció entre les dues plataformes depèn del teu nivell d'habilitat actual, objectius professionals, estil d'aprenentatge i pressupost. Molts professionals d'èxit en ciberseguretat utilitzen ambdues plataformes de manera estratègica: començant amb TryHackMe per a coneixements bàsics i passant a HackTheBox Academy per a especialització avançada. Triant la plataforma adequada (o la combinació de plataformes), pots desenvolupar les habilitats necessàries per triomfar en el camp emocionant i rendible de la ciberseguretat.
 
 **La nostra recomanació per a la majoria de principiants**: Comença amb **TryHackMe Premium** (140 $/any) durant els primers 6 mesos, i després avalua si afegir **HackTheBox Academy Individual** (190 $/any) segons la teva direcció professional i progrés. Aquest enfocament escalonat minimitza la inversió inicial mentre maximitza els resultats d'aprenentatge.
+
+**Recomanació de plans actuals, consultada el 10 d'octubre de 2026:** Comença amb Pre Security de TryHackMe sense subscripció. Passa a Premium quan necessitis les rutes inicials completes i AttackBox il·limitat. Valora MAX per a rutes avançades i contingut cloud. A HTB Academy, compara els plans Student, Silver Annual, Gold Annual i els plans basats en cube segons la ruta que t'interessa i els vals d'examen. Les xifres antigues en dòlars de la recomanació anterior provenen de la versió prèvia i no descriuen els plans públics actuals.

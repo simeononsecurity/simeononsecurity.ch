@@ -1,7 +1,8 @@
 ---
-title: "HackTheBox Academy 与 TryHackMe 对比"
+title: 'HackTheBox Academy 与 TryHackMe 对比'
 date: 2023-02-26
-lastmod: 2026-10-08
+lastmod: 2026-11-13
+draft: false
 description: 2026年HackTheBox Academy与TryHackMe的全面对比，包括价格、功能、学习路径和性能指标，帮助初学者选择最佳的网络安全技能学习平台。
 tags:
 - 网络安全
@@ -69,6 +70,8 @@ coverCaption: ''
 
 本全面对比基于2026年的价格、功能、学习路径、社区支持和实际成果，帮助您做出明智选择。
 
+**当前来源说明，核对日期：2026年10月10日：**下方部分平台统计、成果表格和套餐名称沿用旧稿。此次查阅的官方页面没有为两项服务提供可直接比较的独立数据集。请将这些数字视为历史背景，而非当前测量结果。付款前请查看下方注明日期的官方价格、学习路径和认证详情。
+
 ______
 
 ## HackTheBox Academy 与 TryHackMe 概览
@@ -89,6 +92,8 @@ ______
 | **社区规模** | 85万 Discord成员 | 120万 Discord成员 |
 | **企业客户数** | 2500+ 组织 | 4100+ 组织 |
 
+TryHackMe当前的[认证页面](https://tryhackme.com/certifications)列出**超过800万名用户**和**超过1,100个实操实验室**。[初学者页面](https://tryhackme.com/beginner-path)列出**超过30万名Discord社区成员**。这些数字的定义与上表不同。此次查阅的HTB Academy官方页面没有提供可比的当前用户数。请将供应商公布的数字视为产品规模指标，而非独立审计结果。
+
 ### HackTheBox Academy
 
 **HackTheBox Academy**是一个为网络安全专业人士提供结构化学习体验的在线平台。它涵盖渗透测试、取证、恶意软件分析等多个网络安全主题，提供免费和付费订阅选项。
@@ -99,6 +104,10 @@ ______
 
 {{< youtube id="J4NmHJon2wY" >}}
 
+### HTB Academy当前订阅结构
+
+HTB Academy现在区分**cube订阅**和**访问权限订阅**。cube方案每月发放一定数量的cube，使用cube解锁的模块在取消订阅后仍归属账户。访问权限方案在订阅有效期内开放指定层级的内容。已完成的模块在订阅到期后仍可复习，未完成的模块则会重新锁定。[HTB订阅指南](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions)还说明HTB Academy和HTB Labs使用不同订阅。请比较模块是否永久保留、路径访问、考试券和预计学习进度。
+
 ### TryHackMe
 
 **TryHackMe**是一个提供互动实验室、挑战和练习以教授网络安全概念的在线平台，同样提供免费和付费订阅选项。TryHackMe以其面向初学者的友好方式著称，注重结构化学习和指导。
@@ -106,6 +115,10 @@ ______
 到2026年，TryHackMe大幅扩展，新增了**游戏化学习路径**、**真实漏洞模拟**、**职业辅导功能**，并与400多家网络安全雇主建立了**直接就业合作**。
 
 {{< youtube id="5zE27zvsmMM" >}}
+
+### TryHackMe当前订阅结构
+
+TryHackMe目前列出个人套餐**Free**、**Premium**和**MAX**。公开价格页面显示Free为€0，Premium为每月€16.99，或页面所示年付促销价每月€7.35；MAX为每月€29.11，或促销价每月€17.99。Premium包含初学者路径、路径完成证书、无限AttackBox，以及认证考试15%折扣。MAX增加高级路径、云内容、持续运行的AttackBox、全部房间，以及一项认证40%折扣。币种、促销、税费和账单条件都会影响最终金额。购买前请查看[TryHackMe当前价格页面](https://tryhackme.com/pricing)。
 
 ______
 
@@ -131,6 +144,26 @@ ______
 | **团队套餐** | $25/用户/月 | 定制 | 团队管理，进度跟踪，自定义内容，单点登录集成 |
 
 **性价比分析：**TryHackMe在较低价格点提供更多内容访问，对初学者来说**成本效益高出20-30%**。HackTheBox Academy在高级套餐中提供更深的专业化和行业认可的认证路径，更适合**职业发展和专业岗位**。
+
+**20%至30%的估算未经审计。**旧稿没有说明比较了哪些功能、使用何种币种和税费、学习时长或数据来源。官方套餐页面目前列出的名称、币种、折扣和访问规则也已不同。
+
+### 官方当前套餐，核对日期：2026年10月10日
+
+| 套餐 | 公开价格 | 访问权限与证书说明 |
+|------|----------|-------------------|
+| **HTB Academy Silver** | $18/月，cube方案 | 每月200个cube、无限Pwnbox和CPE申报 |
+| **HTB Academy Gold** | $38/月，cube方案 | 每月500个cube、无限Pwnbox和CPE申报 |
+| **HTB Academy Platinum** | $68/月，cube方案 | 每月1,000个cube、无限Pwnbox和CPE申报 |
+| **HTB Academy Silver Annual** | $490/年，访问权限方案 | Tier II访问、职业路径、无限Pwnbox及HTB列出的年度考试券权益 |
+| **HTB Academy Gold Annual** | $1,260/年，访问权限方案 | Tier III访问、高级职业路径、无限Pwnbox及更多考试券权益 |
+| **HTB Academy Student** | $8/月，访问权限方案 | 需要学籍验证、Tier II访问、职业路径和无限Pwnbox |
+| **TryHackMe Free** | €0 | 免费房间、有限学习路径和每天一小时AttackBox |
+| **TryHackMe Premium** | €16.99/月，年付促销价€7.35/月 | 初学者路径、证书、无限AttackBox及专业认证15%折扣 |
+| **TryHackMe MAX** | €29.11/月，年付促销价€17.99/月 | 高级路径、云内容、持续运行的AttackBox、全部房间及一项认证40%折扣 |
+
+[HTB Academy订阅指南](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions)列出HTB价格和访问规则。[TryHackMe价格页面](https://tryhackme.com/pricing)列出TryHackMe价格。付款时请重新核对这些商业页面。
+
+______
 
 ______
 
@@ -175,6 +208,23 @@ ______
 | **VPN访问** | ✅ 是（OpenVPN） | ✅ 是（OpenVPN） |
 | **自定义实验创建** | ❌ 无 | ✅ 有（高级及以上） |
 | **实验重置时间** | 即时 | 1-3分钟 |
+
+______
+
+## 2026年初学者入门
+
+两个平台都支持通过浏览器练习，但入门步骤不同。
+
+| 起点 | HackTheBox Academy | TryHackMe |
+|------|--------------------|-----------|
+| **没有相关经验** | HTB常见问题页面建议从Fundamental和Easy模块开始。新账户会获得免费cube，用于开始Fundamental模块。 | Pre Security面向完全初学者，无需网络安全经验，可在浏览器中学习。 |
+| **第一个引导路径** | Information Security Foundations衔接职业路径。Penetration Tester路径将其列为先修知识。 | Pre Security衔接Web Fundamentals。Cyber Security 101涵盖网络、操作系统、攻防基础和职业主题。 |
+| **第一个防御方向路径** | 当前目录包含SOC Analyst和Junior Cybersecurity Analyst职业路径。 | SOC Level 1涵盖告警分流、报告、SIEM、EDR、钓鱼分析和网络流量分析。 |
+| **时间估算** | 官方常见问题说明模块级别和访问规则，但没有给出适用于所有初学者的统一完成时长。 | 初学者页面估算Pre Security需要30至40小时。这是TryHackMe的规划参考，不是保证。 |
+
+选择前请阅读[HTB Academy常见问题](https://academy.hackthebox.com/faq)、[HTB Penetration Tester路径](https://academy.hackthebox.com/path/preview/penetration-tester)、[TryHackMe初学者路径](https://tryhackme.com/beginner-path)和[Cyber Security 101路径](https://tryhackme.com/path/outline/cybersecurity101)。这些页面比平台总量统计更能反映当前入门方式。
+
+*零基础学习者从TryHackMe开始会更清楚。偏好文档、目标式练习并希望逐步转向渗透测试的初学者，也适合HTB Academy。*
 
 ______
 
@@ -226,6 +276,8 @@ ______
 
 ## 学习路径比较
 
+下方列表保留了旧稿中的路径名称、时长估算和费用范围。路径内容会变化。将总时长用作学习计划前，请对照[HTB Academy当前路径目录](https://academy.hackthebox.com/catalogue/paths)、TryHackMe的[Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101)和[SOC Level 1](https://tryhackme.com/path/outline/soclevel1)。
+
 ### 初学者到初级渗透测试员
 
 #### HackTheBox Academy 路径
@@ -274,6 +326,8 @@ ______
 
 ## 真实世界成功指标（2026 年数据）
 
+本节表格保留自旧稿，没有注明调查发布方、样本设计、问卷、日期或来源链接。2026年10月10日查阅的官方产品页面介绍了培训、路径和认证，但不支持下方的就业率、薪资、考试通过率、满意度或雇主结论。请将这些数字视为未经验证的说法，而非平台基准。
+
 ### 就业率
 
 根据独立调查和平台提供的数据：
@@ -313,6 +367,40 @@ ______
 | **推荐意愿** | 92% | 94% |
 
 ______
+
+### 官方页面支持哪些说法
+
+| 证据 | 当前页面支持的说法 | 限制 |
+|------|--------------------|------|
+| **HTB Academy职业路径** | HTB称职业路径有助于准备实操认证考试。参加考试需完成路径的100%并持有有效考试券。 | 路径或证书不能证明就业、薪资或资历。 |
+| **TryHackMe学习路径** | TryHackMe为完成路径的学员颁发证书。专业认证使用对应学习路径和可分享、可验证的凭证。 | 完成证书不能证明通过独立评估。 |
+| **平台个人资料** | 两项服务都会记录学习进度或完成情况。 | 个人资料活动本身不能说明报告质量、团队协作或工作表现。 |
+
+当前认证规则请查看[HTB Academy认证指南](https://help.hackthebox.com/en/articles/12741732-academy-certifications)和[TryHackMe认证页面](https://tryhackme.com/certifications)。两者都未承诺就业或薪资。
+
+______
+
+## 证书与作品集价值
+
+学习记录能帮助招聘人员了解你的学习过程，但不能替代工作样本。
+
+| 作品集内容 | 能说明什么 | 不能说明什么 |
+|------------|------------|--------------|
+| **路径完成证书** | 你完成了引导式课程 | 在新条件下独立解决问题的能力 |
+| **专业认证** | 你通过了规定的实操评估 | 长期工作表现或团队经验 |
+| **公开资料页** | 持续练习和完成的房间或模块 | 每个解答的质量或使用过的帮助 |
+| **已脱敏报告** | 方法、证据、命令和修复思路 | 获准发布真实客户或雇主数据 |
+| **示例报告或脚本** | 沟通、可复现性和技术判断 | 推荐信或专业经验的替代品 |
+
+学习期间建立小型作品集：
+
+- 完成一个符合目标岗位的当前路径。
+- 发布三份注明日期、范围、证据和修复建议的脱敏报告。
+- 附上一份简短评估或防御事件报告。
+- 链接公开资料页和证书页面。
+- 说明使用提示、操作指南或现成答案的部分。
+
+徽章证明完成，清晰的报告展示工作方法。
 
 ## 为初学者选择最佳平台
 
@@ -432,6 +520,19 @@ ______
 
 ______
 
+## 付款前核实当前套餐
+
+套餐名称、价格、包含模块和访问规则都会变化。请将本比较中的数字视为带日期的观察结果。付费前查看[Hack The Box Academy](https://academy.hackthebox.com/)及[TryHackMe路径和价格页面](https://tryhackme.com/paths)。
+
+1. 打开目标路径的课程大纲，统计符合目标岗位的模块。
+2. 确认套餐包含所需实验室、目标和复核功能。
+3. 核实证书、徽章、笔记和已完成内容的可见规则。
+4. 设定明确结果，四周后检查完成模块、练习时间和保留技能。
+
+需要引导式基础学习时，TryHackMe的起步更平缓。已有基础并希望深入完成任务时，HTB Academy更合适。请根据路径、当前套餐规则和学习目标作选择。
+
+______
+
 ## 权威来源和参考文献
 
 1. [Cybersecurity Ventures - 2026 年网络安全就业市场](https://cybersecurityventures.com/)
@@ -441,6 +542,16 @@ ______
 5. [ISC² 2026 年网络安全劳动力研究](https://www.isc2.org/workforce-study)
 6. [CompTIA 2026 年网络安全现状](https://www.comptia.org/)
 7. [进攻性安全认证统计](https://www.offensive-security.com/)
+
+8. [HTB Academy订阅](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions)
+9. [HTB Academy认证](https://help.hackthebox.com/en/articles/12741732-academy-certifications)
+10. [HTB Academy常见问题](https://academy.hackthebox.com/faq)
+11. [HTB Academy路径目录](https://academy.hackthebox.com/catalogue/paths)
+12. [TryHackMe Premium套餐](https://tryhackme.com/pricing)
+13. [TryHackMe初学者路径](https://tryhackme.com/beginner-path)
+14. [TryHackMe Cyber Security 101路径](https://tryhackme.com/path/outline/cybersecurity101)
+15. [TryHackMe SOC Level 1路径](https://tryhackme.com/path/outline/soclevel1)
+16. [TryHackMe认证](https://tryhackme.com/certifications)
 
 ______
 
@@ -453,3 +564,5 @@ HackTheBox Academy 和 TryHackMe 都是 2026 年学习网络安全技能的优�
 最终，选择哪个平台取决于您当前的技能水平、职业目标、学习风格和预算。许多成功的网络安全专业人士会战略性地使用这两个平台，先从 TryHackMe 学习基础知识，再转向 HackTheBox Academy 进行高级专业化。通过选择合适的平台或平台组合，您可以培养在激动人心且有利可图的网络安全领域取得成功所需的技能。
 
 **我们对大多数初学者的建议**：前六个月从 **TryHackMe Premium**（140美元/年）开始，然后根据您的职业方向和进展评估是否添加 **HackTheBox Academy Individual**（190美元/年）。这种分阶段的方法最大限度地减少了初期投资，同时最大化学习效果。
+
+**当前套餐建议，核对日期：2026年10月10日：**先免费学习TryHackMe的Pre Security。需要完整初学者路径和无限AttackBox时再转Premium。进阶路径和云内容可考虑MAX。在HTB Academy中，根据目标路径和考试券需求比较Student、Silver Annual、Gold Annual及cube方案。上方旧美元金额来自旧稿，不代表当前公开套餐。
