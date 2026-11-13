@@ -31,10 +31,23 @@ ENGLISH_STOPWORDS = set(
     "which can will have has it its was were if than these those they we you our "
     "should also when how what where after before use more into about through "
     "your yourself yourselves "
-    "each one other any only all do does then their them there such using used "
+    "each one other any only all do does then their them there such using used per "
     "may might could would must been being"
     .split()
 )
+GENERIC_ENGLISH_LINK_LABELS = {
+    "here",
+    "click",
+    "read",
+    "learn",
+    "more",
+    "continue",
+    "download",
+    "visit",
+    "website",
+    "source",
+    "documentation",
+}
 LOCALE_STOPWORDS = {
     "ca": set("el la els les un una i o de que en per amb és són es del dels al als sobre com no també si quan".split()),
     "de": set("der die das den dem des ein eine einer und oder zu im vom mit auf für ist sind wird werden nicht aus an bei nach über als dass weil sich von am zum zur auch".split()),
@@ -186,14 +199,26 @@ def copied_english_taxonomy(source: dict, target: dict) -> dict[str, list[str]]:
     return copied
 
 
+def taxonomy_count_differences(source: dict, target: dict) -> dict[str, tuple[int, int]]:
+    """Find source/translation genre or tag cardinality differences."""
+    differences = {}
+    for key in ("genre", "tags"):
+        source_values = source.get(key, [])
+        target_values = target.get(key, [])
+        if isinstance(source_values, list) and isinstance(target_values, list):
+            if len(source_values) != len(target_values):
+                differences[key] = (len(source_values), len(target_values))
+    return differences
+
+
 def visible_text(text: str, *, include_link_labels: bool = True) -> str:
-    # `text` and `plaintext` fences hold reader-facing samples such as prompts,
-    # forms, and dialogue. Keep those in the leakage screen. Exclude executable
-    # and other fenced content, which often contains literal English identifiers.
+    # `text`, `plaintext`, and `markdown` fences hold reader-facing samples.
+    # Keep those in the leakage screen. Exclude executable and other fenced
+    # content, which often contains literal English identifiers.
     text = re.sub(
         r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n(?P<body>.*?)(?:\n)?(?P=fence)",
         lambda match: match.group("body")
-        if match.group("language").lower() in {"text", "plaintext"}
+        if match.group("language").lower() in {"text", "plaintext", "markdown"}
         else " ",
         text,
     )
@@ -208,14 +233,14 @@ def visible_text(text: str, *, include_link_labels: bool = True) -> str:
 
 
 def reader_fenced_prose(text: str) -> list[str]:
-    """Return complete reader-facing `text`/`plaintext` fenced examples."""
+    """Return complete reader-facing text, plaintext, or Markdown examples."""
     return [
         match.group("body").strip()
         for match in re.finditer(
             r"(?s)(?P<fence>`{3,}|~{3,})[ \t]*(?P<language>[^\s`~]*)[^\n]*\n(?P<body>.*?)(?:\n)?(?P=fence)",
             text,
         )
-        if match.group("language").lower() in {"text", "plaintext"}
+        if match.group("language").lower() in {"text", "plaintext", "markdown"}
     ]
 
 
@@ -283,7 +308,7 @@ def markdown_links(text: str) -> list[tuple[str, str]]:
 
 
 def copied_english_link_labels(source: str, target: str) -> list[str]:
-    """Find unchanged source link phrases in target labels for manual review."""
+    """Find unchanged descriptive source link labels for manual review."""
     copied = []
     for source_link, target_link in zip(markdown_links(source), markdown_links(target)):
         source_label, source_target = source_link
@@ -299,7 +324,10 @@ def copied_english_link_labels(source: str, target: str) -> list[str]:
         )
         if (
             source_target == target_target
-            and len(normalized_label.split()) >= 2
+            and (
+                len(normalized_label.split()) >= 2
+                or normalized_label in GENERIC_ENGLISH_LINK_LABELS
+            )
             and copied_phrase
         ):
             copied.append(f"{source_label} => {target_label} => {source_target}")
@@ -437,18 +465,114 @@ def markdown_structure_differences(source: str, target: str) -> dict[str, tuple[
     }
 
 
+def copied_english_table_cells(source: str, target: str) -> list[str]:
+    """Queue unchanged descriptive table cells for human review."""
+    def tables(text: str) -> list[list[list[str]]]:
+        lines = text.splitlines()
+        result: list[list[list[str]]] = []
+        in_fence = False
+        fence_char = ""
+        fence_length = 0
+
+        def cells(line: str) -> list[str] | None:
+            stripped = line.strip()
+            if "|" not in stripped:
+                return None
+            parts = re.split(r"(?<!\\)\|", stripped)
+            if stripped.startswith("|"):
+                parts = parts[1:]
+            if stripped.endswith("|"):
+                parts = parts[:-1]
+            return [part.strip() for part in parts] if parts else None
+
+        def separator(line: str) -> bool:
+            parts = cells(line)
+            return bool(parts) and all(
+                re.fullmatch(r":?-{3,}:?", cell) for cell in parts
+            )
+
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            fence = re.match(r"^\s*(`{3,}|~{3,})", line)
+            if fence:
+                marker = fence.group(1)
+                if not in_fence:
+                    in_fence = True
+                    fence_char = marker[0]
+                    fence_length = len(marker)
+                elif marker[0] == fence_char and len(marker) >= fence_length:
+                    in_fence = False
+                i += 1
+                continue
+            if in_fence:
+                i += 1
+                continue
+            header = cells(line)
+            if (
+                header
+                and i + 1 < len(lines)
+                and separator(lines[i + 1])
+                and len(cells(lines[i + 1]) or []) == len(header)
+            ):
+                table = [header]
+                i += 2
+                while i < len(lines):
+                    row = cells(lines[i])
+                    if not row or len(row) != len(header):
+                        break
+                    table.append(row)
+                    i += 1
+                result.append(table)
+                continue
+            i += 1
+        return result
+
+    source_tables = tables(source)
+    target_tables = tables(target)
+    copied = []
+    for table_index, (source_table, target_table) in enumerate(
+        zip(source_tables, target_tables), start=1
+    ):
+        for row_index, (source_row, target_row) in enumerate(
+            zip(source_table, target_table), start=1
+        ):
+            for cell_index, (source_cell, target_cell) in enumerate(
+                zip(source_row, target_row), start=1
+            ):
+                normalized = normalize(source_cell)
+                words = normalized.split()
+                if (
+                    normalized
+                    and normalized == normalize(target_cell)
+                    and len(words) >= 2
+                    and any(word in ENGLISH_STOPWORDS for word in words)
+                ):
+                    copied.append(
+                        f"table {table_index}, row {row_index}, cell {cell_index}: {normalized}"
+                    )
+    return copied
+
+
 def copied_english_headings(source: str, target: str) -> list[str]:
-    """Find unchanged descriptive headings that remain in English."""
+    """Find unchanged headings or heading fragments for human review."""
     source_labels = {label for _, label in markdown_headings(source)}
+    source_words = {
+        word
+        for label in source_labels
+        for word in label.split()
+        if len(word) >= 3
+    }
     copied = []
     for _, label in markdown_headings(target):
-        words = label.split()
-        if (
-            label in source_labels
-            and len(words) >= 3
-            and any(word in ENGLISH_STOPWORDS for word in words)
-        ):
+        if label in source_labels and any(char.isalpha() for char in label):
             copied.append(label)
+            continue
+        target_words = set(label.split())
+        copied.extend(
+            f"{word} in {label}"
+            for word in sorted(source_words & target_words)
+        )
     return sorted(set(copied))
 
 
@@ -495,6 +619,30 @@ def copied_english_prose_spans(source: str, target: str) -> set[str]:
 
     matches = windows(source) & windows(target)
     return {" ".join(span) for span in matches}
+
+
+def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
+    """Screen for English paragraphs inside otherwise translated articles.
+
+    This is a review queue, not a language verdict. A paragraph must contain
+    enough Latin words to reduce noise from names and short technical labels.
+    """
+    locale_words = LOCALE_STOPWORDS.get(locale, set())
+    findings = []
+    for part in re.split(r"\n\s*\n", visible_text(text, include_link_labels=False)):
+        paragraph = normalize(part)
+        tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", paragraph.lower())
+        if len(tokens) < 30:
+            continue
+        english_ratio = sum(word in ENGLISH_STOPWORDS for word in tokens) / len(tokens)
+        locale_ratio = sum(word in locale_words for word in tokens) / len(tokens)
+        expected_script = script_ratio(paragraph, locale)
+        locale_signal_is_weak = (
+            expected_script < 0.20 if expected_script is not None else locale_ratio < 0.10
+        )
+        if english_ratio >= 0.28 and locale_signal_is_weak:
+            findings.append(paragraph)
+    return findings
 
 
 def script_ratio(text: str, locale: str) -> float | None:
@@ -576,6 +724,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             if sum(word in ENGLISH_STOPWORDS for word in sentence.split()) >= 2
         ]
         copied_spans = copied_english_prose_spans(source_body, body)
+        english_paragraphs = english_dominant_paragraphs(body, locale)
+        copied_table_cells = copied_english_table_cells(source_body, body)
         copied_headings = copied_english_headings(source_body, body)
         structure_differences = markdown_structure_differences(source_body, body)
         ratio = script_ratio(prose, locale)
@@ -590,6 +740,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             and normalize(str(metadata[key])) == normalize(str(source_meta[key]))
         ]
         copied_taxonomy = copied_english_taxonomy(source_meta, metadata)
+        taxonomy_counts = taxonomy_count_differences(source_meta, metadata)
         metadata_keys = copied_metadata + sorted(copied_taxonomy)
         if len(prose.strip()) < 30:
             reasons.append("empty_or_nearly_empty")
@@ -606,6 +757,10 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("exact_English_sentences")
         if copied_spans:
             reasons.append("copied_English_prose_span")
+        if english_paragraphs:
+            reasons.append("English_dominant_reader_paragraph")
+        if copied_table_cells:
+            reasons.append("English_reader_table_cell_copy")
         if copied_headings:
             reasons.append("English_reader_heading_copy")
         if len(tokens) >= 120 and english_ratio >= 0.22 and locale_ratio < 0.12:
@@ -614,6 +769,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("expected_script_missing")
         if metadata_keys:
             reasons.append("English_reader_metadata_copy:" + ",".join(metadata_keys))
+        if taxonomy_counts:
+            reasons.append("taxonomy_count_mismatch:" + ",".join(sorted(taxonomy_counts)))
         copied_link_labels = copied_english_link_labels(source_body, body)
         if copied_link_labels:
             reasons.append("English_reader_link_label_copy")
@@ -630,10 +787,15 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "exact_english_paragraphs": f"{exact}/{len(paragraphs)}",
                 "exact_english_sentences": " | ".join(copied_sentences),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
+                "english_dominant_paragraphs": " | ".join(english_paragraphs),
+                "copied_english_table_cells": " | ".join(copied_table_cells),
                 "copied_english_headings": " | ".join(copied_headings),
                 "copied_english_metadata": " | ".join(
                     [f"{key}: {metadata[key]}" for key in copied_metadata]
                     + [f"{key}: {', '.join(values)}" for key, values in copied_taxonomy.items()]
+                ),
+                "taxonomy_count_differences": json.dumps(
+                    taxonomy_counts, ensure_ascii=False, sort_keys=True
                 ),
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_link_labels": " | ".join(copied_link_labels),
@@ -675,7 +837,7 @@ def main() -> int:
         print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:
         args.csv.parent.mkdir(parents=True, exist_ok=True)
-        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "copied_english_headings", "copied_english_metadata", "expected_script_ratio", "copied_link_labels", "markdown_structure_differences", "note"]
+        fields = ["path", "locale", "reasons", "tokens", "english_stopword_ratio", "locale_stopword_ratio", "exact_english_paragraphs", "exact_english_sentences", "copied_english_spans", "english_dominant_paragraphs", "copied_english_table_cells", "copied_english_headings", "copied_english_metadata", "taxonomy_count_differences", "expected_script_ratio", "copied_link_labels", "markdown_structure_differences", "note"]
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
             writer = csv.DictWriter(handle, fieldnames=fields)
             writer.writeheader()

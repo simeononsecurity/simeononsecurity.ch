@@ -37,7 +37,9 @@
   translation would change the reference. Screen every identical source tag and
   genre value, including single-word values, in inline and block-style YAML lists
   for manual review. Translate reader-facing taxonomy terms and record any
-  proper-name exception.
+  proper-name exception. Preserve the source tag and genre counts. The leakage
+  checker flags `taxonomy_count_mismatch`; inspect the report's source/target
+  counts, then compare value order manually because translations change values.
 - Check false friends that change evidence-handling meaning. For example,
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private
@@ -87,8 +89,10 @@
   count can still hide an unpaired delimiter in a translated line.
 - Treat source-level marker counts as insufficient. After rendering each changed
   locale, inspect the generated article prose outside `pre` and `code` elements
-  for literal Markdown markers such as `**` or `__`. Any such marker in rendered
-  prose is a failed render check until reviewed and fixed. Compare the rendered
+  for literal Markdown emphasis delimiters: `*`, `**`, and `__`. Valid emphasis
+  renders as `<em>` or `<strong>` and leaves no delimiters in prose. Treat
+  unescaped delimiters as a failed render check until reviewed and fixed. Review
+  intentional escaped literal asterisks separately. Compare the rendered
   `<strong>` and `<em>` spans with the source meaning, then record this check per
   locale in the review report.
 - Inspect emphasis boundaries in the target script. Do not split a word, compound,
@@ -110,21 +114,49 @@
 - Before approval, screen every reader-facing segment in each locale file for
   English-copy leakage: front matter, headings, inline link labels, paragraphs,
   table cells, list items, captions, and alt text. Compare segments with the English source and
-  flag unchanged multiword prose, descriptive headings, or prose a language
-  detector identifies as English. Exclude code, URLs, shortcode syntax, product
-  names, and technical identifiers from automatic findings. Also compare Markdown link labels by
+  flag unchanged multiword prose, identical headings including short headings,
+  and English word fragments left in mixed-language headings,
+  or prose a language detector identifies as English. Exclude code, URLs,
+  shortcode syntax, product names, and technical identifiers from automatic
+  findings. Treat short heading
+  matches as a manual-review queue because brands, acronyms, and cognates often
+  remain unchanged. Also compare Markdown link labels by
   their unchanged target and order. Flag identical descriptive labels of two
   or more words for manual review, even when surrounding paragraph prose differs.
   The checker also flags an unchanged multiword source label embedded inside a
-  longer target label. Inspect these matches in context and translate copied
+  longer target label. It also flags generic unchanged one-word English labels
+  such as `here`, `click`, `download`, and `documentation` for manual review.
+  Translate generic link wording in the target language; retain a one-word label
+  only when context confirms a product, organization, fixed identifier, or
+  official name. Inspect these matches in context and translate copied
   descriptive wording, while retaining official titles, product names, and
   fixed identifiers when context supports them.
   Review each flag in context, then translate copied reader-facing prose before
   freezing the hash snapshot.
+  Compare unchanged descriptive table cells directly with the source. The
+  leakage checker queues copied multiword cells for manual review. Translate
+  headers, method names, and explanatory labels; preserve product/model names,
+  identifiers, commands, and numeric results when they are fixed data.
+  A locale filename, nonempty body, expected-script sample, or low file-wide
+  English ratio does not establish translated coverage. Before approval, inspect
+  the title, description, opening, every section, and reader-facing examples in
+  each locale. If any segment is still English source prose or a section has no
+  translated reader-facing content, return `CHANGES REQUIRED`; do not freeze,
+  commit, or integrate that locale until it is translated and re-reviewed.
+  Retain English only when the exact phrase is a product or organization name,
+  fixed identifier, source title, command, citation title, or literal sample
+  value, and record the reason in the review report. A mixed-language paragraph
+  with copied English clauses is still a translation defect.
   Compare sentence-sized segments and unchanged source spans of eight or more
   words as well as full paragraphs. A translated paragraph can still contain
   English clauses between localized text, so a low English-word ratio does not
   clear the paragraph.
+  Screen each paragraph separately for English stopword dominance as well as
+  scanning the full article. A mostly translated article can hide a fully
+  English paragraph in its overall ratio. Treat each paragraph-level flag as a
+  manual-review item, inspect it against the English source, and translate
+  reader-facing English prose before approval. Preserve named entities, fixed
+  identifiers, literal data, and runtime output when context confirms them.
   For sentences containing inline links, compare the surrounding sentence with
   each link replaced by a neutral placeholder. This catches copied English
   prose whose remaining word count falls below the normal span threshold after
@@ -138,9 +170,10 @@
   Record which locales were screened and how each finding was resolved. File
   presence, script checks, and a detector score do not establish translated
   prose coverage.
-- Inspect fenced examples separately. A `text` or `plaintext` template, form, or
-  sample dialogue remains reader-facing prose. The leakage checker includes
-  these fence types and flags unchanged examples copied from English. It excludes
+- Inspect fenced examples separately. A `text`, `plaintext`, or `markdown`
+  template, form, sample dialogue, or Markdown document remains reader-facing
+  prose. The leakage checker includes these fence types and flags unchanged
+  examples copied from English. It excludes
   executable and other fenced code. Translate labels and explanatory text in
   reader-facing fences while preserving placeholders and syntax. Keep structured
   evidence such as MAC/OUI records, hashes, and literal data values unchanged.
@@ -149,12 +182,16 @@
   Preserve literal runtime diagnostics and expected validation output exactly.
   Translate explanatory labels or surrounding prose, but do not translate fixed
   output such as a permission error or a required `PASS:` result.
-  Compare individual lines inside `text` and `plaintext` fences as well as full
+  Compare individual lines inside `text`, `plaintext`, and `markdown` fences as well as full
   examples. A localized sample can still contain copied English field labels or
   short instructions that a whole-block comparison misses. Translate those
   lines while preserving paths, commands, placeholders, and structured values.
+  Treat every unchanged reader-facing label or instruction in these fences as
+  an approval blocker. Do not mark a locale complete while the checker reports
+  `copied_reader_fenced_line` until each line has been translated or documented
+  as fixed output or literal data.
   Compare the ordered fence inventory with the English source before approval.
-  Every reader-facing `text` or `plaintext` example must appear exactly once in
+  Every reader-facing `text`, `plaintext`, or `markdown` example must appear exactly once in
   each locale and retain its field and line coverage. File presence and a clean
   leakage scan do not prove that an example was translated; omitted examples
   and shortened sections are completeness failures. Also compare ordered
@@ -162,6 +199,10 @@
   source. Inspect count differences to distinguish an intentional language
   format change from omitted content, and repair confirmed omissions before
   peer review.
+- After rendering, compare the ordered heading levels in Hugo output with the
+  English page. Source checks that require whitespace after a Markdown heading
+  marker can miss malformed headings such as `#はじめに`; inspect rendered
+  headings so these lines do not hide a missing or misleveled section.
 - Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
   for each finished bundle. For a repository audit, use
   `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.

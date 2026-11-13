@@ -8,10 +8,14 @@ from check_translation_english_leakage import (
     copied_english_link_labels,
     copied_english_headings,
     copied_english_taxonomy,
+    copied_english_table_cells,
+    taxonomy_count_differences,
     copied_reader_fenced_examples,
     copied_reader_fenced_lines,
+    english_dominant_paragraphs,
     markdown_structure,
     markdown_structure_differences,
+    normalize,
     prose_sentences_with_link_slots,
     reader_fenced_prose,
     yaml_front_matter_lists,
@@ -20,6 +24,69 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_flags_unchanged_descriptive_table_cell(self):
+        source = (
+            "| Méthode | Mean prefix reuse per trial |\n"
+            "| --- | --- |\n"
+            "| Résumé | 47.8 |\n"
+        )
+        target = (
+            "| Méthode | Mean prefix reuse per trial |\n"
+            "| --- | --- |\n"
+            "| Resumen | 47.8 |\n"
+        )
+        self.assertEqual(
+            copied_english_table_cells(source, target),
+            ["table 1, row 1, cell 2: mean prefix reuse per trial"],
+        )
+
+    def test_ignores_table_like_content_inside_code_fence(self):
+        source = "```text\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
+        target = source
+        self.assertEqual(copied_english_table_cells(source, target), [])
+
+    def test_flags_english_paragraph_inside_otherwise_translated_article(self):
+        english = (
+            "The system gives users access to protected data and helps teams "
+            "review each request before they approve changes. The process also "
+            "records the result and sends a notice to the owner."
+        )
+        self.assertEqual(english_dominant_paragraphs(english, "fr"), [normalize(english)])
+
+    def test_does_not_flag_french_paragraph_or_short_product_name(self):
+        french = (
+            "Le système permet aux équipes de vérifier chaque demande avant "
+            "d'approuver les changements et de prévenir le propriétaire."
+        )
+        self.assertEqual(english_dominant_paragraphs(french, "fr"), [])
+        self.assertEqual(english_dominant_paragraphs("Microsoft Entra ID", "fr"), [])
+
+    def test_ignores_english_product_names_inside_translated_indic_text(self):
+        bengali = (
+            "এখানে বাংলা ব্যাখ্যা রয়েছে এবং দলগুলো নিরাপত্তা অনুশীলন সম্পর্কে আলোচনা করে। "
+            "Microsoft Entra ID এবং PowerShell নাম দুটি অপরিবর্তিত রাখা হয়েছে।"
+        )
+        self.assertEqual(english_dominant_paragraphs(bengali, "bn"), [])
+
+    def test_screens_reader_facing_markdown_fences(self):
+        source = (
+            "```markdown\n## Review the changes\n\nKeep the paths unchanged and "
+            "verify every expected result before approval.\n```"
+        )
+        target = source
+
+        self.assertEqual(len(reader_fenced_prose(target)), 1)
+        self.assertTrue(copied_reader_fenced_examples(source, target))
+
+    def test_flags_missing_translated_taxonomy_values_by_count(self):
+        source = {"genre": ["Article"], "tags": [f"Tag {n}" for n in range(51)]}
+        target = {"genre": ["Artikel"], "tags": [f"Marke {n}" for n in range(20)]}
+
+        self.assertEqual(
+            taxonomy_count_differences(source, target),
+            {"tags": (51, 20)},
+        )
+
     def test_markdown_structure_counts_reader_content(self):
         page = (
             "## Section\n\n"
@@ -132,7 +199,7 @@ class FencedProseTests(unittest.TestCase):
             {"tags": ["FISMA", "cybersecurity"]},
         )
 
-    def test_flags_copied_descriptive_headings_but_not_product_name_headings(self):
+    def test_flags_unchanged_headings_for_context_review(self):
         source = (
             "## Be Wary of Public Wi-Fi\n\n"
             "## Safeguard Your Social Media Accounts\n\n"
@@ -145,8 +212,20 @@ class FencedProseTests(unittest.TestCase):
             [
                 "be wary of public wi fi",
                 "safeguard your social media accounts",
+                "visual studio code",
             ],
         )
+
+    def test_flags_short_generic_heading_copies(self):
+        self.assertEqual(copied_english_headings("## Switches", "## Switches"), ["switches"])
+
+    def test_flags_english_fragments_in_mixed_language_headings(self):
+        source = "## Gateways and All-in-One"
+        target = "## Gateways / Todo en uno"
+        target_with_phrase = "## Gateways / All-in-One"
+
+        self.assertIn("gateways in gateways todo en uno", copied_english_headings(source, target))
+        self.assertIn("all in gateways all in one", copied_english_headings(source, target_with_phrase))
 
     def test_ignores_heading_text_inside_code_fences(self):
         source = "```text\n## Be Wary of Public Wi-Fi\n```"
@@ -167,6 +246,15 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(
             copied_english_link_labels(source, target),
             ["VPN service => VPN service => https://example.com/vpn"],
+        )
+
+    def test_flags_generic_single_word_link_labels(self):
+        source = "[here](https://example.com/help)"
+        target = "[here](https://example.com/help)"
+
+        self.assertEqual(
+            copied_english_link_labels(source, target),
+            ["here => here => https://example.com/help"],
         )
 
     def test_flags_english_source_phrase_inside_longer_target_link_label(self):
