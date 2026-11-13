@@ -1,6 +1,7 @@
 ---
 title: "PowerShell 安全编码最佳实践：指南"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "学习编写安全 PowerShell 代码的最佳实践，以保护基于 Windows 的系统免受安全漏洞的侵害。"
@@ -36,7 +37,7 @@ function Validate-Input {
 
 ____
 
-### 避免使用不安全的函数
+## 避免使用不安全的函数
 如果不小心使用，PowerShell 有几个函数可能会出现安全问题。Invoke-Expression、Get-Content 和 ConvertTo-SecureString 等函数可允许攻击者执行恶意代码。开发人员应避免使用这些函数，或通过限制输入参数和仅在必要时使用来谨慎使用这些函数。
 
 例如，开发人员不应使用 Invoke-Expression 函数来执行命令，而应使用 Start-Process 函数。
@@ -95,10 +96,10 @@ ____
 
 例如 `PSScriptAnalyzer`是一款流行的静态代码分析器，可检查 PowerShell 代码是否存在潜在的安全漏洞。它可以检测以下问题
 
-- 硬编码凭据**
-- 使用过时或不安全的函数**
-- 输入验证不充分**
-- 变量和循环的不当使用***
+- **硬编码凭据**
+- **使用过时或不安全的函数**
+- **输入验证不充分**
+- **变量和循环的不当使用**
 
 通过使用静态代码分析器，开发人员可以在开发过程的早期识别并修复安全漏洞。这有助于防止安全漏洞，并将任何成功攻击的影响降至最低。
 
@@ -111,24 +112,24 @@ PowerShell 脚本容易受到代码注入、权限升级和数据泄漏等多种
 ### 净化输入和输出
 净化用户输入对于防止代码注入攻击非常重要。开发人员应验证和净化用户输入，确保其符合预期标准，并且不包含恶意代码。此外，在将输出写入日志文件或其他目标时，开发人员应在写入文件前对任何敏感数据进行消毒，以防止数据泄漏。
 
-###使用安全的通信协议
+### 使用安全的通信协议
 在网络上传输数据时，应使用安全通信协议，如 HTTPS、SSL/TLS 或 SSH。这些协议会对传输中的数据进行加密，使攻击者更难截获和操纵数据。相反，应避免使用 HTTP 或 Telnet 等未加密协议，因为它们很容易被攻击者截获和操纵。
 
-###实施日志记录和监控
+### 实施日志记录和监控
 实施日志记录和监控机制，以便及时发现和应对安全事件。通过记录所有相关事件并设置警报来通知管理员可疑活动，开发人员可以在安全事件演变成重大问题之前迅速识别并作出反应。
 
-#### 加固环境
+### 加固环境
 通过对操作系统、网络设备和应用程序应用安全策略和配置来加固环境。这有助于减少攻击面，防止未经授权的访问。例如，开发人员和管理员可以
 
-- 禁用不必要的服务和协议，以减少攻击面**
-- 强制执行强密码和密码策略，以防止未经授权的访问**。
-- 配置防火墙和入侵检测系统，以防止和检测攻击**。
-- 实施软件更新和补丁，修复已知的安全漏洞***
+- **禁用不必要的服务和协议，以减少攻击面**
+- [**强制执行强密码和密码策略，以防止未经授权的访问**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)。
+- **配置防火墙和入侵检测系统，以防止和检测攻击**。
+- **实施软件更新和补丁，修复已知的安全漏洞**
 
 ### 定期进行漏洞扫描
 定期对系统和应用程序进行漏洞扫描，以识别和修复安全漏洞。使用 Nessus、OpenVAS 或 Microsoft Baseline Security Analyzer (MBSA) 等工具执行这些扫描。定期的漏洞扫描有助于发现环境中的漏洞和薄弱环节，使开发人员能够在攻击者利用这些漏洞和薄弱环节之前对其进行补救。
 
-###教育用户和管理员
+### 教育用户和管理员
 对用户和管理员进行安全编码实践和不安全代码相关风险的教育。提供培训和资源，帮助他们了解如何编写安全代码以及如何识别和应对安全事件。通过教育用户和管理员，开发人员可以建立安全文化，并在整个组织内推广良好的安全实践。
 
 通过遵循这些最佳实践，开发人员可以确保其 PowerShell 代码的安全性和抵御安全威胁的能力。他们可以降低攻击成功的风险，并最大限度地减少任何安全事故的影响。
@@ -141,7 +142,7 @@ PowerShell 是自动化任务和管理基于 Windows 的系统的强大工具，
 
 ## 参考文献
 
-- [PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
-- [Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
-- [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
-- [Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [PowerShell 文档](https://docs.microsoft.com/en-us/powershell/)
+- [Top 25 系列：软件错误](https://www.sans.org/top25-software-errors/)
+- [输入验证备忘单](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [通用服务器安全指南](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

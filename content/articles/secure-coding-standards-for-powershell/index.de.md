@@ -1,6 +1,7 @@
 ---
 title: "Best Practices für sichere Codierung in PowerShell: Ein Leitfaden"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Lernen Sie die besten Methoden zum Schreiben von sicherem PowerShell-Code kennen, um Ihre Windows-basierten Systeme vor Sicherheitslücken zu schützen."
@@ -108,7 +109,7 @@ ____
 
 PowerShell-Skripte sind anfällig für verschiedene Sicherheitsrisiken wie Code-Injection, Privilegienerweiterung und Datenlecks. Um die Sicherheit von PowerShell-Skripten zu gewährleisten, sollten Entwickler sichere Kodierungspraktiken anwenden, wie z. B.:
 
-### Sanitize Input und Output
+### Eingaben und Ausgaben bereinigen
 Die Beseitigung von Benutzereingaben ist wichtig, um Code-Injection-Angriffe zu verhindern. Entwickler sollten Benutzereingaben validieren und bereinigen, um sicherzustellen, dass sie die erwarteten Kriterien erfüllen und keinen bösartigen Code enthalten. Außerdem sollten Entwickler beim Schreiben von Ausgaben in eine Protokolldatei oder ein anderes Ziel alle sensiblen Daten bereinigen, bevor sie in die Datei geschrieben werden, um Datenverluste zu verhindern.
 
 ### Sichere Kommunikationsprotokolle verwenden
@@ -121,8 +122,8 @@ Implementieren Sie Protokollierungs- und Überwachungsmechanismen, um Sicherheit
 Härten Sie die Umgebung ab, indem Sie Sicherheitsrichtlinien und -konfigurationen auf das Betriebssystem, die Netzwerkgeräte und die Anwendungen anwenden. Dies trägt dazu bei, die Angriffsfläche zu verringern und unbefugten Zugriff zu verhindern. Zum Beispiel können Entwickler und Administratoren:
 
 - **Unnötige Dienste und Protokolle deaktivieren, um die Angriffsfläche zu verringern**
-- **Starke Passwörter und Passwortrichtlinien durchsetzen, um unbefugten Zugriff zu verhindern**
-- Firewalls und Intrusion Detection Systeme konfigurieren, um Angriffe zu verhindern und zu erkennen**
+- [**Starke Passwörter und Passwortrichtlinien durchsetzen, um unbefugten Zugriff zu verhindern**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+- **Firewalls und Intrusion Detection Systeme konfigurieren, um Angriffe zu verhindern und zu erkennen**
 - **Einführen von Software-Updates und Patches zur Behebung bekannter Sicherheitsschwachstellen**
 
 ### Regelmäßige Schwachstellenscans durchführen
@@ -141,7 +142,7 @@ Durch die Implementierung dieser Praktiken können Entwickler das Risiko von Sic
 
 ## Referenzen
 
-- [PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
-- [Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
-- [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
-- [Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [PowerShell-Dokumentation](https://docs.microsoft.com/en-us/powershell/)
+- [Top-25-Reihe: Softwarefehler](https://www.sans.org/top25-software-errors/)
+- [Spickzettel zur Eingabevalidierung](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [Leitfaden zur allgemeinen Serversicherheit](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

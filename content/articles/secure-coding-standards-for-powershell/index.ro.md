@@ -1,6 +1,7 @@
 ---
 title: "Cele mai bune practici pentru codarea securizată în PowerShell: Un ghid"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aflați cele mai bune practici pentru a scrie cod PowerShell sigur pentru a vă proteja sistemele bazate pe Windows de vulnerabilitățile de securitate."
@@ -97,8 +98,8 @@ De exemplu, `PSScriptAnalyzer` este un popular analizor de cod static care exami
 
 - **Crediente codificate dur**
 - **Utilizarea de funcții depreciate sau nesigure**
-- Validarea insuficientă a intrărilor**
-- Utilizarea necorespunzătoare a variabilelor și a buclelor**.
+- **Validarea insuficientă a intrărilor**
+- **Utilizarea necorespunzătoare a variabilelor și a buclelor**.
 
 Prin utilizarea unui analizor de cod static, dezvoltatorii pot identifica și remedia vulnerabilitățile de securitate încă din primele etape ale procesului de dezvoltare. Acest lucru poate contribui la prevenirea breșelor de securitate și la minimizarea impactului oricărui atac reușit.
 
@@ -108,7 +109,7 @@ ____
 
 Scripturile PowerShell sunt vulnerabile la mai multe riscuri de securitate, cum ar fi injectarea de cod, escaladarea privilegiilor și scurgerea de date. Pentru a asigura securitatea scripturilor PowerShell, dezvoltatorii ar trebui să urmeze practici de codare securizată, cum ar fi:
 
-### Sanitize Input and Output
+### Sanitizarea intrărilor și ieșirilor
 Sanitizarea intrărilor utilizatorului este importantă pentru a preveni atacurile de injectare de cod. Dezvoltatorii ar trebui să valideze și să igienizeze intrările utilizatorului pentru a se asigura că acestea îndeplinesc criteriile așteptate și nu conțin cod malițios. În plus, atunci când scriu ieșirea într-un fișier jurnal sau altă destinație, dezvoltatorii ar trebui să igienizeze orice date sensibile înainte de a le scrie în fișier pentru a preveni scurgerile de date.
 
 ### Utilizați protocoale de comunicare securizate
@@ -117,13 +118,13 @@ Atunci când transmiteți date prin rețea, utilizați protocoale de comunicare 
 ### Implementați jurnalizarea și monitorizarea
 Implementați mecanisme de logare și monitorizare pentru a detecta și a răspunde în timp util la incidentele de securitate. Prin înregistrarea tuturor evenimentelor relevante și prin configurarea de alerte pentru a notifica administratorii în cazul unor activități suspecte, dezvoltatorii pot identifica rapid și răspunde la incidentele de securitate înainte ca acestea să devină probleme majore.
 
-### Harden the Environment
+### Consolidarea mediului
 Întăriți mediul prin aplicarea de politici și configurații de securitate la sistemul de operare, dispozitivele de rețea și aplicații. Acest lucru ajută la reducerea suprafeței de atac și la prevenirea accesului neautorizat. De exemplu, dezvoltatorii și administratorii pot:
 
 - **Dezactivați serviciile și protocoalele inutile pentru a reduce suprafața de atac**.
-- **Forțați parole puternice și politici de parole pentru a preveni accesul neautorizat**.
+- [**Forțați parole puternice și politici de parole pentru a preveni accesul neautorizat**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 - **Configurarea firewall-urilor și a sistemelor de detectare a intruziunilor pentru a preveni și detecta atacurile**.
-- Să implementeze actualizări de software și patch-uri pentru a remedia vulnerabilitățile de securitate cunoscute**.
+- **Să implementeze actualizări de software și patch-uri pentru a remedia vulnerabilitățile de securitate cunoscute**.
 
 ### Efectuați scanări regulate ale vulnerabilității
 Efectuați scanări periodice ale vulnerabilităților sistemelor și aplicațiilor pentru a identifica și remedia vulnerabilitățile de securitate. Utilizați instrumente precum Nessus, OpenVAS sau Microsoft Baseline Security Analyzer (MBSA) pentru a efectua aceste scanări. Scanările regulate ale vulnerabilităților pot ajuta la identificarea vulnerabilităților și a punctelor slabe din mediu, permițând dezvoltatorilor să le remedieze înainte ca acestea să fie exploatate de atacatori.
@@ -141,7 +142,7 @@ Prin implementarea acestor practici, dezvoltatorii pot reduce riscul de breșe d
 
 ## Referințe
 
-- [PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
-- [Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
-- [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
-- [Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [Documentația PowerShell](https://docs.microsoft.com/en-us/powershell/)
+- [Seria Top 25: erori software](https://www.sans.org/top25-software-errors/)
+- [Fișă de referință pentru validarea intrărilor](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [Ghid general de securitate a serverelor](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

@@ -1,6 +1,7 @@
 ---
 title: "Лучшие практики безопасного кодирования в PowerShell: Руководство"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Узнайте о лучших практиках написания безопасного кода PowerShell для защиты систем на базе Windows от уязвимостей."
@@ -121,7 +122,7 @@ ____
 Защита среды осуществляется путем применения политик и конфигураций безопасности к операционной системе, сетевым устройствам и приложениям. Это позволяет уменьшить площадь атаки и предотвратить несанкционированный доступ. Например, разработчики и администраторы могут:
 
 - **Отключить ненужные службы и протоколы, чтобы уменьшить площадь атаки**.
-- **Установить надежные пароли и политики паролей для предотвращения несанкционированного доступа**.
+- [**Установить надежные пароли и политики паролей для предотвращения несанкционированного доступа**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 - **Настроить межсетевые экраны и системы обнаружения вторжений для предотвращения и обнаружения атак**.
 - **Внедрение обновлений и исправлений программного обеспечения для устранения известных уязвимостей**.
 
@@ -141,7 +142,7 @@ PowerShell - это мощный инструмент для автоматиз�
 
 ## Ссылки
 
-- [PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
-- [Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
-- [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
-- [Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [Документация PowerShell](https://docs.microsoft.com/en-us/powershell/)
+- [Серия Top 25: ошибки программного обеспечения](https://www.sans.org/top25-software-errors/)
+- [Памятка по проверке входных данных](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [Руководство по общей безопасности серверов](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

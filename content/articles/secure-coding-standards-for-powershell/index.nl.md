@@ -1,10 +1,11 @@
 ---
 title: "Beste praktijken voor veilige codering in PowerShell: Een gids"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer de beste praktijken voor het schrijven van veilige PowerShell-code om uw Windows-systemen te beschermen tegen beveiligingsproblemen."
-tags: ["PowerShell", "Veilige codering", "Op Windows gebaseerde systemen", "Validatie van de invoer", "Cryptografie Bibliotheken", "Minste voorrecht", "Statische code analyzer", "Veilige communicatieprotocollen", "Registratie en controle", "Kwetsbaarheidsscans", "Onderwijs", "Injectiecode", "Privilege-escalatie", "Datalekken", "Verhardende omgeving", "Veiligheidsbeleid", "Firewalls", "Inbraakdetectiesystemen", "Beheer van kwetsbaarheden", "Netwerkbeveiliging"]
+tags: ["PowerShell", "Veilige codering", "Op Windows gebaseerde systemen", "Validatie van de invoer", "Cryptografie Bibliotheken", "Minste voorrecht", "Statische code analyzer", "Veilige communicatieprotocollen", "Registratie en controle", "Kwetsbaarheidsscans", "Onderwijs", "Injectiecode", "Privilege-escalatie", "Datalekken", "Verhardende omgeving", "Veiligheidsbeleid", "Firewalls", "Inbraakdetectiesystemen", "Beheer van kwetsbaarheden", "Netwerkbeveiliging", "Beste coderingspraktijken voor PowerShell", "Veilige PowerShell-code", "Beveiliging van Windows-systemen", "Invoervalidatie in PowerShell", "Cryptografie in PowerShell", "Principe van minimale bevoegdheden", "Statische code-analyzer voor PowerShell", "Veilige communicatieprotocollen in PowerShell", "Logboekregistratie en monitoring in PowerShell", "Kwetsbaarheidsscans in PowerShell", "PowerShell-beveiligingsonderwijs", "Preventie van code-injectie", "Beperking van privilege-escalatie", "Voorkomen van gegevenslekken met PowerShell", "Hardening van de PowerShell-omgeving", "Beveiligingsbeleid voor PowerShell", "Firewallconfiguratie in PowerShell", "Inbraakdetectiesystemen voor PowerShell", "Kwetsbaarheidsbeheer in PowerShell", "Netwerkbeveiliging in PowerShell", "Veilige codering voor PowerShell-scripts", "Invoer en uitvoer opschonen in PowerShell", "Veilige communicatieprotocollen voor PowerShell", "Logboekregistratie en monitoring in PowerShell-scripts", "PowerShell-omgeving hardenen", "Kwetsbaarheidsscans uitvoeren in PowerShell", "Gebruikers en beheerders voorlichten over PowerShell-beveiliging", "Veilige PowerShell-codepraktijken", "Veilige en veerkrachtige PowerShell-code", "Beste praktijken voor PowerShell-beveiliging", "Beste beveiligingspraktijken voor PowerShell"]
 cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Een afbeelding van een superheld die voor een computer staat met het Windows-logo op het scherm en een schild in de hand, als symbool voor het belang van veilige coderingspraktijken voor de bescherming van op Windows gebaseerde systemen."
 coverCaption: ""
@@ -108,7 +109,7 @@ ____
 
 PowerShell-scripts zijn kwetsbaar voor verschillende beveiligingsrisico's, zoals code-injectie, privilege-escalatie en het lekken van gegevens. Om de veiligheid van PowerShell-scripts te waarborgen, moeten ontwikkelaars veilige codeerpraktijken volgen, zoals:
 
-### Sanitize Input and Output
+### Invoer en uitvoer opschonen
 Het opschonen van gebruikersinvoer is belangrijk om code-injectieaanvallen te voorkomen. Ontwikkelaars moeten gebruikersinvoer valideren en zuiveren om ervoor te zorgen dat deze voldoet aan de verwachte criteria en geen kwaadaardige code bevat. Bovendien moeten ontwikkelaars, wanneer ze uitvoer naar een logbestand of een andere bestemming schrijven, gevoelige gegevens zuiveren voordat ze deze naar het bestand schrijven om gegevenslekken te voorkomen.
 
 ### Gebruik veilige communicatieprotocollen
@@ -121,8 +122,8 @@ Implementeer logging- en monitoringmechanismen om beveiligingsincidenten tijdig 
 Verhard de omgeving door beveiligingsbeleid en -configuraties toe te passen op het besturingssysteem, netwerkapparaten en toepassingen. Dit helpt het aanvalsoppervlak te verkleinen en ongeautoriseerde toegang te voorkomen. Ontwikkelaars en beheerders kunnen bijvoorbeeld:
 
 - **Onnodige diensten en protocollen uitschakelen om het aanvalsoppervlak te verkleinen**.
-- Sterke wachtwoorden en wachtwoordbeleid afdwingen om ongeoorloofde toegang te voorkomen.
-- Firewalls en inbraakdetectiesystemen configureren om aanvallen te voorkomen en te detecteren.
+- [**Sterke wachtwoorden en wachtwoordbeleid afdwingen om ongeoorloofde toegang te voorkomen**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
+- **Firewalls en inbraakdetectiesystemen configureren om aanvallen te voorkomen en te detecteren**.
 - **Implementeer software-updates en patches om bekende beveiligingsproblemen te verhelpen**.
 
 ### Regelmatig scannen op kwetsbaarheden
@@ -141,7 +142,7 @@ Door deze praktijken toe te passen, kunnen ontwikkelaars het risico van beveilig
 
 ## Referenties
 
--[PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
--[Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
--[Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
--[Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [PowerShell-documentatie](https://docs.microsoft.com/en-us/powershell/)
+- [Top 25-serie: softwarefouten](https://www.sans.org/top25-software-errors/)
+- [Spiekbrief invoervalidatie](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [Handleiding voor algemene serverbeveiliging](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
