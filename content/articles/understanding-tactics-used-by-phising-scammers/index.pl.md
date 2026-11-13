@@ -3,6 +3,7 @@ title: "Unikanie oszustw phishingowych: Taktyka, zapobieganie i ochrona"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Poznaj taktyki stosowane przez oszustów phishingowych i odkryj skuteczne strategie ochrony przed staniem się ofiarą."
 tags: ["oszustwa phishingowe", "cyberbezpieczeństwo", "zagrożenia online", "Email spoofing", "inżynieria społeczna", "ochrona przed złośliwym oprogramowaniem", "bezpieczeństwo online", "bezpieczeństwo danych", "kradzież tożsamości", "bezpieczeństwo hasła", "uwierzytelnianie dwuskładnikowe", "aktualizacje oprogramowania", "regulacje rządowe", "prywatność online", "świadomość cybernetyczna", "oszustwo cyfrowe", "świadomość phishingu", "Bezpieczeństwo w mediach społecznościowych", "oszustwa internetowe", "Zapobieganie cyberprzestępczości"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Aby uchronić się przed złośliwym oprogramowaniem i fałszywymi stronami inte
 
 Chociaż oszustwa phishingowe mogą być wyrafinowane, istnieje kilka proaktywnych kroków, które można podjąć, aby uniknąć stania się ofiarą. Wdrożenie poniższych środków może znacznie zmniejszyć ryzyko stania się ofiarą ataków phishingowych:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Edukacja i świadomość](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) mają kluczowe znaczenie w zwalczaniu oszustw phishingowych. Bądź na bieżąco z najnowszymi technikami phishingu i taktykami stosowanymi przez oszustów. Regularnie aktualizuj swoją wiedzę za pośrednictwem wiarygodnych źródeł, takich jak blogi poświęcone bezpieczeństwu, artykuły i oficjalne **strony rządowe**, które dostarczają informacji na temat aktualnych trendów phishingowych i najlepszych praktyk w zakresie cyberbezpieczeństwa.
+[**Edukacja i świadomość**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) mają kluczowe znaczenie w zwalczaniu oszustw phishingowych. Bądź na bieżąco z najnowszymi technikami phishingu i taktykami stosowanymi przez oszustów. Regularnie aktualizuj swoją wiedzę za pośrednictwem wiarygodnych źródeł, takich jak blogi poświęcone bezpieczeństwu, artykuły i oficjalne **strony rządowe**, które dostarczają informacji na temat aktualnych trendów phishingowych i najlepszych praktyk w zakresie cyberbezpieczeństwa.
 
 ### Zachowaj ostrożność w przypadku wiadomości e-mail i wiadomości
 
 Zachowaj ostrożność podczas otrzymywania wiadomości e-mail lub wiadomości, zwłaszcza tych, które zawierają prośbę o podanie danych osobowych lub wymagają pilnego działania. Zwracaj uwagę na szczegóły, takie jak adresy e-mail, błędy gramatyczne i ortograficzne lub ogólne pozdrowienia, które mogą wskazywać na próbę phishingu. Uważaj na nieoczekiwane załączniki lub linki, nawet jeśli wydają się pochodzić z zaufanych źródeł. W razie wątpliwości **nie klikaj żadnych podejrzanych linków ani nie pobieraj załączników**. Zamiast tego **skontaktuj się bezpośrednio z nadawcą za pomocą zweryfikowanego numeru telefonu lub adresu e-mail**, aby zweryfikować autentyczność wiadomości.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Wzmocnij hasła i włącz uwierzytelnianie dwuskładnikowe](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) dla każdego konta online, aby zapobiec naruszeniu wielu kont przez pojedyncze naruszenie.
+[Silne i unikalne hasło](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) to niezbędna ochrona przed oszustwami phishingowymi. [**Twórz silne hasła**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) zawierające kombinację wielkich i małych liter, cyfr oraz znaków specjalnych. Unikaj łatwych do odgadnięcia informacji, takich jak imię i nazwisko lub data urodzenia. Używaj też [**innego hasła do każdego konta internetowego**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), aby pojedyncze naruszenie nie naraziło wielu kont.
 
-Oprócz silnych haseł, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) gdy tylko jest to możliwe. 2FA dodaje dodatkową warstwę bezpieczeństwa, wymagając drugiej formy weryfikacji, takiej jak tymczasowy kod wysłany na urządzenie mobilne, oprócz hasła. Znacznie utrudnia to oszustom uzyskanie nieautoryzowanego dostępu do kont.
+Oprócz silnych haseł, [**włącz uwierzytelnianie dwuskładnikowe (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) gdy tylko jest to możliwe. 2FA dodaje dodatkową warstwę bezpieczeństwa, wymagając drugiej formy weryfikacji, takiej jak tymczasowy kod wysłany na urządzenie mobilne, oprócz hasła. Znacznie utrudnia to oszustom uzyskanie nieautoryzowanego dostępu do kont.
 
 ### Aktualizuj oprogramowanie i systemy operacyjne
 

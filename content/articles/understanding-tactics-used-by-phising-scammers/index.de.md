@@ -3,6 +3,7 @@ title: "Phishing-Betrug vermeiden: Taktiken, Prävention und Schutz"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Erfahren Sie mehr über die Taktiken von Phishing-Betrügern und entdecken Sie wirksame Strategien, um sich davor zu schützen, Opfer zu werden."
 tags: ["Phishing-Betrug", "Internet-Sicherheit", "Online-Bedrohungen", "E-Mail-Spoofing", "soziale Entwicklung", "Malware Schutz", "Online sicherheit", "Datensicherheit", "Identitätsdiebstahl", "Passwortsicherheit", "Zwei-Faktor-Authentifizierung", "Software-Updates", "staatliche Beschränkungen", "Online-Privatsphäre", "Cyber-Bewusstsein", "digitaler Betrug", "Phishing-Bewusstsein", "Sicherheit in sozialen Medien", "Online-Betrug", "Prävention von Cyberkriminalität"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Um sich vor Malware und gefälschten Websites zu schützen, ist es wichtig, beim
 
 Obwohl Phishing-Betrügereien raffiniert sein können, gibt es mehrere proaktive Maßnahmen, die Sie ergreifen können, um nicht zum Opfer zu werden. Durch die Umsetzung der folgenden Maßnahmen können Sie das Risiko, Opfer von Phishing-Angriffen zu werden, deutlich reduzieren:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Bildung und Sensibilisierung](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sind von entscheidender Bedeutung bei der Bekämpfung von Phishing-Betrug. Bleiben Sie über die neuesten Phishing-Techniken und -Taktiken von Betrügern auf dem Laufenden. Aktualisieren Sie Ihr Wissen regelmäßig über zuverlässige Quellen wie Sicherheitsblogs, Artikel und offizielle **Regierungswebsites**, die Informationen zu aktuellen Phishing-Trends und Best Practices für Cybersicherheit bieten.
+[**Bildung und Sensibilisierung**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sind von entscheidender Bedeutung bei der Bekämpfung von Phishing-Betrug. Bleiben Sie über die neuesten Phishing-Techniken und -Taktiken von Betrügern auf dem Laufenden. Aktualisieren Sie Ihr Wissen regelmäßig über zuverlässige Quellen wie Sicherheitsblogs, Artikel und offizielle **Regierungswebsites**, die Informationen zu aktuellen Phishing-Trends und Best Practices für Cybersicherheit bieten.
 
 ### Seien Sie vorsichtig bei E-Mails und Nachrichten
 
 Seien Sie vorsichtig, wenn Sie E-Mails oder Nachrichten erhalten, insbesondere solche, in denen persönliche Informationen abgefragt werden oder dringende Maßnahmen erforderlich sind. Achten Sie auf Details wie E-Mail-Adressen, Grammatik- und Rechtschreibfehler oder allgemeine Begrüßungen, die auf einen Phishing-Versuch hinweisen könnten. Seien Sie vorsichtig bei unerwarteten Anhängen oder Links, auch wenn diese scheinbar von vertrauenswürdigen Quellen stammen. Im Zweifelsfall **klicken Sie nicht auf verdächtige Links und laden Sie keine Anhänge herunter**. Stattdessen **kontaktieren Sie den Absender direkt über eine verifizierte Telefonnummer oder E-Mail-Adresse**, um die Authentizität der Nachricht zu überprüfen.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Passwörter stärken und Zwei-Faktor-Authentifizierung aktivieren](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) für jedes Online-Konto, um zu verhindern, dass ein einzelner Verstoß mehrere Konten gefährdet.
+[Ein starkes und einzigartiges Passwort](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) ist ein wichtiger Schutz vor Phishing-Betrug. [**Erstellen Sie starke Passwörter**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), die eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten. Vermeiden Sie leicht zu erratende Informationen wie Ihren Namen oder Ihr Geburtsdatum. Verwenden Sie außerdem [**für jedes Online-Konto ein anderes Passwort**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), damit ein einzelner Sicherheitsvorfall nicht mehrere Konten gefährdet.
 
-Zusätzlich zu sicheren Passwörtern [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) wenn möglich. 2FA bietet eine zusätzliche Sicherheitsebene, indem zusätzlich zu Ihrem Passwort eine zweite Form der Verifizierung erforderlich ist, z. B. ein temporärer Code, der an Ihr Mobilgerät gesendet wird. Dadurch wird es für Betrüger deutlich schwieriger, sich unbefugten Zugriff auf Ihre Konten zu verschaffen.
+Zusätzlich zu sicheren Passwörtern [**Aktivieren Sie die Zwei-Faktor-Authentifizierung (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) wenn möglich. 2FA bietet eine zusätzliche Sicherheitsebene, indem zusätzlich zu Ihrem Passwort eine zweite Form der Verifizierung erforderlich ist, z. B. ein temporärer Code, der an Ihr Mobilgerät gesendet wird. Dadurch wird es für Betrüger deutlich schwieriger, sich unbefugten Zugriff auf Ihre Konten zu verschaffen.
 
 ### Halten Sie Software und Betriebssysteme auf dem neuesten Stand
 

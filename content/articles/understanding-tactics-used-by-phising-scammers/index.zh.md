@@ -3,6 +3,7 @@ title: "避免网络钓鱼诈骗：策略、预防和保护"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "了解网络钓鱼诈骗者使用的策略，并发现有效的策略来保护自己免于成为受害者。"
 tags: ["网络钓鱼诈骗", "网络安全", "在线威胁", "电子邮件欺骗", "社会工程学", "恶意软件保护", "上网安全", "数据安全", "身份盗窃", "密码安全", "双因素认证", "软件更新", "政府规章", "在线隐私", "网络意识", "数字欺诈", "网络钓鱼意识", "社交媒体安全", "网络诈骗", "预防网络犯罪"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ coverCaption: ""
 
 虽然网络钓鱼诈骗可能非常复杂，但您可以采取一些积极主动的步骤来避免成为受害者。通过实施以下措施，您可以显着降低遭受网络钓鱼攻击的风险：
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [教育与认知](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) 对打击网络钓鱼诈骗至关重要。随时了解诈骗者采用的最新网络钓鱼技术和策略。通过安全博客、文章和官方**政府网站**等可靠来源定期更新您的知识，这些来源提供有关当前网络钓鱼趋势和网络安全最佳实践的信息。
+[**教育与认知**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) 对打击网络钓鱼诈骗至关重要。随时了解诈骗者采用的最新网络钓鱼技术和策略。通过安全博客、文章和官方**政府网站**等可靠来源定期更新您的知识，这些来源提供有关当前网络钓鱼趋势和网络安全最佳实践的信息。
 
 ### 谨慎使用电子邮件和消息
 
 接收电子邮件或消息时要谨慎，尤其是那些要求提供个人信息或提示采取紧急行动的电子邮件或消息。请注意电子邮件地址、语法和拼写错误或可能表示网络钓鱼企图的通用问候语等详细信息。警惕意想不到的附件或链接，即使它们看起来来自可信来源。如有疑问，**不要点击任何可疑链接或下载附件**。相反，**使用经过验证的电话号码或电子邮件地址直接联系发件人**以验证消息的真实性。
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [加强密码并启用双重身份验证](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) 对于每个在线帐户，以防止单个违规行为危及多个帐户。
+[强度高且不重复的密码](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)是防范网络钓鱼诈骗的重要措施。[**创建强密码**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)，其中应包含大写字母、小写字母、数字和特殊字符。避免使用容易被猜到的信息，例如姓名或出生日期。每个在线账户也应[**使用不同的密码**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)，以免一次泄露危及多个账户。
 
-除了强密码， [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) 只要有可能。 2FA 通过要求第二种形式的验证来增加额外的安全层，例如除了您的密码之外，还需要发送到您的移动设备的临时代码。这使得诈骗者更难未经授权访问您的帐户。
+除了强密码， [**启用双重身份验证（2FA）**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) 只要有可能。 2FA 通过要求第二种形式的验证来增加额外的安全层，例如除了您的密码之外，还需要发送到您的移动设备的临时代码。这使得诈骗者更难未经授权访问您的帐户。
 
 ### 使软件和操作系统保持最新
 

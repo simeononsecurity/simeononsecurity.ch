@@ -3,6 +3,7 @@ title: "फ़िशिंग घोटालों से बचना: रण�
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "फ़िशिंग स्कैमर्स द्वारा उपयोग की जाने वाली युक्तियों के बारे में जानें और खुद को शिकार बनने से बचाने के लिए प्रभावी रणनीतियों की खोज करें।"
 tags: ["फिशिंग घोटाले", "साइबर सुरक्षा", "ऑनलाइन धमकी", "ईमेल स्पूफिंग", "सोशल इंजीनियरिंग", "मैलवेयर सुरक्षा", "ऑनलाइन सुरक्षा", "डाटा सुरक्षा", "चोरी की पहचान", "पासवर्ड सुरक्षा", "दो तरीकों से प्रमाणीकरण", "सॉफ्टवेयर अपडेट", "सरकारी विनियमन", "ऑनलाइन गोपनीयता", "साइबर जागरूकता", "डिजिटल धोखाधड़ी", "फ़िशिंग जागरूकता", "सोशल मीडिया सुरक्षा", "ऑनलाइन घोटाले", "साइबर अपराध की रोकथाम"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ coverCaption: ""
 
 जबकि फ़िशिंग घोटाले परिष्कृत हो सकते हैं, शिकार बनने से बचने के लिए आप कई सक्रिय कदम उठा सकते हैं। निम्नलिखित उपायों को लागू करके, आप फ़िशिंग हमलों का शिकार होने के जोखिम को काफ़ी हद तक कम कर सकते हैं:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [शिक्षा और जागरूकता](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) फ़िशिंग घोटालों का मुकाबला करने में महत्वपूर्ण हैं। स्कैमर्स द्वारा नियोजित नवीनतम फ़िशिंग तकनीकों और युक्तियों के बारे में सूचित रहें। सुरक्षा ब्लॉग, लेख, और आधिकारिक **सरकारी वेबसाइटों** जैसे विश्वसनीय स्रोतों के माध्यम से अपने ज्ञान को नियमित रूप से अपडेट करें, जो वर्तमान फ़िशिंग प्रवृत्तियों और साइबर सुरक्षा सर्वोत्तम प्रथाओं के बारे में जानकारी प्रदान करते हैं।
+[**शिक्षा और जागरूकता**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) फ़िशिंग घोटालों का मुकाबला करने में महत्वपूर्ण हैं। स्कैमर्स द्वारा नियोजित नवीनतम फ़िशिंग तकनीकों और युक्तियों के बारे में सूचित रहें। सुरक्षा ब्लॉग, लेख, और आधिकारिक **सरकारी वेबसाइटों** जैसे विश्वसनीय स्रोतों के माध्यम से अपने ज्ञान को नियमित रूप से अपडेट करें, जो वर्तमान फ़िशिंग प्रवृत्तियों और साइबर सुरक्षा सर्वोत्तम प्रथाओं के बारे में जानकारी प्रदान करते हैं।
 
 ### ईमेल और संदेशों के साथ सावधानी बरतें
 
 ईमेल या संदेश प्राप्त करते समय सावधानी बरतें, विशेष रूप से वे जो व्यक्तिगत जानकारी का अनुरोध करते हैं या तत्काल कार्रवाई करते हैं। ईमेल पते, व्याकरण और वर्तनी की त्रुटियों, या सामान्य अभिवादन जैसे विवरणों पर ध्यान दें जो फ़िशिंग प्रयास का संकेत दे सकते हैं। अनपेक्षित अटैचमेंट या लिंक से सावधान रहें, भले ही वे विश्वसनीय स्रोतों से आए प्रतीत हों। संदेह होने पर, **किसी भी संदिग्ध लिंक पर क्लिक न करें या अटैचमेंट डाउनलोड न करें**। इसके बजाय, संदेश की प्रामाणिकता सत्यापित करने के लिए **सत्यापित फ़ोन नंबर या ईमेल पते** का उपयोग करके सीधे प्रेषक से संपर्क करें।
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [पासवर्ड मज़बूत करें और दो-कारक प्रमाणीकरण चालू करें](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-ए [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) प्रत्येक ऑनलाइन खाते के लिए एक ही उल्लंघन को कई खातों से समझौता करने से रोकने के लिए।
+[एक मज़बूत और अनोखा पासवर्ड](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) फ़िशिंग घोटालों से बचाव का एक आवश्यक उपाय है। [**मज़बूत पासवर्ड बनाएँ**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), जिनमें बड़े और छोटे अक्षरों, अंकों और विशेष वर्णों का संयोजन हो। अपना नाम या जन्मतिथि जैसी आसानी से अनुमानित की जा सकने वाली जानकारी का उपयोग न करें। हर ऑनलाइन खाते के लिए [**अलग पासवर्ड इस्तेमाल करना भी ज़रूरी है**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), ताकि एक ही सुरक्षा उल्लंघन से कई खाते जोखिम में न पड़ें।
 
-मजबूत पासवर्ड के अलावा, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) जब भी संभव। 2FA आपके पासवर्ड के अलावा सत्यापन के दूसरे प्रकार की आवश्यकता के द्वारा सुरक्षा की एक अतिरिक्त परत जोड़ता है, जैसे आपके मोबाइल डिवाइस पर भेजा गया एक अस्थायी कोड। यह स्कैमर्स के लिए आपके खातों तक अनधिकृत पहुंच प्राप्त करना काफी कठिन बना देता है।
+मजबूत पासवर्ड के अलावा, [**दो-कारक प्रमाणीकरण (2FA) सक्षम करें**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) जब भी संभव। 2FA आपके पासवर्ड के अलावा सत्यापन के दूसरे प्रकार की आवश्यकता के द्वारा सुरक्षा की एक अतिरिक्त परत जोड़ता है, जैसे आपके मोबाइल डिवाइस पर भेजा गया एक अस्थायी कोड। यह स्कैमर्स के लिए आपके खातों तक अनधिकृत पहुंच प्राप्त करना काफी कठिन बना देता है।
 
 ### सॉफ्टवेयर और ऑपरेटिंग सिस्टम को अपडेट रखें
 

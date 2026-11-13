@@ -3,6 +3,7 @@ title: "Evitando golpes de phishing: táticas, prevenção e proteção"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Aprenda sobre as táticas usadas pelos golpistas de phishing e descubra estratégias eficazes para se proteger de se tornar uma vítima."
 tags: ["golpes de phishing", "cíber segurança", "ameaças online", "falsificação de e-mail", "Engenharia social", "proteção contra malware", "segurança online", "segurança de dados", "roubo de identidade", "senha de segurança", "autenticação de dois fatores", "atualizações de software", "regulamentos governamentais", "privacidade online", "consciência cibernética", "fraude digital", "consciência de phishing", "segurança nas redes sociais", "golpes online", "prevenção de crimes cibernéticos"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Para se proteger de malware e sites falsos, é essencial **tomar cuidado** ao ba
 
 Embora os golpes de phishing possam ser sofisticados, existem várias etapas proativas que você pode seguir para evitar se tornar uma vítima. Ao implementar as seguintes medidas, você pode reduzir significativamente o risco de ser vítima de ataques de phishing:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Educação e conscientização](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) são cruciais no combate a golpes de phishing. Mantenha-se informado sobre as mais recentes técnicas e táticas de phishing empregadas pelos golpistas. Atualize regularmente seu conhecimento por meio de fontes confiáveis, como blogs de segurança, artigos e **sites governamentais** oficiais que fornecem informações sobre as tendências atuais de phishing e as práticas recomendadas de segurança cibernética.
+[**Educação e conscientização**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) são cruciais no combate a golpes de phishing. Mantenha-se informado sobre as mais recentes técnicas e táticas de phishing empregadas pelos golpistas. Atualize regularmente seu conhecimento por meio de fontes confiáveis, como blogs de segurança, artigos e **sites governamentais** oficiais que fornecem informações sobre as tendências atuais de phishing e as práticas recomendadas de segurança cibernética.
 
 ### Tenha cuidado com e-mails e mensagens
 
 Tenha cuidado ao receber e-mails ou mensagens, especialmente aquelas que solicitam informações pessoais ou solicitam ações urgentes. Preste atenção a detalhes como endereços de e-mail, erros de gramática e ortografia ou saudações genéricas que podem indicar uma tentativa de phishing. Desconfie de anexos ou links inesperados, mesmo que pareçam vir de fontes confiáveis. Em caso de dúvida, **não clique em nenhum link suspeito ou baixe anexos**. Em vez disso, **entre em contato diretamente com o remetente usando um número de telefone ou endereço de e-mail verificado** para verificar a autenticidade da mensagem.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Fortaleça as senhas e ative a autenticação de dois fatores](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para cada conta online para evitar que uma única violação comprometa várias contas.
+[Uma senha forte e exclusiva](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) é uma defesa essencial contra golpes de phishing. [**Crie senhas fortes**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) que incluam uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais. Evite usar informações fáceis de adivinhar, como seu nome ou data de nascimento. Também é essencial [**usar senhas diferentes em cada conta online**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para evitar que uma única violação comprometa várias contas.
 
-Além de senhas fortes, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) quando possível. O 2FA adiciona uma camada extra de segurança ao exigir uma segunda forma de verificação, como um código temporário enviado ao seu dispositivo móvel, além da sua senha. Isso torna significativamente mais difícil para os golpistas obter acesso não autorizado às suas contas.
+Além de senhas fortes, [**ative a autenticação de dois fatores (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) quando possível. O 2FA adiciona uma camada extra de segurança ao exigir uma segunda forma de verificação, como um código temporário enviado ao seu dispositivo móvel, além da sua senha. Isso torna significativamente mais difícil para os golpistas obter acesso não autorizado às suas contas.
 
 ### Mantenha o software e os sistemas operacionais atualizados
 

@@ -3,6 +3,7 @@ title: "Phishing-zwendel vermijden: Tactiek, preventie en bescherming"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Leer meer over de tactieken van phishing scammers en ontdek effectieve strategieën om uzelf te beschermen tegen het worden van een slachtoffer."
 tags: ["phishing-zwendel", "cyberbeveiliging", "online bedreigingen", "e-mail spoofing", "social engineering", "bescherming tegen malware", "online veiligheid", "gegevensbeveiliging", "identiteitsdiefstal", "wachtwoordbeveiliging", "twee-factor authenticatie", "software-updates", "overheidsvoorschriften", "online privacy", "cyberbewustzijn", "digitale fraude", "phishing-bewustzijn", "veiligheid van sociale media", "online oplichting", "preventie van cybercriminaliteit"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Om uzelf te beschermen tegen malware en valse websites is het essentieel om **vo
 
 Hoewel phishing-zwendel geraffineerd kan zijn, zijn er verschillende proactieve stappen die u kunt nemen om te voorkomen dat u slachtoffer wordt. Met de volgende maatregelen kunt u het risico om ten prooi te vallen aan phishing-aanvallen aanzienlijk verkleinen:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Voorlichting en bewustwording](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) zijn cruciaal in de strijd tegen phishing-zwendel. Blijf op de hoogte van de nieuwste phishing-technieken en -tactieken van oplichters. Werk uw kennis regelmatig bij via betrouwbare bronnen zoals beveiligingsblogs, artikelen en officiële **overheidswebsites** die informatie verschaffen over actuele phishing-trends en beste praktijken op het gebied van cyberbeveiliging.
+[**Voorlichting en bewustwording**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) zijn cruciaal in de strijd tegen phishing-zwendel. Blijf op de hoogte van de nieuwste phishing-technieken en -tactieken van oplichters. Werk uw kennis regelmatig bij via betrouwbare bronnen zoals beveiligingsblogs, artikelen en officiële **overheidswebsites** die informatie verschaffen over actuele phishing-trends en beste praktijken op het gebied van cyberbeveiliging.
 
 ### Wees voorzichtig met e-mails en berichten
 
 Wees voorzichtig bij het ontvangen van e-mails of berichten, vooral die waarin om persoonlijke informatie wordt gevraagd of waarin om dringende actie wordt gevraagd. Let op details zoals e-mailadressen, grammatica- en spelfouten of algemene begroetingen die op een phishingpoging kunnen wijzen. Wees op uw hoede voor onverwachte bijlagen of links, zelfs als deze van betrouwbare bronnen afkomstig lijken te zijn. Klik bij twijfel niet op verdachte links en download geen bijlagen**. Neem in plaats daarvan **rechtstreeks contact op met de afzender via een geverifieerd telefoonnummer of e-mailadres** om de echtheid van het bericht te verifiëren.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Versterk wachtwoorden en schakel tweefactorauthenticatie in](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) voor elke online account om te voorkomen dat één inbreuk meerdere accounts in gevaar brengt.
+[Een sterk en uniek wachtwoord](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is een essentiële bescherming tegen phishingaanvallen. [**Maak sterke wachtwoorden**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) met een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens. Gebruik geen gemakkelijk te raden informatie, zoals je naam of geboortedatum. Het is ook belangrijk om [**voor elk online account een ander wachtwoord te gebruiken**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), zodat één datalek niet meerdere accounts in gevaar brengt.
 
-Naast sterke wachtwoorden, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) wanneer mogelijk. 2FA voegt een extra beveiligingslaag toe door naast uw wachtwoord een tweede vorm van verificatie te vereisen, zoals een tijdelijke code die naar uw mobiele apparaat wordt gestuurd. Dit maakt het voor oplichters aanzienlijk moeilijker om ongeoorloofde toegang tot uw rekeningen te krijgen.
+Naast sterke wachtwoorden, [**schakel tweefactorauthenticatie (2FA) in**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) wanneer mogelijk. 2FA voegt een extra beveiligingslaag toe door naast uw wachtwoord een tweede vorm van verificatie te vereisen, zoals een tijdelijke code die naar uw mobiele apparaat wordt gestuurd. Dit maakt het voor oplichters aanzienlijk moeilijker om ongeoorloofde toegang tot uw rekeningen te krijgen.
 
 ### Houd software en besturingssystemen up-to-date
 

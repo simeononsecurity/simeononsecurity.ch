@@ -3,6 +3,7 @@ title: "ਫਿਸ਼ਿੰਗ ਘੁਟਾਲਿਆਂ ਤੋਂ ਬਚਣਾ: �
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "ਫਿਸ਼ਿੰਗ ਸਕੈਮਰਾਂ ਦੁਆਰਾ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਚਾਲਾਂ ਬਾਰੇ ਜਾਣੋ ਅਤੇ ਆਪਣੇ ਆਪ ਨੂੰ ਸ਼ਿਕਾਰ ਬਣਨ ਤੋਂ ਬਚਾਉਣ ਲਈ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਰਣਨੀਤੀਆਂ ਖੋਜੋ।"
 tags: ["ਫਿਸ਼ਿੰਗ ਘੁਟਾਲੇ", "ਸਾਈਬਰ ਸੁਰੱਖਿਆ", "ਔਨਲਾਈਨ ਧਮਕੀਆਂ", "ਈਮੇਲ ਸਪੂਫਿੰਗ", "ਸਮਾਜਿਕ ਇੰਜੀਨੀਅਰਿੰਗ", "ਮਾਲਵੇਅਰ ਸੁਰੱਖਿਆ", "ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ", "ਡਾਟਾ ਸੁਰੱਖਿਆ", "ਪਛਾਣ ਦੀ ਚੋਰੀ", "ਪਾਸਵਰਡ ਸੁਰੱਖਿਆ", "ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣਿਕਤਾ", "ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ", "ਸਰਕਾਰੀ ਨਿਯਮ", "ਆਨਲਾਈਨ ਗੋਪਨੀਯਤਾ", "ਸਾਈਬਰ ਜਾਗਰੂਕਤਾ", "ਡਿਜੀਟਲ ਧੋਖਾਧੜੀ", "ਫਿਸ਼ਿੰਗ ਜਾਗਰੂਕਤਾ", "ਸੋਸ਼ਲ ਮੀਡੀਆ ਸੁਰੱਖਿਆ", "ਆਨਲਾਈਨ ਘੁਟਾਲੇ", "ਸਾਈਬਰ ਅਪਰਾਧ ਦੀ ਰੋਕਥਾਮ"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ coverCaption: ""
 
 ਹਾਲਾਂਕਿ ਫਿਸ਼ਿੰਗ ਘੁਟਾਲੇ ਵਧੀਆ ਹੋ ਸਕਦੇ ਹਨ, ਪਰ ਸ਼ਿਕਾਰ ਬਣਨ ਤੋਂ ਬਚਣ ਲਈ ਤੁਸੀਂ ਕਈ ਕਿਰਿਆਸ਼ੀਲ ਕਦਮ ਚੁੱਕ ਸਕਦੇ ਹੋ। ਹੇਠਾਂ ਦਿੱਤੇ ਉਪਾਵਾਂ ਨੂੰ ਲਾਗੂ ਕਰਕੇ, ਤੁਸੀਂ ਫਿਸ਼ਿੰਗ ਹਮਲਿਆਂ ਦਾ ਸ਼ਿਕਾਰ ਹੋਣ ਦੇ ਜੋਖਮ ਨੂੰ ਮਹੱਤਵਪੂਰਨ ਤੌਰ 'ਤੇ ਘਟਾ ਸਕਦੇ ਹੋ:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [ਸਿੱਖਿਆ ਅਤੇ ਜਾਗਰੂਕਤਾ](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) ਫਿਸ਼ਿੰਗ ਘੁਟਾਲਿਆਂ ਦਾ ਮੁਕਾਬਲਾ ਕਰਨ ਵਿੱਚ ਮਹੱਤਵਪੂਰਨ ਹਨ। ਘੋਟਾਲੇ ਕਰਨ ਵਾਲਿਆਂ ਦੁਆਰਾ ਵਰਤੀਆਂ ਗਈਆਂ ਨਵੀਨਤਮ ਫਿਸ਼ਿੰਗ ਤਕਨੀਕਾਂ ਅਤੇ ਰਣਨੀਤੀਆਂ ਬਾਰੇ ਸੂਚਿਤ ਰਹੋ। ਭਰੋਸੇਮੰਦ ਸਰੋਤਾਂ ਜਿਵੇਂ ਕਿ ਸੁਰੱਖਿਆ ਬਲੌਗ, ਲੇਖ, ਅਤੇ ਅਧਿਕਾਰਤ **ਸਰਕਾਰੀ ਵੈੱਬਸਾਈਟਾਂ** ਦੁਆਰਾ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਆਪਣੇ ਗਿਆਨ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ ਜੋ ਮੌਜੂਦਾ ਫਿਸ਼ਿੰਗ ਰੁਝਾਨਾਂ ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਧੀਆ ਅਭਿਆਸਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ।
+[**ਸਿੱਖਿਆ ਅਤੇ ਜਾਗਰੂਕਤਾ**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) ਫਿਸ਼ਿੰਗ ਘੁਟਾਲਿਆਂ ਦਾ ਮੁਕਾਬਲਾ ਕਰਨ ਵਿੱਚ ਮਹੱਤਵਪੂਰਨ ਹਨ। ਘੋਟਾਲੇ ਕਰਨ ਵਾਲਿਆਂ ਦੁਆਰਾ ਵਰਤੀਆਂ ਗਈਆਂ ਨਵੀਨਤਮ ਫਿਸ਼ਿੰਗ ਤਕਨੀਕਾਂ ਅਤੇ ਰਣਨੀਤੀਆਂ ਬਾਰੇ ਸੂਚਿਤ ਰਹੋ। ਭਰੋਸੇਮੰਦ ਸਰੋਤਾਂ ਜਿਵੇਂ ਕਿ ਸੁਰੱਖਿਆ ਬਲੌਗ, ਲੇਖ, ਅਤੇ ਅਧਿਕਾਰਤ **ਸਰਕਾਰੀ ਵੈੱਬਸਾਈਟਾਂ** ਦੁਆਰਾ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਆਪਣੇ ਗਿਆਨ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ ਜੋ ਮੌਜੂਦਾ ਫਿਸ਼ਿੰਗ ਰੁਝਾਨਾਂ ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਦੇ ਵਧੀਆ ਅਭਿਆਸਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ।
 
 ### ਈਮੇਲਾਂ ਅਤੇ ਸੁਨੇਹਿਆਂ ਨਾਲ ਸਾਵਧਾਨੀ ਵਰਤੋ
 
 ਈਮੇਲਾਂ ਜਾਂ ਸੁਨੇਹੇ ਪ੍ਰਾਪਤ ਕਰਨ ਵੇਲੇ ਸਾਵਧਾਨੀ ਵਰਤੋ, ਖਾਸ ਤੌਰ 'ਤੇ ਉਹ ਜੋ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਜਾਂ ਤੁਰੰਤ ਤੁਰੰਤ ਕਾਰਵਾਈ ਦੀ ਬੇਨਤੀ ਕਰਦੇ ਹਨ। ਵੇਰਵਿਆਂ 'ਤੇ ਧਿਆਨ ਦਿਓ ਜਿਵੇਂ ਕਿ ਈਮੇਲ ਪਤੇ, ਵਿਆਕਰਣ ਅਤੇ ਸਪੈਲਿੰਗ ਦੀਆਂ ਗਲਤੀਆਂ, ਜਾਂ ਆਮ ਸ਼ੁਭਕਾਮਨਾਵਾਂ ਜੋ ਫਿਸ਼ਿੰਗ ਕੋਸ਼ਿਸ਼ ਦਾ ਸੰਕੇਤ ਦੇ ਸਕਦੀਆਂ ਹਨ। ਅਣਕਿਆਸੇ ਅਟੈਚਮੈਂਟਾਂ ਜਾਂ ਲਿੰਕਾਂ ਤੋਂ ਸਾਵਧਾਨ ਰਹੋ, ਭਾਵੇਂ ਉਹ ਭਰੋਸੇਯੋਗ ਸਰੋਤਾਂ ਤੋਂ ਆਏ ਹੋਣ। ਸ਼ੱਕ ਹੋਣ 'ਤੇ, **ਕਿਸੇ ਵੀ ਸ਼ੱਕੀ ਲਿੰਕ 'ਤੇ ਕਲਿੱਕ ਨਾ ਕਰੋ ਜਾਂ ਅਟੈਚਮੈਂਟਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਨਾ ਕਰੋ**। ਇਸ ਦੀ ਬਜਾਏ, **ਸੁਨੇਹੇ ਦੀ ਪ੍ਰਮਾਣਿਕਤਾ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ **ਇੱਕ ਪ੍ਰਮਾਣਿਤ ਫ਼ੋਨ ਨੰਬਰ ਜਾਂ ਈਮੇਲ ਪਤੇ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸਿੱਧੇ ਭੇਜਣ ਵਾਲੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [ਪਾਸਵਰਡ ਮਜ਼ਬੂਤ ਕਰੋ ਅਤੇ ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣੀਕਰਨ ਚਾਲੂ ਕਰੋ](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-ਏ [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) ਹਰੇਕ ਔਨਲਾਈਨ ਖਾਤੇ ਲਈ ਕਈ ਖਾਤਿਆਂ ਨਾਲ ਸਮਝੌਤਾ ਕਰਨ ਤੋਂ ਇੱਕ ਸਿੰਗਲ ਉਲੰਘਣਾ ਨੂੰ ਰੋਕਣ ਲਈ।
+[ਇੱਕ ਮਜ਼ਬੂਤ ਅਤੇ ਵਿਲੱਖਣ ਪਾਸਵਰਡ](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) ਫਿਸ਼ਿੰਗ ਧੋਖਾਧੜੀ ਤੋਂ ਬਚਾਅ ਦਾ ਅਹਿਮ ਸਾਧਨ ਹੈ। [**ਮਜ਼ਬੂਤ ਪਾਸਵਰਡ ਬਣਾਓ**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਵੱਡੇ ਅਤੇ ਛੋਟੇ ਅੱਖਰਾਂ, ਅੰਕਾਂ ਅਤੇ ਖ਼ਾਸ ਚਿੰਨ੍ਹਾਂ ਦਾ ਮਿਲਾਪ ਹੋਵੇ। ਆਪਣੇ ਨਾਮ ਜਾਂ ਜਨਮ-ਤਾਰੀਖ ਵਰਗੀ ਆਸਾਨੀ ਨਾਲ ਅੰਦਾਜ਼ਾ ਲਗਾਈ ਜਾ ਸਕਣ ਵਾਲੀ ਜਾਣਕਾਰੀ ਵਰਤਣ ਤੋਂ ਬਚੋ। ਹਰ ਆਨਲਾਈਨ ਖਾਤੇ ਲਈ [**ਵੱਖਰਾ ਪਾਸਵਰਡ ਵਰਤਣਾ ਵੀ ਜ਼ਰੂਰੀ ਹੈ**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), ਤਾਂ ਜੋ ਇੱਕ ਉਲੰਘਣਾ ਕਈ ਖਾਤਿਆਂ ਨੂੰ ਖ਼ਤਰੇ ਵਿੱਚ ਨਾ ਪਾਏ.
 
-ਮਜ਼ਬੂਤ ਪਾਸਵਰਡਾਂ ਤੋਂ ਇਲਾਵਾ, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) ਜਦੋਂ ਵੀ ਸੰਭਵ ਹੋਵੇ। 2FA ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਤੋਂ ਇਲਾਵਾ, ਤੁਹਾਡੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ 'ਤੇ ਭੇਜੇ ਗਏ ਅਸਥਾਈ ਕੋਡ ਵਰਗੇ ਪੁਸ਼ਟੀਕਰਨ ਦੇ ਦੂਜੇ ਰੂਪ ਦੀ ਲੋੜ ਕਰਕੇ ਸੁਰੱਖਿਆ ਦੀ ਇੱਕ ਵਾਧੂ ਪਰਤ ਜੋੜਦਾ ਹੈ। ਇਹ ਘੁਟਾਲੇ ਕਰਨ ਵਾਲਿਆਂ ਲਈ ਤੁਹਾਡੇ ਖਾਤਿਆਂ ਤੱਕ ਅਣਅਧਿਕਾਰਤ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰਨਾ ਮਹੱਤਵਪੂਰਨ ਤੌਰ 'ਤੇ ਵਧੇਰੇ ਮੁਸ਼ਕਲ ਬਣਾਉਂਦਾ ਹੈ।
+ਮਜ਼ਬੂਤ ਪਾਸਵਰਡਾਂ ਤੋਂ ਇਲਾਵਾ, [**ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣੀਕਰਨ (2FA) ਚਾਲੂ ਕਰੋ**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) ਜਦੋਂ ਵੀ ਸੰਭਵ ਹੋਵੇ। 2FA ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਤੋਂ ਇਲਾਵਾ, ਤੁਹਾਡੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ 'ਤੇ ਭੇਜੇ ਗਏ ਅਸਥਾਈ ਕੋਡ ਵਰਗੇ ਪੁਸ਼ਟੀਕਰਨ ਦੇ ਦੂਜੇ ਰੂਪ ਦੀ ਲੋੜ ਕਰਕੇ ਸੁਰੱਖਿਆ ਦੀ ਇੱਕ ਵਾਧੂ ਪਰਤ ਜੋੜਦਾ ਹੈ। ਇਹ ਘੁਟਾਲੇ ਕਰਨ ਵਾਲਿਆਂ ਲਈ ਤੁਹਾਡੇ ਖਾਤਿਆਂ ਤੱਕ ਅਣਅਧਿਕਾਰਤ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰਨਾ ਮਹੱਤਵਪੂਰਨ ਤੌਰ 'ਤੇ ਵਧੇਰੇ ਮੁਸ਼ਕਲ ਬਣਾਉਂਦਾ ਹੈ।
 
 ### ਸਾਫਟਵੇਅਰ ਅਤੇ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਨੂੰ ਅੱਪ ਟੂ ਡੇਟ ਰੱਖੋ
 
