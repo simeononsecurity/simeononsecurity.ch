@@ -1,7 +1,7 @@
 ---
 title: "Vantaggi e svantaggi dell'autenticazione a più fattori (MFA)"
 date: 2023-02-18
-lastmod: 2026-10-21
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Scoprite i vantaggi e gli svantaggi dell'autenticazione a più fattori (MFA) e imparate a scegliere la soluzione giusta per la sicurezza della vostra azienda."

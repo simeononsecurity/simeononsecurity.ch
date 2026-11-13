@@ -1,11 +1,11 @@
 ---
 title: "Zalety i wady uwierzytelniania wieloskładnikowego (MFA)"
 date: 2023-02-18
-lastmod: 2026-10-21
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy."
-tags: ["uwierzytelnianie wieloczynnikowe", "MFA", "bezpieczeństwo biznesowe", "cybersecurity", "ochrona danych", "zgodność z przepisami", "doświadczenie użytkownika", "phishing", "ataki typu brute force", "złożoność techniczna", "odporność użytkownika", "smartfony", "token", "karta inteligentna", "odcisk palca", "rozpoznawanie twarzy", "rozpoznawanie głosu", "PCI DSS", "HIPAA", "naruszenie danych"]
+tags: ["uwierzytelnianie wieloczynnikowe", "MFA", "bezpieczeństwo biznesowe", "cyberbezpieczeństwo", "ochrona danych", "zgodność z przepisami", "doświadczenie użytkownika", "phishing", "ataki typu brute force", "złożoność techniczna", "odporność użytkownika", "smartfony", "token", "karta inteligentna", "odcisk palca", "rozpoznawanie twarzy", "rozpoznawanie głosu", "PCI DSS", "HIPAA", "naruszenie danych"]
 cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "Kreskówkowy zamek z symbolami uwierzytelniania dwuskładnikowego jak smartfon i klucz."
 coverCaption: ""
@@ -15,7 +15,7 @@ coverCaption: ""
 
 ______
 
-## Co to jest Multi-Factor Authentication?
+## Czym jest uwierzytelnianie wieloskładnikowe (MFA)?
 
 **Uwierzytelnianie wieloczynnikowe to system zabezpieczeń, który wymaga od użytkowników podania dwóch lub więcej form uwierzytelnienia w celu uzyskania dostępu do systemu lub aplikacji.** Trzy główne typy czynników uwierzytelniających to:
 
@@ -95,7 +95,7 @@ ______
 
 ______
 
-## Choosing the Right MFA Solution for Your Business
+## Wybór odpowiedniego rozwiązania MFA dla firmy
 
 **Wybierając rozwiązanie MFA, należy rozważyć kilka czynników**, w tym:
 
