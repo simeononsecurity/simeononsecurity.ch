@@ -3,7 +3,7 @@ title: "শুরু করার জন্য সেরা লিনাক্�
 draft: false
 toc: true
 date: 2023-05-28
-lastmod: 2026-10-08
+lastmod: 2026-11-12
 description: শুরু করার জন্য সেরা লিনাক্স ডিস্ট্রিবিউশনগুলোর ব্যাপক ২০২৬ গাইড, যার মধ্যে রয়েছে উবুন্টু, জোরিন ওএস, লিনাক্স মিন্ট, মাঞ্জারো, এবং পপ!_ওএস বিস্তারিত তুলনা, সিস্টেমের প্রয়োজনীয়তা এবং মাইগ্রেশন গাইড সহ।
 tags:
 - লিনাক্স ডিস্ট্রো
@@ -696,10 +696,10 @@ Elementary OS উপযুক্ত:
 ## লিনাক্স নবাগতদের জন্য শেখার উৎস
 
 ### অফিসিয়াল ডকুমেন্টেশন
-- [Ubuntu Documentation](https://help.ubuntu.com/)
-- [Linux Mint User Guide](https://linuxmint.com/documentation.php)
+- [উবুন্টু ডকুমেন্টেশন](https://help.ubuntu.com/)
+- [লিনাক্স মিন্ট ব্যবহারকারী নির্দেশিকা](https://linuxmint.com/documentation.php)
 - [Arch Wiki](https://wiki.archlinux.org/) (Manjaro-র জন্য প্রযোজ্য)
-- [Elementary OS Learning Resources](https://elementary.io/docs/learning-the-basics)
+- [Elementary OS শেখার সংস্থান](https://elementary.io/docs/learning-the-basics)
 
 ### ইন্টারেক্টিভ শেখা
 - [Linux Journey](https://linuxjourney.com/) - বিনামূল্যে ইন্টারেক্টিভ টিউটোরিয়াল

@@ -3,7 +3,7 @@ title: "ਨਵੇਂ ਸ਼ੁਰੂਆਤੀ ਲਈ ਸਭ ਤੋਂ ਵਧੀ�
 draft: false
 toc: true
 date: 2023-05-28
-lastmod: 2026-10-08
+lastmod: 2026-11-12
 description: ਨਵੇਂ ਸ਼ੁਰੂਆਤੀ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਲਿਨਕਸ ਡਿਸਟ੍ਰੋਜ਼ ਲਈ 2026 ਦੀ ਵਿਸਤ੍ਰਿਤ ਗਾਈਡ, ਜਿਸ ਵਿੱਚ Ubuntu, Zorin OS, Linux Mint, Manjaro, ਅਤੇ Pop!_OS ਸ਼ਾਮਲ ਹਨ, ਵਿਸਤ੍ਰਿਤ ਤੁਲਨਾਵਾਂ, ਸਿਸਟਮ ਲੋੜਾਂ ਅਤੇ ਮਾਈਗ੍ਰੇਸ਼ਨ ਗਾਈਡਾਂ ਸਮੇਤ।
 tags:
 - ਲਿਨਕਸ ਡਿਸਟ੍ਰੋਜ਼
@@ -696,10 +696,10 @@ Elementary OS ਇਹਨਾਂ ਲਈ ਉਚਿਤ ਹੈ:
 ## ਲਿਨਕਸ ਸ਼ੁਰੂਆਤੀ ਲਈ ਸਿੱਖਣ ਦੇ ਸਰੋਤ
 
 ### ਅਧਿਕਾਰਿਕ ਦਸਤਾਵੇਜ਼
-- [Ubuntu Documentation](https://help.ubuntu.com/)
-- [Linux Mint User Guide](https://linuxmint.com/documentation.php)
+- [ਉਬੰਟੂ ਦਸਤਾਵੇਜ਼](https://help.ubuntu.com/)
+- [Linux Mint ਵਰਤੋਂਕਾਰ ਗਾਈਡ](https://linuxmint.com/documentation.php)
 - [Arch Wiki](https://wiki.archlinux.org/) (Manjaro ਲਈ ਲਾਗੂ)
-- [Elementary OS Learning Resources](https://elementary.io/docs/learning-the-basics)
+- [Elementary OS ਸਿੱਖਣ ਲਈ ਸਰੋਤ](https://elementary.io/docs/learning-the-basics)
 
 ### ਇੰਟਰਐਕਟਿਵ ਸਿੱਖਿਆ
 - [Linux Journey](https://linuxjourney.com/) - ਮੁਫ਼ਤ ਇੰਟਰਐਕਟਿਵ ਟਿਊਟੋਰਿਯਲ

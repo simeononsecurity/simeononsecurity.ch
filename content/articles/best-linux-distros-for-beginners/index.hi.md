@@ -3,7 +3,7 @@ title: "शुरुआती के लिए सर्वश्रेष्ठ
 draft: false
 toc: true
 date: 2023-05-28
-lastmod: 2026-10-08
+lastmod: 2026-11-12
 description: शुरुआती के लिए सर्वश्रेष्ठ लिनक्स वितरणों का व्यापक 2026 मार्गदर्शिका, जिसमें Ubuntu, Zorin OS, Linux Mint, Manjaro, और Pop!_OS शामिल हैं, विस्तृत तुलना, सिस्टम आवश्यकताएं, और माइग्रेशन गाइड के साथ।
 tags:
 - लिनक्स डिस्ट्रीब्यूशन्स
@@ -696,10 +696,10 @@ Elementary OS उपयुक्त है:
 ## लिनक्स शुरुआती के लिए सीखने के संसाधन
 
 ### आधिकारिक दस्तावेज़
-- [Ubuntu Documentation](https://help.ubuntu.com/)
-- [Linux Mint User Guide](https://linuxmint.com/documentation.php)
+- [उबंटू दस्तावेज़ीकरण](https://help.ubuntu.com/)
+- [लिनक्स मिंट उपयोगकर्ता मार्गदर्शिका](https://linuxmint.com/documentation.php)
 - [Arch Wiki](https://wiki.archlinux.org/) (Manjaro पर लागू)
-- [Elementary OS Learning Resources](https://elementary.io/docs/learning-the-basics)
+- [Elementary OS सीखने के संसाधन](https://elementary.io/docs/learning-the-basics)
 
 ### इंटरैक्टिव लर्निंग
 - [Linux Journey](https://linuxjourney.com/) - मुफ्त इंटरैक्टिव ट्यूटोरियल

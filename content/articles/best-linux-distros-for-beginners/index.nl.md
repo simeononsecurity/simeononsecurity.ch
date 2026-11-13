@@ -3,7 +3,7 @@ title: "Beste Linux-distributies voor beginners 2026"
 draft: false
 toc: true
 date: 2023-05-28
-lastmod: 2026-10-08
+lastmod: 2026-11-12
 description: Uitgebreide gids 2026 voor de beste Linux-distributies voor beginners, inclusief Ubuntu, Zorin OS, Linux Mint, Manjaro en Pop!_OS met gedetailleerde vergelijkingen, systeemeisen en migratiehandleidingen.
 tags:
 - Linux-distributies
@@ -464,7 +464,7 @@ Elementary volgt strikte ontwerprichtlijnen die zorgen voor:
 
 **AppCenter**: Elementary's zorgvuldig samengestelde app store biedt:
 - Native apps ontworpen voor Elementary
-- Pay-what-you-want model ter ondersteuning van ontwikkelaars
+- Model waarbij je zelf bepaalt wat je betaalt, ter ondersteuning van ontwikkelaars
 - Hoogwaardige, goed ontworpen applicaties
 - Strikt beoordelingsproces dat kwaliteit waarborgt
 
@@ -484,7 +484,7 @@ Elementary volgt strikte ontwerprichtlijnen die zorgen voor:
 - **Grafisch**: Geoptimaliseerd voor vloeiende animaties
 - **Installatietijd**: 15 minuten
 
-### Pay-What-You-Want Model
+### Model waarbij je zelf de prijs bepaalt
 
 Elementary gebruikt een uniek distributiemodel:
 - Voorgestelde betaling van $25 bij download
