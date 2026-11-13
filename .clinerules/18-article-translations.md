@@ -105,11 +105,11 @@
 - Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
   for each finished bundle. For a repository audit, use
   `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.
-  The checker flags empty bodies, repeated English source paragraphs, English
-  stopword dominance, missing expected scripts, and exact English reader
-  metadata. Treat each result as a manual-review queue. Inspect all reader-facing
-  metadata and prose, resolve confirmed English copy, and record any false
-  positives before peer review. Do not approve a bundle solely because the
+  The checker flags missing locale files, empty bodies, repeated English source
+  paragraphs, English stopword dominance, missing expected scripts, and exact
+  English reader metadata. Treat each result as a manual-review queue. Inspect
+  all reader-facing metadata and prose, resolve confirmed English copy, and
+  record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
 - Scan the full translated prose for style violations. A filter requiring Latin
   letters skips paragraphs written entirely in another script.

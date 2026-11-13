@@ -143,6 +143,17 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             alternatives = sorted(source.parent.rglob(f"index.{locale}.md"))
             alternatives = [path for path in alternatives if path != source]
             if not alternatives:
+                findings.append({
+                    "path": target.relative_to(ROOT).as_posix(),
+                    "locale": locale,
+                    "reasons": "translation_missing",
+                    "tokens": "0",
+                    "english_stopword_ratio": "0.000",
+                    "locale_stopword_ratio": "0.000",
+                    "exact_english_paragraphs": "0/0",
+                    "expected_script_ratio": "",
+                    "note": "Configured locale file is missing.",
+                })
                 continue
             target = alternatives[0]
             misplaced = True
