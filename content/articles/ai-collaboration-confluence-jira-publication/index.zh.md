@@ -1,7 +1,7 @@
 ---
 title: "GitHub、Confluence 与 Jira 的 AI 发布工作流"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "通过版本检查和部分发布恢复，在 Confluence、GitHub 与 Jira 中发布固定的保留期限提案。"
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **只向聊天提供必要的合成摘录**，标记为快照，并禁用所有可写操作。
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+任务：PROP-042，仅提出提案
+依据：意图以 Confluence REQ-17 为准，行为以 GitHub 为准
+读取：映射的当前页面、版本、范围和例外
+提案：将合成导出文件的保留期从 7 天改为 30 天
+输出：需求文本、配置差异、运行手册和台账
+证据：每项事实主张的来源 ID 和记录的修订版本
+未知项：无法访问且缺少运行时观察
+出现冲突、基线变化或访问被拒时停止
 ```
-
 **离线资料包仍基于快照。**发布者在写入前重新读取当前来源。访问被拒会阻止发布。旧导出文件不能替代当前授权。
 
 ## 固定提案
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **冻结内容，而不只是提案标签。**PROP-042 会出现在每个系统中，但标签无法识别负责人评审的具体正文。将精确的需求措辞、实现 diff、运行手册措辞、来源版本和发布顺序放入同一个固定资料包。
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+提案包：PROP-042 修订版 1，示例
+意图：将合成导出文件的保留期从 7 天改为 30 天
+排除项：生产数据、备份和法律保全
+需求修订：固定的 REQ-17 提案文本
+实现：固定的候选差异和受保护基线引用
+运行手册修订：固定的 RUN-04 文本和恢复限制
+审查：此软件包的产品和运营决策
+交付：需求 -> 实现 -> 运行手册 -> 关闭
+来源变化、缺少审查、写入被拒或回读失败时停止
 ```
-
 **让两位负责人都能读懂资料包。**产品团队需要了解意图和排除项。运维团队需要了解操作变化和恢复边界。双方都要理解已批准意图与已交付配置不一致的时间段。对于不熟悉仓库文件的负责人，仅有代码 diff 不够。
 
 **此合成示例的完整资料包内容：**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+提议的 REQ-17 v5：“合成导出文件从创建之日起保留 30 天。本试点不包含生产数据、备份或法律保全。在 GitHub 配置和 RUN-04 回读结果符合此批准文本之前，交付保持待处理状态。”
 
-GitHub config.json, proposed change against base-001:
+GitHub config.json，相对于 base-001 的提议更改：
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+提议的 RUN-04 v3：“保留天数：30。仅限合成导出文件。本实验室不会运行删除任务。如果发布失败，请保持交付待处理，回读每个来源，并在恢复为 7 天配置或完成 30 天发布之前取得负责人的批准。”
 ```
-
 这些句子是示例提案文本，不是实时租户记录。评审前附上实际基线 commit 和页面版本。固定资料包必须包含完整的拟议正文，而不是让负责人自行推断内容的摘要。
 
 **将离线快照与实时发布分开。**首次写入前，发布者重新检查映射页面，维护者重新检查受保护基线。任何一项发生变化，旧资料包都会停在 `Review`。

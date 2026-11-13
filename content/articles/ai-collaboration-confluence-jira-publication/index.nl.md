@@ -1,7 +1,7 @@
 ---
 title: "AI-publicatieworkflow voor GitHub, Confluence en Jira"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Publiceer een vast retentievoorstel in Confluence, GitHub en Jira met versiecontroles en herstel na gedeeltelijke publicatie."
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **Geef alleen de noodzakelijke synthetische fragmenten door** aan de chat, markeer ze als momentopnamen en houd schrijfbevoegde acties uitgeschakeld.
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+Taak: PROP-042, alleen voorstel
+Bevoegdheid: Confluence REQ-17 voor intentie, GitHub voor gedrag
+Lees: gekoppelde huidige pagina’s, versies, bereik en uitzonderingen
+Voorstel: bewaartermijn voor synthetische exports wijzigen van 7 naar 30 dagen
+Resultaat: vereistekst, configuratieverschil, runbook en register
+Bewijs: bron-ID en vastgelegde revisie voor elke feitelijke bewering
+Onbekend: ontbrekende toegang en ontbrekende runtimewaarnemingen
+Stop bij conflict, gewijzigde basis of geweigerde toegang
 ```
-
 **Offline pakketten blijven momentopnamen.** De publiceerder voert opnieuw live controles uit voordat er iets wordt geschreven. Geweigerde toegang blokkeert publicatie. Een oude export vervangt geen actuele toestemming.
 
 ## Het voorstel vastzetten
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **Bevries de inhoud, niet alleen het voorstelnummer.** PROP-042 verschijnt in elk systeem, maar een label geeft niet aan welke inhoud de eigenaar heeft beoordeeld. Neem de exacte vereiste tekst, implementatiediff, draaiboektekst, bronversies en publicatievolgorde op in één vast pakket.
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+Pakket: PROP-042 revisie 1, ter illustratie
+Intentie: bewaartermijn voor synthetische exports wijzigen van 7 naar 30 dagen
+Uitgesloten: productiegegevens, back-ups en wettelijke bewaarplichten
+Wijziging vereiste: vastgelegde voorgestelde REQ-17-tekst
+Implementatie: vast kandidaatverschil en verwijzing naar beschermde basis
+Wijziging runbook: vastgelegde RUN-04-tekst en herstelgrenzen
+Beoordeling: product- en operationele besluiten voor dit pakket
+Overdracht: vereiste -> implementatie -> runbook -> afsluiting
+Stop bij gewijzigde bron, ontbrekende beoordeling, geweigerde schrijfrechten of mislukte teruglezing
 ```
-
 **Houd het pakket leesbaar voor beide eigenaren.** Product heeft de intentie en uitzonderingen nodig. Operations heeft de operationele wijziging en herstelgrens nodig. Beiden moeten begrijpen in welke periode de goedgekeurde intentie en de opgeleverde configuratie verschillen. Een kale codediff volstaat niet voor een eigenaar die de repositorybestanden niet kent.
 
 **Ingevulde pakketinhoud voor dit synthetische voorbeeld:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+Voorgestelde REQ-17 v5: "Synthetische exportbestanden worden 30 dagen vanaf aanmaak bewaard. Deze pilot omvat geen productiegegevens, back-ups of wettelijke bewaarplichten. De overdracht blijft in behandeling totdat de GitHub-configuratie en de terugleesresultaten van RUN-04 met deze goedgekeurde tekst overeenkomen."
 
-GitHub config.json, proposed change against base-001:
+GitHub-configuratie config.json, voorgestelde wijziging ten opzichte van base-001:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+Voorgestelde RUN-04 v3: "Bewaartermijn: 30 dagen. Alleen synthetische exports. In dit lab draait geen verwijdertaak. Als publicatie mislukt, houd de overdracht in behandeling, lees elke bron opnieuw en vraag goedkeuring van de eigenaar voordat je de configuratie van zeven dagen herstelt of de publicatie van dertig dagen voltooit."
 ```
-
 Deze teksten zijn voorbeeldvoorstellen, geen gegevens uit een live tenant. Voeg vóór de review de daadwerkelijke basiscommit en paginaversies toe. Het vaste pakket bevat de volledige voorgestelde teksten, niet alleen een samenvatting waarvoor een eigenaar ontbrekende details moet invullen.
 
 **Houd de offline momentopname gescheiden van live publicatie.** Een consistentiecontrole toont overeenstemming tussen vastgelegde gegevens. Direct vóór de eerste wijziging controleert de publiceerder de gekoppelde pagina's opnieuw en controleert de beheerder de beveiligde basis opnieuw. Is een van beide gewijzigd, dan stopt het oude pakket bij `Review`.

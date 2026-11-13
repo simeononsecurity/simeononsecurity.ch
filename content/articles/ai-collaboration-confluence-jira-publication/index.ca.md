@@ -1,7 +1,7 @@
 ---
 title: "Flux de publicació amb IA a GitHub, Confluence i Jira"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Publica una proposta fixa de retenció a Confluence, GitHub i Jira amb comprovacions de versions i recuperació davant d'una publicació parcial."
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **Proporciona al xat només els fragments sintètics necessaris**, marca'ls com a instantànies i mantén desactivades les accions d'escriptura.
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+Tasca: PROP-042, només proposta
+Autoritat: Confluence REQ-17 per a la intenció i GitHub per al comportament
+Llegeix: pàgines actuals mapejades, versions, abast i excepcions
+Proposta: canviar de 7 a 30 dies la retenció d’exportacions sintètiques
+Resultat: text del requisit, diferència de configuració, runbook i registre
+Proves: ID de la font i revisió capturada per a cada afirmació factual
+Incògnites: accés absent i manca d’observacions en temps d’execució
+Atura’t davant d’un conflicte, un canvi de base o un accés denegat
 ```
-
 **Els paquets fora de línia continuen basant-se en instantànies.** El publicador torna a llegir les fonts actuals abans d'escriure. La denegació d'accés bloqueja la publicació. Una exportació antiga no substitueix l'autorització actual.
 
 ## Fixar la proposta
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **Fixa el contingut, no només l'etiqueta de la proposta.** PROP-042 apareix en cada sistema, però una etiqueta no identifica el contingut que ha revisat el responsable. Inclou en un únic paquet fix el text exacte del requisit, el diff d'implementació, el text del runbook, les versions de les fonts i la seqüència de publicació.
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+Paquet: PROP-042 revisió 1, il·lustratiu
+Intenció: canviar de 7 a 30 dies la retenció d’exportacions sintètiques
+Exclusions: dades de producció, còpies de seguretat i retencions legals
+Esmena del requisit: text fixat de REQ-17 proposat
+Implementació: diferència candidata fixada i referència a la base protegida
+Esmena del runbook: text fixat de RUN-04 i límits de recuperació
+Revisió: decisions de producte i operacions per a aquest paquet
+Lliurament: requisit -> implementació -> runbook -> tancament
+Atura’t si canvia la font, falta la revisió, es denega l’escriptura o falla la relectura
 ```
-
 **Fes que el paquet sigui llegible per als dos responsables.** Producte necessita la intenció i les exclusions. Operacions necessita el canvi operatiu i els límits de recuperació. Tots dos han d'entendre el període en què la intenció aprovada i la configuració lliurada difereixen. Un diff de codi sense més no és suficient per a un responsable que no coneix els fitxers del repositori.
 
 **Contingut completat del paquet per a aquest exemple sintètic:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+REQ-17 proposat v5: "Els fitxers d’exportació sintètics es conserven durant 30 dies des de la creació. Aquest pilot exclou les dades de producció, les còpies de seguretat i les retencions legals. El lliurament queda pendent fins que la configuració de GitHub i les lectures de comprovació de RUN-04 coincideixin amb aquest text aprovat."
 
-GitHub config.json, proposed change against base-001:
+Configuració GitHub config.json, canvi proposat respecte de base-001:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+RUN-04 proposat v3: "Dies de retenció: 30. Només exportacions sintètiques. En aquest laboratori no s’executa cap tasca de supressió. Si falla la publicació, mantén el lliurament pendent, torna a llegir cada font i obtén l’aprovació del responsable abans de restaurar la configuració de set dies o completar la publicació de trenta dies."
 ```
-
 Aquestes frases són textos de proposta d'exemple, no registres d'un tenant actiu. Adjunta el commit de base real i les versions de les pàgines abans de la revisió. El paquet fix ha d'incloure tots els textos proposats, no un resum que obligui el responsable a deduir-los.
 
 **Separa la instantània fora de línia de la publicació en directe.** Just abans de la primera escriptura, el publicador torna a comprovar les pàgines assignades i el mantenidor torna a comprovar la base protegida. Si alguna ha canviat, el paquet antic s'atura a `Review`.

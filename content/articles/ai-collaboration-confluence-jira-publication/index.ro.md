@@ -1,7 +1,7 @@
 ---
 title: "Flux de publicare AI în GitHub, Confluence și Jira"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Publică o propunere fixă de retenție în Confluence, GitHub și Jira, cu verificări de versiune și recuperare după publicarea parțială."
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **Furnizează chatului doar fragmentele sintetice necesare**, marchează-le ca instantanee și dezactivează acțiunile de scriere.
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+Sarcină: PROP-042, doar propunere
+Autoritate: Confluence REQ-17 pentru intenție, GitHub pentru comportament
+Citește: paginile curente mapate, versiunile, domeniul și excepțiile
+Propunere: schimbă păstrarea exporturilor sintetice de la 7 la 30 de zile
+Rezultat: textul cerinței, diferența de configurare, runbook și registru
+Dovezi: ID-ul sursei și revizia capturată pentru fiecare afirmație factuală
+Necunoscute: acces indisponibil și lipsa observațiilor în timpul execuției
+Oprește-te la conflict, bază modificată sau acces refuzat
 ```
-
 **Pachetele offline rămân bazate pe instantanee.** Editorul recitește sursele actuale înainte de a scrie. Refuzul accesului blochează publicarea. Un export vechi nu înlocuiește autorizarea actuală.
 
 ## Fixează propunerea
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **Fixează conținutul, nu doar eticheta propunerii.** PROP-042 apare în fiecare sistem, dar o etichetă nu identifică textul revizuit de responsabil. Include textul exact al cerinței, diff-ul de implementare, textul runbook-ului, versiunile surselor și ordinea publicării într-un singur pachet fix.
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+Pachet: PROP-042 revizia 1, ilustrativ
+Intenție: schimbă păstrarea exporturilor sintetice de la 7 la 30 de zile
+Excluderi: date de producție, copii de siguranță și obligații legale de păstrare
+Amendamentul cerinței: textul propus și fixat pentru REQ-17
+Implementare: diferență candidată fixată și referință la baza protejată
+Amendamentul runbookului: textul fixat pentru RUN-04 și limitele recuperării
+Revizuire: deciziile de produs și operațiuni pentru acest pachet
+Predare: cerință -> implementare -> runbook -> închidere
+Oprește-te dacă se schimbă sursa, lipsește revizuirea, scrierea este refuzată sau recitirea eșuează
 ```
-
 **Păstrează pachetul lizibil pentru ambii responsabili.** Produsul are nevoie de intenție și excluderi. Operațiunile au nevoie de schimbarea operațională și limitele de recuperare. Ambii trebuie să înțeleagă perioada în care intenția aprobată și configurația livrată diferă. Un simplu diff de cod nu este suficient pentru un responsabil nefamiliarizat cu fișierele depozitului.
 
 **Conținutul completat al pachetului pentru acest exemplu sintetic:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+REQ-17 propus v5: "Fișierele de export sintetice sunt păstrate timp de 30 de zile de la creare. Acest pilot exclude datele de producție, copiile de siguranță și obligațiile legale de păstrare. Predarea rămâne în așteptare până când configurația GitHub și recitirile RUN-04 corespund acestui text aprobat."
 
-GitHub config.json, proposed change against base-001:
+Configurația GitHub config.json, modificare propusă față de base-001:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+RUN-04 propus v3: "Zile de păstrare: 30. Numai exporturi sintetice. În acest laborator nu rulează nicio sarcină de ștergere. Dacă publicarea eșuează, păstrează predarea în așteptare, recitește fiecare sursă și obține aprobarea proprietarului înainte de a restaura configurația de șapte zile sau de a încheia publicarea de treizeci de zile."
 ```
-
 Aceste formulări sunt texte propuse pentru exemplu, nu înregistrări active ale tenantului. Atașează commit-ul de bază real și versiunile paginilor înainte de revizuire. Pachetul fix trebuie să includă corpurile propuse complete, nu un rezumat care obligă responsabilul să le deducă.
 
 **Separă instantaneul offline de publicarea activă.** Chiar înainte de prima scriere, editorul verifică din nou paginile mapate, iar responsabilul depozitului verifică din nou baza protejată. Dacă oricare s-a schimbat, pachetul vechi se oprește la `Review`.

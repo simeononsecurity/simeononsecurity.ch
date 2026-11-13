@@ -1,7 +1,7 @@
 ---
 title: "سير عمل النشر بالذكاء الاصطناعي في GitHub وConfluence وJira"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "انشر مقترح احتفاظ ثابتًا عبر Confluence وGitHub وJira مع فحوص الإصدارات والتعافي من النشر الجزئي."
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **زوّد الدردشة بالمقتطفات الاصطناعية اللازمة فقط**، وعلّمها بأنها لقطات، وأبقِ إجراءات الكتابة معطلة.
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+المهمة: PROP-042، اقتراح فقط
+الصلاحية: Confluence REQ-17 للنية، وGitHub للسلوك
+اقرأ: الصفحات الحالية المحددة وإصداراتها ونطاقها واستثناءاتها
+الاقتراح: تغيير مدة الاحتفاظ بتصديرات اصطناعية من 7 إلى 30 يومًا
+المخرجات: صياغة المتطلب، وفارق الإعدادات، ودليل التشغيل، والسجل
+الأدلة: معرّف المصدر والمراجعة المسجلة لكل ادعاء واقعي
+المجهولات: الوصول غير المتاح وملاحظات وقت التشغيل الغائبة
+توقف عند: تعارض أو تغيّر الأساس أو رفض الوصول
 ```
-
 **تظل الحزم غير المتصلة مبنية على اللقطات.** يعيد مسؤول النشر قراءة المصادر الحالية قبل الكتابة. يمنع رفض الوصول النشر. ولا يحل تصدير قديم محل التفويض الحالي.
 
 ## تثبيت المقترح
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **ثبّت المحتوى، لا تسمية المقترح فقط.** يظهر PROP-042 في كل نظام، لكن التسمية لا تحدد النص الذي راجعه المالك. أدرج صياغة المتطلب الدقيقة وفرق التنفيذ وصياغة دليل التشغيل وإصدارات المصادر وتسلسل النشر في حزمة ثابتة واحدة.
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+الحزمة: PROP-042، المراجعة 1، للتوضيح
+النية: تغيير مدة الاحتفاظ بتصديرات اصطناعية من 7 إلى 30 يومًا
+الاستثناءات: بيانات الإنتاج والنسخ الاحتياطية والاحتجازات القانونية
+تعديل المتطلب: صياغة REQ-17 المقترحة والثابتة
+التنفيذ: الفارق المرشح الثابت ومرجع الأساس المحمي
+تعديل دليل التشغيل: صياغة RUN-04 الثابتة وحدود الاستعادة
+المراجعة: قرارات المنتج والعمليات لهذه الحزمة
+التسليم: المتطلب -> التنفيذ -> دليل التشغيل -> الإغلاق
+توقف عند: تغيّر المصدر أو غياب المراجعة أو رفض الكتابة أو فشل إعادة القراءة
 ```
-
 **اجعل الحزمة واضحة لكلا المالكين.** يحتاج فريق المنتج إلى النية والاستثناءات. ويحتاج فريق العمليات إلى تغيير التشغيل وحدود التعافي. ويجب أن يفهم الاثنان فترة اختلاف النية المعتمدة عن الإعداد الذي جرى تسليمه. لا يكفي فرق شيفرة مجرد لمالك لا يعرف ملفات المستودع.
 
 **محتوى الحزمة المعبأة لهذا المثال الاصطناعي:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+REQ-17 المقترح v5: "تُحفظ ملفات التصدير الاصطناعية لمدة 30 يومًا من وقت إنشائها. لا تشمل هذه التجربة بيانات الإنتاج أو النسخ الاحتياطية أو الاحتجازات القانونية. يظل التسليم معلقًا إلى أن يتطابق إعداد GitHub ونتائج إعادة قراءة RUN-04 مع هذه الصياغة المعتمدة."
 
-GitHub config.json, proposed change against base-001:
+إعداد GitHub config.json، التغيير المقترح مقارنةً بـ base-001:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+RUN-04 المقترح v3: "مدة الاحتفاظ: 30 يومًا. التصديرات الاصطناعية فقط. لا تعمل أي مهمة حذف في هذا المختبر. إذا فشل النشر، فأبقِ التسليم معلقًا، وأعد قراءة كل مصدر، واحصل على موافقة المالك قبل استعادة إعداد الأيام السبعة أو إكمال النشر لمدة ثلاثين يومًا."
 ```
-
 هذه النصوص مقترحة كمثال وليست سجلات فعلية للمستأجر. أرفق commit الأساس الفعلي وإصدارات الصفحات قبل المراجعة. يجب أن تتضمن الحزمة الثابتة الأجسام المقترحة كاملة، لا ملخصًا يضطر المالك إلى استنتاج محتواها.
 
 **افصل اللقطة غير المتصلة عن النشر المباشر.** قبل أول كتابة مباشرة، يعيد مسؤول النشر فحص الصفحات المرتبطة، ويعيد المشرف فحص الأساس المحمي. إذا تغير أي منهما، تتوقف الحزمة القديمة عند `Review`.

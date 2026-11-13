@@ -1,7 +1,7 @@
 ---
 title: "GitHub, Confluence और Jira में AI प्रकाशन कार्यप्रवाह"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "संस्करण जाँच और आंशिक प्रकाशन से पुनर्प्राप्ति के साथ Confluence, GitHub और Jira में निश्चित प्रतिधारण प्रस्ताव प्रकाशित करें।"
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **चैट को केवल आवश्यक सिंथेटिक अंश दें**, उन्हें स्नैपशॉट चिह्नित करें और लेखन-सक्षम कार्रवाइयाँ बंद रखें।
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+कार्य: PROP-042, केवल प्रस्ताव
+प्राधिकरण: उद्देश्य के लिए Confluence REQ-17, व्यवहार के लिए GitHub
+पढ़ें: मैप किए गए मौजूदा पृष्ठ, संस्करण, दायरा और अपवाद
+प्रस्ताव: सिंथेटिक एक्सपोर्ट रखने की अवधि 7 से 30 दिन करें
+आउटपुट: आवश्यकता का पाठ, कॉन्फ़िगरेशन अंतर, रनबुक और रजिस्टर
+साक्ष्य: हर तथ्यात्मक दावे के लिए स्रोत ID और दर्ज किया गया संशोधन
+अज्ञात: पहुँच की कमी और रनटाइम अवलोकनों का अभाव
+टकराव, बदले हुए आधार या अस्वीकृत पहुँच पर रुकें
 ```
-
 **ऑफ़लाइन पैकेट स्नैपशॉट पर आधारित रहते हैं।** लिखने से पहले प्रकाशक मौजूदा स्रोत फिर पढ़ता है। पहुँच अस्वीकृत होने पर प्रकाशन रुकता है। पुराना एक्सपोर्ट मौजूदा प्राधिकरण का विकल्प नहीं है।
 
 ## प्रस्ताव स्थिर करें
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **केवल प्रस्ताव लेबल नहीं, पूरा कंटेंट स्थिर करें।** PROP-042 हर प्रणाली में दिखता है, लेकिन लेबल यह नहीं बताता कि मालिक ने कौन-सा बॉडी देखा था। सटीक आवश्यकता शब्दावली, कार्यान्वयन diff, रनबुक शब्दावली, स्रोत संस्करण और प्रकाशन क्रम एक निश्चित पैकेज में रखें।
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+पैकेज: PROP-042 संशोधन 1, उदाहरणार्थ
+उद्देश्य: सिंथेटिक एक्सपोर्ट रखने की अवधि 7 से 30 दिन करें
+अपवर्जन: प्रोडक्शन डेटा, बैकअप और कानूनी रोक
+आवश्यकता संशोधन: प्रस्तावित REQ-17 का तय पाठ
+कार्यान्वयन: तय उम्मीदवार अंतर और सुरक्षित आधार संदर्भ
+रनबुक संशोधन: तय RUN-04 पाठ और पुनर्प्राप्ति सीमाएँ
+समीक्षा: इस पैकेज के उत्पाद और संचालन संबंधी निर्णय
+डिलीवरी: आवश्यकता -> कार्यान्वयन -> रनबुक -> समापन
+स्रोत बदलने, समीक्षा न होने, लिखने की अनुमति न मिलने या दोबारा पढ़ने में विफलता पर रुकें
 ```
-
 **पैकेट दोनों मालिकों के लिए पढ़ने योग्य रखें।** प्रोडक्ट को मंशा और बहिष्करण चाहिए। ऑपरेशंस को संचालन बदलाव और पुनर्प्राप्ति सीमा चाहिए। स्वीकृत मंशा और डिलीवर कॉन्फ़िगरेशन अलग रहने की अवधि दोनों समझें। रिपॉज़िटरी फ़ाइलें न जानने वाले मालिक के लिए केवल कोड diff पर्याप्त नहीं।
 
 **इस सिंथेटिक उदाहरण के लिए भरा हुआ पैकेज:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+प्रस्तावित REQ-17 v5: "सिंथेटिक एक्सपोर्ट फ़ाइलें बनने के समय से 30 दिन तक रखी जाती हैं। इस पायलट में प्रोडक्शन डेटा, बैकअप और कानूनी रोक शामिल नहीं हैं। GitHub कॉन्फ़िगरेशन और RUN-04 को दोबारा पढ़ने के नतीजे इस स्वीकृत पाठ से मेल खाने तक डिलीवरी लंबित रहेगी।"
 
-GitHub config.json, proposed change against base-001:
+GitHub config.json, base-001 के मुकाबले प्रस्तावित बदलाव:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+प्रस्तावित RUN-04 v3: "रखने की अवधि: 30 दिन। केवल सिंथेटिक एक्सपोर्ट। इस लैब में कोई मिटाने वाला काम नहीं चलता। प्रकाशन विफल होने पर डिलीवरी लंबित रखें, हर स्रोत को दोबारा पढ़ें और 7-दिन वाला कॉन्फ़िगरेशन बहाल करने या 30-दिन का प्रकाशन पूरा करने से पहले मालिक की मंज़ूरी लें।"
 ```
-
 ये वाक्य उदाहरण प्रस्ताव हैं, लाइव टेनेंट रिकॉर्ड नहीं। समीक्षा से पहले वास्तविक आधार commit और पेज संस्करण संलग्न करें। निश्चित पैकेज में प्रस्तावित पूरे बॉडी हों, ऐसा सारांश नहीं जिससे मालिक को स्वयं अनुमान लगाना पड़े।
 
 **ऑफ़लाइन स्नैपशॉट और लाइव प्रकाशन अलग रखें।** पहले लेखन से ठीक पहले प्रकाशक मैप किए गए पेज फिर जाँचता है और अनुरक्षक सुरक्षित आधार फिर जाँचता है। कोई भी बदल गया हो तो पुराना पैकेज `Review` पर रुकता है।

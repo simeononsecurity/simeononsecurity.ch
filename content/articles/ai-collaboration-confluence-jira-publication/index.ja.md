@@ -1,7 +1,7 @@
 ---
 title: "GitHub、Confluence、JiraでAIの成果を公開する手順"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "保持期間の固定提案をConfluence、GitHub、Jiraで公開し、バージョンを確認して部分公開から復旧します。"
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **必要な合成データの抜粋だけを**チャットに渡し、スナップショットと明記します。書き込み権限のある操作は無効にします。
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+タスク: PROP-042、提案のみ
+権威: 意図はConfluence REQ-17、動作はGitHub
+確認: 対応する現行ページ、バージョン、範囲、例外
+提案: 合成エクスポートの保持期間を7日から30日に変更
+成果物: 要件文、設定差分、runbook、台帳
+証拠: 事実の主張ごとのソースIDと記録したリビジョン
+不明点: アクセス不足と実行時の観測不足
+競合、ベースの変更、アクセス拒否があれば停止
 ```
-
 **オフラインのパケットはスナップショットです。** 公開担当者は書き込み前に最新情報を再確認します。アクセス拒否は公開を停止する理由になります。古いエクスポートは現在の承認の代わりになりません。
 
 ## 提案を固定する
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **提案ラベルだけでなく、内容を固定します。** PROP-042は各システムに表示されますが、ラベルだけではオーナーが確認した本文を特定できません。要件の正確な文面、実装diff、ランブックの文面、情報源のバージョン、公開順序を1つの固定パッケージに含めます。
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+パッケージ: PROP-042 リビジョン1、説明用
+意図: 合成エクスポートの保持期間を7日から30日に変更
+対象外: 本番データ、バックアップ、法的保全
+要件の修正: 提案するREQ-17の確定文
+実装: 固定した候補差分と保護されたベース参照
+runbookの修正: 確定したRUN-04の文面と復旧範囲
+レビュー: このパッケージに対する製品と運用の判断
+引き渡し: 要件 -> 実装 -> runbook -> 完了
+ソース変更、レビュー不足、書き込み拒否、再読み込み失敗があれば停止
 ```
-
 **両オーナーが読めるパッケージにします。** プロダクト担当には意図と除外事項が必要です。運用担当には運用上の変更と復旧境界が必要です。承認済みの意図と配信済みの構成が異なる期間を、両者が理解する必要があります。リポジトリのファイルを知らないオーナーには、コードdiffだけでは足りません。
 
 **この合成例における入力済みパッケージ:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+提案するREQ-17 v5: "合成エクスポートファイルは作成時から30日間保持する。このパイロットでは本番データ、バックアップ、法的保全を対象外とする。GitHubの設定とRUN-04の再読み込み結果がこの承認済み文面と一致するまで、引き渡しは保留する。"
 
-GitHub config.json, proposed change against base-001:
+GitHub config.json、base-001に対する提案変更:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+提案するRUN-04 v3: "保持日数: 30日。合成エクスポートのみ。このラボでは削除ジョブを実行しない。公開に失敗した場合は引き渡しを保留し、各ソースを再読み込みして、7日設定の復元または30日公開の完了前にオーナーの承認を得る。"
 ```
-
 これらの文字列は合成例の提案文であり、実際のテナントの記録ではありません。レビュー前に実際のベースコミットとページバージョンを添付します。固定パッケージには、オーナーが内容を推測しなくて済むように、要約ではなく提案する本文全体を含めます。
 
 **オフラインのスナップショットとライブ公開を分けます。** 整合性チェックで確認できるのは、取得済みの記録どうしの一致です。最初の書き込みの直前に、公開担当者は対応付けられたページを再確認し、メンテナーは保護されたベースを再確認します。どちらかが変更されていたら、古いパッケージを`Review`で止めます。

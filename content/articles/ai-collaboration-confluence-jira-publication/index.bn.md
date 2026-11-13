@@ -1,7 +1,7 @@
 ---
 title: "GitHub, Confluence এবং Jira-তে AI প্রকাশনা কর্মপ্রবাহ"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ভার্সন পরীক্ষা এবং আংশিক প্রকাশনা থেকে পুনরুদ্ধারসহ Confluence, GitHub ও Jira জুড়ে নির্দিষ্ট রিটেনশন প্রস্তাব প্রকাশ করুন।"
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **চ্যাটে কেবল প্রয়োজনীয় কৃত্রিম অংশ দিন**, সেগুলোকে স্ন্যাপশট হিসেবে চিহ্নিত করুন এবং লেখার ক্ষমতাসম্পন্ন কাজ বন্ধ রাখুন।
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+কাজ: PROP-042, শুধু প্রস্তাব
+কর্তৃত্ব: উদ্দেশ্যের জন্য Confluence REQ-17, আচরণের জন্য GitHub
+পড়ুন: ম্যাপ করা বর্তমান পৃষ্ঠা, সংস্করণ, পরিসর ও ব্যতিক্রম
+প্রস্তাব: কৃত্রিম এক্সপোর্ট ধরে রাখার সময় 7 থেকে 30 দিনে পরিবর্তন
+আউটপুট: শর্তের ভাষ্য, কনফিগারেশন ডিফ, রানবুক ও লেজার
+প্রমাণ: প্রতিটি তথ্যভিত্তিক দাবির জন্য উৎস ID ও ধারণ করা রিভিশন
+অজানা বিষয়: অনুপস্থিত অ্যাক্সেস ও রানটাইম পর্যবেক্ষণের অভাব
+থামুন: দ্বন্দ্ব, বেস পরিবর্তন বা অ্যাক্সেস অস্বীকৃত হলে
 ```
-
 **অফলাইন প্যাকেট স্ন্যাপশট-ভিত্তিক থাকে।** লেখার আগে প্রকাশক বর্তমান উৎস আবার পড়েন। প্রবেশাধিকার না পেলে প্রকাশনা বন্ধ থাকে। পুরোনো এক্সপোর্ট বর্তমান অনুমোদনের বিকল্প নয়।
 
 ## প্রস্তাব স্থির করুন
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **শুধু প্রস্তাবের লেবেল নয়, কনটেন্ট স্থির করুন।** PROP-042 প্রতিটি সিস্টেমে থাকে, কিন্তু লেবেল মালিক যে বডি পর্যালোচনা করেছেন তা শনাক্ত করে না। সঠিক প্রয়োজনীয়তার ভাষ্য, বাস্তবায়ন diff, রানবুকের ভাষ্য, উৎস সংস্করণ এবং প্রকাশনার ক্রম এক স্থির প্যাকেজে রাখুন।
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+প্যাকেজ: PROP-042 রিভিশন 1, উদাহরণ
+উদ্দেশ্য: কৃত্রিম এক্সপোর্ট ধরে রাখার সময় 7 থেকে 30 দিনে পরিবর্তন
+বর্জন: প্রোডাকশন ডেটা, ব্যাকআপ ও আইনি হোল্ড
+শর্ত সংশোধন: স্থির প্রস্তাবিত REQ-17 ভাষ্য
+বাস্তবায়ন: স্থির প্রার্থী ডিফ ও সুরক্ষিত বেসের রেফারেন্স
+রানবুক সংশোধন: স্থির RUN-04 ভাষ্য ও পুনরুদ্ধারের সীমা
+পর্যালোচনা: এই প্যাকেজের পণ্য ও অপারেশন সিদ্ধান্ত
+ডেলিভারি: শর্ত -> বাস্তবায়ন -> রানবুক -> সমাপ্তি
+থামুন: উৎস বদলালে, পর্যালোচনা না থাকলে, লেখার অনুমতি না থাকলে বা পুনরায় পড়া ব্যর্থ হলে
 ```
-
 **দুই মালিকের কাছেই প্যাকেটটি পাঠযোগ্য রাখুন।** প্রোডাক্টের অভিপ্রায় ও বর্জনের বিবরণ দরকার। অপারেশনসের অপারেটিং পরিবর্তন ও পুনরুদ্ধারের সীমা দরকার। অনুমোদিত অভিপ্রায় ও সরবরাহকৃত কনফিগারেশনের পার্থক্যের সময়কাল দুজনেরই বুঝতে হবে। রিপোজিটরি ফাইলের সঙ্গে পরিচিত নন এমন মালিকের জন্য শুধু কোড diff যথেষ্ট নয়।
 
 **এই কৃত্রিম উদাহরণের পূরণ করা প্যাকেজ:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+প্রস্তাবিত REQ-17 v5: "কৃত্রিম এক্সপোর্ট ফাইল তৈরির সময় থেকে 30 দিন রাখা হবে। এই পাইলটে প্রোডাকশন ডেটা, ব্যাকআপ ও আইনি হোল্ড অন্তর্ভুক্ত নয়। GitHub কনফিগারেশন এবং RUN-04 পুনরায় পড়ার ফল এই অনুমোদিত ভাষ্যের সঙ্গে না মেলা পর্যন্ত ডেলিভারি অপেক্ষমাণ থাকবে।"
 
-GitHub config.json, proposed change against base-001:
+GitHub config.json, base-001-এর বিপরীতে প্রস্তাবিত পরিবর্তন:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+প্রস্তাবিত RUN-04 v3: "রাখার সময়: 30 দিন। শুধু কৃত্রিম এক্সপোর্ট। এই ল্যাবে কোনো মুছে ফেলার কাজ চলে না। প্রকাশনা ব্যর্থ হলে ডেলিভারি অপেক্ষমাণ রাখুন, প্রতিটি উৎস পুনরায় পড়ুন এবং 7 দিনের কনফিগারেশন ফেরানো বা 30 দিনের প্রকাশনা সম্পন্ন করার আগে মালিকের অনুমোদন নিন।"
 ```
-
 এই বাক্যগুলো উদাহরণ প্রস্তাবের লেখা, লাইভ টেন্যান্ট রেকর্ড নয়। পর্যালোচনার আগে প্রকৃত বেস commit এবং পেজ সংস্করণ সংযুক্ত করুন। স্থির প্যাকেজে প্রস্তাবিত সম্পূর্ণ বডি থাকতে হবে, এমন সারাংশ নয় যাতে মালিককে নিজে অনুমান করতে হয়।
 
 **অফলাইন স্ন্যাপশট এবং লাইভ প্রকাশনা আলাদা রাখুন।** প্রথম লেখার ঠিক আগে প্রকাশক ম্যাপ করা পেজ আবার যাচাই করেন এবং রক্ষণাবেক্ষক সুরক্ষিত বেস আবার যাচাই করেন। কোনোটি বদলালে পুরোনো প্যাকেজ `Review`-এ থামে।

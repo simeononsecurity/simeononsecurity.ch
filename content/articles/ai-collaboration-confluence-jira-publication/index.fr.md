@@ -1,7 +1,7 @@
 ---
 title: "Processus de publication IA pour GitHub, Confluence et Jira"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Publiez une proposition fixe de durée de conservation dans Confluence, GitHub et Jira, avec contrôle des versions et reprise après publication partielle."
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **Fournissez au chat uniquement les extraits synthétiques nécessaires**, marquez-les comme instantanés et désactivez les actions d'écriture.
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+Tâche : PROP-042, proposition uniquement
+Autorité : Confluence REQ-17 pour l’intention, GitHub pour le comportement
+Lire : pages actuelles cartographiées, versions, portée et exceptions
+Proposition : faire passer la conservation des exports synthétiques de 7 à 30 jours
+Résultat : texte de l’exigence, diff de configuration, runbook et registre
+Preuves : ID source et révision capturée pour chaque affirmation factuelle
+Inconnues : accès indisponible et absence d’observations à l’exécution
+Arrêter en cas de conflit, de base modifiée ou d’accès refusé
 ```
-
 **Les dossiers hors ligne restent des instantanés.** Le responsable de publication relit les données actuelles avant toute écriture. Un refus d'accès bloque la publication. Un ancien export ne remplace pas une autorisation actuelle.
 
 ## Figer la proposition
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **Figez le contenu, pas seulement l'étiquette de la proposition.** PROP-042 apparaît dans chaque système, mais l'étiquette ne précise pas le corps examiné par le responsable. Réunissez dans un dossier fixe le texte exact de l'exigence, le diff d'implémentation, le texte du runbook, les versions sources et l'ordre de publication.
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+Paquet : PROP-042 révision 1, à titre d’exemple
+Intention : faire passer la conservation des exports synthétiques de 7 à 30 jours
+Exclusions : données de production, sauvegardes et obligations légales de conservation
+Modification de l’exigence : texte proposé et figé de REQ-17
+Mise en œuvre : diff candidat figé et référence à la base protégée
+Modification du runbook : texte figé de RUN-04 et limites de restauration
+Revue : décisions produit et opérations pour ce paquet
+Livraison : exigence -> mise en œuvre -> runbook -> clôture
+Arrêter si la source change, si la revue manque, si l’écriture est refusée ou si la relecture échoue
 ```
-
 **Le dossier doit rester lisible par les deux responsables.** L'équipe produit a besoin de connaître l'intention et les exclusions. L'équipe des opérations a besoin de comprendre la modification opérationnelle et la limite de reprise. Toutes deux doivent comprendre la période où l'intention approuvée diffère de la configuration livrée. Un simple diff de code ne suffit pas à un responsable qui ne connaît pas les fichiers du dépôt.
 
 **Contenu rempli du dossier pour cet exemple synthétique :**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+REQ-17 proposé v5 : "Les fichiers d’export synthétiques sont conservés pendant 30 jours à compter de leur création. Ce pilote exclut les données de production, les sauvegardes et les obligations légales de conservation. La livraison reste en attente jusqu’à ce que la configuration GitHub et les relectures de RUN-04 correspondent à ce texte approuvé."
 
-GitHub config.json, proposed change against base-001:
+Configuration GitHub config.json, modification proposée par rapport à base-001 :
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+RUN-04 proposé v3 : "Durée de conservation : 30 jours. Exports synthétiques uniquement. Aucune tâche de suppression ne s’exécute dans ce laboratoire. Si la publication échoue, laisse la livraison en attente, relis chaque source et obtiens l’approbation du responsable avant de restaurer la configuration de sept jours ou de terminer la publication de trente jours."
 ```
-
 Ces chaînes sont des exemples de proposition, pas des enregistrements issus d'un tenant actif. Joignez le commit de base et les versions de pages réels avant la revue. Le dossier fixe doit contenir les corps proposés complets, pas un résumé qui obligerait le responsable à déduire le texte.
 
 **Séparez l'instantané hors ligne de la publication en direct.** Un contrôle de cohérence montre l'accord entre les enregistrements capturés. Juste avant la première écriture, la personne chargée de publier revérifie les pages associées et le mainteneur revérifie la base protégée. Si l'une d'elles a changé, l'ancien dossier s'arrête à `Review`.

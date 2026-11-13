@@ -1,7 +1,7 @@
 ---
 title: "GitHub, Confluence ਅਤੇ Jira ਵਿੱਚ AI ਪ੍ਰਕਾਸ਼ਨ ਵਰਕਫਲੋ"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ਵਰਜਨ ਜਾਂਚ ਅਤੇ ਅੰਸ਼ਕ ਪ੍ਰਕਾਸ਼ਨ ਤੋਂ ਬਹਾਲੀ ਸਮੇਤ Confluence, GitHub ਅਤੇ Jira ਵਿੱਚ ਇੱਕ ਨਿਸ਼ਚਿਤ ਰਿਟੈਨਸ਼ਨ ਪ੍ਰਸਤਾਵ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ।"
@@ -40,16 +40,15 @@ coverCaption: ""
 5. **ਚੈਟ ਨੂੰ ਸਿਰਫ਼ ਲੋੜੀਂਦੇ ਕ੍ਰਿਤ੍ਰਿਮ ਅੰਸ਼ ਦਿਓ**, ਉਹਨਾਂ ਨੂੰ ਸਨੈਪਸ਼ਾਟ ਵਜੋਂ ਚਿੰਨ੍ਹੋ ਅਤੇ ਲਿਖਣ-ਯੋਗ ਕਾਰਵਾਈਆਂ ਬੰਦ ਰੱਖੋ।
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+ਕੰਮ: PROP-042, ਸਿਰਫ਼ ਪ੍ਰਸਤਾਵ
+ਅਧਿਕਾਰ: ਮਕਸਦ ਲਈ Confluence REQ-17, ਵਿਹਾਰ ਲਈ GitHub
+ਪੜ੍ਹੋ: ਮੈਪ ਕੀਤੇ ਮੌਜੂਦਾ ਪੰਨੇ, ਵਰਜਨ, ਦਾਇਰਾ ਅਤੇ ਅਪਵਾਦ
+ਪ੍ਰਸਤਾਵ: ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ ਸੰਭਾਲਣ ਦੀ ਮਿਆਦ 7 ਤੋਂ 30 ਦਿਨ ਕਰੋ
+ਨਤੀਜਾ: ਲੋੜ ਦਾ ਲਿਖਤ, ਕਨਫ਼ਿਗਰੇਸ਼ਨ ਫ਼ਰਕ, ਰਨਬੁੱਕ ਅਤੇ ਲੇਜਰ
+ਸਬੂਤ: ਹਰ ਤੱਥੀ ਦਾਅਵੇ ਲਈ ਸਰੋਤ ID ਅਤੇ ਦਰਜ ਕੀਤਾ ਰਿਵਿਜ਼ਨ
+ਅਣਜਾਣ: ਪਹੁੰਚ ਦੀ ਘਾਟ ਅਤੇ ਰਨਟਾਈਮ ਨਿਰੀਖਣ ਨਾ ਹੋਣਾ
+ਟਕਰਾਅ, ਬਦਲੇ ਬੇਸ ਜਾਂ ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਹੋਣ ਤੇ ਰੁਕੋ
 ```
-
 **ਆਫਲਾਈਨ ਪੈਕੇਟ ਸਨੈਪਸ਼ਾਟ-ਆਧਾਰਿਤ ਰਹਿੰਦੇ ਹਨ।** ਲਿਖਣ ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰਕਾਸ਼ਕ ਮੌਜੂਦਾ ਸਰੋਤ ਮੁੜ ਪੜ੍ਹਦਾ ਹੈ। ਪਹੁੰਚ ਨਾ ਮਿਲਣ ਨਾਲ ਪ੍ਰਕਾਸ਼ਨ ਰੁਕਦਾ ਹੈ। ਪੁਰਾਣਾ ਐਕਸਪੋਰਟ ਮੌਜੂਦਾ ਅਧਿਕਾਰ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈਂਦਾ।
 
 ## ਪ੍ਰਸਤਾਵ ਸਥਿਰ ਕਰੋ
@@ -122,31 +121,29 @@ Stop: conflict, changed base, or denied access
 **ਸਿਰਫ਼ ਪ੍ਰਸਤਾਵ ਦਾ ਲੇਬਲ ਨਹੀਂ, ਸਮੱਗਰੀ ਸਥਿਰ ਕਰੋ।** PROP-042 ਹਰ ਸਿਸਟਮ ਵਿੱਚ ਦਿਖਦਾ ਹੈ, ਪਰ ਲੇਬਲ ਉਹ ਬਾਡੀ ਨਹੀਂ ਦੱਸਦਾ ਜਿਸਦੀ ਮਾਲਕ ਨੇ ਸਮੀਖਿਆ ਕੀਤੀ। ਸਹੀ ਲੋੜ-ਲਿਖਤ, ਲਾਗੂਕਰਨ diff, ਰਨਬੁੱਕ ਲਿਖਤ, ਸਰੋਤ ਵਰਜਨ ਅਤੇ ਪ੍ਰਕਾਸ਼ਨ ਕ੍ਰਮ ਇੱਕ ਨਿਸ਼ਚਿਤ ਪੈਕੇਜ ਵਿੱਚ ਰੱਖੋ।
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+ਪੈਕੇਜ: PROP-042 ਰਿਵਿਜ਼ਨ 1, ਉਦਾਹਰਨ ਵਜੋਂ
+ਮਕਸਦ: ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ ਸੰਭਾਲਣ ਦੀ ਮਿਆਦ 7 ਤੋਂ 30 ਦਿਨ ਕਰੋ
+ਬਾਹਰ ਰੱਖਿਆ: ਪ੍ਰੋਡਕਸ਼ਨ ਡਾਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਹੋਲਡ
+ਲੋੜ ਸੋਧ: ਪ੍ਰਸਤਾਵਿਤ REQ-17 ਦਾ ਨਿਰਧਾਰਤ ਲਿਖਤ
+ਲਾਗੂਕਰਨ: ਨਿਰਧਾਰਤ ਉਮੀਦਵਾਰ ਫ਼ਰਕ ਅਤੇ ਸੁਰੱਖਿਅਤ ਬੇਸ ਦਾ ਹਵਾਲਾ
+ਰਨਬੁੱਕ ਸੋਧ: ਨਿਰਧਾਰਤ RUN-04 ਲਿਖਤ ਅਤੇ ਮੁੜ-ਬਹਾਲੀ ਦੀਆਂ ਹੱਦਾਂ
+ਸਮੀਖਿਆ: ਇਸ ਪੈਕੇਜ ਲਈ ਉਤਪਾਦ ਅਤੇ ਕਾਰਜ-ਸੰਬੰਧੀ ਫ਼ੈਸਲੇ
+ਸਪੁਰਦਗੀ: ਲੋੜ -> ਲਾਗੂਕਰਨ -> ਰਨਬੁੱਕ -> ਸਮਾਪਤੀ
+ਸਰੋਤ ਬਦਲਣ, ਸਮੀਖਿਆ ਨਾ ਹੋਣ, ਲਿਖਣ ਤੋਂ ਇਨਕਾਰ ਜਾਂ ਮੁੜ-ਪੜ੍ਹਨ ਦੀ ਨਾਕਾਮੀ ਤੇ ਰੁਕੋ
 ```
-
 **ਪੈਕੇਟ ਦੋਵੇਂ ਮਾਲਕਾਂ ਲਈ ਪੜ੍ਹਨਯੋਗ ਰੱਖੋ।** ਪ੍ਰੋਡਕਟ ਨੂੰ ਮਨੋਰਥ ਅਤੇ ਬਾਹਰ ਰੱਖੀਆਂ ਚੀਜ਼ਾਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਓਪਰੇਸ਼ਨਜ਼ ਨੂੰ ਕਾਰਜ-ਬਦਲਾਅ ਅਤੇ ਬਹਾਲੀ ਦੀ ਹੱਦ ਚਾਹੀਦੀ ਹੈ। ਮਨਜ਼ੂਰ ਮਨੋਰਥ ਅਤੇ ਦਿੱਤੀ ਕਨਫਿਗਰੇਸ਼ਨ ਵੱਖਰੀ ਹੋਣ ਦਾ ਸਮਾਂ ਦੋਵੇਂ ਸਮਝਣ। ਰਿਪੋਜ਼ਟਰੀ ਫਾਈਲਾਂ ਨਾਲ ਅਣਜਾਣ ਮਾਲਕ ਲਈ ਸਿਰਫ਼ ਕੋਡ diff ਕਾਫ਼ੀ ਨਹੀਂ।
 
 **ਇਸ ਕ੍ਰਿਤ੍ਰਿਮ ਮਿਸਾਲ ਲਈ ਭਰਿਆ ਪੈਕੇਜ:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+ਪ੍ਰਸਤਾਵਿਤ REQ-17 v5: "ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ ਫ਼ਾਈਲਾਂ ਬਣਨ ਤੋਂ 30 ਦਿਨਾਂ ਤੱਕ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ। ਇਸ ਪਾਇਲਟ ਵਿੱਚ ਪ੍ਰੋਡਕਸ਼ਨ ਡਾਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਹੋਲਡ ਸ਼ਾਮਲ ਨਹੀਂ ਹਨ। GitHub ਕਨਫ਼ਿਗਰੇਸ਼ਨ ਅਤੇ RUN-04 ਦੇ ਮੁੜ-ਪੜ੍ਹਨ ਨਤੀਜੇ ਇਸ ਮਨਜ਼ੂਰ ਲਿਖਤ ਨਾਲ ਮਿਲਣ ਤੱਕ ਸਪੁਰਦਗੀ ਬਕਾਇਆ ਰਹੇਗੀ।"
 
-GitHub config.json, proposed change against base-001:
+GitHub config.json, base-001 ਦੇ ਮੁਕਾਬਲੇ ਪ੍ਰਸਤਾਵਿਤ ਬਦਲਾਅ:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+ਪ੍ਰਸਤਾਵਿਤ RUN-04 v3: "ਸੰਭਾਲਣ ਦੇ ਦਿਨ: 30। ਸਿਰਫ਼ ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ। ਇਸ ਲੈਬ ਵਿੱਚ ਕੋਈ ਮਿਟਾਉਣ ਵਾਲਾ ਕੰਮ ਨਹੀਂ ਚੱਲਦਾ। ਪ੍ਰਕਾਸ਼ਨ ਫੇਲ੍ਹ ਹੋਣ ਤੇ ਸਪੁਰਦਗੀ ਬਕਾਇਆ ਰੱਖੋ, ਹਰ ਸਰੋਤ ਮੁੜ ਪੜ੍ਹੋ ਅਤੇ 7-ਦਿਨਾਂ ਵਾਲੀ ਕਨਫ਼ਿਗਰੇਸ਼ਨ ਵਾਪਸ ਲਿਆਉਣ ਜਾਂ 30-ਦਿਨਾਂ ਵਾਲਾ ਪ੍ਰਕਾਸ਼ਨ ਪੂਰਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮਾਲਕ ਦੀ ਮਨਜ਼ੂਰੀ ਲਵੋ।"
 ```
-
 ਇਹ ਲਿਖਤ ਉਦਾਹਰਣੀ ਪ੍ਰਸਤਾਵ ਹੈ, ਲਾਈਵ ਟੈਨੈਂਟ ਰਿਕਾਰਡ ਨਹੀਂ। ਸਮੀਖਿਆ ਤੋਂ ਪਹਿਲਾਂ ਅਸਲ ਆਧਾਰ commit ਅਤੇ ਪੇਜ ਵਰਜਨ ਜੋੜੋ। ਨਿਸ਼ਚਿਤ ਪੈਕੇਜ ਵਿੱਚ ਪੂਰੀ ਪ੍ਰਸਤਾਵਿਤ ਲਿਖਤ ਹੋਵੇ, ਅਜਿਹਾ ਸਾਰ ਨਹੀਂ ਜਿਸ ਤੋਂ ਮਾਲਕ ਨੂੰ ਆਪਣੇ ਆਪ ਅਰਥ ਕੱਢਣਾ ਪਵੇ।
 
 **ਆਫਲਾਈਨ ਸਨੈਪਸ਼ਾਟ ਅਤੇ ਲਾਈਵ ਪ੍ਰਕਾਸ਼ਨ ਵੱਖਰੇ ਰੱਖੋ।** ਪਹਿਲੀ ਲਿਖਤ ਤੋਂ ਤੁਰੰਤ ਪਹਿਲਾਂ ਪ੍ਰਕਾਸ਼ਕ ਮੈਪ ਕੀਤੇ ਪੇਜ ਮੁੜ ਜਾਂਚਦਾ ਹੈ ਅਤੇ ਰੱਖ-ਰਖਾਅਕਰਤਾ ਸੁਰੱਖਿਅਤ ਆਧਾਰ ਮੁੜ ਜਾਂਚਦਾ ਹੈ। ਕੋਈ ਵੀ ਬਦਲਿਆ ਹੋਵੇ ਤਾਂ ਪੁਰਾਣਾ ਪੈਕੇਜ `Review` ਉੱਤੇ ਰੁਕਦਾ ਹੈ।
