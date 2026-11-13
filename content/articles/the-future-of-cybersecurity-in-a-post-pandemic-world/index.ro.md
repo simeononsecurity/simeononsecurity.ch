@@ -1,7 +1,7 @@
 ---
 title: "Viitorul securității cibernetice într-o lume post-pandemică"
 date: 2023-03-04
-lastmod: 2026-10-21
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Descoperiți cum să vă pregătiți pentru viitorul securității cibernetice într-o lume post-pandemică și cum să vă reduceți riscul de a deveni victime ale atacurilor cibernetice."
@@ -35,13 +35,13 @@ Amenințările la adresa securității cibernetice devin din ce în ce mai avans
 
 1. **Mențineți software-ul la zi**: Atacatorii profită deseori de software învechit pentru a exploata vulnerabilitățile. Actualizările de software includ adesea patch-uri de securitate care pot remedia vulnerabilitățile. Asigurați-vă că instalați actualizările imediat ce sunt disponibile.
 
-2. [**Use strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) Parolele sunt adesea prima linie de apărare împotriva atacurilor cibernetice. Folosiți parole puternice și unice pentru fiecare dintre conturile dumneavoastră și luați în considerare utilizarea unui manager de parole pentru a le ține evidența. Un manager de parole vă poate ajuta să generați și să stocați parole puternice pentru toate conturile dumneavoastră.
+2. [**Folosiți parole puternice**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/): Parolele sunt adesea prima linie de apărare împotriva atacurilor cibernetice. Folosiți parole puternice și unice pentru fiecare dintre conturile dumneavoastră și luați în considerare utilizarea unui manager de parole pentru a le ține evidența. Un manager de parole vă poate ajuta să generați și să stocați parole puternice pentru toate conturile dumneavoastră.
 
-3. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Autentificarea cu doi factori adaugă un nivel suplimentar de securitate la conturile dvs. Asigurați-vă că o activați ori de câte ori este posibil. Autentificarea cu doi factori necesită o a doua formă de verificare, cum ar fi o amprentă digitală sau un cod unic trimis pe telefon, în plus față de parolă.
+3. [**Activați autentificarea cu doi factori**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Autentificarea cu doi factori adaugă un nivel suplimentar de securitate la conturile dvs. Asigurați-vă că o activați ori de câte ori este posibil. Autentificarea cu doi factori necesită o a doua formă de verificare, cum ar fi o amprentă digitală sau un cod unic trimis pe telefon, în plus față de parolă.
 
-4. [**Educate yourself and your employees**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Educația este esențială pentru prevenirea atacurilor cibernetice. Asigurați-vă că vă educați pe dumneavoastră și pe angajații dumneavoastră cu privire la amenințările comune și la modul de a le evita. Acest lucru poate include sesiuni regulate de instruire, simulări de phishing și cele mai bune practici de securitate cibernetică.
+4. [**Instruiți-vă și informați-vă angajații**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/): Educația este esențială pentru prevenirea atacurilor cibernetice. Asigurați-vă că vă educați pe dumneavoastră și pe angajații dumneavoastră cu privire la amenințările comune și la modul de a le evita. Acest lucru poate include sesiuni regulate de instruire, simulări de phishing și cele mai bune practici de securitate cibernetică.
 
-5. [**Use a VPN**](https://simeononsecurity.com/recommendations/vpns/): If you're working remotely, consider using a **virtual private network (VPN) pentru a vă cripta conexiunea la internet și pentru a vă proteja datele. Un VPN creează o conexiune securizată între dispozitivul dvs. și internet, împiedicând terții să vă intercepteze datele.
+5. [**Folosiți un VPN**](https://simeononsecurity.com/recommendations/vpns/): Dacă lucrați de la distanță, luați în considerare utilizarea unei **rețele private virtuale (VPN)** pentru a cripta conexiunea la internet și a vă proteja datele. Un VPN creează o conexiune securizată între dispozitivul dumneavoastră și internet, împiedicând terții să vă intercepteze datele.
 
 6. **Securizează-ți dispozitivele IoT**: Dispozitivele Internet of Things (IoT), cum ar fi termostatele inteligente și camerele de securitate, pot fi vulnerabile la atacuri cibernetice. Asigurați-vă că schimbați parolele implicite ale dispozitivelor IoT și mențineți-le la zi cu cel mai recent firmware. De asemenea, este o idee bună să limitați cantitatea de informații personale pe care le partajați cu aceste dispozitive.
 

@@ -1,7 +1,7 @@
 ---
 title: "Die Zukunft der Cybersicherheit in einer Welt nach der Pandemie"
 date: 2023-03-04
-lastmod: 2026-10-21
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Entdecken Sie, wie Sie sich auf die Zukunft der Cybersicherheit in einer Welt nach der Pandemie vorbereiten und Ihr Risiko, Opfer von Cyberangriffen zu werden, verringern können."
@@ -35,13 +35,13 @@ Die Bedrohungen für die Cybersicherheit werden immer fortschrittlicher und häu
 
 1. **Halten Sie Ihre Software auf dem neuesten Stand**: Angreifer nutzen häufig veraltete Software aus, um Schwachstellen auszunutzen. Software-Updates enthalten oft Sicherheits-Patches, die Schwachstellen beheben können. Installieren Sie die Updates, sobald sie verfügbar sind.
 
-2. [**Use strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) Passwörter sind oft die erste Verteidigungslinie gegen Cyberangriffe. Verwenden Sie sichere, eindeutige Passwörter für jedes Ihrer Konten und erwägen Sie die Verwendung eines Passwortmanagers, um den Überblick zu behalten. Ein Passwort-Manager kann Ihnen helfen, sichere Passwörter für alle Ihre Konten zu erstellen und zu speichern.
+2. [**Verwenden Sie starke Passwörter**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/): Passwörter sind oft die erste Verteidigungslinie gegen Cyberangriffe. Verwenden Sie sichere, eindeutige Passwörter für jedes Ihrer Konten und erwägen Sie die Verwendung eines Passwortmanagers, um den Überblick zu behalten. Ein Passwort-Manager kann Ihnen helfen, sichere Passwörter für alle Ihre Konten zu erstellen und zu speichern.
 
-3. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Die Zwei-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene für Ihre Konten. Achten Sie darauf, sie zu aktivieren, wo immer dies möglich ist. Die Zwei-Faktor-Authentifizierung erfordert eine zweite Form der Verifizierung, z. B. einen Fingerabdruck oder einen einmaligen Code, der an Ihr Telefon gesendet wird, zusätzlich zu Ihrem Passwort.
+3. [**Aktivieren Sie die Zwei-Faktor-Authentifizierung**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Die Zwei-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene für Ihre Konten. Achten Sie darauf, sie zu aktivieren, wo immer dies möglich ist. Die Zwei-Faktor-Authentifizierung erfordert eine zweite Form der Verifizierung, z. B. einen Fingerabdruck oder einen einmaligen Code, der an Ihr Telefon gesendet wird, zusätzlich zu Ihrem Passwort.
 
-4. [**Educate yourself and your employees**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) Aufklärung ist der Schlüssel zur Verhinderung von Cyberangriffen. Achten Sie darauf, sich und Ihre Mitarbeiter über gängige Bedrohungen und deren Vermeidung aufzuklären. Dazu können regelmäßige Schulungen, Phishing-Simulationen und bewährte Verfahren zur Cybersicherheit gehören.
+4. [**Informieren Sie sich und Ihre Mitarbeiter**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/): Aufklärung ist der Schlüssel zur Verhinderung von Cyberangriffen. Achten Sie darauf, sich und Ihre Mitarbeiter über gängige Bedrohungen und deren Vermeidung aufzuklären. Dazu können regelmäßige Schulungen, Phishing-Simulationen und bewährte Verfahren zur Cybersicherheit gehören.
 
-5. [**Use a VPN**](https://simeononsecurity.com/recommendations/vpns/): If you're working remotely, consider using a **virtual private network (VPN) um Ihre Internetverbindung zu verschlüsseln und Ihre Daten zu schützen. Ein VPN stellt eine sichere Verbindung zwischen Ihrem Gerät und dem Internet her und verhindert, dass Dritte Ihre Daten abfangen können.
+5. [**Verwenden Sie ein VPN**](https://simeononsecurity.com/recommendations/vpns/): Wenn Sie aus der Ferne arbeiten, erwägen Sie die Nutzung eines **virtuellen privaten Netzwerks (VPN)**, um Ihre Internetverbindung zu verschlüsseln und Ihre Daten zu schützen. Ein VPN stellt eine sichere Verbindung zwischen Ihrem Gerät und dem Internet her und verhindert, dass Dritte Ihre Daten abfangen.
 
 6. **Sichern Sie Ihre IoT-Geräte**: Das Internet der Dinge (IoT), wie z. B. intelligente Thermostate und Sicherheitskameras, kann anfällig für Cyberangriffe sein. Achten Sie darauf, die Standardpasswörter auf IoT-Geräten zu ändern und sie mit der neuesten Firmware auf dem neuesten Stand zu halten. Es ist auch eine gute Idee, die Menge an persönlichen Informationen, die Sie mit diesen Geräten teilen, zu begrenzen.
 
