@@ -2,9 +2,12 @@
 
 import unittest
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
 from check_translation_english_leakage import (
     CSV_FIELDS,
+    audit_bundle,
     copied_english_prose_spans,
     copied_english_link_labels,
     copied_english_headings,
@@ -105,6 +108,51 @@ class FencedProseTests(unittest.TestCase):
             "records the result and sends a notice to the owner."
         )
         self.assertEqual(english_dominant_paragraphs(english, "fr"), [normalize(english)])
+
+    def test_flags_short_paraphrased_english_paragraph(self):
+        english = (
+            "The team checks each request before granting access. "
+            "It logs the result and alerts its owner."
+        )
+
+        self.assertLess(len(english.split()), 30)
+        self.assertEqual(english_dominant_paragraphs(english, "fr"), [normalize(english)])
+
+    def test_audit_flags_short_wholly_english_locale_file(self):
+        with TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            bundle = root / "article"
+            bundle.mkdir()
+            source = bundle / "index.en.md"
+            source.write_text(
+                "---\ntitle: 'Review access'\n---\n"
+                "## Scope\n\n"
+                "Administrators examine each credential request before granting access "
+                "to protected records. The platform retains an audit trail and alerts "
+                "the responsible owner.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Vérifier l’accès'\n---\n"
+                "## Portée\n\n"
+                "The team checks each request before granting access. It logs the result "
+                "and alerts its owner.\n",
+                encoding="utf-8",
+            )
+
+            with patch("check_translation_english_leakage.ROOT", root):
+                findings = audit_bundle(source, ["fr"])
+
+        self.assertEqual(len(findings), 1)
+        self.assertIn("English_dominant_reader_paragraph", findings[0]["reasons"])
+
+    def test_does_not_flag_product_names_as_short_english_paragraph(self):
+        product_names = (
+            "Microsoft Entra ID, Microsoft Defender, Azure Sentinel, "
+            "and GitHub Actions."
+        )
+
+        self.assertEqual(english_dominant_paragraphs(product_names, "fr"), [])
 
     def test_does_not_flag_french_paragraph_or_short_product_name(self):
         french = (
@@ -404,6 +452,23 @@ class FencedProseTests(unittest.TestCase):
             {"if you created claude md run git add claude md", "add lab guidance"},
         )
         self.assertEqual(copied_reader_code_prose(source, source), reader_fenced_code_prose(source))
+        self.assertFalse(copied_reader_code_prose(source, translated))
+
+    def test_screens_powershell_comments_in_powershell_fences(self):
+        source = (
+            "```powershell\n"
+            "# Analyze component store\n"
+            "Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore\n"
+            "````\n"
+        )
+        translated = (
+            "```powershell\n"
+            "# Analizar el almacén de componentes\n"
+            "Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore\n"
+            "````\n"
+        )
+
+        self.assertEqual(reader_fenced_code_prose(source), {"analyze component store"})
         self.assertFalse(copied_reader_code_prose(source, translated))
 
     def test_screens_comments_without_space_and_markup_language_comments(self):

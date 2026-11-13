@@ -170,6 +170,11 @@
   manual-review item, inspect it against the English source, and translate
   reader-facing English prose before approval. Preserve named entities, fixed
   identifiers, literal data, and runtime output when context confirms them.
+  The leakage checker screens paragraphs with 10 or more Latin-word tokens.
+  For paragraphs under 30 tokens it requires a stronger English stopword signal
+  to reduce flags from short product names and technical labels. Treat these
+  short-paragraph findings as manual-review items, not automatic language
+  verdicts.
   For sentences containing inline links, compare the surrounding sentence with
   each link replaced by a neutral placeholder. This catches copied English
   prose whose remaining word count falls below the normal span threshold after
@@ -199,7 +204,8 @@
   strings as well. Translate comments and example text such as a commit subject
   while preserving valid command syntax. Keep literal runtime output, identifiers,
   paths, and command names unchanged. The checker screens comments and common
-  output calls in shell, Python, JavaScript/TypeScript, C/C++, Java, C#, Go, Rust,
+  output calls in shell and PowerShell (`powershell`/`pwsh` fences), Python,
+  JavaScript/TypeScript, C/C++, Java, C#, Go, Rust,
   Swift, Kotlin, PHP, Lua, Scala, and Groovy. It also screens visible text and
   accessibility labels in fenced HTML, including single-word labels. Treat an
   unchanged comment or example string as a manual-review flag, not as executable

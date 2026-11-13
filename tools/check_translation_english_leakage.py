@@ -975,15 +975,16 @@ def copied_english_prose_spans(source: str, target: str) -> set[str]:
 def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
     """Screen for English paragraphs inside otherwise translated articles.
 
-    This is a review queue, not a language verdict. A paragraph must contain
-    enough Latin words to reduce noise from names and short technical labels.
+    This is a review queue, not a language verdict. Short paragraphs use a
+    higher English-signal threshold because names and technical labels dominate
+    their word counts.
     """
     locale_words = LOCALE_STOPWORDS.get(locale, set())
     findings = []
     for part in re.split(r"\n\s*\n", visible_text(text, include_link_labels=False)):
         paragraph = normalize(part)
         tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", paragraph.lower())
-        if len(tokens) < 30:
+        if len(tokens) < 10:
             continue
         english_ratio = sum(word in ENGLISH_STOPWORDS for word in tokens) / len(tokens)
         locale_ratio = sum(word in locale_words for word in tokens) / len(tokens)
@@ -991,7 +992,8 @@ def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
         locale_signal_is_weak = (
             expected_script < 0.20 if expected_script is not None else locale_ratio < 0.10
         )
-        if english_ratio >= 0.28 and locale_signal_is_weak:
+        english_threshold = 0.35 if len(tokens) < 30 else 0.28
+        if english_ratio >= english_threshold and locale_signal_is_weak:
             findings.append(paragraph)
     return findings
 
