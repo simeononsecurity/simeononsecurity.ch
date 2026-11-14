@@ -1,7 +1,7 @@
 ---
 title: "Nmap：网络扫描与服务探测指南"
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "了解如何有效使用 Nmap 进行网络扫描、端口扫描、服务检测和操作系统识别，以评估网络安全。"
@@ -11,7 +11,7 @@ coverAlt: "三维动画风格的 Nmap 扫描工具网络安全概念。"
 coverCaption: ""
 ---
 
-[**What is Nmap and How to Use It?**](https://nmap.org/download.html)
+[**什么是 Nmap？如何使用 Nmap？**](https://nmap.org/download.html)
 
 [Nmap](https://nmap.org/download.html) (Network Mapper)是一款功能强大、用途广泛的开源网络扫描工具，用于发现计算机网络上的主机和服务。它提供有关网络基础设施的宝贵信息，并有助于评估网络安全。在本文中，我们将探讨 Nmap 的基础知识、功能以及如何有效使用它。
 
