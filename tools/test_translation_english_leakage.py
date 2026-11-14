@@ -11,6 +11,7 @@ from check_translation_english_leakage import (
     copied_english_prose_spans,
     copied_english_link_labels,
     copied_english_headings,
+    copied_english_opening,
     copied_english_taxonomy,
     copied_english_table_cells,
     taxonomy_count_differences,
@@ -25,6 +26,7 @@ from check_translation_english_leakage import (
     prose_sentences_with_link_slots,
     reader_fenced_code_prose,
     reader_fenced_prose,
+    script_ratio,
     split_word_emphasis,
     yaml_front_matter_lists,
     visible_text,
@@ -32,6 +34,35 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_flags_unchanged_english_article_opening(self):
+        source = "**Passing CompTIA's A+ Exams 220-1101 & 220-1102**\n\nA Polish paragraph follows."
+        target = "**Passing CompTIA's A+ Exams 220-1101 & 220-1102**\n\nPolski akapit następuje."
+
+        self.assertEqual(
+            copied_english_opening(source, target),
+            "passing comptia s a exams 220 1101 220 1102",
+        )
+
+    def test_flags_short_unchanged_descriptive_openings(self):
+        for opening in ("Cybersecurity 101", "Data privacy laws"):
+            with self.subTest(opening=opening):
+                self.assertEqual(copied_english_opening(opening, opening), normalize(opening))
+
+    def test_ignores_opening_that_only_names_products(self):
+        product_list = "**Azure DevOps vs GitHub vs GitLab vs Bitbucket**"
+
+        self.assertEqual(copied_english_opening(product_list, product_list), "")
+
+    def test_flags_copied_comparison_opening_with_descriptive_prose(self):
+        opening = "Azure vs AWS is the wrong way to frame this decision."
+
+        self.assertEqual(copied_english_opening(opening, opening), normalize(opening))
+
+    def test_flags_comparison_opening_with_descriptive_suffix(self):
+        opening = "Azure vs AWS comparison guide"
+
+        self.assertEqual(copied_english_opening(opening, opening), normalize(opening))
+
     def test_csv_report_keeps_reader_fence_findings_in_separate_columns(self):
         self.assertIn("exact_english_sentences", CSV_FIELDS)
         self.assertIn("copied_reader_fenced_lines", CSV_FIELDS)
@@ -168,6 +199,23 @@ class FencedProseTests(unittest.TestCase):
             "Microsoft Entra ID এবং PowerShell নাম দুটি অপরিবর্তিত রাখা হয়েছে।"
         )
         self.assertEqual(english_dominant_paragraphs(bengali, "bn"), [])
+
+    def test_ignores_many_product_names_inside_chinese_prose(self):
+        chinese = (
+            "方案支持 Microsoft Entra ID、Microsoft Defender、Azure Sentinel、GitHub Actions、"
+            "PowerShell、Windows Server、Active Directory、Kubernetes、Docker、Prometheus、"
+            "Grafana、StartMail、ProtonMail、Tutanota 和 OpenAI 等产品。"
+        )
+        self.assertEqual(english_dominant_paragraphs(chinese, "zh"), [])
+
+    def test_flags_english_clause_even_when_chinese_script_dilutes_ratio(self):
+        mixed = (
+            "在易用性方面，StartMail、ProtonMail 和 Tutanota 都是安全电子邮件服务，用户可以比较它们的界面设计、导航方式、邮件整理工具和整体使用体验。"
+            "StartMail stands out with its easy-to-use interface, ProtonMail offers a visually appealing layout with efficient email "
+            "organization tools, and Tutanota 设计简洁明快。"
+        )
+        self.assertGreater(script_ratio(normalize(mixed), "zh"), 0.20)
+        self.assertEqual(english_dominant_paragraphs(mixed, "zh"), [normalize(mixed)])
 
     def test_screens_reader_facing_markdown_fences(self):
         source = (
@@ -805,6 +853,45 @@ print('She said "Continue before saving"')
         target = "本文は翻訳済みです。 The reviewer should translate each sentence while preserving technical names and URLs."
 
         self.assertTrue(copied_english_prose_spans(source, target))
+
+    def test_finds_short_copied_english_clause_inside_translated_prose(self):
+        source = "Privacy rules protect people because personal data is collected online."
+        target = "Datenschutzregeln schützen Menschen, weil personal data is collected online."
+
+        self.assertIn(
+            "personal data is collected online",
+            copied_english_prose_spans(source, target),
+        )
+
+    def test_finds_short_english_connector_before_a_preserved_law_name(self):
+        source = (
+            "Privacy rules include the European Union's General Data Protection Regulation "
+            "[GDPR](https://example.com/gdpr) and California's Consumer Privacy Act (CCPA)."
+        )
+        target = (
+            "Datenschutzregeln umfassen die DSGVO [GDPR](https://example.com/gdpr) "
+            "and California's Consumer Privacy Act (CCPA)."
+        )
+
+        findings = copied_english_prose_spans(source, target)
+        self.assertIn("and", findings)
+        self.assertFalse(any("california" in finding for finding in findings))
+
+    def test_finds_four_word_copied_clause_inside_translated_paragraph(self):
+        source = "Privacy rules help everyone. They matter to you."
+        target = "Datenschutzregeln helfen allen. They matter to you."
+
+        self.assertIn("they matter to you", copied_english_prose_spans(source, target))
+
+    def test_ignores_formal_organization_name_in_translated_prose(self):
+        source = (
+            "The National Institute of Standards and Technology (NIST) publishes this guide."
+        )
+        target = (
+            "Das National Institute of Standards and Technology (NIST) veröffentlicht diesen Leitfaden."
+        )
+
+        self.assertEqual(copied_english_prose_spans(source, target), set())
 
     def test_finds_copied_english_sentence_around_retained_product_links(self):
         source = (

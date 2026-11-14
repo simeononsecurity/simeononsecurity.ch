@@ -35,6 +35,11 @@ ENGLISH_STOPWORDS = set(
     "may might could would must been being"
     .split()
 )
+DESCRIPTIVE_OPENING_TERMS = {
+    "about", "analysis", "best", "comparison", "differences", "explained",
+    "guide", "how", "overview", "review", "tips", "tutorial", "versus",
+    "what", "which", "why",
+}
 TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "average mean final score latency memory bandwidth method trial throughput "
     "value category result benchmark stage test cost price output input time "
@@ -76,7 +81,7 @@ CSV_FIELDS = [
     "split_word_emphasis", "english_dominant_paragraphs",
     "copied_english_table_cells", "copied_english_headings",
     "copied_english_metadata", "taxonomy_count_differences",
-    "expected_script_ratio", "copied_link_labels",
+    "expected_script_ratio", "copied_english_opening", "copied_link_labels",
     "markdown_structure_differences", "note",
 ]
 SCRIPT_RANGES = {
@@ -937,6 +942,39 @@ def prose_sentences(text: str) -> set[str]:
     }
 
 
+def copied_english_opening(source: str, target: str) -> str:
+    """Queue unchanged short openings for manual review, with a product-list exception."""
+    def first_paragraph(text: str) -> str:
+        for paragraph in re.split(r"\n\s*\n", text):
+            visible = normalize(visible_text(paragraph))
+            if visible:
+                return visible
+        return ""
+
+    source_opening = first_paragraph(source)
+    target_opening = first_paragraph(target)
+    words = source_opening.split()
+    product_list_only = (
+        "vs" in words
+        and all(
+            word == "vs"
+            or (
+                word not in ENGLISH_STOPWORDS
+                and word not in DESCRIPTIVE_OPENING_TERMS
+            )
+            for word in words
+        )
+    )
+    if (
+        source_opening
+        and source_opening == target_opening
+        and len(words) >= 2
+        and not product_list_only
+    ):
+        return source_opening
+    return ""
+
+
 def prose_sentences_with_link_slots(text: str) -> set[str]:
     """Return sentences with inline links replaced by neutral slots.
 
@@ -954,7 +992,7 @@ def prose_sentences_with_link_slots(text: str) -> set[str]:
 
 
 def copied_english_prose_spans(source: str, target: str) -> set[str]:
-    """Find unchanged eight-word English spans inside otherwise translated text."""
+    """Find unchanged English spans, including clauses attached to proper names."""
     def windows(text: str) -> set[tuple[str, ...]]:
         result: set[tuple[str, ...]] = set()
         # Link labels have their own comparison and often retain official book,
@@ -966,10 +1004,56 @@ def copied_english_prose_spans(source: str, target: str) -> set[str]:
                 span = tuple(words[start:start + 8])
                 if len(span) == 8 and sum(word in ENGLISH_STOPWORDS for word in span) >= 3:
                     result.add(span)
+            # Short English clauses can remain embedded in translated sentences.
+            # For five-to-seven-word spans, require several stopwords or a finite
+            # verb pattern. This avoids treating formal names such as "National
+            # Institute of Standards and Technology" as copied prose.
+            for size in range(5, 8):
+                for start in range(max(0, len(words) - size + 1)):
+                    span = tuple(words[start:start + size])
+                    stopword_count = sum(word in ENGLISH_STOPWORDS for word in span)
+                    conjunction_fragment = span[0] in {"and", "or", "but"}
+                    in_clause_verb = any(
+                        word in {"is", "are", "was", "were", "has", "have", "should", "can", "will"}
+                        and index < len(span) - 1
+                        for index, word in enumerate(span)
+                    )
+                    if stopword_count >= 3 or in_clause_verb or conjunction_fragment:
+                        result.add(span)
+            # Three- and four-word clauses need a stronger grammatical signal.
+            # Subject pronouns plus multiple stopwords catch cases such as
+            # "They matter to you". A be-verb with a following content word
+            # catches short passive clauses such as "data is collected online".
+            for size in range(3, 5):
+                for start in range(max(0, len(words) - size + 1)):
+                    span = tuple(words[start:start + size])
+                    stopword_count = sum(word in ENGLISH_STOPWORDS for word in span)
+                    pronoun_clause = (
+                        any(word in {"i", "you", "he", "she", "it", "we", "they"} for word in span)
+                        and stopword_count >= 2
+                    )
+                    be_clause = any(
+                        word in {"is", "are", "was", "were"}
+                        and index < len(span) - 1
+                        and span[index + 1] not in ENGLISH_STOPWORDS
+                        for index, word in enumerate(span)
+                    )
+                    if pronoun_clause or be_clause:
+                        result.add(span)
         return result
 
     matches = windows(source) & windows(target)
-    return {" ".join(span) for span in matches}
+    copied_connectors = {
+        span[0] for span in matches if span[0] in {"and", "or", "but"}
+    }
+    phrases = {" ".join(span) for span in matches}
+    # Overlapping windows describe the same copied fragment. Keep only the
+    # longest candidate so reports do not multiply one name or clause.
+    return copied_connectors | {
+        phrase for phrase in phrases
+        if phrase.split()[0] not in {"and", "or", "but"}
+        and not any(phrase != other and phrase in other for other in phrases)
+    }
 
 
 def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
@@ -989,10 +1073,17 @@ def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
         english_ratio = sum(word in ENGLISH_STOPWORDS for word in tokens) / len(tokens)
         locale_ratio = sum(word in locale_words for word in tokens) / len(tokens)
         expected_script = script_ratio(paragraph, locale)
+        # Count English signals among Latin words independently of surrounding
+        # script. A short run of Chinese, Arabic, or Indic text can otherwise
+        # hide a full English clause by pushing the paragraph-wide script ratio
+        # above the threshold. Product names alone usually lack stopword density.
         locale_signal_is_weak = (
-            expected_script < 0.20 if expected_script is not None else locale_ratio < 0.10
+            True if expected_script is not None else locale_ratio < 0.10
         )
-        english_threshold = 0.35 if len(tokens) < 30 else 0.28
+        if expected_script is not None and len(tokens) >= 15:
+            english_threshold = 0.25
+        else:
+            english_threshold = 0.35 if len(tokens) < 30 else 0.28
         if english_ratio >= english_threshold and locale_signal_is_weak:
             findings.append(paragraph)
     return findings
@@ -1083,6 +1174,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         structure_differences = markdown_structure_differences(source_body, body)
         ratio = script_ratio(prose, locale)
         reasons = []
+        copied_opening = copied_english_opening(source_body, body)
+        if copied_opening:
+            reasons.append("copied_english_opening")
         if misplaced:
             reasons.append("translation_not_beside_source")
         copied_metadata = [
@@ -1158,6 +1252,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                     taxonomy_counts, ensure_ascii=False, sort_keys=True
                 ),
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
+                "copied_english_opening": copied_opening,
                 "copied_link_labels": " | ".join(copied_link_labels),
                 "markdown_structure_differences": json.dumps(
                     structure_differences, ensure_ascii=False, sort_keys=True

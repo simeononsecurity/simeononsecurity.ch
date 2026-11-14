@@ -163,7 +163,10 @@
   Compare sentence-sized segments and unchanged source spans of eight or more
   words as well as full paragraphs. A translated paragraph can still contain
   English clauses between localized text, so a low English-word ratio does not
-  clear the paragraph.
+  clear the paragraph. The checker also queues unchanged five-to-seven-word
+  spans with English stopwords, including short clauses next to preserved legal
+  or product names. Translate copied prose and connectors while retaining an
+  official name when appropriate.
   Screen each paragraph separately for English stopword dominance as well as
   scanning the full article. A mostly translated article can hide a fully
   English paragraph in its overall ratio. Treat each paragraph-level flag as a
@@ -171,10 +174,16 @@
   reader-facing English prose before approval. Preserve named entities, fixed
   identifiers, literal data, and runtime output when context confirms them.
   The leakage checker screens paragraphs with 10 or more Latin-word tokens.
-  For paragraphs under 30 tokens it requires a stronger English stopword signal
-  to reduce flags from short product names and technical labels. Treat these
-  short-paragraph findings as manual-review items, not automatic language
-  verdicts.
+  In Arabic, Bengali, Hindi, Japanese, Punjabi, Russian, and Chinese, paragraphs
+  with at least 15 Latin-word tokens use a 0.25 English-stopword ratio threshold
+  regardless of nearby target-language characters. Other paragraphs under 30
+  tokens use a 0.35 threshold; paragraphs with 30 or more tokens use 0.28.
+  These thresholds create a review queue, not an automatic language verdict.
+  For Arabic, Bengali, Hindi, Japanese, Punjabi, Russian, and Chinese, assess
+  English stopword density among Latin-word tokens without letting nearby
+  target-language characters suppress the flag. A translated sentence can still contain
+  a copied English clause. Review flags in context and retain Latin product names
+  when they are names rather than prose.
   For sentences containing inline links, compare the surrounding sentence with
   each link replaced by a neutral placeholder. This catches copied English
   prose whose remaining word count falls below the normal span threshold after
@@ -215,6 +224,10 @@
   the reason when retaining English text the checker flags. Do not exempt generic
   status words such as `start`, `stop`, `ready`, or `done` automatically. Review
   those strings in context because they can serve as visible instructions or labels.
+  Match each code fence language to the syntax shown. For example, `#` comments
+  belong in a PowerShell fence, not a `cmd` fence. A wrong fence label can hide
+  comments from the language-aware leakage checker and misrepresent how commands
+  run.
   Inspect YAML block scalars under `name:` and `msg:` line by line, including
   continuation lines, and translate all reader-facing text. The checker scans
   these fields but cannot establish whether their wording is appropriate. It is not a language
@@ -244,8 +257,15 @@
 - Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
   for each finished bundle. For a repository audit, use
   `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.
+  Run the checker after writing the files and again on the frozen review snapshot.
+  A nonzero exit blocks approval until each finding is fixed or supported with a
+  specific reason. Inspect the opening reader-facing line even when it is too
+  short for paragraph-level language detection. The `copied_english_opening`
+  finding blocks approval when it repeats descriptive English; retain a product-
+  only comparison heading only after confirming it contains no untranslated
+  reader-facing wording.
   The checker flags missing locale files, empty bodies, repeated English source
-  paragraphs, sentences, or unchanged eight-word source spans, English stopword
+  paragraphs, sentences, or copied English word spans, English stopword
   dominance, missing expected scripts, and exact English reader metadata. Treat
   each result as a manual-review queue. Inspect
   all reader-facing metadata and prose, resolve confirmed English copy, and
@@ -278,7 +298,11 @@
   Exclude shared punctuation such as danda from wrong-script findings.
 - Render a copied subset with the real Hugo templates for large multilingual
   batches. Verify expected output files exist, then inspect language metadata,
-  article text, image paths, and structured data.
+  article text, image paths, and structured data. Inspect user-facing text emitted
+  by localized shortcodes and partials, including image alt/title text and CTA
+  labels. A matching source shortcode does not prove its generated output is
+  localized. Record English output from a shared component as a separate
+  component follow-up instead of silently treating the article as fully localized.
   Hugo 0.169 does not accept `--resourceDir`. When a copied render needs an
   isolated resource directory, set `resourceDir` in a task-scoped TOML overlay
   and include that overlay after the locale config in `--config`.
