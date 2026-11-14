@@ -35,11 +35,6 @@ ENGLISH_STOPWORDS = set(
     "may might could would must been being"
     .split()
 )
-DESCRIPTIVE_OPENING_TERMS = {
-    "about", "analysis", "best", "comparison", "differences", "explained",
-    "guide", "how", "overview", "review", "tips", "tutorial", "versus",
-    "what", "which", "why",
-}
 TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "average mean final score latency memory bandwidth method trial throughput "
     "value category result benchmark stage test cost price output input time "
@@ -943,7 +938,7 @@ def prose_sentences(text: str) -> set[str]:
 
 
 def copied_english_opening(source: str, target: str) -> str:
-    """Queue unchanged short openings for manual review, with a product-list exception."""
+    """Queue every unchanged opening for manual review."""
     def first_paragraph(text: str) -> str:
         for paragraph in re.split(r"\n\s*\n", text):
             visible = normalize(visible_text(paragraph))
@@ -954,22 +949,10 @@ def copied_english_opening(source: str, target: str) -> str:
     source_opening = first_paragraph(source)
     target_opening = first_paragraph(target)
     words = source_opening.split()
-    product_list_only = (
-        "vs" in words
-        and all(
-            word == "vs"
-            or (
-                word not in ENGLISH_STOPWORDS
-                and word not in DESCRIPTIVE_OPENING_TERMS
-            )
-            for word in words
-        )
-    )
     if (
         source_opening
         and source_opening == target_opening
         and len(words) >= 2
-        and not product_list_only
     ):
         return source_opening
     return ""

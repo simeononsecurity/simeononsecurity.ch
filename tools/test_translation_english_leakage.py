@@ -48,10 +48,13 @@ class FencedProseTests(unittest.TestCase):
             with self.subTest(opening=opening):
                 self.assertEqual(copied_english_opening(opening, opening), normalize(opening))
 
-    def test_ignores_opening_that_only_names_products(self):
+    def test_queues_opening_that_only_names_products_for_manual_review(self):
         product_list = "**Azure DevOps vs GitHub vs GitLab vs Bitbucket**"
 
-        self.assertEqual(copied_english_opening(product_list, product_list), "")
+        self.assertEqual(
+            copied_english_opening(product_list, product_list),
+            normalize(product_list),
+        )
 
     def test_flags_copied_comparison_opening_with_descriptive_prose(self):
         opening = "Azure vs AWS is the wrong way to frame this decision."
@@ -59,7 +62,7 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(copied_english_opening(opening, opening), normalize(opening))
 
     def test_flags_comparison_opening_with_descriptive_suffix(self):
-        opening = "Azure vs AWS comparison guide"
+        opening = "Azure vs AWS network security"
 
         self.assertEqual(copied_english_opening(opening, opening), normalize(opening))
 
