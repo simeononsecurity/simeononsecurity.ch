@@ -1,12 +1,12 @@
 ---
 title: "Thunderbird 153.6: Windows में NTLM क्रेडेंशियल उजागर होना और अपडेट करने का तरीका (2026)"
 date: 2026-10-28
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "विशेष रूप से तैयार ईमेल दिखाने पर Thunderbird की दो गंभीर खामियाँ Windows में NTLM प्रमाणीकरण डेटा उजागर करती हैं। दोनों तरीकों को समझें, संस्करण जाँचें और अपडेट के दौरान बाहर जाने वाले SMB को सीमित करें।"
 genre: ["साइबर सुरक्षा", "ईमेल सुरक्षा", "Windows सुरक्षा"]
-tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird सुरक्षा अपडेट", "Windows में Thunderbird की कमजोरी", "Thunderbird NTLM लीक", "Thunderbird SMB प्रमाणीकरण", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP कुंजी अटैचमेंट", "बाहरी अटैचमेंट", "दूरस्थ सामग्री अवरोध", "mailbox URL", "विस्तारित UNC पथ", "Windows खाते का नाम", "NTLM प्रमाणीकरण डेटा", "SMB क्रेडेंशियल उजागर होना", "आउटबाउंड SMB", "TCP पोर्ट 445", "ईमेल सुरक्षा", "Windows मेल क्लाइंट", "Thunderbird संस्करण जाँच", "Thunderbird अपडेट", "NTLM रिले", "ऑफलाइन पासवर्ड क्रैकिंग"]
+tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird सुरक्षा अपडेट", "Windows में Thunderbird की कमजोरी", "Thunderbird NTLM लीक", "Thunderbird SMB प्रमाणीकरण", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP कुंजी अटैचमेंट", "बाहरी अटैचमेंट", "दूरस्थ सामग्री अवरोध", "मेलबॉक्स URL", "विस्तारित UNC पथ", "Windows खाते का नाम", "NTLM प्रमाणीकरण डेटा", "SMB क्रेडेंशियल उजागर होना", "आउटबाउंड SMB", "TCP पोर्ट 445", "ईमेल सुरक्षा", "Windows मेल क्लाइंट", "Thunderbird संस्करण जाँच", "Thunderbird अपडेट", "NTLM रिले", "ऑफलाइन पासवर्ड क्रैकिंग"]
 cover: ""
 coverAlt: ""
 coverCaption: ""

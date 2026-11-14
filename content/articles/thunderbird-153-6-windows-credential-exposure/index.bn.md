@@ -1,12 +1,12 @@
 ---
 title: "Thunderbird 153.6: Windows-এ NTLM পরিচয়তথ্য ফাঁস ও আপডেট করার উপায় (2026)"
 date: 2026-10-28
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "বিশেষভাবে তৈরি ইমেল দেখালে Thunderbird-এর দুটি গুরুতর ত্রুটি Windows-এ NTLM প্রমাণীকরণ তথ্য প্রকাশ করতে পারে। দুইটি পথ বুঝুন, সংস্করণ যাচাই করুন এবং আপডেটের সময় বহির্গামী SMB সীমিত করুন।"
 genre: ["সাইবার নিরাপত্তা", "ইমেল নিরাপত্তা", "Windows নিরাপত্তা"]
-tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird নিরাপত্তা আপডেট", "Windows-এ Thunderbird দুর্বলতা", "Thunderbird NTLM ফাঁস", "Thunderbird SMB প্রমাণীকরণ", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP কী সংযুক্তি", "বাহ্যিক সংযুক্তি", "দূরবর্তী কনটেন্ট ব্লক", "mailbox URL", "বর্ধিত UNC পথ", "Windows অ্যাকাউন্টের নাম", "NTLM প্রমাণীকরণ তথ্য", "SMB পরিচয়তথ্য প্রকাশ", "বহির্গামী SMB", "TCP পোর্ট 445", "ইমেল নিরাপত্তা", "Windows মেইল ক্লায়েন্ট", "Thunderbird সংস্করণ পরীক্ষা", "Thunderbird আপডেট", "NTLM রিলে", "অফলাইনে পাসওয়ার্ড ভাঙা"]
+tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird নিরাপত্তা আপডেট", "Windows-এ Thunderbird দুর্বলতা", "Thunderbird NTLM ফাঁস", "Thunderbird SMB প্রমাণীকরণ", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP কী সংযুক্তি", "বাহ্যিক সংযুক্তি", "দূরবর্তী কনটেন্ট ব্লক", "মেইলবক্স URL", "বর্ধিত UNC পথ", "Windows অ্যাকাউন্টের নাম", "NTLM প্রমাণীকরণ তথ্য", "SMB পরিচয়তথ্য প্রকাশ", "বহির্গামী SMB", "TCP পোর্ট 445", "ইমেল নিরাপত্তা", "Windows মেইল ক্লায়েন্ট", "Thunderbird সংস্করণ পরীক্ষা", "Thunderbird আপডেট", "NTLM রিলে", "অফলাইনে পাসওয়ার্ড ভাঙা"]
 cover: ""
 coverAlt: ""
 coverCaption: ""
