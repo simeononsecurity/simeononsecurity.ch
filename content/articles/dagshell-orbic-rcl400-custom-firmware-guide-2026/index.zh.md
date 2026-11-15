@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400 的 DagShell 定制固件：2026 指南"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Orbic RCL400 DagShell 固件技术指南，介绍安装、隐私工具、巡行扫描和研究限制。"
@@ -89,12 +89,12 @@ ______
 
 **AT 命令**可进行底层调制解调器控制：
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+AT 命令示例：
+AT+CSQ       - 信号质量
+AT+COPS?     - 当前网络运营商
+AT+CREG?     - 网络注册状态
+AT+CIMI      - 获取 IMSI（用户身份标识）
+AT+CGSN      - 获取 IMEI（设备标识符）
 ```
 
 ### 🌐 网络工具
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **使用的 AT 命令**：
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+此处填写短信内容^Z
 ```
 
 ### 🔧 安全测试工具
@@ -432,7 +432,7 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       时间  纬度  经度  定位状态  卫星数  海拔
 ```
 
 #### Bluetooth 扫描（BLE）

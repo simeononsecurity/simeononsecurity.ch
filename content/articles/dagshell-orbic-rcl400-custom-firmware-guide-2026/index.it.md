@@ -1,7 +1,7 @@
 ---
 title: "Firmware personalizzato DagShell per Orbic RCL400: guida 2026"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Guida tecnica al firmware DagShell per Orbic RCL400. Descrive installazione, strumenti per la privacy, wardriving e limiti della ricerca."
@@ -89,12 +89,12 @@ ______
 
 I **comandi AT** permettono il controllo del modem a basso livello:
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+Esempi di comandi AT:
+AT+CSQ       - Qualità del segnale
+AT+COPS?     - Operatore di rete attuale
+AT+CREG?     - Stato di registrazione della rete
+AT+CIMI      - Ottieni IMSI (identità dell’abbonato)
+AT+CGSN      - Ottieni IMEI (identificatore del dispositivo)
 ```
 
 ### 🌐 Strumenti di rete
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **Comando AT utilizzato:**
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+Testo del messaggio qui^Z
 ```
 
 ### 🔧 Strumenti di hacking
@@ -444,7 +444,7 @@ Il **companion Raspberry Pi** amplia le funzionalità di DagShell con **hardware
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       Ora  Latitudine  Longitudine  Stato  Satelliti  Altitudine
 ```
 
 #### Scansione Bluetooth (BLE)

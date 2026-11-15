@@ -1,7 +1,7 @@
 ---
 title: "دليل DagShell للبرامج الثابتة المخصصة لجهاز Orbic RCL400 لعام 2026"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "دليل تقني لبرنامج DagShell الثابت على Orbic RCL400، يشمل التثبيت وأدوات الخصوصية والقيادة لمسح الشبكات وحدود البحث."
@@ -89,12 +89,12 @@ ______
 
 تتيح **أوامر AT** التحكم بالمودم على مستوى منخفض:
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+أمثلة على أوامر AT:
+AT+CSQ       - جودة الإشارة
+AT+COPS?     - مشغّل الشبكة الحالي
+AT+CREG?     - حالة التسجيل في الشبكة
+AT+CIMI      - الحصول على IMSI (هوية المشترك)
+AT+CGSN      - الحصول على IMEI (معرّف الجهاز)
 ```
 
 ### 🌐 أدوات الشبكة
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **أمر AT المستخدم**:
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+نص الرسالة هنا^Z
 ```
 
 ### 🔧 أدوات الاختراق
@@ -444,7 +444,7 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       الوقت  خط العرض  خط الطول  حالة التثبيت  الأقمار  الارتفاع
 ```
 
 #### مسح Bluetooth (BLE)

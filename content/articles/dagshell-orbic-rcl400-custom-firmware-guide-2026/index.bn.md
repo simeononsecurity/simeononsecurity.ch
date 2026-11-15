@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400-এর জন্য DagShell কাস্টম ফার্মওয়্যার: ২০২৬ নির্দেশিকা"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Orbic RCL400-এর DagShell ফার্মওয়্যারের প্রযুক্তিগত নির্দেশিকা। ইনস্টলেশন, গোপনীয়তা সরঞ্জাম, ওয়ারড্রাইভিং ও গবেষণার সীমা ব্যাখ্যা করা হয়েছে।"
@@ -89,12 +89,12 @@ ______
 
 **AT কমান্ড** মডেমকে নিম্ন স্তরে নিয়ন্ত্রণ করে:
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+AT কমান্ডের উদাহরণ:
+AT+CSQ       - সিগন্যালের মান
+AT+COPS?     - বর্তমান নেটওয়ার্ক অপারেটর
+AT+CREG?     - নেটওয়ার্ক নিবন্ধনের অবস্থা
+AT+CIMI      - IMSI নিন (গ্রাহকের পরিচয়)
+AT+CGSN      - IMEI নিন (ডিভাইসের শনাক্তকারী)
 ```
 
 ### 🌐 নেটওয়ার্ক টুল
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **ব্যবহৃত AT কমান্ড**:
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+বার্তার লেখা এখানে^Z
 ```
 
 ### 🔧 হ্যাকিং টুল
@@ -444,7 +444,7 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       সময়  অক্ষাংশ  দ্রাঘিমাংশ  অবস্থান  উপগ্রহ  উচ্চতা
 ```
 
 #### Bluetooth স্ক্যানিং (BLE)

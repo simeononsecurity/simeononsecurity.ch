@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400向けDagShellカスタムファームウェアガイド 2026年版"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Orbic RCL400用DagShellファームウェアの技術ガイドです。インストール、プライバシーツール、ウォードライビング、調査の限界を説明します。"
@@ -89,12 +89,12 @@ ______
 
 **ATコマンド**でモデムを低レベルで制御できます。
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+ATコマンドの例：
+AT+CSQ       - 信号品質
+AT+COPS?     - 現在のネットワーク事業者
+AT+CREG?     - ネットワーク登録状態
+AT+CIMI      - IMSIを取得（加入者識別情報）
+AT+CGSN      - IMEIを取得（端末識別子）
 ```
 
 ### 🌐 ネットワークツール
@@ -181,7 +181,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **使用するATコマンド**:
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+ここにメッセージ本文^Z
 ```
 
 ### 🔧 ハッキングツール
@@ -445,7 +445,7 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       時刻  緯度  経度  測位状態  衛星数  高度
 ```
 
 #### Bluetoothスキャン (BLE)

@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400 ਲਈ DagShell ਕਸਟਮ ਫਰਮਵੇਅਰ: 2026 ਗਾਈਡ"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Orbic RCL400 ਉੱਤੇ DagShell ਫਰਮਵੇਅਰ ਲਈ ਤਕਨੀਕੀ ਗਾਈਡ। ਇਸ ਵਿੱਚ ਇੰਸਟਾਲੇਸ਼ਨ, ਗੋਪਨੀਯਤਾ ਟੂਲ, ਵਾਰਡਰਾਈਵਿੰਗ ਅਤੇ ਖੋਜ ਦੀਆਂ ਸੀਮਾਵਾਂ ਸ਼ਾਮਲ ਹਨ।"
@@ -89,12 +89,12 @@ ______
 
 **AT ਕਮਾਂਡਾਂ** ਮੋਡਮ ਉੱਤੇ ਹੇਠਲੇ ਪੱਧਰ ਦਾ ਕੰਟਰੋਲ ਦਿੰਦੀਆਂ ਹਨ:
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+AT ਕਮਾਂਡਾਂ ਦੀਆਂ ਉਦਾਹਰਨਾਂ:
+AT+CSQ       - ਸਿਗਨਲ ਦੀ ਗੁਣਵੱਤਾ
+AT+COPS?     - ਮੌਜੂਦਾ ਨੈੱਟਵਰਕ ਆਪਰੇਟਰ
+AT+CREG?     - ਨੈੱਟਵਰਕ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਸਥਿਤੀ
+AT+CIMI      - IMSI ਪ੍ਰਾਪਤ ਕਰੋ (ਗਾਹਕ ਦੀ ਪਛਾਣ)
+AT+CGSN      - IMEI ਪ੍ਰਾਪਤ ਕਰੋ (ਡਿਵਾਈਸ ਪਛਾਣਕਰਤਾ)
 ```
 
 ### 🌐 ਨੈੱਟਵਰਕ ਟੂਲ
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **ਵਰਤੀ AT ਕਮਾਂਡ**:
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+ਸੁਨੇਹੇ ਦਾ ਪਾਠ ਇੱਥੇ^Z
 ```
 
 ### 🔧 ਹੈਕਿੰਗ ਟੂਲ
@@ -444,7 +444,7 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       ਸਮਾਂ  ਅਕਸ਼ਾਂਸ਼  ਦੇਸ਼ਾਂਤਰ  ਸਥਿਤੀ  ਉਪਗ੍ਰਹਿ  ਉਚਾਈ
 ```
 
 #### Bluetooth ਸਕੈਨਿੰਗ (BLE)

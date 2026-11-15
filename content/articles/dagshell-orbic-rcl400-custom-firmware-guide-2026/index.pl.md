@@ -1,7 +1,7 @@
 ---
 title: "Niestandardowe oprogramowanie układowe DagShell dla Orbic RCL400: przewodnik na 2026 rok"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Techniczny przewodnik po oprogramowaniu DagShell dla Orbic RCL400. Opisuje instalację, narzędzia ochrony prywatności, wardriving i ograniczenia badań."
@@ -89,12 +89,12 @@ ______
 
 **Polecenia AT** umożliwiają niskopoziomowe sterowanie modemem:
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+Przykładowe polecenia AT:
+AT+CSQ       - Jakość sygnału
+AT+COPS?     - Aktualny operator sieci
+AT+CREG?     - Stan rejestracji w sieci
+AT+CIMI      - Pobierz IMSI (identyfikator abonenta)
+AT+CGSN      - Pobierz IMEI (identyfikator urządzenia)
 ```
 
 ### 🌐 Narzędzia sieciowe
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **Używane polecenie AT:**
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+Treść wiadomości tutaj^Z
 ```
 
 ### 🔧 Narzędzia hakerskie
@@ -443,7 +443,7 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       Czas  Szerokość  Długość  Stan  Satelity  Wysokość
 ```
 
 #### Skanowanie Bluetooth (BLE)

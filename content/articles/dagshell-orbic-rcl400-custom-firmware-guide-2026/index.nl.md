@@ -1,7 +1,7 @@
 ---
 title: "DagShell custom firmware voor Orbic RCL400: gids voor 2026"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Technische gids voor DagShell-firmware op de Orbic RCL400, met installatie, privacytools, wardriving en onderzoeksbeperkingen."
@@ -17,7 +17,7 @@ coverCaption: ""
 
 ## Inleiding: een hotspot voor hackers
 
-**DagShell** is open source-firmware voor de **mobiele hotspot Orbic RCL400**. De firmware verandert een gewone mobiele hotspot in een **draagbare toolkit voor beveiligingsonderzoek en privacy**. Deze firmware met terminalstijl is gemaakt door beveiligingsonderzoeker "dag". De strakke interface met groene tekst op zwart biedt **hacktools, privacyfuncties en netwerkbewaking** in een hackerachtige stijl.
+**DagShell** is openbronfirmware voor de **mobiele hotspot Orbic RCL400**. De firmware verandert een gewone mobiele hotspot in een **draagbare toolkit voor beveiligingsonderzoek en privacy**. Deze firmware met terminalstijl is gemaakt door beveiligingsonderzoeker "dag". De strakke interface met groene tekst op zwart biedt **hacktools, privacyfuncties en netwerkbewaking** in een hackerachtige stijl.
 
 Deze uitgebreide gids behandelt:
 - **Wat DagShell is** en welke functies beschikbaar zijn
@@ -40,7 +40,7 @@ ______
 
 ### Overzicht
 
-**DagShell** is open source-firmware die de standaard webinterface van de Orbic RCL400 vervangt door een **uitgebreide beveiligingstoolkit** met:
+**DagShell** is openbronfirmware die de standaard webinterface van de Orbic RCL400 vervangt door een **uitgebreide beveiligingstoolkit** met:
 
 - **Terminalinterface** met ASCII-art en een hackeruitstraling
 - Een **met TLS 1.2+ versleutelde** webinterface (zelfondertekend certificaat)
@@ -62,7 +62,7 @@ ______
 **Versleuteling**: TLS 1.2+ met zelfondertekende certificaten (PKI met twee niveaus)\
 **Webserver**: aangepaste ingebouwde HTTPS-server (poort 8443)\
 **Interface**: terminalinterface in een browser\
-**Licentie**: MIT (open source)\
+**Licentie**: MIT (openbron)\
 **GitHub**: [github.com/dagnazty/DagShell](https://github.com/dagnazty/DagShell)
 
 ### Visueel ontwerp
@@ -89,12 +89,12 @@ ______
 
 **AT-commando's** bieden modemaansturing op laag niveau:
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+Voorbeelden van AT-commando's:
+AT+CSQ       - Signaalkwaliteit
+AT+COPS?     - Huidige netwerkprovider
+AT+CREG?     - Registratiestatus op het netwerk
+AT+CIMI      - IMSI ophalen (abonnee-identiteit)
+AT+CGSN      - IMEI ophalen (apparaatidentificatie)
 ```
 
 ### 🌐 Netwerktools
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **Gebruikt AT-commando**:
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+Berichttekst hier^Z
 ```
 
 ### 🔧 Hacktools
@@ -444,7 +444,7 @@ De **Raspberry Pi Companion** breidt DagShell uit met **externe hardware**:
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       Tijd  Breedtegraad  Lengtegraad  Status  Satellieten  Hoogte
 ```
 
 #### Bluetooth-scannen (BLE)

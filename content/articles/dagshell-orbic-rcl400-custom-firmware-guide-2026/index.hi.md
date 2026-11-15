@@ -1,7 +1,7 @@
 ---
 title: "Orbic RCL400 के लिए DagShell कस्टम फ़र्मवेयर: 2026 मार्गदर्शिका"
 date: 2026-05-28
-lastmod: 2026-11-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Orbic RCL400 के DagShell फ़र्मवेयर की तकनीकी मार्गदर्शिका। इसमें इंस्टॉलेशन, निजता उपकरण, वार्ड्राइविंग और शोध की सीमाएँ शामिल हैं।"
@@ -89,12 +89,12 @@ ______
 
 **AT कमांड** मॉडेम पर निम्न-स्तरीय नियंत्रण देती हैं:
 ```
-Example AT Commands:
-AT+CSQ       - Signal quality
-AT+COPS?     - Current network operator  
-AT+CREG?     - Network registration status
-AT+CIMI      - Get IMSI (subscriber identity)
-AT+CGSN      - Get IMEI (device identifier)
+AT कमांड के उदाहरण:
+AT+CSQ       - सिग्नल की गुणवत्ता
+AT+COPS?     - वर्तमान नेटवर्क ऑपरेटर
+AT+CREG?     - नेटवर्क पंजीकरण स्थिति
+AT+CIMI      - IMSI प्राप्त करें (ग्राहक की पहचान)
+AT+CGSN      - IMEI प्राप्त करें (डिवाइस पहचानकर्ता)
 ```
 
 ### 🌐 नेटवर्क उपकरण
@@ -180,7 +180,7 @@ iptables -t mangle -D POSTROUTING -j TTL --ttl-set 65
 **उपयोग की गई AT कमांड**:
 ```
 AT+CMGS="PHONE_NUMBER"
-Message text here^Z
+संदेश का पाठ यहाँ^Z
 ```
 
 ### 🔧 हैकिंग उपकरण
@@ -432,7 +432,7 @@ A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
        |       |          |           |  |  |   |
-       Time    Latitude   Longitude   Fix Sats  Altitude
+       समय  अक्षांश  देशांतर  स्थिति  उपग्रह  ऊँचाई
 ```
 
 #### Bluetooth स्कैनिंग (BLE)
