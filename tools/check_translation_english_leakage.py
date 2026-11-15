@@ -78,6 +78,7 @@ CSV_FIELDS = [
     "copied_english_table_cells", "copied_english_headings",
     "copied_english_metadata", "taxonomy_count_differences",
     "expected_script_ratio", "copied_english_opening", "copied_link_labels",
+    "copied_english_body",
     "markdown_structure_differences", "note",
 ]
 SCRIPT_RANGES = {
@@ -1067,7 +1068,7 @@ def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
     for part in re.split(r"\n\s*\n", visible_text(text, include_link_labels=False)):
         paragraph = normalize(part)
         tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", paragraph.lower())
-        if len(tokens) < 10:
+        if len(tokens) < 5:
             continue
         english_ratio = sum(word in ENGLISH_STOPWORDS for word in tokens) / len(tokens)
         locale_ratio = sum(word in locale_words for word in tokens) / len(tokens)
@@ -1081,6 +1082,8 @@ def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
         )
         if expected_script is not None and len(tokens) >= 15:
             english_threshold = 0.25
+        elif len(tokens) < 10:
+            english_threshold = 0.40
         else:
             english_threshold = 0.35 if len(tokens) < 30 else 0.28
         if english_ratio >= english_threshold and locale_signal_is_weak:
@@ -1146,6 +1149,13 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             misplaced = True
         metadata, body = read_page(target)
         prose = visible_text(body)
+        source_prose = visible_text(source_body)
+        copied_body = (
+            normalize(prose)
+            if normalize(source_prose)
+            and normalize(prose) == normalize(source_prose)
+            else ""
+        )
         tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", prose.lower())
         english_ratio = sum(word in ENGLISH_STOPWORDS for word in tokens) / max(1, len(tokens))
         locale_words = LOCALE_STOPWORDS.get(locale, set())
@@ -1176,6 +1186,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_opening = copied_english_opening(source_body, body)
         if copied_opening:
             reasons.append("copied_english_opening")
+        if copied_body:
+            reasons.append("copied_english_body")
         if misplaced:
             reasons.append("translation_not_beside_source")
         copied_metadata = [
@@ -1253,6 +1265,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_english_opening": copied_opening,
                 "copied_link_labels": " | ".join(copied_link_labels),
+                "copied_english_body": copied_body,
                 "markdown_structure_differences": json.dumps(
                     structure_differences, ensure_ascii=False, sort_keys=True
                 ),

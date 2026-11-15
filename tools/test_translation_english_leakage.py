@@ -152,6 +152,21 @@ class FencedProseTests(unittest.TestCase):
         self.assertLess(len(english.split()), 30)
         self.assertEqual(english_dominant_paragraphs(english, "fr"), [normalize(english)])
 
+    def test_flags_several_short_english_paragraphs(self):
+        text = (
+            "The tool is in the box for users.\n\n"
+            "It is not safe for users to proceed.\n\n"
+            "Use the tool only if it is safe."
+        )
+        self.assertEqual(
+            english_dominant_paragraphs(text, "fr"),
+            [
+                "the tool is in the box for users",
+                "it is not safe for users to proceed",
+                "use the tool only if it is safe",
+            ],
+        )
+
     def test_audit_flags_short_wholly_english_locale_file(self):
         with TemporaryDirectory() as temporary_directory:
             root = Path(temporary_directory)
@@ -179,6 +194,26 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(len(findings), 1)
         self.assertIn("English_dominant_reader_paragraph", findings[0]["reasons"])
+
+    def test_audit_flags_short_exact_english_body_with_different_front_matter(self):
+        with TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            bundle = root / "article"
+            bundle.mkdir()
+            body = "## Overview\n\nThe system records each approval.\n"
+            self.assertLess(len(body.split()), 20)
+            source = bundle / "index.en.md"
+            source.write_text("---\ntitle: 'Review access'\n---\n" + body, encoding="utf-8")
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Vérifier l’accès'\nlastmod: 2026-11-14\n---\n" + body,
+                encoding="utf-8",
+            )
+
+            with patch("check_translation_english_leakage.ROOT", root):
+                findings = audit_bundle(source, ["fr"])
+
+        self.assertEqual(len(findings), 1)
+        self.assertIn("copied_english_body", findings[0]["reasons"])
 
     def test_does_not_flag_product_names_as_short_english_paragraph(self):
         product_names = (

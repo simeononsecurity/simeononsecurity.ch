@@ -68,6 +68,18 @@
   section contain target-language prose. If any segment is missing or still
   source English, leave that locale marked incomplete in the work report and
   do not create or approve its locale file.
+  Treat a locale filename as a claim that the file contains a complete
+  translation, not as an in-progress marker. Keep drafts and failed or
+  incomplete candidates outside `content/articles/`. Before adding or replacing
+  a locale file, screen the temporary candidate against the English source for
+  copied paragraphs, sentences, spans, metadata, and English-dominant prose.
+  Manually inspect every finding. If the candidate still contains untranslated
+  reader-facing English, do not move it into the bundle; report the locale as
+  missing until the complete translation passes this gate.
+  Compare normalized article bodies for an exact English copy even when front
+  matter differs. Inspect short paragraphs individually, since English-only
+  sections can evade long-paragraph thresholds. A locale extension marks final
+  translated content, never a placeholder or progress state.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
 - When a script splits a Markdown file on `---`, validate the split parts before
@@ -270,7 +282,10 @@
   The checker flags missing locale files, empty bodies, repeated English source
   paragraphs, sentences, or copied English word spans, English stopword
   dominance, missing expected scripts, and exact English reader metadata. Treat
-  each result as a manual-review queue. Inspect
+  `copied_english_body` as a blocking exact-body fallback finding, even when
+  translated front matter differs. Repair English-dominant short paragraphs;
+  translated text elsewhere in the file does not make those paragraphs complete.
+  Treat each result as a manual-review queue. Inspect
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
