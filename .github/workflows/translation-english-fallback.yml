@@ -6,14 +6,19 @@ on:
       - "content/articles/**/index.*.md"
       - "config/_default/config.toml"
       - "tools/check_translation_english_leakage.py"
+      - "tools/test_translation_english_leakage.py"
       - ".github/workflows/translation-english-fallback.yml"
   pull_request:
     paths:
       - "content/articles/**/index.*.md"
       - "config/_default/config.toml"
       - "tools/check_translation_english_leakage.py"
+      - "tools/test_translation_english_leakage.py"
       - ".github/workflows/translation-english-fallback.yml"
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   translation-english-fallback:
@@ -22,6 +27,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
 
       - name: Test the translation fallback checker
         run: python3 tools/test_translation_english_leakage.py
