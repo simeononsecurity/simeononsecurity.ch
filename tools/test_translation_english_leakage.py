@@ -1,5 +1,7 @@
 """Regression checks for reader-facing prose hidden in Markdown fences."""
 
+import csv
+import io
 import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -18,6 +20,7 @@ from check_translation_english_leakage import (
     copied_reader_fenced_examples,
     copied_reader_fenced_lines,
     copied_reader_code_prose,
+    copied_unlabeled_fence_lines,
     english_dominant_paragraphs,
     markdown_structure,
     markdown_structure_differences,
@@ -70,9 +73,21 @@ class FencedProseTests(unittest.TestCase):
         self.assertIn("exact_english_sentences", CSV_FIELDS)
         self.assertIn("copied_reader_fenced_lines", CSV_FIELDS)
         self.assertIn("copied_reader_code_prose", CSV_FIELDS)
+        self.assertIn("copied_unlabeled_fence_lines", CSV_FIELDS)
         self.assertLess(
             CSV_FIELDS.index("exact_english_sentences"),
             CSV_FIELDS.index("copied_reader_fenced_lines"),
+        )
+        output = io.StringIO(newline="")
+        finding = {field: "" for field in CSV_FIELDS}
+        finding["copied_unlabeled_fence_lines"] = "primary network adapters"
+        writer = csv.DictWriter(output, fieldnames=CSV_FIELDS)
+        writer.writeheader()
+        writer.writerow(finding)
+        output.seek(0)
+        self.assertEqual(
+            next(csv.DictReader(output))["copied_unlabeled_fence_lines"],
+            "primary network adapters",
         )
 
     def test_flags_unchanged_descriptive_table_cell(self):
@@ -214,6 +229,35 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(len(findings), 1)
         self.assertIn("copied_english_body", findings[0]["reasons"])
+
+    def test_audit_reports_unlabeled_fence_copy_reason_and_csv_value(self):
+        with TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            bundle = root / "article"
+            bundle.mkdir()
+            source = bundle / "index.en.md"
+            source.write_text(
+                "---\ntitle: 'Network adapters'\n---\n"
+                "## Overview\n\nThe adapter reports network details for review.\n\n"
+                "```\nPrimary network adapters:\n```\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Adaptateurs réseau'\n---\n"
+                "## Présentation\n\nL’adaptateur indique les informations réseau à vérifier.\n\n"
+                "```\nPrimary network adapters:\n```\n",
+                encoding="utf-8",
+            )
+
+            with patch("check_translation_english_leakage.ROOT", root):
+                findings = audit_bundle(source, ["fr"])
+
+        self.assertEqual(len(findings), 1)
+        self.assertIn("copied_unlabeled_fence_line", findings[0]["reasons"])
+        self.assertEqual(
+            findings[0]["copied_unlabeled_fence_lines"],
+            "primary network adapters",
+        )
 
     def test_does_not_flag_product_names_as_short_english_paragraph(self):
         product_names = (
@@ -911,6 +955,117 @@ print('She said "Continue before saving"')
         output = "```text\nPASS: consistency only, human approval remains required\n```"
 
         self.assertFalse(copied_reader_fenced_lines(output, output))
+
+    def test_flags_unchanged_descriptive_lines_in_unlabeled_fences(self):
+        source = (
+            "```\n"
+            "Primary Espressif OUIs (ESP32-based modules):\n"
+            "[...] 21 additional manufacturer OUIs ...]\n"
+            "```"
+        )
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(source, source),
+            {
+                "primary espressif ouis esp32 based modules",
+                "21 additional manufacturer ouis",
+            },
+        )
+
+    def test_ignores_oui_records_in_unlabeled_fences(self):
+        data = "```\nD4:AD:FC - Espressif Inc. (Common ESP32-S3)\n```"
+
+        self.assertFalse(copied_unlabeled_fence_lines(data, data))
+
+    def test_flags_short_labels_in_unlabeled_fences(self):
+        labels = "```\nDevice name\nVendor\n```"
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(labels, labels),
+            {"device name", "vendor"},
+        )
+
+    def test_flags_colon_sentences_in_unlabeled_fences(self):
+        sentence = "```\nDo not continue: check the logs.\n```"
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(sentence, sentence),
+            {"do not continue check the logs"},
+        )
+
+    def test_queues_single_word_status_labels_in_unlabeled_fences(self):
+        labels = "```\nstart\nstop\nready\ndone\n```"
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(labels, labels),
+            {"start", "stop", "ready", "done"},
+        )
+
+    def test_ignores_numeric_network_data_in_unlabeled_fences(self):
+        data = "```\n192.168.1.1 255.255.255.0\n```"
+
+        self.assertFalse(copied_unlabeled_fence_lines(data, data))
+
+    def test_flags_numeric_reader_facing_lines_in_unlabeled_fences(self):
+        source = "```\n90% complete\n3 devices\n```"
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(source, source),
+            {"90 complete", "3 devices"},
+        )
+
+    def test_flags_one_word_numeric_labels_and_bare_phase_headings(self):
+        source = "```\nCost: $2,500\nSavings: 25%\nPhase 1\n```"
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(source, source),
+            {"cost 2 500", "savings 25", "phase 1"},
+        )
+
+    def test_flags_brace_placeholders_and_arrow_prose_in_unlabeled_fences(self):
+        source = (
+            "```\n"
+            "Device address: {address}\n"
+            "Read the profile -> check status\n"
+            "Need maximum anonymity → Tor Browser\n"
+            "```"
+        )
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(source, source),
+            {
+                "device address address",
+                "read the profile check status",
+                "need maximum anonymity tor browser",
+            },
+        )
+
+    def test_ignores_identifier_mappings_in_unlabeled_fences(self):
+        mapping = "```\nREQ-17 -> requirement.json\nRUN-04 → runbook.md\n```"
+
+        self.assertFalse(copied_unlabeled_fence_lines(mapping, mapping))
+
+    def test_flags_word_only_arrow_mapping_in_unlabeled_fence(self):
+        prose = "```\nOpen -> Save\n```"
+
+        self.assertEqual(
+            copied_unlabeled_fence_lines(prose, prose),
+            {"open save"},
+        )
+
+    def test_flags_numbered_phase_headings_in_unlabeled_fences(self):
+        source = "```\nPhase 1: Pilot (Months 1-2)\n```"
+
+        self.assertIn(
+            normalize("Phase 1: Pilot (Months 1-2)"),
+            copied_unlabeled_fence_lines(source, source),
+        )
+
+    def test_flags_cost_prose_with_currency_and_arithmetic(self):
+        line = "Cost savings: $2,500 device replaces $2,000 firewall + $3,000 SD-WAN appliance"
+        source = f"```\n{line}\n```"
+
+        self.assertIn(normalize(line), copied_unlabeled_fence_lines(source, source))
 
     def test_finds_english_sentences_inside_translated_copy(self):
         source = "The reviewer should translate each sentence while preserving technical names and URLs."

@@ -58,6 +58,12 @@ GENERIC_ENGLISH_LINK_LABELS = {
     "source",
     "documentation",
 }
+UNLABELED_FENCE_SINGLE_WORD_LABELS = {
+    "additional", "category", "common", "description", "device", "done",
+    "example", "input", "location", "manufacturer", "model", "name", "notes",
+    "output", "primary", "product", "ready", "source", "start", "status", "stop",
+    "type", "value", "vendor",
+}
 LOCALE_STOPWORDS = {
     "ca": set("el la els les un una i o de que en per amb és són es del dels al als sobre com no també si quan".split()),
     "de": set("der die das den dem des ein eine einer und oder zu im vom mit auf für ist sind wird werden nicht aus an bei nach über als dass weil sich von am zum zur auch".split()),
@@ -73,7 +79,7 @@ CSV_FIELDS = [
     "path", "locale", "reasons", "tokens", "english_stopword_ratio",
     "locale_stopword_ratio", "exact_english_paragraphs",
     "exact_english_sentences", "copied_reader_fenced_lines",
-    "copied_reader_code_prose", "copied_english_spans",
+    "copied_reader_code_prose", "copied_unlabeled_fence_lines", "copied_english_spans",
     "split_word_emphasis", "english_dominant_paragraphs",
     "copied_english_table_cells", "copied_english_headings",
     "copied_english_metadata", "taxonomy_count_differences",
@@ -589,6 +595,44 @@ def copied_reader_fenced_lines(source: str, target: str) -> set[str]:
                 # Ignore short proper names and numeric or identifier-only data.
                 if len(words) >= 3 and sum(word.isalpha() for word in words) >= 3:
                     lines.add(normalized)
+        return lines
+
+    return eligible_lines(source) & eligible_lines(target)
+
+
+def copied_unlabeled_fence_lines(source: str, target: str) -> set[str]:
+    """Find unchanged descriptive lines in fences without an info string."""
+    def eligible_lines(text: str) -> set[str]:
+        lines = set()
+        for block in fenced_blocks(text):
+            if block["language"]:
+                continue
+            for line in block["body"].splitlines():
+                stripped = line.strip().strip("`*_ ")
+                if not stripped:
+                    continue
+                if re.match(r"^(?:[0-9A-Fa-f]{2}:){2,}[0-9A-Fa-f]{2}(?:\s|$)", stripped):
+                    # MAC/OUI address rows are literal identifiers, not prose.
+                    continue
+                arrow_parts = re.split(r"\s*(?:->|→|=>)\s*", stripped)
+                if len(arrow_parts) > 1 and all(
+                    re.fullmatch(r"[A-Za-z0-9_./:{}-]+", part.strip())
+                    and re.search(r"[0-9/._]", part.strip())
+                    for part in arrow_parts
+                ):
+                    # Identifier/path mappings are data; prose around an arrow
+                    # remains eligible for manual review.
+                    continue
+                # Numeric prose still needs review. Exclude only data-only lines
+                # here; address rows receive the narrower check above.
+                words = re.findall(r"[A-Za-z]{3,}", stripped)
+                if not words:
+                    continue
+                has_numeric_quantity = bool(re.search(r"\b\d+(?:[,.]\d+)?\s*%?\b", stripped))
+                if len(words) >= 2 or has_numeric_quantity or (
+                    len(words) == 1 and words[0].lower() in UNLABELED_FENCE_SINGLE_WORD_LABELS
+                ):
+                    lines.add(normalize(stripped))
         return lines
 
     return eligible_lines(source) & eligible_lines(target)
@@ -1209,6 +1253,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_fence_lines = sorted(copied_reader_fenced_lines(source_body, body))
         if copied_fence_lines:
             reasons.append("copied_reader_fenced_line")
+        copied_unlabeled_fence = sorted(copied_unlabeled_fence_lines(source_body, body))
+        if copied_unlabeled_fence:
+            reasons.append("copied_unlabeled_fence_line")
         copied_code_prose = sorted(copied_reader_code_prose(source_body, body))
         if copied_code_prose:
             reasons.append("copied_reader_code_prose")
@@ -1250,6 +1297,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "exact_english_sentences": " | ".join(copied_sentences),
                 "copied_reader_fenced_lines": " | ".join(copied_fence_lines),
                 "copied_reader_code_prose": " | ".join(copied_code_prose),
+                "copied_unlabeled_fence_lines": " | ".join(copied_unlabeled_fence),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
                 "split_word_emphasis": " | ".join(split_emphasis),
                 "english_dominant_paragraphs": " | ".join(english_paragraphs),

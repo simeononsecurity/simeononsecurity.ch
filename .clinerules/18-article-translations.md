@@ -166,6 +166,12 @@
   identifiers, commands, and numeric results when they are fixed data.
   Review each unchanged table-cell flag in context and record the reason
   when you preserve it as a product name, status, identifier, or fixed value.
+  Treat every `English_reader_table_cell_copy` result as an approval blocker until
+  you inspect the source-aligned table row. Translate copied descriptive text,
+  and document the precise reason for every retained product name, status,
+  identifier, or fixed value. After editing, rerun
+  `tools/check_translation_english_leakage.py` on the affected article bundles
+  and recheck the `copied_english_table_cells` report column before approval.
   A locale filename, nonempty body, expected-script sample, or low file-wide
   English ratio does not establish translated coverage. Before approval, inspect
   the title, description, opening, every section, and reader-facing examples in
@@ -243,6 +249,17 @@
   the reason when retaining English text the checker flags. Do not exempt generic
   status words such as `start`, `stop`, `ready`, or `done` automatically. Review
   those strings in context because they can serve as visible instructions or labels.
+  An unlabeled code fence can still contain reader-facing labels or explanatory
+  placeholders alongside literal data. The checker reports unchanged prose lines
+  from unlabeled fences as `copied_unlabeled_fence_line`; translate those labels
+  and placeholders while keeping addresses, model identifiers, and literal values.
+  Numeric content does not make a line data-only: cost explanations, percentages,
+  quantities, and numbered timeline phases remain reader-facing prose. Review
+  these lines even when they contain currency symbols or arithmetic. Exclude only
+  data-only rows, fixed output, commands, and identifiers with a specific reason.
+  Arrows can connect reader-facing decision labels or instructions. Translate the
+  words around an arrow; retain a line unchanged only when it is an identifier/path
+  mapping or literal data, and record that reason.
   Match each code fence language to the syntax shown. For example, `#` comments
   belong in a PowerShell fence, not a `cmd` fence. A wrong fence label can hide
   comments from the language-aware leakage checker and misrepresent how commands
@@ -260,6 +277,8 @@
   an approval blocker. Do not mark a locale complete while the checker reports
   `copied_reader_fenced_line` until each line has been translated or documented
   as fixed output or literal data.
+  Apply the same blocker to `copied_unlabeled_fence_line`; translate each
+  reader-facing line or record a specific reason when it is fixed output or literal data.
   Compare the ordered fence inventory with the English source before approval.
   Every reader-facing `text`, `plaintext`, or `markdown` example must appear exactly once in
   each locale and retain its field and line coverage. File presence and a clean
@@ -293,8 +312,9 @@
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
-  In CSV reports, review `copied_reader_fenced_lines` and
-  `copied_reader_code_prose` separately from `exact_english_sentences`; fixed
+  In CSV reports, review `copied_reader_fenced_lines`,
+  `copied_unlabeled_fence_lines`, and `copied_reader_code_prose` separately from
+  `exact_english_sentences`; fixed
   examples and executable-code comments are distinct findings and must not be
   mistaken for copied article sentences. Before approval, resolve every
   `copied_reader_code_prose` finding in context: translate reader-facing code
