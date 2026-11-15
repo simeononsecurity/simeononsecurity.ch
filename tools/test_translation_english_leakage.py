@@ -916,8 +916,12 @@ print('She said "Continue before saving"')
 
     def test_effective_ai_delegation_examples_detect_an_english_copy(self):
         bundle = Path(__file__).resolve().parents[1] / "content/articles/effective-ai-agent-delegation"
-        english = (bundle / "index.en.md").read_text(encoding="utf-8")
-        translated = (bundle / "index.de.md").read_text(encoding="utf-8")
+        english_path = bundle / "index.en.md"
+        translated_path = bundle / "index.de.md"
+        if not english_path.is_file() or not translated_path.is_file():
+            self.skipTest("article bundle is outside this sparse checkout")
+        english = english_path.read_text(encoding="utf-8")
+        translated = translated_path.read_text(encoding="utf-8")
 
         self.assertEqual(len(reader_fenced_prose(english)), 2)
         self.assertTrue(copied_reader_fenced_examples(english, english))
