@@ -2,7 +2,9 @@
 
 import csv
 import io
+import sys
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import patch
@@ -22,6 +24,8 @@ from check_translation_english_leakage import (
     copied_reader_code_prose,
     copied_unlabeled_fence_lines,
     english_dominant_paragraphs,
+    english_dominant_body,
+    main as checker_main,
     markdown_structure,
     markdown_structure_differences,
     normalize,
@@ -209,6 +213,45 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(len(findings), 1)
         self.assertIn("English_dominant_reader_paragraph", findings[0]["reasons"])
+
+    def test_strict_gate_blocks_short_paraphrased_english_candidate_outside_repo(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Review access'\n---\n"
+                "## Scope\n\nThe original English source describes a different process.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Vérifier les accès'\n---\n"
+                "## Portée\n\n"
+                "The team checks each request before granting access. It logs the result "
+                "and alerts its owner.\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("English_dominant_reader_body", stdout.getvalue())
+        self.assertIn(str(bundle / "index.fr.md"), stdout.getvalue())
+
+    def test_strict_gate_does_not_treat_one_english_paragraph_as_whole_body_fallback(self):
+        body = (
+            "Le système examine chaque demande d’accès avant d’approuver les changements. "
+            "Il conserve une trace et avertit le responsable.\n\n"
+            "Administrators examine each credential request before granting access "
+            "to protected records. The platform retains an audit trail and alerts "
+            "the responsible owner.\n"
+        )
+
+        self.assertFalse(english_dominant_body(body, "fr"))
 
     def test_audit_flags_short_exact_english_body_with_different_front_matter(self):
         with TemporaryDirectory() as temporary_directory:

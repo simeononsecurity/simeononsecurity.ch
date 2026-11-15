@@ -1,0 +1,30 @@
+name: Translation English Fallback Check
+
+on:
+  push:
+    paths:
+      - "content/articles/**/index.*.md"
+      - "config/_default/config.toml"
+      - "tools/check_translation_english_leakage.py"
+      - ".github/workflows/translation-english-fallback.yml"
+  pull_request:
+    paths:
+      - "content/articles/**/index.*.md"
+      - "config/_default/config.toml"
+      - "tools/check_translation_english_leakage.py"
+      - ".github/workflows/translation-english-fallback.yml"
+  workflow_dispatch:
+
+jobs:
+  translation-english-fallback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Test the translation fallback checker
+        run: python3 tools/test_translation_english_leakage.py
+
+      - name: Block obvious English fallbacks
+        run: python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback

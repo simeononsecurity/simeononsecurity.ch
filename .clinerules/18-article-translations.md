@@ -312,6 +312,13 @@
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
+  The `Translation English Fallback Check` workflow runs the high-confidence
+  fallback screen on article changes. Run the same gate locally with
+  `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
+  It blocks exact English-body copies, multiple copied English paragraphs,
+  English-dominant prose, and missing expected scripts. The broader checker
+  remains a manual-review gate for shorter copied passages, reader-facing
+  examples, headings, metadata, and false positives.
   In CSV reports, review `copied_reader_fenced_lines`,
   `copied_unlabeled_fence_lines`, and `copied_reader_code_prose` separately from
   `exact_english_sentences`; fixed

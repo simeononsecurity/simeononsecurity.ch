@@ -1150,6 +1150,33 @@ def script_ratio(text: str, locale: str) -> float | None:
     return sum(any(start <= ord(char) <= end for start, end in ranges) for char in letters) / len(letters)
 
 
+def report_path(path: Path) -> str:
+    """Keep repo paths readable while allowing temporary candidate bundles."""
+    resolved = path.resolve()
+    try:
+        return resolved.relative_to(ROOT.resolve()).as_posix()
+    except ValueError:
+        return resolved.as_posix()
+
+
+def english_dominant_body(text: str, locale: str) -> bool:
+    """Block a body when English-dominant paragraphs make up most of it."""
+    paragraphs = [
+        normalize(part)
+        for part in re.split(r"\n\s*\n", visible_text(text, include_link_labels=False))
+        if normalize(part)
+    ]
+    findings = set(english_dominant_paragraphs(text, locale))
+    total_tokens = 0
+    english_tokens = 0
+    for paragraph in paragraphs:
+        tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", paragraph.lower())
+        total_tokens += len(tokens)
+        if paragraph in findings:
+            english_tokens += len(tokens)
+    return total_tokens >= 8 and english_tokens / total_tokens >= 0.65
+
+
 def published(metadata: dict) -> bool:
     if metadata.get("draft") is True:
         return False
@@ -1183,7 +1210,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             alternatives = [path for path in alternatives if path != source]
             if not alternatives:
                 findings.append({
-                    "path": target.relative_to(ROOT).as_posix(),
+                    "path": report_path(target),
                     "locale": locale,
                     "reasons": "translation_missing",
                     "tokens": "0",
@@ -1227,6 +1254,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         ]
         copied_spans = copied_english_prose_spans(source_body, body)
         english_paragraphs = english_dominant_paragraphs(body, locale)
+        english_body_fallback = english_dominant_body(body, locale)
         copied_table_cells = copied_english_table_cells(source_body, body)
         copied_headings = copied_english_headings(source_body, body)
         structure_differences = markdown_structure_differences(source_body, body)
@@ -1273,6 +1301,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("copied_English_prose_span")
         if english_paragraphs:
             reasons.append("English_dominant_reader_paragraph")
+        if english_body_fallback:
+            reasons.append("English_dominant_reader_body")
         if copied_table_cells:
             reasons.append("English_reader_table_cell_copy")
         if copied_headings:
@@ -1292,7 +1322,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append(f"markdown_{key}_mismatch")
         if reasons:
             findings.append({
-                "path": target.relative_to(ROOT).as_posix(),
+                "path": report_path(target),
                 "locale": locale,
                 "reasons": ";".join(reasons),
                 "tokens": str(len(tokens)),
@@ -1332,6 +1362,14 @@ def main() -> int:
     parser.add_argument("paths", nargs="*", type=Path, help="article bundle directories or index.en.md files")
     parser.add_argument("--all", action="store_true", help="scan all published article bundles")
     parser.add_argument("--csv", type=Path, help="write findings to this CSV path")
+    parser.add_argument(
+        "--fail-on-english-fallback",
+        action="store_true",
+        help=(
+            "fail only on high-confidence English fallback signals: an exact English body, "
+            "many copied English paragraphs, English stopword dominance, or a missing target script"
+        ),
+    )
     args = parser.parse_args()
     if not args.all and not args.paths:
         parser.error("provide article paths or --all")
@@ -1352,9 +1390,33 @@ def main() -> int:
         print(f"translation leakage screen failed: {exc}", file=sys.stderr)
         return 2
 
-    print(f"published bundles scanned: {len(sources)}; configured locales: {len(locales)}; flags: {len(findings)}")
-    for row in findings:
-        print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
+    if args.fail_on_english_fallback:
+        high_confidence = {
+            "copied_english_body",
+            "many_exact_English_paragraphs",
+            "English_stopword_dominance",
+            "English_dominant_reader_body",
+            "expected_script_missing",
+        }
+        blockers = [
+            row for row in findings
+            if high_confidence.intersection(row["reasons"].split(";"))
+        ]
+        print(
+            f"published bundles scanned: {len(sources)}; configured locales: {len(locales)}; "
+            f"high-confidence English fallbacks: {len(blockers)}"
+        )
+        for row in blockers:
+            reasons = high_confidence.intersection(row["reasons"].split(";"))
+            print(
+                f"{row['path']}\t{','.join(sorted(reasons))}\t"
+                f"English paragraphs {row['exact_english_paragraphs']}\t"
+                f"EN stopwords {row['english_stopword_ratio']}"
+            )
+    else:
+        print(f"published bundles scanned: {len(sources)}; configured locales: {len(locales)}; flags: {len(findings)}")
+        for row in findings:
+            print(f"{row['path']}\t{row['reasons']}\tEnglish paragraphs {row['exact_english_paragraphs']}\tEN stopwords {row['english_stopword_ratio']}")
     if args.csv:
         args.csv.parent.mkdir(parents=True, exist_ok=True)
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
@@ -1362,6 +1424,8 @@ def main() -> int:
             writer.writeheader()
             writer.writerows(findings)
         print(f"CSV report: {args.csv}")
+    if args.fail_on_english_fallback:
+        return 1 if blockers else 0
     return 1 if findings else 0
 
 
