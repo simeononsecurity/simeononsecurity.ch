@@ -89,9 +89,9 @@ CheckMKを利用して、監視の取り組みを次のレベルに引き上げ�
 
 ## 参考文献
 
-1. [CheckMK Official Website](https://checkmk.com)
-2. [CheckMK Documentation](https://checkmk.com/documentation)
-3. [Download CheckMK](https://checkmk.com/download)
+1. [CheckMK公式サイト](https://checkmk.com)
+2. [CheckMKドキュメント](https://checkmk.com/documentation)
+3. [CheckMKをダウンロード](https://checkmk.com/download)
 4. [Amazon Web Services (AWS)](https://aws.amazon.com)
 5. [Microsoft Azure](https://azure.microsoft.com)
 6. [Google Cloud Platform (GCP)](https://cloud.google.com)
