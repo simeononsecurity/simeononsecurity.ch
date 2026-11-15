@@ -1,6 +1,7 @@
 ---
 title: "Flock Finder: Mapa de cámaras ALPR de Flock Safety"
 date: 2026-07-22
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Flock Finder es una herramienta de código abierto que mapea más de 40.000 cámaras Flock Safety ALPR en todo el mundo utilizando datos WiFi de WiGLE y huellas digitales OUI. Aprende cómo funciona, sus limitaciones y las herramientas de hardware para la detección en tiempo real."
@@ -190,16 +191,16 @@ ______
 ```
 flock-finder/
 ├── scripts/
-│   └── wigle_query.py        # WiGLE API query and data pipeline
+│   └── wigle_query.py        # Consulta de la API de WiGLE y canal de datos
 ├── data/
-│   ├── flock_ouis.csv         # 31 known Flock Safety OUI prefixes
-│   ├── flock_cameras.geojson  # Camera locations (GeoJSON)
-│   ├── flock_cameras.csv      # Camera locations (CSV)
-│   └── scan_stats.json        # Scan statistics
+│   ├── flock_ouis.csv         # 31 prefijos OUI conocidos de Flock Safety
+│   ├── flock_cameras.geojson  # Ubicaciones de cámaras (GeoJSON)
+│   ├── flock_cameras.csv      # Ubicaciones de cámaras (CSV)
+│   └── scan_stats.json        # Estadísticas de escaneo
 ├── docs/
-│   └── index.html             # Interactive Leaflet map
+│   └── index.html             # Mapa interactivo de Leaflet
 └── .github/workflows/
-    └── update-data.yml        # Daily auto-update workflow
+    └── update-data.yml        # Flujo de actualización automática diaria
 ```
 
 ______
