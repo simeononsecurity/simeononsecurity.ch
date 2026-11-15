@@ -217,6 +217,9 @@
   JavaScript/TypeScript, C/C++, Java, C#, Go, Rust,
   Swift, Kotlin, PHP, Lua, Scala, and Groovy. It also screens visible text and
   accessibility labels in fenced HTML, including single-word labels. Treat an
+  unchanged Python module, class, or function docstring as reader-facing prose
+  and translate it while preserving the code structure. The checker screens
+  docstrings in parseable Python fences. Treat an
   unchanged comment or example string as a manual-review flag, not as executable
   syntax to ignore. Exempt
   fixed diagnostics and identifier-only values from translation. Review any

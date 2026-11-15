@@ -505,6 +505,32 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(copied_reader_code_prose(source, source), reader_fenced_code_prose(source))
         self.assertFalse(copied_reader_code_prose(source, translated))
 
+    def test_screens_python_function_and_class_docstrings(self):
+        source = (
+            "```python\n"
+            "class Analyzer:\n"
+            '    """Coordinate the analysis workflow."""\n'
+            "    def render(self):\n"
+            '        """Generate research visualizations."""\n'
+            "        pass\n"
+            "```"
+        )
+        translated = (
+            "```python\n"
+            "class Analyzer:\n"
+            '    """Coordonner le flux d’analyse."""\n'
+            "    def render(self):\n"
+            '        """Générer des visualisations de recherche."""\n'
+            "        pass\n"
+            "```"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(source),
+            {"coordinate the analysis workflow", "generate research visualizations"},
+        )
+        self.assertFalse(copied_reader_code_prose(source, translated))
+
     def test_screens_powershell_comments_in_powershell_fences(self):
         source = (
             "```powershell\n"

@@ -12,6 +12,7 @@ Findings require human review. A clean screen does not prove translation quality
 from __future__ import annotations
 
 import argparse
+import ast
 import csv
 import datetime as dt
 import json
@@ -340,6 +341,21 @@ def reader_fenced_code_prose(text: str) -> set[str]:
         if language in non_code_languages or language not in comment_languages:
             continue
         code = block["body"]
+        if language in {"python", "py"}:
+            try:
+                python_tree = ast.parse(code)
+            except (SyntaxError, ValueError):
+                python_tree = None
+            if python_tree is not None:
+                for node in ast.walk(python_tree):
+                    if isinstance(
+                        node,
+                        (ast.Module, ast.ClassDef, ast.FunctionDef, ast.AsyncFunctionDef),
+                    ):
+                        docstring = ast.get_docstring(node, clean=False)
+                        normalized_docstring = normalize(docstring or "")
+                        if normalized_docstring:
+                            findings.add(normalized_docstring)
         if language in {"yaml", "yml"}:
             yaml_lines = code.splitlines()
             yaml_index = 0
