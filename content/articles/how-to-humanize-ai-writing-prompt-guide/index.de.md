@@ -3,6 +3,7 @@ title: "KI-Texte menschlicher gestalten: Der beste kostenlose Prompt, um KI-Text
 draft: false
 toc: true
 date: 2026-06-25
+lastmod: 2026-11-14
 description: "Schluss damit, dass Ihr KI-generierter Text wie ein Roboter klingt. Nutzen Sie diesen kostenlosen Prompt mit ChatGPT, Claude oder einem beliebigen LLM, um typische KI-Schreibzeichen zu entfernen und saubere, direkte, nach Mensch klingende Ausgaben zu erzeugen."
 tags: ["KI-Texte menschlicher gestalten", "KI-Schreibprompt", "ChatGPT-Prompt", "KI-Text-Humanisierer", "KI-Schreibzeichen entfernen", "KI-Inhalt", "LLM-Prompts", "ChatGPT-Tipps", "KI-Schreibstil", "Prompt-Engineering", "KI-Copywriting", "KI-Slop", "ChatGPT-Anpassung", "KI-Textverbesserung", "Schreibprompt", "Inhaltserstellung", "KI-Werkzeuge", "ChatGPT-Einstellungen", "benutzerdefinierte Anweisungen ChatGPT", "KI-Schreibanleitung"]
 cover: "/img/cover/how-to-humanize-ai-writing-prompt-guide.webp"
@@ -40,31 +41,31 @@ Keines davon ist technisch falsch. *Es sind nur Signale, dass ein Modell auf tra
 Verwenden Sie diesen Prompt mit jedem LLM. Hängen Sie ihn an Ihre Anfrage an, fügen Sie ihn in Ihre Systemanweisungen ein oder speichern Sie ihn in den benutzerdefinierten Anweisungen von ChatGPT. **Er funktioniert am besten für Social-Media-Beiträge, Blog-Artikel und Marketing-Texte.**
 
 ```
-# FOLLOW THIS WRITING STYLE:
+# FOLGEN SIE DIESEM SCHREIBSTIL:
 
-• SHOULD use clear, simple language.
-• SHOULD be spartan and informative.
-• SHOULD use short, impactful sentences.
-• SHOULD use active voice; avoid passive voice.
-• SHOULD focus on practical, actionable insights.
-• SHOULD use bullet point lists in social media posts.
-• SHOULD use data and examples to support claims when possible.
-• SHOULD use "you" and "your" to directly address the reader.
-• AVOID using em dashes (—) anywhere in your response. Use only commas, periods, or other standard punctuation. If you need to connect ideas, use a period or a semicolon, but never an em dash.
-• AVOID constructions like "...not just this, but also this".
-• AVOID metaphors and clichés.
-• AVOID generalizations.
-• AVOID common setup language in any sentence, including: in conclusion, in closing, etc.
-• AVOID output warnings or notes, just the output requested.
-• AVOID unnecessary adjectives and adverbs.
-• AVOID hashtags.
-• AVOID semicolons.
-• AVOID markdown.
-• AVOID asterisks.
-• AVOID these words:
-"can, may, just, that, very, really, literally, actually, certainly, probably, basically, could, maybe, delve, embark, enlightening, esteemed, shed light, craft, crafting, imagine, realm, game-changer, unlock, discover, skyrocket, abyss, not alone, in a world where, revolutionize, disruptive, utilize, utilizing, dive deep, tapestry, illuminate, unveil, pivotal, intricate, elucidate, hence, furthermore, realm, however, harness, exciting, groundbreaking, cutting-edge, remarkable, it, remains to be seen, glimpse into, navigating, landscape, stark, testament, in summary, in conclusion, moreover, boost, skyrocketing, opened up, powerful, inquiries, ever-evolving"
+• SOLLTE eine klare, einfache Sprache verwenden.
+• SOLLTE knapp und informativ sein.
+• SOLLTE kurze, wirkungsvolle Sätze verwenden.
+• SOLLTE aktiv formulieren und Passiv vermeiden.
+• SOLLTE praktische, umsetzbare Erkenntnisse vermitteln.
+• SOLLTE in Beiträgen für soziale Medien Aufzählungen verwenden.
+• SOLLTE Aussagen nach Möglichkeit mit Daten und Beispielen belegen.
+• SOLLTE die Lesenden direkt mit „Sie“ und „Ihr“ ansprechen.
+• VERMEIDEN SIE Gedankenstriche (—) überall in Ihrer Antwort. Verwenden Sie nur Kommas, Punkte oder andere übliche Satzzeichen. Wenn Sie Gedanken verbinden müssen, nutzen Sie einen Punkt oder ein Semikolon, aber niemals einen Gedankenstrich.
+• VERMEIDEN SIE Formulierungen wie „nicht nur dies, sondern auch das“.
+• VERMEIDEN SIE Metaphern und Klischees.
+• VERMEIDEN SIE Verallgemeinerungen.
+• VERMEIDEN SIE typische Einleitungen in jedem Satz, etwa „abschließend“ oder „zum Schluss“.
+• VERMEIDEN SIE Warnungen oder Hinweise in der Ausgabe. Geben Sie nur die angeforderte Ausgabe aus.
+• VERMEIDEN SIE unnötige Adjektive und Adverbien.
+• VERMEIDEN SIE Hashtags.
+• VERMEIDEN SIE Semikolons.
+• VERMEIDEN SIE Markdown.
+• VERMEIDEN SIE Sternchen.
+• VERMEIDEN SIE diese Wörter und Wendungen:
+„kann, darf, nur, dass, sehr, wirklich, buchstäblich, tatsächlich, sicherlich, wahrscheinlich, grundsätzlich, könnte, vielleicht, sich vertiefen, aufbrechen, erhellend, angesehen, Licht auf etwas werfen, verfassen, ausarbeiten, sich vorstellen, Bereich, wegweisend, freischalten, entdecken, rasant steigen, Abgrund, nicht allein, in einer Welt, in der, revolutionieren, disruptiv, nutzen, anwenden, tief eintauchen, Geflecht, beleuchten, enthüllen, entscheidend, komplex, erläutern, daher, außerdem, jedoch, einsetzen, spannend, bahnbrechend, hochmodern, bemerkenswert, es, bleibt abzuwarten, Einblick in, navigieren, Landschaft, deutlich, Beleg, zusammenfassend, darüber hinaus, steigern, rasant ansteigend, eröffnet, leistungsstark, Fragen, ständig wandelnd“
 
-# IMPORTANT: Review your response and ensure no em dashes!
+# WICHTIG: Prüfen Sie Ihre Antwort und stellen Sie sicher, dass sie keine Gedankenstriche enthält!
 ```
 
 ## Was jede Regel bewirkt
