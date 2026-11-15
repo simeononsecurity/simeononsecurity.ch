@@ -3,7 +3,7 @@ title: "Pourquoi la cybersécurité des OT, ICS et PLC reste défaillante"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 description: "Une opinion professionnelle sur pourquoi les orientations en cybersécurité OT, ICS et API ne peuvent pas suivre le problème réel. Ces systèmes n'ont jamais été conçus pour être sécurisés. La conformité aux normes écrites n'est pas la même chose que la sécurité."
 tags: ["sécurité OT", "sécurité ICS", "sécurité API", "sécurité IoT", "cybersécurité industrielle", "sécurité SCADA", "NIST 800-82", "IEC 62443", "NERC CIP", "technologie opérationnelle", "infrastructure critique", "capteurs analogiques", "air gap", "systèmes hérités", "opinion cybersécurité", "systèmes de contrôle industriel", "SCADA", "Stuxnet", "sécurité des systèmes de contrôle", "sécurité cyber-physique", "sécurité de la chaîne d'approvisionnement", "chaîne d'approvisionnement OT"]
 cover: "/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp"
@@ -146,7 +146,7 @@ L'industrie a bien documenté le problème. Les normes sont techniquement préci
 - IEC 62443-3-3: System security requirements and security levels
 - IEC 62443-4-2: Technical security requirements for IACS components
 - IEC 61511: Functional Safety for Safety Instrumented Systems
-- NERC CIP: Critical Infrastructure Protection standards for the bulk electric system
+- NERC CIP : normes de protection des infrastructures critiques du réseau électrique interconnecté
 - IEC 61000: Electromagnetic Compatibility standards
 - CISA ICS-CERT Advisories and Best Practices
 - MITRE ATT&CK for ICS framework
