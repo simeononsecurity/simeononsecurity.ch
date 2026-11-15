@@ -1,17 +1,17 @@
 ---
 title: "Handleiding voor beginners: Linux Command Line gebruiken voor cyberbeveiliging"
 date: 2023-03-13
-lastmod: 2026-11-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Leer hoe u de Linux-opdrachtregel kunt gebruiken voor cyberbeveiliging met basis- en geavanceerde commando's."
-tags: ["Linux", "Opdrachtregel", "Cyberbeveiliging", "Gids voor beginners", "Scannen van het netwerk", "Kwetsbaarheidstesten", "Analyse van malware", "Machtigingen", "Netwerkverkeer", "Processtatus", "Netwerkstatistieken", "Bestanden zoeken", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Beveiliging", "Penetratie testen", "Digitaal Forensisch Onderzoek"]
+tags: ["Linux", "Opdrachtregel", "Cyberbeveiliging", "Gids voor beginners", "Scannen van het netwerk", "Kwetsbaarheidstesten", "Analyse van malware", "Machtigingen", "Netwerkverkeer", "Processtatus", "Netwerkstatistieken", "Bestanden zoeken", "Wireshark", "TCPDump", "Nmap", "Linux-opdrachtregelinterface", "Beveiliging", "Penetratie testen", "Digitaal Forensisch Onderzoek"]
 cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
 coverAlt: "Illustratie van een computerscherm met de Linux-opdrachtregelinterface en groene opdrachten op een donkere achtergrond. Er staan cyberbeveiligingselementen omheen, zoals digitale sloten en netwerklijnen."
 coverCaption: ""
 ---
 
-**Linux** is een veelzijdig en veilig besturingssysteem dat veel wordt gebruikt in de cyberbeveiligingsindustrie vanwege zijn open-source karakter. Het kan echter ontmoedigend zijn voor beginners om de Linux command line interface (CLI) te gebruiken om cybersecurity-taken uit te voeren. Deze gids is bedoeld om beginners een overzicht te geven van basis- en geavanceerde Linux CLI-commando's die nuttig zijn voor cyberbeveiligingsdoeleinden.
+**Linux** is een veelzijdig en veilig besturingssysteem dat veel wordt gebruikt in de cyberbeveiligingsindustrie vanwege zijn open-source karakter. Het kan echter ontmoedigend zijn voor beginners om de Linux command line interface (CLI) te gebruiken om cybersecurity-taken uit te voeren. Deze gids is bedoeld om beginners een overzicht te geven van basis- en geavanceerde Linux-opdrachtregelinterface-commando's die nuttig zijn voor cyberbeveiligingsdoeleinden.
 
 ## Linux basiscommando's voor cyberbeveiliging
 
@@ -47,7 +47,7 @@ Desktop Documents Downloads Music Pictures Public Templates Videos
 
 In het bovenstaande voorbeeld toont het commando de inhoud van de thuismap, die verschillende submappen bevat zoals Bureaublad, Documenten, Downloads, enzovoort.
 
-### Directory wijzigen
+### Map wijzigen
 
 Het **cd** (change directory) commando wordt gebruikt om de huidige werkdirectory in de CLI te wijzigen. Met dit commando kunt u door het bestandssysteem navigeren en bestanden op verschillende locaties openen. Als u bijvoorbeeld de huidige werkdirectory wilt veranderen in de documenten-directory, kunt u het volgende commando gebruiken:
 
@@ -117,9 +117,9 @@ In het bovenstaande voorbeeld zoekt de opdracht naar alle regels die een woord b
 Het **chmod** (change mode) commando wordt gebruikt om de rechten van een bestand of map in de CLI te wijzigen. Het commando is essentieel voor het beveiligen van bestanden en mappen en het controleren wie er toegang toe heeft. Machtigingen worden weergegeven door drie cijfers die respectievelijk overeenkomen met de eigenaar, groep en anderen. De cijfers worden berekend op basis van de volgende formule:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = lezen
+2 = schrijven
+1 = uitvoeren
 ```
 
 Als u bijvoorbeeld de eigenaar lees- en schrijfrechten wilt geven en de groep en anderen alleen-lezen rechten op een bestand met de naam "file1.txt", kunt u het volgende commando gebruiken:
@@ -143,7 +143,7 @@ In het bovenstaande voorbeeld stelt het commando de rechten van het bestand "fil
 
 {{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagram van een Linux-terminal met nmap, netstat en find voor netwerkscans, procesbewaking en bestandsanalyse bij cyberbeveiligingstaken" >}}
 
-### Network Mapper
+### Netwerk in kaart brengen
 
 Het **nmap** commando is een krachtig netwerkscanhulpmiddel in de CLI dat kan worden gebruikt om hosts en diensten op een netwerk en mogelijke kwetsbaarheden te identificeren. Het commando kan een reeks scantechnieken uitvoeren, waaronder host discovery, port scanning en operating system detection.
 
@@ -283,10 +283,10 @@ In het algemeen is het commando find een krachtig hulpmiddel voor het zoeken naa
 
 ______
 
-Het gebruik van de Linux-opdrachtregel voor cyberbeveiliging kan voor beginners overweldigend zijn. Met de basis- en geavanceerde commando's die in deze gids worden beschreven, kunt u echter beginnen met het gebruik van de Linux CLI in uw voordeel bij cybersecurity. Denk eraan voorzichtig te zijn met het uitvoeren van commando's en goed te begrijpen wat elk commando doet voordat u het gebruikt.
+Het gebruik van de Linux-opdrachtregel voor cyberbeveiliging kan voor beginners overweldigend zijn. Met de basis- en geavanceerde commando's die in deze gids worden beschreven, kunt u echter beginnen met het gebruik van de Linux-opdrachtregelinterface in uw voordeel bij cybersecurity. Denk eraan voorzichtig te zijn met het uitvoeren van commando's en goed te begrijpen wat elk commando doet voordat u het gebruikt.
 
 Meer informatie over Linux voor cyberbeveiliging vindt u op de downloadpagina van **[Kali Linux](https://www.kali.org/downloads/)**, een besturingssysteem dat speciaal is ontworpen voor penetratietests en digitaal forensisch onderzoek.
 
 ## Conclusie
 
-Concluderend, de Linux command line interface is een krachtig hulpmiddel voor cybersecurity professionals, maar het kan ontmoedigend zijn voor beginners. Door de basis- en geavanceerde commando's uit deze gids te leren, kunt u de Linux CLI in uw voordeel gebruiken bij cyberbeveiliging. Denk eraan altijd voorzichtig te zijn bij het uitvoeren van commando's en goed te begrijpen wat elk commando doet voordat u het gebruikt. Met oefening en ervaring kunt u zich bekwamen in het gebruik van de Linux-opdrachtregel en uw cyberbeveiligingsvaardigheden naar een hoger niveau tillen.
+Concluderend, de Linux command line interface is een krachtig hulpmiddel voor cybersecurity professionals, maar het kan ontmoedigend zijn voor beginners. Door de basis- en geavanceerde commando's uit deze gids te leren, kunt u de Linux-opdrachtregelinterface in uw voordeel gebruiken bij cyberbeveiliging. Denk eraan altijd voorzichtig te zijn bij het uitvoeren van commando's en goed te begrijpen wat elk commando doet voordat u het gebruikt. Met oefening en ervaring kunt u zich bekwamen in het gebruik van de Linux-opdrachtregel en uw cyberbeveiligingsvaardigheden naar een hoger niveau tillen.

@@ -1,7 +1,7 @@
 ---
 title: "Guia para iniciantes: usando a linha de comando do Linux em segurança cibernética"
 date: 2023-03-13
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aprenda a usar a linha de comando do Linux em segurança cibernética com comandos básicos e avançados."
@@ -112,9 +112,9 @@ No exemplo acima, o comando busca em "logfile.txt" linhas com uma palavra que co
 O comando **chmod** (change mode) altera as permissões de um arquivo ou diretório na CLI. Ele é essencial para proteger arquivos e diretórios e controlar quem pode acessá-los. Três dígitos representam as permissões do proprietário, do grupo e dos demais usuários. Os valores seguem esta fórmula:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = ler
+2 = escrever
+1 = executar
 ```
 
 Por exemplo, para dar permissões de leitura e gravação ao proprietário e somente leitura ao grupo e aos demais usuários em "file1.txt", use:
@@ -137,7 +137,7 @@ No exemplo acima, o comando define as permissões de "file2.txt" como ug=rw,o=. 
 
 {{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagrama de um terminal Linux executando nmap, netstat e find para varredura de rede, monitoramento de processos e investigação de arquivos em tarefas de segurança cibernética" >}}
 
-### Network Mapper
+### Mapeamento de rede
 
 O comando **nmap** é uma ferramenta poderosa de varredura de rede na CLI. Ele identifica hosts e serviços em uma rede, além de possíveis vulnerabilidades. Há várias técnicas de varredura, como descoberta de hosts, varredura de portas e detecção do sistema operacional.
 
@@ -159,7 +159,7 @@ O comando acima verifica todos os endereços IP da faixa e retorna as portas e o
 
 Além da descoberta de hosts e da varredura de portas, o nmap detecta serviços e versões, identifica sistemas operacionais e procura vulnerabilidades. Essas verificações ajudam a encontrar possíveis falhas na rede e protegê-la contra ataques.
 
-### TCP Packet Dumper
+### Captura de pacotes TCP
 
 O comando **tcpdump** captura e analisa o tráfego de rede pela CLI. Ele ajuda a solucionar problemas de rede, analisar seu comportamento e identificar possíveis ameaças. O comando captura pacotes em tempo real e pode filtrá-los por critérios como IP de origem ou destino, protocolo e porta.
 

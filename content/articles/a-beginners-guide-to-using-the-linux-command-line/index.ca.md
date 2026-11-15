@@ -1,7 +1,7 @@
 ---
 title: "Guia per a principiants: utilitzar la línia d’ordres de Linux en ciberseguretat"
 date: 2023-03-13
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aprèn a utilitzar la línia d’ordres de Linux en ciberseguretat amb ordres bàsiques i avançades."
@@ -112,9 +112,9 @@ A l’exemple anterior, l’ordre cerca a "logfile.txt" línies amb una paraula 
 L’ordre **chmod** (change mode) canvia els permisos d’un fitxer o directori des de la CLI. És essencial per protegir fitxers i directoris i controlar qui hi pot accedir. Tres dígits representen, respectivament, els permisos del propietari, del grup i de la resta d’usuaris. Els valors es calculen així:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = llegir
+2 = escriure
+1 = executar
 ```
 
 Per exemple, per donar permisos de lectura i escriptura al propietari i només de lectura al grup i a la resta d’usuaris en un fitxer anomenat "file1.txt", fes servir aquesta ordre:
@@ -137,7 +137,7 @@ A l’exemple anterior, l’ordre estableix els permisos de "file2.txt" en ug=rw
 
 {{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagrama d’un terminal Linux amb nmap, netstat i find per escanejar xarxes, supervisar processos i investigar fitxers en tasques de ciberseguretat" >}}
 
-### Network Mapper
+### Mapatge de xarxes
 
 L’ordre **nmap** és una eina potent d’escaneig de xarxes a la CLI. Permet identificar hosts i serveis d’una xarxa, així com possibles vulnerabilitats. Inclou diverses tècniques, com ara descobrir hosts, escanejar ports i detectar sistemes operatius.
 
@@ -159,7 +159,7 @@ L’ordre anterior escaneja totes les adreces IP del rang i mostra els ports i s
 
 A més de descobrir hosts i escanejar ports, nmap pot detectar serveis i versions, identificar sistemes operatius i buscar vulnerabilitats. Aquests escanejos ajuden a trobar possibles debilitats d’una xarxa i a protegir-la dels atacs.
 
-### TCP Packet Dumper
+### Capturador de paquets TCP
 
 L’ordre **tcpdump** captura i analitza el trànsit de xarxa des de la CLI. Serveix per resoldre problemes de xarxa, analitzar-ne el comportament i detectar possibles amenaces. Captura paquets en temps real i els pot filtrar segons criteris com l’adreça IP d’origen o de destinació, el protocol i el port.
 

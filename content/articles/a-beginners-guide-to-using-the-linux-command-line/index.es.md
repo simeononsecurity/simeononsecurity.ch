@@ -1,7 +1,7 @@
 ---
 title: "Guía para principiantes: Uso de la línea de comandos de Linux para la ciberseguridad"
 date: 2023-03-13
-lastmod: 2026-11-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aprenda a utilizar la línea de comandos de Linux para la ciberseguridad con comandos básicos y avanzados."
@@ -117,9 +117,9 @@ En el ejemplo anterior, el comando busca todas las líneas que contengan una pal
 El comando **chmod** (change mode) es usado para cambiar los permisos de un archivo o directorio en el CLI. El comando es esencial para asegurar archivos y directorios y controlar quién tiene acceso a ellos. Los permisos están representados por tres dígitos que corresponden al propietario, grupo y otros, respectivamente. Los dígitos se calculan en base a la siguiente fórmula:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = leer
+2 = escribir
+1 = ejecutar
 ```
 
 Por ejemplo, si quieres dar al propietario permisos de lectura y escritura y al grupo y otros permisos de sólo lectura en un archivo llamado "archivo1.txt", puedes utilizar el siguiente comando:

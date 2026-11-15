@@ -1,11 +1,11 @@
 ---
 title: "Einsteigerleitfaden: Linux-Kommandozeile für die Cybersicherheit"
 date: 2023-03-13
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Lernen Sie grundlegende und fortgeschrittene Linux-Befehle für die Cybersicherheit kennen."
-tags: ["Linux", "Kommandozeile", "Cybersicherheit", "Einsteigerleitfaden", "Netzwerkscans", "Schwachstellentests", "Malwareanalyse", "Berechtigungen", "Netzwerkverkehr", "Prozessstatus", "Netzwerkstatistiken", "Dateisuche", "Wireshark", "TCPDump", "Nmap", "Linux-CLI", "Sicherheit", "Penetrationstests", "Digitale Forensik"]
+tags: ["Linux", "Kommandozeile", "Cybersicherheit", "Einsteigerleitfaden", "Netzwerkscans", "Schwachstellentests", "Malwareanalyse", "Berechtigungen", "Netzwerkverkehr", "Prozessstatus", "Netzwerkstatistiken", "Dateisuche", "Wireshark", "TCPDump", "Nmap", "Linux-Befehlszeile", "Sicherheit", "Penetrationstests", "Digitale Forensik"]
 cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
 coverAlt: "Illustration eines Computerbildschirms mit grünen Linux-Befehlen auf dunklem Hintergrund, umgeben von digitalen Schlössern und Netzwerkverbindungen."
 coverCaption: ""
@@ -112,9 +112,9 @@ Im obigen Beispiel sucht der Befehl in "logfile.txt" nach Zeilen mit einem Wort,
 Der Befehl **chmod** (change mode) ändert die Berechtigungen einer Datei oder eines Verzeichnisses in der CLI. Er ist wichtig, um Dateien und Verzeichnisse zu schützen und den Zugriff darauf zu kontrollieren. Drei Ziffern stehen für die Berechtigungen des Eigentümers, der Gruppe und der anderen Benutzer. Sie werden nach folgender Formel berechnet:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = Lesen
+2 = Schreiben
+1 = Ausführen
 ```
 
 Um beispielsweise dem Eigentümer Lese- und Schreibrechte und der Gruppe sowie anderen Benutzern Leserechte für "file1.txt" zu geben, verwenden Sie diesen Befehl:
@@ -137,7 +137,7 @@ Im obigen Beispiel setzt der Befehl die Berechtigungen von "file2.txt" auf ug=rw
 
 {{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagramm eines Linux-Terminals mit nmap, netstat und find für Netzwerkscans, Prozessüberwachung und Dateisuche bei Sicherheitsaufgaben" >}}
 
-### Network Mapper
+### Netzwerkkartierung
 
 Der Befehl **nmap** ist ein leistungsstarkes CLI-Werkzeug zum Scannen von Netzwerken. Er kann Hosts und Dienste in einem Netzwerk sowie mögliche Schwachstellen erkennen. Zu den Verfahren gehören Host-Erkennung, Port-Scans und Betriebssystemerkennung.
 
@@ -159,7 +159,7 @@ Der obige Befehl scannt alle IP-Adressen im Bereich und zeigt die offenen Ports 
 
 Neben Host-Erkennung und Port-Scans kann nmap Dienste und Versionen erkennen, Betriebssysteme identifizieren und nach Schwachstellen suchen. Diese Scans helfen dabei, mögliche Sicherheitslücken im Netzwerk zu finden und es vor Angriffen zu schützen.
 
-### TCP Packet Dumper
+### TCP-Paketmitschnitt
 
 Der Befehl **tcpdump** erfasst und analysiert den Netzwerkverkehr in der CLI. Er hilft bei der Fehlerbehebung, der Analyse des Netzwerkverhaltens und der Erkennung möglicher Sicherheitsbedrohungen. Er erfasst Pakete in Echtzeit und kann sie nach Kriterien wie Quell- oder Ziel-IP-Adresse, Protokoll und Port filtern.
 

@@ -1,7 +1,7 @@
 ---
 title: "Guide du débutant : utiliser la ligne de commande Linux pour la cybersécurité"
 date: 2023-03-13
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Apprenez à utiliser la ligne de commande Linux pour la cybersécurité, avec des commandes de base et avancées."
@@ -112,9 +112,9 @@ Dans l’exemple ci-dessus, la commande recherche dans "logfile.txt" les lignes 
 La commande **chmod** (change mode) modifie les permissions d’un fichier ou d’un répertoire depuis la CLI. Elle est essentielle pour protéger les fichiers et les répertoires et contrôler qui peut y accéder. Trois chiffres représentent respectivement les permissions du propriétaire, du groupe et des autres utilisateurs. Leur valeur suit la formule suivante :
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = lire
+2 = écrire
+1 = exécuter
 ```
 
 Par exemple, pour donner au propriétaire les permissions de lecture et d’écriture, et au groupe ainsi qu’aux autres utilisateurs la lecture seule sur "file1.txt", utilisez la commande suivante :
@@ -137,7 +137,7 @@ Dans l’exemple ci-dessus, la commande définit les permissions de "file2.txt" 
 
 {{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Schéma d’un terminal Linux exécutant nmap, netstat et find pour analyser le réseau, surveiller les processus et rechercher des fichiers en cybersécurité" >}}
 
-### Network Mapper
+### Cartographie réseau
 
 La commande **nmap** est un puissant outil d’analyse réseau en CLI. Elle permet d’identifier les hôtes et les services sur un réseau, ainsi que des vulnérabilités potentielles. Elle propose plusieurs méthodes d’analyse, notamment la découverte d’hôtes, l’analyse de ports et la détection du système d’exploitation.
 
@@ -159,7 +159,7 @@ La commande ci-dessus analyse toutes les adresses IP de la plage et renvoie les 
 
 En plus de découvrir les hôtes et d’analyser les ports, nmap peut détecter les services et leurs versions, identifier les systèmes d’exploitation et rechercher des vulnérabilités. Ces analyses aident à repérer d’éventuelles failles sur un réseau et à le protéger contre les attaques.
 
-### TCP Packet Dumper
+### Captureur de paquets TCP
 
 La commande **tcpdump** capture et analyse le trafic réseau depuis la CLI. Elle aide à résoudre des problèmes réseau, à analyser le comportement du réseau et à repérer des menaces potentielles. Elle capture les paquets en temps réel et peut les filtrer selon divers critères, comme l’adresse IP source ou destination, le protocole et le port.
 
