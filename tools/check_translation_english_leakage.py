@@ -615,13 +615,18 @@ def copied_unlabeled_fence_lines(source: str, target: str) -> set[str]:
                     # MAC/OUI address rows are literal identifiers, not prose.
                     continue
                 arrow_parts = re.split(r"\s*(?:->|→|=>)\s*", stripped)
-                if len(arrow_parts) > 1 and all(
-                    re.fullmatch(r"[A-Za-z0-9_./:{}-]+", part.strip())
-                    and re.search(r"[0-9/._]", part.strip())
-                    for part in arrow_parts
+                if (
+                    len(arrow_parts) == 2
+                    and re.fullmatch(r"[A-Z][A-Z0-9]*(?:[-_][A-Z0-9]+)*", arrow_parts[0].strip())
+                    and re.search(r"\d", arrow_parts[0])
+                    and re.fullmatch(r"[A-Za-z0-9_./-]+", arrow_parts[1].strip())
+                    and (
+                        "/" in arrow_parts[1]
+                        or re.search(r"\.[A-Za-z0-9]{1,8}$", arrow_parts[1].strip())
+                    )
                 ):
-                    # Identifier/path mappings are data; prose around an arrow
-                    # remains eligible for manual review.
+                    # Clear uppercase requirement IDs pointing to a path or file
+                    # are data. Word-like and numbered phase flows remain prose.
                     continue
                 # Numeric prose still needs review. Exclude only data-only lines
                 # here; address rows receive the narrower check above.

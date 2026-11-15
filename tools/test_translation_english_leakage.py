@@ -1053,6 +1053,15 @@ print('She said "Continue before saving"')
             {"open save"},
         )
 
+    def test_flags_numbered_phase_flow_in_unlabeled_fence(self):
+        for line in ("Phase 1 -> Phase 2", "Step 1 -> Step 2", "Phase-1 -> Phase-2"):
+            with self.subTest(line=line):
+                prose = f"```\n{line}\n```"
+                self.assertEqual(
+                    copied_unlabeled_fence_lines(prose, prose),
+                    {"phase 1 phase 2" if line.startswith("Phase") else "step 1 step 2"},
+                )
+
     def test_flags_numbered_phase_headings_in_unlabeled_fences(self):
         source = "```\nPhase 1: Pilot (Months 1-2)\n```"
 
