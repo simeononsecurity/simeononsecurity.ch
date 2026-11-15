@@ -1,7 +1,7 @@
 ---
 title: "Współpraca AI w GitHubie: granice repozytorium i przeglądu"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Zbuduj mapę źródeł, własność plików i chronioną granicę publikacji dla sprawdzanych zmian wnoszonych przez AI."
@@ -54,7 +54,7 @@ Polecenie clone powinno utworzyć katalog repozytorium. Jeśli `unzip` nie jest 
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Dodaj syntetyczną bazę współpracy"
 git push origin main
 git status --short
 git remote -v
@@ -194,7 +194,7 @@ Propozycje -> Issues i gałęzie propozycji
 
 **Zielony check nie wyjaśnia niepowiązanego usunięcia.** Jeśli gałąź usuwa dokument polityki przy zmianie retencji, poproś o osobną propozycję lub konkretną recenzję właściciela. Ograniczony zakres ułatwia zrozumienie obiektu przeglądu.
 
-## Zdiagnozuj test odmowy
+## Zdiagnozuj próbę odmowy
 
 **Dla każdego wiersza dowodów użyj jednej próby działania.** „Współpracownikowi się nie udało” jest niejednoznaczne. Użytkownik może nie mieć zwykłego dostępu do zapisu, napotkać ograniczenie przeglądarki albo trafić na zamierzoną regułę gałęzi. Te obserwacje wyznaczają różne granice.
 

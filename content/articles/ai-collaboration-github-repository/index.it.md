@@ -1,7 +1,7 @@
 ---
 title: "Collaborazione IA con GitHub: confini del repository e delle revisioni"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Crea una mappa delle fonti centrata su GitHub, assegna la proprietà dei file e definisci un confine di pubblicazione protetto per i contributi IA revisionati."
@@ -31,7 +31,7 @@ coverCaption: ""
 
 **Risultato:** termini con un branch di pubblicazione protetto, proprietari dei file, una mappa delle fonti e un test di rifiuto registrato come evidenza.
 
-## Crea il repository
+## Crea l’archivio Git
 
 1. **Crea `export-service-lab`** con un README e il branch predefinito **`main`**.
 2. **Copia il laboratorio estratto** nella radice del repository, conservando **`check.py`**, **`test_check.py`** e **`baseline/`**. Copia i file di registrazione della baseline nella radice come registrazioni iniziali.
@@ -55,7 +55,7 @@ Il comando clone deve assegnare al repository il nome della directory. Se `unzip
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Aggiungi una base sintetica di collaborazione"
 git push origin main
 git status --short
 git remote -v
@@ -73,7 +73,7 @@ Git deve riportare un nuovo ID del commit e poi un push riuscito verso `main`. L
 
 **La mappa collega le posizioni invece di copiare i valori.** Mantieni il README concentrato sulla configurazione e sulla mappa. La ripetizione dei requisiti di conservazione crea deriva anche in un solo repository.
 
-## Assegna i proprietari dei file
+## Assegna i responsabili dei percorsi
 
 **Genera `.github/CODEOWNERS`** localmente con gli handle reali del sandbox. Inserisci gli handle senza il **`@`** iniziale. Mantieni le identità degli account nel laboratorio privato, non nelle evidenze pubbliche dell'esercizio.
 
@@ -105,7 +105,7 @@ I proprietari devono avere accesso in scrittura perché GitHub li riconosca. Con
 1. **Apri Settings, Branches** e aggiungi una regola di protezione del branch per **`main`**. Usa sempre il percorso di protezione dei branch invece di mescolarlo con i ruleset in questo esercizio.
 2. **Richiedi una pull request**, due revisioni approvate e la revisione dei code owner.
 3. **Rimuovi le approvazioni obsolete** dopo i nuovi commit e richiedi la risoluzione delle conversazioni.
-4. **Abilita Do not allow bypassing the above settings.** Mantieni disabilitati force push e cancellazione.
+4. **Abilita l’opzione «Non consentire di eludere le impostazioni indicate sopra».** Mantieni disabilitati force push e cancellazione.
 5. **Aggiungi il controllo di coerenza** dopo la sua prima esecuzione nel modulo successivo. Richiedi branch aggiornati prima del merge.
 
 **Due approvazioni impongono un conteggio, non l'appartenenza a un ruolo aziendale.** CODEOWNERS aggiunge copertura basata sul percorso. Il maintainer controlla anche le due attestazioni di ruolo. Registra esplicitamente questo controllo procedurale invece di descriverlo come applicazione automatica di due ruoli.
@@ -171,7 +171,7 @@ Proposte -> Issues e branch di proposta
 
 **Proteggi le modifiche alla mappa come modifiche di instradamento.** Reindirizzare REQ-17 a un file di bozza modifica la selezione della fonte anche se il requisito approvato resta intatto. Revisiona destinazione, proprietario e ambito dell'autorità ogni volta che cambia la mappa.
 
-## Separa baseline e candidato
+## Separa la configurazione di base dalla proposta
 
 **La radice del repository contiene i record attivi del laboratorio.** La directory **`baseline/`** scaricata è un dispositivo didattico. Non è automaticamente la baseline protetta per ogni PR successiva. Quando il lavoro revisionato raggiunge **`main`**, i record protetti nella radice definiscono la base della proposta successiva.
 
@@ -195,7 +195,7 @@ Proposte -> Issues e branch di proposta
 
 **Un controllo verde non spiega una cancellazione estranea.** Se il branch rimuove il documento di policy mentre modifica la conservazione, richiedi una proposta separata o una revisione da parte di un proprietario specifico. Limitare l'ambito mantiene comprensibile l'oggetto della revisione.
 
-## Diagnostica un test di rifiuto
+## Analizza una prova di rifiuto
 
 **Usa una sola azione tentata per ogni riga di evidenza.** «Il collaboratore ha fallito» è ambiguo. L'utente potrebbe non avere accesso ordinario in scrittura, incontrare una limitazione del browser o colpire la regola del branch prevista. Queste osservazioni stabiliscono confini diversi.
 
@@ -208,13 +208,13 @@ Proposte -> Issues e branch di proposta
 
 **Registra ruolo e azione senza esporre dettagli dell'account** nelle evidenze condivise del corso. Conserva privatamente i record nativi dell'attore per il revisore. Acquisisci insieme configurazione della regola, operazione tentata, rifiuto e revisione protetta risultante.
 
-## Controllo di completamento del repository
+## Verifica di completezza dell’archivio Git
 
 **Consegna un repository che un altro collaboratore possa consultare in autonomia.** Il README punta alla mappa, la mappa risolve i record autorevoli, la copertura dei proprietari include i percorsi sensibili e la protezione si applica a **`main`**. Conserva una proposta consentita e un tentativo di pubblicazione rifiutato.
 
 **Non rivendicare l'applicazione basandoti solo sulle impostazioni.** Le impostazioni stabiliscono la configurazione prevista. Il tentativo nel sandbox stabilisce il comportamento osservato per un ruolo e un percorso specifici. Porta entrambi nella lezione su agenti e Actions.
 
-## Risoluzione dei problemi e rollback
+## Risoluzione dei problemi e ripristino
 
 **Richiesta del proprietario mancante:** conferma accesso in scrittura e copertura del percorso del branch di base. **Protezione assente:** verifica piano e visibilità. **Merge ancora abilitato:** controlla obiettivo della regola, configurazione del bypass e numero di revisioni.
 

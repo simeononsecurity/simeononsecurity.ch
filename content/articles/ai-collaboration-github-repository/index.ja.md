@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI コラボレーション: リポジトリとレビューの境界"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "GitHub を中心としたソースマップを作成し、ファイルの所有者を割り当て、レビュー済み AI 貢献のための保護された公開境界を構築します。"
@@ -55,7 +55,7 @@ clone コマンドはリポジトリのディレクトリ名を指定します�
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "合成コラボレーションの基盤を追加"
 git push origin main
 git status --short
 git remote -v
@@ -105,7 +105,7 @@ GitHub が所有者を認識するには、所有者に書き込み権限が必�
 1. **Settings, Branches** を開き、**`main`** のブランチ保護ルールを追加します。この演習では ruleset と混ぜず、ブランチ保護の手順を一貫して使います。
 2. **プルリクエスト**、2 件の承認レビュー、コードオーナーのレビューを必須にします。
 3. 新しいコミット後に **古い承認を無効にし**、会話の解決を必須にします。
-4. **Do not allow bypassing the above settings を有効にします。** force push と削除を無効にします。
+4. **「上記の設定の回避を許可しない」を有効にします。** force push と削除を無効にします。
 5. 次のモジュールで最初の実行を終えたら **整合性チェックを追加します**。マージ前にブランチを最新にすることを必須にします。
 
 **2 件の承認は数を強制しますが、業務上の役割の所属は強制しません。** CODEOWNERS はパス単位の所有者カバレッジを追加します。メンテナーは 2 つの役割証明も確認します。この手続き上の制御を明示的に記録し、自動的な 2 役割の強制と表現しないでください。

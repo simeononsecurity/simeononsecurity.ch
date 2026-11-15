@@ -1,7 +1,7 @@
 ---
 title: "Colaborare AI în GitHub: limitele depozitului și ale revizuirii"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Construiește o hartă a surselor, stabilește proprietarii fișierelor și protejează limita de publicare pentru contribuțiile AI revizuite."
@@ -54,7 +54,7 @@ Comanda clone ar trebui să creeze directorul depozitului. Dacă `unzip` nu este
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Adaugă o bază sintetică pentru colaborare"
 git push origin main
 git status --short
 git remote -v
@@ -194,7 +194,7 @@ Propuneri -> Issues și ramuri de propuneri
 
 **Un check verde nu explică o ștergere fără legătură.** Dacă ramura elimină documentul de politică în timp ce schimbă retenția, cere o propunere separată sau o revizuire specifică a proprietarului. Domeniul restrâns menține obiectul de revizuire ușor de înțeles.
 
-## Diagnostichează un test de refuz
+## Analizează proba de refuz
 
 **Folosește o singură acțiune încercată pentru fiecare rând de dovezi.** „Colaboratorul a eșuat” este ambiguu. Utilizatorul poate să nu aibă acces normal de scriere, să întâmpine o limitare a browserului sau să declanșeze regula intenționată a ramurii. Acestea stabilesc limite diferite.
 

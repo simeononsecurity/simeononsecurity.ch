@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI सहयोग: रिपॉजिटरी और समीक्षा की सीमाएँ"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "GitHub-केंद्रित स्रोत मानचित्र बनाएँ, फ़ाइल स्वामित्व तय करें और समीक्षित AI योगदान के लिए सुरक्षित प्रकाशन सीमा स्थापित करें।"
@@ -55,7 +55,7 @@ Clone कमांड को रिपॉजिटरी निर्देश�
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "सहयोग का कृत्रिम आधार जोड़ें"
 git push origin main
 git status --short
 git remote -v
@@ -105,7 +105,7 @@ GitHub द्वारा पहचान के लिए स्वामिय
 1. **Settings, Branches खोलें** और **`main`** के लिए branch protection rule जोड़ें। इस exercise में rulesets के साथ मिलाने के बजाय branch-protection मार्ग लगातार इस्तेमाल करें।
 2. **Pull request**, दो approving reviews और code-owner review आवश्यक करें।
 3. नए commits के बाद **stale approvals हटाएँ** और conversation resolution आवश्यक करें।
-4. **Do not allow bypassing the above settings सक्षम करें।** force pushes और deletion बंद रखें।
+4. **“ऊपर दी गई सेटिंग्स को बायपास करने की अनुमति न दें” विकल्प सक्षम करें।** force pushes और deletion बंद रखें।
 5. अगले module में पहले run के बाद **consistency check जोड़ें**। merge से पहले branches को up to date आवश्यक करें।
 
 **दो approvals संख्या लागू करते हैं, business-role membership नहीं।** CODEOWNERS path-based owner coverage जोड़ता है। Maintainer दो role attestations भी जाँचता है। इस procedural control को स्पष्ट रूप से दर्ज करें, इसे automated two-role enforcement न कहें।

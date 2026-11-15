@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI সহযোগিতা: রিপোজিটরি ও রিভিউ সীমা"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "GitHub-ভিত্তিক সোর্স ম্যাপ তৈরি করুন, ফাইলের মালিক নির্ধারণ করুন এবং পর্যালোচিত AI অবদানের জন্য সুরক্ষিত প্রকাশনা সীমা তৈরি করুন।"
@@ -55,7 +55,7 @@ clone command-এ repository directory-এর নাম থাকতে হব�
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "কৃত্রিম সহযোগিতার ভিত্তি যোগ করুন"
 git push origin main
 git status --short
 git remote -v
@@ -105,7 +105,7 @@ PY
 1. **Settings, Branches** খুলে **`main`**-এর জন্য branch protection rule যোগ করুন। এই exercise-এ ruleset-এর সঙ্গে না মিশিয়ে branch-protection route ব্যবহার করুন।
 2. **pull request**, দুইটি approving review এবং code owner review বাধ্যতামূলক করুন।
 3. নতুন commit-এর পরে **পুরোনো approval বাতিল** করুন এবং conversation resolution বাধ্যতামূলক করুন।
-4. **Do not allow bypassing the above settings** চালু করুন। force push এবং deletion বন্ধ রাখুন।
+4. **“উপরের সেটিংস এড়িয়ে যাওয়ার অনুমতি দেবেন না” বিকল্পটি চালু করুন।** force push এবং deletion বন্ধ রাখুন।
 5. পরের module-এ প্রথম run-এর পরে **consistency check** যোগ করুন। merge-এর আগে branch up to date থাকা বাধ্যতামূলক করুন।
 
 **দুইটি approval সংখ্যা নিশ্চিত করে, business role নয়।** CODEOWNERS path-based owner coverage যোগ করে। Maintainer দুই role attestation-ও পরীক্ষা করে। এটিকে automated two-role enforcement না বলে procedural control হিসেবে নথিভুক্ত করুন।
@@ -139,7 +139,7 @@ PY
 
 **Local Git authentication না থাকলে server-side denial-কে Blocked করুন।** Browser branch prompt route evidence হিসেবে রাখুন এবং maintainer-কে আলাদা contributor test আয়োজন করতে বলুন। route prompt-কে rejected direct push হিসেবে score করবেন না।
 
-## কার্যকর source map তৈরি করুন
+## কার্যকর উৎস মানচিত্র তৈরি করুন
 
 **Source map হলো routing document**, দ্বিতীয় requirements document নয়। chat থেকে আসা ব্যক্তি যেন competing summary বেছে না নিয়ে current intent, implemented behavior এবং operational instruction খুঁজে পায়।
 

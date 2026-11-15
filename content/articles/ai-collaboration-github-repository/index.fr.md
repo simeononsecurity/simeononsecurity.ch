@@ -1,7 +1,7 @@
 ---
 title: "Collaboration IA avec GitHub : limites du dépôt et des revues"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Construisez une carte des sources centrée sur GitHub, attribuez la responsabilité des fichiers et définissez une limite de publication protégée pour les contributions IA révisées."
@@ -55,7 +55,7 @@ La commande de clonage doit donner le nom du répertoire du dépôt. Si `unzip` 
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Ajouter une base de collaboration synthétique"
 git push origin main
 git status --short
 git remote -v
@@ -100,7 +100,7 @@ Les propriétaires ont besoin d'un accès en écriture pour que GitHub les recon
 
 **Plusieurs noms sur une ligne n'exigent pas l'approbation de tous les propriétaires listés.** GitHub accepte l'approbation d'un seul propriétaire admissible pour le chemin correspondant. Utilisez des propriétaires désignés distincts pour les chemins des exigences et du runbook. Le pilote exige aussi des attestations du propriétaire produit et du propriétaire opérations liées à la proposition finale.
 
-## Protéger la publication
+## Sécuriser la mise en ligne
 
 1. **Ouvrez Settings, Branches** et ajoutez une règle de protection de branche pour **`main`**. Utilisez toujours le parcours de protection de branche au lieu de le mélanger avec les rulesets dans cet exercice.
 2. **Exigez une pull request**, deux approbations et une revue des code owners.
@@ -171,7 +171,7 @@ Propositions -> Issues et branches de proposition
 
 **Protégez les changements de la carte comme des changements de routage.** Rediriger REQ-17 vers un fichier brouillon modifie la sélection de la source, même si l'exigence approuvée reste intacte. Examinez la destination, le propriétaire et la portée de l'autorité à chaque changement de la carte.
 
-## Séparer la base et la candidate
+## Séparer la base et la version proposée
 
 **La racine du dépôt contient les enregistrements actifs du laboratoire.** Le répertoire **`baseline/`** téléchargé est un support pédagogique. Il ne devient pas automatiquement la base protégée de chaque PR ultérieure. Une fois le travail révisé arrivé sur **`main`**, les enregistrements protégés de la racine définissent la base de la proposition suivante.
 
@@ -195,7 +195,7 @@ Propositions -> Issues et branches de proposition
 
 **Un contrôle vert n'explique pas une suppression sans rapport.** Si la branche supprime le document de politique tout en modifiant la conservation, demandez une proposition distincte ou une revue par un propriétaire précis. Limiter la portée rend l'objet de la revue compréhensible.
 
-## Diagnostiquer un test de refus
+## Diagnostiquer un essai de refus
 
 **Utilisez une seule action tentée par ligne de preuve.** « Le contributeur a échoué » est ambigu. L'utilisateur peut ne pas disposer de l'accès ordinaire en écriture, rencontrer une limitation du navigateur ou subir la règle de branche prévue. Ces observations établissent des limites différentes.
 
