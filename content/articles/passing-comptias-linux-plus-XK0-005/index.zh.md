@@ -1,6 +1,7 @@
 ---
 title: "通过 CompTIA Linux+ XK0-005 考试的技巧和窍门"
 date: 2023-02-23
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "学习宝贵的技巧和窍门，帮助您通过 CompTIA Linux+ XK0-005 考试，并提升您作为 Linux 专业人士的职业生涯。"
@@ -78,7 +79,7 @@ CompTIA Linux+ XK0-005 考试官方学习材料的一些示例包括
 
 加入 CompTIA Linux+ XK0-005 考试学习小组有几种方法：
 
-- **在线论坛**：有许多在线论坛和讨论组，您可以在这些论坛和讨论组中与其他正在学习同一考试的人联系。一些例子包括 CompTIA Linux+ 社区、Reddit 的 [r/linuxquestions](https://www.reddit.com/r/linuxquestions/), and the [LinuxQuestions.org](https://www.linuxquestions.org/)论坛。
+- **在线论坛**：有许多在线论坛和讨论组，您可以在这些论坛和讨论组中与其他正在学习同一考试的人联系。一些例子包括 CompTIA Linux+ 社区、Reddit 的 [r/linuxquestions](https://www.reddit.com/r/linuxquestions/) 和 [LinuxQuestions.org](https://www.linuxquestions.org/) 论坛。
 
 - **社交媒体**：LinkedIn 和 Facebook 等社交媒体平台也是与其他正在学习考试的人建立联系的好方法。您可以加入与 Linux+ 认证相关的群组或关注相关页面，以了解最新消息和学习资源。
 
