@@ -58,6 +58,10 @@
 - Use exact phrase or word-boundary substitutions for terminology. Do not
   replace substrings inside other words. For example, matching `laybooks` inside
   `playbooks` changes the correct technical term.
+- Protect Markdown link destinations before running any phrase-replacement
+  script. A terminology match inside a URL path, query, or anchor is part of the
+  destination, not reader-facing prose. After restoring translated labels,
+  compare every ordered URL target and its source-aligned sentence with English.
 - Require all translation segments to return. Reject truncation, missing keys,
   missing headings, and altered table structure. Never substitute English text
   for a failed translation.
