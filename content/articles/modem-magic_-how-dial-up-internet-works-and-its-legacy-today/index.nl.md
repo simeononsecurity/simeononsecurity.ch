@@ -111,15 +111,15 @@ Toch heeft inbelinternet voor veel mensen een nostalgische aantrekkingskracht. D
 Inbelinternet was destijds revolutionair, maar gebruikers moesten rekening houden met een aantal beperkingen:
 
 * **Lage snelheid**: inbelverbindingen stonden bekend om hun lage snelheid en kwamen vaak niet boven 56 kilobit per seconde (Kbps). Grote bestanden downloaden of video's afspelen duurde erg lang.
-    
+
 * **Telefoonlijn bezet**: inbelinternet gebruikte de telefoonlijn, die tijdens de verbinding niet beschikbaar was voor inkomende of uitgaande gesprekken. Dit was vooral vervelend voor huishoudens met maar één telefoonlijn.
-    
+
 * **Verbinding valt weg**: inbelverbindingen werden vaak verbroken, vooral door storing op de telefoonlijn. Gebruikers konden midden in een belangrijke taak of download de verbinding verliezen.
-    
+
 * **Beperkt multitasken**: door de lage snelheid en verbindingsproblemen was multitasken lastig. Surfen terwijl een bestand werd gedownload of een e-mail werd verstuurd, leidde vaak tot trage prestaties.
-    
+
 * **Niet geschikt voor moderne technologie**: naarmate de technologie zich ontwikkelde, werkte inbelinternet steeds slechter met nieuwe toepassingen en diensten die snellere en betrouwbaardere verbindingen nodig hadden. Daardoor konden gebruikers minder goed deelnemen aan de veranderende digitale wereld.
-    
+
 
 Ondanks deze beperkingen speelde inbelinternet een grote rol in de beginjaren en legde het de basis voor breedbandverbindingen.
 

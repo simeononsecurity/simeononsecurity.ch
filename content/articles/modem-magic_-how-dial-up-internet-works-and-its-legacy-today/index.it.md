@@ -111,15 +111,15 @@ Nonostante questi limiti, Internet dial-up ha un fascino nostalgico per molte pe
 Per quanto rivoluzionario all'epoca, Internet dial-up aveva diversi limiti che gli utenti dovevano affrontare:
 
 * **Velocità ridotta**: le connessioni dial-up erano famose per la lentezza e spesso non superavano i 56 kilobit al secondo (Kbps). Scaricare file grandi o riprodurre video poteva richiedere molto tempo.
-    
+
 * **Linea telefonica occupata**: il dial-up richiedeva il collegamento alla linea telefonica; mentre era attivo, non si potevano effettuare o ricevere chiamate. Il problema era particolarmente fastidioso per le famiglie con una sola linea.
-    
+
 * **Cadute di connessione**: le connessioni dial-up si interrompevano spesso, soprattutto in presenza di interferenze sulla linea. Gli utenti rischiavano di perdere il collegamento durante un'attività o un download importante.
-    
+
 * **Multitasking limitato**: la bassa velocità e le interruzioni rendevano difficile svolgere più attività contemporaneamente. Navigare mentre si scaricava un file o si inviava un'e-mail spesso rallentava tutto.
-    
+
 * **Incompatibilità con le tecnologie moderne**: con il progresso della tecnologia, il dial-up è diventato sempre meno compatibile con applicazioni e servizi che richiedevano connessioni più veloci e affidabili. Questo limitava la partecipazione degli utenti al mondo digitale in evoluzione.
-    
+
 
 Nonostante questi limiti, Internet dial-up ha influenzato in modo significativo i primi anni della rete e ha aperto la strada alle connessioni a banda larga attuali.
 

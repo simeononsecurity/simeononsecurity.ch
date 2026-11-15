@@ -111,15 +111,15 @@ Malgré ces limites, l'accès téléphonique garde un charme nostalgique. Les so
 Révolutionnaire à son époque, l'accès téléphonique avait plusieurs limites que les utilisateurs devaient accepter :
 
 * **Faible débit** : les connexions étaient réputées lentes et atteignaient souvent au maximum 56 kilobits par seconde (Kbps). Le téléchargement de gros fichiers ou la lecture de vidéos pouvait durer très longtemps.
-    
+
 * **Ligne téléphonique occupée** : pendant la connexion, la ligne ne pouvait ni émettre ni recevoir d'appels. Cette limite était particulièrement pénible dans les foyers qui ne disposaient que d'une seule ligne.
-    
+
 * **Coupures de connexion** : les connexions téléphoniques se coupaient souvent, surtout en cas de parasites sur la ligne. Une tâche ou un téléchargement important pouvait être interrompu en cours de route.
-    
+
 * **Multitâche limité** : la lenteur et les coupures rendaient les activités simultanées difficiles. Naviguer tout en téléchargeant un fichier ou en envoyant un courriel entraînait souvent des ralentissements.
-    
+
 * **Incompatibilité avec les technologies modernes** : avec les progrès technologiques, l'accès téléphonique est devenu de moins en moins compatible avec les applications et services nécessitant des connexions plus rapides et plus fiables. Les utilisateurs pouvaient donc difficilement suivre l'évolution du monde numérique.
-    
+
 
 Malgré ces limites, l'accès téléphonique a marqué les débuts d'Internet et ouvert la voie au haut débit actuel.
 

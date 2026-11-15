@@ -111,15 +111,15 @@ Apesar disso, a Internet discada ainda desperta nostalgia. Os sons conhecidos do
 Embora revolucionária em sua época, a Internet discada tinha limitações com as quais os usuários precisavam lidar:
 
 * **Baixa velocidade**: as conexões discadas eram conhecidas pela lentidão e muitas vezes chegavam a, no máximo, 56 kilobits por segundo (Kbps). Baixar arquivos grandes ou assistir a vídeos podia demorar muito.
-    
+
 * **Linha telefônica ocupada**: a conexão exigia uma linha telefônica, que não podia fazer nem receber chamadas enquanto estivesse conectada. Isso era especialmente frustrante em casas com uma única linha.
-    
+
 * **Quedas de conexão**: as conexões discadas caíam com frequência, sobretudo quando havia interferência na linha. O usuário podia perder o acesso no meio de uma tarefa ou de um download importante.
-    
+
 * **Multitarefa limitada**: a lentidão e as quedas dificultavam fazer várias coisas ao mesmo tempo. Navegar enquanto baixava um arquivo ou enviava um e-mail frequentemente deixava tudo mais lento.
-    
+
 * **Incompatibilidade com tecnologias modernas**: conforme a tecnologia avançou, a Internet discada tornou-se cada vez menos compatível com aplicativos e serviços que exigiam conexões mais rápidas e confiáveis. Isso limitou a participação dos usuários no ambiente digital em evolução.
-    
+
 
 Apesar dessas limitações, a Internet discada teve um papel importante nos primeiros anos da rede e preparou o caminho para a banda larga.
 

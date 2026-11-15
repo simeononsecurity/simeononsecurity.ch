@@ -111,15 +111,15 @@ Trotzdem hat das Einwahl-Internet für viele Menschen einen nostalgischen Reiz. 
 Das Einwahl-Internet war zu seiner Zeit revolutionär, brachte aber Einschränkungen mit sich, mit denen Nutzer zurechtkommen mussten:
 
 * **Niedrige Geschwindigkeit**: Einwahlverbindungen waren für ihre langsame Geschwindigkeit bekannt und erreichten oft höchstens 56 Kilobit pro Sekunde (Kbps). Große Dateien herunterzuladen oder Videos zu streamen dauerte sehr lange.
-    
+
 * **Belegte Telefonleitung**: Für Einwahl-Internet war eine physische Telefonverbindung nötig. Währenddessen konnte die Leitung keine Anrufe entgegennehmen oder tätigen. Für Haushalte mit nur einer Telefonleitung war das besonders störend.
-    
+
 * **Verbindungsabbrüche**: Einwahlverbindungen brachen häufig ab, besonders bei Störungen der Telefonleitung. So konnte die Verbindung mitten in einer wichtigen Aufgabe oder einem Download verloren gehen.
-    
+
 * **Eingeschränktes Multitasking**: Wegen der niedrigen Geschwindigkeit und der Abbrüche war Multitasking schwierig. Beim Surfen gleichzeitig Dateien herunterzuladen oder E-Mails zu versenden führte oft zu träger Leistung.
-    
+
 * **Unvereinbarkeit mit moderner Technik**: Mit dem technischen Fortschritt wurde Einwahl-Internet zunehmend inkompatibel mit Anwendungen und Diensten, die schnellere und zuverlässigere Verbindungen erforderten. Nutzer konnten dadurch an der digitalen Entwicklung nur eingeschränkt teilhaben.
-    
+
 
 Trotz dieser Einschränkungen prägte das Einwahl-Internet die frühen Jahre des Internets und ebnete den Weg für heutige Breitbandverbindungen.
 

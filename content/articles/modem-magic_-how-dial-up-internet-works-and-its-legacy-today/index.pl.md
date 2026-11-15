@@ -111,15 +111,15 @@ Mimo ograniczeń Internet dial-up ma dla wielu osób nostalgiczny urok. Znajome 
 Dial-up był w swoich czasach rewolucyjny, ale użytkownicy musieli zmagać się z wieloma ograniczeniami:
 
 * **Niska prędkość**: połączenia dial-up słynęły z powolnego działania i często osiągały maksymalnie 56 kilobitów na sekundę (Kbps). Pobieranie dużych plików lub odtwarzanie filmów trwało bardzo długo.
-    
+
 * **Zajęta linia telefoniczna**: połączenie dial-up wymagało fizycznej linii telefonicznej, która podczas połączenia nie mogła służyć do odbierania ani wykonywania rozmów. Było to szczególnie uciążliwe w domach z jedną linią.
-    
+
 * **Zrywanie połączenia**: połączenia dial-up często się przerywały, zwłaszcza gdy na linii występowały zakłócenia. Użytkownik mógł stracić dostęp w trakcie ważnego zadania lub pobierania pliku.
-    
+
 * **Ograniczona wielozadaniowość**: wolne działanie i przerwy utrudniały wykonywanie kilku zadań naraz. Przeglądanie stron podczas pobierania pliku lub wysyłania e-maila często spowalniało wszystko.
-    
+
 * **Brak zgodności z nowoczesnymi technologiami**: wraz z postępem technologicznym dial-up coraz gorzej współpracował z aplikacjami i usługami wymagającymi szybszych i niezawodniejszych połączeń. Użytkownicy mieli ograniczone możliwości uczestniczenia w rozwijającym się świecie cyfrowym.
-    
+
 
 Mimo ograniczeń Internet dial-up odegrał ważną rolę we wczesnym rozwoju sieci i utorował drogę łączom szerokopasmowym.
 

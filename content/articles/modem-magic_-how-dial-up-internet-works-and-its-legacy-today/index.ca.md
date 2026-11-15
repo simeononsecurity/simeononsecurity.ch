@@ -111,15 +111,15 @@ Tot i aquestes limitacions, Internet per connexió telefònica conserva un encan
 Tot i ser revolucionària en el seu moment, aquesta tecnologia tenia limitacions que els usuaris havien d'afrontar:
 
 * **Velocitat baixa**: les connexions telefòniques eren conegudes per la lentitud i sovint no superaven els 56 kilobits per segon (Kbps). Baixar fitxers grans o reproduir vídeos podia ser molt lent.
-    
+
 * **Línia telefònica ocupada**: la connexió necessitava una línia física i, mentre era activa, no es podien fer ni rebre trucades. Això era especialment frustrant per a les llars amb una sola línia.
-    
+
 * **Talls de connexió**: les connexions es tallaven sovint, especialment quan hi havia interferències a la línia telefònica. L'usuari podia quedar desconnectat enmig d'una tasca important o d'una baixada.
-    
+
 * **Multitasca limitada**: la velocitat baixa i els talls dificultaven fer diverses coses alhora. Navegar mentre es baixava un fitxer o s'enviava un correu sovint provocava un rendiment lent.
-    
+
 * **Incompatibilitat amb tecnologies modernes**: amb el progrés tecnològic, la connexió telefònica era cada vegada menys compatible amb aplicacions i serveis que exigien connexions més ràpides i fiables. Això limitava la participació dels usuaris en el món digital en evolució.
-    
+
 
 Malgrat aquestes limitacions, Internet per connexió telefònica va influir en els primers anys de la xarxa i va obrir el camí a la banda ampla.
 

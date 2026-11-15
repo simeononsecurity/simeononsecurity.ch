@@ -111,15 +111,15 @@ Aun así, Internet por acceso telefónico conserva un encanto nostálgico. Los s
 Aunque fue revolucionario en su momento, el acceso telefónico tenía limitaciones que los usuarios debían afrontar:
 
 * **Baja velocidad**: las conexiones eran conocidas por ser lentas y a menudo no superaban los 56 kilobits por segundo (Kbps). Descargar archivos grandes o reproducir videos podía llevar mucho tiempo.
-    
+
 * **Línea telefónica ocupada**: mientras se estaba conectado, la línea no permitía hacer ni recibir llamadas. Era especialmente molesto en hogares con una sola línea.
-    
+
 * **Desconexiones**: las conexiones se interrumpían con frecuencia, sobre todo si había interferencias en la línea. El usuario podía quedarse sin conexión en mitad de una tarea o descarga importante.
-    
+
 * **Multitarea limitada**: la baja velocidad y las desconexiones dificultaban hacer varias cosas a la vez. Navegar mientras se descargaba un archivo o se enviaba un correo podía volver todo muy lento.
-    
+
 * **Incompatibilidad con tecnologías modernas**: con el avance tecnológico, el acceso telefónico dejó de ser compatible con aplicaciones y servicios que requerían conexiones más rápidas y fiables. Esto limitó la participación plena de sus usuarios en el entorno digital.
-    
+
 
 Pese a esos límites, el acceso telefónico influyó de forma importante en los primeros años de Internet y abrió el camino a la banda ancha actual.
 

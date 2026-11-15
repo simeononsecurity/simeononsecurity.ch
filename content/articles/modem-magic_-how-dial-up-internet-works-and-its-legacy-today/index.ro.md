@@ -111,15 +111,15 @@ Cu toate acestea, Internetul prin dial-up păstrează o atracție nostalgică pe
 Deși revoluționar la vremea sa, Internetul prin dial-up avea limitări cu care utilizatorii trebuiau să se descurce:
 
 * **Viteză redusă**: conexiunile dial-up erau renumite pentru viteza mică și de multe ori ajungeau cel mult la 56 de kilobiți pe secundă (Kbps). Descărcarea fișierelor mari sau redarea videoclipurilor putea dura foarte mult.
-    
+
 * **Linie telefonică ocupată**: dial-up necesita o conexiune fizică la linia telefonică, care nu putea fi folosită pentru apeluri primite sau inițiate cât timp conexiunea era activă. Limita era deosebit de frustrantă pentru gospodăriile cu o singură linie.
-    
+
 * **Deconectări**: conexiunile se întrerupeau frecvent, mai ales când existau interferențe pe linia telefonică. Utilizatorii puteau pierde conexiunea în mijlocul unei activități importante sau al unei descărcări.
-    
+
 * **Multitasking limitat**: viteza mică și deconectările îngreunau multitaskingul. Navigarea în timp ce se descărca un fișier sau se trimitea un e-mail ducea adesea la performanțe lente.
-    
+
 * **Incompatibilitate cu tehnologiile moderne**: pe măsură ce tehnologia a avansat, dial-up a devenit tot mai incompatibil cu aplicațiile și serviciile care necesitau conexiuni mai rapide și mai fiabile. Astfel, utilizatorii puteau participa mai greu la lumea digitală în schimbare.
-    
+
 
 În ciuda acestor limitări, Internetul prin dial-up a modelat primii ani ai Internetului și a pregătit calea pentru conexiunile în bandă largă.
 
