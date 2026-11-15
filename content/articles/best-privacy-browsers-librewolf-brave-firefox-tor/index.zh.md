@@ -1,7 +1,7 @@
 ---
 title: "2026年最佳隐私浏览器：LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 2026年最全面的隐私浏览器对比：LibreWolf、Brave、Firefox、Tor等。详细的隐私测试、性能基准和安全分析，保护您的在线数据。
@@ -174,12 +174,12 @@ coverCaption: 保护您的隐私 - 保持在线安全
 
 **必备about:config调整：**
 ```
-// Even stricter privacy (optional):
+// 更严格的隐私保护（可选）：
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // 完全隔离 Cookie
 
-// Performance optimization:
+// 性能优化：
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **基本隐私设置：**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+设置 > Shields:
+✓ 跟踪器和广告拦截：严格
+✓ 将连接升级为 HTTPS
+✓ 阻止脚本（敏感浏览时）
+✓ 阻止浏览器指纹：严格
+✓ 阻止 Cookie：阻止第三方 Cookie
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+设置 > 隐私与安全：
+✓ WebRTC IP 处理策略：禁用未通过代理的 UDP
+✓ 安全浏览：标准保护
+□ 允许保护隐私的产品分析（禁用）
+✓ 自动发送每日使用情况提示：关闭
+✓ 自动补全搜索：关闭
 ```
 
 **推荐扩展：**
@@ -404,14 +404,14 @@ Settings > Privacy and security:
 
 **1. 多账户容器：**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Mozilla 提供的免费扩展
+按情境隔离 Cookie 和浏览历史：
+- 个人容器（绿色）
+- 工作容器（蓝色）
+- 银行容器（红色）
+- 购物容器（橙色）
 
-Prevents cross-contamination
+防止不同情境间的数据混杂
 ```
 
 **2. Firefox Relay：**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. 隐私与安全部分：**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ 增强型跟踪保护：严格
+✓ 向网站发送“请勿跟踪”：始终
+✓ 仅 HTTPS 模式：在所有窗口中启用
+✓ 通过 HTTPS 使用 DNS：最高保护（Cloudflare）
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Cookie 和网站数据：
+✓ 关闭 Firefox 时删除 Cookie
+□ 所有第三方 Cookie（改用 ETP）
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+历史记录：
+○ 从不记住历史记录（隐私性最高）
+● 使用自定义设置（推荐）：
+  ✓ 关闭 Firefox 时清除历史记录
+  ✓ 地址栏建议：仅书签
 ```
 
 **2. 关于：config 加固：**
 ```
-// Resist fingerprinting
+// 防止浏览器指纹识别
 privacy.resistFingerprinting = true
 
-// First party isolation
+// 第一方隔离
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// WebRTC 保护
 media.peerconnection.enabled = false
 
-// Referrer header control
+// 控制来源标头
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// 禁用 WebGL
+webgl.disabled = true (可能导致部分网站无法正常使用)
 
-// Letterboxing
+// 画幅留边
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **洋葱网络：**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+你 → 入口节点 → 中间节点 → 出口节点 → 网站
+     [已加密]  [已加密]  [未加密]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- 入口节点知道你的身份，但不知道目的地
+- 中间节点两者都不知道
+- 出口节点知道目的地，但不知道你的身份
+- 每一层都单独加密
 ```
 
 **三种安全级别：**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **安全提示：**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ 不要最大化窗口（避免浏览器指纹识别）
+✓ 不要安装扩展
+✓ 仅访问 HTTPS 网站
+✓ 不要通过 Tor 下载种子
+✓ 不要登录真实账户
+✗ 尽可能不要使用 Windows
+✓ 如需最大程度匿名，可考虑 Tails OS
+✓ 在受审查地区使用网桥
 ```
 
 ### Tor 与 VPN
@@ -708,20 +708,20 @@ You → Entry Node → Middle Node → Exit Node → Website
 ### 快速决策树
 
 ```
-Need maximum anonymity (journalists, activists)?
+你是否需要最大程度的匿名（如记者、活动人士）？
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+你是否需要隐私、Chrome 兼容性和速度？
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+你是否需要无遥测且隐私性最高的 Firefox？
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+你是否需要常见浏览器、良好隐私保护和扩展？
+    → Firefox（正确配置后）
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+你是否需要保护隐私的移动浏览器？
+    → Brave（综合最佳）或 Firefox Focus（最简单）
 ```
 
 ### 使用场景推荐
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **步骤2：导入数据**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+文件 → 从其他浏览器导入
+选择：Chrome
+选择：书签、密码和历史记录
+导入扩展：手动重新安装
 ```
 
 **步骤3：配置隐私设置**

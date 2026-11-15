@@ -1,7 +1,7 @@
 ---
 title: "Beste Datenschutzbrowser 2026: LibreWolf vs Brave vs Firefox vs Tor – Vollständiger Vergleich"
 date: 2023-08-23
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Umfassender Vergleich der besten datenschutzorientierten Browser 2026: LibreWolf, Brave, Firefox, Tor und mehr. Detaillierte Datenschutztests, Performance-Benchmarks und Sicherheitsanalyse zum Schutz Ihrer Online-Daten."
@@ -266,7 +266,7 @@ layers.acceleration.force-enabled = true
 Einstellungen > Shields:
 ✓ Tracker & Werbungsblockierung: Aggressiv
 ✓ Verbindungen auf HTTPS upgraden
-✓ Skripte blockieren (für sensibler Surfen)
+✓ Skripte blockieren (für sensibles Surfen)
 ✓ Fingerprinting blockieren: Aggressiv
 ✓ Cookies blockieren: Drittanbieter blockieren
 
@@ -364,7 +364,7 @@ Separate Cookies/Verlauf nach Kontext:
 - Persönlicher Container (grün)
 - Arbeitscontainer (blau)
 - Banking-Container (rot)
-- Shopping-Container (orange)
+- Einkaufs-Container (orange)
 
 Verhindert Kreuzkontamination
 ```
@@ -417,7 +417,7 @@ Verlauf:
 // Fingerprinting widerstehen
 privacy.resistFingerprinting = true
 
-// First-Party-Isolation
+// Isolierung von Erstanbietern
 privacy.firstparty.isolate = true
 
 // WebRTC-Schutz  
@@ -429,7 +429,7 @@ network.http.referer.XOriginPolicy = 2
 // WebGL deaktivieren
 webgl.disabled = true (kann einige Websites beschädigen)
 
-// Letterboxing
+// Balkenbildung
 privacy.resistFingerprinting.letterboxing = true
 ```
 

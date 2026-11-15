@@ -1,7 +1,7 @@
 ---
 title: "2026年の最高プライバシーブラウザ：LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 2026年の最高のプライバシー重視ブラウザを包括的に比較：LibreWolf、Brave、Firefox、Torなど。詳細なプライバシーテスト、パフォーマンスベンチマーク、セキュリティ分析でオンラインデータを保護します。
@@ -174,12 +174,12 @@ coverCaption: プライバシーを守る - オンラインで安全を保つ
 
 **必須のabout:config調整：**
 ```
-// Even stricter privacy (optional):
+// さらに厳格なプライバシー保護（任意）:
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // Cookieを完全に分離
 
-// Performance optimization:
+// パフォーマンス最適化:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **必須プライバシー設定:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+設定 > Shields:
+✓ トラッカーと広告のブロック: 強
+✓ 接続をHTTPSにアップグレード
+✓ スクリプトをブロック（慎重な閲覧時）
+✓ フィンガープリントをブロック: 強
+✓ Cookieをブロック: サードパーティをブロック
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+設定 > プライバシーとセキュリティ:
+✓ WebRTC IP処理ポリシー: プロキシを通さないUDPを無効化
+✓ セーフブラウジング: 標準保護
+□ プライバシーを保護する製品分析を許可（無効）
+✓ 毎日の利用状況を自動送信: オフ
+✓ 検索の自動補完: オフ
 ```
 
 **推奨拡張機能:**
@@ -404,14 +404,14 @@ Settings > Privacy and security:
 
 **1. マルチアカウントコンテナ:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Mozillaの無料拡張機能
+コンテキストごとにCookieと履歴を分離:
+- 個人用コンテナー（緑）
+- 仕事用コンテナー（青）
+- 銀行用コンテナー（赤）
+- 買い物用コンテナー（オレンジ）
 
-Prevents cross-contamination
+コンテキスト間のデータ混在を防止
 ```
 
 **2. Firefox Relay:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. プライバシー＆セキュリティセクション:**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ 強化型トラッキング防止: 厳格
+✓ Webサイトに「追跡拒否」を送信: 常に
+✓ HTTPSのみモード: すべてのウィンドウで有効化
+✓ HTTPS経由のDNS: 最大限の保護（Cloudflare）
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Cookieとサイトデータ:
+✓ Firefox終了時にCookieを削除
+□ すべてのサードパーティCookie（代わりにETPを使用）
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+履歴:
+○ 履歴を保存しない（最もプライバシー重視）
+● カスタム設定を使用（推奨）:
+  ✓ Firefox終了時に履歴を消去
+  ✓ アドレスバーの候補: ブックマークのみ
 ```
 
 **2. About:config 強化:**
 ```
-// Resist fingerprinting
+// フィンガープリントを防ぐ
 privacy.resistFingerprinting = true
 
-// First party isolation
+// ファーストパーティ分離
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// WebRTC保護
 media.peerconnection.enabled = false
 
-// Referrer header control
+// リファラー ヘッダー制御
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// WebGLを無効化
+webgl.disabled = true (一部のサイトで問題が起きる場合があります)
 
-// Letterboxing
+// レターボックス化
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **オニオンネットワーク:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+あなた → 入口ノード → 中継ノード → 出口ノード → Webサイト
+     [暗号化]  [暗号化]  [暗号化なし]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- 入口ノードは利用者を知るが、接続先は知らない
+- 中継ノードはどちらも知らない
+- 出口ノードは接続先を知るが、利用者は知らない
+- 各層は個別に暗号化される
 ```
 
 **3つのセキュリティレベル:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **安全対策:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ ウィンドウを最大化しない（フィンガープリント対策）
+✓ 拡張機能をインストールしない
+✓ HTTPSのWebサイトのみを使用
+✓ Tor 経由でトレントを利用しない
+✓ 実際のアカウントにログインしない
+✗ 可能ならWindowsを使わない
+✓ 最大限の匿名性にはTails OSを検討
+✓ 検閲地域ではブリッジを使用
 ```
 
 ### TorとVPNの比較
@@ -708,20 +708,20 @@ You → Entry Node → Middle Node → Exit Node → Website
 ### 簡単な意思決定ツリー
 
 ```
-Need maximum anonymity (journalists, activists)?
+最大限の匿名性が必要ですか（記者、活動家など）?
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+プライバシーとChrome互換性、速度を重視しますか?
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+テレメトリーなしのFirefoxと最大限のプライバシーを求めますか?
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+一般的なブラウザーと十分なプライバシー、拡張機能が必要ですか?
+    → Firefox（適切に設定）
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+モバイルでプライバシーを守るブラウザーが必要ですか?
+    → Brave（総合的に最適）またはFirefox Focus（最も簡単）
 ```
 
 ### 利用ケース別推奨
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **ステップ2：データをインポート**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+ファイル → 別のブラウザーからインポート
+選択: Chrome
+選択: ブックマーク、パスワード、履歴
+拡張機能のインポート: 手動で再インストール
 ```
 
 **ステップ3：プライバシー設定を構成**

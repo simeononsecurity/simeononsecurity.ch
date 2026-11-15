@@ -1,7 +1,7 @@
 ---
 title: "Beste Privacy Browsers 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 'Uitgebreide vergelijking 2026 van de beste privacygerichte browsers: LibreWolf, Brave, Firefox, Tor en meer. Gedetailleerde privacytests, prestatietests en beveiligingsanalyse om uw online gegevens te beschermen.'
@@ -174,12 +174,12 @@ Deze uitgebreide gids onderzoekt de beste privacybrowsers - **LibreWolf**, **Bra
 
 **Essentiële about:config Aanpassingen:**
 ```
-// Even stricter privacy (optional):
+// Nog strengere privacy (optioneel):
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // Cookies volledig isoleren
 
-// Performance optimization:
+// Prestatieoptimalisatie:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **Essentiële Privacy-instellingen:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+Instellingen > Shields:
+✓ Blokkering van trackers en advertenties: streng
+✓ Verbindingen upgraden naar HTTPS
+✓ Scripts blokkeren (voor gevoelig browsen)
+✓ Fingerprinting blokkeren: streng
+✓ Cookies blokkeren: cookies van derden blokkeren
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+Instellingen > Privacy en beveiliging:
+✓ WebRTC IP-beleid: UDP zonder proxy uitschakelen
+✓ Veilig browsen: standaardbeveiliging
+□ Privacyvriendelijke productanalyse toestaan (uitschakelen)
+✓ Dagelijkse gebruiksping automatisch verzenden: uit
+✓ Zoekopdrachten automatisch aanvullen: uit
 ```
 
 **Aanbevolen Extensies:**
@@ -404,14 +404,14 @@ Revolutionaire aanpak van cookiebeheer:
 
 **1. Multi-Account Containers:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Gratis extensie van Mozilla
+Scheid cookies en geschiedenis per context:
+- Persoonlijke container (groen)
+- Werkcontainer (blauw)
+- Bankcontainer (rood)
+- Winkelcontainer (oranje)
 
-Prevents cross-contamination
+Voorkomt dat gegevens tussen contexten worden vermengd
 ```
 
 **2. Firefox Relay:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. Privacy & Beveiliging Sectie:**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ Verbeterde bescherming tegen volgen: strikt
+✓ Websites "Niet volgen" sturen: altijd
+✓ Alleen-HTTPS-modus: in alle vensters inschakelen
+✓ DNS via HTTPS: maximale bescherming (Cloudflare)
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Cookies en sitegegevens:
+✓ Cookies verwijderen wanneer Firefox sluit
+□ Alle cookies van derden (gebruik in plaats daarvan ETP)
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+Geschiedenis:
+○ Geschiedenis nooit onthouden (meest privé)
+● Aangepaste instellingen gebruiken (aanbevolen):
+  ✓ Geschiedenis wissen wanneer Firefox sluit
+  ✓ Suggesties in adresbalk: alleen bladwijzers
 ```
 
 **2. About:config Versterking:**
 ```
-// Resist fingerprinting
+// Fingerprinting tegengaan
 privacy.resistFingerprinting = true
 
-// First party isolation
+// Eerstepartij-isolatie
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// WebRTC-bescherming
 media.peerconnection.enabled = false
 
-// Referrer header control
+// Referrer-header beheren
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// WebGL uitschakelen
+webgl.disabled = true (kan sommige websites verstoren)
 
-// Letterboxing
+// Beeldkadering
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **Het Onion-netwerk:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+Jij → Ingangsnode → Middelste node → Uitgangsnode → Website
+     [Versleuteld]  [Versleuteld]  [Niet versleuteld]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- De ingangsnode kent jou, niet de bestemming
+- De middelste node kent geen van beide
+- De uitgangsnode kent de bestemming, niet jou
+- Elke laag wordt afzonderlijk versleuteld
 ```
 
 **Drie Beveiligingsniveaus:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **Veiligheidstips:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ Maximaliseer het venster nooit (fingerprinting)
+✓ Installeer geen extensies
+✓ Gebruik alleen HTTPS-websites
+✓ Torrent niet via Tor
+✓ Meld je niet aan bij echte accounts
+✗ Gebruik zo mogelijk geen Windows
+✓ Overweeg Tails OS voor maximale anonimiteit
+✓ Gebruik bridges in gecensureerde gebieden
 ```
 
 ### Tor vs VPN
@@ -708,20 +708,20 @@ Getest met identieke browseprofielen over 100 populaire websites:
 ### Snelle Beslissingsboom
 
 ```
-Need maximum anonymity (journalists, activists)?
+Heb je maximale anonimiteit nodig (journalisten, activisten)?
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+Wil je privacy, Chrome-compatibiliteit en snelheid?
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+Wil je Firefox zonder telemetrie en met maximale privacy?
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+Wil je een gangbare browser met goede privacy en extensies?
+    → Firefox (goed ingesteld)
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+Heb je een mobiele browser nodig die privacy beschermt?
+    → Brave (beste totaalkeuze) of Firefox Focus (eenvoudigste)
 ```
 
 ### Aanbevelingen per Gebruikssituatie
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **Stap 2: Gegevens importeren**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+Bestand → Importeren vanuit een andere browser
+Selecteer: Chrome
+Kies: bladwijzers, wachtwoorden en geschiedenis
+Extensies importeren: handmatig opnieuw installeren
 ```
 
 **Stap 3: Privacy-instellingen configureren**
