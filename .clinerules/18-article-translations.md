@@ -32,9 +32,24 @@
 
 - Translate the full body and reader-facing metadata, including image alt text
   and captions. Keep technical names accurate and use Gurmukhi for Punjabi.
+- Translate reader-facing `genre` and `tags` values while preserving array order
+  and count. Retain product names, model identifiers, and other proper nouns where
+  translation would change the reference. Screen every identical source tag and
+  genre value, including single-word values, in inline and block-style YAML lists
+  for manual review. Translate reader-facing taxonomy terms and record any
+  proper-name exception. Preserve the source tag and genre counts. The leakage
+  checker flags `taxonomy_count_mismatch`; inspect the report's source/target
+  counts, then compare value order manually because translations change values.
+- Check false friends that change evidence-handling meaning. For example,
+  “unredacted evidence” means sensitive details remain present, not that evidence
+  is unedited or unremediated. Keep such evidence only in the approved private
+  location.
 - Preserve publication dates, URLs, resource paths, code blocks, inline commands,
   shortcode names, and nontext shortcode parameters. Set `lastmod` when writing
-  a new or refreshed translation.
+  a new or refreshed translation. For a batch refresh, update and verify
+  `lastmod` in every changed locale file. Existing translations can carry
+  different older dates, so verify the complete changed-file set instead of
+  replacing only one known date value.
 - Protect code and markup before automated translation. Validate the exact
   placeholder counts before restoring the protected source text. Restore symbolic
   placeholders by exact token match. When names share prefixes, replace longer tokens
@@ -43,11 +58,50 @@
 - Use exact phrase or word-boundary substitutions for terminology. Do not
   replace substrings inside other words. For example, matching `laybooks` inside
   `playbooks` changes the correct technical term.
+- Protect Markdown link destinations before running any phrase-replacement
+  script. A terminology match inside a URL path, query, or anchor is part of the
+  destination, not reader-facing prose. After restoring translated labels,
+  compare every ordered URL target and its source-aligned sentence with English.
 - Require all translation segments to return. Reject truncation, missing keys,
   missing headings, and altered table structure. Never substitute English text
   for a failed translation.
+- Never copy or rename `index.en.md` into a locale filename as a placeholder,
+  and never keep a partially translated file when a translation call fails.
+  Write generated translations to a temporary path first. Before moving one into
+  the content bundle, verify that its title, opening, and every reader-facing
+  section contain target-language prose. If any segment is missing or still
+  source English, leave that locale marked incomplete in the work report and
+  do not create or approve its locale file.
+  Treat a locale filename as a claim that the file contains a complete
+  translation, not as an in-progress marker. Keep drafts and failed or
+  incomplete candidates outside `content/articles/`. Before adding or replacing
+  a locale file, screen the temporary candidate against the English source for
+  copied paragraphs, sentences, spans, metadata, and English-dominant prose.
+  Manually inspect every finding. If the candidate still contains untranslated
+  reader-facing English, do not move it into the bundle; report the locale as
+  missing until the complete translation passes this gate.
+  Compare normalized article bodies for an exact English copy even when front
+  matter differs. Inspect short paragraphs individually, since English-only
+  sections can evade long-paragraph thresholds. A locale extension marks final
+  translated content, never a placeholder or progress state.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
+- When a script splits a Markdown file on `---`, validate the split parts before
+  writing. With Python `text.split('---', 2)`, part 0 is the prefix before the
+  opening delimiter, part 1 is front matter, and part 2 is the body. Assert the
+  front matter contains expected keys and validate the complete output in memory
+  before writing any file.
+- When inserting a missing source section into an existing translation, do not
+  search for the English heading text as an insertion anchor. Locate the
+  corresponding localized heading or a verified structural boundary in each
+  locale, then compare the complete ordered heading sequence with English to
+  confirm the section was inserted exactly once.
+- When restoring omitted content, compare ordered source and translation links,
+  tables, and shortcode sequences before and after insertion. Reuse existing
+  references; remove duplicated related-link tables or reference entries, then
+  verify every source target appears exactly once in the expected order.
+- Validate translated tables by row/column shape and divider structure, not
+  literal cell-text equality. Cell text is expected to differ after translation.
 
 ## Validate the Result
 
@@ -56,9 +110,20 @@
 - Check bold and italic markup against the English source. Compare emphasis
   placement and verify paired markers line by line. A matching total marker
   count can still hide an unpaired delimiter in a translated line.
+  Do not count underscore-only horizontal-rule lines as emphasis.
+- Treat source-level marker counts as insufficient. After rendering each changed
+  locale, inspect the generated article prose outside `pre` and `code` elements
+  for literal Markdown emphasis delimiters: `*`, `**`, and `__`. Valid emphasis
+  renders as `<em>` or `<strong>` and leaves no delimiters in prose. Treat
+  unescaped delimiters as a failed render check until reviewed and fixed. Review
+  intentional escaped literal asterisks separately. Compare the rendered
+  `<strong>` and `<em>` spans with the source meaning, then record this check per
+  locale in the review report.
 - Inspect emphasis boundaries in the target script. Do not split a word, compound,
   or grammatical particle with Markdown markers, and keep bold spans focused on
-  a scannable term or phrase rather than a long sentence.
+  a scannable term or phrase rather than a long sentence. Review Japanese and
+  Chinese boundaries manually; the automated split-word check skips those
+  scripts because they do not use spaces between words.
 - Translate source-attribution notes from the current article only. Before
   retaining a citation summary, compare its claim and URL with the English
   source; a note copied from another article can introduce an unrelated claim.
@@ -66,13 +131,223 @@
 - Treat language detection as a screening check. English product names and link
   labels distort results on short technical pages. Inspect script usage and
   surrounding prose before replacing a translation flagged by a detector.
+  Translate each descriptive link label in the sentence where it appears, and
+  adjust nearby articles, prepositions, case, gender, number, and word order to
+  fit the translated label. Read the complete sentence after each label change;
+  a translated label can still leave the sentence ungrammatical. Keep the link
+  inside the source-aligned sentence or list item; preserving its target and
+  order does not catch a link moved after the sentence it completes.
+- Before approval, screen every reader-facing segment in each locale file for
+  English-copy leakage: front matter, headings, inline link labels, paragraphs,
+  table cells, list items, captions, and alt text. Compare segments with the English source and
+  flag unchanged multiword prose, identical headings including short headings,
+  and English word fragments left in mixed-language headings,
+  or prose a language detector identifies as English. Exclude code, URLs,
+  shortcode syntax, product names, and technical identifiers from automatic
+  findings. Treat short heading
+  matches as a manual-review queue because brands, acronyms, and cognates often
+  remain unchanged. Also compare Markdown link labels by
+  their unchanged target and order. Flag identical descriptive labels of two
+  or more words for manual review, even when surrounding paragraph prose differs.
+  The checker also flags an unchanged multiword source label embedded inside a
+  longer target label. It also flags generic unchanged one-word English labels
+  such as `here`, `click`, `download`, and `documentation` for manual review.
+  Translate generic link wording in the target language; retain a one-word label
+  only when context confirms a product, organization, fixed identifier, or
+  official name. Inspect these matches in context and translate copied
+  descriptive wording, while retaining official titles, product names, and
+  fixed identifiers when context supports them.
+  Review each flag in context, then translate copied reader-facing prose before
+  freezing the hash snapshot.
+  Compare unchanged descriptive table cells directly with the source. The
+  leakage checker queues copied descriptive cells, including common
+  single-word labels, for manual review. Translate
+  headers, method names, and explanatory labels; preserve product/model names,
+  identifiers, commands, and numeric results when they are fixed data.
+  Review each unchanged table-cell flag in context and record the reason
+  when you preserve it as a product name, status, identifier, or fixed value.
+  Treat every `English_reader_table_cell_copy` result as an approval blocker until
+  you inspect the source-aligned table row. Translate copied descriptive text,
+  and document the precise reason for every retained product name, status,
+  identifier, or fixed value. After editing, rerun
+  `tools/check_translation_english_leakage.py` on the affected article bundles
+  and recheck the `copied_english_table_cells` report column before approval.
+  A locale filename, nonempty body, expected-script sample, or low file-wide
+  English ratio does not establish translated coverage. Before approval, inspect
+  the title, description, opening, every section, and reader-facing examples in
+  each locale. If any segment is still English source prose or a section has no
+  translated reader-facing content, return `CHANGES REQUIRED`; do not freeze,
+  commit, or integrate that locale until it is translated and re-reviewed.
+  Retain English only when the exact phrase is a product or organization name,
+  fixed identifier, source title, command, citation title, or literal sample
+  value, and record the reason in the review report. A mixed-language paragraph
+  with copied English clauses is still a translation defect.
+  Compare sentence-sized segments and unchanged source spans of eight or more
+  words as well as full paragraphs. A translated paragraph can still contain
+  English clauses between localized text, so a low English-word ratio does not
+  clear the paragraph. The checker also queues unchanged five-to-seven-word
+  spans with English stopwords, including short clauses next to preserved legal
+  or product names. Translate copied prose and connectors while retaining an
+  official name when appropriate.
+  Screen each paragraph separately for English stopword dominance as well as
+  scanning the full article. A mostly translated article can hide a fully
+  English paragraph in its overall ratio. Treat each paragraph-level flag as a
+  manual-review item, inspect it against the English source, and translate
+  reader-facing English prose before approval. Preserve named entities, fixed
+  identifiers, literal data, and runtime output when context confirms them.
+  The leakage checker screens paragraphs with 10 or more Latin-word tokens.
+  In Arabic, Bengali, Hindi, Japanese, Punjabi, Russian, and Chinese, paragraphs
+  with at least 15 Latin-word tokens use a 0.25 English-stopword ratio threshold
+  regardless of nearby target-language characters. Other paragraphs under 30
+  tokens use a 0.35 threshold; paragraphs with 30 or more tokens use 0.28.
+  These thresholds create a review queue, not an automatic language verdict.
+  For Arabic, Bengali, Hindi, Japanese, Punjabi, Russian, and Chinese, assess
+  English stopword density among Latin-word tokens without letting nearby
+  target-language characters suppress the flag. A translated sentence can still contain
+  a copied English clause. Review flags in context and retain Latin product names
+  when they are names rather than prose.
+  For sentences containing inline links, compare the surrounding sentence with
+  each link replaced by a neutral placeholder. This catches copied English
+  prose whose remaining word count falls below the normal span threshold after
+  link labels are removed. Translate the sentence around product names while
+  preserving the names and their targets.
+  When a source repeats a destination, preserve each link occurrence in its
+  original translated sentence, list item, step, or table cell. Matching the
+  total URL count and order does not prove correct placement; compare each
+  occurrence with its source context so a duplicate link does not migrate to a
+  different claim.
+  Record which locales were screened and how each finding was resolved. File
+  presence, script checks, and a detector score do not establish translated
+  prose coverage.
+- Inspect fenced examples separately. A `text`, `plaintext`, or `markdown`
+  template, form, sample dialogue, or Markdown document remains reader-facing
+  prose. The leakage checker includes these fence types and flags unchanged
+  examples copied from English. It excludes
+  executable and other fenced code. Translate labels and explanatory text in
+  reader-facing fences while preserving placeholders and syntax. Keep structured
+  evidence such as MAC/OUI records, hashes, and literal data values unchanged.
+  These values are not English prose even inside a `text` fence. Exclude code,
+  literal commands, and data-only examples from prose review.
+  Preserve literal runtime diagnostics and expected validation output exactly.
+  Translate explanatory labels or surrounding prose, but do not translate fixed
+  output such as a permission error or a required `PASS:` result.
+  Inspect executable fences for reader-facing comments and natural-language
+  strings as well. Translate comments and example text such as a commit subject
+  while preserving valid command syntax. Keep literal runtime output, identifiers,
+  paths, and command names unchanged. The checker screens comments and common
+  output calls in shell and PowerShell (`powershell`/`pwsh` fences), Python,
+  JavaScript/TypeScript, C/C++, Java, C#, Go, Rust,
+  Swift, Kotlin, PHP, Lua, Scala, and Groovy. It also screens visible text and
+  accessibility labels in fenced HTML, including single-word labels. Treat an
+  unchanged Python module, class, or function docstring as reader-facing prose
+  and translate it while preserving the code structure. The checker screens
+  docstrings in parseable Python fences. Treat an
+  unchanged comment or example string as a manual-review flag, not as executable
+  syntax to ignore. Exempt
+  fixed diagnostics and identifier-only values from translation. Review any
+  output-string finding in context, preserve fixed runtime output, and record
+  the reason when retaining English text the checker flags. Do not exempt generic
+  status words such as `start`, `stop`, `ready`, or `done` automatically. Review
+  those strings in context because they can serve as visible instructions or labels.
+  An unlabeled code fence can still contain reader-facing labels or explanatory
+  placeholders alongside literal data. The checker reports unchanged prose lines
+  from unlabeled fences as `copied_unlabeled_fence_line`; translate those labels
+  and placeholders while keeping addresses, model identifiers, and literal values.
+  Numeric content does not make a line data-only: cost explanations, percentages,
+  quantities, and numbered timeline phases remain reader-facing prose. Review
+  these lines even when they contain currency symbols or arithmetic. Exclude only
+  data-only rows, fixed output, commands, and identifiers with a specific reason.
+  Arrows can connect reader-facing decision labels or instructions. Translate the
+  words around an arrow; retain a line unchanged only when it is an identifier/path
+  mapping or literal data, and record that reason.
+  Match each code fence language to the syntax shown. For example, `#` comments
+  belong in a PowerShell fence, not a `cmd` fence. A wrong fence label can hide
+  comments from the language-aware leakage checker and misrepresent how commands
+  run.
+  Inspect YAML block scalars under `name:` and `msg:` line by line, including
+  continuation lines, and translate all reader-facing text. The checker scans
+  these fields but cannot establish whether their wording is appropriate. It is not a language
+  parser, so manually inspect user-facing strings and markup in every other
+  executable fence, including template literals, UI labels, and generated sample text.
+  Compare individual lines inside `text`, `plaintext`, and `markdown` fences as well as full
+  examples. A localized sample can still contain copied English field labels or
+  short instructions that a whole-block comparison misses. Translate those
+  lines while preserving paths, commands, placeholders, and structured values.
+  Treat every unchanged reader-facing label or instruction in these fences as
+  an approval blocker. Do not mark a locale complete while the checker reports
+  `copied_reader_fenced_line` until each line has been translated or documented
+  as fixed output or literal data.
+  Apply the same blocker to `copied_unlabeled_fence_line`; translate each
+  reader-facing line or record a specific reason when it is fixed output or literal data.
+  Compare the ordered fence inventory with the English source before approval.
+  Every reader-facing `text`, `plaintext`, or `markdown` example must appear exactly once in
+  each locale and retain its field and line coverage. File presence and a clean
+  leakage scan do not prove that an example was translated; omitted examples
+  and shortened sections are completeness failures. Also compare ordered
+  heading levels, table shapes, and ordered/unordered list item counts with the
+  source. Inspect count differences to distinguish an intentional language
+  format change from omitted content, and repair confirmed omissions before
+  peer review.
+- After rendering, compare the ordered heading levels in Hugo output with the
+  English page. Source checks that require whitespace after a Markdown heading
+  marker can miss malformed headings such as `#はじめに`; inspect rendered
+  headings so these lines do not hide a missing or misleveled section.
+- Run `python3 tools/check_translation_english_leakage.py content/articles/<slug>`
+  for each finished bundle. For a repository audit, use
+  `python3 tools/check_translation_english_leakage.py --all --csv <report.csv>`.
+  Run the checker after writing the files and again on the frozen review snapshot.
+  A nonzero exit blocks approval until each finding is fixed or supported with a
+  specific reason. Inspect the opening reader-facing line even when it is too
+  short for paragraph-level language detection. The `copied_english_opening`
+  finding blocks approval when it repeats descriptive English; retain a product-
+  only comparison heading only after confirming it contains no untranslated
+  reader-facing wording.
+  The checker flags missing locale files, empty bodies, repeated English source
+  paragraphs, sentences, or copied English word spans, English stopword
+  dominance, missing expected scripts, and exact English reader metadata. Treat
+  `copied_english_body` as a blocking exact-body fallback finding, even when
+  translated front matter differs. Repair English-dominant short paragraphs;
+  translated text elsewhere in the file does not make those paragraphs complete.
+  Treat each result as a manual-review queue. Inspect
+  all reader-facing metadata and prose, resolve confirmed English copy, and
+  record any false positives before peer review. Do not approve a bundle solely because the
+  checker returns no flags.
+  In CSV reports, review `copied_reader_fenced_lines`,
+  `copied_unlabeled_fence_lines`, and `copied_reader_code_prose` separately from
+  `exact_english_sentences`; fixed
+  examples and executable-code comments are distinct findings and must not be
+  mistaken for copied article sentences. Before approval, resolve every
+  `copied_reader_code_prose` finding in context: translate reader-facing code
+  comments, help text, and natural-language sample strings; retain fixed runtime
+  output, identifiers, and literal data only with a recorded reason. A clean
+  article-prose scan does not approve a locale while copied reader-facing code
+  prose remains. In YAML examples, inspect top-level, mapping-level, and
+  list-item `name:` labels, plus `msg:` values. These fields can be reader-facing
+  even though they are structured values rather than comments. Preserve technical
+  package names and identifiers when the field carries literal data.
+  The checker also flags unchanged prose in executable-fence comments or
+  natural-language command strings, and Markdown emphasis that splits a word.
+  Preserve command syntax and classify fixed output separately.
+  The checker also queues differences in ordered heading levels, Markdown table
+  row/cell shapes, ordered and unordered list counts per section, link targets
+  and order, shortcode sequences, and fenced-code language inventories. Compare
+  each flagged structure with the source and restore omitted content before
+  review. These shape signals require human inspection and do not establish
+  translation completeness on their own.
 - Scan the full translated prose for style violations. A filter requiring Latin
   letters skips paragraphs written entirely in another script.
 - Check Punjabi, Bengali, and Hindi for stray letters from other Indic scripts.
   Exclude shared punctuation such as danda from wrong-script findings.
 - Render a copied subset with the real Hugo templates for large multilingual
   batches. Verify expected output files exist, then inspect language metadata,
-  article text, image paths, and structured data.
+  article text, image paths, and structured data. Inspect user-facing text emitted
+  by localized shortcodes and partials, including image alt/title text and CTA
+  labels. A matching source shortcode does not prove its generated output is
+  localized. Record English output from a shared component as a separate
+  component follow-up instead of silently treating the article as fully localized.
+  Hugo 0.169 does not accept `--resourceDir`. When a copied render needs an
+  isolated resource directory, set `resourceDir` in a task-scoped TOML overlay
+  and include that overlay after the locale config in `--config`.
 - Distinguish automated structural checks from native-speaker review. Translation
   work does not establish a new technical fact-check of the English source.
 
