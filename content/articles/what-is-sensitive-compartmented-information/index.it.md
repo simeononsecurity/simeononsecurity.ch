@@ -1,12 +1,12 @@
 ---
 title: "Le informazioni sensibili compartimentate (SCI) spiegate"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Esplorare l'importanza, i livelli di classificazione, la gestione e i regolamenti delle informazioni sensibili compartimentate (SCI) per scopi di sicurezza nazionale."
 genre: ["Sicurezza delle informazioni", "Sicurezza nazionale", "Intelligenza", "Informazioni classificate", "Regolamenti governativi", "Controlli di accesso", "Autorizzazioni di sicurezza", "Comunità di intelligence", "Industria della difesa", "Operazioni di intelligence"]
-tags: ["Informazioni sensibili compartimentate", "SIC", "informazioni classificate", "sicurezza nazionale", "fonti di intelligence", "operazioni di intelligence", "controlli di accesso", "nulla osta di sicurezza", "regolamenti governativi", "sicurezza delle informazioni", "trattamento delle informazioni classificate", "requisiti di movimentazione", "direttive della comunità dell'intelligence", "Manuale di sicurezza del Direttore dell'Intelligence nazionale", "Manuale operativo del Programma nazionale di sicurezza industriale", "comunità di intelligence", "industria della difesa", "misure di sicurezza", "compliance", "procedure di sicurezza", "attività di intelligence", "operazioni di controspionaggio", "decisioni di politica estera", "minacce", "riservatezza delle informazioni", "integrità delle informazioni", "disponibilità di informazioni", "ODNI", "DCSA", "regolamenti", "svista"]
+tags: ["Informazioni sensibili compartimentate", "SIC", "informazioni classificate", "sicurezza nazionale", "fonti di intelligence", "operazioni di intelligence", "controlli di accesso", "nulla osta di sicurezza", "regolamenti governativi", "sicurezza delle informazioni", "trattamento delle informazioni classificate", "requisiti di movimentazione", "direttive della comunità dell'intelligence", "Manuale di sicurezza del Direttore dell'Intelligence nazionale", "Manuale operativo del Programma nazionale di sicurezza industriale", "comunità di intelligence", "industria della difesa", "misure di sicurezza", "conformità", "procedure di sicurezza", "attività di intelligence", "operazioni di controspionaggio", "decisioni di politica estera", "minacce", "riservatezza delle informazioni", "integrità delle informazioni", "disponibilità di informazioni", "ODNI", "DCSA", "regolamenti", "svista"]
 cover: "/img/cover/An_image_representing_sci.webp"
 coverAlt: "Un'immagine che rappresenta le informazioni sensibili compartimentate (SCI) con uno scudo che simboleggia la sicurezza, un lucchetto che rappresenta la riservatezza e un globo che simboleggia la sicurezza nazionale."
 coverCaption: "Proteggere la sicurezza nazionale attraverso la gestione sicura delle informazioni sensibili compartimentate (SCI)."
@@ -72,7 +72,7 @@ Il trattamento delle informazioni sensibili compartimentate (SCI) è disciplinat
 Alcuni dei principali regolamenti e organismi di supervisione relativi ai SIC sono:
 
 - Manuale di sicurezza del **Direttore dell'intelligence nazionale (DNI)**: Il Manuale di sicurezza del DNI fornisce le **politiche e le procedure** per la gestione e la protezione dei SIC. Serve come guida completa per il personale coinvolto nella gestione dei SIC, assicurando la comprensione dei requisiti e il rispetto delle misure di sicurezza necessarie.
-  - [DNI Website](https://www.dni.gov/)
+  - [Sito web del DNI](https://www.dni.gov/)
 
 - Manuale operativo del programma nazionale di sicurezza industriale (NISPOM)**: Il NISPOM è un insieme di **standard e procedure** che regolano la salvaguardia delle informazioni classificate, comprese le SCI, all'interno dell'industria della difesa. Stabilisce i requisiti per gli appaltatori e le altre organizzazioni che trattano informazioni classificate per garantire la protezione della sicurezza nazionale.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ In sintesi, il SIC svolge un ruolo fondamentale nella salvaguardia della sicurez
 
 ### Riferimenti
 
-- [DNI Website](https://www.dni.gov/)
+- [Sito web del DNI](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

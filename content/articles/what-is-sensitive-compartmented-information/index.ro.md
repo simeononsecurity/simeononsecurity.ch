@@ -1,7 +1,7 @@
 ---
 title: "Informațiile sensibile compartimentate (SCI) explicate"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Explorați importanța, nivelurile de clasificare, manipularea și reglementările privind informațiile clasificate sensibile (SCI) în scopuri de securitate națională."
@@ -20,7 +20,7 @@ Sensitive Compartmented Information (**SCI**) este un nivel de clasificare utili
 
 {{< youtube id="dR1tXWJNGv4" >}}
 
-### Înțelegerea informațiilor sensibile compartimentate (Sensitive Compartmented Information)
+### Înțelegerea informațiilor sensibile compartimentate (SCI)
 
 Informațiile clasificate sensibile cuprind informații clasificate care sunt mai sensibile și mai restricționate decât informațiile clasificate standard. De obicei, acestea sunt legate de surse, metode și operațiuni de informații, precum și de informații provenite de la guverne sau entități străine. SCI sunt clasificate la diferite niveluri în funcție de sensibilitatea lor și de potențialul prejudiciu pe care divulgarea lor l-ar putea cauza securității naționale.
 
@@ -72,7 +72,7 @@ Manipularea informațiilor clasificate sensibile (SCI) este reglementată de **d
 Unele dintre principalele reglementări și organisme de supraveghere legate de SCI includ:
 
 - **Manualul de securitate al Directorului de Informații Naționale (DNI)**: Manualul de securitate al DNI furnizează **politicile și procedurile** pentru gestionarea și protecția SCI. Acesta servește drept ghid cuprinzător pentru personalul implicat în gestionarea SCI, asigurându-se că acesta înțelege cerințele și respectă măsurile de securitate necesare.
-  - [DNI Website](https://www.dni.gov/)
+  - [Site-ul DNI](https://www.dni.gov/)
 
 - **National Industrial Security Program Operating Manual (NISPOM)**: NISPOM este un set de **standarde și proceduri** care reglementează protecția informațiilor clasificate, inclusiv SCI, în cadrul industriei de apărare. Acesta stabilește cerințele pentru contractori și alte organizații care manipulează informații clasificate pentru a asigura protecția securității naționale.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ Pe scurt, SCI joacă un rol esențial în protejarea securității naționale pr
 
 ### Referințe
 
-- [DNI Website](https://www.dni.gov/)
+- [Site-ul DNI](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

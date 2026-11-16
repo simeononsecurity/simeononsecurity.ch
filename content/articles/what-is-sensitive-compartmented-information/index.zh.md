@@ -1,7 +1,7 @@
 ---
 title: "敏感隔离信息（SCI）详解"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "探索出于国家安全目的的敏感机密信息（SCI）的重要性、分类级别、处理方法和法规。"
@@ -72,7 +72,7 @@ SCI的**保密性和完整性对于有效开展情报活动、反间谍行动和
 与 SCI 相关的一些主要法规和监督机构包括
 
 - 国家情报总监安全手册》**：国家情报局局长安全手册》规定了管理和保护 SCI 的**政策和程序。它是参与处理 SCI 人员的全面指南，确保他们了解有关要求并遵守必要的安全措施。
-  - [DNI Website](https://www.dni.gov/)
+  - [DNI 网站](https://www.dni.gov/)
 
 - 国家工业安全计划操作手册》（NISPOM）**：NISPOM 是一套**标准和程序**，用于管理国防工业内包括 SCI 在内的机密信息的保护。它规定了对承包商和其他处理机密信息的组织的要求，以确保国家安全得到保护。
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ SCI的**保密性和完整性对于有效开展情报活动、反间谍行动和
 
 ### 参考资料
 
-- [DNI Website](https://www.dni.gov/)
+- [DNI 网站](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

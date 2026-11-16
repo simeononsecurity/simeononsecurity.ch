@@ -1,7 +1,7 @@
 ---
 title: "Sensitive Compartmented Information (SCI) uitgelegd"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Het belang, de classificatieniveaus, de verwerking en de regelgeving van Sensitive Compartmented Information (SCI) voor nationale veiligheidsdoeleinden onderzoeken."
@@ -72,7 +72,7 @@ De omgang met gevoelige informatie (Sensitive Compartmented Information, SCI) wo
 Enkele van de belangrijkste voorschriften en toezichthoudende instanties met betrekking tot SCI zijn:
 
 - **Director of National Intelligence (DNI) Security Manual**: De DNI-beveiligingshandleiding biedt **het beleid en de procedures** voor het beheer en de bescherming van SCI. Het dient als een uitgebreide gids voor personeel dat betrokken is bij de omgang met SCI en zorgt ervoor dat zij de vereisten begrijpen en zich houden aan de noodzakelijke beveiligingsmaatregelen.
-  - [DNI Website](https://www.dni.gov/)
+  - [DNI-website](https://www.dni.gov/)
 
 - **National Industrial Security Program Operating Manual (NISPOM)**: NISPOM is een verzameling **normen en procedures** die de bescherming van gerubriceerde gegevens, waaronder SCI, binnen de defensie-industrie regelen. Het stelt de eisen vast voor aannemers en andere organisaties die gerubriceerde gegevens verwerken om de bescherming van de nationale veiligheid te waarborgen.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ Samengevat speelt SCI een cruciale rol bij het waarborgen van de nationale veili
 
 ### Referenties
 
-- [DNI Website](https://www.dni.gov/)
+- [DNI-website](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

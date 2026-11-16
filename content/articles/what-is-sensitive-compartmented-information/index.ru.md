@@ -1,7 +1,7 @@
 ---
 title: "Разъяснение секретной изолированной информации (SCI)"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Изучить значение, уровни классификации, порядок обращения и правила использования чувствительной закрытой информации (SCI) в целях обеспечения национальной безопасности."
@@ -72,7 +72,7 @@ Sensitive Compartmented Information (**SCI**) - это уровень класс
 К числу основных нормативных актов и надзорных органов, относящихся к SCI, относятся:
 
 - **Руководство по безопасности директора национальной разведки (DNI)**: Руководство по безопасности DNI содержит **политику и процедуры** для управления и защиты SCI. Оно служит всеобъемлющим руководством для персонала, участвующего в работе с SCI, обеспечивая понимание требований и соблюдение необходимых мер безопасности.
-  - [DNI Website](https://www.dni.gov/)
+  - [Сайт DNI](https://www.dni.gov/)
 
 - **Руководство по эксплуатации национальной программы промышленной безопасности (NISPOM)**: NISPOM - это набор **стандартов и процедур**, регулирующих защиту секретной информации, включая SCI, в оборонной промышленности. Оно устанавливает требования к подрядчикам и другим организациям, работающим с секретной информацией, для обеспечения защиты национальной безопасности.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ Sensitive Compartmented Information (**SCI**) - это уровень класс
 
 ### Ссылки
 
-- [DNI Website](https://www.dni.gov/)
+- [Сайт DNI](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 
