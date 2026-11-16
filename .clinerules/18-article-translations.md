@@ -407,6 +407,14 @@
 
 - After a bundle passes its assigned peer review and coordinator validation,
   create one local commit containing only that article's translation files.
+- In a shared worktree, stage an explicit list of files for one bundle, then
+  inspect `git diff --cached --name-only` before committing. Confirm every staged
+  path belongs to that bundle and no checker, rule, test, or other article path
+  is staged. If another writer is using the shared index, ask them to pause Git
+  writes before staging. Do not amend a commit while another writer may have
+  staged files. If a commit has mixed scope, record its hash and exact path list,
+  then restore the prior commit while preserving all working files; create
+  separate commits only after validating each frozen scope.
 - Merge each approved bundle into the existing local `master` or `main` checkout
   as soon as validation and worktree state allow. Preserve unrelated changes and
   avoid creating additional worktrees when an existing main checkout is usable.
