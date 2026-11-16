@@ -50,6 +50,9 @@
   `lastmod` in every changed locale file. Existing translations can carry
   different older dates, so verify the complete changed-file set instead of
   replacing only one known date value.
+- Before broad phrase replacements, protect or recheck fixed asset paths such as
+  `cover`. Replacing a translated term can also mutate a lowercase filename.
+  Compare every fixed path with the English source after edits.
 - Protect code and markup before automated translation. Validate the exact
   placeholder counts before restoring the protected source text. Restore symbolic
   placeholders by exact token match. When names share prefixes, replace longer tokens
@@ -91,6 +94,10 @@
   opening delimiter, part 1 is front matter, and part 2 is the body. Assert the
   front matter contains expected keys and validate the complete output in memory
   before writing any file.
+- Keep Markdown body line indexes relative to the body returned by the split.
+  Do not apply a body line number to the whole file, since front matter shifts
+  the target. Before a batch edit, assert each intended phrase occurs once and
+  inspect the rewritten lines before writing.
 - When inserting a missing source section into an existing translation, do not
   search for the English heading text as an insertion anchor. Locate the
   corresponding localized heading or a verified structural boundary in each
@@ -318,7 +325,11 @@
   It blocks exact English-body copies, multiple copied English paragraphs,
   English-dominant prose, and missing expected scripts. The broader checker
   remains a manual-review gate for shorter copied passages, reader-facing
-  examples, headings, metadata, and false positives.
+  examples, headings, metadata, and false positives. The high-confidence gate
+  does not block exact copied titles, descriptions, image alt text, captions,
+  genres, or tags. Review those full-checker findings before approval. Translate
+  descriptive values. Keep exact source wording only for a verified official
+  name or fixed value, and record the reason.
   In CSV reports, review `copied_reader_fenced_lines`,
   `copied_unlabeled_fence_lines`, and `copied_reader_code_prose` separately from
   `exact_english_sentences`; fixed
