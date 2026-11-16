@@ -414,6 +414,10 @@
 
 ## Commit and Integrate Reviewed Bundles
 
+- Before committing a locale bundle, stage its exact reviewed paths and run
+  `git diff --cached --check`. Fix extra blank lines at end of newly created
+  translation files before commit. Any edit after peer approval requires a new
+  frozen manifest and approval of that exact snapshot.
 - After a bundle passes its assigned peer review and coordinator validation,
   create one local commit containing only that article's translation files.
 - In a shared worktree, stage an explicit list of files for one bundle, then
