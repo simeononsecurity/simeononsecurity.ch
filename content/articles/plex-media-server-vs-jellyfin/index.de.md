@@ -1,59 +1,59 @@
 ---
-title: "Jellyfin vs Plex Media Server"
+title: "Jellyfin oder Plex Media Server"
 date: 2023-02-01
 toc: true
 draft: false
 description: Entdecken Sie die Unterschiede zwischen Plex Media Server und Jellyfin, zwei beliebten Media-Server-Optionen, und treffen Sie eine fundierte Entscheidung basierend auf Funktionen und Kosten.
 genres:
-- media servers
-- Plex Media Server
-- Plex
-- Jellyfin vs plex
-- Jellyfin
-- streaming
-- media management
-- personal media library
-- comparison
-- features
-- costs
-- open-source
+- "Medienserver"
+- "Plex Media Server"
+- "Plex"
+- "Jellyfin im Vergleich zu Plex"
+- "Jellyfin"
+- "Streaming"
+- "Medienverwaltung"
+- "persönliche Mediathek"
+- "Vergleich"
+- "Funktionen"
+- "Kosten"
+- "quelloffene Software"
 tags:
-- jellyfin vs plex
-- Plex Media Server
-- Jellyfin
-- Media-Server-Vergleich
-- Streaming-Medien
-- persönliche Mediathek
-- Medienorganisation
-- benutzerfreundliche Oberfläche
-- Open Source
-- kosteneffizient
-- budgetfreundlich
-- Premium-Funktionen
-- kostenloser Media-Server
-- Media-Server-Funktionen
-- Medien-Streaming
-- Medienverwaltung
-- Plex-Alternativen
-- Jellyfin-Funktionen
-- Plex vs Jellyfin
-- Media-Server-Kosten
-- Media-Server-Plattformen
-- bester Media-Server
-- Media-Server-Software
-- Streaming-Server
-- Media-Server-Einrichtung
-- Media-Server-App
-- Media-Server-Lösungen
-- Media-Server-Anleitung
-- Streaming-Media-Server
-- Vergleich von Plex und Jellyfin
-- Plex-Bewertung
-- Jellyfin-Bewertung
+- "Jellyfin im Vergleich zu Plex"
+- "Plex Media Server"
+- "Jellyfin"
+- "Medienserver-Vergleich"
+- "Streaming-Medien"
+- "persönliche Mediathek"
+- "Medienorganisation"
+- "benutzerfreundliche Oberfläche"
+- "quelloffene Software"
+- "kosteneffizient"
+- "budgetfreundlich"
+- "Premiumfunktionen"
+- "kostenloser Medienserver"
+- "Medienserver-Funktionen"
+- "Medienstreaming"
+- "Medienverwaltung"
+- "Plex-Alternativen"
+- "Jellyfin-Funktionen"
+- "Plex im Vergleich zu Jellyfin"
+- "Kosten von Medienservern"
+- "Medienserver-Plattformen"
+- "bester Medienserver"
+- "Medienserver-Software"
+- "Streamingserver"
+- "Einrichtung eines Medienservers"
+- "Medienserver-App"
+- "Medienserver-Lösungen"
+- "Medienserver-Leitfaden"
+- "Streaming-Medienserver"
+- "Plex und Jellyfin vergleichen"
+- "Plex-Testbericht"
+- "Jellyfin-Testbericht"
 cover: /img/cover/plex-vs-jellyfin.webp
 coverAlt: Ein Paar Server, die sich gegenüberstehen. Farben passend zu den Themen von Plex, Schwarz und Orange, und Jellyfin, Hellblau und Lila.
 coverCaption: 'Wählen Sie den perfekten Media-Server: Plex Media Server vs Jellyfin'
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 ---
 
 **Ein Vergleich von Jellyfin vs Plex Media Server**

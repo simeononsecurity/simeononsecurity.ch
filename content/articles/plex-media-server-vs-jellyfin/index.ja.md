@@ -5,55 +5,55 @@ toc: true
 draft: false
 description: 人気のメディアサーバーオプションである Plex メディアサーバーと Jellyfin の違いを発見し、機能とコストに基づいて情報に基づいた選択をしましょう。
 genres:
-- media servers
-- Plex Media Server
-- Plex
-- Jellyfin vs plex
-- Jellyfin
-- streaming
-- media management
-- personal media library
-- comparison
-- features
-- costs
-- open-source
+- "メディアサーバー"
+- "Plex Media Server"
+- "Plex"
+- "JellyfinとPlexの比較"
+- "Jellyfin"
+- "ストリーミング"
+- "メディア管理"
+- "個人用メディアライブラリ"
+- "比較"
+- "機能"
+- "費用"
+- "オープンソース"
 tags:
-- jellyfin と plex の比較
-- Plex メディアサーバー
-- Jellyfin
-- メディアサーバー比較
-- ストリーミングメディア
-- 個人メディアライブラリ
-- メディア整理
-- ユーザーフレンドリーなインターフェース
-- オープンソース
-- コスト効果
-- 予算に優しい
-- プレミアム機能
-- 無料メディアサーバー
-- メディアサーバー機能
-- メディアストリーミング
-- メディア管理
-- Plex の代替
-- Jellyfin の機能
-- Plex と Jellyfin の比較
-- メディアサーバーのコスト
-- メディアサーバープラットフォーム
-- 最高のメディアサーバー
-- メディアサーバーソフトウェア
-- ストリーミングサーバー
-- メディアサーバー設定
-- メディアサーバーアプリ
-- メディアサーバーソリューション
-- メディアサーバーガイド
-- ストリーミングメディアサーバー
-- Plex と Jellyfin の比較
-- Plex レビュー
-- Jellyfin レビュー
+- "JellyfinとPlexの比較"
+- "Plex Media Server"
+- "Jellyfin"
+- "メディアサーバー比較"
+- "ストリーミングメディア"
+- "個人用メディアライブラリ"
+- "メディア整理"
+- "使いやすいインターフェース"
+- "オープンソース"
+- "費用対効果"
+- "低予算向け"
+- "プレミアム機能"
+- "無料メディアサーバー"
+- "メディアサーバーの機能"
+- "メディアストリーミング"
+- "メディア管理"
+- "Plexの代替"
+- "Jellyfinの機能"
+- "PlexとJellyfinの比較"
+- "メディアサーバーの費用"
+- "メディアサーバープラットフォーム"
+- "最適なメディアサーバー"
+- "メディアサーバーソフトウェア"
+- "ストリーミングサーバー"
+- "メディアサーバーの設定"
+- "メディアサーバーアプリ"
+- "メディアサーバーソリューション"
+- "メディアサーバーガイド"
+- "ストリーミングメディアサーバー"
+- "PlexとJellyfinを比較"
+- "Plexのレビュー"
+- "Jellyfinのレビュー"
 cover: /img/cover/plex-vs-jellyfin.webp
 coverAlt: 互いに向かい合う2つのサーバー。Plex のテーマカラーである黒とオレンジ、Jellyfin のテーマカラーであるライトブルーと紫が使われています。
 coverCaption: 完璧なメディアサーバーを選ぶ：Plex メディアサーバー vs Jellyfin
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 ---
 
 **Jellyfin と Plex メディアサーバーの比較**

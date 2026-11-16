@@ -1,59 +1,59 @@
 ---
-title: "Jellyfin 与 Plex 媒体服务器"
+title: "Jellyfin 与 Plex Media Server 对比"
 date: 2023-02-01
 toc: true
 draft: false
 description: 了解 Plex 媒体服务器和 Jellyfin 这两种流行媒体服务器选项之间的区别，并根据功能和成本做出明智选择。
 genres:
-- media servers
-- Plex Media Server
-- Plex
-- Jellyfin vs plex
-- Jellyfin
-- streaming
-- media management
-- personal media library
-- comparison
-- features
-- costs
-- open-source
+- "媒体服务器"
+- "Plex Media Server"
+- "Plex"
+- "Jellyfin 与 Plex 对比"
+- "Jellyfin"
+- "流媒体"
+- "媒体管理"
+- "个人媒体库"
+- "对比"
+- "功能"
+- "费用"
+- "开源"
 tags:
-- jellyfin 与 plex
-- Plex 媒体服务器
-- Jellyfin
-- 媒体服务器比较
-- 流媒体
-- 个人媒体库
-- 媒体组织
-- 用户友好界面
-- 开源
-- 经济实惠
-- 预算友好
-- 高级功能
-- 免费媒体服务器
-- 媒体服务器功能
-- 媒体流传输
-- 媒体管理
-- Plex 替代方案
-- Jellyfin 功能
-- Plex vs Jellyfin
-- 媒体服务器成本
-- 媒体服务器平台
-- 最佳媒体服务器
-- 媒体服务器软件
-- 流媒体服务器
-- 媒体服务器设置
-- 媒体服务器应用
-- 媒体服务器解决方案
-- 媒体服务器指南
-- 流媒体媒体服务器
-- 比较 Plex 和 Jellyfin
-- Plex 评测
-- Jellyfin 评测
+- "Jellyfin 与 Plex 对比"
+- "Plex Media Server"
+- "Jellyfin"
+- "媒体服务器对比"
+- "流媒体内容"
+- "个人媒体库"
+- "媒体整理"
+- "易用界面"
+- "开源"
+- "高性价比"
+- "经济实惠"
+- "高级功能"
+- "免费媒体服务器"
+- "媒体服务器功能"
+- "媒体流传输"
+- "媒体管理"
+- "Plex 替代方案"
+- "Jellyfin 功能"
+- "Plex 与 Jellyfin 对比"
+- "媒体服务器费用"
+- "媒体服务器平台"
+- "最佳媒体服务器"
+- "媒体服务器软件"
+- "流媒体服务器"
+- "媒体服务器设置"
+- "媒体服务器应用"
+- "媒体服务器解决方案"
+- "媒体服务器指南"
+- "流媒体内容服务器"
+- "比较 Plex 和 Jellyfin"
+- "Plex 评测"
+- "Jellyfin 评测"
 cover: /img/cover/plex-vs-jellyfin.webp
 coverAlt: 两台服务器相对而立。颜色分别对应 Plex 的黑色和橙色主题，以及 Jellyfin 的浅蓝色和紫色主题。
 coverCaption: 选择完美的媒体服务器：Plex 媒体服务器 vs Jellyfin
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 ---
 
 **Jellyfin 与 Plex 媒体服务器的比较**

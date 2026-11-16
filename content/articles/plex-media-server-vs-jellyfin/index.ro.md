@@ -1,59 +1,59 @@
 ---
-title: "Jellyfin vs Plex Media Server"
+title: "Jellyfin sau Plex Media Server"
 date: 2023-02-01
 toc: true
 draft: false
 description: Descoperiți diferențele dintre Plex Media Server și Jellyfin, două opțiuni populare de servere media, și faceți o alegere informată bazată pe funcționalități și costuri.
 genres:
-- media servers
-- Plex Media Server
-- Plex
-- Jellyfin vs plex
-- Jellyfin
-- streaming
-- media management
-- personal media library
-- comparison
-- features
-- costs
-- open-source
+- "servere media"
+- "Plex Media Server"
+- "Plex"
+- "Jellyfin în comparație cu Plex"
+- "Jellyfin"
+- "transmitere în flux"
+- "gestionarea conținutului media"
+- "bibliotecă media personală"
+- "comparație"
+- "funcționalități"
+- "costuri"
+- "sursă deschisă"
 tags:
-- jellyfin vs plex
-- Plex Media Server
-- Jellyfin
-- compararea serverelor media
-- streaming media
-- bibliotecă media personală
-- organizarea media
-- interfață prietenoasă cu utilizatorul
-- open-source
-- rentabil
-- prietenos cu bugetul
-- funcții premium
-- server media gratuit
-- funcții server media
-- streaming media
-- gestionarea media
-- alternative Plex
-- funcții Jellyfin
-- Plex vs Jellyfin
-- costuri server media
-- platforme server media
-- cel mai bun server media
-- software server media
-- server streaming
-- configurare server media
-- aplicație server media
-- soluții server media
-- ghid server media
-- server streaming media
-- comparați Plex și Jellyfin
-- recenzie Plex
-- recenzie Jellyfin
+- "Jellyfin în comparație cu Plex"
+- "Plex Media Server"
+- "Jellyfin"
+- "comparație între servere media"
+- "conținut media în streaming"
+- "bibliotecă media personală"
+- "organizarea conținutului media"
+- "interfață ușor de folosit"
+- "sursă deschisă"
+- "eficient din punct de vedere al costurilor"
+- "accesibil"
+- "funcționalități premium"
+- "server media gratuit"
+- "funcționalitățile serverului media"
+- "multimedia în streaming"
+- "gestionarea conținutului media"
+- "alternative la Plex"
+- "funcționalitățile Jellyfin"
+- "Plex în comparație cu Jellyfin"
+- "costurile serverelor media"
+- "platforme de servere media"
+- "cel mai bun server media"
+- "software pentru servere media"
+- "server de streaming"
+- "configurarea serverului media"
+- "aplicație pentru server media"
+- "soluții pentru servere media"
+- "ghid pentru servere media"
+- "server media de streaming"
+- "compară Plex și Jellyfin"
+- "recenzie Plex"
+- "recenzie Jellyfin"
 cover: /img/cover/plex-vs-jellyfin.webp
 coverAlt: Un cuplu de servere față în față. Culorile corespund temelor plex, negru și portocaliu, și jellyfin, albastru deschis și violet.
 coverCaption: 'Alegeți Serverul Media Perfect: Plex Media Server vs Jellyfin'
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 ---
 
 **O comparație între Jellyfin și Plex Media Server**

@@ -1,59 +1,59 @@
 ---
-title: "Jellyfin vs Plex Media Server"
+title: "Jellyfin o Plex Media Server"
 date: 2023-02-01
 toc: true
 draft: false
 description: Descobreix les diferències entre Plex Media Server i Jellyfin, dues opcions populars de servidors multimèdia, i pren una decisió informada basada en característiques i costos.
 genres:
-- media servers
-- Plex Media Server
-- Plex
-- Jellyfin vs plex
-- Jellyfin
-- streaming
-- media management
-- personal media library
-- comparison
-- features
-- costs
-- open-source
+- "servidors multimèdia"
+- "Plex Media Server"
+- "Plex"
+- "Jellyfin contra Plex"
+- "Jellyfin"
+- "reproducció en continu"
+- "gestió multimèdia"
+- "biblioteca multimèdia personal"
+- "comparació"
+- "funcions"
+- "costos"
+- "codi obert"
 tags:
-- jellyfin vs plex
-- Plex Media Server
-- Jellyfin
-- comparació de servidors multimèdia
-- transmissió de mitjans
-- biblioteca multimèdia personal
-- organització de mitjans
-- interfície fàcil d'usar
-- codi obert
-- rendible
-- econòmic
-- funcions premium
-- servidor multimèdia gratuït
-- funcions de servidor multimèdia
-- transmissió de mitjans
-- gestió de mitjans
-- alternatives a Plex
-- funcions de Jellyfin
-- Plex vs Jellyfin
-- costos de servidor multimèdia
-- plataformes de servidor multimèdia
-- millor servidor multimèdia
-- programari de servidor multimèdia
-- servidor de transmissió
-- configuració de servidor multimèdia
-- aplicació de servidor multimèdia
-- solucions de servidor multimèdia
-- guia de servidor multimèdia
-- servidor de transmissió de mitjans
-- compara Plex i Jellyfin
-- resenya de Plex
-- resenya de Jellyfin
+- "Jellyfin contra Plex"
+- "Plex Media Server"
+- "Jellyfin"
+- "comparació de servidors multimèdia"
+- "multimèdia en continu"
+- "biblioteca multimèdia personal"
+- "organització multimèdia"
+- "interfície fàcil d'utilitzar"
+- "codi obert"
+- "bona relació qualitat-preu"
+- "econòmic"
+- "funcions premium"
+- "servidor multimèdia gratuït"
+- "funcions del servidor multimèdia"
+- "reproducció multimèdia en continu"
+- "gestió multimèdia"
+- "alternatives a Plex"
+- "funcions de Jellyfin"
+- "Plex contra Jellyfin"
+- "costos dels servidors multimèdia"
+- "plataformes de servidor multimèdia"
+- "millor servidor multimèdia"
+- "programari de servidor multimèdia"
+- "servidor de reproducció en continu"
+- "configuració del servidor multimèdia"
+- "aplicació de servidor multimèdia"
+- "solucions de servidor multimèdia"
+- "guia de servidor multimèdia"
+- "servidor multimèdia en continu"
+- "compara Plex i Jellyfin"
+- "ressenya de Plex"
+- "ressenya de Jellyfin"
 cover: /img/cover/plex-vs-jellyfin.webp
 coverAlt: Un parell de servidors cara a cara. Colors que coincideixen amb els temes de Plex, negre i taronja, i Jellyfin, blau clar i porpra.
 coverCaption: 'Tria el servidor multimèdia perfecte: Plex Media Server vs Jellyfin'
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 ---
 
 **Una comparació de Jellyfin vs Plex Media Server**
