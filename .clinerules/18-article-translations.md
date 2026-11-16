@@ -44,6 +44,10 @@
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private
   location.
+- Translate security terms by their established meaning, not by a literal
+  cognate. In Catalan, do not render phishing as `pesca` alone; retain
+  `phishing` or use a recognized descriptive phrase, and confirm the wording
+  still refers to credential theft or impersonation attacks.
 - Preserve publication dates, URLs, resource paths, code blocks, inline commands,
   shortcode names, and nontext shortcode parameters. Set `lastmod` when writing
   a new or refreshed translation. For a batch refresh, update and verify
