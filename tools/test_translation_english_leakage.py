@@ -630,6 +630,17 @@ class FencedProseTests(unittest.TestCase):
             ["line 1: and before C"],
         )
 
+    def test_flags_english_or_connector_between_linked_list_items(self):
+        text = (
+            "Choisissez [A](https://example.com/a), "
+            "[B](https://example.com/b), or [C](https://example.com/c)."
+        )
+
+        self.assertEqual(
+            copied_english_link_connectors(text),
+            ["line 1: or before C"],
+        )
+
     def test_ignores_english_and_connector_inside_code_or_single_link(self):
         text = (
             "[Session](https://example.com/session) and [Threema](https://example.com/threema).\n"

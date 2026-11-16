@@ -335,9 +335,9 @@
   checker returns no flags.
   In translated lists of linked products or organizations, translate connective
   prose as well as surrounding sentences. In particular, do not leave the
-  English conjunction `and` before the final Markdown link. The strict fallback
-  checker flags this pattern and CI blocks it. Keep official linked names and
-  destinations unchanged.
+  English conjunctions `and` or `or` before the final Markdown link. The strict
+  fallback checker flags this pattern and CI blocks it. Keep official linked
+  names and destinations unchanged.
   The `Translation English Fallback Check` workflow runs the high-confidence
   fallback screen on article changes. Run the same gate locally with
   `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.

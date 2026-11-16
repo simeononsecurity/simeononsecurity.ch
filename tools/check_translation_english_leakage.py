@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Screen article translations for copied or English-dominant reader-facing prose.
 
-The blocking mode also detects copied English list connectors and English-heavy
+The blocking mode also detects copied English list conjunctions and English-heavy
 reader-facing comments or natural-language values in executable code fences.
 
 Run on one or more article bundles, or scan all published article bundles:
@@ -773,7 +773,7 @@ def copied_english_link_labels(source: str, target: str) -> list[str]:
 
 
 def copied_english_link_connectors(text: str) -> list[str]:
-    """Find English `and` left as the connector in a linked item list."""
+    """Find English `and` or `or` left as a connector in a linked item list."""
     findings = []
     visible = strip_fenced_blocks(text)
 
@@ -782,12 +782,12 @@ def copied_english_link_connectors(text: str) -> list[str]:
 
     visible = re.sub(r"(`+)(.+?)\1", blank_code_span, visible, flags=re.S)
     for line_number, line in enumerate(visible.splitlines(), start=1):
-        for match in re.finditer(r"(?i)\band\s+(?=\[)", line):
+        for match in re.finditer(r"(?i)\b(and|or)\s+(?=\[)", line):
             if len(markdown_links(line[:match.start()])) < 2:
                 continue
             next_link = re.match(r"\[([^\]]+)\]", line[match.end():])
             label = next_link.group(1).strip() if next_link else "linked item"
-            findings.append(f"line {line_number}: and before {label}")
+            findings.append(f"line {line_number}: {match.group(1).lower()} before {label}")
     return findings
 
 
