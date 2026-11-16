@@ -78,6 +78,14 @@ only infer intrinsic dimensions for processable rasters (a shared-template build
 caught this when a certification badge SVG hit the figure shortcode).
 Never use raw `<img>` tags in content files.
 
+For a bundle-local image, resolve the page resource with `.Page.Resources.GetMatch` and use
+the resource's `.RelPermalink` for both the rendered `img src` and `ImageObject.contentUrl`.
+Translated page bundles inherit shared resources, which Hugo emits under the default-language
+path. Do not construct a bundle image URL by appending the filename to `.Page.Permalink`, since
+that creates a locale-prefixed path where no shared resource is emitted. Keep remote and
+root-relative `src` values on their existing URL paths. Verify a translated render and the
+resource's emitted path after changing this shortcode.
+
 **Image sizing guidelines:**
 - Diagrams: 900–1200 px wide
 - Screenshots: 1400–1800 px wide
