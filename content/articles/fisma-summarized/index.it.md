@@ -1,11 +1,11 @@
 ---
 title: "FISMA 101: una panoramica sulla sicurezza delle informazioni federali"
 date: 2023-02-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "FISMA 101 fornisce una panoramica completa del Federal Information Security Modernization Act, compresi i suoi componenti chiave, i vantaggi e i requisiti per le agenzie federali."
-tags: ["FISMA", "Sicurezza informatica federale", "Sicurezza delle informazioni", "Gestione del rischio", "Valutazione dei controlli di sicurezza", "Monitoraggio continuo", "Risposta agli incidenti", "Autorizzazione e accreditamento", "Miglioramento della sicurezza delle informazioni", "Migliore gestione del rischio", "Maggiore trasparenza", "Collaborazione rafforzata"]
+tags: ["FISMA", "Sicurezza federale delle informazioni", "Sicurezza delle informazioni", "Gestione del rischio", "Valutazione dei controlli di sicurezza", "Monitoraggio continuo", "Risposta agli incidenti", "Autorizzazione e accreditamento", "Migliore sicurezza delle informazioni", "Migliore gestione del rischio", "Maggiore trasparenza", "Collaborazione rafforzata", "Legge degli Stati Uniti", "Agenzie federali", "Programmi di sicurezza delle informazioni", "Controlli di sicurezza", "Valutazioni dei rischi", "Sorveglianza continua", "Incidenti di sicurezza", "Trasparenza e responsabilità", "Panoramica del Federal Information Security Modernization Act", "Benefici del FISMA nelle agenzie federali", "Gestione del rischio nella sicurezza federale delle informazioni", "Monitoraggio continuo nel FISMA", "Risposta agli incidenti nelle agenzie federali", "Processo di autorizzazione e accreditamento", "Migliore sicurezza delle informazioni nel governo federale", "Collaborazione per la sicurezza federale delle informazioni", "Trasparenza nella conformità al FISMA", "Standard di sicurezza delle informazioni per le agenzie federali"]
 cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Lo schermo di un computer con un lucchetto, simbolo di sicurezza e protezione delle informazioni, con uno sfondo di codice binario."
 coverCaption: ""
@@ -27,9 +27,9 @@ I componenti chiave del FISMA sono diversi, tra cui:
 
 - **Gestione del rischio**: Le agenzie federali devono condurre regolari valutazioni del rischio per identificare i potenziali rischi per la sicurezza e implementare controlli di sicurezza per mitigare tali rischi.
 
-- Valutazione dei controlli di sicurezza**: Le agenzie federali devono valutare l'efficacia dei loro controlli di sicurezza per garantire che funzionino come previsto e per identificare eventuali aree da migliorare.
+- **Valutazione dei controlli di sicurezza**: Le agenzie federali devono valutare l'efficacia dei loro controlli di sicurezza per garantire che funzionino come previsto e per identificare eventuali aree da migliorare.
 
-- Monitoraggio continuo**: Le agenzie federali devono monitorare costantemente i propri sistemi informativi per garantirne la sicurezza e rispondere a qualsiasi incidente di sicurezza che si verifichi.
+- **Monitoraggio continuo**: Le agenzie federali devono monitorare costantemente i propri sistemi informativi per garantirne la sicurezza e rispondere a qualsiasi incidente di sicurezza che si verifichi.
 
 - **Risposta agli incidenti**: Le agenzie federali devono disporre di un piano di risposta agli incidenti di sicurezza e devono essere in grado di identificare, contenere e risolvere rapidamente gli incidenti di sicurezza.
 
@@ -109,6 +109,12 @@ Il FISMA impone alle agenzie federali di riferire sui propri programmi di sicure
 
 Il FISMA contribuisce anche a rafforzare la collaborazione e il coordinamento tra le agenzie federali, i loro appaltatori e le altre parti interessate, imponendo loro di seguire gli stessi standard di sicurezza delle informazioni. Ciò contribuisce a garantire che tutti lavorino insieme per proteggere le informazioni sensibili e che i rischi per la sicurezza delle informazioni siano gestiti in modo efficace a tutti i livelli del governo federale.
 
+
+## Elenco delle evidenze FISMA per il 2026
+
+Per ogni controllo, collega le evidenze a un sistema, a un responsabile, a una data e all’esito della revisione. Tra le evidenze utili rientrano le approvazioni delle policy, le esportazioni di configurazione, le verifiche degli accessi, i rapporti sulle vulnerabilità, i registri degli incidenti, i risultati della formazione e i test di ripristino.
+
+Rivedi il pacchetto dopo modifiche importanti. Un nuovo provider di identità, percorso di rete, servizio cloud, gruppo di amministratori o tipo di dati può modificare la valutazione del rischio e le evidenze dei controlli. Usa il [Framework di gestione dei rischi del NIST](https://csrc.nist.gov/projects/risk-management/about-rmf), [FIPS 199](https://csrc.nist.gov/publications/detail/fips/199/final) e le linee guida aggiornate dell’agenzia come riferimenti autorevoli.
 
 ## Conclusione
 

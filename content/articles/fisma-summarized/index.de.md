@@ -1,11 +1,11 @@
 ---
 title: "FISMA 101: Ein Überblick über die föderale Informationssicherheit"
 date: 2023-02-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "FISMA 101 bietet einen umfassenden Überblick über das Bundesgesetz zur Modernisierung der Informationssicherheit (Federal Information Security Modernization Act), einschließlich seiner wichtigsten Komponenten, Vorteile und Anforderungen für Bundesbehörden."
-tags: ["FISMA", "Föderale Informationssicherheit", "Informationssicherheit", "Risk Management", "Bewertung der Sicherheitskontrolle", "Kontinuierliche Überwachung", "Reaktion auf Vorfälle", "Autorisierung und Akkreditierung", "Verbesserte Informationssicherheit", "Besseres Risikomanagement", "Erhöhte Transparenz", "Gestärkte Zusammenarbeit", "US-Recht", "Bundesbehörden", "Programme zur Informationssicherheit", "Sicherheitskontrollen", "Risikobewertungen", "Kontinuierliche Überwachung", "Sicherheitsvorfälle", "Transparenz und Rechenschaftspflicht", "Überblick über den Federal Information Security Modernization Act", "Vorteile von FISMA in Bundesbehörden", "Risikomanagement in der föderalen Informationssicherheit", "Kontinuierliche Überwachung im Rahmen von FISMA", "Reaktion auf Zwischenfälle in Bundesbehörden", "Genehmigungs- und Akkreditierungsverfahren", "Verbesserte Informationssicherheit in der Bundesverwaltung", "Zusammenarbeit in der föderalen Informationssicherheit", "Transparenz bei der Einhaltung von FISMA", "Informationssicherheitsstandards für Bundesbehörden"]
+tags: ["FISMA", "Bundesweite Informationssicherheit", "Informationssicherheit", "Risikomanagement", "Bewertung von Sicherheitskontrollen", "Kontinuierliche Überwachung", "Reaktion auf Vorfälle", "Autorisierung und Akkreditierung", "Verbesserte Informationssicherheit", "Besseres Risikomanagement", "Mehr Transparenz", "Stärkere Zusammenarbeit", "US-Recht", "Bundesbehörden", "Informationssicherheitsprogramme", "Sicherheitskontrollen", "Risikobewertungen", "Laufende Überwachung", "Sicherheitsvorfälle", "Transparenz und Rechenschaftspflicht", "Überblick zum Federal Information Security Modernization Act", "Vorteile von FISMA für Bundesbehörden", "Risikomanagement in der Informationssicherheit des Bundes", "Kontinuierliche Überwachung unter FISMA", "Reaktion auf Vorfälle in Bundesbehörden", "Autorisierungs- und Akkreditierungsverfahren", "Verbesserte Informationssicherheit in der Bundesregierung", "Zusammenarbeit bei der Informationssicherheit des Bundes", "Transparenz bei der FISMA-Compliance", "Informationssicherheitsstandards für Bundesbehörden"]
 cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Ein Computerbildschirm mit einem Vorhängeschloss, das Informationssicherheit und Schutz symbolisiert, mit einem Hintergrund aus binärem Code"
 coverCaption: ""
@@ -109,6 +109,12 @@ FISMA verpflichtet die Bundesbehörden, über ihre Informationssicherheitsprogra
 
 FISMA stärkt auch die Zusammenarbeit und Koordination zwischen den Bundesbehörden, ihren Auftragnehmern und anderen Beteiligten, indem es ihnen vorschreibt, dieselben Informationssicherheitsstandards einzuhalten. Dadurch wird sichergestellt, dass alle Beteiligten zusammenarbeiten, um sensible Informationen zu schützen und dass die Risiken für die Informationssicherheit auf allen Ebenen der Bundesverwaltung effektiv gehandhabt werden.
 
+
+## 2026-FISMA-Nachweischeckliste
+
+Für jede Kontrolle sollten Nachweise einem System, einer verantwortlichen Person, einem Datum und einem Prüfergebnis zugeordnet sein. Nützliche Nachweise sind Richtlinienfreigaben, Konfigurationsexporte, Zugriffsprüfungen, Schwachstellenberichte, Vorfallsprotokolle, Schulungsergebnisse und Wiederherstellungstests.
+
+Überprüfen Sie das Paket nach größeren Änderungen. Ein neuer Identitätsanbieter, Netzwerkpfad, Cloud-Dienst, eine Administratorgruppe oder ein Datentyp kann die Risikobewertung und die Kontrolldokumentation verändern. Verwenden Sie das [NIST-Risikomanagement-Framework](https://csrc.nist.gov/projects/risk-management/about-rmf), [FIPS 199](https://csrc.nist.gov/publications/detail/fips/199/final) und aktuelle Vorgaben der Behörde als maßgebliche Quellen.
 
 ## Schlussfolgerung
 
