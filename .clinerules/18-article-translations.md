@@ -87,6 +87,16 @@
   matter differs. Inspect short paragraphs individually, since English-only
   sections can evade long-paragraph thresholds. A locale extension marks final
   translated content, never a placeholder or progress state.
+  Treat `tools/check_translation_english_leakage.py --fail-on-english-fallback`
+  as a blocking gate on the temporary candidate bundle before moving it into
+  `content/articles/`, and run it again against the in-tree bundle before peer
+  review or commit. A nonzero result means the locale file stays outside the
+  article bundle until each high-confidence English fallback is translated and
+  the gate passes. Review all other checker findings manually, since copied
+  headings, labels, code examples, and citation titles can be valid exceptions
+  or reader-facing English that still needs translation. Record unresolved
+  findings in the external batch report; do not treat a translated body as
+  approval for untranslated reader-facing sections.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
 - When a script splits a Markdown file on `---`, validate the split parts before
