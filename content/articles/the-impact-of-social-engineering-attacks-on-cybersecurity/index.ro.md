@@ -1,7 +1,7 @@
 ---
 title: "Apărarea împotriva atacurilor de inginerie socială și a fraudei"
 date: 2023-03-05
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aflați cum să vă apărați împotriva atacurilor de inginerie socială și cum să vă protejați datele de infractorii cibernetici în acest articol informativ."
@@ -10,7 +10,9 @@ cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Un scut din desene animate cu un lacăt în centru, reprezentând ideea de apărare împotriva atacurilor de inginerie socială în domeniul securității cibernetice"
 coverCaption: ""
 ---
- Împotriva atacurilor de inginerie socială în domeniul securității cibernetice**
+
+
+**Apărarea împotriva atacurilor de inginerie socială în securitatea cibernetică**
 
 În ultimii ani, securitatea cibernetică a devenit o preocupare majoră atât pentru persoanele fizice, cât și pentru întreprinderi, pe măsură ce tehnologia continuă să avanseze, iar infractorii cibernetici găsesc noi modalități de a exploata vulnerabilitățile. Una dintre cele mai insidioase forme de atac cibernetic este **ingineria socială**, care se referă la utilizarea manipulării psihologice pentru a păcăli persoanele să divulge informații sensibile sau să efectueze acțiuni care compromit securitatea. În acest articol, vom explora impactul atacurilor de inginerie socială asupra securității cibernetice și modul de apărare împotriva acestora.
 
@@ -28,19 +30,19 @@ Apărarea împotriva atacurilor de inginerie socială necesită o combinație de
 
 ### 1. Educație și conștientizare
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) reprezintă prima linie de apărare împotriva atacurilor de inginerie socială. Persoanele ar trebui să fie instruite să recunoască semnele unui atac de inginerie socială și să ia măsurile adecvate. Acest lucru include să se ferească de solicitările nesolicitate de informații, să verifice identitatea persoanelor înainte de a divulga informații sensibile și să raporteze orice activitate suspectă personalului IT sau de securitate.
+[**Instruire și conștientizare**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) reprezintă prima linie de apărare împotriva atacurilor de inginerie socială. Persoanele ar trebui să fie instruite să recunoască semnele unui atac de inginerie socială și să ia măsurile adecvate. Acest lucru include să se ferească de solicitările nesolicitate de informații, să verifice identitatea persoanelor înainte de a divulga informații sensibile și să raporteze orice activitate suspectă personalului IT sau de securitate.
 
-### 2. Parole puternice și autentificare multifactorială
+### 2. [Parole puternice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) și autentificare multifactorială
 
-Utilizarea [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) și punerea în aplicare a **autentificării cu mai mulți factori** poate ajuta la prevenirea atacurilor de inginerie socială care se bazează pe ghicirea parolei sau pe atacuri prin forță brută. Parolele puternice trebuie să aibă cel puțin 12 caractere și să includă un amestec de litere majuscule și minuscule, numere și caractere speciale. Autentificarea multifactorială adaugă un nivel suplimentar de securitate, solicitând utilizatorilor să furnizeze dovezi suplimentare de identitate, pe lângă o simplă parolă.
+Utilizarea [**parole puternice**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) și punerea în aplicare a **autentificării cu mai mulți factori** poate ajuta la prevenirea [atacurilor de inginerie socială](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) care se bazează pe ghicirea parolei sau pe atacuri prin forță brută. [Parolele puternice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) trebuie să aibă cel puțin 12 caractere și să includă un amestec de litere majuscule și minuscule, numere și caractere speciale. Autentificarea multifactorială adaugă un nivel suplimentar de securitate, solicitând utilizatorilor să furnizeze dovezi suplimentare de identitate, pe lângă o simplă parolă.
 
 ### 3. Securizarea e-mailului și a navigării pe web
 
-[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) poate ajuta la prevenirea atacurilor de inginerie socială care se bazează pe înșelăciuni de tip phishing sau pe alte forme de conținut malițios. Printre acestea se numără utilizarea filtrelor de spam pentru a bloca e-mailurile nesolicitate, evitarea clicului pe linkuri sau descărcarea de atașamente din surse necunoscute și utilizarea filtrelor web pentru a bloca accesul la site-uri web cunoscute ca fiind rău intenționate.
+[**E-mail și navigare web sigure**](https://simeononsecurity.com/recommendations/email) poate ajuta la prevenirea [atacurilor de inginerie socială](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) care se bazează pe înșelăciuni de tip phishing sau pe alte forme de conținut malițios. Printre acestea se numără utilizarea filtrelor de spam pentru a bloca e-mailurile nesolicitate, evitarea clicului pe linkuri sau descărcarea de atașamente din surse necunoscute și utilizarea filtrelor web pentru a bloca accesul la site-uri web cunoscute ca fiind rău intenționate.
 
 ### 4. Actualizări și patch-uri de securitate regulate
 
-Actualizarea regulată a software-ului și punerea în aplicare a **parchetelor de securitate** pot contribui la prevenirea atacurilor de inginerie socială care exploatează vulnerabilitățile din software sau din sistemele de operare. Aceasta include menținerea la zi a software-ului antivirus, instalarea actualizărilor de securitate și a patch-urilor de îndată ce acestea devin disponibile și utilizarea **detecției de intruziune** și a sistemelor de prevenire pentru a monitoriza activitățile suspecte.
+Actualizarea regulată a software-ului și punerea în aplicare a **parchetelor de securitate** pot contribui la prevenirea [atacurilor de inginerie socială](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) care exploatează vulnerabilitățile din software sau din sistemele de operare. Aceasta include menținerea la zi a software-ului antivirus, instalarea actualizărilor de securitate și a patch-urilor de îndată ce acestea devin disponibile și utilizarea **detecției de intruziune** și a sistemelor de prevenire pentru a monitoriza activitățile suspecte.
 
 ### 5. Măsuri de securitate fizică
 
@@ -54,11 +56,10 @@ Atacurile de inginerie socială reprezintă o amenințare semnificativă la adre
 
 Nu uitați, protejarea datelor și sistemelor dumneavoastră este un proces continuu care necesită vigilență și efort constant. Prin faptul că rămâneți informați și implementați cele mai bune practici de apărare împotriva atacurilor de inginerie socială, puteți contribui la menținerea organizației și a informațiilor personale în siguranță față de infractorii cibernetici.
 
-**Rămâneți în siguranță acolo!
+**Rămâneți în siguranță acolo!**
 
 ## Referințe
 
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
-- [Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
-
+- [Cadrul de securitate cibernetică NIST](https://www.nist.gov/cyberframework)
+- [Ce este zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
+- [Modalități de a evita atacurile de inginerie socială](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)

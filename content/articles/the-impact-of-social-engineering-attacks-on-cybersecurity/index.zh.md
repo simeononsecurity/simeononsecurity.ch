@@ -1,7 +1,7 @@
 ---
 title: "抵御社交工程攻击与欺诈"
 date: 2023-03-05
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "在这篇内容丰富的文章中，您将了解如何抵御社交工程攻击，保护您的数据免受网络犯罪分子的侵害。"
@@ -10,9 +10,11 @@ cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "一个卡通盾牌，中间有一把挂锁，代表了网络安全中抵御社会工程学攻击的理念"
 coverCaption: ""
 ---
-防范网络安全中的社会工程学攻击**
 
-近年来，随着技术的不断进步和网络犯罪分子找到利用漏洞的新方法，网络安全已成为个人和企业共同关注的主要问题。社会工程**是最阴险的网络攻击形式之一，它指的是利用心理操纵来欺骗个人，使其泄露敏感信息或执行危及安全的操作。在本文中，我们将探讨社会工程学攻击对网络安全的影响以及如何抵御这种攻击。
+
+**防御网络安全中的社会工程攻击**
+
+近年来，随着技术的不断进步和网络犯罪分子找到利用漏洞的新方法，网络安全已成为个人和企业共同关注的主要问题。**社会工程**是最阴险的网络攻击形式之一，它指的是利用心理操纵来欺骗个人，使其泄露敏感信息或执行危及安全的操作。在本文中，我们将探讨社会工程学攻击对网络安全的影响以及如何抵御这种攻击。
 
 ## 社会工程学攻击的影响
 
@@ -28,19 +30,19 @@ ______
 
 ### 1.教育和认识
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)是抵御社会工程学攻击的第一道防线。应培训个人识别社交工程攻击的迹象并采取适当行动。这包括警惕不请自来的信息请求，在泄露敏感信息前核实个人身份，以及向 IT 或安全人员报告任何可疑活动。
+[**教育与安全意识**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)是抵御社会工程学攻击的第一道防线。应培训个人识别社交工程攻击的迹象并采取适当行动。这包括警惕不请自来的信息请求，在泄露敏感信息前核实个人身份，以及向 IT 或安全人员报告任何可疑活动。
 
-### 2.强密码和多因素身份验证
+### 2.[强密码](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)和多因素身份验证
 
-使用 [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)实施**多因素身份验证**有助于防止依赖密码猜测或暴力攻击的社交工程攻击。强密码的长度至少应为 12 个字符，并包含大小写字母、数字和特殊字符。多因素身份验证要求用户提供密码以外的其他身份证明，从而增加了一层额外的安全性。
+使用 [**强密码**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)并实施**多因素身份验证**，有助于防止依赖密码猜测或暴力攻击的[社交工程攻击](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)。[强密码](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)的长度至少应为 12 个字符，并包含大小写字母、数字和特殊字符。多因素身份验证要求用户提供密码以外的其他身份证明，从而增加了一层额外的安全性。
 
 ### 3.安全电子邮件和网页浏览
 
-[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email)可以帮助防止依靠网络钓鱼诈骗或其他形式恶意内容的社交工程攻击。这包括使用垃圾邮件过滤器阻止未经请求的电子邮件，避免点击链接或下载不明来源的附件，以及使用网络过滤器阻止访问已知的恶意网站。
+[**安全电子邮件和网页浏览**](https://simeononsecurity.com/recommendations/email)可以帮助防止依靠网络钓鱼诈骗或其他形式恶意内容的[社交工程攻击](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)。这包括使用垃圾邮件过滤器阻止未经请求的电子邮件，避免点击链接或下载不明来源的附件，以及使用网络过滤器阻止访问已知的恶意网站。
 
 ### 4.定期安全更新和补丁
 
-定期更新软件和使用**安全补丁**有助于防止利用软件或操作系统漏洞的社会工程学攻击。这包括及时更新防病毒软件、在安全更新和补丁可用时立即安装，以及使用**入侵检测**和防御系统来监控可疑活动。
+定期更新软件和使用**安全补丁**有助于防止利用软件或操作系统漏洞的[社会工程学攻击](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)。这包括及时更新防病毒软件、在安全更新和补丁可用时立即安装，以及使用**入侵检测**和防御系统来监控可疑活动。
 
 ### 5.实体安全措施
 
@@ -58,7 +60,6 @@ ______
 
 ## 参考资料
 
- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
-- [Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
-
+- [NIST 网络安全框架](https://www.nist.gov/cyberframework)
+- [什么是零信任？](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
+- [避免社会工程攻击的方法](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)

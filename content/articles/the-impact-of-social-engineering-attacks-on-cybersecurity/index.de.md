@@ -1,16 +1,18 @@
 ---
 title: "Abwehr von Social-Engineering-Angriffen und Betrug"
 date: 2023-03-05
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "In diesem informativen Artikel erfahren Sie, wie Sie sich gegen Social-Engineering-Angriffe wehren und Ihre Daten vor Cyberkriminellen schützen können."
-tags: ["Cybersicherheit", "Social Engineering", "Phishing-Betrügereien", "Multi-Faktor-Authentifizierung", "Sicherheits-Updates", "Passwortsicherheit", "Web-Sicherheit", "Datenschutzverletzungen", "IT-Sicherheit", "Identitätsdiebstahl", "Betrugsverhütung", "Spionageprävention", "technische Sicherheit", "physische Sicherheit", "Informationssicherheit", "Prävention von Internetkriminalität", "Einbruchserkennung", "Sicherheitspatches", "Mitarbeiterschulung", "datenschutz"]
+tags: ["Cybersicherheit", "Soziale Manipulation", "Phishing-Betrügereien", "Multi-Faktor-Authentifizierung", "Sicherheits-Updates", "Passwortsicherheit", "Web-Sicherheit", "Datenschutzverletzungen", "IT-Sicherheit", "Identitätsdiebstahl", "Betrugsverhütung", "Spionageprävention", "technische Sicherheit", "physische Sicherheit", "Informationssicherheit", "Prävention von Internetkriminalität", "Einbruchserkennung", "Sicherheitspatches", "Mitarbeiterschulung", "datenschutz"]
 cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Ein Cartoon-Schild mit einem Vorhängeschloss in der Mitte, das die Idee des Schutzes vor Social-Engineering-Angriffen im Bereich der Cybersicherheit darstellt"
 coverCaption: ""
 ---
- Gegen Social-Engineering-Angriffe in der Cybersicherheit**
+
+
+**Schutz vor Social-Engineering-Angriffen in der Cybersicherheit**
 
 Die Cybersicherheit ist in den letzten Jahren für Privatpersonen und Unternehmen gleichermaßen zu einem wichtigen Thema geworden, da die Technologie immer weiter voranschreitet und Cyberkriminelle neue Wege finden, um Schwachstellen auszunutzen. Eine der heimtückischsten Formen von Cyberangriffen ist das **Social Engineering**, bei dem Personen durch psychologische Manipulation dazu verleitet werden, vertrauliche Informationen preiszugeben oder Handlungen auszuführen, die die Sicherheit gefährden. In diesem Artikel werden wir die Auswirkungen von Social-Engineering-Angriffen auf die Cybersicherheit untersuchen und wie man sich dagegen schützen kann.
 
@@ -28,19 +30,19 @@ Die Abwehr von Social-Engineering-Angriffen erfordert eine Kombination aus techn
 
 ### 1. Bildung und Sensibilisierung
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sind die erste Verteidigungslinie gegen Social-Engineering-Angriffe. Die Mitarbeiter sollten darin geschult werden, die Anzeichen eines Social-Engineering-Angriffs zu erkennen und entsprechende Maßnahmen zu ergreifen. Dazu gehört, dass man unaufgeforderten Informationsanfragen mit Vorsicht begegnet, die Identität von Personen überprüft, bevor man sensible Informationen preisgibt, und verdächtige Aktivitäten dem IT- oder Sicherheitspersonal meldet.
+[**Schulung und Sensibilisierung**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sind die erste Verteidigungslinie gegen Social-Engineering-Angriffe. Die Mitarbeiter sollten darin geschult werden, die Anzeichen eines Social-Engineering-Angriffs zu erkennen und entsprechende Maßnahmen zu ergreifen. Dazu gehört, dass man unaufgeforderten Informationsanfragen mit Vorsicht begegnet, die Identität von Personen überprüft, bevor man sensible Informationen preisgibt, und verdächtige Aktivitäten dem IT- oder Sicherheitspersonal meldet.
 
-### 2. Sichere Passwörter und Multifaktor-Authentifizierung
+### 2. [Sichere Passwörter](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) und Multifaktor-Authentifizierung
 
-Verwendung von [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) und die Implementierung der **Multifaktor-Authentifizierung** kann dazu beitragen, Social-Engineering-Angriffe zu verhindern, die auf dem Erraten von Passwörtern oder Brute-Force-Angriffen beruhen. Sichere Passwörter sollten mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten. Die Multifaktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene, indem sie von den Benutzern neben dem Passwort einen weiteren Identitätsnachweis verlangt.
+Die Verwendung [**starker Passwörter**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) und die Implementierung der **Multifaktor-Authentifizierung** können dazu beitragen, [Social-Engineering-Angriffe](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) zu verhindern, die auf dem Erraten von Passwörtern oder Brute-Force-Angriffen beruhen. [Sichere Passwörter](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) sollten mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten. Die Multifaktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene, indem sie von den Benutzern neben dem Passwort einen weiteren Identitätsnachweis verlangt.
 
 ### 3. Sichere E-Mail und sicheres Surfen im Internet
 
-[**Secure email and web browsing**](https://simeononsecurity.com/recommendations/email) können helfen, Social-Engineering-Angriffe zu verhindern, die auf Phishing-Betrug oder andere Formen bösartiger Inhalte beruhen. Dazu gehören die Verwendung von Spam-Filtern zum Blockieren unerwünschter E-Mails, das Vermeiden des Anklickens von Links oder des Herunterladens von Anhängen aus unbekannten Quellen und die Verwendung von Webfiltern zum Blockieren des Zugriffs auf bekannte bösartige Websites.
+[**Sichere E-Mail und sicheres Surfen im Internet**](https://simeononsecurity.com/recommendations/email) können helfen, [Social-Engineering-Angriffe](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) zu verhindern, die auf Phishing-Betrug oder andere Formen bösartiger Inhalte beruhen. Dazu gehören die Verwendung von Spam-Filtern zum Blockieren unerwünschter E-Mails, das Vermeiden des Anklickens von Links oder des Herunterladens von Anhängen aus unbekannten Quellen und die Verwendung von Webfiltern zum Blockieren des Zugriffs auf bekannte bösartige Websites.
 
-### 4. Regelmäßige Sicherheitsupdates und Patches
+### 4. Regelmäßige Sicherheitsupdates und Sicherheitspatches
 
-Regelmäßige Software-Updates und **Sicherheits-Patches** können helfen, Social-Engineering-Angriffe zu verhindern, die Schwachstellen in Software oder Betriebssystemen ausnutzen. Dazu gehört es, die Antivirensoftware auf dem neuesten Stand zu halten, Sicherheitsupdates und Patches zu installieren, sobald sie verfügbar sind, und **Eindringungserkennungs-** und -verhinderungssysteme zu verwenden, um verdächtige Aktivitäten zu überwachen.
+Regelmäßige Software-Updates und **Sicherheits-Patches** können helfen, [Social-Engineering-Angriffe](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) zu verhindern, die Schwachstellen in Software oder Betriebssystemen ausnutzen. Dazu gehört es, die Antivirensoftware auf dem neuesten Stand zu halten, Sicherheitsupdates und Patches zu installieren, sobald sie verfügbar sind, und **Eindringungserkennungs-** und -verhinderungssysteme zu verwenden, um verdächtige Aktivitäten zu überwachen.
 
 ### 5. Physische Sicherheitsmaßnahmen
 
@@ -54,11 +56,10 @@ Social-Engineering-Angriffe stellen eine erhebliche Bedrohung für die Cybersich
 
 Denken Sie daran, dass der Schutz Ihrer Daten und Systeme ein fortlaufender Prozess ist, der ständige Wachsamkeit und Anstrengungen erfordert. Wenn Sie auf dem Laufenden bleiben und die besten Methoden zur Abwehr von Social-Engineering-Angriffen anwenden, können Sie dazu beitragen, dass Ihr Unternehmen und Ihre persönlichen Daten vor Cyberkriminellen geschützt sind.
 
-**Bleiben Sie da draußen sicher!
+**Bleiben Sie da draußen sicher!**
 
 ## Referenzen
 
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
-- [Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
-
+- [NIST-Rahmenwerk für Cybersicherheit](https://www.nist.gov/cyberframework)
+- [Was ist Zero Trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
+- [Möglichkeiten, Social-Engineering-Angriffe zu vermeiden](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
