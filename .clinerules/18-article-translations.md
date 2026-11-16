@@ -113,6 +113,11 @@
   corresponding localized heading or a verified structural boundary in each
   locale, then compare the complete ordered heading sequence with English to
   confirm the section was inserted exactly once.
+- Before restoring a suspected missing sentence, align the source and translated
+  segments and check whether the meaning already appears in translated wording.
+  Do not use absence of one proposed translated sentence as proof that the source
+  meaning is missing. Insert only the omitted idea or qualifier, then review the
+  complete translated paragraph for repeated claims.
 - When restoring omitted content, compare ordered source and translation links,
   tables, and shortcode sequences before and after insertion. Reuse existing
   references; remove duplicated related-link tables or reference entries, then
@@ -329,6 +334,12 @@
   `copied_english_body` as a blocking exact-body fallback finding, even when
   translated front matter differs. Repair English-dominant short paragraphs;
   translated text elsewhere in the file does not make those paragraphs complete.
+  The strict gate also blocks a single exact English prose paragraph or long
+  reader-facing list item copied from the source. Run it on the temporary
+  candidate before integration and again on the frozen in-tree bundle. Do not
+  count code fences, tables, headings, shortcodes, linked list entries that
+  contain only names, or title-cased list entries as prose for this blocker;
+  review those through their dedicated findings.
   Treat each result as a manual-review queue. Inspect
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the

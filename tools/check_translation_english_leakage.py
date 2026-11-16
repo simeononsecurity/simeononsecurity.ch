@@ -90,6 +90,7 @@ CSV_FIELDS = [
     "copied_english_link_connectors",
     "english_reader_code_prose_fallback",
     "copied_english_body",
+    "copied_english_prose_paragraphs",
     "markdown_structure_differences", "note",
 ]
 SCRIPT_RANGES = {
@@ -1052,6 +1053,51 @@ def prose_sentences(text: str) -> set[str]:
     }
 
 
+def reader_prose_paragraphs(text: str) -> set[str]:
+    """Return substantial reader-facing paragraphs and list items, excluding code."""
+    prose = strip_fenced_blocks(text)
+    paragraphs = set()
+    for part in re.split(r"\n\s*\n", prose):
+        raw = part.strip()
+        if not raw:
+            continue
+        lines = [line.strip() for line in raw.splitlines() if line.strip()]
+        candidates = []
+        if lines and all(re.match(r"(?:[-+*]\s|\d+[.)]\s)", line) for line in lines):
+            candidates.extend(lines)
+        else:
+            candidates.append(raw)
+        for candidate in candidates:
+            line = candidate.strip()
+            if line.startswith(("#", ">", "|", "{{<", "{{%")):
+                continue
+            list_item = bool(re.match(r"(?:[-+*]|\d+[.)])\s", line))
+            prose_around_links = re.sub(r"!?\[[^\]]*\]\([^)]+\)", " ", line)
+            if list_item and "](" in line and len(normalize(prose_around_links).split()) < 8:
+                # Linked product and bibliography lists mostly contain official names.
+                continue
+            title_words = re.findall(r"\b[A-Za-z][A-Za-z0-9'-]*\b", line)
+            capitalized_words = sum(word[0].isupper() for word in title_words)
+            if list_item and title_words and capitalized_words / len(title_words) >= 0.6:
+                # Title-cased list entries are commonly document or product names.
+                continue
+            line = re.sub(r"^(?:[-+*]|\d+[.)])\s+", "", line)
+            normalized = normalize(visible_text(line))
+            words = re.findall(r"[a-z]+(?:'[a-z]+)?", normalized)
+            if len(words) < 12:
+                continue
+            english_signals = sum(word in ENGLISH_STOPWORDS for word in words)
+            if english_signals >= 3 and english_signals / len(words) >= 0.16:
+                paragraphs.add(normalized)
+    return paragraphs
+
+
+def copied_english_prose_paragraphs(source: str, target: str) -> list[str]:
+    """Find unchanged English paragraphs in reader-facing prose outside examples."""
+    copied = reader_prose_paragraphs(source) & reader_prose_paragraphs(target)
+    return sorted(copied)
+
+
 def copied_english_opening(source: str, target: str) -> str:
     """Queue every unchanged opening for manual review."""
     def first_paragraph(text: str) -> str:
@@ -1302,6 +1348,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             if sum(word in ENGLISH_STOPWORDS for word in sentence.split()) >= 2
         ]
         copied_spans = copied_english_prose_spans(source_body, body)
+        copied_prose_paragraphs = copied_english_prose_paragraphs(source_body, body)
         english_paragraphs = english_dominant_paragraphs(body, locale)
         english_body_fallback = english_dominant_body(body, locale)
         copied_table_cells = copied_english_table_cells(source_body, body)
@@ -1351,6 +1398,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("exact_English_sentences")
         if copied_spans:
             reasons.append("copied_English_prose_span")
+        if copied_prose_paragraphs:
+            reasons.append("copied_english_prose_paragraph")
         if english_paragraphs:
             reasons.append("English_dominant_reader_paragraph")
         if english_body_fallback:
@@ -1406,6 +1455,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "copied_link_labels": " | ".join(copied_link_labels),
                 "copied_english_link_connectors": " | ".join(copied_link_connectors),
                 "copied_english_body": copied_body,
+                "copied_english_prose_paragraphs": " | ".join(copied_prose_paragraphs),
                 "markdown_structure_differences": json.dumps(
                     structure_differences, ensure_ascii=False, sort_keys=True
                 ),
@@ -1423,7 +1473,7 @@ def main() -> int:
         "--fail-on-english-fallback",
         action="store_true",
         help=(
-            "fail only on high-confidence English fallback signals: an exact English body, "
+            "fail on high-confidence English fallback signals: an exact English body or prose paragraph, "
             "many copied English paragraphs, English stopword dominance, copied reader-facing code text, "
             "or a missing target script"
         ),
@@ -1451,6 +1501,7 @@ def main() -> int:
     if args.fail_on_english_fallback:
         high_confidence = {
             "copied_english_body",
+            "copied_english_prose_paragraph",
             "many_exact_English_paragraphs",
             "English_stopword_dominance",
             "English_dominant_reader_body",

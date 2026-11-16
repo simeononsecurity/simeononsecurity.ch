@@ -17,6 +17,7 @@ from check_translation_english_leakage import (
     copied_english_link_connectors,
     copied_english_headings,
     copied_english_opening,
+    copied_english_prose_paragraphs,
     copied_english_taxonomy,
     copied_english_table_cells,
     taxonomy_count_differences,
@@ -43,6 +44,39 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_blocks_one_copied_english_prose_paragraph_inside_a_translation(self):
+        source = (
+            "Une phrase française explique le contexte localisé et le traitement initial.\n\n"
+            "Administrators review each access request before granting permission to protected records. "
+            "The system records the decision and alerts the responsible owner.\n"
+        )
+        target = (
+            "Une phrase française explique le contexte localisé et le traitement initial.\n\n"
+            "Administrators review each access request before granting permission to protected records. "
+            "The system records the decision and alerts the responsible owner.\n"
+        )
+
+        findings = copied_english_prose_paragraphs(source, target)
+
+        self.assertEqual(len(findings), 1)
+        self.assertIn("administrators review each access request", findings[0])
+
+    def test_checks_list_items_and_linked_prose_but_ignores_name_only_references(self):
+        example = (
+            "```text\n"
+            "Administrators review each access request before granting permission to protected records and notify the assigned owner.\n"
+            "```\n\n"
+            "- Administrators review each access request before granting permission to protected records and notify the assigned owner.\n"
+        )
+        citation = "1. [A comprehensive guide to cybersecurity careers](https://example.com) published by Example Org."
+        linked_instruction = "- Administrators review [each access request](https://example.com) before granting permission to protected records and notify the assigned owner."
+        official_title = "- NIST SP 1270: Towards a Standard for Identifying and Managing Bias in Artificial Intelligence"
+
+        self.assertEqual(len(copied_english_prose_paragraphs(example, example)), 1)
+        self.assertEqual(copied_english_prose_paragraphs(citation, citation), [])
+        self.assertEqual(len(copied_english_prose_paragraphs(linked_instruction, linked_instruction)), 1)
+        self.assertEqual(copied_english_prose_paragraphs(official_title, official_title), [])
+
     def test_flags_unchanged_english_article_opening(self):
         source = "**Passing CompTIA's A+ Exams 220-1101 & 220-1102**\n\nA Polish paragraph follows."
         target = "**Passing CompTIA's A+ Exams 220-1101 & 220-1102**\n\nPolski akapit następuje."
@@ -281,6 +315,34 @@ class FencedProseTests(unittest.TestCase):
         )
 
         self.assertFalse(english_dominant_body(body, "fr"))
+
+    def test_strict_gate_blocks_a_single_copied_english_prose_paragraph(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            translated = "Le système examine chaque demande avant de modifier les accès."
+            english = (
+                "Administrators review each access request before granting permission to protected records. "
+                "The system records the decision and alerts the responsible owner."
+            )
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Access review'\n---\n" + translated + "\n\n" + english + "\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Vérification des accès'\n---\n" + translated + "\n\n" + english + "\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_prose_paragraph", stdout.getvalue())
 
     def test_audit_flags_short_exact_english_body_with_different_front_matter(self):
         with TemporaryDirectory() as temporary_directory:
