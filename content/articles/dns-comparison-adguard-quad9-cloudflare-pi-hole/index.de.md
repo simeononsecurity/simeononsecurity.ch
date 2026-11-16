@@ -1,12 +1,12 @@
 ---
 title: "NextDNS vs AdGuard DNS vs Quad9 vs Cloudflare DNS vs Pi-hole: Der ultimative DNS-Sicherheitsvergleich 2026"
 date: 2023-08-30
-lastmod: 2026-05-24
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Umfassender Vergleich von NextDNS, AdGuard DNS, Quad9, Cloudflare DNS und Pi-hole für Sicherheit, Datenschutz und Leistung im Jahr 2026. Finden Sie den besten DNS-Resolver für Ihre Bedürfnisse."
-genre: ["Cybersicherheit", "DNS-Vergleich", "Datenschutz", "Werbeblocker", "Netzwerksicherheit", "Internetsicherheit", "DNS-Resolver", "Online-Datenschutz", "Web-Sicherheit", "DNS-Filterung"]
-tags: ["NextDNS", "AdGuard DNS", "Quad9", "Cloudflare DNS", "Pi-hole", "DNS-Dienst", "DNS-Resolver", "Werbeblocker", "Datenschutz", "Cybersicherheit", "Netzwerksicherheit", "Internet-Datenschutz", "Malware-Schutz", "Phishing-Schutz", "DNSSEC", "DDoS-Schutz", "KI-gesteuertes DNS", "Tracker-Blocker", "Kindersicherung", "selbstgehostetes DNS", "DNS-Sinkhole", "Raspberry Pi", "netzwerkweite Werbeblocker", "datenschutzorientiertes DNS", "DNS-Filterung", "Bedrohungserkennung", "Regierungsvorschriften", "Online-Sicherheit", "Datenintegrität", "DNS-Leistung", "bestes DNS 2026", "sicherer DNS-Dienst", "privater DNS-Resolver"]
+genre: ["Cybersicherheit", "DNS-Vergleich", "Datenschutz", "Werbeblocker", "Netzwerksicherheit", "Internetsicherheit", "DNS-Namensauflöser", "Online-Datenschutz", "Web-Sicherheit", "DNS-Filterdienst"]
+tags: ["NextDNS", "AdGuard DNS", "Quad9", "Cloudflare DNS", "Pi-hole", "DNS-Dienst", "DNS-Namensauflöser", "Werbeblocker", "Datenschutz", "Cybersicherheit", "Netzwerksicherheit", "Internet-Datenschutz", "Malware-Schutz", "Phishing-Schutz", "DNSSEC", "DDoS-Schutz", "KI-gesteuertes DNS", "Tracker-Blocker", "Kindersicherung", "selbstgehostetes DNS", "DNS-Blackhole", "Raspberry Pi", "netzwerkweite Werbeblocker", "datenschutzorientiertes DNS", "DNS-Filterdienst", "Bedrohungserkennung", "Regierungsvorschriften", "Online-Sicherheit", "Datenintegrität", "DNS-Leistung", "bestes DNS 2026", "sicherer DNS-Dienst", "privater DNS-Resolver", "NextDNS im Vergleich zu Cloudflare", "Quad9 im Vergleich zu Cloudflare"]
 cover: "/img/cover/dns_security_shield.webp"
 coverAlt: "Ein symbolisches Bild, das einen geschützten Domänennamen darstellt, der vor Cyberbedrohungen schützt."
 coverCaption: "Bleiben Sie sicher, geschützt und abgeschirmt"
@@ -211,11 +211,11 @@ Leistung ist entscheidend für DNS-Resolver. Im Jahr 2026 bieten alle fünf Dien
 
 | DNS-Anbieter | Durchschnittliche Reaktion | 95. Perzentil | Globale Server |
 |--------------|---------------------------|---------------|----------------|
-| **Cloudflare** | 8,2 ms | 15 ms | 300+ |
-| **NextDNS** | 9,7 ms | 18 ms | 60+ |
-| **AdGuard DNS** | 12,4 ms | 22 ms | 30+ |
-| **Quad9** | 13,1 ms | 24 ms | 150+ |
-| **Pi-hole** | Variiert* | Variiert* | N/A |
+| **Cloudflare** | 8.2ms | 15 ms | 300+ |
+| **NextDNS** | 9.7ms | 18 ms | 60+ |
+| **AdGuard DNS** | 12.4ms | 22 ms | 30+ |
+| **Quad9** | 13.1ms | 24 ms | 150+ |
+| **Pi-hole** | Variiert* | Variiert* | Nicht zutreffend |
 
 *Pi-hole-Leistung hängt vom Upstream-DNS und der Hardware ab
 
@@ -225,7 +225,7 @@ Leistung ist entscheidend für DNS-Resolver. Im Jahr 2026 bieten alle fünf Dien
 - **Zweiter: NextDNS** - Fast genauso schnell mit besserem Funktionsumfang
 - **Bestes lokal: Pi-hole** - Kann für gecachte Abfragen auf gut konfigurierter Hardware am schnellsten sein
 
-Quelle: [DNSPerf](https://www.dnsperf.com/), [NextDNS Speed Analytics](https://nextdns.io/speed)
+Quelle: [DNSPerf](https://www.dnsperf.com/), [NextDNS-Geschwindigkeitsanalyse](https://nextdns.io/speed)
 
 ______
 
@@ -263,7 +263,7 @@ ______
 
 - **Protokollierung**: Vollständig unter Ihrer Kontrolle; lokal gespeichert
 - **Datenaufbewahrung**: Sie entscheiden über den Aufbewahrungszeitraum
-- **Zuständigkeit**: N/A (selbst gehostet)
+- **Zuständigkeit**: Nicht zutreffend (selbst gehostet)
 - **Richtlinie**: Keine Drittbeteiligung
 
 **Sieger beim Datenschutz: Pi-hole** (vollständige Kontrolle) und **Quad9** (stärkste No-Log-Richtlinie für Cloud-Dienste)
@@ -363,6 +363,42 @@ Weitere Informationen zur OPNsense-Sicherheit finden Sie in unserem [pfSense vs 
 
 ______
 
+## DNS-Bereitstellungsprüfungen für 2026
+
+DNS-Filterung und verschlüsselter Transport lösen unterschiedliche Probleme. Ein Resolver wie Quad9 oder Cloudflare beantwortet Anfragen. Ein Filterdienst wie NextDNS, AdGuard DNS oder Pi-hole setzt Richtlinien um. Ein schneller Resolver ist keine vollständige Sicherheitsmaßnahme.
+
+Notieren Sie vor einer Änderung am Router oder Gerät den aktuellen Resolver, die DHCP-Einstellungen, lokale Hostnamen und das Ausweichverhalten. Testen Sie anschließend:
+
+- IPv4- und IPv6-Abfragen
+- DNS-over-HTTPS oder DNS-over-TLS für jeden Clienttyp
+- lokale Namen für Drucker, Speicher und Heimautomatisierung
+- Sperrseiten und Fehlalarme bei Arbeits- und Banking-Websites
+- das Verhalten bei einem Ausfall des Upstream-Dienstes
+- ob Gast- und IoT-Netzwerke die vorgesehene Richtlinie erhalten
+
+Nutzen Sie die [Quad9-Dokumentation](https://docs.quad9.net/), die [Cloudflare-1.1.1.1-Dokumentation](https://developers.cloudflare.com/1.1.1.1/), die [Einrichtungshinweise für AdGuard DNS](https://adguard-dns.io/public-dns.html) und die [Pi-hole-Dokumentation](https://docs.pi-hole.net/) für produktspezifische Einstellungen. Eine Änderung am Router gilt einheitlich für das Netzwerk. Ein Geräteprofil bietet feinere Kontrolle. Legen Sie einen primären Weg fest und dokumentieren Sie den Ausweichweg für die Fehlersuche.
+
+## Grenzen aktueller Resolver und Testplan
+
+**Verschlüsseltes DNS schützt den Weg zum Resolver.** DNS-over-HTTPS und DNS-over-TLS verbergen Anfragen vor Geräten im lokalen Netzwerk und auf dem Weg über den ISP. Der Resolver sieht die Anfrage weiterhin, sofern ein Verfahren wie Oblivious DoH nicht die Clientadresse von der Anfrage trennt. Verschlüsselung verbirgt nicht das Ziel vor den besuchten Websites und ersetzt HTTPS nicht.
+
+**Die aktuelle Richtlinie von Cloudflare für öffentliche Resolver** besagt, dass Quell-IP-Adressen nicht dauerhaft gespeichert werden, abgesehen von begrenzten Stichprobenpaketen. Gekürzte IP-Daten und Resolver-Protokolle werden innerhalb von 25 Stunden gelöscht. Laut Cloudflare filtert das reguläre 1.1.1.1 außerdem keine Inhalte. [Lesen Sie die Richtlinie für öffentliche DNS-Resolver](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/).
+
+**Die Quad9-Dienstadressen verhalten sich unterschiedlich.** Der empfohlene Dienst 9.9.9.9 blockiert Malware und validiert DNSSEC. 9.9.9.11 aktiviert EDNS Client Subnet. 9.9.9.10 blockiert keine Malware. Wählen Sie die Adresse nach der Richtlinie und nicht aufgrund einer allgemeinen Geschwindigkeitsangabe. [Prüfen Sie die Adresstabelle von Quad9](https://quad9.net/service/service-addresses-and-features/).
+
+**Prüfen Sie die aktuellen Preise und Limits von NextDNS.** Die Preisseite nennt 300.000 Anfragen pro Monat im kostenlosen Tarif. Nach Erreichen des Limits werden Anfragen als klassischer DNS-Dienst ohne Filterung weitergeleitet. Der aktuelle Preis des kostenpflichtigen Tarifs ist in GBP angegeben, ältere Dollarangaben im Artikel sind daher historisch. [Aktuelle NextDNS-Preise ansehen](https://nextdns.io/pricing).
+
+Nutzen Sie diesen Resolver-Testplan:
+
+- **Richtlinie:** Listen Sie die Domains auf, die Sie blockieren, erlauben oder unverändert lassen möchten.
+- **Transport:** Prüfen Sie DoH oder DoT auf jedem Gerät und ob der Router die Einstellung unbemerkt ersetzt.
+- **Fehlerverhalten:** Testen Sie einen Resolver-Ausfall, eine fälschlich blockierte Website und einen lokalen Pi-hole-Neustart.
+- **Datenschutz:** Lesen Sie die aktuelle Aufbewahrungsrichtlinie des Anbieters. Der Resolver empfängt DNS-Anfragen auch bei verschlüsseltem Transport.
+- **Leistung:** Testen Sie ungecachte und wiederholte Abfragen im eigenen Netzwerk zu verschiedenen Zeiten. Öffentliche Mittelwerte sagen nicht jeden ISP-Pfad voraus.
+- **Abdeckung:** Prüfen Sie IPv4, IPv6, VPN, Gast-WLAN und mobile Ausweichpfade.
+
+Die Tabelle der Antwortzeiten und die Anbieter-Rangfolge sind ein datierter Vergleich. Der Artikel nennt keine reproduzierbare Testmethode. Betrachten Sie die Werte daher als Kontext und nicht als aktuelle Messung für Quad9 gegenüber Cloudflare.
+
 ## Fazit: Welchen DNS-Dienst sollten Sie 2026 wählen?
 
 Die Wahl zwischen [**NextDNS**](https://nextdns.io/?from=jyfq92sk), [**AdGuard DNS**](https://adguard-dns.io/), [**Quad9**](https://quad9.net), [**Cloudflare DNS**](https://1.1.1.1) und [**Pi-hole**](https://pi-hole.net) hängt von Ihren spezifischen Bedürfnissen ab:
@@ -418,6 +454,6 @@ ______
 3. [Quad9](https://quad9.net)
 4. [Cloudflare DNS](https://1.1.1.1)
 5. [Pi-hole](https://pi-hole.net)
-6. [DNSPerf - DNS Performance Analytics](https://www.dnsperf.com/)
-7. [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+6. [DNSPerf - DNS-Leistungsanalyse](https://www.dnsperf.com/)
+7. [NIST-Cybersicherheitsrahmen](https://www.nist.gov/cyberframework)
 8. [GDPR Official Text](https://gdpr.eu/)
