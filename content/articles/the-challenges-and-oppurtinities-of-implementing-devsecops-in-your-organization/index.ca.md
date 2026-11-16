@@ -1,11 +1,11 @@
 ---
 title: "DevSecOps: afrontar els reptes i aprofitar les oportunitats"
 date: 2023-04-15
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Revisa els reptes i les oportunitats de DevSecOps, com ara la col·laboració, l'escalabilitat, el compliment normatiu i els controls del lliurament."
-tags: ["DevSecOps", "information security", "security testing", "agile methodologies", "collaboration", "government regulations", "automation", "application development", "scalability", "continuous monitoring", "NIST guidelines", "feedback loops", "modularity", "vulnerabilities", "quality assurance", "cybersecurity", "IT infrastructure", "software development tools", "risk management"]
+tags: ["DevSecOps", "seguretat de la informació", "proves de seguretat", "metodologies àgils", "col·laboració", "normativa governamental", "automatització", "desenvolupament d’aplicacions", "escalabilitat", "monitoratge continu", "directrius de l’NIST", "cicles de retroalimentació", "modularitat", "vulnerabilitats", "garantia de qualitat", "ciberseguretat", "infraestructura de TI", "eines de desenvolupament de programari", "gestió de riscos"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "Un grup de persones al cim d'una muntanya, agafades de les mans, amb peces de trencaclosques encaixades en primer pla."
 coverCaption: ""

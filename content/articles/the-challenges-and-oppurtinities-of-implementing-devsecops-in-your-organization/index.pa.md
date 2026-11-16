@@ -1,11 +1,11 @@
 ---
 title: "DevSecOps: ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਅਤੇ ਮੌਕਿਆਂ ਦਾ ਲਾਭ"
 date: 2023-04-15
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "DevSecOps ਲਾਗੂ ਕਰਨ ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਅਤੇ ਮੌਕਿਆਂ ਦੀ ਸਮੀਖਿਆ ਕਰੋ, ਜਿਵੇਂ ਸਹਿਯੋਗ, ਵਧਾਈ ਜਾ ਸਕਣ ਵਾਲੀ ਸਮਰੱਥਾ, ਨਿਯਮਾਂ ਦੀ ਪਾਲਣਾ ਅਤੇ ਡਿਲਿਵਰੀ ਨਿਯੰਤਰਣ।"
-tags: ["DevSecOps", "information security", "security testing", "agile methodologies", "collaboration", "government regulations", "automation", "application development", "scalability", "continuous monitoring", "NIST guidelines", "feedback loops", "modularity", "vulnerabilities", "quality assurance", "cybersecurity", "IT infrastructure", "software development tools", "risk management"]
+tags: ["DevSecOps", "ਜਾਣਕਾਰੀ ਸੁਰੱਖਿਆ", "ਸੁਰੱਖਿਆ ਜਾਂਚ", "ਐਜਾਈਲ ਵਿਧੀਆਂ", "ਸਹਿਯੋਗ", "ਸਰਕਾਰੀ ਨਿਯਮ", "ਸਵੈਚਾਲਨ", "ਐਪਲੀਕੇਸ਼ਨ ਵਿਕਾਸ", "ਵਧਾਉਣਯੋਗਤਾ", "ਨਿਰੰਤਰ ਨਿਗਰਾਨੀ", "NIST ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼", "ਫੀਡਬੈਕ ਚੱਕਰ", "ਮਾਡਿਊਲਰਤਾ", "ਕਮਜ਼ੋਰੀਆਂ", "ਗੁਣਵੱਤਾ ਭਰੋਸਾ", "ਸਾਈਬਰ ਸੁਰੱਖਿਆ", "ਆਈਟੀ ਬੁਨਿਆਦੀ ਢਾਂਚਾ", "ਸਾਫਟਵੇਅਰ ਵਿਕਾਸ ਸਾਧਨ", "ਜੋਖਮ ਪ੍ਰਬੰਧਨ"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "ਪਹਾੜ ਦੀ ਚੋਟੀ ਉੱਤੇ ਹੱਥ ਫੜ ਕੇ ਖੜ੍ਹੇ ਲੋਕਾਂ ਦਾ ਸਮੂਹ, ਸਾਹਮਣੇ ਇੱਕ-ਦੂਜੇ ਨਾਲ ਜੁੜਦੇ ਪਹੇਲੀ ਦੇ ਟੁਕੜੇ।"
 coverCaption: ""

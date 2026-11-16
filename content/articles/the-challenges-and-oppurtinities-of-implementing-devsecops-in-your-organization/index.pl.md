@@ -1,10 +1,11 @@
 ---
 title: "DevSecOps: radzenie sobie z wyzwaniami, wykorzystywanie możliwości."
 date: 2023-04-15
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Ten artykuł analizuje wyzwania i możliwości DevSecOps w organizacjach, w tym lepszą współpracę, lepszą skalowalność, integrację z przepisami rządowymi i nie tylko."
-tags: ["DevSecOps", "bezpieczeństwo informacji", "testy bezpieczeństwa", "metodyki zwinne", "współpraca", "regulacje rządowe", "automatyzacja", "rozwój aplikacji", "skalowalność", "ciągłe monitorowanie", "Wytyczne NIST", "pętle sprzężenia zwrotnego", "modułowość", "podatności", "zapewnienie jakości", "cyberbezpieczeństwo", "Infrastruktura IT", "narzędzia do tworzenia oprogramowania", "zarządzanie ryzykiem"]
+tags: ["DevSecOps", "bezpieczeństwo informacji", "testy bezpieczeństwa", "metodyki zwinne", "współpraca", "regulacje rządowe", "automatyzacja", "rozwój aplikacji", "skalowalność", "ciągłe monitorowanie", "wytyczne NIST", "pętle sprzężenia zwrotnego", "modułowość", "podatności", "zapewnienie jakości", "cyberbezpieczeństwo", "infrastruktura IT", "narzędzia do tworzenia oprogramowania", "zarządzanie ryzykiem"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "Grupa ludzi stojących na szczycie, trzymających się za ręce, z elementami układanki pasującymi do siebie na pierwszym planie."
 coverCaption: ""

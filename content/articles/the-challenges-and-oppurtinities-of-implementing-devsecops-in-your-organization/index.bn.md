@@ -1,11 +1,11 @@
 ---
 title: "DevSecOps: চ্যালেঞ্জ মোকাবিলা ও সুযোগ কাজে লাগানো"
 date: 2023-04-15
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "DevSecOps বাস্তবায়নের চ্যালেঞ্জ ও সুযোগ পর্যালোচনা করুন, এর মধ্যে রয়েছে সহযোগিতা, সম্প্রসারণযোগ্যতা, নিয়ম মেনে চলা এবং সফটওয়্যার সরবরাহের নিয়ন্ত্রণ।"
-tags: ["DevSecOps", "information security", "security testing", "agile methodologies", "collaboration", "government regulations", "automation", "application development", "scalability", "continuous monitoring", "NIST guidelines", "feedback loops", "modularity", "vulnerabilities", "quality assurance", "cybersecurity", "IT infrastructure", "software development tools", "risk management"]
+tags: ["DevSecOps", "তথ্য নিরাপত্তা", "নিরাপত্তা পরীক্ষা", "অ্যাজাইল পদ্ধতি", "সহযোগিতা", "সরকারি বিধিবিধান", "স্বয়ংক্রিয়করণ", "অ্যাপ্লিকেশন উন্নয়ন", "সম্প্রসারণযোগ্যতা", "নিরবচ্ছিন্ন পর্যবেক্ষণ", "NIST নির্দেশিকা", "প্রতিক্রিয়া চক্র", "মডুলার কাঠামো", "দুর্বলতা", "গুণমান নিশ্চিতকরণ", "সাইবার নিরাপত্তা", "তথ্যপ্রযুক্তি অবকাঠামো", "সফটওয়্যার উন্নয়ন সরঞ্জাম", "ঝুঁকি ব্যবস্থাপনা"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "একটি পাহাড়ের চূড়ায় হাত ধরে দাঁড়ানো একদল মানুষ, সামনের দিকে পরস্পরের সঙ্গে মিলে যাওয়া ধাঁধার টুকরো।"
 coverCaption: ""
