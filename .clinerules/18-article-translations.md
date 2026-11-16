@@ -181,6 +181,15 @@
   fixed identifiers when context supports them.
   Review each flag in context, then translate copied reader-facing prose before
   freezing the hash snapshot.
+  Treat every unexplained `English_reader_heading_copy` finding as an approval
+  blocker. An official English term does not make a descriptive heading
+  translated: localize the heading wording and retain the acronym or fixed
+  designation. Keep the full English expansion only where the initial
+  definition needs it, paired with its localized explanation. Record the exact
+  locale and disposition for every retained unchanged heading in the author
+  report, and require the peer reviewer to check those dispositions. A zero
+  `--fail-on-english-fallback` count does not clear heading findings because
+  that strict gate does not block them.
   Compare unchanged descriptive table cells directly with the source. The
   leakage checker queues copied descriptive cells, including common
   single-word labels, for manual review. Translate
@@ -415,6 +424,16 @@
   staged files. If a commit has mixed scope, record its hash and exact path list,
   then restore the prior commit while preserving all working files; create
   separate commits only after validating each frozen scope.
+- Treat the staged-path check as time-sensitive: another writer can stage files
+  after the check and before `git commit`. Keep stage, scope check, and commit in
+  one serialized Git transaction. After any intervening Git activity or index
+  lock, recheck `HEAD` and the full staged path list. If other writers cannot
+  pause, defer the commit until they finish instead of risking a mixed bundle.
+- If a scoped commit uses a separate `GIT_INDEX_FILE`, record the shared staged
+  path list first. After commit, update only the committed bundle paths in the
+  shared index from the worktree with `git add -- <exact paths>`. Verify those
+  paths no longer appear in `git diff --cached --name-only` and confirm all
+  unrelated staged paths remain unchanged. Do not reset the whole shared index.
 - Merge each approved bundle into the existing local `master` or `main` checkout
   as soon as validation and worktree state allow. Preserve unrelated changes and
   avoid creating additional worktrees when an existing main checkout is usable.
