@@ -1,10 +1,11 @@
 ---
 title: "10 greșeli comune de securitate cibernetică și cum să le evitați"
 date: 2023-03-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aflați cum să vă protejați de amenințările cibernetice, evitând aceste 10 greșeli comune de securitate cibernetică."
-tags: ["securitate cibernetică", "securitate online", "amenințări cibernetice", "hacking", "phishing", "malware", "parole", "Wi-Fi public", "antivirus", "social media", "backup de date", "avertismente de securitate", "stații publice de încărcare", "securitate informatică", "prevenirea criminalității cibernetice", "furt de identitate", "confidențialitate digitală", "securitatea rețelei", "actualizări de software", "siguranța online"]
+tags: ["securitate cibernetică", "securitate online", "amenințări cibernetice", "atacuri informatice", "mesaje înșelătoare", "software rău intenționat", "parole", "Wi-Fi public", "programe antivirus", "rețele sociale", "backup de date", "avertismente de securitate", "stații publice de încărcare", "securitate informatică", "prevenirea criminalității cibernetice", "furt de identitate", "confidențialitate digitală", "securitatea rețelei", "actualizări ale programelor", "siguranța online"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "O încuietoare din desene animate care protejează un laptop, cu un hacker în fundal."
 coverCaption: ""
@@ -24,7 +25,7 @@ Pentru a evita această greșeală, **utilizați parole puternice** care au cel 
 ____
 
 
-## Greșeala nr. 2: Căderea în capcana escrocheriilor de phishing
+## Greșeala nr. 2: Căderea în capcana mesajelor de phishing
 
 Escrocheriile de phishing sunt o tactică comună folosită de infractorii cibernetici pentru a păcăli oamenii să le ofere informații sensibile, cum ar fi nume de utilizator, parole și numere de card de credit. Aceste escrocherii se prezintă adesea sub forma unor e-mailuri sau mesaje text care par a proveni de la o sursă legitimă, cum ar fi o bancă sau un comerciant online.
 
@@ -33,7 +34,7 @@ Pentru a evita să cădeți în capcana escrocheriilor de tip phishing, **fiți 
 ____
 
 
-## Greșeala nr. 3: Utilizarea unui Wi-Fi public nesecurizat
+## Greșeala nr. 3: Utilizarea unei rețele Wi-Fi deschise și nesecurizate
 
 Rețelele Wi-Fi publice sunt adesea nesecurizate, ceea ce înseamnă că oricine le poate accesa și poate intercepta datele pe care le transmiteți prin rețea. Infractorii cibernetici se pot folosi de această vulnerabilitate pentru a vă fura informațiile personale, cum ar fi datele de autentificare și numerele cărților de credit.
 
@@ -42,7 +43,7 @@ Pentru a evita această greșeală, **evitați utilizarea rețelelor Wi-Fi publi
 ____
 
 
-## Greșeala nr. 4: Nu țineți software-ul la zi
+## Greșeala nr. 4: Neactualizarea programelor
 
 Actualizările de software includ adesea patch-uri de securitate care rezolvă vulnerabilitățile din software. Dacă nu vă actualizați software-ul, sunteți vulnerabil la amenințările de securitate cunoscute.
 
@@ -51,7 +52,7 @@ Pentru a evita această greșeală, **păstrați-vă software-ul la zi** prin in
 ____
 
 
-## Greșeala nr. 5: Neutilizarea unui software antivirus
+## Greșeala nr. 5: Lipsa protecției împotriva virușilor
 
 Software-ul antivirus este conceput pentru a detecta și a elimina software-ul rău intenționat, cum ar fi virușii, programele spion și ransomware. Dacă nu folosiți un software antivirus, sunteți vulnerabil la aceste tipuri de amenințări.
 

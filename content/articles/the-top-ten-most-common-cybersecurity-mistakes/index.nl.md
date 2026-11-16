@@ -1,10 +1,11 @@
 ---
 title: "10 veelvoorkomende cyberbeveiligingsfouten en hoe ze te vermijden"
 date: 2023-03-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Leer hoe u uzelf kunt beschermen tegen cyberdreigingen door deze 10 veelvoorkomende cyberbeveiligingsfouten te vermijden."
-tags: ["cyberbeveiliging", "online beveiliging", "cyberdreigingen", "hacken", "phishing", "malware", "wachtwoorden", "openbare Wi-Fi", "antivirus", "sociale media", "gegevensback-up", "veiligheidswaarschuwingen", "openbare oplaadstations", "computerbeveiliging", "preventie van cybercriminaliteit", "identiteitsdiefstal", "digitale privacy", "netwerkbeveiliging", "software-updates", "online veiligheid"]
+tags: ["cyberbeveiliging", "online beveiliging", "cyberdreigingen", "hacken", "oplichtingsberichten", "schadelijke software", "wachtwoorden", "openbare Wi-Fi", "virusscanner", "sociale media", "gegevensback-up", "veiligheidswaarschuwingen", "openbare oplaadstations", "computerbeveiliging", "preventie van cybercriminaliteit", "identiteitsdiefstal", "digitale privacy", "netwerkbeveiliging", "programma-updates", "online veiligheid"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Een cartoonslot dat een laptop beschermt, met een hacker op de achtergrond."
 coverCaption: ""
@@ -24,11 +25,11 @@ Om deze fout te voorkomen moet u **sterke wachtwoorden** gebruiken die minstens 
 ____
 
 
-## Fout #2: Trappen in Phishing-zwendel
+## Fout #2: In phishingberichten trappen
 
 Phishing-zwendel is een veelgebruikte tactiek van cybercriminelen om mensen te verleiden gevoelige informatie zoals gebruikersnamen, wachtwoorden en creditcardnummers weg te geven. Deze zwendel komt vaak in de vorm van e-mails of sms-berichten die van een legitieme bron lijken te komen, zoals een bank of een online winkel.
 
-Wees op uw hoede voor ongevraagde e-mails of berichten**, vooral als u wordt gevraagd op een link te klikken of persoonlijke gegevens te verstrekken. Als u een e-mail of bericht ontvangt dat er verdacht uitziet, klik dan niet op een link en geef geen informatie. Neem in plaats daarvan rechtstreeks contact op met het bedrijf om de echtheid van het bericht te verifiëren.
+Wees op uw hoede voor ongevraagde **e-mails of berichten**, vooral als u wordt gevraagd op een link te klikken of persoonlijke gegevens te verstrekken. Als u een e-mail of bericht ontvangt dat er verdacht uitziet, klik dan niet op een link en geef geen informatie. Neem in plaats daarvan rechtstreeks contact op met het bedrijf om de echtheid van het bericht te verifiëren.
 
 ____
 
@@ -42,27 +43,27 @@ Om deze fout te voorkomen, **vermijd het gebruik van openbare Wi-Fi-netwerken**,
 ____
 
 
-## Fout #4: Software niet up-to-date houden
+## Fout #4: Programma’s actueel houden
 
 Software-updates bevatten vaak beveiligingspatches die kwetsbaarheden in de software verhelpen. Als u uw software niet bijwerkt, bent u kwetsbaar voor bekende veiligheidsbedreigingen.
 
-Om deze fout te voorkomen moet u uw software up-to-date houden** door updates te installeren zodra deze beschikbaar zijn. Hieronder vallen updates van het besturingssysteem, maar ook updates van uw webbrowser, e-mailclient en andere softwareprogramma's.
+Om deze fout te voorkomen moet u uw **software up-to-date houden** door updates te installeren zodra deze beschikbaar zijn. Hieronder vallen updates van het besturingssysteem, maar ook updates van uw webbrowser, e-mailclient en andere softwareprogramma's.
 
 ____
 
 
-## Fout 5: geen antivirussoftware gebruiken
+## Fout 5: geen virusscanners gebruiken
 
 Antivirussoftware is ontworpen om kwaadaardige software, zoals virussen, spyware en ransomware, op te sporen en te verwijderen. Als u geen antivirussoftware gebruikt, bent u kwetsbaar voor dit soort bedreigingen.
 
-Om deze fout te voorkomen, moet u antivirussoftware** op uw computer installeren en deze up-to-date houden. Zorg ervoor dat u regelmatig scans uitvoert om alle bedreigingen die mogelijk langs uw antivirussoftware zijn geglipt op te sporen en te verwijderen.
+Om deze fout te voorkomen, moet u **antivirussoftware** op uw computer installeren en deze up-to-date houden. Zorg ervoor dat u regelmatig scans uitvoert om alle bedreigingen die mogelijk langs uw antivirussoftware zijn geglipt op te sporen en te verwijderen.
 
 ____
 
 
-## Fout #6: Te veel informatie delen op sociale media
+## Fout #6: Te veel informatie delen op sociale netwerken
 
-Sociale media platforms zijn een schat aan persoonlijke informatie die cybercriminelen kunnen gebruiken om gerichte aanvallen op u uit te voeren. Te veel informatie delen op sociale media kan u in gevaar brengen voor identiteitsdiefstal en andere vormen van cybercriminaliteit.
+Sociale media platforms zijn een schat aan persoonlijke informatie die cybercriminelen kunnen gebruiken om gerichte aanvallen op u uit te voeren. Te veel informatie delen op sociale netwerken kan u in gevaar brengen voor identiteitsdiefstal en andere vormen van cybercriminaliteit.
 
 Om deze fout te voorkomen, moet u **voorzichtig zijn met wat u deelt op sociale media**. Vermijd het plaatsen van gevoelige informatie zoals uw huisadres, telefoonnummer of financiële informatie. Wees op uw hoede voor vriendschapsverzoeken van mensen die u niet kent en vermijd het klikken op links of het downloaden van bestanden van onbekende bronnen.
 
@@ -78,11 +79,11 @@ Om deze fout te voorkomen, **maakt u regelmatig een back-up van uw gegevens** op
 ____
 
 
-## Fout #8: Openbare computers gebruiken voor gevoelige taken
+## Fout #8: Publieke pc’s gebruiken voor gevoelige taken
 
 Openbare computers, zoals die in bibliotheken of cybercafés, worden vaak door veel mensen gebruikt en zijn mogelijk niet goed beveiligd. Het gebruik van een openbare computer voor gevoelige taken zoals online bankieren of winkelen kan uw persoonlijke informatie in gevaar brengen.
 
-Om deze fout te voorkomen, moet u waar mogelijk het gebruik van openbare computers** voor gevoelige taken vermijden. Als u toch een openbare computer gebruikt, zorg er dan voor dat u uitlogt als u klaar bent en uw browsegeschiedenis en cookies wist.
+Om deze fout te voorkomen, moet u waar mogelijk het gebruik van **openbare computers** voor gevoelige taken vermijden. Als u toch een openbare computer gebruikt, zorg er dan voor dat u uitlogt als u klaar bent en uw browsegeschiedenis en cookies wist.
 
 
 ____

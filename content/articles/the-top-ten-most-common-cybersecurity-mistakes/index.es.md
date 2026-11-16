@@ -1,10 +1,11 @@
 ---
 title: "10 errores comunes de ciberseguridad y cómo evitarlos"
 date: 2023-03-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aprenda a protegerse de las ciberamenazas evitando estos 10 errores comunes de ciberseguridad."
-tags: ["ciberseguridad", "seguridad en línea", "amenazas cibernéticas", "piratería", "phishing", "malware", "contraseñas", "Wi-Fi público", "antivirus", "social media", "copia de seguridad de datos", "advertencias de seguridad", "estaciones públicas de recarga", "seguridad informática", "prevención de la ciberdelincuencia", "robo de identidad", "privacidad digital", "seguridad de la red", "actualizaciones de software", "seguridad en línea"]
+tags: ["ciberseguridad", "seguridad en línea", "amenazas cibernéticas", "piratería", "suplantación de identidad", "software malicioso", "contraseñas", "Wi-Fi público", "software antimalicioso", "redes sociales", "copia de seguridad de datos", "advertencias de seguridad", "estaciones públicas de recarga", "seguridad informática", "prevención de la ciberdelincuencia", "robo de identidad", "privacidad digital", "seguridad de la red", "actualizaciones de software", "seguridad en línea"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Un candado de dibujos animados protege un ordenador portátil, con un hacker al fondo."
 coverCaption: ""
@@ -24,7 +25,7 @@ Para evitar este error, **utiliza contraseñas seguras** que tengan al menos 12 
 ____
 
 
-## Error nº 2: caer en las estafas de phishing
+## Error nº 2: caer en las estafas de suplantación de identidad
 
 Las estafas de phishing son una táctica común utilizada por los ciberdelincuentes para engañar a la gente y hacer que facilite información confidencial, como nombres de usuario, contraseñas y números de tarjetas de crédito. Estas estafas suelen presentarse en forma de correos electrónicos o mensajes de texto que parecen proceder de una fuente legítima, como un banco o una tienda online.
 
@@ -42,7 +43,7 @@ Para evitar este error, **evite utilizar redes Wi-Fi públicas**, especialmente 
 ____
 
 
-## Error #4: No mantener actualizado el software
+## Error #4: No mantener actualizados los programas
 
 Las actualizaciones de software suelen incluir parches de seguridad que corrigen vulnerabilidades del software. No actualizar el software le hace vulnerable a amenazas de seguridad conocidas.
 
@@ -51,7 +52,7 @@ Para evitar este error, **mantén tu software al día** instalando las actualiza
 ____
 
 
-## Error #5: No usar software antivirus
+## Error #5: No usar protección contra programas maliciosos
 
 El software antivirus está diseñado para detectar y eliminar software malicioso, como virus, spyware y ransomware. No utilizar software antivirus le hace vulnerable a este tipo de amenazas.
 

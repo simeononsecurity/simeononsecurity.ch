@@ -1,10 +1,11 @@
 ---
 title: "10 häufige Fehler bei der Cybersicherheit und wie man sie vermeidet"
 date: 2023-03-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie sich vor Cyber-Bedrohungen schützen können, indem Sie diese 10 häufigen Fehler im Bereich der Cybersicherheit vermeiden."
-tags: ["Cybersicherheit", "Online-Sicherheit", "Cyber-Bedrohungen", "Hacken", "Phishing", "Malware", "Passwörter", "öffentliches Wi-Fi", "Antivirus", "soziale Medien", "Datensicherung", "Sicherheitswarnungen", "öffentliche Ladestationen", "Computersicherheit", "Prävention von Internetkriminalität", "Identitätsdiebstahl", "digitaler Datenschutz", "Netzwerksicherheit", "Software-Aktualisierungen", "Online-Sicherheit"]
+tags: ["Cybersicherheit", "Online-Sicherheit", "Cyber-Bedrohungen", "Hacken", "Betrugsversuche", "Schadsoftware", "Passwörter", "öffentliches Wi-Fi", "Virenschutz", "soziale Medien", "Datensicherung", "Sicherheitswarnungen", "öffentliche Ladestationen", "Computersicherheit", "Prävention von Internetkriminalität", "Identitätsdiebstahl", "digitaler Datenschutz", "Netzwerksicherheit", "Software-Aktualisierungen", "Online-Sicherheit"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Ein Cartoon-Schloss, das einen Laptop schützt, mit einem Hacker im Hintergrund."
 coverCaption: ""
@@ -24,9 +25,9 @@ Um diesen Fehler zu vermeiden, **verwenden Sie sichere Kennwörter**, die mindes
 ____
 
 
-## Fehler Nr. 2: Auf Phishing-Betrügereien hereinfallen
+## Fehler Nr. 2: Auf Phishing-Betrugsnachrichten hereinfallen
 
-Phishing-Betrügereien sind eine gängige Taktik von Cyberkriminellen, um Menschen dazu zu bringen, vertrauliche Informationen wie Benutzernamen, Kennwörter und Kreditkartennummern preiszugeben. Diese Betrügereien erfolgen oft in Form von E-Mails oder Textnachrichten, die den Anschein erwecken, von einer seriösen Quelle zu stammen, z. B. von einer Bank oder einem Online-Händler.
+Betrugsversuche sind eine gängige Taktik von Cyberkriminellen, um Menschen dazu zu bringen, vertrauliche Informationen wie Benutzernamen, Kennwörter und Kreditkartennummern preiszugeben. Diese Betrügereien erfolgen oft in Form von E-Mails oder Textnachrichten, die den Anschein erwecken, von einer seriösen Quelle zu stammen, z. B. von einer Bank oder einem Online-Händler.
 
 Um zu vermeiden, dass Sie auf Phishing-Betrug hereinfallen, **sind Sie bei unaufgeforderten E-Mails oder Nachrichten** vorsichtig, insbesondere bei solchen, die Sie auffordern, auf einen Link zu klicken oder persönliche Daten anzugeben. Wenn Sie eine E-Mail oder Nachricht erhalten, die verdächtig aussieht, klicken Sie nicht auf einen Link und geben Sie keine Informationen an. Wenden Sie sich stattdessen direkt an das Unternehmen, um die Echtheit der Nachricht zu überprüfen.
 
@@ -42,7 +43,7 @@ Um diesen Fehler zu vermeiden, **vermeiden Sie öffentliche Wi-Fi-Netzwerke**, i
 ____
 
 
-## Fehler #4: Software nicht auf dem neuesten Stand halten
+## Fehler #4: Programme nicht auf dem neuesten Stand halten
 
 Software-Updates enthalten oft Sicherheits-Patches, die Schwachstellen in der Software beheben. Wenn Sie Ihre Software nicht aktualisieren, sind Sie anfällig für bekannte Sicherheitsbedrohungen.
 
@@ -51,7 +52,7 @@ Um diesen Fehler zu vermeiden, **halten Sie Ihre Software auf dem neuesten Stand
 ____
 
 
-## Fehler #5: Keine Antiviren-Software verwenden
+## Fehler #5: Keinen Virenschutz verwenden
 
 Antiviren-Software dient dazu, bösartige Software wie Viren, Spyware und Ransomware zu erkennen und zu entfernen. Wenn Sie keine Antiviren-Software verwenden, sind Sie anfällig für diese Arten von Bedrohungen.
 
@@ -97,7 +98,7 @@ Um diesen Fehler zu vermeiden, sollten Sie **Sicherheitswarnungen** beachten und
 
 ____
 
-Fehler ## 10: Vertrauen in öffentliche Ladestationen
+## Fehler Nr. 10: Öffentliche Ladestationen vertrauen
 
 Öffentliche Ladestationen, wie z. B. an Flughäfen oder in Cafés, sind zwar praktisch, können aber auch von Cyberkriminellen genutzt werden, um Malware auf Ihrem Gerät zu installieren oder Ihre persönlichen Daten zu stehlen.
 
@@ -108,7 +109,7 @@ ____
 
 ## Schlussfolgerung
 
-Cybersicherheit ist im heutigen digitalen Zeitalter ein wichtiges Thema, und es ist wichtig, Maßnahmen zu ergreifen, um Ihre persönlichen Daten und Geräte vor Cyberbedrohungen zu schützen. Wenn Sie diese häufigen Fehler bei der Cybersicherheit vermeiden und bewährte Verfahren für die Online-Sicherheit befolgen, können Sie Ihr Risiko, Opfer von Cyberkriminalität zu werden, verringern. Denken Sie daran, sichere Passwörter zu verwenden, sich vor Phishing-Betrügereien in Acht zu nehmen, ungesichertes öffentliches WLAN zu meiden, Ihre Software auf dem neuesten Stand zu halten, Antivirensoftware zu verwenden, darauf zu achten, was Sie in sozialen Medien teilen, regelmäßig eine Sicherungskopie Ihrer Daten zu erstellen, öffentliche Computer nicht für sensible Aufgaben zu verwenden, auf Sicherheitswarnungen zu achten und bei der Nutzung öffentlicher Ladestationen vorsichtig zu sein.
+Cybersicherheit ist im heutigen digitalen Zeitalter ein wichtiges Thema, und es ist wichtig, Maßnahmen zu ergreifen, um Ihre persönlichen Daten und Geräte vor Cyberbedrohungen zu schützen. Wenn Sie diese häufigen Fehler bei der Cybersicherheit vermeiden und bewährte Verfahren für die Online-Sicherheit befolgen, können Sie Ihr Risiko, Opfer von Cyberkriminalität zu werden, verringern. Denken Sie daran, sichere Passwörter zu verwenden, sich vor Betrugsversuche in Acht zu nehmen, ungesichertes öffentliches WLAN zu meiden, Ihre Software auf dem neuesten Stand zu halten, Antivirensoftware zu verwenden, darauf zu achten, was Sie in sozialen Medien teilen, regelmäßig eine Sicherungskopie Ihrer Daten zu erstellen, öffentliche Computer nicht für sensible Aufgaben zu verwenden, auf Sicherheitswarnungen zu achten und bei der Nutzung öffentlicher Ladestationen vorsichtig zu sein.
 
 ## Referenzen
 

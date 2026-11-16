@@ -1,10 +1,11 @@
 ---
 title: "10 najczęstszych błędów związanych z bezpieczeństwem cybernetycznym i jak ich uniknąć"
 date: 2023-03-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Dowiedz się, jak chronić się przed cyberzagrożeniami, unikając tych 10 powszechnych błędów cyberbezpieczeństwa."
-tags: ["cybersecurity", "bezpieczeństwo w sieci", "zagrożenia cybernetyczne", "hakowanie", "phishing", "złośliwe oprogramowanie", "hasła", "publiczna sieć Wi-Fi", "antywirus", "media społecznościowe", "kopia zapasowa danych", "ostrzeżenia dotyczące bezpieczeństwa", "publiczne stacje ładowania", "bezpieczeństwo komputerowe", "zapobieganie cyberprzestępczości", "kradzież tożsamości", "prywatność cyfrowa", "bezpieczeństwo sieci", "aktualizacje oprogramowania", "bezpieczeństwo w sieci"]
+tags: ["cyberbezpieczeństwo", "bezpieczeństwo w sieci", "zagrożenia cybernetyczne", "hakowanie", "oszustwa podszywające się", "złośliwe oprogramowanie", "hasła", "publiczna sieć Wi-Fi", "antywirus", "media społecznościowe", "kopia zapasowa danych", "ostrzeżenia dotyczące bezpieczeństwa", "publiczne stacje ładowania", "bezpieczeństwo komputerowe", "zapobieganie cyberprzestępczości", "kradzież tożsamości", "prywatność cyfrowa", "bezpieczeństwo sieci", "aktualizacje oprogramowania", "bezpieczeństwo w sieci"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Kreskówkowy zamek zabezpieczający laptopa, z hakerem w tle."
 coverCaption: ""
@@ -24,7 +25,7 @@ Aby uniknąć tego błędu, **używaj silnych haseł**, które mają co najmniej
 ____
 
 
-## Błąd nr 2: Oszustwa typu phishing
+## Błąd nr 2: Oszustwa phishingowe
 
 Oszustwa phishingowe to powszechna taktyka stosowana przez cyberprzestępców w celu nakłonienia ludzi do podania poufnych informacji, takich jak nazwy użytkownika, hasła i numery kart kredytowych. Oszustwa te często mają formę wiadomości e-mail lub SMS, które wydają się pochodzić z legalnego źródła, takiego jak bank lub sprzedawca internetowy.
 
@@ -37,7 +38,7 @@ ____
 
 Publiczne sieci Wi-Fi są często niezabezpieczone, co oznacza, że każdy może uzyskać do nich dostęp i potencjalnie przechwycić dane, które przesyłasz przez sieć. Cyberprzestępcy mogą wykorzystać tę lukę do kradzieży Twoich danych osobowych, takich jak dane logowania i numery kart kredytowych.
 
-Aby uniknąć tego błędu, unikaj korzystania z publicznych sieci Wi-Fi**, zwłaszcza tych niezabezpieczonych. Jeśli musisz korzystać z publicznych sieci Wi-Fi, użyj wirtualnej sieci prywatnej (VPN), aby zaszyfrować swoje dane i chronić swoją prywatność.
+Aby uniknąć tego błędu, unikaj korzystania z **publicznych sieci Wi-Fi**, zwłaszcza tych niezabezpieczonych. Jeśli musisz korzystać z publicznych sieci Wi-Fi, użyj wirtualnej sieci prywatnej (VPN), aby zaszyfrować swoje dane i chronić swoją prywatność.
 
 ____
 
@@ -51,7 +52,7 @@ Aby uniknąć tego błędu, **utrzymuj swoje oprogramowanie na bieżąco**, inst
 ____
 
 
-## Błąd #5: Nieużywanie oprogramowania antywirusowego
+## Błąd #5: Brak programu antywirusowego
 
 Oprogramowanie antywirusowe jest zaprojektowane do wykrywania i usuwania złośliwego oprogramowania, takiego jak wirusy, spyware i ransomware. Nieużywanie oprogramowania antywirusowego sprawia, że jesteś narażony na tego typu zagrożenia.
 
@@ -82,7 +83,7 @@ ____
 
 Komputery publiczne, takie jak te znajdujące się w bibliotekach lub kafejkach internetowych, są często używane przez wiele osób i mogą nie być odpowiednio zabezpieczone. Używanie publicznych komputerów do wrażliwych zadań, takich jak bankowość internetowa lub zakupy, może narazić Twoje dane osobowe na ryzyko.
 
-Aby uniknąć tego błędu, należy w miarę możliwości unikać korzystania z komputerów publicznych** do zadań wrażliwych. Jeśli musisz skorzystać z komputera publicznego, pamiętaj, aby po zakończeniu pracy wylogować się ze wszystkich kont i wyczyścić historię przeglądania oraz pliki cookie.
+Aby uniknąć tego błędu, należy w miarę możliwości unikać korzystania z **komputerów publicznych** do zadań wrażliwych. Jeśli musisz skorzystać z komputera publicznego, pamiętaj, aby po zakończeniu pracy wylogować się ze wszystkich kont i wyczyścić historię przeglądania oraz pliki cookie.
 
 
 ____
@@ -101,7 +102,7 @@ ____
 
 Publiczne stacje ładowania, takie jak te znajdujące się na lotniskach lub w kawiarniach, mogą być wygodne, ale mogą być również wykorzystywane przez cyberprzestępców do instalowania złośliwego oprogramowania na Twoim urządzeniu lub kradzieży Twoich danych osobowych.
 
-Aby uniknąć tego błędu, unikaj korzystania z publicznych stacji ładowania**, jeśli tylko jest to możliwe. Jeśli musisz skorzystać z publicznej stacji ładowania, użyj blokady danych USB, aby zapobiec synchronizacji urządzenia ze stacją ładowania i pamiętaj o monitorowaniu urządzenia pod kątem wszelkich nietypowych działań.
+Aby uniknąć tego błędu, unikaj korzystania z **publicznych stacji ładowania**, jeśli tylko jest to możliwe. Jeśli musisz skorzystać z publicznej stacji ładowania, użyj blokady danych USB, aby zapobiec synchronizacji urządzenia ze stacją ładowania i pamiętaj o monitorowaniu urządzenia pod kątem wszelkich nietypowych działań.
 
 ____
 

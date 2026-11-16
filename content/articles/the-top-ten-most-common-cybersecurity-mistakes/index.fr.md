@@ -1,10 +1,11 @@
 ---
 title: "10 erreurs courantes en matière de cybersécurité et comment les éviter"
 date: 2023-03-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Apprenez à vous protéger des cybermenaces en évitant ces 10 erreurs courantes en matière de cybersécurité."
-tags: ["cybersécurité", "sécurité en ligne", "cybermenaces", "piratage", "hameçonnage", "logiciels malveillants", "mots de passe", "Wi-Fi public", "antivirus", "médias sociaux", "sauvegarde des données", "avertissements de sécurité", "stations de recharge publiques", "sécurité informatique", "prévention de la cybercriminalité", "vol d'identité", "vie privée numérique", "sécurité des réseaux", "mises à jour du logiciel", "sécurité en ligne"]
+tags: ["cybersécurité", "sécurité en ligne", "cybermenaces", "piratage", "hameçonnage", "logiciels malveillants", "mots de passe", "Wi-Fi public", "protection contre les virus", "médias sociaux", "sauvegarde des données", "avertissements de sécurité", "stations de recharge publiques", "sécurité informatique", "prévention de la cybercriminalité", "vol d'identité", "vie privée numérique", "sécurité des réseaux", "mises à jour du logiciel", "sécurité en ligne"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Un cadenas de dessin animé protégeant un ordinateur portable, avec un pirate informatique en arrière-plan."
 coverCaption: ""
@@ -24,7 +25,7 @@ Pour éviter cette erreur, **utilisez des mots de passe forts** qui comportent a
 ____
 
 
-## Erreur #2 : Se laisser piéger par des escroqueries par hameçonnage
+## Erreur #2 : Se laisser piéger par des arnaques par hameçonnage
 
 Les escroqueries par hameçonnage sont une tactique courante utilisée par les cybercriminels pour inciter les gens à donner des informations sensibles telles que les noms d'utilisateur, les mots de passe et les numéros de carte de crédit. Ces escroqueries se présentent souvent sous la forme de courriels ou de messages textuels qui semblent provenir d'une source légitime, telle qu'une banque ou un détaillant en ligne.
 
@@ -33,7 +34,7 @@ Pour éviter de tomber dans le piège de l'hameçonnage, **se méfier des courri
 ____
 
 
-## Erreur #3 : Utiliser un réseau Wi-Fi public non sécurisé
+## Erreur #3 : Utiliser un réseau Wi-Fi ouvert et non sécurisé
 
 Les réseaux Wi-Fi publics sont souvent non sécurisés, ce qui signifie que n'importe qui peut y accéder et potentiellement intercepter les données que vous transmettez sur le réseau. Les cybercriminels peuvent utiliser cette vulnérabilité pour voler vos informations personnelles, telles que vos identifiants de connexion et vos numéros de carte de crédit.
 
@@ -51,9 +52,9 @@ Pour éviter cette erreur, **mettez vos logiciels à jour** en installant les mi
 ____
 
 
-## Erreur #5 : Ne pas utiliser de logiciel antivirus
+## Erreur #5 : Ne pas protéger son ordinateur contre les virus
 
-Les logiciels antivirus sont conçus pour détecter et supprimer les logiciels malveillants, tels que les virus, les logiciels espions et les logiciels rançonneurs. Ne pas utiliser de logiciel antivirus vous rend vulnérable à ces types de menaces.
+Les logiciels antivirus sont conçus pour détecter et supprimer les logiciels malveillants, tels que les virus, les logiciels espions et les logiciels rançonneurs. Ne pas protéger son ordinateur contre les virus vous rend vulnérable à ces types de menaces.
 
 Pour éviter cette erreur, **installez un logiciel antivirus** sur votre ordinateur et maintenez-le à jour. Veillez à effectuer des analyses régulières pour détecter et supprimer toute menace qui aurait échappé à votre logiciel antivirus.
 
@@ -97,7 +98,7 @@ Pour éviter cette erreur, **prêtez attention aux avertissements de sécurité*
 
 ____
 
-## Erreur #10 : Faire confiance aux stations de recharge publiques
+## Erreur #10 : Faire confiance aux bornes de recharge publiques
 
 Les stations de recharge publiques, comme celles que l'on trouve dans les aéroports ou les cafés, peuvent être pratiques, mais elles peuvent aussi être utilisées par des cybercriminels pour installer des logiciels malveillants sur votre appareil ou voler vos informations personnelles.
 
