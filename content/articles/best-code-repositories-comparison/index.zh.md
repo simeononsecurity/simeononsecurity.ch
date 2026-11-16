@@ -1,7 +1,7 @@
 ---
 title: "Azure DevOps、GitHub、GitLab 与 Bitbucket 对比"
 date: 2023-12-08
-lastmod: 2026-11-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "比较 Azure DevOps、GitHub、GitLab 和 Bitbucket 的功能、合规性、价格与适用场景，帮助你选择合适的平台。"
