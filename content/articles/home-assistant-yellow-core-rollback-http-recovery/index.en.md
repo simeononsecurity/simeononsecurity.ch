@@ -1,18 +1,18 @@
 ---
-title: "Home Assistant Yellow Web Interface Unreachable After a Core Rollback: Recovery Guide"
+title: "Home Assistant Core 2026.11 to 2026.10.4 Rollback: Fix HTTP Storage Version 3"
 date: 2026-11-15
 lastmod: 2026-11-15
 toc: true
-draft: true
-description: "Diagnose an HTTP storage version mismatch after a Home Assistant Yellow rollback, preserve configuration, restore web access, and verify Core."
+draft: false
+description: "Fix the HTTP storage version 3 error after Home Assistant Core 2026.11 rolls back to 2026.10.4 on Yellow. Includes guarded commands and verified output."
 genre: ["Home Automation", "Troubleshooting"]
-tags: ["Home Assistant Yellow", "Home Assistant OS", "Core rollback", "HTTP storage", "CM4"]
+tags: ["Home Assistant Yellow", "Home Assistant OS", "Core 2026.11 rollback", "Core 2026.10.4", "HTTP storage version 3", "CM4"]
 cover: "/img/cover/home-assistant-yellow-core-rollback-http-recovery.webp"
 coverAlt: "Illustration of a yellow computer board, broken configuration link, and restored web dashboard"
 coverCaption: ""
 ---
 
-A failed Home Assistant Core update rolled my Yellow CM4 back to an older release. The Yellow remained reachable on the network but stopped serving its dashboard because its HTTP settings file retained a newer storage format. The repair was to preserve the file, restore a format the older Core understood, and verify the saved listener before updating again.
+A failed Home Assistant Core 2026.11 update rolled my Yellow CM4 back to 2026.10.4. The Yellow remained reachable on the network but stopped serving its dashboard. The rollback left an HTTP settings file at storage version 3.1, while Core 2026.10.4 supports version 2.2. I preserved the file, converted a copy under strict checks, restored HTTP access, and then updated Core to 2026.11.1.
 
 <!--more-->
 
@@ -21,6 +21,8 @@ A failed Home Assistant Core update rolled my Yellow CM4 back to an older releas
 - **Confirm the mismatch.** Match the Core log error against the installed release and HTTP storage version.
 - **Preserve the file.** Keep an unchanged copy and an off-device backup before recovery.
 - **Verify the result.** Check Core's state, the saved listener, the dashboard, and the installed version.
+
+**Fix for this exact case:** [Preserve the HTTP file](#preserve-recovery-options), [build and validate a version 2.2 candidate](#apply-the-tested-fix-for-version-31), [install it after stopping Core](#apply-the-tested-fix-for-version-31), and [verify the update](#verify-the-update-outcome). The conversion checks the original fields and stops when they differ. Do not apply it to an uninspected HTTP file.
 
 ## Before you begin
 
@@ -34,18 +36,34 @@ The decisive error appeared in the Core log:
 Storage file http has version 3 which is newer than the max supported version 2
 ```
 
-The older Core release failed to load `http`. The frontend and other components depending on HTTP also failed. A router lease and healthy Observer page did not establish dashboard access. [Home Assistant Core issue #190583](https://github.com/home-assistant/core/issues/190583) documents the same rollback failure across several installations, including Yellow.
+The older Core release failed to load `http`. The frontend and other components depending on HTTP also failed. A router lease and healthy Observer page did not establish dashboard access. [Home Assistant Core issue #190583](https://github.com/home-assistant/core/issues/190583) documents the same rollback failure across several installations, including Yellow. [My comment on the issue](https://github.com/home-assistant/core/issues/190583#issuecomment-6908185955) records this Yellow's tested recovery and final Core state.
+
+**Cause of the web outage:** Core 2026.11 wrote `.storage/http` in format 3.1. The rollback restored Core 2026.10.4 but did not restore a compatible HTTP file. Core 2026.10.4 rejects storage version 3. This Yellow's saved `intermediate_v6` profile also fails the older schema. The reason the first update failed and triggered the rollback is unknown. As of 2026-11-15, the linked issue is open, and its discussion contains no maintainer-confirmed fix.
 
 Check the installed Core release and the HTTP store before changing files:
 
 ```bash
-ha core info --raw-json | jq '{version: .data.version, listener: .data.port}'
+ha core info --raw-json | jq -r '.data.version'
 
 storage=/mnt/data/supervisor/homeassistant/.storage
-jq '{version, minor_version, pending_present: (.data.pending != null), profile: .data.stable.ssl_profile, listener: .data.stable.server_port}' "$storage/http"
+jq '{version, minor_version, pending_present: (.data.pending != null), profile: .data.stable.ssl_profile}' "$storage/http"
+ha core logs | grep -F 'Storage file http has version 3'
 ```
 
-The first command reads Supervisor's saved listener. The second reads the HTTP file's listener. Compare them. A mismatch suggests an endpoint problem and calls for checking Core's actual listener.
+The output below reflects this case with timestamps and private details removed:
+
+```text
+2026.10.4
+{
+  "version": 3,
+  "minor_version": 1,
+  "pending_present": false,
+  "profile": "intermediate_v6"
+}
+Storage file http has version 3 which is newer than the max supported version 2
+```
+
+The recovery commands below compare Supervisor's saved listener with the HTTP file without printing either value. A mismatch calls for checking Core's actual listener before changing files.
 
 | Signal | Meaning |
 | --- | --- |
@@ -70,9 +88,9 @@ Stop if the command fails. An earlier recovery copy with the same name stays unt
 
 When the dashboard is unavailable, use the Yellow serial console. The [Nabu Casa guide for Linux and macOS](https://support.nabucasa.com/hc/en-us/articles/25454972435357-Using-the-serial-console-on-Home-Assistant-Yellow-for-debugging-Linux-macOS) shows the USB-C connection and JP1 UART position. Follow the CM4 instructions for your hardware.
 
-## Restore a compatible HTTP file
+## Apply the tested fix for version 3.1
 
-The preferred path is a compatible HTTP file from before the update. Restore the backup through Home Assistant's documented process when a complete restore is appropriate. If you extract one file, confirm its storage version and saved listener before replacing the active file.
+The preferred path is a compatible HTTP file from before the update. Restore the backup through Home Assistant's documented process when a complete restore is appropriate. If you extract one file, confirm its storage version and saved listener before replacing the active file. The commands below are the direct fix tested on this Yellow when no compatible HTTP file was available.
 
 The [issue's original workaround](https://github.com/home-assistant/core/issues/190583) moves `.storage/http` aside and lets the older Core create a new file. A later [Yellow report](https://github.com/home-assistant/core/issues/190583#issuecomment-6749568119) shows a different listener in the regenerated file. Check the new file and `ha core info` before concluding the web interface is fixed.
 
@@ -130,6 +148,8 @@ print("Schema accepted")
 
 Stop if the schema rejects the candidate. This step does not validate every integration or an untested HTTP store shape.
 
+The schema check printed `Schema accepted` for this candidate. Any other result stops this recovery path.
+
 This manual conversion was tested for the stated fields. A file with TLS settings, trusted proxies, or a pending configuration needs its own review. Changing only the top-level version number leaves a profile the older Core does not accept.
 
 Supervisor had an active Core job and rejected `ha core stop` in my case. I stopped the Core container from the host console, installed the validated candidate, and started it:
@@ -147,9 +167,17 @@ jq -e '.version == 2 and .minor_version == 2 and .data.pending == null and .data
 
 If a command fails after the stop, inspect the active HTTP file before running `docker start homeassistant`. A changed file needs a new candidate built from its latest contents. The HTTP page returned after this step. An HTTP response alone did not prove Core had finished startup, so I checked Supervisor's state before treating the system as recovered.
 
+On this Yellow, `docker inspect -f '{{.State.Status}}' homeassistant` then printed `running`. Check `ha core info` and the dashboard before requesting another update.
+
 ## Verify the update outcome
 
-After HTTP access returned, I updated Core to 2026.11.1. The command reported a failure after a long startup. Supervisor then logged Core as RUNNING and `Successfully started Home Assistant 2026.11.1`. A status read showed the installed release was current, the HTTP file had migrated back to version 3.1, and the container had zero restarts during observation. The authenticated dashboard loaded.
+After HTTP access returned, I updated Core to 2026.11.1. To request that release:
+
+```bash
+ha core update --version 2026.11.1
+```
+
+The command reported a failure after a long startup. Supervisor then logged Core as RUNNING and `Successfully started Home Assistant 2026.11.1`. A status read showed the installed release was current, the HTTP file had migrated back to version 3.1, and the container had zero restarts during observation. The authenticated dashboard loaded. **Check the resulting state even when the update command reports failure.**
 
 For your system, check the release, Supervisor health, and container state after any long update:
 
@@ -157,6 +185,16 @@ For your system, check the release, Supervisor health, and container state after
 ha core info --raw-json | jq '{version: .data.version, update_available: .data.update_available}'
 ha supervisor info --raw-json | jq '{healthy: .data.healthy, supported: .data.supported}'
 docker inspect -f '{{.State.Status}} restarts={{.RestartCount}}' homeassistant
+```
+
+The first and third commands produced these sanitized results in this case:
+
+```text
+{
+  "version": "2026.11.1",
+  "update_available": false
+}
+running restarts=0
 ```
 
 Then open the dashboard through your normal local address and confirm live states load. Keep the saved HTTP file until a subsequent backup and normal operation are verified.
