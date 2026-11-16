@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Screen article translations for copied or English-dominant reader-facing prose.
 
+The blocking mode also detects copied English list connectors and English-heavy
+reader-facing comments or natural-language values in executable code fences.
+
 Run on one or more article bundles, or scan all published article bundles:
 
     python3 tools/check_translation_english_leakage.py content/articles/<slug>
@@ -84,6 +87,8 @@ CSV_FIELDS = [
     "copied_english_table_cells", "copied_english_headings",
     "copied_english_metadata", "taxonomy_count_differences",
     "expected_script_ratio", "copied_english_opening", "copied_link_labels",
+    "copied_english_link_connectors",
+    "english_reader_code_prose_fallback",
     "copied_english_body",
     "markdown_structure_differences", "note",
 ]
@@ -321,6 +326,7 @@ def reader_fenced_code_prose(text: str) -> set[str]:
         "bash", "sh", "shell", "zsh", "powershell", "pwsh", "python", "py",
         "ruby", "perl", "pl", "yaml", "yml", "toml", "ini", "dockerfile",
         "make", "makefile", "r", "terraform", "tf", "hcl", "julia", "jl",
+        "azurecli", "azcli",
     }
     slash_comment_languages = {
         "javascript", "js", "typescript", "ts", "go", "rust", "c", "cpp",
@@ -454,6 +460,17 @@ def reader_fenced_code_prose(text: str) -> set[str]:
                 normalized = normalize(comment.group(1))
                 if normalized:
                     findings.add(normalized)
+            reader_text_assignment = re.search(
+                r"\b[A-Za-z_]*(?:description|message|title|caption|comment|labeltext|displaytext)"
+                r"\s*[:=]\s*([\"'])(.*?)\1",
+                line,
+                re.I,
+            )
+            if reader_text_assignment:
+                text_value = reader_text_assignment.group(2).strip()
+                words = normalize(text_value).split()
+                if len(words) >= 5 and sum(word in ENGLISH_STOPWORDS for word in words) >= 2:
+                    findings.add(normalize(text_value))
             inline_markers: list[tuple[str, bool]] = []
             if any(marker.startswith("#") for marker in line_comment_markers):
                 inline_markers.append((r"#", language in hash_inline_requires_space))
@@ -648,6 +665,19 @@ def copied_reader_code_prose(source: str, target: str) -> set[str]:
     return reader_fenced_code_prose(source) & reader_fenced_code_prose(target)
 
 
+def english_reader_code_prose_fallback(source: str, target: str) -> list[str]:
+    """Screen copied code prose for English stopword-dense sentences and comments."""
+    findings = []
+    for phrase in copied_reader_code_prose(source, target):
+        words = re.findall(r"[a-z]+(?:'[a-z]+)?", phrase.lower())
+        if len(words) < 5:
+            continue
+        english_ratio = sum(word in ENGLISH_STOPWORDS for word in words) / len(words)
+        if english_ratio >= 0.16:
+            findings.append(phrase)
+    return sorted(findings)
+
+
 def split_word_emphasis(text: str, locale: str | None = None) -> list[str]:
     """Find emphasis spans embedded in words or isolated Japanese particles."""
     visible = visible_text(strip_fenced_blocks(text))
@@ -740,6 +770,25 @@ def copied_english_link_labels(source: str, target: str) -> list[str]:
         ):
             copied.append(f"{source_label} => {target_label} => {source_target}")
     return copied
+
+
+def copied_english_link_connectors(text: str) -> list[str]:
+    """Find English `and` left as the connector in a linked item list."""
+    findings = []
+    visible = strip_fenced_blocks(text)
+
+    def blank_code_span(match: re.Match[str]) -> str:
+        return "".join("\n" if char == "\n" else " " for char in match.group())
+
+    visible = re.sub(r"(`+)(.+?)\1", blank_code_span, visible, flags=re.S)
+    for line_number, line in enumerate(visible.splitlines(), start=1):
+        for match in re.finditer(r"(?i)\band\s+(?=\[)", line):
+            if len(markdown_links(line[:match.start()])) < 2:
+                continue
+            next_link = re.match(r"\[([^\]]+)\]", line[match.end():])
+            label = next_link.group(1).strip() if next_link else "linked item"
+            findings.append(f"line {line_number}: and before {label}")
+    return findings
 
 
 def markdown_headings(text: str) -> list[tuple[int, str]]:
@@ -1292,6 +1341,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_code_prose = sorted(copied_reader_code_prose(source_body, body))
         if copied_code_prose:
             reasons.append("copied_reader_code_prose")
+        english_code_fallback = english_reader_code_prose_fallback(source_body, body)
+        if english_code_fallback:
+            reasons.append("English_reader_code_prose_fallback")
         split_emphasis = split_word_emphasis(body, locale)
         if split_emphasis:
             reasons.append("markdown_split_word_emphasis")
@@ -1318,6 +1370,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_link_labels = copied_english_link_labels(source_body, body)
         if copied_link_labels:
             reasons.append("English_reader_link_label_copy")
+        copied_link_connectors = copied_english_link_connectors(body)
+        if copied_link_connectors:
+            reasons.append("copied_english_link_connector")
         for key in structure_differences:
             reasons.append(f"markdown_{key}_mismatch")
         if reasons:
@@ -1332,6 +1387,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "exact_english_sentences": " | ".join(copied_sentences),
                 "copied_reader_fenced_lines": " | ".join(copied_fence_lines),
                 "copied_reader_code_prose": " | ".join(copied_code_prose),
+                "english_reader_code_prose_fallback": " | ".join(english_code_fallback),
                 "copied_unlabeled_fence_lines": " | ".join(copied_unlabeled_fence),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
                 "split_word_emphasis": " | ".join(split_emphasis),
@@ -1348,6 +1404,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_english_opening": copied_opening,
                 "copied_link_labels": " | ".join(copied_link_labels),
+                "copied_english_link_connectors": " | ".join(copied_link_connectors),
                 "copied_english_body": copied_body,
                 "markdown_structure_differences": json.dumps(
                     structure_differences, ensure_ascii=False, sort_keys=True
@@ -1367,7 +1424,8 @@ def main() -> int:
         action="store_true",
         help=(
             "fail only on high-confidence English fallback signals: an exact English body, "
-            "many copied English paragraphs, English stopword dominance, or a missing target script"
+            "many copied English paragraphs, English stopword dominance, copied reader-facing code text, "
+            "or a missing target script"
         ),
     )
     args = parser.parse_args()
@@ -1397,6 +1455,9 @@ def main() -> int:
             "English_stopword_dominance",
             "English_dominant_reader_body",
             "expected_script_missing",
+            "copied_english_opening",
+            "copied_english_link_connector",
+            "English_reader_code_prose_fallback",
         }
         blockers = [
             row for row in findings

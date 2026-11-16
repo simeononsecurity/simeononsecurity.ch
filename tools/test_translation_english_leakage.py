@@ -14,6 +14,7 @@ from check_translation_english_leakage import (
     audit_bundle,
     copied_english_prose_spans,
     copied_english_link_labels,
+    copied_english_link_connectors,
     copied_english_headings,
     copied_english_opening,
     copied_english_taxonomy,
@@ -22,6 +23,7 @@ from check_translation_english_leakage import (
     copied_reader_fenced_examples,
     copied_reader_fenced_lines,
     copied_reader_code_prose,
+    english_reader_code_prose_fallback,
     copied_unlabeled_fence_lines,
     english_dominant_paragraphs,
     english_dominant_body,
@@ -240,6 +242,33 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(result, 1)
         self.assertIn("English_dominant_reader_body", stdout.getvalue())
+        self.assertIn(str(bundle / "index.fr.md"), stdout.getvalue())
+
+    def test_strict_gate_blocks_copied_product_comparison_opening(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            opening = "**Azure DevOps vs GitHub vs GitLab vs Bitbucket**"
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Azure DevOps vs GitHub vs GitLab vs Bitbucket'\n---\n"
+                f"{opening}\n\nThis is the English source paragraph for the comparison.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Azure DevOps vs GitHub vs GitLab vs Bitbucket'\n---\n"
+                f"{opening}\n\nCette analyse compare les plateformes selon vos besoins.\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_opening", stdout.getvalue())
         self.assertIn(str(bundle / "index.fr.md"), stdout.getvalue())
 
     def test_strict_gate_does_not_treat_one_english_paragraph_as_whole_body_fallback(self):
@@ -590,6 +619,89 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(copied_english_link_labels(source, target), [])
 
+    def test_flags_english_and_connector_between_linked_list_items(self):
+        text = (
+            "Algunos servicios incluyen [A](https://example.com/a), "
+            "[B](https://example.com/b), and [C](https://example.com/c)."
+        )
+
+        self.assertEqual(
+            copied_english_link_connectors(text),
+            ["line 1: and before C"],
+        )
+
+    def test_ignores_english_and_connector_inside_code_or_single_link(self):
+        text = (
+            "[Session](https://example.com/session) and [Threema](https://example.com/threema).\n"
+            "```text\n[A](https://example.com/a), [B](https://example.com/b), and "
+            "[C](https://example.com/c)\n```\n"
+            "[A](https://example.com/a), and [B](https://example.com/b)\n"
+            "Sample syntax: `[A](https://example.com/a), [B](https://example.com/b), and "
+            "[C](https://example.com/c)`.\n"
+            "Multiline example: `preview\n[A](https://example.com/a), "
+            "[B](https://example.com/b), and [C](https://example.com/c)\nend preview`."
+        )
+
+        self.assertEqual(copied_english_link_connectors(text), [])
+
+    def test_strict_gate_blocks_english_link_list_connector(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Messaging services'\n---\n"
+                "## Options\n\nCompare [A](https://example.com/a), "
+                "[B](https://example.com/b), and [C](https://example.com/c).\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.es.md").write_text(
+                "---\ntitle: 'Servicios de mensajería'\n---\n"
+                "## Opciones\n\nCompara [A](https://example.com/a), "
+                "[B](https://example.com/b), and [C](https://example.com/c).\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["es"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("high-confidence English fallbacks: 1", stdout.getvalue())
+        self.assertIn("copied_english_link_connector", stdout.getvalue())
+        self.assertNotIn("English_dominant_reader_body", stdout.getvalue())
+
+    def test_strict_gate_blocks_copied_reader_code_comments(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Create a virtual network'\n---\n"
+                "## Steps\n\nFollow the commands below to create a network.\n\n"
+                "```azurecli\n# Create a virtual network and subnet\n"
+                "az network vnet create --name MyVNet\n```\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Créer un réseau virtuel'\n---\n"
+                "## Étapes\n\nSuivez les commandes ci-dessous pour créer un réseau.\n\n"
+                "```azurecli\n# Create a virtual network and subnet\n"
+                "az network vnet create --name MyVNet\n```\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("English_reader_code_prose_fallback", stdout.getvalue())
+
     def test_keeps_text_fences_and_excludes_executable_fences(self):
         sample = (
             "```text\nTranslate this prompt for the reader.\n```\n"
@@ -669,6 +781,33 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(reader_fenced_code_prose(source), {"analyze component store"})
         self.assertFalse(copied_reader_code_prose(source, translated))
+
+    def test_screens_azurecli_comments_and_powershell_label_descriptions(self):
+        source = (
+            "```azurecli\n"
+            "# Create a virtual network and subnet\n"
+            "az network vnet create --name MyVNet\n"
+            "```\n"
+            "```powershell\n"
+            '$LabelDescription = "This label applies encryption and an access policy for internal use only."\n'
+            "```\n"
+        )
+
+        self.assertEqual(
+            reader_fenced_code_prose(source),
+            {
+                "create a virtual network and subnet",
+                "this label applies encryption and an access policy for internal use only",
+            },
+        )
+        self.assertEqual(copied_reader_code_prose(source, source), reader_fenced_code_prose(source))
+        self.assertEqual(
+            english_reader_code_prose_fallback(source, source),
+            [
+                "create a virtual network and subnet",
+                "this label applies encryption and an access policy for internal use only",
+            ],
+        )
 
     def test_screens_comments_without_space_and_markup_language_comments(self):
         sample = (

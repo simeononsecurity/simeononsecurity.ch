@@ -250,7 +250,11 @@
   output such as a permission error or a required `PASS:` result.
   Inspect executable fences for reader-facing comments and natural-language
   strings as well. Translate comments and example text such as a commit subject
-  while preserving valid command syntax. Keep literal runtime output, identifiers,
+  while preserving valid command syntax. The checker covers Azure CLI
+  (`azurecli`/`azcli`) comments and common human-readable `Description`,
+  `Message`, `Title`, and similar assignments in executable fences. Its strict
+  gate blocks copied code prose with at least five words and English stopword
+  density of 0.16 or higher. Keep literal runtime output, identifiers,
   paths, and command names unchanged. The checker screens comments and common
   output calls in shell and PowerShell (`powershell`/`pwsh` fences), Python,
   JavaScript/TypeScript, C/C++, Java, C#, Go, Rust,
@@ -329,11 +333,20 @@
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
+  In translated lists of linked products or organizations, translate connective
+  prose as well as surrounding sentences. In particular, do not leave the
+  English conjunction `and` before the final Markdown link. The strict fallback
+  checker flags this pattern and CI blocks it. Keep official linked names and
+  destinations unchanged.
   The `Translation English Fallback Check` workflow runs the high-confidence
   fallback screen on article changes. Run the same gate locally with
   `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
   It blocks exact English-body copies, multiple copied English paragraphs,
-  English-dominant prose, and missing expected scripts. The broader checker
+  English-dominant prose, missing expected scripts, copied reader-facing
+  openings and linked-list connectors, and English-heavy code comments or
+  sample values. In product comparisons, preserve product names but translate the
+  comparison wording such as `vs`; an English list of brands is not a localized
+  title. The broader checker
   remains a manual-review gate for shorter copied passages, reader-facing
   examples, headings, metadata, and false positives. The high-confidence gate
   does not block exact copied titles, descriptions, image alt text, captions,
