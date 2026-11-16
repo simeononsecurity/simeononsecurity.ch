@@ -3,11 +3,12 @@ title: "Hábitos de navegación seguros para una experiencia en línea más segu
 draft: false
 toc: true
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 description: "Protéjase de las amenazas en línea y garantice una experiencia en línea más segura desarrollando hábitos de navegación seguros. Infórmate sobre la importancia de una navegación segura, los hábitos esenciales que debes adoptar y cómo salvaguardar tu información personal."
 genre: ["Ciberseguridad", "Seguridad en línea", "Navegación segura", "Seguridad en Internet", "Protección de datos personales", "Privacidad en línea", "Amenazas en línea", "Prevención de la ciberdelincuencia", "Prevención del robo de identidad", "Seguridad en Internet"]
 tags: ["hábitos de navegación seguros", "amenazas en línea", "ciberseguridad", "seguridad en línea", "protección de datos personales", "privacidad en línea", "prevención del robo de identidad", "seguridad en internet", "prevención de la ciberdelincuencia", "navegación web segura", "estafas en línea", "estafas de phishing", "protección antimalware", "protección contra ransomware", "seguridad en las redes sociales", "seguridad de los datos", "protección de la privacidad en línea", "almacenamiento seguro de datos", "seguridad de contraseñas", "autenticación de dos factores", "VPN", "navegación cifrada", "seguridad de las redes Wi-Fi públicas", "educación sobre seguridad en línea", "concienciación sobre ciberseguridad", "hábitos seguros en internet", "cultura de seguridad en línea", "seguridad comunitaria", "consejos de seguridad en línea"]
 cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp"
+coverCaption: "Mantente seguro en línea y protege tu información personal."
 coverAlt: "Representación ilustrada de la navegación por Internet con un candado que simboliza la navegación segura."
 ---
 
@@ -52,7 +53,7 @@ Además, es esencial descargar software y actualizaciones sólo de **fuentes fia
 
 #### Utilizar contraseñas fuertes y únicas
 
-Utilizar **contraseñas débiles o fáciles de adivinar** es un riesgo de seguridad importante. Es esencial utilizar **contraseñas únicas y complejas** para cada cuenta y cambiarlas con frecuencia. Puedes utilizar un **gestor de contraseñas** para almacenar y generar contraseñas seguras para todas tus cuentas.
+Utilizar **contraseñas débiles o fáciles de adivinar** es un riesgo de seguridad importante. Es esencial utilizar [**contraseñas únicas y complejas**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para cada cuenta y cambiarlas con frecuencia. Puedes utilizar un **gestor de contraseñas** para almacenar y generar [contraseñas seguras](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para todas tus cuentas.
 
 Además, es crucial que evites utilizar información personal como tu nombre, fecha de nacimiento o dirección como parte de tu contraseña. Los ciberdelincuentes pueden adivinar fácilmente esa información, dejando tus cuentas vulnerables a los ataques.
 
@@ -110,7 +111,7 @@ También es una buena idea **cambiar las contraseñas con regularidad** y utiliz
 
 #### Implantar soluciones seguras de almacenamiento de datos
 
-Cuando se almacena información confidencial, es importante utilizar soluciones de almacenamiento seguro para evitar el acceso no autorizado. Una opción es utilizar **drives duros cifrados**, que utilizan tecnología de cifrado para proteger tus datos. Otra opción es utilizar almacenamiento basado en la nube con **autenticación de dos factores**, que requiere que proporciones dos formas de identificación para acceder a tus datos.
+Cuando se almacena información confidencial, es importante utilizar soluciones de almacenamiento seguro para evitar el acceso no autorizado. Una opción es utilizar **discos duros cifrados**, que utilizan tecnología de cifrado para proteger tus datos. Otra opción es utilizar almacenamiento basado en la nube con **autenticación de dos factores**, que requiere que proporciones dos formas de identificación para acceder a tus datos.
 
 También es importante evitar el uso de ordenadores públicos o redes Wi-Fi para acceder o almacenar información confidencial. Los ordenadores públicos pueden tener instalados programas maliciosos o de registro de pulsaciones de teclas, que pueden capturar sus credenciales de acceso y otra información personal. Las redes Wi-Fi públicas también son vulnerables a la piratería, lo que facilita que los ciberdelincuentes intercepten tus datos.
 

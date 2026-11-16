@@ -3,11 +3,12 @@ title: "Sichere Surfgewohnheiten für ein sichereres Online-Erlebnis"
 draft: false
 toc: true
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 description: "Schützen Sie sich vor Online-Bedrohungen und sorgen Sie für ein sichereres Online-Erlebnis, indem Sie sichere Surfgewohnheiten entwickeln. Erfahren Sie, wie wichtig sicheres Surfen ist, welche Gewohnheiten Sie sich aneignen sollten und wie Sie Ihre persönlichen Daten schützen können."
-genre: ["Cybersecurity", "Online-Sicherheit", "Sicheres Surfen", "Internet-Sicherheit", "Schutz personenbezogener Daten", "Online Privacy", "Online-Bedrohungen", "Prävention von Cyberkriminalität", "Prävention von Identitätsdiebstahl", "Sicherheit im Internet"]
+genre: ["Cybersicherheit", "Online-Sicherheit", "Sicheres Surfen", "Internet-Sicherheit", "Schutz personenbezogener Daten", "Datenschutz im Internet", "Online-Bedrohungen", "Prävention von Cyberkriminalität", "Prävention von Identitätsdiebstahl", "Sicherheit im Internet"]
 tags: ["sichere Surfgewohnheiten", "Online-Bedrohungen", "Cybersicherheit", "Online-Sicherheit", "Schutz personenbezogener Daten", "Online-Datenschutz", "Prävention von Identitätsdiebstahl", "Internetsicherheit", "Prävention von Internetkriminalität", "sicheres Surfen im Internet", "Online-Betrügereien", "Phishing-Betrügereien", "Malwareschutz", "Ransomware-Schutz", "Social-Media-Sicherheit", "Datensicherheit", "Schutz der Privatsphäre im Internet", "sichere Datenspeicherung", "Passwortsicherheit", "Zwei-Faktor-Authentifizierung", "VPN", "verschlüsseltes Browsing", "öffentliche Wi-Fi-Sicherheit", "Erziehung zur Online-Sicherheit", "Bewusstsein für Cybersicherheit", "sichere Online-Gewohnheiten", "Online-Sicherheitskultur", "kommunale Sicherheit", "Tipps zur Online-Sicherheit"]
 cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp"
+coverCaption: "Bleiben Sie online sicher und schützen Sie Ihre persönlichen Daten."
 coverAlt: "Eine illustrierte Darstellung des Surfens im Internet mit einem Vorhängeschloss als Symbol für sicheres Surfen."
 ---
 
@@ -52,7 +53,7 @@ Außerdem ist es wichtig, dass Sie Software und Updates nur von **vertrauenswür
 
 #### Starke und eindeutige Passwörter verwenden
 
-Die Verwendung von **schwachen oder leicht zu erratenden Passwörtern** stellt ein erhebliches Sicherheitsrisiko dar. Es ist wichtig, **einzigartige, komplexe Passwörter** für jedes Konto zu verwenden und sie häufig zu ändern. Sie können einen **Passwortmanager** verwenden, um sichere Passwörter für alle Ihre Konten zu speichern und zu erstellen.
+Die Verwendung von **schwachen oder leicht zu erratenden Passwörtern** stellt ein erhebliches Sicherheitsrisiko dar. Es ist wichtig, [**einzigartige, komplexe Passwörter**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für jedes Konto zu verwenden und sie häufig zu ändern. Sie können einen **Passwortmanager** verwenden, um [sichere Passwörter](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für alle Ihre Konten zu speichern und zu erstellen.
 
 Außerdem sollten Sie unbedingt vermeiden, persönliche Informationen wie Ihren Namen, Ihr Geburtsdatum oder Ihre Adresse als Teil Ihres Passworts zu verwenden. Cyberkriminelle können solche Informationen leicht erraten, so dass Ihre Konten anfällig für Angriffe sind.
 
