@@ -1,6 +1,7 @@
 ---
 title: "Guide du débutant pour l'apprentissage de Linux : Conseils pour les variantes basées sur Debian et RHEL"
 date: 2023-02-22
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Ce guide fournit une vue d'ensemble de la manière de démarrer avec Linux, y compris des conseils pour apprendre les variantes de Linux basées sur Debian et RHEL."
@@ -9,9 +10,11 @@ cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Image de bande dessinée d'un pingouin avec une casquette, tenant un diplôme et se tenant devant un ordinateur avec un environnement de bureau Linux en arrière-plan."
 coverCaption: ""
 ---
- pour apprendre Linux : Un guide pour les débutants**
+**Apprendre Linux : guide pour les débutants**
 
 Vous souhaitez apprendre Linux mais vous ne savez pas par où commencer ? Linux est un système d'exploitation puissant et populaire, largement utilisé dans le cadre personnel et professionnel. Ce guide vous donnera une vue d'ensemble de la manière de démarrer avec Linux, y compris des conseils pour apprendre les variantes de Linux basées sur Debian et RHEL.
+
+{{< youtube id="10f4899srvc" >}}
 
 ## Comprendre Linux
 
@@ -62,18 +65,18 @@ Voici quelques ressources que vous pouvez utiliser pour apprendre le système d'
 
 Le [Debian Wiki](https://wiki.debian.org/) est une ressource officielle pour apprendre à connaître le système Linux basé sur Debian. Il comprend une multitude d'informations sur divers sujets, notamment l'installation du système, la configuration et l'utilisation des applications. Le wiki est une ressource gérée par la communauté, ce qui signifie que tout le monde peut y contribuer et l'améliorer. Voici quelques pages du wiki Debian qui pourraient vous être utiles :
 
-- [**Installation Guide**](https://wiki.debian.org/InstallationGuide) Ce guide fournit des instructions détaillées sur l'installation de Debian sur votre ordinateur.
-- [**Getting Started**](https://wiki.debian.org/GettingStarted) Cette page fournit une introduction à Debian, y compris des informations sur la gestion des paquets, le système de fichiers et les commandes de base.
-- [**Desktop HowTo**](https://wiki.debian.org/DesktopHowTo) Cette page fournit des instructions pour configurer un environnement de bureau sur Debian.
+- [**Guide d’installation**](https://wiki.debian.org/InstallationGuide) Ce guide fournit des instructions détaillées sur l'installation de Debian sur votre ordinateur.
+- [**Premiers pas**](https://wiki.debian.org/GettingStarted) Cette page fournit une introduction à Debian, y compris des informations sur la gestion des paquets, le système de fichiers et les commandes de base.
+- [**Guide du bureau**](https://wiki.debian.org/DesktopHowTo) Cette page fournit des instructions pour configurer un environnement de bureau sur Debian.
 
 ### Manuel de l'administrateur Debian
 
 Cette page fournit des instructions pour configurer un environnement de bureau sur Debian. [Debian Administrator's Handbook](https://amzn.to/3k8F5hh) est un guide complet de l'administration de Debian, incluant l'installation du système, la gestion des paquets, la configuration du réseau et la sécurité. Le livre est écrit par deux développeurs Debian expérimentés et est conçu pour être un guide pratique pour les administrateurs qui découvrent Debian. Voici quelques sujets abordés dans le livre :
 
 - **Installation** : Le livre fournit des instructions détaillées sur la façon d'installer Debian, y compris le partitionnement, la sélection des paquets et la configuration après l'installation.
-- Gestion des paquets** : Le livre couvre le système de gestion des paquets de Debian, y compris comment installer, supprimer et mettre à jour les paquets.
-- Configuration du réseau** : Le livre fournit des instructions pour configurer les interfaces réseau, gérer les connexions réseau et mettre en place un pare-feu.
-- Sécurité** : Le livre couvre une variété de sujets relatifs à la sécurité, y compris la gestion des utilisateurs, le cryptage et la sécurisation des services du réseau.
+- **Gestion des paquets** : Le livre couvre le système de gestion des paquets de Debian, y compris comment installer, supprimer et mettre à jour les paquets.
+- **Configuration du réseau** : Le livre fournit des instructions pour configurer les interfaces réseau, gérer les connexions réseau et mettre en place un pare-feu.
+- **Sécurité** : Le livre couvre une variété de sujets relatifs à la sécurité, y compris la gestion des utilisateurs, le cryptage et la sécurisation des services du réseau.
 
 Ce ne sont là que quelques ressources que vous pouvez utiliser pour apprendre Debian. Au fur et à mesure que vous vous familiariserez avec Debian, vous voudrez peut-être explorer d'autres ressources, comme les forums en ligne, les blogs et les livres, pour approfondir vos connaissances et vos compétences.
 
@@ -89,7 +92,7 @@ L'abonnement [Red Hat Learning Subscription](https://www.redhat.com/en/services/
 
 - **Red Hat System Administration I** : Ce cours couvre les bases de l'administration système RHEL, y compris l'installation et la configuration de RHEL, la gestion des utilisateurs et des groupes, et la configuration des paramètres réseau.
 - **Red Hat System Administration II** : Ce cours s'appuie sur les connaissances acquises dans le cours d'administration système I et couvre des sujets plus avancés, tels que la configuration du stockage, la gestion des processus et la résolution des problèmes.
-- Préparation à l'examen RHCE (Red Hat Certified Engineer) : Ce cours prépare les étudiants à l'examen de certification RHCE, qui est une certification largement reconnue pour les professionnels RHEL.
+- **Préparation à l'examen RHCE (Red Hat Certified Engineer)** : Ce cours prépare les étudiants à l'examen de certification RHCE, qui est une certification largement reconnue pour les professionnels RHEL.
 
 ### Présentation technique de Red Hat Enterprise Linux
 
@@ -101,7 +104,7 @@ Le cours [Red Hat Enterprise Linux Technical Overview](https://www.redhat.com/en
 
 ### Documentation RHEL
 
-Le guide [official documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9) for RHEL est une ressource complète qui couvre tous les aspects de l'administration et de la gestion de RHEL. Elle comprend des informations sur l'installation, la configuration du système, la gestion des paquets, la sécurité et la mise en réseau, et est régulièrement mise à jour pour refléter les derniers développements de RHEL. La documentation est une excellente ressource pour les professionnels qui souhaitent en savoir plus sur des sujets et des fonctionnalités spécifiques de RHEL. Elle peut être utilisée en combinaison avec d'autres ressources, telles que des cours en ligne ou des forums.
+Le guide [documentation officielle](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9) for RHEL est une ressource complète qui couvre tous les aspects de l'administration et de la gestion de RHEL. Elle comprend des informations sur l'installation, la configuration du système, la gestion des paquets, la sécurité et la mise en réseau, et est régulièrement mise à jour pour refléter les derniers développements de RHEL. La documentation est une excellente ressource pour les professionnels qui souhaitent en savoir plus sur des sujets et des fonctionnalités spécifiques de RHEL. Elle peut être utilisée en combinaison avec d'autres ressources, telles que des cours en ligne ou des forums.
 
 Il ne s'agit là que de quelques ressources que vous pouvez utiliser pour apprendre Linux basé sur RHEL. Au fur et à mesure que vous vous familiariserez avec RHEL, vous souhaiterez peut-être explorer d'autres ressources, telles que des forums en ligne, des livres ou des événements communautaires, afin d'approfondir vos connaissances et vos compétences.
 

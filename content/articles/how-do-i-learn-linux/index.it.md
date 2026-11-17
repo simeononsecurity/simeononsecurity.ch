@@ -1,17 +1,20 @@
 ---
 title: "Guida per principianti all'apprendimento di Linux: Suggerimenti per le varianti basate su Debian e RHEL"
 date: 2023-02-22
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Questa guida fornisce una panoramica su come iniziare a lavorare con Linux, compresi i suggerimenti per imparare le varianti di Linux basate su Debian e RHEL."
-tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Red Hat", "Sistema operativo", "Open Source", "Amministrazione del sistema", "Comandi", "Terminale", "Comunità", "Impresa", "Professionale", "Apprendimento", "Collegamento in rete", "Sicurezza", "Personalizzazione", "Stabilità", "Flessibilità"]
+tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Red Hat", "Sistema operativo", "Codice aperto", "Amministrazione del sistema", "Comandi", "Terminale", "Comunità", "Impresa", "Professionale", "Apprendimento", "Collegamento in rete", "Sicurezza", "Personalizzazione", "Stabilità", "Flessibilità"]
 cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Immagine a fumetti di un pinguino con un berretto di laurea, con in mano un diploma e in piedi davanti a un computer con un ambiente desktop Linux sullo sfondo."
 coverCaption: ""
 ---
- per imparare Linux: Una guida per principianti**
+**Imparare Linux: guida per principianti**
 
 Siete interessati a imparare Linux ma non sapete da dove cominciare? Linux è un sistema operativo potente e popolare, ampiamente utilizzato sia in ambito personale che professionale. Questa guida vi fornirà una panoramica su come iniziare a usare Linux, compresi i suggerimenti per imparare le varianti di Linux basate su Debian e RHEL.
+
+{{< youtube id="10f4899srvc" >}}
 
 ## Capire Linux
 
@@ -62,9 +65,9 @@ Ecco alcune risorse che potete utilizzare per imparare Linux basato su Debian:
 
 Il [Debian Wiki](https://wiki.debian.org/) è una risorsa ufficiale per imparare a conoscere Linux basato su Debian. Include una grande quantità di informazioni su una varietà di argomenti, tra cui l'installazione del sistema, la configurazione e l'uso delle applicazioni. Il wiki è una risorsa gestita dalla comunità, il che significa che chiunque può contribuire a migliorarlo. Ecco alcune pagine del Wiki Debian che potrebbero essere utili:
 
-- [**Installation Guide**](https://wiki.debian.org/InstallationGuide) Questa guida fornisce istruzioni dettagliate su come installare Debian sul computer.
-- [**Getting Started**](https://wiki.debian.org/GettingStarted) Questa pagina fornisce un'introduzione a Debian, con informazioni sulla gestione dei pacchetti, sul file system e sui comandi di base.
-- [**Desktop HowTo**](https://wiki.debian.org/DesktopHowTo) Questa pagina fornisce le istruzioni per configurare un ambiente desktop su Debian.
+- [**Guida all’installazione**](https://wiki.debian.org/InstallationGuide) Questa guida fornisce istruzioni dettagliate su come installare Debian sul computer.
+- [**Primi passi**](https://wiki.debian.org/GettingStarted) Questa pagina fornisce un'introduzione a Debian, con informazioni sulla gestione dei pacchetti, sul file system e sui comandi di base.
+- [**Guida desktop**](https://wiki.debian.org/DesktopHowTo) Questa pagina fornisce le istruzioni per configurare un ambiente desktop su Debian.
 
 ### Manuale dell'amministratore Debian
 
@@ -101,7 +104,7 @@ Il corso [Red Hat Enterprise Linux Technical Overview](https://www.redhat.com/en
 
 ### Documentazione RHEL
 
-Il [official documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9) per RHEL è una risorsa completa che copre tutti gli aspetti dell'amministrazione e della gestione di RHEL. Include informazioni sull'installazione, la configurazione del sistema, la gestione dei pacchetti, la sicurezza e il networking ed è regolarmente aggiornata per riflettere gli ultimi sviluppi di RHEL. La documentazione è un'ottima risorsa per i professionisti che desiderano approfondire argomenti e funzionalità specifiche di RHEL e può essere utilizzata in combinazione con altre risorse, come corsi online o forum.
+Il [documentazione ufficiale](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9) per RHEL è una risorsa completa che copre tutti gli aspetti dell'amministrazione e della gestione di RHEL. Include informazioni sull'installazione, la configurazione del sistema, la gestione dei pacchetti, la sicurezza e il networking ed è regolarmente aggiornata per riflettere gli ultimi sviluppi di RHEL. La documentazione è un'ottima risorsa per i professionisti che desiderano approfondire argomenti e funzionalità specifiche di RHEL e può essere utilizzata in combinazione con altre risorse, come corsi online o forum.
 
 Queste sono solo alcune delle risorse che potete utilizzare per imparare Linux basato su RHEL. Man mano che acquisite familiarità con RHEL, potreste voler esplorare altre risorse, come forum online, libri o eventi della comunità, per approfondire le vostre conoscenze e competenze.
 
