@@ -1,6 +1,7 @@
 ---
 title: "威胁猎杀：主动防御网络攻击"
 date: 2023-03-11
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "了解威胁猎取如何防止网络攻击，以及将其作为一种主动网络安全措施实施的好处和挑战。"
@@ -95,7 +96,7 @@ ______
 
 在当今不断变化的威胁环境中，实施**威胁猎杀**作为**积极主动的网络安全战略**至关重要。通过结合人工和自动技术，企业可以在威胁造成任何危害之前**主动地识别和应对威胁。
 
-要进一步加深对威胁猎取的理解，您可以探索以下资源 [MITRE ATT&CK framework](https://attack.mitre.org/), which provides a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs)该框架可帮助企业制定有效的威胁猎取策略和方法。此外，还有各种**威胁猎杀工具**可用，如 Sysinternals Sysmon、Elastic Security 和 Falcon X，它们可以在威胁猎杀过程中提供帮助。
+要进一步加深对威胁猎取的理解，您可以探索以下资源 [MITRE ATT&CK framework](https://attack.mitre.org/), 其中汇集了关于攻击者战术、技术和程序（TTPs）的全面知识。该框架可帮助企业制定有效的威胁猎取策略和方法。此外，还有各种**威胁猎杀工具**可用，如 Sysinternals Sysmon、Elastic Security 和 Falcon X，它们可以在威胁猎杀过程中提供帮助。
 
 必须认识到，威胁猎取应该是一个持续的过程。网络安全威胁不断演变，企业需要保持警惕，积极主动地识别和缓解这些威胁。
 

@@ -1,12 +1,13 @@
 ---
 title: "Przewodnik dla początkujących: Korzystanie z wiersza poleceń Linux dla cyberbezpieczeństwa"
 date: 2023-03-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Dowiedz się, jak korzystać z wiersza poleceń systemu Linux w celu zapewnienia cyberbezpieczeństwa za pomocą podstawowych i zaawansowanych poleceń."
-tags: ["Linux", "Wiersz poleceń", "Cyberbezpieczeństwo", "Przewodnik dla początkujących", "Skanowanie sieci", "Testowanie podatności", "Analiza złośliwego oprogramowania", "Uprawnienia", "Ruch sieciowy", "Status procesu", "Statystyki sieciowe", "Wyszukiwanie plików", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Bezpieczeństwo", "Testy penetracyjne", "Kryminalistyka cyfrowa"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "Kreskówkowa ilustracja przedstawiająca osobę ubraną w bluzę z kapturem, siedzącą przed ekranem komputera z widocznym interfejsem wiersza poleceń systemu Linux i trzymającą szkło powiększające w celu przedstawienia aspektu cyberbezpieczeństwa."
+tags: ["Linux", "Wiersz poleceń", "Cyberbezpieczeństwo", "Przewodnik dla początkujących", "Skanowanie sieci", "Testowanie podatności", "Analiza złośliwego oprogramowania", "Uprawnienia", "Ruch sieciowy", "Status procesu", "Statystyki sieciowe", "Wyszukiwanie plików", "Wireshark", "TCPDump", "Nmap", "interfejs wiersza poleceń systemu Linux", "Bezpieczeństwo", "Testy penetracyjne", "Kryminalistyka cyfrowa"]
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Ilustracja ekranu komputera z interfejsem wiersza poleceń systemu Linux i zielonymi poleceniami na ciemnym tle. Wokół znajdują się elementy cyberbezpieczeństwa, takie jak cyfrowe kłódki i linie sieciowe."
 coverCaption: ""
 ---
 
@@ -70,7 +71,7 @@ $ cd ../..
 W powyższym przykładzie polecenie zmienia bieżący katalog roboczy o dwa poziomy wyżej od bieżącego katalogu roboczego. Notacja ".." reprezentuje katalog nadrzędny i można jej użyć do nawigacji w górę drzewa katalogów.
 
 
-### Concatenate
+### Łączenie plików
 
 Polecenie **cat** (concatenate) służy do wyświetlania zawartości pliku w CLI. Polecenie to jest przydatne do przeglądania zawartości plików tekstowych, takich jak pliki dziennika lub pliki konfiguracyjne. Na przykład, jeśli chcesz wyświetlić zawartość pliku o nazwie "plik1.txt", możesz użyć następującego polecenia:
 
@@ -94,7 +95,7 @@ $ cat *.txt
 W powyższym przykładzie polecenie wyświetla zawartość wszystkich plików z rozszerzeniem ".txt" w bieżącym katalogu roboczym. Polecenie to jest przydatne do szybkiego przeglądania zawartości wielu plików bez otwierania ich pojedynczo.
 
 
-### Global Regular Expression Print
+### Wyszukiwanie wyrażeń regularnych w tekście
 
 Polecenie **grep** (global regular expression print) służy do wyszukiwania określonych ciągów lub wzorców w pliku lub zestawie plików w CLI. Polecenie to jest przydatne do identyfikowania wzorców w plikach dziennika lub wyszukiwania określonych informacji w plikach konfiguracyjnych. Na przykład, jeśli chcesz wyszukać wszystkie wystąpienia słowa "error" w pliku o nazwie "logfile.txt", możesz użyć następującego polecenia:
 
@@ -116,9 +117,9 @@ W powyższym przykładzie polecenie wyszukuje wszystkie wiersze zawierające sł
 Polecenie **chmod** (change mode) służy do zmiany uprawnień pliku lub katalogu w CLI. Polecenie to jest niezbędne do zabezpieczenia plików i katalogów oraz kontrolowania, kto ma do nich dostęp. Uprawnienia są reprezentowane przez trzy cyfry, które odpowiadają odpowiednio właścicielowi, grupie i innym. Cyfry są obliczane na podstawie następującego wzoru:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = odczyt
+2 = zapis
+1 = wykonanie
 ```
 
 Na przykład, jeśli chcesz nadać właścicielowi uprawnienia do odczytu i zapisu, a grupie i innym uprawnienia tylko do odczytu do pliku o nazwie "plik1.txt", możesz użyć następującego polecenia:
@@ -140,7 +141,9 @@ W powyższym przykładzie polecenie ustawia uprawnienia pliku "plik2.txt" na ug=
 
 ## Zaawansowane polecenia Linux dla cyberbezpieczeństwa
 
-### Network Mapper
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Schemat terminala Linux uruchamiającego nmap, netstat i find do skanowania sieci, monitorowania procesów i badania plików w zadaniach cyberbezpieczeństwa" >}}
+
+### Mapowanie sieci
 
 Polecenie **nmap** to potężne narzędzie do skanowania sieci w interfejsie CLI, które może być używane do identyfikacji hostów i usług w sieci, a także potencjalnych luk w zabezpieczeniach. Polecenie może wykonywać szereg technik skanowania, w tym wykrywanie hostów, skanowanie portów i wykrywanie systemu operacyjnego.
 
@@ -162,7 +165,7 @@ Powyższe polecenie przeskanuje wszystkie adresy IP w zakresie i zwróci otwarte
 
 Oprócz podstawowego wykrywania hostów i skanowania portów, nmap może również wykonywać bardziej zaawansowane skanowanie, takie jak wykrywanie usług i wersji, wykrywanie systemu operacyjnego i skanowanie luk w zabezpieczeniach. Skanowania te mogą być przydatne do identyfikowania potencjalnych luk w zabezpieczeniach sieci i zabezpieczania jej przed potencjalnymi atakami.
 
-### TCP Packet Dumper
+### Zrzut pakietów TCP
 
 Polecenie **tcpdump** służy do przechwytywania i analizowania ruchu sieciowego w interfejsie CLI, dzięki czemu jest przydatne do rozwiązywania problemów z siecią, analizowania zachowania sieci i identyfikowania potencjalnych zagrożeń bezpieczeństwa. Polecenie przechwytuje pakiety w czasie rzeczywistym i może filtrować pakiety na podstawie różnych kryteriów, takich jak źródłowy lub docelowy adres IP, protokół i port.
 
@@ -190,7 +193,7 @@ $ sudo tcpdump -i eth0 -w capture.pcap
 
 Powyższe polecenie przechwyci wszystkie pakiety na interfejsie eth0 i zapisze je do pliku "capture.pcap" w formacie pcap, który można później przeanalizować za pomocą narzędzi takich jak Wireshark. Polecenie to jest przydatne do analizy zachowania sieci i identyfikacji potencjalnych zagrożeń bezpieczeństwa.
 
-### Status procesu
+### Stan procesu
 
 Polecenie **ps** wyświetla informacje o uruchomionych procesach w systemie Linux w interfejsie CLI, co jest przydatne do identyfikacji podejrzanych procesów, które mogą być uruchomione w systemie i potencjalnie zagrażać jego bezpieczeństwu. Polecenie może wyświetlać szeroki zakres informacji o uruchomionych procesach, w tym ich identyfikator procesu (PID), użytkownika, użycie procesora i pamięci oraz nazwę polecenia.
 
@@ -280,10 +283,10 @@ Ogólnie rzecz biorąc, polecenie find jest potężnym narzędziem do wyszukiwan
 
 ______
 
-Korzystanie z wiersza poleceń systemu Linux do celów cyberbezpieczeństwa może być przytłaczające dla początkujących. Jednak dzięki podstawowym i zaawansowanym poleceniom opisanym w tym przewodniku możesz zacząć wykorzystywać Linux CLI na swoją korzyść w cyberbezpieczeństwie. Pamiętaj, aby zachować ostrożność podczas uruchamiania poleceń i dokładnie zrozumieć, co robi każde polecenie przed jego użyciem.
+Korzystanie z wiersza poleceń systemu Linux do celów cyberbezpieczeństwa może być przytłaczające dla początkujących. Jednak dzięki podstawowym i zaawansowanym poleceniom opisanym w tym przewodniku możesz zacząć wykorzystywać interfejs wiersza poleceń systemu Linux na swoją korzyść w cyberbezpieczeństwie. Pamiętaj, aby zachować ostrożność podczas uruchamiania poleceń i dokładnie zrozumieć, co robi każde polecenie przed jego użyciem.
 
-Aby dowiedzieć się więcej o używaniu Linuksa do cyberbezpieczeństwa, pobierz **[Kali Linux](https://www.kali.org/downloads/) system operacyjny, który został zaprojektowany specjalnie do testów penetracyjnych i kryminalistyki cyfrowej.
+Aby dowiedzieć się więcej o Linuksie w cyberbezpieczeństwie, odwiedź stronę pobierania **[Kali Linux](https://www.kali.org/downloads/)**, systemu operacyjnego zaprojektowanego specjalnie do testów penetracyjnych i kryminalistyki cyfrowej.
 
 ## Wnioski
 
-Podsumowując, interfejs wiersza poleceń systemu Linux jest potężnym narzędziem dla specjalistów ds. cyberbezpieczeństwa, ale może być zniechęcający dla początkujących. Ucząc się podstawowych i zaawansowanych poleceń opisanych w tym przewodniku, możesz zacząć używać Linux CLI na swoją korzyść w cyberbezpieczeństwie. Pamiętaj, aby zawsze zachować ostrożność podczas uruchamiania poleceń i dokładnie zrozumieć, co robi każde polecenie przed jego użyciem. Dzięki praktyce i doświadczeniu możesz stać się biegły w korzystaniu z wiersza poleceń systemu Linux i przenieść swoje umiejętności w zakresie cyberbezpieczeństwa na wyższy poziom.
+Podsumowując, interfejs wiersza poleceń systemu Linux jest potężnym narzędziem dla specjalistów ds. cyberbezpieczeństwa, ale może być zniechęcający dla początkujących. Ucząc się podstawowych i zaawansowanych poleceń opisanych w tym przewodniku, możesz zacząć używać interfejs wiersza poleceń systemu Linux na swoją korzyść w cyberbezpieczeństwie. Pamiętaj, aby zawsze zachować ostrożność podczas uruchamiania poleceń i dokładnie zrozumieć, co robi każde polecenie przed jego użyciem. Dzięki praktyce i doświadczeniu możesz stać się biegły w korzystaniu z wiersza poleceń systemu Linux i przenieść swoje umiejętności w zakresie cyberbezpieczeństwa na wyższy poziom.

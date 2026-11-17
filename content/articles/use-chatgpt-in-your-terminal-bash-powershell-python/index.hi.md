@@ -1,0 +1,64 @@
+---
+title: "अपने टर्मिनल में ChatGPT का उपयोग करें: Bash, PowerShell, Python"
+date: 2023-02-07
+lastmod: 2026-11-07
+toc: true
+draft: false
+description: "OpenAI के ChatGPT मॉडल को कमांड लाइन इंटरफ़ेस (CLI) से उपयोग करके आसानी से टेक्स्ट बनाएँ और सवालों के जवाब पाएँ।"
+tags: ["ChatGPT", "OpenAI", "Command Line Interface", "CLI", "text generation", "question answering", "developer toolkit", "pip package manager", "Python 3.5", "PowerShell", "Bash"]
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
+coverAlt: "एक डेवलपर अपने कंप्यूटर पर बैठकर कीबोर्ड पर टाइप कर रहा है। उसके टर्मिनल में ChatGPT CLI खुला है।"
+coverCaption: ""
+---
+
+OpenAI द्वारा विकसित **ChatGPT** एक **उन्नत भाषा मॉडल है**, जो इंसानों जैसी भाषा में टेक्स्ट बना सकता है। ChatGPT CLI (कमांड लाइन इंटरफ़ेस) डेवलपरों को कमांड लाइन से इस मॉडल के साथ काम करने का आसान तरीका देता है। ChatGPT CLI से डेवलपर मॉडल की क्षमताओं का उपयोग करके टेक्स्ट बना सकते हैं, उसे पूरा कर सकते हैं और सवालों के जवाब दे सकते हैं।
+
+ChatGPT CLI इंस्टॉल करने के लिए डेवलपर के कंप्यूटर पर Python 3.5 या नया संस्करण होना चाहिए। pip पैकेज मैनेजर से ChatGPT CLI इंस्टॉल करने के लिए यह कमांड चलाएँ:
+
+**Linux:**
+```bash
+
+pip install chatgpt requests readline
+
+```
+
+**Windows PowerShell**
+```powershell
+
+pip install chatgpt requests pyreadline3
+
+```
+
+इंस्टॉल होने के बाद, डेवलपर ChatGPT CLI से आसानी से टेक्स्ट बना सकते हैं या सवालों के जवाब पा सकते हैं। उदाहरण के लिए, किसी प्रॉम्प्ट के आधार पर टेक्स्ट बनाने के लिए यह कमांड चलाएँ:
+
+```bash
+chatgpt generate --prompt "What is the purpose of existence?"
+```
+
+किसी सवाल का जवाब पाने के लिए:
+
+```bash
+chatgpt answer --question "What is the capital of France?"
+```
+
+ChatGPT CLI को साधारण स्क्रिप्ट में भी इस्तेमाल किया जा सकता है:
+
+**Linux:**
+```bash
+prompt="What is the meaning of life?"
+answer=$(chatgpt generate --prompt "$prompt")
+echo "$answer"
+```
+
+**Windows PowerShell:**
+```powershell
+$prompt = "What is the meaning of life?"
+$answer = chatgpt generate --prompt $prompt
+Write-Host $answer
+```
+
+यह स्क्रिप्ट प्रॉम्प्ट के आधार पर टेक्स्ट बनाती है और जनरेट किया गया टेक्स्ट कंसोल में दिखाती है।
+
+टेक्स्ट बनाने और सवालों के जवाब देने के अलावा, ChatGPT CLI कई विकल्प देता है। इनमें जनरेट किए गए टेक्स्ट की लंबाई तय करना, आउटपुट का तापमान समायोजित करना और जनरेट किए जाने वाले जवाबों की संख्या चुनना शामिल है।
+
+**ChatGPT CLI डेवलपर के टूलकिट में उपयोगी जोड़ है।** इससे ChatGPT मॉडल के साथ सरल तरीके से काम किया जा सकता है। आप चैटबॉट के लिए टेक्स्ट बना रहे हों, टेक्स्ट एडिटर में लिखे वाक्य को पूरा कर रहे हों या सवाल-जवाब प्रणाली के लिए उत्तर तैयार कर रहे हों, ChatGPT CLI इन कामों में मदद करता है।

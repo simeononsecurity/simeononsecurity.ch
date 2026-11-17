@@ -1,6 +1,7 @@
 ---
 title: "Bescherming van patiëntgegevens: Strategieën voor cyberbeveiliging in de gezondheidszorg"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Ontdek de uitdagingen op het gebied van cyberbeveiliging in de gezondheidszorg en verken strategieën voor bescherming en naleving om patiëntgegevens te beschermen en naleving van de regelgeving te waarborgen."

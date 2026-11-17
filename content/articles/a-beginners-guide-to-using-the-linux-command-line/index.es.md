@@ -1,12 +1,13 @@
 ---
 title: "Guía para principiantes: Uso de la línea de comandos de Linux para la ciberseguridad"
 date: 2023-03-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aprenda a utilizar la línea de comandos de Linux para la ciberseguridad con comandos básicos y avanzados."
 tags: ["Linux", "Línea de comandos", "Ciberseguridad", "Guía para principiantes", "Exploración de redes", "Pruebas de vulnerabilidad", "Análisis de malware", "Permisos", "Tráfico de red", "Estado del proceso", "Estadísticas de la red", "Búsqueda de archivos", "Wireshark", "TCPDump", "Nmap", "CLI de Linux", "Seguridad", "Pruebas de penetración", "Análisis forense digital"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "Una ilustración de dibujos animados de una persona con capucha, sentada frente a la pantalla de un ordenador con la interfaz de línea de comandos de Linux visible y sosteniendo una lupa para representar el aspecto de la ciberseguridad."
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Ilustración de una pantalla de computadora con la interfaz de línea de comandos de Linux y comandos verdes sobre fondo oscuro. Alrededor hay elementos de ciberseguridad, como candados digitales y líneas de red."
 coverCaption: ""
 ---
 
@@ -116,9 +117,9 @@ En el ejemplo anterior, el comando busca todas las líneas que contengan una pal
 El comando **chmod** (change mode) es usado para cambiar los permisos de un archivo o directorio en el CLI. El comando es esencial para asegurar archivos y directorios y controlar quién tiene acceso a ellos. Los permisos están representados por tres dígitos que corresponden al propietario, grupo y otros, respectivamente. Los dígitos se calculan en base a la siguiente fórmula:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = leer
+2 = escribir
+1 = ejecutar
 ```
 
 Por ejemplo, si quieres dar al propietario permisos de lectura y escritura y al grupo y otros permisos de sólo lectura en un archivo llamado "archivo1.txt", puedes utilizar el siguiente comando:
@@ -139,6 +140,8 @@ En el ejemplo anterior, el comando establece los permisos del archivo "archivo2.
 
 
 ## Comandos avanzados de Linux para ciberseguridad
+
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagrama de un terminal Linux con nmap, netstat y find para analizar redes, supervisar procesos e investigar archivos en tareas de ciberseguridad" >}}
 
 ### Mapeador de Red
 
@@ -282,7 +285,7 @@ ______
 
 Utilizar la línea de comandos de Linux para la ciberseguridad puede resultar abrumador para los principiantes. Sin embargo, con los comandos básicos y avanzados descritos en esta guía, puedes empezar a utilizar la CLI de Linux para tu ventaja en ciberseguridad. Recuerde tener precaución cuando ejecute comandos y entender a fondo lo que hace cada comando antes de usarlo.
 
-Para obtener más información sobre el uso de Linux para la ciberseguridad, echa un vistazo a descargar el **[Kali Linux](https://www.kali.org/downloads/) diseñado específicamente para pruebas de penetración y análisis forenses digitales.
+Para obtener más información sobre el uso de Linux en ciberseguridad, consulta la descarga de **[Kali Linux](https://www.kali.org/downloads/)**, un sistema operativo diseñado específicamente para pruebas de penetración y análisis forense digital.
 
 ## Conclusión
 

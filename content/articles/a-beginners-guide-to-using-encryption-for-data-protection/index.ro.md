@@ -8,8 +8,9 @@ tags: ["criptare", "protecția datelor", "securitate cibernetică", "confidenți
 cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Un lacăt din desene animate cu o gaură de cheie, reprezentând protecția datelor prin criptare."
 coverCaption: ""
+lastmod: 2026-11-07
 ---
- Ghid pentru începători privind criptarea pentru protecția datelor**
+ **Ghid pentru începători privind criptarea pentru protecția datelor**
 
 **Protecția datelor** devine din ce în ce mai importantă pe măsură ce tot mai multe persoane stochează informații sensibile online. **Criptarea** este un instrument esențial pentru protejarea datelor, dar poate fi copleșitor să înțelegi de unde să începi. Acest ghid pentru începători privind utilizarea criptării pentru protecția datelor vă va ajuta să înțelegeți elementele de bază ale criptării și cum să o utilizați pentru a vă proteja datele sensibile.
 
@@ -50,8 +51,8 @@ Utilizarea criptării pentru a vă proteja datele este relativ simplă. Iată c�
 Iată câteva dintre cele mai bune practici de utilizare a criptării pentru a vă proteja datele:
 
 - **Utilizați un instrument de criptare puternic care este adecvat nevoilor și nivelului de cunoștințe pe care îl aveți.**
-- Folosiți o parolă puternică și unică pentru instrumentul de criptare.**.
-- Criptați toate datele sensibile, atât atunci când sunt transmise, cât și atunci când sunt stocate.**
+- Folosiți o parolă puternică și unică pentru instrumentul de criptare.
+- Criptați toate datele sensibile, atât atunci când sunt transmise, cât și atunci când sunt stocate.
 - **Actualizați instrumentul de criptare și parola pentru a vă asigura că datele dumneavoastră sunt protejate împotriva noilor amenințări.**
 - **Realizați în mod regulat o copie de siguranță a datelor criptate pentru a preveni pierderea datelor în cazul unei defecțiuni a dispozitivului sau a altor probleme.**
 -

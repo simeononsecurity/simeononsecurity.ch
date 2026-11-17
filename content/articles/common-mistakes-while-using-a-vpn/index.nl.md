@@ -3,6 +3,7 @@ title: "Veelvoorkomende VPN-fouten en hoe u per ongeluk uw publieke IP-adres ver
 draft: false
 toc: true
 date: 2023-05-08
+lastmod: 2026-11-09
 description: "Bescherm uw online privacy door deze veelvoorkomende VPN-fouten te vermijden die per ongeluk uw openbare IP-adres kunnen lekken"
 tags: ["VPN-fouten", "IP lekken", "online privacy", "cyberbeveiliging", "internetbeveiliging", "virtueel privénetwerk", "WebRTC", "DNS-server", "VPN-provider", "twee-factor authenticatie", "VPN software", "noodschakelaar", "gegevensprivacy", "internetprivacy", "cyberdreigingen", "gegevensbeveiliging", "netwerkbeveiliging", "online beveiliging", "online anonimiteit", "anoniem browsen"]
 cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
@@ -22,15 +23,15 @@ Een VPN is een dienst waarmee u een veilige en private verbinding tussen uw appa
 
 ### Niet controleren op IP-lekken
 
-Een van de meest voorkomende fouten bij het gebruik van een VPN is het niet controleren op IP-lekken**. Wanneer u verbinding maakt met een VPN, wordt uw internetverkeer geacht via de VPN-server te lopen en wordt uw IP-adres verborgen gehouden. Echter, als uw VPN-verbinding niet correct is geconfigureerd of als uw VPN-provider een kwetsbaarheid heeft, kan uw IP-adres lekken, wat het doel van het gebruik van een VPN in de eerste plaats teniet doet.
+Een van de meest voorkomende fouten bij het gebruik van een VPN is **het niet controleren op IP-lekken**. Wanneer u verbinding maakt met een VPN, wordt uw internetverkeer geacht via de VPN-server te lopen en wordt uw IP-adres verborgen gehouden. Echter, als uw VPN-verbinding niet correct is geconfigureerd of als uw VPN-provider een kwetsbaarheid heeft, kan uw IP-adres lekken, wat het doel van het gebruik van een VPN in de eerste plaats teniet doet.
 
-Om te controleren of uw VPN uw IP-adres lekt, kunt u een website gebruiken zoals[**ipleak.net**](https://ipleak.net/) Deze website toont u uw openbare IP-adres en of het verschilt van het IP-adres van de VPN-server waarmee u bent verbonden. Als uw IP-adres verschilt, werkt uw VPN correct. Als uw IP-adres hetzelfde is, lekt uw VPN uw IP-adres.
+Om te controleren of uw VPN uw IP-adres lekt, kunt u een website gebruiken zoals [**ipleak.net**](https://ipleak.net/). Deze website toont u uw openbare IP-adres en of het verschilt van het IP-adres van de VPN-server waarmee u bent verbonden. Als uw IP-adres verschilt, werkt uw VPN correct. Als uw IP-adres hetzelfde is, lekt uw VPN uw IP-adres.
 
 ### Het niet kiezen van een veilige VPN-provider
 
 Een andere veelgemaakte fout bij het gebruik van een VPN is **het niet kiezen van een veilige VPN-provider**. Er zijn veel VPN-providers beschikbaar, maar ze zijn niet allemaal betrouwbaar. Sommige VPN-providers kunnen uw internetverkeer loggen of uw gegevens aan derden verkopen. Andere kunnen kwetsbaarheden hebben waardoor hackers toegang tot uw informatie kunnen krijgen.
 
-Om een veilige VPN-provider te kiezen, zoek je er een die een strikt non-logging beleid heeft, sterke encryptie gebruikt, en een bewezen staat van dienst heeft in het beschermen van gebruikersprivacy. U kunt online beoordelingen van VPN-providers vinden, zoals de[providers recommended by simeononsecurity.com](https://simeononsecurity.com/recommendations/vpns/) om u te helpen een weloverwogen beslissing te nemen.
+Om een veilige VPN-provider te kiezen, zoek je er een die een strikt non-logging beleid heeft, sterke encryptie gebruikt, en een bewezen staat van dienst heeft in het beschermen van gebruikersprivacy. U kunt online beoordelingen van VPN-providers vinden, zoals de [door simeononsecurity.com aanbevolen VPN-providers](https://simeononsecurity.com/recommendations/vpns/) om u te helpen een weloverwogen beslissing te nemen.
 
 ### Gratis VPN's gebruiken
 
@@ -62,13 +63,13 @@ Om WebRTC in uw webbrowser uit te schakelen, kunt u een extensie installeren zoa
 
 Wanneer u verbinding maakt met een website, stuurt uw toestel een verzoek naar een DNS-server (Domain Name System) om de domeinnaam van de website om te zetten in een IP-adres. Standaard gebruikt uw apparaat de DNS-server van uw internetprovider (ISP), die uw internetactiviteiten kan registreren.
 
-Om dit te vermijden kunt u een privé DNS-server gebruiken die uw activiteiten niet registreert. Sommige VPN-providers bieden hun eigen privé DNS-servers aan, of u kunt een dienst van derden gebruiken zoals[**Cloudflare DNS**](https://1.1.1.1/) or [**Google DNS**](https://developers.google.com/speed/public-dns) 
+Om dit te vermijden kunt u een privé DNS-server gebruiken die uw activiteiten niet registreert. Sommige VPN-providers bieden hun eigen privé DNS-servers aan, of u kunt een dienst van derden gebruiken zoals [**Cloudflare DNS**](https://1.1.1.1/) of [**Google DNS**](https://developers.google.com/speed/public-dns)
 
-###[Use Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Twee-factorenauthenticatie gebruiken](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-Met behulp van[**two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) kan uw VPN-account helpen beschermen tegen ongeoorloofde toegang. Tweefactorauthenticatie vereist dat u twee vormen van identificatie opgeeft om toegang te krijgen tot uw account, zoals een wachtwoord en een code die naar uw telefoon wordt gestuurd.
+Met behulp van[**tweefactorauthenticatie**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) kan uw VPN-account helpen beschermen tegen ongeoorloofde toegang. Tweefactorauthenticatie vereist dat u twee vormen van identificatie opgeeft om toegang te krijgen tot uw account, zoals een wachtwoord en een code die naar uw telefoon wordt gestuurd.
 
-Veel VPN-providers bieden[two-factor authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) als een optie, dus zorg ervoor dat u het inschakelt als het beschikbaar is.
+Veel VPN-providers bieden[tweefactorauthenticatie](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) als een optie, dus zorg ervoor dat u het inschakelt als het beschikbaar is.
 
 ### Conclusie
 
@@ -78,11 +79,10 @@ Doe altijd je onderzoek en kies een gerenommeerde VPN-provider die een bewezen s
 
 ## Referenties
 
--[simeononsecurity.com's VPN Provider Recommendations](https://simeononsecurity.com/recommendations/vpns/)
--[simeononsecurity.com - A Guide to Multi-Factor Authentication: Types and Best Practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
--[IPLeak.net](https://ipleak.net/)
--[WebRTC Control Extension for Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
--[Disable WebRTC Extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
--[Cloudflare DNS](https://1.1.1.1/)
--[Google DNS](https://developers.google.com/speed/public-dns)
-
+- [Aanbevelingen voor VPN-providers van simeononsecurity.com](https://simeononsecurity.com/recommendations/vpns/)
+- [Gids voor multifactorauthenticatie: soorten en best practices](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+- [IPLeak.net](https://ipleak.net/)
+- [WebRTC Control-extensie voor Chrome](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=en)
+- [Disable WebRTC-extensie voor Firefox](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [Cloudflare DNS](https://1.1.1.1/)
+- [Google DNS](https://developers.google.com/speed/public-dns)

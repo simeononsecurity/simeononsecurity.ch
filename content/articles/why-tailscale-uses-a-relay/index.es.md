@@ -1,55 +1,55 @@
 ---
-title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
+title: "Por qué Tailscale usa un relé: conexiones directas, DERP y relés entre pares"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
+description: "Descubre por qué Tailscale usa un relé, cómo leer la salida de status y netcheck y cuándo conviene investigar una conexión DERP o de relé entre pares."
 genre: ["Networking", "Network Security", "Self-Hosted"]
-tags: ["Tailscale", "Tailscale relay", "DERP", "Tailscale Peer Relay", "direct connection", "WireGuard", "NAT traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN performance", "remote access", "tailnet", "homelab networking", "relay latency", "end-to-end encryption"]
+tags: ["Tailscale", "relé Tailscale", "DERP", "relé entre pares de Tailscale", "conexión directa", "WireGuard", "travesía NAT", "NAT difícil", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "rendimiento VPN", "acceso remoto", "tailnet", "red doméstica", "latencia del relé", "cifrado de extremo a extremo"]
 cover: "/img/cover/why-tailscale-uses-a-relay.webp"
-coverAlt: "Two laptops on separate islands exchange locked packets through a central relay while a direct path is interrupted."
+coverAlt: "Dos portátiles en islas separadas intercambian paquetes cifrados mediante un relé central mientras una ruta directa está interrumpida."
 coverCaption: ""
 ---
 
-**Tailscale uses a relay** when devices have not established a direct connection. A brief DERP connection during startup is normal. Persistent relaying often reflects network address translation (NAT) or firewall conditions affecting the route between the devices. Direct, DERP, and peer-relay connections all retain WireGuard end-to-end encryption. [Tailscale connection types](https://tailscale.com/docs/reference/connection-types).
+**Tailscale usa un relé** cuando los dispositivos no han establecido una conexión directa. Una conexión DERP breve durante el inicio es normal. El uso persistente de un relé suele deberse a condiciones de NAT o del cortafuegos que afectan la ruta entre los dispositivos. Las conexiones directas, DERP y de relé entre pares mantienen el cifrado de extremo a extremo de WireGuard. [Tipos de conexión de Tailscale](https://tailscale.com/docs/reference/connection-types).
 
-## Conclusiones clave
+## Puntos clave
 
-- **Recognize the path:** distinguish direct, DERP, and peer-relay connections.
-- **Collect evidence:** run peer-specific probes and network checks on both ends.
-- **Analyze the pattern:** compare device pairs and network conditions.
-- **Choose a change:** justify it with a measured workload and a retest.
+- **Reconoce la ruta:** distingue entre conexiones directas, DERP y relés entre pares.
+- **Recopila pruebas:** ejecuta sondeos dirigidos al par y revisiones de red en ambos extremos.
+- **Analiza el patrón:** compara pares de dispositivos y condiciones de red.
+- **Elige un cambio:** justifícalo con una carga de trabajo medida y una nueva prueba.
 
 ## Antes de empezar
 
-**Prerequisites:** two enrolled, online devices and a terminal with the Tailscale command-line interface, or **CLI**, available. You need administrative access only if the investigation leads to configuration changes.
+**Requisitos:** dos dispositivos inscritos y conectados, y un terminal con la interfaz de línea de comandos de Tailscale, o **CLI**. Solo necesitas acceso administrativo si la investigación lleva a cambiar la configuración.
 
-**Estimated effort:** five minutes for basic checks, then 15–20 minutes for the comparison exercise. **Difficulty:** beginner for observation and intermediate for network changes. Define the problem first, such as a slow backup or delayed terminal response.
+**Tiempo estimado:** cinco minutos para las comprobaciones básicas y luego 15–20 minutos para el ejercicio de comparación. **Dificultad:** principiante para observar y media para realizar cambios de red. Primero define el problema, por ejemplo una copia de seguridad lenta o una respuesta tardía del terminal.
 
-## Direct, DERP, and Peer Relay
+## Conexión directa, DERP y relé entre pares
 
-A **tailnet** is your Tailscale network. Its devices attempt direct UDP connectivity, with relays available when the direct path fails. Tailscale periodically rechecks its connection options. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+Un **tailnet** es tu red de Tailscale. Sus dispositivos intentan establecer conectividad UDP directa. Los relés están disponibles cuando falla la ruta directa. Tailscale vuelve a comprobar periódicamente sus opciones de conexión. [Establecimiento de conexiones](https://tailscale.com/docs/reference/connection-types).
 
-| Path | Traffic route | Typical implication |
+| Ruta | Recorrido del tráfico | Implicación habitual |
 |---|---|---|
-| **Direct** | Between the two devices | Usually the preferred performance path |
-| **DERP relay** | Through Tailscale relay infrastructure | Adds an intermediary when direct access fails |
-| **Peer relay** | Through a configured device in your tailnet | An alternative relay under your administration |
+| **Directa** | Entre los dos dispositivos | Suele ser la ruta preferida para obtener mejor rendimiento |
+| **Relé DERP** | A través de la infraestructura de relés de Tailscale | Añade un intermediario cuando falla el acceso directo |
+| **Relé entre pares** | A través de un dispositivo configurado en tu tailnet | Una alternativa de relé bajo tu administración |
 
-**DERP performance** depends partly on the extra route and shared service capacity. Tailscale documents throughput limits intended to share DERP resources fairly. There is no universal relay speed suitable for predicting your file-transfer time. [Tailscale performance troubleshooting](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
+El **rendimiento de DERP** depende en parte de la ruta adicional y de la capacidad compartida del servicio. Tailscale documenta límites de rendimiento para repartir los recursos DERP de forma justa. No existe una velocidad universal de relé que permita predecir el tiempo de transferencia de archivos. [Solución de problemas de rendimiento de Tailscale](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
 
-## Understand Connection Negotiation
+## Cómo se negocia la conexión
 
-**NAT traversal** is the process of establishing a usable path across address-translating devices. Tailscale begins communication through DERP while negotiating a direct path. If direct connectivity fails, an available configured peer relay provides another option. Tailscale rechecks its options over time. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+La **travesía de NAT** es el proceso para establecer una ruta utilizable a través de dispositivos que traducen direcciones. Tailscale inicia la comunicación mediante DERP mientras negocia una ruta directa. Si falla la conectividad directa, un relé entre pares configurado y disponible ofrece otra opción. Tailscale vuelve a comprobar las opciones con el tiempo. [Establecimiento de conexiones](https://tailscale.com/docs/reference/connection-types).
 
-**Hard NAT** describes mapping behavior making traversal difficult. The conditions at both ends matter. Two devices behind different routers do not necessarily behave alike, even if both networks use private addresses. [Device connectivity](https://tailscale.com/docs/reference/device-connectivity).
+**NAT difícil** describe un comportamiento de asignación que complica la travesía. Las condiciones en ambos extremos importan. Dos dispositivos detrás de routers diferentes no necesariamente se comportan igual, aunque ambas redes usen direcciones privadas. [Conectividad de los dispositivos](https://tailscale.com/docs/reference/device-connectivity).
 
-For **a roaming laptop**, the path to your home server might change after moving from home Wi-Fi to a hotel network. Record the network used during the observation. Yesterday's direct connection is not evidence about today's route.
+Para **un portátil que cambia de red**, la ruta al servidor de casa podría cambiar al pasar de la wifi doméstica a la red de un hotel. Anota qué red usaste durante la observación. Una conexión directa de ayer no demuestra cuál es la ruta de hoy.
 
-## Check Your Current Connection
+## Comprueba la conexión actual
 
-Replace **`home-server`** with your peer's Tailscale name or address:
+Sustituye **`home-server`** por el nombre de Tailscale o la dirección de tu par:
 
 ```bash
 tailscale ping home-server
@@ -57,119 +57,119 @@ tailscale status
 tailscale netcheck
 ```
 
-**`tailscale ping`** probes connectivity to the named peer. **`tailscale status`** lists peers and connection details. **`tailscale netcheck`** reports conditions on the device running the command. The [Tailscale CLI reference](https://tailscale.com/docs/reference/tailscale-cli) documents these commands.
+**`tailscale ping`** comprueba la conectividad con el par indicado. **`tailscale status`** muestra los pares y los detalles de conexión. **`tailscale netcheck`** informa sobre las condiciones de red del dispositivo donde ejecutas el comando. La [referencia de la CLI de Tailscale](https://tailscale.com/docs/reference/tailscale-cli) documenta estos comandos.
 
-| Output indicator | Read it as |
+| Indicador de salida | Interpretación |
 |---|---|
-| **`direct`** | Traffic to this peer uses a direct path |
-| **`relay`** | Traffic to this peer uses DERP |
-| **`peer-relay`** | Traffic uses a configured peer relay |
-| **An initial DERP pong** | Inspect subsequent results before deciding the path stayed relayed |
+| **`direct`** | El tráfico hacia este par usa una ruta directa |
+| **`relay`** | El tráfico hacia este par pasa por DERP |
+| **`peer-relay`** | El tráfico usa un relé entre pares configurado |
+| **Un pong DERP inicial** | Revisa los resultados posteriores antes de decidir que la ruta siguió usando el relé |
 
-These labels come from the [connection-type documentation](https://tailscale.com/docs/reference/connection-types). **Generate traffic first**, then inspect the peer you care about. The commands above are examples, not captured results from a benchmark.
+Estas etiquetas aparecen en la [documentación de tipos de conexión](https://tailscale.com/docs/reference/connection-types). **Genera tráfico primero** y después comprueba el par que te interesa. Los comandos anteriores son ejemplos, no resultados de un benchmark.
 
-## Interpret a Path Change
+## Interpreta un cambio de ruta
 
-This **illustrative sequence** omits addresses and timings so you focus on the connection transition:
+Esta **secuencia ilustrativa** omite direcciones y tiempos para centrar la atención en el cambio de conexión:
 
 ```text
-First response:    via DERP
-Later response:    via a direct endpoint
-Status afterward: direct
+Primera respuesta:    mediante DERP
+Respuesta posterior:  mediante un endpoint directo
+Estado posterior:     direct
 ```
 
-**Interpretation:** negotiation succeeded during this observation. The first response alone would have produced the wrong diagnosis. If later responses and status remain relayed, record a persistent relay for this device pair and test period.
+**Interpretación:** la negociación tuvo éxito durante esta observación. La primera respuesta por sí sola habría llevado a un diagnóstico equivocado. Si las respuestas posteriores y el estado siguen indicando un relé, anota el uso persistente de un relé para este par de dispositivos y este periodo de prueba.
 
-**Probe scope:** a successful Tailscale ping establishes peer connectivity for its probe. It does not prove your dashboard, file service, or SSH daemon accepts application traffic. Test the failing application separately before declaring the problem solved.
+**Alcance del sondeo:** un ping de Tailscale correcto confirma la conectividad con el par para ese sondeo. No demuestra que tu panel, servicio de archivos o demonio SSH acepte el tráfico de la aplicación. Prueba por separado la aplicación que falla antes de declarar resuelto el problema.
 
-## What Netcheck Tells You
+## Qué indica netcheck
 
-Run **`tailscale netcheck` on both devices**. Compare these fields against the [device-connectivity reference](https://tailscale.com/docs/reference/device-connectivity):
+Ejecuta **`tailscale netcheck` en ambos dispositivos**. Compara estos campos con la [referencia de conectividad de dispositivos](https://tailscale.com/docs/reference/device-connectivity):
 
-| Field | Useful interpretation |
+| Campo | Interpretación útil |
 |---|---|
-| **`UDP`** | Whether the probe observed outbound UDP connectivity |
-| **`MappingVariesByDestIP`** | Changing external mappings suggest difficult NAT traversal |
-| **`IPv6`** | Whether this device has usable IPv6 connectivity |
-| **`PortMapping`** | Whether a supported port-mapping mechanism is available |
+| **`UDP`** | Si el sondeo observó conectividad UDP saliente |
+| **`MappingVariesByDestIP`** | Las asignaciones externas variables pueden dificultar la travesía de NAT |
+| **`IPv6`** | Si el dispositivo tiene conectividad IPv6 utilizable |
+| **`PortMapping`** | Si hay disponible un mecanismo de asignación de puertos compatible |
 
-**One field is not a verdict.** An available mapping mechanism does not prove a particular peer path works. Likewise, a relay label does not identify which router caused it. Compare both endpoints and the actual ping results.
+**Un solo campo no da un veredicto.** Que haya un mecanismo de asignación disponible no demuestra que funcione la ruta hacia un par concreto. Una etiqueta de relé tampoco identifica qué router causó el problema. Compara ambos extremos y los resultados reales de ping.
 
-**Carrier NAT** is relevant when upstream translation is outside your control, as discussed in our [T-Mobile port-forwarding explainer](/articles/t-mobile-home-internet-port-forwarding/). Avoid assuming every connection behind carrier NAT has identical traversal behavior.
+**El NAT del operador** importa cuando la traducción ascendente está fuera de tu control, como explicamos en nuestra guía sobre el [reenvío de puertos de T-Mobile Home Internet](/articles/t-mobile-home-internet-port-forwarding/). No des por hecho que todas las conexiones detrás del NAT del operador tienen el mismo comportamiento de travesía.
 
-## Compare Three Device Pairs
+## Compara tres pares de dispositivos
 
-Use a **third enrolled device**, if available, to improve the evidence. The following is a hypothetical pattern, not a measured result:
+Si tienes uno disponible, usa un **tercer dispositivo inscrito** para mejorar las pruebas. El siguiente patrón es hipotético, no es un resultado medido:
 
-| Device pair | Observed path |
+| Par de dispositivos | Ruta observada |
 |---|---|
-| **Laptop to home server** | DERP |
-| **Laptop to another server** | Direct |
-| **Home server to another server** | DERP |
+| **Portátil a servidor de casa** | DERP |
+| **Portátil a otro servidor** | Directa |
+| **Servidor de casa a otro servidor** | DERP |
 
-**Working hypothesis:** prioritize the home server's network for investigation because both observed paths involving it stayed relayed. This is a lead, not proof. Each pair negotiates independently, and the comparison server has its own network conditions.
+**Hipótesis de trabajo:** investiga primero la red del servidor de casa, ya que las dos rutas observadas que lo incluyen siguieron usando un relé. Es una pista, no una prueba. Cada par negocia por separado y el servidor de comparación tiene sus propias condiciones de red.
 
-**Next observation:** collect netcheck output on all three devices and repeat the laptop-to-home test from another network you control. If the path changes, record exactly which network changed. Avoid attributing the result to a particular firewall setting until you test it.
+**Siguiente observación:** recopila la salida de netcheck en los tres dispositivos y repite la prueba entre el portátil y el servidor de casa desde otra red que controles. Si la ruta cambia, anota exactamente qué red cambió. No atribuyas el resultado a una regla concreta del cortafuegos sin probarla.
 
-**Review exercise:** laptop-to-home is direct, but a file transfer remains slow. A relay explanation no longer matches this observation. Check the underlying upload connection, server load, storage, and application behavior before changing relay settings.
+**Ejercicio:** la conexión entre el portátil y el servidor de casa es directa, pero la transferencia de archivos sigue siendo lenta. Una explicación basada en un relé ya no encaja con esta observación. Antes de cambiar la configuración del relé, comprueba la conexión de subida subyacente, la carga del servidor, el almacenamiento y el comportamiento de la aplicación.
 
-## Choose a Targeted Change
+## Elige un cambio específico
 
-Start with a **comparison test** on another network you control. If the same peer becomes direct, you have useful evidence about the original network path. Review its UDP restrictions and NAT arrangement before changing unrelated DNS or application settings.
+Empieza con una **prueba comparativa** en otra red que controles. Si el mismo par pasa a conectarse directamente, obtienes pruebas útiles sobre la ruta de red original. Revisa las restricciones UDP y la configuración de NAT antes de cambiar ajustes de DNS o de aplicaciones que no guardan relación.
 
-**Change one variable**, rerun the checks, and measure the same workload. Record transfer direction, file size, elapsed time, and connection type. This separates an improved path from an unrelated change in server or storage load.
+**Cambia una variable**, repite las comprobaciones y mide la misma carga de trabajo. Anota el sentido de la transferencia, el tamaño del archivo, el tiempo transcurrido y el tipo de conexión. Así separarás una ruta mejorada de un cambio no relacionado en la carga del servidor o del almacenamiento.
 
-**Firewall changes** should follow the platform-specific guidance and the evidence you collected. Opening an application port to the public Internet does not itself improve Tailscale's transport path. Keep changes limited to the required traffic and network you administer. [Tailscale firewall guidance](https://tailscale.com/docs/integrations/firewalls).
+Los **cambios del cortafuegos** deben seguir las recomendaciones específicas de la plataforma y las pruebas recopiladas. Abrir un puerto de aplicación a Internet público no mejora por sí solo la ruta de transporte de Tailscale. Limita los cambios al tráfico necesario y a la red que administras. [Recomendaciones de Tailscale sobre cortafuegos](https://tailscale.com/docs/integrations/firewalls).
 
-| Finding | Change worth evaluating |
+| Hallazgo | Cambio que conviene evaluar |
 |---|---|
-| **UDP probe fails** | Review outbound UDP restrictions on this network |
-| **Mapping changes across destinations** | Review NAT behavior on equipment you control |
-| **Direct path, slow application** | Investigate the host, underlying connection, and workload |
-| **Working relay, acceptable experience** | Keep the arrangement and document the baseline |
+| **Falla el sondeo UDP** | Revisa las restricciones UDP salientes de esta red |
+| **La asignación cambia según el destino** | Revisa el comportamiento de NAT en los equipos que administras |
+| **Ruta directa, aplicación lenta** | Investiga el host, la conexión subyacente y la carga de trabajo |
+| **El relé funciona y la experiencia es aceptable** | Conserva la configuración y documenta el valor de referencia |
 
-*Prefer a measured improvement over changing settings solely to remove a relay label.*
+*Prefiere una mejora medida antes que cambiar los ajustes solo para quitar la etiqueta del relé.*
 
-## Evaluate a Peer Relay
+## Evalúa un relé entre pares
 
-A **peer relay** requires a suitable host, reachable UDP port, and an access policy permitting its use. Both the relay and participating clients require Tailscale 1.86 or later. Review supported host platforms before allocating a device. [Peer-relay requirements](https://tailscale.com/docs/features/peer-relay).
+Un **relé entre pares** requiere un host adecuado, un puerto UDP accesible y una política de acceso que permita su uso. Tanto el relé como los clientes participantes necesitan Tailscale 1.86 o posterior. Revisa las plataformas de host compatibles antes de asignar un dispositivo. [Requisitos para relés entre pares](https://tailscale.com/docs/features/peer-relay).
 
-**Placement determines usefulness.** A device behind the same inaccessible network boundary needs a reachable relay port before it helps other peers. Choosing a host geographically near the endpoints is insufficient without connectivity to it.
+**La ubicación determina la utilidad.** Un dispositivo detrás del mismo límite de red inaccesible no ayudará a otros pares hasta que el puerto del relé sea accesible.
 
-**Maintenance tradeoff:** someone must keep the relay online, updated, and adequately provisioned. For occasional administration with acceptable latency, compare this burden with the measured benefit. For repeated large transfers, measure the workload through the proposed relay before adopting it.
+**Coste de mantenimiento:** alguien debe mantener el relé conectado, actualizado y con recursos suficientes. Si administras la red de vez en cuando y la latencia es aceptable, compara esta carga con el beneficio medido. Si realizas transferencias grandes con frecuencia, mide la carga de trabajo a través del relé propuesto antes de adoptarlo.
 
-## Check Shared Traffic Effects
+## Comprueba los efectos del tráfico compartido
 
-**Aggregated traffic** deserves attention when a subnet router or exit node carries several workloads through DERP. Tailscale documents situations where heavy relayed traffic delays latency-sensitive traffic sharing the connection. [Hard-NAT troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
+El **tráfico agregado** merece atención cuando un router de subred o un nodo de salida lleva varias cargas de trabajo por DERP. Tailscale documenta situaciones en las que un gran volumen de tráfico retransmitido retrasa el tráfico sensible a la latencia que comparte la conexión. [Solución de problemas de NAT difícil](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
 
-**Comparison exercise:** observe your interactive session before, during, and after a large backup. Keep the endpoint pair fixed and record the path each time. Delays appearing during the transfer justify investigating shared load, but do not establish its exact cause.
+**Ejercicio de comparación:** observa tu sesión interactiva antes, durante y después de una copia de seguridad grande. Mantén fija la pareja de endpoints y anota la ruta cada vez. Los retrasos que aparecen durante la transferencia justifican investigar la carga compartida, pero no demuestran su causa exacta.
 
-**Choose the next test** from the observation. Check link saturation and host load, then evaluate a direct path or separating latency-sensitive services if the topology supports it. Avoid treating a DNS symptom as automatic evidence of a DNS configuration error.
+**Elige la siguiente prueba** según lo observado. Comprueba la saturación del enlace y la carga del host. Después, evalúa una ruta directa o la separación de los servicios sensibles a la latencia si la topología lo permite. No trates un síntoma de DNS como prueba automática de un error en la configuración de DNS.
 
-## Is a Relay an Exit Node?
+## ¿Un relé es un nodo de salida?
 
-An **exit node** routes a client's general Internet traffic through a selected tailnet device. A relay carries traffic between Tailscale peers. Selecting an exit node does not guarantee a direct path to it. [Exit-node documentation](https://tailscale.com/docs/features/exit-nodes).
+Un **nodo de salida** enruta el tráfico general de Internet de un cliente a través de un dispositivo seleccionado del tailnet. Un relé transporta el tráfico entre pares de Tailscale. Elegir un nodo de salida no garantiza una ruta directa hasta él. [Documentación de nodos de salida](https://tailscale.com/docs/features/exit-nodes).
 
-## Create a Diagnostic Record
+## Crea un registro de diagnóstico
 
-Save a **small before-and-after record** for the actual problem:
+Guarda un **registro breve del antes y el después** para el problema real:
 
 ```text
-Date and Tailscale versions:
-Source and destination devices:
-Networks used by each device:
-Initial and settled connection paths:
-Netcheck observations from both ends:
-Workload, direction, and elapsed time:
-Single change tested:
-Retest result:
-Decision to keep or revert:
+Fecha y versiones de Tailscale:
+Dispositivos de origen y destino:
+Redes usadas por cada dispositivo:
+Rutas de conexión inicial y estable:
+Observaciones de netcheck en ambos extremos:
+Carga de trabajo, sentido y tiempo transcurrido:
+Único cambio probado:
+Resultado de la nueva prueba:
+Decisión de conservar o revertir el cambio:
 ```
 
-**Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+**Criterio de finalización:** el registro conecta un síntoma específico con observaciones, una hipótesis y una nueva prueba medida. «El relé desapareció» es un resultado incompleto si la aplicación sigue lenta. «La copia de seguridad cumple el tiempo requerido mediante DERP» es válido si el requisito está definido de forma explícita.
 
-**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
+**Usa `tailscale netcheck` como evidencia, no como veredicto.** El comando describe la red que ve un dispositivo. La ruta establecida corresponde a un par de dispositivos y a una carga de trabajo. Antes de cambiar la configuración del cortafuegos o de NAT, guarda ambos endpoints, la última línea de `tailscale status` y la medición de la aplicación.
 
 ## Próximos pasos
 
-Record the path to your important peer and test the workload before changing network settings. For the separate question of who operates your coordination infrastructure, read [Tailscale vs Headscale](/articles/tailscale-vs-headscale-comparison-guide/).
+Anota la ruta hacia el par importante y prueba la carga de trabajo antes de cambiar los ajustes de red. Para la pregunta independiente sobre quién opera tu infraestructura de coordinación, lee [Tailscale frente a Headscale](/articles/tailscale-vs-headscale-comparison-guide/).

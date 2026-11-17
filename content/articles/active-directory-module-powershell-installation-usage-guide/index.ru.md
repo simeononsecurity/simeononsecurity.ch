@@ -1,6 +1,7 @@
 ---
 title: "Mastering Active Directory Administration with PowerShell: Руководство по установке и использованию"
 date: 2023-07-25
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Узнайте, как эффективно установить и использовать модуль Active Directory для PowerShell, чтобы упростить задачи администрирования Windows Active Directory."
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## Текущие проверки RSAT и PowerShell
+
+Теперь Microsoft распространяет модуль Active Directory через Remote Server Administration Tools (RSAT). В поддерживаемых клиентских версиях Windows установите компонент по запросу из сеанса PowerShell с повышенными правами:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+В Windows Server используйте описанный Microsoft способ установки серверных компонентов:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Перед выполнением команд администрирования проверьте модуль:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+В [справочнике модуля ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) указано, что RSAT поставляет модуль и перечислены доступные командлеты. Используйте версию для вашей операционной системы. В PowerShell 7 есть особенности совместимости, поэтому проверьте модуль на рабочей станции вне производственной среды, прежде чем менять установленный процесс администрирования.
+
+Практическая рекомендация: используйте `-WhatIf`, если командлет его поддерживает, ограничивайте запросы параметром `-Server`, когда важен конкретный контроллер домена, и запрашивайте только необходимые для задачи разрешения. PowerShell описывает `-WhatIf` среди [общих параметров](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Не храните пароли в истории команд или сценариях. Используйте безопасный [запрос Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), защищенное хранилище секретов или делегированную учетную запись службы с документированной процедурой ротации.
 
 ## Заключение
 

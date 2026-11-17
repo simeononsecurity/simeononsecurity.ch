@@ -3,6 +3,7 @@ title: "フィッシング詐欺の回避: 戦術、防止、保護"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "フィッシング詐欺師が使用する戦術について学び、被害者から身を守るための効果的な戦略を見つけてください。"
 tags: ["フィッシング詐欺", "サイバーセキュリティ", "オンラインの脅威", "電子メールのなりすまし", "ソーシャルエンジニアリング", "マルウェアからの保護", "オンラインの安全性", "データセキュリティ", "個人情報の盗難", "パスワードセキュリティ", "二要素認証", "ソフトウェアの更新", "政府の規制", "オンラインプライバシー", "サイバー意識", "デジタル詐欺", "フィッシングに対する意識", "ソーシャルメディアの安全性", "オンライン詐欺", "サイバー犯罪防止"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ coverCaption: ""
 
 フィッシング詐欺は巧妙化する可能性がありますが、被害者にならないように事前に講じることができる手順がいくつかあります。次の対策を実施することで、フィッシング攻撃の餌食になるリスクを大幅に軽減できます。
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [教育と啓発](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) フィッシング詐欺と戦う上で重要です。詐欺師が使用する最新のフィッシング手法と戦術に関する最新情報を入手してください。現在のフィッシング傾向やサイバーセキュリティのベスト プラクティスに関する情報を提供するセキュリティ ブログ、記事、公式 **政府 Web サイト**など、信頼できる情報源を通じて知識を定期的に更新してください。
+[**教育と啓発**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) フィッシング詐欺と戦う上で重要です。詐欺師が使用する最新のフィッシング手法と戦術に関する最新情報を入手してください。現在のフィッシング傾向やサイバーセキュリティのベスト プラクティスに関する情報を提供するセキュリティ ブログ、記事、公式 **政府 Web サイト**など、信頼できる情報源を通じて知識を定期的に更新してください。
 
 ### 電子メールやメッセージには注意が必要です
 
 電子メールやメッセージを受信するときは、特に個人情報を要求したり、緊急の対応を求めたりするものには注意してください。電子メール アドレス、文法やスペルの間違い、フィッシングの試みを示す一般的な挨拶などの詳細に注意してください。たとえ信頼できるソースからのものであるように見えても、予期しない添付ファイルやリンクには注意してください。疑わしい場合は、**疑わしいリンクをクリックしたり、添付ファイルをダウンロードしたりしないでください**。代わりに、**確認済みの電話番号または電子メール アドレスを使用して送信者に直接連絡し**、メッセージの信頼性を確認してください。
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [パスワードを強化し、二要素認証を有効にする](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-あ [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) 単一の侵害によって複数のアカウントが侵害されるのを防ぐために、オンライン アカウントごとに設定します。
+[強固で固有のパスワード](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)は、フィッシング詐欺に対する重要な防御策です。[**強力なパスワードを作成**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)し、大文字と小文字、数字、特殊文字を組み合わせてください。氏名や生年月日のように推測されやすい情報は使わないでください。複数のアカウントが1件の侵害によって危険にさらされないよう、オンラインアカウントごとに[**異なるパスワードを設定すること**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)も重要です。
 
-強力なパスワードに加えて、 [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) いつでも可能なとき。 2FA は、パスワードに加えて、モバイル デバイスに送信される一時コードなどの 2 番目の検証形式を要求することで、セキュリティ層を追加します。これにより、詐欺師がアカウントに不正にアクセスすることが大幅に困難になります。
+強力なパスワードに加えて、 [**二要素認証（2FA）を有効にしてください**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) いつでも可能なとき。 2FA は、パスワードに加えて、モバイル デバイスに送信される一時コードなどの 2 番目の検証形式を要求することで、セキュリティ層を追加します。これにより、詐欺師がアカウントに不正にアクセスすることが大幅に困難になります。
 
 ### ソフトウェアとオペレーティング システムを最新の状態に保つ
 

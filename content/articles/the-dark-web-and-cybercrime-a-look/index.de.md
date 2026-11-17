@@ -1,6 +1,7 @@
 ---
 title: "Das Dark Web und die Cyberkriminalität: Enthüllung der Schattenseiten des Internets"
 date: 2023-05-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Erforschen Sie die verborgene Welt des Dark Web und seine Verbindung zur Cyberkriminalität, und decken Sie gleichzeitig seine doppelte Natur und sein Potenzial für Journalismus und Whistleblowing auf."
@@ -50,25 +51,25 @@ Es sei darauf hingewiesen, dass das Potenzial des Dark Web für journalistische 
 
 Um sich vor dem Dark Web und der Internetkriminalität zu schützen, sind proaktive Maßnahmen zur Risikominderung erforderlich. Hier sind einige wichtige Schritte, um sich zu schützen:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Seien Sie vorsichtig, wenn Sie persönliche Informationen online weitergeben, und geben Sie keine sensiblen Daten an unbekannte oder nicht vertrauenswürdige Quellen weiter. Schützen Sie Ihren Namen, Ihre Adresse, Ihre Sozialversicherungsnummer und andere persönliche Daten.
+[**1. Seien Sie vorsichtig mit persönlichen Angaben:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Seien Sie vorsichtig, wenn Sie persönliche Informationen online weitergeben, und geben Sie keine sensiblen Daten an unbekannte oder nicht vertrauenswürdige Quellen weiter. Schützen Sie Ihren Namen, Ihre Adresse, Ihre Sozialversicherungsnummer und andere persönliche Daten.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Verwenden Sie sichere und eindeutige Passwörter für alle Ihre Online-Konten. Vermeiden Sie die Wiederverwendung von Passwörtern auf mehreren Plattformen, um unbefugten Zugriff im Falle einer Datenpanne zu verhindern.
+[**2. Verwenden Sie starke und einzigartige Passwörter:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Verwenden Sie sichere und eindeutige Passwörter für alle Ihre Online-Konten. Vermeiden Sie die Wiederverwendung von Passwörtern auf mehreren Plattformen, um unbefugten Zugriff im Falle einer Datenpanne zu verhindern.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Aktualisieren Sie regelmäßig Ihre Software, einschließlich Betriebssysteme, Webbrowser und Antivirenprogramme. Diese Updates enthalten oft Sicherheits-Patches, die Schwachstellen beheben und vor neuen Cyber-Bedrohungen schützen.
+[**3. Halten Sie Ihre Software aktuell:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Aktualisieren Sie regelmäßig Ihre Software, einschließlich Betriebssysteme, Webbrowser und Antivirenprogramme. Diese Updates enthalten oft Sicherheits-Patches, die Schwachstellen beheben und vor neuen Cyber-Bedrohungen schützen.
 
 **4. Üben Sie sich in sicheren Surfgewohnheiten:** Seien Sie bei den Websites, die Sie besuchen, kritisch und klicken Sie nicht auf Links in E-Mails oder auf unbekannte Websites. Halten Sie sich an seriöse Quellen und überprüfen Sie die Legitimität von Websites, bevor Sie persönliche oder finanzielle Informationen weitergeben.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Verwenden Sie Firewalls, um den ein- und ausgehenden Netzwerkverkehr zu kontrollieren, und setzen Sie zuverlässige Antiviren-Software ein, um Malware oder verdächtige Aktivitäten auf Ihren Geräten zu erkennen und zu entfernen.
+[**5. Nutzen Sie Firewalls und Antivirensoftware:**](https://simeononsecurity.com/recommendations/anti-virus/) Verwenden Sie Firewalls, um den ein- und ausgehenden Netzwerkverkehr zu kontrollieren, und setzen Sie zuverlässige Antiviren-Software ein, um Malware oder verdächtige Aktivitäten auf Ihren Geräten zu erkennen und zu entfernen.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Erstellen Sie regelmäßig Sicherungskopien Ihrer wichtigen Daten und Dateien. So stellen Sie sicher, dass Sie Ihre Informationen selbst dann wiederherstellen können, wenn Ihr Computer kompromittiert oder Ihre Daten gestohlen werden, und minimieren die Auswirkungen möglicher Cyberangriffe.
+[**6. Sichern Sie Ihre Daten regelmäßig:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Erstellen Sie regelmäßig Sicherungskopien Ihrer wichtigen Daten und Dateien. So stellen Sie sicher, dass Sie Ihre Informationen selbst dann wiederherstellen können, wenn Ihr Computer kompromittiert oder Ihre Daten gestohlen werden, und minimieren die Auswirkungen möglicher Cyberangriffe.
 
 ## Staatliche Vorschriften und Initiativen
 
 Regierungen auf der ganzen Welt erkennen zunehmend die Notwendigkeit, das Dark Web und die Internetkriminalität durch Gesetze und Initiativen zu bekämpfen. Einige bemerkenswerte Vorschriften und Initiativen sind:
 
-- Die [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/): Aimed at protecting the personal data and privacy of EU citizens, the GDPR sets strict guidelines and requirements for businesses and organizations handling personal information. More information can be found in [this article](https://gdpr.eu/)
+- Die [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/) soll die personenbezogenen Daten und die Privatsphäre der EU-Bürger schützen. Sie legt strenge Vorgaben für Unternehmen und Organisationen fest, die personenbezogene Daten verarbeiten. Weitere Informationen finden Sie in [diesem Artikel](https://gdpr.eu/).
 
-- Die [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Das [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) der Vereinigten Staaten fördert den Austausch von Informationen über Cyberbedrohungen zwischen privaten Einrichtungen und der Regierung, um die nationale Sicherheit zu stärken und Cyberrisiken einzudämmen. Weitere Einzelheiten finden Sie in [dieser Dokumentation](https://www.congress.gov/bill/114th-congress/senate-bill/754).
 
 Diese Verordnungen und Initiativen spielen eine wichtige Rolle bei der Förderung eines sichereren digitalen Umfelds, aber das Bewusstsein des Einzelnen und proaktive Cybersicherheitspraktiken sind nach wie vor entscheidend für die Bekämpfung des Dark Web und der Cyberkriminalität.
 
@@ -78,5 +79,5 @@ Das Dark Web und die Cyberkriminalität stellen in der heutigen vernetzten Welt 
 
 Referenzen:
 
-- Allgemeine Datenschutzverordnung der Europäischen Union (GDPR): [link](https://gdpr.eu/)
-- Gesetz über den Austausch von Informationen zur Cybersicherheit (CISA): [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Allgemeine Datenschutzverordnung der Europäischen Union (GDPR): [Verordnungstext](https://gdpr.eu/)
+- Gesetz über den Austausch von Informationen zur Cybersicherheit (CISA): [Gesetzestext](https://www.congress.gov/bill/114th-congress/senate-bill/754)

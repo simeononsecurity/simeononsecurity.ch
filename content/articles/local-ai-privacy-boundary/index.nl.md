@@ -1,12 +1,12 @@
 ---
 title: "Privacy van lokale AI: wat op je computer blijft en wat niet"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Breng prompts, modelbestanden, tools, logs, netwerkblootstelling en stroomkosten in kaart voordat je kiest voor lokale inferentie of een gehoste AI-dienst."
-genre: ["Lokale AI", "Privacy", "Zelfgehoste AI", "Cybersecurity", "AI-economie"]
-tags: ["privacy lokale AI", "lokale inferentie", "cloud AI", "AI-dataprivacy", "zelfgehoste AI", "LLM-privacy", "GPU-eigendomskosten", "AI-stroomkosten", "RTX 5070", "Claude Haiku 5.5", "Ollama-privacy", "llama.cpp", "AI-beveiliging", "offline AI", "lokale taalmodellen", "promptprivacy", "AI-dreigingsmodel", "GPU-rendabiliteit", "AI-datagrens", "private AI"]
+genre: ["Lokale AI", "Privacy", "Zelfgehoste AI", "Cyberbeveiliging", "AI-economie"]
+tags: ["privacy lokale AI", "lokale inferentie", "AI in de cloud", "AI-dataprivacy", "zelfgehoste AI", "LLM-privacy", "GPU-eigendomskosten", "AI-stroomkosten", "RTX 5070", "Claude Haiku 5.5", "privacy van Ollama", "llama.cpp", "AI-beveiliging", "AI zonder internetverbinding", "lokale taalmodellen", "promptprivacy", "AI-dreigingsmodel", "GPU-rendabiliteit", "AI-datagrens", "privé-AI"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Een lokaal AI-werkstation verbonden met een cloudservice via zichtbare datapaden"
 coverCaption: "Illustratie van lokale en gehoste AI-datapaden"
@@ -78,6 +78,15 @@ De [FAQ van Ollama](https://docs.ollama.com/faq) beschrijft een modus die alleen
 
 Controleer de instelling na de herstart. Een lokale runtime verkleint één pad. Hij maakt geen private host.
 
+
+## Ollama-spraak en de netwerkgrens
+
+*De [Ollama-release v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11) kondigt spraakgeneratie op macOS aan. De [API-referentie](https://docs.ollama.com/api/openai-compatibility) dateert `/v1/audio/speech` op v0.40.8, dus v0.40.11 is niet de eerste gedocumenteerde versie van dit endpoint.* Dit is **tekst-naar-spraak**, geen spraak-naar-tekst: een verzoek stuurt tekst naar een spraakmodel zoals Phonon en ontvangt gestreamde audio. De [spraakgids](https://docs.ollama.com/capabilities/speech) laat ook zien hoe `ollama run phonon` audio lokaal afspeelt of een WAV-bestand schrijft wanneer je de uitvoer omleidt.
+
+Het **lokale spraakpad** vereist een gedownload lokaal model en een lokale server. De [FAQ van Ollama](https://docs.ollama.com/faq) zegt dat de server standaard aan `127.0.0.1:11434` bindt en dat **`OLLAMA_HOST`** het bindadres wijzigt. Controleer de actieve listener met het `lsof`-commando hierboven in plaats van aan te nemen dat de standaard nog geldt. De [API-inleiding van Ollama](https://docs.ollama.com/api/introduction) zegt dat lokale verzoeken geen API-sleutel nodig hebben. Beperk een bredere binding met een firewall en toegangsbeheer voordat je privétekst verstuurt.
+
+**Een loopback-binding is niet de volledige grens.** Ollama documenteert hoe je de HTTP-server via een reverse proxy of tunnel doorstuurt. Controleer de listener, authenticatie en verzoekregistratie van elke proxy, ook wanneer Ollama zelf op loopback blijft luisteren. De tekst die je verstuurt en de audio die je terugkrijgt lopen door de proxyverbinding. De [probleemoplossingsgids van Ollama](https://docs.ollama.com/troubleshooting) verwijst naar serverlogs, maar de spraakdocumentatie belooft geen audiobewaring. Controleer waar clients WAV-uitvoer opslaan en waar proxy- of applicatielogs bewaard blijven. Volgens de FAQ ziet Ollama geen prompts of gegevens bij lokale uitvoeringen. Modeldownloads vereisen netwerktoegang en cloudmodellen volgen een ander pad. In een Ollama-configuratie met alleen lokale modellen schakelt `OLLAMA_NO_CLOUD=1`, hierboven beschreven, de cloudfuncties van Ollama uit. Andere applicaties worden er niet door beheerd.
+
 ## Bereken de gehoste kosten
 
 Tokenprijzen splitsen input en output. [Anthropic vermeldt Claude Haiku 5.5 voor $0,10 per miljoen inputtokens en $0,50 per miljoen outputtokens voor prompts tot 100.000 tokens](https://www.anthropic.com/claude/haiku). Prompts boven 100.000 tokens gebruiken de hogere vermelde tarieven.
@@ -97,7 +106,7 @@ Het GPU-vermogenscijfer is niet het vermogen van het hele systeem. Gebruik een e
 Gebruik deze formule voor gegenereerde output:
 
 ```text
-local cost per 1M output tokens =
+lokale kosten per 1M uitvoertokens =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -124,8 +133,8 @@ Stroombesparing betaalt hardware niet vanzelf terug. Vergelijk de volledige aank
 Bij 50 outputtokens per seconde:
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 gehoste uitvoerprijs - $0.40 lokale stroomkosten = $0.10 besparing per 1M uitvoertokens
+$549 GPU-prijs / $0.10 = ongeveer 5.5 miljard uitvoertokens
 ```
 
 Bij 94 outputtokens per seconde stijgt de afgeronde besparing naar ongeveer $0,28 per miljoen tokens. Een GPU van $549 terugverdienen vraagt dan ongeveer 2 miljard outputtokens. Beide cijfers sluiten systeemgeheugen, opslag, moederbord, voeding, koeling, onderhoud en restwaarde uit.
@@ -191,4 +200,10 @@ De [gids voor lokale AI versus ChatGPT](/articles/local-ai-vs-chatgpt-how-close-
 - [Prijzen van het Anthropic Claude-platform](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, Tokens begrijpen en tellen](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Privacybeleid van Ollama](https://ollama.com/privacy)
+- [Ollama-releaseopmerkingen v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Ollama-spraakgids](https://docs.ollama.com/capabilities/speech)
+- [Ollama-API-referentie voor OpenAI-compatibiliteit](https://docs.ollama.com/api/openai-compatibility)
+- [Ollama-API-inleiding](https://docs.ollama.com/api/introduction)
+- [Ollama-FAQ: serverinstellingen, cloudinstellingen en reverse proxies](https://docs.ollama.com/faq)
+- [Ollama-probleemoplossing en serverlogs](https://docs.ollama.com/troubleshooting)
 - [Serverdocumentatie van llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

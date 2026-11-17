@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC: guida introduttiva"
 date: 2023-04-02
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Scoprite la potenza di PowerShell Desired State Configuration (DSC) per automatizzare e gestire le configurazioni di sistema per un ambiente sicuro e conforme."
-tags: ["PowerShell", "DSC", "Gestione della configurazione", "Automazione", "Finestre", "Amministrazione del sistema", "Migliori pratiche", "Compliance", "Sicurezza", "Infrastrutture", "DevOps", "Configurazione del server", "Test", "Git", "Controllo della fonte", "Regolamenti governativi", "NIST", "CIS", "Deriva della configurazione", "Risorse personalizzate"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+tags: ["PowerShell", "DSC", "Gestione della configurazione", "Automazione", "Windows", "Amministrazione del sistema", "Migliori pratiche", "Conformità", "Sicurezza", "Infrastrutture", "DevOps", "Configurazione del server", "Test", "Git", "Controllo della fonte", "Regolamenti governativi", "NIST", "CIS", "Deriva della configurazione", "Risorse personalizzate"]
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "Un'immagine a fumetti di un amministratore di sistema sicuro di sé con un mantello da supereroe, in piedi accanto a un rack di server ben organizzato, che tiene in una mano uno script DSC di PowerShell e nell'altra uno scudo con il logo di Windows, proteggendo i server dalle derive della configurazione e dalle minacce alla sicurezza."
 coverCaption: ""
 ---
@@ -83,7 +84,7 @@ ______
 
 ### Linee guida NIST
 
-Il National Institute of Standards and Technology (NIST) fornisce linee guida per la gestione della configurazione dei sistemi. In particolare, il [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) publication contains a section (CM-2) sulle configurazioni di base, che è rilevante per l'uso di DSC. Le linee guida sottolineano l'importanza di mantenere, monitorare e controllare le modifiche alle configurazioni di sistema. PowerShell DSC può aiutare le organizzazioni a rispettare queste linee guida fornendo un metodo coerente e automatizzato per gestire le configurazioni di sistema.
+Il National Institute of Standards and Technology (NIST) fornisce linee guida per la gestione della configurazione dei sistemi. In particolare, la pubblicazione [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) contiene una sezione (CM-2) sulle configurazioni di base, rilevante per l'uso di DSC. Le linee guida sottolineano l'importanza di mantenere, monitorare e controllare le modifiche alle configurazioni di sistema. PowerShell DSC può aiutare le organizzazioni a rispettare queste linee guida fornendo un metodo coerente e automatizzato per gestire le configurazioni di sistema.
 
 ### Legge federale sulla gestione della sicurezza delle informazioni (FISMA)
 
@@ -97,12 +98,12 @@ ______
 
 ## Riferimenti
 
-- [PowerShell Desired State Configuration (DSC) official documentation](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+- [Documentazione ufficiale di PowerShell Desired State Configuration (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
-- [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [Pester - framework di test per PowerShell](https://github.com/pester/Pester)
+- [Guida per principianti all'uso della crittografia per proteggere i dati](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Buone pratiche per installare patch di sicurezza su Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 

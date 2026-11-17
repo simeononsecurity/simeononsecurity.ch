@@ -1,374 +1,372 @@
 ---
-title: "SenseCAP M1 Raspberry Pi Shield: Pinout and LoRaWAN Reuse"
+title: "SenseCAP M1 Raspberry Pi Shield: распиновка и повторное использование LoRaWAN"
 date: 2026-09-12
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Understand the SenseCAP M1 shield, compare conflicting GPIO maps, inspect its ATECC608, and plan a LoRaWAN gateway with modern Raspberry Pi OS."
-genre: ["Raspberry Pi", "IoT", "Hardware Security"]
-tags: ["SenseCAP M1", "SenseCAP M1 shield", "SenseCAP M1 pinout", "Raspberry Pi shield", "Raspberry Pi HAT", "LoRaWAN gateway", "WM1302", "WM1303", "SX1302", "SX1303", "Seeed Studio", "Helium hotspot reuse", "LoRa concentrator", "SPI GPIO", "GPIO17", "GPIO22 LED", "libgpiod", "Raspberry Pi OS", "ATECC608", "CryptoAuthLib", "I2C diagnostics", "STTS751", "LoRa Basics Station", "ChirpStack", "The Things Stack", "hardware reverse engineering"]
+description: "Изучите плату SenseCAP M1 Shield, сравните противоречивые схемы GPIO, проверьте ATECC608 и спланируйте шлюз LoRaWAN на современной Raspberry Pi OS."
+genre: ["Raspberry Pi", "IoT", "Безопасность оборудования"]
+tags: ["SenseCAP M1", "SenseCAP M1 Shield", "Распиновка SenseCAP M1", "Raspberry Pi Shield", "Raspberry Pi HAT", "Шлюз LoRaWAN", "WM1302", "WM1303", "SX1302", "SX1303", "Seeed Studio", "Повторное использование Helium-hotspot", "Концентратор LoRa", "SPI GPIO", "GPIO17", "Светодиод GPIO22", "libgpiod", "Raspberry Pi OS", "ATECC608", "CryptoAuthLib", "Диагностика I2C", "STTS751", "LoRa Basics Station", "ChirpStack", "The Things Stack", "Обратное проектирование оборудования"]
 cover: "/img/cover/sensecap-wm1302-shield-hardware.webp"
-coverAlt: "SenseCAP M1 shield with a Seeed WM1302 module, Raspberry Pi header, antenna cable, USB-C socket, and fan connector"
-coverCaption: "Board photograph: Clockwork Bird, 2023. Source and attribution appear below."
+coverAlt: "Плата SenseCAP M1 Shield с модулем Seeed WM1302, разъемом Raspberry Pi, антенной, USB-C и разъемом вентилятора"
+coverCaption: "Фото платы: Clockwork Bird, 2023. Источник и авторство указаны ниже."
 coverCredit: "Clockwork Bird"
 coverCreditURL: "https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/"
 ---
 
-**The SenseCAP M1 shield is useful LoRaWAN gateway hardware, but its wiring deserves more scrutiny than a generic Raspberry Pi HAT tutorial provides.** This guide expands [Clockwork Bird’s 2023 investigation](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/) with manufacturer documentation, upstream driver inspection, and current GPIO guidance. You will identify the hardware, separate established facts from incomplete pinout evidence, and produce a repeatable bring-up record.
+**Плата SenseCAP M1 Shield подходит для шлюза LoRaWAN, но ее разводку следует проверять внимательнее, чем в обычной инструкции по Raspberry Pi HAT.** Это руководство дополняет [исследование Clockwork Bird за 2023 год](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/) документацией производителя, изучением драйвера upstream и актуальными рекомендациями по GPIO. Вы определите компоненты, отделите подтвержденные сведения от неполной распиновки и составите воспроизводимую запись о вводе в эксплуатацию.
 
-> **Scope:** This is a documentation-based hardware guide. The commands and board mappings have not been tested on a physical M1 for this article.
+> **Область:** это руководство по оборудованию, основанное на документации. Команды и схемы платы не проверялись на физическом M1 для этой статьи.
 
-## Главные выводы
+## Основные выводы
 
-- **Identify both boards:** The M1 carrier and its removable concentrator have separate model and revision information.
-- **Audit reset scripts:** CoreCell defaults conflict with signals in the published M1 pinout.
-- **Check the OS interfaces:** SPI device files, GPIO numbering, and GPIO tool versions answer different questions.
-- **Preserve secure-element provisioning:** Reading device information differs from configuring or generating keys.
-- **Prove the whole path:** A detected concentrator does not establish successful sensor delivery.
+- **Определите обе платы:** у несущей платы M1 и съемного концентратора разные модели и ревизии.
+- **Проверьте скрипты сброса:** значения CoreCell по умолчанию конфликтуют с сигналами в опубликованной распиновке M1.
+- **Проверьте интерфейсы ОС:** файлы устройств SPI, нумерация GPIO и версия инструмента GPIO отвечают на разные вопросы.
+- **Сохраните настройки защищенного элемента:** чтение сведений устройства отличается от настройки и создания ключей.
+- **Проверьте весь путь:** обнаружение концентратора не доказывает успешную доставку данных датчика.
 
 ## Перед началом
 
-**Difficulty: intermediate.** Budget roughly one to two hours for inventory, OS preparation, and documentation checks. Electrical verification, driver adaptation, and network-server deployment add separate work, especially with an unfamiliar board revision.
+**Сложность: средняя.** Выделите около одного-двух часов на инвентаризацию, подготовку ОС и проверку документации. Электрическая проверка, адаптация драйвера и развертывание сервера потребуют дополнительного времени, особенно для неизвестной ревизии платы.
 
-| Item | Purpose |
+| Предмет | Назначение |
 |---|---|
-| **M1 shield and concentrator** | Read the carrier revision and the complete module label |
-| **Raspberry Pi 4** | Start with the host used in the original M1 design |
-| **Spare microSD card** | Prepare a separate OS while preserving the original installation |
-| **Correct supply and antenna** | Match the assembled hardware and the module’s RF band |
-| **SSH or local console** | Record diagnostics and edit configuration |
-| **LoRaWAN sensor and server** | Verify actual application delivery after hardware bring-up |
-| **Meter and hardware experience** | Resolve undocumented connections before driving them |
+| **M1 Shield и концентратор** | Прочитать ревизию несущей платы и полную маркировку модуля |
+| **Raspberry Pi 4** | Начать с хоста исходного проекта M1 |
+| **Запасная карта microSD** | Подготовить отдельную ОС, сохранив исходную установку |
+| **Подходящий блок питания и антенна** | Согласовать их с собранным устройством и диапазоном модуля |
+| **SSH или локальная консоль** | Собирать диагностику и менять настройки |
+| **Датчик и сервер LoRaWAN** | Проверить доставку данных приложения после запуска оборудования |
+| **Измеритель и опыт работы с оборудованием** | Проверить неизвестные соединения до подачи сигналов |
 
-Photograph both sides of your unpowered assembly before removing anything. Record connector orientation, screws, spacers, and antenna routing. Keep the original card and configuration available until the replacement installation passes your acceptance checks.
+Сфотографируйте обе стороны обесточенной сборки до разборки. Запишите ориентацию разъемов, винты, стойки и прокладку антенны. Сохраните исходную карту и настройки, пока новая установка не пройдет приемочные проверки.
 
-## Identify the Three Layers
+## Определите три уровня оборудования
 
-**The complete M1, its carrier shield, and its concentrator are different components.** Seeed documents the assembled hotspot as a Raspberry Pi 4 with either a WM1302/SX1302 or WM1303/SX1303 concentrator. A listing titled “SenseCAP M1 shield” does not establish which of those parts accompanies the carrier. [Seeed Studio’s M1 overview](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
+**Целый M1, его несущая плата Shield и концентратор — разные компоненты.** Seeed описывает точку доступа как Raspberry Pi 4 с концентратором WM1302/SX1302 либо WM1303/SX1303. Объявление «SenseCAP M1 shield» не подтверждает, какой модуль установлен на несущей плате. [Обзор M1 от Seeed](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
 
-The **carrier** routes power and peripheral signals between the Pi and module. The **concentrator** handles radio reception and transmission. A **packet forwarder** runs on the host and exchanges received radio packets and scheduled downlinks with a server. [Semtech’s SX1302 HAL overview](https://github.com/Lora-net/sx1302_hal)
+**Несущая плата** соединяет питание и периферийные сигналы Pi с модулем. **Концентратор** принимает и передает радиосигналы. На хосте работает **переадресатор пакетов**, который обменивается с сервером принятыми радиопакетами и запланированными нисходящими передачами. [Обзор SX1302 HAL от Semtech](https://github.com/Lora-net/sx1302_hal)
 
-For a practical example, a shelf-temperature sensor sends an uplink over radio. The concentrator receives it, the host forwards it, and the network/application services process it. A successful Linux boot proves only the host portion of this chain.
+Например, датчик температуры отправляет восходящий пакет по радио. Концентратор принимает его, хост пересылает, а сетевые и прикладные службы обрабатывают. Успешная загрузка Linux подтверждает только работу хоста в этой цепочке.
 
-Clockwork Bird’s photograph shows an M1 v1.1 carrier with a module explicitly labeled `WM1302-SPI-EU868`. Use the photograph to locate the labels on your own hardware. Its serial numbers identify the photographed equipment, not configuration values for another gateway.
+На фото Clockwork Bird показана несущая плата M1 v1.1 с модулем, на котором явно написано <code>WM1302-SPI-EU868</code>. Используйте фото, чтобы найти маркировку на своем устройстве. Серийные номера относятся к сфотографированному оборудованию и не задают настройки другого шлюза.
 
-{{< figure src="m1-carrier-wm1302-board.webp" alt="Green M1 carrier holding a labeled WM1302 SPI EU868 module beside USB-C, button, fan socket, and antenna cable" caption="M1 v1.1 hardware photographed by Clockwork Bird, also used for this article’s cover" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
+{{< figure src="m1-carrier-wm1302-board.webp" alt="Зеленая несущая плата M1 с маркированным модулем WM1302-SPI-EU868, USB-C, кнопкой, разъемом вентилятора и антенной" caption="Плата M1 v1.1, сфотографированная Clockwork Bird и использованная для обложки статьи" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
 
-## Power and Radio Connections
+## Питание и радиосоединения
 
-**Treat the M1 USB-C connector as a power input.** The manufacturer specifies DC 5 V, 3 A for the complete gateway and identifies USB-C as its power-supply interface. Calling it a charging port suggests a battery function absent from those specifications. [SenseCAP M1 specifications](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
+**Считайте разъем USB-C на M1 входом питания.** Для всего шлюза производитель указывает 5 В постоянного тока и 3 А, а USB-C называет интерфейсом питания. Термин «порт зарядки» подразумевает аккумулятор, которого в этой спецификации нет. [Характеристики SenseCAP M1](https://www.sensecapmx.com/docs/sensecap-m1/overview/)
 
-The vendor block diagram separates the 5 V supply from the module’s regulated 3.3 V rail. This distinction matters during troubleshooting: a running Pi and an unpowered concentrator are separate possibilities. Do not inject 5 V into a signal pin or assume two power inputs are isolated from each other.
+На блок-схеме отдельны линия питания 5 В и стабилизированная линия 3,3 В модуля. Это важно при диагностике: Pi может работать, а концентратор — не получать питание. Не подавайте 5 В на сигнальный контакт и не считайте два входа питания изолированными.
 
-**SPI and USB module variants require different host connections.** Seeed’s WM1302 documentation describes direct SPI access for its SPI model and an STM32L4 USB bridge for its USB model. The mini-PCIe shape describes the module’s form factor, while the documented electrical interfaces are SPI or USB. A matching laptop socket is insufficient evidence of compatibility. [Seeed’s WM1302 documentation](https://github.com/seeed-lora/WM1302-doc)
+**Для вариантов SPI и USB нужны разные соединения с хостом.** В документации WM1302 от Seeed для модели SPI описан прямой доступ по SPI, а для USB-модели — USB-мост STM32L4. Mini-PCIe обозначает форм-фактор, тогда как задокументированные электрические интерфейсы — SPI или USB. Совпадающий разъем ноутбука не подтверждает совместимость. [Документация WM1302 от Seeed](https://github.com/seeed-lora/WM1302-doc)
 
-Before powering the assembly, seat the module with power disconnected and attach a suitable antenna. Match the RF hardware, antenna, and intended network plan. Changing a configuration filename does not replace the module’s RF components, and the M1 power socket does not prove support for a USB concentrator variant.
+Устанавливайте модуль при отключенном питании и подключайте подходящую антенну. Согласуйте радиомодуль, антенну и план сети. Изменение имени конфигурационного файла не заменяет радиокомпоненты, а разъем питания M1 не доказывает поддержку USB-варианта концентратора.
 
-{{< figure src="m1-power-spi-system-diagram.webp" alt="Block diagram connecting Raspberry Pi 4 to the M1 shield through power, SPI, GPIO, and I2C buses" caption="SenseCAP manufacturer diagram reproduced in Clockwork Bird’s original article, showing the WM1302 design" credit="Seeed Studio / SenseCAP, via Clockwork Bird" attr="Seeed Studio / SenseCAP, via Clockwork Bird" attrlink="https://www.sensecapmx.com/docs/sensecap-m1/overview/" >}}
+{{< figure src="m1-power-spi-system-diagram.webp" alt="Блок-схема Raspberry Pi 4 и M1 Shield с соединениями питания, SPI, GPIO и I2C" caption="Схема производителя SenseCAP из исходной статьи Clockwork Bird, описывающая конструкцию WM1302" credit="Seeed Studio / SenseCAP, via Clockwork Bird" attr="Seeed Studio / SenseCAP, via Clockwork Bird" attrlink="https://www.sensecapmx.com/docs/sensecap-m1/overview/" >}}
 
-## Read the Pinout Carefully
+## Внимательно изучите распиновку
 
-**Use BCM GPIO numbers and physical header numbers as separate columns in your notes.** For example, BCM GPIO17 sits at physical pin 11 on the Pi header. The module edge connector introduces a third numbering system, so its reset pin number is not a Raspberry Pi GPIO number.
+**Записывайте номера BCM GPIO и физические номера контактов разъема отдельно.** Например, BCM GPIO17 находится на физическом контакте 11 разъема Pi. У краевого разъема модуля своя нумерация, поэтому номер контакта сброса модуля не является номером GPIO Raspberry Pi.
 
-The table below transcribes the connections in Clockwork Bird’s annotated header image. It is a **community reference**, not a complete manufacturer-issued schematic or a measurement of every M1 revision. The drawing also uses `SX1262` labels, while the generic Semtech reset script uses `SX1261` names.
+Ниже приведена таблица соединений с аннотированной схемы разъема Clockwork Bird. Это **справочник сообщества**, а не полный заводской принципиальный чертеж и не измерение каждой ревизии M1. На рисунке указана микросхема SX1262, тогда как общий скрипт сброса Semtech использует обозначение SX1261.
 
-| Signal in the drawing | BCM / physical pin | Interpretation |
+| Сигнал на схеме | BCM / физический контакт | Значение |
 |---|---|---|
-| **I2C SDA / SCL** | GPIO2 / 3, GPIO3 / 5 | Shared management bus |
-| **SX1302 reset** | GPIO17 / 11 | Concentrator reset candidate |
-| **User LED** | GPIO22 / 15 | M1 annotation |
-| **SPI MOSI / MISO** | GPIO10 / 19, GPIO9 / 21 | SPI data signals |
-| **SPI clock** | GPIO11 / 23 | SPI clock signal |
-| **SX1302 chip select** | GPIO8 / 24 | SPI0 CE0 |
-| **SX1262 reset** | GPIO5 / 29 | Auxiliary radio reset candidate |
-| **SX1262 chip select** | GPIO6 / 31 | GPIO6, distinct from SPI0 CE1 |
-| **SX1262 BUSY** | GPIO18 / 12 | Auxiliary radio status output |
-| **SX1262 IO1 / IO2** | GPIO23 / 16, GPIO24 / 18 | Auxiliary signals, verify before use |
+| **I2C SDA / SCL** | GPIO2 / 3, GPIO3 / 5 | Общая шина управления |
+| **Сброс SX1302** | GPIO17 / 11 | Предполагаемый сброс концентратора |
+| **Пользовательский светодиод** | GPIO22 / 15 | Обозначение M1 |
+| **SPI MOSI / MISO** | GPIO10 / 19, GPIO9 / 21 | Сигналы данных SPI |
+| **Тактовый сигнал SPI** | GPIO11 / 23 | Тактовый сигнал SPI |
+| **Выбор микросхемы SX1302** | GPIO8 / 24 | SPI0 CE0 |
+| **Сброс SX1262** | GPIO5 / 29 | Предполагаемый сброс дополнительного радиомодуля |
+| **Выбор микросхемы SX1262** | GPIO6 / 31 | GPIO6, не SPI0 CE1 |
+| **SX1262 BUSY** | GPIO18 / 12 | Выход состояния дополнительного радиомодуля |
+| **SX1262 IO1 / IO2** | GPIO23 / 16, GPIO24 / 18 | Дополнительные сигналы, проверьте перед использованием |
 
-The crossed-out GPS/UART annotations do not establish a GPS-equipped M1. Leave GPS-specific setup out of your configuration unless your actual hardware provides it. The published diagram also leaves the user button and fan control unresolved. [Clockwork Bird’s pinout investigation](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/)
+Перечеркнутые обозначения GPS/UART не доказывают, что у M1 есть GPS. Не настраивайте GPS, если его нет на вашем устройстве. Опубликованная схема также не объясняет подключение кнопки и управление вентилятором. [Исследование распиновки M1 от Clockwork Bird](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/)
 
-{{< figure src="m1-community-header-pinout.webp" alt="Annotated Raspberry Pi header drawing showing M1 LED, concentrator reset, SPI signals, and crossed-out GPS connections" caption="Community-annotated reference with unresolved board-revision coverage, not a complete M1 schematic" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
+{{< figure src="m1-community-header-pinout.webp" alt="Аннотированная схема разъема Raspberry Pi с индикатором M1, сбросом концентратора, сигналами SPI и перечеркнутыми линиями GPS" caption="Справочная схема сообщества с неполным охватом ревизий платы, не полный принципиальный чертеж M1" credit="Clockwork Bird" attr="Clockwork Bird, 2023-05-03" attrlink="https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/" >}}
 
-## Resolve Reset-Script Conflicts
+## Устраните конфликты скриптов сброса
 
-**A reset script selects electrical outputs, not merely software preferences.** Semtech’s upstream `reset_lgw.sh` targets its CoreCell reference design. Its defaults include GPIO23 for concentrator reset, GPIO18 for power enable, GPIO22 for auxiliary reset, and GPIO13 for an AD5338R reset. [Semtech reset-script source](https://github.com/Lora-net/sx1302_hal/blob/master/tools/reset_lgw.sh)
+**Скрипт сброса выбирает электрические выходы, а не только параметры программы.** Файл Semtech <code>reset_lgw.sh</code> предназначен для эталонной конструкции CoreCell. Среди его значений по умолчанию: GPIO23 для сброса концентратора, GPIO18 для включения питания, GPIO22 для дополнительного сброса и GPIO13 для сброса AD5338R. [Скрипт сброса Semtech](https://github.com/Lora-net/sx1302_hal/blob/master/tools/reset_lgw.sh)
 
-Seeed’s older setup instructions change the two reset assignments to GPIO17 and GPIO5 but retain the other reference-design entries. Compare those values with the annotated M1 image before following the example. [Seeed WM1302 setup instructions](https://github.com/seeed-lora/WM1302-doc)
+В старой инструкции Seeed оба сброса переназначены на GPIO17 и GPIO5, но остальные сигналы эталонной конструкции сохранены. Сравните их с M1 перед использованием примера. [Инструкция по настройке WM1302 от Seeed](https://github.com/seeed-lora/WM1302-doc)
 
-| Assignment | Conflicting evidence | Required decision |
+| Назначение | Противоречащие сведения | Что требуется решить |
 |---|---|---|
-| **GPIO22 as auxiliary reset** | M1 image labels it as the user LED | Remove this assumption before enabling the LED |
-| **GPIO18 as power enable** | M1 image labels it as auxiliary BUSY | Verify the net and direction before driving it |
-| **GPIO13 as DAC reset** | Generic script names a different reference design | Establish whether the circuit exists |
-| **Auxiliary SPI device** | M1 image selects GPIO6 rather than CE1 | Confirm chip-select routing and driver support |
+| **GPIO22 как дополнительный сброс** | На схеме M1 это пользовательский светодиод | Удалите предположение до включения индикатора |
+| **GPIO18 как разрешение питания** | На схеме M1 это выход BUSY | Проверьте цепь и направление до управления |
+| **GPIO13 как сброс ЦАП** | Общий скрипт относится к другой эталонной плате | Установите, есть ли такая схема |
+| **Дополнительное устройство SPI** | На схеме M1 выбран GPIO6, а не CE1 | Проверьте цепь chip-select и поддержку драйвера |
 
-**Inference:** If GPIO18 connects to an auxiliary radio output as drawn, configuring the Pi end as an output creates a risk of electrical contention. The disagreement establishes a verification requirement, not proof of damage or proof of one universal M1 wiring map.
+**Вывод:** если GPIO18, как показано на схеме, соединен с выходом дополнительного радиомодуля, настройка контакта Pi как выхода создает риск электрического конфликта. Расхождение означает, что нужна проверка. Оно не доказывает повреждение или единую схему подключения для всех ревизий M1.
 
-With all power disconnected, trace accessible connections between the header and module connector. Record the board revision and both endpoints. A continuity result establishes connectivity, while the component documentation establishes signal direction and electrical limits.
+При отключенном питании проследите доступные соединения между разъемом и модулем. Запишите ревизию платы и оба конца цепи. Проверка непрерывности подтверждает соединение, а документация компонентов объясняет направление сигнала и электрические ограничения.
 
-Use the manufacturer’s module diagram below to avoid mixing edge-connector pins with Pi header pins. The auxiliary-radio labels describe the published module reference and do not establish identical silicon or supported features across every module revision. [Seeed WM1302 module pinout](https://github.com/seeed-lora/WM1302-doc/blob/master/pinout.jpg)
+Сверяйтесь с диаграммой модуля, чтобы не путать контакты краевого разъема с контактами Pi. Сигналы дополнительного радио относятся к опубликованной эталонной схеме и не подтверждают одинаковые микросхемы и функции всех ревизий. [Распиновка модуля WM1302 от Seeed](https://github.com/seeed-lora/WM1302-doc/blob/master/pinout.jpg)
 
-{{< figure src="wm1302-module-edge-connector.webp" alt="Seeed diagram labeling both sides of the WM1302 module edge connector with power, SPI, I2C, and auxiliary radio signals" caption="Module edge-connector numbering differs from Raspberry Pi header numbering" credit="Seeed Studio" attr="Seeed Studio, WM1302-doc" attrlink="https://github.com/seeed-lora/WM1302-doc" >}}
+{{< figure src="wm1302-module-edge-connector.webp" alt="Схема Seeed с обеими сторонами краевого разъема WM1302, питанием, SPI, I2C и сигналами дополнительного радио" caption="Нумерация контактов модуля отличается от нумерации разъема Raspberry Pi" credit="Seeed Studio" attr="Seeed Studio, WM1302-doc" attrlink="https://github.com/seeed-lora/WM1302-doc" >}}
 
-## Prepare Raspberry Pi OS
+## Подготовьте Raspberry Pi OS
 
-Record the host environment on your spare installation:
+Запишите сведения об ОС и устройстве на запасной установке:
 
-```bash
+~~~bash
 cat /etc/os-release
 uname -r
 tr -d '\0' < /proc/device-tree/model
-```
+~~~
 
-The OS release, kernel, and Pi model form the starting point for reproducibility. Record them before comparing your results with an older tutorial.
+Версия ОС, ядро и модель Pi дают исходные данные для воспроизведения результатов. Зафиксируйте их до сравнения со старой инструкцией.
 
-Install inspection and build tools:
+Установите инструменты проверки и сборки:
 
-```bash
+~~~bash
 sudo apt update
 sudo apt install git build-essential i2c-tools gpiod
 sudo raspi-config
-```
+~~~
 
-In **Interface Options**, enable SPI and I2C, then reboot. SPI serves the concentrator path, while I2C supports the management devices discussed below. Avoid importing unrelated GPS serial-port changes from another HAT tutorial.
+В разделе **Interface Options** включите SPI и I2C, затем перезагрузите устройство. SPI нужен для концентратора, I2C — для описанных далее устройств управления. Не импортируйте ненужные настройки последовательного порта для GPS из чужой инструкции по HAT.
 
-Inspect the exposed interfaces:
+Проверьте доступные интерфейсы:
 
-```bash
+~~~bash
 ls -l /dev/spidev* /dev/i2c-*
 i2cdetect -l
 gpiodetect
 gpioinfo
 gpioset --version
-```
+~~~
 
-These commands list device nodes, adapters, GPIO controllers, line information, and the installed GPIO tool version. **`i2cdetect -l` lists adapters without scanning device addresses.** A `/dev/spidev0.0` file establishes an exposed SPI interface, not communication with a working concentrator. [i2c-tools manual](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8), [Raspberry Pi GPIO guidance](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
+Команды показывают файлы устройств, адаптеры, контроллеры GPIO, линии и версию утилиты. **<code>i2cdetect -l</code> перечисляет адаптеры без опроса адресов.** Файл <code>/dev/spidev0.0</code> подтверждает доступный интерфейс SPI, но не связь с рабочим концентратором. [Руководство i2c-tools](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8), [Рекомендации Raspberry Pi по GPIO](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
 
-### Account for GPIO Versions
+### Учитывайте версии GPIO
 
-**Do not copy global GPIO numbers from another machine.** Old scripts write through `/sys/class/gpio`, an interface the kernel documents as deprecated. New userspace integrations should use the GPIO character-device interface, with the correct controller and line offset. [Linux GPIO documentation](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html)
+**Не переносите глобальные номера GPIO с другого компьютера.** Старые скрипты используют <code>/sys/class/gpio</code>, интерфейс, который ядро считает устаревшим. Новые пользовательские интеграции должны использовать символьный интерфейс GPIO с правильным контроллером и смещением линии. [Документация Linux GPIO](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html)
 
-Also inspect `gpioset --help` before adapting a script. Version 1 and version 2 differ in syntax and process behavior. The current tool holds requested lines by default, and its portable contract does not guarantee their state after process exit. [libgpiod gpioset documentation](https://libgpiod.readthedocs.io/en/master/gpioset.html)
+Перед адаптацией скрипта проверьте <code>gpioset --help</code>. Синтаксис и поведение процессов в версиях 1 и 2 различаются. Текущая утилита по умолчанию удерживает запрошенные линии, но переносимый контракт не гарантирует их состояние после завершения процесса. [Документация libgpiod gpioset](https://libgpiod.readthedocs.io/en/master/gpioset.html)
 
-Raspberry Pi documents an output-persistence behavior in its kernel, with options to change it. Record the actual kernel configuration instead of assuming every Linux system behaves identically. Neither updated numbering nor a newer GPIO tool resolves an incorrect electrical mapping. [Raspberry Pi GPIO usage guide](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
+В ядре Raspberry Pi описано сохранение состояния выходов, но оно зависит от настроек. Запишите конфигурацию конкретного ядра, а не предполагайте одинаковое поведение всех систем Linux. Новая нумерация и версия инструмента не исправят ошибочную электрическую схему. [Руководство Raspberry Pi по GPIO](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices)
 
-## Test the User LED
+## Проверьте пользовательский светодиод
 
-After verifying GPIO22 belongs to the LED and removing conflicting GPIO consumers, edit the boot configuration:
+После подтверждения, что GPIO22 подключен к светодиоду, и удаления конфликтующих потребителей GPIO откройте конфигурацию загрузки:
 
-```bash
+~~~bash
 sudoedit /boot/firmware/config.txt
-```
+~~~
 
-Modern Raspberry Pi OS mounts the boot configuration at **`/boot/firmware/config.txt`**. Older images use `/boot/config.txt`, the path in the 2023 article. Back up the active file before editing it. [Raspberry Pi config.txt documentation](https://www.raspberrypi.com/documentation/computers/config_txt.html)
+В современных версиях Raspberry Pi OS файл находится в **<code>/boot/firmware/config.txt</code>**. В старых образах используется <code>/boot/config.txt</code>, путь из статьи 2023 года. Перед изменением сохраните активный файл. [Документация Raspberry Pi по config.txt](https://www.raspberrypi.com/documentation/computers/config_txt.html)
 
-Add the LED overlay under a section applying to your Pi, such as `[all]`:
+Добавьте overlay светодиода в применимый к вашей плате раздел, например <code>[all]</code>:
 
-```ini
+~~~ini
 dtoverlay=gpio-led,gpio=22,label=lorawan,trigger=heartbeat
-```
+~~~
 
-The **`gpio`** parameter uses BCM numbering. **`label`** names the Linux LED device, and **`trigger=heartbeat`** assigns the kernel heartbeat trigger. Clockwork Bird reports this assignment for the M1, and Raspberry Pi’s overlay reference documents these parameters. [Original LED observation](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/), [gpio-led overlay reference](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README)
+Параметр **<code>gpio</code>** использует нумерацию BCM. **<code>label</code>** задает имя устройства LED в Linux, а **<code>trigger=heartbeat</code>** назначает триггер ядра. Clockwork Bird описывает это назначение для M1, а справочник Raspberry Pi документирует параметры. [Исходное наблюдение светодиода](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/), [справочник overlay gpio-led](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README)
 
-After reboot, inspect the registered LED:
+После перезапуска проверьте зарегистрированный индикатор:
 
-```bash
+~~~bash
 ls -l /sys/class/leds/
 cat /sys/class/leds/lorawan/trigger
-```
+~~~
 
-The expected result is a `lorawan` LED entry with `heartbeat` selected in brackets. A blinking LED demonstrates this GPIO/driver path. It does not report successful LoRaWAN registration, radio reception, or Helium status.
+Ожидается запись <code>lorawan</code> с выбранным в скобках <code>heartbeat</code>. Мигающий светодиод подтверждает этот путь GPIO и драйвера, но не регистрацию LoRaWAN, прием радио или состояние Helium.
 
-## Investigate I2C Devices
+## Изучите устройства I2C
 
-**An I2C address is a clue, not a device identity.** Clockwork Bird observed responses at `0x60` and `0x39`, then read ATECC608 information through the crypto library. The temperature-sensor identification remained tentative in the original article.
+**Адрес I2C — это признак, а не идентификатор устройства.** Clockwork Bird наблюдал ответы на <code>0x60</code> и <code>0x39</code>, затем прочитал данные ATECC608 через криптобиблиотеку. Определение датчика температуры в исходной статье оставалось предварительным.
 
-Start with the adapter listing from the previous section. Broad `i2cdetect` scans send probing transactions rather than passively observing traffic, and the upstream manual warns about disruption. Avoid routine scans of a running gateway or unknown attached devices. [i2c-tools probing behavior](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8)
+Сначала выведите список адаптеров из предыдущего раздела. Широкое сканирование <code>i2cdetect</code> отправляет проверочные транзакции, а не пассивно наблюдает шину; руководство предупреждает о возможных сбоях. Не сканируйте без необходимости работающий шлюз или неизвестные устройства. [Поведение опроса i2c-tools](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8)
 
-| Observation | Supported conclusion | Unresolved question |
+| Наблюдение | Подтвержденный вывод | Неясный вопрос |
 |---|---|---|
-| **Response at `0x60`** | Something acknowledged the probe | Is it the expected secure element? |
-| **Response at `0x39`** | Something acknowledged the probe | Which component and revision responded? |
-| **`UU` in a scan** | A driver owns the address and probing was skipped | Which driver has ownership? |
-| **No response** | The probe received no acknowledgement | Power, bus, ownership, or device protocol? |
+| **Ответ на <code>0x60</code>** | Устройство подтвердило запрос | Это ожидаемый защищенный элемент? |
+| **Ответ на <code>0x39</code>** | Устройство подтвердило запрос | Какая деталь и ревизия ответили? |
+| **<code>UU</code> при сканировании** | Адрес занят драйвером, опрос пропущен | Какой драйвер владеет адресом? |
+| **Нет ответа** | Подтверждение не получено | Питание, шина, занятость или протокол устройства? |
 
-### A Stronger Temperature-Sensor Lead
+### Более убедительная версия о датчике температуры
 
-**STTS751 is a source-supported candidate for `0x39`.** Semtech’s temperature-driver header explicitly associates `0x39` with `STTS751-0DP3F`. This strengthens the original hypothesis without identifying every board populated at this address. [Semtech STTS751 driver header](https://github.com/Lora-net/sx1302_hal/blob/master/libloragw/inc/loragw_stts751.h)
+**STTS751 — кандидат для адреса <code>0x39</code>, подтвержденный исходным кодом.** В заголовке драйвера температуры Semtech этот адрес связан с <code>STTS751-0DP3F</code>. Это усиливает исходную гипотезу, но не определяет компонент на каждой плате. [Заголовок драйвера STTS751 от Semtech](https://github.com/Lora-net/sx1302_hal/blob/master/libloragw/inc/loragw_stts751.h)
 
-After identifying a compatible component and ensuring no other process owns it, these commands read its identification registers:
+После определения совместимого компонента и проверки, что шина не занята, прочитайте регистры идентификации:
 
-```bash
+~~~bash
 sudo i2cget 1 0x39 0xfd b
 sudo i2cget 1 0x39 0xfe b
-```
+~~~
 
-Here **`1`** selects the verified bus, **`0x39`** selects the device, and **`b`** requests an SMBus byte-data read. For an STTS751-0, the documented product ID at `0xFD` is `0x00`, and the manufacturer ID at `0xFE` is `0x53`. These transactions select register addresses but do not program configuration values. [STTS751 datasheet, register map and identification registers](https://www.st.com/resource/en/datasheet/stts751.pdf)
+**<code>1</code>** выбирает проверенную шину, **<code>0x39</code>** — устройство, **<code>b</code>** — чтение байта SMBus. Для STTS751-0 идентификатор продукта в <code>0xFD</code> равен <code>0x00</code>, идентификатор производителя в <code>0xFE</code> — <code>0x53</code>. Эти транзакции читают адреса регистров, но не записывают настройки. [Техническое описание STTS751](https://www.st.com/resource/en/datasheet/stts751.pdf)
 
-Compare the readings with the chip marking and documentation. A matching pair adds evidence for identification, while an error calls for checking the bus and ownership before changing hardware configuration. The sensor measures its local temperature, which is a different measurement from the Pi’s CPU temperature.
+Сравните значения с маркировкой микросхемы и документацией. Совпадение усиливает идентификацию; ошибка требует проверки шины и занятости, а не изменения конфигурации. Датчик измеряет локальную температуру, отличающуюся от температуры процессора Pi.
 
-## Inspect the Secure Element
+## Изучите защищенный элемент
 
-**The ATECC608 is a separate authentication component.** Treat its configuration, serial number, public key, and protected key material as distinct concepts. A readable public key does not reveal the corresponding private key.
+**ATECC608 — отдельный компонент аутентификации.** Различайте конфигурацию, серийный номер, открытый ключ и защищенный ключевой материал. Чтение открытого ключа не раскрывает соответствующий закрытый ключ.
 
-Microchip’s **CryptoAuthLib** provides the device interface. Its **cryptoauthtools** repository contains examples built around the library. Prepare the native library and Python bindings for your target system using those projects’ instructions before invoking an example. Installing an unrelated Python package or copying one script alone does not establish an operational I2C backend. [Microchip CryptoAuthLib](https://github.com/MicrochipTech/cryptoauthlib), [Microchip cryptoauthtools](https://github.com/MicrochipTech/cryptoauthtools)
+**CryptoAuthLib** от Microchip предоставляет интерфейс устройства. Репозиторий **cryptoauthtools** содержит примеры библиотеки. Подготовьте нативную библиотеку и привязки Python по инструкциям проекта для целевой системы. Установка постороннего пакета Python или копирование скрипта сами по себе не подтверждают работу интерфейса I2C. [CryptoAuthLib от Microchip](https://github.com/MicrochipTech/cryptoauthlib), [cryptoauthtools от Microchip](https://github.com/MicrochipTech/cryptoauthtools)
 
-From a prepared `cryptoauthtools/python/examples` directory, the original article’s inspection command is:
+В подготовленном каталоге <code>cryptoauthtools/python/examples</code> команда проверки выглядит так:
 
-```bash
+~~~bash
 sudo python3 info.py -i i2c
-```
+~~~
 
-The **`-i i2c`** argument selects the interface. With a virtual environment, use its explicit Python interpreter and ensure it locates the matching native library. `sudo python3` selects the system interpreter in many installations, which explains some module-import failures.
+Аргумент **<code>-i i2c</code>** выбирает интерфейс. В виртуальном окружении используйте его интерпретатор Python и убедитесь, что он находит нужную нативную библиотеку. Во многих системах <code>sudo python3</code> запускает системный интерпретатор, что объясняет ошибки импорта.
 
-The reviewed `info.py` reads revision information, the serial number, configuration, and lock status. For a locked data zone, it attempts to retrieve the public key from slot 0. It does not run the example provisioning sequence. A slot-0 public-key failure alone does not establish a broken device. [Microchip info.py source](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/info.py)
+Проверенный файл <code>info.py</code> читает ревизию, серийный номер, конфигурацию и состояние блокировки. Если область данных заблокирована, скрипт пытается получить открытый ключ из слота 0. Он не выполняет последовательность настройки из примера. Ошибка чтения ключа слота 0 сама по себе не доказывает неисправность устройства. [Исходный код info.py от Microchip](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/info.py)
 
-| Output or operation | Meaning |
+| Вывод или операция | Значение |
 |---|---|
-| **Configuration locked** | Configuration restrictions are in force |
-| **Data zone locked** | Interpret access through the configured slot policies |
-| **Public key displayed** | Public information was retrieved, not a private-key export |
-| **`config.py` execution** | Provisioning example with configuration, locking, and key-generation operations |
+| **Конфигурация заблокирована** | Действуют ограничения конфигурации |
+| **Область данных заблокирована** | Проверяйте доступ согласно политике слота |
+| **Показан открытый ключ** | Прочитана общедоступная информация, закрытый ключ не экспортирован |
+| **Выполнение <code>config.py</code>** | Пример настройки с изменениями конфигурации, блокировкой и созданием ключей |
 
-**Do not run `config.py` to repair an inspection error.** Its source includes configuration writes, zone-locking calls, and key generation. Its default key-generation path also matters on an already configured device. [Microchip config.py source](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/config.py)
+**Не запускайте <code>config.py</code> для исправления ошибки чтения.** Исходный код содержит запись конфигурации, блокировку областей и создание ключей. Путь создания ключа по умолчанию важен и для уже настроенного устройства. [Исходный код config.py от Microchip](https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/config.py)
 
-Microchip’s documented provisioning profiles illustrate why a locked data zone does not mean every slot has identical access permissions. Those profiles do not establish the M1’s exact configuration. Preserve the device’s existing configuration and consult the matching part documentation before planning any reuse involving keys. [Microchip memory and slot-access policies](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html)
+Профили настройки Microchip показывают, почему блокировка области данных не означает одинаковые права у всех слотов. Они не устанавливают точную конфигурацию M1. Сохраните существующие параметры и проверьте документацию именно вашей микросхемы, прежде чем планировать повторное использование ключей. [Правила памяти и доступа к слотам Microchip](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html)
 
-## Handle Fan and Button Unknowns
+## Разберитесь с неизвестными параметрами вентилятора и кнопки
 
-**A three-pin fan socket does not establish its voltage, polarity, or control method.** Photograph its pin numbering and read the fan label. Resolve power and control connections before attaching a replacement or choosing a GPIO overlay.
+**Трехконтактный разъем вентилятора не определяет его напряжение, полярность или метод управления.** Сфотографируйте нумерацию контактов и прочитайте маркировку вентилятора. Определите питание и управляющие сигналы до замены вентилятора или выбора overlay GPIO.
 
-Likewise, the original investigation leaves the button’s GPIO unknown. Search for a driver or configuration tied to your board revision, then verify connectivity with power disconnected. Do not assign every apparently unused GPIO as an output to find the button.
+В исходном исследовании неизвестен и GPIO кнопки. Найдите драйвер или конфигурацию для своей ревизии платы, затем проверьте соединение при отключенном питании. Не назначайте каждый свободный на вид GPIO выходом, чтобы найти кнопку.
 
-| Peripheral | Evidence to collect | Acceptance condition |
+| Периферия | Что собрать | Условие приемки |
 |---|---|---|
-| **Fan power** | Fan rating, connector ground and supply | Measured supply matches the fan specification |
-| **Fan control** | Driver/configuration or traced control circuit | Defined behavior at startup and elevated temperature |
-| **User button** | Contact wiring, GPIO mapping, input polarity | One intentional press produces the expected event |
+| **Питание вентилятора** | Номиналы, земля и питание разъема | Измеренное питание соответствует спецификации вентилятора |
+| **Управление вентилятором** | Драйвер, конфигурация или схема управления | Определено поведение при запуске и нагреве |
+| **Кнопка пользователя** | Контакты, GPIO и полярность входа | Одно нажатие вызывает ожидаемое событие |
 
-A fresh OS installation does not automatically reproduce the original appliance’s cooling policy. During your first sustained test, observe fan operation and temperatures together. Preserve the enclosure’s airflow path and stop the test if the assembly loses its required cooling.
+Новая ОС не восстановит автоматически политику охлаждения исходного устройства. Во время первого длительного теста следите одновременно за вентилятором и температурой. Сохраняйте вентиляционный поток и остановите тест при недостаточном охлаждении.
 
-## Choose a Gateway Stack
+## Выберите стек шлюза
 
-**Separate board support from server protocol.** A compatible LoRaWAN server does not fix an incorrect reset routine or RF calibration. First choose software with support for the concentrator, carrier wiring, OS, and regional configuration.
+**Отделите поддержку платы от серверного протокола.** Совместимый сервер LoRaWAN не исправляет неправильный сброс или калибровку радиотракта. Сначала выберите ПО, поддерживающее концентратор, разводку платы, ОС и региональные настройки.
 
-| Software path | Useful role | Check before deployment |
+| Вариант ПО | Назначение | Что проверить |
 |---|---|---|
-| **Semtech SX1302 HAL** | Source-level bring-up and diagnostic tools | Board reset routine and module configuration |
-| **LoRa Basics Station** | Authenticated gateway connection to a server | Working board integration and server credentials |
-| **ChirpStack Concentratord** | Dedicated concentrator service | Supported model, calibration, and GPIO mapping |
+| **Semtech SX1302 HAL** | Ввод в эксплуатацию на уровне исходников и диагностика | Скрипт сброса платы и конфигурацию модуля |
+| **LoRa Basics Station** | Аутентифицированное подключение шлюза к серверу | Рабочую интеграцию платы и учетные данные |
+| **ChirpStack Concentratord** | Отдельная служба концентратора | Модель, калибровку и GPIO |
 
-ChirpStack lists a **`seeed_wm1302`** SPI model. This is evidence of module support, not a promise of a complete M1 image or support for every M1 revision. Avoid treating the separate SenseCAP M2 installation instructions as M1 firmware instructions. [ChirpStack hardware support](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html), [ChirpStack’s Seeed installation target](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html)
+В ChirpStack указана SPI-модель **<code>seeed_wm1302</code>**. Это подтверждает поддержку модуля, но не наличие полного образа M1 или поддержку каждой ревизии. Не используйте отдельную инструкцию SenseCAP M2 как руководство по прошивке M1. [Поддержка оборудования ChirpStack](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html), [цель установки Seeed для ChirpStack](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html)
 
-For The Things Stack, its documentation recommends **LoRa Basics Station** over the legacy Semtech UDP forwarder. Station provides TLS and token-based authentication alongside centralized configuration features. Existing UDP examples are useful for understanding packet forwarding, but their server-address settings do not provide those protections. [The Things Stack UDP guidance](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/), [LoRa Basics Station documentation](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/)
+Для The Things Stack документация рекомендует **LoRa Basics Station** вместо старого переадресатора Semtech UDP. Station поддерживает TLS, токенную аутентификацию и централизованную конфигурацию. Примеры UDP полезны для понимания пересылки пакетов, но настройки адреса сервера не обеспечивают эту защиту. [Рекомендации The Things Stack по UDP](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/), [документация LoRa Basics Station](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/)
 
-### Prepare the Upstream Tools
+### Подготовьте upstream-инструменты
 
-Build on the target Pi in a new working directory:
+Соберите ПО на целевом Pi в новом рабочем каталоге:
 
-```bash
+~~~bash
 git clone https://github.com/Lora-net/sx1302_hal.git
 cd sx1302_hal
 git rev-parse HEAD
 make
-```
+~~~
 
-Save the commit identifier with your build output. A completed build establishes compiler compatibility, while the radio still requires the verified reset implementation and correct configuration. Semtech’s documentation explains the role of its HAL and helper programs. [SX1302 HAL build and tool documentation](https://github.com/Lora-net/sx1302_hal)
+Сохраните идентификатор коммита вместе с результатом сборки. Успешная сборка подтверждает совместимость компилятора, но радиомодулю все еще нужны проверенный сброс и подходящая конфигурация. [Сборка и инструменты SX1302 HAL](https://github.com/Lora-net/sx1302_hal)
 
-Review the reset file before running hardware-access tools:
+Изучите скрипт сброса до запуска инструментов, работающих с оборудованием:
 
-```bash
+~~~bash
 sed -n '1,180p' tools/reset_lgw.sh
-```
+~~~
 
-Do not copy this file into the runtime directory unchanged. Semtech documents automatic reset-script use by its hardware-access programs, including tools used during identification. Your review must cover every assigned pin, signal direction, GPIO API, and startup/shutdown state.
+Не копируйте файл без изменений в рабочий каталог. Semtech указывает, что инструменты доступа к оборудованию, в том числе идентификации, автоматически используют скрипты сброса. Проверьте каждый назначенный контакт, направление сигнала, GPIO API и состояние при запуске и остановке.
 
-After completing board verification, use the selected stack’s instructions to read the concentrator EUI and register the gateway. Preserve the module’s calibration and RF settings when adding the server configuration. In Semtech UDP configuration, `gateway_ID` represents the EUI, while The Things Stack’s console Gateway ID is its human-readable registration identifier. [The Things Stack gateway configuration](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/)
+После проверки платы следуйте инструкции выбранного стека, чтобы прочитать EUI концентратора и зарегистрировать шлюз. Сохраните калибровку и радионастройки модуля. В конфигурации Semtech UDP поле <code>gateway_ID</code> означает EUI, а в консоли The Things Stack Gateway ID — понятный человеку идентификатор регистрации. [Настройка шлюза The Things Stack](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/)
 
-## Prove Sensor Delivery
+## Подтвердите доставку данных датчика
 
-**Use staged evidence to locate the first failing layer.** A gateway marked online establishes a server connection. Your acceptance test also needs a known sensor, matching frequency plan, and a decoded application payload.
+**Используйте поэтапные доказательства, чтобы найти первый неработающий уровень.** Статус шлюза online подтверждает связь с сервером. Приемочный тест также требует известного датчика, подходящего частотного плана и декодированной полезной нагрузки. Ниже — предлагаемая последовательность, а не измеренные результаты M1:
 
-The following sequence is a proposed test plan, not measured M1 results:
-
-| Checkpoint | Evidence to save | Meaning |
+| Этап | Сохраните | Что подтверждает |
 |---|---|---|
-| **Host ready** | OS, kernel, power and interface inventory | Linux preparation completed |
-| **Concentrator responds** | EUI and successful initialization log | Host-to-concentrator communication works |
-| **Radio receives** | Expected sensor packet and reception metadata | The configured receive path works |
-| **Server accepts** | Gateway event associated with the sensor | Forwarding and server routing work |
-| **Application decodes** | Expected measurement and timestamp | The application path works |
-| **Reboot recovery** | Same checks after restart | Startup configuration is reproducible |
+| **Хост готов** | ОС, ядро, питание и список интерфейсов | Подготовка Linux завершена |
+| **Концентратор отвечает** | EUI и журнал успешной инициализации | Связь хоста с концентратором работает |
+| **Радиоприем** | Ожидаемый пакет и метаданные приема | Путь приема работает |
+| **Сервер принимает** | Событие шлюза, связанное с датчиком | Пересылка и маршрутизация работают |
+| **Приложение декодирует** | Ожидаемое измерение и временная метка | Путь приложения работает |
+| **Восстановление после перезапуска** | Те же проверки после перезагрузки | Конфигурация запуска воспроизводима |
 
-For an **OTAA** sensor, also confirm the activation exchange and subsequent uplink. OTAA means over-the-air activation, the join procedure used to establish a session. A received join request alone does not establish a successful join or downlink path. [The Things Stack activation documentation](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/)
+Для датчика **OTAA** подтвердите обмен активации и последующий uplink. OTAA означает Over-the-Air Activation, процедуру установления сессии. Полученный запрос на подключение сам по себе не доказывает успешное подключение или работу downlink. [Документация активации The Things Stack](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/)
 
-**Worked diagnosis:** Suppose the gateway connects to its server and reports its EUI, but your sensor never appears. Prioritize the sensor’s transmit configuration, selected receive channels, antenna path, and radio logs. Reprogramming the ATECC608 would not address the missing evidence in this scenario.
+**Пример диагностики:** шлюз подключился к серверу и сообщает EUI, но датчик не появляется. Сначала проверьте передачу датчика, выбранные каналы приема, антенну и журналы радио. Перепрограммирование ATECC608 не устранит отсутствие этих доказательств.
 
-**Second diagnosis:** Suppose a sensor packet appears locally but never reaches the application. Correlate the packet time with gateway and server events, then inspect routing, device registration, and decoding. An RF packet in a log is insufficient evidence for blaming the payload decoder until the server accepts the event.
+**Еще один пример:** пакет датчика появляется локально, но не доходит до приложения. Сопоставьте время пакета с событиями шлюза и сервера, затем проверьте маршрутизацию, регистрацию устройства и декодирование. Радиопакета в журнале недостаточно, чтобы обвинять декодер до принятия события сервером.
 
-## Troubleshooting by Symptom
+## Поиск неисправностей по признакам
 
-| Symptom | Check first | Next action |
+| Признак | Сначала проверьте | Следующий шаг |
 |---|---|---|
-| **No SPI device file** | Active boot configuration and interface settings | Enable the intended interface and reboot |
-| **SPI exists, radio fails** | Power, seating, reset sequence and chip select | Verify the electrical path before server changes |
-| **GPIO export error** | Legacy sysfs assumptions and installed kernel | Use a reviewed implementation for the GPIO API |
-| **GPIO already in use** | Consumer shown by `gpioinfo` | Resolve ownership before retrying |
-| **LED fails after setup** | Overlay application and GPIO22 conflicts | Inspect registered LED devices and reset script |
-| **I2C device absent** | Bus number, power and existing ownership | Investigate without repeated broad scans |
-| **Crypto library import fails** | Interpreter, bindings and native library path | Fix the software environment |
-| **Public-key read fails** | Slot policy and earlier successful reads | Review configuration without provisioning |
-| **Fan does not run** | Verified supply and cooling-control implementation | Restore correct cooling before sustained tests |
-| **Uplinks arrive, join fails** | Downlink path and regional/device settings | Trace the join response and receive windows |
+| **Нет файла устройства SPI** | Активную загрузочную конфигурацию и интерфейсы | Включите нужный интерфейс и перезапустите |
+| **SPI есть, радио не работает** | Питание, посадку модуля, сброс и chip-select | Проверьте электрический тракт до смены сервера |
+| **Ошибка экспорта GPIO** | Допущения старого sysfs и ядро | Используйте проверенную реализацию GPIO API |
+| **GPIO уже занят** | Потребителя в <code>gpioinfo</code> | Устраните конфликт до повторной попытки |
+| **LED не работает после настройки** | Overlay и конфликты GPIO22 | Проверьте LED-устройства и скрипт сброса |
+| **Устройство I2C отсутствует** | Номер шины, питание, занятость | Исследуйте без повторных широких сканов |
+| **Не импортируется криптобиблиотека** | Интерпретатор, привязки и путь библиотеки | Исправьте среду ПО |
+| **Не читается открытый ключ** | Права слота и предыдущие чтения | Изучите конфигурацию, не запускайте настройку |
+| **Вентилятор не работает** | Проверенное питание и управление охлаждением | Восстановите охлаждение до длительного теста |
+| **Uplink приходит, подключение не удается** | Downlink и региональные настройки | Отследите ответ на подключение и окна приема |
 
-Treat each correction as one experiment. Save the previous configuration, change one variable, repeat the same check, and record whether the expected evidence appeared.
+Рассматривайте каждое исправление как отдельный эксперимент. Сохраните исходную конфигурацию, меняйте одну переменную, повторяйте одну и ту же проверку и записывайте результат.
 
-## Create Your Hardware Record
+## Создайте запись об оборудовании
 
-Use this template to turn the investigation into a reproducible handover:
+Используйте этот шаблон для воспроизводимой передачи данных:
 
-```text
-Carrier revision and photographs:
-Concentrator model, interface and RF band:
-Host model / OS / kernel / GPIO tool version:
-Supply / antenna / cooling arrangement:
-Verified pin mapping and evidence:
-Unresolved nets and excluded features:
-Software repository and commit:
-Reset implementation and GPIO ownership:
-Gateway EUI / server / frequency plan:
-Sensor activation and decoded uplink evidence:
-Reboot recovery result:
-Original-card location and rollback procedure:
-```
+~~~text
+Ревизия несущей платы и фотографии:
+Модель концентратора, интерфейс и радиодиапазон:
+Модель хоста / ОС / ядро / версия инструмента GPIO:
+Питание / антенна / охлаждение:
+Проверенная распиновка и доказательства:
+Неизвестные цепи и исключенные функции:
+Репозиторий ПО и коммит:
+Реализация сброса и использование GPIO:
+EUI шлюза / сервер / частотный план:
+Активация датчика и декодированный uplink:
+Результат после перезапуска:
+Место хранения исходной карты и процедура отката:
+~~~
 
-**Decision exercise:** You have an inexpensive bare carrier with no module label, and a more expensive assembly with readable labels and documented operation. Decide which fits your project after adding the missing Pi, concentrator, antenna, supply, and verification time to the comparison. The stronger choice follows the total cost and evidence required for your intended service, rather than the carrier’s advertised price alone.
+**Упражнение для выбора:** у вас есть дешевая пустая несущая плата без маркировки модуля и более дорогая сборка с читаемой маркировкой и документированной работой. Сравните полную стоимость с учетом недостающих Pi, концентратора, антенны, питания и времени проверки. Выбор определяется полной стоимостью и доказательствами для вашей задачи, а не ценой несущей платы.
 
-**Expected reasoning:** A learning project tolerates unresolved wiring if you have measurement tools and time. A gateway supporting operational sensors needs repeatable startup, cooling, software support, and demonstrated delivery. Record which unresolved condition would stop your deployment.
+**Ожидаемая логика:** учебный проект допускает неясную разводку, если у вас есть измерительные приборы и время. Шлюз для работающих датчиков требует воспроизводимого запуска, охлаждения, поддержки ПО и доказанной доставки данных. Запишите, какая неясность остановит развертывание.
 
 ## Следующие шаги
 
-Start by completing the hardware record and resolving the reset-script discrepancies. Then bring up one known sensor and save evidence through application decoding before adding more devices.
+Сначала заполните запись об оборудовании и разрешите конфликты скрипта сброса. Затем подключите известный датчик и зафиксируйте весь путь до декодирования приложения, прежде чем добавлять другие устройства.
 
-**Acceptance record:** save the board revision, module label, radio band, supply measurement, active SPI device, GPIO line names, reset sequence, concentrator log, server connection, and one decoded uplink. Mark every value as observed, documented, or still assumed. Do not treat a successful process start as proof of RF performance or application delivery.
+**Приемочная запись:** сохраните ревизию платы, маркировку модуля, радиодиапазон, измеренное питание, активное устройство SPI, имена линий GPIO, последовательность сброса, журнал концентратора, соединение с сервером и один декодированный uplink. Отметьте каждое значение как наблюдаемое, задокументированное или предполагаемое. Успешный запуск процесса не доказывает радиопроизводительность или доставку в приложение.
 
-If your goal is mesh messaging, first compare the protocol roles in our [Meshtastic, MeshCore, and Reticulum guide](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/). Sharing LoRa radio technology does not establish firmware compatibility. Consult [MeshtasticD’s supported-hardware documentation](https://meshtastic.org/docs/meshtasticd/) for a messaging deployment instead of treating this LoRaWAN procedure as a Meshtastic conversion.
+Если ваша цель — mesh-сообщения, сначала сравните роли протоколов в руководстве [Meshtastic, MeshCore и Reticulum](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/). Общая радиотехнология LoRa не доказывает совместимость прошивок. Для обмена сообщениями используйте документацию [поддерживаемого оборудования MeshtasticD](https://meshtastic.org/docs/meshtasticd/), а не считайте процедуру LoRaWAN преобразованием в Meshtastic.
 
-## Sources and Image Credits
+## Источники и авторство изображений
 
-Research checked September 12, 2026. Undated documentation and repository links refer to the versions reviewed for this article. Local figures retain their original labels and credited provenance.
+Исследование проверено 12 сентября 2026 года. Недатированная документация и ссылки на репозитории относятся к версиям, рассмотренным для этой статьи. Локальные изображения сохраняют исходные подписи и сведения об авторстве.
 
-| Publisher | Source and date |
+| Издатель | Источник и дата |
 |---|---|
-| **Clockwork Bird** | [SenseCAP M1 Raspberry Pi Shield](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/), 2023-05-03. Board photograph, annotated header, and reproduced manufacturer block diagram |
-| **Seeed Studio / SenseCAP** | [M1 overview and specifications](https://www.sensecapmx.com/docs/sensecap-m1/overview/), undated. Original block-diagram attribution |
-| **Seeed Studio** | [WM1302 documentation and module pinout](https://github.com/seeed-lora/WM1302-doc), repository |
-| **Semtech** | [SX1302/SX1303 HAL](https://github.com/Lora-net/sx1302_hal), including linked reset-script and temperature-driver source |
-| **Raspberry Pi** | [Boot configuration](https://www.raspberrypi.com/documentation/computers/config_txt.html), [GPIO usage guide](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices), and [overlay reference](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README) |
-| **Linux / libgpiod** | [Deprecated GPIO sysfs interface](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html) and [gpioset manual](https://libgpiod.readthedocs.io/en/master/gpioset.html), latter dated August 2026 |
-| **i2c-tools** | [i2cdetect manual](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8), v4.3 source |
-| **STMicroelectronics** | [STTS751 datasheet](https://www.st.com/resource/en/datasheet/stts751.pdf), revision 7 |
-| **Microchip** | [CryptoAuthLib](https://github.com/MicrochipTech/cryptoauthlib), [cryptoauthtools](https://github.com/MicrochipTech/cryptoauthtools), and [slot-access policy documentation](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html) |
-| **ChirpStack** | [Concentratord hardware support](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html) and [Seeed installation target](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html) |
-| **The Things Industries** | [UDP forwarder](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/), [LoRa Basics Station](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/), and [device activation](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/) |
-| **Meshtastic** | [MeshtasticD documentation](https://meshtastic.org/docs/meshtasticd/), undated |
+| **Clockwork Bird** | [SenseCAP M1 Raspberry Pi Shield](https://clockworkbird9.wordpress.com/2023/05/03/sensecap-m1-raspberry-pi-shield/), 2023-05-03. Фото платы, аннотированный разъем и воспроизведенная блок-схема производителя |
+| **Seeed Studio / SenseCAP** | [Обзор и спецификации M1](https://www.sensecapmx.com/docs/sensecap-m1/overview/), дата не указана. Источник блок-схемы |
+| **Seeed Studio** | [Документация WM1302 и распиновка модуля](https://github.com/seeed-lora/WM1302-doc), репозиторий |
+| **Semtech** | [SX1302/SX1303 HAL](https://github.com/Lora-net/sx1302_hal), включая скрипт сброса и драйвер температуры |
+| **Raspberry Pi** | [Конфигурация загрузки](https://www.raspberrypi.com/documentation/computers/config_txt.html), [руководство GPIO](https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-006553-WP/A-history-of-GPIO-usage-on-Raspberry-Pi-devices-and-current-best-practices) и [справочник overlay](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/overlays/README) |
+| **Linux / libgpiod** | [Устаревший интерфейс GPIO sysfs](https://www.kernel.org/doc/html/next/admin-guide/gpio/sysfs.html) и [руководство gpioset](https://libgpiod.readthedocs.io/en/master/gpioset.html), последнее датировано августом 2026 года |
+| **i2c-tools** | [Руководство i2cdetect](https://kernel.googlesource.com/pub/scm/utils/i2c-tools/i2c-tools/+/refs/tags/v4.3/tools/i2cdetect.8), исходный код v4.3 |
+| **STMicroelectronics** | [Техническое описание STTS751](https://www.st.com/resource/en/datasheet/stts751.pdf), редакция 7 |
+| **Microchip** | [CryptoAuthLib](https://github.com/MicrochipTech/cryptoauthlib), [cryptoauthtools](https://github.com/MicrochipTech/cryptoauthtools) и [документация прав доступа к слотам](https://onlinedocs.microchip.com/oxy/GUID-8F01540E-14A9-479E-9D27-FFFB14DE474E-en-US-2/GUID-92031846-201F-42DA-831D-FA3B6CF79B9B.html) |
+| **ChirpStack** | [Поддержка оборудования Concentratord](https://www.chirpstack.io/docs/chirpstack-concentratord/hardware-support.html) и [цель установки Seeed](https://www.chirpstack.io/docs/chirpstack-gateway-os/install/seeed.html) |
+| **The Things Industries** | [Переадресатор UDP](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/udp/), [LoRa Basics Station](https://www.thethingsindustries.com/docs/hardware/gateways/concepts/lora-basics-station/) и [активация устройства](https://www.thethingsindustries.com/docs/hardware/devices/concepts/abp-vs-otaa/) |
+| **Meshtastic** | [Документация MeshtasticD](https://meshtastic.org/docs/meshtasticd/), дата не указана |

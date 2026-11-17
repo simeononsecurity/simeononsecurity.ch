@@ -1,6 +1,7 @@
 ---
 title: "Sécurité des enfants sur Internet : conseils et stratégies pour assurer la sécurité de vos enfants en ligne"
 date: 2023-05-13
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Protégez vos enfants des dangers en ligne grâce à ces conseils et stratégies de sécurité sur Internet."
@@ -22,7 +23,7 @@ La première étape pour assurer la sécurité de vos enfants en ligne consiste 
 
 Même si vous faites confiance à vos enfants, il est important de surveiller leurs activités en ligne. Placez l'ordinateur dans un endroit central où vous pourrez facilement voir ce que font vos enfants. Vous pouvez également utiliser un logiciel de contrôle parental pour limiter l'accès à certains sites web et surveiller l'activité en ligne de votre enfant.
 
-L'un de ces logiciels est[Norton Family](https://us.norton.com/norton-family-premier) qui offre une série de fonctionnalités permettant aux parents de surveiller l'activité en ligne de leurs enfants. Il s'agit notamment du filtrage des sites web, de la supervision du temps et du suivi de la localisation. Vous pouvez également recevoir des alertes si votre enfant tente d'accéder à un site web ou à une application bloquée.
+L'un de ces logiciels est [Norton Family](https://us.norton.com/norton-family-premier), qui propose plusieurs fonctions pour aider les parents à surveiller l'activité en ligne de leurs enfants. Il comprend le filtrage des sites web, la gestion du temps et le suivi de la localisation. Vous pouvez aussi recevoir une alerte si votre enfant tente d'accéder à un site web ou à une application bloquée.
 
 ## Apprenez à vos enfants à reconnaître les situations dangereuses
 
@@ -30,7 +31,7 @@ Apprenez à vos enfants à reconnaître les situations dangereuses en ligne, com
 
 ## Utiliser un logiciel de contrôle parental
 
-Les logiciels de contrôle parental peuvent s'avérer utiles pour assurer la sécurité de vos enfants en ligne. Il existe de nombreuses options différentes, chacune ayant ses propres caractéristiques. Parmi les options les plus populaires, citons[Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids), and [Net Nanny](https://www.netnanny.com/)
+Les logiciels de contrôle parental peuvent être utiles pour assurer la sécurité de vos enfants en ligne. Il existe de nombreuses options, chacune dotée de ses propres fonctionnalités. Parmi les options populaires figurent [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) et [Net Nanny](https://www.netnanny.com/).
 
 [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) offre une série de fonctionnalités, notamment le blocage de sites web et d'applications, la gestion du temps d'écran et le suivi de la localisation. Il comprend également une fonction qui alerte les parents si leur enfant tente d'accéder à un site web ou à une application bloquée.
 
@@ -40,7 +41,7 @@ Il est important d'avoir des conversations ouvertes et honnêtes avec vos enfant
 
 ## Sécurisez votre ordinateur
 
-La sécurité de votre ordinateur est un élément important de la sécurité en ligne. Assurez-vous que votre ordinateur est équipé d'un logiciel antivirus à jour et que toutes les mises à jour de sécurité sont installées. Encouragez vos enfants à utiliser des mots de passe forts et à ne jamais les partager avec qui que ce soit.
+La sécurité de votre ordinateur est un élément important de la sécurité en ligne. Assurez-vous que votre ordinateur est équipé d'un logiciel antivirus à jour et que toutes les mises à jour de sécurité sont installées. Encouragez vos enfants à utiliser des [mots de passe forts](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) et à ne jamais les partager avec qui que ce soit.
 
 ## Utiliser l'authentification à deux facteurs
 

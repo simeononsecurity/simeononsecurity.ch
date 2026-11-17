@@ -1,6 +1,7 @@
 ---
 title: "Руководство для начинающих по сертификации CISSP: Советы по подготовке к экзаменам"
 date: 2023-05-15
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Узнайте, как подготовиться и сдать экзамен CISSP - престижный сертификат для специалистов по информационной безопасности."
@@ -12,11 +13,11 @@ coverCaption: ""
 
 **Руководство для начинающих по получению сертификата CISSP: Подготовка к экзамену Certified Information Systems Security Professional**.
 
-Сайт [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) certification is a highly sought-after certification for professionals in the field of information security. It is considered the gold standard in the industry and is recognized worldwide as a benchmark for excellence in the field of information security. This guide will provide an overview of the [CISSP certification](https://www.isc2.org/Certifications/CISSP) и дают советы по подготовке к экзамену.
+Сертификация [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) пользуется высоким спросом среди специалистов по информационной безопасности. Она считается золотым стандартом отрасли и признана во всём мире эталоном профессионального мастерства в этой области. Это руководство знакомит с [сертификацией CISSP](https://www.isc2.org/Certifications/CISSP) и предлагает советы по подготовке к экзамену.
 
 ## Что такое сертификация CISSP?
 
-Сайт [CISSP certification](https://www.isc2.org/Certifications/CISSP) is an advanced-level certification that validates a candidate's expertise in information security. It is awarded by the International Information System Security Certification Consortium, or (ISC) которая является некоммерческой организацией, специализирующейся на обучении и сертификации в области информационной безопасности.
+[Сертификация CISSP](https://www.isc2.org/Certifications/CISSP) — это сертификация продвинутого уровня, подтверждающая знания кандидата в области информационной безопасности. Её выдаёт International Information System Security Certification Consortium, или (ISC)², некоммерческая организация, специализирующаяся на обучении и сертификации в области информационной безопасности.
 
 Для получения сертификата [CISSP certification](https://www.isc2.org/Certifications/CISSP) кандидаты должны сдать экзамен, охватывающий восемь областей информационной безопасности. Эти области включают в себя **безопасность и управление рисками**, **безопасность активов**, **инженерию безопасности**, **коммуникационную и сетевую безопасность**, **управление идентификацией и доступом**, **оценку и тестирование безопасности**, **операции по обеспечению безопасности** и **безопасность разработки программного обеспечения**.
 
@@ -30,7 +31,7 @@ coverCaption: ""
 
 ### Шаг 1: Выполните квалификационные требования
 
-Прежде чем приступить к подготовке, необходимо убедиться, что вы соответствуете требованиям, предъявляемым к экзамену [CISSP certification.](https://www.isc2.org/Certifications/CISSP) Candidates must have a minimum of five years of cumulative, paid, full-time work experience in two or more of the eight domains of the CISSP Common Body of Knowledge (CBK)
+Перед началом подготовки убедитесь, что соответствуете требованиям для получения [сертификации CISSP](https://www.isc2.org/Certifications/CISSP). Кандидатам необходимо иметь не менее пяти лет совокупного оплачиваемого опыта работы на полной ставке в двух или более из восьми областей CISSP Common Body of Knowledge (CBK).
 
 В качестве альтернативы кандидаты могут соответствовать требованиям, имея четырехлетний опыт работы и соответствующее высшее образование или другой утвержденный диплом.
 
@@ -49,10 +50,10 @@ coverCaption: ""
 ### Рекомендуемые ресурсы
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
+- [Pluralsight (предпочтительно)](https://www.pluralsight.com/)
+- [Официальное учебное руководство и практические тесты](https://amzn.to/3LAu3Ly)
+- [Дополнительные учебные материалы](https://simeononsecurity.com/recommendations/learning_resources)
+- [Практический тест CISSP от SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Шаг 4: Отработка практических экзаменов
 
@@ -60,8 +61,8 @@ coverCaption: ""
 
 Важно пройти несколько пробных экзаменов, чтобы ознакомиться с типами вопросов, которые могут быть заданы, и развить навыки управления временем.
 
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
+- [Официальное учебное руководство и практические тесты](https://amzn.to/3LAu3Ly)
+- [Практический тест CISSP от SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Шаг 5: Регистрация на экзамен
 

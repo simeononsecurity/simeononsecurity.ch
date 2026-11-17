@@ -3,6 +3,7 @@ title: "隐私与安全的顶级 Linux 发行版：保护您的数据"
 draft: false
 toc: true
 date: 2023-06-01
+lastmod: 2026-11-12
 description: "发现最能保护隐私和安全的 Linux 发行版，确保你的数据得到保护，确保你的在线活动安全。"
 tags: ["Linux 发行版", "隐私和安全", "尾巴", "Qubes 操作系统", "Whonix", "鹦鹉安全操作系统", "乌班图隐私混音版", "OpenBSD", "数据保护", "安全计算", "匿名浏览", "虚拟化", "安全测试", "法医分析", "渗透测试", "加密工具", "安全删除", "匿名性", "网络安全", "代码正确性", "在线安全", "用户数据保护", "机密性", "数据恢复", "网上银行", "在线隐私", "安全的环境", "安全浏览", "Tor 网络", "安全措施", "默认安全"]
 cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
@@ -66,7 +67,7 @@ ______
 
 {{< youtube id="0UoZX0wdXWI" >}}
 
-[OpenBSD](https://www.openbsd.org/) is an open-source operating system known for its strong focus on security and code correctness. While not a Linux distribution (it belongs to the BSD family), it is worth mentioning due to its outstanding security track record. OpenBSD undergoes rigorous code audits and follows the principle of "secure by default." It includes various security features such as address space layout randomization (ASLR)和安全的内存管理。
+[OpenBSD](https://www.openbsd.org/) 是一款开源操作系统，以重视安全性和代码正确性著称。它不属于 Linux 发行版，而是 BSD 家族的一员。它出色的安全记录也值得一提。OpenBSD 会接受严格的代码审计，并遵循“默认安全”的原则。它包含各种安全功能，例如地址空间布局随机化（ASLR）和安全内存管理。
 
 ______
 

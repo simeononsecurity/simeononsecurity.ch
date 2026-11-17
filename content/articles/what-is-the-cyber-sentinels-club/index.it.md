@@ -1,6 +1,7 @@
 ---
 title: "Cosa sono le Sentinelle cibernetiche e perché dovreste unirvi a loro"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Scoprite la missione e i principi delle Cyber Sentinelle, una comunità di professionisti informatici e IT impegnati a condividere le conoscenze e a sviluppare soluzioni innovative per le sfide della sicurezza informatica."
@@ -40,7 +41,7 @@ Alla fine della giornata, le Sentinelle informatiche lavorano per avere un impat
 
 ## Unirsi alle Sentinelle cibernetiche
 
-Se siete interessati a entrare a far parte delle Cyber Sentinelle, il primo passo è visitare il loro sito web all'indirizzo[https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) e iniziare a esplorare i vari canali e a impegnarsi con la comunità. Le Cyber Sentinelle accolgono professionisti a tutti i livelli, dai principianti agli esperti, e offrono ai membri una varietà di canali con cui impegnarsi, tra cui canali testuali e vocali per discussioni generali, notizie ed eventi, apprendimento e sviluppo, progetti e collaborazioni. Offrono anche un canale dedicato alle opportunità di lavoro e ai consigli di carriera, oltre a un canale per le conversazioni più leggere e il divertimento. Unendovi alle Sentinelle cibernetiche, avrete l'opportunità di entrare in contatto con professionisti del settore della sicurezza informatica che la pensano allo stesso modo, di imparare dalle loro esperienze e di collaborare a nuove idee e progetti.
+Se siete interessati a entrare a far parte delle Cyber Sentinelle, il primo passo è visitare il loro sito web all'indirizzo[https://cybersentinels.org](https://cybersentinels.org). Da lì, puoi unirti al loro server Discord all'indirizzo [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) e iniziare a esplorare i vari canali e a impegnarsi con la comunità. Le Cyber Sentinelle accolgono professionisti a tutti i livelli, dai principianti agli esperti, e offrono ai membri una varietà di canali con cui impegnarsi, tra cui canali testuali e vocali per discussioni generali, notizie ed eventi, apprendimento e sviluppo, progetti e collaborazioni. Offrono anche un canale dedicato alle opportunità di lavoro e ai consigli di carriera, oltre a un canale per le conversazioni più leggere e il divertimento. Unendovi alle Sentinelle cibernetiche, avrete l'opportunità di entrare in contatto con professionisti del settore della sicurezza informatica che la pensano allo stesso modo, di imparare dalle loro esperienze e di collaborare a nuove idee e progetti.
 
 ___________________________________________________________________________
 

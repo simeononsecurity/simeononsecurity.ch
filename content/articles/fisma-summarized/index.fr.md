@@ -1,11 +1,11 @@
 ---
 title: "FISMA 101 : un aperçu de la sécurité de l'information fédérale"
 date: 2023-02-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "FISMA 101 fournit une vue d'ensemble de la loi fédérale sur la modernisation de la sécurité de l'information (Federal Information Security Modernization Act), y compris ses principales composantes, ses avantages et ses exigences pour les agences fédérales."
-tags: ["FISMA", "Sécurité de l'information au niveau fédéral", "Sécurité de l'information", "Risk Management", "Évaluation des contrôles de sécurité", "Contrôle continu", "Réponse aux incidents", "Autorisation et accréditation", "Amélioration de la sécurité de l'information", "Une meilleure gestion des risques", "Transparence accrue", "Collaboration renforcée", "Droit américain", "Agences fédérales", "Programmes de sécurité de l'information", "Contrôles de sécurité", "Évaluation des risques", "Contrôle continu", "Incidents de sécurité", "Transparence et responsabilité", "Aperçu de la loi sur la modernisation de la sécurité de l'information (Federal Information Security Modernization Act)", "Avantages de FISMA pour les agences fédérales", "Gestion des risques en matière de sécurité de l'information au niveau fédéral", "Contrôle continu dans le cadre de la FISMA", "Réponse aux incidents dans les agences fédérales", "Processus d'autorisation et d'accréditation", "Amélioration de la sécurité de l'information au sein du gouvernement fédéral", "Collaboration en matière de sécurité de l'information au niveau fédéral", "Transparence dans la conformité FISMA", "Normes de sécurité de l'information pour les agences fédérales"]
+tags: ["FISMA", "Sécurité fédérale de l’information", "Sécurité de l’information", "Gestion des risques", "Évaluation des contrôles de sécurité", "Surveillance continue", "Réponse aux incidents", "Autorisation et accréditation", "Amélioration de la sécurité de l’information", "Meilleure gestion des risques", "Transparence accrue", "Collaboration renforcée", "Droit américain", "Agences fédérales", "Programmes de sécurité de l’information", "Contrôles de sécurité", "Évaluations des risques", "Suivi continu", "Incidents de sécurité", "Transparence et responsabilité", "Présentation de la loi fédérale de modernisation de la sécurité de l’information", "Avantages de FISMA pour les agences fédérales", "Gestion des risques dans la sécurité fédérale de l’information", "Surveillance continue dans le cadre de FISMA", "Réponse aux incidents dans les agences fédérales", "Procédure d’autorisation et d’accréditation", "Amélioration de la sécurité de l’information du gouvernement fédéral", "Collaboration pour la sécurité fédérale de l’information", "Transparence de la conformité FISMA", "Normes de sécurité de l’information pour les agences fédérales"]
 cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Écran d'ordinateur sur lequel est apposé un cadenas, symbole de la sécurité et de la protection de l'information, sur fond de code binaire"
 coverCaption: ""
@@ -25,15 +25,15 @@ La FISMA est un ensemble de normes et de lignes directrices en matière de sécu
 
 La FISMA comporte plusieurs éléments clés, notamment
 
-- **Gestion des risques** : Les agences fédérales doivent procéder à des évaluations régulières des risques afin d'identifier les risques potentiels en matière de sécurité et de mettre en œuvre des contrôles de sécurité pour atténuer ces risques.
+- **Gestion des risques**: Les agences fédérales doivent procéder à des évaluations régulières des risques afin d'identifier les risques potentiels en matière de sécurité et de mettre en œuvre des contrôles de sécurité pour atténuer ces risques.
 
-- **Évaluation des contrôles de sécurité** : Les agences fédérales doivent évaluer l'efficacité de leurs contrôles de sécurité afin de s'assurer qu'ils fonctionnent comme prévu et d'identifier les domaines nécessitant des améliorations.
+- **Évaluation des contrôles de sécurité**: Les agences fédérales doivent évaluer l'efficacité de leurs contrôles de sécurité afin de s'assurer qu'ils fonctionnent comme prévu et d'identifier les domaines nécessitant des améliorations.
 
-- Surveillance continue** : Les agences fédérales doivent surveiller en permanence leurs systèmes d'information pour s'assurer qu'ils sont sûrs et pour répondre à tout incident de sécurité.
+- **Surveillance continue**: Les agences fédérales doivent surveiller en permanence leurs systèmes d'information pour s'assurer qu'ils sont sûrs et pour répondre à tout incident de sécurité.
 
-- Réponse aux incidents** : Les agences fédérales doivent disposer d'un plan de réponse aux incidents de sécurité et doivent être en mesure d'identifier, de contenir et de résoudre rapidement les incidents de sécurité.
+- **Réponse aux incidents**: Les agences fédérales doivent disposer d'un plan de réponse aux incidents de sécurité et doivent être en mesure d'identifier, de contenir et de résoudre rapidement les incidents de sécurité.
 
-- Autorisation et accréditation** : Les agences fédérales doivent obtenir l'autorisation de l'autorité compétente pour exploiter leurs systèmes d'information, et doivent régulièrement évaluer et réaccréditer ces systèmes pour s'assurer qu'ils sont sûrs.
+- **Autorisation et accréditation**: Les agences fédérales doivent obtenir l'autorisation de l'autorité compétente pour exploiter leurs systèmes d'information, et doivent régulièrement évaluer et réaccréditer ces systèmes pour s'assurer qu'ils sont sûrs.
 
 ### Gestion des risques
 
@@ -109,6 +109,12 @@ La FISMA exige des agences fédérales qu'elles rendent compte de leurs programm
 
 La FISMA contribue également à renforcer la collaboration et la coordination entre les agences fédérales, leurs sous-traitants et les autres parties prenantes en les obligeant à respecter les mêmes normes de sécurité de l'information. Cela permet de s'assurer que tout le monde travaille ensemble pour protéger les informations sensibles et que les risques liés à la sécurité de l'information sont gérés efficacement à tous les niveaux du gouvernement fédéral.
 
+
+## Liste de contrôle des preuves FISMA pour 2026
+
+Pour chaque contrôle, associez les preuves à un système, à un responsable, à une date et au résultat de l’examen. Parmi les preuves utiles figurent les approbations de politiques, les exports de configuration, les revues des accès, les rapports de vulnérabilité, les dossiers d’incident, les résultats de formation et les tests de restauration.
+
+Réexaminez le dossier après tout changement majeur. Un nouveau fournisseur d’identité, un chemin réseau, un service cloud, un groupe d’administrateurs ou un type de données peut modifier l’évaluation des risques et les preuves relatives aux contrôles. Utilisez le [cadre de gestion des risques du NIST](https://csrc.nist.gov/projects/risk-management/about-rmf), [FIPS 199](https://csrc.nist.gov/publications/detail/fips/199/final) et les directives actuelles de l’agence comme références faisant autorité.
 
 ## Conclusion
 

@@ -1,26 +1,31 @@
 ---
-title: "De beveiliging van uw computer versterken door SSL en TLS 1.2 en lager uit te schakelen"
+title: "Beveilig uw computer door SSL en TLS 1.1 en ouder uit te schakelen"
 date: 2023-02-08
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "In dit artikel worden de stappen besproken om de gegevensbeveiliging te verbeteren door oudere versies van SSL- en TLS-protocollen, die kwetsbaar zijn voor cyberdreigingen zoals POODLE, BEAST en Heartbleed, uit te schakelen in Windows- en Linux-systemen."
-tags: ["Verbetering van de computerbeveiliging", "SSL en TLS uitschakelen", "Gegevensbeveiliging", "POODLE", "BEAST", "Heartbleed", "Windows register editor", "Linux OpenSSL configuratie", "Apache", "Nginx"]
+description: "Schakel SSL en oude TLS-versies uit en houd TLS 1.2 of nieuwer beschikbaar. Dit artikel behandelt Schannel en .NET op Windows en Linux-services."
+tags: ['Computerbeveiliging versterken', 'SSL en TLS uitschakelen', 'Gegevensbeveiliging', 'POODLE', 'BEAST', 'Heartbleed', 'Windows Register-editor', 'OpenSSL-configuratie op Linux', 'Apache', 'Nginx']
 cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
-coverAlt: "Een computer met een hangslotsymbool voor gegevensbeveiliging"
+coverAlt: "Een computer met een hangslot als symbool voor gegevensbeveiliging"
 coverCaption: ""
 ---
 
-## Introductie:
+## Inleiding:
 
-Computers zijn een cruciaal aspect van ons dagelijks leven geworden, en daarmee is de behoefte aan gegevensbeveiliging aanzienlijk toegenomen. Van de verschillende methoden die worden gebruikt om gegevens te beveiligen, zijn SSL (Secure Socket Layer) en TLS (Transport Layer Security) veelgebruikte protocollen. Naarmate de technologie evolueert, worden oudere versies van deze protocollen echter kwetsbaar voor cyberaanvallen. In dit artikel bespreken we de stappen om computers te harden door SSL en alle TLS-versies 1.2 en lager uit te schakelen om de gegevens veilig te houden.
+Computers zijn een belangrijk onderdeel van ons dagelijks leven geworden. Daardoor is ook de behoefte aan gegevensbeveiliging gegroeid. SSL (Secure Socket Layer) en TLS (Transport Layer Security) beschermen gegevens tijdens transport. Oudere versies zijn kwetsbaar voor aanvallen. Dit artikel legt uit hoe u SSL en TLS 1.0 en 1.1 uitschakelt en TLS 1.2 of TLS 1.3 beschikbaar houdt.
 
-### Waarom SSL en TLS 1.2 en lager uitschakelen?
+*TLS 1.2 is geen verouderd protocol. De huidige ondergrens is TLS 1.2 of nieuwer. [RFC 8446](https://www.rfc-editor.org/rfc/rfc8446) definieert TLS 1.3. [RFC 8996](https://www.rfc-editor.org/rfc/rfc8996) verklaart TLS 1.0 en TLS 1.1 formeel verouderd.*
 
-Oudere versies van SSL en TLS zijn kwetsbaar voor verschillende veiligheidsbedreigingen zoals POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) en Heartbleed. Deze aanvallen kunnen leiden tot de blootstelling van gevoelige informatie, waardoor het van cruciaal belang is het gebruik van verouderde protocollen uit te schakelen.
+### Waarom SSL en TLS 1.1 en ouder uitschakelen?
 
-### SSL en TLS 1.2 en lager in Windows uitschakelen:
+Oudere versies van SSL en TLS zijn kwetsbaar voor bedreigingen zoals POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) en Heartbleed. Deze aanvallen kunnen gevoelige gegevens blootleggen. Heartbleed trof kwetsbare OpenSSL-implementaties en was zelf geen protocolversie. Werk de bibliotheek bij en vervang blootgestelde inloggegevens.
 
-In Windows kan het proces van het uitschakelen van SSL en TLS 1.2 en lager worden bereikt via de register-editor. Hier is een powershell-script om de taak uit te voeren:
+De actuele [Microsoft-richtlijnen voor Schannel-registerinstellingen](https://learn.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings) bevatten protocolinstellingen voor ondersteunde Windows-versies. Microsoft adviseert Groepsbeleid of andere ondersteunde beheertools als die beschikbaar zijn. Bewerk het register rechtstreeks alleen als er geen betere beheermethode is.
+
+### SSL en TLS 1.1 en ouder uitschakelen in Windows:
+
+In Windows kunt u deze protocollen uitschakelen via het register. Het PowerShell-script hieronder wijzigt de Schannel-instellingen voor clients en servers. Het stelt .NET ook in op de TLS-standaardwaarden van het besturingssysteem en sterke cryptografie.
 
 ```powershell
 Function Disable-Protocol {
@@ -47,8 +52,7 @@ Disable-Protocol -Protocol "TLS 1.0"
 Disable-Protocol -Protocol "DTLS 1.0"
 # Disable TLS 1.1
 Disable-Protocol -Protocol "TLS 1.1"
-# Disable DTLS 1.1
-Disable-Protocol -Protocol "DTLS 1.1"
+# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
 
 function Set-NETStrongAuthentication {
     param(
@@ -70,21 +74,29 @@ foreach ($version in $NETVersions) {
 }
 ```
 
-#### SSL en TLS 1.2 en lager uitschakelen in Linux:
+#### SSL en TLS 1.1 en ouder uitschakelen in Linux:
 
-In Linux kan het proces om SSL en TLS 1.2 en lager uit te schakelen worden bereikt door het OpenSSL-configuratiebestand te wijzigen. Dit zijn de te volgen stappen:
+In Linux hangt het uitschakelen van oude protocollen af van de toepassing en bibliotheek. Een wijziging aan `/etc/ssl/openssl.cnf` vervangt niet de instellingen van elke daemon of ingebouwde TLS-bibliotheek. Volg deze stappen:
 
-1. Open de terminal en log in als root.
-2. Navigeer naar het OpenSSL configuratiebestand. Gewoonlijk staat het in /etc/ssl/openssl.cnf.
-3. Open het bestand met een tekstverwerker zoals nano of vim.
-4. Zoek de richtlijn SSLProtocol en stel de waarde in op -TLSv1.2.
-5. Sla het bestand op en sluit de tekstverwerker.
-6. Herstart de diensten die OpenSSL gebruiken, zoals Apache of Nginx, zodat de wijzigingen van kracht worden.
+1. Open de terminal en meld u aan als root.
+2. Ga naar het OpenSSL-configuratiebestand. Dit staat meestal in /etc/ssl/openssl.cnf.
+3. Open het bestand met een teksteditor zoals nano of vim.
+4. Zoek de protocolinstructie van de service en stel TLS 1.2 in als minimum. De oude instructie `-TLSv1.2` schakelde TLS 1.2 uit. Gebruik die daarom niet als moderne ondergrens.
+5. Sla het bestand op en sluit de editor.
+6. Herstart services die OpenSSL gebruiken, zoals Apache of Nginx, zodat de wijzigingen ingaan.
 
 ## Conclusie:
 
-Door SSL en alle TLS-versies 1.2 en lager uit te schakelen, kunt u de beveiliging van uw computer verharden en gevoelige informatie beschermen tegen potentiële cyberdreigingen. Het is een eenvoudig proces dat met minimale inspanning kan worden uitgevoerd, waardoor het een cruciaal aspect is van het handhaven van de beveiliging van uw computer. Door de in dit artikel beschreven stappen uit te voeren, kunt u uw gegevens veilig houden en cyberaanvallen voorkomen, waardoor het risico dat gevoelige informatie wordt blootgesteld, afneemt.
+Door SSL en TLS 1.1 en ouder uit te schakelen, beveiligt u uw computer en behoudt u compatibiliteit met moderne TLS-clients. De juiste instelling hoort bij de service die de TLS-verbinding onderhandelt. Test elke toepassing afzonderlijk. Ga er niet van uit dat één OpenSSL-bestand alle daemons beheert.
 
-Het is belangrijk op te merken dat het uitschakelen van deze oudere versies van SSL- en TLS-protocollen de beveiliging van uw computer kan verbeteren, maar ook gevolgen kan hebben voor de compatibiliteit met sommige oudere systemen. Daarom is het essentieel om de aangebrachte wijzigingen grondig te testen en ervoor te zorgen dat er geen nadelige gevolgen zijn voor uw systeem voordat u ze volledig implementeert.
+Het uitschakelen van deze oude versies kan de compatibiliteit met sommige oudere systemen beïnvloeden. Test de wijzigingen grondig en controleer de gevolgen voordat u ze volledig invoert.
 
-Kortom, het harden van uw computer door het uitschakelen van SSL en alle TLS-versies 1.2 en lager is een essentiële stap in het handhaven van de veiligheid van gevoelige informatie en het voorkomen van cyberaanvallen. De in dit artikel beschreven stappen vormen een eenvoudige gids voor het beveiligen van uw computer, waardoor het voor particulieren en organisaties gemakkelijk is om de nodige beveiligingsmaatregelen te treffen.
+Bescherm gevoelige informatie en verlaag het risico op aanvallen. Controleer welk protocol elke service onderhandelt en documenteer tijdelijke uitzonderingen.
+
+## Huidige controlelijst
+
+- **Controleer het onderhandelde protocol.** Test client en server met een TLS-scanner of een goedgekeurde interne test aan beide kanten van de verbinding.
+- **Laat TLS 1.2 ingeschakeld.** Sommige oudere toepassingen hebben het nog nodig. Ondersteuning voor TLS 1.3 hangt af van het besturingssysteem en de bibliotheek.
+- **Controleer DTLS apart.** RFC 8996 verklaart DTLS 1.0 verouderd. De RFC definieert geen DTLS 1.1-protocol.
+- **Herstart getroffen services.** Schannel- en applicatie-instellingen vereisen vaak een herstart van de service of het systeem.
+- **Documenteer uitzonderingen.** Noteer oude eindpunten die tijdelijk een compatibiliteitsinstelling nodig hebben en stel een verwijderdatum vast.

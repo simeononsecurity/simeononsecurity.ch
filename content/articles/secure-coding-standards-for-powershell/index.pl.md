@@ -1,15 +1,16 @@
 ---
 title: "Najlepsze praktyki bezpiecznego kodowania w PowerShell: Przewodnik"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach."
-tags: ["PowerShell", "Bezpieczne kodowanie", "Systemy oparte na Windowsie", "Walidacja wejścia", "Biblioteki kryptograficzne", "Najmniejszy przywilej", "Statyczny analizator kodu", "Bezpieczne protokoły komunikacyjne", "Rejestrowanie i monitorowanie", "Skanowanie podatności", "Edukacja", "Kod wtrysku", "Eskalacja uprawnień", "Wyciek danych", "Środowisko utwardzania", "Polityka bezpieczeństwa", "Firewalle", "Systemy wykrywania włamań", "Zarządzanie podatnościami", "Bezpieczeństwo sieci"]
+tags: ["PowerShell", "Bezpieczne kodowanie", "Systemy oparte na Windowsie", "Walidacja wejścia", "Biblioteki kryptograficzne", "Najmniejszy przywilej", "Statyczny analizator kodu", "Bezpieczne protokoły komunikacyjne", "Rejestrowanie i monitorowanie", "Skanowanie podatności", "Edukacja", "Kod wtrysku", "Eskalacja uprawnień", "Wyciek danych", "Środowisko utwardzania", "Polityka bezpieczeństwa", "Firewalle", "Systemy wykrywania włamań", "Zarządzanie podatnościami", "Bezpieczeństwo sieci", "Najlepsze praktyki kodowania w PowerShell", "Bezpieczny kod PowerShell", "Bezpieczeństwo systemów Windows", "Walidacja danych wejściowych w PowerShell", "Kryptografia w PowerShell", "Zasada najmniejszych uprawnień", "Statyczny analizator kodu dla PowerShell", "Bezpieczne protokoły komunikacyjne w PowerShell", "Rejestrowanie i monitorowanie w PowerShell", "Skanowanie podatności w PowerShell", "Edukacja w zakresie bezpieczeństwa PowerShell", "Zapobieganie wstrzyknięciu kodu", "Ograniczanie eskalacji uprawnień", "Zapobieganie wyciekom danych w PowerShell", "Wzmacnianie środowiska PowerShell", "Polityki bezpieczeństwa dla PowerShell", "Konfiguracja zapory sieciowej w PowerShell", "Systemy wykrywania włamań dla PowerShell", "Zarządzanie podatnościami w PowerShell", "Bezpieczeństwo sieci w PowerShell", "Bezpieczne kodowanie skryptów PowerShell", "Oczyszczanie danych wejściowych i wyjściowych w PowerShell", "Bezpieczne protokoły komunikacyjne dla PowerShell", "Rejestrowanie i monitorowanie w skryptach PowerShell", "Wzmacnianie środowiska PowerShell", "Przeprowadzanie skanowania podatności w PowerShell", "Edukowanie użytkowników i administratorów w zakresie bezpieczeństwa PowerShell", "Praktyki bezpiecznego kodu PowerShell", "Bezpieczny i odporny kod PowerShell", "Najlepsze praktyki bezpieczeństwa PowerShell", "Najlepsze praktyki zabezpieczeń PowerShell"]
 cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Obraz superbohatera stojącego przed komputerem z logo Windows na ekranie i tarczą w ręku, symbolizujący znaczenie praktyk bezpiecznego kodowania dla ochrony systemów opartych na Windows."
 coverCaption: ""
 ---
- to popularny framework do automatyzacji zadań i zarządzania konfiguracją, który służy do automatyzacji powtarzalnych zadań i uproszczenia zarządzania systemami opartymi na Windows. Jak każdy język programowania, kod PowerShella może być podatny na zagrożenia bezpieczeństwa, jeśli programiści nie przestrzegają standardów bezpiecznego kodowania. W tym artykule omówimy najlepsze praktyki bezpiecznego kodowania w PowerShell.
+PowerShell to popularny framework do automatyzacji zadań i zarządzania konfiguracją, który służy do automatyzacji powtarzalnych zadań i uproszczenia zarządzania systemami opartymi na Windows. Jak każdy język programowania, kod PowerShella może być podatny na zagrożenia bezpieczeństwa, jeśli programiści nie przestrzegają standardów bezpiecznego kodowania. W tym artykule omówimy najlepsze praktyki bezpiecznego kodowania w PowerShell.
 
 ____
 
@@ -41,10 +42,10 @@ PowerShell posiada kilka funkcji, które mogą być podatne na problemy bezpiecz
 
 Na przykład, zamiast używać funkcji Invoke-Expression do wykonania polecenia, programiści powinni użyć funkcji Start-Process.
 ```powershell
-# Instead of using Invoke-Expression
+# Zamiast używać Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Użyj Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -62,7 +63,7 @@ $encryptedPassword = [System.Convert]::ToBase64String($securePassword.ToByteArra
 
 ____
 
-# Podążaj za zasadą najmniejszego przywileju
+## Podążaj za zasadą najmniejszego przywileju
 
 Zasada najmniejszego przywileju jest najlepszą praktyką bezpieczeństwa, która ogranicza użytkowników lub procesy do minimalnego poziomu dostępu niezbędnego do wykonywania ich funkcji. Oznacza to, że użytkownicy powinni mieć dostęp tylko do tych zasobów, które są im potrzebne do wykonywania pracy i nic więcej.
 
@@ -104,11 +105,11 @@ Używając statycznego analizatora kodu, programiści mogą zidentyfikować i na
 
 ____
 
-## Używaj bezpiecznych praktyk kodowania dla skryptów PowerShell
+## Stosuj bezpieczne zasady programowania
 
 Skrypty PowerShell są podatne na kilka zagrożeń bezpieczeństwa, takich jak wstrzykiwanie kodu, eskalacja uprawnień i wyciek danych. Aby zapewnić bezpieczeństwo skryptów PowerShell, programiści powinni stosować bezpieczne praktyki kodowania, takie jak:
 
-### Sanitize Input and Output
+### Oczyszczanie danych wejściowych i wyjściowych
 Sanityzacja danych wejściowych użytkownika jest ważna aby zapobiec atakom typu code injection. Programiści powinni sprawdzać i oczyszczać dane wejściowe użytkownika, aby upewnić się, że spełniają one oczekiwane kryteria i nie zawierają złośliwego kodu. Dodatkowo, podczas zapisywania danych wyjściowych do pliku dziennika lub innego miejsca docelowego, programiści powinni oczyszczać wszelkie wrażliwe dane przed zapisaniem ich do pliku, aby zapobiec wyciekowi danych.
 
 ### Używaj bezpiecznych protokołów komunikacyjnych
@@ -121,8 +122,8 @@ Wdrażaj mechanizmy logowania i monitorowania, aby wykrywać i reagować na incy
 Należy wzmocnić środowisko poprzez zastosowanie zasad i konfiguracji bezpieczeństwa w systemie operacyjnym, urządzeniach sieciowych i aplikacjach. Pomaga to zmniejszyć powierzchnię ataku i zapobiec nieautoryzowanemu dostępowi. Na przykład programiści i administratorzy mogą:
 
 - **Wyłączać niepotrzebne usługi i protokoły, aby zmniejszyć powierzchnię ataku**.
-- **Wprowadzić silne hasła i zasady dotyczące haseł, aby zapobiec nieautoryzowanemu dostępowi**.
-- Skonfigurować zapory sieciowe i systemy wykrywania włamań w celu zapobiegania i wykrywania ataków**.
+- [**Wprowadzić silne hasła i zasady dotyczące haseł, aby zapobiec nieautoryzowanemu dostępowi**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
+- **Skonfigurować zapory sieciowe i systemy wykrywania włamań w celu zapobiegania i wykrywania ataków**.
 - **Wprowadzenie aktualizacji oprogramowania i łatek naprawiających znane luki bezpieczeństwa**.
 
 ### Regularne skanowanie podatności
@@ -141,7 +142,7 @@ Poprzez wdrożenie tych praktyk, programiści mogą zmniejszyć ryzyko naruszeni
 
 ## Referencje
 
--[PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
--[Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
--[Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
--[Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [Dokumentacja PowerShell](https://docs.microsoft.com/en-us/powershell/)
+- [Seria Top 25: błędy oprogramowania](https://www.sans.org/top25-software-errors/)
+- [Ściągawka walidacji danych wejściowych](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [Przewodnik po ogólnym bezpieczeństwie serwerów](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

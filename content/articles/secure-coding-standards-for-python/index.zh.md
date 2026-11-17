@@ -1,6 +1,7 @@
 ---
 title: "Python 的安全编码标准：最佳实践"
 date: 2023-02-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "学习 Python 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。"
@@ -48,7 +49,7 @@ x = int('10')
 
 ### 3.使用密码学库
 
-**加密库**，如 [`cryptography`](https://pypi.org/project/cryptography/) and [`pycryptodome`](https://pypi.org/project/pycryptodome/)提供了执行加密和解密操作的安全方法。请使用这些库，而不是创建可能容易出现漏洞的自定义加密方法。
+**加密库**，如 [`cryptography`](https://pypi.org/project/cryptography/) 和 [`pycryptodome`](https://pypi.org/project/pycryptodome/)提供了执行加密和解密操作的安全方法。请使用这些库，而不是创建可能容易出现漏洞的自定义加密方法。
 
 例如，要加密密码，使用 [`cryptography`](https://pypi.org/project/cryptography/)图书馆如下
 ```py
@@ -82,7 +83,7 @@ encrypted_password = encrypt_password(password)
 
 ### 6.使用静态代码分析器
 
-**静态代码分析器**是一种可在代码执行前识别代码中潜在安全漏洞的工具。使用以下工具 [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/)以检测代码中的安全问题，并在部署前进行修复。
+**静态代码分析器**是一种可在代码执行前识别代码中潜在安全漏洞的工具。使用以下工具 [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), 和 [`Pyflakes`](https://pypi.org/project/pyflakes/)以检测代码中的安全问题，并在部署前进行修复。
 
 例如 [`bandit`](https://pypi.org/project/bandit/)是一款流行的静态代码分析器，可检查 Python 代码是否存在潜在的安全漏洞。它可以检测硬编码密码、SQL 注入和使用不安全函数等问题。
 
@@ -104,17 +105,17 @@ cursor.execute(query, (username,))
 
 ## Python 框架的安全编码标准
 
-Python 框架，如 [Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/)都有各自的安全编码标准。开发人员在使用这些框架开发应用程序时应遵循这些标准。下面是一些 Python 框架的安全编码标准：
+Python 框架（如 [Django](https://www.djangoproject.com/) 和 [Flask](https://flask.palletsprojects.com/)）各有自己的安全编码标准。开发人员在使用这些框架开发应用程序时应遵循这些标准。下面是一些 Python 框架的安全编码标准：
 
 ### 1. [Django](https://www.djangoproject.com/)
 
-[Django](https://www.djangoproject.com/) is a popular web framework for Python. Here are some secure coding standards for [Django](https://www.djangoproject.com/)
+[Django](https://www.djangoproject.com/) 是一个流行的 Python Web 框架。使用 [Django](https://www.djangoproject.com/) 开发应用时，请遵循以下安全编码标准：
 
 - 使用 [Django](https://www.djangoproject.com/)内置**身份验证系统**，而不是创建自定义身份验证系统。
 - 使用方法 [Django](https://www.djangoproject.com/)内置**密码散列函数**，而不是创建自定义密码散列方法。
 - 使用 [Django](https://www.djangoproject.com/)**模板系统**，以确保输出是安全的，不存在跨站点脚本漏洞。
 
-例如，要使用 [Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the `模块。
+例如，要使用 [Django](https://www.djangoproject.com/) 内置的密码哈希函数，请调用模块 `django.contrib.auth.hashers` 中的 `make_password()`。
 
 ```python
 from [Django](https://www.djangoproject.com/).contrib.auth.hashers import make_password
@@ -124,14 +125,14 @@ hashed_password = make_password(password)
 ```
 
 ### 2. [Flask](https://flask.palletsprojects.com/)
-[Flask](https://flask.palletsprojects.com/) is a micro web framework for Python. Here are some secure coding standards for [Flask](https://flask.palletsprojects.com/)
+[Flask](https://flask.palletsprojects.com/) 是一个轻量级的 Python Web 框架。使用 [Flask](https://flask.palletsprojects.com/) 开发应用时，请遵循以下安全编码标准：
 
 - 使用 [Flask](https://flask.palletsprojects.com/)内置**会话管理系统**，确保会话处理安全。
-- 使用方法 [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/)库，以确保输出是安全的，不会出现跨站脚本漏洞。
-- 使用方法 [Flask](https://flask.palletsprojects.com/)'s [`WTForms`](https://pypi.org/project/WTForms/)库来处理用户输入验证，确保输入不存在安全风险。
-- 使用方法 [Flask](https://flask.palletsprojects.com/)'s [`Blinker`](https://pypi.org/project/blinker/)安全信号处理库。
+- 在 [Flask](https://flask.palletsprojects.com/) 中配合使用库 [`MarkupSafe`](https://pypi.org/project/MarkupSafe/)，可确保输出安全并避免跨站脚本漏洞。
+- 在 [Flask](https://flask.palletsprojects.com/) 中使用库 [`WTForms`](https://pypi.org/project/WTForms/) 验证用户输入，降低安全风险。
+- 在 [Flask](https://flask.palletsprojects.com/) 中使用库 [`Blinker`](https://pypi.org/project/blinker/) 安全地处理信号。
 
-例如，要使用 [Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/)库，导入并使用它从输出中转义 HTML 标记。
+例如，在 [Flask](https://flask.palletsprojects.com/) 中使用库 [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) 转义输出中的 HTML 标签。
 ```py
 from markupsafe import escape
 
@@ -146,7 +147,7 @@ ______
 
 1.**今天就开始在您的 Python 代码中实施这些最佳实践**，以最大限度地降低安全漏洞的风险并保护敏感数据。首先，您可以确定代码中容易出现安全风险的地方，如输入验证、密码散列和会话管理。然后，您可以实施类似本文讨论的最佳实践来保护您的代码。例如，您可以使用 Python 内置的正则表达式来验证用户输入，或使用安全的密码散列库，如 [`bcrypt`](https://pypi.org/project/bcrypt/)
 
-2.**审查现有代码库，查找潜在的安全漏洞**，并使用静态代码分析器，如 [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/)来检测和修复任何问题。您还可以使用手动代码审查来识别静态代码分析仪可能检测不到的安全问题。查找常见的漏洞，如 SQL 注入、跨站脚本和输入验证问题。一旦识别出潜在的安全漏洞，就可以使用最佳实践来修复问题。
+2.**审查现有代码库，查找潜在的安全漏洞**，并使用静态代码分析器，如 [`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), 和 [`Pyflakes`](https://pypi.org/project/pyflakes/)来检测和修复任何问题。您还可以使用手动代码审查来识别静态代码分析仪可能检测不到的安全问题。查找常见的漏洞，如 SQL 注入、跨站脚本和输入验证问题。一旦识别出潜在的安全漏洞，就可以使用最佳实践来修复问题。
 
 3.**了解最新的安全最佳实践和工具**，确保代码安全无漏洞。关注安全博客、参加会议和在线社区，了解最新的安全趋势和实践。及时更新您的库和框架，确保您使用的是最新的安全版本。
 

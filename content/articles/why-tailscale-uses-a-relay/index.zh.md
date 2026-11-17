@@ -1,55 +1,55 @@
 ---
-title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
+title: "Tailscale 为什么使用中继：直连、DERP 和对等中继"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
+description: "了解 Tailscale 使用中继的原因、如何阅读 status 和 netcheck 输出，以及何时需要排查 DERP 或对等中继连接。"
 genre: ["Networking", "Network Security", "Self-Hosted"]
-tags: ["Tailscale", "Tailscale relay", "DERP", "Tailscale Peer Relay", "direct connection", "WireGuard", "NAT traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN performance", "remote access", "tailnet", "homelab networking", "relay latency", "end-to-end encryption"]
+tags: ["Tailscale", "Tailscale 中继", "DERP", "Tailscale 对等中继", "直连", "WireGuard", "NAT 穿透", "硬 NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN 性能", "远程访问", "tailnet", "家庭实验室网络", "中继延迟", "端到端加密"]
 cover: "/img/cover/why-tailscale-uses-a-relay.webp"
-coverAlt: "Two laptops on separate islands exchange locked packets through a central relay while a direct path is interrupted."
+coverAlt: "两台位于不同岛屿的笔记本电脑通过中央中继交换加密数据包，此时直连路径已中断。"
 coverCaption: ""
 ---
 
-**Tailscale uses a relay** when devices have not established a direct connection. A brief DERP connection during startup is normal. Persistent relaying often reflects network address translation (NAT) or firewall conditions affecting the route between the devices. Direct, DERP, and peer-relay connections all retain WireGuard end-to-end encryption. [Tailscale connection types](https://tailscale.com/docs/reference/connection-types).
+**设备尚未建立直连时，Tailscale 会使用中继。** 启动期间短暂通过 DERP 连接属于正常情况。持续使用中继通常与网络地址转换 (NAT) 或防火墙条件有关，这些条件会影响设备之间的路径。直连、DERP 和对等中继连接都会保留 WireGuard 端到端加密。[Tailscale 连接类型](https://tailscale.com/docs/reference/connection-types)。
 
 ## 要点
 
-- **Recognize the path:** distinguish direct, DERP, and peer-relay connections.
-- **Collect evidence:** run peer-specific probes and network checks on both ends.
-- **Analyze the pattern:** compare device pairs and network conditions.
-- **Choose a change:** justify it with a measured workload and a retest.
+- **识别路径：** 区分直连、DERP 和对等中继。
+- **收集证据：** 在两端运行针对目标对等设备的探测和网络检查。
+- **分析模式：** 比较设备组合和网络条件。
+- **选择变更：** 用已测量的工作负载和复测结果来说明理由。
 
 ## 开始之前
 
-**Prerequisites:** two enrolled, online devices and a terminal with the Tailscale command-line interface, or **CLI**, available. You need administrative access only if the investigation leads to configuration changes.
+**前提条件：** 两台已注册且在线的设备，以及一台装有 Tailscale 命令行界面 （**CLI**） 的终端。只有当排查工作需要更改配置时，才需要管理员权限。
 
-**Estimated effort:** five minutes for basic checks, then 15–20 minutes for the comparison exercise. **Difficulty:** beginner for observation and intermediate for network changes. Define the problem first, such as a slow backup or delayed terminal response.
+**预计时间：** 基本检查约五分钟，比较练习需要 15 到 20 分钟。**难度：** 观察问题为入门级，网络更改为中级。先明确问题，例如备份速度慢或终端响应延迟。
 
-## Direct, DERP, and Peer Relay
+## 直连、DERP 和对等中继
 
-A **tailnet** is your Tailscale network. Its devices attempt direct UDP connectivity, with relays available when the direct path fails. Tailscale periodically rechecks its connection options. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**tailnet** 是你的 Tailscale 网络。设备会尝试建立 UDP 直连。直连路径失败时，可使用中继。Tailscale 会定期重新检查连接选项。[连接建立](https://tailscale.com/docs/reference/connection-types)。
 
-| Path | Traffic route | Typical implication |
+| 路径 | 流量路线 | 通常意味着什么 |
 |---|---|---|
-| **Direct** | Between the two devices | Usually the preferred performance path |
-| **DERP relay** | Through Tailscale relay infrastructure | Adds an intermediary when direct access fails |
-| **Peer relay** | Through a configured device in your tailnet | An alternative relay under your administration |
+| **直连** | 两台设备之间 | 通常是性能方面的首选路径 |
+| **DERP 中继** | 经 Tailscale 中继基础设施 | 直连失败时增加一个中间节点 |
+| **对等中继** | 经 tailnet 中配置的设备 | 由你管理的另一种中继方式 |
 
-**DERP performance** depends partly on the extra route and shared service capacity. Tailscale documents throughput limits intended to share DERP resources fairly. There is no universal relay speed suitable for predicting your file-transfer time. [Tailscale performance troubleshooting](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
+**DERP 性能**部分取决于额外的路由和共享服务容量。Tailscale 文档说明了吞吐限制，以便公平共享 DERP 资源。没有一种通用的中继速度可用于预测文件传输时间。[排查 Tailscale 性能问题](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet)。
 
-## Understand Connection Negotiation
+## 了解连接协商
 
-**NAT traversal** is the process of establishing a usable path across address-translating devices. Tailscale begins communication through DERP while negotiating a direct path. If direct connectivity fails, an available configured peer relay provides another option. Tailscale rechecks its options over time. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**NAT 穿透**是通过执行地址转换的设备建立可用路径的过程。Tailscale 会先通过 DERP 开始通信，同时协商直连路径。如果直连失败，已配置且可用的对等中继会提供另一个选项。Tailscale 会随时间重新检查这些选项。[连接建立](https://tailscale.com/docs/reference/connection-types)。
 
-**Hard NAT** describes mapping behavior making traversal difficult. The conditions at both ends matter. Two devices behind different routers do not necessarily behave alike, even if both networks use private addresses. [Device connectivity](https://tailscale.com/docs/reference/device-connectivity).
+**硬 NAT**指会增加穿透难度的映射行为。两端的条件都很重要。位于不同路由器后的两台设备不一定表现相同，即使两个网络都使用私有地址也是如此。[设备连接性](https://tailscale.com/docs/reference/device-connectivity)。
 
-For **a roaming laptop**, the path to your home server might change after moving from home Wi-Fi to a hotel network. Record the network used during the observation. Yesterday's direct connection is not evidence about today's route.
+对于**移动中的笔记本电脑**，从家庭 Wi-Fi 切换到酒店网络后，它到家用服务器的路径可能发生变化。记录观察时使用的网络。昨天的直连情况不能证明今天的路径。
 
-## Check Your Current Connection
+## 检查当前连接
 
-Replace **`home-server`** with your peer's Tailscale name or address:
+将 **`home-server`** 替换为对等设备的 Tailscale 名称或地址：
 
 ```bash
 tailscale ping home-server
@@ -57,119 +57,119 @@ tailscale status
 tailscale netcheck
 ```
 
-**`tailscale ping`** probes connectivity to the named peer. **`tailscale status`** lists peers and connection details. **`tailscale netcheck`** reports conditions on the device running the command. The [Tailscale CLI reference](https://tailscale.com/docs/reference/tailscale-cli) documents these commands.
+**`tailscale ping`** 会探测与指定对等设备的连接。**`tailscale status`** 会列出对等设备和连接详情。**`tailscale netcheck`** 会报告运行该命令的设备所处的网络条件。[Tailscale CLI 参考](https://tailscale.com/docs/reference/tailscale-cli)介绍了这些命令。
 
-| Output indicator | Read it as |
+| 输出标记 | 解读方式 |
 |---|---|
-| **`direct`** | Traffic to this peer uses a direct path |
-| **`relay`** | Traffic to this peer uses DERP |
-| **`peer-relay`** | Traffic uses a configured peer relay |
-| **An initial DERP pong** | Inspect subsequent results before deciding the path stayed relayed |
+| **`direct`** | 到该对等设备的流量使用直连路径 |
+| **`relay`** | 到该对等设备的流量经过 DERP |
+| **`peer-relay`** | 流量使用已配置的对等中继 |
+| **首次出现 DERP pong** | 查看后续结果，再判断路径是否一直经由中继 |
 
-These labels come from the [connection-type documentation](https://tailscale.com/docs/reference/connection-types). **Generate traffic first**, then inspect the peer you care about. The commands above are examples, not captured results from a benchmark.
+这些标记来自[连接类型文档](https://tailscale.com/docs/reference/connection-types)。**先生成流量**，再检查目标对等设备。上面的命令只是示例，并非基准测试中记录的结果。
 
-## Interpret a Path Change
+## 解读路径变化
 
-This **illustrative sequence** omits addresses and timings so you focus on the connection transition:
+以下**示例序列**省略地址和时间，以便突出连接路径的变化：
 
 ```text
-First response:    via DERP
-Later response:    via a direct endpoint
-Status afterward: direct
+首次响应：       经 DERP
+后续响应：       经直连端点
+之后的状态：     直连
 ```
 
-**Interpretation:** negotiation succeeded during this observation. The first response alone would have produced the wrong diagnosis. If later responses and status remain relayed, record a persistent relay for this device pair and test period.
+**解读：** 在这次观察中，连接协商成功了。只看首次响应会导致错误诊断。如果后续响应和状态仍显示中继，请记录这对设备在该测试时段持续使用中继的情况。
 
-**Probe scope:** a successful Tailscale ping establishes peer connectivity for its probe. It does not prove your dashboard, file service, or SSH daemon accepts application traffic. Test the failing application separately before declaring the problem solved.
+**探测范围：** Tailscale ping 成功只能确认该探测与对等设备之间可连通。它无法证明你的仪表板、文件服务或 SSH 守护进程接受应用流量。在判定问题已解决之前，应单独测试出现故障的应用。
 
-## What Netcheck Tells You
+## netcheck 能告诉你什么
 
-Run **`tailscale netcheck` on both devices**. Compare these fields against the [device-connectivity reference](https://tailscale.com/docs/reference/device-connectivity):
+**在两台设备上都运行 `tailscale netcheck`。** 将以下字段与[设备连接性参考](https://tailscale.com/docs/reference/device-connectivity)进行比较：
 
-| Field | Useful interpretation |
+| 字段 | 可参考的含义 |
 |---|---|
-| **`UDP`** | Whether the probe observed outbound UDP connectivity |
-| **`MappingVariesByDestIP`** | Changing external mappings suggest difficult NAT traversal |
-| **`IPv6`** | Whether this device has usable IPv6 connectivity |
-| **`PortMapping`** | Whether a supported port-mapping mechanism is available |
+| **`UDP`** | 探测是否观察到出站 UDP 连接 |
+| **`MappingVariesByDestIP`** | 外部映射发生变化可能意味着 NAT 穿透较困难 |
+| **`IPv6`** | 该设备是否有可用的 IPv6 连接 |
+| **`PortMapping`** | 是否提供受支持的端口映射机制 |
 
-**One field is not a verdict.** An available mapping mechanism does not prove a particular peer path works. Likewise, a relay label does not identify which router caused it. Compare both endpoints and the actual ping results.
+**单个字段不能给出结论。** 有可用的映射机制并不能证明到某个对等设备的路径有效。中继标记也无法指出是哪台路由器导致了问题。请比较两端和实际 ping 结果。
 
-**Carrier NAT** is relevant when upstream translation is outside your control, as discussed in our [T-Mobile port-forwarding explainer](/articles/t-mobile-home-internet-port-forwarding/). Avoid assuming every connection behind carrier NAT has identical traversal behavior.
+如果上游地址转换不受你控制，**运营商 NAT** 就需要考虑，详见我们的 [T-Mobile Home Internet 端口转发说明](/articles/t-mobile-home-internet-port-forwarding/)。不要假设所有运营商 NAT 后的连接都有相同的穿透行为。
 
-## Compare Three Device Pairs
+## 比较三组设备
 
-Use a **third enrolled device**, if available, to improve the evidence. The following is a hypothetical pattern, not a measured result:
+如果有条件，使用**第三台已注册设备**来增加证据。以下模式是假设情况，并非测量结果：
 
-| Device pair | Observed path |
+| 设备组合 | 观察到的路径 |
 |---|---|
-| **Laptop to home server** | DERP |
-| **Laptop to another server** | Direct |
-| **Home server to another server** | DERP |
+| **笔记本电脑到家用服务器** | DERP |
+| **笔记本电脑到另一台服务器** | 直连 |
+| **家用服务器到另一台服务器** | DERP |
 
-**Working hypothesis:** prioritize the home server's network for investigation because both observed paths involving it stayed relayed. This is a lead, not proof. Each pair negotiates independently, and the comparison server has its own network conditions.
+**工作假设：** 优先检查家用服务器所在的网络，因为两条涉及它的已观察路径都持续使用中继。这只是线索，并非证据。每组设备会单独协商连接，作为比较对象的服务器也有自己的网络条件。
 
-**Next observation:** collect netcheck output on all three devices and repeat the laptop-to-home test from another network you control. If the path changes, record exactly which network changed. Avoid attributing the result to a particular firewall setting until you test it.
+**下一步观察：** 收集三台设备上的 netcheck 输出，并从你控制的另一个网络重复笔记本电脑到家用服务器的测试。如果路径改变，准确记录是哪一个网络发生变化。未经测试，不要把结果归因于某项具体的防火墙设置。
 
-**Review exercise:** laptop-to-home is direct, but a file transfer remains slow. A relay explanation no longer matches this observation. Check the underlying upload connection, server load, storage, and application behavior before changing relay settings.
+**练习：** 笔记本电脑到家用服务器是直连，但文件传输依然很慢。此时中继已无法解释这一现象。更改中继设置之前，检查底层上传连接、服务器负载、存储和应用行为。
 
-## Choose a Targeted Change
+## 选择有针对性的变更
 
-Start with a **comparison test** on another network you control. If the same peer becomes direct, you have useful evidence about the original network path. Review its UDP restrictions and NAT arrangement before changing unrelated DNS or application settings.
+先在你控制的另一个网络上进行**对比测试**。如果同一对等设备在该网络上改为直连，你就获得了关于原始网络路径的有用证据。在更改无关的 DNS 或应用设置之前，先检查 UDP 限制和 NAT 配置。
 
-**Change one variable**, rerun the checks, and measure the same workload. Record transfer direction, file size, elapsed time, and connection type. This separates an improved path from an unrelated change in server or storage load.
+**一次只更改一个变量**，重新运行检查，并测量同一工作负载。记录传输方向、文件大小、耗时和连接类型。这样可以区分路径改善和服务器或存储负载的独立变化。
 
-**Firewall changes** should follow the platform-specific guidance and the evidence you collected. Opening an application port to the public Internet does not itself improve Tailscale's transport path. Keep changes limited to the required traffic and network you administer. [Tailscale firewall guidance](https://tailscale.com/docs/integrations/firewalls).
+**防火墙更改**应遵循平台专属指导，并以收集到的证据为依据。仅将应用端口开放到公共互联网，并不会改善 Tailscale 的传输路径。更改范围应限于必要流量和你负责管理的网络。[Tailscale 防火墙指南](https://tailscale.com/docs/integrations/firewalls)。
 
-| Finding | Change worth evaluating |
+| 发现 | 值得评估的变更 |
 |---|---|
-| **UDP probe fails** | Review outbound UDP restrictions on this network |
-| **Mapping changes across destinations** | Review NAT behavior on equipment you control |
-| **Direct path, slow application** | Investigate the host, underlying connection, and workload |
-| **Working relay, acceptable experience** | Keep the arrangement and document the baseline |
+| **UDP 探测失败** | 检查此网络的出站 UDP 限制 |
+| **映射随目标而变化** | 检查你管理的设备上的 NAT 行为 |
+| **路径直连，但应用很慢** | 检查主机、底层连接和工作负载 |
+| **中继正常，体验可接受** | 保留当前设置并记录基准情况 |
 
-*Prefer a measured improvement over changing settings solely to remove a relay label.*
+*优先选择经过测量确认的改进，不要只为移除中继标记而更改设置。*
 
-## Evaluate a Peer Relay
+## 评估对等中继
 
-A **peer relay** requires a suitable host, reachable UDP port, and an access policy permitting its use. Both the relay and participating clients require Tailscale 1.86 or later. Review supported host platforms before allocating a device. [Peer-relay requirements](https://tailscale.com/docs/features/peer-relay).
+**对等中继**需要合适的主机、可访问的 UDP 端口，以及允许使用它的访问策略。中继和参与的客户端都需要 Tailscale 1.86 或更高版本。指定设备之前，先检查支持的主机平台。[对等中继要求](https://tailscale.com/docs/features/peer-relay)。
 
-**Placement determines usefulness.** A device behind the same inaccessible network boundary needs a reachable relay port before it helps other peers. Choosing a host geographically near the endpoints is insufficient without connectivity to it.
+**部署位置决定了实用性。** 如果设备和其他对等设备处于同一个不可访问的网络边界之后，那么在中继端口可访问之前，它无法帮助其他设备。
 
-**Maintenance tradeoff:** someone must keep the relay online, updated, and adequately provisioned. For occasional administration with acceptable latency, compare this burden with the measured benefit. For repeated large transfers, measure the workload through the proposed relay before adopting it.
+**维护成本：** 需要有人保持中继在线、更新并提供足够的资源。如果只是偶尔管理网络且延迟可接受，请将维护负担与测得的收益进行比较。若经常传输大型文件，采用候选中继之前，先通过它测量工作负载。
 
-## Check Shared Traffic Effects
+## 检查共享流量的影响
 
-**Aggregated traffic** deserves attention when a subnet router or exit node carries several workloads through DERP. Tailscale documents situations where heavy relayed traffic delays latency-sensitive traffic sharing the connection. [Hard-NAT troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
+当子网路由器或出口节点通过 DERP 承载多种工作负载时，应关注**汇总流量**。Tailscale 记录了大量中继流量拖慢同一连接上对延迟敏感流量的情况。[排查硬 NAT 问题](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues)。
 
-**Comparison exercise:** observe your interactive session before, during, and after a large backup. Keep the endpoint pair fixed and record the path each time. Delays appearing during the transfer justify investigating shared load, but do not establish its exact cause.
+**对比练习：** 在大型备份开始前、进行时和结束后观察交互式会话。固定端点设备组合，并在每个阶段记录路径。传输期间出现延迟，足以支持你调查共享负载，但不能证明确切原因。
 
-**Choose the next test** from the observation. Check link saturation and host load, then evaluate a direct path or separating latency-sensitive services if the topology supports it. Avoid treating a DNS symptom as automatic evidence of a DNS configuration error.
+根据观察结果**选择下一项测试**。检查链路饱和情况和主机负载。如果拓扑允许，再评估直连路径或隔离对延迟敏感的服务。不要把 DNS 症状自动视为 DNS 配置错误的证据。
 
-## Is a Relay an Exit Node?
+## 中继是出口节点吗？
 
-An **exit node** routes a client's general Internet traffic through a selected tailnet device. A relay carries traffic between Tailscale peers. Selecting an exit node does not guarantee a direct path to it. [Exit-node documentation](https://tailscale.com/docs/features/exit-nodes).
+**出口节点**会通过 tailnet 中选定的设备路由客户端的一般互联网流量。中继负责在 Tailscale 对等设备之间传输流量。选择出口节点并不能保证到它的路径是直连。[出口节点文档](https://tailscale.com/docs/features/exit-nodes)。
 
-## Create a Diagnostic Record
+## 创建诊断记录
 
-Save a **small before-and-after record** for the actual problem:
+针对实际问题，保存一份**简短的前后对比记录**：
 
 ```text
-Date and Tailscale versions:
-Source and destination devices:
-Networks used by each device:
-Initial and settled connection paths:
-Netcheck observations from both ends:
-Workload, direction, and elapsed time:
-Single change tested:
-Retest result:
-Decision to keep or revert:
+日期和 Tailscale 版本：
+源设备和目标设备：
+每台设备使用的网络：
+连接的初始路径和稳定后路径：
+两端的 netcheck 观察结果：
+工作负载、方向和耗时：
+测试的一项变更：
+复测结果：
+保留或撤销变更的决定：
 ```
 
-**Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+**完成标准：** 记录将具体症状与观察结果、假设和有测量依据的复测关联起来。如果应用仍然很慢，“中继消失了”并不完整。如果时间要求明确，“备份通过 DERP 在规定时间内完成”就是有效结果。
 
-**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
+**将 `tailscale netcheck` 作为证据，而不是结论。** 该命令描述的是一台设备看到的网络。稳定后的路径取决于设备组合和工作负载。更改防火墙或 NAT 设置之前，记录两端设备、最后一行 `tailscale status` 输出和应用测量结果。
 
 ## 后续步骤
 
-Record the path to your important peer and test the workload before changing network settings. For the separate question of who operates your coordination infrastructure, read [Tailscale vs Headscale](/articles/tailscale-vs-headscale-comparison-guide/).
+记录到重要对等设备的路径，并在更改网络设置之前测试工作负载。关于谁运营你的协调基础设施这一独立问题，请阅读 [Tailscale 与 Headscale 对比](/articles/tailscale-vs-headscale-comparison-guide/)。

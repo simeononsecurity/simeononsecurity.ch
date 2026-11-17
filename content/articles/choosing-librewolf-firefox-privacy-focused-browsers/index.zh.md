@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp
 coverAlt: 一幅数字景观插图，中央是象征隐私的盾牌状结构，周围环绕着代表数据保护的鲜艳图标，背景为深色。
 coverCaption: 解锁您的隐私：探索 LibreWolf 和 Firefox 浏览器
-lastmod: 2026-10-08
+lastmod: 2026-11-09
 ---
 **注重隐私的浏览器：LibreWolf 与 Firefox 的对比**
 
@@ -117,6 +117,14 @@ ______
 
 ______
 
+## 安全更新：Firefox 159（2026 年 10 月 27 日）
+
+**隐私设置不能替代安全更新。** [Mozilla 的 Firefox 159 安全公告](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)列出了高影响问题，包括 CVE-2026-117860（同源策略绕过），以及 CVE-2026-117861、CVE-2026-117864 和 CVE-2026-117868，这些问题均被描述为沙箱逃逸。Mozilla 将 **Firefox 159** 列为修复版本，[159.0 版本说明](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)将发布日期标为 10 月 27 日。公告没有说明每个问题最早影响哪个版本，也没有报告正在发生的利用。
+
+**确认你使用的分支。** 如果使用标准版 Firefox，请通过常用更新渠道安装当前版本，并在浏览器的“关于”窗口确认版本号。Firefox ESR 有单独公告：Mozilla 将 [ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/) 列为修复上述四个 CVE 的版本，并为该分支发布了单独的 [ESR 115.44 公告](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)。不要用标准版 Firefox 的版本号检查 ESR 补丁。
+
+对于 **LibreWolf 或其他基于 Firefox 的浏览器**，请将已安装的构建版本与衍生项目自己的版本说明和安全公告进行比较。Mozilla 的 Firefox 公告本身不能证明衍生版本包含某项修复。请查看已安装构建对应的 [LibreWolf 项目发布版本](https://librewolf.dev/librewolf/bsys6/releases)，不要把隐私默认设置或上游 Firefox 版本当作补丁确认。
+
 ## 开源与社区参与
 
 ### LibreWolf 对开源的重视
@@ -141,11 +149,39 @@ ______
 
 ______
 
+## 2026 年决策清单
+
+LibreWolf 和 Firefox 使用相同的 Firefox 引擎，但适合不同的维护偏好。LibreWolf 采用注重隐私的配置，并移除或更改部分 Mozilla 服务。Firefox 提供更广泛的支持渠道、熟悉的默认设置，并可直接集成 Mozilla 账户。
+
+切换前请检查以下四项：
+
+- **更新时机。** 通过浏览器官方渠道及时安装安全更新。
+- **网站兼容性。** 在单独的配置文件中测试银行、工作门户、视频通话和密码管理器扩展。
+- **账户隔离。** 不要在研究配置文件或共享设备中使用个人同步数据。
+- **恢复能力。** 切换浏览器前导出书签、记录扩展名称，并确认能够访问恢复代码。
+
+隐私还需要检查操作系统、账户、路由器和网络。隐私浏览器不会向已登录的服务、本地设备所有者或网络提供商隐藏活动。检查设置时，请参考 [Mozilla 的隐私与安全支持](https://support.mozilla.org/en-US/products/firefox/privacy-and-security)和 [LibreWolf 文档](https://librewolf.net/docs/)。
+
+## 更新、指纹识别与兼容性检查
+
+**LibreWolf 和 Firefox 解决的问题不同。** LibreWolf 使用更严格的配置，并移除部分 Firefox 服务。项目 FAQ 表示，更新通常在 Firefox 发布后三天内跟进，但 LibreWolf 的更新依赖软件包管理器或用户。Firefox 提供常规更新渠道、账户同步、更广泛的兼容性和按站点设置的保护控件。请阅读 [LibreWolf FAQ](https://librewolf.net/docs/faq/)和 [Mozilla 的跟踪保护指南](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false)。
+
+**指纹识别防护有局限。** 严格设置会减少常见跟踪信号，但不能让所有用户看起来完全相同。屏幕尺寸、语言、操作系统、扩展和不常见的覆盖设置仍会影响结果。Firefox 的 Total Cookie Protection 会隔离网站存储，但不会向你访问的网站隐藏账户身份。在本比较中，Tor Browser 是围绕共享匿名群组设计的选项。[查看 Tor Browser 关于指纹识别防护的文档](https://support.torproject.org/tor-browser/features/fingerprinting-protections/)。
+
+| 决策点 | LibreWolf | Firefox |
+|---|---|---|
+| **默认状态** | 默认隐私保护更强，但兼容性取舍更多 | 默认设置均衡，可调整保护级别 |
+| **更新** | 依赖软件包管理器或手动安装 | 由 Mozilla 管理浏览器更新 |
+| **同步** | 按设计不提供 Mozilla 账户同步 | 内置 Firefox 账户同步 |
+| **网站兼容性** | 先测试 DRM、工作门户和少见的 Web 应用 | 兼容范围广，可针对单个网站设置例外 |
+| **适用场景** | 用于隐私敏感研究的独立桌面浏览器 | 重视支持和同步功能的日常浏览器 |
+
+切换前先打开常用网站，确认已安装版本，并测试新的配置文件。不要在没有明确理由时叠加多个指纹识别防护扩展。额外修改会增加故障，也可能让浏览器更不常见。
+
 ## 结论：选择合适的隐私浏览器
 
-**LibreWolf** 和 **Firefox** 都为寻求增强隐私和安全的用户提供了有力选择。两者之间的决策取决于个人的优先事项和偏好。如果用户重视深度定制和对用户自由的强烈强调
+**LibreWolf** 和 **Firefox** 都适合希望提高浏览隐私和安全性的用户。选择取决于个人优先事项和偏好。如果用户重视深度定制和对用户自由的强烈强调
 
-______
 
 ## 参考文献
 
@@ -153,3 +189,8 @@ ______
 2. [Firefox 官方网站](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla 公共许可证 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero 通用公共许可证 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Mozilla 安全公告 2026-118：Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Firefox 159.0 版本说明](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Mozilla 安全公告 2026-120：Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Mozilla 安全公告 2026-119：Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [LibreWolf 项目发布版本](https://librewolf.dev/librewolf/bsys6/releases)

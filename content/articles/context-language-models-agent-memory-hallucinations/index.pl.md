@@ -1,12 +1,12 @@
 ---
 title: "Modele językowe kontekstu Meta: lepsza pamięć agentów, ale nie koniec halucynacji"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Jak Context Language Models edytują pamięć agenta, co pokazują benchmarki oraz jak koszty cache, możliwości modelu i niezaufane notatki wpływają na niezawodność."
 genre: ["Sztuczna inteligencja", "Agenci AI", "Lokalna AI", "Bezpieczeństwo AI"]
-tags: ["Context Language Models", "CLM", "Meta AI", "halucynacje AI", "pamięć agenta", "zarządzanie kontekstem", "kompaktowanie kontekstu", "okno kontekstu", "Suffix Cache Reuse", "cache KV", "SGLang", "llama.cpp", "cache promptów", "prompt injection", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agenci działający długo", "niezawodność AI", "weryfikacja agenta"]
+tags: ["kontekstowe modele językowe", "CLM", "Meta AI", "halucynacje AI", "pamięć agenta", "zarządzanie kontekstem", "kompaktowanie kontekstu", "okno kontekstu", "ponowne użycie pamięci podręcznej sufiksu", "pamięć podręczna KV", "SGLang", "llama.cpp", "buforowanie promptów", "prompt injection", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agenci długodziałający", "niezawodność AI", "weryfikacja agentów"]
 cover: "/img/cover/context-language-models-editable-memory.webp"
 coverAlt: "Świetlisty procesor obok uporządkowanych półprzezroczystych kart dokumentów i osobnego stosu archiwum na ciemnej powierzchni"
 coverCaption: "Koncepcyjna ilustracja edytowalnej pamięci agenta."

@@ -1,12 +1,13 @@
 ---
 title: "Aufbau einer sicheren und konformen Cloud-Umgebung: Ein Leitfaden"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Erfahren Sie in unserem umfassenden Leitfaden, wie Sie eine sichere und konforme Cloud-Umgebung für Ihr Unternehmen aufbauen."
-tags: ["Cloud Computing", "Cybersicherheit", "Datenschutz", "Compliance", "HIPAA", "PCI DSS", "GDPR", "Datensicherung", "Notfallwiederherstellung", "Verschlüsselung", "Zugangskontrollen", "Multi-Faktor-Authentifizierung", "kontinuierliche Überwachung", "Schwachstellenanalysen", "Datenschutzverletzungen", "Insider-Bedrohungen", "Fehlkonfiguration", "Datenverlust", "Cloud-Anbieter", "Sicherheitsmaßnahmen"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
-coverAlt: "Eine Cartoon-Wolke mit einem Schloss, das die sichere und konforme Cloud-Umgebung darstellt, die in diesem Artikel aufgebaut wird."
+tags: ["Cloud Computing", "Cybersicherheit", "Datenschutz", "Einhaltung von Vorschriften", "HIPAA", "PCI DSS", "GDPR", "Datensicherung", "Notfallwiederherstellung", "Verschlüsselung", "Zugriffskontrollen", "Mehr-Faktor-Authentifizierung", "kontinuierliche Überwachung", "Schwachstellenanalysen", "Datenschutzverletzungen", "Insider-Bedrohungen", "Fehlkonfiguration", "Datenverlust", "Cloud-Anbieter", "Sicherheitsmaßnahmen"]
+cover: "/img/cover/building-a-secure-and-compliant-cloud-environment.webp"
+coverAlt: "Eine digitale Illustration einer Wolke, die von leuchtenden Schutzschilden umgeben ist, welche Sicherheitsmaßnahmen symbolisieren. Auf dunklem Hintergrund verlaufen farbige Datenströme um die Wolke."
 coverCaption: ""
 ---
 
@@ -44,11 +45,11 @@ Der erste Schritt beim Aufbau einer sicheren Cloud-Umgebung ist die Auswahl eine
 
 ## Starke Zugangskontrollen implementieren
 
-Zugangskontrollen sind eine der wichtigsten Sicherheitsmaßnahmen, die Sie in Ihrer Cloud-Umgebung implementieren können. Im Folgenden finden Sie einige bewährte Verfahren für Zugangskontrollen:
+Zugangskontrollen sind eine der wichtigsten Sicherheitsmaßnahmen, die Sie in Ihrer Cloud-Umgebung implementieren können. Im Folgenden finden Sie einige [bewährte Verfahren für Zugangskontrollen](https://simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/):
 
 - **Verwenden Sie eine Multi-Faktor-Authentifizierung**: Die Multi-Faktor-Authentifizierung bietet eine zusätzliche Sicherheitsebene für Benutzeranmeldungen, da die Benutzer mehr als eine Form der Authentifizierung angeben müssen.
 
-- **Starke Passwörter erzwingen**: Die Benutzer sollten verpflichtet werden, sichere Passwörter zu verwenden, die schwer zu erraten oder zu knacken sind.
+- **Starke Passwörter erzwingen**: Die Benutzer sollten verpflichtet werden, [sichere Passwörter](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) zu verwenden, die schwer zu erraten oder zu knacken sind.
 
 - **Beschränken Sie den Zugriff auf der Grundlage von Benutzerrollen**: Benutzer sollten nur Zugang zu den Daten erhalten, die sie für ihre Arbeit benötigen.
 
@@ -72,7 +73,7 @@ Kontinuierliche Überwachung bedeutet, dass Sie Ihre Cloud-Umgebung ständig auf
 
 - **Regelmäßige Schwachstellenbewertungen durchführen**: Regelmäßige Schwachstellenbewertungen können Ihnen helfen, Sicherheitsschwachstellen in Ihrer Cloud-Umgebung zu erkennen und zu beheben.
 
-- Analysieren Sie Protokolle**: Die Analyse von Protokollen kann Ihnen helfen, verdächtige Aktivitäten in Ihrer Cloud-Umgebung zu erkennen, z. B. fehlgeschlagene Anmeldeversuche oder unberechtigte Zugriffsversuche.
+- **Analysieren Sie Protokolle**: Die Analyse von Protokollen kann Ihnen helfen, verdächtige Aktivitäten in Ihrer Cloud-Umgebung zu erkennen, z. B. fehlgeschlagene Anmeldeversuche oder unberechtigte Zugriffsversuche.
 
 ## Regelmäßige Datensicherung
 

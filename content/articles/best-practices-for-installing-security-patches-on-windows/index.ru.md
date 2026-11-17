@@ -1,136 +1,136 @@
 ---
-title: "Установка накопительных исправлений безопасности в Windows: Лучшие практики"
+title: "Установка накопительных обновлений безопасности в Windows"
 date: 2023-03-22
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Узнайте, как установить накопительные исправления безопасности в Windows и следовать лучшим практикам для защиты системы от кибер-атак."
-tags: ["Windows", "исправления безопасности", "кибербезопасность", "безопасность системы", "Microsoft", "кумулятивные исправления", "управление исправлениями", "резервное копирование данных", "Spectre Meltdown", "шифрование", "уязвимости системы", "обновления системы", "развертывание патчей", "непроизводственные среды", "конфигурация системы", "ИТ-безопасность", "система управления исправлениями", "сканирование уязвимостей", "примечания к выпуску", "обслуживание системы"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
-coverAlt: "Мультяшное изображение щита с логотипом Windows, защищенного замком"
+description: "Узнайте, как устанавливать накопительные обновления безопасности в Windows и защищать систему от кибератак с помощью проверенных рекомендаций."
+tags: ["Windows", "обновления безопасности", "кибербезопасность", "безопасность системы", "Microsoft", "накопительные обновления", "управление исправлениями", "резервное копирование данных", "Spectre Meltdown", "шифрование", "уязвимости системы", "системные обновления", "развертывание исправлений", "непроизводственные среды", "конфигурация системы", "ИТ-безопасность", "система управления исправлениями", "сканирование уязвимостей", "примечания к выпуску", "обслуживание системы"]
+cover: "/img/cover/best-practices-for-installing-security-patches-on-windows.webp"
+coverAlt: "Технический специалист разного происхождения сидит за столом перед монитором с экраном обновления Windows. Вокруг лежат электронные устройства, а темное помещение освещают синие и зеленые акценты."
 coverCaption: ""
 ---
 
-**Установка накопительных исправлений безопасности в Windows**.
+**Установка накопительных обновлений безопасности в Windows**
 
-В современном мире **кибер-атаки** представляют собой значительную угрозу безопасности компьютерных систем. Одним из способов минимизации риска таких атак является установка **заплаток безопасности**. В случае Windows компания Microsoft регулярно выпускает **кумулятивные исправления безопасности**. Эти исправления содержат все предыдущие исправления безопасности, а также новые обновления.
+Сегодня **кибератаки** представляют серьезную угрозу безопасности компьютерных систем. Один из способов снизить риск таких атак — устанавливать **исправления безопасности**. Microsoft регулярно выпускает для Windows **накопительные обновления безопасности**. Они включают все предыдущие исправления безопасности и новые обновления.
 
-## Важность установки кумулятивных исправлений безопасности
+## Зачем устанавливать накопительные обновления безопасности
 
-**Комплексные исправления безопасности** имеют решающее значение для обеспечения безопасности системы Windows. Эти исправления устраняют уязвимости и лазейки в системе безопасности, которые могут быть использованы злоумышленниками. Неустановка этих исправлений может привести к серьезным проблемам с безопасностью и утечке данных.
+**Накопительные обновления безопасности** необходимы для защиты системы Windows. Они устраняют уязвимости и бреши, которыми могут воспользоваться злоумышленники. Отказ от установки этих обновлений может привести к серьезным проблемам безопасности и утечкам данных.
 
-## Понимание кумулятивных исправлений безопасности
+## Что такое накопительные обновления безопасности
 
-Как уже упоминалось, **кумулятивные исправления безопасности** регулярно выпускаются компанией Microsoft. Эти исправления содержат все ранее выпущенные обновления и исправления безопасности, а также новые обновления безопасности. Преимущество использования **кумулятивных патчей безопасности** заключается в экономии времени и сил за счет отсутствия необходимости устанавливать каждое обновление по отдельности.
-
-______
-
-## Шаги по установке кумулятивных исправлений безопасности
-
-Установка **кумулятивного исправления безопасности** в ОС Windows включает в себя несколько простых шагов, которые описаны ниже:
-
-1. **Проверка обновлений:** Первым шагом к установке накопительного исправления безопасности в Windows является проверка наличия обновлений. Для этого можно перейти в раздел **Windows Update** в **Панели управления** или найти **Windows Update** в строке поиска Windows. После этого нажмите на кнопку **Проверка наличия обновлений**, чтобы узнать, доступны ли какие-либо обновления.
-
-2. **Если обновления доступны, загрузите и установите их. Важно отметить, что кумулятивные исправления безопасности обычно содержат все предыдущие обновления, поэтому их не нужно устанавливать по отдельности. Достаточно загрузить и установить последнее обновление, и оно будет содержать все предыдущие.
-
-3. **Перезагрузка:** После завершения установки перезагрузите компьютер, чтобы применить обновления. Важно перезагрузить компьютер, даже если это не будет предложено сделать, поскольку некоторые обновления не вступят в силу, пока вы этого не сделаете.
-
-Стоит отметить, что некоторые обновления могут потребовать дополнительных настроек или изменений параметров после установки. **Прочтение примечаний** к каждому обновлению очень важно для правильной установки и настройки. Кроме того, некоторые обновления могут иметь дополнительные требования, которые необходимо учитывать. Например, обновление Spectre/Meltdown требует установки дополнительных регистров.
-
-Выполнение этих действий поможет обеспечить актуальность последних исправлений безопасности и защиту системы Windows от киберугроз.
+Как отмечалось выше, Microsoft регулярно выпускает **накопительные обновления безопасности**. Они содержат все ранее выпущенные обновления и исправления безопасности, а также новые обновления. Преимущество **накопительного обновления безопасности** в том, что оно экономит время и усилия: не нужно устанавливать каждое обновление отдельно.
 
 ______
 
-## Лучшие методы установки кумулятивных исправлений безопасности
+## Установка накопительных обновлений безопасности
 
-При установке **кумулятивных патчей безопасности** необходимо следовать некоторым лучшим практикам для обеспечения корректности процесса. Эти лучшие практики заключаются в следующем:
+Установка **накопительного обновления безопасности** в Windows включает несколько простых шагов:
 
-### Чтение примечаний к патчам
+1. **Проверьте наличие обновлений:** Сначала выясните, доступно ли накопительное обновление безопасности. Откройте раздел **Windows Update** в **Панели управления** или найдите **Windows Update** через поиск Windows. Затем нажмите **Проверить наличие обновлений**.
 
-Перед установкой **кумулятивного исправления безопасности** очень важно внимательно прочитать **примечания к выпуску**. В этих заметках содержится важная информация о патче, например, известные проблемы, системные требования и предварительные условия. Прочитав примечания к выпуску, вы сможете убедиться в том, что патч совместим с вашей системой, и избежать проблем, которые могут возникнуть при установке.
+2. **Скачайте и установите:** Если обновления доступны, скачайте и установите их. Накопительные обновления безопасности обычно содержат все предыдущие обновления, поэтому устанавливать их по отдельности не нужно. Скачайте и установите последнюю версию исправления, включающую и предыдущие.
 
-Например, в **May 2021 Cumulative Update** для **Windows 10 версии 2004 и версии 20H2 была известная проблема**, которая приводила к сбоям системы при использовании определенных драйверов принтера. **Эта проблема была упомянута в примечаниях к выпуску**, и пользователям было рекомендовано удалить обновление, если они столкнулись с этой проблемой.
+3. **Перезагрузите компьютер:** После завершения установки перезагрузите компьютер, чтобы применить обновления. Сделайте это, даже если система не просит перезагрузку: некоторые обновления вступают в силу только после нее.
 
-Кроме того, **некоторые исправления могут потребовать дополнительных конфигураций или изменений настроек после установки**. Эта информация содержится в примечаниях к каждому обновлению, и важно внимательно следовать инструкциям, чтобы убедиться, что обновление установлено и настроено правильно.
+После установки некоторым обновлениям требуется дополнительная настройка или изменение параметров. **Прочитайте сведения об исправлении**, чтобы проверить правильность установки и настройки. У некоторых обновлений есть дополнительные требования. Например, для исправления Spectre/Meltdown требуется задать дополнительные регистры.
 
-В заключение следует отметить, что чтение примечаний к выпуску перед установкой кумулятивного исправления безопасности является важным шагом в обеспечении безопасности и стабильности системы Windows. Уделив время изучению информации, содержащейся в примечаниях к выпуску, можно избежать потенциальных проблем и обеспечить правильную установку исправления.```
+Эти шаги помогают поддерживать Windows в актуальном состоянии и защищать систему от киберугроз.
 
-### Cumulative Patches
+______
 
-When it comes to installing **cumulative patches** on Windows, it's important to understand how they work. As the name suggests, cumulative patches include all previous security updates and patches, which means that you can apply the latest patch to your system without worrying about installing all the previous patches.
+## Рекомендации по установке накопительных обновлений безопасности
 
-However, **it's still necessary to review the release notes for each patch to ensure that all previous patches are covered**. While the answer is typically yes, there may be exceptions where certain patches are not included in the cumulative patch. For example, if a patch was released after the last cumulative patch, it may not be included in the latest patch, and you'll need to install it separately.
+Чтобы правильно устанавливать **накопительные обновления безопасности**, следуйте этим рекомендациям.
 
-Furthermore, **the patch notes for the latest security patch may not provide information about any additional configurations needed from previous patches**. **For example, the Spectre/Meltdown patch requires additional registers to be set**. To ensure that your system is fully secure, **it's important to review the notes for all patches** and implement any additional configurations as needed.
+### Читайте сведения об исправлениях
 
-In conclusion, while cumulative patches generally include all previous security updates and patches, it's still important to review the release notes for each patch to ensure that your system is fully protected. By taking the time to understand how cumulative patches work and reviewing the release notes, you can ensure that your system remains secure and protected against cybersecurity threats.
+Перед установкой **накопительного обновления безопасности** внимательно прочитайте **примечания к выпуску**. В них указаны важные сведения об исправлении, в том числе известные проблемы, системные требования и предварительные условия. Эти сведения помогут проверить совместимость с вашей системой и избежать проблем при установке.
 
-### Additional Requirements
+Например, у **накопительного обновления за май 2021 года** для **Windows 10 версии 2004 и версии 20H2 была известная проблема**: система аварийно завершала работу с некоторыми драйверами принтеров. **Проблема была указана в примечаниях к выпуску**, где пользователям рекомендовали удалить исправление при ее возникновении.
 
-In addition to reviewing the release notes for a **cumulative security patch**, it's important to check if the patch has any additional requirements that need to be considered. For instance, the Spectre/Meltdown patch requires additional registers to be set, which may impact system performance if not properly configured.
+**После установки некоторых исправлений требуется дополнительная настройка или изменение параметров.** Эта информация приводится в примечаниях к выпуску каждого обновления. Точно следуйте инструкциям, чтобы правильно установить и настроить исправление.
 
-**To avoid any issues, make sure to review the release notes for the patch and follow any additional requirements as necessary**. These additional requirements may include setting up new configurations or modifying existing ones, so it's important to have a good understanding of your system and how it works.
+Итак, чтение примечаний к выпуску перед установкой накопительного обновления безопасности помогает избежать проблем и корректно установить обновление.```
 
-In conclusion, by being aware of any additional requirements for a **cumulative security patch**, you can ensure that your system remains secure and protected against cybersecurity threats. Take the time to review the release notes and understand any additional requirements to avoid any issues with the patch installation.
+### Накопительные исправления
 
-### Back Up Your Data
+Перед установкой **накопительных исправлений** в Windows важно понять, как они работают. Как следует из названия, они включают все предыдущие обновления и исправления безопасности. Поэтому можно установить последнее исправление, не устанавливая сначала каждое предыдущее.
 
-It's always a good practice to back up your data before installing any updates or patches, especially when it comes to **cumulative security patches**. These patches can have a significant impact on your system, and in case of any issues during the installation process, you may need to recover your data from a backup.
+**Все же проверяйте примечания к выпуску каждого исправления, чтобы убедиться, что предыдущие исправления включены.** Обычно это так, но бывают исключения. Исправление, выпущенное после последнего накопительного обновления, может не войти в новое обновление, и тогда его придется установить отдельно.
 
-There are many ways to back up your data, such as using external hard drives, cloud storage services like Dropbox or Google Drive, or using backup software like Acronis or EaseUS. Whatever method you choose, make sure to create a full backup of your system and data, and store the backup in a safe place.
+**В примечаниях к последнему исправлению безопасности может не быть сведений о дополнительной настройке, требуемой предыдущими исправлениями.** **Например, для исправления Spectre/Meltdown требуется задать дополнительные регистры.** Чтобы полностью защитить систему, **проверьте примечания ко всем исправлениям** и при необходимости выполните дополнительную настройку.
 
-In addition to backing up your data, it's also a good idea to create a restore point before installing the patch. A restore point is a snapshot of your system's configuration and settings, and can be used to restore your system to a previous state in case of any issues.
+Накопительные исправления обычно включают все предыдущие обновления и исправления безопасности. Тем не менее проверяйте примечания к выпуску, чтобы убедиться, что система защищена.
 
-In conclusion, by backing up your data and creating a restore point before installing a **cumulative security patch**, you can ensure that your system and data are protected in case of any issues during the installation process.
+### Дополнительные требования
 
-### Install Patches Regularly
+Кроме примечаний к выпуску **накопительного обновления безопасности**, проверьте, есть ли у исправления дополнительные требования. Например, для исправления Spectre/Meltdown требуется задать дополнительные регистры. Неправильная настройка может повлиять на производительность системы.
 
-It is crucial to keep your system secure by installing **cumulative security patches** regularly. These patches address new vulnerabilities and security issues that may arise. 
+**Чтобы избежать проблем, проверьте примечания к выпуску и выполните все дополнительные требования.** Они могут включать новую настройку или изменение существующих параметров. Перед изменениями убедитесь, что понимаете, как работает ваша система.
 
-For example, in 2021, Microsoft released several patches to address the PrintNightmare vulnerability. This vulnerability allowed attackers to take control of a victim's system remotely. Installing the patch provided by Microsoft would protect against this type of attack.
+Знание дополнительных требований **накопительного обновления безопасности** помогает защитить систему. Уделите время изучению примечаний к выпуску и этих требований.
 
-By installing patches promptly, you can ensure your system is up to date with the latest security measures. This will help protect against potential attacks and keep your system running smoothly.
+### Создайте резервную копию данных
 
-### Test on a Non-Production Environment
+Перед установкой обновлений или исправлений рекомендуется создавать резервную копию данных, особенно перед установкой **накопительных обновлений безопасности**. Они могут существенно повлиять на систему. Если при установке возникнет проблема, резервная копия позволит восстановить данные.
 
-It is essential to test **cumulative security patches** on a non-production environment before installing them on a production environment. This practice will help identify any potential issues that may arise due to the patch.
+Для резервного копирования можно использовать внешний жесткий диск, облачное хранилище, например Dropbox или Google Drive, или программу вроде Acronis или EaseUS. Независимо от выбранного способа создайте полную резервную копию системы и данных и храните ее в безопасном месте.
 
-For example, suppose you have a web application running on a production environment. Before installing a new security patch, it is recommended to test the patch on a non-production environment to ensure it does not cause any compatibility or performance issues. 
+Кроме того, перед установкой исправления рекомендуется создать точку восстановления. Она представляет собой снимок конфигурации и параметров системы и позволяет вернуться к предыдущему состоянию, если возникнет проблема.
 
-Testing on a non-production environment allows you to identify and fix any potential issues before they affect your live application. This reduces the risk of downtime or data loss due to an untested patch.
+Резервная копия данных и точка восстановления перед установкой **накопительного обновления безопасности** помогут защитить систему и данные, если установка пройдет с ошибкой.
 
-In summary, testing on a non-production environment is a best practice that helps ensure that the patch will not negatively impact the production environment.
+### Регулярно устанавливайте исправления
 
-### Use a Patch Management System
+Регулярно устанавливайте **накопительные обновления безопасности**, чтобы защищать систему. Эти исправления устраняют новые уязвимости и проблемы безопасности.
 
-A **patch management system** is an automated tool that helps manage and deploy **cumulative security patches** across multiple systems. It automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
+Например, в 2021 году Microsoft выпустила несколько исправлений для уязвимости PrintNightmare. Она позволяла злоумышленникам удаленно получить контроль над системой жертвы. Установка исправления Microsoft защищала от этого вида атаки.
 
-For example, **Microsoft's System Center Configuration Manager (SCCM)** is a popular patch management system that allows you to manage and deploy patches across your organization. SCCM provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
+Своевременная установка исправлений поддерживает систему с актуальными мерами безопасности. Это помогает предотвращать атаки и поддерживать стабильную работу системы.
 
-Using a patch management system provides several benefits, including:
+### Проверяйте исправления в непроизводственной среде
 
-- **Automated patch deployment**: The system automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
-- **Centralized management**: A patch management system provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
-- **Reporting and compliance**: The system provides reporting and compliance features that help ensure systems are up to date and in compliance with security policies.
+Перед установкой **накопительных обновлений безопасности** в рабочей среде проверьте их в непроизводственной среде. Так можно выявить возможные проблемы, вызванные исправлением.
 
-In summary, using a patch management system can simplify the patch deployment process and ensure that all systems are up to date, reducing the risk of security breaches and downtime.```
+Представьте, что в рабочей среде запущено веб-приложение. Перед установкой нового исправления безопасности проверьте его в непроизводственной среде, чтобы убедиться, что не возникнут проблемы совместимости или производительности.
+
+Проверка в непроизводственной среде позволяет обнаружить и устранить проблемы до того, как они повлияют на работающее приложение. Это снижает риск простоя или потери данных из-за непроверенного исправления.
+
+Такая проверка помогает убедиться, что исправление не окажет негативного влияния на рабочую среду.
+
+### Используйте систему управления исправлениями
+
+**Система управления исправлениями** — это автоматизированный инструмент для управления **накопительными обновлениями безопасности** и их развертывания на нескольких системах. Автоматизация развертывания сокращает время и трудозатраты на обновление систем.
+
+**Microsoft System Center Configuration Manager (SCCM)** — популярная система управления исправлениями. Она позволяет управлять исправлениями и развертывать их в организации. Централизованная консоль упрощает отслеживание и установку исправлений на нескольких системах.
+
+Система управления исправлениями предоставляет несколько преимуществ:
+
+- **Автоматическое развертывание исправлений:** автоматизирует установку и сокращает усилия, необходимые для обновления систем.
+- **Централизованное управление:** единая консоль упрощает отслеживание и установку исправлений на нескольких системах.
+- **Отчетность и соответствие требованиям:** помогает проверять актуальность систем и их соответствие политикам безопасности.
+
+Система управления исправлениями упрощает их развертывание и помогает поддерживать системы в актуальном состоянии, снижая риск нарушений безопасности и простоев.```
 
 ______
 
 ## Заключение
 
-В заключение следует отметить, что установка **кумулятивных исправлений безопасности** в операционной системе Windows очень важна для обеспечения безопасности системы. Следуя шагам и рекомендациям, описанным в этой статье, можно обеспечить правильную установку и поддерживать систему в актуальном состоянии с помощью последних патчей безопасности. Не забывайте о резервном копировании данных перед установкой обновлений и регулярно тестируйте патчи на непроизводственных средах перед их развертыванием в производственной среде. Соблюдение этих рекомендаций позволит минимизировать риск кибератак и обеспечить безопасность системы.
+Установка **накопительных обновлений безопасности** в Windows необходима для защиты системы. Следуйте приведенным в статье шагам и рекомендациям, чтобы правильно устанавливать обновления и поддерживать систему в актуальном состоянии. Всегда создавайте резервную копию данных перед установкой обновлений и регулярно проверяйте исправления в непроизводственной среде до их развертывания в рабочей среде. Это поможет снизить риск кибератак и сохранить безопасность системы.
 
-## Ссылки:
+## Источники:
 
-[1] Microsoft. (2021, 12 января). Руководство по обновлению системы безопасности. Retrieved March 22, 2023, from https://msrc.microsoft.com/update-guide/.
+[1] Microsoft. (2021, 12 января). Security Update Guide. Получено 22 марта 2023 г. по адресу https://msrc.microsoft.com/update-guide/
 
-[2] Microsoft. (2021, August 11). System Center Configuration Manager (SCCM). Retrieved March 22, 2023, from https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction.
+[2] Microsoft. (2021, 11 августа). System Center Configuration Manager (SCCM). Получено 22 марта 2023 г. по адресу https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
 
-[3] Acronis. (2022). Acronis True Image. Retrieved March 22, 2023, from https://www.acronis.com/en-us/products/true-image/
+[3] Acronis. (2022). Acronis True Image. Получено 22 марта 2023 г. по адресу https://www.acronis.com/en-us/products/true-image/
 
-[4] EaseUS. (2022). Todo Backup. Retrieved March 22, 2023, from https://www.easeus.com/backup-software/.
+[4] EaseUS. (2022). Todo Backup. Получено 22 марта 2023 г. по адресу https://www.easeus.com/backup-software/
 
-[5] Национальный институт стандартов и технологий. (2022, 10 февраля). Guide to Enterprise Patch Management Technologies. Retrieved March 22, 2023, from https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
+[5] National Institute of Standards and Technology. (2022, 10 февраля). Guide to Enterprise Patch Management Technologies. Получено 22 марта 2023 г. по адресу https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
 
-[6] Национальный центр кибербезопасности. (2021). 10 Steps to Cyber Security. Retrieved March 22, 2023, from https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security
-
+[6] National Cyber Security Centre. (2021). 10 Steps to Cyber Security. Получено 22 марта 2023 г. по адресу https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security

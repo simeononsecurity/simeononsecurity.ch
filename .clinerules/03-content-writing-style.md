@@ -330,6 +330,23 @@ an explanation.
 
 ## Article and Tutorial Structure
 
+### Reader-first article standard
+
+Apply this checklist to every new or revised article alongside the formatting rules below:
+
+1. Choose one main reader question before writing. Name the intended reader, their goal, and the useful outcome. Check nearby site coverage so the page has a distinct purpose.
+2. Write a specific `title` that states the subject and matches the answer. On this site, front matter `title` supplies the visible H1 and HTML page title. Check both in rendered output when rendering is in scope.
+3. Open with a brief introduction that names the topic, tells the reader why the page helps, and answers the main question near the start. Do not hold the answer until the conclusion.
+4. Organize H2 and H3 headings around the reader's task. Give each section a clear purpose. Use ordered steps for procedures and concrete examples for complex ideas.
+5. Cover the question fully enough for the reader to act. Add steps, evidence, examples, or context where they resolve a reader need. Cut filler. Do not write to a fixed total word count.
+6. Choose a primary search phrase that describes the question. Use it naturally in the title, introduction, and a relevant heading where it fits. Add related terms only when useful. Never repeat a phrase solely for ranking.
+7. Check factual claims, dates, figures, and advice against reliable sources. Cite sources near the claims they support. Separate observed evidence, external findings, estimates, and recommendations. Add original value through firsthand experience, supported analysis, or concrete examples. Never imply firsthand testing without it.
+8. Link relevant site articles with descriptive anchor text. Link reliable external sources where they support a claim. Verify destinations under rule 06.
+9. End with a conclusion that recaps the key takeaways in fresh words and gives the reader a useful next step.
+10. Write a unique, concise `description` that describes the finished article. Review the title, H1, and description for promises the page does not fulfill. Before publishing, reread the full page for accuracy, readability, stale details, broken links, and overlap with existing articles.
+
+For articles, select only sections that serve the reader's question. The tutorial sequence below applies to tutorials and guides. Do not add prerequisites, estimated time, or troubleshooting to an article when those sections add no value.
+
 Every tutorial or guide follows this sequence:
 
 1. **Short summary** — two to four sentences. What the article covers and why it matters.

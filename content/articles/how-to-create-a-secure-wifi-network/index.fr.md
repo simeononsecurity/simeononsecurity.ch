@@ -3,8 +3,9 @@ title: "Créer un réseau Wi-Fi sécurisé : Étapes essentielles pour une prote
 draft: false
 toc: true
 date: 2023-05-27
+lastmod: 2026-11-12
 description: "Apprenez à créer un réseau Wi-Fi sécurisé pour protéger vos données et garantir une expérience en ligne sûre."
-tags: ["réseau Wi-Fi sécurisé", "Sécurité Wi-Fi", "cryptage du réseau", "Mot de passe Wi-Fi", "mises à jour du micrologiciel du routeur", "protection par pare-feu", "remote management disable", "connexion au routeur par défaut", "Filtrage des adresses MAC", "disable WPS", "réseau d'invités", "surveiller l'activité du réseau", "sécurité en ligne", "protection des données", "confidentialité des réseaux", "cybersécurité", "réseau sans fil", "sécurité internet", "garanties du réseau", "vulnérabilité du réseau"]
+tags: ["réseau Wi-Fi sécurisé", "Sécurité Wi-Fi", "cryptage du réseau", "Mot de passe Wi-Fi", "mises à jour du micrologiciel du routeur", "protection par pare-feu", "désactiver la gestion à distance", "connexion au routeur par défaut", "Filtrage des adresses MAC", "désactiver WPS", "réseau d'invités", "surveiller l'activité du réseau", "sécurité en ligne", "protection des données", "confidentialité des réseaux", "cybersécurité", "réseau sans fil", "sécurité internet", "garanties du réseau", "vulnérabilité du réseau"]
 cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Un bouclier protégeant le signal Wi-Fi des pirates informatiques."
 coverCaption: ""
@@ -88,7 +89,44 @@ Pour garantir la sécurité permanente de votre réseau Wi-Fi, il est essentiel 
 
 ______
 
+## Choisir le bon mode de sécurité sans fil
+
+Utilisez **WPA3-Personal** avec une phrase secrète robuste lorsque tous les appareils importants le prennent en charge. Utilisez **WPA2-Personal avec AES ou CCMP** pour les appareils plus anciens. Utilisez le mode de transition WPA2/WPA3 pendant une période de compatibilité planifiée. Passez ensuite les appareils compatibles à WPA3 et remplacez ceux qui exigent des mécanismes de sécurité plus anciens.
+
+Dans une organisation, utilisez **WPA3-Enterprise** ou WPA2-Enterprise avec 802.1X et un service RADIUS. L’authentification Enterprise attribue des identifiants distincts à chaque personne ou appareil. Elle nécessite des procédures de certificats, d’identité et de récupération.
+
+Évitez WEP, le WPA d’origine, WPA2 avec TKIP et la sécurité ouverte sur un réseau privé. Activez les **Protected Management Frames** lorsque le point d’accès et les appareils les prennent en charge. Le guide de la NSA sur les réseaux domestiques recommande WPA3-Personal, une phrase secrète d’au moins vingt caractères et les trames de gestion protégées lorsqu’elles sont disponibles. Consultez les [recommandations de la NSA pour les réseaux domestiques](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF).
+
+Ne considérez pas un SSID masqué comme un contrôle d’accès. Masquer le nom ne remplace pas le chiffrement et crée des problèmes de compatibilité pour certains appareils. Le filtrage MAC n’authentifie pas non plus une personne. De nombreux appareils utilisent des adresses MAC aléatoires, et un attaquant ayant un accès local peut copier une adresse autorisée.
+
+## Itinérance, emplacement et segmentation
+
+Utilisez un SSID et une politique de sécurité identiques sur tous les points d’accès si vous souhaitez que les appareils passent de l’un à l’autre. Le client décide toujours de l’itinérance. 802.11k, 802.11v et 802.11r facilitent l’assistance et le transfert, mais les appareils anciens ou à faible consommation se déconnectent parfois lorsque Fast Transition est activé. Testez les téléphones, imprimantes, caméras et appareils vocaux avant d’activer toutes les options d’itinérance.
+
+Placez les points d’accès au-dessus des meubles et loin du métal, des aquariums, des micro-ondes et des murs épais. Commencez par une couverture qui se chevauche. Réduisez ensuite la puissance d’émission ou changez de canal si les clients restent attachés au mauvais point d’accès ou si des cellules voisines se disputent le même canal. Un raccordement Ethernet filaire fournit un chemin stable à chaque nœud. Une liaison de retour sans fil nécessite un signal fort entre les nœuds. Placez donc un satellite entre le routeur et la zone mal couverte, et non dans cette zone.
+
+Créez des réseaux **principal, invité et IoT** distincts. Bloquez l’accès des invités et des appareils IoT aux interfaces de gestion et aux appareils personnels. N’autorisez que le trafic entre appareils et services nécessaire au fonctionnement de l’IoT. Vérifiez l’isolation depuis un appareil de test au lieu de vous fier au nom du réseau.
+
+## Liste de contrôle Wi-Fi sécurisé
+
+- **Administration du routeur :** Changez le mot de passe administrateur, mettez à jour le micrologiciel, désactivez l’administration accessible depuis Internet et désactivez UPnP sauf si un appareil documenté en a besoin.
+- **Mode sans fil :** Utilisez WPA3-Personal ou WPA2-Personal avec AES lorsque la compatibilité l’exige.
+- **Identifiants :** Utilisez une phrase secrète unique d’au moins 16 caractères. Choisissez 20 caractères ou plus pour une nouvelle installation.
+- **WPS :** Désactivez WPS après la configuration. Préférez une application ou un code QR pour connecter de nouveaux appareils.
+- **Segmentation :** Isolez les appareils invités et IoT des appareils de confiance.
+- **Itinérance :** Testez Fast Transition avec tous les appareils importants avant de l’activer partout.
+- **Récupération :** Conservez une sauvegarde de la configuration et notez la procédure de réinitialisation et de restauration.
+
+Le [guide de la FTC sur le Wi-Fi domestique](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network) recommande également WPA3 ou WPA2, les mises à jour du micrologiciel, le changement des identifiants par défaut et la désactivation de la gestion à distance, de WPS et d’UPnP.
+
 ## Conclusion
 
 La création d'un réseau Wi-Fi sécurisé est essentielle pour protéger vos informations personnelles et garantir une expérience en ligne sûre. En suivant les étapes mentionnées dans cet article, telles que le choix d'un nom de réseau fort, l'activation du cryptage, la définition d'un mot de passe Wi-Fi fort et la mise à jour régulière du micrologiciel de votre routeur, vous pouvez améliorer de manière significative la sécurité de votre réseau Wi-Fi. En outre, la mise en œuvre de mesures telles que l'activation d'un pare-feu, la désactivation de la gestion à distance et l'utilisation du filtrage des adresses MAC renforce encore la sécurité de votre réseau. Restez vigilant et surveillez régulièrement votre réseau pour détecter tout signe d'accès non autorisé ou d'activité suspecte. En donnant la priorité à la sécurité du Wi-Fi
 
+
+
+## Références
+
+- [NSA : bonnes pratiques pour sécuriser votre réseau domestique](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF)
+- [FTC : sécuriser le réseau Wi-Fi de votre domicile](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network)
+- [CISA : utiliser la technologie sans fil en toute sécurité](https://www.cisa.gov/sites/default/files/publications/Wireless-Security.pdf)

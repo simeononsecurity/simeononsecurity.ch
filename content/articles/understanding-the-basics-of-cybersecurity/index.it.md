@@ -3,6 +3,7 @@ title: "Comprendere le basi della sicurezza informatica"
 draft: false
 toc: true
 date: 2023-06-11
+lastmod: 2026-11-12
 description: "Scoprite l'importanza della sicurezza informatica e imparate a proteggere la sicurezza personale, aziendale e nazionale dalle minacce informatiche in continua evoluzione."
 genre: ["Capire le basi della sicurezza informatica", "Importanza della sicurezza informatica", "Protezione delle informazioni personali", "Salvaguardia dei dati aziendali", "Problemi di sicurezza nazionale", "Terminologia chiave della sicurezza informatica", "Tipi di attacchi informatici", "Migliori pratiche di sicurezza informatica", "Il ruolo della crittografia nella sicurezza informatica", "Sicurezza informatica per le aziende"]
 tags: ["Sicurezza informatica", "Fondamenti di sicurezza informatica", "Importanza della sicurezza informatica", "Protezione delle informazioni personali", "Protezione dei dati aziendali", "Sicurezza nazionale", "Minacce informatiche", "Malware", "Phishing", "Ransomware", "Vulnerabilità", "Sfruttamenti", "Attacchi di ingegneria sociale", "Attacchi alle password", "Attacchi Man-in-the-Middle", "Attacchi DDoS", "Migliori pratiche di sicurezza informatica", "Password forti", "Aggiornamenti software", "Autenticazione a più fattori", "Terminologia della sicurezza informatica", "Tipi di attacchi informatici", "Il ruolo della crittografia nella sicurezza informatica", "Tipi di crittografia", "Protezione dei dati", "Piano di sicurezza informatica", "Formazione e sensibilizzazione dei dipendenti", "Audit di sicurezza regolari", "Minacce informatiche emergenti", "L'intelligenza artificiale nella sicurezza informatica"]
@@ -109,7 +110,7 @@ Molti servizi online, come i provider di e-mail e le piattaforme di social media
 
 #### Abitudini di navigazione sicura
 
-Prestare attenzione ai siti web visitati, ai collegamenti cliccati e alle informazioni condivise online può aiutare a prevenire [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) o **siti web falsi** per indurre gli utenti a rivelare informazioni sensibili o a scaricare malware.
+Prestare attenzione ai siti web visitati, ai link su cui si fa clic e alle informazioni condivise online può aiutare a prevenire gli [**attacchi di ingegneria sociale**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) e altri tipi di **minacce informatiche**. I criminali informatici usano spesso [**email di phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) o **siti web falsi** per indurre gli utenti a rivelare informazioni sensibili o a scaricare malware.
 
 Si raccomanda di visitare solo siti web affidabili, di evitare di cliccare su link o pop-up sospetti e di non condividere mai informazioni personali o finanziarie online a meno che non si sia certi che il sito sia legittimo.
 

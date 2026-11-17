@@ -1,7 +1,7 @@
 ---
 title: "機密区分情報（SCI）の解説"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "国家安全保障上の機密情報（SCI）の重要性、分類レベル、取り扱い、規制について探求する。"
@@ -39,7 +39,7 @@ SCI内の各コンパートメントには、それぞれ独自のアクセス�
 
 SCIの分類レベルとコンパートメントを理解することは、機密情報を扱う個人にとって極めて重要です。必要なセキュリティ対策を施し、各区画に関連する特定の取り扱い手順に従うことで、国家の安全保障を守り、不正な情報漏洩を防ぐことができます。
 
-### SCI（Sensitive Compartmented Information）の重要性
+### 機密情報（SCI）の重要性
 
 SCI（Sensitive Compartmented Information）は、漏洩すると深刻な影響を及ぼす可能性のある機密性の高い情報を保護することで、国家安全保障**を守る上で重要な役割を担っています。SCIは、厳格な管理体制とアクセス制限により、知る必要のある正規の個人のみが情報にアクセスできるようになっており、重要な情報源、方法、作戦の不正な開示や侵害のリスクを軽減することができます。
 
@@ -72,7 +72,7 @@ SCIの完全性を維持するために、**物理的および技術的なセキ
 SCIに関連する主な規制や監督機関には、以下のようなものがあります：
 
 - 国家情報長官（DNI）セキュリティ・マニュアル**：DNIセキュリティマニュアルは、SCIの管理と保護のための**方針と手順**を提供する。DNIセキュリティ・マニュアル**：DNIセキュリティ・マニュアルは、SCIの管理および保護のための**方針および手順**を提供します。SCIの取り扱いに関わる人員のための包括的なガイドとして機能し、要件を理解し必要なセキュリティ対策を遵守することを保証します。
-  - [DNI Website](https://www.dni.gov/)
+  - [DNI公式サイト](https://www.dni.gov/)
 
 - 国家産業安全保障プログラム運用マニュアル（NISPOM）**：NISPOM は、防衛産業における SCI を含む機密情報の保護を規定する一連の **基準および手順** です。国家安全保障の保護を確実にするため、機密情報を扱う請負業者やその他の組織に対する要求事項を定めている。
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ SCIを取り扱う組織や個人にとって、**国家情報長官（DNI）セ
 
 ### 参考文献
 
-- [DNI Website](https://www.dni.gov/)
+- [DNI公式サイト](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

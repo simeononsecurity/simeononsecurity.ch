@@ -1,7 +1,7 @@
 ---
 title: "أفضل متصفحات الخصوصية 2026: LibreWolf مقابل Brave مقابل Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 'مقارنة شاملة لعام 2026 لأفضل المتصفحات التي تركز على الخصوصية: LibreWolf، Brave، Firefox، Tor، والمزيد. اختبارات خصوصية مفصلة، معايير أداء، وتحليل أمني لحماية بياناتك على الإنترنت.'
@@ -174,12 +174,12 @@ coverCaption: احمِ خصوصيتك - ابقَ آمناً على الإنتر�
 
 **تعديلات أساسية في about:config:**
 ```
-// Even stricter privacy (optional):
+// خصوصية أشد (اختياري):
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // العزل الشامل لملفات تعريف الارتباط
 
-// Performance optimization:
+// تحسين الأداء:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **إعدادات الخصوصية الأساسية:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+الإعدادات > Shields:
+✓ حظر أدوات التتبع والإعلانات: صارم
+✓ ترقية الاتصالات إلى HTTPS
+✓ حظر البرامج النصية (للتصفح الحساس)
+✓ حظر البصمة الرقمية: صارم
+✓ حظر ملفات تعريف الارتباط: حظر ملفات الجهات الخارجية
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+الإعدادات > الخصوصية والأمان:
+✓ سياسة معالجة عنوان IP في WebRTC: تعطيل UDP غير المار عبر وكيل
+✓ التصفح الآمن: حماية عادية
+□ السماح بتحليلات المنتج التي تحافظ على الخصوصية (تعطيل)
+✓ إرسال إشعار الاستخدام اليومي تلقائيًا: إيقاف
+✓ الإكمال التلقائي لعمليات البحث: إيقاف
 ```
 
 **الإضافات الموصى بها:**
@@ -404,14 +404,14 @@ Settings > Privacy and security:
 
 **1. حاويات الحسابات المتعددة:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+إضافة مجانية من Mozilla
+افصل ملفات تعريف الارتباط وسجل التصفح حسب السياق:
+- الحاوية الشخصية (أخضر)
+- حاوية العمل (أزرق)
+- الحاوية المصرفية (أحمر)
+- حاوية التسوق (برتقالي)
 
-Prevents cross-contamination
+يمنع اختلاط البيانات بين السياقات
 ```
 
 **2. فايرفوكس ريلاي:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. قسم الخصوصية والأمان:**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ الحماية المعززة من التتبع: صارمة
+✓ إرسال طلب "عدم التتبع" إلى المواقع: دائمًا
+✓ وضع HTTPS فقط: تفعيل في كل النوافذ
+✓ DNS عبر HTTPS: أقصى حماية (Cloudflare)
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+ملفات تعريف الارتباط وبيانات المواقع:
+✓ حذف ملفات تعريف الارتباط عند إغلاق Firefox
+□ كل ملفات تعريف الارتباط التابعة لجهات خارجية (استخدم ETP بدلًا منها)
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+السجل:
+○ عدم حفظ السجل مطلقًا (الأكثر خصوصية)
+● استخدام إعدادات مخصصة (موصى به):
+  ✓ امسح السجل عند إغلاق Firefox
+  ✓ اقتراحات شريط العنوان: الإشارات المرجعية فقط
 ```
 
 **2. تعزيز إعدادات about:config:**
 ```
-// Resist fingerprinting
+// مقاومة البصمة الرقمية
 privacy.resistFingerprinting = true
 
-// First party isolation
+// عزل الطرف الأول
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// حماية WebRTC
 media.peerconnection.enabled = false
 
-// Referrer header control
+// التحكم في ترويسة المُحيل
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// تعطيل WebGL
+webgl.disabled = true (قد يؤدي ذلك إلى تعطيل بعض المواقع)
 
-// Letterboxing
+// إضافة هوامش موحدة للنافذة
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **شبكة البصل:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+أنت → عقدة الدخول → العقدة الوسطى → عقدة الخروج → الموقع
+     [مشفّر]  [مشفّر]  [غير مشفّر]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- تعرف عقدة الدخول هويتك، لا وجهتك
+- لا تعرف العقدة الوسطى أيًا منهما
+- تعرف عقدة الخروج الوجهة، لا هويتك
+- تُشفّر كل طبقة على حدة
 ```
 
 **ثلاث مستويات أمان:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **نصائح السلامة:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ لا تكبّر النافذة مطلقًا (لمنع البصمة الرقمية)
+✓ لا تثبّت إضافات
+✓ استخدم مواقع HTTPS فقط
+✓ لا تستخدم التورنت عبر Tor
+✓ لا تسجّل الدخول إلى حساباتك الحقيقية
+✗ تجنب استخدام Windows إن أمكن
+✓ فكّر في استخدام Tails OS لتحقيق أقصى إخفاء للهوية
+✓ استخدم الجسور في المناطق الخاضعة للرقابة
 ```
 
 ### تور مقابل VPN
@@ -708,20 +708,20 @@ You → Entry Node → Middle Node → Exit Node → Website
 ### شجرة قرار سريعة
 
 ```
-Need maximum anonymity (journalists, activists)?
+هل تحتاج إلى أقصى قدر من إخفاء الهوية (للصحفيين والناشطين)؟
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+هل تريد الخصوصية مع توافق Chrome والسرعة؟
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+هل تريد Firefox من دون قياس الاستخدام وأقصى قدر من الخصوصية؟
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+هل تريد متصفحًا شائعًا بخصوصية جيدة وإضافات؟
+    → Firefox (بعد ضبطه كما ينبغي)
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+هل تحتاج إلى متصفح يحمي الخصوصية على الهاتف؟
+    → Brave (الأفضل إجمالًا) أو Firefox Focus (الأبسط)
 ```
 
 ### توصيات حسب حالة الاستخدام
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **الخطوة 2: استيراد البيانات**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+ملف → استيراد من متصفح آخر
+اختر: Chrome
+اختر: الإشارات المرجعية وكلمات المرور والسجل
+استيراد الإضافات: أعد تثبيتها يدويًا
 ```
 
 **الخطوة 3: ضبط إعدادات الخصوصية**
@@ -922,6 +922,41 @@ Import Extensions: Manually reinstall
 - تحمي من سرقة الهوية
 - تمنع التلاعب
 - حق إنساني أساسي
+
+## فحوصات متصفحات الخصوصية لعام 2026
+
+لا يثبت اسم المتصفح وحده أنه يحمي الخصوصية. راجع الإعدادات الافتراضية وقناة التحديث وسياسة الإضافات وطريقة المزامنة قبل اعتماده للتصفح اليومي.
+
+1. نزّل المتصفح من الموقع الرسمي للمشروع أو متجر تطبيقات موثوق. تجنب النسخ المعاد تغليفها.
+2. حدّث المتصفح ونظام التشغيل باستمرار. إعدادات الخصوصية لا تعالج متصفحًا غير مُحدّث.
+3. راجع الحماية المدمجة من المتعقبات وبصمة المتصفح والتنزيلات الضارة والمواقع المخادعة.
+4. تعامل مع الإضافات كبرامج ذات صلاحيات. قلّل عددها وراجع أذوناتها وأزل ما لا تستخدمه.
+5. اختبر الإعداد باستخدام [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) و[BrowserLeaks](https://browserleaks.com/). يصف الاختبار ملفًا واحدًا، ولا يثبت إخفاء الهوية.
+6. افصل الهويات باستخدام ملفات تعريف متصفح مختلفة. لا تسجّل الدخول إلى حساباتك الشخصية في نافذة Tor Browser المخصصة لبحث حساس.
+7. استخدم Tor Browser بإعداداته القياسية. الخطوط والإضافات وتغيير حجم النافذة تقلل فاعلية البصمة المشتركة.
+
+يناسب LibreWolf من يريد إعدادات افتراضية أشد ويقبل أحيانًا إصلاح مشكلات التوافق. يناسب Brave من يريد توافق Chromium مع حجب مدمج. يناسب Firefox من يريد دعم Mozilla وإعدادات خصوصية مرنة. يناسب Tor Browser من يحتاج إلى إخفاء الهوية على مستوى الشبكة ويقبل بطئًا وتوافقًا أقل مع المواقع.
+
+يوضح [دليل Tor Browser](https://tb-manual.torproject.org/) و[دليل خصوصية Firefox من Mozilla](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) هذه الإعدادات بتفصيل أكبر.
+
+## حدود الخصوصية الحالية وقائمة التحقق
+
+تقلل وسائل حماية المتصفح من انكشاف بياناتك، لكنها لا تجعل الحساب أو الجهاز أو الاتصال مجهولًا. يمسح **التصفح الخاص** بعض السجل المحلي بعد الجلسة، لكنه لا يخفي حركة المرور عن مشغل الشبكة ولا يمنع الموقع من التعرف على المستخدم المسجّل دخوله. [يوضح مشروع Tor هذا الفرق](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**بصمة المتصفح تعتمد على مدى شيوعها بين المستخدمين.** يسعى Tor Browser إلى جمع المستخدمين في مجموعات بصمات متشابهة من خلال letterboxing والقيم الموحدة وعزل الطرف الأول. ويذكر مشروع Tor أن إخفاء الهوية التام غير ممكن. لا تضف إضافات غير مألوفة، ولا تكبّر نافذة Tor، ولا تغيّر الإعدادات الافتراضية من دون سبب محدد. [اقرأ إرشادات Tor حول البصمات](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**يتطلب LibreWolf تحديثًا منتظمًا.** يذكر قسم الأسئلة الشائعة للمشروع أن الإصدارات تتبع Firefox غالبًا خلال ثلاثة أيام، وأن المتصفح لا يحدّث نفسه تلقائيًا. استخدم مدير الحزم أو طريقة التثبيت المناسبة لمنصتك، ثم تحقق من الإصدار بعد تحديثات الأمان. [راجع أسئلة LibreWolf الشائعة](https://librewolf.net/docs/faq/).
+
+استخدم قائمة التحقق التالية قبل اختيار متصفح:
+
+- **نموذج التهديد:** حدد ما إذا كنت تحتاج إلى تقليل التتبع أو فصل الحسابات أو مقاومة الرقابة أو إخفاء الهوية.
+- **مسار التحديث:** تحقق من الجهة التي توفر التحديثات وطريقة تثبيتها.
+- **التوافق:** اختبر الخدمات المصرفية والعمل والوسائط والإضافات وإمكانية الوصول قبل نقل سير عملك بالكامل.
+- **فصل الهوية:** أبقِ تسجيل الدخول الشخصي خارج الجلسات المصممة لتقليل الربط بين الأنشطة.
+- **بصمة المتصفح:** التزم قدر الإمكان بالإعدادات الشائعة. قد تجعل الإضافات الكثيرة متصفحك أكثر تميزًا.
+- **طبقة الشبكة:** تعامل مع DNS وVPN وTor كضوابط منفصلة، فلكل منها جزء مختلف من الاتصال.
+
+درجات الأداء والخصوصية في مواضع أخرى من هذه الصفحة قياسات تاريخية أو مقارنات توضيحية ما لم تُذكر المنهجية والتاريخ وملف العتاد والنتائج الخام. لا تعتبرها ترتيبًا عامًا حديثًا. اختبر المواقع والأجهزة التي تستخدمها بعد كل تحديث رئيسي للمتصفح.
 
 ## الخلاصة: استعادة السيطرة على خصوصيتك الرقمية
 

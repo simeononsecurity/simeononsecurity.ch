@@ -1,12 +1,13 @@
 ---
 title: "Overcoming Challenges and Embracing Opportunities of DevSecOps Implementation"
 date: 2023-04-15
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "This article explores the challenges and opportunities of DevSecOps in organizations, including better collaboration, improved scalability, integration with government regulations, and more."
-tags: ["DevSecOps", "information security", "security testing", "agile methodologies", "collaboration", "government regulations", "automation", "application development", "scalability", "continuous monitoring", "NIST guidelines", "feedback loops", "modularity", "vulnerabilities", "quality assurance", "cybersecurity", "IT infrastructure", "software development tools", "risk management"]
+tags: ["DevSecOps", "seguridad de la información", "pruebas de seguridad", "metodologías ágiles", "colaboración", "normativa gubernamental", "automatización", "desarrollo de aplicaciones", "escalabilidad", "supervisión continua", "directrices del NIST", "ciclos de retroalimentación", "modularidad", "vulnerabilidades", "garantía de calidad", "ciberseguridad", "infraestructura de TI", "herramientas de desarrollo de software", "gestión de riesgos"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
-coverAlt: "A group of people standing on a summit holding hands, with puzzle pieces fitting together in the foreground."
+coverAlt: "Un grupo de personas está de pie en la cima de una montaña, tomado de la mano, con piezas de rompecabezas que encajan en primer plano."
 coverCaption: ""
 ---
 

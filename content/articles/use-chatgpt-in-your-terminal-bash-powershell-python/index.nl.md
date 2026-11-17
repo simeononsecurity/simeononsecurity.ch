@@ -1,6 +1,7 @@
 ---
 title: "ChatGPT gebruiken in uw Terminal (Bash, PowerShell, Python): Een inleiding tot de ChatGPT CLI-tool voor ontwikkelaars"
 date: 2023-02-07
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Leer hoe u het OpenAI ChatGPT-model kunt gebruiken via de handige Command Line Interface (CLI) voor het eenvoudig genereren van tekst en het beantwoorden van vragen."
@@ -21,7 +22,7 @@ pip install chatgpt requests readline
 
 ```
 
-**Windows PowerShell
+**Windows PowerShell**
 ```powershell
 
 pip install chatgpt requests pyreadline3

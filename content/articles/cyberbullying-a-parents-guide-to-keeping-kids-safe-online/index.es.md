@@ -4,10 +4,11 @@ date: 2023-05-12
 toc: true
 draft: false
 description: "Aprenda a mantener a sus hijos a salvo del ciberacoso con esta completa guía para padres."
-tags: ["ciberacoso", "seguridad en línea", "paternidad", "niños", "salud mental", "normativa gubernamental", "políticas de seguridad en internet", "control de la actividad en línea", "prevención", "acoso en línea", "ciberseguridad", "crianza digital", "social media", "ciudadanía digital", "huella digital", "acoso escolar", "ley", "tecnología", "seguridad", "educación"]
+tags: ["Ciberacoso", "Seguridad en línea", "Crianza", "Niños", "Salud mental", "Normativa gubernamental", "Políticas de seguridad en Internet", "Supervisión de la actividad en línea", "Prevención", "Acoso en línea", "Ciberseguridad", "Crianza digital", "Redes sociales", "Ciudadanía digital", "Huella digital", "Acoso escolar", "Ley", "Tecnología", "Seguridad", "Educación"]
 cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
-coverAlt: "Dibujo animado de un padre y su hijo utilizando juntos un ordenador, con un globo sonoro sobre el ordenador que muestra un mensaje positivo."
+coverAlt: "Dibujo animado de un padre y su hijo usando juntos un ordenador, con un globo de diálogo sobre la pantalla que muestra un mensaje positivo."
 coverCaption: ""
+lastmod: 2026-11-09
 ---
 
 **Ciberacoso: Guía para padres sobre la seguridad de los niños en Internet**.
@@ -44,7 +45,7 @@ Si observa alguno de estos signos, es fundamental que hable con su hijo y tome m
 
 He aquí algunas medidas que puede tomar para mantener a su hijo a salvo del ciberacoso:
 
-### 1. 1. Edúquese y eduque a su hijo
+### 1. Edúquese y eduque a su hijo
 
 Es esencial entender qué es el ciberacoso, cómo puede producirse y cómo prevenirlo. Hable con su hijo sobre los riesgos del ciberacoso y anímele a acudir a usted si lo sufre o es testigo. Establezca expectativas claras sobre su comportamiento en Internet y las consecuencias de su incumplimiento.
 

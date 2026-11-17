@@ -1,7 +1,7 @@
 ---
 title: "Najlepsze praktyki wzmacniania zabezpieczeń dla Windows 10 i 11"
 date: 2023-07-27
-lastmod: 2026-10-21
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Odkryj skuteczne strategie zwiększania bezpieczeństwa systemów Windows 10 i Windows 11 dzięki kompleksowym technikom wzmacniania zabezpieczeń i najlepszym praktykom."
@@ -22,11 +22,11 @@ ______
 
 Hartowanie systemu Windows to proces zwiększania bezpieczeństwa systemu operacyjnego Windows. Obejmuje konfigurację różnych ustawień i wdrażanie środków bezpieczeństwa w celu ochrony przed nieautoryzowanym dostępem, złośliwym oprogramowaniem i innymi zagrożeniami. Dzięki wzmocnieniu systemu Windows można zminimalizować ryzyko związane z cyberatakami i zapewnić poufność, integralność i dostępność danych.
 
-### [Hardening Windows 10](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Zabezpieczyć Windows 10](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 10 jest jednym z najczęściej używanych systemów operacyjnych na świecie. Aby wzmocnić środowisko Windows 10, należy rozważyć następujące najlepsze praktyki:
 
-#### 1. [**Enable Windows Defender**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+#### 1. [**Włączyć Windows Defender**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 
 Windows Defender to **rozbudowane rozwiązanie antywirusowe** dołączone do systemu Windows 10. Oferuje szereg funkcji bezpieczeństwa, które chronią system przed różnymi rodzajami **złośliwego oprogramowania**, w tym **wirusami, oprogramowaniem szpiegującym i ransomware**. Włączając Windows Defender, można znacznie zwiększyć bezpieczeństwo środowiska Windows 10.
 
@@ -49,7 +49,7 @@ Włączając i aktualizując program Windows Defender, można aktywnie chronić 
 
 Pamiętaj, że chociaż Windows Defender zapewnia solidny poziom ochrony, to ważne jest, aby uzupełnić go **bezpiecznymi nawykami przeglądania**, **regularnymi aktualizacjami oprogramowania** i innymi środkami bezpieczeństwa w celu utrzymania bezpiecznego środowiska Windows 10.
 
-#### 2. [**Keep Windows 10 Updated**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
+#### 2. [**Aktualizować Windows 10**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
 Regularne instalowanie aktualizacji systemu Windows jest krytycznym aspektem **utrwalania systemu Windows 10**. Aktualizacje te zawierają **poprawki bezpieczeństwa**, poprawki błędów i ulepszenia wydajności, które pomagają **załatać luki w zabezpieczeniach** i poprawić stabilność systemu.
 
 Microsoft wydaje **regularne aktualizacje** dla systemu Windows 10, aby rozwiązać nowo wykryte błędy bezpieczeństwa i poprawić ogólne wrażenia użytkownika. Aktualizując system, zapewniasz, że system operacyjny ma najnowsze **ulepszenia bezpieczeństwa**, aby chronić się przed pojawiającymi się zagrożeniami.
@@ -71,7 +71,7 @@ Należy podkreślić znaczenie **regularnego restartowania systemu** po zainstal
 
 **Dbając o aktualizację systemu Windows 10**, nie tylko zwiększasz jego bezpieczeństwo, ale także korzystasz z najnowszych funkcji, ulepszeń wydajności i poprawek zgodności. Jest to proaktywny środek zapewniający odporność systemu na potencjalne zagrożenia bezpieczeństwa.
 
-#### 3. [**Configure User Account Control (UAC)**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
+#### 3. [**Skonfigurować User Account Control (UAC)**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
 Kontrola konta użytkownika (UAC) to funkcja zabezpieczeń w systemie Windows 10, która pomaga zapobiegać nieautoryzowanym zmianom w systemie, wyświetlając w razie potrzeby monit o zatwierdzenie przez administratora. Działa jako zabezpieczenie przed złośliwym oprogramowaniem lub nieautoryzowanymi użytkownikami próbującymi wprowadzić zmiany, które mogą mieć wpływ na bezpieczeństwo lub stabilność systemu.
 
 Konfiguracja ustawień UAC na odpowiednim poziomie ma kluczowe znaczenie dla **utwardzenia systemu Windows 10**. Obejmuje ona znalezienie równowagi między bezpieczeństwem a użytecznością, aby zapewnić, że UAC skutecznie chroni system bez powodowania niepotrzebnych zakłóceń.
@@ -85,10 +85,10 @@ Aby skonfigurować ustawienia UAC w systemie Windows 10, można wykonać następ
 3. Kliknij na **"Zmień ustawienia kontroli konta użytkownika "**.
 
 4. Zobaczysz suwak z różnymi poziomami ustawień UAC. Oto dostępne opcje:
-   - **"Zawsze powiadamiaj "**: Jest to najwyższy poziom zabezpieczeń UAC, w którym użytkownik jest proszony o zgodę na wszelkie zmiany w systemie, nawet w przypadku prostych zadań.
-   - **"Powiadamiaj mnie tylko wtedy, gdy aplikacje próbują wprowadzić zmiany na moim komputerze (domyślnie)": Jest to zalecane ustawienie, które zapewnia równowagę między bezpieczeństwem a użytecznością. Użytkownik jest pytany o zgodę, gdy aplikacje wprowadzają zmiany, ale nie w przypadku zmian ustawień systemu Windows.
-   - "Powiadamiaj mnie tylko wtedy, gdy aplikacje próbują wprowadzić zmiany na moim komputerze (nie przyciemniaj pulpitu) "**: Podobna do poprzedniej opcji, ale pulpit nie jest przyciemniany, gdy pojawiają się monity UAC.
-   - **"Nigdy nie powiadamiaj "**: Jest to najniższy poziom zabezpieczeń UAC, w którym nie są wyświetlane żadne monity o zmiany w systemie.
+   - **"Zawsze powiadamiaj"**: To najwyższy poziom zabezpieczeń UAC. Monit o zgodę pojawi się przed każdą zmianą systemu, nawet przy prostych zadaniach.
+   - **"Powiadamiaj mnie tylko wtedy, gdy aplikacje próbują wprowadzić zmiany na moim komputerze (domyślnie)"**: To zalecane ustawienie zapewnia równowagę między bezpieczeństwem a wygodą. Monit o zgodę pojawi się, gdy aplikacje będą wprowadzać zmiany, ale nie przy zmianach ustawień systemu Windows.
+   - **"Powiadamiaj mnie tylko wtedy, gdy aplikacje próbują wprowadzić zmiany na moim komputerze (nie przyciemniaj pulpitu)"**: Podobnie jak poprzednia opcja, ten poziom nie przyciemnia pulpitu podczas wyświetlania monitów UAC.
+   - **"Nigdy nie powiadamiaj"**: To najniższy poziom zabezpieczeń UAC. System nie wyświetla monitów o zgodę na zmiany.
 
 5. Wybierz poziom zabezpieczeń UAC, który odpowiada Twoim potrzebom, przesuwając suwak do żądanej pozycji.
 
@@ -98,7 +98,9 @@ Zaleca się, aby UAC był włączony i ustawiony na poziomie, który zapewnia od
 
 Konfigurując ustawienia UAC, zwiększasz bezpieczeństwo swojego systemu Windows 10, zapewniając, że uprawnienia administracyjne są wymagane do krytycznych zmian w systemie, zmniejszając ryzyko nieautoryzowanego dostępu i infekcji złośliwym oprogramowaniem.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+{{< figure src="windows-10-uac-bitlocker-security-overview.webp" alt="Diagram poziomów Kontroli konta użytkownika w Windows 10 oraz szyfrowania BitLocker chroniących integralność systemu i poufne dane" >}}
+
+#### 4. [**Używać silnych haseł**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 Używanie silnych haseł jest niezbędne do utrzymania bezpieczeństwa systemu Windows 10 i ochrony przed nieautoryzowanym dostępem. Słabe lub łatwe do odgadnięcia hasła mogą sprawić, że system będzie podatny na ataki, takie jak ataki siłowe lub łamanie haseł.
 
 Aby upewnić się, że wszystkie konta użytkowników w systemie Windows 10 mają silne hasła, postępuj zgodnie z tymi najlepszymi praktykami dotyczącymi haseł:
@@ -117,11 +119,11 @@ Aby upewnić się, że wszystkie konta użytkowników w systemie Windows 10 maj�
 
 Wdrażając silne praktyki dotyczące haseł, znacznie zwiększasz bezpieczeństwo swojego systemu Windows 10 i zmniejszasz ryzyko nieautoryzowanego dostępu lub naruszenia danych. Regularnie edukuj użytkowników w zakresie bezpieczeństwa haseł i udostępniaj zasoby, takie jak mierniki siły hasła lub wytyczne dotyczące tworzenia haseł, aby pomóc im w tworzeniu silnych haseł.
 
-Więcej szczegółowych informacji na temat tworzenia silnych haseł i najlepszych praktyk można znaleźć tutaj [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Zapewnia kompleksowe wskazówki dotyczące bezpieczeństwa haseł i oferuje porady dotyczące tworzenia silnych i łatwych do zapamiętania haseł.
+Więcej szczegółowych informacji na temat tworzenia silnych haseł i najlepszych praktyk można znaleźć tutaj [artykuł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Zapewnia kompleksowe wskazówki dotyczące bezpieczeństwa haseł i oferuje porady dotyczące tworzenia silnych i łatwych do zapamiętania haseł.
 
 Należy pamiętać, że używanie silnych haseł jest podstawowym aspektem bezpieczeństwa systemu i powinno być traktowane priorytetowo w celu ochrony poufnych danych i zapewnienia integralności środowiska Windows 10.
 
-#### 5. [**Enable BitLocker Encryption**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
+#### 5. [**Włączyć szyfrowanie BitLocker**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
 Jednym z najskuteczniejszych sposobów ochrony poufnych danych w systemie Windows 10 jest włączenie szyfrowania BitLocker. BitLocker zapewnia szyfrowanie całego dysku, dzięki czemu nawet w przypadku zgubienia lub kradzieży urządzenia dane pozostają bezpieczne i niedostępne dla nieupoważnionych osób.
 
 Aby włączyć szyfrowanie BitLocker i zabezpieczyć poufne informacje, wykonaj następujące kroki:
@@ -138,7 +140,7 @@ Aby włączyć szyfrowanie BitLocker i zabezpieczyć poufne informacje, wykonaj 
 
 Włączenie szyfrowania BitLocker dodaje dodatkową warstwę ochrony do systemu Windows 10, zapewniając, że nawet jeśli urządzenie wpadnie w niepowołane ręce, dane pozostaną bezpieczne i niedostępne. Ważne jest, aby regularnie aktualizować i utrzymywać ustawienia BitLocker, aby być na bieżąco z najlepszymi praktykami bezpieczeństwa.
 
-Więcej szczegółowych informacji na temat włączania i zarządzania szyfrowaniem BitLocker można znaleźć w oficjalnej sekcji [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Zapewnia kompleksowe wskazówki dotyczące szyfrowania BitLocker, w tym zaawansowane funkcje i opcje konfiguracji.
+Więcej szczegółowych informacji na temat włączania i zarządzania szyfrowaniem BitLocker można znaleźć w oficjalnej sekcji [Dokumentacja Microsoftu](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Zapewnia kompleksowe wskazówki dotyczące szyfrowania BitLocker, w tym zaawansowane funkcje i opcje konfiguracji.
 
 Pamiętaj, że włączenie szyfrowania BitLocker pomaga chronić poufne dane i zapewnia spokój ducha, wiedząc, że informacje są bezpieczne nawet w przypadku utraty lub kradzieży.
 
@@ -157,7 +159,9 @@ Oto kroki, aby wyłączyć niepotrzebne usługi i funkcje w systemie Windows 10:
 
 Wyłączając niepotrzebne usługi i funkcje, ograniczasz potencjalne punkty wejścia dla atakujących i zmniejszasz ogólną powierzchnię ataku systemu Windows 10. Ta praktyka poprawia stan bezpieczeństwa systemu i zmniejsza ryzyko wykorzystania.
 
-Więcej informacji na temat zarządzania usługami i funkcjami w systemie Windows 10 można znaleźć w następujących dokumentach [article](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) w celu uzyskania szczegółowych wskazówek.
+{{< figure src="windows-10-firewall-applocker-attack-surface-reduction.webp" alt="Diagram reguł zapory Windows 10, zasad kontroli aplikacji AppLocker i ograniczania powierzchni ataku, które wspólnie blokują nieautoryzowany dostęp" >}}
+
+Więcej informacji na temat zarządzania usługami i funkcjami w systemie Windows 10 można znaleźć w następujących dokumentach [artykuł](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) w celu uzyskania szczegółowych wskazówek.
 
 Należy pamiętać, że podczas wyłączania usług i funkcji należy zachować ostrożność, ponieważ wyłączenie istotnych komponentów może negatywnie wpłynąć na funkcjonalność systemu. Przed wprowadzeniem jakichkolwiek zmian należy zawsze sprawdzić i zrozumieć cel usługi lub funkcji.
 
@@ -176,12 +180,12 @@ Wykonaj poniższe kroki, aby zaimplementować reguły zapory sieciowej w systemi
 
 Wdrażając i utrzymując reguły zapory sieciowej, można znacznie zmniejszyć ryzyko nieautoryzowanego dostępu do sieci i zwiększyć bezpieczeństwo systemu Windows 10. Dodatkowo, warto rozważyć włączenie opcji **Stealth Mode** w ustawieniach zapory sieciowej, aby system był mniej widoczny dla potencjalnych napastników.
 
-Więcej szczegółowych informacji na temat konfigurowania reguł zapory sieciowej w systemie Windows 10 można znaleźć w oficjalnym dokumencie [Microsoft documentation](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) aby uzyskać instrukcje krok po kroku.
+Więcej szczegółowych informacji na temat konfigurowania reguł zapory sieciowej w systemie Windows 10 można znaleźć w oficjalnym dokumencie [Dokumentacja Microsoftu](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) aby uzyskać instrukcje krok po kroku.
 
 Należy pamiętać, że dobrze skonfigurowana zapora sieciowa jest niezbędnym elementem kompleksowej strategii bezpieczeństwa, ale powinna być używana w połączeniu z innymi środkami bezpieczeństwa, aby zapewnić solidną ochronę systemu.
 
-#### 8. [**Use AppLocker**](https://github.com/simeononsecurity/AppLocker)
-AppLocker to potężna funkcja systemu Windows 10, która pozwala kontrolować, które aplikacje mogą być uruchamiane w systemie. Wdrażając zasady AppLocker, można ograniczyć wykonywanie nieautoryzowanych lub potencjalnie złośliwych aplikacji, zwiększając bezpieczeństwo środowiska Windows 10.
+#### 8. [**Używać AppLocker**](https://github.com/simeononsecurity/AppLocker)
+[AppLocker](https://simeononsecurity.com/github/applocker-hardening/) to potężna funkcja systemu Windows 10, która pozwala kontrolować, które aplikacje mogą być uruchamiane w systemie. Wdrażając zasady AppLocker, można ograniczyć wykonywanie nieautoryzowanych lub potencjalnie złośliwych aplikacji, zwiększając bezpieczeństwo środowiska Windows 10.
 
 Wykonaj poniższe kroki, aby korzystać z AppLocker w systemie Windows 10:
 
@@ -197,11 +201,11 @@ Wykonaj poniższe kroki, aby korzystać z AppLocker w systemie Windows 10:
 
 AppLocker zapewnia szczegółową kontrolę nad wykonywaniem aplikacji, pomagając zapobiegać uruchamianiu nieautoryzowanego lub złośliwego oprogramowania w systemie Windows 10. Korzystając z AppLocker, można zmniejszyć ryzyko infekcji złośliwym oprogramowaniem, nieautoryzowanych instalacji oprogramowania i innych incydentów związanych z bezpieczeństwem.
 
-Więcej szczegółowych informacji na temat wdrażania zasad AppLocker można znaleźć w oficjalnym dokumencie [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [AppLocker GitHub repository](https://github.com/simeononsecurity/AppLocker) aby uzyskać dodatkowe zasoby i przykłady.
+Więcej szczegółowych informacji na temat wdrażania zasad AppLocker można znaleźć w oficjalnym dokumencie [Dokumentacja Microsoftu](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [Repozytorium AppLocker w GitHub](https://github.com/simeononsecurity/AppLocker) aby uzyskać dodatkowe zasoby i przykłady.
 
 Pamiętaj, aby regularnie przeglądać i aktualizować zasady AppLocker, aby dostosować je do zmieniających się wymagań aplikacji i pojawiających się zagrożeń bezpieczeństwa. AppLocker jest cennym narzędziem do obrony przed nieautoryzowanymi i potencjalnie szkodliwymi aplikacjami w systemie Windows 10.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Regularnie tworzyć kopie zapasowe danych**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Regularne tworzenie kopii zapasowych danych jest niezbędną praktyką w celu ochrony przed utratą danych spowodowaną incydentami bezpieczeństwa, awariami sprzętu lub innymi nieoczekiwanymi zdarzeniami. Tworząc regularne kopie zapasowe i weryfikując ich integralność, można zagwarantować, że ważne dane pozostaną bezpieczne i będzie można je przywrócić w przypadku katastrofy.
 
 Wykonaj poniższe kroki, aby regularnie tworzyć kopie zapasowe danych w systemie Windows 10:
@@ -222,14 +226,13 @@ Wykonaj poniższe kroki, aby regularnie tworzyć kopie zapasowe danych w systemi
 
 Postępując zgodnie z tymi krokami i przestrzegając regularnej procedury tworzenia kopii zapasowych, można zminimalizować wpływ utraty danych i utrzymać dostępność ważnych informacji. Pamiętaj o bezpiecznym przechowywaniu kopii zapasowych, z dala od oryginalnych danych i rozważ wdrożenie zasady **3-2-1 kopii zapasowych**, mając co najmniej trzy kopie danych, przechowywane na dwóch różnych nośnikach pamięci, z jedną kopią przechowywaną poza siedzibą firmy.
 
-Więcej szczegółowych informacji na temat najlepszych praktyk tworzenia kopii zapasowych i **zasady 3-2-1** można znaleźć w artykule na stronie [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Zawiera cenne spostrzeżenia i zalecenia dotyczące wdrażania skutecznej strategii tworzenia kopii zapasowych.
+Więcej szczegółowych informacji na temat najlepszych praktyk tworzenia kopii zapasowych i **zasady 3-2-1** można znaleźć w artykule na stronie [Czym jest zasada kopii zapasowych 3-2-1 i dlaczego warto ją stosować?](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Zawiera cenne spostrzeżenia i zalecenia dotyczące wdrażania skutecznej strategii tworzenia kopii zapasowych.
 
 Należy pamiętać, że regularne tworzenie kopii zapasowych ma kluczowe znaczenie dla ochrony danych i zapewnienia ich dostępności w przypadku nieprzewidzianych zdarzeń. Uczyń tworzenie kopii zapasowych danych integralną częścią wysiłków związanych z utwardzaniem systemu Windows 10, aby chronić swoje cenne informacje.
 
 ______
 
-
-### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Zabezpieczyć Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 11 to najnowsza wersja systemu operacyjnego Windows, oferująca ulepszone funkcje i poprawione zabezpieczenia. Aby wzmocnić środowisko Windows 11, należy rozważyć następujące najlepsze praktyki:
 
@@ -256,7 +259,7 @@ Należy pamiętać, że dostępność i konkretne kroki w celu włączenia funkc
 
 Włączając Secure Boot i TPM na urządzeniu z systemem Windows 11, zwiększasz ogólny poziom bezpieczeństwa i wzmacniasz ochronę systemu operacyjnego i poufnych danych.
 
-#### 2. [**Enable Microsoft Defender Antivirus**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+#### 2. [**Włączyć Microsoft Defender Antivirus**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Windows 11 posiada wbudowaną ochronę antywirusową o nazwie **Microsoft Defender Antivirus**. Oferuje on kompleksową ochronę przed różnymi rodzajami **złośliwego oprogramowania**, w tym wirusami, ransomware i spyware. Poprzez **włączenie** i **regularne aktualizowanie** programu Microsoft Defender Antivirus, możesz zapewnić **wykrywanie i zapobieganie zagrożeniom** w czasie rzeczywistym w swoim systemie Windows 11.
 
 Wykonaj następujące kroki, aby włączyć i zaktualizować program Microsoft Defender Antivirus na urządzeniu z systemem Windows 11:
@@ -269,11 +272,13 @@ Wykonaj następujące kroki, aby włączyć i zaktualizować program Microsoft D
 
 4. **Planowanie skanowania**: Microsoft Defender Antivirus pozwala zaplanować regularne **skanowanie systemu** w celu proaktywnego wykrywania i usuwania wszelkich potencjalnych zagrożeń. W aplikacji Zabezpieczenia systemu Windows przejdź do sekcji **"Ochrona przed wirusami i zagrożeniami "** i kliknij opcję **"Szybkie skanowanie "** lub **"Pełne skanowanie "**, aby zainicjować skanowanie. Możesz również kliknąć łącze **"Opcje skanowania "**, aby dostosować ustawienia skanowania i zaplanować regularne skanowanie zgodnie z własnymi preferencjami.
 
-5. **Skonfiguruj dodatkowe ustawienia**: Microsoft Defender Antivirus zapewnia dodatkowe ustawienia i funkcje, które można skonfigurować w oparciu o wymagania bezpieczeństwa. W aplikacji Zabezpieczenia systemu Windows należy zapoznać się z różnymi sekcjami, takimi jak **"Kontrola aplikacji i przeglądarki", **"Zabezpieczenia urządzenia "** i **"Zapora sieciowa i ochrona sieci "**, aby dostosować ustawienia antywirusa i wykorzystać zaawansowane funkcje ochrony.
+5. **Skonfiguruj dodatkowe ustawienia**: Microsoft Defender Antivirus zapewnia dodatkowe ustawienia i funkcje, które można skonfigurować w oparciu o wymagania bezpieczeństwa. W aplikacji Zabezpieczenia systemu Windows należy zapoznać się z różnymi sekcjami, takimi jak **"Kontrola aplikacji i przeglądarki",** "Zabezpieczenia urządzenia " **i** "Zapora sieciowa i ochrona sieci ", aby dostosować ustawienia antywirusa i wykorzystać zaawansowane funkcje ochrony.
 
 Włączenie i regularne aktualizowanie programu antywirusowego Microsoft Defender w systemie Windows 11 jest niezbędne do utrzymania silnej ochrony przed złośliwym oprogramowaniem i innymi zagrożeniami bezpieczeństwa. Postępując zgodnie z tymi krokami i aktualizując program Microsoft Defender Antivirus, można upewnić się, że system Windows 11 jest dobrze chroniony.
 
 Należy pamiętać, że chociaż Microsoft Defender Antivirus zapewnia solidną ochronę, zawsze zaleca się **bezpieczne nawyki przeglądania**, zachowanie ostrożności podczas **pobierania plików** lub **otwierania załączników do wiadomości e-mail** oraz aktualizowanie **systemu operacyjnego i aplikacji** w celu dalszego zwiększenia ogólnego poziomu bezpieczeństwa.
+
+{{< figure src="windows-11-secure-boot-tpm-defender-security-stack.webp" alt="Diagram stosu zabezpieczeń Windows 11 obejmującego Secure Boot, sprzętową ochronę TPM, Microsoft Defender Antivirus i zabezpieczenia oparte na wirtualizacji" >}}
 
 #### 3. **Zastosuj domyślną izolację sprzętową**
 Windows 11 wykorzystuje funkcje izolacji sprzętowej, takie jak **Virtualization-based Security (VBS)** i **Hypervisor-protected Code Integrity (HVCI)**, aby zapewnić zwiększone bezpieczeństwo i chronić krytyczne komponenty systemu.
@@ -309,14 +314,14 @@ Upewnij się, że regularnie aktualizujesz swój system za pomocą najnowszych p
 
 Należy pamiętać, że dostępność i wymagania funkcji izolacji sprzętowej mogą się różnić w zależności od konfiguracji systemu i wersji systemu Windows 11. Zaleca się zapoznanie się z oficjalną dokumentacją **Microsoft** i przeprowadzenie kontroli zgodności, aby zapewnić prawidłowe wdrożenie tych funkcji bezpieczeństwa.
 
-#### 4. [**Use Windows Sandbox**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+#### 4. [**Używać Windows Sandbox**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
 **Windows Sandbox** to cenne narzędzie, które pozwala na uruchamianie niezaufanych aplikacji lub testowanie oprogramowania w odizolowanym środowisku, zapewniając dodatkową warstwę bezpieczeństwa dla systemu. Korzystając z Windows Sandbox, można ograniczyć potencjalne ryzyko związane z uruchamianiem niezaufanych programów.
 
 Windows Sandbox tworzy lekkie, tymczasowe środowisko pulpitu, które jest całkowicie oddzielone od głównego systemu operacyjnego. Wszelkie zmiany wprowadzone w piaskownicy są odrzucane po jej zamknięciu, zapewniając, że główny system pozostanie nienaruszony.
 
 Aby korzystać z Windows Sandbox, wykonaj następujące kroki:
 
-1. **Sprawdź wymagania systemowe**: Przed kontynuowaniem upewnij się, że twój system spełnia wymagania do uruchomienia Windows Sandbox. Ogólnie rzecz biorąc, potrzebny jest system Windows 10 Pro lub Enterprise oraz procesor z włączonymi funkcjami wirtualizacji w oprogramowaniu układowym BIOS/UEFI. Zapoznaj się z oficjalną [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) dla określonych wymagań systemowych.
+1. **Sprawdź wymagania systemowe**: Przed kontynuowaniem upewnij się, że twój system spełnia wymagania do uruchomienia Windows Sandbox. Ogólnie rzecz biorąc, potrzebny jest system Windows 10 Pro lub Enterprise oraz procesor z włączonymi funkcjami wirtualizacji w oprogramowaniu układowym BIOS/UEFI. Zapoznaj się z oficjalną [**Dokumentacja Microsoftu**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) dla określonych wymagań systemowych.
 
 2. **Włącz Windows Sandbox**: Windows Sandbox jest wbudowaną funkcją w Windows 10 Pro i Enterprise. Aby włączyć Windows Sandbox, wykonaj następujące kroki:
 
@@ -339,14 +344,16 @@ Windows Sandbox to skuteczne narzędzie do testowania nieznanego oprogramowania,
 
 Włączając Windows Sandbox do swoich praktyk bezpieczeństwa, możesz znacznie zmniejszyć ryzyko związane z uruchamianiem niezaufanych aplikacji, chroniąc swój system przed potencjalnymi zagrożeniami.
 
-Więcej informacji na temat Windows Sandbox i jego wykorzystania można znaleźć w oficjalnej witrynie [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+{{< figure src="windows-sandbox-application-guard-isolation-architecture.webp" alt="Diagram Windows Sandbox i Microsoft Defender Application Guard tworzących odizolowane kontenery wirtualne chroniące system hosta przed niezaufanymi aplikacjami i sesjami przeglądarki" >}}
 
-#### 5. [**Implement Microsoft Defender Application Guard**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
+Więcej informacji na temat Windows Sandbox i jego wykorzystania można znaleźć w oficjalnej witrynie [**Dokumentacja Microsoftu**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+
+#### 5. [**Wdrożyć Microsoft Defender Application Guard**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
 Microsoft Defender Application Guard to potężna funkcja bezpieczeństwa, która izoluje sesje przeglądarki Microsoft Edge od bazowego systemu operacyjnego. Uruchamiając Edge w bezpiecznym, odizolowanym środowisku, Application Guard pomaga chronić system przed atakami opartymi na przeglądarce i złośliwymi stronami internetowymi.
 
 Aby wdrożyć Microsoft Defender Application Guard i zwiększyć bezpieczeństwo przeglądarki, wykonaj następujące kroki:
 
-1. **Sprawdź zgodność**: Przed kontynuowaniem upewnij się, że Twój system spełnia wymagania dotyczące uruchomienia Microsoft Defender Application Guard. Zazwyczaj potrzebny jest system Windows 10 w wersji Pro lub Enterprise, kompatybilny procesor z możliwością wirtualizacji i co najmniej 8 GB pamięci RAM. Zapoznaj się z oficjalną [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) dla określonych wymagań systemowych.
+1. **Sprawdź zgodność**: Przed kontynuowaniem upewnij się, że Twój system spełnia wymagania dotyczące uruchomienia Microsoft Defender Application Guard. Zazwyczaj potrzebny jest system Windows 10 w wersji Pro lub Enterprise, kompatybilny procesor z możliwością wirtualizacji i co najmniej 8 GB pamięci RAM. Zapoznaj się z oficjalną [**Dokumentacja Microsoftu**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) dla określonych wymagań systemowych.
 
 2. **Włącz Ochronę aplikacji**: Ochrona aplikacji jest dostępna jako opcjonalna funkcja w systemie Windows 10. Aby włączyć Ochronę aplikacji Microsoft Defender, wykonaj następujące kroki:
 
@@ -363,7 +370,7 @@ Aby wdrożyć Microsoft Defender Application Guard i zwiększyć bezpieczeństwo
 
 Wdrażając Microsoft Defender Application Guard, dodajesz dodatkową warstwę ochrony do swojego systemu, izolując sesje przeglądarki i powstrzymując wszelkie potencjalne zagrożenia w bezpiecznym środowisku. Pomaga to chronić system i dane przed atakami opartymi na przeglądarce, takimi jak pobieranie drive-by download, złośliwe skrypty i exploity zero-day.
 
-Aby uzyskać bardziej szczegółowe informacje na temat konfigurowania i korzystania z Microsoft Defender Application Guard, zapoznaj się z oficjalną stroną [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
+Aby uzyskać bardziej szczegółowe informacje na temat konfigurowania i korzystania z Microsoft Defender Application Guard, zapoznaj się z oficjalną stroną [**Dokumentacja Microsoftu**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
 
 #### 6. [**Controlled Folder Access**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Kontrolowany dostęp do folderów to potężna funkcja zabezpieczeń dostępna w systemie Windows 11, która pomaga chronić ważne foldery przed nieautoryzowanymi zmianami przez oprogramowanie ransomware i inne złośliwe oprogramowanie. Włączając Kontrolowany dostęp do folderów i dodając niezbędne foldery do listy chronionych, można zwiększyć bezpieczeństwo systemu i zapobiec potencjalnej utracie danych.
@@ -388,8 +395,7 @@ Aby wdrożyć Kontrolowany dostęp do folderów i chronić ważne foldery, wykon
 
 Wdrażając Kontrolowany dostęp do folderów, dodajesz dodatkową warstwę ochrony do swoich ważnych folderów, zmniejszając ryzyko nieautoryzowanych zmian i potencjalnej utraty danych spowodowanej atakami ransomware. Regularnie sprawdzaj ustawienia kontrolowanego dostępu do folderów, aby upewnić się, że chronione foldery są zgodne z wymaganiami bezpieczeństwa.
 
-Aby uzyskać bardziej szczegółowe informacje na temat konfigurowania i korzystania z kontrolowanego dostępu do folderów, zapoznaj się z oficjalną stroną [**Microsoft documentation**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
-
+Aby uzyskać bardziej szczegółowe informacje na temat konfigurowania i korzystania z kontrolowanego dostępu do folderów, zapoznaj się z oficjalną stroną [**Dokumentacja Microsoftu**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
 
 #### 7. **Włącz automatyczną konserwację systemu Windows**
 Windows 11 zawiera wygodną funkcję o nazwie Automatyczna konserwacja, która pomaga zoptymalizować i chronić system poprzez wykonywanie regularnych zadań konserwacyjnych. Włączenie automatycznej konserwacji zapewnia płynne działanie systemu i jego bezpieczeństwo.
@@ -412,19 +418,71 @@ Aby włączyć Automatyczną konserwację systemu Windows, wykonaj następujące
 
 Włączenie automatycznej konserwacji systemu Windows zapewnia optymalizację i ochronę systemu poprzez regularne wykonywanie niezbędnych zadań konserwacyjnych, takich jak aktualizacje oprogramowania, optymalizacja dysku i skanowanie zabezpieczeń. Utrzymując system w dobrej kondycji, możesz cieszyć się płynniejszym i bezpieczniejszym korzystaniem z komputera.
 
-Więcej szczegółowych informacji na temat Automatycznej Konserwacji Windows i jej opcji konfiguracyjnych można znaleźć w oficjalnym dokumencie [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
+Więcej szczegółowych informacji na temat Automatycznej Konserwacji Windows i jej opcji konfiguracyjnych można znaleźć w oficjalnym dokumencie [**Dokumentacja Microsoftu**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
 
 ______
 
-## Wnioski
+## Zalecana kolejność wzmacniania zabezpieczeń
 
-Wdrożenie tych **najlepszych praktyk hartowania systemu Windows** jest niezbędne do zapewnienia bezpieczeństwa systemów Windows. Regularne **aktualizowanie systemu operacyjnego** pozwala załatać luki w zabezpieczeniach i poprawić stabilność systemu. Włączenie funkcji bezpieczeństwa, takich jak **antywirus** i **szyfrowanie**, stanowi dodatkową warstwę ochrony danych. Konfiguracja odpowiednich **kontroli dostępu** pomaga zapobiegać nieautoryzowanym zmianom i ogranicza dostęp do wrażliwych zasobów.
+Wdrażaj zabezpieczenia w kolejności, która najpierw chroni dostęp i odzyskiwanie systemu:
 
-Przestrzegając tych najlepszych praktyk, można zwiększyć bezpieczeństwo **środowiska Windows**, chronić dane i zachować integralność **infrastruktury cyfrowej**. Ważne jest, aby pozostać **proaktywnym** i regularnie przeglądać i aktualizować środki bezpieczeństwa, aby wyprzedzać potencjalne zagrożenia.
+1. Sprawdź edycję i kompilację systemu Windows, status wsparcia, dostępne funkcje zabezpieczeń sprzętowych oraz opcje odzyskiwania.
+2. Zainstaluj bieżące aktualizacje zabezpieczeń i uruchom komputer ponownie w zaplanowanym oknie serwisowym.
+3. Utwórz przetestowaną kopię zapasową i zapisz bieżący stan zapory, Defendera, BitLockera, usług i zasad lokalnych.
+4. Pozostaw włączone UAC, używaj oddzielnych kont administratora i wymagaj MFA dla obsługiwanego dostępu zdalnego i usług w chmurze.
+5. Włącz ochronę Defendera, profile zapory, Secure Boot, BitLocker oraz izolację sprzętową, jeśli obsługują je edycja systemu i sprzęt.
+6. Przetestuj reguły ASR, Controlled Folder Access, AppLocker i zmiany usług w trybie audytu lub pilotażu, zanim zablokujesz lub wyłączysz je szerzej.
+7. Centralizuj dzienniki i sprawdzaj nieudane logowania, zmiany zasad, zdarzenia Defendera oraz blokady zapory.
+8. Uruchom komputer ponownie, przetestuj wymagane aplikacje, sprawdź dostęp do odzyskiwania i udokumentuj stan końcowy.
 
-Pamiętaj, że **utwardzanie systemu Windows** jest procesem ciągłym i ważne jest, aby być na bieżąco z najnowszymi aktualizacjami i praktykami bezpieczeństwa. Pozostając proaktywnym i wdrażając te najlepsze praktyki, można skutecznie ograniczyć zagrożenia bezpieczeństwa i zapewnić bezpieczeństwo systemów Windows.
+[Microsoft Security Compliance Toolkit](https://learn.microsoft.com/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10) zawiera wersjonowane linie bazowe dla systemów Windows 10, Windows 11 i Windows Server. Użyj właściwej linii bazowej jako sprawdzonego punktu wyjścia. Microsoft zaleca testowanie zmian linii bazowej przed wdrożeniem produkcyjnym.
 
-Więcej informacji na temat wzmacniania zabezpieczeń systemu Windows i najlepszych praktyk można znaleźć w renomowanych źródłach, takich jak **dokumentacja Microsoft**, **fora poświęcone bezpieczeństwu** i zaufane **strony internetowe poświęcone bezpieczeństwu cybernetycznemu**.
+## Koniec wsparcia systemu Windows 10
+
+Microsoft zakończył obsługę systemu Windows 10 w wersji 22H2 14 października 2025 r. Wzmocniona instalacja Windows 10 nadal nie otrzymuje po tej dacie standardowych aktualizacji zabezpieczeń, chyba że obowiązuje osobny cykl życia produktu lub program Extended Security Update. Uwzględnij migrację, wymianę albo zatwierdzony wyjątek w planie bezpieczeństwa. Wzmacnianie zabezpieczeń nie wydłuża cyklu życia produktu. Zobacz [komunikat Microsoftu o zakończeniu wsparcia systemu Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+## Wycofywanie zmian usług i funkcji
+
+Wyłączenie usługi wymaga sprawdzenia jej zależności i obciążeń. Nie wyłączaj **RPC**, **Windows Update**, **Windows Event Log** ani innej usługi tylko dlatego, że ogólna lista określa ją jako zbędną. Sama nazwa usługi nie opisuje jej roli w Twoim systemie.
+
+Przed zmianą wyeksportuj konfigurację usługi i zapisz usługi zależne:
+
+```powershell
+$name = 'Spooler'
+Get-CimInstance Win32_Service -Filter "Name='$name'" |
+    Select-Object Name, DisplayName, State, StartMode, StartName, PathName |
+    Export-Csv "C:\Temp\$name-before.csv" -NoTypeInformation
+Get-Service -Name $name -DependentServices
+Get-Service -Name $name -RequiredServices
+```
+
+Zmieniaj jedną usługę naraz. Zastosuj **Manual** przed **Disabled**, jeśli obciążenie uruchamia usługę na żądanie. Zapisz poprzedni typ uruchomienia. Po testach sprawdź działanie aplikacji, Podgląd zdarzeń, Windows Update, drukowanie, zdalne zarządzanie, dostęp VPN i zadania zaplanowane.
+
+Aby wycofać zmianę, przywróć zapisany typ uruchomienia. Uruchom usługę dopiero po sprawdzeniu jej zależności:
+
+```powershell
+Set-Service -Name $name -StartupType Manual
+Start-Service -Name $name
+Get-Service -Name $name
+```
+
+W przypadku szerszej zmiany zasad przywróć zapisaną kopię GPO lub rejestru za pomocą tego samego narzędzia, którego użyto do jej utworzenia. Przed zmianami zdalnymi zapewnij lokalną ścieżkę odzyskiwania offline i dane logowania lokalnego administratora. Microsoft opisuje składnię konfiguracji usług w dokumentacji [`sc.exe config`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config).
+
+## Rejestr walidacji zabezpieczeń
+
+Dla każdej zmiany zabezpieczeń zapisz kontrolę, zakres, poprzednią wartość, nową wartość, wynik testu, sprawdzone identyfikatory zdarzeń, osobę odpowiedzialną i polecenie wycofania. Zablokowana aplikacja albo niedziałająca drukarka to problem operacyjny, a nie dowód, że kontrola jest błędna. Po przeanalizowaniu danych dostosuj zakres, wyjątki lub etap wdrożenia.
+
+______
+
+## Podsumowanie
+
+Wdrożenie tych **najlepszych praktyk wzmacniania zabezpieczeń Windows** ma zasadnicze znaczenie dla bezpieczeństwa systemów Windows. Regularne **aktualizowanie systemu operacyjnego** pozwala usuwać luki i poprawiać stabilność. Funkcje takie jak **program antywirusowy** i **szyfrowanie** zapewniają danym dodatkową ochronę. Odpowiednie **kontrole dostępu** pomagają zapobiegać nieautoryzowanym zmianom i ograniczają dostęp do wrażliwych zasobów.
+
+Stosując te praktyki, zwiększasz bezpieczeństwo swojego **środowiska Windows**, chronisz dane i zachowujesz integralność **infrastruktury cyfrowej**. Działaj **proaktywnie** i regularnie przeglądaj oraz aktualizuj zabezpieczenia, aby wyprzedzać potencjalne zagrożenia.
+
+Pamiętaj, że **wzmacnianie zabezpieczeń Windows** to ciągły proces. Śledź najnowsze aktualizacje i praktyki bezpieczeństwa. Proaktywne wdrażanie tych zaleceń pomaga ograniczać ryzyko i chronić systemy Windows.
+
+Więcej informacji o wzmacnianiu zabezpieczeń Windows i najlepszych praktykach znajdziesz w wiarygodnych źródłach, takich jak **dokumentacja Microsoft**, **fora bezpieczeństwa** i zaufane **witryny poświęcone cyberbezpieczeństwu**.
 
 ______
 

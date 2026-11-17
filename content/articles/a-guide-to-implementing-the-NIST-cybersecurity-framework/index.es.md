@@ -1,21 +1,22 @@
 ---
 title: "Implantación del Marco de Ciberseguridad del NIST"
 date: 2023-03-18
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda a implantar el Marco de Ciberseguridad del NIST y a proteger su organización de las ciberamenazas con nuestra guía paso a paso."
 tags: ["ciberseguridad", "NIST", "marco", "gestión de riesgos", "seguridad de la información", "amenazas cibernéticas", "aplicación", "buenas prácticas", "directrices", "normas", "ciberataques", "evaluación de riesgos", "riesgo de ciberseguridad", "protección de datos", "conformidad", "Seguridad informática", "seguridad de la red", "respuesta a incidentes", "medidas de seguridad", "plan de ciberseguridad"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
-coverAlt: "Imagen de dibujos animados de una persona con un escudo que bloquea varios ciberataques."
+cover: "/img/cover/a-guide-to-implementing-the-NIST-cybersecurity-framework.webp"
+coverAlt: "Varios profesionales colaboran en una oficina moderna frente a una gran pantalla digital que muestra conceptos de ciberseguridad. La escena incluye portátiles y tabletas, con un fondo oscuro y colores vivos."
 coverCaption: ""
 ---
- Guía para implantar el marco de ciberseguridad del NIST en su organización**
+**Guía para implantar el marco de ciberseguridad del NIST en su organización**
 
 El Instituto Nacional de Estándares y Tecnología (**NIST**) ha desarrollado un marco de ciberseguridad que proporciona a las organizaciones directrices y mejores prácticas para gestionar y reducir el riesgo de ciberseguridad. **La aplicación del marco de ciberseguridad del NIST** puede ayudar a organizaciones de todos los tamaños y tipos a proteger su información y sus activos frente a las ciberamenazas.
 
 ## Entender el Marco de Ciberseguridad del NIST
 
-En [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) es un marco voluntario que proporciona un conjunto de directrices, mejores prácticas y normas para ayudar a las organizaciones a gestionar los riesgos de ciberseguridad. Se elaboró a partir de los comentarios de organismos gubernamentales, expertos del sector y otras partes interesadas.
+El [Marco de Ciberseguridad del NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) es un marco voluntario que proporciona un conjunto de directrices, mejores prácticas y normas para ayudar a las organizaciones a gestionar los riesgos de ciberseguridad. Se elaboró a partir de los comentarios de organismos gubernamentales, expertos del sector y otras partes interesadas.
 
 El marco está organizado en **cinco funciones básicas**:
 
@@ -38,15 +39,15 @@ ______
 
 ### Pasos para implantar el Marco de Ciberseguridad del NIST
 
-Implementación del [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) implica un ciclo continuo de evaluación, planificación, aplicación y seguimiento. He aquí los pasos a seguir:
+La implementación del [Marco de Ciberseguridad del NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) implica un ciclo continuo de evaluación, planificación, aplicación y seguimiento. He aquí los pasos a seguir:
 
 #### Paso 1: Establecimiento de prioridades y alcance
 
-El primer paso en la aplicación de la [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) es dar prioridad y alcance a sus esfuerzos de ciberseguridad. Identifique sus activos y procesos empresariales críticos y determine su nivel de riesgo. Esto le ayudará a determinar qué áreas requieren más atención.
+El primer paso en la aplicación del [Marco de Ciberseguridad del NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) es dar prioridad y alcance a sus esfuerzos de ciberseguridad. Identifique sus activos y procesos empresariales críticos y determine su nivel de riesgo. Esto le ayudará a determinar qué áreas requieren más atención.
 
 #### Paso 2: Orientar
 
-El siguiente paso consiste en orientar a su organización hacia la [NIST Cybersecurity Framework](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) Ofrezca formación a los empleados y partes interesadas sobre el marco y su importancia para su organización. Establezca funciones y responsabilidades para la aplicación y el mantenimiento del marco.
+El siguiente paso consiste en orientar a su organización hacia el [Marco de Ciberseguridad del NIST](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). Ofrezca formación a los empleados y partes interesadas sobre el marco y su importancia para su organización. Establezca funciones y responsabilidades para la aplicación y el mantenimiento del marco.
 
 #### Paso 3: Crear un perfil actual
 
@@ -92,5 +93,5 @@ ______
 
 La implementación del Marco de Ciberseguridad del NIST puede ayudar a su organización a proteger su información y sus activos de las ciberamenazas. Siguiendo los pasos descritos en esta guía, puede implementar el marco de una manera que se alinee con la tolerancia al riesgo y los objetivos de negocio de su organización. Recuerde que la ciberseguridad es un esfuerzo continuo y que es necesaria una supervisión y mejora continuas.
 
-*Para más información sobre el [**NIST Cybersecurity Framework**](https://www.nist.gov/cyberframework),visit the official NIST website and explore their [Cybersecurity Framework page](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework) No espere a que sea demasiado tarde, empiece a aplicar el Marco de Ciberseguridad del NIST para asegurarse de que su organización está bien protegida frente a las ciberamenazas.
+*Para más información sobre el [**Marco de Ciberseguridad del NIST**](https://www.nist.gov/cyberframework), visite el sitio web oficial del NIST y consulte su [página del Marco de Ciberseguridad](https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework). No espere a que sea demasiado tarde, empiece a aplicar el Marco de Ciberseguridad del NIST para asegurarse de que su organización está bien protegida frente a las ciberamenazas.
 

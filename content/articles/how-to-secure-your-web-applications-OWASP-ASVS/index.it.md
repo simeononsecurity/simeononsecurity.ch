@@ -1,10 +1,11 @@
 ---
 title: "Proteggere le applicazioni web con OWASP ASVS"
 date: 2023-04-03
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Imparate a proteggere le vostre applicazioni web utilizzando l'Application Security Verification Standard (ASVS) di OWASP per soddisfare le misure di sicurezza più rigorose e proteggervi dalle vulnerabilità più comuni."
-tags: ["sicurezza delle applicazioni web", "OWASP", "ASVS", "sicurezza delle applicazioni", "standard di sicurezza", "sicurezza informatica", "gestione delle vulnerabilità", "codifica sicura", "test di penetrazione", "modellazione delle minacce", "controlli di sicurezza", "valutazione della sicurezza", "test di sicurezza automatizzati", "test di sicurezza manuale", "ciclo di vita dello sviluppo sicuro", "migliori pratiche di sicurezza", "sicurezza dei dati", "gestione del rischio", "compliance", "sicurezza delle informazioni"]
+description: "Usa OWASP ASVS per organizzare i requisiti di sicurezza, i test e le prove di verifica delle applicazioni web."
+tags: ["sicurezza delle applicazioni web", "OWASP", "ASVS", "sicurezza delle applicazioni", "standard di sicurezza", "sicurezza informatica", "gestione delle vulnerabilità", "codifica sicura", "test di penetrazione", "modellazione delle minacce", "controlli di sicurezza", "valutazione della sicurezza", "test di sicurezza automatizzati", "test di sicurezza manuale", "ciclo di vita dello sviluppo sicuro", "migliori pratiche di sicurezza", "sicurezza dei dati", "gestione del rischio", "conformità normativa", "sicurezza delle informazioni"]
 cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "Uno scudo corazzato con le lettere ASVS in grassetto, con lo scudo che protegge un'applicazione web dietro di esso."
 coverCaption: ""
@@ -16,13 +17,13 @@ ______
 
 ## Introduzione
 
-Lo **OWASP Application Security Verification Standard (ASVS)** è un quadro completo per la sicurezza delle applicazioni Web. Delinea le migliori pratiche e fornisce una chiara tabella di marcia per gli sviluppatori e i professionisti della sicurezza per costruire e mantenere sicure le applicazioni Web. Questo articolo vi guiderà attraverso il processo di implementazione dell'ASVS per rafforzare la sicurezza delle vostre applicazioni.
+Lo standard **OWASP Application Security Verification Standard (ASVS)** è un quadro completo per proteggere le applicazioni web. Delinea le migliori pratiche e fornisce una chiara tabella di marcia per gli sviluppatori e i professionisti della sicurezza per costruire e mantenere sicure le applicazioni Web. Questo articolo vi guiderà attraverso il processo di implementazione dell'ASVS per rafforzare la sicurezza delle vostre applicazioni.
 
 ______
 
 ## Comprendere l'ASVS di OWASP
 
-Il[OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) è un progetto guidato dalla comunità che definisce uno standard per la sicurezza delle applicazioni web. Consiste in **quattro livelli di verifica** che forniscono una base progressivamente più sicura per le applicazioni, consentendo alle organizzazioni di scegliere il livello più adatto alle proprie esigenze.
+L’[OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) è un progetto guidato dalla comunità che definisce uno standard per la sicurezza delle applicazioni web. Consiste in **quattro livelli di verifica** che forniscono una base progressivamente più sicura per le applicazioni, consentendo alle organizzazioni di scegliere il livello più adatto alle proprie esigenze.
 
 ______
 
@@ -54,11 +55,11 @@ Identificate le **minacce e i rischi** associati alla vostra applicazione per de
 
 ### Fase 2: Esaminare i requisiti ASVS
 
-Familiarizzare con i requisiti ASVS per il livello di verifica scelto. Il[ASVS github](https://github.com/OWASP/ASVS) fornisce informazioni dettagliate su ogni requisito e sui controlli di sicurezza associati.
+Familiarizzare con i requisiti ASVS per il livello di verifica scelto. La pagina di [ASVS su GitHub](https://github.com/OWASP/ASVS) fornisce informazioni dettagliate su ogni requisito e sui controlli di sicurezza associati.
 
 ### Fase 3: Integrare la sicurezza nel processo di sviluppo
 
-Incorporate le best practice di sicurezza in tutto il ciclo di vita dello sviluppo, compresi progettazione, codifica, test e distribuzione. Utilizzate strumenti come[OWASP ZAP](https://www.zaproxy.org/) for automated security testing and [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) per identificare le vulnerabilità nelle librerie di terze parti.
+Incorporate le buone pratiche di sicurezza in tutto il ciclo di vita dello sviluppo, compresi progettazione, codifica, test e distribuzione. Utilizzate strumenti come [OWASP ZAP](https://www.zaproxy.org/) per automatizzare i test di sicurezza e [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) per identificare le vulnerabilità nelle librerie di terze parti.
 
 ### Passo 4: Eseguire valutazioni di sicurezza
 
@@ -76,7 +77,7 @@ L'OWASP ASVS fornisce un quadro solido per la sicurezza delle applicazioni web. 
 
 ### Riferimenti
 
--[OWASP ASVS github](https://github.com/OWASP/ASVS)
--[OWASP ZAP](https://www.zaproxy.org/)
--[OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
--[NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
+- [OWASP ASVS su GitHub](https://github.com/OWASP/ASVS)
+- [OWASP ZAP](https://www.zaproxy.org/)
+- [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
+- [NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)

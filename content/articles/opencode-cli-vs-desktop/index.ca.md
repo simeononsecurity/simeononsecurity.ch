@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI vs Desktop: comparació del flux de treball de 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Compara els clients de terminal i d'escriptori d'OpenCode mitjançant la seva arquitectura de servidor, la configuració del proveïdor, els scripts, l'estat de sessió i la resolució de problemes."
 genre: ["Eines per a desenvolupadors", "Intel·ligència artificial", "Desenvolupament de programari"]
-tags: ["OpenCode CLI vs desktop", "OpenCode Desktop", "terminal OpenCode", "servidor OpenCode", "TUI", "CLI vs GUI", "agent de codi", "configuració del proveïdor", "models locals", "inferència allotjada", "automatització sense interfície", "opencode run", "opencode serve", "permisos de l'agent", "regles del projecte", "estat de sessió", "flux del desenvolupador", "autenticació del servidor", "eines de codi amb IA", "arnès de l'agent"]
+tags: ["OpenCode CLI en comparació amb l’escriptori", "OpenCode Desktop", "terminal d’OpenCode", "servidor d’OpenCode", "TUI", "CLI en comparació amb GUI", "agent de programació", "configuració del proveïdor", "models locals", "inferència allotjada", "automatització sense interfície", "opencode run", "opencode serve", "permisos de l’agent", "regles del projecte", "estat de la sessió", "flux de treball del desenvolupador", "autenticació del servidor", "eines de programació amb IA", "entorn de treball de l’agent"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Clients de terminal i d'escriptori connectats a un servidor central amb símbols separats per al repositori i la inferència"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Evita canvis simultanis al mateix checkout.** Dues converses amb plans diferents comparteixen fitxers quan apunten al mateix directori. Utilitza worktrees o checkouts separats per a experiments independents. Revisa els canvis abans d'integrar-los.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Registre de traspàs
+Objectiu:
+Branca actual i directori de treball:
+Fitxers modificats:
+Comprovacions ja completades:
+Errors coneguts:
+Acció següent aprovada:
 ```
 
 **Aquest registre fa que el traspàs sigui inspeccionable.** També ajuda a distingir un problema d'interfície d'una instrucció absent o d'un desajust de l'entorn. Mantén les credencials fora del registre.

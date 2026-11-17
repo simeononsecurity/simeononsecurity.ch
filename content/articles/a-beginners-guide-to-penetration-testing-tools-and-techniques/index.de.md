@@ -1,11 +1,12 @@
 ---
 title: "Ein umfassender Leitfaden für Einsteiger zu Penetrationstest-Tools und -Techniken"
 date: 2023-03-31
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Lernen Sie die wichtigsten Tools und Techniken für Penetrationstests, Methoden und Zertifizierungen kennen, um Ihre Karriere im Bereich der Cybersicherheit zu starten."
 tags: ["Penetrationstests", "Cybersicherheit", "Ethisches Hacken", "Werkzeuge", "Techniken", "Einsteigerhandbuch", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "Sicherheitsprüfung", "Schwachstellenanalyse", "Netzwerksicherheit", "Informationssicherheit"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
+cover: "/img/cover/a-beginners-guide-to-penetration-testing-tools-and-techniques.webp"
 coverAlt: "Ein Cartoon-Hacker mit einer Sturmhaube und einer Lupe in der Hand untersucht einen Computerbildschirm, auf dem verschiedene Hacking-Testtools wie Nmap, Metasploit, Wireshark und Burp Suite angezeigt werden, während im Hintergrund digitale Schlösser sichere Systeme symbolisieren."
 coverCaption: ""
 ---

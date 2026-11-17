@@ -1,15 +1,16 @@
 ---
 title: "Migliori pratiche per la codifica sicura in PowerShell: Una guida"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Imparate le migliori pratiche per scrivere codice PowerShell sicuro per proteggere i vostri sistemi basati su Windows dalle vulnerabilità di sicurezza."
-tags: ["PowerShell", "Codifica sicura", "Sistemi basati su Windows", "Convalida dell'ingresso", "Librerie di crittografia", "Privilegio minimo", "Analizzatore di codice statico", "Protocolli di comunicazione sicuri", "Registrazione e monitoraggio", "Scansioni di vulnerabilità", "Istruzione", "Codice di iniezione", "Escalation dei privilegi", "Perdita di dati", "Ambiente di tempra", "Politiche di sicurezza", "Firewall", "Sistemi di rilevamento delle intrusioni", "Gestione delle vulnerabilità", "Sicurezza di rete"]
+tags: ["PowerShell", "Codifica sicura", "Sistemi basati su Windows", "Convalida dell'ingresso", "Librerie di crittografia", "Privilegio minimo", "Analizzatore di codice statico", "Protocolli di comunicazione sicuri", "Registrazione e monitoraggio", "Scansioni di vulnerabilità", "Istruzione", "Codice di iniezione", "Escalation dei privilegi", "Perdita di dati", "Ambiente di tempra", "Politiche di sicurezza", "Firewall", "Sistemi di rilevamento delle intrusioni", "Gestione delle vulnerabilità", "Sicurezza di rete", "Migliori pratiche di codifica PowerShell", "Codice PowerShell sicuro", "Sicurezza dei sistemi Windows", "Convalida dell’input in PowerShell", "Crittografia in PowerShell", "Principio del privilegio minimo", "Analizzatore di codice statico per PowerShell", "Protocolli di comunicazione sicuri in PowerShell", "Registrazione e monitoraggio in PowerShell", "Scansioni di vulnerabilità in PowerShell", "Formazione sulla sicurezza di PowerShell", "Prevenzione dell’iniezione di codice", "Mitigazione dell’escalation dei privilegi", "Prevenzione delle fughe di dati con PowerShell", "Rafforzamento dell’ambiente PowerShell", "Politiche di sicurezza per PowerShell", "Configurazione del firewall in PowerShell", "Sistemi di rilevamento delle intrusioni per PowerShell", "Gestione delle vulnerabilità in PowerShell", "Sicurezza di rete in PowerShell", "Codifica sicura per script PowerShell", "Sanificazione di input e output in PowerShell", "Protocolli di comunicazione sicuri per PowerShell", "Registrazione e monitoraggio negli script PowerShell", "Rafforzare l’ambiente PowerShell", "Eseguire scansioni di vulnerabilità in PowerShell", "Formare utenti e amministratori sulla sicurezza di PowerShell", "Pratiche per codice PowerShell sicuro", "Codice PowerShell sicuro e resiliente", "Migliori pratiche per la sicurezza di PowerShell", "Migliori pratiche di sicurezza PowerShell"]
 cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "L'immagine di un supereroe in piedi davanti a un computer con il logo di Windows sullo schermo e uno scudo in mano, simboleggia l'importanza delle pratiche di codifica sicura per proteggere i sistemi basati su Windows."
 coverCaption: ""
 ---
- è un popolare framework per l'automazione delle attività e la gestione della configurazione, utilizzato per automatizzare le attività ripetitive e semplificare la gestione dei sistemi basati su Windows. Come qualsiasi altro linguaggio di programmazione, il codice di PowerShell può essere vulnerabile alle minacce alla sicurezza se gli sviluppatori non seguono gli standard di codifica sicuri. In questo articolo discuteremo le migliori pratiche per la codifica sicura in PowerShell.
+PowerShell è un framework popolare per l'automazione delle attività e la gestione della configurazione, utilizzato per automatizzare le attività ripetitive e semplificare la gestione dei sistemi basati su Windows. Come qualsiasi altro linguaggio di programmazione, il codice di PowerShell può essere vulnerabile alle minacce alla sicurezza se gli sviluppatori non seguono gli standard di codifica sicuri. In questo articolo discuteremo le migliori pratiche per la codifica sicura in PowerShell.
 
 ____
 
@@ -41,10 +42,10 @@ PowerShell dispone di diverse funzioni che possono essere vulnerabili a problemi
 
 Ad esempio, invece di usare la funzione Invoke-Expression per eseguire un comando, gli sviluppatori dovrebbero usare Start-Process.
 ```powershell
-# Instead of using Invoke-Expression
+# Invece di usare Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Usa Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -104,11 +105,11 @@ Utilizzando un analizzatore di codice statico, gli sviluppatori possono identifi
 
 ____
 
-## Utilizzare pratiche di codifica sicure per gli script PowerShell
+## Programmare in modo sicuro
 
 Gli script PowerShell sono vulnerabili a diversi rischi per la sicurezza, come l'iniezione di codice, l'escalation dei privilegi e la fuga di dati. Per garantire la sicurezza degli script PowerShell, gli sviluppatori dovrebbero seguire pratiche di codifica sicure come:
 
-### Sanificare l'input e l'output
+### Sanificare i dati in ingresso e in uscita
 La sanificazione dell'input dell'utente è importante per prevenire gli attacchi di code injection. Gli sviluppatori devono convalidare e sanificare l'input dell'utente per garantire che soddisfi i criteri previsti e non contenga codice dannoso. Inoltre, quando si scrive l'output su un file di log o su un'altra destinazione, gli sviluppatori devono sanificare qualsiasi dato sensibile prima di scriverlo sul file, per evitare la perdita di dati.
 
 ### Utilizzare protocolli di comunicazione sicuri
@@ -121,7 +122,7 @@ Implementate meccanismi di registrazione e monitoraggio per rilevare e risponder
 L'ambiente deve essere protetto applicando politiche e configurazioni di sicurezza al sistema operativo, ai dispositivi di rete e alle applicazioni. Questo aiuta a ridurre la superficie di attacco e a prevenire gli accessi non autorizzati. Ad esempio, gli sviluppatori e gli amministratori possono:
 
 - **Disattivare i servizi e i protocolli non necessari per ridurre la superficie di attacco**.
-- **Far rispettare password forti e criteri di password per impedire l'accesso non autorizzato**.
+- [**Far rispettare password forti e criteri di password per impedire l'accesso non autorizzato**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 - **Configurare firewall e sistemi di rilevamento delle intrusioni per prevenire e rilevare gli attacchi**
 - **Implementare gli aggiornamenti del software e le patch per risolvere le vulnerabilità di sicurezza note**
 
@@ -141,7 +142,7 @@ Implementando queste pratiche, gli sviluppatori possono ridurre il rischio di vi
 
 ## Riferimenti
 
--[PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
--[Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
--[Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
--[Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [Documentazione di PowerShell](https://docs.microsoft.com/en-us/powershell/)
+- [Serie Top 25: errori software](https://www.sans.org/top25-software-errors/)
+- [Scheda di riferimento per la convalida degli input](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [Guida alla sicurezza generale dei server](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

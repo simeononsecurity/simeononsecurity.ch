@@ -1,9 +1,10 @@
 ---
-title: "ATS Resume Improver: optimizador de currículum de IA gratuito, autoalojable y sin envío de datos"
+title: "ATS Resume Improver: optimizador de currículum con IA gratuito y autoalojable"
 date: 2026-07-22
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "ATS Resume Improver es un optimizador de currículum de código abierto y del lado del cliente que admite OpenAI, Anthropic Claude y modelos Ollama locales. Analice, puntúe, compare palabras clave, optimice y exporte su currículum sin que sus datos salgan del navegador."
+description: "ATS Resume Improver es un optimizador de currículum gratuito y de código abierto. Sin clave de IA, el procesamiento se realiza en el navegador. Con OpenAI o Anthropic, el texto del currículum y de la oferta se envía directamente al proveedor. Ollama puede ejecutarse localmente."
 genre: ["Herramientas de carrera", "Proyectos de código abierto", "Inteligencia artificial", "Tecnología de privacidad", "Herramientas para desarrolladores", "Búsqueda de empleo", "Productividad"]
 tags: ["ATS Resume Improver", "optimización ATS", "escáner de currículum", "currículum con IA", "currículum OpenAI", "currículum Claude", "Ollama IA local", "autoalojado", "privacidad primero", "herramientas de búsqueda de empleo", "análisis de brechas de palabras clave", "carta de presentación", "puntuación de currículum", "React", "TypeScript", "Docker", "Vite", "código abierto", "exportar PDF", "exportar DOCX", "analizador de currículum", "herramientas de carrera", "preparación para entrevistas", "estimador de salario", "detección de tipo de currículum", "puntuación ATS", "herramienta de currículum gratuita", "GitHub", "sin recopilación de datos"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"
@@ -18,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** es un optimizador de currículum de código abierto basado en navegador que analiza su currículum frente a una descripción de trabajo y le ayuda a cerrar la brecha entre lo que tiene y lo que los sistemas de seguimiento de candidatos realmente puntúan. Construido con React 19, Vite y TypeScript, todo el **pipeline de análisis y puntuación se ejecuta dentro de su navegador** sin servidor backend.
 
-El código fuente está en **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Puede usar la versión alojada, desplegar la suya propia en Vercel/Netlify/Cloudflare/GitHub Pages con un clic, o iniciarlo localmente con Docker.
+El código fuente está en **[repositorio de ATS Resume Improver en GitHub](https://github.com/simeononsecurity/ats-resume-improver)**. Puede usar la versión alojada, desplegar la suya propia en Vercel/Netlify/Cloudflare/GitHub Pages con un clic, o iniciarlo localmente con Docker.
 
 ### El problema de privacidad que resuelve
 
@@ -28,7 +29,7 @@ La mayoría de los servicios de optimización de currículum cargan su currícul
 |------|------------------------|
 | **Sin clave de IA** | Nada — 100% local, se ejecuta en su navegador |
 | **OpenAI / Anthropic** | El texto del currículum y la descripción del trabajo van directamente a la API del proveedor de IA con su clave, sin servidor intermediario |
-| **Ollama (local)** | Nada — el modelo se ejecuta en su propia máquina |
+| **Ollama (en tu equipo)** | Nada — el modelo se ejecuta en su propia máquina |
 
 **Las claves API se almacenan solo en memoria** y desaparecen cuando cierra la pestaña. Sin análisis, sin seguimiento, sin cookies.
 
@@ -147,7 +148,7 @@ ______
 
 ## Humanización de la carta de presentación
 
-El generador de cartas de presentación aplica una guía de estilo deliberada para eliminar las señales reveladoras del texto generado por IA :
+El generador de cartas de presentación aplica una guía de estilo deliberada para eliminar las señales reveladoras del texto generado por IA. Está inspirada en el [marco de escritura natural de Sabrina Ramonov](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing):
 
 - **Sin guiones largos** — la señal reveladora de IA más fuerte, eliminada por completo
 - **Más de 50 palabras y frases prohibidas**: leverage, utilize, dive deep, delve, embark, game-changer, groundbreaking, cutting-edge, pivotal, tapestry, harness, moreover, in conclusion, it's worth noting, ever-evolving, landscape, testament, etc.
@@ -162,11 +163,24 @@ El generador de cartas de presentación aplica una guía de estilo deliberada pa
 
 ______
 
+## Calidad de exportación
+
+| Formato | Qué obtienes |
+|--------|-------------|
+| **PDF** | Tipografía profesional, separadores de sección, viñetas y encabezado de contacto |
+| **DOCX** | Documento Word bien estructurado (`Packer.toBlob`, compatible con el navegador) |
+| **TXT** | Texto plano limpio con espaciado uniforme, seguro para ATS |
+| **Markdown** | Archivo `.md` estructurado con títulos y listas |
+
+Cuando configuras un proveedor de IA, este da formato a las exportaciones antes de descargarlas. El archivo muestra la insignia ✨ Mejorado con IA.
+
+______
+
 ## Opciones de autoalojamiento
 
 ### Versión alojada (sin configuración)
 
-Use la aplicación en vivo en **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** — sin cuenta, sin registro, sin tarjeta de crédito.
+Use la aplicación en vivo en **[versión en línea de ATS Resume Improver](https://atsresumeimprover.netlify.app/)** — sin cuenta, sin registro, sin tarjeta de crédito.
 
 ### Despliegue en la nube con un clic
 
@@ -190,30 +204,95 @@ make dev           # http://localhost:5173
 ### Docker (recomendado para entornos reproducibles)
 
 ```bash
-# Desarrollo — recarga en caliente en http://localhost:5173
+# Desarrollo: recarga en caliente en http://localhost:5173
 make docker-dev
 
-# Producción — nginx en http://localhost:8080
+# Producción: nginx en http://localhost:8080
 make docker-prod
 
-# Dev + Ollama juntos (pila de IA local completa)
+# Desarrollo y Ollama juntos (stack local de IA completo)
 make docker-dev-with-ollama
 ```
 
 ### Pila Ollama completamente fuera de línea
 
 ```bash
-# Iniciar el contenedor Ollama (modelos persistentes entre reinicios)
+# Iniciar el contenedor de Ollama (conserva los modelos tras reiniciar)
 make ollama
 
 # Descargar un modelo
 make ollama-pull MODEL=llama3.2
 
-# Iniciar la aplicación dev + Ollama lado a lado
+# Iniciar la aplicación de desarrollo y Ollama en paralelo
 make docker-dev-with-ollama
 ```
 
 Luego abra la aplicación, vaya al panel de claves API, seleccione **Ollama (Local)**, configure la URL a `http://localhost:11434` y elija un modelo. Ningún dato sale de su máquina.
+
+______
+
+## Pila tecnológica
+
+| Capa | Tecnología |
+|-------|-----------|
+| **Framework** | React 19 + TypeScript |
+| **Compilación** | Vite 8 |
+| **Estilos** | Tailwind CSS v4 |
+| **Iconos** | Lucide React |
+| **Análisis de PDF** | pdfjs-dist |
+| **Análisis de DOCX** | mammoth |
+| **Exportación a PDF** | jsPDF |
+| **Exportación a DOCX** | docx (`Packer.toBlob`) |
+| **IA** | OpenAI · Anthropic Claude · Ollama |
+| **Contenedor** | Docker + nginx (multietapa) + servicio Ollama |
+
+Todo el proceso de puntuación y análisis (`atsAnalyzer.ts`, `keywordMatcher.ts`, `resumeTypeDetector.ts`) se ejecuta en el navegador. Las integraciones de IA de `aiProvider.ts` llaman a las API de los proveedores directamente desde el cliente, sin servidor proxy.
+
+______
+
+## Guía práctica de uso
+
+### Paso 1: sube tu currículum
+
+Sube un archivo PDF, DOCX, TXT o Markdown. Abre la pestaña **“What the ATS Sees”** para comprobar si el analizador extrajo correctamente el contenido. Si faltan secciones o el texto aparece desordenado, el ATS de los reclutadores tendrá el mismo problema.
+
+### Paso 2: pega la descripción del puesto
+
+Pega la oferta completa en el panel Job Description. Las ofertas más completas producen un mejor análisis de palabras clave. No recortes la sección de requisitos.
+
+### Paso 3: revisa tu puntuación ATS
+
+El panel muestra una puntuación total de 0 a 100 y un desglose de 5 dimensiones. El desglose te indica dónde centrarte: los problemas de formato reducen una dimensión, las palabras clave ausentes reducen otra y las descripciones débiles de tu experiencia reducen una tercera.
+
+### Paso 4: comprueba la brecha de palabras clave
+
+La vista Keyword Analysis muestra qué palabras clave de la oferta aparecen en tu currículum y cuáles faltan. Con la IA activada, obtienes una comparación semántica y niveles de importancia. Una brecha “Critical” en una competencia técnica esencial merece más atención que una brecha “Low” en una frase hecha sobre habilidades interpersonales.
+
+### Paso 5: optimiza
+
+- **Modo determinista**: aplica una reestructuración basada en reglas. Es seguro, rápido y no tiene coste de API.
+- **Modo de IA**: reescritura completa con un LLM y prompts de buenas prácticas para ATS.
+
+Revisa la **diferencia entre antes y después** para entender cada cambio antes de aceptarlo.
+
+### Paso 6: exporta
+
+Exporta a PDF, DOCX, TXT o Markdown. Con la IA activada, la exportación se formatea para una presentación profesional. La plantilla PDF usa tipografía y diseño adecuados para los reclutadores.
+
+______
+
+## Integración de consejos para currículums
+
+La herramienta incluye una referencia complementaria en `RESUME_TIPS.md` (también disponible en el repositorio GitHub), que explica:
+
+- Cómo puntúan realmente los sistemas ATS los currículums
+- Las reglas de formato importantes y qué formatos estropean los analizadores
+- Cómo redactar resúmenes, viñetas y secciones de habilidades
+- Estrategias de palabras clave sin repetirlas en exceso
+- El tono y la estructura de las cartas de presentación
+- Una lista de comprobación antes de enviar
+
+*Lee la referencia antes de usar la herramienta para entender las puntuaciones.*
 
 ______
 
@@ -235,6 +314,10 @@ Sí. Pegue una nueva descripción de trabajo en cualquier momento. El análisis 
 
 Sí, si Ollama se ejecuta en su máquina local o en una máquina de su red local. La aplicación envía texto a su instancia de Ollama a través de HTTP. Nada va a ningún servicio externo.
 
+### ¿Qué precisión tiene la detección del tipo de currículum?
+
+El detector aplica heurísticas basadas en reglas al contenido del currículum. Busca los años de experiencia indicados, referencias a estudios, secciones de publicaciones o investigación y señales de pausas profesionales. Funciona bien con la mayoría de currículums, pero puede equivocarse con perfiles poco habituales. Siempre puedes ajustar el orden de las secciones.
+
 ______
 
 ## Hoja de ruta del proyecto
@@ -254,16 +337,24 @@ ______
 
 **ATS Resume Improver** llena una brecha real: una herramienta que realiza un análisis serio de currículum sin ceder sus datos a nadie. El modo sin clave le da retroalimentación inmediata y accionable sobre el formato y la cobertura de palabras clave. Agregar una clave de IA actualiza el análisis a razonamiento semántico, redacción de cartas de presentación y preparación para entrevistas, todo por centavos por análisis o completamente gratis con Ollama.
 
-La versión alojada en vivo está en **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)**. El código fuente completo está en **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+La versión alojada en vivo está en **[versión en línea de ATS Resume Improver](https://atsresumeimprover.netlify.app/)**. El código fuente completo está en **[repositorio de ATS Resume Improver en GitHub](https://github.com/simeononsecurity/ats-resume-improver)**.
+
+______
+
+## Curso de optimización de currículums
+
+Para una guía estructurada, paso a paso, sobre cómo aplicar lo que puntúa esta herramienta, consulta el curso complementario:
+
+**[Curso de optimización de currículums: supera los sistemas ATS y consigue más entrevistas](/resume-optimization-course-start/)**. Sus 9 módulos cubren la puntuación ATS, el formato, las viñetas, las palabras clave, la adaptación a la oferta, las cartas de presentación y la lista de comprobación antes de enviar. Usa la herramienta junto con el curso para obtener comentarios inmediatos en cada paso.
 
 ______
 
 ## Referencias
 
-1. [ATS Resume Improver — herramienta en vivo](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — repositorio GitHub](https://github.com/simeononsecurity/ats-resume-improver)
+1. [herramienta en línea](https://atsresumeimprover.netlify.app/)
+2. [repositorio del código fuente](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Consejos y trucos para el currículum — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — Mejor prompt de IA para humanizar la escritura IA](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [Documentación de la API de OpenAI](https://platform.openai.com/docs/)
-6. [Documentación de la API de Anthropic Claude](https://docs.anthropic.com/)
+5. [documentación de la API de OpenAI](https://platform.openai.com/docs/)
+6. [documentación de la API de Anthropic Claude](https://docs.anthropic.com/)
 7. [Ollama — servidor LLM local](https://ollama.com/)

@@ -3,6 +3,7 @@ title: "Evitarea înșelătoriilor de tip phishing: tactici, prevenire și prote
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Aflați despre tacticile folosite de escrocii de phishing și descoperiți strategii eficiente pentru a vă proteja de a deveni o victimă."
 tags: ["escrocherii de tip phishing", "securitate cibernetică", "amenințări online", "falsificarea e-mailurilor", "Inginerie sociala", "protecție împotriva programelor malware", "siguranța online", "securitatea datelor", "furt de identitate", "securitatea parolei", "autentificare cu doi factori", "actualizări software", "reglementările guvernamentale", "confidențialitate online", "conștientizarea cibernetică", "fraudă digitală", "conștientizarea phishingului", "siguranța rețelelor sociale", "escrocherii online", "prevenirea criminalității cibernetice"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Pentru a vă proteja de programele malware și de site-uri web false, este esen�
 
 Deși înșelătoriile de tip phishing pot fi sofisticate, există câțiva pași proactivi pe care îi puteți lua pentru a evita să deveniți o victimă. Prin implementarea următoarelor măsuri, puteți reduce semnificativ riscul de a cădea pradă atacurilor de tip phishing:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Educație și conștientizare](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sunt cruciale în combaterea înșelătoriilor de tip phishing. Rămâneți la curent cu cele mai recente tehnici și tactici de phishing folosite de escroci. Actualizați-vă în mod regulat cunoștințele prin surse de încredere, cum ar fi bloguri de securitate, articole și **site-uri web guvernamentale** oficiale, care oferă informații despre tendințele actuale de phishing și cele mai bune practici de securitate cibernetică.
+[**Educație și conștientizare**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sunt cruciale în combaterea înșelătoriilor de tip phishing. Rămâneți la curent cu cele mai recente tehnici și tactici de phishing folosite de escroci. Actualizați-vă în mod regulat cunoștințele prin surse de încredere, cum ar fi bloguri de securitate, articole și **site-uri web guvernamentale** oficiale, care oferă informații despre tendințele actuale de phishing și cele mai bune practici de securitate cibernetică.
 
 ### Fiți precauți cu e-mailurile și mesajele
 
 Fiți precauți atunci când primiți e-mailuri sau mesaje, în special cele care solicită informații personale sau acțiuni urgente prompte. Acordați atenție detaliilor precum adresele de e-mail, greșelile gramaticale și de ortografie sau salutările generice care pot indica o tentativă de phishing. Fiți atenți la atașamentele sau linkurile neașteptate, chiar dacă par să provină din surse de încredere. Dacă aveți îndoieli, **nu faceți clic pe niciun link suspect sau nu descărcați atașamente**. În schimb, **contactați direct expeditorul folosind un număr de telefon sau o adresă de e-mail verificată** pentru a verifica autenticitatea mesajului.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Întărește parolele și activează autentificarea cu doi factori](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pentru fiecare cont online pentru a preveni ca o singură încălcare să compromită mai multe conturi.
+[O parolă puternică și unică](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) este o protecție esențială împotriva înșelătoriilor de tip phishing. [**Creează parole puternice**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) care să combine litere mari și mici, cifre și caractere speciale. Evită informațiile ușor de ghicit, precum numele sau data ta de naștere. De asemenea, este esențial [**să folosești parole diferite pentru fiecare cont online**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), pentru ca o singură breșă să nu compromită mai multe conturi.
 
-Pe lângă parolele puternice, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) ori de câte ori este posibil. 2FA adaugă un nivel suplimentar de securitate, solicitând o a doua formă de verificare, cum ar fi un cod temporar trimis pe dispozitivul dvs. mobil, în plus față de parola. Acest lucru face mult mai dificil pentru escroci să obțină acces neautorizat la conturile dvs.
+Pe lângă parolele puternice, [**activează autentificarea cu doi factori (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) ori de câte ori este posibil. 2FA adaugă un nivel suplimentar de securitate, solicitând o a doua formă de verificare, cum ar fi un cod temporar trimis pe dispozitivul dvs. mobil, în plus față de parola. Acest lucru face mult mai dificil pentru escroci să obțină acces neautorizat la conturile dvs.
 
 ### Păstrați software-ul și sistemele de operare la zi
 

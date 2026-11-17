@@ -1,7 +1,7 @@
 ---
 title: "10 plugin, skill e strumenti MCP per Claude Code: guida pratica"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Scegli estensioni Claude Code per pianificazione, revisione del codice, gestione della conoscenza, design e automazione. Confronta dieci strumenti, dipendenze e controlli pratici."
@@ -79,7 +79,7 @@ Il **Model Context Protocol (MCP)** collega un'applicazione agente a strumenti e
 
 ### CLAUDE.md ispirato a Karpathy
 
-**Le linee guida mantenute da Multica** traducono le osservazioni di Karpathy in quattro temi: ipotesi esplicite, soluzioni semplici, modifiche mirate e obiettivi verificabili. Il [repository](https://github.com/multica-ai/andrej-karpathy-skills) è un'implementazione della comunità ispirata alle sue osservazioni. Attribuirlo personalmente a Karpathy sarebbe inesatto.
+**Le linee guida mantenute da Multica** traducono le osservazioni di Karpathy in quattro temi: ipotesi esplicite, soluzioni semplici, modifiche mirate e obiettivi verificabili. L'[archivio del progetto](https://github.com/multica-ai/andrej-karpathy-skills) è un'implementazione della comunità ispirata alle sue osservazioni. Attribuirlo personalmente a Karpathy sarebbe inesatto.
 
 **Integra la guida utile nella policy esistente del progetto.** Conserva comandi di build, convenzioni dei contenuti e limiti di deploy. Un file sostitutivo che elimina questi dettagli crea nuove fonti di errore.
 
@@ -146,7 +146,7 @@ graphify query "show the authentication flow"
 
 ### claude-obsidian
 
-**claude-obsidian** organizza il materiale sorgente in pagine Obsidian collegate e citate. Il [repository](https://github.com/AgriciDaniel/claude-obsidian) descrive acquisizione, recupero, manutenzione della conoscenza, conservazione delle fonti e registri di supporto o contraddizione. Il vault resta formato da normali file locali.
+**claude-obsidian** organizza il materiale sorgente in pagine Obsidian collegate e citate. L'[archivio del progetto](https://github.com/AgriciDaniel/claude-obsidian) descrive acquisizione, recupero, manutenzione della conoscenza, conservazione delle fonti e registri di supporto o contraddizione. Il vault resta formato da normali file locali.
 
 **Usa claude-obsidian per conoscenza durevole del progetto:** decisioni di design, documenti sorgente e note di ricerca che devono sopravvivere alle singole conversazioni. L'output utile è un record manutenibile con provenienza, cioè origine tracciabile per ogni affermazione importante.
 
@@ -226,7 +226,7 @@ notebooklm skill install
 **Esercizio illustrativo:** aggiungi un importatore CSV a una piccola applicazione. L'importatore mostra un'anteprima, segnala campi e-mail non validi e impedisce duplicati. Non servono record cliente o destinazioni esterne attive.
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# Scheda di valutazione, non un file di configurazione dello strumento
 task: "add CSV import preview"
 inputs:
   - "valid rows"

@@ -1,6 +1,7 @@
 ---
 title: "Proteggere i dispositivi IoT: Sfide e soluzioni per la sicurezza informatica"
 date: 2023-03-27
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Scoprite l'impatto dell'IoT sulla sicurezza informatica e apprendete le strategie efficaci per proteggere i vostri dispositivi connessi."
@@ -26,7 +27,7 @@ Man mano che i dispositivi IoT diventano più comuni, diventano anche obiettivi 
 
 - **Distribuzione su larga scala**: L'enorme numero di dispositivi IoT comporta una maggiore superficie di attacco che gli hacker possono sfruttare.
 - **Mancanza di sicurezza**: Molti dispositivi IoT non sono stati progettati tenendo conto della sicurezza, rendendoli vulnerabili agli attacchi.
-- Interconnettività**: Un attacco a un dispositivo può potenzialmente diffondersi ad altri all'interno di una rete.
+- **Interconnettività**: Un attacco a un dispositivo può potenzialmente diffondersi ad altri all'interno di una rete.
 
 Le conseguenze di una violazione della sicurezza IoT possono essere gravi, dal **furto di dati** ai **danni fisici** o addirittura **a situazioni di pericolo di vita**.
 
@@ -49,7 +50,7 @@ ______
 I governi e le organizzazioni di settore hanno riconosciuto l'importanza della sicurezza dell'IoT e stanno lavorando per sviluppare e applicare **standard** e **regolamenti**. Alcune iniziative chiave includono:
 
 - Il[National Institute of Standards and Technology (NIST)](https://www.nist.gov/) fornisce linee guida per la sicurezza e la privacy dell'IoT.
-- Il[International Organization for Standardization (ISO)](https://www.iso.org/) has established an IoT security standard, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
+- Il[International Organization for Standardization (ISO)](https://www.iso.org/) ha stabilito uno standard di sicurezza per l’IoT, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
 
 ______
 
@@ -61,6 +62,6 @@ ______
 
 ### Riferimenti
 
-1.[NIST - IoT Security](https://www.nist.gov/topics/internet-things-iot)
-2.[ISO/IEC 27400:2022 - IoT Security and Privacy Guidelines](https://www.iso.org/standard/44373.html)
+1. [NIST - sicurezza IoT](https://www.nist.gov/topics/internet-things-iot)
+2. [ISO/IEC 27400:2022 - Linee guida sulla sicurezza e la privacy IoT](https://www.iso.org/standard/44373.html)
 

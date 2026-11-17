@@ -3,6 +3,7 @@ title: "Éviter les escroqueries par hameçonnage : tactiques, prévention et p
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Découvrez les tactiques utilisées par les escrocs par hameçonnage et découvrez des stratégies efficaces pour éviter de devenir une victime."
 tags: ["les escroqueries par phishing", "la cyber-sécurité", "menaces en ligne", "usurpation de courrier électronique", "ingénierie sociale", "protection contre les logiciels malveillants", "sécurité en ligne", "sécurité des données", "vol d'identité", "sécurité par mot de passe", "authentification à deux facteurs", "mises à jour de logiciel", "réglementations gouvernementales", "confidentialité en ligne", "cyber-sensibilisation", "fraude numérique", "sensibilisation au phishing", "sécurité sur les réseaux sociaux", "escroqueries en ligne", "prévention de la cybercriminalité"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Pour vous protéger des logiciels malveillants et des faux sites Web, il est ess
 
 Bien que les escroqueries par hameçonnage puissent être sophistiquées, vous pouvez prendre plusieurs mesures proactives pour éviter d'en être victime. En mettant en œuvre les mesures suivantes, vous pouvez réduire considérablement le risque d'être victime d'attaques de phishing :
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Formation et sensibilisation](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sont cruciaux dans la lutte contre les escroqueries par hameçonnage. Restez informé des dernières techniques et tactiques de phishing employées par les escrocs. Mettez régulièrement à jour vos connaissances grâce à des sources fiables telles que des blogs de sécurité, des articles et des **sites Web gouvernementaux** officiels qui fournissent des informations sur les tendances actuelles en matière de phishing et les meilleures pratiques en matière de cybersécurité.
+[**Formation et sensibilisation**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sont cruciaux dans la lutte contre les escroqueries par hameçonnage. Restez informé des dernières techniques et tactiques de phishing employées par les escrocs. Mettez régulièrement à jour vos connaissances grâce à des sources fiables telles que des blogs de sécurité, des articles et des **sites Web gouvernementaux** officiels qui fournissent des informations sur les tendances actuelles en matière de phishing et les meilleures pratiques en matière de cybersécurité.
 
 ### Faites preuve de prudence avec les e-mails et les messages
 
 Faites preuve de prudence lorsque vous recevez des e-mails ou des messages, en particulier ceux qui demandent des informations personnelles ou invitent à une action urgente. Faites attention aux détails tels que les adresses e-mail, les fautes de grammaire et d'orthographe, ou les salutations génériques qui peuvent indiquer une tentative de phishing. Méfiez-vous des pièces jointes ou des liens inattendus, même s'ils semblent provenir de sources fiables. En cas de doute, **ne cliquez sur aucun lien suspect et ne téléchargez pas de pièces jointes**. Au lieu de cela, **contactez directement l'expéditeur à l'aide d'un numéro de téléphone ou d'une adresse e-mail vérifié** pour vérifier l'authenticité du message.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Renforcez vos mots de passe et activez l’authentification à deux facteurs](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-UN [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pour chaque compte en ligne afin d'éviter qu'une seule violation ne compromette plusieurs comptes.
+[Un mot de passe robuste et unique](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) est une défense essentielle contre les escroqueries par hameçonnage. [**Créez des mots de passe robustes**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) combinant des majuscules et des minuscules, des chiffres et des caractères spéciaux. Évitez les informations faciles à deviner, comme votre nom ou votre date de naissance. Il est également essentiel [**d’utiliser un mot de passe différent pour chaque compte en ligne**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) afin qu’une seule faille ne compromette pas plusieurs comptes.
 
-En plus des mots de passe forts, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) dès que possible. 2FA ajoute une couche de sécurité supplémentaire en exigeant une deuxième forme de vérification, comme un code temporaire envoyé à votre appareil mobile, en plus de votre mot de passe. Cela rend beaucoup plus difficile pour les escrocs d'obtenir un accès non autorisé à vos comptes.
+En plus des mots de passe forts, [**activez l’authentification à deux facteurs (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) dès que possible. 2FA ajoute une couche de sécurité supplémentaire en exigeant une deuxième forme de vérification, comme un code temporaire envoyé à votre appareil mobile, en plus de votre mot de passe. Cela rend beaucoup plus difficile pour les escrocs d'obtenir un accès non autorisé à vos comptes.
 
 ### Gardez les logiciels et les systèmes d'exploitation à jour
 

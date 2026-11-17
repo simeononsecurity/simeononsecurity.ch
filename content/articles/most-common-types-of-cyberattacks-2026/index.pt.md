@@ -1,284 +1,284 @@
 ---
-title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
+title: "Os tipos mais comuns de ataques cibernéticos e como detectá-los"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
-genre: ["Cybersecurity", "Threat Detection", "Blue Team", "Security Operations", "Career Development"]
-tags: ["cyberattack types", "malware", "ransomware", "phishing", "spear phishing", "social engineering", "spoofing", "identity-based attacks", "credential stuffing", "password spraying", "SQL injection", "cross-site scripting", "supply chain attack", "insider threat", "DNS tunneling", "IoT attacks", "AI-powered attacks", "denial of service", "detection engineering", "SOC analyst", "blue team", "home lab", "log analysis", "incident response", "MITRE ATT&CK", "cybersecurity career", "threat hunting", "security operations center", "telemetry", "alert triage"]
+description: "Conheça os tipos mais comuns de ataques cibernéticos, as evidências que deixam em logs e telemetria e pratique a detecção em um laboratório de segurança doméstico."
+genre: ["Cibersegurança", "Detecção de ameaças", "Blue Team", "Operações de segurança", "Desenvolvimento profissional"]
+tags: ["tipos de ataque cibernético", "malware", "ransomware", "phishing", "spear phishing", "engenharia social", "spoofing", "ataques baseados em identidade", "credential stuffing", "password spraying", "injeção SQL", "cross-site scripting", "ataque à cadeia de suprimentos", "ameaça interna", "tunelamento DNS", "ataques IoT", "ataques com IA", "negação de serviço", "engenharia de detecção", "analista SOC", "Blue Team", "laboratório doméstico", "análise de logs", "resposta a incidentes", "MITRE ATT&CK", "carreira em cibersegurança", "caça a ameaças", "centro de operações de segurança", "telemetria", "triagem de alertas"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"
-coverAlt: "A digital illustration featuring colorful abstract icons symbolizing various cyberattack types like ransomware, phishing, and denial of service against a dark background."
+coverAlt: "Ilustração digital com ícones abstratos e coloridos que representam vários tipos de ataques cibernéticos, como ransomware, phishing e negação de serviço, sobre um fundo escuro."
 coverCaption: ""
 ---
 
-An **attack type** is a category of technique, not a single tool. Ransomware, phishing, and credential stuffing each name a method an adversary repeats against many targets with minor variations. Learning the categories gives you a mental index for the alerts you will meet on a security team.
+**Um tipo de ataque** é uma categoria de técnicas, não uma ferramenta específica. Ransomware, phishing e credential stuffing são métodos que um adversário repete contra muitos alvos com pequenas variações. Conhecer essas categorias ajuda você a organizar mentalmente os alertas que encontrará em uma equipe de segurança.
 
-*Individual malware families appear and disappear within months. The attack categories below have stayed stable for years, and each one leaves a recognizable trail in endpoint, identity, network, or email telemetry.*
+*Famílias específicas de malware surgem e desaparecem em questão de meses. As categorias de ataque abaixo permanecem estáveis há anos, e cada uma deixa rastros reconhecíveis na telemetria de endpoints, identidades, rede ou e-mail.*
 
 <!--more-->
 
-## Principais conclusões
+## Principais pontos
 
-- **Learn the pattern, not the payload.** Attack categories change far slower than individual tools.
-- **Every category leaves evidence.** The detection work starts with knowing which telemetry records the activity.
-- **Reproduce an attack to understand it.** A home lab turns an abstract category into a recorded observation.
-- **Write up what you found.** A short investigation note proves the work and teaches you the evidence.
+- **Aprenda o padrão, não a carga útil.** As categorias de ataque mudam muito mais devagar do que as ferramentas individuais.
+- **Toda categoria deixa evidências.** A detecção começa quando você sabe qual telemetria registra a atividade.
+- **Reproduza um ataque para entendê-lo.** Um laboratório doméstico transforma uma categoria abstrata em uma observação registrada.
+- **Documente o que encontrou.** Uma breve nota de investigação comprova o trabalho e ensina quais evidências foram coletadas.
 
-## The Attack Types at a Glance
+## Os tipos de ataque em resumo
 
-The table below lists the categories security teams meet most often. Each later section describes the category, its common variants, and the data a defender reviews to find it.
+A tabela lista as categorias que as equipes de segurança encontram com mais frequência. As seções seguintes descrevem cada categoria, suas variantes comuns e os dados que um defensor analisa para detectá-la.
 
-| Attack type | What it does |
+| Tipo de ataque | O que faz |
 |---|---|
-| **Malware** | Runs malicious software such as ransomware, spyware, and trojans |
-| **Denial of service** | Floods a service with traffic until legitimate users lose access |
-| **Phishing** | Tricks a person into revealing credentials or running a malicious file |
-| **Spoofing** | Disguises an attacker as a trusted system, sender, or address |
-| **Identity-based attacks** | Abuses stolen or forged credentials to act as a valid user |
-| **Code injection** | Inserts malicious code into an application to change its behavior |
-| **Supply chain attacks** | Compromises a trusted vendor, library, or update channel |
-| **Social engineering** | Manipulates a person into taking an unsafe action |
-| **Insider threats** | Misuses access held by a current or former employee |
-| **DNS tunneling** | Encodes data inside DNS queries to move it past controls |
-| **IoT attacks** | Targets connected devices to pivot, spy, or join a botnet |
-| **AI-powered attacks** | Uses machine learning to generate content, impersonate people, or evade filters |
+| **Malware** | Executa software malicioso, como ransomware, spyware e trojans |
+| **Negação de serviço** | Inunda um serviço com tráfego até que usuários legítimos percam o acesso |
+| **Phishing** | Engana uma pessoa para que revele credenciais ou execute um arquivo malicioso |
+| **Spoofing** | Disfarça o atacante como um sistema, remetente ou endereço confiável |
+| **Ataques baseados em identidade** | Abusam de credenciais roubadas ou falsificadas para agir como um usuário válido |
+| **Injeção de código** | Insere código malicioso em um aplicativo para mudar seu comportamento |
+| **Ataques à cadeia de suprimentos** | Comprometem um fornecedor, uma biblioteca ou um canal de atualização confiável |
+| **Engenharia social** | Manipula uma pessoa para que tome uma ação insegura |
+| **Ameaças internas** | Abusam do acesso de um funcionário atual ou antigo |
+| **Tunelamento DNS** | Codifica dados em consultas DNS para passar pelos controles |
+| **Ataques a IoT** | Miram dispositivos conectados para se mover pela rede, espionar ou entrar em uma botnet |
+| **Ataques com IA** | Usam aprendizado de máquina para gerar conteúdo, imitar pessoas ou contornar filtros |
 
-**A note on scope:** these categories overlap. A phishing email often delivers malware, and a successful credential theft often precedes an identity-based attack. Treat the list as a set of lenses rather than rigid boxes.
+**Nota sobre o escopo:** essas categorias se sobrepõem. Um e-mail de phishing costuma distribuir malware, e o roubo de credenciais geralmente precede um ataque baseado em identidade. Veja a lista como um conjunto de perspectivas, não como divisões rígidas.
 
 ______
 
 ## Malware
 
-**Malware** covers any program built to harm, control, or profit from a system. The term spans ransomware, fileless malware, spyware, adware, trojans, worms, rootkits, keyloggers, and botnets.
+**Malware** é qualquer programa criado para prejudicar, controlar ou lucrar com um sistema. O termo inclui ransomware, malware sem arquivo, spyware, adware, trojans, worms, rootkits, keyloggers e botnets.
 
-| Subtype | Behavior |
+| Subtipo | Comportamento |
 |---|---|
-| **Ransomware** | Encrypts files and demands payment for the decryption key |
-| **Fileless malware** | Runs through built-in system tools and writes little to disk |
-| **Spyware** | Collects activity data without the user's knowledge |
-| **Trojan** | Poses as legitimate software to gain execution |
-| **Worm** | Copies itself across hosts without user action |
-| **Rootkit** | Hides inside the operating system to keep persistent control |
+| **Ransomware** | Criptografa arquivos e exige pagamento pela chave de descriptografia |
+| **Malware sem arquivo** | Usa ferramentas incorporadas ao sistema e grava pouco no disco |
+| **Spyware** | Coleta dados de atividade sem o conhecimento do usuário |
+| **Trojan** | Finge ser software legítimo para ser executado |
+| **Worm** | Copia a si próprio entre hosts sem ação do usuário |
+| **Rootkit** | Esconde-se no sistema operacional para manter o controle persistente |
 
-**Where the evidence lives:** endpoint detection and response tools, or **EDR**, record process trees, command lines, file writes, and registry changes. Even a fileless attack produces process and script-block telemetry, because the operating system still launches the tools it abuses.
+**Onde encontrar as evidências:** ferramentas de detecção e resposta de endpoints, ou **EDR**, registram árvores de processos, linhas de comando, gravações de arquivos e alterações no registro. Um ataque sem arquivo também gera telemetria de processos e scripts, pois o sistema operacional ainda inicia as ferramentas exploradas pelo ataque.
 
 ______
 
-## Denial of Service
+## Negação de serviço
 
-**A denial-of-service (DoS) attack** floods a target with requests until legitimate users lose access. **A distributed denial-of-service (DDoS) attack** repeats the same idea from many systems at once, which makes the traffic far harder to filter by source address.
+**Um ataque de negação de serviço (DoS)** inunda um alvo com solicitações até que usuários legítimos percam o acesso. **Um ataque distribuído de negação de serviço (DDoS)** repete a mesma ideia a partir de muitos sistemas ao mesmo tempo, o que dificulta muito mais filtrar o tráfego pelo endereço de origem.
 
-| Trait | DoS | DDoS |
+| Característica | DoS | DDoS |
 |---|---|---|
-| **Origin** | One system | Many systems |
-| **Blocking difficulty** | Moderate | High, since the sources span many networks |
-| **Typical impact** | Lost availability | Lost availability at larger scale |
+| **Origem** | Um sistema | Muitos sistemas |
+| **Dificuldade para bloquear** | Moderada | Alta, pois as origens se espalham por muitas redes |
+| **Impacto típico** | Perda de disponibilidade | Perda de disponibilidade em maior escala |
 
-**Where the evidence lives:** traffic volume against a baseline, connection counts per source, request-rate spikes, and error-rate changes. Availability monitoring often alerts before the security team sees the event.
+**Onde encontrar as evidências:** volume de tráfego comparado a uma linha de base, conexões por origem, picos na taxa de solicitações e mudanças na taxa de erros. O monitoramento de disponibilidade costuma alertar antes que a equipe de segurança perceba o evento.
 
 ______
 
 ## Phishing
 
-**Phishing** uses email, text messages, phone calls, or social media to push a person toward revealing credentials or running a malicious attachment. The category splits by target and channel.
+**Phishing** usa e-mails, mensagens de texto, telefonemas ou redes sociais para levar alguém a revelar credenciais ou executar um anexo malicioso. As variantes mudam de acordo com o alvo e o canal.
 
-| Variant | Target and channel |
+| Variante | Alvo e canal |
 |---|---|
-| **Spear phishing** | A specific person or team, usually by email |
-| **Whaling** | Senior or executive staff, often to move money or data |
-| **Smishing** | Fraudulent text messages |
-| **Vishing** | Fraudulent phone calls or voice messages |
+| **Spear phishing** | Uma pessoa ou equipe específica, geralmente por e-mail |
+| **Whaling** | Dirigentes e executivos, muitas vezes para movimentar dinheiro ou dados |
+| **Smishing** | Mensagens de texto fraudulentas |
+| **Vishing** | Telefonemas ou mensagens de voz fraudulentos |
 
-**Where the evidence lives:** mail-gateway logs, URL detonation results, attachment analysis, and user reports. A report from a cautious employee is one of the highest-value signals on this list.
+**Onde encontrar as evidências:** logs do gateway de e-mail, resultados da análise de URLs, análise de anexos e relatos de usuários. O relato de um funcionário atento é um dos sinais mais valiosos desta lista.
 
 ______
 
 ## Spoofing
 
-**Spoofing** hides an attacker behind a trusted identity so a target accepts the connection, message, or address. The disguise buys time and defeats checks built around trust.
+**Spoofing** esconde um atacante atrás de uma identidade confiável para que o alvo aceite uma conexão, mensagem ou endereço. O disfarce ganha tempo e contorna verificações baseadas em confiança.
 
-| Type | What gets faked |
+| Tipo | O que é falsificado |
 |---|---|
-| **Domain spoofing** | A lookalike website or email domain impersonating a real brand |
-| **Email spoofing** | The sender address on a message |
-| **ARP spoofing** | A local network address, to intercept traffic between two hosts |
+| **Spoofing de domínio** | Site ou domínio de e-mail parecido que imita uma marca real |
+| **Spoofing de e-mail** | O endereço do remetente de uma mensagem |
+| **Spoofing de ARP** | Um endereço de rede local para interceptar o tráfego entre dois hosts |
 
-**Where the evidence lives:** SPF, DKIM, and DMARC results in mail headers, domain registration age, certificate mismatches, and duplicate address warnings on a local network.
+**Onde encontrar as evidências:** resultados de SPF, DKIM e DMARC nos cabeçalhos de e-mail, idade do registro do domínio, incompatibilidades de certificados e alertas de endereço duplicado na rede local.
 
 ______
 
-## Identity-Based Attacks
+## Ataques baseados em identidade
 
-**Identity-based attacks** use a valid account rather than a defect in software. The attacker holds a working credential, so the activity sits close to normal use and blends into the background. This category drives a large share of the alerts a **security operations center (SOC)** handles each day.
+**Ataques baseados em identidade** usam uma conta válida em vez de uma falha de software. O atacante tem credenciais funcionais, então a atividade parece normal e se mistura ao ruído de fundo. Essa categoria gera uma parcela grande dos alertas que um **centro de operações de segurança (SOC)** trata todos os dias.
 
-*If you practice one category in a home lab, choose this one. The signals are rich, the exercises repeat, and the setup stays small.*
+*Se você praticar apenas uma categoria em um laboratório doméstico, escolha esta. Os sinais são ricos, os exercícios se repetem e a configuração é pequena.*
 
-| Technique | What happens |
+| Técnica | O que acontece |
 |---|---|
-| **Kerberoasting** | Requests a service ticket, then cracks the encrypted password offline |
-| **Man-in-the-middle (MITM)** | Sits between two parties to read or alter a session |
-| **Pass-the-hash** | Reuses a stolen password hash to open a new session |
-| **Golden ticket** | Forges a Kerberos ticket-granting ticket for broad domain access |
-| **Silver ticket** | Forges a service ticket for one specific service |
-| **Credential harvesting** | Collects usernames and passwords in bulk |
-| **Credential stuffing** | Replays one set of credentials across many unrelated sites |
-| **Password spraying** | Tries one common password across many accounts |
-| **Brute force** | Guesses many passwords against one account |
-| **Downgrade** | Forces a connection into a weaker protocol version |
+| **Kerberoasting** | Solicita um tíquete de serviço e depois quebra a senha criptografada offline |
+| **Ataque man-in-the-middle (MITM)** | Fica entre duas partes para ler ou alterar uma sessão |
+| **Ataque de reutilização do hash (Pass-the-Hash)** | Reutiliza um hash de senha roubado para abrir uma nova sessão |
+| **Golden ticket** | Falsifica um tíquete Kerberos para obter amplo acesso ao domínio |
+| **Silver ticket** | Falsifica um tíquete de serviço para um serviço específico |
+| **Coleta de credenciais** | Reúne nomes de usuário e senhas em grande quantidade |
+| **Credential stuffing** | Reutiliza o mesmo conjunto de credenciais em muitos sites sem relação entre si |
+| **Password spraying** | Experimenta uma senha comum em muitas contas |
+| **Força bruta** | Experimenta muitas senhas contra uma conta |
+| **Downgrade** | Força uma conexão a usar uma versão mais fraca do protocolo |
 
-**Where the evidence lives:** sign-in records, failed-authentication counts, token anomalies, impossible-travel flags, and identity risk detections. **Adversary-in-the-middle (AiTM) phishing** belongs here too, because the attacker steals a live session token rather than a password, and the replay from unfamiliar infrastructure trips the identity risk engine.
+**Onde encontrar as evidências:** registros de login, contagem de autenticações malsucedidas, anomalias de tokens, alertas de deslocamentos impossíveis e detecções de risco de identidade. **O phishing adversary-in-the-middle (AiTM)** também se encaixa aqui, pois o atacante rouba um token de sessão ativo em vez de uma senha. A reutilização do token a partir de uma infraestrutura desconhecida aciona o mecanismo de risco de identidade.
 
 ______
 
-## Code Injection
+## Injeção de código
 
-**Code injection** places attacker-controlled code inside a vulnerable application so the application runs it as part of normal work. The application, not the attacker, carries out the harmful action.
+**Injeção de código** coloca código controlado pelo atacante em um aplicativo vulnerável para que o aplicativo o execute como parte do trabalho normal. É o aplicativo, não o atacante, que realiza a ação prejudicial.
 
-| Type | Target |
+| Tipo | Alvo |
 |---|---|
-| **SQL injection** | A database query built from unvalidated input |
-| **Cross-site scripting (XSS)** | A web page which renders attacker script in a visitor's browser |
-| **Malvertising** | A legitimate ad slot filled with malicious code |
-| **Data poisoning** | A training set for an AI or machine learning model |
+| **Injeção SQL** | Uma consulta ao banco de dados construída com entradas não validadas |
+| **Cross-site scripting (XSS)** | Uma página da Web que executa o script do atacante no navegador de um visitante |
+| **Malvertising** | Um espaço publicitário legítimo preenchido com código malicioso |
+| **Envenenamento de dados** | Um conjunto de treinamento para um modelo de IA ou aprendizado de máquina |
 
-**Where the evidence lives:** web application logs, database query records, content security policy reports, and request patterns which differ from normal application use.
-
-______
-
-## Supply Chain Attacks
-
-**A supply chain attack** targets a trusted third party whose product or service reaches many customers. A **software supply chain attack** injects malicious code into an application, library, or update so every user of the product receives it. A **hardware supply chain attack** compromises a physical component before it ships.
-
-*Modern software leans on third-party libraries, so one compromised dependency reaches far past the original vendor.*
-
-**Where the evidence lives:** software composition analysis, build-pipeline records, unexpected outbound connections from a trusted update, and integrity checks on shipped artifacts.
+**Onde encontrar as evidências:** logs de aplicativos Web, registros de consultas ao banco de dados, relatórios da política de segurança de conteúdo e padrões de solicitações diferentes do uso normal do aplicativo.
 
 ______
 
-## Social Engineering
+## Ataques à cadeia de suprimentos
 
-**Social engineering** uses psychological pressure to move a person toward an unsafe action. The attacker appeals to authority, urgency, fear, money, or trust.
+**Um ataque à cadeia de suprimentos** mira um terceiro confiável cujo produto ou serviço chega a muitos clientes. **Um ataque à cadeia de suprimentos de software** injeta código malicioso em um aplicativo, biblioteca ou atualização, levando-o a todos os usuários do produto. **Um ataque à cadeia de suprimentos de hardware** compromete um componente físico antes do envio.
 
-| Technique | Approach |
+*O software moderno depende de bibliotecas de terceiros. Por isso, uma dependência comprometida chega muito além do fornecedor original.*
+
+**Onde encontrar as evidências:** análise da composição de software, registros do pipeline de compilação, conexões de saída inesperadas de uma atualização confiável e verificações de integridade dos artefatos distribuídos.
+
+______
+
+## Engenharia social
+
+**Engenharia social** usa pressão psicológica para levar uma pessoa a uma ação insegura. O atacante apela à autoridade, urgência, medo, dinheiro ou confiança.
+
+| Técnica | Abordagem |
 |---|---|
-| **Pretexting** | Invents a believable scenario to gain trust |
-| **Business email compromise (BEC)** | Impersonates a trusted colleague to redirect a payment or share data |
-| **Disinformation** | Spreads false narratives through social media and bots |
-| **Quid pro quo** | Offers a reward in exchange for information or access |
-| **Honeytrap** | Builds a false relationship to extract money, data, or access |
-| **Tailgating** | Follows an employee through a secured door |
+| **Pretexting** | Inventa uma situação plausível para ganhar confiança |
+| **Comprometimento de e-mail comercial (BEC)** | Imita um colega confiável para redirecionar um pagamento ou obter dados |
+| **Desinformação** | Espalha narrativas falsas por redes sociais e bots |
+| **Quid pro quo** | Oferece uma recompensa em troca de informações ou acesso |
+| **Armadilha romântica** | Constrói uma relação falsa para obter dinheiro, dados ou acesso |
+| **Tailgating** | Segue um funcionário por uma porta protegida |
 
-**Where the evidence lives:** email authentication results, unusual payment-change requests, helpdesk records, and physical access logs.
-
-______
-
-## Insider Threats
-
-**An insider threat** is misuse of access by a current or former employee, contractor, or partner. Some insiders act with intent, driven by money or grievance. Others act through negligence, such as leaving credentials in a shared document.
-
-*Negligent insiders appear more often than malicious ones in incident reports, and both call for the same detective control: compare access against a baseline for the role.*
-
-**Where the evidence lives:** data-transfer volume, activity outside normal hours, privilege changes, and bulk downloads from sensitive repositories.
+**Onde encontrar as evidências:** resultados da autenticação de e-mail, pedidos incomuns de alteração de pagamentos, registros da central de atendimento e logs de acesso físico.
 
 ______
 
-## DNS Tunneling
+## Ameaças internas
 
-**DNS tunneling** encodes data inside DNS queries and responses. Almost every network permits DNS, so the technique moves data past controls built to inspect web traffic.
+**Uma ameaça interna** é o uso indevido de acesso por um funcionário atual ou antigo, contratado ou parceiro. Algumas pessoas agem de propósito, motivadas por dinheiro ou ressentimento. Outras agem por negligência, como ao deixar credenciais em um documento compartilhado.
 
-*Detection leans on volume and shape. A single host sending thousands of queries to one domain stands apart from a normal baseline, and unusually long subdomains hint at an encoded payload.*
+*Relatórios de incidentes mencionam pessoas internas negligentes com mais frequência do que as maliciosas. Nos dois casos, aplica-se o mesmo controle de detecção: compare os acessos a uma linha de base definida para a função.*
 
-**Where the evidence lives:** DNS query records, query length and volume per host, uncommon record types such as TXT, and lookups to domains registered days earlier.
-
-______
-
-## IoT-Based Attacks
-
-**An IoT-based attack** targets a connected device such as a camera, printer, thermostat, or sensor. Weak default credentials and rare firmware updates make these devices a common foothold. Once compromised, a device joins a botnet, leaks data, or becomes a route into the wider network.
-
-*The 5G rollout adds connected devices at scale, and each new device is another target with a long patch cycle.*
-
-**Where the evidence lives:** device inventory, outbound connection patterns, abnormal data transfer from a device with a fixed role, and firmware version drift across a fleet.
+**Onde encontrar as evidências:** volume de transferência de dados, atividade fora do horário normal, alterações de privilégios e downloads em massa de repositórios confidenciais.
 
 ______
 
-## AI-Powered Attacks
+## Tunelamento DNS
 
-**AI-powered attacks** apply machine learning to the attacker's side of the work.
+**Tunelamento DNS** codifica dados em consultas e respostas DNS. Quase todas as redes permitem DNS, então essa técnica transporta dados para além dos controles criados para inspecionar o tráfego da Web.
 
-| Technique | Use |
+*A detecção depende do volume e do formato. Um host que envia milhares de consultas para um único domínio se destaca da linha de base normal, e subdomínios incomumente longos indicam uma carga útil codificada.*
+
+**Onde encontrar as evidências:** registros de consultas DNS, comprimento e volume das consultas por host, tipos de registro raros como TXT e consultas a domínios registrados poucos dias antes.
+
+______
+
+## Ataques a dispositivos IoT
+
+**Um ataque a IoT** mira um dispositivo conectado, como uma câmera, impressora, termostato ou sensor. Credenciais padrão fracas e atualizações de firmware pouco frequentes tornam esses dispositivos pontos de entrada comuns. Depois de comprometido, um dispositivo entra em uma botnet, vaza dados ou cria um caminho para a rede maior.
+
+*A implantação do 5G acrescenta dispositivos conectados em grande escala, e cada dispositivo novo é outro alvo com um ciclo de atualização longo.*
+
+**Onde encontrar as evidências:** inventário de dispositivos, padrões de conexões de saída, transferência anormal de dados de um dispositivo com função fixa e diferenças de versão de firmware em uma frota.
+
+______
+
+## Ataques com IA
+
+**Ataques com IA** aplicam aprendizado de máquina ao trabalho do atacante.
+
+| Técnica | Uso |
 |---|---|
-| **Adversarial AI/ML** | Manipulates training data or inputs to mislead a model |
-| **Dark AI** | Applies AI and machine learning specifically to exploit vulnerabilities |
-| **Deepfake** | Generates realistic fake audio, video, or images |
-| **AI-generated social engineering** | Runs convincing chat or voice conversations at scale |
+| **IA/ML adversarial** | Manipula dados de treinamento ou entradas para enganar um modelo |
+| **Dark AI** | Usa IA e aprendizado de máquina especificamente para explorar vulnerabilidades |
+| **Deepfake** | Gera áudio, vídeo ou imagens falsas e realistas |
+| **Engenharia social gerada por IA** | Conduz conversas convincentes por chat ou voz em grande escala |
 
-*A deepfake voice call or a fluent phishing chat raises the credibility of an old trick. The underlying technique stays familiar, which is why detection skills built on behavior outlast detection skills tied to one tool.*
+*Uma ligação com voz deepfake ou uma conversa de phishing fluente aumenta a credibilidade de um truque antigo. A técnica subjacente continua familiar, por isso habilidades de detecção baseadas em comportamento duram mais do que habilidades ligadas a uma única ferramenta.*
 
-**Where the evidence lives:** content provenance signals, out-of-band verification for money or access requests, and behavioral anomalies around identity and payment changes.
+**Onde encontrar as evidências:** sinais de procedência do conteúdo, verificação por outro canal de pedidos de dinheiro ou acesso e anomalias comportamentais ligadas a mudanças de identidade e pagamentos.
 
 ______
 
-## Mapping Attacks to Telemetry
+## Associar ataques à telemetria
 
-Each category feeds a different data source. The table below pairs them, which gives you a starting point for detection work.
+Cada categoria se relaciona a uma fonte de dados diferente. A tabela faz essa associação e oferece um ponto de partida para o trabalho de detecção.
 
-| Attack type | Primary telemetry |
+| Tipo de ataque | Telemetria principal |
 |---|---|
-| **Malware** | EDR process, file, and registry records |
-| **Denial of service** | Network flow and availability monitors |
-| **Phishing** | Mail gateway and URL detonation records |
-| **Spoofing** | Mail authentication and network address records |
-| **Identity-based** | Sign-in and identity protection records |
-| **Code injection** | Web application and database query logs |
-| **Supply chain** | Build pipeline and dependency inventory |
-| **Social engineering** | Mail, helpdesk, and physical access records |
-| **Insider threat** | Data access and transfer records |
-| **DNS tunneling** | DNS query records |
-| **IoT** | Device inventory and outbound flow records |
-| **AI-powered** | Identity, payment, and content provenance records |
+| **Malware** | Registros EDR de processos, arquivos e registro do sistema |
+| **Negação de serviço** | Fluxos de rede e monitores de disponibilidade |
+| **Phishing** | Registros do gateway de e-mail e da análise de URLs |
+| **Spoofing** | Registros de autenticação de e-mail e de endereços de rede |
+| **Baseado em identidade** | Registros de login e proteção de identidade |
+| **Injeção de código** | Logs de aplicativos Web e consultas ao banco de dados |
+| **Cadeia de suprimentos** | Pipeline de compilação e inventário de dependências |
+| **Engenharia social** | Registros de e-mail, central de atendimento e acesso físico |
+| **Ameaça interna** | Registros de acesso e transferência de dados |
+| **Tunelamento DNS** | Registros de consultas DNS |
+| **IoT** | Inventário de dispositivos e registros de fluxos de saída |
+| **Baseado em IA** | Registros de identidade, pagamentos e procedência do conteúdo |
 
-*Begin detection work with the telemetry column. A useful rule grows from a known data source and a known behavior, not from a tool name.*
+*Comece a detecção pela coluna de telemetria. Uma regra útil vem de uma fonte de dados e de um comportamento conhecidos, não do nome de uma ferramenta.*
 
-**Categories overlap during an incident.** A phishing message can lead to credential theft, malware execution, and an identity-based intrusion. Label the initial access technique, then record the follow-on behaviors separately. This keeps one event from becoming four unrelated alerts and gives your investigation a clearer timeline.
+**As categorias se sobrepõem durante um incidente.** Uma mensagem de phishing pode levar ao roubo de credenciais, à execução de malware e a uma invasão baseada em identidade. Classifique a técnica de acesso inicial e registre separadamente os comportamentos seguintes. Assim, um evento não vira quatro alertas sem relação, e a investigação ganha uma linha do tempo mais clara.
 
 ______
 
-## Practice Detecting Them in a Lab
+## Pratique a detecção em um laboratório
 
-A category stays abstract until you watch it happen. A home lab lets you generate the activity, capture the telemetry, and compare the alert against the raw record. The [career video on building a security operations center](https://www.youtube.com/watch?v=s3g8o7Np1_g) shows the full build for gaining job experience before being hired.
+Uma categoria continua abstrata até você observar sua ocorrência. Um laboratório doméstico permite gerar a atividade, coletar a telemetria e comparar o alerta ao registro bruto. O [vídeo de carreira sobre a criação de um centro de operações de segurança](https://www.youtube.com/watch?v=s3g8o7Np1_g) mostra a montagem completa para você ganhar experiência profissional antes de ser contratado.
 
 {{< youtube id="s3g8o7Np1_g" >}}
 
-Start with the identity category. Create a test user, enable sign-in logging, and run a sequence of failed and successful sign-ins. Then read the sign-in record and write down the fields which separate normal use from the exercise.
+Comece pela categoria de identidade. Crie um usuário de teste, habilite o registro de login e execute uma sequência de logins malsucedidos e bem-sucedidos. Depois leia o registro e anote os campos que distinguem o uso normal do exercício.
 
-**A repeatable exercise:**
+**Um exercício repetível:**
 
-1. **Pick one category** from the telemetry table above.
-2. **Reproduce a benign version** of the activity against your own test system or account.
-3. **Collect the telemetry** the category produces.
-4. **Write the detection idea** as a rule, a saved search, or a query.
-5. **Test the rule** against the exercise and confirm it fires on the intended behavior.
-6. **Record the limits** of the rule, including the activity it misses.
+1. **Escolha uma categoria** na tabela de telemetria acima.
+2. **Reproduza uma versão inofensiva** da atividade no seu sistema ou conta de teste.
+3. **Colete a telemetria** que a categoria produz.
+4. **Descreva a ideia de detecção** como regra, busca salva ou consulta.
+5. **Teste a regra** com o exercício e confirme se ela é acionada pelo comportamento esperado.
+6. **Registre os limites** da regra, inclusive as atividades que ela não detecta.
 
-The [Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/) covers the environment build in detail: licensing, network segmentation, log collection, and identity control testing. The [Mad Hat Cyber Range guide](https://madhat.io/pages/cyber-range-guide) expands the same idea into a workshop-grade build with an attack, detect, and defend exercise.
+O guia [Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/) detalha a montagem do ambiente: licenciamento, segmentação de rede, coleta de logs e testes de controle de identidade. O guia [Mad Hat Cyber Range](https://madhat.io/pages/cyber-range-guide) amplia a mesma ideia com uma estrutura de workshop que inclui exercícios de ataque, detecção e defesa.
 
-For a consistent vocabulary, map the observed behavior to the relevant [MITRE ATT&CK technique](https://attack.mitre.org/). Treat the mapping as an analyst aid, not as proof of attribution. Keep the raw event, query, rule version, and known blind spots with the exercise record.
+Para usar vocabulário consistente, associe o comportamento observado à técnica correspondente do [MITRE ATT&CK](https://attack.mitre.org/). Trate essa associação como um auxílio para analistas, não como prova de atribuição. Guarde o evento bruto, a consulta, a versão da regra e os pontos cegos conhecidos junto ao registro do exercício.
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
-  Read the Microsoft SOC Home Lab Guide
+  Leia o guia Microsoft SOC Home Lab
 {{< /centerbutton >}}
 
 ______
 
 ## Próximos passos
 
-Start with one category and one exercise. Add a second category after you complete and document the first. The goal is depth on a single investigation, not a checklist of tools.
+Comece com uma categoria e um exercício. Adicione uma segunda categoria depois de concluir e documentar a primeira. O objetivo é aprofundar uma investigação, não criar uma lista de ferramentas.
 
-- **[Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/)** builds the environment for these exercises.
-- **[Building an IT home lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** covers the infrastructure layer underneath a security lab.
-- **[IT resume writing tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** shows how to present a documented lab as practical experience.
-- **[The top five cyber attack vectors and mitigations](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** narrows the list to the vectors seen most often.
+- **[Guia Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/)** monta o ambiente para esses exercícios.
+- **[Como montar um laboratório de TI em casa](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** aborda a infraestrutura por trás de um laboratório de segurança.
+- **[Dicas para escrever um currículo de TI](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** mostra como apresentar um laboratório documentado como experiência prática.
+- **[Os cinco principais vetores de ataque cibernético e suas mitigações](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** restringe a lista aos vetores mais frequentes.
 
-**Source material:** the attack categories and their subtypes follow [CrowdStrike's overview of common cyberattacks](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) by Kurt Baker. Product and reference links point to Microsoft documentation.
+**Fontes:** as categorias de ataque e seus subtipos seguem a [visão geral da CrowdStrike sobre ataques cibernéticos comuns](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) de Kurt Baker. Os links de produtos e referências apontam para a documentação da Microsoft.

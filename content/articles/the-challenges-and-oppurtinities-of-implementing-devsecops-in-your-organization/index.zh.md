@@ -1,10 +1,11 @@
 ---
 title: "DevSecOps：应对挑战，抓住机遇。"
 date: 2023-04-15
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "本文探讨了 DevSecOps 在企业中面临的挑战和机遇，包括更好的协作、更高的可扩展性、与政府法规的整合等。"
-tags: ["DevSecOps", "信息安全", "安全测试", "敏捷方法", "合作", "政府法规", "自动化", "应用开发", "扩展性", "连续监测", "NIST 准则", "反馈回路", "模块性", "脆弱性", "质量保证", "网络安全", "信息技术基础设施", "软件开发工具", "风险管理"]
+tags: ["DevSecOps", "信息安全", "安全测试", "敏捷方法", "协作", "政府法规", "自动化", "应用开发", "可扩展性", "持续监控", "NIST 指南", "反馈循环", "模块化", "漏洞", "质量保证", "网络安全", "IT 基础设施", "软件开发工具", "风险管理"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "一群人手拉手站在山顶，前景是拼图的拼接。"
 coverCaption: ""

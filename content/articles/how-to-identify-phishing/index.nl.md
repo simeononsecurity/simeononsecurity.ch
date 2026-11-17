@@ -1,10 +1,11 @@
 ---
 title: "Hoe herken je Phishing e-mails, sms'jes en telefoontjes?"
 date: 2023-03-01
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Leer hoe u pogingen tot phishing in e-mails, sms'jes en telefoontjes kunt herkennen om uw persoonlijke gegevens veilig te houden."
-tags: ["phishing", "online beveiliging", "e-mailbeveiliging", "cyberbeveiliging", "internetveiligheid", "phishing e-mails", "phishing teksten", "phishing oproepen", "digitale bedreigingen", "identiteitsdiefstal", "gegevensbescherming", "online fraude", "online oplichting", "online privacy", "tips voor online veiligheid", "cybercriminaliteit", "informatiebeveiliging", "wachtwoordbeveiliging", "gegevensbeveiliging", "veiligheidsbewustzijn"]
+tags: ["phishing", "online beveiliging", "e-mailbeveiliging", "cyberbeveiliging", "internetveiligheid", "phishing e-mails", "phishing teksten", "phishing oproepen", "digitale bedreigingen", "identiteitsdiefstal", "gegevensbescherming", "online fraude", "online oplichting", "privacy op internet", "tips voor online veiligheid", "cybercriminaliteit", "informatiebeveiliging", "wachtwoordbeveiliging", "gegevensbeveiliging", "veiligheidsbewustzijn"]
 cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Een afbeelding van een stripfiguur met een superheldenkostuum en een schild die een hengel met een phishingmail erop blokkeert."
 coverCaption: ""
@@ -59,7 +60,7 @@ Phishing-oproepen komen vaak van **onbekende nummers** of nummers die van een le
 
 ## Toepassen
 
-Nu u weet welke soorten berichten bij phishingpogingen worden gebruikt, is het tijd om die kennis toe te passen. Als u een bericht ontvangt dat voldoet aan een van deze typen, wees dan achterdochtig. Als het bericht afkomstig is van een financiële instelling of een ander bedrijf, klik dan niet op links en geef geen persoonlijke informatie. Bel in plaats daarvan de klantenservice van het bedrijf om de echtheid van het bericht te verifiëren.
+Nu u weet welke soorten berichten bij phishingpogingen worden gebruikt, is het tijd om die kennis **toe te passen**. Als u een bericht ontvangt dat voldoet aan een van deze typen, wees dan achterdochtig. Als het bericht afkomstig is van een financiële instelling of een ander bedrijf, klik dan niet op links en geef geen persoonlijke informatie. Bel in plaats daarvan de klantenservice van het bedrijf om de echtheid van het bericht te verifiëren.
 
 ## Verspreid het woord
 

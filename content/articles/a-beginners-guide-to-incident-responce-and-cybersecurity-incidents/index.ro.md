@@ -1,15 +1,16 @@
 ---
 title: "Ghidul începătorului pentru răspunsul la incidentele de securitate cibernetică"
 date: 2023-03-16
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Învățați elementele de bază ale răspunsului la incidente și gestionarea incidentelor de securitate cibernetică cu acest ghid pentru începători."
 tags: ["răspunsul la incidente", "securitate cibernetică", "ghidul începătorului", "protecția datelor", "securitatea datelor", "Securitate IT", "securitatea rețelei", "atacuri cibernetice", "securitatea informațiilor", "criminalitate informatică", "securitate digitală", "Infrastructura IT", "încălcări ale datelor", "amenințări cibernetice", "apărare cibernetică", "gestionarea incidentelor", "recuperarea datelor", "planificarea securității", "gestionarea riscurilor", "strategia de securitate cibernetică"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
+cover: "/img/cover/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents.webp"
 coverAlt: "O imagine de desen animat a unui supererou al securității cibernetice care apără un oraș împotriva amenințărilor cibernetice."
 coverCaption: ""
 ---
- Ghidul de răspuns la incidentele de securitate cibernetică**
+**Ghidul de răspuns la incidentele de securitate cibernetică**
 
 Pe măsură ce lumea devine din ce în ce mai dependentă de tehnologie, **securitatea cibernetică** a devenit o preocupare din ce în ce mai importantă pentru persoane și întreprinderi. Unul dintre cele mai importante aspecte ale securității cibernetice este **răspunsul la incidente** și gestionarea acestora. În acest ghid pentru începători, vom explora elementele de bază ale răspunsului la incidente și modul în care vă puteți pregăti pe dumneavoastră și organizația dumneavoastră pentru incidente de securitate cibernetică.
 

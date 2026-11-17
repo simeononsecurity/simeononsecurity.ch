@@ -1,10 +1,11 @@
 ---
 title: "O que é Cibersegurança?"
 date: 2023-02-12
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Aprenda os fundamentos da segurança cibernética, incluindo tipos de ameaças cibernéticas, a importância da segurança cibernética e as etapas para melhorar a segurança online."
-tags: ["Cíber segurança", "Ameaças cibernéticas", "segurança on-line", "Protegendo dados", "Vírus", "Malware", "golpes de phishing", "hackers", "segurança nacional", "Propriedade intelectual", "Privacidade pessoal"]
+tags: ["Cíber segurança", "Ameaças cibernéticas", "segurança on-line", "Protegendo dados", "Vírus", "software malicioso", "golpes de phishing", "piratas informáticos", "segurança nacional", "Propriedade intelectual", "Privacidade pessoal"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Uma imagem de uma pessoa sentada em um computador com uma expressão preocupada enquanto um hacker ou cibercriminoso é mostrado na tela, representando os perigos das ameaças cibernéticas e a importância da segurança cibernética"
 coverCaption: ""
@@ -46,7 +47,7 @@ ______
 
 Para melhorar a segurança cibernética, os indivíduos podem tomar várias medidas, incluindo:
 
-- **Use senhas fortes e atualize-as regularmente**
+- **Use [senhas fortes](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) e atualize-as regularmente**
 - **Mantenha o software e os sistemas de segurança atualizados**
 - **Tenha cuidado ao abrir e-mails ou clicar em links de fontes desconhecidas**
 - **Use software antivírus e antimalware**

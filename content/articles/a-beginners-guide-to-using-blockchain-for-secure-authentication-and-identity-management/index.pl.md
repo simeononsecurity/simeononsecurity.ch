@@ -1,11 +1,12 @@
 ---
 title: "Przewodnik dla początkujących po Blockchain dla bezpiecznego zarządzania tożsamością"
 date: 2023-04-06
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Z tego przewodnika dla początkujących dowiesz się, jak wykorzystać technologię blockchain do bezpiecznego uwierzytelniania i zarządzania tożsamością."
 tags: ["blockchain", "zarządzanie tożsamością", "uwierzytelnianie", "zdecentralizowana tożsamość", "uwierzytelnianie bez hasła", "inteligentne kontrakty", "kryptografia klucza publicznego", "Kryptografia klucza prywatnego", "niezmienne rekordy", "system zdecentralizowany", "pojedyncze logowanie", "weryfikacja poświadczeń", "skalowalność", "prywatność", "przyjęcie", "tożsamość cyfrowa", "technologia rozproszonego rejestru", "cyberbezpieczeństwo", "prywatność danych", "technologia"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.webp"
+cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "Postać z kreskówki trzymająca klucz w jednej ręce i blockchain w drugiej, otoczona siecią połączonych węzłów i bloków."
 coverCaption: ""
 ---

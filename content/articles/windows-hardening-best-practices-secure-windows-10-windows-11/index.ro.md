@@ -1,12 +1,12 @@
 ---
 title: "Cele mai bune practici de întărire pentru Windows 10 și 11"
 date: 2023-07-27
-lastmod: 2026-10-21
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Descoperiți strategii eficiente pentru îmbunătățirea securității sistemelor Windows 10 și Windows 11 prin tehnici complete de întărire și bune practici."
-genre: ["Întărirea ferestrelor", "Securitatea Windows", "Întărirea Windows 10", "Întărirea Windows 11", "Cele mai bune practici de securitate Windows", "Sfaturi de securitate pentru Windows", "Instrucțiuni de securitate pentru Windows", "Securizarea sistemelor de operare Windows", "Întărirea sistemului Windows", "Măsuri de securitate pentru Windows"]
-tags: ["Întărirea ferestrelor", "Securitatea Windows", "Windows 10", "Windows 11", "securitatea sistemului de operare", "Windows Defender", "Controlul contului de utilizator", "Criptare BitLocker", "configurația firewall-ului", "Politicile AppLocker", "Actualizări Windows", "parole puternice", "backup de date", "Windows Hello", "Boot securizat", "TPM", "Microsoft Defender Antivirus", "Windows Sandbox", "Microsoft Defender Application Guard", "Acces controlat la dosare", "Cele mai bune practici pentru securizarea Windows 10 și Windows 11", "Cum să întăriți sistemele de operare Windows", "Măsuri de securitate Windows pentru persoane și organizații", "Îmbunătățirea securității sistemului Windows", "Protejarea datelor cu criptarea BitLocker", "Izolarea sesiunilor de browser cu Microsoft Defender Application Guard", "Sfaturi și orientări de securitate pentru Windows 10", "Implementarea caracteristicilor de securitate Windows", "Securizarea Windows cu izolare bazată pe hardware", "Asigurarea integrității sistemului Windows"]
+genre: ["Întărirea sistemului Windows", "Securitatea Windows", "Întărirea securității Windows 10", "Întărirea securității Windows 11", "Cele mai bune practici de securitate Windows", "Sfaturi de securitate pentru Windows", "Instrucțiuni de securitate pentru Windows", "Securizarea sistemelor de operare Windows", "Întărirea sistemului Windows", "Măsuri de securitate pentru Windows"]
+tags: ["Întărirea sistemului Windows", "Securitatea Windows", "Windows 10", "Windows 11", "securitatea sistemului de operare", "Windows Defender", "Controlul contului de utilizator", "Criptare BitLocker", "configurația firewall-ului", "Politicile AppLocker", "Actualizări Windows", "parole puternice", "backup de date", "Windows Hello", "Boot securizat", "TPM", "Microsoft Defender Antivirus", "Windows Sandbox", "Microsoft Defender Application Guard", "Acces controlat la dosare", "Cele mai bune practici pentru securizarea Windows 10 și Windows 11", "Cum să întăriți sistemele de operare Windows", "Măsuri de securitate Windows pentru persoane și organizații", "Îmbunătățirea securității sistemului Windows", "Protejarea datelor cu criptarea BitLocker", "Izolarea sesiunilor de browser cu Microsoft Defender Application Guard", "Sfaturi și orientări de securitate pentru Windows 10", "Implementarea caracteristicilor de securitate Windows", "Securizarea Windows cu izolare bazată pe hardware", "Asigurarea integrității sistemului Windows"]
 cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp"
 coverAlt: "O ilustrație de desen animat a unui scut care protejează logo-ul Windows de diverse amenințări cibernetice."
 coverCaption: "Protejați-vă fortăreața Windows cu tehnici eficiente de întărire."
@@ -22,11 +22,11 @@ ______
 
 Hardening Windows este procesul de întărire a securității unui sistem de operare Windows. Acesta implică configurarea diferitelor setări și implementarea măsurilor de securitate pentru a proteja împotriva accesului neautorizat, a programelor malware și a altor amenințări. Prin întărirea sistemului Windows, puteți minimiza riscurile asociate atacurilor cibernetice și puteți asigura confidențialitatea, integritatea și disponibilitatea datelor dumneavoastră.
 
-### [Hardening Windows 10](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Întărirea securității Windows 10](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 10 este unul dintre cele mai utilizate sisteme de operare la nivel global. Pentru a vă întări mediul Windows 10, luați în considerare următoarele bune practici:
 
-#### 1. [**Enable Windows Defender**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+#### 1. [**Activați Windows Defender**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 
 Windows Defender este o **soluție antivirus robustă** inclusă în Windows 10. Aceasta oferă o serie de caracteristici de securitate pentru a vă proteja sistemul de diferite tipuri de **malware**, inclusiv **viruși, programe spion și ransomware**. Prin activarea Windows Defender, puteți îmbunătăți semnificativ securitatea mediului Windows 10.
 
@@ -34,9 +34,9 @@ Pentru a activa Windows Defender, urmați acești pași:
 
 - Deschideți aplicația **Windows Security** făcând clic pe pictograma Windows Security din bara de activități sau căutând "Windows Security" în meniul Start.
 - În aplicația Windows Security, faceți clic pe "**Virus & threat protection**" (Protecție împotriva virușilor și amenințărilor) în panoul de navigare din stânga.
-- Faceți clic pe "**Manage settings**" (Gestionați setările**) în secțiunea "Virus & threat protection settings" (Setări de protecție împotriva virușilor și amenințărilor).
+- Faceți clic pe "**Manage settings**" (Gestionați setările) în secțiunea "Virus & threat protection settings" (Setări de protecție împotriva virușilor și amenințărilor).
 - Asigurați-vă că comutatorul "**Protecție în timp real**" este setat pe "**Activat**". Acest lucru permite ca Windows Defender să scaneze în mod activ și să vă protejeze sistemul în timp real.
-- În plus, puteți personaliza opțiunile de scanare și excluderile făcând clic pe "**Scan options**" (Opțiuni de scanare**) și, respectiv, pe "**Add or remove exclusions**" (Adăugare sau eliminare excluderi**).
+- În plus, puteți personaliza opțiunile de scanare și excluderile făcând clic pe "**Scan options**" (Opțiuni de scanare&#8203;**) și, respectiv, pe "**&#8203;Add or remove exclusions&#8203;**" (Adăugare sau eliminare excluderi**).
 
 Este esențial să **actualizați în mod regulat** Windows Defender pentru a vă asigura că dispune de cele mai recente **definiții de malware** și **îmbunătățiri de securitate**. Microsoft lansează periodic actualizări pentru a aborda noile amenințări și vulnerabilități. Pentru a actualiza Windows Defender, puteți urma acești pași:
 
@@ -49,7 +49,7 @@ Activând și menținând Windows Defender actualizat, vă puteți proteja în m
 
 Nu uitați că, deși Windows Defender oferă un nivel solid de protecție, este esențial să îl completați cu **abitudini de navigare sigure**, **actualizări regulate de software** și alte măsuri de securitate pentru a menține un mediu Windows 10 sigur.
 
-#### 2. [**Keep Windows 10 Updated**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
+#### 2. [**Mențineți Windows 10 actualizat**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
 Instalarea regulată a actualizărilor Windows este un aspect critic al **întăritorului Windows 10**. Aceste actualizări includ **patch-uri de securitate**, remedieri de erori și îmbunătățiri de performanță care ajută la **corectarea vulnerabilităților de securitate** și la îmbunătățirea stabilității sistemului.
 
 Microsoft lansează **actualizări regulate** pentru Windows 10 pentru a rezolva problemele de securitate nou descoperite și pentru a îmbunătăți experiența generală a utilizatorului. Menținându-vă sistemul actualizat, vă asigurați că sistemul dvs. de operare dispune de cele mai recente **îmbunătățiri de securitate** pentru a vă apăra împotriva amenințărilor emergente.
@@ -57,7 +57,7 @@ Microsoft lansează **actualizări regulate** pentru Windows 10 pentru a rezolva
 Pentru a menține Windows 10 actualizat, puteți urma acești pași:
 
 1. **Activați Actualizările automate**: În mod implicit, Windows 10 este configurat să descarce și să instaleze automat actualizările. Acest lucru asigură faptul că sistemul dvs. primește actualizările necesare fără intervenție manuală. Pentru a verifica dacă sunt activate actualizările automate, urmați acești pași:
-   - Accesați **Settings** (Setări**) făcând clic pe meniul Start și selectând pictograma cu unelte.
+   - Accesați **Settings** (Setări) făcând clic pe meniul Start și selectând pictograma cu unelte.
    - Faceți clic pe **Update & Security**.
    - În panoul de navigare din stânga, faceți clic pe **Windows Update**.
    - Asigurați-vă că opțiunea **"Automatic "** este selectată în **"Windows Update settings "**. Dacă nu este selectată, faceți clic pe linkul **"Change active hours "** pentru a personaliza orele active în care Windows ar trebui să evite instalarea actualizărilor.
@@ -71,34 +71,36 @@ Este esențial să subliniem importanța **repornirii regulate a sistemului** du
 
 Prin **păstrarea sistemului Windows 10 actualizat**, nu numai că îi sporiți securitatea, dar beneficiați și de cele mai recente caracteristici, îmbunătățiri de performanță și remedieri de compatibilitate. Este o măsură proactivă pentru a vă asigura că sistemul dvs. rămâne rezistent la potențiale amenințări de securitate.
 
-#### 3. [**Configure User Account Control (UAC)**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
+#### 3. [**Configurați User Account Control (UAC)**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
 Controlul contului de utilizator (UAC) este o caracteristică de securitate din Windows 10 care ajută la prevenirea modificărilor neautorizate ale sistemului dumneavoastră prin solicitarea aprobării administratorului atunci când este necesar. Aceasta acționează ca o măsură de protecție împotriva software-ului malițios sau a utilizatorilor neautorizați care încearcă să facă modificări care ar putea afecta securitatea sau stabilitatea sistemului.
 
 Configurarea setărilor UAC la un nivel adecvat este crucială pentru **întăritul Windows 10**. Aceasta implică găsirea unui echilibru între securitate și utilizare pentru a vă asigura că UAC vă protejează eficient sistemul fără a provoca întreruperi inutile.
 
 Pentru a configura setările UAC în Windows 10, puteți urma acești pași:
 
-1. Deschideți **Panou de control**, tastând "Control Panel" în bara de căutare și selectându-l din rezultatele căutării.
+1. Deschideți **Panou de control**, tastând "Panou de control" în bara de căutare și selectându-l din rezultatele căutării.
 
 2. În Panoul de control, faceți clic pe **"Conturi de utilizator "**.
 
-3. Faceți clic pe **"Change User Account Control settings "**.
+3. Faceți clic pe **„Modificați setările Control cont utilizator”**.
 
-4. Veți vedea un cursor cu diferite niveluri de setări UAC. Iată care sunt opțiunile disponibile:
-   - **"Always notify "**: Acesta este cel mai înalt nivel de securitate UAC, în care vi se solicită consimțământul pentru orice modificare a sistemului, chiar și pentru sarcini simple.
-   - **"Notify me only when apps try to make changes to my computer (default) "**: Aceasta este setarea recomandată care oferă un echilibru între securitate și utilizare. Vi se solicită consimțământul atunci când aplicațiile fac modificări, dar nu și pentru modificările setărilor Windows.
-   - **"Notifică-mă numai atunci când aplicațiile încearcă să facă modificări în computerul meu (nu-mi întunecă desktop-ul) "**: Similar cu opțiunea anterioară, dar desktop-ul nu se întunecă atunci când apar solicitări UAC.
-   - **"Never notify "**: Acesta este cel mai scăzut nivel de securitate UAC, în care nu vi se solicită nicio modificare a sistemului.
+4. Veți vedea un cursor cu diferite niveluri de setări UAC. Denumirile de mai jos sunt traduse în română; textul exact poate varia în funcție de limba interfeței Windows:
+   - **„Notificare întotdeauna”**: Acesta este cel mai înalt nivel de securitate UAC. Vi se cere confirmarea pentru orice modificare a sistemului, chiar și pentru sarcini simple.
+   - **„Notifică-mă numai când aplicațiile încearcă să facă modificări pe computerul meu (implicit)”**: Aceasta este setarea recomandată, care echilibrează securitatea și ușurința în utilizare. Vi se cere confirmarea când aplicațiile fac modificări, dar nu și pentru modificările setărilor Windows.
+   - **„Notifică-mă numai când aplicațiile încearcă să facă modificări pe computerul meu (nu estompa desktopul)”**: Opțiunea este similară celei anterioare, dar desktopul nu se estompează când apar solicitări UAC.
+   - **„Nu notifica niciodată”**: Acesta este cel mai scăzut nivel de securitate UAC. Nu vi se cere confirmarea modificărilor sistemului.
 
-5. 5. Alegeți nivelul de securitate UAC care se potrivește nevoilor dumneavoastră, deplasând cursorul în poziția dorită.
+5. Alegeți nivelul de securitate UAC care se potrivește nevoilor dumneavoastră, deplasând cursorul în poziția dorită.
 
-6. Faceți clic pe **"OK "** pentru a salva modificările.
+6. Faceți clic pe **„OK”** pentru a salva modificările.
 
 Se recomandă să păstrați UAC activat și setat la un nivel care asigură un echilibru adecvat între securitate și utilizare. Dezactivarea completă a UAC poate face ca sistemul dumneavoastră să fie mai vulnerabil la modificări neautorizate și poate compromite securitatea acestuia.
 
 Prin configurarea setărilor UAC, îmbunătățiți securitatea sistemului dumneavoastră Windows 10, asigurându-vă că sunt necesare privilegii administrative pentru modificările critice ale sistemului, reducând riscul de acces neautorizat și de infectare cu programe malware.
 
-#### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+{{< figure src="windows-10-uac-bitlocker-security-overview.webp" alt="Diagramă a nivelurilor Controlului contului de utilizator din Windows 10 și a criptării BitLocker care protejează integritatea sistemului și datele sensibile" >}}
+
+#### 4. [**Folosiți parole puternice**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 Utilizarea unor parole puternice este esențială pentru menținerea securității sistemului Windows 10 și pentru protejarea împotriva accesului neautorizat. Parolele slabe sau ușor de ghicit pot face ca sistemul dvs. să fie vulnerabil la atacuri, cum ar fi atacurile de forță brută sau spargerea parolelor.
 
 Pentru a vă asigura că toate conturile de utilizator de pe sistemul dvs. Windows 10 au parole puternice, urmați aceste bune practici privind parolele:
@@ -117,11 +119,11 @@ Pentru a vă asigura că toate conturile de utilizator de pe sistemul dvs. Windo
 
 Prin implementarea unor practici solide privind parolele, îmbunătățiți semnificativ securitatea sistemului Windows 10 și reduceți riscul de acces neautorizat sau de încălcare a datelor. Educați în mod regulat utilizatorii cu privire la securitatea parolelor și oferiți resurse, cum ar fi contoare de rezistență a parolelor sau ghiduri de creare a parolelor, pentru a-i ajuta să creeze parole puternice.
 
-Pentru informații mai detaliate despre crearea de parole puternice și cele mai bune practici, puteți consulta acest document [article](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Acesta oferă îndrumări cuprinzătoare privind securitatea parolelor și oferă sfaturi pentru crearea de parole puternice și memorabile.
+Pentru informații mai detaliate despre crearea de parole puternice și cele mai bune practici, puteți consulta acest document [articol](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Acesta oferă îndrumări cuprinzătoare privind securitatea parolelor și oferă sfaturi pentru crearea de parole puternice și memorabile.
 
 Nu uitați că utilizarea unor parole puternice este un aspect fundamental al securității sistemului și trebuie să fie prioritară pentru a proteja datele sensibile și a asigura integritatea mediului Windows 10.
 
-#### 5. [**Enable BitLocker Encryption**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
+#### 5. [**Activați criptarea BitLocker**](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
 Una dintre cele mai eficiente modalități de a proteja datele sensibile de pe sistemul Windows 10 este activarea criptării BitLocker. BitLocker asigură criptarea completă a discului, garantând că, chiar dacă dispozitivul dvs. este pierdut sau furat, datele dvs. rămân securizate și inaccesibile persoanelor neautorizate.
 
 Pentru a activa criptarea BitLocker și pentru a vă proteja informațiile sensibile, urmați acești pași:
@@ -138,7 +140,7 @@ Pentru a activa criptarea BitLocker și pentru a vă proteja informațiile sensi
 
 Activând criptarea BitLocker, adăugați un nivel suplimentar de protecție sistemului dumneavoastră Windows 10, asigurându-vă că, chiar dacă dispozitivul dumneavoastră cade în mâini greșite, datele dumneavoastră rămân în siguranță și inaccesibile. Este important să actualizați și să mențineți în mod regulat setările BitLocker pentru a fi la curent cu cele mai bune practici de securitate.
 
-Pentru informații mai detaliate despre activarea și gestionarea criptarea BitLocker, puteți consulta pagina oficială [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Acesta oferă îndrumări complete privind criptarea BitLocker, inclusiv caracteristici avansate și opțiuni de configurare.
+Pentru informații mai detaliate despre activarea și gestionarea criptarea BitLocker, puteți consulta pagina oficială [Documentația Microsoft](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) Acesta oferă îndrumări complete privind criptarea BitLocker, inclusiv caracteristici avansate și opțiuni de configurare.
 
 Nu uitați că activarea criptarea BitLocker vă ajută să vă protejați datele sensibile și vă oferă liniște sufletească, știind că informațiile dvs. sunt în siguranță chiar și în caz de pierdere sau furt.
 
@@ -157,7 +159,9 @@ Iată care sunt pașii pentru a dezactiva serviciile și funcțiile inutile pe s
 
 Prin dezactivarea serviciilor și funcțiilor inutile, limitați punctele de intrare potențiale pentru atacatori și reduceți suprafața totală de atac a sistemului dvs. Windows 10. Această practică îmbunătățește poziția de securitate a sistemului dvs. și reduce riscul de exploatare.
 
-Pentru mai multe informații despre gestionarea serviciilor și funcțiilor în Windows 10, puteți consulta următoarele [article](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) pentru îndrumări detaliate.
+{{< figure src="windows-10-firewall-applocker-attack-surface-reduction.webp" alt="Diagramă a regulilor firewallului Windows 10, politicilor de control al aplicațiilor AppLocker și reducerii suprafeței de atac pentru blocarea accesului neautorizat" >}}
+
+Pentru mai multe informații despre gestionarea serviciilor și funcțiilor în Windows 10, puteți consulta următoarele [articol](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) pentru îndrumări detaliate.
 
 Nu uitați că este esențial să fiți prudent atunci când dezactivați servicii și caracteristici, deoarece dezactivarea componentelor esențiale poate avea un impact negativ asupra funcționalității sistemului dumneavoastră. Întotdeauna cercetați și înțelegeți scopul unui serviciu sau al unei caracteristici înainte de a face orice modificare.
 
@@ -176,12 +180,12 @@ Urmați acești pași pentru a implementa reguli de firewall pe sistemul dumneav
 
 Prin implementarea și menținerea regulilor de firewall, puteți reduce semnificativ riscul de acces neautorizat la rețea și puteți spori securitatea sistemului dvs. Windows 10. În plus, luați în considerare activarea opțiunii **Stealth Mode** din setările firewall-ului pentru a vă face sistemul mai puțin vizibil pentru potențialii atacatori.
 
-Pentru informații mai detaliate despre configurarea regulilor de firewall în Windows 10, puteți consulta documentul oficial [Microsoft documentation](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) pentru instrucțiuni pas cu pas.
+Pentru informații mai detaliate despre configurarea regulilor de firewall în Windows 10, puteți consulta documentul oficial [Documentația Microsoft](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) pentru instrucțiuni pas cu pas.
 
 Nu uitați că un firewall bine configurat este o componentă esențială a unei strategii de securitate cuprinzătoare, dar trebuie utilizat împreună cu alte măsuri de securitate pentru a asigura o protecție solidă a sistemului dumneavoastră.
 
-#### 8. [**Use AppLocker**](https://github.com/simeononsecurity/AppLocker)
-AppLocker este o funcție puternică din Windows 10 care vă permite să controlați aplicațiile care pot rula pe sistemul dumneavoastră. Prin implementarea politicilor AppLocker, puteți restricționa executarea aplicațiilor neautorizate sau potențial malițioase, sporind securitatea mediului Windows 10.
+#### 8. [**Folosiți AppLocker**](https://github.com/simeononsecurity/AppLocker)
+[AppLocker](https://simeononsecurity.com/github/applocker-hardening/) este o funcție puternică din Windows 10 care vă permite să controlați aplicațiile care pot rula pe sistemul dumneavoastră. Prin implementarea politicilor AppLocker, puteți restricționa executarea aplicațiilor neautorizate sau potențial malițioase, sporind securitatea mediului Windows 10.
 
 Urmați acești pași pentru a utiliza AppLocker pe sistemul dvs. Windows 10:
 
@@ -197,11 +201,11 @@ Urmați acești pași pentru a utiliza AppLocker pe sistemul dvs. Windows 10:
 
 AppLocker oferă un control granular asupra executării aplicațiilor, ajutându-vă să împiedicați rularea de software neautorizat sau rău intenționat pe sistemul dumneavoastră Windows 10. Utilizând AppLocker, puteți reduce riscul de infecții cu programe malware, instalări neautorizate de software și alte incidente de securitate.
 
-Pentru informații mai detaliate despre implementarea politicilor AppLocker, puteți consulta pagina oficială [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [AppLocker GitHub repository](https://github.com/simeononsecurity/AppLocker) pentru resurse și exemple suplimentare.
+Pentru informații mai detaliate despre implementarea politicilor AppLocker, puteți consulta pagina oficială [Documentația Microsoft](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview) or visit our [Depozitul AppLocker de pe GitHub](https://github.com/simeononsecurity/AppLocker) pentru resurse și exemple suplimentare.
 
 Nu uitați să revizuiți și să actualizați periodic politicile AppLocker pentru a vă adapta la cerințele în schimbare ale aplicațiilor și la amenințările de securitate emergente. AppLocker este un instrument valoros în apărarea dvs. împotriva aplicațiilor neautorizate și potențial dăunătoare pe sistemul dvs. Windows 10.
 
-#### 9. [**Regularly Backup Your Data**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+#### 9. [**Faceți periodic copii de siguranță ale datelor**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 Salvarea regulată a datelor este o practică esențială pentru a vă proteja împotriva pierderilor de date cauzate de incidente de securitate, defecțiuni hardware sau alte evenimente neașteptate. Prin crearea de copii de rezervă regulate și verificarea integrității acestora, vă puteți asigura că datele dvs. importante rămân în siguranță și pot fi restaurate în cazul unui dezastru.
 
 Urmați acești pași pentru a face în mod regulat o copie de rezervă a datelor dvs. pe un sistem Windows 10:
@@ -222,14 +226,13 @@ Urmați acești pași pentru a face în mod regulat o copie de rezervă a datelo
 
 Urmând acești pași și aderând la o rutină de backup regulată, puteți minimiza impactul pierderii de date și menține disponibilitatea informațiilor dvs. importante. Nu uitați să vă păstrați copiile de rezervă în siguranță, departe de datele originale, și luați în considerare implementarea regulii de rezervă **3-2-1**, având cel puțin trei copii ale datelor dumneavoastră, stocate pe două medii de stocare diferite, cu o copie stocată în afara site-ului.
 
-Pentru informații mai detaliate despre cele mai bune practici de backup și regula **3-2-1 backup**, puteți consulta articolul de pe [What is the 3-2-1 Backup Rule and Why You Should Use It](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Acesta oferă informații și recomandări valoroase pentru implementarea unei strategii de backup eficiente.
+Pentru informații mai detaliate despre cele mai bune practici de backup și regula **3-2-1 backup**, puteți consulta articolul de pe [Ce este regula de backup 3-2-1 și de ce să o aplici?](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Acesta oferă informații și recomandări valoroase pentru implementarea unei strategii de backup eficiente.
 
 Nu uitați că backup-urile regulate sunt esențiale pentru a vă proteja datele și pentru a asigura disponibilitatea acestora în caz de evenimente neprevăzute. Faceți din backup-ul datelor o parte integrantă a eforturilor dvs. de întărire a Windows 10 pentru a vă proteja informațiile valoroase.
 
 ______
 
-
-### [Hardening Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+### [Întărirea securității Windows 11](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
 
 Windows 11 este cea mai recentă versiune a sistemului de operare Windows, care oferă caracteristici îmbunătățite și o securitate sporită. Pentru a vă întări mediul Windows 11, luați în considerare următoarele bune practici:
 
@@ -256,7 +259,7 @@ Rețineți că disponibilitatea și pașii specifici pentru a activa Secure Boot
 
 Activând Secure Boot și TPM pe dispozitivul dumneavoastră cu Windows 11, îmbunătățiți poziția generală de securitate și întăriți protecția sistemului de operare și a datelor sensibile.
 
-#### 2. [**Enable Microsoft Defender Antivirus**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
+#### 2. [**Activați Microsoft Defender Antivirus**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Windows 11 vine cu protecție antivirus integrată numită **Microsoft Defender Antivirus**. Acesta oferă o securitate completă împotriva diferitelor tipuri de **malware**, inclusiv viruși, ransomware și spyware. Prin **activarea** și **actualizarea regulată** a Microsoft Defender Antivirus, puteți asigura **detectarea și prevenirea amenințărilor în timp real** pe sistemul dumneavoastră Windows 11.
 
 Urmați acești pași pentru a activa și actualiza Microsoft Defender Antivirus pe dispozitivul dumneavoastră Windows 11:
@@ -267,13 +270,15 @@ Urmați acești pași pentru a activa și actualiza Microsoft Defender Antivirus
 
 3. **Update Definitions**: Actualizarea regulată a **definițiilor de virus** este crucială pentru a se asigura că Microsoft Defender Antivirus poate detecta și proteja împotriva celor mai recente amenințări. În aplicația Windows Security, navigați la secțiunea **"Virus & threat protection "** și faceți clic pe butonul **"Check for updates "** pentru a actualiza definițiile antivirus. Acest proces asigură faptul că sistemul dumneavoastră este echipat cu cele mai recente **cele mai recente semnături** și **capacitate de detecție**.
 
-4. **Schedule Scans**: Microsoft Defender Antivirus vă permite să programați scanări regulate ale **sistemului** pentru a detecta și elimina proactiv orice amenințare potențială. În aplicația Windows Security, mergeți la secțiunea **"Virus & threat protection "** și faceți clic pe opțiunea **"Quick scan "** sau **"Full scan "** pentru a iniția o scanare. De asemenea, puteți face clic pe linkul **"Scan options "** (Opțiuni de scanare)** pentru a personaliza setările de scanare și pentru a programa scanări regulate în funcție de preferințele dumneavoastră.
+4. **Schedule Scans**: Microsoft Defender Antivirus vă permite să programați scanări regulate ale **sistemului** pentru a detecta și elimina proactiv orice amenințare potențială. În aplicația Windows Security, mergeți la secțiunea **"Virus & threat protection "** și faceți clic pe opțiunea **"Quick scan "** sau **"Full scan "** pentru a iniția o scanare. De asemenea, puteți face clic pe linkul **"Scan options "** (Opțiuni de scanare) pentru a personaliza setările de scanare și pentru a programa scanări regulate în funcție de preferințele dumneavoastră.
 
 5. **Configurați setările suplimentare**: Microsoft Defender Antivirus oferă setări și caracteristici suplimentare pe care le puteți configura în funcție de cerințele dumneavoastră de securitate. În aplicația Windows Security, explorați diferitele secțiuni, cum ar fi **"App & browser control", "Device security "** și **"Firewall & network protection "**, pentru a personaliza setările antivirus și pentru a valorifica caracteristicile de protecție avansate.
 
 Activarea și actualizarea regulată a Microsoft Defender Antivirus în Windows 11 este esențială pentru a menține o apărare puternică împotriva programelor malware și a altor amenințări de securitate. Urmând acești pași și menținând Microsoft Defender Antivirus la zi, vă puteți asigura că sistemul dumneavoastră Windows 11 este bine protejat.
 
 Rețineți că, deși Microsoft Defender Antivirus oferă o protecție solidă, este întotdeauna recomandat să practicați **obiecte de navigare sigure**, să fiți prudenți atunci când **descărcați fișiere** sau **deschideți atașamente de e-mail** și să vă mențineți **sistemul de operare și aplicațiile actualizate** pentru a vă îmbunătăți și mai mult poziția generală de securitate.
+
+{{< figure src="windows-11-secure-boot-tpm-defender-security-stack.webp" alt="Diagramă a stivei de securitate Windows 11, cu Secure Boot, protecție hardware TPM, Microsoft Defender Antivirus și securitate bazată pe virtualizare" >}}
 
 #### 3. **Aplicați izolarea implicită bazată pe hardware**.
 Windows 11 valorifică caracteristicile de izolare bazată pe hardware, cum ar fi **Virtualization-based Security (VBS)** și **Hypervisor-protected Code Integrity (HVCI)** pentru a oferi o securitate sporită și a proteja componentele critice ale sistemului.
@@ -309,20 +314,20 @@ Asigurați-vă că vă actualizați periodic sistemul cu cele mai recente patch-
 
 Rețineți că disponibilitatea și cerințele funcțiilor de izolare bazate pe hardware pot varia în funcție de configurația sistemului dumneavoastră și de ediția Windows 11. Este recomandat să consultați documentația oficială **Microsoft** și să efectuați verificări de compatibilitate pentru a asigura implementarea corectă a acestor caracteristici de securitate.
 
-#### 4. [**Use Windows Sandbox**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+#### 4. [**Folosiți Windows Sandbox**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
 **Windows Sandbox** este un instrument valoros care vă permite să rulați aplicații nesigure sau să testați software-ul într-un mediu izolat, oferind un nivel suplimentar de securitate pentru sistemul dumneavoastră. Utilizând Windows Sandbox, puteți reduce potențialele riscuri asociate cu rularea programelor nesigure.
 
 Windows Sandbox creează un mediu desktop ușor și temporar, complet separat de sistemul dumneavoastră de operare principal. Orice modificare efectuată în Sandbox este eliminată odată ce îl închideți, asigurând că sistemul dvs. principal nu este afectat.
 
 Pentru a utiliza Windows Sandbox, urmați acești pași:
 
-1. **Verificați cerințele sistemului**: Înainte de a continua, asigurați-vă că sistemul dvs. îndeplinește cerințele pentru a rula Windows Sandbox. În general, aveți nevoie de o ediție Windows 10 Pro sau Enterprise și de un procesor cu capacități de virtualizare activate în firmware-ul BIOS/UEFI. Consultați pagina oficială [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) pentru cerințele specifice ale sistemului.
+1. **Verificați cerințele sistemului**: Înainte de a continua, asigurați-vă că sistemul dvs. îndeplinește cerințele pentru a rula Windows Sandbox. În general, aveți nevoie de o ediție Windows 10 Pro sau Enterprise și de un procesor cu capacități de virtualizare activate în firmware-ul BIOS/UEFI. Consultați pagina oficială [**Documentația Microsoft**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) pentru cerințele specifice ale sistemului.
 
 2. **Activați Windows Sandbox**: Windows Sandbox este o caracteristică încorporată în edițiile Windows 10 Pro și Enterprise. Pentru a activa Windows Sandbox, urmați acești pași:
 
    - Apăsați tasta **Windows + R** pentru a deschide caseta de dialog Run (Executare).
    - Tastați "**appwiz.cpl**" și apăsați **Enter** pentru a deschide fereastra Programs and Features (Programe și caracteristici).
-   - Faceți clic pe **"Turn Windows features on or off "** (Activează sau dezactivează funcțiile Windows)** din partea stângă.
+   - Faceți clic pe **"Turn Windows features on or off "** (Activează sau dezactivează funcțiile Windows) din partea stângă.
    - Derulați în jos și localizați **"Windows Sandbox "** în lista de caracteristici.
    - Bifați caseta de lângă **"Windows Sandbox "** și faceți clic pe **OK** pentru a o activa.
    - Windows va instala componentele necesare și este posibil să fie nevoie să reporniți sistemul pentru ca modificările să intre în vigoare.
@@ -339,20 +344,22 @@ Windows Sandbox este un instrument eficient pentru testarea programelor necunosc
 
 Prin încorporarea Windows Sandbox în practicile dvs. de securitate, puteți reduce semnificativ riscurile asociate cu rularea aplicațiilor nesigure, protejându-vă sistemul de potențiale amenințări.
 
-Pentru mai multe informații despre Windows Sandbox și utilizarea acestuia, consultați pagina oficială [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+{{< figure src="windows-sandbox-application-guard-isolation-architecture.webp" alt="Diagramă în care Windows Sandbox și Microsoft Defender Application Guard creează containere virtuale izolate pentru a proteja sistemul gazdă de aplicații și sesiuni de browser nesigure" >}}
 
-#### 5. [**Implement Microsoft Defender Application Guard**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
+Pentru mai multe informații despre Windows Sandbox și utilizarea acestuia, consultați pagina oficială [**Documentația Microsoft**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
+
+#### 5. [**Implementați Microsoft Defender Application Guard**](https://github.com/simeononsecurity/Windows-Defender-Application-Guard-Hardening)
 Microsoft Defender Application Guard este o caracteristică de securitate puternică care izolează sesiunile de navigare Microsoft Edge de sistemul de operare de bază. Rulând Edge într-un mediu sigur și izolat, Application Guard ajută la protejarea sistemului dvs. împotriva atacurilor bazate pe browser și a site-urilor web malițioase.
 
 Pentru a implementa Microsoft Defender Application Guard și pentru a spori securitatea browserului, urmați acești pași:
 
-1. **Verifică compatibilitatea**: Înainte de a continua, asigurați-vă că sistemul dvs. îndeplinește cerințele pentru a rula Microsoft Defender Application Guard. În mod obișnuit, aveți nevoie de o ediție Windows 10 Pro sau Enterprise, un procesor compatibil cu capacități de virtualizare și cel puțin 8 GB de RAM. Consultați pagina oficială [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) pentru cerințele specifice ale sistemului.
+1. **Verifică compatibilitatea**: Înainte de a continua, asigurați-vă că sistemul dvs. îndeplinește cerințele pentru a rula Microsoft Defender Application Guard. În mod obișnuit, aveți nevoie de o ediție Windows 10 Pro sau Enterprise, un procesor compatibil cu capacități de virtualizare și cel puțin 8 GB de RAM. Consultați pagina oficială [**Documentația Microsoft**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard) pentru cerințele specifice ale sistemului.
 
 2. **Activați Application Guard**: Application Guard este disponibil ca o caracteristică opțională în Windows 10. Pentru a activa Microsoft Defender Application Guard, urmați acești pași:
 
    - Apăsați tasta **Windows + R** pentru a deschide caseta de dialog Run (Executare).
    - Tastați "**appwiz.cpl**" și apăsați **Enter** pentru a deschide fereastra Programs and Features (Programe și caracteristici).
-   - Faceți clic pe **"Turn Windows features on or off "** (Activează sau dezactivează funcțiile Windows)** din partea stângă.
+   - Faceți clic pe **"Turn Windows features on or off "** (Activează sau dezactivează funcțiile Windows) din partea stângă.
    - Derulați în jos și localizați **"Microsoft Defender Application Guard "** în lista de caracteristici.
    - Bifați caseta de lângă **"Microsoft Defender Application Guard "** și faceți clic pe **OK** pentru a o activa.
    - Windows va instala componentele necesare și este posibil să fie nevoie să reporniți sistemul pentru ca modificările să intre în vigoare.
@@ -363,7 +370,7 @@ Pentru a implementa Microsoft Defender Application Guard și pentru a spori secu
 
 Prin implementarea Microsoft Defender Application Guard, adăugați un nivel suplimentar de protecție sistemului dvs. prin izolarea sesiunilor de navigare și prin reținerea oricăror amenințări potențiale în mediul securizat. Acest lucru vă ajută să vă protejați sistemul și datele de atacurile bazate pe browser, cum ar fi descărcările drive-by, scripturile malițioase și exploatările de tip zero-day.
 
-Pentru informații mai detaliate despre configurarea și utilizarea Microsoft Defender Application Guard, consultați pagina oficială [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
+Pentru informații mai detaliate despre configurarea și utilizarea Microsoft Defender Application Guard, consultați pagina oficială [**Documentația Microsoft**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard)
 
 #### 6. [**Controlled Folder Access**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Controlled Folder Access (Acces controlat la dosare) este o caracteristică de securitate puternică disponibilă în Windows 11, care ajută la protejarea dosarelor importante împotriva modificărilor neautorizate de către ransomware și alte programe malițioase. Activând Controlled Folder Access și adăugând folderele necesare la lista protejată, puteți spori securitatea sistemului dvs. și puteți preveni eventualele pierderi de date.
@@ -384,47 +391,99 @@ Pentru a implementa Controlled Folder Access (Acces controlat la dosare) și pen
 
 6. **Allow or Block Applications** (Permiteți sau blocați aplicații): În mod implicit, Controlled Folder Access permite aplicațiilor de încredere să acceseze folderele protejate. Cu toate acestea, puteți personaliza acest comportament făcând clic pe **"Allow an app through Controlled folder access "**. De acolo, puteți permite sau bloca anumite aplicații să acceseze dosarele protejate.
 
-7. **Monitorizare și revizuire**: După activarea Controlled Folder Access (Acces controlat la dosare), Windows va monitoriza în permanență și va consemna orice încercare a aplicațiilor neautorizate de a accesa dosarele protejate. Puteți revizui aceste jurnale făcând clic pe **"Review "** (Revizuire)** în secțiunea **"Recent blocked apps "** (Aplicații blocate recent)** din setările Controlled Folder Access (Acces controlat la dosare).
+7. **Monitorizare și revizuire**: După activarea Controlled Folder Access (Acces controlat la dosare), Windows va monitoriza în permanență și va consemna orice încercare a aplicațiilor neautorizate de a accesa dosarele protejate. Puteți revizui aceste jurnale făcând clic pe **"Review "** (Revizuire) **în secțiunea** "Recent blocked apps " **(Aplicații blocate recent)** din setările Controlled Folder Access (Acces controlat la dosare).
 
 Prin implementarea Controlled Folder Access (Acces controlat la dosare), adăugați un nivel suplimentar de protecție pentru dosarele dvs. importante, reducând riscul modificărilor neautorizate și al pierderilor potențiale de date cauzate de atacurile ransomware. Revizuiți periodic setările Controlled Folder Access (Acces controlat la dosare) pentru a vă asigura că dosarele protejate se aliniază cu cerințele dumneavoastră de securitate.
 
-Pentru informații mai detaliate despre configurarea și utilizarea Controlled Folder Access (Acces controlat la dosare), consultați documentul oficial [**Microsoft documentation**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
+Pentru informații mai detaliate despre configurarea și utilizarea Controlled Folder Access (Acces controlat la dosare), consultați documentul oficial [**Documentația Microsoft**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide)
 
+#### 7. **Activați întreținerea automată a Windows**
 
-#### 7. **Activați întreținerea automată a Windows**.
-Windows 11 include o caracteristică convenabilă numită Întreținere automată care ajută la menținerea sistemului optimizat și protejat prin efectuarea unor sarcini de întreținere regulate. Prin activarea întreținerii automate, vă asigurați că sistemul dumneavoastră funcționează fără probleme și rămâne securizat.
+Windows 11 include o funcție numită Întreținere automată, care ajută la optimizarea și protejarea sistemului prin sarcini de mentenanță periodice. Activarea funcției ajută sistemul să funcționeze stabil și să rămână securizat.
 
-Pentru a activa Întreținerea automată Windows, urmați acești pași:
+Pentru a activa Întreținerea automată în Windows, urmează acești pași. Denumirile comenzilor din interfață sunt traduse în română; formularea exactă diferă în funcție de limba instalată:
 
-1. **Deschideți Setări Windows**: Apăsați tasta **Windows** de pe tastatură, tastați "**Settings**" și selectați aplicația **Settings** din rezultatele căutării.
+1. **Deschide Setări Windows**: Apasă tasta **Windows**, tastează „Setări” și selectează aplicația **Setări** din rezultatele căutării.
 
-2. **Accesați Setările de întreținere**: În aplicația Settings (Setări), faceți clic pe categoria **"System "** (Sistem)** și apoi selectați **"About "** (Despre)** din meniul din stânga. Derulați în jos până în partea de jos a paginii și faceți clic pe linkul **"System info "**.
+2. **Accesează setările de mentenanță**: În aplicația Setări, selectează categoria **Sistem**, apoi **Despre** din meniul din stânga. Derulează până la baza paginii și selectează linkul **Informații despre sistem**.
 
-3. **Deschideți Setări de întreținere**: În fereastra System Information (Informații despre sistem), faceți clic pe linkul **"Maintenance "** (Mentenanță)** situat în partea de jos a paginii.
+3. **Deschide setările de mentenanță**: În fereastra Informații despre sistem, selectează linkul **Mentenanță** din partea de jos a paginii.
 
-4. **Enable Automatic Maintenance** (Activează întreținerea automată): În setările de întreținere, comutați comutatorul de lângă **"Automatic Maintenance "** în poziția **"On "**.
+4. **Activează Întreținerea automată**: În setările de mentenanță, mută comutatorul de lângă **Întreținere automată** pe poziția **Activat**.
 
-5. **Configurați setările de întreținere**: În mod implicit, Windows va programa automat sarcinile de întreținere pentru a se executa zilnic la ora 2:00 AM. Dacă preferați un program diferit, faceți clic pe **"Change maintenance settings "** și personalizați opțiunile dorite, cum ar fi ora de începere a întreținerii și frecvența sarcinilor de întreținere.
+5. **Configurează setările de mentenanță**: În mod implicit, Windows programează sarcinile de mentenanță zilnic, la ora 2:00. Pentru alt program, selectează **Modifică setările de mentenanță** și ajustează opțiunile, precum ora de începere și frecvența sarcinilor.
 
-6. **Revizuiește setările suplimentare**: Sub comutatorul Automatic Maintenance (Întreținere automată), puteți găsi setări suplimentare legate de întreținere, cum ar fi **"Allow scheduled maintenance to wake up my computer at the scheduled time "** și **"Allow scheduled maintenance to run even when I'm on battery power "**. Reglați aceste setări în funcție de preferințele și cerințele dumneavoastră.
+6. **Revizuiește setările suplimentare**: Sub comutatorul Întreținere automată găsești opțiuni precum **Permite întreținerii programate să reactiveze computerul la ora stabilită** și **Permite întreținerii programate să ruleze când computerul funcționează pe baterie**. Ajustează-le potrivit preferințelor și cerințelor tale.
 
-7. **Monitorizarea activităților de întreținere**: Odată ce întreținerea automată este activată, Windows va efectua automat sarcini de întreținere în fundal la ora programată. Puteți monitoriza aceste activități prin verificarea secțiunii **"Maintenance "** din aplicația **"Windows Security "** sau prin examinarea jurnalelor **"Maintenance "** din Event Viewer.
+7. **Monitorizează activitățile de mentenanță**: După activarea funcției, Windows execută automat sarcinile de mentenanță în fundal, la ora programată. Monitorizează activitățile în secțiunea **Mentenanță** din aplicația **Securitate Windows** sau consultă jurnalele Mentenanță din **Vizualizatorul de evenimente**.
 
-Activarea întreținerii automate a Windows asigură faptul că sistemul dvs. rămâne optimizat și protejat prin efectuarea în mod regulat a unor sarcini de întreținere esențiale, cum ar fi actualizările de software, optimizarea discului și scanările de securitate. Păstrând sistemul dumneavoastră într-o stare bună de sănătate, vă puteți bucura de o experiență informatică mai ușoară și mai sigură.
+Activarea Întreținerii automate ajută la optimizarea și protejarea sistemului prin actualizări software, optimizarea discului și scanări de securitate periodice. Menținerea sistemului într-o stare bună oferă o experiență de utilizare mai fluidă și mai sigură.
 
-Pentru informații mai detaliate despre Întreținerea automată a Windows și opțiunile de configurare a acesteia, consultați pagina oficială [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence)
+Pentru mai multe informații despre Întreținerea automată Windows și opțiunile sale, consultă [documentația oficială Microsoft](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence).
+
+______
+
+## Ordinea recomandată pentru întărirea securității
+
+Aplică măsurile într-o ordine care protejează mai întâi accesul și recuperarea:
+
+1. Verifică ediția și versiunea Windows, starea suportului, funcțiile de securitate hardware disponibile și opțiunile de recuperare.
+2. Instalează actualizările de securitate curente și repornește în timpul unei ferestre de mentenanță planificate.
+3. Creează o copie de rezervă testată și notează starea curentă a firewallului, Defender, BitLocker, serviciilor și politicilor locale.
+4. Păstrează UAC activat, folosește conturi de administrator separate și solicită MFA pentru accesul la distanță și accesul la cloud acceptate.
+5. Activează protecțiile Defender, profilurile firewallului, Secure Boot, BitLocker și izolarea hardware dacă ediția și echipamentul le acceptă.
+6. Testează regulile ASR, Controlled Folder Access, AppLocker și modificările serviciilor în modul de audit sau într-un grup pilot înainte de a bloca ori dezactiva funcții la scară largă.
+7. Centralizează jurnalele și verifică autentificările eșuate, modificările politicilor, evenimentele Defender și conexiunile blocate de firewall.
+8. Repornește, testează aplicațiile necesare, verifică accesul de recuperare și documentează starea finală.
+
+[Microsoft Security Compliance Toolkit](https://learn.microsoft.com/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10) oferă linii de bază versionate pentru Windows 10, Windows 11 și Windows Server. Folosește linia de bază potrivită ca punct de pornire verificat. Microsoft recomandă testarea modificărilor înainte de implementarea în producție.
+
+## Limita de suport pentru Windows 10
+
+Microsoft a încheiat suportul pentru Windows 10 versiunea 22H2 la 14 octombrie 2025. O instalare Windows 10 securizată tot nu primește actualizări obișnuite de securitate după această dată, cu excepția cazului în care se aplică un ciclu de viață separat sau programul Extended Security Update. Include migrarea, înlocuirea sau o excepție aprobată în planul de securitate. Întărirea securității nu prelungește ciclul de viață al produsului. Consultă [anunțul Microsoft privind încheierea suportului pentru Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+## Revenirea asupra modificărilor serviciilor și funcțiilor
+
+Dezactivarea unui serviciu necesită testarea dependențelor și a sarcinilor de lucru. Nu dezactiva **RPC**, **Windows Update**, **Windows Event Log** sau alt serviciu doar pentru că o listă generică îl numește inutil. Numele serviciului nu descrie singur rolul său în sistemul tău.
+
+Înainte de modificare, exportă configurația serviciului și notează serviciile dependente:
+
+```powershell
+$name = 'Spooler'
+Get-CimInstance Win32_Service -Filter "Name='$name'" |
+    Select-Object Name, DisplayName, State, StartMode, StartName, PathName |
+    Export-Csv "C:\Temp\$name-before.csv" -NoTypeInformation
+Get-Service -Name $name -DependentServices
+Get-Service -Name $name -RequiredServices
+```
+
+Modifică un singur serviciu odată. Folosește **Manual** înainte de **Disabled** când o sarcină de lucru pornește serviciul la cerere. Notează tipul de pornire anterior. După testare, verifică aplicațiile, Event Viewer, Windows Update, imprimarea, administrarea la distanță, accesul VPN și activitățile programate.
+
+Pentru revenire, restabilește tipul de pornire înregistrat. Pornește serviciul numai după ce îi verifici dependențele:
+
+```powershell
+Set-Service -Name $name -StartupType Manual
+Start-Service -Name $name
+Get-Service -Name $name
+```
+
+Pentru o modificare mai amplă a politicilor, restaurează copia salvată a GPO-ului sau a registrului cu același instrument de administrare folosit la crearea ei. Păstrează o cale de recuperare offline și datele unui cont de administrator local înainte de modificări la distanță. Microsoft documentează sintaxa de configurare a serviciilor în [`sc.exe config`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config).
+
+## Registrul de validare a controalelor
+
+Pentru fiecare modificare de securitate, notează controlul, domeniul, valoarea anterioară, valoarea nouă, rezultatul testului, ID-urile de eveniment verificate, responsabilul și comanda de revenire. O aplicație blocată sau o imprimantă defectă reprezintă o constatare operațională, nu dovada că măsura este greșită. După analizarea dovezilor, ajustează domeniul, excepțiile sau etapa de implementare.
 
 ______
 
 ## Concluzie
 
-Implementarea acestor **cele mai bune practici de întărire a Windows** este esențială pentru a asigura securitatea sistemelor Windows. Prin **actualizarea regulată a sistemului de operare**, puteți remedia vulnerabilitățile de securitate și îmbunătăți stabilitatea sistemului. Activarea funcțiilor de securitate, cum ar fi **antivirusul** și **criptarea**, adaugă un nivel suplimentar de protecție a datelor dumneavoastră. Configurarea unor **controale de acces** adecvate ajută la prevenirea modificărilor neautorizate și restricționează accesul la resursele sensibile.
+Aplicarea acestor **bune practici de întărire a securității Windows** este esențială pentru protejarea sistemelor Windows. Prin **actualizarea regulată a sistemului de operare**, poți remedia vulnerabilități și îmbunătăți stabilitatea. Funcții precum **antivirusul** și **criptarea** adaugă protecție datelor tale. **Controalele de acces** potrivite ajută la prevenirea modificărilor neautorizate și limitează accesul la resurse sensibile.
 
-Respectând aceste bune practici, puteți spori securitatea **mediului Windows**, vă puteți proteja datele și menține integritatea **infrastructurii digitale**. Este important să rămâneți **proactiv** și să revizuiți și să actualizați periodic măsurile de securitate pentru a fi în fața potențialelor amenințări.
+Respectarea acestor bune practici îmbunătățește securitatea **mediului tău Windows**, protejează datele și păstrează integritatea **infrastructurii digitale**. Fii **proactiv** și revizuiește și actualizează regulat măsurile de securitate pentru a anticipa amenințările posibile.
 
-Nu uitați, **Duralizarea Windows** este un proces continuu și este esențial să rămâneți informat cu privire la cele mai recente actualizări și practici de securitate. Rămânând proactivi și implementând aceste bune practici, puteți reduce în mod eficient riscurile de securitate și puteți asigura siguranța sistemelor dumneavoastră Windows.
+Reține că **întărirea securității Windows** este un proces continuu. Urmărește actualizările și practicile de securitate recente. Aplicarea proactivă a acestor bune practici ajută la reducerea riscurilor și la protejarea sistemelor Windows.
 
-Pentru mai multe informații despre întărirea Windows și cele mai bune practici, consultați surse de încredere, cum ar fi **documentația Microsoft**, **forumurile de securitate** și **site-urile web de încredere privind securitatea cibernetică**.
+Pentru mai multe informații despre întărirea securității Windows și bune practici, consultă surse de încredere precum **documentația Microsoft**, **forumurile de securitate** și **site-urile de securitate cibernetică** de încredere.
 
 ______
 

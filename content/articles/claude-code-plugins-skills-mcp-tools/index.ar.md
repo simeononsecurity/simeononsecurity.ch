@@ -1,7 +1,7 @@
 ---
 title: "10 إضافات ومهارات وأدوات MCP لـ Claude Code: دليل عملي"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "اختر إضافات Claude Code للتخطيط ومراجعة الكود وإدارة المعرفة والتصميم والأتمتة. قارن بين عشرة أدوات وتبعيات وفحوص عملية."
@@ -226,7 +226,7 @@ notebooklm skill install
 **تمرين توضيحي:** أضف مستورد CSV إلى تطبيق صغير. يعاين المستورد الصفوف ويبلغ عن حقول البريد غير الصالحة ويمنع إنشاء التكرارات. لا تحتاج التمرين إلى سجلات عملاء أو وجهات خارجية حية.
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# ورقة تقييم، وليست ملف إعدادات للأداة
 task: "add CSV import preview"
 inputs:
   - "valid rows"

@@ -1,16 +1,17 @@
 ---
 title: "Co to jest Cyberbezpieczeństwo?"
 date: 2023-02-12
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Poznaj podstawy cyberbezpieczeństwa, w tym rodzaje cyberzagrożeń, znaczenie cyberbezpieczeństwa i kroki w celu poprawy bezpieczeństwa online."
-tags: ["Cybersecurity", "Cyberzagrożenia", "Bezpieczeństwo w sieci", "Ochrona danych", "Wirus", "Malware", "Oszustwa phishingowe", "Hakerzy", "Bezpieczeństwo narodowe", "Własność intelektualna", "Prywatność osobista"]
+tags: ["Cyberbezpieczeństwo", "Cyberzagrożenia", "Bezpieczeństwo w sieci", "Ochrona danych", "Wirus", "Złośliwe oprogramowanie", "Oszustwa phishingowe", "Hakerzy", "Bezpieczeństwo narodowe", "Własność intelektualna", "Prywatność osobista"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Obraz osoby siedzącej przy komputerze z zatroskanym wyrazem twarzy, podczas gdy na ekranie wyświetlany jest haker lub cyberprzestępca, przedstawiający niebezpieczeństwa związane z zagrożeniami cybernetycznymi i znaczenie bezpieczeństwa cybernetycznego"
 coverCaption: ""
 ---
 
-**Bezpieczeństwo cybernetyczne odnosi się do ochrony systemów podłączonych do Internetu, w tym sprzętu, oprogramowania i danych, przed atakiem, uszkodzeniem lub nieuprawnionym dostępem ze strony różnych podmiotów stanowiących zagrożenie, takich jak podmioty państwowe, organizacje przestępcze i indywidualni hakerzy**. W świecie, w którym technologia odgrywa kluczową rolę w naszym codziennym życiu, bezpieczeństwo cybernetyczne stało się kwestią krytyczną** dla osób prywatnych, przedsiębiorstw i rządów. Wraz z rosnącym wykorzystaniem Internetu i rozwojem gospodarki cyfrowej, **cyberbezpieczeństwo stało się najwyższym priorytetem**, aby zapewnić bezpieczne i pewne działanie systemów technologicznych oraz ochronę poufnych informacji.
+**Bezpieczeństwo cybernetyczne odnosi się do ochrony systemów podłączonych do Internetu, w tym sprzętu, oprogramowania i danych, przed atakiem, uszkodzeniem lub nieuprawnionym dostępem ze strony różnych podmiotów stanowiących zagrożenie, takich jak podmioty państwowe, organizacje przestępcze i indywidualni hakerzy**. **W świecie, w którym technologia odgrywa kluczową rolę w naszym codziennym życiu, bezpieczeństwo cybernetyczne stało się kwestią krytyczną** dla osób prywatnych, przedsiębiorstw i rządów. Wraz z rosnącym wykorzystaniem Internetu i rozwojem gospodarki cyfrowej, **cyberbezpieczeństwo stało się najwyższym priorytetem**, aby zapewnić bezpieczne i pewne działanie systemów technologicznych oraz ochronę poufnych informacji.
 
 ______
 
@@ -46,14 +47,14 @@ ______
 
 Aby poprawić cyberbezpieczeństwo, osoby fizyczne mogą podjąć kilka kroków, w tym:
 
-- **Używaj silnych haseł i regularnie je aktualizuj**
+- **Używaj [silnych haseł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) i regularnie je aktualizuj**
 - **Utrzymywać aktualne oprogramowanie i systemy bezpieczeństwa**
 - **Bądź ostrożny przy otwieraniu wiadomości e-mail lub klikaniu na linki z nieznanych źródeł**
 - **Używaj oprogramowania antywirusowego i anty-malware**
 - **Systematycznie wykonuj kopie zapasowe ważnych danych**
-- **Edukacja na temat bezpieczeństwa cybernetycznego i znaczenia bezpiecznych praktyk**.
+- **Edukacja na temat bezpieczeństwa cybernetycznego i znaczenia bezpiecznych praktyk.**
 - **Używaj dwuskładnikowego uwierzytelniania, gdy tylko jest to możliwe**
-- Uważaj na informacje, które udostępniasz online i dostosuj ustawienia prywatności na kontach w mediach społecznościowych**.
+- **Uważaj na informacje, które udostępniasz online i dostosuj ustawienia prywatności na kontach w mediach społecznościowych.**
 
 
 ______

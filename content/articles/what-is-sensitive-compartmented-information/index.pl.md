@@ -1,7 +1,7 @@
 ---
 title: "Informacje wydzielone chronione (SCI) wyjaśnione"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Zapoznanie się ze znaczeniem, poziomami klasyfikacji, obsługą i przepisami dotyczącymi informacji szczególnie chronionych (SCI) dla celów bezpieczeństwa narodowego."
@@ -72,7 +72,7 @@ Postępowanie z informacjami szczególnie chronionymi (SCI) jest regulowane prze
 Niektóre z kluczowych przepisów i organów nadzoru związanych z SCI obejmują:
 
 - **Podręcznik bezpieczeństwa Dyrektora Wywiadu Narodowego (DNI)**: Podręcznik bezpieczeństwa DNI zawiera **zasady i procedury** zarządzania i ochrony SCI. Służy jako kompleksowy przewodnik dla personelu zaangażowanego w obsługę SCI, zapewniając zrozumienie wymagań i przestrzeganie niezbędnych środków bezpieczeństwa.
-  - [DNI Website](https://www.dni.gov/)
+  - [Strona internetowa DNI](https://www.dni.gov/)
 
 - **National Industrial Security Program Operating Manual (NISPOM)**: NISPOM to zestaw **standardów i procedur**, które regulują ochronę informacji niejawnych, w tym SCI, w przemyśle obronnym. Określa wymagania dla wykonawców i innych organizacji, które przetwarzają informacje niejawne w celu zapewnienia ochrony bezpieczeństwa narodowego.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ Podsumowując, SCI odgrywa kluczową rolę w ochronie bezpieczeństwa narodowego
 
 ### Referencje
 
-- [DNI Website](https://www.dni.gov/)
+- [Strona internetowa DNI](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

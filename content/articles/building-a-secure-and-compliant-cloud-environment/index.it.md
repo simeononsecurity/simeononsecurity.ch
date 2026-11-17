@@ -1,12 +1,13 @@
 ---
 title: "Costruire un ambiente cloud sicuro e conforme: Una guida"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Scoprite come creare un ambiente cloud sicuro e conforme per la vostra azienda con la nostra guida completa."
-tags: ["cloud computing", "sicurezza informatica", "data privacy", "compliance", "HIPAA", "PCI DSS", "GDPR", "backup dei dati", "recupero in caso di disastro", "crittografia", "controlli di accesso", "autenticazione a più fattori", "monitoraggio continuo", "valutazioni di vulnerabilità", "violazioni dei dati", "minacce interne", "misconfiguration", "perdita di dati", "fornitore di cloud", "misure di sicurezza"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
-coverAlt: "Una nuvola a fumetti con un lucchetto, che rappresenta l'ambiente cloud sicuro e conforme che viene costruito nell'articolo."
+tags: ["cloud computing", "sicurezza informatica", "privacy dei dati", "conformità", "HIPAA", "PCI DSS", "GDPR", "backup dei dati", "ripristino dopo un disastro", "crittografia", "controlli di accesso", "autenticazione a più fattori", "monitoraggio continuo", "valutazioni delle vulnerabilità", "violazioni dei dati", "minacce interne", "configurazione errata", "perdita di dati", "fornitore cloud", "misure di sicurezza"]
+cover: "/img/cover/building-a-secure-and-compliant-cloud-environment.webp"
+coverAlt: "Illustrazione digitale di una nuvola circondata da scudi luminosi che simboleggiano misure di sicurezza, con flussi di dati colorati che la attraversano su uno sfondo scuro."
 coverCaption: ""
 ---
 
@@ -20,13 +21,13 @@ Prima di creare un ambiente cloud sicuro, è necessario comprendere i rischi ass
 
 - **Violazione dei dati**: I criminali informatici possono tentare di accedere ai dati sensibili archiviati nel cloud sfruttando le vulnerabilità dell'infrastruttura cloud o rubando le credenziali di accesso.
 
-- Minacce interne**: I dipendenti o gli appaltatori che hanno accesso all'ambiente cloud possono compromettere, intenzionalmente o meno, la sicurezza dei dati.
+- **Minacce interne**: I dipendenti o gli appaltatori che hanno accesso all'ambiente cloud possono compromettere, intenzionalmente o meno, la sicurezza dei dati.
 
 - **Misconfigurazione**: Impostazioni cloud non correttamente configurate possono rendere i dati vulnerabili ad attacchi o accessi non autorizzati.
 
 - **Perdita di dati**: I dati del cloud possono andare persi a causa di guasti del sistema, disastri naturali o cyberattacchi.
 
-- Violazioni della conformità**: Le aziende devono rispettare diverse normative quando archiviano e gestiscono dati sensibili, come HIPAA, PCI DSS e GDPR.
+- **Violazioni della conformità**: Le aziende devono rispettare diverse normative quando archiviano e gestiscono dati sensibili, come HIPAA, PCI DSS e GDPR.
 
 ## Scegliere un fornitore cloud sicuro
 
@@ -34,9 +35,9 @@ Il primo passo per creare un ambiente cloud sicuro è la scelta di un provider c
 
 - **Crittografia**: I dati devono essere crittografati sia in transito che a riposo per evitare accessi non autorizzati.
 
-- Controlli di accesso**: L'accesso ai dati deve essere limitato agli utenti autorizzati e l'autenticazione a più fattori deve essere utilizzata per migliorare la sicurezza.
+- **Controlli di accesso**: L'accesso ai dati deve essere limitato agli utenti autorizzati e l'autenticazione a più fattori deve essere utilizzata per migliorare la sicurezza.
 
-- Sicurezza fisica**: Il centro dati in cui sono archiviati i dati deve disporre di misure di sicurezza fisiche rigorose per impedire l'accesso non autorizzato.
+- **Sicurezza fisica**: Il centro dati in cui sono archiviati i dati deve disporre di misure di sicurezza fisiche rigorose per impedire l'accesso non autorizzato.
 
 - **Conformità**: Il cloud provider deve essere conforme alle normative pertinenti, come HIPAA, PCI DSS e GDPR.
 
@@ -44,15 +45,15 @@ Il primo passo per creare un ambiente cloud sicuro è la scelta di un provider c
 
 ## Implementare forti controlli di accesso
 
-I controlli di accesso sono una delle misure di sicurezza più importanti che si possono implementare nell'ambiente cloud. Ecco alcune best practice per il controllo degli accessi:
+I controlli di accesso sono una delle misure di sicurezza più importanti che si possono implementare nell'ambiente cloud. Ecco alcune [best practice per il controllo degli accessi](https://simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/):
 
 - **Utilizzare l'autenticazione a più fattori**: L'autenticazione a più fattori aggiunge un ulteriore livello di sicurezza ai login degli utenti, richiedendo loro di fornire più di una forma di autenticazione.
 
-- Imporre password forti**: Agli utenti deve essere richiesto di utilizzare password forti, difficili da indovinare o da decifrare.
+- **Imporre password forti**: Agli utenti deve essere richiesto di utilizzare [password forti](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), difficili da indovinare o da decifrare.
 
-- Limitare l'accesso in base ai ruoli degli utenti**: Agli utenti deve essere concesso l'accesso solo ai dati di cui hanno bisogno per svolgere il proprio lavoro.
+- **Limitare l'accesso in base ai ruoli degli utenti**: Agli utenti deve essere concesso l'accesso solo ai dati di cui hanno bisogno per svolgere il proprio lavoro.
 
-- Implementare il minimo privilegio**: Il minimo privilegio significa concedere agli utenti l'accesso minimo necessario per svolgere il proprio lavoro.
+- **Implementare il minimo privilegio**: Il minimo privilegio significa concedere agli utenti l'accesso minimo necessario per svolgere il proprio lavoro.
 
 ## Crittografia dei dati
 
@@ -62,7 +63,7 @@ La crittografia è una componente fondamentale della sicurezza del cloud. Proteg
 
 - **Cifrare i dati sia in transito che a riposo**: I dati devono essere crittografati sia quando vengono trasmessi tra i dispositivi sia quando vengono archiviati sui server del provider cloud.
 
-- Utilizzare una chiave di crittografia forte**: Utilizzare una chiave di crittografia forte per proteggere i dati.
+- **Utilizzare una chiave di crittografia forte**: Utilizzare una chiave di crittografia forte per proteggere i dati.
 
 ## Implementare il monitoraggio continuo
 
@@ -70,9 +71,9 @@ Il monitoraggio continuo è il processo di monitoraggio costante dell'ambiente c
 
 - **Impostare avvisi**: Impostare avvisi per notificare eventuali attività sospette o cambiamenti insoliti nell'ambiente cloud.
 
-- Eseguire regolarmente valutazioni delle vulnerabilità**: Le valutazioni periodiche delle vulnerabilità possono aiutarvi a identificare e risolvere le vulnerabilità di sicurezza del vostro ambiente cloud.
+- **Eseguire regolarmente valutazioni delle vulnerabilità**: Le valutazioni periodiche delle vulnerabilità possono aiutarvi a identificare e risolvere le vulnerabilità di sicurezza del vostro ambiente cloud.
 
-- Analizzare i registri**: L'analisi dei registri può aiutare a rilevare qualsiasi attività sospetta nell'ambiente cloud, come tentativi di accesso non riusciti o tentativi di accesso non autorizzati.
+- **Analizzare i registri**: L'analisi dei registri può aiutare a rilevare qualsiasi attività sospetta nell'ambiente cloud, come tentativi di accesso non riusciti o tentativi di accesso non autorizzati.
 
 ## Backup regolare dei dati
 
@@ -80,9 +81,9 @@ Il backup dei dati è fondamentale in caso di perdita di dati dovuta a guasti de
 
 - **Implementare backup automatici**: Impostate backup automatici per garantire che il backup dei dati venga eseguito regolarmente.
 
-- Archiviare i backup fuori sede**: Conservare i backup in un luogo separato dai dati principali per proteggersi da disastri naturali o altri eventi catastrofici.
+- **Archiviare i backup fuori sede**: Conservare i backup in un luogo separato dai dati principali per proteggersi da disastri naturali o altri eventi catastrofici.
 
-- Crittografia dei backup**: Crittografare i backup per garantire la protezione dei dati anche se dovessero finire nelle mani sbagliate.
+- **Crittografia dei backup**: Crittografare i backup per garantire la protezione dei dati anche se dovessero finire nelle mani sbagliate.
 
 ## Implementare un piano di ripristino di emergenza
 
@@ -90,11 +91,11 @@ Un piano di ripristino d'emergenza è un insieme di procedure per aiutarvi a rip
 
 - **Identificare i dati critici**: Identificate i dati più importanti per la vostra azienda e assicuratevi che venga eseguito regolarmente il backup.
 
-- Testare il piano**: Testate regolarmente il vostro piano di disaster recovery per assicurarvi che funzioni in caso di disastro.
+- **Testare il piano**: Testate regolarmente il vostro piano di disaster recovery per assicurarvi che funzioni in caso di disastro.
 
 - **Disporre di un piano di comunicazione**: Predisponete un piano per comunicare con i dipendenti, i clienti e le altre parti interessate in caso di disastro.
 
-- Considerare il disaster recovery basato sul cloud**: Il disaster recovery basato sul cloud può essere più economico e flessibile dei metodi di disaster recovery tradizionali.
+- **Considerare il disaster recovery basato sul cloud**: Il disaster recovery basato sul cloud può essere più economico e flessibile dei metodi di disaster recovery tradizionali.
 
 ## Rispettare le normative
 
@@ -102,9 +103,9 @@ La conformità alle normative è fondamentale per le aziende che archiviano e ge
 
 - **Comprendere le normative**: Comprendere le normative che si applicano alla vostra azienda, come HIPAA, PCI DSS e GDPR.
 
-- Implementare i controlli tecnici**: Implementare i controlli tecnici per garantire la conformità alle normative, come la crittografia e i controlli di accesso.
+- **Implementare i controlli tecnici**: Implementare i controlli tecnici per garantire la conformità alle normative, come la crittografia e i controlli di accesso.
 
-- Implementare i controlli amministrativi**: Implementare i controlli amministrativi, come la formazione dei dipendenti e i controlli dei precedenti, per garantire la conformità.
+- **Implementare i controlli amministrativi**: Implementare i controlli amministrativi, come la formazione dei dipendenti e i controlli dei precedenti, per garantire la conformità.
 
 ## Conclusione
 

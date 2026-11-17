@@ -130,7 +130,11 @@
     {{ end }}
 {{ end }}
 {{/* Only process page-bundle rasters. Remote images, SVGs and animations keep their original URL. */}}
+{{ $isBundleResource := and (not (strings.HasPrefix (.Get "src") "https://")) (not (strings.HasPrefix (.Get "src") "http://")) (not (strings.HasPrefix (.Get "src") "/")) }}
 {{ $localImage := .Page.Resources.GetMatch (.Get "src") }}
+{{ if and $isBundleResource $localImage }}
+    {{ $src = $localImage.RelPermalink }}
+{{ end }}
 {{ $rasterImage := false }}
 {{ $responsiveSrcset := slice }}
 {{ if and $localImage (in (slice "webp" "jpeg" "png") $localImage.MediaType.SubType) }}

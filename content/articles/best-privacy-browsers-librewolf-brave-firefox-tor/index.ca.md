@@ -1,7 +1,7 @@
 ---
 title: "Millors Navegadors de Privacitat 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 'Comparació completa del 2026 dels millors navegadors centrats en la privacitat: LibreWolf, Brave, Firefox, Tor i més. Proves detallades de privacitat, referències de rendiment i anàlisi de seguretat per protegir les teves dades en línia.'
@@ -174,12 +174,12 @@ Aquesta guia completa examina els principals navegadors de privacitat - **LibreW
 
 **Canvis essencials a about:config:**
 ```
-// Even stricter privacy (optional):
+// Més privadesa (opcional):
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // Aïllament complet de les galetes
 
-// Performance optimization:
+// Optimització del rendiment:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **Configuracions essencials de privadesa:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+Configuració > Shields:
+✓ Bloqueig de rastrejadors i anuncis: estricte
+✓ Actualitza les connexions a HTTPS
+✓ Bloqueja scripts (per a navegació sensible)
+✓ Bloqueig d’empremta digital: estricte
+✓ Bloqueja galetes: bloqueja les de tercers
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+Configuració > Privadesa i seguretat:
+✓ Política de gestió d’IP de WebRTC: desactiva UDP sense proxy
+✓ Navegació segura: protecció estàndard
+□ Permet les analítiques del producte que protegeixen la privadesa (desactiva)
+✓ Envia automàticament el senyal d’ús diari: desactivat
+✓ Autocompleció de cerques: desactivada
 ```
 
 **Extensions recomanades:**
@@ -404,14 +404,14 @@ Enfocament revolucionari per a la gestió de cookies:
 
 **1. Contenidors Multi-Compte:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Extensió gratuïta de Mozilla
+Separa les galetes i l’historial segons el context:
+- Contenidor personal (verd)
+- Contenidor de feina (blau)
+- Contenidor bancari (vermell)
+- Contenidor de compres (taronja)
 
-Prevents cross-contamination
+Evita que es barregin les dades entre contextos
 ```
 
 **2. Firefox Relay:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. Secció de Privadesa i Seguretat:**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ Protecció millorada contra el seguiment: estricta
+✓ Envia "No em segueixis" als llocs web: sempre
+✓ Mode només HTTPS: activa’l a totes les finestres
+✓ DNS sobre HTTPS: protecció màxima (Cloudflare)
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Galetes i dades dels llocs:
+✓ Elimina les galetes quan es tanqui Firefox
+□ Totes les galetes de tercers (fes servir ETP)
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+Historial:
+○ No recordis mai l’historial (més privadesa)
+● Fes servir la configuració personalitzada (recomanada):
+  ✓ Esborra l’historial quan es tanqui Firefox
+  ✓ Suggeriments de la barra d’adreces: només adreces d’interès
 ```
 
 **2. Enduriment de about:config:**
 ```
-// Resist fingerprinting
+// Evita l’empremta digital
 privacy.resistFingerprinting = true
 
-// First party isolation
+// Aïllament de primera part
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// Protecció de WebRTC
 media.peerconnection.enabled = false
 
-// Referrer header control
+// Control de la capçalera de referència
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// Desactiva WebGL
+webgl.disabled = true (pot fer que alguns llocs no funcionin)
 
-// Letterboxing
+// Emmarcat
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **La Xarxa Onion:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+Tu → Node d’entrada → Node intermedi → Node de sortida → Lloc web
+     [Xifrat]  [Xifrat]  [Sense xifrar]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- El node d’entrada sap qui ets, però no la destinació
+- El node intermedi no sap cap de les dues coses
+- El node de sortida sap la destinació, però no qui ets
+- Cada capa es xifra per separat
 ```
 
 **Tres nivells de seguretat:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **Consells de seguretat:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ No maximitzis mai la finestra (empremta digital)
+✓ No instal·lis extensions
+✓ Fes servir només llocs web HTTPS
+✓ No facis servir torrent amb Tor
+✓ No iniciïs sessió amb comptes reals
+✗ Evita Windows sempre que puguis
+✓ Considera Tails OS per obtenir la màxima anonimització
+✓ Fes servir ponts en regions censurades
 ```
 
 ### Tor vs VPN
@@ -708,20 +708,20 @@ Provats amb perfils de navegació idèntics en 100 llocs populars:
 ### Arbre de decisió ràpid
 
 ```
-Need maximum anonymity (journalists, activists)?
+Necessites màxima anonimització (periodistes, activistes)?
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+Vols privadesa, compatibilitat amb Chrome i velocitat?
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+Vols Firefox sense telemetria i amb màxima privadesa?
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+Vols un navegador conegut amb bona privadesa i extensions?
+    → Firefox (ben configurat)
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+Necessites un navegador mòbil que protegeixi la privadesa?
+    → Brave (millor en general) o Firefox Focus (més senzill)
 ```
 
 ### Recomanacions segons l’ús
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **Pas 2: Importa dades**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+Fitxer → Importa des d’un altre navegador
+Selecciona: Chrome
+Tria: adreces d’interès, contrasenyes i historial
+Importa les extensions: torna-les a instal·lar manualment
 ```
 
 **Pas 3: Configura la privadesa**
@@ -922,6 +922,41 @@ Molts usuaris preocupats per la privadesa utilitzen diversos navegadors:
 - Protegeix contra robatori d’identitat
 - Evita manipulació
 - Dret humà fonamental
+
+## Comprovacions dels navegadors de privacitat el 2026
+
+El nom o la marca d’un navegador no demostra que protegeixi la privacitat. Abans d’utilitzar-lo cada dia, reviseu-ne la configuració predeterminada, el canal d’actualització, la política d’extensions i el funcionament de la sincronització.
+
+1. Baixeu el navegador des del lloc oficial del projecte o d’una botiga d’aplicacions fiable. Eviteu les versions reempaquetades.
+2. Manteniu actualitzats el navegador i el sistema operatiu. Una configuració de privacitat no corregeix un navegador sense pedaços.
+3. Reviseu la protecció integrada contra rastrejadors, empremtes digitals, baixades malicioses i llocs enganyosos.
+4. Tracteu les extensions com a programari amb privilegis. Instal·leu-ne menys, reviseu-ne els permisos i elimineu les que no feu servir.
+5. Feu proves amb [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) i [BrowserLeaks](https://browserleaks.com/). La prova descriu un perfil del navegador, però no demostra l’anonimat.
+6. Separeu les identitats amb perfils diferents. No inicieu sessió als comptes personals des d’una finestra de Tor Browser destinada a recerques sensibles.
+7. Feu servir Tor Browser amb la configuració estàndard. Afegir tipus de lletra o extensions, o canviar la mida de la finestra, redueix el benefici d’una empremta compartida.
+
+LibreWolf és adequat per a qui vol valors predeterminats més estrictes i accepta resoldre alguns problemes de compatibilitat. Brave és adequat per a qui vol compatibilitat amb Chromium i bloqueig integrat. Firefox és adequat per a qui vol el suport de Mozilla i controls flexibles. Tor Browser és adequat per a qui necessita anonimat a escala de xarxa i accepta menys velocitat i compatibilitat amb els llocs.
+
+El [manual de Tor Browser](https://tb-manual.torproject.org/) i la [guia de privacitat de Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) expliquen aquests controls amb més detall.
+
+## Límits actuals de la privacitat i llista de comprovació
+
+Les proteccions del navegador redueixen l’exposició, però no fan anònims un compte, un dispositiu o una connexió. La **navegació privada** elimina determinats elements de l’historial local quan acaba la sessió. No amaga el trànsit a l’operador de xarxa ni impedeix que un lloc identifiqui un usuari que hi ha iniciat sessió. [Tor Project n’explica la diferència](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**En el fingerprinting, importa quantes persones tenen un perfil semblant al vostre.** Tor Browser intenta agrupar els usuaris en grups d’empremtes habituals amb letterboxing, valors estandarditzats i aïllament de primera part. Tor Project assenyala que l’anonimat perfecte no és possible. Sense un motiu concret, no afegiu extensions inusuals, no maximitzeu la finestra de Tor i no canvieu els valors predeterminats. [Llegiu les indicacions de Tor sobre fingerprinting](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf necessita actualitzacions regulars.** Les preguntes freqüents del projecte indiquen que les versions solen seguir Firefox upstream en tres dies i que el navegador no té un actualitzador automàtic propi. Feu servir el gestor de paquets o el mètode d’instal·lació de la vostra plataforma i comproveu la versió instal·lada després de les actualitzacions de seguretat. [Consulteu les preguntes freqüents de LibreWolf](https://librewolf.net/docs/faq/).
+
+Abans de triar un navegador, feu servir aquesta llista:
+
+- **Model d’amenaça:** decidiu si necessiteu reduir el seguiment, separar comptes, resistir la censura o mantenir l’anonimat.
+- **Via d’actualització:** confirmeu qui proporciona les actualitzacions i com les instal·lareu.
+- **Compatibilitat:** proveu bancs, feina, contingut multimèdia, extensions i accessibilitat abans de canviar tot el vostre flux de treball.
+- **Separació d’identitats:** no feu servir inicis de sessió personals en sessions pensades per reduir els vincles entre activitats.
+- **Fingerprinting:** manteniu una configuració propera a la configuració habitual. Moltes extensions de privacitat poden fer que el navegador sigui més distintiu.
+- **Capa de xarxa:** tracteu DNS, VPN i Tor com a controls separats. Cadascun protegeix una part diferent de la connexió.
+
+Les puntuacions de rendiment i privacitat que apareixen en altres parts d’aquesta pàgina són mesures històriques o comparacions il·lustratives si no s’indiquen el mètode, la data, el perfil de maquinari i els resultats en brut. No les considereu classificacions universals actuals. Proveu els vostres llocs i dispositius després de cada actualització important del navegador.
 
 ## Conclusió: Prendre el control de la teva privadesa digital
 

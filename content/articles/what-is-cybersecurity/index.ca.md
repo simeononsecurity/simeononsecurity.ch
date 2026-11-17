@@ -1,10 +1,11 @@
 ---
 title: "Què és la ciberseguretat?"
 date: 2023-02-12
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Aprèn els conceptes bàsics de la ciberseguretat, inclosos els tipus d'amenaces cibernètiques, la importància de la ciberseguretat i els passos per millorar la seguretat en línia."
-tags: ["Seguretat cibernètica", "Amenaces cibernètiques", "Seguretat en línia", "Protecció de dades", "Virus", "Programari maliciós", "Estafes de pesca", "Hackers", "seguretat nacional", "Propietat intel · lectual", "Privacitat personal"]
+tags: ["Seguretat cibernètica", "Amenaces cibernètiques", "Seguretat en línia", "Protecció de dades", "Virus", "Programari maliciós", "Estafes de pesca", "Pirates informàtics", "seguretat nacional", "Propietat intel · lectual", "Privacitat personal"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Imatge d'una persona asseguda davant d'un ordinador amb una expressió preocupada mentre es mostra a la pantalla un pirata informàtic o un ciberdelinqüent, que representa els perills de les amenaces cibernètiques i la importància de la ciberseguretat"
 coverCaption: ""
@@ -14,7 +15,7 @@ coverCaption: ""
 
 ______
 
-## Tipus d'amenaces cibernètiques i actors d'amenaça
+## Tipus d'amenaces cibernètiques i agents que les provoquen
 
 **Les ciberamenaces poden tenir moltes formes**, com ara virus, programari maliciós, estafes de pesca i pirates informàtics. Aquestes amenaces poden apuntar a persones, empreses i governs i poden tenir conseqüències devastadores. Alguns dels tipus més comuns d'amenaces cibernètiques inclouen:
 
@@ -46,7 +47,7 @@ ______
 
 Per millorar la ciberseguretat, les persones poden prendre diverses mesures, com ara:
 
-- **Utilitzeu contrasenyes segures i actualitzeu-les regularment**
+- **Utilitzeu [contrasenyes segures](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) i actualitzeu-les regularment**
 - **Mantenir el programari i els sistemes de seguretat actualitzats**
 - **Aneu amb compte quan obriu correus electrònics o feu clic a enllaços de fonts desconegudes**
 - **Utilitza programari antivirus i antimalware**

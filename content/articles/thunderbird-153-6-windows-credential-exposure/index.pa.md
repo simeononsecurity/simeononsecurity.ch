@@ -1,12 +1,12 @@
 ---
 title: "Thunderbird 153.6: Windows ਵਿੱਚ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਦਾ ਖੁਲਾਸਾ ਅਤੇ ਅੱਪਡੇਟ ਕਰਨ ਦਾ ਤਰੀਕਾ (2026)"
 date: 2026-10-28
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ਖਾਸ ਤੌਰ 'ਤੇ ਤਿਆਰ ਕੀਤੀ ਈਮੇਲ ਦਿਖਾਉਣ ਨਾਲ Thunderbird ਦੀਆਂ ਦੋ ਗੰਭੀਰ ਖਾਮੀਆਂ Windows ਦੀ NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਖੋਲ੍ਹ ਸਕਦੀਆਂ ਹਨ। ਦੋਵੇਂ ਤਰੀਕਿਆਂ, ਵਰਜਨ ਜਾਂਚ ਅਤੇ ਅੱਪਡੇਟ ਦੌਰਾਨ ਬਾਹਰ ਜਾਣ ਵਾਲੇ SMB ਨੂੰ ਸੀਮਿਤ ਕਰਨ ਬਾਰੇ ਜਾਣੋ।"
 genre: ["ਸਾਈਬਰ ਸੁਰੱਖਿਆ", "ਈਮੇਲ ਸੁਰੱਖਿਆ", "Windows ਸੁਰੱਖਿਆ"]
-tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ", "Thunderbird Windows ਕਮਜ਼ੋਰੀ", "Thunderbird NTLM ਖੁਲਾਸਾ", "Thunderbird SMB ਪ੍ਰਮਾਣਿਕਤਾ", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP ਕੁੰਜੀ ਅਟੈਚਮੈਂਟ", "ਬਾਹਰੀ ਅਟੈਚਮੈਂਟ", "ਰਿਮੋਟ ਸਮੱਗਰੀ ਰੋਕਣਾ", "mailbox URL", "ਵਿਸਤ੍ਰਿਤ-ਲੰਬਾਈ UNC ਪਾਥ", "Windows ਖਾਤਾ ਨਾਮ", "NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਡਾਟਾ", "SMB ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਦਾ ਖੁਲਾਸਾ", "ਬਾਹਰ ਜਾਣ ਵਾਲਾ SMB", "TCP ਪੋਰਟ 445", "ਈਮੇਲ ਸੁਰੱਖਿਆ", "Windows ਮੇਲ ਕਲਾਇੰਟ", "Thunderbird ਵਰਜਨ ਜਾਂਚ", "Thunderbird ਅੱਪਡੇਟ", "NTLM ਰੀਲੇ", "ਆਫਲਾਈਨ ਪਾਸਵਰਡ ਕ੍ਰੈਕਿੰਗ"]
+tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ", "Thunderbird Windows ਕਮਜ਼ੋਰੀ", "Thunderbird NTLM ਖੁਲਾਸਾ", "Thunderbird SMB ਪ੍ਰਮਾਣਿਕਤਾ", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP ਕੁੰਜੀ ਅਟੈਚਮੈਂਟ", "ਬਾਹਰੀ ਅਟੈਚਮੈਂਟ", "ਰਿਮੋਟ ਸਮੱਗਰੀ ਰੋਕਣਾ", "ਮੇਲਬਾਕਸ URL", "ਵਿਸਤ੍ਰਿਤ-ਲੰਬਾਈ UNC ਪਾਥ", "Windows ਖਾਤਾ ਨਾਮ", "NTLM ਪ੍ਰਮਾਣਿਕਤਾ ਡਾਟਾ", "SMB ਪ੍ਰਮਾਣਿਕਤਾ ਜਾਣਕਾਰੀ ਦਾ ਖੁਲਾਸਾ", "ਬਾਹਰ ਜਾਣ ਵਾਲਾ SMB", "TCP ਪੋਰਟ 445", "ਈਮੇਲ ਸੁਰੱਖਿਆ", "Windows ਮੇਲ ਕਲਾਇੰਟ", "Thunderbird ਵਰਜਨ ਜਾਂਚ", "Thunderbird ਅੱਪਡੇਟ", "NTLM ਰੀਲੇ", "ਆਫਲਾਈਨ ਪਾਸਵਰਡ ਕ੍ਰੈਕਿੰਗ"]
 cover: ""
 coverAlt: ""
 coverCaption: ""

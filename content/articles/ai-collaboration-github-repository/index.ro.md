@@ -1,7 +1,7 @@
 ---
 title: "Colaborare AI în GitHub: limitele depozitului și ale revizuirii"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Construiește o hartă a surselor, stabilește proprietarii fișierelor și protejează limita de publicare pentru contribuțiile AI revizuite."
@@ -54,7 +54,7 @@ Comanda clone ar trebui să creeze directorul depozitului. Dacă `unzip` nu este
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Adaugă o bază sintetică pentru colaborare"
 git push origin main
 git status --short
 git remote -v
@@ -128,12 +128,12 @@ PY
 **Folosește propriul clone local autentificat al colaboratorului pentru testul de push direct.** Un token al responsabilului ar verifica identitatea greșită. Acest răspuns ilustrativ arată tipul de dovadă de server care trebuie păstrat. Formularea exactă depinde de regulile depozitului.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Rolul actorului: colaborator
+Încercare: push direct sintetic și inofensiv către main
+Rezultatul remote: respins, actualizarea ramurii protejate a fost refuzată
+Commitul inițial pentru main: [înregistrează commitul sandboxului]
+Commitul final pentru main: [înregistrează același commit după recitire]
+Decizie: refuzul platformei este susținut numai dacă se observă ambele înregistrări
 ```
 
 **Dacă autentificarea Git locală nu este disponibilă, marchează refuzul pe server ca blocat.** Păstrează promptul browserului de creare a ramurii drept dovadă a traseului, apoi cere responsabilului să organizeze un test separat cu un colaborator. Nu puncta promptul de traseu ca push direct respins.
@@ -143,27 +143,27 @@ Decision: platform denial supported only if both records are observed
 **O hartă a surselor este un document de orientare**, nu un al doilea document de cerințe. Cine vine din chat trebuie să găsească intenția actuală, comportamentul implementat și instrucțiunile operaționale fără să aleagă între rezumate concurente.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Proiect: export-service-lab
+Flux: GitHub-first
+Limită aprobată: main protejat
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Autoritate: intenția de păstrare a fișierelor de export sintetice
+  Responsabil: product-owner
+  Revizie: înregistrează revizia și commitul protejat
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Autoritate: instrucțiuni de operare pentru laboratorul sintetic
+  Responsabil: operations-owner
+  Revizie: commit protejat
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Comportament -> config.json
+  Autoritate: configurația de păstrare înregistrată în repository
+  Responsabil: repository-maintainer
+  Revizie: commit protejat
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Propuneri -> Issues și ramuri de propuneri
+  Autoritate: numai modificările solicitate
 ```
 
 **Nu pune valoarea actuală de retenție în fiecare intrare a hărții.** O hartă cu „șapte zile” devine încă o valoare de sincronizat după PROP-042. Păstrează identificatori stabili și locații în hartă, iar valoarea citește-o din înregistrarea autoritară.
@@ -194,7 +194,7 @@ Proposals -> Issues and proposal branches
 
 **Un check verde nu explică o ștergere fără legătură.** Dacă ramura elimină documentul de politică în timp ce schimbă retenția, cere o propunere separată sau o revizuire specifică a proprietarului. Domeniul restrâns menține obiectul de revizuire ușor de înțeles.
 
-## Diagnostichează un test de refuz
+## Analizează proba de refuz
 
 **Folosește o singură acțiune încercată pentru fiecare rând de dovezi.** „Colaboratorul a eșuat” este ambiguu. Utilizatorul poate să nu aibă acces normal de scriere, să întâmpine o limitare a browserului sau să declanșeze regula intenționată a ramurii. Acestea stabilesc limite diferite.
 
@@ -228,7 +228,7 @@ Proposals -> Issues and proposal branches
 ## Referințe principale
 
 - **Controale de plan și revizuire:** [Ramuri protejate](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Eligibilitatea proprietarilor:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+- **Eligibilitatea proprietarilor:** [Responsabili de cod](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 - **Contribuție prin browser:** [Editarea fișierelor](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
 ## Pașii următori

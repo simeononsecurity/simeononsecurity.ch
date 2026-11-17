@@ -1,6 +1,7 @@
 ---
 title: "Flock Finder: Flock Safety ALPR ক্যামেরার মানচিত্র"
 date: 2026-07-22
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Flock Finder একটি ওপেন-সোর্স টুল যা WiGLE WiFi ডেটা এবং OUI ফিঙ্গারপ্রিন্টিং ব্যবহার করে বিশ্বজুড়ে ৪০,০০০+ Flock Safety ALPR ক্যামেরার মানচিত্র তৈরি করে। এটি কীভাবে কাজ করে, এর সীমাবদ্ধতা এবং রিয়েল-টাইম সনাক্তকরণের জন্য হার্ডওয়্যার টুল সম্পর্কে জানুন।"
@@ -190,16 +191,16 @@ ______
 ```
 flock-finder/
 ├── scripts/
-│   └── wigle_query.py        # WiGLE API query and data pipeline
+│   └── wigle_query.py        # WiGLE API কোয়েরি ও ডেটা পাইপলাইন
 ├── data/
-│   ├── flock_ouis.csv         # 31 known Flock Safety OUI prefixes
-│   ├── flock_cameras.geojson  # Camera locations (GeoJSON)
-│   ├── flock_cameras.csv      # Camera locations (CSV)
-│   └── scan_stats.json        # Scan statistics
+│   ├── flock_ouis.csv         # Flock Safety-এর ৩১টি পরিচিত OUI প্রিফিক্স
+│   ├── flock_cameras.geojson  # ক্যামেরার অবস্থান (GeoJSON)
+│   ├── flock_cameras.csv      # ক্যামেরার অবস্থান (CSV)
+│   └── scan_stats.json        # স্ক্যান পরিসংখ্যান
 ├── docs/
-│   └── index.html             # Interactive Leaflet map
+│   └── index.html             # ইন্টার‌্যাক্টিভ Leaflet মানচিত্র
 └── .github/workflows/
-    └── update-data.yml        # Daily auto-update workflow
+    └── update-data.yml        # দৈনিক স্বয়ংক্রিয় আপডেট কর্মপ্রবাহ
 ```
 
 ______

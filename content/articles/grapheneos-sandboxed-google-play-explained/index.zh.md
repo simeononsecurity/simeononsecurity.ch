@@ -1,162 +1,162 @@
 ---
-title: "GrapheneOS Sandboxed Google Play Explained"
+title: "GrapheneOS 的 Sandboxed Google Play 详解"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together."
-genre: ["Privacy", "Mobile Security", "Open Source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android privacy", "Android security", "app sandbox", "Google account", "GrapheneOS profiles", "Owner profile", "user profiles", "work profile", "app compatibility", "push notifications", "Firebase Cloud Messaging", "app permissions", "Pixel privacy", "Google Play installation", "mobile privacy", "GrapheneOS App Store"]
+description: "了解 Sandboxed Google Play 在 GrapheneOS 上带来的变化、单独配置用户资料的适用场景，以及账号、通知和应用兼容性的关系。"
+genre: ["隐私", "移动安全", "开源"]
+tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android 隐私", "Android 安全", "应用沙盒", "Google 账号", "GrapheneOS 用户资料", "所有者资料", "用户资料", "工作资料", "应用兼容性", "推送通知", "Firebase Cloud Messaging", "应用权限", "Pixel 隐私", "Google Play 安装", "移动隐私", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
-coverAlt: "A smartphone screen holds apps in separate transparent compartments, including a colorful app-store symbol."
+coverAlt: "智能手机屏幕上的应用被放在不同的透明隔间中，其中包括一个彩色应用商店图标。"
 coverCaption: ""
 ---
 
-**Sandboxed Google Play** lets you install official Google Play components on GrapheneOS as ordinary apps. They run without the system privileges Google Play normally receives on the stock OS. Installing them is optional. [GrapheneOS feature overview](https://grapheneos.org/features#sandboxed-google-play).
+**Sandboxed Google Play** 允许你在 GrapheneOS 上将 Google Play 官方组件作为普通应用安装。它们运行时没有 Google Play 在标准操作系统上通常获得的系统权限。是否安装由你决定。[GrapheneOS 功能概览](https://grapheneos.org/features#sandboxed-google-play)。
 
 ## 要点
 
-- **Explain isolation:** distinguish app permissions from online account activity.
-- **Place dependencies:** keep a dependent app and Play in the same profile.
-- **Test behavior:** check background notifications and essential workflows.
-- **Build a plan:** record your chosen profiles, accounts, and app requirements.
+- **理解隔离：** 区分应用权限与在线账号活动。
+- **将依赖项放在一起：** 让依赖应用和 Play 处于同一用户资料中。
+- **测试实际行为：** 检查后台通知和重要操作。
+- **制定计划：** 记录所选用户资料、账号和应用需求。
 
 ## 开始之前
 
-**Audience:** GrapheneOS users deciding whether to install Google Play and where to put it. **Prerequisites:** a supported device with an updated GrapheneOS installation and access to your essential accounts. OS installation belongs in the [GrapheneOS installation guide](/guides/how-to-install-graphine-os/).
+**适用对象：** 正在决定是否安装 Google Play 以及安装位置的 GrapheneOS 用户。**前提条件：** 使用受支持的设备，安装更新后的 GrapheneOS，并能访问重要账号。操作系统安装步骤请参阅 [GrapheneOS 安装指南](/guides/how-to-install-graphine-os/)。
 
-**Estimated effort:** 20–30 minutes for the initial app inventory and checks, plus normal daily use to assess notification reliability. **Difficulty:** beginner. Start with one representative app before reorganizing your phone.
+**预计用时：** 20 至 30 分钟，用于整理初始应用清单并完成检查，之后通过日常使用评估通知可靠性。**难度：** 初级。重新安排手机前，先测试一个有代表性的应用。
 
-## What the Sandbox Changes
+## 沙盒带来的变化
 
-Android's **application sandbox** separates app resources using operating-system protections. An app does not receive unrestricted access to another app's private files. The protection applies to native code as well as code running through Android's managed runtime. [Android application sandbox documentation](https://source.android.com/docs/security/app-sandbox).
+Android 的**应用沙盒**使用操作系统保护机制隔离应用资源。一个应用无法无限制访问另一个应用的私有文件。此保护同时适用于原生代码和在 Android 托管运行时中执行的代码。[Android 应用沙盒文档](https://source.android.com/docs/security/app-sandbox)。
 
-GrapheneOS adds a **compatibility layer** so official Play components function within those ordinary restrictions. Apps in the same profile still have supported ways to communicate by mutual consent. Sandboxing limits privileges, but it does not prevent every intentional exchange between apps. [Sandboxed Google Play design](https://grapheneos.org/features#sandboxed-google-play).
+GrapheneOS 增加了**兼容层**，使官方 Play 组件能在常规限制下运行。同一用户资料中的应用仍可通过受支持的方式并在双方同意时通信。沙盒会限制权限，但不会阻止应用之间所有有意进行的数据交换。[Sandboxed Google Play 的设计](https://grapheneos.org/features#sandboxed-google-play)。
 
-| Concern | Practical meaning |
+| 事项 | 实际含义 |
 |---|---|
-| **Private app files** | Installing Play does not grant unrestricted access to other apps' data |
-| **Permissions** | Review requested access as you would for another app |
-| **Google-backed features** | An app choosing a Google service still communicates with it |
-| **Account activity** | Signing into a service remains a separate privacy decision |
+| **应用私有文件** | 安装 Play 不会授予对其他应用数据的无限制访问权限 |
+| **权限** | 像检查其他应用一样审查它请求的权限 |
+| **依赖 Google 的功能** | 选择使用 Google 服务的应用仍会与该服务通信 |
+| **账号活动** | 登录服务仍是独立的隐私决定 |
 
-**Sandboxing and account privacy** answer different questions. A sandbox restricts local access. It does not erase information you deliberately submit to an online service. For example, signing into a shopping app still identifies your account to its operator.
+**沙盒与账号隐私**回答不同的问题。沙盒限制本地访问，但不会删除你主动提交给在线服务的信息。例如，登录购物应用仍会让该服务运营方识别你的账号。
 
-## Separate Three Privacy Decisions
+## 区分三项隐私决定
 
-**Local access, service use, and identity** are separate questions. For an app requesting contact access and account sign-in, review each request independently:
+**本地访问、服务使用和身份**是不同的问题。如果应用请求访问联系人并要求登录账号，应分别评估每项请求：
 
-| Decision | Question to answer |
+| 决定 | 要回答的问题 |
 |---|---|
-| **Local permission** | Does this feature need my contacts, microphone, or location? |
-| **Service dependency** | Which feature relies on Play services? |
-| **Online identity** | Which account am I associating with this activity? |
+| **本地权限** | 此功能需要我的联系人、麦克风或位置信息吗？ |
+| **服务依赖** | 哪项功能依赖 Play services？ |
+| **在线身份** | 我把此活动关联到哪个账号？ |
 
-**A practical example:** a shopping account already contains your delivery address. Moving its app into another profile does not change the address held by the retailer. Declining contact access answers a different question about data available on your phone.
+**实际示例：** 购物账号中已经保存了你的配送地址。将应用移到另一个用户资料，不会改变零售商保存的地址。拒绝联系人访问权限，则是在回答手机上可用数据相关的另一个问题。
 
-**Privacy objective:** write the specific exposure you want to reduce. “Keep this app away from my personal contacts” is testable. “Make this account anonymous” requires decisions beyond profile placement.
+**隐私目标：** 写下你要减少的具体信息暴露。“不让此应用访问我的私人联系人”可以进行测试。“让此账号匿名”则需要作出超出用户资料安排范围的决定。
 
-## Owner Profile or Separate Profile?
+## 所有者资料还是单独的资料？
 
-**Owner-profile installation** is a supported, straightforward choice. Google Play remains sandboxed there. A separate user or work profile helps you choose which group of apps has Play available. [GrapheneOS installation guidance](https://grapheneos.org/usage#sandboxed-google-play-installation).
+**安装在所有者资料中**是受支持且简单的选择。Google Play 在该资料中仍受沙盒限制。单独的用户或工作资料可以让你决定哪些应用组能够使用 Play。[GrapheneOS 安装说明](https://grapheneos.org/usage#sandboxed-google-play-installation)。
 
-| Your priority | Starting arrangement | Tradeoff |
+| 你的优先事项 | 初始安排 | 取舍 |
 |---|---|---|
-| **Simple daily use** | Keep required apps and Play in Owner | Play is available to cooperating apps in this profile |
-| **Separate Google-dependent apps** | Install them together in another profile | More profile management |
-| **Avoid Google services** | Start without Play | Check each app's dependencies |
+| **日常使用简单** | 将必需应用和 Play 留在所有者资料中 | 同一资料中相互配合的应用可使用 Play |
+| **隔离依赖 Google 的应用** | 将这些应用一起安装在另一个资料中 | 需要管理更多用户资料 |
+| **避免 Google 服务** | 不安装 Play | 检查每个应用的依赖项 |
 
-**Profile placement** matters more than installing the same component everywhere. GrapheneOS's FAQ explains how Play availability is scoped to selected profiles, while many apps work without it or need it for only part of their functionality. [Google services FAQ](https://grapheneos.org/faq#google-services).
+**用户资料位置**比到处安装同一个组件更重要。GrapheneOS 常见问题说明了如何将 Play 限定在所选用户资料中。许多应用不需要 Play，或者仅部分功能依赖它。[Google 服务常见问题](https://grapheneos.org/faq#google-services)。
 
-*Use a separate profile when selective Play availability solves a specific requirement you have identified.*
+*如果选择性提供 Play 能解决你已确认的具体需求，就使用单独的用户资料。*
 
-## Understand Profile Activity
+## 了解用户资料的活动状态
 
-**A secondary user profile** has its own app instances and data. Switching to another user and ending the previous user's session are different actions. **End session** stops apps in the secondary profile and returns its encrypted storage to rest. [GrapheneOS encryption and profile FAQ](https://grapheneos.org/faq#encryption).
+**次要用户资料**有自己的应用实例和数据。切换到其他用户与结束上一位用户的会话是不同操作。**结束会话**会停止次要资料中的应用，并让其加密存储恢复静止状态。[GrapheneOS 加密与用户资料常见问题](https://grapheneos.org/faq#encryption)。
 
-**Notification forwarding** optionally surfaces notifications from a user running in the background to the active user. It does not keep an ended session running. [GrapheneOS user-profile features](https://grapheneos.org/features).
+**通知转发**可以选择将后台运行用户的通知显示给当前用户。它不会让已结束的会话继续运行。[GrapheneOS 用户资料功能](https://grapheneos.org/features)。
 
-| Profile state | Delivery condition |
+| 用户资料状态 | 通知送达条件 |
 |---|---|
-| **Active** | Test delivery inside this profile |
-| **Running in background** | Check forwarding to the active user |
-| **Session ended** | Apps in this profile are stopped |
+| **活动中** | 在此用户资料中测试通知送达 |
+| **后台运行** | 检查是否转发给当前用户 |
+| **会话已结束** | 此用户资料中的应用已经停止 |
 
-For **a daily messaging app**, decide whether receiving messages while using Owner is essential. A profile arrangement demanding frequent session shutdown conflicts with continuous background delivery. Make this tradeoff before moving your main conversation history.
+对于**日常使用的消息应用**，请决定在使用所有者资料时能否不接收消息。频繁结束会话的安排与持续后台送达相冲突。移动主要聊天记录前，请先考虑这一取舍。
 
-## Installation and Accounts
+## 安装与账号
 
-Open the built-in **GrapheneOS App Store**, select **Google Play services**, and install it. This also installs the dependent Play Store. Let the App Store maintain these components. Grant Play services a battery optimization exception for reliable background features such as push notifications. [Official installation instructions](https://grapheneos.org/usage#sandboxed-google-play-installation).
+打开内置的 **GrapheneOS App Store**，选择 **Google Play services** 并安装。依赖它的 Play Store 也会安装。让 App Store 管理这些组件。将 Play services 排除在电池优化之外，以确保推送通知等后台功能可靠运行。[官方安装说明](https://grapheneos.org/usage#sandboxed-google-play-installation)。
 
-**Google account sign-in** is optional for functionality without an account dependency. Installing apps through the Play Store requires sign-in. Older installations also include Google Services Framework, which the project says to retain. Follow current installation instructions instead of an old three-package checklist.
+对于不依赖账号的功能，**登录 Google 账号**是可选的。通过 Play Store 安装应用需要先登录。较早的安装还包含 Google Services Framework，项目建议保留它。请遵循当前安装说明，不要依赖旧的三组件清单。
 
-## Test One App First
+## 先测试一个应用
 
-Use a **low-risk representative app** to check your intended profile arrangement. Keep existing account recovery methods available throughout the exercise.
+使用一个**风险较低、有代表性的应用**检查计划中的用户资料安排。整个测试期间，保留现有账号恢复方式。
 
-1. **Select a profile:** decide where the app belongs before installing its dependencies.
-2. **Install Play:** use the official installation steps above within this profile.
-3. **Install the app:** use its trusted distribution source and complete initial setup.
-4. **Review requests:** approve permissions according to the feature you are testing.
-5. **Exercise one feature:** send a message, open a map, or perform another reversible action.
-6. **Record the result:** note the app version, OS version, profile, and exact operation.
+1. **选择用户资料：** 安装依赖项前，决定应用应放在哪里。
+2. **安装 Play：** 在此用户资料中按照上面的官方步骤操作。
+3. **安装应用：** 使用可信分发来源并完成初始设置。
+4. **检查请求：** 根据正在测试的功能批准权限。
+5. **测试一项功能：** 发送消息、打开地图或执行其他可撤销操作。
+6. **记录结果：** 记下应用和操作系统版本、用户资料以及具体操作。
 
-**Expected evidence:** a repeatable description such as “a test message arrived with the screen locked in the active profile.” Avoid recording only “works,” which hides the feature and conditions tested.
+**预期证据：** 可重复的描述，例如“用户资料处于活动状态且屏幕锁定时，测试消息送达”。不要只记“能用”，因为这没有说明测试的功能和条件。
 
-## Diagnose Missing Notifications
+## 排查通知缺失
 
-**Push notifications** depend on the app's implementation. Some apps maintain their own background connection. Others rely on Google's Firebase Cloud Messaging. An app opening successfully does not prove its notifications work after you lock the phone. [GrapheneOS notification FAQ](https://grapheneos.org/faq#notifications).
+**推送通知**取决于应用的实现方式。一些应用自行维护后台连接，另一些依赖 Google 的 Firebase Cloud Messaging。应用能够打开，并不代表手机锁屏后通知仍会送达。[GrapheneOS 通知常见问题](https://grapheneos.org/faq#notifications)。
 
-**Check the delivery conditions** before changing permissions across several apps:
+更改多个应用的权限前，先**检查通知送达条件**：
 
-| Symptom | Narrow the investigation |
+| 现象 | 缩小排查范围 |
 |---|---|
-| **Messages appear only after opening** | Check the app's background delivery method and battery settings |
-| **Delivery works only in its profile** | Check profile activity and notification forwarding |
-| **No delivery after End session** | Start the secondary profile before testing again |
-| **The notification arrives silently** | Inspect the app's notification channel and sound settings |
+| **只有打开应用后才看到消息** | 检查应用的后台送达方式和电池设置 |
+| **只有在应用自己的资料中才能收到消息** | 检查用户资料活动状态和通知转发 |
+| **结束会话后没有消息** | 再次测试前启动次要用户资料 |
+| **通知没有声音** | 检查应用的通知渠道和声音设置 |
 
-**Notification channels** group an app's notification behavior, including importance and sound. Android exposes channel controls to the user. [Android notification-channel documentation](https://developer.android.com/develop/ui/compose/notifications/channels).
+**通知渠道**会集中管理应用通知行为，包括重要程度和声音。Android 允许用户配置这些渠道。[Android 通知渠道文档](https://developer.android.com/develop/ui/compose/notifications/channels)。
 
-**Retest one condition at a time:** keep the sending device and message type fixed while changing the receiving profile's state. Record “active,” “running in background,” or “session ended” alongside each result. This distinguishes a profile-lifecycle problem from a notification configuration problem.
+**每次只改变一个条件并重新测试：** 固定发送设备和消息类型，只改变接收端用户资料的状态。每次记录“活动中”“后台运行”或“会话已结束”。这样可以区分用户资料生命周期问题和通知配置问题。
 
-## Evaluate Essential Workflows
+## 评估重要操作
 
-Use a short **personal acceptance test** before relying on a new setup:
+依赖新设置前，先进行简短的**个人验收测试**：
 
-| Workflow | Check on your device |
+| 操作 | 在设备上检查 |
 |---|---|
-| **Messaging** | Receive a message with the screen locked |
-| **Account access** | Sign in and complete the required second factor |
-| **Banking or payments** | Test the exact function you need, including any device checks |
-| **Navigation** | Obtain location with your chosen permissions |
+| **消息** | 屏幕锁定时收到消息 |
+| **账号访问** | 登录并完成所需的第二因素验证 |
+| **银行或支付** | 测试需要的确切功能，包括设备检查 |
+| **导航** | 使用所选权限获取位置 |
 
-**An app launching** is only the first check. Record the app version, GrapheneOS version, and failed operation when troubleshooting. This article provides a decision framework, not a tested compatibility list.
+**应用能够启动**只是第一项检查。排查问题时，记录应用版本、GrapheneOS 版本和失败的操作。本文提供的是决策框架，并非经过测试的兼容性列表。
 
-**Migration decision:** keep your previous access method until each essential operation has passed. A messaging app and a banking app need different acceptance criteria. Successful message delivery says nothing about another app's account or device checks.
+**迁移决定：** 在每项重要操作都通过测试前，保留原有访问方式。消息应用和银行应用需要不同的验收标准。消息送达成功，并不能说明另一个应用的账号或设备检查结果。
 
-**Recheck after GrapheneOS or app updates.** Profile placement, permissions, notification channels, and session state still define the test. Record the version beside each result so a changed notification or sign-in behavior does not become an unexplained privacy conclusion.
+**GrapheneOS 或应用更新后重新检查。** 用户资料位置、权限、通知渠道和会话状态仍是测试条件。将版本与每次结果一起记录，避免把通知或登录行为变化误解为隐私结论。
 
-For **a work login**, test the complete sign-in sequence and the required second factor. For a travel app, test the feature you expect to use away from home. Choose representative actions without making unnecessary purchases or changing account security.
+对于**工作账号登录**，测试完整登录流程和所需的第二因素。对于旅行应用，测试预计离家后使用的功能。选择有代表性的操作，避免不必要的购买或更改账号安全设置。
 
-## Build Your App Plan
+## 制定应用计划
 
-Complete this **inventory** for your five most important apps. The rows below are prompts, not compatibility claims about specific products:
+为最重要的五个应用填写这份**清单**。下表是需要记录的提示，不代表对特定产品作出兼容性声明：
 
-| App category | Requirement to record | Evidence to collect |
+| 应用类别 | 要记录的需求 | 要收集的证据 |
 |---|---|---|
-| **Messaging** | Background delivery and profile choice | Locked-screen and background-profile test |
-| **Work access** | Required login and second factor | Completed sign-in |
-| **Navigation** | Location permission and offline needs | A route under expected conditions |
-| **Banking** | Essential supported operations | Results for each required function |
-| **Shopping** | Account and local-data access | Permission review and normal account use |
+| **消息** | 后台送达和用户资料选择 | 屏幕锁定与后台资料测试 |
+| **工作访问** | 所需登录和第二因素 | 成功完成登录 |
+| **导航** | 位置权限和离线需求 | 在预期条件下规划路线 |
+| **银行** | 必须支持的操作 | 每项所需功能的测试结果 |
+| **购物** | 账号和本地数据访问 | 权限审查和正常账号使用 |
 
-**Write a decision** for each row: chosen profile, Play dependency, account requirement, approved permissions, and fallback. Leave unknown dependencies marked unknown until you have evidence. This avoids installing additional components merely because another app needed them.
+为每一行**记录决定**：所选用户资料、对 Play 的依赖、账号要求、批准的权限和备用方案。在取得证据前，将未知依赖标记为未知。这样可以避免仅仅因为另一个应用需要某组件就安装它。
 
-**Review exercise:** an app works while its secondary profile is active, then stops receiving messages after End session. The first action is to restart the profile and retest. Granting contact access would not address a stopped session.
+**检查练习：** 应用在次要用户资料活动时能工作，但结束会话后不再接收消息。首先重新启动该资料并再次测试。授予联系人访问权限无法解决会话停止的问题。
 
-**Completion criterion:** your plan should explain why each app sits in its chosen profile and which test supports relying on it. Revisit the relevant row after an update changes behavior.
+**完成标准：** 计划应说明每个应用为何放在所选用户资料，以及哪项测试支持依赖它。更新改变行为后，重新检查相应条目。
 
 ## 后续步骤
 
-Use the site's [GrapheneOS installation guide](/guides/how-to-install-graphine-os/) if you have not installed the OS. Then choose one profile arrangement and test your essential apps before adding extra profiles or changing broad permission settings.
+如果尚未安装操作系统，请参阅本站的 [GrapheneOS 安装指南](/guides/how-to-install-graphine-os/)。之后选择一种用户资料安排，并在添加更多资料或广泛更改权限设置前测试重要应用。

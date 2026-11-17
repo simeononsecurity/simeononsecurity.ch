@@ -1,6 +1,7 @@
 ---
 title: "Обеспечение безопасности устройств IoT: Проблемы и решения в области кибербезопасности"
 date: 2023-03-27
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Узнайте о влиянии IoT на кибербезопасность и изучите эффективные стратегии защиты подключенных устройств."
@@ -48,8 +49,8 @@ ______
 
 Правительства и отраслевые организации признали важность безопасности IoT и работают над разработкой и внедрением **стандартов** и **нормативов**. К числу ключевых инициатив относятся:
 
-- The [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) содержит рекомендации по обеспечению безопасности и конфиденциальности в сфере IoT.
-- The [International Organization for Standardization (ISO)](https://www.iso.org/) has established an IoT security standard, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
+- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) публикует рекомендации по обеспечению безопасности и конфиденциальности IoT.
+- [International Organization for Standardization (ISO)](https://www.iso.org/) разработала стандарт безопасности IoT [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html).
 
 ______
 

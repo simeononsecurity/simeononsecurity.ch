@@ -3,6 +3,7 @@ title: "Starke Passwörter erstellen: Ein Leitfaden für Sicherheit und Passwort
 draft: false
 toc: true
 date: 2023-05-24
+lastmod: 2026-11-13
 description: "Lernen Sie, wie Sie sichere Passwörter erstellen, Passphrasen verwenden und sie mit Passwortmanagern wie Bitwarden sicher verwalten."
 tags: ["sichere Passwörter", "Passwortsicherheit", "Passphrasen", "Passwort-Manager", "Bitwarden", "Online-Sicherheit", "Cybersicherheit", "Passwortstärke", "datenschutz", "digitale Sicherheit", "bewährte Kennwortpraktiken", "Passwort-Tipps", "sichere Passwörter", "Passwortmanagement-Tools", "Online-Datenschutz", "Schutz von Konten", "Datensicherheit", "Passwortkomplexität", "Passwort-Generator", "Zwei-Faktor-Authentifizierung", "Erstellung sicherer Passwörter", "Leitfaden zur Passwortverwaltung", "Tipps zur Passwortsicherheit", "Erstellung sicherer Passwörter", "Passwortschutz", "sichere Passwortverwaltung", "Vorteile des Passwort-Managers", "Passphrase-Sicherheit", "Passwort-Manager-Empfehlungen", "bewährte Praktiken für Passwort-Manager", "Passwort-Manager Sicherheit", "Passwort-Manager-Funktionen"]
 cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
@@ -59,7 +60,7 @@ Denken Sie daran, dass die Stärke einer Passphrase nicht nur in ihrer Länge, s
 
 ______
 
-## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
+## [Die Rolle von Passwort-Managern](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
 
 Je mehr Online-Konten wir haben, desto schwieriger wird es, sich für jedes einzelne ein eindeutiges und sicheres Kennwort zu merken. Hier kommen Passwort-Manager wie [**Bitwarden**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) nützlich sein. Ein Passwort-Manager ist ein sicherer digitaler Tresor, der alle Ihre Passwörter in einem verschlüsselten Format speichert. Er ermöglicht es Ihnen, sichere, eindeutige Passwörter für jedes Konto zu erstellen und füllt sie bei Bedarf automatisch aus. Hier erfahren Sie, wie Passwort-Manager Ihnen helfen können:
 

@@ -1,162 +1,162 @@
 ---
-title: "GrapheneOS Sandboxed Google Play Explained"
+title: "Sandboxed Google Play op GrapheneOS uitgelegd"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together."
-genre: ["Privacy", "Mobile Security", "Open Source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android privacy", "Android security", "app sandbox", "Google account", "GrapheneOS profiles", "Owner profile", "user profiles", "work profile", "app compatibility", "push notifications", "Firebase Cloud Messaging", "app permissions", "Pixel privacy", "Google Play installation", "mobile privacy", "GrapheneOS App Store"]
+description: "Lees wat Sandboxed Google Play op GrapheneOS verandert, wanneer een apart profiel helpt en hoe accounts, meldingen en appcompatibiliteit samenhangen."
+genre: ["Privacy", "Mobiele beveiliging", "Open source"]
+tags: ["GrapheneOS", "sandboxed Google Play", "Google Play-services", "Google Play Store", "Android-privacy", "Android-beveiliging", "app-sandbox", "Google-account", "GrapheneOS-profielen", "eigenaarprofiel", "gebruikersprofielen", "werkprofiel", "appcompatibiliteit", "pushmeldingen", "Firebase Cloud Messaging", "appmachtigingen", "Pixel-privacy", "Google Play-installatie", "mobiele privacy", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
-coverAlt: "A smartphone screen holds apps in separate transparent compartments, including a colorful app-store symbol."
+coverAlt: "Op een smartphonescherm staan apps in afzonderlijke transparante vakken, waaronder een kleurrijk appwinkelsymbool."
 coverCaption: ""
 ---
 
-**Sandboxed Google Play** lets you install official Google Play components on GrapheneOS as ordinary apps. They run without the system privileges Google Play normally receives on the stock OS. Installing them is optional. [GrapheneOS feature overview](https://grapheneos.org/features#sandboxed-google-play).
+**Sandboxed Google Play** laat je de officiële Google Play-onderdelen op GrapheneOS installeren als gewone apps. Ze draaien zonder de systeemrechten die Google Play op het standaardbesturingssysteem normaal krijgt. Installatie is optioneel. [Overzicht van GrapheneOS-functies](https://grapheneos.org/features#sandboxed-google-play).
 
 ## Belangrijkste punten
 
-- **Explain isolation:** distinguish app permissions from online account activity.
-- **Place dependencies:** keep a dependent app and Play in the same profile.
-- **Test behavior:** check background notifications and essential workflows.
-- **Build a plan:** record your chosen profiles, accounts, and app requirements.
+- **Begrijp de isolatie:** maak onderscheid tussen appmachtigingen en online accountactiviteit.
+- **Plaats afhankelijkheden:** zet een app en de benodigde Play-onderdelen in hetzelfde profiel.
+- **Test het gedrag:** controleer meldingen op de achtergrond en essentiële functies.
+- **Maak een plan:** noteer je profielen, accounts en appvereisten.
 
 ## Voordat je begint
 
-**Audience:** GrapheneOS users deciding whether to install Google Play and where to put it. **Prerequisites:** a supported device with an updated GrapheneOS installation and access to your essential accounts. OS installation belongs in the [GrapheneOS installation guide](/guides/how-to-install-graphine-os/).
+**Doelgroep:** GrapheneOS-gebruikers die beslissen of ze Google Play installeren en waar. **Benodigdheden:** een ondersteund apparaat met bijgewerkte GrapheneOS-installatie en toegang tot je belangrijke accounts. De installatie van het besturingssysteem staat in de [GrapheneOS-installatiehandleiding](/guides/how-to-install-graphine-os/).
 
-**Estimated effort:** 20–30 minutes for the initial app inventory and checks, plus normal daily use to assess notification reliability. **Difficulty:** beginner. Start with one representative app before reorganizing your phone.
+**Geschatte tijd:** 20 tot 30 minuten voor de eerste appinventarisatie en controles, plus normaal dagelijks gebruik om de betrouwbaarheid van meldingen te beoordelen. **Niveau:** beginner. Begin met één representatieve app voordat je de indeling van je telefoon wijzigt.
 
-## What the Sandbox Changes
+## Wat de sandbox verandert
 
-Android's **application sandbox** separates app resources using operating-system protections. An app does not receive unrestricted access to another app's private files. The protection applies to native code as well as code running through Android's managed runtime. [Android application sandbox documentation](https://source.android.com/docs/security/app-sandbox).
+De **applicatiesandbox** van Android scheidt appbronnen met beveiligingen van het besturingssysteem. Een app krijgt geen onbeperkte toegang tot privébestanden van een andere app. De beveiliging geldt voor native code en voor code in de beheerde Android-runtime. [Documentatie over de Android-applicatiesandbox](https://source.android.com/docs/security/app-sandbox).
 
-GrapheneOS adds a **compatibility layer** so official Play components function within those ordinary restrictions. Apps in the same profile still have supported ways to communicate by mutual consent. Sandboxing limits privileges, but it does not prevent every intentional exchange between apps. [Sandboxed Google Play design](https://grapheneos.org/features#sandboxed-google-play).
+GrapheneOS voegt een **compatibiliteitslaag** toe, zodat de officiële Play-onderdelen binnen deze normale beperkingen werken. Apps in hetzelfde profiel kunnen nog steeds op ondersteunde manieren en met wederzijdse toestemming communiceren. Sandboxing beperkt rechten, maar verhindert niet elke opzettelijke uitwisseling tussen apps. [Ontwerp van Sandboxed Google Play](https://grapheneos.org/features#sandboxed-google-play).
 
-| Concern | Practical meaning |
+| Aandachtspunt | Praktische betekenis |
 |---|---|
-| **Private app files** | Installing Play does not grant unrestricted access to other apps' data |
-| **Permissions** | Review requested access as you would for another app |
-| **Google-backed features** | An app choosing a Google service still communicates with it |
-| **Account activity** | Signing into a service remains a separate privacy decision |
+| **Privébestanden van apps** | Play installeren geeft geen onbeperkte toegang tot gegevens van andere apps |
+| **Machtigingen** | Beoordeel gevraagde toegang zoals bij elke andere app |
+| **Functies van Google** | Een app die een Google-dienst gebruikt, communiceert nog steeds met die dienst |
+| **Accountactiviteit** | Aanmelden bij een dienst blijft een afzonderlijke privacykeuze |
 
-**Sandboxing and account privacy** answer different questions. A sandbox restricts local access. It does not erase information you deliberately submit to an online service. For example, signing into a shopping app still identifies your account to its operator.
+**Sandboxing en accountprivacy** beantwoorden verschillende vragen. Een sandbox beperkt lokale toegang. Deze wist geen informatie die je bewust naar een online dienst stuurt. Als je je aanmeldt bij een winkelapp, blijft je account bekend bij de aanbieder.
 
-## Separate Three Privacy Decisions
+## Maak onderscheid tussen drie privacykeuzes
 
-**Local access, service use, and identity** are separate questions. For an app requesting contact access and account sign-in, review each request independently:
+**Lokale toegang, gebruik van diensten en identiteit** zijn afzonderlijke vragen. Beoordeel elk verzoek apart als een app toegang tot contacten en een accountaanmelding vraagt:
 
-| Decision | Question to answer |
+| Keuze | Vraag |
 |---|---|
-| **Local permission** | Does this feature need my contacts, microphone, or location? |
-| **Service dependency** | Which feature relies on Play services? |
-| **Online identity** | Which account am I associating with this activity? |
+| **Lokale machtiging** | Heeft deze functie mijn contacten, microfoon of locatie nodig? |
+| **Afhankelijkheid van diensten** | Welke functie is afhankelijk van Play-services? |
+| **Online identiteit** | Aan welk account koppel ik deze activiteit? |
 
-**A practical example:** a shopping account already contains your delivery address. Moving its app into another profile does not change the address held by the retailer. Declining contact access answers a different question about data available on your phone.
+**Praktisch voorbeeld:** een winkelaccount bevat je bezorgadres al. De app naar een ander profiel verplaatsen verandert het adres bij de winkel niet. Toegang tot contacten weigeren beantwoordt een andere vraag over gegevens op je telefoon.
 
-**Privacy objective:** write the specific exposure you want to reduce. “Keep this app away from my personal contacts” is testable. “Make this account anonymous” requires decisions beyond profile placement.
+**Privacydoel:** noteer welk risico je wilt verkleinen. “Deze app mag mijn persoonlijke contacten niet zien” is toetsbaar. “Dit account anoniem maken” vereist meer keuzes dan alleen een profiel kiezen.
 
-## Owner Profile or Separate Profile?
+## Eigenaarprofiel of apart profiel?
 
-**Owner-profile installation** is a supported, straightforward choice. Google Play remains sandboxed there. A separate user or work profile helps you choose which group of apps has Play available. [GrapheneOS installation guidance](https://grapheneos.org/usage#sandboxed-google-play-installation).
+**Installatie in het eigenaarprofiel** is een ondersteunde en eenvoudige keuze. Google Play blijft daar in de sandbox. Met een apart gebruikers- of werkprofiel kies je voor welke groep apps Play beschikbaar is. [Installatieadvies van GrapheneOS](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
-| Your priority | Starting arrangement | Tradeoff |
+| Prioriteit | Beginindeling | Afweging |
 |---|---|---|
-| **Simple daily use** | Keep required apps and Play in Owner | Play is available to cooperating apps in this profile |
-| **Separate Google-dependent apps** | Install them together in another profile | More profile management |
-| **Avoid Google services** | Start without Play | Check each app's dependencies |
+| **Eenvoudig dagelijks gebruik** | Zet benodigde apps en Play in Eigenaar | Play is beschikbaar voor samenwerkende apps in dit profiel |
+| **Google-afhankelijke apps scheiden** | Installeer ze samen in een ander profiel | Meer profielbeheer |
+| **Google-diensten vermijden** | Begin zonder Play | Controleer de afhankelijkheden van elke app |
 
-**Profile placement** matters more than installing the same component everywhere. GrapheneOS's FAQ explains how Play availability is scoped to selected profiles, while many apps work without it or need it for only part of their functionality. [Google services FAQ](https://grapheneos.org/faq#google-services).
+**De profielkeuze** is belangrijker dan hetzelfde onderdeel overal installeren. De GrapheneOS-FAQ legt uit hoe Play-beschikbaarheid aan geselecteerde profielen is gekoppeld. Veel apps werken zonder Play of hebben het slechts voor een deel van hun functies nodig. [Veelgestelde vragen over Google-diensten](https://grapheneos.org/faq#google-services).
 
-*Use a separate profile when selective Play availability solves a specific requirement you have identified.*
+*Gebruik een apart profiel als selectieve toegang tot Play een concrete behoefte oplost die je hebt vastgesteld.*
 
-## Understand Profile Activity
+## Begrijp profielactiviteit
 
-**A secondary user profile** has its own app instances and data. Switching to another user and ending the previous user's session are different actions. **End session** stops apps in the secondary profile and returns its encrypted storage to rest. [GrapheneOS encryption and profile FAQ](https://grapheneos.org/faq#encryption).
+**Een secundair gebruikersprofiel** heeft eigen appinstanties en gegevens. Naar een andere gebruiker overschakelen is iets anders dan de sessie van de vorige gebruiker beëindigen. **Sessie beëindigen** stopt apps in het secundaire profiel en sluit de versleutelde opslag weer af. [Veelgestelde vragen over versleuteling en profielen van GrapheneOS](https://grapheneos.org/faq#encryption).
 
-**Notification forwarding** optionally surfaces notifications from a user running in the background to the active user. It does not keep an ended session running. [GrapheneOS user-profile features](https://grapheneos.org/features).
+**Meldingen doorsturen** toont desgewenst meldingen van een gebruiker op de achtergrond bij de actieve gebruiker. Een beëindigde sessie blijft hierdoor niet actief. [Functies van GrapheneOS-gebruikersprofielen](https://grapheneos.org/features).
 
-| Profile state | Delivery condition |
+| Profielstatus | Voorwaarde voor bezorging |
 |---|---|
-| **Active** | Test delivery inside this profile |
-| **Running in background** | Check forwarding to the active user |
-| **Session ended** | Apps in this profile are stopped |
+| **Actief** | Test bezorging binnen dit profiel |
+| **Actief op de achtergrond** | Controleer of meldingen naar de actieve gebruiker worden doorgestuurd |
+| **Sessie beëindigd** | Apps in dit profiel zijn gestopt |
 
-For **a daily messaging app**, decide whether receiving messages while using Owner is essential. A profile arrangement demanding frequent session shutdown conflicts with continuous background delivery. Make this tradeoff before moving your main conversation history.
+Bepaal voor **een dagelijks gebruikte berichtenapp** of je berichten moet ontvangen terwijl je Eigenaar gebruikt. Een profielindeling waarbij je vaak sessies beëindigt, past niet bij voortdurende bezorging op de achtergrond. Maak deze afweging voordat je je belangrijkste chatgeschiedenis verplaatst.
 
-## Installation and Accounts
+## Installatie en accounts
 
-Open the built-in **GrapheneOS App Store**, select **Google Play services**, and install it. This also installs the dependent Play Store. Let the App Store maintain these components. Grant Play services a battery optimization exception for reliable background features such as push notifications. [Official installation instructions](https://grapheneos.org/usage#sandboxed-google-play-installation).
+Open de ingebouwde **GrapheneOS App Store**, kies **Google Play-services** en installeer deze. De afhankelijke Play Store wordt ook geïnstalleerd. Laat de App Store deze onderdelen beheren. Geef Play-services een uitzondering voor batterijoptimalisatie, zodat functies op de achtergrond zoals pushmeldingen betrouwbaar werken. [Officiële installatie-instructies](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
-**Google account sign-in** is optional for functionality without an account dependency. Installing apps through the Play Store requires sign-in. Older installations also include Google Services Framework, which the project says to retain. Follow current installation instructions instead of an old three-package checklist.
+**Aanmelden met een Google-account** is optioneel voor functies zonder accountafhankelijkheid. Voor apps installeren via de Play Store moet je je aanmelden. Oudere installaties bevatten ook Google Services Framework, dat volgens het project behouden moet blijven. Volg de actuele installatie-instructies in plaats van een oude checklist met drie pakketten.
 
-## Test One App First
+## Test eerst één app
 
-Use a **low-risk representative app** to check your intended profile arrangement. Keep existing account recovery methods available throughout the exercise.
+Gebruik een **representatieve app met weinig risico** om je beoogde profielindeling te controleren. Houd bestaande accountherstelmethoden tijdens de test beschikbaar.
 
-1. **Select a profile:** decide where the app belongs before installing its dependencies.
-2. **Install Play:** use the official installation steps above within this profile.
-3. **Install the app:** use its trusted distribution source and complete initial setup.
-4. **Review requests:** approve permissions according to the feature you are testing.
-5. **Exercise one feature:** send a message, open a map, or perform another reversible action.
-6. **Record the result:** note the app version, OS version, profile, and exact operation.
+1. **Kies een profiel:** bepaal waar de app hoort voordat je afhankelijkheden installeert.
+2. **Installeer Play:** volg binnen dit profiel de officiële stappen hierboven.
+3. **Installeer de app:** gebruik een betrouwbare bron en voltooi de eerste configuratie.
+4. **Beoordeel verzoeken:** sta machtigingen toe op basis van de functie die je test.
+5. **Test één functie:** verstuur een bericht, open een kaart of voer een andere omkeerbare handeling uit.
+6. **Noteer het resultaat:** leg de appversie, OS-versie, het profiel en de exacte handeling vast.
 
-**Expected evidence:** a repeatable description such as “a test message arrived with the screen locked in the active profile.” Avoid recording only “works,” which hides the feature and conditions tested.
+**Verwacht bewijs:** een herhaalbare beschrijving, zoals “een testbericht kwam binnen terwijl het scherm vergrendeld was in het actieve profiel”. Noteer niet alleen “werkt”, want dan ontbreken de geteste functie en omstandigheden.
 
-## Diagnose Missing Notifications
+## Ontbrekende meldingen onderzoeken
 
-**Push notifications** depend on the app's implementation. Some apps maintain their own background connection. Others rely on Google's Firebase Cloud Messaging. An app opening successfully does not prove its notifications work after you lock the phone. [GrapheneOS notification FAQ](https://grapheneos.org/faq#notifications).
+**Pushmeldingen** zijn afhankelijk van de implementatie van de app. Sommige apps houden zelf een verbinding op de achtergrond open. Andere gebruiken Firebase Cloud Messaging van Google. Dat een app opent, bewijst niet dat meldingen werken nadat je de telefoon vergrendelt. [Veelgestelde vragen over meldingen van GrapheneOS](https://grapheneos.org/faq#notifications).
 
-**Check the delivery conditions** before changing permissions across several apps:
+**Controleer de bezorgomstandigheden** voordat je machtigingen voor meerdere apps wijzigt:
 
-| Symptom | Narrow the investigation |
+| Symptoom | Richt het onderzoek |
 |---|---|
-| **Messages appear only after opening** | Check the app's background delivery method and battery settings |
-| **Delivery works only in its profile** | Check profile activity and notification forwarding |
-| **No delivery after End session** | Start the secondary profile before testing again |
-| **The notification arrives silently** | Inspect the app's notification channel and sound settings |
+| **Berichten verschijnen pas na openen** | Controleer de bezorgmethode op de achtergrond en de batterijinstellingen |
+| **Bezorging werkt alleen in het eigen profiel** | Controleer profielactiviteit en het doorsturen van meldingen |
+| **Geen bezorging na Sessie beëindigen** | Start het secundaire profiel voordat je opnieuw test |
+| **De melding komt zonder geluid binnen** | Controleer het meldingskanaal en de geluidsinstellingen van de app |
 
-**Notification channels** group an app's notification behavior, including importance and sound. Android exposes channel controls to the user. [Android notification-channel documentation](https://developer.android.com/develop/ui/compose/notifications/channels).
+**Meldingskanalen** groeperen het meldingsgedrag van een app, waaronder prioriteit en geluid. Android geeft gebruikers instellingen voor deze kanalen. [Documentatie over Android-meldingskanalen](https://developer.android.com/develop/ui/compose/notifications/channels).
 
-**Retest one condition at a time:** keep the sending device and message type fixed while changing the receiving profile's state. Record “active,” “running in background,” or “session ended” alongside each result. This distinguishes a profile-lifecycle problem from a notification configuration problem.
+**Test telkens één voorwaarde opnieuw:** houd het verzendende apparaat en het berichttype gelijk terwijl je de status van het ontvangende profiel wijzigt. Noteer bij elk resultaat “actief”, “actief op de achtergrond” of “sessie beëindigd”. Zo onderscheid je een probleem met de profielstatus van een probleem met meldingsinstellingen.
 
-## Evaluate Essential Workflows
+## Beoordeel essentiële handelingen
 
-Use a short **personal acceptance test** before relying on a new setup:
+Voer een korte **persoonlijke acceptatietest** uit voordat je op een nieuwe configuratie vertrouwt:
 
-| Workflow | Check on your device |
+| Handeling | Controle op je apparaat |
 |---|---|
-| **Messaging** | Receive a message with the screen locked |
-| **Account access** | Sign in and complete the required second factor |
-| **Banking or payments** | Test the exact function you need, including any device checks |
-| **Navigation** | Obtain location with your chosen permissions |
+| **Berichten** | Ontvang een bericht terwijl het scherm vergrendeld is |
+| **Accounttoegang** | Meld je aan en voltooi de vereiste tweede factor |
+| **Bankieren of betalen** | Test de exacte functie die je nodig hebt, inclusief apparaatcontroles |
+| **Navigatie** | Verkrijg je locatie met de gekozen machtigingen |
 
-**An app launching** is only the first check. Record the app version, GrapheneOS version, and failed operation when troubleshooting. This article provides a decision framework, not a tested compatibility list.
+**Een app starten** is alleen de eerste controle. Noteer bij problemen de appversie, de GrapheneOS-versie en de mislukte handeling. Dit artikel biedt een besliskader, geen geteste compatibiliteitslijst.
 
-**Migration decision:** keep your previous access method until each essential operation has passed. A messaging app and a banking app need different acceptance criteria. Successful message delivery says nothing about another app's account or device checks.
+**Besluit over migratie:** houd je eerdere toegangsmethode beschikbaar totdat elke essentiële handeling slaagt. Een berichtenapp en een bankapp vereisen verschillende acceptatiecriteria. Een bezorgd bericht zegt niets over account- of apparaatcontroles in een andere app.
 
-**Recheck after GrapheneOS or app updates.** Profile placement, permissions, notification channels, and session state still define the test. Record the version beside each result so a changed notification or sign-in behavior does not become an unexplained privacy conclusion.
+**Controleer opnieuw na updates van GrapheneOS of apps.** De profielkeuze, machtigingen, meldingskanalen en sessiestatus bepalen de test. Noteer de versie bij elk resultaat zodat veranderd meldings- of aanmeldgedrag niet tot een ongefundeerde privacyconclusie leidt.
 
-For **a work login**, test the complete sign-in sequence and the required second factor. For a travel app, test the feature you expect to use away from home. Choose representative actions without making unnecessary purchases or changing account security.
+Test bij **een werkaanmelding** de volledige aanmeldreeks en de vereiste tweede factor. Test bij een reisapp de functie die je buitenshuis verwacht te gebruiken. Kies representatieve handelingen zonder onnodige aankopen te doen of accountbeveiliging te wijzigen.
 
-## Build Your App Plan
+## Maak je appplan
 
-Complete this **inventory** for your five most important apps. The rows below are prompts, not compatibility claims about specific products:
+Vul deze **inventarisatie** in voor je vijf belangrijkste apps. De rijen hieronder zijn vragen, geen compatibiliteitsclaims over specifieke producten:
 
-| App category | Requirement to record | Evidence to collect |
+| Appcategorie | Vast te leggen vereiste | Te verzamelen bewijs |
 |---|---|---|
-| **Messaging** | Background delivery and profile choice | Locked-screen and background-profile test |
-| **Work access** | Required login and second factor | Completed sign-in |
-| **Navigation** | Location permission and offline needs | A route under expected conditions |
-| **Banking** | Essential supported operations | Results for each required function |
-| **Shopping** | Account and local-data access | Permission review and normal account use |
+| **Berichten** | Bezorging op de achtergrond en profielkeuze | Test met vergrendeld scherm en achtergrondprofiel |
+| **Werktoegang** | Vereiste aanmelding en tweede factor | Voltooide aanmelding |
+| **Navigatie** | Locatiemachtiging en offlinebehoeften | Een route onder de verwachte omstandigheden |
+| **Bankieren** | Essentiële ondersteunde handelingen | Resultaten voor elke vereiste functie |
+| **Winkelen** | Account- en lokale gegevenstoegang | Beoordeling van machtigingen en normaal accountgebruik |
 
-**Write a decision** for each row: chosen profile, Play dependency, account requirement, approved permissions, and fallback. Leave unknown dependencies marked unknown until you have evidence. This avoids installing additional components merely because another app needed them.
+**Leg voor elke rij een besluit vast:** gekozen profiel, afhankelijkheid van Play, accountvereiste, toegestane machtigingen en terugvaloptie. Markeer onbekende afhankelijkheden als onbekend totdat je bewijs hebt. Zo installeer je geen extra onderdelen alleen omdat een andere app ze nodig had.
 
-**Review exercise:** an app works while its secondary profile is active, then stops receiving messages after End session. The first action is to restart the profile and retest. Granting contact access would not address a stopped session.
+**Oefening:** een app werkt zolang het secundaire profiel actief is, maar ontvangt na Sessie beëindigen geen berichten meer. Start het profiel opnieuw en test opnieuw. Toegang tot contacten geven lost een beëindigde sessie niet op.
 
-**Completion criterion:** your plan should explain why each app sits in its chosen profile and which test supports relying on it. Revisit the relevant row after an update changes behavior.
+**Voltooiingscriterium:** je plan legt uit waarom elke app in het gekozen profiel staat en welke test vertrouwen op de app rechtvaardigt. Beoordeel de betreffende rij opnieuw als een update het gedrag verandert.
 
 ## Volgende stappen
 
-Use the site's [GrapheneOS installation guide](/guides/how-to-install-graphine-os/) if you have not installed the OS. Then choose one profile arrangement and test your essential apps before adding extra profiles or changing broad permission settings.
+Gebruik de [GrapheneOS-installatiehandleiding](/guides/how-to-install-graphine-os/) van de site als je het besturingssysteem nog niet hebt geïnstalleerd. Kies daarna één profielindeling en test je essentiële apps voordat je extra profielen toevoegt of algemene machtigingsinstellingen wijzigt.

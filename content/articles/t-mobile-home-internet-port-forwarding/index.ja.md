@@ -1,171 +1,171 @@
 ---
-title: "Why Port Forwarding Doesn't Work on T-Mobile Home Internet"
+title: "T-Mobile Home Internet でポート転送が使えない理由"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port."
+description: "T-Mobile 5G Home Internet のポート転送の制限、キャリア NAT、公開受信ポートなしで自宅サーバーに接続する方法を説明します。"
 genre: ["Networking", "Self-Hosted", "Network Security"]
-tags: ["T-Mobile Home Internet", "T-Mobile port forwarding", "5G Home Internet", "CGNAT", "carrier-grade NAT", "NAT", "remote access", "home server", "homelab", "T-Mobile gateway", "bridge mode", "dynamic IP", "public IPv4", "double NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "private networking", "inbound connections", "cellular internet"]
+tags: ["T-Mobile Home Internet", "T-Mobile ポート転送", "5G Home Internet", "CGNAT", "キャリアグレード NAT", "NAT", "リモートアクセス", "自宅サーバー", "ホームラボ", "T-Mobile ゲートウェイ", "ブリッジモード", "動的 IP", "パブリック IPv4", "二重 NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "プライベートネットワーク", "受信接続", "モバイルインターネット"]
 cover: "/img/cover/t-mobile-home-internet-port-forwarding.webp"
-coverAlt: "A home cellular gateway faces a distant tower and a shared network gate beside a glowing cloud connection."
+coverAlt: "家庭用セルラーゲートウェイが遠くの基地局と共有ネットワークゲートを経由し、隣には明るいクラウド接続が表示されています。"
 coverCaption: ""
 ---
 
-**T-Mobile's consumer 5G Home Internet gateways** do not offer configurable port forwarding. Adding a rule to a second router does not change the carrier gateway's settings or create a public inbound route. T-Mobile also documents no bridge-mode toggle or adjustable network address translation (NAT) type. [T-Mobile gateway settings](https://www.t-mobile.com/support/home-internet/connect).
+**T-Mobile 5G Home Internet の個人向けゲートウェイ**には、設定可能なポート転送機能がありません。2台目のルーターにルールを追加しても、通信事業者のゲートウェイ設定は変わらず、公開された受信経路も作られません。T-Mobile はブリッジモードの切り替えや NAT タイプの変更機能も公開していません。[T-Mobile ゲートウェイの設定](https://www.t-mobile.com/support/home-internet/connect)
 
-This article covers **cellular Home Internet**. Treat fiber and business products as separate services with their own documented capabilities.
+この記事の対象は**セルラー回線の Home Internet**です。光回線や法人向け製品は、機能がそれぞれ異なる別のサービスとして扱ってください。
 
 ## 要点
 
-- **Identify the limit:** distinguish a gateway feature from upstream address translation.
-- **Inspect the path:** record where each address and port belongs.
-- **Compare alternatives:** match client access and protocol requirements to a hosting method.
-- **Write a decision:** produce a connection plan with a test and fallback.
+- **制限を特定する:** ゲートウェイの機能と上流でのアドレス変換を区別します。
+- **経路を調べる:** 各アドレスとポートがどの機器に属するか記録します。
+- **代替案を比較する:** クライアントのアクセス方法とプロトコル要件に合うホスティング方式を選びます。
+- **判断を記録する:** テストと代替手段を含む接続計画を作ります。
 
 ## 始める前に
 
-**Audience:** T-Mobile cellular Home Internet users trying to reach a home service from outside. **Prerequisites:** access to the server, its local network settings, and the supplied gateway's status information. A second Internet connection is useful for the final remote test.
+**対象:** T-Mobile のセルラー Home Internet を利用し、外部から自宅サービスに接続したい人。**前提条件:** サーバー、ローカルネットワーク設定、提供されたゲートウェイのステータス情報にアクセスできること。最後のリモートテストには別のインターネット接続があると便利です。
 
-**Estimated effort:** 15–20 minutes to gather requirements and run local checks. Configuring a replacement access method takes additional time. **Difficulty:** beginner to intermediate. The objective is a justified connection choice, rather than another unused router rule.
+**所要時間の目安:** 要件の整理とローカルチェックに15～20分。別のアクセス方式の設定には追加の時間が必要です。**難易度:** 初級から中級。目的は根拠のある接続方式を選ぶことで、使われないルーターのルールを追加することではありません。
 
-## Why a Local Port Rule Is Insufficient
+## ローカルのポートルールだけでは不十分な理由
 
-**Port forwarding** maps incoming traffic at a router to an internal destination. For a home server to receive unsolicited Internet traffic, the route must work through every relevant upstream device. A successful local connection proves the server is reachable inside your network, not from outside it.
+**ポート転送**は、ルーターに届いた受信トラフィックを内部の宛先へ転送します。ホームサーバーがインターネットからの未要求トラフィックを受け取るには、経路上のすべての上流機器を通過できなければなりません。ローカル接続の成功が示すのは、サーバーが自宅ネットワーク内から到達できることです。外部からの到達性は証明しません。
 
-**Carrier-grade NAT (CGNAT)** adds address translation in the provider's network. Subscribers share public IPv4 capacity, while the provider controls the outer translation. RFC 6598 reserves **`100.64.0.0/10`** for shared address space used in this kind of deployment. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**キャリアグレード NAT (CGNAT)** は、プロバイダーのネットワーク内でアドレス変換を追加します。加入者はパブリック IPv4 の容量を共有し、外側の変換はプロバイダーが管理します。RFC 6598 は、このような構成で使う共有アドレス空間として **`100.64.0.0/10`** を予約しています。[RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html)
 
-**Gateway support and carrier NAT are separate issues.** T-Mobile's support page establishes the gateway restriction. CGNAT explains why configuring your own router is also insufficient when upstream translation sits outside your control. A missing port-forwarding menu alone does not reveal the full carrier network design.
+**ゲートウェイの機能とキャリア NAT は別の問題です。** T-Mobile のサポートページはゲートウェイの制限を説明しています。上流の変換が自分の管理外にある場合、CGNAT があると自分のルーターを設定しても不十分です。ポート転送メニューがないことだけでは、キャリアネットワーク全体の構成は分かりません。
 
-**The practical outcome is a choice of connection model.** Use an overlay network for private access, an outbound tunnel for an HTTP service, or a hosted endpoint when outside users need public access. Test the chosen method from a separate network. Do not use a successful LAN request as evidence of external reachability.
+**実際には接続方式を選ぶことになります。** プライベートアクセスにはオーバーレイネットワーク、HTTP サービスには外向きトンネル、外部ユーザーに公開アクセスが必要ならホスティングされたエンドポイントを使います。選んだ方式は別のネットワークからテストしてください。LAN 内のリクエスト成功を外部到達性の証拠にしないでください。
 
-| Change | What it changes | What remains unresolved |
+| 変更 | 変わること | 未解決のままのこと |
 |---|---|---|
-| **Rule on a second router** | Forwarding on your router | Carrier gateway and upstream route |
-| **Different DNS resolver** | Name resolution | Inbound connectivity |
-| **Dynamic DNS hostname** | A name following an address | A usable inbound path |
-| **Faster Wi-Fi** | Local wireless performance | Reachability from the Internet |
+| **2台目のルーターのルール** | 自分のルーターでの転送 | キャリアゲートウェイと上流経路 |
+| **別の DNS リゾルバー** | 名前解決 | 受信接続 |
+| **動的 DNS ホスト名** | アドレスを追従する名前 | 使用可能な受信経路 |
+| **高速な Wi-Fi** | ローカル無線性能 | インターネットからの到達性 |
 
-**Dynamic addressing** means an address changes over time. It is distinct from sharing an address through NAT. T-Mobile documents dynamic addressing and no consumer Home Internet option to change it to static on this support page. [T-Mobile connection limitations](https://www.t-mobile.com/support/home-internet/connect).
+**動的アドレス割り当て**とは、時間の経過とともにアドレスが変わることです。NAT によるアドレス共有とは別の仕組みです。T-Mobile は動的アドレスを説明しており、このサポートページには個人向け Home Internet を固定アドレスに変更する方法は記載されていません。[T-Mobile の接続制限](https://www.t-mobile.com/support/home-internet/connect)
 
-## Trace the Address Ownership
+## アドレスを誰が管理しているか追跡する
 
-In a **provider-NAT example**, the path has several independent boundaries:
+**プロバイダー NAT の例**では、経路はいくつもの境界を通ります。
 
 ```text
-Remote client -> provider translation -> home gateway -> optional router -> server
-                   provider controls      home devices and local settings
+リモートクライアント -> プロバイダーの変換 -> 家庭用ゲートウェイ -> 追加ルーター -> サーバー
+                              プロバイダーが管理   家庭内機器とローカル設定
 ```
 
-**An address visible to a website** describes the connection reaching the website. It does not establish an inbound mapping to your server. The CGN requirements document discusses mappings in terms of subscriber identity, external address, port, and time. [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
+**Webサイトから見えるアドレス**が示すのは、そのサイトに到達した接続です。サーバーへの受信マッピングを示すものではありません。CGN の要件では、加入者 ID、外部アドレス、ポート、時刻を使ってマッピングを説明しています。[RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html)
 
-**Record the interface:** distinguish your server's local address, a second router's WAN address, the cellular gateway's reported address, and an external service's observation. Here, **WAN** means the upstream side of a router. An address without its interface label is weak diagnostic evidence.
+**インターフェイスを記録します。** サーバーのローカルアドレス、2台目のルーターの WAN アドレス、セルラーゲートウェイが報告するアドレス、外部サービスが観測するアドレスを区別してください。ここで **WAN** はルーターの上流側を指します。インターフェイス名のないアドレスは、診断の根拠として不十分です。
 
-Consider this **illustrative observation**, using documentation addresses for the public side:
+公開側に文書用アドレスを使った、次の**例示的な観察**を考えてみます。
 
-| Observation point | Example reading | Interpretation |
+| 観察場所 | 値の例 | 意味 |
 |---|---|---|
-| **Server LAN** | `192.168.50.10` | Local destination |
-| **Second router WAN** | `192.168.12.20` | Another private network upstream |
-| **External IPv4 check** | `203.0.113.25` | Address seen outside |
+| **サーバー LAN** | `192.168.50.10` | ローカルの宛先 |
+| **2台目のルーターの WAN** | `192.168.12.20` | 上流に別のプライベートネットワークがある |
+| **外部 IPv4 チェック** | `203.0.113.25` | 外部から見えるアドレス |
 
-**Supported conclusion:** the second router is behind another private network. **Unsupported conclusion:** its WAN reading proves the exact carrier translation arrangement. Inspect the cellular gateway separately if its status page exposes the relevant address.
+**根拠のある結論:** 2台目のルーターは別のプライベートネットワークの背後にあります。**根拠のない結論:** WAN の値だけでキャリアの変換方式まで分かる。セルラーゲートウェイのステータス画面に関連アドレスが表示される場合は、別途確認してください。
 
-**Address-space clue:** a provider-facing address in `100.64.0.0/10` is shared address space. Record which interface reports it. A private-network tool also assigning addresses from this range would make an unlabeled screenshot ambiguous. The range itself is defined by [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**アドレス範囲から分かること:** プロバイダー側の `100.64.0.0/10` のアドレスは共有アドレス空間です。どのインターフェイスに表示されたか記録してください。プライベートネットワーク用ツールもこの範囲を割り当てる場合、ラベルのないスクリーンショットでは判断できません。[RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html)で範囲が定義されています。
 
-## Check the Local Service
+## ローカルサービスを確認する
 
-For an **HTTP dashboard**, run this request from another Linux or macOS device on your home network. Replace the example address and port with your server's values:
+**HTTP ダッシュボード**の場合、ホームネットワーク内にある別の Linux または macOS デバイスから次のリクエストを実行します。例のアドレスとポートをサーバーの値に置き換えてください。
 
 ```bash
 curl --connect-timeout 5 --max-time 10 --output /dev/null --write-out '%{http_code}\n' http://192.168.50.10:8080/
 ```
 
-**`--connect-timeout`** bounds connection setup. **`--max-time`** bounds the whole request. **`--output`** discards the response body, and **`--write-out`** displays the HTTP status. These options are documented in the [curl manual](https://curl.se/docs/manpage.html).
+**`--connect-timeout`** は接続確立の制限時間です。**`--max-time`** はリクエスト全体の制限時間です。**`--output`** は応答本文を破棄し、**`--write-out`** は HTTP ステータスを表示します。これらのオプションは [curl のマニュアル](https://curl.se/docs/manpage.html)に記載されています。
 
-**Interpret the result:** an HTTP response, including an authentication response, shows an HTTP endpoint answered on this route. Confirm its identity in your browser. A timeout does not identify the failing layer. Inspect the listening address, port, and host firewall next.
+**結果の読み方:** 認証を求める応答を含む HTTP 応答があれば、この経路で HTTP エンドポイントが応答したことを示します。ブラウザーでそのサービスを確認してください。タイムアウトだけでは、どの層に問題があるか分かりません。続いてリッスンアドレス、ポート、ホストのファイアウォールを確認します。
 
-*This check applies to HTTP. A game using UDP needs a protocol-appropriate test.*
+*この確認は HTTP 向けです。UDP を使うゲームには、プロトコルに合ったテストが必要です。*
 
-## Choose an Alternative Around the Service
+## サービスに合う代替案を選ぶ
 
-**Private access** and **public hosting** have different requirements. Start by deciding who needs the connection and whether they are willing to install a client.
+**プライベートアクセス**と**公開ホスティング**では、要件が異なります。まず、誰が接続する必要があるか、クライアントのインストールを受け入れてもらえるかを決めてください。
 
-**TCP** transports an ordered stream over a connection. **UDP** transports individual datagrams. Hosting support must match the application's transport, even when two services use the same numeric port.
+**TCP** は接続上で順序付けされたストリームを転送します。**UDP** は個々のデータグラムを転送します。2つのサービスが同じポート番号を使っていても、ホスティング方式はアプリケーションのトランスポート方式に対応している必要があります。
 
-| Need | Approach to evaluate | Main constraint |
+| 要望 | 検討する方法 | 主な制約 |
 |---|---|---|
-| **Your laptop reaching your home server** | Tailscale private network | Enroll devices and configure access rules |
-| **A private browser dashboard** | Cloudflare Tunnel plus Access | Configure the hostname and identity policy |
-| **A website for public visitors** | Public hosting or an appropriate tunnel | Review protocol, capacity, and service requirements |
-| **A game server for ordinary game clients** | Hosting with documented inbound port support | Match the game's TCP/UDP requirements |
+| **ノートパソコンから自宅サーバーへ接続** | Tailscale のプライベートネットワーク | デバイス登録とアクセスルールの設定 |
+| **ブラウザー用のプライベートダッシュボード** | Cloudflare Tunnel と Access | ホスト名と ID ポリシーの設定 |
+| **一般公開する Web サイト** | 公開ホスティングまたは適切なトンネル | プロトコル、容量、サービス要件の確認 |
+| **一般的なゲームクライアント向けゲームサーバー** | 受信ポート対応が文書化されたホスティング | ゲームの TCP/UDP 要件への対応 |
 
-**Tailscale** attempts a direct connection and supports relayed connectivity when direct communication fails. This avoids relying on a manually forwarded home port, although the resulting path affects performance. Read the [Tailscale connection overview](https://tailscale.com/docs/reference/connection-types) and our [relay explainer](/articles/why-tailscale-uses-a-relay/).
+**Tailscale** は直接接続を試み、直接通信に失敗した場合は中継接続をサポートします。手動で自宅のポートを転送する必要はありませんが、実際の経路によって性能は変わります。[Tailscale 接続の概要](https://tailscale.com/docs/reference/connection-types)と[リレーの解説](/articles/why-tailscale-uses-a-relay/)を参照してください。
 
-**Cloudflare Tunnel** establishes an outbound connection from your server. For a private dashboard, pair it with an Access policy. A published hostname without the policy does not add an identity check. See [Tunnel connectivity](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) and [Tunnel vs Access](/articles/cloudflare-tunnel-vs-access/).
+**Cloudflare Tunnel** はサーバーから外向きの接続を確立します。プライベートダッシュボードの場合は Access ポリシーと組み合わせてください。ポリシーなしでホスト名を公開しても ID チェックは追加されません。[Tunnel 接続](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/)と[Tunnel と Access の比較](/articles/cloudflare-tunnel-vs-access/)を参照してください。
 
-**A VPN subscription alone** does not specify an inbound hosting arrangement. Before buying any service, verify its supported protocols, exposed ports, authentication options, and restrictions. For a game server, ask specifically about the game's required UDP ports.
+**VPN の契約だけでは**、受信ホスティングの仕組みは決まりません。サービスを購入する前に、対応プロトコル、公開ポート、認証方法、制限を確認してください。ゲームサーバーでは、ゲームが必要とする UDP ポートを具体的に確認します。
 
-## What About IPv6?
+## IPv6 の場合はどうでしょうか
 
-**IPv6 addressing and inbound permission** are separate requirements. IPv6 reduces dependence on IPv4 address translation, while stateful gateway filtering still controls incoming connections. RFC 6092 describes residential IPv6 filtering, including handling unsolicited traffic. It does not document the settings on your T-Mobile gateway. [Residential IPv6 security recommendations](https://www.rfc-editor.org/rfc/rfc6092.html).
+**IPv6 アドレスの割り当てと受信通信の許可**は別の要件です。IPv6 は IPv4 のアドレス変換への依存を減らしますが、ゲートウェイのステートフルフィルタリングは受信接続を引き続き制御します。RFC 6092 は、未要求トラフィックの処理を含め、家庭向け IPv6 のフィルタリングについて説明しています。T-Mobile ゲートウェイの設定を説明する文書ではありません。[家庭向け IPv6 のセキュリティ推奨事項](https://www.rfc-editor.org/rfc/rfc6092.html)
 
-**Evaluate the complete route:** the remote client needs IPv6 connectivity, the server needs an appropriate address and listener, and the network must permit the traffic. A successful IPv6 browsing test proves an outbound path. It does not prove an Internet client reaches your server.
+**経路全体を評価します。** リモートクライアントには IPv6 接続性が必要です。サーバーには適切なアドレスとリスナーが必要です。ネットワークはそのトラフィックを許可しなければなりません。IPv6 で Web サイトを閲覧できても、それは外向き経路の確認にすぎず、インターネット上のクライアントがサーバーに接続できる証拠ではありません。
 
-| Evidence | What it establishes |
+| 証拠 | 確認できること |
 |---|---|
-| **An IPv6 address on the server** | An address is assigned to an interface |
-| **A successful outbound IPv6 request** | This client reached an external service |
-| **A remote application response** | The tested inbound application route works |
+| **サーバーの IPv6 アドレス** | インターフェイスにアドレスが割り当てられた |
+| **外向き IPv6 リクエストの成功** | このクライアントから外部サービスに到達できた |
+| **外部アプリケーションからの応答** | テストしたアプリケーションの受信経路が機能する |
 
-**Decision rule:** choose IPv6 hosting only after confirming the complete inbound path and your clients' compatibility. Avoid treating an address assignment as a substitute for a remote application test.
+**判断ルール:** 完全な受信経路とクライアントの互換性を確認してから IPv6 ホスティングを選びます。アドレスが割り当てられたことを、アプリケーションのリモートテストの代わりにしないでください。
 
-## Check the Application Before Changing the Network
+## ネットワークを変える前にアプリケーションを確認する
 
-Use these **diagnostic steps** to separate local failures from remote-access limits:
+次の**診断手順**で、ローカルの障害とリモートアクセスの制限を切り分けます。
 
-1. **Local connection:** confirm another home device reaches the server's local address and intended port.
-2. **Service configuration:** confirm the application listens on the expected interface and the host firewall permits the intended client.
-3. **Audience:** decide whether access is private or public.
-4. **Remote test:** test the chosen tunnel or private-network connection from a different Internet connection.
-5. **Performance:** measure the actual workload after connectivity succeeds.
+1. **ローカル接続:** 別の家庭内デバイスから、サーバーのローカルアドレスと対象ポートに接続できるか確認します。
+2. **サービス設定:** アプリケーションが想定インターフェイスで待ち受け、ホストのファイアウォールが対象クライアントを許可するか確認します。
+3. **対象ユーザー:** プライベートアクセスか公開アクセスか決めます。
+4. **リモートテスト:** 別のインターネット接続から、選択したトンネルまたはプライベートネットワークをテストします。
+5. **性能:** 接続後に実際のワークロードを測定します。
 
-**A failed local test** needs attention before choosing a remote-access service. Port forwarding would not repair an application listening on the wrong interface.
+**ローカルテストが失敗した場合**は、リモートアクセスサービスを選ぶ前に調査が必要です。ポート転送では、誤ったインターフェイスで待ち受けるアプリケーションを修正できません。
 
-## Work Through a Hosting Choice
+## ホスティング方式を選ぶ
 
-**Scenario:** you want to read a home dashboard while traveling, and two friends want to join a game server. Your dashboard is HTTP. The game requires UDP, and your friends want to use ordinary game clients without installing another network client.
+**シナリオ:** 旅行中に自宅のダッシュボードを確認したいとします。友人2人はゲームサーバーに参加したいと考えています。ダッシュボードは HTTP を使い、ゲームは UDP を必要とします。友人は別のネットワーククライアントをインストールせず、一般的なゲームクライアントを使いたいとします。
 
-**Separate the requirements.** A browser-based dashboard with a small identity list fits an authenticated web publishing arrangement. The game needs a public route supporting its required transport and clients. Solving the first requirement does not establish support for the second.
+**要件を分けて考えます。** 少人数の ID を持つブラウザ用ダッシュボードには、認証付きの Web 公開方式が適しています。ゲームには、必要なトランスポートとクライアントを支援する公開経路が必要です。1つ目を解決しても、2つ目を支援できるとは限りません。
 
-| Requirement | Reasoned choice |
+| 要件 | 根拠のある選択 |
 |---|---|
-| **Private dashboard in a browser** | Evaluate Tunnel plus Access |
-| **Personal access with enrolled devices** | Evaluate a private overlay network |
-| **Public UDP game clients** | Evaluate hosting with documented UDP reachability |
+| **ブラウザーからのプライベートダッシュボード** | Tunnel と Access を評価する |
+| **登録済みデバイスからの個人アクセス** | プライベートオーバーレイネットワークを評価する |
+| **公開 UDP ゲームクライアント** | UDP 到達性が文書化されたホスティングを評価する |
 
-**Review question:** would dynamic DNS make the game reachable through an unavailable inbound route? No. Updating a hostname does not create the required mapping or listener. Reject proposals addressing only the name while leaving the route unexplained.
+**確認質問:** 動的 DNS を使えば、受信経路がない状態でもゲームに接続できるでしょうか。いいえ。ホスト名を更新しても、必要なマッピングやリスナーは作られません。経路を説明せず、名前だけを変更する提案は避けてください。
 
-**Tradeoff to record:** moving the game to external hosting changes recurring cost and administration. Asking friends to join a private network changes their setup requirements. Choose after confirming which constraint is negotiable.
+**トレードオフを記録します。** ゲームを外部ホスティングへ移すと、継続的な費用と管理作業が増えます。友人にプライベートネットワークへ参加してもらうと、相手側の設定要件が変わります。変更可能な制約を確認してから選んでください。
 
-## Build a Connection Plan
+## 接続計画を作る
 
-Create a **one-service plan** with these fields:
+次の項目を含む**1サービス分の計画**を作成します。
 
 ```text
-Application and required TCP/UDP ports:
-People or devices needing access:
-Client installation acceptable:
-Local service test result:
-Inbound path available:
-Chosen access method:
-Authentication method:
-Remote test and success criterion:
-Fallback if the test fails:
+アプリケーションと必要な TCP/UDP ポート:
+アクセスが必要な人またはデバイス:
+クライアントのインストールを受け入れられるか:
+ローカルサービスのテスト結果:
+利用可能な受信経路:
+選んだアクセス方式:
+認証方式:
+リモートテストと成功条件:
+テストに失敗した場合の代替手段:
 ```
 
-**Completion criterion:** every step from the remote client to the application has an identified owner and supported mechanism. For a home tunnel, include the connector. For external hosting, include the host's firewall and public listener. Leave unsupported assumptions visible until verified.
+**完了条件:** リモートクライアントからアプリケーションまでの各段階に、管理者と対応する仕組みがあること。自宅のトンネルならコネクターを含めます。外部ホスティングならホストのファイアウォールと公開リスナーを含めます。未確認の前提は、検証するまで明示してください。
 
-## 次のステップ
+## 次の手順
 
-For a browser dashboard, start with the [Cloudflare Tunnel setup guide](/guides/how-to-setup-and-use-cloudflare-tunnels/) and add Access. For broader service context, read the [T-Mobile Home Internet overview](/other/t-mobile-home-internet-benefits-connectivity-features/).
+ブラウザー用ダッシュボードでは、[Cloudflare Tunnel 設定ガイド](/guides/how-to-setup-and-use-cloudflare-tunnels/)から始めて Access を追加します。サービスの全体像については、[T-Mobile Home Internet の概要](/other/t-mobile-home-internet-benefits-connectivity-features/)を参照してください。

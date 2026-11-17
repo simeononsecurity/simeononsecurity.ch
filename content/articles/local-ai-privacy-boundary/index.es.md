@@ -1,12 +1,12 @@
 ---
 title: "Privacidad de la IA local: qué permanece en su ordenador y qué no"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Trace prompts, archivos de modelos, herramientas, registros, exposición de red y costes de energía antes de elegir inferencia local o un servicio de IA alojado."
 genre: ["IA local", "Privacidad", "IA autoalojada", "Ciberseguridad", "Economía de la IA"]
-tags: ["local AI privacy", "local inference", "cloud AI", "AI data privacy", "self-hosted AI", "LLM privacy", "GPU ownership cost", "AI electricity cost", "RTX 5070", "Claude Haiku 5.5", "Ollama privacy", "llama.cpp", "AI security", "offline AI", "local language models", "prompt privacy", "AI threat model", "GPU break-even", "AI data boundary", "private AI"]
+tags: ["privacidad de la IA local", "inferencia local", "IA en la nube", "privacidad de los datos de IA", "IA autoalojada", "privacidad de los LLM", "costo de propiedad de la GPU", "costo eléctrico de la IA", "RTX 5070", "Claude Haiku 5.5", "privacidad de Ollama", "llama.cpp", "seguridad de la IA", "IA sin conexión", "modelos de lenguaje locales", "privacidad de los prompts", "modelo de amenazas de IA", "punto de equilibrio de la GPU", "límite de datos de IA", "IA privada"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "Una estación de trabajo de IA local conectada a un servicio en la nube mediante rutas de datos visibles"
 coverCaption: "Ilustración de las rutas de datos de IA local y alojada"
@@ -74,6 +74,15 @@ Las [preguntas frecuentes de Ollama](https://docs.ollama.com/faq) documentan un 
 
 Verifique el ajuste después de reiniciar. Un runtime solo local estrecha una ruta. No establece un host privado.
 
+
+## Voz de Ollama y límite de red
+
+*La [versión v0.40.11 de Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11) anuncia generación de voz en macOS. Su [referencia de la API](https://docs.ollama.com/api/openai-compatibility) fecha `/v1/audio/speech` en la v0.40.8, así que la v0.40.11 no es la primera versión documentada del endpoint.* Esto es **texto a voz**, no voz a texto: una solicitud envía texto a un modelo de voz como Phonon y recibe audio en streaming. La [guía de voz](https://docs.ollama.com/capabilities/speech) también muestra cómo `ollama run phonon` reproduce audio localmente o escribe un archivo WAV cuando se redirige la salida.
+
+La **ruta de voz local** requiere un modelo local descargado y un servidor local. Las [preguntas frecuentes de Ollama](https://docs.ollama.com/faq) indican que, de forma predeterminada, el servidor se enlaza a `127.0.0.1:11434` y que **`OLLAMA_HOST`** cambia la dirección de enlace. Comprueba el listener activo con el comando `lsof` anterior, en lugar de suponer que el valor predeterminado sigue vigente. La [introducción a la API de Ollama](https://docs.ollama.com/api/introduction) indica que las solicitudes locales no necesitan una clave de API. Restringe cualquier enlace más amplio con un cortafuegos y controles de acceso antes de enviar texto privado.
+
+**Un enlace a loopback no es todo el límite.** Ollama documenta cómo reenviar su servidor HTTP mediante un proxy inverso o un túnel. Comprueba el listener, la autenticación y el registro de solicitudes de cada proxy, aunque Ollama siga escuchando en loopback. El texto que envías y el audio recibido atraviesan la conexión del proxy. La [guía de solución de problemas de Ollama](https://docs.ollama.com/troubleshooting) identifica los registros del servidor, pero la documentación de voz no promete retención de audio. Comprueba dónde guardan los clientes la salida WAV y dónde persisten los registros del proxy o de la aplicación. Las preguntas frecuentes de Ollama dicen que no ve las solicitudes ni los datos de las ejecuciones locales. Las descargas de modelos requieren red y los modelos en la nube siguen otra ruta. En una configuración solo de modelos locales de Ollama, `OLLAMA_NO_CLOUD=1`, descrito arriba, desactiva las funciones en la nube de Ollama. No controla otras aplicaciones.
+
 ## Calcule el coste alojado
 
 Los precios de tokens separan entrada y salida. [Anthropic lista Claude Haiku 5.5 a $0.10 por millón de tokens de entrada y $0.50 por millón de salida para prompts de hasta 100.000 tokens](https://www.anthropic.com/claude/haiku). Los prompts mayores usan las tarifas superiores indicadas.
@@ -91,7 +100,7 @@ La cifra de potencia de la GPU no es la potencia de todo el sistema. Use un medi
 [La previsión de la U.S. Energy Information Administration](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) usó 18,2 centavos por kilovatio-hora como precio residencial medio de la electricidad en 2026. Su tarifa cambia el resultado.
 
 ```text
-local cost per 1M output tokens =
+coste local por 1M tokens de salida =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -116,8 +125,8 @@ La transcripción proporcionada informa de 94 tokens de salida por segundo y 2.6
 El ahorro de energía no paga el hardware por sí solo. Compare la compra completa con la diferencia entre el coste de salida alojado y el coste variable local.
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 precio de salida alojada - $0.40 coste de la electricidad local = $0.10 ahorrados por 1M tokens de salida
+$549 precio de la GPU / $0.10 = unos 5.5 mil millones de tokens de salida
 ```
 
 A 94 tokens de salida por segundo, el ahorro redondeado sube a unos $0.28 por millón. Recuperar una GPU de $549 exige unos 2.000 millones de tokens de salida. Ambas cifras excluyen memoria del sistema, almacenamiento, placa base, fuente, refrigeración, mantenimiento y reventa.
@@ -182,5 +191,11 @@ La [guía de IA local frente a ChatGPT](/articles/local-ai-vs-chatgpt-how-close-
 - [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
 - [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
-- [Ollama privacy policy](https://ollama.com/privacy)
-- [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
+- [Política de privacidad de Ollama](https://ollama.com/privacy)
+- [Notas de la versión v0.40.11 de Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Guía de voz de Ollama](https://docs.ollama.com/capabilities/speech)
+- [Referencia de la API compatible con OpenAI de Ollama](https://docs.ollama.com/api/openai-compatibility)
+- [Introducción a la API de Ollama](https://docs.ollama.com/api/introduction)
+- [FAQ de Ollama: configuración del servidor, ajustes de nube y proxies inversos](https://docs.ollama.com/faq)
+- [Solución de problemas de Ollama y registros del servidor](https://docs.ollama.com/troubleshooting)
+- [Documentación del servidor de llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

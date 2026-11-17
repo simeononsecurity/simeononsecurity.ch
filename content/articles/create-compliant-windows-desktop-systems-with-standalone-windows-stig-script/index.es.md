@@ -1,13 +1,14 @@
 ---
-title: "El poder de la ciberseguridad: cómo crear un sistema Windows conforme y seguro con Standalone-Windows-STIG-Script"
+title: "Standalone-Windows-STIG-Script: crea un PC conforme"
 date: 2023-02-02
 toc: true
 draft: false
-description: "Descubra cómo crear un sistema Windows seguro y conforme a las normas con el sencillo Standalone-Windows-STIG-Script, un artículo informativo con instrucciones paso a paso y explicaciones detalladas de los parámetros."
-tags: ["Guión STIG", "Seguridad de Windows", "Sistema Windows compatible", "Endurecimiento del sistema", "Windows STIG", "Ventanas seguras", "Cumplimiento de Windows", "Instalación manual", "Actualizaciones de Windows", "Adobe Reader", "Firefox", "Cromo", "Internet Explorer 11", "Marco .NET", "Oficina", "OneDrive", "Java", "Windows Defender", "Cortafuegos de Windows", "Mitigación", "Nessus PID", "Horizonte VMware", "Endurecimiento opcional"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
-coverAlt: "Captura de pantalla de un ordenador con una barra de progreso que indica el porcentaje de finalización."
+description: "Guía paso a paso para usar Standalone-Windows-STIG-Script en sistemas Windows conformes, con parámetros y pasos de verificación."
+tags: ["Script STIG", "Seguridad de Windows", "Sistema Windows conforme", "Endurecimiento del sistema", "Windows STIG", "Windows seguro", "Cumplimiento de Windows", "Instalación manual", "Actualizaciones de Windows", "Adobe Reader", "Firefox", "Chrome", "Internet Explorer 11", ".NET Framework", "Office", "OneDrive", "Java", "Windows Defender", "Firewall de Windows", "Medidas de mitigación", "Nessus PID", "VMware Horizon", "Endurecimiento opcional"]
+cover: "/img/cover/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script.webp"
+coverAlt: "Ilustración de una pantalla de ordenador con una interfaz de cumplimiento de seguridad, barras de progreso dinámicas y flujos de datos sobre un fondo azul marino oscuro con acentos vivos."
 coverCaption: ""
+lastmod: 2026-11-09
 ---
 
 Los sistemas Windows se utilizan ampliamente en empresas, organizaciones e incluso hogares. Con el creciente número de ataques cibernéticos, es crucial garantizar que estos sistemas sean seguros y cumplan con los estándares de la industria. Standalone-Windows-STIG-Script es una herramienta útil que te ayuda a conseguirlo. En este artículo, exploraremos qué es el Standalone-Windows-STIG-Script, cómo funciona y cómo puede utilizarlo para crear un sistema Windows seguro y conforme.
@@ -28,11 +29,11 @@ El Script Standalone-Windows-STIG implementa las directrices proporcionadas en l
 
 ## Ventajas de utilizar Standalone-Windows-STIG-Script:
 
-- Automatización**: El script automatiza el proceso de protección de un sistema Windows, lo que ahorra tiempo y elimina la posibilidad de errores humanos.
+- **Automatización**: El script automatiza el proceso de protección de un sistema Windows, lo que ahorra tiempo y elimina la posibilidad de errores humanos.
 
-- Cumplimiento**: El script implementa las directrices proporcionadas en las STIG, asegurando que el sistema Windows cumple con los estándares de la industria.
+- **Cumplimiento**: El script implementa las directrices proporcionadas en las STIG, asegurando que el sistema Windows cumple con los estándares de la industria.
 
-- Tranquilidad**: Al utilizar el Script Standalone-Windows-STIG, puede tener la tranquilidad de saber que su sistema Windows es seguro y cumple con los estándares del sector.
+- **Tranquilidad**: Al utilizar el Script Standalone-Windows-STIG, puede tener la tranquilidad de saber que su sistema Windows es seguro y cumple con los estándares del sector.
 
 _________________________________________________________________________________________________________________________
 

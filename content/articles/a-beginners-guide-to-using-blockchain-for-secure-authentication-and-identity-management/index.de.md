@@ -1,11 +1,12 @@
 ---
 title: "Einsteigerleitfaden zu Blockchain für sicheres Identitätsmanagement"
 date: 2023-04-06
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Erfahren Sie in diesem Leitfaden für Einsteiger, wie Sie die Blockchain-Technologie für eine sichere Authentifizierung und Identitätsverwaltung nutzen können."
 tags: ["Blockchain", "Identitätsmanagement", "Authentifizierung", "dezentralisierte Identität", "passwortlose Authentifizierung", "intelligente Verträge", "Public-Key-Kryptographie", "Privatschlüssel-Kryptographie", "unveränderliche Datensätze", "dezentrales System", "einmalige Anmeldung", "Prüfung der Befähigungsnachweise", "Skalierbarkeit", "Datenschutz", "Adoption", "digitale Identität", "Distributed-Ledger-Technologie", "Cybersicherheit", "Datenschutz", "Technologie"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.webp"
+cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "Eine Zeichentrickfigur, die in der einen Hand einen Schlüssel und in der anderen eine Blockchain hält, umgeben von einem Netz miteinander verbundener Knoten und Blöcke."
 coverCaption: ""
 ---
@@ -56,7 +57,7 @@ Blockchain kann für **Lösungen zur Überprüfung von Berechtigungsnachweisen**
 
 ## Herausforderungen beim Einsatz von Blockchain für sichere Authentifizierung und Identitätsmanagement
 
-## Skalierbarkeit
+### Skalierbarkeit
 
 Eine der Herausforderungen bei der Verwendung von Blockchain für die sichere Authentifizierung und das Identitätsmanagement ist die **Skalierbarkeit**. Blockchain-Netzwerke können mit zunehmender Anzahl von Knoten und Transaktionen langsam und ineffizient werden. Es werden jedoch Lösungen entwickelt, um dieses Problem anzugehen, z. B. Off-Chain-Lösungen wie Lightning Network.
 

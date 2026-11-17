@@ -1,7 +1,7 @@
 ---
 title: "Cele Mai Bune Browsere pentru Confidențialitate 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 'Comparație cuprinzătoare pentru 2026 a celor mai bune browsere axate pe confidențialitate: LibreWolf, Brave, Firefox, Tor și altele. Teste detaliate de confidențialitate, repere de performanță și analiză de securitate pentru a-ți proteja datele online.'
@@ -174,12 +174,12 @@ Acest ghid cuprinzător analizează cele mai bune browsere pentru confidențiali
 
 **Tweaks esențiale about:config:**
 ```
-// Even stricter privacy (optional):
+// Confidențialitate și mai strictă (opțional):
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // Izolarea completă a cookie-urilor
 
-// Performance optimization:
+// Optimizarea performanței:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **Setări esențiale de confidențialitate:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+Setări > Shields:
+✓ Blocarea trackerelor și reclamelor: strictă
+✓ Actualizează conexiunile la HTTPS
+✓ Blochează scripturile (pentru navigare sensibilă)
+✓ Blocarea amprentării digitale: strictă
+✓ Blochează cookie-urile: blochează cookie-urile terților
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+Setări > Confidențialitate și securitate:
+✓ Politica IP WebRTC: dezactivează UDP fără proxy
+✓ Navigare sigură: protecție standard
+□ Permite analiza produsului cu protejarea confidențialității (dezactivează)
+✓ Trimite automat semnalul zilnic de utilizare: dezactivat
+✓ Completează automat căutările: dezactivat
 ```
 
 **Extensii recomandate:**
@@ -404,14 +404,14 @@ Abordare revoluționară pentru gestionarea cookie-urilor:
 
 **1. Multi-Account Containers:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Extensie gratuită de la Mozilla
+Separă cookie-urile și istoricul în funcție de context:
+- Container personal (verde)
+- Container de lucru (albastru)
+- Container bancar (roșu)
+- Container pentru cumpărături (portocaliu)
 
-Prevents cross-contamination
+Împiedică amestecarea datelor între contexte
 ```
 
 **2. Firefox Relay:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. Secțiunea Confidențialitate & Securitate:**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ Protecție îmbunătățită împotriva urmăririi: strictă
+✓ Trimite site-urilor "Nu urmări": întotdeauna
+✓ Modul doar HTTPS: activează în toate ferestrele
+✓ DNS prin HTTPS: protecție maximă (Cloudflare)
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Cookie-uri și date ale site-urilor:
+✓ Șterge cookie-urile la închiderea Firefox
+□ Toate cookie-urile terților (folosește ETP în schimb)
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+Istoric:
+○ Nu memora niciodată istoricul (cea mai mare confidențialitate)
+● Folosește setări personalizate (recomandat):
+  ✓ Șterge istoricul la închiderea Firefox
+  ✓ Sugestii în bara de adrese: doar marcaje
 ```
 
 **2. Întărirea About:config:**
 ```
-// Resist fingerprinting
+// Protejează împotriva amprentării digitale
 privacy.resistFingerprinting = true
 
-// First party isolation
+// Izolarea primei părți
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// Protecție WebRTC
 media.peerconnection.enabled = false
 
-// Referrer header control
+// Controlul antetului referrer
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// Dezactivează WebGL
+webgl.disabled = true (poate afecta unele site-uri)
 
-// Letterboxing
+// Încadrarea ferestrei
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **Rețeaua Onion:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+Tu → Nod de intrare → Nod intermediar → Nod de ieșire → Site web
+     [Criptat]  [Criptat]  [Necriptat]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- Nodul de intrare te cunoaște, nu și destinația
+- Nodul intermediar nu le cunoaște pe niciuna
+- Nodul de ieșire cunoaște destinația, nu și identitatea ta
+- Fiecare strat este criptat separat
 ```
 
 **Trei niveluri de securitate:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **Sfaturi de siguranță:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ Nu maximiza niciodată fereastra (amprentare digitală)
+✓ Nu instala extensii
+✓ Folosește doar site-uri HTTPS
+✓ Nu folosi torrent prin Tor
+✓ Nu te conecta la conturi reale
+✗ Evită Windows dacă este posibil
+✓ Ia în considerare Tails OS pentru anonimitate maximă
+✓ Folosește punți în regiunile cenzurate
 ```
 
 ### Tor vs VPN
@@ -708,20 +708,20 @@ Testate cu profiluri de navigare identice pe 100 de site-uri populare:
 ### Arbore decizional rapid
 
 ```
-Need maximum anonymity (journalists, activists)?
+Ai nevoie de anonimitate maximă (jurnaliști, activiști)?
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+Vrei confidențialitate, compatibilitate Chrome și viteză?
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+Vrei Firefox fără telemetrie și confidențialitate maximă?
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+Vrei un browser popular cu confidențialitate bună și extensii?
+    → Firefox (configurat corect)
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+Ai nevoie de un browser mobil care protejează confidențialitatea?
+    → Brave (cel mai bun în general) sau Firefox Focus (cel mai simplu)
 ```
 
 ### Recomandări pe cazuri de utilizare
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **Pasul 2: Importă Datele**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+Fișier → Importă din alt browser
+Selectează: Chrome
+Alege: marcaje, parole și istoric
+Importă extensiile: reinstalează-le manual
 ```
 
 **Pasul 3: Configurează Setările de Confidențialitate**
@@ -922,6 +922,41 @@ Mulți utilizatori preocupați de confidențialitate folosesc mai multe browsere
 - Protejează împotriva furtului de identitate
 - Previne manipularea
 - Drept uman fundamental
+
+## Verificări ale browserelor de confidențialitate în 2026
+
+Numele unui browser nu dovedește că acesta protejează confidențialitatea. Înainte de utilizarea zilnică, verificați setările implicite, canalul de actualizare, politica extensiilor și modul de sincronizare.
+
+1. Descărcați browserul de pe site-ul oficial al proiectului sau dintr-un magazin de aplicații de încredere. Evitați versiunile reîmpachetate.
+2. Mențineți browserul și sistemul de operare actualizate. O setare de confidențialitate nu repară un browser fără patch-uri.
+3. Verificați protecția integrată împotriva trackerelor, amprentării digitale, descărcărilor malițioase și site-urilor înșelătoare.
+4. Tratați extensiile ca software cu privilegii. Instalați mai puține, verificați permisiunile și eliminați extensiile nefolosite.
+5. Testați cu [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) și [BrowserLeaks](https://browserleaks.com/). Testul descrie un profil de browser și nu dovedește anonimatul.
+6. Separați identitățile prin profiluri distincte. Nu vă autentificați în conturi personale dintr-o fereastră Tor Browser folosită pentru cercetări sensibile.
+7. Folosiți Tor Browser cu setările standard. Fonturile și extensiile suplimentare sau redimensionarea ferestrei reduc avantajul unei amprente comune.
+
+LibreWolf este potrivit pentru cei care vor setări implicite mai stricte și acceptă să rezolve uneori probleme de compatibilitate. Brave este potrivit pentru compatibilitate Chromium și blocare integrată. Firefox este potrivit pentru cei care vor asistența Mozilla și controale flexibile. Tor Browser este potrivit pentru cei care au nevoie de anonimat la nivel de rețea și acceptă viteze și compatibilitate mai reduse.
+
+[Manualul Tor Browser](https://tb-manual.torproject.org/) și [ghidul de confidențialitate Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) explică aceste controale în detaliu.
+
+## Limitele actuale ale confidențialității și listă de verificare
+
+Protecțiile browserului reduc expunerea, dar nu anonimizează contul, dispozitivul sau conexiunea. **Navigarea privată** șterge anumite date locale din istoric după sesiune. Nu ascunde traficul față de operatorul de rețea și nu împiedică un site să identifice un utilizator autentificat. [Tor Project explică această diferență](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**Amprentarea depinde de cât de mare este grupul de browsere asemănătoare.** Tor Browser încearcă să includă utilizatorii în grupuri comune de amprentă prin letterboxing, valori standardizate și izolarea primei părți. Tor Project spune că anonimatul perfect nu este posibil. Fără un motiv specific, nu adăugați extensii neobișnuite, nu maximizați fereastra Tor și nu modificați setările implicite. [Citiți recomandările Tor despre amprentare](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf necesită actualizări regulate.** Întrebările frecvente ale proiectului spun că versiunile urmează adesea Firefox upstream în trei zile și că browserul nu are propriul mecanism de actualizare automată. Folosiți managerul de pachete sau metoda de instalare a platformei și verificați versiunea instalată după actualizările de securitate. [Consultați FAQ-ul LibreWolf](https://librewolf.net/docs/faq/).
+
+Folosiți lista de mai jos înainte de a alege un browser:
+
+- **Modelul de amenințare:** decideți dacă trebuie să reduceți urmărirea, să separați conturile, să rezistați cenzurii sau să rămâneți anonim.
+- **Calea actualizărilor:** confirmați cine le oferă și cum le veți instala.
+- **Compatibilitate:** testați serviciile bancare, munca, media, extensiile și accesibilitatea înainte de a vă muta întregul flux de lucru.
+- **Separarea identității:** evitați autentificările personale în sesiunile destinate reducerii legăturilor dintre activități.
+- **Amprentare:** păstrați setările apropiate de configurația obișnuită. Multe extensii de confidențialitate pot face browserul mai ușor de identificat.
+- **Stratul de rețea:** tratați DNS, VPN și Tor ca măsuri distincte. Fiecare protejează o parte diferită a conexiunii.
+
+Scorurile de performanță și confidențialitate din alte secțiuni sunt măsurători istorice sau comparații ilustrative dacă nu sunt precizate metoda, data, profilul hardware și rezultatele brute. Nu le considerați clasamente universale actuale. Testați site-urile și dispozitivele proprii după fiecare actualizare majoră a browserului.
 
 ## Concluzie: Preluarea Controlului Asupra Confidențialității Digitale
 

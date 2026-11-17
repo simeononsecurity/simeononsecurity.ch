@@ -3,6 +3,7 @@ title: "Лучшие дистрибутивы Linux для обеспечени�
 draft: false
 toc: true
 date: 2023-06-01
+lastmod: 2026-11-12
 description: "Откройте для себя лучшие дистрибутивы Linux для обеспечения конфиденциальности и безопасности, гарантирующие защиту ваших данных и безопасность вашей деятельности в Интернете."
 tags: ["Дистрибутивы Linux", "конфиденциальность и безопасность", "Хвосты", "Qubes OS", "Whonix", "Parrot Security OS", "Ubuntu Privacy Remix", "OpenBSD", "защита информации", "безопасные вычисления", "анонимный просмотр", "виртуализация", "тестирование безопасности", "судебная экспертиза", "тестирование на проникновение", "средства шифрования", "безопасное удаление", "анонимность", "кибербезопасность", "корректность кода", "безопасность в Интернете", "защита пользовательских данных", "конфиденциальность", "восстановление данных", "интернет-банкинг", "конфиденциальность в Интернете", "безопасная среда", "безопасный просмотр веб-страниц", "Сеть Tor", "меры безопасности", "безопасный по умолчанию"]
 cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
@@ -66,7 +67,7 @@ ______
 
 {{< youtube id="0UoZX0wdXWI" >}}
 
-[OpenBSD](https://www.openbsd.org/) is an open-source operating system known for its strong focus on security and code correctness. While not a Linux distribution (it belongs to the BSD family), it is worth mentioning due to its outstanding security track record. OpenBSD undergoes rigorous code audits and follows the principle of "secure by default." It includes various security features such as address space layout randomization (ASLR) и безопасное управление памятью.
+[OpenBSD](https://www.openbsd.org/) является операционной системой с открытым исходным кодом, известной особым вниманием к безопасности и корректности кода. Это не дистрибутив Linux, а система семейства BSD. Ее стоит упомянуть благодаря отличной истории безопасности. Код OpenBSD проходит строгие аудиты, а система следует принципу «безопасность по умолчанию». В ней реализованы различные функции защиты, включая рандомизацию размещения адресного пространства (ASLR) и безопасное управление памятью.
 
 ______
 

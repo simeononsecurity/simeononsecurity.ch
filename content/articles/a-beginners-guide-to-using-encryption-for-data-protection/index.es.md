@@ -8,10 +8,11 @@ tags: ["codificación", "protección de datos", "ciberseguridad", "privacidad", 
 cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Un candado de dibujos animados con un ojo de cerradura, que representa la protección de datos mediante cifrado."
 coverCaption: ""
+lastmod: 2026-11-07
 ---
- Guía de iniciación al cifrado para la protección de datos**
+ **Guía de iniciación al cifrado para la protección de datos**
 
-**La protección de datos es cada vez más importante a medida que más personas almacenan información confidencial en línea. **El cifrado** es una herramienta esencial para proteger los datos, pero puede resultar abrumador saber por dónde empezar. Esta guía para principiantes sobre el uso del cifrado para la protección de datos le ayudará a comprender los conceptos básicos del cifrado y cómo utilizarlo para proteger sus datos confidenciales.
+**La protección de datos es cada vez más importante a medida que más personas almacenan información confidencial en línea.** **El cifrado** es una herramienta esencial para proteger los datos, pero puede resultar abrumador saber por dónde empezar. Esta guía para principiantes sobre el uso del cifrado para la protección de datos le ayudará a comprender los conceptos básicos del cifrado y cómo utilizarlo para proteger sus datos confidenciales.
 
 ## ¿Qué es la encriptación?
 

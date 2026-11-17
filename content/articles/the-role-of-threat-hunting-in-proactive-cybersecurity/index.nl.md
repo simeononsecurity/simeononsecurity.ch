@@ -1,6 +1,7 @@
 ---
 title: "Threat Hunting: Proactieve verdediging tegen cyberaanvallen"
 date: 2023-03-11
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Leer hoe threat hunting cyberaanvallen kan voorkomen en wat de voordelen en uitdagingen zijn van het implementeren ervan als proactieve cyberbeveiligingsmaatregel."
@@ -95,7 +96,7 @@ ______
 
 Het implementeren van **threat hunting** als een **proactieve cyberbeveiligingsstrategie** is essentieel in het steeds veranderende bedreigingslandschap van vandaag de dag. Door handmatige en geautomatiseerde technieken te combineren, kunnen organisaties bedreigingen proactief identificeren en erop reageren **voordat ze schade aanrichten**.
 
-Om uw begrip van threat hunting verder te vergroten, kunt u bronnen zoals de [MITRE ATT&CK framework](https://attack.mitre.org/), which provides a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs) Dit raamwerk kan organisaties helpen bij het ontwikkelen van effectieve strategieën en methodologieën voor het opsporen van bedreigingen. Daarnaast zijn er verschillende tools** voor het opsporen van bedreigingen beschikbaar, zoals Sysinternals Sysmon, Elastic Security en Falcon X, die kunnen helpen bij het opsporen van bedreigingen.
+Om uw begrip van threat hunting verder te vergroten, kunt u bronnen zoals de [MITRE ATT&CK framework](https://attack.mitre.org/), dat een uitgebreide kennisbank biedt over de tactieken, technieken en procedures van tegenstanders (TTPs). Dit raamwerk kan organisaties helpen bij het ontwikkelen van effectieve strategieën en methodologieën voor het opsporen van bedreigingen. Daarnaast zijn er verschillende **hulpmiddelen voor het opsporen van bedreigingen** beschikbaar, zoals Sysinternals Sysmon, Elastic Security en Falcon X, die kunnen helpen bij het opsporen van bedreigingen.
 
 Het is cruciaal om te beseffen dat het opsporen van bedreigingen een continu proces moet zijn. Cyberbeveiligingsbedreigingen veranderen voortdurend en organisaties moeten waakzaam en proactief blijven bij het identificeren en beperken van deze bedreigingen.
 

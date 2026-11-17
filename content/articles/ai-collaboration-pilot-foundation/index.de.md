@@ -1,12 +1,12 @@
 ---
-title: "Pilotprojekt für KI-Agenten-Governance: Charta, Zuständigkeit und Tests"
+title: "Pilotprojekt für KI-Agenten-Governance: Charta, maßgebliche Quellen und Tests"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Definiere Pilotrollen, maßgebliche Quellen, Richtlinienvorlagen und Abnahmetests, bevor du KI-Tools verbindest."
 genre: ["Künstliche Intelligenz", "Teamarbeit", "Softwareentwicklung"]
-tags: ["KI-Kollaborationskurs", "Pilot-Charta", "Quellenautorität", "Autoritätsregister", "Richtlinienvorlage", "Abnahmetests", "synthetisches Labor"]
+tags: ["KI-Kollaborationskurs", "Pilot-Charta", "Quellenautorität", "Register maßgeblicher Quellen", "Richtlinienvorlage", "Abnahmetests", "synthetisches Labor"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration von Fachleuten, die gemeinsame Projektarbeit in einem Cybersecurity-Arbeitsbereich prüfen"
 coverCaption: ""
@@ -18,7 +18,7 @@ coverCaption: ""
 
 ## Die wichtigsten Punkte
 
-- **Zuständigkeit** weist jeder Informationsart einen festen Ablageort zu.
+- **Maßgebliche Quellen** bestimmen den Ablageort für jede Informationsart.
 - **Versionsnachweise** zeigen, welche Quellen eine Antwort stützen.
 - **Zugriffskontrollen** beschränken die Veröffentlichung unabhängig von Anweisungen.
 - **Abnahmetests** umfassen abgelehnte Änderungen und Wiederherstellung.
@@ -29,7 +29,7 @@ coverCaption: ""
 
 **Geschätzte Zeit:** 60 bis 90 Minuten. **Schwierigkeit:** einführende Governance-Arbeit. Die Genehmigungsregeln und Aufbewahrungswerte dieses Kurses sind Designentscheidungen, keine Anbieterstandards oder Compliance-Empfehlungen.
 
-**Ergebnis:** Du schließt mit einer Charta, einem Autoritätsregister, einer versionierten Richtlinie und einem Plan für Negativtests ab. Spätere Lektionen erstellen Plattformkontrollen und sammeln beobachtete Ablehnungsnachweise.
+**Ergebnis:** Du schließt mit einer Charta, einem Register maßgeblicher Quellen, einer versionierten Richtlinie und einem Plan für Negativtests ab. Spätere Lektionen erstellen Plattformkontrollen und sammeln beobachtete Ablehnungsnachweise.
 
 ## Den Piloten definieren
 
@@ -58,7 +58,7 @@ stop_conditions:
 
 **Der synthetische Dienst** stellt einen Datensatz für die Aufbewahrungskonfiguration bereit. Ein laufender Löschdienst gehört nicht dazu. Sieben und dreißig Tage sind fiktive Anforderungen. Eine Rücksetzung der Konfiguration stellt gelöschte Daten nicht wieder her.
 
-## Zuständigkeit registrieren
+## Maßgebliche Quellen registrieren
 
 | Quell-ID | GitHub-Primärablage | Ablage im gemischten Arbeitsplatz |
 |---|---|---|
@@ -72,7 +72,7 @@ stop_conditions:
 
 **Dokumentiere Ort, Eigentümer, Revision, Status und Geltungsbereich** jeder Quelle in **`docs/project-map.md`**. Repository-Commit-IDs kennzeichnen Snapshots. Numerische Confluence-Versionen kennzeichnen Seiten. Ein Jira-Schlüssel kennzeichnet ein Arbeitselement, keine unveränderliche Beschreibung. Binde die Prüfung an einen festen Vorschlagsexport oder Repository-Commit.
 
-**Repository-Kopien des gemischten Pfads sind Snapshots**, keine Anforderungsautorität. Jira plant die Lieferung. GitHub erfasst implementiertes Verhalten. Confluence besitzt die genehmigte Anforderungsformulierung. Eine Chat-Zusammenfassung wird nie zu einer zusätzlichen Autorität.
+**Repository-Kopien des gemischten Pfads sind Snapshots**, keine maßgebliche Quelle für Anforderungen. Jira plant die Lieferung. GitHub erfasst implementiertes Verhalten. Confluence besitzt die genehmigte Anforderungsformulierung. Eine Chat-Zusammenfassung wird nie zu einer zusätzlichen maßgeblichen Quelle.
 
 ## Gemeinsame Richtlinie veröffentlichen
 
@@ -130,7 +130,7 @@ PASS: consistency only, human approval remains required
 | **Genehmigte Änderung** | Konsistente Datensätze und menschliche Genehmigung | Endrevision, Prüfungen, Review |
 | **Veralteter Kontext** | Geänderte Quellbasen ablehnen | Alte/neue Revisionen und fehlende Prüfung |
 | **Unbefugtes Schreiben** | Veröffentlichung durch Beitragende verweigern | Rolle, Ablehnung, unveränderte Revision |
-| **Systemübergreifender Konflikt** | Stoppen und Autoritätsinhaber fragen | Widersprüchliche Datensätze und Lösung |
+| **Systemübergreifender Konflikt** | Stoppen und Eigentümer der maßgeblichen Quelle fragen | Widersprüchliche Datensätze und Lösung |
 | **Teilweise Veröffentlichung** | Lieferung unvollständig halten | Abgeschlossene und offene Zeilen |
 | **Zugriffsablehnung** | Ohne privilegierten Ersatz stoppen | Quell-ID und redigierte Ablehnung |
 | **Wiederherstellung** | Geprüfte Wiederherstellung anwenden | Ergebnisrevision und Rücklesen |
@@ -140,7 +140,7 @@ PASS: consistency only, human approval remains required
 
 **Beispiel für eine lokale Nachweiszeile:** Akteur: Lernender. Anfangsquelle: unveränderte gelieferte Laborbasis. Aktion: `python3 -m unittest discover -s . -v` aus einem frischen Entpacken. Erwartung: zehn bestandene Tests. Beobachtet im gelieferten Testlauf: `Ran 10 tests` und `OK`. Ergebnisquelle: unveränderte Basis. Nachweisdatei: `lab-tests.txt` im privaten Pilotpaket. Diese Zeile stützt nur das Verhalten des Prüfers. Sie stützt keine Aussage über GitHub- oder Arbeitsplatzberechtigungen.
 
-**Grundlagen-Gate:** Vor Modul 2 muss ein Prüfer Charta, Sieben-Quellen-Autoritätsregister, POL-01-Version und Eigentümer sowie alle acht Abnahmefälle mit erwarteten Nachweisen und verantwortlicher Rolle finden. Markiere einen fehlenden Punkt als Blockiert. Halte Plattform-Ablehnungszeilen als Erwartet, bis die passenden Kontrollen eingerichtet und getestet sind.
+**Grundlagen-Gate:** Vor Modul 2 muss ein Prüfer Charta, Register der sieben maßgeblichen Quellen, POL-01-Version und Eigentümer sowie alle acht Abnahmefälle mit erwarteten Nachweisen und verantwortlicher Rolle finden. Markiere einen fehlenden Punkt als Blockiert. Halte Plattform-Ablehnungszeilen als Erwartet, bis die passenden Kontrollen eingerichtet und getestet sind.
 
 ## Eine Anfrage durchlaufen
 
@@ -204,7 +204,7 @@ Publication state: not published
 **Liefere ein kleines Paket**, das ein anderer Beitragender ohne deinen Gesprächsverlauf versteht. Bewahre es neben der Karte in der Sandbox auf.
 
 1. **Charta:** Zweck, Umfang, Ausnahmen, Rollen und Stopbedingungen.
-2. **Autoritätsregister:** ein Ort je Informationsart mit Eigentümer und Revisionsmethode.
+2. **Register maßgeblicher Quellen:** ein Ort je Informationsart mit Eigentümer und Revisionsmethode.
 3. **Richtlinie:** erlaubte Eingaben, Aktionen, Veröffentlichungsgrenze und Eskalationsweg.
 4. **Abnahmematrix:** erwartetes Ergebnis, Beobachtungsfeld, Nachweisreferenz und Prüfer.
 5. **Offene Fragen:** benannter Eigentümer und blockierte Folgeaktion für jedes offene Thema.
@@ -213,15 +213,15 @@ Publication state: not published
 
 ## Fehlerbehebung und Rücksetzung
 
-**Widersprüchliche Eigentümer:** Verenge Autoritätsbereiche vor dem Verbinden von Tools. **Unerwartete private Daten:** Stoppe, beschränke den Datensatz und folge dem Vorfallprozess der Organisation. **Fehlende Berechtigungen:** Nutze den GitHub-Pfad oder beschaffe eine genehmigte Arbeitsplatz-Sandbox.
+**Widersprüchliche Eigentümer:** Verenge Zuständigkeitsbereiche der maßgeblichen Quellen vor dem Verbinden von Tools. **Unerwartete private Daten:** Stoppe, beschränke den Datensatz und folge dem Vorfallprozess der Organisation. **Fehlende Berechtigungen:** Nutze den GitHub-Pfad oder beschaffe eine genehmigte Arbeitsplatz-Sandbox.
 
 **Rücksetzung:** Deaktiviere Pilotadapter und Connectors, archiviere Entwürfe und lasse die Produktionsrichtlinie unverändert. Lösche synthetische Artefakte erst nach Eigentümerprüfung und Ablauf der erklärten Nachweisaufbewahrung. Bewahre Nachweise fehlgeschlagener Tests auf.
 
 ## Übung und Selbstprüfung
 
-**Erstelle neben der Aufbewahrung ein Autoritätsregister für das Exportformat.** Lege fest, wer es genehmigt, wo die Implementierung liegt und welche Revision die Prüfung bindet.
+**Erstelle neben der Aufbewahrung ein Register maßgeblicher Quellen für das Exportformat.** Lege fest, wer es genehmigt, wo die Implementierung liegt und welche Revision die Prüfung bindet.
 
-**Erwartete Begründung:** Der Produktverantwortliche genehmigt erlaubte Formate. GitHub erfasst implementiertes Verhalten. Jira koordiniert die Lieferung. Weder eine Besprechungsnotiz noch eine erzeugte Zusammenfassung erhält Anforderungsautorität.
+**Erwartete Begründung:** Der Produktverantwortliche genehmigt erlaubte Formate. GitHub erfasst implementiertes Verhalten. Jira koordiniert die Lieferung. Weder eine Besprechungsnotiz noch eine erzeugte Zusammenfassung wird zur maßgeblichen Quelle für Anforderungen.
 
 ## Primärreferenzen
 

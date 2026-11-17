@@ -1,6 +1,7 @@
 ---
 title: "Instrumente de securitate Open-Source vs. comerciale: Pro și contra explicate"
 date: 2023-03-24
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Explorați avantajele și dezavantajele instrumentelor de securitate open-source și comerciale, ajutându-vă să luați decizii în cunoștință de cauză pentru strategia de securitate a organizației dumneavoastră."
@@ -72,7 +73,7 @@ ______
 
 Unul dintre cele mai importante dezavantaje ale instrumentelor de securitate comerciale este **costul** acestora. Taxele de licențiere și costurile de întreținere continuă se pot aduna rapid, putând pune la grea încercare bugetul organizației dumneavoastră.
 
-### Vendor Lock-In
+### Dependența de furnizor
 
 Atunci când investiți într-o soluție comercială de securitate, este posibil să deveniți **dependent de furnizor** pentru actualizări, asistență și compatibilitate cu alte software-uri. Acest lucru vă poate limita flexibilitatea și poate face dificilă schimbarea furnizorului sau adoptarea de noi tehnologii în viitor.
 
@@ -90,5 +91,5 @@ ______
 
 ## Referințe
 
-- [Open-source security tools](https://en.wikipedia.org/wiki/Open-source_software_security)
-- [Commercial security tools](https://en.wikipedia.org/wiki/Computer_security_software)
+- [Instrumente de securitate open source](https://en.wikipedia.org/wiki/Open-source_software_security)
+- [Instrumente de securitate comerciale](https://en.wikipedia.org/wiki/Computer_security_software)

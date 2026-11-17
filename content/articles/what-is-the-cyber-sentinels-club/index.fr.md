@@ -1,6 +1,7 @@
 ---
 title: "Qu'est-ce que les cyber-sentinelles et pourquoi devriez-vous les rejoindre ?"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Découvrez la mission et les principes des Cyber Sentinelles, une communauté de professionnels de la cybernétique et de l'informatique qui s'engagent à partager leurs connaissances et à développer des solutions innovantes pour relever les défis de la cybersécurité."
@@ -40,7 +41,7 @@ En fin de compte, les Cyber Sentinelles s'efforcent d'avoir un impact positif su
 
 ## Rejoindre les Cyber Sentinelles
 
-Si vous souhaitez rejoindre les Cyber Sentinelles, la première étape consiste à visiter leur site web à l'adresse suivante [https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) et commencez à explorer les différents canaux et à vous engager avec la communauté. Les Cyber Sentinelles accueillent des professionnels de tous niveaux, des débutants aux experts, et proposent aux membres une variété de canaux, notamment des canaux textuels et vocaux pour les discussions générales, les actualités et les événements, l'apprentissage et le développement, ainsi que les projets et les collaborations. Ils proposent également un canal dédié aux offres d'emploi et aux conseils de carrière, ainsi qu'un canal pour des conversations légères et amusantes. En rejoignant les Cyber Sentinelles, vous aurez l'occasion d'entrer en contact avec des professionnels de la cybersécurité partageant les mêmes idées, d'apprendre de leurs expériences et de collaborer à de nouvelles idées et à de nouveaux projets.
+Si vous souhaitez rejoindre les Cyber Sentinelles, la première étape consiste à visiter leur site web à l'adresse suivante [https://cybersentinels.org](https://cybersentinels.org). De là, vous pouvez rejoindre leur serveur Discord à l’adresse [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) et commencez à explorer les différents canaux et à vous engager avec la communauté. Les Cyber Sentinelles accueillent des professionnels de tous niveaux, des débutants aux experts, et proposent aux membres une variété de canaux, notamment des canaux textuels et vocaux pour les discussions générales, les actualités et les événements, l'apprentissage et le développement, ainsi que les projets et les collaborations. Ils proposent également un canal dédié aux offres d'emploi et aux conseils de carrière, ainsi qu'un canal pour des conversations légères et amusantes. En rejoignant les Cyber Sentinelles, vous aurez l'occasion d'entrer en contact avec des professionnels de la cybersécurité partageant les mêmes idées, d'apprendre de leurs expériences et de collaborer à de nouvelles idées et à de nouveaux projets.
 
 ___________________________________________________________________________
 

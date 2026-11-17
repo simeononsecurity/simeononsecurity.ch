@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp
 coverAlt: 暗い背景に囲まれたデータ保護を表す鮮やかなアイコンに囲まれ、プライバシーを象徴する盾のような構造を示すデジタル風景のイラスト。
 coverCaption: プライバシーを解き放つ：LibreWolfとFirefoxブラウザの探求
-lastmod: 2026-10-08
+lastmod: 2026-11-09
 ---
 **プライバシー重視のブラウザ：LibreWolfとFirefoxの比較**
 
@@ -117,6 +117,14 @@ ______
 
 ______
 
+## セキュリティ更新：Firefox 159（2026年10月27日）
+
+**プライバシー設定はセキュリティ更新の代わりにはなりません。** [Firefox 159に関するMozillaのセキュリティアドバイザリ](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)には、同一オリジンポリシーを回避するCVE-2026-117860と、サンドボックスからの脱出と説明されているCVE-2026-117861、CVE-2026-117864、CVE-2026-117868など、影響の大きい問題が記載されています。Mozillaは修正済みリリースとして**Firefox 159**を挙げています。[159.0のリリースノート](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)では、リリース日を10月27日としています。アドバイザリは各問題の最初の影響バージョンを明記しておらず、悪用が確認されたとの報告もありません。
+
+**使用しているブランチを確認してください。** 標準版Firefoxを使っている場合は、通常の更新経路から最新リリースをインストールし、「Firefoxについて」でバージョンを確認します。Firefox ESRには別のアドバイザリがあります。Mozillaは、記載された4件のCVEを修正する版として[ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)を示し、このブランチ向けに[ESR 115.44のアドバイザリ](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)も別途公開しています。ESRのパッチ確認に標準版Firefoxのバージョン番号を使わないでください。
+
+**LibreWolfなどFirefoxをベースにしたブラウザー**では、インストールしたビルドを派生プロジェクト独自のリリースノートとセキュリティ通知と照らし合わせます。MozillaのFirefoxアドバイザリだけでは、派生ビルドに特定の修正が含まれているとは確認できません。インストールするビルドに対応する[LibreWolfプロジェクトのリリース](https://librewolf.dev/librewolf/bsys6/releases)を確認してください。プライバシーの初期設定や上流のFirefoxリリースを、パッチ適用の確認とみなさないでください。
+
 ## オープンソースとコミュニティの関与
 
 ### LibreWolfのオープンソースへの注力
@@ -141,11 +149,39 @@ ______
 
 ______
 
+## 2026年の選択チェックリスト
+
+LibreWolfとFirefoxは同じFirefoxエンジンを使いますが、メンテナンス面で異なる好みに応えます。LibreWolfはプライバシー重視の設定を適用し、Mozillaの一部サービスを削除または変更します。Firefoxはより広いサポート経路、なじみのある初期設定、Mozillaアカウントとの直接連携を提供します。
+
+切り替える前に、次の4点を確認してください。
+
+- **更新のタイミング。** ブラウザーの公式経路からセキュリティ更新を速やかにインストールします。
+- **サイトとの互換性。** 銀行、仕事用ポータル、ビデオ通話、パスワード管理拡張機能を別のプロファイルでテストします。
+- **アカウントの分離。** 個人の同期データを調査用プロファイルや共有端末に入れないでください。
+- **復旧。** ブラウザーを変える前にブックマークをエクスポートし、拡張機能名を記録し、復旧コードにアクセスできることを確認します。
+
+プライバシーを守るには、OS、アカウント、ルーター、ネットワークの確認も必要です。プライベートブラウザーでも、ログイン中のサービス、端末の所有者、ネットワーク事業者には利用状況が見えます。設定を確認するときは、[Mozillaのプライバシーとセキュリティのサポート](https://support.mozilla.org/en-US/products/firefox/privacy-and-security)と[LibreWolfのドキュメント](https://librewolf.net/docs/)を参照してください。
+
+## 更新、フィンガープリント、互換性の確認
+
+**LibreWolfとFirefoxは異なる課題に対応します。** LibreWolfはより厳しい設定を適用し、Firefoxの一部サービスを取り除きます。プロジェクトのFAQによれば、更新は通常Firefoxから3日以内に追随しますが、LibreWolfの更新はパッケージマネージャーまたはユーザーに依存します。Firefoxは一般的な更新経路、アカウント同期、幅広い互換性、サイトごとの保護設定を提供します。[LibreWolfのFAQ](https://librewolf.net/docs/faq/)と[Mozillaのトラッキング防止ガイド](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false)を確認してください。
+
+**フィンガープリント対策には限界があります。** 厳しい設定は一般的な追跡信号を減らしますが、すべてのユーザーを同じに見せるわけではありません。画面サイズ、言語、OS、拡張機能、珍しい設定変更は引き続き結果に影響します。FirefoxのTotal Cookie Protectionはサイトのストレージを分離しますが、訪問先に対するアカウントの身元を隠すものではありません。この比較では、Tor Browserが共有匿名性集合を前提に設計されています。[フィンガープリント対策に関するTor Browserのドキュメント](https://support.torproject.org/tor-browser/features/fingerprinting-protections/)を参照してください。
+
+| 選択の観点 | LibreWolf | Firefox |
+|---|---|---|
+| **初期設定** | 初期状態でより強いプライバシー保護、互換性とのトレードオフも大きい | バランスの取れた設定で保護レベルを調整できる |
+| **更新** | パッケージマネージャーまたは手動インストールに依存 | Mozillaがブラウザー更新を管理 |
+| **同期** | 設計上、Mozillaアカウント同期なし | Firefoxアカウントの同期機能を内蔵 |
+| **サイト互換性** | DRM、仕事用ポータル、特殊なWebアプリを先にテスト | 幅広く対応し、サイトごとの例外も設定可能 |
+| **適した用途** | プライバシーに配慮した調査向けの専用デスクトップブラウザー | サポートと同期が重要な日常用ブラウザー |
+
+切り替える前に、利用するサイトを開き、インストール済みバージョンを確認し、新しいプロファイルでテストしてください。測定可能な理由なくフィンガープリント対策拡張機能を重ねないでください。変更を増やすと不具合が増え、ブラウザーが一般的でなくなる可能性があります。
+
 ## 結論：適切なプライバシー重視ブラウザの選択
 
-**LibreWolf** と **Firefox** はどちらもプライバシーとセキュリティを強化したブラウジング体験を求めるユーザーにとって魅力的な選択肢を提供します。どちらを選ぶかは個々の優先事項と好みによります。ユーザーの自由度の高さとカスタマイズ性を重視するなら
+**LibreWolf**と**Firefox**は、閲覧時のプライバシーとセキュリティを高めたい人にとって魅力的な選択肢です。どちらを選ぶかは、個人の優先事項や好みによって異なります。ユーザーが高度なカスタマイズ性とユーザーの自由を重視する場合
 
-______
 
 ## 参考文献
 
@@ -153,3 +189,8 @@ ______
 2. [Firefox公式サイト](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Mozillaセキュリティアドバイザリ2026-118：Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Firefox 159.0リリースノート](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Mozillaセキュリティアドバイザリ2026-120：Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Mozillaセキュリティアドバイザリ2026-119：Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [LibreWolfプロジェクトのリリース](https://librewolf.dev/librewolf/bsys6/releases)

@@ -1,88 +1,88 @@
 ---
-title: "Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026"
+title: "Laborator SOC Microsoft acasă: dezvoltă experiență în securitate cibernetică în 2026"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence."
-genre: ["Cybersecurity", "Cloud Security", "Career Development"]
-tags: ["SOC home lab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure home lab", "cybersecurity experience", "SOC analyst", "security operations center", "incident response", "KQL", "Log Analytics", "Conditional Access", "phishing-resistant MFA", "passkeys", "identity security", "cybersecurity portfolio", "cloud cost management", "endpoint security"]
+description: "Construiește un laborator SOC Microsoft cu Sentinel, Defender, Intune și Entra. Investighează incidente, validează politicile de passkey și documentează dovezi pentru portofoliu."
+genre: ["Securitate cibernetică", "Securitate cloud", "Dezvoltare profesională"]
+tags: ["laborator SOC acasă", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "laborator Azure acasă", "experiență în securitate cibernetică", "analist SOC", "centru de operațiuni de securitate", "răspuns la incidente", "KQL", "Log Analytics", "Conditional Access", "MFA rezistent la phishing", "passkey-uri", "securitatea identității", "portofoliu de securitate cibernetică", "gestionarea costurilor cloud", "securitatea endpointurilor"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
-coverAlt: "A laptop showing security incident timelines on a home desk beneath a cloud containing servers and endpoints."
+coverAlt: "Un laptop afișează cronologii ale incidentelor de securitate pe un birou de acasă, sub un nor cu servere și endpointuri."
 coverCaption: ""
 ---
 
-A **security operations center (SOC) home lab** gives you a place to investigate alerts, explain evidence, and test defensive changes. Build a small Microsoft environment, collect its telemetry, and write up each investigation. The useful result is a repeatable investigation with supporting evidence.
+Un **laborator SOC de acasă** oferă un loc unde poți investiga alerte, explica dovezi și testa schimbări defensive. Construiește un mediu Microsoft restrâns, colectează telemetria și documentează fiecare investigație. Rezultatul util este o investigație repetabilă, susținută de dovezi.
 
-This guide develops the lab approach described in Mad Hat's cybersecurity career video and supplied Cyber Range runbook. It uses Microsoft documentation for product requirements and separates setup, detection, and validation into measurable tasks.
+Acest ghid dezvoltă abordarea de laborator descrisă în videoclipul despre cariere în securitate cibernetică al lui Mad Hat și în runbook-ul Cyber Range furnizat. Folosește documentația Microsoft pentru cerințele produselor și împarte configurarea, detectarea și validarea în sarcini măsurabile.
 
 ## Idei principale
 
-- **Start small:** one managed Windows client and one test identity support the first exercises.
-- **Verify telemetry:** a visible device or connected portal does not prove logs are arriving.
-- **Complete the investigation:** record the trigger, evidence, response, and retest.
-- **Control spending:** track licenses, retained data, networking, and compute separately.
-- **Describe experience accurately:** list the environment as a lab project on your resume.
+- **Începe cu puțin:** un client Windows gestionat și o identitate de test ajung pentru primele exerciții.
+- **Verifică telemetria:** un dispozitiv vizibil sau un portal conectat nu dovedește că sosesc jurnalele.
+- **Finalizează investigația:** notează declanșatorul, dovezile, răspunsul și retestarea.
+- **Controlează cheltuielile:** urmărește separat licențele, păstrarea datelor, rețeaua și calculul.
+- **Descrie experiența corect:** prezintă mediul drept proiect de laborator în CV.
 
-## Înainte de a începe
+## Înainte să începi
 
-**Prerequisites:** basic Windows administration, networking, and familiarity with virtual machines. Use a dedicated Microsoft Entra tenant and an Azure subscription reserved for the lab. Keep production identities, personal files, and employer systems outside the exercise.
+**Cerințe preliminare:** cunoștințe de bază de administrare Windows și rețelistică, plus familiaritate cu mașinile virtuale. Folosește un tenant Microsoft Entra dedicat și o subscripție Azure rezervată laboratorului. Ține în afara exercițiului identitățile de producție, fișierele personale și sistemele angajatorului.
 
-**Estimated effort:** allow a weekend for the initial setup, followed by focused investigation sessions. This is a planning estimate. Trial approval, quota availability, and service provisioning affect elapsed time. **Difficulty:** intermediate.
+**Efort estimat:** rezervă un weekend pentru configurarea inițială, apoi planifică sesiuni de investigare concentrate. Aceasta este o estimare de planificare. Aprobarea perioadei de testare, cotele și furnizarea serviciilor influențează durata reală. **Dificultate:** intermediară.
 
-Prepare a separate administrative account and an unprivileged test user. Before testing access policies, establish and verify emergency access. Assign privileges for each setup task, then use a lower-privilege account for routine investigation.
+Pregătește un cont administrativ separat și un utilizator de test fără privilegii. Înainte de a testa politicile de acces, configurează și verifică accesul de urgență. Acordă privilegii pentru fiecare sarcină de configurare, apoi folosește un cont cu drepturi mai reduse pentru investigațiile obișnuite.
 
-| Component | Lab purpose |
+| Componentă | Scop în laborator |
 |---|---|
-| **Sentinel** | Security information and event management, or SIEM, for connected log sources |
-| **Defender XDR** | Correlation and investigation across licensed Microsoft security services |
-| **Defender for Endpoint** | Endpoint detection and response, or EDR, on onboarded devices |
-| **Intune** | Device enrollment and endpoint security policy management |
-| **Entra ID** | Identity, sign-in records, and access policy evaluation |
-| **Defender for Servers** | Server protection through Defender for Cloud |
+| **Sentinel** | Gestionarea informațiilor și evenimentelor de securitate (SIEM) pentru sursele de jurnale conectate |
+| **Defender XDR** | Corelare și investigare între serviciile Microsoft de securitate licențiate |
+| **Defender for Endpoint** | Detectare și răspuns pe endpointurile integrate |
+| **Intune** | Înrolarea dispozitivelor și gestionarea politicilor de securitate pentru endpointuri |
+| **Entra ID** | Identități, înregistrări de conectare și evaluarea politicilor de acces |
+| **Defender for Servers** | Protecția serverelor prin Defender for Cloud |
 
-## Check Licenses First
+## Verifică mai întâi licențele
 
-**Microsoft 365 E5** is one route to a broad lab, but access depends on the service plans and licenses assigned to the participating users. Office 365 E5 and Microsoft 365 E5 are different bundles. A single administrator's license does not establish coverage for every test user or workload. Review the [Defender XDR prerequisites](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) before selecting a subscription.
+**Microsoft 365 E5** este o opțiune pentru un laborator extins, dar accesul depinde de planurile de servicii și licențele alocate utilizatorilor participanți. Office 365 E5 și Microsoft 365 E5 sunt pachete diferite. Licența unui administrator nu acoperă automat fiecare utilizator de test sau sarcină de lucru. Consultă [cerințele preliminare Defender XDR](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) înainte de a alege o subscripție.
 
-**Sentinel in the Defender portal** works without E5 or Defender XDR. Adding XDR introduces its own licensing and configuration requirements. An empty incident view is not evidence of missing E5 licensing. Microsoft's [Sentinel onboarding documentation](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explains both configurations.
+**Sentinel în portalul Defender** funcționează fără E5 sau Defender XDR. Adăugarea XDR are cerințe proprii de licențiere și configurare. O vizualizare goală a incidentelor nu dovedește lipsa licenței E5. [Documentația de onboarding Sentinel](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explică ambele configurații.
 
-**Server protection** has a separate licensing path. Defender for Servers integrates with Defender for Endpoint for supported server workloads. Windows client operating systems need appropriate client coverage. Do not treat every Azure VM as an automatically licensed server. See Microsoft's [Defender for Endpoint integration documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**Protecția serverelor** are o cale separată de licențiere. Defender for Servers se integrează cu Defender for Endpoint pentru sarcinile de server acceptate. Sistemele de operare client Windows au nevoie de acoperire client adecvată. Nu presupune că fiecare VM Azure primește automat o licență de server. Consultă documentația Microsoft despre [integrarea Defender for Endpoint](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-**Trial planning:** confirm eligibility, expiration, renewal settings, and included services in your own account. Avoid budgeting around a promised trial duration or a fixed monthly total from a video.
+**Planifică perioada de testare:** verifică eligibilitatea, expirarea, reînnoirea și serviciile incluse în propriul cont. Nu baza bugetul pe o durată promisă a perioadei de testare sau pe un total lunar fix menționat într-un videoclip.
 
-## Set a Spending Plan
+## Planifică cheltuielile
 
-**Azure budgets** send notifications. They do not stop consumption when you reach a threshold. Cost reporting also has a delay. Create alerts early and review spending after each session, following Microsoft's [budget setup guide](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+**Bugetele Azure** trimit notificări. Nu opresc consumul când atingi un prag. Rapoartele de cost au și ele întârziere. Creează alerte din timp și verifică cheltuielile după fiecare sesiune folosind [ghidul Microsoft pentru bugete](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
 
-| Cost category | Planning question |
+| Categoria de cost | Întrebare de planificare |
 |---|---|
-| **User licenses** | Which users need which service plans, and when do trials expire? |
-| **Compute** | How many VM hours will each exercise require? |
-| **Storage** | Which disks and snapshots remain after shutdown? |
-| **Log collection** | Which tables need ingestion and how long should data remain? |
-| **Networking** | Does the design include paid Bastion, public IPs, or outbound services? |
-| **Server protection** | Which workloads have a paid Defender plan enabled? |
+| **Licențe de utilizator** | Ce utilizatori au nevoie de ce planuri de servicii și când expiră perioadele de testare? |
+| **Calcul** | De câte ore VM are nevoie fiecare exercițiu? |
+| **Stocare** | Ce discuri și instantanee rămân după oprire? |
+| **Colectarea jurnalelor** | Ce tabele necesită ingestie și cât timp trebuie păstrate datele? |
+| **Rețea** | Proiectul include Bastion cu plată, IP-uri publice sau servicii de ieșire? |
+| **Protecția serverelor** | Ce sarcini au activat un plan Defender cu plată? |
 
-**Design choice:** begin with one client. Add a server when an exercise needs server telemetry. Four clients and several servers add administration and cost before they add useful investigation practice.
+**Decizie de proiectare:** începe cu un client. Adaugă un server când un exercițiu necesită telemetrie de server. Patru clienți și mai multe servere cresc administrarea și costurile înainte să adauge practică utilă de investigare.
 
-## Build the Network
+## Construiește rețeaua
 
-**Suggested layout:** put Azure resources in a clearly named group such as **`rg-soc-lab`**. Use separate client and server subnets, explicit network security group rules, and private management access. Subnet separation alone does not block traffic between workloads.
+**Structură sugerată:** plasează resursele Azure într-un grup cu nume clar, precum **`rg-soc-lab`**. Folosește subrețele separate pentru clienți și servere, reguli explicite pentru grupurile de securitate de rețea și acces administrativ privat. Separarea subrețelelor nu blochează singură traficul între sarcini.
 
-For a dedicated **Azure Bastion** deployment, follow the SKU requirements, including the reserved **`AzureBastionSubnet`** name and a **`/26`** or larger subnet for current deployments. Developer SKU uses a different deployment model. Review [Bastion configuration settings](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) before choosing a design.
+Pentru o implementare dedicată **Azure Bastion**, respectă cerințele SKU, inclusiv numele rezervat **`AzureBastionSubnet`** și o subrețea de **`/26`** sau mai mare pentru implementările actuale. Developer SKU folosește alt model de implementare. Consultă [setările de configurare Bastion](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) înainte de a alege.
 
-Keep RDP and SSH closed to the public internet. Restrict management traffic to the selected management path. Allow the outbound service connectivity needed for enrollment and security telemetry.
+Ține RDP și SSH închise față de internetul public. Limitează traficul administrativ la calea aleasă. Permite conectivitatea de ieșire necesară pentru înrolare și telemetria de securitate.
 
-**Validation:** establish private management access and verify effective network rules before installing workloads. If you add a deliberately vulnerable application later, keep it inside the exercise network and restrict access to the test machines.
+**Validare:** configurează acces administrativ privat și verifică regulile de rețea efective înainte să instalezi sarcini. Dacă adaugi ulterior o aplicație vulnerabilă intenționat, ține-o în rețeaua exercițiului și limitează accesul la mașinile de test.
 
-## Connect Sentinel and Logs
+## Conectează Sentinel și jurnalele
 
-**Portal setup:** create a Log Analytics workspace and enable Sentinel on it. If the workspace is absent from the Defender portal, open **System > Settings > Microsoft Sentinel > Connect a workspace**. Verify the tenant and required Azure and Entra roles against the [onboarding prerequisites](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Configurarea portalului:** creează un spațiu de lucru Log Analytics și activează Sentinel pe el. Dacă spațiul lipsește din portalul Defender, deschide **System > Settings > Microsoft Sentinel > Connect a workspace**. Verifică tenantul și rolurile Azure și Entra necesare din [cerințele de onboarding](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
-**Log collection is a separate step.** In Entra, configure diagnostic settings to send the required activity categories to the same workspace. Start with interactive sign-ins and audit events. Microsoft's [Entra log integration guide](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) covers the permissions and destination setup.
+**Colectarea jurnalelor este un pas separat.** În Entra, configurează setările de diagnosticare pentru a trimite categoriile de activitate cerute către același spațiu de lucru. Începe cu conectări interactive și evenimente de audit. [Ghidul de integrare a jurnalelor Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) descrie permisiunile și destinația.
 
-The current Sentinel workflow also supports connection through the Microsoft Defender portal. Confirm the workspace is the intended primary workspace, the tenant matches the test identities, and the account has the required roles before troubleshooting an empty table. Portal visibility alone does not prove ingestion. [Sentinel onboarding in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+Fluxul Sentinel actual acceptă și conectarea prin portalul Microsoft Defender. Înainte să investighezi un tabel gol, confirmă că spațiul principal este cel intenționat, tenantul corespunde identităților de test și contul are rolurile necesare. Vizibilitatea în portal nu dovedește ingestia. [Onboarding Sentinel în portalul Defender](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -93,107 +93,107 @@ SigninLogs
 | order by TimeGenerated desc
 ```
 
-Run this **Kusto Query Language (KQL)** example in the workspace's Logs view after generating a fresh test sign-in. Replace the sample user principal name with your lab user. The columns follow the [SigninLogs table schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
+Rulează exemplul **Kusto Query Language (KQL)** în vizualizarea Logs a spațiului de lucru după ce generezi o conectare nouă de test. Înlocuiește UPN-ul demonstrativ cu utilizatorul laboratorului. Coloanele urmează [schema tabelului SigninLogs](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
 
-**Expected result:** a row matching the test account and sign-in time. No rows means you need to check the time range, identity, collection settings, destination, and ingestion delay. A missing table points to a collection or workspace issue before it points to a detection issue.
+**Rezultat așteptat:** un rând care corespunde contului de test și orei conectării. Fără rânduri, verifică intervalul de timp, identitatea, setările de colectare, destinația și întârzierea ingestiei. Lipsa tabelului indică mai întâi o problemă de colectare sau de spațiu de lucru și abia apoi una de detectare.
 
-## Onboard the First Endpoint
+## Înrolează primul endpoint
 
-**Intune enrollment and EDR onboarding** are separate checkpoints. Connect Intune and Defender for Endpoint, enroll a supported Windows client, then assign an endpoint detection and response onboarding policy to its lab group. Entra registration alone does not establish either checkpoint.
+**Înrolarea Intune și onboardingul EDR** sunt puncte de verificare separate. Conectează Intune și Defender for Endpoint, înrolează un client Windows acceptat și atribuie o politică de onboarding EDR grupului său de laborator. Înregistrarea Entra nu confirmă singură niciunul dintre puncte.
 
-In Intune, check **Endpoint security > Defender for Endpoint**. If the connection is unavailable, enable the Intune connection in Defender's endpoint advanced features. Follow the platform-specific steps in Microsoft's [Intune and Defender integration guide](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+În Intune, verifică **Endpoint security > Defender for Endpoint**. Dacă legătura nu este disponibilă, activează conectarea Intune în funcțiile avansate pentru endpointuri ale Defender. Urmează pașii specifici platformei din [ghidul de integrare Intune și Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
-| Checkpoint | Evidence to capture |
+| Punct de verificare | Dovezi de păstrat |
 |---|---|
-| **Enrollment** | Client appears in Intune with a recent check-in |
-| **Policy assignment** | Onboarding policy applies to the intended device group |
-| **Sensor reporting** | Defender shows onboarded status and recent telemetry |
-| **Detection test** | A documented test produces the expected security signal |
+| **Înrolare** | Clientul apare în Intune cu o sincronizare recentă |
+| **Atribuire politică** | Politica de onboarding se aplică grupului de dispozitive vizat |
+| **Raportarea senzorului** | Defender arată starea de onboarding și telemetrie recentă |
+| **Test de detectare** | Un test documentat produce semnalul de securitate așteptat |
 
-**For servers**, enable the chosen Defender for Servers plan and its endpoint integration, then verify sensor deployment and reporting. Defender for Cloud also discovers machines before onboarding completes. Inventory presence alone is insufficient, as Microsoft explains in its [resource discovery and onboarding guidance](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**Pentru servere**, activează planul Defender for Servers ales și integrarea endpoint, apoi verifică implementarea senzorului și raportarea. Defender for Cloud descoperă mașinile și înainte de finalizarea onboardingului. Prezența în inventar nu este suficientă, așa cum explică ghidul Microsoft despre [descoperirea și onboardingul resurselor](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-## Investigate a Test Alert
+## Investighează o alertă de test
 
-**Start with Microsoft's documented EDR detection test** on the lab endpoint. Follow the [current test instructions](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), including platform prerequisites and troubleshooting. Record the execution time before opening the alert queue.
+**Începe cu testul de detectare EDR documentat de Microsoft** pe endpointul laboratorului. Urmează [instrucțiunile curente de testare](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), inclusiv cerințele platformei și depanarea. Notează ora executării înainte de a deschide coada alertelor.
 
-Treat the resulting alert as an investigation exercise. A security product's title gives you a starting point. Your job is to establish what happened and support the disposition with evidence.
+Tratează alerta generată drept exercițiu de investigare. Titlul produsului este doar un punct de pornire. Trebuie să stabilești ce s-a întâmplat și să susții decizia cu dovezi.
 
-1. **Triage:** identify the alert source, device, account, and event time.
-2. **Inspect:** review the process tree, command line, file details, and network activity available for the event.
-3. **Scope:** search for related activity on the test identity and other lab devices.
-4. **Assess:** explain whether the evidence matches the planned exercise or an unrelated event.
-5. **Respond:** document the selected response, its impact, and the recovery steps. Perform supported containment only when the exercise requires it.
-6. **Retest:** repeat the relevant test after changing a control and compare the evidence.
+1. **Triaj:** identifică sursa alertei, dispozitivul, contul și ora evenimentului.
+2. **Inspectare:** verifică arborele proceselor, linia de comandă, detaliile fișierului și activitatea de rețea disponibilă.
+3. **Domeniu:** caută activități asociate identității de test și celorlalte dispozitive de laborator.
+4. **Evaluare:** explică dacă dovezile corespund exercițiului planificat sau unui eveniment fără legătură.
+5. **Răspuns:** documentează răspunsul ales, impactul și recuperarea. Folosește izolarea acceptată numai dacă exercițiul o cere.
+6. **Retestare:** după schimbarea unui control, repetă testul relevant și compară dovezile.
 
-**Do not manufacture missing results.** If the alert fails to arrive, preserve the execution record and troubleshoot collection. If a control blocks the test before the expected event, document the prevention result.
+**Nu inventa rezultate lipsă.** Dacă alerta nu ajunge, păstrează înregistrarea executării și investighează colectarea. Dacă un control blochează testul înaintea evenimentului așteptat, documentează rezultatul prevenirii.
 
-## Test Identity Controls
+## Testează controalele de identitate
 
-**Adversary-in-the-middle (AiTM) phishing** places an attacker-controlled intermediary in a sign-in flow. The supplied runbook uses this scenario to motivate stronger authentication. For the first identity exercise, test policy behavior directly with your own unprivileged account.
+**Phishingul adversary-in-the-middle (AiTM)** introduce un intermediar controlat de atacator în fluxul de conectare. Runbook-ul furnizat folosește acest scenariu pentru a motiva autentificarea mai puternică. Pentru primul exercițiu de identitate, testează comportamentul politicii direct cu propriul cont fără privilegii.
 
-Begin by recording a legitimate sign-in and its authentication details. Review Microsoft's [Entra risk detection reference](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) before interpreting risk signals. Detection prerequisites and processing differ by signal. A new IP address or a failed sign-in does not guarantee an AiTM alert.
+Începe prin a înregistra o conectare legitimă și detaliile autentificării. Consultă [referința Microsoft privind detectarea riscurilor Entra](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) înainte să interpretezi semnalele de risc. Cerințele și procesarea diferă în funcție de semnal. O adresă IP nouă sau o conectare eșuată nu garantează o alertă AiTM.
 
-**Passkeys (FIDO2)** use credentials bound to the legitimate service rather than reusable codes entered into a relayed login page. Enable an appropriate passkey profile for the pilot group and register the method before enforcing a policy. Follow Microsoft's [passkey configuration guide](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) for supported authenticators and restrictions.
+**Passkey-urile (FIDO2)** folosesc acreditări legate de serviciul legitim, nu coduri reutilizabile introduse într-o pagină de conectare redirecționată. Activează un profil potrivit pentru grupul-pilot și înregistrează metoda înainte să impui politica. [Ghidul Microsoft de configurare a passkey-urilor](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) descrie autentificatoarele acceptate și restricțiile.
 
-**Conditional Access exercise:** create a policy targeting only the lab pilot group, exclude emergency access accounts, and select **Require authentication strength > Phishing-resistant MFA strength**. Start in **Report-only**, review its impact, then enable it. This adapts Microsoft's [administrator policy example](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) to a narrow test group.
+**Exercițiu Conditional Access:** creează o politică pentru grupul-pilot de laborator, exclude conturile de acces de urgență și alege **Require authentication strength > Phishing-resistant MFA strength**. Începe în **Report-only**, verifică efectul, apoi activează politica. Adaptează [exemplul Microsoft de politică pentru administratori](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) unui grup restrâns de test.
 
-| Test | Evidence to collect |
+| Test | Dovezi de colectat |
 |---|---|
-| **Report-only policy** | Sign-in record showing how the proposed policy evaluates |
-| **Enforced policy, weaker method** | Fresh authentication requires a stronger method before access |
-| **Enforced policy, registered passkey** | Successful sign-in satisfying the required strength |
+| **Politică Report-only** | Înregistrare de conectare care arată evaluarea politicii propuse |
+| **Politică impusă, metodă mai slabă** | O autentificare nouă cere o metodă mai puternică înainte de acces |
+| **Politică impusă, passkey înregistrat** | Conectare reușită care respectă nivelul cerut |
 
-Use fresh authentication for each comparison and inspect the policy details. Existing sessions complicate comparisons. **Scope of proof:** this exercise validates the authentication requirement. It does not demonstrate universal protection against endpoint compromise or theft of an existing session.
+Folosește autentificare nouă pentru fiecare comparație și verifică detaliile politicii. Sesiunile existente îngreunează comparațiile. **Domeniul dovezii:** exercițiul validează cerința de autentificare. Nu demonstrează protecție universală împotriva compromiterii endpointului sau furtului unei sesiuni existente.
 
-## Write Portfolio Evidence
+## Scrie dovezi pentru portofoliu
 
-**A useful portfolio entry** explains a decision another analyst is able to review. Include a short architecture description, the collection prerequisites, the event timeline, and the reasoning behind your response.
+**O intrare utilă în portofoliu** explică o decizie astfel încât alt analist să o poată evalua. Include o descriere scurtă a arhitecturii, condițiile de colectare, cronologia evenimentelor și motivarea răspunsului.
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+Exercițiu:
+Data și intervalul orar UTC:
+Domeniul laboratorului și cerințe preliminare:
+Declanșator și semnal așteptat:
+Alertă observată sau prevenire:
+Dovezi și interogări:
+Identități și dispozitive afectate:
+Concluzie și raționament:
+Răspuns și recuperare:
+Modificarea controlului și retestare:
+Limitări și acțiuni ulterioare:
 ```
 
-Replace every field with your own observations. **Sanitize exports:** remove credentials, session material, personal information, and unnecessary identifiers before publishing screenshots or query results.
+Înlocuiește fiecare câmp cu propriile observații. **Igienizează exporturile:** elimină acreditările, datele de sesiune, informațiile personale și identificatorii care nu sunt necesari înainte să publici capturi sau rezultate de interogări.
 
-**Resume example:** "Built a Microsoft security lab, connected identity logs to Sentinel, investigated endpoint test alerts, and documented Conditional Access validation." Use this wording only after completing those tasks. Put it under projects or practical training with the actual dates and scope.
+**Exemplu pentru CV:** „Am construit un laborator de securitate Microsoft, am conectat jurnalele de identitate la Sentinel, am investigat alerte de test endpoint și am documentat validarea Conditional Access.” Folosește formularea doar după ce ai realizat sarcinile. Include-o la proiecte sau instruire practică, cu datele și domeniul reale.
 
-A lab demonstrates independent practice. **Production SOC work** also involves business impact, escalation, service commitments, and coordination with other teams. Explain which parts you practiced and which remain outside your experience.
+Un laborator demonstrează practică individuală. **Munca într-un SOC de producție** implică și impact asupra afacerii, escaladare, angajamente de serviciu și coordonare cu alte echipe. Explică ce ai exersat și ce rămâne în afara experienței tale.
 
-## Troubleshooting
+## Depanare
 
-| Symptom | First check |
+| Simptom | Prima verificare |
 |---|---|
-| **Workspace absent from Defender** | Same tenant, Sentinel enabled, and onboarding role requirements |
-| **SigninLogs absent or empty** | Diagnostic categories, destination workspace, fresh events, and time range |
-| **Client absent from Intune** | Enrollment prerequisites and enrollment status |
-| **Device visible without telemetry** | Actual onboarding state, sensor health, and outbound connectivity |
-| **Onboarding policy unapplied** | Assignment scope, device platform, and recent check-in |
-| **No identity risk alert** | Signal prerequisites and recorded activity, without assuming deterministic detection |
-| **Unexpected access allowed** | Report-only status, exclusions, resource scope, and existing session |
-| **Charges after shutdown** | Allocation state and resources billed independently of compute |
+| **Spațiu de lucru absent din Defender** | Același tenant, Sentinel activ și rolurile necesare pentru onboarding |
+| **SigninLogs absent sau gol** | Categorii de diagnosticare, spațiu de destinație, evenimente noi și interval |
+| **Client absent din Intune** | Cerințele și starea înrolării |
+| **Dispozitiv vizibil fără telemetrie** | Starea reală de onboarding, starea senzorului și conectivitatea de ieșire |
+| **Politică de onboarding neaplicată** | Domeniul atribuirii, platforma dispozitivului și sincronizarea recentă |
+| **Fără alertă de risc de identitate** | Cerințele semnalului și activitatea înregistrată, fără a presupune detectare deterministă |
+| **Acces permis neașteptat** | Starea Report-only, excluderile, domeniul resursei și sesiunea existentă |
+| **Costuri după oprire** | Starea de alocare și resursele facturate independent de calcul |
 
-**Troubleshooting order:** prove the event happened, prove collection worked, then investigate detection logic. Record each failure and fix in the project notes.
+**Ordinea depanării:** dovedește întâi că evenimentul s-a produs, apoi că colectarea a funcționat și abia după aceea investighează logica de detectare. Notează fiecare problemă și remediere în jurnalul proiectului.
 
-## Pause or Remove the Lab
+## Suspendă sau elimină laboratorul
 
-**Deallocation** releases VM compute allocation. A guest operating system shutdown alone does not guarantee deallocation. Check Azure's displayed power state and review Microsoft's [VM states and billing documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
+**Dezafectarea** eliberează alocarea de calcul a VM-ului. Oprirea sistemului de operare invitat nu garantează dezafectarea. Verifică starea de alimentare afișată în Azure și consultă documentația Microsoft despre [stările și facturarea VM-urilor](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
 
-**Retained resources** still need review. Disks, snapshots, networking services, log retention, and user subscriptions have separate lifecycles. Set a reminder before each trial expires and verify the next usage report after cleanup.
+**Resursele păstrate** necesită și ele revizuire. Discurile, instantaneele, serviciile de rețea, păstrarea jurnalelor și subscripțiile utilizatorilor au cicluri de viață separate. Programează un memento înainte de expirarea fiecărei perioade de testare și verifică următorul raport de utilizare după curățare.
 
-Before deleting the lab resource group, export the evidence you intend to retain and inspect its contents. **Resource group deletion is destructive** for contained resources. Tenant users, Intune policies, Conditional Access policies, subscriptions, and subscription-level security settings require separate cleanup where applicable.
+Înainte să ștergi grupul de resurse al laboratorului, exportă și inspectează dovezile pe care vrei să le păstrezi. **Ștergerea grupului de resurse distruge** resursele incluse. Utilizatorii tenantului, politicile Intune și Conditional Access, subscripțiile și setările de securitate la nivel de subscripție pot necesita curățare separată.
 
 ## Pașii următori
 
-**Finish one documented investigation** before adding another workload. Then add a server, an identity exercise, or a detection rule with a clear test condition. Track what the added component teaches and what it costs.
+**Finalizează o investigație documentată** înainte să adaugi o altă sarcină. Apoi adaugă un server, un exercițiu de identitate sau o regulă de detectare cu o condiție clară de testare. Notează ce înveți din componentă și cât costă.
 
-Use the [IT home lab guide](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) for infrastructure practice and the [IT resume guide](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) to present the work. Keep the next project small enough to explain from setup through evidence and cleanup.
+Folosește [ghidul de laborator IT](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) pentru practica de infrastructură și [ghidul de CV IT](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) pentru a-ți prezenta munca. Păstrează următorul proiect suficient de restrâns pentru a explica configurarea, dovezile și curățarea.

@@ -3,6 +3,7 @@ title: "ফিশিং স্ক্যাম এড়ানো: কৌশল, 
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "ফিশিং স্ক্যামারদের দ্বারা ব্যবহৃত কৌশল সম্পর্কে জানুন এবং নিজেকে শিকার হওয়া থেকে রক্ষা করার জন্য কার্যকর কৌশলগুলি আবিষ্কার করুন৷"
 tags: ["ফিশিং স্ক্যাম", "সাইবার নিরাপত্তা", "অনলাইন হুমকি", "ইমেইল স্পুফিং", "সামাজিক প্রকৌশলী", "ম্যালওয়্যার সুরক্ষা", "অনলাইন নিরাপত্তা", "তথ্য নিরাপত্তা", "পরিচয় প্রতারণা", "পাসওয়ার্ড নিরাপত্তা", "দুই ফ্যাক্টর প্রমাণীকরণ", "সফটওয়্যার আপডেট", "সরকারি নীতিমালা", "অনলাইন গোপনীয়তা", "সাইবার সচেতনতা", "ডিজিটাল জালিয়াতি", "ফিশিং সচেতনতা", "সামাজিক মিডিয়া নিরাপত্তা", "অনলাইন স্ক্যাম", "সাইবার অপরাধ প্রতিরোধ"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ coverCaption: ""
 
 যদিও ফিশিং স্ক্যামগুলি অত্যাধুনিক হতে পারে, তবে শিকার হওয়া এড়াতে আপনি বেশ কিছু সক্রিয় পদক্ষেপ নিতে পারেন৷ নিম্নলিখিত ব্যবস্থাগুলি বাস্তবায়ন করে, আপনি ফিশিং আক্রমণের শিকার হওয়ার ঝুঁকি উল্লেখযোগ্যভাবে হ্রাস করতে পারেন:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [শিক্ষা ও সচেতনতা](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) ফিশিং স্ক্যাম মোকাবেলায় গুরুত্বপূর্ণ। স্ক্যামারদের দ্বারা নিযুক্ত সর্বশেষ ফিশিং কৌশল এবং কৌশল সম্পর্কে অবগত থাকুন। নিরাপত্তা ব্লগ, নিবন্ধ, এবং অফিসিয়াল **সরকারি ওয়েবসাইট** যেগুলি বর্তমান ফিশিং প্রবণতা এবং সাইবার নিরাপত্তার সর্বোত্তম অনুশীলনের তথ্য প্রদান করে এমন নির্ভরযোগ্য উত্সগুলির মাধ্যমে নিয়মিতভাবে আপনার জ্ঞান আপডেট করুন৷
+[**শিক্ষা ও সচেতনতা**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) ফিশিং স্ক্যাম মোকাবেলায় গুরুত্বপূর্ণ। স্ক্যামারদের দ্বারা নিযুক্ত সর্বশেষ ফিশিং কৌশল এবং কৌশল সম্পর্কে অবগত থাকুন। নিরাপত্তা ব্লগ, নিবন্ধ, এবং অফিসিয়াল **সরকারি ওয়েবসাইট** যেগুলি বর্তমান ফিশিং প্রবণতা এবং সাইবার নিরাপত্তার সর্বোত্তম অনুশীলনের তথ্য প্রদান করে এমন নির্ভরযোগ্য উত্সগুলির মাধ্যমে নিয়মিতভাবে আপনার জ্ঞান আপডেট করুন৷
 
 ### ইমেল এবং বার্তাগুলির সাথে সতর্কতা অবলম্বন করুন
 
 ইমেল বা বার্তাগুলি গ্রহণ করার সময় সতর্কতা অবলম্বন করুন, বিশেষ করে যেগুলি ব্যক্তিগত তথ্যের জন্য অনুরোধ করে বা জরুরি পদক্ষেপের জন্য অনুরোধ করে৷ ইমেল ঠিকানা, ব্যাকরণ এবং বানান ত্রুটি বা জেনেরিক শুভেচ্ছার মতো বিশদগুলিতে মনোযোগ দিন যা ফিশিং প্রচেষ্টা নির্দেশ করতে পারে। অপ্রত্যাশিত সংযুক্তি বা লিঙ্কগুলি থেকে সতর্ক থাকুন, এমনকি যদি সেগুলি বিশ্বস্ত উত্স থেকে আসে বলে মনে হয়। সন্দেহ হলে, **কোনও সন্দেহজনক লিঙ্কে ক্লিক করবেন না বা সংযুক্তি ডাউনলোড করবেন না**। পরিবর্তে, বার্তাটির সত্যতা যাচাই করতে **একটি যাচাইকৃত ফোন নম্বর বা ইমেল ঠিকানা ব্যবহার করে সরাসরি প্রেরকের সাথে যোগাযোগ করুন।
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [পাসওয়ার্ড শক্তিশালী করুন এবং দ্বি-ধাপ যাচাইকরণ চালু করুন](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-ক [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) একাধিক অ্যাকাউন্টের সাথে আপস করা থেকে একটি একক লঙ্ঘন প্রতিরোধ করতে প্রতিটি অনলাইন অ্যাকাউন্টের জন্য।
+[একটি শক্তিশালী ও অনন্য পাসওয়ার্ড](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) ফিশিং প্রতারণার বিরুদ্ধে সুরক্ষার একটি অপরিহার্য উপায়। [**শক্তিশালী পাসওয়ার্ড তৈরি করুন**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), যাতে বড় ও ছোট হাতের অক্ষর, সংখ্যা এবং বিশেষ চিহ্নের সমন্বয় থাকে। আপনার নাম বা জন্মতারিখের মতো সহজে অনুমান করা যায় এমন তথ্য ব্যবহার করা এড়িয়ে চলুন। প্রতিটি অনলাইন অ্যাকাউন্টের জন্য [**আলাদা পাসওয়ার্ড ব্যবহার করাও জরুরি**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), যাতে একটি নিরাপত্তা লঙ্ঘনের কারণে যেন একাধিক অ্যাকাউন্ট ঝুঁকিতে না পড়ে.
 
-শক্তিশালী পাসওয়ার্ড ছাড়াও, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) যখন সম্ভব. 2FA আপনার পাসওয়ার্ড ছাড়াও আপনার মোবাইল ডিভাইসে পাঠানো একটি অস্থায়ী কোডের মতো যাচাইকরণের দ্বিতীয় ফর্মের প্রয়োজন করে নিরাপত্তার একটি অতিরিক্ত স্তর যোগ করে। এটি স্ক্যামারদের জন্য আপনার অ্যাকাউন্টে অননুমোদিত অ্যাক্সেস লাভ করা উল্লেখযোগ্যভাবে আরও কঠিন করে তোলে।
+শক্তিশালী পাসওয়ার্ড ছাড়াও, [**দ্বি-কারক প্রমাণীকরণ (2FA) চালু করুন**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) যখন সম্ভব. 2FA আপনার পাসওয়ার্ড ছাড়াও আপনার মোবাইল ডিভাইসে পাঠানো একটি অস্থায়ী কোডের মতো যাচাইকরণের দ্বিতীয় ফর্মের প্রয়োজন করে নিরাপত্তার একটি অতিরিক্ত স্তর যোগ করে। এটি স্ক্যামারদের জন্য আপনার অ্যাকাউন্টে অননুমোদিত অ্যাক্সেস লাভ করা উল্লেখযোগ্যভাবে আরও কঠিন করে তোলে।
 
 ### সফটওয়্যার এবং অপারেটিং সিস্টেম আপ টু ডেট রাখুন
 

@@ -1,10 +1,11 @@
 ---
 title: "Veiligheid op internet voor kinderen: tips en strategieën om uw kinderen online veilig te houden"
 date: 2023-05-13
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Bescherm uw kinderen tegen online gevaren met deze tips en strategieën voor internetveiligheid."
-tags: ["Veiligheid op het internet", "online veiligheid", "kinderveiligheid", "ouderlijk toezicht", "cyberpesten", "digitale geletterdheid", "online roofdieren", "sociale media", "gaming", "mobiele apparaten", "privacy", "beveiliging", "veilig internetgebruik", "tips voor internetbeveiliging", "bescherming van kinderen online", "ouderschap in het digitale tijdperk", "online privacy voor kinderen", "online gevaren voor kinderen", "veilige internetgewoonten", "voorlichting over internetveiligheid"]
+tags: ["Veiligheid op het internet", "online veiligheid", "kinderveiligheid", "ouderlijk toezicht", "cyberpesten", "digitale geletterdheid", "online roofdieren", "sociale media", "online gamen", "mobiele apparaten", "privacy", "beveiliging", "veilig internetgebruik", "tips voor internetbeveiliging", "bescherming van kinderen online", "ouderschap in het digitale tijdperk", "online privacy voor kinderen", "online gevaren voor kinderen", "veilige internetgewoonten", "voorlichting over internetveiligheid"]
 cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Een cartoonbeeld van een ouder en een kind die samen een computer gebruiken, waarbij het kind een vergrootglas vasthoudt en de ouder naar het scherm wijst."
 coverCaption: ""
@@ -22,7 +23,7 @@ De eerste stap om uw kinderen online veilig te houden is het stellen van duideli
 
 Zelfs als u uw kinderen vertrouwt, blijft het belangrijk om hun online activiteiten in de gaten te houden. Zet de computer op een centrale plaats waar u gemakkelijk kunt zien wat uw kinderen doen. U kunt ook software voor ouderlijk toezicht gebruiken om de toegang tot bepaalde websites te beperken en de online activiteiten van uw kind te controleren.
 
-Een dergelijke software is[Norton Family](https://us.norton.com/norton-family-premier) die een reeks functies biedt waarmee ouders de online activiteiten van hun kinderen kunnen controleren. Dit omvat het filteren van websites, tijdscontrole en het volgen van de locatie. U kunt ook waarschuwingen ontvangen als uw kind probeert toegang te krijgen tot een geblokkeerde website of app.
+Een voorbeeld van zulke software is [Norton Family](https://us.norton.com/norton-family-premier). Het biedt ouders functies om de online activiteiten van hun kinderen te volgen, zoals websitefilters, tijdslimieten en locatiebepaling. U kunt ook een melding krijgen wanneer uw kind een geblokkeerde website of app probeert te openen.
 
 ## Leer uw kinderen gevaarlijke situaties te herkennen
 
@@ -30,7 +31,7 @@ Leer uw kinderen gevaarlijke situaties online te herkennen, zoals cyberpesten of
 
 ## Gebruik software voor ouderlijk toezicht
 
-Software voor ouderlijk toezicht kan een nuttig hulpmiddel zijn om uw kinderen online veilig te houden. Er zijn veel verschillende opties beschikbaar, elk met hun eigen kenmerken. Enkele populaire opties zijn[Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids), and [Net Nanny](https://www.netnanny.com/)
+Software voor ouderlijk toezicht kan een nuttig hulpmiddel zijn om uw kinderen online veilig te houden. Er zijn veel verschillende opties beschikbaar, elk met eigen functies. Populaire opties zijn [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) en [Net Nanny](https://www.netnanny.com/).
 
 [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) biedt een reeks functies, waaronder het blokkeren van websites en apps, schermtijdbeheer en locatiebepaling. Het bevat ook een functie die ouders waarschuwt als hun kind probeert toegang te krijgen tot een geblokkeerde website of app.
 
@@ -40,7 +41,7 @@ Het is belangrijk om open en eerlijke gesprekken met uw kinderen te voeren over 
 
 ## Houd uw computer veilig
 
-Het beveiligen van uw computer is een belangrijk onderdeel van online veiligheid. Zorg ervoor dat uw computer is uitgerust met up-to-date antivirussoftware en dat alle beveiligingsupdates zijn geïnstalleerd. Moedig uw kinderen aan sterke wachtwoorden te gebruiken en deze nooit met anderen te delen.
+Het beveiligen van uw computer is een belangrijk onderdeel van online veiligheid. Zorg ervoor dat uw computer is uitgerust met up-to-date antivirussoftware en dat alle beveiligingsupdates zijn geïnstalleerd. Moedig uw kinderen aan [sterke wachtwoorden](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) te gebruiken en deze nooit met anderen te delen.
 
 ## Gebruik twee-factor authenticatie
 

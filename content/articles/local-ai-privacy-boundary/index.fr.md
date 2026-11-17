@@ -1,7 +1,7 @@
 ---
 title: "Confidentialité de l'IA locale : ce qui reste sur votre ordinateur et ce qui n'y reste pas"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Suivez les invites, fichiers de modèle, outils, journaux, exposition réseau et coûts d'électricité avant de choisir l'inférence locale ou un service d'IA hébergé."
@@ -78,6 +78,15 @@ La [FAQ d'Ollama](https://docs.ollama.com/faq) documente un mode réservé au lo
 
 Vérifiez le paramètre après le redémarrage. Un runtime local uniquement réduit un chemin. Il n'établit pas un hôte privé.
 
+
+## Synthèse vocale d’Ollama et frontière réseau
+
+*La [version v0.40.11 d’Ollama](https://github.com/ollama/ollama/releases/tag/v0.40.11) annonce la génération vocale sur macOS. Sa [référence API](https://docs.ollama.com/api/openai-compatibility) date `/v1/audio/speech` de la version v0.40.8 ; la v0.40.11 n’est donc pas la première version documentée de ce point de terminaison.* Il s’agit de **synthèse vocale**, et non de conversion de la parole en texte : une requête envoie du texte à un modèle vocal comme Phonon et reçoit un flux audio. Le [guide vocal](https://docs.ollama.com/capabilities/speech) montre aussi `ollama run phonon` qui lit l’audio localement ou écrit un fichier WAV lorsque la sortie est redirigée.
+
+Le **chemin vocal local** nécessite un modèle local téléchargé et un serveur local. La [FAQ d’Ollama](https://docs.ollama.com/faq) indique que le serveur se lie par défaut à `127.0.0.1:11434` et que **`OLLAMA_HOST`** modifie l’adresse d’écoute. Vérifiez le listener actif avec la commande `lsof` ci-dessus, sans supposer que la valeur par défaut est toujours en vigueur. L’[introduction à l’API d’Ollama](https://docs.ollama.com/api/introduction) indique que les requêtes locales ne nécessitent pas de clé API. Restreignez toute écoute plus large avec un pare-feu et des contrôles d’accès avant d’envoyer du texte privé.
+
+**Une liaison loopback ne constitue pas toute la frontière.** Ollama documente le transfert de son serveur HTTP par un proxy inverse ou un tunnel. Vérifiez le listener, l’authentification et la journalisation des requêtes de chaque proxy, même si Ollama écoute toujours sur loopback. Le texte envoyé et l’audio renvoyé traversent alors la connexion du proxy. Le [guide de dépannage d’Ollama](https://docs.ollama.com/troubleshooting) mentionne les journaux du serveur, mais la documentation vocale ne promet pas de rétention audio. Vérifiez où les clients enregistrent la sortie WAV et où persistent les journaux du proxy ou de l’application. La FAQ d’Ollama indique qu’il ne voit ni les requêtes ni les données des exécutions locales. Les téléchargements de modèles nécessitent le réseau et les modèles cloud suivent un autre chemin. Dans une configuration Ollama uniquement locale, `OLLAMA_NO_CLOUD=1`, décrit plus haut, désactive les fonctions cloud d’Ollama. Il ne contrôle pas les autres applications.
+
 ## Comptez le coût hébergé
 
 Les prix des tokens séparent l'entrée de la sortie. [Anthropic indique Claude Haiku 5.5 à 0,10 $ par million de tokens d'entrée et 0,50 $ par million de tokens de sortie pour les invites jusqu'à 100 000 tokens](https://www.anthropic.com/claude/haiku). Les invites dépassant 100 000 tokens utilisent les tarifs supérieurs indiqués.
@@ -97,7 +106,7 @@ La puissance du GPU n'est pas la puissance de tout le système. Utilisez un watt
 Utilisez cette formule pour la sortie générée :
 
 ```text
-local cost per 1M output tokens =
+coût local pour 1M jetons de sortie =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -124,8 +133,8 @@ Les économies d'électricité ne remboursent pas le matériel seules. Comparez 
 À 50 tokens de sortie par seconde :
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 prix de sortie hébergée - $0.40 coût de l’électricité locale = $0.10 économisés par 1M jetons de sortie
+$549 prix du GPU / $0.10 = environ 5.5 milliards de jetons de sortie
 ```
 
 À 94 tokens de sortie par seconde, l'économie arrondie monte à environ 0,28 $ par million de tokens. Récupérer un GPU à 549 $ demande alors environ 2 milliards de tokens de sortie. Les deux chiffres excluent la mémoire système, le stockage, la carte mère, l'alimentation, le refroidissement, la maintenance et la valeur de revente.
@@ -191,4 +200,10 @@ Le [guide IA locale contre ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-
 - [Tarification de la plateforme Anthropic Claude](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI, Comprendre et compter les tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Politique de confidentialité d'Ollama](https://ollama.com/privacy)
+- [Notes de version d’Ollama v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Guide vocal d’Ollama](https://docs.ollama.com/capabilities/speech)
+- [Référence API de compatibilité OpenAI d’Ollama](https://docs.ollama.com/api/openai-compatibility)
+- [Introduction à l’API d’Ollama](https://docs.ollama.com/api/introduction)
+- [FAQ d’Ollama : configuration serveur, options cloud et proxies inverses](https://docs.ollama.com/faq)
+- [Dépannage Ollama et journaux serveur](https://docs.ollama.com/troubleshooting)
 - [Documentation du serveur llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

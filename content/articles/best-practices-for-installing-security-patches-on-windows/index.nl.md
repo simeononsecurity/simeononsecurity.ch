@@ -1,136 +1,136 @@
 ---
-title: "Cumulatieve beveiligingspatches installeren op Windows: Beste werkwijzen"
+title: "Cumulatieve beveiligingsupdates installeren in Windows"
 date: 2023-03-22
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Leer hoe je cumulatieve beveiligingspatches installeert op Windows en volg de best practices om je systeem te beveiligen tegen cyberaanvallen."
-tags: ["Windows", "beveiligingspatches", "cyberbeveiliging", "systeemveiligheid", "Microsoft", "cumulatieve patches", "patchbeheer", "gegevensback-up", "Spectre Meltdown", "encryptie", "systeemkwetsbaarheden", "systeemupdates", "patchimplementatie", "niet-productieomgevingen", "systeemconfiguratie", "IT-beveiliging", "patchbeheersysteem", "scannen op kwetsbaarheden", "release notes", "systeemonderhoud"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
-coverAlt: "Een cartoonafbeelding van een schild met een Windows-logo erop dat wordt beschermd door een slot"
+description: "Leer cumulatieve beveiligingsupdates in Windows installeren en volg praktische stappen om je systeem tegen cyberaanvallen te beschermen."
+tags: ["Windows", "beveiligingsupdates", "cyberbeveiliging", "systeembeveiliging", "Microsoft", "cumulatieve updates", "patchbeheer", "gegevensback-up", "Spectre Meltdown", "versleuteling", "systeemkwetsbaarheden", "systeemupdates", "patchimplementatie", "niet-productieomgevingen", "systeemconfiguratie", "IT-beveiliging", "patchbeheersysteem", "kwetsbaarheidsscans", "releaseopmerkingen", "systeemonderhoud"]
+cover: "/img/cover/best-practices-for-installing-security-patches-on-windows.webp"
+coverAlt: "Een technicus met een diverse achtergrond zit aan een bureau. Op de desktopmonitor staat een Windows-updatescherm en er liggen technische gadgets omheen. Blauwe en groene accenten verlichten de donkere omgeving."
 coverCaption: ""
 ---
 
-**Cumulatieve beveiligingspatches installeren op Windows**
+**Cumulatieve beveiligingsupdates installeren in Windows**
 
-In de wereld van vandaag vormen **cyberaanvallen** een aanzienlijke bedreiging voor de veiligheid van computersystemen. Een van de manieren om het risico op dergelijke aanvallen te minimaliseren is het installeren van **beveiligingspatches**. In het geval van Windows brengt Microsoft regelmatig **cumulatieve beveiligingspatches** uit. Deze patches bevatten alle voorgaande beveiligingspatches, samen met nieuwe beveiligingsupdates.
+Cyberaanvallen vormen tegenwoordig een belangrijke bedreiging voor de beveiliging van computersystemen. Een manier om het risico te beperken is het installeren van **beveiligingspatches**. Microsoft brengt regelmatig **cumulatieve beveiligingsupdates** voor Windows uit. Deze updates bevatten alle eerdere beveiligingspatches en nieuwe beveiligingsupdates.
 
-## Het belang van het installeren van cumulatieve beveiligingspatches
+## Waarom cumulatieve beveiligingsupdates belangrijk zijn
 
-**Cumulatieve beveiligingspatches** zijn cruciaal om uw Windows-systeem veilig te houden. Deze patches verhelpen kwetsbaarheden en gaten in de beveiliging die door cyberaanvallers kunnen worden uitgebuit. Het niet installeren van deze patches kan leiden tot aanzienlijke beveiligingsproblemen en inbreuken op gegevens.
+**Cumulatieve beveiligingsupdates** zijn belangrijk om je Windows-systeem te beveiligen. Ze verhelpen kwetsbaarheden en beveiligingslekken die aanvallers kunnen misbruiken. Als je deze updates niet installeert, kunnen ernstige beveiligingsproblemen en datalekken ontstaan.
 
-## Cumulatieve beveiligingspatches begrijpen
+## Cumulatieve beveiligingsupdates begrijpen
 
-Zoals eerder vermeld, brengt Microsoft regelmatig **cumulatieve beveiligingspatches** uit. Deze patches bevatten alle eerder uitgebrachte beveiligingsupdates en fixes samen met de nieuwe beveiligingsupdates. Het voordeel van het gebruik van een **cumulatieve beveiligingspatch** is dat het tijd en moeite bespaart doordat niet elke update afzonderlijk geïnstalleerd hoeft te worden.
-
-______
-
-## Stappen voor het installeren van cumulatieve beveiligingspatches
-
-Het installeren van een **cumulatieve beveiligingspatch** op Windows bestaat uit een paar eenvoudige stappen:
-
-1. **Controleer op updates:** De eerste stap voor het installeren van een cumulatieve beveiligingspatch in Windows is controleren op updates. Je kunt dit doen door naar het gedeelte **Windows Update** te gaan in het **Configuratiescherm** of door te zoeken naar **Windows Update** in de zoekbalk van Windows. Klik daar op de knop **Controleren op updates** om te zien of er updates beschikbaar zijn.
-
-2. **Download en installeer:** Als er updates beschikbaar zijn, downloadt en installeert u deze. Het is belangrijk om te weten dat cumulatieve beveiligingspatches meestal alle voorgaande updates bevatten, dus je hoeft ze niet afzonderlijk te installeren. Download en installeer gewoon de nieuwste patch en deze zal alle vorige patches bevatten.
-
-3. **Opnieuw opstarten:** Nadat de installatie is voltooid, start u de computer opnieuw op om de updates toe te passen. Het is belangrijk om de computer opnieuw op te starten, zelfs als dit niet wordt gevraagd, omdat sommige updates pas actief worden als u dit doet.
-
-Sommige updates vereisen aanvullende configuraties of wijzigingen in de instellingen na de installatie. **Het lezen van de patch-notities** voor elke update is cruciaal om ervoor te zorgen dat deze correct wordt geïnstalleerd en geconfigureerd. Daarnaast kunnen sommige updates extra vereisten hebben om rekening mee te houden. Voor de Spectre/Meltdown patch moeten bijvoorbeeld extra registers worden ingesteld.
-
-Als u deze stappen volgt, kunt u ervoor zorgen dat uw Windows-systeem up-to-date is met de nieuwste beveiligingspatches en beschermd is tegen cyberbedreigingen.
+Zoals eerder vermeld, brengt Microsoft regelmatig **cumulatieve beveiligingsupdates** uit. Ze bevatten alle eerder uitgebrachte beveiligingsupdates en oplossingen, plus nieuwe beveiligingsupdates. Het voordeel van een **cumulatieve beveiligingsupdate** is dat je tijd en moeite bespaart, omdat je niet elke update afzonderlijk hoeft te installeren.
 
 ______
 
-## Beste praktijken voor het installeren van cumulatieve beveiligingspatches
+## Cumulatieve beveiligingsupdates installeren
 
-Bij het installeren van **cumulatieve beveiligingspatches** is het essentieel om een aantal best practices te volgen om ervoor te zorgen dat het proces correct wordt uitgevoerd. Deze best practices zijn als volgt:
+Een **cumulatieve beveiligingsupdate** installeren in Windows bestaat uit een paar eenvoudige stappen:
 
-### Patchnotities lezen
+1. **Controleren op updates:** Controleer eerst of er een cumulatieve beveiligingsupdate beschikbaar is. Open **Windows Update** in het **Configuratiescherm** of zoek in Windows naar **Windows Update**. Klik daarna op **Controleren op updates** om te zien of er updates beschikbaar zijn.
 
-Voordat u een **cumulatieve beveiligingspatch** installeert, is het cruciaal om de **release notes** zorgvuldig te lezen. Deze aantekeningen bevatten belangrijke informatie over de patch, zoals bekende problemen, systeemvereisten en vereisten. Door de release notes te lezen, kunt u er zeker van zijn dat de patch compatibel is met uw systeem en kunt u problemen vermijden die kunnen voortkomen uit de installatie.
+2. **Downloaden en installeren:** Download en installeer beschikbare updates. Cumulatieve beveiligingsupdates bevatten meestal alle eerdere updates, dus je hoeft die niet afzonderlijk te installeren. Download en installeer de nieuwste patch. Die bevat ook de eerdere patches.
 
-Bijvoorbeeld, de **May 2021 Cumulatieve Update** voor **Windows 10 versie 2004 en versie 20H2 had een bekend probleem** dat systeemcrashes veroorzaakte wanneer bepaalde printerdrivers werden gebruikt. **Dit probleem werd vermeld in de release notes** en gebruikers werd geadviseerd om de installatie van de patch ongedaan te maken als ze dit probleem ondervonden.
+3. **Opnieuw opstarten:** Start de computer na de installatie opnieuw op om de updates toe te passen. Doe dit ook als Windows niet om een herstart vraagt, want sommige updates werken pas na een herstart.
 
-Daarnaast kunnen **sommige patches aanvullende configuraties of instellingen vereisen na installatie**. De release notes voor elke update bevatten deze informatie en het is belangrijk om de instructies zorgvuldig te volgen om ervoor te zorgen dat de patch correct wordt geïnstalleerd en geconfigureerd.
+Sommige updates vereisen na de installatie extra configuratie of gewijzigde instellingen. **Lees de patchinformatie** om te controleren of de patch goed is geïnstalleerd en geconfigureerd. Soms gelden er aanvullende vereisten. Voor de Spectre/Meltdown-patch moeten bijvoorbeeld extra registers worden ingesteld.
 
-Kortom, het lezen van de release notes voordat u een cumulatieve beveiligingspatch installeert, is een belangrijke stap in het behouden van de beveiliging en stabiliteit van uw Windows-systeem. Door de tijd te nemen om de informatie in de release notes door te nemen, kunt u potentiële problemen voorkomen en ervoor zorgen dat de patch correct wordt geïnstalleerd.```
+Met deze stappen houd je Windows bijgewerkt met de nieuwste beveiligingspatches en bescherm je het systeem tegen cyberdreigingen.
 
-### Cumulative Patches
+______
 
-When it comes to installing **cumulative patches** on Windows, it's important to understand how they work. As the name suggests, cumulative patches include all previous security updates and patches, which means that you can apply the latest patch to your system without worrying about installing all the previous patches.
+## Aanbevolen werkwijzen voor cumulatieve beveiligingsupdates
 
-However, **it's still necessary to review the release notes for each patch to ensure that all previous patches are covered**. While the answer is typically yes, there may be exceptions where certain patches are not included in the cumulative patch. For example, if a patch was released after the last cumulative patch, it may not be included in the latest patch, and you'll need to install it separately.
+Volg deze aanbevolen werkwijzen om **cumulatieve beveiligingsupdates** correct te installeren.
 
-Furthermore, **the patch notes for the latest security patch may not provide information about any additional configurations needed from previous patches**. **For example, the Spectre/Meltdown patch requires additional registers to be set**. To ensure that your system is fully secure, **it's important to review the notes for all patches** and implement any additional configurations as needed.
+### Patchinformatie lezen
 
-In conclusion, while cumulative patches generally include all previous security updates and patches, it's still important to review the release notes for each patch to ensure that your system is fully protected. By taking the time to understand how cumulative patches work and reviewing the release notes, you can ensure that your system remains secure and protected against cybersecurity threats.
+Lees de **releaseopmerkingen** zorgvuldig voordat je een **cumulatieve beveiligingsupdate** installeert. Ze bevatten belangrijke informatie over de patch, zoals bekende problemen, systeemvereisten en voorwaarden. Zo controleer je of de patch met je systeem werkt en voorkom je problemen tijdens de installatie.
 
-### Additional Requirements
+Zo had de **cumulatieve update van mei 2021** voor **Windows 10 versie 2004 en versie 20H2 een bekend probleem** dat systeemcrashes veroorzaakte bij gebruik van bepaalde printerstuurprogramma's. **Dit probleem stond in de releaseopmerkingen**. Gebruikers kregen het advies de patch te verwijderen als ze het probleem ondervonden.
 
-In addition to reviewing the release notes for a **cumulative security patch**, it's important to check if the patch has any additional requirements that need to be considered. For instance, the Spectre/Meltdown patch requires additional registers to be set, which may impact system performance if not properly configured.
+**Sommige patches vereisen na de installatie extra configuratie of gewijzigde instellingen.** De releaseopmerkingen bij elke update bevatten hierover informatie. Volg de instructies zorgvuldig om de patch goed te installeren en configureren.
 
-**To avoid any issues, make sure to review the release notes for the patch and follow any additional requirements as necessary**. These additional requirements may include setting up new configurations or modifying existing ones, so it's important to have a good understanding of your system and how it works.
+Kortom, het lezen van de releaseopmerkingen is een belangrijke stap voordat je een cumulatieve beveiligingsupdate installeert. Zo voorkom je mogelijke problemen en kun je de update correct installeren.```
 
-In conclusion, by being aware of any additional requirements for a **cumulative security patch**, you can ensure that your system remains secure and protected against cybersecurity threats. Take the time to review the release notes and understand any additional requirements to avoid any issues with the patch installation.
+### Cumulatieve patches
 
-### Back Up Your Data
+Het is belangrijk te begrijpen hoe **cumulatieve patches** in Windows werken. Ze bevatten, zoals de naam aangeeft, alle eerdere beveiligingsupdates en patches. Je kunt dus de nieuwste patch installeren zonder eerst alle eerdere patches te installeren.
 
-It's always a good practice to back up your data before installing any updates or patches, especially when it comes to **cumulative security patches**. These patches can have a significant impact on your system, and in case of any issues during the installation process, you may need to recover your data from a backup.
+**Controleer wel de releaseopmerkingen van elke patch om na te gaan of alle eerdere patches zijn opgenomen.** Dat is meestal zo, maar er zijn uitzonderingen. Een patch die na de vorige cumulatieve update is uitgebracht, zit mogelijk niet in de nieuwste update en moet dan afzonderlijk worden geïnstalleerd.
 
-There are many ways to back up your data, such as using external hard drives, cloud storage services like Dropbox or Google Drive, or using backup software like Acronis or EaseUS. Whatever method you choose, make sure to create a full backup of your system and data, and store the backup in a safe place.
+**De opmerkingen bij de nieuwste beveiligingspatch bevatten mogelijk geen informatie over extra configuratie uit eerdere patches.** **Voor de Spectre/Meltdown-patch moeten bijvoorbeeld extra registers worden ingesteld.** Controleer voor volledige beveiliging **de informatie bij alle patches** en voer aanvullende configuratie uit waar dat nodig is.
 
-In addition to backing up your data, it's also a good idea to create a restore point before installing the patch. A restore point is a snapshot of your system's configuration and settings, and can be used to restore your system to a previous state in case of any issues.
+Cumulatieve patches bevatten doorgaans alle eerdere beveiligingsupdates en patches. Controleer toch de releaseopmerkingen om zeker te weten dat je systeem goed is beschermd.
 
-In conclusion, by backing up your data and creating a restore point before installing a **cumulative security patch**, you can ensure that your system and data are protected in case of any issues during the installation process.
+### Aanvullende vereisten
 
-### Install Patches Regularly
+Controleer naast de releaseopmerkingen van een **cumulatieve beveiligingsupdate** ook of de patch aanvullende vereisten heeft. Voor de Spectre/Meltdown-patch moeten bijvoorbeeld extra registers worden ingesteld. Een onjuiste configuratie kan de systeemprestaties beïnvloeden.
 
-It is crucial to keep your system secure by installing **cumulative security patches** regularly. These patches address new vulnerabilities and security issues that may arise. 
+**Lees de releaseopmerkingen en volg eventuele aanvullende vereisten om problemen te voorkomen.** Het kan nodig zijn nieuwe instellingen toe te passen of bestaande configuratie te wijzigen. Zorg dat je begrijpt hoe je systeem werkt voordat je dit doet.
 
-For example, in 2021, Microsoft released several patches to address the PrintNightmare vulnerability. This vulnerability allowed attackers to take control of a victim's system remotely. Installing the patch provided by Microsoft would protect against this type of attack.
+Als je weet welke aanvullende vereisten gelden voor een **cumulatieve beveiligingsupdate**, kun je je systeem blijven beveiligen. Neem de tijd om de releaseopmerkingen en vereisten te controleren.
 
-By installing patches promptly, you can ensure your system is up to date with the latest security measures. This will help protect against potential attacks and keep your system running smoothly.
+### Maak een back-up van je gegevens
 
-### Test on a Non-Production Environment
+Het is verstandig om een back-up te maken voordat je updates of patches installeert, vooral bij **cumulatieve beveiligingsupdates**. Deze updates kunnen een grote invloed hebben op je systeem. Als er tijdens de installatie iets misgaat, kun je de gegevens via een back-up herstellen.
 
-It is essential to test **cumulative security patches** on a non-production environment before installing them on a production environment. This practice will help identify any potential issues that may arise due to the patch.
+Je kunt gegevens opslaan op een externe schijf, in een cloudservice zoals Dropbox of Google Drive, of met back-upsoftware zoals Acronis of EaseUS. Welke methode je ook kiest, maak een volledige back-up van je systeem en gegevens en bewaar die op een veilige plek.
 
-For example, suppose you have a web application running on a production environment. Before installing a new security patch, it is recommended to test the patch on a non-production environment to ensure it does not cause any compatibility or performance issues. 
+Maak naast een back-up ook een herstelpunt voordat je de patch installeert. Een herstelpunt is een momentopname van de systeemconfiguratie en instellingen. Bij problemen kun je daarmee teruggaan naar een eerdere toestand.
 
-Testing on a non-production environment allows you to identify and fix any potential issues before they affect your live application. This reduces the risk of downtime or data loss due to an untested patch.
+Met een back-up en herstelpunt vóór de installatie van een **cumulatieve beveiligingsupdate** bescherm je je systeem en gegevens als er iets misgaat.
 
-In summary, testing on a non-production environment is a best practice that helps ensure that the patch will not negatively impact the production environment.
+### Installeer patches regelmatig
 
-### Use a Patch Management System
+Installeer regelmatig **cumulatieve beveiligingsupdates** om je systeem te beveiligen. Deze patches verhelpen nieuwe kwetsbaarheden en beveiligingsproblemen.
 
-A **patch management system** is an automated tool that helps manage and deploy **cumulative security patches** across multiple systems. It automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
+Microsoft bracht in 2021 bijvoorbeeld verschillende patches uit voor de kwetsbaarheid PrintNightmare. Hiermee konden aanvallers op afstand de controle over het systeem van een slachtoffer overnemen. De Microsoft-patch beschermde tegen dit type aanval.
 
-For example, **Microsoft's System Center Configuration Manager (SCCM)** is a popular patch management system that allows you to manage and deploy patches across your organization. SCCM provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
+Door patches snel te installeren, houd je je systeem up-to-date met de nieuwste beveiligingsmaatregelen. Dit helpt aanvallen te voorkomen en zorgt ervoor dat je systeem goed blijft werken.
 
-Using a patch management system provides several benefits, including:
+### Test in een niet-productieomgeving
 
-- **Automated patch deployment**: The system automates the process of deploying patches, reducing the time and effort required to keep systems up to date.
-- **Centralized management**: A patch management system provides a central console for managing patches, making it easier to track and deploy patches across multiple systems.
-- **Reporting and compliance**: The system provides reporting and compliance features that help ensure systems are up to date and in compliance with security policies.
+Test **cumulatieve beveiligingsupdates** eerst in een niet-productieomgeving voordat je ze in productie installeert. Zo kun je problemen opsporen die door de patch kunnen ontstaan.
 
-In summary, using a patch management system can simplify the patch deployment process and ensure that all systems are up to date, reducing the risk of security breaches and downtime.```
+Stel dat je een webapplicatie in een productieomgeving hebt. Test een nieuwe beveiligingspatch eerst in een niet-productieomgeving om te controleren of er geen compatibiliteits- of prestatieproblemen ontstaan.
+
+Door in een niet-productieomgeving te testen, kun je problemen oplossen voordat ze je live applicatie raken. Zo verklein je het risico op uitval of gegevensverlies door een niet-geteste patch.
+
+Testen in een niet-productieomgeving helpt voorkomen dat een patch de productieomgeving nadelig beïnvloedt.
+
+### Gebruik een patchbeheersysteem
+
+Een **patchbeheersysteem** is een geautomatiseerd hulpmiddel voor het beheren en implementeren van **cumulatieve beveiligingsupdates** op meerdere systemen. Het automatiseert de patchimplementatie en vermindert de tijd en moeite die nodig zijn om systemen bij te werken.
+
+**Microsoft System Center Configuration Manager (SCCM)** is een populair voorbeeld. Hiermee kun je patches voor je organisatie beheren en implementeren. Een centrale console maakt het eenvoudiger om patches op meerdere systemen te volgen en uit te rollen.
+
+Een patchbeheersysteem biedt onder andere:
+
+- **Automatische patchimplementatie:** automatiseert de uitrol en vermindert de tijd en moeite die nodig zijn om systemen bij te werken.
+- **Centraal beheer:** biedt één console om patches op meerdere systemen te volgen en uit te rollen.
+- **Rapportage en naleving:** helpt vaststellen of systemen bijgewerkt zijn en aan beveiligingsbeleid voldoen.
+
+Een patchbeheersysteem vereenvoudigt het implementatieproces en helpt systemen bij te werken. Zo verklein je het risico op beveiligingsincidenten en uitval.```
 
 ______
 
 ## Conclusie
 
-Tot slot is het installeren van **cumulatieve beveiligingspatches** op Windows essentieel om uw systeem veilig te houden. Door de stappen en best practices te volgen die in dit artikel zijn besproken, kunt u ervoor zorgen dat het installatieproces correct wordt uitgevoerd en dat uw systeem up-to-date blijft met de nieuwste beveiligingspatches. Vergeet niet om altijd een back-up te maken van je gegevens voordat je updates installeert en test patches regelmatig op niet-productieomgevingen voordat je ze uitrolt naar een productieomgeving. Door deze best practices te volgen, kunt u het risico op cyberaanvallen minimaliseren en ervoor zorgen dat uw systeem veilig blijft.
+Het installeren van **cumulatieve beveiligingsupdates** in Windows is essentieel om je systeem te beveiligen. Volg de stappen en aanbevolen werkwijzen uit dit artikel om updates correct te installeren en je systeem actueel te houden. Maak altijd een back-up voordat je updates installeert en test patches regelmatig in een niet-productieomgeving voordat je ze in productie uitrolt. Zo verklein je het risico op cyberaanvallen en blijft je systeem veilig.
 
-## Referenties:
+## Bronnen:
 
-[1] Microsoft (2021, januari 12). Gids voor beveiligingsupdates. Op 22 maart 2024 ontleend aan https://msrc.microsoft.com/update-guide/
+[1] Microsoft. (2021, 12 januari). Security Update Guide. Opgehaald op 22 maart 2023 via https://msrc.microsoft.com/update-guide/
 
-[2] Microsoft (2021, augustus 11). System Center Configuration Manager (SCCM). Opgehaald op 22 maart 2024 van https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
+[2] Microsoft. (2021, 11 augustus). System Center Configuration Manager (SCCM). Opgehaald op 22 maart 2023 via https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction
 
-[3] Acronis. (2022). Acronis True Image. Opgehaald op 22 maart 2024 van https://www.acronis.com/en-us/products/true-image/
+[3] Acronis. (2022). Acronis True Image. Opgehaald op 22 maart 2023 via https://www.acronis.com/en-us/products/true-image/
 
-[4] EaseUS. (2022). Todo Backup. Opgehaald op 22 maart 2024 van https://www.easeus.com/backup-software/
+[4] EaseUS. (2022). Todo Backup. Opgehaald op 22 maart 2023 via https://www.easeus.com/backup-software/
 
-[5] National Institute of Standards and Technology. (2022, februari 10). Gids voor technologieën voor Enterprise Patch Management. Op 22 maart 2024 ontleend aan https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
+[5] National Institute of Standards and Technology. (2022, 10 februari). Guide to Enterprise Patch Management Technologies. Opgehaald op 22 maart 2023 via https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r3.pdf
 
-[6] Nationaal Cyber Security Centrum. (2021). 10 stappen naar cyberbeveiliging. Opgehaald op 22 maart 2024 van https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security
-
+[6] National Cyber Security Centre. (2021). 10 Steps to Cyber Security. Opgehaald op 22 maart 2023 via https://www.ncsc.gov.uk/guidance/10-steps-to-cyber-security

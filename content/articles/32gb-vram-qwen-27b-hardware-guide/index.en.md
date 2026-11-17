@@ -1,7 +1,7 @@
 ---
 title: "32GB VRAM for Qwen 27B: The Local AI Hardware Guide for October 2026"
 date: 2026-10-03
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "A practical October 2026 guide to running Qwen 27B with 32GB of accelerator memory. Compare GPUs, unified memory, used cards, rented compute, and context limits."
@@ -84,6 +84,8 @@ The Arc Pro B70 targets professional workloads with 32GB of memory. It is an int
 
 **A lower purchase price does not compensate for hours spent finding a working build.** For a tinkerer, this work is part of the project. For a workstation used every day, driver and application support carry a real value.
 
+{{< button href="https://www.amazon.com/ASRock-Creator-Workstation-Graphics-Honeywell/dp/B0GXHLFV2G?tag=sos08d-20" >}}View the ASRock Intel Arc Pro B70 32GB on Amazon{{< /button >}}
+
 ## Used Data-Center Cards
 
 ### Tesla V100
@@ -141,9 +143,13 @@ Two 16GB cards provide a practical CUDA path for buyers who need 32GB and want c
 
 This route also needs a motherboard with two usable slots, enough power, and airflow between the cards. A pair of cards is not a small workstation build once the platform cost is included.
 
+{{< centerbutton href="https://www.amazon.com/s?k=RTX+5060+Ti+16GB+graphics+card&tag=sos08d-20" >}}Compare RTX 5060 Ti 16GB listings on Amazon{{< /centerbutton >}}
+
 ### One 32GB Card
 
 Choose a single 32GB card when reliability, warranty coverage, and simple deployment matter more than the lowest memory price. The R9700 and RTX 5090 represent different versions of this choice. The AMD path emphasizes capacity and price. The NVIDIA path emphasizes software breadth and mature CUDA support.
+
+Compare [RTX 5090 32GB listings on Amazon](https://www.amazon.com/s?k=RTX+5090+32GB&tag=sos08d-20) and [Radeon AI PRO R9700 32GB listings on Amazon](https://www.amazon.com/s?k=Radeon+AI+PRO+R9700+32GB&tag=sos08d-20). Confirm the current price, seller, and exact model before ordering.
 
 ### A Used V100 or MI50
 

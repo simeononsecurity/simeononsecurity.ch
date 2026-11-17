@@ -1,7 +1,7 @@
 ---
 title: "Colaboración de IA en GitHub: límites del repositorio y de la revisión"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Crea un mapa de fuentes basado en GitHub, asigna propietarios de archivos y establece un límite de publicación protegido para contribuciones de IA revisadas."
@@ -129,12 +129,12 @@ PY
 **Usa el clon local autenticado del propio colaborador para la prueba de push directo.** Un token del mantenedor probaría la identidad equivocada. Esta respuesta ilustrativa muestra el tipo de evidencia del servidor que debes conservar. El texto exacto varía según las reglas del repositorio.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Rol del actor: colaborador
+Intento: push directo sintético e inocuo a main
+Resultado del remoto: rechazado, actualización de la rama protegida denegada
+Commit inicial de main: [registra el commit del sandbox]
+Commit final de main: [registra el mismo commit tras volver a leerlo]
+Decisión: la denegación de la plataforma solo queda respaldada si se observan ambos registros
 ```
 
 **Si la autenticación Git local no está disponible, marca la denegación del servidor como Bloqueada.** Conserva el aviso de rama del navegador como evidencia de ruta y pide al mantenedor que organice una prueba separada con un colaborador. No clasifiques el aviso de ruta como un push directo rechazado.
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **Un mapa de fuentes es un documento de enrutamiento**, no un segundo documento de requisitos. Alguien que llega desde el chat debe encontrar la intención actual, el comportamiento implementado y las instrucciones operativas sin elegir entre resúmenes que compiten.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Proyecto: export-service-lab
+Flujo: GitHub-first
+Límite aprobado: main protegido
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Autoridad: intención de retención de archivos de exportación sintéticos
+  Responsable: product-owner
+  Revisión: registra la revisión y el commit protegido
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Autoridad: instrucciones operativas del laboratorio sintético
+  Responsable: operations-owner
+  Revisión: commit protegido
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Comportamiento -> config.json
+  Autoridad: configuración de retención confirmada en el repositorio
+  Responsable: repository-maintainer
+  Revisión: commit protegido
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Propuestas -> Issues y ramas de propuesta
+  Autoridad: solo cambios solicitados
 ```
 
 **No pongas el valor actual de retención en cada entrada del mapa.** Un mapa que contiene “siete días” se convierte en otro valor que sincronizar después de PROP-042. Conserva identificadores y ubicaciones estables en el mapa, y lee el valor del registro autorizado.

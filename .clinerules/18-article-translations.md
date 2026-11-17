@@ -20,6 +20,10 @@
   language list.
 - Store each translation as `index.<code>.md` beside `index.en.md` in the same
   leaf bundle. Preserve the bundle path and routing metadata.
+- Discover bundles recursively with `content/articles/**/index.en.md`; nested
+  article bundles exist. Parse front matter and exclude `draft: true` sources
+  from published-coverage totals. A one-level glob or an unfiltered source count
+  can miss bundles or count drafts as published.
 - Check existing files for valid YAML, published status, nonempty translated
   bodies, and missing sections. File existence alone does not establish coverage.
 - Compare section structure against English. A translation with far fewer
@@ -44,12 +48,23 @@
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private
   location.
+- Translate security terms by their established meaning, not by a literal
+  cognate. In Catalan, do not render phishing as `pesca` alone; retain
+  `phishing` or use a recognized descriptive phrase, and confirm the wording
+  still refers to credential theft or impersonation attacks.
+- Use the established target-language acronym for laws and regulatory regimes.
+  In French, use `RGPD` for `GDPR`; introduce `GDPR` once in parentheses only
+  when the English acronym helps identify sources, then use `RGPD` consistently
+  in reader-facing metadata and prose.
 - Preserve publication dates, URLs, resource paths, code blocks, inline commands,
   shortcode names, and nontext shortcode parameters. Set `lastmod` when writing
   a new or refreshed translation. For a batch refresh, update and verify
   `lastmod` in every changed locale file. Existing translations can carry
   different older dates, so verify the complete changed-file set instead of
   replacing only one known date value.
+- Before broad phrase replacements, protect or recheck fixed asset paths such as
+  `cover`. Replacing a translated term can also mutate a lowercase filename.
+  Compare every fixed path with the English source after edits.
 - Protect code and markup before automated translation. Validate the exact
   placeholder counts before restoring the protected source text. Restore symbolic
   placeholders by exact token match. When names share prefixes, replace longer tokens
@@ -84,6 +99,24 @@
   matter differs. Inspect short paragraphs individually, since English-only
   sections can evade long-paragraph thresholds. A locale extension marks final
   translated content, never a placeholder or progress state.
+  Treat `tools/check_translation_english_leakage.py --fail-on-english-fallback`
+  as a blocking gate on the temporary candidate bundle before moving it into
+  `content/articles/`, and run it again against the in-tree bundle before peer
+  review or commit. A nonzero result means the locale file stays outside the
+  article bundle until each high-confidence English fallback is translated and
+  the gate passes. Review all other checker findings manually, since copied
+  headings, labels, code examples, and citation titles can be valid exceptions
+  or reader-facing English that still needs translation. Record unresolved
+  findings in the external batch report; do not treat a translated body as
+  approval for untranslated reader-facing sections.
+  For each locale, include a source-aligned review record for the title,
+  description, opening, every section, and every reader-facing example or
+  caption. The peer reviewer must verify each record against the frozen file
+  hashes. Keep the locale incomplete until all reader-facing prose is in the
+  target language or a specific retained English term is documented as a
+  proper name, official source title, fixed identifier, command, or literal
+  value. A filename, `lastmod`, script ratio, or clean strict-checker result
+  alone never establishes translated coverage.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
 - When a script splits a Markdown file on `---`, validate the split parts before
@@ -91,11 +124,20 @@
   opening delimiter, part 1 is front matter, and part 2 is the body. Assert the
   front matter contains expected keys and validate the complete output in memory
   before writing any file.
+- Keep Markdown body line indexes relative to the body returned by the split.
+  Do not apply a body line number to the whole file, since front matter shifts
+  the target. Before a batch edit, assert each intended phrase occurs once and
+  inspect the rewritten lines before writing.
 - When inserting a missing source section into an existing translation, do not
   search for the English heading text as an insertion anchor. Locate the
   corresponding localized heading or a verified structural boundary in each
   locale, then compare the complete ordered heading sequence with English to
   confirm the section was inserted exactly once.
+- Before restoring a suspected missing sentence, align the source and translated
+  segments and check whether the meaning already appears in translated wording.
+  Do not use absence of one proposed translated sentence as proof that the source
+  meaning is missing. Insert only the omitted idea or qualifier, then review the
+  complete translated paragraph for repeated claims.
 - When restoring omitted content, compare ordered source and translation links,
   tables, and shortcode sequences before and after insertion. Reuse existing
   references; remove duplicated related-link tables or reference entries, then
@@ -159,6 +201,15 @@
   fixed identifiers when context supports them.
   Review each flag in context, then translate copied reader-facing prose before
   freezing the hash snapshot.
+  Treat every unexplained `English_reader_heading_copy` finding as an approval
+  blocker. An official English term does not make a descriptive heading
+  translated: localize the heading wording and retain the acronym or fixed
+  designation. Keep the full English expansion only where the initial
+  definition needs it, paired with its localized explanation. Record the exact
+  locale and disposition for every retained unchanged heading in the author
+  report, and require the peer reviewer to check those dispositions. A zero
+  `--fail-on-english-fallback` count does not clear heading findings because
+  that strict gate does not block them.
   Compare unchanged descriptive table cells directly with the source. The
   leakage checker queues copied descriptive cells, including common
   single-word labels, for manual review. Translate
@@ -233,7 +284,11 @@
   output such as a permission error or a required `PASS:` result.
   Inspect executable fences for reader-facing comments and natural-language
   strings as well. Translate comments and example text such as a commit subject
-  while preserving valid command syntax. Keep literal runtime output, identifiers,
+  while preserving valid command syntax. The checker covers Azure CLI
+  (`azurecli`/`azcli`) comments and common human-readable `Description`,
+  `Message`, `Title`, and similar assignments in executable fences. Its strict
+  gate blocks copied code prose with at least five words and English stopword
+  density of 0.16 or higher. Keep literal runtime output, identifiers,
   paths, and command names unchanged. The checker screens comments and common
   output calls in shell and PowerShell (`powershell`/`pwsh` fences), Python,
   JavaScript/TypeScript, C/C++, Java, C#, Go, Rust,
@@ -243,12 +298,21 @@
   and translate it while preserving the code structure. The checker screens
   docstrings in parseable Python fences. Treat an
   unchanged comment or example string as a manual-review flag, not as executable
-  syntax to ignore. Exempt
-  fixed diagnostics and identifier-only values from translation. Review any
-  output-string finding in context, preserve fixed runtime output, and record
+  syntax to ignore. Exempt fixed diagnostics and identifier-only values from
+  translation. Review output-string findings in context, preserve fixed runtime output, and record
   the reason when retaining English text the checker flags. Do not exempt generic
   status words such as `start`, `stop`, `ready`, or `done` automatically. Review
   those strings in context because they can serve as visible instructions or labels.
+  Manually inspect every human-readable value in an executable example, even
+  when the value is shorter than the strict gate threshold or uses an
+  unsupported file format. For example, translate a generic Packer
+  `image_description` value such as `My custom image` and any prose that repeats
+  it, while preserving valid JSON or HCL syntax. A passing strict scan does not
+  clear short reader-facing values.
+  When an example prompt names exact English words or sentences as its target,
+  keep those literal strings identical in every locale and translate the
+  surrounding instructions. Compare any quoted removal or matching rule with
+  the corresponding text in the example; preserve order and duplicate entries.
   An unlabeled code fence can still contain reader-facing labels or explanatory
   placeholders alongside literal data. The checker reports unchanged prose lines
   from unlabeled fences as `copied_unlabeled_fence_line`; translate those labels
@@ -308,10 +372,36 @@
   `copied_english_body` as a blocking exact-body fallback finding, even when
   translated front matter differs. Repair English-dominant short paragraphs;
   translated text elsewhere in the file does not make those paragraphs complete.
+  The strict gate also blocks a single exact English prose paragraph or long
+  reader-facing list item copied from the source. Run it on the temporary
+  candidate before integration and again on the frozen in-tree bundle. Do not
+  count code fences, tables, headings, shortcodes, linked list entries that
+  contain only names, or title-cased list entries as prose for this blocker;
+  review those through their dedicated findings.
   Treat each result as a manual-review queue. Inspect
   all reader-facing metadata and prose, resolve confirmed English copy, and
   record any false positives before peer review. Do not approve a bundle solely because the
   checker returns no flags.
+  In translated lists of linked products or organizations, translate connective
+  prose as well as surrounding sentences. In particular, do not leave the
+  English conjunctions `and` or `or` before the final Markdown link. The strict
+  fallback checker flags this pattern and CI blocks it. Keep official linked
+  names and destinations unchanged.
+  The `Translation English Fallback Check` workflow runs the high-confidence
+  fallback screen on article changes. Run the same gate locally with
+  `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
+  It blocks exact English-body copies, multiple copied English paragraphs,
+  English-dominant prose, missing expected scripts, copied reader-facing
+  openings and linked-list connectors, and English-heavy code comments or
+  sample values. In product comparisons, preserve product names but translate the
+  comparison wording such as `vs`; an English list of brands is not a localized
+  title. The broader checker
+  remains a manual-review gate for shorter copied passages, reader-facing
+  examples, headings, metadata, and false positives. The high-confidence gate
+  does not block exact copied titles, descriptions, image alt text, captions,
+  genres, or tags. Review those full-checker findings before approval. Translate
+  descriptive values. Keep exact source wording only for a verified official
+  name or fixed value, and record the reason.
   In CSV reports, review `copied_reader_fenced_lines`,
   `copied_unlabeled_fence_lines`, and `copied_reader_code_prose` separately from
   `exact_english_sentences`; fixed
@@ -353,8 +443,30 @@
 
 ## Commit and Integrate Reviewed Bundles
 
+- Before committing a locale bundle, stage its exact reviewed paths and run
+  `git diff --cached --check`. Fix extra blank lines at end of newly created
+  translation files before commit. Any edit after peer approval requires a new
+  frozen manifest and approval of that exact snapshot.
 - After a bundle passes its assigned peer review and coordinator validation,
   create one local commit containing only that article's translation files.
+- In a shared worktree, stage an explicit list of files for one bundle, then
+  inspect `git diff --cached --name-only` before committing. Confirm every staged
+  path belongs to that bundle and no checker, rule, test, or other article path
+  is staged. If another writer is using the shared index, ask them to pause Git
+  writes before staging. Do not amend a commit while another writer may have
+  staged files. If a commit has mixed scope, record its hash and exact path list,
+  then restore the prior commit while preserving all working files; create
+  separate commits only after validating each frozen scope.
+- Treat the staged-path check as time-sensitive: another writer can stage files
+  after the check and before `git commit`. Keep stage, scope check, and commit in
+  one serialized Git transaction. After any intervening Git activity or index
+  lock, recheck `HEAD` and the full staged path list. If other writers cannot
+  pause, defer the commit until they finish instead of risking a mixed bundle.
+- If a scoped commit uses a separate `GIT_INDEX_FILE`, record the shared staged
+  path list first. After commit, update only the committed bundle paths in the
+  shared index from the worktree with `git add -- <exact paths>`. Verify those
+  paths no longer appear in `git diff --cached --name-only` and confirm all
+  unrelated staged paths remain unchanged. Do not reset the whole shared index.
 - Merge each approved bundle into the existing local `master` or `main` checkout
   as soon as validation and worktree state allow. Preserve unrelated changes and
   avoid creating additional worktrees when an existing main checkout is usable.

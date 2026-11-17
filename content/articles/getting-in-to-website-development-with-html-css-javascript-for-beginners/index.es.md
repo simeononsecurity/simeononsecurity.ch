@@ -1,10 +1,11 @@
 ---
 title: "Guía para principiantes sobre desarrollo de sitios web: HTML, CSS y JavaScript"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda los fundamentos del desarrollo de sitios web, incluidos HTML, CSS y JavaScript, con esta guía para principiantes."
-tags: ["desarrollo web", "HTML", "CSS", "JavaScript", "codificación", "tutorial", "aprender", "principiante", "CodePen", "W3Schools", "buenas prácticas", "recursos", "freeCodeCamp", "Documentos web MDN", "Codecademy", "Udacity", "colaboración", "depuración", "proyectos"]
+tags: ["desarrollo web", "HTML", "CSS", "JavaScript", "codificación", "tutorial", "aprender", "principiante", "CodePen", "W3Schools", "buenas prácticas", "recursos", "freeCodeCamp", "MDN Web Docs", "Codecademy", "Udacity", "colaboración", "depuración", "proyectos"]
 cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Un desarrollador de dibujos animados sentado en un escritorio con un portátil, rodeado de diversos elementos HTML, CSS y JavaScript que flotan en el aire a su alrededor."
 coverCaption: ""
@@ -16,7 +17,7 @@ El desarrollo de sitios web es un campo lucrativo y de rápido crecimiento. Si q
 
 HTML es la base de todo sitio web. Son las siglas de Hypertext Markup Language (lenguaje de marcado de hipertexto) y se utiliza para crear la estructura de las páginas web. HTML utiliza etiquetas para definir los distintos elementos de una página web, como títulos, párrafos, imágenes, enlaces, etc.
 
-Para iniciarse en HTML, le recomendamos que visite [w3schools.com](https://www.w3schools.com/html/) which provides a comprehensive guide to HTML. You can also use [CodePen.io](https://codepen.io/) para practicar la escritura de HTML, CSS y JavaScript en un editor en tiempo real.
+Para iniciarse en HTML, le recomendamos [w3schools.com](https://www.w3schools.com/html/), que ofrece una guía completa de HTML. También puede usar [CodePen.io](https://codepen.io/) para practicar la escritura de HTML, CSS y JavaScript en un editor en tiempo real.
 
 ### Ejemplo básico de HTML
 
@@ -37,7 +38,7 @@ He aquí un ejemplo de un documento HTML simple:
 ## Estilo con CSS
 CSS (Cascading Style Sheets) se utiliza para añadir estilo y diseño a las páginas HTML. Con CSS se pueden añadir colores, fuentes, márgenes, bordes y mucho más a los elementos HTML. CSS permite a los desarrolladores web crear sitios web visualmente atractivos y con capacidad de respuesta.
 
-Para saber más sobre CSS, le recomendamos que visite [w3schools.com](https://www.w3schools.com/css) which provides a comprehensive guide to CSS. You can also use [CodePen.io](https://codepen.io/) para practicar la escritura de CSS y ver los resultados en tiempo real.
+Para saber más sobre CSS, le recomendamos [w3schools.com](https://www.w3schools.com/css), que ofrece una guía completa de CSS. También puede usar [CodePen.io](https://codepen.io/) para practicar la escritura de CSS y ver los resultados en tiempo real.
 
 ### Ejemplo básico de CSS
 Aquí tienes un ejemplo de cómo usar CSS para dar estilo a un documento HTML:
@@ -57,7 +58,7 @@ Este código cambiará el color y el tamaño de fuente de todos los elementos h1
 ## Añadir interactividad con JavaScript
 JavaScript es un lenguaje de programación que se puede utilizar para añadir interactividad y funcionalidad a los sitios web. JavaScript puede utilizarse para añadir animaciones, crear ventanas emergentes y validar formularios.
 
-Para saber más sobre JavaScript, le recomendamos que visite [w3schools.com](https://www.w3schools.com/js/) which provides a comprehensive guide to JavaScript. You can also use [CodePen.io](https://codepen.io/) para practicar la escritura de JavaScript y ver los resultados en tiempo real.
+Para saber más sobre JavaScript, le recomendamos [w3schools.com](https://www.w3schools.com/js/), que ofrece una guía completa de JavaScript. También puede usar [CodePen.io](https://codepen.io/) para practicar la escritura de JavaScript y ver los resultados en tiempo real.
 
 ### Ejemplo básico de JavaScript
 

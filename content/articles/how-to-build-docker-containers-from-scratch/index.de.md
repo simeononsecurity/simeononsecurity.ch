@@ -1,10 +1,11 @@
 ---
 title: "Effiziente und sichere Docker-Container bauen: Ein Leitfaden für Einsteiger"
 date: 2023-02-24
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie, wie Sie mithilfe von Best Practices, Tipps und Schritt-für-Schritt-Anleitungen effiziente und sichere Docker-Container erstellen können."
-tags: ["Docker", "Container", "Containerisierung", "devops", "Bereitstellung", "Tragbarkeit", "efficiency", "Sicherheit", "beste Praktiken", "Dockerdatei", "Basisbilder", "Umgebungsvariablen", "Volumenhalterungen", "Stammbenutzer", "aktuelle Bilder", "Software-Entwicklung", "Container-Bilder", "Docker-Hub", "Container-Orchestrierung", "Kubernetes"]
+tags: ["Docker", "Container", "Containerisierung", "devops", "Bereitstellung", "Tragbarkeit", "Effizienz", "Sicherheit", "beste Praktiken", "Dockerdatei", "Basisbilder", "Umgebungsvariablen", "Volumenhalterungen", "Stammbenutzer", "aktuelle Bilder", "Software-Entwicklung", "Container-Bilder", "Docker-Hub", "Container-Orchestrierung", "Kubernetes"]
 cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Ein animiertes 3D-Bild eines sicheren, gut organisierten Containers mit dem Docker-Logo darauf, umgeben von verschiedenen Werkzeugen und Geräten aus den Bereichen Software-Engineering und DevOps."
 coverCaption: ""
@@ -214,11 +215,11 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Einige nützliche Abschnitte der Docker-Dokumentation umfassen:
 
-- [Get started with Docker](https://docs.docker.com/get-started/)
-- [Docker CLI reference](https://docs.docker.com/engine/reference/commandline/cli/)
-- [Docker API reference](https://docs.docker.com/engine/api/v1.41/)
-- [Docker-compose reference](https://docs.docker.com/compose/compose-file/)
-- [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Mit Docker starten](https://docs.docker.com/get-started/)
+- [Docker-CLI-Referenz](https://docs.docker.com/engine/reference/commandline/cli/)
+- [Docker-API-Referenz](https://docs.docker.com/engine/api/v1.41/)
+- [Docker-Compose-Referenz](https://docs.docker.com/compose/compose-file/)
+- [Dockerfile-Referenz](https://docs.docker.com/engine/reference/builder/)
 
 Die Docker-Dokumentation ist eine großartige Ressource, um die Verwendung von Docker zu erlernen und Probleme zu beheben, auf die Sie stoßen könnten.
 
@@ -227,9 +228,9 @@ Die Docker-Dokumentation ist eine großartige Ressource, um die Verwendung von D
 
 Einige nützliche Funktionen von Docker Hub sind:
 
-- [Search for Docker images](https://hub.docker.com/search?type=image)
-- [Store and manage Docker images in repositories](https://hub.docker.com/repositories)
-- [Automate builds and testing with Docker Hub workflows](https://docs.docker.com/docker-hub/builds/)
+- [Docker-Images suchen](https://hub.docker.com/search?type=image)
+- [Docker-Images in Repositories speichern und verwalten](https://hub.docker.com/repositories)
+- [Builds und Tests mit Docker-Hub-Workflows automatisieren](https://docs.docker.com/docker-hub/builds/)
 
 Docker Hub ist ein unverzichtbares Tool für die Arbeit mit Docker und kann Ihnen viel Zeit und Mühe bei der Verwaltung und Freigabe von Docker-Images ersparen.
 

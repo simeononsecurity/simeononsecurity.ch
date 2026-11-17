@@ -1,10 +1,11 @@
 ---
 title: "DevSecOps: Abordarea provocărilor și valorificarea oportunităților."
 date: 2023-04-15
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Acest articol explorează provocările și oportunitățile DevSecOps în organizații, inclusiv o mai bună colaborare, o mai bună scalabilitate, integrarea cu reglementările guvernamentale și multe altele."
-tags: ["DevSecOps", "securitatea informațiilor", "teste de securitate", "metodologii agile", "colaborare", "reglementări guvernamentale", "automatizare", "dezvoltarea aplicațiilor", "scalabilitate", "monitorizare continuă", "Orientările NIST", "bucle de feedback", "modularitate", "vulnerabilități", "asigurarea calității", "securitate cibernetică", "Infrastructura IT", "instrumente de dezvoltare software", "gestionarea riscurilor"]
+tags: ["DevSecOps", "securitatea informațiilor", "teste de securitate", "metodologii agile", "colaborare", "reglementări guvernamentale", "automatizare", "dezvoltarea aplicațiilor", "scalabilitate", "monitorizare continuă", "orientările NIST", "bucle de feedback", "modularitate", "vulnerabilități", "asigurarea calității", "securitate cibernetică", "infrastructură IT", "instrumente de dezvoltare software", "gestionarea riscurilor"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "Un grup de oameni care se țin de mână pe un vârf, cu piese de puzzle care se potrivesc în prim-plan."
 coverCaption: ""

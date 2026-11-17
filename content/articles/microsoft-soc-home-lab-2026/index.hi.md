@@ -1,88 +1,88 @@
 ---
-title: "Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026"
+title: "Microsoft SOC होम लैब: 2026 में साइबर सुरक्षा का अनुभव बनाएँ"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence."
-genre: ["Cybersecurity", "Cloud Security", "Career Development"]
-tags: ["SOC home lab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure home lab", "cybersecurity experience", "SOC analyst", "security operations center", "incident response", "KQL", "Log Analytics", "Conditional Access", "phishing-resistant MFA", "passkeys", "identity security", "cybersecurity portfolio", "cloud cost management", "endpoint security"]
+description: "Sentinel, Defender, Intune और Entra के साथ Microsoft SOC लैब बनाएँ। घटनाओं की जाँच करें, passkey नीतियाँ परखें और पोर्टफोलियो के लिए सबूत दर्ज करें।"
+genre: ["साइबर सुरक्षा", "क्लाउड सुरक्षा", "करियर विकास"]
+tags: ["SOC होम लैब", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure होम लैब", "साइबर सुरक्षा अनुभव", "SOC विश्लेषक", "सुरक्षा संचालन केंद्र", "घटना प्रतिक्रिया", "KQL", "Log Analytics", "Conditional Access", "फिशिंग-प्रतिरोधी MFA", "passkeys", "पहचान सुरक्षा", "साइबर सुरक्षा पोर्टफोलियो", "क्लाउड लागत प्रबंधन", "endpoint सुरक्षा"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
-coverAlt: "A laptop showing security incident timelines on a home desk beneath a cloud containing servers and endpoints."
+coverAlt: "लैपटॉप घर की मेज़ पर सुरक्षा घटना की समयरेखाएँ दिखाता है, ऊपर बादल में सर्वर और endpoints हैं।"
 coverCaption: ""
 ---
 
-A **security operations center (SOC) home lab** gives you a place to investigate alerts, explain evidence, and test defensive changes. Build a small Microsoft environment, collect its telemetry, and write up each investigation. The useful result is a repeatable investigation with supporting evidence.
+**घर पर SOC लैब** अलर्ट की जाँच, सबूत समझाने और सुरक्षा बदलावों का परीक्षण करने की जगह देता है। एक छोटा Microsoft वातावरण बनाएँ, उसकी टेलीमेट्री जुटाएँ और हर जाँच का रिकॉर्ड रखें। उपयोगी नतीजा सबूतों से समर्थित और दोहराई जा सकने वाली जाँच है।
 
-This guide develops the lab approach described in Mad Hat's cybersecurity career video and supplied Cyber Range runbook. It uses Microsoft documentation for product requirements and separates setup, detection, and validation into measurable tasks.
+यह मार्गदर्शिका Mad Hat के साइबर सुरक्षा करियर वीडियो और दिए गए Cyber Range रनबुक में वर्णित लैब तरीके को आगे बढ़ाती है। उत्पाद आवश्यकताओं के लिए Microsoft दस्तावेज़ों का उपयोग करती है और सेटअप, पहचान तथा सत्यापन को मापने योग्य कार्यों में बाँटती है।
 
 ## मुख्य बातें
 
-- **Start small:** one managed Windows client and one test identity support the first exercises.
-- **Verify telemetry:** a visible device or connected portal does not prove logs are arriving.
-- **Complete the investigation:** record the trigger, evidence, response, and retest.
-- **Control spending:** track licenses, retained data, networking, and compute separately.
-- **Describe experience accurately:** list the environment as a lab project on your resume.
+- **छोटे स्तर से शुरू करें:** पहली कसरतों के लिए एक प्रबंधित Windows क्लाइंट और एक परीक्षण पहचान पर्याप्त हैं।
+- **टेलीमेट्री जाँचें:** डिवाइस दिखना या पोर्टल जुड़ना लॉग आने का प्रमाण नहीं है।
+- **जाँच पूरी करें:** ट्रिगर, सबूत, प्रतिक्रिया और दोबारा परीक्षण दर्ज करें।
+- **खर्च नियंत्रित रखें:** लाइसेंस, डेटा प्रतिधारण, नेटवर्क और कंप्यूट को अलग-अलग देखें।
+- **अनुभव सही ढंग से बताएँ:** अपने रिज़्यूमे में इसे लैब परियोजना के रूप में लिखें।
 
 ## शुरू करने से पहले
 
-**Prerequisites:** basic Windows administration, networking, and familiarity with virtual machines. Use a dedicated Microsoft Entra tenant and an Azure subscription reserved for the lab. Keep production identities, personal files, and employer systems outside the exercise.
+**पूर्वापेक्षाएँ:** Windows प्रशासन और नेटवर्किंग की बुनियादी समझ तथा वर्चुअल मशीनों से परिचय। लैब के लिए अलग Microsoft Entra tenant और Azure सदस्यता रखें। उत्पादन पहचान, निजी फ़ाइलें और नियोक्ता के सिस्टम इस अभ्यास से बाहर रखें।
 
-**Estimated effort:** allow a weekend for the initial setup, followed by focused investigation sessions. This is a planning estimate. Trial approval, quota availability, and service provisioning affect elapsed time. **Difficulty:** intermediate.
+**अनुमानित समय:** शुरुआती सेटअप के लिए एक सप्ताहांत रखें, फिर लक्षित जाँच सत्र करें। यह योजना का अनुमान है। परीक्षण स्वीकृति, कोटा और सेवा उपलब्धता वास्तविक समय बदल सकते हैं। **कठिनाई:** मध्यम।
 
-Prepare a separate administrative account and an unprivileged test user. Before testing access policies, establish and verify emergency access. Assign privileges for each setup task, then use a lower-privilege account for routine investigation.
+एक अलग प्रशासक खाता और बिना विशेषाधिकार वाला परीक्षण उपयोगकर्ता बनाएँ। पहुँच नीतियाँ जाँचने से पहले आपातकालीन पहुँच स्थापित करके सत्यापित करें। हर सेटअप कार्य के लिए आवश्यक अधिकार दें, फिर सामान्य जाँच के लिए कम अधिकार वाला खाता उपयोग करें।
 
-| Component | Lab purpose |
+| घटक | लैब में उपयोग |
 |---|---|
-| **Sentinel** | Security information and event management, or SIEM, for connected log sources |
-| **Defender XDR** | Correlation and investigation across licensed Microsoft security services |
-| **Defender for Endpoint** | Endpoint detection and response, or EDR, on onboarded devices |
-| **Intune** | Device enrollment and endpoint security policy management |
-| **Entra ID** | Identity, sign-in records, and access policy evaluation |
-| **Defender for Servers** | Server protection through Defender for Cloud |
+| **Sentinel** | जुड़े लॉग स्रोतों के लिए सुरक्षा जानकारी और घटना प्रबंधन (SIEM) |
+| **Defender XDR** | लाइसेंस प्राप्त Microsoft सुरक्षा सेवाओं में सहसंबंध और जाँच |
+| **Defender for Endpoint** | शामिल किए गए डिवाइस पर endpoint पहचान और प्रतिक्रिया |
+| **Intune** | डिवाइस नामांकन और endpoint सुरक्षा नीति प्रबंधन |
+| **Entra ID** | पहचान, साइन-इन रिकॉर्ड और पहुँच नीति मूल्यांकन |
+| **Defender for Servers** | Defender for Cloud के माध्यम से सर्वर सुरक्षा |
 
-## Check Licenses First
+## पहले लाइसेंस जाँचें
 
-**Microsoft 365 E5** is one route to a broad lab, but access depends on the service plans and licenses assigned to the participating users. Office 365 E5 and Microsoft 365 E5 are different bundles. A single administrator's license does not establish coverage for every test user or workload. Review the [Defender XDR prerequisites](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) before selecting a subscription.
+**Microsoft 365 E5** व्यापक लैब का एक विकल्प है, पर पहुँच भाग लेने वाले उपयोगकर्ताओं को दिए गए सेवा प्लान और लाइसेंस पर निर्भर करती है। Office 365 E5 और Microsoft 365 E5 अलग पैकेज हैं। एक प्रशासक का लाइसेंस हर परीक्षण उपयोगकर्ता या कार्यभार की कवरेज साबित नहीं करता। सदस्यता चुनने से पहले [Defender XDR की पूर्वापेक्षाएँ](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) देखें।
 
-**Sentinel in the Defender portal** works without E5 or Defender XDR. Adding XDR introduces its own licensing and configuration requirements. An empty incident view is not evidence of missing E5 licensing. Microsoft's [Sentinel onboarding documentation](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explains both configurations.
+**Defender पोर्टल में Sentinel** E5 या Defender XDR के बिना काम करता है। XDR जोड़ने पर अलग लाइसेंस और कॉन्फ़िगरेशन आवश्यकताएँ आती हैं। खाली incident दृश्य E5 लाइसेंस की कमी का प्रमाण नहीं है। [Sentinel onboarding दस्तावेज़](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) दोनों कॉन्फ़िगरेशन समझाता है।
 
-**Server protection** has a separate licensing path. Defender for Servers integrates with Defender for Endpoint for supported server workloads. Windows client operating systems need appropriate client coverage. Do not treat every Azure VM as an automatically licensed server. See Microsoft's [Defender for Endpoint integration documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**सर्वर सुरक्षा** का लाइसेंस मार्ग अलग है। समर्थित सर्वर कार्यभार के लिए Defender for Servers, Defender for Endpoint के साथ एकीकृत होता है। Windows क्लाइंट ऑपरेटिंग सिस्टम को उचित क्लाइंट कवरेज चाहिए। यह न मानें कि हर Azure VM को अपने-आप सर्वर लाइसेंस मिला है। [Defender for Endpoint एकीकरण दस्तावेज़](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint) देखें।
 
-**Trial planning:** confirm eligibility, expiration, renewal settings, and included services in your own account. Avoid budgeting around a promised trial duration or a fixed monthly total from a video.
+**परीक्षण योजना:** अपने खाते में पात्रता, समाप्ति, नवीनीकरण और शामिल सेवाएँ जाँचें। वीडियो में कही गई निश्चित परीक्षण अवधि या मासिक लागत पर बजट न बनाएँ।
 
-## Set a Spending Plan
+## खर्च की योजना बनाएँ
 
-**Azure budgets** send notifications. They do not stop consumption when you reach a threshold. Cost reporting also has a delay. Create alerts early and review spending after each session, following Microsoft's [budget setup guide](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+**Azure बजट** सूचनाएँ भेजते हैं। सीमा पहुँचने पर वे खर्च रोकते नहीं। लागत रिपोर्ट भी देर से आती है। जल्दी अलर्ट बनाएँ और हर सत्र के बाद Microsoft की [बजट बनाने की मार्गदर्शिका](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets) से खर्च देखें।
 
-| Cost category | Planning question |
+| खर्च श्रेणी | योजना संबंधी प्रश्न |
 |---|---|
-| **User licenses** | Which users need which service plans, and when do trials expire? |
-| **Compute** | How many VM hours will each exercise require? |
-| **Storage** | Which disks and snapshots remain after shutdown? |
-| **Log collection** | Which tables need ingestion and how long should data remain? |
-| **Networking** | Does the design include paid Bastion, public IPs, or outbound services? |
-| **Server protection** | Which workloads have a paid Defender plan enabled? |
+| **उपयोगकर्ता लाइसेंस** | किन उपयोगकर्ताओं को कौन-से सेवा प्लान चाहिए और परीक्षण कब समाप्त होंगे? |
+| **कंप्यूट** | हर अभ्यास में कितने VM घंटे लगेंगे? |
+| **स्टोरेज** | बंद करने के बाद कौन-सी डिस्क और snapshots बचेंगी? |
+| **लॉग संग्रह** | किन तालिकाओं में डेटा लेना है और उसे कितने समय रखना है? |
+| **नेटवर्क** | क्या डिज़ाइन में भुगतान वाला Bastion, सार्वजनिक IP या बाहर जाने वाली सेवाएँ हैं? |
+| **सर्वर सुरक्षा** | किन कार्यभारों पर भुगतान वाला Defender प्लान सक्रिय है? |
 
-**Design choice:** begin with one client. Add a server when an exercise needs server telemetry. Four clients and several servers add administration and cost before they add useful investigation practice.
+**डिज़ाइन निर्णय:** एक क्लाइंट से शुरू करें। सर्वर टेलीमेट्री की ज़रूरत वाले अभ्यास पर ही सर्वर जोड़ें। चार क्लाइंट और कई सर्वर उपयोगी जाँच अभ्यास से पहले प्रशासन और खर्च बढ़ाते हैं।
 
-## Build the Network
+## नेटवर्क बनाएँ
 
-**Suggested layout:** put Azure resources in a clearly named group such as **`rg-soc-lab`**. Use separate client and server subnets, explicit network security group rules, and private management access. Subnet separation alone does not block traffic between workloads.
+**सुझाया गया विन्यास:** Azure संसाधनों को स्पष्ट नाम वाले समूह में रखें, जैसे **`rg-soc-lab`**। क्लाइंट और सर्वर के लिए अलग subnet, स्पष्ट network security group नियम और निजी प्रशासन पहुँच रखें। केवल subnet अलग करने से कार्यभारों के बीच ट्रैफ़िक नहीं रुकता।
 
-For a dedicated **Azure Bastion** deployment, follow the SKU requirements, including the reserved **`AzureBastionSubnet`** name and a **`/26`** or larger subnet for current deployments. Developer SKU uses a different deployment model. Review [Bastion configuration settings](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) before choosing a design.
+समर्पित **Azure Bastion** तैनाती के लिए SKU आवश्यकताएँ अपनाएँ। इनमें आरक्षित नाम **`AzureBastionSubnet`** और मौजूदा तैनाती के लिए **`/26`** या बड़ा subnet शामिल है। Developer SKU का तैनाती मॉडल अलग है। डिज़ाइन चुनने से पहले [Bastion कॉन्फ़िगरेशन सेटिंग्स](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) देखें।
 
-Keep RDP and SSH closed to the public internet. Restrict management traffic to the selected management path. Allow the outbound service connectivity needed for enrollment and security telemetry.
+RDP और SSH को सार्वजनिक इंटरनेट से बंद रखें। प्रशासनिक ट्रैफ़िक चुने हुए मार्ग तक सीमित करें। नामांकन और सुरक्षा टेलीमेट्री के लिए आवश्यक outbound कनेक्शन की अनुमति दें।
 
-**Validation:** establish private management access and verify effective network rules before installing workloads. If you add a deliberately vulnerable application later, keep it inside the exercise network and restrict access to the test machines.
+**सत्यापन:** कार्यभार स्थापित करने से पहले निजी प्रशासन पहुँच बनाएँ और प्रभावी नेटवर्क नियम जाँचें। बाद में जानबूझकर कमजोर ऐप जोड़ें तो उसे अभ्यास नेटवर्क में रखें और परीक्षण मशीनों तक पहुँच सीमित करें।
 
-## Connect Sentinel and Logs
+## Sentinel और लॉग जोड़ें
 
-**Portal setup:** create a Log Analytics workspace and enable Sentinel on it. If the workspace is absent from the Defender portal, open **System > Settings > Microsoft Sentinel > Connect a workspace**. Verify the tenant and required Azure and Entra roles against the [onboarding prerequisites](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**पोर्टल सेटअप:** Log Analytics workspace बनाएँ और उसमें Sentinel चालू करें। Defender पोर्टल में workspace न हो तो **System > Settings > Microsoft Sentinel > Connect a workspace** खोलें। [Onboarding पूर्वापेक्षाओं](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) के अनुसार tenant और Azure तथा Entra भूमिकाएँ जाँचें।
 
-**Log collection is a separate step.** In Entra, configure diagnostic settings to send the required activity categories to the same workspace. Start with interactive sign-ins and audit events. Microsoft's [Entra log integration guide](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) covers the permissions and destination setup.
+**लॉग संग्रह अलग चरण है।** Entra में diagnostic settings को इस तरह बनाएँ कि ज़रूरी गतिविधि श्रेणियाँ उसी workspace में भेजी जाएँ। इंटरैक्टिव साइन-इन और audit घटनाओं से शुरू करें। [Entra लॉग एकीकरण मार्गदर्शिका](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) अनुमतियाँ और destination समझाती है।
 
-The current Sentinel workflow also supports connection through the Microsoft Defender portal. Confirm the workspace is the intended primary workspace, the tenant matches the test identities, and the account has the required roles before troubleshooting an empty table. Portal visibility alone does not prove ingestion. [Sentinel onboarding in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+वर्तमान Sentinel प्रक्रिया Microsoft Defender पोर्टल से कनेक्शन भी समर्थित करती है। खाली तालिका की जाँच से पहले पुष्टि करें कि सही primary workspace, परीक्षण पहचान वाला tenant और आवश्यक भूमिकाओं वाला खाता उपयोग हो रहा है। पोर्टल में दिखना डेटा ingest होने का प्रमाण नहीं है। [Defender पोर्टल में Sentinel onboarding](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -93,107 +93,107 @@ SigninLogs
 | order by TimeGenerated desc
 ```
 
-Run this **Kusto Query Language (KQL)** example in the workspace's Logs view after generating a fresh test sign-in. Replace the sample user principal name with your lab user. The columns follow the [SigninLogs table schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
+नया परीक्षण साइन-इन बनाने के बाद workspace की Logs दृश्य में **Kusto Query Language (KQL)** का यह उदाहरण चलाएँ। नमूना UPN को अपने लैब उपयोगकर्ता से बदलें। कॉलम [SigninLogs तालिका schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs) के अनुरूप हैं।
 
-**Expected result:** a row matching the test account and sign-in time. No rows means you need to check the time range, identity, collection settings, destination, and ingestion delay. A missing table points to a collection or workspace issue before it points to a detection issue.
+**अपेक्षित नतीजा:** परीक्षण खाते और साइन-इन समय से मेल खाती एक पंक्ति। पंक्ति न हो तो समय अवधि, पहचान, संग्रह सेटिंग, destination और ingest विलंब जाँचें। तालिका न हो तो पहले संग्रह या workspace की समस्या देखें, फिर detection की।
 
-## Onboard the First Endpoint
+## पहला endpoint शामिल करें
 
-**Intune enrollment and EDR onboarding** are separate checkpoints. Connect Intune and Defender for Endpoint, enroll a supported Windows client, then assign an endpoint detection and response onboarding policy to its lab group. Entra registration alone does not establish either checkpoint.
+**Intune नामांकन और EDR onboarding** अलग जाँच बिंदु हैं। Intune और Defender for Endpoint जोड़ें, समर्थित Windows क्लाइंट नामांकित करें और उसके लैब समूह पर EDR onboarding नीति लागू करें। केवल Entra पंजीकरण इनमें से किसी बिंदु की पुष्टि नहीं करता।
 
-In Intune, check **Endpoint security > Defender for Endpoint**. If the connection is unavailable, enable the Intune connection in Defender's endpoint advanced features. Follow the platform-specific steps in Microsoft's [Intune and Defender integration guide](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+Intune में **Endpoint security > Defender for Endpoint** जाँचें। कनेक्शन उपलब्ध न हो तो Defender की endpoint advanced features में Intune कनेक्शन चालू करें। [Intune और Defender एकीकरण मार्गदर्शिका](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration) में प्लेटफ़ॉर्म के चरण अपनाएँ।
 
-| Checkpoint | Evidence to capture |
+| जाँच बिंदु | दर्ज करने योग्य सबूत |
 |---|---|
-| **Enrollment** | Client appears in Intune with a recent check-in |
-| **Policy assignment** | Onboarding policy applies to the intended device group |
-| **Sensor reporting** | Defender shows onboarded status and recent telemetry |
-| **Detection test** | A documented test produces the expected security signal |
+| **नामांकन** | क्लाइंट हाल की check-in के साथ Intune में दिखता है |
+| **नीति असाइनमेंट** | Onboarding नीति अपेक्षित डिवाइस समूह पर लागू होती है |
+| **Sensor रिपोर्टिंग** | Defender onboarding स्थिति और हाल की टेलीमेट्री दिखाता है |
+| **Detection परीक्षण** | दर्ज किया गया परीक्षण अपेक्षित सुरक्षा संकेत पैदा करता है |
 
-**For servers**, enable the chosen Defender for Servers plan and its endpoint integration, then verify sensor deployment and reporting. Defender for Cloud also discovers machines before onboarding completes. Inventory presence alone is insufficient, as Microsoft explains in its [resource discovery and onboarding guidance](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**सर्वर के लिए**, चुना हुआ Defender for Servers प्लान और endpoint एकीकरण चालू करें, फिर sensor तैनाती और रिपोर्टिंग जाँचें। Defender for Cloud onboarding पूरा होने से पहले भी मशीनें खोजता है। Inventory में दिखना पर्याप्त नहीं है, जैसा [resource discovery और onboarding मार्गदर्शन](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint) बताता है।
 
-## Investigate a Test Alert
+## परीक्षण अलर्ट की जाँच करें
 
-**Start with Microsoft's documented EDR detection test** on the lab endpoint. Follow the [current test instructions](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), including platform prerequisites and troubleshooting. Record the execution time before opening the alert queue.
+लैब endpoint पर **Microsoft द्वारा दर्ज EDR detection परीक्षण** से शुरू करें। [मौजूदा परीक्षण निर्देश](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection) अपनाएँ, जिनमें प्लेटफ़ॉर्म पूर्वापेक्षाएँ और समस्या समाधान शामिल हैं। Alert queue खोलने से पहले परीक्षण समय लिखें।
 
-Treat the resulting alert as an investigation exercise. A security product's title gives you a starting point. Your job is to establish what happened and support the disposition with evidence.
+मिले अलर्ट को जाँच अभ्यास मानें। उत्पाद का शीर्षक केवल शुरुआती संकेत है। आपका काम घटना का पता लगाना और निर्णय को सबूत से समर्थन देना है।
 
-1. **Triage:** identify the alert source, device, account, and event time.
-2. **Inspect:** review the process tree, command line, file details, and network activity available for the event.
-3. **Scope:** search for related activity on the test identity and other lab devices.
-4. **Assess:** explain whether the evidence matches the planned exercise or an unrelated event.
-5. **Respond:** document the selected response, its impact, and the recovery steps. Perform supported containment only when the exercise requires it.
-6. **Retest:** repeat the relevant test after changing a control and compare the evidence.
+1. **छँटाई:** अलर्ट स्रोत, डिवाइस, खाता और घटना समय पहचानें।
+2. **निरीक्षण:** process tree, command line, फ़ाइल विवरण और उपलब्ध नेटवर्क गतिविधि देखें।
+3. **दायरा:** परीक्षण पहचान और अन्य लैब डिवाइसों पर संबंधित गतिविधि खोजें।
+4. **मूल्यांकन:** बताएँ कि सबूत नियोजित अभ्यास से मेल खाते हैं या किसी दूसरी घटना से।
+5. **प्रतिक्रिया:** चुनी प्रतिक्रिया, प्रभाव और पुनर्प्राप्ति चरण दर्ज करें। समर्थित containment तभी करें जब अभ्यास में आवश्यक हो।
+6. **दोबारा परीक्षण:** नियंत्रण बदलने के बाद संबंधित परीक्षण दोहराएँ और सबूतों की तुलना करें।
 
-**Do not manufacture missing results.** If the alert fails to arrive, preserve the execution record and troubleshoot collection. If a control blocks the test before the expected event, document the prevention result.
+**गायब नतीजे न गढ़ें।** अलर्ट न आए तो निष्पादन रिकॉर्ड रखें और संग्रह समस्या जाँचें। नियंत्रण अपेक्षित घटना से पहले परीक्षण रोक दे तो prevention नतीजा दर्ज करें।
 
-## Test Identity Controls
+## पहचान नियंत्रण जाँचें
 
-**Adversary-in-the-middle (AiTM) phishing** places an attacker-controlled intermediary in a sign-in flow. The supplied runbook uses this scenario to motivate stronger authentication. For the first identity exercise, test policy behavior directly with your own unprivileged account.
+**Adversary-in-the-middle (AiTM) phishing** साइन-इन प्रक्रिया में हमलावर के नियंत्रण वाला मध्यस्थ रखता है। दिया गया runbook मजबूत authentication के लिए इस परिदृश्य का उपयोग करता है। पहला identity अभ्यास अपने कम-अधिकार खाते से सीधे नीति व्यवहार जाँचकर करें।
 
-Begin by recording a legitimate sign-in and its authentication details. Review Microsoft's [Entra risk detection reference](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) before interpreting risk signals. Detection prerequisites and processing differ by signal. A new IP address or a failed sign-in does not guarantee an AiTM alert.
+पहले वैध साइन-इन और authentication विवरण दर्ज करें। जोखिम संकेतों की व्याख्या से पहले Microsoft की [Entra जोखिम पहचान संदर्भ](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) पढ़ें। हर संकेत की पूर्वापेक्षाएँ और processing अलग होती हैं। नया IP पता या असफल साइन-इन AiTM अलर्ट की गारंटी नहीं देता।
 
-**Passkeys (FIDO2)** use credentials bound to the legitimate service rather than reusable codes entered into a relayed login page. Enable an appropriate passkey profile for the pilot group and register the method before enforcing a policy. Follow Microsoft's [passkey configuration guide](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) for supported authenticators and restrictions.
+**Passkeys (FIDO2)** असली सेवा से जुड़ी credentials उपयोग करती हैं, न कि आगे भेजे गए लॉगिन पेज में डाले जाने वाले दोबारा उपयोग योग्य कोड। Pilot समूह के लिए सही passkey profile चालू करें और नीति लागू करने से पहले तरीका पंजीकृत करें। समर्थित authenticators और सीमाओं के लिए [Microsoft passkey कॉन्फ़िगरेशन मार्गदर्शिका](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) देखें।
 
-**Conditional Access exercise:** create a policy targeting only the lab pilot group, exclude emergency access accounts, and select **Require authentication strength > Phishing-resistant MFA strength**. Start in **Report-only**, review its impact, then enable it. This adapts Microsoft's [administrator policy example](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) to a narrow test group.
+**Conditional Access अभ्यास:** केवल लैब pilot समूह को लक्षित करने वाली नीति बनाएँ, आपातकालीन पहुँच खातों को बाहर रखें और **Require authentication strength > Phishing-resistant MFA strength** चुनें। पहले **Report-only** चलाएँ, प्रभाव देखें, फिर नीति सक्षम करें। [Microsoft का प्रशासक नीति उदाहरण](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) छोटे परीक्षण समूह के अनुसार ढालें।
 
-| Test | Evidence to collect |
+| परीक्षण | एकत्र करने योग्य सबूत |
 |---|---|
-| **Report-only policy** | Sign-in record showing how the proposed policy evaluates |
-| **Enforced policy, weaker method** | Fresh authentication requires a stronger method before access |
-| **Enforced policy, registered passkey** | Successful sign-in satisfying the required strength |
+| **Report-only नीति** | प्रस्तावित नीति का मूल्यांकन दिखाने वाला साइन-इन रिकॉर्ड |
+| **लागू नीति, कमजोर तरीका** | नई authentication पहुँच देने से पहले मजबूत तरीका माँगती है |
+| **लागू नीति, पंजीकृत passkey** | आवश्यक स्तर पूरा करने वाला सफल साइन-इन |
 
-Use fresh authentication for each comparison and inspect the policy details. Existing sessions complicate comparisons. **Scope of proof:** this exercise validates the authentication requirement. It does not demonstrate universal protection against endpoint compromise or theft of an existing session.
+हर तुलना के लिए नया authentication करें और नीति विवरण देखें। मौजूदा सत्र तुलना कठिन बनाते हैं। **सबूत का दायरा:** यह अभ्यास authentication आवश्यकता जाँचता है। यह endpoint compromise या मौजूदा सत्र की चोरी से सार्वभौमिक सुरक्षा सिद्ध नहीं करता।
 
-## Write Portfolio Evidence
+## पोर्टफोलियो के लिए सबूत लिखें
 
-**A useful portfolio entry** explains a decision another analyst is able to review. Include a short architecture description, the collection prerequisites, the event timeline, and the reasoning behind your response.
+**उपयोगी पोर्टफोलियो प्रविष्टि** निर्णय को इस तरह समझाती है कि दूसरा विश्लेषक उसका मूल्यांकन कर सके। संक्षिप्त architecture विवरण, संग्रह पूर्वापेक्षाएँ, घटना समयरेखा और प्रतिक्रिया का तर्क जोड़ें।
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+अभ्यास:
+तारीख और UTC समयावधि:
+लैब का दायरा और पूर्वापेक्षाएँ:
+ट्रिगर और अपेक्षित संकेत:
+देखा गया अलर्ट या रोकथाम:
+सबूत और क्वेरी:
+प्रभावित पहचान और डिवाइस:
+निष्कर्ष और तर्क:
+प्रतिक्रिया और बहाली:
+नियंत्रण में बदलाव और दोबारा परीक्षण:
+सीमाएँ और आगे की कार्रवाई:
 ```
 
-Replace every field with your own observations. **Sanitize exports:** remove credentials, session material, personal information, and unnecessary identifiers before publishing screenshots or query results.
+हर फ़ील्ड को अपनी टिप्पणियों से बदलें। **Export साफ़ करें:** स्क्रीनशॉट या query नतीजे प्रकाशित करने से पहले credentials, session सामग्री, निजी जानकारी और अनावश्यक पहचान हटाएँ।
 
-**Resume example:** "Built a Microsoft security lab, connected identity logs to Sentinel, investigated endpoint test alerts, and documented Conditional Access validation." Use this wording only after completing those tasks. Put it under projects or practical training with the actual dates and scope.
+**रिज़्यूमे उदाहरण:** “Microsoft सुरक्षा लैब बनाया, पहचान लॉग Sentinel से जोड़े, endpoint परीक्षण अलर्ट की जाँच की और Conditional Access सत्यापन दर्ज किया।” ये कार्य पूरे करने के बाद ही यह पंक्ति उपयोग करें। वास्तविक तिथियों और दायरे के साथ इसे projects या practical training के नीचे रखें।
 
-A lab demonstrates independent practice. **Production SOC work** also involves business impact, escalation, service commitments, and coordination with other teams. Explain which parts you practiced and which remain outside your experience.
+लैब स्वतंत्र अभ्यास दिखाती है। **Production SOC का काम** व्यावसायिक प्रभाव, escalation, सेवा प्रतिबद्धताएँ और दूसरी टीमों के साथ तालमेल भी माँगता है। बताएँ कि आपने किन हिस्सों का अभ्यास किया और कौन-से आपके अनुभव से बाहर हैं।
 
-## Troubleshooting
+## समस्या समाधान
 
-| Symptom | First check |
+| लक्षण | पहली जाँच |
 |---|---|
-| **Workspace absent from Defender** | Same tenant, Sentinel enabled, and onboarding role requirements |
-| **SigninLogs absent or empty** | Diagnostic categories, destination workspace, fresh events, and time range |
-| **Client absent from Intune** | Enrollment prerequisites and enrollment status |
-| **Device visible without telemetry** | Actual onboarding state, sensor health, and outbound connectivity |
-| **Onboarding policy unapplied** | Assignment scope, device platform, and recent check-in |
-| **No identity risk alert** | Signal prerequisites and recorded activity, without assuming deterministic detection |
-| **Unexpected access allowed** | Report-only status, exclusions, resource scope, and existing session |
-| **Charges after shutdown** | Allocation state and resources billed independently of compute |
+| **Defender में workspace नहीं** | वही tenant, Sentinel चालू और आवश्यक onboarding भूमिकाएँ |
+| **SigninLogs गायब या खाली** | Diagnostic श्रेणियाँ, destination workspace, नई घटनाएँ और समयावधि |
+| **Intune में क्लाइंट नहीं** | नामांकन पूर्वापेक्षाएँ और स्थिति |
+| **डिवाइस दिखे, टेलीमेट्री न हो** | वास्तविक onboarding स्थिति, sensor स्वास्थ्य और outbound कनेक्टिविटी |
+| **Onboarding नीति लागू नहीं** | असाइनमेंट दायरा, डिवाइस प्लेटफ़ॉर्म और हाल की check-in |
+| **पहचान जोखिम अलर्ट नहीं** | संकेत पूर्वापेक्षाएँ और दर्ज गतिविधि, deterministic detection न मानें |
+| **अनपेक्षित पहुँच मिली** | Report-only स्थिति, अपवाद, resource दायरा और मौजूदा सत्र |
+| **बंद करने के बाद शुल्क** | Allocation स्थिति और compute से अलग बिल होने वाले संसाधन |
 
-**Troubleshooting order:** prove the event happened, prove collection worked, then investigate detection logic. Record each failure and fix in the project notes.
+**समस्या समाधान का क्रम:** पहले प्रमाणित करें कि घटना हुई, फिर संग्रह के काम करने की पुष्टि करें और अंत में detection logic देखें। हर समस्या और सुधार project नोट्स में लिखें।
 
-## Pause or Remove the Lab
+## लैब रोकें या हटाएँ
 
-**Deallocation** releases VM compute allocation. A guest operating system shutdown alone does not guarantee deallocation. Check Azure's displayed power state and review Microsoft's [VM states and billing documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
+**Deallocation** VM की compute allocation छोड़ता है। केवल guest OS बंद करने से deallocation सुनिश्चित नहीं होती। Azure में दिखी power स्थिति जाँचें और Microsoft के [VM स्थिति और billing दस्तावेज़](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing) देखें।
 
-**Retained resources** still need review. Disks, snapshots, networking services, log retention, and user subscriptions have separate lifecycles. Set a reminder before each trial expires and verify the next usage report after cleanup.
+**बचे हुए संसाधनों** की भी समीक्षा करें। Disk, snapshot, नेटवर्क सेवाएँ, लॉग प्रतिधारण और उपयोगकर्ता सदस्यताओं के जीवनचक्र अलग हैं। हर परीक्षण समाप्त होने से पहले याद दिलाने की व्यवस्था करें और सफ़ाई के बाद अगली उपयोग रिपोर्ट देखें।
 
-Before deleting the lab resource group, export the evidence you intend to retain and inspect its contents. **Resource group deletion is destructive** for contained resources. Tenant users, Intune policies, Conditional Access policies, subscriptions, and subscription-level security settings require separate cleanup where applicable.
+लैब resource group हटाने से पहले रखे जाने वाले सबूत export करके जाँचें। **Resource group हटाना विनाशकारी है** और भीतर के संसाधन मिटाता है। Tenant उपयोगकर्ता, Intune और Conditional Access नीतियाँ, सदस्यताएँ और subscription-स्तरीय सुरक्षा सेटिंग अलग से साफ़ करनी पड़ सकती हैं।
 
 ## अगले कदम
 
-**Finish one documented investigation** before adding another workload. Then add a server, an identity exercise, or a detection rule with a clear test condition. Track what the added component teaches and what it costs.
+दूसरा workload जोड़ने से पहले **एक दर्ज जाँच पूरी करें**। फिर स्पष्ट परीक्षण शर्त के साथ सर्वर, पहचान अभ्यास या detection नियम जोड़ें। लिखें कि नया घटक क्या सिखाता है और कितना खर्च करता है।
 
-Use the [IT home lab guide](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) for infrastructure practice and the [IT resume guide](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) to present the work. Keep the next project small enough to explain from setup through evidence and cleanup.
+इन्फ्रास्ट्रक्चर अभ्यास के लिए [IT home lab मार्गदर्शिका](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) और अपना काम प्रस्तुत करने के लिए [IT resume मार्गदर्शिका](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) देखें। अगला प्रोजेक्ट इतना छोटा रखें कि सेटअप, सबूत और सफ़ाई समझा सकें।

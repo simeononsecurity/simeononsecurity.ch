@@ -1,7 +1,7 @@
 ---
 title: "Stăpânește securitatea VMware"
 date: 2023-08-03
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "În acest ghid cuprinzător, află cum să folosești PowerCLI pentru a aplica STIG-urile VMware și a securiza mediul VMware."
@@ -53,31 +53,31 @@ Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false
 Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false -Confirm:$false
 $vcenters = 127.0.0.1, 127.0.0.2
 
-#Connect to each vcenter server
+#Conectează-te la fiecare server vCenter
 ForEach ($vc in $vcenters) {
     Connect-VIServer -Server $vc
 }
 
-#Automated
+#Automatizat
 
-Write-Host "Vul ID: V-243098 Rule ID: SV-243098r719537_rule STIG ID: VCTR-67-000036"
-Write-Host "If the 'config.log.level' value is not set to "info" or does not exist, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243098 ID-ul regulii: SV-243098r719537_rule ID STIG: VCTR-67-000036"
+Write-Host "Dacă valoarea 'config.log.level' nu este setată la "info" sau nu există, aceasta este o constatare."
 ForEach ($vc in $vcenters) {
     Get-AdvancedSetting -Entity $vc -Name config.log.level | Set-AdvancedSetting -Value info
     Get-AdvancedSetting -Entity $vc -Name config.log.level
 }
 
-Write-Host "Vul ID: V-243090 Rule ID: SV-243090r719513_rule STIG ID: VCTR-67-000024"
-Write-Host "If the 'config.vpxd.hostPasswordLength' is set to a value other than "32", this is a finding. 
-If the setting does not exist, this is not a finding."
+Write-Host "ID-ul vulnerabilității: V-243090 ID-ul regulii: SV-243090r719513_rule ID STIG: VCTR-67-000024"
+Write-Host "Dacă 'config.vpxd.hostPasswordLength' are o valoare diferită de "32", aceasta este o constatare.
+Dacă setarea nu există, nu este o constatare."
 ForEach ($vc in $vcenters) {
     Get-AdvancedSetting -Entity $vc -Name config.vpxd.hostPasswordLength | Set-AdvancedSetting -Value 32
     Get-AdvancedSetting -Entity $vc -Name config.vpxd.hostPasswordLength
 }
 
 
-Write-Host "Vul ID: V-243089 Rule ID: SV-243089r719510_rule STIG ID: VCTR-67-000023"
-Write-Host "If the 'VirtualCenter.VimPasswordExpirationInDays' is set to a value other than "30" or does not exist, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243089 ID-ul regulii: SV-243089r719510_rule ID STIG: VCTR-67-000023"
+Write-Host "Dacă 'VirtualCenter.VimPasswordExpirationInDays' are o valoare diferită de "30" sau nu există, aceasta este o constatare."
 ForEach ($vc in $vcenters) {
     Try {
         Get-AdvancedSetting -Entity $vc -Name VirtualCenter.VimPasswordExpirationInDays | Set-AdvancedSetting -Value 30
@@ -87,8 +87,8 @@ ForEach ($vc in $vcenters) {
     }
 }
 
-Write-Host "Vul ID: V-243084 Rule ID: SV-243085r719498_rule STIG ID: VCTR-67-000016"
-Write-Host "If NetFlow is configured and the collector IP is not known and documented, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243084 ID-ul regulii: SV-243085r719498_rule ID STIG: VCTR-67-000016"
+Write-Host "Dacă NetFlow este configurat, iar IP-ul colectorului nu este cunoscut și documentat, aceasta este o constatare."
 $pgs = Get-VDPortgroup | Get-View
 ForEach ($pg in $pgs) {
     $spec = New-Object VMware.Vim.DVPortgroupConfigSpec
@@ -101,94 +101,94 @@ ForEach ($pg in $pgs) {
 }
 Get-VDPortgroup | Select-Object Name, VirtualSwitch, @{N = "NetFlowEnabled"; E = { $_.Extensiondata.Config.defaultPortConfig.ipfixEnabled.Value } }
 
-Write-Host "Vul ID: V-243084 Rule ID: SV-243084r719495_rule STIG ID: VCTR-67-000015"
-Write-Host "The vCenter Server must set the distributed port group Promiscuous Mode policy to reject."
+Write-Host "ID-ul vulnerabilității: V-243084 ID-ul regulii: SV-243084r719495_rule ID STIG: VCTR-67-000015"
+Write-Host "Serverul vCenter trebuie să seteze politica Promiscuous Mode a grupului de porturi distribuit la respingere."
 Get-VDSwitch | Get-VDSecurityPolicy | Set-VDSecurityPolicy -AllowPromiscuous $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy | Set-VDSecurityPolicy -AllowPromiscuous $false
 Get-VDSwitch | Get-VDSecurityPolicy
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy
 
 
-Write-Host "Vul ID: V-243083 Rule ID: SV-243083r719492_rule STIG ID: VCTR-67-000014"
-Write-Host "The vCenter Server must set the distributed port group MAC Address Change policy to reject."
+Write-Host "ID-ul vulnerabilității: V-243083 ID-ul regulii: SV-243083r719492_rule ID STIG: VCTR-67-000014"
+Write-Host "Serverul vCenter trebuie să seteze politica MAC Address Change a grupului de porturi distribuit la respingere."
 Get-VDSwitch | Get-VDSecurityPolicy | Set-VDSecurityPolicy -MacChanges $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy | Set-VDSecurityPolicy -MacChanges $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy
 
-Write-Host "Vul ID: V-243082 Rule ID: SV-243082r719489_rule STIG ID: VCTR-67-000013"
-Write-Host "The vCenter Server must set the distributed port group Forged Transmits policy to reject."
+Write-Host "ID-ul vulnerabilității: V-243082 ID-ul regulii: SV-243082r719489_rule ID STIG: VCTR-67-000013"
+Write-Host "Serverul vCenter trebuie să seteze politica Forged Transmits a grupului de porturi distribuit la respingere."
 Get-VDSwitch | Get-VDSecurityPolicy | Set-VDSecurityPolicy -ForgedTransmits $false
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy | Set-VDSecurityPolicy -ForgedTransmits $false
 Get-VDSwitch | Get-VDSecurityPolicy
 Get-VDPortgroup | Where-Object { $_.IsUplink -eq $false } | Get-VDSecurityPolicy
 
-Write-Host "Vul ID: V-243081 Rule ID: SV-243081r719486_rule STIG ID: VCTR-67-000012"
-Write-Host "The vCenter Server must disable the distributed virtual switch health check."
+Write-Host "ID-ul vulnerabilității: V-243081 ID-ul regulii: SV-243081r719486_rule ID STIG: VCTR-67-000012"
+Write-Host "Serverul vCenter trebuie să dezactiveze verificarea de sănătate a comutatorului virtual distribuit."
 Get-View -ViewType DistributedVirtualSwitch | Where-Object { ($_.config.HealthCheckConfig | Where-Object { $_.enable -notmatch "False" }) } | ForEach-Object { $_.UpdateDVSHealthCheckConfig(@((New-Object Vmware.Vim.VMwareDVSVlanMtuHealthCheckConfig -property @{enable = 0 }), (New-Object Vmware.Vim.VMwareDVSTeamingHealthCheckConfig -property @{enable = 0 }))) }
 $vds = Get-VDSwitch
 $vds.ExtensionData.Config.HealthCheckConfig
 
-Write-Host "Vul ID: V-243077 Rule ID: SV-243077r719474_rule STIG ID: VCTR-67-00000"
-Write-Host "The vCenter Server must manage excess capacity, bandwidth, or other redundancy to limit the effects of information-flooding types of denial-of-service (DoS) attacks by enabling Network I/O Control (NIOC)."
-Write-Host "If an alarm is not created and enabled to alert when syslog failures occur, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243077 ID-ul regulii: SV-243077r719474_rule ID STIG: VCTR-67-00000"
+Write-Host "Serverul vCenter trebuie să gestioneze capacitatea suplimentară, lățimea de bandă sau alte redundanțe pentru a limita efectele atacurilor DoS prin inundarea cu informații, activând Network I/O Control (NIOC)."
+Write-Host "Dacă nu este creată și activată o alertă pentru eșecurile syslog, aceasta este o constatare."
 ForEach ($vdswitch in (Get-VDSwitch.name)){
     (Get-VDSwitch $vdswitch | Get-View).EnableNetworkResourceManagement($true)
 }
 Get-VDSwitch | Select-Object Name, @{N = "NIOC Enabled"; E = { $_.ExtensionData.config.NetworkResourceManagementEnabled } }
 
-#Manual Review
+#Revizuire manuală
 
-Write-Host "Vul ID: V-243076 Rule ID: SV-243076r719471_rule STIG ID: VCTR-67-000005"
-Write-Host "The vCenter Server users must have the correct roles assigned."
-Write-Host "Application service account and user required privileges should be documented.
-If any user or service account has more privileges than required, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243076 ID-ul regulii: SV-243076r719471_rule ID STIG: VCTR-67-000005"
+Write-Host "Utilizatorii serverului vCenter trebuie să aibă rolurile corecte atribuite."
+Write-Host "Privilegiile necesare conturilor de serviciu și utilizatorilor trebuie documentate.
+Dacă un utilizator sau un cont de serviciu are mai multe privilegii decât este necesar, aceasta este o constatare."
 Get-VIPermission | Sort-Object Role | Select-Object Role, Principal, Entity, Propagate, IsGroup | Format-Table -Auto
 
-Write-Host "Vul ID: V-243119 Rule ID: SV-243119r719600_rule STIG ID: VCTR-67-000064"
-Write-Host "If any role other than Administrator and any site-specific group(s) have any of these permissions, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243119 ID-ul regulii: SV-243119r719600_rule ID STIG: VCTR-67-000064"
+Write-Host "Dacă orice rol în afară de Administrator sau orice grup specific site-ului are aceste permisiuni, aceasta este o constatare."
 $roles = Get-VIRole
 ForEach ($role in $roles) {
     $privileges = $role.PrivilegeList
     If ($privileges -match "Crypto*" -or $privileges -match "Global.Diagnostics" -or $privileges -match "Host.Inventory.Add*" -or $privileges -match "Host.Local operations.Manage user groups") {
-        Write-Host "$role has Cryptographic privileges"
+        Write-Host "$role are privilegii criptografice"
     }
 }
 
-Write-Host "Vul ID: V-243118 Rule ID: SV-243118r719597_rule STIG ID: VCTR-67-000063"
-Write-Host "If there are any users other than Solution Users with the "Administrator" role that are not explicitly designated for cryptographic operations, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243118 ID-ul regulii: SV-243118r719597_rule ID STIG: VCTR-67-000063"
+Write-Host "Dacă utilizatori diferiți de Solution Users au rolul „Administrator” fără să fie desemnați explicit pentru operațiuni criptografice, aceasta este o constatare."
 Get-VIPermission | Where-Object { $_.Role -eq "Admin" } | Select-Object Role, Principal, Entity, Propagate, IsGroup | Format-Table -Auto
 
 
-Write-Host "Vul ID: V-243111 Rule ID: SV-243111r719576_rule STIG ID: VCTR-67-000055"
-Write-Host "If no clusters are enabled for vSAN, this is not applicable."
-Write-host "If vSAN is enabled and the datastore is named 'vsanDatastore', this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243111 ID-ul regulii: SV-243111r719576_rule ID STIG: VCTR-67-000055"
+Write-Host "Nu se aplică dacă nu este activat niciun cluster vSAN."
+Write-host "Dacă vSAN este activat și depozitul de date se numește 'vsanDatastore', aceasta este o constatare."
 If ($(Get-Cluster | Where-Object { $_.VsanEnabled } | Measure-Object).Count -gt 0) {
-    Write-Host "vSAN Enabled Cluster found"
+    Write-Host "A fost găsit un cluster vSAN activat"
     $Clusters = Get-Cluster | Where-Object { $_.VsanEnabled } 
     Foreach ($clus in $clusters) {
         $clus | Get-Datastore | Where-Object { $_.type -match "vsan" } | Set-Datastore -Name $(($clus.name) + "_vSAN_Datastore")
     }
 }
 else {
-    Write-Host "vSAN is not enabled, this finding is not applicable"
+    Write-Host "vSAN nu este activat; această constatare nu se aplică"
 }
 
-Write-Host "If any user or service account has more privileges than required, this is a finding."
+Write-Host "Dacă un utilizator sau un cont de serviciu are mai multe privilegii decât este necesar, aceasta este o constatare."
 Get-VIPermission | Sort-Object Role | Select-Object Role, Principal, Entity, Propagate, IsGroup | Format-Table -Auto
 
-Write-Host "Vul ID: V-243088 Rule ID: SV-243088r719507_rule STIG ID: VCTR-67-000020"
-Write-Host "Review the port group VLAN tags and verify they are not set to a reserved VLAN ID."
-Write-Host "Certain physical switches reserve certain VLAN IDs for internal purposes and often disallow traffic configured to these values. For example, Cisco Catalyst switches typically reserve VLANs 1001–1024 and 4094, while Nexus switches typically reserve 3968–4047 and 4094."
+Write-Host "ID-ul vulnerabilității: V-243088 ID-ul regulii: SV-243088r719507_rule ID STIG: VCTR-67-000020"
+Write-Host "Verificați etichetele VLAN ale grupului de porturi și confirmați că nu folosesc un ID VLAN rezervat."
+Write-Host "Unele comutatoare fizice rezervă ID-uri VLAN pentru uz intern și blochează adesea traficul configurat cu aceste valori. De exemplu, Cisco Catalyst rezervă de obicei VLAN-urile 1001–1024 și 4094, iar Nexus rezervă 3968–4047 și 4094."
 Get-VDPortgroup | Select-Object Name, VlanConfiguration
 
-Write-Host "Vul ID: V-243087 Rule ID: SV-243087r719504_rule STIG ID: VCTR-67-000019"
-Write-Host "If any port group is configured with 'VLAN Trunk' and is not documented as a needed exception (such as NSX appliances), this is a finding.
-If any port group is authorized to be configured with 'VLAN trunking' but is not configured with the most limited range necessary, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243087 ID-ul regulii: SV-243087r719504_rule ID STIG: VCTR-67-000019"
+Write-Host "Dacă un grup de porturi este configurat cu 'VLAN Trunk' fără o excepție necesară documentată (de exemplu, pentru dispozitive NSX), aceasta este o constatare.
+Dacă trunking-ul VLAN este permis, dar nu este limitat la intervalul minim necesar, aceasta este o constatare."
 Get-VDPortgroup | Where-Object { $_.ExtensionData.Config.Uplink -ne "True" } | Select-Object Name, VlanConfiguration
 
-Write-Host "Vul ID: V-243078 Rule ID: SV-243078r719644_rule STIG ID: VCTR-67-000008"
-Write-Host "The vCenter Server must provide an immediate real-time alert to the SA and ISSO, at a minimum, of all audit failure events."
-Write-Host "If an alarm is not created and enabled to alert when syslog failures occur, this is a finding."
+Write-Host "ID-ul vulnerabilității: V-243078 ID-ul regulii: SV-243078r719644_rule ID STIG: VCTR-67-000008"
+Write-Host "Serverul vCenter trebuie să trimită imediat alerte în timp real către SA și ISSO pentru toate eșecurile de audit."
+Write-Host "Dacă nu este creată și activată o alertă pentru eșecurile syslog, aceasta este o constatare."
 Get-AlarmDefinition | Where-Object { $_.ExtensionData.Info.Expression.Expression.EventTypeId -eq "esx.problem.vmsyslogd.remote.failure" } | Select-Object Name, Enabled, @{N = "EventTypeId"; E = { $_.ExtensionData.Info.Expression.Expression.EventTypeId } }
 ```
 
@@ -218,9 +218,9 @@ Connect-VIServer -Server 127.0.0.1
 $cluster = Get-Cluster -Name "Cluster"
 $folder = Get-Folder -Name "Folder"
 
-# Credit to https://github.com/rlakey/vmware-stig-powercli/blob/master/VMware_vSphere_6.7_VM_STIG_Remediation.ps1
+#Sursă: https://github.com/rlakey/vmware-stig-powercli/blob/master/VMware_vSphere_6.7_VM_STIG_Remediation.ps1
 $vmconfig = @{
-    #Hardening/STIG Settings
+    #Setări de consolidare/STIG
     vmAdvSettings       = @{
         "isolation.tools.copy.disable"          = $true
         "isolation.tools.dnd.disable"           = $true
@@ -241,37 +241,37 @@ $vmconfig = @{
 }
 
 ForEach ($vm in (Get-VM -Location $cluster | Where-Object { (Get-VM -Location $folder) -contains $_ } )) {
-    Write-Output "...Remediating advanced settings on $vm on $vcenter"
+    Write-Output "...Se remediază setările avansate pe $vm în $vcenter"
     ForEach ($setting in ($vmconfig.vmAdvSettings.GetEnumerator() | Sort-Object Name)) {
-        #Pulling values for each setting specified
+        #Preia valorile pentru fiecare setare specificată
         $settingname = $setting.name
         $settingvalue = $setting.value
         If ($asetting = $vm | Get-AdvancedSetting -Name $settingname) {
             If ($asetting.value -eq $settingvalue) {
-                Write-Output "...Setting $settingname is already configured correctly to $settingvalue on $vm"
+                Write-Output "...Setarea $settingname este deja configurată corect la $settingvalue pe $vm"
             }
             else {
-                Write-Output "...Setting $settingname was incorrectly set to $($asetting.value) on $vm setting to $settingvalue"
+                Write-Output "...Setarea $settingname avea valoarea incorectă $($asetting.value) pe $vm; se setează la $settingvalue"
                 $asetting | Set-AdvancedSetting -Value $settingvalue -Confirm:$false
             }
         }
         else {
-            Write-Output "...Setting $settingname does not exist on $vm creating setting..."
+            Write-Output "...Setarea $settingname nu există pe $vm; se creează..."
             $vm | New-AdvancedSetting -Name $settingname -Value $settingvalue -Confirm:$false
         }
-        Write-Output "...Removing advanced settings if necessary on $vm on $vcenter"
+        Write-Output "...Se elimină setările avansate de pe $vm în $vcenter dacă este necesar"
         ForEach ($setting in ($vmconfig.vmAdvSettingsRemove | Sort-Object Name)) {
-            #Checking to see if current setting exists
+            #Verifică dacă există setarea curentă
             If ($asetting = $vm | Get-AdvancedSetting -Name $setting) {
-                Write-Output "...Setting $setting exists on $vm...removing setting"
+                Write-Output "...Setarea $setting există pe $vm...se elimină"
                 $asetting | Remove-AdvancedSetting -Confirm:$false
             }
             else {
-                Write-Output "...Setting $setting does not exist on $vm"
+                Write-Output "...Setarea $setting nu există pe $vm"
             }
         }   
         If ($vm.extensiondata.Config.MigrateEncryption -eq $vmconfig.vmotionEncryption) {
-            Write-Output "...vMotion encryption set correctly on $vm to $($vmconfig.vmotionEncryption)"
+            Write-Output "...Criptarea vMotion este configurată corect pe $vm la $($vmconfig.vmotionEncryption)"
         }
         else {
             $vmv = $vm | get-view
@@ -298,8 +298,8 @@ _____
 
 ## Resurse suplimentare
 
-- **VIB-ul DoD STIG** [a fost disponibil anterior pentru versiunile 5.0–6.7](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib), dar nu mai este disponibil.
-- **[Ryan Lakey](https://core.vmware.com/users/ryan-lakey)** oferă îndrumări utile pentru implementarea DoD VMware STIG. Îți recomandăm să le citești.
+- **VIB-ul DoD STIG [a fost disponibil anterior pentru versiunile 5.0–6.7](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib), dar nu mai este disponibil.**
+- [Ryan Lakey](https://core.vmware.com/users/ryan-lakey) oferă îndrumări utile pentru implementarea DoD VMware STIG. Îți recomandăm să le citești.
     - [VMware vSphere 8 STIG](https://core.vmware.com/resource/vmware-vsphere-8-stig)
     - [VMware vSphere 7 STIG](https://core.vmware.com/vsphere-7-stig)
     - [VMware vSphere 6.7 STIG](https://core.vmware.com/vmware-vsphere-67-stig)

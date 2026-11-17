@@ -3,6 +3,7 @@ title: "Evitare le truffe di phishing: tattiche, prevenzione e protezione"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Scopri le tattiche utilizzate dai truffatori di phishing e scopri strategie efficaci per proteggerti dal diventare una vittima."
 tags: ["truffe di phishing", "sicurezza informatica", "minacce online", "spoofing della posta elettronica", "Ingegneria sociale", "protezione da malware", "sicurezza in linea", "la sicurezza dei dati", "furto d'identità", "sicurezza della password", "autenticazione a due fattori", "aggiornamenti software", "regolamenti governativi", "riservatezza in linea", "consapevolezza informatica", "frode digitale", "consapevolezza del phishing", "sicurezza dei social media", "truffe online", "prevenzione del crimine informatico"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Per proteggersi da malware e siti Web fasulli, è essenziale **prestare attenzio
 
 Sebbene le truffe di phishing possano essere sofisticate, ci sono diversi passaggi proattivi che puoi adottare per evitare di diventare una vittima. Implementando le seguenti misure, puoi ridurre significativamente il rischio di cadere vittima di attacchi di phishing:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Formazione e sensibilizzazione](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sono cruciali nella lotta contro le truffe di phishing. Tieniti informato sulle ultime tecniche e tattiche di phishing utilizzate dai truffatori. Aggiorna regolarmente le tue conoscenze attraverso fonti affidabili come blog sulla sicurezza, articoli e **siti web governativi** ufficiali che forniscono informazioni sulle attuali tendenze di phishing e sulle migliori pratiche di sicurezza informatica.
+[**Formazione e sensibilizzazione**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) sono cruciali nella lotta contro le truffe di phishing. Tieniti informato sulle ultime tecniche e tattiche di phishing utilizzate dai truffatori. Aggiorna regolarmente le tue conoscenze attraverso fonti affidabili come blog sulla sicurezza, articoli e **siti web governativi** ufficiali che forniscono informazioni sulle attuali tendenze di phishing e sulle migliori pratiche di sicurezza informatica.
 
 ### Fai attenzione con e-mail e messaggi
 
 Prestare attenzione quando si ricevono e-mail o messaggi, in particolare quelli che richiedono informazioni personali o richiedono un'azione urgente. Presta attenzione a dettagli come indirizzi e-mail, errori grammaticali e ortografici o saluti generici che potrebbero indicare un tentativo di phishing. Fai attenzione agli allegati o ai collegamenti imprevisti, anche se sembrano provenire da fonti attendibili. In caso di dubbio, **non fare clic su collegamenti sospetti o scaricare allegati**. Invece, **contatta direttamente il mittente utilizzando un numero di telefono o un indirizzo email verificato** per verificare l'autenticità del messaggio.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Rafforza le password e attiva l’autenticazione a due fattori](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-UN [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) per ciascun account online per evitare che una singola violazione comprometta più account.
+[Una password forte e unica](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) è una difesa essenziale contro le truffe di phishing. [**Crea password robuste**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) che includano una combinazione di lettere maiuscole e minuscole, numeri e caratteri speciali. Evita di usare informazioni facili da indovinare, come il tuo nome o la data di nascita. È inoltre fondamentale [**usare password diverse per ogni account online**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) per evitare che una singola violazione comprometta più account.
 
-Oltre alle password complesse, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) quando possibile. 2FA aggiunge un ulteriore livello di sicurezza richiedendo una seconda forma di verifica, come un codice temporaneo inviato al tuo dispositivo mobile, oltre alla tua password. Ciò rende molto più difficile per i truffatori ottenere l'accesso non autorizzato ai tuoi account.
+Oltre alle password complesse, [**attiva l'autenticazione a due fattori (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) quando possibile. 2FA aggiunge un ulteriore livello di sicurezza richiedendo una seconda forma di verifica, come un codice temporaneo inviato al tuo dispositivo mobile, oltre alla tua password. Ciò rende molto più difficile per i truffatori ottenere l'accesso non autorizzato ai tuoi account.
 
 ### Mantieni aggiornati software e sistemi operativi
 

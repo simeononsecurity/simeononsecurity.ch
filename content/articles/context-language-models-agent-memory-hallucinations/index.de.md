@@ -1,12 +1,12 @@
 ---
 title: "Metas Context Language Models: Besseres Agentengedächtnis, kein Ende der Halluzinationen"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Wie Context Language Models das Agentengedächtnis bearbeiten, was die Benchmarks belegen und wie Cachekosten, Modellfähigkeit und nicht vertrauenswürdige Notizen die Zuverlässigkeit beeinflussen."
 genre: ["Künstliche Intelligenz", "KI-Agenten", "Lokale KI", "KI-Sicherheit"]
-tags: ["Context Language Models", "CLM", "Meta AI", "KI-Halluzinationen", "Agentengedächtnis", "Kontextverwaltung", "Kontextkomprimierung", "Kontextfenster", "Suffix Cache Reuse", "KV-Cache", "SGLang", "llama.cpp", "Prompt-Caching", "Prompt-Injection", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "lang laufende Agenten", "KI-Zuverlässigkeit", "Agentenprüfung"]
+tags: ["kontextbezogene Sprachmodelle", "CLM", "Meta AI", "KI-Halluzinationen", "Agentengedächtnis", "Kontextverwaltung", "Kontextkomprimierung", "Kontextfenster", "Wiederverwendung des Suffix-Caches", "KV-Cache", "SGLang", "llama.cpp", "Prompt-Caching", "Prompt-Injection", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "langlaufende Agenten", "KI-Zuverlässigkeit", "Agentenprüfung"]
 cover: "/img/cover/context-language-models-editable-memory.webp"
 coverAlt: "Ein leuchtender Prozessor neben neu angeordneten durchscheinenden Dokumentkarten und einem getrennten Archivstapel auf einer dunklen Oberfläche"
 coverCaption: "Konzeptionelle Darstellung eines bearbeitbaren Agentengedächtnisses."

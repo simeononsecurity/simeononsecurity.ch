@@ -1,6 +1,7 @@
 ---
 title: "Caza de amenazas: Defensa proactiva contra los ciberataques"
 date: 2023-03-11
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Descubra cómo la caza de amenazas puede prevenir los ciberataques y las ventajas y dificultades de su aplicación como medida proactiva de ciberseguridad."
@@ -95,7 +96,7 @@ ______
 
 Implementar la **caza de amenazas** como **estrategia de ciberseguridad proactiva** es esencial en el panorama actual de amenazas en constante evolución. Combinando técnicas manuales y automatizadas, las organizaciones pueden identificar y responder proactivamente a las amenazas **antes de que causen ningún daño**.
 
-Para profundizar en el conocimiento de la caza de amenazas, puede explorar recursos como los siguientes [MITRE ATT&CK framework](https://attack.mitre.org/), which provides a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs) Este marco puede ayudar a las organizaciones a desarrollar estrategias y metodologías eficaces de caza de amenazas. Además, hay varias **herramientas de caza de amenazas** disponibles, como Sysinternals Sysmon, Elastic Security y Falcon X, que pueden ayudar en el proceso de caza de amenazas.
+Para profundizar en el conocimiento de la caza de amenazas, puede explorar recursos como los siguientes [MITRE ATT&CK framework](https://attack.mitre.org/), que ofrece una base de conocimientos completa sobre las tácticas, técnicas y procedimientos de los adversarios (TTPs). Este marco puede ayudar a las organizaciones a desarrollar estrategias y metodologías eficaces de caza de amenazas. Además, hay varias **herramientas de caza de amenazas** disponibles, como Sysinternals Sysmon, Elastic Security y Falcon X, que pueden ayudar en el proceso de caza de amenazas.
 
 Es crucial reconocer que la caza de amenazas debe ser un proceso continuo. Las amenazas a la ciberseguridad evolucionan constantemente, y las organizaciones deben mantenerse vigilantes y proactivas a la hora de identificarlas y mitigarlas.
 

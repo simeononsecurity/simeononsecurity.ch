@@ -1,11 +1,12 @@
 ---
 title: "Construirea unui lac de date securizat și conform bazat pe cloud: Cele mai bune practici pentru protejarea datelor stocate"
 date: 2023-04-16
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "În acest ghid cuprinzător, aflați care sunt cele mai bune practici de securitate și de conformitate atunci când planificați, construiți și gestionați lacuri de date bazate pe cloud."
 tags: ["lac de date", "securitate în cloud", "reglementări de conformitate", "controale de acces", "criptare", "AWS", "Azure", "HIPAA", "GDPR", "monitorizare", "patch-uri", "securitate cibernetică", "Soluție SIEM", "Echipe de suport IT", "peisajul amenințărilor", "migrarea în cloud", "guvernanța cloud"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
+cover: "/img/cover/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake.webp"
 coverAlt: "O imagine de desen animat a unui castel păzit de un cavaler războinic, simbolizând conceptul de protecție puternică pentru o stocare în cloud sigură și conformă"
 coverCaption: ""
 ---

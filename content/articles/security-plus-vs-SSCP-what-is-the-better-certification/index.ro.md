@@ -1,7 +1,7 @@
 ---
 title: "Security+ sau SSCP: ce certificare ar trebui să obții?"
 date: 2023-06-09
-lastmod: 2026-10-21
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compararea certificărilor Security+ și SSCP pentru a determina cea mai bună alegere pentru profesioniștii din domeniul securității cibernetice care caută oportunități de angajare, recunoaștere în industrie și o acoperire cuprinzătoare a cunoștințelor."
@@ -12,11 +12,22 @@ coverAlt: "O operă de artă simbolică ce prezintă două scuturi, care se conf
 coverCaption: "Alegerea certificării potrivite pentru cariera dumneavoastră în domeniul securității cibernetice."
 ---
 
-## Security+ vs SSCP: Care este cel mai bun?
+## Security+ sau SSCP: ce certificare să alegi?
 
 ### Introducere
 
 Pe tărâmul certificărilor în domeniul securității informațiilor, două opțiuni bine cunoscute sunt **Security+** și **SSCP**. Ambele certificări validează abilitățile și cunoștințele profesioniștilor din domeniu, dar există diferențe distincte între ele. Acest articol își propune să compare **Security+** și **SSCP**, luând în considerare conținutul, relevanța lor pentru locul de muncă și recunoașterea în industrie, pentru a determina care certificare deține avantajul.
+
+### Criterii de alegere
+
+| Dacă ai nevoie de | Începe cu | De ce |
+| --- | --- | --- |
+| Baze ample pentru nivel de începător | **Security+** | Oferă o bază pentru principalele subiecte de securitate. |
+| O acreditare profesională practică | **SSCP** | Se concentrează pe administrarea și operarea sistemelor securizate. |
+| Prima certificare, cu puțină experiență practică | **Security+** | SSCP cere experiență profesională relevantă sau o cale alternativă aprobată. |
+
+Înainte de înscriere, verifică obiectivele examenului și cerințele actuale privind experiența. Valoarea certificării depinde și de piața muncii și de rolul dorit.
+
 
 ### Security+ Prezentare generală
 
@@ -56,7 +67,7 @@ Certificarea asigură faptul că candidații posedă cunoștințele și abilită
 
 SSCP aprofundează aspectele tehnice ale securității rețelelor și sistemelor. Acesta validează capacitatea candidaților de a implementa controale de securitate, de a efectua evaluări ale riscurilor și de a gestiona eficient răspunsul la incidente.
 
-### Job Relevance
+### Relevanță profesională
 
 În timp ce ambele certificări sunt foarte apreciate în industrie, **Security+** deține un apel mai larg în ceea ce privește oportunitățile de angajare. Security+ este adesea căutat de organizații ca o cerință minimă pentru posturile de securitate cibernetică la nivel de intrare. Certificarea servește ca o bază solidă pentru profesioniștii care caută roluri precum **analiști de securitate**, **consultanți** sau **administratori**.
 
@@ -74,6 +85,6 @@ Atât **Security+**, cât și **SSCP** sunt recunoscute și respectate în cadru
 
 ### Referințe
 
-1. CompTIA Security+. Preluat din [https://www.comptia.org/certifications/security](https://www.comptia.org/certifications/security)
-2. SSCP - Systems Security Certified Practitioner. Extras din [https://www.isc2.org/Certifications/SSCP](https://www.isc2.org/Certifications/SSCP)
-3. Directiva 8570.01-M a Departamentului de Apărare al SUA. Extras din [https://public.cyber.mil/cwmp/dod-approved-8570-baseline-certifications/](https://public.cyber.mil/cwmp/dod-approved-8570-baseline-certifications/)
+1. CompTIA Security+. Preluat din [pagina certificării Security+ de la CompTIA](https://www.comptia.org/certifications/security)
+2. SSCP - Systems Security Certified Practitioner. Extras din [pagina certificării SSCP de pe site-ul ISC2](https://www.isc2.org/Certifications/SSCP)
+3. Directiva 8570.01-M a Departamentului de Apărare al SUA. Extras din [lista certificărilor de bază aprobate de Departamentul Apărării al SUA](https://public.cyber.mil/cwmp/dod-approved-8570-baseline-certifications/)

@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI 协作：代码库与审查边界"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "为经过审查的 AI 贡献建立来源地图、文件所有权和受保护的发布边界。"
@@ -128,12 +128,12 @@ PY
 **直接推送测试使用贡献者本人通过身份验证的本地克隆。**维护者令牌会测试错误的身份。此示例响应展示了应保留的服务器证据类型。具体措辞因代码库规则而异。
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+执行者角色：贡献者
+尝试：向 main 进行无害的合成数据直接推送
+远程结果：已拒绝，禁止更新受保护的分支
+main 初始提交：[记录 sandbox 提交]
+main 最终提交：[回读后记录相同的提交]
+判定：只有观察到两条记录，才能证明平台拒绝了操作
 ```
 
 **如果本地 Git 身份验证不可用，将服务器端拒绝标为“受阻”。**保留浏览器创建分支的提示，作为路径证据，然后请维护者安排单独的贡献者测试。不要把路径提示算作直接推送被拒。
@@ -143,27 +143,27 @@ Decision: platform denial supported only if both records are observed
 **来源地图是导航文档，**不是第二份需求文档。从聊天进入的人应能找到当前意图、已实现行为和操作说明，而不必在相互冲突的摘要间选择。
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+项目：export-service-lab
+路线：GitHub-first
+批准的边界：受保护的 main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  权限范围：合成导出文件的保留意图
+  负责人：product-owner
+  修订：记录修订版本和受保护的提交
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  权限范围：合成实验室的操作说明
+  负责人：operations-owner
+  修订：受保护的提交
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+行为 -> config.json
+  权限范围：已提交的保留配置
+  负责人：repository-maintainer
+  修订：受保护的提交
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+提案 -> Issues 和提案分支
+  权限范围：仅限已请求的更改
 ```
 
 **不要在地图的每个条目里都写当前保留期限。**如果地图记录“七天”，PROP-042 后就又多出一个需要同步的值。地图只保留稳定标识和位置，具体值应从权威记录中读取。

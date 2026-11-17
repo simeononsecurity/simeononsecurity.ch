@@ -3,6 +3,7 @@ title: "Comprendre les bases de la cybersécurité"
 draft: false
 toc: true
 date: 2023-06-11
+lastmod: 2026-11-12
 description: "Découvrez l'importance de la cybersécurité et apprenez à protéger votre sécurité personnelle, professionnelle et nationale contre les cybermenaces en constante évolution."
 genre: ["Comprendre les bases de la cybersécurité", "Importance de la cybersécurité", "Protection des informations personnelles", "Sauvegarde des données des entreprises", "Préoccupations en matière de sécurité nationale", "Terminologie clé de la cybersécurité", "Types de cyberattaques", "Meilleures pratiques en matière de cybersécurité", "Rôle du chiffrement dans la cybersécurité", "Cybersécurité pour les entreprises"]
 tags: ["Cybersécurité", "Les bases de la cybersécurité", "Importance de la cybersécurité", "Protection des informations personnelles", "Protection des données des entreprises", "Sécurité nationale", "Cybermenaces", "Logiciels malveillants", "Hameçonnage", "Ransomware", "Vulnérabilités", "Exploits", "Attaques d'ingénierie sociale", "Attaques par mot de passe", "Attaques de type Man-in-the-Middle", "Attaques DDoS", "Meilleures pratiques en matière de cybersécurité", "Des mots de passe forts", "Mises à jour du logiciel", "Authentification multifactorielle", "Terminologie de la cybersécurité", "Types de cyberattaques", "Rôle du chiffrement dans la cybersécurité", "Types de cryptage", "Protection des données", "Plan de cybersécurité", "Formation et sensibilisation des employés", "Audits de sécurité réguliers", "Nouvelles cybermenaces", "L'intelligence artificielle dans la cybersécurité"]
@@ -109,7 +110,7 @@ De nombreux services en ligne, tels que les fournisseurs de courrier électroniq
 
 #### Des habitudes de navigation sûres
 
-Faire attention aux sites web que l'on visite, aux liens sur lesquels on clique et aux informations que l'on partage en ligne peut aider à prévenir [**social engineering attacks**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) and other types of **cyber threats**. Cybercriminals often use [**phishing emails**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) ou de **faux sites web** pour inciter les utilisateurs à révéler des informations sensibles ou à télécharger des logiciels malveillants.
+Faire attention aux sites web visités, aux liens sur lesquels on clique et aux informations partagées en ligne peut aider à prévenir les [**attaques d’ingénierie sociale**](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/) et d’autres types de **cybermenaces**. Les cybercriminels utilisent souvent des [**courriels d’hameçonnage**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) ou de **faux sites web** pour inciter les utilisateurs à révéler des informations sensibles ou à télécharger des logiciels malveillants.
 
 Il est recommandé de ne visiter que des sites web de confiance, d'éviter de cliquer sur des liens ou des pop-ups suspects et de ne jamais partager d'informations personnelles ou financières en ligne à moins d'être certain que le site web est légitime.
 

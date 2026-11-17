@@ -252,6 +252,33 @@ Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
 
+## فحوصات RSAT وPowerShell الحالية
+
+توزّع Microsoft الآن وحدة Active Directory عبر أدوات إدارة الخوادم عن بُعد (RSAT). في إصدارات Windows العميلة المدعومة، ثبّت الميزة عند الطلب من جلسة PowerShell بصلاحيات مرتفعة:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+في Windows Server، استخدم سير عمل ميزات الخادم الذي توثقه Microsoft:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+تحقق من الوحدة قبل تشغيل الأوامر الإدارية:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+يوضح [مرجع وحدة ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) أن RSAT يوفّر الوحدة ويسرد أوامر cmdlet المتاحة. استخدم الإصدار الموافق لنظام التشغيل المضيف. يتطلب PowerShell 7 مراعاة التوافق، لذلك اختبر الوحدة على محطة عمل غير إنتاجية قبل تغيير سير عمل إداري قائم.
+
+كتوصية تشغيلية، استخدم `-WhatIf` عندما يدعمه الأمر، وقيّد الاستعلامات باستخدام `-Server` عندما يكون لوحدة تحكم مجال محددة أهمية، واطلب أقل قدر من الأذونات اللازمة للمهمة. توثّق PowerShell الوسيط `-WhatIf` ضمن [المعاملات العامة](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). تجنب وضع كلمات المرور في سجل الأوامر أو السكربتات. استخدم مطالبة آمنة عبر [Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential)، أو مخزن أسرار محميًا، أو حساب خدمة مفوضًا مع إجراء موثق لتدوير بيانات الاعتماد.
+
 ## الخاتمة
 
 في الختام، يُعد **موديل Active Directory لـ PowerShell** أداة قوية تتيح إدارة فعالة ومريحة لـ Windows Active Directory. من خلال تثبيت واستيراد الموديل، تحصل على مجموعة شاملة من **الأوامر** التي تبسط مختلف المهام المتعلقة بـ AD.

@@ -1,6 +1,7 @@
 ---
 title: "La Dark Web y la ciberdelincuencia: Desvelando los entresijos de Internet"
 date: 2023-05-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Explore el mundo oculto de la web oscura y su conexión con la ciberdelincuencia, al tiempo que descubre su doble naturaleza y su potencial para el periodismo y la denuncia de irregularidades."
@@ -50,25 +51,25 @@ Cabe señalar que el potencial de la web oscura para fines periodísticos y de d
 
 Protegerse de la Dark Web y la ciberdelincuencia requiere medidas proactivas para mitigar los riesgos. He aquí algunos pasos esenciales para protegerse:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Tenga cuidado al compartir información personal en línea, absteniéndose de proporcionar detalles sensibles a fuentes desconocidas o que no sean de confianza. Proteja su nombre, dirección, número de la Seguridad Social y otros datos personales.
+[**1. Proteja su información personal:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Tenga cuidado al compartir información personal en línea, absteniéndose de proporcionar detalles sensibles a fuentes desconocidas o que no sean de confianza. Proteja su nombre, dirección, número de la Seguridad Social y otros datos personales.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utilice contraseñas fuertes y únicas para todas sus cuentas en línea. Evita reutilizar contraseñas en varias plataformas para evitar accesos no autorizados en caso de filtración de datos.
+[**2. Use contraseñas fuertes y únicas:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utilice contraseñas fuertes y únicas para todas sus cuentas en línea. Evita reutilizar contraseñas en varias plataformas para evitar accesos no autorizados en caso de filtración de datos.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Actualice regularmente su software, incluidos los sistemas operativos, los navegadores web y los programas antivirus. Estas actualizaciones suelen contener parches de seguridad que solucionan vulnerabilidades y protegen frente a ciberamenazas emergentes.
+[**3. Mantenga el software actualizado:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Actualice regularmente su software, incluidos los sistemas operativos, los navegadores web y los programas antivirus. Estas actualizaciones suelen contener parches de seguridad que solucionan vulnerabilidades y protegen frente a ciberamenazas emergentes.
 
 **4. Practica hábitos de navegación seguros:** Sé exigente con los sitios web que visitas, absteniéndote de hacer clic en enlaces de correos electrónicos o sitios web desconocidos. Limítese a fuentes fiables y verifique la legitimidad de los sitios web antes de compartir información personal o financiera.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilice cortafuegos para controlar el tráfico de red entrante y saliente e implante software antivirus fiable para detectar y eliminar malware o actividades sospechosas de sus dispositivos.
+[**5. Utilice cortafuegos y antivirus:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilice cortafuegos para controlar el tráfico de red entrante y saliente e implante software antivirus fiable para detectar y eliminar malware o actividades sospechosas de sus dispositivos.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Cree copias de seguridad periódicas de sus datos y archivos importantes. Así te asegurarás de que, aunque tu ordenador se vea comprometido o te roben los datos, puedas restaurar tu información y minimizar el impacto de posibles ciberataques.
+[**6. Haga copias de seguridad periódicas:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Cree copias de seguridad periódicas de sus datos y archivos importantes. Así te asegurarás de que, aunque tu ordenador se vea comprometido o te roben los datos, puedas restaurar tu información y minimizar el impacto de posibles ciberataques.
 
 ## Normativa e iniciativas gubernamentales
 
 Los gobiernos de todo el mundo reconocen cada vez más la necesidad de combatir la web oscura y la ciberdelincuencia mediante legislación e iniciativas. Algunas de las normativas e iniciativas más destacadas son
 
-- La [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/): Aimed at protecting the personal data and privacy of EU citizens, the GDPR sets strict guidelines and requirements for businesses and organizations handling personal information. More information can be found in [this article](https://gdpr.eu/)
+- El [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/) tiene como objetivo proteger los datos personales y la privacidad de los ciudadanos de la UE. El RGPD establece directrices y requisitos estrictos para las empresas y organizaciones que tratan información personal. Encontrará más información en [este artículo](https://gdpr.eu/).
 
-- La [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- La [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) de Estados Unidos promueve el intercambio de información sobre amenazas cibernéticas entre entidades privadas y el gobierno para reforzar la seguridad nacional y mitigar los riesgos cibernéticos. Para más detalles, consulte [esta documentación](https://www.congress.gov/bill/114th-congress/senate-bill/754).
 
 Estas normativas e iniciativas desempeñan un papel vital en el fomento de un entorno digital más seguro, pero la concienciación individual y las prácticas proactivas de ciberseguridad siguen siendo cruciales para combatir la web oscura y la ciberdelincuencia.
 
@@ -78,5 +79,5 @@ La web oscura y la ciberdelincuencia plantean amenazas significativas en el mund
 
 Referencias:
 
-- Reglamento General de Protección de Datos de la Unión Europea (RGPD): [link](https://gdpr.eu/)
-- Ley de Intercambio de Información sobre Ciberseguridad (CISA): [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Reglamento General de Protección de Datos de la Unión Europea (RGPD): [texto del reglamento](https://gdpr.eu/)
+- Ley de Intercambio de Información sobre Ciberseguridad (CISA): [texto de la ley](https://www.congress.gov/bill/114th-congress/senate-bill/754)

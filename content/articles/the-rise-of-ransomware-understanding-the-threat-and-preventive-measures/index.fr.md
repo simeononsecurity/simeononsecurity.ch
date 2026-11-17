@@ -3,8 +3,9 @@ title: "Comprendre les menaces des ransomwares : Mesures de prévention"
 draft: false
 toc: true
 date: 2023-05-09
+lastmod: 2026-11-11
 description: "Découvrez les menaces liées aux ransomwares et les mesures préventives que vous pouvez prendre pour vous en protéger."
-tags: ["ransomware", "cybersécurité", "la prévention", "sauvegarde", "antivirus", "VPN", "authentification multifactorielle", "les réglementations gouvernementales", "hameçonnage", "ingénierie sociale", "logiciels malveillants", "cybercriminalité", "la sécurité des données", "sécurité des réseaux", "cyberattaque", "chiffrement", "cyber hygiène", "incident response", "protection des données", "cyber sensibilisation"]
+tags: ["ransomware", "cybersécurité", "prévention", "sauvegarde", "antivirus", "VPN", "authentification multifacteur", "réglementations gouvernementales", "hameçonnage", "ingénierie sociale", "logiciels malveillants", "cybercriminalité", "sécurité des données", "sécurité des réseaux", "cyberattaque", "chiffrement", "hygiène numérique", "réponse aux incidents", "protection des données", "sensibilisation à la cybersécurité"]
 cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Un ordinateur entouré d'un cadenas et d'une chaîne, symbolisant le cryptage des données par un ransomware."
 coverCaption: ""
@@ -18,7 +19,7 @@ Un ransomware est un logiciel malveillant qui crypte les données d'une victime 
 
 Les ransomwares existent depuis plus de dix ans. Le premier ransomware connu a été créé en 1989, sous le nom de cheval de Troie du SIDA, et a été distribué par le biais de disquettes. Toutefois, ce n'est qu'avec l'essor du bitcoin et d'autres crypto-monnaies que les attaques par ransomware sont devenues plus fréquentes.
 
-Les crypto-monnaies ont permis aux pirates de recevoir des paiements de rançon de manière anonyme, ce qui a rendu difficile leur traque par les forces de l'ordre. Selon un rapport de[Cybersecurity Ventures](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.) On estime que les ransomwares causeront des dommages à hauteur de 20 milliards de dollars dans le monde en 2021, contre 11,5 milliards de dollars en 2019.
+Les crypto-monnaies ont permis aux pirates de recevoir des paiements de rançon de manière anonyme, ce qui a rendu difficile leur traque par les forces de l'ordre. Selon un rapport de [Cybersecurity Ventures](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.), les dommages mondiaux dus aux ransomwares étaient estimés à 20 milliards de dollars en 2021, contre 11,5 milliards en 2019.
 
 ## Comment fonctionne un ransomware
 
@@ -28,25 +29,25 @@ Les pirates menacent souvent de supprimer ou de divulguer les données si la ran
 
 ## Impact des ransomwares
 
-Les attaques de ransomware ont touché les particuliers, les entreprises et les gouvernements du monde entier. En 2021, le[Colonial Pipeline ransomware attack](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack) aux États-Unis a provoqué des pénuries d'essence et des hausses de prix dans plusieurs États.
+Les attaques de ransomware ont touché les particuliers, les entreprises et les gouvernements du monde entier. En 2021, l’[attaque par ransomware contre Colonial Pipeline](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack) aux États-Unis a provoqué des pénuries d’essence et des hausses de prix dans plusieurs États.
 
-En 2017, le[WannaCry ransomware attack](https://www.cisa.gov/wannacry) a touché plus de 200 000 ordinateurs dans 150 pays, causant d'importantes pertes financières. L'attaque visait les ordinateurs équipés de versions obsolètes de Microsoft Windows et exploitait une vulnérabilité du système d'exploitation Windows.
+En 2017, l’[attaque par ransomware WannaCry](https://www.cisa.gov/wannacry) a touché plus de 200 000 ordinateurs dans 150 pays et causé d’importantes pertes financières. L'attaque visait les ordinateurs équipés de versions obsolètes de Microsoft Windows et exploitait une vulnérabilité du système d'exploitation Windows.
 
 ## Mesures préventives
 
 Des mesures préventives peuvent aider les particuliers et les organisations à se protéger contre les attaques de ransomware. Voici quelques mesures préventives à prendre en compte :
 
--[**Backup data regularly:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Des sauvegardes régulières peuvent aider à restaurer les données en cas d'attaque par un ransomware.
+- [**Sauvegardez régulièrement vos données:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Des sauvegardes régulières peuvent aider à restaurer les données en cas d'attaque par un ransomware.
 
--[**Keep software up to date:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Maintenir tous les logiciels, y compris les systèmes d'exploitation et les applications, à jour avec les derniers correctifs de sécurité.
+- [**Maintenez vos logiciels à jour:**](https://simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/) Maintenir tous les logiciels, y compris les systèmes d'exploitation et les applications, à jour avec les derniers correctifs de sécurité.
 
--[**Use antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus) Installer et utiliser un logiciel antivirus pour détecter et prévenir les attaques de ransomware.
+- [**Utilisez un logiciel antivirus:**](https://simeononsecurity.com/recommendations/anti-virus) Installer et utiliser un logiciel antivirus pour détecter et prévenir les attaques de ransomware.
 
--[**Educate employees:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Sensibiliser les employés à la manière de reconnaître et d'éviter les courriels d'hameçonnage et d'autres types d'attaques d'ingénierie sociale.
+- [**Formez les employés:**](https://simeononsecurity.com/articles/the-impact-of-social-engineering-attacks-on-cybersecurity/) Sensibiliser les employés à la manière de reconnaître et d'éviter les courriels d'hameçonnage et d'autres types d'attaques d'ingénierie sociale.
 
--[**Use multi-factor authentication:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Use multi-factor authentication (MFA) pour empêcher tout accès non autorisé aux comptes.
+- [**Utilisez l’authentification multifacteur:**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Utilisez l’authentification multifacteur (MFA) pour empêcher tout accès non autorisé aux comptes.
 
--[**Use a virtual private network (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Utiliser un VPN pour crypter le trafic internet et se protéger contre les attaques basées sur le réseau.
+- [**Utilisez un réseau privé virtuel (VPN):**](https://simeononsecurity.com/recommendations/vpns/) Utiliser un VPN pour crypter le trafic internet et se protéger contre les attaques basées sur le réseau.
 
 ## Conclusion
 
@@ -56,6 +57,6 @@ En mettant en œuvre des mesures préventives, les individus et les organisation
 
 
 ## Références
--[cybersecurityventures.com - Global Ransomware Damage Costs Predicted To Reach $20 Billion (USD) By 2021](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.)
--[NCCIC - WHAT IS WANNACRY/WANACRYPT0R?](https://www.cisa.gov/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf)
--[Wikipedia - Colonial Pipeline ransomware attack](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack)
+- [cybersecurityventures.com - Global Ransomware Damage Costs Predicted To Reach $20 Billion (USD) By 2021](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.)
+- [NCCIC - WHAT IS WANNACRY/WANACRYPT0R?](https://www.cisa.gov/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf)
+- [Wikipedia - Colonial Pipeline ransomware attack](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack)

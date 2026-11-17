@@ -1,6 +1,7 @@
 ---
 title: "Heb je echt een diploma nodig om Cyber Security en System Administration te worden?"
 date: 2023-02-12
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Dit artikel verkent de voor- en nadelen van het behalen van een diploma op het gebied van cyberbeveiliging en systeembeheer, inclusief kansen op werk, certificeringen, tijd en kostenoverwegingen."

@@ -1,6 +1,7 @@
 ---
 title: "Stăpânirea Wireshark: Un ghid complet pentru începători în analiza rețelelor"
 date: 2023-04-07
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Descoperiți cum să utilizați Wireshark în mod eficient pentru analiza și depanarea rețelelor cu acest ghid detaliat pentru începători."
@@ -63,11 +64,31 @@ Wireshark este un instrument excelent pentru depanarea diferitelor probleme de r
 - **Identificarea conexiunilor de rețea lente:** Determinați dacă conexiunile de rețea lente sunt cauzate de latența rețelei sau de întârzierile aplicațiilor, analizând timpul de călătorie dus-întors (RTT) dintre pachete. Utilizați funcția TCP Stream Graph (Graficul fluxului TCP) pentru a vizualiza valorile RTT și pentru a identifica posibilele blocaje.
 - **Detectarea accesului neautorizat:** Monitorizați traficul de rețea pentru activități suspecte sau încercări de acces neautorizat prin filtrarea pachetelor pe baza adreselor IP, a porturilor sau a protocoalelor.
 
+## Plan de captură pentru începători
+
+Începe cu o întrebare și o captură scurtă. Capturează pe interfața care transportă traficul analizat, reproduce o problemă, apoi oprește capturarea și salvează fișierul pcapng cu un marcaj temporal. Capturile conțin adesea date de autentificare, date personale, nume de gazdă și adrese interne. Păstrează-le ca înregistrări sensibile și partajează-le numai cu persoane autorizate.
+
+Un **filtru de captură** reduce pachetele scrise în timpul capturării. Un **filtru de afișare** ascunde pachete după captură fără să le elimine din fișier. Sintaxa lor diferă. Ghidul Wireshark documentează ambele limbaje.
+
+| Obiectiv | Filtru de afișare | Ce verifici |
+|---|---|---|
+| **Eroare DNS** | `dns` | Numele cerut, codul de răspuns, adresa serverului și întârzierea răspunsului. |
+| **Inițiere TCP** | `tcp.flags.syn == 1` | SYN, SYN-ACK și ACK-ul final pentru punctul final vizat. |
+| **Retransmisii** | `tcp.analysis.retransmission` | Direcția, momentul și repetarea pierderilor pe aceeași cale. |
+| **O gazdă** | `ip.addr == 192.168.1.20` | Traficul către gazda selectată sau de la aceasta. |
+| **Un serviciu** | `tcp.port == 443` | Portul TCP selectat, fără să presupui aplicația. |
+
+În terminal, `tshark -i <interface> -f "host 192.168.1.20" -w incident.pcapng` scrie o captură pcapng cu un filtru libpcap. `tshark -r incident.pcapng -Y "dns or tcp.analysis.retransmission"` citește fișierul cu un filtru de afișare. Înlocuiește interfața, adresa și numele fișierului cu valorile din testul autorizat.
+
+Selectează un pachet și folosește **Analyze > Follow** pentru a inspecta un flux de protocol. Wireshark acceptă fluxuri TCP, UDP, TLS, HTTP, HTTP/2, QUIC, WebSocket, SIP și altele. Urmărirea fluxului nu decriptează TLS. [Ghidul Wireshark pentru fluxuri](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) explică domeniul și limitele funcției.
+
+Tratează **Expert Information** ca pe un indiciu. Corelează retransmisiile, pachetele duplicate sau malformate cu marcajele temporale, punctele finale, contoarele interfeței și jurnalele aplicației. Documentația Wireshark descrie Expert Information ca punct de pornire, nu ca dovadă a unei defecțiuni.
+
 ______
 
 ## Respectarea reglementărilor guvernamentale
 
-Anumite reglementări guvernamentale, cum ar fi [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) and the [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html) impun organizațiilor să protejeze informațiile sensibile și să mențină securitatea rețelei. Wireshark vă poate ajuta să vă conformați acestor reglementări prin monitorizarea traficului de rețea pentru acces neautorizat sau scurgere de date.
+Anumite reglementări guvernamentale, cum ar fi [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) și [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html) impun organizațiilor să protejeze informațiile sensibile și să mențină securitatea rețelei. Wireshark vă poate ajuta să vă conformați acestor reglementări prin monitorizarea traficului de rețea pentru acces neautorizat sau scurgere de date.
 
 Rețineți că utilizarea Wireshark pentru a captura și analiza traficul de rețea poate intra, de asemenea, sub incidența unor considerente legale și etice. Asigurați-vă întotdeauna că aveți autorizația corespunzătoare și că respectați politicile organizației dvs. și legile locale înainte de a utiliza Wireshark pentru analiza rețelei.
 
@@ -85,6 +106,9 @@ ______
 2. [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/)
 3. [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 4. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+5. [Manualul TShark de la Wireshark](https://www.wireshark.org/docs/man-pages/tshark.html)
+6. [Urmărirea fluxurilor de protocol în Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
+7. [Expert Information din Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvExpert.html)
 
 Nu uitați să exersați și să experimentați cu Wireshark pe cont propriu pentru a obține o înțelegere mai profundă a capacităților sale. Cu cât îl utilizați mai mult, cu atât veți deveni mai priceput în identificarea și rezolvarea problemelor de rețea.
 

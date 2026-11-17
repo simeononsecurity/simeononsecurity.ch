@@ -1,11 +1,12 @@
 ---
 title: "Creación de un lago de datos basado en la nube seguro y conforme a las normas: Buenas prácticas para proteger los datos almacenados"
 date: 2023-04-16
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Conozca las mejores prácticas de seguridad y cumplimiento de normativas a la hora de planificar, crear y gestionar lagos de datos basados en la nube en esta completa guía."
 tags: ["lago de datos", "seguridad en la nube", "normas de cumplimiento", "controles de acceso", "codificación", "AWS", "Azure", "HIPAA", "GDPR", "control", "parcheando", "ciberseguridad", "Solución SIEM", "Equipos de apoyo informático", "panorama de amenazas", "migración a la nube", "gobierno de la nube"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
+cover: "/img/cover/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake.webp"
 coverAlt: "Una imagen de dibujos animados de un castillo custodiado por un caballero guerrero, que simboliza el concepto de protección sólida para un almacenamiento en la nube seguro y conforme a las normas"
 coverCaption: ""
 ---
@@ -42,7 +43,7 @@ Además, asegúrese de que **se apliquen parches periódicos a los componentes c
 
 ## Mantenerse al día con el cambiante panorama de amenazas
 
-**Debido a un panorama de seguridad en constante evolución, los controles de seguridad en la nube deben adaptarse rápidamente a las nuevas amenazas.
+**Debido a un panorama de seguridad en constante evolución, los controles de seguridad en la nube deben adaptarse rápidamente a las nuevas amenazas.**
 
 Si busca el cumplimiento de normativas específicas que regulan el almacenamiento de datos, tome medidas para mantener estos requisitos de cumplimiento mediante auditorías de cumplimiento e informes periódicos generados a partir de los servicios respectivos.
 

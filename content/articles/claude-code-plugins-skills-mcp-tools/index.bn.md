@@ -1,7 +1,7 @@
 ---
 title: "Claude Code-এর ১০টি প্লাগইন, স্কিল ও MCP টুল: ব্যবহারিক নির্দেশিকা"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "পরিকল্পনা, কোড পর্যালোচনা, জ্ঞান ব্যবস্থাপনা, ডিজাইন ও অটোমেশনের জন্য Claude Code এক্সটেনশন বেছে নিন। দশটি টুল, নির্ভরতা ও ব্যবহারিক পরীক্ষা তুলনা করুন।"
@@ -185,7 +185,7 @@ notebooklm skill install
 /impeccable polish settings
 ```
 
-**Impeccable** focused interface work-এর জন্য design vocabulary দেয়। [Documentation](https://github.com/pbakaus/impeccable)-এ critique, layout, typography, accessibility check, motion এবং browser-based visual iteration আছে। উদাহরণে installed skill ও settings surface-সহ project ধরা হয়েছে।
+**Impeccable** focused interface work-এর জন্য design vocabulary দেয়। [ডকুমেন্টেশন](https://github.com/pbakaus/impeccable)-এ critique, layout, typography, accessibility check, motion এবং browser-based visual iteration আছে। উদাহরণে installed skill ও settings surface-সহ project ধরা হয়েছে।
 
 **Interaction problem দিয়ে শুরু করুন।** ইম্পোর্টারে ব্যবহারকারীরা কেন validation error মিস করে বা duplicate handling পছন্দ ভুল বোঝে তা জিজ্ঞেস করুন। visual polish-এর আগে proposed change review করুন। সুন্দর spacing একা অস্পষ্ট action ঠিক করে না।
 
@@ -193,7 +193,7 @@ notebooklm skill install
 
 ### Higgsfield
 
-**Higgsfield-এর MCP integration** agent-কে image ও video generation service-এর সঙ্গে যুক্ত করে। [Official integration page](https://higgsfield.ai/mcp)-এ Claude Code ও CLI connection option এবং creative workflow আছে। account ও interface অনুযায়ী current setup flow ব্যবহার করুন।
+**Higgsfield-এর MCP integration** agent-কে image ও video generation service-এর সঙ্গে যুক্ত করে। [অফিসিয়াল ইন্টিগ্রেশন পৃষ্ঠা](https://higgsfield.ai/mcp)-এ Claude Code ও CLI connection option এবং creative workflow আছে। account ও interface অনুযায়ী current setup flow ব্যবহার করুন।
 
 **Missing deliverable media হলে Higgsfield বেছে নিন।** illustrative product page-এর জন্য variant তৈরির আগে aspect ratio, composition, brand constraint এবং placement লিখুন। visual brief-কে page implementation task থেকে আলাদা রাখুন।
 
@@ -201,7 +201,7 @@ notebooklm skill install
 
 **Final file** intended display size-এ review করুন। visible text, unintended symbol, crop এবং product consistency পরীক্ষা করুন। generated terminal screen বা diagram সফল test-এর evidence নয়।
 
-| Design deliverable | Completion evidence |
+| ডিজাইন ফলাফল | সম্পন্নতার প্রমাণ |
 |---|---|
 | **Interface revision** | target viewport-এ প্রয়োজনীয় action কাজ করে |
 | **Image asset** | dimension, crop এবং content brief-এর সঙ্গে মেলে |
@@ -211,9 +211,9 @@ notebooklm skill install
 
 ### n8n MCP
 
-**n8n-এর built-in MCP server** connected client-কে workflow operation দেয়। [Current connection documentation](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)-এ Cloud ও self-hosted instance আছে। n8n 2.13.0 থেকে workflow build ও edit নথিবদ্ধ। এই নিবন্ধ n8n-এর নিজস্ব server নিয়ে, একই নামের unrelated community package নিয়ে নয়।
+**n8n-এর built-in MCP server** connected client-কে workflow operation দেয়। [বর্তমান সংযোগ নির্দেশিকা](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)-এ Cloud ও self-hosted instance আছে। n8n 2.13.0 থেকে workflow build ও edit নথিবদ্ধ। এই নিবন্ধ n8n-এর নিজস্ব server নিয়ে, একই নামের unrelated community package নিয়ে নয়।
 
-**এখানে instance-level access ব্যবহার করুন।** MCP Server Trigger node-এর scope আলাদা, এটি একটি workflow-এর tool প্রকাশ করে। [Tools reference](https://docs.n8n.io/connect/connect-to-n8n-mcp-server/mcp-server-tools-reference) deployed version-এর সঙ্গে মিলিয়ে দেখুন।
+**এখানে instance-level access ব্যবহার করুন।** MCP Server Trigger node-এর scope আলাদা, এটি একটি workflow-এর tool প্রকাশ করে। [টুলের তালিকা](https://docs.n8n.io/connect/connect-to-n8n-mcp-server/mcp-server-tools-reference) deployed version-এর সঙ্গে মিলিয়ে দেখুন।
 
 **ইচ্ছাকৃতভাবে access enable করুন।** full access-এর জন্য existing workflow-এ MCP exposure দরকার। search preview ব্যবহারকারীর existing permission-এর মধ্যে বিস্তৃত visibility দেয়। workflow exposure client-পিছু আলাদা allowlist নয়, যদিও client permission operation নিয়ন্ত্রণ করে।
 
@@ -226,7 +226,7 @@ notebooklm skill install
 **Illustrative exercise:** ছোট application-এ CSV importer যোগ করুন। importer row preview, invalid email field report এবং duplicate creation প্রতিরোধ করবে। customer record বা live external destination লাগবে না।
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# মূল্যায়ন ওয়ার্কশিট, কোনো টুল কনফিগারেশন ফাইল নয়
 task: "add CSV import preview"
 inputs:
   - "valid rows"
@@ -286,7 +286,7 @@ record:
 
 **একটি recurring failure ও একটি acceptance test বেছে নিন।** disposable project-এ matching extension পরীক্ষা করুন। তারপর ফল উন্নত করা সবচেয়ে ছোট combination রাখুন। কাজের output দরকার হলেই knowledge management, media generation বা automation যোগ করুন।
 
-**সম্পর্কিত নির্দেশনার জন্য**, agent বাছার সময় [CLI coding-agent comparison](/articles/cli-coding-agents-comparison/) পড়ুন। requirements, evidence ও review responsibility-র ব্যবহারিক কাজের জন্য [AI collaboration course](/ai-collaboration-course-start/) ব্যবহার করুন।
+**সম্পর্কিত নির্দেশনার জন্য**, agent বাছার সময় [CLI কোডিং এজেন্টের তুলনা](/articles/cli-coding-agents-comparison/) পড়ুন। requirements, evidence ও review responsibility-র ব্যবহারিক কাজের জন্য [AI collaboration course](/ai-collaboration-course-start/) ব্যবহার করুন।
 
 {{< centerbutton href="/ai-collaboration-course-start/" >}}
 AI Collaboration Course পড়ুন
@@ -294,13 +294,13 @@ AI Collaboration Course পড়ুন
 
 ## রেফারেন্স
 
-- [Graphify: code graphs and installation](https://github.com/Graphify-Labs/graphify)
-- [Matt Pocock: skill collection](https://github.com/mattpocock/skills)
-- [Claudex Loop: current grill-me-codex project](https://github.com/chaseai-yt/claudex-loop)
-- [OpenAI: Codex plugin for Claude Code](https://github.com/openai/codex-plugin-cc)
-- [claude-obsidian: source-linked knowledge management](https://github.com/AgriciDaniel/claude-obsidian)
-- [Multica: Karpathy-inspired coding guidelines](https://github.com/multica-ai/andrej-karpathy-skills)
-- [Impeccable: design commands and installation](https://github.com/pbakaus/impeccable)
-- [Higgsfield: agent integration](https://higgsfield.ai/mcp)
-- [notebooklm-py: unofficial library, CLI, and skill](https://github.com/teng-lin/notebooklm-py)
-- [n8n: official MCP connection guide](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)
+- [Graphify: কোড গ্রাফ ও ইনস্টলেশন](https://github.com/Graphify-Labs/graphify)
+- [Matt Pocock: স্কিল সংগ্রহ](https://github.com/mattpocock/skills)
+- [Claudex Loop: grill-me-codex-এর বর্তমান প্রকল্প](https://github.com/chaseai-yt/claudex-loop)
+- [OpenAI: Claude Code-এর Codex প্লাগইন](https://github.com/openai/codex-plugin-cc)
+- [claude-obsidian: উৎস-সংযুক্ত জ্ঞান ব্যবস্থাপনা](https://github.com/AgriciDaniel/claude-obsidian)
+- [Multica: Karpathy-অনুপ্রাণিত কোডিং নির্দেশিকা](https://github.com/multica-ai/andrej-karpathy-skills)
+- [Impeccable: ডিজাইন কমান্ড ও ইনস্টলেশন](https://github.com/pbakaus/impeccable)
+- [Higgsfield: এজেন্ট ইন্টিগ্রেশন](https://higgsfield.ai/mcp)
+- [notebooklm-py: অনানুষ্ঠানিক লাইব্রেরি, CLI ও স্কিল](https://github.com/teng-lin/notebooklm-py)
+- [n8n: MCP সংযোগের অফিসিয়াল নির্দেশিকা](https://docs.n8n.io/connect/connect-to-n8n-mcp-server)

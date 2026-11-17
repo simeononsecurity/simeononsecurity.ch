@@ -1,171 +1,171 @@
 ---
-title: "Why Port Forwarding Doesn't Work on T-Mobile Home Internet"
+title: "Warum Portweiterleitung bei T-Mobile Home Internet nicht funktioniert"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port."
+description: "Erfahre mehr über die Grenzen der Portweiterleitung bei T-Mobile 5G Home Internet, Provider-NAT und praktische Möglichkeiten, einen Heimserver ohne öffentlichen eingehenden Port zu erreichen."
 genre: ["Networking", "Self-Hosted", "Network Security"]
-tags: ["T-Mobile Home Internet", "T-Mobile port forwarding", "5G Home Internet", "CGNAT", "carrier-grade NAT", "NAT", "remote access", "home server", "homelab", "T-Mobile gateway", "bridge mode", "dynamic IP", "public IPv4", "double NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "private networking", "inbound connections", "cellular internet"]
+tags: ["T-Mobile Home Internet", "T-Mobile Portweiterleitung", "5G Home Internet", "CGNAT", "Provider-NAT", "NAT", "Fernzugriff", "Heimserver", "Homelab", "T-Mobile-Gateway", "Bridge-Modus", "dynamische IP", "öffentliche IPv4", "doppeltes NAT", "Tailscale", "Cloudflare Tunnel", "Cloudflare Access", "privates Netzwerk", "eingehende Verbindungen", "Mobilfunk-Internet"]
 cover: "/img/cover/t-mobile-home-internet-port-forwarding.webp"
-coverAlt: "A home cellular gateway faces a distant tower and a shared network gate beside a glowing cloud connection."
+coverAlt: "Ein Mobilfunk-Gateway für zu Hause ist mit einem entfernten Sendemast und einem gemeinsamen Netzzugang verbunden, daneben leuchtet eine Cloud-Verbindung."
 coverCaption: ""
 ---
 
-**T-Mobile's consumer 5G Home Internet gateways** do not offer configurable port forwarding. Adding a rule to a second router does not change the carrier gateway's settings or create a public inbound route. T-Mobile also documents no bridge-mode toggle or adjustable network address translation (NAT) type. [T-Mobile gateway settings](https://www.t-mobile.com/support/home-internet/connect).
+**Die Gateways für T-Mobile 5G Home Internet für Privatkunden** bieten keine konfigurierbare Portweiterleitung. Eine Regel auf einem zweiten Router ändert weder die Einstellungen des Provider-Gateways noch schafft sie einen öffentlichen eingehenden Pfad. T-Mobile dokumentiert auch keinen Schalter für den Bridge-Modus und keine Einstellung für den NAT-Typ. [Gateway-Einstellungen von T-Mobile](https://www.t-mobile.com/support/home-internet/connect).
 
-This article covers **cellular Home Internet**. Treat fiber and business products as separate services with their own documented capabilities.
+Dieser Artikel behandelt **Home Internet über Mobilfunk**. Glasfaser- und Geschäftskundenprodukte sind separate Dienste mit eigenen dokumentierten Funktionen.
 
-## Wichtige Erkenntnisse
+## Wichtigste Erkenntnisse
 
-- **Identify the limit:** distinguish a gateway feature from upstream address translation.
-- **Inspect the path:** record where each address and port belongs.
-- **Compare alternatives:** match client access and protocol requirements to a hosting method.
-- **Write a decision:** produce a connection plan with a test and fallback.
+- **Erkenne die Einschränkung:** Unterscheide eine Gateway-Funktion von einer vorgelagerten Adressübersetzung.
+- **Prüfe den Pfad:** Notiere, zu welchem Gerät jede Adresse und jeder Port gehört.
+- **Vergleiche Alternativen:** Stimme den Client-Zugriff und die Protokollanforderungen auf eine Hosting-Methode ab.
+- **Halte eine Entscheidung fest:** Erstelle einen Verbindungsplan mit Test und Rückfalloption.
 
-## Bevor Sie beginnen
+## Bevor du beginnst
 
-**Audience:** T-Mobile cellular Home Internet users trying to reach a home service from outside. **Prerequisites:** access to the server, its local network settings, and the supplied gateway's status information. A second Internet connection is useful for the final remote test.
+**Zielgruppe:** Nutzer von T-Mobile Home Internet über Mobilfunk, die von außerhalb einen Dienst zu Hause erreichen möchten. **Voraussetzungen:** Zugriff auf den Server, seine lokalen Netzwerkeinstellungen und die Statusinformationen des bereitgestellten Gateways. Eine zweite Internetverbindung ist für den abschließenden Fernzugriffstest hilfreich.
 
-**Estimated effort:** 15–20 minutes to gather requirements and run local checks. Configuring a replacement access method takes additional time. **Difficulty:** beginner to intermediate. The objective is a justified connection choice, rather than another unused router rule.
+**Geschätzter Aufwand:** 15–20 Minuten zum Sammeln der Anforderungen und für lokale Prüfungen. Die Einrichtung einer alternativen Zugriffsmethode benötigt zusätzliche Zeit. **Schwierigkeitsgrad:** Anfänger bis mittleres Niveau. Ziel ist eine begründete Verbindungsentscheidung, nicht eine weitere ungenutzte Routerregel.
 
-## Why a Local Port Rule Is Insufficient
+## Warum eine lokale Portregel nicht ausreicht
 
-**Port forwarding** maps incoming traffic at a router to an internal destination. For a home server to receive unsolicited Internet traffic, the route must work through every relevant upstream device. A successful local connection proves the server is reachable inside your network, not from outside it.
+**Portweiterleitung** leitet eingehenden Datenverkehr auf einem Router an ein internes Ziel weiter. Damit ein Heimserver unaufgeforderten Internetverkehr empfängt, muss der Pfad durch jedes relevante vorgelagerte Gerät funktionieren. Eine erfolgreiche lokale Verbindung zeigt, dass der Server in deinem Netzwerk erreichbar ist, nicht von außerhalb.
 
-**Carrier-grade NAT (CGNAT)** adds address translation in the provider's network. Subscribers share public IPv4 capacity, while the provider controls the outer translation. RFC 6598 reserves **`100.64.0.0/10`** for shared address space used in this kind of deployment. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**Carrier-Grade NAT (CGNAT)** fügt eine Adressübersetzung im Netz des Providers hinzu. Abonnenten teilen sich öffentliche IPv4-Kapazität, während der Provider die äußere Übersetzung kontrolliert. RFC 6598 reserviert **`100.64.0.0/10`** für gemeinsam genutzten Adressraum, der in solchen Umgebungen verwendet wird. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
 
-**Gateway support and carrier NAT are separate issues.** T-Mobile's support page establishes the gateway restriction. CGNAT explains why configuring your own router is also insufficient when upstream translation sits outside your control. A missing port-forwarding menu alone does not reveal the full carrier network design.
+**Gateway-Unterstützung und Provider-NAT sind getrennte Probleme.** Die Support-Seite von T-Mobile belegt die Einschränkung des Gateways. CGNAT erklärt, warum auch die Konfiguration deines eigenen Routers nicht ausreicht, wenn die vorgelagerte Übersetzung außerhalb deiner Kontrolle liegt. Ein fehlendes Menü für Portweiterleitung zeigt allein nicht den vollständigen Aufbau des Providernetzes.
 
-**The practical outcome is a choice of connection model.** Use an overlay network for private access, an outbound tunnel for an HTTP service, or a hosted endpoint when outside users need public access. Test the chosen method from a separate network. Do not use a successful LAN request as evidence of external reachability.
+**Praktisch musst du ein Verbindungsmodell wählen.** Verwende ein Overlay-Netzwerk für privaten Zugriff, einen ausgehenden Tunnel für einen HTTP-Dienst oder einen gehosteten Endpunkt, wenn externe Nutzer öffentlichen Zugriff benötigen. Teste die gewählte Methode über ein anderes Netzwerk. Eine erfolgreiche LAN-Anfrage ist kein Beleg für externe Erreichbarkeit.
 
-| Change | What it changes | What remains unresolved |
+| Änderung | Was sich ändert | Was ungelöst bleibt |
 |---|---|---|
-| **Rule on a second router** | Forwarding on your router | Carrier gateway and upstream route |
-| **Different DNS resolver** | Name resolution | Inbound connectivity |
-| **Dynamic DNS hostname** | A name following an address | A usable inbound path |
-| **Faster Wi-Fi** | Local wireless performance | Reachability from the Internet |
+| **Regel auf einem zweiten Router** | Weiterleitung auf deinem Router | Provider-Gateway und vorgelagerter Pfad |
+| **Anderer DNS-Resolver** | Namensauflösung | Eingehende Konnektivität |
+| **Dynamischer DNS-Hostname** | Ein Name, der einer Adresse folgt | Ein nutzbarer eingehender Pfad |
+| **Schnelleres WLAN** | Lokale WLAN-Leistung | Erreichbarkeit aus dem Internet |
 
-**Dynamic addressing** means an address changes over time. It is distinct from sharing an address through NAT. T-Mobile documents dynamic addressing and no consumer Home Internet option to change it to static on this support page. [T-Mobile connection limitations](https://www.t-mobile.com/support/home-internet/connect).
+**Dynamische Adressierung** bedeutet, dass sich eine Adresse im Laufe der Zeit ändert. Das ist etwas anderes als das Teilen einer Adresse über NAT. T-Mobile dokumentiert dynamische Adressierung. Auf dieser Support-Seite ist keine Option für Privatkunden beschrieben, Home Internet auf eine statische Adresse umzustellen. [Verbindungseinschränkungen bei T-Mobile](https://www.t-mobile.com/support/home-internet/connect).
 
-## Trace the Address Ownership
+## Verfolge, wer die Adressen kontrolliert
 
-In a **provider-NAT example**, the path has several independent boundaries:
+In einem **Beispiel mit Provider-NAT** verläuft der Pfad über mehrere unabhängige Grenzen:
 
 ```text
-Remote client -> provider translation -> home gateway -> optional router -> server
-                   provider controls      home devices and local settings
+Entfernter Client -> Provider-Übersetzung -> Heim-Gateway -> optionaler Router -> Server
+                       Provider kontrolliert   Heimgeräte und lokale Einstellungen
 ```
 
-**An address visible to a website** describes the connection reaching the website. It does not establish an inbound mapping to your server. The CGN requirements document discusses mappings in terms of subscriber identity, external address, port, and time. [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
+**Eine für eine Website sichtbare Adresse** beschreibt die Verbindung, die diese Website erreicht. Sie stellt keine eingehende Zuordnung zu deinem Server her. Die CGN-Anforderungen beschreiben Zuordnungen anhand von Teilnehmeridentität, externer Adresse, Port und Zeit. [RFC 6888](https://www.rfc-editor.org/rfc/rfc6888.html).
 
-**Record the interface:** distinguish your server's local address, a second router's WAN address, the cellular gateway's reported address, and an external service's observation. Here, **WAN** means the upstream side of a router. An address without its interface label is weak diagnostic evidence.
+**Notiere die Schnittstelle:** Unterscheide die lokale Serveradresse, die WAN-Adresse des zweiten Routers, die vom Mobilfunk-Gateway angezeigte Adresse und die Beobachtung eines externen Dienstes. **WAN** bezeichnet hier die vorgelagerte Seite eines Routers. Eine Adresse ohne Schnittstellenbezeichnung ist ein schwacher Diagnosebeleg.
 
-Consider this **illustrative observation**, using documentation addresses for the public side:
+Betrachte diese **veranschaulichende Beobachtung** mit Dokumentationsadressen für die öffentliche Seite:
 
-| Observation point | Example reading | Interpretation |
+| Beobachtungspunkt | Beispielwert | Bedeutung |
 |---|---|---|
-| **Server LAN** | `192.168.50.10` | Local destination |
-| **Second router WAN** | `192.168.12.20` | Another private network upstream |
-| **External IPv4 check** | `203.0.113.25` | Address seen outside |
+| **Server-LAN** | `192.168.50.10` | Lokales Ziel |
+| **WAN des zweiten Routers** | `192.168.12.20` | Weiter oben liegt ein weiteres privates Netzwerk |
+| **Externe IPv4-Prüfung** | `203.0.113.25` | Von außen sichtbare Adresse |
 
-**Supported conclusion:** the second router is behind another private network. **Unsupported conclusion:** its WAN reading proves the exact carrier translation arrangement. Inspect the cellular gateway separately if its status page exposes the relevant address.
+**Belegte Schlussfolgerung:** Der zweite Router befindet sich hinter einem weiteren privaten Netzwerk. **Nicht belegte Schlussfolgerung:** Der WAN-Wert beweist die genaue Übersetzung durch den Provider. Prüfe das Mobilfunk-Gateway separat, falls seine Statusseite die relevante Adresse anzeigt.
 
-**Address-space clue:** a provider-facing address in `100.64.0.0/10` is shared address space. Record which interface reports it. A private-network tool also assigning addresses from this range would make an unlabeled screenshot ambiguous. The range itself is defined by [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
+**Hinweis aus dem Adressbereich:** Eine providerseitige Adresse aus `100.64.0.0/10` gehört zum gemeinsam genutzten Adressraum. Notiere, welche Schnittstelle sie meldet. Wenn ein privates Netzwerkwerkzeug ebenfalls Adressen aus diesem Bereich vergibt, ist ein nicht beschrifteter Screenshot mehrdeutig. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html) definiert den Bereich.
 
-## Check the Local Service
+## Prüfe den lokalen Dienst
 
-For an **HTTP dashboard**, run this request from another Linux or macOS device on your home network. Replace the example address and port with your server's values:
+Führe diese Anfrage für ein **HTTP-Dashboard** von einem anderen Linux- oder macOS-Gerät in deinem Heimnetz aus. Ersetze Beispieladresse und Port durch die Werte deines Servers:
 
 ```bash
 curl --connect-timeout 5 --max-time 10 --output /dev/null --write-out '%{http_code}\n' http://192.168.50.10:8080/
 ```
 
-**`--connect-timeout`** bounds connection setup. **`--max-time`** bounds the whole request. **`--output`** discards the response body, and **`--write-out`** displays the HTTP status. These options are documented in the [curl manual](https://curl.se/docs/manpage.html).
+**`--connect-timeout`** begrenzt den Verbindungsaufbau. **`--max-time`** begrenzt die gesamte Anfrage. **`--output`** verwirft den Antworttext, und **`--write-out`** zeigt den HTTP-Status an. Diese Optionen sind im [curl-Handbuch](https://curl.se/docs/manpage.html) dokumentiert.
 
-**Interpret the result:** an HTTP response, including an authentication response, shows an HTTP endpoint answered on this route. Confirm its identity in your browser. A timeout does not identify the failing layer. Inspect the listening address, port, and host firewall next.
+**Interpretiere das Ergebnis:** Eine HTTP-Antwort, auch eine Authentifizierungsantwort, zeigt, dass ein HTTP-Endpunkt über diesen Pfad geantwortet hat. Bestätige seine Identität im Browser. Ein Timeout zeigt nicht, welche Ebene ausgefallen ist. Prüfe als Nächstes die Listen-Adresse, den Port und die Host-Firewall.
 
-*This check applies to HTTP. A game using UDP needs a protocol-appropriate test.*
+*Diese Prüfung gilt für HTTP. Ein Spiel, das UDP verwendet, erfordert einen protokollgerechten Test.*
 
-## Choose an Alternative Around the Service
+## Wähle eine passende Alternative für den Dienst
 
-**Private access** and **public hosting** have different requirements. Start by deciding who needs the connection and whether they are willing to install a client.
+**Privater Zugriff** und **öffentliches Hosting** haben unterschiedliche Anforderungen. Entscheide zuerst, wer die Verbindung benötigt und ob diese Personen einen Client installieren möchten.
 
-**TCP** transports an ordered stream over a connection. **UDP** transports individual datagrams. Hosting support must match the application's transport, even when two services use the same numeric port.
+**TCP** überträgt einen geordneten Datenstrom über eine Verbindung. **UDP** überträgt einzelne Datagramme. Das Hosting muss das Transportprotokoll der Anwendung unterstützen, auch wenn zwei Dienste dieselbe Portnummer verwenden.
 
-| Need | Approach to evaluate | Main constraint |
+| Bedarf | Zu prüfender Ansatz | Hauptbeschränkung |
 |---|---|---|
-| **Your laptop reaching your home server** | Tailscale private network | Enroll devices and configure access rules |
-| **A private browser dashboard** | Cloudflare Tunnel plus Access | Configure the hostname and identity policy |
-| **A website for public visitors** | Public hosting or an appropriate tunnel | Review protocol, capacity, and service requirements |
-| **A game server for ordinary game clients** | Hosting with documented inbound port support | Match the game's TCP/UDP requirements |
+| **Dein Laptop soll den Heimserver erreichen** | Privates Tailscale-Netzwerk | Geräte registrieren und Zugriffsregeln konfigurieren |
+| **Privates Browser-Dashboard** | Cloudflare Tunnel plus Access | Hostnamen und Identitätsrichtlinie einrichten |
+| **Website für öffentliche Besucher** | Öffentliches Hosting oder geeigneter Tunnel | Protokoll, Kapazität und Dienstanforderungen prüfen |
+| **Gameserver für gewöhnliche Spielclients** | Hosting mit dokumentierter Unterstützung für eingehende Ports | TCP/UDP-Anforderungen des Spiels erfüllen |
 
-**Tailscale** attempts a direct connection and supports relayed connectivity when direct communication fails. This avoids relying on a manually forwarded home port, although the resulting path affects performance. Read the [Tailscale connection overview](https://tailscale.com/docs/reference/connection-types) and our [relay explainer](/articles/why-tailscale-uses-a-relay/).
+**Tailscale** versucht eine direkte Verbindung und unterstützt Relay-Verbindungen, wenn die direkte Kommunikation fehlschlägt. Dadurch ist keine manuell weitergeleitete Heimnetz-Portfreigabe erforderlich, auch wenn der resultierende Pfad die Leistung beeinflusst. Lies die [Übersicht zu Tailscale-Verbindungen](https://tailscale.com/docs/reference/connection-types) und unsere [Erklärung zu Relays](/articles/why-tailscale-uses-a-relay/).
 
-**Cloudflare Tunnel** establishes an outbound connection from your server. For a private dashboard, pair it with an Access policy. A published hostname without the policy does not add an identity check. See [Tunnel connectivity](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) and [Tunnel vs Access](/articles/cloudflare-tunnel-vs-access/).
+**Cloudflare Tunnel** stellt eine ausgehende Verbindung von deinem Server her. Für ein privates Dashboard kombinierst du ihn mit einer Access-Richtlinie. Ein veröffentlichter Hostname ohne diese Richtlinie fügt keine Identitätsprüfung hinzu. Siehe [Tunnel-Konnektivität](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) und [Tunnel im Vergleich zu Access](/articles/cloudflare-tunnel-vs-access/).
 
-**A VPN subscription alone** does not specify an inbound hosting arrangement. Before buying any service, verify its supported protocols, exposed ports, authentication options, and restrictions. For a game server, ask specifically about the game's required UDP ports.
+**Ein VPN-Abonnement allein** legt keine eingehende Hosting-Lösung fest. Prüfe vor dem Kauf eines Dienstes unterstützte Protokolle, freigegebene Ports, Authentifizierungsoptionen und Einschränkungen. Frage bei einem Gameserver gezielt nach den erforderlichen UDP-Ports des Spiels.
 
-## What About IPv6?
+## Wie sieht es mit IPv6 aus?
 
-**IPv6 addressing and inbound permission** are separate requirements. IPv6 reduces dependence on IPv4 address translation, while stateful gateway filtering still controls incoming connections. RFC 6092 describes residential IPv6 filtering, including handling unsolicited traffic. It does not document the settings on your T-Mobile gateway. [Residential IPv6 security recommendations](https://www.rfc-editor.org/rfc/rfc6092.html).
+**IPv6-Adressierung und die Erlaubnis für eingehenden Datenverkehr** sind getrennte Anforderungen. IPv6 verringert die Abhängigkeit von IPv4-Adressübersetzung, während zustandsbehaftete Gateway-Filter eingehende Verbindungen weiter kontrollieren. RFC 6092 beschreibt Filterung in privaten IPv6-Netzen, einschließlich des Umgangs mit unaufgefordertem Datenverkehr. Die RFC dokumentiert nicht die Einstellungen deines T-Mobile-Gateways. [Sicherheitsempfehlungen für privates IPv6](https://www.rfc-editor.org/rfc/rfc6092.html).
 
-**Evaluate the complete route:** the remote client needs IPv6 connectivity, the server needs an appropriate address and listener, and the network must permit the traffic. A successful IPv6 browsing test proves an outbound path. It does not prove an Internet client reaches your server.
+**Bewerte den gesamten Pfad:** Der Remote-Client benötigt IPv6-Konnektivität, der Server eine geeignete Adresse und einen Listener, und das Netzwerk muss den Datenverkehr erlauben. Ein erfolgreicher IPv6-Webaufruf bestätigt einen ausgehenden Pfad. Er beweist nicht, dass ein Internet-Client deinen Server erreicht.
 
-| Evidence | What it establishes |
+| Beleg | Was er belegt |
 |---|---|
-| **An IPv6 address on the server** | An address is assigned to an interface |
-| **A successful outbound IPv6 request** | This client reached an external service |
-| **A remote application response** | The tested inbound application route works |
+| **IPv6-Adresse auf dem Server** | Einer Schnittstelle wurde eine Adresse zugewiesen |
+| **Erfolgreiche ausgehende IPv6-Anfrage** | Dieser Client hat einen externen Dienst erreicht |
+| **Antwort einer Remote-Anwendung** | Der getestete eingehende Anwendungspfad funktioniert |
 
-**Decision rule:** choose IPv6 hosting only after confirming the complete inbound path and your clients' compatibility. Avoid treating an address assignment as a substitute for a remote application test.
+**Entscheidungsregel:** Wähle IPv6-Hosting erst, wenn du den vollständigen eingehenden Pfad und die Kompatibilität deiner Clients bestätigt hast. Eine zugewiesene Adresse ersetzt keinen Remote-Anwendungstest.
 
-## Check the Application Before Changing the Network
+## Prüfe die Anwendung, bevor du das Netzwerk änderst
 
-Use these **diagnostic steps** to separate local failures from remote-access limits:
+Mit diesen **Diagnoseschritten** unterscheidest du lokale Fehler von Einschränkungen beim Fernzugriff:
 
-1. **Local connection:** confirm another home device reaches the server's local address and intended port.
-2. **Service configuration:** confirm the application listens on the expected interface and the host firewall permits the intended client.
-3. **Audience:** decide whether access is private or public.
-4. **Remote test:** test the chosen tunnel or private-network connection from a different Internet connection.
-5. **Performance:** measure the actual workload after connectivity succeeds.
+1. **Lokale Verbindung:** Prüfe, ob ein anderes Heimgerät die lokale Serveradresse und den vorgesehenen Port erreicht.
+2. **Dienstkonfiguration:** Prüfe, ob die Anwendung an der erwarteten Schnittstelle lauscht und die Host-Firewall den vorgesehenen Client zulässt.
+3. **Zielgruppe:** Entscheide, ob der Zugriff privat oder öffentlich sein soll.
+4. **Remote-Test:** Teste den ausgewählten Tunnel oder das private Netzwerk über eine andere Internetverbindung.
+5. **Leistung:** Miss die tatsächliche Arbeitslast, sobald die Verbindung funktioniert.
 
-**A failed local test** needs attention before choosing a remote-access service. Port forwarding would not repair an application listening on the wrong interface.
+**Ein fehlgeschlagener lokaler Test** muss untersucht werden, bevor du einen Fernzugriffsdienst auswählst. Portweiterleitung behebt nicht, dass eine Anwendung an der falschen Schnittstelle lauscht.
 
-## Work Through a Hosting Choice
+## Entscheide dich für ein Hosting-Modell
 
-**Scenario:** you want to read a home dashboard while traveling, and two friends want to join a game server. Your dashboard is HTTP. The game requires UDP, and your friends want to use ordinary game clients without installing another network client.
+**Szenario:** Du möchtest unterwegs ein Dashboard zu Hause aufrufen, und zwei Freunde möchten einem Gameserver beitreten. Das Dashboard verwendet HTTP. Das Spiel benötigt UDP, und deine Freunde möchten gewöhnliche Spielclients verwenden, ohne einen weiteren Netzwerkclient zu installieren.
 
-**Separate the requirements.** A browser-based dashboard with a small identity list fits an authenticated web publishing arrangement. The game needs a public route supporting its required transport and clients. Solving the first requirement does not establish support for the second.
+**Trenne die Anforderungen.** Ein browserbasiertes Dashboard mit einer kleinen Identitätsliste eignet sich für eine authentifizierte Veröffentlichung als Webdienst. Das Spiel benötigt einen öffentlichen Pfad, der sein Transportprotokoll und die Clients unterstützt. Die Lösung für die erste Anforderung belegt nicht, dass auch die zweite erfüllt ist.
 
-| Requirement | Reasoned choice |
+| Anforderung | Begründete Wahl |
 |---|---|
-| **Private dashboard in a browser** | Evaluate Tunnel plus Access |
-| **Personal access with enrolled devices** | Evaluate a private overlay network |
-| **Public UDP game clients** | Evaluate hosting with documented UDP reachability |
+| **Privates Dashboard im Browser** | Tunnel plus Access prüfen |
+| **Persönlicher Zugriff über registrierte Geräte** | Privates Overlay-Netzwerk prüfen |
+| **Öffentliche UDP-Spielclients** | Hosting mit dokumentierter UDP-Erreichbarkeit prüfen |
 
-**Review question:** would dynamic DNS make the game reachable through an unavailable inbound route? No. Updating a hostname does not create the required mapping or listener. Reject proposals addressing only the name while leaving the route unexplained.
+**Kontrollfrage:** Macht dynamisches DNS das Spiel über einen nicht verfügbaren eingehenden Pfad erreichbar? Nein. Ein aktualisierter Hostname erzeugt weder das benötigte Mapping noch einen Listener. Verwirf Vorschläge, die nur den Namen ändern und den Pfad ungeklärt lassen.
 
-**Tradeoff to record:** moving the game to external hosting changes recurring cost and administration. Asking friends to join a private network changes their setup requirements. Choose after confirming which constraint is negotiable.
+**Halte den Zielkonflikt fest:** Das Spiel extern zu hosten verursacht wiederkehrende Kosten und Verwaltungsaufwand. Freunde in ein privates Netzwerk einzuladen ändert ihre Einrichtungsanforderungen. Entscheide, nachdem du festgestellt hast, welche Einschränkung verhandelbar ist.
 
-## Build a Connection Plan
+## Erstelle einen Verbindungsplan
 
-Create a **one-service plan** with these fields:
+Erstelle einen **Plan für einen einzelnen Dienst** mit diesen Feldern:
 
 ```text
-Application and required TCP/UDP ports:
-People or devices needing access:
-Client installation acceptable:
-Local service test result:
-Inbound path available:
-Chosen access method:
-Authentication method:
-Remote test and success criterion:
-Fallback if the test fails:
+Anwendung und benötigte TCP/UDP-Ports:
+Personen oder Geräte mit Zugriffsbedarf:
+Ist die Installation eines Clients akzeptabel:
+Ergebnis des lokalen Diensttests:
+Verfügbarer eingehender Pfad:
+Gewählte Zugriffsmethode:
+Authentifizierungsmethode:
+Remote-Test und Erfolgskriterium:
+Alternative bei fehlgeschlagenem Test:
 ```
 
-**Completion criterion:** every step from the remote client to the application has an identified owner and supported mechanism. For a home tunnel, include the connector. For external hosting, include the host's firewall and public listener. Leave unsupported assumptions visible until verified.
+**Abschlusskriterium:** Für jeden Schritt vom Remote-Client bis zur Anwendung ist eine verantwortliche Stelle und ein unterstützter Mechanismus angegeben. Nenne bei einem Heimtunnel den Connector. Nenne bei externem Hosting die Host-Firewall und den öffentlichen Listener. Lass ungeprüfte Annahmen sichtbar, bis du sie bestätigt hast.
 
 ## Nächste Schritte
 
-For a browser dashboard, start with the [Cloudflare Tunnel setup guide](/guides/how-to-setup-and-use-cloudflare-tunnels/) and add Access. For broader service context, read the [T-Mobile Home Internet overview](/other/t-mobile-home-internet-benefits-connectivity-features/).
+Beginne für ein Browser-Dashboard mit der [Einrichtungsanleitung für Cloudflare Tunnel](/guides/how-to-setup-and-use-cloudflare-tunnels/) und ergänze Access. Für einen breiteren Überblick lies die [Einführung zu T-Mobile Home Internet](/other/t-mobile-home-internet-benefits-connectivity-features/).

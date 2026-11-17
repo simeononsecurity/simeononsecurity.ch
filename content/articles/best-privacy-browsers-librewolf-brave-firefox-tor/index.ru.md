@@ -1,7 +1,7 @@
 ---
 title: "Лучшие браузеры для конфиденциальности 2026: LibreWolf против Brave против Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 'Полное сравнение лучших браузеров с акцентом на конфиденциальность в 2026 году: LibreWolf, Brave, Firefox, Tor и другие. Подробные тесты конфиденциальности, показатели производительности и анализ безопасности для защиты ваших данных в интернете.'
@@ -174,12 +174,12 @@ coverCaption: Защитите свою конфиденциальность и 
 
 **Основные настройки about:config:**
 ```
-// Even stricter privacy (optional):
+// Ещё более строгая приватность (необязательно):
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // Полная изоляция cookie
 
-// Performance optimization:
+// Оптимизация производительности:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **Основные настройки приватности:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+Настройки > Shields:
+✓ Блокировка трекеров и рекламы: строгая
+✓ Переводить соединения на HTTPS
+✓ Блокировать сценарии (при работе с чувствительными данными)
+✓ Блокировка цифровых отпечатков: строгая
+✓ Блокировать cookie: сторонние cookie
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+Настройки > Приватность и защита:
+✓ Политика обработки IP WebRTC: отключить UDP без прокси
+✓ Безопасный просмотр: стандартная защита
+□ Разрешить аналитику продукта с защитой приватности (отключить)
+✓ Ежедневно отправлять сведения об использовании: выкл.
+✓ Автодополнение поисковых запросов: выкл.
 ```
 
 **Рекомендуемые расширения:**
@@ -404,14 +404,14 @@ Settings > Privacy and security:
 
 **1. Мультиаккаунтные контейнеры:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Бесплатное расширение Mozilla
+Разделяйте cookie и историю по контекстам:
+- Личный контейнер (зелёный)
+- Рабочий контейнер (синий)
+- Банковский контейнер (красный)
+- Контейнер покупок (оранжевый)
 
-Prevents cross-contamination
+Предотвращает смешивание данных между контекстами
 ```
 
 **2. Firefox Relay:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. Раздел "Приватность и безопасность":**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ Улучшенная защита от отслеживания: строгая
+✓ Отправлять сайтам запрос "Не отслеживать": всегда
+✓ Режим только HTTPS: включить во всех окнах
+✓ DNS через HTTPS: максимальная защита (Cloudflare)
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Cookie и данные сайтов:
+✓ Удалять cookie при закрытии Firefox
+□ Все сторонние cookie (вместо этого используйте ETP)
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+История:
+○ Никогда не сохранять историю (максимальная приватность)
+● Использовать свои настройки (рекомендуется):
+  ✓ Очищать историю при закрытии Firefox
+  ✓ Подсказки в адресной строке: только закладки
 ```
 
 **2. Усиление безопасности about:config:**
 ```
-// Resist fingerprinting
+// Защита от цифрового отпечатка
 privacy.resistFingerprinting = true
 
-// First party isolation
+// Изоляция первого сайта
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// Защита WebRTC
 media.peerconnection.enabled = false
 
-// Referrer header control
+// Управление заголовком реферера
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// Отключить WebGL
+webgl.disabled = true (может нарушить работу некоторых сайтов)
 
-// Letterboxing
+// Добавление полей по краям
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **Сеть Onion:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+Вы → Входной узел → Промежуточный узел → Выходной узел → Сайт
+     [Зашифровано]  [Зашифровано]  [Не зашифровано]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- Входной узел знает вас, но не пункт назначения
+- Промежуточный узел не знает ни того, ни другого
+- Выходной узел знает пункт назначения, но не вас
+- Каждый уровень шифруется отдельно
 ```
 
 **Три уровня безопасности:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **Советы по безопасности:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ Не разворачивайте окно на весь экран (снижение цифрового отпечатка)
+✓ Не устанавливайте расширения
+✓ Используйте только сайты HTTPS
+✓ Не используйте торренты через Tor
+✓ Не входите в настоящие учётные записи
+✗ По возможности не используйте Windows
+✓ Для максимальной анонимности рассмотрите Tails OS
+✓ Используйте мосты в регионах с цензурой
 ```
 
 ### Tor против VPN
@@ -708,20 +708,20 @@ You → Entry Node → Middle Node → Exit Node → Website
 ### Быстрое дерево решений
 
 ```
-Need maximum anonymity (journalists, activists)?
+Нужна максимальная анонимность (журналистам, активистам)?
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+Нужны приватность, совместимость с Chrome и скорость?
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+Нужен Firefox без телеметрии и с максимальной приватностью?
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+Нужен популярный браузер с хорошей приватностью и расширениями?
+    → Firefox (с правильными настройками)
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+Нужен мобильный браузер с защитой приватности?
+    → Brave (лучший в целом) или Firefox Focus (самый простой)
 ```
 
 ### Рекомендации по сценариям использования
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **Шаг 2: Импорт данных**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+Файл → Импорт из другого браузера
+Выберите: Chrome
+Выберите: закладки, пароли, историю
+Импорт расширений: установите их вручную заново
 ```
 
 **Шаг 3: Настройте параметры конфиденциальности**
@@ -922,6 +922,41 @@ Import Extensions: Manually reinstall
 - Защищает от кражи личности
 - Предотвращает манипуляции
 - Фундаментальное право человека
+
+## Проверки браузеров для конфиденциальности в 2026 году
+
+Название браузера само по себе не подтверждает защиту конфиденциальности. Перед повседневным использованием проверьте настройки по умолчанию, канал обновлений, правила для расширений и работу синхронизации.
+
+1. Скачивайте браузер с официального сайта проекта или из надежного магазина приложений. Не используйте перепакованные сборки.
+2. Обновляйте браузер и операционную систему. Настройки конфиденциальности не исправят уязвимости без патчей.
+3. Проверьте встроенную защиту от трекеров, снятия цифрового отпечатка, вредоносных загрузок и обманных сайтов.
+4. Считайте расширения программами с особыми правами. Устанавливайте меньше расширений, проверяйте разрешения и удаляйте неиспользуемые.
+5. Проверьте профиль с помощью [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) и [BrowserLeaks](https://browserleaks.com/). Тест описывает один профиль браузера и не доказывает анонимность.
+6. Разделяйте идентичности с помощью отдельных профилей браузера. Не входите в личные аккаунты в окне Tor Browser для конфиденциального исследования.
+7. Используйте стандартные настройки Tor Browser. Дополнительные шрифты и расширения, а также изменение размера окна снижают пользу общего отпечатка.
+
+LibreWolf подходит тем, кому нужны более строгие настройки по умолчанию и кто готов иногда решать проблемы совместимости. Brave подходит тем, кому нужны совместимость с Chromium и встроенная блокировка. Firefox подходит тем, кому нужна поддержка Mozilla и гибкое управление конфиденциальностью. Tor Browser подходит тем, кому нужна анонимность на сетевом уровне и кто принимает более низкую скорость и совместимость с сайтами.
+
+[Руководство Tor Browser](https://tb-manual.torproject.org/) и [справочник Mozilla по конфиденциальности Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) подробнее объясняют эти настройки.
+
+## Текущие ограничения конфиденциальности и список проверок
+
+Защита браузера снижает раскрытие данных, но не делает анонимными аккаунт, устройство или соединение. **Приватный просмотр** удаляет выбранные локальные данные истории после сеанса. Он не скрывает трафик от оператора сети и не мешает сайту распознать пользователя, который вошел в аккаунт. [Tor Project объясняет разницу](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**Для защиты от снятия цифрового отпечатка важно, насколько распространена ваша конфигурация.** Tor Browser стремится объединять пользователей в обычные группы отпечатков с помощью letterboxing, стандартизированных значений и изоляции первого источника. Tor Project отмечает, что полная анонимность невозможна. Без конкретной причины не добавляйте необычные расширения, не разворачивайте окно Tor на весь экран и не меняйте настройки по умолчанию. [Прочитайте рекомендации Tor по цифровым отпечаткам](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf нужно регулярно обновлять.** В FAQ проекта сказано, что выпуски часто выходят в течение трех дней после обновлений Firefox upstream, а собственного автоматического обновления у браузера нет. Используйте пакетный менеджер или способ установки для своей платформы и проверяйте установленную версию после выпусков исправлений безопасности. [Откройте FAQ LibreWolf](https://librewolf.net/docs/faq/).
+
+Перед выбором браузера проверьте следующее:
+
+- **Модель угроз:** решите, нужно ли вам сократить отслеживание, разделить аккаунты, противостоять цензуре или сохранить анонимность.
+- **Путь обновлений:** выясните, кто выпускает обновления и как вы будете их устанавливать.
+- **Совместимость:** проверьте банковские сайты, рабочие сервисы, медиа, расширения и специальные возможности до переноса всего рабочего процесса.
+- **Разделение идентичностей:** не используйте личные учетные записи в сеансах, задача которых уменьшить связь между действиями.
+- **Цифровой отпечаток:** придерживайтесь обычной конфигурации браузера. Большое число расширений конфиденциальности может сделать браузер более заметным.
+- **Сетевой уровень:** считайте DNS, VPN и Tor отдельными средствами. Каждое защищает свою часть соединения.
+
+Оценки производительности и конфиденциальности в других разделах этой страницы являются историческими измерениями или иллюстративными сравнениями, если не указаны методика, дата, конфигурация оборудования и исходные результаты. Не считайте их актуальными универсальными рейтингами. Проверяйте свои сайты и устройства после каждого крупного обновления браузера.
 
 ## Заключение: Взять под контроль вашу цифровую конфиденциальность
 

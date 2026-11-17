@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC: przewodnik dla początkujących"
 date: 2023-04-02
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj możliwości PowerShell Desired State Configuration (DSC), aby zautomatyzować i zarządzać konfiguracjami systemu w celu zapewnienia bezpiecznego i zgodnego środowiska."
 tags: ["PowerShell", "DSC", "Zarządzanie konfiguracją", "Automatyzacja", "Windows", "Administracja systemem", "Najlepsze praktyki", "Zgodność", "Bezpieczeństwo", "Infrastruktura", "DevOps", "Konfiguracja serwera", "Testowanie", "Git", "Kontrola źródła", "Przepisy rządowe", "NIST", "CIS", "Dryft konfiguracji", "Zasoby niestandardowe"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "Kreskówkowy obraz pewnego siebie administratora systemu z peleryną superbohatera, stojącego obok dobrze zorganizowanej szafy serwerowej, trzymającego skrypt PowerShell DSC w jednej ręce i tarczę z logo Windows w drugiej, chroniącego serwery przed dryfem konfiguracji i zagrożeniami bezpieczeństwa."
 coverCaption: ""
 ---
@@ -83,7 +84,7 @@ ______
 
 ### Wytyczne NIST
 
-Narodowy Instytut Standardów i Technologii (NIST) zapewnia wytyczne dotyczące zarządzania konfiguracją systemu. W szczególności [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) publication contains a section (CM-2) w sprawie konfiguracji bazowych, które są istotne dla korzystania z DSC. Wytyczne te podkreślają znaczenie utrzymywania, monitorowania i kontrolowania zmian w konfiguracji systemu. PowerShell DSC może pomóc organizacjom w przestrzeganiu tych wytycznych, zapewniając spójny i zautomatyzowany sposób zarządzania konfiguracjami systemu.
+Narodowy Instytut Standardów i Technologii (NIST) zapewnia wytyczne dotyczące zarządzania konfiguracją systemu. W szczególności publikacja [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) zawiera sekcję (CM-2) dotyczącą konfiguracji bazowych, istotną dla stosowania DSC. Wytyczne te podkreślają znaczenie utrzymywania, monitorowania i kontrolowania zmian w konfiguracji systemu. PowerShell DSC może pomóc organizacjom w przestrzeganiu tych wytycznych, zapewniając spójny i zautomatyzowany sposób zarządzania konfiguracjami systemu.
 
 ### Federalna ustawa o zarządzaniu bezpieczeństwem informacji (FISMA)
 
@@ -97,12 +98,12 @@ ______
 
 ## Referencje
 
-- [PowerShell Desired State Configuration (DSC) official documentation](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+- [Oficjalna dokumentacja PowerShell Desired State Configuration (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
-- [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [Pester - framework testowy PowerShell](https://github.com/pester/Pester)
+- [Poradnik dla początkujących: szyfrowanie w celu ochrony danych](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Dobre praktyki instalowania poprawek zabezpieczeń w systemie Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 

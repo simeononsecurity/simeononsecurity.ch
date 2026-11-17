@@ -1,6 +1,7 @@
 ---
 title: "Utilizați ChatGPT în terminalul dvs. (Bash, PowerShell, Python): o introducere în instrumentul CLI ChatGPT pentru dezvoltatori"
 date: 2023-02-07
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Aflați cum să utilizați modelul ChatGPT al OpenAI prin interfața convenabilă pentru linia de comandă (CLI) pentru generarea de text și răspunsul la întrebări cu ușurință."
@@ -10,7 +11,7 @@ coverAlt: "Un dezvoltator care stă la computer, tastând pe tastatură cu ChatG
 coverCaption: ""
 ---
 
-Modelul **ChatGPT**, dezvoltat de OpenAI, **este un model de limbaj de ultimă generație** capabil să genereze text asemănător omului. Pentru dezvoltatori, ChatGPT CLI (Command Line Interface) oferă o modalitate convenabilă de a interacționa cu modelul ChatGPT prin linia de comandă. Cu ChatGPT CLI, dezvoltatorii pot genera fără efort text, text complet sau pot răspunde la întrebări folosind capabilitățile avansate ale modelului.
+Modelul **ChatGPT**, dezvoltat de OpenAI, **este un model de limbaj de ultimă generație** capabil să genereze text asemănător omului. Pentru dezvoltatori, ChatGPT CLI (Command Line Interface) oferă o modalitate convenabilă de a interacționa cu modelul ChatGPT prin linia de comandă. Cu ChatGPT CLI, dezvoltatorii pot genera fără efort text, completa textul sau răspunde la întrebări folosind capabilitățile avansate ale modelului.
 
 Instalarea CLI ChatGPT este fără efort și necesită doar instalarea Python 3.5 sau o versiune ulterioară pe computerul dezvoltatorului. Managerul de pachete pip poate fi utilizat pentru a instala ChatGPT CLI executând următoarea comandă:
 

@@ -8,8 +8,9 @@ tags: ["Verschlüsselung", "datenschutz", "Cybersicherheit", "Datenschutz", "Tec
 cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Ein Cartoon-Vorhängeschloss mit einem Schlüsselloch, das den Schutz von Daten durch Verschlüsselung darstellt."
 coverCaption: ""
+lastmod: 2026-11-07
 ---
- Leitfaden für Einsteiger in die Verschlüsselung zum Schutz von Daten**
+**Leitfaden für Einsteiger in die Verschlüsselung zum Schutz von Daten**
 
 Der **Datenschutz** wird immer wichtiger, da immer mehr Menschen sensible Informationen online speichern. Die **Verschlüsselung** ist ein wesentliches Instrument zum Schutz von Daten, aber es kann überwältigend sein, zu verstehen, wo man anfangen soll. Dieser Leitfaden für Einsteiger zur Verwendung von Verschlüsselung für den Datenschutz hilft Ihnen, die Grundlagen der Verschlüsselung zu verstehen und zu wissen, wie Sie sie zum Schutz Ihrer sensiblen Daten einsetzen können.
 
@@ -25,7 +26,7 @@ Bei der Verschlüsselung wird ein reiner Text in eine kodierte Nachricht umgewan
 
 Es gibt zwei Hauptarten von Verschlüsselung: symmetrische und asymmetrische.
 
-## Symmetrische Verschlüsselung
+### Symmetrische Verschlüsselung
 
 **Bei der symmetrischen Verschlüsselung** wird derselbe Schlüssel für die Ver- und Entschlüsselung verwendet. Der Schlüssel wird zwischen dem Absender und dem Empfänger der Nachricht ausgetauscht. Die symmetrische Verschlüsselung ist schnell und effizient, kann aber weniger sicher sein als die asymmetrische Verschlüsselung, da derselbe Schlüssel sowohl für die Ver- als auch für die Entschlüsselung verwendet wird.
 

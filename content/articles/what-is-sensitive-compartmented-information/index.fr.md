@@ -1,11 +1,11 @@
 ---
 title: "Les informations confidentielles compartimentées (SCI) expliquées"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Explorer l'importance, les niveaux de classification, le traitement et la réglementation des informations sensibles et compartimentées (SCI) à des fins de sécurité nationale."
-genre: ["Sécurité de l'information", "Sécurité nationale", "Intelligence", "Informations classifiées", "Réglementation gouvernementale", "Contrôles d'accès", "Habilitations de sécurité", "Communauté du renseignement", "Industrie de la défense", "Opérations de renseignement"]
+genre: ["Sécurité de l'information", "Sécurité nationale", "Renseignement", "Informations classifiées", "Réglementation gouvernementale", "Contrôles d'accès", "Habilitations de sécurité", "Communauté du renseignement", "Industrie de la défense", "Opérations de renseignement"]
 tags: ["Informations confidentielles sensibles", "SCI", "informations classifiées", "sécurité nationale", "sources de renseignements", "les opérations de renseignement", "les contrôles d'accès", "habilitations de sécurité", "les réglementations gouvernementales", "la sécurité de l'information", "traitement des informations classifiées", "exigences en matière de manutention", "directives de la communauté du renseignement", "Manuel de sécurité du directeur du renseignement national", "Manuel d'exploitation du programme national de sécurité industrielle", "communauté du renseignement", "industrie de la défense", "les mesures de sécurité", "conformité", "procédures de sécurité", "activités de renseignement", "opérations de contre-espionnage", "décisions de politique étrangère", "menaces", "confidentialité des informations", "l'intégrité de l'information", "disponibilité des informations", "ODNI", "DCSA", "règlements", "surveillance"]
 cover: "/img/cover/An_image_representing_sci.webp"
 coverAlt: "Image représentant des informations confidentielles sensibles (SCI) avec un bouclier symbolisant la sécurité, un cadenas représentant la confidentialité et un globe symbolisant la sécurité nationale."
@@ -72,7 +72,7 @@ Le traitement des informations confidentielles sensibles (ICS) est régi par **d
 Voici quelques-unes des principales réglementations et des principaux organismes de contrôle relatifs aux PCD :
 
 - **Manuel de sécurité du directeur du renseignement national (DNI)** : Le manuel de sécurité du DNI fournit les **politiques et procédures** pour la gestion et la protection de l'ICS. Il sert de guide complet pour le personnel impliqué dans le traitement de l'ICS, en veillant à ce qu'il comprenne les exigences et adhère aux mesures de sécurité nécessaires.
-  - [DNI Website](https://www.dni.gov/)
+  - [Site web du DNI](https://www.dni.gov/)
 
 - **Manuel opérationnel du programme national de sécurité industrielle (NISPOM)** : Le NISPOM est un ensemble de **normes et de procédures** qui régissent la protection des informations classifiées, y compris SCI, au sein de l'industrie de la défense. Il établit les exigences pour les entrepreneurs et autres organisations qui traitent des informations classifiées afin d'assurer la protection de la sécurité nationale.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ En résumé, le SCI joue un rôle essentiel dans la sauvegarde de la sécurité 
 
 ### Références
 
-- [DNI Website](https://www.dni.gov/)
+- [Site web du DNI](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

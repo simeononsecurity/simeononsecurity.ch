@@ -1,11 +1,12 @@
 ---
 title: "Kompleksowy przewodnik dla początkujących po narzędziach i technikach testów penetracyjnych"
 date: 2023-03-31
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Poznaj podstawowe narzędzia i techniki testów penetracyjnych, metodologie i certyfikaty, aby rozpocząć karierę w dziedzinie cyberbezpieczeństwa."
 tags: ["testy penetracyjne", "cyberbezpieczeństwo", "etyczne hakowanie", "narzędzia", "techniki", "przewodnik dla początkujących", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "testy bezpieczeństwa", "ocena podatności na zagrożenia", "bezpieczeństwo sieci", "bezpieczeństwo informacji"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
+cover: "/img/cover/a-beginners-guide-to-penetration-testing-tools-and-techniques.webp"
 coverAlt: "Kreskówkowy haker w kominiarce i ze szkłem powiększającym, badający ekran komputera, na którym wyświetlane są różne narzędzia hakerskie, takie jak Nmap, Metasploit, Wireshark i Burp Suite, z cyfrowymi zamkami symbolizującymi zabezpieczone systemy w tle."
 coverCaption: ""
 ---

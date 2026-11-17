@@ -89,9 +89,9 @@ CheckMK 不仅仅是一个监控解决方案，它还是一个强大的工具，
 
 ## 参考资料
 
-1. [CheckMK Official Website](https://checkmk.com)
-2. [CheckMK Documentation](https://checkmk.com/documentation)
-3. [Download CheckMK](https://checkmk.com/download)
+1. [CheckMK 官方网站](https://checkmk.com)
+2. [CheckMK 文档](https://checkmk.com/documentation)
+3. [下载 CheckMK](https://checkmk.com/download)
 4. [Amazon Web Services (AWS)](https://aws.amazon.com)
 5. [Microsoft Azure](https://azure.microsoft.com)
 6. [Google Cloud Platform (GCP)](https://cloud.google.com)

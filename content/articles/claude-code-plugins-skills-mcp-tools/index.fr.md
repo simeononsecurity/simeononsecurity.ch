@@ -1,7 +1,7 @@
 ---
 title: "10 plugins, compétences et outils MCP pour Claude Code : guide pratique"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Choisissez des extensions Claude Code pour la planification, la revue de code, la gestion des connaissances, le design et l'automatisation. Comparez dix outils, leurs dépendances et des contrôles pratiques."
@@ -226,7 +226,7 @@ notebooklm skill install
 **Exercice illustratif :** ajoutez un importateur CSV à une petite application. L'importateur prévisualise les lignes, signale les champs e-mail invalides et empêche la création de doublons. Aucun enregistrement client ni destination externe active n'est nécessaire.
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# Fiche d’évaluation, pas un fichier de configuration d’outil
 task: "add CSV import preview"
 inputs:
   - "valid rows"

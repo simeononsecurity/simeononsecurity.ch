@@ -1,11 +1,12 @@
 ---
 title: "Flockカメラ：公共安全ツールか、令状なし監視機械か？"
 date: 2026-08-01
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Flock Safety ALPRカメラの独立した分析：実際の仕組み、ナンバープレート以外に収集されるデータ、データ共有による影の全国データベースの形成、そして令状問題が真の核心である理由。"
 genre: ["プライバシー", "監視", "市民的自由", "法執行技術", "デジタル権利"]
-tags: ["Flock Safety", "ALPR", "license plate readers", "surveillance", "privacy", "warrantless surveillance", "convoy analysis", "Bluetooth tracking", "TPMS tracking", "data sharing", "Ring cameras", "Fourth Amendment", "nothing to hide", "LPR accuracy", "wrongful accusation", "MFA", "law enforcement technology", "civil liberties", "data minimization", "DeFlock", "counter-surveillance", "public safety", "police surveillance", "privacy rights", "Fourth Amendment", "digital surveillance", "mass surveillance", "license plate recognition", "camera networks", "data retention"]
+tags: ["Flock Safety","ALPR","ナンバープレート読取装置","監視","プライバシー","令状なしの監視","コンボイ分析","Bluetooth追跡","TPMS追跡","データ共有","Ringカメラ","合衆国憲法修正第4条","「隠すことは何もない」","LPRの精度","誤認による告発","MFA","法執行技術","市民の自由","データ最小化","DeFlock","対監視","公共の安全","警察の監視","プライバシー権","合衆国憲法修正第4条","デジタル監視","大規模監視","ナンバープレート認識","カメラネットワーク","データ保持"]
 cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "電柱に設置された監視カメラに照らされた暗い交差点で、通過する車にナンバープレートデータが重ねて表示されている。"
 coverCaption: ""
@@ -72,6 +73,115 @@ TPMS IDは特定のタイヤセットに対応する。それらのタイヤが�
 
 これは仮定の将来的な能力ではない。TPMS信号をログに記録できるRTL-SDR受信機のコストは約40ドルだ。ALPRネットワークと並行して受動的なTPMSモニタリングを展開するための技術的障壁は非常に低い。
 
+{{< figure src="flock-tpms-bluetooth-surveillance.webp" alt="路側のFlockカメラが通過車両のナンバープレート、スマートフォンのBluetooth MACアドレス、TPMSタイヤセンサーIDを同時に取得する仕組みを示す図" >}}
+
+______
+
+## カメラが記録したもの
+
+**2026年9月、ハッカー集団がポールからFlockカメラを取り外し、ストレージをコピーして、Distributed Denial of Secretsを通じてファイルシステムのイメージを公開しました。** 復元されたログは実際の設置環境の運用記録を示しており、その数値は公開されている宣伝内容を上回ります。
+
+*カメラはハッキングされたのではありません。ネジを外されました。*
+
+### 21日間の交通量
+
+復元できたログは複数の期間にまたがる約**21日間**の運用を記録していました。その期間にカメラは約**50,200台の車両を撮影し、およそ160万枚の画像を生成しました**。
+
+| 指標 | 値 |
+|---------|-------|
+| 撮影された車両 | **50,200台** |
+| 生成された画像 | **約160万枚** |
+| 典型的な1日 | 約3,300台 |
+| ログ上で最も多かった日 | **4,454台** |
+| 通過車両1台あたりの画像 | 通常約28枚、**場合によっては100枚超** |
+
+古いログは端末上で上書きされていたため、実際の稼働期間は記録された期間より長くなります。**道路上の1地点だけで、1か月足らずに100万枚を超える画像が生成されました。**
+
+### すべての車両が何十枚も撮影される
+
+動きが画面に入ると、カメラは短時間に連続撮影します。典型的な車両は約**28枚**の画像を生み、車両によっては100枚を超えます。
+
+カメラは**異なる露出**で撮影し、ナンバープレートと広い範囲の場面を別々のフレームに収めます。その後、画像をスキャンし、使えるフレームを切り出して、携帯回線でアップロードします。端末自体はナンバープレートを読み取りません。動体検知、画像取得、物体分類、アップロード、リモート更新を処理する、Flock製のアプリが約**20個**動作しています。**ナンバープレートの読み取りと車両の識別は道路脇ではなく、Flockのサーバー上で行われます。**
+
+この違いは令状の議論に関係します。カメラはナンバーだけを記録する受動的な装置ではありません。遠隔の識別処理へデータを送り続けるセンサーです。
+
+### ソフトウェアは人も検出する
+
+Flockはカメラが車両を検出すると説明しています。復元されたコードは別の事実を示します。
+
+**端末上のソフトウェアには明示的に人物検出器が含まれています。** 人物を検出すると、画面内の位置と検出の信頼度を記録します。この機能は車両、ナンバープレート、自転車の検出器とは別に設けられており、汎用モデルの偶然の副作用ではなく、製品の意図的な機能です。
+
+WIREDは端末からモデルを取り出し、復元された映像と対照画像でこの説明を検証しました。**モデルは記者の自撮りを含め、人を容易に検出しました。** 保存された**27,321本の動画クリップ**にモデルを適用すると、11本で人物が検出され、すべてオートバイの運転者でした。検出数が少ないのは、カメラが道路上に高く設置され、車線に向けられていたからであり、検出器に制限があるためではありません。
+
+**これらのクリップも見逃せない発見です。** 音声なし、1024 × 768ピクセル、1〜2秒の**MP4動画ファイル**で、高解像度の連続撮影画像とは別に保存されています。Flockの公開説明はナンバープレートの静止画を強調しています。端末は短い動画も記録します。
+
+*Flockはカメラが顔認識を行わないと述べています。調査では、既定でAndroidに含まれる機能を超える顔認識の証拠は見つからず、その機能は有効化も使用もされていなかったようです。*
+
+### ナンバープレート検出器はあらゆる図柄をプレートとみなす
+
+同じ調査では、ナンバープレート検出器が図柄をプレートとして解釈することも分かりました。
+
+**バンパーステッカー、販売店のナンバーフレーム、その他の車両上の図柄が、ナンバープレートのように切り出されていました。** オートバイが通過する動画では、検出器がライダーのサドルバッグに付いた**アメリカ国旗のワッペン**を切り出し、プレートとして扱いました。
+
+これは精度とプライバシーの両方に関わる問題です。分類が緩いため、本来収集対象ではない画像も収集され、それらの画像が正規の読み取り結果と同じサーバーへ送られます。
+
+### カメラの空き容量が不足していた
+
+ログは、常にストレージ不足に直面する端末の状態を示しています。
+
+復元されたログには、フル解像度画像を保存しようとした際の **「no space left on device」エラーが27,000件以上**記録されていました。ほかにも関連するエラー、クラッシュ、再起動が数万件ありました。
+
+2つのログメッセージは、設計の様子をよく表しています。
+
+- 約2分ごとにサービスがカメラの稼働を確認し、**「Who's a good boy?!」**と記録していました。復元ログにはこの記録が**12,000件以上**あります。
+- カメラの再起動時には、別のサービスが**「A reboot was requested! ¡Adiós, Amigos!」**と記録していました。
+
+表現はくだけていますが、問題は深刻です。この監視装置には8年間、OSのパッチが適用されていません。記録するために存在する画像を保存する最中に、クラッシュと容量不足を繰り返しています。
+
+______
+
+## 製品群はナンバープレート以上の情報を集める
+
+復元されたカメラはFalconでした。製品群はさらに広く、新しい製品はナンバープレート読み取り装置が扱わなかった信号も収集します。
+
+### 音声センサーは助けを求める声を分類する
+
+**Raven**はカメラとは別に設置する音声検出装置です。ESP32とSyntiant NDP120-B0ニューラルDSPを搭載し、当初は銃声、タイヤ、背景音、未知の音という4種類に分類していました。
+
+**2025年10月のファームウェア更新で、人の危機を示す音という5番目の分類が加わりました。** センサーは近くの人が助けを必要としているかを評価し、FlockOneプラットフォームを通じて同じ場所にあるCondorとFalconのカメラを自動で起動します。
+
+*銃声検知として宣伝された装置が、音声による危機監視装置へ静かに変わりました。*
+
+### カメラは空も飛ぶ
+
+**Alpha**はFlock独自のドローンです。2025年10月に発表され、**2026年3月のSouth Bend警察署の試験運用**など、実際の配備が始まっています。Flockが設計し、米国で組み立て、NDAAに準拠しています。
+
+| 仕様 | 値 |
+|---------------|-------|
+| 最高速度 | **60 MPH** |
+| 飛行時間 | 約45分 |
+| バッテリー交換 | 2個のバッテリーを使うドックで**90秒** |
+| 携帯回線 | フェイルオーバー用の**独立モデム4台** |
+| ナンバープレートを読み取る高度 | **最大2,000フィート** |
+| 範囲 | ドック1基あたり最大**50平方マイル** |
+
+**Aerodome**は旧来のドローン製品群で、Flockは**2024年10月に3億ドルで買収**しました。DJI Matrice M350およびM300 RTKの機体を使用し、Hextronics Atlasの格納庫には8個のバッテリーを収容して連続運用を支えます。Prosper PoliceとScottsdaleは現在も運用しています。
+
+### ネットワークは他社のカメラも取り込む
+
+**Wing**はハードウェアではなく、2025年10月に発表されたソフトウェア連携機能です。既存の他社製IPカメラにFlockの分析機能を加え、Flock製ではないカメラの映像も同じ**Nova**捜査画面に取り込みます。
+
+**これにより問題の規模が変わります。** Flockカメラを設置する都市は、何を導入したのか把握しています。Wingを使う都市は、新しいカメラを1台も買わずに既存のカメラ網をFlockのセンサーに変え、映像を検索可能なシステムへ集約します。
+
+### トレーラーで設置が簡単になる
+
+**LPRトレーラー**はAll Traffic Solutions ATS-5シャーシにFlockカメラを搭載します。**120ワットのソーラーパネル**、**47アンペア時のバッテリー**、表示板付きレーダーを備えます。2インチのレシーバーヒッチに取り付けられ、1人で設置できます。
+
+この製品は、いたずらやバッテリー残量の低下も報告します。会社が現場での機器への干渉を想定していることが分かります。
+
+
+{{< figure src="flock-data-sharing-shadow-national-network.webp" alt="都市や郡のFlockカメラ網がデータ共有契約を通じて接続され、広域かつ準全国規模の検索可能なデータベースを形成する様子を示す地図図" >}}
+
 ______
 
 ## 真の問題：写真 vs. データベース
@@ -95,6 +205,8 @@ ______
 **これが、連邦議会が一度も投票することなく、地域のカメラネットワークが事実上の全国監視システムになる方法だ。**
 
 データの共有は自発的であり、法的に不透明だ。それを承認する連邦法令はない。標準化されたデータ保持の制限もない。義務的な監査要件もない。そして市民が自分の車両の移動が照会されたかどうかを知る仕組みもない。
+
+**このアクセス規模はすでに記録で確認されています。** ジョージア州アルファレッタでは、WIREDが市のFlockカメラ記録に**2,000を超える機関**がアクセスできたことを確認しました。警察、大学、空港、連邦General Services Administrationの監察総監室などが含まれます。この機関数はアルファレッタ独自の協定による例外ではありません。Flockの全国ネットワークが既定でどう接続されるかを示しています。
 
 DeFlock.orgは、Flockカメラの場所をクラウドソーシングし、米国全土で**124,000以上の疑われるLPR展開**をマッピングしている。都市部と郊外のカバレッジは十分に密度が高く、ほとんどのアメリカの都市を横断して運転すると、ほぼ継続的な監視記録が生成される。
 
@@ -196,9 +308,16 @@ Flockカメラをめぐる議論は、しばしば2つの極端な立場に崩�
 
 それは退屈で手続き的な答えだ。どちらの側にも怒りを生み出さない。しかしそれは、公共安全と憲法的自由の両方を真剣に受け止める唯一の答えだ。
 
+制度改革を待たずに近くにこうしたカメラがあるか知りたい場合、専用の検知機器はすでに利用できます。
+
+{{< stscollective-ad "flockyou" >}}
+
 ______
 
 ## 関連記事
+
+
+
 
 | 記事 | 学べること |
 |---------|------------------|
@@ -212,14 +331,19 @@ ______
 
 ## 参考文献
 
-1. [Carpenter v. United States, 585 U.S. 296 (2018)](https://www.supremecourt.gov/opinions/17pdf/16-402_h315.pdf)
-2. [ACLU — 自動ナンバープレートリーダー](https://www.aclu.org/issues/privacy-technology/surveillance-technologies/automated-license-plate-readers)
-3. [EFF — ナンバープレートリーダー](https://www.eff.org/issues/automated-license-plate-readers)
-4. [DeFlock.org — クラウドソーシングLPRマップ](https://deflock.me/)
-5. [Flock Safety 公式サイト](https://www.flock.com/)
-6. [TPMSセキュリティ研究 — IEEE](https://ieeexplore.ieee.org/document/4531429)
-7. [Amazon Ring 法執行要請 — EFFレポート](https://www.eff.org/deeplinks/2022/07/amazons-ring-doorbell-gave-footage-law-enforcement-11-times-without-warrant-first)
-8. [COINTELPRO 文書 — FBI記録](https://vault.fbi.gov/cointel-pro)
-9. [Flock Safetyデータ共有協定 — MuckRock](https://www.muckrock.com/)
-10. [Flock Finder — Simeononsecurity GitHub](https://github.com/simeononsecurity/flock-finder)
-11. [Flock Finder インタラクティブマップ](https://simeononsecurity.github.io/flock-finder/)
+1. [Carpenter対United States、585 U.S. 296（2018年）](https://www.supremecourt.gov/opinions/17pdf/16-402_h315.pdf)
+2. [ACLU：自動ナンバープレート読取装置](https://www.aclu.org/news/by-issue/automatic-license-plate-readers)
+3. [Electronic Frontier Foundation：ALPRとは何か](https://www.eff.org/pages/what-alpr)
+4. [DeFlock](https://deflock.org/)
+5. [DeFlockインタラクティブマップ](https://maps.deflock.org/)
+6. [Flock Safety公式サイト](https://www.flocksafety.com/)
+7. [車載無線ネットワークのセキュリティとプライバシーの脆弱性：TPMSのケーススタディ](https://www.winlab.rutgers.edu/~gruteser/papers/xu_tpms10.pdf)
+8. [FBI Vault：COINTELPRO](https://vault.fbi.gov/cointel-pro)
+9. [MuckRock：Flock Safety](https://www.muckrock.com/tags/flock-safety/)
+10. [Flock FinderのGitHub](https://github.com/simeononsecurity/flock-finder)
+11. [WIREDと404 Media：ハッカーがFlockカメラに侵入](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+12. [Micah Lee：Flockカメラには脆弱性とハードコードされた認証情報が多数ある](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+13. [Distributed Denial of Secrets：Flock ALPRカメラのファイルシステム画像](https://ddosecrets.org/article/flock-alpr-camera)
+14. [Hackaday：今週のセキュリティ、Flockカメラは古い](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+15. [WiFi Mothership：Flock Safety ALPRの検知と機器リファレンス](https://wifimothership.com/flock)
+16. [Flock Finderのインタラクティブマップ](https://simeononsecurity.github.io/flock-finder/)

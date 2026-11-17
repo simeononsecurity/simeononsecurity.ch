@@ -129,6 +129,8 @@ background and inspect the generated output, not only the exit status.
 
 If a production-config build fails on an unrelated page, isolate a single article before attributing the failure to the changed content. Copy the article bundle into a temporary content directory, run the same language config with `--contentDir <temporary-content>` and a normal `--destination <temporary-output>`, then inspect the rendered article HTML. Remove a stale `.hugo_build.lock` only after confirming no Hugo process is running.
 
+In zsh build loops, `status` is a read-only shell parameter. Store command exit codes in a task-specific variable such as `build_rc`.
+
 ## Repository Skills and Routing
 
 Store shared repository skills in `.agents/skills/<name>/SKILL.md`. `AGENTS.md`

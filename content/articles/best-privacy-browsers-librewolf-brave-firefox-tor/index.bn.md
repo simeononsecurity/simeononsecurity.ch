@@ -1,7 +1,7 @@
 ---
 title: "সেরা গোপনীয়তা ব্রাউজার ২০২৬: LibreWolf বনাম Brave বনাম Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 'সেরা গোপনীয়তা-কেন্দ্রিক ব্রাউজারগুলোর ২০২৬ সালের বিস্তৃত তুলনা: LibreWolf, Brave, Firefox, Tor, এবং আরও অনেক। বিস্তারিত গোপনীয়তা পরীক্ষা, কর্মক্ষমতা বেঞ্চমার্ক, এবং নিরাপত্তা বিশ্লেষণ যা আপনার অনলাইন ডেটা রক্ষা করবে।'
@@ -174,12 +174,12 @@ coverCaption: আপনার গোপনীয়তা রক্ষা কর
 
 **প্রয়োজনীয় about:config টুইকস:**
 ```
-// Even stricter privacy (optional):
+// আরও কঠোর গোপনীয়তা (ঐচ্ছিক):
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // সম্পূর্ণ কুকি বিচ্ছিন্নতা
 
-// Performance optimization:
+// কর্মক্ষমতা উন্নতকরণ:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **প্রয়োজনীয় গোপনীয়তা সেটিংস:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+সেটিংস > Shields:
+✓ ট্র্যাকার ও বিজ্ঞাপন ব্লক: কঠোর
+✓ সংযোগ HTTPS-এ উন্নীত করুন
+✓ স্ক্রিপ্ট ব্লক করুন (সংবেদনশীল ব্রাউজিংয়ে)
+✓ ফিঙ্গারপ্রিন্টিং ব্লক: কঠোর
+✓ কুকি ব্লক: তৃতীয় পক্ষের কুকি ব্লক
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+সেটিংস > গোপনীয়তা ও নিরাপত্তা:
+✓ WebRTC IP ব্যবস্থাপনা নীতি: প্রক্সি-বিহীন UDP নিষ্ক্রিয় করুন
+✓ নিরাপদ ব্রাউজিং: মানক সুরক্ষা
+□ গোপনীয়তা-রক্ষাকারী পণ্য বিশ্লেষণের অনুমতি দিন (নিষ্ক্রিয়)
+✓ দৈনিক ব্যবহার বার্তা স্বয়ংক্রিয়ভাবে পাঠান: বন্ধ
+✓ অনুসন্ধান স্বয়ংসম্পূর্ণ: বন্ধ
 ```
 
 **প্রস্তাবিত এক্সটেনশন:**
@@ -404,14 +404,14 @@ Settings > Privacy and security:
 
 **১. মাল্টি-অ্যাকাউন্ট কন্টেইনার:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Mozilla-র বিনামূল্যের এক্সটেনশন
+প্রসঙ্গ অনুযায়ী কুকি ও ইতিহাস আলাদা রাখুন:
+- ব্যক্তিগত কনটেইনার (সবুজ)
+- কাজের কনটেইনার (নীল)
+- ব্যাংকিং কনটেইনার (লাল)
+- কেনাকাটার কনটেইনার (কমলা)
 
-Prevents cross-contamination
+এক প্রসঙ্গের তথ্য অন্য প্রসঙ্গে মিশে যাওয়া ঠেকায়
 ```
 
 **২. Firefox Relay:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **১. গোপনীয়তা ও সুরক্ষা বিভাগ:**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ উন্নত ট্র্যাকিং সুরক্ষা: কঠোর
+✓ ওয়েবসাইটে "ট্র্যাক করবেন না" পাঠান: সর্বদা
+✓ শুধু HTTPS মোড: সব উইন্ডোতে চালু করুন
+✓ HTTPS-এর মাধ্যমে DNS: সর্বোচ্চ সুরক্ষা (Cloudflare)
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+কুকি ও সাইটের তথ্য:
+✓ Firefox বন্ধ হলে কুকি মুছুন
+□ সব তৃতীয়-পক্ষের কুকি (এর বদলে ETP ব্যবহার করুন)
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+ইতিহাস:
+○ কখনো ইতিহাস মনে রাখবেন না (সবচেয়ে ব্যক্তিগত)
+● কাস্টম সেটিংস ব্যবহার করুন (প্রস্তাবিত):
+  ✓ Firefox বন্ধ হলে ইতিহাস মুছুন
+  ✓ ঠিকানা বারের পরামর্শ: শুধু বুকমার্ক
 ```
 
 **2. About:config শক্তিশালীকরণ:**
 ```
-// Resist fingerprinting
+// ফিঙ্গারপ্রিন্টিং প্রতিরোধ করুন
 privacy.resistFingerprinting = true
 
-// First party isolation
+// প্রথম-পক্ষ বিচ্ছিন্নতা
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// WebRTC সুরক্ষা
 media.peerconnection.enabled = false
 
-// Referrer header control
+// রেফারার হেডার নিয়ন্ত্রণ
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// WebGL নিষ্ক্রিয় করুন
+webgl.disabled = true (এতে কিছু সাইটে সমস্যা হতে পারে)
 
-// Letterboxing
+// লেটারবক্সিং
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **দ্য অনিয়ন নেটওয়ার্ক:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+আপনি → প্রবেশ নোড → মধ্য নোড → প্রস্থান নোড → ওয়েবসাইট
+     [এনক্রিপ্টেড]  [এনক্রিপ্টেড]  [এনক্রিপ্টেড নয়]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- প্রবেশ নোড আপনাকে চেনে, গন্তব্যকে নয়
+- মধ্য নোড কোনোটিই জানে না
+- প্রস্থান নোড গন্তব্যকে চেনে, আপনাকে নয়
+- প্রতিটি স্তর আলাদাভাবে এনক্রিপ্ট করা হয়
 ```
 
 **তিনটি সুরক্ষা স্তর:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **নিরাপত্তা টিপস:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ উইন্ডো কখনো বড় করবেন না (ফিঙ্গারপ্রিন্টিং)
+✓ এক্সটেনশন ইনস্টল করবেন না
+✓ শুধু HTTPS ওয়েবসাইট ব্যবহার করুন
+✓ Tor দিয়ে টরেন্ট করবেন না
+✓ আসল অ্যাকাউন্টে লগইন করবেন না
+✗ সম্ভব হলে Windows ব্যবহার করবেন না
+✓ সর্বোচ্চ পরিচয়-গোপনীয়তার জন্য Tails OS বিবেচনা করুন
+✓ সেন্সরশিপযুক্ত অঞ্চলে ব্রিজ ব্যবহার করুন
 ```
 
 ### টর বনাম ভিপিএন
@@ -708,20 +708,20 @@ You → Entry Node → Middle Node → Exit Node → Website
 ### দ্রুত সিদ্ধান্ত গাছ
 
 ```
-Need maximum anonymity (journalists, activists)?
+সর্বোচ্চ পরিচয়-গোপনীয়তা দরকার (সাংবাদিক, কর্মী)?
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+গোপনীয়তা, Chrome সামঞ্জস্য ও গতি চান?
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+টেলিমেট্রি ছাড়া Firefox এবং সর্বোচ্চ গোপনীয়তা চান?
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+ভালো গোপনীয়তা ও এক্সটেনশনসহ পরিচিত ব্রাউজার চান?
+    → Firefox (সঠিকভাবে কনফিগার করা)
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+মোবাইলে গোপনীয়তা-সুরক্ষিত ব্রাউজার দরকার?
+    → Brave (সামগ্রিকভাবে সেরা) অথবা Firefox Focus (সবচেয়ে সহজ)
 ```
 
 ### ব্যবহার ক্ষেত্রের সুপারিশ
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **ধাপ ২: ডেটা ইম্পোর্ট করুন**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+ফাইল → অন্য ব্রাউজার থেকে আমদানি
+নির্বাচন করুন: Chrome
+বাছুন: বুকমার্ক, পাসওয়ার্ড, ইতিহাস
+এক্সটেনশন আমদানি: হাতে পুনরায় ইনস্টল করুন
 ```
 
 **ধাপ ৩: প্রাইভেসি সেটিংস কনফিগার করুন**
@@ -922,6 +922,41 @@ Import Extensions: Manually reinstall
 - পরিচয় চুরির বিরুদ্ধে সুরক্ষা দেয়
 - প্রভাবিত হওয়া থেকে রক্ষা করে
 - মৌলিক মানবাধিকার
+
+## ২০২৬ সালের প্রাইভেসি ব্রাউজার যাচাই
+
+ব্রাউজারের নাম বা ব্র্যান্ড প্রাইভেসির প্রমাণ নয়। দৈনন্দিন ব্যবহারের আগে ডিফল্ট সেটিংস, আপডেটের পদ্ধতি, এক্সটেনশন নীতি এবং সিঙ্ক আচরণ যাচাই করুন।
+
+1. প্রকল্পের অফিসিয়াল সাইট বা বিশ্বস্ত অ্যাপ স্টোর থেকে ব্রাউজার ডাউনলোড করুন। পুনরায় প্যাকেজ করা বিল্ড এড়িয়ে চলুন।
+2. ব্রাউজার ও অপারেটিং সিস্টেম আপডেট রাখুন। পুরোনো ব্রাউজারকে প্রাইভেসি সেটিং নিরাপদ করে না।
+3. ট্র্যাকার, ফিঙ্গারপ্রিন্টিং, ক্ষতিকর ডাউনলোড ও প্রতারণামূলক সাইটের বিরুদ্ধে বিল্ট-ইন সুরক্ষা যাচাই করুন।
+4. এক্সটেনশনকে বিশেষ অনুমতিসম্পন্ন সফটওয়্যার হিসেবে বিবেচনা করুন। কম এক্সটেনশন ইনস্টল করুন, অনুমতি দেখুন এবং অব্যবহৃতগুলো সরান।
+5. [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) এবং [BrowserLeaks](https://browserleaks.com/) দিয়ে পরীক্ষা করুন। পরীক্ষার ফল একটি ব্রাউজার প্রোফাইল সম্পর্কে তথ্য দেয়, পরিচয় গোপন থাকার নিশ্চয়তা নয়।
+6. আলাদা ব্রাউজার প্রোফাইলে আলাদা পরিচয় রাখুন। সংবেদনশীল গবেষণার Tor Browser উইন্ডোতে ব্যক্তিগত অ্যাকাউন্টে সাইন ইন করবেন না।
+7. Tor Browser-এর ডিফল্ট সেটিং ব্যবহার করুন। অতিরিক্ত ফন্ট, এক্সটেনশন বা উইন্ডোর আকার বদলানো একই ধরনের ফিঙ্গারপ্রিন্টের সুবিধা কমায়।
+
+কঠোর ডিফল্ট সেটিং এবং মাঝে মাঝে সামঞ্জস্যের সমস্যা মেনে নিলে LibreWolf উপযুক্ত। Chromium সামঞ্জস্যসহ বিল্ট-ইন ব্লকিং চাইলে Brave উপযুক্ত। Mozilla-র সহায়তা ও নমনীয় প্রাইভেসি নিয়ন্ত্রণ চাইলে Firefox উপযুক্ত। নেটওয়ার্ক স্তরে পরিচয় গোপন রাখা দরকার এবং কম গতি ও সাইট-সামঞ্জস্য মেনে নিলে Tor Browser উপযুক্ত।
+
+[Tor Browser ম্যানুয়াল](https://tb-manual.torproject.org/) এবং [Mozilla Firefox প্রাইভেসি গাইড](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) নিয়ন্ত্রণগুলো আরও বিস্তারিত ব্যাখ্যা করে।
+
+## বর্তমান প্রাইভেসির সীমা ও যাচাই তালিকা
+
+ব্রাউজারের সুরক্ষা আপনার তথ্য প্রকাশ কমায়, কিন্তু অ্যাকাউন্ট, ডিভাইস বা সংযোগকে পরিচয়হীন করে না। **প্রাইভেট ব্রাউজিং** সেশন শেষে নির্বাচিত স্থানীয় ইতিহাস মুছে দেয়। এটি নেটওয়ার্ক পরিচালকের কাছ থেকে ট্রাফিক লুকায় না, বা সাইন ইন করা ব্যবহারকারীকে সাইটের শনাক্ত করা ঠেকায় না। [Tor Project এই পার্থক্য ব্যাখ্যা করেছে](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/)।
+
+**ফিঙ্গারপ্রিন্টিংয়ের ঝুঁকি নির্ভর করে আপনার মতো ব্যবহারকারী কতজন আছেন তার ওপর।** letterboxing, মানসম্মত মান এবং first-party isolation দিয়ে Tor Browser ব্যবহারকারীদের সাধারণ ফিঙ্গারপ্রিন্ট গ্রুপে রাখার চেষ্টা করে। Tor Project বলেছে, সম্পূর্ণ পরিচয় গোপন রাখা সম্ভব নয়। নির্দিষ্ট কারণ ছাড়া অচেনা এক্সটেনশন যোগ, Tor উইন্ডো সর্বোচ্চ করা বা ডিফল্ট পরিবর্তন করবেন না। [Tor-এর ফিঙ্গারপ্রিন্টিং নির্দেশিকা পড়ুন](https://support.torproject.org/tor-browser/features/fingerprinting-protections/)।
+
+**LibreWolf-এ নিয়মিত আপডেট দরকার।** প্রকল্পের FAQ বলছে, নতুন সংস্করণ সাধারণত তিন দিনের মধ্যে Firefox-এর পর আসে এবং ব্রাউজার নিজে থেকে স্বয়ংক্রিয় আপডেট দেয় না। আপনার প্ল্যাটফর্মের প্যাকেজ ম্যানেজার বা ইনস্টলেশন পদ্ধতি ব্যবহার করুন, তারপর নিরাপত্তা আপডেটের পর ইনস্টল করা সংস্করণ যাচাই করুন। [LibreWolf FAQ দেখুন](https://librewolf.net/docs/faq/)।
+
+ব্রাউজার বেছে নেওয়ার আগে এই তালিকা ব্যবহার করুন:
+
+- **হুমকির ধরন:** ট্র্যাকার কমানো, অ্যাকাউন্ট আলাদা রাখা, সেন্সরশিপ এড়ানো নাকি পরিচয় গোপন রাখা দরকার তা ঠিক করুন।
+- **আপডেটের পথ:** কে আপডেট দেয় এবং কীভাবে ইনস্টল করবেন তা নিশ্চিত করুন।
+- **সামঞ্জস্য:** পুরো কাজের ধারা বদলানোর আগে ব্যাংকিং, কাজ, মিডিয়া, এক্সটেনশন ও অ্যাক্সেসিবিলিটি পরীক্ষা করুন।
+- **পরিচয় পৃথক রাখা:** কার্যকলাপের যোগসূত্র কমানোর জন্য তৈরি সেশনে ব্যক্তিগত অ্যাকাউন্ট ব্যবহার করবেন না।
+- **ফিঙ্গারপ্রিন্টিং:** ব্রাউজারের সাধারণ ডিফল্টের কাছাকাছি থাকুন। অনেক প্রাইভেসি এক্সটেনশন ব্রাউজারকে সহজে আলাদা করে চিনতে সাহায্য করতে পারে।
+- **নেটওয়ার্ক স্তর:** DNS, VPN ও Tor-কে আলাদা নিয়ন্ত্রণ হিসেবে দেখুন। প্রতিটি সংযোগের ভিন্ন অংশ সুরক্ষিত করে।
+
+এই পাতার অন্যত্র দেওয়া পারফরম্যান্স ও প্রাইভেসি স্কোর পদ্ধতি, তারিখ, হার্ডওয়্যার প্রোফাইল এবং কাঁচা ফল ছাড়া ঐতিহাসিক মাপ বা উদাহরণ। এগুলোকে সবার জন্য বর্তমান র‍্যাঙ্কিং ভাববেন না। বড় ব্রাউজার আপডেটের পর নিজের সাইট ও ডিভাইসে পরীক্ষা করুন।
 
 ## উপসংহার: আপনার ডিজিটাল গোপনীয়তার নিয়ন্ত্রণ নেওয়া
 

@@ -1,155 +1,155 @@
 ---
-title: "Which AI Models Can Run on a Raspberry Pi 4 or 5?"
+title: "Quais modelos de IA funcionam num Raspberry Pi 4 ou 5?"
 date: 2026-09-20
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Use measured Raspberry Pi 4 and 5 results to choose local language models by memory, speed, and workload, from tiny LFM2.5 models to 3B and larger options."
-genre: ["Raspberry Pi", "Artificial Intelligence", "Self Hosting"]
-tags: ["Raspberry Pi 4", "Raspberry Pi 5", "local AI", "small language models", "Ollama", "GGUF", "LFM2.5", "Qwen2.5", "Gemma 3", "model quantization", "edge AI"]
+description: "Use medições no Raspberry Pi 4 e 5 para escolher modelos de linguagem locais por memória, velocidade e carga de trabalho, dos pequenos LFM2.5 às opções 3B e maiores."
+genre: ["Raspberry Pi", "Inteligência artificial", "Auto-hospedagem"]
+tags: ["Raspberry Pi 4", "Raspberry Pi 5", "IA local", "modelos de linguagem pequenos", "Ollama", "GGUF", "LFM2.5", "Qwen2.5", "Gemma 3", "quantização de modelos", "IA de borda"]
 cover: "/img/cover/raspberry-pi-4-5-local-ai-models.webp"
-coverAlt: "Two Raspberry Pi computers on a dark desk with blue and amber neural network illustrations above them"
-coverCaption: "Illustration of local AI models running on Raspberry Pi hardware."
+coverAlt: "Dois computadores Raspberry Pi sobre uma mesa escura, com ilustrações azuis e âmbar de redes neurais acima"
+coverCaption: "Ilustração de modelos de IA locais executados em hardware Raspberry Pi."
 ---
 
-A Raspberry Pi can run a useful language model locally, but the model must fit the board's memory and the response time your application can tolerate. A 2 GB Raspberry Pi 4 is best suited to models below about one billion parameters. An 8 GB Raspberry Pi 5 can run compact 1B–3B models comfortably and load some larger quantized models with substantial compromises.
+Um Raspberry Pi pode executar localmente um modelo de linguagem útil, mas o modelo precisa caber na memória da placa e responder num prazo aceitável para a sua aplicação. Um Raspberry Pi 4 com 2 GB é mais adequado a modelos com menos de cerca de mil milhões de parâmetros. Um Raspberry Pi 5 com 8 GB executa modelos compactos de 1B–3B com folga e consegue carregar alguns modelos quantizados maiores, com compromissos consideráveis.
 
-We benchmarked these models ourselves through Ollama on a **2 GB Pi 4B** and an **8 GB Pi 5**, both using microSD storage. The runs behind the tables used the same five short assistant prompts, system prompt, fixed seed, and 140-token output cap. We unloaded other models before each run and measured cold-load time, time to first visible token, total reply time, output speed, and peak resident memory. These were single-pass tests of a short-reply workload, so the results are sizing examples rather than universal speed or answer-quality rankings. The Pi 5's [Cortex-A76 CPU and available memory configurations](https://www.raspberrypi.com/products/raspberry-pi-5/) also differ materially from the Pi 4's [Cortex-A72 platform](https://pip-assets.raspberrypi.com/categories/545-raspberry-pi-4-model-b/documents/RP-008341-DS-1-raspberry-pi-4-datasheet.pdf).
+Testámos estes modelos com Ollama num **Pi 4B de 2 GB** e num **Pi 5 de 8 GB**, ambos com armazenamento microSD. As medições das tabelas usaram as mesmas cinco instruções curtas para o assistente, o mesmo prompt de sistema, uma seed fixa e um limite de saída de 140 tokens. Descarregámos os outros modelos antes de cada execução e medimos o tempo de carregamento a frio, o tempo até ao primeiro token visível, a duração total da resposta, a velocidade de saída e o pico de memória residente. Foram testes de passagem única para uma carga de respostas curtas. Os resultados são exemplos para dimensionar recursos, não classificações universais de velocidade ou qualidade. A [CPU Cortex-A76 e as configurações de memória disponíveis do Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) também diferem de forma relevante da [plataforma Cortex-A72 do Pi 4](https://pip-assets.raspberrypi.com/categories/545-raspberry-pi-4-model-b/documents/RP-008341-DS-1-raspberry-pi-4-datasheet.pdf).
 
-## The model types that make sense
+## Tipos de modelos adequados
 
-| Kind of model | Examples from the measurements | Practical use |
+| Tipo de modelo | Exemplos medidos | Uso prático |
 |---|---|---|
-| Tiny text models, about 230M–600M parameters | LFM2.5-230M, LFM2.5-350M, Qwen2.5-0.5B | Short local commands, summaries, and constrained question answering; the best starting point for a 2 GB Pi 4 |
-| Compact text models, about 1B–2B | LFM2.5-1.2B, Qwen2.5-1.5B, Gemma 3 1B, MiniCPM5-1B | More room for nuanced instructions on a Pi 5 or a higher-memory Pi 4, with slower replies than the tiniest models |
-| Quantized 3B–4B text models | Qwen2.5-3B, Llama 3.2 3B, Gemma 3 4B | More capable candidates for an 8 GB Pi 5 when a wait of several seconds per reply is acceptable |
-| Larger sparse or hybrid models | LFM2.5 8B | Technically runnable on the tested 8 GB Pi 5, but with a large memory footprint and long cold load |
+| Modelos de texto pequenos, cerca de 230M–600M parâmetros | LFM2.5-230M, LFM2.5-350M, Qwen2.5-0.5B | Comandos locais curtos, resumos e perguntas com restrições; melhor ponto de partida para Pi 4 de 2 GB |
+| Modelos de texto compactos, cerca de 1B–2B | LFM2.5-1.2B, Qwen2.5-1.5B, Gemma 3 1B, MiniCPM5-1B | Mais capacidade para instruções detalhadas num Pi 5 ou Pi 4 com mais memória, com respostas mais lentas que as dos modelos menores |
+| Modelos de texto quantizados de 3B–4B | Qwen2.5-3B, Llama 3.2 3B, Gemma 3 4B | Opções mais capazes para Pi 5 de 8 GB quando é aceitável esperar alguns segundos por resposta |
+| Modelos maiores, esparsos ou híbridos | LFM2.5 8B | Funciona tecnicamente no Pi 5 de 8 GB testado, mas ocupa muita memória e demora a carregar a frio |
 
-These are **text-generation** results. They do not establish performance for image generation, speech recognition, vision, or training. “Runs” also means more than fitting the model file on a card: the runtime, context cache, operating system, and other services need RAM. Quantization reduces the weight file size, but it can reduce answer quality, especially at extreme settings such as 1-bit weights.
+Estes resultados referem-se à **geração de texto**. Não demonstram o desempenho em geração de imagens, reconhecimento de fala, visão ou treino. «Funciona» significa mais do que o ficheiro caber no cartão: o runtime, a cache de contexto, o sistema operativo e outros serviços também precisam de RAM. A quantização reduz o ficheiro dos pesos, mas pode baixar a qualidade das respostas, sobretudo com definições extremas, como pesos de 1 bit.
 
-### What our numbers measure
+### O que os números medem
 
-The benchmark sent short factual, procedural safety, retrieved-context, weather, and help prompts to Ollama's chat API. Each model saw the same prompt set and seed. Before timing a model, we unloaded it so the next request would include a cold load; the reported **wall time** is the complete request, while **tokens per second** describes only output generation. We also recorded the first *visible* token, which matters when a model spends time reasoning before it answers.
+O benchmark enviou à API de chat do Ollama pedidos curtos sobre factos, procedimentos de segurança, contexto recuperado, meteorologia e ajuda. Todos os modelos receberam o mesmo conjunto de pedidos e a mesma seed. Descarregámos cada modelo antes da medição para incluir um carregamento a frio no pedido seguinte. O **tempo total** é o da solicitação completa; os **tokens por segundo** descrevem apenas a geração da saída. Também registámos o primeiro token *visível*, relevante quando o modelo raciocina antes de responder.
 
-For memory, we sampled the Pi's available RAM and swap alongside the resident memory of Ollama and its inference process during each request. The **RSS** figures below are process-resident memory, not the entire host's memory demand. File-backed pages, the operating system, a browser, or another local service can still make a nominally fitting model swap. The tables use the original five-prompt, single-pass runs. We later extended the harness with a news prompt and reply-rule checks; those checks clarify what to look for, but they do not turn the earlier timings into six-prompt compliance results.
+Para medir a memória, registámos a RAM e o swap disponíveis no Pi, bem como a memória residente do Ollama e do processo de inferência durante cada pedido. Os valores de **RSS** referem-se à memória residente do processo, não à necessidade total do anfitrião. Páginas apoiadas em ficheiros, o sistema operativo, um navegador ou outro serviço local ainda podem provocar swap num modelo que parece caber. As tabelas apresentam os testes iniciais de cinco pedidos, numa só passagem. Mais tarde, acrescentámos um pedido de notícias e verificações das regras de resposta. Essas verificações ajudam a saber o que observar, mas não transformam as medições de velocidade anteriores em resultados de conformidade com seis pedidos.
 
-Neither tokens per second nor parameter count is a quality score. A model can emit text quickly yet omit a requested source, exceed a word budget, or produce an unfinished sentence. We would compare models on the prompts we actually plan to send, then inspect their answers before choosing one for an application.
+Nem tokens por segundo nem o número de parâmetros são uma pontuação de qualidade. Um modelo pode gerar texto depressa e omitir uma fonte pedida, ultrapassar o limite de palavras ou deixar uma frase incompleta. Compare os modelos com os pedidos que pretende enviar e leia as respostas antes de escolher um para uma aplicação.
 
-## Raspberry Pi 4: favor the smallest models
+## Raspberry Pi 4: prefira os modelos mais pequenos
 
-The tested 2 GB Pi 4 had limited headroom. The smallest LFM2.5 models completed all five prompts, as did `qwen2.5:0.5b`. They are sensible choices for brief offline replies or a small local assistant.
+O Pi 4 de 2 GB testado tinha pouca margem. Os modelos LFM2.5 mais pequenos concluíram os cinco pedidos, tal como `qwen2.5:0.5b`. São opções razoáveis para respostas curtas offline ou um pequeno assistente local.
 
-| Model | Model file | Measured output speed | Average reply time | Observed memory or outcome |
+| Modelo | Ficheiro do modelo | Velocidade de saída medida | Tempo médio de resposta | Memória ou resultado observado |
 |---|---:|---:|---:|---|
-| LFM2.5-230M, imported GGUF | 0.25 GB | 12.8 tokens/s | 7.2 s | 383 MB peak resident memory; 5/5 prompts |
-| LFM2.5-350M, imported GGUF | 0.38 GB | 8.6 tokens/s | 8.6 s | 516 MB peak resident memory; 5/5 prompts |
-| `qwen2.5:0.5b` | 0.40 GB | 8.0 tokens/s | 9.7 s | 5/5 prompts; available directly in Ollama |
-| MiniCPM5-1B, imported GGUF, reasoning off | 0.69 GB | 5.9 tokens/s | 12.2 s | 883 MB peak resident memory; 5/5 prompts |
-| MiniCPM5-1B, imported GGUF, default reasoning | 0.69 GB | 5.7 tokens/s | 33.3 s | Only 1/5 prompts returned a useful visible reply |
-| `qwen3:0.6b`, default reasoning | 0.52 GB | 6.4 tokens/s | 40.4 s | One empty reply; board rebooted |
-| `granite4:350m` | 0.71 GB | 4.6 tokens/s | 15.5 s | 913 MB RSS, no swap or reboot; slow but stable |
-| `gemma3:1b` | 0.82 GB | 4.0 tokens/s | 30.7 s | Heavy swapping; board rebooted during testing |
-| `qwen3.5:0.8b` | 1.04 GB | — | — | Did not complete; board rebooted |
+| LFM2.5-230M, GGUF importado | 0.25 GB | 12.8 tokens/s | 7.2 s | Pico de memória residente de 383 MB; 5/5 pedidos |
+| LFM2.5-350M, GGUF importado | 0.38 GB | 8.6 tokens/s | 8.6 s | Pico de memória residente de 516 MB; 5/5 pedidos |
+| `qwen2.5:0.5b` | 0.40 GB | 8.0 tokens/s | 9.7 s | 5/5 pedidos; disponível diretamente no Ollama |
+| MiniCPM5-1B, GGUF importado, raciocínio desligado | 0.69 GB | 5.9 tokens/s | 12.2 s | Pico de memória residente de 883 MB; 5/5 pedidos |
+| MiniCPM5-1B, GGUF importado, raciocínio predefinido | 0.69 GB | 5.7 tokens/s | 33.3 s | Apenas 1/5 pedidos devolveu uma resposta visível útil |
+| `qwen3:0.6b`, raciocínio predefinido | 0.52 GB | 6.4 tokens/s | 40.4 s | Uma resposta vazia; a placa reiniciou |
+| `granite4:350m` | 0.71 GB | 4.6 tokens/s | 15.5 s | 913 MB RSS, sem swap nem reinício; lenta, mas estável |
+| `gemma3:1b` | 0.82 GB | 4.0 tokens/s | 30.7 s | Swap elevado; a placa reiniciou durante o teste |
+| `qwen3.5:0.8b` | 1.04 GB | — | — | Não terminou; a placa reiniciou |
 
-The Pi 4 results are especially sensitive to the rest of the system. We observed board resets during larger-model tests, including a `qwen3.5:0.8b` run that never completed. That is evidence about our 2 GB setup, rather than a claim that every Pi 4 or every 1B model will reboot. A 4 GB or 8 GB Pi 4 has more memory, but its CPU will still make inference slower than on the tested Pi 5. We did not directly benchmark those Pi 4 memory variants.
+Os resultados do Pi 4 dependem bastante do resto do sistema. Observámos reinícios durante os testes de modelos maiores, incluindo uma execução de `qwen3.5:0.8b` que nunca terminou. Isto descreve a nossa configuração de 2 GB, não significa que qualquer Pi 4 ou modelo 1B vá reiniciar. Um Pi 4 de 4 ou 8 GB tem mais memória, mas a CPU continuará a inferir mais lentamente do que no Pi 5 testado. Não medimos diretamente essas variantes de memória do Pi 4.
 
-One early Pi 4 pass also appeared much worse than the final measurements: roughly 625 MB of staged GGUF files sat in a RAM-backed `/tmp`, leaving only about 500–600 MB free and pushing hundreds of megabytes into swap. After moving those files to persistent storage, the small-model results above gave a more useful picture of inference memory. On a 2 GB board, even the *location of a download* can distort a benchmark.
+Um dos primeiros testes no Pi 4 também pareceu muito pior que as medições finais: cerca de 625 MB de ficheiros GGUF temporários ficaram em `/tmp`, apoiado por RAM, deixando apenas 500–600 MB livres e enviando centenas de megabytes para swap. Depois de mover esses ficheiros para armazenamento persistente, os resultados dos modelos pequenos mostraram melhor a memória de inferência. Numa placa de 2 GB, até *o local onde guarda um download* pode distorcer um benchmark.
 
-**Recommendation:** The imported LFM2.5-350M is our default for this 2 GB board. It remained stable at **516 MB RSS**, left about **1 GB of RAM available**, and passed **5/6** reply-rule checks in the Pi 4 compliance pass. It did miss source names in repeated Pi 5 testing, so applications that require attribution should check for it. Choose LFM2.5-230M when latency and memory headroom matter most: it was faster and lighter, but in one medical-context answer it garbled “nausea or vomiting” into “nausea/ventilator use.” That content error makes it a weaker default for safety or health replies despite its higher repeated mechanical compliance score. Choose `qwen2.5:0.5b` if you need a model from the [Ollama registry](https://ollama.com/library/qwen2.5/tags), while accounting for its weaker instruction compliance. `granite4:350m` stayed stable but took longer and used more memory; MiniCPM5-1B is viable only when the client disables reasoning. Avoid Gemma 3 1B and Qwen3.5 0.8B on this specific 2 GB setup because our runs triggered resets.
+**Recomendação:** O nosso modelo predefinido para esta placa de 2 GB é o LFM2.5-350M importado. Permaneceu estável com **516 MB RSS**, deixou cerca de **1 GB de RAM disponível** e passou **5/6** verificações das regras de resposta no teste do Pi 4. Nos testes repetidos do Pi 5, por vezes omitiu o nome da fonte; aplicações que exigem atribuição devem verificá-la. Escolha LFM2.5-230M quando a latência e a margem de memória forem prioritárias: foi mais rápido e leve, mas numa resposta médica transformou “nausea or vomiting” em “nausea/ventilator use”. Esse erro de conteúdo torna-o uma opção predefinida mais fraca para respostas sobre saúde ou segurança, apesar da pontuação mecânica repetida superior. Escolha `qwen2.5:0.5b` se precisar de um modelo do [registo Ollama](https://ollama.com/library/qwen2.5/tags), tendo em conta a sua menor conformidade com instruções. `granite4:350m` foi estável, mas demorou mais e usou mais memória; MiniCPM5-1B só é viável se o cliente desligar o raciocínio. Evite Gemma 3 1B e Qwen3.5 0.8B nesta configuração específica de 2 GB, pois as nossas execuções provocaram reinícios.
 
-## Raspberry Pi 5: more choice, with a speed tradeoff
+## Raspberry Pi 5: mais opções, com uma troca na velocidade
 
-The 8 GB Pi 5 handled all **25 models** in our speed-and-memory benchmark. The table includes every run, including models we do not recommend for this short-reply workload. A dagger marks an imported GGUF. “Think off” records the setting used for the speed run; the separate compliance pass did not necessarily use that setting.
+O Pi 5 de 8 GB executou os **25 modelos** do benchmark de velocidade e memória. A tabela inclui todas as execuções, mesmo as que não recomendamos para respostas curtas. † indica um GGUF importado. «Think off» regista a definição usada no teste de velocidade; o teste de conformidade separado pode ter usado outra.
 
-| Model | File GB | Output tok/s | Reply s | Peak RSS MB | Short-reply assessment |
+| Modelo | Ficheiro GB | Saída tok/s | Resposta s | RSS máximo MB | Avaliação para respostas curtas |
 |---|---:|---:|---:|---:|---|
-| `lfm2.5-230m` † | 0.25 | 45.0 | 1.8 | 446 | Lowest latency; 78% repeated compliance |
-| `bonsai-1.7b` †, Q1_0 | 0.25 | 15.3 | 8.2 | 871 | Skip: 1-bit weights and 3/6 single-pass compliance |
-| `lfm2.5-350m` † | 0.38 | 30.0 | 2.1 | 581 | Fast, but missed source citation in 5/18 repeats |
-| `qwen2.5:0.5b` | 0.40 | 28.4 | 3.6 | 675 | Easy registry option; 61% repeated compliance |
-| `qwen3:0.6b`, think off | 0.52 | 23.0 | 4.3 | 1,069 | Conditional: 4/6 compliance pass, reasoning setting matters |
-| `bonsai-4b` †, Q1_0 | 0.57 | 6.8 | 18.1 | 1,343 | Experimental 1-bit model; 6/6 single pass is unconfirmed |
-| `minicpm5-1b` †, think off | 0.69 | 18.4 | 5.1 | 869 | Conditional: default reasoning gave empty replies |
-| `granite4:350m` | 0.71 | 12.1 | 6.6 | 892 | Fits, but slower and larger than small LFM2.5 |
-| `lfm2.5-1.2b` † | 0.73 | 15.5 | 4.7 | 967 | Best overall for our workload; 89% repeated compliance |
-| `llama3.2:1b-instruct-q4_K_M` | 0.81 | 13.0 | 7.5 | 1,244 | Registry alternative; 5/6 compliance pass |
-| `gemma3:1b` | 0.82 | 11.2 | 10.9 | 1,262 | Best registry-only repeated compliance: 83% |
-| `qwen2.5:1.5b-instruct-q4_K_M` | 0.99 | 10.3 | 9.4 | 1,361 | 4/6 compliance pass; Gemma 3 1B followed rules better |
-| `qwen3.5:0.8b`, think off | 1.04 | 8.8 | 12.2 | 1,592 | 0/6 with default reasoning; avoid without thinking control |
-| `spark-x2.5-1.7b` †, think off | 1.11 | 9.7 | 9.4 | 1,542 | 0/6 with default reasoning; avoid without thinking control |
-| `qwen3:1.7b`, think off | 1.36 | 8.1 | 12.4 | 1,867 | Conditional; more memory and delay than smaller choices |
-| `minicpm5-2b` †, think off | 1.56 | 7.7 | 10.9 | 1,787 | Conditional; 5/6 single pass, extra bullets |
-| `qwen2.5:3b-instruct-q4_K_M` | 1.93 | 5.2 | 14.7 | 2,366 | Trial 3B option; 5/6 single pass |
-| `granite4:micro-h` | 1.94 | 3.9 | 23.7 | 2,486 | Skip for interactive use: slow decode |
-| `llama3.2:3b-instruct-q4_K_M` | 2.02 | 5.5 | 18.6 | 2,831 | Alternative 3B trial; no compliance run reported |
-| `granite4:micro` | 2.10 | 5.3 | 17.9 | 2,679 | Fits, but slower replies than smaller alternatives |
-| `qwen3.5:2b`, think off | 2.74 | 5.0 | 16.1 | 3,627 | High memory and delay; no compliance run reported |
-| `gemma3:4b` | 3.34 | 3.9 | 30.3 | 4,267 | Skip for responsive replies; 14.3 s to first token |
-| `ling-3.0-tiny` †, think off | 4.82 | 9.9 | 19.4 | 5,071 | Large footprint; 5/6 single pass with grounding failure |
-| `lfm2.5:8b`, think off | 5.16 | 8.7 | 54.6 | 5,317 | Fits tightly; 34.4 s cold load and overlong answers |
-| `gemma3n:e2b` | 5.62 | 6.1 | 25.9 | 5,261 | Skip: swap pressure alongside other Pi services |
+| `lfm2.5-230m` † | 0.25 | 45.0 | 1.8 | 446 | Latência mínima; 78% de conformidade repetida |
+| `bonsai-1.7b` †, Q1_0 | 0.25 | 15.3 | 8.2 | 871 | Evitar: pesos de 1 bit e conformidade de passagem única 3/6 |
+| `lfm2.5-350m` † | 0.38 | 30.0 | 2.1 | 581 | Rápida, mas omitiu a fonte em 5 de 18 repetições |
+| `qwen2.5:0.5b` | 0.40 | 28.4 | 3.6 | 675 | Opção simples do registo; 61% de conformidade repetida |
+| `qwen3:0.6b`, raciocínio desligado | 0.52 | 23.0 | 4.3 | 1,069 | Condicional: 4/6; a definição de raciocínio importa |
+| `bonsai-4b` †, Q1_0 | 0.57 | 6.8 | 18.1 | 1,343 | Modelo de 1 bit experimental; o 6/6 de uma só passagem não está confirmado |
+| `minicpm5-1b` †, raciocínio desligado | 0.69 | 18.4 | 5.1 | 869 | Condicional: o raciocínio predefinido deu respostas vazias |
+| `granite4:350m` | 0.71 | 12.1 | 6.6 | 892 | Cabe, mas é maior e mais lento que o LFM2.5 pequeno |
+| `lfm2.5-1.2b` † | 0.73 | 15.5 | 4.7 | 967 | Melhor para a nossa carga; 89% de conformidade repetida |
+| `llama3.2:1b-instruct-q4_K_M` | 0.81 | 13.0 | 7.5 | 1,244 | Alternativa do registo; 5/6 em conformidade |
+| `gemma3:1b` | 0.82 | 11.2 | 10.9 | 1,262 | Melhor conformidade repetida entre modelos do registo: 83% |
+| `qwen2.5:1.5b-instruct-q4_K_M` | 0.99 | 10.3 | 9.4 | 1,361 | 4/6; Gemma 3 1B seguiu melhor as regras |
+| `qwen3.5:0.8b`, raciocínio desligado | 1.04 | 8.8 | 12.2 | 1,592 | 0/6 com raciocínio predefinido; evitar sem controlo do raciocínio |
+| `spark-x2.5-1.7b` †, raciocínio desligado | 1.11 | 9.7 | 9.4 | 1,542 | 0/6 com raciocínio predefinido; evitar sem controlo do raciocínio |
+| `qwen3:1.7b`, raciocínio desligado | 1.36 | 8.1 | 12.4 | 1,867 | Condicional; mais memória e atraso que modelos menores |
+| `minicpm5-2b` †, raciocínio desligado | 1.56 | 7.7 | 10.9 | 1,787 | Condicional; 5/6 numa passagem, pontos de lista adicionais |
+| `qwen2.5:3b-instruct-q4_K_M` | 1.93 | 5.2 | 14.7 | 2,366 | Opção 3B para experimentar; 5/6 numa passagem |
+| `granite4:micro-h` | 1.94 | 3.9 | 23.7 | 2,486 | Evitar para uso interativo: descodificação lenta |
+| `llama3.2:3b-instruct-q4_K_M` | 2.02 | 5.5 | 18.6 | 2,831 | Outra opção 3B; não foi relatado teste de conformidade |
+| `granite4:micro` | 2.10 | 5.3 | 17.9 | 2,679 | Cabe, mas responde mais devagar que as alternativas menores |
+| `qwen3.5:2b`, raciocínio desligado | 2.74 | 5.0 | 16.1 | 3,627 | Memória e atraso elevados; teste de conformidade não relatado |
+| `gemma3:4b` | 3.34 | 3.9 | 30.3 | 4,267 | Evitar para respostas rápidas; 14.3 s até ao primeiro token |
+| `ling-3.0-tiny` †, raciocínio desligado | 4.82 | 9.9 | 19.4 | 5,071 | Grande ocupação; 5/6 numa passagem com falha de fundamentação |
+| `lfm2.5:8b`, raciocínio desligado | 5.16 | 8.7 | 54.6 | 5,317 | Cabe à justa; carregamento a frio de 34.4 s e respostas longas |
+| `gemma3n:e2b` | 5.62 | 6.1 | 25.9 | 5,261 | Evitar: swap com outros serviços do Pi |
 
-† Imported GGUF. Reply times and memory figures are from the five-prompt Pi 5 speed run; compliance figures come from separate six-prompt tests. A model without a compliance score was not shown to obey the reply rules.
+† GGUF importado. Os tempos de resposta e a memória vêm do teste de velocidade no Pi 5 com cinco pedidos; os resultados de conformidade vêm de testes separados com seis pedidos. Um modelo sem pontuação não demonstrou seguir as regras de resposta.
 
-The small LFM2.5 models were the fastest *for this short-reply workload*. The 1.2B version offers a practical middle ground on the tested Pi 5. Gemma 3 1B is a registry-only alternative with better repeated reply-rule compliance than Qwen2.5 1.5B in our later tests. A 3B model may be worth the slower output for prompts that need more capacity, but these timings alone do not prove which model gives the best answers.
+Os pequenos modelos LFM2.5 foram os mais rápidos *para esta carga de respostas curtas*. A versão 1.2B oferece um compromisso prático no Pi 5 testado. Gemma 3 1B é uma alternativa disponível apenas no registo e, nos testes posteriores, seguiu repetidamente as regras de resposta melhor que Qwen2.5 1.5B. Um modelo 3B pode compensar a saída mais lenta em pedidos que exijam mais capacidade, mas estes tempos não mostram por si só qual responde melhor.
 
-Cold-load and first-token delays change the experience. LFM2.5-230M loaded in about **0.21 seconds** and produced a visible token in **0.37 seconds** on the Pi 5. Qwen2.5 1.5B took **2.59 seconds** to load and **3.66 seconds** to its first visible token; Qwen2.5 3B took **5.60** and **7.97 seconds**, respectively. For an occasional question, those delays may matter more than the output rate once generation begins. For a continuously loaded model, they matter less, but keeping a model resident consumes memory between requests.
+Os atrasos de carregamento a frio e do primeiro token mudam a experiência. No Pi 5, LFM2.5-230M carregou em cerca de **0.21 segundos** e apresentou um token visível em **0.37 segundos**. Qwen2.5 1.5B demorou **2.59 segundos** a carregar e **3.66 segundos** até ao primeiro token visível; Qwen2.5 3B demorou **5.60** e **7.97 segundos**. Para uma pergunta ocasional, estes atrasos podem importar mais do que a velocidade de saída depois de começar a geração. Um modelo carregado continuamente reduz esse atraso, mas ocupa memória entre pedidos.
 
-Other measured candidates illustrate why we do not rank by parameter count alone. With reasoning disabled, `qwen3:0.6b` reached **23.0 tokens/s** on the Pi 5 at **1,069 MB RSS**, while imported MiniCPM5-1B reached **18.4 tokens/s** at **869 MB RSS**. `granite4:350m` needed a **0.71 GB** download and generated **12.1 tokens/s**, despite its 350M label. Model packaging and architecture change the relationship between name, file size, memory, and speed.
+Outros candidatos medidos mostram por que não classificamos apenas pelo número de parâmetros. Com o raciocínio desligado, `qwen3:0.6b` atingiu **23.0 tokens/s** no Pi 5 com **1,069 MB RSS**, enquanto MiniCPM5-1B importado atingiu **18.4 tokens/s** com **869 MB RSS**. `granite4:350m` exigiu um download de **0.71 GB** e gerou **12.1 tokens/s**, apesar do rótulo 350M. O empacotamento e a arquitetura mudam a relação entre nome, tamanho do ficheiro, memória e velocidade.
 
-If your client can reliably send `think: false`, Qwen3 0.6B and MiniCPM5-1B are reasonable experiments when you want alternatives to LFM2.5. MiniCPM5-2B, Qwen3 1.7B, and Spark-X2.5 1.7B also ran on the Pi 5, but none offered a clear speed-and-memory advantage over our primary choices. The compliance test used default reasoning for MiniCPM5-1B and Spark-X2.5; its empty replies should not be presented as the outcome of their think-off speed runs. Conversely, a fast think-off timing does not establish that a bridge which omits that flag will receive a usable answer.
+Se o seu cliente conseguir enviar `think: false` de forma fiável, Qwen3 0.6B e MiniCPM5-1B são experiências razoáveis como alternativas a LFM2.5. MiniCPM5-2B, Qwen3 1.7B e Spark-X2.5 1.7B também funcionaram no Pi 5, mas não ofereceram uma vantagem clara de velocidade e memória sobre as opções principais. O teste de conformidade usou o raciocínio predefinido para MiniCPM5-1B e Spark-X2.5; as respostas vazias não devem ser apresentadas como resultado dos testes de velocidade com raciocínio desligado. Por outro lado, um tempo rápido com raciocínio desligado não prova que uma ponte sem essa definição receberá uma resposta útil.
 
-If installation simplicity matters more than raw speed, Gemma 3 1B and Llama 3.2 1B are plausible registry choices on the 8 GB Pi 5. Gemma 3 1B followed the tested reply rules in **15/18** repeated replies. Llama 3.2 1B passed **5/6** in one pass, so its compliance estimate is less certain. Qwen2.5 1.5B loaded and answered faster than Gemma 3 1B in our timing run, but passed only **4/6** reply-rule checks in its single compliance pass. Choose between them using the requirement that matters to your own prompts.
+Se a simplicidade de instalação importar mais que a velocidade bruta, Gemma 3 1B e Llama 3.2 1B são opções plausíveis do registo num Pi 5 de 8 GB. Gemma 3 1B seguiu as regras testadas em **15/18** respostas repetidas. Llama 3.2 1B passou **5/6** numa passagem, por isso a estimativa de conformidade é menos segura. Qwen2.5 1.5B carregou e respondeu mais depressa que Gemma 3 1B no teste de tempo, mas passou só **4/6** verificações no seu único teste de conformidade. Escolha segundo os requisitos dos seus pedidos.
 
-For occasional longer or harder text prompts, the quantized Qwen2.5 3B and Llama 3.2 3B are the 3B candidates with manageable memory use on our 8 GB Pi 5. We measured their speed and memory, and Qwen2.5 3B passed **5/6** in one compliance pass; we did not publish a comparable compliance run for Llama 3.2 3B. Their larger parameter counts are a reason to *test* them on tasks where smaller models fall short, not proof that they answered those tasks better. Granite 4 Micro and Micro-H, Qwen3.5 2B, Gemma 3 4B, Ling-3.0-tiny, and Gemma 3n E2B all fit or loaded in our Pi 5 trials, but offered less attractive latency, memory headroom, or reply reliability for this short-response application.
+Para pedidos de texto ocasionais mais longos ou difíceis, Qwen2.5 3B e Llama 3.2 3B quantizados são os candidatos 3B com uso moderado de memória no Pi 5 de 8 GB testado. Medimos velocidade e memória; Qwen2.5 3B passou **5/6** numa única verificação de conformidade. Não foi relatado um teste comparável para Llama 3.2 3B. O maior número de parâmetros justifica *testá-los* em tarefas nas quais os modelos menores falham, não prova que respondam melhor. Granite 4 Micro e Micro-H, Qwen3.5 2B, Gemma 3 4B, Ling-3.0-tiny e Gemma 3n E2B couberam ou carregaram nos testes do Pi 5, mas foram menos interessantes em latência, margem de memória ou fiabilidade para esta aplicação de respostas curtas.
 
-The two Bonsai models demonstrate the cost of extreme quantization. Their Q1_0 files were strikingly small for 1.7B and 4B parameter names, yet the 1.7B model passed only **3/6** reply-rule checks. The 4B model passed a single six-prompt compliance pass, but took **18.1 seconds** per reply and has no repeated compliance confirmation. We would treat both as experiments rather than default recommendations, especially where answer quality matters.
+Os dois modelos Bonsai mostram o custo da quantização extrema. Os ficheiros Q1_0 eram surpreendentemente pequenos para nomes com 1.7B e 4B parâmetros, mas o modelo 1.7B passou apenas **3/6** verificações das regras de resposta. O modelo 4B passou uma única prova de seis pedidos, mas demorou **18.1 segundos** por resposta e não teve confirmação repetida de conformidade. Trate ambos como experiências e não recomendações predefinidas, sobretudo quando a qualidade da resposta importa.
 
-The 8B LFM2.5 result needs context: its hybrid design uses fewer active parameters per token, so its decode rate exceeded the measured 3B dense models. It still took **34.4 seconds to load cold** from microSD and used over **5.3 GB resident memory**. It is a demonstration of what fits, not a comfortable default for a Pi that also runs other services. The measured `gemma3n:e2b` similarly used about 5.3 GB resident memory and caused swapping alongside the other services on the test host.
+O resultado LFM2.5-8B precisa de contexto: a arquitetura híbrida usa menos parâmetros ativos por token, pelo que a velocidade de descodificação ultrapassou a dos modelos densos 3B medidos. Ainda assim, o carregamento a frio desde microSD demorou **34.4 segundos** e usou mais de **5.3 GB de memória residente**. Isto mostra o que cabe, mas não é uma escolha confortável para um Pi que também executa outros serviços. O `gemma3n:e2b` medido também usou cerca de 5.3 GB de memória residente e provocou swap junto com os restantes serviços do anfitrião de teste.
 
-The LFM2.5 8B run also reached the full **140-token cap** instead of keeping its response brief. The 4B Gemma 3 run took **14.3 seconds** to its first token and **30.3 seconds** for the complete reply. Both can be loaded on this Pi 5, but neither behaved like a responsive small assistant in our tests. A tiny model with an appropriately short answer may serve a radio or command interface better than a larger model with a faster decode rate on paper.
+A execução LFM2.5 8B também atingiu o limite completo de **140 tokens**, em vez de manter a resposta curta. A execução Gemma 3 4B demorou **14.3 segundos** até ao primeiro token e **30.3 segundos** pela resposta completa. Ambos carregam neste Pi 5, mas não se comportaram como pequenos assistentes reativos nos nossos testes. Um modelo minúsculo com uma resposta curta adequada pode servir melhor uma interface de rádio ou comandos que um modelo maior com uma velocidade de descodificação teoricamente superior.
 
-## Memory, reasoning, and model format
+## Memória, raciocínio e formato do modelo
 
-A useful first estimate from our measurements is **model download size × 1.4** for resident inference memory. It is only a rule of thumb: context length, runtime settings, model architecture, and other processes can change the requirement. Check available memory while generating, keep only one model loaded on a small host, and leave room for the OS. A 4 GB board can reasonably start with the tiny or compact models, but our 4 GB recommendations are extrapolations rather than direct 4 GB tests.
+Uma estimativa inicial útil das nossas medições é **tamanho do download do modelo × 1.4** para a memória residente de inferência. É apenas uma regra prática: comprimento do contexto, definições do runtime, arquitetura e outros processos podem alterar a necessidade. Verifique a memória disponível durante a geração, mantenha apenas um modelo carregado num anfitrião pequeno e deixe margem para o sistema operativo. Uma placa de 4 GB pode começar com modelos pequenos ou compactos, mas as nossas recomendações para 4 GB são extrapolações, não testes diretos dessa variante.
 
-For example, a 0.73 GB LFM2.5-1.2B file corresponded to about **967 MB RSS** on the Pi 5, while the 0.99 GB Qwen2.5 1.5B file reached **1,361 MB RSS**. The rule works reasonably for those models, but it is not a hard limit. Plan for more than the measured model process if the Pi also runs an interface, search index, local library, or other background service. Watch swap use during a real request; a model that technically loads while constantly swapping is not a practical fit.
+Por exemplo, um ficheiro LFM2.5-1.2B de 0.73 GB correspondeu a cerca de **967 MB RSS** no Pi 5, enquanto o ficheiro Qwen2.5 1.5B de 0.99 GB atingiu **1,361 MB RSS**. A regra funciona razoavelmente para estes modelos, mas não é um limite rígido. Conte com mais memória do que a do processo medido se o Pi também executar uma interface, índice de pesquisa, biblioteca local ou serviço em segundo plano. Observe o swap durante um pedido real; um modelo que carrega mas usa swap continuamente não serve na prática.
 
-Some models generate an internal reasoning block before their visible answer. In our tests, `qwen3:0.6b` on the 2 GB Pi 4 took much longer to produce visible text, and MiniCPM5-1B answered only one of five prompts with its default reasoning setting versus five of five with reasoning disabled. For a short response budget, set `think: false` in a compatible Ollama API request, or select a model that does not default to reasoning. This setting applies to supported models and clients; it is not a universal speed switch.
+Alguns modelos geram um bloco interno de raciocínio antes da resposta visível. Nos nossos testes, `qwen3:0.6b` no Pi 4 de 2 GB demorou muito mais a apresentar texto visível. MiniCPM5-1B respondeu de forma útil a apenas um dos cinco pedidos com a definição predefinida de raciocínio, contra cinco de cinco com o raciocínio desligado. Para respostas com limite curto, defina `think: false` num pedido compatível da API Ollama ou escolha um modelo sem raciocínio predefinido. Esta definição aplica-se a modelos e clientes compatíveis; não é um interruptor universal de velocidade.
 
-The distinction matters because a token cap can include tokens spent on reasoning even when the user sees no answer. On the Pi 4, default-thinking `qwen3:0.6b` averaged **40.4 seconds per request**, and one prompt produced an empty visible reply. MiniCPM5-1B averaged **33.3 seconds** with its default setting versus **12.2 seconds** with reasoning disabled. We also disabled reasoning for the Pi 5 runs of Qwen3, Qwen3.5, MiniCPM5, Ling-3.0, and Spark-X2.5 where indicated in our records. Compare a model under the exact reasoning setting your client will use.
+A distinção importa porque o limite de tokens pode incluir tokens de raciocínio mesmo quando o utilizador não vê uma resposta. No Pi 4, `qwen3:0.6b` com raciocínio predefinido demorou em média **40.4 segundos por pedido**; um deles devolveu uma resposta visível vazia. MiniCPM5-1B demorou em média **33.3 segundos** com a definição predefinida e **12.2 segundos** com o raciocínio desligado. Nas execuções Pi 5 também desligámos o raciocínio de Qwen3, Qwen3.5, MiniCPM5, Ling-3.0 e Spark-X2.5 onde os nossos registos o indicavam. Compare cada modelo com a definição que o cliente usará.
 
-### Check whether the reply is usable
+### Verifique se a resposta serve
 
-For our short mesh-assistant workload, the response contract is as important as speed: at most **90 words**, no more than **three bullets**, plain text, a finished sentence, and use of supplied retrieval context with its source named. The bridge divides text into **180-character chunks**. A long answer occupies more radio airtime, even if the model generated it quickly.
+Na nossa carga curta de assistente mesh, o contrato da resposta importa tanto quanto a velocidade: até **90 palavras**, no máximo **três pontos de lista**, texto simples, uma frase completa e utilização do contexto recuperado fornecido com o nome da fonte. A ponte divide o texto em blocos de **180 caracteres**. Uma resposta longa ocupa mais tempo de rádio, mesmo que o modelo a gere depressa.
 
-The later version of our benchmark checks for empty replies, a prompt-specific word limit, too many bullets, Markdown tables or code fences, an unfinished ending, missing terms from supplied context, and a missing source name. When we scored replies against the deployed assistant prompt, small models breached these rules regularly. The most consequential failures were **empty replies** when reasoning consumed the token budget, followed by answers that ignored retrieved context or omitted its source. Going over the word limit or using too many bullets still delivered visible text, but wasted airtime. These are mechanical checks, not a substitute for reading the answer: they cannot establish factual accuracy or whether safety advice is sound.
+A versão posterior do benchmark verifica respostas vazias, limite de palavras específico do pedido, pontos em excesso, tabelas ou blocos de código Markdown, final incompleto, termos ausentes do contexto fornecido e nome da fonte em falta. Avaliados segundo o prompt de sistema do assistente implementado, os modelos pequenos violavam estas regras regularmente. As falhas mais importantes eram **respostas vazias** quando o raciocínio consumia o limite de tokens, seguidas de respostas que ignoravam o contexto recuperado ou omitiam a fonte. Ultrapassar o limite de palavras ou pontos ainda produzia texto visível, mas desperdiçava tempo de rádio. São verificações mecânicas e não substituem a leitura da resposta: não estabelecem a exatidão dos factos nem a qualidade dos conselhos de segurança.
 
-#### Repeated Pi 5 compliance results
+#### Resultados repetidos de conformidade no Pi 5
 
-We first ran six prompts once per model with a **220-token cap** and the deployed system prompt. Models that looked plausible were then tested twice more with a different seed, giving **18 replies per model**. A perfect single pass did not guarantee a perfect repeat. The repeated results below provide a firmer comparison for the short mesh replies we tested:
+Primeiro executámos seis pedidos uma vez por modelo, com um limite de **220 tokens** e o prompt de sistema implementado. Os modelos promissores foram testados mais duas vezes com outra seed, num total de **18 respostas por modelo**. Uma passagem perfeita não garante repetições perfeitas. Os resultados repetidos abaixo oferecem uma comparação mais sólida para as respostas mesh curtas testadas:
 
-| Model | Replies that followed all checked rules | Main observed failures |
+| Modelo | Respostas que cumpriram todas as regras verificadas | Principais falhas observadas |
 |---|---:|---|
-| Imported LFM2.5-1.2B | 16/18 (89%) | Two unfinished replies |
-| `gemma3:1b` | 15/18 (83%) | Three unfinished replies |
-| Imported LFM2.5-230M | 14/18 (78%) | Unfinished replies and missing source names |
-| Imported LFM2.5-350M | 13/18 (72%) | Missing source names |
-| `qwen2.5:0.5b` | 11/18 (61%) | Too many bullets, excess words, missing source names |
+| LFM2.5-1.2B importado | 16/18 (89%) | Duas respostas incompletas |
+| `gemma3:1b` | 15/18 (83%) | Três respostas incompletas |
+| LFM2.5-230M importado | 14/18 (78%) | Respostas incompletas e nomes de fontes ausentes |
+| LFM2.5-350M importado | 13/18 (72%) | Nomes de fontes ausentes |
+| `qwen2.5:0.5b` | 11/18 (61%) | Demasiados pontos e palavras, nomes de fontes ausentes |
 
-On the **2 GB Pi 4**, the separate six-prompt compliance pass found **5/6** for LFM2.5-350M, **4/6** for LFM2.5-230M, and **2/6** for Qwen2.5-0.5B. MiniCPM5-1B improved from **1/6** with default reasoning to **5/6** with reasoning disabled. These Pi 4 scores are single-pass results, so we give more weight to the repeated Pi 5 results when discussing general instruction-following behavior, while using the Pi 4 runs to judge stability and speed on that board.
+No **Pi 4 de 2 GB**, a verificação separada de seis pedidos deu **5/6** ao LFM2.5-350M, **4/6** ao LFM2.5-230M e **2/6** ao Qwen2.5-0.5B. MiniCPM5-1B melhorou de **1/6** com raciocínio predefinido para **5/6** com o raciocínio desligado. Estes resultados do Pi 4 são de uma só passagem. Por isso, damos mais peso aos resultados repetidos do Pi 5 ao discutir seguimento geral de instruções e usamos os testes Pi 4 para avaliar estabilidade e velocidade nessa placa.
 
-The failures have different consequences. An **empty** reply gives the user nothing; an answer that ignores supplied material can be misleading. A missing source name prevents readers from checking attribution. Extra bullets or words mainly consume additional 180-character packets. An unfinished sentence may indicate truncation. The LFM2.5-230M medical-term error is a reminder that a reply can pass these mechanical checks and still be wrong. None of the five repeated candidates followed every rule in all 18 replies, so an application that requires a strict length or format should enforce it after generation as well and review high-stakes content separately.
+As falhas têm consequências diferentes. Uma resposta **vazia** não ajuda o utilizador; ignorar o material fornecido pode induzir em erro. Sem o nome da fonte, os leitores não conseguem verificar a atribuição. Pontos ou palavras a mais consomem sobretudo pacotes adicionais de 180 caracteres. Uma frase incompleta pode indicar truncagem. O erro de termo médico do LFM2.5-230M lembra que uma resposta pode passar verificações mecânicas e ainda estar errada. Nenhum dos cinco candidatos testados repetidamente seguiu todas as regras em todas as 18 respostas. Uma aplicação com limites rígidos de tamanho ou formato também os deve impor depois da geração e rever separadamente o conteúdo de alto risco.
 
-We also checked the actual bridge endpoint, Ollama's OpenAI-compatible `/v1/chat/completions`, with retrieved WikiMed context. On the Pi 5, LFM2.5-1.2B returned a 28-word answer using six supplied terms; Qwen2.5-0.5B returned 38 words using seven. Both fit within two 180-character packets. That endpoint check confirms the imported LFM2.5 model works through the bridge's request path, but one successful answer is not a reliability guarantee.
+Também verificámos o endpoint real da ponte, `/v1/chat/completions` compatível com OpenAI do Ollama, com contexto WikiMed recuperado. No Pi 5, LFM2.5-1.2B devolveu uma resposta de 28 palavras que usou seis termos fornecidos; Qwen2.5-0.5B devolveu 38 palavras e usou sete. Ambas couberam em dois pacotes de 180 caracteres. A verificação confirma que o LFM2.5 importado funciona no caminho de pedidos da ponte, mas uma resposta bem-sucedida não garante fiabilidade.
 
-Ollama publishes many ready-to-pull models, including [Qwen2.5's 0.5B, 1.5B, and 3B variants](https://ollama.com/library/qwen2.5/tags). We imported the small LFM2.5 models from [Liquid AI's GGUF releases](https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/tree/main) into Ollama. Check the exact tag or GGUF filename before downloading: model registries and repositories can change. Keep GGUF downloads on persistent storage; in our tests, staging files in a RAM-backed `/tmp` consumed scarce Pi 4 memory.
+Ollama publica muitos modelos prontos a descarregar, incluindo as [variantes Qwen2.5 de 0.5B, 1.5B e 3B](https://ollama.com/library/qwen2.5/tags). Importámos para Ollama os pequenos modelos LFM2.5 dos [lançamentos GGUF da Liquid AI](https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/tree/main). Confirme a tag exata ou o nome do ficheiro GGUF antes de descarregar: registos e repositórios podem mudar. Guarde os downloads GGUF em armazenamento persistente; nos nossos testes, o `/tmp` em RAM consumiu a escassa memória do Pi 4.
 
-### Registry tags and GGUF imports
+### Tags do registo e imports GGUF
 
-An Ollama tag is the shortest path to a first test: pull the exact tag and run it. The small LFM2.5 models in our tables were **GGUF imports**, not tags named `lfm2.5-230m`, `lfm2.5-350m`, or `lfm2.5-1.2b` in Ollama's public library. GGUF is a model-file format; names such as `Q8_0` and `Q4_K_M` identify quantization choices. The 230M and 350M LFM2.5 files we used were Q8_0, while the 1.2B file was Q4_K_M. Consequently, the same parameter count downloaded in another quantization may not have the same file size, memory use, or quality.
+Uma tag do Ollama é o caminho mais curto para um primeiro teste: obtenha a tag exata e execute-a. Os pequenos LFM2.5 das tabelas eram **imports GGUF**, não tags `lfm2.5-230m`, `lfm2.5-350m` ou `lfm2.5-1.2b` na biblioteca pública do Ollama. GGUF é um formato de ficheiro de modelo; nomes como `Q8_0` e `Q4_K_M` identificam opções de quantização. Os ficheiros LFM2.5 de 230M e 350M usados eram Q8_0, enquanto o ficheiro 1.2B era Q4_K_M. A mesma contagem de parâmetros noutra quantização pode, por isso, ter tamanho, memória ou qualidade diferentes.
 
-To import the tested 350M variant, download its GGUF to a directory on persistent storage, create a Modelfile pointing to it, and let Ollama copy it into its model store:
+Para importar a variante 350M testada, descarregue o GGUF para um diretório em armazenamento persistente, crie um Modelfile que aponte para ele e deixe o Ollama copiá-lo para o armazenamento de modelos:
 
 ```bash
 mkdir -p "$HOME/gguf"
@@ -161,35 +161,35 @@ ollama create lfm2.5-350m -f Modelfile-lfm2.5-350m
 ollama run lfm2.5-350m
 ```
 
-The import temporarily needs space for both the downloaded file and Ollama's stored copy. We used resumable downloads because long GGUF transfers sometimes broke mid-file. Before importing a downloaded GGUF, compare its SHA-256 with the file hash published by its source; a partial transfer can otherwise look like a model problem. On our Pi setup, `/tmp` was RAM-backed, so staging a GGUF there reduced the memory available for inference.
+A importação precisa temporariamente de espaço para o ficheiro descarregado e a cópia guardada pelo Ollama. Usámos downloads retomáveis porque transferências longas de GGUF por vezes eram interrompidas. Antes de importar, compare o SHA-256 do download com o hash publicado pela origem; uma transferência parcial pode parecer um problema do modelo. No nosso Pi, `/tmp` era apoiado por RAM, pelo que guardar lá um GGUF reduzia a memória disponível para inferência.
 
-## A practical starting point
+## Um ponto de partida prático
 
-| Hardware and goal | First model to try | Why |
+| Hardware e objetivo | Primeiro modelo a testar | Motivo |
 |---|---|---|
-| 2 GB Pi 4, default | Imported LFM2.5-350M | Stable at 516 MB RSS with about 1 GB available; selected after a medical-term error from 230M |
-| 2 GB Pi 4, lowest latency | Imported LFM2.5-230M | 383 MB RSS and 7.2-second average reply; verify content carefully, especially for health or safety questions |
-| 2 GB Pi 4, registry-only | `qwen2.5:0.5b` | Direct Ollama pull and stable in our five-prompt Pi 4 run; 61% repeated compliance on the Pi 5 |
-| 4 GB Pi 4 or Pi 5 | Imported LFM2.5-1.2B, then test locally | 967 MB RSS and 89% repeated compliance on our 8 GB Pi 5; we did not benchmark 4 GB variants directly |
-| 8 GB Pi 5, responsive assistant | Imported LFM2.5-1.2B | 15.5 tokens/s, 4.7-second total reply, and the highest repeated compliance we measured |
-| 8 GB Pi 5, registry-only setup | `gemma3:1b` | 11.2 tokens/s, 1,262 MB RSS, and 83% repeated compliance |
-| 8 GB Pi 5, try a larger text model | Quantized Qwen2.5 3B or Llama 3.2 3B | Both ran at about 5 tokens/s and used 2.4–2.8 GB RSS; Qwen2.5 3B passed 5/6 in a single compliance pass |
+| Pi 4 de 2 GB, predefinição | LFM2.5-350M importado | Estável a 516 MB RSS com cerca de 1 GB disponível; escolhido após erro de termo médico do 230M |
+| Pi 4 de 2 GB, latência mínima | LFM2.5-230M importado | 383 MB RSS e resposta média de 7.2 s; verifique o conteúdo com cuidado, sobretudo em questões de saúde e segurança |
+| Pi 4 de 2 GB, apenas registo | `qwen2.5:0.5b` | Download direto do Ollama e estabilidade no nosso teste Pi 4 de cinco pedidos; 61% de conformidade repetida no Pi 5 |
+| Pi 4 de 4 GB ou Pi 5 | LFM2.5-1.2B importado e depois testar localmente | 967 MB RSS e 89% de conformidade repetida no Pi 5 de 8 GB; não testámos diretamente variantes de 4 GB |
+| Pi 5 de 8 GB, assistente reativo | LFM2.5-1.2B importado | 15.5 tokens/s, resposta total de 4.7 s e maior conformidade repetida medida |
+| Pi 5 de 8 GB, apenas registo | `gemma3:1b` | 11.2 tokens/s, 1,262 MB RSS e 83% de conformidade repetida |
+| Pi 5 de 8 GB, testar texto maior | Qwen2.5 3B ou Llama 3.2 3B quantizados | Ambos correram a cerca de 5 tokens/s e usaram 2.4–2.8 GB RSS; Qwen2.5 3B passou 5/6 numa verificação única |
 
-These choices prioritize short, useful replies on a Pi that may also run other services. They are starting points rather than claims that one model is best at every task. In our single-pass Pi 5 compliance check, default-thinking `qwen3.5:0.8b` and Spark-X2.5 returned no compliant replies, while MiniCPM5-1B managed 1/6; a client that cannot disable their reasoning should avoid them for this short-reply workload. We would test the final model with the actual prompt, context length, concurrency, and response limit planned for deployment.
+Estas opções dão prioridade a respostas curtas e úteis num Pi que também pode executar outros serviços. São pontos de partida, não a afirmação de que um modelo seja melhor em todas as tarefas. No nosso teste de conformidade de passagem única no Pi 5, `qwen3.5:0.8b` e Spark-X2.5 com raciocínio predefinido não deram respostas conformes; MiniCPM5-1B obteve 1/6. Se o cliente não conseguir desligar o raciocínio, evite-os para esta carga curta. Teste o modelo final com o prompt, contexto, concorrência e limite de resposta previstos para a implementação.
 
-For the registry model, after [installing Ollama for Linux](https://ollama.com/download/linux), run:
+Para o modelo do registo, depois de [instalar Ollama para Linux](https://ollama.com/download/linux), execute:
 
 ```bash
 ollama pull qwen2.5:0.5b
 ollama run qwen2.5:0.5b
 ```
 
-Test with your own prompts, desired answer length, and other services running. Record both total reply time and memory use. That will tell you more about whether a model belongs on your Pi than its parameter count alone.
+Teste os seus prompts, o tamanho de resposta desejado e os restantes serviços ativos. Registe o tempo total de resposta e o uso de memória. Isso mostra melhor se um modelo serve para o seu Pi do que o número de parâmetros isoladamente.
 
-On a memory-constrained node, keep an eye on swap while testing. If a larger model makes the board unresponsive, use a smaller model and set an Ollama service memory limit appropriate to that model so an oversized load fails instead of exhausting the host. A service cap is a safeguard, not a way to make an oversized model fit. The Pi 4 resets in our tests show why responsiveness and memory headroom belong in the selection criteria alongside tokens per second.
+Num nó com pouca memória, acompanhe o swap durante os testes. Se um modelo maior tornar a placa pouco reativa, use um modelo menor e defina um limite de memória adequado para o serviço Ollama, para que uma carga excessiva falhe antes de esgotar a memória do anfitrião. O limite do serviço é uma proteção, não uma forma de fazer caber um modelo demasiado grande. Os reinícios do Pi 4 nos nossos testes mostram por que a capacidade de resposta e a margem de memória também contam, além dos tokens por segundo.
 
-## Turn the benchmark into a deployment decision
+## Transformar o benchmark numa decisão de implementação
 
-Before installing a model for daily use, write down four limits: **maximum reply time, maximum resident memory, response format, and failure behavior**. Test those limits with the services that will share the board. A model that passes alone but forces swap beside your radio bridge or dashboard does not meet the deployment requirement.
+Antes de usar um modelo diariamente, registe quatro limites: **tempo máximo de resposta, memória residente máxima, formato da resposta e comportamento em caso de falha**. Teste esses limites com os serviços que partilharão a placa. Um modelo que passa sozinho mas provoca swap ao lado da ponte de rádio ou do painel não satisfaz o requisito de implementação.
 
-Keep one small fallback model installed. Route to it when the primary model exceeds the memory limit, returns an empty reply, or fails the response contract. Record the model tag, quantization, Ollama version, prompt, context length, and seed with each comparison so a later model update does not look like a hardware improvement.
+Mantenha um modelo pequeno de reserva instalado. Mude para ele se o modelo principal ultrapassar o limite de memória, devolver uma resposta vazia ou violar o contrato de resposta. Registe em cada comparação a tag do modelo, quantização, versão Ollama, prompt, comprimento do contexto e seed, para que uma atualização posterior do modelo não pareça uma melhoria do hardware.

@@ -1,11 +1,11 @@
 ---
 title: "FISMA 101: una visión general de la seguridad de la información federal"
 date: 2023-02-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "FISMA 101 ofrece una visión completa de la Ley Federal de Modernización de la Seguridad de la Información, incluidos sus componentes clave, beneficios y requisitos para las agencias federales."
-tags: ["FISMA", "Seguridad de la información federal", "Seguridad de la información", "Gestión de riesgos", "Evaluación de los controles de seguridad", "Control continuo", "Respuesta a incidentes", "Autorización y acreditación", "Mayor seguridad de la información", "Mejor gestión del riesgo", "Mayor transparencia", "Colaboración reforzada", "Legislación estadounidense", "Agencias federales", "Programas de seguridad de la información", "Controles de seguridad", "Evaluación de riesgos", "Control continuo", "Incidentes de seguridad", "Transparencia y responsabilidad", "Ley Federal de Modernización de la Seguridad de la Información", "Beneficios de FISMA en las agencias federales", "Gestión de riesgos en la seguridad de la información federal", "Supervisión continua en FISMA", "Respuesta a incidentes en organismos federales", "Proceso de autorización y acreditación", "Mejora de la seguridad de la información en la administración federal", "Colaboración en la seguridad de la información federal", "Transparencia en el cumplimiento de la FISMA", "Normas de seguridad de la información para los organismos federales"]
+tags: ["FISMA", "Seguridad de la información federal", "Seguridad de la información", "Gestión de riesgos", "Evaluación de controles de seguridad", "Supervisión continua", "Respuesta a incidentes", "Autorización y acreditación", "Mejora de la seguridad de la información", "Mejor gestión de riesgos", "Mayor transparencia", "Colaboración reforzada", "Ley de EE. UU.", "Agencias federales", "Programas de seguridad de la información", "Controles de seguridad", "Evaluaciones de riesgos", "Monitoreo continuo", "Incidentes de seguridad", "Transparencia y rendición de cuentas", "Resumen de la Ley Federal de Modernización de la Seguridad de la Información", "Beneficios de FISMA en las agencias federales", "Gestión de riesgos en la seguridad de la información federal", "Supervisión continua en FISMA", "Respuesta a incidentes en agencias federales", "Proceso de autorización y acreditación", "Mejora de la seguridad de la información en el gobierno federal", "Colaboración en la seguridad de la información federal", "Transparencia en el cumplimiento de FISMA", "Normas de seguridad de la información para agencias federales"]
 cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Una pantalla de ordenador con un candado, símbolo de seguridad y protección de la información, con un fondo de código binario"
 coverCaption: ""
@@ -27,13 +27,13 @@ Hay varios componentes clave de la FISMA, entre ellos:
 
 - **Gestión de riesgos**: Las agencias federales deben llevar a cabo evaluaciones periódicas de riesgos para identificar posibles riesgos de seguridad e implementar controles de seguridad para mitigar esos riesgos.
 
-- Evaluación de los controles de seguridad: Las agencias federales deben evaluar la eficacia de sus controles de seguridad para garantizar que funcionan según lo previsto y para identificar cualquier área que necesite mejoras.
+- **Evaluación de los controles de seguridad**: Las agencias federales deben evaluar la eficacia de sus controles de seguridad para garantizar que funcionan según lo previsto y para identificar cualquier área que necesite mejoras.
 
-- Supervisión continua**: Las agencias federales deben supervisar continuamente sus sistemas de información para garantizar que son seguros y para responder a cualquier incidente de seguridad que se produzca.
+- **Supervisión continua**: Las agencias federales deben supervisar continuamente sus sistemas de información para garantizar que son seguros y para responder a cualquier incidente de seguridad que se produzca.
 
-- Respuesta a incidentes: Las agencias federales deben contar con un plan para responder a los incidentes de seguridad y deben ser capaces de identificar, contener y resolver rápidamente los incidentes de seguridad.
+- **Respuesta a incidentes**: Las agencias federales deben contar con un plan para responder a los incidentes de seguridad y deben ser capaces de identificar, contener y resolver rápidamente los incidentes de seguridad.
 
-- Autorización y acreditación: Los organismos federales deben obtener autorización de la autoridad competente para operar sus sistemas de información, y deben evaluar y reacreditar periódicamente dichos sistemas para garantizar su seguridad.
+- **Autorización y acreditación**: Los organismos federales deben obtener autorización de la autoridad competente para operar sus sistemas de información, y deben evaluar y reacreditar periódicamente dichos sistemas para garantizar su seguridad.
 
 ### Gestión de riesgos
 
@@ -41,15 +41,15 @@ La FISMA exige a los organismos federales que realicen evaluaciones periódicas 
 
 1. **Identificación de activos**: Las agencias federales deben identificar en primer lugar los activos que necesitan proteger, incluyendo la información sensible y los sistemas de información.
 
-2. 2. **Evaluación de amenazas y vulnerabilidades**: A continuación, los organismos federales deben evaluar las amenazas y vulnerabilidades que podrían afectar a sus activos y determinar la probabilidad y el impacto de dichas amenazas.
+2. **Evaluación de amenazas y vulnerabilidades**: A continuación, los organismos federales deben evaluar las amenazas y vulnerabilidades que podrían afectar a sus activos y determinar la probabilidad y el impacto de dichas amenazas.
 
 3. **Determinación del riesgo**: Basándose en los resultados de la evaluación de amenazas y vulnerabilidades, los organismos federales deben determinar el nivel de riesgo de sus activos y priorizar los riesgos que deben abordarse en primer lugar.
 
 4. **Planificación de la mitigación**: Las agencias federales deben desarrollar un plan para mitigar los riesgos identificados, incluyendo la implementación de controles de seguridad tales como controles de acceso, encriptación y cortafuegos.
 
-5. **Aplicación: Las agencias federales deben entonces implementar los controles de seguridad que han identificado como necesarios para mitigar los riesgos de sus activos.
+5. **Aplicación**: Las agencias federales deben entonces implementar los controles de seguridad que han identificado como necesarios para mitigar los riesgos de sus activos.
 
-6. **Seguimiento y evaluación Las agencias federales deben supervisar continuamente sus sistemas de información para asegurarse de que los controles de seguridad funcionan según lo previsto y para identificar cualquier área que necesite mejoras.
+6. **Seguimiento y evaluación**: Las agencias federales deben supervisar continuamente sus sistemas de información para asegurarse de que los controles de seguridad funcionan según lo previsto y para identificar cualquier área que necesite mejoras.
 
 ### Evaluación de los controles de seguridad
 
@@ -59,9 +59,9 @@ Las agencias federales deben evaluar la eficacia de sus controles de seguridad p
 
 2. **Evaluación**: Las agencias federales deben evaluar los resultados de las pruebas para determinar la eficacia de los controles de seguridad e identificar cualquier área que necesite mejoras.
 
-3. **3. Corrección: Basándose en los resultados de la evaluación, las agencias federales deben desarrollar un plan para abordar cualquier vulnerabilidad o área de mejora e implementar las acciones correctoras necesarias.
+3. **3. Corrección**: Basándose en los resultados de la evaluación, las agencias federales deben desarrollar un plan para abordar cualquier vulnerabilidad o área de mejora e implementar las acciones correctoras necesarias.
 
-4. **Mejora continua Los organismos federales deben supervisar y evaluar continuamente la eficacia de sus controles de seguridad y realizar las mejoras necesarias para garantizar que proporcionan una protección adecuada a sus activos.
+4. **Mejora continua**: Los organismos federales deben supervisar y evaluar continuamente la eficacia de sus controles de seguridad y realizar las mejoras necesarias para garantizar que proporcionan una protección adecuada a sus activos.
 
 ### Supervisión continua
 
@@ -73,7 +73,7 @@ Las agencias federales deben supervisar continuamente sus sistemas de informaci�
 
 3. **Escaneo de vulnerabilidades**: Las agencias federales deben llevar a cabo escaneos regulares de vulnerabilidad de sus sistemas de información para identificar cualquier vulnerabilidad que deba ser abordada.
 
-4. **Respuesta a incidentes: Las agencias federales deben contar con un plan para responder a incidentes de seguridad y deben ser capaces de identificar, contener y resolver rápidamente los incidentes de seguridad.
+4. **Respuesta a incidentes**: Las agencias federales deben contar con un plan para responder a incidentes de seguridad y deben ser capaces de identificar, contener y resolver rápidamente los incidentes de seguridad.
 
 ### Autorización y acreditación
 
@@ -81,7 +81,7 @@ Las agencias federales deben obtener la autorización de la autoridad competente
 
 1. **Autorización del sistema**: Las agencias federales deben obtener autorización de la autoridad competente para operar sus sistemas de información.
 
-2. 2. **Evaluación de la seguridad**: Las agencias federales deben llevar a cabo una evaluación de seguridad de sus sistemas de información para identificar cualquier riesgo y vulnerabilidad de seguridad.
+2. **Evaluación de la seguridad**: Las agencias federales deben llevar a cabo una evaluación de seguridad de sus sistemas de información para identificar cualquier riesgo y vulnerabilidad de seguridad.
 
 3. **Plan de mitigación**: Basándose en los resultados de la evaluación de seguridad, las agencias federales deben desarrollar un plan para mitigar cualquier riesgo y vulnerabilidad de seguridad e implementar los controles de seguridad necesarios.
 
@@ -109,6 +109,12 @@ FISMA exige a los organismos federales que informen sobre sus programas de segur
 
 FISMA también contribuye a reforzar la colaboración y coordinación entre los organismos federales y sus contratistas y otras partes interesadas, al exigirles que sigan las mismas normas de seguridad de la información. Esto ayuda a garantizar que todos trabajan juntos para proteger la información sensible y que los riesgos de seguridad de la información se gestionan eficazmente en todos los niveles del gobierno federal.
 
+
+## Lista de verificación de evidencias de FISMA de 2026
+
+Para cada control, vincule la evidencia con un sistema, un responsable, una fecha y el resultado de la revisión. Entre las evidencias útiles figuran las aprobaciones de políticas, las exportaciones de configuración, las revisiones de acceso, los informes de vulnerabilidades, los registros de incidentes, los resultados de capacitación y las pruebas de restauración.
+
+Revise el paquete después de cambios importantes. Un nuevo proveedor de identidad, una ruta de red, un servicio en la nube, un grupo de administradores o un tipo de datos puede modificar la evaluación de riesgos y la evidencia de los controles. Use el [Marco de Gestión de Riesgos de NIST](https://csrc.nist.gov/projects/risk-management/about-rmf), [FIPS 199](https://csrc.nist.gov/publications/detail/fips/199/final) y las directrices vigentes de la agencia como fuentes de referencia.
 
 ## Conclusión
 

@@ -1,284 +1,284 @@
 ---
-title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
+title: "よくあるサイバー攻撃の種類と防御側の検知方法"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
-genre: ["Cybersecurity", "Threat Detection", "Blue Team", "Security Operations", "Career Development"]
-tags: ["cyberattack types", "malware", "ransomware", "phishing", "spear phishing", "social engineering", "spoofing", "identity-based attacks", "credential stuffing", "password spraying", "SQL injection", "cross-site scripting", "supply chain attack", "insider threat", "DNS tunneling", "IoT attacks", "AI-powered attacks", "denial of service", "detection engineering", "SOC analyst", "blue team", "home lab", "log analysis", "incident response", "MITRE ATT&CK", "cybersecurity career", "threat hunting", "security operations center", "telemetry", "alert triage"]
+description: "よくあるサイバー攻撃の種類と、ログやテレメトリーに残る証拠を学び、自宅のセキュリティラボで検知を練習しましょう。"
+genre: ["サイバーセキュリティ", "脅威検知", "ブルーチーム", "セキュリティ運用", "キャリア開発"]
+tags: ["サイバー攻撃の種類", "マルウェア", "ランサムウェア", "フィッシング", "スピアフィッシング", "ソーシャルエンジニアリング", "スプーフィング", "IDベースの攻撃", "クレデンシャルスタッフィング", "パスワードスプレー", "SQLインジェクション", "クロスサイトスクリプティング", "サプライチェーン攻撃", "内部脅威", "DNSトンネリング", "IoT攻撃", "AIを使った攻撃", "サービス拒否", "検知エンジニアリング", "SOCアナリスト", "ブルーチーム", "自宅ラボ", "ログ分析", "インシデント対応", "MITRE ATT&CK", "サイバーセキュリティのキャリア", "脅威ハンティング", "セキュリティオペレーションセンター", "テレメトリー", "アラートトリアージ"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"
-coverAlt: "A digital illustration featuring colorful abstract icons symbolizing various cyberattack types like ransomware, phishing, and denial of service against a dark background."
+coverAlt: "暗い背景に、ランサムウェア、フィッシング、サービス拒否など、さまざまなサイバー攻撃を表すカラフルな抽象アイコンを配置したデジタルイラスト。"
 coverCaption: ""
 ---
 
-An **attack type** is a category of technique, not a single tool. Ransomware, phishing, and credential stuffing each name a method an adversary repeats against many targets with minor variations. Learning the categories gives you a mental index for the alerts you will meet on a security team.
+**攻撃の種類**とは、単一のツールではなく、手法の分類です。ランサムウェア、フィッシング、クレデンシャルスタッフィングは、攻撃者が少しずつ変化を加えながら多くの標的に繰り返し使う手法を指します。各分類を学ぶと、セキュリティチームで目にするアラートを整理しやすくなります。
 
-*Individual malware families appear and disappear within months. The attack categories below have stayed stable for years, and each one leaves a recognizable trail in endpoint, identity, network, or email telemetry.*
+*個々のマルウェアファミリーは数か月で登場しては消えていきます。以下の攻撃分類は何年も安定しており、それぞれがエンドポイント、ID、ネットワーク、メールのテレメトリーに特徴的な痕跡を残します。*
 
 <!--more-->
 
 ## 要点
 
-- **Learn the pattern, not the payload.** Attack categories change far slower than individual tools.
-- **Every category leaves evidence.** The detection work starts with knowing which telemetry records the activity.
-- **Reproduce an attack to understand it.** A home lab turns an abstract category into a recorded observation.
-- **Write up what you found.** A short investigation note proves the work and teaches you the evidence.
+- **ペイロードではなくパターンを学ぶ。** 攻撃の分類は個別のツールよりも変化が遅いものです。
+- **どの分類にも証拠が残る。** 検知作業は、どのテレメトリーに活動が記録されるかを知ることから始まります。
+- **攻撃を再現して理解する。** 自宅ラボを使えば、抽象的な分類を記録された観察結果に変えられます。
+- **調査結果を記録する。** 短い調査メモは、作業内容と証拠の両方を伝えます。
 
-## The Attack Types at a Glance
+## 主な攻撃の種類
 
-The table below lists the categories security teams meet most often. Each later section describes the category, its common variants, and the data a defender reviews to find it.
+次の表は、セキュリティチームがよく遭遇する分類を示します。各セクションでは、分類、その一般的な亜種、検知するために防御側が確認するデータを説明します。
 
-| Attack type | What it does |
+| 攻撃の種類 | 動作 |
 |---|---|
-| **Malware** | Runs malicious software such as ransomware, spyware, and trojans |
-| **Denial of service** | Floods a service with traffic until legitimate users lose access |
-| **Phishing** | Tricks a person into revealing credentials or running a malicious file |
-| **Spoofing** | Disguises an attacker as a trusted system, sender, or address |
-| **Identity-based attacks** | Abuses stolen or forged credentials to act as a valid user |
-| **Code injection** | Inserts malicious code into an application to change its behavior |
-| **Supply chain attacks** | Compromises a trusted vendor, library, or update channel |
-| **Social engineering** | Manipulates a person into taking an unsafe action |
-| **Insider threats** | Misuses access held by a current or former employee |
-| **DNS tunneling** | Encodes data inside DNS queries to move it past controls |
-| **IoT attacks** | Targets connected devices to pivot, spy, or join a botnet |
-| **AI-powered attacks** | Uses machine learning to generate content, impersonate people, or evade filters |
+| **マルウェア** | ランサムウェア、スパイウェア、トロイの木馬などの悪意あるソフトウェアを実行する |
+| **サービス拒否** | 正規のユーザーがアクセスできなくなるまでサービスに通信を集中させる |
+| **フィッシング** | 認証情報の開示や悪意あるファイルの実行を人に促す |
+| **スプーフィング** | 攻撃者を信頼できるシステム、送信者、アドレスに見せかける |
+| **IDベースの攻撃** | 盗難または偽造された認証情報を悪用し、正規ユーザーとして行動する |
+| **コードインジェクション** | アプリケーションに悪意あるコードを挿入し、動作を変える |
+| **サプライチェーン攻撃** | 信頼されているベンダー、ライブラリ、更新経路を侵害する |
+| **ソーシャルエンジニアリング** | 人を操り、安全でない行動を取らせる |
+| **内部脅威** | 現職または元従業員が持つアクセス権を悪用する |
+| **DNSトンネリング** | DNSクエリにデータを埋め込み、制御をすり抜ける |
+| **IoT攻撃** | 接続デバイスを狙い、ネットワーク内を移動したり、監視したり、ボットネットに加えたりする |
+| **AIを使った攻撃** | 機械学習でコンテンツを生成し、人になりすまし、フィルターを回避する |
 
-**A note on scope:** these categories overlap. A phishing email often delivers malware, and a successful credential theft often precedes an identity-based attack. Treat the list as a set of lenses rather than rigid boxes.
+**対象範囲について:** これらの分類は重なり合います。フィッシングメールがマルウェアを送り込むことも、認証情報の窃取に続いてIDベースの攻撃が行われることもあります。固定的な区分ではなく、複数の視点として捉えてください。
 
 ______
 
-## Malware
+## マルウェア
 
-**Malware** covers any program built to harm, control, or profit from a system. The term spans ransomware, fileless malware, spyware, adware, trojans, worms, rootkits, keyloggers, and botnets.
+**マルウェア**とは、システムに損害を与え、制御し、利益を得る目的で作られたプログラムです。ランサムウェア、ファイルレスマルウェア、スパイウェア、アドウェア、トロイの木馬、ワーム、ルートキット、キーロガー、ボットネットが含まれます。
 
-| Subtype | Behavior |
+| サブタイプ | 動作 |
 |---|---|
-| **Ransomware** | Encrypts files and demands payment for the decryption key |
-| **Fileless malware** | Runs through built-in system tools and writes little to disk |
-| **Spyware** | Collects activity data without the user's knowledge |
-| **Trojan** | Poses as legitimate software to gain execution |
-| **Worm** | Copies itself across hosts without user action |
-| **Rootkit** | Hides inside the operating system to keep persistent control |
+| **ランサムウェア** | ファイルを暗号化し、復号鍵と引き換えに金銭を要求する |
+| **ファイルレスマルウェア** | 組み込みのシステムツールを使い、ディスクへの書き込みを最小限に抑える |
+| **スパイウェア** | ユーザーに気付かれずに活動データを収集する |
+| **トロイの木馬** | 正規ソフトウェアを装い、実行させる |
+| **ワーム** | ユーザーの操作なしにホスト間で自己複製する |
+| **ルートキット** | OS内に隠れ、長期的な制御を維持する |
 
-**Where the evidence lives:** endpoint detection and response tools, or **EDR**, record process trees, command lines, file writes, and registry changes. Even a fileless attack produces process and script-block telemetry, because the operating system still launches the tools it abuses.
+**証拠が残る場所:** エンドポイント検出・対応ツール、または **EDR** は、プロセスツリー、コマンドライン、ファイル書き込み、レジストリの変更を記録します。ファイルレス攻撃でも、OSが悪用されたツールを起動するため、プロセスやスクリプトのテレメトリーが残ります。
 
 ______
 
-## Denial of Service
+## サービス拒否
 
-**A denial-of-service (DoS) attack** floods a target with requests until legitimate users lose access. **A distributed denial-of-service (DDoS) attack** repeats the same idea from many systems at once, which makes the traffic far harder to filter by source address.
+**サービス拒否（DoS）攻撃**は、正規のユーザーがアクセスできなくなるまで標的にリクエストを送り続けます。**分散型サービス拒否（DDoS）攻撃**は、多数のシステムから同じ手法を同時に実行するため、送信元アドレスを基準に通信を遮断するのが難しくなります。
 
-| Trait | DoS | DDoS |
+| 特徴 | DoS | DDoS |
 |---|---|---|
-| **Origin** | One system | Many systems |
-| **Blocking difficulty** | Moderate | High, since the sources span many networks |
-| **Typical impact** | Lost availability | Lost availability at larger scale |
+| **発生元** | 1つのシステム | 多数のシステム |
+| **遮断の難しさ** | 中程度 | 発生元が多数のネットワークに分散するため高い |
+| **一般的な影響** | 可用性の喪失 | より大規模な可用性の喪失 |
 
-**Where the evidence lives:** traffic volume against a baseline, connection counts per source, request-rate spikes, and error-rate changes. Availability monitoring often alerts before the security team sees the event.
+**証拠が残る場所:** ベースラインと比べた通信量、送信元ごとの接続数、リクエスト率の急増、エラー率の変化を確認します。セキュリティチームが事象に気付く前に、可用性監視がアラートを出すこともよくあります。
 
 ______
 
-## Phishing
+## フィッシング
 
-**Phishing** uses email, text messages, phone calls, or social media to push a person toward revealing credentials or running a malicious attachment. The category splits by target and channel.
+**フィッシング**は、メール、テキストメッセージ、電話、ソーシャルメディアを使い、認証情報を開示させたり、悪意ある添付ファイルを実行させたりします。この分類は標的とチャネルで分かれます。
 
-| Variant | Target and channel |
+| 亜種 | 標的とチャネル |
 |---|---|
-| **Spear phishing** | A specific person or team, usually by email |
-| **Whaling** | Senior or executive staff, often to move money or data |
-| **Smishing** | Fraudulent text messages |
-| **Vishing** | Fraudulent phone calls or voice messages |
+| **スピアフィッシング** | 特定の人やチーム。通常はメールを使用 |
+| **ホエーリング** | 経営幹部や上級職員。金銭やデータの移動を狙うことが多い |
+| **スミッシング** | 不正なテキストメッセージ |
+| **ビッシング** | 不正な電話や音声メッセージ |
 
-**Where the evidence lives:** mail-gateway logs, URL detonation results, attachment analysis, and user reports. A report from a cautious employee is one of the highest-value signals on this list.
+**証拠が残る場所:** メールゲートウェイのログ、URL解析結果、添付ファイルの分析結果、ユーザーからの報告です。注意深い従業員からの報告は、ここに挙げる中でも特に価値の高いシグナルです。
 
 ______
 
-## Spoofing
+## スプーフィング
 
-**Spoofing** hides an attacker behind a trusted identity so a target accepts the connection, message, or address. The disguise buys time and defeats checks built around trust.
+**スプーフィング**は、信頼されているIDの背後に攻撃者を隠し、標的に接続、メッセージ、アドレスを受け入れさせます。偽装によって時間を稼ぎ、信頼に基づくチェックを無効にします。
 
-| Type | What gets faked |
+| 種類 | 偽装するもの |
 |---|---|
-| **Domain spoofing** | A lookalike website or email domain impersonating a real brand |
-| **Email spoofing** | The sender address on a message |
-| **ARP spoofing** | A local network address, to intercept traffic between two hosts |
+| **ドメインスプーフィング** | 実在するブランドを装う類似のWebサイトやメールドメイン |
+| **メールスプーフィング** | メッセージの送信者アドレス |
+| **ARPスプーフィング** | 2つのホスト間の通信を傍受するためのローカルネットワークアドレス |
 
-**Where the evidence lives:** SPF, DKIM, and DMARC results in mail headers, domain registration age, certificate mismatches, and duplicate address warnings on a local network.
+**証拠が残る場所:** メールヘッダーのSPF、DKIM、DMARCの結果、ドメイン登録日、証明書の不一致、ローカルネットワークのアドレス重複警告です。
 
 ______
 
-## Identity-Based Attacks
+## IDベースの攻撃
 
-**Identity-based attacks** use a valid account rather than a defect in software. The attacker holds a working credential, so the activity sits close to normal use and blends into the background. This category drives a large share of the alerts a **security operations center (SOC)** handles each day.
+**IDベースの攻撃**は、ソフトウェアの欠陥ではなく有効なアカウントを使います。攻撃者は使える認証情報を持っているため、活動が通常の利用に近く、目立ちません。この分類は、**セキュリティオペレーションセンター（SOC）**が毎日処理するアラートの大部分を占めます。
 
-*If you practice one category in a home lab, choose this one. The signals are rich, the exercises repeat, and the setup stays small.*
+*自宅ラボで1つだけ攻撃の種類を練習するなら、これを選びましょう。シグナルが豊富で、演習を繰り返せて、構成も大がかりになりません。*
 
-| Technique | What happens |
+| 手法 | 内容 |
 |---|---|
-| **Kerberoasting** | Requests a service ticket, then cracks the encrypted password offline |
-| **Man-in-the-middle (MITM)** | Sits between two parties to read or alter a session |
-| **Pass-the-hash** | Reuses a stolen password hash to open a new session |
-| **Golden ticket** | Forges a Kerberos ticket-granting ticket for broad domain access |
-| **Silver ticket** | Forges a service ticket for one specific service |
-| **Credential harvesting** | Collects usernames and passwords in bulk |
-| **Credential stuffing** | Replays one set of credentials across many unrelated sites |
-| **Password spraying** | Tries one common password across many accounts |
-| **Brute force** | Guesses many passwords against one account |
-| **Downgrade** | Forces a connection into a weaker protocol version |
+| **Kerberoasting** | サービスチケットを要求し、暗号化されたパスワードをオフラインで解析する |
+| **中間者攻撃（MITM）** | 2者の間に入り、セッションを読み取ったり変更したりする |
+| **ハッシュ再利用攻撃 (Pass-the-Hash)** | 盗んだパスワードハッシュを再利用して新しいセッションを開く |
+| **Golden ticket** | 広範なドメインアクセスを得るためKerberosチケットを偽造する |
+| **Silver ticket** | 特定のサービス用のチケットを偽造する |
+| **認証情報の収集** | ユーザー名とパスワードを大量に集める |
+| **クレデンシャルスタッフィング** | 同じ認証情報を複数の無関係なサイトで試す |
+| **パスワードスプレー** | よく使われる1つのパスワードを多数のアカウントで試す |
+| **ブルートフォース** | 1つのアカウントに対し多数のパスワードを試す |
+| **ダウングレード** | 接続により弱いバージョンのプロトコルを強制する |
 
-**Where the evidence lives:** sign-in records, failed-authentication counts, token anomalies, impossible-travel flags, and identity risk detections. **Adversary-in-the-middle (AiTM) phishing** belongs here too, because the attacker steals a live session token rather than a password, and the replay from unfamiliar infrastructure trips the identity risk engine.
+**証拠が残る場所:** サインイン記録、認証失敗数、トークンの異常、不可能な移動の警告、IDリスク検知です。**Adversary-in-the-Middle（AiTM）フィッシング**もここに含まれます。攻撃者はパスワードではなく有効なセッショントークンを盗み、未知のインフラストラクチャから再利用するとIDリスクエンジンが検知します。
 
 ______
 
-## Code Injection
+## コードインジェクション
 
-**Code injection** places attacker-controlled code inside a vulnerable application so the application runs it as part of normal work. The application, not the attacker, carries out the harmful action.
+**コードインジェクション**は、脆弱なアプリケーションに攻撃者が制御するコードを挿入し、通常の処理の一部として実行させます。有害な動作を行うのは攻撃者ではなくアプリケーションです。
 
-| Type | Target |
+| 種類 | 標的 |
 |---|---|
-| **SQL injection** | A database query built from unvalidated input |
-| **Cross-site scripting (XSS)** | A web page which renders attacker script in a visitor's browser |
-| **Malvertising** | A legitimate ad slot filled with malicious code |
-| **Data poisoning** | A training set for an AI or machine learning model |
+| **SQLインジェクション** | 未検証の入力から構築されたデータベースクエリ |
+| **クロスサイトスクリプティング（XSS）** | 訪問者のブラウザーで攻撃者のスクリプトを実行するWebページ |
+| **マルバタイジング** | 悪意あるコードを含む正規の広告枠 |
+| **データポイズニング** | AIまたは機械学習モデルの学習データ |
 
-**Where the evidence lives:** web application logs, database query records, content security policy reports, and request patterns which differ from normal application use.
-
-______
-
-## Supply Chain Attacks
-
-**A supply chain attack** targets a trusted third party whose product or service reaches many customers. A **software supply chain attack** injects malicious code into an application, library, or update so every user of the product receives it. A **hardware supply chain attack** compromises a physical component before it ships.
-
-*Modern software leans on third-party libraries, so one compromised dependency reaches far past the original vendor.*
-
-**Where the evidence lives:** software composition analysis, build-pipeline records, unexpected outbound connections from a trusted update, and integrity checks on shipped artifacts.
+**証拠が残る場所:** Webアプリケーションのログ、データベースクエリ記録、Content Security Policyのレポート、通常のアプリケーション利用と異なるリクエストパターンです。
 
 ______
 
-## Social Engineering
+## サプライチェーン攻撃
 
-**Social engineering** uses psychological pressure to move a person toward an unsafe action. The attacker appeals to authority, urgency, fear, money, or trust.
+**サプライチェーン攻撃**は、多数の顧客が利用する製品やサービスを持つ信頼された第三者を標的にします。**ソフトウェアサプライチェーン攻撃**では、アプリケーション、ライブラリ、更新プログラムに悪意あるコードを挿入し、製品の利用者へ配布します。**ハードウェアサプライチェーン攻撃**では、出荷前に物理コンポーネントを侵害します。
 
-| Technique | Approach |
+*現代のソフトウェアはサードパーティのライブラリに依存しています。そのため、依存関係が1つ侵害されるだけで、元のベンダーをはるかに超える範囲に影響します。*
+
+**証拠が残る場所:** ソフトウェア構成分析、ビルドパイプラインの記録、信頼された更新プログラムからの予期しない送信接続、配布物の完全性チェックです。
+
+______
+
+## ソーシャルエンジニアリング
+
+**ソーシャルエンジニアリング**は心理的な圧力を使い、人に危険な行動を取らせます。攻撃者は権威、緊急性、恐怖、金銭、信頼に訴えます。
+
+| 手法 | アプローチ |
 |---|---|
-| **Pretexting** | Invents a believable scenario to gain trust |
-| **Business email compromise (BEC)** | Impersonates a trusted colleague to redirect a payment or share data |
-| **Disinformation** | Spreads false narratives through social media and bots |
-| **Quid pro quo** | Offers a reward in exchange for information or access |
-| **Honeytrap** | Builds a false relationship to extract money, data, or access |
-| **Tailgating** | Follows an employee through a secured door |
+| **プレテキスティング** | 信頼を得るため、もっともらしい状況を作り上げる |
+| **ビジネスメール詐欺（BEC）** | 信頼された同僚になりすまし、支払いを変更させたりデータを共有させたりする |
+| **偽情報** | ソーシャルメディアやボットを通じて虚偽の情報を広める |
+| **Quid pro quo** | 情報やアクセスと引き換えに報酬を提示する |
+| **ハニートラップ** | 金銭、データ、アクセスを得るため、偽りの関係を作る |
+| **テールゲーティング** | 従業員に続いて、保護されたドアを通り抜ける |
 
-**Where the evidence lives:** email authentication results, unusual payment-change requests, helpdesk records, and physical access logs.
-
-______
-
-## Insider Threats
-
-**An insider threat** is misuse of access by a current or former employee, contractor, or partner. Some insiders act with intent, driven by money or grievance. Others act through negligence, such as leaving credentials in a shared document.
-
-*Negligent insiders appear more often than malicious ones in incident reports, and both call for the same detective control: compare access against a baseline for the role.*
-
-**Where the evidence lives:** data-transfer volume, activity outside normal hours, privilege changes, and bulk downloads from sensitive repositories.
+**証拠が残る場所:** メール認証の結果、不審な支払い変更依頼、ヘルプデスクの記録、物理アクセスログです。
 
 ______
 
-## DNS Tunneling
+## 内部脅威
 
-**DNS tunneling** encodes data inside DNS queries and responses. Almost every network permits DNS, so the technique moves data past controls built to inspect web traffic.
+**内部脅威**とは、現職または元従業員、請負業者、パートナーによるアクセス権の悪用です。金銭や不満を理由に意図的に行う人もいれば、共有ドキュメントに認証情報を残すなど、過失によって引き起こす人もいます。
 
-*Detection leans on volume and shape. A single host sending thousands of queries to one domain stands apart from a normal baseline, and unusually long subdomains hint at an encoded payload.*
+*インシデント報告では、悪意ある内部関係者より、過失のある内部関係者の方が多く見られます。どちらの場合も、役割ごとのベースラインとアクセスを比べる検知制御が必要です。*
 
-**Where the evidence lives:** DNS query records, query length and volume per host, uncommon record types such as TXT, and lookups to domains registered days earlier.
-
-______
-
-## IoT-Based Attacks
-
-**An IoT-based attack** targets a connected device such as a camera, printer, thermostat, or sensor. Weak default credentials and rare firmware updates make these devices a common foothold. Once compromised, a device joins a botnet, leaks data, or becomes a route into the wider network.
-
-*The 5G rollout adds connected devices at scale, and each new device is another target with a long patch cycle.*
-
-**Where the evidence lives:** device inventory, outbound connection patterns, abnormal data transfer from a device with a fixed role, and firmware version drift across a fleet.
+**証拠が残る場所:** データ転送量、通常の勤務時間外の活動、権限の変更、機密リポジトリーからの一括ダウンロードです。
 
 ______
 
-## AI-Powered Attacks
+## DNSトンネリング
 
-**AI-powered attacks** apply machine learning to the attacker's side of the work.
+**DNSトンネリング**は、DNSクエリと応答の中にデータをエンコードします。ほとんどのネットワークでDNSが許可されているため、Web通信を検査する制御をすり抜ける手段になります。
 
-| Technique | Use |
+*検知では量と形式が重要です。1台のホストが1つのドメインに何千ものクエリを送れば、通常のベースラインから大きく外れます。長すぎるサブドメインは、エンコードされたペイロードを示唆します。*
+
+**証拠が残る場所:** DNSクエリ記録、ホストごとのクエリ長と量、TXTなど一般的でないレコードタイプ、数日前に登録されたドメインへの問い合わせです。
+
+______
+
+## IoTベースの攻撃
+
+**IoTベースの攻撃**は、カメラ、プリンター、サーモスタット、センサーなどの接続デバイスを標的にします。弱い初期パスワードと少ないファームウェア更新が、よくある侵入経路となります。侵害されたデバイスはボットネットに加わり、データを漏えいさせたり、より広いネットワークへ入る経路になったりします。
+
+*5Gの普及により、接続デバイスが大規模に増えます。新しいデバイスはそれぞれ、パッチ適用サイクルが長い新たな標的です。*
+
+**証拠が残る場所:** デバイスインベントリー、送信接続のパターン、役割が固定されたデバイスからの異常なデータ転送、デバイス群におけるファームウェアバージョンの違いです。
+
+______
+
+## AIを使った攻撃
+
+**AIを使った攻撃**は、攻撃者側の作業に機械学習を適用します。
+
+| 手法 | 用途 |
 |---|---|
-| **Adversarial AI/ML** | Manipulates training data or inputs to mislead a model |
-| **Dark AI** | Applies AI and machine learning specifically to exploit vulnerabilities |
-| **Deepfake** | Generates realistic fake audio, video, or images |
-| **AI-generated social engineering** | Runs convincing chat or voice conversations at scale |
+| **敵対的AI/ML** | 学習データや入力を操作し、モデルを誤らせる |
+| **ダークAI** | 脆弱性の悪用を目的としてAIや機械学習を使う |
+| **ディープフェイク** | 現実的な偽の音声、動画、画像を生成する |
+| **AI生成のソーシャルエンジニアリング** | 説得力のあるチャットや音声の会話を大規模に行う |
 
-*A deepfake voice call or a fluent phishing chat raises the credibility of an old trick. The underlying technique stays familiar, which is why detection skills built on behavior outlast detection skills tied to one tool.*
+*ディープフェイク音声の電話や流暢なフィッシングチャットは、昔からある手口の信頼性を高めます。根本の手法は変わらないため、行動を基にした検知スキルは、単一のツールに結び付いた検知スキルより長く役立ちます。*
 
-**Where the evidence lives:** content provenance signals, out-of-band verification for money or access requests, and behavioral anomalies around identity and payment changes.
+**証拠が残る場所:** コンテンツの来歴を示すシグナル、金銭やアクセス要求を別の経路で確認する手順、IDや支払い変更に関連する行動の異常です。
 
 ______
 
-## Mapping Attacks to Telemetry
+## 攻撃とテレメトリーの対応付け
 
-Each category feeds a different data source. The table below pairs them, which gives you a starting point for detection work.
+各分類は異なるデータソースを使います。次の表はその対応を示し、検知作業の出発点になります。
 
-| Attack type | Primary telemetry |
+| 攻撃の種類 | 主なテレメトリー |
 |---|---|
-| **Malware** | EDR process, file, and registry records |
-| **Denial of service** | Network flow and availability monitors |
-| **Phishing** | Mail gateway and URL detonation records |
-| **Spoofing** | Mail authentication and network address records |
-| **Identity-based** | Sign-in and identity protection records |
-| **Code injection** | Web application and database query logs |
-| **Supply chain** | Build pipeline and dependency inventory |
-| **Social engineering** | Mail, helpdesk, and physical access records |
-| **Insider threat** | Data access and transfer records |
-| **DNS tunneling** | DNS query records |
-| **IoT** | Device inventory and outbound flow records |
-| **AI-powered** | Identity, payment, and content provenance records |
+| **マルウェア** | EDRのプロセス、ファイル、レジストリ記録 |
+| **サービス拒否** | ネットワークフローと可用性の監視 |
+| **フィッシング** | メールゲートウェイとURL分析の記録 |
+| **スプーフィング** | メール認証とネットワークアドレスの記録 |
+| **IDベース** | サインインとID保護の記録 |
+| **コードインジェクション** | Webアプリケーションとデータベースクエリのログ |
+| **サプライチェーン** | ビルドパイプラインと依存関係インベントリー |
+| **ソーシャルエンジニアリング** | メール、ヘルプデスク、物理アクセスの記録 |
+| **内部脅威** | データアクセスと転送の記録 |
+| **DNSトンネリング** | DNSクエリ記録 |
+| **IoT** | デバイスインベントリーと送信フローの記録 |
+| **AIを使った攻撃** | ID、支払い、コンテンツの来歴に関する記録 |
 
-*Begin detection work with the telemetry column. A useful rule grows from a known data source and a known behavior, not from a tool name.*
+*テレメトリーの列から検知作業を始めましょう。有用なルールは、ツール名ではなく、既知のデータソースと既知の動作から生まれます。*
 
-**Categories overlap during an incident.** A phishing message can lead to credential theft, malware execution, and an identity-based intrusion. Label the initial access technique, then record the follow-on behaviors separately. This keeps one event from becoming four unrelated alerts and gives your investigation a clearer timeline.
+**インシデントでは分類が重なります。** フィッシングメッセージが認証情報の窃取、マルウェアの実行、IDベースの侵入につながることがあります。最初のアクセス手法を記録し、その後の動作は個別に記録しましょう。1つの事象が無関係な4つのアラートに分かれるのを防ぎ、調査の時系列も明確になります。
 
 ______
 
-## Practice Detecting Them in a Lab
+## ラボで検知を練習する
 
-A category stays abstract until you watch it happen. A home lab lets you generate the activity, capture the telemetry, and compare the alert against the raw record. The [career video on building a security operations center](https://www.youtube.com/watch?v=s3g8o7Np1_g) shows the full build for gaining job experience before being hired.
+実際の動きを見るまでは、攻撃の分類は抽象的なままです。自宅ラボを使えば、活動を生成し、テレメトリーを取得し、アラートと生の記録を比較できます。[セキュリティオペレーションセンターを構築するキャリア動画](https://www.youtube.com/watch?v=s3g8o7Np1_g)では、採用前に実務経験を積むための構築全体を紹介しています。
 
 {{< youtube id="s3g8o7Np1_g" >}}
 
-Start with the identity category. Create a test user, enable sign-in logging, and run a sequence of failed and successful sign-ins. Then read the sign-in record and write down the fields which separate normal use from the exercise.
+まずIDベースの分類から始めます。テストユーザーを作成し、サインインログを有効にして、失敗と成功のサインインを順に実行します。次に記録を読み、通常の利用と演習を区別するフィールドをメモします。
 
-**A repeatable exercise:**
+**繰り返し実施できる演習:**
 
-1. **Pick one category** from the telemetry table above.
-2. **Reproduce a benign version** of the activity against your own test system or account.
-3. **Collect the telemetry** the category produces.
-4. **Write the detection idea** as a rule, a saved search, or a query.
-5. **Test the rule** against the exercise and confirm it fires on the intended behavior.
-6. **Record the limits** of the rule, including the activity it misses.
+1. 上のテレメトリー表から**分類を1つ選びます**。
+2. 自分のテストシステムやアカウントで、**無害な形で活動を再現します**。
+3. 分類によって生成された**テレメトリーを収集します**。
+4. 検知のアイデアをルール、保存した検索、クエリとして**記述します**。
+5. 演習でルールを**テストし**、想定した動作でアラートが出ることを確認します。
+6. ルールが見逃す活動も含めて、**限界を記録します**。
 
-The [Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/) covers the environment build in detail: licensing, network segmentation, log collection, and identity control testing. The [Mad Hat Cyber Range guide](https://madhat.io/pages/cyber-range-guide) expands the same idea into a workshop-grade build with an attack, detect, and defend exercise.
+[Microsoft SOC Home Labガイド](/articles/microsoft-soc-home-lab-2026/)では、ライセンス、ネットワーク分割、ログ収集、ID制御のテストなど、環境構築を詳しく説明しています。[Mad Hat Cyber Rangeガイド](https://madhat.io/pages/cyber-range-guide)では、攻撃、検知、防御の演習を含むワークショップ向け構成を紹介しています。
 
-For a consistent vocabulary, map the observed behavior to the relevant [MITRE ATT&CK technique](https://attack.mitre.org/). Treat the mapping as an analyst aid, not as proof of attribution. Keep the raw event, query, rule version, and known blind spots with the exercise record.
+一貫した用語を使うため、観察した動作を該当する[MITRE ATT&CKの手法](https://attack.mitre.org/)に対応付けます。これはアナリストを助ける手段であり、攻撃者を特定する証拠ではありません。演習記録とともに、生イベント、クエリ、ルールのバージョン、既知の見落としを保管します。
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
-  Read the Microsoft SOC Home Lab Guide
+  Microsoft SOC Home Labガイドを読む
 {{< /centerbutton >}}
 
 ______
 
 ## 次のステップ
 
-Start with one category and one exercise. Add a second category after you complete and document the first. The goal is depth on a single investigation, not a checklist of tools.
+最初は1つの分類と1つの演習を選びましょう。最初の演習を終えて記録した後で、2つ目の分類を追加します。目的はツールのチェックリストではなく、1つの調査を深く理解することです。
 
-- **[Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/)** builds the environment for these exercises.
-- **[Building an IT home lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** covers the infrastructure layer underneath a security lab.
-- **[IT resume writing tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** shows how to present a documented lab as practical experience.
-- **[The top five cyber attack vectors and mitigations](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** narrows the list to the vectors seen most often.
+- **[Microsoft SOC Home Labガイド](/articles/microsoft-soc-home-lab-2026/)** は、演習環境を構築します。
+- **[IT自宅ラボの構築](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** は、セキュリティラボの基盤となるインフラを扱います。
+- **[IT履歴書の書き方](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** は、記録したラボを実務経験として示す方法を紹介します。
+- **[代表的な5つのサイバー攻撃ベクトルと対策](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** は、よく見られるベクトルに焦点を絞ります。
 
-**Source material:** the attack categories and their subtypes follow [CrowdStrike's overview of common cyberattacks](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) by Kurt Baker. Product and reference links point to Microsoft documentation.
+**参考資料:** 攻撃の分類とサブタイプは、Kurt Bakerによる[一般的なサイバー攻撃に関するCrowdStrikeの概要](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/)に沿っています。製品や参考情報へのリンク先はMicrosoftのドキュメントです。

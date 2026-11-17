@@ -1,12 +1,12 @@
 ---
 title: "OpenCode CLI contre Desktop : comparaison des flux de travail en 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Comparez les clients terminal et bureau d'OpenCode à travers leur architecture serveur, la configuration du fournisseur, les scripts, l'état de session et le dépannage."
 genre: ["Outils pour développeurs", "Intelligence artificielle", "Développement logiciel"]
-tags: ["OpenCode CLI contre desktop", "OpenCode Desktop", "terminal OpenCode", "serveur OpenCode", "TUI", "CLI contre GUI", "agent de code", "configuration du fournisseur", "modèles locaux", "inférence hébergée", "automatisation sans interface", "opencode run", "opencode serve", "permissions de l'agent", "règles du projet", "état de session", "flux du développeur", "authentification serveur", "outils de code IA", "harnais de l'agent"]
+tags: ["OpenCode CLI par rapport à l’application de bureau", "OpenCode Desktop", "terminal OpenCode", "serveur OpenCode", "TUI", "CLI et GUI en comparaison", "agent de programmation", "configuration du fournisseur", "modèles locaux", "inférence hébergée", "automatisation sans interface", "opencode run", "opencode serve", "autorisations de l’agent", "règles du projet", "état de la session", "flux de travail du développeur", "authentification du serveur", "outils de programmation avec IA", "environnement d’exécution de l’agent"]
 cover: "/img/cover/opencode-cli-vs-desktop.webp"
 coverAlt: "Clients terminal et bureau reliés à un serveur central avec des symboles distincts pour le dépôt et l'inférence"
 coverCaption: ""
@@ -96,13 +96,13 @@ opencode run "Identify this project's test command. Do not modify files."
 **Évitez les modifications simultanées dans un checkout.** Deux conversations aux plans différents partagent les fichiers si elles visent le même répertoire. Utilisez des worktrees ou checkouts séparés pour les essais indépendants. Examinez les changements avant intégration.
 
 ```text
-Handover record
-Goal:
-Current branch and working directory:
-Files changed:
-Checks already completed:
-Known failures:
-Next approved action:
+Note de passation
+Objectif:
+Branche actuelle et répertoire de travail:
+Fichiers modifiés:
+Vérifications déjà effectuées:
+Échecs connus:
+Prochaine action approuvée:
 ```
 
 **Cette fiche rend le transfert vérifiable.** Elle aide aussi à distinguer un problème d'interface d'une instruction manquante ou d'un écart d'environnement. Gardez les identifiants hors de la fiche.

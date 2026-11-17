@@ -1,12 +1,13 @@
 ---
 title: "Ghid pentru începători: Utilizarea liniei de comandă Linux pentru securitatea cibernetică"
 date: 2023-03-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Învățați cum să utilizați linia de comandă Linux pentru securitatea cibernetică cu comenzi de bază și avansate."
-tags: ["Linux", "Linia de comandă", "Securitatea cibernetică", "Ghid pentru începători", "Scanarea rețelei", "Testarea vulnerabilității", "Analiza malware-ului", "Permisiuni", "Traficul de rețea", "Starea procesului", "Statistici de rețea", "Căutare fișiere", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Securitate", "Testarea de penetrare", "Criminalistică digitală"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "O ilustrație de desen animat a unei persoane care poartă un hanorac cu glugă, care stă în fața unui ecran de calculator pe care este vizibilă interfața liniei de comandă Linux și care ține în mână o lupă pentru a reprezenta aspectul de securitate cibernetică."
+tags: ["Linux", "Linia de comandă", "Securitatea cibernetică", "Ghid pentru începători", "Scanarea rețelei", "Testarea vulnerabilității", "Analiza malware-ului", "Permisiuni", "Traficul de rețea", "Starea procesului", "Statistici de rețea", "Căutare fișiere", "Wireshark", "TCPDump", "Nmap", "interfața liniei de comandă Linux", "Securitate", "Testarea de penetrare", "Criminalistică digitală"]
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Ilustrație a unui ecran de computer cu interfața liniei de comandă Linux și comenzi verzi pe un fundal întunecat. În jur apar elemente de securitate cibernetică, precum lacăte digitale și linii de rețea."
 coverCaption: ""
 ---
 
@@ -14,7 +15,7 @@ coverCaption: ""
 
 ## Comenzi Linux de bază pentru securitatea cibernetică
 
-### Print Working Directory (Imprimă directorul de lucru)
+### Afișarea directorului de lucru
 
 Comanda **pwd** (print working directory) este utilizată pentru a afișa directorul de lucru curent în CLI. Directorul de lucru este directorul în care vă aflați în prezent în sistemul de fișiere. Comanda este utilă pentru a naviga prin sistemul de fișiere și pentru a înțelege locația dumneavoastră în raport cu alte directoare. De exemplu, dacă vă aflați în directorul home și doriți să navigați în directorul documents, puteți utiliza următoarele comenzi:
 
@@ -46,7 +47,7 @@ Desktop Documents Downloads Music Pictures Public Templates Videos
 
 În exemplul de mai sus, comanda listează conținutul directorului home, care conține mai multe subdirectoare, cum ar fi Desktop, Documents, Downloads și așa mai departe.
 
-### Change Directory
+### Schimbarea directorului
 
 Comanda **cd** (change directory) este utilizată pentru a schimba directorul de lucru curent în CLI. Comanda vă permite să navigați prin sistemul de fișiere și să accesați fișiere din diferite locații. De exemplu, dacă doriți să schimbați directorul de lucru curent în directorul documents, puteți utiliza următoarea comandă:
 
@@ -70,7 +71,7 @@ $ cd ../..
 În exemplul de mai sus, comanda schimbă directorul de lucru curent cu două niveluri mai sus față de directorul de lucru curent. Notația "..." reprezintă directorul părinte și o puteți utiliza pentru a naviga în sus în arborele de directoare.
 
 
-### Concatenate
+### Concatenarea fișierelor
 
 Comanda **cat** (concatenate) este utilizată pentru a afișa conținutul unui fișier în CLI. Comanda este utilă pentru a vizualiza conținutul fișierelor bazate pe text, cum ar fi fișierele jurnal sau fișierele de configurare. De exemplu, dacă doriți să vizualizați conținutul unui fișier numit "file1.txt", puteți utiliza următoarea comandă:
 
@@ -94,7 +95,7 @@ $ cat *.txt
 În exemplul de mai sus, comanda afișează conținutul tuturor fișierelor care au extensia ".txt" din directorul de lucru curent. Această comandă este utilă pentru a vizualiza rapid conținutul mai multor fișiere fără a le deschide individual.
 
 
-### Global Regular Expression Print
+### Căutarea expresiilor regulate în text
 
 Comanda **grep** (global regular expression print) este utilizată pentru a căuta șiruri de caractere sau modele specifice într-un fișier sau într-un set de fișiere în CLI. Comanda este utilă pentru identificarea tiparelor în fișierele jurnal sau pentru căutarea unor informații specifice în fișierele de configurare. De exemplu, dacă doriți să căutați toate aparițiile cuvântului "error" într-un fișier numit "logfile.txt", puteți utiliza următoarea comandă:
 
@@ -111,14 +112,14 @@ $ grep "p.*y" logfile.txt
 În exemplul de mai sus, comanda caută toate liniile care conțin un cuvânt care începe cu "p" și se termină cu "y" în fișierul "logfile.txt". Expresia regulată "p.*y" se potrivește cu orice șir care începe cu "p" și se termină cu "y", cu orice număr de caractere între ele. Această comandă este utilă pentru a găsi modele în fișierele jurnal care pot ajuta la identificarea amenințărilor de securitate sau a problemelor de performanță.
 
 
-### Change Mode
+### Schimbarea permisiunilor
 
 Comanda **chmod** (change mode) este utilizată pentru a modifica permisiunile unui fișier sau director în CLI. Comanda este esențială pentru securizarea fișierelor și directoarelor și pentru a controla cine are acces la ele. Permisiunile sunt reprezentate de trei cifre care corespund proprietarului, grupului și, respectiv, altora. Cifrele sunt calculate pe baza următoarei formule:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = citire
+2 = scriere
+1 = executare
 ```
 
 De exemplu, dacă doriți să acordați proprietarului permisiuni de citire și scriere, iar grupului și altora permisiuni de numai citire pentru un fișier numit "file1.txt", puteți utiliza următoarea comandă:
@@ -140,7 +141,9 @@ $ chmod ug=rw,o= file2.txt
 
 ## Comenzi Linux avansate pentru securitate cibernetică
 
-### Network Mapper
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagramă a unui terminal Linux care rulează nmap, netstat și find pentru scanarea rețelei, monitorizarea proceselor și investigarea fișierelor în activități de securitate cibernetică" >}}
+
+### Cartografierea rețelei
 
 Comanda **nmap** este un instrument puternic de scanare a rețelei din CLI care poate fi utilizat pentru a identifica gazdele și serviciile dintr-o rețea, precum și potențialele vulnerabilități. Comanda poate efectua o serie de tehnici de scanare, inclusiv descoperirea gazdelor, scanarea porturilor și detectarea sistemului de operare.
 
@@ -162,7 +165,7 @@ Comanda de mai sus va scana toate adresele IP din intervalul respectiv și va re
 
 Pe lângă descoperirea de bază a gazdelor și scanarea porturilor, nmap poate efectua și scanări mai avansate, cum ar fi detectarea serviciilor și a versiunilor, detectarea sistemului de operare și scanarea vulnerabilităților. Aceste scanări pot fi utile pentru a identifica potențialele vulnerabilități de securitate dintr-o rețea și pentru a o securiza împotriva unor potențiale atacuri.
 
-### TCP Packet Dumper
+### Capturarea pachetelor TCP
 
 Comanda **tcpdump** este utilizată pentru a captura și analiza traficul de rețea în CLI, ceea ce o face utilă pentru depanarea problemelor de rețea, analizarea comportamentului rețelei și identificarea potențialelor amenințări de securitate. Comanda captează pachetele în timp real și poate filtra pachetele pe baza diferitelor criterii, cum ar fi adresa IP sursă sau destinație, protocolul și portul.
 
@@ -190,7 +193,7 @@ $ sudo tcpdump -i eth0 -w capture.pcap
 
 Comanda de mai sus va captura toate pachetele de pe interfața eth0 și le va salva în fișierul "capture.pcap" în format pcap, care poate fi analizat ulterior cu instrumente precum Wireshark. Această comandă este utilă pentru a analiza comportamentul rețelei și pentru a identifica potențiale amenințări de securitate.
 
-### Process Status
+### Starea proceselor
 
 Comanda **ps** afișează în CLI informații despre procesele care rulează pe un sistem Linux, ceea ce este util pentru a identifica procesele suspecte care ar putea rula pe un sistem și care ar putea compromite securitatea acestuia. Comanda poate afișa o gamă largă de informații despre procesele care rulează, inclusiv ID-ul procesului (PID), utilizatorul, utilizarea CPU și a memoriei și numele comenzii.
 
@@ -248,7 +251,7 @@ $ netstat -st
 Comanda de mai sus va afișa statistici despre toate conexiunile TCP de pe sistem, inclusiv numărul de conexiuni active, numărul de conexiuni în fiecare stare și numărul de erori care au apărut. Această comandă este utilă pentru a monitoriza starea generală de sănătate a rețelei și pentru a identifica eventualele probleme de performanță.
 
 
-### Find Files
+### Căutarea fișierelor
 
 Comanda **find** este utilizată pentru a căuta fișiere și directoare pe un sistem Linux în CLI, ceea ce o face utilă pentru localizarea unor fișiere și directoare specifice care pot fi ascunse sau greu de găsit. Comanda caută fișiere și directoare pe baza unei game largi de criterii, inclusiv numele, dimensiunea, ora de modificare și permisiunile acestora.
 
@@ -282,7 +285,7 @@ ______
 
 Utilizarea liniei de comandă Linux pentru securitatea cibernetică poate fi copleșitoare pentru începători. Cu toate acestea, cu ajutorul comenzilor de bază și avansate prezentate în acest ghid, puteți începe să folosiți CLI Linux în avantajul dumneavoastră în domeniul securității cibernetice. Nu uitați să fiți prudenți atunci când executați comenzi și să înțelegeți bine ce face fiecare comandă înainte de a o utiliza.
 
-Pentru a afla mai multe despre utilizarea Linux pentru securitatea cibernetică, consultați descărcarea **[Kali Linux](https://www.kali.org/downloads/) sistem de operare conceput special pentru testele de penetrare și criminalistică digitală.
+Pentru a afla mai multe despre utilizarea Linux în securitatea cibernetică, consultați pagina de descărcare **[Kali Linux](https://www.kali.org/downloads/)**, un sistem de operare conceput special pentru testarea penetrării și criminalistică digitală.
 
 ## Concluzie
 

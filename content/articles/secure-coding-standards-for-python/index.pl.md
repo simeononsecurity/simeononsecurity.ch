@@ -1,6 +1,7 @@
 ---
 title: "Standardy bezpiecznego kodowania dla Pythona: Najlepsze praktyki"
 date: 2023-02-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj najlepsze praktyki bezpiecznego kodowania w Pythonie, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane."
@@ -48,7 +49,7 @@ x = int('10')
 
 ### 3. Używanie bibliotek kryptograficznych
 
-**Biblioteki kryptograficzne** takie jak np.[`cryptography`](https://pypi.org/project/cryptography/) and [`pycryptodome`](https://pypi.org/project/pycryptodome/) zapewniają bezpieczny sposób wykonywania operacji szyfrowania i deszyfrowania. Użyj tych bibliotek zamiast tworzenia własnych metod szyfrowania, które mogą być podatne na luki.
+**Biblioteki kryptograficzne** takie jak np.[`cryptography`](https://pypi.org/project/cryptography/) i [`pycryptodome`](https://pypi.org/project/pycryptodome/) zapewniają bezpieczny sposób wykonywania operacji szyfrowania i deszyfrowania. Użyj tych bibliotek zamiast tworzenia własnych metod szyfrowania, które mogą być podatne na luki.
 
 Na przykład, aby zaszyfrować hasło, należy użyć biblioteki[`cryptography`](https://pypi.org/project/cryptography/) biblioteka w następujący sposób:
 ```py
@@ -82,7 +83,7 @@ Na przykład, jeśli aplikacja używa biblioteki innej firmy, takiej jak[`Reques
 
 ### 6. Używaj statycznego analizatora kodu
 
-**Statystyczny analizator kodu** to narzędzie, które może zidentyfikować potencjalne luki bezpieczeństwa w kodzie, zanim zostanie on wykonany. Należy używać takich narzędzi jak np.[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) aby wykryć błędy bezpieczeństwa w kodzie i naprawić je przed wdrożeniem.
+**Statystyczny analizator kodu** to narzędzie, które może zidentyfikować potencjalne luki bezpieczeństwa w kodzie, zanim zostanie on wykonany. Należy używać takich narzędzi jak np.[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), i [`Pyflakes`](https://pypi.org/project/pyflakes/) aby wykryć błędy bezpieczeństwa w kodzie i naprawić je przed wdrożeniem.
 
 Na przykład,[`bandit`](https://pypi.org/project/bandit/) jest popularnym statycznym analizatorem kodu, który bada kod Pythona pod kątem potencjalnych luk bezpieczeństwa. Potrafi wykryć takie problemy, jak twardo zakodowane hasła, wstrzykiwanie kodu SQL i używanie niebezpiecznych funkcji.
 
@@ -104,17 +105,17 @@ Programiści powinni również **walidować wszystkie dane wejściowe użytkowni
 
 ## Standardy bezpiecznego kodowania dla frameworków Pythona
 
-Frameworki Pythona, takie jak np.[Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/) mają swoje standardy bezpiecznego kodowania. Deweloperzy powinni przestrzegać tych standardów podczas tworzenia aplikacji wykorzystujących te frameworki. Oto kilka standardów bezpiecznego kodowania dla frameworków Pythona:
+Frameworki Pythona, takie jak [Django](https://www.djangoproject.com/) i [Flask](https://flask.palletsprojects.com/), mają własne standardy bezpiecznego kodowania. Deweloperzy powinni przestrzegać tych standardów podczas tworzenia aplikacji wykorzystujących te frameworki. Oto kilka standardów bezpiecznego kodowania dla frameworków Pythona:
 
 ### 1.[Django](https://www.djangoproject.com/)
 
-[Django](https://www.djangoproject.com/) is a popular web framework for Python. Here are some secure coding standards for [Django](https://www.djangoproject.com/)
+[Django](https://www.djangoproject.com/) to popularny framework internetowy dla języka Python. Oto kilka zasad bezpiecznego kodowania dla [Django](https://www.djangoproject.com/):
 
 - Zastosowanie[Django](https://www.djangoproject.com/) wbudowany **system uwierzytelniania** zamiast tworzenia niestandardowego systemu uwierzytelniania.
 - Użycie[Django](https://www.djangoproject.com/) wbudowane **funkcje haszowania haseł** zamiast tworzenia niestandardowych metod haszowania haseł.
 - Użycie[Django](https://www.djangoproject.com/) **systemu szablonów**, aby zapewnić, że dane wyjściowe są bezpieczne i wolne od podatności na cross-site scripting.
 
-Na przykład, aby użyć[Django](https://www.djangoproject.com/)'s built-in password hashing function, use the `make_password()` function from the ` moduł.
+Na przykład, aby użyć wbudowanej funkcji haszowania haseł w [Django](https://www.djangoproject.com/), wywołaj `make_password()` z modułu `django.contrib.auth.hashers`.
 
 ```python
 from [Django](https://www.djangoproject.com/).contrib.auth.hashers import make_password
@@ -124,14 +125,14 @@ hashed_password = make_password(password)
 ```
 
 ### 2.[Flask](https://flask.palletsprojects.com/)
-[Flask](https://flask.palletsprojects.com/) is a micro web framework for Python. Here are some secure coding standards for [Flask](https://flask.palletsprojects.com/)
+[Flask](https://flask.palletsprojects.com/) to lekki framework internetowy dla języka Python. Oto kilka zasad bezpiecznego kodowania dla [Flask](https://flask.palletsprojects.com/):
 
 - Zastosowanie[Flask](https://flask.palletsprojects.com/) wbudowany **system zarządzania sesjami** zapewniający bezpieczną obsługę sesji.
-- Zastosowanie[Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) aby zapewnić, że dane wyjściowe są bezpieczne i wolne od podatności na cross-site scripting.
-- Użycie[Flask](https://flask.palletsprojects.com/)'s [`WTForms`](https://pypi.org/project/WTForms/) biblioteka do obsługi walidacji danych wejściowych użytkownika i zapewnienia, że dane wejściowe są wolne od zagrożeń bezpieczeństwa.
-- Użycie[Flask](https://flask.palletsprojects.com/)'s [`Blinker`](https://pypi.org/project/blinker/) biblioteka do bezpiecznej obsługi sygnałów.
+- Używaj [Flask](https://flask.palletsprojects.com/) razem z biblioteką [`MarkupSafe`](https://pypi.org/project/MarkupSafe/), aby zabezpieczyć dane wyjściowe przed podatnościami na cross-site scripting.
+- Używaj [Flask](https://flask.palletsprojects.com/) z biblioteką [`WTForms`](https://pypi.org/project/WTForms/), aby walidować dane wejściowe użytkowników i ograniczać ryzyko bezpieczeństwa.
+- Używaj [Flask](https://flask.palletsprojects.com/) z biblioteką [`Blinker`](https://pypi.org/project/blinker/) do bezpiecznej obsługi sygnałów.
 
-Na przykład, aby użyć[Flask](https://flask.palletsprojects.com/)'s [`MarkupSafe`](https://pypi.org/project/MarkupSafe/) zaimportuj ją i użyj do ucieczki znaczników HTML z wyjścia.
+Na przykład w [Flask](https://flask.palletsprojects.com/) użyj biblioteki [`MarkupSafe`](https://pypi.org/project/MarkupSafe/), aby bezpiecznie kodować znaczniki HTML w danych wyjściowych.
 ```py
 from markupsafe import escape
 
@@ -146,7 +147,7 @@ ______
 
 1. **Zacznij już dziś wdrażać te najlepsze praktyki w swoim kodzie Pythona**, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane. Możesz zacząć od zidentyfikowania obszarów w swoim kodzie, które są podatne na zagrożenia bezpieczeństwa, takich jak walidacja danych wejściowych, haszowanie haseł i zarządzanie sesjami. Następnie można wdrożyć najlepsze praktyki, takie jak te omówione w tym artykule, aby zabezpieczyć swój kod. Na przykład można użyć wbudowanych w Pythona wyrażeń regularnych do sprawdzania poprawności danych wejściowych użytkownika lub użyć bezpiecznej biblioteki do haszowania haseł, takiej jak[`bcrypt`](https://pypi.org/project/bcrypt/)
 
-2. **Przejrzyj istniejącą bazę kodu pod kątem potencjalnych luk bezpieczeństwa** i użyj statycznych analizatorów kodu, np.[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), and [`Pyflakes`](https://pypi.org/project/pyflakes/) aby wykryć i naprawić wszelkie problemy. Możesz również użyć ręcznego przeglądu kodu, aby zidentyfikować problemy bezpieczeństwa, których statyczne analizatory kodu mogą nie wykryć. Szukaj typowych błędów, takich jak wstrzykiwanie kodu SQL, cross-site scripting oraz błędy walidacji danych wejściowych. Po zidentyfikowaniu potencjalnych luk w bezpieczeństwie, możesz użyć najlepszych praktyk, aby je naprawić.
+2. **Przejrzyj istniejącą bazę kodu pod kątem potencjalnych luk bezpieczeństwa** i użyj statycznych analizatorów kodu, np.[`bandit`](https://pypi.org/project/bandit/), [`Pylint`](https://pypi.org/project/pylint/), i [`Pyflakes`](https://pypi.org/project/pyflakes/) aby wykryć i naprawić wszelkie problemy. Możesz również użyć ręcznego przeglądu kodu, aby zidentyfikować problemy bezpieczeństwa, których statyczne analizatory kodu mogą nie wykryć. Szukaj typowych błędów, takich jak wstrzykiwanie kodu SQL, cross-site scripting oraz błędy walidacji danych wejściowych. Po zidentyfikowaniu potencjalnych luk w bezpieczeństwie, możesz użyć najlepszych praktyk, aby je naprawić.
 
 3. **Bądź na bieżąco z najnowszymi najlepszymi praktykami i narzędziami bezpieczeństwa**, aby mieć pewność, że Twój kod pozostanie bezpieczny i wolny od luk. Śledź blogi o bezpieczeństwie, bierz udział w konferencjach i uczestnicz w społecznościach internetowych, aby być na bieżąco z najnowszymi trendami i praktykami bezpieczeństwa. Aktualizuj swoje biblioteki i frameworki, aby mieć pewność, że używasz najnowszych bezpiecznych wersji.
 

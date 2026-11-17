@@ -4,10 +4,11 @@ date: 2023-06-12
 toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von Metasploit, einem Open-Source-Framework für Penetrationstests und die Entwicklung von Exploits, mit robusten Funktionen und einer großen Community."
-tags: ["Metasploit", "Penetrationstests", "Exploit-Entwicklung", "Sicherheitslücken-Scanning", "Nutzlastgenerierung", "nach der Ausbeutung", "Ethisches Hacken", "Cybersicherheit", "Open-Source", "Sicherheitsrahmen", "Schwachstellenanalyse", "Social Engineering", "Metasploit-Framework", "Metasploit Pro", "Computersicherheit", "HD Moore", "Schnell7", "Sicherheitslösungen", "staatliche Vorschriften", "Gesetz über Computerbetrug und -missbrauch", "CFAA", "Sicherheitsbewusstsein", "Hacker-Werkzeuge", "Cybersicherheits-Tools", "Cybersicherheitsgemeinschaft", "Ressourcen für die Cybersicherheit", "Cybersicherheitsfachleute", "bewährte Praktiken der Cybersicherheit", "Einhaltung der Cybersicherheitsvorschriften", "Cybersicherheitsgesetze"]
+tags: ["Metasploit", "Penetrationstests", "Exploit-Entwicklung", "Sicherheitslücken-Scanning", "Nutzlastgenerierung", "Post-Exploitation-Aktivitäten", "Ethisches Hacken", "Cybersicherheit", "Open-Source", "Sicherheitsrahmen", "Schwachstellenanalyse", "Social Engineering", "Metasploit Framework", "Metasploit Pro", "Computersicherheit", "HD Moore", "Rapid7", "Sicherheitslösungen", "staatliche Vorschriften", "Gesetz über Computerbetrug und -missbrauch", "CFAA", "Sicherheitsbewusstsein", "Hacker-Werkzeuge", "Cybersicherheits-Tools", "Cybersicherheitsgemeinschaft", "Ressourcen für die Cybersicherheit", "Cybersicherheitsfachleute", "bewährte Praktiken der Cybersicherheit", "Einhaltung der Cybersicherheitsvorschriften", "Cybersicherheitsgesetze"]
 cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
-coverAlt: "Eine animierte Illustration eines Hackers, der einen Computer und eine Lupe benutzt, um die Erforschung und Analyse von Schwachstellen und Schwachstellen in Computersystemen darzustellen."
+coverAlt: "Eine animierte Illustration eines Hackers, der einen Computer und eine Lupe benutzt, um die Erforschung und Analyse von Schwachstellen und Exploits in Computersystemen darzustellen."
 coverCaption: ""
+lastmod: 2026-11-11
 ---
 
 **Was ist Metasploit?**
@@ -69,3 +70,4 @@ ______
 3. [Metasploit Pro Documentation](https://docs.rapid7.com/metasploit/)
 4. [Computer Fraud and Abuse Act (CFAA)](https://www.law.cornell.edu/uscode/text/18/1030)
 
+lastmod: 2026-10-11

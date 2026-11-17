@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp
 coverAlt: Une illustration montrant un paysage numérique avec une structure en forme de bouclier symbolisant la confidentialité, entourée d'icônes vibrantes représentant la protection des données, sur un fond sombre.
 coverCaption: 'Déverrouillez Votre Confidentialité : Exploration des Navigateurs LibreWolf et Firefox'
-lastmod: 2026-10-08
+lastmod: 2026-11-09
 ---
 **Navigateurs Axés sur la Confidentialité : Une Comparaison entre LibreWolf et Firefox**
 
@@ -117,6 +117,14 @@ ______
 
 ______
 
+## Mise à jour de sécurité : Firefox 159 (27 octobre 2026)
+
+**Les paramètres de confidentialité ne remplacent pas les mises à jour de sécurité.** [L’avis de sécurité Mozilla pour Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/) répertorie plusieurs problèmes importants, dont CVE-2026-117860, un contournement de la politique de même origine, ainsi que CVE-2026-117861, CVE-2026-117864 et CVE-2026-117868, tous décrits comme des échappements du bac à sable. Mozilla indique **Firefox 159** comme version corrigée, et les [notes de version 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/) datent sa publication du 27 octobre. L’avis ne précise pas la première version touchée par chaque problème et ne signale aucune exploitation active.
+
+**Vérifiez la branche utilisée.** Avec Firefox standard, installez la version actuelle par votre canal habituel et vérifiez son numéro dans la fenêtre « À propos ». Firefox ESR fait l’objet d’avis distincts : Mozilla indique [ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/) comme corrigeant les quatre CVE citées et publie un [avis ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/) distinct pour cette branche. N’utilisez pas le numéro de Firefox standard pour vérifier un correctif ESR.
+
+Pour **LibreWolf ou un autre navigateur basé sur Firefox**, comparez la version installée aux notes de version et aux avis de sécurité du projet dérivé. L’avis Firefox de Mozilla ne prouve pas à lui seul qu’une version dérivée inclut un correctif précis. Consultez les [versions du projet LibreWolf](https://librewolf.dev/librewolf/bsys6/releases) correspondant à la version installée, sans considérer les paramètres de confidentialité ou une version amont de Firefox comme preuve d’application du correctif.
+
 ## Open Source et Implication Communautaire
 
 ### L’Accent de LibreWolf sur l’Open Source
@@ -141,11 +149,39 @@ De même, **Firefox** est sous licence Mozilla Public License 2.0, soulignant so
 
 ______
 
+## Liste de vérification pour décider en 2026
+
+LibreWolf et Firefox partagent le moteur Firefox, mais répondent à des préférences de maintenance différentes. LibreWolf applique une configuration axée sur la confidentialité et supprime ou modifie certains services Mozilla. Firefox offre une assistance plus large, des réglages par défaut familiers et une intégration directe au compte Mozilla.
+
+Avant de changer, vérifiez ces quatre points :
+
+- **Délai de mise à jour.** Installez rapidement les mises à jour de sécurité depuis le canal officiel du navigateur.
+- **Compatibilité des sites.** Testez les services bancaires, portails professionnels, appels vidéo et extensions de gestionnaire de mots de passe dans un profil séparé.
+- **Séparation des comptes.** Ne placez pas vos données de synchronisation personnelles dans un profil de recherche ou sur un appareil partagé.
+- **Récupération.** Exportez les marque-pages, notez les extensions et vérifiez l’accès aux codes de récupération avant de changer de navigateur.
+
+La confidentialité exige aussi de vérifier le système d’exploitation, le compte, le routeur et le réseau. Un navigateur privé ne masque pas l’activité au service auquel vous êtes connecté, au propriétaire de l’appareil local ni au fournisseur réseau. Consultez l’[assistance Mozilla sur la confidentialité et la sécurité](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) et la [documentation LibreWolf](https://librewolf.net/docs/) pour vérifier un réglage.
+
+## Mises à jour, empreinte numérique et compatibilité
+
+**LibreWolf et Firefox répondent à des besoins différents.** LibreWolf applique une configuration plus stricte et supprime certains services Firefox. La FAQ du projet indique que les mises à jour suivent généralement Firefox dans les trois jours, mais leur installation dépend des gestionnaires de paquets ou des utilisateurs. Firefox offre un parcours de mise à jour classique, la synchronisation du compte, une compatibilité plus large et des contrôles de protection par site. Consultez la [FAQ LibreWolf](https://librewolf.net/docs/faq/) et le [guide Mozilla sur la protection contre le pistage](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false).
+
+**La protection contre l’empreinte numérique a des limites.** Les réglages stricts réduisent les signaux de suivi courants, mais ne rendent pas tous les utilisateurs identiques. La taille de l’écran, la langue, le système d’exploitation, les extensions et les modifications inhabituelles influencent encore le résultat. La protection totale contre les cookies de Firefox isole le stockage des sites, mais ne masque pas votre identité de compte au site visité. Dans cette comparaison, Tor Browser est l’option conçue autour d’un groupe d’anonymat partagé. [Consultez la documentation de Tor Browser sur la protection contre l’empreinte numérique](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+| Critère de décision | LibreWolf | Firefox |
+|---|---|---|
+| **Réglages par défaut** | Confidentialité renforcée, avec davantage de compromis de compatibilité | Réglages équilibrés et niveaux de protection ajustables |
+| **Mises à jour** | Dépendent du gestionnaire de paquets ou d’une installation manuelle | Mises à jour du navigateur gérées par Mozilla |
+| **Synchronisation** | Pas de synchronisation de compte Mozilla par conception | Synchronisation intégrée au compte Firefox |
+| **Compatibilité des sites** | Tester d’abord les DRM, portails professionnels et applications web inhabituelles | Large compatibilité, avec des exceptions par site |
+| **Le mieux adapté à** | Un navigateur de bureau distinct pour les recherches sensibles à la confidentialité | Un navigateur quotidien lorsque l’assistance et la synchronisation comptent |
+
+Avant de changer, ouvrez les sites utilisés, vérifiez la version installée et testez un nouveau profil. N’empilez pas les extensions contre l’empreinte numérique sans raison mesurée. Les modifications supplémentaires augmentent les pannes et peuvent rendre le navigateur moins courant.
+
 ## Conclusion : Choisir le Navigateur Axé sur la Confidentialité Adapté
 
-**LibreWolf** et **Firefox** offrent chacun des options convaincantes pour les utilisateurs recherchant une meilleure confidentialité et sécurité dans leur expérience de navigation. Le choix entre les deux dépend des priorités et préférences individuelles. Si les utilisateurs valorisent une personnalisation poussée et un fort accent sur la liberté de l’utilisateur
+**LibreWolf** et **Firefox** sont deux choix convaincants pour les personnes qui recherchent davantage de confidentialité et de sécurité lors de la navigation. Le choix dépend des priorités et préférences de chacun. Si les utilisateurs apprécient une personnalisation poussée et une forte importance accordée à la liberté de l’utilisateur
 
-______
 
 ## Références
 
@@ -153,3 +189,8 @@ ______
 2. [Site Officiel de Firefox](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Avis de sécurité Mozilla 2026-118 : Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Notes de version de Firefox 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Avis de sécurité Mozilla 2026-120 : Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Avis de sécurité Mozilla 2026-119 : Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [Versions du projet LibreWolf](https://librewolf.dev/librewolf/bsys6/releases)

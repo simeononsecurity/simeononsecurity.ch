@@ -1,12 +1,13 @@
 ---
 title: "Aufbau und Aufrechterhaltung einer sicheren DevOps-Pipeline: Best Practices und Fallstudien"
 date: 2023-02-25
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie, wie Sie eine sichere DevOps-Pipeline mithilfe von Best Practices und Beispielen aus der Praxis aufbauen und pflegen."
 tags: ["DevOps", "Sicherheit", "Pipeline", "kontinuierliche Integration", "kontinuierliche Bereitstellung", "Automatisierung", "Containerisierung", "sichere Kodierung", "Sicherheitslücken-Scanning", "Überwachung", "Rückmeldung", "Versionskontrolle", "Zugangskontrolle", "Notfallwiederherstellung", "Geschäftskontinuität", "Fallstudie", "Frühling", "Django", "OWASP", "Netflix", "Kapital Eins"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
-coverAlt: "Eine Karikatur eines Schildes, das eine Pipeline mit einem Schloss und einem Schlüssel schützt, umgeben von verschiedenen DevOps-Pipelinestufen und Sicherheitstools."
+cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
+coverAlt: "Abstrakte digitale Illustration einer sicheren DevOps-Pipeline mit visuellen Elementen für Codeentwicklung, automatisierte Tests und Bereitstellung vor dunklem Hintergrund mit leuchtenden Farben."
 coverCaption: ""
 ---
 

@@ -39,7 +39,7 @@ tags:
 cover: /img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp
 coverAlt: Een symbolische kunststijl afbeelding die een netwerk van onderling verbonden tandwielen illustreert, die efficiënte netwerkbeheer en optimalisatie symboliseren.
 coverCaption: 'Ontgrendel de Kracht van GPO''s: vereenvoudig vandaag nog je netwerkbeheer!'
-lastmod: 2026-10-21
+lastmod: 2026-11-13
 ---
 ## GPO 101: Alles wat je moet weten over Group Policy Objects
 
@@ -69,7 +69,7 @@ GPO's bieden uitgebreide configureerbaarheid, waarmee beheerders instellingen ku
 
 4. **Aanmeldscripts**: GPO's kunnen worden gebruikt om aanmeldscripts uit te voeren, dit zijn sets instructies die worden uitgevoerd wanneer een gebruiker zich aanmeldt op zijn computer. Aanmeldscripts kunnen verschillende acties uitvoeren, zoals het koppelen van netwerkschijven, verbinding maken met netwerkbronnen, opdrachten uitvoeren of specifieke gebruikersinstellingen configureren. Dit stelt beheerders in staat om gebruikersspecifieke taken en configuraties tijdens het aanmeldproces te automatiseren.
 
-De veelzijdigheid en kracht van GPO's maken ze tot een essentieel hulpmiddel voor efficiënt netwerkbeheer, consistente beleidsafdwinging en vereenvoudigd beheer. Voor meer informatie over GPO's en hoe je ze effectief kunt gebruiken, kun je de [officiële Microsoft-documentatie over Groepsbeleid](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11) raadplegen.
+De veelzijdigheid en kracht van GPO's maken ze tot een essentieel hulpmiddel voor efficiënt netwerkbeheer, consistente beleidsafdwinging en vereenvoudigd beheer. Voor meer informatie over GPO's en hoe je ze effectief kunt gebruiken, kun je de [officiële Microsoft-documentatie over Groepsbeleid](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)) raadplegen.
 
 ### Voordelen van het gebruik van GPO's
 
@@ -83,7 +83,7 @@ De veelzijdigheid en kracht van GPO's maken ze tot een essentieel hulpmiddel voo
 
 Door gebruik te maken van de kracht van GPO's kun je efficiënt beheer bereiken, consistente beleidsafdwinging garanderen en netwerkbeheer taken vereenvoudigd automatiseren. Dit leidt uiteindelijk tot verbeterde productiviteit, beveiliging en stabiliteit binnen je netwerkomgeving.
 
-Voor meer informatie over GPO's en hun mogelijkheden kun je de [officiële Microsoft-documentatie over Groepsbeleid](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11) raadplegen.
+Voor meer informatie over GPO's en hun mogelijkheden kun je de [officiële Microsoft-documentatie over Groepsbeleid](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)) raadplegen.
 
 
 ### GPO-hiërarchie en overerving
@@ -113,7 +113,7 @@ Met de GPMC kun je diverse taken uitvoeren met betrekking tot GPO-beheer, waaron
 4. **Bekijken van GPO-status en instellingen**: De GPMC biedt uitgebreide informatie over de status en instellingen van je GPO's. Je kunt eenvoudig de toegepaste beleidsregels, configuraties en overervingsdetails voor elke GPO controleren. Deze zichtbaarheid stelt je in staat om GPO-implementaties effectief te valideren en problemen op te lossen.
 5. **Delegatie van GPO-beheertaken**: De GPMC ondersteunt het delegeren van GPO-beheertaken aan andere beheerders. Deze functie maakt het mogelijk om verantwoordelijkheden te verdelen en het beheer van GPO's binnen je organisatie te vereenvoudigen.
 
-De GPMC is een onmisbaar hulpmiddel voor het beheren van GPO's en wordt meegeleverd met **Windows Server 2008** en latere versies. Voor meer informatie over de GPMC en zijn functionaliteiten kun je de [officiële Microsoft-documentatie](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731764(v=ws.10) raadplegen.
+De GPMC is een onmisbaar hulpmiddel voor het beheren van GPO's en wordt meegeleverd met **Windows Server 2008** en latere versies. Voor meer informatie over de GPMC en zijn functionaliteiten kun je de [officiële Microsoft-documentatie](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731764(v=ws.10)) raadplegen.
 
 
 ### GPO's aanmaken en bewerken

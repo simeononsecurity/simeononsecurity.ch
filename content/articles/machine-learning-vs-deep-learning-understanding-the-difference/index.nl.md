@@ -1,16 +1,17 @@
 ---
 title: "Machinaal leren versus diep leren: De verschillen ontrafelen"
 date: 2023-06-05
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Ontdek het onderscheid tussen machine learning en deep learning, twee krachtige takken van AI met unieke kenmerken en toepassingen."
-tags: ["machinaal leren", "diepgaand leren", "kunstmatige intelligentie", "AI", "gegevenswetenschap", "algoritme", "neurale netwerken", "feature engineering", "ongestructureerde gegevens", "beslisbomen", "logistische regressie", "gelabelde gegevens", "ongelabelde gegevens", "computermiddelen", "fraudedetectie", "aanbevelingssystemen", "predictief onderhoud", "beeldherkenning", "natuurlijke taalverwerking", "ontdekking van geneesmiddelen", "zakelijke toepassingen", "complexiteit van het algoritme", "gegevensweergave", "overheidsvoorschriften", "computervisie", "gezichtsherkenning", "chatbots", "taalvertaling", "opleidingsmodellen", "voorspellende analyses"]
+tags: ["machinaal leren", "diepgaand leren", "kunstmatige intelligentie", "AI", "gegevenswetenschap", "algoritme", "neurale netwerken", "kenmerkengineering", "ongestructureerde gegevens", "beslisbomen", "logistische regressie", "gelabelde gegevens", "ongelabelde gegevens", "computermiddelen", "fraudedetectie", "aanbevelingssystemen", "predictief onderhoud", "beeldherkenning", "natuurlijke taalverwerking", "ontdekking van geneesmiddelen", "zakelijke toepassingen", "complexiteit van het algoritme", "gegevensweergave", "overheidsvoorschriften", "computervisie", "gezichtsherkenning", "chatbots", "taalvertaling", "opleidingsmodellen", "voorspellende analyses"]
 cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp"
 coverAlt: "Een cartoonillustratie met een algoritme voor machinaal leren en een diep lerend neuraal netwerk in een vriendschappelijke wedstrijd."
 coverCaption: ""
 ---
 
-**Machine Learning vs. Deep Learning: Inzicht in de verschillen**
+**Machinaal leren versus diep leren: inzicht in de verschillen**
 
 Machine learning en deep learning zijn twee termen die vaak door elkaar worden gebruikt, maar ze zijn niet hetzelfde. Hoewel beide deelgebieden van kunstmatige intelligentie (AI) zijn en betrekking hebben op het trainen van algoritmen om voorspellingen te doen of beslissingen te nemen, zijn er belangrijke verschillen tussen de twee. In dit artikel onderzoeken we het onderscheid tussen machine learning en deep learning en belichten we hun unieke kenmerken en toepassingen.
 
@@ -26,7 +27,7 @@ Voordat we ingaan op de verschillen, geven we een korte inleiding tot zowel mach
 
 {{< youtube id="HcqpanDadyQ" >}}
 
-### Wat is Deep Learning?
+### Wat is diep leren?
 
 **Diep leren** daarentegen is een subset van machinaal leren die de neurale netwerken van het menselijk brein nabootst. Het is geïnspireerd op de structuur en functie van de onderling verbonden neuronen van de hersenen. Deep learning-algoritmen, bekend als kunstmatige neurale netwerken, zijn ontworpen om complexe gegevens te verwerken en te interpreteren door hiërarchische voorstellingen van de input te leren. Deep learning-modellen hebben meerdere lagen van onderling verbonden neuronen, waardoor zij ingewikkelde patronen kunnen leren en zinvolle kenmerken uit de gegevens kunnen halen.
 
@@ -34,11 +35,11 @@ Voordat we ingaan op de verschillen, geven we een korte inleiding tot zowel mach
 
 ______
 
-## Sectie 2: Verschillen tussen Machine Learning en Deep Learning
+## Sectie 2: Verschillen tussen machinaal leren en diep leren
 
 Nu we een basisbegrip hebben van machine learning en deep learning, laten we eens duiken in de belangrijkste verschillen tussen de twee.
 
-### 1. 1. Gegevensrepresentatie
+### 1. Gegevensrepresentatie
 
 Bij **machinaal leren** speelt gegevensrepresentatie een cruciale rol. De invoergegevens moeten worden voorbewerkt en omgezet in een reeks relevante kenmerken die het algoritme voor machinaal leren kan gebruiken om voorspellingen te doen of beslissingen te nemen. Feature engineering, het proces van selecteren en transformeren van relevante features, is een kritische stap in machine learning.
 
@@ -56,7 +57,7 @@ Dieplerende algoritmen daarentegen hebben een aanzienlijk groter aantal paramete
 
 Deep learning-algoritmen daarentegen kunnen profiteren van een grote hoeveelheid gelabelde gegevens, maar ze kunnen ook leren van **ongelabelde gegevens**. Deep learning-modellen kunnen hiërarchische representaties leren van ongelabelde gegevens, die vervolgens kunnen worden verfijnd met een kleinere hoeveelheid gelabelde gegevens. Dit vermogen om te leren van ongelabelde gegevens is een van de redenen waarom deep learning succesvol is in verschillende domeinen, zoals computer vision en natuurlijke taalverwerking.
 
-### 4. 4. Computermiddelen
+### 4. Computermiddelen
 
 Een ander belangrijk verschil tussen machinaal leren en diep leren zijn de vereiste **computermiddelen**. Algoritmen voor machinaal leren kunnen doorgaans draaien op standaardhardware en vereisen geen gespecialiseerde hardware of krachtige computers.
 
@@ -68,15 +69,15 @@ ______
 
 Zowel machinaal leren als diep leren hebben een breed scala aan toepassingen in verschillende sectoren. Hier volgen enkele voorbeelden:
 
-### Machine Learning-toepassingen:
+### Toepassingen van machinaal leren:
 - **Fraude-opsporing**: Algoritmen voor machinaal leren kunnen grote hoeveelheden transactiegegevens analyseren om patronen te identificeren die op frauduleuze activiteiten wijzen.
-- Aanbevelingssystemen**: Algoritmen voor machinaal leren kunnen gebruikersvoorkeuren en historische gegevens analyseren om gepersonaliseerde aanbevelingen te doen voor producten, films of muziek.
+- **Aanbevelingssystemen**: Algoritmen voor machinaal leren kunnen gebruikersvoorkeuren en historische gegevens analyseren om gepersonaliseerde aanbevelingen te doen voor producten, films of muziek.
 - **Voorspellend onderhoud**: Modellen voor machinaal leren kunnen sensorgegevens van machines analyseren om mogelijke storingen van apparatuur te voorspellen en te voorkomen.
 
-### Deep Learning-toepassingen:
-- Beeldherkenning**: Deep learning-modellen kunnen objecten in beelden nauwkeurig classificeren en herkennen, waardoor toepassingen zoals autonome voertuigen en gezichtsherkenningssystemen mogelijk worden.
-- Verwerking van natuurlijke taal**: Deep learning-algoritmen kunnen menselijke taal verwerken en begrijpen, waardoor toepassingen zoals chatbots en taalvertaling mogelijk worden.
-- **Drug Discovery**: Deep learning-modellen kunnen grote databases met chemische verbindingen analyseren om hun doeltreffendheid bij de ontwikkeling van geneesmiddelen te voorspellen.
+### Toepassingen van diep leren:
+- **Beeldherkenning**: Deep learning-modellen kunnen objecten in beelden nauwkeurig classificeren en herkennen, waardoor toepassingen zoals autonome voertuigen en gezichtsherkenningssystemen mogelijk worden.
+- **Natuurlijke taalverwerking**: Deep learning-algoritmen kunnen menselijke taal verwerken en begrijpen, waardoor toepassingen zoals chatbots en taalvertaling mogelijk worden.
+- **Ontdekking van geneesmiddelen**: Deep learning-modellen kunnen grote databases met chemische verbindingen analyseren om hun doeltreffendheid bij de ontwikkeling van geneesmiddelen te voorspellen.
 
 ______
 

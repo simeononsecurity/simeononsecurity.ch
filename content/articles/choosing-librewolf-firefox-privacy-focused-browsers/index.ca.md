@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp
 coverAlt: Una il·lustració que mostra un paisatge digital amb una estructura en forma d’escut que simbolitza la privadesa, envoltada d’icones vibrants que representen la protecció de dades, sobre un fons fosc.
 coverCaption: 'Desbloqueja la teva privadesa: explorant els navegadors LibreWolf i Firefox'
-lastmod: 2026-10-08
+lastmod: 2026-11-09
 ---
 **Navegadors centrats en la privadesa: una comparació entre LibreWolf i Firefox**
 
@@ -117,6 +117,14 @@ ______
 
 ______
 
+## Actualització de seguretat: Firefox 159 (27 d’octubre de 2026)
+
+**La configuració de privadesa no substitueix les actualitzacions de seguretat.** [L’avís de seguretat de Mozilla per a Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/) enumera problemes greus, com ara CVE-2026-117860, un bypass de la política del mateix origen, i CVE-2026-117861, CVE-2026-117864 i CVE-2026-117868, descrits com a escapades del sandbox. Mozilla indica **Firefox 159** com la versió corregida, i les [notes de la versió 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/) daten la publicació el 27 d’octubre. L’avís no especifica la primera versió afectada de cada problema ni informa d’explotació activa.
+
+**Comprova la branca que fas servir.** Si utilitzes Firefox estàndard, instal·la la versió actual pel canal habitual i comprova’n el número al quadre «Quant a». Firefox ESR segueix avisos separats: Mozilla indica [ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/) com la versió que corregeix les quatre CVE esmentades i publica un [avís ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/) separat per a aquesta branca. No facis servir el número de Firefox estàndard per comprovar els pedaços d’ESR.
+
+Per a **LibreWolf o un altre navegador basat en Firefox**, compara la versió instal·lada amb les notes de versió i els avisos de seguretat del projecte derivat. L’avís de Firefox de Mozilla, per si sol, no confirma si una versió derivada inclou una correcció concreta. Consulta les [versions del projecte LibreWolf](https://librewolf.dev/librewolf/bsys6/releases) de la versió instal·lada; no consideris les opcions de privadesa predeterminades ni una versió de Firefox com a prova que s’hagi aplicat un pedaç.
+
 ## Codi obert i participació comunitària
 
 ### Èmfasi de LibreWolf en el codi obert
@@ -141,11 +149,39 @@ De manera similar, **Firefox** està llicenciat sota la Mozilla Public License 2
 
 ______
 
+## Llista de verificació per decidir el 2026
+
+LibreWolf i Firefox comparteixen el motor Firefox, però responen a preferències de manteniment diferents. LibreWolf aplica una configuració centrada en la privadesa i elimina o modifica alguns serveis de Mozilla. Firefox ofereix una via d’assistència més àmplia, opcions predeterminades conegudes i integració directa amb el compte Mozilla.
+
+Abans de canviar, comprova aquests quatre punts:
+
+- **Termini d’actualització.** Instal·la ràpidament les actualitzacions de seguretat des del canal oficial del navegador.
+- **Compatibilitat dels llocs.** Prova els bancs, els portals de feina, les videotrucades i les extensions del gestor de contrasenyes en un perfil separat.
+- **Separació de comptes.** No incloguis dades de sincronització personals en un perfil de recerca o d’un dispositiu compartit.
+- **Recuperació.** Exporta les adreces d’interès, anota les extensions i confirma que tens els codis de recuperació abans de canviar de navegador.
+
+La privadesa també requereix revisar el sistema operatiu, el compte, l’encaminador i la xarxa. Un navegador privat no amaga l’activitat al servei on has iniciat sessió, al propietari del dispositiu local ni al proveïdor de xarxa. Consulta l’[ajuda de Mozilla sobre privadesa i seguretat](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) i la [documentació de LibreWolf](https://librewolf.net/docs/) quan comprovis una opció.
+
+## Actualitzacions, empremta digital i compatibilitat
+
+**LibreWolf i Firefox resolen problemes diferents.** LibreWolf incorpora una configuració més estricta i elimina alguns serveis de Firefox. Les preguntes freqüents del projecte indiquen que les actualitzacions solen arribar en un termini de tres dies després de Firefox, però les actualitzacions de LibreWolf depenen dels gestors de paquets o dels usuaris. Firefox ofereix una via d’actualització convencional, sincronització de comptes, compatibilitat més àmplia i controls de protecció per lloc. Consulta les [preguntes freqüents de LibreWolf](https://librewolf.net/docs/faq/) i la [guia de protecció contra el seguiment de Mozilla](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false).
+
+**La protecció contra l’empremta digital té límits.** Les opcions estrictes redueixen els senyals de seguiment habituals, però no fan que tots els usuaris semblin idèntics. La mida de pantalla, l’idioma, el sistema operatiu, les extensions i les modificacions poc habituals continuen influint en el resultat. La protecció total de cookies de Firefox aïlla l’emmagatzematge dels llocs, però no amaga la identitat del compte al lloc que visites. En aquesta comparació, Tor Browser és l’opció dissenyada al voltant d’un conjunt compartit d’anonimat. [Consulta la documentació de Tor Browser sobre protecció contra l’empremta digital](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+| Punt de decisió | LibreWolf | Firefox |
+|---|---|---|
+| **Configuració predeterminada** | Més privadesa per defecte, amb més compromisos de compatibilitat | Opcions equilibrades amb nivells de protecció ajustables |
+| **Actualitzacions** | Depenen del gestor de paquets o de la instal·lació manual | Actualitzacions del navegador gestionades per Mozilla |
+| **Sincronització** | No inclou la sincronització del compte Mozilla per disseny | Sincronització integrada amb el compte Firefox |
+| **Compatibilitat amb llocs** | Prova primer DRM, portals de feina i aplicacions web poc habituals | Àmplia compatibilitat amb excepcions per lloc |
+| **Més adequat per a** | Un navegador d’escriptori separat per a recerca sensible a la privadesa | Un navegador diari quan importen l’assistència i la sincronització |
+
+Abans de canviar, obre els llocs que necessites, comprova la versió instal·lada i prova un perfil nou. No acumulis extensions contra l’empremta digital sense un motiu mesurat. Les modificacions addicionals augmenten els errors i poden fer que el navegador sigui menys habitual.
+
 ## Conclusió: Triar el navegador adequat centrat en la privadesa
 
-**LibreWolf** i **Firefox** ofereixen opcions convincents per als usuaris que busquen una privadesa i seguretat millorades en la seva experiència de navegació. La decisió entre ambdós depèn de les prioritats i preferències individuals. Si els usuaris valoren una personalització profunda i un fort èmfasi en la llibertat de l’usuari
+**LibreWolf** i **Firefox** són opcions atractives per a qui vol més privadesa i seguretat en la navegació. L’elecció depèn de les prioritats i preferències de cada persona. Si els usuaris valoren una personalització profunda i un fort èmfasi en la llibertat de l’usuari
 
-______
 
 ## Referències
 
@@ -153,3 +189,8 @@ ______
 2. [Lloc web oficial de Firefox](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Avís de seguretat de Mozilla 2026-118: Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Notes de la versió Firefox 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Avís de seguretat de Mozilla 2026-120: Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Avís de seguretat de Mozilla 2026-119: Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [Versions del projecte LibreWolf](https://librewolf.dev/librewolf/bsys6/releases)

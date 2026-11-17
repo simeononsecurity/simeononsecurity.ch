@@ -1,88 +1,88 @@
 ---
-title: "Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026"
+title: "Microsoft SOC 家庭实验室：在 2026 年积累网络安全经验"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence."
-genre: ["Cybersecurity", "Cloud Security", "Career Development"]
-tags: ["SOC home lab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure home lab", "cybersecurity experience", "SOC analyst", "security operations center", "incident response", "KQL", "Log Analytics", "Conditional Access", "phishing-resistant MFA", "passkeys", "identity security", "cybersecurity portfolio", "cloud cost management", "endpoint security"]
+description: "使用 Sentinel、Defender、Intune 和 Entra 搭建 Microsoft SOC 家庭实验室。练习事件调查、验证通行密钥策略，并记录作品集证据。"
+genre: ["网络安全", "云安全", "职业发展"]
+tags: ["SOC 家庭实验室", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure 家庭实验室", "网络安全经验", "SOC 分析师", "安全运营中心", "事件响应", "KQL", "Log Analytics", "Conditional Access", "抗钓鱼 MFA", "通行密钥", "身份安全", "网络安全作品集", "云成本管理", "端点安全"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
-coverAlt: "A laptop showing security incident timelines on a home desk beneath a cloud containing servers and endpoints."
+coverAlt: "家中桌上的笔记本电脑显示安全事件时间线，上方的云中包含服务器和端点。"
 coverCaption: ""
 ---
 
-A **security operations center (SOC) home lab** gives you a place to investigate alerts, explain evidence, and test defensive changes. Build a small Microsoft environment, collect its telemetry, and write up each investigation. The useful result is a repeatable investigation with supporting evidence.
+**安全运营中心（SOC）家庭实验室**为你提供调查警报、说明证据和测试防御变更的环境。搭建小型 Microsoft 环境，收集遥测数据，并记录每次调查。目标是形成有证据支持、可重复的调查过程。
 
-This guide develops the lab approach described in Mad Hat's cybersecurity career video and supplied Cyber Range runbook. It uses Microsoft documentation for product requirements and separates setup, detection, and validation into measurable tasks.
+本指南扩展了 Mad Hat 网络安全职业视频和所提供的 Cyber Range 操作手册中的实验室方案。产品要求以 Microsoft 文档为依据，并将配置、检测和验证拆分为可衡量的任务。
 
 ## 要点
 
-- **Start small:** one managed Windows client and one test identity support the first exercises.
-- **Verify telemetry:** a visible device or connected portal does not prove logs are arriving.
-- **Complete the investigation:** record the trigger, evidence, response, and retest.
-- **Control spending:** track licenses, retained data, networking, and compute separately.
-- **Describe experience accurately:** list the environment as a lab project on your resume.
+- **从小规模开始：** 一台受管理的 Windows 客户端和一个测试身份即可支持初期练习。
+- **验证遥测：** 设备可见或门户已连接，都不能证明日志正在到达。
+- **完成调查：** 记录触发原因、证据、响应和复测结果。
+- **控制支出：** 分别跟踪许可证、保留数据、网络和计算资源。
+- **准确描述经验：** 在简历中将环境列为实验室项目。
 
 ## 开始之前
 
-**Prerequisites:** basic Windows administration, networking, and familiarity with virtual machines. Use a dedicated Microsoft Entra tenant and an Azure subscription reserved for the lab. Keep production identities, personal files, and employer systems outside the exercise.
+**前置知识：** 具备基础 Windows 管理和网络知识，并熟悉虚拟机。使用专用的 Microsoft Entra 租户和仅供实验室使用的 Azure 订阅。不要在练习中使用生产身份、个人文件或雇主系统。
 
-**Estimated effort:** allow a weekend for the initial setup, followed by focused investigation sessions. This is a planning estimate. Trial approval, quota availability, and service provisioning affect elapsed time. **Difficulty:** intermediate.
+**预计投入：** 初次配置预留一个周末，之后安排有针对性的调查时段。这只是规划估算。试用审批、配额和服务配置时间都会影响实际耗时。**难度：** 中级。
 
-Prepare a separate administrative account and an unprivileged test user. Before testing access policies, establish and verify emergency access. Assign privileges for each setup task, then use a lower-privilege account for routine investigation.
+准备独立的管理员账户和无特权测试用户。测试访问策略之前，先建立并验证紧急访问方式。每项配置任务仅分配所需权限，日常调查使用权限较低的账户。
 
-| Component | Lab purpose |
+| 组件 | 实验室用途 |
 |---|---|
-| **Sentinel** | Security information and event management, or SIEM, for connected log sources |
-| **Defender XDR** | Correlation and investigation across licensed Microsoft security services |
-| **Defender for Endpoint** | Endpoint detection and response, or EDR, on onboarded devices |
-| **Intune** | Device enrollment and endpoint security policy management |
-| **Entra ID** | Identity, sign-in records, and access policy evaluation |
-| **Defender for Servers** | Server protection through Defender for Cloud |
+| **Sentinel** | 为已连接的日志源提供安全信息和事件管理（SIEM） |
+| **Defender XDR** | 关联并调查已获许可的 Microsoft 安全服务中的活动 |
+| **Defender for Endpoint** | 对已接入设备进行端点检测与响应（EDR） |
+| **Intune** | 设备注册和端点安全策略管理 |
+| **Entra ID** | 身份、登录记录和访问策略评估 |
+| **Defender for Servers** | 通过 Defender for Cloud 保护服务器 |
 
-## Check Licenses First
+## 先检查许可证
 
-**Microsoft 365 E5** is one route to a broad lab, but access depends on the service plans and licenses assigned to the participating users. Office 365 E5 and Microsoft 365 E5 are different bundles. A single administrator's license does not establish coverage for every test user or workload. Review the [Defender XDR prerequisites](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) before selecting a subscription.
+**Microsoft 365 E5**是搭建综合实验室的一种方式，但访问能力取决于分配给参与用户的服务计划和许可证。Office 365 E5 与 Microsoft 365 E5 是不同的套餐。管理员拥有许可证，并不代表每个测试用户或工作负载都已覆盖。选择订阅前，请查看[Defender XDR 前置要求](https://learn.microsoft.com/en-us/defender-xdr/prerequisites)。
 
-**Sentinel in the Defender portal** works without E5 or Defender XDR. Adding XDR introduces its own licensing and configuration requirements. An empty incident view is not evidence of missing E5 licensing. Microsoft's [Sentinel onboarding documentation](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explains both configurations.
+**Defender 门户中的 Sentinel**无需 E5 或 Defender XDR 即可运行。添加 XDR 后会引入独立的许可和配置要求。事件列表为空，并不能证明缺少 E5 许可证。Microsoft 的[Sentinel 接入文档](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)介绍了两种配置。
 
-**Server protection** has a separate licensing path. Defender for Servers integrates with Defender for Endpoint for supported server workloads. Windows client operating systems need appropriate client coverage. Do not treat every Azure VM as an automatically licensed server. See Microsoft's [Defender for Endpoint integration documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**服务器保护**有单独的许可路径。对于受支持的服务器工作负载，Defender for Servers 会与 Defender for Endpoint 集成。Windows 客户端操作系统需要适当的客户端覆盖。不要认为每台 Azure VM 都自动取得服务器许可证。请参阅 Microsoft 的[Defender for Endpoint 集成文档](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint)。
 
-**Trial planning:** confirm eligibility, expiration, renewal settings, and included services in your own account. Avoid budgeting around a promised trial duration or a fixed monthly total from a video.
+**试用规划：** 在自己的账户中确认资格、到期时间、续订设置和所含服务。不要根据视频承诺的试用期限或固定月费制定预算。
 
-## Set a Spending Plan
+## 制定支出计划
 
-**Azure budgets** send notifications. They do not stop consumption when you reach a threshold. Cost reporting also has a delay. Create alerts early and review spending after each session, following Microsoft's [budget setup guide](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+**Azure 预算**会发送通知，但达到阈值后不会停止资源消耗。成本报告也有延迟。尽早创建警报，并在每次实验后检查支出，参考 Microsoft 的[预算设置指南](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets)。
 
-| Cost category | Planning question |
+| 成本类别 | 规划问题 |
 |---|---|
-| **User licenses** | Which users need which service plans, and when do trials expire? |
-| **Compute** | How many VM hours will each exercise require? |
-| **Storage** | Which disks and snapshots remain after shutdown? |
-| **Log collection** | Which tables need ingestion and how long should data remain? |
-| **Networking** | Does the design include paid Bastion, public IPs, or outbound services? |
-| **Server protection** | Which workloads have a paid Defender plan enabled? |
+| **用户许可证** | 哪些用户需要哪些服务计划，试用何时到期？ |
+| **计算资源** | 每项练习需要多少 VM 小时？ |
+| **存储** | 关机后会留下哪些磁盘和快照？ |
+| **日志收集** | 哪些表需要引入，数据应保留多久？ |
+| **网络** | 设计是否包含付费 Bastion、公网 IP 或出站服务？ |
+| **服务器保护** | 哪些工作负载启用了付费 Defender 计划？ |
 
-**Design choice:** begin with one client. Add a server when an exercise needs server telemetry. Four clients and several servers add administration and cost before they add useful investigation practice.
+**设计选择：** 从一台客户端开始。只有在练习需要服务器遥测时才添加服务器。四台客户端和多台服务器会先增加管理工作和成本，未必能提升调查练习的价值。
 
-## Build the Network
+## 构建网络
 
-**Suggested layout:** put Azure resources in a clearly named group such as **`rg-soc-lab`**. Use separate client and server subnets, explicit network security group rules, and private management access. Subnet separation alone does not block traffic between workloads.
+**建议布局：** 将 Azure 资源放入名称清晰的资源组，例如 **`rg-soc-lab`**。将客户端和服务器放入不同子网，明确设置网络安全组规则，并使用私有管理访问。仅靠子网隔离无法阻止工作负载之间的流量。
 
-For a dedicated **Azure Bastion** deployment, follow the SKU requirements, including the reserved **`AzureBastionSubnet`** name and a **`/26`** or larger subnet for current deployments. Developer SKU uses a different deployment model. Review [Bastion configuration settings](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) before choosing a design.
+部署专用的 **Azure Bastion** 时，请遵循 SKU 要求。当前部署需要使用保留名称 **`AzureBastionSubnet`**，并配置 **`/26`** 或更大的子网。Developer SKU 使用不同的部署模式。选择设计前，请查看 [Bastion 配置设置](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings)。
 
-Keep RDP and SSH closed to the public internet. Restrict management traffic to the selected management path. Allow the outbound service connectivity needed for enrollment and security telemetry.
+不要将 RDP 和 SSH 暴露到公网。将管理流量限制在选定的管理路径内。允许注册和安全遥测所需的出站连接。
 
-**Validation:** establish private management access and verify effective network rules before installing workloads. If you add a deliberately vulnerable application later, keep it inside the exercise network and restrict access to the test machines.
+**验证：** 安装工作负载前，建立私有管理访问并检查生效的网络规则。如果之后添加故意存在漏洞的应用，将它留在练习网络内，并把访问限制在测试设备。
 
-## Connect Sentinel and Logs
+## 连接 Sentinel 和日志
 
-**Portal setup:** create a Log Analytics workspace and enable Sentinel on it. If the workspace is absent from the Defender portal, open **System > Settings > Microsoft Sentinel > Connect a workspace**. Verify the tenant and required Azure and Entra roles against the [onboarding prerequisites](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**门户配置：** 创建 Log Analytics 工作区并启用 Sentinel。如果 Defender 门户中没有该工作区，请打开 **System > Settings > Microsoft Sentinel > Connect a workspace**。按照[接入前置要求](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard)检查租户以及所需的 Azure 和 Entra 角色。
 
-**Log collection is a separate step.** In Entra, configure diagnostic settings to send the required activity categories to the same workspace. Start with interactive sign-ins and audit events. Microsoft's [Entra log integration guide](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) covers the permissions and destination setup.
+**日志收集是单独的步骤。** 在 Entra 中配置诊断设置，将所需活动类别发送到同一工作区。先从交互式登录和审核事件开始。[Entra 日志集成指南](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs)说明了权限和目标位置。
 
-The current Sentinel workflow also supports connection through the Microsoft Defender portal. Confirm the workspace is the intended primary workspace, the tenant matches the test identities, and the account has the required roles before troubleshooting an empty table. Portal visibility alone does not prove ingestion. [Sentinel onboarding in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+当前 Sentinel 工作流也支持通过 Microsoft Defender 门户连接。排查空表之前，确认所选工作区是预期的主工作区、租户与测试身份一致，并且账户具有所需角色。门户中可见并不能证明数据已引入。[在 Defender 门户中接入 Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -93,107 +93,107 @@ SigninLogs
 | order by TimeGenerated desc
 ```
 
-Run this **Kusto Query Language (KQL)** example in the workspace's Logs view after generating a fresh test sign-in. Replace the sample user principal name with your lab user. The columns follow the [SigninLogs table schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
+生成新的测试登录后，在工作区的 Logs 视图中运行此 **Kusto Query Language (KQL)** 示例。将示例用户主体名称替换为实验室用户。列名遵循 [SigninLogs 表架构](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs)。
 
-**Expected result:** a row matching the test account and sign-in time. No rows means you need to check the time range, identity, collection settings, destination, and ingestion delay. A missing table points to a collection or workspace issue before it points to a detection issue.
+**预期结果：** 出现与测试账户和登录时间相符的行。如果没有行，检查时间范围、身份、收集设置、目标位置和引入延迟。表缺失时，应先排查收集或工作区问题，再考虑检测问题。
 
-## Onboard the First Endpoint
+## 接入第一台端点
 
-**Intune enrollment and EDR onboarding** are separate checkpoints. Connect Intune and Defender for Endpoint, enroll a supported Windows client, then assign an endpoint detection and response onboarding policy to its lab group. Entra registration alone does not establish either checkpoint.
+**Intune 注册和 EDR 接入**是两个独立检查点。连接 Intune 和 Defender for Endpoint，注册受支持的 Windows 客户端，然后向实验室设备组分配端点检测与响应接入策略。仅在 Entra 中注册并不能证明任何一个检查点已完成。
 
-In Intune, check **Endpoint security > Defender for Endpoint**. If the connection is unavailable, enable the Intune connection in Defender's endpoint advanced features. Follow the platform-specific steps in Microsoft's [Intune and Defender integration guide](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+在 Intune 中查看 **Endpoint security > Defender for Endpoint**。如果无法连接，请在 Defender 的端点高级功能中启用 Intune 连接。按照 Microsoft 的 [Intune 与 Defender 集成指南](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration)完成对应平台的步骤。
 
-| Checkpoint | Evidence to capture |
+| 检查点 | 要收集的证据 |
 |---|---|
-| **Enrollment** | Client appears in Intune with a recent check-in |
-| **Policy assignment** | Onboarding policy applies to the intended device group |
-| **Sensor reporting** | Defender shows onboarded status and recent telemetry |
-| **Detection test** | A documented test produces the expected security signal |
+| **注册** | 客户端显示在 Intune 中，且最近有签到记录 |
+| **策略分配** | 接入策略已应用于目标设备组 |
+| **传感器报告** | Defender 显示已接入状态和近期遥测 |
+| **检测测试** | 有文档记录的测试产生预期安全信号 |
 
-**For servers**, enable the chosen Defender for Servers plan and its endpoint integration, then verify sensor deployment and reporting. Defender for Cloud also discovers machines before onboarding completes. Inventory presence alone is insufficient, as Microsoft explains in its [resource discovery and onboarding guidance](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**服务器方面，**启用选定的 Defender for Servers 计划及其端点集成，然后确认传感器已部署并报告。Defender for Cloud 会在接入完成前发现机器。仅出现在资产清单中并不足够。请参阅 Microsoft 的[资源发现和接入指南](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint)。
 
-## Investigate a Test Alert
+## 调查测试警报
 
-**Start with Microsoft's documented EDR detection test** on the lab endpoint. Follow the [current test instructions](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), including platform prerequisites and troubleshooting. Record the execution time before opening the alert queue.
+先在实验室端点上运行 **Microsoft 有文档记录的 EDR 检测测试**。按照[当前测试说明](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection)操作，包括平台前置要求和故障排查。打开警报队列前先记录执行时间。
 
-Treat the resulting alert as an investigation exercise. A security product's title gives you a starting point. Your job is to establish what happened and support the disposition with evidence.
+把生成的警报作为调查练习。安全产品给出的标题只是起点。你需要查明发生了什么，并用证据支持处置结论。
 
-1. **Triage:** identify the alert source, device, account, and event time.
-2. **Inspect:** review the process tree, command line, file details, and network activity available for the event.
-3. **Scope:** search for related activity on the test identity and other lab devices.
-4. **Assess:** explain whether the evidence matches the planned exercise or an unrelated event.
-5. **Respond:** document the selected response, its impact, and the recovery steps. Perform supported containment only when the exercise requires it.
-6. **Retest:** repeat the relevant test after changing a control and compare the evidence.
+1. **初步分类：** 确认警报来源、设备、账户和事件时间。
+2. **检查：** 查看进程树、命令行、文件详情和可用的网络活动。
+3. **确定范围：** 搜索测试身份和其他实验室设备上的相关活动。
+4. **评估：** 说明证据是否符合计划中的练习，或属于无关事件。
+5. **响应：** 记录所选响应、影响和恢复步骤。只有练习要求时才执行受支持的隔离。
+6. **复测：** 更改控制后重复相关测试并比较证据。
 
-**Do not manufacture missing results.** If the alert fails to arrive, preserve the execution record and troubleshoot collection. If a control blocks the test before the expected event, document the prevention result.
+**不要编造缺失的结果。** 如果警报没有到达，保留执行记录并排查收集问题。如果控制在预期事件发生前阻止了测试，记录预防结果。
 
-## Test Identity Controls
+## 测试身份控制
 
-**Adversary-in-the-middle (AiTM) phishing** places an attacker-controlled intermediary in a sign-in flow. The supplied runbook uses this scenario to motivate stronger authentication. For the first identity exercise, test policy behavior directly with your own unprivileged account.
+**中间人攻击式钓鱼（AiTM）**会在登录流程中加入由攻击者控制的中间方。提供的操作手册以此场景说明加强身份验证的必要性。首次身份练习应使用你自己的无特权账户，直接测试策略行为。
 
-Begin by recording a legitimate sign-in and its authentication details. Review Microsoft's [Entra risk detection reference](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) before interpreting risk signals. Detection prerequisites and processing differ by signal. A new IP address or a failed sign-in does not guarantee an AiTM alert.
+先记录一次正常登录及其身份验证详情。解释风险信号前，请查看 Microsoft 的 [Entra 风险检测参考](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks)。不同信号的检测前置条件和处理方式各不相同。新的 IP 地址或登录失败都不保证触发 AiTM 警报。
 
-**Passkeys (FIDO2)** use credentials bound to the legitimate service rather than reusable codes entered into a relayed login page. Enable an appropriate passkey profile for the pilot group and register the method before enforcing a policy. Follow Microsoft's [passkey configuration guide](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) for supported authenticators and restrictions.
+**通行密钥（FIDO2）**使用绑定到合法服务的凭据，而不是在中继登录页中输入的可重复使用代码。为试点组启用适当的通行密钥配置，并在强制策略前注册此方法。支持的验证器和限制见[通行密钥配置指南](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2)。
 
-**Conditional Access exercise:** create a policy targeting only the lab pilot group, exclude emergency access accounts, and select **Require authentication strength > Phishing-resistant MFA strength**. Start in **Report-only**, review its impact, then enable it. This adapts Microsoft's [administrator policy example](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) to a narrow test group.
+**Conditional Access 练习：** 创建只针对实验室试点组的策略，排除紧急访问账户，然后选择 **Require authentication strength > Phishing-resistant MFA strength**。先使用 **Report-only** 模式并检查影响，再启用策略。这是将 Microsoft 的[管理员策略示例](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)调整为小范围测试组。
 
-| Test | Evidence to collect |
+| 测试 | 要收集的证据 |
 |---|---|
-| **Report-only policy** | Sign-in record showing how the proposed policy evaluates |
-| **Enforced policy, weaker method** | Fresh authentication requires a stronger method before access |
-| **Enforced policy, registered passkey** | Successful sign-in satisfying the required strength |
+| **Report-only 策略** | 显示建议策略评估结果的登录记录 |
+| **强制策略，较弱方法** | 新身份验证要求在允许访问前使用更强的方法 |
+| **强制策略，已注册通行密钥** | 满足所需强度的成功登录 |
 
-Use fresh authentication for each comparison and inspect the policy details. Existing sessions complicate comparisons. **Scope of proof:** this exercise validates the authentication requirement. It does not demonstrate universal protection against endpoint compromise or theft of an existing session.
+每次比较都使用新的身份验证，并检查策略详情。现有会话会使比较变得复杂。**证据范围：** 此练习验证身份验证要求，不代表对端点失陷或现有会话被盗等情况提供全面保护。
 
-## Write Portfolio Evidence
+## 编写作品集证据
 
-**A useful portfolio entry** explains a decision another analyst is able to review. Include a short architecture description, the collection prerequisites, the event timeline, and the reasoning behind your response.
+**有价值的作品集条目**应说明一项决定，使其他分析人员能够复核。加入简短的架构说明、数据收集前置条件、事件时间线以及响应理由。
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+练习：
+日期和 UTC 时间范围：
+实验室范围和前置条件：
+触发条件和预期信号：
+观察到的警报或预防结果：
+证据和查询：
+受影响的身份和设备：
+结论和理由：
+响应和恢复：
+控制变更和复测：
+限制和后续事项：
 ```
 
-Replace every field with your own observations. **Sanitize exports:** remove credentials, session material, personal information, and unnecessary identifiers before publishing screenshots or query results.
+每个字段都填写自己的观察结果。发布截图或查询结果前，**清理导出内容：** 删除凭据、会话资料、个人信息和不必要的标识符。
 
-**Resume example:** "Built a Microsoft security lab, connected identity logs to Sentinel, investigated endpoint test alerts, and documented Conditional Access validation." Use this wording only after completing those tasks. Put it under projects or practical training with the actual dates and scope.
+**简历示例：**“搭建 Microsoft 安全实验室，将身份日志连接到 Sentinel，调查端点测试警报，并记录 Conditional Access 验证结果。”只有完成这些任务后才使用此描述。将其放在项目或实践培训部分，并标注真实日期和范围。
 
-A lab demonstrates independent practice. **Production SOC work** also involves business impact, escalation, service commitments, and coordination with other teams. Explain which parts you practiced and which remain outside your experience.
+实验室能够证明自主练习。**生产环境中的 SOC 工作**还涉及业务影响、升级处理、服务承诺以及与其他团队协调。说明你练习了哪些内容，哪些内容超出了实际经验。
 
-## Troubleshooting
+## 故障排查
 
-| Symptom | First check |
+| 症状 | 首先检查 |
 |---|---|
-| **Workspace absent from Defender** | Same tenant, Sentinel enabled, and onboarding role requirements |
-| **SigninLogs absent or empty** | Diagnostic categories, destination workspace, fresh events, and time range |
-| **Client absent from Intune** | Enrollment prerequisites and enrollment status |
-| **Device visible without telemetry** | Actual onboarding state, sensor health, and outbound connectivity |
-| **Onboarding policy unapplied** | Assignment scope, device platform, and recent check-in |
-| **No identity risk alert** | Signal prerequisites and recorded activity, without assuming deterministic detection |
-| **Unexpected access allowed** | Report-only status, exclusions, resource scope, and existing session |
-| **Charges after shutdown** | Allocation state and resources billed independently of compute |
+| **Defender 中没有工作区** | 是否为同一租户、Sentinel 是否启用、是否满足接入角色要求 |
+| **SigninLogs 缺失或为空** | 诊断类别、目标工作区、新事件和时间范围 |
+| **Intune 中没有客户端** | 注册前置要求和注册状态 |
+| **设备可见但没有遥测** | 实际接入状态、传感器运行状况和出站连接 |
+| **接入策略未应用** | 分配范围、设备平台和最近签到时间 |
+| **没有身份风险警报** | 信号前置要求和已记录的活动，不要假设检测必然发生 |
+| **意外允许访问** | Report-only 状态、排除项、资源范围和现有会话 |
+| **关机后仍产生费用** | 资源分配状态以及计算资源以外的计费项目 |
 
-**Troubleshooting order:** prove the event happened, prove collection worked, then investigate detection logic. Record each failure and fix in the project notes.
+**故障排查顺序：** 先证明事件发生，再确认数据收集有效，最后调查检测逻辑。在项目记录中写下每次故障和修复。
 
-## Pause or Remove the Lab
+## 暂停或删除实验室
 
-**Deallocation** releases VM compute allocation. A guest operating system shutdown alone does not guarantee deallocation. Check Azure's displayed power state and review Microsoft's [VM states and billing documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
+**取消分配**会释放 VM 计算资源。仅关闭来宾操作系统不保证资源已取消分配。查看 Azure 显示的电源状态，并参阅 Microsoft 的 [VM 状态和计费文档](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing)。
 
-**Retained resources** still need review. Disks, snapshots, networking services, log retention, and user subscriptions have separate lifecycles. Set a reminder before each trial expires and verify the next usage report after cleanup.
+**保留的资源**也需要检查。磁盘、快照、网络服务、日志保留和用户订阅都有独立的生命周期。每个试用到期前设置提醒，清理后再检查下一份使用报告。
 
-Before deleting the lab resource group, export the evidence you intend to retain and inspect its contents. **Resource group deletion is destructive** for contained resources. Tenant users, Intune policies, Conditional Access policies, subscriptions, and subscription-level security settings require separate cleanup where applicable.
+删除实验室资源组之前，先导出计划保留的证据并检查内容。**删除资源组会破坏其中的资源。** 租户用户、Intune 策略、Conditional Access 策略、订阅和订阅级安全设置在适用时需要单独清理。
 
 ## 后续步骤
 
-**Finish one documented investigation** before adding another workload. Then add a server, an identity exercise, or a detection rule with a clear test condition. Track what the added component teaches and what it costs.
+增加其他工作负载前，**先完成并记录一次调查**。然后添加服务器、身份练习或检测规则，并设定清晰的测试条件。记录新增组件带来的学习内容和成本。
 
-Use the [IT home lab guide](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) for infrastructure practice and the [IT resume guide](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) to present the work. Keep the next project small enough to explain from setup through evidence and cleanup.
+使用[IT 家庭实验室指南](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)练习基础设施，用[IT 简历指南](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)展示成果。下一个项目应保持足够小，便于说明配置、证据和清理过程。

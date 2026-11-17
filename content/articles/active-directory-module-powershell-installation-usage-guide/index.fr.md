@@ -1,6 +1,7 @@
 ---
 title: "Maîtriser l'administration d'Active Directory avec PowerShell : Guide d'installation et d'utilisation"
 date: 2023-07-25
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Découvrez comment installer et utiliser efficacement le module Active Directory pour PowerShell afin de rationaliser vos tâches d'administration de Windows Active Directory."
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## Vérifications actuelles de RSAT et PowerShell
+
+Microsoft distribue désormais le module Active Directory via les outils d’administration de serveur à distance (RSAT). Sur les éditions clientes de Windows prises en charge, installez la fonctionnalité à la demande depuis une session PowerShell élevée :
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+Sur Windows Server, utilisez la procédure d’installation de fonctionnalités serveur documentée par Microsoft :
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Vérifiez le module avant d’exécuter des commandes d’administration :
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+La [référence du module ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) indique que RSAT fournit le module et répertorie les cmdlets disponibles. Utilisez la version adaptée au système d’exploitation hôte. PowerShell 7 comporte des considérations de compatibilité. Testez donc le module sur un poste hors production avant de modifier un processus d’administration établi.
+
+Comme recommandation opérationnelle, utilisez `-WhatIf` lorsqu’une cmdlet le prend en charge, limitez les requêtes avec `-Server` lorsqu’un contrôleur de domaine précis compte, et ne demandez que les autorisations nécessaires. PowerShell décrit `-WhatIf` dans ses [paramètres communs](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Ne placez pas de mots de passe dans l’historique des commandes ni dans des scripts. Préférez l’invite sécurisée [Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), un coffre de secrets protégé ou un compte de service délégué avec une procédure de rotation documentée.
 
 ## Conclusion
 

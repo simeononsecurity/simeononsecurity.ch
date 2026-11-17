@@ -8,9 +8,10 @@ tags: ["オンラインショッピング", "安全な電子商取引", "安全�
 cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "南京錠のマークと盾を背景に、安全なオンラインショッピングサイトを閲覧する人の漫画イラストです。"
 coverCaption: ""
+lastmod: 2026-11-12
 ---
 
-**Safe Online Shopping：安全なEコマース取引のためのヒント**」。
+**安全なオンラインショッピング：安全なEコマース取引のためのヒント**」。
 
 オンラインショッピングは便利でアクセスしやすい分、個人情報や金融情報を保護するためにセキュリティを優先することが重要です。今回は、安全なオンラインショッピングと安全なEコマース取引を実現するための貴重なヒントを提供します。また、オンラインショッピングの際にプライバシーを高めることができる2つのマスキングサービス、Albine Blurとprivacy.comを紹介します。
 
@@ -32,7 +33,7 @@ ______
 
 [**Privacy.com**](https://privacy.com/join/SU86Y)は、オンライン購入のための仮想デビットカードを作成できる、もう一つの信頼できるサービスです。Privacy.comでは、取引ごとにユニークなカード番号を作成することができ、実際のクレジットカード情報の安全性を確保することができます。また、このサービスでは、利用限度額の設定や定期購入の管理も可能で、オンライン取引をより適切にコントロールすることができます。
 
-詳しくはこちら [recommended privacy services](https://simeononsecurity.com/recommendations/services)
+詳しくはこちら [おすすめのプライバシー保護サービス](https://simeononsecurity.com/recommendations/services)
 
 ______
 
@@ -58,23 +59,23 @@ ______
 
 オペレーティングシステム、ウェブブラウザ、ウイルス対策ソフトウェアを定期的に更新し、最新のセキュリティパッチを適用して、マルウェアやサイバー脅威から保護するようにしましょう。可能な限り、自動更新を有効にする。
 
-### 3. [Be Cautious of Phishing Attempts](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
+### 3. [フィッシング攻撃に注意する](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)
 
-[**Beware of phishing**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)電子メール、テキストメッセージ、電話などで、個人情報やログイン情報を明らかにさせようとするものがあります。不審なリンクをクリックしないようにし、オンライン販売者からの通信の真偽を確認してから、機密データを共有するようにしましょう。
+[**フィッシングにご注意ください**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/)。電子メール、テキストメッセージ、電話などを使い、個人情報やログイン情報をだまし取ろうとする手口があります。不審なリンクをクリックせず、機密情報を共有する前にオンライン販売者からの連絡が本物か確認してください。
 
-### 4. [Use Strong, Unique Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+### 4. [強力で使い回しのないパスワードを使う](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[**Create strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)オンラインショッピングのアカウントに使用します。複数のプラットフォームでパスワードを再利用しないようにしましょう。LastPass**や**Dashlane**などのパスワードマネージャーを使用し、複雑なパスワードを安全に保存・生成することを検討する。
+オンラインショッピングのアカウントには[**強力で使い回しのないパスワード**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)を設定しましょう。複数のプラットフォームでパスワードを再利用しないでください。LastPass**や**Dashlane**などのパスワードマネージャーを使用し、複雑なパスワードを安全に保存・生成することを検討する。
 
-### 5. [Enable Two-Factor Authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### 5. [二要素認証（2FA）を有効にする](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-[**Two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、パスワードに加えて、モバイル端末に送信される固有のコードなど、2つ目の認証形式を要求することで、セキュリティ層をさらに強化します。オンラインショッピングのアカウントを保護するために、可能な限り2FAを有効にしてください。
+[**二要素認証**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)は、パスワードに加えて、モバイル端末に送信される固有のコードなど、2つ目の認証形式を要求することで、セキュリティ層をさらに強化します。オンラインショッピングのアカウントを保護するために、可能な限り2FAを有効にしてください。
 
 ### 6.販売者の評価とレビューを確認する
 
 新しい販売者から購入する前に、他のお客様からの評価とレビューを確認してください。この情報は、その販売者の信頼性と信用性を評価するのに役立ちます。
 
-### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
+### 7. [公衆Wi-Fiネットワークの利用に注意する](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
 公共のWi-Fiネットワークに接続してのオンラインショッピングは避けてください。自宅のネットワークや信頼できるVPN（Virtual Private Network）サービスなど、安全でプライベートなインターネット接続を利用するようにしましょう。
 

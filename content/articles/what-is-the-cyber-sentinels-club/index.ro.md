@@ -1,6 +1,7 @@
 ---
 title: "Care sunt Cyber Sentinels și de ce ar trebui să vă alăturați"
 date: 2023-03-01
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Descoperiți misiunea și principiile Cyber Sentinels, o comunitate de profesioniști cibernetici și IT angajați să împărtășească cunoștințe și să dezvolte soluții inovatoare pentru provocările de securitate cibernetică."
@@ -40,7 +41,7 @@ La sfârșitul zilei, Cyber Sentinels lucrează pentru a avea un impact pozitiv 
 
 ## Alăturarea sentinelelor cibernetice
 
-Dacă sunteți interesat să vă alăturați Cyber Sentinels, primul pas este să vizitați site-ul lor la [https://cybersentinels.org](https://cybersentinels.org). From there, you can join their Discord server at [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) și începeți să explorați diferitele canale și să interacționați cu comunitatea. Cyber Sentinels întâmpină profesioniști de la toate nivelurile, de la începători la experți, și oferă o varietate de canale cu care membrii pot interacționa, inclusiv canale text și vocale pentru discuții generale, știri și evenimente, învățare și dezvoltare și proiecte și colaborări. De asemenea, oferă un canal dedicat pentru oportunități de angajare și consiliere în carieră, precum și un canal pentru conversații uşoare și distracţie. Alăturându-vă la Cyber Sentinels, veți avea ocazia să vă conectați cu profesioniști similari din domeniul securității cibernetice, să învățați din experiențele lor și să colaborați la noi idei și proiecte.
+Dacă sunteți interesat să vă alăturați Cyber Sentinels, primul pas este să vizitați site-ul lor la [https://cybersentinels.org](https://cybersentinels.org). De acolo, vă puteți alătura serverului lor Discord la [https://discord.gg/CYVe2CyrXk](https://discord.gg/CYVe2CyrXk) și începeți să explorați diferitele canale și să interacționați cu comunitatea. Cyber Sentinels întâmpină profesioniști de la toate nivelurile, de la începători la experți, și oferă o varietate de canale cu care membrii pot interacționa, inclusiv canale text și vocale pentru discuții generale, știri și evenimente, învățare și dezvoltare și proiecte și colaborări. De asemenea, oferă un canal dedicat pentru oportunități de angajare și consiliere în carieră, precum și un canal pentru conversații uşoare și distracţie. Alăturându-vă la Cyber Sentinels, veți avea ocazia să vă conectați cu profesioniști similari din domeniul securității cibernetice, să învățați din experiențele lor și să colaborați la noi idei și proiecte.
 
 ________________________________________________________________________________
 

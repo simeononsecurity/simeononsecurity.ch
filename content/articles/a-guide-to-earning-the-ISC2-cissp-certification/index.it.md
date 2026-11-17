@@ -1,10 +1,11 @@
 ---
 title: "Guida per principianti alla certificazione CISSP: Consigli per la preparazione all'esame"
 date: 2023-05-15
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Imparate a preparare e superare l'esame CISSP, una prestigiosa certificazione per i professionisti della sicurezza informatica."
-tags: ["Certificazione CISSP", "sicurezza delle informazioni", "preparazione agli esami", "piano di studio", "esami pratici", "sicurezza informatica", "sviluppo professionale", "esame di certificazione", "ISC2", "opportunità di carriera", "architettura di sicurezza", "sicurezza della rete", "controllo degli accessi", "gestione del rischio", "crittografia", "operazioni di sicurezza", "sicurezza fisica", "continuità aziendale", "recupero in caso di disastro", "compliance"]
+tags: ["Certificazione CISSP", "sicurezza delle informazioni", "preparazione agli esami", "piano di studio", "esami pratici", "sicurezza informatica", "sviluppo professionale", "esame di certificazione", "ISC2", "opportunità di carriera", "architettura di sicurezza", "sicurezza della rete", "controllo degli accessi", "gestione del rischio", "crittografia", "operazioni di sicurezza", "sicurezza fisica", "continuità aziendale", "recupero in caso di disastro", "compliance", "consigli per l’esame CISSP", "materiali di studio CISSP", "requisiti CISSP", "formato dell’esame CISSP", "esami pratici CISSP", "iscrizione al CISSP", "certificazione in sicurezza delle informazioni", "certificazione professionale in sicurezza", "gestione della sicurezza", "valutazione della sicurezza", "sicurezza del software"]
 cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "Un'immagine a fumetti di una persona con in mano un certificato CISSP, con una bolla di pensiero che mostra diversi argomenti di sicurezza informatica come l'architettura della sicurezza, il controllo degli accessi, la crittografia e la sicurezza di rete."
 coverCaption: ""
@@ -12,11 +13,11 @@ coverCaption: ""
 
 **Guida per principianti al conseguimento della certificazione CISSP: Preparazione all'esame Certified Information Systems Security Professional**
 
-Il [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) certification is a highly sought-after certification for professionals in the field of information security. It is considered the gold standard in the industry and is recognized worldwide as a benchmark for excellence in the field of information security. This guide will provide an overview of the [CISSP certification](https://www.isc2.org/Certifications/CISSP) e offrire consigli su come prepararsi all'esame.
+La certificazione [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) è molto richiesta dai professionisti della sicurezza delle informazioni. È considerata il riferimento assoluto del settore ed è riconosciuta in tutto il mondo come parametro di eccellenza in questo campo. Questa guida presenta la [certificazione CISSP](https://www.isc2.org/Certifications/CISSP) e offre consigli per preparare l’esame.
 
 ## Cos'è la certificazione CISSP?
 
-Il [CISSP certification](https://www.isc2.org/Certifications/CISSP) is an advanced-level certification that validates a candidate's expertise in information security. It is awarded by the International Information System Security Certification Consortium, or (ISC) che è un'organizzazione senza scopo di lucro specializzata nell'educazione e nella certificazione della sicurezza informatica.
+La [certificazione CISSP](https://www.isc2.org/Certifications/CISSP) è una certificazione di livello avanzato che convalida le competenze di un candidato nella sicurezza delle informazioni. È rilasciata dall’International Information System Security Certification Consortium, o (ISC)², un’organizzazione non profit specializzata nella formazione e nella certificazione in materia di sicurezza delle informazioni.
 
 Per ottenere il [CISSP certification](https://www.isc2.org/Certifications/CISSP) i candidati devono superare un esame che copre otto domini della sicurezza informatica. Questi domini comprendono la **gestione della sicurezza e del rischio**, la **sicurezza degli asset**, l'**ingegneria della sicurezza**, la **sicurezza delle comunicazioni e delle reti**, la **gestione dell'identità e degli accessi**, la **valutazione e i test della sicurezza**, le **operazioni di sicurezza** e la **sicurezza dello sviluppo software**.
 
@@ -30,7 +31,7 @@ Prepararsi all'esame CISSP può essere un compito scoraggiante, ma ci sono diver
 
 ### Passo 1: soddisfare i requisiti di idoneità
 
-Prima di iniziare il processo di preparazione, è importante assicurarsi di soddisfare i requisiti di idoneità per l'esame CISSP. [CISSP certification.](https://www.isc2.org/Certifications/CISSP) Candidates must have a minimum of five years of cumulative, paid, full-time work experience in two or more of the eight domains of the CISSP Common Body of Knowledge (CBK)
+Prima di iniziare la preparazione, verificate di soddisfare i requisiti di idoneità per la [certificazione CISSP](https://www.isc2.org/Certifications/CISSP). I candidati devono avere almeno cinque anni di esperienza lavorativa cumulativa, retribuita e a tempo pieno in due o più degli otto domini del CISSP Common Body of Knowledge (CBK).
 
 In alternativa, i candidati possono soddisfare i requisiti di idoneità con quattro anni di esperienza lavorativa e un diploma universitario o altre credenziali approvate.
 
@@ -49,9 +50,10 @@ I candidati hanno a disposizione diversi materiali di studio, come libri di test
 ### Risorse consigliate
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [PluralSight (preferito)](https://www.pluralsight.com/)
+- [Guida ufficiale allo studio e test pratici](https://amzn.to/3LAu3Ly)
+- [Altre risorse di apprendimento](https://simeononsecurity.com/recommendations/learning_resources)
+- [Test pratico CISSP di SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Fase 4: esercitarsi con gli esami pratici
 
@@ -59,7 +61,8 @@ Gli esami di prova sono un ottimo modo per valutare le proprie conoscenze e iden
 
 È importante sostenere più esami di prova per acquisire familiarità con i tipi di domande che potrebbero essere poste e per sviluppare le capacità di gestione del tempo.
 
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
+- [Guida ufficiale allo studio e test pratici](https://amzn.to/3LAu3Ly)
+- [Test pratico CISSP di SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Fase 5: iscrizione all'esame
 

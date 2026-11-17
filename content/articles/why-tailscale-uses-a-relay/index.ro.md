@@ -1,55 +1,55 @@
 ---
-title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
+title: "De ce folosește Tailscale un releu: conexiuni directe, DERP și relee peer"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
+description: "Află de ce folosește Tailscale un releu, cum să citești rezultatele status și netcheck și când să investighezi o conexiune DERP sau printr-un releu peer."
 genre: ["Networking", "Network Security", "Self-Hosted"]
-tags: ["Tailscale", "Tailscale relay", "DERP", "Tailscale Peer Relay", "direct connection", "WireGuard", "NAT traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN performance", "remote access", "tailnet", "homelab networking", "relay latency", "end-to-end encryption"]
+tags: ["Tailscale", "releu Tailscale", "DERP", "releu peer Tailscale", "conexiune directă", "WireGuard", "traversare NAT", "NAT dificil", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "performanță VPN", "acces la distanță", "tailnet", "rețea homelab", "latență releu", "criptare end-to-end"]
 cover: "/img/cover/why-tailscale-uses-a-relay.webp"
-coverAlt: "Two laptops on separate islands exchange locked packets through a central relay while a direct path is interrupted."
+coverAlt: "Două laptopuri aflate pe insule separate schimbă pachete criptate printr-un releu central, în timp ce o rută directă este întreruptă."
 coverCaption: ""
 ---
 
-**Tailscale uses a relay** when devices have not established a direct connection. A brief DERP connection during startup is normal. Persistent relaying often reflects network address translation (NAT) or firewall conditions affecting the route between the devices. Direct, DERP, and peer-relay connections all retain WireGuard end-to-end encryption. [Tailscale connection types](https://tailscale.com/docs/reference/connection-types).
+**Tailscale folosește un releu** atunci când dispozitivele nu au stabilit o conexiune directă. O conexiune DERP scurtă la pornire este normală. Folosirea persistentă a unui releu indică adesea condiții NAT sau reguli de firewall care afectează ruta dintre dispozitive. Conexiunile directe, DERP și cele prin relee peer păstrează toate criptarea end-to-end a WireGuard. [Tipuri de conexiuni Tailscale](https://tailscale.com/docs/reference/connection-types).
 
 ## Idei principale
 
-- **Recognize the path:** distinguish direct, DERP, and peer-relay connections.
-- **Collect evidence:** run peer-specific probes and network checks on both ends.
-- **Analyze the pattern:** compare device pairs and network conditions.
-- **Choose a change:** justify it with a measured workload and a retest.
+- **Identifică ruta:** diferențiază conexiunile directe, DERP și releele peer.
+- **Adună dovezi:** rulează sonde pentru peer-ul vizat și verificări de rețea la ambele capete.
+- **Analizează tiparul:** compară perechile de dispozitive și condițiile de rețea.
+- **Alege o modificare:** justific-o printr-o sarcină măsurată și un nou test.
 
-## Înainte de a începe
+## Înainte să începi
 
-**Prerequisites:** two enrolled, online devices and a terminal with the Tailscale command-line interface, or **CLI**, available. You need administrative access only if the investigation leads to configuration changes.
+**Cerințe:** două dispozitive înregistrate și online, precum și un terminal cu interfața de linie de comandă Tailscale, sau **CLI**. Ai nevoie de acces de administrator numai dacă investigația duce la modificări de configurare.
 
-**Estimated effort:** five minutes for basic checks, then 15–20 minutes for the comparison exercise. **Difficulty:** beginner for observation and intermediate for network changes. Define the problem first, such as a slow backup or delayed terminal response.
+**Durată estimată:** cinci minute pentru verificările de bază, apoi 15–20 de minute pentru exercițiul de comparație. **Dificultate:** începător pentru observare și mediu pentru modificări de rețea. Definește problema înainte de toate, de exemplu o copie de siguranță lentă sau un răspuns întârziat al terminalului.
 
-## Direct, DERP, and Peer Relay
+## Conexiuni directe, DERP și releu peer
 
-A **tailnet** is your Tailscale network. Its devices attempt direct UDP connectivity, with relays available when the direct path fails. Tailscale periodically rechecks its connection options. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+Un **tailnet** este rețeaua ta Tailscale. Dispozitivele încearcă să stabilească o conexiune UDP directă. Releele sunt disponibile când ruta directă nu funcționează. Tailscale verifică periodic din nou opțiunile de conectare. [Stabilirea unei conexiuni](https://tailscale.com/docs/reference/connection-types).
 
-| Path | Traffic route | Typical implication |
+| Rută | Traseul traficului | Implicație obișnuită |
 |---|---|---|
-| **Direct** | Between the two devices | Usually the preferred performance path |
-| **DERP relay** | Through Tailscale relay infrastructure | Adds an intermediary when direct access fails |
-| **Peer relay** | Through a configured device in your tailnet | An alternative relay under your administration |
+| **Directă** | Între cele două dispozitive | De obicei ruta preferată pentru performanță |
+| **Releu DERP** | Prin infrastructura de relee Tailscale | Adaugă un intermediar când accesul direct nu funcționează |
+| **Releu peer** | Printr-un dispozitiv configurat în tailnet | O opțiune alternativă administrată de tine |
 
-**DERP performance** depends partly on the extra route and shared service capacity. Tailscale documents throughput limits intended to share DERP resources fairly. There is no universal relay speed suitable for predicting your file-transfer time. [Tailscale performance troubleshooting](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
+**Performanța DERP** depinde parțial de ruta suplimentară și de capacitatea partajată a serviciului. Tailscale documentează limite de debit pentru distribuirea echitabilă a resurselor DERP. Nu există o viteză universală a releului care să permită estimarea duratei transferurilor de fișiere. [Depanarea performanței Tailscale](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
 
-## Understand Connection Negotiation
+## Înțelege negocierea conexiunii
 
-**NAT traversal** is the process of establishing a usable path across address-translating devices. Tailscale begins communication through DERP while negotiating a direct path. If direct connectivity fails, an available configured peer relay provides another option. Tailscale rechecks its options over time. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**Traversarea NAT** este procesul de stabilire a unei rute utilizabile prin dispozitive care traduc adrese. Tailscale începe comunicarea prin DERP în timp ce negociază o rută directă. Dacă conexiunea directă nu funcționează, un releu peer configurat și disponibil oferă o altă opțiune. Tailscale verifică opțiunile din nou în timp. [Stabilirea unei conexiuni](https://tailscale.com/docs/reference/connection-types).
 
-**Hard NAT** describes mapping behavior making traversal difficult. The conditions at both ends matter. Two devices behind different routers do not necessarily behave alike, even if both networks use private addresses. [Device connectivity](https://tailscale.com/docs/reference/device-connectivity).
+**NAT dificil** descrie un comportament de mapare care complică traversarea. Contează condițiile de la ambele capete. Două dispozitive din spatele unor routere diferite nu se comportă neapărat la fel, chiar dacă ambele rețele folosesc adrese private. [Conectivitatea dispozitivelor](https://tailscale.com/docs/reference/device-connectivity).
 
-For **a roaming laptop**, the path to your home server might change after moving from home Wi-Fi to a hotel network. Record the network used during the observation. Yesterday's direct connection is not evidence about today's route.
+Pentru **un laptop folosit în deplasare**, ruta spre serverul de acasă se poate schimba când treci de la Wi-Fi-ul de acasă la o rețea de hotel. Notează rețeaua folosită în timpul observației. O conexiune directă de ieri nu demonstrează care este ruta de azi.
 
-## Check Your Current Connection
+## Verifică conexiunea actuală
 
-Replace **`home-server`** with your peer's Tailscale name or address:
+Înlocuiește **`home-server`** cu numele Tailscale sau adresa peer-ului:
 
 ```bash
 tailscale ping home-server
@@ -57,119 +57,119 @@ tailscale status
 tailscale netcheck
 ```
 
-**`tailscale ping`** probes connectivity to the named peer. **`tailscale status`** lists peers and connection details. **`tailscale netcheck`** reports conditions on the device running the command. The [Tailscale CLI reference](https://tailscale.com/docs/reference/tailscale-cli) documents these commands.
+**`tailscale ping`** verifică legătura cu peer-ul indicat. **`tailscale status`** listează peer-ii și detaliile conexiunilor. **`tailscale netcheck`** raportează condițiile de rețea de pe dispozitivul pe care rulezi comanda. [Referința CLI Tailscale](https://tailscale.com/docs/reference/tailscale-cli) descrie aceste comenzi.
 
-| Output indicator | Read it as |
+| Indicator în rezultat | Interpretare |
 |---|---|
-| **`direct`** | Traffic to this peer uses a direct path |
-| **`relay`** | Traffic to this peer uses DERP |
-| **`peer-relay`** | Traffic uses a configured peer relay |
-| **An initial DERP pong** | Inspect subsequent results before deciding the path stayed relayed |
+| **`direct`** | Traficul către acest peer folosește o rută directă |
+| **`relay`** | Traficul către acest peer trece prin DERP |
+| **`peer-relay`** | Traficul folosește un releu peer configurat |
+| **Un prim pong DERP** | Verifică rezultatele următoare înainte să decizi că ruta a rămas prin releu |
 
-These labels come from the [connection-type documentation](https://tailscale.com/docs/reference/connection-types). **Generate traffic first**, then inspect the peer you care about. The commands above are examples, not captured results from a benchmark.
+Aceste etichete provin din [documentația tipurilor de conexiuni](https://tailscale.com/docs/reference/connection-types). **Generează mai întâi trafic**, apoi verifică peer-ul dorit. Comenzile de mai sus sunt exemple, nu rezultate înregistrate de benchmark.
 
-## Interpret a Path Change
+## Interpretează schimbarea unei rute
 
-This **illustrative sequence** omits addresses and timings so you focus on the connection transition:
+Această **secvență ilustrativă** omite adresele și timpii pentru a evidenția schimbarea conexiunii:
 
 ```text
-First response:    via DERP
-Later response:    via a direct endpoint
-Status afterward: direct
+Primul răspuns:      prin DERP
+Răspuns ulterior:    printr-un endpoint direct
+Status ulterior:     direct
 ```
 
-**Interpretation:** negotiation succeeded during this observation. The first response alone would have produced the wrong diagnosis. If later responses and status remain relayed, record a persistent relay for this device pair and test period.
+**Interpretare:** negocierea a reușit în timpul acestei observații. Primul răspuns, luat singur, ar fi dus la un diagnostic greșit. Dacă răspunsurile și statusul următoare indică în continuare un releu, notează folosirea persistentă a releului pentru această pereche de dispozitive și această perioadă de testare.
 
-**Probe scope:** a successful Tailscale ping establishes peer connectivity for its probe. It does not prove your dashboard, file service, or SSH daemon accepts application traffic. Test the failing application separately before declaring the problem solved.
+**Domeniul sondei:** un ping Tailscale reușit confirmă conectivitatea cu peer-ul pentru acea sondă. Nu demonstrează că tabloul de bord, serviciul de fișiere sau demonul SSH acceptă traficul aplicației. Testează separat aplicația cu probleme înainte să declari problema rezolvată.
 
-## What Netcheck Tells You
+## Ce îți spune netcheck
 
-Run **`tailscale netcheck` on both devices**. Compare these fields against the [device-connectivity reference](https://tailscale.com/docs/reference/device-connectivity):
+Rulează **`tailscale netcheck` pe ambele dispozitive**. Compară aceste câmpuri cu [referința privind conectivitatea dispozitivelor](https://tailscale.com/docs/reference/device-connectivity):
 
-| Field | Useful interpretation |
+| Câmp | Interpretare utilă |
 |---|---|
-| **`UDP`** | Whether the probe observed outbound UDP connectivity |
-| **`MappingVariesByDestIP`** | Changing external mappings suggest difficult NAT traversal |
-| **`IPv6`** | Whether this device has usable IPv6 connectivity |
-| **`PortMapping`** | Whether a supported port-mapping mechanism is available |
+| **`UDP`** | Dacă sonda a observat conectivitate UDP de ieșire |
+| **`MappingVariesByDestIP`** | Mapările externe variabile pot indica o traversare NAT dificilă |
+| **`IPv6`** | Dacă dispozitivul are conectivitate IPv6 utilizabilă |
+| **`PortMapping`** | Dacă este disponibil un mecanism acceptat de mapare a porturilor |
 
-**One field is not a verdict.** An available mapping mechanism does not prove a particular peer path works. Likewise, a relay label does not identify which router caused it. Compare both endpoints and the actual ping results.
+**Un singur câmp nu oferă un verdict.** Disponibilitatea unui mecanism de mapare nu demonstrează că ruta către un anumit peer funcționează. Nici eticheta releului nu identifică routerul care a cauzat problema. Compară ambele capete și rezultatele reale ale comenzilor ping.
 
-**Carrier NAT** is relevant when upstream translation is outside your control, as discussed in our [T-Mobile port-forwarding explainer](/articles/t-mobile-home-internet-port-forwarding/). Avoid assuming every connection behind carrier NAT has identical traversal behavior.
+**NAT-ul operatorului** contează când traducerea din amonte este în afara controlului tău, așa cum explicăm în articolul despre [redirecționarea porturilor T-Mobile Home Internet](/articles/t-mobile-home-internet-port-forwarding/). Nu presupune că fiecare conexiune aflată în spatele NAT-ului operatorului se comportă la fel la traversare.
 
-## Compare Three Device Pairs
+## Compară trei perechi de dispozitive
 
-Use a **third enrolled device**, if available, to improve the evidence. The following is a hypothetical pattern, not a measured result:
+Dacă ai unul disponibil, folosește un **al treilea dispozitiv înregistrat** pentru a aduna mai multe dovezi. Tiparul următor este ipotetic, nu un rezultat măsurat:
 
-| Device pair | Observed path |
+| Pereche de dispozitive | Rută observată |
 |---|---|
-| **Laptop to home server** | DERP |
-| **Laptop to another server** | Direct |
-| **Home server to another server** | DERP |
+| **Laptop către serverul de acasă** | DERP |
+| **Laptop către alt server** | Directă |
+| **Serverul de acasă către alt server** | DERP |
 
-**Working hypothesis:** prioritize the home server's network for investigation because both observed paths involving it stayed relayed. This is a lead, not proof. Each pair negotiates independently, and the comparison server has its own network conditions.
+**Ipoteză de lucru:** investighează mai întâi rețeaua serverului de acasă, deoarece ambele rute observate care îl implică au rămas prin releu. Acesta este un indiciu, nu o dovadă. Fiecare pereche negociază separat, iar serverul de comparație are propriile condiții de rețea.
 
-**Next observation:** collect netcheck output on all three devices and repeat the laptop-to-home test from another network you control. If the path changes, record exactly which network changed. Avoid attributing the result to a particular firewall setting until you test it.
+**Următoarea observație:** colectează rezultatele netcheck pe toate cele trei dispozitive și repetă testul dintre laptop și serverul de acasă dintr-o altă rețea pe care o controlezi. Dacă ruta se schimbă, notează exact ce rețea ai schimbat. Nu atribui rezultatul unei anumite reguli de firewall înainte să o testezi.
 
-**Review exercise:** laptop-to-home is direct, but a file transfer remains slow. A relay explanation no longer matches this observation. Check the underlying upload connection, server load, storage, and application behavior before changing relay settings.
+**Exercițiu:** conexiunea dintre laptop și serverul de acasă este directă, dar transferul de fișiere rămâne lent. O explicație bazată pe releu nu mai corespunde acestei observații. Înainte să schimbi setările releului, verifică încărcarea conexiunii de upload, sarcina serverului, stocarea și comportamentul aplicației.
 
-## Choose a Targeted Change
+## Alege o modificare bine țintită
 
-Start with a **comparison test** on another network you control. If the same peer becomes direct, you have useful evidence about the original network path. Review its UDP restrictions and NAT arrangement before changing unrelated DNS or application settings.
+Începe cu un **test comparativ** într-o altă rețea pe care o controlezi. Dacă același peer devine direct, ai dovezi utile despre ruta rețelei inițiale. Verifică restricțiile UDP și configurația NAT înainte să schimbi setări DNS sau de aplicație fără legătură.
 
-**Change one variable**, rerun the checks, and measure the same workload. Record transfer direction, file size, elapsed time, and connection type. This separates an improved path from an unrelated change in server or storage load.
+**Schimbă o singură variabilă**, repetă verificările și măsoară aceeași sarcină. Notează direcția transferului, dimensiunea fișierului, timpul scurs și tipul conexiunii. Astfel poți separa îmbunătățirea rutei de o schimbare independentă a sarcinii serverului sau a stocării.
 
-**Firewall changes** should follow the platform-specific guidance and the evidence you collected. Opening an application port to the public Internet does not itself improve Tailscale's transport path. Keep changes limited to the required traffic and network you administer. [Tailscale firewall guidance](https://tailscale.com/docs/integrations/firewalls).
+**Modificările de firewall** trebuie să respecte îndrumările specifice platformei și dovezile colectate. Deschiderea unui port de aplicație către Internetul public nu îmbunătățește, în sine, ruta de transport Tailscale. Limitează modificările la traficul necesar și la rețeaua pe care o administrezi. [Îndrumări Tailscale pentru firewall](https://tailscale.com/docs/integrations/firewalls).
 
-| Finding | Change worth evaluating |
+| Constatare | Modificare de evaluat |
 |---|---|
-| **UDP probe fails** | Review outbound UDP restrictions on this network |
-| **Mapping changes across destinations** | Review NAT behavior on equipment you control |
-| **Direct path, slow application** | Investigate the host, underlying connection, and workload |
-| **Working relay, acceptable experience** | Keep the arrangement and document the baseline |
+| **Sonda UDP eșuează** | Verifică restricțiile UDP de ieșire din această rețea |
+| **Maparea diferă în funcție de destinație** | Verifică comportamentul NAT pe echipamentele pe care le administrezi |
+| **Rută directă, aplicație lentă** | Investighează gazda, conexiunea de bază și sarcina |
+| **Releu funcțional, experiență acceptabilă** | Păstrează configurația și documentează valoarea de referință |
 
-*Prefer a measured improvement over changing settings solely to remove a relay label.*
+*Preferă o îmbunătățire măsurată în loc să schimbi setările doar pentru a elimina eticheta releului.*
 
-## Evaluate a Peer Relay
+## Evaluează un releu peer
 
-A **peer relay** requires a suitable host, reachable UDP port, and an access policy permitting its use. Both the relay and participating clients require Tailscale 1.86 or later. Review supported host platforms before allocating a device. [Peer-relay requirements](https://tailscale.com/docs/features/peer-relay).
+Un **releu peer** necesită o gazdă potrivită, un port UDP accesibil și o politică de acces care îi permite utilizarea. Atât releul, cât și clienții participanți au nevoie de Tailscale 1.86 sau o versiune ulterioară. Verifică platformele gazdă acceptate înainte să aloci un dispozitiv. [Cerințe pentru releul peer](https://tailscale.com/docs/features/peer-relay).
 
-**Placement determines usefulness.** A device behind the same inaccessible network boundary needs a reachable relay port before it helps other peers. Choosing a host geographically near the endpoints is insufficient without connectivity to it.
+**Amplasarea îi determină utilitatea.** Un dispozitiv aflat în spatele aceleiași limite de rețea inaccesibile nu îi ajută pe ceilalți peer-i până când portul releului devine accesibil.
 
-**Maintenance tradeoff:** someone must keep the relay online, updated, and adequately provisioned. For occasional administration with acceptable latency, compare this burden with the measured benefit. For repeated large transfers, measure the workload through the proposed relay before adopting it.
+**Costul întreținerii:** cineva trebuie să mențină releul online, actualizat și suficient de performant. Pentru administrare ocazională cu latență acceptabilă, compară acest efort cu beneficiul măsurat. Pentru transferuri mari repetate, măsoară sarcina prin releul propus înainte să îl adopți.
 
-## Check Shared Traffic Effects
+## Verifică efectele traficului partajat
 
-**Aggregated traffic** deserves attention when a subnet router or exit node carries several workloads through DERP. Tailscale documents situations where heavy relayed traffic delays latency-sensitive traffic sharing the connection. [Hard-NAT troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
+**Traficul agregat** merită atenție când un router de subrețea sau un nod de ieșire transportă mai multe sarcini prin DERP. Tailscale documentează cazuri în care mult trafic retransmis întârzie traficul sensibil la latență care folosește aceeași conexiune. [Depanarea problemelor cu NAT dificil](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
 
-**Comparison exercise:** observe your interactive session before, during, and after a large backup. Keep the endpoint pair fixed and record the path each time. Delays appearing during the transfer justify investigating shared load, but do not establish its exact cause.
+**Exercițiu de comparație:** observă sesiunea interactivă înainte, în timpul și după o copie de siguranță mare. Păstrează aceeași pereche de endpoint-uri și notează ruta de fiecare dată. Întârzierile apărute în timpul transferului justifică investigarea sarcinii partajate, dar nu îi dovedesc cauza exactă.
 
-**Choose the next test** from the observation. Check link saturation and host load, then evaluate a direct path or separating latency-sensitive services if the topology supports it. Avoid treating a DNS symptom as automatic evidence of a DNS configuration error.
+**Alege următorul test** pe baza observației. Verifică saturarea legăturii și sarcina gazdei. Apoi evaluează o rută directă sau separarea serviciilor sensibile la latență, dacă topologia permite. Nu trata un simptom DNS ca dovadă automată a unei erori de configurare DNS.
 
-## Is a Relay an Exit Node?
+## Este un releu un nod de ieșire?
 
-An **exit node** routes a client's general Internet traffic through a selected tailnet device. A relay carries traffic between Tailscale peers. Selecting an exit node does not guarantee a direct path to it. [Exit-node documentation](https://tailscale.com/docs/features/exit-nodes).
+Un **nod de ieșire** direcționează traficul Internet general al unui client printr-un dispozitiv selectat din tailnet. Un releu transportă trafic între peer-ii Tailscale. Alegerea unui nod de ieșire nu garantează o rută directă către acesta. [Documentația nodurilor de ieșire](https://tailscale.com/docs/features/exit-nodes).
 
-## Create a Diagnostic Record
+## Creează o înregistrare de diagnostic
 
-Save a **small before-and-after record** for the actual problem:
+Păstrează o **înregistrare scurtă înainte și după** pentru problema reală:
 
 ```text
-Date and Tailscale versions:
-Source and destination devices:
-Networks used by each device:
-Initial and settled connection paths:
-Netcheck observations from both ends:
-Workload, direction, and elapsed time:
-Single change tested:
-Retest result:
-Decision to keep or revert:
+Data și versiunile Tailscale:
+Dispozitive sursă și destinație:
+Rețelele folosite de fiecare dispozitiv:
+Rutele inițială și stabilizată:
+Observații netcheck de la ambele capete:
+Sarcina, direcția și timpul scurs:
+Singura modificare testată:
+Rezultatul noului test:
+Decizia de a păstra sau anula modificarea:
 ```
 
-**Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+**Criteriu de finalizare:** înregistrarea leagă un simptom concret de observații, o ipoteză și un nou test măsurat. „Releul a dispărut” nu este suficient dacă aplicația rămâne lentă. „Copia de siguranță respectă timpul cerut prin DERP” este un rezultat valid dacă cerința este explicită.
 
-**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
+**Folosește `tailscale netcheck` ca dovadă, nu ca verdict.** Comanda descrie rețeaua văzută de un singur dispozitiv. Ruta stabilizată depinde de o pereche de dispozitive și de o sarcină. Înainte să schimbi setările firewall sau NAT, înregistrează ambele capete, ultimul rând din `tailscale status` și măsurarea aplicației.
 
-## Pașii următori
+## Pași următori
 
-Record the path to your important peer and test the workload before changing network settings. For the separate question of who operates your coordination infrastructure, read [Tailscale vs Headscale](/articles/tailscale-vs-headscale-comparison-guide/).
+Notează ruta către peer-ul important și testează sarcina înainte să schimbi setările de rețea. Pentru întrebarea separată despre cine operează infrastructura de coordonare, citește [Tailscale comparat cu Headscale](/articles/tailscale-vs-headscale-comparison-guide/).

@@ -3,6 +3,7 @@ title: "Evitar las estafas de phishing: tácticas, prevención y protección"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Conozca las tácticas utilizadas por los estafadores de phishing y descubra estrategias efectivas para protegerse de convertirse en una víctima."
 tags: ["estafas de phishing", "la seguridad cibernética", "amenazas en línea", "falsificación de correo electrónico", "Ingeniería social", "Protección de malware", "Seguridad en linea", "seguridad de datos", "el robo de identidad", "seguridad de contraseña", "Autenticación de dos factores", "actualizaciones de software", "regulaciones gubernamentales", "privacidad en línea", "conciencia cibernética", "fraude digital", "conciencia de phishing", "seguridad en las redes sociales", "estafas en línea", "prevención del cibercrimen"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ Para protegerse del software malicioso y de los sitios web falsos, es esencial *
 
 Si bien las estafas de phishing pueden ser sofisticadas, existen varios pasos proactivos que puede tomar para evitar convertirse en una víctima. Al implementar las siguientes medidas, puede reducir significativamente el riesgo de ser víctima de ataques de phishing:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Educación y concienciación](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) son cruciales para combatir las estafas de phishing. Manténgase informado sobre las últimas técnicas y tácticas de phishing empleadas por los estafadores. Actualice regularmente sus conocimientos a través de fuentes confiables, como blogs de seguridad, artículos y **sitios web gubernamentales** oficiales que brindan información sobre las tendencias actuales de phishing y las mejores prácticas de seguridad cibernética.
+[**Educación y concienciación**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) son cruciales para combatir las estafas de phishing. Manténgase informado sobre las últimas técnicas y tácticas de phishing empleadas por los estafadores. Actualice regularmente sus conocimientos a través de fuentes confiables, como blogs de seguridad, artículos y **sitios web gubernamentales** oficiales que brindan información sobre las tendencias actuales de phishing y las mejores prácticas de seguridad cibernética.
 
 ### Tenga cuidado con los correos electrónicos y los mensajes
 
 Tenga cuidado al recibir correos electrónicos o mensajes, especialmente aquellos que solicitan información personal o solicitan una acción urgente. Preste atención a detalles como direcciones de correo electrónico, errores gramaticales y ortográficos, o saludos genéricos que puedan indicar un intento de phishing. Tenga cuidado con los archivos adjuntos o enlaces inesperados, incluso si parecen provenir de fuentes confiables. En caso de duda, **no haga clic en ningún enlace sospechoso ni descargue archivos adjuntos**. En su lugar, **comuníquese directamente con el remitente usando un número de teléfono verificado o una dirección de correo electrónico** para verificar la autenticidad del mensaje.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Refuerza las contraseñas y activa la autenticación de dos factores](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-A [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para cada cuenta en línea para evitar que una sola infracción comprometa varias cuentas.
+[Una contraseña segura y única](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) es una defensa esencial contra las estafas de phishing. [**Crea contraseñas seguras**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) que incluyan una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Evita la información fácil de adivinar, como tu nombre o fecha de nacimiento. También es fundamental [**usar contraseñas diferentes para cada cuenta en línea**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para evitar que una sola filtración comprometa varias cuentas.
 
-Además de contraseñas seguras, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) cuando sea posible. 2FA agrega una capa adicional de seguridad al requerir una segunda forma de verificación, como un código temporal enviado a su dispositivo móvil, además de su contraseña. Esto hace que sea significativamente más difícil para los estafadores obtener acceso no autorizado a sus cuentas.
+Además de contraseñas seguras, [**activa la autenticación de dos factores (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) cuando sea posible. 2FA agrega una capa adicional de seguridad al requerir una segunda forma de verificación, como un código temporal enviado a su dispositivo móvil, además de su contraseña. Esto hace que sea significativamente más difícil para los estafadores obtener acceso no autorizado a sus cuentas.
 
 ### Mantenga el software y los sistemas operativos actualizados
 

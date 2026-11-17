@@ -3,6 +3,7 @@ title: "Как избежать фишинга: тактика, предотвр
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-11-12
 description: "Узнайте о тактике, используемой фишинговыми мошенниками, и откройте для себя эффективные стратегии, чтобы не стать жертвой."
 tags: ["фишинговые аферы", "информационная безопасность", "онлайн-угрозы", "подмена электронной почты", "социальная инженерия", "защита от вредоносных программ", "онлайн-безопасность", "безопасность данных", "кража личных данных", "защита паролем", "двухфакторная аутентификация", "обновления программного обеспечения", "правительственные постановления", "онлайн-конфиденциальность", "киберосведомленность", "цифровое мошенничество", "осведомленность о фишинге", "безопасность в социальных сетях", "онлайн-мошенничество", "предотвращение киберпреступлений"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -40,19 +41,19 @@ coverCaption: ""
 
 Хотя фишинговые мошенничества могут быть изощренными, есть несколько упреждающих шагов, которые вы можете предпринять, чтобы не стать жертвой. Выполняя следующие меры, вы можете значительно снизить риск стать жертвой фишинговых атак:
 
-### [Education and Awareness](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [Обучение и повышение осведомленности](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-[**Education and awareness**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) имеют решающее значение в борьбе с фишингом. Будьте в курсе последних фишинговых методов и тактик, используемых мошенниками. Регулярно обновляйте свои знания из надежных источников, таких как блоги по безопасности, статьи и официальные **государственные веб-сайты**, которые предоставляют информацию о текущих тенденциях фишинга и передовых методах кибербезопасности.
+[**Обучение и повышение осведомленности**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/) имеют решающее значение в борьбе с фишингом. Будьте в курсе последних фишинговых методов и тактик, используемых мошенниками. Регулярно обновляйте свои знания из надежных источников, таких как блоги по безопасности, статьи и официальные **государственные веб-сайты**, которые предоставляют информацию о текущих тенденциях фишинга и передовых методах кибербезопасности.
 
 ### Будьте осторожны с электронной почтой и сообщениями
 
 Будьте осторожны при получении электронных писем или сообщений, особенно тех, которые запрашивают личную информацию или требуют срочных действий. Обратите внимание на такие детали, как адреса электронной почты, грамматические и орфографические ошибки или общие приветствия, которые могут указывать на попытку фишинга. Будьте осторожны с неожиданными вложениями или ссылками, даже если кажется, что они получены из надежных источников. В случае сомнений **не нажимайте на подозрительные ссылки и не загружайте вложения**. Вместо этого **свяжитесь с отправителем напрямую, используя проверенный номер телефона или адрес электронной почты**, чтобы проверить подлинность сообщения.
 
-### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+### [Укрепите пароли и включите двухфакторную аутентификацию](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
-А [strong and unique password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is an essential defense against phishing scams. [**Create strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that include a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information, such as your name or birthdate. It is also crucial to [**use different passwords**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) для каждой онлайн-учетной записи, чтобы предотвратить компрометацию нескольких учетных записей одним взломом.
+[Надежный уникальный пароль](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) служит важной защитой от фишинговых атак. [**Создавайте надежные пароли**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), сочетая заглавные и строчные буквы, цифры и специальные символы. Не используйте легко угадываемые сведения, например свое имя или дату рождения. Также важно [**использовать разные пароли для каждой учетной записи**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), чтобы одна утечка не поставила под угрозу несколько аккаунтов.
 
-Помимо надежных паролей, [**enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) как только возможно. 2FA добавляет дополнительный уровень безопасности, требуя второй формы проверки, такой как временный код, отправленный на ваше мобильное устройство, в дополнение к вашему паролю. Это значительно затрудняет получение мошенниками несанкционированного доступа к вашим учетным записям.
+Помимо надежных паролей, [**включите двухфакторную аутентификацию (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) как только возможно. 2FA добавляет дополнительный уровень безопасности, требуя второй формы проверки, такой как временный код, отправленный на ваше мобильное устройство, в дополнение к вашему паролю. Это значительно затрудняет получение мошенниками несанкционированного доступа к вашим учетным записям.
 
 ### Поддерживайте программное обеспечение и операционные системы в актуальном состоянии
 

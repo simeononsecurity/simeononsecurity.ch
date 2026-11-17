@@ -1,7 +1,8 @@
 ---
-title: "HackTheBox Academy vs TryHackMe"
+title: 'HackTheBox Academy în comparație cu TryHackMe'
 date: 2023-02-26
-lastmod: 2026-10-08
+lastmod: 2026-11-13
+draft: false
 description: Comparatie cuprinzătoare în 2026 între HackTheBox Academy și TryHackMe, incluzând prețuri, funcționalități, trasee de învățare și metrici de performanță pentru a ajuta începătorii să aleagă cea mai bună platformă pentru învățarea abilităților de securitate cibernetică.
 tags:
 - securitate cibernetică
@@ -23,8 +24,8 @@ tags:
 - comunitate
 - învățare online
 - învățare structurată
-- hackthebox vs tryhackme
-- tryhackme vs hackthebox
+- hackthebox față în față cu tryhackme
+- tryhackme față în față cu hackthebox
 - platforme de testare a penetrației
 - învățarea securității cibernetice
 - testare de penetrare junior
@@ -69,6 +70,8 @@ coverCaption: ''
 
 Această comparație cuprinzătoare analizează ambele platforme pe baza prețurilor din 2026, funcționalităților, traseelor de învățare, suportului comunitar și rezultatelor din lumea reală pentru a vă ajuta să luați o decizie informată.
 
+**Notă despre sursele actuale, verificată la 10 octombrie 2026:** Mai multe statistici, tabele de rezultate și denumiri de planuri provin dintr-o versiune anterioară. Paginile oficiale consultate acum nu publică seturi de date independente comparabile pentru ambele servicii. Tratează aceste cifre ca context istoric, nu măsurători actuale. Verifică prețurile, traseele și detaliile certificărilor oficiale de mai jos înainte de plată.
+
 ______
 
 ## Prezentare generală a HackTheBox Academy și TryHackMe
@@ -89,6 +92,8 @@ Deși ambele platforme urmăresc să predea concepte de securitate cibernetică,
 | **Dimensiunea comunității** | 850K membri Discord | 1,2M membri Discord |
 | **Clienți enterprise** | Peste 2.500 organizații | Peste 4.100 organizații |
 
+Pagina actuală de [certificări TryHackMe](https://tryhackme.com/certifications) listează **peste 8 milioane de utilizatori** și **peste 1.100 de laboratoare practice**. Pagina pentru [începători](https://tryhackme.com/beginner-path) menționează o comunitate Discord de **peste 300.000 de membri**. Numerele folosesc definiții diferite de tabelul anterior. Paginile Academy consultate nu afișează un număr actual echivalent de utilizatori HTB Academy. Tratează cifrele furnizorilor ca indicii de amploare, nu audituri independente.
+
 ### HackTheBox Academy
 
 **HackTheBox Academy** este o platformă online care oferă o experiență de învățare structurată pentru profesioniștii în securitate cibernetică. Oferă multe subiecte de securitate cibernetică, inclusiv testarea de penetrare, criminalistică și analiza malware, și oferă opțiuni de abonament gratuite și plătite.
@@ -99,6 +104,10 @@ Deși ambele platforme urmăresc să predea concepte de securitate cibernetică,
 
 {{< youtube id="J4NmHJon2wY" >}}
 
+### Structura actuală HTB Academy
+
+HTB Academy separă acum abonamentele **bazate pe cube** de cele **bazate pe acces**. Planurile cu cube oferă o alocare lunară, iar modulele deblocate rămân asociate contului după anulare. Planurile de acces acoperă conținut până la un nivel cât timp abonamentul este activ. Modulele finalizate rămân disponibile după expirare, cele incomplete se blochează din nou. [Ghidul de abonamente HTB](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) spune și că HTB Academy și HTB Labs au abonamente separate. Compară accesul permanent la module, traseele, voucherele de examen și ritmul de studiu.
+
 ### TryHackMe
 
 **TryHackMe** este o platformă online care oferă laboratoare interactive, provocări și exerciții pentru a preda concepte de securitate cibernetică. Este disponibilă și în opțiuni de abonament gratuite și plătite. TryHackMe este cunoscută pentru abordarea sa prietenoasă cu începătorii, concentrându-se pe oferirea unei învățări structurate și ghidare.
@@ -106,6 +115,10 @@ Deși ambele platforme urmăresc să predea concepte de securitate cibernetică,
 Până în 2026, TryHackMe s-a extins semnificativ cu **trasee de învățare gamificate**, **simulări reale de breșe de securitate**, **funcții de coaching în carieră** și **parteneriate directe pentru plasarea în joburi** cu peste 400 angajatori în securitate cibernetică.
 
 {{< youtube id="5zE27zvsmMM" >}}
+
+### Structura actuală TryHackMe
+
+TryHackMe listează planurile individuale **Free**, **Premium** și **MAX**. Pagina publică afișează Free la €0, Premium la €16,99 lunar sau €7,35 pe lună în promoția anuală afișată, iar MAX la €29,11 lunar sau €17,99 pe lună în acea promoție. Premium include trasee pentru începători, certificate de finalizare, AttackBox nelimitat și 15% reducere la certificări. MAX adaugă trasee avansate, conținut cloud, AttackBox persistent, toate camerele și 40% reducere la o certificare. Moneda, promoțiile, taxele și facturarea afectează suma finală. Consultă [prețurile actuale TryHackMe](https://tryhackme.com/pricing) înainte de achiziție.
 
 ______
 
@@ -118,8 +131,8 @@ ______
 | **Nivel gratuit** | 0 $ | 0 $ | Acces la peste 25 module introductive, forumuri comunitare, timp limitat în laboratoare |
 | **Pachet Student** | 8 $/lună | 90 $/an | Acces complet la module, timp nelimitat în laboratoare, trasee de certificare (necesită email .edu) |
 | **Individual** | 19 $/lună | 190 $/an | Acces complet la module, timp nelimitat în laboratoare, trasee de certificare, suport prioritar |
-| **Silver Anual** | N/A | 490 $/an | Toate funcțiile Individual + module exclusive, certificări avansate |
-| **Gold Anual** | N/A | 990 $/an | Toate funcțiile Silver + sesiuni de mentorat, asistență pentru plasare în job |
+| **Silver Anual** | Nu se aplică | 490 $/an | Toate funcțiile Individual + module exclusive, certificări avansate |
+| **Gold Anual** | Nu se aplică | 990 $/an | Toate funcțiile Silver + sesiuni de mentorat, asistență pentru plasare în job |
 
 ### Prețuri TryHackMe
 
@@ -131,6 +144,26 @@ ______
 | **Echipe** | 25 $/utilizator/lună | Personalizat | Management echipe, urmărire progres, conținut personalizat, integrare SSO |
 
 **Analiză preț-valoare:** TryHackMe oferă acces mai larg la conținut la prețuri mai mici, fiind **cu 20-30% mai rentabil pentru începători**. HackTheBox Academy oferă specializare mai profundă și trasee de certificare recunoscute în industrie la niveluri premium, fiind mai valoros pentru **avansarea în carieră și roluri specializate**.
+
+Estimarea de **20-30% nu este o comparație auditată**. Versiunea anterioară nu identifică funcțiile incluse, moneda, taxele, orele de studiu sau datele-sursă. Paginile oficiale afișează acum alte denumiri, valute, reduceri și reguli de acces.
+
+### Planuri oficiale actuale, verificate la 10 octombrie 2026
+
+| Plan | Preț public | Acces și condiții |
+|------|-------------|-------------------|
+| **HTB Academy Silver** | $18/lună, bazat pe cube | 200 cube lunar, Pwnbox nelimitat și trimitere CPE |
+| **HTB Academy Gold** | $38/lună, bazat pe cube | 500 cube lunar, Pwnbox nelimitat și trimitere CPE |
+| **HTB Academy Platinum** | $68/lună, bazat pe cube | 1.000 cube lunar, Pwnbox nelimitat și trimitere CPE |
+| **HTB Academy Silver Annual** | $490/an, bazat pe acces | Acces Tier II, trasee profesionale, Pwnbox nelimitat și beneficii de voucher HTB |
+| **HTB Academy Gold Annual** | $1.260/an, bazat pe acces | Acces Tier III, trasee avansate, Pwnbox nelimitat și beneficii extinse de voucher HTB |
+| **HTB Academy Student** | $8/lună, bazat pe acces | Verificare academică, acces Tier II, trasee profesionale și Pwnbox nelimitat |
+| **TryHackMe Free** | €0 | Camere gratuite, trasee limitate și o oră zilnică AttackBox |
+| **TryHackMe Premium** | €16,99/lună, €7,35 cu promoția anuală | Trasee de începători, certificate, AttackBox nelimitat și 15% reducere la certificări |
+| **TryHackMe MAX** | €29,11/lună, €17,99 cu promoția anuală | Trasee avansate, conținut cloud, AttackBox persistent, toate camerele și 40% reducere la o certificare |
+
+[Ghidul de abonamente HTB Academy](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) oferă prețurile și regulile HTB. [Pagina TryHackMe](https://tryhackme.com/pricing) oferă cifrele sale. Verifică aceste pagini comerciale când plătești.
+
+______
 
 ______
 
@@ -175,6 +208,23 @@ ______
 | **Acces VPN** | ✅ Da (OpenVPN) | ✅ Da (OpenVPN) |
 | **Creare Laborator Personalizat** | ❌ Nu | ✅ Da (Premium+) |
 | **Timp Resetare Laborator** | Instant | 1-3 minute |
+
+______
+
+## Îndrumare pentru începători în 2026
+
+Ambele platforme oferă practică în browser, dar primii pași diferă.
+
+| Punct de pornire | HackTheBox Academy | TryHackMe |
+|------------------|--------------------|-----------|
+| **Fără experiență** | FAQ-ul HTB recomandă module Fundamental și Easy. Conturile noi primesc cube gratuite pentru modulele Fundamental inițiale. | Pre Security se adresează începătorilor compleți, fără experiență necesară, și rulează în browser. |
+| **Primul traseu ghidat** | Information Security Foundations duce la trasee profesionale. Penetration Tester cere aceste cunoștințe preliminare. | Pre Security duce la Web Fundamentals. Cyber Security 101 acoperă rețele, sisteme de operare, bazele atacului și apărării și cariere. |
+| **Primul traseu defensiv** | Catalogul actual include SOC Analyst și Junior Cybersecurity Analyst. | SOC Level 1 acoperă trierea alertelor, rapoarte, SIEM, EDR, phishing și traficul de rețea. |
+| **Estimare de timp** | FAQ-ul nu publică un timp unic de finalizare pentru începători. | Pagina pentru începători estimează 30–40 de ore pentru Pre Security. Este o estimare de planificare, nu o garanție. |
+
+Citește [FAQ-ul HTB Academy](https://academy.hackthebox.com/faq), traseul [Penetration Tester HTB](https://academy.hackthebox.com/path/preview/penetration-tester), [traseul TryHackMe pentru începători](https://tryhackme.com/beginner-path) și [Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101) înainte de alegere.
+
+*Pentru cine pornește de la zero, TryHackMe oferă începutul mai clar. HTB Academy se potrivește începătorilor care preferă documentația și exercițiile orientate spre sarcini.*
 
 ______
 
@@ -226,6 +276,8 @@ ______
 
 ## Compararea Traseelor de Învățare
 
+Listele de mai jos păstrează denumirile, orele estimate și intervalele de cost din versiunea anterioară. Traseele se schimbă. Compară-le cu [catalogul HTB Academy](https://academy.hackthebox.com/catalogue/paths), [Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101) și [SOC Level 1](https://tryhackme.com/path/outline/soclevel1) înainte să folosești totalurile ca plan.
+
 ### De la Începător la Penetration Tester Junior
 
 #### Traseul HackTheBox Academy
@@ -274,6 +326,8 @@ ______
 
 ## Metrici de Succes în Lumea Reală (Date 2026)
 
+Tabelele acestei secțiuni provin din versiunea anterioară. Nu identifică autorul sondajului, eșantionul, întrebările, datele sau sursele. Paginile oficiale consultate la 10 octombrie 2026 descriu instruire, trasee și certificări, dar nu susțin ratele de angajare, salariile, promovarea examenelor, satisfacția ori concluziile despre angajatori de mai jos. Tratează valorile drept afirmații neverificate, nu benchmarkuri.
+
 ### Ratele de Angajare
 
 Conform sondajelor independente și datelor furnizate de platforme:
@@ -313,6 +367,40 @@ Bazat pe sondaje a peste 10.000 de utilizatori pe fiecare platformă:
 | **Ar Recomanda** | 92% | 94% |
 
 ______
+
+### Ce susțin paginile oficiale
+
+| Dovadă | Afirmație actuală susținută | Limită |
+|--------|-----------------------------|--------|
+| **Trasee profesionale HTB Academy** | HTB spune că pregătesc cursanții pentru examene practice. Eligibilitatea cere finalizarea completă a traseului și voucher valid. | Traseul sau certificatul nu dovedește angajare, salariu ori vechime. |
+| **Trasee TryHackMe** | TryHackMe emite certificate de finalizare. Certificările profesionale folosesc trasee mapate și acreditări verificabile, distribuibile. | Certificatul de finalizare nu dovedește rezultatul unei evaluări independente. |
+| **Profiluri** | Ambele servicii înregistrează progresul sau finalizările. | Activitatea profilului nu demonstrează calitatea rapoartelor, colaborarea sau performanța la serviciu. |
+
+Consultă [ghidul de certificări HTB](https://help.hackthebox.com/en/articles/12741732-academy-certifications) și [certificările TryHackMe](https://tryhackme.com/certifications). Niciuna nu promite un loc de muncă sau salariu.
+
+______
+
+## Certificate și valoarea portofoliului
+
+Înregistrările de instruire arată recrutorilor cum ai studiat. Nu înlocuiesc mostre de lucru.
+
+| Element | Ce demonstrează | Ce nu demonstrează |
+|---------|-----------------|--------------------|
+| **Certificat de traseu finalizat** | Ai terminat un curriculum ghidat | Rezolvarea independentă a problemelor noi |
+| **Certificare profesională** | Ai trecut o evaluare practică definită | Performanță îndelungată sau experiență de echipă |
+| **Profil public** | Practică regulată și camere sau module finalizate | Calitatea fiecărei soluții ori ajutorul primit |
+| **Raport sanitizat** | Metodă, probe, comenzi și remedieri | Permisiunea de a publica date reale ale clienților |
+| **Raport sau script demonstrativ** | Comunicare, repetabilitate și judecată tehnică | Înlocuitor pentru referințe sau experiență |
+
+Construiește un portofoliu restrâns în timp ce studiezi:
+
+- Finalizează un traseu actual pentru rolul dorit.
+- Publică trei rapoarte sanitizate cu dată, scop, dovezi și remedieri.
+- Adaugă un scurt raport de evaluare sau incident defensiv.
+- Include linkuri către profilul public și paginile certificatelor.
+- Menționează unde ai folosit indicii, walkthrough-uri sau soluții furnizate.
+
+O insignă dovedește finalizarea. Un raport clar arată cum lucrezi.
 
 ## Alegerea Celei Mai Bune Platforme pentru Începători
 
@@ -430,6 +518,19 @@ ______
 
 ______
 
+## Verifică oferta actuală înainte de plată
+
+Denumirile planurilor, prețurile, modulele incluse și regulile de acces se schimbă. Tratează cifrele drept observații datate. Consultă [Hack The Box Academy](https://academy.hackthebox.com/) și [traseele și prețurile TryHackMe](https://tryhackme.com/paths) înainte de un abonament plătit.
+
+1. Deschide programa traseului și numără modulele potrivite rolului dorit.
+2. Verifică dacă planul include laboratoarele și țintele necesare.
+3. Confirmă regulile pentru certificate, insigne, notițe și vizibilitatea lucrărilor.
+4. Alege un rezultat concret și reevaluează după patru săptămâni modulele, timpul de practică și competențele reținute.
+
+TryHackMe oferă un început mai gradual pentru fundamente ghidate. HTB Academy se potrivește când cunoști bazele și vrei exerciții mai profunde. Alegerea depinde de traseu, abonamentul actual și obiectivul de studiu.
+
+______
+
 ## Surse autoritare și referințe
 
 1. [Cybersecurity Ventures - Piața muncii în securitate cibernetică 2026](https://cybersecurityventures.com/)
@@ -437,8 +538,18 @@ ______
 3. [Traseele oficiale de învățare TryHackMe](https://tryhackme.com/paths)
 4. [NIST NICE Framework - Dezvoltarea forței de muncă în securitate cibernetică](https://www.nist.gov/nice)
 5. [Studiul forței de muncă în securitate cibernetică ISC² 2026](https://www.isc2.org/workforce-study)
-6. [CompTIA State of Cybersecurity 2026](https://www.comptia.org/)
+6. [CompTIA: starea securității cibernetice în 2026](https://www.comptia.org/)
 7. [Statistici certificări Offensive Security](https://www.offensive-security.com/)
+
+8. [Abonamente HTB Academy](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions)
+9. [Certificări HTB Academy](https://help.hackthebox.com/en/articles/12741732-academy-certifications)
+10. [FAQ HTB Academy](https://academy.hackthebox.com/faq)
+11. [Catalogul traseelor HTB Academy](https://academy.hackthebox.com/catalogue/paths)
+12. [Planurile TryHackMe](https://tryhackme.com/pricing)
+13. [Traseul TryHackMe pentru începători](https://tryhackme.com/beginner-path)
+14. [Cyber Security 101 TryHackMe](https://tryhackme.com/path/outline/cybersecurity101)
+15. [SOC Level 1 TryHackMe](https://tryhackme.com/path/outline/soclevel1)
+16. [Certificări TryHackMe](https://tryhackme.com/certifications)
 
 ______
 
@@ -451,3 +562,5 @@ Atât HackTheBox Academy, cât și TryHackMe sunt platforme excelente pentru în
 În cele din urmă, alegerea între cele două platforme depinde de nivelul tău actual de competență, obiectivele de carieră, stilul de învățare și bugetul disponibil. Mulți profesioniști de succes în securitatea cibernetică folosesc strategic ambele platforme - începând cu TryHackMe pentru cunoștințe fundamentale și trecând apoi la HackTheBox Academy pentru specializare avansată. Alegând platforma potrivită (sau combinația de platforme), poți dezvolta abilitățile necesare pentru a reuși în domeniul captivant și profitabil al securității cibernetice.
 
 **Recomandarea noastră pentru majoritatea începătorilor**: Începe cu **TryHackMe Premium** (140$/an) pentru primele 6 luni, apoi evaluează dacă să adaugi **HackTheBox Academy Individual** (190$/an) în funcție de direcția carierei și progresul tău. Această abordare etapizată minimizează investiția inițială și maximizează rezultatele învățării.
+
+**Recomandare actuală de abonament, verificată la 10 octombrie 2026:** Începe cu Pre Security TryHackMe fără abonament. Treci la Premium pentru toate traseele inițiale și AttackBox nelimitat. Evaluează MAX pentru trasee avansate și conținut cloud. Pentru HTB compară Student, Silver Annual, Gold Annual și planurile bazate pe cube cu traseul vizat și voucherele necesare. Valorile vechi în dolari provin din versiunea anterioară.

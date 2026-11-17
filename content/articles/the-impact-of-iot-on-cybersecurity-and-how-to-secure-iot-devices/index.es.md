@@ -1,6 +1,7 @@
 ---
 title: "Seguridad de los dispositivos IoT: Retos y soluciones de ciberseguridad"
 date: 2023-03-27
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Descubra el impacto del IoT en la ciberseguridad y aprenda estrategias eficaces para salvaguardar sus dispositivos conectados."
@@ -24,9 +25,9 @@ ______
 
 A medida que los dispositivos IoT se hacen más comunes, también se convierten en objetivos atractivos para los ciberdelincuentes. Esto se debe a varios factores:
 
-- Despliegue a gran escala**: El gran número de dispositivos IoT significa que hay una mayor superficie de ataque que los hackers pueden explotar.
-- Falta de seguridad**: Muchos dispositivos IoT no están diseñados pensando en la seguridad, lo que los hace vulnerables a los ataques.
-- Interconectividad**: Un ataque a un dispositivo puede propagarse potencialmente a otros dentro de una red.
+- **Despliegue a gran escala**: El gran número de dispositivos IoT significa que hay una mayor superficie de ataque que los hackers pueden explotar.
+- **Falta de seguridad**: Muchos dispositivos IoT no están diseñados pensando en la seguridad, lo que los hace vulnerables a los ataques.
+- **Interconectividad**: Un ataque a un dispositivo puede propagarse potencialmente a otros dentro de una red.
 
 Las consecuencias de un fallo de seguridad de IoT pueden ser graves, desde **robo de datos** a **daños físicos** o incluso **situaciones que ponen en peligro la vida**.
 
@@ -49,7 +50,7 @@ ______
 Los gobiernos y las organizaciones del sector han reconocido la importancia de la seguridad de la IO y están trabajando para desarrollar y aplicar **normas** y **reglamentos**. Algunas iniciativas clave son:
 
 - La [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) proporciona directrices para la seguridad y la privacidad de la IO.
-- La [International Organization for Standardization (ISO)](https://www.iso.org/) has established an IoT security standard, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
+- La [International Organization for Standardization (ISO)](https://www.iso.org/) ha establecido una norma de seguridad para IoT, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
 
 ______
 

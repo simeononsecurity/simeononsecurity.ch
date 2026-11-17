@@ -1,28 +1,29 @@
 ---
 title: "Sécuriser vos applications Web avec OWASP ASVS"
 date: 2023-04-03
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Apprenez à sécuriser vos applications web à l'aide de la norme OWASP Application Security Verification Standard (ASVS) afin de respecter les mesures de sécurité les plus rigoureuses et de vous protéger contre les vulnérabilités les plus courantes."
-tags: ["sécurité des applications web", "OWASP", "ASVS", "sécurité des applications", "normes de sécurité", "cybersécurité", "gestion de la vulnérabilité", "codage sécurisé", "tests de pénétration", "modélisation des menaces", "contrôles de sécurité", "évaluation de la sécurité", "les tests de sécurité automatisés", "tests de sécurité manuels", "cycle de développement sécurisé", "meilleures pratiques en matière de sécurité", "la sécurité des données", "la gestion des risques", "conformité", "la sécurité de l'information"]
+description: "Structurez les exigences de sécurité, les tests et les preuves de vérification de vos applications web avec OWASP ASVS."
+tags: ["sécurité des applications web", "OWASP", "ASVS", "sécurité des applications", "normes de sécurité", "cybersécurité", "gestion des vulnérabilités", "codage sécurisé", "tests de pénétration", "modélisation des menaces", "contrôles de sécurité", "évaluation de la sécurité", "tests de sécurité automatisés", "tests de sécurité manuels", "cycle de développement sécurisé", "meilleures pratiques en matière de sécurité", "sécurité des données", "gestion des risques", "conformité", "sécurité de l'information"]
 cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "Un bouclier blindé avec les lettres ASVS en gras, le bouclier protégeant une application web à l'arrière"
 coverCaption: ""
 ---
 
-**Comment sécuriser vos applications Web avec le standard de vérification de la sécurité des applications de l'OWASP**.
+**Comment sécuriser vos applications web avec la norme OWASP Application Security Verification Standard (ASVS)**
 
 ______
 
 ## Introduction
 
-Le **Norme de vérification de la sécurité des applications de l'OOWASP (ASVS)** est un cadre complet pour la sécurisation des applications web. Il décrit les meilleures pratiques et fournit une feuille de route claire pour les développeurs et les professionnels de la sécurité afin de créer et de maintenir des applications web sécurisées. Cet article vous guidera dans le processus de mise en œuvre de l'ASVS afin de renforcer la sécurité de vos applications.
+La **norme OWASP Application Security Verification Standard (ASVS)** est un cadre complet pour sécuriser les applications web. Elle décrit les bonnes pratiques et fournit aux développeurs et aux professionnels de la sécurité une feuille de route claire pour créer et maintenir des applications web sécurisées. Cet article vous guidera dans le processus de mise en œuvre de l'ASVS afin de renforcer la sécurité de vos applications.
 
 ______
 
 ## Comprendre l'ASVS de l'OWASP
 
-Les [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) est un projet communautaire qui définit une norme pour la sécurité des applications web. Il se compose de **quatre niveaux de vérification** qui fournissent une base de sécurité progressive pour les applications, permettant aux organisations de choisir le niveau qui répond le mieux à leurs besoins.
+L’[OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) est un projet communautaire qui définit une norme de sécurité pour les applications web. Il se compose de **quatre niveaux de vérification** qui fournissent une base de sécurité progressive pour les applications, permettant aux organisations de choisir le niveau qui répond le mieux à leurs besoins.
 
 ______
 
@@ -54,11 +55,11 @@ Identifiez les **menaces et les risques** associés à votre application afin de
 
 ### Étape 2 : Examiner les exigences ASVS
 
-Familiarisez-vous avec les exigences ASVS pour le niveau de vérification choisi. Les exigences de l'ASVS sont les suivantes [ASVS github](https://github.com/OWASP/ASVS) fournit des informations détaillées sur chaque exigence et les contrôles de sécurité associés.
+Familiarisez-vous avec les exigences ASVS pour le niveau de vérification choisi. Le [site d’ASVS sur GitHub](https://github.com/OWASP/ASVS) fournit des informations détaillées sur chaque exigence et les contrôles de sécurité associés.
 
 ### Étape 3 : Intégrer la sécurité dans votre processus de développement
 
-Incorporez les meilleures pratiques de sécurité tout au long de votre cycle de développement, y compris la conception, le codage, les tests et le déploiement. Utilisez des outils tels que [OWASP ZAP](https://www.zaproxy.org/) for automated security testing and [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) pour identifier les vulnérabilités des bibliothèques tierces.
+Incorporez les meilleures pratiques de sécurité tout au long de votre cycle de développement, y compris la conception, le codage, les tests et le déploiement. Utilisez des outils tels que [OWASP ZAP](https://www.zaproxy.org/) pour automatiser les tests de sécurité et [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) pour détecter les vulnérabilités des bibliothèques tierces.
 
 ### Étape 4 : Effectuer des évaluations de sécurité
 
@@ -76,7 +77,7 @@ L'ASVS de l'OWASP fournit un cadre solide pour sécuriser les applications web. 
 
 ### Références
 
-- [OWASP ASVS github](https://github.com/OWASP/ASVS)
+- [OWASP ASVS sur GitHub](https://github.com/OWASP/ASVS)
 - [OWASP ZAP](https://www.zaproxy.org/)
 - [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
 - [NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)

@@ -1,55 +1,55 @@
 ---
-title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
+title: "Tailscale কেন রিলে ব্যবহার করে: সরাসরি সংযোগ, DERP ও পিয়ার রিলে"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
+description: "Tailscale কেন রিলে ব্যবহার করে, status ও netcheck আউটপুট কীভাবে পড়বেন এবং কখন DERP বা পিয়ার-রিলে সংযোগ পরীক্ষা করবেন তা জানুন।"
 genre: ["Networking", "Network Security", "Self-Hosted"]
-tags: ["Tailscale", "Tailscale relay", "DERP", "Tailscale Peer Relay", "direct connection", "WireGuard", "NAT traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN performance", "remote access", "tailnet", "homelab networking", "relay latency", "end-to-end encryption"]
+tags: ["Tailscale", "Tailscale রিলে", "DERP", "Tailscale পিয়ার রিলে", "সরাসরি সংযোগ", "WireGuard", "NAT traversal", "কঠিন NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN কর্মদক্ষতা", "দূরবর্তী প্রবেশ", "tailnet", "হোমল্যাব নেটওয়ার্কিং", "রিলে বিলম্ব", "এন্ড-টু-এন্ড এনক্রিপশন"]
 cover: "/img/cover/why-tailscale-uses-a-relay.webp"
-coverAlt: "Two laptops on separate islands exchange locked packets through a central relay while a direct path is interrupted."
+coverAlt: "দুটি আলাদা দ্বীপে থাকা ল্যাপটপ সরাসরি পথ বিচ্ছিন্ন থাকায় কেন্দ্রীয় রিলের মাধ্যমে এনক্রিপ্ট করা প্যাকেট বিনিময় করছে।"
 coverCaption: ""
 ---
 
-**Tailscale uses a relay** when devices have not established a direct connection. A brief DERP connection during startup is normal. Persistent relaying often reflects network address translation (NAT) or firewall conditions affecting the route between the devices. Direct, DERP, and peer-relay connections all retain WireGuard end-to-end encryption. [Tailscale connection types](https://tailscale.com/docs/reference/connection-types).
+**ডিভাইসগুলোর মধ্যে সরাসরি সংযোগ স্থাপিত না হলে Tailscale রিলে ব্যবহার করে।** চালুর সময় অল্পক্ষণ DERP সংযোগ থাকা স্বাভাবিক। দীর্ঘ সময় রিলে ব্যবহার হলে সাধারণত ডিভাইসগুলোর মধ্যকার পথে নেটওয়ার্ক অ্যাড্রেস ট্রান্সলেশন (NAT) বা ফায়ারওয়ালের শর্ত প্রভাব ফেলছে। সরাসরি, DERP এবং পিয়ার-রিলে সংযোগ, সব ক্ষেত্রেই WireGuard-এর এন্ড-টু-এন্ড এনক্রিপশন বজায় থাকে। [Tailscale সংযোগের ধরন](https://tailscale.com/docs/reference/connection-types).
 
-## মূল বিষয়গুলো
+## মূল বিষয়
 
-- **Recognize the path:** distinguish direct, DERP, and peer-relay connections.
-- **Collect evidence:** run peer-specific probes and network checks on both ends.
-- **Analyze the pattern:** compare device pairs and network conditions.
-- **Choose a change:** justify it with a measured workload and a retest.
+- **পথ চিনুন:** সরাসরি সংযোগ, DERP ও পিয়ার রিলের পার্থক্য বুঝুন।
+- **প্রমাণ সংগ্রহ করুন:** দুই প্রান্তেই নির্দিষ্ট পিয়ারকে লক্ষ্য করে পরীক্ষা ও নেটওয়ার্ক যাচাই চালান।
+- **ধরন বিশ্লেষণ করুন:** ডিভাইসের জোড়া এবং নেটওয়ার্কের অবস্থা তুলনা করুন।
+- **পরিবর্তন বেছে নিন:** পরিমাপ করা কাজের চাপ ও পুনরায় পরীক্ষার ফল দিয়ে পরিবর্তনটি যুক্তিসংগত করুন।
 
 ## শুরু করার আগে
 
-**Prerequisites:** two enrolled, online devices and a terminal with the Tailscale command-line interface, or **CLI**, available. You need administrative access only if the investigation leads to configuration changes.
+**পূর্বশর্ত:** Tailscale-এ নিবন্ধিত এবং অনলাইনে থাকা দুটি ডিভাইস, আর Tailscale কমান্ড-লাইন ইন্টারফেস, অর্থাৎ **CLI**, থাকা একটি টার্মিনাল। তদন্তের ফলে কনফিগারেশন বদলাতে হলে তবেই প্রশাসনিক প্রবেশাধিকার লাগবে।
 
-**Estimated effort:** five minutes for basic checks, then 15–20 minutes for the comparison exercise. **Difficulty:** beginner for observation and intermediate for network changes. Define the problem first, such as a slow backup or delayed terminal response.
+**সময়:** প্রাথমিক যাচাইয়ে পাঁচ মিনিট, এরপর তুলনা অনুশীলনে ১৫–২০ মিনিট। **কঠিনতার মাত্রা:** পর্যবেক্ষণে প্রাথমিক, নেটওয়ার্ক পরিবর্তনে মধ্যম। ধীর ব্যাকআপ বা টার্মিনালের দেরিতে সাড়ার মতো সমস্যাটি আগে নির্দিষ্ট করুন।
 
-## Direct, DERP, and Peer Relay
+## সরাসরি সংযোগ, DERP ও পিয়ার রিলে
 
-A **tailnet** is your Tailscale network. Its devices attempt direct UDP connectivity, with relays available when the direct path fails. Tailscale periodically rechecks its connection options. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**tailnet** হলো আপনার Tailscale নেটওয়ার্ক। এর ডিভাইসগুলো সরাসরি UDP সংযোগের চেষ্টা করে। সরাসরি পথ ব্যর্থ হলে রিলে ব্যবহার করা যায়। Tailscale সময়ে সময়ে সংযোগের বিকল্পগুলো আবার যাচাই করে। [সংযোগ স্থাপন](https://tailscale.com/docs/reference/connection-types).
 
-| Path | Traffic route | Typical implication |
+| পথ | ট্রাফিকের রুট | সাধারণ তাৎপর্য |
 |---|---|---|
-| **Direct** | Between the two devices | Usually the preferred performance path |
-| **DERP relay** | Through Tailscale relay infrastructure | Adds an intermediary when direct access fails |
-| **Peer relay** | Through a configured device in your tailnet | An alternative relay under your administration |
+| **সরাসরি** | দুটি ডিভাইসের মধ্যে | সাধারণত কর্মদক্ষতার জন্য পছন্দের পথ |
+| **DERP রিলে** | Tailscale-এর রিলে অবকাঠামোর মধ্য দিয়ে | সরাসরি প্রবেশ ব্যর্থ হলে মধ্যবর্তী ধাপ যোগ করে |
+| **পিয়ার রিলে** | tailnet-এ কনফিগার করা ডিভাইসের মধ্য দিয়ে | আপনার পরিচালনায় থাকা বিকল্প রিলে |
 
-**DERP performance** depends partly on the extra route and shared service capacity. Tailscale documents throughput limits intended to share DERP resources fairly. There is no universal relay speed suitable for predicting your file-transfer time. [Tailscale performance troubleshooting](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
+**DERP-এর কর্মদক্ষতা** আংশিকভাবে অতিরিক্ত রুট এবং শেয়ার করা পরিষেবার সক্ষমতার ওপর নির্ভর করে। DERP সম্পদ ন্যায্যভাবে ভাগ করার জন্য Tailscale নির্দিষ্ট থ্রুপুট সীমা প্রকাশ করে। ফাইল স্থানান্তরের সময় অনুমান করার মতো কোনো সার্বজনীন রিলে-গতি নেই। [Tailscale কর্মদক্ষতার সমস্যা সমাধান](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
 
-## Understand Connection Negotiation
+## সংযোগের সমঝোতা বুঝুন
 
-**NAT traversal** is the process of establishing a usable path across address-translating devices. Tailscale begins communication through DERP while negotiating a direct path. If direct connectivity fails, an available configured peer relay provides another option. Tailscale rechecks its options over time. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**NAT traversal** হলো ঠিকানা রূপান্তরকারী ডিভাইসের মধ্য দিয়ে ব্যবহারযোগ্য পথ স্থাপনের প্রক্রিয়া। সরাসরি পথ নিয়ে সমঝোতার সময় Tailscale DERP দিয়ে যোগাযোগ শুরু করে। সরাসরি সংযোগ ব্যর্থ হলে কনফিগার করা ও উপলভ্য পিয়ার রিলে আরেকটি বিকল্প দেয়। সময়ের সঙ্গে Tailscale বিকল্পগুলো আবার পরীক্ষা করে। [সংযোগ স্থাপন](https://tailscale.com/docs/reference/connection-types).
 
-**Hard NAT** describes mapping behavior making traversal difficult. The conditions at both ends matter. Two devices behind different routers do not necessarily behave alike, even if both networks use private addresses. [Device connectivity](https://tailscale.com/docs/reference/device-connectivity).
+**কঠিন NAT** বলতে এমন ম্যাপিং আচরণ বোঝায়, যা NAT traversal কঠিন করে। দুই প্রান্তের অবস্থাই গুরুত্বপূর্ণ। আলাদা রাউটারের পেছনে থাকা দুটি ডিভাইস একইভাবে আচরণ করবে এমন নিশ্চয়তা নেই, এমনকি দুই নেটওয়ার্কেই ব্যক্তিগত ঠিকানা ব্যবহৃত হলেও। [ডিভাইস সংযোগ](https://tailscale.com/docs/reference/device-connectivity).
 
-For **a roaming laptop**, the path to your home server might change after moving from home Wi-Fi to a hotel network. Record the network used during the observation. Yesterday's direct connection is not evidence about today's route.
+**চলমান ল্যাপটপের** ক্ষেত্রে বাড়ির Wi-Fi থেকে হোটেলের নেটওয়ার্কে গেলে হোম সার্ভারের পথ বদলে যেতে পারে। পর্যবেক্ষণের সময় কোন নেটওয়ার্কে ছিলেন তা লিখে রাখুন। গতকালের সরাসরি সংযোগ আজকের পথের প্রমাণ নয়।
 
-## Check Your Current Connection
+## বর্তমান সংযোগ পরীক্ষা করুন
 
-Replace **`home-server`** with your peer's Tailscale name or address:
+**`home-server`**-এর জায়গায় পিয়ারের Tailscale নাম বা ঠিকানা দিন:
 
 ```bash
 tailscale ping home-server
@@ -57,119 +57,119 @@ tailscale status
 tailscale netcheck
 ```
 
-**`tailscale ping`** probes connectivity to the named peer. **`tailscale status`** lists peers and connection details. **`tailscale netcheck`** reports conditions on the device running the command. The [Tailscale CLI reference](https://tailscale.com/docs/reference/tailscale-cli) documents these commands.
+**`tailscale ping`** নির্দিষ্ট পিয়ারের সঙ্গে সংযোগ পরীক্ষা করে। **`tailscale status`** পিয়ার ও সংযোগের বিবরণ দেখায়। **`tailscale netcheck`** যে ডিভাইসে কমান্ড চালানো হয়েছে তার নেটওয়ার্কের অবস্থা জানায়। [Tailscale CLI রেফারেন্সে](https://tailscale.com/docs/reference/tailscale-cli) এই কমান্ডগুলোর বর্ণনা আছে।
 
-| Output indicator | Read it as |
+| আউটপুট নির্দেশক | অর্থ |
 |---|---|
-| **`direct`** | Traffic to this peer uses a direct path |
-| **`relay`** | Traffic to this peer uses DERP |
-| **`peer-relay`** | Traffic uses a configured peer relay |
-| **An initial DERP pong** | Inspect subsequent results before deciding the path stayed relayed |
+| **`direct`** | এই পিয়ারের সঙ্গে ট্রাফিক সরাসরি পথে যায় |
+| **`relay`** | এই পিয়ারের সঙ্গে ট্রাফিক DERP দিয়ে যায় |
+| **`peer-relay`** | ট্রাফিক কনফিগার করা পিয়ার রিলে ব্যবহার করে |
+| **শুরুর একটি DERP pong** | পথটি রিলেতেই আছে বলে সিদ্ধান্ত নেওয়ার আগে পরের ফল দেখুন |
 
-These labels come from the [connection-type documentation](https://tailscale.com/docs/reference/connection-types). **Generate traffic first**, then inspect the peer you care about. The commands above are examples, not captured results from a benchmark.
+এই লেবেলগুলো [সংযোগের ধরনসংক্রান্ত ডকুমেন্টেশন](https://tailscale.com/docs/reference/connection-types) থেকে নেওয়া। **আগে ট্রাফিক তৈরি করুন**, তারপর নির্দিষ্ট পিয়ার পরীক্ষা করুন। উপরের কমান্ডগুলো উদাহরণ, কোনো বেঞ্চমার্কে ধারণ করা ফল নয়।
 
-## Interpret a Path Change
+## পথের পরিবর্তন বুঝুন
 
-This **illustrative sequence** omits addresses and timings so you focus on the connection transition:
+সংযোগের পরিবর্তনে মনোযোগ দেওয়ার জন্য এই **উদাহরণধর্মী ধারাবাহিকে** ঠিকানা ও সময় বাদ দেওয়া হয়েছে:
 
 ```text
-First response:    via DERP
-Later response:    via a direct endpoint
-Status afterward: direct
+প্রথম উত্তর:       DERP দিয়ে
+পরের উত্তর:        সরাসরি endpoint দিয়ে
+এরপরের status:     direct
 ```
 
-**Interpretation:** negotiation succeeded during this observation. The first response alone would have produced the wrong diagnosis. If later responses and status remain relayed, record a persistent relay for this device pair and test period.
+**ব্যাখ্যা:** এই পর্যবেক্ষণে সংযোগের সমঝোতা সফল হয়েছিল। শুধু প্রথম উত্তর দেখলে ভুল সিদ্ধান্ত হতো। পরের উত্তর ও status-এ রিলে দেখা গেলে এই ডিভাইস-জোড়া এবং পরীক্ষার সময়কালে রিলে ব্যবহারের ধারাবাহিকতা লিখে রাখুন।
 
-**Probe scope:** a successful Tailscale ping establishes peer connectivity for its probe. It does not prove your dashboard, file service, or SSH daemon accepts application traffic. Test the failing application separately before declaring the problem solved.
+**পরীক্ষার সীমা:** সফল Tailscale ping ওই পরীক্ষার জন্য পিয়ারের সঙ্গে সংযোগ নিশ্চিত করে। এটি প্রমাণ করে না যে আপনার ড্যাশবোর্ড, ফাইল পরিষেবা বা SSH ডেমন অ্যাপ্লিকেশন ট্রাফিক গ্রহণ করে। সমস্যাটি মিটেছে বলার আগে ব্যর্থ অ্যাপ্লিকেশনটি আলাদাভাবে পরীক্ষা করুন।
 
-## What Netcheck Tells You
+## netcheck কী জানায়
 
-Run **`tailscale netcheck` on both devices**. Compare these fields against the [device-connectivity reference](https://tailscale.com/docs/reference/device-connectivity):
+**দুই ডিভাইসেই `tailscale netcheck` চালান।** নিচের ফিল্ডগুলো [ডিভাইস সংযোগের রেফারেন্সের](https://tailscale.com/docs/reference/device-connectivity) সঙ্গে তুলনা করুন:
 
-| Field | Useful interpretation |
+| ফিল্ড | কার্যকর ব্যাখ্যা |
 |---|---|
-| **`UDP`** | Whether the probe observed outbound UDP connectivity |
-| **`MappingVariesByDestIP`** | Changing external mappings suggest difficult NAT traversal |
-| **`IPv6`** | Whether this device has usable IPv6 connectivity |
-| **`PortMapping`** | Whether a supported port-mapping mechanism is available |
+| **`UDP`** | পরীক্ষায় বহির্মুখী UDP সংযোগ দেখা গেছে কি না |
+| **`MappingVariesByDestIP`** | বাইরের ম্যাপিং বদলালে NAT traversal কঠিন হতে পারে |
+| **`IPv6`** | ডিভাইসে ব্যবহারযোগ্য IPv6 সংযোগ আছে কি না |
+| **`PortMapping`** | সমর্থিত পোর্ট ম্যাপিং পদ্ধতি উপলভ্য কি না |
 
-**One field is not a verdict.** An available mapping mechanism does not prove a particular peer path works. Likewise, a relay label does not identify which router caused it. Compare both endpoints and the actual ping results.
+**একটি ফিল্ডই চূড়ান্ত সিদ্ধান্ত দেয় না।** ম্যাপিং পদ্ধতি উপলভ্য হলেই নির্দিষ্ট পিয়ারের পথ কাজ করছে তা প্রমাণ হয় না। একইভাবে, রিলে লেবেল কোন রাউটার সমস্যাটি ঘটিয়েছে তা বলে না। দুই প্রান্ত এবং বাস্তব ping ফল তুলনা করুন।
 
-**Carrier NAT** is relevant when upstream translation is outside your control, as discussed in our [T-Mobile port-forwarding explainer](/articles/t-mobile-home-internet-port-forwarding/). Avoid assuming every connection behind carrier NAT has identical traversal behavior.
+উপরের নেটওয়ার্কে ঠিকানা রূপান্তর আপনার নিয়ন্ত্রণের বাইরে থাকলে **ক্যারিয়ার NAT** প্রাসঙ্গিক। এ বিষয়ে [T-Mobile Home Internet পোর্ট ফরওয়ার্ডিং ব্যাখ্যা](/articles/t-mobile-home-internet-port-forwarding/) দেখুন। ক্যারিয়ার NAT-এর পেছনের সব সংযোগ একইভাবে আচরণ করবে ধরে নেবেন না।
 
-## Compare Three Device Pairs
+## তিনটি ডিভাইস-জোড়া তুলনা করুন
 
-Use a **third enrolled device**, if available, to improve the evidence. The following is a hypothetical pattern, not a measured result:
+সম্ভব হলে প্রমাণ বাড়াতে **তৃতীয় নিবন্ধিত ডিভাইস** ব্যবহার করুন। নিচের ধরনটি কাল্পনিক, পরিমাপ করা ফল নয়:
 
-| Device pair | Observed path |
+| ডিভাইসের জোড়া | দেখা পথ |
 |---|---|
-| **Laptop to home server** | DERP |
-| **Laptop to another server** | Direct |
-| **Home server to another server** | DERP |
+| **ল্যাপটপ থেকে হোম সার্ভার** | DERP |
+| **ল্যাপটপ থেকে অন্য সার্ভার** | সরাসরি |
+| **হোম সার্ভার থেকে অন্য সার্ভার** | DERP |
 
-**Working hypothesis:** prioritize the home server's network for investigation because both observed paths involving it stayed relayed. This is a lead, not proof. Each pair negotiates independently, and the comparison server has its own network conditions.
+**কার্যকর অনুমান:** হোম সার্ভারের নেটওয়ার্ক আগে পরীক্ষা করুন, কারণ সেটি জড়িত থাকা দুই পথেই রিলে দেখা গেছে। এটি অনুসন্ধানের সূত্র, প্রমাণ নয়। প্রতিটি জোড়া আলাদাভাবে সংযোগ সমঝোতা করে এবং তুলনার সার্ভারের নিজস্ব নেটওয়ার্ক অবস্থা রয়েছে।
 
-**Next observation:** collect netcheck output on all three devices and repeat the laptop-to-home test from another network you control. If the path changes, record exactly which network changed. Avoid attributing the result to a particular firewall setting until you test it.
+**পরবর্তী পর্যবেক্ষণ:** তিনটি ডিভাইসেই netcheck আউটপুট সংগ্রহ করুন এবং আপনার নিয়ন্ত্রণে থাকা অন্য নেটওয়ার্ক থেকে ল্যাপটপ ও হোম সার্ভারের পরীক্ষা আবার চালান। পথ বদলালে ঠিক কোন নেটওয়ার্ক বদলেছে তা লিখুন। পরীক্ষা না করে ফলটিকে নির্দিষ্ট ফায়ারওয়াল সেটিংয়ের কারণে হয়েছে বলবেন না।
 
-**Review exercise:** laptop-to-home is direct, but a file transfer remains slow. A relay explanation no longer matches this observation. Check the underlying upload connection, server load, storage, and application behavior before changing relay settings.
+**অনুশীলন:** ল্যাপটপ ও হোম সার্ভারের সংযোগ সরাসরি, কিন্তু ফাইল স্থানান্তর ধীর। এই পর্যবেক্ষণে রিলে আর ব্যাখ্যা নয়। রিলের সেটিং বদলানোর আগে আপলোড সংযোগ, সার্ভারের চাপ, স্টোরেজ এবং অ্যাপ্লিকেশনের আচরণ যাচাই করুন।
 
-## Choose a Targeted Change
+## লক্ষ্যভিত্তিক পরিবর্তন বেছে নিন
 
-Start with a **comparison test** on another network you control. If the same peer becomes direct, you have useful evidence about the original network path. Review its UDP restrictions and NAT arrangement before changing unrelated DNS or application settings.
+আপনার নিয়ন্ত্রণে থাকা অন্য নেটওয়ার্কে **তুলনামূলক পরীক্ষা** দিয়ে শুরু করুন। একই পিয়ার সেখানে সরাসরি যুক্ত হলে মূল নেটওয়ার্ক পথ সম্পর্কে কার্যকর প্রমাণ পাবেন। সম্পর্কহীন DNS বা অ্যাপ্লিকেশন সেটিং বদলানোর আগে UDP সীমাবদ্ধতা এবং NAT কনফিগারেশন পর্যালোচনা করুন।
 
-**Change one variable**, rerun the checks, and measure the same workload. Record transfer direction, file size, elapsed time, and connection type. This separates an improved path from an unrelated change in server or storage load.
+**একবারে একটি পরিবর্তন করুন**, যাচাইগুলো আবার চালান এবং একই কাজের চাপ মাপুন। স্থানান্তরের দিক, ফাইলের আকার, সময় এবং সংযোগের ধরন লিখে রাখুন। এতে পথের উন্নতি এবং সার্ভার বা স্টোরেজের চাপের আলাদা পরিবর্তন চেনা যাবে।
 
-**Firewall changes** should follow the platform-specific guidance and the evidence you collected. Opening an application port to the public Internet does not itself improve Tailscale's transport path. Keep changes limited to the required traffic and network you administer. [Tailscale firewall guidance](https://tailscale.com/docs/integrations/firewalls).
+**ফায়ারওয়াল পরিবর্তন** প্ল্যাটফর্মভিত্তিক নির্দেশনা ও সংগৃহীত প্রমাণ অনুযায়ী হওয়া উচিত। কোনো অ্যাপ্লিকেশন পোর্ট সর্বজনীন ইন্টারনেটে খুলে দিলেই Tailscale-এর যোগাযোগপথ উন্নত হয় না। প্রয়োজনীয় ট্রাফিক এবং আপনার পরিচালিত নেটওয়ার্কে পরিবর্তন সীমিত রাখুন। [Tailscale ফায়ারওয়াল নির্দেশনা](https://tailscale.com/docs/integrations/firewalls).
 
-| Finding | Change worth evaluating |
+| পর্যবেক্ষণ | মূল্যায়নের মতো পরিবর্তন |
 |---|---|
-| **UDP probe fails** | Review outbound UDP restrictions on this network |
-| **Mapping changes across destinations** | Review NAT behavior on equipment you control |
-| **Direct path, slow application** | Investigate the host, underlying connection, and workload |
-| **Working relay, acceptable experience** | Keep the arrangement and document the baseline |
+| **UDP পরীক্ষা ব্যর্থ** | এই নেটওয়ার্কের বহির্মুখী UDP সীমাবদ্ধতা পর্যালোচনা করুন |
+| **গন্তব্যভেদে ম্যাপিং বদলায়** | আপনার পরিচালিত সরঞ্জামের NAT আচরণ পর্যালোচনা করুন |
+| **সরাসরি পথ, অ্যাপ্লিকেশন ধীর** | হোস্ট, মূল সংযোগ এবং কাজের চাপ পরীক্ষা করুন |
+| **রিলে কাজ করছে, অভিজ্ঞতা গ্রহণযোগ্য** | বর্তমান ব্যবস্থা রাখুন এবং প্রাথমিক মান নথিভুক্ত করুন |
 
-*Prefer a measured improvement over changing settings solely to remove a relay label.*
+*শুধু রিলে লেবেল সরাতে সেটিং বদলানোর বদলে মাপা উন্নতিকে অগ্রাধিকার দিন।*
 
-## Evaluate a Peer Relay
+## পিয়ার রিলে মূল্যায়ন করুন
 
-A **peer relay** requires a suitable host, reachable UDP port, and an access policy permitting its use. Both the relay and participating clients require Tailscale 1.86 or later. Review supported host platforms before allocating a device. [Peer-relay requirements](https://tailscale.com/docs/features/peer-relay).
+**পিয়ার রিলের** জন্য উপযুক্ত হোস্ট, পৌঁছানো যায় এমন UDP পোর্ট এবং ব্যবহার অনুমোদনকারী প্রবেশনীতি প্রয়োজন। রিলে এবং অংশগ্রহণকারী ক্লায়েন্ট উভয়ের Tailscale 1.86 বা পরবর্তী সংস্করণ দরকার। কোনো ডিভাইস বরাদ্দ করার আগে সমর্থিত হোস্ট প্ল্যাটফর্ম যাচাই করুন। [পিয়ার রিলের শর্ত](https://tailscale.com/docs/features/peer-relay).
 
-**Placement determines usefulness.** A device behind the same inaccessible network boundary needs a reachable relay port before it helps other peers. Choosing a host geographically near the endpoints is insufficient without connectivity to it.
+**অবস্থানই কার্যকারিতা নির্ধারণ করে।** একই অপ্রবেশযোগ্য নেটওয়ার্ক-সীমানার পেছনে থাকা ডিভাইস অন্য পিয়ারকে সাহায্য করবে না, যতক্ষণ না রিলের পোর্টে পৌঁছানো যায়।
 
-**Maintenance tradeoff:** someone must keep the relay online, updated, and adequately provisioned. For occasional administration with acceptable latency, compare this burden with the measured benefit. For repeated large transfers, measure the workload through the proposed relay before adopting it.
+**রক্ষণাবেক্ষণের দায়:** কাউকে রিলেটি অনলাইন, হালনাগাদ এবং যথেষ্ট সক্ষম রাখতে হবে। মাঝে মাঝে প্রশাসনিক কাজ হলে এবং বিলম্ব গ্রহণযোগ্য হলে এই দায়ের সঙ্গে পরিমাপ করা সুবিধা তুলনা করুন। বারবার বড় স্থানান্তর হলে প্রস্তাবিত রিলে গ্রহণের আগে সেটি দিয়ে কাজের চাপ মাপুন।
 
-## Check Shared Traffic Effects
+## ভাগ করা ট্রাফিকের প্রভাব পরীক্ষা করুন
 
-**Aggregated traffic** deserves attention when a subnet router or exit node carries several workloads through DERP. Tailscale documents situations where heavy relayed traffic delays latency-sensitive traffic sharing the connection. [Hard-NAT troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
+সাবনেট রাউটার বা এক্সিট নোড DERP দিয়ে একাধিক কাজ চালালে **সমষ্টিগত ট্রাফিক** বিবেচনা করুন। একই সংযোগ ভাগ করা বিলম্ব-সংবেদনশীল ট্রাফিককে বেশি রিলে ট্রাফিক দেরি করাতে পারে, এমন পরিস্থিতি Tailscale নথিভুক্ত করেছে। [কঠিন NAT সমস্যা সমাধান](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
 
-**Comparison exercise:** observe your interactive session before, during, and after a large backup. Keep the endpoint pair fixed and record the path each time. Delays appearing during the transfer justify investigating shared load, but do not establish its exact cause.
+**তুলনা অনুশীলন:** বড় ব্যাকআপের আগে, চলাকালে এবং পরে ইন্টারঅ্যাকটিভ সেশন পর্যবেক্ষণ করুন। endpoint-জোড়া অপরিবর্তিত রাখুন এবং প্রতিবার পথ লিখুন। স্থানান্তরের সময় বিলম্ব দেখা দিলে ভাগ করা চাপ তদন্ত করুন, তবে এতে সঠিক কারণ প্রমাণ হয় না।
 
-**Choose the next test** from the observation. Check link saturation and host load, then evaluate a direct path or separating latency-sensitive services if the topology supports it. Avoid treating a DNS symptom as automatic evidence of a DNS configuration error.
+পর্যবেক্ষণ অনুযায়ী **পরের পরীক্ষা বেছে নিন।** লিংকের সম্পৃক্ততা ও হোস্টের চাপ যাচাই করুন। এরপর টপোলজি অনুমতি দিলে সরাসরি পথ বা বিলম্ব-সংবেদনশীল পরিষেবা আলাদা করার ব্যবস্থা বিবেচনা করুন। DNS-এর কোনো উপসর্গকে স্বয়ংক্রিয়ভাবে DNS কনফিগারেশন ভুলের প্রমাণ ভাববেন না।
 
-## Is a Relay an Exit Node?
+## রিলে কি এক্সিট নোড?
 
-An **exit node** routes a client's general Internet traffic through a selected tailnet device. A relay carries traffic between Tailscale peers. Selecting an exit node does not guarantee a direct path to it. [Exit-node documentation](https://tailscale.com/docs/features/exit-nodes).
+**এক্সিট নোড** ক্লায়েন্টের সাধারণ ইন্টারনেট ট্রাফিক tailnet-এর নির্বাচিত ডিভাইস দিয়ে পাঠায়। রিলে Tailscale পিয়ারগুলোর মধ্যে ট্রাফিক বহন করে। এক্সিট নোড নির্বাচন করলেই সেখানে সরাসরি পথ নিশ্চিত হয় না। [এক্সিট নোডের ডকুমেন্টেশন](https://tailscale.com/docs/features/exit-nodes).
 
-## Create a Diagnostic Record
+## ডায়াগনস্টিক রেকর্ড তৈরি করুন
 
-Save a **small before-and-after record** for the actual problem:
+বাস্তব সমস্যার জন্য **পরিবর্তনের আগে ও পরের সংক্ষিপ্ত রেকর্ড** সংরক্ষণ করুন:
 
 ```text
-Date and Tailscale versions:
-Source and destination devices:
-Networks used by each device:
-Initial and settled connection paths:
-Netcheck observations from both ends:
-Workload, direction, and elapsed time:
-Single change tested:
-Retest result:
-Decision to keep or revert:
+তারিখ ও Tailscale সংস্করণ:
+উৎস এবং গন্তব্য ডিভাইস:
+প্রতিটি ডিভাইসের ব্যবহৃত নেটওয়ার্ক:
+প্রাথমিক ও স্থিতিশীল সংযোগের পথ:
+দুই প্রান্তের netcheck পর্যবেক্ষণ:
+কাজের চাপ, দিক এবং সময়:
+পরীক্ষা করা একক পরিবর্তন:
+পুনরায় পরীক্ষার ফল:
+পরিবর্তন রাখা বা ফিরিয়ে নেওয়ার সিদ্ধান্ত:
 ```
 
-**Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+**সম্পন্ন হওয়ার মানদণ্ড:** রেকর্ডে নির্দিষ্ট উপসর্গ, পর্যবেক্ষণ, অনুমান এবং পরিমাপ করা পুনঃপরীক্ষার যোগসূত্র থাকবে। অ্যাপ্লিকেশন এখনও ধীর হলে “রিলে সরে গেছে” যথেষ্ট নয়। প্রয়োজন স্পষ্ট থাকলে “DERP দিয়ে ব্যাকআপ নির্ধারিত সময়ের মধ্যে শেষ হয়” গ্রহণযোগ্য ফল।
 
-**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
+**`tailscale netcheck`-কে প্রমাণ হিসেবে নিন, চূড়ান্ত রায় হিসেবে নয়।** কমান্ডটি একটি ডিভাইসের দেখা নেটওয়ার্ক বর্ণনা করে। স্থিতিশীল পথ নির্দিষ্ট ডিভাইস-জোড়া ও কাজের চাপের জন্য প্রযোজ্য। ফায়ারওয়াল বা NAT সেটিং বদলানোর আগে দুই প্রান্ত, `tailscale status`-এর শেষ লাইন এবং অ্যাপ্লিকেশনের পরিমাপ সংরক্ষণ করুন।
 
-## পরবর্তী ধাপ
+## পরবর্তী পদক্ষেপ
 
-Record the path to your important peer and test the workload before changing network settings. For the separate question of who operates your coordination infrastructure, read [Tailscale vs Headscale](/articles/tailscale-vs-headscale-comparison-guide/).
+গুরুত্বপূর্ণ পিয়ারের পথ লিখে রাখুন এবং নেটওয়ার্ক সেটিং বদলানোর আগে কাজের চাপ পরীক্ষা করুন। সমন্বয় অবকাঠামো কে পরিচালনা করে, সেই আলাদা প্রশ্নের জন্য [Tailscale ও Headscale তুলনা](/articles/tailscale-vs-headscale-comparison-guide/) পড়ুন।

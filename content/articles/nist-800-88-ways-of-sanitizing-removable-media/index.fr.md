@@ -1,42 +1,42 @@
 ---
-title: "Méthodes approuvées par le NIST pour l'assainissement des supports amovibles"
+title: "Méthodes approuvées par le NIST pour assainir les supports amovibles"
 date: 2023-02-11
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Découvrez les méthodes approuvées par le NIST pour désinfecter les disques durs, les disques SSD, les clés USB, les CD, les DVD et les disques Blu-ray afin de protéger les données sensibles contre les accès non autorisés."
+description: "Découvrez les méthodes du NIST pour assainir disques durs, SSD, clés USB, CD, DVD et Blu-ray et protéger les données sensibles contre les accès non autorisés."
 tags: ["Méthodes approuvées par le NIST", "Assainissement des supports amovibles", "Disques durs", "SSD", "Clés USB", "CD", "DVD", "Disques Blu-ray", "Sécurité des données", "Protection des données sensibles"]
 cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
-coverAlt: "Image d'une personne tenant une clé USB avec une déchiqueteuse en arrière-plan"
+coverAlt: "Une personne tient une clé USB, avec un destructeur de documents en arrière-plan."
 coverCaption: ""
 ---
 
-Les supports amovibles, tels que les disques durs, les disques durs à état solide (SSD), les clés USB, les CD, les DVD et les disques Blu-ray, font partie intégrante du monde numérique d'aujourd'hui. Ces dispositifs sont largement utilisés pour stocker et transférer des données sensibles, et il est essentiel de s'assurer que les informations qu'ils contiennent ne sont pas divulguées ou consultées par des personnes non autorisées. Dans cet article, nous examinerons les méthodes approuvées par le NIST pour assainir tous les types de supports amovibles.
+Les supports amovibles, comme les disques durs, les disques SSD, les clés USB, les CD, les DVD et les disques Blu-ray, font partie du monde numérique actuel. Ils servent à stocker et à transférer des données sensibles. Il faut donc empêcher la divulgation des informations qu’ils contiennent et leur accès par des personnes non autorisées. Cet article présente les méthodes approuvées par le NIST pour assainir tous les types de supports amovibles.
 
 ## Pourquoi assainir les supports amovibles ?
 
-**L'assainissement des supports amovibles est essentiel car les données stockées sur ces appareils peuvent être facilement récupérées, même si elles ont été supprimées.** En effet, lorsque des données sont supprimées, seule la référence aux données est supprimée, mais les données réelles restent sur le disque jusqu'à ce qu'elles soient écrasées. Cela permet à des acteurs malveillants de récupérer des données sensibles à l'aide d'un logiciel de récupération de données.
+**L’assainissement des supports amovibles est essentiel, car les données qui y sont stockées restent souvent faciles à récupérer même après leur suppression.** La suppression élimine seulement la référence aux données. Les données elles-mêmes restent sur le disque jusqu’à leur écrasement. Des acteurs malveillants peuvent donc récupérer des données sensibles avec un logiciel de récupération.
 
-## NIST 800-88 Revision 1 Types de destruction
+## Méthodes de destruction de NIST 800-88 Revision 1
 
-Le National Institute of Standards and Technology (NIST) a publié une directive sur l'assainissement des supports amovibles, connue sous le nom de NIST Special Publication 800-88 Revision 1. Cette directive décrit plusieurs méthodes d'assainissement des supports amovibles, notamment la destruction physique, l'effacement et la purge.
+Le National Institute of Standards and Technology (NIST) a publié des directives pour l’assainissement des supports amovibles : NIST Special Publication 800-88 Revision 1. Elles décrivent plusieurs méthodes, dont la destruction physique, Clear et Purge.
 
 ### Destruction physique
 
-**La destruction physique est la méthode la plus sûre pour assainir les supports amovibles.** Cette méthode consiste à détruire physiquement le dispositif, ce qui rend impossible la récupération des données qu'il contient. La destruction physique peut être réalisée en déchiquetant, en faisant fondre ou en pulvérisant le dispositif.
+**La destruction physique est la méthode la plus sûre pour assainir les supports amovibles.** Elle consiste à détruire l’appareil afin que personne ne puisse en récupérer les données. On peut le déchiqueter, le faire fondre ou le réduire en poudre.
 
-### Nettoyage
+### Clear (effacement)
 
-L'effacement consiste à remplacer les données d'un appareil par une série de valeurs binaires. Cette méthode est moins sûre que la destruction physique, mais reste efficace pour assainir la plupart des supports amovibles. NIST 800-88 Revision 1 recommande l'utilisation d'un outil logiciel qui répond aux normes établies par le Département de la Défense (DoD). [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) spécification.
+Clear consiste à écraser les données d’un appareil avec une suite de valeurs binaires. Cette méthode est moins sûre que la destruction physique, mais elle reste efficace pour assainir la plupart des supports amovibles. NIST 800-88 Revision 1 recommande un outil logiciel conforme à la spécification [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) du ministère américain de la Défense (DoD).
 
 ### Purge
 
-La purge consiste à écraser plusieurs fois les données d'un dispositif avec un modèle de valeurs binaires. Cette méthode est plus sûre que l'effacement et est recommandée pour assainir les données sensibles. NIST 800-88 Revision 1 recommande l'utilisation d'un outil logiciel qui répond aux normes établies par la [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) spécification.
+Purge consiste à écraser plusieurs fois les données d’un appareil avec un motif de valeurs binaires. Cette méthode est plus sûre que Clear et convient aux données sensibles. NIST 800-88 Revision 1 recommande un outil logiciel conforme à la spécification [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/).
 
 __________________________________________
 
 ## Conclusion
 
-En conclusion, **la désinfection des supports amovibles est cruciale pour garantir que les données sensibles stockées sur ces appareils ne soient pas divulguées ou accessibles par des personnes non autorisées.** NIST 800-88 Revision 1 fournit des lignes directrices pour la désinfection de tous les types de supports amovibles, y compris les disques durs, les disques SSD, les clés USB, les CD, les DVD et les disques Blu-ray, y compris la destruction physique, l'effacement et la purge. **La destruction physique est la méthode la plus sûre pour assainir les supports amovibles, mais le nettoyage et la purge sont également des méthodes efficaces qui offrent un niveau de sécurité élevé.
+En résumé, **l’assainissement des supports amovibles est essentiel pour éviter la divulgation des données sensibles qu’ils contiennent ou leur accès par des personnes non autorisées.** NIST 800-88 Revision 1 fournit des directives pour assainir tous les types de supports amovibles, notamment les disques durs, les SSD, les clés USB, les CD, les DVD et les Blu-ray, par destruction physique, Clear et Purge. **La destruction physique est la méthode la plus sûre, mais Clear et Purge sont également efficaces et offrent un niveau de sécurité élevé.**
 
-**Il est important de noter que l'assainissement des supports amovibles n'est qu'un aspect d'une stratégie globale de sécurité des données.** D'autres mesures, telles que le cryptage et le stockage sécurisé des données, doivent également être mises en œuvre pour assurer la protection des données sensibles.
-
+**L’assainissement des supports amovibles n’est qu’un élément d’une stratégie complète de sécurité des données.** Le chiffrement et le stockage sécurisé font aussi partie des mesures à appliquer pour protéger les données sensibles.

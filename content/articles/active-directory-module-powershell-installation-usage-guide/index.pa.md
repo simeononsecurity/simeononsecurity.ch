@@ -252,6 +252,33 @@ Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
 
+## RSAT ਅਤੇ PowerShell ਦੀਆਂ ਮੌਜੂਦਾ ਜਾਂਚਾਂ
+
+Microsoft ਹੁਣ Remote Server Administration Tools (RSAT) ਰਾਹੀਂ Active Directory ਮੋਡੀਊਲ ਦਿੰਦਾ ਹੈ। ਸਮਰਥਿਤ Windows ਕਲਾਇੰਟ ਸੰਸਕਰਣਾਂ ਉੱਤੇ ਪ੍ਰਸ਼ਾਸਕੀ ਅਧਿਕਾਰਾਂ ਵਾਲੇ PowerShell ਸੈਸ਼ਨ ਤੋਂ ਮੰਗ ਉੱਤੇ ਇਹ ਫੀਚਰ ਇੰਸਟਾਲ ਕਰੋ:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+Windows Server ਉੱਤੇ Microsoft ਵੱਲੋਂ ਦਸਤਾਵੇਜ਼ ਕੀਤੀ ਸਰਵਰ-ਫੀਚਰ ਵਿਧੀ ਵਰਤੋ:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+ਪ੍ਰਸ਼ਾਸਕੀ ਕਮਾਂਡਾਂ ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਮੋਡੀਊਲ ਦੀ ਜਾਂਚ ਕਰੋ:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+[ActiveDirectory ਮੋਡੀਊਲ ਹਵਾਲਾ](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) ਦੱਸਦਾ ਹੈ ਕਿ RSAT ਮੋਡੀਊਲ ਦਿੰਦਾ ਹੈ ਅਤੇ ਉਪਲਬਧ cmdlet ਦੀ ਸੂਚੀ ਦਿੰਦਾ ਹੈ। ਹੋਸਟ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਸੰਸਕਰਣ ਵਰਤੋ। PowerShell 7 ਵਿੱਚ ਅਨੁਕੂਲਤਾ ਦੇ ਮਸਲੇ ਹਨ, ਇਸ ਲਈ ਮੌਜੂਦਾ ਪ੍ਰਸ਼ਾਸਕੀ ਕੰਮ-ਵਿਧੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਗੈਰ-ਉਤਪਾਦਨ ਵਰਕਸਟੇਸ਼ਨ ਉੱਤੇ ਮੋਡੀਊਲ ਦੀ ਜਾਂਚ ਕਰੋ।
+
+ਕੰਮਕਾਜੀ ਸਿਫ਼ਾਰਸ਼ ਵਜੋਂ, ਜਿੱਥੇ cmdlet ਸਹਾਇਤਾ ਕਰੇ ਉੱਥੇ `-WhatIf` ਵਰਤੋ, ਖ਼ਾਸ ਡੋਮੇਨ ਕੰਟਰੋਲਰ ਮਹੱਤਵਪੂਰਨ ਹੋਵੇ ਤਾਂ `-Server` ਨਾਲ ਕਿਊਰੀ ਸੀਮਿਤ ਕਰੋ ਅਤੇ ਕੰਮ ਲਈ ਲੋੜੀਂਦੇ ਹੀ ਅਧਿਕਾਰ ਮੰਗੋ। PowerShell [ਆਮ ਪੈਰਾਮੀਟਰਾਂ](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters) ਵਿੱਚ `-WhatIf` ਦਾ ਦਸਤਾਵੇਜ਼ ਦਿੰਦਾ ਹੈ। ਪਾਸਵਰਡ ਕਮਾਂਡ ਇਤਿਹਾਸ ਜਾਂ ਸਕ੍ਰਿਪਟਾਂ ਵਿੱਚ ਨਾ ਰੱਖੋ। ਸੁਰੱਖਿਅਤ [Get-Credential ਪ੍ਰੌਂਪਟ](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), ਸੁਰੱਖਿਅਤ ਸੀਕ੍ਰੇਟ ਸਟੋਰ ਜਾਂ ਦਸਤਾਵੇਜ਼ੀ ਰੋਟੇਸ਼ਨ ਪ੍ਰਕਿਰਿਆ ਵਾਲਾ ਸੌਂਪਿਆ ਸੇਵਾ ਖਾਤਾ ਵਰਤੋ।
+
 ## ਨਤੀਜਾ
 
 ਸੰਖੇਪ ਵਿੱਚ, **PowerShell ਲਈ Active Directory ਮੋਡੀਊਲ** ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਸੰਦ ਹੈ ਜੋ Windows Active Directory ਦੇ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਅਤੇ ਸੁਵਿਧਾਜਨਕ ਪ੍ਰਬੰਧਨ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਂਦਾ ਹੈ। ਮੋਡੀਊਲ ਨੂੰ ਇੰਸਟਾਲ ਅਤੇ ਇੰਪੋਰਟ ਕਰਕੇ, ਤੁਸੀਂ ਇੱਕ ਵਿਸ਼ਤ੍ਰਿਤ **cmdlets** ਸੈੱਟ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰਦੇ ਹੋ ਜੋ ਵੱਖ-ਵੱਖ AD-ਸੰਬੰਧੀ ਕਾਰਜਾਂ ਨੂੰ ਸੌਖਾ ਬਣਾਉਂਦਾ ਹੈ।

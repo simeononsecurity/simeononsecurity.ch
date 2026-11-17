@@ -1,11 +1,12 @@
 ---
-title: "ATS Resume Improver: Kostenloser, selbst hostbarer KI-Lebenslauf-Optimierer ohne Datenweitergabe"
+title: "ATS Resume Improver: Kostenloser, selbst hostbarer KI-Lebenslauf-Optimierer"
 date: 2026-07-22
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "ATS Resume Improver ist ein kostenloser, quelloffener, clientseitiger Lebenslauf-Optimierer, der OpenAI, Anthropic Claude und lokale Ollama-Modelle unterstützt. Parsen, bewerten, Keywords abgleichen, optimieren und exportieren Sie Ihren Lebenslauf, ohne dass Ihre Daten den Browser verlassen."
+description: "ATS Resume Improver ist ein kostenloser, quelloffener Lebenslauf-Optimierer. Ohne KI-Schlüssel läuft die Verarbeitung im Browser. Mit OpenAI oder Anthropic gehen Lebenslauf- und Stellenbeschreibungstext direkt an den Anbieter. Ollama kann lokal laufen."
 genre: ["Karriere-Tools", "Open-Source-Projekte", "Künstliche Intelligenz", "Datenschutztechnologie", "Entwickler-Tools", "Jobsuche", "Produktivität"]
-tags: ["ATS Resume Improver", "ATS-Optimierung", "Lebenslauf-Scanner", "KI-Lebenslauf", "OpenAI Lebenslauf", "Claude Lebenslauf", "Ollama lokale KI", "Selbst gehostet", "Datenschutz zuerst", "Job-Such-Tools", "Keyword-Lückenanalyse", "Anschreiben", "Lebenslauf-Bewertung", "React", "TypeScript", "Docker", "Vite", "Open Source", "PDF-Export", "DOCX-Export", "Lebenslauf-Parser", "Karriere-Tools", "Bewerbungsvorbereitung", "Gehaltsschätzer", "Lebenslauf-Typ-Erkennung", "ATS-Score", "kostenloses Lebenslauf-Tool", "GitHub", "keine Datenerhebung"]
+tags: ["ATS Resume Improver", "ATS-Optimierung", "Lebenslauf-Scanner", "KI-Lebenslauf", "OpenAI Lebenslauf", "Claude Lebenslauf", "Ollama lokale KI", "Selbst gehostet", "Datenschutz zuerst", "Job-Such-Tools", "Keyword-Lückenanalyse", "Anschreiben", "Lebenslauf-Bewertung", "React", "TypeScript", "Docker", "Vite", "quelloffen", "PDF-Ausgabe", "DOCX-Ausgabe", "Lebenslauf-Parser", "Karriere-Tools", "Bewerbungsvorbereitung", "Gehaltsschätzer", "Lebenslauf-Typ-Erkennung", "ATS-Bewertung", "kostenloses Lebenslauf-Tool", "GitHub", "keine Datenerhebung"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"
 coverAlt: "Ein moderner Laptop auf einem Schreibtisch zeigt eine farbenfrohe Benutzeroberfläche zur Lebenslauf-Optimierung mit Grafiken und Diagrammen auf einem tiefen marineblauem Hintergrund."
 coverCaption: "ATS Resume Improver — 100% clientseitige Lebenslaufanalyse und KI-Optimierung ohne Datenerhebung."
@@ -18,7 +19,7 @@ canonical: "https://simeononsecurity.com/articles/ats-resume-improver-ai-powered
 
 **[ATS Resume Improver](https://atsresumeimprover.netlify.app/)** ist ein quelloffener, browserbasierer Lebenslauf-Optimierer, der Ihren Lebenslauf mit einer Stellenbeschreibung vergleicht und Ihnen hilft, die Lücke zwischen dem, was Sie haben, und dem, was Bewerber-Tracking-Systeme tatsächlich bewerten, zu schließen. Die App basiert auf React 19, Vite und TypeScript. Die gesamte **Analyse- und Bewertungs-Pipeline läuft in Ihrem Browser** ohne Backend-Server.
 
-Den Quellcode finden Sie unter **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**. Sie können die gehostete Version nutzen, Ihre eigene in einem Klick auf Vercel/Netlify/Cloudflare/GitHub Pages deployen oder lokal mit Docker starten.
+Den Quellcode finden Sie unter **[GitHub-Repository von ATS Resume Improver](https://github.com/simeononsecurity/ats-resume-improver)**. Sie können die gehostete Version nutzen, Ihre eigene in einem Klick auf Vercel/Netlify/Cloudflare/GitHub Pages deployen oder lokal mit Docker starten.
 
 ### Das Datenschutzproblem, das es löst
 
@@ -135,7 +136,7 @@ Kein API-Schlüssel erforderlich. Führen Sie das Modell auf Ihrer eigenen Hardw
 | **Llama 3.3** (Standard) | Neuestes Meta Llama — empfohlen |
 | Llama 3.2 | Meta Llama 3.2 |
 | Mistral 7B | Schnell und fähig |
-| Mixtral 8x7B | Mixture of Experts |
+| Mixtral 8x7B | Mischung aus Experten |
 | Qwen 2.5 | Alibaba Qwen 2.5 |
 | DeepSeek R1 | Starkes Reasoning-Modell |
 | Phi-4 | Microsoft Phi-4 |
@@ -147,7 +148,7 @@ ______
 
 ## Anschreiben-Humanisierung
 
-Der Anschreiben-Generator wendet einen gezielten Schreibstil-Leitfaden an, um die verräterischen Zeichen von KI-generiertem Text zu eliminieren:
+Der Anschreiben-Generator wendet einen gezielten Schreibstil-Leitfaden an, um die verräterischen Zeichen von KI-generiertem Text zu eliminieren. Er orientiert sich an [Sabrina Ramonovs Rahmen zur Humanisierung von Texten](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing):
 
 - **Keine Gedankenstriche** — das stärkste KI-Verräterzeichen, vollständig entfernt
 - **50+ verbotene Wörter und Phrasen**: leverage, utilize, dive deep, delve, embark, game-changer, groundbreaking, cutting-edge, pivotal, tapestry, harness, moreover, in conclusion, it's worth noting, ever-evolving, landscape, testament usw.
@@ -179,7 +180,7 @@ ______
 
 ### Gehostete Version (ohne Einrichtung)
 
-Verwenden Sie die Live-App unter **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** — kein Konto, keine Anmeldung, keine Kreditkarte.
+Verwenden Sie die Live-App unter **[Live-Version von ATS Resume Improver](https://atsresumeimprover.netlify.app/)** — kein Konto, keine Anmeldung, keine Kreditkarte.
 
 ### Ein-Klick-Cloud-Deployment
 
@@ -203,26 +204,26 @@ make dev           # http://localhost:5173
 ### Docker (empfohlen für reproduzierbare Umgebungen)
 
 ```bash
-# Entwicklung — Hot-Reload unter http://localhost:5173
+# Entwicklung: Hot Reload unter http://localhost:5173
 make docker-dev
 
-# Produktion — nginx unter http://localhost:8080
+# Produktion: nginx unter http://localhost:8080
 make docker-prod
 
-# Dev + Ollama zusammen (vollständiger lokaler KI-Stack)
+# Entwicklung und Ollama zusammen (vollständiger lokaler KI-Stack)
 make docker-dev-with-ollama
 ```
 
 ### Ollama Vollständig-Offline-Stack
 
 ```bash
-# Ollama-Container starten (Modelle über Neustarts hinweg persistent)
+# Ollama-Container starten (Modelle bleiben bei Neustarts erhalten)
 make ollama
 
-# Modell herunterladen
+# Ein Modell herunterladen
 make ollama-pull MODEL=llama3.2
 
-# Dev-App + Ollama nebeneinander starten
+# Entwicklungs-App und Ollama gleichzeitig starten
 make docker-dev-with-ollama
 ```
 
@@ -230,7 +231,7 @@ make docker-dev-with-ollama
 
 ______
 
-## Tech-Stack
+## Verwendete Technologien
 
 | Schicht | Technologie |
 |-------|-----------|
@@ -243,7 +244,7 @@ ______
 | **PDF-Export** | jsPDF |
 | **DOCX-Export** | docx (Packer.toBlob) |
 | **KI** | OpenAI · Anthropic Claude · Ollama |
-| **Container** | Docker + nginx (Multi-Stage) + Ollama-Service |
+| **Container** | Docker + nginx (mehrstufig) + Ollama-Dienst |
 
 ______
 
@@ -270,9 +271,26 @@ Die Keyword-Analyse-Ansicht zeigt, welche Keywords aus der Stellenbeschreibung i
 - **Deterministischer Modus**: wendet regelbasierte Umstrukturierung an — sicher, schnell, keine API-Kosten
 - **KI-Modus**: vollständige LLM-Überarbeitung mit ATS-Best-Practice-Prompts
 
+Prüfen Sie die **Vorher/Nachher-Differenz**, um jede Änderung vor der Übernahme zu verstehen.
+
 ### Schritt 6: Exportieren
 
 Exportieren Sie als PDF, DOCX, TXT oder Markdown. Mit aktivierter KI ist der Export KI-formatiert für professionelle Präsentation.
+
+______
+
+## Integration von Lebenslauf-Tipps
+
+Das Tool enthält eine ergänzende Referenzdatei `RESUME_TIPS.md` (auch im GitHub-Repository). Sie behandelt:
+
+- Wie ATS-Systeme Lebensläufe bewerten
+- Wichtige Formatierungsregeln und Formate, die Parser stören
+- Das Schreiben von Zusammenfassungen, Aufzählungspunkten und Kompetenzabschnitten
+- Keyword-Strategien ohne übermäßige Wiederholungen
+- Ton und Aufbau eines Anschreibens
+- Eine Checkliste vor dem Einreichen
+
+*Lesen Sie die Tipps vor der Nutzung des Tools, damit Sie die Bewertungen einordnen können.*
 
 ______
 
@@ -294,6 +312,10 @@ Ja. Fügen Sie jederzeit eine neue Stellenbeschreibung ein. Die Keyword-Analyse 
 
 Ja, wenn Ollama auf Ihrem lokalen Rechner oder einem Rechner in Ihrem lokalen Netzwerk läuft. Die App sendet Text über HTTP an Ihre Ollama-Instanz. Nichts geht an externe Dienste.
 
+### Wie genau ist die Erkennung des Lebenslauf-Typs?
+
+Der Detektor verwendet regelbasierte Heuristiken für den Inhalt Ihres Lebenslaufs. Er sucht nach genannten Berufsjahren, Bildungsmerkmalen, Veröffentlichungs- oder Forschungsabschnitten und Hinweisen auf Karrierepausen. Bei den meisten Lebensläufen funktioniert er gut, kann aber bei ungewöhnlichen Profilen irren. Die Reihenfolge der Abschnitte lässt sich jederzeit ändern.
+
 ______
 
 ## Projekt-Roadmap
@@ -313,16 +335,24 @@ ______
 
 **ATS Resume Improver** füllt eine echte Lücke: ein Tool, das ernsthafte Lebenslaufanalyse durchführt, ohne Ihre Daten an jemanden zu vermitteln. Der Modus ohne Schlüssel gibt Ihnen sofortiges, umsetzbares Feedback zu Formatierung und Keyword-Abdeckung. Das Hinzufügen eines KI-Schlüssels verbessert die Analyse zu semantischem Denken, Anschreiben-Erstellung und Bewerbungsvorbereitung — alles für Cents pro Analyse oder völlig kostenlos mit Ollama.
 
-Die Live-gehostete Version ist unter **[atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/)** verfügbar. Der vollständige Quellcode ist unter **[github.com/simeononsecurity/ats-resume-improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+Die Live-gehostete Version ist unter **[Live-Version von ATS Resume Improver](https://atsresumeimprover.netlify.app/)** verfügbar. Der vollständige Quellcode ist unter **[GitHub-Repository von ATS Resume Improver](https://github.com/simeononsecurity/ats-resume-improver)**.
+
+______
+
+## Kurs zur Lebenslauf-Optimierung
+
+Eine strukturierte Schritt-für-Schritt-Anleitung zur Anwendung der Bewertungen finden Sie im ergänzenden Kurs:
+
+**[Kurs zur Lebenslauf-Optimierung: ATS-Systeme meistern und mehr Vorstellungsgespräche erhalten](/resume-optimization-course-start/)**. Die 9 Module behandeln ATS-Bewertungen, Formatierung, Aufzählungen, Keywords, Anpassung an Stellenanzeigen, Anschreiben und die Checkliste vor dem Versand. Verwenden Sie das Tool zusammen mit dem Kurs, um in jedem Schritt direktes Feedback zu erhalten.
 
 ______
 
 ## Referenzen
 
-1. [ATS Resume Improver — Live-Tool](https://atsresumeimprover.netlify.app/)
-2. [ATS Resume Improver — GitHub-Repository](https://github.com/simeononsecurity/ats-resume-improver)
+1. [Live-Tool](https://atsresumeimprover.netlify.app/)
+2. [Quellcode-Repository](https://github.com/simeononsecurity/ats-resume-improver)
 3. [Lebenslauf-Tipps und Tricks — RESUME_TIPS.md](https://github.com/simeononsecurity/ats-resume-improver/blob/main/RESUME_TIPS.md)
 4. [Sabrina Ramonov — Bester KI-Prompt zur Humanisierung von KI-Texten](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing)
-5. [OpenAI API-Dokumentation](https://platform.openai.com/docs/)
-6. [Anthropic Claude API-Dokumentation](https://docs.anthropic.com/)
+5. [OpenAI-API-Dokumentation](https://platform.openai.com/docs/)
+6. [Dokumentation der Anthropic-Claude-API](https://docs.anthropic.com/)
 7. [Ollama — Lokaler LLM-Server](https://ollama.com/)

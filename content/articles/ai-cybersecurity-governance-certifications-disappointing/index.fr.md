@@ -3,6 +3,7 @@ title: "La cybersécurité de l'IA et les certifications de gouvernance ne suive
 draft: false
 toc: true
 date: 2026-06-26
+lastmod: 2026-11-08
 description: "Une opinion professionnelle sur l'écart entre les certifications de gouvernance de l'IA et la pratique réelle de la sécurité de l'IA. Nous en avons passé plusieurs et sommes repartis déçus. Les frameworks sont récents et axés sur la gouvernance. La surface d'attaque a évolué plus vite."
 tags: ["sécurité IA", "gouvernance IA", "certifications IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injection de prompt", "cybersécurité IA", "sécurité LLM", "OWASP LLM Top 10", "MITRE ATLAS", "gestion des risques IA", "conformité IA", "sécurité machine learning", "chaîne d'approvisionnement modèle", "IA adversariale", "agents IA", "sécurité MCP", "red teaming IA", "certifications gouvernance IA", "IA agentique", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
@@ -76,6 +77,8 @@ Cette exigence figure dans le texte. L'Acte spécifie intentionnellement des ré
 Les certifications construites autour de l'EU AI Act vous préparent à classer les systèmes d'IA, à rédiger la documentation technique et à structurer les protocoles de surveillance. Elles vous préparent pour l'audit. Le travail d'ingénierie qui produit un système conforme aux exigences de robustesse de l'Acte relève d'une discipline différente de celle que couvrent actuellement les certifications.
 
 ## Ce qui attaque réellement les systèmes d'IA
+
+{{< figure src="ai-system-attack-surface-prompt-injection-poisoning.webp" alt="Schéma de la surface d'attaque d'un système d'IA, avec l'injection de prompts, l'empoisonnement des données d'entraînement, la compromission de la chaîne d'approvisionnement du modèle et les chemins d'attaque pour l'extraction du modèle" >}}
 
 MITRE ATLAS et OWASP LLM Top 10 documentent le paysage opérationnel des menaces. Ce sont les ressources qui énumèrent les attaques à un niveau de détail utile. Les frameworks de gouvernance référencent les menaces à un niveau d'abstraction plus élevé. Ce qui suit provient de ces sources spécifiques à la sécurité.
 

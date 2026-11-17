@@ -1,12 +1,12 @@
 ---
 title: "Modelos de Linguagem de Contexto da Meta: melhor memória para agentes, não o fim das alucinações"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Como os Context Language Models editam a memória de agentes, o que os benchmarks demonstram e como custos de cache, capacidade do modelo e notas não confiáveis afetam a confiabilidade."
-genre: ["Inteligência Artificial", "Agentes de IA", "IA local", "Segurança de IA"]
-tags: ["Context Language Models", "CLM", "Meta AI", "alucinações de IA", "memória de agente", "gerenciamento de contexto", "compactação de contexto", "janela de contexto", "Suffix Cache Reuse", "cache KV", "SGLang", "llama.cpp", "cache de prompt", "prompt injection", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agentes de longa duração", "confiabilidade de IA", "verificação de agente"]
+genre: ["Inteligência artificial", "Agentes de IA", "IA local", "Segurança de IA"]
+tags: ["modelos de linguagem contextuais", "CLM", "Meta AI", "alucinações de IA", "memória do agente", "gerenciamento de contexto", "compactação de contexto", "janela de contexto", "reutilização de cache de sufixo", "cache KV", "SGLang", "llama.cpp", "cache de prompts", "injeção de prompt", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "agentes de longa duração", "confiabilidade de IA", "verificação de agentes"]
 cover: "/img/cover/context-language-models-editable-memory.webp"
 coverAlt: "Processador luminoso ao lado de cartões translúcidos de documentos reorganizados e uma pilha de arquivo separada sobre uma superfície escura"
 coverCaption: "Ilustração conceitual de memória de agente editável."

@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI コラボレーション: リポジトリとレビューの境界"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "GitHub を中心としたソースマップを作成し、ファイルの所有者を割り当て、レビュー済み AI 貢献のための保護された公開境界を構築します。"
@@ -55,7 +55,7 @@ clone コマンドはリポジトリのディレクトリ名を指定します�
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "合成コラボレーションの基盤を追加"
 git push origin main
 git status --short
 git remote -v
@@ -105,7 +105,7 @@ GitHub が所有者を認識するには、所有者に書き込み権限が必�
 1. **Settings, Branches** を開き、**`main`** のブランチ保護ルールを追加します。この演習では ruleset と混ぜず、ブランチ保護の手順を一貫して使います。
 2. **プルリクエスト**、2 件の承認レビュー、コードオーナーのレビューを必須にします。
 3. 新しいコミット後に **古い承認を無効にし**、会話の解決を必須にします。
-4. **Do not allow bypassing the above settings を有効にします。** force push と削除を無効にします。
+4. **「上記の設定の回避を許可しない」を有効にします。** force push と削除を無効にします。
 5. 次のモジュールで最初の実行を終えたら **整合性チェックを追加します**。マージ前にブランチを最新にすることを必須にします。
 
 **2 件の承認は数を強制しますが、業務上の役割の所属は強制しません。** CODEOWNERS はパス単位の所有者カバレッジを追加します。メンテナーは 2 つの役割証明も確認します。この手続き上の制御を明示的に記録し、自動的な 2 役割の強制と表現しないでください。
@@ -129,12 +129,12 @@ GitHub が所有者を認識するには、所有者に書き込み権限が必�
 **直接 push のテストには、コントリビューター自身の認証済みローカルクローンを使います。** メンテナートークンでは別の身元をテストすることになります。この例示応答は、保存すべきサーバー証拠の種類を示します。正確な文言はリポジトリのルールで異なります。
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+実行者の役割: コントリビューター
+試行: main への無害な合成データの直接 push
+リモートの結果: 拒否、保護されたブランチの更新は不許可
+main の初期コミット: [sandbox のコミットを記録]
+main の最終コミット: [再読み込み後に同じコミットを記録]
+判定: 両方の記録を確認した場合に限り、プラットフォームによる拒否が裏付けられる
 ```
 
 **ローカル Git 認証が利用できない場合、サーバー側の拒否を Blocked と記録します。** ブラウザーのブランチプロンプトを経路の証拠として保持し、メンテナーに別のコントリビューターテストを手配してもらいます。経路プロンプトを直接 push の拒否として採点しないでください。
@@ -144,27 +144,27 @@ Decision: platform denial supported only if both records are observed
 **ソースマップはルーティング文書です**。要件文書の 2 つ目ではありません。チャットから来た人が、競合する要約から選ばずに現在の意図、実装された動作、運用手順を見つけられるようにします。
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+プロジェクト: export-service-lab
+トラック: GitHub-first
+承認済みの境界: 保護された main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  権限範囲: 合成エクスポートファイルの保持方針
+  担当者: product-owner
+  リビジョン: リビジョンと保護されたコミットを記録
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  権限範囲: 合成ラボの運用手順
+  担当者: operations-owner
+  リビジョン: 保護されたコミット
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+動作 -> config.json
+  権限範囲: コミット済みの保持設定
+  担当者: repository-maintainer
+  リビジョン: 保護されたコミット
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+提案 -> Issues と提案ブランチ
+  権限範囲: 要求された変更のみ
 ```
 
 **現在の保持値を各マップ項目に書かないでください。** 「7 日」と書いたマップは、PROP-042 後に同期する別の値になります。マップには安定した識別子と場所を置き、値は権威ある記録から読み取ります。
@@ -228,9 +228,9 @@ Proposals -> Issues and proposal branches
 
 ## 主な参考資料
 
-- **プランとレビューの制御:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)。
-- **所有者の適格性:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)。
-- **ブラウザーからの貢献:** [Editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)。
+- **プランとレビューの制御:** [保護されたブランチ](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)。
+- **所有者の適格性:** [コードオーナー](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)。
+- **ブラウザーからの貢献:** [ファイルの編集](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)。
 
 ## 次のステップ
 

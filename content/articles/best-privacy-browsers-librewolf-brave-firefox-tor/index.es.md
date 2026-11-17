@@ -1,7 +1,7 @@
 ---
 title: "Mejores navegadores de privacidad 2026: LibreWolf vs Brave vs Firefox vs Tor – Comparación completa"
 date: 2023-08-23
-lastmod: 2026-05-24
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Comparación completa 2026 de los mejores navegadores centrados en la privacidad: LibreWolf, Brave, Firefox, Tor y más. Pruebas detalladas de privacidad, benchmarks de rendimiento y análisis de seguridad para proteger sus datos en línea."
@@ -682,34 +682,34 @@ Probados con perfiles de navegación idénticos en 100 sitios web populares:
 ### Recomendaciones por caso de uso
 
 **Navegación diaria:**
-1. Brave
-2. Firefox
-3. LibreWolf
+1.er lugar: Brave
+2.º lugar: Firefox
+3.er lugar: LibreWolf
 
 **Banca/Compras:**
-1. Brave
-2. Firefox
-3. Chrome (sitios a menudo optimizados para él)
+1.er lugar: Brave
+2.º lugar: Firefox
+3.er lugar: Chrome (sitios a menudo optimizados para él)
 
 **Investigación/Periodismo:**
-1. Tor Browser
-2. LibreWolf
-3. Brave
+1.er lugar: Tor Browser
+2.º lugar: LibreWolf
+3.er lugar: Brave
 
 **Streaming de contenido:**
-1. Brave (soporte DRM)
-2. Firefox (con DRM activado)
-3. Chrome
+1.er lugar: Brave (soporte DRM)
+2.º lugar: Firefox (con DRM activado)
+3.er lugar: Chrome
 
 **Desarrollo/Pruebas:**
-1. Firefox (excelentes DevTools)
-2. Brave (pruebas Chromium)
-3. Chrome (referencia Chromium)
+1.er lugar: Firefox (excelentes DevTools)
+2.º lugar: Brave (pruebas Chromium)
+3.er lugar: Chrome (referencia Chromium)
 
 **Dispositivo móvil:**
-1. Brave (rico en características)
-2. Firefox (extensiones en Android)
-3. Firefox Focus (simplicidad)
+1.er lugar: Brave (rico en características)
+2.º lugar: Firefox (extensiones en Android)
+3.er lugar: Firefox Focus (simplicidad)
 
 ## Extensiones esenciales para la privacidad
 
@@ -877,6 +877,41 @@ Muchos usuarios preocupados por la privacidad usan varios navegadores:
 - Protege contra el robo de identidad
 - Previene la manipulación
 - Derecho humano fundamental
+
+## Comprobaciones de navegadores de privacidad en 2026
+
+El nombre de un navegador no demuestra que proteja la privacidad. Antes de usarlo a diario, compruebe la configuración predeterminada, el canal de actualizaciones, la política de extensiones y el funcionamiento de la sincronización.
+
+1. Descargue el navegador del sitio oficial del proyecto o de una tienda de aplicaciones de confianza. Evite las versiones reempaquetadas.
+2. Mantenga actualizado el navegador y el sistema operativo. Una configuración de privacidad no corrige un navegador sin parches.
+3. Revise la protección integrada contra rastreadores, huellas digitales, descargas maliciosas y sitios engañosos.
+4. Trate las extensiones como software con permisos especiales. Instale menos, revise sus permisos y elimine las que no use.
+5. Haga pruebas con [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) y [BrowserLeaks](https://browserleaks.com/). El resultado describe un perfil del navegador, no demuestra anonimato.
+6. Separe las identidades con perfiles distintos. No inicie sesión en cuentas personales desde una ventana de Tor Browser usada para investigaciones sensibles.
+7. Use Tor Browser con su configuración estándar. Añadir fuentes o extensiones, o cambiar el tamaño de la ventana, reduce la utilidad de la huella compartida.
+
+LibreWolf es adecuado para quienes quieren valores predeterminados más estrictos y aceptan resolver algunos problemas de compatibilidad. Brave conviene a quienes quieren compatibilidad con Chromium y bloqueo integrado. Firefox es adecuado para quienes buscan el soporte de Mozilla y controles flexibles. Tor Browser sirve a quienes necesitan anonimato a nivel de red y aceptan menor velocidad y compatibilidad con sitios.
+
+El [manual de Tor Browser](https://tb-manual.torproject.org/) y la [guía de privacidad de Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) explican estos controles con más detalle.
+
+## Límites actuales de privacidad y lista de comprobación
+
+Las protecciones del navegador reducen la exposición, pero no vuelven anónimos una cuenta, un dispositivo o una conexión. La **navegación privada** elimina parte del historial local al terminar la sesión. No oculta el tráfico al operador de red ni impide que un sitio identifique a un usuario que haya iniciado sesión. [Tor Project explica esta diferencia](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**El efecto de la huella digital depende del grupo de usuarios al que te pareces.** Tor Browser intenta agrupar a sus usuarios con huellas comunes mediante letterboxing, valores estandarizados y aislamiento de primera parte. Tor Project afirma que el anonimato perfecto no es posible. No añada extensiones inusuales, no maximice la ventana de Tor ni cambie los valores predeterminados sin una razón concreta. [Consulte las recomendaciones de Tor sobre huellas digitales](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf requiere actualizaciones periódicas.** Su FAQ indica que las versiones suelen seguir a Firefox en un plazo de tres días y que el navegador no tiene un actualizador automático propio. Use el gestor de paquetes o el método de instalación de su plataforma y compruebe la versión instalada después de las actualizaciones de seguridad. [Consulte la FAQ de LibreWolf](https://librewolf.net/docs/faq/).
+
+Antes de elegir un navegador, revise esta lista:
+
+- **Modelo de amenazas:** decida si necesita reducir el rastreo, separar cuentas, resistir la censura o mantener el anonimato.
+- **Actualizaciones:** confirme quién las proporciona y cómo las instalará.
+- **Compatibilidad:** pruebe banca, trabajo, medios, extensiones y accesibilidad antes de cambiar todo su flujo de trabajo.
+- **Separación de identidad:** no use cuentas personales en sesiones diseñadas para reducir la vinculación.
+- **Huella digital:** mantenga una configuración cercana a la habitual. Muchas extensiones de privacidad pueden hacer que el navegador resulte más distintivo.
+- **Capa de red:** trate DNS, VPN y Tor como controles separados. Cada uno protege una parte distinta de la conexión.
+
+Las puntuaciones de rendimiento y privacidad de otras secciones son mediciones históricas o comparaciones ilustrativas si no se indican el método, la fecha, el hardware y los datos originales. No las considere clasificaciones universales actuales. Pruebe sus sitios y dispositivos después de cada actualización importante del navegador.
 
 ## Conclusión: Tome el control de su privacidad digital
 

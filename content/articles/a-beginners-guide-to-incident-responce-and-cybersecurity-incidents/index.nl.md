@@ -1,15 +1,16 @@
 ---
 title: "Beginnersgids voor incidentenbeheer op het gebied van cyberbeveiliging"
 date: 2023-03-16
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Leer de basisprincipes van het reageren op incidenten en het afhandelen van cyberbeveiligingsincidenten met deze beginnershandleiding."
 tags: ["reactie op incidenten", "cyberbeveiliging", "beginnersgids", "gegevensbescherming", "gegevensbeveiliging", "IT-beveiliging", "netwerkbeveiliging", "cyberaanvallen", "informatiebeveiliging", "cybercriminaliteit", "digitale veiligheid", "IT-infrastructuur", "datalekken", "cyberbedreigingen", "cyberdefensie", "incidentmanagement", "gegevensherstel", "veiligheidsplanning", "risicobeheer", "cyberbeveiligingsstrategie"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
+cover: "/img/cover/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents.webp"
 coverAlt: "Een cartoonafbeelding van een superheld op het gebied van cyberbeveiliging die een stad verdedigt tegen cyberbedreigingen."
 coverCaption: ""
 ---
- Gids voor incidentenbeheer op het gebied van cyberbeveiliging**
+**Gids voor incidentenbeheer op het gebied van cyberbeveiliging**
 
 Nu de wereld steeds afhankelijker wordt van technologie, wordt **cybersecurity** een steeds belangrijkere zorg voor individuen en bedrijven. Een van de meest kritieke aspecten van cyberbeveiliging is **incident response** en afhandeling. In deze beginnersgids gaan we in op de basisprincipes van incident response en hoe u uzelf en uw organisatie kunt voorbereiden op cyberbeveiligingsincidenten.
 

@@ -1,6 +1,7 @@
 ---
 title: "Protéger les données des patients : Stratégies de cybersécurité dans le secteur de la santé"
 date: 2023-02-21
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Découvrez les défis en matière de cybersécurité auxquels sont confrontés les soins de santé et explorez les stratégies de protection et de conformité afin de protéger les données des patients et de garantir la conformité aux réglementations."

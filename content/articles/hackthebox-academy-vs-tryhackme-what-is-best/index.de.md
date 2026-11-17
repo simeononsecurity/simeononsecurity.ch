@@ -1,7 +1,8 @@
 ---
-title: "HackTheBox Academy vs TryHackMe"
+title: 'HackTheBox Academy im Vergleich zu TryHackMe'
 date: 2023-02-26
-lastmod: 2026-10-08
+lastmod: 2026-11-13
+draft: false
 description: Umfassender Vergleich 2026 von HackTheBox Academy und TryHackMe einschließlich Preisgestaltung, Funktionen, Lernpfaden und Leistungskennzahlen, um Anfängern bei der Wahl der besten Plattform zum Erlernen von Cybersicherheitsfähigkeiten zu helfen.
 tags:
 - Cybersicherheit
@@ -20,11 +21,11 @@ tags:
 - Sicherheit von Webanwendungen
 - Kryptographie
 - Programmierung
-- Community
+- Gemeinschaft
 - Online-Lernen
 - strukturiertes Lernen
-- hackthebox vs tryhackme
-- tryhackme vs hackthebox
+- hackthebox im Vergleich zu tryhackme
+- tryhackme im Vergleich zu hackthebox
 - Penetrationstest-Plattformen
 - Cybersicherheitslernen
 - Junior-Penetrationstester
@@ -40,8 +41,8 @@ tags:
 - Community-Unterstützung
 - realitätsnahe Cybersicherheitsszenarien
 - Entwicklung von Cybersicherheitsfähigkeiten
-- HackTheBox-Community
-- TryHackMe-Community
+- HackTheBox-Gemeinschaft
+- TryHackMe-Gemeinschaft
 - Cybersicherheitsherausforderungen
 - Cybersicherheit lernen
 - Penetrationstest-Fähigkeiten
@@ -69,6 +70,8 @@ Im Jahr 2026 wächst die Lücke bei den Cybersicherheitsfähigkeiten weiter, mit
 
 Dieser umfassende Vergleich analysiert beide Plattformen basierend auf Preisgestaltung 2026, Funktionen, Lernpfaden, Community-Unterstützung und realen Ergebnissen, um Ihnen eine fundierte Entscheidung zu ermöglichen.
 
+**Hinweis zu aktuellen Quellen, geprüft am 10. Oktober 2026:** Mehrere Plattformstatistiken, Ergebnistabellen und Plannamen unten stammen aus einem früheren Entwurf. Die für dieses Update geprüften offiziellen Seiten veröffentlichen keine vergleichbaren unabhängigen Datensätze für beide Dienste. Betrachte diese Angaben als historischen Kontext, nicht als aktuelle Messwerte. Prüfe vor dem Bezahlen die datierten Preis-, Pfad- und Zertifizierungsangaben weiter unten.
+
 ______
 
 ## Überblick über HackTheBox Academy und TryHackMe
@@ -89,6 +92,8 @@ Während beide Plattformen darauf abzielen, Cybersicherheitskonzepte zu vermitte
 | **Community-Größe** | 850.000 Discord-Mitglieder | 1,2 Mio. Discord-Mitglieder |
 | **Unternehmenskunden** | 2.500+ Organisationen | 4.100+ Organisationen |
 
+Die [TryHackMe-Zertifizierungsseite](https://tryhackme.com/certifications) nennt **mehr als 8 Millionen Nutzer** und **über 1.100 praktische Labs**. Die [Einsteigerseite](https://tryhackme.com/beginner-path) nennt eine Discord-Community mit **mehr als 300.000 Mitgliedern**. Diese Zahlen nutzen andere Definitionen als die Tabelle oben. Die geprüften offiziellen Academy-Seiten nennen keine vergleichbare aktuelle HTB-Academy-Nutzerzahl. Behandle Anbieterzahlen als Hinweise auf die Produktgröße, nicht als unabhängige Prüfergebnisse.
+
 ### HackTheBox Academy
 
 **HackTheBox Academy** ist eine Online-Plattform, die eine strukturierte Lernerfahrung für Cybersicherheitsfachleute bietet. Sie deckt viele Cybersicherheitsthemen ab, darunter Penetrationstests, Forensik und Malware-Analyse, und bietet sowohl kostenlose als auch kostenpflichtige Abonnementoptionen.
@@ -98,6 +103,12 @@ Während beide Plattformen darauf abzielen, Cybersicherheitskonzepte zu vermitte
 Im Jahr 2026 hat HackTheBox Academy **KI-gestützte Hinweissysteme**, **Live-Instruktorsitzungen** und **Branchenzertifizierungsanpassungen** hinzugefügt, um das Lernerlebnis zu verbessern.
 
 {{< youtube id="J4NmHJon2wY" >}}
+
+### Aktuelle Struktur von HTB Academy
+
+HTB Academy trennt jetzt **cube-basierte Abonnements** von **zugriffsbasierten Abonnements**. Cube-Pläne weisen monatlich Cubes zu. Mit Cubes freigeschaltete Module bleiben nach einer Kündigung mit dem Konto verknüpft. Zugriffspläne decken Inhalte bis zu einer Stufe ab, solange der Plan aktiv ist. Abgeschlossene Module bleiben nach Ablauf zur Wiederholung verfügbar, unvollständige Module werden wieder gesperrt. [Der HTB-Abonnementleitfaden](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) weist außerdem darauf hin, dass HTB Academy und HTB Labs getrennte Abonnements haben.
+
+Die aktuellen Plannamen und Preise stehen im Preisabschnitt. Das Modell zählt mehr als der angezeigte Preis. Vergleiche dauerhaften Modulzugriff, Pfadzugriff, Prüfungsgutscheine und dein geplantes Lerntempo.
 
 ### TryHackMe
 
@@ -109,7 +120,13 @@ Bis 2026 hat TryHackMe sich erheblich erweitert mit **gamifizierten Lernpfaden**
 
 ______
 
+### Aktuelle Struktur von TryHackMe
+
+TryHackMe führt derzeit die Einzeltarife **Free**, **Premium** und **MAX**. Die öffentliche Preisseite nennt Free für 0 €, Premium für 16,99 € monatlich oder 7,35 € pro Monat mit Jahresangebot sowie MAX für 29,11 € monatlich oder 17,99 € pro Monat mit Jahresangebot. Laut Seite umfasst Premium Einsteigerpfade, Abschlusszertifikate für Pfade, unbegrenzte AttackBox und 15 % Rabatt auf Zertifizierungen. MAX ergänzt fortgeschrittene Pfade, Cloud-Inhalte, eine dauerhafte AttackBox, alle Räume und 40 % Rabatt auf eine Zertifizierung. Währung, Angebot, Steuern und Abrechnungsbedingungen beeinflussen den Endpreis. Prüfe vor dem Kauf die [aktuelle TryHackMe-Preisseite](https://tryhackme.com/pricing).
+
 ## Preisvergleich 2026
+
+Die folgenden Tabellen erhalten frühere Preisangaben als Kontext. Sie entsprechen nicht allen aktuellen Plannamen und Preisen. Nutze die spätere Tabelle mit aktuellen Quellen für einen Vergleich mit Stichtag.
 
 ### HackTheBox Academy Preise
 
@@ -118,8 +135,8 @@ ______
 | **Kostenloser Tarif** | 0 $ | 0 $ | Zugriff auf 25+ Starter-Module, Community-Foren, begrenzte Laborzeit |
 | **Studentenpaket** | 8 $/Monat | 90 $/Jahr | Voller Modulzugang, unbegrenzte Laborzeit, Zertifizierungspfade (erfordert .edu-E-Mail) |
 | **Einzelperson** | 19 $/Monat | 190 $/Jahr | Voller Modulzugang, unbegrenzte Laborzeit, Zertifizierungspfade, Prioritätsunterstützung |
-| **Silver Jahresabo** | N/A | 490 $/Jahr | Alle Einzelpersonen-Funktionen + exklusive Module, erweiterte Zertifizierungen |
-| **Gold Jahresabo** | N/A | 990 $/Jahr | Alle Silver-Funktionen + Mentoring-Sitzungen, Unterstützung bei der Jobvermittlung |
+| **Silver Jahresabo** | Nicht zutreffend | 490 $/Jahr | Alle Einzelpersonen-Funktionen + exklusive Module, erweiterte Zertifizierungen |
+| **Gold Jahresabo** | Nicht zutreffend | 990 $/Jahr | Alle Silver-Funktionen + Mentoring-Sitzungen, Unterstützung bei der Jobvermittlung |
 
 ### TryHackMe Preise
 
@@ -132,7 +149,25 @@ ______
 
 **Preis-Leistungs-Analyse:** TryHackMe bietet bei niedrigeren Preisen mehr Inhaltszugang und ist damit **20-30 % kosteneffektiver für Anfänger**. HackTheBox Academy bietet tiefere Spezialisierung und branchenanerkannte Zertifizierungspfade in Premium-Tarifen, was es wertvoller für **Karrierefortschritt und spezialisierte Rollen** macht.
 
+Die **Schätzung von 20–30 % ist kein geprüftes Preisvergleichsergebnis**. Der frühere Entwurf nennt weder den Funktionsumfang noch Währung, Steuerbehandlung, Lernstunden oder Quelldaten. Die offiziellen Tarifseiten nennen inzwischen andere Planbezeichnungen, Währungen, Rabatte und Zugriffsregeln.
+
 ______
+
+### Aktuelle offizielle Tarife, geprüft am 10. Oktober 2026
+
+| Tarif | Öffentliche Angabe | Zugriff und Zertifikatshinweis |
+|------|--------------------|-------------------------------|
+| **HTB Academy Silver** | 18 $/Monat, cube-basiert | 200 Cubes pro Monat, unbegrenzte Pwnbox und CPE-Einreichung |
+| **HTB Academy Gold** | 38 $/Monat, cube-basiert | 500 Cubes pro Monat, unbegrenzte Pwnbox und CPE-Einreichung |
+| **HTB Academy Platinum** | 68 $/Monat, cube-basiert | 1.000 Cubes pro Monat, unbegrenzte Pwnbox und CPE-Einreichung |
+| **HTB Academy Silver Annual** | 490 $/Jahr, zugriffsbasiert | Tier-II-Zugriff, Rollenpfade, unbegrenzte Pwnbox und von HTB genannte jährliche Gutscheinvorteile |
+| **HTB Academy Gold Annual** | 1.260 $/Jahr, zugriffsbasiert | Tier-III-Zugriff, erweiterte Rollenpfade, unbegrenzte Pwnbox und umfassendere Gutscheinvorteile von HTB |
+| **HTB Academy Student** | 8 $/Monat, zugriffsbasiert | Akademischer Nachweis nötig, Tier-II-Zugriff, Rollenpfade und unbegrenzte Pwnbox |
+| **TryHackMe Free** | 0 € | Kostenlose Räume, begrenzte Lernpfade und eine Stunde AttackBox pro Tag |
+| **TryHackMe Premium** | 16,99 €/Monat angezeigt, 7,35 €/Monat im angezeigten Jahresangebot | Einsteigerpfade, Pfadzertifikate, unbegrenzte AttackBox und 15 % Rabatt auf berufliche Zertifizierungen |
+| **TryHackMe MAX** | 29,11 €/Monat angezeigt, 17,99 €/Monat im angezeigten Jahresangebot | Fortgeschrittene Pfade, Cloud-Inhalte, dauerhafte AttackBox, alle Räume und 40 % Rabatt auf eine Zertifizierung |
+
+Der [HTB Academy-Abonnementleitfaden](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) nennt HTB-Preise und Zugriffsregeln. Die [TryHackMe-Preisseite](https://tryhackme.com/pricing) nennt TryHackMe-Preise. Beide Seiten können sich ändern. Prüfe sie vor dem Bezahlen.
 
 ## Detaillierter Funktionsvergleich
 
@@ -177,6 +212,21 @@ ______
 | **Labore-Reset-Zeit** | Sofort | 1-3 Minuten |
 
 ______
+
+## Einstieg für Anfänger 2026
+
+Beide Plattformen bieten Übungen im Browser, doch die ersten Schritte unterscheiden sich.
+
+| Ausgangslage | HackTheBox Academy | TryHackMe |
+|--------------|--------------------|-----------|
+| **Keine Vorkenntnisse** | Die HTB-FAQ empfiehlt Einsteigern Fundamental- und Easy-Module. Neue Konten erhalten kostenlose Cubes für erste Fundamental-Module. | Pre Security richtet sich an absolute Anfänger, setzt keine Cyber-Erfahrung voraus und läuft im Browser. |
+| **Erster geführter Pfad** | Information Security Foundations führt zu Rollenpfaden. Der Penetration-Tester-Pfad nennt Information Security Foundations als Vorwissen. | Pre Security führt zu Web Fundamentals. Cyber Security 101 behandelt Netzwerke, Betriebssysteme, offensive und defensive Grundlagen sowie Berufsthemen. |
+| **Erster defensiver Pfad** | Die Rollenpfade SOC Analyst und Junior Cybersecurity Analyst stehen im aktuellen Academy-Katalog. | SOC Level 1 behandelt Alarm-Triage, Berichte, SIEM, EDR, Phishing- und Netzwerkverkehrsanalyse. |
+| **Zeitangabe** | Die FAQ beschreibt Modulstufen und Zugriffsregeln, nennt aber keine einheitliche Abschlusszeit für alle Einsteiger. | Die Einsteigerseite schätzt 30 bis 40 Stunden für Pre Security. Das ist eine Planungsschätzung von TryHackMe, keine Garantie. |
+
+Lies vor der Auswahl die [HTB Academy: Häufige Fragen](https://academy.hackthebox.com/faq), den [HTB-Penetration-Tester-Pfad](https://academy.hackthebox.com/path/preview/penetration-tester), den [TryHackMe-Einsteigerpfad](https://tryhackme.com/beginner-path) und den [TryHackMe-Pfad Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101). Diese Seiten zeigen den aktuellen Einstieg besser als allgemeine Plattformzahlen.
+
+*Für den Start ohne Vorkenntnisse bietet TryHackMe den klareren ersten Schritt. HTB Academy passt auch zu Anfängern, die Dokumentation, zielbasierte Übungen und einen gestuften Weg in Penetrationstests bevorzugen.*
 
 ## Stärken und Schwächen beider Plattformen
 
@@ -226,6 +276,8 @@ ______
 
 ## Vergleich der Lernpfade
 
+Die folgenden Listen übernehmen Pfadnamen, Zeitangaben und Preisspannen aus dem früheren Entwurf. Pfadinhalte ändern sich. Prüfe den aktuellen [HTB-Academy-Pfadkatalog](https://academy.hackthebox.com/catalogue/paths), den [TryHackMe-Pfad Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101) und den [TryHackMe-Pfad SOC Level 1](https://tryhackme.com/path/outline/soclevel1), bevor du die Summen als Lernplan nutzt.
+
 ### Vom Anfänger zum Junior Penetration Tester
 
 #### HackTheBox Academy Pfad
@@ -274,6 +326,8 @@ ______
 
 ## Erfolgskennzahlen aus der Praxis (Daten 2026)
 
+Die Tabellen in diesem Abschnitt stammen aus dem früheren Entwurf. Sie nennen weder Herausgeber der Umfragen noch Stichprobenplan, Fragebogen, Datum oder Quellenlinks. Die am 10. Oktober 2026 geprüften offiziellen Produktseiten beschreiben Schulungen, Pfade und Nachweise. Sie belegen weder die folgenden Vermittlungs- und Gehaltszahlen noch Prüfungsquoten, Zufriedenheitswerte oder Aussagen zu Arbeitgebern. Behandle diese Zahlen als ungeprüfte Aussagen, nicht als Plattform-Benchmarks.
+
 ### Vermittlungsquoten
 
 Laut unabhängigen Umfragen und plattformseitigen Daten:
@@ -313,6 +367,38 @@ Basierend auf Umfragen von über 10.000 Nutzern pro Plattform:
 | **Würde empfehlen** | 92 % | 94 % |
 
 ______
+
+### Was die offiziellen Seiten belegen
+
+| Beleg | Aktuell belegte Aussage | Grenze |
+|------|-------------------------|--------|
+| **HTB-Academy-Rollenpfade** | HTB sagt, Rollenpfade bereiten auf praktische Zertifizierungsprüfungen vor. Die Prüfungszulassung erfordert 100 % Pfadabschluss und einen gültigen Gutschein. | Ein Pfad oder Zertifikat belegt weder Beschäftigung noch Gehalt oder Seniorität. |
+| **TryHackMe-Lernpfade** | TryHackMe stellt Pfad-Abschlusszertifikate aus. Berufliche Zertifizierungen nutzen zugeordnete Lernpfade und teilbare, überprüfbare Nachweise. | Ein Abschlusszertifikat beweist keine Leistung in einer unabhängigen Prüfung. |
+| **Plattformprofile** | Beide Dienste protokollieren Lernfortschritt oder abgeschlossene Inhalte. | Profilaktivität allein belegt weder Berichtsqualität noch Teamarbeit oder Leistung am Arbeitsplatz. |
+
+Nutze den [HTB Academy-Zertifizierungsleitfaden](https://help.hackthebox.com/en/articles/12741732-academy-certifications) und die [TryHackMe-Zertifizierungsseite](https://tryhackme.com/certifications) für aktuelle Regeln. Keine der Seiten verspricht einen Arbeitsplatz oder ein Gehalt.
+
+## Zertifikate und Portfolio-Wert
+
+Ausbildungsnachweise helfen Personalverantwortlichen, deinen Lernweg einzuordnen. Sie ersetzen keine Arbeitsproben.
+
+| Portfolioelement | Was es zeigt | Was es nicht zeigt |
+|------------------|--------------|--------------------|
+| **Pfad-Abschlusszertifikat** | Du hast einen geführten Lehrplan abgeschlossen | Eigenständiges Problemlösen unter neuen Bedingungen |
+| **Berufszertifizierung** | Du hast eine definierte praktische Prüfung bestanden | Langfristige Arbeitsleistung oder Team-Erfahrung |
+| **Öffentliches Profil** | Regelmäßiges Üben und abgeschlossene Räume oder Module | Qualität jeder Lösung oder genutzte Hilfen |
+| **Bereinigter Übungsbericht** | Methode, Belege, Befehle und Gedanken zur Behebung | Erlaubnis, echte Kunden- oder Arbeitgeberdaten zu veröffentlichen |
+| **Musterbericht oder Skript** | Kommunikation, Wiederholbarkeit und technisches Urteilsvermögen | Ersatz für Referenzen oder Berufserfahrung |
+
+Erstelle während des Lernens einen kleinen Nachweisordner:
+
+- Schließe einen aktuellen Pfad für deine Zielrolle ab.
+- Veröffentliche drei bereinigte Berichte mit Datum, Umfang, Belegen und Behebung.
+- Ergänze einen kurzen Prüfungs- oder Verteidigungsbericht zu einem Vorfall.
+- Verlinke dein öffentliches Profil und deine Zertifikatsseiten.
+- Gib an, wo du Hinweise, Walkthroughs oder vorgegebene Lösungen genutzt hast.
+
+Der größte Portfolio-Wert entsteht, wenn du deinen Arbeitsprozess zeigst. Ein Badge belegt den Abschluss. Ein klarer Bericht zeigt, wie du arbeitest.
 
 ## Die beste Plattform für Anfänger wählen
 
@@ -430,15 +516,37 @@ ______
 
 ______
 
+## Angebot vor dem Bezahlen prüfen
+
+Plannamen, Preise, enthaltene Module und Zugriffsregeln ändern sich. Behandle die Zahlen in diesem Vergleich als datierte Beobachtungen, nicht als dauerhafte Fakten. Prüfe vor einem kostenpflichtigen Plan die Website von [Hack The Box Academy](https://academy.hackthebox.com/) sowie die [TryHackMe-Pfade und Preise](https://tryhackme.com/paths).
+
+Vergleiche kurz anhand dieser Schritte:
+
+1. Öffne den Lehrplan des gewünschten Pfads. Zähle passende Module für deine Zielrolle, statt allgemeine Themenlisten zu vergleichen.
+2. Prüfe, ob der Plan die benötigten Labs, Ziele und Wiederholungsfunktionen enthält. Ein günstiges Abo hilft nicht, wenn der benötigte Pfad außerhalb des Plans liegt.
+3. Prüfe aktuelle Regeln für Zertifikate, Badges, Notizen und die Sichtbarkeit abgeschlossener Arbeit. Diese Nachweise stützen ein Portfolio, ersetzen aber weder eine beaufsichtigte Berufszertifizierung noch eine Arbeitsprobe.
+4. Setze ein konkretes Ziel, etwa einen Einstiegspfad abzuschließen und einen bereinigten Laborbericht zu veröffentlichen. Bewerte nach vier Wochen abgeschlossene Module, Übungszeit und behaltene Fähigkeiten.
+
+Diese Vorgehensweise beantwortet auch die Anfängerfrage. TryHackMe bietet einen sanfteren Einstieg, wenn du geführte Grundlagen brauchst. HTB Academy passt besser, wenn du die Grundlagen kennst und tiefere aufgabenbasierte Praxis willst. Die beste Wahl hängt vom Pfad, den aktuellen Tarifregeln und deinem Lernziel ab.
+
 ## Autoritative Quellen und Referenzen
 
-1. [Cybersecurity Ventures - Cybersecurity Job Market 2026](https://cybersecurityventures.com/)
+1. [Cybersecurity Ventures – Cybersicherheits-Arbeitsmarkt 2026](https://cybersecurityventures.com/)
 2. [HackTheBox Academy Offizielle Dokumentation](https://academy.hackthebox.com/)
 3. [TryHackMe Offizielle Lernpfade](https://tryhackme.com/paths)
 4. [NIST NICE Framework - Entwicklung der Cybersicherheitsarbeitskräfte](https://www.nist.gov/nice)
-5. [ISC² Cybersecurity Workforce Study 2026](https://www.isc2.org/workforce-study)
-6. [CompTIA State of Cybersecurity 2026](https://www.comptia.org/)
+5. [ISC²-Studie zur Cybersicherheits-Fachkräftelage 2026](https://www.isc2.org/workforce-study)
+6. [CompTIA: Stand der Cybersicherheit 2026](https://www.comptia.org/)
 7. [Offensive Security Zertifizierungsstatistiken](https://www.offensive-security.com/)
+8. [HTB Academy-Abonnements](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions)
+9. [HTB Academy-Zertifizierungen](https://help.hackthebox.com/en/articles/12741732-academy-certifications)
+10. [HTB Academy: Häufige Fragen](https://academy.hackthebox.com/faq)
+11. [HTB Academy-Pfadkatalog](https://academy.hackthebox.com/catalogue/paths)
+12. [TryHackMe-Premiumtarife](https://tryhackme.com/pricing)
+13. [TryHackMe-Einsteigerpfad](https://tryhackme.com/beginner-path)
+14. [TryHackMe-Pfad Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101)
+15. [TryHackMe-Pfad SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
+16. [TryHackMe-Zertifizierungen](https://tryhackme.com/certifications)
 
 ______
 
@@ -451,3 +559,7 @@ Sowohl HackTheBox Academy als auch TryHackMe sind ausgezeichnete Plattformen zum
 Letztendlich hängt die Wahl zwischen den beiden Plattformen von Ihrem aktuellen Kenntnisstand, Ihren Karrierezielen, Ihrem Lernstil und Ihrem Budget ab. Viele erfolgreiche Cybersecurity-Profis nutzen beide Plattformen strategisch – sie beginnen mit TryHackMe für grundlegendes Wissen und wechseln dann zu HackTheBox Academy für fortgeschrittene Spezialisierung. Durch die Wahl der richtigen Plattform (oder Kombination von Plattformen) können Sie die Fähigkeiten entwickeln, die Sie benötigen, um in dem spannenden und lukrativen Bereich der Cybersecurity erfolgreich zu sein.
 
 **Unsere Empfehlung für die meisten Anfänger**: Beginnen Sie mit **TryHackMe Premium** (140 $/Jahr) für die ersten 6 Monate und prüfen Sie dann, ob Sie basierend auf Ihrer Karriereentwicklung und Ihrem Fortschritt **HackTheBox Academy Individual** (190 $/Jahr) hinzufügen möchten. Dieser gestaffelte Ansatz minimiert die Anfangsinvestition und maximiert gleichzeitig die Lernergebnisse.
+
+Die Empfehlung oben folgt den aktuellen Einsteigerseiten, nicht den ungeprüften Ergebnistabellen. TryHackMes offizielle Einsteigerseite beginnt bei null und nennt geführte Labs im Browser. Die HTB-FAQ empfiehlt Einsteigern Fundamental- und Easy-Module. Der Penetration-Tester-Pfad nennt Information Security Foundations als Vorwissen.
+
+**Aktuelle Tarifempfehlung, geprüft am 10. Oktober 2026:** Beginne kostenlos mit TryHackMe Pre Security. Wechsle zu Premium, wenn du alle Einsteigerpfade und unbegrenzte AttackBox brauchst. Prüfe MAX für fortgeschrittene Pfade und Cloud-Inhalte. Vergleiche bei HTB Academy Student, Silver Annual, Gold Annual und cube-basierte Pläne mit deinem Zielpfad und deinem Bedarf an Prüfungsgutscheinen. Die alten Dollarbeträge oben stammen aus dem früheren Entwurf und beschreiben nicht die aktuellen öffentlichen Tarife.

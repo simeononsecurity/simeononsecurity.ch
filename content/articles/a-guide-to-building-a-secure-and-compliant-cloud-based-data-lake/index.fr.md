@@ -1,11 +1,12 @@
 ---
 title: "Construire un lac de données sécurisé et conforme basé sur le cloud : Meilleures pratiques pour protéger les données stockées"
 date: 2023-04-16
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Ce guide complet présente les meilleures pratiques en matière de sécurité et de conformité lors de la planification, de la création et de la gestion de lacs de données basés sur le cloud."
 tags: ["lac de données", "sécurité des nuages", "règles de conformité", "les contrôles d'accès", "chiffrement", "AWS", "Azure", "HIPAA", "GDPR", "contrôle", "rapiéçage", "cybersécurité", "Solution SIEM", "Équipes d'assistance informatique", "paysage des menaces", "migration dans le nuage", "gouvernance du cloud"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
+cover: "/img/cover/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake.webp"
 coverAlt: "Une image de dessin animé représentant un château gardé par un chevalier guerrier, symbolisant le concept de protection forte pour un stockage en nuage sécurisé et conforme"
 coverCaption: ""
 ---
@@ -34,7 +35,7 @@ En ce qui concerne le stockage, il convient de sélectionner des plateformes qui
 
 ## Surveillance et gestion du lac de données
 
-Une **surveillance précise de votre infrastructure de lac de données permet d'identifier les failles de sécurité** ou les activités suspectes qui se produisent dans votre lac de données. **Les données sont stockées dans un compte d'audit distinct afin d'éviter qu'elles ne soient supprimées ou modifiées par des pirates. Cela permettra de détecter rapidement les activités suspectes, telles que le balayage de ports, les attaques DDos, les attaques par force brute ou les attaques basées sur le réseau.
+Une **surveillance précise de l'infrastructure de votre lac de données aide à repérer les failles de sécurité** et les activités suspectes. **Consignez toutes les activités liées au lac de données dans des journaux stockés dans un compte d'audit distinct** afin d'empêcher les pirates de les supprimer ou de les modifier. Vous pourrez ainsi détecter rapidement des activités suspectes comme le balayage de ports, les attaques DDoS, les attaques par force brute ou les attaques réseau.
 
 Utilisez une solution de gestion des informations et des événements de sécurité (SIEM) telle que AWS CloudTrail ou Azure Monitor pour centraliser la journalisation, automatiser les alertes et effectuer des analyses avancées.
 
@@ -42,7 +43,7 @@ Veillez également à ce que **des correctifs réguliers soient apportés aux co
 
 ## Suivre l'évolution du paysage des menaces
 
-**En raison de l'évolution constante du paysage de la sécurité, les contrôles de sécurité en nuage doivent s'adapter rapidement aux nouvelles menaces.
+**Comme le paysage de la sécurité évolue constamment, les contrôles de sécurité du cloud doivent s'adapter rapidement aux nouvelles menaces.**
 
 Si vous cherchez à vous conformer à des réglementations spécifiques régissant le stockage des données, prenez des mesures pour maintenir ces exigences de conformité par le biais d'audits de conformité et de rapports réguliers générés par les services respectifs.
 

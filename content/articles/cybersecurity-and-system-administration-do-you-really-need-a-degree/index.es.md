@@ -1,6 +1,7 @@
 ---
 title: "¿Realmente se necesita un título para entrar en el sector de la ciberseguridad y la administración de sistemas?"
 date: 2023-02-12
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Este artículo explora los beneficios e inconvenientes de obtener un título en los campos de la ciberseguridad y la administración de sistemas, incluidas las oportunidades de empleo, las certificaciones, el tiempo y las consideraciones de coste."

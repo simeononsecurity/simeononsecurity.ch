@@ -1,284 +1,284 @@
 ---
-title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
+title: "أكثر أنواع الهجمات السيبرانية شيوعًا وكيفية اكتشافها"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
-genre: ["Cybersecurity", "Threat Detection", "Blue Team", "Security Operations", "Career Development"]
-tags: ["cyberattack types", "malware", "ransomware", "phishing", "spear phishing", "social engineering", "spoofing", "identity-based attacks", "credential stuffing", "password spraying", "SQL injection", "cross-site scripting", "supply chain attack", "insider threat", "DNS tunneling", "IoT attacks", "AI-powered attacks", "denial of service", "detection engineering", "SOC analyst", "blue team", "home lab", "log analysis", "incident response", "MITRE ATT&CK", "cybersecurity career", "threat hunting", "security operations center", "telemetry", "alert triage"]
+description: "تعرّف على أنواع الهجمات السيبرانية الشائعة، وآثارها في السجلات والقياسات عن بُعد، وتدرّب على اكتشافها في مختبر أمني منزلي."
+genre: ["الأمن السيبراني", "اكتشاف التهديدات", "الفريق الأزرق", "العمليات الأمنية", "التطوير المهني"]
+tags: ["أنواع الهجمات السيبرانية", "البرمجيات الخبيثة", "برامج الفدية", "التصيد الاحتيالي", "التصيد الموجّه", "الهندسة الاجتماعية", "انتحال الهوية", "الهجمات القائمة على الهوية", "حشو بيانات الاعتماد", "رش كلمات المرور", "حقن SQL", "البرمجة النصية عبر المواقع", "هجوم سلسلة التوريد", "التهديد الداخلي", "نفق DNS", "هجمات إنترنت الأشياء", "هجمات مدعومة بالذكاء الاصطناعي", "حجب الخدمة", "هندسة الكشف", "محلل مركز العمليات الأمنية", "الفريق الأزرق", "مختبر منزلي", "تحليل السجلات", "الاستجابة للحوادث", "MITRE ATT&CK", "مسار مهني في الأمن السيبراني", "صيد التهديدات", "مركز العمليات الأمنية", "القياسات عن بُعد", "فرز التنبيهات"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"
-coverAlt: "A digital illustration featuring colorful abstract icons symbolizing various cyberattack types like ransomware, phishing, and denial of service against a dark background."
+coverAlt: "رسم رقمي بخلفية داكنة وأيقونات تجريدية ملونة ترمز إلى أنواع مختلفة من الهجمات السيبرانية، مثل برامج الفدية والتصيد الاحتيالي وحجب الخدمة."
 coverCaption: ""
 ---
 
-An **attack type** is a category of technique, not a single tool. Ransomware, phishing, and credential stuffing each name a method an adversary repeats against many targets with minor variations. Learning the categories gives you a mental index for the alerts you will meet on a security team.
+**نوع الهجوم** هو فئة من الأساليب، وليس أداة واحدة. تشير برامج الفدية والتصيد الاحتيالي وحشو بيانات الاعتماد إلى أساليب يكررها الخصم ضد أهداف كثيرة مع تغييرات طفيفة. تمنحك معرفة هذه الفئات فهرسًا ذهنيًا للتنبيهات التي ستواجهها ضمن فريق أمني.
 
-*Individual malware families appear and disappear within months. The attack categories below have stayed stable for years, and each one leaves a recognizable trail in endpoint, identity, network, or email telemetry.*
+*تظهر عائلات البرمجيات الخبيثة الفردية وتختفي خلال أشهر. أما فئات الهجمات أدناه فبقيت مستقرة لسنوات، ويترك كل منها أثرًا مميزًا في بيانات القياس عن بُعد للأجهزة الطرفية والهويات والشبكات والبريد الإلكتروني.*
 
 <!--more-->
 
 ## أهم النقاط
 
-- **Learn the pattern, not the payload.** Attack categories change far slower than individual tools.
-- **Every category leaves evidence.** The detection work starts with knowing which telemetry records the activity.
-- **Reproduce an attack to understand it.** A home lab turns an abstract category into a recorded observation.
-- **Write up what you found.** A short investigation note proves the work and teaches you the evidence.
+- **تعلّم النمط، لا الحمولة.** تتغير فئات الهجمات أبطأ بكثير من الأدوات الفردية.
+- **لكل فئة أدلة.** يبدأ عمل الاكتشاف بمعرفة بيانات القياس التي تسجل النشاط.
+- **أعِد تنفيذ هجوم لفهمه.** يحوّل المختبر المنزلي الفئة المجردة إلى ملاحظة مسجلة.
+- **وثّق ما توصلت إليه.** تثبت ملاحظة التحقيق القصيرة العمل وتوضح الأدلة التي جمعتها.
 
-## The Attack Types at a Glance
+## نظرة سريعة على أنواع الهجمات
 
-The table below lists the categories security teams meet most often. Each later section describes the category, its common variants, and the data a defender reviews to find it.
+يسرد الجدول الفئات التي تواجهها فرق الأمن غالبًا. وتشرح الأقسام التالية كل فئة ومتغيراتها الشائعة والبيانات التي يراجعها المدافع لاكتشافها.
 
-| Attack type | What it does |
+| نوع الهجوم | ما الذي يفعله |
 |---|---|
-| **Malware** | Runs malicious software such as ransomware, spyware, and trojans |
-| **Denial of service** | Floods a service with traffic until legitimate users lose access |
-| **Phishing** | Tricks a person into revealing credentials or running a malicious file |
-| **Spoofing** | Disguises an attacker as a trusted system, sender, or address |
-| **Identity-based attacks** | Abuses stolen or forged credentials to act as a valid user |
-| **Code injection** | Inserts malicious code into an application to change its behavior |
-| **Supply chain attacks** | Compromises a trusted vendor, library, or update channel |
-| **Social engineering** | Manipulates a person into taking an unsafe action |
-| **Insider threats** | Misuses access held by a current or former employee |
-| **DNS tunneling** | Encodes data inside DNS queries to move it past controls |
-| **IoT attacks** | Targets connected devices to pivot, spy, or join a botnet |
-| **AI-powered attacks** | Uses machine learning to generate content, impersonate people, or evade filters |
+| **البرمجيات الخبيثة** | تشغّل برامج ضارة مثل برامج الفدية وبرامج التجسس وأحصنة طروادة |
+| **حجب الخدمة** | تغمر خدمةً بحركة المرور حتى يفقد المستخدمون الشرعيون إمكانية الوصول |
+| **التصيد الاحتيالي** | تخدع شخصًا لكشف بيانات اعتماده أو تشغيل ملف ضار |
+| **انتحال الهوية** | يظهر المهاجم على أنه نظام أو مُرسِل أو عنوان موثوق |
+| **الهجمات القائمة على الهوية** | تسيء استخدام بيانات اعتماد مسروقة أو مزورة للتصرف كمستخدم صالح |
+| **حقن التعليمات البرمجية** | تدرج تعليمات ضارة في تطبيق لتغيير سلوكه |
+| **هجمات سلسلة التوريد** | تخترق موردًا أو مكتبة أو قناة تحديث موثوقًا بها |
+| **الهندسة الاجتماعية** | تتلاعب بشخص ليدفعه إلى عمل غير آمن |
+| **التهديدات الداخلية** | تسيء استخدام صلاحيات موظف حالي أو سابق |
+| **نفق DNS** | ترمّز بيانات داخل استعلامات DNS لتجاوز أدوات التحكم |
+| **هجمات إنترنت الأشياء** | تستهدف أجهزة متصلة للتنقل عبر الشبكة أو التجسس أو الانضمام إلى شبكة روبوتات |
+| **الهجمات المدعومة بالذكاء الاصطناعي** | تستخدم التعلم الآلي لإنشاء محتوى أو انتحال أشخاص أو تجاوز المرشحات |
 
-**A note on scope:** these categories overlap. A phishing email often delivers malware, and a successful credential theft often precedes an identity-based attack. Treat the list as a set of lenses rather than rigid boxes.
+**ملاحظة حول النطاق:** تتداخل هذه الفئات. فغالبًا ما توصل رسالة تصيد برمجيات خبيثة، وكثيرًا ما تسبق سرقة بيانات الاعتماد هجومًا قائمًا على الهوية. تعامل مع القائمة على أنها مجموعة زوايا تحليل، لا صناديق جامدة.
 
 ______
 
-## Malware
+## البرمجيات الخبيثة
 
-**Malware** covers any program built to harm, control, or profit from a system. The term spans ransomware, fileless malware, spyware, adware, trojans, worms, rootkits, keyloggers, and botnets.
+**البرمجيات الخبيثة** هي أي برنامج صُمم لإلحاق الضرر بنظام أو التحكم فيه أو تحقيق ربح منه. وتشمل برامج الفدية والبرمجيات الخبيثة التي لا تكتب ملفات وبرامج التجسس والبرامج الإعلانية وأحصنة طروادة والديدان والجذور الخفية ومسجلات ضغطات المفاتيح وشبكات الروبوتات.
 
-| Subtype | Behavior |
+| النوع الفرعي | السلوك |
 |---|---|
-| **Ransomware** | Encrypts files and demands payment for the decryption key |
-| **Fileless malware** | Runs through built-in system tools and writes little to disk |
-| **Spyware** | Collects activity data without the user's knowledge |
-| **Trojan** | Poses as legitimate software to gain execution |
-| **Worm** | Copies itself across hosts without user action |
-| **Rootkit** | Hides inside the operating system to keep persistent control |
+| **برامج الفدية** | تشفّر الملفات وتطلب مالًا مقابل مفتاح فك التشفير |
+| **برمجيات خبيثة بلا ملفات** | تستخدم أدوات النظام المضمنة ولا تكتب إلا القليل على القرص |
+| **برامج التجسس** | تجمع بيانات النشاط دون علم المستخدم |
+| **حصان طروادة** | يتظاهر بأنه برنامج شرعي لكي يُشغَّل |
+| **دودة** | تنسخ نفسها بين الأجهزة المضيفة دون إجراء من المستخدم |
+| **جذر خفي** | يختبئ داخل نظام التشغيل للحفاظ على التحكم مدة طويلة |
 
-**Where the evidence lives:** endpoint detection and response tools, or **EDR**, record process trees, command lines, file writes, and registry changes. Even a fileless attack produces process and script-block telemetry, because the operating system still launches the tools it abuses.
+**موضع الأدلة:** تسجل أدوات الكشف والاستجابة للأجهزة الطرفية، أو **EDR**، أشجار العمليات وأسطر الأوامر وكتابة الملفات وتغييرات السجل. كما يترك الهجوم الذي لا يستخدم ملفات بيانات للعمليات والنصوص البرمجية، لأن نظام التشغيل لا يزال يشغّل الأدوات التي يستغلها المهاجم.
 
 ______
 
-## Denial of Service
+## حجب الخدمة
 
-**A denial-of-service (DoS) attack** floods a target with requests until legitimate users lose access. **A distributed denial-of-service (DDoS) attack** repeats the same idea from many systems at once, which makes the traffic far harder to filter by source address.
+**يهدر هجوم حجب الخدمة (DoS)** الهدف بطلبات كثيرة حتى يفقد المستخدمون الشرعيون إمكانية الوصول. أما **هجوم حجب الخدمة الموزع (DDoS)** فيكرر الفكرة نفسها من أنظمة كثيرة في الوقت ذاته، مما يصعّب تصفية الحركة حسب عنوان المصدر.
 
-| Trait | DoS | DDoS |
+| السمة | DoS | DDoS |
 |---|---|---|
-| **Origin** | One system | Many systems |
-| **Blocking difficulty** | Moderate | High, since the sources span many networks |
-| **Typical impact** | Lost availability | Lost availability at larger scale |
+| **المصدر** | نظام واحد | أنظمة كثيرة |
+| **صعوبة الحظر** | متوسطة | مرتفعة، لأن المصادر موزعة على شبكات كثيرة |
+| **الأثر المعتاد** | فقدان الإتاحة | فقدان الإتاحة على نطاق أوسع |
 
-**Where the evidence lives:** traffic volume against a baseline, connection counts per source, request-rate spikes, and error-rate changes. Availability monitoring often alerts before the security team sees the event.
+**موضع الأدلة:** حجم الحركة مقارنة بخط الأساس، وعدد الاتصالات لكل مصدر، والارتفاع المفاجئ في معدل الطلبات، والتغيرات في معدل الأخطاء. وغالبًا ما يصدر نظام مراقبة الإتاحة تنبيهًا قبل أن يلاحظ فريق الأمن الحدث.
 
 ______
 
-## Phishing
+## التصيد الاحتيالي
 
-**Phishing** uses email, text messages, phone calls, or social media to push a person toward revealing credentials or running a malicious attachment. The category splits by target and channel.
+**يستخدم التصيد الاحتيالي** البريد الإلكتروني أو الرسائل النصية أو المكالمات الهاتفية أو وسائل التواصل الاجتماعي لدفع شخص إلى كشف بيانات اعتماده أو تشغيل مرفق ضار. وتختلف المتغيرات حسب الهدف والقناة.
 
-| Variant | Target and channel |
+| المتغير | الهدف والقناة |
 |---|---|
-| **Spear phishing** | A specific person or team, usually by email |
-| **Whaling** | Senior or executive staff, often to move money or data |
-| **Smishing** | Fraudulent text messages |
-| **Vishing** | Fraudulent phone calls or voice messages |
+| **التصيد الموجّه** | شخص أو فريق محدد، غالبًا عبر البريد الإلكتروني |
+| **تصيد كبار المسؤولين** | الموظفون التنفيذيون وكبار المسؤولين، وغالبًا بغرض نقل المال أو البيانات |
+| **التصيد عبر الرسائل النصية** | رسائل نصية احتيالية |
+| **التصيد الصوتي** | مكالمات أو رسائل صوتية احتيالية |
 
-**Where the evidence lives:** mail-gateway logs, URL detonation results, attachment analysis, and user reports. A report from a cautious employee is one of the highest-value signals on this list.
+**موضع الأدلة:** سجلات بوابة البريد، ونتائج فحص عناوين URL، وتحليل المرفقات، وبلاغات المستخدمين. ويُعد بلاغ موظف متيقظ من أعلى الإشارات قيمةً في هذه القائمة.
 
 ______
 
-## Spoofing
+## انتحال الهوية
 
-**Spoofing** hides an attacker behind a trusted identity so a target accepts the connection, message, or address. The disguise buys time and defeats checks built around trust.
+**يخفي انتحال الهوية** المهاجم وراء هوية موثوق بها كي يقبل الهدف الاتصال أو الرسالة أو العنوان. يمنح هذا القناع المهاجم وقتًا ويتجاوز الفحوص المبنية على الثقة.
 
-| Type | What gets faked |
+| النوع | ما الذي يُزوَّر |
 |---|---|
-| **Domain spoofing** | A lookalike website or email domain impersonating a real brand |
-| **Email spoofing** | The sender address on a message |
-| **ARP spoofing** | A local network address, to intercept traffic between two hosts |
+| **انتحال النطاق** | موقع أو نطاق بريد مشابه ينتحل علامة تجارية حقيقية |
+| **انتحال البريد الإلكتروني** | عنوان المُرسِل في رسالة |
+| **انتحال ARP** | عنوان شبكة محلية لاعتراض الحركة بين جهازين مضيفين |
 
-**Where the evidence lives:** SPF, DKIM, and DMARC results in mail headers, domain registration age, certificate mismatches, and duplicate address warnings on a local network.
+**موضع الأدلة:** نتائج SPF وDKIM وDMARC في ترويسات البريد، وعمر تسجيل النطاق، وعدم تطابق الشهادات، وتحذيرات العناوين المكررة على الشبكة المحلية.
 
 ______
 
-## Identity-Based Attacks
+## الهجمات القائمة على الهوية
 
-**Identity-based attacks** use a valid account rather than a defect in software. The attacker holds a working credential, so the activity sits close to normal use and blends into the background. This category drives a large share of the alerts a **security operations center (SOC)** handles each day.
+**تستخدم الهجمات القائمة على الهوية** حسابًا صالحًا بدلًا من استغلال عيب في البرامج. يمتلك المهاجم بيانات اعتماد صالحة، لذا يشبه النشاط الاستخدام العادي ويندمج في الخلفية. وتولّد هذه الفئة قدرًا كبيرًا من التنبيهات التي يعالجها **مركز العمليات الأمنية (SOC)** كل يوم.
 
-*If you practice one category in a home lab, choose this one. The signals are rich, the exercises repeat, and the setup stays small.*
+*إذا تدربت على فئة واحدة فقط في مختبر منزلي، فاختر هذه الفئة. إشاراتها غنية، والتمارين قابلة للتكرار، والإعداد محدود.*
 
-| Technique | What happens |
+| الأسلوب | ما يحدث |
 |---|---|
-| **Kerberoasting** | Requests a service ticket, then cracks the encrypted password offline |
-| **Man-in-the-middle (MITM)** | Sits between two parties to read or alter a session |
-| **Pass-the-hash** | Reuses a stolen password hash to open a new session |
-| **Golden ticket** | Forges a Kerberos ticket-granting ticket for broad domain access |
-| **Silver ticket** | Forges a service ticket for one specific service |
-| **Credential harvesting** | Collects usernames and passwords in bulk |
-| **Credential stuffing** | Replays one set of credentials across many unrelated sites |
-| **Password spraying** | Tries one common password across many accounts |
-| **Brute force** | Guesses many passwords against one account |
-| **Downgrade** | Forces a connection into a weaker protocol version |
+| **Kerberoasting** | يطلب تذكرة خدمة ثم يكسر كلمة المرور المشفرة دون اتصال |
+| **هجوم الوسيط (MITM)** | يتوسط بين طرفين لقراءة جلسة أو تعديلها |
+| **هجوم تمرير تجزئة كلمة المرور (Pass-the-Hash)** | يعيد استخدام تجزئة كلمة مرور مسروقة لفتح جلسة جديدة |
+| **Golden ticket** | يزوّر تذكرة Kerberos للحصول على وصول واسع إلى النطاق |
+| **Silver ticket** | يزوّر تذكرة خدمة لخدمة محددة |
+| **جمع بيانات الاعتماد** | يجمع أسماء المستخدمين وكلمات المرور بالجملة |
+| **حشو بيانات الاعتماد** | يعيد تجربة بيانات اعتماد واحدة على مواقع كثيرة غير مرتبطة |
+| **رش كلمات المرور** | يجرّب كلمة مرور شائعة على حسابات كثيرة |
+| **القوة الغاشمة** | يجرّب كلمات مرور كثيرة على حساب واحد |
+| **خفض مستوى البروتوكول** | يفرض استخدام إصدار أضعف من البروتوكول للاتصال |
 
-**Where the evidence lives:** sign-in records, failed-authentication counts, token anomalies, impossible-travel flags, and identity risk detections. **Adversary-in-the-middle (AiTM) phishing** belongs here too, because the attacker steals a live session token rather than a password, and the replay from unfamiliar infrastructure trips the identity risk engine.
+**موضع الأدلة:** سجلات تسجيل الدخول، وعدد محاولات المصادقة الفاشلة، وشذوذ الرموز، وتنبيهات الانتقال المستحيل، واكتشاف مخاطر الهوية. ويندرج **التصيد بأسلوب adversary-in-the-middle (AiTM)** هنا أيضًا، لأن المهاجم يسرق رمز جلسة فعالًا بدل كلمة المرور؛ وتؤدي إعادة استخدامه من بنية تحتية غير مألوفة إلى تشغيل محرك مخاطر الهوية.
 
 ______
 
-## Code Injection
+## حقن التعليمات البرمجية
 
-**Code injection** places attacker-controlled code inside a vulnerable application so the application runs it as part of normal work. The application, not the attacker, carries out the harmful action.
+**يضع حقن التعليمات البرمجية** تعليمات يتحكم فيها المهاجم داخل تطبيق عرضة للخطر، كي يشغّلها التطبيق ضمن عمله المعتاد. ينفذ التطبيق الفعل الضار، لا المهاجم.
 
-| Type | Target |
+| النوع | الهدف |
 |---|---|
-| **SQL injection** | A database query built from unvalidated input |
-| **Cross-site scripting (XSS)** | A web page which renders attacker script in a visitor's browser |
-| **Malvertising** | A legitimate ad slot filled with malicious code |
-| **Data poisoning** | A training set for an AI or machine learning model |
+| **حقن SQL** | استعلام قاعدة بيانات يُبنى من مدخلات لم تُتحقق صحتها |
+| **البرمجة النصية عبر المواقع (XSS)** | صفحة ويب تعرض نص المهاجم البرمجي في متصفح الزائر |
+| **الإعلانات الخبيثة** | مساحة إعلانية مشروعة تُملأ بتعليمات ضارة |
+| **تسميم البيانات** | مجموعة تدريب لنموذج ذكاء اصطناعي أو تعلم آلي |
 
-**Where the evidence lives:** web application logs, database query records, content security policy reports, and request patterns which differ from normal application use.
-
-______
-
-## Supply Chain Attacks
-
-**A supply chain attack** targets a trusted third party whose product or service reaches many customers. A **software supply chain attack** injects malicious code into an application, library, or update so every user of the product receives it. A **hardware supply chain attack** compromises a physical component before it ships.
-
-*Modern software leans on third-party libraries, so one compromised dependency reaches far past the original vendor.*
-
-**Where the evidence lives:** software composition analysis, build-pipeline records, unexpected outbound connections from a trusted update, and integrity checks on shipped artifacts.
+**موضع الأدلة:** سجلات تطبيقات الويب، وسجلات استعلام قاعدة البيانات، وتقارير سياسة أمان المحتوى، وأنماط الطلبات التي تختلف عن الاستخدام الطبيعي للتطبيق.
 
 ______
 
-## Social Engineering
+## هجمات سلسلة التوريد
 
-**Social engineering** uses psychological pressure to move a person toward an unsafe action. The attacker appeals to authority, urgency, fear, money, or trust.
+**يستهدف هجوم سلسلة التوريد** طرفًا ثالثًا موثوقًا يصل منتجه أو خدمته إلى عملاء كثيرين. **يحقن هجوم سلسلة توريد البرامج** تعليمات ضارة في تطبيق أو مكتبة أو تحديث، فتصل إلى كل مستخدمي المنتج. أما **هجوم سلسلة توريد الأجهزة** فيخترق مكوّنًا ماديًا قبل شحنه.
 
-| Technique | Approach |
+*تعتمد البرامج الحديثة على مكتبات خارجية، لذا قد يصل أثر تبعية واحدة مخترقة إلى نطاق أوسع بكثير من المورد الأصلي.*
+
+**موضع الأدلة:** تحليل مكونات البرامج، وسجلات مسار البناء، والاتصالات الصادرة غير المتوقعة من تحديث موثوق، وفحوص سلامة القطع البرمجية الموزعة.
+
+______
+
+## الهندسة الاجتماعية
+
+**تستخدم الهندسة الاجتماعية** الضغط النفسي لدفع شخص إلى عمل غير آمن. ويلجأ المهاجم إلى السلطة أو الاستعجال أو الخوف أو المال أو الثقة.
+
+| الأسلوب | طريقة العمل |
 |---|---|
-| **Pretexting** | Invents a believable scenario to gain trust |
-| **Business email compromise (BEC)** | Impersonates a trusted colleague to redirect a payment or share data |
-| **Disinformation** | Spreads false narratives through social media and bots |
-| **Quid pro quo** | Offers a reward in exchange for information or access |
-| **Honeytrap** | Builds a false relationship to extract money, data, or access |
-| **Tailgating** | Follows an employee through a secured door |
+| **الذريعة** | يختلق موقفًا معقولًا لكسب الثقة |
+| **اختراق البريد التجاري (BEC)** | ينتحل شخصية زميل موثوق لتحويل دفعة أو مشاركة بيانات |
+| **التضليل** | ينشر روايات كاذبة عبر وسائل التواصل والروبوتات |
+| **مقابل منفعة** | يعرض مكافأة مقابل معلومات أو وصول |
+| **علاقة طُعم** | يبني علاقة زائفة لاستخراج المال أو البيانات أو الوصول |
+| **التسلل خلف موظف** | يتبع موظفًا عبر باب محمي |
 
-**Where the evidence lives:** email authentication results, unusual payment-change requests, helpdesk records, and physical access logs.
-
-______
-
-## Insider Threats
-
-**An insider threat** is misuse of access by a current or former employee, contractor, or partner. Some insiders act with intent, driven by money or grievance. Others act through negligence, such as leaving credentials in a shared document.
-
-*Negligent insiders appear more often than malicious ones in incident reports, and both call for the same detective control: compare access against a baseline for the role.*
-
-**Where the evidence lives:** data-transfer volume, activity outside normal hours, privilege changes, and bulk downloads from sensitive repositories.
+**موضع الأدلة:** نتائج مصادقة البريد، وطلبات تغيير الدفع غير المعتادة، وسجلات مكتب المساعدة، وسجلات الدخول المادي.
 
 ______
 
-## DNS Tunneling
+## التهديدات الداخلية
 
-**DNS tunneling** encodes data inside DNS queries and responses. Almost every network permits DNS, so the technique moves data past controls built to inspect web traffic.
+**التهديد الداخلي** هو إساءة استخدام الوصول من موظف حالي أو سابق أو متعاقد أو شريك. يتصرف بعضهم عمدًا بدافع المال أو الاستياء، ويتصرف آخرون بإهمال، مثل ترك بيانات الاعتماد في مستند مشترك.
 
-*Detection leans on volume and shape. A single host sending thousands of queries to one domain stands apart from a normal baseline, and unusually long subdomains hint at an encoded payload.*
+*تظهر التهديدات الداخلية الناتجة عن الإهمال في تقارير الحوادث أكثر من التهديدات المتعمدة. ويتطلب النوعان ضابط الاكتشاف نفسه: مقارنة الوصول بخط أساس خاص بالدور الوظيفي.*
 
-**Where the evidence lives:** DNS query records, query length and volume per host, uncommon record types such as TXT, and lookups to domains registered days earlier.
-
-______
-
-## IoT-Based Attacks
-
-**An IoT-based attack** targets a connected device such as a camera, printer, thermostat, or sensor. Weak default credentials and rare firmware updates make these devices a common foothold. Once compromised, a device joins a botnet, leaks data, or becomes a route into the wider network.
-
-*The 5G rollout adds connected devices at scale, and each new device is another target with a long patch cycle.*
-
-**Where the evidence lives:** device inventory, outbound connection patterns, abnormal data transfer from a device with a fixed role, and firmware version drift across a fleet.
+**موضع الأدلة:** حجم نقل البيانات، والنشاط خارج الساعات المعتادة، وتغييرات الصلاحيات، والتنزيلات المجمعة من المستودعات الحساسة.
 
 ______
 
-## AI-Powered Attacks
+## نفق DNS
 
-**AI-powered attacks** apply machine learning to the attacker's side of the work.
+**يرمّز نفق DNS** البيانات داخل استعلامات DNS وردودها. تسمح كل الشبكات تقريبًا باستخدام DNS، لذلك تنقل هذه التقنية البيانات متجاوزةً أدوات التحكم المخصصة لفحص حركة الويب.
 
-| Technique | Use |
+*يعتمد الاكتشاف على الحجم والشكل. يختلف مضيف واحد يرسل آلاف الاستعلامات إلى نطاق واحد عن خط الأساس الطبيعي، وتشير النطاقات الفرعية الطويلة على نحو غير مألوف إلى حمولة مرمّزة.*
+
+**موضع الأدلة:** سجلات استعلامات DNS، وطول الاستعلامات وحجمها لكل مضيف، وأنواع السجلات غير الشائعة مثل TXT، وعمليات البحث عن نطاقات سُجلت قبل أيام قليلة.
+
+______
+
+## هجمات أجهزة إنترنت الأشياء
+
+**يستهدف هجوم إنترنت الأشياء** جهازًا متصلًا مثل كاميرا أو طابعة أو منظم حرارة أو مستشعر. تجعل بيانات الاعتماد الافتراضية الضعيفة وتحديثات البرامج الثابتة النادرة هذه الأجهزة نقطة دخول شائعة. وبعد اختراقه، قد ينضم الجهاز إلى شبكة روبوتات أو يسرّب البيانات أو يصبح طريقًا إلى الشبكة الأوسع.
+
+*تضيف توسعة الجيل الخامس أجهزة متصلة بأعداد كبيرة، ويشكّل كل جهاز جديد هدفًا آخر ذي دورة تحديث طويلة.*
+
+**موضع الأدلة:** جرد الأجهزة، وأنماط الاتصالات الصادرة، ونقل بيانات غير طبيعي من جهاز ذي دور ثابت، واختلاف إصدار البرنامج الثابت بين أجهزة المجموعة.
+
+______
+
+## الهجمات المدعومة بالذكاء الاصطناعي
+
+**تستخدم الهجمات المدعومة بالذكاء الاصطناعي** التعلم الآلي في جانب المهاجم.
+
+| الأسلوب | الاستخدام |
 |---|---|
-| **Adversarial AI/ML** | Manipulates training data or inputs to mislead a model |
-| **Dark AI** | Applies AI and machine learning specifically to exploit vulnerabilities |
-| **Deepfake** | Generates realistic fake audio, video, or images |
-| **AI-generated social engineering** | Runs convincing chat or voice conversations at scale |
+| **الذكاء الاصطناعي/التعلم الآلي الخصومي** | يتلاعب ببيانات التدريب أو المدخلات لتضليل نموذج |
+| **Dark AI** | يستخدم الذكاء الاصطناعي والتعلم الآلي تحديدًا لاستغلال الثغرات |
+| **التزييف العميق** | ينشئ صوتًا أو فيديو أو صورًا مزيفة واقعية |
+| **الهندسة الاجتماعية المُنشأة بالذكاء الاصطناعي** | يدير محادثات مقنعة بالصوت أو الدردشة على نطاق واسع |
 
-*A deepfake voice call or a fluent phishing chat raises the credibility of an old trick. The underlying technique stays familiar, which is why detection skills built on behavior outlast detection skills tied to one tool.*
+*تزيد مكالمة بصوت مزيف عميق أو محادثة تصيد سلسة من مصداقية حيلة قديمة. وتظل التقنية الأساسية مألوفة، لذلك تدوم مهارات الاكتشاف المبنية على السلوك أكثر من المهارات المرتبطة بأداة واحدة.*
 
-**Where the evidence lives:** content provenance signals, out-of-band verification for money or access requests, and behavioral anomalies around identity and payment changes.
+**موضع الأدلة:** مؤشرات مصدر المحتوى، والتحقق عبر قناة منفصلة لطلبات المال أو الوصول، والشذوذ السلوكي المتعلق بتغييرات الهوية والمدفوعات.
 
 ______
 
-## Mapping Attacks to Telemetry
+## ربط الهجمات ببيانات القياس عن بُعد
 
-Each category feeds a different data source. The table below pairs them, which gives you a starting point for detection work.
+ترتبط كل فئة بمصدر بيانات مختلف. يطابق الجدول بينها ويمنحك نقطة بداية لعمل الاكتشاف.
 
-| Attack type | Primary telemetry |
+| نوع الهجوم | بيانات القياس الأساسية |
 |---|---|
-| **Malware** | EDR process, file, and registry records |
-| **Denial of service** | Network flow and availability monitors |
-| **Phishing** | Mail gateway and URL detonation records |
-| **Spoofing** | Mail authentication and network address records |
-| **Identity-based** | Sign-in and identity protection records |
-| **Code injection** | Web application and database query logs |
-| **Supply chain** | Build pipeline and dependency inventory |
-| **Social engineering** | Mail, helpdesk, and physical access records |
-| **Insider threat** | Data access and transfer records |
-| **DNS tunneling** | DNS query records |
-| **IoT** | Device inventory and outbound flow records |
-| **AI-powered** | Identity, payment, and content provenance records |
+| **البرمجيات الخبيثة** | سجلات EDR للعمليات والملفات والسجل |
+| **حجب الخدمة** | تدفقات الشبكة ومراقبة الإتاحة |
+| **التصيد الاحتيالي** | سجلات بوابة البريد وفحص عناوين URL |
+| **انتحال الهوية** | سجلات مصادقة البريد وعناوين الشبكة |
+| **القائمة على الهوية** | سجلات تسجيل الدخول وحماية الهوية |
+| **حقن التعليمات البرمجية** | سجلات تطبيقات الويب واستعلامات قواعد البيانات |
+| **سلسلة التوريد** | مسار البناء وجرد التبعيات |
+| **الهندسة الاجتماعية** | سجلات البريد ومكتب المساعدة والوصول المادي |
+| **التهديد الداخلي** | سجلات الوصول إلى البيانات ونقلها |
+| **نفق DNS** | سجلات استعلامات DNS |
+| **إنترنت الأشياء** | جرد الأجهزة وسجلات التدفقات الصادرة |
+| **المدعومة بالذكاء الاصطناعي** | سجلات الهوية والمدفوعات ومصدر المحتوى |
 
-*Begin detection work with the telemetry column. A useful rule grows from a known data source and a known behavior, not from a tool name.*
+*ابدأ عمل الاكتشاف بعمود القياس عن بُعد. تنشأ القاعدة المفيدة من مصدر بيانات معروف وسلوك معروف، لا من اسم أداة.*
 
-**Categories overlap during an incident.** A phishing message can lead to credential theft, malware execution, and an identity-based intrusion. Label the initial access technique, then record the follow-on behaviors separately. This keeps one event from becoming four unrelated alerts and gives your investigation a clearer timeline.
+**تتداخل الفئات أثناء الحادث.** قد تؤدي رسالة تصيد إلى سرقة بيانات اعتماد وتشغيل برمجيات خبيثة واختراق قائم على الهوية. صنّف أسلوب الدخول الأولي، ثم سجّل السلوكيات اللاحقة بصورة منفصلة. يمنع ذلك تحويل حدث واحد إلى أربعة تنبيهات غير مترابطة، ويمنح التحقيق خطًا زمنيًا أوضح.
 
 ______
 
-## Practice Detecting Them in a Lab
+## تدرّب على اكتشافها في مختبر
 
-A category stays abstract until you watch it happen. A home lab lets you generate the activity, capture the telemetry, and compare the alert against the raw record. The [career video on building a security operations center](https://www.youtube.com/watch?v=s3g8o7Np1_g) shows the full build for gaining job experience before being hired.
+تظل الفئة مجردة حتى تراقبها أثناء العمل. يتيح لك المختبر المنزلي إنشاء النشاط وجمع بيانات القياس ومقارنة التنبيه بالسجل الخام. يوضح [فيديو مهني عن بناء مركز للعمليات الأمنية](https://www.youtube.com/watch?v=s3g8o7Np1_g) عملية الإعداد كاملة لاكتساب خبرة عملية قبل التوظيف.
 
 {{< youtube id="s3g8o7Np1_g" >}}
 
-Start with the identity category. Create a test user, enable sign-in logging, and run a sequence of failed and successful sign-ins. Then read the sign-in record and write down the fields which separate normal use from the exercise.
+ابدأ بفئة الهوية. أنشئ مستخدمًا للاختبار، وفعّل تسجيل الدخول، ثم نفّذ سلسلة من محاولات الدخول الناجحة والفاشلة. بعد ذلك اقرأ سجل الدخول واكتب الحقول التي تميّز الاستخدام العادي عن التمرين.
 
-**A repeatable exercise:**
+**تمرين قابل للتكرار:**
 
-1. **Pick one category** from the telemetry table above.
-2. **Reproduce a benign version** of the activity against your own test system or account.
-3. **Collect the telemetry** the category produces.
-4. **Write the detection idea** as a rule, a saved search, or a query.
-5. **Test the rule** against the exercise and confirm it fires on the intended behavior.
-6. **Record the limits** of the rule, including the activity it misses.
+1. **اختر فئة واحدة** من جدول القياس عن بُعد أعلاه.
+2. **أعِد تنفيذ نسخة آمنة** من النشاط على نظامك أو حسابك التجريبي.
+3. **اجمع بيانات القياس** التي تنتجها الفئة.
+4. **اكتب فكرة الاكتشاف** في صورة قاعدة أو بحث محفوظ أو استعلام.
+5. **اختبر القاعدة** على التمرين وتأكد من أنها تعمل للسلوك المقصود.
+6. **سجّل حدود القاعدة**، بما في ذلك الأنشطة التي لا تكتشفها.
 
-The [Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/) covers the environment build in detail: licensing, network segmentation, log collection, and identity control testing. The [Mad Hat Cyber Range guide](https://madhat.io/pages/cyber-range-guide) expands the same idea into a workshop-grade build with an attack, detect, and defend exercise.
+يفصّل [دليل مختبر Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/) بناء البيئة: التراخيص وتقسيم الشبكة وجمع السجلات واختبار ضوابط الهوية. ويوسع [دليل Mad Hat Cyber Range](https://madhat.io/pages/cyber-range-guide) الفكرة نفسها ضمن بيئة ورشة عمل تشمل تمارين الهجوم والاكتشاف والدفاع.
 
-For a consistent vocabulary, map the observed behavior to the relevant [MITRE ATT&CK technique](https://attack.mitre.org/). Treat the mapping as an analyst aid, not as proof of attribution. Keep the raw event, query, rule version, and known blind spots with the exercise record.
+للحفاظ على مفردات متسقة، اربط السلوك الذي لاحظته بتقنية [MITRE ATT&CK](https://attack.mitre.org/) المناسبة. تعامل مع هذا الربط على أنه أداة مساعدة للمحلل، لا دليلًا على الإسناد. احتفظ بالحدث الخام والاستعلام وإصدار القاعدة والنقاط العمياء المعروفة مع سجل التمرين.
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
-  Read the Microsoft SOC Home Lab Guide
+  اقرأ دليل Microsoft SOC Home Lab
 {{< /centerbutton >}}
 
 ______
 
 ## الخطوات التالية
 
-Start with one category and one exercise. Add a second category after you complete and document the first. The goal is depth on a single investigation, not a checklist of tools.
+ابدأ بفئة واحدة وتمرين واحد. أضف فئة ثانية بعد إكمال الأولى وتوثيقها. الهدف هو التعمق في تحقيق واحد، لا إعداد قائمة بالأدوات.
 
-- **[Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/)** builds the environment for these exercises.
-- **[Building an IT home lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** covers the infrastructure layer underneath a security lab.
-- **[IT resume writing tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** shows how to present a documented lab as practical experience.
-- **[The top five cyber attack vectors and mitigations](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** narrows the list to the vectors seen most often.
+- **[دليل Microsoft SOC Home Lab](/articles/microsoft-soc-home-lab-2026/)** ينشئ البيئة اللازمة لهذه التمارين.
+- **[إنشاء مختبر تقنية معلومات منزلي](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)** يشرح البنية التحتية التي يقوم عليها مختبر الأمن.
+- **[نصائح لكتابة سيرة ذاتية في تقنية المعلومات](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)** توضح كيفية عرض المختبر الموثق بوصفه خبرة عملية.
+- **[أهم خمسة مسارات للهجوم السيبراني ووسائل الحد منها](/articles/the-top-five-cyber-attack-vectors-and-mitigations/)** تحصر القائمة في المسارات الأكثر شيوعًا.
 
-**Source material:** the attack categories and their subtypes follow [CrowdStrike's overview of common cyberattacks](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) by Kurt Baker. Product and reference links point to Microsoft documentation.
+**المصادر:** تتبع فئات الهجمات وأنواعها الفرعية [نظرة CrowdStrike العامة على الهجمات السيبرانية الشائعة](https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/common-cyberattacks/) بقلم Kurt Baker. وتشير روابط المنتجات والمراجع إلى وثائق Microsoft.

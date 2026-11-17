@@ -1,7 +1,7 @@
 ---
 title: "Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 'Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.'
@@ -174,12 +174,12 @@ Ten kompleksowy przewodnik analizuje najlepsze przeglądarki prywatności - **Li
 
 **Podstawowe modyfikacje about:config:**
 ```
-// Even stricter privacy (optional):
+// Jeszcze ściślejsza prywatność (opcjonalnie):
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // Pełna izolacja plików cookie
 
-// Performance optimization:
+// Optymalizacja wydajności:
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **Podstawowe ustawienia prywatności:**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+Ustawienia > Shields:
+✓ Blokowanie elementów śledzących i reklam: ścisłe
+✓ Ulepszaj połączenia do HTTPS
+✓ Blokuj skrypty (podczas wrażliwego przeglądania)
+✓ Blokowanie fingerprintingu: ścisłe
+✓ Blokuj pliki cookie: blokuj zewnętrzne
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+Ustawienia > Prywatność i bezpieczeństwo:
+✓ Zasady obsługi IP WebRTC: wyłącz UDP bez proxy
+✓ Bezpieczne przeglądanie: standardowa ochrona
+□ Zezwalaj na analitykę produktu chroniącą prywatność (wyłącz)
+✓ Automatycznie wysyłaj codzienny sygnał użycia: wyłączone
+✓ Autouzupełnianie wyszukiwania: wyłączone
 ```
 
 **Polecane rozszerzenia:**
@@ -404,14 +404,14 @@ Rewolucyjne podejście do zarządzania ciasteczkami:
 
 **1. Multi-Account Containers:**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Bezpłatne rozszerzenie od Mozilla
+Oddziel pliki cookie i historię według kontekstu:
+- Kontener osobisty (zielony)
+- Kontener służbowy (niebieski)
+- Kontener bankowy (czerwony)
+- Kontener zakupów (pomarańczowy)
 
-Prevents cross-contamination
+Zapobiega mieszaniu danych między kontekstami
 ```
 
 **2. Firefox Relay:**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. Sekcja Prywatność i bezpieczeństwo:**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ Wzmocniona ochrona przed śledzeniem: ścisła
+✓ Wysyłaj witrynom sygnał "Nie śledź": zawsze
+✓ Tryb tylko HTTPS: włącz we wszystkich oknach
+✓ DNS przez HTTPS: maksymalna ochrona (Cloudflare)
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Pliki cookie i dane witryn:
+✓ Usuwaj pliki cookie po zamknięciu Firefox
+□ Wszystkie zewnętrzne pliki cookie (zamiast tego użyj ETP)
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+Historia:
+○ Nigdy nie zapisuj historii (największa prywatność)
+● Użyj ustawień niestandardowych (zalecane):
+  ✓ Czyść historię po zamknięciu Firefox
+  ✓ Podpowiedzi paska adresu: tylko zakładki
 ```
 
 **2. Wzmacnianie:config:**
 ```
-// Resist fingerprinting
+// Ogranicz fingerprinting
 privacy.resistFingerprinting = true
 
-// First party isolation
+// Izolacja pierwszej strony
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// Ochrona WebRTC
 media.peerconnection.enabled = false
 
-// Referrer header control
+// Kontrola nagłówka odsyłacza
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// Wyłącz WebGL
+webgl.disabled = true (może zakłócić działanie niektórych witryn)
 
-// Letterboxing
+// Dodawanie pasów wypełniających
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **Sieć Onion:**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+Ty → Węzeł wejściowy → Węzeł pośredni → Węzeł wyjściowy → Witryna
+     [Zaszyfrowane]  [Zaszyfrowane]  [Niezaszyfrowane]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- Węzeł wejściowy zna Ciebie, ale nie cel
+- Węzeł pośredni nie zna żadnego z nich
+- Węzeł wyjściowy zna cel, ale nie Ciebie
+- Każda warstwa jest szyfrowana osobno
 ```
 
 **Trzy poziomy bezpieczeństwa:**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **Wskazówki bezpieczeństwa:**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ Nigdy nie maksymalizuj okna (fingerprinting)
+✓ Nie instaluj rozszerzeń
+✓ Używaj tylko witryn HTTPS
+✓ Nie pobieraj torrentów przez Tor
+✓ Nie loguj się na prawdziwe konta
+✗ Jeśli to możliwe, nie używaj Windows
+✓ Rozważ Tails OS dla maksymalnej anonimowości
+✓ Używaj mostów w regionach z cenzurą
 ```
 
 ### Tor a VPN
@@ -708,53 +708,53 @@ Testowane z identycznymi profilami przeglądania na 100 popularnych stronach:
 ### Szybkie drzewo decyzyjne
 
 ```
-Need maximum anonymity (journalists, activists)?
+Potrzebujesz maksymalnej anonimowości (dziennikarze, aktywiści)?
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+Chcesz prywatności, zgodności z Chrome i szybkości?
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+Chcesz Firefox bez telemetrii i maksymalną prywatność?
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+Chcesz popularnej przeglądarki z dobrą prywatnością i rozszerzeniami?
+    → Firefox (odpowiednio skonfigurowany)
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+Potrzebujesz mobilnej przeglądarki chroniącej prywatność?
+    → Brave (najlepszy ogólnie) lub Firefox Focus (najprostszy)
 ```
 
 ### Rekomendacje według zastosowań
 
 **Codzienne przeglądanie:**
-1. Brave
-2. Firefox
-3. LibreWolf
+Miejsce 1: Brave
+Miejsce 2: Firefox
+Miejsce 3: LibreWolf
 
 **Bankowość/zakupy:**
-1. Brave
-2. Firefox
-3. Chrome (strony często zoptymalizowane pod Chrome)
+Miejsce 1: Brave
+Miejsce 2: Firefox
+Miejsce 3: Chrome (strony często zoptymalizowane pod Chrome)
 
 **Badania/dziennikarstwo:**
-1. Tor Browser
-2. LibreWolf
-3. Brave
+Miejsce 1: Tor Browser
+Miejsce 2: LibreWolf
+Miejsce 3: Brave
 
 **Streaming treści:**
-1. Brave (wsparcie DRM)
-2. Firefox (z włączonym DRM)
-3. Chrome
+Miejsce 1: Brave (wsparcie DRM)
+Miejsce 2: Firefox (z włączonym DRM)
+Miejsce 3: Chrome
 
 **Programowanie/testowanie:**
-1. Firefox (doskonałe DevTools)
-2. Brave (testowanie Chromium)
-3. Chrome (referencyjne Chromium)
+Miejsce 1: Firefox (doskonałe DevTools)
+Miejsce 2: Brave (testowanie Chromium)
+Miejsce 3: Chrome (referencyjne Chromium)
 
 **Urządzenia mobilne:**
-1. Brave (bogate w funkcje)
-2. Firefox (rozszerzenia na Androidzie)
-3. Firefox Focus (prostota)
+Miejsce 1: Brave (bogate w funkcje)
+Miejsce 2: Firefox (rozszerzenia na Androidzie)
+Miejsce 3: Firefox Focus (prostota)
 
 ## Niezbędne rozszerzenia dla prywatności
 
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **Krok 2: Importuj dane**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+Plik → Importuj z innej przeglądarki
+Wybierz: Chrome
+Wybierz: zakładki, hasła i historię
+Import rozszerzeń: zainstaluj ponownie ręcznie
 ```
 
 **Krok 3: Skonfiguruj ustawienia prywatności**
@@ -922,6 +922,41 @@ Wielu użytkowników dbających o prywatność korzysta z kilku przeglądarek:
 - Chroni przed kradzieżą tożsamości
 - Zapobiega manipulacji
 - To podstawowe prawo człowieka
+
+## Testy przeglądarek dbających o prywatność w 2026 roku
+
+Nazwa marki przeglądarki nie dowodzi, że chroni ona prywatność. Przed codziennym użyciem sprawdź ustawienia domyślne, kanał aktualizacji, zasady dotyczące rozszerzeń i działanie synchronizacji.
+
+1. Pobieraj przeglądarkę z oficjalnej strony projektu lub zaufanego sklepu z aplikacjami. Unikaj przepakowanych wersji.
+2. Aktualizuj przeglądarkę i system operacyjny. Ustawienia prywatności nie naprawią niezałatanej przeglądarki.
+3. Sprawdź wbudowaną ochronę przed trackerami, fingerprintingiem, złośliwymi plikami i oszukańczymi stronami.
+4. Traktuj rozszerzenia jak oprogramowanie z uprzywilejowanym dostępem. Instaluj ich mniej, sprawdzaj uprawnienia i usuwaj nieużywane.
+5. Przetestuj przeglądarkę za pomocą [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) i [BrowserLeaks](https://browserleaks.com/). Test opisuje jeden profil przeglądarki, ale nie dowodzi anonimowości.
+6. Oddzielaj tożsamości za pomocą różnych profili przeglądarki. Nie loguj się do prywatnych kont w oknie Tor Browser używanym do wrażliwych badań.
+7. Używaj Tor Browser z domyślną konfiguracją. Dodatkowe czcionki, rozszerzenia i zmiana rozmiaru okna osłabiają korzyść ze wspólnego odcisku.
+
+LibreWolf jest odpowiedni dla osób, które chcą bardziej rygorystycznych ustawień domyślnych i akceptują sporadyczne problemy ze zgodnością. Brave sprawdzi się u osób, które chcą zgodności z Chromium i wbudowanego blokowania. Firefox pasuje osobom, które chcą wsparcia Mozilli i elastycznej kontroli prywatności. Tor Browser jest dla osób potrzebujących anonimowości na poziomie sieci, które akceptują niższą szybkość i zgodność z witrynami.
+
+[Podręcznik Tor Browser](https://tb-manual.torproject.org/) i [przewodnik prywatności Mozilla Firefox](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) szczegółowo opisują te ustawienia.
+
+## Aktualne granice prywatności i lista kontrolna
+
+Zabezpieczenia przeglądarki zmniejszają ujawnianie danych, ale nie anonimizują konta, urządzenia ani połączenia. **Tryb prywatny** usuwa wybrane lokalne dane historii po zakończeniu sesji. Nie ukrywa ruchu przed operatorem sieci ani nie uniemożliwia witrynie rozpoznania zalogowanego użytkownika. [Tor Project wyjaśnia tę różnicę](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
+
+**W fingerprintingu znaczenie ma to, jak liczna jest grupa użytkowników o podobnej konfiguracji.** Tor Browser próbuje umieszczać użytkowników we wspólnych grupach odcisków za pomocą letterboxingu, standaryzowanych wartości i izolacji pierwszej strony. Tor Project zaznacza, że pełna anonimowość jest niemożliwa. Bez konkretnego powodu nie dodawaj nietypowych rozszerzeń, nie maksymalizuj okna Tor ani nie zmieniaj ustawień domyślnych. [Przeczytaj zalecenia Tor dotyczące fingerprintingu](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+**LibreWolf wymaga regularnych aktualizacji.** Zgodnie z FAQ projektu nowe wersje często pojawiają się w ciągu trzech dni od wydania Firefox upstream, a przeglądarka nie ma własnego automatycznego aktualizatora. Używaj menedżera pakietów lub metody instalacji dla swojej platformy, a po aktualizacjach zabezpieczeń sprawdź zainstalowaną wersję. [Zobacz FAQ LibreWolf](https://librewolf.net/docs/faq/).
+
+Przed wyborem przeglądarki skorzystaj z tej listy:
+
+- **Model zagrożeń:** zdecyduj, czy chcesz ograniczyć śledzenie, oddzielić konta, przeciwdziałać cenzurze czy zachować anonimowość.
+- **Ścieżka aktualizacji:** ustal, kto dostarcza aktualizacje i jak będziesz je instalować.
+- **Zgodność:** przetestuj bankowość, pracę, media, rozszerzenia i dostępność przed przeniesieniem całego przepływu pracy.
+- **Oddzielenie tożsamości:** nie używaj prywatnych loginów w sesjach, które mają ograniczać powiązania między działaniami.
+- **Fingerprinting:** zachowaj ustawienia zbliżone do typowej konfiguracji przeglądarki. Wiele rozszerzeń prywatności może wyróżnić przeglądarkę.
+- **Warstwa sieciowa:** traktuj DNS, VPN i Tor jako oddzielne zabezpieczenia. Każde chroni inną część połączenia.
+
+Wyniki wydajności i prywatności podane w innych częściach tej strony są historycznymi pomiarami lub przykładami, jeśli nie podano metody, daty, profilu sprzętu i surowych danych. Nie traktuj ich jako aktualnych, uniwersalnych rankingów. Testuj własne strony i urządzenia po każdej dużej aktualizacji przeglądarki.
 
 ## Podsumowanie: Przejmij kontrolę nad swoją cyfrową prywatnością
 

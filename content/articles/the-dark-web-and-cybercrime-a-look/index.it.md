@@ -1,6 +1,7 @@
 ---
 title: "Il dark web e il crimine informatico: Svelare il ventre di Internet"
 date: 2023-05-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Esplora il mondo nascosto del dark web e la sua connessione con la criminalità informatica, scoprendo la sua duplice natura e il suo potenziale per il giornalismo e il whistleblowing."
@@ -50,25 +51,25 @@ Vale la pena notare che il potenziale del dark web per scopi giornalistici e di 
 
 Per proteggersi dal dark web e dalla criminalità informatica è necessario adottare misure proattive per mitigare i rischi. Ecco alcuni passi essenziali per proteggersi:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Fate attenzione quando condividete informazioni personali online, evitando di fornire dati sensibili a fonti sconosciute o non attendibili. Salvaguardate il vostro nome, indirizzo, numero di previdenza sociale e altri identificativi personali.
+[**1. Proteggete le informazioni personali:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Fate attenzione quando condividete informazioni personali online, evitando di fornire dati sensibili a fonti sconosciute o non attendibili. Salvaguardate il vostro nome, indirizzo, numero di previdenza sociale e altri identificativi personali.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utilizzate password forti e uniche per tutti i vostri account online. Evitate di riutilizzare le password su più piattaforme per evitare accessi non autorizzati in caso di violazione dei dati.
+[**2. Usate password robuste e uniche:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utilizzate password forti e uniche per tutti i vostri account online. Evitate di riutilizzare le password su più piattaforme per evitare accessi non autorizzati in caso di violazione dei dati.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Aggiornate regolarmente il vostro software, compresi i sistemi operativi, i browser web e i programmi antivirus. Questi aggiornamenti spesso contengono patch di sicurezza che risolvono le vulnerabilità e proteggono dalle minacce informatiche emergenti.
+[**3. Mantenete aggiornato il software:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Aggiornate regolarmente il vostro software, compresi i sistemi operativi, i browser web e i programmi antivirus. Questi aggiornamenti spesso contengono patch di sicurezza che risolvono le vulnerabilità e proteggono dalle minacce informatiche emergenti.
 
 **4. Praticate abitudini di navigazione sicure:** siate esigenti nei confronti dei siti web che visitate, evitando di cliccare sui link contenuti nelle e-mail o nei siti web sconosciuti. Attenetevi a fonti affidabili e verificate la legittimità dei siti web prima di condividere informazioni personali o finanziarie.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilizzate i firewall per controllare il traffico di rete in entrata e in uscita e distribuite un software antivirus affidabile per rilevare e rimuovere malware o attività sospette dai vostri dispositivi.
+[**5. Usate firewall e antivirus:**](https://simeononsecurity.com/recommendations/anti-virus/) Utilizzate i firewall per controllare il traffico di rete in entrata e in uscita e distribuite un software antivirus affidabile per rilevare e rimuovere malware o attività sospette dai vostri dispositivi.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Create regolarmente backup dei vostri dati e file importanti. In questo modo, anche se il computer è compromesso o i dati vengono rubati, è possibile ripristinare le informazioni e ridurre al minimo l'impatto di potenziali attacchi informatici.
+[**6. Eseguite regolarmente il backup dei dati:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Create regolarmente backup dei vostri dati e file importanti. In questo modo, anche se il computer è compromesso o i dati vengono rubati, è possibile ripristinare le informazioni e ridurre al minimo l'impatto di potenziali attacchi informatici.
 
 ## Regolamenti e iniziative governative
 
 I governi di tutto il mondo riconoscono sempre più la necessità di combattere il dark web e la criminalità informatica attraverso leggi e iniziative. Alcuni regolamenti e iniziative degni di nota sono:
 
-- Il [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/): Aimed at protecting the personal data and privacy of EU citizens, the GDPR sets strict guidelines and requirements for businesses and organizations handling personal information. More information can be found in [this article](https://gdpr.eu/)
+- Il [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/) mira a proteggere i dati personali e la privacy dei cittadini dell’UE. Il GDPR stabilisce linee guida e requisiti rigorosi per le aziende e le organizzazioni che trattano informazioni personali. Per saperne di più, consultate [questo articolo](https://gdpr.eu/).
 
-- Il [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Il [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) degli Stati Uniti promuove la condivisione di informazioni sulle minacce informatiche tra enti privati e governo, per rafforzare la sicurezza nazionale e ridurre i rischi informatici. Per ulteriori dettagli, consultate [questa documentazione](https://www.congress.gov/bill/114th-congress/senate-bill/754).
 
 Queste normative e iniziative svolgono un ruolo fondamentale nella promozione di un ambiente digitale più sicuro, ma la consapevolezza individuale e le pratiche proattive di cybersecurity rimangono fondamentali per combattere il dark web e la criminalità informatica.
 
@@ -78,5 +79,5 @@ Il dark web e la criminalità informatica rappresentano una minaccia significati
 
 Riferimenti:
 
-- Regolamento generale dell'Unione europea sulla protezione dei dati (GDPR): [link](https://gdpr.eu/)
-- Legge sulla condivisione delle informazioni sulla sicurezza informatica (CISA): [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Regolamento generale dell'Unione europea sulla protezione dei dati (GDPR): [testo del regolamento](https://gdpr.eu/)
+- Legge sulla condivisione delle informazioni sulla sicurezza informatica (CISA): [testo della legge](https://www.congress.gov/bill/114th-congress/senate-bill/754)

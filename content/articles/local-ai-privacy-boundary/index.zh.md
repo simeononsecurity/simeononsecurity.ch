@@ -1,7 +1,7 @@
 ---
 title: "本地 AI 隐私边界：哪些内容留在你的电脑上，哪些不会"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "在选择本地推理或托管 AI 服务前，追踪提示词、模型文件、工具、日志、网络暴露面和电力成本。"
@@ -78,6 +78,15 @@ Ollama 的 [FAQ](https://docs.ollama.com/faq)记录了仅本地模式。将 `dis
 
 重启后验证设置。仅本地运行时会缩小一条路径，但不会建立私有主机。
 
+
+## Ollama 语音与网络边界
+
+*Ollama 的 [v0.40.11 发布说明](https://github.com/ollama/ollama/releases/tag/v0.40.11) 宣布 macOS 支持语音生成。[API 参考](https://docs.ollama.com/api/openai-compatibility) 将 `/v1/audio/speech` 的时间标为 v0.40.8，因此 v0.40.11 并非此端点文档记录的首个版本。* 这是**文本转语音**，不是语音转文本：请求把文本发送给 Phonon 等语音模型，并接收流式音频。[语音指南](https://docs.ollama.com/capabilities/speech) 还展示了如何用 `ollama run phonon` 在本机播放音频，或在重定向输出时写入 WAV 文件。
+
+**本地语音路径**需要已下载的本地模型和本地服务器。Ollama 的 [FAQ](https://docs.ollama.com/faq) 说明服务器默认绑定到 `127.0.0.1:11434`，而 **`OLLAMA_HOST`** 会更改绑定地址。请用上文的 `lsof` 命令检查当前监听地址，不要假定默认值仍在生效。[Ollama API 入门](https://docs.ollama.com/api/introduction) 说明本地请求不需要 API 密钥。发送私密文本前，请用防火墙和访问控制限制任何更宽的绑定范围。
+
+**绑定到 loopback 并不构成完整边界。** Ollama 文档介绍了通过反向代理或隧道转发 HTTP 服务器的方式。即使 Ollama 自身仍监听 loopback，也要检查每个代理的监听地址、身份验证和请求日志。发送的文本和返回的音频都会经过代理连接。[Ollama 故障排除指南](https://docs.ollama.com/troubleshooting) 指出服务器日志的位置，但语音文档没有承诺音频保留策略。请检查客户端将 WAV 输出保存在哪里，以及代理或应用日志会保留在哪里。Ollama FAQ 表示，本地运行时 Ollama 看不到提示词或数据。下载模型需要网络，云模型则走不同路径。仅使用 Ollama 本地模型时，上文所述的 `OLLAMA_NO_CLOUD=1` 设置会停用 Ollama 云功能，但不会控制其他应用。
+
 ## 计算托管成本
 
 Token 价格会区分输入和输出。[Anthropic 将 Claude Haiku 5.5 的价格列为每百万输入 token 0.10 美元、每百万输出 token 0.50 美元，适用于不超过 100,000 token 的提示词](https://www.anthropic.com/claude/haiku)。超过 100,000 token 的提示词使用更高的列示价格。
@@ -97,7 +106,7 @@ Token 价格会区分输入和输出。[Anthropic 将 Claude Haiku 5.5 的价格
 使用下面的公式计算生成输出：
 
 ```text
-local cost per 1M output tokens =
+每 1M 输出词元的本地成本 =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -124,8 +133,8 @@ local cost per 1M output tokens =
 在每秒输出 50 token 时：
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 托管输出价格 - $0.40 本地电费 = 每 1M 个输出词元节省 $0.10
+$549 GPU 价格 / $0.10 = 约 55 亿个输出词元
 ```
 
 在每秒输出 94 token 时，四舍五入后的每百万 token 节省额上升到约 0.28 美元。回收 549 美元 GPU 成本需要约 20 亿输出 token。两个数字都不包括系统内存、存储、主板、电源、散热、维护和转售价值。
@@ -191,4 +200,10 @@ $549 GPU price / $0.10 = about 5.5 billion output tokens
 - [Anthropic Claude 平台价格](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI，了解和计算 token](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [Ollama 隐私政策](https://ollama.com/privacy)
+- [Ollama v0.40.11 发布说明](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Ollama 语音指南](https://docs.ollama.com/capabilities/speech)
+- [Ollama OpenAI 兼容 API 参考](https://docs.ollama.com/api/openai-compatibility)
+- [Ollama API 入门](https://docs.ollama.com/api/introduction)
+- [Ollama FAQ：服务器配置、云设置和反向代理](https://docs.ollama.com/faq)
+- [Ollama 故障排除和服务器日志](https://docs.ollama.com/troubleshooting)
 - [llama.cpp 服务器文档](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

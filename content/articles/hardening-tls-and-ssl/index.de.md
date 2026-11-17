@@ -1,26 +1,31 @@
 ---
-title: "Härtung der Sicherheit Ihres Computers durch Deaktivierung von SSL und TLS 1.2 und darunter"
+title: "Härten Sie die Computersicherheit, indem Sie SSL und TLS 1.1 und ältere Versionen deaktivieren"
 date: 2023-02-08
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "Dieser Artikel beschreibt die Schritte zur Verbesserung der Datensicherheit durch die Deaktivierung älterer Versionen von SSL- und TLS-Protokollen, die für Cyber-Bedrohungen wie POODLE, BEAST und Heartbleed anfällig sind, in Windows- und Linux-Systemen."
-tags: ["Verstärkung der Computersicherheit", "Deaktivieren von SSL und TLS", "Sicherheit der Daten", "POODLE", "BEAST", "Heartbleed", "Windows-Registrierungs-Editor", "Linux OpenSSL-Konfiguration", "Apache", "Nginx"]
+description: "Deaktivieren Sie SSL und alte TLS-Versionen, während TLS 1.2 oder neuer verfügbar bleibt. Der Artikel behandelt Schannel und .NET unter Windows sowie Linux-Dienste."
+tags: ['Computersicherheit härten', 'SSL und TLS deaktivieren', 'Datensicherheit', 'POODLE', 'BEAST', 'Heartbleed', 'Windows-Registrierungseditor', 'Linux-OpenSSL-Konfiguration', 'Apache', 'Nginx']
 cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
-coverAlt: "Ein Computer mit einem Vorhängeschloss-Symbol, das für Datensicherheit steht"
+coverAlt: "Ein Computer mit Vorhängeschloss-Symbol als Zeichen für Datensicherheit"
 coverCaption: ""
 ---
 
 ## Einleitung:
 
-Computer sind zu einem entscheidenden Aspekt unseres täglichen Lebens geworden, und damit ist auch der Bedarf an Datensicherheit erheblich gestiegen. Unter den verschiedenen Methoden zur Sicherung von Daten bei der Übertragung sind SSL (Secure Socket Layer) und TLS (Transport Layer Security) weit verbreitete Protokolle. Da sich die Technologie jedoch weiterentwickelt, werden ältere Versionen dieser Protokolle anfällig für Cyberangriffe. In diesem Artikel besprechen wir, wie man Computer durch Deaktivieren von SSL und allen TLS-Versionen 1.2 und darunter härtet, um die Daten zu schützen.
+Computer sind zu einem wichtigen Teil unseres Alltags geworden. Damit ist auch der Bedarf an Datensicherheit gewachsen. SSL (Secure Socket Layer) und TLS (Transport Layer Security) schützen Daten bei der Übertragung. Ältere Versionen sind inzwischen anfällig für Cyberangriffe. Dieser Artikel erklärt, wie Sie SSL und TLS 1.0 sowie 1.1 abschalten und TLS 1.2 oder TLS 1.3 verfügbar halten.
 
-### Warum SSL und TLS 1.2 und darunter deaktivieren?
+*TLS 1.2 ist kein veraltetes Protokoll. Der aktuelle Mindeststandard ist TLS 1.2 oder neuer. [RFC 8446](https://www.rfc-editor.org/rfc/rfc8446) definiert TLS 1.3. [RFC 8996](https://www.rfc-editor.org/rfc/rfc8996) erklärt TLS 1.0 und TLS 1.1 offiziell für veraltet.*
 
-Ältere Versionen von SSL und TLS sind anfällig für verschiedene Sicherheitsbedrohungen wie POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) und Heartbleed. Diese Angriffe können zur Preisgabe sensibler Daten führen, weshalb es wichtig ist, die Verwendung veralteter Protokolle zu deaktivieren.
+### Warum SSL und TLS 1.1 und ältere Versionen deaktivieren?
 
-### Deaktivieren von SSL und TLS 1.2 und darunter in Windows:
+Ältere SSL- und TLS-Versionen sind anfällig für Bedrohungen wie POODLE (Padding Oracle On Downgraded Legacy Encryption), BEAST (Browser Exploit Against SSL/TLS) und Heartbleed. Diese Angriffe können vertrauliche Informationen offenlegen. Heartbleed betraf anfällige OpenSSL-Implementierungen und war selbst keine Protokollversion. Installieren Sie den Bibliotheks-Patch und ändern Sie offengelegte Zugangsdaten.
 
-In Windows kann die Deaktivierung von SSL und TLS 1.2 und darunter über den Registrierungseditor erfolgen. Hier finden Sie ein Powershell-Skript, mit dem Sie diese Aufgabe erledigen können:
+Die aktuellen [Microsoft-Hinweise zu Schannel-Registrierungseinstellungen](https://learn.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings) führen Protokolleinstellungen für unterstützte Windows-Versionen auf. Microsoft empfiehlt Gruppenrichtlinien oder andere unterstützte Verwaltungstools, sofern verfügbar. Bearbeiten Sie die Registrierung direkt nur, wenn keine bessere Steuerung verfügbar ist.
+
+### Deaktivieren von SSL und TLS 1.1 und älteren Versionen unter Windows:
+
+Unter Windows lassen sich die Protokolle über die Registrierung deaktivieren. Das PowerShell-Skript ändert die Schannel-Einstellungen für Client und Server. Außerdem stellt es .NET so ein, dass die TLS-Standardeinstellungen des Betriebssystems und starke Kryptografie verwendet werden.
 
 ```powershell
 Function Disable-Protocol {
@@ -47,8 +52,7 @@ Disable-Protocol -Protocol "TLS 1.0"
 Disable-Protocol -Protocol "DTLS 1.0"
 # Disable TLS 1.1
 Disable-Protocol -Protocol "TLS 1.1"
-# Disable DTLS 1.1
-Disable-Protocol -Protocol "DTLS 1.1"
+# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
 
 function Set-NETStrongAuthentication {
     param(
@@ -70,21 +74,29 @@ foreach ($version in $NETVersions) {
 }
 ```
 
-#### Deaktivierung von SSL und TLS 1.2 und darunter unter Linux:
+#### Deaktivieren von SSL und TLS 1.1 und älteren Versionen unter Linux:
 
-Unter Linux kann die Deaktivierung von SSL und TLS 1.2 und darunter durch Änderung der OpenSSL-Konfigurationsdatei erreicht werden. Die folgenden Schritte sind zu befolgen:
+Unter Linux hängt das Deaktivieren alter Protokolle von der Anwendung und Bibliothek ab. Eine Änderung an `/etc/ssl/openssl.cnf` überschreibt nicht die Einstellungen jedes Daemons oder jeder mitgelieferten TLS-Bibliothek. Gehen Sie so vor:
 
 1. Öffnen Sie das Terminal und melden Sie sich als root an.
-2. Navigieren Sie zu der OpenSSL-Konfigurationsdatei. Normalerweise befindet sie sich unter /etc/ssl/openssl.cnf.
-3. Öffnen Sie die Datei mit einem Texteditor wie nano oder vim.
-4. Suchen Sie die Richtlinie SSLProtocol und setzen Sie ihren Wert auf -TLSv1.2.
-5. Speichern Sie die Datei und schließen Sie den Texteditor.
-6. Starten Sie die Dienste, die OpenSSL verwenden, wie z. B. Apache oder Nginx, neu, damit die Änderungen wirksam werden.
+2. Öffnen Sie die OpenSSL-Konfigurationsdatei. Sie liegt meist unter /etc/ssl/openssl.cnf.
+3. Öffnen Sie die Datei in einem Texteditor wie nano oder vim.
+4. Suchen Sie die Protokollanweisung des Dienstes und setzen Sie die Mindestversion auf TLS 1.2. Die frühere Anweisung `-TLSv1.2` deaktivierte TLS 1.2. Verwenden Sie sie nicht als modernen Mindeststandard.
+5. Speichern Sie die Datei und schließen Sie den Editor.
+6. Starten Sie OpenSSL-Dienste wie Apache oder Nginx neu, damit die Änderungen greifen.
 
 ## Fazit:
 
-Durch die Deaktivierung von SSL und allen TLS-Versionen 1.2 und darunter können Sie die Sicherheit Ihres Computers erhöhen und sensible Informationen vor potenziellen Cyber-Bedrohungen schützen. Es handelt sich dabei um einen einfachen Prozess, der mit minimalem Aufwand durchgeführt werden kann und daher ein wichtiger Aspekt bei der Aufrechterhaltung der Sicherheit Ihres Computers ist. Durch die Umsetzung der in diesem Artikel beschriebenen Schritte können Sie Ihre Daten schützen und Cyberangriffe verhindern, wodurch das Risiko der Preisgabe vertraulicher Informationen verringert wird.
+Wenn Sie SSL und TLS 1.1 und ältere Versionen deaktivieren, härten Sie den Computer und behalten die Kompatibilität mit modernen TLS-Clients. Die Einstellung gehört zum Dienst, der die TLS-Verbindung aushandelt. Testen Sie jede Anwendung einzeln, statt anzunehmen, dass eine OpenSSL-Datei alle Daemons steuert.
 
-Es ist wichtig zu beachten, dass die Deaktivierung dieser älteren Versionen von SSL- und TLS-Protokollen zwar die Sicherheit Ihres Computers verbessern kann, aber auch die Kompatibilität mit einigen älteren Systemen beeinträchtigen kann. Daher ist es wichtig, die vorgenommenen Änderungen gründlich zu testen und sicherzustellen, dass sie sich nicht negativ auf Ihr System auswirken, bevor Sie sie vollständig implementieren.
+Das Deaktivieren älterer Versionen kann die Kompatibilität mit manchen Altsystemen beeinträchtigen. Testen Sie die Änderungen gründlich und prüfen Sie die Auswirkungen, bevor Sie sie vollständig einführen.
 
-Zusammenfassend lässt sich sagen, dass die Härtung Ihres Computers durch die Deaktivierung von SSL und allen TLS-Versionen 1.2 und darunter ein wichtiger Schritt ist, um die Sicherheit sensibler Daten zu gewährleisten und Cyberangriffe zu verhindern. Die in diesem Artikel beschriebenen Schritte bieten eine unkomplizierte Anleitung zur Sicherung Ihres Computers, die es Einzelpersonen und Unternehmen leicht macht, die erforderlichen Sicherheitsmaßnahmen zu ergreifen.
+Schützen Sie vertrauliche Informationen und senken Sie das Angriffsrisiko, indem Sie den ausgehandelten Protokollstand jedes Dienstes prüfen und temporäre Ausnahmen dokumentieren.
+
+## Aktuelle Prüfliste
+
+- **Prüfen Sie das ausgehandelte Protokoll.** Testen Sie Client und Server mit einem TLS-Scanner oder einem genehmigten internen Test an beiden Verbindungsenden.
+- **Lassen Sie TLS 1.2 aktiviert.** Manche ältere Anwendungen benötigen es weiterhin. TLS 1.3 hängt von Betriebssystem und Bibliothek ab.
+- **Prüfen Sie DTLS getrennt.** RFC 8996 erklärt DTLS 1.0 für veraltet. Ein DTLS-1.1-Protokoll definiert er nicht.
+- **Starten Sie betroffene Dienste neu.** Schannel- und Anwendungseinstellungen erfordern oft einen Neustart des Dienstes oder Systems.
+- **Dokumentieren Sie Ausnahmen.** Halten Sie alte Endpunkte mit vorübergehender Kompatibilitätseinstellung fest und setzen Sie einen Termin für deren Abschaltung.

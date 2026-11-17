@@ -1,154 +1,154 @@
 ---
-title: "Flock Safety's Sales Pitch: Warrantless Access to Every Movement"
+title: "Flock Safety 的销售话术：无需令状即可访问每一次出行"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
-description: "Flock Safety does not sell cameras. It sells a subscription to warrantless movement data. Here is how the sales pitch works, how it runs against the Fourth Amendment, and why the fight is about the pitch, not the company."
-genre: ["Privacy Technology", "Digital Rights", "Surveillance", "Legal Analysis", "Counter Surveillance"]
-tags: ["Flock Safety", "ALPR", "license plate reader", "Fourth Amendment", "warrantless surveillance", "mass surveillance", "Carpenter v. United States", "United States v. Jones", "location tracking", "movement database", "privacy rights", "constitutional law", "Axon", "evidence.com", "red light cameras", "Redflex", "Pflugerville", "Knox County", "sales pitch", "pre-crime profiling", "separation of powers", "Bill of Rights", "counter surveillance", "digital rights", "T-Rex Lab"]
+description: "审视 Flock Safety 的销售话术、出行数据访问权限，以及无令状搜查引发的宪法问题。"
+genre: ["隐私技术", "数字权利", "监控", "法律分析", "反监控"]
+tags: ["Flock Safety", "ALPR", "车牌识别器", "美国宪法第四修正案", "无令状监控", "大规模监控", "Carpenter v. United States", "United States v. Jones", "位置追踪", "出行数据库", "隐私权", "宪法法律", "Axon", "evidence.com", "红绿灯摄像头", "Redflex", "Pflugerville", "Knox County", "销售话术", "犯罪前画像分析", "权力分立", "权利法案", "反监控", "数字权利", "T-Rex Lab"]
 cover: "/img/cover/flock-safety-warrantless-access-surveillance-database.webp"
-coverAlt: "A futuristic cityscape at night with various surveillance cameras and a holographic display of movement data above the streets, illuminated by vibrant neon lights in blues and greens."
+coverAlt: "夜间的未来城市景象，多台监控摄像头和一块全息屏幕显示街道上方的出行数据，蓝绿色灯光照亮画面。"
 coverCaption: ""
 ---
 
-**Flock Safety does not sell cameras.** The company sells a searchable record of where vehicles and people go, delivered to law enforcement as a subscription with no warrant and no delay. Watch the sales pitch instead of the hardware, because the pitch is the constitutional problem.
+**Flock Safety 卖的不是摄像头。** 它通过订阅服务向执法部门出售一份可搜索的记录，显示车辆和人员去过哪里，而且无需令状，也无需等待。关注销售话术，而非硬件，因为宪法问题就在这套话术里。
 
-*The video below traces the argument end to end. It names the product, quotes the Fourth Amendment, walks the relevant court cases, and shows the two contradictory pitches Flock makes to different audiences.*
+*视频从头到尾梳理了这套论证。它点出产品名称，引用美国宪法第四修正案，介绍相关判例，并展示 Flock 面向不同受众时两套互相矛盾的话术。*
 
 {{< youtube id="8OuBWAmoxE8" >}}
 
-The source video, [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) from the T-Rex Lab channel, lays out the full case. The write-up below keeps the claims and adds the supporting law.
+T-Rex Lab 频道发布的原视频 [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) 展示了完整论证。下文保留其中的主张，并补充相关法律依据。
 
 <!--more-->
 
 ## 要点
 
-- **The camera is a decoy.** The product is the database, and the camera only feeds it.
-- **The Fourth Amendment reaches movement records.** Jones and Carpenter extend protection to continuous location tracking.
-- **Flock sells access, not data.** The wording reclassifies a search as a query and a record as an access plan.
-- **The pitch changes by audience.** Law enforcement hears "no warrants." The public hears "small and cautious."
-- **Watch the pitch, not the company.** Every competitor selling warrantless access to private movement is the same fight.
+- **摄像头是障眼法。** 产品是数据库，摄像头只是为数据库提供数据。
+- **第四修正案保护出行记录。** Jones 和 Carpenter 将保护范围扩展到持续的位置追踪。
+- **Flock 卖的是访问权限，不是数据。** 话术把搜查重新称为查询，把记录重新称为访问方案。
+- **话术随受众而变。** 执法部门听到的是“无需令状”。公众听到的是“规模小而谨慎”。
+- **关注话术，不要只盯着公司。** 任何竞争者若销售对私人出行记录的无令状访问权，都属于同一场争议。
 
 ______
 
-## What the Company Sells
+## 公司卖的是什么
 
-Flock enters a market where cameras are already everywhere. Tens of millions of commercial cameras watch storefronts. Doorbell cameras sit on nearly half of American homes. Officers wear body cameras and drive dash cameras, and every phone carries several cameras.
+Flock 进入的是一个摄像头无处不在的市场。数千万台商业摄像头监视着店面。美国近半数家庭安装了门铃摄像头。警员佩戴随身摄像头、驾驶带行车记录摄像头的车辆，而每部手机也装有多台摄像头。
 
-**Cameras are not scarce, so Flock does not sell cameras.** Access to crime footage is not scarce either: victims hand their recordings straight to departments, and phone video of a crime often lands on social media before an officer asks for it. **Automated license plate readers are not new** either. The technology dates to the 1970s and already runs on the traffic signals maintained by transportation departments.
+**摄像头并不稀缺，因此 Flock 卖的不是摄像头。** 犯罪现场录像也不稀缺：受害者会把录像直接交给警察部门，犯罪现场的手机视频往往在警员开口索取前就已传到社交媒体上。**自动车牌识别器也不新鲜。** 这项技术可追溯到 20 世纪 70 年代，如今已用于交通部门维护的交通信号设施。
 
-| Flock does not sell | Why |
+| Flock 不卖什么 | 原因 |
 |---|---|
-| **Cameras** | Commercial, doorbell, body, dash, and phone cameras already cover most public space |
-| **Access to footage** | Victims and bystanders supply footage directly, and phone video spreads online |
-| **License plate readers** | The technology dates to the 1970s and already runs on traffic signals |
+| **摄像头** | 商用、门铃、随身、行车和手机摄像头已经覆盖了大部分公共空间 |
+| **录像访问权** | 受害者和目击者会直接提供录像，手机视频也会在网上传播 |
+| **车牌识别器** | 这项技术始于 20 世纪 70 年代，也已用于交通信号设施 |
 
-**The scarce thing is the database.** Flock aggregates plate reads, locations, and timestamps into a searchable record of movement, then sells access to it. The pitch to departments comes down to one line worth remembering: the same information a warrant would produce, but with no warrant and no wait.
-
-______
-
-## A Warrant Is Supposed to Add Friction
-
-Phone carriers, car makers, and phone vendors each hold large location stores. Those stores carry legal friction. A request for one person's movement history needs a warrant, and a warrant needs probable cause, a judge, and a written record. Courts have repeatedly narrowed the broad geo-fence warrants after challenges.
-
-Flock sells an equivalent record without the friction. Its stated position is simple: movement on public roads is public, so no warrant applies.
-
-The asymmetry is the whole business. The same movement data costs a warrant when a carrier holds it and nothing when Flock holds it. Removing the warrant removes the record of the search, and the record of the search is the part the public audits.
+**真正稀缺的是数据库。** Flock 把车牌读取记录、位置和时间戳汇总为可搜索的出行记录，然后出售访问权限。它给执法部门的提案可以概括为一句话，值得记住：提供与令状同等的信息，却不需要令状，也不用等待。
 
 ______
 
-## The Fourth Amendment
+## 令状本应增加一道程序
 
-The amendment reads as a defense against general searches. Its full text:
+电话运营商、汽车制造商和手机供应商都保存着大量位置数据。这些数据受到法律程序约束。若要获取某个人的出行历史，需要申请令状，而申请令状需要合理根据、法官批准和书面记录。法院在多次质疑后，已反复缩小大范围地理围栏令状的适用范围。
 
-> The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.
+Flock 出售相当于这类记录的服务，却没有这道程序。它公开表达的立场很简单：公共道路上的移动属于公开信息，因此无需令状。
 
-The amendment responds to the general warrants, called writs of assistance, in use before independence. Those writs named no specific place or person and carried no expiry. Officials searched anywhere, at any time, on vague suspicion. The amendment rejects the practice by tying every search to probable cause, a sworn statement, and a particular description.
-
-Flock's service removes all three in one step: no probable cause, no oath, no particular description. The video's point is blunt. A subscription dispensing with the warrant dispenses with the entire safeguard.
+这种不对称就是整个生意的核心。同样的出行数据由运营商保管时需要令状，由 Flock 保管时却不需要。取消令状，也就取消了搜查记录，而公众正是通过这份记录来监督访问行为。
 
 ______
 
-## The Case Law
+## 美国宪法第四修正案
 
-Two lines of authority collide here.
+这项修正案旨在保护民众免受一般性搜查。全文如下：
 
-The older line holds recording what happens on a public road needs no warrant, because a person on a public road keeps no reasonable expectation of privacy in the movements seen there. Flock leans on this line and the 1984 case the video discusses.
+> 人民的人身、住宅、文件和财产不受不合理搜查和扣押的权利，不得侵犯。除非基于合理根据，并以宣誓或郑重声明作为支持，且具体说明搜查地点以及要扣押的人或物，否则不得签发令状。
 
-The newer line pulls the other way. **United States v. Jones** (2012) held a GPS tracker fixed to a vehicle, and followed for weeks, is a search needing a warrant even on public roads. **Carpenter v. United States** (2018) reached the same result for cell-site location records held by wireless carriers, because a person keeps a reasonable expectation of privacy in the record of their physical movements.
+这项修正案回应了独立前使用的一般性搜查令，这类文件称为 writs of assistance。它们不指定具体地点或人员，也没有有效期限。官员可以凭含糊的怀疑，在任何时间搜查任何地点。修正案拒绝这种做法，并要求每次搜查都具备合理根据、宣誓陈述和具体描述。
 
-| Case | Year | Result |
+Flock 的服务一步取消了全部三项要求：没有合理根据，没有宣誓，也没有具体描述。视频的观点很直接：免除令状的订阅服务，也免除了整套保障。
+
+______
+
+## 判例法
+
+这里有两条法律路线相互冲突。
+
+较早的一条路线认为，记录公共道路上发生的事无需令状，因为人在公共道路上时，对可见的行动没有合理的隐私期待。Flock 借助这条路线，以及视频讨论的 1984 年判例来支持自己的说法。
+
+较新的一条路线则指向相反方向。**United States v. Jones**（2012）判定，在车辆上安装 GPS 追踪器并连续跟踪数周属于搜查，即使车辆行驶在公共道路上，也需要令状。**Carpenter v. United States**（2018）对无线运营商保存的基站位置记录得出相同结论，因为个人对自身实际行动记录仍享有合理的隐私期待。
+
+| 案例 | 年份 | 结果 |
 |---|---|---|
-| **Public-recording line** | 1984 | Recording movement from a public corner needs no warrant, since an officer present sees the same thing |
-| **United States v. Jones** | 2012 | A GPS device tracking a car over a sustained period needs a warrant, even on public roads |
-| **Carpenter v. United States** | 2018 | Cell-site location records need a warrant, since a person keeps privacy in the record of their movements |
-| **Chhatri v. United States** | cited in the video | Location shared with a third party stays protected, so the warrant requirement survives |
+| **公共场所记录路线** | 1984 | 从公共街角记录行动无需令状，因为在场警员也能看到同样的情况 |
+| **United States v. Jones** | 2012 | 通过 GPS 长时间追踪汽车需要令状，即使车辆行驶在公共道路上 |
+| **Carpenter v. United States** | 2018 | 获取基站位置记录需要令状，因为个人对自身行动记录仍享有隐私权 |
+| **Chhatri v. United States** | 视频引用 | 与第三方共享的位置仍受保护，因此令状要求仍然适用 |
 
-*Flock's product is the comprehensive movement record Jones and Carpenter protect. The company argues its cameras escape those rulings because a sensor, not a GPS unit or a cell tower, gathers the positions. The distinction is in the sensor, not in the underlying record.*
+*Flock 的产品就是 Jones 和 Carpenter 所保护的完整出行记录。公司辩称，其摄像头不受这些判决约束，因为位置由传感器而非 GPS 设备或基站收集。区别只在传感器，不在记录本身。*
 
-**Legal boundary:** Jones and Carpenter do not decide every automated license-plate-reader dispute. The cases provide a constitutional framework for long-term location tracking and government access to movement records. Courts, statutory rules, retention periods, access controls, and the facts of a particular query still affect the result. The sales claims in this article are an argument for scrutiny, not a substitute for jurisdiction-specific legal advice.
-
-______
-
-## The Loophole in Their Own Words
-
-A series of word choices does the legal work. Each one rewrites the same product out of the reach of the cases above.
-
-- **Sells access, not the record.** Flock states it sells a subscription to query the database, so it sells no comprehensive record of movement.
-- **Shares derived data, not your data.** The wording restyles every plate read, timestamp, and route as mined material, so no raw personal data changes hands.
-- **Queried, not searched.** The Fourth Amendment stops unreasonable searches, and Flock frames every lookup as a query, so no search occurs.
-
-*Each phrase relabels the same act. The activity stays identical to the thing a warrant would guard. Only the noun changes.*
+**法律边界：** Jones 和 Carpenter 并未裁定所有自动车牌识别器争议。这些判例为长期位置追踪和政府访问出行记录提供了宪法框架。法院、成文法规则、数据保留期限、访问控制以及某次具体查询的事实，也会影响结果。本文所述销售主张旨在说明审查的必要性，不能替代针对具体司法辖区的法律意见。
 
 ______
 
-## Two Contradictory Pitches
+## 他们自己的措辞暴露了漏洞
 
-Flock sells the same service two ways at once, and the versions contradict each other.
+一系列用词承担了法律包装的作用。每个词都试图把同一种产品重新命名，从而避开上述判例的适用范围。
 
-| Audience | The pitch |
+- **出售访问权，不出售记录。** Flock 声称它出售的是查询数据库的订阅服务，因此没有出售完整的出行记录。
+- **共享衍生数据，不共享你的数据。** 这种说法把每次车牌读取、时间戳和路线重新描述为处理后的材料，好像没有原始个人数据转手。
+- **查询，而不是搜查。** 第四修正案禁止不合理搜查，Flock 则把每次查找称为查询，以此声称没有发生搜查。
+
+*每个词都给同一种行为换了标签。实际操作仍与令状应当约束的行为相同，改变的只是名词。*
+
+______
+
+## 两套相互矛盾的话术
+
+Flock 同时用两种方式销售同一项服务，而两套说法彼此矛盾。
+
+| 受众 | 话术 |
 |---|---|
-| **Law enforcement** | Wide, deep, and fast search, no delays, no warrants |
-| **The public and commissioners** | Small, limited, safe, slow, and cautious, tied to lower crime |
+| **执法部门** | 搜索范围广、深入且快速，没有延迟，也无需令状 |
+| **公众和委员** | 规模小、范围有限、安全、缓慢而谨慎，并与降低犯罪率相联系 |
 
-The statements conflict. A database searched wide, deep, and fast with no warrants is not small or cautious in any sense the public hears. The one clause both sides share is a promise of lower crime, and the promise carries the sale. Many commissioners voting for cameras hold this belief honestly and never see the tool as mass surveillance.
-
-______
-
-## What the Records Show
-
-Concrete examples sharpen the concern beyond prediction.
-
-- **Pflugerville, Texas.** A town of roughly 70,000 people mounted 28 cameras after a promise of local control over its data. In six months the local department filed about 5,000 queries, and a public records request surfaced 1.66 million outside queries from 469 other agencies. The town now uninstalls the cameras.
-- **Knox County, Tennessee.** A 140-camera contract ended this week by unanimous commissioner vote. A deputy signed the $274,000 deal through installment orders of $24,990 each, ten dollars below the threshold requiring a commission vote. The deputy and ten colleagues face an indictment over roughly $300,000 in spending the video notes is separate from the camera system.
-- **Chicago, Illinois.** Years earlier a council member faced charges over a $130 million red-light camera deal with Redflex. The contract ended, yet the cameras stayed mounted and restarted under a new vendor without a missed day of service.
-
-**Demos run on live data.** The video reports Flock sales teams demonstrated the platform using real private records, not simulated ones. Their example searches read as a profiling tool: a vehicle with a political sticker, a truck with a Trump flag, a person wearing a mask, a person holding a weapon. A list of everyone holding a weapon in an open-carry state is not a suspect list. It is pre-crime demographic profiling.
+这些说法相互冲突。一个无需令状、能够广泛、深入且快速搜索的数据库，在公众通常理解的意义上并不小，也不谨慎。双方唯一相同的内容是降低犯罪率的承诺，这也是成交的关键。许多投票支持安装摄像头的委员真心相信这项承诺，却没有把工具视为大规模监控。
 
 ______
 
-## Not About the Camera Company
+## 记录显示了什么
 
-Focusing on one brand misses the larger fight. The video points to Axon, which sat among Flock's early investors, shared software and data, and integrated Flock's feed into its evidence.com platform. Red-light camera hardware in Chicago outlived its vendor and kept running under a new name. When one company falls, the sensors and the database stay behind for the next owner.
+具体案例让问题超越了预测。
 
-**The defining trait is the sales pitch, not the sensor.** Any company selling warrantless access to a comprehensive record of private movement repeats the same offense, whether the sensor is a camera, a phone, or something not yet invented.
+- **得克萨斯州 Pflugerville。** 这座约有 7 万居民的城镇在获得数据由本地控制的承诺后，安装了 28 台摄像头。六个月内，当地警察部门提交了约 5,000 次查询。一项公共记录请求揭示，来自其他 469 个机构的外部查询达到 166 万次。该镇现在正在拆除摄像头。
+- **田纳西州 Knox County。** 一份涵盖 140 台摄像头的合同在本周经委员一致投票终止。一名副警长通过每笔 24,990 美元的分期订单签署了 27.4 万美元的协议，比需要委员会投票的门槛低 10 美元。视频称，这名副警长和十名同事因约 30 万美元的支出遭到起诉，这笔支出与摄像头系统无关。
+- **伊利诺伊州芝加哥。** 几年前，一名市议员因与 Redflex 签订价值 1.3 亿美元的红绿灯摄像头合同而面临指控。合同结束后，摄像头仍留在原处，并由新供应商接手运行，服务一天也没有中断。
 
-The two things worth defending stay fixed: the limits on government written into the Bill of Rights, and the separation of powers keeping jurisdictions apart. Mass surveillance erodes the first, and the loophole dissolves the second. Oppose the loophole wherever its sales pitch appears.
+**演示使用真实数据。** 视频称，Flock 销售团队演示平台时使用了真实私人记录，而不是模拟数据。示例搜索像是在做画像分析：寻找贴有政治贴纸的车辆、挂有特朗普旗帜的卡车、戴口罩的人、持枪的人。在允许公开携枪的州，列出所有持枪者并不等于列出嫌疑人。这是在犯罪发生前进行的人口画像分析。
+
+______
+
+## 问题不止一家摄像头公司
+
+只盯着一个品牌会错过更大的争议。视频指出，Axon 曾是 Flock 的早期投资者之一，双方共享软件和数据，Axon 还把 Flock 的数据流接入 evidence.com 平台。芝加哥红绿灯摄像头的硬件在原供应商离场后仍然留在街上，并以新供应商的名义继续运行。一家公司退出后，传感器和数据库会留给下一个所有者。
+
+**决定问题性质的是销售话术，不是传感器。** 任何公司若出售对完整私人出行记录的无令状访问权，都在重复同一种侵害，无论传感器是摄像头、手机，还是尚未发明的设备。
+
+需要捍卫的两项原则没有改变：权利法案对政府设定的限制，以及让不同司法辖区保持分立的权力分立原则。大规模监控会侵蚀前者，这个漏洞会瓦解后者。无论这种销售话术在哪里出现，都应反对这套漏洞。
 
 {{< centerbutton href="/articles/flock-camera-detection-arms-race-2026/" >}}
-  Read the Detection Arms-Race Write-Up
+  阅读摄像头检测竞赛分析
 {{< /centerbutton >}}
 
 ______
 
-## 后续步骤
+## 后续阅读
 
-Start with the sales pitch, then move to the technical and protective sides.
+从销售话术开始，再了解技术和防护方面的内容。
 
-- **[Flock Camera Detection Arms Race: What Changed in 2026](/articles/flock-camera-detection-arms-race-2026/)** for the technical side of the same fight.
-- **[Flock Cameras: Public Safety Tool or Warrantless Surveillance Machine?](/articles/flock-cameras-public-safety-or-surveillance-2026/)** for the surveillance framing.
-- **[Flock Safety Camera Surveillance: Privacy and Protection](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** for how the cameras spread and what protection does.
-- **[Flock-You Detection: Counter-Surveillance Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** for building your own detector.
+- **[Flock 摄像头检测竞赛：2026 年有哪些变化](/articles/flock-camera-detection-arms-race-2026/)**，了解同一争议的技术层面。
+- **[Flock 摄像头：公共安全工具，还是无令状监控机器？](/articles/flock-cameras-public-safety-or-surveillance-2026/)**，了解监控问题的背景。
+- **[Flock Safety 摄像头监控：隐私与防护](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**，了解摄像头如何扩散，以及有哪些防护措施。
+- **[Flock-You 检测：反监控设备搭建指南](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**，搭建自己的检测器。
 
-**Source material:** the argument, figures, and quotations follow [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) from the T-Rex Lab channel. The Fourth Amendment text comes from the [Legal Information Institute](https://www.law.cornell.edu/constitution/fourth_amendment).
+**来源材料：** 文中的论证、数字和引述均依据 T-Rex Lab 频道的 [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8)。第四修正案文本来自 [Legal Information Institute](https://www.law.cornell.edu/constitution/fourth_amendment)。

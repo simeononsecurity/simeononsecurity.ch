@@ -1,88 +1,88 @@
 ---
-title: "Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026"
+title: "Домашняя SOC-лаборатория Microsoft: опыт в кибербезопасности в 2026 году"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence."
-genre: ["Cybersecurity", "Cloud Security", "Career Development"]
-tags: ["SOC home lab", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "Azure home lab", "cybersecurity experience", "SOC analyst", "security operations center", "incident response", "KQL", "Log Analytics", "Conditional Access", "phishing-resistant MFA", "passkeys", "identity security", "cybersecurity portfolio", "cloud cost management", "endpoint security"]
+description: "Создайте SOC-лабораторию Microsoft с Sentinel, Defender, Intune и Entra. Практикуйте расследование инцидентов, проверяйте политики ключей доступа и документируйте материалы для портфолио."
+genre: ["Кибербезопасность", "Облачная безопасность", "Развитие карьеры"]
+tags: ["домашняя SOC-лаборатория", "Microsoft Sentinel", "Microsoft Defender XDR", "Defender for Endpoint", "Defender for Cloud", "Defender for Servers", "Microsoft Intune", "Microsoft Entra ID", "домашняя лаборатория Azure", "опыт в кибербезопасности", "аналитик SOC", "центр операций безопасности", "реагирование на инциденты", "KQL", "Log Analytics", "Conditional Access", "устойчивая к фишингу MFA", "ключи доступа", "защита удостоверений", "портфолио по кибербезопасности", "управление расходами на облако", "защита конечных точек"]
 cover: "/img/cover/microsoft-soc-home-lab.webp"
-coverAlt: "A laptop showing security incident timelines on a home desk beneath a cloud containing servers and endpoints."
+coverAlt: "На ноутбуке на домашнем столе показана временная шкала инцидентов безопасности, над ним облако с серверами и конечными точками."
 coverCaption: ""
 ---
 
-A **security operations center (SOC) home lab** gives you a place to investigate alerts, explain evidence, and test defensive changes. Build a small Microsoft environment, collect its telemetry, and write up each investigation. The useful result is a repeatable investigation with supporting evidence.
+**Домашняя лаборатория центра операций безопасности (SOC)** позволяет расследовать оповещения, объяснять доказательства и проверять защитные изменения. Создайте небольшую среду Microsoft, собирайте телеметрию и документируйте каждое расследование. Полезный результат: воспроизводимое расследование с подтверждающими материалами.
 
-This guide develops the lab approach described in Mad Hat's cybersecurity career video and supplied Cyber Range runbook. It uses Microsoft documentation for product requirements and separates setup, detection, and validation into measurable tasks.
+Это руководство развивает подход к лаборатории из видео Mad Hat о карьере в кибербезопасности и предоставленного плейбука Cyber Range. Требования к продуктам сверяются с документацией Microsoft. Настройка, обнаружение и проверка разделены на измеримые задачи.
 
-## Главные выводы
+## Главное
 
-- **Start small:** one managed Windows client and one test identity support the first exercises.
-- **Verify telemetry:** a visible device or connected portal does not prove logs are arriving.
-- **Complete the investigation:** record the trigger, evidence, response, and retest.
-- **Control spending:** track licenses, retained data, networking, and compute separately.
-- **Describe experience accurately:** list the environment as a lab project on your resume.
+- **Начните с малого:** для первых упражнений достаточно одного управляемого клиента Windows и одной тестовой учётной записи.
+- **Проверьте телеметрию:** видимое устройство или подключённый портал не доказывают поступление журналов.
+- **Завершайте расследование:** записывайте повод, доказательства, ответные действия и повторный тест.
+- **Контролируйте расходы:** отдельно учитывайте лицензии, хранимые данные, сеть и вычислительные ресурсы.
+- **Точно описывайте опыт:** укажите среду в резюме как лабораторный проект.
 
 ## Перед началом
 
-**Prerequisites:** basic Windows administration, networking, and familiarity with virtual machines. Use a dedicated Microsoft Entra tenant and an Azure subscription reserved for the lab. Keep production identities, personal files, and employer systems outside the exercise.
+**Требования:** базовые навыки администрирования Windows и сетей, знакомство с виртуальными машинами. Используйте выделенный арендатор Microsoft Entra и подписку Azure только для лаборатории. Не включайте в упражнения рабочие учётные записи, личные файлы и системы работодателя.
 
-**Estimated effort:** allow a weekend for the initial setup, followed by focused investigation sessions. This is a planning estimate. Trial approval, quota availability, and service provisioning affect elapsed time. **Difficulty:** intermediate.
+**Оценка времени:** выделите выходные на первоначальную настройку, затем проводите отдельные целевые сессии расследований. Это оценка для планирования. На фактический срок влияют одобрение пробной версии, квоты и готовность служб. **Сложность:** средняя.
 
-Prepare a separate administrative account and an unprivileged test user. Before testing access policies, establish and verify emergency access. Assign privileges for each setup task, then use a lower-privilege account for routine investigation.
+Подготовьте отдельную административную учётную запись и тестового пользователя без привилегий. До проверки политик доступа настройте и проверьте аварийный доступ. Выдавайте нужные привилегии для каждой задачи настройки, а для обычных расследований используйте менее привилегированную учётную запись.
 
-| Component | Lab purpose |
+| Компонент | Назначение в лаборатории |
 |---|---|
-| **Sentinel** | Security information and event management, or SIEM, for connected log sources |
-| **Defender XDR** | Correlation and investigation across licensed Microsoft security services |
-| **Defender for Endpoint** | Endpoint detection and response, or EDR, on onboarded devices |
-| **Intune** | Device enrollment and endpoint security policy management |
-| **Entra ID** | Identity, sign-in records, and access policy evaluation |
-| **Defender for Servers** | Server protection through Defender for Cloud |
+| **Sentinel** | Управление информацией и событиями безопасности (SIEM) для подключённых источников журналов |
+| **Defender XDR** | Корреляция и расследование в лицензированных службах безопасности Microsoft |
+| **Defender for Endpoint** | Обнаружение и реагирование на конечных устройствах, подключённых к службе (EDR) |
+| **Intune** | Регистрация устройств и управление политиками безопасности конечных точек |
+| **Entra ID** | Удостоверения, записи входа и оценка политик доступа |
+| **Defender for Servers** | Защита серверов через Defender for Cloud |
 
-## Check Licenses First
+## Сначала проверьте лицензии
 
-**Microsoft 365 E5** is one route to a broad lab, but access depends on the service plans and licenses assigned to the participating users. Office 365 E5 and Microsoft 365 E5 are different bundles. A single administrator's license does not establish coverage for every test user or workload. Review the [Defender XDR prerequisites](https://learn.microsoft.com/en-us/defender-xdr/prerequisites) before selecting a subscription.
+**Microsoft 365 E5** представляет один из вариантов для расширенной лаборатории, но доступ зависит от планов обслуживания и лицензий, назначенных участвующим пользователям. Office 365 E5 и Microsoft 365 E5 представляют разные пакеты. Лицензия одного администратора не подтверждает охват всех тестовых пользователей и рабочих нагрузок. Перед выбором подписки изучите [требования Defender XDR](https://learn.microsoft.com/en-us/defender-xdr/prerequisites).
 
-**Sentinel in the Defender portal** works without E5 or Defender XDR. Adding XDR introduces its own licensing and configuration requirements. An empty incident view is not evidence of missing E5 licensing. Microsoft's [Sentinel onboarding documentation](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) explains both configurations.
+**Sentinel на портале Defender** работает без E5 и Defender XDR. При добавлении XDR появляются отдельные требования к лицензированию и настройке. Пустой список инцидентов не доказывает отсутствие лицензии E5. В документации Microsoft по [подключению Sentinel](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard) описаны оба варианта.
 
-**Server protection** has a separate licensing path. Defender for Servers integrates with Defender for Endpoint for supported server workloads. Windows client operating systems need appropriate client coverage. Do not treat every Azure VM as an automatically licensed server. See Microsoft's [Defender for Endpoint integration documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**Защита серверов** лицензируется отдельно. Defender for Servers интегрируется с Defender for Endpoint для поддерживаемых серверных нагрузок. Клиентским ОС Windows требуется соответствующее клиентское покрытие. Не считайте каждую виртуальную машину Azure автоматически лицензированным сервером. См. документацию Microsoft по [интеграции Defender for Endpoint](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-**Trial planning:** confirm eligibility, expiration, renewal settings, and included services in your own account. Avoid budgeting around a promised trial duration or a fixed monthly total from a video.
+**Планирование пробной версии:** проверьте в своей учётной записи право на использование, срок действия, параметры продления и включённые службы. Не планируйте бюджет на основе обещанного срока пробного периода или фиксированной ежемесячной суммы из видео.
 
-## Set a Spending Plan
+## Составьте план расходов
 
-**Azure budgets** send notifications. They do not stop consumption when you reach a threshold. Cost reporting also has a delay. Create alerts early and review spending after each session, following Microsoft's [budget setup guide](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+**Бюджеты Azure** отправляют уведомления, но не останавливают потребление при достижении порога. Отчёты о расходах тоже запаздывают. Заранее настройте оповещения и проверяйте расходы после каждой сессии по [руководству Microsoft по бюджетам](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
 
-| Cost category | Planning question |
+| Категория расходов | Вопрос для планирования |
 |---|---|
-| **User licenses** | Which users need which service plans, and when do trials expire? |
-| **Compute** | How many VM hours will each exercise require? |
-| **Storage** | Which disks and snapshots remain after shutdown? |
-| **Log collection** | Which tables need ingestion and how long should data remain? |
-| **Networking** | Does the design include paid Bastion, public IPs, or outbound services? |
-| **Server protection** | Which workloads have a paid Defender plan enabled? |
+| **Пользовательские лицензии** | Каким пользователям нужны какие планы служб и когда заканчиваются пробные периоды? |
+| **Вычислительные ресурсы** | Сколько часов работы виртуальной машины требует каждое упражнение? |
+| **Хранилище** | Какие диски и снимки остаются после выключения? |
+| **Сбор журналов** | Какие таблицы нужно принимать и как долго хранить данные? |
+| **Сеть** | Включены ли платный Bastion, общедоступные IP-адреса или исходящие службы? |
+| **Защита серверов** | Для каких нагрузок включён платный план Defender? |
 
-**Design choice:** begin with one client. Add a server when an exercise needs server telemetry. Four clients and several servers add administration and cost before they add useful investigation practice.
+**Выбор архитектуры:** начните с одного клиента. Добавляйте сервер, когда упражнению нужна серверная телеметрия. Четыре клиента и несколько серверов увеличивают управление и расходы раньше, чем дают полезную практику расследований.
 
-## Build the Network
+## Создайте сеть
 
-**Suggested layout:** put Azure resources in a clearly named group such as **`rg-soc-lab`**. Use separate client and server subnets, explicit network security group rules, and private management access. Subnet separation alone does not block traffic between workloads.
+**Рекомендуемая схема:** поместите ресурсы Azure в группу с понятным именем, например **`rg-soc-lab`**. Разделите подсети клиента и сервера, явно задайте правила групп сетевой безопасности и используйте частный доступ для управления. Одно лишь разделение подсетей не блокирует обмен между нагрузками.
 
-For a dedicated **Azure Bastion** deployment, follow the SKU requirements, including the reserved **`AzureBastionSubnet`** name and a **`/26`** or larger subnet for current deployments. Developer SKU uses a different deployment model. Review [Bastion configuration settings](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings) before choosing a design.
+Для выделенного развёртывания **Azure Bastion** соблюдайте требования SKU, включая зарезервированное имя **`AzureBastionSubnet`** и подсеть размером **`/26`** или больше для текущих развёртываний. У Developer SKU другая модель развёртывания. Перед выбором изучите [параметры конфигурации Bastion](https://learn.microsoft.com/en-us/azure/bastion/configuration-settings).
 
-Keep RDP and SSH closed to the public internet. Restrict management traffic to the selected management path. Allow the outbound service connectivity needed for enrollment and security telemetry.
+Не открывайте RDP и SSH в общедоступный интернет. Ограничьте управляющий трафик выбранным путём. Разрешите исходящие подключения, необходимые для регистрации и передачи телеметрии безопасности.
 
-**Validation:** establish private management access and verify effective network rules before installing workloads. If you add a deliberately vulnerable application later, keep it inside the exercise network and restrict access to the test machines.
+**Проверка:** настройте частный доступ для управления и проверьте действующие сетевые правила до установки нагрузок. Если позже добавите намеренно уязвимое приложение, оставьте его в сети упражнения и ограничьте доступ тестовыми компьютерами.
 
-## Connect Sentinel and Logs
+## Подключите Sentinel и журналы
 
-**Portal setup:** create a Log Analytics workspace and enable Sentinel on it. If the workspace is absent from the Defender portal, open **System > Settings > Microsoft Sentinel > Connect a workspace**. Verify the tenant and required Azure and Entra roles against the [onboarding prerequisites](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
+**Настройка портала:** создайте рабочую область Log Analytics и включите в ней Sentinel. Если рабочей области нет на портале Defender, откройте **System > Settings > Microsoft Sentinel > Connect a workspace**. Проверьте арендатора и необходимые роли Azure и Entra по [требованиям подключения](https://learn.microsoft.com/en-us/unified-secops/microsoft-sentinel-onboard).
 
-**Log collection is a separate step.** In Entra, configure diagnostic settings to send the required activity categories to the same workspace. Start with interactive sign-ins and audit events. Microsoft's [Entra log integration guide](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) covers the permissions and destination setup.
+**Сбор журналов** выполняется отдельно. В Entra настройте параметры диагностики, чтобы отправлять нужные категории активности в ту же рабочую область. Начните с интерактивных входов и событий аудита. [Руководство по интеграции журналов Entra](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs) описывает разрешения и назначение.
 
-The current Sentinel workflow also supports connection through the Microsoft Defender portal. Confirm the workspace is the intended primary workspace, the tenant matches the test identities, and the account has the required roles before troubleshooting an empty table. Portal visibility alone does not prove ingestion. [Sentinel onboarding in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
+Текущий процесс Sentinel также поддерживает подключение через портал Microsoft Defender. Прежде чем разбирать пустую таблицу, убедитесь, что выбрана нужная основная рабочая область, арендатор совпадает с тестовыми удостоверениями, а у учётной записи есть нужные роли. Видимость на портале сама по себе не доказывает приём данных. [Подключение Sentinel на портале Defender](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-onboard)
 
 ```kusto
 SigninLogs
@@ -93,107 +93,107 @@ SigninLogs
 | order by TimeGenerated desc
 ```
 
-Run this **Kusto Query Language (KQL)** example in the workspace's Logs view after generating a fresh test sign-in. Replace the sample user principal name with your lab user. The columns follow the [SigninLogs table schema](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
+После нового тестового входа выполните пример **Kusto Query Language (KQL)** в представлении Logs рабочей области. Замените пример имени пользователя на пользователя лаборатории. Столбцы соответствуют [схеме таблицы SigninLogs](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs).
 
-**Expected result:** a row matching the test account and sign-in time. No rows means you need to check the time range, identity, collection settings, destination, and ingestion delay. A missing table points to a collection or workspace issue before it points to a detection issue.
+**Ожидаемый результат:** строка для тестовой учётной записи и времени входа. Если строк нет, проверьте временной диапазон, удостоверение, параметры сбора, назначение и задержку приёма. Если таблица отсутствует, сначала ищите проблему сбора или рабочей области, а не обнаружения.
 
-## Onboard the First Endpoint
+## Подключите первую конечную точку
 
-**Intune enrollment and EDR onboarding** are separate checkpoints. Connect Intune and Defender for Endpoint, enroll a supported Windows client, then assign an endpoint detection and response onboarding policy to its lab group. Entra registration alone does not establish either checkpoint.
+**Регистрация в Intune и подключение EDR** являются отдельными контрольными точками. Подключите Intune и Defender for Endpoint, зарегистрируйте поддерживаемый клиент Windows, затем назначьте политику подключения EDR его лабораторной группе. Одна регистрация в Entra не подтверждает ни одну из этих точек.
 
-In Intune, check **Endpoint security > Defender for Endpoint**. If the connection is unavailable, enable the Intune connection in Defender's endpoint advanced features. Follow the platform-specific steps in Microsoft's [Intune and Defender integration guide](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
+В Intune проверьте **Endpoint security > Defender for Endpoint**. Если подключение недоступно, включите подключение Intune в дополнительных функциях конечных точек Defender. Выполните шаги для своей платформы из [руководства по интеграции Intune и Defender](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration).
 
-| Checkpoint | Evidence to capture |
+| Контрольная точка | Какие доказательства собрать |
 |---|---|
-| **Enrollment** | Client appears in Intune with a recent check-in |
-| **Policy assignment** | Onboarding policy applies to the intended device group |
-| **Sensor reporting** | Defender shows onboarded status and recent telemetry |
-| **Detection test** | A documented test produces the expected security signal |
+| **Регистрация** | Клиент отображается в Intune и недавно выходил на связь |
+| **Назначение политики** | Политика подключения действует для нужной группы устройств |
+| **Отчёт датчика** | Defender показывает состояние подключения и свежую телеметрию |
+| **Тест обнаружения** | Документированный тест создаёт ожидаемый сигнал безопасности |
 
-**For servers**, enable the chosen Defender for Servers plan and its endpoint integration, then verify sensor deployment and reporting. Defender for Cloud also discovers machines before onboarding completes. Inventory presence alone is insufficient, as Microsoft explains in its [resource discovery and onboarding guidance](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
+**Для серверов** включите выбранный план Defender for Servers и интеграцию конечной точки, затем проверьте развёртывание датчика и отчёты. Defender for Cloud обнаруживает машины ещё до завершения подключения. Одного наличия в инвентаре недостаточно. См. руководство Microsoft по [обнаружению и подключению ресурсов](https://learn.microsoft.com/en-us/azure/defender-for-cloud/integration-defender-for-endpoint).
 
-## Investigate a Test Alert
+## Расследуйте тестовое оповещение
 
-**Start with Microsoft's documented EDR detection test** on the lab endpoint. Follow the [current test instructions](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), including platform prerequisites and troubleshooting. Record the execution time before opening the alert queue.
+Начните с **документированного Microsoft теста обнаружения EDR** на лабораторной конечной точке. Следуйте [актуальным инструкциям теста](https://learn.microsoft.com/en-us/defender-endpoint/edr-detection), включая требования платформы и устранение неполадок. Запишите время запуска до открытия очереди оповещений.
 
-Treat the resulting alert as an investigation exercise. A security product's title gives you a starting point. Your job is to establish what happened and support the disposition with evidence.
+Рассматривайте появившееся оповещение как упражнение по расследованию. Заголовок продукта служит лишь отправной точкой. Установите, что произошло, и подтвердите решение доказательствами.
 
-1. **Triage:** identify the alert source, device, account, and event time.
-2. **Inspect:** review the process tree, command line, file details, and network activity available for the event.
-3. **Scope:** search for related activity on the test identity and other lab devices.
-4. **Assess:** explain whether the evidence matches the planned exercise or an unrelated event.
-5. **Respond:** document the selected response, its impact, and the recovery steps. Perform supported containment only when the exercise requires it.
-6. **Retest:** repeat the relevant test after changing a control and compare the evidence.
+1. **Первичная оценка:** определите источник оповещения, устройство, учётную запись и время события.
+2. **Проверка:** изучите дерево процессов, командную строку, сведения о файле и доступную сетевую активность.
+3. **Область поиска:** найдите связанную активность тестового удостоверения и других устройств лаборатории.
+4. **Оценка:** объясните, соответствует ли доказательство запланированному упражнению или постороннему событию.
+5. **Реагирование:** запишите выбранное действие, его влияние и шаги восстановления. Применяйте поддерживаемую изоляцию только при необходимости для упражнения.
+6. **Повторный тест:** после изменения контроля повторите нужный тест и сравните доказательства.
 
-**Do not manufacture missing results.** If the alert fails to arrive, preserve the execution record and troubleshoot collection. If a control blocks the test before the expected event, document the prevention result.
+**Не выдумывайте отсутствующие результаты.** Если оповещение не пришло, сохраните запись о запуске и проверьте сбор данных. Если контроль блокирует тест до ожидаемого события, зафиксируйте результат предотвращения.
 
-## Test Identity Controls
+## Проверьте средства защиты удостоверений
 
-**Adversary-in-the-middle (AiTM) phishing** places an attacker-controlled intermediary in a sign-in flow. The supplied runbook uses this scenario to motivate stronger authentication. For the first identity exercise, test policy behavior directly with your own unprivileged account.
+**Фишинг типа adversary-in-the-middle (AiTM)** помещает управляемого злоумышленником посредника в процесс входа. В предоставленном плейбуке этот сценарий служит обоснованием для усиленной аутентификации. В первом упражнении проверьте работу политики напрямую с собственной учётной записью без привилегий.
 
-Begin by recording a legitimate sign-in and its authentication details. Review Microsoft's [Entra risk detection reference](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks) before interpreting risk signals. Detection prerequisites and processing differ by signal. A new IP address or a failed sign-in does not guarantee an AiTM alert.
+Сначала запишите легитимный вход и сведения об аутентификации. Перед интерпретацией сигналов риска изучите [справочник обнаружения рисков Entra](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-risks). Предварительные условия и обработка различаются для каждого сигнала. Новый IP-адрес или неудачный вход не гарантируют оповещение AiTM.
 
-**Passkeys (FIDO2)** use credentials bound to the legitimate service rather than reusable codes entered into a relayed login page. Enable an appropriate passkey profile for the pilot group and register the method before enforcing a policy. Follow Microsoft's [passkey configuration guide](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2) for supported authenticators and restrictions.
+**Ключи доступа (FIDO2)** используют учётные данные, привязанные к настоящей службе, а не повторно используемые коды для страницы входа посредника. Включите подходящий профиль ключей доступа для пилотной группы и зарегистрируйте способ до применения политики. Требования к аутентификаторам и ограничения описаны в [руководстве по настройке ключей доступа](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-passkeys-fido2).
 
-**Conditional Access exercise:** create a policy targeting only the lab pilot group, exclude emergency access accounts, and select **Require authentication strength > Phishing-resistant MFA strength**. Start in **Report-only**, review its impact, then enable it. This adapts Microsoft's [administrator policy example](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) to a narrow test group.
+**Упражнение Conditional Access:** создайте политику только для пилотной группы лаборатории, исключите аварийные учётные записи и выберите **Require authentication strength > Phishing-resistant MFA strength**. Сначала включите режим **Report-only**, изучите влияние, затем активируйте политику. Этот пример адаптирует [политику Microsoft для администраторов](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) для узкой тестовой группы.
 
-| Test | Evidence to collect |
+| Тест | Какие доказательства собрать |
 |---|---|
-| **Report-only policy** | Sign-in record showing how the proposed policy evaluates |
-| **Enforced policy, weaker method** | Fresh authentication requires a stronger method before access |
-| **Enforced policy, registered passkey** | Successful sign-in satisfying the required strength |
+| **Политика Report-only** | Запись входа с результатом оценки предлагаемой политики |
+| **Принудительная политика, более слабый метод** | При новом входе до предоставления доступа требуется более сильный метод |
+| **Принудительная политика, зарегистрированный ключ доступа** | Успешный вход, удовлетворяющий заданной стойкости |
 
-Use fresh authentication for each comparison and inspect the policy details. Existing sessions complicate comparisons. **Scope of proof:** this exercise validates the authentication requirement. It does not demonstrate universal protection against endpoint compromise or theft of an existing session.
+Для каждого сравнения проводите новую аутентификацию и изучайте сведения о политике. Существующие сеансы усложняют сравнение. **Предел доказательства:** упражнение проверяет требование к аутентификации. Оно не подтверждает универсальную защиту от компрометации конечных точек или кражи существующего сеанса.
 
-## Write Portfolio Evidence
+## Подготовьте доказательства для портфолио
 
-**A useful portfolio entry** explains a decision another analyst is able to review. Include a short architecture description, the collection prerequisites, the event timeline, and the reasoning behind your response.
+**Полезная запись в портфолио** объясняет решение так, чтобы другой аналитик мог его проверить. Добавьте краткое описание архитектуры, условия сбора данных, временную шкалу события и обоснование ответа.
 
 ```text
-Exercise:
-Date and UTC time window:
-Lab scope and prerequisites:
-Trigger and expected signal:
-Observed alert or prevention:
-Evidence and queries:
-Affected identities and devices:
-Disposition and reasoning:
-Response and recovery:
-Control change and retest:
-Limitations and follow-up:
+Упражнение:
+Дата и временной интервал UTC:
+Область лаборатории и предварительные требования:
+Триггер и ожидаемый сигнал:
+Полученное оповещение или предотвращение:
+Доказательства и запросы:
+Затронутые удостоверения и устройства:
+Вывод и обоснование:
+Реагирование и восстановление:
+Изменение контроля и повторный тест:
+Ограничения и дальнейшие действия:
 ```
 
-Replace every field with your own observations. **Sanitize exports:** remove credentials, session material, personal information, and unnecessary identifiers before publishing screenshots or query results.
+Заполните каждое поле собственными наблюдениями. Перед публикацией снимков экрана и результатов запросов **очистите экспорт:** удалите пароли, данные сеансов, персональную информацию и ненужные идентификаторы.
 
-**Resume example:** "Built a Microsoft security lab, connected identity logs to Sentinel, investigated endpoint test alerts, and documented Conditional Access validation." Use this wording only after completing those tasks. Put it under projects or practical training with the actual dates and scope.
+**Пример для резюме:** «Создал лабораторию безопасности Microsoft, подключил журналы удостоверений к Sentinel, расследовал тестовые оповещения конечных точек и задокументировал проверку Conditional Access». Используйте эту формулировку только после выполнения работы. Укажите её в разделе проектов или практического обучения вместе с фактическими датами и областью работ.
 
-A lab demonstrates independent practice. **Production SOC work** also involves business impact, escalation, service commitments, and coordination with other teams. Explain which parts you practiced and which remain outside your experience.
+Лаборатория подтверждает самостоятельную практику. **Работа в промышленном SOC** также включает влияние на бизнес, эскалацию, обязательства по обслуживанию и координацию с другими командами. Уточните, что вы отрабатывали, а что осталось за пределами вашего опыта.
 
-## Troubleshooting
+## Устранение неполадок
 
-| Symptom | First check |
+| Симптом | Что проверить сначала |
 |---|---|
-| **Workspace absent from Defender** | Same tenant, Sentinel enabled, and onboarding role requirements |
-| **SigninLogs absent or empty** | Diagnostic categories, destination workspace, fresh events, and time range |
-| **Client absent from Intune** | Enrollment prerequisites and enrollment status |
-| **Device visible without telemetry** | Actual onboarding state, sensor health, and outbound connectivity |
-| **Onboarding policy unapplied** | Assignment scope, device platform, and recent check-in |
-| **No identity risk alert** | Signal prerequisites and recorded activity, without assuming deterministic detection |
-| **Unexpected access allowed** | Report-only status, exclusions, resource scope, and existing session |
-| **Charges after shutdown** | Allocation state and resources billed independently of compute |
+| **Рабочая область отсутствует в Defender** | Тот ли арендатор, включён ли Sentinel, выполнены ли требования к ролям |
+| **SigninLogs отсутствует или пуст** | Категории диагностики, целевая рабочая область, новые события и временной диапазон |
+| **Клиент отсутствует в Intune** | Предварительные требования регистрации и её состояние |
+| **Устройство видно, но телеметрии нет** | Фактическое состояние подключения, датчик и исходящее соединение |
+| **Политика подключения не применена** | Область назначения, платформа устройства и недавний сеанс связи |
+| **Нет оповещения о риске удостоверения** | Предварительные требования сигнала и записанная активность. Не считайте обнаружение гарантированным |
+| **Доступ неожиданно разрешён** | Режим Report-only, исключения, область ресурса и существующий сеанс |
+| **После выключения начисляется плата** | Состояние распределения ресурсов и компоненты, оплачиваемые отдельно от вычислений |
 
-**Troubleshooting order:** prove the event happened, prove collection worked, then investigate detection logic. Record each failure and fix in the project notes.
+**Порядок устранения неполадок:** подтвердите, что событие произошло, затем работу сбора, после этого изучайте логику обнаружения. Записывайте каждый сбой и исправление в заметках проекта.
 
-## Pause or Remove the Lab
+## Приостановите или удалите лабораторию
 
-**Deallocation** releases VM compute allocation. A guest operating system shutdown alone does not guarantee deallocation. Check Azure's displayed power state and review Microsoft's [VM states and billing documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
+**Освобождение ресурсов** снимает выделение вычислительных ресурсов VM. Одного завершения работы гостевой ОС недостаточно. Проверьте отображаемое в Azure состояние питания и документацию Microsoft о [состояниях VM и оплате](https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing).
 
-**Retained resources** still need review. Disks, snapshots, networking services, log retention, and user subscriptions have separate lifecycles. Set a reminder before each trial expires and verify the next usage report after cleanup.
+**Оставшиеся ресурсы** тоже требуют проверки. У дисков, снимков, сетевых служб, хранения журналов и пользовательских подписок разные жизненные циклы. Установите напоминание до окончания каждой пробной версии и после очистки проверьте следующий отчёт об использовании.
 
-Before deleting the lab resource group, export the evidence you intend to retain and inspect its contents. **Resource group deletion is destructive** for contained resources. Tenant users, Intune policies, Conditional Access policies, subscriptions, and subscription-level security settings require separate cleanup where applicable.
+Перед удалением группы ресурсов лаборатории экспортируйте нужные доказательства и проверьте её содержимое. **Удаление группы ресурсов разрушительно** для ресурсов внутри неё. Пользователи арендатора, политики Intune и Conditional Access, подписки и настройки безопасности уровня подписки при необходимости очищаются отдельно.
 
-## Следующие шаги
+## Дальнейшие шаги
 
-**Finish one documented investigation** before adding another workload. Then add a server, an identity exercise, or a detection rule with a clear test condition. Track what the added component teaches and what it costs.
+До добавления другой нагрузки **завершите и задокументируйте одно расследование**. Затем добавьте сервер, упражнение с удостоверениями или правило обнаружения с чётким условием теста. Записывайте, чему учит новый компонент и сколько он стоит.
 
-Use the [IT home lab guide](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) for infrastructure practice and the [IT resume guide](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) to present the work. Keep the next project small enough to explain from setup through evidence and cleanup.
+Для практики инфраструктуры используйте [руководство по домашней IT-лаборатории](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/), а для описания работы используйте [руководство по резюме в IT](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/). Следующий проект должен быть достаточно небольшим, чтобы объяснить настройку, доказательства и очистку.

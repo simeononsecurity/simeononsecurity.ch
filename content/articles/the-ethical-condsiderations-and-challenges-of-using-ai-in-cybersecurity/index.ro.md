@@ -1,15 +1,16 @@
 ---
 title: "Considerații etice și provocări ale inteligenței artificiale în domeniul securității cibernetice"
 date: 2023-03-08
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Aflați care sunt considerentele etice și provocările legate de utilizarea inteligenței artificiale în domeniul securității cibernetice și cum pot fi abordate pentru o utilizare eficientă."
-tags: ["AI", "securitate cibernetică", "considerații etice", "polarizare", "confidențialitate", "responsabilitate", "complexitate", "adaptabilitate", "supraveghere umană", "intensitatea resurselor", "confidențialitatea datelor", "învățare automată", "informații despre amenințări", "protecția datelor", "tehnologie", "automatizare", "amenințări cibernetice", "securitatea informațiilor", "conformitatea cu reglementările", "transformarea digitală"]
+tags: ["IA", "securitate cibernetică", "considerații etice", "părtinire", "confidențialitate", "responsabilitate", "complexitate", "adaptabilitate", "supraveghere umană", "consum de resurse", "confidențialitatea datelor", "învățare automată", "informații despre amenințări", "protecția datelor", "tehnologie", "automatizare", "amenințări cibernetice", "securitatea informațiilor", "conformitatea cu reglementările", "transformarea digitală"]
 cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "O imagine a unui lacăt cu roți dințate simbolizează utilizarea inteligenței artificiale în securitatea cibernetică, în timp ce o mână umană ține o cheie pentru a ilustra supravegherea umană."
 coverCaption: ""
 ---
- Considerații etice și provocări legate de utilizarea inteligenței artificiale în domeniul securității cibernetice**
+**Considerații etice și provocări legate de utilizarea inteligenței artificiale în domeniul securității cibernetice**
 
 În epoca modernă, **inteligența artificială (AI)** a devenit un instrument esențial pentru diverse industrii. Dezvoltarea IA a ajutat întreprinderile să își automatizeze operațiunile, să își eficientizeze procesele și să își sporească eficiența. Cu toate acestea, utilizarea IA în domeniul securității cibernetice vine cu un set unic de considerații și provocări etice.
 
@@ -17,7 +18,7 @@ coverCaption: ""
 
 Utilizarea inteligenței artificiale în securitatea cibernetică prezintă mai multe **considerații etice** care trebuie abordate pentru a se asigura că utilizarea acesteia se aliniază la standardele etice. În continuare sunt prezentate câteva dintre considerațiile etice care decurg din utilizarea IA în securitatea cibernetică.
 
-### Bias
+### Părtinire
 
 Una dintre cele mai importante considerații etice legate de IA este **părtinirea**. Modelele de IA sunt la fel de bune ca și datele pe care sunt antrenate, iar dacă datele sunt părtinitoare, IA va fi și ea părtinitoare. De exemplu, dacă un sistem de IA este antrenat pe date care provin în mod predominant de la un anumit gen sau rasă, este posibil ca acesta să fie mai predispus să identifice persoanele de acel gen sau rasă ca fiind potențiale amenințări, chiar dacă nu sunt. Acest lucru poate duce la discriminare și părtinire în procesul de securitate cibernetică.
 
@@ -43,11 +44,11 @@ IA în securitatea cibernetică implică algoritmi complecși care pot fi difici
 
 Amenințările la adresa securității cibernetice evoluează în mod constant și este esențial să ne asigurăm că sistemele de IA se pot adapta la noile amenințări. Este esențial să se actualizeze continuu sistemul de IA pentru a ține pasul cu cele mai recente amenințări.
 
-### Human Oversight (Supraveghere umană)
+### Supraveghere umană
 
 Deși AI poate fi utilizată pentru a automatiza multe sarcini de securitate cibernetică, este important să ne asigurăm că oamenii sunt încă implicați în procesul de luare a deciziilor. Oamenii pot oferi context și pot lua decizii de judecată pe care sistemele de AI ar putea să nu le poată lua.
 
-### Resurse intensive
+### Consum mare de resurse
 
 Sistemele de inteligență artificială pot fi intensive în resurse, necesitând cantități semnificative de putere de procesare și de stocare. Este important să ne asigurăm că organizațiile dispun de resursele necesare pentru a sprijini AI în domeniul securității cibernetice.
 

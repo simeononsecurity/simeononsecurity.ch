@@ -1,19 +1,21 @@
 ---
-title: "Maximieren Sie Ihre Sicherheit und Privatsphäre: Härtung und Enttarnung von Windows"
+title: "Sicherheit und Privatsphäre verbessern"
 date: 2023-02-02
+lastmod: 2026-11-09
 toc: true
 draft: false
-description: "Sicher online bleiben: Lernen Sie die Bedeutung von Windows Hardening und Debloating für mehr Sicherheit und Datenschutz kennen."
-tags: ["Härtung von Windows", "Debloating von Fenstern", "Verbesserte Sicherheit", "Datenschutz", "Cyber-Angriffe", "Sicherheit des Betriebssystems", "Windows-Betriebssystem", "Datenschutz", "Cyber-Kriminelle", "Angriffsfläche", "Schwachstellen", "Sicherheits-Updates", "Authentifizierungsmechanismen", "Unerwünschte Software", "Leistungsverbesserung", "Datenerhebung", "Zwei-Faktoren-Authentifizierung", "Anti-Virus Software", "Anti-Malware Software", "Sensible Informationen", "Umfassender Leitfaden"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
-coverAlt: "Ein Bild eines verschlossenen Vorhängeschlosses über einem Computer- oder Laptop-Bildschirm, das die Sicherheitsmaßnahmen symbolisiert, die durch Windows-Hardening und Debloating implementiert werden können."
+description: "Bleiben Sie online sicher. Erfahren Sie, warum die Absicherung und Bereinigung von Windows Sicherheit und Datenschutz verbessern."
+tags: ["Windows absichern", "Unnötige Software aus Windows entfernen", "Mehr Sicherheit", "Datenschutz", "Cyberangriffe", "Betriebssystemsicherheit", "Windows-Betriebssystem", "Datenschutz", "Cyberkriminelle", "Angriffsfläche", "Sicherheitslücken", "Sicherheitsupdates", "Authentifizierungsmechanismen", "Unerwünschte Software", "Leistungsverbesserung", "Datenerfassung", "Zwei-Faktor-Authentifizierung", "Antivirensoftware", "Anti-Malware-Software", "Sensible Informationen", "Umfassender Leitfaden"]
+cover: "/img/cover/debloat-windows-for-improved-privacy-and-security.webp"
+coverAlt: "Illustration eines Computerbildschirms mit einem Fortschrittsbalken zum Absichern und Bereinigen von Windows. Auf dunklem Hintergrund umgeben abstrakte digitale Sicherheitselemente den Bildschirm."
 coverCaption: ""
 ---
 
 **Windows** ist das am weitesten verbreitete Betriebssystem der Welt und damit ein beliebtes Ziel für Cyber-Kriminelle. Um Ihre Daten und Ihre Privatsphäre zu schützen, ist es wichtig, Sicherheitsmaßnahmen zu implementieren, um Ihr System zu **härten und zu debloaten**. In diesem Leitfaden wird die Bedeutung von Windows-Hardening und Debloating erklärt und wie es Ihre allgemeine Sicherheit und Privatsphäre verbessern kann.
 
+
 ## Was ist Windows-Härtung?
-Windows-Hardening bezieht sich auf den Prozess der Sicherung eines Windows-Betriebssystems durch die Reduzierung seiner Angriffsfläche und Schwachstellen. Dies geschieht durch **Deaktivierung oder Entfernung nicht benötigter Funktionen und Dienste**, Anwendung von Sicherheitsupdates und Implementierung starker Kennwörter und Authentifizierungsmechanismen.
+Windows-Hardening bezieht sich auf den Prozess der Sicherung eines Windows-Betriebssystems durch die Reduzierung seiner Angriffsfläche und Schwachstellen. Dies geschieht durch **Deaktivierung oder Entfernung nicht benötigter Funktionen und Dienste**, Anwendung von Sicherheitsupdates und Implementierung starker Kennwörter und Authentifizierungsmechanismen. Weitere Informationen zu [starken Passwörtern](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) finden Sie in unserem Leitfaden.
 
 ## Warum ist Windows-Hardening wichtig?
 Die Windows-Härtung trägt zum Schutz vor Cyberangriffen bei, indem sie **die Anzahl der potenziellen Angriffsvektoren** verringert. Cyber-Kriminelle nutzen häufig Schwachstellen im Betriebssystem oder in Anwendungen aus, um sich Zugang zu einem System zu verschaffen oder sensible Daten zu stehlen. Durch die Härtung des Systems können Sie diese Angriffsflächen **minimieren** und es Angreifern erschweren, Ihre Daten oder Ihre Privatsphäre zu gefährden.
@@ -38,6 +40,53 @@ Im Folgenden finden Sie einige Schritte, die Sie befolgen können, um Ihr Window
 4. **Sichere Passwörter einführen**: Verwenden Sie **starke und eindeutige Passwörter** für alle Ihre Konten und aktivieren Sie, wo immer möglich, die **Zwei-Faktor-Authentifizierung**.
 
 5. **Verwenden Sie Antiviren- und Anti-Malware-Software**: Installieren Sie **Virenschutz- und Anti-Malware-Software** und aktualisieren Sie diese regelmäßig, um sich vor Cyberangriffen zu schützen.
+
+
+## Eine sicherere Reihenfolge zum Entfernen unnötiger Komponenten
+
+Das Entfernen von Komponenten ändert installierte Anwendungen, geplante Aufgaben, Dienste, Richtlinien und Einstellungen zur Datenerfassung. Behandeln Sie jede Änderung als Konfigurationsänderung und nicht als Wettlauf beim Aufräumen.
+
+1. Notieren Sie die Windows-Edition und den Build, installierte Anwendungen, Autostarteinträge, Dienste, geplante Aufgaben und aktuelle Datenschutzeinstellungen.
+2. Erstellen Sie eine getestete Sicherung und bestätigen Sie einen Wiederherstellungsweg über ein lokales Administratorkonto.
+3. Deinstallieren Sie nicht verwendete Anwendungen über die Einstellungen oder das vom Anbieter unterstützte Deinstallationsprogramm.
+4. Prüfen Sie Zweck, Abhängigkeiten, Starttyp, Konto und Arbeitslast eines Dienstes, bevor Sie ihn ändern.
+5. Testen Sie Defender-Funktionen zur Verringerung der Angriffsfläche im Überwachungsmodus, bevor Sie eine Blockierung aktivieren. Prüfen Sie Ereignisse und ergänzen Sie eng gefasste Zulassungsregeln erst nach einem Test.
+6. Prüfen Sie optionale Windows-Funktionen und geplante Aufgaben nach Zuständigkeit und Zweck. Entfernen Sie keine Komponente, nur weil Ihnen ihr Name unbekannt ist.
+7. Starten Sie neu und testen Sie Anmeldung, Netzwerk, Druck, Updates, Sicherungen, VPN, Barrierefreiheitstools und Geschäftsanwendungen.
+8. Führen Sie ein Änderungsprotokoll und stellen Sie bei einem fehlgeschlagenen Test jeweils nur ein Element wieder her.
+
+Microsoft beschreibt den Überwachungsmodus für Funktionen zur Verringerung der Angriffsfläche, einschließlich des kontrollierten Ordnerzugriffs. Der Überwachungsmodus protokolliert erwartete Blockierungen, ohne sie durchzusetzen. Siehe die [Microsoft-Übersicht zur Verringerung der Angriffsfläche](https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-overview?view=o365-worldwide).
+
+## Dienste prüfen und Änderungen zurücksetzen
+
+Die ursprünglichen Beispiele brauchen eine Einschränkung. **Remote Procedure Call (RPC) unterstützt viele Windows-Komponenten und darf nicht pauschal als Datenschutzmaßnahme deaktiviert werden**. Ob der Druckspooler nötig ist, hängt von der Rolle des Computers ab. Ein Druckserver benötigt ihn. Auch bei einem Computer ohne Druckanforderung müssen Sie vor einer Änderung Abhängigkeiten und Anwendungen testen. Die Remote-Registrierung wird ebenfalls von einigen Verwaltungstools benötigt.
+
+Erfassen Sie den aktuellen Zustand, bevor Sie einen Dienst ändern:
+
+```powershell
+$name = 'Spooler'
+Get-CimInstance Win32_Service -Filter "Name='$name'" |
+    Select-Object Name, State, StartMode, StartName, PathName |
+    Export-Csv "C:\Temp\$name-before.csv" -NoTypeInformation
+Get-Service -Name $name -RequiredServices
+Get-Service -Name $name -DependentServices
+```
+
+Verwenden Sie **Manual** vor **Disabled**, wenn Windows oder eine Anwendung den Dienst bei Bedarf starten muss. Testen Sie nach jeder Änderung. Setzen Sie zum Zurücksetzen den protokollierten Starttyp und prüfen Sie die Ereignisanzeige:
+
+```powershell
+Set-Service -Name $name -StartupType Manual
+Start-Service -Name $name
+Get-Service -Name $name
+```
+
+Führen Sie kein ungeprüftes Debloat-Skript auf einem Produktivsystem aus. Bewahren Sie die Skriptversion, exportierte Einstellungen, ursprünglichen Dienstwerte und den Eintrag zum Wiederherstellungsschlüssel beim Änderungsauftrag auf.
+
+## Grenzen des Datenschutzes
+
+Das Entfernen einer Anwendung beweist nicht, dass Windows oder eine andere installierte Anwendung keine Telemetriedaten mehr sendet. Datenschutzeinstellungen, Kontokonfiguration, Diagnoserichtlinien, Anwendungsberechtigungen, Netzwerksteuerungen und Anbieterbedingungen beeinflussen Datenflüsse. Prüfen Sie eine behauptete Datenschutzänderung anhand der Produktdokumentation und lokaler Netzwerk- oder Ereignisdaten.
+
+Der Standardsupport für Windows 10 endete ebenfalls am 14. Oktober 2025. Auch eine bereinigte Windows-10-Installation braucht einen unterstützten Updatepfad oder eine genehmigte Ausnahme vom Lebenszyklus. Siehe den [Microsoft-Hinweis zum Supportende von Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
 
 ______
 

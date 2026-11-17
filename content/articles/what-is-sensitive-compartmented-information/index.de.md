@@ -1,12 +1,12 @@
 ---
 title: "Sensitive Compartmented Information (SCI) erklärt"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Untersuchen Sie die Bedeutung, die Klassifizierungsstufen, die Handhabung und die Vorschriften von sensiblen Informationen (SCI) für Zwecke der nationalen Sicherheit."
 genre: ["Informationssicherheit", "Nationale Sicherheit", "Geheimdienst", "Klassifizierte Informationen", "Staatliche Vorschriften", "Zugangskontrollen", "Sicherheitsfreigaben", "Geheimdienstgemeinschaft", "Verteidigungsindustrie", "Geheimdienstliche Operationen"]
-tags: ["Sensible, unter Verschluss gehaltene Informationen", "SCI", "Verschlusssachen", "nationale Sicherheit", "nachrichtendienstliche Quellen", "nachrichtendienstliche Tätigkeiten", "Zugangskontrollen", "Sicherheitsüberprüfungen", "staatliche Vorschriften", "Informationssicherheit", "Umgang mit Verschlusssachen", "Handhabungsanforderungen", "Weisungen der Geheimdienste", "Direktor des Nationalen Nachrichtendienstes Sicherheitshandbuch", "Nationales Programm für industrielle Sicherheit Betriebshandbuch", "Geheimdienstgemeinschaft", "Verteidigungsindustrie", "Sicherheitsmaßnahmen", "Compliance", "Sicherheitsverfahren", "Geheimdienstaktivitäten", "Spionageabwehr", "außenpolitische Entscheidungen", "Bedrohungen", "Informationsvertraulichkeit", "Informationsintegrität", "Verfügbarkeit von Informationen", "ODNI", "DCSA", "Vorschriften", "Beaufsichtigung"]
+tags: ["Sensible, unter Verschluss gehaltene Informationen", "SCI", "Verschlusssachen", "nationale Sicherheit", "nachrichtendienstliche Quellen", "nachrichtendienstliche Tätigkeiten", "Zugangskontrollen", "Sicherheitsüberprüfungen", "staatliche Vorschriften", "Informationssicherheit", "Umgang mit Verschlusssachen", "Handhabungsanforderungen", "Weisungen der Geheimdienste", "Direktor des Nationalen Nachrichtendienstes Sicherheitshandbuch", "Nationales Programm für industrielle Sicherheit Betriebshandbuch", "Geheimdienstgemeinschaft", "Verteidigungsindustrie", "Sicherheitsmaßnahmen", "Regelkonformität", "Sicherheitsverfahren", "Geheimdienstaktivitäten", "Spionageabwehr", "außenpolitische Entscheidungen", "Bedrohungen", "Informationsvertraulichkeit", "Informationsintegrität", "Verfügbarkeit von Informationen", "ODNI", "DCSA", "Vorschriften", "Beaufsichtigung"]
 cover: "/img/cover/An_image_representing_sci.webp"
 coverAlt: "Ein Bild, das Sensitive Compartmented Information (SCI) darstellt, mit einem Schild als Symbol für Sicherheit, einem Schloss als Symbol für Vertraulichkeit und einer Weltkugel als Symbol für nationale Sicherheit."
 coverCaption: "Schutz der nationalen Sicherheit durch sicheren Umgang mit sensiblen Informationen (SCI)."
@@ -20,7 +20,7 @@ Sensitive Compartmented Information (**SCI**) ist ein Geheimhaltungsgrad, der vo
 
 {{< youtube id="dR1tXWJNGv4" >}}
 
-### Sensitive Compartmented Information verstehen
+### SCI verstehen
 
 Sensitive Compartmented Information umfasst Verschlusssachen, die noch sensibler und eingeschränkter sind als die üblichen Verschlusssachen. Sie beziehen sich in der Regel auf nachrichtendienstliche Quellen, Methoden und Operationen sowie auf Informationen, die von ausländischen Regierungen oder Einrichtungen stammen. SCI werden je nach ihrer Sensibilität und dem potenziellen Schaden, den ihre Offenlegung für die nationale Sicherheit bedeuten könnte, in verschiedene Stufen eingestuft.
 
@@ -72,7 +72,7 @@ Der Umgang mit sensiblen Informationen (SCI) unterliegt **verschiedenen staatlic
 Einige der wichtigsten Vorschriften und Aufsichtsgremien im Zusammenhang mit SCI sind:
 
 - **Director of National Intelligence (DNI) Sicherheitshandbuch**: Das DNI-Sicherheitshandbuch enthält die **Richtlinien und Verfahren** für die Verwaltung und den Schutz von SCI. Es dient als umfassender Leitfaden für das Personal, das mit SCI zu tun hat, um sicherzustellen, dass es die Anforderungen versteht und die erforderlichen Sicherheitsmaßnahmen einhält.
-  - [DNI Website](https://www.dni.gov/)
+  - [DNI-Website](https://www.dni.gov/)
 
 - **National Industrial Security Program Operating Manual (NISPOM)**: Das NISPOM ist eine Reihe von **Standards und Verfahren**, die den Schutz von Verschlusssachen, einschließlich SCI, in der Verteidigungsindustrie regeln. Es legt die Anforderungen für Auftragnehmer und andere Organisationen fest, die mit Verschlusssachen umgehen, um den Schutz der nationalen Sicherheit zu gewährleisten.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ Zusammenfassend lässt sich sagen, dass SCI durch den Schutz hochsensibler Infor
 
 ### Referenzen
 
-- [DNI Website](https://www.dni.gov/)
+- [DNI-Website](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

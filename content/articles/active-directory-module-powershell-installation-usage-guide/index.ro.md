@@ -1,6 +1,7 @@
 ---
 title: "Mastering Active Directory Administration with PowerShell: Ghid de instalare și utilizare"
 date: 2023-07-25
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Descoperiți cum să instalați și să utilizați în mod eficient modulul Active Directory pentru PowerShell pentru a simplifica sarcinile de administrare a Windows Active Directory."
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## Verificări actuale pentru RSAT și PowerShell
+
+Microsoft distribuie acum modulul Active Directory prin Remote Server Administration Tools (RSAT). Pe edițiile client Windows acceptate, instalați caracteristica la cerere dintr-o sesiune PowerShell cu privilegii ridicate:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+Pe Windows Server, folosiți fluxul pentru caracteristici de server documentat de Microsoft:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Verificați modulul înainte de a rula comenzi administrative:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+[Referința modulului ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) precizează că RSAT furnizează modulul și enumeră cmdleturile disponibile. Folosiți versiunea potrivită sistemului de operare gazdă. PowerShell 7 implică aspecte de compatibilitate, așa că testați modulul pe o stație de lucru care nu este de producție înainte de a schimba un flux administrativ existent.
+
+Ca recomandare operațională, folosiți `-WhatIf` când cmdletul îl acceptă, limitați interogările cu `-Server` când contează un anumit controler de domeniu și solicitați doar permisiunile necesare sarcinii. PowerShell documentează `-WhatIf` în [parametrii comuni](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Nu păstrați parole în istoricul comenzilor sau în scripturi. Preferați promptul securizat [Get-Credential](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), un seif protejat pentru secrete sau un cont de serviciu delegat, cu o procedură documentată de rotire.
 
 ## Concluzie
 

@@ -4,10 +4,11 @@ date: 2023-05-12
 toc: true
 draft: false
 description: "Erfahren Sie in diesem umfassenden Leitfaden für Eltern, wie Sie Ihre Kinder vor Cybermobbing schützen können."
-tags: ["Cybermobbing", "Online-Sicherheit", "Elternschaft", "Kinder", "geistige Gesundheit", "staatliche Vorschriften", "Maßnahmen zur Internetsicherheit", "Überwachung der Online-Aktivitäten", "Prävention", "Online-Belästigung", "Cybersicherheit", "digitale Elternschaft", "soziale Medien", "digitale Staatsbürgerschaft", "digitaler Fußabdruck", "Mobbing", "Gesetz", "Technologie", "Sicherheit", "Bildung"]
+tags: ["Cybermobbing", "Online-Sicherheit", "Elternschaft", "Kinder", "psychische Gesundheit", "staatliche Vorschriften", "Richtlinien zur Internetsicherheit", "Überwachung der Online-Aktivitäten", "Prävention", "Online-Belästigung", "Cybersicherheit", "digitale Elternschaft", "soziale Medien", "digitale Bürgerschaft", "digitaler Fußabdruck", "Mobbing", "Gesetz", "Technologie", "Sicherheit", "Bildung"]
 cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Eine Karikatur eines Elternteils und eines Kindes, die gemeinsam einen Computer benutzen, mit einer Sprechblase über dem Computer, die eine positive Botschaft vermittelt."
 coverCaption: ""
+lastmod: 2026-11-09
 ---
 
 **Cybermobbing: Ein Leitfaden für Eltern zum Schutz ihrer Kinder im Internet**

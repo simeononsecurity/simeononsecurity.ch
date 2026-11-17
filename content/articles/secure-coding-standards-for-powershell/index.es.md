@@ -1,6 +1,7 @@
 ---
 title: "Prácticas recomendadas para la codificación segura en PowerShell: Una guía"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda las mejores prácticas para escribir código PowerShell seguro para proteger sus sistemas basados en Windows de las vulnerabilidades de seguridad."
@@ -9,7 +10,7 @@ cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Imagen de un superhéroe frente a un ordenador con el logotipo de Windows en la pantalla y un escudo en la mano, que simboliza la importancia de las prácticas de codificación seguras para proteger los sistemas basados en Windows."
 coverCaption: ""
 ---
- es un popular marco de automatización de tareas y gestión de la configuración que se utiliza para automatizar tareas repetitivas y simplificar la gestión de sistemas basados en Windows. Como ocurre con cualquier lenguaje de programación, el código de PowerShell puede ser vulnerable a amenazas de seguridad si los desarrolladores no siguen las normas de codificación segura. En este artículo, analizaremos las mejores prácticas para la codificación segura en PowerShell.
+PowerShell es un marco popular de automatización de tareas y gestión de la configuración que se utiliza para automatizar tareas repetitivas y simplificar la gestión de sistemas basados en Windows. Como ocurre con cualquier lenguaje de programación, el código de PowerShell puede ser vulnerable a amenazas de seguridad si los desarrolladores no siguen las normas de codificación segura. En este artículo, analizaremos las mejores prácticas para la codificación segura en PowerShell.
 
 ____
 
@@ -41,10 +42,10 @@ PowerShell tiene varias funciones que pueden ser vulnerables a problemas de segu
 
 Por ejemplo, en lugar de utilizar la función Invoke-Expression para ejecutar un comando, los desarrolladores deberían utilizar Start-Process.
 ```powershell
-# Instead of using Invoke-Expression
+# En lugar de usar Invoke-Expression
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Usa Start-Process
 Start-Process "Get-ChildItem"
 ```
 
@@ -96,19 +97,19 @@ En PowerShell, hay varios analizadores de código estático disponibles, tales c
 Por ejemplo, `PSScriptAnalyzer` es un popular analizador de código estático que examina el código PowerShell en busca de posibles vulnerabilidades de seguridad. Puede detectar problemas como:
 
 - **Credenciales con código duro**
-- Uso de funciones obsoletas o inseguras**.
-- Validación de entrada insuficiente
-- Uso incorrecto de variables y bucles.
+- **Uso de funciones obsoletas o inseguras**.
+- **Validación de entrada insuficiente**
+- **Uso incorrecto de variables y bucles**.
 
 Mediante el uso de un analizador de código estático, los desarrolladores pueden identificar y corregir las vulnerabilidades de seguridad en una fase temprana del proceso de desarrollo. Esto puede ayudar a prevenir brechas de seguridad y minimizar el impacto de cualquier ataque exitoso.
 
 ____
 
-## Utilizar prácticas de codificación seguras para scripts PowerShell
+## Aplicar prácticas de programación segura
 
 Los scripts PowerShell son vulnerables a varios riesgos de seguridad como la inyección de código, la escalada de privilegios y la fuga de datos. Para garantizar la seguridad de los scripts PowerShell, los desarrolladores deben seguir prácticas de codificación seguras como:
 
-### Sanitize Input and Output
+### Sanitizar las entradas y salidas
 El saneamiento de la entrada del usuario es importante para evitar ataques de inyección de código. Los desarrolladores deben validar y desinfectar la entrada del usuario para asegurarse de que cumple los criterios esperados y no contiene código malicioso. Además, al escribir la salida en un archivo de registro u otro destino, los desarrolladores deben desinfectar cualquier dato sensible antes de escribirlo en el archivo para evitar la fuga de datos.
 
 ### Utilizar protocolos de comunicación seguros
@@ -120,10 +121,10 @@ Implemente mecanismos de registro y supervisión para detectar y responder a tie
 ### Endurecer el entorno
 Endurezca el entorno aplicando políticas y configuraciones de seguridad al sistema operativo, los dispositivos de red y las aplicaciones. Esto ayuda a reducir la superficie de ataque e impide el acceso no autorizado. Por ejemplo, los desarrolladores y administradores pueden:
 
-- Desactivar servicios y protocolos innecesarios para reducir la superficie de ataque**.
-- Aplicar contraseñas seguras y políticas de contraseñas para evitar accesos no autorizados.
-- Configurar cortafuegos y sistemas de detección de intrusos para prevenir y detectar ataques.
-- Implementar actualizaciones de software y parches para corregir vulnerabilidades de seguridad conocidas.
+- **Desactivar servicios y protocolos innecesarios para reducir la superficie de ataque**.
+- [**Aplicar contraseñas seguras y políticas de contraseñas para evitar accesos no autorizados**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
+- **Configurar cortafuegos y sistemas de detección de intrusos para prevenir y detectar ataques**.
+- **Implementar actualizaciones de software y parches para corregir vulnerabilidades de seguridad conocidas**.
 
 ### Realizar análisis periódicos de vulnerabilidades
 Realice exploraciones periódicas de vulnerabilidades en los sistemas y aplicaciones para identificar y corregir las vulnerabilidades de seguridad. Utilice herramientas como Nessus, OpenVAS o Microsoft Baseline Security Analyzer (MBSA) para realizar estos análisis. Los escaneos regulares de vulnerabilidades pueden ayudar a identificar vulnerabilidades y debilidades en el entorno, permitiendo a los desarrolladores remediarlas antes de que sean explotadas por atacantes.
@@ -141,7 +142,7 @@ Al aplicar estas prácticas, los desarrolladores pueden reducir el riesgo de inf
 
 ## Referencias
 
-- [PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
-- [Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
-- [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
-- [Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [Documentación de PowerShell](https://docs.microsoft.com/en-us/powershell/)
+- [Serie Top 25: errores de software](https://www.sans.org/top25-software-errors/)
+- [Guía práctica de validación de entradas](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [Guía de seguridad general para servidores](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

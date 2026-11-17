@@ -1,6 +1,7 @@
 ---
 title: "Mastering Wireshark: Kompleksowy przewodnik po analizie sieci dla początkujących"
 date: 2023-04-07
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Odkryj, jak skutecznie używać Wireshark do analizy sieci i rozwiązywania problemów dzięki temu szczegółowemu przewodnikowi dla początkujących."
@@ -63,11 +64,31 @@ Wireshark jest doskonałym narzędziem do rozwiązywania różnych problemów si
 - **Identyfikacja powolnych połączeń sieciowych:** Określenie, czy powolne połączenia sieciowe są spowodowane opóźnieniami sieci, czy opóźnieniami aplikacji, poprzez analizę czasu RTT (round-trip time) między pakietami. Użyj funkcji TCP Stream Graph, aby zwizualizować wartości RTT i zidentyfikować możliwe wąskie gardła.
 - **Wykrywanie nieautoryzowanego dostępu:** Monitorowanie ruchu sieciowego pod kątem podejrzanych działań lub prób nieautoryzowanego dostępu poprzez filtrowanie pakietów na podstawie adresów IP, portów lub protokołów.
 
+## Plan przechwytywania dla początkujących
+
+Zacznij od pytania i krótkiego przechwytywania. Przechwytuj ruch na interfejsie, który go przenosi, odtwórz jeden problem, a następnie zatrzymaj przechwytywanie. Zapisz plik pcapng ze znacznikiem czasu. Zrzuty często zawierają dane logowania, dane osobowe, nazwy hostów i adresy wewnętrzne. Przechowuj je jako wrażliwe materiały i udostępniaj wyłącznie upoważnionym osobom.
+
+**Filtr przechwytywania** ogranicza pakiety zapisywane podczas przechwytywania. **Filtr wyświetlania** ukrywa pakiety po przechwyceniu, ale nie usuwa ich z pliku. Składnia filtrów jest inna. Podręcznik Wireshark opisuje oba języki.
+
+| Cel | Filtr wyświetlania | Co sprawdzić |
+|---|---|---|
+| **Błąd DNS** | `dns` | Nazwę zapytania, kod odpowiedzi, adres serwera i opóźnienie odpowiedzi. |
+| **Nawiązanie TCP** | `tcp.flags.syn == 1` | SYN, SYN-ACK i końcowy ACK dla wybranego punktu końcowego. |
+| **Retransmisje** | `tcp.analysis.retransmission` | Kierunek, czas i powtarzające się straty na jednej trasie. |
+| **Jeden host** | `ip.addr == 192.168.1.20` | Ruch do wybranego hosta lub z niego. |
+| **Jedna usługa** | `tcp.port == 443` | Wybrany port TCP, bez zakładania, jaka aplikacja go używa. |
+
+W terminalu polecenie `tshark -i <interface> -f "host 192.168.1.20" -w incident.pcapng` zapisuje plik pcapng z filtrem przechwytywania libpcap. `tshark -r incident.pcapng -Y "dns or tcp.analysis.retransmission"` odczytuje plik z filtrem wyświetlania. Zastąp interfejs, adres i nazwę pliku wartościami z autoryzowanego testu.
+
+Wybierz pakiet i użyj **Analyze > Follow**, aby sprawdzić strumień protokołu. Wireshark obsługuje między innymi TCP, UDP, TLS, HTTP, HTTP/2, QUIC, WebSocket i SIP. Śledzenie strumienia samo w sobie nie odszyfrowuje TLS. [Przewodnik Wireshark po strumieniach](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) opisuje zakres i ograniczenia tej funkcji.
+
+Traktuj **Expert Information** jako wskazówkę. Zestaw retransmisję, zduplikowany lub nieprawidłowy pakiet z czasem, punktami końcowymi, licznikami interfejsu i dziennikami aplikacji. Dokumentacja Wireshark określa Expert Information jako punkt wyjścia, a nie dowód awarii.
+
 ______
 
 ## Przestrzeganie przepisów rządowych
 
-Niektóre przepisy rządowe, takie jak [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) and the [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html) wymagają od organizacji ochrony poufnych informacji i utrzymania bezpieczeństwa sieci. Wireshark może pomóc w przestrzeganiu tych przepisów poprzez monitorowanie ruchu sieciowego pod kątem nieautoryzowanego dostępu lub wycieku danych.
+Niektóre przepisy rządowe, takie jak [**General Data Protection Regulation (GDPR)**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) oraz [**Health Insurance Portability and Accountability Act (HIPAA)**](https://www.hhs.gov/hipaa/index.html) wymagają od organizacji ochrony poufnych informacji i utrzymania bezpieczeństwa sieci. Wireshark może pomóc w przestrzeganiu tych przepisów poprzez monitorowanie ruchu sieciowego pod kątem nieautoryzowanego dostępu lub wycieku danych.
 
 Należy pamiętać, że korzystanie z Wireshark do przechwytywania i analizowania ruchu sieciowego może również podlegać względom prawnym i etycznym. Przed użyciem Wiresharka do analizy sieci należy zawsze upewnić się, że posiada się odpowiednie uprawnienia i przestrzega zasad swojej organizacji oraz lokalnych przepisów.
 
@@ -85,6 +106,9 @@ ______
 2. [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/)
 3. [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 4. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+5. [Podręcznik TShark Wireshark](https://www.wireshark.org/docs/man-pages/tshark.html)
+6. [Śledzenie strumieni protokołów w Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
+7. [Expert Information w Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvExpert.html)
 
 Pamiętaj, aby ćwiczyć i eksperymentować z Wiresharkiem na własną rękę, aby lepiej zrozumieć jego możliwości. Im częściej będziesz z niego korzystać, tym bardziej będziesz biegły w identyfikowaniu i rozwiązywaniu problemów z siecią.
 

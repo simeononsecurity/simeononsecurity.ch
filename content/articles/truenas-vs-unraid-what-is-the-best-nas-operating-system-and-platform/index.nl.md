@@ -1,23 +1,24 @@
 ---
-title: "TrueNAS versus Unraid: welk NAS-besturingssysteem wint?"
+title: "TrueNAS vs. Unraid: welk NAS-besturingssysteem is het beste?"
 date: 2023-02-16
-lastmod: 2026-10-21
+lastmod: 2026-11-12
 toc: true
 draft: false
-description: "Een uitgebreide vergelijking van Unraid en TrueNas, inclusief hun gebruiksvriendelijkheid, functies, documentatie en gemeenschap, om gebruikers te helpen een weloverwogen beslissing te nemen over welk NAS-besturingssysteem het beste is voor hun behoeften."
-tags: ["Niet bang", "TrueNAS", "NAS-besturingssysteem", "Vergelijking", "Gebruiksvriendelijkheid", "Kenmerken", "Documentatie", "Gemeenschap", "Open Bron", "Onderneming", "Gegevensbescherming", "Prestaties", "Flexibiliteit", "Gebruiksvriendelijk", "Toepassingen van derden", "Netwerkopslag", "RAID-technologie", "Opslagbeheer", "OpenZFS", "Thuisgebruikers", "Prijsmodel", "Cloudopslag", "Virtualisatie", "Hub documentatie", "Gemeenschap Forum", "Geavanceerde gegevensbescherming", "Volwassen NAS OS", "Technische expertise", "IT-professionals", "Unraid vs TrueNas", "NAS-besturingssysteem vergelijken", "netwerkopslag", "Functies van Unraid", "TrueNas-functies", "Unraid documentatie", "TrueNas-documentatie", "Gemeenschap zonder angst", "TrueNas-gemeenschap", "Niet-raid prijzen", "Kosten TrueNas", "Ongekende gebruiksvriendelijkheid", "Gebruiksgemak TrueNas", "Unraid opslagbeheer", "TrueNas geavanceerde gegevensbescherming", "Toepassingen van derden loskoppelen", "TrueNas cloud-opslag", "Unraid virtualisatie", "TrueNas zakelijke markt", "Unraid RAID-technologie", "TrueNas OpenZFS", "Bange thuisgebruikers", "TrueNas volwassen NAS OS", "Ruime technische expertise", "TrueNas IT-professionals", "Rare prestaties", "TrueNas schaalbaarheid", "Unraid ondersteuning", "TrueNas-bestandssysteem", "Unraid schijfbeheer", "TrueNas opslaguitbreiding", "truenas-besturingssysteem", "truenas vs freenas vs unraid"]
+description: "Vergelijk TrueNas en Unraid op opslagontwerp, gebruiksgemak, functies, documentatie, community en geschiktheid voor je werklast."
+genre: ["Technologie", "Opslagsystemen", "Netwerkopslag", "Gegevensbeheer", "NAS-besturingssystemen", "Vergelijking", "Gegevensbescherming", "Thuisopslag", "Zakelijke opslag", "Open source"]
+tags: ["Unraid", "TrueNas", "NAS-besturingssysteem", "Vergelijking", "Gebruiksvriendelijkheid", "Functies", "Documentatie", "Community", "Open source", "Bedrijven", "Gegevensbescherming", "Prestaties", "Flexibiliteit", "Eenvoudig in gebruik", "Apps van derden", "Netwerkopslag", "RAID-technologie", "Opslagbeheer", "OpenZFS", "Thuisgebruikers", "Prijsmodel", "Cloudopslag", "Virtualisatie", "Documentatiecentrum", "Communityforum", "Geavanceerde gegevensbescherming", "Volwassen NAS OS", "Technische kennis", "IT-professionals", "Unraid versus TrueNas", "NAS-besturingssysteemvergelijking", "netwerkopslag", "Unraid-functies", "TrueNas-functies", "Unraid-documentatie", "TrueNas-documentatie", "Unraid-forum", "TrueNas-community", "Unraid-prijzen", "TrueNas-kosten", "Gebruiksvriendelijkheid van Unraid", "Gebruiksvriendelijkheid van TrueNas", "Unraid-opslagbeheer", "Geavanceerde TrueNas-bescherming", "Apps van derden voor Unraid", "TrueNas-cloudopslag", "Unraid-virtualisatie", "Zakelijke markt van TrueNas", "Unraid-RAID-technologie", "TrueNas-OpenZFS", "Thuisgebruikers van Unraid", "Volwassen TrueNas NAS", "Technische kennis van Unraid", "TrueNas-IT-professionals", "Unraid-prestaties", "TrueNas-schaalbaarheid", "Unraid-ondersteuning", "TrueNas-bestandssysteem", "Unraid-schijfbeheer", "TrueNas-opslaguitbreiding", "truenas-besturingssysteem", "truenas versus freenas versus unraid"]
 cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp"
-coverAlt: "Twee servers tegenover elkaar, één blauw, één groen. Aan de blauwe kant staat een persoon met een helm en veiligheidsvest. Aan de groene kant zit iemand op de bank."
-coverCaption: ""
+coverAlt: "Twee servers staan tegenover elkaar, één blauw en één groen. Aan de blauwe kant staat iemand met een veiligheidshelm en -vest. Aan de groene kant zit iemand op de bank."
+coverCaption: "Kies het NAS-besturingssysteem dat bij je opslagbehoeften past."
 ---
 
-Als het gaat om **het bouwen van een network-attached storage (NAS) systeem, zijn twee van de meest bekende besturingssystemen voor x86-gebaseerde computers TrueNas en Unraid**. Beide bieden krachtige functies voor het beheren van een NAS-systeem, maar hun belangrijkste verschil ligt in hun methode voor opslagbeheer.
+Bij het bouwen van netwerkopslag (NAS) zijn **TrueNas en **Unraid** twee bekende besturingssystemen voor x86-computers**. Beide bieden sterke functies voor NAS-beheer. Het belangrijkste verschil is hoe ze opslag organiseren.
 
-In dit artikel vergelijken we TrueNas en Unraid om je te helpen bij het maken van de beste beslissing voor jouw behoeften.
+Dit artikel vergelijkt **TrueNas** en **Unraid**, zodat je een systeem kiest dat bij je behoeften past.
 
 ## Overzicht van Unraid
 
-**Unraid is een NAS-besturingssysteem ontwikkeld door Lime Technology**, een softwarebedrijf uit Californië. Het werd opgericht in 2005 en draait op het Linux-platform. Het doel van Unraid is om RAID-technologie toegankelijker te maken door het elimineren van beperkingen op schijfgrootte, snelheid, merk en protocol. Hierdoor kunnen RAID-arrays eenvoudig worden uitgebreid en wordt het risico op gegevensverlies geminimaliseerd.
+**Unraid is een propriëtair NAS-besturingssysteem van Lime Technology**, een softwarebedrijf in Californië. Het verscheen in 2005 en draait op Linux. **Unraid** wil **RAID** toegankelijker maken door beperkingen op schijfgrootte, snelheid, merk en protocol weg te nemen. Zo breid je **RAID**-arrays eenvoudiger uit en verklein je het risico op gegevensverlies.
 
 {{< youtube id="GIpf4DmJgcA" >}}
 
@@ -25,68 +26,142 @@ ______
 
 ## Inleiding tot TrueNas
 
-**TrueNas, voorheen bekend als FreeNas, is een open-source NAS-besturingssysteem ontwikkeld door iXsystems**, een privébedrijf gevestigd in San Jose, Californië. Het werd gelanceerd in 2005 en is gebouwd op FreeBSD en Linux. De ontwikkelaars van TrueNas concentreren zich op de zakelijke markt en de keuze van het standaard bestandssysteem (OpenZFS) weerspiegelt deze focus.
+**TrueNas, eerder bekend als **FreeNas**, is een open source NAS-besturingssysteem van iXsystems**, een particulier bedrijf in San Jose, Californië. Het verscheen in 2005 en is gebouwd op **FreeBSD** en Linux. De ontwikkelaars richten zich op de zakelijke markt. De keuze voor **OpenZFS** als standaardbestandssysteem weerspiegelt die focus.
 
 {{< youtube id="eex67WDeN04" >}}
 ______
 
 ## Kosten
 
-**Thuisgebruikers die op zoek zijn naar het beste NAS-besturingssysteem maken zich vaak zorgen over de kosten**. In dit opzicht is TrueNas een duidelijke winnaar omdat het open-source is en volledig gratis, tenminste voor TrueNas CORE, de versie die gericht is op thuisgebruikers en niet-kritieke opslagtoepassingen.
+Thuisgebruikers houden vaak rekening met de **kosten** wanneer ze een geschikt [NAS-besturingssysteem](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/) zoeken. **TrueNas CORE is gratis en open source**[^1][^2]. Deze versie is bedoeld voor thuisgebruik en niet-kritieke opslagtoepassingen.
 
-Unraid is daarentegen niet gratis, maar gebruikt een eerlijk prijsmodel zonder abonnementen of verborgen kosten. Je kunt kiezen uit drie Unraid-plannen, die alleen verschillen in het aantal opslagapparaten dat kan worden aangesloten. Het Basis-plan kost $59, het Plus-plan kost $89 en het Pro-plan kost $129.
+**Unraid is betaald**, maar kent geen abonnementen of verborgen kosten[^3]. De drie plannen verschillen alleen in het aantal opslagapparaten dat je aansluit. Het **Basic-plan kost $59**[^4], **Plus kost $89**[^5] en **Pro kost $129**[^6].
+
+[^1]: [TrueNas CORE](https://www.truenas.com/products/truenas-core/)
+[^2]: [TrueNas-documentatie: Aan de slag](https://www.truenas.com/docs/hub/gettingstarted/intro/)
+[^3]: [Unraid-prijzen](https://unraid.net/pricing)
+[^4]: [Unraid-plan Basic](https://unraid.net/pricing/basic)
+[^5]: [Unraid-plan Plus](https://unraid.net/pricing/plus)
+[^6]: [Unraid-plan Pro](https://unraid.net/pricing/pro)
+
+Dit zijn historische prijzen uit de oorspronkelijke publicatie. Bekijk de [actuele prijzen van **Unraid**](https://unraid.net/pricing) voordat je koopt. Licentielimieten, plannamen en inbegrepen functies kunnen veranderen.
 
 ______
 
 ## Gebruiksvriendelijkheid
 
-**Unraid legt sterk de nadruk op gebruiksgemak en flexibiliteit**. Het heeft een uniek opslagbeheersysteem waarmee gebruikers verschillende schijfgroottes en -types kunnen mixen en matchen en schijven kunnen toevoegen of verwijderen zonder enige onderbreking. Het biedt ook een eenvoudige gebruikersinterface, waardoor het zelfs voor niet-technische gebruikers makkelijk is om een NAS-systeem in te stellen en te beheren.
+**Unraid legt de nadruk op gebruiksgemak en flexibiliteit**[^1]. Het opslagbeheer laat je schijven van verschillende groottes en typen combineren[^2]. Je voegt schijven toe of verwijdert ze zonder het systeem te onderbreken. De eenvoudige interface maakt installatie en beheer ook toegankelijk voor mensen zonder technische ervaring[^3].
 
-**TrueNas daarentegen is gericht op de zakelijke markt en vereist meer geavanceerde kennis om het in te stellen en te beheren**. De keuze voor het OpenZFS-bestandssysteem biedt geavanceerde functies voor gegevensbescherming zoals snapshots, gegevenscompressie en checksumming om de integriteit van gegevens te garanderen.
+**TrueNas richt zich vooral op bedrijven en vraagt meer kennis voor installatie en beheer**[^4]. **OpenZFS** biedt geavanceerde bescherming, zoals snapshots, gegevenscompressie en checksums om gegevensintegriteit te waarborgen[^5].
 
-______
-
-## Kenmerken
-
-**Zowel TrueNas als Unraid bieden ondersteuning** voor NFS-shares, SMB voor Windows en AFP voor macOS en iOS. Daarnaast biedt TrueNas iSCSI-services, LDAP, Active Directory en Kerberos. Unraid biedt deze services niet, maar ondersteunt wel Docker-containers, waardoor gebruikers toegang hebben tot een breed scala aan applicaties.
-
-**TrueNas heeft ook ingebouwde ondersteuning voor cloudopslagdiensten** zoals Amazon S3, Google Cloud en Microsoft Azure, waardoor het eenvoudig is om gegevens naar de cloud te verplaatsen. Gebruikers van Unraid kunnen oplossingen van derden gebruiken, maar deze vereisen mogelijk extra installatie en configuratie.
-
-**Unraid's Linux-gebaseerde platform maakt het ook mogelijk virtuele machines te configureren** met behulp van KVM en PCI/USB-apparaten, zoals grafische kaarten, toe te wijzen aan virtuele machines. Dit maakt het mogelijk om dezelfde computer te gebruiken voor zowel media center als gaming doeleinden.
-
-**TrueNas bevat zijn eigen containerisatietechnologie**, Jails, en zijn eigen virtualisatieoptie, Bhyve. Hoewel TrueNas veel van de populaire toepassingen van derden biedt, zoals Plex, kan de totale selectie van software kleiner zijn in vergelijking met Unraid.
+[^1]: [Unraid-functies](https://unraid.net/product/features)
+[^2]: [Unraid-opslagbeheer](https://unraid.net/product/storage)
+[^3]: [Unraid-interface](https://unraid.net/product/ui)
+[^4]: [TrueNas-documentatie: Bedrijven](https://www.truenas.com/docs/hub/intro/enterprise/)
+[^5]: [OpenZFS in TrueNas](https://www.truenas.com/docs/hub/storage/disks-zfs/)
 
 ______
 
-## Documentatie en gemeenschap
+## Functies
 
-TrueNas heeft een uitgebreide Documentation Hub, die alles dekt van setup tot API's en hardwareplatforms. De Unraid website heeft een minder uitgebreide documentatiesectie, maar is makkelijker te navigeren. Unraid heeft echter geen individuele ondersteuningspagina, maar gebruikers worden aangemoedigd om vragen te stellen op het officiële community forum, dat wordt beschreven als vriendelijk, informatief en behulpzaam.
+Beide systemen ondersteunen **NFS-shares**, **SMB** voor Windows en **AFP** voor macOS en iOS[^1][^2]. **TrueNas** biedt ook **iSCSI**, **LDAP**, **Active Directory** en **Kerberos**[^1]. **Unraid** ondersteunt **Docker-containers**, waarmee gebruikers veel applicaties kunnen draaien[^2].
 
-TrueNas heeft ook zijn eigen officiële community forum, maar het is misschien niet zo gastvrij voor beginners als het Unraid forum. Dit komt omdat veel TrueNas-gebruikers IT-professionals zijn die zich richten op enterprise storage management.
+**TrueNas** heeft ingebouwde ondersteuning voor cloudopslagdiensten zoals **Amazon S3**, **Google Cloud** en **Microsoft Azure**[^1]. **Unraid** heeft geen ingebouwde cloudopslag. Oplossingen van derden vragen mogelijk extra installatie en configuratie[^2].
+
+Met het Linux-platform van **Unraid** kun je virtuele machines opzetten met **KVM** en **PCI/USB-apparaten**, zoals grafische kaarten, aan VM's toewijzen. Zo gebruik je dezelfde computer voor een mediacenter en games.
+
+**TrueNas** biedt de containertechnologie **Jails** en de virtualisatieoptie **Bhyve**[^1]. Het bevat populaire apps van derden, zoals **Plex**, maar de totale softwarekeuze kan kleiner zijn dan bij **Unraid**.
+
+[^1]: [TrueNas-documentatie: Functies](https://www.truenas.com/docs/hub/intro/features/)
+[^2]: [Unraid-functies](https://unraid.net/product/features)
+______
+
+## Documentatie en community
+
+**TrueNas** heeft een **uitgebreid documentatiecentrum** over installatie, API's en hardwareplatformen[^1]. De documentatie van **Unraid** is minder uitgebreid, maar eenvoudig te doorzoeken[^2].
+
+**Unraid** heeft geen aparte ondersteuningspagina en verwijst gebruikers naar het officiële communityforum. De gemeenschap staat bekend als vriendelijk, informatief en behulpzaam[^2]. **TrueNas** heeft ook een officieel forum[^1]. De gesprekken gaan daar mogelijk vaker over zakelijke opslag, waardoor het forum voor beginners minder toegankelijk kan zijn.
+
+[^1]: [TrueNas-documentatie](https://www.truenas.com/docs/)
+[^2]: [Unraid-forum](https://forums.unraid.net/)
 
 ______
+
+## Opslagkeuzes controleren voor 2026
+
+**TrueNAS** past bij wie ZFS-functies, controle over opslagpools en een opslaggerichte werkwijze wil. **Unraid** past bij wie uitbreiding met verschillende schijven en een breed app-ecosysteem belangrijk vindt. De keuze hangt af van de schijfindeling, de waarde van de gegevens en je herstelvaardigheden.
+
+Beantwoord vóór de installatie deze vragen:
+
+- Kun je een defecte schijf vervangen door het model en de capaciteit die je wilt kopen?
+- Waar bewaar je snapshots en back-ups?
+- Hoe herstel je het systeem als het opstartapparaat defect raakt?
+- Welke apps hebben bevoorrechte toegang tot opslag nodig?
+- Hoe test je een volledige herstelactie?
+
+Lees de [**TrueNAS**-opslagdocumentatie](https://www.truenas.com/docs/scale/scaletutorials/), de [**OpenZFS**-documentatie](https://openzfs.github.io/openzfs-docs/) en de [**Unraid**-documentatie](https://docs.unraid.net/) voordat je een poolindeling kiest. Een NAS verhoogt de beschikbaarheid. Een aparte back-up beschermt tegen verwijdering, ransomware en hardwareverlies.
 
 ## Conclusie
 
-Zowel TrueNas als Unraid zijn krachtige en volwassen NAS-besturingssystemen, elk met hun eigen sterke en zwakke punten. TrueNas is ideaal voor mensen met gevorderde kennis van opslagbeheer en die de geavanceerde gegevensbeschermingsfuncties van OpenZFS willen. Unraid daarentegen is het beste voor thuisgebruikers die een flexibel en gebruiksvriendelijk NAS-systeem willen.
+**TrueNas en **Unraid** zijn volwassen en krachtige [NAS-besturingssystemen](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/) voor verschillende behoeften**. **TrueNas** past bij mensen met geavanceerde opslagkennis die de gegevensbescherming van **OpenZFS** willen[^1]. **Unraid** biedt thuisgebruikers een flexibel en eenvoudig NAS-systeem[^2].
 
-Samengevat:
+| Onderwerp | TrueNAS | Unraid |
+|---|---|---|
+| Kosten | Gratis en open source (TrueNAS CORE) | Propriëtair systeem met Basic-, Plus- en Pro-plannen |
+| Gebruiksvriendelijkheid | Gericht op bedrijven, vraagt geavanceerde kennis | Legt de nadruk op gebruiksgemak en flexibiliteit |
+| Functies | NFS, SMB, AFP, iSCSI, LDAP, Active Directory, Kerberos en cloudopslag | NFS, SMB, AFP, Docker-containers en KVM-VM's |
+| Gegevensbescherming | Geavanceerde bescherming met OpenZFS | Combineert schijven van verschillende groottes en typen |
+| Apps van derden | Beperkte keuze, Jails voor containers en Bhyve voor virtualisatie | Ruime keuze aan applicaties via Docker |
+| Documentatie | Uitgebreide documentatie en officieel forum | Minder uitgebreide documentatie en behulpzaam forum |
+| Communityondersteuning | Officieel forum voor hulp en kennisdeling | Officieel forum dat bekendstaat als vriendelijk, informatief en behulpzaam |
 
-**TrueNas Voordelen:**
-- Gratis en open-source
-- Geavanceerde gegevensbescherming met OpenZFS
-- Goede prestaties
+Kort samengevat:
 
-**TrueNas Nadelen:**
-- Moeilijker te gebruiken
-- Onvriendelijke gemeenschap
+### Voordelen van TrueNas
+- **Gratis en open source [NAS-besturingssysteem](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/)**.
+- **Geavanceerde gegevensbescherming** met **OpenZFS**.
+- **Goede prestaties** voor zakelijke opslag.
 
-**Unraid Voordelen:**
-- Gemakkelijk te gebruiken
-- Grote verscheidenheid aan toepassingen van derden
-- Vriendelijke gemeenschap
+### Nadelen van TrueNas
+- **Lastiger voor gebruikers zonder technische ervaring**.
+- Het forum is mogelijk **minder toegankelijk voor beginners**.
 
-**Nadelen vanUnraid:**
-- Beperkte prestaties
+### Voordelen van Unraid
+- **Eenvoudige installatie en bediening**.
+- **Veel apps van derden** via Docker.
+- **Vriendelijk en informatief forum**.
 
-Uiteindelijk zal de beslissing tussen TrueNas en Unraid afhangen van je specifieke behoeften en technische expertise. Overweeg wat je eisen zijn, vergelijk de functies en voordelen van beide en neem een weloverwogen beslissing.
+### Nadelen van Unraid
+- De prestaties kunnen **lager zijn dan bij TrueNas**.
+
+De keuze tussen **TrueNas** en **Unraid** hangt af van je behoeften en technische ervaring. Vergelijk de functies en voordelen met je eisen voordat je beslist.
+
+[^1]: [TrueNas-documentatie](https://www.truenas.com/docs/)
+[^2]: [Unraid-site](https://unraid.net/)
+
+## Huidige levenscyclus van TrueNAS
+
+De oorspronkelijke vergelijking beschrijft **TrueNAS** CORE en **FreeBSD**. De [**TrueNAS**-migratiegids](https://www.truenas.com/docs/scale/26/gettingstarted/migrate/) noemt 13.3-U1.2 de laatste versie van de CORE 13.3-reeks en verwijst naar de Linux-gebaseerde Community Edition. De [softwarestatuspagina](https://www.truenas.com/docs/softwarereleases/) toont de ondersteunde releasetracks.
+
+| Vraag | TrueNAS | Unraid |
+|---|---|---|
+| **Platformstatus** | Controleer vóór implementatie de huidige Community Edition- of Enterprise-release | Controleer de huidige stabiele release en licentievoorwaarden |
+| **Opslagmodel** | Het vdev-ontwerp voor OpenZFS-pools wordt bij het poolontwerp bepaald | Parity-arrays ondersteunen verschillende schijfgroottes binnen gedocumenteerde grenzen |
+| **Uitbreidingsgrens** | Pooluitbreiding hangt af van het vdev-ontwerp en de releaseondersteuning | Schijven vervangen en parity opnieuw opbouwen vraagt om controles van capaciteit, tijd en gezondheid |
+| **Applicatiegrens** | App- en containerondersteuning hangt af van de gekozen TrueNAS-release | Docker- en VM-ondersteuning hangt af van de Unraid-release en hardware |
+
+**Redundantie is geen back-up.** Gebruik een apart back-updoel en test herstel voordat je onvervangbare gegevens opslaat.
+
+## Kiezen op basis van herstelbehoeften
+
+Kies **TrueNAS met OpenZFS** wanneer checksums, snapshots, replicatie en een gepland poolontwerp belangrijker zijn dan eenvoudige uitbreiding per schijf. Kies **Unraid** wanneer je wilt uitbreiden met verschillende schijven, apps wilt hosten en eenvoudig wilt beginnen. Dit zijn keuzecriteria, geen algemene prestatieclaims.
+
+Leg vóór het opslaan van gegevens vast:
+
+- **Pool- of arrayindeling:** schijffuncties, bruikbare capaciteit, parity- of vdev-ontwerp en vervangingsprocedure.
+- **Applicatiegegevens:** containerpaden, VM-schijven, databases, geheimen en externe koppelingen.
+- **Back-updoel:** locatie, versleuteling, bewaartermijn en netwerkpad.
+- **Hersteltest:** herstel één bestand, één applicatiedataset en één volledige share.
+- **Upgradepad:** huidige versie, volgende ondersteunde versie, rollback en onderhoudsvenster.
+
+De [CISA-back-upgids](https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf) beschrijft het 3-2-1-model. Pas het toe op beide systemen en test herstel na opslagwijzigingen.

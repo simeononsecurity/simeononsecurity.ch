@@ -1,15 +1,16 @@
 ---
 title: "PowerShellでセキュアコーディングを行うためのベストプラクティス：ガイド"
 date: 2023-03-01
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Windowsベースのシステムをセキュリティの脆弱性から保護するために、安全なPowerShellコードを記述するためのベストプラクティスを学びます。"
-tags: ["パワーシェル", "セキュアコーディング", "Windowsベースのシステム", "入力バリデーション", "暗号ライブラリ", "最少特権", "スタティックコードアナライザー", "セキュアな通信プロトコル", "ロギングとモニタリング", "脆弱性スキャン", "教育", "インジェクションコード", "特権のエスカレーション", "データ漏えい", "ハード化環境", "セキュリティポリシー", "ファイアウォール", "侵入検知システム", "脆弱性管理", "ネットワークセキュリティ"]
+tags: ["PowerShell", "セキュアコーディング", "Windowsベースのシステム", "入力バリデーション", "暗号ライブラリ", "最少特権", "スタティックコードアナライザー", "セキュアな通信プロトコル", "ロギングとモニタリング", "脆弱性スキャン", "教育", "インジェクションコード", "特権のエスカレーション", "データ漏えい", "ハード化環境", "セキュリティポリシー", "ファイアウォール", "侵入検知システム", "脆弱性管理", "ネットワークセキュリティ", "PowerShell コーディングのベストプラクティス", "安全な PowerShell コード", "Windows システムのセキュリティ", "PowerShell の入力検証", "PowerShell の暗号化", "最小権限の原則", "PowerShell 用静的コード解析ツール", "PowerShell の安全な通信プロトコル", "PowerShell のログ記録と監視", "PowerShell の脆弱性スキャン", "PowerShell のセキュリティ教育", "コードインジェクションの防止", "権限昇格の軽減", "PowerShell によるデータ漏えいの防止", "PowerShell 環境の強化", "PowerShell のセキュリティポリシー", "PowerShell のファイアウォール設定", "PowerShell の侵入検知システム", "PowerShell の脆弱性管理", "PowerShell のネットワークセキュリティ", "PowerShell スクリプトのセキュアコーディング", "PowerShell の入力と出力のサニタイズ", "PowerShell 向け安全な通信プロトコル", "PowerShell スクリプトのログ記録と監視", "PowerShell 環境の強化", "PowerShell で脆弱性スキャンを実施", "PowerShell のセキュリティについてユーザーと管理者を教育", "安全な PowerShell コードの実践", "安全で堅牢な PowerShell コード", "PowerShell セキュリティのベストプラクティス", "PowerShell セキュリティのベストプラクティス"]
 cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Windowsのロゴが表示されたPCの前に立ち、盾を手にしたスーパーヒーローのイメージで、Windowsベースのシステムを保護するためのセキュアコーディングの実践の重要性を象徴しています。"
 coverCaption: ""
 ---
-は、タスクの自動化や構成管理のフレームワークとして普及しており、反復作業を自動化し、Windows ベースのシステムの管理を簡素化するために使用されています。他のプログラミング言語と同様に、開発者が安全なコーディング基準に従わない場合、PowerShellコードはセキュリティの脅威に対して脆弱になる可能性があります。この記事では、PowerShellで安全なコーディングを行うためのベストプラクティスについて説明します。
+PowerShell は、タスクの自動化や構成管理のフレームワークとして普及しており、反復作業を自動化し、Windows ベースのシステムの管理を簡素化するために使用されています。他のプログラミング言語と同様に、開発者が安全なコーディング基準に従わない場合、PowerShellコードはセキュリティの脅威に対して脆弱になる可能性があります。この記事では、PowerShellで安全なコーディングを行うためのベストプラクティスについて説明します。
 
 ____
 
@@ -41,10 +42,10 @@ PowerShellには、慎重に使用しないとセキュリティ上の問題が�
 
 例えば、コマンドを実行するために Invoke-Expression 関数を使用する代わりに、Start-Process を使用する必要があります。
 ```powershell
-# Instead of using Invoke-Expression
+# Invoke-Expression の代わりに
 Invoke-Expression "Get-ChildItem"
 
-# Use Start-Process
+# Start-Process を使用
 Start-Process "Get-ChildItem"
 ```
 
@@ -95,16 +96,16 @@ PowerShellでは、以下のような静的コードアナライザが利用可�
 
 例えば、以下のようなものです、`PSScriptAnalyzer`は、PowerShellのコードに潜在的なセキュリティ脆弱性がないかどうかを調べる、一般的な静的コードアナライザです。以下のような問題を検出することができます：
 
-- ハードコードされた認証情報**。
-- 非推奨または安全でない関数の使用**。
-- 不十分な入力検証**。
-- 変数やループの不適切な使用**。
+- **ハードコードされた認証情報**。
+- **非推奨または安全でない関数の使用**。
+- **不十分な入力検証**。
+- **変数やループの不適切な使用**。
 
 静的コードアナライザーを使用することで、開発者は開発プロセスの早い段階でセキュリティの脆弱性を特定し修正することができます。これにより、セキュリティ侵害を防ぎ、攻撃が成功した場合の影響を最小限に抑えることができます。
 
 ____
 
-## PowerShell スクリプトに安全なコーディング方法を使用する。
+## スクリプトを安全に作成する
 
 PowerShellスクリプトは、コードインジェクション、権限昇格、データ漏洩など、いくつかのセキュリティリスクに対して脆弱です。PowerShell スクリプトのセキュリティを確保するために、開発者は以下のようなセキュアコーディングプラクティスに従う必要があります：
 
@@ -120,10 +121,10 @@ PowerShellスクリプトは、コードインジェクション、権限昇格�
 ### 環境を固める
 オペレーティングシステム、ネットワークデバイス、およびアプリケーションにセキュリティポリシーと設定を適用して、環境を固める。これにより、攻撃対象が減少し、不正なアクセスを防止することができます。例えば、開発者や管理者は次のようなことができます：
 
-- 不要なサービスやプロトコルを無効化し、攻撃対象領域を減らす。
-- 不正アクセスを防止するために、強力なパスワードとパスワードポリシーを導入する**。
-- ファイアウォールや侵入検知システムを設定し、攻撃の防止と検知を行う**。
-- 既知のセキュリティ脆弱性を修正するためのソフトウェアアップデートとパッチの導入**。
+- **不要なサービスやプロトコルを無効化し、攻撃対象領域を減らす**。
+- [**不正アクセスを防止するために、強力なパスワードとパスワードポリシーを導入する**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)。
+- **ファイアウォールや侵入検知システムを設定し、攻撃の防止と検知を行う**。
+- **既知のセキュリティ脆弱性を修正するためのソフトウェアアップデートとパッチの導入**。
 
 ### 定期的な脆弱性診断の実施
 システムおよびアプリケーションの脆弱性スキャンを定期的に実施し、セキュリティの脆弱性を特定し、修正する。スキャンを行うには、Nessus、OpenVAS、Microsoft Baseline Security Analyzer (MBSA) などのツールを使用します。定期的な脆弱性スキャンは、環境の脆弱性や弱点を特定するのに役立ち、攻撃者に悪用される前に、開発者がそれらを修正することができるようになります。
@@ -141,7 +142,7 @@ PowerShellは、タスクの自動化やWindowsベースのシステム管理の
 
 ## 参考文献
 
--[PowerShell documentation](https://docs.microsoft.com/en-us/powershell/)
--[Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
--[Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
--[Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+- [PowerShell のドキュメント](https://docs.microsoft.com/en-us/powershell/)
+- [Top 25 シリーズ: ソフトウェアのエラー](https://www.sans.org/top25-software-errors/)
+- [入力検証チートシート](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [サーバー全般セキュリティガイド](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)

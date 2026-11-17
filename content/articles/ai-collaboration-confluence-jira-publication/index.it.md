@@ -1,7 +1,7 @@
 ---
 title: "Flusso di pubblicazione AI per GitHub, Confluence e Jira"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Pubblica una proposta di conservazione fissa su Confluence, GitHub e Jira, con controlli di versione e procedure per recuperare una pubblicazione parziale."
@@ -40,14 +40,14 @@ coverCaption: ""
 5. **Fornisci alla chat solo gli estratti sintetici necessari**, contrassegnali come istantanee e mantieni disabilitate le azioni con permessi di scrittura.
 
 ```text
-Task: PROP-042, propose only
-Authority: Confluence REQ-17 for intent, GitHub for behavior
-Read: mapped current pages, versions, scope, exceptions
-Proposal: synthetic export retention from 7 to 30 days
-Output: requirement wording, config diff, runbook, ledger
-Evidence: source ID and captured revision for each factual claim
-Unknowns: missing access and absent runtime observations
-Stop: conflict, changed base, or denied access
+Attività: PROP-042, solo proposta
+Autorità: Confluence REQ-17 per l’intento, GitHub per il comportamento
+Leggi: pagine correnti mappate, versioni, ambito ed eccezioni
+Proposta: portare da 7 a 30 giorni la conservazione delle esportazioni sintetiche
+Risultato: testo del requisito, differenza di configurazione, runbook e registro
+Prove: ID della fonte e revisione acquisita per ogni affermazione fattuale
+Incognite: accesso assente e mancanza di osservazioni a runtime
+Fermati in caso di conflitto, base modificata o accesso negato
 ```
 
 **I pacchetti offline restano istantanee.** Prima di scrivere, il responsabile della pubblicazione ripete le letture in tempo reale. Un accesso negato blocca la pubblicazione. Un'esportazione precedente non sostituisce un'autorizzazione aggiornata.
@@ -122,15 +122,15 @@ Stop: conflict, changed base, or denied access
 **Blocca il contenuto, non solo l'etichetta della proposta.** PROP-042 compare in ogni sistema, ma un'etichetta non identifica il contenuto esaminato dal responsabile. Includi in un unico pacchetto fisso il testo esatto del requisito, il diff dell'implementazione, il testo del runbook, le versioni delle fonti e la sequenza di pubblicazione.
 
 ```text
-Package: PROP-042 revision 1, illustrative
-Intent: synthetic export retention changes from 7 to 30 days
-Exclusions: production data, backups, legal holds
-Requirement amendment: fixed proposed REQ-17 wording
-Implementation: fixed candidate diff and protected base reference
-Runbook amendment: fixed RUN-04 wording and recovery limits
-Review: product and operations decisions for this package
-Delivery: requirement -> implementation -> runbook -> closure
-Stop: changed source, missing review, denied write, failed read-back
+Pacchetto: PROP-042 revisione 1, esemplificativo
+Intento: portare da 7 a 30 giorni la conservazione delle esportazioni sintetiche
+Esclusioni: dati di produzione, backup e vincoli legali di conservazione
+Modifica del requisito: testo proposto e fissato di REQ-17
+Implementazione: differenza candidata fissata e riferimento alla base protetta
+Modifica del runbook: testo fissato di RUN-04 e limiti di ripristino
+Revisione: decisioni di prodotto e operazioni per questo pacchetto
+Consegna: requisito -> implementazione -> runbook -> chiusura
+Fermati se cambia la fonte, manca la revisione, la scrittura è negata o la rilettura non riesce
 ```
 
 **Rendi il pacchetto leggibile per entrambi i responsabili.** Il team di prodotto deve conoscere intento ed esclusioni. Il team operativo deve conoscere la modifica operativa e i limiti del recupero. Entrambi devono capire per quanto tempo l'intento approvato differisce dalla configurazione consegnata. Un semplice diff del codice non basta a un responsabile che non conosce i file del repository.
@@ -138,13 +138,13 @@ Stop: changed source, missing review, denied write, failed read-back
 **Contenuto compilato del pacchetto per questo esempio sintetico:**
 
 ```text
-REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+REQ-17 proposto v5: "I file di esportazione sintetici vengono conservati per 30 giorni dalla creazione. Questo progetto pilota esclude dati di produzione, backup e vincoli legali di conservazione. La consegna resta in sospeso finché la configurazione GitHub e le riletture di RUN-04 non corrispondono a questo testo approvato."
 
-GitHub config.json, proposed change against base-001:
+Configurazione GitHub config.json, modifica proposta rispetto a base-001:
 -  "retention_days": 7
 +  "retention_days": 30
 
-RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+RUN-04 proposto v3: "Giorni di conservazione: 30. Solo esportazioni sintetiche. In questo laboratorio non viene eseguito alcun processo di eliminazione. Se la pubblicazione non riesce, mantieni la consegna in sospeso, rileggi ogni fonte e ottieni l’approvazione del responsabile prima di ripristinare la configurazione di sette giorni o completare la pubblicazione di trenta giorni."
 ```
 
 Queste stringhe sono testi di proposta esemplificativi, non record di un tenant attivo. Prima della revisione allega il commit di base e le versioni effettive delle pagine. Il pacchetto fisso deve contenere i corpi proposti completi, non un riepilogo che costringa il responsabile a dedurre i dettagli.

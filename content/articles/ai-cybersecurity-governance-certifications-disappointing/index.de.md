@@ -3,6 +3,7 @@ title: "KI-Cybersicherheit und Governance-Zertifizierungen halten nicht mit dem 
 draft: false
 toc: true
 date: 2026-06-26
+lastmod: 2026-11-08
 description: "Eine Facheinschätzung zur Lücke zwischen KI-Governance-Zertifizierungen und tatsächlicher KI-Sicherheitspraxis. Wir haben mehrere davon abgelegt und waren enttäuscht. Die Frameworks sind noch jung und governance-orientiert. Die Angriffsfläche ist schneller gewachsen."
 tags: ["KI-Sicherheit", "KI-Governance", "KI-Zertifizierungen", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "Prompt-Injection", "KI-Cybersicherheit", "LLM-Sicherheit", "OWASP LLM Top 10", "MITRE ATLAS", "KI-Risikomanagement", "KI-Compliance", "Machine-Learning-Sicherheit", "Modell-Lieferkette", "gegnerische KI", "KI-Agenten", "MCP-Sicherheit", "KI-Red-Teaming", "KI-Governance-Zertifizierungen", "agentische KI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
@@ -76,6 +77,8 @@ Diese Anforderung steht im Text. Der Akt spezifiziert bewusst Ergebnisse, statt 
 Zertifizierungen, die um den EU AI Act herum aufgebaut sind, bereiten Sie darauf vor, KI-Systeme zu klassifizieren, technische Dokumentation zu schreiben und Aufsichtsprotokolle zu strukturieren. Sie bereiten Sie auf Audits vor. Die Engineering-Arbeit, die ein System produziert, das den Robustheitsanforderungen des Akts entspricht, liegt in einer anderen Disziplin als die, die die Zertifizierungen derzeit abdecken.
 
 ## Was KI-Systeme tatsächlich angreift
+
+{{< figure src="ai-system-attack-surface-prompt-injection-poisoning.webp" alt="Diagramm der Angriffsfläche eines KI-Systems mit Prompt Injection, Vergiftung von Trainingsdaten, Kompromittierung der Modell-Lieferkette und Angriffspfaden zur Modellextraktion" >}}
 
 MITRE ATLAS und OWASP LLM Top 10 dokumentieren die operative Bedrohungslandschaft. Dies sind die Ressourcen, die Angriffe auf einem nützlichen Detailniveau aufzählen. Governance-Frameworks referenzieren Bedrohungen auf einer höheren Abstraktionsebene. Das Folgende stammt aus diesen sicherheitsspezifischen Quellen.
 

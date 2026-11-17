@@ -1,10 +1,11 @@
 ---
 title: "Einsteigerhandbuch zur Website-Entwicklung: HTML, CSS und JavaScript"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Lernen Sie die Grundlagen der Website-Entwicklung, einschließlich HTML, CSS und JavaScript, mit diesem einsteigerfreundlichen Leitfaden."
-tags: ["Web-Entwicklung", "HTML", "CSS", "JavaScript", "Kodierung", "Lehrgang", "Lernen", "beginner", "CodePen", "W3Schulen", "beste Praktiken", "Ressourcen", "freeCodeCamp", "MDN-Webdokumente", "Codecademy", "Udacity", "Zusammenarbeit", "Fehlersuche", "Projekte"]
+tags: ["Web-Entwicklung", "HTML", "CSS", "JavaScript", "Kodierung", "Lehrgang", "Lernen", "Anfänger", "CodePen", "W3Schools", "beste Praktiken", "Ressourcen", "freeCodeCamp", "MDN Web Docs", "Codecademy", "Udacity", "Zusammenarbeit", "Fehlersuche", "Projekte"]
 cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Ein Cartoon-Entwickler, der an einem Schreibtisch mit einem Laptop sitzt, umgeben von verschiedenen HTML-, CSS- und JavaScript-Elementen, die in der Luft um ihn herum schweben."
 coverCaption: ""
@@ -16,7 +17,7 @@ Die Entwicklung von Websites ist ein schnell wachsender und lukrativer Bereich. 
 
 HTML ist die Grundlage jeder Website. Es steht für Hypertext Markup Language und wird verwendet, um die Struktur von Webseiten zu erstellen. HTML verwendet Tags, um die verschiedenen Elemente einer Webseite wie Überschriften, Absätze, Bilder, Links und mehr zu definieren.
 
-Für die ersten Schritte mit HTML empfehlen wir [w3schools.com](https://www.w3schools.com/html/) which provides a comprehensive guide to HTML. You can also use [CodePen.io](https://codepen.io/) um das Schreiben von HTML, CSS und JavaScript in einem Echtzeit-Editor zu üben.
+Für die ersten Schritte mit HTML empfehlen wir [w3schools.com](https://www.w3schools.com/html/), das einen umfassenden HTML-Leitfaden bietet. Mit [CodePen.io](https://codepen.io/) können Sie außerdem HTML, CSS und JavaScript in einem Echtzeit-Editor üben.
 
 ### Grundlegendes Beispiel für HTML
 
@@ -37,7 +38,7 @@ Hier ist ein Beispiel für ein einfaches HTML-Dokument:
 ## Gestalten mit CSS
 CSS (Cascading Style Sheets) wird verwendet, um HTML-Seiten Stil und Layout hinzuzufügen. Mit CSS lassen sich Farben, Schriftarten, Ränder, Umrandungen und vieles mehr zu HTML-Elementen hinzufügen. Mit CSS können Webentwickler optisch ansprechende und reaktionsschnelle Websites erstellen.
 
-Wenn Sie mehr über CSS erfahren möchten, empfehlen wir Ihnen einen Besuch [w3schools.com](https://www.w3schools.com/css) which provides a comprehensive guide to CSS. You can also use [CodePen.io](https://codepen.io/) um das Schreiben von CSS zu üben und die Ergebnisse in Echtzeit zu sehen.
+Wenn Sie mehr über CSS erfahren möchten, empfehlen wir [w3schools.com](https://www.w3schools.com/css), wo Sie einen umfassenden CSS-Leitfaden finden. Mit [CodePen.io](https://codepen.io/) können Sie außerdem CSS schreiben und die Ergebnisse in Echtzeit sehen.
 
 ### Grundlegendes Beispiel für CSS
 Hier ist ein Beispiel für die Verwendung von CSS zur Gestaltung eines HTML-Dokuments:
@@ -57,7 +58,7 @@ Mit diesem Code werden die Farbe und die Schriftgröße aller h1- und p-Elemente
 ## Interaktivität mit JavaScript hinzufügen
 JavaScript ist eine Programmiersprache, die verwendet werden kann, um Websites Interaktivität und Funktionalität hinzuzufügen. Mit JavaScript können Sie Animationen hinzufügen, Pop-ups erstellen und Formulare validieren.
 
-Um mehr über JavaScript zu erfahren, empfehlen wir einen Besuch auf [w3schools.com](https://www.w3schools.com/js/) which provides a comprehensive guide to JavaScript. You can also use [CodePen.io](https://codepen.io/) um das Schreiben von JavaScript zu üben und die Ergebnisse in Echtzeit zu sehen.
+Um mehr über JavaScript zu erfahren, empfehlen wir [w3schools.com](https://www.w3schools.com/js/), wo Sie einen umfassenden JavaScript-Leitfaden finden. Mit [CodePen.io](https://codepen.io/) können Sie außerdem JavaScript schreiben und die Ergebnisse in Echtzeit sehen.
 
 ### Grundlegendes Beispiel für JavaScript
 

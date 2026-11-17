@@ -1,6 +1,7 @@
 ---
 title: "ソーシャルエンジニアリング攻撃の防止戦略とベストプラクティス"
 date: 2023-05-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ソーシャル・エンジニアリング攻撃を防ぎ、従業員トレーニングやセキュリティ・ポリシーなどで組織の機密情報を保護する方法をご紹介します。"
@@ -16,7 +17,7 @@ coverCaption: ""
 
 ## ソーシャルエンジニアリング攻撃の種類
 
-###[Phishing Attacks](https://simeononsecurity.com/articles/how-to-identify-phishing/)
+### [フィッシング攻撃](https://simeononsecurity.com/articles/how-to-identify-phishing/)
 
 フィッシング攻撃は、ソーシャル・エンジニアリング攻撃の中で最も一般的な形態です。フィッシング攻撃は、信頼できる情報源から送信されたように見える電子メールを送信し、人々を騙して機密情報を提供させたり、マルウェアをインストールするリンクをクリックさせたりするものです。メールには、脅しや緊急の要求、感情的な訴えを用いて、人々が考えなしに行動するように仕向けることがあります。
 
@@ -42,25 +43,25 @@ Pretextingとは、ソーシャルエンジニアリングの一種で、機密�
 
 ## ソーシャルエンジニアリング攻撃を防ぐための戦略
 
-###[Employee Training](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
+### [従業員研修](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)
 
-ソーシャル・エンジニアリング攻撃を防ぐための最も効果的な戦略の1つは[**employee training**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)従業員は、ソーシャル・エンジニアリング攻撃の種類とその見分け方について教育されるべきです。また、疑わしい要求にどのように対応するか、上司やIT部門にどのように報告するかについても指導する必要があります。
+ソーシャルエンジニアリング攻撃を防ぐ最も効果的な方法の一つは、[**従業員研修**](https://simeononsecurity.com/articles/how-to-build-and-manage-an-effective-cybersecurity-awareness-training-program/)を実施することです。従業員は、ソーシャル・エンジニアリング攻撃の種類とその見分け方について教育されるべきです。また、疑わしい要求にどのように対応するか、上司やIT部門にどのように報告するかについても指導する必要があります。
 
 トレーニングは定期的に実施し、組織の特定のニーズに合わせて行う必要があります。セキュリティの重要性を強調し、セキュリティプロトコルに従わなかった場合の結果を従業員に理解させることが重要です。
 
-###[Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
+### [セキュリティポリシー](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
 
 セキュリティポリシーは、ソーシャルエンジニアリング攻撃を防ぐためのもう一つの重要な戦略です。組織は、機密情報をどのように扱うか、どのような行為が許されるか、あるいは禁止されるかについて、明確なポリシーを持つ必要があります。ポリシーは、定期的に見直し、更新することで、効果的で最新のものにする必要があります。
 
 また、セキュリティ・インシデントへの対応についても、ポリシーを定めておく必要がある。従業員には、セキュリティ侵害が発生した場合の対応について研修を行い、インシデントの報告や被害の軽減について明確な手順を定めておく必要があります。
 
-###[Multi-Factor Authentication](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
+### [多要素認証](https://simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/)
 
 多要素認証（MFA）とは、システムにアクセスする際に、パスワードと指紋やスマートカードなど、複数の認証手段を提供することをユーザーに求めるセキュリティ機能である。MFAは、攻撃者が機密情報にアクセスすることを困難にすることで、ソーシャルエンジニアリング攻撃を防ぐことができます。
 
 組織は、機密情報や重要なインフラを含むすべてのシステムに対してMFAの導入を検討する必要があります。その際、使用や管理が容易で、高いセキュリティレベルを提供するMFAソリューションを選択することが重要です。
 
-###[Anti-Virus and Anti-Malware Software](https://simeononsecurity.com/recommendations/anti-virus)
+### [ウイルス対策・マルウェア対策ソフトウェア](https://simeononsecurity.com/recommendations/anti-virus)
 
 アンチウイルスおよびアンチマルウェアソフトウェアは、悪意のあるソフトウェアが損害を与える前に検出しブロックすることで、ソーシャルエンジニアリング攻撃を防止するのに役立ちます。組織は、ネットワークに接続するすべてのシステムおよびデバイスに、最新のアンチウイルスおよびアンチマルウェアソフトウェアをインストールする必要があります。
 

@@ -1,6 +1,7 @@
 ---
 title: "The Dark Web și criminalitatea informatică: Dezvăluirea lumii subterane a internetului"
 date: 2023-05-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Explorați lumea ascunsă a web-ului întunecat și legătura sa cu criminalitatea informatică, descoperind în același timp natura sa duală și potențialul pentru jurnalism și denunțare."
@@ -50,25 +51,25 @@ Este demn de remarcat faptul că potențialul web-ului întunecat în scopuri ju
 
 Protejarea împotriva dark web și a criminalității cibernetice necesită măsuri proactive pentru a reduce riscurile. Iată câțiva pași esențiali pentru a vă proteja:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Fiți prudenți atunci când împărtășiți informații personale online, evitând să furnizați detalii sensibile unor surse necunoscute sau de neîncredere. Protejați-vă numele, adresa, numărul de asigurare socială și alte date de identificare personală.
+[**1. Protejați informațiile personale:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Fiți prudenți atunci când împărtășiți informații personale online, evitând să furnizați detalii sensibile unor surse necunoscute sau de neîncredere. Protejați-vă numele, adresa, numărul de asigurare socială și alte date de identificare personală.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Folosiți parole puternice și unice pentru toate conturile dvs. online. Evitați reutilizarea parolelor pe mai multe platforme pentru a preveni accesul neautorizat în cazul unei încălcări a datelor.
+[**2. Folosiți parole puternice și unice:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Folosiți parole puternice și unice pentru toate conturile dvs. online. Evitați reutilizarea parolelor pe mai multe platforme pentru a preveni accesul neautorizat în cazul unei încălcări a datelor.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Actualizați-vă în mod regulat software-ul, inclusiv sistemele de operare, browserele web și programele antivirus. Aceste actualizări conțin adesea patch-uri de securitate care abordează vulnerabilitățile și protejează împotriva amenințărilor cibernetice emergente.
+[**3. Mențineți software-ul actualizat:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Actualizați-vă în mod regulat software-ul, inclusiv sistemele de operare, browserele web și programele antivirus. Aceste actualizări conțin adesea patch-uri de securitate care abordează vulnerabilitățile și protejează împotriva amenințărilor cibernetice emergente.
 
 **4. Practicați obiceiuri de navigare în siguranță:** Fiți perspicace cu privire la site-urile web pe care le vizitați, abținându-vă să dați clic pe link-urile din e-mailuri sau pe site-uri web necunoscute. Rămâneți la surse de încredere și verificați legitimitatea site-urilor web înainte de a împărtăși orice informații personale sau financiare.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Folosiți firewall-uri pentru a controla traficul de intrare și de ieșire din rețea și implementați un software antivirus fiabil pentru a detecta și elimina programele malware sau activitățile suspecte de pe dispozitivele dumneavoastră.
+[**5. Folosiți firewall-uri și programe antivirus:**](https://simeononsecurity.com/recommendations/anti-virus/) Folosiți firewall-uri pentru a controla traficul de intrare și de ieșire din rețea și implementați un software antivirus fiabil pentru a detecta și elimina programele malware sau activitățile suspecte de pe dispozitivele dumneavoastră.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Creați în mod regulat copii de rezervă ale datelor și fișierelor importante. Acest lucru vă asigură că, chiar dacă computerul dvs. este compromis sau dacă datele dvs. sunt furate, vă puteți restaura informațiile și puteți minimiza impactul potențialelor atacuri cibernetice.
+[**6. Faceți periodic copii de rezervă ale datelor:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Creați în mod regulat copii de rezervă ale datelor și fișierelor importante. Acest lucru vă asigură că, chiar dacă computerul dvs. este compromis sau dacă datele dvs. sunt furate, vă puteți restaura informațiile și puteți minimiza impactul potențialelor atacuri cibernetice.
 
 ## Reglementări și inițiative guvernamentale
 
 Guvernele din întreaga lume recunosc din ce în ce mai mult necesitatea de a combate dark web-ul și criminalitatea cibernetică prin legislație și inițiative. Printre reglementările și inițiativele notabile se numără:
 
-- The [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/): Aimed at protecting the personal data and privacy of EU citizens, the GDPR sets strict guidelines and requirements for businesses and organizations handling personal information. More information can be found in [this article](https://gdpr.eu/)
+- [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/), cunoscut ca GDPR, are ca scop protejarea datelor personale și a vieții private ale cetățenilor UE. GDPR stabilește reguli și cerințe stricte pentru companiile și organizațiile care prelucrează informații personale. Pentru mai multe informații, consultați [acest articol](https://gdpr.eu/).
 
-- În cazul în care [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Legea americană [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) promovează schimbul de informații despre amenințările cibernetice între entități private și guvern, pentru a consolida securitatea națională și a reduce riscurile cibernetice. Pentru detalii, consultați [această documentație](https://www.congress.gov/bill/114th-congress/senate-bill/754).
 
 Aceste reglementări și inițiative joacă un rol esențial în promovarea unui mediu digital mai sigur, însă conștientizarea individuală și practicile proactive de securitate cibernetică rămân esențiale în combaterea dark web-ului și a criminalității cibernetice.
 
@@ -78,5 +79,5 @@ Dark web și criminalitatea cibernetică reprezintă amenințări semnificative 
 
 Referințe:
 
-- Regulamentul general al Uniunii Europene privind protecția datelor (GDPR): [link](https://gdpr.eu/)
-- Legea privind schimbul de informații în materie de securitate cibernetică (Cybersecurity Information Sharing Act - CISA): [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Regulamentul general al Uniunii Europene privind protecția datelor (GDPR): [textul regulamentului](https://gdpr.eu/)
+- Legea privind schimbul de informații în materie de securitate cibernetică (Cybersecurity Information Sharing Act - CISA): [textul legii](https://www.congress.gov/bill/114th-congress/senate-bill/754)

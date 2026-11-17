@@ -1,7 +1,7 @@
 ---
 title: "Claude Codeのプラグイン、スキル、MCPツール10選：実践ガイド"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "計画、コードレビュー、ナレッジ管理、デザイン、自動化に使うClaude Code拡張を選びます。10個のツール、依存関係、実践的な確認方法を比較します。"
@@ -226,7 +226,7 @@ notebooklm skill install
 **例示演習:** 小さなアプリケーションへCSVインポーターを追加します。インポーターは行をプレビューし、不正なメール欄を報告し、重複作成を防ぎます。顧客レコードや稼働中の外部宛先は不要です。
 
 ```yaml
-# Evaluation worksheet, not a tool configuration file
+# 評価用ワークシートであり、ツール設定ファイルではありません
 task: "add CSV import preview"
 inputs:
   - "valid rows"

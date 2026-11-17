@@ -1,10 +1,11 @@
 ---
 title: "Der Leitfaden für Einsteiger zur CISSP-Zertifizierung: Tipps zur Prüfungsvorbereitung"
 date: 2023-05-15
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Lernen Sie die Schritte zur Vorbereitung und zum Bestehen der CISSP-Prüfung, einer angesehenen Zertifizierung für Informationssicherheitsexperten."
-tags: ["CISSP-Zertifizierung", "Informationssicherheit", "Prüfungsvorbereitung", "Studienplan", "Praxis-Prüfungen", "Cybersicherheit", "berufliche Entwicklung", "Zertifizierungsprüfung", "ISC2", "Karrieremöglichkeiten", "Sicherheitsarchitektur", "Netzwerksicherheit", "Zugangskontrolle", "Risikomanagement", "Verschlüsselung", "Sicherheitsoperationen", "physische Sicherheit", "Geschäftskontinuität", "Notfallwiederherstellung", "Compliance"]
+tags: ["CISSP-Zertifizierung", "Informationssicherheit", "Prüfungsvorbereitung", "Studienplan", "Praxis-Prüfungen", "Cybersicherheit", "berufliche Entwicklung", "Zertifizierungsprüfung", "ISC2", "Karrieremöglichkeiten", "Sicherheitsarchitektur", "Netzwerksicherheit", "Zugangskontrolle", "Risikomanagement", "Verschlüsselung", "Sicherheitsoperationen", "physische Sicherheit", "Geschäftskontinuität", "Notfallwiederherstellung", "Compliance", "CISSP-Prüfungstipps", "CISSP-Lernmaterialien", "CISSP-Zulassungsvoraussetzungen", "CISSP-Prüfungsformat", "CISSP-Übungsprüfungen", "CISSP-Prüfungsanmeldung", "Zertifizierung für Informationssicherheit", "Zertifizierung für Sicherheitsexperten", "Sicherheitsmanagement", "Sicherheitsbewertung", "Softwaresicherheit"]
 cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "Ein Cartoon-Bild einer Person, die ein CISSP-Zertifikat in der Hand hält, mit einer Gedankenblase, die verschiedene Themen der Informationssicherheit wie Sicherheitsarchitektur, Zugangskontrolle, Verschlüsselung und Netzwerksicherheit zeigt."
 coverCaption: ""
@@ -12,11 +13,11 @@ coverCaption: ""
 
 **Leitfaden für Anfänger zur Erlangung der CISSP-Zertifizierung: Vorbereitung auf die Prüfung zum Certified Information Systems Security Professional**
 
-Die [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) certification is a highly sought-after certification for professionals in the field of information security. It is considered the gold standard in the industry and is recognized worldwide as a benchmark for excellence in the field of information security. This guide will provide an overview of the [CISSP certification](https://www.isc2.org/Certifications/CISSP) und geben Tipps für die Prüfungsvorbereitung.
+Die [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP)-Zertifizierung ist bei Fachleuten für Informationssicherheit sehr gefragt. Sie gilt in der Branche als Goldstandard und wird weltweit als Maßstab für Spitzenleistungen in der Informationssicherheit anerkannt. Dieser Leitfaden gibt einen Überblick über die [CISSP-Zertifizierung](https://www.isc2.org/Certifications/CISSP) und bietet Tipps zur Prüfungsvorbereitung.
 
 ## Was ist die CISSP-Zertifizierung?
 
-Die [CISSP certification](https://www.isc2.org/Certifications/CISSP) is an advanced-level certification that validates a candidate's expertise in information security. It is awarded by the International Information System Security Certification Consortium, or (ISC) eine gemeinnützige Organisation, die sich auf die Ausbildung und Zertifizierung im Bereich der Informationssicherheit spezialisiert hat.
+Die [CISSP-Zertifizierung](https://www.isc2.org/Certifications/CISSP) ist eine Zertifizierung auf fortgeschrittenem Niveau, die die Fachkenntnisse eines Kandidaten im Bereich Informationssicherheit bestätigt. Sie wird vom International Information System Security Certification Consortium, kurz (ISC)², verliehen. Diese gemeinnützige Organisation ist auf Ausbildung und Zertifizierung im Bereich Informationssicherheit spezialisiert.
 
 Zum Erwerb der [CISSP certification](https://www.isc2.org/Certifications/CISSP) Kandidaten müssen eine Prüfung ablegen, die acht Bereiche der Informationssicherheit abdeckt. Zu diesen Bereichen gehören **Sicherheits- und Risikomanagement**, **Vermögensschutz**, **Sicherheitstechnik**, **Kommunikations- und Netzwerksicherheit**, **Identitäts- und Zugriffsmanagement**, **Sicherheitsbewertung und -prüfung**, **Sicherheitsbetrieb** und **Sicherheit bei der Softwareentwicklung**.
 
@@ -30,7 +31,7 @@ Die Vorbereitung auf die CISSP-Prüfung kann eine entmutigende Aufgabe sein, abe
 
 ### Schritt 1: Erfüllen Sie die Zulassungsvoraussetzungen
 
-Bevor Sie mit der Vorbereitung beginnen, sollten Sie sich vergewissern, dass Sie die Zulassungsvoraussetzungen für die Prüfung erfüllen. [CISSP certification.](https://www.isc2.org/Certifications/CISSP) Candidates must have a minimum of five years of cumulative, paid, full-time work experience in two or more of the eight domains of the CISSP Common Body of Knowledge (CBK)
+Bevor Sie mit der Vorbereitung beginnen, sollten Sie prüfen, ob Sie die Zulassungsvoraussetzungen für die [CISSP-Zertifizierung](https://www.isc2.org/Certifications/CISSP) erfüllen. Kandidaten benötigen mindestens fünf Jahre kumulative, bezahlte Berufserfahrung in Vollzeit in zwei oder mehr der acht Bereiche des CISSP Common Body of Knowledge (CBK).
 
 Alternativ können Bewerber die Zulassungsvoraussetzungen auch mit vier Jahren Berufserfahrung und einem entsprechenden Hochschulabschluss oder einem anderen anerkannten Zeugnis erfüllen.
 
@@ -49,9 +50,10 @@ Den Kandidaten stehen verschiedene Lernmaterialien zur Verfügung, wie z. B. Leh
 ### Empfohlene Ressourcen
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
+- [PluralSight (bevorzugt)](https://www.pluralsight.com/)
+- [Offizieller Lernleitfaden und Übungstests](https://amzn.to/3LAu3Ly)
+- [Weitere Lernressourcen](https://simeononsecurity.com/recommendations/learning_resources)
+- [CISSP-Übungstest von SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Schritt 4: Üben Sie mit Übungsklausuren
 
@@ -59,7 +61,8 @@ Den Kandidaten stehen verschiedene Lernmaterialien zur Verfügung, wie z. B. Leh
 
 Es ist wichtig, mehrere Übungsprüfungen zu absolvieren, um sich mit den Arten von Fragen vertraut zu machen, die gestellt werden könnten, und um Fähigkeiten zum Zeitmanagement zu entwickeln.
 
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
+- [Offizieller Lernleitfaden und Übungstests](https://amzn.to/3LAu3Ly)
+- [CISSP-Übungstest von SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Schritt 5: Anmeldung zur Prüfung
 

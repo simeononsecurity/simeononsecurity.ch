@@ -1,12 +1,13 @@
 ---
 title: "Guida per principianti: Uso della riga di comando di Linux per la sicurezza informatica"
 date: 2023-03-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Imparate a utilizzare la riga di comando di Linux per la sicurezza informatica con comandi di base e avanzati."
-tags: ["Linux", "Linea di comando", "Sicurezza informatica", "Guida per principianti", "Scansione di rete", "Test di vulnerabilità", "Analisi del malware", "Permessi", "Traffico di rete", "Stato del processo", "Statistiche di rete", "Ricerca file", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Sicurezza", "Test di penetrazione", "Forensica digitale"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
-coverAlt: "Un'illustrazione a fumetti di una persona che indossa una felpa con cappuccio, seduta davanti allo schermo di un computer con l'interfaccia della riga di comando di Linux visibile e con in mano una lente di ingrandimento per rappresentare l'aspetto della sicurezza informatica."
+tags: ["Linux", "Linea di comando", "Sicurezza informatica", "Guida per principianti", "Scansione di rete", "Test di vulnerabilità", "Analisi del malware", "Permessi", "Traffico di rete", "Stato del processo", "Statistiche di rete", "Ricerca file", "Wireshark", "TCPDump", "Nmap", "interfaccia a riga di comando di Linux", "Sicurezza", "Test di penetrazione", "Forensica digitale"]
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "Illustrazione di uno schermo con l’interfaccia della riga di comando Linux e comandi verdi su sfondo scuro. Intorno compaiono elementi di sicurezza informatica, come lucchetti digitali e linee di rete."
 coverCaption: ""
 ---
 
@@ -14,7 +15,7 @@ coverCaption: ""
 
 ## Comandi Linux di base per la cybersicurezza
 
-### Stampa la directory di lavoro
+### Stampa la cartella di lavoro
 
 Il comando **pwd** (print working directory) serve a visualizzare la directory di lavoro corrente nella CLI. La directory di lavoro è la directory in cui ci si trova attualmente nel file system. Il comando è utile per navigare nel file system e capire la propria posizione rispetto ad altre directory. Ad esempio, se ci si trova nella directory home e si desidera navigare nella directory documenti, si possono usare i seguenti comandi:
 
@@ -46,7 +47,7 @@ Desktop Documents Downloads Music Pictures Public Templates Videos
 
 Nell'esempio precedente, il comando elenca il contenuto della directory home, che contiene diverse sottodirectory come Desktop, Documenti, Download e così via.
 
-### Cambia directory
+### Cambia cartella
 
 Il comando **cd** (change directory) viene utilizzato per cambiare la directory di lavoro corrente nella CLI. Il comando consente di navigare nel file system e di accedere ai file in posizioni diverse. Ad esempio, se si desidera cambiare la directory di lavoro corrente in quella dei documenti, si può usare il seguente comando:
 
@@ -116,9 +117,9 @@ Nell'esempio precedente, il comando cerca tutte le righe che contengono una paro
 Il comando **chmod** (change mode) viene utilizzato per modificare i permessi di un file o di una directory nella CLI. Questo comando è essenziale per proteggere i file e le directory e controllare chi vi ha accesso. I permessi sono rappresentati da tre cifre che corrispondono rispettivamente a proprietario, gruppo e altri. Le cifre sono calcolate in base alla seguente formula:
 
 ```
-4 = read
-2 = write
-1 = execute
+4 = lettura
+2 = scrittura
+1 = esecuzione
 ```
 
 Ad esempio, se si desidera assegnare al proprietario i permessi di lettura e scrittura e al gruppo e agli altri i permessi di sola lettura per un file denominato "file1.txt", è possibile utilizzare il seguente comando:
@@ -140,7 +141,9 @@ Nell'esempio precedente, il comando imposta i permessi del file "file2.txt" su u
 
 ## Comandi avanzati di Linux per la sicurezza informatica
 
-### Network Mapper
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagramma di un terminale Linux con nmap, netstat e find per scansionare reti, monitorare processi e cercare file nelle attività di sicurezza informatica" >}}
+
+### Mappatura della rete
 
 Il comando **nmap** è un potente strumento di scansione della rete nella CLI che può essere utilizzato per identificare host e servizi su una rete, nonché potenziali vulnerabilità. Il comando può eseguire una serie di tecniche di scansione, tra cui la scoperta degli host, la scansione delle porte e il rilevamento del sistema operativo.
 
@@ -162,7 +165,7 @@ Il comando di cui sopra scansiona tutti gli indirizzi IP dell'intervallo e resti
 
 Oltre alla scoperta di base degli host e alla scansione delle porte, nmap può anche eseguire scansioni più avanzate, come il rilevamento di servizi e versioni, il rilevamento del sistema operativo e la scansione delle vulnerabilità. Queste scansioni possono essere utili per identificare potenziali vulnerabilità di sicurezza su una rete e metterla al sicuro da potenziali attacchi.
 
-### TCP Packet Dumper
+### Dump dei pacchetti TCP
 
 Il comando **tcpdump** viene utilizzato per catturare e analizzare il traffico di rete nella CLI, rendendolo utile per la risoluzione di problemi di rete, l'analisi del comportamento della rete e l'identificazione di potenziali minacce alla sicurezza. Il comando cattura i pacchetti in tempo reale e può filtrare i pacchetti in base a vari criteri, come l'indirizzo IP di origine o di destinazione, il protocollo e la porta.
 
@@ -282,7 +285,7 @@ ______
 
 L'uso della riga di comando di Linux per la cybersicurezza può risultare difficile per i principianti. Tuttavia, con i comandi di base e avanzati descritti in questa guida, è possibile iniziare a utilizzare la CLI di Linux a proprio vantaggio nella cybersecurity. Ricordate di usare cautela nell'esecuzione dei comandi e di comprendere a fondo le funzioni di ciascun comando prima di utilizzarlo.
 
-Per saperne di più sull'uso di Linux per la cybersicurezza, scaricate il documento **[Kali Linux](https://www.kali.org/downloads/) sistema operativo, progettato specificamente per i test di penetrazione e la digital forensics.
+Per saperne di più sull'uso di Linux per la sicurezza informatica, consulta la pagina di download di **[Kali Linux](https://www.kali.org/downloads/)**, un sistema operativo progettato appositamente per i test di penetrazione e l'analisi forense digitale.
 
 ## Conclusione
 

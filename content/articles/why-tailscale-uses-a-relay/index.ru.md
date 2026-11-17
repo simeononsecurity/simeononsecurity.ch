@@ -1,55 +1,55 @@
 ---
-title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
+title: "Почему Tailscale использует ретранслятор: прямые соединения, DERP и пиринговые ретрансляторы"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
+description: "Узнайте, почему Tailscale использует ретранслятор, как читать вывод status и netcheck и когда следует изучить соединение через DERP или пиринговый ретранслятор."
 genre: ["Networking", "Network Security", "Self-Hosted"]
-tags: ["Tailscale", "Tailscale relay", "DERP", "Tailscale Peer Relay", "direct connection", "WireGuard", "NAT traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN performance", "remote access", "tailnet", "homelab networking", "relay latency", "end-to-end encryption"]
+tags: ["Tailscale", "ретранслятор Tailscale", "DERP", "пиринговый ретранслятор Tailscale", "прямое соединение", "WireGuard", "обход NAT", "сложный NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "производительность VPN", "удаленный доступ", "tailnet", "домашняя лабораторная сеть", "задержка ретранслятора", "сквозное шифрование"]
 cover: "/img/cover/why-tailscale-uses-a-relay.webp"
-coverAlt: "Two laptops on separate islands exchange locked packets through a central relay while a direct path is interrupted."
+coverAlt: "Два ноутбука на отдельных островах обмениваются зашифрованными пакетами через центральный ретранслятор, пока прямой маршрут прерван."
 coverCaption: ""
 ---
 
-**Tailscale uses a relay** when devices have not established a direct connection. A brief DERP connection during startup is normal. Persistent relaying often reflects network address translation (NAT) or firewall conditions affecting the route between the devices. Direct, DERP, and peer-relay connections all retain WireGuard end-to-end encryption. [Tailscale connection types](https://tailscale.com/docs/reference/connection-types).
+**Tailscale использует ретранслятор**, если устройствам не удалось установить прямое соединение. Кратковременное соединение через DERP во время запуска является нормальным. Постоянная работа через ретранслятор часто связана с NAT или правилами брандмауэра, которые влияют на маршрут между устройствами. При прямом соединении, через DERP и пиринговый ретранслятор сохраняется сквозное шифрование WireGuard. [Типы соединений Tailscale](https://tailscale.com/docs/reference/connection-types).
 
-## Главные выводы
+## Главное
 
-- **Recognize the path:** distinguish direct, DERP, and peer-relay connections.
-- **Collect evidence:** run peer-specific probes and network checks on both ends.
-- **Analyze the pattern:** compare device pairs and network conditions.
-- **Choose a change:** justify it with a measured workload and a retest.
+- **Определите маршрут:** различайте прямое соединение, DERP и пиринговый ретранслятор.
+- **Соберите данные:** выполните адресные проверки для нужного пира и проверьте сеть на обоих устройствах.
+- **Проанализируйте закономерность:** сравните пары устройств и сетевые условия.
+- **Выберите изменение:** обоснуйте его измерениями рабочей нагрузки и повторным тестом.
 
 ## Перед началом
 
-**Prerequisites:** two enrolled, online devices and a terminal with the Tailscale command-line interface, or **CLI**, available. You need administrative access only if the investigation leads to configuration changes.
+**Требования:** два подключенных к сети устройства, зарегистрированных в Tailscale, и терминал с интерфейсом командной строки Tailscale, или **CLI**. Права администратора потребуются только в том случае, если расследование приведет к изменению конфигурации.
 
-**Estimated effort:** five minutes for basic checks, then 15–20 minutes for the comparison exercise. **Difficulty:** beginner for observation and intermediate for network changes. Define the problem first, such as a slow backup or delayed terminal response.
+**Оценка времени:** пять минут на базовые проверки, затем 15–20 минут на сравнительное упражнение. **Сложность:** начальный уровень для наблюдений и средний для изменения сетевых настроек. Сначала точно сформулируйте проблему, например медленное резервное копирование или задержку ответа терминала.
 
-## Direct, DERP, and Peer Relay
+## Прямое соединение, DERP и пиринговый ретранслятор
 
-A **tailnet** is your Tailscale network. Its devices attempt direct UDP connectivity, with relays available when the direct path fails. Tailscale periodically rechecks its connection options. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**Tailnet** представляет собой вашу сеть Tailscale. Ее устройства пытаются установить прямое соединение по UDP. Если прямой маршрут недоступен, можно использовать ретрансляторы. Tailscale периодически проверяет доступные варианты соединения. [Установление соединения](https://tailscale.com/docs/reference/connection-types).
 
-| Path | Traffic route | Typical implication |
+| Маршрут | Путь трафика | Типичное значение |
 |---|---|---|
-| **Direct** | Between the two devices | Usually the preferred performance path |
-| **DERP relay** | Through Tailscale relay infrastructure | Adds an intermediary when direct access fails |
-| **Peer relay** | Through a configured device in your tailnet | An alternative relay under your administration |
+| **Прямой** | Между двумя устройствами | Обычно предпочтителен для производительности |
+| **Ретранслятор DERP** | Через инфраструктуру ретрансляторов Tailscale | Добавляет посредника, если прямой доступ недоступен |
+| **Пиринговый ретранслятор** | Через настроенное устройство в tailnet | Альтернативный ретранслятор под вашим управлением |
 
-**DERP performance** depends partly on the extra route and shared service capacity. Tailscale documents throughput limits intended to share DERP resources fairly. There is no universal relay speed suitable for predicting your file-transfer time. [Tailscale performance troubleshooting](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
+**Производительность DERP** частично зависит от дополнительного маршрута и общей пропускной способности службы. Tailscale документирует ограничения пропускной способности, предназначенные для справедливого распределения ресурсов DERP. Универсальной скорости ретранслятора, по которой можно предсказать время передачи файла, не существует. [Устранение проблем с производительностью Tailscale](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
 
-## Understand Connection Negotiation
+## Как происходит согласование соединения
 
-**NAT traversal** is the process of establishing a usable path across address-translating devices. Tailscale begins communication through DERP while negotiating a direct path. If direct connectivity fails, an available configured peer relay provides another option. Tailscale rechecks its options over time. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**Обход NAT** представляет собой процесс установления рабочего маршрута через устройства, выполняющие трансляцию адресов. Tailscale начинает обмен через DERP и одновременно согласует прямой маршрут. Если прямое соединение установить не удается, настроенный доступный пиринговый ретранслятор предоставляет дополнительный вариант. Со временем Tailscale повторно проверяет эти варианты. [Установление соединения](https://tailscale.com/docs/reference/connection-types).
 
-**Hard NAT** describes mapping behavior making traversal difficult. The conditions at both ends matter. Two devices behind different routers do not necessarily behave alike, even if both networks use private addresses. [Device connectivity](https://tailscale.com/docs/reference/device-connectivity).
+**Сложный NAT** описывает поведение сопоставления адресов, затрудняющее обход NAT. Условия на обоих концах имеют значение. Два устройства за разными маршрутизаторами могут работать по-разному, даже если обе сети используют частные адреса. [Связность устройств](https://tailscale.com/docs/reference/device-connectivity).
 
-For **a roaming laptop**, the path to your home server might change after moving from home Wi-Fi to a hotel network. Record the network used during the observation. Yesterday's direct connection is not evidence about today's route.
+У **переносного ноутбука** маршрут к домашнему серверу может измениться после перехода с домашнего Wi-Fi на гостиничную сеть. Записывайте сеть, в которой проводите наблюдение. Вчерашнее прямое соединение не описывает сегодняшний маршрут.
 
-## Check Your Current Connection
+## Проверьте текущее соединение
 
-Replace **`home-server`** with your peer's Tailscale name or address:
+Замените **`home-server`** именем Tailscale или адресом нужного пира:
 
 ```bash
 tailscale ping home-server
@@ -57,119 +57,119 @@ tailscale status
 tailscale netcheck
 ```
 
-**`tailscale ping`** probes connectivity to the named peer. **`tailscale status`** lists peers and connection details. **`tailscale netcheck`** reports conditions on the device running the command. The [Tailscale CLI reference](https://tailscale.com/docs/reference/tailscale-cli) documents these commands.
+**`tailscale ping`** проверяет соединение с указанным пиром. **`tailscale status`** выводит список пиров и сведения о соединениях. **`tailscale netcheck`** сообщает о сетевых условиях на устройстве, где выполняется команда. Команды описаны в [справочнике CLI Tailscale](https://tailscale.com/docs/reference/tailscale-cli).
 
-| Output indicator | Read it as |
+| Индикатор в выводе | Значение |
 |---|---|
-| **`direct`** | Traffic to this peer uses a direct path |
-| **`relay`** | Traffic to this peer uses DERP |
-| **`peer-relay`** | Traffic uses a configured peer relay |
-| **An initial DERP pong** | Inspect subsequent results before deciding the path stayed relayed |
+| **`direct`** | Трафик к этому пиру идет напрямую |
+| **`relay`** | Трафик к этому пиру проходит через DERP |
+| **`peer-relay`** | Трафик проходит через настроенный пиринговый ретранслятор |
+| **Первый ответ через DERP** | Проверьте следующие результаты, прежде чем считать маршрут постоянно ретранслируемым |
 
-These labels come from the [connection-type documentation](https://tailscale.com/docs/reference/connection-types). **Generate traffic first**, then inspect the peer you care about. The commands above are examples, not captured results from a benchmark.
+Эти обозначения приведены в [документации о типах соединений](https://tailscale.com/docs/reference/connection-types). **Сначала создайте сетевой трафик**, затем проверьте нужный пир. Команды выше являются примерами, а не результатами проведенного теста производительности.
 
-## Interpret a Path Change
+## Интерпретируйте изменение маршрута
 
-This **illustrative sequence** omits addresses and timings so you focus on the connection transition:
+В этой **иллюстративной последовательности** опущены адреса и время, чтобы было видно изменение соединения:
 
 ```text
-First response:    via DERP
-Later response:    via a direct endpoint
-Status afterward: direct
+Первый ответ:       через DERP
+Следующий ответ:     через прямую конечную точку
+Последующий статус: прямое соединение
 ```
 
-**Interpretation:** negotiation succeeded during this observation. The first response alone would have produced the wrong diagnosis. If later responses and status remain relayed, record a persistent relay for this device pair and test period.
+**Интерпретация:** в ходе этого наблюдения согласование прошло успешно. Только по первому ответу можно было бы поставить неверный диагноз. Если следующие ответы и статус по-прежнему показывают ретранслятор, зафиксируйте постоянное использование ретранслятора для этой пары устройств и периода тестирования.
 
-**Probe scope:** a successful Tailscale ping establishes peer connectivity for its probe. It does not prove your dashboard, file service, or SSH daemon accepts application traffic. Test the failing application separately before declaring the problem solved.
+**Границы проверки:** успешный ping Tailscale подтверждает соединение с пиром в рамках этой проверки. Он не доказывает, что ваша панель управления, файловая служба или демон SSH принимают прикладной трафик. Отдельно проверьте приложение с проблемой, прежде чем считать ее решенной.
 
-## What Netcheck Tells You
+## Что показывает netcheck
 
-Run **`tailscale netcheck` on both devices**. Compare these fields against the [device-connectivity reference](https://tailscale.com/docs/reference/device-connectivity):
+Выполните **`tailscale netcheck` на обоих устройствах**. Сравните эти поля со [справочником о связности устройств](https://tailscale.com/docs/reference/device-connectivity):
 
-| Field | Useful interpretation |
+| Поле | Полезная интерпретация |
 |---|---|
-| **`UDP`** | Whether the probe observed outbound UDP connectivity |
-| **`MappingVariesByDestIP`** | Changing external mappings suggest difficult NAT traversal |
-| **`IPv6`** | Whether this device has usable IPv6 connectivity |
-| **`PortMapping`** | Whether a supported port-mapping mechanism is available |
+| **`UDP`** | Наблюдал ли тест исходящее UDP-соединение |
+| **`MappingVariesByDestIP`** | Различающиеся внешние сопоставления могут затруднять обход NAT |
+| **`IPv6`** | Есть ли у устройства рабочее соединение IPv6 |
+| **`PortMapping`** | Доступен ли поддерживаемый механизм сопоставления портов |
 
-**One field is not a verdict.** An available mapping mechanism does not prove a particular peer path works. Likewise, a relay label does not identify which router caused it. Compare both endpoints and the actual ping results.
+**Одно поле не дает однозначного ответа.** Наличие механизма сопоставления не доказывает, что маршрут к конкретному пиру работает. Метка ретранслятора также не показывает, какой маршрутизатор вызвал проблему. Сравните оба конечных устройства и реальные результаты ping.
 
-**Carrier NAT** is relevant when upstream translation is outside your control, as discussed in our [T-Mobile port-forwarding explainer](/articles/t-mobile-home-internet-port-forwarding/). Avoid assuming every connection behind carrier NAT has identical traversal behavior.
+**NAT оператора связи** имеет значение, если вышестоящая трансляция адресов находится вне вашего контроля, как описано в нашей статье о [пробросе портов в T-Mobile Home Internet](/articles/t-mobile-home-internet-port-forwarding/). Не считайте, что все соединения за NAT оператора ведут себя одинаково при обходе NAT.
 
-## Compare Three Device Pairs
+## Сравните три пары устройств
 
-Use a **third enrolled device**, if available, to improve the evidence. The following is a hypothetical pattern, not a measured result:
+Если возможно, используйте **третье зарегистрированное устройство**, чтобы получить больше данных. Ниже приведен гипотетический шаблон, а не результат измерений:
 
-| Device pair | Observed path |
+| Пара устройств | Наблюдаемый маршрут |
 |---|---|
-| **Laptop to home server** | DERP |
-| **Laptop to another server** | Direct |
-| **Home server to another server** | DERP |
+| **Ноутбук и домашний сервер** | DERP |
+| **Ноутбук и другой сервер** | Прямой |
+| **Домашний сервер и другой сервер** | DERP |
 
-**Working hypothesis:** prioritize the home server's network for investigation because both observed paths involving it stayed relayed. This is a lead, not proof. Each pair negotiates independently, and the comparison server has its own network conditions.
+**Рабочая гипотеза:** сначала изучите сеть домашнего сервера, поскольку оба наблюдавшихся маршрута с его участием проходили через ретранслятор. Это подсказка, но не доказательство. Для каждой пары соединение согласуется отдельно, а у сервера для сравнения есть собственные сетевые условия.
 
-**Next observation:** collect netcheck output on all three devices and repeat the laptop-to-home test from another network you control. If the path changes, record exactly which network changed. Avoid attributing the result to a particular firewall setting until you test it.
+**Следующее наблюдение:** соберите вывод netcheck на всех трех устройствах и повторите проверку соединения ноутбука с домашним сервером из другой контролируемой вами сети. Если маршрут изменится, точно запишите, какая сеть изменилась. Не связывайте результат с конкретным правилом брандмауэра, пока не проверите это.
 
-**Review exercise:** laptop-to-home is direct, but a file transfer remains slow. A relay explanation no longer matches this observation. Check the underlying upload connection, server load, storage, and application behavior before changing relay settings.
+**Упражнение:** соединение ноутбука с домашним сервером прямое, но передача файла остается медленной. Это наблюдение уже не объясняется ретранслятором. Прежде чем менять настройки ретранслятора, проверьте исходящее подключение, нагрузку сервера, хранилище и работу приложения.
 
-## Choose a Targeted Change
+## Выберите целевое изменение
 
-Start with a **comparison test** on another network you control. If the same peer becomes direct, you have useful evidence about the original network path. Review its UDP restrictions and NAT arrangement before changing unrelated DNS or application settings.
+Начните со **сравнительного теста** в другой сети, которой вы управляете. Если тот же пир подключается напрямую, это полезные данные о первоначальном сетевом маршруте. Прежде чем менять не связанные с этим настройки DNS или приложения, проверьте ограничения UDP и конфигурацию NAT.
 
-**Change one variable**, rerun the checks, and measure the same workload. Record transfer direction, file size, elapsed time, and connection type. This separates an improved path from an unrelated change in server or storage load.
+**Измените одну переменную**, повторите проверки и измерьте ту же рабочую нагрузку. Запишите направление передачи, размер файла, прошедшее время и тип соединения. Так вы отличите улучшение маршрута от отдельного изменения нагрузки сервера или хранилища.
 
-**Firewall changes** should follow the platform-specific guidance and the evidence you collected. Opening an application port to the public Internet does not itself improve Tailscale's transport path. Keep changes limited to the required traffic and network you administer. [Tailscale firewall guidance](https://tailscale.com/docs/integrations/firewalls).
+**Изменения брандмауэра** должны соответствовать рекомендациям для конкретной платформы и собранным данным. Открытие порта приложения для общедоступного Интернета само по себе не улучшает транспортный маршрут Tailscale. Ограничьте изменения необходимым трафиком и сетью, которой вы управляете. [Рекомендации Tailscale по настройке брандмауэра](https://tailscale.com/docs/integrations/firewalls).
 
-| Finding | Change worth evaluating |
+| Наблюдение | Изменение для оценки |
 |---|---|
-| **UDP probe fails** | Review outbound UDP restrictions on this network |
-| **Mapping changes across destinations** | Review NAT behavior on equipment you control |
-| **Direct path, slow application** | Investigate the host, underlying connection, and workload |
-| **Working relay, acceptable experience** | Keep the arrangement and document the baseline |
+| **Проверка UDP не прошла** | Изучите ограничения исходящего UDP в этой сети |
+| **Сопоставление меняется в зависимости от адреса назначения** | Проверьте поведение NAT на управляемом вами оборудовании |
+| **Прямой маршрут, медленное приложение** | Изучите хост, исходящее соединение и рабочую нагрузку |
+| **Ретранслятор работает, качество приемлемо** | Сохраните текущую схему и запишите исходные показатели |
 
-*Prefer a measured improvement over changing settings solely to remove a relay label.*
+*Предпочитайте измеренное улучшение изменению настроек, сделанному только ради исчезновения метки ретранслятора.*
 
-## Evaluate a Peer Relay
+## Оцените пиринговый ретранслятор
 
-A **peer relay** requires a suitable host, reachable UDP port, and an access policy permitting its use. Both the relay and participating clients require Tailscale 1.86 or later. Review supported host platforms before allocating a device. [Peer-relay requirements](https://tailscale.com/docs/features/peer-relay).
+**Пиринговому ретранслятору** нужны подходящий хост, доступный UDP-порт и политика доступа, разрешающая его использование. И ретранслятор, и участвующие клиенты должны работать под управлением Tailscale версии 1.86 или новее. Перед выделением устройства проверьте поддерживаемые платформы хоста. [Требования к пиринговому ретранслятору](https://tailscale.com/docs/features/peer-relay).
 
-**Placement determines usefulness.** A device behind the same inaccessible network boundary needs a reachable relay port before it helps other peers. Choosing a host geographically near the endpoints is insufficient without connectivity to it.
+**Размещение определяет полезность.** Устройство за той же недоступной сетевой границей не поможет другим пирам, пока порт ретранслятора не станет доступен.
 
-**Maintenance tradeoff:** someone must keep the relay online, updated, and adequately provisioned. For occasional administration with acceptable latency, compare this burden with the measured benefit. For repeated large transfers, measure the workload through the proposed relay before adopting it.
+**Затраты на обслуживание:** кто-то должен поддерживать ретранслятор в рабочем состоянии, устанавливать обновления и обеспечивать достаточные ресурсы. Если вы подключаетесь для администрирования редко и задержка вас устраивает, сравните эту нагрузку с измеренной пользой. При регулярной передаче больших объемов данных измерьте рабочую нагрузку через предполагаемый ретранслятор до его внедрения.
 
-## Check Shared Traffic Effects
+## Проверьте влияние общего трафика
 
-**Aggregated traffic** deserves attention when a subnet router or exit node carries several workloads through DERP. Tailscale documents situations where heavy relayed traffic delays latency-sensitive traffic sharing the connection. [Hard-NAT troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
+**Суммарный трафик** требует внимания, когда маршрутизатор подсети или выходной узел пропускает через DERP несколько видов нагрузки. Tailscale описывает ситуации, в которых большой объем ретранслируемого трафика задерживает чувствительный к задержкам трафик на том же соединении. [Устранение проблем со сложным NAT](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
 
-**Comparison exercise:** observe your interactive session before, during, and after a large backup. Keep the endpoint pair fixed and record the path each time. Delays appearing during the transfer justify investigating shared load, but do not establish its exact cause.
+**Сравнительное упражнение:** наблюдайте за интерактивным сеансом до, во время и после большого резервного копирования. Не меняйте пару конечных устройств и каждый раз записывайте маршрут. Задержки во время передачи дают основание изучить общую нагрузку, но не доказывают ее точную причину.
 
-**Choose the next test** from the observation. Check link saturation and host load, then evaluate a direct path or separating latency-sensitive services if the topology supports it. Avoid treating a DNS symptom as automatic evidence of a DNS configuration error.
+**Выберите следующий тест** на основании наблюдения. Проверьте загрузку канала и хоста, затем оцените прямой маршрут или разделение чувствительных к задержкам служб, если это допускает топология. Не считайте симптом DNS автоматическим доказательством ошибки конфигурации DNS.
 
-## Is a Relay an Exit Node?
+## Ретранслятор и выходной узел
 
-An **exit node** routes a client's general Internet traffic through a selected tailnet device. A relay carries traffic between Tailscale peers. Selecting an exit node does not guarantee a direct path to it. [Exit-node documentation](https://tailscale.com/docs/features/exit-nodes).
+**Выходной узел** направляет общий интернет-трафик клиента через выбранное устройство tailnet. Ретранслятор передает трафик между пирами Tailscale. Выбор выходного узла не гарантирует прямого соединения с ним. [Документация о выходных узлах](https://tailscale.com/docs/features/exit-nodes).
 
-## Create a Diagnostic Record
+## Создайте диагностическую запись
 
-Save a **small before-and-after record** for the actual problem:
+Сохраните **краткую запись до и после изменений** для реальной проблемы:
 
 ```text
-Date and Tailscale versions:
-Source and destination devices:
-Networks used by each device:
-Initial and settled connection paths:
-Netcheck observations from both ends:
-Workload, direction, and elapsed time:
-Single change tested:
-Retest result:
-Decision to keep or revert:
+Дата и версии Tailscale:
+Исходное и целевое устройства:
+Сети, используемые каждым устройством:
+Первоначальные и установившиеся маршруты соединения:
+Наблюдения netcheck с обеих сторон:
+Рабочая нагрузка, направление и прошедшее время:
+Проверенное одиночное изменение:
+Результат повторного теста:
+Решение оставить или отменить изменение:
 ```
 
-**Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+**Критерий завершения:** запись связывает конкретный симптом с наблюдениями, гипотезой и измеренным повторным тестом. Фраза «Ретранслятор исчез» дает неполный результат, если приложение по-прежнему работает медленно. Фраза «Резервное копирование через DERP укладывается в требуемое время» дает допустимый результат, если требование сформулировано явно.
 
-**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
+**Используйте `tailscale netcheck` как данные, а не как окончательный вердикт.** Команда описывает сеть, видимую одному устройству. Установившийся маршрут относится к паре устройств и рабочей нагрузке. Прежде чем менять настройки брандмауэра или NAT, сохраните данные об обоих конечных устройствах, последнюю строку `tailscale status` и измерение приложения.
 
 ## Следующие шаги
 
-Record the path to your important peer and test the workload before changing network settings. For the separate question of who operates your coordination infrastructure, read [Tailscale vs Headscale](/articles/tailscale-vs-headscale-comparison-guide/).
+Запишите маршрут к важному для вас пиру и проверьте рабочую нагрузку, прежде чем менять сетевые настройки. Если отдельно хотите узнать, кто управляет координационной инфраструктурой, прочитайте [сравнение Tailscale и Headscale](/articles/tailscale-vs-headscale-comparison-guide/).

@@ -1,10 +1,11 @@
 ---
 title: "5 suggerimenti per porre domande efficaci"
 date: 2023-05-12
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Imparate a porre domande specifiche e pertinenti, evitando di perdere tempo."
-tags: ["produttività", "comunicazione", "risoluzione dei problemi", "ricerca", "conversazione", "interrogazione", "informazioni", "impegno", "competenza", "gestione del tempo", "conoscenza", "competenze", "apprendimento", "collaborazione", "pensiero critico", "curiosità", "focus", "analisi", "inchiesta", "curiosità"]
+tags: ["produttività", "comunicazione", "risoluzione dei problemi", "ricerca", "conversazione", "domande", "informazioni", "partecipazione", "competenza", "gestione del tempo", "conoscenza", "competenze", "apprendimento", "collaborazione", "pensiero critico", "curiosità", "concentrazione", "analisi", "richiesta", "curiosità"]
 cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "una persona che tiene in mano un megafono, circondato da punti interrogativi ed esclamativi, che rappresenta l'importanza di porre domande efficaci e di cercare intuizioni preziose"
 coverCaption: ""
@@ -46,4 +47,4 @@ Ad esempio, se siete in riunione con un dirigente impegnato, evitate di porre do
 
 ## Conclusione
 
-In conclusione, porre domande efficaci è un'abilità preziosa che può aiutarci ad acquisire conoscenze, a risolvere problemi e a suscitare nuove idee. Facendo ricerche, ponendo domande specifiche e mirate, cercando opinioni ed esperienze, usando le domande per stimolare conversazioni più profonde e rispettando il tempo dell'interlocutore, possiamo trarre il massimo dalle nostre interazioni e conversazioni, evitando di perdere tempo con domande irrilevanti o improduttive.
+Porre domande efficaci è un'abilità preziosa che può aiutarci ad acquisire conoscenze, a risolvere problemi e a suscitare nuove idee. Facendo ricerche, ponendo domande specifiche e mirate, cercando opinioni ed esperienze, usando le domande per stimolare conversazioni più profonde e rispettando il tempo dell'interlocutore, possiamo trarre il massimo dalle nostre interazioni e conversazioni, evitando di perdere tempo con domande irrilevanti o improduttive.

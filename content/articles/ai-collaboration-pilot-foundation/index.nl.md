@@ -1,12 +1,12 @@
 ---
-title: "Pilot voor AI-agentgovernance: charter, bevoegdheid en tests"
+title: "Pilot voor AI-agentgovernance: charter, gezaghebbende bronnen en tests"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Definieer pilotrollen, gezaghebbende bronnen, beleidssjablonen en acceptatietests voordat je AI-tools koppelt."
 genre: ["Kunstmatige intelligentie", "Teamwerk", "Software-engineering"]
-tags: ["cursus AI-samenwerking", "pilotcharter", "bronbevoegdheid", "bevoegdheidsregister", "beleidssjabloon", "acceptatietests", "synthetisch lab"]
+tags: ["cursus AI-samenwerking", "pilotcharter", "gezaghebbende bron", "register van gezaghebbende bronnen", "beleidssjabloon", "acceptatietests", "synthetisch lab"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustratie van professionals die gedeeld projectwerk bekijken in een cybersecurity-werkruimte"
 coverCaption: ""
@@ -18,7 +18,7 @@ coverCaption: ""
 
 ## Belangrijkste punten
 
-- **Bevoegdheid** wijst een vaste plek toe aan een specifiek informatietype.
+- **Gezaghebbende bronnen** bepalen waar elk specifiek informatietype thuishoort.
 - **Versiebewijs** identificeert de bronnen achter een antwoord.
 - **Toegangscontroles** beperken publicatie onafhankelijk van instructies.
 - **Acceptatietests** bevatten afgewezen wijzigingen en herstel.
@@ -29,7 +29,7 @@ coverCaption: ""
 
 **Geschatte tijd:** 60 tot 90 minuten. **Moeilijkheid:** inleidend governancewerk. De goedkeuringsregels en bewaartermijnen in deze cursus zijn ontwerpkeuzes, geen standaardwaarden van leveranciers of nalevingsadvies.
 
-**Resultaat:** je eindigt met een charter, bevoegdheidsregister, versiebeheerbeleid en plan voor negatieve tests. Latere lessen maken de platformcontroles en verzamelen waargenomen bewijs van weigeringen.
+**Resultaat:** je eindigt met een charter, register van gezaghebbende bronnen, versiebeheerbeleid en plan voor negatieve tests. Latere lessen maken de platformcontroles en verzamelen waargenomen bewijs van weigeringen.
 
 ## De pilot definiëren
 
@@ -58,7 +58,7 @@ stop_conditions:
 
 **De synthetische service** stelt een configuratierecord voor bewaring beschikbaar. Er wordt geen werkende verwijderservice geleverd. Zeven en dertig dagen zijn fictieve vereisten. Een configuratie terugdraaien herstelt verwijderde gegevens niet.
 
-## Bevoegdheid registreren
+## Gezaghebbende bronnen registreren
 
 | Bron-ID | GitHub-eerste locatie | Locatie in gemengde werkplek |
 |---|---|---|
@@ -204,7 +204,7 @@ Publication state: not published
 **Lever één klein pakket** dat een andere bijdrager zonder je gespreksgeschiedenis begrijpt. Bewaar het in de sandbox naast de map.
 
 1. **Charter:** doel, scope, uitsluitingen, rollen en stopvoorwaarden.
-2. **Bevoegdheidsregister:** één plek per informatietype met eigenaar en revisiemethode.
+2. **Register van gezaghebbende bronnen:** één plek per informatietype met eigenaar en revisiemethode.
 3. **Beleid:** toegestane invoer, toegestane acties, publicatiegrens en escalatieroute.
 4. **Acceptatiematrix:** verwacht resultaat, observatieveld, bewijsverwijzing en reviewer.
 5. **Open vragen:** benoemde eigenaar en geblokkeerde vervolgstap voor ieder onopgelost item.
@@ -219,9 +219,9 @@ Publication state: not published
 
 ## Oefening en zelfcontrole
 
-**Maak naast het bewaarbeleid ook een bevoegdheidsregister voor het exportformaat.** Specificeer wie het goedkeurt, waar de implementatie staat en welke revisie de review bindt.
+**Maak naast het bewaarbeleid ook een register van gezaghebbende bronnen voor het exportformaat.** Specificeer wie het goedkeurt, waar de implementatie staat en welke revisie de review bindt.
 
-**Verwachte redenering:** de producteigenaar keurt toegestane formaten goed. GitHub registreert geïmplementeerd gedrag. Jira coördineert de levering. Een vergaderverslag of gegenereerde samenvatting krijgt geen bevoegdheid over vereisten.
+**Verwachte redenering:** de producteigenaar keurt toegestane formaten goed. GitHub registreert geïmplementeerd gedrag. Jira coördineert de levering. Een vergaderverslag of gegenereerde samenvatting krijgt geen gezaghebbende bron voor vereisten.
 
 ## Belangrijkste referenties
 

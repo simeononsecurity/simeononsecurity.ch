@@ -1,10 +1,11 @@
 ---
 title: "Sicurezza in Internet per i bambini: suggerimenti e strategie per mantenere i vostri figli al sicuro online"
 date: 2023-05-13
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Proteggete i vostri figli dai pericoli online con questi consigli e strategie di sicurezza su Internet."
-tags: ["Sicurezza in Internet", "sicurezza online", "sicurezza dei bambini", "controlli parentali", "cyberbullismo", "alfabetizzazione digitale", "predatori online", "social media", "gioco", "dispositivi mobili", "privacy", "sicurezza", "uso sicuro di Internet", "Consigli per la sicurezza in Internet", "proteggere i bambini online", "genitorialità nell'era digitale", "privacy online per i bambini", "pericoli online per i bambini", "abitudini di internet sicure", "educazione alla sicurezza in Internet"]
+tags: ["Sicurezza in Internet", "sicurezza online", "sicurezza dei bambini", "controlli parentali", "cyberbullismo", "alfabetizzazione digitale", "predatori online", "reti sociali", "gioco", "dispositivi mobili", "riservatezza", "sicurezza", "uso sicuro di Internet", "Consigli per la sicurezza in Internet", "proteggere i bambini online", "genitorialità nell'era digitale", "privacy online per i bambini", "pericoli online per i bambini", "abitudini di internet sicure", "educazione alla sicurezza in Internet"]
 cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Un'immagine a fumetti di un genitore e di un bambino che usano insieme il computer, con il bambino che tiene in mano una lente di ingrandimento e il genitore che indica lo schermo."
 coverCaption: ""
@@ -22,7 +23,7 @@ Il primo passo per mantenere i vostri figli al sicuro online è stabilire regole
 
 Anche se vi fidate dei vostri figli, è comunque importante monitorare la loro attività online. Tenete il computer in una posizione centrale dove possiate vedere facilmente cosa fanno i vostri figli. Potete anche utilizzare un software di controllo parentale per limitare l'accesso a determinati siti web e monitorare l'attività online di vostro figlio.
 
-Uno di questi software è[Norton Family](https://us.norton.com/norton-family-premier) che offre una serie di funzioni per aiutare i genitori a monitorare l'attività online dei figli. Tra queste, il filtraggio dei siti web, la supervisione dell'orario e il rilevamento della posizione. È inoltre possibile ricevere avvisi se il bambino tenta di accedere a un sito web o a un'applicazione bloccata.
+Uno di questi programmi è [Norton Family](https://us.norton.com/norton-family-premier), che offre diverse funzioni per aiutare i genitori a monitorare le attività online dei figli. Tra queste figurano il filtro dei siti web, la gestione del tempo e il rilevamento della posizione. È inoltre possibile ricevere avvisi se un figlio tenta di accedere a un sito web o a un’app bloccata.
 
 ## Insegnare ai bambini a riconoscere le situazioni di pericolo
 
@@ -30,7 +31,7 @@ Insegnate ai vostri figli a riconoscere le situazioni pericolose online, come il
 
 ## Utilizzare un software di controllo parentale
 
-Il software di controllo parentale può essere uno strumento utile per mantenere i vostri figli al sicuro online. Esistono molte opzioni diverse, ognuna con le proprie caratteristiche. Alcune opzioni popolari includono[Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids), and [Net Nanny](https://www.netnanny.com/)
+Il software di controllo parentale può essere uno strumento utile per proteggere i vostri figli online. Sono disponibili molte opzioni diverse, ciascuna con le proprie funzioni. Tra le opzioni più diffuse ci sono [Norton Family](https://us.norton.com/norton-family-premier), [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) e [Net Nanny](https://www.netnanny.com/).
 
 [Kaspersky Safe Kids](https://www.kaspersky.com/safe-kids) offre una serie di funzioni, tra cui il blocco di siti web e app, la gestione del tempo trascorso sullo schermo e il rilevamento della posizione. Include anche una funzione che avvisa i genitori se il bambino tenta di accedere a un sito web o a un'applicazione bloccata.
 
@@ -40,7 +41,7 @@ Il software di controllo parentale può essere uno strumento utile per mantenere
 
 ## Mantieni il tuo computer sicuro
 
-La sicurezza del computer è una parte importante della sicurezza online. Assicuratevi che il vostro computer sia dotato di un software antivirus aggiornato e che siano installati tutti gli aggiornamenti di sicurezza. Incoraggiate i vostri figli a usare password forti e a non condividerle mai con nessuno.
+La sicurezza del computer è una parte importante della sicurezza online. Assicuratevi che il vostro computer sia dotato di un software antivirus aggiornato e che siano installati tutti gli aggiornamenti di sicurezza. Incoraggiate i vostri figli a usare [password forti](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) e a non condividerle mai con nessuno.
 
 ## Utilizzare l'autenticazione a due fattori
 

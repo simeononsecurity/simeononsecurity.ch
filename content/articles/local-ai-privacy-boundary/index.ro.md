@@ -1,12 +1,12 @@
 ---
 title: "Confidențialitatea AI local: ce rămâne pe computer și ce nu"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Urmărește prompturile, fișierele modelelor, instrumentele, logurile, expunerea rețelei și costurile energiei înainte de a alege inferență locală sau un serviciu AI găzduit."
-genre: ["AI local", "Confidențialitate", "Self-Hosted AI", "Securitate cibernetică", "Economia AI"]
-tags: ["confidențialitate AI local", "inferență locală", "cloud AI", "confidențialitatea datelor AI", "self-hosted AI", "confidențialitatea LLM", "costul deținerii GPU", "costul energiei AI", "RTX 5070", "Claude Haiku 5.5", "confidențialitate Ollama", "llama.cpp", "securitate AI", "offline AI", "modele lingvistice locale", "confidențialitatea prompturilor", "model de amenințări AI", "break-even GPU", "granița datelor AI", "AI privat"]
+genre: ["AI local", "Confidențialitate", "AI găzduită de tine", "Securitate cibernetică", "Economia AI"]
+tags: ["confidențialitate AI local", "inferență locală", "AI în cloud", "confidențialitatea datelor AI", "AI găzduită de tine", "confidențialitatea LLM", "costul deținerii GPU", "costul energiei AI", "RTX 5070", "Claude Haiku 5.5", "confidențialitate Ollama", "llama.cpp", "securitate AI", "AI fără conexiune la internet", "modele lingvistice locale", "confidențialitatea prompturilor", "model de amenințări AI", "pragul de rentabilitate al GPU-ului", "granița datelor AI", "AI privat"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"
 coverAlt: "O stație de lucru AI locală conectată la un serviciu cloud prin căi de date vizibile"
 coverCaption: "Ilustrație a căilor de date AI locale și găzduite"
@@ -54,9 +54,9 @@ Mapează fiecare componentă implicată într-o cerere. Numele modelului singur 
 
 ## Local nu înseamnă privat implicit
 
-[Ollama's privacy policy](https://ollama.com/privacy) spune că Ollama nu vede prompturi sau date când un model rulează local. Politica separă și operarea locală de modelele găzduite în cloud. Un model cloud creează totuși o graniță de serviciu, chiar când aceeași aplicație pornește ambele moduri.
+[Politica de confidențialitate Ollama](https://ollama.com/privacy) spune că Ollama nu vede prompturi sau date când un model rulează local. Politica separă și operarea locală de modelele găzduite în cloud. Un model cloud creează totuși o graniță de serviciu, chiar când aceeași aplicație pornește ambele moduri.
 
-[llama.cpp's server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) arată un server local care ascultă implicit pe `127.0.0.1:8080`. Exemplele Docker arată și `--host 0.0.0.0`, care expune serviciul pe toate interfețele. O adresă de bind mai largă schimbă granița accesului.
+[Documentația serverului llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) arată un server local care ascultă implicit pe `127.0.0.1:8080`. Exemplele Docker arată și `--host 0.0.0.0`, care expune serviciul pe toate interfețele. O adresă de bind mai largă schimbă granița accesului.
 
 Verifică adresa de ascultare înainte să trimiți text sensibil:
 
@@ -78,26 +78,35 @@ Verifică și numele modelului selectat. Documentația cloud Ollama descrie mode
 
 Verifică setarea după repornire. Un runtime exclusiv local restrânge o cale. Nu stabilește un host privat.
 
+
+## Vorbirea Ollama și limita rețelei
+
+*Lansarea [Ollama v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11) anunță generarea vocală pe macOS. [Referința API](https://docs.ollama.com/api/openai-compatibility) datează `/v1/audio/speech` din v0.40.8, deci v0.40.11 nu este prima versiune documentată a acestui endpoint.* Aceasta este **sinteză vocală**, nu conversie din vorbire în text: o cerere trimite text către un model vocal, precum Phonon, și primește audio în flux. [Ghidul vocal](https://docs.ollama.com/capabilities/speech) arată și cum `ollama run phonon` redă audio local sau scrie un fișier WAV când ieșirea este redirecționată.
+
+**Calea vocală locală** necesită un model local descărcat și un server local. [FAQ-ul Ollama](https://docs.ollama.com/faq) spune că serverul se leagă implicit la `127.0.0.1:11434`, iar **`OLLAMA_HOST`** schimbă adresa de legare. Verifică listenerul activ cu comanda `lsof` de mai sus, în loc să presupui că valoarea implicită este încă activă. [Introducerea API Ollama](https://docs.ollama.com/api/introduction) spune că cererile locale nu au nevoie de cheie API. Restricționează orice legare mai largă prin firewall și controale de acces înainte să trimiți text privat.
+
+**O legare loopback nu reprezintă întreaga limită.** Ollama documentează redirecționarea serverului HTTP printr-un reverse proxy sau tunel. Verifică listenerul, autentificarea și jurnalizarea cererilor pentru fiecare proxy, chiar dacă Ollama ascultă în continuare doar pe loopback. Textul trimis și audio-ul primit traversează conexiunea proxy-ului. [Ghidul de depanare Ollama](https://docs.ollama.com/troubleshooting) indică jurnalele serverului, dar documentația vocală nu promite păstrarea audio-ului. Verifică unde salvează clienții ieșirea WAV și unde persistă jurnalele proxy-ului sau ale aplicației. FAQ-ul Ollama spune că Ollama nu vede prompturile sau datele în rulările locale. Descărcarea modelelor necesită rețea, iar modelele cloud urmează o cale diferită. Într-o configurare doar cu modele locale Ollama, `OLLAMA_NO_CLOUD=1`, descris mai sus, dezactivează funcțiile cloud Ollama. Nu controlează celelalte aplicații.
+
 ## Calculează costul găzduit
 
-Prețurile tokenurilor separă intrarea de ieșire. [Anthropic lists Claude Haiku 5.5 at $0.10 per million input tokens and $0.50 per million output tokens for prompts up to 100,000 tokens](https://www.anthropic.com/claude/haiku). Prompturile peste 100.000 de tokenuri folosesc tarifele mai mari listate.
+Prețurile tokenurilor separă intrarea de ieșire. [Anthropic indică pentru Claude Haiku 5.5 un cost de 0,10 USD per milion de tokenuri de intrare și 0,50 USD per milion de tokenuri de ieșire pentru prompturi de până la 100.000 de tokenuri](https://www.anthropic.com/claude/haiku). Prompturile peste 100.000 de tokenuri folosesc tarifele mai mari listate.
 
-[OpenAI's token guide](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens) explică de ce numărul de cuvinte nu este egal cu numărul de tokenuri. Separă și tokenurile de intrare, ieșire, intrare memorată și raționament. Folosește câmpurile de utilizare ale furnizorului, nu o estimare din numărul de cuvinte.
+[Ghidul OpenAI despre tokenuri](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens) explică de ce numărul de cuvinte nu este egal cu numărul de tokenuri. Separă și tokenurile de intrare, ieșire, intrare memorată și raționament. Folosește câmpurile de utilizare ale furnizorului, nu o estimare bazată pe numărul de cuvinte.
 
 Pentru o comparație simplă, folosește un milion de tokenuri generate și un milion de tokenuri de intrare ca volume separate. Un agent de programare trimite adesea context repetat și produce un răspuns mai mic, deci o singură cifră combinată ascunde amestecul costurilor.
 
 ## Calculează energia locală
 
-[NVIDIA's RTX 5070 launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/) a listat un preț inițial de $549. [NVIDIA's RTX 5070 family page](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/) listează 12 GB de memorie și 250 W putere grafică totală pentru designul de referință Founders Edition. Pagina de produs NVIDIA încă listează $549 și arăta placa fără stoc în timpul acestei verificări.
+[Anunțul de lansare NVIDIA RTX 5070](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/) a indicat un preț inițial de $549. [Pagina familiei NVIDIA RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/) indică 12 GB de memorie și o putere grafică totală de 250 W pentru designul de referință Founders Edition. Pagina de produs NVIDIA afișează în continuare $549, iar în timpul acestei verificări placa nu era în stoc.
 
 Puterea GPU nu este consumul întregului sistem. Folosește un wattmetru pentru PC. Exemplul de mai jos presupune **un consum de 400 W pentru întregul sistem**, inclusiv GPU, procesor, memorie, stocare, ventilatoare și pierderile sursei. Este o presupunere pentru calcul, nu un rezultat măsurat.
 
-[The U.S. Energy Information Administration forecast](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) a folosit 18,2 cenți pe kilowatt-oră ca preț mediu rezidențial al electricității pentru 2026. Tariful tău schimbă rezultatul.
+[Prognoza Administrației pentru Informații Energetice din SUA](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os) a folosit 18,2 cenți pe kilowatt-oră ca preț mediu rezidențial al electricității pentru 2026. Tariful tău schimbă rezultatul.
 
 Folosește formula aceasta pentru rezultatul generat:
 
 ```text
-local cost per 1M output tokens =
+costul local per 1M tokenuri de ieșire =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -107,9 +116,9 @@ La 400 W și $0.182 pe kilowatt-oră, sistemul costă $0.0728 pe oră activă.
 
 | Viteza ieșirii | Timp pentru 1M tokenuri | Costul energiei pentru 1M tokenuri |
 |---:|---:|---:|
-| **20 tokens per second** | 13 ore 53 minute | **$1.01** |
-| **50 tokens per second** | 5 ore 33 minute | **$0.40** |
-| **94 tokens per second** | 2 ore 57 minute | **$0.22** |
+| **20 de tokenuri pe secundă** | 13 ore 53 minute | **$1.01** |
+| **50 de tokenuri pe secundă** | 5 ore 33 minute | **$0.40** |
+| **94 de tokenuri pe secundă** | 2 ore 57 minute | **$0.22** |
 
 La 50 tokenuri de ieșire pe secundă, energia locală costă mai puțin decât prețul de $0.50 pentru ieșirea Haiku 5.5. La 20 tokenuri pe secundă, energia locală costă mai mult. Pragul vitezei de ieșire în aceste ipoteze este aproximativ 40 de tokenuri pe secundă.
 
@@ -117,15 +126,15 @@ Calculul intrării folosește aceeași formulă. La 2.650 tokenuri de intrare pe
 
 Transcrierea furnizată raportează 94 tokenuri de ieșire pe secundă și 2.650 tokenuri de intrare pe secundă pentru exemplul său cu RTX 5070. Calculul de mai sus corespunde acestor cifre la ipoteza de 400 W. Transcrierea nu oferă un raport de laborator independent, hash-ul fișierului modelului, build-ul runtime-ului, promptul sau citirea wattmetrului. Tratează vitezele ca rezultat de referință, nu ca garanție de cumpărare.
 
-## Hardware-ul schimbă break-even-ul
+## Hardware-ul schimbă pragul de rentabilitate
 
 Economiile de energie nu plătesc hardware-ul singure. Compară achiziția completă cu diferența dintre costul ieșirii găzduite și costul variabil local.
 
 La 50 tokenuri de ieșire pe secundă:
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 prețul ieșirii găzduite - $0.40 costul energiei locale = economie de $0.10 per 1M tokenuri de ieșire
+$549 prețul GPU / $0.10 = aproximativ 5.5 miliarde de tokenuri de ieșire
 ```
 
 La 94 tokenuri de ieșire pe secundă, economia rotunjită crește la aproximativ $0.28 pe milion de tokenuri. Recuperarea unei plăci GPU de $549 cere apoi aproximativ 2 miliarde de tokenuri de ieșire. Ambele cifre exclud memoria sistemului, stocarea, placa de bază, sursa, răcirea, mentenanța și valoarea de revânzare.
@@ -134,7 +143,7 @@ Prețul de lansare nu este o ofertă universală. Pagina actuală NVIDIA afișa 
 
 **Hardware-ul existent schimbă decizia.** Dacă stația ta are deja memorie suficientă și un GPU potrivit, costul hardware este deja plătit pentru următoarea sarcină. Compară energia, timpul, calitatea, confidențialitatea și mentenanța. Dacă trebuie să cumperi un sistem complet, compară sistemul complet cu utilizarea găzduită.
 
-Pentru detalii despre potrivirea modelelor, citește [local AI model and GPU context guide](/articles/local-ai-model-gpu-context-guide/) și [16GB VRAM sizing guide](/articles/is-16gb-vram-enough-local-llm/). Pentru o configurație raportată de agent local de programare, citește [Strata and OpenCode guide](/articles/strata-opencode-local-coding-agent-16gb/).
+Pentru detalii despre potrivirea modelelor, citește [ghidul despre modelele AI locale și contextul GPU](/articles/local-ai-model-gpu-context-guide/) și [ghidul pentru dimensionarea memoriei VRAM de 16 GB](/articles/is-16gb-vram-enough-local-llm/). Pentru o configurație raportată de agent local de programare, citește [ghidul Strata și OpenCode](/articles/strata-opencode-local-coding-agent-16gb/).
 
 ## Ce îți oferă confidențialitatea locală
 
@@ -154,17 +163,17 @@ Aceste câștiguri contează mai ales pentru cod sursă, date de clienți, proie
 - **Un endpoint de rețea sigur:** un server legat de fiecare interfață creează un serviciu nou de apărat.
 - **Un sistem gratuit:** electricitatea, stocarea, răcirea, uzura hardware-ului și mentenanța au în continuare un cost.
 
-[Strata local coding-agent guide](/articles/strata-opencode-local-coding-agent-16gb/) arată de ce memoria sistemului, contextul, accesul instrumentelor și setările runtime-ului intră în evaluare. Memoria GPU singură nu definește limita de confidențialitate sau performanță.
+[Ghidul Strata despre agentul local de programare](/articles/strata-opencode-local-coding-agent-16gb/) arată de ce memoria sistemului, contextul, accesul instrumentelor și setările runtime-ului intră în evaluare. Memoria GPU singură nu definește limita de confidențialitate sau performanță.
 
 ## Alege granița potrivită
 
 | Situație | Prima alegere mai bună | Motiv |
 |---|---|---|
-| **Documente sensibile și un PC compatibil existent** | Local inference | Păstrează prompturile într-un host controlat și evită cheltuiala pentru hardware nou |
-| **Redactare generică ocazională** | Hosted API sau chat service | Plătește pentru volumul mic și evită mentenanța |
-| **Un model frontier sau un instrument cloud specializat** | Hosted service | Modelul sau instrumentul necesar nu este disponibil pe hostul local |
-| **Volum mare recurent cu model local verificat** | Local sau hybrid | Compară energia, calitatea, timpul de suport și prețul furnizorului |
-| **Volume mixte** | Hybrid routing | Ține sarcinile sensibile local și trimite sarcinile generice aprobate către un model găzduit |
+| **Documente sensibile și un PC compatibil existent** | Inferență locală | Păstrează prompturile într-un host controlat și evită cheltuiala pentru hardware nou |
+| **Redactare generică ocazională** | API găzduită sau serviciu de chat | Plătește pentru volumul mic și evită mentenanța |
+| **Un model frontier sau un instrument cloud specializat** | Serviciu găzduit | Modelul sau instrumentul necesar nu este disponibil pe hostul local |
+| **Volum mare recurent cu model local verificat** | Rulare locală sau hibridă | Compară energia, calitatea, timpul de suport și prețul furnizorului |
+| **Volume mixte** | Rutare hibridă | Ține sarcinile sensibile local și trimite sarcinile generice aprobate către un model găzduit |
 
 **Rutarea hibridă cere o regulă explicită de clasificare.** Marchează datele ca doar locale, aprobate pentru procesare găzduită sau interzise până la revizuire. Nu te baza pe numele modelului sau pe pictograma aplicației pentru aplicarea regulii.
 
@@ -178,17 +187,23 @@ Aceste câștiguri contează mai ales pentru cod sursă, date de clienți, proie
 6. **Măsoară sistemul.** Notează puterea la priză, viteza ieșirii, viteza intrării, lungimea contextului și reîncercările.
 7. **Testează munca acceptată.** Compară sarcinile finalizate și efortul de revizuire, nu doar tokenurile pe secundă.
 
-[local AI versus ChatGPT guide](/articles/local-ai-vs-chatgpt-how-close-are-we/) acoperă compromisurile capacităților modelelor. Folosește această listă de confidențialitate alături de testul de calitate.
+[Ghidul despre AI local și ChatGPT](/articles/local-ai-vs-chatgpt-how-close-are-we/) prezintă compromisurile privind capacitățile modelelor. Folosește această listă de confidențialitate alături de testul de calitate.
 
 ## Referințe
 
-- [Video, Is local AI worth it? We did the math vs Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
-- [NVIDIA Blackwell GeForce RTX 50 Series launch announcement](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
-- [NVIDIA GeForce RTX 5070 family specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
-- [NVIDIA GeForce RTX 5070 product page](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
-- [U.S. Energy Information Administration, October 2026 Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
-- [Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
-- [Anthropic Claude Platform pricing](https://platform.claude.com/docs/en/about-claude/pricing)
-- [OpenAI, Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
-- [Ollama privacy policy](https://ollama.com/privacy)
-- [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
+- [Video: Merită AI locală? Comparație cu Claude Haiku 5.5](https://www.youtube.com/watch?v=DmkuFpoMYmc)
+- [Anunțul de lansare NVIDIA Blackwell GeForce RTX 50 Series](https://nvidianews.nvidia.com/_gallery/download_pdf/677c9a9c3d6332e22e6c8571/)
+- [Specificațiile familiei NVIDIA GeForce RTX 5070](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
+- [Pagina produsului NVIDIA GeForce RTX 5070](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5070/)
+- [Administrația pentru Informații Energetice din SUA, perspectiva energetică pe termen scurt din octombrie 2026](https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf?os=os)
+- [Informații despre modelul Anthropic Claude Haiku 5.5](https://www.anthropic.com/claude/haiku)
+- [Prețurile platformei Anthropic](https://platform.claude.com/docs/en/about-claude/pricing)
+- [OpenAI, înțelegerea și numărarea tokenurilor](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
+- [Politica de confidențialitate Ollama](https://ollama.com/privacy)
+- [Note de lansare Ollama v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [Ghidul vocal Ollama](https://docs.ollama.com/capabilities/speech)
+- [Referința API Ollama compatibilă cu OpenAI](https://docs.ollama.com/api/openai-compatibility)
+- [Introducerea API Ollama](https://docs.ollama.com/api/introduction)
+- [FAQ Ollama: configurarea serverului, opțiuni cloud și proxy-uri inverse](https://docs.ollama.com/faq)
+- [Depanarea Ollama și jurnalele serverului](https://docs.ollama.com/troubleshooting)
+- [Documentația serverului llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

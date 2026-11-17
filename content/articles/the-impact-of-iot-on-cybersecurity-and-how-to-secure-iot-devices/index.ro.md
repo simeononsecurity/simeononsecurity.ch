@@ -1,6 +1,7 @@
 ---
 title: "Securizarea dispozitivelor IoT: Provocări și soluții de securitate cibernetică"
 date: 2023-03-27
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "Descoperiți impactul IoT asupra securității cibernetice și învățați strategii eficiente pentru a vă proteja dispozitivele conectate."
@@ -48,8 +49,8 @@ ______
 
 Guvernele și organizațiile din industrie au recunoscut importanța securității IoT și depun eforturi pentru a dezvolta și aplica **standarde** și **reglementări**. Unele inițiative cheie includ:
 
-- The [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) oferă orientări pentru securitatea și confidențialitatea IoT.
-- În cadrul [International Organization for Standardization (ISO)](https://www.iso.org/) has established an IoT security standard, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
+- [National Institute of Standards and Technology (NIST)](https://www.nist.gov/) oferă recomandări pentru securitatea și confidențialitatea IoT.
+- [International Organization for Standardization (ISO)](https://www.iso.org/) a stabilit un standard de securitate IoT, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html).
 
 ______
 

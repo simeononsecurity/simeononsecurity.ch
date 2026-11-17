@@ -1,162 +1,162 @@
 ---
-title: "GrapheneOS Sandboxed Google Play Explained"
+title: "شرح Google Play المعزول على GrapheneOS"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together."
-genre: ["Privacy", "Mobile Security", "Open Source"]
-tags: ["GrapheneOS", "sandboxed Google Play", "Google Play services", "Google Play Store", "Android privacy", "Android security", "app sandbox", "Google account", "GrapheneOS profiles", "Owner profile", "user profiles", "work profile", "app compatibility", "push notifications", "Firebase Cloud Messaging", "app permissions", "Pixel privacy", "Google Play installation", "mobile privacy", "GrapheneOS App Store"]
+description: "تعرّف على التغييرات التي يجلبها Sandboxed Google Play إلى GrapheneOS، ومتى يفيد الملف الشخصي المنفصل، وكيف ترتبط الحسابات والإشعارات وتوافق التطبيقات."
+genre: ["الخصوصية", "أمن الأجهزة المحمولة", "مفتوح المصدر"]
+tags: ["GrapheneOS", "sandboxed Google Play", "خدمات Google Play", "متجر Google Play", "خصوصية Android", "أمن Android", "عزل التطبيقات", "حساب Google", "ملفات GrapheneOS", "ملف المالك", "ملفات المستخدمين", "ملف العمل", "توافق التطبيقات", "إشعارات الدفع", "Firebase Cloud Messaging", "أذونات التطبيقات", "خصوصية Pixel", "تثبيت Google Play", "خصوصية الهاتف المحمول", "GrapheneOS App Store"]
 cover: "/img/cover/grapheneos-sandboxed-google-play-explained.webp"
-coverAlt: "A smartphone screen holds apps in separate transparent compartments, including a colorful app-store symbol."
+coverAlt: "تعرض شاشة هاتف ذكي تطبيقات في حجرات شفافة منفصلة، من بينها رمز ملوّن لمتجر تطبيقات."
 coverCaption: ""
 ---
 
-**Sandboxed Google Play** lets you install official Google Play components on GrapheneOS as ordinary apps. They run without the system privileges Google Play normally receives on the stock OS. Installing them is optional. [GrapheneOS feature overview](https://grapheneos.org/features#sandboxed-google-play).
+يتيح **Sandboxed Google Play** تثبيت مكوّنات Google Play الرسمية على GrapheneOS كتطبيقات عادية. وتعمل هذه المكوّنات من دون امتيازات النظام التي يحصل عليها Google Play عادةً في نظام التشغيل القياسي. التثبيت اختياري. [نظرة عامة على ميزات GrapheneOS](https://grapheneos.org/features#sandboxed-google-play).
 
 ## أهم النقاط
 
-- **Explain isolation:** distinguish app permissions from online account activity.
-- **Place dependencies:** keep a dependent app and Play in the same profile.
-- **Test behavior:** check background notifications and essential workflows.
-- **Build a plan:** record your chosen profiles, accounts, and app requirements.
+- **افهم العزل:** ميّز بين أذونات التطبيق ونشاط الحساب عبر الإنترنت.
+- **اجمع التبعيات:** ضع التطبيق الذي يعتمد على Play ومكوّنات Play في الملف الشخصي نفسه.
+- **اختبر السلوك:** افحص إشعارات الخلفية والمهام الأساسية.
+- **ضع خطة:** سجّل الملفات الشخصية والحسابات ومتطلبات التطبيقات التي اخترتها.
 
-## قبل أن تبدأ
+## قبل البدء
 
-**Audience:** GrapheneOS users deciding whether to install Google Play and where to put it. **Prerequisites:** a supported device with an updated GrapheneOS installation and access to your essential accounts. OS installation belongs in the [GrapheneOS installation guide](/guides/how-to-install-graphine-os/).
+**الجمهور:** مستخدمو GrapheneOS الذين يقررون ما إذا كانوا سيثبتون Google Play وأين يضعونه. **المتطلبات:** جهاز مدعوم عليه إصدار GrapheneOS محدّث وإمكانية الوصول إلى حساباتك الأساسية. يشرح [دليل تثبيت GrapheneOS](/guides/how-to-install-graphine-os/) تثبيت نظام التشغيل.
 
-**Estimated effort:** 20–30 minutes for the initial app inventory and checks, plus normal daily use to assess notification reliability. **Difficulty:** beginner. Start with one representative app before reorganizing your phone.
+**الوقت المقدّر:** من 20 إلى 30 دقيقة لإعداد قائمة التطبيقات الأولية وإجراء الفحوصات، ثم الاستخدام اليومي المعتاد لتقييم موثوقية الإشعارات. **الصعوبة:** مبتدئ. ابدأ بتطبيق واحد يمثّل استخدامك قبل إعادة تنظيم الهاتف.
 
-## What the Sandbox Changes
+## ما الذي يغيّره العزل؟
 
-Android's **application sandbox** separates app resources using operating-system protections. An app does not receive unrestricted access to another app's private files. The protection applies to native code as well as code running through Android's managed runtime. [Android application sandbox documentation](https://source.android.com/docs/security/app-sandbox).
+تفصل **مساحة تطبيقات Android المعزولة** موارد التطبيقات باستخدام وسائل حماية نظام التشغيل. ولا يحصل تطبيق على وصول غير مقيّد إلى الملفات الخاصة بتطبيق آخر. تنطبق الحماية على الشيفرة الأصلية وعلى الشيفرة التي تعمل ضمن بيئة Android المُدارة. [وثائق مساحة تطبيقات Android المعزولة](https://source.android.com/docs/security/app-sandbox).
 
-GrapheneOS adds a **compatibility layer** so official Play components function within those ordinary restrictions. Apps in the same profile still have supported ways to communicate by mutual consent. Sandboxing limits privileges, but it does not prevent every intentional exchange between apps. [Sandboxed Google Play design](https://grapheneos.org/features#sandboxed-google-play).
+يضيف GrapheneOS **طبقة توافق** لتعمل مكوّنات Play الرسمية ضمن هذه القيود العادية. وما زالت التطبيقات في الملف الشخصي نفسه تملك طرقًا مدعومة للتواصل بموافقة متبادلة. يحدّ العزل من الامتيازات، لكنه لا يمنع كل تبادل مقصود بين التطبيقات. [تصميم Sandboxed Google Play](https://grapheneos.org/features#sandboxed-google-play).
 
-| Concern | Practical meaning |
+| المسألة | المعنى العملي |
 |---|---|
-| **Private app files** | Installing Play does not grant unrestricted access to other apps' data |
-| **Permissions** | Review requested access as you would for another app |
-| **Google-backed features** | An app choosing a Google service still communicates with it |
-| **Account activity** | Signing into a service remains a separate privacy decision |
+| **الملفات الخاصة بالتطبيقات** | لا يمنح تثبيت Play وصولًا غير مقيّد إلى بيانات التطبيقات الأخرى |
+| **الأذونات** | راجع الوصول المطلوب كما تفعل مع أي تطبيق آخر |
+| **الميزات المرتبطة بـ Google** | يستمر التطبيق الذي يستخدم خدمة Google في الاتصال بها |
+| **نشاط الحساب** | يظل تسجيل الدخول إلى خدمة قرارًا منفصلًا بشأن الخصوصية |
 
-**Sandboxing and account privacy** answer different questions. A sandbox restricts local access. It does not erase information you deliberately submit to an online service. For example, signing into a shopping app still identifies your account to its operator.
+يجيب **العزل وخصوصية الحساب** عن سؤالين مختلفين. يقيّد العزل الوصول المحلي، لكنه لا يمحو المعلومات التي ترسلها عمدًا إلى خدمة عبر الإنترنت. مثلًا، يظل تسجيل الدخول إلى تطبيق تسوّق كاشفًا عن حسابك لمشغّله.
 
-## Separate Three Privacy Decisions
+## افصل بين ثلاثة قرارات للخصوصية
 
-**Local access, service use, and identity** are separate questions. For an app requesting contact access and account sign-in, review each request independently:
+**الوصول المحلي واستخدام الخدمات والهوية** مسائل منفصلة. إذا طلب تطبيق الوصول إلى جهات الاتصال وتسجيل الدخول إلى حساب، فراجع كل طلب على حدة:
 
-| Decision | Question to answer |
+| القرار | السؤال |
 |---|---|
-| **Local permission** | Does this feature need my contacts, microphone, or location? |
-| **Service dependency** | Which feature relies on Play services? |
-| **Online identity** | Which account am I associating with this activity? |
+| **إذن محلي** | هل تحتاج هذه الميزة إلى جهات اتصالي أو الميكروفون أو الموقع؟ |
+| **الاعتماد على خدمة** | ما الميزة التي تعتمد على Play services؟ |
+| **الهوية عبر الإنترنت** | ما الحساب الذي أربط به هذا النشاط؟ |
 
-**A practical example:** a shopping account already contains your delivery address. Moving its app into another profile does not change the address held by the retailer. Declining contact access answers a different question about data available on your phone.
+**مثال عملي:** يحتوي حساب التسوّق على عنوان التوصيل لديك بالفعل. لا يؤدي نقل التطبيق إلى ملف شخصي آخر إلى تغيير العنوان لدى المتجر. أما رفض الوصول إلى جهات الاتصال فيتعلق بالبيانات المتاحة على هاتفك.
 
-**Privacy objective:** write the specific exposure you want to reduce. “Keep this app away from my personal contacts” is testable. “Make this account anonymous” requires decisions beyond profile placement.
+**هدف الخصوصية:** دوّن نوع الكشف المحدد الذي تريد تقليله. «منع هذا التطبيق من الوصول إلى جهات اتصالي الشخصية» أمر قابل للاختبار. أما «جعل هذا الحساب مجهول الهوية» فيتطلب قرارات تتجاوز موضع الملف الشخصي.
 
-## Owner Profile or Separate Profile?
+## ملف المالك أم ملف شخصي منفصل؟
 
-**Owner-profile installation** is a supported, straightforward choice. Google Play remains sandboxed there. A separate user or work profile helps you choose which group of apps has Play available. [GrapheneOS installation guidance](https://grapheneos.org/usage#sandboxed-google-play-installation).
+**التثبيت في ملف المالك** خيار مدعوم وبسيط. ويظل Google Play معزولًا فيه. يتيح لك ملف مستخدم أو عمل منفصل اختيار مجموعة التطبيقات التي يتوفر لها Play. [إرشادات تثبيت GrapheneOS](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
-| Your priority | Starting arrangement | Tradeoff |
+| أولويتك | الترتيب المبدئي | المفاضلة |
 |---|---|---|
-| **Simple daily use** | Keep required apps and Play in Owner | Play is available to cooperating apps in this profile |
-| **Separate Google-dependent apps** | Install them together in another profile | More profile management |
-| **Avoid Google services** | Start without Play | Check each app's dependencies |
+| **سهولة الاستخدام اليومي** | أبقِ التطبيقات المطلوبة وPlay في ملف المالك | يتوفر Play للتطبيقات المتعاونة في هذا الملف |
+| **فصل التطبيقات المعتمدة على Google** | ثبّتها معًا في ملف آخر | إدارة ملفات شخصية أكثر |
+| **تجنّب خدمات Google** | ابدأ من دون Play | تحقّق من تبعيات كل تطبيق |
 
-**Profile placement** matters more than installing the same component everywhere. GrapheneOS's FAQ explains how Play availability is scoped to selected profiles, while many apps work without it or need it for only part of their functionality. [Google services FAQ](https://grapheneos.org/faq#google-services).
+**موضع الملف الشخصي** أهم من تثبيت المكوّن نفسه في كل مكان. يشرح قسم الأسئلة الشائعة في GrapheneOS كيفية حصر توفر Play في ملفات محددة. تعمل تطبيقات كثيرة من دونه أو تحتاج إليه لبعض الوظائف فقط. [الأسئلة الشائعة عن خدمات Google](https://grapheneos.org/faq#google-services).
 
-*Use a separate profile when selective Play availability solves a specific requirement you have identified.*
+*استخدم ملفًا منفصلًا عندما يحلّ توفر Play الانتقائي حاجة محددة اكتشفتها.*
 
-## Understand Profile Activity
+## افهم نشاط الملفات الشخصية
 
-**A secondary user profile** has its own app instances and data. Switching to another user and ending the previous user's session are different actions. **End session** stops apps in the secondary profile and returns its encrypted storage to rest. [GrapheneOS encryption and profile FAQ](https://grapheneos.org/faq#encryption).
+**ملف المستخدم الثانوي** له مثيلاته الخاصة من التطبيقات وبياناته الخاصة. التبديل إلى مستخدم آخر وإنهاء جلسة المستخدم السابق إجراءان مختلفان. يؤدي **إنهاء الجلسة** إلى إيقاف تطبيقات الملف الثانوي وإعادة تخزينه المشفّر إلى حالة السكون. [الأسئلة الشائعة في GrapheneOS عن التشفير والملفات الشخصية](https://grapheneos.org/faq#encryption).
 
-**Notification forwarding** optionally surfaces notifications from a user running in the background to the active user. It does not keep an ended session running. [GrapheneOS user-profile features](https://grapheneos.org/features).
+قد يعرض **تمرير الإشعارات** اختياريًا إشعارات مستخدم يعمل في الخلفية للمستخدم النشط. لكنه لا يبقي جلسة منتهية قيد التشغيل. [ميزات ملفات المستخدمين في GrapheneOS](https://grapheneos.org/features).
 
-| Profile state | Delivery condition |
+| حالة الملف الشخصي | شرط التسليم |
 |---|---|
-| **Active** | Test delivery inside this profile |
-| **Running in background** | Check forwarding to the active user |
-| **Session ended** | Apps in this profile are stopped |
+| **نشط** | اختبر التسليم داخل هذا الملف |
+| **يعمل في الخلفية** | تحقّق من التمرير إلى المستخدم النشط |
+| **انتهت الجلسة** | توقفت التطبيقات في هذا الملف |
 
-For **a daily messaging app**, decide whether receiving messages while using Owner is essential. A profile arrangement demanding frequent session shutdown conflicts with continuous background delivery. Make this tradeoff before moving your main conversation history.
+بالنسبة إلى **تطبيق مراسلة يومي**، حدّد ما إذا كان استقبال الرسائل أثناء استخدام ملف المالك ضروريًا. يتعارض الترتيب الذي يتطلب إنهاء الجلسات كثيرًا مع التسليم المستمر في الخلفية. خذ هذه المفاضلة في الحسبان قبل نقل سجل محادثاتك الأساسي.
 
-## Installation and Accounts
+## التثبيت والحسابات
 
-Open the built-in **GrapheneOS App Store**, select **Google Play services**, and install it. This also installs the dependent Play Store. Let the App Store maintain these components. Grant Play services a battery optimization exception for reliable background features such as push notifications. [Official installation instructions](https://grapheneos.org/usage#sandboxed-google-play-installation).
+افتح **GrapheneOS App Store** المضمّن، واختر **Google Play services** وثبّتها. يثبّت ذلك أيضًا Play Store الذي يعتمد عليها. دع App Store يدير هذه المكوّنات. استثنِ Play services من تحسين البطارية لتحسين موثوقية الميزات في الخلفية مثل إشعارات الدفع. [تعليمات التثبيت الرسمية](https://grapheneos.org/usage#sandboxed-google-play-installation).
 
-**Google account sign-in** is optional for functionality without an account dependency. Installing apps through the Play Store requires sign-in. Older installations also include Google Services Framework, which the project says to retain. Follow current installation instructions instead of an old three-package checklist.
+**تسجيل الدخول بحساب Google** اختياري للوظائف التي لا تعتمد على حساب. يتطلب تثبيت التطبيقات عبر Play Store تسجيل الدخول. تتضمن عمليات التثبيت القديمة أيضًا Google Services Framework، ويوصي المشروع بالإبقاء عليه. اتبع تعليمات التثبيت الحالية بدل قائمة قديمة من ثلاث حزم.
 
-## Test One App First
+## اختبر تطبيقًا واحدًا أولًا
 
-Use a **low-risk representative app** to check your intended profile arrangement. Keep existing account recovery methods available throughout the exercise.
+استخدم **تطبيقًا تمثيليًا منخفض المخاطر** للتحقق من ترتيب الملفات الشخصية الذي اخترته. أبقِ طرق استرداد حساباتك الحالية متاحة طوال الاختبار.
 
-1. **Select a profile:** decide where the app belongs before installing its dependencies.
-2. **Install Play:** use the official installation steps above within this profile.
-3. **Install the app:** use its trusted distribution source and complete initial setup.
-4. **Review requests:** approve permissions according to the feature you are testing.
-5. **Exercise one feature:** send a message, open a map, or perform another reversible action.
-6. **Record the result:** note the app version, OS version, profile, and exact operation.
+1. **اختر ملفًا شخصيًا:** حدّد موضع التطبيق قبل تثبيت تبعياته.
+2. **ثبّت Play:** استخدم خطوات التثبيت الرسمية أعلاه ضمن هذا الملف.
+3. **ثبّت التطبيق:** استخدم مصدر توزيع موثوقًا وأكمل الإعداد الأولي.
+4. **راجع الطلبات:** امنح الأذونات المناسبة للميزة التي تختبرها.
+5. **جرّب ميزة واحدة:** أرسل رسالة أو افتح خريطة أو نفّذ إجراءً آخر قابلًا للتراجع.
+6. **سجّل النتيجة:** دوّن إصدار التطبيق والنظام والملف الشخصي والإجراء المحدد.
 
-**Expected evidence:** a repeatable description such as “a test message arrived with the screen locked in the active profile.” Avoid recording only “works,” which hides the feature and conditions tested.
+**الدليل المتوقع:** وصف قابل للتكرار، مثل «وصلت رسالة اختبار بينما كانت الشاشة مقفلة والملف نشطًا». تجنّب الاكتفاء بكتابة «يعمل»، لأنها لا تحدد الميزة أو ظروف الاختبار.
 
-## Diagnose Missing Notifications
+## تشخيص غياب الإشعارات
 
-**Push notifications** depend on the app's implementation. Some apps maintain their own background connection. Others rely on Google's Firebase Cloud Messaging. An app opening successfully does not prove its notifications work after you lock the phone. [GrapheneOS notification FAQ](https://grapheneos.org/faq#notifications).
+تعتمد **إشعارات الدفع** على طريقة تنفيذ التطبيق. تحافظ بعض التطبيقات على اتصالها الخاص في الخلفية، بينما تعتمد أخرى على Firebase Cloud Messaging من Google. لا يثبت فتح التطبيق بنجاح أن إشعاراته ستصل بعد قفل الهاتف. [الأسئلة الشائعة في GrapheneOS عن الإشعارات](https://grapheneos.org/faq#notifications).
 
-**Check the delivery conditions** before changing permissions across several apps:
+**تحقّق من ظروف التسليم** قبل تغيير أذونات عدة تطبيقات:
 
-| Symptom | Narrow the investigation |
+| العَرَض | طريقة تضييق نطاق الفحص |
 |---|---|
-| **Messages appear only after opening** | Check the app's background delivery method and battery settings |
-| **Delivery works only in its profile** | Check profile activity and notification forwarding |
-| **No delivery after End session** | Start the secondary profile before testing again |
-| **The notification arrives silently** | Inspect the app's notification channel and sound settings |
+| **لا تظهر الرسائل إلا بعد فتح التطبيق** | تحقّق من طريقة التسليم في الخلفية وإعدادات البطارية |
+| **يعمل التسليم داخل ملف التطبيق فقط** | تحقّق من نشاط الملف وتمرير الإشعارات |
+| **لا يصل شيء بعد إنهاء الجلسة** | ابدأ الملف الثانوي قبل الاختبار مجددًا |
+| **يصل الإشعار من دون صوت** | افحص قناة الإشعارات وإعدادات الصوت في التطبيق |
 
-**Notification channels** group an app's notification behavior, including importance and sound. Android exposes channel controls to the user. [Android notification-channel documentation](https://developer.android.com/develop/ui/compose/notifications/channels).
+تجمع **قنوات الإشعارات** سلوك إشعارات التطبيق، بما في ذلك الأهمية والصوت. يتيح Android للمستخدم ضبط القنوات. [وثائق قنوات الإشعارات في Android](https://developer.android.com/develop/ui/compose/notifications/channels).
 
-**Retest one condition at a time:** keep the sending device and message type fixed while changing the receiving profile's state. Record “active,” “running in background,” or “session ended” alongside each result. This distinguishes a profile-lifecycle problem from a notification configuration problem.
+**أعد الاختبار مع تغيير شرط واحد في كل مرة:** أبقِ جهاز الإرسال ونوع الرسالة ثابتين، وغيّر حالة ملف الاستقبال. سجّل «نشط» أو «يعمل في الخلفية» أو «انتهت الجلسة» مع كل نتيجة. يساعد ذلك على التمييز بين مشكلة دورة حياة الملف ومشكلة إعداد الإشعارات.
 
-## Evaluate Essential Workflows
+## قيّم المهام الأساسية
 
-Use a short **personal acceptance test** before relying on a new setup:
+نفّذ **اختبار قبول شخصيًا** قصيرًا قبل الاعتماد على الإعداد الجديد:
 
-| Workflow | Check on your device |
+| المهمة | ما يجب التحقق منه على جهازك |
 |---|---|
-| **Messaging** | Receive a message with the screen locked |
-| **Account access** | Sign in and complete the required second factor |
-| **Banking or payments** | Test the exact function you need, including any device checks |
-| **Navigation** | Obtain location with your chosen permissions |
+| **المراسلة** | استقبال رسالة والشاشة مقفلة |
+| **الوصول إلى الحساب** | تسجيل الدخول وإكمال العامل الثاني المطلوب |
+| **الخدمات المصرفية أو الدفع** | اختبار الميزة المطلوبة بما في ذلك فحوص الجهاز |
+| **الملاحة** | الحصول على الموقع بالأذونات المختارة |
 
-**An app launching** is only the first check. Record the app version, GrapheneOS version, and failed operation when troubleshooting. This article provides a decision framework, not a tested compatibility list.
+**فتح التطبيق** هو الفحص الأول فقط. عند استكشاف مشكلة، سجّل إصدار التطبيق وGrapheneOS والإجراء الذي فشل. يقدم هذا المقال إطارًا لاتخاذ القرار، وليس قائمة توافق مختبرة.
 
-**Migration decision:** keep your previous access method until each essential operation has passed. A messaging app and a banking app need different acceptance criteria. Successful message delivery says nothing about another app's account or device checks.
+**قرار الانتقال:** أبقِ طريقة الوصول السابقة حتى تنجح كل عملية أساسية. يختلف معيار قبول تطبيق المراسلة عن التطبيق المصرفي. وصول الرسالة لا يثبت شيئًا بشأن حساب تطبيق آخر أو فحوص الجهاز فيه.
 
-**Recheck after GrapheneOS or app updates.** Profile placement, permissions, notification channels, and session state still define the test. Record the version beside each result so a changed notification or sign-in behavior does not become an unexplained privacy conclusion.
+**أعد الفحص بعد تحديث GrapheneOS أو التطبيقات.** يظل موضع الملف والأذونات وقنوات الإشعارات وحالة الجلسة محددات للاختبار. دوّن الإصدار مع كل نتيجة كي لا يتحول تغير الإشعارات أو تسجيل الدخول إلى استنتاج غير مدعوم عن الخصوصية.
 
-For **a work login**, test the complete sign-in sequence and the required second factor. For a travel app, test the feature you expect to use away from home. Choose representative actions without making unnecessary purchases or changing account security.
+في **تسجيل دخول العمل**، اختبر تسلسل الدخول كاملًا والعامل الثاني المطلوب. وفي تطبيق السفر، اختبر الميزة التي تتوقع استخدامها خارج المنزل. اختر عمليات تمثيلية من دون مشتريات غير ضرورية أو تغييرات في أمان الحساب.
 
-## Build Your App Plan
+## ضع خطة لتطبيقاتك
 
-Complete this **inventory** for your five most important apps. The rows below are prompts, not compatibility claims about specific products:
+أكمل هذه **القائمة** لأهم خمسة تطبيقات لديك. البنود أدناه نقاط للتفكير وليست ادعاءات توافق لمنتجات بعينها:
 
-| App category | Requirement to record | Evidence to collect |
+| فئة التطبيق | المتطلب المطلوب تسجيله | الدليل المطلوب جمعه |
 |---|---|---|
-| **Messaging** | Background delivery and profile choice | Locked-screen and background-profile test |
-| **Work access** | Required login and second factor | Completed sign-in |
-| **Navigation** | Location permission and offline needs | A route under expected conditions |
-| **Banking** | Essential supported operations | Results for each required function |
-| **Shopping** | Account and local-data access | Permission review and normal account use |
+| **المراسلة** | التسليم في الخلفية واختيار الملف | اختبار مع قفل الشاشة وملف يعمل في الخلفية |
+| **وصول العمل** | تسجيل الدخول والعامل الثاني المطلوبان | اكتمال تسجيل الدخول |
+| **الملاحة** | إذن الموقع والاحتياجات دون اتصال | مسار في الظروف المتوقعة |
+| **الخدمات المصرفية** | العمليات الأساسية المدعومة | نتائج كل وظيفة مطلوبة |
+| **التسوّق** | الوصول إلى الحساب والبيانات المحلية | مراجعة الأذونات والاستخدام المعتاد للحساب |
 
-**Write a decision** for each row: chosen profile, Play dependency, account requirement, approved permissions, and fallback. Leave unknown dependencies marked unknown until you have evidence. This avoids installing additional components merely because another app needed them.
+**سجّل قرارًا** لكل بند: الملف المختار، والاعتماد على Play، ومتطلبات الحساب، والأذونات المقبولة، والبديل. ضع علامة «غير معروف» على التبعيات التي لم تتحقق منها بعد. يمنعك ذلك من تثبيت مكوّنات إضافية لمجرد أن تطبيقًا آخر احتاج إليها.
 
-**Review exercise:** an app works while its secondary profile is active, then stops receiving messages after End session. The first action is to restart the profile and retest. Granting contact access would not address a stopped session.
+**تمرين للمراجعة:** يعمل التطبيق عندما يكون ملفه الثانوي نشطًا، ثم يتوقف عن استقبال الرسائل بعد إنهاء الجلسة. أعد تشغيل الملف وأعد الاختبار أولًا. لن يحل منح الوصول إلى جهات الاتصال مشكلة الجلسة المتوقفة.
 
-**Completion criterion:** your plan should explain why each app sits in its chosen profile and which test supports relying on it. Revisit the relevant row after an update changes behavior.
+**معيار الإنجاز:** تشرح خطتك سبب وضع كل تطبيق في ملفه المحدد والاختبار الذي يدعم الاعتماد عليه. راجع البند المعني بعد تحديث يغيّر السلوك.
 
 ## الخطوات التالية
 
-Use the site's [GrapheneOS installation guide](/guides/how-to-install-graphine-os/) if you have not installed the OS. Then choose one profile arrangement and test your essential apps before adding extra profiles or changing broad permission settings.
+إذا لم تثبّت نظام التشغيل بعد، فاستخدم [دليل تثبيت GrapheneOS](/guides/how-to-install-graphine-os/) على الموقع. ثم اختر ترتيبًا واحدًا للملفات واختبر التطبيقات الأساسية قبل إضافة ملفات أخرى أو تغيير إعدادات الأذونات على نطاق واسع.

@@ -1,154 +1,154 @@
 ---
-title: "Flock Safety's Sales Pitch: Warrantless Access to Every Movement"
+title: "Discursul de vânzare al Flock Safety: acces la fiecare deplasare fără mandat"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-08
 toc: true
 draft: false
-description: "Flock Safety does not sell cameras. It sells a subscription to warrantless movement data. Here is how the sales pitch works, how it runs against the Fourth Amendment, and why the fight is about the pitch, not the company."
-genre: ["Privacy Technology", "Digital Rights", "Surveillance", "Legal Analysis", "Counter Surveillance"]
-tags: ["Flock Safety", "ALPR", "license plate reader", "Fourth Amendment", "warrantless surveillance", "mass surveillance", "Carpenter v. United States", "United States v. Jones", "location tracking", "movement database", "privacy rights", "constitutional law", "Axon", "evidence.com", "red light cameras", "Redflex", "Pflugerville", "Knox County", "sales pitch", "pre-crime profiling", "separation of powers", "Bill of Rights", "counter surveillance", "digital rights", "T-Rex Lab"]
+description: "Analizați mesajele comerciale Flock Safety, accesul la datele de deplasare și întrebările constituționale ridicate de perchezițiile fără mandat."
+genre: ["Tehnologie pentru confidențialitate", "Drepturi digitale", "Supraveghere", "Analiză juridică", "Contraveghere"]
+tags: ["Flock Safety", "ALPR", "cititor de numere de înmatriculare", "Al patrulea amendament", "supraveghere fără mandat", "supraveghere în masă", "Carpenter v. United States", "United States v. Jones", "urmărirea locației", "bază de date a deplasărilor", "drepturi la confidențialitate", "drept constituțional", "Axon", "evidence.com", "camere de semafor", "Redflex", "Pflugerville", "Knox County", "discurs de vânzare", "profilare predictivă", "separarea puterilor", "Declarația drepturilor", "contraveghere", "drepturi digitale", "T-Rex Lab"]
 cover: "/img/cover/flock-safety-warrantless-access-surveillance-database.webp"
-coverAlt: "A futuristic cityscape at night with various surveillance cameras and a holographic display of movement data above the streets, illuminated by vibrant neon lights in blues and greens."
+coverAlt: "Peisaj urban futurist noaptea, cu mai multe camere de supraveghere și un ecran holografic care afișează date despre deplasări deasupra străzilor, luminat în nuanțe vii de albastru și verde."
 coverCaption: ""
 ---
 
-**Flock Safety does not sell cameras.** The company sells a searchable record of where vehicles and people go, delivered to law enforcement as a subscription with no warrant and no delay. Watch the sales pitch instead of the hardware, because the pitch is the constitutional problem.
+**Flock Safety nu vinde camere.** Compania vinde forțelor de ordine, printr-un abonament fără mandat și fără întârziere, o evidență consultabilă a locurilor în care merg vehiculele și oamenii. Urmăriți discursul de vânzare, nu echipamentul, fiindcă discursul ridică problema constituțională.
 
-*The video below traces the argument end to end. It names the product, quotes the Fourth Amendment, walks the relevant court cases, and shows the two contradictory pitches Flock makes to different audiences.*
+*Videoul urmărește argumentul de la început până la sfârșit. Numește produsul, citează al patrulea amendament, trece în revistă cazurile relevante și prezintă cele două discursuri contradictorii adresate de Flock unor publicuri diferite.*
 
 {{< youtube id="8OuBWAmoxE8" >}}
 
-The source video, [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) from the T-Rex Lab channel, lays out the full case. The write-up below keeps the claims and adds the supporting law.
+Videoul original al canalului T-Rex Lab, [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8), prezintă întregul caz. Textul de mai jos păstrează afirmațiile și adaugă cadrul juridic relevant.
 
 <!--more-->
 
 ## Idei principale
 
-- **The camera is a decoy.** The product is the database, and the camera only feeds it.
-- **The Fourth Amendment reaches movement records.** Jones and Carpenter extend protection to continuous location tracking.
-- **Flock sells access, not data.** The wording reclassifies a search as a query and a record as an access plan.
-- **The pitch changes by audience.** Law enforcement hears "no warrants." The public hears "small and cautious."
-- **Watch the pitch, not the company.** Every competitor selling warrantless access to private movement is the same fight.
+- **Camera este o diversiune.** Produsul este baza de date, iar camera doar o alimentează.
+- **Al patrulea amendament protejează evidențele deplasărilor.** Jones și Carpenter extind protecția la urmărirea continuă a locației.
+- **Flock vinde acces, nu date.** Formularea reclasifică o percheziție drept interogare și o evidență drept plan de acces.
+- **Mesajul se schimbă în funcție de public.** Forțele de ordine aud „fără mandate”. Publicul aude „restrâns și prudent”.
+- **Urmăriți discursul, nu compania.** Orice concurent care vinde acces fără mandat la deplasări private intră în aceeași dispută.
 
 ______
 
-## What the Company Sells
+## Ce vinde compania
 
-Flock enters a market where cameras are already everywhere. Tens of millions of commercial cameras watch storefronts. Doorbell cameras sit on nearly half of American homes. Officers wear body cameras and drive dash cameras, and every phone carries several cameras.
+Flock intră pe o piață în care camerele se găsesc deja peste tot. Zeci de milioane de camere comerciale supraveghează vitrine. Camerele de sonerie se află în aproape jumătate dintre locuințele din Statele Unite. Polițiștii poartă camere corporale și conduc mașini cu camere de bord, iar fiecare telefon are mai multe camere.
 
-**Cameras are not scarce, so Flock does not sell cameras.** Access to crime footage is not scarce either: victims hand their recordings straight to departments, and phone video of a crime often lands on social media before an officer asks for it. **Automated license plate readers are not new** either. The technology dates to the 1970s and already runs on the traffic signals maintained by transportation departments.
+**Camerele nu sunt rare, așadar Flock nu vinde camere.** Nici accesul la înregistrări ale infracțiunilor nu este rar: victimele predau înregistrările direct departamentelor, iar filmările de pe telefoane ajung adesea pe rețelele sociale înainte să le ceară un polițist. **Nici cititoarele automate de numere de înmatriculare nu sunt noi.** Tehnologia datează din anii 1970 și funcționează deja la semafoarele întreținute de departamentele de transport.
 
-| Flock does not sell | Why |
+| Ce nu vinde Flock | Motiv |
 |---|---|
-| **Cameras** | Commercial, doorbell, body, dash, and phone cameras already cover most public space |
-| **Access to footage** | Victims and bystanders supply footage directly, and phone video spreads online |
-| **License plate readers** | The technology dates to the 1970s and already runs on traffic signals |
+| **Camere** | Camerele comerciale, de sonerie, corporale, de bord și de telefon acoperă deja mare parte din spațiul public |
+| **Acces la înregistrări** | Victimele și martorii predau înregistrări direct, iar filmările de pe telefoane circulă online |
+| **Cititoare de numere de înmatriculare** | Tehnologia datează din anii 1970 și funcționează deja la semafoare |
 
-**The scarce thing is the database.** Flock aggregates plate reads, locations, and timestamps into a searchable record of movement, then sells access to it. The pitch to departments comes down to one line worth remembering: the same information a warrant would produce, but with no warrant and no wait.
-
-______
-
-## A Warrant Is Supposed to Add Friction
-
-Phone carriers, car makers, and phone vendors each hold large location stores. Those stores carry legal friction. A request for one person's movement history needs a warrant, and a warrant needs probable cause, a judge, and a written record. Courts have repeatedly narrowed the broad geo-fence warrants after challenges.
-
-Flock sells an equivalent record without the friction. Its stated position is simple: movement on public roads is public, so no warrant applies.
-
-The asymmetry is the whole business. The same movement data costs a warrant when a carrier holds it and nothing when Flock holds it. Removing the warrant removes the record of the search, and the record of the search is the part the public audits.
+**Raritatea este baza de date.** Flock agregă citiri de numere, locații și marcaje temporale într-o evidență consultabilă a deplasărilor, apoi vinde accesul la ea. Oferta către departamente se rezumă la o idee de reținut: aceleași informații pe care le-ar obține prin mandat, dar fără mandat și fără așteptare.
 
 ______
 
-## The Fourth Amendment
+## Un mandat ar trebui să creeze o piedică
 
-The amendment reads as a defense against general searches. Its full text:
+Operatorii de telefonie, producătorii auto și furnizorii de telefoane păstrează depozite mari de date de localizare. Aceste depozite implică obstacole juridice. O solicitare privind istoricul deplasărilor unei persoane necesită un mandat, iar mandatul cere motive întemeiate, un judecător și o evidență scrisă. După contestații, instanțele au restrâns în repetate rânduri mandatele geografice ample.
 
-> The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.
+Flock vinde o evidență echivalentă fără aceste obstacole. Poziția declarată este simplă: deplasarea pe drumurile publice este publică, deci nu se aplică niciun mandat.
 
-The amendment responds to the general warrants, called writs of assistance, in use before independence. Those writs named no specific place or person and carried no expiry. Officials searched anywhere, at any time, on vague suspicion. The amendment rejects the practice by tying every search to probable cause, a sworn statement, and a particular description.
-
-Flock's service removes all three in one step: no probable cause, no oath, no particular description. The video's point is blunt. A subscription dispensing with the warrant dispenses with the entire safeguard.
+Asimetria este esența afacerii. Aceleași date de deplasare cer un mandat când sunt păstrate de un operator, dar niciunul când sunt păstrate de Flock. Eliminarea mandatului elimină evidența percheziției, iar publicul folosește acea evidență pentru a verifica accesul.
 
 ______
 
-## The Case Law
+## Al patrulea amendament
 
-Two lines of authority collide here.
+Amendamentul apără oamenii de perchezițiile generale. Textul integral spune:
 
-The older line holds recording what happens on a public road needs no warrant, because a person on a public road keeps no reasonable expectation of privacy in the movements seen there. Flock leans on this line and the 1984 case the video discusses.
+> Dreptul poporului la siguranța persoanei, locuinței, documentelor și bunurilor sale împotriva perchezițiilor și confiscărilor nerezonabile nu va fi încălcat. Nu se vor emite mandate decât pe baza unor motive întemeiate, susținute prin jurământ sau declarație, și cu descrierea amănunțită a locului ce urmează a fi percheziționat și a persoanelor sau bunurilor ce urmează a fi confiscate.
 
-The newer line pulls the other way. **United States v. Jones** (2012) held a GPS tracker fixed to a vehicle, and followed for weeks, is a search needing a warrant even on public roads. **Carpenter v. United States** (2018) reached the same result for cell-site location records held by wireless carriers, because a person keeps a reasonable expectation of privacy in the record of their physical movements.
+Amendamentul răspunde mandatelor generale, numite writs of assistance, folosite înainte de independență. Aceste mandate nu precizau un loc sau o persoană și nu aveau termen de expirare. Funcționarii puteau percheziționa oriunde și oricând, pe baza unor suspiciuni vagi. Amendamentul respinge practica, legând fiecare percheziție de motive întemeiate, o declarație sub jurământ și o descriere precisă.
 
-| Case | Year | Result |
+Serviciul Flock elimină dintr-un singur pas toate cele trei cerințe: fără motive întemeiate, fără jurământ și fără descriere precisă. Videoul spune lucrurilor pe nume. Un abonament care renunță la mandat renunță la întreaga protecție.
+
+______
+
+## Jurisprudența
+
+Aici se ciocnesc două direcții juridice.
+
+Direcția mai veche susține că înregistrarea a ceea ce se întâmplă pe un drum public nu necesită mandat, fiindcă o persoană aflată pe drumul public nu are o așteptare rezonabilă de confidențialitate cu privire la mișcările observate acolo. Flock se bazează pe această direcție și pe cazul din 1984 discutat în video.
+
+Direcția mai nouă merge în sens opus. **United States v. Jones** (2012) a stabilit că montarea unui dispozitiv GPS pe un vehicul și urmărirea lui timp de câteva săptămâni constituie o percheziție care necesită mandat, chiar și pe drumuri publice. **Carpenter v. United States** (2018) a ajuns la aceeași concluzie pentru evidențele de localizare prin turnuri celulare păstrate de operatori, fiindcă o persoană are o așteptare rezonabilă de confidențialitate asupra evidenței mișcărilor sale fizice.
+
+| Caz | An | Rezultat |
 |---|---|---|
-| **Public-recording line** | 1984 | Recording movement from a public corner needs no warrant, since an officer present sees the same thing |
-| **United States v. Jones** | 2012 | A GPS device tracking a car over a sustained period needs a warrant, even on public roads |
-| **Carpenter v. United States** | 2018 | Cell-site location records need a warrant, since a person keeps privacy in the record of their movements |
-| **Chhatri v. United States** | cited in the video | Location shared with a third party stays protected, so the warrant requirement survives |
+| **Direcția înregistrărilor publice** | 1984 | Înregistrarea mișcărilor dintr-un colț public nu necesită mandat, fiindcă un polițist prezent ar vedea același lucru |
+| **United States v. Jones** | 2012 | Urmărirea unei mașini cu GPS pe o perioadă îndelungată necesită mandat, chiar și pe drumuri publice |
+| **Carpenter v. United States** | 2018 | Evidențele de localizare prin turnuri celulare necesită mandat, fiindcă persoana păstrează confidențialitatea evidenței deplasărilor sale |
+| **Chhatri v. United States** | citat în video | Locația partajată cu o terță parte rămâne protejată, deci cerința mandatului se menține |
 
-*Flock's product is the comprehensive movement record Jones and Carpenter protect. The company argues its cameras escape those rulings because a sensor, not a GPS unit or a cell tower, gathers the positions. The distinction is in the sensor, not in the underlying record.*
+*Produsul Flock este evidența completă a deplasărilor protejată de Jones și Carpenter. Compania susține că propriile camere nu intră sub incidența acestor hotărâri deoarece pozițiile sunt colectate de un senzor, nu de un GPS sau un turn celular. Diferența ține de senzor, nu de evidența de bază.*
 
-**Legal boundary:** Jones and Carpenter do not decide every automated license-plate-reader dispute. The cases provide a constitutional framework for long-term location tracking and government access to movement records. Courts, statutory rules, retention periods, access controls, and the facts of a particular query still affect the result. The sales claims in this article are an argument for scrutiny, not a substitute for jurisdiction-specific legal advice.
-
-______
-
-## The Loophole in Their Own Words
-
-A series of word choices does the legal work. Each one rewrites the same product out of the reach of the cases above.
-
-- **Sells access, not the record.** Flock states it sells a subscription to query the database, so it sells no comprehensive record of movement.
-- **Shares derived data, not your data.** The wording restyles every plate read, timestamp, and route as mined material, so no raw personal data changes hands.
-- **Queried, not searched.** The Fourth Amendment stops unreasonable searches, and Flock frames every lookup as a query, so no search occurs.
-
-*Each phrase relabels the same act. The activity stays identical to the thing a warrant would guard. Only the noun changes.*
+**Limita juridică:** Jones și Carpenter nu soluționează toate disputele privind cititoarele automate de numere de înmatriculare. Cazurile oferă un cadru constituțional pentru urmărirea pe termen lung a locației și accesul guvernului la evidențe ale deplasărilor. Instanțele, normele legale, perioadele de păstrare, controalele de acces și faptele unei anumite interogări influențează și ele rezultatul. Afirmațiile comerciale din acest articol argumentează în favoarea examinării sistemului, nu înlocuiesc consultanța juridică specifică jurisdicției.
 
 ______
 
-## Two Contradictory Pitches
+## Lacuna din propriile lor cuvinte
 
-Flock sells the same service two ways at once, and the versions contradict each other.
+O serie de alegeri lexicale face munca juridică. Fiecare redenumește același produs pentru a-l scoate din sfera cazurilor de mai sus.
 
-| Audience | The pitch |
+- **Vinde acces, nu evidența.** Flock spune că vinde un abonament pentru interogarea bazei de date, deci nu vinde o evidență completă a deplasărilor.
+- **Partajează date derivate, nu datele tale.** Formularea prezintă fiecare citire de număr, marcaj temporal și traseu drept material prelucrat, astfel încât nu se transferă date personale brute.
+- **Interogare, nu percheziție.** Al patrulea amendament oprește perchezițiile nerezonabile, iar Flock numește fiecare căutare o interogare pentru a susține că nu are loc nicio percheziție.
+
+*Fiecare expresie redenumește același act. Activitatea rămâne identică cu cea pe care un mandat ar trebui să o limiteze. Se schimbă doar substantivul.*
+
+______
+
+## Două mesaje contradictorii
+
+Flock vinde același serviciu în două feluri simultan, iar versiunile se contrazic.
+
+| Public | Mesaj |
 |---|---|
-| **Law enforcement** | Wide, deep, and fast search, no delays, no warrants |
-| **The public and commissioners** | Small, limited, safe, slow, and cautious, tied to lower crime |
+| **Forțele de ordine** | Căutare amplă, detaliată și rapidă, fără întârzieri și fără mandate |
+| **Publicul și comisarii** | Restrâns, limitat, sigur, lent și prudent, asociat cu reducerea criminalității |
 
-The statements conflict. A database searched wide, deep, and fast with no warrants is not small or cautious in any sense the public hears. The one clause both sides share is a promise of lower crime, and the promise carries the sale. Many commissioners voting for cameras hold this belief honestly and never see the tool as mass surveillance.
-
-______
-
-## What the Records Show
-
-Concrete examples sharpen the concern beyond prediction.
-
-- **Pflugerville, Texas.** A town of roughly 70,000 people mounted 28 cameras after a promise of local control over its data. In six months the local department filed about 5,000 queries, and a public records request surfaced 1.66 million outside queries from 469 other agencies. The town now uninstalls the cameras.
-- **Knox County, Tennessee.** A 140-camera contract ended this week by unanimous commissioner vote. A deputy signed the $274,000 deal through installment orders of $24,990 each, ten dollars below the threshold requiring a commission vote. The deputy and ten colleagues face an indictment over roughly $300,000 in spending the video notes is separate from the camera system.
-- **Chicago, Illinois.** Years earlier a council member faced charges over a $130 million red-light camera deal with Redflex. The contract ended, yet the cameras stayed mounted and restarted under a new vendor without a missed day of service.
-
-**Demos run on live data.** The video reports Flock sales teams demonstrated the platform using real private records, not simulated ones. Their example searches read as a profiling tool: a vehicle with a political sticker, a truck with a Trump flag, a person wearing a mask, a person holding a weapon. A list of everyone holding a weapon in an open-carry state is not a suspect list. It is pre-crime demographic profiling.
+Afirmațiile intră în conflict. O bază de date căutată pe scară largă, în profunzime și rapid, fără mandate nu este restrânsă sau prudentă în sensul înțeles de public. Singura promisiune comună este reducerea criminalității, iar promisiunea încheie vânzarea. Mulți comisari care votează pentru camere cred sincer acest lucru și nu văd instrumentul drept supraveghere în masă.
 
 ______
 
-## Not About the Camera Company
+## Ce arată evidențele
 
-Focusing on one brand misses the larger fight. The video points to Axon, which sat among Flock's early investors, shared software and data, and integrated Flock's feed into its evidence.com platform. Red-light camera hardware in Chicago outlived its vendor and kept running under a new name. When one company falls, the sensors and the database stay behind for the next owner.
+Exemplele concrete fac îngrijorarea mai clară decât predicțiile.
 
-**The defining trait is the sales pitch, not the sensor.** Any company selling warrantless access to a comprehensive record of private movement repeats the same offense, whether the sensor is a camera, a phone, or something not yet invented.
+- **Pflugerville, Texas.** Un oraș cu aproximativ 70.000 de locuitori a instalat 28 de camere după ce i s-a promis control local asupra datelor. În șase luni, departamentul local a înregistrat aproximativ 5.000 de interogări, iar o solicitare de acces la evidențe publice a scos la iveală 1,66 milioane de interogări externe efectuate de alte 469 de agenții. Acum, orașul scoate camerele.
+- **Knox County, Tennessee.** Un contract pentru 140 de camere s-a încheiat în această săptămână prin votul unanim al comisarilor. Un adjunct a semnat acordul de 274.000 de dolari prin comenzi de plată în tranșe de câte 24.990 de dolari, cu zece dolari sub pragul care impunea votul comisiei. Adjunctul și zece colegi se confruntă cu un rechizitoriu pentru cheltuieli de aproximativ 300.000 de dolari despre care video spune că sunt separate de sistemul de camere.
+- **Chicago, Illinois.** Cu ani în urmă, un consilier local s-a confruntat cu acuzații legate de un contract de 130 de milioane de dolari cu Redflex pentru camere de semafor. Contractul s-a încheiat, dar camerele au rămas montate și au repornit sub un furnizor nou, fără întreruperea serviciului.
 
-The two things worth defending stay fixed: the limits on government written into the Bill of Rights, and the separation of powers keeping jurisdictions apart. Mass surveillance erodes the first, and the loophole dissolves the second. Oppose the loophole wherever its sales pitch appears.
+**Demonstrațiile folosesc date reale.** Video-ul relatează că echipele de vânzări Flock au demonstrat platforma folosind evidențe private reale, nu date simulate. Exemplele de căutare seamănă cu un instrument de profilare: un vehicul cu un autocolant politic, un camion cu un steag Trump, o persoană cu mască, o persoană cu o armă. O listă cu toți cei care poartă o armă într-un stat unde portul la vedere este legal nu este o listă de suspecți. Este profilare demografică înainte de comiterea unei infracțiuni.
+
+______
+
+## Nu este vorba despre compania de camere
+
+Concentrarea pe un singur brand ratează disputa mai amplă. Video-ul arată că Axon s-a numărat printre primii investitori Flock, a partajat software și date și a integrat fluxul Flock în platforma evidence.com. Hardware-ul camerelor de semafor din Chicago a supraviețuit furnizorului și a continuat să funcționeze sub alt nume. Când o companie dispare, senzorii și baza de date rămân pentru următorul proprietar.
+
+**Caracteristica definitorie este discursul de vânzare, nu senzorul.** Orice companie care vinde acces fără mandat la o evidență completă a mișcărilor private repetă aceeași încălcare, indiferent dacă senzorul este o cameră, un telefon sau ceva încă neinventat.
+
+Cele două lucruri care trebuie apărate rămân aceleași: limitele impuse guvernului prin Declarația drepturilor și separarea puterilor care menține jurisdicțiile distincte. Supravegherea în masă erodează primul principiu, iar lacuna dizolvă al doilea. Opuneți-vă lacunei oriunde apare discursul de vânzare.
 
 {{< centerbutton href="/articles/flock-camera-detection-arms-race-2026/" >}}
-  Read the Detection Arms-Race Write-Up
+  Citește analiza cursei de detectare
 {{< /centerbutton >}}
 
 ______
 
 ## Pașii următori
 
-Start with the sales pitch, then move to the technical and protective sides.
+Începeți cu discursul de vânzare, apoi continuați cu aspectele tehnice și de protecție.
 
-- **[Flock Camera Detection Arms Race: What Changed in 2026](/articles/flock-camera-detection-arms-race-2026/)** for the technical side of the same fight.
-- **[Flock Cameras: Public Safety Tool or Warrantless Surveillance Machine?](/articles/flock-cameras-public-safety-or-surveillance-2026/)** for the surveillance framing.
-- **[Flock Safety Camera Surveillance: Privacy and Protection](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** for how the cameras spread and what protection does.
-- **[Flock-You Detection: Counter-Surveillance Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** for building your own detector.
+- **[Cursa de detectare a camerelor Flock: ce s-a schimbat în 2026](/articles/flock-camera-detection-arms-race-2026/)** pentru latura tehnică a aceleiași dispute.
+- **[Camere Flock: instrument pentru siguranța publică sau sistem de supraveghere fără mandat?](/articles/flock-cameras-public-safety-or-surveillance-2026/)** pentru perspectiva asupra supravegherii.
+- **[Supravegherea cu camere Flock Safety: confidențialitate și protecție](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** pentru a afla cum se răspândesc camerele și ce măsuri de protecție există.
+- **[Detectarea Flock-You: ghid de configurare a contravegherii](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** pentru construirea propriului detector.
 
-**Source material:** the argument, figures, and quotations follow [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8) from the T-Rex Lab channel. The Fourth Amendment text comes from the [Legal Information Institute](https://www.law.cornell.edu/constitution/fourth_amendment).
+**Material-sursă:** argumentul, cifrele și citatele urmează [What is Flock Safety ACTUALLY Selling... and To Who?](https://www.youtube.com/watch?v=8OuBWAmoxE8), de pe canalul T-Rex Lab. Textul celui de-al patrulea amendament provine de la [Legal Information Institute](https://www.law.cornell.edu/constitution/fourth_amendment).

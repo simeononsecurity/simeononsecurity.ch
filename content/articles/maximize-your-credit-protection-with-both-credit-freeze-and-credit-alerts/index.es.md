@@ -1,17 +1,17 @@
 ---
 title: "Congelación de crédito o alerta de fraude: protéjase del robo de identidad"
 date: 2023-02-15
-lastmod: 2026-10-21
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Proteja su crédito de accesos no autorizados combinando una congelación de crédito y una alerta de fraude, la solución más eficaz para disuadir a los delincuentes comunes de acceder a su informe crediticio sin su permiso."
+description: "Compare las congelaciones de crédito y las alertas de fraude y elija las medidas de protección adecuadas al riesgo de robo de identidad."
 tags: ["protección del crédito", "congelación del crédito", "alerta de fraude", "acceso no autorizado", "informe de crédito", "robo de identidad", "Equifax", "Experian", "TransUnion", "agencias de crédito", "máxima protección"]
 cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Persona que sostiene una tarjeta de crédito con el símbolo de un candado para representar la protección del crédito."
 coverCaption: ""
 ---
 
-Las **alertas de fraude** y el **congelamiento de crédito** son dos medidas importantes que puede tomar para proteger su crédito del acceso no autorizado. Mientras que una congelación de crédito prohíbe una comprobación de crédito dura, una alerta de fraude simplemente pide a un acreedor que realice una verificación adicional antes de conceder el crédito. En este artículo, analizaremos las ventajas de combinar la congelación del crédito y la alerta de fraude para maximizar la protección de su crédito.
+Las **alertas de fraude** y el **congelamiento de crédito** son dos medidas importantes que puede tomar para proteger su crédito del acceso no autorizado. Mientras que una congelación de crédito prohíbe una consulta de crédito rigurosa, una alerta de fraude simplemente pide a un acreedor que realice una verificación adicional antes de conceder el crédito. En este artículo, analizaremos las ventajas de combinar la congelación del crédito y la alerta de fraude para maximizar la protección de su crédito.
 
 ## ¿Qué es la congelación de crédito?
 
@@ -29,7 +29,7 @@ ____________________
 
 ## Cómo configurar una combinación de congelación y alerta
 
-Configurar una congelación de crédito y una alerta de fraude es sencillo y puede hacerse en línea en cuestión de minutos. Para ello, visite los sitios web de Equifax [https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html), and TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) y siga las instrucciones para congelar su crédito. Para establecer una alerta de fraude, visite los mismos sitios web y seleccione la opción de alerta de fraude ampliada a 7 años. Si ha sido víctima de un robo de identidad, puede optar a una alerta de fraude de 7 años, pero es posible que se le exijan pruebas del robo de identidad, como una denuncia policial.
+Configurar una congelación de crédito y una alerta de fraude es sencillo y puede hacerse en línea en cuestión de minutos. Para ello, visite los sitios web de Equifax [https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html) y TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) y siga las instrucciones para congelar su crédito. Para establecer una alerta de fraude, visite los mismos sitios web y seleccione la opción de alerta de fraude ampliada a 7 años. Si ha sido víctima de un robo de identidad, puede optar a una alerta de fraude de 7 años, pero es posible que se le exijan pruebas del robo de identidad, como una denuncia policial.
 
 ____________________
 

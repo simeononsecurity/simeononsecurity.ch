@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp
 coverAlt: O ilustrație care arată un peisaj digital cu o structură asemănătoare unui scut simbolizând confidențialitatea, înconjurată de pictograme vibrante reprezentând protecția datelor, pe un fundal întunecat.
 coverCaption: 'Deblocați-vă Confidențialitatea: Explorând browserele LibreWolf și Firefox'
-lastmod: 2026-10-08
+lastmod: 2026-11-09
 ---
 **Browsere Axate pe Confidențialitate: O Comparatie între LibreWolf și Firefox**
 
@@ -117,6 +117,14 @@ ______
 
 ______
 
+## Actualizare de securitate: Firefox 159 (27 octombrie 2026)
+
+**Setările de confidențialitate nu înlocuiesc actualizările de securitate.** [Avizul Mozilla pentru Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/) enumeră probleme cu impact ridicat, inclusiv CVE-2026-117860, o ocolire a politicii same-origin, precum și CVE-2026-117861, CVE-2026-117864 și CVE-2026-117868, toate descrise ca evadări din sandbox. Mozilla indică **Firefox 159** drept versiunea care le remediază, iar [notele versiunii 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/) datează lansarea la 27 octombrie. Avizul nu precizează prima versiune afectată pentru fiecare problemă și nu raportează exploatare activă.
+
+**Verifică ramura pe care o folosești.** Dacă utilizezi Firefox standard, instalează versiunea curentă prin canalul obișnuit de actualizare și verifică numărul în fereastra „Despre”. Firefox ESR are avize separate: Mozilla indică [ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/) ca versiune care remediază cele patru CVE menționate și publică un [aviz ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/) separat pentru acea ramură. Nu folosi numărul versiunii standard Firefox pentru a verifica actualizările ESR.
+
+Pentru **LibreWolf sau alt browser bazat pe Firefox**, compară versiunea instalată cu notele de lansare și avizele de securitate ale proiectului derivat. Avizul Mozilla pentru Firefox nu confirmă singur că o versiune derivată include o anumită remediere. Verifică [versiunile proiectului LibreWolf](https://librewolf.dev/librewolf/bsys6/releases) pentru versiunea instalată, fără să tratezi setările de confidențialitate sau o versiune Firefox din amonte drept confirmare a remedierii.
+
 ## Software Open Source și Implicarea Comunității
 
 ### Accentul LibreWolf pe Open Source
@@ -141,11 +149,39 @@ ______
 
 ______
 
+## Listă de verificare pentru decizia din 2026
+
+LibreWolf și Firefox folosesc același motor Firefox, dar răspund unor preferințe diferite de întreținere. LibreWolf aplică o configurație axată pe confidențialitate și elimină sau modifică unele servicii Mozilla. Firefox oferă o cale de asistență mai largă, setări implicite familiare și integrare directă cu contul Mozilla.
+
+Înainte să schimbi browserul, verifică patru aspecte:
+
+- **Momentul actualizării.** Instalează prompt actualizările de securitate prin canalul oficial al browserului.
+- **Compatibilitatea site-urilor.** Testează serviciile bancare, portalurile de lucru, apelurile video și extensiile pentru parole într-un profil separat.
+- **Separarea conturilor.** Nu include date personale de sincronizare într-un profil de cercetare sau pe dispozitive partajate.
+- **Recuperarea.** Exportă marcajele, notează extensiile și verifică accesul la codurile de recuperare înainte de schimbare.
+
+Confidențialitatea necesită și verificarea sistemului de operare, a contului, a routerului și a rețelei. Un browser privat nu ascunde activitatea de serviciul în care te-ai autentificat, de proprietarul dispozitivului local sau de furnizorul de rețea. Consultă [asistența Mozilla privind confidențialitatea și securitatea](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) și [documentația LibreWolf](https://librewolf.net/docs/) când verifici o setare.
+
+## Actualizări, amprentare digitală și compatibilitate
+
+**LibreWolf și Firefox rezolvă probleme diferite.** LibreWolf folosește o configurație mai strictă și elimină anumite servicii Firefox. Întrebările frecvente ale proiectului spun că actualizările urmează de obicei Firefox în trei zile, dar LibreWolf se bazează pe managerii de pachete sau pe utilizatori pentru actualizare. Firefox oferă un flux obișnuit de actualizare, sincronizarea contului, compatibilitate mai largă și controale de protecție pentru fiecare site. Citește [FAQ-ul LibreWolf](https://librewolf.net/docs/faq/) și [ghidul Mozilla privind protecția împotriva urmăririi](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false).
+
+**Protecția împotriva amprentării digitale are limite.** Setările stricte reduc semnalele obișnuite de urmărire, dar nu îi fac pe toți utilizatorii identici. Dimensiunea ecranului, limba, sistemul de operare, extensiile și modificările neobișnuite influențează rezultatul. Total Cookie Protection din Firefox izolează stocarea site-urilor, dar nu ascunde identitatea contului față de site-ul vizitat. În această comparație, Tor Browser este opțiunea proiectată în jurul unui grup comun de anonimat. [Consultă documentația Tor Browser despre protecția amprentării](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+| Criteriu de decizie | LibreWolf | Firefox |
+|---|---|---|
+| **Setări implicite** | Protecție mai strictă a confidențialității, cu compromisuri mai mari de compatibilitate | Setări echilibrate, cu niveluri ajustabile de protecție |
+| **Actualizări** | Depind de managerul de pachete sau instalarea manuală | Actualizări ale browserului gestionate de Mozilla |
+| **Sincronizare** | Fără sincronizarea contului Mozilla, prin design | Sincronizare integrată cu contul Firefox |
+| **Compatibilitate** | Testează mai întâi DRM, portaluri de lucru și aplicații web neobișnuite | Compatibilitate largă, cu excepții per site |
+| **Potrivit pentru** | Browser desktop separat pentru cercetare sensibilă la confidențialitate | Browser zilnic când contează asistența și sincronizarea |
+
+Înainte să schimbi, deschide site-urile folosite, verifică versiunea instalată și testează un profil nou. Nu combina mai multe extensii anti-amprentare fără un motiv măsurat. Modificările suplimentare cresc problemele și pot face browserul mai puțin obișnuit.
+
 ## Concluzie: Alegerea Browserului Potrivit pentru Confidențialitate
 
-**LibreWolf** și **Firefox** oferă fiecare opțiuni convingătoare pentru utilizatorii care caută confidențialitate și securitate sporită în experiența lor de navigare. Decizia între cele două depinde de prioritățile și preferințele individuale. Dacă utilizatorii apreciază personalizarea profundă și un accent puternic pe libertatea utilizatorului
+**LibreWolf** și **Firefox** sunt opțiuni convingătoare pentru utilizatorii care doresc mai multă confidențialitate și securitate la navigare. Alegerea depinde de prioritățile și preferințele fiecăruia. Dacă utilizatorii apreciază personalizarea amplă și un accent puternic pe libertatea utilizatorului
 
-______
 
 ## Referințe
 
@@ -153,3 +189,8 @@ ______
 2. [Site-ul Oficial Firefox](https://www.mozilla.org/en-US/firefox/new/)
 3. [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 4. [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+5. [Avizul de securitate Mozilla 2026-118: Firefox 159](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/)
+6. [Notele versiunii Firefox 159.0](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
+7. [Avizul de securitate Mozilla 2026-120: Firefox ESR 153.6](https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/)
+8. [Avizul de securitate Mozilla 2026-119: Firefox ESR 115.44](https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/)
+9. [Versiunile proiectului LibreWolf](https://librewolf.dev/librewolf/bsys6/releases)

@@ -1,11 +1,12 @@
 ---
 title: "Aufbau eines sicheren und gesetzeskonformen Cloud-basierten Data Lake: Bewährte Verfahren zum Schutz gespeicherter Daten"
 date: 2023-04-16
+lastmod: 2026-11-07
 toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie mehr über bewährte Verfahren für Sicherheit und Compliance bei der Planung, Erstellung und Verwaltung von Cloud-basierten Data Lakes."
 tags: ["Datensee", "Cloud-Sicherheit", "Compliance-Vorschriften", "Zugangskontrollen", "Verschlüsselung", "AWS", "Azure", "HIPAA", "GDPR", "Überwachung", "Flicken", "Cybersicherheit", "SIEM-Lösung", "IT-Support-Teams", "Bedrohungslandschaft", "Cloud-Migration", "Cloud-Governance"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
+cover: "/img/cover/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake.webp"
 coverAlt: "Das Cartoon-Bild einer Burg, die von einem Ritter bewacht wird, symbolisiert das Konzept eines starken Schutzes für sichere und konforme Cloud-basierte Speicherung"
 coverCaption: ""
 ---
@@ -30,7 +31,7 @@ Ingestion-Clients oder -Anwendungen, die Daten aus verschiedenen Systemen kopier
 
 Im Bereich der Speicherung sollten Sie Plattformen wählen, die Verschlüsselung im Ruhezustand unterstützen oder andere fortschrittliche Kryptofunktionen wie Schlüsselverwaltung, einschließlich serverseitiger Verschlüsselung mit kundeneigenen Schlüsseln (CMKs), bieten.
 
-**Lösungen wie AWS Identity and Access Management oder Azure Active Directory bieten ein wirksames Mittel zur Kontrolle von Berechtigungen sowohl auf Objektebene als auch auf der Verwaltungsebene.
+Lösungen wie AWS Identity and Access Management oder Azure Active Directory bieten ein **wirksames Mittel zur Kontrolle von Berechtigungen sowohl auf Objektebene als auch auf der Verwaltungsebene**.
 
 ## Überwachung und Verwaltung des Data Lake
 
@@ -42,7 +43,7 @@ Stellen Sie außerdem sicher, dass **regelmäßig Patches für die kritischen Ko
 
 ## Mit der sich verändernden Bedrohungslandschaft Schritt halten
 
-**Aufgrund der sich ständig verändernden Sicherheitslandschaft müssen sich die Sicherheitskontrollen in der Cloud schnell an neue Bedrohungen anpassen.
+**Aufgrund der sich ständig verändernden Sicherheitslandschaft müssen sich die Sicherheitskontrollen in der Cloud schnell an neue Bedrohungen anpassen.**
 
 Wenn Sie die Einhaltung bestimmter Vorschriften für die Datenspeicherung anstreben, sollten Sie Maßnahmen ergreifen, um diese Anforderungen durch Compliance-Audits und regelmäßige Berichte, die von den entsprechenden Diensten erstellt werden, einzuhalten.
 

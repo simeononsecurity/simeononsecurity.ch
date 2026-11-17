@@ -1,6 +1,7 @@
 ---
 title: "Costruire contenitori Docker efficienti e sicuri: Una guida per principianti"
 date: 2023-02-24
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Imparate a creare contenitori Docker efficienti e sicuri utilizzando le migliori pratiche, i suggerimenti e le istruzioni passo-passo di questa guida completa."
@@ -214,11 +215,11 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Alcune sezioni utili della documentazione di Docker includono:
 
--[Get started with Docker](https://docs.docker.com/get-started/)
--[Docker CLI reference](https://docs.docker.com/engine/reference/commandline/cli/)
--[Docker API reference](https://docs.docker.com/engine/api/v1.41/)
--[Docker-compose reference](https://docs.docker.com/compose/compose-file/)
--[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Iniziare con Docker](https://docs.docker.com/get-started/)
+- [Riferimento della CLI Docker](https://docs.docker.com/engine/reference/commandline/cli/)
+- [Riferimento dell’API Docker](https://docs.docker.com/engine/api/v1.41/)
+- [Riferimento Docker Compose](https://docs.docker.com/compose/compose-file/)
+- [Riferimento Dockerfile](https://docs.docker.com/engine/reference/builder/)
 
 La documentazione di Docker è un'ottima risorsa per imparare a usare Docker e per risolvere i problemi che si possono incontrare.
 
@@ -227,9 +228,9 @@ La documentazione di Docker è un'ottima risorsa per imparare a usare Docker e p
 
 Alcune utili funzioni di Docker Hub includono:
 
--[Search for Docker images](https://hub.docker.com/search?type=image)
--[Store and manage Docker images in repositories](https://hub.docker.com/repositories)
--[Automate builds and testing with Docker Hub workflows](https://docs.docker.com/docker-hub/builds/)
+- [Cercare immagini Docker](https://hub.docker.com/search?type=image)
+- [Archiviare e gestire immagini Docker nei repository](https://hub.docker.com/repositories)
+- [Automatizzare build e test con i workflow di Docker Hub](https://docs.docker.com/docker-hub/builds/)
 
 Docker Hub è uno strumento essenziale per lavorare con Docker e può far risparmiare molto tempo e fatica quando si tratta di gestire e condividere immagini Docker.
 

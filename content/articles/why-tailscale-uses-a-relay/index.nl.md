@@ -1,55 +1,55 @@
 ---
-title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
+title: "Waarom Tailscale een relay gebruikt: directe verbindingen, DERP en peer-relays"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
+description: "Lees waarom Tailscale een relay gebruikt, hoe je status- en netcheck-uitvoer leest en wanneer een DERP- of peer-relayverbinding onderzoek verdient."
 genre: ["Networking", "Network Security", "Self-Hosted"]
-tags: ["Tailscale", "Tailscale relay", "DERP", "Tailscale Peer Relay", "direct connection", "WireGuard", "NAT traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN performance", "remote access", "tailnet", "homelab networking", "relay latency", "end-to-end encryption"]
+tags: ["Tailscale", "Tailscale-relay", "DERP", "Tailscale-peer-relay", "directe verbinding", "WireGuard", "NAT-traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN-prestaties", "externe toegang", "tailnet", "homelabnetwerken", "relaylatentie", "end-to-end-versleuteling"]
 cover: "/img/cover/why-tailscale-uses-a-relay.webp"
-coverAlt: "Two laptops on separate islands exchange locked packets through a central relay while a direct path is interrupted."
+coverAlt: "Twee laptops op afzonderlijke eilanden wisselen versleutelde pakketten uit via een centrale relay terwijl een directe route is onderbroken."
 coverCaption: ""
 ---
 
-**Tailscale uses a relay** when devices have not established a direct connection. A brief DERP connection during startup is normal. Persistent relaying often reflects network address translation (NAT) or firewall conditions affecting the route between the devices. Direct, DERP, and peer-relay connections all retain WireGuard end-to-end encryption. [Tailscale connection types](https://tailscale.com/docs/reference/connection-types).
+**Tailscale gebruikt een relay** wanneer apparaten geen directe verbinding hebben gemaakt. Een korte DERP-verbinding tijdens het opstarten is normaal. Langdurig gebruik van een relay wijst vaak op NAT- of firewallomstandigheden die de route tussen de apparaten beïnvloeden. Directe verbindingen, DERP en peer-relays behouden allemaal de end-to-end-versleuteling van WireGuard. [Tailscale-verbindingstypen](https://tailscale.com/docs/reference/connection-types).
 
 ## Belangrijkste punten
 
-- **Recognize the path:** distinguish direct, DERP, and peer-relay connections.
-- **Collect evidence:** run peer-specific probes and network checks on both ends.
-- **Analyze the pattern:** compare device pairs and network conditions.
-- **Choose a change:** justify it with a measured workload and a retest.
+- **Herken de route:** maak onderscheid tussen directe verbindingen, DERP en peer-relays.
+- **Verzamel bewijs:** voer apparaatspecifieke probes en netwerkcontroles aan beide kanten uit.
+- **Analyseer het patroon:** vergelijk apparaatparen en netwerkomstandigheden.
+- **Kies een wijziging:** onderbouw die met een gemeten workload en een hertest.
 
 ## Voordat je begint
 
-**Prerequisites:** two enrolled, online devices and a terminal with the Tailscale command-line interface, or **CLI**, available. You need administrative access only if the investigation leads to configuration changes.
+**Vereisten:** twee ingeschreven apparaten die online zijn en een terminal met de opdrachtregelinterface van Tailscale, oftewel **CLI**. Je hebt alleen beheerdersrechten nodig als het onderzoek tot configuratiewijzigingen leidt.
 
-**Estimated effort:** five minutes for basic checks, then 15–20 minutes for the comparison exercise. **Difficulty:** beginner for observation and intermediate for network changes. Define the problem first, such as a slow backup or delayed terminal response.
+**Geschatte tijd:** vijf minuten voor basiscontroles en daarna 15–20 minuten voor de vergelijkingsoefening. **Moeilijkheid:** beginner voor observatie en gemiddeld voor netwerkwijzigingen. Beschrijf eerst het probleem, bijvoorbeeld een trage back-up of vertraagde terminalreactie.
 
-## Direct, DERP, and Peer Relay
+## Direct, DERP en peer-relay
 
-A **tailnet** is your Tailscale network. Its devices attempt direct UDP connectivity, with relays available when the direct path fails. Tailscale periodically rechecks its connection options. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+Een **tailnet** is je Tailscale-netwerk. De apparaten proberen directe UDP-connectiviteit tot stand te brengen. Relays zijn beschikbaar als de directe route mislukt. Tailscale controleert de verbindingsopties periodiek opnieuw. [Verbindingsopbouw](https://tailscale.com/docs/reference/connection-types).
 
-| Path | Traffic route | Typical implication |
+| Route | Verkeersroute | Gebruikelijke betekenis |
 |---|---|---|
-| **Direct** | Between the two devices | Usually the preferred performance path |
-| **DERP relay** | Through Tailscale relay infrastructure | Adds an intermediary when direct access fails |
-| **Peer relay** | Through a configured device in your tailnet | An alternative relay under your administration |
+| **Direct** | Tussen de twee apparaten | Gewoonlijk de voorkeursroute voor prestaties |
+| **DERP-relay** | Via de relayinfrastructuur van Tailscale | Voegt een tussenstation toe wanneer directe toegang mislukt |
+| **Peer-relay** | Via een geconfigureerd apparaat in je tailnet | Een alternatieve relay onder jouw beheer |
 
-**DERP performance** depends partly on the extra route and shared service capacity. Tailscale documents throughput limits intended to share DERP resources fairly. There is no universal relay speed suitable for predicting your file-transfer time. [Tailscale performance troubleshooting](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
+**DERP-prestaties** hangen deels af van de extra route en de gedeelde servicecapaciteit. Tailscale documenteert doorvoerlimieten om DERP-resources eerlijk te delen. Er bestaat geen universele relaysnelheid waarmee je de overdrachtstijd van bestanden kunt voorspellen. [Problemen met Tailscale-prestaties oplossen](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
 
-## Understand Connection Negotiation
+## Begrijp de verbindingsonderhandeling
 
-**NAT traversal** is the process of establishing a usable path across address-translating devices. Tailscale begins communication through DERP while negotiating a direct path. If direct connectivity fails, an available configured peer relay provides another option. Tailscale rechecks its options over time. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**NAT-traversal** is het proces waarbij een bruikbare route door adresvertalende apparaten tot stand komt. Tailscale begint de communicatie via DERP terwijl het een directe route probeert te onderhandelen. Als directe connectiviteit mislukt, biedt een beschikbare, geconfigureerde peer-relay een andere optie. Tailscale controleert de opties na verloop van tijd opnieuw. [Verbindingsopbouw](https://tailscale.com/docs/reference/connection-types).
 
-**Hard NAT** describes mapping behavior making traversal difficult. The conditions at both ends matter. Two devices behind different routers do not necessarily behave alike, even if both networks use private addresses. [Device connectivity](https://tailscale.com/docs/reference/device-connectivity).
+**Hard NAT** beschrijft mappinggedrag dat traversal bemoeilijkt. De omstandigheden aan beide kanten zijn van belang. Twee apparaten achter verschillende routers gedragen zich niet noodzakelijk hetzelfde, ook niet als beide netwerken privé-adressen gebruiken. [Apparaatconnectiviteit](https://tailscale.com/docs/reference/device-connectivity).
 
-For **a roaming laptop**, the path to your home server might change after moving from home Wi-Fi to a hotel network. Record the network used during the observation. Yesterday's direct connection is not evidence about today's route.
+Voor **een laptop die van netwerk wisselt** kan de route naar je homeserver veranderen nadat je van wifi thuis naar een hotelnetwerk gaat. Noteer welk netwerk je tijdens de observatie gebruikte. Een directe verbinding van gisteren zegt niets over de route van vandaag.
 
-## Check Your Current Connection
+## Controleer je huidige verbinding
 
-Replace **`home-server`** with your peer's Tailscale name or address:
+Vervang **`home-server`** door de Tailscale-naam of het adres van je peer:
 
 ```bash
 tailscale ping home-server
@@ -57,119 +57,119 @@ tailscale status
 tailscale netcheck
 ```
 
-**`tailscale ping`** probes connectivity to the named peer. **`tailscale status`** lists peers and connection details. **`tailscale netcheck`** reports conditions on the device running the command. The [Tailscale CLI reference](https://tailscale.com/docs/reference/tailscale-cli) documents these commands.
+**`tailscale ping`** controleert de connectiviteit met de genoemde peer. **`tailscale status`** toont peers en verbindingsdetails. **`tailscale netcheck`** rapporteert omstandigheden op het apparaat waarop je de opdracht uitvoert. De [Tailscale CLI-referentie](https://tailscale.com/docs/reference/tailscale-cli) beschrijft deze opdrachten.
 
-| Output indicator | Read it as |
+| Uitvoerindicator | Betekenis |
 |---|---|
-| **`direct`** | Traffic to this peer uses a direct path |
-| **`relay`** | Traffic to this peer uses DERP |
-| **`peer-relay`** | Traffic uses a configured peer relay |
-| **An initial DERP pong** | Inspect subsequent results before deciding the path stayed relayed |
+| **`direct`** | Verkeer naar deze peer gebruikt een directe route |
+| **`relay`** | Verkeer naar deze peer gebruikt DERP |
+| **`peer-relay`** | Verkeer gebruikt een geconfigureerde peer-relay |
+| **Een eerste DERP-pong** | Bekijk de volgende resultaten voordat je beslist dat de route relayed bleef |
 
-These labels come from the [connection-type documentation](https://tailscale.com/docs/reference/connection-types). **Generate traffic first**, then inspect the peer you care about. The commands above are examples, not captured results from a benchmark.
+Deze labels komen uit de [documentatie over verbindingstypen](https://tailscale.com/docs/reference/connection-types). **Genereer eerst verkeer** en controleer daarna de peer die je onderzoekt. De opdrachten hierboven zijn voorbeelden, geen vastgelegde benchmarkresultaten.
 
-## Interpret a Path Change
+## Interpreteer een routewijziging
 
-This **illustrative sequence** omits addresses and timings so you focus on the connection transition:
+Deze **illustratieve reeks** laat adressen en tijden weg, zodat de overgang van de verbinding centraal staat:
 
 ```text
-First response:    via DERP
-Later response:    via a direct endpoint
-Status afterward: direct
+Eerste antwoord:    via DERP
+Later antwoord:     via een direct eindpunt
+Status daarna:      direct
 ```
 
-**Interpretation:** negotiation succeeded during this observation. The first response alone would have produced the wrong diagnosis. If later responses and status remain relayed, record a persistent relay for this device pair and test period.
+**Interpretatie:** tijdens deze observatie slaagde de onderhandeling. Op basis van alleen het eerste antwoord zou je de verkeerde diagnose stellen. Als latere antwoorden en de status relayed blijven, noteer dan een aanhoudende relay voor dit apparaatpaar en deze testperiode.
 
-**Probe scope:** a successful Tailscale ping establishes peer connectivity for its probe. It does not prove your dashboard, file service, or SSH daemon accepts application traffic. Test the failing application separately before declaring the problem solved.
+**Reikwijdte van de probe:** een geslaagde Tailscale-ping bevestigt connectiviteit met de peer voor die probe. De ping bewijst niet dat je dashboard, bestandsservice of SSH-daemon applicatieverkeer accepteert. Test de falende applicatie afzonderlijk voordat je concludeert dat het probleem is opgelost.
 
-## What Netcheck Tells You
+## Wat netcheck vertelt
 
-Run **`tailscale netcheck` on both devices**. Compare these fields against the [device-connectivity reference](https://tailscale.com/docs/reference/device-connectivity):
+Voer **`tailscale netcheck` op beide apparaten uit**. Vergelijk deze velden met de [referentie voor apparaatconnectiviteit](https://tailscale.com/docs/reference/device-connectivity):
 
-| Field | Useful interpretation |
+| Veld | Nuttige interpretatie |
 |---|---|
-| **`UDP`** | Whether the probe observed outbound UDP connectivity |
-| **`MappingVariesByDestIP`** | Changing external mappings suggest difficult NAT traversal |
-| **`IPv6`** | Whether this device has usable IPv6 connectivity |
-| **`PortMapping`** | Whether a supported port-mapping mechanism is available |
+| **`UDP`** | Of de probe uitgaande UDP-connectiviteit heeft waargenomen |
+| **`MappingVariesByDestIP`** | Wisselende externe mappings kunnen op lastige NAT-traversal wijzen |
+| **`IPv6`** | Of dit apparaat bruikbare IPv6-connectiviteit heeft |
+| **`PortMapping`** | Of een ondersteund mechanisme voor poortmapping beschikbaar is |
 
-**One field is not a verdict.** An available mapping mechanism does not prove a particular peer path works. Likewise, a relay label does not identify which router caused it. Compare both endpoints and the actual ping results.
+**Eén veld geeft geen definitief oordeel.** Een beschikbaar mappingmechanisme bewijst niet dat een route naar een bepaalde peer werkt. Een relaylabel wijst evenmin aan welke router de oorzaak is. Vergelijk beide eindpunten en de daadwerkelijke pingresultaten.
 
-**Carrier NAT** is relevant when upstream translation is outside your control, as discussed in our [T-Mobile port-forwarding explainer](/articles/t-mobile-home-internet-port-forwarding/). Avoid assuming every connection behind carrier NAT has identical traversal behavior.
+**Carrier NAT** is relevant wanneer upstream-adresvertaling buiten je beheer valt, zoals besproken in onze uitleg over [poortdoorschakeling bij T-Mobile Home Internet](/articles/t-mobile-home-internet-port-forwarding/). Ga er niet van uit dat elke verbinding achter carrier NAT hetzelfde traversalgedrag vertoont.
 
-## Compare Three Device Pairs
+## Vergelijk drie apparaatparen
 
-Use a **third enrolled device**, if available, to improve the evidence. The following is a hypothetical pattern, not a measured result:
+Gebruik zo mogelijk een **derde ingeschreven apparaat** om het bewijs te verbeteren. Het volgende patroon is hypothetisch en geen gemeten resultaat:
 
-| Device pair | Observed path |
+| Apparaatpaar | Waargenomen route |
 |---|---|
-| **Laptop to home server** | DERP |
-| **Laptop to another server** | Direct |
-| **Home server to another server** | DERP |
+| **Laptop naar homeserver** | DERP |
+| **Laptop naar een andere server** | Direct |
+| **Homeserver naar een andere server** | DERP |
 
-**Working hypothesis:** prioritize the home server's network for investigation because both observed paths involving it stayed relayed. This is a lead, not proof. Each pair negotiates independently, and the comparison server has its own network conditions.
+**Werkhypothese:** onderzoek eerst het netwerk van de homeserver, omdat beide waargenomen routes waarbij die server betrokken is via relay bleven lopen. Dit is een aanwijzing, geen bewijs. Elk paar onderhandelt afzonderlijk en de vergelijkingsserver heeft eigen netwerkomstandigheden.
 
-**Next observation:** collect netcheck output on all three devices and repeat the laptop-to-home test from another network you control. If the path changes, record exactly which network changed. Avoid attributing the result to a particular firewall setting until you test it.
+**Volgende observatie:** verzamel netcheck-uitvoer op alle drie apparaten en herhaal de test van laptop naar homeserver vanaf een ander netwerk dat je beheert. Als de route verandert, noteer dan precies welk netwerk is gewijzigd. Schrijf het resultaat niet toe aan een bepaalde firewallinstelling voordat je die hebt getest.
 
-**Review exercise:** laptop-to-home is direct, but a file transfer remains slow. A relay explanation no longer matches this observation. Check the underlying upload connection, server load, storage, and application behavior before changing relay settings.
+**Oefening:** de verbinding van laptop naar homeserver is direct, maar een bestandsoverdracht blijft traag. Een relayverklaring past dan niet meer bij deze waarneming. Controleer de onderliggende uploadverbinding, serverbelasting, opslag en applicatiegedrag voordat je relayinstellingen wijzigt.
 
-## Choose a Targeted Change
+## Kies een gerichte wijziging
 
-Start with a **comparison test** on another network you control. If the same peer becomes direct, you have useful evidence about the original network path. Review its UDP restrictions and NAT arrangement before changing unrelated DNS or application settings.
+Begin met een **vergelijkingstest** op een ander netwerk dat je beheert. Als dezelfde peer daar direct bereikbaar wordt, heb je bruikbaar bewijs over de oorspronkelijke netwerkroute. Bekijk de UDP-beperkingen en NAT-configuratie voordat je ongerelateerde DNS- of applicatie-instellingen wijzigt.
 
-**Change one variable**, rerun the checks, and measure the same workload. Record transfer direction, file size, elapsed time, and connection type. This separates an improved path from an unrelated change in server or storage load.
+**Wijzig één variabele**, voer de controles opnieuw uit en meet dezelfde workload. Noteer de overdrachtsrichting, bestandsgrootte, verstreken tijd en het verbindingstype. Zo kun je een verbeterde route onderscheiden van een losstaande wijziging in server- of opslagbelasting.
 
-**Firewall changes** should follow the platform-specific guidance and the evidence you collected. Opening an application port to the public Internet does not itself improve Tailscale's transport path. Keep changes limited to the required traffic and network you administer. [Tailscale firewall guidance](https://tailscale.com/docs/integrations/firewalls).
+**Firewallwijzigingen** moeten aansluiten op platformspecifieke richtlijnen en het verzamelde bewijs. Een applicatiepoort openstellen op het publieke internet verbetert op zichzelf de transportroute van Tailscale niet. Beperk wijzigingen tot het vereiste verkeer en het netwerk dat je beheert. [Firewallrichtlijnen van Tailscale](https://tailscale.com/docs/integrations/firewalls).
 
-| Finding | Change worth evaluating |
+| Bevinding | Wijziging om te beoordelen |
 |---|---|
-| **UDP probe fails** | Review outbound UDP restrictions on this network |
-| **Mapping changes across destinations** | Review NAT behavior on equipment you control |
-| **Direct path, slow application** | Investigate the host, underlying connection, and workload |
-| **Working relay, acceptable experience** | Keep the arrangement and document the baseline |
+| **UDP-probe mislukt** | Bekijk uitgaande UDP-beperkingen op dit netwerk |
+| **Mapping verschilt per bestemming** | Bekijk het NAT-gedrag op apparatuur die je beheert |
+| **Directe route, trage applicatie** | Onderzoek de host, onderliggende verbinding en workload |
+| **Werkende relay, aanvaardbare ervaring** | Behoud de configuratie en documenteer de basiswaarde |
 
-*Prefer a measured improvement over changing settings solely to remove a relay label.*
+*Geef de voorkeur aan een gemeten verbetering boven het wijzigen van instellingen om alleen een relaylabel te verwijderen.*
 
-## Evaluate a Peer Relay
+## Evalueer een peer-relay
 
-A **peer relay** requires a suitable host, reachable UDP port, and an access policy permitting its use. Both the relay and participating clients require Tailscale 1.86 or later. Review supported host platforms before allocating a device. [Peer-relay requirements](https://tailscale.com/docs/features/peer-relay).
+Een **peer-relay** vereist een geschikte host, een bereikbaar UDP-poortnummer en een toegangsbeleid dat gebruik toestaat. Zowel de relay als de deelnemende clients moeten Tailscale 1.86 of later gebruiken. Controleer de ondersteunde hostplatforms voordat je een apparaat aanwijst. [Vereisten voor peer-relays](https://tailscale.com/docs/features/peer-relay).
 
-**Placement determines usefulness.** A device behind the same inaccessible network boundary needs a reachable relay port before it helps other peers. Choosing a host geographically near the endpoints is insufficient without connectivity to it.
+**De plaatsing bepaalt het nut.** Een apparaat achter dezelfde ontoegankelijke netwerkgrens helpt andere peers niet voordat de relaypoort bereikbaar is.
 
-**Maintenance tradeoff:** someone must keep the relay online, updated, and adequately provisioned. For occasional administration with acceptable latency, compare this burden with the measured benefit. For repeated large transfers, measure the workload through the proposed relay before adopting it.
+**Onderhoudsafweging:** iemand moet de relay online, bijgewerkt en voldoende krachtig houden. Vergelijk die inspanning met het gemeten voordeel wanneer je Tailscale af en toe beheert en de latentie aanvaardbaar is. Meet bij herhaalde grote overdrachten eerst de workload via de voorgestelde relay.
 
-## Check Shared Traffic Effects
+## Controleer gedeelde verkeerseffecten
 
-**Aggregated traffic** deserves attention when a subnet router or exit node carries several workloads through DERP. Tailscale documents situations where heavy relayed traffic delays latency-sensitive traffic sharing the connection. [Hard-NAT troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
+**Geaggregeerd verkeer** verdient aandacht wanneer een subnetrouter of exit-node meerdere workloads via DERP vervoert. Tailscale documenteert situaties waarin veel relayverkeer latencygevoelig verkeer op dezelfde verbinding vertraagt. [Problemen met hard NAT oplossen](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
 
-**Comparison exercise:** observe your interactive session before, during, and after a large backup. Keep the endpoint pair fixed and record the path each time. Delays appearing during the transfer justify investigating shared load, but do not establish its exact cause.
+**Vergelijkingsoefening:** observeer je interactieve sessie vóór, tijdens en na een grote back-up. Houd het apparaatpaar gelijk en noteer telkens de route. Vertraging die tijdens de overdracht ontstaat, rechtvaardigt onderzoek naar gedeelde belasting, maar bewijst de precieze oorzaak niet.
 
-**Choose the next test** from the observation. Check link saturation and host load, then evaluate a direct path or separating latency-sensitive services if the topology supports it. Avoid treating a DNS symptom as automatic evidence of a DNS configuration error.
+**Kies de volgende test** op basis van de waarneming. Controleer de linkverzadiging en hostbelasting. Evalueer daarna een directe route of het scheiden van latencygevoelige diensten als de topologie dit ondersteunt. Behandel een DNS-symptoom niet automatisch als bewijs van een DNS-configuratiefout.
 
-## Is a Relay an Exit Node?
+## Is een relay een exit-node?
 
-An **exit node** routes a client's general Internet traffic through a selected tailnet device. A relay carries traffic between Tailscale peers. Selecting an exit node does not guarantee a direct path to it. [Exit-node documentation](https://tailscale.com/docs/features/exit-nodes).
+Een **exit-node** routeert het algemene internetverkeer van een client via een gekozen apparaat in het tailnet. Een relay vervoert verkeer tussen Tailscale-peers. Het selecteren van een exit-node garandeert geen directe route ernaartoe. [Documentatie over exit-nodes](https://tailscale.com/docs/features/exit-nodes).
 
-## Create a Diagnostic Record
+## Maak een diagnoserapport
 
-Save a **small before-and-after record** for the actual problem:
+Bewaar een **kort voor-en-na-rapport** voor het werkelijke probleem:
 
 ```text
-Date and Tailscale versions:
-Source and destination devices:
-Networks used by each device:
-Initial and settled connection paths:
-Netcheck observations from both ends:
-Workload, direction, and elapsed time:
-Single change tested:
-Retest result:
-Decision to keep or revert:
+Datum en Tailscale-versies:
+Bron- en doelapparaten:
+Gebruikte netwerken per apparaat:
+Eerste en uiteindelijke verbindingsroutes:
+Netcheck-waarnemingen aan beide kanten:
+Workload, richting en verstreken tijd:
+Geteste enkele wijziging:
+Resultaat van de hertest:
+Besluit om te behouden of terug te draaien:
 ```
 
-**Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+**Voltooiingscriterium:** het rapport verbindt een specifiek symptoom met waarnemingen, een hypothese en een gemeten hertest. “De relay is verdwenen” is onvolledig als de applicatie nog steeds traag is. “De back-up voldoet via DERP aan de tijdseis” is een geldig resultaat als de eis expliciet is.
 
-**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
+**Gebruik `tailscale netcheck` als bewijs, niet als oordeel.** De opdracht beschrijft het netwerk zoals één apparaat dat ziet. De uiteindelijke route hoort bij een apparaatpaar en een workload. Leg beide eindpunten, de laatste `tailscale status`-regel en de applicatiemeting vast voordat je firewall- of NAT-instellingen wijzigt.
 
 ## Volgende stappen
 
-Record the path to your important peer and test the workload before changing network settings. For the separate question of who operates your coordination infrastructure, read [Tailscale vs Headscale](/articles/tailscale-vs-headscale-comparison-guide/).
+Noteer de route naar je belangrijke peer en test de workload voordat je netwerkinstellingen wijzigt. Lees [Tailscale versus Headscale](/articles/tailscale-vs-headscale-comparison-guide/) voor de aparte vraag wie je coördinatie-infrastructuur beheert.

@@ -252,6 +252,33 @@ Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
 
+## RSAT と PowerShell の現在の確認事項
+
+Microsoft は現在、Remote Server Administration Tools (RSAT) を通じて Active Directory モジュールを配布しています。サポート対象の Windows クライアントでは、管理者権限の PowerShell セッションからオンデマンド機能をインストールします。
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+Windows Server では、Microsoft が文書化しているサーバー機能の手順を使います。
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+管理コマンドを実行する前に、モジュールを確認してください。
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+[ActiveDirectory モジュールのリファレンス](https://learn.microsoft.com/en-us/powershell/module/activedirectory/)には、RSAT がモジュールを提供することと、利用可能な cmdlet が記載されています。ホスト OS に合ったバージョンを使ってください。PowerShell 7 には互換性に関する注意点があります。既存の管理手順を変える前に、本番環境以外のワークステーションでモジュールをテストしてください。
+
+運用上の推奨として、cmdlet が対応している場合は `-WhatIf` を使い、特定のドメインコントローラーが重要な場合は `-Server` でクエリを絞り、作業に必要な権限だけを要求します。PowerShell の[共通パラメーター](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters)には `-WhatIf` の説明があります。パスワードをコマンド履歴やスクリプトに保存しないでください。安全な[Get-Credential プロンプト](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential)、保護されたシークレットストア、またはローテーション手順を文書化した委任サービスアカウントを使ってください。
+
 ## 結論
 
 まとめると、**PowerShell 用 Active Directory モジュール** は、Windows Active Directory の効率的かつ便利な管理を可能にする強力なツールです。モジュールをインストールしてインポートすることで、さまざまな AD 関連タスクを簡素化する包括的な **コマンドレット** にアクセスできます。

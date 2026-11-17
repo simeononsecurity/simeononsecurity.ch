@@ -1,13 +1,14 @@
 ---
-title: "De kracht van Cybersecurity: Hoe bouw je een compliant en veilig Windows-systeem met Standalone-Windows-STIG-Script?"
+title: "Standalone-Windows-STIG-Script: maak een conforme pc"
 date: 2023-02-02
 toc: true
 draft: false
-description: "Ontdek hoe u een veilig en compliant Windows-systeem kunt maken met het gebruiksvriendelijke Standalone-Windows-STIG-Script, een informatief artikel met stapsgewijze instructies en gedetailleerde uitleg over parameters."
-tags: ["STIG Script", "Windows Beveiliging", "Compatibel Windows-systeem", "Systeemverharding", "Windows STIG", "Beveiligde ramen", "Overeenstemming met Windows", "Handmatige installatie", "Windows Updates", "Adobe Reader", "Firefox", "Chroom", "Internet Explorer 11", ".NET-kader", "Kantoor", "OneDrive", "Java", "Windows Defender", "Windows Firewall", "Mitigaties", "Nessus PID", "VMware Horizon", "Optionele verharding"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
-coverAlt: "Een screenshot van een computerscherm met een voortgangsbalk die het voltooiingspercentage aangeeft."
+description: "Stapsgewijze handleiding voor Standalone-Windows-STIG-Script op conforme Windows-systemen, met parameters en verificatiestappen."
+tags: ["STIG-script", "Windows-beveiliging", "Conform Windows-systeem", "Systeemverharding", "Windows STIG", "Beveiligde Windows", "Windows-compliance", "Handmatige installatie", "Windows-updates", "Adobe Reader", "Firefox", "Chrome", "Internet Explorer 11", ".NET Framework", "Office", "OneDrive", "Java", "Windows Defender", "Windows Firewall", "Risicobeperkende maatregelen", "Nessus PID", "VMware Horizon", "Optionele verharding"]
+cover: "/img/cover/create-compliant-windows-desktop-systems-with-standalone-windows-stig-script.webp"
+coverAlt: "Illustratie van een computerscherm met een beveiligingscompliance-interface, dynamische voortgangsbalken en datastromen op een donker marineblauwe achtergrond met heldere accenten."
 coverCaption: ""
+lastmod: 2026-11-09
 ---
 
 Windows-systemen worden veel gebruikt in bedrijven, organisaties en zelfs thuis. Met het toenemende aantal cyberaanvallen is het cruciaal om ervoor te zorgen dat deze systemen veilig zijn en voldoen aan de industrienormen. Het Standalone-Windows-STIG-Script is een handig hulpmiddel waarmee u precies dat kunt bereiken. In dit artikel onderzoeken we wat het Standalone-Windows-STIG-Script is, hoe het werkt en hoe u het kunt gebruiken om een veilig en compliant Windows-systeem te maken.
@@ -32,7 +33,7 @@ Het Standalone-Windows-STIG-Script implementeert de richtlijnen van de STIG om e
 
 - **Compliance**: Het script implementeert de richtlijnen van de STIG, zodat het Windows-systeem voldoet aan de industrienormen.
 
-- Gemoedsrust**: Door het Standalone-Windows-STIG-Script te gebruiken, kunt u er gerust op zijn dat uw Windows-systeem veilig is en voldoet aan de industrienormen.
+- **Gemoedsrust**: Door het Standalone-Windows-STIG-Script te gebruiken, kunt u er gerust op zijn dat uw Windows-systeem veilig is en voldoet aan de industrienormen.
 
 _________________________________________________________________________________________________________________________
 

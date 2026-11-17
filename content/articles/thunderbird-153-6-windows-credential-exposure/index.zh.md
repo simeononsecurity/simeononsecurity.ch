@@ -1,12 +1,12 @@
 ---
 title: "Thunderbird 153.6：Windows NTLM 凭据泄露与更新方法（2026）"
 date: 2026-10-28
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "显示特制邮件时，Thunderbird 的两项严重漏洞可能泄露 Windows NTLM 身份验证数据。本文介绍两种触发路径、版本检查方法，以及更新期间限制出站 SMB 的措施。"
 genre: ["网络安全", "电子邮件安全", "Windows 安全"]
-tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird 安全更新", "Thunderbird Windows 漏洞", "Thunderbird NTLM 泄露", "Thunderbird SMB 身份验证", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP 密钥附件", "外部附件", "阻止远程内容", "mailbox URL", "扩展长度 UNC 路径", "Windows 帐户名", "NTLM 身份验证数据", "SMB 凭据泄露", "出站 SMB", "TCP 端口 445", "电子邮件安全", "Windows 邮件客户端", "检查 Thunderbird 版本", "更新 Thunderbird", "NTLM 中继", "离线密码破解"]
+tags: ["Thunderbird 153.6", "Thunderbird 153.6.0esr", "Thunderbird 安全更新", "Thunderbird Windows 漏洞", "Thunderbird NTLM 泄露", "Thunderbird SMB 身份验证", "CVE-2026-118174", "CVE-2026-118176", "MFSA 2026-122", "OpenPGP 密钥附件", "外部附件", "阻止远程内容", "邮箱 URL", "扩展长度 UNC 路径", "Windows 帐户名", "NTLM 身份验证数据", "SMB 凭据泄露", "出站 SMB", "TCP 端口 445", "电子邮件安全", "Windows 邮件客户端", "检查 Thunderbird 版本", "更新 Thunderbird", "NTLM 中继", "离线密码破解"]
 cover: ""
 coverAlt: ""
 coverCaption: ""

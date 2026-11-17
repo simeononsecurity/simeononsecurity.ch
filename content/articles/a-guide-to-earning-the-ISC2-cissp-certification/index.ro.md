@@ -1,6 +1,7 @@
 ---
 title: "Ghidul începătorului pentru certificarea CISSP: Sfaturi pentru pregătirea examenului"
 date: 2023-05-15
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Aflați pașii de pregătire și de promovare a examenului CISSP, o certificare prestigioasă pentru profesioniștii din domeniul securității informațiilor."
@@ -12,11 +13,11 @@ coverCaption: ""
 
 **Un ghid pentru începători pentru a obține o certificare CISSP: Pregătirea pentru examenul Certified Information Systems Security Professional**.
 
-Site-ul [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) certification is a highly sought-after certification for professionals in the field of information security. It is considered the gold standard in the industry and is recognized worldwide as a benchmark for excellence in the field of information security. This guide will provide an overview of the [CISSP certification](https://www.isc2.org/Certifications/CISSP) și oferă sfaturi despre cum să vă pregătiți pentru examen.
+Certificarea [**Certified Information Systems Security Professional (CISSP)**](https://www.isc2.org/Certifications/CISSP) este foarte căutată de profesioniștii din domeniul securității informațiilor. Este considerată standardul de referință al industriei și recunoscută la nivel mondial drept un reper de excelență în acest domeniu. Acest ghid prezintă [certificarea CISSP](https://www.isc2.org/Certifications/CISSP) și oferă sfaturi pentru pregătirea examenului.
 
 ## Ce este certificarea CISSP?
 
-. [CISSP certification](https://www.isc2.org/Certifications/CISSP) is an advanced-level certification that validates a candidate's expertise in information security. It is awarded by the International Information System Security Certification Consortium, or (ISC) care este o organizație non-profit specializată în educația și certificarea în domeniul securității informațiilor.
+[Certificarea CISSP](https://www.isc2.org/Certifications/CISSP) este o certificare de nivel avansat care validează competențele candidatului în securitatea informațiilor. Este acordată de International Information System Security Certification Consortium, cunoscut și ca (ISC)², o organizație non-profit specializată în educație și certificare în domeniul securității informațiilor.
 
 Pentru a obține certificatul [CISSP certification](https://www.isc2.org/Certifications/CISSP) candidații trebuie să treacă un examen care acoperă opt domenii ale securității informațiilor. Aceste domenii includ **gestiunea securității și a riscurilor**, **securitatea activelor**, **ingineria securității**, **securitatea comunicațiilor și a rețelelor**, **gestionarea identității și a accesului**, **evaluarea și testarea securității**, **operațiunile de securitate** și **securitatea dezvoltării de software**.
 
@@ -30,7 +31,7 @@ Pregătirea pentru examenul CISSP poate fi o sarcină descurajantă, dar există
 
 ### Pasul 1: Îndepliniți cerințele de eligibilitate
 
-Înainte de a începe procesul de pregătire, este important să vă asigurați că îndepliniți cerințele de eligibilitate pentru [CISSP certification.](https://www.isc2.org/Certifications/CISSP) Candidates must have a minimum of five years of cumulative, paid, full-time work experience in two or more of the eight domains of the CISSP Common Body of Knowledge (CBK)
+Înainte de a începe pregătirea, verificați dacă îndepliniți condițiile de eligibilitate pentru [certificarea CISSP](https://www.isc2.org/Certifications/CISSP). Candidații trebuie să aibă cel puțin cinci ani de experiență profesională cumulată, plătită și cu normă întreagă în două sau mai multe dintre cele opt domenii ale CISSP Common Body of Knowledge (CBK).
 
 Alternativ, candidații pot îndeplini cerințele de eligibilitate cu patru ani de experiență profesională și o diplomă universitară aplicabilă sau o altă acreditare aprobată.
 
@@ -49,10 +50,10 @@ Există diverse materiale de studiu la dispoziția candidaților, cum ar fi manu
 ### Resurse recomandate
 - YouTube
   - {{< youtube id="_nyZhYnCNLA" >}}
-- [PluralSight (Preferred)](https://www.pluralsight.com/)
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [More Learning Resources](https://simeononsecurity.com/recommendations/learning_resources)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
+- [Pluralsight (preferat)](https://www.pluralsight.com/)
+- [Ghid oficial de studiu și teste practice](https://amzn.to/3LAu3Ly)
+- [Mai multe resurse de învățare](https://simeononsecurity.com/recommendations/learning_resources)
+- [Test de practică CISSP de la SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Pasul 4: Exersează cu examene practice
 
@@ -60,8 +61,8 @@ Examenele de practică sunt o modalitate excelentă de a vă evalua cunoștințe
 
 Este important să dați mai multe examene de practică pentru a vă familiariza cu tipurile de întrebări care pot fi puse și pentru a vă dezvolta abilitățile de gestionare a timpului.
 
-- [Official Study Guide and Practice Tests](https://amzn.to/3LAu3Ly)
-- [SimeonOnSecurity's CISSP Practice Test](https://simeononsecurity.com/cissp-practice-test)
+- [Ghid oficial de studiu și teste practice](https://amzn.to/3LAu3Ly)
+- [Test de practică CISSP de la SimeonOnSecurity](https://simeononsecurity.com/cissp-practice-test)
 
 ### Pasul 5: Înscrieți-vă la examen
 

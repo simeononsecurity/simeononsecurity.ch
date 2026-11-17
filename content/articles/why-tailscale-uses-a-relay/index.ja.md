@@ -1,55 +1,55 @@
 ---
-title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
+title: "Tailscale がリレーを使う理由: 直接接続、DERP、ピアリレー"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-11-07
 toc: true
 draft: false
-description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
+description: "Tailscale がリレーを使う理由、status と netcheck の出力の読み方、DERP またはピアリレー接続を調査するタイミングを説明します。"
 genre: ["Networking", "Network Security", "Self-Hosted"]
-tags: ["Tailscale", "Tailscale relay", "DERP", "Tailscale Peer Relay", "direct connection", "WireGuard", "NAT traversal", "hard NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN performance", "remote access", "tailnet", "homelab networking", "relay latency", "end-to-end encryption"]
+tags: ["Tailscale", "Tailscale リレー", "DERP", "Tailscale ピアリレー", "直接接続", "WireGuard", "NAT トラバーサル", "ハード NAT", "CGNAT", "UDP", "tailscale status", "tailscale ping", "tailscale netcheck", "MappingVariesByDestIP", "VPN パフォーマンス", "リモートアクセス", "tailnet", "ホームラボネットワーク", "リレー遅延", "エンドツーエンド暗号化"]
 cover: "/img/cover/why-tailscale-uses-a-relay.webp"
-coverAlt: "Two laptops on separate islands exchange locked packets through a central relay while a direct path is interrupted."
+coverAlt: "離れた島にいる2台のノートパソコンが、直接経路が途切れた状態で中央のリレーを通じて暗号化パケットを交換しています。"
 coverCaption: ""
 ---
 
-**Tailscale uses a relay** when devices have not established a direct connection. A brief DERP connection during startup is normal. Persistent relaying often reflects network address translation (NAT) or firewall conditions affecting the route between the devices. Direct, DERP, and peer-relay connections all retain WireGuard end-to-end encryption. [Tailscale connection types](https://tailscale.com/docs/reference/connection-types).
+**Tailscale がリレーを使うのは**、デバイス間で直接接続を確立できていない場合です。起動時に短時間 DERP 接続になるのは正常です。リレー経由が続く場合は、多くの場合、デバイス間の経路に影響するネットワークアドレス変換 (NAT) やファイアウォールの条件が関係します。直接接続、DERP、ピアリレーのいずれでも、WireGuard のエンドツーエンド暗号化は維持されます。[Tailscale の接続タイプ](https://tailscale.com/docs/reference/connection-types)
 
 ## 要点
 
-- **Recognize the path:** distinguish direct, DERP, and peer-relay connections.
-- **Collect evidence:** run peer-specific probes and network checks on both ends.
-- **Analyze the pattern:** compare device pairs and network conditions.
-- **Choose a change:** justify it with a measured workload and a retest.
+- **経路を見分ける:** 直接接続、DERP、ピアリレーを区別します。
+- **証拠を集める:** 両端で対象ピアへのプローブとネットワークチェックを実行します。
+- **パターンを分析する:** デバイスの組み合わせとネットワーク条件を比較します。
+- **変更を選ぶ:** 測定したワークロードと再テストの結果に基づいて判断します。
 
 ## 始める前に
 
-**Prerequisites:** two enrolled, online devices and a terminal with the Tailscale command-line interface, or **CLI**, available. You need administrative access only if the investigation leads to configuration changes.
+**前提条件:** Tailscale に登録済みでオンラインのデバイスが2台あり、Tailscale のコマンドラインインターフェイス、つまり **CLI** を使えるターミナルが必要です。管理者アクセスが必要になるのは、調査の結果として設定を変更する場合だけです。
 
-**Estimated effort:** five minutes for basic checks, then 15–20 minutes for the comparison exercise. **Difficulty:** beginner for observation and intermediate for network changes. Define the problem first, such as a slow backup or delayed terminal response.
+**所要時間の目安:** 基本チェックに5分、その後、比較演習に15～20分。**難易度:** 状況の観察は初級、ネットワーク変更は中級です。最初に、バックアップが遅い、ターミナルの応答が遅れるなど、問題を具体的に定義してください。
 
-## Direct, DERP, and Peer Relay
+## 直接接続、DERP、ピアリレー
 
-A **tailnet** is your Tailscale network. Its devices attempt direct UDP connectivity, with relays available when the direct path fails. Tailscale periodically rechecks its connection options. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**tailnet** は Tailscale のネットワークです。デバイスは UDP による直接接続を試み、直接経路が使えない場合はリレーを利用できます。Tailscale は接続オプションを定期的に再確認します。[接続の確立](https://tailscale.com/docs/reference/connection-types)
 
-| Path | Traffic route | Typical implication |
+| 経路 | 通信経路 | 一般的な意味 |
 |---|---|---|
-| **Direct** | Between the two devices | Usually the preferred performance path |
-| **DERP relay** | Through Tailscale relay infrastructure | Adds an intermediary when direct access fails |
-| **Peer relay** | Through a configured device in your tailnet | An alternative relay under your administration |
+| **直接接続** | 2台のデバイス間 | 通常、パフォーマンス面で優先される経路 |
+| **DERP リレー** | Tailscale のリレーインフラストラクチャ経由 | 直接アクセスに失敗した場合に中継点を追加 |
+| **ピアリレー** | tailnet 内で設定したデバイス経由 | 自分で管理する別のリレー経路 |
 
-**DERP performance** depends partly on the extra route and shared service capacity. Tailscale documents throughput limits intended to share DERP resources fairly. There is no universal relay speed suitable for predicting your file-transfer time. [Tailscale performance troubleshooting](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet).
+**DERP のパフォーマンス**は、追加される経路や共有サービスの容量にも左右されます。Tailscale は DERP リソースを公平に共有するためのスループット制限を公開しています。ファイル転送時間を予測できるような、あらゆる環境に当てはまるリレー速度はありません。[Tailscale のパフォーマンス問題を解決する](https://tailscale.com/docs/reference/troubleshooting/poor-performance-tailnet)
 
-## Understand Connection Negotiation
+## 接続ネゴシエーションを理解する
 
-**NAT traversal** is the process of establishing a usable path across address-translating devices. Tailscale begins communication through DERP while negotiating a direct path. If direct connectivity fails, an available configured peer relay provides another option. Tailscale rechecks its options over time. [Connection establishment](https://tailscale.com/docs/reference/connection-types).
+**NAT トラバーサル**とは、アドレス変換を行う機器を越えて利用可能な経路を確立するプロセスです。Tailscale は DERP 経由で通信を始め、同時に直接経路をネゴシエートします。直接接続に失敗した場合、利用可能な設定済みピアリレーが別の選択肢になります。Tailscale は時間の経過に伴って接続オプションを再確認します。[接続の確立](https://tailscale.com/docs/reference/connection-types)
 
-**Hard NAT** describes mapping behavior making traversal difficult. The conditions at both ends matter. Two devices behind different routers do not necessarily behave alike, even if both networks use private addresses. [Device connectivity](https://tailscale.com/docs/reference/device-connectivity).
+**ハード NAT**は、NAT トラバーサルを難しくするマッピング動作を指します。両端の条件が関係します。異なるルーターの背後にある2台のデバイスは、両方のネットワークがプライベートアドレスを使っていても、同じように動作するとは限りません。[デバイスの接続性](https://tailscale.com/docs/reference/device-connectivity)
 
-For **a roaming laptop**, the path to your home server might change after moving from home Wi-Fi to a hotel network. Record the network used during the observation. Yesterday's direct connection is not evidence about today's route.
+**持ち歩くノートパソコン**では、自宅の Wi-Fi からホテルのネットワークへ移動した後、ホームサーバーへの経路が変わることがあります。観察時に使ったネットワークを記録してください。昨日の直接接続は、今日の経路を示す証拠にはなりません。
 
-## Check Your Current Connection
+## 現在の接続を確認する
 
-Replace **`home-server`** with your peer's Tailscale name or address:
+**`home-server`** を、対象ピアの Tailscale 名またはアドレスに置き換えます。
 
 ```bash
 tailscale ping home-server
@@ -57,119 +57,119 @@ tailscale status
 tailscale netcheck
 ```
 
-**`tailscale ping`** probes connectivity to the named peer. **`tailscale status`** lists peers and connection details. **`tailscale netcheck`** reports conditions on the device running the command. The [Tailscale CLI reference](https://tailscale.com/docs/reference/tailscale-cli) documents these commands.
+**`tailscale ping`** は指定したピアへの接続を確認します。**`tailscale status`** はピアと接続の詳細を一覧表示します。**`tailscale netcheck`** はコマンドを実行したデバイスのネットワーク状況を報告します。各コマンドの詳細は [Tailscale CLI リファレンス](https://tailscale.com/docs/reference/tailscale-cli)を参照してください。
 
-| Output indicator | Read it as |
+| 出力の表示 | 意味 |
 |---|---|
-| **`direct`** | Traffic to this peer uses a direct path |
-| **`relay`** | Traffic to this peer uses DERP |
-| **`peer-relay`** | Traffic uses a configured peer relay |
-| **An initial DERP pong** | Inspect subsequent results before deciding the path stayed relayed |
+| **`direct`** | 対象ピアへの通信は直接経路を使っています |
+| **`relay`** | 対象ピアへの通信は DERP を使っています |
+| **`peer-relay`** | 通信は設定済みのピアリレーを使っています |
+| **最初の DERP pong** | リレー経由が続いていると判断する前に、その後の結果を確認してください |
 
-These labels come from the [connection-type documentation](https://tailscale.com/docs/reference/connection-types). **Generate traffic first**, then inspect the peer you care about. The commands above are examples, not captured results from a benchmark.
+これらの表示は[接続タイプのドキュメント](https://tailscale.com/docs/reference/connection-types)に基づいています。**先に通信を発生させてから**、確認したいピアを調べてください。上記のコマンドは例であり、ベンチマークで記録した結果ではありません。
 
-## Interpret a Path Change
+## 経路の変化を読み取る
 
-This **illustrative sequence** omits addresses and timings so you focus on the connection transition:
+次の**例示シーケンス**では、接続の切り替わりに注目できるよう、アドレスと時間を省略しています。
 
 ```text
-First response:    via DERP
-Later response:    via a direct endpoint
-Status afterward: direct
+最初の応答:      DERP 経由
+後の応答:        直接エンドポイント経由
+その後の status: direct
 ```
 
-**Interpretation:** negotiation succeeded during this observation. The first response alone would have produced the wrong diagnosis. If later responses and status remain relayed, record a persistent relay for this device pair and test period.
+**解釈:** この観察ではネゴシエーションに成功しています。最初の応答だけで判断していたら、誤った診断になっていたでしょう。その後の応答と status でもリレー経由が続く場合は、このデバイスの組み合わせとテスト期間でリレー接続が継続していると記録します。
 
-**Probe scope:** a successful Tailscale ping establishes peer connectivity for its probe. It does not prove your dashboard, file service, or SSH daemon accepts application traffic. Test the failing application separately before declaring the problem solved.
+**プローブで確認できる範囲:** Tailscale ping が成功すれば、そのプローブについてピアとの接続を確認できます。ダッシュボード、ファイルサービス、SSH デーモンがアプリケーション通信を受け付けることまでは証明できません。問題が解決したと判断する前に、障害が発生しているアプリケーションも別にテストしてください。
 
-## What Netcheck Tells You
+## netcheck で分かること
 
-Run **`tailscale netcheck` on both devices**. Compare these fields against the [device-connectivity reference](https://tailscale.com/docs/reference/device-connectivity):
+**両方のデバイスで `tailscale netcheck` を実行します。** 次のフィールドを[デバイス接続性のリファレンス](https://tailscale.com/docs/reference/device-connectivity)と照らし合わせます。
 
-| Field | Useful interpretation |
+| フィールド | 判断の手がかり |
 |---|---|
-| **`UDP`** | Whether the probe observed outbound UDP connectivity |
-| **`MappingVariesByDestIP`** | Changing external mappings suggest difficult NAT traversal |
-| **`IPv6`** | Whether this device has usable IPv6 connectivity |
-| **`PortMapping`** | Whether a supported port-mapping mechanism is available |
+| **`UDP`** | プローブが外向き UDP 接続を確認したか |
+| **`MappingVariesByDestIP`** | 外部マッピングが変化する場合、NAT トラバーサルが難しい可能性があります |
+| **`IPv6`** | デバイスが利用可能な IPv6 接続を持つか |
+| **`PortMapping`** | サポート対象のポートマッピング方式を利用できるか |
 
-**One field is not a verdict.** An available mapping mechanism does not prove a particular peer path works. Likewise, a relay label does not identify which router caused it. Compare both endpoints and the actual ping results.
+**1つのフィールドだけでは断定できません。** マッピング方式を利用できても、特定のピアへの経路が機能する証拠にはなりません。リレー表示から原因となったルーターを特定することもできません。両端と実際の ping 結果を比較してください。
 
-**Carrier NAT** is relevant when upstream translation is outside your control, as discussed in our [T-Mobile port-forwarding explainer](/articles/t-mobile-home-internet-port-forwarding/). Avoid assuming every connection behind carrier NAT has identical traversal behavior.
+**キャリア NAT**も関係します。上流のアドレス変換を管理できない場合があるためです。詳細は[ T-Mobile Home Internet のポートフォワーディング解説](/articles/t-mobile-home-internet-port-forwarding/)を参照してください。キャリア NAT の背後にある接続がすべて同じように動作すると決めつけないでください。
 
-## Compare Three Device Pairs
+## 3組のデバイスを比較する
 
-Use a **third enrolled device**, if available, to improve the evidence. The following is a hypothetical pattern, not a measured result:
+可能であれば、**3台目の登録済みデバイス**を使って証拠を増やします。以下は仮定上のパターンであり、測定結果ではありません。
 
-| Device pair | Observed path |
+| デバイスの組み合わせ | 観察された経路 |
 |---|---|
-| **Laptop to home server** | DERP |
-| **Laptop to another server** | Direct |
-| **Home server to another server** | DERP |
+| **ノートパソコンからホームサーバー** | DERP |
+| **ノートパソコンから別のサーバー** | 直接接続 |
+| **ホームサーバーから別のサーバー** | DERP |
 
-**Working hypothesis:** prioritize the home server's network for investigation because both observed paths involving it stayed relayed. This is a lead, not proof. Each pair negotiates independently, and the comparison server has its own network conditions.
+**作業仮説:** ホームサーバーが関係する2つの経路でリレーが続いたため、まずホームサーバーのネットワークを調査します。これは手がかりであり、証明ではありません。接続ネゴシエーションは組み合わせごとに行われ、比較対象のサーバーにも独自のネットワーク条件があります。
 
-**Next observation:** collect netcheck output on all three devices and repeat the laptop-to-home test from another network you control. If the path changes, record exactly which network changed. Avoid attributing the result to a particular firewall setting until you test it.
+**次の観察:** 3台すべてで netcheck の出力を集め、別の管理下にあるネットワークからノートパソコンとホームサーバー間のテストを繰り返します。経路が変化したら、どのネットワークを変えたか正確に記録してください。テストする前に特定のファイアウォール設定が原因だと判断しないでください。
 
-**Review exercise:** laptop-to-home is direct, but a file transfer remains slow. A relay explanation no longer matches this observation. Check the underlying upload connection, server load, storage, and application behavior before changing relay settings.
+**演習:** ノートパソコンとホームサーバーは直接接続しているのに、ファイル転送が遅い状態です。この観察ではリレーが原因という説明は当てはまりません。リレー設定を変更する前に、基盤となるアップロード接続、サーバー負荷、ストレージ、アプリケーションの動作を確認してください。
 
-## Choose a Targeted Change
+## 対象を絞った変更を選ぶ
 
-Start with a **comparison test** on another network you control. If the same peer becomes direct, you have useful evidence about the original network path. Review its UDP restrictions and NAT arrangement before changing unrelated DNS or application settings.
+まず、管理下にある別のネットワークで**比較テスト**を行います。同じピアが直接接続できれば、元のネットワーク経路に関する有用な証拠になります。関係のない DNS やアプリケーション設定を変える前に、UDP の制限と NAT の構成を確認してください。
 
-**Change one variable**, rerun the checks, and measure the same workload. Record transfer direction, file size, elapsed time, and connection type. This separates an improved path from an unrelated change in server or storage load.
+**変更する変数を1つに絞り**、同じ確認をやり直して同じワークロードを測定します。転送方向、ファイルサイズ、経過時間、接続タイプを記録してください。これにより、経路の改善と、サーバーやストレージ負荷の変化を区別できます。
 
-**Firewall changes** should follow the platform-specific guidance and the evidence you collected. Opening an application port to the public Internet does not itself improve Tailscale's transport path. Keep changes limited to the required traffic and network you administer. [Tailscale firewall guidance](https://tailscale.com/docs/integrations/firewalls).
+**ファイアウォールの変更**は、プラットフォーム固有のガイダンスと収集した証拠に基づいてください。アプリケーションポートをインターネットに公開しても、それだけで Tailscale の通信経路が改善するわけではありません。必要な通信と管理対象のネットワークに変更を限定してください。[Tailscale のファイアウォールガイダンス](https://tailscale.com/docs/integrations/firewalls)
 
-| Finding | Change worth evaluating |
+| 観察結果 | 検討する変更 |
 |---|---|
-| **UDP probe fails** | Review outbound UDP restrictions on this network |
-| **Mapping changes across destinations** | Review NAT behavior on equipment you control |
-| **Direct path, slow application** | Investigate the host, underlying connection, and workload |
-| **Working relay, acceptable experience** | Keep the arrangement and document the baseline |
+| **UDP プローブが失敗する** | このネットワークの外向き UDP 制限を確認する |
+| **宛先ごとにマッピングが異なる** | 管理している機器の NAT 動作を確認する |
+| **直接接続なのにアプリケーションが遅い** | ホスト、基盤の接続、ワークロードを調べる |
+| **リレーは動作し、利用上の問題もない** | 現状を維持し、基準値を記録する |
 
-*Prefer a measured improvement over changing settings solely to remove a relay label.*
+*リレー表示だけを消す目的で設定を変更するより、測定で確認できる改善を優先してください。*
 
-## Evaluate a Peer Relay
+## ピアリレーを評価する
 
-A **peer relay** requires a suitable host, reachable UDP port, and an access policy permitting its use. Both the relay and participating clients require Tailscale 1.86 or later. Review supported host platforms before allocating a device. [Peer-relay requirements](https://tailscale.com/docs/features/peer-relay).
+**ピアリレー**には、適切なホスト、到達可能な UDP ポート、使用を許可するアクセス方針が必要です。リレーと参加するクライアントの両方で Tailscale 1.86 以降が必要です。デバイスを割り当てる前に、サポートされているホストプラットフォームを確認してください。[ピアリレーの要件](https://tailscale.com/docs/features/peer-relay)
 
-**Placement determines usefulness.** A device behind the same inaccessible network boundary needs a reachable relay port before it helps other peers. Choosing a host geographically near the endpoints is insufficient without connectivity to it.
+**配置によって有用性が決まります。** 同じ到達不能なネットワーク境界の内側にあるデバイスは、リレーポートに到達できるようになるまで、ほかのピアの助けにはなりません。
 
-**Maintenance tradeoff:** someone must keep the relay online, updated, and adequately provisioned. For occasional administration with acceptable latency, compare this burden with the measured benefit. For repeated large transfers, measure the workload through the proposed relay before adopting it.
+**保守の負担:** 誰かがリレーをオンラインに保ち、更新し、十分な性能を確保する必要があります。管理作業がたまにしかなく、遅延も許容できるなら、その負担と測定した効果を比較してください。大容量転送を繰り返す場合は、採用前に候補のリレー経由でワークロードを測定します。
 
-## Check Shared Traffic Effects
+## 共有トラフィックの影響を確認する
 
-**Aggregated traffic** deserves attention when a subnet router or exit node carries several workloads through DERP. Tailscale documents situations where heavy relayed traffic delays latency-sensitive traffic sharing the connection. [Hard-NAT troubleshooting](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues).
+サブネットルーターや出口ノードが複数のワークロードを DERP 経由で処理する場合、**集約トラフィック**に注意してください。Tailscale は、リレー経由の大量トラフィックが、同じ接続を共有する低遅延が必要な通信を遅らせる状況を説明しています。[ハード NAT の問題を解決する](https://tailscale.com/docs/reference/troubleshooting/network-configuration/hard-nat-issues)
 
-**Comparison exercise:** observe your interactive session before, during, and after a large backup. Keep the endpoint pair fixed and record the path each time. Delays appearing during the transfer justify investigating shared load, but do not establish its exact cause.
+**比較演習:** 大容量バックアップの前、実行中、完了後に、対話型セッションを観察します。対象のエンドポイントを固定し、毎回経路を記録してください。転送中に遅延が発生すれば共有負荷の調査を検討できますが、原因を特定したことにはなりません。
 
-**Choose the next test** from the observation. Check link saturation and host load, then evaluate a direct path or separating latency-sensitive services if the topology supports it. Avoid treating a DNS symptom as automatic evidence of a DNS configuration error.
+観察結果から**次のテストを選びます。** リンクの飽和とホスト負荷を確認します。そのうえで、トポロジーが許せば、直接経路の評価や低遅延が必要なサービスの分離を検討してください。DNS の症状だけを根拠に DNS 設定の誤りと決めつけないでください。
 
-## Is a Relay an Exit Node?
+## リレーは出口ノードですか？
 
-An **exit node** routes a client's general Internet traffic through a selected tailnet device. A relay carries traffic between Tailscale peers. Selecting an exit node does not guarantee a direct path to it. [Exit-node documentation](https://tailscale.com/docs/features/exit-nodes).
+**出口ノード**は、クライアントの一般的なインターネット通信を tailnet 内の指定デバイス経由でルーティングします。リレーは Tailscale のピア間で通信を中継します。出口ノードを選んでも、そのノードまで直接接続できるとは限りません。[出口ノードのドキュメント](https://tailscale.com/docs/features/exit-nodes)
 
-## Create a Diagnostic Record
+## 診断記録を作成する
 
-Save a **small before-and-after record** for the actual problem:
+実際の問題について、**変更前後の短い記録**を保存します。
 
 ```text
-Date and Tailscale versions:
-Source and destination devices:
-Networks used by each device:
-Initial and settled connection paths:
-Netcheck observations from both ends:
-Workload, direction, and elapsed time:
-Single change tested:
-Retest result:
-Decision to keep or revert:
+日付と Tailscale のバージョン:
+送信元と宛先のデバイス:
+各デバイスで使ったネットワーク:
+接続の初期経路と安定後の経路:
+両端の netcheck の結果:
+ワークロード、方向、経過時間:
+テストした変更1つ:
+再テストの結果:
+変更を維持するか戻すかの判断:
 ```
 
-**Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+**完了条件:** 記録によって、具体的な症状、観察結果、仮説、測定済みの再テストが結び付いていること。「リレーが消えた」だけでは、アプリケーションがまだ遅い場合に不十分です。「DERP 経由でもバックアップが時間要件を満たす」は、要件が明確なら有効な結果です。
 
-**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
+**`tailscale netcheck` は判定ではなく証拠として使ってください。** このコマンドが示すのは1台のデバイスから見たネットワークです。安定後の経路は、デバイスの組み合わせとワークロードによって決まります。ファイアウォールや NAT の設定を変更する前に、両端のデバイス、最後の `tailscale status` の行、アプリケーションの測定値を記録してください。
 
-## 次のステップ
+## 次の手順
 
-Record the path to your important peer and test the workload before changing network settings. For the separate question of who operates your coordination infrastructure, read [Tailscale vs Headscale](/articles/tailscale-vs-headscale-comparison-guide/).
+重要なピアへの経路を記録し、ネットワーク設定を変える前にワークロードをテストしてください。調整インフラストラクチャの運用者については、[Tailscale と Headscale の比較](/articles/tailscale-vs-headscale-comparison-guide/)を参照してください。

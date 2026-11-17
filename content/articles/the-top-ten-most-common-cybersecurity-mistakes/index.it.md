@@ -1,10 +1,11 @@
 ---
 title: "10 errori comuni di cybersecurity e come evitarli"
 date: 2023-03-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Scoprite come proteggervi dalle minacce informatiche evitando questi 10 comuni errori di sicurezza informatica."
-tags: ["sicurezza informatica", "sicurezza online", "minacce informatiche", "hacking", "phishing", "malware", "password", "Wi-Fi pubblico", "antivirus", "social media", "backup dei dati", "avvisi di sicurezza", "stazioni di ricarica pubbliche", "sicurezza informatica", "prevenzione del crimine informatico", "furto d'identità", "digital privacy", "sicurezza della rete", "aggiornamenti software", "sicurezza online"]
+tags: ["sicurezza informatica", "sicurezza online", "minacce informatiche", "attacchi informatici", "messaggi fraudolenti", "software dannoso", "password", "Wi-Fi pubblico", "programma antivirus", "media sociali", "backup dei dati", "avvisi di sicurezza", "stazioni di ricarica pubbliche", "sicurezza informatica", "prevenzione del crimine informatico", "furto d'identità", "privacy digitale", "sicurezza della rete", "aggiornamenti software", "sicurezza online"]
 cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Un lucchetto a fumetti che protegge un computer portatile, con un hacker sullo sfondo."
 coverCaption: ""
@@ -28,7 +29,7 @@ ____
 
 Le truffe di phishing sono una tattica comune utilizzata dai criminali informatici per ingannare le persone e indurle a fornire informazioni sensibili come nomi utente, password e numeri di carte di credito. Queste truffe si presentano spesso sotto forma di e-mail o messaggi di testo che sembrano provenire da una fonte legittima, come una banca o un rivenditore online.
 
-Per evitare di cadere nelle truffe di phishing, ** diffidate delle e-mail o dei messaggi non richiesti**, soprattutto di quelli che vi chiedono di cliccare su un link o di fornire informazioni personali. Se ricevete un'e-mail o un messaggio che vi sembra sospetto, non cliccate su alcun link e non fornite alcuna informazione. Contattate invece direttamente l'azienda per verificare l'autenticità del messaggio.
+Per evitare di cadere nelle truffe di phishing, **diffidate delle e-mail o dei messaggi non richiesti**, soprattutto di quelli che vi chiedono di cliccare su un link o di fornire informazioni personali. Se ricevete un'e-mail o un messaggio che vi sembra sospetto, non cliccate su alcun link e non fornite alcuna informazione. Contattate invece direttamente l'azienda per verificare l'autenticità del messaggio.
 
 ____
 
@@ -42,7 +43,7 @@ Per evitare questo errore, **evitare di utilizzare reti Wi-Fi pubbliche**, sopra
 ____
 
 
-## Errore #4: non mantenere il software aggiornato
+## Errore #4: non mantenere aggiornati i programmi
 
 Gli aggiornamenti del software spesso includono patch di sicurezza che risolvono le vulnerabilità del software. Il mancato aggiornamento del software vi rende vulnerabili alle minacce note alla sicurezza.
 
@@ -51,7 +52,7 @@ Per evitare questo errore, **mantenete il vostro software aggiornato** installan
 ____
 
 
-## Errore #5: non usare il software antivirus
+## Errore #5: non proteggere il computer dai virus
 
 Il software antivirus è progettato per rilevare e rimuovere software dannoso, come virus, spyware e ransomware. Il mancato utilizzo di un software antivirus vi rende vulnerabili a questo tipo di minacce.
 
@@ -60,7 +61,7 @@ Per evitare questo errore, **installate un software antivirus** sul vostro compu
 ____
 
 
-## Errore #6: condividere troppe informazioni sui social media
+## Errore #6: condividere troppe informazioni sulle reti sociali
 
 Le piattaforme dei social media sono un tesoro di informazioni personali che i criminali informatici possono utilizzare per lanciare attacchi mirati contro di voi. Condividere troppe informazioni sui social media può mettervi a rischio di furto d'identità e altri tipi di crimini informatici.
 
@@ -73,7 +74,7 @@ ____
 
 La perdita di dati può essere devastante, soprattutto se si perdono documenti, foto o altri file importanti. Il mancato backup dei dati vi rende vulnerabili alla perdita di dati dovuta a guasti hardware, furti o malware.
 
-Per evitare questo errore, eseguite regolarmente il backup dei vostri dati** su un disco rigido esterno, un servizio di archiviazione cloud o un'altra soluzione di backup. Assicuratevi di testare i vostri backup per assicurarvi che funzionino correttamente.
+Per evitare questo errore, **eseguite regolarmente il backup dei vostri dati** su un disco rigido esterno, un servizio di archiviazione cloud o un'altra soluzione di backup. Assicuratevi di testare i vostri backup per assicurarvi che funzionino correttamente.
 
 ____
 

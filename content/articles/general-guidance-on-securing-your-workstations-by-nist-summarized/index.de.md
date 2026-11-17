@@ -1,16 +1,17 @@
 ---
 title: "Sicherung Ihrer Workstations: Ein Leitfaden auf der Grundlage der NIST-Empfehlungen"
 date: 2023-02-14
+lastmod: 2026-11-11
 toc: true
 draft: false
-description: "Dieser umfassende Leitfaden basiert auf den NIST-Empfehlungen für die Implementierung starker Zugangskontrollen, die Aktualisierung von Software, die Verwendung von Antivirensoftware, die Aktivierung von Firewalls, die Implementierung von Datenverschlüsselung und die regelmäßige Erstellung von Datensicherungen."
-tags: ["NIST-Empfehlungen", "Sicherheit am Arbeitsplatz", "Cybersicherheit", "Datenverschlüsselung", "Firewall-Schutz", "Antiviren-Software", "Zugangskontrollen", "sensible Informationen", "Cyberangriffe", "Datensicherung"]
+description: "Sichern Sie Workstations nach NIST mit Zugriffskontrollen, Softwareupdates, Virenschutz, Firewalls, Verschlüsselung und Backups."
+tags: ["NIST-Empfehlungen", "Sicherheit von Arbeitsstationen", "Cybersicherheit", "Datenverschlüsselung", "Firewall-Schutz", "Antiviren-Software", "Zugangskontrollen", "sensible Informationen", "Cyberangriffe", "Datensicherung"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Ein Bild einer Person, die an ihrem Arbeitsplatz sitzt, mit einem Sicherheitsschloss im Vordergrund, das auf die Bedeutung der Sicherung von Arbeitsplätzen hinweist."
 coverCaption: ""
 ---
 
-Workstations, d. h. Desktops, Laptops und mobile Geräte, die von den Mitarbeitern eines Unternehmens genutzt werden, werden zunehmend zum Ziel von Cyberangriffen. Diese Angriffe können die Vertraulichkeit, Integrität und Verfügbarkeit sensibler Daten gefährden und so zu erheblichen finanziellen und rufschädigenden Schäden führen. Um Unternehmen bei der Sicherung ihrer Workstations zu unterstützen, hat das National Institute of Standards and Technology (NIST) die NIST Special Publication 800-46 Revision 2, "General Guidance on Securing Workstations", veröffentlicht.
+Workstations, d. h. Desktops, Laptops und mobile Geräte, die von den Mitarbeitern eines Unternehmens genutzt werden, werden zunehmend zum Ziel von Cyberangriffen. Diese Angriffe können die Vertraulichkeit, Integrität und Verfügbarkeit sensibler Daten gefährden und so zu erheblichen finanziellen Verlusten und Reputationsschäden führen. Um Unternehmen bei der Sicherung ihrer Workstations zu unterstützen, hat das National Institute of Standards and Technology (NIST) die NIST Special Publication 800-46 Revision 2, "General Guidance on Securing Workstations", veröffentlicht.
 
 ## Verstehen der Bedrohungslandschaft für Workstations
 
@@ -24,7 +25,7 @@ Die NIST-Richtlinien zur Sicherung von Workstations bieten Unternehmen einen umf
 
 ### 1. Starke Zugangskontrollen implementieren
 
-Unternehmen sollten **starke Zugangskontrollen** einführen, um sicherzustellen, dass nur autorisierte Personen Zugang zu Arbeitsstationen und sensiblen Informationen haben. Dies beinhaltet die Implementierung von sicheren Passwörtern, Zwei-Faktor-Authentifizierung und die Beschränkung der administrativen Rechte auf einige wenige Personen.
+Unternehmen sollten **starke Zugangskontrollen** einführen, um sicherzustellen, dass nur autorisierte Personen Zugang zu Arbeitsstationen und sensiblen Informationen haben. Dies beinhaltet die Implementierung von [sicheren Passwörtern](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), Zwei-Faktor-Authentifizierung und die Beschränkung der administrativen Rechte auf einige wenige Personen.
 
 ### 2. Software auf dem neuesten Stand halten
 

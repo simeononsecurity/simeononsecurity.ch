@@ -1,7 +1,7 @@
 ---
 title: "2026年最佳隐私浏览器：LibreWolf vs Brave vs Tor"
 date: 2023-08-23
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: 2026年最全面的隐私浏览器对比：LibreWolf、Brave、Firefox、Tor等。详细的隐私测试、性能基准和安全分析，保护您的在线数据。
@@ -174,12 +174,12 @@ coverCaption: 保护您的隐私 - 保持在线安全
 
 **必备about:config调整：**
 ```
-// Even stricter privacy (optional):
+// 更严格的隐私保护（可选）：
 privacy.resistFingerprinting.letterboxing = true
 privacy.clearOnShutdown.everything = true
-network.cookie.cookieBehavior = 5  // Total cookie isolation
+network.cookie.cookieBehavior = 5  // 完全隔离 Cookie
 
-// Performance optimization:
+// 性能优化：
 gfx.webrender.all = true
 layers.acceleration.force-enabled = true
 ```
@@ -308,19 +308,19 @@ layers.acceleration.force-enabled = true
 
 **基本隐私设置：**
 ```
-Settings > Shields:
-✓ Trackers & ads blocking: Aggressive
-✓ Upgrade connections to HTTPS
-✓ Block scripts (for sensitive browsing)
-✓ Block fingerprinting: Aggressive
-✓ Block cookies: Block 3rd-party
+设置 > Shields:
+✓ 跟踪器和广告拦截：严格
+✓ 将连接升级为 HTTPS
+✓ 阻止脚本（敏感浏览时）
+✓ 阻止浏览器指纹：严格
+✓ 阻止 Cookie：阻止第三方 Cookie
 
-Settings > Privacy and security:
-✓ WebRTC IP handling policy: Disable non-proxied UDP
-✓ Safe Browsing: Standard protection
-□ Allow privacy-preserving product analytics (disable)
-✓ Automatically send daily usage ping: Off
-✓ Autocomplete searches: Off
+设置 > 隐私与安全：
+✓ WebRTC IP 处理策略：禁用未通过代理的 UDP
+✓ 安全浏览：标准保护
+□ 允许保护隐私的产品分析（禁用）
+✓ 自动发送每日使用情况提示：关闭
+✓ 自动补全搜索：关闭
 ```
 
 **推荐扩展：**
@@ -404,14 +404,14 @@ Settings > Privacy and security:
 
 **1. 多账户容器：**
 ```
-Free extension from Mozilla
-Separate cookies/history by context:
-- Personal container (green)
-- Work container (blue)
-- Banking container (red)
-- Shopping container (orange)
+Mozilla 提供的免费扩展
+按情境隔离 Cookie 和浏览历史：
+- 个人容器（绿色）
+- 工作容器（蓝色）
+- 银行容器（红色）
+- 购物容器（橙色）
 
-Prevents cross-contamination
+防止不同情境间的数据混杂
 ```
 
 **2. Firefox Relay：**
@@ -441,40 +441,40 @@ Prevents cross-contamination
 
 **1. 隐私与安全部分：**
 ```
-✓ Enhanced Tracking Protection: Strict
-✓ Send websites "Do Not Track": Always
-✓ HTTPS-Only Mode: Enable in all windows
-✓ DNS over HTTPS: Max Protection (Cloudflare)
+✓ 增强型跟踪保护：严格
+✓ 向网站发送“请勿跟踪”：始终
+✓ 仅 HTTPS 模式：在所有窗口中启用
+✓ 通过 HTTPS 使用 DNS：最高保护（Cloudflare）
 
-Cookies and Site Data:
-✓ Delete cookies when Firefox closes
-□ All  3rd-party cookies (use ETP instead)
+Cookie 和网站数据：
+✓ 关闭 Firefox 时删除 Cookie
+□ 所有第三方 Cookie（改用 ETP）
   
-History:
-○ Never remember history (most private)
-● Use custom settings (recommended):
-  ✓ Clear history when Firefox closes
-  ✓ Location bar suggestions: Bookmarks only
+历史记录：
+○ 从不记住历史记录（隐私性最高）
+● 使用自定义设置（推荐）：
+  ✓ 关闭 Firefox 时清除历史记录
+  ✓ 地址栏建议：仅书签
 ```
 
 **2. 关于：config 加固：**
 ```
-// Resist fingerprinting
+// 防止浏览器指纹识别
 privacy.resistFingerprinting = true
 
-// First party isolation
+// 第一方隔离
 privacy.firstparty.isolate = true
 
-// WebRTC protection  
+// WebRTC 保护
 media.peerconnection.enabled = false
 
-// Referrer header control
+// 控制来源标头
 network.http.referer.XOriginPolicy = 2
 
-// Disable WebGL
-webgl.disabled = true (can break some sites)
+// 禁用 WebGL
+webgl.disabled = true (可能导致部分网站无法正常使用)
 
-// Letterboxing
+// 画幅留边
 privacy.resistFingerprinting.letterboxing = true
 ```
 
@@ -535,13 +535,13 @@ privacy.resistFingerprinting.letterboxing = true
 
 **洋葱网络：**
 ```
-You → Entry Node → Middle Node → Exit Node → Website
-     [Encrypted]  [Encrypted]  [Unencrypted]
+你 → 入口节点 → 中间节点 → 出口节点 → 网站
+     [已加密]  [已加密]  [未加密]
 
-- Entry knows you, not destination
-- Middle knows neither
-- Exit knows destination, not you
-- Each layer encrypted separately
+- 入口节点知道你的身份，但不知道目的地
+- 中间节点两者都不知道
+- 出口节点知道目的地，但不知道你的身份
+- 每一层都单独加密
 ```
 
 **三种安全级别：**
@@ -611,14 +611,14 @@ You → Entry Node → Middle Node → Exit Node → Website
 
 **安全提示：**
 ```
-✓ Never maximize window (fingerprinting)
-✓ Don't install extensions
-✓ Use HTTPS websites only
-✓ Don't torrent through Tor
-✓ Don't login to real accounts
-✗ Never use Windows (if possible)
-✓ Consider Tails OS for max anonymity
-✓ Use bridges in censored regions
+✓ 不要最大化窗口（避免浏览器指纹识别）
+✓ 不要安装扩展
+✓ 仅访问 HTTPS 网站
+✓ 不要通过 Tor 下载种子
+✓ 不要登录真实账户
+✗ 尽可能不要使用 Windows
+✓ 如需最大程度匿名，可考虑 Tails OS
+✓ 在受审查地区使用网桥
 ```
 
 ### Tor 与 VPN
@@ -708,20 +708,20 @@ You → Entry Node → Middle Node → Exit Node → Website
 ### 快速决策树
 
 ```
-Need maximum anonymity (journalists, activists)?
+你是否需要最大程度的匿名（如记者、活动人士）？
     → Tor Browser
 
-Want privacy + Chrome compatibility + speed?
+你是否需要隐私、Chrome 兼容性和速度？
     → Brave
 
-Want Firefox without telemetry + maximum privacy?
+你是否需要无遥测且隐私性最高的 Firefox？
     → LibreWolf
 
-Want mainstream browser + good privacy + extensions?
-    → Firefox (configured properly)
+你是否需要常见浏览器、良好隐私保护和扩展？
+    → Firefox（正确配置后）
 
-Need mobile privacy browser?
-    → Brave (best overall) or Firefox Focus (simplest)
+你是否需要保护隐私的移动浏览器？
+    → Brave（综合最佳）或 Firefox Focus（最简单）
 ```
 
 ### 使用场景推荐
@@ -803,10 +803,10 @@ Need mobile privacy browser?
 
 **步骤2：导入数据**
 ```
-File → Import from Another Browser
-Select: Chrome
-Choose: Bookmarks, passwords, history
-Import Extensions: Manually reinstall
+文件 → 从其他浏览器导入
+选择：Chrome
+选择：书签、密码和历史记录
+导入扩展：手动重新安装
 ```
 
 **步骤3：配置隐私设置**
@@ -922,6 +922,41 @@ Import Extensions: Manually reinstall
 - 保护身份盗窃
 - 防止操控
 - 基本人权
+
+## 2026 年隐私浏览器检查
+
+浏览器的品牌名称并不能证明它保护隐私。日常使用前，请检查默认设置、更新渠道、扩展政策和同步行为。
+
+1. 从项目官方网站或可信的应用商店下载浏览器。避免使用重新打包的版本。
+2. 保持浏览器和操作系统更新。隐私设置无法修复未打补丁的浏览器。
+3. 检查浏览器是否内置了防跟踪、防指纹识别、恶意下载和欺骗性网站的保护。
+4. 将扩展视为拥有特殊权限的软件。减少扩展数量，检查权限，并移除不再使用的扩展。
+5. 使用 [EFF Cover Your Tracks](https://coveryourtracks.eff.org/) 和 [BrowserLeaks](https://browserleaks.com/) 测试。测试结果描述一个浏览器配置，不能证明匿名性。
+6. 使用不同的浏览器配置文件分隔身份。不要在用于敏感研究的 Tor Browser 窗口中登录个人账户。
+7. 使用 Tor Browser 的标准配置。额外字体、扩展和窗口大小改动会削弱共享指纹带来的保护。
+
+LibreWolf 适合希望使用更严格默认设置并能处理偶尔兼容性问题的用户。Brave 适合希望获得 Chromium 兼容性和内置拦截功能的用户。Firefox 适合希望获得 Mozilla 支持和灵活隐私控制的用户。Tor Browser 适合需要网络层匿名性且能接受速度较慢、网站兼容性较低的用户。
+
+[Tor Browser 手册](https://tb-manual.torproject.org/) 和 [Mozilla Firefox 隐私指南](https://support.mozilla.org/en-US/products/firefox/privacy-and-security)会更详细地介绍这些控制措施。
+
+## 当前隐私边界和检查清单
+
+浏览器保护能减少信息暴露，但不能让账户、设备或连接匿名。**隐私浏览**会在会话结束后删除选定的本地历史记录。它不会向网络运营方隐藏流量，也不能阻止网站识别已登录用户。[Tor Project 解释了这一差别](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/)。
+
+**指纹识别风险取决于你的浏览器配置有多常见。**Tor Browser 通过 letterboxing、标准化数值和第一方隔离，尝试将用户归入常见指纹群组。Tor Project 指出，完美匿名并不可能。没有具体理由时，不要添加特殊扩展，不要最大化 Tor 窗口，也不要更改默认设置。[阅读 Tor 的指纹保护说明](https://support.torproject.org/tor-browser/features/fingerprinting-protections/)。
+
+**LibreWolf 需要定期更新。**项目常见问题说明，新版本通常会在上游 Firefox 发布后三天内跟进，而且浏览器没有自己的自动更新程序。使用适用于你平台的包管理器或安装方式，并在安全更新后核对已安装版本。[查看 LibreWolf 常见问题](https://librewolf.net/docs/faq/)。
+
+选择浏览器前，请使用以下清单：
+
+- **威胁模型：**确定你需要减少跟踪、分隔账户、抵抗审查还是保持匿名。
+- **更新途径：**确认由谁提供更新，以及你将如何安装。
+- **兼容性：**迁移整个工作流程前，测试银行、工作、媒体、扩展和辅助功能。
+- **身份分隔：**在旨在减少活动关联的会话中，不要使用个人登录信息。
+- **指纹识别：**尽量保持浏览器常见的默认配置。大量隐私扩展可能让浏览器更容易被识别。
+- **网络层：**将 DNS、VPN 和 Tor 视为不同的控制措施。每项措施保护连接的不同部分。
+
+本页其他位置的性能和隐私分数属于历史测量或示例对比，除非同时提供方法、日期、硬件配置和原始结果。不要将它们视为当前通用排名。每次浏览器重大更新后，请测试自己使用的网站和设备。
 
 ## 结论：掌控你的数字隐私
 

@@ -1,7 +1,7 @@
 ---
 title: "خصوصية الذكاء الاصطناعي المحلي: ما يبقى على حاسوبك وما لا يبقى"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "تتبّع المطالبات وملفات النماذج والأدوات والسجلات والتعرض الشبكي وتكاليف الطاقة قبل اختيار الاستدلال المحلي أو خدمة ذكاء اصطناعي مستضافة."
@@ -78,6 +78,15 @@ lsof -nP -iTCP -sTCP:LISTEN | rg 'ollama|llama|8080|11434'
 
 تحقق من الإعداد بعد إعادة التشغيل. يضيّق وقت التشغيل المحلي فقط مساراً واحداً. ولا ينشئ مضيفاً خاصاً.
 
+
+## كلام Ollama وحدود الشبكة
+
+*يعلن [إصدار Ollama v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11) عن توليد الكلام على macOS. ويؤرخ [مرجع واجهة API](https://docs.ollama.com/api/openai-compatibility) لمسار `/v1/audio/speech` إلى v0.40.8، لذا فـ v0.40.11 ليس أول إصدار موثق لنقطة النهاية.* هذا **تحويل النص إلى كلام**، وليس تحويل الكلام إلى نص: يرسل الطلب نصا إلى نموذج صوت مثل Phonon ويتلقى صوتا متدفقا. يوضح [دليل الكلام](https://docs.ollama.com/capabilities/speech) أيضا أن `ollama run phonon` يشغّل الصوت محليا أو يحفظ ملف WAV عند إعادة توجيه المخرجات.
+
+يتطلب **مسار الكلام المحلي** نموذجا محليا منزلا وخادما محليا. تذكر [الأسئلة الشائعة لـ Ollama](https://docs.ollama.com/faq) أن الخادم يستمع افتراضيا على `127.0.0.1:11434` وأن **`OLLAMA_HOST`** يغير عنوان الاستماع. تحقق من المستمع النشط باستخدام أمر `lsof` أعلاه بدلا من افتراض أن القيمة الافتراضية ما زالت سارية. تذكر [مقدمة Ollama لواجهة API](https://docs.ollama.com/api/introduction) أن الطلبات المحلية لا تحتاج إلى مفتاح API. قيّد أي استماع أوسع بجدار حماية وضوابط وصول قبل إرسال نص خاص.
+
+**الاستماع على loopback ليس كامل الحدود.** توثق Ollama تمرير خادم HTTP عبر وكيل عكسي أو نفق. افحص مستمع كل وكيل والمصادقة وتسجيل الطلبات، حتى عندما يستمع Ollama نفسه إلى loopback. يعبر النص المرسل والصوت المستلم اتصال الوكيل. يحدد [دليل استكشاف الأخطاء وإصلاحها](https://docs.ollama.com/troubleshooting) سجلات الخادم، لكن وثائق الكلام لا تقدم وعدا بشأن الاحتفاظ بالصوت. تحقق من أماكن حفظ العملاء لملفات WAV ومن استمرار سجلات الوكيل أو التطبيق. تقول الأسئلة الشائعة إن Ollama لا يرى المطالبات أو البيانات في التشغيل المحلي. تتطلب تنزيلات النماذج اتصالا بالشبكة، وتتبع النماذج السحابية مسارا مختلفا. لإعداد نموذج محلي باستخدام Ollama فقط، يعطل الإعداد `OLLAMA_NO_CLOUD=1` ميزات Ollama السحابية كما سبق. لا يتحكم في التطبيقات الأخرى.
+
 ## احسب التكلفة المستضافة
 
 تفصل أسعار الرموز بين الإدخال والإخراج. [تدرج Anthropic سعر Claude Haiku 5.5 عند 0.10 دولار لكل مليون رمز إدخال و0.50 دولار لكل مليون رمز إخراج للمطالبات حتى 100,000 رمز](https://www.anthropic.com/claude/haiku). تستخدم المطالبات فوق 100,000 رمز الأسعار الأعلى المدرجة.
@@ -97,7 +106,7 @@ lsof -nP -iTCP -sTCP:LISTEN | rg 'ollama|llama|8080|11434'
 استخدم هذه الصيغة للإخراج المولد:
 
 ```text
-local cost per 1M output tokens =
+التكلفة المحلية لكل 1M من رموز الإخراج =
 (whole_system_watts / 1,000)
 × (1,000,000 / output_tokens_per_second / 3,600)
 × electricity_price_per_kWh
@@ -124,8 +133,8 @@ local cost per 1M output tokens =
 عند 50 رمز إخراج في الثانية:
 
 ```text
-$0.50 hosted output price - $0.40 local power = $0.10 saved per 1M tokens
-$549 GPU price / $0.10 = about 5.5 billion output tokens
+$0.50 سعر الإخراج المستضاف - $0.40 تكلفة الكهرباء المحلية = توفير $0.10 لكل 1M رمز إخراج
+$549 سعر GPU / $0.10 = نحو 5.5 مليارات رمز إخراج
 ```
 
 عند 94 رمز إخراج في الثانية، ترتفع الوفورات المقربة إلى نحو 0.28 دولار لكل مليون رمز. يتطلب استرداد GPU بسعر 549 دولاراً نحو ملياري رمز إخراج. يستثني الرقمان ذاكرة النظام والتخزين واللوحة الأم ومزود الطاقة والتبريد والصيانة وقيمة إعادة البيع.
@@ -191,4 +200,10 @@ $549 GPU price / $0.10 = about 5.5 billion output tokens
 - [تسعير منصة Anthropic Claude](https://platform.claude.com/docs/en/about-claude/pricing)
 - [OpenAI، فهم الرموز وعدّها](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
 - [سياسة خصوصية Ollama](https://ollama.com/privacy)
+- [ملاحظات إصدار Ollama v0.40.11](https://github.com/ollama/ollama/releases/tag/v0.40.11)
+- [دليل الكلام من Ollama](https://docs.ollama.com/capabilities/speech)
+- [مرجع واجهة Ollama المتوافقة مع OpenAI](https://docs.ollama.com/api/openai-compatibility)
+- [مقدمة Ollama لواجهة API](https://docs.ollama.com/api/introduction)
+- [الأسئلة الشائعة لـ Ollama: إعداد الخادم والسحابة والوكيل العكسي](https://docs.ollama.com/faq)
+- [استكشاف الأخطاء وإصلاحها في Ollama وسجلات الخادم](https://docs.ollama.com/troubleshooting)
 - [وثائق خادم llama.cpp](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)

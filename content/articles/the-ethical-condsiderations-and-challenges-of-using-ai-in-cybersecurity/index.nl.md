@@ -1,15 +1,16 @@
 ---
 title: "Ethische overwegingen en uitdagingen van AI in cyberbeveiliging"
 date: 2023-03-08
+lastmod: 2026-11-11
 toc: true
 draft: false
 description: "Leer over de ethische overwegingen en uitdagingen van het gebruik van AI in cyberbeveiliging en hoe deze kunnen worden aangepakt voor een effectief gebruik."
-tags: ["AI", "cyberbeveiliging", "ethische overwegingen", "bias", "privacy", "verantwoording", "complexiteit", "aanpassingsvermogen", "menselijk toezicht", "grondstofintensiteit", "gegevensprivacy", "machinaal leren", "dreigingsinformatie", "gegevensbescherming", "technologie", "automatisering", "cyberdreigingen", "informatiebeveiliging", "regelnaleving", "digitale transformatie"]
+tags: ["AI", "cyberbeveiliging", "ethische overwegingen", "vertekening", "privacy", "verantwoording", "complexiteit", "aanpassingsvermogen", "menselijk toezicht", "middelengebruik", "gegevensprivacy", "machinaal leren", "dreigingsinformatie", "gegevensbescherming", "technologie", "automatisering", "cyberdreigingen", "informatiebeveiliging", "naleving van regelgeving", "digitale transformatie"]
 cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "Een afbeelding van een slot met tandwielen symboliseert het gebruik van AI in cyberbeveiliging, terwijl een menselijke hand een sleutel vasthoudt om menselijk toezicht te illustreren."
 coverCaption: ""
 ---
- Ethische overwegingen en uitdagingen bij het gebruik van AI in cyberbeveiliging**
+**Ethische overwegingen en uitdagingen bij het gebruik van AI in cyberbeveiliging**
 
 In het moderne tijdperk is **kunstmatige intelligentie (AI)** een essentieel hulpmiddel geworden voor verschillende industrieën. De ontwikkeling van AI heeft bedrijven geholpen hun activiteiten te automatiseren, hun processen te stroomlijnen en de efficiëntie te verhogen. Het gebruik van AI in cyberbeveiliging gaat echter gepaard met unieke ethische overwegingen en uitdagingen.
 
@@ -47,7 +48,7 @@ Cyberbeveiligingsdreigingen veranderen voortdurend en het is essentieel dat AI-s
 
 Hoewel AI kan worden gebruikt om veel cyberbeveiligingstaken te automatiseren, is het belangrijk ervoor te zorgen dat de mens nog steeds betrokken is bij het besluitvormingsproces. Mensen kunnen context bieden en oordelen vellen die AI-systemen misschien niet kunnen vellen.
 
-### Intensieve middelen
+### Veel middelen nodig
 
 AI-systemen kunnen veel middelen vergen en aanzienlijke hoeveelheden verwerkingskracht en opslagruimte vereisen. Het is belangrijk ervoor te zorgen dat organisaties over de nodige middelen beschikken om AI op het gebied van cyberbeveiliging te ondersteunen.
 

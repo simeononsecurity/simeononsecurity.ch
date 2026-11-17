@@ -1,12 +1,12 @@
 ---
 title: "Meta ਦੇ Context Language Models: ਏਜੰਟ ਦੀ ਬਿਹਤਰ ਯਾਦਦਾਸ਼ਤ, ਪਰ hallucinations ਦਾ ਅੰਤ ਨਹੀਂ"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-09
 toc: true
 draft: false
 description: "Context Language Models ਏਜੰਟ ਦੀ memory ਨੂੰ ਕਿਵੇਂ edit ਕਰਦੇ ਹਨ, benchmarks ਕੀ ਸਾਬਤ ਕਰਦੇ ਹਨ, ਅਤੇ cache cost, model capability ਅਤੇ ਅਣਭਰੋਸੇਯੋਗ notes reliability ਨੂੰ ਕਿਵੇਂ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ।"
-genre: ["ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ", "AI ਏਜੰਟ", "ਲੋਕਲ AI", "AI ਸੁਰੱਖਿਆ"]
-tags: ["Context Language Models", "CLM", "Meta AI", "AI hallucinations", "ਏਜੰਟ memory", "context management", "context compaction", "context window", "Suffix Cache Reuse", "KV cache", "SGLang", "llama.cpp", "prompt caching", "prompt injection", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "ਲੰਬੇ ਸਮੇਂ ਚੱਲਣ ਵਾਲੇ ਏਜੰਟ", "AI reliability", "ਏਜੰਟ verification"]
+genre: ["ਨਕਲੀ ਬੁੱਧੀ", "AI ਏਜੰਟ", "ਸਥਾਨਕ AI", "AI ਸੁਰੱਖਿਆ"]
+tags: ["ਸੰਦਰਭ ਭਾਸ਼ਾ ਮਾਡਲ", "CLM", "Meta AI", "AI ਭਰਮ", "ਏਜੰਟ ਦੀ ਯਾਦਦਾਸ਼ਤ", "ਸੰਦਰਭ ਪ੍ਰਬੰਧਨ", "ਸੰਦਰਭ ਸੰਕੁਚਨ", "ਸੰਦਰਭ ਵਿੰਡੋ", "ਪਿਛੇਤਰ ਕੈਸ਼ ਮੁੜ ਵਰਤੋਂ", "KV ਕੈਸ਼", "SGLang", "llama.cpp", "ਪ੍ਰੋਂਪਟ ਕੈਸ਼ਿੰਗ", "ਪ੍ਰੋਂਪਟ ਇੰਜੈਕਸ਼ਨ", "BrowseComp-Plus", "ContextBench", "EdgeBench", "Qwen3.6", "ਲੰਬੇ ਸਮੇਂ ਚੱਲਣ ਵਾਲੇ ਏਜੰਟ", "AI ਭਰੋਸੇਯੋਗਤਾ", "ਏਜੰਟ ਦੀ ਪੁਸ਼ਟੀ"]
 cover: "/img/cover/context-language-models-editable-memory.webp"
 coverAlt: "ਹਨੇਰੀ ਸਤ੍ਹਾ ਉੱਤੇ ਮੁੜ ਕ੍ਰਮਬੱਧ ਪਾਰਦਰਸ਼ੀ document cards ਅਤੇ ਵੱਖਰੇ archive stack ਦੇ ਕੋਲ ਚਮਕਦਾ processor"
 coverCaption: "Edit ਹੋ ਸਕਣ ਵਾਲੀ ਏਜੰਟ memory ਦੀ conceptual illustration।"
@@ -109,6 +109,8 @@ reuse A, recompute replacement for B and C
 ```
 
 Paper ਦੀ **prefix-reuse FLOPs** metric first mismatch ਤੋਂ ਬਾਅਦ generation ਅਤੇ prompt processing ਗਿਣਦੀ ਹੈ। PFLOP ਦਾ ਅਰਥ 10¹⁵ floating-point operations ਹੈ। ਇਹ estimated computation total ਹੈ, quality score, throughput measurement ਜਾਂ invoice ਨਹੀਂ।
+
+Appendix C ਦੀ **7.7× ਉਦਾਹਰਨ** 20,000-token prompt ਅਤੇ 500-token response ਮੰਨਦੀ ਹੈ। ਸ਼ੁਰੂ ਵਿੱਚ ਕੀਤੀ edit, 18,000-token reusable prefix ਵਾਲੀ append-only turn ਦੇ ਮੁਕਾਬਲੇ ਮਾਡਲ ਕੀਤੀ turn ਦੀ ਲਾਗਤ 7.7 ਗੁਣਾ ਕਰਦੀ ਹੈ। ਇਹ ਦਿੱਤੀਆਂ ਲੰਬਾਈਆਂ ਹੇਠਾਂ ਮੁੜ-ਗਣਨਾ ਦਾ ਜੁਰਮਾਨਾ ਹੈ, hallucinations ਵਿੱਚ ਮਾਪੀ 7.7 ਗੁਣਾ ਕਮੀ ਨਹੀਂ।
 
 **Local latency prompt throughput ਉੱਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ।** Arithmetic example ਵਜੋਂ assumed 800 tokens per second ਉੱਤੇ 24,000 tokens ਮੁੜ ਪੜ੍ਹਨ ਵਿੱਚ ਹੋਰ overhead ਤੋਂ ਪਹਿਲਾਂ 30 seconds ਲੱਗਦੇ ਹਨ। ਇਹ ਕਿਸੇ ਖਾਸ Mac ਜਾਂ GPU ਦਾ benchmark ਨਹੀਂ। Backend, quantization ਅਤੇ ਆਪਣੇ actual prompt sizes ਨੂੰ measure ਕਰੋ।
 

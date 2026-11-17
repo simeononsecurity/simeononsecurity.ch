@@ -1,6 +1,7 @@
 ---
 title: "Het donkere web en cybercriminaliteit: Onthulling van de onderbuik van het internet"
 date: 2023-05-26
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Verken de verborgen wereld van het dark web en het verband met cybercriminaliteit, terwijl u de dubbele aard en het potentieel ervan voor journalistiek en klokkenluiden ontdekt."
@@ -50,25 +51,25 @@ De mogelijkheden van het dark web voor journalistieke en klokkenluidersdoeleinde
 
 Bescherming tegen het dark web en cybercriminaliteit vereist proactieve maatregelen om de risico's te beperken. Hier zijn enkele essentiële stappen om uzelf te beschermen:
 
-[**1. Be cautious with personal information:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Wees voorzichtig bij het online delen van persoonlijke informatie en geef geen gevoelige gegevens door aan onbekende of niet-vertrouwde bronnen. Bescherm uw naam, adres, burgerservicenummer en andere persoonlijke gegevens.
+[**1. Wees voorzichtig met persoonlijke gegevens:**](https://simeononsecurity.com/articles/removing-your-exposed-private-information-from-data-brokers/) Wees voorzichtig bij het online delen van persoonlijke informatie en geef geen gevoelige gegevens door aan onbekende of niet-vertrouwde bronnen. Bescherm uw naam, adres, burgerservicenummer en andere persoonlijke gegevens.
 
-[**2. Use strong and unique passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Gebruik sterke en unieke wachtwoorden voor al uw online accounts. Vermijd hergebruik van wachtwoorden op meerdere platforms om onbevoegde toegang te voorkomen in geval van een datalek.
+[**2. Gebruik sterke en unieke wachtwoorden:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Gebruik sterke en unieke wachtwoorden voor al uw online accounts. Vermijd hergebruik van wachtwoorden op meerdere platforms om onbevoegde toegang te voorkomen in geval van een datalek.
 
-[**3. Keep software up to date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Werk uw software, waaronder besturingssystemen, webbrowsers en antivirusprogramma's, regelmatig bij. Deze updates bevatten vaak beveiligingspatches die kwetsbaarheden verhelpen en bescherming bieden tegen nieuwe cyberdreigingen.
+[**3. Houd software up-to-date:**](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/) Werk uw software, waaronder besturingssystemen, webbrowsers en antivirusprogramma's, regelmatig bij. Deze updates bevatten vaak beveiligingspatches die kwetsbaarheden verhelpen en bescherming bieden tegen nieuwe cyberdreigingen.
 
 **4. Wees kritisch over de websites die u bezoekt en klik niet op links in e-mails of op onbekende websites. Blijf bij gerenommeerde bronnen en controleer de legitimiteit van websites voordat u persoonlijke of financiële informatie deelt.
 
-[**5. Employ firewalls and antivirus software:**](https://simeononsecurity.com/recommendations/anti-virus/) Gebruik firewalls om inkomend en uitgaand netwerkverkeer te controleren en zet betrouwbare antivirussoftware in om malware of verdachte activiteiten van uw apparaten te detecteren en te verwijderen.
+[**5. Gebruik firewalls en antivirussoftware:**](https://simeononsecurity.com/recommendations/anti-virus/) Gebruik firewalls om inkomend en uitgaand netwerkverkeer te controleren en zet betrouwbare antivirussoftware in om malware of verdachte activiteiten van uw apparaten te detecteren en te verwijderen.
 
-[**6. Regularly back up your data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Maak regelmatig back-ups van uw belangrijke gegevens en bestanden. Dit zorgt ervoor dat u, zelfs als uw computer wordt aangetast of uw gegevens worden gestolen, uw informatie kunt herstellen en de gevolgen van mogelijke cyberaanvallen tot een minimum kunt beperken.
+[**6. Maak regelmatig back-ups van uw gegevens:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Maak regelmatig back-ups van uw belangrijke gegevens en bestanden. Dit zorgt ervoor dat u, zelfs als uw computer wordt aangetast of uw gegevens worden gestolen, uw informatie kunt herstellen en de gevolgen van mogelijke cyberaanvallen tot een minimum kunt beperken.
 
 ## Overheidsvoorschriften en -initiatieven
 
 Overheden wereldwijd erkennen in toenemende mate de noodzaak om het dark web en cybercriminaliteit te bestrijden door middel van wetgeving en initiatieven. Enkele opmerkelijke voorschriften en initiatieven zijn:
 
-- De [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/): Aimed at protecting the personal data and privacy of EU citizens, the GDPR sets strict guidelines and requirements for businesses and organizations handling personal information. More information can be found in [this article](https://gdpr.eu/)
+- De [**European Union General Data Protection Regulation (GDPR)**](https://gdpr.eu/), de AVG, is bedoeld om de persoonsgegevens en privacy van EU-burgers te beschermen. De AVG stelt strenge richtlijnen en eisen aan bedrijven en organisaties die persoonsgegevens verwerken. Meer informatie vindt u in [dit artikel](https://gdpr.eu/).
 
-- De [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- De Amerikaanse [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) bevordert het delen van informatie over cyberdreigingen tussen private partijen en de overheid om de nationale veiligheid te versterken en cyberrisico’s te beperken. Meer details vindt u in [deze documentatie](https://www.congress.gov/bill/114th-congress/senate-bill/754).
 
 Deze regelgeving en initiatieven spelen een cruciale rol bij het bevorderen van een veiligere digitale omgeving, maar individueel bewustzijn en proactieve cyberbeveiligingspraktijken blijven van cruciaal belang bij het bestrijden van het dark web en cybercriminaliteit.
 
@@ -78,5 +79,5 @@ Het dark web en cybercriminaliteit vormen belangrijke bedreigingen in de huidige
 
 Referenties:
 
-- Algemene verordening gegevensbescherming van de Europese Unie (GDPR): [link](https://gdpr.eu/)
-- Cybersecurity Information Sharing Act (CISA): [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+- Algemene verordening gegevensbescherming van de Europese Unie (GDPR): [verordeningstekst](https://gdpr.eu/)
+- Cybersecurity Information Sharing Act (CISA): [wettekst](https://www.congress.gov/bill/114th-congress/senate-bill/754)

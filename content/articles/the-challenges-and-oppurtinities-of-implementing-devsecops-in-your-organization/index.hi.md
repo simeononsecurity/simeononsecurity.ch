@@ -1,12 +1,13 @@
 ---
 title: "Overcoming Challenges and Embracing Opportunities of DevSecOps Implementation"
 date: 2023-04-15
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "This article explores the challenges and opportunities of DevSecOps in organizations, including better collaboration, improved scalability, integration with government regulations, and more."
-tags: ["DevSecOps", "information security", "security testing", "agile methodologies", "collaboration", "government regulations", "automation", "application development", "scalability", "continuous monitoring", "NIST guidelines", "feedback loops", "modularity", "vulnerabilities", "quality assurance", "cybersecurity", "IT infrastructure", "software development tools", "risk management"]
+tags: ["DevSecOps", "सूचना सुरक्षा", "सुरक्षा परीक्षण", "एजाइल कार्यप्रणालियाँ", "सहयोग", "सरकारी नियम", "स्वचालन", "अनुप्रयोग विकास", "विस्तारक्षमता", "निरंतर निगरानी", "NIST दिशानिर्देश", "फीडबैक चक्र", "मॉड्यूलरिटी", "कमजोरियाँ", "गुणवत्ता आश्वासन", "साइबर सुरक्षा", "आईटी अवसंरचना", "सॉफ़्टवेयर विकास उपकरण", "जोखिम प्रबंधन"]
 cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
-coverAlt: "A group of people standing on a summit holding hands, with puzzle pieces fitting together in the foreground."
+coverAlt: "पहाड़ की चोटी पर हाथ थामे खड़े लोगों का एक समूह, जिनके सामने पहेली के टुकड़े आपस में जुड़ रहे हैं।"
 coverCaption: ""
 ---
 

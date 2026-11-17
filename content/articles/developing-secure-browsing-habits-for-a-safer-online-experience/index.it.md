@@ -3,11 +3,12 @@ title: "Abitudini di navigazione sicure per un'esperienza online più sicura"
 draft: false
 toc: true
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 description: "Proteggetevi dalle minacce online e garantitevi un'esperienza online più sicura sviluppando abitudini di navigazione sicure. Scoprite l'importanza della navigazione sicura, le abitudini essenziali da adottare e come salvaguardare le vostre informazioni personali."
 genre: ["Sicurezza informatica", "Sicurezza online", "Navigazione sicura", "Sicurezza Internet", "Protezione dei dati personali", "Privacy online", "Minacce online", "Prevenzione del crimine informatico", "Prevenzione del furto d'identità", "Sicurezza in Internet"]
-tags: ["abitudini di navigazione sicure", "minacce online", "sicurezza informatica", "sicurezza online", "protezione delle informazioni personali", "online privacy", "prevenzione del furto d'identità", "sicurezza in Internet", "prevenzione del crimine informatico", "navigazione web sicura", "online scams", "truffe di phishing", "protezione da malware", "protezione ransomware", "sicurezza dei social media", "sicurezza dei dati", "protezione della privacy online", "secure data storage", "sicurezza della password", "autenticazione a due fattori", "VPN", "navigazione criptata", "sicurezza del Wi-Fi pubblico", "educazione alla sicurezza online", "consapevolezza della cybersicurezza", "abitudini online sicure", "cultura della sicurezza online", "sicurezza della comunità", "Consigli per la sicurezza online"]
+tags: ["abitudini di navigazione sicure", "minacce online", "sicurezza informatica", "sicurezza online", "protezione delle informazioni personali", "privacy online", "prevenzione del furto d'identità", "sicurezza in Internet", "prevenzione del crimine informatico", "navigazione web sicura", "truffe online", "truffe di phishing", "protezione da malware", "protezione ransomware", "sicurezza dei social media", "sicurezza dei dati", "protezione della privacy online", "archiviazione sicura dei dati", "sicurezza della password", "autenticazione a due fattori", "VPN", "navigazione criptata", "sicurezza del Wi-Fi pubblico", "educazione alla sicurezza online", "consapevolezza della cybersicurezza", "abitudini online sicure", "cultura della sicurezza online", "sicurezza della comunità", "Consigli per la sicurezza online"]
 cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp"
+coverCaption: "Resta al sicuro online e proteggi le tue informazioni personali."
 coverAlt: "Una rappresentazione illustrata della navigazione in Internet con un lucchetto che simboleggia la sicurezza della navigazione."
 ---
 
@@ -52,7 +53,7 @@ Inoltre, è essenziale scaricare software e aggiornamenti solo da **fonti affida
 
 #### Utilizzare password forti e uniche
 
-L'utilizzo di **password deboli o facilmente indovinabili** rappresenta un rischio significativo per la sicurezza. È essenziale utilizzare **password uniche e complesse** per ogni account e cambiarle frequentemente. È possibile utilizzare un **gestore di password** per memorizzare e generare in modo sicuro password forti per tutti gli account.
+L'utilizzo di **password deboli o facilmente indovinabili** rappresenta un rischio significativo per la sicurezza. È essenziale utilizzare [**password uniche e complesse**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) per ogni account e cambiarle frequentemente. È possibile utilizzare un **gestore di password** per memorizzare e generare in modo sicuro [password forti](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) per tutti gli account.
 
 Inoltre, è fondamentale evitare di utilizzare informazioni personali come il nome, la data di nascita o l'indirizzo come parte della password. I criminali informatici possono facilmente indovinare tali informazioni, rendendo i vostri account vulnerabili agli attacchi.
 
@@ -60,7 +61,7 @@ Inoltre, è fondamentale evitare di utilizzare informazioni personali come il no
 
 **L'autenticazione a due fattori** aggiunge un ulteriore livello di sicurezza ai vostri account online richiedendo l'inserimento di un codice univoco oltre alla password. Questo codice viene generato da un dispositivo o da un'applicazione separata, rendendo più difficile per i criminali informatici l'accesso non autorizzato ai vostri account.
 
-È essenziale attivare l'autenticazione a due fattori per tutti gli account che offrono questa funzione. Tra questi vi sono la posta elettronica, i social media e gli account bancari. Alcuni servizi offrono anche l'autenticazione biometrica**, che utilizza l'impronta digitale o il riconoscimento facciale per verificare la vostra identità.
+È essenziale attivare l'autenticazione a due fattori per tutti gli account che offrono questa funzione. Tra questi vi sono la posta elettronica, i social media e gli account bancari. Alcuni servizi offrono anche **l'autenticazione biometrica**, che utilizza l'impronta digitale o il riconoscimento facciale per verificare la vostra identità.
 
 #### Utilizzando una rete privata virtuale (VPN)
 

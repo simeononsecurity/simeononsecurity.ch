@@ -1,7 +1,7 @@
 ---
 title: "Información confidencial compartimentada (SCI) explicada"
 date: 2023-06-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Explore la importancia, los niveles de clasificación, el manejo y la normativa de la Información Sensible Compartimentada (SCI) con fines de seguridad nacional."
@@ -20,7 +20,7 @@ Sensitive Compartmented Information (**SCI**) es un nivel de clasificación util
 
 {{< youtube id="dR1tXWJNGv4" >}}
 
-### Understanding Sensitive Compartmented Information
+### Comprender la Información Sensible Compartimentada (SCI)
 
 La Información Sensible Compartimentada engloba información clasificada que es más sensible y restringida que la información clasificada estándar. Suele estar relacionada con fuentes, métodos y operaciones de inteligencia, así como con información procedente de gobiernos o entidades extranjeros. La SCI se clasifica a distintos niveles en función de su sensibilidad y del daño potencial que su divulgación podría causar a la seguridad nacional.
 
@@ -72,7 +72,7 @@ El tratamiento de la Información Sensible Compartimentada (SCI) se rige por **v
 Algunos de los principales reglamentos y organismos de supervisión relacionados con SCI son:
 
 - **Manual de Seguridad del Director de Inteligencia Nacional (DNI)**: El Manual de Seguridad del DNI proporciona las **políticas y procedimientos** para la gestión y protección de SCI. Sirve de guía exhaustiva para el personal implicado en el manejo de SCI, garantizando que comprenden los requisitos y se adhieren a las medidas de seguridad necesarias.
-  - [DNI Website](https://www.dni.gov/)
+  - [Sitio web del DNI](https://www.dni.gov/)
 
 - **Manual Operativo del Programa Nacional de Seguridad Industrial (NISPOM)**: El NISPOM es un conjunto de **normas y procedimientos** que rigen la salvaguarda de la información clasificada, incluida la SCI, dentro de la industria de defensa. Establece los requisitos que deben cumplir los contratistas y otras organizaciones que manejan información clasificada para garantizar la protección de la seguridad nacional.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
@@ -96,7 +96,7 @@ En resumen, la SCI desempeña un papel fundamental en la salvaguarda de la segur
 
 ### Referencias
 
-- [DNI Website](https://www.dni.gov/)
+- [Sitio web del DNI](https://www.dni.gov/)
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 

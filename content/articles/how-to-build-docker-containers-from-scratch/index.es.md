@@ -1,10 +1,11 @@
 ---
 title: "Construyendo Contenedores Docker Eficientes y Seguros: Guía para principiantes"
 date: 2023-02-24
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Aprenda a crear contenedores Docker eficientes y seguros utilizando las mejores prácticas, consejos e instrucciones paso a paso en esta completa guía."
-tags: ["docker", "contenedores", "contenedorización", "devops", "despliegue", "portabilidad", "eficacia", "seguridad", "buenas prácticas", "Dockerfile", "imágenes base", "variables de entorno", "montajes de volumen", "usuario raíz", "imágenes actualizadas", "desarrollo de software", "imágenes de contenedores", "Centro Docker", "orquestación de contenedores", "Kubernetes"]
+tags: ["docker", "contenedores", "contenedorización", "devops", "despliegue", "portabilidad", "eficacia", "seguridad", "buenas prácticas", "Dockerfile", "imágenes base", "variables de entorno", "montajes de volumen", "usuario raíz", "imágenes actualizadas", "desarrollo de software", "imágenes de contenedores", "Docker Hub", "orquestación de contenedores", "Kubernetes"]
 cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Imagen animada en 3D de un contenedor seguro y bien organizado con el logotipo de Docker, rodeado de diversas herramientas y equipos relacionados con la ingeniería de software y DevOps."
 coverCaption: ""
@@ -71,7 +72,7 @@ Vamos a desglosar esta orden:
 
 Ahora que sabes cómo construir contenedores Docker, vamos a repasar algunas de las mejores prácticas para asegurar que tus contenedores Docker son eficientes, seguros y fáciles de usar.
 
-### Use Imágenes Base Pequeñas
+### Usar imágenes base pequeñas
 
 Para mantener tus contenedores Docker pequeños y rápidos de desplegar, es mejor usar imágenes base pequeñas que sólo contengan las dependencias que tu aplicación necesita. Por ejemplo, en lugar de utilizar un sistema operativo completo como Ubuntu o CentOS, puede utilizar una imagen más pequeña como Alpine Linux o BusyBox.
 
@@ -120,7 +121,7 @@ CMD ["yarn", "start"]
 ```
 
 
-### Use Volume Mounts
+### Usar montajes de volúmenes
 
 Los montajes de volumen son una forma de compartir datos entre tu sistema anfitrión y tu contenedor Docker. Esto facilita la gestión de datos y reduce el tamaño de su contenedor Docker. Por ejemplo, puede utilizar un montaje de volumen para compartir un archivo de base de datos entre su sistema host y su contenedor.
 
@@ -154,7 +155,7 @@ CMD ["yarn", "start"]
 VOLUME ["/app/data"]
 ```
 
-### Avoid Running as Root
+### Evitar ejecutar como root
 
 Ejecutar tu contenedor Docker como usuario root puede suponer un riesgo de seguridad. En su lugar, debe crear un nuevo usuario en su Dockerfile y ejecutar el contenedor como ese usuario. Por ejemplo, puede utilizar la opción `USER` en su Dockerfile para crear un nuevo usuario y luego cambiar a ese usuario al ejecutar el contenedor.
 
@@ -214,11 +215,11 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Algunas secciones útiles de la documentación de Docker incluyen:
 
-- [Get started with Docker](https://docs.docker.com/get-started/)
-- [Docker CLI reference](https://docs.docker.com/engine/reference/commandline/cli/)
-- [Docker API reference](https://docs.docker.com/engine/api/v1.41/)
-- [Docker-compose reference](https://docs.docker.com/compose/compose-file/)
-- [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Primeros pasos con Docker](https://docs.docker.com/get-started/)
+- [Referencia de Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/)
+- [Referencia de la API de Docker](https://docs.docker.com/engine/api/v1.41/)
+- [Referencia de Docker Compose](https://docs.docker.com/compose/compose-file/)
+- [Referencia de Dockerfile](https://docs.docker.com/engine/reference/builder/)
 
 La documentación de Docker es un gran recurso para aprender a utilizar Docker y para solucionar cualquier problema que pueda surgir.
 
@@ -227,9 +228,9 @@ La documentación de Docker es un gran recurso para aprender a utilizar Docker y
 
 Algunas características útiles de Docker Hub incluyen:
 
-- [Search for Docker images](https://hub.docker.com/search?type=image)
-- [Store and manage Docker images in repositories](https://hub.docker.com/repositories)
-- [Automate builds and testing with Docker Hub workflows](https://docs.docker.com/docker-hub/builds/)
+- [Buscar imágenes de Docker](https://hub.docker.com/search?type=image)
+- [Almacenar y gestionar imágenes de Docker en repositorios](https://hub.docker.com/repositories)
+- [Automatizar compilaciones y pruebas con los flujos de trabajo de Docker Hub](https://docs.docker.com/docker-hub/builds/)
 
 Docker Hub es una herramienta esencial para trabajar con Docker, y puede ahorrarte mucho tiempo y esfuerzo a la hora de gestionar y compartir imágenes Docker.
 

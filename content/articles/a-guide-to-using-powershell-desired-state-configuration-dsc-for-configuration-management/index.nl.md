@@ -1,11 +1,12 @@
 ---
 title: "PowerShell DSC: een startgids"
 date: 2023-04-02
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Ontdek de kracht van PowerShell Desired State Configuration (DSC) om systeemconfiguraties te automatiseren en te beheren voor een veilige en conforme omgeving."
 tags: ["PowerShell", "DSC", "Configuratiebeheer", "Automatisering", "Windows", "Systeembeheer", "Beste praktijken", "Naleving", "Beveiliging", "Infrastructuur", "DevOps", "Serverconfiguratie", "Testen", "Git", "Broncontrole", "Overheidsvoorschriften", "NIST", "CIS", "Configuratie Drift", "Aangepaste middelen"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
+cover: "/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp"
 coverAlt: "Een cartoonbeeld van een zelfverzekerde systeembeheerder met een superheldencape, staand naast een goed georganiseerd serverrek, met een PowerShell DSC-script in de ene hand en een schild met het Windows-logo in de andere, de servers beschermend tegen configuratiedrift en beveiligingsrisico's."
 coverCaption: ""
 ---
@@ -16,7 +17,7 @@ ______
 
 ## Inleiding
 
-PowerShell Desired State Configuration (**DSC**) is een krachtig en **essentieel hulpmiddel** voor IT-beheerders en DevOps-professionals, waarmee ze de implementatie en configuratie van Windows- en Linux-systemen kunnen automatiseren. Dit artikel biedt een uitgebreide gids voor het gebruik van PowerShell DSC voor configuratiebeheer, inclusief best practices, overheidsvoorschriften en nuttige referenties.
+PowerShell Desired State Configuration (**DSC**) is een krachtig en **essentieel hulpmiddel** voor IT-beheerders en DevOps-professionals, waarmee ze de implementatie en configuratie van Windows- en Linux-systemen kunnen automatiseren. Dit artikel biedt een uitgebreide gids voor het gebruik van PowerShell DSC voor configuratiebeheer, waaronder aanbevolen werkwijzen, overheidsvoorschriften en nuttige referenties.
 
 ______
 
@@ -63,19 +64,19 @@ Dit genereert een **MOF** bestand (Managed Object Format) dat de gecompileerde c
 Start-DscConfiguration -Path .\InstallIIS -Wait -Verbose
 ```
 
-## Best Practices voor het gebruik van PowerShell DSC.
+## Beste praktijken voor het gebruik van PowerShell DSC
 
 ### Modulariseer uw configuraties
 
 Maak **modulaire en herbruikbare** configuraties door de verschillende componenten van uw infrastructuur te scheiden in **individuele DSC-resources**. Met deze aanpak kunt u uw configuraties gemakkelijk **onderhouden en schalen** als uw omgeving groeit.
 
-### Source Control gebruiken
+### Versiebeheer gebruiken
 
 Sla uw DSC-configuraties en aangepaste bronnen altijd op in een **bronbeheersysteem** zoals Git. Zo kunt u wijzigingen bijhouden, samenwerken met uw team en gemakkelijk terugkeren naar eerdere versies van uw configuraties wanneer dat nodig is.
 
 ### Test uw configuraties
 
-**Testen** is een cruciaal aspect van configuratiebeheer. Test een DSC-configuratie op een niet-productieomgeving** voordat u deze inzet, om er zeker van te zijn dat deze werkt zoals verwacht en geen onbedoelde gevolgen heeft. U kunt ook tools gebruiken zoals [Pester](https://github.com/pester/Pester) voor het automatisch testen van uw DSC-configuraties.
+**Testen** is een cruciaal aspect van configuratiebeheer. Test een DSC-configuratie in een **niet-productieomgeving** voordat u deze inzet, om er zeker van te zijn dat deze werkt zoals verwacht en geen onbedoelde gevolgen heeft. U kunt ook tools gebruiken zoals [Pester](https://github.com/pester/Pester) voor het automatisch testen van uw DSC-configuraties.
 
 ______
 
@@ -83,7 +84,7 @@ ______
 
 ### NIST Richtlijnen
 
-Het National Institute of Standards and Technology (NIST) geeft richtlijnen voor systeemconfiguratiebeheer. In het bijzonder de [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) publication contains a section (CM-2) over basisconfiguraties, die relevant is voor het gebruik van DSC. De richtlijnen benadrukken het belang van het onderhouden, bewaken en controleren van wijzigingen in systeemconfiguraties. PowerShell DSC kan organisaties helpen aan deze richtlijnen te voldoen door een consistente en geautomatiseerde manier te bieden om systeemconfiguraties te beheren.
+Het National Institute of Standards and Technology (NIST) geeft richtlijnen voor systeemconfiguratiebeheer. Met name bevat de publicatie [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) een sectie (CM-2) over basisconfiguraties, die relevant is voor het gebruik van DSC. De richtlijnen benadrukken het belang van het onderhouden, bewaken en controleren van wijzigingen in systeemconfiguraties. PowerShell DSC kan organisaties helpen aan deze richtlijnen te voldoen door een consistente en geautomatiseerde manier te bieden om systeemconfiguraties te beheren.
 
 ### Federal Information Security Management Act (FISMA)
 
@@ -92,17 +93,17 @@ ______
 
 ## Conclusie
 
-PowerShell Desired State Configuration (DSC) is een krachtig en flexibel hulpmiddel voor het automatiseren van de inzet en het beheer van systeemconfiguraties. Door best practices te volgen en de overheidsvoorschriften in acht te nemen, kunt u ervoor zorgen dat de systemen van uw organisatie in de gewenste staat blijven en tegelijkertijd de compliance behouden. Vergeet niet gebruik te maken van de bronnen in dit artikel om uw kennis van PowerShell DSC te vergroten en uw configuratiebeheerprocessen te verbeteren.
+PowerShell Desired State Configuration (DSC) is een krachtig en flexibel hulpmiddel voor het automatiseren van de inzet en het beheer van systeemconfiguraties. Door aanbevolen werkwijzen te volgen en overheidsvoorschriften na te leven, zorgt u ervoor dat de systemen van uw organisatie in de gewenste staat blijven en aan de geldende voorschriften voldoen. Vergeet niet gebruik te maken van de bronnen in dit artikel om uw kennis van PowerShell DSC te vergroten en uw configuratiebeheerprocessen te verbeteren.
 ______
 
 ## Referenties
 
-- [PowerShell Desired State Configuration (DSC) official documentation](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
+- [Officiële documentatie van PowerShell Desired State Configuration (DSC)](https://learn.microsoft.com/en-us/powershell/dsc/getting-started/wingettingstarted?view=dsc-1.1)
 - [NIST SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 - [Federal Information Security Management Act (FISMA)](https://www.dhs.gov/cisa/federal-information-security-modernization-act)
-- [Pester - PowerShell Testing Framework](https://github.com/pester/Pester)
-- [A Beginner's Guide to Using Encryption for Data Protection](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
-- [Best Practices for Installing Security Patches on Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
+- [Pester - testframework voor PowerShell](https://github.com/pester/Pester)
+- [Een beginnersgids voor versleuteling ter bescherming van gegevens](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+- [Aanbevolen werkwijzen voor het installeren van beveiligingspatches op Windows](https://simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/)
 
 
 

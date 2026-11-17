@@ -1,7 +1,7 @@
 ---
 title: "Ultimate UniFi Setup: Simple and Advanced with Rack Setup"
 date: 2023-06-25
-lastmod: 2026-10-11
+lastmod: 2026-11-08
 toc: true
 draft: false
 description: "Discover the perfect UniFi setup for your home wiring needs, from a simple and cost-effective solution to a complete networking setup with advanced capabilities."
@@ -21,7 +21,6 @@ For most households, a simple and cost-effective solution is preferred. In such 
 
 {{< figure src="udm.webp" alt="UniFi Dream Router" link="https://amzn.to/42i8Axd" >}}
 
-{{< centerbutton href="https://amzn.to/42i8Axd" >}}Get the Unifi Dream Router Today!{{< /centerbutton >}}
 
 {{< youtube id="EUh2522iGHk" >}}
 
@@ -53,6 +52,8 @@ In comparison to ISP-provided Wi-Fi solutions, the UniFi Dream Router offers sev
 
 By choosing the UniFi Dream Router, you can enjoy a simple setup that offers exceptional performance, reliability, and security, making it a superior choice in its price range and beyond.
 
+{{< centerbutton href="https://www.amazon.com/s?k=UniFi+Dream+Router&tag=sos08d-20" >}}Check current UniFi Dream Router listings on Amazon{{< /centerbutton >}}
+
 
 ## The Advanced Setup: Complete Home Wiring Solution
 For those seeking a more comprehensive networking solution with advanced capabilities, a complete home wiring setup is recommended. This setup requires or plans to have a certain level of Ethernet runs in your home. Here's a look at the key components of this advanced setup:
@@ -64,21 +65,17 @@ Any good setup requires a few pieces of equipment. With Unifi you need at least 
 
 - [**Ubiquiti: UniFi Dream Machine SE (UDM-SE)** ](https://amzn.to/3N8s6Ih): This is the king of the show. It's a router, switch, firewall, and SDN controller in one. 8 Ports of PoE at 1G, Dual 10G SFP+, and 1 2.5G ethernet wan port. If you like to use unifi protect it has a built in ssd to support a camera or two out of the box with the option of adding an additional hard drive down the road. {{< figure src="udm-se.webp" alt="Ubiquiti: UniFi Dream Machine SE (UDM-SE)" link="https://amzn.to/3N8s6Ih" >}}
 
-{{< centerbutton href="https://amzn.to/3N8s6Ih" >}}Get the Unifi Dream Machine Special Edition Today!{{< /centerbutton >}}
 
 
 - [**Ubiquiti: UniFi 6 Lite Wi-Fi 6 Dual Band Wireless Access Point (U6-LITE)**](https://amzn.to/3OPhxuK): This Wi-Fi 6 Access Point support 2x2 MiMo and hundreds of clients at one time. Able to broadcast up to 4 SSIDs at a time for secure Wi-Fi networks. We recommend you get at minimum 1 per every floor of your home. However if you have 2 or 3 you can take advantage of the built in meshing, automatic channel interference switching, and Wi-Fi roaming. {{< figure src="u6-lite.webp" alt="Ubiquiti: UniFi 6 Lite Wi-Fi 6 Dual Band Wireless Access Point (U6-LITE)" link="https://amzn.to/3OPhxuK" >}}
 
-{{< centerbutton href="https://amzn.to/3OPhxuK" >}}Get the Unifi U6 Lite Access Point Today!{{< /centerbutton >}}
 
 
 - [**Ubiquiti: UniFi Switch Pro 24 PoE (USW-24-Poe)**](https://amzn.to/3qrhVW5): This switch is optional, however if you plan on upgrading down the road or have plenty of access points and or cameras, the UDM-SE's PoE budget is limiting. {{< figure src="USW-24-Poe.webp" alt="Ubiquiti: UniFi Switch Pro 24 PoE (USW-24-Poe)" link="https://amzn.to/3qrhVW5" >}}
 
-{{< centerbutton href="https://amzn.to/3qrhVW5" >}}Get the Unifi Switch Pro 24 PoE Today!{{< /centerbutton >}}
 
 - [**Ubiquiti: UniFi Switch Pro 24 (USW-24)**](https://amzn.to/3N8PZzh): This switch is optional, however if you plan on upgrading down the road and don't plan on having an excess of access points or cameras, you won't need the extra PoE budget. {{< figure src="USW-24.webp" alt="Ubiquiti: UniFi Switch Pro 24 (USW-24)" link="https://amzn.to/3N8PZzh" >}}
 
-{{< centerbutton href="https://amzn.to/3N8PZzh" >}}Get the Unifi Switch Pro 24 Today!{{< /centerbutton >}}
 
 
 
@@ -86,16 +83,12 @@ Any good setup requires a few pieces of equipment. With Unifi you need at least 
 To establish a reliable and high-speed network infrastructure, you need to use quality Ethernet cables and a patch panel. We recommend the following products:
 
 - [**Cable Matters 10Gbps UL Listed in-Wall (cm) Bare Copper Shielded Cat 6A Cable**](https://amzn.to/42m9OYa): This spool of CAT 6A ethernet cable is great for those custom length in-wall runs. Supports speeds up to 10 Gbps and max run lengths of 350 feet. {{< figure src="Cable Matters.webp" alt="Cable Matters 10Gbps UL Listed in-Wall (cm) Bare Copper Shielded Cat 6A Cable" link="https://amzn.to/42m9OYa" >}}
-{{< centerbutton href="https://amzn.to/42m9OYa" >}}Get the Cable Matters 10Gbps Cat 6A Cable Today!{{< /centerbutton >}}
 
 - [**ITBEBE 50 Pieces Gold Plated End Pass Through RJ45 Cat6**](https://amzn.to/3N9ne5K): These passthrough CAT 6A ethernet connectors are for when you need to terminate with a male end. Overall great for beginners thanks to the passthrough. {{< figure src="ITBEBE.webp" alt="ITBEBE 50 Pieces Gold Plated End Pass Through RJ45 Cat6" link="https://amzn.to/3N9ne5K" >}}
-{{< centerbutton href="https://amzn.to/3N9ne5K" >}}Get the ITBEBE 50 Pieces Gold Plated RJ45 Cat6 Connectors Today!{{< /centerbutton >}}
 
 - [**CablesOnline 10-Pack 6inch CAT5e UTP Ethernet RJ45 Full 8-Wire Black Patch Cable**](https://amzn.to/3N9mVI8): These short patch cables offer excellent connectivity and flexibility for your network setup.{{< figure src="CablesOnline.webp" alt="CablesOnline 10-Pack 6inch CAT5e UTP Ethernet RJ45 Full 8-Wire Black Patch Cable" link="https://amzn.to/3N9mVI8" >}}
-{{< centerbutton href="https://amzn.to/3N9mVI8" >}}Get the CablesOnline 10-Pack 6inch Patch Cables Today!{{< /centerbutton >}}
 
 - [**TRENDnet 48-Port Blank Keystone 2U HD Patch Panel**](https://amzn.to/43kwqKb): This patch panel provides a professional and organized solution for terminating and managing Ethernet cables.{{< figure src="TRENDnet.webp" alt="TRENDnet 48-Port Blank Keystone 2U HD Patch Panel" link="https://amzn.to/43kwqKb" >}}
-{{< centerbutton href="https://amzn.to/43kwqKb" >}}Get the TRENDnet 48-Port Patch Panel Today!{{< /centerbutton >}}
 
 
 By using these products, you can ensure efficient cable management and [seamless connectivity](https://simeononsecurity.com/other/t-mobile-home-internet-benefits-connectivity-features/) throughout your network rack and home.
@@ -104,10 +97,8 @@ By using these products, you can ensure efficient cable management and [seamless
 To complete the wiring setup, you need to have wall plates and keystone jacks that provide a clean and professional finish. We recommend the following products:
 
 - [**Legrand - OnQ Oversized Wall Plate**](https://amzn.to/3C9jw5I): These large wall plates offer ample space for easy installation of keystone jacks and provide a neat appearance.{{< figure src="Legrand.webp" alt="Legrand - OnQ Oversized Wall Plate" link="https://amzn.to/3C9jw5I" >}}
-{{< centerbutton href="https://amzn.to/3C9jw5I" >}}Get the Legrand - OnQ Oversized Wall Plate Today!{{< /centerbutton >}}
 
 - [**VCE 25-Pack Cat6A RJ45 90-Degree Keystone Jack Insert**](https://amzn.to/3C5ZkSn): These keystone jacks provide reliable and high-performance connections for your Ethernet cables.{{< figure src="VCE.webp" alt="VCE 25-Pack Cat6A RJ45 90-Degree Keystone Jack Insert" link="https://amzn.to/3C5ZkSn" >}}
-{{< centerbutton href="https://amzn.to/3C5ZkSn" >}}Get the VCE 25-Pack Cat6A RJ45 Keystone Jack Inserts Today!{{< /centerbutton >}}
 
 
 With these wall plates and keystone jacks, you can achieve a polished and professional look while ensuring optimal performance.
@@ -116,20 +107,18 @@ With these wall plates and keystone jacks, you can achieve a polished and profes
 To centralize and protect your networking equipment, a network server cabinet is essential. We recommend the following products:
 
 - [**NavePoint 12U Wall Mount Network Server Cabinet**](https://amzn.to/3IUswiR): This cabinet offers ample space for your 19" IT equipment, with features like tempered glass doors, removable side panels, and locks for enhanced security. {{< figure src="NavePoint.webp" alt="NavePoint 12U Wall Mount Network Server Cabinet" link="https://amzn.to/3IUswiR" >}}
-{{< centerbutton href="https://amzn.to/3IUswiR" >}}Get the NavePoint 12U Wall Mount Server Cabinet Today!{{< /centerbutton >}}
 
 - [**Lancher 60-Pack M6 x 16mm Screws and Cage Nuts**](https://amzn.to/3OWRKBb): These screws and cage nuts provide secure mounting for your server shelf cabinets. {{< figure src="Lancher.webp" alt="Lancher 60-Pack M6 x 16mm Screws and Cage Nuts" link="https://amzn.to/3OWRKBb" >}}
-{{< centerbutton href="https://amzn.to/3OWRKBb" >}}Get the Lancher 60-Pack M6 x 16mm Screws and Cage Nuts Today!{{< /centerbutton >}}
 
 - [**StarTech.com 2U Server Rack Shelf**](https://amzn.to/3WPlPEr): This rack shelf is great for storing non rack mount items in your rack like cable modems, zig-bee and z-wave bridges, ring security controllers, samsung smartthings controllers, phillips hue controllers, etc. {{< figure src="Rack Shelf.webp" alt="StarTech.com 2U Server Rack Shelf" link="https://amzn.to/3WPlPEr" >}}
-{{< centerbutton href="https://amzn.to/3WPlPEr" >}}Get the StarTech.com 2U Server Rack Shelf Today!{{< /centerbutton >}}
 
 - [**Tripp Lite SMART1500LCDXL 1500VA Smart UPS Back Up, 900W Rack-Mount/Tower**](https://amzn.to/3WJMTF2): You're spending a fair deal of money at this point. You need to protect it. Benefits of surviving short power outages, power surges, and brown outs. {{< figure src="Tripp Lite.webp" alt="Tripp Lite SMART1500LCDXL 1500VA Smart UPS Back Up, 900W Rack-Mount/Tower" link="https://amzn.to/3WJMTF2" >}}
-{{< centerbutton href="https://amzn.to/3WJMTF2" >}}Get the Tripp Lite SMART1500LCDXL Smart UPS Today!{{< /centerbutton >}}
 
 
 
 By investing in a network server cabinet and the necessary accessories, you can ensure proper organization, cooling, and protection for your networking equipment.
+
+{{< centerbutton href="https://www.amazon.com/s?k=UniFi+Dream+Machine+SE&tag=sos08d-20" >}}Check current UniFi Dream Machine SE listings on Amazon{{< /centerbutton >}}
 
 
 
@@ -137,10 +126,8 @@ By investing in a network server cabinet and the necessary accessories, you can 
 To enhance and expand the capabilities of your setup, we recommend considering the following UniFi products:
 
 - [**UniFi Switch Flex**](https://amzn.to/3qlWwxF): This attic switch offers flexible deployment options and allows for easy expansion of your network while passing through PoE. {{< figure src="UniFi Switch Flex.webp" alt="UniFi Switch Flex" link="https://amzn.to/3qlWwxF" >}}
-{{< centerbutton href="https://amzn.to/3qlWwxF" >}}Get the UniFi Switch Flex Today!{{< /centerbutton >}}
 
 - [**UniFi Switch Flex Mini**](https://amzn.to/43hxQoM): This mini switch offers flexible deployment options giving you extra ports where you need them like at your desk or entertainment center. Plus it's super cheap! {{< figure src="UniFi Switch Flex Mini.webp" alt="UniFi Switch Flex Mini" link="https://amzn.to/43hxQoM" >}}
-{{< centerbutton href="https://amzn.to/43hxQoM" >}}Get the UniFi Switch Flex Mini Today!{{< /centerbutton >}}
 
 
 ## Conclusion

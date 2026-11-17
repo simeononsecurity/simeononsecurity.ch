@@ -1,12 +1,12 @@
 ---
 title: "AI-samenwerking met GitHub: grenzen voor repository en review"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Bouw een GitHub-gerichte bronnenkaart, wijs bestandseigenaars toe en stel een beschermde publicatiegrens in voor gereviewde AI-bijdragen."
-genre: ["Kunstmatige intelligentie", "Teamsamenwerking", "Software-engineering"]
-tags: ["AI-samenwerkingscursus", "GitHub-repository", "branchbescherming", "CODEOWNERS", "bronnenkaart", "pull-requestreview", "publicatiecontroles"]
+genre: ["Kunstmatige intelligentie", "Teamsamenwerking", "Softwareontwikkeling"]
+tags: ["AI-samenwerkingscursus", "GitHub-opslagplaats", "branchbescherming", "CODEOWNERS", "bronnenkaart", "pull-requestreview", "publicatiecontroles"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustratie van professionals die gedeeld projectwerk beoordelen in een cybersecurity-werkomgeving"
 coverCaption: ""
@@ -31,7 +31,7 @@ coverCaption: ""
 
 **Resultaat:** je eindigt met een beschermde publicatiebranch, bestandseigenaars, een bronnenkaart en een weigeringstest die als bewijs is vastgelegd.
 
-## De repository maken
+## De Git-opslagplaats maken
 
 1. **Maak `export-service-lab`** met een README en de standaardbranch **`main`**.
 2. **Kopieer het uitgepakte lab** naar de repositoryroot en behoud **`check.py`**, **`test_check.py`** en **`baseline/`**. Kopieer de baseline-recordbestanden naar de root als eerste records.
@@ -55,7 +55,7 @@ De clone-opdracht moet de repositorydirectory benoemen. Als `unzip` niet beschik
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Synthetische samenwerkingsbasis toevoegen"
 git push origin main
 git status --short
 git remote -v
@@ -105,7 +105,7 @@ Eigenaren hebben schrijftoegang nodig zodat GitHub hen herkent. Controleer het C
 1. **Open Settings, Branches** en voeg een branch protection rule toe voor **`main`**. Gebruik in deze oefening consequent de branch-protectionroute in plaats van die met rulesets te mengen.
 2. **Vereis een pull request**, twee goedkeurende reviews en review door code owners.
 3. **Wijs verouderde goedkeuringen af** na nieuwe commits en vereis het oplossen van gesprekken.
-4. **Schakel Do not allow bypassing the above settings in.** Houd force pushes en verwijdering uitgeschakeld.
+4. **Schakel de optie ‘Het omzeilen van bovenstaande instellingen niet toestaan’ in.** Houd force pushes en verwijdering uitgeschakeld.
 5. **Voeg de consistentiecheck toe** na de eerste uitvoering ervan in de volgende module. Vereis dat branches bijgewerkt zijn voordat ze worden gemerged.
 
 **Twee goedkeuringen leggen een aantal vast, geen lidmaatschap van een bedrijfsrol.** CODEOWNERS voegt padgebaseerde eigenaarsdekking toe. De maintainer controleert ook de twee rolattestaties. Leg deze procedurele controle expliciet vast in plaats van haar te beschrijven als geautomatiseerde handhaving van twee rollen.
@@ -129,12 +129,12 @@ Eigenaren hebben schrijftoegang nodig zodat GitHub hen herkent. Controleer het C
 **Gebruik de eigen geauthenticeerde lokale clone van de bijdrager voor de directe-pushtest.** Een maintainer-token zou de verkeerde identiteit testen. Deze illustratieve respons toont het type serverbewijs dat je moet bewaren. De exacte formulering verschilt per repositoryregel.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Rol van actor: bijdrager
+Poging: onschadelijke synthetische directe push naar main
+Resultaat op remote: geweigerd, update van beschermde branch afgewezen
+Initiële commit van main: [sandbox-commit noteren]
+Definitieve commit van main: [dezelfde commit na opnieuw lezen noteren]
+Besluit: weigering door het platform is alleen onderbouwd als beide registraties zijn waargenomen
 ```
 
 **Als lokale Git-authenticatie niet beschikbaar is, markeer je server-side weigering als Blocked.** Bewaar de browserprompt voor de branch als routebewijs en vraag de maintainer een afzonderlijke bijdragerstest te organiseren. Beoordeel de routeprompt niet als een geweigerde directe push.
@@ -144,34 +144,34 @@ Decision: platform denial supported only if both records are observed
 **Een bronnenkaart is een routeringsdocument**, geen tweede vereistendocument. Iemand die vanuit de chat komt, moet actuele intentie, geïmplementeerd gedrag en operationele instructies vinden zonder uit concurrerende samenvattingen te kiezen.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Projectnaam: export-service-lab
+Traject: GitHub-first
+Goedgekeurde grens: beschermde main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Bevoegdheid: bewaardoel voor synthetische exportbestanden
+  Eigenaar: product-owner
+  Revisie: revisie en beschermde commit noteren
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Bevoegdheid: bedieningsinstructies voor het synthetische lab
+  Eigenaar: operations-owner
+  Revisie: beschermde commit
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Gedrag -> config.json
+  Bevoegdheid: vastgelegde bewaarconfiguratie
+  Eigenaar: repository-maintainer
+  Revisie: beschermde commit
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Voorstellen -> Issues en voorstelbranches
+  Bevoegdheid: alleen aangevraagde wijzigingen
 ```
 
 **Zet de actuele bewaartermijn niet in elke kaartvermelding.** Een kaart met “zeven dagen” wordt na PROP-042 nog een waarde die je moet synchroniseren. Houd stabiele identificatoren en locaties in de kaart en lees de waarde uit het gezaghebbende record.
 
 **Bescherm kaartwijzigingen als routeringswijzigingen.** REQ-17 omleiden naar een conceptbestand verandert de bronselectie, zelfs als de goedgekeurde vereiste onaangetast blijft. Review bestemming, eigenaar en gezagsbereik wanneer de kaart verandert.
 
-## Baseline en kandidaat scheiden
+## Uitgangssituatie en kandidaat scheiden
 
 **De repositoryroot bevat de actieve labrecords.** De gedownloade **`baseline/`**-directory is een onderwijsfixture. Die is niet automatisch de beschermde baseline voor elke latere PR. Zodra gereviewd werk **`main`** bereikt, bepalen de beschermde rootrecords de basis voor het volgende voorstel.
 
@@ -208,7 +208,7 @@ Proposals -> Issues and proposal branches
 
 **Registreer rol en actie zonder accountdetails bloot te geven** in gedeeld cursusbewijs. Houd native actorrecords privé beschikbaar voor de reviewer. Leg regelconfiguratie, ondernomen bewerking, weigering en de resulterende beschermde revisie samen vast.
 
-## Repository-voltooiingscontrole
+## Controle op volledigheid van de opslagplaats
 
 **Lever een repository die een andere bijdrager zelfstandig kan volgen.** De README verwijst naar de kaart, de kaart verwijst naar gezaghebbende records, eigenaarsdekking omvat gevoelige paden en bescherming geldt voor **`main`**. Bewaar één toegelaten voorstel en één geweigerde publicatiepoging.
 
@@ -228,9 +228,9 @@ Proposals -> Issues and proposal branches
 
 ## Belangrijkste referenties
 
-- **Plan- en reviewcontroles:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Geschiktheid van eigenaren:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
-- **Bijdragen in de browser:** [Editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
+- **Plan- en reviewcontroles:** [Beschermde branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+- **Geschiktheid van eigenaren:** [Code-eigenaren](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+- **Bijdragen in de browser:** [Bestanden bewerken](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
 ## Volgende stappen
 

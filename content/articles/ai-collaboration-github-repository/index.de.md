@@ -1,12 +1,12 @@
 ---
 title: "KI-Zusammenarbeit mit GitHub: Grenzen für Repository und Review"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Erstelle eine GitHub-zentrierte Quellenkarte, weise Dateieigentümer zu und richte eine geschützte Veröffentlichungsgrenze für geprüfte KI-Beiträge ein."
 genre: ["Künstliche Intelligenz", "Teamzusammenarbeit", "Softwareentwicklung"]
-tags: ["KI-Zusammenarbeitskurs", "GitHub-Repository", "Branch-Schutz", "CODEOWNERS", "Quellenkarte", "Pull-Request-Review", "Veröffentlichungskontrollen"]
+tags: ["KI-Zusammenarbeitskurs", "GitHub-Repository", "Branch-Schutz", "CODEOWNERS", "Quellenkarte", "Pull-Request-Prüfung", "Veröffentlichungskontrollen"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustration von Fachleuten, die gemeinsame Projektarbeit in einer Cybersecurity-Umgebung prüfen"
 coverCaption: ""
@@ -31,7 +31,7 @@ coverCaption: ""
 
 **Ergebnis:** Du schließt mit einem geschützten Veröffentlichungs-Branch, Dateieigentümern, einer Quellenkarte und einem als Beleg aufgezeichneten Ablehnungstest ab.
 
-## Repository erstellen
+## Git-Projektarchiv anlegen
 
 1. **Erstelle `export-service-lab`** mit README und Standard-Branch **`main`**.
 2. **Kopiere das entpackte Labor** in das Repository-Stammverzeichnis und erhalte **`check.py`**, **`test_check.py`** und **`baseline/`**. Kopiere die Dateien der Baseline-Aufzeichnungen als erste Aufzeichnungen in das Stammverzeichnis.
@@ -55,7 +55,7 @@ Der Clone-Befehl soll das Repository-Verzeichnis benennen. Wenn `unzip` fehlt, e
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Synthetische Kollaborationsbasis hinzufügen"
 git push origin main
 git status --short
 git remote -v
@@ -105,7 +105,7 @@ PY
 1. **Öffne Settings, Branches** und füge eine Branch-Schutzregel für **`main`** hinzu. Verwende in dieser Übung konsequent den Branch-Schutzweg, statt ihn mit Rulesets zu mischen.
 2. **Verlange einen Pull Request**, zwei zustimmende Reviews und ein Review durch Code-Eigentümer.
 3. **Verwirf veraltete Zustimmungen** nach neuen Commits und verlange die Auflösung von Unterhaltungen.
-4. **Aktiviere Do not allow bypassing the above settings.** Deaktiviere Force-Pushes und Löschung.
+4. **Aktiviere die Einstellung „Umgehungen der oben genannten Einstellungen verhindern“.** Deaktiviere Force-Pushes und Löschung.
 5. **Füge die Konsistenzprüfung** nach ihrem ersten Lauf im nächsten Modul hinzu. Verlange vor dem Mergen aktuelle Branches.
 
 **Zwei Zustimmungen erzwingen eine Anzahl, keine Geschäftsrollen.** CODEOWNERS ergänzt pfadbezogene Eigentümerabdeckung. Der Maintainer prüft außerdem die beiden Rollenbestätigungen. Erfasse diese Verfahrenskontrolle ausdrücklich, statt sie als automatisierte Durchsetzung zweier Rollen zu beschreiben.
@@ -129,12 +129,12 @@ PY
 **Nutze für den direkten Push-Test den eigenen authentifizierten lokalen Klon des Mitwirkenden.** Ein Maintainer-Token würde die falsche Identität testen. Die folgende Beispielantwort zeigt, welche Serverbelege aufzubewahren sind. Der genaue Wortlaut hängt von den Repository-Regeln ab.
 
 ```text
-Actor role: contributor
-Attempt: harmless synthetic direct push to main
-Remote result: rejected, protected branch update denied
-Initial main commit: [record sandbox commit]
-Final main commit: [record same commit after read-back]
-Decision: platform denial supported only if both records are observed
+Akteursrolle: Mitwirkender
+Versuch: harmloser synthetischer Direkt-Push auf main
+Ergebnis des Remote-Repositorys: abgelehnt, Aktualisierung des geschützten Branches verweigert
+Ausgangs-Commit von main: [Sandbox-Commit eintragen]
+Abschließender Commit von main: [denselben Commit nach dem erneuten Auslesen eintragen]
+Entscheidung: Die Ablehnung durch die Plattform ist nur belegt, wenn beide Einträge beobachtet werden
 ```
 
 **Wenn lokale Git-Authentifizierung fehlt, markiere die serverseitige Ablehnung als Blockiert.** Bewahre die Browser-Aufforderung zum Branch-Erstellen als Wegbeleg auf und bitte den Maintainer um einen separaten Mitwirkenden-Test. Werte die Wegaufforderung nicht als abgelehnten direkten Push.
@@ -144,34 +144,34 @@ Decision: platform denial supported only if both records are observed
 **Eine Quellenkarte ist ein Routing-Dokument**, kein zweites Anforderungsdokument. Jemand aus dem Chat muss aktuelle Absicht, implementiertes Verhalten und Betriebsanweisungen finden, ohne zwischen konkurrierenden Zusammenfassungen zu wählen.
 
 ```text
-Project: export-service-lab
-Track: GitHub-first
-Approved boundary: protected main
+Projekt: export-service-lab
+Arbeitsweg: GitHub-first
+Genehmigte Grenze: geschütztes main
 
 REQ-17 -> requirement.json
-  Authority: retention intent for synthetic export files
-  Owner: product-owner
-  Revision: record revision plus protected commit
+  Zuständigkeit: Aufbewahrungsabsicht für synthetische Exportdateien
+  Verantwortlich: product-owner
+  Revision: Revision und geschützten Commit eintragen
 
 RUN-04 -> runbook.md
-  Authority: operating instructions for the synthetic lab
-  Owner: operations-owner
-  Revision: protected commit
+  Zuständigkeit: Betriebsanweisungen für das synthetische Labor
+  Verantwortlich: operations-owner
+  Revision: geschützter Commit
 
-Behavior -> config.json
-  Authority: committed retention configuration
-  Owner: repository-maintainer
-  Revision: protected commit
+Verhalten -> config.json
+  Zuständigkeit: festgeschriebene Aufbewahrungskonfiguration
+  Verantwortlich: repository-maintainer
+  Revision: geschützter Commit
 
-Proposals -> Issues and proposal branches
-  Authority: requested changes only
+Vorschläge -> Issues und Vorschlags-Branches
+  Zuständigkeit: nur angeforderte Änderungen
 ```
 
 **Trage den aktuellen Aufbewahrungswert nicht in jedem Karteneintrag ein.** Eine Karte mit „sieben Tage“ wird nach PROP-042 zu einem weiteren zu synchronisierenden Wert. Bewahre stabile Kennungen und Orte in der Karte auf und lies den Wert aus dem maßgeblichen Datensatz.
 
 **Schütze Kartenänderungen als Routingänderungen.** Die Umleitung von REQ-17 auf eine Entwurfsdatei ändert die Quellenauswahl, selbst wenn die genehmigte Anforderung unverändert bleibt. Prüfe Ziel, Eigentümer und Autoritätsbereich bei jeder Kartenänderung.
 
-## Baseline und Vorschlag trennen
+## Ausgangsstand und Vorschlag trennen
 
 **Das Repository-Stammverzeichnis enthält die aktiven Laboraufzeichnungen.** Das heruntergeladene **`baseline/`**-Verzeichnis ist eine Lehrvorlage. Es ist nicht automatisch die geschützte Grundlage für jede spätere PR. Sobald geprüfte Arbeit **`main`** erreicht, bilden die geschützten Aufzeichnungen im Stammverzeichnis die Basis des nächsten Vorschlags.
 
@@ -208,13 +208,13 @@ Proposals -> Issues and proposal branches
 
 **Erfasse Rolle und Aktion ohne Kontodaten offenzulegen** in gemeinsam genutzten Kursbelegen. Halte native Akteursaufzeichnungen privat für den Reviewer verfügbar. Erfasse Regelkonfiguration, versuchten Vorgang, Ablehnung und resultierende geschützte Revision gemeinsam.
 
-## Repository-Abschlussprüfung
+## Abschlussprüfung des Projektarchivs
 
 **Liefere ein Repository, das ein anderer Mitwirkender selbstständig navigieren kann.** README verweist auf die Karte, die Karte löst maßgebliche Aufzeichnungen auf, Eigentümerabdeckung umfasst sensible Pfade und Schutz gilt für **`main`**. Bewahre einen erlaubten Vorschlag und einen abgelehnten Veröffentlichungsversuch auf.
 
 **Leite Durchsetzung nicht allein aus Einstellungen ab.** Einstellungen zeigen die beabsichtigte Konfiguration. Der Sandbox-Versuch zeigt beobachtetes Verhalten für eine bestimmte Rolle und einen bestimmten Weg. Nimm beides in die Agenten- und Actions-Lektion auf.
 
-## Fehlerbehebung und Rollback
+## Fehlerbehebung und Wiederherstellung
 
 **Eigentümeranfrage fehlt:** Schreibzugriff und Pfadabdeckung des Basis-Branches bestätigen. **Schutz fehlt:** Plan und Sichtbarkeit prüfen. **Merge bleibt aktiviert:** Regelziel, Bypass-Konfiguration und Review-Anzahl prüfen.
 

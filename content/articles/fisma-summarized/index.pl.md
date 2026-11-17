@@ -1,11 +1,11 @@
 ---
 title: "FISMA 101: przegląd federalnego bezpieczeństwa informacji"
 date: 2023-02-12
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "FISMA 101 zawiera kompleksowe omówienie Federal Information Security Modernization Act, w tym jej kluczowych elementów, korzyści i wymagań dla agencji federalnych."
-tags: ["FISMA", "Federalne bezpieczeństwo informacji", "Bezpieczeństwo informacji", "Zarządzanie ryzykiem", "Ocena kontroli bezpieczeństwa", "Ciągłe monitorowanie", "Reagowanie na incydenty", "Autoryzacja i akredytacja", "Poprawa bezpieczeństwa informacji", "Lepsze zarządzanie ryzykiem", "Zwiększona przejrzystość", "Wzmocniona współpraca"]
+tags: ["FISMA", "Federalne bezpieczeństwo informacji", "Bezpieczeństwo informacji", "Zarządzanie ryzykiem", "Ocena kontroli bezpieczeństwa", "Ciągłe monitorowanie", "Reagowanie na incydenty", "Autoryzacja i akredytacja", "Poprawa bezpieczeństwa informacji", "Lepsze zarządzanie ryzykiem", "Większa przejrzystość", "Wzmocniona współpraca", "Prawo USA", "Agencje federalne", "Programy bezpieczeństwa informacji", "Kontrole bezpieczeństwa", "Oceny ryzyka", "Bieżący monitoring", "Incydenty bezpieczeństwa", "Przejrzystość i rozliczalność", "Omówienie Federal Information Security Modernization Act", "Korzyści z FISMA w agencjach federalnych", "Zarządzanie ryzykiem w federalnym bezpieczeństwie informacji", "Ciągłe monitorowanie w FISMA", "Reagowanie na incydenty w agencjach federalnych", "Proces autoryzacji i akredytacji", "Poprawa bezpieczeństwa informacji w rządzie federalnym", "Współpraca w federalnym bezpieczeństwie informacji", "Przejrzystość zgodności z FISMA", "Standardy bezpieczeństwa informacji dla agencji federalnych"]
 cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Ekran komputera z umieszczoną na nim kłódką, symbolizującą bezpieczeństwo i ochronę informacji, na tle kodu binarnego"
 coverCaption: ""
@@ -29,11 +29,11 @@ Istnieje kilka kluczowych komponentów FISMA, w tym:
 
 - **Ocena kontroli bezpieczeństwa**: Agencje federalne muszą ocenić skuteczność swoich kontroli bezpieczeństwa, aby zapewnić, że działają one zgodnie z przeznaczeniem i zidentyfikować wszelkie obszary, które wymagają poprawy.
 
-- Stałe monitorowanie**: Agencje federalne muszą stale monitorować swoje systemy informacyjne, aby zapewnić ich bezpieczeństwo i reagować na wszelkie występujące incydenty bezpieczeństwa.
+- **Stałe monitorowanie**: Agencje federalne muszą stale monitorować swoje systemy informacyjne, aby zapewnić ich bezpieczeństwo i reagować na wszelkie występujące incydenty bezpieczeństwa.
 
-- Reagowanie na incydenty**: Agencje federalne muszą posiadać plan reagowania na incydenty bezpieczeństwa i muszą być w stanie szybko zidentyfikować, opanować i rozwiązać incydenty bezpieczeństwa.
+- **Reagowanie na incydenty**: Agencje federalne muszą posiadać plan reagowania na incydenty bezpieczeństwa i muszą być w stanie szybko zidentyfikować, opanować i rozwiązać incydenty bezpieczeństwa.
 
-- Autoryzacja i akredytacja**: Agencje federalne muszą uzyskać autoryzację od odpowiedniego organu do obsługi swoich systemów informacyjnych oraz muszą regularnie oceniać i ponownie akredytować te systemy, aby zapewnić, że są one bezpieczne.
+- **Autoryzacja i akredytacja**: Agencje federalne muszą uzyskać autoryzację od odpowiedniego organu do obsługi swoich systemów informacyjnych oraz muszą regularnie oceniać i ponownie akredytować te systemy, aby zapewnić, że są one bezpieczne.
 
 ### Zarządzanie ryzykiem
 
@@ -109,6 +109,12 @@ FISMA wymaga od agencji federalnych składania raportów na temat ich programów
 
 FISMA pomaga również wzmocnić współpracę i koordynację pomiędzy agencjami federalnymi, ich kontrahentami i innymi zainteresowanymi stronami, wymagając od nich przestrzegania tych samych standardów bezpieczeństwa informacji. Pomaga to zapewnić, że wszyscy współpracują w celu ochrony informacji wrażliwych oraz że ryzyko związane z bezpieczeństwem informacji jest skutecznie zarządzane na wszystkich poziomach rządu federalnego.
 
+
+## Lista kontrolna dowodów FISMA na 2026 rok
+
+Dla każdego mechanizmu kontrolnego powiąż dowody z systemem, właścicielem, datą i wynikiem przeglądu. Przydatne dowody obejmują zatwierdzenia polityk, eksporty konfiguracji, przeglądy dostępu, raporty o podatnościach, rejestry incydentów, wyniki szkoleń i testy odtwarzania.
+
+Po istotnych zmianach ponownie przejrzyj pakiet. Nowy dostawca tożsamości, ścieżka sieciowa, usługa chmurowa, grupa administratorów lub rodzaj danych może zmienić ocenę ryzyka i dowody dotyczące kontroli. Korzystaj z [Ramy zarządzania ryzykiem NIST](https://csrc.nist.gov/projects/risk-management/about-rmf), [FIPS 199](https://csrc.nist.gov/publications/detail/fips/199/final) oraz aktualnych wytycznych agencji jako źródeł referencyjnych.
 
 ## Wnioski
 

@@ -1,10 +1,11 @@
 ---
 title: "Netzwerk-Segmentierung: Wie Sie die Sicherheit in Ihrem Unternehmen verbessern können"
 date: 2023-03-11
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ein Leitfaden für die Netzwerksegmentierung zur Verbesserung der Sicherheit und Verringerung der Risiken in Ihrem Unternehmen."
-tags: ["Netzwerksegmentierung", "die Sicherheit verbessern", "das Risiko verringern", "Netzleistung", "Netzmanagement", "Sicherheitskontrollen", "Firewalls", "Zugangskontrollen", "geringstes Privileg", "Authentifizierung", "Testen", "Überwachung", "Cyber-Bedrohungen", "Datenschutzverletzungen", "Netzarchitektur", "umfassende Sicherheit", "mehrschichtige Sicherheit", "Schwachstellen", "Cyber-Angriffe", "Mitarbeiterschulung"]
+tags: ["Netzwerksegmentierung", "die Sicherheit verbessern", "das Risiko verringern", "Netzleistung", "Netzmanagement", "Sicherheitskontrollen", "Netzwerk-Firewalls", "Zugangskontrollen", "geringstes Privileg", "Authentifizierung", "Testen", "Überwachung", "Cyber-Bedrohungen", "Datenschutzverletzungen", "Netzarchitektur", "umfassende Sicherheit", "mehrschichtige Sicherheit", "Schwachstellen", "Cyber-Angriffe", "Mitarbeiterschulung"]
 cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "Ein Bild eines Netzes mit mehreren Segmenten, die durch eine Firewall und Zugangskontrollmechanismen geschützt sind, wobei ein Hacker von außerhalb des Netzes versucht, in das Netz einzudringen."
 coverCaption: ""
@@ -49,13 +50,13 @@ Schließlich **testen und überwachen Sie das Netzwerk**, um sicherzustellen, da
 
 ____
 
-## Best Practices für die Netzwerksegmentierung
+## Bewährte Verfahren für die Netzwerksegmentierung
 
 Im Folgenden finden Sie einige bewährte Verfahren, die Sie bei der Netzwerksegmentierung beachten sollten:
 
 - **Befolgen Sie das Prinzip der geringsten Privilegien**: Beschränken Sie den Zugang zu jedem Netzwerksegment auf die Personen, die ihn zur Erfüllung ihrer Aufgaben benötigen. Verwenden Sie Zugangskontrollen wie VLANs, VRFs oder andere Technologien, um dieses Prinzip durchzusetzen.
 
-- **Implementieren Sie strenge Zugangskontrollen**: Verwenden Sie starke Authentifizierungs- und Zugangskontrollen, um den Zugang zu sensiblen Daten und Systemen zu begrenzen. Dies kann die Verwendung von Multi-Faktor-Authentifizierung, starken Passwörtern und anderen Zugangskontrollen beinhalten, um sicherzustellen, dass nur autorisierte Benutzer auf kritische Ressourcen zugreifen können.
+- **Implementieren Sie strenge Zugangskontrollen**: Verwenden Sie starke Authentifizierungs- und Zugangskontrollen, um den Zugang zu sensiblen Daten und Systemen zu begrenzen. Dies kann die Verwendung von Multi-Faktor-Authentifizierung, [starken Passwörtern](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) und anderen Zugangskontrollen beinhalten, um sicherzustellen, dass nur autorisierte Benutzer auf kritische Ressourcen zugreifen können.
 
 - **Einsatz von Firewalls**: Setzen Sie Firewalls ein, um den Datenverkehr zwischen Netzwerksegmenten zu begrenzen und vor Cyberangriffen zu schützen. Dabei können sowohl Hardware- als auch Software-Firewalls eingesetzt werden, um Ihr Netzwerk sowohl vor internen als auch vor externen Bedrohungen zu schützen.
 
@@ -73,8 +74,8 @@ Die Netzwerksegmentierung ist ein wichtiger Bestandteil der Sicherheitsstrategie
 
 ## Referenzen
 
-- Cisco. (n.d.). [What is Network Segmentation?](https://www.cisco.com/c/en/us/products/security/what-is-network-segmentation.html) 
-- NIST. (2022). [Guide to a Secure Enterprise Network Landscape](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-215.pdf) 
-- Palo Alto Networks. (n.d.). [What is Network Segmentation?](https://www.paloaltonetworks.com/cyberpedia/what-is-network-segmentation)
+- Cisco. (n.d.). [Was ist Netzwerksegmentierung?](https://www.cisco.com/c/en/us/products/security/what-is-network-segmentation.html)
+- NIST. (2022). [Leitfaden für eine sichere Unternehmensnetzwerklandschaft](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-215.pdf)
+- Palo Alto Networks. (n.d.). [Was ist Netzwerksegmentierung?](https://www.paloaltonetworks.com/cyberpedia/what-is-network-segmentation)
 
 Diese Ressourcen bieten zusätzliche Informationen und bewährte Verfahren für die Netzwerksegmentierung, die Ihnen helfen können, die Sicherheit des Netzwerks Ihres Unternehmens zu verbessern.
