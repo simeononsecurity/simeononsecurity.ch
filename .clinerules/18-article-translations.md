@@ -305,6 +305,10 @@
   `image_description` value such as `My custom image` and any prose that repeats
   it, while preserving valid JSON or HCL syntax. A passing strict scan does not
   clear short reader-facing values.
+  When an example prompt names exact English words or sentences as its target,
+  keep those literal strings identical in every locale and translate the
+  surrounding instructions. Compare any quoted removal or matching rule with
+  the corresponding text in the example; preserve order and duplicate entries.
   An unlabeled code fence can still contain reader-facing labels or explanatory
   placeholders alongside literal data. The checker reports unchanged prose lines
   from unlabeled fences as `copied_unlabeled_fence_line`; translate those labels

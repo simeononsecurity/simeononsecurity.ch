@@ -3,9 +3,9 @@ title: "KI-Texte menschlicher gestalten: Der beste kostenlose Prompt, um KI-Text
 draft: false
 toc: true
 date: 2026-06-25
-lastmod: 2026-11-14
+lastmod: 2026-11-16
 description: "Schluss damit, dass Ihr KI-generierter Text wie ein Roboter klingt. Nutzen Sie diesen kostenlosen Prompt mit ChatGPT, Claude oder einem beliebigen LLM, um typische KI-Schreibzeichen zu entfernen und saubere, direkte, nach Mensch klingende Ausgaben zu erzeugen."
-tags: ["KI-Texte menschlicher gestalten", "KI-Schreibprompt", "ChatGPT-Prompt", "KI-Text-Humanisierer", "KI-Schreibzeichen entfernen", "KI-Inhalt", "LLM-Prompts", "ChatGPT-Tipps", "KI-Schreibstil", "Prompt-Engineering", "KI-Copywriting", "KI-Slop", "ChatGPT-Anpassung", "KI-Textverbesserung", "Schreibprompt", "Inhaltserstellung", "KI-Werkzeuge", "ChatGPT-Einstellungen", "benutzerdefinierte Anweisungen ChatGPT", "KI-Schreibanleitung"]
+tags: ["KI-Texte menschlicher gestalten", "Schreibanweisung für KI", "ChatGPT-Anweisung", "KI-Text überarbeiten", "KI-Schreibmuster entfernen", "KI-Inhalte", "LLM-Anweisungen", "ChatGPT-Tipps", "KI-Schreibstil", "Prompt-Entwicklung", "KI-Werbetexte", "KI-Floskeln", "ChatGPT anpassen", "KI-Texte verbessern", "Schreibanweisung", "Inhalte erstellen", "KI-Werkzeuge", "ChatGPT-Einstellungen", "ChatGPT-Anweisungen anpassen", "Leitfaden zum KI-Schreiben"]
 cover: "/img/cover/how-to-humanize-ai-writing-prompt-guide.webp"
 coverAlt: "Eine Illustration einer Person, die einen Laptop mit einem KI-Schreibwerkzeug verwendet, umgeben von abstrakten Darstellungen komplexer Schreibfallen, alles vor einem dunklen Hintergrund mit lebhaften Farben."
 coverCaption: ""
@@ -19,7 +19,7 @@ Die gute Nachricht: **Sie brauchen kein separates Werkzeug dafür zu bezahlen.**
 
 Dieser Artikel erklärt, wie dieser Prompt aussieht, warum jede Regel darin wichtig ist und wie Sie ihn speichern, damit ChatGPT ihn automatisch verwendet.
 
-## Warum KI-Text nach KI klingt
+## Warum KI-Texte maschinell klingen
 
 Große Sprachmodelle werden auf enormen Mengen von Web-Inhalten trainiert. Mit der Zeit lernen sie, dass bestimmte Muster in „guten" Texten vorkommen, auch wenn diese Muster abgenutzte Klischees sind.
 
@@ -36,7 +36,7 @@ Keines davon ist technisch falsch. *Es sind nur Signale, dass ein Modell auf tra
 
 **Die Lösung ist, dem Modell genau zu sagen, was Sie nicht wollen.**
 
-## Der Prompt
+## Die Anweisung
 
 Verwenden Sie diesen Prompt mit jedem LLM. Hängen Sie ihn an Ihre Anfrage an, fügen Sie ihn in Ihre Systemanweisungen ein oder speichern Sie ihn in den benutzerdefinierten Anweisungen von ChatGPT. **Er funktioniert am besten für Social-Media-Beiträge, Blog-Artikel und Marketing-Texte.**
 
@@ -63,7 +63,7 @@ Verwenden Sie diesen Prompt mit jedem LLM. Hängen Sie ihn an Ihre Anfrage an, f
 • VERMEIDEN SIE Markdown.
 • VERMEIDEN SIE Sternchen.
 • VERMEIDEN SIE diese Wörter und Wendungen:
-„kann, darf, nur, dass, sehr, wirklich, buchstäblich, tatsächlich, sicherlich, wahrscheinlich, grundsätzlich, könnte, vielleicht, sich vertiefen, aufbrechen, erhellend, angesehen, Licht auf etwas werfen, verfassen, ausarbeiten, sich vorstellen, Bereich, wegweisend, freischalten, entdecken, rasant steigen, Abgrund, nicht allein, in einer Welt, in der, revolutionieren, disruptiv, nutzen, anwenden, tief eintauchen, Geflecht, beleuchten, enthüllen, entscheidend, komplex, erläutern, daher, außerdem, jedoch, einsetzen, spannend, bahnbrechend, hochmodern, bemerkenswert, es, bleibt abzuwarten, Einblick in, navigieren, Landschaft, deutlich, Beleg, zusammenfassend, darüber hinaus, steigern, rasant ansteigend, eröffnet, leistungsstark, Fragen, ständig wandelnd“
+„can, may, just, that, very, really, literally, actually, certainly, probably, basically, could, maybe, delve, embark, enlightening, esteemed, shed light, craft, crafting, imagine, realm, game-changer, unlock, discover, skyrocket, abyss, not alone, in a world where, revolutionize, disruptive, utilize, utilizing, dive deep, tapestry, illuminate, unveil, pivotal, intricate, elucidate, hence, furthermore, realm, however, harness, exciting, groundbreaking, cutting-edge, remarkable, it, remains to be seen, glimpse into, navigating, landscape, stark, testament, in summary, in conclusion, moreover, boost, skyrocketing, opened up, powerful, inquiries, ever-evolving“
 
 # WICHTIG: Prüfen Sie Ihre Antwort und stellen Sie sicher, dass sie keine Gedankenstriche enthält!
 ```
@@ -103,15 +103,15 @@ Hashtags sind selten nützlich außerhalb von Instagram oder Twitter. Auf Linked
 
 Diese Phrasen fügen Länge hinzu, ohne Informationen hinzuzufügen. **Gutes Schreiben muss nicht ankündigen, dass es endet.**
 
-## Den Prompt für verschiedene Inhaltstypen anpassen
+## Die Anweisung an verschiedene Textarten anpassen
 
 Der Standard-Prompt ist für Kurzform-Inhalte abgestimmt: Social-Media-Beiträge, LinkedIn-Updates, E-Mail-Texte und Blog-Einleitungen.
 
 Wenn Sie **Langform-Inhalte** wie Berichte, Forschungszusammenfassungen oder technische Dokumentation schreiben, entfernen Sie diese Zeilen:
 
-- `SHOULD be spartan and informative.`
-- `SHOULD use short, impactful sentences.`
-- `SHOULD use bullet point lists in social media posts.`
+- `SOLLTE knapp und informativ sein.`
+- `SOLLTE kurze, wirkungsvolle Sätze verwenden.`
+- `SOLLTE in Beiträgen für soziale Medien Aufzählungen verwenden.`
 
 Langform-Texte profitieren von ausgearbeiteteren Absätzen. **Die restlichen Regeln gelten weiterhin.**
 
@@ -123,7 +123,7 @@ Um weiter zu gehen, **hängen Sie am Ende des Prompts ein kurzes Schreibmuster a
 
 Sie erhalten sauberere Ausgaben ohne generisches Gefühl.
 
-## Wie Sie es in ChatGPT speichern
+## So speichern Sie sie in ChatGPT
 
 **Sie müssen diesen Prompt nicht in jedes Gespräch einfügen.** ChatGPT ermöglicht Ihnen, benutzerdefinierte Anweisungen zu speichern, die automatisch auf jedes neue Gespräch angewendet werden.
 
@@ -150,7 +150,7 @@ Der vollständige Prompt liegt leicht über 1.500 Zeichen. Um ihn zu kürzen:
 
 Andere LLMs wie Claude und Gemini haben ähnliche Systemanweisungs- oder Anweisungsfunktionen. Der gleiche Prompt funktioniert in diesen Oberflächen mit geringfügigen Formatierungsanpassungen.
 
-## Ein praktischer Test
+## Ein Praxistest
 
 Um den Unterschied deutlich zu sehen, **führen Sie die gleiche Anfrage zweimal durch**.
 
@@ -167,7 +167,7 @@ Vergleichen Sie die Ausgaben nebeneinander. Achten Sie auf:
 
 *Der Unterschied ist nach einem einzigen Test sichtbar.* Die humanisierte Version liest sich schneller, macht stärkere Behauptungen ohne Füllmaterial und wird nicht sofort als von einem Modell generiert erkannt.
 
-## Was dieser Prompt nicht behebt
+## Was diese Anweisung nicht behebt
 
 **Kein Prompt entfernt alle KI-Schreibmuster vollständig.**
 
@@ -193,4 +193,4 @@ Beginnen Sie mit dem vollständigen Prompt. Entfernen Sie Regeln, die nicht auf 
 
 ## Quelle
 
-Dieser Artikel basiert auf dem originalen Prompt und Leitfaden, veröffentlicht von Sabrina Ramonov: [Best AI Prompt to Humanize AI Writing](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing).
+Dieser Artikel basiert auf dem originalen Prompt und Leitfaden, veröffentlicht von Sabrina Ramonov: [Beste KI-Anweisung für natürlichere KI-Texte](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing).

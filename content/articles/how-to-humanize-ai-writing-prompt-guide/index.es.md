@@ -3,9 +3,9 @@ title: "Cómo humanizar la escritura de IA: el mejor prompt gratuito para mejora
 draft: false
 toc: true
 date: 2026-06-25
-lastmod: 2026-11-14
+lastmod: 2026-11-16
 description: "Deje de hacer que su texto generado por IA suene como un robot. Use este prompt gratuito con ChatGPT, Claude o cualquier LLM para eliminar las señales reveladoras de escritura IA y producir texto limpio, directo y natural."
-tags: ["humanizar escritura IA", "prompt escritura IA", "prompt ChatGPT", "humanizador texto IA", "eliminar señales escritura IA", "contenido IA", "prompts LLM", "consejos ChatGPT", "estilo escritura IA", "prompt engineering", "copywriting IA", "contenido IA pobre", "personalización ChatGPT", "mejora texto IA", "prompt escritura", "creación de contenido", "herramientas IA", "configuración ChatGPT", "instrucciones personalizadas ChatGPT", "guía escritura IA"]
+tags: ["humanizar textos de IA", "instrucción para escritura con IA", "instrucción de ChatGPT", "mejorar texto de IA", "eliminar señales de escritura de IA", "contenido creado con IA", "instrucciones para LLM", "consejos de ChatGPT", "estilo de escritura con IA", "diseño de instrucciones", "redacción publicitaria con IA", "frases vacías de IA", "personalizar ChatGPT", "mejorar textos de IA", "instrucción de escritura", "creación de contenido", "herramientas de IA", "ajustes de ChatGPT", "instrucciones personalizadas de ChatGPT", "guía de escritura con IA"]
 cover: "/img/cover/how-to-humanize-ai-writing-prompt-guide.webp"
 coverAlt: "Una ilustración de una persona usando un portátil con una herramienta de escritura IA, rodeada de representaciones abstractas de trampas complejas de escritura, todo sobre un fondo oscuro con colores vibrantes."
 coverCaption: ""
@@ -19,7 +19,7 @@ La buena noticia: **no necesita pagar por una herramienta separada.** Un prompt 
 
 Este artículo explica cómo luce ese prompt, por qué cada regla en él importa y cómo guardarlo para que ChatGPT lo use automáticamente.
 
-## Por qué el texto de IA suena como texto de IA
+## Por qué los textos de IA parecen escritos por una máquina
 
 Los grandes modelos de lenguaje se entrenan en enormes cantidades de contenido web. Con el tiempo, aprenden que ciertos patrones aparecen en la "buena" escritura, incluso cuando esos patrones son clichés usados en exceso.
 
@@ -36,7 +36,7 @@ Nada de esto es técnicamente incorrecto. *Solo son señales de que un modelo re
 
 **La solución es decirle al modelo exactamente qué no quiere.**
 
-## El prompt
+## La instrucción
 
 Usa este prompt con cualquier LLM. Añádelo a tu solicitud, pégalo en tus instrucciones del sistema o guárdalo en las instrucciones personalizadas de ChatGPT. **Funciona mejor para publicaciones en redes sociales, artículos de blog y textos de marketing.**
 
@@ -63,12 +63,12 @@ Usa este prompt con cualquier LLM. Añádelo a tu solicitud, pégalo en tus inst
 • EVITA Markdown.
 • EVITA los asteriscos.
 • EVITA estas palabras y expresiones:
-«puede, quizá, solo, que, muy, realmente, literalmente, de hecho, sin duda, probablemente, básicamente, podría, tal vez, profundizar, emprender, esclarecedor, distinguido, arrojar luz, redactar, imaginar, ámbito, revolucionario, desbloquear, descubrir, dispararse, abismo, no estar solo, en un mundo donde, revolucionar, disruptivo, utilizar, usar, profundizar en, entramado, iluminar, revelar, fundamental, complejo, explicar con claridad, por tanto, además, sin embargo, aprovechar, emocionante, innovador, de vanguardia, notable, es, está por verse, acercarse a, desenvolverse, panorama, drástico, prueba, en resumen, para concluir, impulsar, en rápido ascenso, habilitado, potente, consultas, en constante evolución»
+«can, may, just, that, very, really, literally, actually, certainly, probably, basically, could, maybe, delve, embark, enlightening, esteemed, shed light, craft, crafting, imagine, realm, game-changer, unlock, discover, skyrocket, abyss, not alone, in a world where, revolutionize, disruptive, utilize, utilizing, dive deep, tapestry, illuminate, unveil, pivotal, intricate, elucidate, hence, furthermore, realm, however, harness, exciting, groundbreaking, cutting-edge, remarkable, it, remains to be seen, glimpse into, navigating, landscape, stark, testament, in summary, in conclusion, moreover, boost, skyrocketing, opened up, powerful, inquiries, ever-evolving»
 
 # IMPORTANTE: Revisa tu respuesta y asegúrate de que no contenga rayas.
 ```
 
-## Qué hace cada regla
+## Qué aporta cada regla
 
 **Voz activa en lugar de voz pasiva**
 
@@ -103,15 +103,15 @@ Los hashtags rara vez son útiles fuera de Instagram o Twitter. En LinkedIn, par
 
 Estas frases añaden longitud sin añadir información. **La buena escritura no necesita anunciar que está terminando.**
 
-## Adaptar el prompt para diferentes tipos de contenido
+## Adaptar la instrucción a distintos tipos de contenido
 
 El prompt predeterminado está calibrado para contenido corto: publicaciones en redes sociales, actualizaciones de LinkedIn, textos de correo electrónico e introducciones de blogs.
 
 Si escribe **contenido largo** como informes, resúmenes de investigación o documentación técnica, elimine estas líneas:
 
-- `SHOULD be spartan and informative.`
-- `SHOULD use short, impactful sentences.`
-- `SHOULD use bullet point lists in social media posts.`
+- `DEBE ser conciso e informativo.`
+- `DEBE usar oraciones breves y contundentes.`
+- `DEBE usar listas con viñetas en publicaciones para redes sociales.`
 
 La escritura larga se beneficia de párrafos más desarrollados. **El resto de las reglas sigue aplicando.**
 
@@ -123,7 +123,7 @@ Para ir más lejos, **añada una muestra corta de su escritura** al final del pr
 
 Obtendrá resultados más limpios sin un tono genérico.
 
-## Cómo guardarlo en ChatGPT
+## Cómo guardar la instrucción en ChatGPT
 
 **No necesita pegar este prompt en cada conversación.** ChatGPT le permite guardar instrucciones personalizadas que se aplican automáticamente a cada nueva conversación.
 
@@ -167,7 +167,7 @@ Compare los resultados lado a lado. Busque:
 
 *La diferencia es visible después de una sola prueba.* La versión humanizada se lee más rápido, hace afirmaciones más fuertes sin relleno, y no se reconoce de inmediato como generada por un modelo.
 
-## Qué no corrige este prompt
+## Qué no corrige esta instrucción
 
 **Ningún prompt elimina completamente todos los patrones de escritura de IA.**
 
@@ -193,4 +193,4 @@ Comience con el prompt completo. Elimine las reglas que no se aplican a su tipo 
 
 ## Fuente
 
-Este artículo está basado en el prompt y la guía originales publicados por Sabrina Ramonov: [Best AI Prompt to Humanize AI Writing](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing).
+Este artículo está basado en el prompt y la guía originales publicados por Sabrina Ramonov: [La mejor instrucción para humanizar textos de IA](https://www.sabrina.dev/p/best-ai-prompt-to-humanize-ai-writing).
