@@ -20,6 +20,10 @@
   language list.
 - Store each translation as `index.<code>.md` beside `index.en.md` in the same
   leaf bundle. Preserve the bundle path and routing metadata.
+- Discover bundles recursively with `content/articles/**/index.en.md`; nested
+  article bundles exist. Parse front matter and exclude `draft: true` sources
+  from published-coverage totals. A one-level glob or an unfiltered source count
+  can miss bundles or count drafts as published.
 - Check existing files for valid YAML, published status, nonempty translated
   bodies, and missing sections. File existence alone does not establish coverage.
 - Compare section structure against English. A translation with far fewer
