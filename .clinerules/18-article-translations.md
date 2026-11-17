@@ -101,6 +101,14 @@
   or reader-facing English that still needs translation. Record unresolved
   findings in the external batch report; do not treat a translated body as
   approval for untranslated reader-facing sections.
+  For each locale, include a source-aligned review record for the title,
+  description, opening, every section, and every reader-facing example or
+  caption. The peer reviewer must verify each record against the frozen file
+  hashes. Keep the locale incomplete until all reader-facing prose is in the
+  target language or a specific retained English term is documented as a
+  proper name, official source title, fixed identifier, command, or literal
+  value. A filename, `lastmod`, script ratio, or clean strict-checker result
+  alone never establishes translated coverage.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
 - When a script splits a Markdown file on `---`, validate the split parts before
