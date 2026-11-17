@@ -48,6 +48,10 @@
   cognate. In Catalan, do not render phishing as `pesca` alone; retain
   `phishing` or use a recognized descriptive phrase, and confirm the wording
   still refers to credential theft or impersonation attacks.
+- Use the established target-language acronym for laws and regulatory regimes.
+  In French, use `RGPD` for `GDPR`; introduce `GDPR` once in parentheses only
+  when the English acronym helps identify sources, then use `RGPD` consistently
+  in reader-facing metadata and prose.
 - Preserve publication dates, URLs, resource paths, code blocks, inline commands,
   shortcode names, and nontext shortcode parameters. Set `lastmod` when writing
   a new or refreshed translation. For a batch refresh, update and verify
