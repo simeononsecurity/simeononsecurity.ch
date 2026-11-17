@@ -294,12 +294,17 @@
   and translate it while preserving the code structure. The checker screens
   docstrings in parseable Python fences. Treat an
   unchanged comment or example string as a manual-review flag, not as executable
-  syntax to ignore. Exempt
-  fixed diagnostics and identifier-only values from translation. Review any
-  output-string finding in context, preserve fixed runtime output, and record
+  syntax to ignore. Exempt fixed diagnostics and identifier-only values from
+  translation. Review output-string findings in context, preserve fixed runtime output, and record
   the reason when retaining English text the checker flags. Do not exempt generic
   status words such as `start`, `stop`, `ready`, or `done` automatically. Review
   those strings in context because they can serve as visible instructions or labels.
+  Manually inspect every human-readable value in an executable example, even
+  when the value is shorter than the strict gate threshold or uses an
+  unsupported file format. For example, translate a generic Packer
+  `image_description` value such as `My custom image` and any prose that repeats
+  it, while preserving valid JSON or HCL syntax. A passing strict scan does not
+  clear short reader-facing values.
   An unlabeled code fence can still contain reader-facing labels or explanatory
   placeholders alongside literal data. The checker reports unchanged prose lines
   from unlabeled fences as `copied_unlabeled_fence_line`; translate those labels
