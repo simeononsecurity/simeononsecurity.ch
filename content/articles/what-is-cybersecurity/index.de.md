@@ -1,10 +1,11 @@
 ---
 title: "Was ist CyberSecurity?"
 date: 2023-02-12
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Lernen Sie die Grundlagen der Cybersicherheit kennen, einschließlich der Arten von Cyberbedrohungen, der Bedeutung der Cybersicherheit und der Schritte zur Verbesserung der Online-Sicherheit."
-tags: ["Cybersecurity", "Cyber-Bedrohungen", "Online-Sicherheit", "Schutz der Daten", "Virus", "Malware", "Phishing-Betrug", "Hacker", "Nationale Sicherheit", "Geistiges Eigentum", "Persönlicher Datenschutz"]
+tags: ["Cybersicherheit", "Cyber-Bedrohungen", "Online-Sicherheit", "Schutz der Daten", "Virus", "Schadsoftware", "Phishing-Betrug", "Hacker", "Nationale Sicherheit", "Geistiges Eigentum", "Persönlicher Datenschutz"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Das Bild einer Person, die mit besorgtem Gesichtsausdruck an einem Computer sitzt, während ein Hacker oder Cyberkrimineller auf dem Bildschirm zu sehen ist, soll die Gefahren von Cyber-Bedrohungen und die Bedeutung der Cybersicherheit verdeutlichen"
 coverCaption: ""
@@ -14,7 +15,7 @@ coverCaption: ""
 
 ______
 
-## Arten von Cyber-Bedrohungen und Bedrohungsakteure
+## Arten digitaler Bedrohungen und ihre Urheber
 
 **Cyber-Bedrohungen können in vielen Formen auftreten**, darunter Viren, Malware, Phishing-Betrug und Hacker. Diese Bedrohungen können sich gegen Einzelpersonen, Unternehmen und Regierungen richten und verheerende Folgen haben. Einige der häufigsten Arten von Cyber-Bedrohungen sind:
 
@@ -46,14 +47,14 @@ ______
 
 Um die Cybersicherheit zu verbessern, kann jeder Einzelne verschiedene Maßnahmen ergreifen, darunter:
 
-- **Sichere Passwörter verwenden und diese regelmäßig aktualisieren**
+- **[Sichere Passwörter](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) verwenden und diese regelmäßig aktualisieren**
 - **Software und Sicherheitssysteme auf dem neuesten Stand halten**
 - **Vorsicht beim Öffnen von E-Mails oder Anklicken von Links aus unbekannten Quellen**
 - **Verwenden Sie Antiviren- und Anti-Malware-Software**
 - **Sichern Sie regelmäßig wichtige Daten**
-- Informieren Sie sich über Cybersicherheit und die Bedeutung sicherer Praktiken**
+- **Informieren Sie sich über Cybersicherheit und die Bedeutung sicherer Praktiken**
 - **Verwenden Sie wann immer möglich eine Zwei-Faktor-Authentifizierung**
-- Seien Sie vorsichtig mit den Informationen, die Sie online weitergeben, und passen Sie die Privatsphäre-Einstellungen von Konten in sozialen Medien an**
+- **Seien Sie vorsichtig mit den Informationen, die Sie online weitergeben, und passen Sie die Privatsphäre-Einstellungen von Konten in sozialen Medien an**
 
 
 ______

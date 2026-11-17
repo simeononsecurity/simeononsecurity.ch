@@ -1,10 +1,11 @@
 ---
 title: "Wat is CyberSecurity?"
 date: 2023-02-12
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Leer de basisbeginselen van cyberbeveiliging, waaronder soorten cyberdreigingen, het belang van cyberbeveiliging en stappen om de online beveiliging te verbeteren."
-tags: ["Cyberbeveiliging", "Cyberdreigingen", "Online beveiliging", "Gegevens beschermen", "Virus", "Malware", "Phishing-zwendel", "Hackers", "Nationale veiligheid", "Intellectueel eigendom", "Persoonlijke privacy"]
+tags: ["Cyberbeveiliging", "Cyberdreigingen", "Online beveiliging", "Gegevens beschermen", "Virus", "Schadelijke software", "Phishing-zwendel", "Computerkrakers", "Nationale veiligheid", "Intellectueel eigendom", "Persoonlijke privacy"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Een beeld van een persoon die achter een computer zit met een bezorgde uitdrukking terwijl een hacker of cybercrimineel op het scherm wordt getoond, waarmee de gevaren van cyberdreigingen en het belang van cyberbeveiliging worden uitgebeeld."
 coverCaption: ""
@@ -20,13 +21,13 @@ ______
 
 - **Virus**: Een virus is een soort kwaadaardige software die een computer infecteert en zich verspreidt naar andere computers. Virussen kunnen het besturingssysteem van een computer beschadigen, bestanden verwijderen en gevoelige informatie stelen.
 
-- Malware**: Malware is een soort software die is ontworpen om een computer te beschadigen of informatie te stelen. Dit type bedreiging kan vele vormen aannemen, waaronder virussen, spyware en ransomware.
+- **Malware**: Malware is een soort software die is ontworpen om een computer te beschadigen of informatie te stelen. Dit type bedreiging kan vele vormen aannemen, waaronder virussen, spyware en ransomware.
 
-- Phishing-zwendel**: Phishing-zwendel is een soort social engineering-aanval waarbij wordt geprobeerd mensen te verleiden tot het verstrekken van gevoelige informatie, zoals wachtwoorden of creditcardnummers, aan een valse website of e-mail.
+- **Phishing-zwendel**: Phishing-zwendel is een soort social engineering-aanval waarbij wordt geprobeerd mensen te verleiden tot het verstrekken van gevoelige informatie, zoals wachtwoorden of creditcardnummers, aan een valse website of e-mail.
 
-- Hackers**: Een hacker is een persoon of groep die technologie gebruikt om ongeoorloofde toegang te krijgen tot een computersysteem of netwerk. Hackers kunnen schade toebrengen aan een systeem, gevoelige informatie stelen of een systeem voor hun eigen doeleinden gebruiken.
+- **Hackers**: Een hacker is een persoon of groep die technologie gebruikt om ongeoorloofde toegang te krijgen tot een computersysteem of netwerk. Hackers kunnen schade toebrengen aan een systeem, gevoelige informatie stelen of een systeem voor hun eigen doeleinden gebruiken.
 
-**Bedreigende actoren kunnen variëren** van nationale staten, criminele organisaties tot individuele hackers. **Deze actoren kunnen verschillende motivaties hebben**, zoals financieel gewin, politieke of ideologische motieven, of gewoon de wens om chaos en vernietiging te veroorzaken. Ongeacht hun motieven kunnen de gevolgen van een succesvolle cyberaanval aanzienlijk en verstrekkend zijn.
+**Bedreigende actoren kunnen variëren** van nationale staten, criminele organisaties tot individuele hackers. **Deze actoren kunnen verschillende motivaties hebben**, zoals financieel gewin, politieke of ideologische motieven, of gewoon de wens om chaos en vernietiging te veroorzaken. Ongeacht hun motieven **kunnen de gevolgen van een succesvolle cyberaanval aanzienlijk en verstrekkend zijn**.
 
 ______
 
@@ -46,14 +47,14 @@ ______
 
 Om de cyberbeveiliging te verbeteren kunnen particulieren verschillende stappen nemen, waaronder:
 
-- **Gebruik sterke wachtwoorden en werk ze regelmatig bij**.
-- Houd software en beveiligingssystemen up-to-date.
-- Wees voorzichtig met het openen van e-mails of het klikken op links van onbekende bronnen.
-- Gebruik anti-virus en anti-malware software.
-- Maak regelmatig een back-up van belangrijke gegevens.
+- **Gebruik [sterke wachtwoorden](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) en werk ze regelmatig bij.**
+- **Houd software en beveiligingssystemen up-to-date.**
+- **Wees voorzichtig met het openen van e-mails of het klikken op links van onbekende bronnen.**
+- **Gebruik anti-virus en anti-malware software.**
+- **Maak regelmatig een back-up van belangrijke gegevens.**
 - **Educreer uzelf over cyberbeveiliging en het belang van veilige praktijken**
-- **Gebruik waar mogelijk twee-factor authenticatie**.
-- Wees voorzichtig met de informatie die u online deelt en pas de privacy-instellingen op sociale media-accounts aan**.
+- **Gebruik waar mogelijk twee-factor authenticatie.**
+- **Wees voorzichtig met de informatie die u online deelt en pas de privacy-instellingen op sociale media-accounts aan.**
 
 
 ______

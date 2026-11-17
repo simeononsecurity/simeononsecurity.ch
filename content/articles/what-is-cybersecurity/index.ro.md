@@ -1,6 +1,7 @@
 ---
 title: "Ce este CyberSecurity?"
 date: 2023-02-12
+lastmod: 2026-11-16
 toc: true
 draft: false
 description: "Aflați elementele de bază ale securității cibernetice, inclusiv tipurile de amenințări cibernetice, importanța securității cibernetice și pașii pentru îmbunătățirea securității online."
@@ -46,7 +47,7 @@ ______
 
 Pentru a îmbunătăți securitatea cibernetică, persoanele pot lua mai mulți pași, inclusiv:
 
-- **Folosiți parole puternice și actualizați-le în mod regulat**
+- **Folosiți [parole puternice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) și actualizați-le în mod regulat**
 - **Păstrați software-ul și sistemele de securitate actualizate**
 - **Fii precaut atunci când deschideți e-mailuri sau faceți clic pe linkuri din surse necunoscute**
 - **Utilizați software antivirus și anti-malware**
