@@ -1,6 +1,7 @@
 ---
 title: "Trecerea examenelor CompTIA A+: Sfaturi și strategii"
 date: 2023-02-24
+lastmod: 2023-02-24
 toc: true
 draft: false
 description: "Obțineți sfaturi și strategii de specialitate pentru a trece examenele CompTIA A+, inclusiv acronimele esențiale, cunoștințe despre echipamente și proceduri comune de depanare."

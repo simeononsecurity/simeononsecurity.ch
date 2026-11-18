@@ -1,6 +1,7 @@
 ---
 title: "Protegiu les vostres dades amb la regla de còpia de seguretat 3-2-1."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Apreneu a protegir les vostres dades valuoses d'atacs cibernètics, desastres naturals i errors de maquinari."

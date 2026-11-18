@@ -1,6 +1,7 @@
 ---
 title: "Beveilig uw gegevens met de 3-2-1 back-upregel."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Leer hoe u uw waardevolle gegevens kunt beschermen tegen cyberaanvallen, natuurrampen en hardwarestoringen."

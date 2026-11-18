@@ -1,6 +1,7 @@
 ---
 title: "Sécurisez vos données avec la règle de sauvegarde 3-2-1."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Apprenez à protéger vos données précieuses contre les cyberattaques, les catastrophes naturelles et les défaillances matérielles."

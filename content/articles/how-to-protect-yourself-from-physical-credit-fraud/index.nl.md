@@ -1,6 +1,7 @@
 ---
 title: "Creditcards veilig houden: Verdedigen tegen RFID Skimming & fysieke aanvallen voor de bescherming van persoonlijke gegevens"
 date: 2023-04-28
+lastmod: 2023-04-28
 toc: true
 draft: false
 description: "Leer hoe u uzelf kunt beschermen tegen RFID-skimming en uw creditcardgegevens veilig kunt houden met deze eenvoudige tips."

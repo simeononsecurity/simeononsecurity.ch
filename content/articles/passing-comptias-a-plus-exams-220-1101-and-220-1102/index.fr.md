@@ -1,6 +1,7 @@
 ---
 title: "Réussir les examens A+ de CompTIA : Conseils et stratégies"
 date: 2023-02-24
+lastmod: 2023-02-24
 toc: true
 draft: false
 description: "Obtenez des conseils d'experts et des stratégies pour réussir les examens A+ de CompTIA, y compris les acronymes essentiels, la connaissance de l'équipement et les procédures de dépannage courantes."

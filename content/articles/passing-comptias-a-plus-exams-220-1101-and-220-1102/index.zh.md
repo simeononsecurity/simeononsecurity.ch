@@ -1,6 +1,7 @@
 ---
 title: "通过 CompTIA 的 A+ 考试：技巧和策略"
 date: 2023-02-24
+lastmod: 2023-02-24
 toc: true
 draft: false
 description: "获取通过 CompTIA A+ 考试的专业技巧和策略，包括基本缩写词、设备知识和常见故障排除程序。"

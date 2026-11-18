@@ -1,6 +1,7 @@
 ---
 title: "Protege tus datos con la regla 3-2-1 de las copias de seguridad."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Aprenda a proteger sus valiosos datos de ciberataques, catástrofes naturales y fallos de hardware."

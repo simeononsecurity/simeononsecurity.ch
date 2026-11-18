@@ -1,6 +1,7 @@
 ---
 title: "Concours de courriels sécurisés : StartMail vs ProtonMail vs Tutanota"
 date: 2023-08-24
+lastmod: 2023-08-24
 toc: true
 draft: false
 description: "Découvrez le meilleur service de courrier électronique sécurisé ! Une comparaison détaillée de StartMail, ProtonMail et Tutanota, pour garantir votre vie privée en ligne"

@@ -1,6 +1,7 @@
 ---
 title: "Proteggete i vostri dati con la regola del 3-2-1 per il backup."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Imparate a proteggere i vostri preziosi dati da attacchi informatici, disastri naturali e guasti hardware."

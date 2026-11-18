@@ -1,6 +1,7 @@
 ---
 title: "Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks"
 date: 2023-04-28
+lastmod: 2023-04-28
 toc: true
 draft: false
 description: "تعرّف على طرق حماية نفسك من سرقة بيانات RFID وحافظ على أمان معلومات بطاقتك الائتمانية بهذه النصائح البسيطة."

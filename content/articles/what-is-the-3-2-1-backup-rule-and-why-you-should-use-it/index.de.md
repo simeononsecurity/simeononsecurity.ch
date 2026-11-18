@@ -1,6 +1,7 @@
 ---
 title: "Sichern Sie Ihre Daten mit der 3-2-1-Sicherungsregel."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Ihre wertvollen Daten vor Cyberangriffen, Naturkatastrophen und Hardwareausfällen schützen können."

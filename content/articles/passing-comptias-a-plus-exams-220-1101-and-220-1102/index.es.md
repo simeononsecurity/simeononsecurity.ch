@@ -1,6 +1,7 @@
 ---
 title: "Aprobar los exámenes A+ de CompTIA: Consejos y estrategias"
 date: 2023-02-24
+lastmod: 2023-02-24
 toc: true
 draft: false
 description: "Obtenga consejos y estrategias de expertos para aprobar los exámenes A+ de CompTIA, incluidos acrónimos esenciales, conocimiento de equipos y procedimientos comunes de solución de problemas."

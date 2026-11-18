@@ -1,6 +1,7 @@
 ---
 title: "Confruntarea e-mailurilor securizate: StartMail vs ProtonMail vs Tutanota"
 date: 2023-08-24
+lastmod: 2023-08-24
 toc: true
 draft: false
 description: "Descoperiți cel mai bun serviciu de e-mail securizat! O comparație detaliată între StartMail, ProtonMail și Tutanota, care vă asigură confidențialitatea online"

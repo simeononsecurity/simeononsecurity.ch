@@ -1,6 +1,7 @@
 ---
 title: "使用 3-2-1 备份规则保护您的数据。"
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "了解如何保护您的宝贵数据免受网络攻击、自然灾害和硬件故障的影响。"

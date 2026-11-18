@@ -1,6 +1,7 @@
 ---
 title: "Veilige E-mail Showdown: StartMail vs ProtonMail vs Tutanota"
 date: 2023-08-24
+lastmod: 2023-08-24
 toc: true
 draft: false
 description: "Ontdek de beste beveiligde e-mailservice! Een gedetailleerde vergelijking van StartMail, ProtonMail en Tutanota, om je privacy online te waarborgen"

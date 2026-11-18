@@ -1,6 +1,7 @@
 ---
 title: "CompTIA's A+ examens halen: Tips en strategieën"
 date: 2023-02-24
+lastmod: 2023-02-24
 toc: true
 draft: false
 description: "Krijg deskundige tips en strategieën voor het slagen voor CompTIA's A+ examens, inclusief essentiële acroniemen, kennis van apparatuur en gemeenschappelijke procedures voor probleemoplossing."

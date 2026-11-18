@@ -1,6 +1,7 @@
 ---
 title: "Proteja seus dados com a regra de backup 3-2-1."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Saiba como proteger seus dados valiosos contra ataques cibernéticos, desastres naturais e falhas de hardware."

@@ -1,6 +1,7 @@
 ---
 title: "Proteggere le carte di credito: Difendersi dallo skimming RFID e dagli attacchi fisici per la protezione delle informazioni personali"
 date: 2023-04-28
+lastmod: 2023-04-28
 toc: true
 draft: false
 description: "Imparate a proteggervi dallo skimming RFID e a tenere al sicuro i dati della vostra carta di credito con questi semplici consigli."

@@ -1,6 +1,7 @@
 ---
 title: "Zabezpiecz swoje dane za pomocą zasady tworzenia kopii zapasowych 3-2-1."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Dowiedz się, jak chronić cenne dane przed cyberatakami, katastrofami naturalnymi i awariami sprzętu."

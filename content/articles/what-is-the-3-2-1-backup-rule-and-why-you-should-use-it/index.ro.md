@@ -1,6 +1,7 @@
 ---
 title: "Securizează-ți datele cu regula de rezervă 3-2-1."
 date: 2023-03-21
+lastmod: 2023-03-21
 toc: true
 draft: false
 description: "Aflați cum să vă protejați datele valoroase de atacuri cibernetice, dezastre naturale și defecțiuni hardware."
