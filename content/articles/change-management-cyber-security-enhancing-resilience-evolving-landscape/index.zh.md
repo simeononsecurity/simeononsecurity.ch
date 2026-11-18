@@ -1,7 +1,7 @@
 ---
 title: "通过变更管理增强网络安全韧性"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "了解变更管理对网络安全的重要性，以及如何在不断演变的威胁环境中增强韧性。"

@@ -1,7 +1,7 @@
 ---
 title: "PowerCLI beheersen voor vSphere-beheer"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer VMware vSphere beheren met PowerCLI, taken automatiseren en productiever werken."
@@ -68,10 +68,10 @@ PowerCLI automatiseert terugkerende taken. Met enkele regels code voer je comple
 #### Snapshots maken van alle VM's in een map
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## Alle virtuele machines op een bepaalde host uitschakelen
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## Een momentopname maken van alle virtuele machines in een bepaalde map
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Dit script laat zien hoe je VM's op een host uitschakelt en snapshots maakt van 
 #### Alle VM's in een map veilig afsluiten
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## De map ophalen met de virtuele machines die worden uitgeschakeld
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## Alle virtuele machines in de opgegeven map ophalen
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## Alle virtuele machines netjes afsluiten
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

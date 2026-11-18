@@ -1,6 +1,7 @@
 ---
 title: "Richtlinien für sichere Kodierung für Ansible: Bewährte Praktiken"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Lernen Sie die besten Praktiken für das Schreiben von sicherem Code mit Ansible, einem beliebten Tool für Konfigurationsmanagement und Bereitstellung."
@@ -111,7 +112,7 @@ Entwickler sollten Benutzereingaben bereinigen, um **Code-Injection** und andere
 Entwickler können die `regex_replace` Filter in Ansible, um Benutzereingaben zu bereinigen. Der `regex_replace` Filter ermöglicht es Entwicklern, Muster in Zeichenketten durch andere Muster zu ersetzen. Um zum Beispiel alle nicht alphanumerischen Zeichen in einer Zeichenfolge durch eine leere Zeichenfolge zu ersetzen, können Entwickler den folgenden Code verwenden:
 
 ```yaml
-- name: Sanitize user input
+- name: Benutzereingaben bereinigen
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

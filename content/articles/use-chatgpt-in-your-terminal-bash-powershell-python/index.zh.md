@@ -1,7 +1,7 @@
 ---
 title: "在终端中使用 ChatGPT（Bash、PowerShell、Python）：面向开发人员的 ChatGPT CLI 工具简介"
 date: 2023-02-07
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "了解如何通过方便的命令行界面 (CLI) 使用 OpenAI 的 ChatGPT 模型轻松生成文本和回答问题。"
@@ -32,27 +32,27 @@ pip install chatgpt requests pyreadline3
 安装后，开发人员可以使用 ChatGPT CLI 轻松生成文本或回答问题。例如，要根据提示生成文本，开发人员可以使用以下命令：
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "存在的目的是什么？"
 ```
 
 或者，回答一个问题：
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "法国的首都是哪里？"
 ```
 
 ChatGPT CLI 也可以与基本脚本一起使用：
 
 **Linux：**
 ```bash
-prompt="What is the meaning of life?"
+prompt="生命的意义是什么？"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell：**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "生命的意义是什么？"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

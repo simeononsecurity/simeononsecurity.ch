@@ -1,7 +1,7 @@
 ---
 title: "GitHub、Confluence 与 Jira 的 AI 发布工作流"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "通过版本检查和部分发布恢复，在 Confluence、GitHub 与 Jira 中发布固定的保留期限提案。"
@@ -173,7 +173,7 @@ GitHub config.json，相对于 base-001 的提议更改：
 | Confluence REQ-17 | v4，七天 | PROP-042 r1，产品团队批准从 v4 改为 v5 | 发布者写入 v5，评审者重新打开 v5 | 三十天，排除备份和法律保留 |
 | GitHub 配置 | `main` commit `base-001`，七天 | PROP-042 r1，运维团队批准候选 diff | PR 合并为 `merge-002`，独立克隆读取到三十 | 受保护源中为三十天 |
 | Confluence RUN-04 | v2，七天 | PROP-042 r1，运维团队批准从 v2 改为 v3 | 发布者写入 v3，评审者重新打开 v3 | 带回退方案的三十天操作步骤 |
-| Jira PROP-042 | In Review | 两位负责人的决定绑定到 r1 | 交付负责人附上证据并转为 Done | 三项回读后关闭 |
+| Jira PROP-042 | 审核中 | 两位负责人的决定绑定到 r1 | 交付负责人附上证据并转为 Done | 三项回读后关闭 |
 
 以上标签仅作说明，不是租户证据。台账需要原生页面版本链接和 commit ID。将 Jira 转为 Done 前，附上冻结提案、两种角色的评审、来源基线记录、每项发布回读、负面测试结果和未解决的运行时限制。缺少任何一项时，保持交付开放或 `Blocked`。
 

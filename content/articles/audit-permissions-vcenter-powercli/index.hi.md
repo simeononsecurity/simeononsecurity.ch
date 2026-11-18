@@ -1,12 +1,12 @@
 ---
 title: "PowerCLI से vCenter अनुमतियों का ऑडिट कैसे करें"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "वर्चुअल इन्फ्रास्ट्रक्चर की सुरक्षा के लिए PowerCLI से vCenter अनुमतियों का ऑडिट करना सीखें।"
 genre: ["vCenter अनुमति ऑडिट", "PowerCLI स्वचालन", "VMware सुरक्षा", "वर्चुअल इन्फ्रास्ट्रक्चर प्रबंधन", "अनुमति असाइनमेंट", "उपयोगकर्ता पहुंच नियंत्रण", "सुरक्षा कमजोरियां", "PowerShell स्वचालन", "vSphere वातावरण प्रबंधन", "उपयोगकर्ता अनुमतियों की समीक्षा"]
-tags: ["vCenter", "PowerCLI", "अनुमति ऑडिट", "vSphere", "VMware", "वर्चुअल इन्फ्रास्ट्रक्चर", "PowerShell", "उपयोगकर्ता पहुंच नियंत्रण", "सुरक्षा कमजोरियां", "अनुमति असाइनमेंट", "स्वचालन", "PowerCLI cmdlets", "उपयोगकर्ता भूमिकाएं", "अनुमति समीक्षा", "सुरक्षा नीतियां", "अनुपालन", "ऑडिट रिपोर्ट", "डेटा सुरक्षा", "GDPR", "HIPAA", "उपयोगकर्ता प्रबंधन", "vCenter उपयोगकर्ता", "सुरक्षा के सर्वोत्तम तरीके", "सरकारी नियम", "PowerCLI स्थापना", "vCenter कनेक्शन", "PowerCLI स्क्रिप्ट", "ऑडिट प्रक्रिया", "ऑडिट डेटा निर्यात", "अनुमतियां हटाना"]
+tags: ["vCenter", "PowerCLI", "अनुमति ऑडिट", "vSphere", "VMware", "वर्चुअल इन्फ्रास्ट्रक्चर", "PowerShell", "उपयोगकर्ता पहुंच नियंत्रण", "सुरक्षा कमजोरियां", "अनुमति असाइनमेंट", "स्वचालन", "PowerCLI कमांडलेट", "उपयोगकर्ता भूमिकाएं", "अनुमति समीक्षा", "सुरक्षा नीतियां", "अनुपालन", "ऑडिट रिपोर्ट", "डेटा सुरक्षा", "GDPR", "HIPAA", "उपयोगकर्ता प्रबंधन", "vCenter उपयोगकर्ता", "सुरक्षा के सर्वोत्तम तरीके", "सरकारी नियम", "PowerCLI स्थापना", "vCenter कनेक्शन", "PowerCLI स्क्रिप्ट", "ऑडिट प्रक्रिया", "ऑडिट डेटा निर्यात", "अनुमतियां हटाना"]
 cover: "/img/cover/audit-permissions-vcenter-powercli.webp"
 coverAlt: "गहरे नीले पृष्ठभूमि पर उपयोगकर्ता अनुमतियों और पहुंच स्तरों को दर्शाने वाले अमूर्त तत्वों के साथ वर्चुअल डेटा सेंटर का चित्र।"
 coverCaption: "PowerCLI से अनुमतियों का प्रभावी ऑडिट करके अपने vCenter को सुरक्षित रखें।"
@@ -82,22 +82,22 @@ PowerCLI इंस्टॉल करके vCenter से कनेक्ट �
 
    उदाहरण:
    ```powershell
-         # Connect to vCenter
+         # vCenter से कनेक्ट करें
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # vCenter के सभी उपयोगकर्ता प्राप्त करें
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # उपयोगकर्ता अनुमतियाँ संग्रहीत करने के लिए एक ऐरे आरंभ करें
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # प्रत्येक उपयोगकर्ता पर जाकर उसकी अनुमतियाँ प्राप्त करें
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # अनुमतियों को CSV फ़ाइल में बदलें
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 

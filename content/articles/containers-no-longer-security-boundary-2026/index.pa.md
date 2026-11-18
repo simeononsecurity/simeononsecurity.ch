@@ -1,7 +1,7 @@
 ---
 title: "ਕੰਟੇਨਰ ਹੁਣ ਸੁਰੱਖਿਆ ਦੀ ਹੱਦ ਨਹੀਂ ਰਹੇ: 2026 ਵਿੱਚ ਕਰਨਲ ਤੋਂ ਬਾਹਰ ਨਿਕਲਣ ਦੇ ਹਮਲੇ"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "2026 ਦੇ ਕੰਟੇਨਰ-ਬਚਾਅ ਅਧਿਐਨਾਂ, ਕਰਨਲ ਆਇਸੋਲੇਸ਼ਨ ਦੀਆਂ ਹੱਦਾਂ, ਪੈਚਾਂ ਦੇ ਦਬਾਅ ਅਤੇ microVM ਦੀ ਭੂਮਿਕਾ ਦੀ ਸਮੀਖਿਆ।"
@@ -12,7 +12,6 @@ coverAlt: "ਡਿਜ਼ਿਟਲ ਚਿੱਤਰ ਵਿੱਚ ਕਈ ਚਮਕ�
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **ਕੰਟੇਨਰ ਇੱਕੋ ਕਰਨਲ ਸਾਂਝਾ ਕਰਦੇ ਹਨ। 2026 ਵਿੱਚ ਕਮਜ਼ੋਰੀਆਂ ਦੇ ਚਾਰ ਵੱਖਰੇ ਪਰਿਵਾਰਾਂ ਨੇ ਦਿਖਾਇਆ ਕਿ ਕਰਨਲ ਦੀ ਇੱਕ ਖਾਮੀ ਕੰਟੇਨਰ ਤੋਂ ਹੋਸਟ ਤੱਕ ਪਹੁੰਚਣ ਲਈ ਕਾਫ਼ੀ ਹੈ।** Copy Fail, Dirty Frag, Fragnesia ਅਤੇ CVE-2026-80521 ਹਰ ਇੱਕ ਬਿਨਾਂ ਵਿਸ਼ੇਸ਼ ਅਧਿਕਾਰ ਵਾਲੇ ਸਥਾਨਕ ਯੂਜ਼ਰ ਨੂੰ root ਦਿੰਦੀ ਹੈ। ਚਾਰੋਂ ਕੰਟੇਨਰ ਦੀ ਹੱਦ ਪਾਰ ਕਰਦੀਆਂ ਹਨ।
 
 *ਚਿੰਤਾ ਸਿਰਫ਼ ਖਾਮੀਆਂ ਦੀ ਨਹੀਂ। AI ਹੁਣ ਉਨ੍ਹਾਂ ਨੂੰ ਘੱਟ ਖਰਚੇ ਨਾਲ ਲੱਭਦਾ ਹੈ, ਅਤੇ ਇੱਕ ਪੈਚ ਨੇ ਦੂਜੀ ਖਾਮੀ ਪੈਦਾ ਕੀਤੀ।*
@@ -245,27 +244,27 @@ Guest ਆਪਣਾ ਕਰਨਲ ਚਲਾਉਂਦਾ ਹੈ, ਇਸ ਲਈ gues
 ਇਹ VM ਹੱਦ ਦਾ ਬਦਲ ਨਹੀਂ, ਪਰ ਆਸਾਨ ਹਮਲੇ ਦੇ ਰਾਹ ਘਟਾਉਂਦੀ ਹੈ:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# ਜਿੱਥੇ ਲੋੜ ਨਾ ਹੋਵੇ, ਉੱਥੇ page-cache ਪਰਿਵਾਰ ਵੱਲੋਂ ਦੁਰਵਰਤੋਂ ਕੀਤੇ ਮੋਡੀਊਲ ਬੰਦ ਕਰੋ
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# ਗੈਰ-ਵਿਸ਼ੇਸ਼ ਅਧਿਕਾਰ ਵਾਲੇ ਯੂਜ਼ਰ ਨੇਮਸਪੇਸ ਸੀਮਿਤ ਕਰੋ, ਇਸ ਨਾਲ ESP ਰੂਪ ਰੁਕਦੇ ਹਨ
+# Debian ਅਤੇ Ubuntu: ਇਹ ਅੰਸ਼ਕ ਰੋਕਥਾਮ ਹੈ, ਪੂਰਾ ਹੱਲ ਨਹੀਂ
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# ਜੇ ਸ਼ੋਸ਼ਣ ਦਾ ਸ਼ੱਕ ਹੋਵੇ, ਮੈਮੋਰੀ ਵਿੱਚ ਬਦਲੇ ਬਾਈਨਰੀ ਹਟਾਉਣ ਲਈ ਪੇਜ ਕੈਸ਼ ਖਾਲੀ ਕਰੋ
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# ਪਛਾਣ ਦੇ ਸ਼ੁਰੂਆਤੀ ਸੰਕੇਤ
+- ਬਿਨਾਂ ਜਾਇਜ਼ ਕਾਰਨ ਵਾਲੇ workload ਵੱਲੋਂ ਅਚਾਨਕ unshare(CLONE_NEWUSER)
+- IPsec ਹੋਸਟਾਂ ਤੋਂ ਬਾਹਰ NETLINK_XFRM ਸਰਗਰਮੀ ਜਾਂ XFRM ਸੁਰੱਖਿਆ ਸੰਬੰਧ ਦਿਸਣੇ
+- AF_ALG ਸਾਕਟ ਬੰਨ੍ਹਣ ਦੀਆਂ ਬੇਨਤੀਆਂ
+- ਅਜਿਹੇ ਹੋਸਟ ਉੱਤੇ esp4, esp6 ਜਾਂ rxrpc ਲੋਡ ਹੋਣਾ ਜਿੱਥੇ IPsec ਜਾਂ AFS ਨਹੀਂ ਚੱਲਦੇ
 ```
 
 > **ਚੇਤਾਵਨੀ: `drop_caches` ਬਦਲੀ ਹੋਈ ਮੈਮੋਰੀ ਕਾਪੀ ਸੁੱਟ ਕੇ corruption ਮਿਟਾਉਂਦਾ ਹੈ, ਪਰ ਪਹਿਲਾਂ ਹੀ root ਬਣੇ ਹਮਲਾਵਰ ਨੂੰ ਨਹੀਂ ਕੱਢਦਾ। ਇਸ ਨੂੰ incident response ਵਜੋਂ ਵਰਤੋ, ਹੱਲ ਵਜੋਂ ਨਹੀਂ।**

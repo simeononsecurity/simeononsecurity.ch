@@ -1,7 +1,7 @@
 ---
 title: "Windows-directorystructuur"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Volledige gids 2026 voor de Windows-directorystructuur inclusief visuele diagrammen, Windows 11-updates, beveiligingsoverwegingen en deskundige navigatietechnieken voor efficiënt bestandbeheer.
@@ -13,7 +13,7 @@ genre:
 - Windows-bestandspaden
 - Windows-systeemmappen
 - Gebruikersdirectory
-- Program Files-directory
+- map Program Files
 - Windows-rootdirectory
 - Directory voor tijdelijke bestanden
 tags:
@@ -27,7 +27,7 @@ tags:
 - rootdirectory
 - systeemdirectory
 - gebruikersdirectory
-- program files-directory
+- map Program Files
 - windows-directorynavigatie
 - bestandsverkenner
 - opdrachtprompt
@@ -75,53 +75,53 @@ Op het hoogste niveau van de directorystructuur bevindt zich de **rootdirectory*
 Hier is een uitgebreide visuele weergave van de hiërarchie van het Windows-bestandssysteem:
 
 ```
-C:\ (Root Directory)
+C:\ (Hoofdmap)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [Systeembestanden en onderdelen van het besturingssysteem]
+│   ├── System32\              [64-bitsysteembestanden en uitvoerbare bestanden]
+│   ├── SysWOW64\              [32-bitcompatibiliteitslaag op 64-bitsystemen]
+│   ├── Boot\                  [Opstartconfiguratie en opstartbestanden]
+│   ├── Fonts\                 [Systeemlettertypen]
+│   ├── Temp\                  [Tijdelijke systeembestanden]
+│   ├── assembly\              [.NET Framework-onderdelen]
+│   ├── inf\                   [Installatiegegevens van stuurprogramma’s]
+│   ├── WinSxS\                [Windows Side-by-Side-onderdelenarchief]
+│   ├── Logs\                  [Systeemlogbestanden]
+│   └── Security\              [Beveiligingsbeleid en sjablonen]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [64-bittoepassingen (op 64-bitsystemen)]
+│   ├── Common Files\          [Gedeelde programmaonderdelen]
+│   └── [Applicatiemappen]  [Afzonderlijk geïnstalleerde programma’s]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [32-bittoepassingen op 64-bitsystemen]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [Applicatiemappen]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [Gebruikersprofielmappen]
+│   ├── Public\                [Gedeelde gebruikersbestanden]
+│   ├── [Gebruikersnaam]\            [Afzonderlijke gebruikersprofielen]
+│   │   ├── Desktop\           [Bureaubladbestanden]
+│   │   ├── Documents\         [Gebruikersdocumenten]
+│   │   ├── Downloads\         [Gedownloade bestanden]
+│   │   ├── Pictures\          [Gebruikersafbeeldingen]
+│   │   ├── Videos\            [Gebruikersvideo’s]
+│   │   ├── Music\             [Gebruikersaudiobestanden]
+│   │   ├── AppData\           [Applicatiegegevens]
+│   │   │   ├── Local\         [Appgegevens die specifiek zijn voor de computer]
+│   │   │   ├── LocalLow\      [Appgegevens met lage integriteit]
+│   │   │   └── Roaming\       [Roamingprofielgegevens]
+│   │   ├── OneDrive\          [Met de cloud gesynchroniseerde bestanden (Windows 11)]
+│   │   └── Contacts\          [Gebruikerscontacten]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [Gedeelde applicatiegegevens (verborgen)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [Applicatiegegevens]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [Prestatielogboeken en rapporten]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [Prullenbak (verborgen)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [Systeemherstelpunten (verborgen)]
 ```
 
 ______
@@ -169,9 +169,9 @@ De **Gebruikersdirectory** (ook bekend als de Gebruikersprofielmap) slaat gepers
 
 **Windows 11-verbetering:** In Windows 11 (2021-heden) heeft Microsoft OneDrive dieper geïntegreerd in de gebruikersprofielstructuur, waarbij de OneDrive-map standaard direct in de gebruikersdirectory verschijnt en automatische back-up biedt van de mappen Bureaublad, Documenten en Afbeeldingen.
 
-### 3. Program Files-directory
+### 3. map Program Files
 
-De **Program Files-directory** is de standaardlocatie waar applicaties en programma's op het systeem worden geïnstalleerd. Deze is verdeeld in twee directories:
+De **map Program Files** is de standaardlocatie waar applicaties en programma's op het systeem worden geïnstalleerd. Deze is verdeeld in twee directories:
 
 - **C:\Program Files** - Deze directory bevat 64-bit applicaties en programma's.
 - **C:\Program Files (x86)** - Deze directory bevat 32-bit applicaties en programma's op 64-bit systemen.
@@ -303,9 +303,9 @@ De **Opdrachtprompt (CMD)** is een commandoregelinterface waarmee gebruikers via
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # Submappen recursief doorzoeken
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # Nieuwe map maken
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **Essentiële PowerShell-commando's:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # Van map wisselen (alias: cd)
+Get-ChildItem                    # Items weergeven (aliassen: dir, ls)
+Get-ChildItem -Recurse           # Recursief weergeven
+Get-ChildItem -Force             # Verborgen items weergeven
+Test-Path [path]                 # Controleren of het pad bestaat
+New-Item -ItemType Directory     # Nieuwe map maken
+Remove-Item [path]               # Item verwijderen
+Get-Item [path]                  # Itemeigenschappen ophalen
+Resolve-Path [path]              # Relatief pad omzetten naar absoluut pad
 ```
 
 **Geavanceerd PowerShell-voorbeeld:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# Alle .log-bestanden groter dan 10MB zoeken
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# Mapgrootte berekenen
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "Mapgrootte: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal (Standaard 2026)
@@ -440,12 +440,12 @@ Windows gebruikt **NTFS-machtigingen** om toegang tot mappen en bestanden te reg
 
 **Voorbeeld PowerShell Machtigingsaudit:**
 ```powershell
-# Get ACL for a directory
+# ACL van een map ophalen
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# Machtigingen naar CSV exporteren
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **Oplossingen:**
 ```powershell
-# Take ownership of a file/folder
+# Eigenaar worden van een bestand/map
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# Machtigingen verlenen
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### Probleem 3: WinSxS-map Neemt Te Veel Ruimte In
 
 **Oplossingen:**
-```cmd
-# Analyze component store
+```powershell
+# Componentenarchief analyseren
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# Componentenarchief opschonen
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# Vervangen versies verwijderen (onomkeerbaar)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - Verwijder onnodige applicatiegegevens
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# Grootste mappen in AppData weergeven
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. PowerShell Modules
 
 ```powershell
-# Install useful modules
+# Nuttige modules installeren
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# Verbeterde maplijst met pictogrammen
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **Auditing inschakelen:**
 ```powershell
-# Enable file auditing via PowerShell
+# Bestandscontrole inschakelen met PowerShell
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Logboeken van gebeurtenissen > Windows-logboeken > Beveiliging (Gebeurtenis-ID's
 - Zet bestandsfilters in om ongeautoriseerde bestandstypen te voorkomen
 
 ______
+
+## Actuele opmerkingen over Windows-paden
+
+Windows gebruikt in ondersteunde desktopversies dezelfde hoofdmapstructuur, maar sommige paden vragen om voorzichtigheid:
+
+| Pad | Huidige functie | Veilig gebruik |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | Systeembestanden en bibliotheken voor de geïnstalleerde architectuur. Op 64-bits Windows gebruiken 32-bits processen de Windows-on-Windows-laag via **`SysWOW64`**. | Vervang bestanden niet handmatig. Gebruik Windows Update, DISM of het installatieprogramma van de leverancier. |
+| **`C:\Windows\WinSxS`** | Componentenarchief voor onderhoud en herstel. Hardlinks maken schattingen van de grootte in Verkenner misleidend. | Analyseer en ruim het componentenarchief op met DISM. Verwijder geen bestanden uit de map. |
+| **`C:\Users\<name>\AppData`** | Applicatiestatus per gebruiker. `Local`, `LocalLow` en `Roaming` dienen verschillende behoeften van toepassingen en profielen. | Maak een back-up van toepassingsgegevens voordat je caches wist. Ga er niet van uit dat elke map weg kan. |
+| **Opslag van WSL 2-distributies** | Een distributie gebruikt een virtuele `ext4.vhdx`-schijf in de `LocalState`-map van het pakket. | Exporteer of stop de distributie voordat je de schijf onderhoudt. Bewerk de virtuele schijf niet als een gewone map. |
+
+Het oudere diagram en de voorbeelden blijven nuttig als kaart. Microsoft documenteert het pad van de virtuele WSL 2-schijf en legt uit waarom de distributie op een virtuele harde schijf staat in plaats van in gewone Windows-bestanden. De exacte pakketnaam verschilt per distributie en installatiemethode. Bekijk de [Microsoft-richtlijnen voor WSL-schijfruimte](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+Microsoft beëindigde de ondersteuning voor Windows 10 versie 22H2 op 14 oktober 2025, behalve edities met aparte levenscyclusvoorwaarden of een in aanmerking komende Extended Security Update-regeling. Behandel Windows 10 in 2026 als een migratie- of uitzonderingsbeheerkwestie. Bekijk de [Microsoft-melding over de levenscyclus van Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+De groottebereiken en adoptiepercentages in de oorspronkelijke secties zijn illustratieve cijfers, geen metingen van deze site. De mapgrootte hangt af van geïnstalleerde software, updategeschiedenis, profielinhoud en bewaarbeleid. Controleer het lokale systeem voordat je iets verwijdert.
+
+## Checklist voor veilig maponderhoud
+
+1. Noteer het pad, de eigenaar, de ACL en het zakelijke doel voordat je een beveiligde map wijzigt.
+2. Maak of controleer een herstelbare back-up voordat je toepassingsgegevens verwijdert of machtigingen wijzigt.
+3. Geef de voorkeur aan ondersteunde hulpmiddelen zoals **Storage Sense**, **DISM**, **`robocopy`** en verwijderprogramma's.
+4. Test wijzigingen met een standaardgebruikersaccount als de taak geen verhoogde rechten vereist.
+5. Bekijk na het onderhoud Logboeken en toepassingslogboeken.
+6. Bewaar een rollbackregistratie met het oorspronkelijke pad, de opdracht, het tijdstip en het resultaat.
+
+**Gebruik `/MIR` niet met een bestemming die niet is gecontroleerd.** `robocopy /MIR` verwijdert bestanden uit de bestemming die niet in de bron staan.
+
 
 ## Conclusie
 

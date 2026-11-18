@@ -48,7 +48,7 @@ tags:
 cover: /img/cover/active-directory-module-powershell-installation-usage-guide.webp
 coverAlt: رسم توضيحي لشاشة كمبيوتر تعرض وحدة تحكم PowerShell مع أوامر ملونة، محاطة بتمثيلات مجردة لحسابات المستخدمين والمجموعات، على خلفية داكنة.
 coverCaption: افتح قوة إدارة Active Directory باستخدام PowerShell.
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 ---
 
 ## المقدمة
@@ -224,29 +224,29 @@ Import-Module ActiveDirectory
 
 ## مثال على سكربت لموديل Active Directory في PowerShell
 ```powershell
-# Import Active Directory module
+# استيراد وحدة Active Directory
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# استرداد معلومات Active Directory
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# إنشاء مستخدم جديد في Active Directory
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# إنشاء مجموعة جديدة في Active Directory
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# إنشاء وحدة تنظيمية جديدة في Active Directory
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# تعديل كائنات Active Directory
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# إدارة أمان Active Directory
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

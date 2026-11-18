@@ -1,6 +1,7 @@
 ---
 title: "Обнаружение Flock-You: Руководство по настройке контрнаблюдения"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Полное техническое руководство по открытому проекту Flock-You для обнаружения ALPR-камер Flock Safety с использованием оборудования на базе ESP32. Включает инструкции по настройке, детали прошивки и варианты покупки."
@@ -319,11 +320,11 @@ ______
    ```bash
    # Установить PlatformIO
    pip install platformio
-   
+
    # Клонировать репозиторий
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
+
    # Прошить прошивку
    pio run -t upload
    pio device monitor
@@ -636,37 +637,37 @@ ______
 Для тех, кто интересуется технической реализацией, вот упрощённый вид логики обнаружения:
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// Основа обнаружения Flock-You (концепция, не полный код)
 
-// OUI Database (31 known Flock-associated OUIs)
+// База OUI (31 идентификатор, связанный с Flock)
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // Вариант Espressif ESP32-S3
+    // ... ещё 28 OUI ...
 };
 
-// Promiscuous mode callback
+// Обратный вызов в promiscuous-режиме
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // Извлечь MAC-адрес из кадра
+    uint8_t *mac = pkt->payload + 10; // Позиция поля addr2
+
+    // Проверить по базе OUI
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // Найдено совпадение OUI
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // Проверить порог уровня сигнала
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // Проанализировать кадр на дополнительные сигнатуры
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // Обнаружение с высокой уверенностью
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // Только совпадение OUI
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -674,16 +675,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// Обнаружение wildcard-запроса
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // Кадр управления, подтип запроса probe
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // Проверить пустой элемент SSID IE (wildcard)
+    // Позиция зависит от структуры кадра
+    uint8_t *ie = &pkt->payload[24]; // Начало элементов IE
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // Wildcard-запрос
     }
     return false;
 }

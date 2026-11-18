@@ -1,7 +1,7 @@
 ---
 title: "Cum să auditați permisiunile pentru un vCenter cu PowerCLI"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aflați cum să auditați eficient permisiunile pentru un vCenter utilizând PowerCLI, asigurând o infrastructură virtuală sigură."
@@ -27,7 +27,7 @@ Să ne scufundăm în procesul de auditare a permisiunilor pentru un vCenter uti
 ## Pregătirea mediului
 Înainte de a vă scufunda în procesul de audit, trebuie să configurați mediul necesar. Iată care sunt pașii pentru a începe:
 
-1. **Instalați PowerCLI**: Descărcați și instalați cea mai recentă versiune de **PowerCLI** de pe site-ul oficial [VMware website](https://www.vmware.com/support/developer/PowerCLI/) Urmați instrucțiunile de instalare și asigurați-vă că a fost instalat cu succes pe sistemul dumneavoastră.
+1. **Instalați PowerCLI**: Descărcați și instalați cea mai recentă versiune de **PowerCLI** de pe [site-ul oficial VMware](https://www.vmware.com/support/developer/PowerCLI/). Urmați instrucțiunile de instalare și asigurați-vă că a fost instalat cu succes pe sistemul dumneavoastră.
 
 2. **Conectați-vă la vCenter**: Lansați consola **PowerCLI** sau fereastra **PowerShell** și conectați-vă la serverul vCenter utilizând `Connect-VIServer` cmdlet. Furnizați acreditările necesare pentru a stabili o conexiune.
 
@@ -82,22 +82,22 @@ Acum că aveți PowerCLI instalat și conectat la serverul vCenter, haideți să
 
    Exemplu:
    ```powershell
-         # Connect to vCenter
+         # Conectați-vă la vCenter
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # Obțineți toți utilizatorii vCenter
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # Inițializați un tablou pentru stocarea permisiunilor utilizatorilor
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # Parcurgeți fiecare utilizator și preluați permisiunile sale
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # Convertiți permisiunile într-un fișier CSV
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 
@@ -107,6 +107,6 @@ Auditul permisiunilor pentru un mediu vCenter este un **pas crucial** în menți
 Nu uitați să revizuiți și să actualizați periodic **politicile de securitate** ale organizației dvs. pentru a vă alinia la cele mai bune practici din industrie și la reglementările guvernamentale relevante, cum ar fi **General Data Protection Regulation (GDPR)** și **Health Insurance Portability and Accountability Act (HIPAA)**. Implementarea unui proces robust de audit al permisiunilor va contribui la un mediu vCenter mai sigur și mai conform.
 
 ## Referințe
-- [Download PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
+- [Descărcați PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)

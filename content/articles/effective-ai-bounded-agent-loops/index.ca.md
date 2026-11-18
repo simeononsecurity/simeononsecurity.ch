@@ -1,7 +1,7 @@
 ---
 title: "Bucles d'agents d'IA acotats: comprovacions, reintents i regles d'aturada"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Defineix un bucle d'objectiu d'IA amb estat observable, comprovacions, límits de reintents, condicions d'aturada i un traspàs clar a una persona."
@@ -89,7 +89,7 @@ Proves necessàries: execució completa de les proves i codi de sortida de l’o
 **Comença amb el laboratori intacte.** Les dues proves inicials passen. Crea `tests/test_loop_contract.py` a l'extracció nova amb la comprovació següent. Aquest fitxer expressa una funció desitjada que no hi és a l'inici. No forma part del ZIP de laboratori mantingut.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Una comprovació fallida controlada per a l’exercici del filtre d’estat."""
 
 import subprocess
 import sys

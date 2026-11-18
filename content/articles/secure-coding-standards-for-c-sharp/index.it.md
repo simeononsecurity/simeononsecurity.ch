@@ -1,6 +1,7 @@
 ---
 title: "Standard di codifica sicura per sviluppatori C#"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Imparate le migliori pratiche di codifica sicura in C# per ridurre al minimo il rischio di violazioni della sicurezza e proteggere i dati sensibili."
@@ -22,7 +23,7 @@ L'input dell'utente è spesso una fonte significativa di rischi per la sicurezza
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Verifica se la stringa di input contiene solo cifre
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // Elabora i dati
     }
 }
 ```

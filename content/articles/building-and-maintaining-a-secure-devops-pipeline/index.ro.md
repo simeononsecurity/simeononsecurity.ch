@@ -1,11 +1,11 @@
 ---
 title: "Construirea unui pipeline DevOps securizat: bune practici"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Află cum să construiești și să întreții un pipeline DevOps securizat folosind bune practici și exemple din lumea reală."
-tags: ["DevOps", "securitate", "pipeline", "integrare continuă", "livrare continuă", "automatizare", "containerizare", "programare securizată", "scanarea vulnerabilităților", "monitorizare", "feedback", "controlul versiunilor", "controlul accesului", "recuperare în caz de dezastru", "continuitatea activității", "studiu de caz", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
+tags: ["DevOps", "securitate", "flux DevOps", "integrare continuă", "livrare continuă", "automatizare", "containerizare", "programare securizată", "scanarea vulnerabilităților", "monitorizare", "retroacțiune", "controlul versiunilor", "controlul accesului", "recuperare în caz de dezastru", "continuitatea activității", "studiu de caz", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
 cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
 coverAlt: "Ilustrație digitală abstractă a unui pipeline DevOps securizat, cu elemente vizuale pentru dezvoltarea codului, testarea automată și implementare, pe un fundal întunecat cu accente vii."
 coverCaption: ""

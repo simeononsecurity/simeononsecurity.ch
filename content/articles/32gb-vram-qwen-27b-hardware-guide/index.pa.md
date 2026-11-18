@@ -1,7 +1,7 @@
 ---
 title: "Qwen 27B ਲਈ 32GB VRAM: ਅਕਤੂਬਰ 2026 ਦੀ ਸਥਾਨਕ AI ਹਾਰਡਵੇਅਰ ਗਾਈਡ"
 date: 2026-10-03
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ਅਕਤੂਬਰ 2026 ਦੀ ਇਹ ਕਾਰਗਰ ਗਾਈਡ 32GB ਵਰਤਣਯੋਗ ਐਕਸਲੇਰੇਟਰ ਮੈਮੋਰੀ ਨਾਲ Qwen 27B ਮਾਡਲ ਚਲਾਉਣ ਦੇ ਤਰੀਕੇ ਦੱਸਦੀ ਹੈ। ਸਿੰਗਲ GPU, ਦੋ-ਕਾਰਡ ਬਿਲਡ, ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ, ਵਰਤੇ ਡਾਟਾ-ਸੈਂਟਰ ਕਾਰਡ, ਕਿਰਾਏ ਦੀ ਕੰਪਿਊਟਿੰਗ, ਸਾਫਟਵੇਅਰ ਸਹਾਇਤਾ ਅਤੇ ਪੂਰੇ ਕਾਂਟੈਕਸਟ ਦੀਆਂ ਹੱਦਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।"
@@ -30,7 +30,7 @@ ref: ["/articles/local-ai-2026-build-your-rig-now", "/articles/qwen38-27b-vast-a
 | **24GB discrete GPU** | ਘੱਟ ਕਾਂਟੈਕਸਟ ਨਾਲ 4-ਬਿਟ ਵਜ਼ਨ, ਜਾਂ ਅੰਸ਼ਕ offload |
 | **32GB discrete GPU** | ਵਰਤਣਯੋਗ 128K ਕਾਂਟੈਕਸਟ ਟੀਚੇ ਨਾਲ 6-ਬਿਟ ਵਜ਼ਨ |
 | **ਦੋ 16GB GPU** | runtime overhead ਲਈ ਘੱਟ headroom ਵਾਲਾ split model |
-| **64GB unified memory** | ਵੱਡਾ ਕਾਂਟੈਕਸਟ ਅਤੇ ਮਾਡਲ, GPU memory allocation limit ਦੇ ਅਧੀਨ |
+| **64GB ਯੂਨੀਫਾਈਡ ਮੈਮੋਰੀ** | ਵੱਡਾ ਕਾਂਟੈਕਸਟ ਅਤੇ ਮਾਡਲ, GPU memory allocation limit ਦੇ ਅਧੀਨ |
 
 **32GB sizing point ਹੈ, ਗਾਰੰਟੀ ਨਹੀਂ।** ਮਾਡਲ load ਹੋ ਸਕਦਾ ਹੈ, ਪਰ ਲੰਮੇ prompt, ਵੱਡੇ batch, multimodal input ਜਾਂ ਦੂਜੇ process ਲਈ ਥਾਂ ਘੱਟ ਰਹਿ ਸਕਦੀ ਹੈ।
 
@@ -56,7 +56,7 @@ Apple silicon ਸ਼ਾਂਤ systems ਲਈ ਹਾਲੇ ਵੀ ਆਕਰਸ਼
 
 Split method ਵੀ ਮਹੱਤਵਪੂਰਨ ਹੈ। **Layer splitting** ਵੱਖ-ਵੱਖ model layers ਨੂੰ ਵੱਖਰੇ cards ਉੱਤੇ ਰੱਖਦਾ ਹੈ। Capacity ਵਧਦੀ ਹੈ, ਪਰ cards model ਰਾਹੀਂ ਵਾਰੀ-ਵਾਰੀ ਕੰਮ ਕਰਦੇ ਹਨ। **Tensor splitting** ਇੱਕੋ layer ਦਾ ਕੰਮ ਦੋਵਾਂ cards ਉੱਤੇ ਰੱਖਦਾ ਹੈ। Communication ਵਧਦੀ ਹੈ, ਪਰ ਦੋਵੇਂ devices ਸਿੱਧਾ ਵੱਧ ਯੋਗਦਾਨ ਦਿੰਦੇ ਹਨ।
 
-| Split method | ਮੁੱਖ ਲਾਭ | ਮੁੱਖ ਲਾਗਤ |
+| ਵੰਡਣ ਦੀ ਵਿਧੀ | ਮੁੱਖ ਲਾਭ | ਮੁੱਖ ਲਾਗਤ |
 |---|---|---|
 | **Layer split** | Capacity ਦਾ ਸੌਖਾ ਵਿਸਥਾਰ | ਇੱਕ card ਅਕਸਰ ਦੂਜੇ ਦੇ ਕੰਮ ਦੌਰਾਨ ਉਡੀਕਦਾ ਹੈ |
 | **Tensor split** | ਕੁਝ workloads ਵਿੱਚ ਵਧੀਆ parallel compute | ਵੱਧ tuning ਅਤੇ interconnect traffic |
@@ -153,7 +153,7 @@ Used data-center hardware ਤਦ ਹੀ ਚੁਣੋ ਜਦੋਂ project ਵਿ
 
 32GB Apple silicon system ਤਦ ਚੁਣੋ ਜਦੋਂ silence, low idle power ਅਤੇ compact desktop maximum throughput ਨਾਲੋਂ ਵੱਧ ਮਹੱਤਵ ਰੱਖਦੇ ਹੋਣ। Exact runner ਦੁਆਰਾ ਦੱਸੀ memory allocation ਜਾਂਚੋ। Full 32GB model ਲਈ ਉਪਲਬਧ ਮੰਨੋ ਨਾ।
 
-### Cloud Rental
+### ਕਲਾਊਡ ਸਰੋਤ ਕਿਰਾਏ 'ਤੇ ਲੈਣਾ
 
 Rental ਤਦ ਚੁਣੋ ਜਦੋਂ workload ਕਦੇ-ਕਦੇ ਹੁੰਦਾ ਹੈ, model ਬਦਲਦਾ ਰਹਿੰਦਾ ਹੈ ਜਾਂ fast prompt response local ownership ਨਾਲੋਂ ਵੱਧ ਮਹੱਤਵ ਰੱਖਦਾ ਹੈ। Test ਤੋਂ ਬਾਅਦ instance ਬੰਦ ਕਰੋ। Idle time price advantage ਨੂੰ ਜਲਦੀ ਖਤਮ ਕਰਦਾ ਹੈ।
 

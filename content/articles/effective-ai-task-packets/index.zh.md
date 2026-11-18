@@ -50,30 +50,30 @@ coverCaption: ""
 **复制此模板**，用于小型编程或研究任务。删除无关字段，不要用含糊文字填充它们。
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+目标：
+权威来源和修订版本：
+相关文件或记录：
+允许的更改：
+排除的更改和操作：
+预期行为示例：
+完成检查：
+何时停止或询问：
+报告内容：
 ```
 
 **实验任务的完整任务包**如下：
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+目标：为 task_report.py 添加可选的 --status 筛选器。
+来源：docs/requirements.md，修订版 1。
+相关文件：task_report.py、tasks.json、tests/。
+允许的更改： task_report.py 和针对性测试.
+排除项：tasks.json、新依赖项、提交和推送。
+示例：不使用筛选器时显示 Total tasks: 4。open 和 done 各显示 2。
+检查：运行单元测试和四条手动命令：不使用筛选器、open、done 和无效值。
+无效值必须返回非零退出码并显示明确错误。
+如果来源冲突、文件缺失或无关的基线检查失败，请停止或询问。
+报告：已更改文件、命令、观察到的输出和未解决事项。
 ```
 
 **在 Windows 上，**如果环境使用 Python 启动器，请在任务包中的命令使用 `py -3`。

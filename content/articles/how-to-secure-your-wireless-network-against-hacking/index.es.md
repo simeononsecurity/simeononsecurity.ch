@@ -41,7 +41,7 @@ __________
 
 ### Cambia el nombre de red (SSID) y la contraseña predeterminados
 
-El primer paso, y el más importante, para proteger tu red inalámbrica es **cambiar el nombre de red (SSID) y la contraseña predeterminados**. El SSID y la contraseña que proporciona el fabricante del router son fáciles de adivinar y los atacantes pueden aprovecharlos fácilmente. Cambia el SSID y la contraseña predeterminados por una combinación única y segura 
+El primer paso, y el más importante, para proteger tu red inalámbrica es **cambiar el nombre de red (SSID) y la contraseña predeterminados**. El SSID y la contraseña que proporciona el fabricante del router son fáciles de adivinar y los atacantes pueden aprovecharlos fácilmente. Cambia el SSID y la contraseña predeterminados por una combinación única y segura
 
 ### Usa contraseñas seguras
 

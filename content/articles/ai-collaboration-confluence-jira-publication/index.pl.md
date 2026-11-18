@@ -1,7 +1,7 @@
 ---
 title: "Proces publikacji AI w GitHub, Confluence i Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Opublikuj stałą propozycję retencji w Confluence, GitHub i Jira, sprawdzając wersje i przygotowując się na częściową publikację."
@@ -173,7 +173,7 @@ Powyższe ciągi znaków to przykładowa treść propozycji, a nie rekordy z akt
 | Confluence REQ-17 | v4, siedem dni | PROP-042 r1, Product zatwierdził zmianę v4 na v5 | Osoba publikująca zapisała v5, reviewer otworzył ją ponownie | Trzydzieści dni, kopie zapasowe i blokady prawne wyłączone |
 | Konfiguracja GitHub | Commit `base-001` na `main`, siedem dni | PROP-042 r1, Operations zatwierdził diff kandydata | PR scalono jako `merge-002`, niezależny klon odczytał wartość trzydzieści | Trzydzieści dni w chronionym źródle |
 | Confluence RUN-04 | v2, siedem dni | PROP-042 r1, Operations zatwierdził zmianę v2 na v3 | Osoba publikująca zapisała v3, reviewer otworzył ją ponownie | Operacyjny krok trzydziestu dni z wycofaniem |
-| Jira PROP-042 | In Review | Obie decyzje właścicieli powiązane z r1 | Właściciel dostawy dołączył dowody i zmienił stan na Done | Zamknięcie po trzech odczytach zwrotnych |
+| Jira PROP-042 | W trakcie przeglądu | Obie decyzje właścicieli powiązane z r1 | Właściciel dostawy dołączył dowody i zmienił stan na Done | Zamknięcie po trzech odczytach zwrotnych |
 
 Powyższe etykiety są przykładowe, a nie stanowią dowodów z dzierżawy. Rejestr powinien zawierać odwołania do natywnych wersji stron i identyfikatorów commitów. Przed ustawieniem Jira na Done dołącz zamrożoną propozycję, przeglądy obu ról, zapis podstaw źródłowych, każdy odczyt zwrotny publikacji, wynik testu negatywnego i nierozwiązane ograniczenia środowiska wykonawczego. Jeśli brakuje jednego elementu, pozostaw dostawę otwartą lub zablokowaną.
 

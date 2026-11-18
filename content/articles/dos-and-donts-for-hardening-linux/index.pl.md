@@ -1,10 +1,11 @@
 ---
 title: "Podstawowe zasady i zalecenia dotyczące wzmacniania systemu Linux"
 date: 2023-02-28
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych."
-tags: ["Bezpieczeństwo systemu Linux", "utwardzanie systemu", "firewall", "SELinux", "AppArmor", "polityka haseł", "aktualizacje systemu", "logi systemowe", "moduły bezpieczeństwa", "zasady kontroli dostępu", "cyberbezpieczeństwo", "bezpieczeństwo systemu", "bezpieczeństwo sieci", "zarządzanie podatnościami", "najlepsze praktyki bezpieczeństwa", "Bezpieczeństwo IT", "bezpieczeństwo informacji", "aktualizacje oprogramowania", "dostęp roota", "menedżer haseł"]
+tags: ["Bezpieczeństwo systemu Linux", "utwardzanie systemu", "zapora sieciowa", "SELinux", "AppArmor", "polityka haseł", "aktualizacje systemu", "logi systemowe", "moduły bezpieczeństwa", "zasady kontroli dostępu", "cyberbezpieczeństwo", "bezpieczeństwo systemu", "bezpieczeństwo sieci", "zarządzanie podatnościami", "najlepsze praktyki bezpieczeństwa", "Bezpieczeństwo IT", "bezpieczeństwo informacji", "aktualizacje oprogramowania", "dostęp roota", "menedżer haseł"]
 cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Kreskówkowy zamek trzymający tarczę z napisem Linux, podczas gdy strzała odbija się od tarczy."
 coverCaption: ""
@@ -13,7 +14,7 @@ coverCaption: ""
 
 Linux to popularny system operacyjny używany zarówno przez użytkowników indywidualnych, jak i firmy. Chociaż często jest uważany za bezpieczniejszy niż inne systemy operacyjne ze względu na swój charakter open source, nadal wymaga odpowiedniego zabezpieczenia, aby zapewnić bezpieczeństwo systemu i przechowywanych w nim danych. W tym artykule omówimy kilka ogólnych zaleceń i zakazów dotyczących hartowania, które mogą pomóc w zapewnieniu bezpieczeństwa systemu Linux.
 
-## Do's:
+## Zalecenia:
 
 ### Aktualizuj swój system
 
@@ -296,7 +297,7 @@ ______
 
 Używanie słabych haseł jest częstym błędem, który może sprawić, że system Linux będzie podatny na ataki. Atakujący mogą używać narzędzi do odgadywania haseł opartych na popularnych słowach, nazwach lub datach. Ważne jest, aby używać silnych i unikalnych haseł, które nie są łatwe do odgadnięcia.
 
-Silne hasła można tworzyć przy użyciu kombinacji wielkich i małych liter, cyfr i znaków specjalnych. Dobrą praktyką jest również używanie [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) może również pomóc w zapamiętaniu haseł i uniknięciu używania tego samego hasła do wielu kont.
+Silne hasła można tworzyć, używając kombinacji wielkich i małych liter, cyfr oraz znaków specjalnych. Warto też korzystać z [menedżera haseł](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), aby bezpiecznie generować i przechowywać złożone hasła. [Menedżery haseł](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pomagają również zapamiętywać hasła i uniknąć używania tego samego hasła do wielu kont.
 
 ### Zezwalaj na dostęp roota SSH
 

@@ -1,7 +1,7 @@
 ---
 title: "Python 安全编码"
 date: 2023-09-26
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "学习如何编写安全的 Python 代码，避免不安全函数，并采用最佳实践构建稳健可靠的应用程序。"
@@ -30,10 +30,10 @@ ___________
 
 #### 使用 eval() 动态执行代码：
 ```python
-# Unsafe: Using eval() for dynamic code execution
+# 不安全：使用 eval() 执行动态代码
 user_input = input("Enter a Python expression: ")
 result = eval(user_input)
-print("Result:", result)
+print("结果：", result)
 ```
 
 #### 使用 `ast.literal_eval()` 的更安全替代方案：
@@ -43,9 +43,9 @@ import ast
 user_input = input("Enter a literal value: ")
 try:
     parsed_value = ast.literal_eval(user_input)
-    print("Parsed value:", parsed_value)
+    print("解析后的值：", parsed_value)
 except (ValueError, SyntaxError):
-    print("Invalid input.")
+    print("输入无效。")
 ```
 
 ### 拼接未经清理的数据
@@ -76,7 +76,7 @@ import pickle
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = pickle.dumps(data)
-# Store or send serialized_data
+# 存储或发送 serialized_data
 ```
 
 #### 使用 json 的更安全替代方案：
@@ -85,7 +85,7 @@ import json
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = json.dumps(data)
-# Store or send serialized_data
+# 存储或发送 serialized_data
 ```
 
 ### 使用 `mark_safe()` 时 HTML 转义不足
@@ -124,7 +124,7 @@ import subprocess
 
 command = input("Enter a command: ")
 result = subprocess.run(command, shell=True, capture_output=True, text=True)
-print("Output:", result.stdout)
+print("输出：", result.stdout)
 ```
 
 ### 使用 `hash()` 进行不充分的密码哈希
@@ -135,7 +135,7 @@ print("Output:", result.stdout)
 ```python
 password = input("Enter your password: ")
 hashed_password = hash(password)
-# Store hashed_password in the database
+# 将 hashed_password 存入数据库
 ```
 
 #### 使用 bcrypt 的更安全方法：
@@ -144,7 +144,7 @@ import bcrypt
 
 password = input("Enter your password: ")
 hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-# Store hashed_password in the database
+# 将 hashed_password 存入数据库
 ```
 
 ## **更安全的替代方案和最佳实践**
@@ -163,7 +163,7 @@ if response.status_code == 200:
     data = response.json()
     print(data)
 else:
-    print("Request failed.")
+    print("请求失败。")
 ```
 
 ### 使用 **`with`** 语句安全处理文件
@@ -174,12 +174,12 @@ else:
 ```python
 filename = "example.txt"
 
-# Unsafe: Without using `with`
+# 不安全：不使用 with
 file = open(filename, "r")
 content = file.read()
 file.close()
 
-# Safer: Using `with` statement
+# 更安全：使用 with 语句
 with open(filename, "r") as file:
     content = file.read()
 ```
@@ -194,7 +194,7 @@ import html
 
 user_input = input("Enter some text: ")
 sanitized_input = html.escape(user_input)
-print("Sanitized input:", sanitized_input)
+print("已清理的输入：", sanitized_input)
 ```
 
 ### 使用 **`sqlite3`** 参数化查询
@@ -228,9 +228,9 @@ import os
 
 api_key = os.environ.get("API_KEY")
 if api_key:
-    print("API Key:", api_key)
+    print("API 密钥：", api_key)
 else:
-    print("API Key not set.")
+    print("未设置 API 密钥。")
 ```
 
 #### 使用 python-decouple 管理环境变量：
@@ -238,7 +238,7 @@ else:
 from decouple import config
 
 api_key = config("API_KEY")
-print("API Key:", api_key)
+print("API 密钥：", api_key)
 ```
 
 ### 使用 **`secrets`** 获取强随机值
@@ -250,7 +250,7 @@ print("API Key:", api_key)
 import secrets
 
 token = secrets.token_hex(16)
-print("Secure Token:", token)
+print("安全令牌：", token)
 ```
 
 ## 结论

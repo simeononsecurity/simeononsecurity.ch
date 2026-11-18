@@ -1,7 +1,7 @@
 ---
 title: "Python 的安全编码标准：最佳实践"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "学习 Python 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。"
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    使用正则表达式验证输入的函数。
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ def validate_input(input_string):
 
 例如，不要使用 `eval()`函数将字符串转换为整数，开发人员应使用 `int()`功能。
 ```py
-# Instead of using eval function
+# 改用安全方法，不要调用 eval 函数
 x = eval('10')
 
-# Use int function
+# 使用 int 函数
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    使用密码学库加密密码的函数。
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ encrypted_password = encrypt_password(password)
 例如，在编写 SQL 查询时，应使用**参数化查询**，而不是将用户输入与查询连接起来。参数化查询可将用户输入视为数据而非可执行代码，从而防止 SQL 注入攻击。
 
 ```py
-# Instead of this
+# 改用以下写法
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# 使用参数化查询
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

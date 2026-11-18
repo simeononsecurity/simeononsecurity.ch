@@ -69,8 +69,8 @@ In generale, per proteggersi dalle frodi con carte di credito fisiche è necessa
 
 ## Riferimenti
 
--[Skimming](https://www.investopedia.com/terms/s/skimming.asp) 
--[Phishing](https://www.investopedia.com/terms/p/phishing.asp) 
+-[Skimming](https://www.investopedia.com/terms/s/skimming.asp)
+-[Phishing](https://www.investopedia.com/terms/p/phishing.asp)
 -[How Chip Credit Cards Work](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
--[Silent Pocket RFID Blocking Wallet](https://amzn.to/421J6o6) 
+-[Silent Pocket RFID Blocking Wallet](https://amzn.to/421J6o6)
 -[Hunter-CAT USB RFID Reader](https://hackerwarehouse.com/product/hunter-cat/)

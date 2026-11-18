@@ -1,12 +1,12 @@
 ---
 title: "1Password SSH Agent and CLI: وصول وكيل الذكاء الاصطناعي للقراءة فقط"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "صمّم سير عمل SSH للقراءة فقط باستخدام 1Password CLI و SSH Agent و MCP. استخدم أوامر اصطناعية وصلاحيات محدودة وموافقة بشرية قبل الاختبار المباشر."
 genre: ["إدارة الأنظمة", "أمن السحابة", "الأتمتة"]
-tags: ["1Password CLI", "مفاتيح SSH", "1Password SSH Agent", "MCP", "Model Context Protocol", "إدارة الوكلاء", "إدارة الأنظمة", "Bitbucket Cloud", "Git over SSH", "مرجعيات الأسرار", "حسابات الخدمة", "أدنى صلاحيات", "المصادقة بالمفتاح العام", "إدارة الأسرار", "أمن سطر الأوامر", "سلامة الأتمتة"]
+tags: ["1Password CLI", "مفاتيح SSH", "1Password SSH Agent", "MCP", "Model Context Protocol", "إدارة الوكلاء", "إدارة الأنظمة", "Bitbucket Cloud", "Git عبر SSH", "مرجعيات الأسرار", "حسابات الخدمة", "أدنى صلاحيات", "المصادقة بالمفتاح العام", "إدارة الأسرار", "أمن سطر الأوامر", "سلامة الأتمتة"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "مخطط تجريدي لوكيل يستخدم مرجع سر و SSH Agent وأدوات MCP دون عرض المفاتيح الخاصة."
 coverCaption: ""
@@ -82,7 +82,7 @@ coverCaption: ""
 
 **عامل مع Bitbucket كمستهلك للمفتاح العام.** سجّل المفتاح العام أو البصمة عبر إعداد حساب Bitbucket المعتمد أو إعداد المستودع. احتفظ بالمفتاح الخاص في 1Password. يطلب عميل Git من SSH Agent التوقيع. لا يقرأ العميل ملف المفتاح الخاص.
 
-لمجال مفتاح الوصول لـ Bitbucket، ومسار التسجيل، واختبار Git للقراءة فقط، راجع [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+لمجال مفتاح الوصول لـ Bitbucket، ومسار التسجيل، واختبار Git للقراءة فقط، راجع [مفاتيح SSH في Bitbucket Cloud وواجهة Git: وصول للقراءة فقط لوكلاء الذكاء الاصطناعي](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 تُسمّي وثائق Bitbucket هذا سير عمل Git CLI. لا تفترض هذه المقالة وجود خادم MCP منفصل لـ Bitbucket أو منتجًا باسم Bitbucket CLI. يحتاج CLI الخاص بـ Bitbucket إلى وثائقه الحالية الخاصة ومراجعة أذونات خاصة به.
 
@@ -163,10 +163,10 @@ agent_policy:
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: فحص اتصال للقراءة فقط
+host_key_source: سجل معتمد من المسؤول
+approval_owner: مشغّل محدد
+rollback: إزالة المفتاح العام وإلغاء هوية الاختبار
 ```
 
 **النتيجة المتوقعة، غير مُختبَرة:** يحدد السجل هدفاً واحداً وعملاً واحداً. لا يحتوي السجل على اسم مضيف، أو عنوان IP، أو رمز، أو مفتاح خاص، أو بيانات شخصية.
@@ -239,7 +239,7 @@ git ls-remote "<repository-ssh-url>" HEAD
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# على macOS أو Linux فقط
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

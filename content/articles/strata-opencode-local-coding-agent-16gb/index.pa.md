@@ -1,7 +1,7 @@
 ---
 title: "16GB GPU ਉੱਤੇ ਸਥਾਨਕ AI ਕੋਡਿੰਗ: Strata, OpenCode ਅਤੇ Qwen3.8"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Strata ਅਤੇ OpenCode ਨਾਲ ਸਥਾਨਕ ਕੋਡਿੰਗ ਏਜੰਟ ਚਲਾਓ। RTX 4060 Ti ਦੇ ਦੱਸੇ ਨਤੀਜੇ, RAM ਦੀ ਲੋੜ, prompt ਦੀ ਮੁੜ ਵਰਤੋਂ, reasoning budgets ਅਤੇ ਭੁਗਤਾਨੀ subscription ਬਦਲਣ ਦੀਆਂ ਹੱਦਾਂ ਨੂੰ ਸਮਝੋ।"
@@ -28,23 +28,23 @@ coverCaption: ""
 
 **ਸਮਾਂ ਅਤੇ ਮੁਸ਼ਕਲ:** ਦਰਮਿਆਨਾ। Task completion speed ਮਾਪਣ ਤੋਂ ਪਹਿਲਾਂ ਵੱਡੇ model downloads ਅਤੇ installation ਲਈ ਸਮਾਂ ਰੱਖੋ। ਦੱਸੇ task timings setup ਨੂੰ ਸ਼ਾਮਲ ਨਹੀਂ ਕਰਦੇ।
 
-## Test ਕੀਤੀ configuration
+## ਪਰਖੀ ਗਈ ਸੰਰਚਨਾ
 
-| Component | ਦੱਸੀ configuration |
+| ਘਟਕ | ਦੱਸੀ configuration |
 |---|---|
 | **GPU** | NVIDIA RTX 4060 Ti, 16GB VRAM |
 | **CPU** | Intel Core i5-11600K |
-| **System memory** | 64GB RAM |
+| **ਸਿਸਟਮ ਮੈਮੋਰੀ** | 64GB RAM |
 | **Storage** | NVMe SSD |
-| **Model** | Qwen3.8-Flash-Next, 125B MoE, IQ3_S |
+| **ਮਾਡਲ** | Qwen3.8-Flash-Next, 125B MoE, IQ3_S |
 | **Inference engine** | Strata |
 | **Coding agent** | OpenCode |
 | **Configured context** | 65,536 tokens |
-| **Configured output limit** | 16,384 tokens |
+| **ਕੌਂਫਿਗਰ ਕੀਤੀ ਆਉਟਪੁੱਟ ਸੀਮਾ** | 16,384 tokens |
 
-**NetworkCoder ਦੀ published configuration ਅਤੇ results** ਇਹ ਅੰਕੜੇ ਦਿੰਦੇ ਹਨ। [Test repository](https://github.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU) 46.84GiB expert weights ਨੂੰ 28 seconds ਵਿੱਚ load ਕਰਨ ਦੀ report ਕਰਦੀ ਹੈ। 4,431 experts ਨੇ GPU memory ਦੀ 8.45GiB ਵਰਤੀ। ਇਹ measurements tested run ਨੂੰ ਦੱਸਦੇ ਹਨ, ਕਿਸੇ ਹੋਰ engine version ਉੱਤੇ guaranteed allocation ਨੂੰ ਨਹੀਂ।
+**NetworkCoder ਦੀ published configuration ਅਤੇ results** ਇਹ ਅੰਕੜੇ ਦਿੰਦੇ ਹਨ। [ਟੈਸਟ ਰਿਪੋਜ਼ਟਰੀ](https://github.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU) 46.84GiB expert weights ਨੂੰ 28 seconds ਵਿੱਚ load ਕਰਨ ਦੀ report ਕਰਦੀ ਹੈ। 4,431 experts ਨੇ GPU memory ਦੀ 8.45GiB ਵਰਤੀ। ਇਹ measurements tested run ਨੂੰ ਦੱਸਦੇ ਹਨ, ਕਿਸੇ ਹੋਰ engine version ਉੱਤੇ guaranteed allocation ਨੂੰ ਨਹੀਂ।
 
-**Current compatibility ਇਸ test ਤੋਂ ਵੱਡੀ ਹੈ।** 6 October 2026 ਨੂੰ ਕੀਤੀ ਜਾਂਚ ਮੁਤਾਬਕ [Strata project](https://github.com/Niko1221/Strata) ਘੱਟੋ-ਘੱਟ 12GB VRAM ਵਾਲੇ ਚੁਣੇ NVIDIA ਅਤੇ AMD cards, ਨਾਲੇ 32GB RAM systems ਲਈ ਛੋਟੇ models document ਕਰਦਾ ਹੈ। ਇਹ options 16GB GPU, 64GB RAM ਅਤੇ IQ3_S ਵਾਲੇ experiment ਨੂੰ ਦੁਹਰਾਉਂਦੇ ਨਹੀਂ। Hardware ਖਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ exact GPU, model variant ਅਤੇ runtime support check ਕਰੋ।
+**ਮੌਜੂਦਾ ਅਨੁਕੂਲਤਾ ਇਸ ਟੈਸਟ ਨਾਲੋਂ ਵੱਡੀ ਹੈ।** 6 ਅਕਤੂਬਰ 2026 ਨੂੰ ਵੇਖੇ [Strata ਪ੍ਰੋਜੈਕਟ](https://github.com/Niko1221/Strata) ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 12GB VRAM ਵਾਲੇ ਚੁਣੇ NVIDIA ਅਤੇ AMD ਕਾਰਡਾਂ ਅਤੇ 32GB RAM ਸਿਸਟਮਾਂ ਲਈ ਛੋਟੇ ਮਾਡਲ ਦਰਜ ਹਨ। ਇਹ ਵਿਕਲਪ 16GB GPU, 64GB RAM ਅਤੇ IQ3_S ਵਾਲੇ ਟੈਸਟ ਨੂੰ ਦੁਹਰਾਉਂਦੇ ਨਹੀਂ। Hardware ਖਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ ਸਹੀ GPU, model variant ਅਤੇ runtime support ਜਾਂਚੋ।
 
 ## Model ਕਿੱਥੇ ਰਹਿੰਦਾ ਹੈ
 
@@ -52,11 +52,11 @@ coverCaption: ""
 
 **Strata ਦੀ hybrid execution** ਅਕਸਰ ਵਰਤੇ ਜਾਣ ਵਾਲੇ experts ਨੂੰ GPU ਉੱਤੇ ਰੱਖਦੀ ਹੈ ਅਤੇ expert collection ਨੂੰ system RAM ਵਿੱਚ ਰੱਖਦੀ ਹੈ। CPU uncached experts ਨੂੰ ਉੱਥੇ compute ਕਰਦਾ ਹੈ ਅਤੇ GPU cached experts ਨੂੰ ਸੰਭਾਲਦਾ ਹੈ। Storage model files ਅਤੇ lookup data ਲਈ ਵੀ ਵਰਤੀ ਜਾਂਦੀ ਹੈ। System ਪੂਰੇ 125B model ਨੂੰ 16GB VRAM ਵਿੱਚ ਨਹੀਂ ਸਮਾਉਂਦਾ।
 
-**GPU memory ਦੇ ਕਈ ਮੁਕਾਬਲਾਤੀ ਕੰਮ ਹਨ।** Runtime allocations, attention state ਅਤੇ expert cache ਸੀਮਿਤ resource ਸਾਂਝਾ ਕਰਦੇ ਹਨ। Context ਲਈ ਵੱਧ ਜਗ੍ਹਾ expert-cache capacity ਘਟਾਉਂਦੀ ਹੈ। Current Strata versions KV-cache streaming ਵੀ support ਕਰਦੀਆਂ ਹਨ, ਇਸ ਲਈ exact placement ਪੁਰਾਣੀ configuration ਤੋਂ ਵੱਖਰੀ ਹੈ। ਆਪਣੇ engine version ਲਈ [technical documentation](https://github.com/Niko1221/Strata/blob/main/docs/DETAILS.md) ਵੇਖੋ।
+**GPU memory ਕਈ ਕੰਮਾਂ ਵਿੱਚ ਵੰਡੀ ਜਾਂਦੀ ਹੈ।** Runtime allocation, attention state ਅਤੇ expert cache ਸੀਮਿਤ ਸਰੋਤ ਸਾਂਝੇ ਕਰਦੇ ਹਨ। Context ਲਈ ਵੱਧ memory ਦੇਣ ਨਾਲ expert cache ਦੀ ਬਚੀ ਸਮਰੱਥਾ ਘਟਦੀ ਹੈ। Strata ਦੇ ਮੌਜੂਦਾ versions KV-cache streaming ਦਾ ਵੀ ਸਮਰਥਨ ਕਰਦੇ ਹਨ, ਇਸ ਲਈ data placement ਪੁਰਾਣੀ configuration ਤੋਂ ਵੱਖਰੀ ਹੈ। ਆਪਣੇ engine version ਲਈ [ਤਕਨੀਕੀ ਦਸਤਾਵੇਜ਼](https://github.com/Niko1221/Strata/blob/main/docs/DETAILS.md) ਵੇਖੋ।
 
 {{< figure src="local-agent-gpu-ram-expert-cache.webp" alt="ਸਥਾਨਕ workstation ਵੱਲੋਂ model execution ਨੂੰ graphics card, system memory ਅਤੇ solid-state storage ਵਿੱਚ ਵੰਡਣ ਦੀ ਤਸਵੀਰ" caption="GPU inference system ਦਾ ਇੱਕ ਹਿੱਸਾ ਹੈ, CPU execution, system RAM ਅਤੇ storage ਦੇ ਨਾਲ" >}}
 
-## Prompt reuse speed ਬਦਲਦਾ ਹੈ
+## ਪ੍ਰੌਂਪਟ ਦੀ ਮੁੜ ਵਰਤੋਂ ਗਤੀ ਬਦਲਦੀ ਹੈ
 
 **Coding agent ਇੱਕ loop ਚਲਾਉਂਦਾ ਹੈ:** task ਪੜ੍ਹਦਾ ਹੈ, tool action ਮੰਗਦਾ ਹੈ, result ਲੈਂਦਾ ਹੈ ਅਤੇ ਅਗਲਾ action ਚੁਣਦਾ ਹੈ। File contents, errors ਅਤੇ test output conversation ਵਿੱਚ ਇਕੱਠੇ ਹੁੰਦੇ ਹਨ। Agents context ਨੂੰ compact ਜਾਂ select ਵੀ ਕਰਦੇ ਹਨ, ਇਸ ਲਈ ਹਰ implementation ਬਿਨਾਂ ਬਦਲੀ ਪੂਰੀ history ਹਮੇਸ਼ਾ ਦੁਬਾਰਾ ਨਹੀਂ ਭੇਜਦੀ।
 
@@ -69,7 +69,7 @@ coverCaption: ""
 | **Cold prompt** | Reusable prefix state ਤੋਂ ਬਿਨਾਂ ਨਵੀਂ content ਦਾ ਸਮਾਂ |
 | **Warm continuation** | Existing context ਵਿੱਚ tool result ਜੋੜਨ ਤੋਂ ਬਾਅਦ ਦਾ ਸਮਾਂ |
 | **Generation speed** | Response ਦੌਰਾਨ tokens per second |
-| **Task duration** | Planning, generation, tools, tests ਅਤੇ retries ਇਕੱਠੇ |
+| **ਕੰਮ ਦੀ ਮਿਆਦ** | Planning, generation, tools, tests ਅਤੇ retries ਇਕੱਠੇ |
 
 **ਦੋ caches ਵੱਖਰੇ ਕੰਮ ਕਰਦੇ ਹਨ।** Expert cache ਅਕਸਰ ਵਰਤੇ weights ਨੂੰ GPU computation ਦੇ ਨੇੜੇ ਰੱਖਦਾ ਹੈ। Prefix reuse ਪੁਰਾਣੇ input ਉੱਤੇ ਕੰਮ ਦੁਹਰਾਉਣ ਤੋਂ ਬਚਾਉਂਦਾ ਹੈ। High expert-cache hit rate prompt-cache hit ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ।
 
@@ -78,12 +78,12 @@ coverCaption: ""
 | Task | ਦੱਸਿਆ ਸਮਾਂ | ਦੱਸਿਆ ਨਤੀਜਾ |
 |---|---|---|
 | **Build task manager** | 3m 38s | Express API, interface, 5/5 tests |
-| **Fix editing and add dates** | 4m 58s | Changes complete, 6/6 tests |
-| **Add export/import and packaging** | 3m 48s | 7/7 tests, Docker build unverified |
+| **ਸੰਪਾਦਨ ਠੀਕ ਕਰੋ ਅਤੇ ਮਿਤੀਆਂ ਜੋੜੋ** | 4m 58s | Changes complete, 6/6 tests |
+| **ਨਿਰਯਾਤ, ਆਯਾਤ ਅਤੇ ਪੈਕੇਜਿੰਗ ਜੋੜੋ** | 3m 48s | 7/7 tests, Docker build unverified |
 | **Racing game, first attempt** | 6m 35s | Reasoning ਦੌਰਾਨ output ਖਤਮ, code ਨਹੀਂ |
 | **Racing game, budgeted retry** | 4m 51s | Game generated, JavaScript syntax checked |
 
-**[Published results file](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/results.csv)** ਪਹਿਲੇ task ਲਈ 48–52 tokens per second, ਦੂਜੇ ਲਈ 40–43 ਅਤੇ ਤੀਜੇ ਲਈ 37–44 output speed ਦਰਜ ਕਰਦੀ ਹੈ। “Up to 52” ਇਹਨਾਂ observations ਵਿੱਚ peak ਹੈ, ਹਰ task ਲਈ sustained rate ਨਹੀਂ।
+**[ਪ੍ਰਕਾਸ਼ਿਤ ਨਤੀਜਿਆਂ ਦੀ ਫਾਈਲ](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/results.csv)** ਪਹਿਲੇ task ਲਈ 48–52, ਦੂਜੇ ਲਈ 40–43 ਅਤੇ ਤੀਜੇ ਲਈ 37–44 tokens per second ਦੀ ਗਤੀ ਦਰਜ ਕਰਦੀ ਹੈ। “Up to 52” ਇਨ੍ਹਾਂ ਮਾਪਾਂ ਵਿੱਚ ਸਭ ਤੋਂ ਉੱਚੀ ਗਤੀ ਹੈ, ਹਰ task ਦੀ ਲਗਾਤਾਰ ਰਹਿਣ ਵਾਲੀ ਦਰ ਨਹੀਂ।
 
 **ਪਹਿਲੇ ਤਿੰਨ tasks ਇੱਕ application ਨੂੰ ਵਧਾਉਂਦੇ ਹਨ।** 5/5, 6/6 ਅਤੇ 7/7 counts successive test suites ਦੱਸਦੇ ਹਨ। ਇਹਨਾਂ ਨੂੰ ਜੋੜਨਾ 18 independent capabilities ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ। ਉਸੇ agent ਵੱਲੋਂ ਲਿਖੇ tests ਨੂੰ coverage ਅਤੇ meaningful assertions ਲਈ review ਚਾਹੀਦਾ ਹੈ।
 
@@ -123,7 +123,7 @@ cd Strata
 npm install -g opencode-ai
 ```
 
-**OpenCode install ਕਰੋ** [official instructions](https://opencode.ai/docs/) ਨਾਲ। ਵੱਖਰੇ terminal ਵਿੱਚ **`STRATA_BASE_URL`** ਨੂੰ Strata ਵੱਲੋਂ ਦਿੱਤੀ local API base ਵਜੋਂ define ਕਰੋ, ਜਿਸ ਵਿੱਚ **`/v1`** suffix ਹੋਵੇ। ਇਸ setup ਲਈ inference ਨੂੰ local machine ਨਾਲ ਬੰਨ੍ਹ ਕੇ ਰੱਖੋ।
+**OpenCode ਇੰਸਟਾਲ ਕਰੋ** ਅਤੇ ਇਸ ਦੀਆਂ [ਅਧਿਕਾਰਿਕ ਹਦਾਇਤਾਂ](https://opencode.ai/docs/) ਮੰਨੋ। ਦੂਜੇ terminal ਵਿੱਚ **`STRATA_BASE_URL`** ਨੂੰ Strata ਵੱਲੋਂ ਦਿੱਤੇ local API ਪਤੇ ਤੇ ਸੈੱਟ ਕਰੋ ਅਤੇ ਅੰਤ ਵਿੱਚ **`/v1`** ਜੋੜੋ। ਇਸ ਸੈੱਟਅੱਪ ਵਿੱਚ inference ਨੂੰ local machine ਤੱਕ ਸੀਮਿਤ ਰੱਖੋ।
 
 ```json
 {
@@ -147,7 +147,7 @@ npm install -g opencode-ai
 }
 ```
 
-**Provider block ਨੂੰ `~/.config/opencode/opencode.json` ਵਿੱਚ merge ਕਰੋ**, existing settings ਬਚਾ ਕੇ। ਇਹ [published example configuration](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/config/opencode.json) ਨੂੰ adapt ਕਰਦਾ ਹੈ ਅਤੇ local endpoint environment variable ਤੋਂ ਲੋਡ ਕਰਦਾ ਹੈ। OpenCode [custom providers](https://opencode.ai/docs/providers/) ਅਤੇ [environment substitution](https://opencode.ai/docs/config/) document ਕਰਦਾ ਹੈ।
+**ਮੌਜੂਦਾ settings ਬਚਾਉਂਦੇ ਹੋਏ provider block ਨੂੰ `~/.config/opencode/opencode.json` ਵਿੱਚ ਜੋੜੋ।** [ਪ੍ਰਕਾਸ਼ਿਤ ਉਦਾਹਰਨ ਸੰਰਚਨਾ](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/config/opencode.json) environment variable ਤੋਂ local endpoint ਦਾ ਪਤਾ ਲੈਂਦੀ ਹੈ। OpenCode [ਕਸਟਮ provider](https://opencode.ai/docs/providers/) ਅਤੇ [ਵਾਤਾਵਰਣ ਵੇਰੀਏਬਲ ਬਦਲਣ](https://opencode.ai/docs/config/) ਬਾਰੇ ਦਸਤਾਵੇਜ਼ ਦਿੰਦਾ ਹੈ।
 
 **`local` placeholder credential ਹੈ**, example unauthenticated local setup ਦੇ ਅਨੁਸਾਰ। ਇਹ server secure ਨਹੀਂ ਕਰਦਾ। ਜੇ Strata instance authentication enable ਕਰਦੀ ਹੈ, ਤਾਂ configured credential ਨੂੰ ਉਚਿਤ local secret mechanism ਰਾਹੀਂ ਦਿਓ।
 
@@ -164,11 +164,11 @@ npm install -g opencode-ai
 }
 ```
 
-**Agent evaluate ਕਰਦੇ ਸਮੇਂ ਇਹ initial permissions OpenCode configuration ਵਿੱਚ merge ਕਰੋ।** [Permission documentation](https://opencode.ai/docs/permissions/) available controls ਸਮਝਾਉਂਦੀ ਹੈ। File changes ਅਤੇ shell execution inference ਜਿੱਥੇ ਵੀ ਚੱਲੇ, ਤੁਹਾਡੀ machine ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ।
+**Agent ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ OpenCode configuration ਵਿੱਚ ਸ਼ੁਰੂਆਤੀ permissions ਜੋੜੋ।** [ਅਨੁਮਤੀਆਂ ਬਾਰੇ ਦਸਤਾਵੇਜ਼](https://opencode.ai/docs/permissions/) ਉਪਲਬਧ controls ਸਮਝਾਉਂਦੇ ਹਨ। Inference ਜਿੱਥੇ ਵੀ ਚੱਲੇ, file ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਅਤੇ shell commands ਤੁਹਾਡੀ machine ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ।
 
 **Local inference ਹਰ tool ਨੂੰ local ਨਹੀਂ ਬਣਾਉਂਦੀ।** Package downloads, web tools, external integrations ਅਤੇ optional sharing ਵਿੱਚ network services ਸ਼ਾਮਲ ਰਹਿੰਦੀਆਂ ਹਨ। Private repositories ਸੰਭਾਲਣ ਤੋਂ ਪਹਿਲਾਂ enabled tools review ਕਰੋ। “Model locally runs” ਦਾ ਦਾਅਵਾ “ਕੁਝ ਵੀ computer ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾਂਦਾ” ਨਾਲੋਂ ਛੋਟਾ ਹੈ।
 
-## ਪਹਿਲੀ run ਦੀ troubleshooting
+## ਪਹਿਲੀ run ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਦਾ ਹੱਲ
 
 | Symptom | ਪਹਿਲਾਂ ਕੀ check ਕਰਨਾ ਹੈ |
 |---|---|
@@ -196,11 +196,11 @@ npm install -g opencode-ai
 
 **Useful local agent ਨੂੰ universal superiority ਦੀ ਲੋੜ ਨਹੀਂ।** ਜੇ ਇਹ routine edits ਭਰੋਸੇ ਨਾਲ ਕਰਦਾ ਹੈ ਅਤੇ ਔਖੇ tasks ਦਾ ਛੋਟਾ set ਕਿਸੇ ਹੋਰ tool ਨੂੰ ਛੱਡਦਾ ਹੈ, ਤਾਂ ਇਹ ਪਹਿਲਾਂ ਹੀ ਤੁਹਾਡੀ paid services ਦੀ ਲੋੜ ਬਦਲਦਾ ਹੈ। ਆਪਣੇ projects ਵਿੱਚ accepted work ਦੇ ਆਧਾਰ ਉੱਤੇ ਫੈਸਲਾ ਕਰੋ।
 
-## Demonstration ਅਤੇ ਅਗਲੇ ਕਦਮ
+## ਪ੍ਰਦਰਸ਼ਨ ਅਤੇ ਅਗਲੇ ਕਦਮ
 
 {{< youtube id="QBPbvMaHkJc" enable="true" title="Strata, OpenCode ਅਤੇ 16GB GPU ਨਾਲ ਸਥਾਨਕ coding agent test" >}}
 
-**ਹੋਰ ਵੇਖੋ:** [125B local coding-agent demonstration](https://www.youtube.com/watch?v=QBPbvMaHkJc)। ਉੱਪਰ ਦਿੱਤੇ measurements published test ਨਾਲ ਸਬੰਧਤ ਹਨ, ਇਸ article ਲਈ ਕੀਤੇ independent benchmark ਨਾਲ ਨਹੀਂ।
+**ਹੋਰ ਵੇਖੋ:** [125B local coding agent ਦਾ ਪ੍ਰਦਰਸ਼ਨ](https://www.youtube.com/watch?v=QBPbvMaHkJc)। ਉੱਪਰਲੇ ਮਾਪ ਪ੍ਰਕਾਸ਼ਿਤ ਟੈਸਟ ਤੋਂ ਹਨ। ਇਹ ਇਸ ਲੇਖ ਲਈ ਕੀਤਾ ਸੁਤੰਤਰ benchmark ਨਹੀਂ ਹੈ।
 
 1. **ਇੱਕ ਛੋਟਾ task ਦੁਹਰਾਓ** fixed acceptance criteria ਅਤੇ saved starting revision ਨਾਲ।
 2. **Cold ਅਤੇ warm turns ਮਾਪੋ**, prefix reuse ਨੂੰ cold prefill speed ਨਾ ਸਮਝੋ।
@@ -208,4 +208,4 @@ npm install -g opencode-ai
 4. **Generated tests inspect ਕਰੋ** ਅਤੇ ਉਹ cases ਜੋ implementation ਨੇ anticipate ਨਹੀਂ ਕੀਤੇ, ਜੋੜੋ।
 5. **Completed work compare ਕਰੋ** subscription ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ current coding tool ਨਾਲ।
 
-**Hardware planning ਲਈ**, [local AI model ਅਤੇ GPU context guide](/articles/local-ai-model-gpu-context-guide/) ਪੜ੍ਹੋ। Hosted-model behaviour ਲਈ [OpenRouter provider routing ਅਤੇ costs](/articles/openrouter-provider-routing-quality-cost/) ਵੇਖੋ।
+**Hardware ਦੀ ਯੋਜਨਾ ਲਈ**, [ਸਥਾਨਕ AI model ਅਤੇ GPU ਸੰਦਰਭ ਗਾਈਡ](/articles/local-ai-model-gpu-context-guide/) ਪੜ੍ਹੋ। Hosted model ਦੇ ਵਿਹਾਰ ਅਤੇ ਲਾਗਤਾਂ ਲਈ [OpenRouter provider routing ਗਾਈਡ](/articles/openrouter-provider-routing-quality-cost/) ਵੇਖੋ।

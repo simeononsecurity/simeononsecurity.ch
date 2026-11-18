@@ -1,7 +1,7 @@
 ---
 title: "En 2026, los contenedores dejaron de ser una frontera de seguridad"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Las vulnerabilidades del kernel de 2026 muestran por qué el aislamiento de contenedores multiinquilino no basta. Conoce Copy Fail, Dirty Frag, Fragnesia y CVE-2026-80521, y compara los contenedores reforzados con el límite de una microVM."
@@ -12,7 +12,6 @@ coverAlt: "Ilustración digital de varios contenedores luminosos conectados a un
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Los contenedores comparten un único kernel. En 2026, cuatro familias de vulnerabilidades distintas demostraron que basta un solo fallo del kernel para salir de un contenedor y llegar al host.** Copy Fail, Dirty Frag, Fragnesia y CVE-2026-80521 conceden privilegios root a un usuario local sin privilegios. Todas cruzan el límite del contenedor.
 
 *Lo preocupante no son los fallos en sí, sino lo barato que resulta encontrarlos con IA y cómo un parche creó otro fallo.*
@@ -245,27 +244,27 @@ El principio común es simple. **Los contenedores son excelentes herramientas de
 Nada de esto sustituye un límite de VM, pero elimina caminos fáciles:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Desactiva los módulos que aprovecha la familia page-cache cuando no sean necesarios
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Restringe los espacios de nombres de usuario sin privilegios, lo que bloquea las variantes ESP
+# Debian y Ubuntu: es una mitigación parcial, no completa
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# Si se sospecha una explotación, vacía la caché de páginas para descartar los binarios modificados en memoria
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Indicadores iniciales de detección
+- Uso inesperado de unshare(CLONE_NEWUSER) por una carga de trabajo sin motivo legítimo
+- Actividad NETLINK_XFRM o asociaciones de seguridad XFRM fuera de los hosts IPsec
+- Solicitudes para enlazar sockets AF_ALG
+- Carga de esp4, esp6 o rxrpc en hosts que no ejecutan IPsec ni AFS
 ```
 
 > **Aviso: `drop_caches` descarta la copia modificada en memoria y elimina la corrupción, pero no expulsa a un atacante que ya obtuvo root. Trátalo como respuesta a incidentes, no como remediación.**

@@ -1,17 +1,16 @@
 ---
 title: "Proxmox LXC-তে Docker: নির্ভরযোগ্যতা, প্রমাণ ও VM-এ স্থানান্তর"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "নথিভুক্ত AppArmor ত্রুটি, হোস্ট স্থবিরতার প্রতিবেদন সতর্কভাবে পর্যালোচনা, নির্ণয় কমান্ড এবং VM-এ স্থানান্তর পরিকল্পনার ভিত্তিতে Proxmox LXC-এর ভেতরে Docker মূল্যায়ন করুন।"
 genre: ["ভার্চুয়ালাইজেশন", "লিনাক্স প্রশাসন", "হোমল্যাব"]
-tags: ["LXC-তে Docker", "Proxmox-এ Docker", "Proxmox LXC", "Docker ভার্চুয়াল মেশিন", "হোমল্যাবের নির্ভরযোগ্যতা", "Proxmox হোস্ট জমে যাওয়া", "Debian Docker VM", "বিশেষাধিকারবিহীন কনটেইনার", "কনটেইনার নেস্টিং", "Linux কার্নেল আইসোলেশন", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker স্টোরেজ ড্রাইভার", "containerd ইমেজ স্টোর", "মেমরি চাপ", "Linux PSI", "স্থায়ী জার্নাল", "Proxmox ব্যাকআপ", "bind mount ব্যাকআপ", "VM মাইগ্রেশন", "ব্যর্থতার ক্ষেত্র", "GPU পাসথ্রু", "হোম সার্ভার সমস্যা সমাধান"]
+tags: ["LXC-তে Docker", "Proxmox-এ Docker", "Proxmox-এর LXC কনটেইনার", "Docker ভার্চুয়াল মেশিন", "হোমল্যাবের নির্ভরযোগ্যতা", "Proxmox হোস্ট জমে যাওয়া", "Debian-এর Docker ভার্চুয়াল মেশিন", "বিশেষাধিকারবিহীন কনটেইনার", "কনটেইনার নেস্টিং", "Linux কার্নেল আইসোলেশন", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker স্টোরেজ ড্রাইভার", "containerd ইমেজ স্টোর", "মেমরি চাপ", "Linux PSI", "স্থায়ী জার্নাল", "Proxmox ব্যাকআপ", "bind mount ব্যাকআপ", "VM মাইগ্রেশন", "ব্যর্থতার ক্ষেত্র", "GPU পাসথ্রু", "হোম সার্ভার সমস্যা সমাধান"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "শেয়ার করা হার্ডওয়্যারের সঙ্গে যুক্ত নেস্টেড ওয়ার্কলোড বক্স ও আলাদা ভার্চুয়াল মেশিন কক্ষসহ একটি হোম সার্ভারের আইসোমেট্রিক চিত্র"
 coverCaption: "শেয়ার করা হার্ডওয়্যার ও ওয়ার্কলোড বিচ্ছিন্নতার পৃথক সীমানার ধারণামূলক চিত্র"
 ---
-
 **Linux Containers (LXC)-এর ভেতরে Docker** অবকাঠামোগত কিছু অতিরিক্ত খরচ কমায়, তবে অ্যাপ্লিকেশন রানটাইম ও Proxmox হোস্টের মধ্যে মিথস্ক্রিয়া বাড়ায়। পরিবারের নির্ভরশীল Docker পরিষেবার জন্য Debian-ভিত্তিক **ভার্চুয়াল মেশিন (VM)** একটি ব্যবহারিক সূচনা। এতে গেস্ট কার্নেল আলাদা থাকে এবং সমস্যা অনুসন্ধানে পুনরায় তৈরি করতে হয় এমন পরিবেশ সহজ হয়। এই নিবন্ধে দেওয়া ভিডিও পর্যালোচনা করা হয়েছে, সংশ্লিষ্ট ঘটনার প্রতিবেদন যাচাই করা হয়েছে, এবং নথিভুক্ত ব্যর্থতা ও স্থানান্তর পরিকল্পনা যোগ করা হয়েছে।
 
 <!--more-->
@@ -66,14 +65,14 @@ coverCaption: "শেয়ার করা হার্ডওয়্যার
 ## কার্নেল সীমানা বুঝুন
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+LXC-এর ভিতরে Docker:
+অ্যাপ্লিকেশন -> Docker রানটাইম -> LXC নেমস্পেস ও নীতি
+                 -> Proxmox হোস্ট কার্নেল -> ভৌত হার্ডওয়্যার
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+VM-এর ভিতরে Docker:
+অ্যাপ্লিকেশন -> Docker রানটাইম -> গেস্ট Linux কার্নেল
+                 -> ভার্চুয়াল হার্ডওয়্যার / KVM-QEMU
+                 -> Proxmox হোস্ট কার্নেল -> ভৌত হার্ডওয়্যার
 ```
 
 **LXC** হোস্ট কার্নেল ব্যবহার করে। নেমস্পেস, কন্ট্রোল গ্রুপ, সক্ষমতা, seccomp ও নিরাপত্তা প্রোফাইল প্রক্রিয়া সীমিত করে, আলাদা কার্নেল দেয় না। LXC-এর ভেতরে Docker যোগ করলে একই অন্তর্নিহিত হোস্ট কার্নেল ব্যবহার করা ওয়ার্কলোডের চারপাশে আরেকটি কনটেইনার-ব্যবস্থাপনা স্তর তৈরি হয়। [LXC স্থাপত্য ও কনটেইনমেন্ট বৈশিষ্ট্য](https://linuxcontainers.org/lxc/introduction/)
@@ -290,17 +289,17 @@ findmnt -T /var/lib/docker
 **মাপা প্রমাণ ব্যবহার করুন** স্থাপনা বেছে নিতে ও পুনর্মূল্যায়নের সময় নির্ধারণ করতে:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+সেবা ও পরিবারের ওপর প্রভাব:
+বর্তমান হোস্ট / কার্নেল / LXC / Docker সংস্করণ:
+প্রয়োজনীয় GPU, ডিভাইস ও নেটওয়ার্ক অ্যাক্সেস:
+পরিমাপ করা মেমরি, CPU, স্টোরেজ ও ল্যাটেন্সি:
+পরিচিত ব্যর্থতার লক্ষণ ও পুনরাবৃত্তির ব্যবধান:
+ব্যাকআপ কভারেজ ও সফল পুনরুদ্ধারের প্রমাণ:
+নির্বাচিত স্থাপত্য ও কারণ:
+অনুমোদিত পরিষেবা-বিরতি ও পুনরুদ্ধারের লক্ষ্য:
+কাটওভারের পর ডেটা ফেরত নেওয়ার পদ্ধতি:
+গ্রহণযোগ্যতা পরীক্ষা ও পর্যবেক্ষণের সময়:
+যে অবস্থায় আবার স্থাপত্য পর্যালোচনা দরকার:
 ```
 
 **সচেতনভাবে LXC নেস্টিং বেছে নিন** যখন সুবিধা একীভবনের কাজকে ন্যায্যতা দেয় এবং পুনরুদ্ধার পরীক্ষা করা হয়েছে। প্রচলিত Docker গেস্ট পরিবেশ ও আলাদা গেস্ট কার্নেল পরিষেবা পরিচালনা সহজ করলে VM বেছে নিন। কোনোটিই ব্যাকআপ, পর্যবেক্ষণ ও হোস্ট রক্ষণাবেক্ষণের বিকল্প নয়।
@@ -326,8 +325,8 @@ Condition requiring another architecture review:
 | **[উৎস ভিডিও](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | মূল ব্যাখ্যা ও জানানো স্থিতিশীলতার সময় |
 | **[Proxmox ঘটনা আলোচনা](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | প্রত্যক্ষ পর্যবেক্ষণ ও স্থানান্তরের ফলো-আপ |
 | **[Proxmox কনটেইনার টুলকিট](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | কনটেইনার স্থাপত্য ও বর্তমান OCI পার্থক্য |
-| **[runc ইস্যু 4968](https://github.com/opencontainers/runc/issues/4968)** | নথিভুক্ত চালুর ব্যর্থতা ও ঐতিহাসিক প্যাকেজ সমাধান |
-| **[LXC pull request 4609](https://github.com/lxc/lxc/pull/4609)** | মার্জ হওয়া আপস্ট্রিম AppArmor পরিবর্তন |
+| **[runc সমস্যা 4968](https://github.com/opencontainers/runc/issues/4968)** | নথিভুক্ত চালুর ব্যর্থতা ও ঐতিহাসিক প্যাকেজ সমাধান |
+| **[LXC-এর পরিবর্তন মার্জের অনুরোধ 4609](https://github.com/lxc/lxc/pull/4609)** | মার্জ হওয়া আপস্ট্রিম AppArmor পরিবর্তন |
 | **[Docker ডকুমেন্টেশন](https://docs.docker.com/engine/install/debian/)** | গেস্ট ইনস্টলেশনের ভিত্তি, উপরের রানটাইম ও স্টোরেজের নির্দিষ্ট সূত্রসহ |
 | **[Linux PSI ডকুমেন্টেশন](https://docs.kernel.org/accounting/psi.html)** | রিসোর্স চাপের ব্যাখ্যা |
 | **[Linux watchdog ডকুমেন্টেশন](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | নির্ধারিত কার্নেল স্থবিরতার শর্ত |

@@ -1,6 +1,7 @@
 ---
 title: "英伟达™（NVIDIA®）RTX 3090 与 RTX 4090：密码破解性能对比"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "了解英伟达™（NVIDIA®）RTX 3090 和 RTX 4090 在密码破解方面的性能差距，强调安全影响和保护措施。"
@@ -49,7 +50,7 @@ coverCaption: ""
 
 我们的基准测试结果表明，**RTX 4090** 是一款强大的密码破解工具。这意味着攻击者现在可以比以往更快地破解密码。
 
-这是一个严重的安全问题，因为这意味着攻击者现在可以更容易地访问账户和系统。为了保护自己免受密码破解攻击，您应该使用 [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)帮助您生成和存储强大的密码。
+这是一个严重的安全问题，因为攻击者因此更容易访问账户和系统。为防范密码破解攻击，请使用难以猜测的[**强密码**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)。还应使用[**密码管理器**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)来生成和保存[强密码](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)。
 
 ## 结论
 

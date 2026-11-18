@@ -1,7 +1,7 @@
 ---
 title: "विंडोज़ निर्देशिका संरचना"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: विंडोज़ निर्देशिका संरचना के लिए पूर्ण 2026 मार्गदर्शिका जिसमें दृश्य आरेख, विंडोज़ 11 अपडेट, सुरक्षा विचार, और कुशल फ़ाइल प्रबंधन के लिए विशेषज्ञ नेविगेशन तकनीक शामिल हैं।
@@ -75,53 +75,53 @@ ______
 यहाँ विंडोज़ फ़ाइल सिस्टम पदानुक्रम का एक व्यापक दृश्य प्रतिनिधित्व है:
 
 ```
-C:\ (Root Directory)
+C:\ (रूट डायरेक्टरी)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [सिस्टम फ़ाइलें और ऑपरेटिंग सिस्टम के घटक]
+│   ├── System32\              [64-बिट सिस्टम फ़ाइलें और निष्पादन योग्य फ़ाइलें]
+│   ├── SysWOW64\              [64-बिट सिस्टम पर 32-बिट संगतता परत]
+│   ├── Boot\                  [बूट कॉन्फ़िगरेशन और स्टार्टअप फ़ाइलें]
+│   ├── Fonts\                 [सिस्टम फ़ॉन्ट]
+│   ├── Temp\                  [सिस्टम की अस्थायी फ़ाइलें]
+│   ├── assembly\              [.NET Framework असेंबली]
+│   ├── inf\                   [ड्राइवर स्थापना की जानकारी]
+│   ├── WinSxS\                [Windows Side-by-Side घटक संग्रह]
+│   ├── Logs\                  [सिस्टम लॉग फ़ाइलें]
+│   └── Security\              [सुरक्षा नीतियाँ और टेम्पलेट]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [64-बिट एप्लिकेशन (64-बिट सिस्टम पर)]
+│   ├── Common Files\          [साझा प्रोग्राम घटक]
+│   └── [एप्लिकेशन फ़ोल्डर]  [अलग-अलग इंस्टॉल किए गए प्रोग्राम]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [64-बिट सिस्टम पर 32-बिट एप्लिकेशन]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [एप्लिकेशन फ़ोल्डर]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [उपयोगकर्ता प्रोफ़ाइल डायरेक्टरी]
+│   ├── Public\                [साझा उपयोगकर्ता फ़ाइलें]
+│   ├── [उपयोगकर्ता नाम]\            [अलग-अलग उपयोगकर्ता प्रोफ़ाइल]
+│   │   ├── Desktop\           [डेस्कटॉप फ़ाइलें]
+│   │   ├── Documents\         [उपयोगकर्ता दस्तावेज़]
+│   │   ├── Downloads\         [डाउनलोड की गई फ़ाइलें]
+│   │   ├── Pictures\          [उपयोगकर्ता की छवियाँ]
+│   │   ├── Videos\            [उपयोगकर्ता के वीडियो]
+│   │   ├── Music\             [उपयोगकर्ता की ऑडियो फ़ाइलें]
+│   │   ├── AppData\           [एप्लिकेशन डेटा]
+│   │   │   ├── Local\         [मशीन-विशिष्ट ऐप डेटा]
+│   │   │   ├── LocalLow\      [कम-अखंडता वाला ऐप डेटा]
+│   │   │   └── Roaming\       [रोमिंग प्रोफ़ाइल डेटा]
+│   │   ├── OneDrive\          [क्लाउड के साथ सिंक की गई फ़ाइलें (Windows 11)]
+│   │   └── Contacts\          [उपयोगकर्ता संपर्क]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [साझा एप्लिकेशन डेटा (छिपा हुआ)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [एप्लिकेशन डेटा]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [प्रदर्शन लॉग और रिपोर्ट]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [रीसायकल बिन (छिपा हुआ)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [सिस्टम पुनर्स्थापना बिंदु (छिपे हुए)]
 ```
 
 ______
@@ -303,9 +303,9 @@ ______
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # सबडायरेक्टरी में पुनरावर्ती रूप से सूची बनाएँ
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # नई डायरेक्टरी बनाएँ
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **आवश्यक पावरशेल कमांड्स:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # डायरेक्टरी बदलें (उपनाम: cd)
+Get-ChildItem                    # आइटम सूचीबद्ध करें (उपनाम: dir, ls)
+Get-ChildItem -Recurse           # पुनरावर्ती रूप से सूची बनाएँ
+Get-ChildItem -Force             # छिपे हुए आइटम दिखाएँ
+Test-Path [path]                 # जाँचें कि पथ मौजूद है या नहीं
+New-Item -ItemType Directory     # नई डायरेक्टरी बनाएँ
+Remove-Item [path]               # आइटम हटाएँ
+Get-Item [path]                  # आइटम के गुण प्राप्त करें
+Resolve-Path [path]              # सापेक्ष पथ को पूर्ण पथ में बदलें
 ```
 
 **उन्नत पावरशेल उदाहरण:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# 10MB से बड़ी सभी .log फ़ाइलें खोजें
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# डायरेक्टरी का आकार निकालें
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "डायरेक्टरी का आकार: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. विंडोज टर्मिनल (2026 मानक)
@@ -440,12 +440,12 @@ Windows **NTFS अनुमतियों** का उपयोग निर्
 
 **PowerShell अनुमति ऑडिट उदाहरण:**
 ```powershell
-# Get ACL for a directory
+# डायरेक्टरी का ACL प्राप्त करें
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# अनुमतियाँ CSV में निर्यात करें
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **समाधान:**
 ```powershell
-# Take ownership of a file/folder
+# फ़ाइल/फ़ोल्डर का स्वामित्व लें
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# अनुमतियाँ दें
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### समस्या 3: WinSxS निर्देशिका बहुत अधिक स्थान ले रही है
 
 **समाधान:**
-```cmd
-# Analyze component store
+```powershell
+# कंपोनेंट स्टोर का विश्लेषण करें
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# कंपोनेंट स्टोर साफ़ करें
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# बदले जा चुके संस्करण हटाएँ (यह वापस नहीं किया जा सकता)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - अनावश्यक एप्लिकेशन डेटा हटाएं
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# AppData के सबसे बड़े फ़ोल्डर दिखाएँ
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. PowerShell मॉड्यूल
 
 ```powershell
-# Install useful modules
+# उपयोगी मॉड्यूल इंस्टॉल करें
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# आइकन के साथ बेहतर डायरेक्टरी सूची
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **ऑडिटिंग सक्षम करें:**
 ```powershell
-# Enable file auditing via PowerShell
+# PowerShell से फ़ाइल ऑडिटिंग चालू करें
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Set-Acl "C:\Important\Directory" $acl
 - अनधिकृत फ़ाइल प्रकारों को रोकने के लिए फ़ाइल स्क्रीन तैनात करें
 
 ______
+
+## Windows के मौजूदा पथों पर टिप्पणियाँ
+
+समर्थित डेस्कटॉप रिलीज़ में Windows मुख्य फ़ोल्डर समान रखता है, लेकिन कुछ पथों को सावधानी से संभालना चाहिए:
+
+| पथ | मौजूदा भूमिका | सुरक्षित उपयोग |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | इंस्टॉल किए गए आर्किटेक्चर के मूल सिस्टम बाइनरी और लाइब्रेरी। 64-बिट Windows में 32-बिट प्रक्रियाएँ **`SysWOW64`** के ज़रिए Windows-on-Windows परत का उपयोग करती हैं। | फ़ाइलें हाथ से न बदलें। Windows Update, DISM या विक्रेता का इंस्टॉलर इस्तेमाल करें। |
+| **`C:\Windows\WinSxS`** | सर्विसिंग और रिकवरी के लिए कंपोनेंट स्टोर। हार्ड लिंक के कारण Explorer के आकार के अनुमान भ्रामक हो सकते हैं। | DISM से कंपोनेंट स्टोर का विश्लेषण और सफ़ाई करें। फ़ोल्डर से फ़ाइलें न हटाएँ। |
+| **`C:\Users\<name>\AppData`** | प्रति-उपयोगकर्ता ऐप स्थिति। `Local`, `LocalLow` और `Roaming` ऐप और प्रोफ़ाइल की अलग-अलग ज़रूरतें पूरी करते हैं। | कैश साफ़ करने से पहले ऐप डेटा का बैकअप लें। हर फ़ोल्डर को हटाने योग्य न मानें। |
+| **WSL 2 वितरण संग्रहण** | वितरण पैकेज की `LocalState` डायरेक्टरी में `ext4.vhdx` वर्चुअल डिस्क का उपयोग करता है। | डिस्क रखरखाव से पहले वितरण एक्सपोर्ट करें या बंद करें। वर्चुअल डिस्क को सामान्य फ़ोल्डर की तरह संपादित न करें। |
+
+पुराना आरेख और उदाहरण अब भी नक्शे की तरह उपयोगी हैं। Microsoft WSL 2 वर्चुअल डिस्क का पथ बताता है और समझाता है कि वितरण सामान्य Windows फ़ाइलों के बजाय वर्चुअल हार्ड डिस्क में क्यों रखा जाता है। सटीक पैकेज नाम वितरण और इंस्टॉलेशन विधि पर निर्भर करता है। [WSL डिस्क स्थान पर Microsoft का मार्गदर्शन](https://learn.microsoft.com/en-us/windows/wsl/disk-space) देखें।
+
+Microsoft ने Windows 10 संस्करण 22H2 का समर्थन 14 अक्टूबर 2025 को समाप्त किया, सिवाय उन संस्करणों के जिनकी अलग जीवनचक्र शर्तें हैं या जो योग्य Extended Security Update व्यवस्था में शामिल हैं। 2026 में Windows 10 को माइग्रेशन या अपवाद-प्रबंधन का मामला मानें। [Windows 10 जीवनचक्र पर Microsoft की सूचना](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support) देखें।
+
+मूल अनुभागों में आकार की सीमाएँ और अपनाने के प्रतिशत उदाहरण हैं, इस साइट के माप नहीं। डायरेक्टरी का आकार इंस्टॉल किए गए सॉफ़्टवेयर, अपडेट इतिहास, प्रोफ़ाइल सामग्री और प्रतिधारण नियमों पर निर्भर करता है। कुछ हटाने से पहले स्थानीय सिस्टम जाँचें।
+
+## सुरक्षित डायरेक्टरी रखरखाव जाँचसूची
+
+1. सुरक्षित डायरेक्टरी बदलने से पहले पथ, मालिक, ACL और व्यावसायिक उद्देश्य दर्ज करें।
+2. ऐप डेटा हटाने या अनुमतियाँ बदलने से पहले पुनर्प्राप्त किया जा सकने वाला बैकअप बनाएँ या उसकी पुष्टि करें।
+3. **Storage Sense**, **DISM**, **`robocopy`** और ऐप अनइंस्टॉलर जैसे समर्थित टूल प्राथमिकता से इस्तेमाल करें।
+4. जब काम में उन्नत अधिकार की ज़रूरत न हो, तो मानक उपयोगकर्ता खाते में बदलाव जाँचें।
+5. रखरखाव के बाद Event Viewer और ऐप लॉग देखें।
+6. मूल पथ, कमांड, समय और परिणाम के साथ रोलबैक रिकॉर्ड रखें।
+
+**बिना जाँचे गंतव्य पर `/MIR` का उपयोग न करें।** `robocopy /MIR` स्रोत में अनुपस्थित गंतव्य फ़ाइलों को हटाता है।
+
 
 ## निष्कर्ष
 

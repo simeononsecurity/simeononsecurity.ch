@@ -1,6 +1,7 @@
 ---
 title: "Partir du principe que chaque appareil est déjà compromis : Renforcer la sécurité numérique dans un monde interconnecté"
 date: 2023-06-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez pourquoi il est essentiel de supposer que chaque appareil est déjà compromis et apprenez des mesures pratiques pour renforcer votre sécurité numérique dans le monde interconnecté d'aujourd'hui."
@@ -12,7 +13,7 @@ coverCaption: ""
 
 **Pourquoi vous devez supposer que chaque appareil est compromis** ?
 
-Dans le monde interconnecté d'aujourd'hui, où la technologie imprègne tous les aspects de notre vie, la cybersécurité est d'une importance capitale. La prévalence des cybermenaces et la sophistication croissante des pirates font qu'il est essentiel d'adopter un état d'esprit proactif en matière de sécurité des appareils. Cet article explique pourquoi il faut partir du principe que chaque appareil est compromis et propose des mesures pratiques pour renforcer votre sécurité numérique.
+Dans le monde interconnecté d'aujourd'hui, où la technologie imprègne tous les aspects de notre vie, la cybersécurité est d'une importance capitale. La prévalence des cybermenaces et la sophistication croissante des pirates font qu'il est essentiel d'adopter un état d'esprit proactif en matière de sécurité des appareils. Cet article explique pourquoi il faut partir du principe que chaque appareil est compromis et propose des mesures pratiques pour renforcer votre sécurité numérique. Des applications sécurisées comme [Signal](https://www.signal.org/) ou [Wire](https://wire.com/en/) renforcent cette protection.
 
 ## L'illusion de la sécurité absolue
 
@@ -24,29 +25,33 @@ Le fait de supposer que chaque appareil est compromis vous oblige à adopter une
 
 ### Habitudes de navigation sécurisée
 
-1. [**Avoid visiting sketchy websites**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Les sites web malveillants peuvent infecter votre appareil avec des logiciels malveillants ou voler vos informations personnelles. Pour minimiser le risque de compromission, tenez-vous en à des sites de confiance et de bonne réputation.
+1. [**Évitez les sites Web suspects**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Les sites web malveillants peuvent infecter votre appareil avec des logiciels malveillants ou voler vos informations personnelles. Pour minimiser le risque de compromission, tenez-vous en à des sites de confiance et de bonne réputation. Pour vos achats, privilégiez des plateformes connues comme [Amazon](https://www.amazon.com/) ou [eBay](https://www.ebay.com/).
 
-2. [**Always verify website authenticity**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Avant de saisir vos identifiants de connexion ou de partager des informations sensibles, vérifiez la légitimité du site web. Vérifiez la présence du protocole HTTPS, recherchez des indicateurs de confiance et méfiez-vous des tentatives d'hameçonnage.
+2. [**Vérifiez toujours l’authenticité des sites Web**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) : Avant de saisir vos identifiants ou de communiquer des informations sensibles, vérifiez la légitimité du site. Vous éviterez ainsi les tentatives d’hameçonnage et les sites frauduleux. Voici quelques étapes à suivre :
+
+   - **Vérifiez le protocole HTTPS** : Repérez le cadenas et « https:// » dans l’URL. Le « s » indique que la connexion est chiffrée. Pour accéder à votre banque en ligne, assurez-vous que l’URL commence par « https:// ».
+   - **Recherchez des indicateurs de confiance** : Certains navigateurs affichent un cadenas vert ou un badge de sécurité pour signaler qu’un site a été vérifié et qu’il est sûr. Vérifiez ces indicateurs avant de saisir des informations sensibles. Des navigateurs comme [navigateur Google Chrome](https://www.google.com/chrome/) et [navigateur Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) proposent des repères visuels pour reconnaître les sites sécurisés.
+   - [**Méfiez-vous des tentatives d’hameçonnage**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/) : Soyez prudent face aux courriels et messages qui imitent des sites légitimes pour vous inciter à communiquer des informations personnelles. N’ouvrez pas les liens de messages non sollicités ; saisissez plutôt l’URL dans votre navigateur. L’[groupe de travail anti-hameçonnage](https://apwg.org/) fournit des ressources pour reconnaître et signaler ces tentatives.
 
 ### Protection des données personnelles
 
-1. [**Refrain from sharing personal details**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Soyez prudent lorsque vous communiquez des informations personnelles sensibles en ligne. L'usurpation d'identité est un problème important et le fait de minimiser l'exposition des données personnelles réduit les risques d'accès non autorisé.
+1. [**Évitez de partager des renseignements personnels**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Soyez prudent lorsque vous communiquez des informations personnelles sensibles en ligne. L'usurpation d'identité est un problème important et le fait de minimiser l'exposition des données personnelles réduit les risques d'accès non autorisé. Évitez de publier votre adresse personnelle sur [Facebook](https://www.facebook.com/) ou [Twitter](https://twitter.com/).
 
 2. **Faites preuve de prudence avec les contenus intimes** : N'échangez jamais de photos ou de vidéos explicites en ligne. Celles-ci peuvent être utilisées à des fins de chantage ou de vengeance, entraînant une grave détresse émotionnelle et une compromission potentielle.
 
 ### Pratiques d'authentification et de mots de passe solides
 
-1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize 2FA whenever possible to add an extra layer of security. It combines something you know (password) with something you have (a mobile device or security key) réduisant considérablement le risque d'accès non autorisé.
+1. [**Activez l’authentification à deux facteurs (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Activez la 2FA dans la mesure du possible pour ajouter une protection supplémentaire. Elle associe quelque chose que vous connaissez (un mot de passe) à quelque chose que vous possédez (un appareil mobile ou une clé de sécurité). [Google](https://www.google.com/landing/2step/) et [Microsoft](https://www.microsoft.com/en-us/account/security/) proposent des options pour activer la 2FA.
 
-2. [**Use randomly generated passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Mettez en place des mots de passe forts et uniques pour tous vos comptes. Envisagez d'utiliser un gestionnaire de mots de passe pour générer et stocker en toute sécurité des mots de passe complexes.
+2. [**Utilisez des mots de passe générés aléatoirement**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Mettez en place des mots de passe forts et uniques pour tous vos comptes. Envisagez d'utiliser un gestionnaire de mots de passe pour générer et stocker en toute sécurité des mots de passe complexes. Un [gestionnaire de mots de passe](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) aide à créer et à stocker des mots de passe complexes.
 
-### [Social Media Privacy](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+### [Confidentialité sur les réseaux sociaux](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
-1. [**Minimize social media usage**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Limitez votre présence sur les plateformes de médias sociaux afin de réduire l'exposition d'informations personnelles. Configurez les paramètres de confidentialité pour restreindre l'accès à vos messages et à votre profil.
+1. [**Limitez l’utilisation des réseaux sociaux**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Limitez votre présence sur les plateformes de médias sociaux afin de réduire l'exposition d'informations personnelles. Configurez les paramètres de confidentialité pour restreindre l'accès à vos messages et à votre profil. Sur [Facebook](https://www.facebook.com/) et [Twitter](https://twitter.com/), vous pouvez choisir qui voit vos publications et vos photos.
 
 ### Communication sécurisée
 
-1. [**Utilize secure communication apps**](https://simeononsecurity.com/recommendations/messengers): Opt for secure communication apps such as [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) qui utilisent le cryptage de bout en bout, garantissant ainsi la confidentialité de vos messages.
+1. [**Utilisez des applications de communication sécurisées**](https://simeononsecurity.com/recommendations/messengers): Choisissez des applications de communication sécurisées comme [Signal](https://www.signal.org/) ou [Wire](https://wire.com/en/). Elles utilisent le chiffrement de bout en bout pour préserver la confidentialité de vos messages.
 
 ### Hygiène des appareils
 
@@ -56,20 +61,30 @@ Le fait de supposer que chaque appareil est compromis vous oblige à adopter une
 
 ### Sauvegarde des données
 
-1. [**Maintain backups**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Create and maintain regular backups of your important data. Follow the [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) qui consiste à disposer de trois copies de vos données, deux sur des supports différents et une stockée hors site.
+1. [**Conservez des sauvegardes**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Créez et conservez régulièrement des sauvegardes de vos données importantes. Suivez la [stratégie de sauvegarde 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) : conservez trois copies de vos données, deux sur des supports différents et une hors site.
 
 ______
 
 ## Conclusion
 
-En conclusion, adopter l'état d'esprit selon lequel tout appareil est compromis vous permet de prendre les précautions nécessaires pour protéger votre vie numérique. En suivant les mesures de sécurité recommandées dans différentes catégories, vous atténuez considérablement les risques associés aux cybermenaces. N'oubliez pas de rester vigilant, de vous tenir informé des dernières pratiques de sécurité et d'adapter vos mesures de sécurité en conséquence.
+Adoptez une approche proactive de la cybersécurité et partez du principe que chaque appareil peut être compromis. En appliquant les mesures recommandées dans les différentes catégories, vous renforcerez considérablement votre sécurité numérique. Voici les points essentiels :
+
+1. **Restez vigilant** : Faites attention aux informations que vous partagez en ligne, en particulier aux données personnelles sensibles. Limiter leur exposition réduit les risques d’accès non autorisé et d’usurpation d’identité.
+2. **Renforcez l’authentification** : Activez l’**authentification à deux facteurs (2FA)** dès que possible. Elle associe quelque chose que vous connaissez (un mot de passe) à quelque chose que vous possédez (un appareil mobile ou une clé de sécurité), ce qui réduit le risque d’accès non autorisé.
+3. **Utilisez des mots de passe robustes** : Créez et utilisez des **mots de passe générés aléatoirement** pour vos comptes. Un **gestionnaire de mots de passe** vous aide à créer et à stocker ces mots de passe complexes en toute sécurité.
+4. **Protégez votre vie privée sur les réseaux sociaux** : Limitez votre présence sur les réseaux sociaux et réglez les paramètres de confidentialité pour contrôler l’accès à vos publications et à votre profil. Réduire votre empreinte numérique aide à préserver votre vie privée.
+5. **Utilisez des applications de communication sécurisées** : Choisissez des applications comme [Signal](https://www.signal.org/) ou [Wire](https://wire.com/en/) qui utilisent le **chiffrement de bout en bout** pour préserver la confidentialité de vos messages.
+6. **Prenez soin de vos appareils** : Limitez le nombre d’applications et de logiciels installés afin de réduire la surface d’attaque. Réinitialisez régulièrement vos appareils aux paramètres d’usine pour éliminer les logiciels malveillants ou compromissions éventuels.
+7. **Sauvegardez vos données** : Suivez la [stratégie de sauvegarde 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) et effectuez régulièrement des copies de vos données importantes. Cette stratégie apporte de la redondance et aide à prévenir la perte de données.
+
+En appliquant ces mesures et en vous tenant informé des pratiques de sécurité les plus récentes, vous pouvez améliorer votre sécurité numérique et vous protéger des cybermenaces. Restez vigilant et adaptez vos mesures à l’évolution des menaces.
 
 ______
 
 ## Références
 
-1. [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-2. [Federal Trade Commission (FTC) - Protecting Personal Information: A Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/protecting-personal-information-guide-business)
-3. [Signal - Secure Messaging, Calls, and Video](https://www.signal.org/)
-4. [Wire](https://wire.com/en/) 
+1. [cadre de cybersécurité du National Institute of Standards and Technology (NIST)](https://www.nist.gov/cyberframework)
+2. [Federal Trade Commission (FTC) - guide de protection des renseignements personnels pour les entreprises](https://www.ftc.gov/tips-advice/business-center/guidance/protecting-personal-information-guide-business)
+3. [Signal - messages, appels et vidéo sécurisés](https://www.signal.org/)
+4. [Wire](https://wire.com/en/)
 

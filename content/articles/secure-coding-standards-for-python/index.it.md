@@ -1,7 +1,7 @@
 ---
 title: "Standard di codifica sicura per Python: Migliori pratiche"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Imparate le migliori pratiche di codifica sicura in Python per ridurre al minimo il rischio di violazioni della sicurezza e proteggere i dati sensibili."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Funzione per convalidare l'input tramite espressioni regolari.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python ha diverse funzioni che possono essere vulnerabili a problemi di sicurezz
 
 Per esempio, invece di usare`eval()` per convertire una stringa in un numero intero, gli sviluppatori dovrebbero utilizzare la funzione`int()` funzione.
 ```py
-# Instead of using eval function
+# Invece di usare la funzione eval
 x = eval('10')
 
-# Use int function
+# Usa la funzione int
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Funzione per crittografare una password usando la libreria crittografica.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ Le applicazioni Web sono vulnerabili a diversi rischi per la sicurezza, quali cr
 Ad esempio, quando si scrivono query SQL, utilizzare **query parametrizzate** invece di concatenare l'input dell'utente con la query. Le query parametrizzate prevengono gli attacchi di SQL injection trattando l'input dell'utente come dati e non come codice eseguibile.
 
 ```py
-# Instead of this
+# Invece
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Usa una query parametrizzata
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

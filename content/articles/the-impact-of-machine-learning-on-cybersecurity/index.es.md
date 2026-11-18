@@ -1,7 +1,7 @@
 ---
 title: "El impacto del aprendizaje automático en la ciberseguridad"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Aprenda cómo el aprendizaje automático ayuda a detectar y priorizar amenazas y responder a ellas, además de conocer sus límites de implementación y riesgos de seguridad."
@@ -67,6 +67,6 @@ El aprendizaje automático ha revolucionado el campo de la ciberseguridad, propo
 
 ## Referencias
 
-1. "¿Qué es la ciberseguridad?" Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2. "Aprendizaje automático en ciberseguridad". Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "Securing Data & Devices". Instituto Nacional de Normas y Tecnología. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "¿Qué es la ciberseguridad?" Cisco. [guía de Cisco sobre ciberseguridad](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
+2. "Aprendizaje automático en ciberseguridad". Cylance. [artículo de Cylance sobre aprendizaje automático en ciberseguridad](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
+3.  "Securing Data & Devices". Instituto Nacional de Normas y Tecnología. [guía de NIST para proteger datos y dispositivos](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)

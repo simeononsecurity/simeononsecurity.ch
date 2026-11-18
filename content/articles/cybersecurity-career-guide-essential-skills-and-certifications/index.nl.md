@@ -1,7 +1,7 @@
 ---
 title: "Carrièregids cybersecurity 2026"
 date: 2023-06-24
-lastmod: 2026-11-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Een carrièregids voor cybersecurity in 2026 met vaardigheden, certificeringen, salarisgegevens, loopbaanpaden en onderzoek naar de arbeidsmarkt."
@@ -152,13 +152,13 @@ Elke cybersecurityprofessional heeft deze fundamentele technische vaardigheden n
 
 **Python voor cybersecurity** (de belangrijkste taal):
 ```python
-# Example: Automated security scanning script
+# Voorbeeld: geautomatiseerd script voor beveiligingsscans
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Voert een geautomatiseerde scan op kwetsbaarheden uit
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
@@ -295,10 +295,10 @@ Technische vaardigheden alleen zijn niet voldoende. **Kritisch denken** ondersch
 
 **Communicatievaardigheden ontwikkelen**:
 ```
-Entry Level: Write clear incident reports
-Mid-Level: Present security updates to management
-Senior:Lead security strategy discussions with executives
-Executive: Communicate security posture to board of directors
+Startniveau: schrijf duidelijke incidentrapporten
+Middenniveau: geef het management updates over beveiliging
+Seniorniveau: leid gesprekken over de beveiligingsstrategie met leidinggevenden
+Directieniveau: licht de beveiligingsstatus toe aan de raad van bestuur
 ```
 
 ### Opkomende vaardigheden in 2026 en daarna
@@ -440,15 +440,15 @@ Als je de verschillende specialisaties kent, kun je het juiste pad kiezen.
 
 **Loopbaanontwikkeling**:
 ```
-Junior SOC Analyst (0-2 years) → $55,000-75,000
+Junior SOC-analist (0-2 jaar) → $55,000-75,000
     ↓
-SOC Analyst II (2-4 years) → $75,000-95,000
+SOC-analist II (2-4 jaar) → $75,000-95,000
     ↓
-Senior SOC Analyst (4-7 years) → $95,000-120,000
+Senior SOC-analist (4-7 jaar) → $95,000-120,000
     ↓
-SOC Team Lead (7-10 years) → $120,000-145,000
+SOC-teamleider (7-10 jaar) → $120,000-145,000
     ↓
-SOC Manager (10+ years) → $145,000-180,000
+SOC-manager (10+ jaar) → $145,000-180,000
 ```
 
 **Vereiste vaardigheden**:
@@ -478,15 +478,15 @@ SOC Manager (10+ years) → $145,000-180,000
 
 **Loopbaanontwikkeling**:
 ```
-Junior Penetration Tester (0-2 years) → $70,000-90,000
+Junior penetratietester (0-2 jaar) → $70,000-90,000
     ↓
-Penetration Tester (2-5 years) → $95,000-130,000
+Penetratietester (2-5 jaar) → $95,000-130,000
     ↓
-Senior Penetration Tester (5-8 years) → $130,000-165,000
+Senior penetratietester (5-8 jaar) → $130,000-165,000
     ↓
-Lead Pentester / Red Team Lead (8-12 years) → $165,000-200,000
+Lead pentester / red-teamleider (8-12 jaar) → $165,000-200,000
     ↓
-Principal Security Consultant (12+ years) → $200,000-275,000+
+Principal securityconsultant (12+ jaar) → $200,000-275,000+
 ```
 
 **Vereiste vaardigheden**:
@@ -517,15 +517,15 @@ Principal Security Consultant (12+ years) → $200,000-275,000+
 
 **Loopbaanontwikkeling**:
 ```
-Junior Security Engineer (0-2 years) → $75,000-95,000
+Junior security engineer (0-2 jaar) → $75,000-95,000
     ↓
-Security Engineer (2-5 years) → $105,000-135,000
+Security engineer (2-5 jaar) → $105,000-135,000
     ↓
-Senior Security Engineer (5-8 years) → $135,000-170,000
+Senior security engineer (5-8 jaar) → $135,000-170,000
     ↓
-Security Architect (8-12 years) → $170,000-220,000
+Securityarchitect (8-12 jaar) → $170,000-220,000
     ↓
-Principal/Lead Security Architect (12+ years) → $220,000-300,000+
+Principal/lead securityarchitect (12+ jaar) → $220,000-300,000+
 ```
 
 **Vereiste vaardigheden**:
@@ -556,15 +556,15 @@ Principal/Lead Security Architect (12+ years) → $220,000-300,000+
 
 **Loopbaanontwikkeling**:
 ```
-Junior Cloud Security Engineer (0-2 years) → $80,000-100,000
+Junior cloudsecurity-engineer (0-2 jaar) → $80,000-100,000
     ↓
-Cloud Security Engineer (2-5 years) → $115,000-145,000
+Cloudsecurity-engineer (2-5 jaar) → $115,000-145,000
     ↓
-Senior Cloud Security Engineer (5-8 years) → $145,000-185,000
+Senior cloudsecurity-engineer (5-8 jaar) → $145,000-185,000
     ↓
-Cloud Security Architect (8-12 years) → $185,000-235,000
+Cloudsecurityarchitect (8-12 jaar) → $185,000-235,000
     ↓
-Principal Cloud Security Architect (12+ years) → $235,000-320,000+
+Principal cloudsecurityarchitect (12+ jaar) → $235,000-320,000+
 ```
 
 **Vereiste vaardigheden**:
@@ -595,15 +595,15 @@ Principal Cloud Security Architect (12+ years) → $235,000-320,000+
 
 **Loopbaanontwikkeling**:
 ```
-Junior GRC Analyst (0-2 years) → $60,000-78,000
+Junior GRC-analist (0-2 jaar) → $60,000-78,000
     ↓
-GRC Analyst (2-4 years) → $78,000-98,000
+GRC-analist (2-4 jaar) → $78,000-98,000
     ↓
-Senior GRC Analyst (4-7 years) → $98,000-125,000
+Senior GRC-analist (4-7 jaar) → $98,000-125,000
     ↓
-GRC Manager (7-10 years) → $125,000-155,000
+GRC-manager (7-10 jaar) → $125,000-155,000
     ↓
-Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,000+
+Compliance-directeur / hoofd compliance (10+ jaar) → $155,000-225,000+
 ```
 
 **Vereiste vaardigheden**:
@@ -634,15 +634,15 @@ Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,0
 
 **Loopbaanontwikkeling**:
 ```
-Junior Incident Response Analyst (0-2 years) → $65,000-85,000
+Junior incidentrespons-analist (0-2 jaar) → $65,000-85,000
     ↓
-Incident Response Analyst (2-5 years) → $90,000-115,000
+Incidentrespons-analist (2-5 jaar) → $90,000-115,000
     ↓
-Senior Incident Responder (5-8 years) → $115,000-150,000
+Senior incidentresponder (5-8 jaar) → $115,000-150,000
     ↓
-Incident Response Team Lead (8-12 years) → $150,000-190,000
+Teamleider incidentrespons (8-12 jaar) → $150,000-190,000
     ↓
-Director of Incident Response (12+ years) → $190,000-250,000+
+Directeur incidentrespons (12+ jaar) → $190,000-250,000+
 ```
 
 **Vereiste vaardigheden**:
@@ -847,39 +847,39 @@ ______
 **Cv-structuur**:
 
 ```
-[Your Name]
-[LinkedIn URL] | [GitHub URL] | [Email] | [Phone] | [Location]
+[Je naam]
+[LinkedIn-URL] | [GitHub-URL] | [E-mailadres] | [Telefoonnummer] | [Locatie]
 
-SUMMARY
-Results-driven cybersecurity professional with hands-on experience in [specific skills].
-Certified in [certifications]. Passionate about [specific security area].
+PROFIEL
+Resultaatgerichte cybersecurityprofessional met praktijkervaring in [specifieke vaardigheden].
+Gecertificeerd in [certificeringen]. Heeft een sterke interesse in [specifiek beveiligingsgebied].
 
-TECHNICAL SKILLS
-- Security: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
-- Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
-- Programming: Python, PowerShell, Bash, SQL
-- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
+TECHNISCHE VAARDIGHEDEN
+- Beveiliging: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
+- Cloudplatforms: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Hulpmiddelen: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
+- Programmeren: Python, PowerShell, Bash, SQL
+- Referentiekaders: NIST CSF, MITRE ATT&CK, OWASP Top 10
 
-CERTIFICATIONS
-- CompTIA Security+ (Date)
-- AWS Certified Security Specialty (Date)
-- [Other relevant certs]
+CERTIFICERINGEN
+- CompTIA Security+ (datum)
+- AWS Certified Security Specialty (datum)
+- [andere relevante certificeringen]
 
-PROFESSIONAL EXPERIENCE
-[Company Name] - [Security Role] (Dates)
-- QUANTIFY achievements (Reduced false positives by 40%)
-- USE security keywords (SIEM, incident response, threat hunting)
-- SHOW impact (Identified and remediated 15 critical vulnerabilities)
+WERKERVARING
+[Bedrijfsnaam] - [Beveiligingsfunctie] (datums)
+- Kwantificeer resultaten (40% minder fout-positieve meldingen)
+- Gebruik beveiligingstermen (SIEM, incidentrespons, dreigingsonderzoek)
+- Benoem de impact (15 kritieke kwetsbaarheden opgespoord en verholpen)
 
-PROJECTS (If entry-level or career changer)
-[Project Name] - [Technology Stack]
-- Built [specific security tool/system]
-- Demonstrates [specific skills]
-- GitHub: [link]
+PROJECTEN (bij een startersfunctie of carrièreswitch)
+[Projectnaam] - [Technologiestack]
+- Bouw [specifieke beveiligingstool/-systeem]
+- Toon [specifieke vaardigheden] aan
+- GitHub: [koppeling]
 
-EDUCATION
-[Degree] in [Field], [University] (Date)
+OPLEIDING
+[Diploma] in [Vakgebied] aan [Universiteit] (datum)
 ```
 
 **Cv-tips**:
@@ -963,18 +963,17 @@ EDUCATION
 
 **Voorbeeld van een e-mail voor salarisonderhandeling**:
 ```
-Thank you for the offer. I'm excited about the opportunity to join [Company] as [Role].
+Bedankt voor het aanbod. Ik ben enthousiast over de mogelijkheid om bij [Bedrijf] aan de slag te gaan als [Functie].
 
-After reviewing the offer and researching market rates for this position in [Location],
-I'd like to discuss the compensation package. Based on my [certifications/experience/skills],
-I was hoping for a base salary in the range of $[X-Y].
+Na beoordeling van het aanbod en onderzoek naar de marktconforme beloning voor deze functie in [Locatie] wil ik graag het arbeidsvoorwaardenpakket bespreken. Op basis van mijn [certificeringen/ervaring/vaardigheden] hoopte ik op een basissalaris tussen $[X-Y].
 
-Additionally, I'd appreciate if we could discuss:
-- Annual training/certification budget
-- Remote work flexibility
-- [Other priorities]
+Daarnaast bespreek ik graag:
+- Jaarbudget voor training en certificeringen
+- Flexibiliteit voor thuiswerken
+- [andere prioriteiten]
 
-I'm confident I can deliver significant value to the team and look forward to discussing this further.
+Ik heb er vertrouwen in dat ik het team veel waarde kan bieden en bespreek dit graag verder.
+
 ```
 
 ______

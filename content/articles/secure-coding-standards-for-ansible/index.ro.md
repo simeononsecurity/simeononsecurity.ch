@@ -1,6 +1,7 @@
 ---
 title: "Orientări de codare securizată pentru Ansible: Cele mai bune practici"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aflați cele mai bune practici pentru scrierea de cod securizat cu Ansible, un instrument popular pentru gestionarea și implementarea configurației."
@@ -111,7 +112,7 @@ Dezvoltatorii ar trebui să igienizeze intrările utilizatorilor pentru a preven
 Dezvoltatorii pot utiliza `regex_replace` în Ansible pentru a curăța datele de intrare ale utilizatorului. Adresa `regex_replace` permite dezvoltatorilor să înlocuiască modelele din șiruri cu alte modele. De exemplu, pentru a înlocui toate caracterele non-alfanumerice dintr-un șir cu un șir gol, dezvoltatorii pot utiliza următorul cod:
 
 ```yaml
-- name: Sanitize user input
+- name: Igienizați datele de intrare ale utilizatorului
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

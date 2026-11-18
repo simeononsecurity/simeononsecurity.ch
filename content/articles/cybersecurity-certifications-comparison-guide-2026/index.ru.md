@@ -1,7 +1,7 @@
 ---
 title: "Сравнение сертификатов по кибербезопасности: 2026"
 date: 2026-05-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Сравнение поставщиков сертификатов по кибербезопасности в 2026 году: цены, окупаемость и соответствие карьерным целям."
@@ -140,12 +140,12 @@ ______
 
 **Пример из практики:**
 ```
-Job Listing Analysis (SOC Analyst I, Fortune 500 Company):
-"Required: Security+ or equivalent"
-"Preferred: Bachelor's degree OR 2 years experience"
+Разбор вакансии (аналитик SOC уровня I в компании Fortune 500):
+«Обязательно: Security+ или эквивалент»
+«Желательно: степень бакалавра ИЛИ 2 года опыта»
 
-Translation: Security+ = Entry ticket. Nobody cares after 2 years of experience.
-Salary Range: $60,000-$75,000
+Вывод: Security+ служит пропуском на стартовую должность. После 2 лет опыта сертификат теряет значение.
+Диапазон зарплаты: $60,000-$75,000
 ```
 **Интеграция ИИ в 2026 году:**
 Новый сертификат SECT AI+ охватывает:
@@ -195,12 +195,12 @@ CISSP добился необычного результата: **HR-отдел�
 
 **Анализ требований CISSP в объявлениях о вакансиях:**
 ```
-Entry-Level SOC Analyst: "CISSP preferred" (12% of listings)
-Mid-Level Security Engineer: "CISSP required" (45% of listings)
-Senior Security Architect: "CISSP required" (78% of listings)
-CISO: "CISSP required" (85% of listings)
+Начинающий SOC-аналитик: «CISSP желателен» (12% вакансий)
+Инженер по безопасности среднего уровня: «CISSP обязателен» (45% вакансий)
+Старший архитектор безопасности: «CISSP обязателен» (78% вакансий)
+CISO: «CISSP обязателен» (85% вакансий)
 
-Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
+Реальность: CISSP упоминается во многих вакансиях, но для настоящих новичков он нигде не «обязателен».
 ```
 **Восемь доменов CISSP (версия 2026 года):**
 1. Управление безопасностью и рисками.
@@ -230,14 +230,14 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 
 **Расчет стоимости за пять лет:**
 ```
-CISSP Total Cost of Ownership (5 years):
-- Exam: $749
-- Study materials: $200-500
-- Renewal fees: $135/year × 5 = $675
-- Total 5-year cost: $1,624-$1,924
-- Annual maintenance effort: 40 CPE credits/year
+Полная стоимость владения CISSP (5 лет):
+- Экзамен: $749
+- Учебные материалы: $200-500
+- Плата за продление: $135/год × 5 = $675
+- Общая стоимость за 5 лет: $1,624-$1,924
+- Ежегодные усилия для поддержания: 40 кредитов CPE/год
 
-ROI: High if targeting management roles, moderate for technical IC roles
+Окупаемость: высокая для руководящих должностей, средняя для технических индивидуальных ролей
 ```
 **Интеграция ИИ в 2026 году:**
 Новый сертификат ISC2 **AI Security Certificate** охватывает:
@@ -306,14 +306,14 @@ OSCP (Offensive Security Certified Professional) остается **самым �
 
 **Сколько стоит на практике:**
 ```
-OSCP Cost Breakdown (2026):
-- Self-Guided Package (3 months lab time): $1,699
-- Learn One Package (3 months + Learn One year): $2,699
-- Exam retake: $249 each
+Разбивка стоимости OSCP (2026):
+- Пакет Self-Guided (3 месяца лабораторных занятий): $1,699
+- Пакет Learn One (3 месяца + год Learn One): $2,699
+- Пересдача экзамена: $249 за каждую попытку
 
-Removed in 2025: Learn Unlimited (unlimited time) - this angered community
+Убрано в 2025 году: Learn Unlimited (неограниченное время). Это вызвало недовольство сообщества.
 
-Average total cost including retakes: $1,950-$2,500
+Средняя общая стоимость с учетом пересдач: $1,950-$2,500
 ```
 **Преимущества:**
 - **Золотой стандарт отрасли:** самый признанный сертификат наступательной безопасности.
@@ -481,19 +481,19 @@ ______
 **Почему облака лидируют в 2026 году:**
 
 ```
-Traditional Cybersecurity Jobs (2020-2024):
-- On-premises data centers
-- Physical firewalls and network security
-- Windows Server and Active Directory
-- VPN concentrators and DMZs
+Традиционные должности в кибербезопасности (2020-2024):
+- Центры обработки данных на собственной площадке
+- Физические межсетевые экраны и безопасность сети
+- Windows Server и Active Directory
+- VPN-концентраторы и зоны DMZ
 
-Modern Cybersecurity Jobs (2025-2026):
-- AWS, Azure, GCP cloud environments
-- Container security (Docker, Kubernetes)
-- Serverless security (Lambda, Azure Functions)
-- Identity and access management (IAM)
-- Infrastructure as Code (Terraform, CloudFormation)
-- AI/ML model security
+Современные должности в кибербезопасности (2025-2026):
+- Облачные среды AWS, Azure и GCP
+- Безопасность контейнеров (Docker, Kubernetes)
+- Безопасность бессерверных вычислений (Lambda, Azure Functions)
+- Управление идентификацией и доступом (IAM)
+- Инфраструктура как код (Terraform, CloudFormation)
+- Безопасность моделей AI/ML
 ```
 **Разрыв в навыках огромен.** Компании перешли в облака быстрее, чем специалисты по безопасности успели освоить их. Это создало беспрецедентный спрос.
 
@@ -541,23 +541,23 @@ Modern Cybersecurity Jobs (2025-2026):
 **Сравнение стоимости облачного и традиционного пути:**
 
 ```
-Traditional Security Path (3-year cost):
+Традиционный путь в сфере безопасности (стоимость за 3 года):
 - Security+: $404
 - CySA+: $404
 - PenTest+: $404
-- CISSP: $749 + $405 renewal
-Total: $2,366 over 3 years
+- CISSP: $749 + $405 за продление
+Итого: $2,366 за 3 года
 
-Cloud Security Path (3-year cost):
+Путь в облачной безопасности (стоимость за 3 года):
 - AWS Cloud Practitioner: $100
 - AWS Solutions Architect Associate: $150
 - AWS Security Specialty: $300
 - Azure Fundamentals: $99
-- Azure Security Engineer: $165 + $165 renewal
-Total: $979 over 3 years
+- Azure Security Engineer: $165 + $165 за продление
+Итого: $979 за 3 года
 
-Savings: $1,387 (58% less expensive)
-Job Market Demand: 38% vs 36% (cloud higher)
+Экономия: $1,387 (на 58% дешевле)
+Спрос на рынке труда: 38% против 36% (выше для облака)
 ```
 **Преимущества облачных сертификатов:**
 - **Самый высокий спрос:** 38 % вакансий требуют сертификаты облачных платформ AWS или Azure.
@@ -639,19 +639,19 @@ ______
 **Проблема в цене.**
 
 ```
-SANS GPEN (Penetration Testing) Total Cost:
-- SANS SEC560 Course: $7,995
-- GPEN Exam (2 attempts): $979
-- Books and materials: $200
-- Travel/lodging (if in-person): $2,000+
-Total: $11,174 - $13,174
+Полная стоимость SANS GPEN (тестирование на проникновение):
+- Курс SANS SEC560: $7,995
+- Экзамен GPEN (2 попытки): $979
+- Книги и материалы: $200
+- Проезд/проживание (при очном обучении): $2,000+
+Итого: $11,174 - $13,174
 
-Alternative:
+Альтернатива:
 - OSCP: $1,699-2,699
-- Or HackTheBox CPTS: $499
-- Or OffSec + HTB combined: $2,198
+- Или HackTheBox CPTS: $499
+- Или OffSec + HTB вместе: $2,198
 
-Savings with alternatives: $8,976-$10,976 (75-83% less expensive)
+Экономия с альтернативами: $8,976-$10,976 (на 75-83% дешевле)
 ```
 **Разбивка стоимости SANS:**
 
@@ -1014,11 +1014,11 @@ ______
 **Стратегия сертификации в эпоху ИИ:**
 
 ```
-WRONG Approach:
-"Get AI-proof certification" → No such thing exists
+НЕВЕРНЫЙ подход:
+«Получи сертификат, защищающий от ИИ» → таких сертификатов нет
 
-RIGHT Approach:
-"Get AI-aware certifications" → Choose vendors updating content
+ВЕРНЫЙ подход:
+«Получи сертификаты с учетом ИИ» → выбирай поставщиков, обновляющих материалы
 ```
 **Победители:** AWS, Azure, ISC2, SANS (дорого, но актуально).
 **Теряют позиции:** INE, EC-Council и все, кто не обновляет материалы.

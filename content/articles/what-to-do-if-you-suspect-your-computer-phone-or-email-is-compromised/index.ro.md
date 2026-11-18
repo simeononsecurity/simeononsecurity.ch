@@ -1,10 +1,11 @@
 ---
 title: "Ce trebuie să faceți dacă credeți că e-mailul sau telefonul dvs. este compromis"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aflați pașii esențiali pe care trebuie să îi luați dacă bănuiți că e-mailul, desktopul sau telefonul dvs. au fost piratate sau compromise, inclusiv schimbarea parolelor, scanarea pentru malware și ștergerea dispozitivului."
-tags: ["securitatea dispozitivului", "protejarea datelor", "dispozitiv compromis", "e-mail piratat", "telefon spart", "malware", "eliminarea virusului", "securitatea parolei", "copia de rezerva a datelor", "autentificare cu doi factori", "securitate cibernetică", "siguranța online", "confidențialitate digitală", "furt de identitate", "fraudă online", "suport tehnic", "reparatie calculator", "recuperare date", "Servicii IT", "tehnologie"]
+tags: ["securitatea dispozitivului", "protejarea datelor", "dispozitiv compromis", "e-mail piratat", "telefon spart", "software rău intenționat", "eliminarea virusului", "securitatea parolei", "copia de rezerva a datelor", "autentificare cu doi factori", "securitate cibernetică", "siguranța online", "confidențialitate digitală", "furt de identitate", "fraudă online", "suport tehnic", "reparatie calculator", "recuperare date", "Servicii IT", "tehnologie", "securitatea e-mailului", "securitatea computerului", "securitatea telefonului", "piratarea dispozitivelor", "încălcare de securitate", "compromiterea dispozitivului", "scanare pentru programe dăunătoare", "ștergerea datelor", "chei cripto", "securitatea portofelelor cripto", "protejarea fondurilor", "compromiterea e-mailului", "sfaturi de securitate pentru dispozitive", "cum să vă securizați e-mailul", "pași pentru protejarea unui telefon compromis", "tehnici de eliminare a programelor dăunătoare", "bune practici pentru securitatea parolelor", "metode de backup al datelor", "importanța autentificării cu doi factori", "măsuri de securitate cibernetică online", "sfaturi pentru confidențialitate digitală", "prevenirea furtului de identitate online", "cum să gestionați frauda online", "asistență tehnică pentru dispozitive compromise", "servicii de reparare a computerelor", "soluții de recuperare a datelor", "servicii IT pentru securitatea dispozitivelor", "tendințe tehnologice recente", "practici pentru e-mail securizat", "măsuri de securitate pentru computer", "precauții de securitate pentru telefon", "prevenirea piratării dispozitivelor"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "O imagine de desene animate a unei persoane care stă în fața unui computer sau a unui telefon cu o expresie îngrijorată, în timp ce un hacker de desene animate pândește în fundal."
 coverCaption: ""
@@ -28,15 +29,19 @@ Primul pas de făcut atunci când bănuiți că e-mailul, desktopul sau telefonu
 
 Este important să țineți cont de orice semn de compromis, astfel încât să puteți lua măsurile adecvate pentru a vă proteja dispozitivul și datele. Dacă nu sunteți sigur dacă dispozitivul dvs. a fost compromis, este întotdeauna mai bine să greșiți
 
+
+Aflați cum să recunoașteți e-mailurile de phishing și ingineria socială: [e-mailuri de phishing și mesaje suspecte](https://simeononsecurity.com/articles/how-to-identify-phishing/)și [inginerie socială](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## Pasul 2: Schimbați-vă parolele și verificați informațiile de recuperare
+## [Pasul 2: Schimbați-vă parolele și verificați informațiile de recuperare](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - **Schimbați-vă parolele** pentru toate conturile dvs. imediat dacă bănuiți că dispozitivul dvs. a fost compromis
 
 
 Dacă bănuiți că e-mailul, desktopul sau telefonul dvs. au fost compromise, următorul pas este să vă schimbați imediat parolele pentru toate conturile. Acest lucru va dura ceva timp, așa că acordați prioritate conturilor importante, cum ar fi e-mailurile, conturile bancare, conturile de rețele sociale etc.
 
+Pentru mai multe îndrumări, consultați: [schimbarea parolelor](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [alegerea unor parole puternice și unice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [crearea unei parole puternice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) și [activarea autentificării cu doi factori](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/).
 - **Acordați prioritate conturilor importante**, cum ar fi e-mailurile, conturile bancare, conturile de rețele sociale etc.
 
 - **Alegeți parole puternice, unice** pentru fiecare dintre conturile dvs. și **evitați să utilizați aceeași parolă** în mai multe conturi
@@ -46,18 +51,18 @@ Alegeți parole puternice, unice pentru fiecare dintre conturile dvs. și evita�
 
 ***Câteva exemple de parole sigure***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: o parolă de 12 caractere cu majuscule, minuscule, cifre și simboluri
+- Ilovesecurity7!: o parolă de 16 caractere care combină cuvinte, cifre și un simbol
+- xK2%qpzL5!rS: o parolă de 12 caractere cu majuscule și minuscule aleatorii, cifre și simboluri
 ```
 
 ***Exemple de expresii de acces***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: o frază de acces de 24 de caractere cu trei cuvinte aleatorii și cifre
+- orange$5my#yellow: o frază de acces de 16 caractere cu două cuvinte aleatorii, cifre și simboluri
+- pizza3onions?lovers: o frază de acces de 19 caractere cu două cuvinte aleatorii, cifre și un simbol
+- tangerine8shark?43: o frază de acces de 18 caractere cu două cuvinte aleatorii, cifre și un simbol
+- elephant6pasta*tree: o frază de acces de 19 caractere cu două cuvinte aleatorii, cifre și un simbol
 ```
 
 - **Activați autentificarea cu doi factori** pentru un nivel suplimentar de securitate
@@ -79,7 +84,7 @@ De asemenea, la acest pas, majoritatea serviciilor au tablouri de bord unde poț
 
 ______
 
-## Pasul 3: Actualizați-vă software-ul
+## Pasul 3: Actualizați-vă aplicațiile
 
 **Păstrarea sistemului de operare**, antivirus și alte programe **actualizate** este esențială pentru menținerea securității dispozitivului dvs. Actualizările de software includ adesea corecții de securitate care **abordează vulnerabilitățile cunoscute**, așa că este important să vă actualizați software-ul cât mai curând posibil când actualizările devin disponibile.
 
@@ -93,9 +98,10 @@ ______
 - **Client de e-mail** (Microsoft Outlook, Apple Mail, Gmail etc.)
 - **Aplicații** (Microsoft Office, Adobe Creative Suite etc.)
 
+Consultați și: [software antivirus și antimalware recomandat](https://simeononsecurity.com/recommendations/anti-virus).
 ______
 
-## Pasul 4: Scanați-vă dispozitivul pentru malware
+## Pasul 4: Căutați programe dăunătoare pe dispozitiv
 
 - **Execută o scanare de programe malware** pe dispozitivul tău pentru a verifica dacă există software rău intenționat care ar fi putut fi instalat
 - **Programele malware** pot include **viruși**, **viermi**, **troieni** și alte tipuri de software rău intenționat care **pot compromite securitatea** dispozitivului și a datelor dvs.
@@ -115,6 +121,7 @@ Pentru a vă scana dispozitivul pentru malware, utilizați un software antivirus
 
 De asemenea, este o idee bună să scanați orice dispozitive externe, cum ar fi unitățile USB, pe care le-ați folosit cu dispozitivul compromis. Dispozitivele externe pot transporta adesea programe malware care vă pot infecta dispozitivul, așa că este important să le scanați înainte de a le folosi cu dispozitivul.
 
+Aflați mai multe despre: [regula de backup 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 ______
 
 ## Pasul 5: Faceți copii de rezervă ale fișierelor importante și ștergeți dispozitivul

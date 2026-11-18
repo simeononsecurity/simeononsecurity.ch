@@ -1,7 +1,7 @@
 ---
 title: "Beveiliging van IoT-apparaten: Cyberbeveiligingsuitdagingen en -oplossingen"
 date: 2023-03-27
-lastmod: 2026-11-07
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ontdek de impact van IoT op cyberbeveiliging en leer effectieve strategieën voor de beveiliging van uw aangesloten apparaten."
@@ -50,7 +50,7 @@ ______
 Overheden en industriële organisaties hebben het belang van IoT-beveiliging erkend en werken aan de ontwikkeling en handhaving van **normen** en **voorschriften**. Enkele belangrijke initiatieven zijn:
 
 - De[National Institute of Standards and Technology (NIST)](https://www.nist.gov/) biedt richtlijnen voor IoT-beveiliging en privacy.
-- De[International Organization for Standardization (ISO)](https://www.iso.org/) has established an IoT security standard, [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html)
+- De [International Organization for Standardization (ISO)](https://www.iso.org/) heeft de IoT-beveiligingsnorm [ISO/IEC 27400:2022](https://www.iso.org/standard/44373.html) opgesteld.
 
 ______
 

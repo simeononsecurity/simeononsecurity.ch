@@ -1,7 +1,7 @@
 ---
 title: "Windows Directory Structure"
 date: 2023-07-26
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "A 2026 guide to Windows directory structure, including common paths, Windows 11 changes, security concerns, and navigation tips."
@@ -296,12 +296,12 @@ Resolve-Path [path]              # Convert relative to absolute path
 **Advanced PowerShell Example:**
 ```powershell
 # Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
 # Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
 Write-Output "Directory size: $([math]::Round($size, 2)) GB"
 ```
@@ -400,8 +400,8 @@ Windows uses **NTFS permissions** to control access to directories and files. Un
 Get-Acl "C:\Program Files\Application" | Format-List
 
 # Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -447,7 +447,7 @@ icacls "C:\Path\To\File" /grant username:F /T
 ### Issue 3: WinSxS Directory Taking Too Much Space
 
 **Solutions:**
-```cmd
+```powershell
 # Analyze component store
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
@@ -477,9 +477,9 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 
 ```powershell
 # Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name

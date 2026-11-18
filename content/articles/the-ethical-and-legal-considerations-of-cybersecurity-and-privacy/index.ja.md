@@ -1,6 +1,7 @@
 ---
 title: "デジタルトランスフォーメーションにおけるサイバーセキュリティとプライバシー：法的・倫理的検討事項"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "デジタルトランスフォーメーションにおけるサイバーセキュリティとプライバシーの法的・倫理的配慮について学ぶ。"
@@ -38,7 +39,7 @@ coverCaption: ""
 
 ### データプライバシーに関する規制
 
-欧州連合（EU）の一般データ保護規則（General Data Protection Regulation）など、**データプライバシー規制（Data Privacy Regulations）**。[GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA)は、オンラインで収集・保存される個人データの量が増加するにつれて、より一般的になっています。これらの規制は、個人の個人データのプライバシーとセキュリティを保護し、個人が自分のデータをよりコントロールできるようにすることを目的としています。
+**データプライバシー規制**は、オンラインで収集・保存される個人データが増えるにつれて、ますます広がっています。例として、欧州連合の一般データ保護規則 [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en)やカリフォルニア州消費者プライバシー法（California Consumer Privacy Act、CCPA）があります。こうした規制は、個人データのプライバシーと安全を守り、個人が自分のデータをより管理できるようにすることを目的としています。
 
 例えば、2018年に施行されたGDPRは、企業や組織が保有する個人データへのアクセス、訂正、削除の権利を個人に提供するものです。個人データを収集・処理する企業や組織は、GDPRを遵守しなければ、多額の罰金や法的な影響に直面することになります。
 
@@ -46,7 +47,7 @@ coverCaption: ""
 
 ### サイバーセキュリティ関連法
 
-**サイバーセキュリティ法**は、デジタルトランスフォーメーションの時代におけるもう一つの法的検討事項である。これらの法律は、サイバー攻撃や侵害から個人、企業、政府を保護するために設計されています。サイバーセキュリティ情報共有法（Cybersecurity Information Sharing Act[CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act)は、米国におけるサイバーセキュリティ関連法の2つの例である。
+**サイバーセキュリティ法**は、デジタルトランスフォーメーションの時代におけるもう一つの法的検討事項である。これらの法律は、サイバー攻撃や侵害から個人、企業、政府を保護するために設計されています。サイバーセキュリティ情報共有法（Cybersecurity Information Sharing Act [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act)）と、Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act)は、米国におけるサイバーセキュリティ関連法の2つの例である。
 
 2015年に成立したCISAは、サイバーセキュリティの脅威情報を民間と政府で共有し、サイバー攻撃の防止に役立てることを推奨しています。1986年に制定されたCFAAは、ハッキングやコンピュータ詐欺など、コンピュータに関連する行為を犯罪とするものです。
 

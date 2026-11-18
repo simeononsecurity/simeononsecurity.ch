@@ -1,7 +1,7 @@
 ---
 title: "机器学习对网络安全的影响"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "了解机器学习如何帮助检测、分流并响应威胁，以及部署限制和安全风险。"
@@ -67,6 +67,6 @@ ______
 
 ## 参考文献
 
-1."什么是网络安全？Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) （访问日期：2023年3月4日）
-2."网络安全中的机器学习"。Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) （访问日期：2023年3月4日）
-3.  "确保数据和设备安全"。美国国家标准与技术研究院。 [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) （访问日期：2023年3月4日）
+1. "什么是网络安全？Cisco. [Cisco 网络安全指南](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) （访问日期：2023年3月4日）
+2. "网络安全中的机器学习"。Cylance. [Cylance 关于机器学习在网络安全中应用的文章](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) （访问日期：2023年3月4日）
+3.  "确保数据和设备安全"。美国国家标准与技术研究院。 [NIST 数据和设备安全指南](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) （访问日期：2023年3月4日）

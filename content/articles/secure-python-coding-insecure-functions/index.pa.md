@@ -1,7 +1,7 @@
 ---
 title: "Python ਦੀ ਸੁਰੱਖਿਅਤ ਕੋਡਿੰਗ"
 date: 2023-09-26
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ਅਸੁਰੱਖਿਅਤ ਫੰਕਸ਼ਨਾਂ ਤੋਂ ਬਚ ਕੇ ਅਤੇ ਮਜ਼ਬੂਤ, ਭਰੋਸੇਯੋਗ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਵਧੀਆ ਅਮਲ ਅਪਣਾ ਕੇ ਸੁਰੱਖਿਅਤ Python ਕੋਡ ਲਿਖਣਾ ਸਿੱਖੋ।"
@@ -30,10 +30,10 @@ ___________
 
 #### eval() ਨਾਲ ਡਾਇਨਾਮਿਕ ਕੋਡ ਚਲਾਉਣਾ:
 ```python
-# Unsafe: Using eval() for dynamic code execution
+# ਅਸੁਰੱਖਿਅਤ: ਡਾਇਨਾਮਿਕ ਕੋਡ ਚਲਾਉਣ ਲਈ eval() ਵਰਤੋ
 user_input = input("Enter a Python expression: ")
 result = eval(user_input)
-print("Result:", result)
+print("ਨਤੀਜਾ:", result)
 ```
 
 #### `ast.literal_eval()` ਨਾਲ ਹੋਰ ਸੁਰੱਖਿਅਤ ਵਿਕਲਪ:
@@ -43,9 +43,9 @@ import ast
 user_input = input("Enter a literal value: ")
 try:
     parsed_value = ast.literal_eval(user_input)
-    print("Parsed value:", parsed_value)
+    print("ਪਾਰਸ ਕੀਤੀ ਕੀਮਤ:", parsed_value)
 except (ValueError, SyntaxError):
-    print("Invalid input.")
+    print("ਅਵੈਧ ਇਨਪੁੱਟ।")
 ```
 
 ### ਬਿਨਾਂ ਸਾਫ਼ ਕੀਤੇ ਡਾਟੇ ਨਾਲ ਸਟ੍ਰਿੰਗ ਜੋੜਨਾ
@@ -76,7 +76,7 @@ import pickle
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = pickle.dumps(data)
-# Store or send serialized_data
+# serialized_data ਸੰਭਾਲੋ ਜਾਂ ਭੇਜੋ
 ```
 
 #### json ਨਾਲ ਹੋਰ ਸੁਰੱਖਿਅਤ ਵਿਕਲਪ:
@@ -85,7 +85,7 @@ import json
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = json.dumps(data)
-# Store or send serialized_data
+# serialized_data ਸੰਭਾਲੋ ਜਾਂ ਭੇਜੋ
 ```
 
 ### `mark_safe()` ਨਾਲ HTML ਦੀ ਅਧੂਰੀ ਐਸਕੇਪਿੰਗ
@@ -124,7 +124,7 @@ import subprocess
 
 command = input("Enter a command: ")
 result = subprocess.run(command, shell=True, capture_output=True, text=True)
-print("Output:", result.stdout)
+print("ਆਉਟਪੁੱਟ:", result.stdout)
 ```
 
 ### `hash()` ਨਾਲ ਪਾਸਵਰਡ ਦੀ ਨਾਕਾਫ਼ੀ ਹੈਸ਼ਿੰਗ
@@ -135,7 +135,7 @@ print("Output:", result.stdout)
 ```python
 password = input("Enter your password: ")
 hashed_password = hash(password)
-# Store hashed_password in the database
+# hashed_password ਨੂੰ ਡਾਟਾਬੇਸ ਵਿੱਚ ਸੰਭਾਲੋ
 ```
 
 #### bcrypt ਨਾਲ ਹੋਰ ਸੁਰੱਖਿਅਤ ਤਰੀਕਾ:
@@ -144,7 +144,7 @@ import bcrypt
 
 password = input("Enter your password: ")
 hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-# Store hashed_password in the database
+# hashed_password ਨੂੰ ਡਾਟਾਬੇਸ ਵਿੱਚ ਸੰਭਾਲੋ
 ```
 
 ## **ਹੋਰ ਸੁਰੱਖਿਅਤ ਵਿਕਲਪ ਅਤੇ ਵਧੀਆ ਅਮਲ**
@@ -163,7 +163,7 @@ if response.status_code == 200:
     data = response.json()
     print(data)
 else:
-    print("Request failed.")
+    print("ਬੇਨਤੀ ਅਸਫਲ ਰਹੀ।")
 ```
 
 ### **`with`** ਸਟੇਟਮੈਂਟ ਨਾਲ ਫਾਈਲਾਂ ਸੁਰੱਖਿਅਤ ਸੰਭਾਲੋ
@@ -174,12 +174,12 @@ else:
 ```python
 filename = "example.txt"
 
-# Unsafe: Without using `with`
+# ਅਸੁਰੱਖਿਅਤ: with ਵਰਤੇ ਬਿਨਾਂ
 file = open(filename, "r")
 content = file.read()
 file.close()
 
-# Safer: Using `with` statement
+# ਵਧੇਰੇ ਸੁਰੱਖਿਅਤ: with ਸਟੇਟਮੈਂਟ ਵਰਤ ਕੇ
 with open(filename, "r") as file:
     content = file.read()
 ```
@@ -194,7 +194,7 @@ import html
 
 user_input = input("Enter some text: ")
 sanitized_input = html.escape(user_input)
-print("Sanitized input:", sanitized_input)
+print("ਸਾਫ਼ ਕੀਤਾ ਇਨਪੁੱਟ:", sanitized_input)
 ```
 
 ### **`sqlite3`** ਨਾਲ ਪੈਰਾਮੀਟਰ ਵਾਲੀਆਂ ਕਵੈਰੀਆਂ
@@ -228,9 +228,9 @@ import os
 
 api_key = os.environ.get("API_KEY")
 if api_key:
-    print("API Key:", api_key)
+    print("API ਕੁੰਜੀ:", api_key)
 else:
-    print("API Key not set.")
+    print("API ਕੁੰਜੀ ਸੈੱਟ ਨਹੀਂ ਹੈ।")
 ```
 
 #### python-decouple ਨਾਲ ਵੇਰੀਏਬਲ ਸੰਭਾਲਣਾ:
@@ -238,7 +238,7 @@ else:
 from decouple import config
 
 api_key = config("API_KEY")
-print("API Key:", api_key)
+print("API ਕੁੰਜੀ:", api_key)
 ```
 
 ### **`secrets`** ਨਾਲ ਮਜ਼ਬੂਤ ਬੇਤਰਤੀਬੀ
@@ -250,7 +250,7 @@ print("API Key:", api_key)
 import secrets
 
 token = secrets.token_hex(16)
-print("Secure Token:", token)
+print("ਸੁਰੱਖਿਅਤ ਟੋਕਨ:", token)
 ```
 
 ## ਸਿੱਟਾ

@@ -1,6 +1,7 @@
 ---
 title: "Comprendre la classification de l'information : Qui détermine et attribue les niveaux de classification ?"
 date: 2023-06-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Découvrez le processus de classification des informations, notamment qui désigne et attribue les niveaux de classification, et l'importance de respecter les réglementations gouvernementales."
@@ -76,7 +77,7 @@ La classification des informations est soumise à diverses **réglementations et
 
 En se conformant à ces réglementations, les organisations et les personnes impliquées dans le traitement d'informations classifiées peuvent s'assurer que les procédures appropriées sont suivies et que les mesures de sécurité nécessaires sont en place pour protéger les données sensibles. Le non-respect de ces réglementations peut avoir de graves conséquences, notamment des sanctions juridiques et une atteinte à la sécurité nationale.
 
-Pour en savoir plus sur ces réglementations et leurs exigences spécifiques, vous pouvez vous référer à la documentation officielle et aux ressources fournies par les autorités respectives. Par exemple, vous pouvez accéder à l'**Executive Order 13526** sur le site web de la Commission européenne. [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) website, explore the **NISPOM** on the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) website, and find detailed information about **ITAR** on the [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing) site web.
+Pour en savoir plus sur ces réglementations et leurs exigences précises, consultez la documentation officielle et les ressources des autorités compétentes. Vous pouvez consulter l’**Executive Order 13526** sur le site de l’[Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information), examiner la **NISPOM** sur le site de la [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) et trouver des informations détaillées sur **ITAR** sur le site de l’[U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing).
 
 ______
 

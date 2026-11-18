@@ -1,7 +1,7 @@
 ---
 title: "Lokalna sztuczna inteligencja kontra ChatGPT: jak blisko jesteśmy?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Porównanie lokalnej AI z ChatGPT i Claude na podstawie wyników testów, szacunków pamięci, szybkości obsługi i weryfikacji agentów. Omówiono RTX 5090, DGX Spark i Mac Studio."
@@ -48,8 +48,8 @@ Model mieszczący się w twojej stacji roboczej nadal potrzebuje odpowiednich na
 **Dopasowanie pamięci** zaczyna się od trzech przydziałów. Wagi modelu przechowują wyuczone parametry. Cache klucz-wartość, czyli **KV cache**, zachowuje dane uwagi używane podczas wnioskowania. Bufory środowiska i inne programy zużywają pozostałe miejsce.
 
 ```text
-Required memory = resident weights + context cache + runtime allowance
-Available memory = physical capacity - operating system and application reserve
+Wymagana pamięć = wagi rezydentne + pamięć podręczna kontekstu + zapas dla środowiska uruchomieniowego
+Dostępna pamięć = pojemność fizyczna - rezerwa dla systemu operacyjnego i aplikacji
 ```
 
 **Kwantyzacja** zmniejsza precyzję przechowywania wag modelu. Niższa precyzja zmniejsza wymagania pamięciowe, a jakość zależy od modelu i wybranej wersji kwantyzowanej. Precyzja cache jest osobnym ustawieniem. Plik wag Q4 nie oznacza czterobitowego cache.
@@ -78,7 +78,7 @@ W przybliżonym przykładzie dotyczącym samych wag 27 miliardów parametrów pr
 **Cache uwagi Qwen** daje przykład obliczeniowy. Jego [opublikowana konfiguracja](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json) określa 64 warstwy, pełną uwagę w co czwartej warstwie, cztery głowy klucz-wartość i wymiar głowy 256.
 
 ```text
-Full-attention KV bytes per token:
+Bajty KV na token przy pełnej uwadze:
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -190,8 +190,8 @@ Ollama stwierdza, że nie otrzymuje promptów ani odpowiedzi przy lokalnym wykon
 **Czas naprawy przez człowieka** często zmienia ekonomikę. Szybka lokalna odpowiedź wymagająca dziesięciu minut korekty zużywa więcej czasu pracy niż wolniejsza odpowiedź przechodząca przegląd. Licz zaakceptowane wyniki razem z kosztem wnioskowania.
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
+Koszt zaakceptowanego zadania =
+(alokacja sprzętu + energia elektryczna + opłaty za usługę + konserwacja + czas przeglądu)
 ÷ accepted tasks
 ```
 

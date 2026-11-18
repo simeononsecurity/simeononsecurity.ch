@@ -8,6 +8,7 @@ genre: ["Sistemi di controllo industriale", "Sicurezza informatica", "Sfide per 
 tags: ["Sistemi di controllo industriale", "Sicurezza ICS", "Sicurezza informatica", "Sfide ICS", "Migliori pratiche ICS", "Sistemi legacy", "Tecnologie obsolete", "Formazione di sensibilizzazione", "Complessità delle minacce informatiche", "Vulnerabilità della catena di approvvigionamento", "Minacce interne", "Errore umano", "Struttura di sicurezza completa", "Valutazione ICS", "Formazione dei dipendenti", "Segmentazione della rete", "Controllo degli accessi", "Pianificazione della risposta agli incidenti", "Sicurezza del settore energetico", "Sicurezza degli impianti di produzione", "Sicurezza dell'impianto di trattamento delle acque", "Intelligenza artificiale", "Apprendimento automatico", "Tecnologia Blockchain", "Collaborazione pubblico-privato", "Misure di sicurezza ICS", "Conseguenze delle violazioni ICS", "Sicurezza ICS proattiva", "Implementazione della sicurezza ICS", "Tendenze della sicurezza ICS"]
 cover: "/img/cover/A_symbolic_image_representing_the_concept_of_s.webp"
 coverAlt: "Un'immagine simbolica che rappresenta il concetto di sicurezza dei sistemi di controllo industriale contro le minacce informatiche, mostrando uno scudo con un lucchetto che protegge una rete di dispositivi interconnessi."
+lastmod: 2026-11-13
 ---
 
 ## Mettere in sicurezza i sistemi di controllo industriale (ICS): Sfide e migliori pratiche
@@ -25,7 +26,7 @@ I componenti principali di ICS includono **controllori logici programmabili (PLC
 | Componente | Descrizione |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Controllori logici programmabili (PLC) | Utilizzati per controllare e gestire i processi industriali.                                                |
-| Supervisory Control and Data Acquisition (SCADA) | Utilizzati per monitorare e controllare i processi.                                                          |
+| Controllo di Supervisione e Acquisizione Dati (SCADA) | Utilizzati per monitorare e controllare i processi.                                                          |
 | Interfacce uomo-macchina (HMI) | Forniscono un'interfaccia grafica agli operatori per monitorare il sistema e interagire con i processi.  |
 | Sistemi di controllo distribuiti (DCS) | Utilizzati per controllare e gestire i processi in più sedi.                                 |
 
@@ -42,7 +43,7 @@ Esistono vari tipi di SCI utilizzati in diversi settori industriali. Alcuni tipi
 |-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Sistemi di gestione dell'energia (EMS) | Utilizzati per gestire e controllare il consumo di energia negli edifici e nelle industrie.                                           |
 | Sistemi di automazione degli edifici (BAS) | Utilizzati per controllare e gestire vari sistemi in un edificio, come il riscaldamento, la ventilazione e l'aria condizionata.        |
-| Supervisory Control and Data Acquisition (SCADA) | Utilizzato in settori come quello petrolifero e del gas, del trattamento delle acque e della produzione per monitorare e controllare i processi industriali. |
+| Controllo di Supervisione e Acquisizione Dati (SCADA) | Utilizzato in settori come quello petrolifero e del gas, del trattamento delle acque e della produzione per monitorare e controllare i processi industriali. |
 | Sistemi di controllo di processo (PCS) | Utilizzati in settori come quello chimico, farmaceutico e alimentare per controllare e gestire i processi produttivi.  |
 
 

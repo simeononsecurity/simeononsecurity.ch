@@ -1,10 +1,11 @@
 ---
 title: "Wat moet u doen als u denkt dat uw e-mail of telefoon is aangetast?"
 date: 2023-02-27
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer wat u moet doen als u vermoedt dat uw e-mail, desktop of telefoon is gehackt of gecompromitteerd, waaronder het wijzigen van wachtwoorden, scannen op malware en het wissen van uw apparaat."
-tags: ["apparaatbeveiliging", "gegevensbescherming", "aangetast apparaat", "gehackte e-mail", "gehackte telefoon", "malware", "virusverwijdering", "wachtwoordbeveiliging", "gegevensback-up", "twee-factor authenticatie", "cyberbeveiliging", "online veiligheid", "digitale privacy", "identiteitsdiefstal", "online fraude", "technische ondersteuning", "computer reparatie", "gegevensherstel", "IT-diensten", "technologie"]
+tags: ["apparaatbeveiliging", "gegevensbescherming", "aangetast apparaat", "gehackte e-mail", "gehackte telefoon", "schadelijke software", "virusverwijdering", "wachtwoordbeveiliging", "gegevensback-up", "twee-factor authenticatie", "cyberbeveiliging", "online veiligheid", "digitale privacy", "identiteitsdiefstal", "online fraude", "technische ondersteuning", "computer reparatie", "gegevensherstel", "IT-diensten", "technologie", "e-mailbeveiliging", "computerbeveiliging", "telefoonbeveiliging", "apparaten hacken", "beveiligingslek", "apparaatcompromittering", "malwarescan", "gegevens wissen", "cryptosleutels", "beveiliging van cryptowallets", "bescherming van tegoeden", "e-mailcompromittering", "beveiligingstips voor apparaten", "uw e-mail beveiligen", "stappen om een gehackte telefoon te beschermen", "technieken om malware te verwijderen", "beste praktijken voor wachtwoordbeveiliging", "methoden voor gegevensback-ups", "belang van tweestapsverificatie", "cybermaatregelen voor online veiligheid", "tips voor digitale privacy", "online identiteitsdiefstal voorkomen", "online fraude aanpakken", "technische ondersteuning voor gehackte apparaten", "computerreparatieservices", "oplossingen voor gegevensherstel", "IT-diensten voor apparaatbeveiliging", "nieuwste technologietrends", "veilig e-mailgebruik", "beveiligingsmaatregelen voor computers", "veiligheidsmaatregelen voor telefoons", "apparaten hacken voorkomen"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Een cartoonbeeld van een persoon die met een bezorgde uitdrukking voor een computer of telefoon staat, terwijl een cartoonhacker op de achtergrond loert."
 coverCaption: ""
@@ -28,15 +29,19 @@ De eerste stap die u moet nemen wanneer u vermoedt dat uw e-mail, desktop of tel
 
 Het is belangrijk dat u alle tekenen van compromittering opmerkt, zodat u de juiste maatregelen kunt nemen om uw apparaat en gegevens te beschermen. Als u niet zeker weet of uw apparaat is gecompromitteerd, is het altijd beter om het zekere voor het onzekere te nemen.
 
+
+Lees hoe u phishingmails en sociale manipulatie herkent: [phishingmails en verdachte berichten](https://simeononsecurity.com/articles/how-to-identify-phishing/)en [sociale manipulatie](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## Stap 2: Wijzig uw wachtwoorden en controleer de herstelgegevens
+## [Stap 2: Wijzig uw wachtwoorden en controleer de herstelgegevens](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - Wijzig onmiddellijk uw wachtwoorden** voor al uw accounts als u vermoedt dat uw apparaat gecompromitteerd is.
 
 
 Als u vermoedt dat uw e-mail, desktop of telefoon is gecompromitteerd, is de volgende stap om uw wachtwoorden voor al uw accounts onmiddellijk te wijzigen. Dit zal even duren, dus geef prioriteit aan belangrijke accounts zoals je e-mails, bankrekeningen, social media accounts, etc.
 
+Lees voor meer uitleg: [wachtwoorden wijzigen](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [sterke, unieke wachtwoorden kiezen](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) en [een sterk wachtwoord maken](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 - **Prioriteer belangrijke accounts** zoals uw e-mails, bankrekeningen, social media accounts, enz.
 
 - Kies sterke, unieke wachtwoorden** voor al uw accounts en vermijd het gebruik van hetzelfde wachtwoord** voor meerdere accounts.
@@ -46,21 +51,21 @@ Kies sterke, unieke wachtwoorden voor elk van uw accounts en vermijd het gebruik
 
 ***Enkele voorbeelden van veilige wachtwoorden***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: een wachtwoord van 12 tekens met hoofdletters, kleine letters, cijfers en symbolen
+- Ilovesecurity7!: een wachtwoord van 16 tekens met een combinatie van woorden, cijfers en een symbool
+- xK2%qpzL5!rS: een wachtwoord van 12 tekens met willekeurige hoofdletters en kleine letters, cijfers en symbolen
 ```
 
 ***Voorbeelden van paszinnen***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: een wachtwoordzin van 24 tekens met drie willekeurige woorden en cijfers
+- orange$5my#yellow: een wachtwoordzin van 16 tekens met twee willekeurige woorden, cijfers en symbolen
+- pizza3onions?lovers: een wachtwoordzin van 19 tekens met twee willekeurige woorden, cijfers en een symbool
+- tangerine8shark?43: een wachtwoordzin van 18 tekens met twee willekeurige woorden, cijfers en een symbool
+- elephant6pasta*tree: een wachtwoordzin van 19 tekens met twee willekeurige woorden, cijfers en een symbool
 ```
 
-- **Enable two-factor authentication** for an extra layer of security
+- [**Schakel tweefactorauthenticatie in**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) voor een extra beveiligingslaag.
 
 Het is ook een goed idee om tweefactorauthenticatie in te schakelen, die een extra beveiligingslaag toevoegt aan uw accounts. Authenticatie met twee factoren vereist een tweede verificatiemethode, zoals een code die naar uw telefoon of e-mail wordt gestuurd, naast uw wachtwoord.
 
@@ -79,7 +84,7 @@ Tot slot moet u, nadat u het wachtwoord hebt gewijzigd en andere sessies hebt ve
 
 ______
 
-## Stap 3: Werk uw software bij
+## Stap 3: Werk uw programma’s bij
 
 **Het up-to-date houden van uw besturingssysteem**, antivirus en andere software** is essentieel om de veiligheid van uw apparaat te handhaven. Software-updates bevatten vaak beveiligingspatches die bekende kwetsbaarheden** aanpakken, dus het is belangrijk om uw software zo snel mogelijk bij te werken als er updates beschikbaar zijn.
 
@@ -93,9 +98,10 @@ ______
 - **Emailclient** (Microsoft Outlook, Apple Mail, Gmail, enz.)
 - **Applicaties** (Microsoft Office, Adobe Creative Suite, enz.)
 
+Bekijk ook: [aanbevolen antivirus- en antimalwaresoftware](https://simeononsecurity.com/recommendations/anti-virus).
 ______
 
-## Stap 4: Scan uw apparaat op malware
+## Stap 4: Zoek naar schadelijke programma’s op uw apparaat
 
 - Voer een malwarescan** uit op uw apparaat om te controleren of er kwaadaardige software is geïnstalleerd.
 - Malware** omvat virussen**, wormen**, Trojaanse paarden** en andere soorten kwaadaardige software die de veiligheid** van uw apparaat en gegevens in gevaar kunnen brengen.
@@ -115,6 +121,7 @@ Gebruik een betrouwbare antivirussoftware die up-to-date is om uw apparaat op ma
 
 Het is ook een goed idee om alle externe apparaten, zoals USB-stations, die u hebt gebruikt met het gecompromitteerde apparaat te scannen. Externe apparaten kunnen vaak malware bevatten die uw apparaat kan infecteren, dus het is belangrijk om ze te scannen voordat u ze met uw apparaat gebruikt.
 
+Lees meer over de: [3-2-1-back-upregel](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 ______
 
 ## Stap 5: Maak een back-up van belangrijke bestanden en wis uw apparaat

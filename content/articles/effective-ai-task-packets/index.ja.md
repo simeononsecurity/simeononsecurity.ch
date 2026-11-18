@@ -50,30 +50,30 @@ coverCaption: ""
 **小規模なコーディングや調査タスクには、このテンプレートをコピーしてください。** 曖昧な文章で埋めるのではなく、関係のない項目を削除します。
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+目的:
+正式な情報源と改訂:
+関連するファイルまたは記録:
+許可された変更:
+除外する変更と操作:
+望ましい動作の例:
+完了確認:
+停止または質問する条件:
+報告内容:
 ```
 
 **演習用の完成例：**
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+目的: task_report.py に任意の --status フィルターを追加します。
+情報源: docs/requirements.md、改訂 1。
+関連ファイル: task_report.py、tasks.json、tests/.
+許可された変更: task_report.py と対象を絞ったテスト.
+除外: tasks.json、新しい依存関係、コミット、プッシュ。
+例: フィルターなしでは Total tasks: 4 を表示します。open と done はそれぞれ 2 を表示します。
+確認: 単体テストと4つの手動コマンドを実行します。フィルターなし、open、done、無効な値です。
+無効な値では、明確なエラーを表示し、終了コードを0以外にします。
+情報源の矛盾、ファイルの欠落、無関係な初期テスト失敗があれば停止して確認します。
+報告: 変更したファイル、コマンド、確認した出力、未解決事項。
 ```
 
 **Windowsでは、**環境でPythonランチャーを使う場合、パケット内のコマンドには `py -3` を使います。

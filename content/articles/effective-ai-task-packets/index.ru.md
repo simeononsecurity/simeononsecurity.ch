@@ -50,30 +50,30 @@ coverCaption: ""
 **Скопируйте этот шаблон** для небольшой задачи по программированию или исследованию. Удалите не относящиеся к делу поля вместо того, чтобы заполнять их расплывчатым текстом.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Результат:
+Авторитетный источник и редакция:
+Связанные файлы или записи:
+Разрешенные изменения:
+Исключенные изменения и действия:
+Примеры ожидаемого поведения:
+Проверки завершения:
+Когда остановиться или спросить:
+Отчет должен содержать:
 ```
 
 **Для лабораторной работы** заполненный пакет выглядит так:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Цель: добавьте необязательный фильтр --status в task_report.py.
+Источник: docs/requirements.md, редакция 1.
+Связанные файлы: task_report.py, tasks.json, tests/.
+Разрешенные изменения: task_report.py и целевые тесты.
+Исключено: tasks.json, новые зависимости, коммиты и отправки.
+Примеры: без фильтра выводится Total tasks: 4. Для open и done выводится по 2.
+Проверки: запустите модульные тесты и четыре команды вручную: без фильтра, open, done и недопустимое значение.
+Недопустимое значение должно вернуть ненулевой код завершения и понятное сообщение.
+Остановитесь или задайте вопрос при конфликте источников, отсутствии файла или посторонней исходной ошибке.
+Отчет: измененные файлы, команды, наблюдаемые результаты и нерешенные вопросы.
 ```
 
 **В Windows** используйте `py -3` в командах пакета, если в вашей среде применяется средство запуска Python.

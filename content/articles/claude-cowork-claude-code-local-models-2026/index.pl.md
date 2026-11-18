@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork i Claude Code z lokalnymi modelami: przewodnik konfiguracji na 2026 rok"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Skonfiguruj Ollama z Claude Desktop i Claude Code przez interfejs API zgodny z Anthropic. Poznaj wybór modeli i funkcje dostępne wyłącznie w chmurze w 2026 roku."
@@ -188,7 +188,7 @@ Wywoływanie narzędzi odróżnia agenta od generatora tekstu. Warto sprawdzić,
 Po uruchomieniu Claude Code poproś go:
 
 ```text
-Read the current directory and list all files
+Odczytaj bieżący katalog i wyświetl wszystkie pliki
 ```
 
 **Jeśli wyświetli rzeczywiste pliki, wywoływanie narzędzi działa.** Jeśli twierdzi, że odczytałby katalog, i opisuje, czego się w nim spodziewa, funkcja nie jest skonfigurowana. Rozmawiasz z modelem czatu z dołączonym promptem programistycznym. Kolejne prompty tego nie naprawią.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 W sesji Claude Code polecenie `/loop` uruchamia prompt lub polecenie ukośnikowe w określonym odstępie czasu:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m Sprawdź moje otwarte PR-y i podsumuj ich status
+/loop 1h Sprawdź najnowsze wiadomości o AI i podsumuj ważne wydarzenia
+/loop 15m Sprawdź nowe zgłoszenia GitHub i uporządkuj je według priorytetu
 ```
 
 *Polecenie działa, dopóki sesja pozostaje otwarta. Nie jest usługą działającą w tle i kończy się wraz z sesją.*

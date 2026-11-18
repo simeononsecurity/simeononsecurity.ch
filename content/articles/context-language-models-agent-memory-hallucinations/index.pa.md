@@ -1,7 +1,7 @@
 ---
 title: "Meta ਦੇ Context Language Models: ਏਜੰਟ ਦੀ ਬਿਹਤਰ ਯਾਦਦਾਸ਼ਤ, ਪਰ hallucinations ਦਾ ਅੰਤ ਨਹੀਂ"
 date: 2026-10-06
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Context Language Models ਏਜੰਟ ਦੀ memory ਨੂੰ ਕਿਵੇਂ edit ਕਰਦੇ ਹਨ, benchmarks ਕੀ ਸਾਬਤ ਕਰਦੇ ਹਨ, ਅਤੇ cache cost, model capability ਅਤੇ ਅਣਭਰੋਸੇਯੋਗ notes reliability ਨੂੰ ਕਿਵੇਂ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ।"
@@ -48,16 +48,16 @@ Compaction method ਬਦਲਣ ਨਾਲ ਇਹ ਗਲਤ note working memory �
 **Rulin Shao ਅਤੇ coauthors**, ਜਿਨ੍ਹਾਂ ਵਿੱਚ Meta Superintelligence Labs ਅਤੇ University of Washington ਦੇ researchers ਸ਼ਾਮਲ ਹਨ, ਨੇ 29 ਸਤੰਬਰ 2026 ਦੇ preprint ਵਿੱਚ CLMs ਪੇਸ਼ ਕੀਤੇ। ਉਨ੍ਹਾਂ ਦੀ implementation live context ਨੂੰ editable file ਵਜੋਂ ਦਿੰਦੀ ਹੈ। Agent ਇਸ ਨੂੰ shell commands ਜਾਂ code ਨਾਲ edit ਕਰਦਾ ਹੈ ਅਤੇ runtime ਅਗਲੀ call ਉੱਤੇ revised contents ਦਿੰਦਾ ਹੈ। [Context Language Models](https://arxiv.org/abs/2609.37725) ਵੇਖੋ।
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+ਆਮ ਜਾਰੀ ਰੱਖਣਾ:
+ਮੌਜੂਦਾ ਸੰਦਰਭ + ਨਵਾਂ ਜਵਾਬ + ਨਵੇਂ ਟੂਲ ਦਾ ਆਉਟਪੁੱਟ
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+ਸੋਧੇ ਜਾ ਸਕਣ ਵਾਲੇ ਸੰਦਰਭ ਨਾਲ ਜਾਰੀ ਰੱਖਣਾ:
+ਏਜੰਟ ਸੰਦਰਭ ਫ਼ਾਈਲ ਸੋਧਦਾ ਹੈ -> ਰਨਟਾਈਮ ਸੋਧਿਆ ਸੰਦਰਭ ਲੋਡ ਕਰਦਾ ਹੈ -> ਅਗਲੀ ਮਾਡਲ ਕਾਲ
 ```
 
 **Zero-shot ਤਰੀਕੇ ਲਈ model architecture ਬਦਲਣ ਦੀ ਲੋੜ ਨਹੀਂ।** Runtime existing model ਦੇ ਆਲੇ-ਦੁਆਲੇ capability ਜੋੜਦਾ ਹੈ। Paper instructions, learned context-management strategies ਅਤੇ reinforcement learning ਨੂੰ ਵੱਖਰੇ ਤੌਰ ਉੱਤੇ ਜਾਂਚਦਾ ਹੈ।
 
-**Notes file** ਵੱਖਰੀ ਚੀਜ਼ ਹੈ। Saved note ਪੜ੍ਹਨ ਨਾਲ ਉਸ ਦਾ content conversation ਵਿੱਚ ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ। ਬਾਅਦ ਵਿੱਚ file edit ਕਰਨ ਨਾਲ live context ਵਿੱਚ ਪੁਰਾਣਾ text ਆਪਣੇ ਆਪ ਨਹੀਂ ਹਟਦਾ। CLM ਨੂੰ subsequent requests ਨਾਲ edits synchronize ਕਰਨ ਲਈ runtime support ਚਾਹੀਦੀ ਹੈ। [Official implementation](https://github.com/facebookresearch/context-language-models) ਵਿੱਚ agent code ਅਤੇ separate serving extension ਹਨ।
+**Notes file** ਵੱਖਰੀ ਚੀਜ਼ ਹੈ। Saved note ਪੜ੍ਹਨ ਨਾਲ ਉਸ ਦਾ content conversation ਵਿੱਚ ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ। ਬਾਅਦ ਵਿੱਚ file edit ਕਰਨ ਨਾਲ live context ਵਿੱਚ ਪੁਰਾਣਾ text ਆਪਣੇ ਆਪ ਨਹੀਂ ਹਟਦਾ। CLM ਨੂੰ subsequent requests ਨਾਲ edits synchronize ਕਰਨ ਲਈ runtime support ਚਾਹੀਦੀ ਹੈ। [ਅਧਿਕਾਰਤ ਲਾਗੂਕਰਨ](https://github.com/facebookresearch/context-language-models) ਵਿੱਚ agent code ਅਤੇ separate serving extension ਹਨ।
 
 **External storage ਹਾਲੇ ਵੀ useful ਹੈ।** Detailed logs ਅਤੇ source documents ਨੂੰ retrieval ਲਈ available ਰੱਖੋ ਅਤੇ working memory ਵਿੱਚ concise references ਰੱਖੋ। Document ਦੀ location ਅਤੇ ਉਸ ਨਾਲ supported claim ਅਕਸਰ ਅਗਲੇ prompt ਵਿੱਚ ਹਰ line ਰੱਖਣ ਨਾਲੋਂ ਵੱਧ ਮਹੱਤਵਪੂਰਨ ਹੁੰਦੇ ਹਨ।
 
@@ -65,7 +65,7 @@ agent revises context file -> runtime loads revised context -> next model call
 
 **Benchmark improvements specific comparisons ਹਨ।** ਹੇਠਲੇ findings authors ਦੀ evaluations ਤੋਂ ਹਨ, ਇਸ article ਲਈ ਕੀਤੇ tests ਤੋਂ ਨਹੀਂ। Research ਹਾਲੇ preprint ਹੈ ਅਤੇ selected benchmark arbitrary workflows ਲਈ reliability ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ।
 
-| Evaluation | Reported result | Interpretation |
+| Evaluation | ਦਰਜ ਨਤੀਜਾ | Interpretation |
 |---|---|---|
 | **BrowseComp-Plus, zero-shot** | Strongest baseline ਦੇ ਮੁਕਾਬਲੇ 11.4% relative accuracy gain ਅਤੇ 21.5% ਘੱਟ prefix-reuse FLOPs | ਇਸ setup ਵਿੱਚ accuracy ਅਤੇ compute ਦੋਵੇਂ ਸੁਧਰੇ |
 | **TerminalBench 2.1** | 29.5% ਘੱਟ FLOPs ਨਾਲ strongest baseline ਜਿੰਨੀ accuracy | Comparable accuracy ਉੱਤੇ benefit efficiency ਹੈ |
@@ -82,11 +82,11 @@ Trained 9B comparison ਵਿੱਚ **1.34 ਬਨਾਮ 2.19 PFLOPs per question*
 
 **EdgeBench-10 ਉੱਤੇ 128K** ਵਿੱਚ Appendix F ਦਸ tasks ਅਤੇ ਤਿੰਨ seeds ਲਈ ਇਹ results ਦਿੰਦਾ ਹੈ:
 
-| Method | Final score | Mean prefix-reuse PFLOPs per trial |
+| ਵਿਧੀ | ਅੰਤਿਮ ਸਕੋਰ | ਹਰ ਪ੍ਰਯੋਗ ਵਿੱਚ ਪ੍ਰੀਫਿਕਸ ਦੀ ਮੁੜ ਵਰਤੋਂ ਲਈ ਔਸਤ PFLOPs |
 |---|---|---|
-| **Summarization** | 47.8 | 222 |
+| **ਸਾਰਾਂਸ਼** | 47.8 | 222 |
 | **CLM** | 47.3 | 142 |
-| **CLM with subagents** | 50.2 | 219 |
+| **ਸਹਾਇਕ ਏਜੰਟਾਂ ਨਾਲ CLM** | 50.2 | 219 |
 
 **Single-agent accuracy ਨੇੜੇ ਹੈ**, ਜਦਕਿ ਇਸ comparison ਵਿੱਚ CLM ਲਗਭਗ 36% ਘੱਟ compute ਵਰਤਦਾ ਹੈ। Subagent configuration ਫਿਰ outcome ਬਦਲਦੀ ਹੈ। Context capacity, agent configuration ਅਤੇ compute budget ਨੂੰ method name ਦੇ ਨਾਲ compare ਕਰੋ।
 
@@ -101,11 +101,11 @@ Supplementary TerminalBench analysis **9B tasks ਦੇ ਅੱਧੇ ਵਿੱਚ
 **KV cache** intermediate attention computations ਰੱਖਦਾ ਹੈ। Ordinary prefix caching ਵਿੱਚ next request ਦੇ ਸ਼ੁਰੂ ਦਾ unchanged text ਪਿਛਲੀ computation ਨੂੰ reuse ਕਰਦਾ ਹੈ। ਸ਼ੁਰੂ ਦੇ ਨੇੜੇ edit reusable prefix ਘਟਾਉਂਦੀ ਹੈ ਅਤੇ ਬਾਅਦ ਵਾਲੇ text ਨੂੰ ਮੁੜ process ਕਰਨਾ ਪੈਂਦਾ ਹੈ।
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+ਪਿਛਲੀ ਬੇਨਤੀ: A + B + C
+ਸੋਧੀ ਹੋਈ ਬੇਨਤੀ:  A + B ਦਾ ਬਦਲ + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+ਮਿਆਰੀ prefix ਮੁੜ ਵਰਤੋਂ:
+A ਨੂੰ ਮੁੜ ਵਰਤੋ ਅਤੇ B ਦੇ ਬਦਲੇ ਹਿੱਸੇ ਤੇ C ਦੀ ਦੁਬਾਰਾ ਗਣਨਾ ਕਰੋ
 ```
 
 Paper ਦੀ **prefix-reuse FLOPs** metric first mismatch ਤੋਂ ਬਾਅਦ generation ਅਤੇ prompt processing ਗਿਣਦੀ ਹੈ। PFLOP ਦਾ ਅਰਥ 10¹⁵ floating-point operations ਹੈ। ਇਹ estimated computation total ਹੈ, quality score, throughput measurement ਜਾਂ invoice ਨਹੀਂ।
@@ -122,9 +122,9 @@ Appendix C ਦੀ **7.7× ਉਦਾਹਰਨ** 20,000-token prompt ਅਤੇ 500
 
 **Reuse approximate ਹੈ।** ਬਚੇ tokens ਪਿਛਲੇ context ਵਿੱਚ computed states ਰੱਖਦੇ ਹਨ। ਇਸ ਲਈ matching benchmark performance ਨਵੇਂ prompt ਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ recompute ਕਰਨ ਦੇ numerical equivalence ਨੂੰ ਸਾਬਤ ਨਹੀਂ ਕਰਦੀ।
 
-Authors BrowseComp-Plus comparison ਵਿੱਚ **35% ਘੱਟ server-side compute** report ਕਰਦੇ ਹਨ। Additionally reused prompt tokens ਦੇ 7.8 percentage points ਵਿੱਚੋਂ 5.3 stripped reasoning blocks ਅਤੇ 2.5 ਹੋਰ edits ਤੋਂ ਆਉਂਦੇ ਹਨ। ਇਸ ਲਈ benefit ਦਾ ਵੱਡਾ ਹਿੱਸਾ explicit CLM editing ਤੋਂ ਪਰੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ। [SCR implementation notes](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md) ਵੇਖੋ।
+Authors BrowseComp-Plus comparison ਵਿੱਚ **35% ਘੱਟ server-side compute** report ਕਰਦੇ ਹਨ। Additionally reused prompt tokens ਦੇ 7.8 percentage points ਵਿੱਚੋਂ 5.3 stripped reasoning blocks ਅਤੇ 2.5 ਹੋਰ edits ਤੋਂ ਆਉਂਦੇ ਹਨ। ਇਸ ਲਈ benefit ਦਾ ਵੱਡਾ ਹਿੱਸਾ explicit CLM editing ਤੋਂ ਪਰੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ। [SCR ਲਾਗੂਕਰਨ ਨੋਟਸ](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md) ਵੇਖੋ।
 
-**API billing ਲਈ** ordinary input, cache writes ਅਤੇ cache reads ਵੱਖ ਕਰੋ। Anthropic Sonnet 4.6 ਲਈ ordinary input, five-minute cache writes ਅਤੇ cache hits ਵਾਸਤੇ ਕ੍ਰਮਵਾਰ $3, $3.75 ਅਤੇ $0.30 per million tokens ਦੱਸਦੀ ਹੈ। 20,000 tokens ਨੂੰ cache write ਵਜੋਂ rewrite ਕਰਨ ਦੀ cost $0.075 ਹੈ, hit ਦੀ $0.006। $0.069 difference output ਅਤੇ ਹੋਰ billing modifiers ਤੋਂ ਪਹਿਲਾਂ ਹੈ। [Prompt-caching documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), 10 ਅਕਤੂਬਰ 2026 ਨੂੰ checked।
+**API billing ਲਈ** ordinary input, cache writes ਅਤੇ cache reads ਵੱਖ ਕਰੋ। Anthropic Sonnet 4.6 ਲਈ ordinary input, five-minute cache writes ਅਤੇ cache hits ਵਾਸਤੇ ਕ੍ਰਮਵਾਰ $3, $3.75 ਅਤੇ $0.30 per million tokens ਦੱਸਦੀ ਹੈ। 20,000 tokens ਨੂੰ cache write ਵਜੋਂ rewrite ਕਰਨ ਦੀ cost $0.075 ਹੈ, hit ਦੀ $0.006। $0.069 difference output ਅਤੇ ਹੋਰ billing modifiers ਤੋਂ ਪਹਿਲਾਂ ਹੈ। [ਪ੍ਰੌਂਪਟ ਕੈਸ਼ਿੰਗ ਦੇ ਦਸਤਾਵੇਜ਼](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), 10 ਅਕਤੂਬਰ 2026 ਨੂੰ checked।
 
 **Total task cost tradeoff ਤੈਅ ਕਰਦੀ ਹੈ।** ਕਦੇ ਕਦੇ ਮਹਿੰਗੀਆਂ edits ਫਿਰ ਵੀ savings ਦਿੰਦੀਆਂ ਹਨ ਜੇ ਉਹ ਬਾਅਦ ਦੇ input ਨੂੰ ਕਾਫੀ ਘਟਾਉਣ। Frequent edits ਤੋਂ ਬਾਅਦ few remaining turns ਹੋਣ ਉੱਤੇ cost recover ਕਰਨ ਦਾ ਮੌਕਾ ਘੱਟ ਹੁੰਦਾ ਹੈ।
 
@@ -138,11 +138,11 @@ OpenAI ਨੇ ਇੱਕ unreleased Astra-family model ਦੀ separate training r
 
 **Defensive implementation** ਨੂੰ ਇਹ responsibilities ਵੱਖ ਰੱਖਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ:
 
-| Component | Treatment |
+| ਘਟਕ | Treatment |
 |---|---|
 | **User requirements ਅਤੇ permissions** | Editable notes layer ਤੋਂ ਬਾਹਰ preserve ਕਰੋ |
 | **Working notes** | Revision ਦਿਓ, provenance ਰੱਖੋ ਅਤੇ uncertainty mark ਕਰੋ |
-| **Original evidence** | Summaries ਤੋਂ independent retrievable records ਰੱਖੋ |
+| **ਅਸਲ ਸਬੂਤ** | Summaries ਤੋਂ independent retrievable records ਰੱਖੋ |
 | **Actions ਅਤੇ edits** | Changes log ਕਰੋ ਅਤੇ code ਵਿੱਚ access controls ਲਾਗੂ ਕਰੋ |
 
 **Deletion ਹਮੇਸ਼ਾ erasure ਨਹੀਂ ਹੁੰਦੀ।** SCR ਪਹਿਲਾਂ ਵਾਲੇ context ਤੋਂ ਪ੍ਰਭਾਵਿਤ states ਰੱਖਦਾ ਹੈ। Engineering inference ਵਜੋਂ editable file ਵਿੱਚੋਂ text ਹਟਾਉਣ ਨੂੰ cached state ਵਿੱਚੋਂ ਸਾਰੇ influence ਹਟਣ ਦਾ proof ਨਾ ਮੰਨੋ। ਜਦੋਂ workflow ਨੂੰ clean restart ਚਾਹੀਦਾ ਹੋਵੇ ਤਾਂ explicit reset test ਕਰੋ।
@@ -189,9 +189,9 @@ Official repository **CC BY-NC 4.0** terms ਰੱਖਦਾ ਹੈ। Commercial 
 ## ਹਵਾਲੇ
 
 - **Rulin Shao et al.:** [Context Language Models](https://arxiv.org/abs/2609.37725), 29 ਸਤੰਬਰ 2026, [full results ਅਤੇ appendices](https://arxiv.org/html/2609.37725v1) ਦੇ ਨਾਲ।
-- **Meta research implementation:** [Context Language Models repository](https://github.com/facebookresearch/context-language-models)।
-- **Serving implementation:** [Suffix Cache Reuse documentation](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md)।
-- **Anthropic:** [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)।
+- **Meta research implementation:** [Context Language Models ਰਿਪੋਜ਼ਟਰੀ](https://github.com/facebookresearch/context-language-models)।
+- **Serving implementation:** [Suffix Cache Reuse ਦਸਤਾਵੇਜ਼](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md)।
+- **Anthropic:** [ਪ੍ਰੌਂਪਟ ਕੈਸ਼ਿੰਗ ਦੇ ਦਸਤਾਵੇਜ਼](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)।
 - **OpenAI:** [Self-generated prompt injections in compaction summaries](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/).
-- **llama.cpp:** [Hybrid-model prompt reprocessing discussion](https://github.com/ggml-org/llama.cpp/issues/20225)।
+- **llama.cpp:** [ਹਾਈਬ੍ਰਿਡ ਮਾਡਲਾਂ ਵਿੱਚ prompt ਮੁੜ-ਪ੍ਰਕਿਰਿਆ ਬਾਰੇ ਚਰਚਾ](https://github.com/ggml-org/llama.cpp/issues/20225)।
 - **Kai:** [The End of AI Hallucinations? Meta's New Fix (CLM's)](https://www.youtube.com/watch?v=9-iiHFQyzuM)।

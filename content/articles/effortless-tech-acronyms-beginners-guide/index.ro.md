@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot simplificat și prietenos care explică acronimele tehnice unui începător cu entuziasm.
 coverCaption: Demistificarea Terminologiei Tehnice pentru Începători
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 ---
 
 ## Introducere
@@ -394,7 +394,7 @@ lastmod: 2026-10-08
 - **Gbps**: Gigabiți pe secundă
   - O unitate de viteză a transferului de date, reprezentând un miliard de biți transmiși într-o secundă, folosită adesea pentru a măsura viteza rețelelor sau a transferurilor de date.
 
-- 
+-
 ### H
 - **HDD**: Unitate de Stocare pe Disc Dur
   - Un dispozitiv de stocare a datelor care folosește discuri rotative pentru a stoca și recupera date, întâlnit frecvent în calculatoarele desktop și servere.
@@ -681,7 +681,7 @@ lastmod: 2026-10-08
 - **PSU**: Power Supply Unit
   - Un dispozitiv care convertește electricitatea dintr-o sursă externă în tensiunea și curentul necesare pentru alimentarea unui calculator sau a altor dispozitive electronice.
 
-- **PaaS**: Platform as a Service
+- **PaaS**: Platform as a Service (platformă ca serviciu)
   - Un model de servicii cloud computing care oferă o platformă pentru dezvoltarea, rularea și gestionarea aplicațiilor fără a gestiona infrastructura de bază.
 
 ### Q
@@ -765,7 +765,7 @@ lastmod: 2026-10-08
 - **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
   - Protocoale folosite pentru securizarea comunicațiilor pe internet prin criptarea datelor transmise între un server web și browserul clientului.
 
-- **SaaS**: Software as a Service
+- **SaaS**: Software as a Service (software ca serviciu)
   - Un model de servicii cloud computing care oferă aplicații software prin internet pe bază de abonament.
 
 ### T

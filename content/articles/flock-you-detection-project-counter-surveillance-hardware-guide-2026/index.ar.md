@@ -1,6 +1,7 @@
 ---
 title: "مشروع Flock-You للكشف: دليل إعداد مضادات المراقبة"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "دليل تقني شامل لمشروع Flock-You مفتوح المصدر للكشف عن كاميرات ALPR الخاصة بـ Flock Safety باستخدام أجهزة ESP32. يتضمن تعليمات الإعداد وتفاصيل البرامج الثابتة وخيارات الشراء."
@@ -41,20 +42,20 @@ ______
 اكتشف الباحثان **@NitekryDPaul** ومجتمع **DeFlockJoplin** **31 معرف OUI محدداً** موجودة باستمرار في منصات كاميرا Flock Safety:
 
 ```
-Primary Espressif OUIs (ESP32-based modules):
-D4:AD:FC - Espressif Inc. (Common ESP32-S3)
+معرّفات OUI الأساسية لشركة Espressif (وحدات تعتمد على ESP32):
+D4:AD:FC - Espressif Inc. (ESP32-S3 شائع)
 AC:67:B2 - Espressif Inc. (ESP32-WROOM)
-84:F3:EB - Espressif Inc. (ESP32-S3 variants)
+84:F3:EB - Espressif Inc. (متغيرات ESP32-S3)
 B4:E6:2D - Espressif Inc. (ESP32-C3)
-CC:DB:A7 - Espressif Inc. (ESP32-based)
+CC:DB:A7 - Espressif Inc. (المبني على ESP32)
 24:0A:C4 - Espressif Inc. (ESP32-SOLO)
 30:AE:A4 - Espressif Inc. (ESP32-WROVER)
-94:B9:7E - Espressif Inc. (ESP32-based)
+94:B9:7E - Espressif Inc. (المبني على ESP32)
 A4:CF:12 - Espressif Inc. (ESP32-S2)
 C0:49:EF - Espressif Inc. (ESP32-C6)
 
-Additional OUIs identified in Flock deployments:
-[... 21 additional manufacturer OUIs ...]
+معرّفات OUI إضافية رُصدت في عمليات نشر Flock:
+[... 21 معرّف OUI إضافياً من الشركات المصنّعة ...]
 ```
 
 عندما يفحص جهاز الكشف حركة مرور WiFi في الوضع الاستماعي، **يحدد أي جهاز يبث إطارات بهذه المعرفات OUI**.
@@ -317,14 +318,14 @@ ______
 
 2. **إعداد البرنامج**:
    ```bash
-   # Install PlatformIO
+   # تثبيت PlatformIO
    pip install platformio
-   
-   # Clone repository
+
+   # استنساخ المستودع
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
-   # Flash firmware
+
+   # تفليش البرنامج الثابت
    pio run -t upload
    pio device monitor
    ```
@@ -636,37 +637,37 @@ ______
 للمهتمين بالتطبيق التقني، فيما يلي عرض مبسط لمنطق الكشف:
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// جوهر كشف Flock-You (تصوري، وليس شيفرة كاملة)
 
-// OUI Database (31 known Flock-associated OUIs)
+// قاعدة بيانات OUI (31 معرّفاً مرتبطاً بـ Flock)
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // طراز Espressif ESP32-S3
+    // ... و28 معرّف OUI إضافياً ...
 };
 
-// Promiscuous mode callback
+// استدعاء رد الاتصال في الوضع المختلط
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // استخراج عنوان MAC من الإطار
+    uint8_t *mac = pkt->payload + 10; // موضع الحقل addr2
+
+    // التحقق من قاعدة بيانات OUI
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // تم العثور على تطابق OUI
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // التحقق من حد قوة الإشارة
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // تحليل الإطار بحثاً عن مؤشرات إضافية
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // كشف بدرجة ثقة عالية
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // تطابق OUI فقط
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -674,16 +675,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// كشف طلب استكشاف شامل
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // إطار إدارة، النوع الفرعي طلب استكشاف
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // التحقق من عنصر SSID فارغ (شامل)
+    // يعتمد الموضع على بنية الإطار
+    uint8_t *ie = &pkt->payload[24]; // بداية عناصر IE
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // طلب استكشاف شامل
     }
     return false;
 }

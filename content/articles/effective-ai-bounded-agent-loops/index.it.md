@@ -1,7 +1,7 @@
 ---
 title: "Cicli delimitati per agenti IA: controlli, nuovi tentativi e regole di arresto"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Definisci un ciclo obiettivo per l'IA con stato osservabile, controlli, limiti ai nuovi tentativi, condizioni di arresto e un chiaro passaggio a una persona."
@@ -89,7 +89,7 @@ Prove richieste: esecuzione completa dei test e stato di uscita del comando non 
 **Inizia con il laboratorio intatto.** I suoi due test iniziali passano. Nella nuova estrazione, crea `tests/test_loop_contract.py` con il controllo seguente. Questo file definisce una funzionalità desiderata che manca nel progetto iniziale. Non fa parte dello ZIP iniziale mantenuto.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Un controllo fallito controllato per l’esercizio sul filtro di stato."""
 
 import subprocess
 import sys

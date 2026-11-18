@@ -1,7 +1,7 @@
 ---
 title: "अनुसंधान, डिज़ाइन और विकास के लिए 9 AI एजेंट स्किल प्रोजेक्ट"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "वर्कफ़्लो, होस्ट सपोर्ट, निर्भरताओं और लागत के आधार पर नौ एजेंट स्किल प्रोजेक्ट की तुलना करें। अपनी ज़रूरत की स्किल इंस्टॉल, निरीक्षण और परीक्षण करना सीखें।"
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **नीचे की कमांड प्रोजेक्ट के वर्तमान इंस्टॉलेशन दस्तावेज़ से ली गई हैं।** केवल चुने प्रोजेक्ट की कमांड चलाएँ। पैकेज रनर इंस्टॉलर कोड डाउनलोड और चलाता है, इसलिए कमांड चलाने से पहले अपस्ट्रीम प्रोजेक्ट देखें और इंस्टॉलेशन दायरा चुनें।
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: उपयोगकर्ता-स्तर पर Codex इंस्टॉलेशन
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: उपयोगकर्ता-स्तर पर Codex इंस्टॉलेशन
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: आधिकारिक स्किल संग्रह, फ़्रेमवर्क रिपॉज़िटरी नहीं
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **एक सुरक्षित कार्य को बेसलाइन बनाएं।** उसे नई स्किल के बिना और फिर स्किल के साथ चलाएँ। जहाँ संभव हो, मॉडल, इनपुट, टूल और स्वीकृति मानदंड समान रखें। विफलताएँ और मानवीय सुधार अंतिम परिणाम के साथ दर्ज करें।
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# उदाहरणात्मक मूल्यांकन रिकॉर्ड, स्किल कॉन्फ़िगरेशन स्कीमा नहीं
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

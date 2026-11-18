@@ -1,12 +1,12 @@
 ---
-title: "1Password SSH Agent and CLI: Read-Only AI Agent Access"
+title: "1Password SSH AgentとCLI: AIエージェント向け読み取り専用アクセス"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "1Password CLI、SSH Agent、MCPを使用して、読み取り専用のSSHワークフローを設計します。ライブテストの前に、合成コマンド、権限の制限、人間の承認を使用します。"
 genre: ["システム管理", "クラウドセキュリティ", "自動化"]
-tags: ["1Password CLI", "SSHキー", "1Password SSH Agent", "MCP", "Model Context Protocol", "エージェント管理", "システム管理", "Bitbucket Cloud", "Git over SSH", "シークレット参照", "サービスアカウント", "最小権限", "公開鍵認証", "シークレット管理", "コマンドラインセキュリティ", "自動化の安全性"]
+tags: ["1Password CLI", "SSHキー", "1Password SSH Agent", "MCP", "Model Context Protocol", "エージェント管理", "システム管理", "Bitbucket Cloud", "SSH経由のGit", "シークレット参照", "サービスアカウント", "最小権限", "公開鍵認証", "シークレット管理", "コマンドラインセキュリティ", "自動化の安全性"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "秘密鍵を表示せずに、シークレット参照、SSHエージェント、MCPツールを使用するエージェントの抽象的な図。"
 coverCaption: ""
@@ -70,19 +70,19 @@ SSH キーペアには公開キーと秘密キーがあります。リモート�
 
 承認セッションは恒久的な権限付与ではありません。1Passwordは、設定された期間またはアプリがロックまたは終了するまでの認可を記録します。アプリがロックされている場合、エージェントは後で使用するために秘密鍵を保持しません。サポートされる設定が有効な場合、1Passwordが閉じられている間もSSHエージェントプロセスはバックグラウンドで継続しますが、新しい署名リクエストには1Passwordのロック解除が必要です。
 
-[1Password SSHセットアップガイド](https://www.1password.dev/ssh/get-started)]は一般的なフローを示しています: キーの生成またはインポート、公開鍵の公開、SSHエージェントの有効化、SSHクライアントの設定、SSHまたはGitコマンドの実行、リクエストの承認。正確なソケットパスはオペレーティングシステムによって異なります。他のマシンからのパスをコピーするのではなく、現在のプラットフォームの指示を使用してください。
+[1Password SSHセットアップガイド](https://www.1password.dev/ssh/get-started)は一般的なフローを示しています: キーの生成またはインポート、公開鍵の公開、SSHエージェントの有効化、SSHクライアントの設定、SSHまたはGitコマンドの実行、リクエストの承認。正確なソケットパスはオペレーティングシステムによって異なります。他のマシンからのパスをコピーするのではなく、現在のプラットフォームの指示を使用してください。
 
 新しい署名リクエストが成功する前に、1Passwordアプリのロック解除が必要です。アプリが閉じられている間も、エージェントプロセスはバックグラウンドで継続する可能性があります。ロックされたアプリは、署名のために秘密鍵のデータを解放しません。
 
 ## 公開鍵とBitbucket
 
-[1Password鍵管理ガイド](https://www.1password.dev/ssh/manage-keys)]は、SSH Keyアイテム、キーの生成、キーのインポート、公開鍵、フィンガープリント、秘密鍵を文書化しています。CLIの例では、`op item create --category ssh`を使用してSSH Keyアイテムを作成します。この例では、1Password CLIはデフォルトでEd25519キーを生成し、出力内で秘密鍵をマスクします。
+[1Password鍵管理ガイド](https://www.1password.dev/ssh/manage-keys)は、SSH Keyアイテム、キーの生成、キーのインポート、公開鍵、フィンガープリント、秘密鍵を文書化しています。CLIの例では、`op item create --category ssh`を使用してSSH Keyアイテムを作成します。この例では、1Password CLIはデフォルトでEd25519キーを生成し、出力内で秘密鍵をマスクします。
 
-Bitbucket Cloudは、通常のGitおよびOpenSSHコマンドラインワークフローを使用します。その[コマンドラインガイド](https://support.atlassian.com/bitbucket-cloud/docs/find-the-command-line/)]は、ローカルリポジトリからのGit操作を説明しています。その[SSH設定ガイド](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification)]は、SSHリモート形式とサポートされる公開鍵形式を列挙しています。
+Bitbucket Cloudは、通常のGitおよびOpenSSHコマンドラインワークフローを使用します。その[コマンドラインガイド](https://support.atlassian.com/bitbucket-cloud/docs/find-the-command-line/)は、ローカルリポジトリからのGit操作を説明しています。その[SSH設定ガイド](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification)は、SSHリモート形式とサポートされる公開鍵形式を列挙しています。
 
 **Bitbucketを公開鍵の消費者として扱ってください。** 承認されたBitbucketアカウントまたはリポジトリ設定を通じて、公開鍵またはフィンガープリントを登録してください。秘密鍵は1Password内に保持します。GitクライアントはSSHエージェントに署名を依頼します。クライアントは秘密鍵ファイルを読み取りません。
 
-Bitbucketのアクセス鍵のスコープ、登録パス、および読み取り専用Gitテストについては、[Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/)]を参照してください。
+Bitbucketのアクセス鍵のスコープ、登録パス、および読み取り専用Gitテストについては、[Bitbucket Cloud の SSH キーと Git CLI: AI エージェント向け読み取り専用アクセス](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/)を参照してください。
 
 Bitbucketのドキュメントでは、これをGit CLIワークフローと呼んでいます。この記事は、個別のBitbucket MCPサーバーやBitbucket CLIという製品名を前提としていません。Bitbucket固有のCLIには、それ自身の最新のドキュメントとそれ自身の権限レビューが必要です。
 
@@ -163,17 +163,17 @@ agent_policy:
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: 読み取り専用の接続確認
+host_key_source: 承認済み管理者の記録
+approval_owner: 指定された担当者
+rollback: 公開鍵を削除し、テスト用IDを失効させる
 ```
 
 **期待される結果（未テスト）:** レコードは1つのターゲットと1つの操作を特定します。レコードには、ホスト名、IPアドレス、トークン、秘密鍵、または個人データが含まれていません。
 
 ### 2. SSH Keyアイテムの作成または選択
 
-公式の[1Password SSHキーガイド](https://www.1password.dev/ssh/manage-keys)]は、CLIによる作成パターンを文書化しています。以下のコマンドは、合成タイトルと名前付きのテストボルトを使用しています。
+公式の[1Password SSHキーガイド](https://www.1password.dev/ssh/manage-keys)は、CLIによる作成パターンを文書化しています。以下のコマンドは、合成タイトルと名前付きのテストボルトを使用しています。
 
 ```bash
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
@@ -239,7 +239,7 @@ MCP設定では、クライアントがサポートする環境メカニズム�
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# macOS または Linux のみ
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```
@@ -337,7 +337,7 @@ ssh-ed25519 AAAA<synthetic-public-key> synthetic-key-label
 
 ### 鍵のリストに多くのアイデンティティが含まれている
 
-1Password SSH Agent は、設定されたベールから対象となる鍵を公開します。スコープされたエージェント設定またはホスト固有の SSH 設定を使用してください。[エージェントのドキュメント](https://www.1password.dev/ssh/agent)] には、OpenSSH サーバーの 6 鍵制限についても言及されています。
+1Password SSH Agent は、設定されたベールから対象となる鍵を公開します。スコープされたエージェント設定またはホスト固有の SSH 設定を使用してください。[エージェントのドキュメント](https://www.1password.dev/ssh/agent) には、OpenSSH サーバーの 6 鍵制限についても言及されています。
 
 ### コマンドを手動では動作するがジョブでは失敗する
 
@@ -353,6 +353,6 @@ ssh-ed25519 AAAA<synthetic-public-key> synthetic-key-label
 
 1つの合成リポジトリと1つの読み取り専用MCPツールから開始してください。制御された環境で証拠が得られるまで、各期待される結果は未テストとして記録してください。その後、本番環境以外のターゲット、指定されたオペレーター、検証済みのホストキー、および書面によるロールバック記録を用いて、ワークフローを繰り返してください。
 
-現在のコマンドフラグについては、[1Password CLIリファレンス](https://www.1password.dev/cli/reference)] をお読みください。サービスアカウントの自動化を作成する前に、[スクリプトにシークレットを読み込む](https://www.1password.dev/cli/secrets-scripts)] をお読みください。新しいサーバーからのツールを承認する前に、[MCP仕様](https://modelcontextprotocol.io/specification/2026-07-28)] をお読みください。
+現在のコマンドフラグについては、[1Password CLIリファレンス](https://www.1password.dev/cli/reference) をお読みください。サービスアカウントの自動化を作成する前に、[スクリプトにシークレットを読み込む](https://www.1password.dev/cli/secrets-scripts) をお読みください。新しいサーバーからのツールを承認する前に、[MCP仕様](https://modelcontextprotocol.io/specification/2026-07-28) をお読みください。
 
 **対話型SSHは人間の承認を必須とします。無人アクセスは分離してください。ターゲットがエージェントベースの認証をサポートしている場合、秘密鍵は常に読み取らないようにしてください。**

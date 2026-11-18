@@ -13,7 +13,7 @@ coverCaption: ""
 
 **Windowsから乗り換えるのに最適なLinuxディストロ**。
 
-WindowsからLinuxへの乗り換えを検討されていますか？幅広い種類のLinuxディストリビューションがあるため、自分のニーズに合ったものを選ぶのは難しいかもしれません。この記事では、Windowsからのスムーズな移行を実現する、以下のような最高のLinuxディストロをご紹介します。 [**Ubuntu**](https://ubuntu.com/download)、[**Zorin OS**](https://zorinos.com/)、[**Linux Mint**](https://linuxmint.com/download.php)、および[**Manjaro**](https://manjaro.org/)
+WindowsからLinuxへの乗り換えを検討されていますか？幅広い種類のLinuxディストリビューションがあるため、自分のニーズに合ったものを選ぶのは難しいかもしれません。この記事では、Windowsからのスムーズな移行を実現する、以下のような最高のLinuxディストロをご紹介します。 [**Ubuntu**](https://ubuntu.com/download)、[**Zorin OS**](https://zorinos.com/)、[**Linux Mint**](https://linuxmint.com/download.php)および[**Manjaro**](https://manjaro.org/)。
 
 ______
 

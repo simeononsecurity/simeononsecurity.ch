@@ -1,6 +1,7 @@
 ---
 title: "Fortinet contra Cisco: comparació completa de la seguretat de xarxa"
 date: 2026-05-24
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Comparació exhaustiva de les solucions de seguretat de xarxa de Fortinet i Cisco incloent tallafocs, commutadors, SD-WAN, preus, referències de rendiment i recomanacions de desplegament per al 2026.
@@ -65,7 +66,6 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-21
 ---
 
 ## Introducció: Enfrontament de Seguretat de Xarxa Fortinet vs Cisco
@@ -147,24 +147,22 @@ El **Security Fabric** de Fortinet és una plataforma integral de ciberseguretat
 **Components Clau del Security Fabric:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              FortiManager (Management)                  │
-│              FortiAnalyzer (Analytics)                  │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│  FortiGate FW  │    │  FortiSwitch    │  │ FortiAP    │
-│  (Perimeter)   │    │  (Network)      │  │ (Wireless) │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-            ┌────────▼─────────┐
-            │   FortiClient    │
-            │   (Endpoint)     │
-            └──────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                               FortiManager (Gestió)                               │
+│                              FortiAnalyzer (Anàlisi)                              │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│      FortiGate FW       │  │       FortiSwitch       │  │         FortiAP         │
+│       (Perímetre)       │  │         (Xarxa)         │  │      (Sense fils)       │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │       FortiClient       │
+                             │   (Dispositiu final)    │
+                             └─────────────────────────┘
 ```
 
 **Característiques Clau del Security Fabric:**
@@ -195,25 +193,23 @@ L'enfocament de Cisco posa èmfasi en la **integració millor de la seva categor
 **Arquitectura Cisco Secure:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Cisco SecureX                         │
-│         (Unified Threat Response Platform)              │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│ Firepower NGFW │    │ Catalyst Switch │  │  Umbrella  │
-│   (Firewall)   │    │   (Network)     │  │   (Cloud)  │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-        ┌────────────┴────────────┐
-        │  Cisco Secure Endpoint  │
-        │  Cisco Duo (MFA)        │
-        │  Third-party tools      │
-        └─────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                   Cisco SecureX                                   │
+│                    Plataforma unificada de resposta a amenaces                    │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│     Firepower NGFW      │  │   Commutador Catalyst   │  │        Umbrella         │
+│       (Tallafoc)        │  │         (Xarxa)         │  │         (Núvol)         │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │  Cisco Secure Endpoint  │
+                             │     Cisco Duo (MFA)     │
+                             │    Eines de tercers     │
+                             └─────────────────────────┘
 ```
 
 **Característiques Clau de Cisco Secure:**
@@ -338,12 +334,12 @@ Ambdós proveïdors han fet inversions significatives en SD-WAN, però amb enfoc
 
 **Casos d'Ús FortiGate SD-WAN:**
 ```
-Branch Office Configuration:
-- FortiGate 60F as branch firewall/SD-WAN device
-- Dual WAN links (ISP + LTE backup)
-- IPsec tunnels to headquarters FortiGate
-- Application steering (VoIP → low latency, bulk data → high bandwidth)
-- Cost savings: $2,500 device replaces $2,000 firewall + $3,000 SD-WAN appliance
+Configuració de la sucursal:
+- FortiGate 60F com a tallafoc i dispositiu SD-WAN de la sucursal
+- Dos enllaços WAN (ISP + reserva LTE)
+- Túnels IPsec cap al FortiGate de la seu central
+- Encaminament per aplicació (VoIP → latència baixa, dades massives → amplada de banda alta)
+- Estalvi: un dispositiu de $2,500 substitueix un tallafoc de $2,000 + un equip SD-WAN de $3,000
 ```
 
 **Cisco SD-WAN (Plataforma Viptela):**
@@ -356,13 +352,13 @@ Branch Office Configuration:
 
 **Casos d'Ús Cisco SD-WAN:**
 ```
-Enterprise WAN Deployment:
-- vEdge routers at all branch locations
-- vSmart controllers in data centers (HA pair)
-- vManage centralized management
-- Integration with existing Catalyst switching
-- Firepower firewalls at data center perimeter
-- Cost: Higher but superior for complex topologies
+Desplegament de la WAN empresarial:
+- Encaminadors vEdge a totes les sucursals
+- Controladors vSmart als centres de dades (parella HA)
+- Gestió centralitzada amb vManage
+- Integració amb els commutadors Catalyst existents
+- Tallafocs Firepower al perímetre del centre de dades
+- Cost: superior, però millor per a topologies complexes
 ```
 
 **Veredicte SD-WAN:**
@@ -387,24 +383,24 @@ Enterprise WAN Deployment:
 
 **Escenari de Segmentació:**
 ```
-Requirement: Isolate guest WiFi, employee devices, IoT devices, and servers
+Requisit: aïllar el WiFi de convidats, els dispositius dels empleats, els dispositius IoT i els servidors
 
-Fortinet Approach:
-- FortiGate defines security zones (guest, employee, IoT, server)
-- FortiAP assigns users to VLANs based on SSID
-- FortiSwitch enforces VLAN isolation
-- FortiGate policies control inter-zone traffic
-- Complexity: Moderate
-- Cost: Lower (included in Security Fabric)
+Enfocament de Fortinet:
+- FortiGate defineix zones de seguretat (convidats, empleats, IoT, servidors)
+- FortiAP assigna usuaris a VLAN segons l'SSID
+- FortiSwitch imposa l'aïllament de les VLAN
+- Les polítiques FortiGate controlen el trànsit entre zones
+- Complexitat: moderada
+- Cost: inferior (inclòs a Security Fabric)
 
-Cisco Approach:
-- ISE profiles devices and assigns SGT tags
-- TrustSec policies enforce SGT-based access control
-- Enforcement at Catalyst switches (hardware TCAM)
-- Firepower provides perimeter security
-- Complexity: Higher (requires ISE deployment)
-- Cost: Higher (ISE licensing + TrustSec-capable switches)
-- Benefit: More granular, scales better in very large environments
+Enfocament de Cisco:
+- ISE crea perfils dels dispositius i assigna etiquetes SGT
+- Les polítiques TrustSec imposen el control d'accés basat en SGT
+- Aplicació als commutadors Catalyst (TCAM de maquinari)
+- Firepower protegeix el perímetre
+- Complexitat: superior (requereix desplegar ISE)
+- Cost: superior (llicències ISE + commutadors compatibles amb TrustSec)
+- Avantatge: més granularitat i millor escalabilitat en entorns molt grans
 ```
 
 **Veredicte de Segmentació:**
@@ -473,20 +469,20 @@ end
 
 **Creació de Polítiques (GUI Firepower Management Center):**
 ```
-GUI Workflow:
-1. Navigate to Policies → Access Control → [Policy Name]
-2. Add Rule:
-   - Name: "Allow-Web-Outbound"
-   - Source Networks: internal-network
-   - Destination Networks: any
-   - Ports: HTTP, HTTPS
-   - Action: Allow
-   - Inspection: Enable IPS (balanced policy)
-   - File Policy: Block malware (AMP)
-   - URL Filtering: Enable (custom category list)
-   - TLS/SSL: Decrypt known key, inspect
-3. Deploy changes to managed devices
-4. Verify deployment completion
+Procediment a la interfície gràfica:
+1. Aneu a Policies → Access Control → [Nom de la política]
+2. Afegiu una regla (Add Rule):
+   - Nom (Name): "Allow-Web-Outbound"
+   - Xarxes d'origen (Source Networks): internal-network
+   - Xarxes de destinació (Destination Networks): any
+   - Ports (Ports): HTTP, HTTPS
+   - Acció (Action): Allow
+   - Inspecció (Inspection): Activeu IPS (política equilibrada)
+   - Política de fitxers (File Policy): Bloquegeu el programari maliciós (AMP)
+   - Filtratge d'URL (URL Filtering): Activeu (llista de categories personalitzada)
+   - TLS/SSL: Desxifreu amb una clau coneguda i inspeccioneu
+3. Desplegueu els canvis als dispositius gestionats
+4. Verifiqueu que el desplegament hagi finalitzat
 ```
 
 **Punts Forts de Cisco Firepower:**
@@ -508,7 +504,7 @@ Ambdues plataformes suporten l'automatització moderna, però amb diferents nive
 **Automatització FortiGate:**
 
 ```python
-# Python example: Create firewall policy via FortiOS API
+# Exemple de Python: crea una política de tallafoc mitjançant l'API FortiOS
 import requests
 import json
 
@@ -533,7 +529,7 @@ policy_data = {
 }
 
 response = requests.post(fortios_api, headers=headers, data=json.dumps(policy_data), verify=False)
-print(f"Policy creation status: {response.status_code}")
+print(f"Estat de creació de la política: {response.status_code}")
 ```
 
 **Maduresa de l'automatització FortiGate:**
@@ -546,20 +542,20 @@ print(f"Policy creation status: {response.status_code}")
 **Automatització Cisco Firepower:**
 
 ```python
-# Python example: Create access control policy via FMC API
+# Exemple de Python: crea una política de control d'accés mitjançant l'API FMC
 from fireREST import FMC
 
 fmc = FMC(hostname='fmc.example.com', username='admin', password='password')
 fmc.login()
 
-# Create network object
+# Crea un objecte de xarxa
 network_obj = fmc.create_network_object(
     name='internal-network',
     value='10.0.0.0/8',
-    description='Corporate internal network'
+    description='Xarxa interna corporativa'
 )
 
-# Create access control rule
+# Crea una regla de control d'accés
 rule = fmc.create_access_rule(
     policy_name='Corporate-Access-Policy',
     name='Allow-Web-Outbound',
@@ -571,9 +567,9 @@ rule = fmc.create_access_rule(
     file_policy='Block Malware'
 )
 
-# Deploy changes
+# Aplica els canvis
 deployment = fmc.deploy(device_list=['firewall01', 'firewall02'])
-print(f"Deployment status: {deployment}")
+print(f"Estat del desplegament: {deployment}")
 ```
 
 **Maduresa de l'automatització Cisco Firepower:**
@@ -682,12 +678,12 @@ ______
 **Exemple de cost total FortiGate (3 anys):**
 
 ```
-FortiGate 600F Deployment:
-- Hardware: $20,000 (one-time)
-- Enterprise Bundle: $7,000/year × 3 years = $21,000
-- FortiCare Premium Support: $2,000/year × 3 years = $6,000
-- Total 3-year cost: $47,000
-- Effective annual cost: $15,667/year
+Desplegament de FortiGate 600F:
+- Maquinari: $20,000 (pagament únic)
+- Enterprise Bundle: $7,000/any × 3 anys = $21,000
+- FortiCare Premium Support: $2,000/any × 3 anys = $6,000
+- Cost total de 3 anys: $47,000
+- Cost anual efectiu: $15,667/any
 ```
 
 **Avantatges de la llicència FortiGate:**
@@ -717,13 +713,13 @@ FortiGate 600F Deployment:
 **Exemple de Cost Total Cisco Firepower (3 anys):**
 
 ```
-Cisco FPR4145 Deployment:
-- Hardware: $32,000 (one-time)
-- Cisco Plus Secure Bundle: $15,000/year × 3 years = $45,000
-- FMC hardware/VM: $12,000 (one-time) or $2,000/year (VM subscription)
-- Cisco SmartNet Support: $4,000/year × 3 years = $12,000
-- Total 3-year cost: $101,000
-- Effective annual cost: $33,667/year
+Desplegament de Cisco FPR4145:
+- Maquinari: $32,000 (pagament únic)
+- Cisco Plus Secure Bundle: $15,000/any × 3 anys = $45,000
+- FMC maquinari/VM: $12,000 (pagament únic) o $2,000/any (subscripció de VM)
+- Cisco SmartNet Support: $4,000/any × 3 anys = $12,000
+- Cost total de 3 anys: $101,000
+- Cost anual efectiu: $33,667/any
 ```
 
 **Contres de la llicència Cisco Firepower:**
@@ -745,40 +741,40 @@ Cisco FPR4145 Deployment:
 **TCO de la solució Fortinet:**
 
 ```
-Hardware:
-- 2× FortiGate 600F (HA pair): $40,000
-- FortiManager VM (free for <10 devices): $0
+Maquinari:
+- 2× FortiGate 600F (parella HA): $40,000
+- FortiManager VM (gratuït per a <10 dispositius): $0
 - FortiAnalyzer 1000E: $8,000
 
-Subscriptions (5 years):
-- Enterprise Bundle licenses: $7,000/year × 2 firewalls × 5 years = $70,000
-- FortiCare Premium Support: $2,000/year × 2 firewalls × 5 years = $20,000
-- FortiAnalyzer log storage: $1,000/year × 5 years = $5,000
+Subscripcions (5 anys):
+- Llicències Enterprise Bundle: $7,000/any × 2 tallafocs × 5 anys = $70,000
+- FortiCare Premium Support: $2,000/any × 2 tallafocs × 5 anys = $20,000
+- Emmagatzematge de registres de FortiAnalyzer: $1,000/any × 5 anys = $5,000
 
-Professional Services:
-- Initial deployment and training: $10,000
+Serveis professionals:
+- Desplegament inicial i formació: $10,000
 
-Total 5-year TCO: $153,000
-Average annual cost: $30,600
+TCO total de 5 anys: $153,000
+Cost anual mitjà: $30,600
 ```
 
 **TCO de la solució Cisco:**
 
 ```
-Hardware:
-- 2× Cisco FPR4145 (HA pair): $64,000
+Maquinari:
+- 2× Cisco FPR4145 (parella HA): $64,000
 - Firepower Management Center 2500: $25,000
 
-Subscriptions (5 years):
-- Cisco Plus Secure (all licenses): $15,000/year × 2 firewalls × 5 years = $150,000
-- SmartNet 8×5×NBD: $4,000/year × 2 firewalls × 5 years = $40,000
-- FMC support: $2,500/year × 5 years = $12,500
+Subscripcions (5 anys):
+- Cisco Plus Secure (totes les llicències): $15,000/any × 2 tallafocs × 5 anys = $150,000
+- SmartNet 8×5×NBD: $4,000/any × 2 tallafocs × 5 anys = $40,000
+- Suport d'FMC: $2,500/any × 5 anys = $12,500
 
-Professional Services:
-- Initial deployment and training: $20,000
+Serveis professionals:
+- Desplegament inicial i formació: $20,000
 
-Total 5-year TCO: $311,500
-Average annual cost: $62,300
+TCO total de 5 anys: $311,500
+Cost anual mitjà: $62,300
 ```
 
 **Anàlisi de TCO:**
@@ -810,15 +806,15 @@ ______
 
 **Configuració d’exemple:**
 ```
-Equipment:
+Equipament:
 - 1× FortiGate 100F: $2,500
-- 2× FortiSwitch 124F (48-port): $2,000 each
-- 3× FortiAP 431F (WiFi 6): $600 each
-- Enterprise Bundle subscription: $900/year
-- FortiCare 8×5 Support: $300/year
+- 2× FortiSwitch 124F (48 ports): $2,000 cadascun
+- 3× FortiAP 431F (WiFi 6): $600 cadascun
+- Subscripció Enterprise Bundle: $900/any
+- FortiCare 8×5 Support: $300/any
 
-Total first-year cost: $9,100
-Annual renewal: $1,200
+Cost total del primer any: $9,100
+Renovació anual: $1,200
 ```
 
 ### Empresa mitjana (100-1.000 empleats)
@@ -841,41 +837,41 @@ Annual renewal: $1,200
 
 **Configuració d’exemple (Fortinet):**
 ```
-Headquarters:
-- 2× FortiGate 600F (HA cluster): $40,000
+Seu central:
+- 2× FortiGate 600F (clúster HA): $40,000
 - FortiManager 400E: $12,000
 - FortiAnalyzer 1000E: $8,000
 
-Branch Offices (5 locations):
+Sucursals (5 ubicacions):
 - 5× FortiGate 100F: $12,500
 - 10× FortiSwitch 124F: $20,000
 
-Subscriptions (annual):
+Subscripcions (anuals):
 - Enterprise Bundle: $24,000
 - FortiCare Premium Support: $8,000
 
-Total first-year cost: $124,500
-Annual renewal: $32,000
+Cost total del primer any: $124,500
+Renovació anual: $32,000
 ```
 
 **Configuració d’exemple (Cisco):**
 ```
-Headquarters:
-- 2× Cisco FPR4145 (HA cluster): $64,000
+Seu central:
+- 2× Cisco FPR4145 (clúster HA): $64,000
 - Cisco FMC 2500: $25,000
-- Cisco ISE 3615 (2-node): $45,000
+- Cisco ISE 3615 (2 nodes): $45,000
 
-Branch Offices (5 locations):
+Sucursals (5 ubicacions):
 - 5× Cisco FPR2140: $45,000
 - 10× Catalyst 9200-48P: $80,000
 
-Subscriptions (annual):
-- Cisco Plus Secure licenses: $90,000
-- SmartNet support: $30,000
-- ISE Plus licenses: $15,000
+Subscripcions (anuals):
+- Llicències Cisco Plus Secure: $90,000
+- Suport SmartNet: $30,000
+- Llicències ISE Plus: $15,000
 
-Total first-year cost: $394,000
-Annual renewal: $135,000
+Cost total del primer any: $394,000
+Renovació anual: $135,000
 ```
 
 **Diferència de cost:** La solució Cisco costa un 216% més (269.500 $ el primer any, 103.000 $ anuals)
@@ -895,17 +891,17 @@ Annual renewal: $135,000
 
 **Tanmateix, considereu un enfocament híbrid:**
 ```
-Data Center / Headquarters: Cisco
-- Cisco Firepower 9300 series (high performance)
-- Cisco ISE for network access control
-- Integration with existing Cisco data center
+Centre de dades / seu central: Cisco
+- Sèrie Cisco Firepower 9300 (alt rendiment)
+- Cisco ISE per al control d'accés a la xarxa
+- Integració amb el centre de dades Cisco existent
 
-Branch Offices: Fortinet
-- FortiGate appliances for cost-effective branch security
-- Integrated SD-WAN to headquarters
-- Managed via FortiManager (centralized)
+Sucursals: Fortinet
+- Equips FortiGate per protegir les sucursals amb un cost ajustat
+- SD-WAN integrada cap a la seu central
+- Gestió centralitzada mitjançant FortiManager
 
-Savings: 40-50% reduction in branch office costs while maintaining Cisco core
+Estalvi: reducció del 40-50% dels costos de les sucursals mantenint el nucli Cisco
 ```
 
 ### Proveïdor de serveis / MSP
@@ -957,26 +953,26 @@ ______
 **Millors pràctiques per a la migració:**
 
 ```
-Phase 1: Pilot (Months 1-2)
-- Deploy FortiGate in parallel at pilot site
-- Replicate existing Cisco policies
-- Train team on FortiGate management
-- Validate performance and features
+Fase 1: prova pilot (mesos 1-2)
+- Desplegueu FortiGate en paral·lel a la ubicació pilot
+- Repliqueu les polítiques Cisco existents
+- Formeu l'equip en la gestió de FortiGate
+- Valideu el rendiment i les funcions
 
-Phase 2: Branch Rollout (Months 3-6)
-- Migrate branch offices first (simpler configurations)
-- Use cutover windows to minimize downtime
-- Keep Cisco policies documented for rollback
+Fase 2: desplegament a les sucursals (mesos 3-6)
+- Migreu primer les sucursals (configuracions més senzilles)
+- Utilitzeu finestres de transició per reduir les interrupcions
+- Manteniu documentades les polítiques Cisco per revertir els canvis
 
-Phase 3: Data Center / HQ (Months 7-9)
-- More complex configurations require careful planning
-- Consider HA cutover to minimize downtime
-- Extensive testing of all VPN connections
+Fase 3: centre de dades / seu central (mesos 7-9)
+- Les configuracions més complexes requereixen una planificació acurada
+- Considereu una transició HA per reduir les interrupcions
+- Proveu exhaustivament totes les connexions VPN
 
-Phase 4: Decommission (Months 10-12)
-- Remove Cisco equipment after stability period
-- Return or repurpose hardware
-- Cancel Cisco SmartNet subscriptions
+Fase 4: retirada (mesos 10-12)
+- Retireu els equips Cisco després d'un període d'estabilitat
+- Retorneu el maquinari o destineu-lo a altres usos
+- Cancel·leu les subscripcions Cisco SmartNet
 ```
 
 {{< figure src="cisco-to-fortinet-network-migration-phased-timeline.webp" alt="Diagrama de línia temporal que mostra una migració fasejada de 12 mesos de Cisco a Fortinet en seguretat de xarxa cobrint desplegament pilot als mesos 1 a 2, desplegament a sucursals als mesos 3 a 6, canvi de centre de dades als mesos 7 a 9 i desmantellament final als mesos 10 a 12" >}}
@@ -1007,28 +1003,28 @@ Phase 4: Decommission (Months 10-12)
 **Millors pràctiques per a la migració:**
 
 ```
-Phase 1: Design (Months 1-2)
-- Assess current FortiGate features in use
-- Design equivalent Cisco architecture
-- Identify features requiring additional Cisco products (ISE, etc.)
-- Validate licensing requirements with Cisco SE
+Fase 1: disseny (mesos 1-2)
+- Avalueu les funcions FortiGate utilitzades actualment
+- Dissenyeu una arquitectura Cisco equivalent
+- Identifiqueu les funcions que requereixen productes Cisco addicionals (ISE, etc.)
+- Valideu els requisits de llicència amb el Cisco SE
 
-Phase 2: Proof of Concept (Months 3-4)
-- Deploy Cisco FMC and test firewall in lab
-- Replicate critical policies and test thoroughly
-- Train security team on FMC management
-- Benchmark performance under realistic load
+Fase 2: prova de concepte (mesos 3-4)
+- Desplegueu Cisco FMC i un tallafoc de prova al laboratori
+- Repliqueu les polítiques crítiques i proveu-les a fons
+- Formeu l'equip de seguretat en la gestió d'FMC
+- Mesureu el rendiment amb una càrrega realista
 
-Phase 3: Phased Deployment (Months 5-12)
-- Deploy Cisco firewalls at new locations first
-- Cutover existing locations during maintenance windows
-- Maintain FortiGate parallel for 30-60 days
-- Extensive VPN and application testing
+Fase 3: desplegament gradual (mesos 5-12)
+- Desplegueu primer els tallafocs Cisco a les noves ubicacions
+- Feu la transició de les ubicacions existents durant les finestres de manteniment
+- Manteniu FortiGate en paral·lel durant 30-60 dies
+- Proveu exhaustivament les VPN i les aplicacions
 
-Phase 4: Optimization (Months 13-18)
-- Leverage advanced Cisco features (TrustSec, etc.)
-- Integrate with other Cisco products
-- Optimize policies and rule bases
+Fase 4: optimització (mesos 13-18)
+- Utilitzeu les funcions avançades de Cisco (TrustSec, etc.)
+- Integreu amb altres productes Cisco
+- Optimitzeu les polítiques i els conjunts de regles
 ```
 
 ______
@@ -1099,29 +1095,15 @@ ______
 ### Arbre de decisió
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Do you have existing Cisco campus network (ISE)?      │
-└───────────────┬─────────────────────────────────────────┘
-                │
-        ┌───────┴───────┐
-       YES             NO
-        │               │
-        │               │
-        v               v
-┌──────────────┐  ┌─────────────────┐
-│ Need TrustSec │  │ Need integrated │
-│ micro-seg?    │  │ SD-WAN?         │
-└───┬──────────┘  └────────┬────────┘
-    │                      │
-  ┌─┴─┐                  ┌─┴─┐
- YES NO                 YES NO
-  │   │                  │   │
-  v   v                  v   v
-┌────┐ ┌──────┐      ┌────┐ ┌──────┐
-│Cisco│ │Either│      │Fort│ │Either│
-│wins │ │works │      │inet│ │works │
-└────┘ └──────┘      │wins│ └──────┘
-                     └────┘
+Ja teniu una xarxa de campus Cisco (ISE)?
+├─ SÍ
+│  └─ Cal microsegmentació TrustSec?
+│     ├─ SÍ: Guanya Cisco
+│     └─ NO: Tots dos serveixen
+└─ NO
+   └─ Cal SD-WAN integrada?
+      ├─ SÍ: Guanya Fortinet
+      └─ NO: Tots dos serveixen
 ```
 
 ### Taula de criteris de selecció

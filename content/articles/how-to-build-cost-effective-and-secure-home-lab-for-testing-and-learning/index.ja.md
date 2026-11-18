@@ -39,7 +39,7 @@ ______
 
 ### 1.仮想化ソフトウェア
 
-ホームラボで最も重要なソフトウェアコンポーネントは、**仮想化ソフトウェア**です。人気のあるオプションは以下の通りです。 [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows)これらのプラットフォームでは、1つのホスト上で複数のVMを作成し、管理することができます。ニーズと予算に合ったものを選んでください。
+ホームラボで最も重要なソフトウェアコンポーネントは、**仮想化ソフトウェア**です。人気のあるオプションは以下の通りです。 [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html)、[Proxmox VE](https://www.proxmox.com/en/proxmox-ve)、[Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows)。これらのプラットフォームでは、1つのホスト上で複数のVMを作成し、管理することができます。ニーズと予算に合ったものを選んでください。
 
 ### 2.オペレーティングシステム
 
@@ -96,9 +96,9 @@ ______
 ホームラボの設置が完了したら、さまざまな技術の学習とテストを開始しましょう。人気のあるトピックやプロジェクトには、以下のようなものがあります：
 
 1.**ネットワーキング**：ネットワーク**：異なるネットワークトポロジー、ルーティングプロトコル、およびファイアウォール設定を実験する。
-2.**クラウドコンピューティング**：クラウドコンピューティング**：クラウドコンピューティングについて学ぶ。 [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
-3.**Operating Systems**：様々なLinuxディストリビューション、Windows Server、および以下のようなコンテナ化技術をテストする。 [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
-4.**Cybersecurity**：倫理的なハッキング、脆弱性スキャン、インシデントレスポンスなどを、以下のようなツールを使って実践する。 [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
+2. **クラウドコンピューティング**: [Amazon Web Services (AWS)](https://aws.amazon.com/)、[Microsoft Azure](https://azure.microsoft.com/)、または[Google Cloud Platform (GCP)](https://cloud.google.com/)について学びます。
+3.**Operating Systems**：様々なLinuxディストリビューション、Windows Server、および以下のようなコンテナ化技術をテストする。 [Docker](https://www.docker.com/)と[Kubernetes](https://kubernetes.io/)。
+4.**Cybersecurity**：倫理的なハッキング、脆弱性スキャン、インシデントレスポンスなどを、以下のようなツールを使って実践する。 [Kali Linux](https://www.kali.org/)、[Metasploit](https://www.metasploit.com/)、[Wireshark](https://www.wireshark.org/)。
 
 ______
 

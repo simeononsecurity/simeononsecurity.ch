@@ -1,10 +1,11 @@
 ---
 title: "Смарт-часы для пользователей, заботящихся о конфиденциальности данных"
 date: 2023-05-27
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Ознакомьтесь с лучшими смарт-часами, предназначенными для любителей конфиденциальности, в которых особое внимание уделяется защите данных и контролю над пользователем."
-tags: ["варианты смарт-часов", "Устройства, ориентированные на конфиденциальность", "безопасность данных", "управление пользователем", "AsteroidOS", "PineTime", "Сторожевой", "Открытые смарт-часы", "Bangle.js 2", "Гаджетбридж", "носимые технологии", "конфиденциальность данных", "настраиваемый опыт", "защита персональных данных", "смарт-часы с открытым исходным кодом", "отслеживание фитнеса", "уведомления", "прошивка смарт-часов", "лица, заботящиеся о конфиденциальности", "Поддерживаемые устройства Gadgetbridge", "Amazfit Bip", "Часы Garmin", "Модели Fitbit", "Смарт-часы Pinetime", "The Watchy by Squarofumi", "Открытые смарт-часы от Pauls_3D_Things", "Смарт-часы Bangle.js 2", "Совместимость с Gadgetbridge", "Устройства, поддерживающие AsteroidOS", "Конфиденциальность смарт-часов", "технология носимых устройств с открытым исходным кодом", "решения по обеспечению конфиденциальности данных"]
+tags: ["варианты смарт-часов", "Устройства, ориентированные на конфиденциальность", "безопасность данных", "управление пользователем", "AsteroidOS", "PineTime", "The Watchy", "Открытые смарт-часы", "часы Bangle.js 2", "Gadgetbridge", "носимые технологии", "конфиденциальность данных", "настраиваемый опыт", "защита персональных данных", "смарт-часы с открытым исходным кодом", "отслеживание фитнеса", "уведомления", "прошивка смарт-часов", "лица, заботящиеся о конфиденциальности", "устройства с поддержкой Gadgetbridge", "часы Amazfit Bip", "Часы Garmin", "Модели Fitbit", "часы PineTime", "The Watchy от Squarofumi", "Открытые смарт-часы от Pauls_3D_Things", "Смарт-часы Bangle.js 2", "совместимость с Gadgetbridge", "устройства с поддержкой AsteroidOS", "Конфиденциальность смарт-часов", "технология носимых устройств с открытым исходным кодом", "решения по обеспечению конфиденциальности данных"]
 cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.webp"
 coverAlt: "Иллюстрация смарт-часов со щитом, символизирующим конфиденциальность данных"
 coverCaption: ""
@@ -32,32 +33,32 @@ ______
 
 ### 1. AsteroidOS
 
-[AsteroidOS](https://asteroidos.org/) is an open-source Linux distribution designed to run on various smartwatches. It prioritizes user control and data privacy. With features such as Always-on-Display, Tilt-to-Wake, and Phone Notifications, AsteroidOS offers a customizable and privacy-focused smartwatch experience. Some of the supported devices for AsteroidOS include the LG G Watch, LG Watch Urbane, and Sony Smartwatch 3. See the supported device list [here](https://asteroidos.org/watches/)
+[AsteroidOS](https://asteroidos.org/) — дистрибутив Linux с открытым исходным кодом для разных умных часов. Он ориентирован на контроль пользователя и конфиденциальность. Среди функций — Always-on-Display, Tilt-to-Wake и уведомления с телефона. Поддерживаются, в частности, LG G Watch, LG Watch Urbane и Sony Smartwatch 3. Полный список устройств доступен [здесь](https://asteroidos.org/watches/).
 
 {{< youtube id="6H0KaRvF7jE" >}}
 
 ### 2. PineTime
 
-[PineTime](https://www.pine64.org/pinetime/) is an open-source smartwatch project by Pine64. It aims to provide an affordable and privacy-focused alternative to mainstream smartwatches. PineTime runs on the [InfiniTime](https://github.com/JF002/InfiniTime) прошивка, которая активно развивается и ориентирована на обеспечение конфиденциальности и безопасности данных. Проект приветствует участие сообщества и предлагает ряд функций, таких как фитнес-трекинг и уведомления.
+[PineTime](https://www.pine64.org/pinetime/) — проект умных часов с открытым исходным кодом от Pine64. Он призван стать доступной альтернативой распространенным умным часам с упором на приватность. PineTime работает на прошивке [InfiniTime](https://github.com/JF002/InfiniTime), которая активно развивается и уделяет особое внимание конфиденциальности и безопасности. Проект принимает вклад сообщества и предлагает функции отслеживания активности и уведомлений.
 
 {{< youtube id="bbXd5m4JaqE" >}}
 
 
-### 3. The Watchy by Squarofumi
+### 3. The Watchy от Squarofumi
 
-[The Watchy](https://watchy.sqfmi.com/) Squarofumi - это смарт-часы с открытым исходным кодом, которые могут быть настроены в соответствии с индивидуальными предпочтениями. Они позволяют пользователям контролировать свои данные и предоставляют разработчикам платформу для создания персонализированных циферблатов и приложений. Watchy предлагает людям, заботящимся о своей конфиденциальности, уникальные и настраиваемые смарт-часы.
+[часы The Watchy](https://watchy.sqfmi.com/) Squarofumi - это смарт-часы с открытым исходным кодом, которые могут быть настроены в соответствии с индивидуальными предпочтениями. Они позволяют пользователям контролировать свои данные и предоставляют разработчикам платформу для создания персонализированных циферблатов и приложений. Watchy предлагает людям, заботящимся о своей конфиденциальности, уникальные и настраиваемые смарт-часы.
 
 {{< youtube id="TbeXV9sXUnI" >}}
 
 ### 4. Смарт-часы Bangle.js 2
 
-[Bangle.js 2](https://banglejs.com/) Это взламываемые смарт-часы с открытым исходным кодом, в которых во главу угла поставлена конфиденциальность и контроль над пользователем. Они работают на JavaScript и предоставляют разработчикам платформу для создания собственных приложений и циферблатов. Благодаря модульной конструкции и ориентации на открытое программное обеспечение Bangle.js 2 предоставляет людям, заботящимся о конфиденциальности, возможность настраивать свои смарт-часы под себя.
+[часы Bangle.js 2](https://banglejs.com/) Это взламываемые смарт-часы с открытым исходным кодом, в которых во главу угла поставлена конфиденциальность и контроль над пользователем. Они работают на JavaScript и предоставляют разработчикам платформу для создания собственных приложений и циферблатов. Благодаря модульной конструкции и ориентации на открытое программное обеспечение Bangle.js 2 предоставляет людям, заботящимся о конфиденциальности, возможность настраивать свои смарт-часы под себя.
 
 {{< youtube id="LwSAEcJUAu8" >}}
 
-### 5. Поддерживаемые устройства с Gadgetbridge
+### 5. Устройства с поддержкой Gadgetbridge
 
-[Gadgetbridge](https://gadgetbridge.org/) is an open-source companion application for various smartwatches. It allows users to connect and manage their smartwatches independently, reducing reliance on proprietary apps. Gadgetbridge supports a range of privacy-focused devices, including the [Amazfit Bip](https://amzn.to/3MWQpc3), [galaxy devices](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Galaxy-Buds), [headphones](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Sony-Headphones), and several [Fitbit models](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/FitPro). By using Gadgetbridge, privacy enthusiasts can enjoy the functionality of their smartwatches while maintaining control over their data. Unfortunately **not all devices are supported equally** and the list is ever changing. To see a **list of supported devices** check out the [gadgetbridge github](https://github.com/Freeyourgadget/Gadgetbridge) 
+[Gadgetbridge](https://gadgetbridge.org/) — приложение-компаньон с открытым исходным кодом для разных умных часов. Оно позволяет подключать и настраивать их независимо от проприетарных приложений. Поддерживаются [часы Amazfit Bip](https://amzn.to/3MWQpc3), [устройства Galaxy](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Galaxy-Buds), [наушники](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Sony-Headphones) и несколько [моделей Fitbit](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/FitPro). Вы сохраняете контроль над данными. **Уровень поддержки зависит от устройства**, а список меняется. Актуальный **список поддерживаемых устройств** опубликован на [GitHub Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge).
 
 {{< youtube id="Nln9euIiQUQ" >}}
 
@@ -69,13 +70,13 @@ ______
 
 Помните, что перед покупкой всегда следует ознакомиться с техническими характеристиками и функциями каждого смарт-часа, чтобы убедиться, что он соответствует вашим требованиям к конфиденциальности.
 
-Смарт-часы | Характеристики | Поддерживаемые устройства | Открытый исходный код | Настраиваемость | Цена | Smartwatch | Features | Supported Devices | Open-Source | Customizability | Pricing |
-|---------------------|------------------------------------------------|------------------------------------|------------------------|---------------------|----------------|
-| AsteroidOS | Постоянно включенный дисплей, наклон и пробуждение, уведомления о телефоне | LG G Watch, LG Watch Urbane, Sony Smartwatch 3 | Да | Ограничено | $150-$200 |
-| PineTime | отслеживание фитнеса, уведомления | настраивается с помощью прошивки InfiniTime | да | ограниченно | $25-$50 |
-| The Watchy | Электронный дисплей, настраиваемые циферблаты, приложения | Настраиваемые | Да | Расширенные | $80-$100 |
-| Bangle.js 2 | Взламываемый, с открытым исходным кодом, на базе JavaScript | Настраиваемый | Да | Обширный | $60-$80 |
-| Поддерживаемые устройства с Gadgetbridge | Зависит от поддерживаемых устройств в Gadgetbridge | Amazfit Bip, устройства Galaxy, наушники, модели Fitbit | Да | Ограничено | Зависит |
+| Смарт-часы | Возможности | Поддерживаемые устройства | Открытый исходный код | Настраиваемость | Цена |
+| --- | --- | --- | --- | --- | --- |
+| AsteroidOS | Постоянное отображение, пробуждение наклоном, уведомления телефона | LG G Watch, LG Watch Urbane, Sony Smartwatch 3 | Да | Ограниченная | $150-$200 |
+| PineTime | Отслеживание физической активности, уведомления | Настраивается с прошивкой InfiniTime | Да | Ограниченная | $25-$50 |
+| The Watchy | Дисплей на электронных чернилах, настраиваемые циферблаты, приложения | Настраиваемый | Да | Широкая | $80-$100 |
+| Bangle.js 2 | Возможность модификации, открытый исходный код, JavaScript | Настраиваемый | Да | Широкая | $60-$80 |
+| Устройства с поддержкой Gadgetbridge | Зависит от списка поддерживаемых устройств Gadgetbridge | Amazfit Bip, устройства Galaxy, наушники, модели Fitbit | Да | Ограниченная | Разная |
 
 ______
 
@@ -83,9 +84,9 @@ ______
 
 1. [AsteroidOS](https://asteroidos.org/)
 2. [PineTime](https://www.pine64.org/pinetime/)
-3. [InfiniTime Firmware](https://github.com/JF002/InfiniTime)
-4. [The Watchy by Squarofumi](https://watchy.sqfmi.com/)
-5. [Bangle.js 2 Smartwatch](https://banglejs.com/)
+3. [прошивка InfiniTime](https://github.com/JF002/InfiniTime)
+4. [The Watchy от Squarofumi](https://watchy.sqfmi.com/)
+5. [часы Bangle.js 2](https://banglejs.com/)
 6. [Gadgetbridge](https://gadgetbridge.org/)
 7. [Amazfit](https://www.amazfit.com/)
 8. [Garmin](https://www.garmin.com/)

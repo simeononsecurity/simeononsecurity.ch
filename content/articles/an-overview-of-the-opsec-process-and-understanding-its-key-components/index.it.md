@@ -1,6 +1,7 @@
 ---
 title: "Comprendere le componenti chiave del processo OPSEC per un'efficace protezione delle informazioni"
 date: 2023-06-15
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Esplorate i componenti critici del processo OPSEC e imparate a proteggere efficacemente le informazioni sensibili."
@@ -54,7 +55,7 @@ Diverse normative governative forniscono linee guida e requisiti per l'implement
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) L'HIPAA stabilisce gli standard di sicurezza per la protezione delle informazioni sanitarie sensibili dei pazienti nel settore sanitario.
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): Il Regolamento generale sulla protezione dei dati (GDPR) è un regolamento che stabilisce linee guida per proteggere i dati personali nell’Unione europea (UE).
 
 Rispettando queste normative, le organizzazioni possono assicurarsi di disporre di misure adeguate per proteggere le informazioni sensibili ed evitare ripercussioni legali.
 

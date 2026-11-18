@@ -1,6 +1,7 @@
 ---
 title: "Erkennen von Phishing-Versuchen: Allgemeine Indikatoren und Sicherheitstipps"
 date: 2023-06-18
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ein umfassender Leitfaden zur Erkennung gängiger Anzeichen für Phishing-Versuche und praktische Tipps, um online sicher zu bleiben."
@@ -48,7 +49,7 @@ Bei Phishing-Versuchen werden in der Regel persönliche Daten wie Passwörter, S
 
 Seien Sie vorsichtig bei unerwarteten E-Mail-Anhängen, vor allem, wenn sie von unbekannten Absendern stammen. Phishing-E-Mails können Anhänge enthalten, die bösartige Software oder Viren enthalten. Öffnen Sie keine Anhänge, es sei denn, Sie erwarten sie und haben die Quelle überprüft.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Tipps für mehr Sicherheit im Internet**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Da Sie nun die üblichen Anzeichen für Phishing-Versuche kennen, finden Sie hier einige Tipps, wie Sie sich im Internet schützen können:
 

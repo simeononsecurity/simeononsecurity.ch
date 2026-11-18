@@ -1,12 +1,12 @@
 ---
 title: "1Password SSH Agent and CLI: Accesso in sola lettura per agenti AI"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Progetta un flusso di lavoro SSH in sola lettura con 1Password CLI, SSH Agent e MCP. Utilizza comandi sintetici, permessi ristretti e approvazione umana prima dei test live."
-genre: ["System Administration", "Cloud Security", "Automation"]
-tags: ["1Password CLI", "SSH keys", "1Password SSH Agent", "MCP", "Model Context Protocol", "agent administration", "systems administration", "Bitbucket Cloud", "Git over SSH", "secret references", "service accounts", "least privilege", "public key authentication", "secret management", "command line security", "automation safety"]
+genre: ["Amministrazione dei sistemi", "Sicurezza cloud", "Automazione"]
+tags: ["1Password CLI", "chiavi SSH", "1Password SSH Agent", "MCP", "Model Context Protocol", "amministrazione degli agenti", "amministrazione dei sistemi", "Bitbucket Cloud", "Git tramite SSH", "riferimenti ai segreti", "account di servizio", "privilegio minimo", "autenticazione a chiave pubblica", "gestione dei segreti", "sicurezza della riga di comando", "sicurezza dell'automazione"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "Diagramma astratto di un agente che utilizza un riferimento segreto, un SSH agent e strumenti MCP senza mostrare le chiavi private."
 coverCaption: ""
@@ -82,7 +82,7 @@ Bitbucket Cloud utilizza il normale flusso di lavoro da riga di comando Git e Op
 
 **Tratta Bitbucket come consumatore della chiave pubblica.** Registra la chiave pubblica o l'impronta digitale tramite l'account Bitbucket approvato o l'impostazione del repository. Mantieni la chiave privata in 1Password. Il client Git chiede all'agente SSH di firmare. Il client non legge un file di chiave privata.
 
-Per l'ambito della chiave di accesso Bitbucket, il percorso di registrazione e il test Git in sola lettura, consulta [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+Per l'ambito della chiave di accesso Bitbucket, il percorso di registrazione e il test Git in sola lettura, consulta [Chiavi SSH di Bitbucket Cloud e CLI Git: accesso in sola lettura per agenti IA](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 La documentazione di Bitbucket definisce questo un flusso di lavoro Git CLI. Questo articolo non presuppone un server MCP Bitbucket separato o un prodotto denominato Bitbucket CLI. Un CLI specifico per Bitbucket richiede la propria documentazione aggiornata e la propria revisione dei permessi.
 
@@ -163,10 +163,10 @@ Annota la classe del target, l'account remoto, il repository o il comando previs
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: verifica di connettività in sola lettura
+host_key_source: record approvato dall’amministratore
+approval_owner: operatore designato
+rollback: rimuovere la chiave pubblica e revocare l’identità di prova
 ```
 
 **Risultato atteso, non testato:** Il record identifica un singolo target e una singola operazione. Il record non contiene hostname, indirizzo IP, token, chiave privata o dati personali.
@@ -239,7 +239,7 @@ La seguente sequenza mostra l'ordine senza utilizzare infrastruttura reale. Ques
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Solo su macOS o Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```
@@ -337,7 +337,7 @@ Interrompi il flusso di lavoro e ruota la chiave. Ispeziona la risposta del serv
 
 ### L'elenco delle chiavi contiene troppe identità
 
-L'agente SSH di 1Password espone le chiavi idonee dalle vault configurate. Utilizza una configurazione dell'agente con ambito specifico o una configurazione SSH specifica per host. La [documentazione dell'agente](https://www.1password.dev/ssh/agent)] nota anche il limite di sei chiavi del server OpenSSH.
+L'agente SSH di 1Password espone le chiavi idonee dalle vault configurate. Utilizza una configurazione dell'agente con ambito specifico o una configurazione SSH specifica per host. La [documentazione dell'agente](https://www.1password.dev/ssh/agent) nota anche il limite di sei chiavi del server OpenSSH.
 
 ### Un comando funziona manualmente ma fallisce in un job
 

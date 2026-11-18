@@ -1,7 +1,7 @@
 ---
 title: "Claves SSH de Bitbucket Cloud: acceso Git de solo lectura para agentes de IA"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Configure claves SSH de Bitbucket Cloud, acceso Git CLI, tokens REST API, 1Password y herramientas MCP para flujos de trabajo de agentes de IA de solo lectura."
@@ -138,7 +138,7 @@ La [guía de Atlassian sobre varias claves de acceso a repositorios](https://sup
 Ejemplo portable con archivos:
 
 ```ini
-# .gitconfig inside one local repository
+# .gitconfig dentro de un repositorio local
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

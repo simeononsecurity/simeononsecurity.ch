@@ -1,7 +1,7 @@
 ---
 title: "ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਉੱਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਦਾ ਅਸਰ ਅਤੇ ਇਸ ਨਾਲ ਕਿਵੇਂ ਢਲਣਾ ਹੈ"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ਜਾਣੋ ਕਿ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਖ਼ਤਰੇ ਲੱਭਣ, ਤਰਜੀਹ ਦੇਣ ਅਤੇ ਜਵਾਬ ਦੇਣ ਵਿੱਚ ਕਿਵੇਂ ਮਦਦ ਕਰਦੀ ਹੈ, ਨਾਲ ਹੀ ਲਾਗੂ ਕਰਨ ਦੀਆਂ ਹੱਦਾਂ ਅਤੇ ਸੁਰੱਖਿਆ ਜੋਖਮ।"
@@ -67,6 +67,6 @@ ______
 
 ## ਹਵਾਲੇ
 
-1. “ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਕੀ ਹੈ?” Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (4 ਮਾਰਚ 2023 ਨੂੰ ਵੇਖਿਆ ਗਿਆ)।
-2. “ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਸ਼ੀਨ ਲਰਨਿੰਗ।” Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (4 ਮਾਰਚ 2023 ਨੂੰ ਵੇਖਿਆ ਗਿਆ)।
-3. “ਡਾਟਾ ਅਤੇ ਡਿਵਾਈਸਾਂ ਦੀ ਸੁਰੱਖਿਆ।” National Institute of Standards and Technology. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (4 ਮਾਰਚ 2023 ਨੂੰ ਵੇਖਿਆ ਗਿਆ)।
+1. “ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਕੀ ਹੈ?” Cisco. [Cisco ਦੀ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਗਾਈਡ](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (4 ਮਾਰਚ 2023 ਨੂੰ ਵੇਖਿਆ ਗਿਆ)।
+2. “ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਸ਼ੀਨ ਲਰਨਿੰਗ।” Cylance. [ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਵਿੱਚ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਬਾਰੇ Cylance ਲੇਖ](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (4 ਮਾਰਚ 2023 ਨੂੰ ਵੇਖਿਆ ਗਿਆ)।
+3. “ਡਾਟਾ ਅਤੇ ਡਿਵਾਈਸਾਂ ਦੀ ਸੁਰੱਖਿਆ।” National Institute of Standards and Technology. [ਡਾਟਾ ਅਤੇ ਜੰਤਰਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ NIST ਗਾਈਡ](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (4 ਮਾਰਚ 2023 ਨੂੰ ਵੇਖਿਆ ਗਿਆ)।

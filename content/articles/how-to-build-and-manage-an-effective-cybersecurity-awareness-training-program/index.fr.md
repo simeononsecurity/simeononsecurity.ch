@@ -1,7 +1,7 @@
 ---
 title: "Créer un programme efficace de sensibilisation à la cybersécurité"
 date: 2023-02-18
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Apprenez à élaborer et à gérer un programme efficace de sensibilisation à la cybersécurité qui réduit le risque de cyber-attaques et protège les données sensibles."
@@ -10,7 +10,7 @@ cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_w
 coverAlt: "Une image animée d'un groupe d'employés réunis autour d'un ordinateur ou d'un expert en sécurité expliquant des concepts de cybersécurité sur un tableau blanc."
 coverCaption: ""
 ---
- Construire et gérer un programme efficace de sensibilisation à la cybersécurité**
+**Comment créer et gérer un programme efficace de formation à la sensibilisation à la cybersécurité**
 
 Dans le monde actuel dominé par la technologie, les menaces de cybersécurité deviennent de plus en plus sophistiquées et omniprésentes. Les cybercriminels peuvent s'introduire dans les systèmes les plus sécurisés et voler des données sensibles, ce qui peut entraîner d'importantes pertes financières et de réputation pour les organisations. Pour se protéger contre de telles menaces, il est essentiel de disposer d'un **programme efficace de sensibilisation à la cybersécurité**. Cet article décrit les étapes nécessaires à l'élaboration et à la gestion d'un programme efficace de sensibilisation à la cybersécurité, en le comparant à la norme NIST 800-50 sur le même sujet et en l'améliorant.
 
@@ -82,7 +82,7 @@ Pour élaborer et gérer un programme efficace de sensibilisation à la cybersé
 
 ### 1. Adapter le contenu de la formation au public cible
 
-Pour garantir l'efficacité de la formation, il est essentiel d'adapter le contenu au public cible**. Les différents rôles professionnels ont des niveaux d'exposition aux cyber-risques différents et nécessitent une formation spécifique. Par exemple, la formation destinée au personnel informatique doit être plus technique et détaillée, tandis que la formation destinée au personnel non technique doit être plus basique et axée sur des conseils pratiques. En adaptant le contenu de la formation au public cible, les organisations peuvent s'assurer que la formation est pertinente, attrayante et efficace.
+Pour garantir l'efficacité de la formation, il est essentiel d’**adapter le contenu au public cible**. Les différents rôles professionnels ont des niveaux d'exposition aux cyber-risques différents et nécessitent une formation spécifique. Par exemple, la formation destinée au personnel informatique doit être plus technique et détaillée, tandis que la formation destinée au personnel non technique doit être plus basique et axée sur des conseils pratiques. En adaptant le contenu de la formation au public cible, les organisations peuvent s'assurer que la formation est pertinente, attrayante et efficace.
 
 ______
 

@@ -1,6 +1,7 @@
 ---
 title: "了解有效信息保护的 OPSEC 流程的关键组成部分"
 date: 2023-06-15
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "探索 OPSEC 流程的关键组成部分，学习如何有效保护敏感信息。"
@@ -54,7 +55,7 @@ ______
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)HIPAA 为保护医疗保健领域敏感的病人健康信息制定了安全标准。
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR 是一项法规，为欧盟（EU）境内个人数据的保护制定了指导原则。
 
 通过遵守这些法规，组织可以确保他们有足够的措施来保护敏感信息并避免法律后果。
 

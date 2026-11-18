@@ -48,7 +48,7 @@ tags:
 cover: /img/cover/active-directory-module-powershell-installation-usage-guide.webp
 coverAlt: एक कंप्यूटर स्क्रीन का चित्र जिसमें PowerShell कंसोल रंगीन cmdlets के साथ दिख रहा है, जिसके चारों ओर उपयोगकर्ता खाते और समूहों के सारगर्भित प्रतिनिधित्व हैं, और पृष्ठभूमि गहरे रंग की है।
 coverCaption: PowerShell के साथ Active Directory प्रशासन की शक्ति को अनलॉक करें।
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 ---
 
 ## परिचय
@@ -69,7 +69,7 @@ Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 -Online
 
 1. स्थापना पूरी होने तक प्रतीक्षा करें। समाप्त होने के बाद, आप Active Directory मॉड्यूल का उपयोग शुरू कर सकते हैं।
 
-### Windows Server 
+### Windows Server
 1. **Windows PowerShell** को प्रशासनिक अधिकारों के साथ खोलें।
 2. मॉड्यूल इंस्टॉल करने के लिए निम्नलिखित कमांड चलाएं:
 
@@ -224,29 +224,29 @@ Active Directory (AD) ऑब्जेक्ट्स के प्रबंध�
 
 ## PowerShell के लिए उदाहरण Active Directory मॉड्यूल स्क्रिप्ट
 ```powershell
-# Import Active Directory module
+# Active Directory मॉड्यूल आयात करें
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# Active Directory की जानकारी प्राप्त करें
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# नया Active Directory उपयोगकर्ता बनाएँ
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# नया Active Directory समूह बनाएँ
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# नई Active Directory संगठनात्मक इकाई बनाएँ
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# Active Directory ऑब्जेक्ट संशोधित करें
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# Active Directory सुरक्षा प्रबंधित करें
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

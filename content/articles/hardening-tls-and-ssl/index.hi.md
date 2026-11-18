@@ -1,7 +1,7 @@
 ---
 title: "SSL और TLS 1.1 तथा उससे पुराने संस्करण बंद करके कंप्यूटर की सुरक्षा मजबूत करें"
 date: 2023-02-08
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "TLS 1.2 या नया संस्करण चालू रखते हुए SSL और पुराने TLS संस्करण बंद करें। इसमें Windows Schannel, .NET और Linux सेवाएँ शामिल हैं।"
@@ -42,17 +42,17 @@ Function Disable-Protocol {
     Set-ItemProperty -Path $ClientPath -Force -Name Enabled -Type "DWORD" -Value 0
     Set-ItemProperty -Path $ClientPath -Force -Name DisabledByDefault -Type "DWORD" -Value 1
 }
-# Disable SSL v2
+# SSL v2 अक्षम करें
 Disable-Protocol -Protocol "SSL 2.0"
-# Disable SSL v3
+# SSL v3 अक्षम करें
 Disable-Protocol -Protocol "SSL 3.0"
-# Disable TLS 1.0
+# TLS 1.0 अक्षम करें
 Disable-Protocol -Protocol "TLS 1.0"
-# Disable DTLS 1.0
+# DTLS 1.0 अक्षम करें
 Disable-Protocol -Protocol "DTLS 1.0"
-# Disable TLS 1.1
+# TLS 1.1 अक्षम करें
 Disable-Protocol -Protocol "TLS 1.1"
-# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
+# DTLS 1.1 प्रोटोकॉल मौजूद नहीं है। RFC 8996, DTLS 1.0 को अप्रचलित घोषित करता है और DTLS 1.2 को बनाए रखता है।
 
 function Set-NETStrongAuthentication {
     param(

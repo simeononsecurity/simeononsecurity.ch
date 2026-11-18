@@ -1,7 +1,7 @@
 ---
 title: "دليل المسار المهني للأمن السيبراني 2026"
 date: 2023-06-24
-lastmod: 2026-11-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "دليل مهني للأمن السيبراني لعام 2026 يتناول المهارات والشهادات والرواتب والمسارات الوظيفية وأبحاث سوق العمل."
@@ -152,23 +152,23 @@ ______
 
 **Python للأمن السيبراني** (أهم لغة):
 ```python
-# Example: Automated security scanning script
+# مثال: برنامج آلي لفحص الأمان
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    ينفّذ فحصًا آليًا للثغرات
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
-    
+
     results = {
         'host': target_ip,
         'open_ports': [],
         'vulnerabilities': []
     }
-    
+
     for host in nm.all_hosts():
         for proto in nm[host].all_protocols():
             ports = nm[host][proto].keys()
@@ -179,7 +179,7 @@ def security_scan(target_ip):
                     'service': service['name'],
                     'version': service['version']
                 })
-    
+
     return json.dumps(results, indent=2)
 ```
 
@@ -295,10 +295,10 @@ def security_scan(target_ip):
 
 **تطوير مهارات التواصل**:
 ```
-Entry Level: Write clear incident reports
-Mid-Level: Present security updates to management
-Senior:Lead security strategy discussions with executives
-Executive: Communicate security posture to board of directors
+مبتدئ: كتابة تقارير واضحة عن الحوادث الأمنية
+متوسط المستوى: عرض مستجدات الأمن على الإدارة
+متقدم: قيادة مناقشات استراتيجية الأمن مع المسؤولين التنفيذيين
+قيادي: عرض وضع الأمن على مجلس الإدارة
 ```
 
 ### المهارات الناشئة في 2026 وما بعدها
@@ -442,15 +442,15 @@ ______
 
 **التدرج المهني**:
 ```
-Junior SOC Analyst (0-2 years) → $55,000-75,000
+محلل SOC مبتدئ (0-2 سنوات) → $55,000-75,000
     ↓
-SOC Analyst II (2-4 years) → $75,000-95,000
+محلل SOC II (2-4 سنوات) → $75,000-95,000
     ↓
-Senior SOC Analyst (4-7 years) → $95,000-120,000
+محلل SOC أقدم (4-7 سنوات) → $95,000-120,000
     ↓
-SOC Team Lead (7-10 years) → $120,000-145,000
+قائد فريق SOC (7-10 سنوات) → $120,000-145,000
     ↓
-SOC Manager (10+ years) → $145,000-180,000
+مدير SOC (10+ سنوات) → $145,000-180,000
 ```
 
 **المهارات المطلوبة**:
@@ -480,15 +480,15 @@ SOC Manager (10+ years) → $145,000-180,000
 
 **التدرج المهني**:
 ```
-Junior Penetration Tester (0-2 years) → $70,000-90,000
+مختبر اختراق مبتدئ (0-2 سنوات) → $70,000-90,000
     ↓
-Penetration Tester (2-5 years) → $95,000-130,000
+مختبر اختراق (2-5 سنوات) → $95,000-130,000
     ↓
-Senior Penetration Tester (5-8 years) → $130,000-165,000
+مختبر اختراق أقدم (5-8 سنوات) → $130,000-165,000
     ↓
-Lead Pentester / Red Team Lead (8-12 years) → $165,000-200,000
+قائد اختبار اختراق / قائد الفريق الأحمر (8-12 سنوات) → $165,000-200,000
     ↓
-Principal Security Consultant (12+ years) → $200,000-275,000+
+مستشار رئيسي للأمن (12+ سنوات) → $200,000-275,000+
 ```
 
 **المهارات المطلوبة**:
@@ -519,15 +519,15 @@ Principal Security Consultant (12+ years) → $200,000-275,000+
 
 **التدرج المهني**:
 ```
-Junior Security Engineer (0-2 years) → $75,000-95,000
+مهندس أمن مبتدئ (0-2 سنوات) → $75,000-95,000
     ↓
-Security Engineer (2-5 years) → $105,000-135,000
+مهندس أمن (2-5 سنوات) → $105,000-135,000
     ↓
-Senior Security Engineer (5-8 years) → $135,000-170,000
+مهندس أمن أقدم (5-8 سنوات) → $135,000-170,000
     ↓
-Security Architect (8-12 years) → $170,000-220,000
+مهندس معماري للأمن (8-12 سنوات) → $170,000-220,000
     ↓
-Principal/Lead Security Architect (12+ years) → $220,000-300,000+
+مهندس معماري رئيسي/قائد للأمن (12+ سنوات) → $220,000-300,000+
 ```
 
 **المهارات المطلوبة**:
@@ -558,15 +558,15 @@ Principal/Lead Security Architect (12+ years) → $220,000-300,000+
 
 **التدرج المهني**:
 ```
-Junior Cloud Security Engineer (0-2 years) → $80,000-100,000
+مهندس أمن سحابي مبتدئ (0-2 سنوات) → $80,000-100,000
     ↓
-Cloud Security Engineer (2-5 years) → $115,000-145,000
+مهندس أمن سحابي (2-5 سنوات) → $115,000-145,000
     ↓
-Senior Cloud Security Engineer (5-8 years) → $145,000-185,000
+مهندس أمن سحابي أقدم (5-8 سنوات) → $145,000-185,000
     ↓
-Cloud Security Architect (8-12 years) → $185,000-235,000
+مهندس معماري للأمن السحابي (8-12 سنوات) → $185,000-235,000
     ↓
-Principal Cloud Security Architect (12+ years) → $235,000-320,000+
+مهندس معماري رئيسي للأمن السحابي (12+ سنوات) → $235,000-320,000+
 ```
 
 **المهارات المطلوبة**:
@@ -597,15 +597,15 @@ Principal Cloud Security Architect (12+ years) → $235,000-320,000+
 
 **التدرج المهني**:
 ```
-Junior GRC Analyst (0-2 years) → $60,000-78,000
+محلل GRC مبتدئ (0-2 سنوات) → $60,000-78,000
     ↓
-GRC Analyst (2-4 years) → $78,000-98,000
+محلل GRC (2-4 سنوات) → $78,000-98,000
     ↓
-Senior GRC Analyst (4-7 years) → $98,000-125,000
+محلل GRC أقدم (4-7 سنوات) → $98,000-125,000
     ↓
-GRC Manager (7-10 years) → $125,000-155,000
+مدير GRC (7-10 سنوات) → $125,000-155,000
     ↓
-Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,000+
+مدير الامتثال / رئيس الامتثال (10+ سنوات) → $155,000-225,000+
 ```
 
 **المهارات المطلوبة**:
@@ -636,15 +636,15 @@ Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,0
 
 **التدرج المهني**:
 ```
-Junior Incident Response Analyst (0-2 years) → $65,000-85,000
+محلل استجابة للحوادث مبتدئ (0-2 سنوات) → $65,000-85,000
     ↓
-Incident Response Analyst (2-5 years) → $90,000-115,000
+محلل استجابة للحوادث (2-5 سنوات) → $90,000-115,000
     ↓
-Senior Incident Responder (5-8 years) → $115,000-150,000
+مختص أقدم في الاستجابة للحوادث (5-8 سنوات) → $115,000-150,000
     ↓
-Incident Response Team Lead (8-12 years) → $150,000-190,000
+قائد فريق الاستجابة للحوادث (8-12 سنوات) → $150,000-190,000
     ↓
-Director of Incident Response (12+ years) → $190,000-250,000+
+مدير الاستجابة للحوادث (12+ سنوات) → $190,000-250,000+
 ```
 
 **المهارات المطلوبة**:
@@ -850,39 +850,39 @@ ______
 **بنية السيرة الذاتية**:
 
 ```
-[Your Name]
-[LinkedIn URL] | [GitHub URL] | [Email] | [Phone] | [Location]
+[اسمك]
+[URL الخاص بـLinkedIn] | [URL الخاص بـGitHub] | [البريد الإلكتروني] | [رقم الهاتف] | [الموقع]
 
-SUMMARY
-Results-driven cybersecurity professional with hands-on experience in [specific skills]. 
-Certified in [certifications]. Passionate about [specific security area].
+الملخص
+متخصص في الأمن السيبراني يركز على النتائج، ولديه خبرة عملية في [مهارات محددة].
+حاصل على شهادات في [الشهادات]، ومهتم بـ[مجال أمني محدد].
 
-TECHNICAL SKILLS
-- Security: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
-- Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
-- Programming: Python, PowerShell, Bash, SQL
-- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
+المهارات التقنية
+- الأمن: SIEM (Splunk, ELK)، IDS/IPS (Snort, Suricata)، WAF، EDR
+- السحابة: AWS (Security Groups, IAM, GuardDuty)، Azure (NSGs, Sentinel)
+- الأدوات: Wireshark، Nmap، Burp Suite، Metasploit، Nessus
+- البرمجة: Python، PowerShell، Bash، SQL
+- الأطر: NIST CSF، MITRE ATT&CK، OWASP Top 10
 
-CERTIFICATIONS
-- CompTIA Security+ (Date)
-- AWS Certified Security Specialty (Date)
-- [Other relevant certs]
+الشهادات
+- CompTIA Security+ (التاريخ)
+- AWS Certified Security Specialty (التاريخ)
+- [شهادات أخرى ذات صلة]
 
-PROFESSIONAL EXPERIENCE
-[Company Name] - [Security Role] (Dates)
-- QUANTIFY achievements (Reduced false positives by 40%)
-- USE security keywords (SIEM, incident response, threat hunting)
-- SHOW impact (Identified and remediated 15 critical vulnerabilities)
+الخبرة المهنية
+[اسم الشركة] - [الدور الأمني] (التواريخ)
+- اذكر إنجازاتك بالأرقام (مثل خفض التنبيهات الكاذبة بنسبة 40%)
+- أدرج الكلمات المفتاحية الأمنية (SIEM، الاستجابة للحوادث، البحث عن التهديدات)
+- وضّح الأثر (مثل تحديد 15 ثغرة حرجة ومعالجتها)
 
-PROJECTS (If entry-level or career changer)
-[Project Name] - [Technology Stack]
-- Built [specific security tool/system]
-- Demonstrates [specific skills]
-- GitHub: [link]
+المشروعات (للمبتدئين أو لمن يغيّرون مسارهم المهني)
+[اسم المشروع] - [مجموعة التقنيات]
+- أنشئ [أداة/نظام أمني محدد]
+- أظهر [مهارات محددة]
+- GitHub: [الرابط]
 
-EDUCATION
-[Degree] in [Field], [University] (Date)
+التعليم
+[الدرجة العلمية] في [التخصص]، [الجامعة] (التاريخ)
 ```
 
 **نصائح للسيرة الذاتية**:
@@ -966,18 +966,17 @@ EDUCATION
 
 **نموذج رسالة تفاوض**:
 ```
-Thank you for the offer. I'm excited about the opportunity to join [Company] as [Role].
+شكرًا على العرض. يسعدني أن تتاح لي فرصة الانضمام إلى [الشركة] بصفة [الدور].
 
-After reviewing the offer and researching market rates for this position in [Location], 
-I'd like to discuss the compensation package. Based on my [certifications/experience/skills], 
-I was hoping for a base salary in the range of $[X-Y].
+بعد مراجعة العرض والبحث عن معدلات السوق لهذا المنصب في [الموقع]، أود مناقشة حزمة التعويضات. وبناءً على [الشهادات/الخبرة/المهارات]، كنت آمل الحصول على راتب أساسي يتراوح بين $[X-Y].
 
-Additionally, I'd appreciate if we could discuss:
-- Annual training/certification budget
-- Remote work flexibility
-- [Other priorities]
+كما أقدّر أن نناقش النقاط التالية:
+- الميزانية السنوية للتدريب والشهادات
+- مرونة العمل عن بُعد
+- [أولويات أخرى]
 
-I'm confident I can deliver significant value to the team and look forward to discussing this further.
+أثق بأنني سأضيف قيمة كبيرة إلى الفريق، وأتطلع إلى مواصلة مناقشة الأمر.
+
 ```
 
 ______

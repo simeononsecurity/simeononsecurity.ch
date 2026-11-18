@@ -1,7 +1,7 @@
 ---
 title: "Estructura de directoris de Windows"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Guia completa 2026 sobre l'estructura de directoris de Windows incloent diagrames visuals, actualitzacions de Windows 11, consideracions de seguretat i tècniques expertes de navegació per a una gestió eficient de fitxers.
@@ -75,53 +75,53 @@ Al nivell més alt de l'estructura de directoris, tenim el **directori arrel**, 
 Aquí tens una representació visual completa de la jerarquia del sistema de fitxers de Windows:
 
 ```
-C:\ (Root Directory)
+C:\ (Directori arrel)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [Fitxers del sistema i components del sistema operatiu]
+│   ├── System32\              [Fitxers del sistema i executables de 64 bits]
+│   ├── SysWOW64\              [Capa de compatibilitat de 32 bits en sistemes de 64 bits]
+│   ├── Boot\                  [Configuració d’arrencada i fitxers d’inici]
+│   ├── Fonts\                 [Tipus de lletra del sistema]
+│   ├── Temp\                  [Fitxers temporals del sistema]
+│   ├── assembly\              [Assemblatges de .NET Framework]
+│   ├── inf\                   [Informació d’instal·lació dels controladors]
+│   ├── WinSxS\                [Magatzem de components Windows Side-by-Side]
+│   ├── Logs\                  [Fitxers de registre del sistema]
+│   └── Security\              [Polítiques i plantilles de seguretat]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [Aplicacions de 64 bits (en sistemes de 64 bits)]
+│   ├── Common Files\          [Components compartits dels programes]
+│   └── [Carpetes d’aplicacions]  [Programes instal·lats individuals]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [Aplicacions de 32 bits en sistemes de 64 bits]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [Carpetes d’aplicacions]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [Directoris dels perfils d’usuari]
+│   ├── Public\                [Fitxers d’usuari compartits]
+│   ├── [Nom d’usuari]\            [Perfils d’usuari individuals]
+│   │   ├── Desktop\           [Fitxers de l’escriptori]
+│   │   ├── Documents\         [Documents de l’usuari]
+│   │   ├── Downloads\         [Fitxers baixats]
+│   │   ├── Pictures\          [Imatges de l’usuari]
+│   │   ├── Videos\            [Vídeos de l’usuari]
+│   │   ├── Music\             [Fitxers d’àudio de l’usuari]
+│   │   ├── AppData\           [Dades de l’aplicació]
+│   │   │   ├── Local\         [Dades de l’aplicació específiques de l’equip]
+│   │   │   ├── LocalLow\      [Dades d’aplicació de baixa integritat]
+│   │   │   └── Roaming\       [Dades del perfil itinerant]
+│   │   ├── OneDrive\          [Fitxers sincronitzats al núvol (Windows 11)]
+│   │   └── Contacts\          [Contactes de l’usuari]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [Dades compartides de l’aplicació (ocultes)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [Dades de l’aplicació]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [Registres i informes de rendiment]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [Paperera de reciclatge (oculta)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [Punts de restauració del sistema (ocults)]
 ```
 
 ______
@@ -218,7 +218,7 @@ El **Directori de Fitxers Temporals** conté fitxers temporals generats per dive
 | **C:\Windows\Temp\** | Fitxers temporals a nivell de sistema | Recomanat setmanalment |
 | **C:\Users\username\AppData\Local\Temp\** | Fitxers temporals específics d'usuari | Recomanat setmanalment |
 | **C:\Temp\** | Ubicació temporal d'aplicacions antigues/personalitzades | Segons necessitat |
-| **%TEMP%** | Variable d'entorn que apunta al temp d'usuari | N/A (variable) |
+| **%TEMP%** | Variable d'entorn que apunta al temp d'usuari | No aplicable (variable) |
 
 **Millor pràctica de neteja:** Segons les millors pràctiques de Microsoft, els directoris temporals s'han d'esborrar mensualment. Storage Sense de Windows 11 pot automatitzar aquest procés. El 2026, el directori temporal mitjà acumula 2-10 GB mensuals.
 
@@ -303,9 +303,9 @@ El **Símbol del Sistema (CMD)** és una interfície de línia d'ordres que perm
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # Llista recursivament pels subdirectoris
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # Crea un directori nou
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **Comandes essencials de PowerShell:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # Canvia de directori (àlies: cd)
+Get-ChildItem                    # Llista els elements (àlies: dir, ls)
+Get-ChildItem -Recurse           # Llista recursivament
+Get-ChildItem -Force             # Mostra els elements ocults
+Test-Path [path]                 # Comprova si existeix el camí
+New-Item -ItemType Directory     # Crea un directori nou
+Remove-Item [path]               # Suprimeix l’element
+Get-Item [path]                  # Obté les propietats de l’element
+Resolve-Path [path]              # Converteix el camí relatiu en absolut
 ```
 
 **Exemple avançat de PowerShell:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# Cerca tots els fitxers .log de més de 10MB
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# Calcula la mida del directori
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "Mida del directori: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal (Estàndard 2026)
@@ -440,12 +440,12 @@ Windows utilitza **permisos NTFS** per controlar l'accés a directoris i fitxers
 
 **Exemple d'auditoria de permisos amb PowerShell:**
 ```powershell
-# Get ACL for a directory
+# Obté l’ACL d’un directori
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# Exporta els permisos a CSV
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **Solucions:**
 ```powershell
-# Take ownership of a file/folder
+# Pren la propietat d’un fitxer/carpeta
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# Concedeix permisos
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### Problema 3: El directori WinSxS ocupa massa espai
 
 **Solucions:**
-```cmd
-# Analyze component store
+```powershell
+# Analitza el magatzem de components
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# Neteja el magatzem de components
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# Elimina les versions substituïdes (irreversible)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - Eliminar dades d'aplicacions innecessàries
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# Mostra les carpetes més grans d’AppData
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. Mòduls de PowerShell
 
 ```powershell
-# Install useful modules
+# Instal·la mòduls útils
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# Llistat de directoris millorat amb icones
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **Habilitar Auditoria:**
 ```powershell
-# Enable file auditing via PowerShell
+# Activa l’auditoria de fitxers amb PowerShell
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Visualitzador d'Esdeveniments > Registres de Windows > Seguretat (ID d'Esdevenim
 - Desplegar filtres de fitxers per evitar tipus de fitxers no autoritzats
 
 ______
+
+## Notes sobre els camins actuals de Windows
+
+Windows conserva les mateixes carpetes principals en les versions d'escriptori compatibles, però alguns camins requereixen precaució:
+
+| Camí | Funció actual | Ús segur |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | Binàries i biblioteques natives del sistema per a l'arquitectura instal·lada. A Windows de 64 bits, els processos de 32 bits fan servir la capa Windows-on-Windows mitjançant **`SysWOW64`**. | No substitueixis fitxers manualment. Fes servir Windows Update, DISM o l'instal·lador del proveïdor. |
+| **`C:\Windows\WinSxS`** | Magatzem de components per al manteniment i la recuperació. Els enllaços físics fan que les estimacions de mida de l'Explorador siguin enganyoses. | Fes servir DISM per analitzar i netejar el magatzem de components. No n'eliminis fitxers. |
+| **`C:\Users\<name>\AppData`** | Estat de les aplicacions per usuari. `Local`, `LocalLow` i `Roaming` cobreixen necessitats diferents d'aplicacions i perfils. | Fes una còpia de seguretat de les dades de les aplicacions abans d'esborrar memòries cau. No donis per fet que totes les carpetes es poden eliminar. |
+| **Emmagatzematge de distribucions WSL 2** | Una distribució fa servir un disc virtual `ext4.vhdx` dins del directori `LocalState` del paquet. | Exporta o atura la distribució abans del manteniment del disc. No editis el disc virtual com si fos una carpeta normal. |
+
+El diagrama i els exemples antics continuen sent útils com a mapa. Microsoft documenta el camí del disc virtual de WSL 2 i explica per què la distribució s'emmagatzema en un disc dur virtual en comptes de fitxers ordinaris de Windows. El nom exacte del paquet varia segons la distribució i el mètode d'instal·lació. Consulta la [guia de Microsoft sobre l'espai de disc de WSL](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+Microsoft va acabar el suport de Windows 10 versió 22H2 el 14 d'octubre de 2025, excepte les edicions amb condicions de cicle de vida separades o un acord elegible d'Extended Security Update. El 2026, tracta Windows 10 com un cas de migració o gestió d'excepcions. Consulta l'[avís de Microsoft sobre el cicle de vida de Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+Els intervals de mida i els percentatges d'adopció de les seccions originals són xifres il·lustratives, no mesures d'aquest lloc. La mida del directori depèn del programari instal·lat, l'historial d'actualitzacions, el contingut del perfil i les polítiques de retenció. Comprova el sistema local abans d'eliminar res.
+
+## Llista de verificació per al manteniment segur de directoris
+
+1. Anota el camí, el propietari, l'ACL i la finalitat empresarial abans de canviar un directori protegit.
+2. Crea o confirma una còpia de seguretat recuperable abans d'eliminar dades d'aplicacions o canviar permisos.
+3. Prioritza eines compatibles com **Storage Sense**, **DISM**, **`robocopy`** i els desinstal·ladors d'aplicacions.
+4. Prova els canvis amb un compte d'usuari estàndard quan la tasca no requereixi elevació.
+5. Revisa el Visor d'esdeveniments i els registres de les aplicacions després del manteniment.
+6. Conserva un registre de reversió amb el camí original, l'ordre, l'hora i el resultat.
+
+**No facis servir `/MIR` amb una destinació que no hagis revisat.** `robocopy /MIR` elimina els fitxers de destinació que no són a l'origen.
+
 
 ## Conclusió
 

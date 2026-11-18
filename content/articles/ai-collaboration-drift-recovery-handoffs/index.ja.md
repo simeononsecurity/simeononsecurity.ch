@@ -1,7 +1,7 @@
 ---
 title: "AIエージェントのドリフト復旧と引き継ぎワークフロー"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "古いソースやポリシーアダプターを検出し、中断した公開を復旧して、エージェント間の独立した引き継ぎを検証します。"
@@ -46,14 +46,14 @@ coverCaption: ""
 ## 事前確認を行う
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+MAP-01 を読み、改訂番号を記録します。
+POL-01 を読み、現在のアダプターのバージョンを比較します。
+マップで示された場所から REQ-17 と RUN-04 を読みます。
+保護された main の config.json を読みます。
+固定された提案と各担当者の現在のレビューを読みます。
+現在の情報源をレビュー済みの基準と比較します。
+不一致、読み取り拒否、公開待ちを列挙します。
+担当者が不一致を解決するまで、影響の大きい書き込みを止めます。
 ```
 
 **作成者は草案の作成前に事前確認を行います。公開担当者は書き込み前に再確認します。**バージョン比較を提案と一緒に保存してください。週次チェックはこれらの読み取りを補いますが、置き換えるものではありません。
@@ -103,16 +103,16 @@ choices:
 ## 独立した引き継ぎを検証する
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+引き継ぎ: HANDOFF-042
+タスク: PROP-042
+マップとポリシー: 現在承認済みの改訂を添付
+証拠: 要件、runbook、設定の参照情報
+台帳: completed, failed, pending
+決定: 担当者の選択と固定された提案の改訂
+制限: 実行時削除のテストなし。本番データなし
+次の担当: 責任を持つ担当者
+次のアクション: 範囲を限定した1つの手順
+停止条件: 基準の変更、アクセス拒否、権限の競合
 ```
 
 **以前の会話ではなく、マップと引き継ぎ情報を使って**別のツールまたはクリーンなセッションを開きます。最新ソースの読み取り、新しいマニフェスト、保留中のアクションの特定を必須にします。手動のブラウザー証拠は、スナップショットと明記し、書き込み前に再確認すれば有効です。
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **補償変更は履歴の削除ではありません。**30日への変更の試み、失敗、後の復元は別々の記録として保持します。最終ソースには7と記載し、配信履歴には承認済み提案を完了できなかった理由を残します。
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+復旧の決定: 補正例
+元の提案: PROP-042 改訂 1
+観測された不一致: 要件 30、設定/runbook 7
+担当者の決定: 承認済みの基準意図を復元する
+レビュー対象: 固定された補正を現在の要件バージョンと照合する
+結果: 適用後の改訂を記録し、7日という値を再確認する
+元の提供状態: 理由を添えて撤回または保留にする
+制限: 実行時削除もデータ復元も行っていない
 ```
 
 **別の作成者が例外を加えた場合は明示的に維持します。**古いページ本文をそのまま貼り付けると、有効な途中変更を削除するおそれがあります。現状と意図したテキストを比較し、現在のバージョンに対する最小限の補償変更をレビューします。
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **クリーンなセッションと別のレビュアーを使います。**マップ、固定されたパッケージ、台帳、復旧判断を渡します。以前のチャットは渡しません。受信者に現在の意図、設定、運用手順、次に許可されたアクションを説明してもらいます。
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+マップに記された現在の情報源を個別に読みます。
+承認済みの意図、コミット済みの設定、提供状況を区別します。
+レビュー済みのパッケージと台帳に照らし合わせます。
+読み取り不足と変更された基準を列挙します。
+責任者を明記し、範囲を限定した次の手順を1つ提案します。
+この引き継ぎを承認や公開許可として扱わないでください。
 ```
 
 **期待する推論:** 受信者はベースラインを復元済みと説明する前に、補償変更の結果を確認します。引き継ぎから「7日」と繰り返すだけなら、独立した読み取り要件は未検証です。別の要約ではなくソースの証拠を求めます。
@@ -219,4 +219,4 @@ Do not treat this handoff as approval or publication permission.
 
 ## 次のステップ
 
-**両方のトラックと2人目の読み手を使って[Retention Capstone](/articles/ai-collaboration-retention-capstone/)を完了します。**最新ソースの読み取り、バージョンの不一致、判断オーナー、レビュー済みの復旧、読み戻し、独立した再構成を示してください。
+**両方のトラックと2人目の読み手を使って[保持期間の総まとめ](/articles/ai-collaboration-retention-capstone/)を完了します。**最新ソースの読み取り、バージョンの不一致、判断オーナー、レビュー済みの復旧、読み戻し、独立した再構成を示してください。

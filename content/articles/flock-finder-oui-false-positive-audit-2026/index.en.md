@@ -19,7 +19,7 @@ This was our project, our data pipeline, and our mistake. Flock Finder queried W
 
 **Reader outcome:** reproduce the audit, separate observation from attribution, and publish confidence at the same layer as the map marker and headline. A prefix match is evidence for investigation, not proof of a camera.
 
-When we finally ran a frequency histogram over the SSID column, the dataset explained the failure in minutes. ClickShare was only the largest category. Another 6,099 records named themselves `SMARTGATE_*`; 3,801 began with the generic WiFi Direct prefix `DIRECT-`; 314 were the exact name `AndroidAP`; 138 said `Audi HUD`; 133 said `MAX-PRINTER`; and 30 contained another detector's verdict string. In total, **60,793 rows, or 41.5%, matched the original audit's known-other naming rules.**
+When we finally ran a frequency histogram over the SSID column, the dataset explained the failure in minutes. ClickShare was only the largest category. Another 6,099 records named themselves `SMARTGATE_*`, 3,801 began with the generic WiFi Direct prefix `DIRECT-`, 314 were the exact name `AndroidAP`, 138 said `Audi HUD`, 133 said `MAX-PRINTER`, and 30 contained another detector's verdict string. In total, **60,793 rows, or 41.5%, matched the original audit's known-other naming rules.**
 
 We have now changed Flock Finder to publish evidence classes per record, exclude known-other hardware from the default map and headline, expose filters, flag records outside the primary market, and separate high-confidence prefixes from contract-manufacturer prefixes. This article documents the error, the evidence, and the limits that remain.
 
@@ -35,7 +35,7 @@ Community-built Flock detectors generally combine three kinds of wireless eviden
 
 OUI matching became common because it is cheap and passive. An inexpensive ESP32 can inspect nearby 802.11 frames without connecting to a network. A historical database such as [WiGLE](https://wigle.net/) also lets a project search past observations without deploying its own scanners.
 
-The method moved through a community lineage: [DeFlock](https://deflock.org/) mapping and local organizing; [colonelpanichacks/flock-you](https://github.com/colonelpanichacks/flock-you); forks and companion projects such as our own [flock-you-esp32](https://github.com/simeononsecurity/flock-you-esp32); and finally [Flock Finder](https://github.com/simeononsecurity/flock-finder), which applied the prefix list to WiGLE data at global scale.
+The method moved through a community lineage: [DeFlock](https://deflock.org/) mapping and local organizing, [colonelpanichacks/flock-you](https://github.com/colonelpanichacks/flock-you), forks and companion projects such as our own [flock-you-esp32](https://github.com/simeononsecurity/flock-you-esp32), and finally [Flock Finder](https://github.com/simeononsecurity/flock-finder), which applied the prefix list to WiGLE data at global scale.
 
 The original fieldwork deserves clear credit. [@NitekryDPaul](https://github.com/NitekryDPaul) observed 30 prefixes on real Flock equipment through promiscuous-mode research. [DeFlockJoplin](https://github.com/DeflockJoplin/flock-you) contributed another during field testing. Those observations were legitimate. Our downstream error was treating **“observed on a Flock camera” as if it meant “exclusive to Flock cameras.”**
 
@@ -106,7 +106,7 @@ The 3,502 confirmed rows contained 161 genuine SSID variants: 3,342 instances of
 
 ### Prefix Quality Varied Dramatically
 
-The false-positive rate was not uniform. Some prefixes retained a useful Flock signal; others were dominated by named office or consumer devices.
+The false-positive rate was not uniform. Some prefixes retained a useful Flock signal. Others were dominated by named office or consumer devices.
 
 {{< figure src="flock-finder-per-oui-composition.webp" alt="Horizontal stacked bars for 31 OUI prefixes showing Flock SSIDs in green, known-other SSIDs in red, hidden SSIDs in light gray, and unclassified records in dark gray" caption="The largest prefixes often contained the most known-other devices. Counts come from the 146,526-row audit snapshot." >}}
 
@@ -117,7 +117,7 @@ Consider two prefixes that the old map labeled identically:
 
 {{< figure src="flock-finder-prefix-signal-contrast.webp" alt="Comparison of prefix 70 C9 4E with 26.9 percent Flock SSIDs and 5.9 percent known other against prefix 74 4C A1 with 1.8 percent Flock SSIDs and 70.6 percent known other" caption="One flat label concealed opposite signal-to-noise ratios." >}}
 
-The same pattern appears in the biggest rows: `F4:6A:DD` had 8,422 known-other names against 327 Flock names; `D0:39:57` had 8,270 against 473; and `E0:4F:43` included 6,238 known-other names against 66 Flock names. Prefix volume was not evidence quality.
+The same pattern appears in the biggest rows: `F4:6A:DD` had 8,422 known-other names against 327 Flock names, `D0:39:57` had 8,270 against 473, and `E0:4F:43` included 6,238 known-other names against 66 Flock names. Prefix volume was not evidence quality.
 
 ______
 
@@ -176,7 +176,7 @@ OUI tiering limits damage but cannot make a shared manufacturer prefix product-s
 2,12,127,221:506f9a16030103,45,191,221:0050f208000000
 ```
 
-That sequence describes behavior of a particular firmware stack rather than ownership of a MAC block. Probe-request fingerprinting is an established device-identification technique; [published research on 802.11 MAC-layer fingerprinting](https://doi.org/10.1155/2017/6235484) shows that probe-request information elements can remain identifying when MAC addresses rotate. It also addresses the specific failure mode reported in [flock-you issue #43](https://github.com/colonelpanichacks/flock-you/issues/43): `Flock Camera net.` appearing on sequential locally administered MAC addresses across 2.4 and 5 GHz.
+That sequence describes behavior of a particular firmware stack rather than ownership of a MAC block. Probe-request fingerprinting is an established device-identification technique, [published research on 802.11 MAC-layer fingerprinting](https://doi.org/10.1155/2017/6235484) shows that probe-request information elements can remain identifying when MAC addresses rotate. It also addresses the specific failure mode reported in [flock-you issue #43](https://github.com/colonelpanichacks/flock-you/issues/43): `Flock Camera net.` appearing on sequential locally administered MAC addresses across 2.4 and 5 GHz.
 
 The signature still needs independent field validation across hardware and firmware versions, and malformed captures require defensive parsing. It is nevertheless the right direction. MAC randomization makes OUI-only matching a dead end on a timer.
 
@@ -196,7 +196,7 @@ Other Flock and ALPR mapping projects should audit their datasets too. This is a
 
 [WiGLE](https://www.wigle.net/stats/) is the broadest publicly accessible, globally searchable WiFi observation dataset we know of. That reach is exactly what made Flock Finder attractive: one API could turn a field-researched signature list into a worldwide map. It also made the error large enough to measure. A global database will return every unrelated product sharing a radio supplier's address space, not only the product that motivated the query.
 
-Other maps use different evidence. Some rely on photographs and volunteer field observations; others import OpenStreetMap surveillance tags, public records, vendor disclosures, or data from another community project. Their totals are not directly comparable to our WiGLE results, and our 2.4% SSID-confirmed rate should not be projected onto a field-verified dataset. The common risk is that one project's classification can flow into another project's source data, then appear to be independent corroboration.
+Other maps use different evidence. Some rely on photographs and volunteer field observations. Others import OpenStreetMap surveillance tags, public records, vendor disclosures, or data from another community project. Their totals are not directly comparable to our WiGLE results, and our 2.4% SSID-confirmed rate should not be projected onto a field-verified dataset. The common risk is that one project's classification can flow into another project's source data, then appear to be independent corroboration.
 
 Every public map should be able to answer a short audit:
 
@@ -250,7 +250,7 @@ for name, matches in families.items():
 PY
 ```
 
-For the exact historical input, use the CSV from that commit rather than a current generated dataset. The project stopped committing the large CSV, GeoJSON, and per-OUI files after the audit because each scan rewrote hundreds of megabytes and had grown the repository substantially. Current generated data is restored from and published to the rolling [`data-latest` release](https://github.com/simeononsecurity/flock-finder/releases/tag/data-latest); the small `scan_stats.json` summary remains in Git. A missing generated file on the current branch therefore does not mean the historical evidence was deleted or that its count became zero.
+For the exact historical input, use the CSV from that commit rather than a current generated dataset. The project stopped committing the large CSV, GeoJSON, and per-OUI files after the audit because each scan rewrote hundreds of megabytes and had grown the repository substantially. Current generated data is restored from and published to the rolling [`data-latest` release](https://github.com/simeononsecurity/flock-finder/releases/tag/data-latest). The small `scan_stats.json` summary remains in Git. A missing generated file on the current branch therefore does not mean the historical evidence was deleted or that its count became zero.
 
 ______
 

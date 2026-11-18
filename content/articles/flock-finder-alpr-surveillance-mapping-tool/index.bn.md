@@ -6,7 +6,7 @@ toc: true
 draft: false
 description: "Flock Finder একটি ওপেন-সোর্স টুল যা WiGLE WiFi ডেটা এবং OUI ফিঙ্গারপ্রিন্টিং ব্যবহার করে বিশ্বজুড়ে ৪০,০০০+ Flock Safety ALPR ক্যামেরার মানচিত্র তৈরি করে। এটি কীভাবে কাজ করে, এর সীমাবদ্ধতা এবং রিয়েল-টাইম সনাক্তকরণের জন্য হার্ডওয়্যার টুল সম্পর্কে জানুন।"
 genre: ["গোপনীয়তা প্রযুক্তি", "পাল্টা নজরদারি", "ওপেন সোর্স প্রকল্প", "ডিজিটাল অধিকার", "নেটওয়ার্ক নিরাপত্তা", "গোপনীয়তা সরঞ্জাম", "হার্ডওয়্যার হ্যাকিং", "নিরাপত্তা গবেষণা"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "লাইসেন্স প্লেট রিডার", "OUI ফিঙ্গারপ্রিন্টিং", "WiGLE", "WiFi নজরদারি", "পাল্টা নজরদারি", "STS Collective", "FlockYou", "ESP32", "গোপনীয়তা সরঞ্জাম", "NitekryDPaul", "DeFlockJoplin", "ALPR সনাক্তকরণ", "ওপেন সোর্স নিরাপত্তা", "নজরদারি মানচিত্র", "গণ নজরদারি", "WiFi OUI", "গোপনীয়তা সুরক্ষা", "MAC ঠিকানা", "Promiscuous মোড", "802.11", "রিয়েল-টাইম সনাক্তকরণ", "Wardriving", "ডিজিটাল অধিকার", "নাগরিক স্বাধীনতা", "নজরদারি সচেতনতা", "GitHub", "Python"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "লাইসেন্স প্লেট রিডার", "OUI ফিঙ্গারপ্রিন্টিং", "WiGLE", "WiFi নজরদারি", "পাল্টা নজরদারি", "STS Collective", "FlockYou", "ESP32", "গোপনীয়তা সরঞ্জাম", "NitekryDPaul", "DeFlockJoplin", "ALPR সনাক্তকরণ", "ওপেন সোর্স নিরাপত্তা", "নজরদারি মানচিত্র", "গণ নজরদারি", "WiFi OUI", "গোপনীয়তা সুরক্ষা", "MAC ঠিকানা", "Promiscuous মোড", "802.11", "রিয়েল-টাইম সনাক্তকরণ", "গাড়ি চালিয়ে WiFi নেটওয়ার্ক স্ক্যান", "ডিজিটাল অধিকার", "নাগরিক স্বাধীনতা", "নজরদারি সচেতনতা", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "একটি ইন্টারেক্টিভ মানচিত্র যা Flock Safety ALPR ক্যামেরার অবস্থান নির্দেশ করে রঙিন মার্কার প্রদর্শন করছে, একটি গাঢ় পটভূমিতে মার্কার থেকে বিমূর্ত WiFi সংকেত বিকিরিত হচ্ছে।"
 coverCaption: "Flock Finder WiGLE WiFi ডেটা এবং OUI ফিঙ্গারপ্রিন্টিং ব্যবহার করে ৪০,০০০+ সন্দেহভাজন Flock Safety ALPR ক্যামেরার মানচিত্র তৈরি করে।"
@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **একটি ওপেন-সোর্স নজরদারি সচেতনতা টুল যা ক্রাউডসোর্সড WiFi ডেটা ব্যবহার করে Flock Safety ALPR ক্যামেরার মানচিত্র তৈরি করে।**
+
+> **সংশোধন, ২১ সেপ্টেম্বর ২০২৬:** আমরা 146,526টি রেকর্ডের মূল ডেটাসেট নিরীক্ষা করে দেখেছি, OUI মিল থেকে কী প্রমাণ করা যায় সে বিষয়ে আগের শিরোনাম ও একই রকম মানচিত্র-চিহ্ন অতিরঞ্জিত দাবি করেছিল। নিরীক্ষায় 50,278টি Barco ClickShare সিস্টেম এবং পরিচিত অন্যান্য নামের নিয়মে মেলা 60,793টি রেকর্ড পাওয়া গেছে। Flock Finder এখন প্রমাণের শ্রেণি প্রকাশ করে, ডিফল্ট মানচিত্র ও শিরোনাম থেকে ওই রেকর্ড বাদ দেয়, এবং আস্থার স্তর অনুযায়ী ফিল্টার দেয়। পূর্ণ পদ্ধতি ও সংশোধনটি পড়ুন: **[আমরা 146,526টি “Flock ক্যামেরা” মানচিত্রে দেখিয়েছিলাম। এর 50,278টি ছিল ClickShare সিস্টেম](/articles/flock-finder-oui-false-positive-audit-2026/)**.
 
 ## Flock Finder কী?
 
@@ -37,6 +39,10 @@ Flock Safety ALPR নজরদারি গোপনীয়তার জন্
 ______
 
 ## এটি কীভাবে কাজ করে: WiGLE-এর মাধ্যমে OUI ফিঙ্গারপ্রিন্টিং
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="চিত্রে দেখানো হয়েছে, Flock Finder কীভাবে WiGLE-এর WiFi MAC প্রিফিক্সের সঙ্গে পরিচিত OUI মিলিয়ে মানচিত্রে ক্যামেরার অবস্থান অনুমান করে" >}}
 
 ### মূল অন্তর্দৃষ্টি
 
@@ -116,34 +122,34 @@ ______
 ### সেটআপ
 
 ```bash
-# Clone the repository
+# রিপোজিটরিটি ক্লোন করুন
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# নির্ভরতা ইনস্টল করুন
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# WiGLE API শংসাপত্র সেট আপ করুন
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# WiGLE API নাম ও টোকেন দিয়ে .env সম্পাদনা করুন
 ```
 
-### স্ক্যানার চালানো
+### স্ক্যান চালানো
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# পূর্ণ স্ক্যান — বিশ্বজুড়ে সব 31টি OUI প্রিফিক্স
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# একক OUI পরীক্ষা
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# শুধু যুক্তরাষ্ট্র
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# নির্দিষ্ট বাউন্ডিং বক্স (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# ড্রাই রান — প্রমাণীকরণ যাচাই, API কোয়েরি নয়
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,7 +157,7 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# ব্রাউজারে http://localhost:8080 খুলুন
 ```
 
 ### GitHub Actions-এর মাধ্যমে স্বয়ংক্রিয় দৈনিক আপডেট
@@ -181,6 +187,8 @@ WiGLE মানচিত্র আপনাকে বলে যেখানে �
 - USB-C-এর মাধ্যমে চালিত (কার অ্যাডাপ্টার, পাওয়ার ব্যাংক বা ল্যাপটপ)
 
 > 💰 **এক্সক্লুসিভ ছাড়**: সমস্ত STS Collective FlockYou ডিভাইসে **২০% ছাড়** পেতে **FLOCKFINDER** কোড ব্যবহার করুন — অথবা আপনার সম্পূর্ণ অর্ডারে ২০% পর্যন্ত ছাড়ের জন্য **SIMEONONSECURITY** কোড ব্যবহার করুন। [stscollective.com/discount/SIMEONONSECURITY এ কেনাকাটা করুন](https://stscollective.com/discount/SIMEONONSECURITY)।
+
+{{< stscollective-ad "flockyou" >}}
 
 এই ডিভাইসগুলির সম্পূর্ণ প্রযুক্তিগত বিশ্লেষণ এবং DIY বিকল্পগুলির জন্য পড়ুন **[Flock-You ডিটেকশন প্রজেক্ট: সম্পূর্ণ কাউন্টার-সার্ভেইল্যান্স হার্ডওয়্যার এবং সেটআপ গাইড](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**।
 
@@ -223,7 +231,7 @@ WiGLE কভারেজ অসম। যদি কোনো wardriver সেই
 
 GitHub Actions ওয়ার্কফ্লো প্রতিদিন চলে এবং সর্বশেষ WiGLE ফলাফল টেনে আনে। তবে, WiGLE নিজেই যেকোনো প্রদত্ত অবস্থানের জন্য দিন থেকে বছর পুরানো রেকর্ড রাখতে পারে। সবচেয়ে সাম্প্রতিক স্ক্যানের টাইমস্ট্যাম্পের জন্য `scan_stats.json` ফাইলটি পরীক্ষা করুন।
 
-### আমি কি আমার নিজের wardrive ডেটা অবদান করতে পারি?
+### আমি কি গাড়ি চালিয়ে WiFi নেটওয়ার্ক স্ক্যানের ডেটা দিতে পারি?
 
 হ্যাঁ। আপনার wardrive ডেটা [WiGLE](https://wigle.net)-এ আপলোড করুন — এটি স্বয়ংক্রিয়ভাবে Flock Finder-এর পরবর্তী দৈনিক স্ক্যানে প্রবেশ করে। আপনি [অবদান গাইড](https://github.com/simeononsecurity/flock-finder/blob/main/CONTRIBUTING.md)-এর মাধ্যমে OUI প্রিফিক্স বা কোড উন্নতিতেও অবদান রাখতে পারেন।
 
@@ -259,6 +267,12 @@ ______
 এটি একটি **স্বচ্ছতা টুল**, লাইভ ট্র্যাকার নয়। এর ডেটা ঐতিহাসিক, অসম্পূর্ণ এবং সম্ভাব্য। কিন্তু এটি ALPR নজরদারির স্কেলকে এমনভাবে দৃশ্যমান করে যা বিমূর্ততা এবং প্রতিবেদনগুলি পারে না।
 
 নজরদারিকৃত এলাকার মধ্য দিয়ে চলার সময় প্রকৃত রিয়েল-টাইম সুরক্ষার জন্য, মানচিত্রটি ডেডিকেটেড হার্ডওয়্যারের সাথে যুক্ত করুন। **[STS Collective-এর FlockYou ডিভাইসগুলি](https://stscollective.com/discount/SIMEONONSECURITY)** সরাসরি একটি ESP32-এ @NitekryDPaul-এর সনাক্তকরণ পদ্ধতি প্রয়োগ করে এবং একটি লাইভ ক্যামেরা স্বাক্ষর সনাক্ত হওয়ার মুহূর্তে আপনাকে সতর্ক করে — **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)**-এ **FLOCKFINDER** বা **SIMEONONSECURITY** কোড সহ ২০% পর্যন্ত ছাড়ে পাওয়া যায়।
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  FlockYou শনাক্তকারী কিনুন, 20% সাশ্রয় করুন
+{{< /centerbutton >}}
 
 ### সম্পর্কিত নিবন্ধ
 

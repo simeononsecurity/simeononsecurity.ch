@@ -1,7 +1,7 @@
 ---
 title: "Guía para principiantes sobre desarrollo de sitios web: HTML, CSS y JavaScript"
 date: 2023-02-27
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprenda los fundamentos del desarrollo de sitios web, incluidos HTML, CSS y JavaScript, con esta guía para principiantes."
@@ -27,11 +27,11 @@ He aquí un ejemplo de un documento HTML simple:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>Mi sitio web</title>
 </head>
 <body>
-  <h1>Welcome to my website!</h1>
-  <p>This is my first paragraph.</p>
+  <h1>¡Bienvenido a mi sitio web!</h1>
+  <p>Este es mi primer párrafo.</p>
 </body>
 </html>
 ```
@@ -65,7 +65,7 @@ Para saber más sobre JavaScript, le recomendamos [w3schools.com](https://www.w3
 He aquí un ejemplo de cómo utilizar JavaScript (dentro de html) para crear una alerta:
 
 ```js
-<button onclick="alert('Hello, world!')">Click me</button>
+<button onclick="alert('¡Hola, mundo!')">Haz clic aquí</button>
 ```
 
 Este código creará un botón que, al pulsarlo, mostrará una alerta con el mensaje "¡Hola, mundo!".

@@ -1,12 +1,12 @@
 ---
 title: "Cybersecurityweerbaarheid versterken met change management"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Lees waarom change management belangrijk is voor cybersecurity en hoe je de weerbaarheid in het huidige dreigingslandschap vergroot."
-genre: ["Cybersecurity", "Change management", "Weerbaarheid", "IT-infrastructuur", "Risicobeoordeling", "Compliance", "Incidentrespons", "Best practices", "ITIL", "Beveiligingsmaatregelen"]
-tags: ["Cybersecurity", "Change management", "Weerbaarheid", "Digitale assets", "Beveiligingsincidenten", "Compliance", "IT-infrastructuur", "Risicobeoordeling", "Testen en valideren", "Communicatie", "Samenwerking", "Documentatie", "Best practices", "ITIL", "Beveiligingsmaatregelen", "Dreigingslandschap", "Bedrijfsvoering", "Systeemstoringen", "Datalekken", "Kwetsbaarheden", "Wettelijke vereisten", "Impactbeoordelingen", "Training en bewustwording", "Gebruik van middelen", "Continue verbetering", "IT-systemen", "IT-beleid", "IT-procedures", "Gecontroleerde omgeving", "Betrokkenheid van belanghebbenden"]
+genre: ["Cybersecurity", "Wijzigingsbeheer", "Weerbaarheid", "IT-infrastructuur", "Risicobeoordeling", "Compliance", "Incidentrespons", "Best practices", "ITIL", "Beveiligingsmaatregelen"]
+tags: ["Cybersecurity", "Wijzigingsbeheer", "Weerbaarheid", "Digitale assets", "Beveiligingsincidenten", "Compliance", "IT-infrastructuur", "Risicobeoordeling", "Testen en valideren", "Communicatie", "Samenwerking", "Documentatie", "Best practices", "ITIL", "Beveiligingsmaatregelen", "Dreigingslandschap", "Bedrijfsvoering", "Systeemstoringen", "Datalekken", "Kwetsbaarheden", "Wettelijke vereisten", "Impactbeoordelingen", "Training en bewustwording", "Gebruik van middelen", "Continue verbetering", "IT-systemen", "IT-beleid", "IT-procedures", "Gecontroleerde omgeving", "Betrokkenheid van belanghebbenden"]
 cover: "/img/cover/A_team_of_professionals_working_together_to_bu.webp"
 coverAlt: "Een team professionals bouwt samen een schild rond een netwerkserver. Dit staat voor bescherming en weerbaarheid tegen cyberdreigingen."
 coverCaption: "Weerbare beveiliging opbouwen: je digitale assets beschermen"

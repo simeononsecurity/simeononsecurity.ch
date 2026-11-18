@@ -1,7 +1,7 @@
 ---
 title: "Konfiguracja AI w Confluence i Jira: uprawnienia i źródła obowiązujących zasad"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Skonfiguruj wiążące strony Confluence i uprawnienia w zarządzanej przez firmę Jira do przeglądanej współpracy między zespołami."
@@ -53,15 +53,15 @@ Od października 2026 r. używaj przycisku **Share** lub ustawienia ograniczeń 
 5. Na każdej stronie źródłowej **otwórz Share**. Ustaw dostęp ogólny na tylko do odczytu dla uprawnionych członków przestrzeni, a wskazanym właścicielom i wydawcom nadaj osobne prawa edycji. Zapisz zmiany i sprawdź je na koncie współtwórcy.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+ID źródła: REQ-17
+Rola właściciela: product-owner
+Stan: zatwierdzona podstawa
+Zakres: tylko syntetyczne pliki eksportu
+Okres przechowywania: 7 dni
+Stan dostawy: podstawowa konfiguracja laboratorium
+Wyjątki: wyłączono dane produkcyjne, kopie zapasowe i prawne obowiązki przechowywania
+Dowód zatwierdzenia: przegląd podstawy DEC-12
+Odwołanie do implementacji: dołącz chroniony bazowy commit GitHub
 ```
 
 **Ustaw ograniczenia na każdej stronie źródłowej.** Nie zakładaj, że ograniczenie edycji strony nadrzędnej chroni jej podstrony. Dziedziczenie odczytu i edycji działa inaczej, a uprawnienia przestrzeni nadal obowiązują. Sam odnośnik nie daje dostępu. Gdy użytkownik, który ma mieć tylko odczyt, nadal edytuje, sprawdź wszystkie członkostwa.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Użyj poniższych treści początkowych na dwóch pozostałych stronach.** Zanim oznaczysz rekord jako zatwierdzony, zastąp tymczasowe pola przeglądu rzeczywistymi dowodami z piaskownicy.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+ID źródła: RUN-04
+Rola właściciela: operations-owner
+Stan: zatwierdzona podstawa
+Zakres: tylko syntetyczne pliki eksportu
+Skonfigurowany okres przechowywania: 7 dni
+Procedura: przed sprawdzaną zmianą porównaj REQ-17 z config.json
+Ograniczenie działania: w tym laboratorium nie ma zadania usuwania ani dowodów usunięcia
+Odzyskiwanie: po przeglądzie przywróć poprzednią zatwierdzoną konfigurację
+Ograniczenie odzyskiwania: przywrócenie konfiguracji nie przywraca usuniętych plików
+Dowód przeglądu: dodaj rzeczywistego recenzenta, wersję strony i odwołanie do decyzji
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Strona: Rejestr decyzji
+ID wpisu: DEC-12
+Decyzja: przyjmij siedem dni jako syntetyczną podstawę
+Zakres: tylko export-service-lab
+Wymaganie: zapisz wersję strony REQ-17 po publikacji
+Podręcznik: zapisz wersję strony RUN-04 po publikacji
+Zasady: zapisz chronioną rewizję GitHub POL-01 po przeglądzie
+Przegląd produktu: oczekuje na decyzję wskazanego właściciela
+Przegląd operacyjny: oczekuje na decyzję wskazanego właściciela
+Stan: przykładowy szkic, zastąp go zaobserwowanym dowodem przeglądu
 ```
 
 ## Zaktualizuj mapę
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Wklej ten szkic do PROP-042.** Element Jira śledzi realizację. Jego treść nie zastępuje zatwierdzonego brzmienia w Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+ID propozycji: PROP-042
+Stan: szkic
+Obecnie zatwierdzona wartość: 7 dni, do zapisania wersja strony REQ-17
+Proponowana wartość: 30 dni dla syntetycznych plików eksportu
+Wyłączenia: dane produkcyjne, kopie zapasowe i prawne obowiązki przechowywania
+Dotknięte rekordy: REQ-17, RUN-04, config.json, proposal.json
+Stały załącznik propozycji: oczekuje
+Przegląd właściciela produktu: oczekuje
+Przegląd właściciela operacyjnego: oczekuje
+Rejestr publikacji: oczekuje
+Zatrzymaj pracę przy zmianie wersji źródła, braku przeglądu lub odmowie dostępu
 ```
 
 | Rola | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Oddziel odczyt, przygotowanie szkicu i publikowanie.** Współtwórca potrzebuje dostępu wystarczającego do zrozumienia syntetycznego wymagania i zgłoszenia propozycji. Nie potrzebuje prawa edycji strony źródłowej ani uprawnienia do zatwierdzania własnej propozycji.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Rekord testu: PERM-REQ-EDIT
+Rola: współtwórca
+Źródło: REQ-17
+Warunek wstępny: źródło jest czytelne, a opublikowana rewizja została zapisana
+Próba: edytuj autorytatywne wymaganie
+Oczekiwany wynik: odmowa edycji, opublikowana rewizja bez zmian
+Zaobserwowano: uzupełnij z piaskownicy
+Dowód: natywny wynik i niezależny odczyt rewizji
+Recenzent: administrator lub niezależny recenzent uprawnień
 ```
 
 **Użyj oddzielnego rekordu dla odmowy odczytu.** Dostęp współtwórcy do opublikowanego wymagania testuje oddzielenie publikacji od edycji. Brak dostępu do strony użytkownika wykluczonego testuje poufność. Połączenie obu przypadków w jednym wierszu ukrywa, którą granicę sprawdzono.

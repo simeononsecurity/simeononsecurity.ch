@@ -42,7 +42,7 @@ Weitere Informationen und den Download von SteamOS finden Sie auf der offizielle
 
 ### Andere spielfreundliche Linux-Distributionen
 
-Während [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/), and [SteamOS](https://store.steampowered.com/steamos/) zu den Top-Entscheidungen für Linux-Spiele gehören, gibt es noch andere bemerkenswerte Linux-Distributionen, die es wert sind, erkundet zu werden:
+Während [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/) und [SteamOS](https://store.steampowered.com/steamos/) zu den Top-Entscheidungen für Linux-Spiele gehören, gibt es noch andere bemerkenswerte Linux-Distributionen, die es wert sind, erkundet zu werden:
 
 - [**Pop!_OS**](https://pop.system76.com/) Das von System76 entwickelte Pop!_OS bietet ein optimiertes Spielerlebnis und enthält Funktionen wie die automatische GPU-Umschaltung für Laptops.
 - [**Fedora**](https://www.fedoraproject.org/) Fedora bietet mit seinem Fokus auf Spitzentechnologien und neuesten Software-Updates einen hervorragenden Gaming-Support.

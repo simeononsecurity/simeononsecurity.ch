@@ -1,7 +1,7 @@
 ---
 title: "Efficiënte en veilige Docker-containers bouwen: Een gids voor beginners"
 date: 2023-02-24
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer hoe u efficiënte en veilige Docker-containers maakt met behulp van best practices, tips en stapsgewijze instructies in deze uitgebreide gids."
@@ -82,7 +82,7 @@ Elke lijn in uw Dockerfile creëert een nieuwe laag in uw Docker image, en elke 
 
 Ex:
 ```dockerfile
-RUN apt update 
+RUN apt update
 RUN apt install apache -y
 ```
 vs
@@ -101,22 +101,22 @@ docker run -e PORT=3000 my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# De werkmap instellen
 WORKDIR /app
 
-# Copy package.json and yarn.lock to the container
+# package.json en yarn.lock naar de container kopiëren
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Afhankelijkheden installeren
 RUN yarn install --frozen-lockfile
 
-# Copy the application code to the container
+# Applicatiecode naar de container kopiëren
 COPY . .
 
-# Expose the application port
+# De applicatiepoort beschikbaar maken
 EXPOSE $PORT
 
-# Start the application
+# De applicatie starten
 CMD ["yarn", "start"]
 ```
 
@@ -133,25 +133,25 @@ docker run -v /home/user/app/data:/app/data my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# De werkmap instellen
 WORKDIR /app
 
-# Copy the package.json and yarn.lock files to the container
+# De bestanden package.json en yarn.lock naar de container kopiëren
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Afhankelijkheden installeren
 RUN yarn install --frozen-lockfile
 
-# Copy the rest of the application code to the container
+# Overige applicatiecode naar de container kopiëren
 COPY . .
 
-# Expose the application port
+# De applicatiepoort beschikbaar maken
 EXPOSE 3000
 
-# Start the application
+# De applicatie starten
 CMD ["yarn", "start"]
 
-# Mount a volume for the application data
+# Een volume koppelen voor applicatiegegevens
 VOLUME ["/app/data"]
 ```
 
@@ -163,25 +163,25 @@ Ex:
 ```Dockerfile
 FROM node:14
 
-# Create a new user to run the container
+# Een gebruiker maken om de container uit te voeren
 RUN useradd --user-group --create-home --shell /bin/false app
 
-# Change the working directory to the app user's home directory
+# De werkmap wijzigen naar de thuismap van de app-gebruiker
 WORKDIR /home/app
 
-# Install dependencies as the app user
+# Afhankelijkheden installeren als app-gebruiker
 COPY package.json yarn.lock ./
 RUN chown -R app:app /home/app
 USER app
 RUN yarn install --frozen-lockfile --production
 
-# Copy the application code as the app user
+# Applicatiecode kopiëren als app-gebruiker
 COPY --chown=app:app . .
 
-# Expose the port
+# De poort beschikbaar maken
 EXPOSE 3000
 
-# Start the application as the app user
+# De applicatie starten als app-gebruiker
 CMD ["yarn", "start"]
 ```
 
@@ -193,19 +193,19 @@ Ex:
 ```Dockerfile
 FROM ubuntu:latest
 
-# Update the package list and install security updates
+# De pakketlijst bijwerken en beveiligingsupdates installeren
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
-# Install the nginx web server
+# De nginx-webserver installeren
 RUN apt-get install -y nginx
 
-# Copy the application code to the container
+# Applicatiecode naar de container kopiëren
 COPY . /var/www/html/
 
-# Expose port 80 to the host system
+# Poort 80 beschikbaar maken voor het hostsysteem
 EXPOSE 80
 
-# Start the nginx server
+# De nginx-server starten
 CMD ["nginx", "-g", "daemon off;"]
 
 ```

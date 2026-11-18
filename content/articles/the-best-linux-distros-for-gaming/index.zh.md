@@ -42,7 +42,7 @@ coverCaption: ""
 
 ### 其他游戏友好型 Linux 发行版
 
-虽然 [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/), and [SteamOS](https://store.steampowered.com/steamos/)虽然它们都是 Linux 游戏的首选，但还有其他值得探索的 Linux 发行版：
+对于 Linux 游戏，[Ubuntu](https://ubuntu.com/download)、[Zorin OS](https://zorinos.com/)、[Manjaro](https://manjaro.org/)和[SteamOS](https://store.steampowered.com/steamos/)都是热门选择，但还有其他值得探索的 Linux 发行版：
 
 - [**Pop!_OS**](https://pop.system76.com/)Pop! _OS由System76开发，提供优化的游戏体验，包括笔记本电脑GPU自动切换等功能。
 - [**Fedora**](https://www.fedoraproject.org/)Fedora 专注于前沿技术和最新软件更新，为游戏提供卓越支持。

@@ -183,7 +183,7 @@ Sie können zum Beispiel Ihre E-Mail-Sicherheitsprotokolle überprüfen, etwa **
 
 Um Verletzungen der E-Mail-Sicherheit zu verhindern, ist es wichtig, über die neuesten Bedrohungen und Schwachstellen informiert zu bleiben. Cyberkriminelle entwickeln ständig neue Taktiken, um Schwachstellen in E-Mail-Systemen auszunutzen, und es ist wichtig, über die neuesten Trends auf dem Laufenden zu bleiben. Eine Möglichkeit, auf dem Laufenden zu bleiben, ist das Abonnieren von Sicherheits-Newslettern und Blogs, die aktuelle Informationen und Einblicke in neue Bedrohungen bieten.
 
-Sie können zum Beispiel **Threat-Intelligence-Plattformen** wie [Symantec Threat Intelligence](https://www.symantec.com/products/threat-intelligence) oder [Trend Micro Research](https://www.trendmicro.com/en_us/business/products/hybrid-cloud/threat-research.html) abonnieren, um Echtzeit-Updates zu den neuesten Bedrohungen zu erhalten. Sie können auch an Branchenforen und Webinaren teilnehmen, um Ihr Wissen zu erweitern und sich mit anderen Fachleuten über bewährte Verfahren auszutauschen.
+Sie können zum Beispiel **Plattformen zur Bedrohungsanalyse** wie [Symantec Threat Intelligence](https://www.symantec.com/products/threat-intelligence) oder [Trend Micro Research](https://www.trendmicro.com/en_us/business/products/hybrid-cloud/threat-research.html) abonnieren, um Echtzeit-Updates zu den neuesten Bedrohungen zu erhalten. Sie können auch an Branchenforen und Webinaren teilnehmen, um Ihr Wissen zu erweitern und sich mit anderen Fachleuten über bewährte Verfahren auszutauschen.
 
 #### Kontinuierliche Verbesserung Ihrer Sicherheitsmaßnahmen
 

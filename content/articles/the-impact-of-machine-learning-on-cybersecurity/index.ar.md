@@ -1,7 +1,7 @@
 ---
 title: "أثر التعلم الآلي في الأمن السيبراني وكيفية التكيف معه"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "تعرّف على دور التعلم الآلي في كشف التهديدات وفرزها والاستجابة لها، وعلى حدود النشر ومخاطره الأمنية."
@@ -67,6 +67,6 @@ ______
 
 ## المراجع
 
-1. «ما الأمن السيبراني؟». Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (اطّلع عليه في 4 مارس 2023).
-2. «التعلم الآلي في الأمن السيبراني». Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (اطّلع عليه في 4 مارس 2023).
-3. «تأمين البيانات والأجهزة». المعهد الوطني للمعايير والتكنولوجيا. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (اطّلع عليه في 4 مارس 2023).
+1. «ما الأمن السيبراني؟». Cisco. [دليل Cisco للأمن السيبراني](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (اطّلع عليه في 4 مارس 2023).
+2. «التعلم الآلي في الأمن السيبراني». Cylance. [مقال Cylance عن التعلم الآلي في الأمن السيبراني](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (اطّلع عليه في 4 مارس 2023).
+3. «تأمين البيانات والأجهزة». المعهد الوطني للمعايير والتكنولوجيا. [دليل NIST لحماية البيانات والأجهزة](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (اطّلع عليه في 4 مارس 2023).

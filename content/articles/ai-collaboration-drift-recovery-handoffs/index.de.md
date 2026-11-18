@@ -1,7 +1,7 @@
 ---
 title: "KI-Agenten: Drift beheben und Übergaben durchführen"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Erkennen Sie veraltete Quellen und Richtlinienadapter, stellen Sie unterbrochene Veröffentlichungen wieder her und prüfen Sie unabhängige Agentenübergaben."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Vorabprüfung durchführen
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Lies MAP-01 und erfasse seine Revision.
+Lies POL-01 und vergleiche die aktiven Adapterversionen.
+Lies REQ-17 und RUN-04 an den im Mapping angegebenen Speicherorten.
+Lies config.json auf dem geschützten main.
+Lies den eingefrorenen Vorschlag und die aktuellen Rollenprüfungen.
+Vergleiche aktuelle Quellen mit den geprüften Basisständen.
+Liste Abweichungen, verweigerte Lesezugriffe und ausstehende Veröffentlichungen auf.
+Stoppe folgenreiche Schreibvorgänge, bis die Verantwortlichen jede Abweichung geklärt haben.
 ```
 
 **Die beitragende Person führt die Vorabprüfung vor dem Entwurf durch. Die veröffentlichende Person wiederholt sie vor dem Schreiben.** Bewahren Sie den Versionsvergleich zusammen mit dem Vorschlag auf. Wöchentliche Prüfungen ergänzen diese Quellenabfragen, ersetzen sie aber nicht.
@@ -103,16 +103,16 @@ choices:
 ## Unabhängige Übergabe prüfen
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Übergabe: HANDOFF-042
+Aufgabe: PROP-042
+Mapping und Richtlinie: aktuelle genehmigte Revisionen beifügen
+Belege: Referenzen auf Anforderungen, Runbook und Konfiguration
+Protokoll: completed, failed, pending
+Entscheidung: Wahl der verantwortlichen Person und feste Vorschlagsrevision
+Grenzen: kein Laufzeit-Löschtest und keine Produktionsdaten
+Nächste Rolle: zuständige Rolle
+Nächste Aktion: ein klar abgegrenzter Schritt
+Stopp: Basis geändert, Zugriff verweigert oder Zuständigkeiten widersprüchlich
 ```
 
 **Öffnen Sie ein anderes Tool oder eine saubere Sitzung** mit der Übersicht und Übergabe, nicht mit dem vorherigen Gespräch. Erfordern Sie frische Quellenabfragen, ein neues Manifest und die Benennung der offenen Aktion. Manuelle Browsernachweise bleiben gültig, wenn sie als Momentaufnahme gekennzeichnet und vor dem Schreiben erneut geprüft werden.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **Kompensation löscht keine Historie.** Bewahren Sie den Versuch mit dreißig Tagen, sein Scheitern und die spätere Wiederherstellung als getrennte Datensätze auf. Die endgültige Quelle nennt sieben, während die Bereitstellungshistorie erklärt, warum der freigegebene Vorschlag nicht abgeschlossen wurde.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Wiederherstellungsentscheidung: beispielhafte Kompensation
+Ursprünglicher Vorschlag: PROP-042, Revision 1
+Beobachtete Abweichung: Anforderung 30, Konfiguration/Runbook 7
+Entscheidung der verantwortlichen Person: genehmigte Basisabsicht wiederherstellen
+Prüfgegenstand: feste Kompensation mit aktueller Anforderungsversion abgleichen
+Ergebnis: resultierende Revision erfassen und den Sieben-Tage-Wert erneut auslesen
+Ursprüngliche Bereitstellung: mit Begründung zurückziehen oder blockieren
+Grenze: keine Laufzeitlöschung und keine Datenwiederherstellung durchgeführt
 ```
 
 **Bewahren Sie eine Ausnahme ausdrücklich, wenn eine andere Person sie hinzugefügt hat.** Das blinde Einfügen eines alten Seiteninhalts könnte eine gültige zwischenzeitliche Änderung entfernen. Vergleichen Sie den aktuellen und den beabsichtigten Text und prüfen Sie anschließend eine minimale kompensierende Änderung anhand der aktuellen Version.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Verwenden Sie eine saubere Sitzung und eine andere prüfende Person.** Stellen Sie Übersicht, festgeschriebenes Paket, Protokoll und Wiederherstellungsentscheidung bereit. Halten Sie den vorherigen Chat zurück. Bitten Sie die empfangende Person, aktuelle Absicht, Konfiguration, Betriebsanleitung und die nächste autorisierte Aktion zu benennen.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Lies die im Mapping bezeichneten aktuellen Quellen unabhängig.
+Unterscheide genehmigte Absicht, festgeschriebene Konfiguration und Bereitstellungsstatus.
+Vergleiche sie mit dem geprüften Paket und dem Protokoll.
+Liste fehlende Lesezugriffe und geänderte Basisstände auf.
+Empfiehl einen abgegrenzten nächsten Schritt und benenne die zuständige Rolle.
+Behandle diese Übergabe nicht als Genehmigung oder Veröffentlichungserlaubnis.
 ```
 
 **Erwartete Überlegung:** Die empfangende Person prüft das Ergebnis der Kompensation, bevor sie den Ausgangszustand als wiederhergestellt bezeichnet. Wiederholt sie nur „sieben Tage“ aus der Übergabe, wurde die unabhängige Quellenprüfung nicht getestet. Fordern Sie Quellenbelege statt einer weiteren Zusammenfassung an.
@@ -219,4 +219,4 @@ Geben Sie dieses Inventar einer zweiten Person ohne den alten Chat. Die Übergab
 
 ## Nächste Schritte
 
-**Schließen Sie das [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** mit beiden Arbeitssträngen und einer zweiten lesenden Person ab. Zeigen Sie aktuelle Quellenabfragen, Versionsabweichungen, die entscheidungsverantwortliche Person, die geprüfte Wiederherstellung, das Zurücklesen und die unabhängige Rekonstruktion.
+**Schließen Sie das [Abschlusskapitel zur Aufbewahrung](/articles/ai-collaboration-retention-capstone/)** mit beiden Arbeitssträngen und einer zweiten lesenden Person ab. Zeigen Sie aktuelle Quellenabfragen, Versionsabweichungen, die entscheidungsverantwortliche Person, die geprüfte Wiederherstellung, das Zurücklesen und die unabhängige Rekonstruktion.

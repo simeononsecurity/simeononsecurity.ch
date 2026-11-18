@@ -1,11 +1,11 @@
 ---
 title: "Routing dostawców OpenRouter: jakość modeli, limity tokenów i rzeczywiste koszty"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diagnozuj niespójne odpowiedzi OpenRouter, porównuj limity endpointów i koszty buforowania oraz konfiguruj routing dostawców bez przypadkowego wyłączania kontroli jakości."
-genre: ["Sztuczna inteligencja", "Infrastruktura", "Open Source"]
+genre: ["Sztuczna inteligencja", "Infrastruktura", "otwarte oprogramowanie"]
 tags: ["OpenRouter", "routing dostawców", "endpointy OpenRouter", "jakość modeli AI", "wnioskowanie LLM", "kwantyzacja", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "wywoływanie narzędzi", "okno kontekstu", "maksymalna liczba tokenów", "tokeny rozumowania", "buforowanie promptów", "koszty API", "fallback dostawcy", "require_parameters", "agenci AI", "benchmarki wnioskowania", "testowanie endpointów", "modele open weight"]
 cover: "/img/cover/openrouter-provider-routing-inference-services.webp"
 coverAlt: "Abstrakcyjna cyfrowa ilustracja połączonych węzłów reprezentujących usługi wnioskowania AI, z jasnymi liniami pokazującymi przepływ danych na ciemnym tle."
@@ -138,7 +138,7 @@ curl --fail --silent --show-error \
 
 **`quantizations`** jest allowlistą nazwanych formatów, a nie minimalną wartością liczbową. Tablica zawierająca **`"fp8"`** wybiera pasujące endpointy FP8. Nie obejmuje automatycznie BF16 ani wszystkich formatów z większą liczbą bitów. Najpierw porównaj pierwotny checkpoint, a potem stosuj filtr tylko wtedy, gdy ocena uzasadnia ograniczenie.
 
-## Zachowaj włączony routing jakości
+## Pozostaw włączone kierowanie według jakości
 
 ```json
 {
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Obciążenie: 6 mln tokenów wejściowych + 1 mln tokenów wyjściowych
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Na milion łącznych tokenów wejściowych i wyjściowych:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```
@@ -210,7 +210,7 @@ B =  $3.84 / 7 = $0.55
 
 **Niepewność benchmarku ma znaczenie.** Analiza Epoch AI [dlaczego benchmarking jest trudny](https://epoch.ai/gradient-updates/why-benchmarking-is-hard) opisuje zmienność wynikającą z implementacji, próbkowania i rusztowań agentów. Jedna rozczarowująca odpowiedź nie dowodzi trwałej wady dostawcy ani jej przyczyny.
 
-## Przewodnik po routingu endpointu
+## Przewodnik po kierowaniu żądań do punktów końcowych API
 
 {{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 

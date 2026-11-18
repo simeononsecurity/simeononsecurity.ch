@@ -1,12 +1,12 @@
 ---
 title: "AI 协作综合实践：GitHub、Confluence 与 Jira"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "通过以 GitHub 为先的工作流以及 Confluence/Jira 工作流交付合成数据保留期限变更，并记录失败证据和独立审查结果。"
-genre: ["Artificial Intelligence", "Team Collaboration", "Software Engineering"]
-tags: ["AI collaboration course", "retention proposal", "GitHub review", "Confluence Jira workflow", "failure matrix", "independent acceptance"]
+genre: ["人工智能", "团队协作", "软件工程"]
+tags: ["AI 协作课程", "数据保留提案", "GitHub 审查", "Confluence Jira 工作流", "失败矩阵", "独立验收"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "专业人士在网络安全工作环境中共同审查项目工作内容的插图"
 coverCaption: ""
@@ -46,16 +46,16 @@ coverCaption: ""
 **按照 GitHub 课程的说明创建 Issue 和候选 PR。**同时修改要求、配置、提案和运行手册。捕获受保护的基线，运行可信检查，并让产品和运营负责人针对最终提交进行审查。
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+运行: GitHub-first
+变更: 合成数据保留 7 -> 30 天
+要求: REQ-17 修订版 2
+配置: retention_days 30
+运行手册: 保留期限：30 天
+提案: 基线修订版 1, 从 7, 到 30
+清单: 变更前受保护的源文件哈希
+审查: 产品和运维人员审查最终提案版本
+发布: 已合并的提交及重新读取确认
+限制: 未测试正在运行的删除服务
 ```
 
 **填写沙箱中的实际引用。**上面的内容是预期映射示例，不是已完成的证据。维护者只能在审查通过后合并，然后独立读取 **`main`**。Issue 关闭前，应先关联最终记录。
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    相同的证据类别，分别采集
 ```
 
 **这些名称只是组织示例**，不是已提供的归档文件。实际证据应私下保存在已批准的沙箱中。共享的课程提交应使用角色标签和脱敏引用，审查者仍需能够访问原生记录。
@@ -182,28 +182,17 @@ capstone-evidence/
 **已填写的 Mixed 流程教学数据包，仅为合成示例，不代表租户证据：**
 
 ```text
-Run: MIXED-042-example
-Captured base: REQ-17 v4 = 7 days, RUN-04 v2 = 7 days,
-  GitHub main base-001 config.json = {"retention_days": 7}, Jira PROP-042 r1 = In Review
-Fixed proposal: REQ-17 v5 wording says synthetic exports 30 days,
-  excluding production data, backups, and legal holds.
-  GitHub config.json changes retention_days from 7 to 30.
-  RUN-04 v3 wording says 30 days, no deletion service runs in this lab,
-  and incomplete publication stays pending.
-Review: product owner approved the exact requirement wording at PROP-042 r1.
-  Operations owner approved the exact config diff and runbook wording at r1.
-Publication: publisher reopened REQ-17 v5 and read 30 days.
-  Maintainer reopened main at merge-002 and read retention_days 30.
-  Publisher reopened RUN-04 v3 and read 30 days.
-Denied action: contributor tried an edit to restricted REQ-17 from v5.
-  Platform denied the edit, the publisher reread v5 unchanged, and the
-  observer saved the native denial. No edit was applied and v5 stayed unchanged.
-Recovery: after a separate simulated failed RUN-04 attempt, Jira stayed
-  Blocked. Operations approved a retry against the current version.
-  Publisher reread v3 after the authorized retry before Jira moved to Done.
-Handoff: a new reviewer received MAP-01 and the ledger, reopened the three
-  sources and Jira, and named the current 30-day state and remaining runtime gap.
-Limit: source publication is shown. Actual deletion timing is Not run.
+运行：MIXED-042-example
+捕获的基线：REQ-17 v4 = 7 天；RUN-04 v2 = 7 天。
+GitHub main base-001 config.json = {"retention_days": 7}；Jira PROP-042 r1 = In Review。
+固定提案：REQ-17 v5 规定合成导出保留 30 天。生产数据、备份和法律保留均不包括在内。
+GitHub config.json 将 retention_days 从 7 改为 30。RUN-04 v3 记为 30 天；实验环境未运行删除服务。未完成的发布保持待处理。
+审查：产品负责人批准 REQ-17 的确切文本。运维负责人批准 r1 的配置差异和运行手册。
+发布：发布者重读 REQ-17 v5 和 RUN-04 v3，确认均为 30 天；维护者在 merge-002 的 main 中确认 retention_days 30。
+被拒操作：贡献者编辑 REQ-17 v5 被拒。发布者确认内容未变，观察者保存平台原始证据。
+恢复：RUN-04 尝试失败，Jira 保持 Blocked。运维批准重试；重读 v3 后，Jira 转为 Done。
+交接：新审查者收到 MAP-01 和记录，重读三个来源及 Jira，记录 30 天设置和未解决的运行时差距。
+限制：仅证明来源已发布。删除耗时：未运行。
 ```
 
 在将实时案例标记为 Supported 前，必须用原生记录替换每个示例版本、操作者、拒绝和回读信息。如果计划或角色不允许测试，应将该项标记为 Blocked，并保持两条课程流程未完成。
@@ -213,32 +202,32 @@ Limit: source publication is shown. Actual deletion timing is Not run.
 **请审查者重建事件过程**，不要只看结论。他们应能在没有你解说的情况下，找到已批准的基线、固定提案、负责人决定、结果版本、失败尝试、修复记录和剩余缺口。
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+独立审查问题：
+此流程中哪一个来源规定了保留意图？
+每位负责人审查的确切方案是什么？
+审查后是否有来源发生变化？
+哪些内容已发布，哪些仍待处理？
+在哪个角色下观察到了哪项被拒操作？
+受保护文本是否进入了被排除用户的上下文？
+哪项修复经过审查并重新读取？
+新交接能否独立还原当前状态？
 ```
 
 **分别评估每项要求。**使用 Supported、Failed、Blocked 或 Not run，并附上证据引用。一致性、批准、权限、恢复和交接是不同的要求。一组本地测试全绿，无法抵消实时发布边界失效。
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+运行 ID 和流程：
+审查角色和日期：
+案例 01 已批准变更：状态 ___ 证据 ___ 差距 ___
+案例 02 过期上下文：状态 ___ 证据 ___ 差距 ___
+案例 03 未授权写入：状态 ___ 证据 ___ 差距 ___
+案例 04 冲突：状态 ___ 证据 ___ 差距 ___
+案例 05 部分发布：状态 ___ 证据 ___ 差距 ___
+案例 06 拒绝访问：状态 ___ 证据 ___ 差距 ___
+案例 07 恢复：状态 ___ 证据 ___ 差距 ___
+案例 08 交接：状态 ___ 证据 ___ 差距 ___
+总体决定：有证据支持 / 失败 / 阻止 / 未运行
+下一责任角色和操作：
 ```
 
 **Supported 表示审查者找到了所有适用案例的观察证据。**如果观察到控制失效，记录 Failed；如果缺少访问权限或控制，记录 Blocked；如果尚未尝试，记录 Not run。每项案例的原生引用应保存在对应的命名证据文件中。
@@ -248,17 +237,17 @@ Next accountable role and action:
 **脱敏的示例模型材料包，仅供说明：**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+流程：github-first | 运行：G-01 | 审查者：独立试点角色
+基线：受保护提交 base-001 | 固定提案：PROP-042 r1
+批准：产品审查 P-01，运维审查 O-01
+一致性：本地检查通过，已保存输出 C-01
+权限：拒绝贡献者直接 push，原生事件 D-01
+发布：提交 merge-002；新克隆确认 30 天
+例外：排除备份和法律保留
+恢复：重新读取中断 R-01，并经审查解决
+交接：第二位审查者确认当前基线、例外和下一步
+运行时限制：不声称已在生产环境删除或部署
+决定：仅对合成 GitHub-first 流程有证据支持
 ```
 
 将所有示例引用替换为实际观察到的沙箱产物。Mixed 流程也要用自己的来源版本和审查记录重复完整材料包。审查者应拒绝复制到 Mixed 材料包中的 GitHub 批准。
@@ -287,14 +276,14 @@ Decision: Supported for synthetic GitHub-first track only
 ## 创建发布决策
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+决定：继续另一个合成试点、阻止或拒绝
+证据：两个运行包和失败矩阵
+未强制的要求：明确列出程序性控制
+提供方审查：输入范围和保留方式
+负责人覆盖：产品、运维、策略、仓库、交付
+生产差距：运行时测试、机密、部署、访问审查
+下一步：由责任角色执行一项有限后续工作
+审查日期：由试点负责人指定
 ```
 
 **预期判断：**合成测试成功支持开展另一个有界试点。生产环境需要单独批准真实数据、部署、提供方处理和运行时行为。助手回答成功不等于获准部署。

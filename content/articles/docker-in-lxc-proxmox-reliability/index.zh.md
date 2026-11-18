@@ -1,17 +1,16 @@
 ---
 title: "Proxmox 上 LXC 中的 Docker：可靠性、证据与迁移到 VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "通过一项有记录的 AppArmor 故障、对主机冻结报告的审慎解读、诊断命令和 VM 迁移计划，评估在 Proxmox LXC 中运行 Docker。"
 genre: ["虚拟化", "Linux 管理", "家庭实验室"]
-tags: ["LXC 中的 Docker", "Proxmox 上的 Docker", "Proxmox LXC", "Docker 虚拟机", "家庭实验室可靠性", "Proxmox 主机冻结", "Debian Docker 虚拟机", "非特权容器", "容器嵌套", "Linux 内核隔离", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker 存储驱动", "containerd 镜像存储", "内存压力", "Linux PSI", "持久化日志", "Proxmox 备份", "bind mount 备份", "虚拟机迁移", "故障域", "GPU 直通", "家庭服务器故障排查"]
+tags: ["LXC 中的 Docker", "Proxmox 上的 Docker", "Proxmox 上的 LXC 容器", "Docker 虚拟机", "家庭实验室可靠性", "Proxmox 主机冻结", "Debian Docker 虚拟机", "非特权容器", "容器嵌套", "Linux 内核隔离", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker 存储驱动", "containerd 镜像存储", "内存压力", "Linux PSI", "持久化日志", "Proxmox 备份", "bind mount 备份", "虚拟机迁移", "故障域", "GPU 直通", "家庭服务器故障排查"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "家用服务器等距插画，展示嵌套工作负载方框，以及连接到共享硬件的独立虚拟机隔间"
 coverCaption: "共享硬件与不同工作负载隔离边界的概念图"
 ---
-
 **在 Linux 容器（LXC）中运行 Docker**能减少一些基础设施开销，但会增加应用运行时与 Proxmox 主机之间的交互。对于家庭依赖的 Docker 服务，Debian **虚拟机（VM）**是一个实用的起点，因为它隔离了来宾内核，也简化了故障排查时需要复现的环境。本文会审视给定的视频、核对相关事件报告，并补充已记录的故障案例和迁移计划。
 
 <!--more-->
@@ -66,14 +65,14 @@ coverCaption: "共享硬件与不同工作负载隔离边界的概念图"
 ## 找出内核边界
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+LXC中的Docker：
+应用程序 -> Docker运行时 -> LXC命名空间和策略
+                 -> Proxmox宿主机内核 -> 物理硬件
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+虚拟机中的Docker：
+应用程序 -> Docker运行时 -> 来宾Linux内核
+                 -> 虚拟硬件 / KVM-QEMU
+                 -> Proxmox宿主机内核 -> 物理硬件
 ```
 
 **LXC**使用主机内核。命名空间、控制组、能力、seccomp 和安全配置文件会限制进程，但不会提供独立内核。在 LXC 中再运行 Docker，会为使用同一主机底层内核的工作负载增加另一层容器管理。 [LXC 架构与隔离功能](https://linuxcontainers.org/lxc/introduction/)
@@ -290,17 +289,17 @@ findmnt -T /var/lib/docker
 **使用实测证据**选择部署方式，并确定何时重新评估：
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+服务和家庭影响：
+当前宿主机 / 内核 / LXC / Docker版本：
+所需的GPU、设备和网络访问：
+测得的内存、CPU、存储和延迟：
+已知故障特征及复现间隔：
+备份覆盖范围及成功恢复的证据：
+所选架构及原因：
+允许的中断窗口和恢复目标：
+切换及切换后的数据回滚流程：
+验收测试和观察期：
+需要重新评估架构的条件：
 ```
 
 当 LXC 嵌套的收益足以抵偿集成工作，而且你已经测试恢复路径时，才**有意识地选择 LXC 嵌套**。如果常规 Docker 来宾环境和独立来宾内核能简化服务运维，就选择 VM。无论哪种选择，都不能取代备份、监控和主机维护。

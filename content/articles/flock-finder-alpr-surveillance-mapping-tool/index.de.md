@@ -5,8 +5,8 @@ lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Flock Finder ist ein Open-Source-Tool, das weltweit über 40.000 Flock Safety ALPR-Kameras mithilfe von WiGLE-WiFi-Daten und OUI-Fingerprinting kartiert. Erfahren Sie, wie es funktioniert, welche Einschränkungen es gibt und welche Hardware-Tools zur Echtzeiterkennung verfügbar sind."
-genre: ["Datenschutztechnologie", "Gegenüberwachung", "Open-Source-Projekte", "Digitale Rechte", "Netzwerksicherheit", "Datenschutz-Tools", "Hardware-Hacking", "Sicherheitsforschung"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "Kennzeichenleser", "OUI-Fingerprinting", "WiGLE", "WiFi-Überwachung", "Gegenüberwachung", "STS Collective", "FlockYou", "ESP32", "Datenschutz-Tools", "NitekryDPaul", "DeFlockJoplin", "ALPR-Erkennung", "Open-Source-Sicherheit", "Überwachungskartierung", "Massenüberwachung", "WiFi OUI", "Datenschutz", "MAC-Adresse", "Promiskuitiver Modus", "802.11", "Echtzeiterkennung", "Wardriving", "Digitale Rechte", "Bürgerrechte", "Überwachungsbewusstsein", "GitHub", "Python"]
+genre: ["Datenschutztechnologie", "Gegenüberwachung", "Open-Source-Projekte", "Digitale Rechte", "Netzwerksicherheit", "Datenschutz-Tools", "Hardware-Modifikation", "Sicherheitsforschung"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "Kennzeichenleser", "OUI-Fingerprinting", "WiGLE", "WiFi-Überwachung", "Gegenüberwachung", "STS Collective", "FlockYou", "ESP32", "Datenschutz-Tools", "NitekryDPaul", "DeFlockJoplin", "ALPR-Erkennung", "Open-Source-Sicherheit", "Überwachungskartierung", "Massenüberwachung", "WiFi OUI", "Datenschutz", "MAC-Adresse", "Promiskuitiver Modus", "802.11", "Echtzeiterkennung", "WLAN-Scans während der Fahrt", "Digitale Rechte", "Bürgerrechte", "Überwachungsbewusstsein", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "Eine interaktive Karte mit farbigen Markierungen, die die Standorte von Flock Safety ALPR-Kameras anzeigen, mit abstrakten WLAN-Signalen, die von den Markierungen auf einem dunklen Hintergrund ausgehen."
 coverCaption: "Flock Finder kartiert über 40.000 mutmaßliche Flock Safety ALPR-Kameras mithilfe von WiGLE-WiFi-Daten und OUI-Fingerprinting."
@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **Ein Open-Source-Tool zur Überwachungssensibilisierung, das Flock Safety ALPR-Kameras mithilfe von per Crowdsourcing gesammelten WiFi-Daten kartiert.**
+
+> **Korrektur, 21. September 2026:** Wir haben den zugrunde liegenden Datensatz mit 146,526 Einträgen geprüft und festgestellt, dass die ursprüngliche Schlagzeile und die einheitlichen Kartensymbole deutlich übertrieben, was sich durch OUI-Abgleich belegen lässt. Die Prüfung fand 50,278 Barco-ClickShare-Systeme und 60,793 Einträge, die bekannten Namensregeln für andere Geräte entsprachen. Flock Finder veröffentlicht jetzt Evidenzklassen, schließt diese Einträge aus der Standardkarte und der Schlagzeile aus und bietet Vertrauensfilter. Die vollständige Methodik und Korrektur finden Sie unter **[Wir kartierten 146,526 „Flock-Kameras“. 50,278 davon waren ClickShare-Systeme](/articles/flock-finder-oui-false-positive-audit-2026/)**.
 
 ## Was ist Flock Finder?
 
@@ -36,7 +38,11 @@ Für Hintergrundinformationen darüber, warum Flock Safety ALPR-Überwachung fü
 
 ______
 
-## So funktioniert es: OUI-Fingerprinting über WiGLE
+## So funktioniert es: OUI-Fingerabdrücke mit WiGLE
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="Diagramm, das zeigt, wie Flock Finder WiGLE-WLAN-MAC-Präfixe mit bekannten Flock-Safety-OUI-Signaturen abgleicht, um Kamerastandorte auf einer Karte zu schätzen" >}}
 
 ### Der Kerngedanke
 
@@ -77,7 +83,7 @@ In Kombination mit der **Wildcard-Probe-Request-Erkennung** (802.11-Management-F
 
 ______
 
-## Die Live-Karte verwenden
+## Die interaktive Karte verwenden
 
 Die interaktive Karte ist live unter **[simeononsecurity.github.io/flock-finder/](https://simeononsecurity.github.io/flock-finder/)** verfügbar. Sie zeigt:
 
@@ -116,34 +122,34 @@ ______
 ### Einrichtung
 
 ```bash
-# Clone the repository
+# Repository klonen
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# Abhängigkeiten installieren
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# WiGLE-API-Zugangsdaten einrichten
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# .env mit WiGLE-API-Name und Token bearbeiten
 ```
 
-### Den Scanner ausführen
+### Den Scan ausführen
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# Vollständiger Scan — alle 31 OUI-Präfixe weltweit
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# Test mit einem OUI
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# Nur USA
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# Bestimmter Begrenzungsrahmen (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# Probelauf — Authentifizierung prüfen, keine API-Abfragen
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,16 +157,16 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# http://localhost:8080 im Browser öffnen
 ```
 
-### Automatische tägliche Updates über GitHub Actions
+### Tägliche automatische Aktualisierungen über GitHub Actions
 
 Forken Sie das Repository und fügen Sie Ihre WiGLE-Anmeldedaten als **Repository-Secrets** (`WIGLE_API_NAME` und `WIGLE_API_TOKEN`) hinzu. Der enthaltene Workflow läuft täglich um 6 Uhr UTC und committet automatisch aktualisierte Datendateien, wenn neue Kameras gefunden werden.
 
 ______
 
-## Echtzeiterkennung: STS Collective FlockYou-Hardware
+## Echtzeiterkennung: FlockYou-Geräte von STS Collective
 
 Die WiGLE-Karte zeigt Ihnen, wo Kameras *beobachtet wurden*. Für die Echtzeiterkennung beim Fahren — unter Verwendung von @NitekryDPauls tatsächlicher OUI-Abgleichmethode auf Live-WLAN-Traffic — benötigen Sie dedizierte Hardware.
 
@@ -181,6 +187,8 @@ Alle Geräte:
 - Wird über USB-C gespeist (Autoadapter, Powerbank oder Laptop)
 
 > 💰 **Exklusive Rabatte**: Verwenden Sie den Code **FLOCKFINDER** für **20% Rabatt** auf alle STS Collective FlockYou-Geräte — oder verwenden Sie den Code **SIMEONONSECURITY** für bis zu 20% Rabatt auf Ihre gesamte Bestellung. [Kaufen Sie bei stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< stscollective-ad "flockyou" >}}
 
 Für eine vollständige technische Analyse dieser Geräte und DIY-Alternativen lesen Sie den **[Flock-You Erkennungsprojekt: Vollständiger Leitfaden für Gegenüberwachungs-Hardware und Einrichtung](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
@@ -223,13 +231,13 @@ Die WiGLE-Abdeckung ist ungleichmäßig. Wenn kein Wardriver ein bestimmtes Gebi
 
 Der GitHub Actions-Workflow läuft täglich und ruft die neuesten WiGLE-Ergebnisse ab. WiGLE selbst kann jedoch Einträge haben, die für einen bestimmten Standort von Tagen bis Jahren alt sind. Überprüfen Sie die `scan_stats.json`-Datei für den Zeitstempel des letzten Scans.
 
-### Kann ich meine eigenen Wardrive-Daten beitragen?
+### Kann ich eigene WLAN-Scandaten von Autofahrten beisteuern?
 
 Ja. Laden Sie Ihre Wardrive-Daten bei [WiGLE](https://wigle.net) hoch — sie fließen automatisch in Flock Finders nächsten täglichen Scan ein. Sie können auch OUI-Präfixe oder Code-Verbesserungen über den [Beitragsleitfaden](https://github.com/simeononsecurity/flock-finder/blob/main/CONTRIBUTING.md) beitragen.
 
 ______
 
-## Community und verwandte Projekte
+## Gemeinschaft und verwandte Projekte
 
 Flock Finder steht nicht allein. Ein wachsendes Ökosystem von Tools und Organisationen arbeitet daran, ALPR-Überwachung zu dokumentieren und entgegenzuwirken:
 
@@ -259,6 +267,12 @@ ______
 Es ist ein **Transparenz-Tool**, kein Live-Tracker. Seine Daten sind historisch, unvollständig und probabilistisch. Aber es macht das Ausmaß der ALPR-Überwachung auf eine Weise sichtbar, die Zusammenfassungen und Berichte nicht können.
 
 Für echten Echtzeitschutz, während Sie sich durch überwachte Gebiete bewegen, kombinieren Sie die Karte mit dedizierter Hardware. **[STS Collectives FlockYou-Geräte](https://stscollective.com/discount/SIMEONONSECURITY)** implementieren @NitekryDPauls Erkennungsmethode direkt auf einem ESP32 und alarmieren Sie sofort, wenn eine Live-Kamerasignatur erkannt wird — erhältlich unter **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** mit dem Code **FLOCKFINDER** oder **SIMEONONSECURITY** für bis zu 20% Rabatt.
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  FlockYou-Detektoren kaufen und 20 % sparen
+{{< /centerbutton >}}
 
 ### Verwandte Artikel
 

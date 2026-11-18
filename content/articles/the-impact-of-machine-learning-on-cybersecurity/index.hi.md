@@ -1,7 +1,7 @@
 ---
 title: "साइबर सुरक्षा पर मशीन लर्निंग का प्रभाव और उसके अनुरूप ढलना"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "जानें कि मशीन लर्निंग खतरे पहचानने, प्राथमिकता तय करने और जवाब देने में कैसे मदद करती है, साथ ही तैनाती की सीमाएँ और सुरक्षा जोखिम भी।"
@@ -67,6 +67,6 @@ ______
 
 ## संदर्भ
 
-1. “साइबर सुरक्षा क्या है?” Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (4 मार्च 2023 को देखा गया)।
-2. “साइबर सुरक्षा में मशीन लर्निंग।” Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (4 मार्च 2023 को देखा गया)।
-3. “डेटा और उपकरण सुरक्षित करना।” National Institute of Standards and Technology. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (4 मार्च 2023 को देखा गया)।
+1. “साइबर सुरक्षा क्या है?” Cisco. [साइबर सुरक्षा पर Cisco मार्गदर्शिका](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (4 मार्च 2023 को देखा गया)।
+2. “साइबर सुरक्षा में मशीन लर्निंग।” Cylance. [साइबर सुरक्षा में मशीन लर्निंग पर Cylance लेख](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (4 मार्च 2023 को देखा गया)।
+3. “डेटा और उपकरण सुरक्षित करना।” National Institute of Standards and Technology. [डेटा और उपकरणों को सुरक्षित करने की NIST मार्गदर्शिका](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (4 मार्च 2023 को देखा गया)।

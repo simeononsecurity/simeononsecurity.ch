@@ -1,7 +1,7 @@
 ---
 title: "Lokales KI-Coding auf einer 16-GB-GPU: Strata, OpenCode und Qwen3.8"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Betreibe einen lokalen Coding-Agenten mit Strata und OpenCode. Prüfe gemeldete RTX-4060-Ti-Ergebnisse, RAM-Anforderungen, Prompt-Wiederverwendung, Reasoning-Budgets und die Grenzen eines Ersatzes für ein kostenpflichtiges Abonnement."
@@ -42,7 +42,7 @@ coverCaption: ""
 | **Konfigurierter Kontext** | 65.536 Tokens |
 | **Konfiguriertes Ausgabelimit** | 16.384 Tokens |
 
-**Die veröffentlichte Konfiguration und die Ergebnisse von NetworkCoder** liefern diese Zahlen. Das [Test-Repository](https://github.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU) meldet das Laden von 46.84GiB Expertengewichten in 28 Sekunden, wobei 4.431 Experten 8.45GiB GPU-Speicher belegen. Diese Messungen beschreiben den getesteten Lauf und garantieren keine gleiche Belegung bei einer anderen Engine-Version.
+**Die veröffentlichte Konfiguration und die Ergebnisse von NetworkCoder** liefern diese Zahlen. Das [Repository zum Testlauf](https://github.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU) meldet das Laden von 46.84GiB Expertengewichten in 28 Sekunden, wobei 4.431 Experten 8.45GiB GPU-Speicher belegen. Diese Messungen beschreiben den getesteten Lauf und garantieren keine gleiche Belegung bei einer anderen Engine-Version.
 
 **Die aktuelle Kompatibilität ist breiter als dieser Test.** Nach der Prüfung am 6. Oktober 2026 dokumentiert das [Strata-Projekt](https://github.com/Niko1221/Strata) ausgewählte NVIDIA- und AMD-Karten mit mindestens 12 GB VRAM sowie kleinere Modelle für Systeme mit 32 GB RAM. Diese Optionen reproduzieren nicht das Experiment mit 16-GB-GPU, 64 GB RAM und IQ3_S. Prüfe GPU, Modellvariante und Laufzeitunterstützung genau, bevor du Hardware kaufst.
 

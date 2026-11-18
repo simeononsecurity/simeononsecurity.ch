@@ -1,7 +1,7 @@
 ---
 title: "OpenCode vs Claude Code: Vergleich von Coding-Agenten 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Vergleich von OpenCode und Claude Code bei Modellauswahl, lokaler Inferenz, Preisen, Berechtigungen, Projektanweisungen und täglichen Coding-Workflows."
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+Verwende die dokumentierten Build- und Testbefehle des Repositorys.
+Bewahre nicht zusammenhängende Änderungen.
+Erkläre Fehler, bevor du Abhängigkeiten änderst.
+Prüfe den finalen Diff vor dem Commit.
 ```
 
 **Gemeinsame Anweisungen verringern Vergleichsrauschen.** Halte Build-Befehle, Architekturvorgaben und Abnahmekriterien in einer kanonischen Datei. Die [OpenCode-Regeldokumentation](https://opencode.ai/docs/rules/) beschreibt `AGENTS.md` und einen `CLAUDE.md`-Fallback. Gehe nicht davon aus, dass jede Anweisungsdatei automatisch zusammengeführt wird.

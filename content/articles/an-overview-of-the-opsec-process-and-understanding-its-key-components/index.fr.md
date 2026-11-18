@@ -1,6 +1,7 @@
 ---
 title: "Comprendre les éléments clés du processus OPSEC pour une protection efficace de l'information"
 date: 2023-06-15
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez les éléments essentiels du processus OPSEC et apprenez à protéger efficacement les informations sensibles."
@@ -54,7 +55,7 @@ Plusieurs réglementations gouvernementales fournissent des lignes directrices e
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) L'HIPAA établit des normes de sécurité pour la protection des informations sensibles sur la santé des patients dans le secteur des soins de santé.
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): Le Règlement général sur la protection des données (RGPD) est un règlement qui fixe des lignes directrices pour protéger les données à caractère personnel au sein de l’Union européenne (UE).
 
 En se conformant à ces réglementations, les organisations peuvent s'assurer qu'elles ont mis en place des mesures adéquates pour protéger les informations sensibles et éviter les répercussions juridiques.
 

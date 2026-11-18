@@ -1,7 +1,7 @@
 ---
 title: "AWS বনাম Azure বনাম Google Cloud 2026: পূর্ণাঙ্গ তুলনা"
 date: 2023-07-01
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "AWS, Azure এবং Google Cloud-এর 2026 সালের তুলনা, যেখানে মূল্য, নিরাপত্তা, সম্মতি, পরিষেবা, কর্মক্ষমতা এবং প্রদানকারী বাছাই আলোচনা করা হয়েছে।"
@@ -290,7 +290,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **সার্ভারবিহীন কন্টেইনার** | Fargate, App Runner | Container Apps | Cloud Run |
 | **ব্যাচ কম্পিউটিং** | AWS Batch | Azure Batch | Cloud Batch |
 | **উচ্চ কর্মক্ষমতা কম্পিউটিং** | ParallelCluster | CycleCloud | Cloud HPC Toolkit |
-| **VM মূল্য মডেল** | On-Demand, Reserved, Spot, Savings Plans | Pay-as-you-go, Reserved, Spot | On-Demand, Committed Use, Preemptible |
+| **VM মূল্য মডেল** | চাহিদা অনুযায়ী, সংরক্ষিত, Spot, Savings Plans | ব্যবহারভিত্তিক বিলিং, সংরক্ষিত, Spot | চাহিদা অনুযায়ী, Committed Use, Preemptible |
 
 **2026 সালের কর্মক্ষমতা মানদণ্ড** (c6a.2xlarge / F8s_v2 / n2-standard-8 সমতুল্য):
 
@@ -347,7 +347,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **পরিচালিত রিলেশনাল** | RDS (7টি ইঞ্জিন), Aurora | SQL Database, Database for MySQL/PostgreSQL | Cloud SQL |
 | **গ্লোবাল রিলেশনাল** | Aurora Global Database | Cosmos DB (SQL API) | Cloud Spanner |
 | **NoSQL ডকুমেন্ট** | DocumentDB | Cosmos DB | Firestore |
-| **NoSQL key-value** | DynamoDB | Cosmos DB (Table API) | Bigtable, Firestore |
+| **NoSQL কী-মান** | DynamoDB | Cosmos DB (Table API) | Bigtable, Firestore |
 | **ইন-মেমোরি** | ElastiCache (Redis/Memcached) | Cache for Redis | Memorystore |
 | **গ্রাফ** | Neptune | Cosmos DB (Gremlin API) | নেই (BigQuery, Dataplex) |
 | **টাইম সিরিজ** | Timestream | Data Explorer | Bigtable |
@@ -398,7 +398,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **DNS** | Route 53 | Azure DNS | Cloud DNS |
 | **লোড ব্যালেন্সিং** | ELB/ALB/NLB/GWLB | Load Balancer, App Gateway | Cloud Load Balancing (বৈশ্বিক) |
 | **ব্যক্তিগত সংযোগ** | Direct Connect | ExpressRoute | Cloud Interconnect |
-| **VPN** | Site-to-Site VPN | VPN Gateway | Cloud VPN |
+| **VPN** | স্থান-থেকে-স্থান VPN | VPN Gateway | Cloud VPN |
 | **সার্ভিস মেশ** | App Mesh | Open Service Mesh | Traffic Director |
 | **API ব্যবস্থাপনা** | API Gateway | API Management | Apigee, API Gateway |
 
@@ -417,13 +417,13 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 
 | ইনস্ট্যান্সের ধরন | AWS | Azure | Google Cloud |
 |---------------|-----|-------|--------------|
-| **On-Demand (প্রতি ঘণ্টা)** | 0.384 ডলার (m6i.2xlarge) | 0.400 ডলার (D8s v5) | 0.379 ডলার (n2-standard-8) |
-| **On-Demand (প্রতি মাস)** | 280.32 ডলার | 292.00 ডলার | 276.67 ডলার |
-| **1 বছরের Reserved (প্রতি মাস)** | 184.00 ডলার (34% সাশ্রয়) | 208.00 ডলার (29% সাশ্রয়) | 190.00 ডলার (31% সাশ্রয়) |
-| **3 বছরের Reserved (প্রতি মাস)** | 115.00 ডলার (59% সাশ্রয়) | 139.00 ডলার (52% সাশ্রয়) | 132.00 ডলার (52% সাশ্রয়) |
+| **চাহিদা অনুযায়ী (প্রতি ঘণ্টা)** | 0.384 ডলার (m6i.2xlarge) | 0.400 ডলার (D8s v5) | 0.379 ডলার (n2-standard-8) |
+| **চাহিদা অনুযায়ী (প্রতি মাস)** | 280.32 ডলার | 292.00 ডলার | 276.67 ডলার |
+| **1 বছরের জন্য সংরক্ষিত (প্রতি মাস)** | 184.00 ডলার (34% সাশ্রয়) | 208.00 ডলার (29% সাশ্রয়) | 190.00 ডলার (31% সাশ্রয়) |
+| **3 বছরের জন্য সংরক্ষিত (প্রতি মাস)** | 115.00 ডলার (59% সাশ্রয়) | 139.00 ডলার (52% সাশ্রয়) | 132.00 ডলার (52% সাশ্রয়) |
 | **Spot/Preemptible** | প্রায় 84 ডলার (70% সাশ্রয়) | প্রায় 88 ডলার (70% সাশ্রয়) | প্রায় 83 ডলার (70% সাশ্রয়) |
 
-**বিজয়ী**: **Google Cloud**, সর্বনিম্ন On-Demand মূল্য, স্বয়ংক্রিয় ধারাবাহিক ব্যবহার ছাড় এবং Committed Use ছাড়ের জন্য।
+**বিজয়ী**: **Google Cloud**, সর্বনিম্ন চাহিদা অনুযায়ী মূল্য, স্বয়ংক্রিয় ধারাবাহিক ব্যবহার ছাড় এবং Committed Use ছাড়ের জন্য।
 
 ### স্টোরেজের মূল্য
 
@@ -437,7 +437,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 
 **ব্লক স্টোরেজ** (SSD, প্রতি GB/মাস):
 
-| প্রদানকারী | Standard SSD | High-Performance SSD |
+| প্রদানকারী | Standard SSD | উচ্চ-কার্যক্ষম SSD |
 |----------|--------------|---------------------|
 | **AWS EBS** | 0.10 ডলার (gp3) | 0.125 ডলার (io2) |
 | **Azure Managed Disks** | 0.12 ডলার (Premium SSD) | 0.18 ডলার (Ultra Disk) |
@@ -488,7 +488,7 @@ coverCaption: "ক্লাউডে আপনার ব্যবসাকে �
 | **Google Cloud** (CUD) | 22,800 ডলার | 19,680 ডলার | 3,240 ডলার | 14,400 ডলার | **60,120 ডলার** |
 
 **নোট**: নিচের বিষয়গুলোতে মূল্য অনেক বদলায়:
-- Reserved/Committed মূল্য (30–70% সাশ্রয়)
+- সংরক্ষিত/প্রতিশ্রুত মূল্য (30–70% সাশ্রয়)
 - Spot/Preemptible ইনস্ট্যান্স (ত্রুটি-সহনশীল কাজে সর্বোচ্চ 90% সাশ্রয়)
 - এন্টারপ্রাইজ ছাড় কর্মসূচি (সাধারণত আরও 5–20% ছাড়)
 - বহু বছরের চুক্তি (বেশি ছাড়)

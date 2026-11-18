@@ -1,6 +1,7 @@
 ---
 title: "Przewodnik krok po kroku po karierze w IT i cyberbezpieczeństwie"
 date: 2023-02-13
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Odkryj kroki, które należy podjąć, aby rozpocząć karierę w ekscytującej i stale rozwijającej się dziedzinie IT i cyberbezpieczeństwa dzięki temu kompleksowemu przewodnikowi"
@@ -21,15 +22,15 @@ Jak mówi powiedzenie, musisz nauczyć się, jak to zbudować, zanim nauczysz si
 
 ## Uzyskanie stopnia naukowego lub zdobycie certyfikatów
 
-Uzyskanie dyplomu w dziedzinie IT lub cyberbezpieczeństwa jest wskazane, ale nie jest to jedyny sposób na rozpoczęcie pracy. Dążenie do [CompTIA's A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) mogą dać ci dobry start w tej dziedzinie i często pozwalają ci dowiedzieć się, czy chcesz ją dalej rozwijać. Certyfikaty te są uznawane przez wielu pracodawców i często można je zaliczyć na poczet studiów. Dodatkowo, kosztują one znacznie mniej niż uzyskanie dyplomu.
+Dyplom z informatyki lub cyberbezpieczeństwa może być przydatny, ale nie jest jedyną drogą do rozpoczęcia kariery. Certyfikaty [CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+](https://www.comptia.org/certifications/network) i [Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) zapewniają dobry początek i pomagają ocenić, czy chcesz rozwijać się w tej dziedzinie. Wielu pracodawców je uznaje, a zdobycie ich często można zaliczyć na poczet studiów. Kosztują też znacznie mniej niż dyplom.
 
 ## Rozwój umiejętności
 
-Po uzyskaniu [CompTIA certifications](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/), or at least the [Security+ certification](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), you can start advancing your skills. Pursuing certifications like [Microsoft's MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA's Linux+](https://www.comptia.org/certifications/linux) lub Cisco CCNA udowodni, że posiadasz minimum umiejętności administracyjnych i wiedzy. Certyfikaty te sprawią również, że będziesz bardziej konkurencyjnym kandydatem na stanowiska IT i cyberbezpieczeństwa.
+Po zdobyciu [certyfikatów CompTIA](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/) lub przynajmniej [certyfikatu Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) możesz rozwijać swoje umiejętności. Certyfikaty takie jak [MCSA firmy Microsoft](https://www.microsoft.com/en-us/learning/certification), [Linux+ firmy CompTIA](https://www.comptia.org/certifications/linux) lub Cisco CCNA potwierdzają podstawową wiedzę i umiejętności administracyjne. Zwiększają też konkurencyjność kandydatów na stanowiska IT i cyberbezpieczeństwa.
 
 ## Skupienie się na cyberbezpieczeństwie
 
-Jeśli jesteś nastawiony na karierę w dziedzinie cyberbezpieczeństwa, powinieneś rozważyć uzyskanie certyfikatu [pentest+](https://www.comptia.org/certifications/pentest) or [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) (preferred) certyfikacja. **Certyfikat CEH daje solidne podstawy w zakresie etycznego hakowania i testów penetracyjnych, a certyfikat OSCP jest kolejnym krokiem dla tych, którzy chcą przenieść swoje umiejętności na wyższy poziom.
+Jeśli planujesz karierę w cyberbezpieczeństwie, rozważ certyfikat CompTIA [PenTest+](https://www.comptia.org/certifications/pentest) lub, najlepiej, [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/). **Certyfikat CEH zapewnia solidne podstawy etycznego hakowania i testów penetracyjnych. Certyfikat OSCP to kolejny krok dla osób, które chcą dalej rozwijać umiejętności.**
 
 ## Nauka skryptów
 
@@ -39,13 +40,13 @@ Nauka skryptów jest ważną umiejętnością dla każdego w dziedzinie IT i cyb
 
 Dla początkujących w dziedzinie IT i cyberbezpieczeństwa dostępnych jest wiele zasobów, które pomogą ci zdobyć wiedzę i umiejętności. Niektóre zalecane zasoby to:
 
-- [**Online courses**](https://simeononsecurity.com/recommendations/learning_resources/) Wiele stron internetowych oferuje bezpłatne lub tanie kursy na różne tematy z zakresu IT i cyberbezpieczeństwa. Niektóre popularne platformy to Coursera, Udemy i edX. Na przykład strona Cybrary oferuje bezpłatne kursy na tematy takie jak etyczne hakowanie, bezpieczeństwo sieci i bezpieczeństwo w chmurze.
+- [**Kursy online**](https://simeononsecurity.com/recommendations/learning_resources/) Wiele stron internetowych oferuje bezpłatne lub tanie kursy na różne tematy z zakresu IT i cyberbezpieczeństwa. Niektóre popularne platformy to Coursera, Udemy i edX. Na przykład strona Cybrary oferuje bezpłatne kursy na tematy takie jak etyczne hakowanie, bezpieczeństwo sieci i bezpieczeństwo w chmurze.
 
-- [**Tutorials and free resources**](https://simeononsecurity.com/recommendations/learning_resources/): Many websites offer free tutorials and resources on topics such as programming languages, cybersecurity tools, and operating systems. For example, the website [W3Schools](https://www.w3schools.com/) oferuje bezpłatne samouczki dotyczące języków programowania, takich jak HTML, CSS i JavaScript.
+- [**Samouczki i bezpłatne materiały**](https://simeononsecurity.com/recommendations/learning_resources/): Wiele stron oferuje bezpłatne samouczki i materiały dotyczące języków programowania, narzędzi cyberbezpieczeństwa i systemów operacyjnych. Na przykład [W3Schools](https://www.w3schools.com/) udostępnia bezpłatne samouczki HTML, CSS i JavaScript.
 
-- [**Certifications**](https://simeononsecurity.com/recommendations/certifications/): Certifications can be a valuable asset in the IT and cybersecurity fields. They demonstrate your knowledge and skills in a particular area and can make you more marketable to employers. Some popular certifications include [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), and [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)
+- [**Certyfikaty**](https://simeononsecurity.com/recommendations/certifications/): Certyfikaty mogą być cennym atutem w branży IT i cyberbezpieczeństwa. Potwierdzają wiedzę i umiejętności w danej dziedzinie oraz mogą zwiększyć atrakcyjność kandydata dla pracodawców. Do popularnych certyfikatów należą [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) i [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP).
 
-- [**Books**](https://simeononsecurity.com/recommendations/books/): Reading books can be a great way to learn about IT and cybersecurity topics in-depth. Some recommended books include ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" by Michael Sikorski and Andrew Honig](https://amzn.to/3xVXzFa), and ["The Art of Deception: Controlling the Human Element of Security" by Kevin Mitnick](https://amzn.to/3SuW8qL)
+- [**Książki**](https://simeononsecurity.com/recommendations/books/): Czytanie książek pomaga dogłębnie poznać zagadnienia IT i cyberbezpieczeństwa. Polecane tytuły to ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" Gene’a Kima](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" Michaela Sikorskiego i Andrew Honiga](https://amzn.to/3xVXzFa) oraz ["The Art of Deception: Controlling the Human Element of Security" Kevina Mitnicka](https://amzn.to/3SuW8qL).
 
 Oprócz tych zasobów, networking jest kluczowy w dziedzinie IT i cyberbezpieczeństwa. Dołączanie do grup branżowych, uczestnictwo w konferencjach i nawiązywanie kontaktów z innymi profesjonalistami może pomóc w poznaniu nowych technologii i trendów w tej dziedzinie.
 ______

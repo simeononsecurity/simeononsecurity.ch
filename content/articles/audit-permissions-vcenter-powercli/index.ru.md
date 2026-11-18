@@ -1,7 +1,7 @@
 ---
 title: "Как провести аудит разрешений для vCenter с помощью PowerCLI"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Узнайте, как с помощью PowerCLI эффективно проводить аудит разрешений для vCenter, обеспечивая безопасность виртуальной инфраструктуры."
@@ -27,7 +27,7 @@ coverCaption: "Обеспечение безопасности vCenter с пом
 ## Подготовка среды
 Прежде чем приступить к процессу аудита, необходимо создать необходимое окружение. Ниже приведены шаги для начала работы:
 
-1. **Установка PowerCLI**: Загрузите и установите последнюю версию **PowerCLI** с официального сайта. [VMware website](https://www.vmware.com/support/developer/PowerCLI/) Следуйте указаниям мастера установки и убедитесь, что он успешно установлен в вашей системе.
+1. **Установка PowerCLI**: Загрузите и установите последнюю версию **PowerCLI** с [официального сайта VMware](https://www.vmware.com/support/developer/PowerCLI/). Следуйте указаниям мастера установки и убедитесь, что он успешно установлен в вашей системе.
 
 2. **Подключитесь к vCenter**: Запустите консоль **PowerCLI** или окно **PowerShell** и подключитесь к серверу vCenter, используя команду `Connect-VIServer` команда. Укажите необходимые учетные данные для установления соединения.
 
@@ -82,22 +82,22 @@ coverCaption: "Обеспечение безопасности vCenter с пом
 
    Пример:
    ```powershell
-         # Connect to vCenter
+         # Подключиться к vCenter
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # Получить всех пользователей vCenter
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # Инициализировать массив для хранения разрешений пользователей
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # Перебрать пользователей и получить их разрешения
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # Преобразовать разрешения в файл CSV
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 
@@ -107,6 +107,6 @@ coverCaption: "Обеспечение безопасности vCenter с пом
 Не забывайте периодически пересматривать и обновлять **политики безопасности** своей организации, чтобы привести их в соответствие с лучшими отраслевыми практиками и соответствующими государственными нормативными актами, такими как **Общее положение о защите данных (GDPR)** и **Закон о переносимости и подотчетности медицинского страхования (HIPAA)**. Внедрение надежного процесса аудита разрешений будет способствовать повышению безопасности и соответствия требованиям среды vCenter.
 
 ## Ссылки
-- [Download PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
+- [Скачать PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)

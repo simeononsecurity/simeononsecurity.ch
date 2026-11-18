@@ -1,7 +1,7 @@
 ---
 title: "Ghidul începătorului pentru răspunsul la incidentele de securitate cibernetică"
 date: 2023-03-16
-lastmod: 2026-11-07
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Învățați elementele de bază ale răspunsului la incidente și gestionarea incidentelor de securitate cibernetică cu acest ghid pentru începători."
@@ -32,7 +32,7 @@ Procesul de răspuns la incidente implică, de obicei, următoarele etape:
 
 Al doilea pas în procesul de răspuns la incidente este **identificarea**. Aceasta implică detectarea și confirmarea apariției unui incident. Identificarea poate fi declanșată de diverși factori, cum ar fi alarme de la sistemele de securitate, rapoarte de la angajați sau notificări externe de la agențiile de aplicare a legii sau de reglementare.
 
-### Containment
+### Izolarea incidentului
 
 Odată ce un incident a fost identificat, următorul pas este **conținerea**. Scopul izolării este de a împiedica răspândirea incidentului și de a provoca daune suplimentare. Acest lucru poate implica izolarea sistemelor sau rețelelor afectate, deconectarea de la internet sau oprirea sistemelor afectate.
 
@@ -65,4 +65,4 @@ ______
 
 ## Concluzie
 
-Un răspuns eficient la incidente este esențial pentru a minimiza daunele cauzate de incidentele de securitate cibernetică. Urmând cele mai bune practici și implementând un plan eficient de răspuns la incidente, persoanele și organizațiile pot fi mai bine pregătite să răspundă la incidente și să prevină apariția unor incidente viitoare. 
+Un răspuns eficient la incidente este esențial pentru a minimiza daunele cauzate de incidentele de securitate cibernetică. Urmând cele mai bune practici și implementând un plan eficient de răspuns la incidente, persoanele și organizațiile pot fi mai bine pregătite să răspundă la incidente și să prevină apariția unor incidente viitoare.

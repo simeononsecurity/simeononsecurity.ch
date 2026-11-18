@@ -1,7 +1,7 @@
 ---
 title: "ਤੁਹਾਨੂੰ ਕਿਹੜਾ ਲੋਕਲ AI ਮਾਡਲ ਚਲਾਉਣਾ ਚਾਹੀਦਾ ਹੈ? ਅਕਤੂਬਰ 2026 ਲਈ GPU, ਕਾਂਟੈਕਸਟ ਅਤੇ ਕੋਡਿੰਗ ਗਾਈਡ"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਕੋਡਿੰਗ ਏਜੰਟਾਂ ਲਈ ਲੋਕਲ AI ਮਾਡਲ ਚੁਣਨ ਬਾਰੇ ਅਕਤੂਬਰ 2026 ਦੀ ਵਿਹਾਰਕ ਗਾਈਡ। GPU ਮੈਮੋਰੀ, KV-cache ਵਾਧਾ, ਕਾਂਟੈਕਸਟ ਆਕਾਰ, quantization ਗੁਣਵੱਤਾ, prompt processing, reasoning ਸੈਟਿੰਗਾਂ ਅਤੇ cloud rental ਲਾਗਤਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।"
@@ -31,9 +31,9 @@ Model tier list ਆਮ ਤੌਰ ਉੱਤੇ parameter count ਨੂੰ GPU memo
 
 Model weights ਪਹਿਲੀ allocation ਹਨ। **KV cache** ਵਧਣ ਵਾਲੀ allocation ਹੈ। ਇਹ active context ਦੀਆਂ attention keys ਅਤੇ values ਰੱਖਦਾ ਹੈ ਤਾਂ ਜੋ runtime ਹਰ generated token ਤੋਂ ਬਾਅਦ ਪੂਰੇ prompt ਨੂੰ ਮੁੜ calculate ਨਾ ਕਰੇ।
 
-| Memory consumer | ਇਸ ਵਿੱਚ ਕੀ ਰਹਿੰਦਾ ਹੈ | ਇਹ ਕਿਉਂ ਮਹੱਤਵਪੂਰਨ ਹੈ |
+| ਮੈਮੋਰੀ ਦੀ ਵਰਤੋਂ | ਇਸ ਵਿੱਚ ਕੀ ਰਹਿੰਦਾ ਹੈ | ਇਹ ਕਿਉਂ ਮਹੱਤਵਪੂਰਨ ਹੈ |
 |---|---|---|
-| **Model weights** | Quantized parameters | ਇੱਕ ਵਾਰ ਦੀ loading requirement |
+| ਮਾਡਲ ਦੇ ਵਜ਼ਨ | Quantized parameters | ਇੱਕ ਵਾਰ ਦੀ loading requirement |
 | **KV cache** | Active context ਦੀਆਂ notes | Prompt ਅਤੇ conversation ਨਾਲ ਵਧਦਾ ਹੈ |
 | **Runtime buffers** | Temporary computation space | Backend ਅਤੇ batch size ਅਨੁਸਾਰ ਬਦਲਦਾ ਹੈ |
 | **Agent instructions** | System prompts ਅਤੇ tool definitions | Project files ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ context ਵਰਤਦਾ ਹੈ |
@@ -46,7 +46,7 @@ Coding agents context ਨੂੰ ਸਿਰਫ਼ source files ਉੱਤੇ ਨਹ
 
 ਤਿੰਨ MCP connections ਦੀਆਂ verbose tool definitions agent ਵੱਲੋਂ project file ਖੋਲ੍ਹਣ ਤੋਂ ਪਹਿਲਾਂ ਕਈ ਹਜ਼ਾਰ tokens ਵਰਤ ਸਕਦੀਆਂ ਹਨ। ਛੋਟਾ default context ਫਿਰ code ਲਈ ਥੋੜ੍ਹੀ ਥਾਂ ਛੱਡਦਾ ਹੈ। Agent ਜਵਾਬ ਦਿੰਦਾ ਰਹਿੰਦਾ ਹੈ, ਪਰ multi-step repairs ਲਈ ਲੋੜੀਂਦਾ working set ਗੁਆ ਲੈਂਦਾ ਹੈ।
 
-Ollama ਦੀ [runtime FAQ](https://docs.ollama.com/faq) 4,096 tokens ਦਾ default context ਦੱਸਦੀ ਹੈ। ਇਸਦੀ `OLLAMA_CONTEXT_LENGTH` setting default ਬਦਲਦੀ ਹੈ, ਜਦਕਿ `OLLAMA_NUM_PARALLEL` concurrent requests ਦੀ ਗਿਣਤੀ ਨਾਲ ਲੋੜੀਂਦੀ memory ਵਧਾਉਂਦੀ ਹੈ। Local benchmark ਨੂੰ single-request result ਨਾਲ compare ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਦੋਵੇਂ values ਲਿਖੋ।
+Ollama ਦੀ [ਰਨਟਾਈਮ FAQ](https://docs.ollama.com/faq) 4,096 tokens ਦਾ default context ਦੱਸਦੀ ਹੈ। ਇਸਦੀ `OLLAMA_CONTEXT_LENGTH` setting default ਬਦਲਦੀ ਹੈ, ਜਦਕਿ `OLLAMA_NUM_PARALLEL` concurrent requests ਦੀ ਗਿਣਤੀ ਨਾਲ ਲੋੜੀਂਦੀ memory ਵਧਾਉਂਦੀ ਹੈ। Local benchmark ਨੂੰ single-request result ਨਾਲ compare ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਦੋਵੇਂ values ਲਿਖੋ।
 
 ```bash
 OLLAMA_CONTEXT_LENGTH=32768 OLLAMA_NUM_PARALLEL=1 ollama serve
@@ -74,11 +74,11 @@ Reference material ਵਿੱਚ ਚਰਚਿਤ ਇੱਕ 27B coding model full 
 
 ਇਹ figures ਖਾਸ model architectures ਅਤੇ runtime settings ਦੱਸਦੇ ਹਨ। ਇਨ੍ਹਾਂ ਨੂੰ architecture inspect ਕਰਨ ਦਾ ਕਾਰਨ ਸਮਝੋ, universal memory formula ਨਹੀਂ।
 
-| Model behavior | Context effect | Hardware implication |
+| ਮਾਡਲ ਦਾ ਵਿਹਾਰ | Context effect | Hardware implication |
 |---|---|---|
-| **Full attention at every layer** | ਵੱਡਾ cache growth | ਲੰਮੇ prompts ਲਈ ਵੱਧ memory ਚਾਹੀਦੀ ਹੈ |
-| **Hybrid or sliding attention** | ਕੁਝ layers ਵਿੱਚ ਘੱਟ cache growth | ਉਸੇ model size ਉੱਤੇ ਵੱਧ context headroom |
-| **Mixture of experts** | ਹਰ token ਲਈ ਘੱਟ active parameters | ਹਰ token ਲਈ ਘੱਟ compute, ਪਰ total weights ਲਈ storage ਫਿਰ ਵੀ ਚਾਹੀਦੀ ਹੈ |
+| **ਹਰ ਲੇਅਰ ਵਿੱਚ ਫੁੱਲ ਅਟੈਂਸ਼ਨ** | ਵੱਡਾ cache growth | ਲੰਮੇ prompts ਲਈ ਵੱਧ memory ਚਾਹੀਦੀ ਹੈ |
+| **ਹਾਈਬ੍ਰਿਡ ਜਾਂ ਸਲਾਈਡਿੰਗ ਅਟੈਂਸ਼ਨ** | ਕੁਝ layers ਵਿੱਚ ਘੱਟ cache growth | ਉਸੇ model size ਉੱਤੇ ਵੱਧ context headroom |
+| **ਮਾਹਿਰਾਂ ਦਾ ਮਿਸ਼ਰਣ (MoE)** | ਹਰ token ਲਈ ਘੱਟ active parameters | ਹਰ token ਲਈ ਘੱਟ compute, ਪਰ total weights ਲਈ storage ਫਿਰ ਵੀ ਚਾਹੀਦੀ ਹੈ |
 | **Long-context extension** | ਵੱਡੀ working window | ਵੱਧ cache memory ਅਤੇ prompt-processing work |
 
 **Memory ਖਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ model architecture ਪੜ੍ਹੋ।** Parameter count ਲੰਮੇ coding session ਦੀ cost ਲੁਕਾਉਂਦਾ ਹੈ।
@@ -98,7 +98,7 @@ Mixture-of-experts models ਹੋਰ ਰਸਤਾ ਦਿੰਦੇ ਹਨ। ਛ�
 | **Autocomplete** | Short prompt ਵਾਲਾ ਛੋਟਾ dense model |
 | **Single-file edits** | Tool support ਵਾਲਾ ਛੋਟਾ instruct model |
 | **Repository-wide agent** | ਪਹਿਲਾਂ ਵੱਡਾ GPU rent ਕਰੋ ਜਾਂ system memory ਵਧਾਓ |
-| **Private code under an NDA** | Local model ਵਰਤੋ, ਪਰ ਛੋਟਾ scope ਜਾਂ ਹੌਲੀ runs ਸਵੀਕਾਰੋ |
+| **NDA ਅਧੀਨ ਨਿੱਜੀ ਕੋਡ** | Local model ਵਰਤੋ, ਪਰ ਛੋਟਾ scope ਜਾਂ ਹੌਲੀ runs ਸਵੀਕਾਰੋ |
 
 **ਇਸ tier ਵਿੱਚ ਵੱਡਾ model ਲੱਭਣ ਤੋਂ ਪਹਿਲਾਂ system RAM ਖਰੀਦੋ।** Stable small model ਉਸ ਵੱਡੇ model ਨਾਲੋਂ ਚੰਗਾ ਹੈ ਜੋ ਜ਼ਿਆਦਾਤਰ ਸਮਾਂ bus ਉੱਤੇ data ਹਿਲਾਉਂਦਾ ਰਹਿੰਦਾ ਹੈ।
 
@@ -110,12 +110,12 @@ Mixture-of-experts models ਹੋਰ ਰਸਤਾ ਦਿੰਦੇ ਹਨ। ਛ�
 
 Quantized model download ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਜਾਂਚੋ:
 
-- **Quantizer author and release notes**
-- **Calibration data and evaluation results**
-- **Tokenizer compatibility**
-- **Tool-calling tests**
-- **Context length at the chosen quantization**
-- **Runtime support in Ollama, llama.cpp, or the selected front end**
+- **Quantizer ਦੇ ਲੇਖਕ ਅਤੇ ਰਿਲੀਜ਼ ਨੋਟਸ**
+- **ਕੈਲੀਬ੍ਰੇਸ਼ਨ ਡਾਟਾ ਅਤੇ ਮੁਲਾਂਕਣ ਨਤੀਜੇ**
+- **ਟੋਕਨਾਈਜ਼ਰ ਅਨੁਕੂਲਤਾ**
+- **ਟੂਲ ਕਾਲ ਕਰਨ ਦੇ ਟੈਸਟ**
+- **ਚੁਣੀ ਹੋਈ quantization ਲਈ ਕਾਂਟੈਕਸਟ ਦੀ ਲੰਬਾਈ**
+- **Ollama, llama.cpp ਜਾਂ ਚੁਣੇ ਹੋਏ front end ਵਿੱਚ ਰਨਟਾਈਮ ਸਹਾਇਤਾ**
 
 **“2-bit” ਜਾਂ “3-bit” ਨੂੰ ਪੂਰੀ quality description ਨਾ ਸਮਝੋ।** Packing method ਅਤੇ calibration record ਮਹੱਤਵ ਰੱਖਦੇ ਹਨ।
 
@@ -149,9 +149,9 @@ Agent ਆਪਣਾ ਬਹੁਤ ਸਮਾਂ reading ਵਿੱਚ ਲਗਾਉ�
 
 | Metric | User experience |
 |---|---|
-| **Decode tokens per second** | Processing ਤੋਂ ਬਾਅਦ answer ਕਿੰਨੀ ਤੇਜ਼ੀ ਨਾਲ ਆਉਂਦਾ ਹੈ |
-| **Prompt tokens per second** | Answer ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ agent ਕਿੰਨਾ wait ਕਰਦਾ ਹੈ |
-| **Time to first token** | Prompt processing ਅਤੇ setup ਦੀ ਮਿਲੀ ਹੋਈ delay |
+| **ਡੀਕੋਡ ਟੋਕਨ ਪ੍ਰਤੀ ਸਕਿੰਟ** | Processing ਤੋਂ ਬਾਅਦ answer ਕਿੰਨੀ ਤੇਜ਼ੀ ਨਾਲ ਆਉਂਦਾ ਹੈ |
+| **ਪ੍ਰੌਂਪਟ ਟੋਕਨ ਪ੍ਰਤੀ ਸਕਿੰਟ** | Answer ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ agent ਕਿੰਨਾ wait ਕਰਦਾ ਹੈ |
+| **ਪਹਿਲੇ ਟੋਕਨ ਤੱਕ ਦਾ ਸਮਾਂ** | Prompt processing ਅਤੇ setup ਦੀ ਮਿਲੀ ਹੋਈ delay |
 | **Context retention** | Task ਦੌਰਾਨ project state ਦਾ ਕਿੰਨਾ ਹਿੱਸਾ ਉਪਲਬਧ ਰਹਿੰਦਾ ਹੈ |
 
 **ਆਪਣੇ prompt sizes ਨੂੰ benchmark ਕਰੋ।** Short synthetic prompt repository work ਦੌਰਾਨ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ cost ਲੁਕਾਉਂਦਾ ਹੈ।
@@ -160,13 +160,13 @@ Agent ਆਪਣਾ ਬਹੁਤ ਸਮਾਂ reading ਵਿੱਚ ਲਗਾਉ�
 
 Hardware upgrade ਪਹਿਲਾ performance step ਨਹੀਂ ਹੈ। Shopping page ਖੋਲ੍ਹਣ ਤੋਂ ਪਹਿਲਾਂ runtime settings test ਕਰੋ।
 
-### Multi-Token Prediction
+### ਬਹੁ-ਟੋਕਨ ਅਨੁਮਾਨ
 
 ਕੁਝ model ਅਤੇ backend combinations ਕਈ future tokens predict ਕਰਕੇ ਇੱਕ pass ਵਿੱਚ verify ਕਰਦੇ ਹਨ। ਇਹ feature ਅਕਸਰ runtime flag ਜਾਂ compatible draft setup ਰਾਹੀਂ ਮਿਲਦਾ ਹੈ।
 
 Reference material ਵਿੱਚ report ਕੀਤੇ tests ਕੁਝ high-end cards ਉੱਤੇ ਵੱਡੇ gains ਦਿਖਾਉਂਦੇ ਹਨ। Results model file, backend, driver ਅਤੇ card ਅਨੁਸਾਰ ਬਦਲਦੇ ਹਨ। Apple Metal paths conversion ਦੌਰਾਨ ਲੋੜੀਂਦਾ feature ਕਾਇਮ ਨਹੀਂ ਰੱਖ ਸਕਦੇ।
 
-### Reasoning Level
+### ਤਰਕ ਪੱਧਰ
 
 Maximum reasoning enabled ਵਾਲਾ model result ਵਾਪਸ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ internal work ਉੱਤੇ ਵੱਧ ਸਮਾਂ ਲਗਾਉਂਦਾ ਹੈ। Medium reasoning code repair ਲਈ ਅਕਸਰ ਵਧੀਆ balance ਦਿੰਦੀ ਹੈ, ਖਾਸ ਕਰਕੇ ਜਦੋਂ task ਵਿੱਚ ਸਪਸ਼ਟ error message ਅਤੇ narrow file target ਹੋਵੇ।
 
@@ -185,13 +185,13 @@ Occasional work ਲਈ rental compute ਜਿੱਤਦਾ ਹੈ। ਤੁਸੀ�
 
 Workload frequent, private ਜਾਂ offline ਹੋਣ ਉੱਤੇ owned hardware ਜਿੱਤਦਾ ਹੈ। ਇਹ queue time ਹਟਾਉਂਦਾ ਹੈ ਅਤੇ repeatable tests ਲਈ stable environment ਦਿੰਦਾ ਹੈ।
 
-| Situation | Better first move |
+| ਸਥਿਤੀ | ਪਹਿਲਾ ਬਿਹਤਰ ਕਦਮ |
 |---|---|
-| **A few sessions per month** | GPU rent ਕਰੋ ਜਾਂ API ਵਰਤੋ |
+| **ਮਹੀਨੇ ਵਿੱਚ ਕੁਝ ਸੈਸ਼ਨ** | GPU rent ਕਰੋ ਜਾਂ API ਵਰਤੋ |
 | **Daily private coding** | Supported 24GB ਤੋਂ 32GB system ਖਰੀਦੋ |
-| **Large repository with frequent reloads** | ਪਹਿਲਾਂ rent ਕਰੋ ਅਤੇ prefill speed ਮਾਪੋ |
-| **No code leaves the building** | Context target ਪੂਰਾ ਕਰਨ ਵਾਲਾ ਸਭ ਤੋਂ ਛੋਟਾ system own ਕਰੋ |
-| **Experimenting with a new model** | Hardware ਖਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ rent ਕਰੋ |
+| **ਵਾਰ-ਵਾਰ ਰੀਲੋਡ ਵਾਲੀ ਵੱਡੀ ਰਿਪੋਜ਼ਟਰੀ** | ਪਹਿਲਾਂ rent ਕਰੋ ਅਤੇ prefill speed ਮਾਪੋ |
+| **ਕੋਡ ਇਮਾਰਤ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾਂਦਾ** | Context target ਪੂਰਾ ਕਰਨ ਵਾਲਾ ਸਭ ਤੋਂ ਛੋਟਾ system own ਕਰੋ |
+| **ਨਵੇਂ ਮਾਡਲ ਨਾਲ ਪ੍ਰਯੋਗ ਕਰਨਾ** | Hardware ਖਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ rent ਕਰੋ |
 
 Break-even ਨੂੰ calendar hours ਨਾਲ ਨਹੀਂ, active hours ਨਾਲ calculate ਕਰੋ। Electricity, storage, cooling, maintenance ਅਤੇ runtime ਚਲਦਾ ਰੱਖਣ ਲਈ ਲੱਗਣ ਵਾਲਾ ਸਮਾਂ ਸ਼ਾਮਲ ਕਰੋ।
 

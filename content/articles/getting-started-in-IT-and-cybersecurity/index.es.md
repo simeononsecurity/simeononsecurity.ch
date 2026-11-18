@@ -1,6 +1,7 @@
 ---
 title: "Guía paso a paso para una carrera en TI y ciberseguridad"
 date: 2023-02-13
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Descubre los pasos que debes dar para lanzar tu carrera en el apasionante y siempre cambiante campo de las TI y la ciberseguridad con esta completa guía"
@@ -21,15 +22,15 @@ Como dice el refrán, hay que aprender a construirlo antes de aprender a romperl
 
 ## Obtener un título o una certificación
 
-Aunque obtener un título en TI o ciberseguridad es aconsejable, no es la única forma de empezar. En [CompTIA's A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) pueden darte un buen comienzo en este campo y, a menudo, te permiten saber si quieres dedicarte más a él. Estas certificaciones están reconocidas por muchas empresas y a menudo se pueden convalidar con créditos universitarios. Además, cuestan bastante menos que una licenciatura.
+Aunque es recomendable obtener un título en TI o ciberseguridad, no es la única forma de empezar. Las certificaciones [CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+](https://www.comptia.org/certifications/network) y [Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) pueden darte una buena base y ayudarte a decidir si quieres seguir en este campo. Muchos empleadores las reconocen y, a menudo, pueden convalidarse como créditos académicos. Además, cuestan mucho menos que un título universitario.
 
 ## Mejora tus habilidades
 
-Una vez que tengas la [CompTIA certifications](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/), or at least the [Security+ certification](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), you can start advancing your skills. Pursuing certifications like [Microsoft's MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA's Linux+](https://www.comptia.org/certifications/linux) o CCNA de Cisco demostrará que tienes un mínimo de habilidades y conocimientos de administración. Estas certificaciones también te convertirán en un candidato más competitivo para puestos de TI y ciberseguridad.
+Cuando obtengas las [certificaciones de CompTIA](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/) o, al menos, la [certificación Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), podrás ampliar tus habilidades. Certificaciones como [MCSA de Microsoft](https://www.microsoft.com/en-us/learning/certification), [Linux+ de CompTIA](https://www.comptia.org/certifications/linux) o CCNA de Cisco demuestran conocimientos básicos de administración de sistemas. También te hacen un candidato más competitivo para puestos de TI y ciberseguridad.
 
 ## Centrarse en la ciberseguridad
 
-Si estás decidido a dedicarte a la ciberseguridad, deberías obtener la certificación [pentest+](https://www.comptia.org/certifications/pentest) or [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) (preferred) certificación. **La certificación CEH te dará una base sólida en hacking ético y pruebas de penetración, y la certificación OSCP es el siguiente paso para aquellos que quieren llevar sus habilidades al siguiente nivel.**
+Si quieres dedicarte a la ciberseguridad, considera obtener CompTIA [PenTest+](https://www.comptia.org/certifications/pentest) o, preferiblemente, [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/). **La certificación CEH ofrece una base sólida en hacking ético y pruebas de penetración. La certificación OSCP es el siguiente paso para quienes quieren llevar sus habilidades más lejos.**
 
 ## Aprendiendo Scripting
 
@@ -39,13 +40,13 @@ Aprender scripting es una habilidad importante para cualquier persona en el camp
 
 Como principiante en TI y ciberseguridad, hay muchos recursos disponibles para ayudarte a adquirir conocimientos y habilidades. Algunos recursos recomendados son:
 
-- [**Online courses**](https://simeononsecurity.com/recommendations/learning_resources/) Muchos sitios web ofrecen cursos gratuitos o de bajo coste sobre diversos temas de informática y ciberseguridad. Algunas plataformas populares son Coursera, Udemy y edX. Por ejemplo, el sitio web Cybrary ofrece cursos gratuitos sobre temas como hacking ético, seguridad de redes y seguridad en la nube.
+- [**Cursos en línea**](https://simeononsecurity.com/recommendations/learning_resources/) Muchos sitios web ofrecen cursos gratuitos o de bajo coste sobre diversos temas de informática y ciberseguridad. Algunas plataformas populares son Coursera, Udemy y edX. Por ejemplo, el sitio web Cybrary ofrece cursos gratuitos sobre temas como hacking ético, seguridad de redes y seguridad en la nube.
 
-- [**Tutorials and free resources**](https://simeononsecurity.com/recommendations/learning_resources/): Many websites offer free tutorials and resources on topics such as programming languages, cybersecurity tools, and operating systems. For example, the website [W3Schools](https://www.w3schools.com/) ofrece tutoriales gratuitos sobre lenguajes de programación como HTML, CSS y JavaScript.
+- [**Tutoriales y recursos gratuitos**](https://simeononsecurity.com/recommendations/learning_resources/): Muchos sitios web ofrecen tutoriales y recursos gratuitos sobre lenguajes de programación, herramientas de ciberseguridad y sistemas operativos. Por ejemplo, [W3Schools](https://www.w3schools.com/) ofrece tutoriales gratuitos sobre lenguajes como HTML, CSS y JavaScript.
 
-- [**Certifications**](https://simeononsecurity.com/recommendations/certifications/): Certifications can be a valuable asset in the IT and cybersecurity fields. They demonstrate your knowledge and skills in a particular area and can make you more marketable to employers. Some popular certifications include [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), and [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)
+- [**Certificaciones**](https://simeononsecurity.com/recommendations/certifications/): Las certificaciones pueden ser valiosas en los campos de TI y ciberseguridad. Demuestran tus conocimientos y habilidades en un área concreta y pueden mejorar tu perfil ante los empleadores. Algunas certificaciones conocidas son [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) y [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP).
 
-- [**Books**](https://simeononsecurity.com/recommendations/books/): Reading books can be a great way to learn about IT and cybersecurity topics in-depth. Some recommended books include ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" by Michael Sikorski and Andrew Honig](https://amzn.to/3xVXzFa), and ["The Art of Deception: Controlling the Human Element of Security" by Kevin Mitnick](https://amzn.to/3SuW8qL)
+- [**Libros**](https://simeononsecurity.com/recommendations/books/): Leer libros es una buena forma de aprender a fondo sobre TI y ciberseguridad. Algunos títulos recomendados son ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" de Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" de Michael Sikorski y Andrew Honig](https://amzn.to/3xVXzFa) y ["The Art of Deception: Controlling the Human Element of Security" de Kevin Mitnick](https://amzn.to/3SuW8qL).
 
 Además de estos recursos, la creación de redes es clave en los campos de las TI y la ciberseguridad. Unirse a grupos del sector, asistir a conferencias y relacionarse con otros profesionales puede ayudarle a conocer las nuevas tecnologías y tendencias del sector.
 ______

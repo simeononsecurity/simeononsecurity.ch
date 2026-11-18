@@ -50,30 +50,30 @@ coverCaption: ""
 **ছোট কোডিং বা গবেষণার কাজে এই ছকটি কপি করুন।** অস্পষ্ট লেখা দিয়ে অপ্রাসঙ্গিক ঘর পূরণের বদলে সেগুলো বাদ দিন।
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+ফলাফল:
+অনুমোদিত উৎস ও রিভিশন:
+সংশ্লিষ্ট ফাইল বা রেকর্ড:
+অনুমোদিত পরিবর্তন:
+বাদ দেওয়া পরিবর্তন ও পদক্ষেপ:
+প্রত্যাশিত আচরণের উদাহরণ:
+সম্পন্নতার পরীক্ষা:
+কখন থামবেন বা জিজ্ঞাসা করবেন:
+ফিরতি প্রতিবেদনে দিন:
 ```
 
 **ল্যাবের জন্য** পূরণ করা প্যাকেটটি এমন হবে:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+ফলাফল: task_report.py-তে ঐচ্ছিক --status ফিল্টার যোগ করুন।
+উৎস: docs/requirements.md, রিভিশন 1।
+সংশ্লিষ্ট ফাইল: task_report.py, tasks.json, tests/.
+অনুমোদিত পরিবর্তন: task_report.py এবং লক্ষ্যভিত্তিক পরীক্ষা.
+বাদ: tasks.json, নতুন নির্ভরতা, কমিট ও পুশ।
+উদাহরণ: ফিল্টার ছাড়া Total tasks: 4 দেখায়। open ও done প্রতিটিতে 2 দেখায়।
+পরীক্ষা: ইউনিট টেস্ট এবং চারটি হাতে চালানো কমান্ড চালান: ফিল্টার ছাড়া, open, done এবং অবৈধ মান।
+অবৈধ মানে স্পষ্ট বার্তাসহ শূন্যের বেশি exit code দিতে হবে।
+উৎসে বিরোধ, ফাইল অনুপস্থিতি বা সম্পর্কহীন প্রাথমিক ব্যর্থতা থাকলে থামুন বা জিজ্ঞাসা করুন।
+প্রতিবেদন: বদলানো ফাইল, কমান্ড, দেখা আউটপুট এবং অমীমাংসিত বিষয়।
 ```
 
 **Windows-এ,** আপনার পরিবেশে Python launcher থাকলে প্যাকেটের কমান্ডে `py -3` ব্যবহার করুন।

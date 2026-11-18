@@ -1,7 +1,7 @@
 ---
 title: "Col·laboració d'IA a GitHub: límits del repositori i de la revisió"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Crea un mapa de fonts basat en GitHub, assigna propietaris de fitxers i estableix un límit de publicació protegit per a contribucions d'IA revisades."
@@ -55,7 +55,7 @@ L'ordre clone ha de donar nom al directori del repositori. Si `unzip` no està d
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Afegeix una base de col·laboració sintètica"
 git push origin main
 git status --short
 git remote -v

@@ -1,7 +1,7 @@
 ---
 title: "Ansible বনাম Puppet বনাম Chef 2026: কনফিগারেশন ব্যবস্থাপনা"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "2026 সালে Ansible, Puppet এবং Chef-এর তুলনা, যেখানে আর্কিটেকচার, ফিচার, শেখার সময়, পারফরম্যান্স, মূল্য এবং ব্যবহারক্ষেত্র অন্তর্ভুক্ত।"
@@ -11,7 +11,6 @@ cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "তিনটি ভাগে বিভক্ত ভবিষ্যৎধর্মী ডেটা সেন্টারের একটি চিত্র, যেখানে Ansible, Puppet এবং Chef-কে দেখানো হয়েছে। প্রতিটি ভাগে আলাদা সিস্টেম আর্কিটেকচার ও উজ্জ্বল সংযোগ রয়েছে, পটভূমি অন্ধকার।"
 coverCaption: "আপনার অবকাঠামোর জন্য সঠিক কনফিগারেশন ব্যবস্থাপনা টুল বেছে নিন"
 ---
-
 ## Ansible বনাম Puppet বনাম Chef 2026: কনফিগারেশন ব্যবস্থাপনার পূর্ণ তুলনা
 
 2026 সালেও আধুনিক অবকাঠামো বড় পরিসরে পরিচালনার জন্য **কনফিগারেশন ব্যবস্থাপনা** অত্যন্ত জরুরি। এন্টারপ্রাইজ বাজারে **Ansible**, **Puppet** এবং **Chef** এগিয়ে রয়েছে। এই টুলগুলো **কোড হিসেবে অবকাঠামো (IaC)** সমর্থন করে এবং দলগুলোকে হাজারো সিস্টেমে সার্ভার কনফিগারেশন, অ্যাপ্লিকেশন স্থাপন ও অবকাঠামো অর্কেস্ট্রেশন স্বয়ংক্রিয় করতে সাহায্য করে।
@@ -146,23 +145,23 @@ coverCaption: "আপনার অবকাঠামোর জন্য সঠ�
 **উদাহরণ** (Apache ইনস্টল ও চালু করা):
 ```yaml
 ---
-- name: Configure web servers
+- name: ওয়েব সার্ভার কনফিগার করুন
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: Apache ইনস্টল করুন
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: Apache পরিষেবা চালু করুন
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: ওয়েবসাইট স্থাপন করুন
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -186,19 +185,19 @@ coverCaption: "আপনার অবকাঠামোর জন্য সঠ�
 **উদাহরণ** (একই Apache সেটআপ):
 ```puppet
 class apache {
-  # Install Apache package
+  # Apache প্যাকেজ ইনস্টল করুন
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # ওয়েবসাইটের ফাইল স্থাপন করুন
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -228,20 +227,20 @@ node 'webserver.example.com' {
 
 **উদাহরণ** (একই Apache সেটআপ):
 ```ruby
-# Recipe: apache::default
+# রেসিপি: apache::default
 
-# Install Apache package
+# Apache প্যাকেজ ইনস্টল করুন
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# Apache পরিষেবা চালু ও সক্রিয় করুন
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# ওয়েবসাইটের ফাইল স্থাপন করুন
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -528,7 +527,7 @@ end
 
 **Ansible পদ্ধতি**:
 ```yaml
-- name: Manage web server fleet
+- name: ওয়েব সার্ভারের বহর পরিচালনা করুন
   hosts: webservers
   become: yes
   roles:
@@ -536,7 +535,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: অ্যাপ্লিকেশন স্থাপন করুন
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -549,7 +548,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -561,7 +560,7 @@ node /webserver\d+/ {
 
 **Chef পদ্ধতি**:
 ```ruby
-# Role: webserver
+# ভূমিকা: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -569,7 +568,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# রেসিপি: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

@@ -1,7 +1,7 @@
 ---
 title: "Een beginnershandleiding voor het ontwikkelen van websites: HTML, CSS en JavaScript"
 date: 2023-02-27
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer de grondbeginselen van website-ontwikkeling, waaronder HTML, CSS en JavaScript, met deze beginnersvriendelijke gids."
@@ -27,11 +27,11 @@ Hier is een voorbeeld van een eenvoudig HTML-document:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>Mijn website</title>
 </head>
 <body>
-  <h1>Welcome to my website!</h1>
-  <p>This is my first paragraph.</p>
+  <h1>Welkom op mijn website!</h1>
+  <p>Dit is mijn eerste alinea.</p>
 </body>
 </html>
 ```
@@ -65,7 +65,7 @@ Om meer te leren over JavaScript raden we [w3schools.com](https://www.w3schools.
 Hier is een voorbeeld van het gebruik van JavaScript (in html) om een waarschuwing te maken:
 
 ```js
-<button onclick="alert('Hello, world!')">Click me</button>
+<button onclick="alert('Hallo, wereld!')">Klik hier</button>
 ```
 
 Deze code maakt een knop die, wanneer erop geklikt wordt, een waarschuwing weergeeft met het bericht "Hallo, wereld!".

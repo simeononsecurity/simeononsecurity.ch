@@ -1,18 +1,17 @@
 ---
 title: "Containers zijn geen beveiligingsgrens meer: kernel-escapes in 2026"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Bekijk het container-escape-onderzoek uit 2026, de grenzen van kernelisolatie, de patchdruk en de rol van microVM's."
 genre: ["Containerbeveiliging", "Linux", "Kernelbeveiliging", "Virtualisatie", "Cloudbeveiliging", "Dreigingsonderzoek", "Blue team", "DevSecOps"]
-tags: ["container escape", "beveiligingsgrens van containers", "Linux-kernel-CVE", "lokale privilege-escalatie", "LPE 2026", "Copy Fail", "CVE-2026-31431", "Dirty Frag", "CVE-2026-43284", "CVE-2026-43500", "Fragnesia", "CVE-2026-46300", "CVE-2026-80521", "kernelCTF", "kvmCTF", "microVM", "Firecracker", "Kata Containers", "page-cache-corruptie", "AF_ALG", "AF_UNIX", "XFRM ESP", "RxRPC", "namespace-isolatie", "clone-systeemaanroep", "AI-kwetsbaarheidsdetectie", "Docker-beveiliging", "Kubernetes-beveiliging", "isolatie voor meerdere tenants", "sandbox-escape", "nsjail", "Bubblewrap", "Firejail", "Dirty Pipe", "trend in kernel-CVE's"]
+tags: ["ontsnapping uit de container", "beveiligingsgrens van containers", "Linux-kernel-CVE", "lokale privilege-escalatie", "LPE 2026", "Copy Fail", "CVE-2026-31431", "Dirty Frag", "CVE-2026-43284", "CVE-2026-43500", "Fragnesia", "CVE-2026-46300", "CVE-2026-80521", "kernelCTF", "kvmCTF", "microVM", "Firecracker", "Kata Containers", "page-cache-corruptie", "AF_ALG", "AF_UNIX", "XFRM ESP", "RxRPC", "namespace-isolatie", "clone-systeemaanroep", "AI-kwetsbaarheidsdetectie", "Docker-beveiliging", "Kubernetes-beveiliging", "isolatie voor meerdere tenants", "sandbox-escape", "nsjail", "Bubblewrap", "Firejail", "Dirty Pipe", "trend in kernel-CVE's"]
 cover: "/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp"
 coverAlt: "Digitale illustratie van meerdere gloeiende containers die verbonden zijn met een centraal kernelsymbool. Kleurrijke elementen tonen kwetsbaarheden die vanuit de kernel uitstralen tegen een donkere achtergrond."
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Containers delen één kernel. In 2026 bewezen vier afzonderlijke kwetsbaarheidsfamilies dat één kernelbug genoeg is om een container te verlaten en de host te bereiken.** Copy Fail, Dirty Frag, Fragnesia en CVE-2026-80521 geven elk rootrechten aan een niet-bevoegde lokale gebruiker. Elk van deze kwetsbaarheden doorbreekt de containergrens.
 
 *Het ongemakkelijke deel zijn niet de bugs zelf. Het is hoe goedkoop AI ze nu vindt en hoe één patch een nieuwe bug veroorzaakte.*
@@ -185,7 +184,7 @@ Het aanvalsoppervlak van KVM is echt. Google organiseert **kvmCTF** juist om zul
 | Willekeurige geheugenschrijfactie | $100,000 |
 | Willekeurige geheugenleesactie | $50,000 |
 | Relatieve geheugenschrijfactie | $50,000 |
-| Denial of Service | $20,000 |
+| Dienstweigering | $20,000 |
 | Relatieve geheugenleesactie | $10,000 |
 
 Beloningen stapelen niet. Het doelwit is een Linux-LTS-kernel met KVM en de gastmachine is Debian 12.5. Het doel is een **aanval van gast naar host**.
@@ -245,27 +244,27 @@ Het overkoepelende principe is eenvoudig. **Containers zijn uitstekende hulpmidd
 Niets hiervan vervangt een VM-grens. Al deze maatregelen halen wel eenvoudige aanvalspaden weg:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Schakel de modules uit die door de page-cache-familie worden misbruikt, als ze niet nodig zijn
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Beperk niet-bevoorrechte gebruikersnaamruimten, zodat de ESP-varianten worden geblokkeerd
+# Debian en Ubuntu: dit is een gedeeltelijke beperking, geen volledige oplossing
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# Wis bij vermoedelijke uitbuiting de pagecache om gewijzigde binaries in het geheugen te verwijderen
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Eerste detectiesignalen
+- Onverwachte unshare(CLONE_NEWUSER) vanuit een workload zonder legitieme reden
+- NETLINK_XFRM-activiteit of XFRM-beveiligingsassociaties buiten IPsec-hosts
+- Verzoeken om AF_ALG-sockets te koppelen
+- Laden van esp4, esp6 of rxrpc op hosts zonder IPsec en AFS
 ```
 
 > **Waarschuwing: `drop_caches` verwijdert de gewijzigde kopie uit het geheugen en wist daarmee de corruptie, maar verwijdert geen aanvaller die al rootrechten heeft verkregen. Behandel dit als incidentrespons, niet als herstelmaatregel.**
@@ -327,7 +326,7 @@ Drie uitspraken, gerangschikt naar zekerheid:
 2. **Bekijk het gezaghebbende advies en de maatregelen** voor de Copy Fail-familie: **[CERT/CC VU#260001](https://www.kb.cert.org/vuls/id/260001/)**
 3. **Lees de technische uitleg van Dirty Frag** om de koppeling te begrijpen en te zien waarom de maatregel met `algif_aead` faalt: **[Technische uitleg van Dirty Frag](https://github.com/V4bel/dirtyfrag)**
 4. **Bekijk de regels en beloningsniveaus van kvmCTF** om de omvang van het hypervisor-aanvalsoppervlak te zien: **[Overzicht van kvmCTF](https://google.github.io/security-research/kvmctf/rules.html)**
-5. **Beoordeel deze CVE's in je eigen omgeving** met onze client-side tool: **[CVSS v3.1-calculator](/cvss-calculator/)**
+5. **Beoordeel deze CVE's in je eigen omgeving** met onze client-side tool: **[Rekenhulp voor CVSS v3.1](/cvss-calculator/)**
 6. **Verhard wat je nu uitvoert**: **[Je Docker- en Kubernetes-omgeving beveiligen](/articles/how-to-secure-your-docker-and-kubernetes-environment/)**
 7. **Lees meer over de isolatieafweging**: **[Docker versus virtuele machines 2026](/articles/docker-vs-vms/)**
 8. **Beperk rechten waar je geen grens kunt toevoegen**: **[Toegangsbeheer met minimale rechten op Linux beheersen](/articles/mastering-least-privilege-access-control-linux/)**

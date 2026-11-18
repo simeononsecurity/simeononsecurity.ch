@@ -1,7 +1,7 @@
 ---
 title: "एक स्रोत, अनेक उपकरण: मिश्रित टीमों के लिए AI सहयोग ढांचा"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "डेवलपर और गैर-डेवलपर के लिए साझा AI सहयोग ढांचा बनाएं। सत्य के स्रोत तय करें, संदर्भ संस्करणों को ट्रैक करें, स्थायी बदलावों की समीक्षा करें और प्रोजेक्ट मैप, RAG या दोनों चुनें।"
@@ -63,7 +63,7 @@ coverCaption: ""
 | **Source** | किसी सूचना प्रकार का authoritative record |
 | **Cache** | speed या convenience के लिए derived copy |
 | **Proposal** | owner approval की प्रतीक्षा करता suggested change |
-| **Project map** | source locations, identifiers और owners का index |
+| **परियोजना मानचित्र** | source locations, identifiers और owners का index |
 | **Manifest** | उत्तर या proposal में उपयोग हुए exact evidence का record |
 
 ## हर तथ्य का एक घर
@@ -79,7 +79,7 @@ coverCaption: ""
 | **Policy** | Wiki | Policy owner | Review के बाद approved publisher | Canonical page और local adapter |
 | **Cross-team decisions** | Wiki decision register | Named decision owner | Approval के बाद owner | Decision ID और status |
 | **Tasks और findings** | Tracker | Task owner | People या authorized intake | Issue key और revision |
-| **Chats, summaries, embeddings** | Cache only | Session/index steward | Tools और participants | Source check के बाद reference |
+| **Chats, summaries, embeddings** | केवल कैश | Session/index steward | Tools और participants | Source check के बाद reference |
 
 ADR code के पास रखें जब वह repository design नियंत्रित करता हो। Cross-team decision shared register में रखें। Local policy copy canonical page के नीचे रहे। Cache source को override नहीं करता।
 
@@ -88,10 +88,10 @@ ADR code के पास रखें जब वह repository design निय
 **Agents evidence को session context में लाते हैं**, फिर proposal बनाते हैं। वे अकेले durable facts approve नहीं करते। Draft बनाना policy publish या code merge करना नहीं है।
 
 ```text
-Source -> permission-checked read -> session context
-Session context -> proposal + base version -> owner review
-Owner approval -> controlled publication -> change log
-Changed base version -> reconcile proposal -> review again
+स्रोत -> अनुमति-जाँची गई पढ़त -> सत्र संदर्भ
+सत्र संदर्भ -> प्रस्ताव + आधार संस्करण -> स्वामी की समीक्षा
+स्वामी की मंज़ूरी -> नियंत्रित प्रकाशन -> बदलाव लॉग
+आधार संस्करण बदला -> प्रस्ताव का मिलान करें -> फिर से समीक्षा करें
 ```
 
 **Review से पहले base version जोड़ें।** Reviewer को previous value, proposed value, reason, evidence और affected systems चाहिए। Approval किसी specific proposal revision से जुड़ा हो।
@@ -148,19 +148,19 @@ tracker:
 ### साइडबार: नमूना AGENTS.md header
 
 ```markdown
-Policy-Version: v3 | Source: wiki:POL-01 | Status: approved
+Policy-Version: v3 | Source: wiki:POL-01 | Status: स्वीकृत
 
-# Project instructions
+# प्रोजेक्ट निर्देश
 
-Read the project map MAP-01 before starting a task.
-Load docs/policy-snapshot.md and record its source revision.
-Treat chat memory and search excerpts as caches.
-Attach source revisions to every factual proposal.
-Use one task and one worktree per coding task.
-Do not publish policy, approve decisions, or merge your own code.
-Stop on unresolved source conflicts or overlapping writes.
-Required checks: tests, documentation review, policy freshness.
-Owners: engineering maintainer, product owner, policy owner.
+कोई काम शुरू करने से पहले MAP-01 प्रोजेक्ट मैप पढ़ें।
+docs/policy-snapshot.md लोड करें और उसका स्रोत संशोधन दर्ज करें।
+चैट मेमोरी और खोज अंशों को कैश मानें।
+हर तथ्यात्मक प्रस्ताव के साथ स्रोत संशोधन जोड़ें।
+हर कोडिंग कार्य के लिए एक टास्क और एक वर्कट्री रखें।
+नीति प्रकाशित न करें, निर्णयों को मंज़ूरी न दें और अपना कोड स्वयं मर्ज न करें।
+स्रोतों का विरोध अनसुलझा हो या लिखने के काम टकराएँ, तो रुकें।
+ज़रूरी जाँचें: टेस्ट, दस्तावेज़ समीक्षा और नीति की नवीनता।
+मालिक: इंजीनियरिंग अनुरक्षक, उत्पाद स्वामी और नीति स्वामी।
 ```
 
 Version label समान सामग्री का प्रमाण नहीं है। Approved snapshot से adapters बनाएं या policy हिस्से का digest compare करें। Local overrides और disabled rules जांचें।
@@ -191,12 +191,12 @@ Synthetic commit को वास्तविक inspected commit से बद�
 
 | Index rule | Required behavior |
 |---|---|
-| **Ingest sources, not caches** | Generated summaries और untracked copies हटाएं |
+| **कैश नहीं, स्रोत लें** | Generated summaries और untracked copies हटाएं |
 | **Preserve provenance** | हर chunk में source ID, revision, section और status रखें |
-| **Refresh on change** | Edit पर re-index करें और पुराने chunks invalidate करें |
+| **बदलाव पर रिफ्रेश करें** | Edit पर re-index करें और पुराने chunks invalidate करें |
 | **Honor access changes** | Permissions update करें और revoked content हटाएं |
 | **Return citations** | Retrieved text के साथ references दें |
-| **Check the live record** | Consequential proposal से पहले current evidence लें |
+| **लाइव रिकॉर्ड जांचें** | Consequential proposal से पहले current evidence लें |
 
 Retrieved chunk pointer है। Live source wording, exceptions और access की पुष्टि करता है। Live retrieval विफल हो तो snapshot label करें और durable action रोकें। Stale embeddings और missing context अलग जोखिम हैं। Permission leakage के लिए authorization को model को chunk देने से पहले लागू करें।
 
@@ -207,18 +207,18 @@ Retrieved chunk pointer है। Live source wording, exceptions और access 
 ### साइडबार: RAG या नहीं?
 
 ```text
-Do tasks usually name a project, page, issue, or file?
-  Yes -> Is direct retrieval sufficient for the pilot?
-           Yes -> MAP ONLY
-           No  -> HYBRID: map for known IDs, RAG for discovery
-  No  -> Is evidence scattered across a large collection?
-           No  -> MAP ONLY, plus native search
-           Yes -> Is work exploratory and read-only?
-                    Yes -> RAG-LED ONLY for discovery
-                    No  -> HYBRID with live-source checks
+क्या कार्यों में आम तौर पर प्रोजेक्ट, पेज, इश्यू या फ़ाइल का नाम होता है?
+  हाँ -> क्या पायलट के लिए सीधी पुनर्प्राप्ति पर्याप्त है?
+           हाँ -> केवल मानचित्र
+           नहीं -> संकर: ज्ञात ID के लिए मानचित्र, खोज के लिए RAG
+  नहीं -> क्या साक्ष्य बड़े संग्रह में बिखरे हुए हैं?
+           नहीं -> केवल मानचित्र और मूल खोज
+           हाँ -> क्या काम खोजपरक और केवल पढ़ने के लिए है?
+                    हाँ -> खोज के लिए केवल RAG
+                    नहीं -> लाइव स्रोत जाँचों के साथ संकर
 
-Every option retains owners, authorization, and provenance.
-RAG-led discovery still checks sources before durable action.
+हर विकल्प में स्वामी, अनुमति और स्रोत-संदर्भ बने रहते हैं।
+RAG के ज़रिए खोज करने पर भी स्थायी कार्रवाई से पहले स्रोतों की जाँच होती है।
 ```
 
 RAG-only retrieval interface है, governance छोड़ने की permission नहीं। Hybrid model discovery और verification अलग करता है। Map बताता है “कहां”, source बताता है “क्या”।
@@ -239,7 +239,7 @@ RAG-only retrieval interface है, governance छोड़ने की permis
 **Same-PR rule लागू करें:** code और affected docs साथ बदलें। Update न हो तो PR में exception लिखें। एक task, branch और worktree रखें। Default branch पर सीधे commit न करें।
 
 ```text
-KB-Update: none (reason: internal refactor preserves documented behavior)
+KB-अद्यतन: कोई नहीं (कारण: आंतरिक refactor दस्तावेज़ किए गए व्यवहार को बनाए रखता है)
 ```
 
 ## Repository के बाहर की जानकारी
@@ -257,12 +257,12 @@ KB-Update: none (reason: internal refactor preserves documented behavior)
 Conditional update उपलब्ध हो तो उपयोग करें। Tracker findings में observation, exact command, commit, expected behavior, actual behavior और acceptance criteria रखें।
 
 ```text
-Finding: retention implementation disagrees with approved requirement
-Evidence: REQ-17 v8 and inspected config/retention.yaml
-Inspection command: git show HEAD:config/retention.yaml
-Commit: full inspected commit ID recorded in the manifest
-Acceptance: approved duration matches code, tests, and runbook
-Status: awaiting product and engineering owner review
+निष्कर्ष: प्रतिधारण कार्यान्वयन स्वीकृत आवश्यकता से मेल नहीं खाता
+साक्ष्य: REQ-17 v8 और जाँची गई config/retention.yaml फ़ाइल
+जाँच आदेश: git show HEAD:config/retention.yaml
+कमिट: जाँचे गए कमिट की पूरी ID manifest में दर्ज है
+स्वीकृति मानदंड: स्वीकृत अवधि कोड, परीक्षणों और runbook से मेल खाती है
+स्थिति: उत्पाद और इंजीनियरिंग स्वामियों की समीक्षा की प्रतीक्षा है
 ```
 
 Decision register में question, options, trade-offs, owner और approval रखें। Agents propose करते हैं। लोग decide करते हैं।
@@ -271,7 +271,7 @@ Decision register में question, options, trade-offs, owner और approval
 
 **Post-merge sync implementation changes बाहर भेजता है।** Merged commit, approved requirement और runbook से linked wiki task बनाएं। Owner saved page verify करे। Policy freshness को अलग audit रखें।
 
-| Check | Completion evidence |
+| जाँच | पूर्णता का प्रमाण |
 |---|---|
 | **Policy freshness** | Canonical version और adapter digest comparison |
 | **Requirement reconciliation** | Requirement revision की code और tests से तुलना |
@@ -284,12 +284,12 @@ Pilot में weekly audit रखें। Behavior-changing PR को merge �
 
 **Repeated steps को versioned procedure ID वाले skills या prompts में रखें।** Contract साझा करें, universal file format न मानें।
 
-| Procedure | Required output |
+| Procedure | आवश्यक आउटपुट |
 |---|---|
 | **Start task** | Owner, scope, policy version, source manifest, write reservation |
 | **Doc lint** | Missing metadata, duplicate authority, broken source references |
-| **Knowledge check** | Supporting revisions वाले requirement-code gaps |
-| **Handoff** | Current evidence, proposals, completed checks, unresolved questions |
+| **ज्ञान-जाँच** | Supporting revisions वाले requirement-code gaps |
+| **Handoff** | वर्तमान साक्ष्य, प्रस्ताव, पूरी की गई जाँचें, अनसुलझे प्रश्न |
 
 Non-coders chat projects में वही proposal template भरते हैं। Coders PR में approved proposal, inspected commits और checks जोड़ते हैं। दोनों groups एक ही evidence structure hand off करते हैं।
 
@@ -314,7 +314,7 @@ Handoff भी cache है। अगला व्यक्ति source reread 
 
 **Retrieved text evidence है, instruction channel नहीं।** Wiki का text policy को override नहीं करता। हर page या file के लिए एक active owner रखें, reservation और expiry दर्ज करें, write से पहले reread करें।
 
-| Stop-and-ask trigger | Required response |
+| रुकने और पूछने का ट्रिगर | आवश्यक प्रतिक्रिया |
 |---|---|
 | **Owner के बिना sources disagree** | Pause और authority मांगें |
 | **दूसरी task target reserve करती है** | Edit से पहले ownership negotiate करें |
@@ -331,7 +331,7 @@ Prompts security controls नहीं हैं। Permission denial, protected
 
 | Metric | Definition |
 |---|---|
-| **Citation rate** | Source-supported material claims / sampled material factual claims |
+| **उद्धरण दर** | Source-supported material claims / sampled material factual claims |
 | **Weekly drift findings** | Source type के अनुसार confirmed authority/version mismatches |
 | **Proposal turnaround** | Review-ready proposal से recorded decision तक median time |
 | **Stale-context rework** | Obsolete या unverified evidence से reopened tasks |

@@ -1,7 +1,7 @@
 ---
 title: "Domina PowerCLI per administrar vSphere"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprèn a fer servir PowerCLI per administrar VMware vSphere, automatitzar tasques i millorar la productivitat."
@@ -68,10 +68,10 @@ PowerCLI automatitza tasques repetitives. Unes quantes línies de codi poden exe
 #### Crear instantànies de totes les VM d'una carpeta
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## Apaga totes les màquines virtuals d’un host concret
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## Fes una instantània de totes les màquines virtuals d’una carpeta concreta
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Aquest script mostra com aturar les VM d'un amfitrió concret i crear instantàn
 #### Aturar amb seguretat totes les VM d'una carpeta
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## Recupera la carpeta que conté les màquines virtuals que s’han d’apagar
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## Recupera totes les màquines virtuals de la carpeta especificada
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## Apaga totes les màquines virtuals de manera ordenada
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

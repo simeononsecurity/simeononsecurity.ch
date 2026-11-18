@@ -1,7 +1,7 @@
 ---
 title: "pfSense vs Firewalla vs OPNsense"
 date: 2023-11-14
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: Comparație cuprinzătoare 2026 a soluțiilor de firewall pfSense, Firewalla și OPNsense pentru securitatea rețelelor de acasă și enterprise. Găsește cea mai bună opțiune pentru nevoile tale.
@@ -216,7 +216,7 @@ ______
 | Caracteristică | OPNsense | pfSense |
 |---------------|----------|---------|
 | Frecvența actualizărilor | Săptămânal | Lunar/după necesitate |
-| Design UI | Modern, responsive | Funcțional dar învechit |
+| Design UI | Modern, responsiv | Funcțional dar învechit |
 | Dezvoltare de bază | Deschisă, condusă de comunitate | Condusă de Netgate |
 | Suport comercial | Deciso | Netgate |
 | Licență | BSD cu 2 clauze | Apache 2.0 |

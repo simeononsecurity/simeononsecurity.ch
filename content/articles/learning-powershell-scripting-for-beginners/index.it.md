@@ -3,6 +3,7 @@ title: "PowerShell Scripting: Una guida passo a passo per i principianti per aut
 draft: false
 toc: true
 date: 2023-02-25
+lastmod: 2026-11-14
 description: "Imparate le basi dello scripting PowerShell e automatizzate le attività con questa guida passo passo per principianti, che comprende cmdlet, loop, funzioni e altro ancora."
 genre: ["Tecnologia", "Programmazione", "Automazione", "Finestre", "Scripting", "IT", "Compiti amministrativi", "Gestione del computer", "Sviluppo di software", "Codifica"]
 tags: ["Scripting PowerShell", "Automazione PowerShell", "Scripting per Windows", "I cmdlet di PowerShell", "Moduli PowerShell", "Loop di PowerShell", "Dichiarazioni condizionali di PowerShell", "Funzioni PowerShell", "Le migliori pratiche di PowerShell", "Debug di PowerShell", "Test di PowerShell", "Variabili PowerShell", "PowerShell ISE", "Remoting PowerShell", "Tecnologie Microsoft", "Automazione IT", "gestione del computer", "codifica per principianti", "compiti amministrativi", "Idee di script PowerShell", "backup automatici", "gestione dei file", "informazioni sul sistema", "gestione degli utenti", "installazione del software", "configurazione di rete", "automazione della sicurezza", "programmazione dei task", "manipolazione del registro", "amministrazione remota"]
@@ -24,7 +25,7 @@ PowerShell è un potente linguaggio di scripting e shell a riga di comando svilu
 
 PowerShell è preinstallato nella maggior parte delle versioni del sistema operativo Windows. Tuttavia, se si utilizza una versione precedente di Windows o se si necessita di una versione più recente di PowerShell, è possibile scaricarla dal sito Web di Microsoft. Per scaricare e installare PowerShell, procedere come segue:
 
-1. Andare al sito [Microsoft PowerShell website](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) e selezionare la versione di PowerShell che si desidera installare.
+1. Andare al sito [sito ufficiale di Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) e selezionare la versione di PowerShell che si desidera installare.
 2. Scaricare il file di installazione ed eseguirlo.
 3. Seguire le istruzioni sullo schermo per completare il processo di installazione.
 
@@ -78,7 +79,7 @@ I loop vengono utilizzati per ripetere un blocco di codice un certo numero di vo
 - **Ciclo While**: ripete un blocco di codice finché una condizione è vera.
 - **Ciclo Do-While**: ripete un blocco di codice almeno una volta e poi finché una condizione è vera.
 - **orEach loop**: ripete un blocco di codice per ogni elemento di un insieme.
-  
+
 Ad esempio, il codice seguente utilizza un ciclo For per stampare i numeri da 1 a 5:
 ```powershell
 for($i=1; $i -le 5; $i++) {
@@ -101,7 +102,7 @@ Ad esempio, il codice seguente utilizza un'istruzione If per verificare se un nu
 ```powershell
 $number = 10
 if ($number -gt 5) {
-    Write-Host "The number is greater than 5"
+    Write-Host "Il numero è maggiore di 5"
 }
 ```
 #### Funzioni
@@ -122,7 +123,7 @@ function Add-Numbers {
 }
 
 $result = Add-Numbers -num1 5 -num2 10
-Write-Host "The result is $result"
+Write-Host "Il risultato è $result"
 ```
 ### PowerShell ISE
 PowerShell ISE (Integrated Scripting Environment) è un'interfaccia grafica per lo scripting PowerShell. PowerShell ISE fornisce un editor di testo ricco, strumenti di debug e altre funzioni che facilitano la scrittura e il test degli script PowerShell. Per aprire PowerShell ISE, procedere come segue:
@@ -171,11 +172,11 @@ Quando si scrivono script **PowerShell**, è importante seguire le best practice
 
 - **Utilizzare nomi di variabili descrittivi**: Utilizzare nomi di variabili che indichino chiaramente il loro scopo.
 - Usare commenti**: Utilizzare commenti per spiegare lo scopo del codice.
-- **Utilizzare la gestione degli errori**: Usare la gestione degli errori per gestire con grazia gli errori e le eccezioni. Il `Try...Catch...Finally` in PowerShell consente di gestire le eccezioni e di intraprendere azioni appropriate. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
-- **Testare accuratamente gli script**: Testate accuratamente gli script per assicurarvi che funzionino come previsto. È possibile utilizzare **Pester**, un framework di test per PowerShell, per scrivere ed eseguire test unitari per gli script. [Pester Documentation](https://pester.dev/)
-- **Utilizzare funzioni e moduli**: Usare funzioni e moduli per organizzare il codice e migliorarne la riusabilità. Le funzioni consentono di suddividere il codice in parti più piccole e gestibili, mentre i moduli forniscono un modo per impacchettare e distribuire il codice. [About Functions](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [About Modules](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
-- **Evitare la codifica dei valori**: Evitate di codificare i valori nello script e utilizzate invece parametri o variabili. Questo rende gli script più flessibili e riutilizzabili. È possibile passare parametri agli script utilizzando l'opzione `param` parola chiave. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
-- **Usa l'output verboso**: Utilizzare l'output verboso per fornire ulteriori informazioni sull'avanzamento dello script. È possibile utilizzare l'opzione `Write-Verbose` per visualizzare i messaggi verbosi durante l'esecuzione dello script. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
+- **Utilizzare la gestione degli errori**: Usare la gestione degli errori per gestire con grazia gli errori e le eccezioni. Il `Try...Catch...Finally` in PowerShell consente di gestire le eccezioni e di intraprendere azioni appropriate. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
+- **Testare accuratamente gli script**: Testate accuratamente gli script per assicurarvi che funzionino come previsto. È possibile utilizzare **Pester**, un framework di test per PowerShell, per scrivere ed eseguire test unitari per gli script. [Documentazione di Pester](https://pester.dev/)
+- **Utilizzare funzioni e moduli**: Usare funzioni e moduli per organizzare il codice e migliorarne la riusabilità. Le funzioni consentono di suddividere il codice in parti più piccole e gestibili, mentre i moduli forniscono un modo per impacchettare e distribuire il codice. [Informazioni sulle funzioni](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [Informazioni sui moduli](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
+- **Evitare la codifica dei valori**: Evitate di codificare i valori nello script e utilizzate invece parametri o variabili. Questo rende gli script più flessibili e riutilizzabili. È possibile passare parametri agli script utilizzando l'opzione `param` parola chiave. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
+- **Usa l'output verboso**: Utilizzare l'output verboso per fornire ulteriori informazioni sull'avanzamento dello script. È possibile utilizzare l'opzione `Write-Verbose` per visualizzare i messaggi verbosi durante l'esecuzione dello script. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
 
 Seguire queste best practice vi aiuterà a scrivere script PowerShell più efficienti e manutenibili, migliorando la vostra produttività e garantendo la stabilità delle vostre attività di automazione.
 
@@ -187,10 +188,10 @@ La gestione degli errori è un aspetto critico dello scripting PowerShell, in qu
 Ecco un esempio di utilizzo dell'istruzione Try-Catch per gestire con grazia un errore:
 ```powershell
 try {
-    # some code that might throw an error
+    # codice che potrebbe generare un errore
 }
 catch {
-    Write-Error "An error occurred: $_"
+    Write-Error "Si è verificato un errore: $_"
 }
 ```
 
@@ -200,11 +201,11 @@ Testare gli script PowerShell è essenziale per garantire che funzionino come pr
 
 Ecco un esempio di utilizzo di Pester per testare uno script PowerShell:
 ```powershell
-Describe "My PowerShell Script" {
-    It "Does something" {
-        # some code that should return the expected result
+Describe "Il mio script PowerShell" {
+    It "Esegue un’azione" {
+        # codice che dovrebbe restituire il risultato previsto
         $result = Do-Something
-        $result | Should -Be "expected result"
+        $result | Should -Be "risultato previsto"
     }
 }
 ```
@@ -221,7 +222,7 @@ function Get-ProcessCount {
 }
 
 $count = Get-ProcessCount
-Write-Host "There are $count processes running."
+Write-Host "Sono in esecuzione $count processi."
 ```
 
 #### Evitare la codifica rigida dei valori
@@ -233,7 +234,7 @@ param (
     [string]$name
 )
 
-Write-Host "Hello, $name!"
+Write-Host "Ciao, $name!"
 ```
 
 #### Utilizzare l'output Verbose
@@ -242,39 +243,39 @@ L'output verboso fornisce informazioni aggiuntive sull'avanzamento dello script,
 Ecco un esempio di utilizzo dell'output verboso in PowerShell:
 ```powershell
 function Get-ProcessCount {
-    Write-Verbose "Getting processes..."
+    Write-Verbose "Recupero dei processi..."
     $processes = Get-Process
     $count = $processes.Count
     return $count
 }
 
 $count = Get-ProcessCount -Verbose
-Write-Host "There are $count processes running."
+Write-Host "Sono in esecuzione $count processi."
 ```
 
 ### Dieci idee di script PowerShell per principianti
 
 Se siete principianti nello scripting PowerShell, ecco dieci idee di script per iniziare:
 
-- **Backup automatizzati**: Create uno script che automatizzi il processo di backup di file e directory importanti su un disco rigido esterno o su un servizio di cloud storage. È possibile utilizzare la funzione `Copy-Item` per copiare i file e il comando `Start-Job` per eseguire il processo di backup in background. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
+- **Backup automatizzati**: Create uno script che automatizzi il processo di backup di file e directory importanti su un disco rigido esterno o su un servizio di cloud storage. È possibile utilizzare la funzione `Copy-Item` per copiare i file e il comando `Start-Job` per eseguire il processo di backup in background. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
 
-- **Gestione dei file**: Creare uno script che organizzi i file e le directory ordinandoli in cartelle diverse in base al tipo di file, alle dimensioni o ad altri criteri. È possibile utilizzare l'opzione `Get-ChildItem` per recuperare i file e il cmdlet `Move-Item` per spostarli nella posizione desiderata. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
+- **Gestione dei file**: Creare uno script che organizzi i file e le directory ordinandoli in cartelle diverse in base al tipo di file, alle dimensioni o ad altri criteri. È possibile utilizzare l'opzione `Get-ChildItem` per recuperare i file e il cmdlet `Move-Item` per spostarli nella posizione desiderata. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
 
-- **Informazioni sul sistema**: Creare uno script che recuperi le informazioni di sistema, come l'utilizzo della CPU e della memoria, lo spazio su disco e le impostazioni di rete, e le visualizzi in un formato di facile lettura. È possibile utilizzare l'opzione `Get-WmiObject` per raccogliere le informazioni di sistema e formattarle utilizzando `Format-Table` o `Out-GridView` [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
+- **Informazioni sul sistema**: Creare uno script che recuperi le informazioni di sistema, come l'utilizzo della CPU e della memoria, lo spazio su disco e le impostazioni di rete, e le visualizzi in un formato di facile lettura. È possibile utilizzare l'opzione `Get-WmiObject` per raccogliere le informazioni di sistema e formattarle utilizzando `Format-Table` o `Out-GridView` [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
 
-- **Gestione degli utenti**: Creare uno script che automatizzi il processo di aggiunta, modifica o eliminazione di utenti e gruppi nel sistema operativo Windows. È possibile utilizzare il file `New-LocalUser` `Set-LocalUser` e `Remove-LocalUser` per gestire gli utenti e i comandi `New-LocalGroup` `Add-LocalGroupMember` e `Remove-LocalGroup` per gestire i gruppi. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
+- **Gestione degli utenti**: Creare uno script che automatizzi il processo di aggiunta, modifica o eliminazione di utenti e gruppi nel sistema operativo Windows. È possibile utilizzare il file `New-LocalUser` `Set-LocalUser` e `Remove-LocalUser` per gestire gli utenti e i comandi `New-LocalGroup` `Add-LocalGroupMember` e `Remove-LocalGroup` per gestire i gruppi. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
 
-- **Installazione software**: Creare uno script che installi e configuri il software su più computer contemporaneamente, risparmiando tempo e fatica. È possibile utilizzare il file `Invoke-Command` per eseguire i comandi di installazione sui computer remoti. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- **Installazione software**: Creare uno script che installi e configuri il software su più computer contemporaneamente, risparmiando tempo e fatica. È possibile utilizzare il file `Invoke-Command` per eseguire i comandi di installazione sui computer remoti. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
-- **Configurazione di rete**: Creare uno script che automatizzi il processo di configurazione delle impostazioni di rete, come indirizzo IP, maschera di sottorete e gateway predefinito. È possibile utilizzare il file `Set-NetIPAddress` `Set-NetIPInterface` e `Set-DnsClientServerAddress` per configurare le impostazioni di rete. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
+- **Configurazione di rete**: Creare uno script che automatizzi il processo di configurazione delle impostazioni di rete, come indirizzo IP, maschera di sottorete e gateway predefinito. È possibile utilizzare il file `Set-NetIPAddress` `Set-NetIPInterface` e `Set-DnsClientServerAddress` per configurare le impostazioni di rete. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
 
-- **Sicurezza**: Creare uno script che verifichi e monitori le impostazioni di sicurezza e avvisi l'utente se vengono rilevate modifiche. È possibile utilizzare l'opzione `Get-AuditPolicy` per recuperare i criteri di audit e il file `Send-MailMessage` per inviare notifiche via e-mail. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
+- **Sicurezza**: Creare uno script che verifichi e monitori le impostazioni di sicurezza e avvisi l'utente se vengono rilevate modifiche. È possibile utilizzare l'opzione `Get-AuditPolicy` per recuperare i criteri di audit e il file `Send-MailMessage` per inviare notifiche via e-mail. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
 
-- **Pianificazione delle attività**: Creare uno script che pianifichi e automatizzi le attività ricorrenti, come backup, aggiornamenti e scansioni del sistema. È possibile utilizzare l'opzione `Register-ScheduledTask` per creare attività pianificate e il comando `Start-ScheduledTask` per eseguirli. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
+- **Pianificazione delle attività**: Creare uno script che pianifichi e automatizzi le attività ricorrenti, come backup, aggiornamenti e scansioni del sistema. È possibile utilizzare l'opzione `Register-ScheduledTask` per creare attività pianificate e il comando `Start-ScheduledTask` per eseguirli. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
 
-- **Manipolazione del registro**: Creare uno script che modifichi o recuperi i valori del registro per chiavi o valori specifici. È possibile utilizzare l'opzione `Get-ItemProperty` e `Set-ItemProperty` per interagire con il registro. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
+- **Manipolazione del registro**: Creare uno script che modifichi o recuperi i valori del registro per chiavi o valori specifici. È possibile utilizzare l'opzione `Get-ItemProperty` e `Set-ItemProperty` per interagire con il registro. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
 
-- **Amministrazione remota**: Creare uno script che consenta l'amministrazione remota dei computer Windows, permettendo agli utenti di eseguire comandi e script sui computer remoti. È possibile utilizzare l'opzione `Enter-PSSession` o il comando `Invoke-Command` per eseguire comandi su computer remoti. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- **Amministrazione remota**: Creare uno script che consenta l'amministrazione remota dei computer Windows, permettendo agli utenti di eseguire comandi e script sui computer remoti. È possibile utilizzare l'opzione `Enter-PSSession` o il comando `Invoke-Command` per eseguire comandi su computer remoti. [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Documentazione Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
 Iniziate a esplorare queste idee di script per acquisire esperienza pratica e ampliare le vostre competenze in PowerShell.
 

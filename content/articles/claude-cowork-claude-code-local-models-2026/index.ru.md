@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork и Claude Code с локальными моделями: руководство по настройке на 2026 год"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Настройте Ollama с Claude Desktop и Claude Code через совместимый с Anthropic API. Ознакомьтесь с выбором моделей и облачными функциями на 2026 год."
@@ -188,7 +188,7 @@ claude --model glm-5.3-flash
 Когда Claude Code запущен, попросите его:
 
 ```text
-Read the current directory and list all files
+Прочитайте текущий каталог и перечислите все файлы
 ```
 
 **Если он перечислит реальные файлы, вызов инструментов работает.** Если он ответит, что прочитал бы каталог, и опишет, что ожидает найти, вызов инструментов не подключен. Вы общаетесь с чат-моделью, которой добавили подсказку для программирования. Никакие дополнительные формулировки не исправят подключение.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 В сеансе Claude Code команда `/loop` запускает запрос или slash-команду с заданным интервалом:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m Проверьте мои открытые PR и кратко изложите их статус
+/loop 1h Найдите последние новости об ИИ и кратко изложите важные события
+/loop 15m Проверьте новые задачи GitHub и расставьте приоритеты
 ```
 
 *Команда работает, пока открыт сеанс. Это не фоновая служба, поэтому она завершится вместе с сеансом.*

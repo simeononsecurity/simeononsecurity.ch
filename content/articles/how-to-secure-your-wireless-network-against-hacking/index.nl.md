@@ -41,7 +41,7 @@ __________
 
 ### Wijzig de standaardnetwerknaam (SSID) en het standaardwachtwoord
 
-De eerste en belangrijkste stap om je draadloze netwerk te beveiligen is **de standaardnetwerknaam (SSID) en het standaardwachtwoord wijzigen**. De standaard-SSID en het wachtwoord van de routerfabrikant zijn eenvoudig te raden en hackers kunnen ze makkelijk misbruiken. Vervang de standaard-SSID en het standaardwachtwoord door een unieke, sterke combinatie 
+De eerste en belangrijkste stap om je draadloze netwerk te beveiligen is **de standaardnetwerknaam (SSID) en het standaardwachtwoord wijzigen**. De standaard-SSID en het wachtwoord van de routerfabrikant zijn eenvoudig te raden en hackers kunnen ze makkelijk misbruiken. Vervang de standaard-SSID en het standaardwachtwoord door een unieke, sterke combinatie
 
 ### Gebruik sterke wachtwoorden
 

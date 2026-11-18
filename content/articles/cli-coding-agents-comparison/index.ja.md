@@ -1,17 +1,16 @@
 ---
 title: "CLI コーディングエージェント比較: Claude Code、Codex、Gemini、OpenCode、Copilot、Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "6 つのターミナルコーディングエージェントを、ワークフロー、自動化、モデルアクセス、権限、レビュー作業で比較します。再現可能なリポジトリ試験で候補を絞ります。"
 genre: ["開発者ツール", "人工知能", "ソフトウェア開発"]
-tags: ["CLI コーディングエージェント", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "ターミナルエージェント", "headless 自動化", "agent harness", "モデルプロバイダー", "Git ワークフロー", "コーディングエージェント比較", "shell ツール", "コーディングアシスタント", "エージェント権限", "リポジトリコンテキスト", "CI 自動化", "コードレビュー", "開発者ツール"]
+tags: ["CLI コーディングエージェント", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "ターミナルエージェント", "headless 自動化", "コーディングエージェントの実行基盤", "モデルプロバイダー", "Git ワークフロー", "コーディングエージェント比較", "shell ツール", "コーディングアシスタント", "エージェント権限", "リポジトリコンテキスト", "CI 自動化", "コードレビュー", "開発者ツール"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "暗い背景の均衡したグリッドで、リポジトリ記号を囲む 6 つの抽象的なターミナルウィンドウ"
 coverCaption: ""
 ---
-
 **ターミナルコーディングエージェント**は共通したインターフェースを持ちますが、コンテキストの収集、ファイル編集、承認の要求、スクリプトへの組み込み方が異なります。このガイドでは Claude Code CLI、Codex CLI、Gemini CLI、OpenCode CLI、GitHub Copilot CLI、Aider を比較します。各ベンダーのデスクトップ製品とは分けて、ターミナルワークフローを評価します。
 
 **自分の制約から始めてください。** プロバイダーへのアクセス、再現可能な自動化、レビューの習慣は、一般的なランキングより良い選別条件です。以下の推奨は、2026 年 10 月 10 日に確認した公式ドキュメントに基づく編集上の判断であり、測定した性能ランキングではありません。
@@ -98,10 +97,10 @@ coverCaption: ""
 **プロジェクト指示は検証が必要です。** 対応する指示メカニズムで、同じ build コマンド、受け入れ基準、除外事項を各ツールに渡します。編集前に有効な制約を繰り返させます。指示ファイルがないのは設定不備であり、モデルベンチマークではありません。
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+タスク: 公開APIを変更せず、提示された再現手順の問題を修正してください。
+範囲: 無関係な変更を保持し、新しい依存関係を追加しないでください。
+根拠: 既存の回帰テストと関連する周辺テストを実行してください。
+報告: 原因、変更したファイル、確認内容、残る不確実性を説明してください。
 ```
 
 **この試験 prompt は意図的に範囲を限定しています。** 既知の再現手順と独立して作成したチェックを追加します。分離した checkout で同じ開始 commit を使います。ツールバージョン、モデル、プロバイダー、権限ポリシー、経過時間、介入を記録します。

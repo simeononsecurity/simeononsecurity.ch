@@ -1,7 +1,7 @@
 ---
 title: "Carduri Virtuale Privacy.com: Cum Funcționează Confidențialitatea Plăților"
 date: 2023-09-03
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Ce este stocat pe un card de plată, de ce banda magnetică este partea cea mai slabă a acestuia, ce vede comerciantul când plătești cu un număr virtual și cum funcționează în practică tipurile și limitele cardurilor Privacy.com.
@@ -80,7 +80,7 @@ Majoritatea articolelor tratează cardurile virtuale ca un instrument general de
 
 **CVV este ceea ce dovedește că cineva a ținut fizic cardul** când a fost emis. Nu este stocat pe banda magnetică, motiv pentru care un skimmer care copiază banda nu îl obține niciodată.
 
-*Inspectează toate acestea singur cu **[Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/)**, care analizează Pista 1 și Pista 2, decodează cifrele codului de serviciu și re-codifică rezultatul. Rulează complet în browserul tău, ceea ce contează deoarece acesta este conținutul complet al unui card de plată.*
+*Inspectează toate acestea singur cu **[Decodor și codificator pentru banda magnetică](/magnetic-stripe-decoder/)**, care analizează Pista 1 și Pista 2, decodează cifrele codului de serviciu și re-codifică rezultatul. Rulează complet în browserul tău, ceea ce contează deoarece acesta este conținutul complet al unui card de plată.*
 
 {{< figure src="payment-card-data-anatomy-pan-cvv-tracks.webp" alt="Diagramă care arată elementele unui card de plată, inclusiv numărul principal al contului, data de expirare, CVV și cele trei piste ale benzii magnetice cu ce conține fiecare" >}}
 
@@ -102,7 +102,7 @@ Două evoluții pun capăt acestei tehnologii:
 | **Europa** | Benzile au început să dispară de pe cardurile Mastercard în 2024 |
 | **Statele Unite** | Băncile vor înceta să le emită începând cu 2027 |
 
-*Banda a fost înlocuită de cip și plăți contactless deoarece copierea ei nu necesită altă abilitate decât de a deține un cititor. Instrumentul nostru **[magnetic stripe tool](/magnetic-stripe-decoder/)** arată cât de puține date sunt necesare pentru a reconstrui o pistă funcțională.*
+*Banda a fost înlocuită de cip și plăți contactless deoarece copierea ei nu necesită altă abilitate decât de a deține un cititor. Instrumentul nostru **[instrument pentru banda magnetică](/magnetic-stripe-decoder/)** arată cât de puține date sunt necesare pentru a reconstrui o pistă funcțională.*
 
 {{< figure src="magnetic-stripe-track-layout-track1-track2.webp" alt="Diagramă a unei benzi magnetice care arată poziția fizică a pistelor unu, doi și trei, cu structura câmpurilor fiecărei piste, inclusiv sentinele, PAN, numele, expirarea și codul de serviciu" >}}
 
@@ -220,7 +220,7 @@ Opțiunea decodorului **Include LRC calculat** adaugă caracterul LRC imprimabil
 
 **Folosește decodorul pentru a scrie șiruri de test, nu carduri de plată reale.** Instrumentul acceptă câmpuri, reconstruiește Pista 1 și Pista 2, adaugă sentinele opționale și calculează LRC. Rulează local în browser.
 
-1. Deschide **[Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/)**.
+1. Deschide **[Decodor și codificator pentru banda magnetică](/magnetic-stripe-decoder/)**.
 2. Selectează **Load Test Card**. Aceasta completează instrumentul cu PAN-ul sintetic `4111111111111111`, numele `TEST/USER`, data de expirare `2912`, codul de serviciu `201` și datele discreționare de test.
 3. Activează **Include start and end sentinels** pentru a afișa limitele fizice ale înregistrării.
 4. Activează **Include calculated LRC** pentru a adăuga caracterul de verificare calculat.
@@ -232,11 +232,11 @@ Pentru un exercițiu cu Track 1 sintetic, folosește:
 
 ```text
 PAN: 4111111111111111
-Surname: TEST
-First name: USER
-Expiry: 12/29
-Service code: 201
-Discretionary data: 000000000
+Nume de familie: TEST
+Prenume: USER
+Expirare: 12/29
+Cod de serviciu: 201
+Date suplimentare: 000000000
 ```
 
 Pentru un exercițiu cu Track 2 sintetic, folosește același PAN, data de expirare, codul de serviciu și un câmp discreționar numeric. Șirul generat pentru Track 2 omit numele deoarece Track 2 nu are câmp pentru nume.
@@ -264,6 +264,21 @@ Când plătești cu un card virtual, comerciantul primește un număr, o dată d
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="Diagramă care arată un număr de card virtual trimis comerciantului în timp ce numărul real al cardului rămâne între titularul cardului și banca emitentă" >}}
 
+## Ce vede în continuare comerciantul
+
+**Un card virtual ascunde contul de finanțare și PAN-ul inițial.** Modificarea nu șterge datele furnizate la checkout.
+
+Documentația de asistență Privacy enumeră datele cardului partajate cu comerciantul: numărul de 16 cifre, data expirării, CVV-ul și adresa de facturare introdusă la checkout. Comerciantul vede și numele furnizat. Citește [explicația oficială a datelor vizibile comerciantului](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant) înainte să consideri cardul virtual un scut pentru identitate.
+
+| Nivel | Date care rămân vizibile sau stocate |
+|---|---|
+| **Comerciant** | Numărul cardului virtual, data expirării, CVV-ul, adresa de facturare și numele introduse la checkout, datele comenzii și datele contului la comerciant |
+| **Privacy.com** | Date de identitate, sursa de finanțare, date despre carduri și tranzacții, date despre dispozitiv conform [politicii de confidențialitate](https://www.privacy.com/privacy-policy) |
+| **Banca de finanțare** | Data și suma tranzacției și un descriptor care conține Privacy.com sau `PWP*`; banca stabilește afișarea exactă |
+| **Rețeaua de plăți și emitentul** | Înregistrări de autorizare, decontare, fraudă și dispută necesare procesării plății |
+
+Limita practică este simplă. Un card virtual reduce reutilizarea datelor cardului. Numele, adresa de livrare, contul la comerciant, sesiunea de browser și alte date furnizate în afara câmpurilor cardului rămân vizibile comerciantului. Conturile separate la comercianți și aliasurile de e-mail ajută la limitarea asocierii identității între site-uri. Un card virtual singur nu oferă această separare.
+
 ## Cele Trei Tipuri de Obiect în Formă de Card
 
 Terminologia este folosită inconsistent, iar diferența contează când alegi ce să dai unui comerciant.
@@ -284,9 +299,9 @@ Terminologia este folosită inconsistent, iar diferența contează când alegi c
 
 | Tip Card | Comportament | Cel Mai Potrivit Pentru |
 |---|---|---|
-| **Single-Use** | Se închide automat după o tranzacție | Cumpărături unice și comercianți necunoscuți |
+| **Utilizare unică** | Se închide automat după o tranzacție | Cumpărături unice și comercianți necunoscuți |
 | **Merchant-Locked** | Se blochează la primul comerciant care îl folosește și e respins în altă parte | Cumpărături online zilnice |
-| **Category-Locked** | Restricționat la o categorie de cheltuieli | Limitarea unei întregi clase de cheltuieli |
+| **Blocare pe categorie** | Restricționat la o categorie de cheltuieli | Limitarea unei întregi clase de cheltuieli |
 | **Everywhere** | Card fizic cu același model de protecție | Cumpărături în persoană |
 
 **Blocarea pe comerciant este mecanismul care aduce cea mai mare valoare.** Un card blocat e respins la orice comerciant în afară de cel cu care a fost folosit prima dată, ceea ce înseamnă că o breșă la comerciant generează un număr inutil în altă parte.
@@ -311,7 +326,23 @@ Două detalii operaționale demne de știut:
 
 **Setează atât o limită per tranzacție cât și o limită lunară pe orice card legat de un abonament.** O creștere silențioasă a prețului de către comerciant lovește limita, nu soldul tău, și observi asta printr-o plată eșuată în loc să lipsească o linie pe extras.
 
-*Modulul nostru **[Personal Finance Security](/personal-security-course/personal-finance/)** plasează acest control alături de blocarea creditului și tokenizarea cardului ca cele trei controale care limitează ce poate accesa un comerciant compromis.*
+*Modulul nostru **[Securitatea finanțelor personale](/personal-security-course/personal-finance/)** plasează acest control alături de blocarea creditului și tokenizarea cardului ca cele trei controale care limitează ce poate accesa un comerciant compromis.*
+
+## Plăți recurente și autorizări
+
+**Controalele cardului acționează în momentul autorizării.** Privacy descrie o tranzacție în așteptare ca permisiunea comerciantului de a încasa o sumă convenită. O autorizare de $0 verifică dacă un card este activ. Nu reprezintă o achiziție finalizată. Tranzacțiile finanțate prin bancă trec prin etapa de decontare înainte ca debitarea să se încheie. Consultă [ghidul oficial al stărilor tranzacțiilor](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized).
+
+| Eveniment | Ce se întâmplă | Limita controlului |
+|---|---|---|
+| **Adăugarea cardului la un serviciu** | Comerciantul trimite o autorizare de $0 pentru a verifica cardul | O verificare reușită nu dovedește că o comandă a fost plătită |
+| **Achiziție autorizată** | Privacy înregistrează o sumă în așteptare și permite comerciantului să încaseze suma convenită | Fondurile disponibile și autorizările ulterioare reflectă tranzacția în așteptare |
+| **Achiziție decontată** | Sursa de finanțare este debitată după procesarea comerciantului | O modificare a comenzii sau un bacșiș adăugat produce o sumă finală diferită de prima autorizare |
+| **Card suspendat sau închis după autorizare** | Autorizările viitoare sunt oprite | O autorizare anterioară continuă să urmeze regulile rețelei de plăți |
+| **Limită modificată după autorizare** | Noua limită se aplică încercărilor viitoare | Autorizarea anterioară își păstrează starea actuală |
+
+**Limita cardului nu este un sold preplătit.** Ghidul Privacy pentru fiecare card spune că limita blochează încercările de autorizare peste suma aleasă. Sursa de finanțare este debitată pe măsură ce tranzacțiile se finalizează. Ferestrele mobile sunt de 24 de ore pentru limite zilnice, 30 de zile pentru cele lunare și 364 de zile pentru cele anuale, cu o marjă de șase zile pentru unele cicluri de facturare ale abonamentelor. [Ghidul oficial al limitelor de cheltuieli](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) documentează aceste reguli.
+
+Pentru abonamente, setează o limită recurentă înainte de prima debitare, verifică tranzacțiile în așteptare și în decontare și anulează abonamentul și la comerciant. Închiderea unui card blochează autorizările viitoare. Nu anulează o achiziție deja autorizată și nu creează o rambursare. [Ghidul Privacy pentru suspendarea și închiderea cardurilor](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards) descrie aceeași limită.
 
 ## Planuri și Ce Deblochează Fiecare
 
@@ -327,6 +358,8 @@ Privacy.com oferă un nivel gratuit alături de trei planuri plătite. Prețuril
 **Nivelul gratuit acoperă beneficiul principal de securitate.** Blocarea comerciantului, cardurile de unică folosință și limitele de cheltuieli sunt mecanismele care reduc expunerea și sunt disponibile fără plată. Nivelurile plătite adaugă organizare și comoditate, nu protecție suplimentară.
 
 **Taxele pentru tranzacții externe diferă în funcție de nivel.** Nivelul gratuit percepe 3% pentru tranzacțiile externe, cu un minim de 0,50 $, în timp ce nivelurile plătite nu percep astfel de taxe.
+
+Înainte de abonare, citește [termenii actuali ai Privacy.com](https://www.privacy.com/terms).
 
 ## Ce NU face Privacy.com
 
@@ -367,7 +400,28 @@ Două certificări merită menționate pentru că sunt verificabile independent,
 
 *Motivul practic pentru a verifica banca emitentă este confirmarea. Oricine poate pretinde că administrează un program de carduri, iar numele emitentului de pe card este ceea ce confirmați cu banca menționată în documente.*
 
-Inspectați schema și banca după prefixul PAN folosind **[Magnetic Stripe Decoder](/magnetic-stripe-decoder/)**, care raportează intervalul schemei majore și validează cifra de control Luhn.
+Inspectați schema și banca după prefixul PAN folosind **[Decodor pentru banda magnetică](/magnetic-stripe-decoder/)**, care raportează intervalul schemei majore și validează cifra de control Luhn.
+
+## Recuperarea contului și dependența de furnizor
+
+**Accesul la cont este un control separat de izolarea cardului.** Pentru activitate nerecunoscută, Privacy recomandă să contactezi comerciantul, să verifici 2FA și cardurile partajate, să verifici codurile de conectare pentru dispozitive noi, să resetezi parola și să contactezi asistența. [Ghidul de securitate a contului](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account) enumeră acești pași.
+
+Păstrează actualizate e-mailul de recuperare și numărul de telefon din SUA. Potrivit [ghidului datelor de cont](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number), Privacy cere o confirmare când modifici oricare dintre ele. Activează 2FA și păstrează numele comercianților și ultimele patru cifre ale cardurilor într-un manager de parole. Nu salva PAN-ul complet sau CVV-ul într-o aplicație obișnuită de notițe.
+
+Închiderea contului nu șterge toate înregistrările. Politica Privacy, actualizată ultima dată la 8 iunie 2026, stabilește perioade de păstrare de cel puțin cinci ani pentru datele de verificare a identității și ale cardurilor de plată, șase ani pentru informațiile băncii de finanțare și tranzacțiile ACH și trei ani pentru jurnalele de audit. Citește secțiunea de păstrare din [politica de confidențialitate Privacy](https://www.privacy.com/privacy-policy) înainte să consideri închiderea contului drept ștergere a datelor.
+
+**Privacy rămâne dependentă de banca de finanțare, Plaid, ACH, rețelele de carduri și propriile sisteme de cont.** Finanțarea bancară folosește ACH prin Plaid. Privacy spune că băncile nesuportate au o alternativă de finanțare cu card de debit, dar eligibilitatea necesită în continuare o bancă sau cooperativă de credit din SUA și un număr de telefon din SUA. [Ghidul conectării unui cont bancar](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account) și [ghidul de eligibilitate](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy) descriu aceste cerințe.
+
+Problemele de finanțare afectează plățile. Privacy documentează suspendări temporare ale contului când serviciul nu poate debita o sursă de finanțare, de exemplu din cauza unui sold insuficient sau a unui cont închis. Pagina de asistență spune și că eliminarea unei surse de finanțare nu oprește tranzacțiile deja autorizate asupra sursei. Citește [ghidul tranzacțiilor nedecontate](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction) și [ghidul eliminării unei surse de finanțare](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account) înainte să elimini o bancă sau un card de debit.
+
+| Dependență | Tip de defecțiune | Răspuns practic |
+|---|---|---|
+| **Banca de finanțare sau Plaid** | Conexiune nesuportată, închisă sau neactualizată | Păstrează o sursă de rezervă eligibilă și verifică starea contului |
+| **Cont Privacy** | O nouă verificare a identității, pierderea canalului de recuperare sau suspendarea contului | Păstrează actualizate 2FA și datele de recuperare |
+| **Comerciant** | Respingerea intervalului unui card virtual sau preplătit, ori continuarea unei debitări recurente | Păstrează un card real pentru excepții și anulează la comerciant |
+| **Rețea sau emitent** | Întârziere la autorizare, decontare, rambursare sau dispută | Păstrează chitanțe, extrase și înregistrări ale tranzacțiilor |
+
+Termenii Privacy descriu servicii separate ale companiei și ale partenerilor săi financiari. Permit și solicitări de informații suplimentare despre identitate și restricții asupra conturilor. Include accesul la furnizor și înregistrările contului în modelul de amenințări. Nu direcționa toate facturile esențiale printr-un singur furnizor de carduri.
 
 ## Cum să folosești bine cardurile virtuale
 
@@ -381,6 +435,19 @@ Inspectați schema și banca după prefixul PAN folosind **[Magnetic Stripe Deco
 6. **Păstrați un card real pentru comercianții care resping intervalele virtuale**, astfel încât un checkout blocat să nu devină o urgență.
 
 > **Greșeală comună: a trata un card virtual ca un substitut pentru verificarea extraselor.** Blocarea comerciantului oprește o clasă de daune. Nu detectează un cont compromis la banca ta, un transfer neautorizat sau o taxă frauduloasă pe cardul real din spate.
+
+## Limitele actuale ale controalelor
+
+Documentația de asistență actuală Privacy.com afirmă că o limită de cheltuieli specifică unui card blochează încercările de autorizare peste limită. [Ghidul limitelor de cheltuieli](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) descrie și ferestrele mobile. [Documentația cardurilor pentru dezvoltatori](https://developers.privacy.com/docs/cards) enumeră cardurile blocate pentru un comerciant și câmpurile limitelor de cheltuieli.
+
+| Control | Ajută la | Nu rezolvă |
+|---|---|---|
+| Card blocat pentru un comerciant | Reutilizarea numărului la alt comerciant | Un cont Privacy.com compromis sau o tranzacție frauduloasă la comerciantul ales |
+| Limită de cheltuieli | Sume de autorizare neașteptate și variații ale plăților recurente | O debitare înainte de schimbarea limitei sau un cont de finanțare compromis |
+| Închiderea unui card virtual | Autorizări viitoare pe acel număr | Rambursare, dispută sau înregistrare a comerciantului deja creată |
+| Card separat pentru fiecare serviciu | Identificare și revocare rapide | Întreruperi ale furnizorului, verificări de identitate sau înregistrări bancare |
+
+Verifică împreună contul de finanțare, metodele de recuperare a contului, alertele și lista cardurilor. Un număr virtual schimbă numărul transmis comerciantului. Nu ascunde tranzacția băncii emitente, furnizorului cardului, comerciantului, rețelelor de plată, evidențelor fiscale sau unei instanțe cu autoritate legală. Nu transformă un card de debit într-o linie de credit și nu garantează rezultatul unei dispute.
 
 ## Concluzii cheie
 
@@ -413,3 +480,17 @@ Inspectați schema și banca după prefixul PAN folosind **[Magnetic Stripe Deco
 7. [Codificarea datelor ANSI/ISO ALPHA, setul de caractere și tabelul de paritate pentru Banda 1](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [Caractere ISO pentru carduri magnetice, seturile pentru Banda 1 și Banda 2 comparate](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [Citirea datelor de pe carduri magnetice, un ghid practic cu scanare live a unui card](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Documentația Privacy pentru dezvoltatori: tipuri de carduri, stări și limite](https://developers.privacy.com/docs/cards)
+11. [Asistență Privacy: date partajate cu comercianții](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Asistență Privacy: limite de cheltuieli pentru fiecare card](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Asistență Privacy: stări ale tranzacțiilor și autorizări](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Asistență Privacy: suspendarea și închiderea cardurilor](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Asistență Privacy: descrieri pe extrasele bancare](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Asistență Privacy: conectarea unui cont bancar prin Plaid](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Asistență Privacy: activitatea contului și verificări de recuperare](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Asistență Privacy: actualizarea e-mailului și telefonului contului](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Asistență Privacy: condiții de eligibilitate](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Asistență Privacy: tranzacții nedecontate](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Asistență Privacy: eliminarea unei surse de finanțare](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Politica de confidențialitate Privacy.com](https://www.privacy.com/privacy-policy)
+23. [Termenii serviciului Privacy.com](https://www.privacy.com/terms)

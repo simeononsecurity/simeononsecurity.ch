@@ -1,6 +1,7 @@
 ---
 title: "C#開発者のためのセキュアコーディングスタンダード"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "C#でセキュアコーディングのベストプラクティスを学び、セキュリティ侵害のリスクを最小化し、機密データを保護します。"
@@ -22,7 +23,7 @@ _____
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // 入力文字列が数字のみか確認
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // データを処理
     }
 }
 ```

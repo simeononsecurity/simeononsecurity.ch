@@ -1,7 +1,7 @@
 ---
 title: "9 proiecte AI Agent Skill pentru cercetare, design și dezvoltare"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Compară nouă proiecte de agent skills după fluxul de lucru, suportul pentru host, dependențe și cost. Învață să instalezi, inspectezi și testezi skills de care ai nevoie."
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **Comenzile de exemplu de mai jos provin din documentația actuală de instalare a proiectelor.** Rulează doar comanda proiectului ales. Package runner-ul descarcă și execută codul instalatorului, așa că inspectează proiectul upstream și alege domeniul instalării.
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: instalare Codex la nivel de utilizator
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: instalare Codex la nivel de utilizator
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: colecția oficială de skills, nu repository-ul framework-ului
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **Folosește o sarcină salvată ca baseline.** Ruleaz-o fără noua skill, apoi cu skill, păstrând pe cât posibil același model, input, tools și criterii de acceptare. Notează eșecurile și corecțiile umane împreună cu rezultatul final.
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# Exemplu de înregistrare a evaluării, nu o schemă de configurare a skill-urilor
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

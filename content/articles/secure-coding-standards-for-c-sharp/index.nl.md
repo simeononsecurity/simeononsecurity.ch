@@ -1,6 +1,7 @@
 ---
 title: "Veilig coderen voor C#-ontwikkelaars"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer best practices voor veilig coderen in C# om het risico van beveiligingslekken te minimaliseren en gevoelige gegevens te beschermen."
@@ -22,7 +23,7 @@ Gebruikersinvoer is vaak een belangrijke bron van beveiligingsrisico's. Input va
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Controleren of de invoertekst alleen cijfers bevat
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // De gegevens verwerken
     }
 }
 ```

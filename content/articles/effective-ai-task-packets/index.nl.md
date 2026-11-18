@@ -50,30 +50,30 @@ coverCaption: ""
 **Kopieer dit sjabloon** voor een kleine programmeer- of onderzoekstaak. Verwijder irrelevante velden in plaats van ze met vage tekst te vullen.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Resultaat:
+Gezaghebbende bron en revisie:
+Relevante bestanden of records:
+Toegestane wijzigingen:
+Uitgesloten wijzigingen en handelingen:
+Voorbeelden van gewenst gedrag:
+Voltooiingscontroles:
+Wanneer stoppen of vragen:
+Rapporteer:
 ```
 
 **Voor het lab** ziet het ingevulde pakket er zo uit:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Doel: voeg een optioneel --status-filter toe aan task_report.py.
+Bron: docs/requirements.md, revisie 1.
+Relevante bestanden: task_report.py, tasks.json, tests/.
+Toegestane wijzigingen: task_report.py en gerichte tests.
+Uitgesloten: tasks.json, nieuwe afhankelijkheden, commits en pushes.
+Voorbeelden: zonder filter verschijnt Total tasks: 4. open en done tonen elk 2.
+Controles: voer de unittests en vier handmatige opdrachten uit: zonder filter, open, done en een ongeldige waarde.
+Een ongeldige waarde moet eindigen met een niet-nulcode en een duidelijke foutmelding.
+Stop of vraag om hulp bij bronconflicten, ontbrekende bestanden of een niet-gerelateerde startfout.
+Rapport: gewijzigde bestanden, opdrachten, waargenomen uitvoer en openstaande punten.
 ```
 
 **Op Windows** gebruik je `py -3` in pakketopdrachten wanneer je omgeving de Python-launcher gebruikt.

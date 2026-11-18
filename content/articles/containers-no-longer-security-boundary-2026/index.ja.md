@@ -1,7 +1,7 @@
 ---
 title: "2026年、コンテナはもはやセキュリティ境界ではない"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "2026年のカーネル脆弱性は、マルチテナント環境でコンテナ分離だけでは不十分な理由を示します。Copy Fail、Dirty Frag、Fragnesia、CVE-2026-80521を解説し、強化コンテナとmicroVMの境界を比較します。"
@@ -12,7 +12,6 @@ coverAlt: "中央のカーネル記号につながる複数の光るコンテナ
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **コンテナは同じカーネルを共有します。2026年には4つの独立した脆弱性群により、カーネルのバグが1つあればコンテナからホストへ抜け出せることが証明されました。** Copy Fail、Dirty Frag、Fragnesia、CVE-2026-80521はいずれも、権限のないローカルユーザーにroot権限を与えます。すべてコンテナ境界を突破します。
 
 *問題はバグそのものだけではありません。AIが低コストでバグを見つけ、1つのパッチが別のバグを生んだことです。*
@@ -245,27 +244,27 @@ Kataは既存のコンテナイメージとツールを受け入れるため、�
 以下はVM境界の代わりにはなりませんが、簡単な侵入経路を減らします。
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# 不要な場合は、page-cache 系統に悪用されるモジュールを無効にする
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# 非特権ユーザー名前空間を制限し、ESP 系統を阻止する
+# Debian と Ubuntu: これは部分的な緩和策であり、完全な対策ではない
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# 悪用が疑われる場合は、変更されたメモリ内バイナリを破棄するためページキャッシュを消去する
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# 検出の初期兆候
+- 正当な理由のないワークロードからの予期しない unshare(CLONE_NEWUSER)
+- IPsec ホスト以外での NETLINK_XFRM 活動、または XFRM セキュリティアソシエーションの出現
+- AF_ALG ソケットをバインドする要求
+- IPsec も AFS も実行していないホストでの esp4、esp6、rxrpc のロード
 ```
 
 > **警告：`drop_caches`は変更されたメモリ内コピーを破棄して破損を消しますが、すでにrootを取得した攻撃者は除去しません。修復ではなくインシデント対応として扱ってください。**

@@ -1,7 +1,7 @@
 ---
 title: "Совместная работа с ИИ в GitHub: границы репозитория и проверки"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Создайте карту источников, определите владельцев файлов и защитите границу публикации проверяемых изменений с помощью ИИ."
@@ -54,7 +54,7 @@ git status --short
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Добавить синтетическую основу для совместной работы"
 git push origin main
 git status --short
 git remote -v

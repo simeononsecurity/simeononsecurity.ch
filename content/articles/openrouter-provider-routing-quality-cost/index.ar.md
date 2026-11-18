@@ -1,7 +1,7 @@
 ---
 title: "توجيه مزودي OpenRouter: جودة النماذج وحدود الرموز والتكاليف الفعلية"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "شخّص إجابات OpenRouter غير المتسقة، وقارن حدود نقاط النهاية وتكاليف التخزين المؤقت، واضبط توجيه المزودين دون تعطيل ضوابط الجودة بالخطأ."
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+حجم العمل: 6 ملايين رمز إدخال + مليون رمز إخراج
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+لكل مليون رمز من رموز الإدخال والإخراج مجتمعة:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```

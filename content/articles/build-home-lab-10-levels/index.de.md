@@ -1,7 +1,7 @@
 ---
 title: "Ein Homelab in 10 Stufen aufbauen, von Pi-hole bis lokaler KI"
 date: 2026-10-27
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Baue ein Homelab in zehn praktischen Stufen auf, von netzwerkweiter DNS-Filterung bis lokaler KI, mit Hardware, Kosten, Fähigkeiten und Kompromissen pro Stufe."
@@ -138,7 +138,7 @@ Lokale Modelle eignen sich für Aufgaben wie Entwürfe, Zusammenfassungen privat
 | **5** | Toleranz bei Laufwerksausfall und Wiederherstellung | NAS mit zwei Laufwerken plus separates Backup |
 | **6** | Virtuelles Serverlab | Mindestens zwei Mini-PCs |
 | **7** | Privater Zugriff und Segmentierung | Tailscale, verwalteter Router oder Switch |
-| **8** | Hohe Kapazität und Erweiterbarkeit | Enterprise-Server |
+| **8** | Hohe Kapazität und Erweiterbarkeit | Server der Unternehmensklasse |
 | **9** | Geringerer Energieverbrauch des Labs | Strommessgerät, optimierte Systeme |
 | **10** | Lokale Modellinferenz | PC mit viel Speicher, optionale GPU |
 

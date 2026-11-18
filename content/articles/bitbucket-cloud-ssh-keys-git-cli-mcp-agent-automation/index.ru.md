@@ -1,7 +1,7 @@
 ---
 title: "Ключи SSH Bitbucket Cloud: доступ Git только для чтения для ИИ-агентов"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Настройте ключи SSH Bitbucket Cloud, доступ Git CLI, токены REST API, 1Password и инструменты MCP для рабочих процессов ИИ-агентов только для чтения."
@@ -138,7 +138,7 @@ Host bitbucket.org
 Переносимый пример с ключом в файле:
 
 ```ini
-# .gitconfig inside one local repository
+# .gitconfig внутри одного локального репозитория
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

@@ -1,7 +1,7 @@
 ---
 title: "Is 16 GB VRAM genoeg voor serieus lokaal LLM-werk?"
 date: 2026-10-07
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Bepaal de omvang van een lokale LLM-configuratie met 16 GB op basis van modelgewichten, KV-cache en promptverwerking. Vergelijk geheugenbudgetten, GPU-bandbreedte en eigendomskosten voor Qwen3.8 27B."

@@ -1,12 +1,12 @@
 ---
 title: "Cloudflare Tunnel versus Access: heb je beide nodig?"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer het verschil tussen Cloudflare Tunnel en Access, kies bescherming voor een thuisdashboard en voorkom dat je een privéapp zonder authenticatie publiceert."
 genre: ["Netwerkbeveiliging", "Zelf hosten", "Cloudbeveiliging"]
-tags: ["Cloudflare Tunnel", "Cloudflare Access", "Cloudflare Tunnel versus Access", "Cloudflare Zero Trust", "cloudflared", "zelf gehoste applicaties", "homelabbeveiliging", "externe toegang", "identiteitsprovider", "toegangsbeleid", "applicatieauthenticatie", "publieke hostnaam", "beveiliging van de origin", "uitgaande tunnel", "servicetokens", "Service Auth", "MFA", "privédashboard", "reverse proxy", "CGNAT"]
+tags: ["Cloudflare Tunnel", "Cloudflare Access", "Cloudflare Tunnel versus Access", "Cloudflare Zero Trust", "cloudflared", "zelf gehoste applicaties", "homelabbeveiliging", "externe toegang", "identiteitsprovider", "toegangsbeleid", "applicatieauthenticatie", "publieke hostnaam", "beveiliging van de origin", "uitgaande tunnel", "servicetokens", "Service Auth", "MFA", "privédashboard", "omgekeerde proxy", "CGNAT"]
 cover: "/img/cover/cloudflare-tunnel-vs-access.webp"
 coverAlt: "Een thuisserver maakt via een transparante doorgang verbinding met een cloudgateway met een afzonderlijk identiteitscontrolepunt."
 coverCaption: ""

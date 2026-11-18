@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI 协作：代码库与审查边界"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "为经过审查的 AI 贡献建立来源地图、文件所有权和受保护的发布边界。"
@@ -54,7 +54,7 @@ clone 命令应创建代码库目录。如果没有 `unzip`，请用文件管理
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "添加合成协作基线"
 git push origin main
 git status --short
 git remote -v

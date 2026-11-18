@@ -1,6 +1,7 @@
 ---
 title: "Sichere Coding-Standards für C#-Entwickler"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Lernen Sie Best Practices für die sichere Programmierung in C#, um das Risiko von Sicherheitsverletzungen zu minimieren und sensible Daten zu schützen."
@@ -22,7 +23,7 @@ Benutzereingaben sind oft eine bedeutende Quelle von Sicherheitsrisiken. Bei der
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Prüfen, ob die Eingabezeichenfolge nur Ziffern enthält
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // Daten verarbeiten
     }
 }
 ```

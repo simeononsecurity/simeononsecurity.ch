@@ -1,7 +1,7 @@
 ---
 title: "Poradnik dla początkujących Tworzenie stron internetowych: HTML, CSS i JavaScript"
 date: 2023-02-27
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Poznaj podstawy tworzenia stron internetowych, w tym HTML, CSS i JavaScript, dzięki temu przyjaznemu dla początkujących przewodnikowi."
@@ -27,11 +27,11 @@ Oto przykład prostego dokumentu HTML:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>Moja strona internetowa</title>
 </head>
 <body>
-  <h1>Welcome to my website!</h1>
-  <p>This is my first paragraph.</p>
+  <h1>Witamy na mojej stronie internetowej!</h1>
+  <p>To jest mój pierwszy akapit.</p>
 </body>
 </html>
 ```
@@ -65,7 +65,7 @@ Aby dowiedzieć się więcej o JavaScript, polecamy [w3schools.com](https://www.
 Oto przykład, jak użyć JavaScript (wewnątrz html) do stworzenia alertu:
 
 ```js
-<button onclick="alert('Hello, world!')">Click me</button>
+<button onclick="alert('Witaj, świecie!')">Kliknij mnie</button>
 ```
 
 Ten kod utworzy przycisk, który po kliknięciu wyświetli alert z komunikatem "Witaj, świecie!".

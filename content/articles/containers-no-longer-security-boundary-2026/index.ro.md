@@ -1,7 +1,7 @@
 ---
 title: "În 2026, containerele nu mai sunt o frontieră de securitate"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Vulnerabilitățile nucleului din 2026 arată de ce izolarea containerelor multi-tenant nu este suficientă. Află despre Copy Fail, Dirty Frag, Fragnesia și CVE-2026-80521, apoi compară containerele consolidate cu frontiera oferită de microVM."
@@ -12,7 +12,6 @@ coverAlt: "Ilustrație digitală cu mai multe containere luminoase conectate la 
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Containerele folosesc același nucleu. În 2026, patru familii distincte de vulnerabilități au demonstrat că o singură eroare a nucleului este suficientă pentru a ieși din container și a ajunge pe gazdă.** Copy Fail, Dirty Frag, Fragnesia și CVE-2026-80521 acordă fiecare privilegii root unui utilizator local fără privilegii. Toate încalcă frontiera containerului.
 
 *Partea îngrijorătoare nu sunt erorile în sine, ci cât de ieftin le găsește acum AI-ul și cum un patch a creat o altă eroare.*
@@ -245,27 +244,27 @@ Principiul comun este simplu. **Containerele sunt excelente pentru împachetare 
 Nimic de aici nu înlocuiește o frontieră VM, dar elimină căi ușoare:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Dezactivați modulele exploatate de familia page-cache atunci când nu sunt necesare
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Restricționați spațiile de nume ale utilizatorilor fără privilegii, blocând variantele ESP
+# Debian și Ubuntu: aceasta este o atenuare parțială, nu completă
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# Dacă suspectați exploatarea, goliți page cache pentru a elimina binarele modificate din memorie
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Indicii inițiale de detectare
+- unshare(CLONE_NEWUSER) neașteptat dintr-o sarcină de lucru fără un motiv legitim
+- Activitate NETLINK_XFRM sau asocieri de securitate XFRM în afara gazdelor IPsec
+- Solicitări de conectare a socketurilor AF_ALG
+- Încărcarea esp4, esp6 sau rxrpc pe gazde fără IPsec și AFS
 ```
 
 > **Avertisment: `drop_caches` elimină copia modificată din memorie și curăță coruperea, dar nu înlătură un atacator care a obținut deja root. Trateaz-o ca răspuns la incident, nu ca remediere.**

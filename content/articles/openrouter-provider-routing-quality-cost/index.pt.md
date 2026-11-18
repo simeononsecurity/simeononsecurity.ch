@@ -1,11 +1,11 @@
 ---
 title: "Roteamento de provedores no OpenRouter: qualidade do modelo, limites de tokens e custos reais"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diagnostique respostas inconsistentes do OpenRouter, compare limites de endpoints e custos de cache, e configure o roteamento de provedores sem desativar controles de qualidade por acidente."
-genre: ["Inteligência Artificial", "Infraestrutura", "Open Source"]
+genre: ["Inteligência Artificial", "Infraestrutura", "código aberto"]
 tags: ["OpenRouter", "roteamento de provedores", "endpoints OpenRouter", "qualidade de modelos de IA", "inferência de LLM", "quantização", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "chamada de ferramentas", "janela de contexto", "máximo de tokens", "tokens de raciocínio", "cache de prompt", "custos de API", "fallback de provedor", "require_parameters", "agentes de IA", "benchmarks de inferência", "teste de endpoints", "modelos open weight"]
 cover: "/img/cover/openrouter-provider-routing-inference-services.webp"
 coverAlt: "Ilustração digital abstrata de nós interconectados que representam serviços de inferência de IA, com linhas vibrantes indicando o fluxo de dados sobre um fundo escuro."
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Carga de trabalho: 6 milhões de tokens de entrada + 1 milhão de tokens de saída
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Por milhão de tokens combinados de entrada e saída:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```

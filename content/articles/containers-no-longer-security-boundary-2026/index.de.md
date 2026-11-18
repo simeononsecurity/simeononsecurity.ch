@@ -1,18 +1,17 @@
 ---
 title: "Container sind keine Sicherheitsgrenze mehr: Kernel-Ausbrüche im Jahr 2026"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ein Überblick über Container-Ausbruchsforschung aus 2026, die Grenzen der Kernel-Isolation, den Patchdruck und die Rolle von MicroVMs."
-genre: ["Containersicherheit", "Linux", "Kernel-Sicherheit", "Virtualisierung", "Cloud-Sicherheit", "Bedrohungsforschung", "Blue Team", "DevSecOps"]
+genre: ["Containersicherheit", "Linux", "Kernel-Sicherheit", "Virtualisierung", "Cloud-Sicherheit", "Bedrohungsforschung", "Verteidigungsteam", "DevSecOps"]
 tags: ["Container Escape", "Containersicherheitsgrenze", "Linux-Kernel-CVE", "lokale Rechteausweitung", "LPE 2026", "Copy Fail", "CVE-2026-31431", "Dirty Frag", "CVE-2026-43284", "CVE-2026-43500", "Fragnesia", "CVE-2026-46300", "CVE-2026-80521", "kernelCTF", "kvmCTF", "MicroVM", "Firecracker", "Kata Containers", "Page-Cache-Korruption", "AF_ALG", "AF_UNIX", "XFRM ESP", "RxRPC", "Namespace-Isolation", "clone-Systemaufruf", "KI-gestützte Schwachstellensuche", "Docker-Sicherheit", "Kubernetes-Sicherheit", "Mandantenisolation", "Sandbox-Ausbruch", "nsjail", "Bubblewrap", "Firejail", "Dirty Pipe", "Kernel-CVE-Trend"]
 cover: "/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp"
 coverAlt: "Digitale Illustration mehrerer leuchtender Container, die mit einem zentralen Kernel-Symbol verbunden sind. Farbige Elemente zeigen Sicherheitslücken, die sich vor dunklem Hintergrund vom Kernel ausbreiten."
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Container teilen sich einen Kernel. Vier unabhängige Schwachstellenfamilien haben 2026 gezeigt, dass ein einziger Kernel-Fehler ausreicht, um einen Container zu verlassen und den Host zu erreichen.** Copy Fail, Dirty Frag, Fragnesia und CVE-2026-80521 verschaffen einem nicht privilegierten lokalen Benutzer Root-Rechte. Jede dieser Schwachstellen durchbricht die Containergrenze.
 
 *Das Beunruhigende sind nicht die Fehler selbst. Es ist, wie kostengünstig KI sie inzwischen findet und dass ein Patch einen weiteren Fehler verursacht hat.*
@@ -185,7 +184,7 @@ Die KVM-Angriffsfläche ist real. Google betreibt **kvmCTF** gezielt, um solche 
 | Beliebiger Schreibzugriff auf den Speicher | $100,000 |
 | Beliebiger Lesezugriff auf den Speicher | $50,000 |
 | Relativer Schreibzugriff auf den Speicher | $50,000 |
-| Denial of Service | $20,000 |
+| Dienstverweigerung | $20,000 |
 | Relativer Lesezugriff auf den Speicher | $10,000 |
 
 Prämien werden nicht addiert. Ziel ist ein Linux-LTS-Kernel mit KVM, die Gast-VM ist Debian 12.5. Das Ziel ist ein **Angriff vom Gast auf den Host**.
@@ -196,7 +195,7 @@ Prämien werden nicht addiert. Ziel ist ein Linux-LTS-Kernel mit KVM, die Gast-V
 
 | | Linux-Kernel | KVM-Hypervisor |
 |---|---|---|
-| **CVEs in 2026** | Fast **6.000** | Eine Handvoll, einzelne Forscher finden einige pro Jahr |
+| **CVEs im Jahr 2026** | Fast **6.000** | Eine Handvoll, einzelne Forscher finden einige pro Jahr |
 | **Erreichbar von** | Jedem nicht privilegierten Prozess über die Systemaufrufschnittstelle | Nur von Code, der bereits in einem Gast läuft |
 | **Angriffsfläche** | Alles: Netzwerk, Dateisysteme, Kryptografie, IPC, Treiber | Schnittstelle virtueller Geräte und Hypercalls |
 | **Fehlerklasse** | Jeder Speicher- oder Logikfehler in 30 Mio. Zeilen | Auf die Virtualisierungsgrenze beschränkt |
@@ -245,27 +244,27 @@ Das gemeinsame Prinzip ist einfach. **Container eignen sich hervorragend für Pa
 Nichts davon ersetzt eine VM-Grenze, aber jede Maßnahme beseitigt einfache Angriffswege:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Deaktiviere die von der Page-Cache-Familie missbrauchten Module, wenn sie nicht benötigt werden
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Beschränke nicht privilegierte Benutzer-Namespaces, wodurch die ESP-Varianten blockiert werden
+# Debian und Ubuntu: Dies ist eine teilweise, keine vollständige Schadensbegrenzung
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# Bei Verdacht auf Ausnutzung den Page-Cache leeren, um geänderte Binärdateien im Speicher zu verwerfen
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Erste Hinweise zur Erkennung
+- Unerwartetes unshare(CLONE_NEWUSER) durch eine Arbeitslast ohne legitimen Grund
+- NETLINK_XFRM-Aktivität oder XFRM-Sicherheitszuordnungen außerhalb von IPsec-Hosts
+- Anfragen zum Binden von AF_ALG-Sockets
+- Laden von esp4, esp6 oder rxrpc auf Hosts ohne IPsec und AFS
 ```
 
 > **Warnung: `drop_caches` verwirft die veränderte Speicherkopie und beseitigt dadurch die Korruption. Es entfernt aber keinen Angreifer, der bereits Root erreicht hat. Behandle dies als Incident Response, nicht als Behebung.**

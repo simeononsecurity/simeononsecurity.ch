@@ -1,7 +1,7 @@
 ---
 title: "Meta’s Context Language Models: beter agentgeheugen, geen einde aan hallucinaties"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Hoe Context Language Models agentgeheugen bewerken, wat benchmarks aantonen en hoe cachekosten, modelcapaciteit en onbetrouwbare notities de betrouwbaarheid beïnvloeden."
@@ -48,11 +48,11 @@ Dit onderscheid is belangrijk bij de evaluatie van elke geheugentechniek. **Beho
 **Rulin Shao en mede-auteurs**, onder wie onderzoekers van Meta Superintelligence Labs en de University of Washington, introduceerden CLM’s in een preprint van 29 september 2026. Hun implementatie stelt de actieve context beschikbaar als bewerkbaar bestand. De agent wijzigt het met shellopdrachten of code, waarna de runtime de aangepaste inhoud bij de volgende aanroep gebruikt. Zie [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Gewone voortzetting:
+bestaande context + nieuw antwoord + nieuwe uitvoer van de tool
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Voortzetting met bewerkbare context:
+agent herziet contextbestand -> runtime laadt herziene context -> volgende modelaanroep
 ```
 
 Voor de zero-shot-aanpak hoeft **de modelarchitectuur niet te worden vervangen**. De runtime voegt een mogelijkheid toe rond een bestaand model. De paper onderzoekt daarnaast instructies, aangeleerde strategieën voor contextbeheer en reinforcement learning.
@@ -101,11 +101,11 @@ De aanvullende TerminalBench-analyse meldt ook **geen contextbewerkingen bij de 
 De **KV-cache** bewaart tussentijdse aandachtsberekeningen. Bij gewone prefixcaching hergebruikt de volgende aanvraag berekeningen voor ongewijzigde tekst aan het begin. Een bewerking dicht bij het begin verkort het herbruikbare prefix en dwingt latere tekst tot een nieuwe verwerking.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Vorige aanvraag: A + B + C
+Herziene aanvraag:  A + vervanging van B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Standaard prefixhergebruik:
+hergebruik A en bereken de vervanging van B en C opnieuw
 ```
 
 De metriek **FLOPs voor prefixhergebruik** uit de paper telt generatie en promptverwerking na de eerste mismatch. Een PFLOP staat voor 10¹⁵ floatingpointbewerkingen. Dit is een geschatte totale rekenhoeveelheid, geen kwaliteitsscore, doorvoermeting of factuur.
@@ -138,7 +138,7 @@ OpenAI documenteerde **27 jailbreakachtige compactiesamenvattingen** in een apar
 
 Een **defensieve implementatie** moet deze verantwoordelijkheden scheiden:
 
-| Component | Behandeling |
+| Onderdeel | Behandeling |
 |---|---|
 | **Gebruikersvereisten en machtigingen** | Bewaar ze buiten de laag met bewerkbare notities |
 | **Werkaantekeningen** | Sta bewerking toe, behoud herkomst en markeer onzekerheid |

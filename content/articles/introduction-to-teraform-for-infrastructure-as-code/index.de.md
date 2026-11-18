@@ -1,10 +1,11 @@
 ---
 title: "Erste Schritte mit Terraform für Infrastructure as Code"
 date: 2023-05-04
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Lernen Sie die Grundlagen von Terraform, einem beliebten Infrastructure-as-Code-Tool, kennen und erfahren Sie, wie Sie es zur effizienten Verwaltung Ihrer Infrastruktur einsetzen können."
-tags: ["Terraform", "Infrastruktur als Code", "IaC", "Cloud Computing", "DevOps", "Automatisierung", "AWS", "Azure", "Google Cloud", "Cloud-Anbieter", "Konfigurationsmanagement", "Einsatz", "Bereitstellung", "Resource Management", "Skalierbarkeit", "Resilience", "Sicherheit", "Einhaltung der Vorschriften", "Bewährte Praktiken"]
+tags: ["Terraform", "Infrastruktur als Code", "IaC", "Cloud-Computing", "DevOps", "Automatisierung", "AWS", "Azure", "Google Cloud", "Cloud-Anbieter", "Konfigurationsmanagement", "Einsatz", "Bereitstellung", "Ressourcenverwaltung", "Skalierbarkeit", "Resilienz", "Sicherheit", "Einhaltung der Vorschriften", "Bewährte Praktiken"]
 cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Ein Cartoon-Computermonitor, auf dem mehrere mit dem Netzwerk verbundene Geräte als Bausteine erscheinen, die hinzugefügt oder entfernt werden, steht für das Infrastrukturmanagement mit Terraform."
 coverCaption: ""
@@ -36,7 +37,7 @@ Die Verwendung von Teraform für Infrastruktur-als-Code-Anwendungen bietet mehre
 
 Um mit Teraform zu beginnen, müssen Sie Folgendes tun:
 
-1. **Download Teraform:** Teraform kann von der[official website](https://www.terraform.io/downloads.html)
+1. **Download Teraform:** Teraform kann von der[offizielle Website](https://www.terraform.io/downloads.html)
 
 2. **Erstellen einer Konfigurationsdatei:** Teraform verwendet Konfigurationsdateien, die in HashiCorp Configuration Language (HCL) oder JSON geschrieben sind. Die Konfigurationsdatei definiert die Infrastruktur, die Sie erstellen, aktualisieren oder löschen möchten.
 
@@ -134,7 +135,7 @@ Wenn Sie mit den Änderungen zufrieden sind, können Sie sie mit der Funktion`te
 
 Dadurch werden die Änderungen auf Ihre Infrastruktur angewendet. Beachten Sie, dass die Anwendung von Änderungen je nach Größe und Komplexität Ihrer Infrastruktur einige Zeit in Anspruch nehmen kann.
 
-## Best Practices für die Verwendung von Teraform
+## Bewährte Vorgehensweisen für die Verwendung von Teraform
 
 Um sicherzustellen, dass Sie Teraform effektiv nutzen, sollten Sie die folgenden Best Practices befolgen:
 
@@ -154,6 +155,6 @@ Teraform ist ein leistungsfähiges "Infrastructure as Code"-Tool, das ein schnel
 
 **Referenzen:**
 
--[Teraform Official Website](https://www.terraform.io/)
--[Teraform Documentation](https://www.terraform.io/docs/index.html)
--[AWS Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)
+- [Offizielle Website von Teraform](https://www.terraform.io/)
+- [Teraform-Dokumentation](https://www.terraform.io/docs/index.html)
+- [AWS-Empfehlungen zu Sicherheit, Identität und Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)

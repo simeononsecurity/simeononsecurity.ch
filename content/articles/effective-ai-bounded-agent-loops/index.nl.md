@@ -1,7 +1,7 @@
 ---
 title: "Begrensde AI-agentlussen: controles, nieuwe pogingen en stopregels"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Definieer een AI-doellus met een waarneembare status, controles, limieten voor nieuwe pogingen, stopvoorwaarden en een duidelijke overdracht aan een mens."
@@ -89,7 +89,7 @@ Benodigd bewijs: volledige testrun en exitstatus van de ongeldige opdracht.
 **Begin met het ongewijzigde lab.** De twee basistests slagen. Maak in de nieuwe extractie `tests/test_loop_contract.py` met de onderstaande controle. Dit bestand beschrijft een gewenste functie die in de starter ontbreekt. Het hoort niet bij de onderhouden starter-ZIP.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Eén gecontroleerde mislukte controle voor de statusfilteroefening."""
 
 import subprocess
 import sys

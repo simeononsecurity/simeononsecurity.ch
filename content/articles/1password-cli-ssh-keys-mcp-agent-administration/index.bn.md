@@ -1,12 +1,12 @@
 ---
-title: "1Password SSH Agent and CLI: Read-Only AI Agent Access"
+title: "1Password SSH Agent ও CLI: AI এজেন্টদের জন্য কেবল-পঠন অ্যাক্সেস"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "1Password CLI, SSH Agent এবং MCP ব্যবহার করে একটি read-only SSH workflow নকশা করুন। লাইভ টেস্টিংয়ের আগে সিন্থেটিক কমান্ড, সংকীর্ণ অনুমতি এবং মানবিক অনুমোদন ব্যবহার করুন।"
 genre: ["সিস্টেম অ্যাডমিনিস্ট্রেশন", "ক্লাউড সিকিউরিটি", "অটোমেশন"]
-tags: ["1Password CLI", "SSH keys", "1Password SSH Agent", "MCP", "Model Context Protocol", "এজেন্ট অ্যাডমিনিস্ট্রেশন", "সিস্টেম অ্যাডমিনিস্ট্রেশন", "Bitbucket Cloud", "Git over SSH", "সিক্রেট রেফারেন্স", "সার্ভিস অ্যাকাউন্ট", "least privilege", "public key authentication", "সিক্রেট ম্যানেজমেন্ট", "কমান্ড লাইন সিকিউরিটি", "অটোমেশন নিরাপত্তা"]
+tags: ["1Password CLI", "SSH কী", "1Password SSH Agent", "MCP", "Model Context Protocol", "এজেন্ট অ্যাডমিনিস্ট্রেশন", "সিস্টেম অ্যাডমিনিস্ট্রেশন", "Bitbucket Cloud", "SSH-এর মাধ্যমে Git", "সিক্রেট রেফারেন্স", "সার্ভিস অ্যাকাউন্ট", "সর্বনিম্ন বিশেষাধিকার", "পাবলিক কী প্রমাণীকরণ", "সিক্রেট ম্যানেজমেন্ট", "কমান্ড লাইন সিকিউরিটি", "অটোমেশন নিরাপত্তা"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "একটি এজেন্টের একটি সিক্রেট রেফারেন্স, একটি SSH এজেন্ট এবং MCP টুল ব্যবহারকারী একটি বিমূর্ত ডায়াগ্রাম, যেখানে প্রাইভেট কী দেখানো হয় না।"
 coverCaption: ""
@@ -82,7 +82,7 @@ Bitbucket Cloud স্বাভাবিক Git এবং OpenSSH কমান�
 
 **Bitbucket-কে পাবলিক-কী কনজিউমার হিসেবে বিবেচনা করুন।** অনুমোদিত Bitbucket অ্যাকাউন্ট বা রিপোজিটরি সেটিংসের মাধ্যমে পাবলিক কী বা ফিঙ্গারপ্রিন্ট নিবন্ধিত করুন। প্রাইভেট কী 1Password-এ রাখুন। Git ক্লায়েন্ট SSH Agent-কে সাইন করতে বলে। ক্লায়েন্ট কোনো প্রাইভেট-কী ফাইল পড়ে না।
 
-Bitbucket অ্যাক্সেস-কী স্কোপ, নিবন্ধন পথ এবং রিড-অনলি Git টেস্টের জন্য দেখুন [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/)।
+Bitbucket অ্যাক্সেস-কী স্কোপ, নিবন্ধন পথ এবং রিড-অনলি Git টেস্টের জন্য দেখুন [Bitbucket Cloud SSH কী ও Git CLI: AI এজেন্টদের জন্য কেবল-পঠন অ্যাক্সেস](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/)।
 
 Bitbucket ডকুমেন্টেশন একে Git CLI ওয়ার্কফ্লো বলে। এই নিবন্ধে আলাদা কোনো Bitbucket MCP সার্ভার বা Bitbucket CLI নামক কোনো প্রোডাক্টের অনুমান করা হয় না। Bitbucket-নির্দিষ্ট CLI-এর নিজস্ব বর্তমান ডকুমেন্টেশন এবং নিজস্ব পারমিশন রিভিউর প্রয়োজন।
 
@@ -163,10 +163,10 @@ agent_policy:
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: শুধু-পঠন সংযোগ পরীক্ষা
+host_key_source: অনুমোদিত প্রশাসকের রেকর্ড
+approval_owner: নির্দিষ্ট অপারেটর
+rollback: পাবলিক কী সরিয়ে পরীক্ষার পরিচয় প্রত্যাহার
 ```
 
 **প্রত্যাশিত ফলাফল, পরীক্ষিত নয়:** রেকর্ডটি একটি লক্ষ্য এবং একটি অপারেশন চিহ্নিত করে। রেকর্ডে কোনো হোস্টনেম, IP ঠিকানা, টোকেন, প্রাইভেট কী বা ব্যক্তিগত তথ্য নেই।
@@ -239,7 +239,7 @@ MCP কনফিগারেশনকে ক্লায়েন্টের �
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# শুধু macOS বা Linux-এ
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

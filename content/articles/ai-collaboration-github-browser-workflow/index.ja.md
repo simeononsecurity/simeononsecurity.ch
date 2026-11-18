@@ -1,7 +1,7 @@
 ---
 title: "非コーダー向け GitHub AI ワークフロー: Issues とプルリクエスト"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ローカル開発環境なしで、ブラウザー編集、Issues、チャットのコンテキストパケット、レビュー済みプルリクエストを使います。"
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **パケットをスナップショットベースとラベル付けします。** 公開前にメンテナーが現在のソースと比較するまで、このラベルを維持します。
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+プロジェクト: export-service-lab
+タスク: PROP-042 draft, no publication permission
+権限: requirement.json, REQ-17 revision 1
+基準値: retention_days 7
+ポリシー: POL-01 version 1
+要求する提案: retention_days 30
+証拠: attach browser-verified commit references
+不足している証拠: no runtime deletion observations
+出力: proposed wording, affected files, questions, rollback
+停止: source unavailable, changed revision, conflicting authority
 ```
 
 **実際のサンドボックスリビジョンは非公開で添付します。** このテンプレートには完成した証拠はありません。公開を勧める前に、不足している記録をアシスタントに特定させます。
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **ライブソースを読む前に記入した合成パケット:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+プロジェクト: export-service-lab
+タスク: draft PROP-042 in an Issue
+承認済み基準値: REQ-17 revision 1, retention_days 7
+提案: retention_days 30, synthetic export files only
+影響を受ける記録: requirement.json, config.json, proposal.json, runbook.md
+除外事項: 本番データ、バックアップ、法的保全対象
+既知の証拠: supplied lab baseline files
+不足している証拠: current main commit, owner decisions, runtime deletion result
+状態: Draft, publication blocked until current revisions and reviews exist
+次の役割: maintainer supplies verified main commit and runs checks
 ```
 
 **このパケットは完全な下書き依頼です。** 不足証拠の行は意図的に残しています。公開を依頼する前に、提供されたラボのベースラインをライブサンドボックスのリビジョンに置き換えます。
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Issues、New issue**を選び、タイトル **`PROP-042: propose thirty-day synthetic retention`** を使います。この説明を貼り付け、ソースパケットを添付します。
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+提案: PROP-042
+状態: Draft
+現在の承認値: 7 days, REQ-17 revision 1
+要求値: 30 days
+理由: fictional pilot requirement, not compliance advice
+範囲: synthetic export records only
+影響を受けるファイル: requirement.json, config.json, runbook.md
+証拠: source revisions and policy version attached
+レビュー担当者: product-owner and operations-owner
+実装レビュー担当者: repository-maintainer
+受け入れ条件: consistent records, denied publication, fresh handoff
+ロールバック: reviewed restoration of the approved baseline
 ```
 
 **チャットに提案とパケットを比較させ**、仮定を一覧にし、責任者向けの質問を下書きさせます。その下書きを Issue に保存します。変更の承認を依頼したり、チャットスレッドを意思決定記録として扱ったりしません。
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **否定テスト:** チャットに提案の承認または公開を依頼します。期待されるポリシー動作は下書きだけの応答です。別に、貢献者として直接公開を試み、ソースリビジョンが変わらないままプラットフォームに拒否されたことを記録します。動作テストとアクセス制御テストは分けて管理します。
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+引き継ぎ: HANDOFF-042
+提案: PROP-042
+ポリシー: POL-01 version 1
+情報源: attach current requirement, runbook, and config revisions
+公開済みの値: record after reading main
+完了: merged files and check reference
+残り: runtime deletion service not tested
+次の役割: operations-owner
+次の操作: independent source read and runbook verification
+停止: changed source, missing access, conflicting authority
 ```
 
 **マップと引き継ぎだけで新しいセッションを開始します。** 新しいソース読み取り、またはブラウザー証拠への明示的な依頼を要求します。以前のアシスタントの要約を繰り返すのではなく、ソース記録から値を再構築させます。
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **ブラウザーの貢献者にも完全な質問が必要です。** 「保持期間を 30 日に変更してください」だけでは、現在の権限、範囲、レビュー状態、対象記録が抜けています。ソースパケットと下書き指示をチャットに渡します。記録を利用できない場合は、記憶した文章で置き換えず、承認済みの証拠をメンテナーに依頼します。
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+添付された合成ソースパケットを使って、PROP-042 の Issue 案を作成します。
+7日間を承認済みの基準値として示します。
+30日間を提案内容として示します。
+本番データ、バックアップ、法的保全の除外を維持します。
+要件、設定、提案、runbook の変更点を列挙します。
+推測した改訂情報で埋めず、不足している証拠を列挙します。
+責任者の承認や引き渡し完了を主張しません。
 ```
 
 **コピーする前に回答を確認します。** 範囲を変更していないか、コミットを作っていないか、承認を完了済みと表現していないかを確認します。根拠のない主張を削除し、未解決の質問を Issue に残します。チャットは提案文の作成を支援します。読んでいないシステムの証拠を提供するものではありません。
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **弱い表現の例:** 「エクスポートは 30 日間利用できるようになりました。」これは納品済みと説明し、合成データの範囲を省いています。レビュー中は提案文として書きます。
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+提案する意図:
+合成エクスポートファイルを30日間保持します。
+本番データ、バックアップ、法的保全対象は除外します。
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+現在の承認済み意図:
+REQ-17 の改訂1に従い、合成エクスポートファイルを7日間保持します。
 
-Delivery:
-Not published. No runtime deletion service was tested.
+提供状況:
+未公開です。実行時削除サービスはテストしていません。
 ```
 
 **対象ファイルをすべてこの文面と比較します。** 候補では要件のリビジョンが進みます。設定は 30 日になります。runbook の最初の行は、ラボという制限を維持したまま 30 日になります。提案は 7 日を以前の値、リビジョン 1 をベースとして示し続けます。

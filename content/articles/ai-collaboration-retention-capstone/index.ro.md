@@ -1,7 +1,7 @@
 ---
 title: "Capstone de colaborare AI: GitHub, Confluence și Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Livrează o modificare sintetică de retenție prin fluxuri GitHub-first și Confluence/Jira, cu dovezi de eșec și evaluare independentă."
@@ -46,16 +46,16 @@ coverCaption: ""
 **Deschide Issue-ul și PR-ul candidat** folosind lecțiile GitHub. Modifică împreună cerința, configurația, propunerea și runbook-ul. Capturează baza protejată, rulează verificări de încredere și obține evaluări de la produs și operațiuni la commit-ul final.
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+Rulare: GitHub-first
+Modificare: retenție sintetică 7 -> 30 zile
+Cerință: REQ-17 revizia 2
+Configurare: retention_days 30
+Runbook: perioada de retenție: 30 de zile
+Propunere: revizia de bază 1, de la 7, la 30
+Manifest: hashuri ale surselor protejate înainte de modificare
+Revizuire: revizuirea produsului și operațiunilor pentru versiunea finală a propunerii
+Publicare: commit îmbinat și recitire de verificare
+Limită: nu a fost testat niciun serviciu de ștergere în execuție
 ```
 
 **Completează referințele reale din sandbox.** Schița arată maparea așteptată, nu dovezi finalizate. Maintainer-ul face merge doar după evaluare, apoi citește independent **`main`**. Închide Issue-ul după ce legi înregistrările finale.
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    aceleași categorii de dovezi, colectate independent
 ```
 
 **Aceste nume sunt un exemplu de organizare**, nu fișiere de arhivă furnizate. Păstrează dovezile reale în privat în sandbox-ul aprobat. Trimiterile comune ale cursului trebuie să folosească etichete de rol și referințe redactate, iar evaluatorii păstrează accesul la înregistrările native.
@@ -182,28 +182,17 @@ Pentru fiecare caz refuzat, înregistrează răspunsul platformei și o a doua c
 **Pachet didactic completat pentru traseul Mixed, sintetic și nu dovadă de tenant:**
 
 ```text
-Run: MIXED-042-example
-Captured base: REQ-17 v4 = 7 days, RUN-04 v2 = 7 days,
-  GitHub main base-001 config.json = {"retention_days": 7}, Jira PROP-042 r1 = In Review
-Fixed proposal: REQ-17 v5 wording says synthetic exports 30 days,
-  excluding production data, backups, and legal holds.
-  GitHub config.json changes retention_days from 7 to 30.
-  RUN-04 v3 wording says 30 days, no deletion service runs in this lab,
-  and incomplete publication stays pending.
-Review: product owner approved the exact requirement wording at PROP-042 r1.
-  Operations owner approved the exact config diff and runbook wording at r1.
-Publication: publisher reopened REQ-17 v5 and read 30 days.
-  Maintainer reopened main at merge-002 and read retention_days 30.
-  Publisher reopened RUN-04 v3 and read 30 days.
-Denied action: contributor tried an edit to restricted REQ-17 from v5.
-  Platform denied the edit, the publisher reread v5 unchanged, and the
-  observer saved the native denial. No edit was applied and v5 stayed unchanged.
-Recovery: after a separate simulated failed RUN-04 attempt, Jira stayed
-  Blocked. Operations approved a retry against the current version.
-  Publisher reread v3 after the authorized retry before Jira moved to Done.
-Handoff: a new reviewer received MAP-01 and the ledger, reopened the three
-  sources and Jira, and named the current 30-day state and remaining runtime gap.
-Limit: source publication is shown. Actual deletion timing is Not run.
+Rulare: MIXED-042-example
+Bază capturată: REQ-17 v4 = 7 zile; RUN-04 v2 = 7 zile.
+GitHub main base-001 config.json = {"retention_days": 7}; Jira PROP-042 r1 = In Review.
+Propunere fixată: REQ-17 v5 stabilește 30 de zile pentru exporturile sintetice. Datele de producție, copiile de rezervă și obligațiile legale sunt excluse.
+GitHub config.json schimbă retention_days de la 7 la 30. RUN-04 v3 indică 30 de zile; în laborator nu rulează niciun serviciu de ștergere. Publicarea incompletă rămâne în așteptare.
+Revizuire: responsabilul de produs aprobă textul exact din REQ-17. Operațiunile aprobă diff-ul configurației și runbook-ul la r1.
+Publicare: editorul recitește REQ-17 v5 și RUN-04 v3 și confirmă 30 de zile; administratorul citește main la merge-002 și retention_days 30.
+Acțiune refuzată: contributorului i se refuză editarea REQ-17 v5. Editorul confirmă că nu s-a schimbat; observatorul salvează dovada platformei.
+Recuperare: încercarea RUN-04 eșuează, Jira rămâne Blocked. Operațiunile aprobă reluarea; după recitirea v3, Jira trece la Done.
+Predare: un nou recenzent primește MAP-01 și registrul, citește cele trei surse și Jira și notează 30 de zile și lacuna de execuție rămasă.
+Limită: este demonstrată doar publicarea surselor. Timpul de ștergere: neexecutat.
 ```
 
 Înlocuiește fiecare versiune, actor, refuz și read-back ilustrativ cu înregistrări native înainte de a marca un rând live ca Supported. Dacă un plan sau un rol nu permite testul, marchează rândul Blocked și păstrează cursul celor două trasee incomplet.
@@ -213,32 +202,32 @@ Limit: source publication is shown. Actual deletion timing is Not run.
 **Cere evaluatorului să reconstruiască evenimentele**, nu doar să citească concluzia ta. El trebuie să găsească baseline-ul aprobat, propunerea fixată, deciziile proprietarilor, reviziile rezultate, încercările eșuate, repararea și lipsurile rămase fără narațiunea ta.
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+Întrebări pentru revizuirea independentă:
+Ce sursă stabilește intenția de păstrare în acest flux?
+Ce pachet exact a verificat fiecare responsabil?
+S-a schimbat vreo sursă după revizuire?
+Ce s-a publicat și ce este încă în așteptare?
+Ce acțiune refuzată s-a observat și sub ce rol?
+A ajuns textul protejat în contextul unui utilizator exclus?
+Ce remediere a fost revizuită și recitită?
+Predarea nouă reconstruiește independent starea curentă?
 ```
 
 **Punctează fiecare cerință separat.** Folosește Supported, Failed, Blocked sau Not run împreună cu o referință de dovadă. Consistența, aprobarea, permisiunile, recuperarea și handoff-ul sunt cerințe separate. O colecție de teste locale verzi nu compensează o limită live de publicare eșuată.
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+ID-ul rulării și fluxul:
+Rolul recenzentului și data:
+Cazul 01 modificare aprobată: stare ___ dovadă ___ lacună ___
+Cazul 02 context învechit: stare ___ dovadă ___ lacună ___
+Cazul 03 scriere neautorizată: stare ___ dovadă ___ lacună ___
+Cazul 04 conflict: stare ___ dovadă ___ lacună ___
+Cazul 05 publicare parțială: stare ___ dovadă ___ lacună ___
+Cazul 06 acces refuzat: stare ___ dovadă ___ lacună ___
+Cazul 07 recuperare: stare ___ dovadă ___ lacună ___
+Cazul 08 predare: stare ___ dovadă ___ lacună ___
+Decizie generală: Susținută / Eșec / Blocată / Neexecutată
+Următorul rol responsabil și acțiunea:
 ```
 
 **Supported înseamnă că evaluatorul a găsit dovezi observate pentru fiecare caz aplicabil.** Notează Failed pentru un control eșuat observat, Blocked pentru acces sau control lipsă și Not run pentru un caz neîncercat. Păstrează referința nativă a fiecărui caz în fișierul său de dovezi.
@@ -248,17 +237,17 @@ Next accountable role and action:
 **Pachet de model redactat, doar ilustrativ:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+Flux: github-first | Rulare: G-01 | Recenzent: rol de pilot independent
+Bază: commit protejat base-001 | Propunere fixată: PROP-042 r1
+Aprobări: revizuire produs P-01, revizuire operațiuni O-01
+Consistență: verificare locală reușită, rezultat C-01 salvat
+Permisiune: push-ul direct al contributorului refuzat, eveniment D-01
+Publicare: commit merge-002; un clone nou confirmă 30 de zile
+Excepție: copiile de rezervă și obligațiile legale sunt excluse
+Recuperare: întreruperea R-01 recitită și rezolvată prin revizuire
+Predare: al doilea cititor găsește baza actuală, excepția și pasul următor
+Limită de execuție: fără afirmații despre ștergere sau deployment în producție
+Decizie: susținută doar pentru fluxul sintetic GitHub-first
 ```
 
 Înlocuiește fiecare referință ilustrativă cu un artefact observat din sandbox. Repetă pachetul complet pentru traseul Mixed cu propriile versiuni de surse și evaluări. Evaluatorul trebuie să respingă o aprobare GitHub copiată în pachetul Mixed.
@@ -287,23 +276,23 @@ Decision: Supported for synthetic GitHub-first track only
 ## Creează decizia de rollout
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+Decizie: un alt pilot sintetic, blocat sau respins
+Dovezi: ambele pachete de rulare și matricea eșecurilor
+Cerințe neimpuse: enumerați explicit controalele procedurale
+Revizuirea furnizorului: domeniul intrărilor și păstrarea
+Responsabili: produs, operațiuni, politică, repository, livrare
+Lacune de producție: teste runtime, secrete, deployment, revizuire acces
+Pas următor: continuare limitată cu un rol responsabil
+Data revizuirii: stabilită de responsabilii pilotului
 ```
 
 **Raționament așteptat:** succesul sintetic susține un alt pilot limitat. Producția necesită aprobare separată pentru date reale, deployment, gestionarea de către furnizor și comportamentul la rulare. Un răspuns reușit al asistentului nu este autorizare de deployment.
 
 ## Referințe principale
 
-- **Controale ale depozitului:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Acces la workplace:** [Confluence permissions](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
-- **Controale de livrare:** [Jira permission schemes](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
+- **Controale ale depozitului:** [Ramuri protejate](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+- **Acces la workplace:** [Permisiuni Confluence](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
+- **Controale de livrare:** [Scheme de permisiuni Jira](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
 
 ## Pașii următori
 

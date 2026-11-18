@@ -1,6 +1,7 @@
 ---
 title: "Ansibleのセキュアコーディングガイドライン：ベスト・プラクティス"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "構成管理とデプロイのための一般的なツールであるAnsibleを使って、安全なコードを書くためのベストプラクティスを学ぶ。"
@@ -111,7 +112,7 @@ TLS証明書は管理ノードがコントロールノードに対して自身�
 開発者は `regex_replace`フィルタを使用してユーザー入力をサニタイズします。その `regex_replace`フィルタを使うと、文字列のパターンを他のパターンに置き換えることができる。例えば、文字列中の英数字以外の文字をすべて空文字列に置き換えるには、次のようなコードを使う：
 
 ```yaml
-- name: Sanitize user input
+- name: ユーザー入力を無害化する
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

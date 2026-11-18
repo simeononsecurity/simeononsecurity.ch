@@ -1,7 +1,7 @@
 ---
 title: "مفاتيح SSH في Bitbucket Cloud: وصول Git للقراءة فقط لوكلاء الذكاء الاصطناعي"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "أعدّ مفاتيح SSH في Bitbucket Cloud، ووصول Git CLI، ورموز REST API، و1Password، وأدوات MCP لسير عمل وكلاء الذكاء الاصطناعي المقتصر على القراءة."
@@ -138,7 +138,7 @@ Host bitbucket.org
 مثال محمول يعتمد على الملفات:
 
 ```ini
-# .gitconfig inside one local repository
+# .gitconfig داخل مستودع محلي واحد
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

@@ -1,7 +1,7 @@
 ---
 title: "Flux de lucru AI pe GitHub pentru cei care nu programează: Issues și pull request-uri"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Folosește editarea în browser, Issues, pachete de context pentru chat și pull request-uri revizuite, fără un mediu local de dezvoltare."
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **Marchează pachetul ca bazat pe un instantaneu** până când responsabilul îl compară cu sursele actuale înainte de publicare.
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+Proiect: export-service-lab
+Sarcină: PROP-042 draft, no publication permission
+Autoritate: requirement.json, REQ-17 revision 1
+Valoare de bază: retention_days 7
+Politică: POL-01 version 1
+Propunere solicitată: retention_days 30
+Dovezi: attach browser-verified commit references
+Dovezi lipsă: no runtime deletion observations
+Rezultat: proposed wording, affected files, questions, rollback
+Oprește-te: source unavailable, changed revision, conflicting authority
 ```
 
 **Atașează în privat reviziile reale ale mediului de test.** Modelul nu conține dovezi completate. Cere asistentului să identifice înregistrările lipsă înainte să recomande publicarea.
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **Pachet sintetic completat înainte de citirea unei surse live:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+Proiect: export-service-lab
+Sarcină: draft PROP-042 in an Issue
+Valoare de bază aprobată: REQ-17 revision 1, retention_days 7
+Propunere: retention_days 30, synthetic export files only
+Înregistrări afectate: requirement.json, config.json, proposal.json, runbook.md
+Excluderi: date de producție, copii de rezervă și blocări legale
+Dovezi cunoscute: supplied lab baseline files
+Dovezi lipsă: current main commit, owner decisions, runtime deletion result
+Stare: Draft, publication blocked until current revisions and reviews exist
+Rolul următor: maintainer supplies verified main commit and runs checks
 ```
 
 **Pachetul este complet ca solicitare de redactare.** Linia despre dovezile lipsă este intenționată. Înlocuiește baza furnizată de laborator cu revizii actuale ale mediului de test înainte să ceri publicarea.
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Selectează Issues, New issue** și folosește titlul **`PROP-042: propose thirty-day synthetic retention`**. Lipește această descriere și atașează pachetul de surse.
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+Propunere: PROP-042
+Stare: Draft
+Valoare aprobată curentă: 7 days, REQ-17 revision 1
+Valoare solicitată: 30 days
+Motiv: fictional pilot requirement, not compliance advice
+Domeniu: synthetic export records only
+Fișiere afectate: requirement.json, config.json, runbook.md
+Dovezi: source revisions and policy version attached
+Revizori: product-owner and operations-owner
+Revizor de implementare: repository-maintainer
+Acceptare: consistent records, denied publication, fresh handoff
+Revenire: reviewed restoration of the approved baseline
 ```
 
 **Cere chatului să compare propunerea cu pachetul**, să enumere presupunerile și să redacteze întrebări pentru responsabili. Salvează proiectul în Issue. Nu cere chatului să aprobe modificarea și nu trata conversația ca registru de decizii.
@@ -112,7 +112,7 @@ Rollback: reviewed restoration of the approved baseline
 | **Cerință** | Revizia 1, șapte zile | Revizia 2, treizeci de zile |
 | **Configurare** | Șapte zile | Treizeci de zile |
 | **Manual** | `Retention days: 7` | `Retention days: 30` |
-| **Propunere** | From 7, to 7 | From 7, to 30, base 1 |
+| **Propunere** | De la 7 la 7 | De la 7 la 30, baza 1 |
 | **Manifest** | Necapturat | Hash-uri ale surselor protejate înainte de modificare |
 
 **Manifestul descrie baza**, nu formularea propusă pentru treizeci de zile. Calcularea hash-ului pentru cerința candidat și prezentarea lui ca dovadă a bazei produce o nepotrivire cu baza de încredere.
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **Test negativ:** cere chatului să aprobe sau să publice propunerea. Comportamentul așteptat conform politicii este un răspuns care oferă doar un proiect de text. Separat, încearcă publicarea directă ca contribuitor și înregistrează refuzul platformei împreună cu revizia sursei neschimbată. Păstrează distincte testele comportamentale și cele de control al accesului.
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+Predare: HANDOFF-042
+Propunere: PROP-042
+Politică: POL-01 version 1
+Surse: attach current requirement, runbook, and config revisions
+Valoare publicată: record after reading main
+Finalizat: merged files and check reference
+Rămas: runtime deletion service not tested
+Rolul următor: operations-owner
+Acțiunea următoare: independent source read and runbook verification
+Oprește-te: changed source, missing access, conflicting authority
 ```
 
 **Începe o sesiune nouă doar cu harta și predarea.** Cere o nouă verificare a sursei sau o solicitare explicită de dovezi din browser. Asistentul ar trebui să reconstruiască valoarea din înregistrările sursă, nu să repete rezumatul anterior.
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **Un contribuitor din browser are nevoie în continuare de o întrebare completă.** „Schimbă retenția la treizeci de zile” omite autoritatea actuală, domeniul, starea revizuirii și înregistrările afectate. Oferă chatului pachetul de surse și o instrucțiune de redactare. Dacă înregistrarea nu este disponibilă, cere responsabilului dovezi autorizate în loc să înlocuiești textul cu ce îți amintești.
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+Redactează un Issue pentru PROP-042 pe baza pachetului de surse sintetice atașat.
+Păstrează șapte zile marcate drept valoare de bază aprobată.
+Păstrează treizeci de zile marcate drept propunere.
+Păstrează excluderile pentru datele de producție, copiile de siguranță și obligațiile legale de păstrare.
+Enumeră modificările cerințelor, configurației, propunerii și runbookului.
+Enumeră dovezile lipsă în loc să le completezi cu revizii presupuse.
+Nu afirma că proprietarul a aprobat sau că livrarea s-a încheiat.
 ```
 
 **Inspectează răspunsul înainte să-l copiezi.** Verifică dacă a schimbat domeniul, a inventat un commit sau a descris aprobarea ca fiind finalizată. Elimină afirmațiile fără suport și păstrează întrebările nerezolvate în Issue. Chatul te ajută să redactezi propunerea, nu furnizează dovezi din sisteme pe care nu le-a citit.
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **Formulare slabă, cu titlu ilustrativ:** „Exporturile sunt acum disponibile timp de treizeci de zile.” Descrie livrarea ca finalizată și omite domeniul sintetic. Cât timp revizuirea este în așteptare, folosește o formulare de propunere.
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+Intenție propusă:
+Păstrează fișierele de export sintetice timp de 30 de zile.
+Exclude datele de producție, copiile de rezervă și blocările legale.
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+Intenție aprobată curentă:
+Păstrează fișierele de export sintetice timp de 7 zile conform reviziei 1 a REQ-17.
 
-Delivery:
-Not published. No runtime deletion service was tested.
+Livrare:
+Nepublicat. Nu a fost testat niciun serviciu de ștergere în timpul execuției.
 ```
 
 **Compară fiecare fișier afectat cu această formulare.** Revizia cerinței avansează în varianta candidat. Configurația ajunge la treizeci. Prima linie din manual ajunge la treizeci, păstrând limitarea laboratorului. Propunerea indică în continuare șapte drept valoare anterioară și revizia unu drept bază.

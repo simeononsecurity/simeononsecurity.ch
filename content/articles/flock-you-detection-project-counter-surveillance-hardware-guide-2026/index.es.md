@@ -1,7 +1,7 @@
 ---
 title: "Proyecto Flock-You: Guía completa de hardware de contravigilancia y configuración 2026"
 date: 2026-05-24
-lastmod: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Guía técnica completa del proyecto de código abierto Flock-You para detectar cámaras ALPR de Flock Safety usando hardware basado en ESP32. Incluye instrucciones de configuración, detalles de firmware y opciones de compra."

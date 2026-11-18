@@ -1,6 +1,7 @@
 ---
 title: "Securitatea cibernetică și confidențialitatea în transformarea digitală: Considerații juridice și etice"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aflați despre considerațiile juridice și etice privind securitatea cibernetică și confidențialitatea în transformarea digitală."
@@ -38,7 +39,7 @@ Stabilirea încrederii cu clienții este esențială pentru construirea unor rel
 
 ### Reglementări privind confidențialitatea datelor
 
-**Reglementări privind confidențialitatea datelor**, cum ar fi Regulamentul general privind protecția datelor al Uniunii Europene [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA) devin din ce în ce mai frecvente pe măsură ce crește cantitatea de date personale colectate și stocate online. Aceste reglementări sunt concepute pentru a proteja confidențialitatea și securitatea datelor personale ale persoanelor și pentru a le oferi acestora un control mai mare asupra datelor lor.
+**Reglementări privind confidențialitatea datelor**, cum ar fi Regulamentul general privind protecția datelor al Uniunii Europene [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) și California Consumer Privacy Act (CCPA) devin din ce în ce mai frecvente pe măsură ce crește cantitatea de date personale colectate și stocate online. Aceste reglementări sunt concepute pentru a proteja confidențialitatea și securitatea datelor personale ale persoanelor și pentru a le oferi acestora un control mai mare asupra datelor lor.
 
 De exemplu, GDPR, care a intrat în vigoare în 2018, oferă persoanelor fizice dreptul de a accesa, corecta și șterge datele lor personale deținute de companii și organizații. Companiile și organizațiile care colectează și prelucrează date cu caracter personal trebuie să respecte GDPR, în caz contrar riscând amenzi semnificative și repercusiuni juridice.
 
@@ -46,7 +47,7 @@ De asemenea, CCPA, care a intrat în vigoare în 2020, le oferă rezidenților d
 
 ### Legi privind securitatea cibernetică
 
-**Legile privind securitatea cibernetică** reprezintă un alt aspect juridic de luat în considerare în era transformării digitale. Aceste legi sunt concepute pentru a proteja persoanele fizice, întreprinderile și guvernele împotriva atacurilor cibernetice și a încălcărilor. Legea privind schimbul de informații în materie de securitate cibernetică [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sunt două exemple de legi privind securitatea cibernetică în Statele Unite.
+**Legile privind securitatea cibernetică** reprezintă un alt aspect juridic de luat în considerare în era transformării digitale. Aceste legi sunt concepute pentru a proteja persoanele fizice, întreprinderile și guvernele împotriva atacurilor cibernetice și a încălcărilor. Legea privind schimbul de informații în materie de securitate cibernetică [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), precum și Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sunt două exemple de legi privind securitatea cibernetică în Statele Unite.
 
 CISA, care a fost adoptată în 2015, încurajează schimbul de informații privind amenințările la adresa securității cibernetice între sectorul privat și guvern pentru a contribui la prevenirea atacurilor cibernetice. Legea CFAA, care a fost adoptată în 1986, incriminează activitățile legate de calculatoare, cum ar fi pirateria informatică și frauda informatică.
 

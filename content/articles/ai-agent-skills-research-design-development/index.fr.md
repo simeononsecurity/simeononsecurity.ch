@@ -1,7 +1,7 @@
 ---
 title: "9 projets de compétences d'agents IA pour la recherche, le design et le développement"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Comparez neuf projets de compétences d'agents selon leur flux de travail, leur prise en charge des hôtes, leurs dépendances et leur coût. Apprenez à installer, inspecter et tester les compétences dont vous avez besoin."
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **Les commandes ci-dessous viennent de la documentation d'installation actuelle des projets.** Exécutez uniquement la commande du projet choisi. Le lanceur de paquets télécharge et exécute du code d'installation. Inspectez donc le projet amont et choisissez la portée d'installation avant de lancer la commande.
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer : installation de Codex à l’échelle de l’utilisateur
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days : installation de Codex à l’échelle de l’utilisateur
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion : collection officielle de skills, pas le dépôt du framework
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **Utilisez une tâche enregistrée comme référence.** Exécutez-la sans la nouvelle compétence, puis avec celle-ci en gardant autant que possible le modèle, l'entrée, les outils et les critères d'acceptation identiques. Consignez les échecs et les corrections humaines avec le résultat final.
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# Exemple de fiche d’évaluation, pas un schéma de configuration des skills
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

@@ -1,7 +1,7 @@
 ---
 title: "IA locale contro ChatGPT: quanto siamo davvero vicini?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Confronta l'IA locale con ChatGPT e Claude usando punteggi benchmark, stime della memoria, velocità di servizio e verifica degli agenti. Include scenari con RTX 5090, DGX Spark e Mac Studio."
@@ -48,8 +48,8 @@ La [metodologia di valutazione pubblicata](https://artificialanalysis.ai/methodo
 La **compatibilità della memoria** parte da tre allocazioni. I pesi contengono i parametri appresi. La cache chiave-valore, o **cache KV**, conserva i dati di attenzione usati durante l'inferenza. Buffer del runtime e altro software consumano lo spazio restante.
 
 ```text
-Required memory = resident weights + context cache + runtime allowance
-Available memory = physical capacity - operating system and application reserve
+Memoria necessaria = pesi residenti + cache del contesto + margine per il runtime
+Memoria disponibile = capacità fisica - riserva per sistema operativo e applicazioni
 ```
 
 La **quantizzazione** riduce la precisione di memorizzazione dei pesi. Una precisione inferiore riduce la memoria necessaria, con qualità dipendente dal modello e dalla build quantizzata. La precisione della cache è un'impostazione separata. Un file di pesi Q4 non dimostra una cache a quattro bit.
@@ -78,7 +78,7 @@ La **dimensione del download** offre un punto di partenza più concreto del nume
 La **cache di attenzione di Qwen** offre un esempio calcolato. La [configurazione pubblicata](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json) specifica 64 livelli, attenzione completa ogni quattro livelli, quattro teste key-value e dimensione della testa pari a 256.
 
 ```text
-Full-attention KV bytes per token:
+Byte KV per token con attenzione completa:
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -188,8 +188,8 @@ L'**inferenza locale** è adatta alle attività in cui qualità e latenza valuta
 Il **tempo di riparazione umano** spesso cambia l'economia. Una risposta locale rapida che richiede dieci minuti di correzione consuma più tempo di lavoro di una risposta più lenta che supera la revisione. Conta i risultati accettati insieme alla spesa d'inferenza.
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
+Costo per attività accettata =
+(quota hardware + elettricità + costi del servizio + manutenzione + tempo di revisione)
 ÷ accepted tasks
 ```
 

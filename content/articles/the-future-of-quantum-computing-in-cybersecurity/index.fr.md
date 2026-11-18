@@ -1,10 +1,11 @@
 ---
 title: "L'avenir de l'informatique quantique et de la cybersécurité"
 date: 2023-03-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Explorer l'avenir de l'informatique quantique et son impact sur la cybersécurité, y compris la cryptographie post-quantique et les vulnérabilités des algorithmes cryptographiques classiques."
-tags: ["Informatique quantique", "Cybersécurité", "Qubits", "RSA", "CEC", "Cryptographie post-quantique", "Recuit quantique", "Suprématie quantique", "Superposition", "Entanglement", "Algorithmes cryptographiques", "Infrastructure numérique", "Problèmes d'optimisation", "Géants de la technologie", "Recherche et développement", "Décohérence", "Online transactions", "Messagerie sécurisée", "Banque en ligne", "Découverte de médicaments"]
+tags: ["Informatique quantique", "Cybersécurité", "bits quantiques", "RSA", "ECC", "Cryptographie post-quantique", "Recuit quantique", "Suprématie quantique", "Superposition quantique", "Intrication quantique", "Algorithmes cryptographiques", "Infrastructure numérique", "Problèmes d'optimisation", "Géants de la technologie", "Recherche et développement", "Décohérence", "Transactions en ligne", "Messagerie sécurisée", "Banque en ligne", "Découverte de médicaments"]
 cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Image animée d'un pirate informatique qui tente de s'introduire dans un système informatique protégé par le cryptage RSA, mais qui échoue alors qu'un ordinateur quantique résout le cryptage en quelques secondes en arrière-plan."
 coverCaption: ""
@@ -14,13 +15,13 @@ coverCaption: ""
 
 L'informatique quantique est un domaine d'étude qui se concentre sur le développement d'une technologie informatique basée sur les principes de la théorie quantique. Contrairement à l'informatique traditionnelle qui utilise des chiffres binaires, l'informatique quantique utilise des **bits quantiques** ou **qubits**, qui peuvent représenter plusieurs valeurs simultanément, ce qui permet des calculs plus rapides et plus complexes. Bien qu'elle n'en soit qu'à ses débuts, l'informatique quantique a le potentiel de révolutionner de nombreux domaines, y compris la cybersécurité. Dans cet article, nous allons explorer l'avenir de l'informatique quantique et ses implications pour la cybersécurité.
 
-## Introduction à l'informatique quantique
+## Premiers concepts de l'informatique quantique
 
 L'informatique quantique repose sur les principes de la mécanique quantique, qui décrit le comportement de la matière et de l'énergie à l'échelle la plus petite. L'une des différences les plus importantes entre la mécanique quantique et la mécanique classique est le concept de **superposition**. La superposition est la capacité d'un système quantique à exister dans plusieurs états simultanément.
 
 En informatique classique, les bits sont utilisés pour représenter l'information et peuvent exister dans l'un des deux états suivants : 0 ou 1. En informatique quantique, les qubits peuvent exister dans les deux états simultanément, ce qui permet d'effectuer un plus grand nombre de calculs en parallèle.
 
-Un autre concept important de l'informatique quantique est l'intrication**. L'intrication est un phénomène dans lequel deux qubits sont liés de telle sorte que l'état d'un qubit dépend de l'état de l'autre. Cette propriété permet une communication plus rapide entre les qubits, ce qui est crucial pour l'informatique quantique.
+Un autre concept important de l'informatique quantique est **l'intrication**. L'intrication est un phénomène dans lequel deux qubits sont liés de telle sorte que l'état d'un qubit dépend de l'état de l'autre. Cette propriété permet une communication plus rapide entre les qubits, ce qui est crucial pour l'informatique quantique.
 
 ______
 
@@ -36,7 +37,7 @@ Malgré ces avancées, l'informatique quantique doit encore relever plusieurs d�
 
 ______
 
-## Implications pour la cybersécurité
+## Effets sur la cybersécurité
 
 L'informatique quantique a le potentiel de révolutionner de nombreux domaines, y compris la cybersécurité. Grâce à sa capacité à effectuer des calculs complexes en parallèle, l'informatique quantique peut briser de nombreux algorithmes cryptographiques qui sécurisent notre infrastructure numérique.
 
@@ -48,7 +49,7 @@ ______
 
 ## Cryptographie post-quantique
 
-Les vulnérabilités des algorithmes cryptographiques classiques face à l'informatique quantique ont conduit au développement de la ** cryptographie post-quantique**, une branche de la cryptographie qui vise à créer des algorithmes résistants aux attaques quantiques. La cryptographie post-quantique utilise des problèmes mathématiques considérés comme difficiles à résoudre pour les ordinateurs classiques et quantiques, tels que le problème de l'apprentissage avec erreurs** (LWE) et le problème de la cryptographie basée sur les codes** (CBC).
+Les vulnérabilités des algorithmes cryptographiques classiques face à l'informatique quantique ont conduit au développement de la **cryptographie post-quantique**, une branche de la cryptographie qui vise à créer des algorithmes résistants aux attaques quantiques. La cryptographie post-quantique utilise des problèmes mathématiques considérés comme difficiles à résoudre pour les ordinateurs classiques et quantiques, tels que le problème de **l'apprentissage avec erreurs** (LWE) et le problème de **la cryptographie basée sur les codes** (CBC).
 
 Plusieurs algorithmes cryptographiques post-quantiques ont été proposés, notamment le **NIST Post-Quantum Cryptography Standardization Project**, qui vise à identifier et à normaliser les algorithmes cryptographiques résistants au quantum. Le projet en est actuellement à son troisième cycle d'évaluation, et la norme finale devrait être publiée en 2024.
 
@@ -61,5 +62,5 @@ L'informatique quantique continuant d'évoluer, il sera important de rester info
 
 ## Références
 
-1. IBM Research. (n.d.). Quantum Computing. Consulté le 4 mars 2023, à l'adresse https://www.research.ibm.com/quantum-computing/.
-2. National Institute of Standards and Technology (Institut national des normes et de la technologie). (n.d.). Post-Quantum Cryptography Standardization. Consulté le 4 mars 2023, à l'adresse https://csrc.nist.gov/projects/post-quantum-cryptography.
+1. IBM Research. (n.d.). Quantum Computing. Consulté le 4 mars 2023, à l'adresse https://www.research.ibm.com/quantum-computing/
+2. National Institute of Standards and Technology (Institut national des normes et de la technologie). (n.d.). Post-Quantum Cryptography Standardization. Consulté le 4 mars 2023, à l'adresse https://csrc.nist.gov/projects/post-quantum-cryptography

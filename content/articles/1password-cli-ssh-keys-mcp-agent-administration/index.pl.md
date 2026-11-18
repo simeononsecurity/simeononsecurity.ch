@@ -1,12 +1,12 @@
 ---
-title: "1Password SSH Agent and CLI: Read-Only AI Agent Access"
+title: "1Password SSH Agent i CLI: dostęp tylko do odczytu dla agentów AI"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Zaprojektuj workflow tylko do odczytu z użyciem 1Password CLI, SSH Agent oraz MCP. Wykorzystaj syntetyczne polecenia, zawężone uprawnienia i zatwierdzenie przez człowieka przed testami na żywo."
 genre: ["Administracja systemami", "Bezpieczeństwo chmury", "Automatyzacja"]
-tags: ["1Password CLI", "klucze SSH", "1Password SSH Agent", "MCP", "Model Context Protocol", "administracja agentami", "administracja systemami", "Bitbucket Cloud", "Git over SSH", "odniesienia do sekretów", "konta usługowe", "minimalne uprawnienia", "uwierzytelnianie kluczem publicznym", "zarządzanie sekretami", "bezpieczeństwo wiersza poleceń", "bezpieczeństwo automatyzacji"]
+tags: ["1Password CLI", "klucze SSH", "1Password SSH Agent", "MCP", "Model Context Protocol", "administracja agentami", "administracja systemami", "Bitbucket Cloud", "Git przez SSH", "odniesienia do sekretów", "konta usługowe", "minimalne uprawnienia", "uwierzytelnianie kluczem publicznym", "zarządzanie sekretami", "bezpieczeństwo wiersza poleceń", "bezpieczeństwo automatyzacji"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "Abstrakcyjny diagram agenta korzystającego z odniesienia do sekretu, agenta SSH oraz narzędzi MCP, bez pokazywania kluczy prywatnych."
 coverCaption: ""
@@ -70,19 +70,19 @@ Skonfiguruj dedykowany klucz dla kluczy agenta. Użyj pliku konfiguracyjnego SSH
 
 Sesja zatwierdzenia nie jest trwałym upoważnieniem. 1Password rejestruje autoryzację na skonfigurowany okres lub do momentu zablokowania lub zamknięcia aplikacji. Gdy aplikacja jest zablokowana, agent nie przechowuje kluczy prywatnych do późniejszego użycia. Proces SSH Agenta kontynuuje działanie w tle, gdy odpowiednie ustawienie jest włączone, a 1Password jest zamknięty, ale nowe żądanie podpisu wymaga odblokowania 1Password.
 
-Przewodnik [1Password SSH setup guide](https://www.1password.dev/ssh/get-started) pokazuje ogólny przebieg: wygenerowanie lub import klucza, publikacja klucza publicznego, włączenie SSH Agenta, konfiguracja klienta SSH, uruchomienie polecenia SSH lub Git oraz zatwierdzenie żądania. Dokładna ścieżka gniazda (socket) różni się w zależności od systemu operacyjnego. Używaj instrukcji dla bieżącej platformy zamiast kopiowania ścieżki z innej maszyny.
+Przewodnik [Przewodnik konfiguracji SSH w 1Password](https://www.1password.dev/ssh/get-started) pokazuje ogólny przebieg: wygenerowanie lub import klucza, publikacja klucza publicznego, włączenie SSH Agenta, konfiguracja klienta SSH, uruchomienie polecenia SSH lub Git oraz zatwierdzenie żądania. Dokładna ścieżka gniazda (socket) różni się w zależności od systemu operacyjnego. Używaj instrukcji dla bieżącej platformy zamiast kopiowania ścieżki z innej maszyny.
 
 Aplikacja 1Password musi być odblokowana, zanim nowe żądanie podpisu zakończy się sukcesem. Proces agenta może kontynuować działanie w tle, gdy aplikacja jest zamknięta. Zablokowana aplikacja nie udostępnia materiału klucza prywatnego do podpisu.
 
 ## Klucze publiczne i Bitbucket
 
-Przewodnik [1Password key-management guide](https://www.1password.dev/ssh/manage-keys) dokumentuje elementy SSH Key, generowanie kluczy, import kluczy, klucze publiczne, odciski palców oraz klucze prywatne. Przykład CLI używa `op item create --category ssh` do utworzenia elementu SSH Key. 1Password CLI domyślnie generuje klucz Ed25519 dla tego przykładu i maskuje klucz prywatny w swoim wyjściu.
+Przewodnik [Przewodnik zarządzania kluczami w 1Password](https://www.1password.dev/ssh/manage-keys) dokumentuje elementy SSH Key, generowanie kluczy, import kluczy, klucze publiczne, odciski palców oraz klucze prywatne. Przykład CLI używa `op item create --category ssh` do utworzenia elementu SSH Key. 1Password CLI domyślnie generuje klucz Ed25519 dla tego przykładu i maskuje klucz prywatny w swoim wyjściu.
 
-Bitbucket Cloud używa standardowego workflow linii komend Git i OpenSSH. Jego [command-line guide](https://support.atlassian.com/bitbucket-cloud/docs/find-the-command-line/) opisuje operacje Git z lokalnego repozytorium. Jego [SSH configuration guide](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) wymienia formy zdalnych SSH i obsługiwane formaty kluczy publicznych.
+Bitbucket Cloud używa standardowego workflow linii komend Git i OpenSSH. Jego [przewodnik po wierszu poleceń](https://support.atlassian.com/bitbucket-cloud/docs/find-the-command-line/) opisuje operacje Git z lokalnego repozytorium. Jego [Przewodnik konfiguracji SSH](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification) wymienia formy zdalnych SSH i obsługiwane formaty kluczy publicznych.
 
 **Traktuj Bitbucket jako konsumenta klucza publicznego.** Zarejestruj klucz publiczny lub odcisk palca przez zatwierdzone konto Bitbucket lub ustawienie repozytorium. Zachowaj klucz prywatny w 1Password. Klient Git prosi SSH Agenta o podpis. Klient nie odczytuje pliku klucza prywatnego.
 
-W zakresie klucza dostępowego Bitbucket, ścieżki rejestracji i testu Git tylko do odczytu, zobacz [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+W zakresie klucza dostępowego Bitbucket, ścieżki rejestracji i testu Git tylko do odczytu, zobacz [Klucze SSH Bitbucket Cloud i Git CLI: dostęp tylko do odczytu dla agentów AI](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 Dokumentacja Bitbucket nazywa to workflow Git CLI. Ten artykuł nie zakłada istnienia osobnego serwera MCP Bitbucket ani produktu o nazwie Bitbucket CLI. Specyficzny dla Bitbucket CLI wymaga własnej aktualnej dokumentacji i własnej przeglądu uprawnień.
 
@@ -163,10 +163,10 @@ Zapisz klasę celu, zdalne konto, intended repository lub komendę, źródło kl
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: kontrola łączności tylko do odczytu
+host_key_source: zatwierdzony wpis administratora
+approval_owner: wskazany operator
+rollback: usunąć klucz publiczny i unieważnić tożsamość testową
 ```
 
 **Oczekiwany wynik, nietestowany:** Rekord identyfikuje jeden cel i jedną operację. Rekord nie zawiera nazwy hosta, adresu IP, tokenu, klucza prywatnego ani danych osobowych.
@@ -239,7 +239,7 @@ Poniższa sekwencja pokazuje kolejność bez użycia rzeczywistej infrastruktury
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Tylko w systemie macOS lub Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

@@ -1,7 +1,7 @@
 ---
 title: "Raspberry Pi 4 या 5 पर कौन से AI मॉडल चल सकते हैं?"
 date: 2026-09-20
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Raspberry Pi 4 और 5 के मापे गए परिणामों से मेमोरी, गति और काम के अनुसार स्थानीय भाषा मॉडल चुनें, छोटे LFM2.5 से 3B और बड़े विकल्पों तक।"
@@ -169,10 +169,10 @@ Import के समय download की गई फाइल और Ollama मे
 |---|---|---|
 | 2 GB Pi 4, default | आयात किया LFM2.5-350M | 516 MB RSS पर स्थिर और करीब 1 GB उपलब्ध; 230M की medical-term गलती के बाद चुना |
 | 2 GB Pi 4, सबसे कम latency | आयात किया LFM2.5-230M | 383 MB RSS और औसत 7.2 s reply; स्वास्थ्य या सुरक्षा प्रश्न में सामग्री ध्यान से जांचें |
-| 2 GB Pi 4, registry-only | `qwen2.5:0.5b` | सीधा Ollama pull और Pi 4 के पांच-prompt run में स्थिर; Pi 5 पर repeated compliance 61% |
+| 2 GB Pi 4, केवल रजिस्ट्री से उपलब्ध | `qwen2.5:0.5b` | सीधा Ollama pull और Pi 4 के पांच-prompt run में स्थिर; Pi 5 पर repeated compliance 61% |
 | 4 GB Pi 4 या Pi 5 | आयात किया LFM2.5-1.2B, फिर स्थानीय जांच | 8 GB Pi 5 पर 967 MB RSS और 89% repeated compliance; 4 GB variant सीधे नहीं मापा |
-| 8 GB Pi 5, responsive assistant | आयात किया LFM2.5-1.2B | 15.5 tokens/s, कुल reply 4.7 s और मापा गया सबसे अधिक repeated compliance |
-| 8 GB Pi 5, registry-only setup | `gemma3:1b` | 11.2 tokens/s, 1,262 MB RSS और 83% repeated compliance |
+| 8 GB Pi 5, त्वरित उत्तर देने वाला सहायक | आयात किया LFM2.5-1.2B | 15.5 tokens/s, कुल reply 4.7 s और मापा गया सबसे अधिक repeated compliance |
+| 8 GB Pi 5, केवल रजिस्ट्री से इंस्टॉल सेटअप | `gemma3:1b` | 11.2 tokens/s, 1,262 MB RSS और 83% repeated compliance |
 | 8 GB Pi 5, बड़ा text model आजमाएं | quantized Qwen2.5 3B या Llama 3.2 3B | दोनों करीब 5 tokens/s पर चले और 2.4–2.8 GB RSS लिया; Qwen2.5 3B ने एक pass में 5/6 पाए |
 
 ये विकल्प ऐसे Pi पर छोटे उपयोगी जवाब प्राथमिकता देते हैं जो अन्य service भी चला सकता है। ये शुरुआती विकल्प हैं, हर काम के लिए किसी एक को सर्वोत्तम बताने का दावा नहीं। Pi 5 के single-pass compliance check में default reasoning वाले `qwen3.5:0.8b` और Spark-X2.5 ने compliant जवाब नहीं दिए; MiniCPM5-1B ने 1/6 पाया। Client reasoning बंद न कर सके तो छोटे-जवाब के काम में इन्हें न लें। Final model को नियोजित prompt, context length, concurrency और response limit के साथ जांचें।

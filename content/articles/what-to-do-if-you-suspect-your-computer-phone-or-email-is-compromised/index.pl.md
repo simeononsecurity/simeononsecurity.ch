@@ -1,10 +1,11 @@
 ---
 title: "Co zrobić, jeśli uważasz, że Twoja poczta elektroniczna lub telefon są zagrożone?"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj podstawowe kroki, które należy podjąć w przypadku podejrzenia włamania do poczty elektronicznej, komputera lub telefonu, w tym zmianę haseł, skanowanie w poszukiwaniu złośliwego oprogramowania i czyszczenie urządzenia."
-tags: ["bezpieczeństwo urządzeń", "ochrona danych", "naruszone urządzenie", "zhakowany e-mail", "zhakowany telefon", "złośliwe oprogramowanie", "usuwanie wirusa", "hasło bezpieczeństwa", "kopia zapasowa danych", "uwierzytelnianie dwuskładnikowe", "cybersecurity", "bezpieczeństwo w sieci", "prywatność cyfrowa", "kradzież tożsamości", "oszustwo internetowe", "wsparcie techniczne", "naprawa komputerów", "odzyskiwanie danych", "Usługi informatyczne", "technologia"]
+tags: ["bezpieczeństwo urządzeń", "ochrona danych", "naruszone urządzenie", "zhakowany e-mail", "zhakowany telefon", "złośliwe oprogramowanie", "usuwanie wirusa", "hasło bezpieczeństwa", "kopia zapasowa danych", "uwierzytelnianie dwuskładnikowe", "cyberbezpieczeństwo", "bezpieczeństwo w sieci", "prywatność cyfrowa", "kradzież tożsamości", "oszustwo internetowe", "wsparcie techniczne", "naprawa komputerów", "odzyskiwanie danych", "Usługi informatyczne", "technologia", "bezpieczeństwo poczty e-mail", "bezpieczeństwo komputerów", "bezpieczeństwo telefonów", "włamania do urządzeń", "naruszenie bezpieczeństwa", "przejęcie urządzenia", "skanowanie w poszukiwaniu złośliwego oprogramowania", "wymazywanie danych", "klucze kryptowalut", "bezpieczeństwo portfeli kryptowalutowych", "ochrona środków", "przejęcie poczty e-mail", "wskazówki dotyczące bezpieczeństwa urządzeń", "jak zabezpieczyć pocztę e-mail", "kroki ochrony przejętego telefonu", "techniki usuwania złośliwego oprogramowania", "dobre praktyki bezpieczeństwa haseł", "metody tworzenia kopii zapasowych", "znaczenie uwierzytelniania dwuskładnikowego", "środki cyberbezpieczeństwa online", "wskazówki dotyczące prywatności cyfrowej", "zapobieganie kradzieży tożsamości online", "jak radzić sobie z oszustwami internetowymi", "pomoc techniczna dla przejętych urządzeń", "usługi naprawy komputerów", "rozwiązania do odzyskiwania danych", "usługi IT dla bezpieczeństwa urządzeń", "najnowsze trendy technologiczne", "bezpieczne korzystanie z poczty e-mail", "środki bezpieczeństwa komputerów", "środki ostrożności dla telefonów", "zapobieganie włamaniom do urządzeń"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Obrazek z kreskówki osoby stojącej przed komputerem lub telefonem z zatroskanym wyrazem twarzy, podczas gdy w tle czai się haker z kreskówki."
 coverCaption: ""
@@ -28,15 +29,19 @@ Pierwszym krokiem, który należy podjąć, gdy podejrzewasz, że Twoja poczta e
 
 Ważne jest, aby zwrócić uwagę na wszelkie oznaki zagrożenia, aby można było podjąć odpowiednie działania w celu ochrony urządzenia i danych. Jeśli nie masz pewności, czy Twoje urządzenie zostało narażone na atak, zawsze lepiej jest zachować ostrożność.
 
+
+Dowiedz się, jak rozpoznawać phishing i ataki socjotechniczne: [wiadomości phishingowe i podejrzane wiadomości e-mail](https://simeononsecurity.com/articles/how-to-identify-phishing/)oraz [inżynieria społeczna](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## Krok 2: Zmień swoje hasła i zweryfikuj informacje o odzyskiwaniu.
+## [Krok 2: Zmień swoje hasła i zweryfikuj informacje o odzyskiwaniu](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - Natychmiast zmień hasła** do wszystkich swoich kont, jeśli podejrzewasz, że Twoje urządzenie zostało zaatakowane.
 
 
 Jeśli podejrzewasz, że Twój e-mail, komputer lub telefon został zaatakowany, następnym krokiem jest natychmiastowa zmiana haseł do wszystkich kont. To zajmie trochę czasu, więc priorytetowo traktuj ważne konta, takie jak poczta elektroniczna, konta bankowe, konta w mediach społecznościowych itp.
 
+Więcej wskazówek znajdziesz tutaj: [zmiana haseł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [wybór silnych, unikalnych haseł](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [utworzenie silnego hasła](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) oraz [włączenie uwierzytelniania dwuskładnikowego](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/).
 - **Priorytetowo traktuj ważne konta**, takie jak poczta elektroniczna, konta bankowe, konta w mediach społecznościowych itp.
 
 - Wybierz silne, unikalne hasła** do każdego z kont i **uniknij używania tego samego hasła** na wielu kontach.
@@ -46,18 +51,18 @@ Wybierz silne, unikalne hasła dla każdego z kont i unikaj używania tego sameg
 
 ***Kilka przykładów bezpiecznych haseł***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: 12-znakowe hasło zawierające wielkie i małe litery, cyfry oraz symbole
+- Ilovesecurity7!: 16-znakowe hasło łączące słowa, cyfry i jeden symbol
+- xK2%qpzL5!rS: 12-znakowe hasło z losowymi wielkimi i małymi literami, cyframi oraz symbolami
 ```
 
 ***Przykłady zdań zaliczeniowych***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: 24-znakowe hasło składające się z trzech losowych słów i cyfr
+- orange$5my#yellow: 16-znakowe hasło składające się z dwóch losowych słów, cyfr i symboli
+- pizza3onions?lovers: 19-znakowe hasło składające się z dwóch losowych słów, cyfr i jednego symbolu
+- tangerine8shark?43: 18-znakowe hasło składające się z dwóch losowych słów, cyfr i jednego symbolu
+- elephant6pasta*tree: 19-znakowe hasło składające się z dwóch losowych słów, cyfr i jednego symbolu
 ```
 
 - **Włącz dwuskładnikowe uwierzytelnianie** dla dodatkowej warstwy bezpieczeństwa
@@ -93,6 +98,7 @@ ______
 - **Klient poczty elektronicznej** (Microsoft Outlook, Apple Mail, Gmail, itp.)
 - **Aplikacje** (Microsoft Office, Adobe Creative Suite, itp.)
 
+Zobacz także: [zalecane oprogramowanie antywirusowe i antymalware](https://simeononsecurity.com/recommendations/anti-virus).
 ______
 
 ## Krok 4: Skanowanie urządzenia w poszukiwaniu złośliwego oprogramowania
@@ -115,6 +121,7 @@ Aby przeskanować urządzenie w poszukiwaniu złośliwego oprogramowania, użyj 
 
 Dobrym pomysłem jest również przeskanowanie wszelkich urządzeń zewnętrznych, takich jak dyski USB, które były używane z zagrożonym urządzeniem. Urządzenia zewnętrzne mogą często zawierać złośliwe oprogramowanie, które może zainfekować urządzenie, dlatego ważne jest, aby przeskanować je przed użyciem z urządzeniem.
 
+Dowiedz się więcej o: [zasada kopii zapasowych 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 ______
 
 ## Krok 5: Zrób kopię zapasową ważnych plików i wyczyść urządzenie

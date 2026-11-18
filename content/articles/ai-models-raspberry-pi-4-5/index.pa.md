@@ -1,7 +1,7 @@
 ---
 title: "Raspberry Pi 4 ਜਾਂ 5 ਉੱਤੇ ਕਿਹੜੇ AI ਮਾਡਲ ਚੱਲਦੇ ਹਨ?"
 date: 2026-09-20
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Raspberry Pi 4 ਅਤੇ 5 ਦੇ ਮਾਪੇ ਨਤੀਜਿਆਂ ਤੋਂ ਮੈਮੋਰੀ, ਗਤੀ ਅਤੇ ਕੰਮ ਮੁਤਾਬਕ ਸਥਾਨਕ ਭਾਸ਼ਾ ਮਾਡਲ ਚੁਣੋ, ਛੋਟੇ LFM2.5 ਤੋਂ 3B ਅਤੇ ਵੱਡੇ ਵਿਕਲਪਾਂ ਤੱਕ।"
@@ -169,10 +169,10 @@ Import ਨੂੰ download ਕੀਤੀ ਫਾਈਲ ਅਤੇ Ollama ਦੀ stor
 |---|---|---|
 | 2 GB Pi 4, default | Import ਕੀਤਾ LFM2.5-350M | 516 MB RSS ਉੱਤੇ ਸਥਿਰ ਅਤੇ ਲਗਭਗ 1 GB ਉਪਲਬਧ; 230M ਦੀ medical-term ਗਲਤੀ ਮਗਰੋਂ ਚੁਣਿਆ |
 | 2 GB Pi 4, ਸਭ ਤੋਂ ਘੱਟ latency | Import ਕੀਤਾ LFM2.5-230M | 383 MB RSS ਅਤੇ ਔਸਤ reply 7.2 s; health ਜਾਂ safety ਸਵਾਲਾਂ ਵਿੱਚ content ਧਿਆਨ ਨਾਲ ਜਾਂਚੋ |
-| 2 GB Pi 4, registry-only | `qwen2.5:0.5b` | Ollama ਤੋਂ ਸਿੱਧਾ pull ਅਤੇ Pi 4 ਦੇ ਪੰਜ-prompt run ਵਿੱਚ ਸਥਿਰ; Pi 5 ਉੱਤੇ repeated compliance 61% |
+| 2 GB Pi 4, ਸਿਰਫ਼ ਰਜਿਸਟਰੀ ਤੋਂ ਉਪਲਬਧ | `qwen2.5:0.5b` | Ollama ਤੋਂ ਸਿੱਧਾ pull ਅਤੇ Pi 4 ਦੇ ਪੰਜ-prompt run ਵਿੱਚ ਸਥਿਰ; Pi 5 ਉੱਤੇ repeated compliance 61% |
 | 4 GB Pi 4 ਜਾਂ Pi 5 | Import ਕੀਤਾ LFM2.5-1.2B, ਫਿਰ ਸਥਾਨਕ ਜਾਂਚ | 8 GB Pi 5 ਉੱਤੇ 967 MB RSS ਅਤੇ 89% repeated compliance; 4 GB variant ਸਿੱਧਾ ਨਹੀਂ ਮਾਪਿਆ |
-| 8 GB Pi 5, responsive assistant | Import ਕੀਤਾ LFM2.5-1.2B | 15.5 tokens/s, ਪੂਰਾ ਜਵਾਬ 4.7 s ਅਤੇ ਸਭ ਤੋਂ ਉੱਚੀ ਮਾਪੀ repeated compliance |
-| 8 GB Pi 5, registry-only setup | `gemma3:1b` | 11.2 tokens/s, 1,262 MB RSS ਅਤੇ 83% repeated compliance |
+| 8 GB Pi 5, ਤੁਰੰਤ ਜਵਾਬ ਦੇਣ ਵਾਲਾ ਸਹਾਇਕ | Import ਕੀਤਾ LFM2.5-1.2B | 15.5 tokens/s, ਪੂਰਾ ਜਵਾਬ 4.7 s ਅਤੇ ਸਭ ਤੋਂ ਉੱਚੀ ਮਾਪੀ repeated compliance |
+| 8 GB Pi 5, ਸਿਰਫ਼ ਰਜਿਸਟਰੀ ਤੋਂ ਇੰਸਟਾਲ ਹੋਣ ਵਾਲਾ ਸੈੱਟਅੱਪ | `gemma3:1b` | 11.2 tokens/s, 1,262 MB RSS ਅਤੇ 83% repeated compliance |
 | 8 GB Pi 5, ਵੱਡਾ text model ਅਜ਼ਮਾਉਣਾ | Quantized Qwen2.5 3B ਜਾਂ Llama 3.2 3B | ਦੋਵੇਂ ਲਗਭਗ 5 tokens/s ਉੱਤੇ ਚਲੇ ਅਤੇ 2.4–2.8 GB RSS ਵਰਤੀ; Qwen2.5 3B ਨੇ ਇਕ compliance pass ਵਿੱਚ 5/6 ਪਾਏ |
 
 ਇਹ ਚੋਣਾਂ ਅਜਿਹੇ Pi ਉੱਤੇ ਛੋਟੇ ਲਾਭਦਾਇਕ ਜਵਾਬ ਪਹਿਲ ਦਿੰਦੀਆਂ ਹਨ ਜੋ ਹੋਰ ਸੇਵਾਵਾਂ ਵੀ ਚਲਾ ਸਕਦਾ ਹੈ। ਇਹ ਸ਼ੁਰੂਆਤੀ ਚੋਣਾਂ ਹਨ, ਹਰ ਕੰਮ ਲਈ ਇਕ ਮਾਡਲ ਵਧੀਆ ਹੋਣ ਦਾ ਦਾਅਵਾ ਨਹੀਂ। Pi 5 ਦੇ single-pass compliance check ਵਿੱਚ default reasoning ਵਾਲੇ `qwen3.5:0.8b` ਅਤੇ Spark-X2.5 ਨੇ compliant ਜਵਾਬ ਨਹੀਂ ਦਿੱਤੇ; MiniCPM5-1B ਨੇ 1/6 ਕੀਤਾ। ਜੇ client reasoning ਬੰਦ ਨਹੀਂ ਕਰ ਸਕਦਾ ਤਾਂ ਇਸ ਛੋਟੇ-ਜਵਾਬ ਕੰਮ ਲਈ ਇਨ੍ਹਾਂ ਤੋਂ ਬਚੋ। ਅੰਤਿਮ ਮਾਡਲ ਨੂੰ ਅਸਲ prompt, context length, concurrency ਅਤੇ ਯੋਜਿਤ response limit ਨਾਲ ਜਾਂਚੋ।

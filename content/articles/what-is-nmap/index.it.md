@@ -1,7 +1,7 @@
 ---
 title: "Nmap: una guida alla scansione di rete e al rilevamento dei servizi"
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Scoprite come utilizzare efficacemente Nmap per la scansione della rete, la scansione delle porte, il rilevamento dei servizi e l'identificazione del sistema operativo per valutare la sicurezza della rete."
@@ -11,7 +11,7 @@ coverAlt: "Concetto di sicurezza di rete con gli strumenti di scansione Nmap in 
 coverCaption: ""
 ---
 
-[**What is Nmap and How to Use It?**](https://nmap.org/download.html)
+[**Che cos'è Nmap e come si usa?**](https://nmap.org/download.html)
 
 [Nmap](https://nmap.org/download.html) (Network Mapper) è uno strumento di scansione di rete open source potente e versatile, utilizzato per scoprire host e servizi su una rete di computer. Fornisce informazioni preziose sull'infrastruttura di rete e aiuta a valutare la sicurezza della rete. In questo articolo esploreremo le basi di Nmap, le sue caratteristiche e come utilizzarlo efficacemente.
 

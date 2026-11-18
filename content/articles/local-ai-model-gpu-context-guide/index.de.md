@@ -1,7 +1,7 @@
 ---
 title: "Welches lokale KI-Modell solltest du ausführen? Ein GPU-, Kontext- und Coding-Leitfaden für Oktober 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ein praktischer Leitfaden für Oktober 2026 zur Auswahl lokaler KI-Modelle für Coding-Agenten. Vergleiche GPU-Speicher, KV-Cache-Wachstum, Kontextgröße, Quantisierungsqualität, Prompt-Verarbeitung, Reasoning-Einstellungen und Cloud-Mietkosten."
@@ -78,7 +78,7 @@ Diese Zahlen gelten für bestimmte Modellarchitekturen und Laufzeiteinstellungen
 |---|---|---|
 | **Vollständige Attention in jeder Schicht** | Starkes Cache-Wachstum | Mehr Speicher für lange Prompts nötig |
 | **Hybride oder gleitende Attention** | Geringeres Cache-Wachstum in einigen Schichten | Mehr Kontextreserve bei gleicher Modellgröße |
-| **Mixture of Experts** | Weniger aktive Parameter pro Token | Weniger Rechenarbeit pro Token, aber alle Gewichte müssen gespeichert werden |
+| **Expertenmischung (MoE)** | Weniger aktive Parameter pro Token | Weniger Rechenarbeit pro Token, aber alle Gewichte müssen gespeichert werden |
 | **Erweiterung für langen Kontext** | Größeres Arbeitsfenster | Mehr Cache-Speicher und mehr Prompt-Verarbeitung |
 
 **Lies die Modellarchitektur vor dem Speicherkauf.** Die Parameterzahl allein verbirgt die Kosten einer langen Coding-Sitzung.

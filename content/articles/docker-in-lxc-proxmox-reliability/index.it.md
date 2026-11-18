@@ -1,17 +1,16 @@
 ---
 title: "Docker in LXC su Proxmox: affidabilità, prove e migrazione a una VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Valuta Docker all’interno di Proxmox LXC con un errore AppArmor documentato, un’attenta lettura di una segnalazione di blocco dell’host, comandi diagnostici e un piano di migrazione a una VM."
-genre: ["Virtualizzazione", "Amministrazione Linux", "Homelab"]
-tags: ["Docker in LXC", "Docker su Proxmox", "LXC di Proxmox", "macchina virtuale Docker", "affidabilità dell’homelab", "blocchi dell’host Proxmox", "VM Debian per Docker", "container senza privilegi", "annidamento dei container", "isolamento del kernel Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "driver di archiviazione Docker", "archivio immagini containerd", "pressione della memoria", "Linux PSI", "journal persistente", "backup Proxmox", "backup dei bind mount", "migrazione VM", "domini di guasto", "passthrough GPU", "risoluzione dei problemi del server domestico"]
+genre: ["Virtualizzazione", "Amministrazione Linux", "laboratorio domestico"]
+tags: ["Docker in un container LXC", "Docker su Proxmox", "LXC di Proxmox", "macchina virtuale Docker", "affidabilità dell’homelab", "blocchi dell’host Proxmox", "VM Debian per Docker", "container senza privilegi", "annidamento dei container", "isolamento del kernel Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "driver di archiviazione Docker", "archivio immagini containerd", "pressione della memoria", "Linux PSI", "journal persistente", "backup Proxmox", "backup dei bind mount", "migrazione VM", "domini di guasto", "passthrough GPU", "risoluzione dei problemi del server domestico"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Illustrazione isometrica di un server domestico con carichi di lavoro annidati e uno spazio separato per una macchina virtuale collegato all’hardware condiviso"
 coverCaption: "Illustrazione concettuale dell’hardware condiviso e dei diversi confini di isolamento dei carichi di lavoro"
 ---
-
 **Docker dentro Linux Containers (LXC)** riduce parte del sovraccarico infrastrutturale, ma aumenta le interazioni tra il runtime dell’applicazione e l’host Proxmox. Per i servizi Docker da cui dipende la tua famiglia, una **macchina virtuale (VM) Debian** è un punto di partenza pratico: separa il kernel guest e semplifica l’ambiente da riprodurre durante la diagnosi. Questo articolo esamina il video fornito, verifica il relativo rapporto sull’incidente e aggiunge guasti documentati e un piano di migrazione.
 
 <!--more-->
@@ -66,14 +65,14 @@ Il **periodo di osservazione** merita attenzione. Sedici giorni rientrano in una
 ## Individua il confine del kernel
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker dentro LXC:
+Applicazione -> runtime Docker -> namespace e criteri LXC
+                  -> kernel host Proxmox -> hardware fisico
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker dentro una VM:
+Applicazione -> runtime Docker -> kernel Linux guest
+                  -> hardware virtuale / KVM-QEMU
+                  -> kernel host Proxmox -> hardware fisico
 ```
 
 **LXC** usa il kernel dell’host. Namespace, gruppi di controllo, capability, seccomp e profili di sicurezza limitano i processi senza fornire un kernel separato. Aggiungere Docker dentro LXC crea un ulteriore livello di gestione dei container per carichi che usano lo stesso kernel host sottostante. [Architettura LXC e funzioni di contenimento](https://linuxcontainers.org/lxc/introduction/)
@@ -108,7 +107,7 @@ Docker pubblica una **procedura di installazione per Debian**. Usa l’elenco de
 
 ## Un errore di nesting confermato
 
-L’**incompatibilità runc/AppArmor del 2025** è un esempio verificabile. I manutentori di runc hanno documentato un errore di riapertura del descriptor dentro un container esterno con un profilo AppArmor. AppArmor interpretava erroneamente l’accesso a **`/proc/sys`** come accesso a **`/sys`**, causando un rifiuto del criterio. [Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)
+L’**incompatibilità runc/AppArmor del 2025** è un esempio verificabile. I manutentori di runc hanno documentato un errore di riapertura del descriptor dentro un container esterno con un profilo AppArmor. AppArmor interpretava erroneamente l’accesso a **`/proc/sys`** come accesso a **`/sys`**, causando un rifiuto del criterio. [problema runc 4968](https://github.com/opencontainers/runc/issues/4968)
 
 Un **avvio interessato** riportava questo frammento di errore:
 
@@ -271,7 +270,7 @@ Evita **due writer attivi** sullo stesso storage di database. Un rollback dopo n
 
 I **test di accettazione** devono seguire lo scopo del servizio. Uno stato verde del container conferma che un processo è in esecuzione. Un servizio utilizzabile richiede anche dati, accesso di rete, dipendenze e comportamento di ripristino.
 
-| Test | Prova da conservare |
+| Verifica | Prova da conservare |
 |---|---|
 | **Funzione dell’applicazione** | Una transazione, query o operazione multimediale reale riuscita |
 | **Completezza dei dati** | Record, file, permessi e modifiche recenti attesi |
@@ -290,17 +289,17 @@ I **test di accettazione** devono seguire lo scopo del servizio. Uno stato verde
 **Usa prove misurate** per scegliere la distribuzione e stabilire quando rivederla:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Impatto sul servizio e sulla casa:
+Versioni correnti di host / kernel / LXC / Docker:
+Accesso richiesto a GPU, dispositivi e rete:
+Memoria, CPU, spazio di archiviazione e latenza misurati:
+Segnale di errore noto e intervallo di ricorrenza:
+Copertura dei backup e prova del ripristino riuscito:
+Architettura scelta e motivo:
+Finestra di interruzione consentita e obiettivo di ripristino:
+Procedura di passaggio e ripristino dei dati successiva:
+Test di accettazione e periodo di osservazione:
+Condizione che richiede una nuova revisione dell’architettura:
 ```
 
 **Scegli consapevolmente il nesting LXC** quando i vantaggi giustificano il lavoro d’integrazione e hai provato il percorso di ripristino. Scegli una VM quando un ambiente guest Docker convenzionale e un kernel guest separato semplificano il servizio. Nessuna decisione sostituisce backup, monitoraggio e manutenzione dell’host.
@@ -326,8 +325,8 @@ Per approfondire argomenti **correlati**, consulta la [guida agli aggiornamenti 
 | **[Video originale](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Spiegazione originale e intervallo di stabilità segnalato |
 | **[Discussione dell’incidente Proxmox](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Osservazioni dirette e aggiornamento sulla migrazione |
 | **[Toolkit container Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Architettura dei container e distinzione OCI attuale |
-| **[Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Errore di avvio documentato e correzione storica del pacchetto |
-| **[Pull request LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Modifica AppArmor upstream integrata |
+| **[problema runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Errore di avvio documentato e correzione storica del pacchetto |
+| **[richiesta di modifica LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Modifica AppArmor upstream integrata |
 | **[Documentazione Docker](https://docs.docker.com/engine/install/debian/)** | Base d’installazione guest, con riferimenti specifici a runtime e storage sopra |
 | **[Documentazione PSI Linux](https://docs.kernel.org/accounting/psi.html)** | Interpretazione della pressione sulle risorse |
 | **[Documentazione watchdog Linux](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Condizioni di lockup del kernel definite |

@@ -1,7 +1,7 @@
 ---
 title: "PowerCLIでvCenterの権限を監査する方法"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "PowerCLIでvCenterの権限を監査し、仮想インフラストラクチャを保護する方法を説明します。"
@@ -82,22 +82,22 @@ PowerCLIをインストールしてvCenterに接続した状態で、次の手�
 
    例:
    ```powershell
-         # Connect to vCenter
+         # vCenter に接続
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # vCenter の全ユーザーを取得
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # ユーザー権限を保存する配列を初期化
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # 各ユーザーを順に処理し、権限を取得
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # 権限を CSV ファイルに変換
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 

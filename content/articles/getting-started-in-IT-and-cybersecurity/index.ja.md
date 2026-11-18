@@ -1,6 +1,7 @@
 ---
 title: "ITとサイバーセキュリティのキャリアへのステップバイステップガイド"
 date: 2023-02-13
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "この包括的なガイドで、ITとサイバーセキュリティのエキサイティングで進化し続ける分野であなたのキャリアを開始するためのステップを発見してください。"
@@ -21,15 +22,15 @@ IT業界で働くことは、サイバーセキュリティのキャリアに向
 
 ## 学位取得や資格取得を目指す
 
-ITやサイバーセキュリティの学位を取得することは望ましいことですが、それだけで始められるわけではありません。取得する [CompTIA's A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)を取得することで、その分野でのスタートを切ることができ、さらにその分野を追求したいのかどうかがわかることもあります。これらの資格は多くの雇用主が認めており、大学の単位に移行できることも多い。さらに、学位を取得するよりもはるかに費用がかかりません。
+ITやサイバーセキュリティの学位は役立ちますが、キャリアを始めるために必須ではありません。[CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/)、[Network+](https://www.comptia.org/certifications/network)、[Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)などの資格を取得すれば、この分野での第一歩を踏み出せます。学習を続けたい分野を見極める助けにもなります。こうした資格は多くの雇用主に認められ、大学の単位に移行できる場合もあります。学位取得より費用を抑えられる点も利点です。
 
 ## スキルを高める
 
-一度取得した [CompTIA certifications](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/), or at least the [Security+ certification](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), you can start advancing your skills. Pursuing certifications like [Microsoft's MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA's Linux+](https://www.comptia.org/certifications/linux)やCiscoのCCNAは、あなたが最低限の管理スキルと知識を持っていることを証明するものです。また、これらの資格は、ITやサイバーセキュリティの仕事において、より競争力のある候補者となります。
+ [CompTIAの資格](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/)、または少なくとも[Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)を取得したら、次はスキルを伸ばしましょう。[Microsoft MCSA](https://www.microsoft.com/en-us/learning/certification)、[CompTIA Linux+](https://www.comptia.org/certifications/linux)、Cisco CCNAなどの資格は、基本的な管理スキルと知識を備えていることを示します。こうした資格は、ITやサイバーセキュリティの仕事に応募するときにも役立ちます。
 
 ## サイバーセキュリティに注目する
 
-サイバーセキュリティの分野でキャリアを積もうと考えているのであれば、以下のいずれかの資格の取得を検討する必要があります。 [pentest+](https://www.comptia.org/certifications/pentest) or [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) (preferred)の認定を受けることができます。**CEH資格は倫理的ハッキングや侵入テストの基礎を身につけることができ、OSCP資格はスキルをさらに高めたい人のための次のステップとなります**。
+サイバーセキュリティの仕事を目指すなら、[PenTest+](https://www.comptia.org/certifications/pentest)か[CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/)の取得を検討しましょう。特にCEHがおすすめです。CEHは倫理的ハッキングと侵入テストの基礎を学ぶのに役立ちます。**OSCPは、さらにスキルを伸ばしたい人が次に目指す資格です。**
 
 ## スクリプティングの学習
 
@@ -39,13 +40,13 @@ ITやサイバーセキュリティの学位を取得することは望ましい
 
 ITとサイバーセキュリティの初心者には、知識とスキルの習得に役立つ多くのリソースがあります。おすすめのリソースをいくつか紹介します：
 
-- [**Online courses**](https://simeononsecurity.com/recommendations/learning_resources/)多くのウェブサイトが、ITやサイバーセキュリティのさまざまなトピックに関する無料または低料金のコースを提供しています。人気のあるプラットフォームには、Coursera、Udemy、edXなどがあります。例えば、Cybraryというウェブサイトでは、倫理的ハッキング、ネットワークセキュリティ、クラウドセキュリティなどのトピックについて無料のコースを提供しています。
+- [**オンラインコース**](https://simeononsecurity.com/recommendations/learning_resources/)：多くのウェブサイトが、ITやサイバーセキュリティの無料または低料金のコースを提供しています。人気のあるプラットフォームにはCoursera、Udemy、edXなどがあります。たとえばCybraryでは、倫理的ハッキング、ネットワークセキュリティ、クラウドセキュリティなどの無料コースを受講できます。
 
-- [**Tutorials and free resources**](https://simeononsecurity.com/recommendations/learning_resources/): Many websites offer free tutorials and resources on topics such as programming languages, cybersecurity tools, and operating systems. For example, the website [W3Schools](https://www.w3schools.com/)は、HTML、CSS、JavaScriptなどのプログラミング言語に関する無料のチュートリアルを提供しています。
+- [**チュートリアルと無料リソース**](https://simeononsecurity.com/recommendations/learning_resources/)：多くのウェブサイトで、プログラミング言語、サイバーセキュリティツール、オペレーティングシステムなどを学ぶ無料のチュートリアルや資料を利用できます。たとえば[W3Schools](https://www.w3schools.com/)では、HTML、CSS、JavaScriptなどのプログラミング言語を学べます。
 
-- [**Certifications**](https://simeononsecurity.com/recommendations/certifications/): Certifications can be a valuable asset in the IT and cybersecurity fields. They demonstrate your knowledge and skills in a particular area and can make you more marketable to employers. Some popular certifications include [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), and [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)
+- [**資格**](https://simeononsecurity.com/recommendations/certifications/)は、ITやサイバーセキュリティの分野で役立ちます。特定分野の知識やスキルを示し、採用時の評価につながることがあります。代表例として、[CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/)、[Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/)、[Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)があります。
 
-- [**Books**](https://simeononsecurity.com/recommendations/books/): Reading books can be a great way to learn about IT and cybersecurity topics in-depth. Some recommended books include ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" by Michael Sikorski and Andrew Honig](https://amzn.to/3xVXzFa), and ["The Art of Deception: Controlling the Human Element of Security" by Kevin Mitnick](https://amzn.to/3SuW8qL)
+- [**書籍**](https://simeononsecurity.com/recommendations/books/)を読むと、ITやサイバーセキュリティの知識を深められます。おすすめの本には、Gene Kim著の["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win"](https://amzn.to/3xVIRhy)、Michael SikorskiとAndrew Honig著の["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software"](https://amzn.to/3xVXzFa)、Kevin Mitnick著の["The Art of Deception: Controlling the Human Element of Security"](https://amzn.to/3SuW8qL)があります。
 
 これらのリソースに加え、ITとサイバーセキュリティの分野ではネットワークが重要です。業界団体に参加し、カンファレンスに参加し、他のプロフェッショナルとつながることで、この分野の新しいテクノロジーやトレンドについて学ぶことができます。
 ______

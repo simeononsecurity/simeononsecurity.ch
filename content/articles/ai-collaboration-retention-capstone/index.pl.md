@@ -1,7 +1,7 @@
 ---
 title: "Capstone współpracy AI: GitHub, Confluence i Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Dostarcz syntetyczną zmianę retencji przez przepływy GitHub-first oraz Confluence/Jira, z dowodami awarii i niezależnym przeglądem."
@@ -46,16 +46,16 @@ coverCaption: ""
 **Otwórz Issue i kandydacki PR** zgodnie z lekcjami GitHub. Zmień razem wymaganie, konfigurację, propozycję i runbook. Zapisz chronioną bazę, uruchom zaufane kontrole i uzyskaj przeglądy produktu oraz operacji przy końcowym commicie.
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+Przebieg: GitHub-first
+Zmiana: syntetyczne przechowywanie 7 -> 30 dni
+Wymaganie: REQ-17 rewizja 2
+Konfiguracja: retention_days 30
+Runbook: okres przechowywania: 30 dni
+Propozycja: rewizja bazowa 1, od 7, do 30
+Manifest: chronione hashe źródeł sprzed zmiany
+Przegląd: przegląd produktu i operacji dla końcowej wersji propozycji
+Publikacja: scalony commit i ponowny odczyt
+Limit: nie testowano działającej usługi usuwania
 ```
 
 **Wstaw rzeczywiste odwołania z sandboxa.** Szkic pokazuje oczekiwane mapowanie, nie gotowe dowody. Maintainer scala dopiero po przeglądzie, a potem niezależnie odczytuje **`main`**. Zamknij Issue po dodaniu linków do końcowych zapisów.
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    te same kategorie dowodów, zebrane niezależnie
 ```
 
 **Te nazwy są przykładem organizacji**, a nie dostarczonymi plikami archiwum. Rzeczywiste dowody przechowuj prywatnie w zatwierdzonym sandboxie. Wspólne zgłoszenia kursowe powinny używać etykiet ról i zredagowanych odwołań, a recenzenci zachowują dostęp do natywnych zapisów.
@@ -182,28 +182,17 @@ Dla każdego przypadku odmowy zapisz odpowiedź platformy i drugi odczyt chronio
 **Wypełniony pakiet dydaktyczny toru Mixed, syntetyczny i niebędący dowodem tenant:**
 
 ```text
-Run: MIXED-042-example
-Captured base: REQ-17 v4 = 7 days, RUN-04 v2 = 7 days,
-  GitHub main base-001 config.json = {"retention_days": 7}, Jira PROP-042 r1 = In Review
-Fixed proposal: REQ-17 v5 wording says synthetic exports 30 days,
-  excluding production data, backups, and legal holds.
-  GitHub config.json changes retention_days from 7 to 30.
-  RUN-04 v3 wording says 30 days, no deletion service runs in this lab,
-  and incomplete publication stays pending.
-Review: product owner approved the exact requirement wording at PROP-042 r1.
-  Operations owner approved the exact config diff and runbook wording at r1.
-Publication: publisher reopened REQ-17 v5 and read 30 days.
-  Maintainer reopened main at merge-002 and read retention_days 30.
-  Publisher reopened RUN-04 v3 and read 30 days.
-Denied action: contributor tried an edit to restricted REQ-17 from v5.
-  Platform denied the edit, the publisher reread v5 unchanged, and the
-  observer saved the native denial. No edit was applied and v5 stayed unchanged.
-Recovery: after a separate simulated failed RUN-04 attempt, Jira stayed
-  Blocked. Operations approved a retry against the current version.
-  Publisher reread v3 after the authorized retry before Jira moved to Done.
-Handoff: a new reviewer received MAP-01 and the ledger, reopened the three
-  sources and Jira, and named the current 30-day state and remaining runtime gap.
-Limit: source publication is shown. Actual deletion timing is Not run.
+Przebieg: MIXED-042-example
+Zarejestrowana baza: REQ-17 v4 = 7 dni; RUN-04 v2 = 7 dni.
+GitHub main base-001 config.json = {"retention_days": 7}; Jira PROP-042 r1 = In Review.
+Zatwierdzona propozycja: REQ-17 v5 ustala 30 dni przechowywania syntetycznych eksportów. Dane produkcyjne, kopie zapasowe i retencja prawna są wyłączone.
+GitHub config.json zmienia retention_days z 7 na 30. RUN-04 v3 podaje 30 dni; w laboratorium nie działa usługa usuwania. Niepełna publikacja pozostaje oczekująca.
+Przegląd: właściciel produktu zatwierdza dokładny tekst REQ-17. Zespół operacji zatwierdza diff konfiguracji i runbook w r1.
+Publikacja: wydawca ponownie odczytuje REQ-17 v5 i RUN-04 v3 z 30 dniami; opiekun odczytuje main przy merge-002 i retention_days 30.
+Odrzucone działanie: współpracownikowi odmówiono edycji REQ-17 v5. Wydawca potwierdza brak zmian, obserwator zapisuje dowód platformy.
+Odzyskiwanie: próba RUN-04 kończy się niepowodzeniem, Jira pozostaje Blocked. Operacje zatwierdzają ponowienie; po odczycie v3 Jira przechodzi do Done.
+Przekazanie: nowy recenzent otrzymuje MAP-01 i rejestr, czyta trzy źródła i Jira, zapisuje 30 dni oraz pozostałą lukę wykonawczą.
+Limit: wykazano tylko publikację źródeł. Czas usuwania: nieuruchomiony.
 ```
 
 Zastąp każdą ilustracyjną wersję, aktora, odmowę i odczyt natywnymi zapisami przed oznaczeniem wiersza na żywo jako Supported. Jeśli plan lub rola nie pozwala na test, oznacz wiersz jako Blocked i pozostaw kurs obu torów nieukończony.
@@ -213,32 +202,32 @@ Zastąp każdą ilustracyjną wersję, aktora, odmowę i odczyt natywnymi zapisa
 **Poproś recenzenta o odtworzenie zdarzeń**, a nie tylko o przeczytanie wniosku. Bez twojej narracji powinien znaleźć zatwierdzoną bazę, ustaloną propozycję, decyzje właścicieli, wynikowe rewizje, nieudane próby, naprawę i pozostałe luki.
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+Pytania do niezależnego przeglądu:
+Które źródło określa intencję retencji w tym przebiegu?
+Jaki dokładny pakiet sprawdził każdy właściciel?
+Czy po przeglądzie zmieniło się któreś źródło?
+Co opublikowano, a co nadal oczekuje?
+Jakie odrzucone działanie zaobserwowano i w jakiej roli?
+Czy chroniony tekst trafił do kontekstu wykluczonego użytkownika?
+Którą poprawkę sprawdzono i ponownie odczytano?
+Czy nowe przekazanie niezależnie odtwarza bieżący stan?
 ```
 
 **Oceniaj każde wymaganie osobno.** Użyj Supported, Failed, Blocked lub Not run wraz z odwołaniem dowodowym. Spójność, zgoda, uprawnienia, odzyskanie i przekazanie są osobnymi wymaganiami. Zbiór zielonych testów lokalnych nie równoważy nieudanej granicy publikacji na żywo.
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+ID przebiegu i ścieżka:
+Rola recenzenta i data:
+Przypadek 01 zatwierdzona zmiana: status ___ dowód ___ luka ___
+Przypadek 02 nieaktualny kontekst: status ___ dowód ___ luka ___
+Przypadek 03 nieautoryzowany zapis: status ___ dowód ___ luka ___
+Przypadek 04 konflikt: status ___ dowód ___ luka ___
+Przypadek 05 częściowa publikacja: status ___ dowód ___ luka ___
+Przypadek 06 odmowa dostępu: status ___ dowód ___ luka ___
+Przypadek 07 odzyskiwanie: status ___ dowód ___ luka ___
+Przypadek 08 przekazanie: status ___ dowód ___ luka ___
+Decyzja ogólna: Potwierdzone / Niepowodzenie / Zablokowane / Nieuruchomione
+Następna odpowiedzialna rola i działanie:
 ```
 
 **Supported oznacza, że recenzent znalazł zaobserwowane dowody dla każdego właściwego przypadku.** Zapisz Failed przy zaobserwowanej awarii kontroli, Blocked przy brakującym dostępie lub kontroli, a Not run przy niepodjętym przypadku. Natywne odwołanie każdego przypadku zachowaj w nazwanym pliku dowodowym.
@@ -248,17 +237,17 @@ Next accountable role and action:
 **Zredagowany pakiet modelowy, tylko ilustracja:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+Przebieg: github-first | Uruchomienie: G-01 | Recenzent: niezależna rola pilota
+Baza: chroniony commit base-001 | Zatwierdzona propozycja: PROP-042 r1
+Zgody: przegląd produktu P-01, operacji O-01
+Spójność: kontrola lokalna zaliczona, zapisano wynik C-01
+Uprawnienie: bezpośredni push współpracownika odrzucony, zdarzenie D-01
+Publikacja: commit merge-002; nowy klon potwierdza 30 dni
+Wyjątek: kopie zapasowe i retencja prawna wyłączone
+Odzyskiwanie: przerwanie R-01 odczytano ponownie i naprawiono po przeglądzie
+Przekazanie: druga osoba znalazła aktualną bazę, wyjątek i następny krok
+Limit wykonania: brak twierdzeń o usuwaniu lub wdrożeniu produkcyjnym
+Decyzja: potwierdzone tylko dla syntetycznego przebiegu GitHub-first
 ```
 
 Zastąp każde ilustracyjne odwołanie zaobserwowanym artefaktem sandboxa. Powtórz pełny pakiet dla toru Mixed z jego własnymi wersjami źródeł i przeglądami. Recenzent powinien odrzucić skopiowaną zgodę GitHub w pakiecie Mixed.
@@ -287,23 +276,23 @@ Zastąp każde ilustracyjne odwołanie zaobserwowanym artefaktem sandboxa. Powt�
 ## Utwórz decyzję wdrożeniową
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+Decyzja: kolejny syntetyczny pilot, blokada lub odrzucenie
+Dowody: oba pakiety przebiegów i macierz awarii
+Niewymuszone wymagania: jawnie wypisać kontrole proceduralne
+Przegląd dostawcy: zakres danych wejściowych i retencja
+Zakres właścicieli: produkt, operacje, polityka, repozytorium, dostawa
+Luki produkcyjne: testy wykonania, sekrety, wdrożenie, przegląd dostępu
+Następny krok: ograniczona czynność z przypisaną rolą
+Data przeglądu: ustalają właściciele pilota
 ```
 
 **Oczekiwane rozumowanie:** sukces syntetyczny wspiera kolejny ograniczony pilot. Produkcja wymaga osobnej zgody na prawdziwe dane, wdrożenie, obsługę dostawcy i zachowanie wykonawcze. Udana odpowiedź asystenta nie jest zgodą na wdrożenie.
 
 ## Główne odwołania
 
-- **Kontrole repozytorium:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Dostęp do miejsca pracy:** [Confluence permissions](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
-- **Kontrole dostarczania:** [Jira permission schemes](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
+- **Kontrole repozytorium:** [Chronione gałęzie](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+- **Dostęp do miejsca pracy:** [Uprawnienia Confluence](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
+- **Kontrole dostarczania:** [Schematy uprawnień Jira](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
 
 ## Następne kroki
 

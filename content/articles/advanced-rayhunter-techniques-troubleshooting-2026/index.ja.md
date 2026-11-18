@@ -3,7 +3,7 @@ title: "RayHunter 2026: 高度な手法とトラブルシューティング"
 draft: false
 toc: true
 date: 2026-03-10
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 description: "RayHunterの高度な技術、トラブルシューティング、独自設定、API連携、IMSIキャッチャー検出ワークフローを扱う技術ガイド。"
 tags: ["Rayhunter", "高度な技術", "トラブルシューティング", "専門家向け設定", "IMSIキャッチャー", "監視検知", "ヒューリスティック最適化", "API連携", "分析ワークフロー", "脅威モデリング", "携帯電話通信セキュリティ", "無線フォレンジック", "検知最適化", "独自設定", "高度な導入", "セキュリティ研究", "ネットワーク分析", "RF分析", "監視対策", "プライバシーツール"]
 cover: "/img/cover/advanced-rayhunter-techniques-troubleshooting-2026.webp"
@@ -21,7 +21,7 @@ coverCaption: "RayHunterの高度な技術：専門家向け設定・分析ガ�
 
 **RayHunterの高度な導入**は、基本的なインストールと設定を大きく超えます。専門レベルの運用には、**携帯電話通信プロトコル**、**RF分析**、**脅威モデリング**、高度なシステム統合に関する深い理解が必要です。このガイドでは、専門的なセキュリティ運用、研究環境、重大な影響を伴う監視検出に必要な高度な手法を説明します。
 
-RayHunterの高度な導入には次の作業が含まれます。
+**RayHunter**の高度な導入には次の作業が含まれます。
 - **独自ヒューリスティックの開発**と、脅威環境に応じた最適化
 - **APIによる自動化**とセキュリティ運用センターとの統合
 - **複数デバイスの連携**による広域の検出範囲確保
@@ -29,7 +29,7 @@ RayHunterの高度な導入には次の作業が含まれます。
 - **独自の脅威モデリング**と環境別設定
 - **企業向けのトラブルシューティングと保守手順**
 
-*このガイドは、RayHunterの基本的なインストールと設定を理解していることを前提とします。* 高度な手法を使うには、携帯電話通信プロトコル（2G/3G/4G/LTE）、RF分析、ネットワークセキュリティ、セキュリティ運用センターとの統合に関する知識が必要です。
+*このガイドは、**RayHunter**の基本的なインストールと設定を理解していることを前提とします。* 高度な手法を使うには、携帯電話通信プロトコル（2G/3G/4G/LTE）、RF分析、ネットワークセキュリティ、セキュリティ運用センターとの統合に関する知識が必要です。
 
 {{< stscollective-ad "rayhunter" >}}
 
@@ -44,15 +44,15 @@ RayHunterの高度な導入には次の作業が含まれます。
 **高密度の都市環境向け設定**:
 ```toml
 [heuristics]
-# Reduce sensitivity for busy urban environments
+# 混雑した都市環境では感度を下げる
 connection_release_detection = { enabled = true, sensitivity = "low", timeout = 30 }
 imsi_request_detection = { enabled = true, threshold = 3, window = 60 }
 null_cipher_detection = { enabled = true, immediate_alert = false }
 sib_downgrade_detection = { enabled = true, sensitivity = "medium" }
-incomplete_sib_detection = { enabled = false }  # High false positive rate in urban areas
+incomplete_sib_detection = { enabled = false }  # 都市部では誤検知が多い
 
 [filtering]
-# Advanced filtering for urban environments
+# 都市環境向けの高度なフィルタリング
 tower_density_threshold = 20
 legitimate_carrier_whitelist = ["Verizon", "AT&T", "T-Mobile"]
 frequency_hopping_tolerance = 5
@@ -61,7 +61,7 @@ frequency_hopping_tolerance = 5
 **低密度の農村環境向け設定**:
 ```toml
 [heuristics]
-# Increase sensitivity for sparse environments
+# 人口密度の低い環境では感度を上げる
 connection_release_detection = { enabled = true, sensitivity = "high", timeout = 10 }
 imsi_request_detection = { enabled = true, threshold = 1, window = 30 }
 null_cipher_detection = { enabled = true, immediate_alert = true }
@@ -69,7 +69,7 @@ sib_downgrade_detection = { enabled = true, sensitivity = "high" }
 incomplete_sib_detection = { enabled = true, threshold = 2 }
 
 [filtering]
-# Minimal filtering for rural environments
+# 農村環境向けの最小限のフィルタリング
 tower_density_threshold = 5
 legitimate_carrier_whitelist = []
 frequency_hopping_tolerance = 1
@@ -78,16 +78,16 @@ frequency_hopping_tolerance = 1
 **高いセキュリティが必要なイベント向け設定**:
 ```toml
 [heuristics]
-# Maximum sensitivity for high-risk scenarios
+# 高リスクの状況では感度を最大にする
 connection_release_detection = { enabled = true, sensitivity = "maximum", timeout = 5 }
 imsi_request_detection = { enabled = true, threshold = 1, window = 15 }
 null_cipher_detection = { enabled = true, immediate_alert = true, block_connection = true }
 sib_downgrade_detection = { enabled = true, sensitivity = "maximum" }
 incomplete_sib_detection = { enabled = true, threshold = 1 }
-test_heuristic = { enabled = false }  # Never enable test mode during operations
+test_heuristic = { enabled = false }  # 運用中にテストモードを有効にしない
 
 [alerting]
-# Immediate alerts for high-security scenarios
+# 高セキュリティの状況では即時に通知する
 alert_threshold = "low"
 immediate_notification = true
 multi_channel_alerts = true
@@ -100,21 +100,21 @@ multi_channel_alerts = true
 **独自の時間分析ヒューリスティック**:
 ```toml
 [custom_heuristics]
-# Custom timing-based detection
+# 時間ベースのカスタム検知
 timing_anomaly_detection = {
     enabled = true,
-    baseline_establishment = 300,  # 5 minutes baseline
-    deviation_threshold = 3.0,     # 3 standard deviations
+    baseline_establishment = 300,  # ベースラインは5分間
+    deviation_threshold = 3.0,     # 標準偏差3つ分
     minimum_samples = 50,
     alert_on_first_deviation = false
 }
 
-# Advanced pattern recognition
+# 高度なパターン認識
 cell_tower_behavior_analysis = {
     enabled = true,
-    learning_period = 3600,        # 1 hour learning
-    pattern_memory = 168,          # 7 days pattern retention
-    anomaly_sensitivity = 0.85,    # 85% confidence threshold
+    learning_period = 3600,        # 学習期間は1時間
+    pattern_memory = 168,          # パターンを7日間保持
+    anomaly_sensitivity = 0.85,    # 信頼度のしきい値は85%
     behavioral_baseline = "adaptive"
 }
 ```
@@ -122,19 +122,19 @@ cell_tower_behavior_analysis = {
 **地理相関ヒューリスティック**:
 ```toml
 [geo_correlation]
-# Location-based threat assessment
+# 位置情報に基づく脅威評価
 enabled = true
-gps_accuracy_threshold = 10        # 10 meter accuracy required
-movement_speed_threshold = 50      # 50 km/h maximum reasonable speed
-stationary_threshold = 100         # 100 meter stationary radius
+gps_accuracy_threshold = 10        # 必要な位置精度は10メートル
+movement_speed_threshold = 50      # 妥当な最大速度は時速50 km
+stationary_threshold = 100         # 静止状態の半径は100メートル
 suspicious_location_database = "/data/rayhunter/suspicious_locations.db"
 
-# Coordinated detection across multiple devices
+# 複数デバイス間の協調検知
 multi_device_correlation = {
     enabled = true,
-    correlation_radius = 1000,     # 1km correlation radius
-    time_synchronization = 5,      # 5 second time sync tolerance
-    consensus_threshold = 0.67     # 67% of devices must agree
+    correlation_radius = 1000,     # 相関半径は1 km
+    time_synchronization = 5,      # 時刻同期の許容誤差は5秒
+    consensus_threshold = 0.67     # デバイスの67%が一致する必要がある
 }
 ```
 
@@ -145,20 +145,20 @@ multi_device_correlation = {
 **適応型電源管理**:
 ```toml
 [power_management]
-# Dynamic power scaling based on threat level
+# 脅威レベルに応じた動的な電力調整
 adaptive_scaling = true
 baseline_power_mode = "balanced"
 high_alert_power_mode = "maximum_performance"
 low_activity_power_mode = "extended_battery"
 
-# Scheduled operation modes
+# スケジュールに基づく動作モード
 scheduled_modes = [
     { time = "00:00-06:00", mode = "low_power", days = ["monday", "tuesday", "wednesday", "thursday", "friday"] },
     { time = "06:00-22:00", mode = "high_sensitivity", days = ["saturday", "sunday"] },
     { time = "22:00-24:00", mode = "balanced", days = "all" }
 ]
 
-# Battery-level triggered mode changes
+# バッテリー残量に応じたモード切り替え
 battery_thresholds = {
     "90%" = "maximum_performance",
     "50%" = "balanced",
@@ -170,18 +170,18 @@ battery_thresholds = {
 **複数デバイスの電源管理連携**:
 ```toml
 [coordinated_power]
-# Coordinate power management across multiple devices
+# 複数デバイス間で電力管理を調整
 device_roles = ["primary", "secondary", "backup"]
 role_switching_enabled = true
 battery_level_sharing = true
 automatic_failover = true
 
-# Advanced sleep/wake coordination
+# 高度なスリープ／復帰の連携
 coordinated_sleep_cycles = {
     enabled = true,
-    sleep_rotation_interval = 300,  # 5 minutes
+    sleep_rotation_interval = 300,  # 5分
     minimum_active_devices = 2,
-    overlap_period = 30             # 30 seconds overlap
+    overlap_period = 30             # 重複時間は30秒
 }
 ```
 
@@ -196,39 +196,39 @@ coordinated_sleep_cycles = {
 **一括分析ワークフロー**:
 ```bash
 #!/bin/bash
-# Advanced batch analysis script for multiple recordings
+# 複数の録画を解析する高度なバッチスクリプト
 
 ANALYSIS_DIR="/data/rayhunter/analysis"
 RECORDINGS_DIR="/data/rayhunter/recordings"
 OUTPUT_DIR="/data/rayhunter/reports"
 
-# Process all recordings with custom parameters
+# カスタムパラメーターですべての録画を処理
 for recording in "$RECORDINGS_DIR"/*.qmdl; do
     filename=$(basename "$recording" .qmdl)
-    echo "Processing $filename..."
-    
-    # Standard analysis
+    echo "$filename を処理中..."
+
+    # 標準解析
     rayhunter-check -p "$recording" --json > "$OUTPUT_DIR/${filename}_standard.json"
-    
-    # Debug analysis with extended output
+
+    # 詳細出力を含むデバッグ解析
     rayhunter-check -d -p "$recording" --verbose > "$OUTPUT_DIR/${filename}_debug.log"
-    
-    # Custom heuristic analysis
+
+    # カスタムヒューリスティック解析
     rayhunter-check -p "$recording" --config "/etc/rayhunter/custom_analysis.toml" \
         --output-format json > "$OUTPUT_DIR/${filename}_custom.json"
-    
-    # Threat correlation analysis
+
+    # 脅威相関解析
     rayhunter-check -p "$recording" --correlate-threats \
         --baseline "$ANALYSIS_DIR/baseline.qmdl" > "$OUTPUT_DIR/${filename}_correlation.json"
 done
 
-# Generate consolidated report
+# 統合レポートを生成
 python3 /opt/rayhunter/analysis/consolidate_reports.py "$OUTPUT_DIR" > "$OUTPUT_DIR/consolidated_analysis.html"
 ```
 
 **高度なフィルターと分析**:
 ```bash
-# Custom analysis with specific focus areas
+# 特定の重点領域に絞ったカスタム解析
 rayhunter-check -p recording.qmdl \
     --focus-heuristics "imsi_request,null_cipher" \
     --time-range "14:30-15:45" \
@@ -236,13 +236,13 @@ rayhunter-check -p recording.qmdl \
     --operator-filter "unknown" \
     --confidence-threshold 0.8
 
-# Comparative analysis between recordings
+# 録画間の比較解析
 rayhunter-check --compare recording1.qmdl recording2.qmdl \
     --baseline-period 300 \
     --anomaly-detection \
     --statistical-analysis
 
-# Integration with external tools
+# 外部ツールとの連携
 rayhunter-check -p recording.qmdl --export-wireshark | \
     tshark -r - -Y "gsm || lte" -T json > cellular_traffic.json
 ```
@@ -253,8 +253,8 @@ rayhunter-check -p recording.qmdl --export-wireshark | \
 ```python
 #!/usr/bin/env python3
 """
-Advanced RayHunter Analysis Integration
-Provides sophisticated analysis capabilities for RayHunter data
+RayHunter 高度分析の統合
+RayHunter データの高度な分析機能を提供
 """
 
 import json
@@ -269,13 +269,13 @@ class RayHunterAnalyzer:
     def __init__(self, database_path="/data/rayhunter/analysis.db"):
         self.db_path = database_path
         self.init_database()
-    
+
     def init_database(self):
-        """Initialize analysis database with custom schema"""
+        """カスタムスキーマで分析データベースを初期化"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        # Create advanced analysis tables
+
+        # 高度な解析テーブルを作成
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS threat_events (
                 id INTEGER PRIMARY KEY,
@@ -289,7 +289,7 @@ class RayHunterAnalyzer:
                 correlated_events TEXT
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS baseline_data (
                 id INTEGER PRIMARY KEY,
@@ -301,16 +301,16 @@ class RayHunterAnalyzer:
                 anomaly_thresholds TEXT
             )
         ''')
-        
+
         conn.commit()
         conn.close()
-    
+
     def process_rayhunter_json(self, json_file_path):
-        """Process RayHunter JSON output for advanced analysis"""
+        """高度な分析のために RayHunter の JSON 出力を処理"""
         with open(json_file_path, 'r') as f:
             data = json.load(f)
-        
-        # Extract and normalize threat events
+
+        # 脅威イベントを抽出して正規化
         events = []
         for alert in data.get('alerts', []):
             event = {
@@ -321,37 +321,37 @@ class RayHunterAnalyzer:
                 'device_location': alert.get('location', {})
             }
             events.append(event)
-        
+
         return events
-    
+
     def calculate_confidence_score(self, alert):
-        """Calculate advanced confidence score based on multiple factors"""
+        """複数の要因に基づいて高度な信頼度スコアを計算"""
         base_confidence = alert.get('confidence', 0.5)
-        
-        # Factor in multiple data points
+
+        # 複数のデータポイントを考慮
         factors = {
             'signal_strength': alert.get('signal_strength', 0) / 100,
             'timing_consistency': alert.get('timing_score', 0.5),
             'protocol_compliance': alert.get('protocol_score', 0.5),
             'environmental_context': alert.get('environment_score', 0.5)
         }
-        
-        # Weighted confidence calculation
-        weights = {'signal_strength': 0.3, 'timing_consistency': 0.25, 
+
+        # 重み付き信頼度を計算
+        weights = {'signal_strength': 0.3, 'timing_consistency': 0.25,
                   'protocol_compliance': 0.25, 'environmental_context': 0.2}
-        
+
         weighted_confidence = sum(factors[k] * weights[k] for k in factors)
         return min(base_confidence + weighted_confidence, 1.0)
-    
+
     def correlation_analysis(self, events, time_window=300):
-        """Perform temporal and spatial correlation analysis"""
+        """時間と位置に基づく相関分析を実行"""
         correlations = []
-        
+
         for i, event1 in enumerate(events):
             for j, event2 in enumerate(events[i+1:], i+1):
-                time_diff = abs((datetime.fromisoformat(event1['timestamp']) - 
+                time_diff = abs((datetime.fromisoformat(event1['timestamp']) -
                                datetime.fromisoformat(event2['timestamp'])).total_seconds())
-                
+
                 if time_diff <= time_window:
                     correlation = {
                         'event1_id': i,
@@ -361,46 +361,46 @@ class RayHunterAnalyzer:
                         'threat_escalation': self.assess_threat_escalation(event1, event2)
                     }
                     correlations.append(correlation)
-        
+
         return correlations
-    
+
     def calculate_correlation_strength(self, event1, event2):
-        """Calculate correlation strength between two events"""
-        # Implement sophisticated correlation algorithm
+        """2 つのイベント間の相関の強さを計算"""
+        # 高度な相関アルゴリズムを実装
         similarity_factors = []
-        
-        # Threat type similarity
+
+        # 脅威の種類の類似度
         if event1['threat_type'] == event2['threat_type']:
             similarity_factors.append(0.4)
         elif self.are_related_threats(event1['threat_type'], event2['threat_type']):
             similarity_factors.append(0.2)
-        
-        # Confidence score similarity
+
+        # 信頼度スコアの類似度
         confidence_diff = abs(event1['confidence_score'] - event2['confidence_score'])
         similarity_factors.append(1.0 - confidence_diff)
-        
+
         return np.mean(similarity_factors)
-    
+
     def generate_threat_report(self, analysis_period_hours=24):
-        """Generate comprehensive threat assessment report"""
+        """脅威評価の包括的なレポートを生成"""
         end_time = datetime.now()
         start_time = end_time - timedelta(hours=analysis_period_hours)
-        
-        # Query database for recent events
+
+        # データベースから最近のイベントを照会
         conn = sqlite3.connect(self.db_path)
         query = '''
-            SELECT * FROM threat_events 
+            SELECT * FROM threat_events
             WHERE timestamp BETWEEN ? AND ?
             ORDER BY timestamp DESC
         '''
-        
+
         df = pd.read_sql_query(query, conn, params=(start_time.isoformat(), end_time.isoformat()))
         conn.close()
-        
+
         if df.empty:
             return {"status": "no_threats", "period": analysis_period_hours}
-        
-        # Generate statistical analysis
+
+        # 統計解析を生成
         threat_stats = {
             'total_events': len(df),
             'unique_threat_types': df['threat_type'].nunique(),
@@ -409,7 +409,7 @@ class RayHunterAnalyzer:
             'temporal_patterns': self.analyze_temporal_patterns(df),
             'risk_assessment': self.calculate_risk_level(df)
         }
-        
+
         return threat_stats
 ```
 
@@ -423,8 +423,8 @@ class RayHunterAnalyzer:
 ```python
 #!/usr/bin/env python3
 """
-Enterprise RayHunter Monitoring System
-Automated threat detection and response integration
+エンタープライズ RayHunter 監視システム
+自動脅威検出と対応の統合
 """
 
 import requests
@@ -441,9 +441,9 @@ class RayHunterMonitor:
         self.devices = device_configs
         self.alert_handlers = []
         self.setup_logging()
-    
+
     def setup_logging(self):
-        """Configure enterprise-grade logging"""
+        """エンタープライズレベルのログ記録を設定"""
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -453,33 +453,33 @@ class RayHunterMonitor:
             ]
         )
         self.logger = logging.getLogger('RayHunterMonitor')
-    
+
     def monitor_devices(self, poll_interval=30):
-        """Continuous monitoring of multiple RayHunter devices"""
+        """複数の RayHunter デバイスを継続的に監視"""
         while True:
             for device_name, config in self.devices.items():
                 try:
                     device_status = self.check_device_status(config)
                     alerts = self.get_recent_alerts(config)
-                    
+
                     if alerts:
                         self.process_alerts(device_name, alerts)
-                    
+
                     self.log_device_status(device_name, device_status)
-                    
+
                 except Exception as e:
-                    self.logger.error(f"Error monitoring device {device_name}: {e}")
-            
+                    self.logger.error(f"デバイス {device_name} の監視エラー: {e}")
+
             time.sleep(poll_interval)
-    
+
     def check_device_status(self, config):
-        """Check comprehensive device status via API"""
+        """API 経由でデバイスの詳細な状態を確認"""
         api_url = f"http://{config['ip']}:8080/api/status"
-        
+
         try:
             response = requests.get(api_url, timeout=10)
             response.raise_for_status()
-            
+
             status_data = response.json()
             return {
                 'online': True,
@@ -490,65 +490,65 @@ class RayHunterMonitor:
                 'heuristics_enabled': status_data.get('active_heuristics')
             }
         except requests.RequestException as e:
-            self.logger.warning(f"Device {config['ip']} unreachable: {e}")
+            self.logger.warning(f"デバイス {config['ip']} に到達できません: {e}")
             return {'online': False, 'error': str(e)}
-    
+
     def get_recent_alerts(self, config, minutes=5):
-        """Retrieve recent alerts from device"""
+        """デバイスから最近のアラートを取得"""
         api_url = f"http://{config['ip']}:8080/api/alerts"
         params = {'since': f"{minutes}min"}
-        
+
         try:
             response = requests.get(api_url, params=params, timeout=10)
             response.raise_for_status()
             return response.json().get('alerts', [])
         except requests.RequestException:
             return []
-    
+
     def process_alerts(self, device_name, alerts):
-        """Process and respond to alerts"""
+        """アラートを処理して対応"""
         for alert in alerts:
             alert_level = self.assess_alert_severity(alert)
-            
+
             if alert_level == 'CRITICAL':
                 self.handle_critical_alert(device_name, alert)
             elif alert_level == 'HIGH':
                 self.handle_high_alert(device_name, alert)
             elif alert_level == 'MEDIUM':
                 self.handle_medium_alert(device_name, alert)
-            
-            # Log all alerts
-            self.logger.info(f"Alert from {device_name}: {alert['heuristic']} - {alert_level}")
-    
+
+            # すべてのアラートを記録
+            self.logger.info(f"{device_name} からの警告: {alert['heuristic']} - {alert_level}")
+
     def assess_alert_severity(self, alert):
-        """Assess alert severity based on multiple factors"""
+        """複数の要因に基づいてアラートの重大度を評価"""
         threat_type = alert.get('heuristic', '')
         confidence = alert.get('confidence_score', 0)
-        
-        # Critical threats
+
+        # 重大な脅威
         if threat_type in ['null_cipher_detection', 'imsi_request_detection'] and confidence > 0.9:
             return 'CRITICAL'
-        
-        # High severity threats
+
+        # 高重大度の脅威
         elif threat_type in ['connection_release_detection', 'sib_downgrade_detection'] and confidence > 0.8:
             return 'HIGH'
-        
-        # Medium severity
+
+        # 中程度の重大度
         elif confidence > 0.6:
             return 'MEDIUM'
-        
+
         return 'LOW'
-    
+
     def handle_critical_alert(self, device_name, alert):
-        """Handle critical security alerts with immediate response"""
-        # Send immediate notifications
-        self.send_sms_alert(f"CRITICAL: IMSI catcher detected by {device_name}")
-        self.send_email_alert("CRITICAL THREAT", device_name, alert)
-        
-        # Execute automated response
+        """重大なセキュリティアラートに即時対応"""
+        # 即時通知を送信
+        self.send_sms_alert(f"重大: {device_name} が IMSI キャッチャーを検出")
+        self.send_email_alert("重大な脅威", device_name, alert)
+
+        # 自動応答を実行
         subprocess.run(['/opt/security/scripts/critical_response.sh', device_name])
-        
-        # Log to SIEM
+
+        # SIEMに記録
         self.log_to_siem('CRITICAL', device_name, alert)
 ```
 
@@ -557,9 +557,9 @@ class RayHunterMonitor:
 **SIEM連携スクリプト**:
 ```python
 def integrate_with_siem(self, alert_data):
-    """Integration with enterprise SIEM systems"""
-    
-    # Splunk integration
+    """エンタープライズ SIEM システムとの連携"""
+
+    # Splunk連携
     splunk_data = {
         'sourcetype': 'rayhunter:alert',
         'source': f"rayhunter:{alert_data['device_name']}",
@@ -572,19 +572,19 @@ def integrate_with_siem(self, alert_data):
             'severity': alert_data['severity']
         }
     }
-    
-    # Send to Splunk HEC
+
+    # Splunk HECに送信
     requests.post(
         'https://splunk.company.com:8088/services/collector',
         headers={'Authorization': 'Splunk <HEC-TOKEN>'},
         json=splunk_data
     )
-    
-    # QRadar integration via syslog
-    syslog_message = f"RayHunter ALERT: {alert_data['heuristic']} detected " \
-                    f"with confidence {alert_data['confidence_score']:.2f} " \
-                    f"on device {alert_data['device_name']}"
-    
+
+    # syslog経由でQRadarと連携
+    syslog_message = f"RayHunter アラート: {alert_data['heuristic']} を検出 " \
+                    f"信頼度 {alert_data['confidence_score']:.2f} " \
+                    f"デバイス {alert_data['device_name']} 上"
+
     subprocess.run([
         'logger', '-p', 'local0.alert', '-t', 'RayHunter', syslog_message
     ])
@@ -601,7 +601,7 @@ def integrate_with_siem(self, alert_data):
 **マスター・スレーブ構成**:
 ```toml
 [coordination]
-# Master device configuration
+# マスターデバイスの設定
 role = "master"
 slave_devices = [
     { ip = "192.168.1.101", name = "rayhunter-north", priority = 1 },
@@ -609,14 +609,14 @@ slave_devices = [
     { ip = "192.168.1.103", name = "rayhunter-west", priority = 3 }
 ]
 
-# Coordination settings
-sync_interval = 30              # Sync every 30 seconds
-correlation_window = 60         # 1 minute correlation window
-consensus_threshold = 0.67      # 67% agreement required for alert
+# 連携設定
+sync_interval = 30              # 30秒ごとに同期
+correlation_window = 60         # 相関ウィンドウは1分
+consensus_threshold = 0.67      # アラートには67%の一致が必要
 automatic_failover = true
-heartbeat_timeout = 120         # 2 minutes heartbeat timeout
+heartbeat_timeout = 120         # ハートビートのタイムアウトは2分
 
-# Alert distribution
+# アラート配信
 distribute_alerts = true
 alert_consolidation = true
 duplicate_suppression = true
@@ -626,15 +626,15 @@ cross_validation_required = true
 **スレーブデバイスの設定**:
 ```toml
 [coordination]
-# Slave device configuration
+# スレーブデバイスの設定
 role = "slave"
 master_device = { ip = "192.168.1.100", name = "rayhunter-master" }
 
-# Reporting settings
-report_interval = 15            # Report every 15 seconds
-include_negative_results = true # Report lack of threats too
-local_decision_making = false   # Defer to master
-emergency_autonomous_mode = true # Act independently if master unavailable
+# レポート設定
+report_interval = 15            # 15秒ごとにレポート
+include_negative_results = true # 脅威がない場合も報告
+local_decision_making = false   # マスターに従う
+emergency_autonomous_mode = true # マスターが利用できない場合は独立して動作
 ```
 
 ### 協調分析スクリプト
@@ -643,8 +643,8 @@ emergency_autonomous_mode = true # Act independently if master unavailable
 ```python
 #!/usr/bin/env python3
 """
-Multi-Device RayHunter Coordination System
-Provides coordinated threat detection across multiple devices
+複数デバイスの RayHunter 調整システム
+複数のデバイスにまたがる協調的な脅威検出を提供
 """
 
 import asyncio
@@ -658,48 +658,48 @@ class CoordinatedDetectionSystem:
         self.devices = device_network
         self.correlation_matrix = {}
         self.active_threats = {}
-        
+
     async def coordinate_detection(self):
-        """Main coordination loop"""
+        """メインの調整ループ"""
         while True:
-            # Collect data from all devices
+            # すべてのデバイスからデータを収集
             device_data = await self.collect_device_data()
-            
-            # Perform correlation analysis
+
+            # 相関解析を実行
             correlated_threats = self.correlate_threats(device_data)
-            
-            # Validate threats through consensus
+
+            # コンセンサスにより脅威を検証
             validated_threats = self.consensus_validation(correlated_threats)
-            
-            # Distribute validated threats back to devices
+
+            # 検証済みの脅威を各デバイスへ配信
             await self.distribute_threat_intelligence(validated_threats)
-            
-            await asyncio.sleep(30)  # 30-second coordination cycle
-    
+
+            await asyncio.sleep(30)  # 30 秒の調整サイクル
+
     async def collect_device_data(self):
-        """Collect data from all devices in parallel"""
+        """すべてのデバイスからデータを収集 並行して"""
         tasks = []
         for device in self.devices:
             task = self.get_device_data(device)
             tasks.append(task)
-        
+
         results = await asyncio.gather(*tasks, return_exceptions=True)
         return {device['name']: result for device, result in zip(self.devices, results)}
-    
+
     async def get_device_data(self, device):
-        """Get data from individual device"""
+        """個別のデバイスからデータを取得"""
         async with aiohttp.ClientSession() as session:
             try:
-                # Get recent alerts
+                # 最近のアラートを取得
                 alerts_url = f"http://{device['ip']}:8080/api/alerts?since=1min"
                 async with session.get(alerts_url) as response:
                     alerts_data = await response.json()
-                
-                # Get device status
+
+                # デバイスの状態を取得
                 status_url = f"http://{device['ip']}:8080/api/status"
                 async with session.get(status_url) as response:
                     status_data = await response.json()
-                
+
                 return {
                     'alerts': alerts_data.get('alerts', []),
                     'status': status_data,
@@ -707,79 +707,79 @@ class CoordinatedDetectionSystem:
                 }
             except Exception as e:
                 return {'error': str(e), 'timestamp': datetime.now().isoformat()}
-    
+
     def correlate_threats(self, device_data):
-        """Correlate threats across multiple devices"""
+        """複数のデバイスにまたがる脅威を相関分析"""
         correlated_threats = []
-        
-        # Extract all alerts from all devices
+
+        # すべてのデバイスから全アラートを抽出
         all_alerts = []
         for device_name, data in device_data.items():
             if 'alerts' in data:
                 for alert in data['alerts']:
                     alert['source_device'] = device_name
                     all_alerts.append(alert)
-        
-        # Group alerts by time and threat type
+
+        # 時刻と脅威の種類でアラートをグループ化
         threat_groups = self.group_alerts_by_similarity(all_alerts)
-        
+
         for group in threat_groups:
-            if len(group) >= 2:  # Multiple devices detected similar threats
+            if len(group) >= 2:  # 複数のデバイスで類似した脅威を検出
                 correlated_threat = self.create_correlated_threat(group)
                 correlated_threats.append(correlated_threat)
-        
+
         return correlated_threats
-    
+
     def group_alerts_by_similarity(self, alerts, time_window=60):
-        """Group alerts by temporal and threat similarity"""
+        """時間と脅威の類似性でアラートをグループ化"""
         groups = []
         processed_alerts = set()
-        
+
         for i, alert1 in enumerate(alerts):
             if i in processed_alerts:
                 continue
-                
+
             group = [alert1]
             processed_alerts.add(i)
-            
+
             alert1_time = datetime.fromisoformat(alert1['timestamp'])
-            
+
             for j, alert2 in enumerate(alerts[i+1:], i+1):
                 if j in processed_alerts:
                     continue
-                
+
                 alert2_time = datetime.fromisoformat(alert2['timestamp'])
                 time_diff = abs((alert1_time - alert2_time).total_seconds())
-                
-                if (time_diff <= time_window and 
+
+                if (time_diff <= time_window and
                     alert1['heuristic'] == alert2['heuristic'] and
                     alert1['source_device'] != alert2['source_device']):
-                    
+
                     group.append(alert2)
                     processed_alerts.add(j)
-            
+
             groups.append(group)
-        
+
         return groups
-    
+
     def consensus_validation(self, correlated_threats):
-        """Validate threats through device consensus"""
+        """デバイス間の合意によって脅威を検証"""
         validated_threats = []
-        
+
         for threat in correlated_threats:
             device_count = len(set(alert['source_device'] for alert in threat['constituent_alerts']))
             confidence_scores = [alert['confidence_score'] for alert in threat['constituent_alerts']]
-            
-            # Require minimum number of devices and confidence threshold
-            if (device_count >= 2 and 
+
+            # 必要なデバイス数と信頼度のしきい値を指定
+            if (device_count >= 2 and
                 np.mean(confidence_scores) >= 0.7 and
                 min(confidence_scores) >= 0.5):
-                
+
                 threat['validated'] = True
                 threat['consensus_strength'] = device_count / len(self.devices)
                 threat['confidence_score'] = np.mean(confidence_scores)
                 validated_threats.append(threat)
-        
+
         return validated_threats
 ```
 
@@ -792,105 +792,105 @@ class CoordinatedDetectionSystem:
 **CPU使用率が高い場合の診断**:
 ```bash
 #!/bin/bash
-# RayHunter performance troubleshooting script
+# RayHunterのパフォーマンス問題を調べるスクリプト
 
-echo "=== RayHunter Performance Analysis ==="
+echo "=== RayHunter のパフォーマンス分析 ==="
 
-# Check CPU usage
-echo "Current CPU usage:"
+# CPU使用率を確認
+echo "現在の CPU 使用率:"
 top -bn1 | grep rayhunter
 
-# Check memory usage
-echo -e "\nMemory usage:"
+# メモリ使用量を確認
+echo -e "\nメモリ使用量:"
 ps aux | grep rayhunter | awk '{print $4, $6, $11}'
 
-# Check disk I/O
-echo -e "\nDisk I/O:"
+# ディスクI/Oを確認
+echo -e "\nディスク I/O:"
 iotop -a -o -d1 -n3 | grep rayhunter
 
-# Analyze configuration issues
-echo -e "\nConfiguration analysis:"
+# 設定の問題を分析
+echo -e "\n設定の分析:"
 if [ -f /data/rayhunter/config.toml ]; then
-    # Check for resource-intensive configurations
+    # リソースを過剰に消費する設定を確認
     grep -E "test_heuristic.*true|sensitivity.*maximum|debug.*true" /data/rayhunter/config.toml
-    
-    # Check recording settings
+
+    # 録画設定を確認
     grep -E "recording|storage" /data/rayhunter/config.toml
 else
-    echo "Config file not found!"
+    echo "設定ファイルが見つかりません！"
 fi
 
-# Check for excessive logging
-echo -e "\nLog file sizes:"
+# 過剰なログ出力を確認
+echo -e "\nログファイルのサイズ:"
 du -sh /data/rayhunter/logs/*
 
-# Network performance check
-echo -e "\nNetwork performance:"
+# ネットワーク性能を確認
+echo -e "\nネットワークのパフォーマンス:"
 netstat -i | grep -E "wlan|eth"
 
-# Generate optimization recommendations
-echo -e "\n=== Optimization Recommendations ==="
+# 最適化の提案を生成
+echo -e "\n=== 最適化の推奨事項 ==="
 
-# Check if test heuristic is enabled
+# テスト用ヒューリスティックが有効か確認
 if grep -q "test_heuristic.*=.*true" /data/rayhunter/config.toml; then
-    echo "⚠️  Test heuristic is enabled - disable for production use"
+    echo "⚠️ テスト用ヒューリスティックが有効です。本番環境では無効にしてください"
 fi
 
-# Check sensitivity settings
+# 感度設定を確認
 if grep -q "sensitivity.*=.*\"maximum\"" /data/rayhunter/config.toml; then
-    echo "⚠️  Maximum sensitivity may cause high CPU usage in dense environments"
+    echo "⚠️ 高密度環境で最大感度を使うとCPU使用率が高くなる場合があります"
 fi
 
-# Check storage settings
+# ストレージ設定を確認
 STORAGE_USED=$(df -h /data/rayhunter | awk 'NR==2 {print $5}' | sed 's/%//')
 if [ "$STORAGE_USED" -gt 80 ]; then
-    echo "⚠️  Storage usage is ${STORAGE_USED}% - clean up old recordings"
+    echo "⚠️ ストレージ使用量は${STORAGE_USED}%です。古い録画を削除してください"
 fi
 ```
 
 **メモリーリークの検出と解決**:
 ```bash
 #!/bin/bash
-# Memory leak detection and automatic remediation
+# メモリリークを検出して自動修復
 
-MEMORY_THRESHOLD=80  # 80% memory usage threshold
+MEMORY_THRESHOLD=80  # メモリ使用率のしきい値: 80%
 LOG_FILE="/var/log/rayhunter/memory_monitor.log"
 
 monitor_memory() {
     while true; do
-        # Get RayHunter memory usage
+        # RayHunterのメモリ使用量を取得
         MEMORY_USAGE=$(ps aux | grep rayhunter-daemon | grep -v grep | awk '{print $4}')
-        
+
         if [ ! -z "$MEMORY_USAGE" ]; then
             MEMORY_PERCENT=$(echo "$MEMORY_USAGE" | cut -d. -f1)
-            
-            echo "$(date): RayHunter memory usage: ${MEMORY_USAGE}%" >> "$LOG_FILE"
-            
+
+            echo "$(date): RayHunter のメモリ使用量: ${MEMORY_USAGE}%" >> "$LOG_FILE"
+
             if [ "$MEMORY_PERCENT" -gt "$MEMORY_THRESHOLD" ]; then
-                echo "$(date): High memory usage detected: ${MEMORY_USAGE}%" >> "$LOG_FILE"
-                
-                # Attempt graceful restart
-                echo "$(date): Attempting graceful restart..." >> "$LOG_FILE"
+                echo "$(date): メモリ使用量が高いことを検出: ${MEMORY_USAGE}%" >> "$LOG_FILE"
+
+                # 正常な再起動を試行
+                echo "$(date): 正常な再起動を試行中..." >> "$LOG_FILE"
                 systemctl restart rayhunter_daemon
-                
+
                 sleep 30
-                
-                # Verify restart was successful
+
+                # 再起動が成功したか確認
                 if pgrep rayhunter-daemon > /dev/null; then
-                    echo "$(date): Graceful restart successful" >> "$LOG_FILE"
+                    echo "$(date): 正常な再起動に成功" >> "$LOG_FILE"
                 else
-                    echo "$(date): Graceful restart failed, attempting force restart" >> "$LOG_FILE"
+                    echo "$(date): 正常な再起動に失敗したため、強制再起動を試行中" >> "$LOG_FILE"
                     killall -9 rayhunter-daemon
                     systemctl start rayhunter_daemon
                 fi
             fi
         fi
-        
-        sleep 60  # Check every minute
+
+        sleep 60  # 1 分ごとに確認
     done
 }
 
-# Run memory monitoring in background
+# バックグラウンドでメモリを監視
 monitor_memory &
 ```
 
@@ -899,78 +899,78 @@ monitor_memory &
 **高度な接続診断**:
 ```bash
 #!/bin/bash
-# Advanced RayHunter connectivity troubleshooting
+# RayHunterの高度な接続トラブルシューティング
 
-echo "=== RayHunter Network Diagnostics ==="
+echo "=== RayHunter のネットワーク診断 ==="
 
-# Check basic connectivity
-echo "1. Basic connectivity check:"
+# 基本的な接続を確認
+echo "1. 基本的な接続確認:"
 ping -c 3 8.8.8.8 > /dev/null 2>&1
 if [ $? -eq 0 ]; then
-    echo "✓ Internet connectivity: OK"
+    echo "✓ インターネット接続: 正常"
 else
-    echo "✗ Internet connectivity: FAILED"
+    echo "✗ インターネット接続: 失敗"
 fi
 
-# Check cellular connection
-echo -e "\n2. Cellular connection analysis:"
+# 携帯回線の接続を確認
+echo -e "\n2. モバイル接続の分析:"
 if command -v qmicli &> /dev/null; then
-    # Check modem status
+    # モデムの状態を確認
     qmicli -d /dev/cdc-wdm0 --dms-get-operating-mode
     qmicli -d /dev/cdc-wdm0 --nas-get-signal-strength
     qmicli -d /dev/cdc-wdm0 --nas-get-serving-system
 else
-    echo "qmicli not available - using alternative methods"
-    
-    # Check network interfaces
+    echo "qmicli を利用できないため、代替方法を使用します"
+
+    # ネットワークインターフェースを確認
     ip addr show | grep -A 10 wwan
-    
-    # Check routing
+
+    # ルーティングを確認
     ip route show
 fi
 
-# Check RayHunter web interface
-echo -e "\n3. RayHunter web interface check:"
+# RayHunterのWebインターフェースを確認
+echo -e "\n3. RayHunter Web インターフェースの確認:"
 for port in 8080 80; do
     if netstat -tuln | grep ":$port " > /dev/null; then
-        echo "✓ Port $port is listening"
-        
-        # Test HTTP response
+        echo "✓ ポート $port は待ち受け中です"
+
+        # HTTP応答をテスト
         if curl -s -o /dev/null -w "%{http_code}" "http://localhost:$port" | grep -q "200\|302"; then
-            echo "✓ HTTP service responding on port $port"
+            echo "✓ HTTP サービスがポート $port で応答しています"
         else
-            echo "✗ HTTP service not responding properly on port $port"
+            echo "✗ HTTP サービスがポート $port で正しく応答していません"
         fi
     else
-        echo "✗ Port $port is not listening"
+        echo "✗ ポート $port は待ち受けていません"
     fi
 done
 
-# Check cellular diagnostics interface
-echo -e "\n4. Cellular diagnostics interface:"
+# 携帯回線の診断インターフェースを確認
+echo -e "\n4. モバイル診断インターフェース:"
 if [ -c /dev/diag ]; then
-    echo "✓ /dev/diag interface available"
+    echo "✓ /dev/diag インターフェースを利用できます"
     ls -la /dev/diag
 else
-    echo "✗ /dev/diag interface not available"
-    echo "Checking alternative interfaces:"
+    echo "✗ /dev/diag インターフェースを利用できません"
+    echo "代替インターフェースを確認中:"
     ls -la /dev/ | grep -E "ttyUSB|cdc-wdm|qcserial"
 fi
 
-# Advanced network analysis
-echo -e "\n5. Advanced network analysis:"
+# 高度なネットワーク分析
+echo -e "\n5. 高度なネットワーク分析:"
 
-# Check APN settings
-echo "Current APN configuration:"
-grep -r "apn" /etc/NetworkManager/system-connections/ 2>/dev/null || echo "No APN config found"
+# APN設定を確認
+echo "現在の APN 設定:"
+grep -r "apn" /etc/NetworkManager/system-connections/ 2>/dev/null || echo "APN 設定が見つかりません"
 
-# Check DNS resolution
-echo "DNS resolution test:"
+# DNS名前解決を確認
+echo "DNS 名前解決テスト:"
 nslookup google.com | head -5
 
-# Check firewall rules
-echo "Firewall rules affecting RayHunter:"
-iptables -L | grep -E "8080|rayhunter" || echo "No specific firewall rules found"
+# ファイアウォールルールを確認
+echo "RayHunter に影響するファイアウォール規則:"
+iptables -L | grep -E "8080|rayhunter" || echo "特定のファイアウォール規則が見つかりません"
 ```
 
 #### デバイス別のトラブルシューティング
@@ -978,66 +978,66 @@ iptables -L | grep -E "8080|rayhunter" || echo "No specific firewall rules found
 **Orbic RC400Lの高度なトラブルシューティング**:
 ```bash
 #!/bin/bash
-# Orbic RC400L specific troubleshooting procedures
+# Orbic RC400L固有のトラブルシューティング手順
 
-echo "=== Orbic RC400L Advanced Diagnostics ==="
+echo "=== Orbic RC400L の詳細診断 ==="
 
-# Check bootloader and system partition status
-echo "1. System partition analysis:"
+# ブートローダーとシステムパーティションの状態を確認
+echo "1. システムパーティションの分析:"
 df -h | grep -E "/system|/data|/usrdata"
 
-# Check Android subsystem
-echo -e "\n2. Android subsystem check:"
+# Androidサブシステムを確認
+echo -e "\n2. Android サブシステムの確認:"
 if command -v adb &> /dev/null; then
     adb devices
     if adb devices | grep -q "device$"; then
-        echo "✓ ADB connection available"
-        
-        # Check system properties
+        echo "✓ ADB 接続を利用できます"
+
+        # システムプロパティを確認
         adb shell getprop | grep -E "ro.build|persist.vendor"
-        
-        # Check running processes
+
+        # 実行中のプロセスを確認
         adb shell ps | grep rayhunter
-        
-        # Check system logs
-        echo "Recent system errors:"
+
+        # システムログを確認
+        echo "最近のシステムエラー:"
         adb logcat -d | grep -E "ERROR|FATAL" | tail -10
     else
-        echo "✗ No ADB connection available"
+        echo "✗ ADB 接続を利用できません"
     fi
 else
-    echo "ADB not available - using alternative methods"
+    echo "ADB を利用できないため、代替方法を使用します"
 fi
 
-# Check modem firmware
-echo -e "\n3. Modem firmware analysis:"
+# モデムのファームウェアを確認
+echo -e "\n3. モデムファームウェアの分析:"
 if [ -c /dev/diag ]; then
-    # Use custom tool to query modem firmware
+    # カスタムツールでモデムのファームウェアを照会
     python3 << 'EOF'
 import serial
 import struct
 import time
 
 try:
-    # Open diagnostic interface
+    # 診断インターフェースを開く
     diag = serial.Serial('/dev/diag', 115200, timeout=1)
-    
-    # Query firmware version (simplified)
-    # This would require proper DIAG protocol implementation
-    print("Modem diagnostic interface accessible")
+
+    # ファームウェアバージョンを照会（簡易版）
+    # 適切なDIAGプロトコルの実装が必要
+    print("モデム診断インターフェースにアクセスできます")
     diag.close()
 except Exception as e:
-    print(f"Modem diagnostic access failed: {e}")
+    print(f"モデム診断へのアクセスに失敗しました: {e}")
 EOF
 fi
 
-# Check carrier-specific issues
-echo -e "\n4. Carrier configuration check:"
-echo "Current band preferences:"
+# 通信事業者固有の問題を確認
+echo -e "\n4. キャリア設定の確認:"
+echo "現在のバンド設定:"
 cat /data/rayhunter/config.toml | grep -A 5 -B 5 "band"
 
-echo "Network registration status:"
-# Check registration with all available carriers
+echo "ネットワーク登録状態:"
+# 利用可能なすべての通信事業者への登録を確認
 if command -v qmicli &> /dev/null; then
     qmicli -d /dev/cdc-wdm0 --nas-get-home-network
     qmicli -d /dev/cdc-wdm0 --nas-get-preferred-networks
@@ -1047,57 +1047,57 @@ fi
 **TP-Link M7350のトラブルシューティング**:
 ```bash
 #!/bin/bash
-# TP-Link M7350 specific troubleshooting
+# TP-Link M7350固有のトラブルシューティング
 
-echo "=== TP-Link M7350 Advanced Diagnostics ==="
+echo "=== TP-Link M7350 の詳細診断 ==="
 
-# Check SD card functionality
-echo "1. SD card diagnostics:"
+# SDカードの動作を確認
+echo "1. SD カードの診断:"
 if mountpoint -q /media/sd; then
-    echo "✓ SD card is mounted"
+    echo "✓ SD カードがマウントされています"
     df -h /media/sd
-    
-    # Check SD card health
-    echo "SD card filesystem check:"
+
+    # SDカードの状態を確認
+    echo "SD カードのファイルシステム確認:"
     fsck -n /dev/mmcblk0p1 2>&1 | head -10
-    
-    # Check write permissions
+
+    # 書き込み権限を確認
     touch /media/sd/test_write 2>/dev/null && rm /media/sd/test_write
     if [ $? -eq 0 ]; then
-        echo "✓ SD card write permissions OK"
+        echo "✓ SD カードへの書き込み権限は正常です"
     else
-        echo "✗ SD card write permissions failed"
+        echo "✗ SD カードへの書き込み権限に失敗しました"
     fi
 else
-    echo "✗ SD card not mounted"
-    echo "Available block devices:"
+    echo "✗ SD カードがマウントされていません"
+    echo "利用可能なブロックデバイス:"
     lsblk | grep -E "mmc|sd"
 fi
 
-# Check OpenWrt system
-echo -e "\n2. OpenWrt system analysis:"
-echo "System information:"
+# OpenWrtシステムを確認
+echo -e "\n2. OpenWrt システムの分析:"
+echo "システム情報:"
 cat /proc/version
 uname -a
 
-echo "Available memory:"
+echo "利用可能なメモリ:"
 free -h
 
-echo "System load:"
+echo "システム負荷:"
 uptime
 
-# Check package installation
-echo "Installed packages relevant to RayHunter:"
+# パッケージのインストールを確認
+echo "RayHunter 関連のインストール済みパッケージ:"
 opkg list-installed | grep -E "python|kmod|usb"
 
-# Check kernel modules
-echo -e "\n3. Kernel module status:"
+# カーネルモジュールを確認
+echo -e "\n3. カーネルモジュールの状態:"
 lsmod | grep -E "diag|qmi|cdc|usb"
 
-# Check USB diagnostic interface
-echo "USB diagnostic devices:"
+# USB診断インターフェースを確認
+echo "USB 診断デバイス:"
 lsusb -t
-ls -la /dev/ttyUSB* 2>/dev/null || echo "No USB serial devices found"
+ls -la /dev/ttyUSB* 2>/dev/null || echo "USB シリアルデバイスが見つかりません"
 ```
 
 ### 復旧手順
@@ -1105,7 +1105,7 @@ ls -la /dev/ttyUSB* 2>/dev/null || echo "No USB serial devices found"
 **システム復旧スクリプト**:
 ```bash
 #!/bin/bash
-# Emergency RayHunter system recovery
+# RayHunterシステムの緊急復旧
 
 BACKUP_DIR="/data/rayhunter/backup"
 CONFIG_FILE="/data/rayhunter/config.toml"
@@ -1118,62 +1118,62 @@ log_message() {
 create_backup() {
     log_message "Creating system backup..."
     mkdir -p "$BACKUP_DIR"
-    
-    # Backup configuration
+
+    # 設定をバックアップ
     cp "$CONFIG_FILE" "$BACKUP_DIR/config_$(date +%Y%m%d_%H%M%S).toml"
-    
-    # Backup recordings (last 24 hours)
+
+    # 過去24時間の録画をバックアップ
     find /data/rayhunter/recordings -name "*.qmdl" -mtime -1 -exec cp {} "$BACKUP_DIR/" \;
-    
-    # Backup logs
+
+    # ログをバックアップ
     tar -czf "$BACKUP_DIR/logs_$(date +%Y%m%d_%H%M%S).tar.gz" /data/rayhunter/logs/
-    
+
     log_message "Backup completed"
 }
 
 reset_configuration() {
     log_message "Resetting configuration to defaults..."
-    
-    # Stop RayHunter service
+
+    # RayHunterサービスを停止
     systemctl stop rayhunter_daemon
-    
-    # Reset to factory configuration
+
+    # 工場出荷時の設定に戻す
     cp /etc/rayhunter/config.toml.default "$CONFIG_FILE"
-    
-    # Clear problematic cache files
+
+    # 問題のあるキャッシュファイルを削除
     rm -f /data/rayhunter/cache/*
-    
-    # Reset permissions
+
+    # 権限をリセット
     chown -R rayhunter:rayhunter /data/rayhunter/
     chmod -R 755 /data/rayhunter/
-    
+
     log_message "Configuration reset completed"
 }
 
 factory_reset() {
     log_message "Performing factory reset..."
-    
-    # Create backup first
+
+    # 最初にバックアップを作成
     create_backup
-    
-    # Stop all RayHunter services
+
+    # RayHunterの全サービスを停止
     systemctl stop rayhunter_daemon
     systemctl disable rayhunter_daemon
-    
-    # Remove all RayHunter data (except backups)
+
+    # バックアップを除くRayHunterデータをすべて削除
     find /data/rayhunter -type f ! -path "*/backup/*" -delete
-    
-    # Reinstall RayHunter
+
+    # RayHunterを再インストール
     cd /tmp
     wget -O rayhunter-latest.zip "https://github.com/EFForg/rayhunter/releases/latest/download/rayhunter-linux-x64.zip"
     unzip rayhunter-latest.zip
     ./installer $(detect_device_type)
-    
+
     log_message "Factory reset completed"
 }
 
 detect_device_type() {
-    # Auto-detect device type for reinstallation
+    # 再インストール時にデバイスの種類を自動検出
     if grep -q "Orbic" /proc/cpuinfo || [ -d "/android_root" ]; then
         echo "orbic"
     elif grep -q "MT7620" /proc/cpuinfo || [ -f "/etc/openwrt_version" ]; then
@@ -1183,35 +1183,35 @@ detect_device_type() {
     fi
 }
 
-# Main recovery menu
-echo "=== RayHunter Emergency Recovery ==="
-echo "1. Create backup only"
-echo "2. Reset configuration to defaults"
-echo "3. Factory reset (destructive)"
-echo "4. System diagnostics"
-echo "5. Exit"
+# メイン復旧メニュー
+echo "=== RayHunter緊急復旧 ==="
+echo "1. バックアップのみ作成"
+echo "2. 設定を既定値に戻す"
+echo "3. 工場出荷時設定にリセット（破壊的操作）"
+echo "4. システム診断"
+echo "5. 終了"
 
-read -p "Select option (1-5): " choice
+read -p "オプションを選択してください（1-5）: " choice
 
 case $choice in
     1) create_backup ;;
     2) reset_configuration ;;
-    3) 
-        read -p "Are you sure? This will erase all data except backups (y/N): " confirm
+    3)
+        read -p "よろしいですか？バックアップ以外のすべてのデータが消去されます（y/N）: " confirm
         if [ "$confirm" = "y" ] || [ "$confirm" = "Y" ]; then
             factory_reset
         else
-            echo "Factory reset cancelled"
+            echo "工場出荷時設定へのリセットをキャンセルしました"
         fi
         ;;
-    4) 
-        echo "Running system diagnostics..."
-        # Run all diagnostic scripts
+    4)
+        echo "システム診断を実行中..."
+        # すべての診断スクリプトを実行
         /opt/rayhunter/scripts/performance_check.sh
         /opt/rayhunter/scripts/network_diagnostics.sh
         ;;
     5) exit 0 ;;
-    *) echo "Invalid option" ;;
+    *) echo "無効なオプション" ;;
 esac
 ```
 
@@ -1225,8 +1225,8 @@ esac
 ```python
 #!/usr/bin/env python3
 """
-RayHunter Research Integration Platform
-Advanced configuration for academic cellular security research
+RayHunter 研究統合プラットフォーム
+学術的なモバイルセキュリティ研究向けの高度な設定
 """
 
 import pandas as pd
@@ -1242,13 +1242,13 @@ class RayHunterResearchPlatform:
     def __init__(self, research_db="/data/research/rayhunter_research.db"):
         self.db_path = research_db
         self.setup_research_database()
-        
+
     def setup_research_database(self):
-        """Setup comprehensive research database schema"""
+        """研究データベースの包括的なスキーマを設定"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        # Extended schema for research data
+
+        # 研究データ向けにスキーマを拡張
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS research_sessions (
                 session_id TEXT PRIMARY KEY,
@@ -1261,7 +1261,7 @@ class RayHunterResearchPlatform:
                 metadata JSON
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS cellular_measurements (
                 id INTEGER PRIMARY KEY,
@@ -1279,7 +1279,7 @@ class RayHunterResearchPlatform:
                 FOREIGN KEY (session_id) REFERENCES research_sessions (session_id)
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS threat_observations (
                 id INTEGER PRIMARY KEY,
@@ -1294,67 +1294,67 @@ class RayHunterResearchPlatform:
                 FOREIGN KEY (session_id) REFERENCES research_sessions (session_id)
             )
         ''')
-        
+
         conn.commit()
         conn.close()
-    
+
     def conduct_controlled_experiment(self, experiment_config):
-        """Conduct controlled experiment with specified parameters"""
+        """指定されたパラメーターで制御実験を実施"""
         session_id = f"exp_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        
-        # Configure RayHunter for experiment
+
+        # 実験用にRayHunterを設定
         self.configure_rayhunter_for_research(experiment_config)
-        
-        # Start data collection
+
+        # データ収集を開始
         collection_start = datetime.now()
-        
-        # Run experiment for specified duration
+
+        # 指定した期間だけ実験を実行
         experiment_duration = experiment_config.get('duration_minutes', 60)
-        
-        # Collect baseline measurements
+
+        # ベースライン測定値を収集
         baseline_data = self.collect_baseline_measurements(experiment_duration // 3)
-        
-        # Introduce controlled variables if specified
+
+        # 指定があれば制御変数を導入
         if experiment_config.get('introduce_threats', False):
             threat_data = self.simulate_threat_scenarios(experiment_config['threat_scenarios'])
-        
-        # Collect post-intervention data
+
+        # 介入後のデータを収集
         post_data = self.collect_post_measurements(experiment_duration // 3)
-        
-        # Analyze results
+
+        # 結果を分析
         analysis_results = self.analyze_experiment_results(
             session_id, baseline_data, post_data
         )
-        
+
         return {
             'session_id': session_id,
             'duration': experiment_duration,
             'analysis': analysis_results,
             'raw_data_location': f"/data/research/sessions/{session_id}"
         }
-    
+
     def statistical_threat_analysis(self, time_period_days=30):
-        """Perform statistical analysis of threat detection patterns"""
+        """脅威検出パターンを統計的に分析"""
         conn = sqlite3.connect(self.db_path)
-        
-        # Query threat observations
+
+        # 脅威の観測結果を照会
         end_date = datetime.now()
         start_date = end_date - timedelta(days=time_period_days)
-        
+
         query = """
             SELECT t.*, s.environment_type, s.location
             FROM threat_observations t
             JOIN research_sessions s ON t.session_id = s.session_id
             WHERE t.timestamp BETWEEN ? AND ?
         """
-        
+
         df = pd.read_sql_query(query, conn, params=(start_date.isoformat(), end_date.isoformat()))
         conn.close()
-        
+
         if df.empty:
-            return {"error": "No data available for analysis"}
-        
-        # Statistical analysis
+            return {"error": "分析に利用できるデータがありません"}
+
+        # 統計解析
         analysis = {
             'descriptive_stats': {
                 'total_observations': len(df),
@@ -1367,8 +1367,8 @@ class RayHunterResearchPlatform:
             'temporal_patterns': self.analyze_temporal_patterns(df),
             'false_positive_analysis': self.analyze_false_positives(df)
         }
-        
-        # Environment correlation analysis
+
+        # 環境との相関を分析
         for env_type in df['environment_type'].unique():
             env_data = df[df['environment_type'] == env_type]
             analysis['environmental_correlation'][env_type] = {
@@ -1376,81 +1376,81 @@ class RayHunterResearchPlatform:
                 'average_confidence': env_data['confidence_score'].mean(),
                 'threat_type_distribution': env_data['threat_type'].value_counts().to_dict()
             }
-        
-        # Generate visualizations
+
+        # 可視化を生成
         self.generate_research_visualizations(df, analysis)
-        
+
         return analysis
-    
+
     def generate_research_visualizations(self, df, analysis):
-        """Generate comprehensive research visualizations"""
+        """包括的な研究用の可視化を生成"""
         fig, axes = plt.subplots(2, 3, figsize=(20, 12))
-        
-        # Threat type distribution
+
+        # 脅威の種類の分布
         threat_counts = df['threat_type'].value_counts()
         axes[0, 0].pie(threat_counts.values, labels=threat_counts.index, autopct='%1.1f%%')
-        axes[0, 0].set_title('Threat Type Distribution')
-        
-        # Confidence score distribution
+        axes[0, 0].set_title('脅威タイプの分布')
+
+        # 信頼度スコアの分布
         axes[0, 1].hist(df['confidence_score'], bins=20, alpha=0.7)
-        axes[0, 1].set_title('Confidence Score Distribution')
-        axes[0, 1].set_xlabel('Confidence Score')
-        axes[0, 1].set_ylabel('Frequency')
-        
-        # Temporal patterns
+        axes[0, 1].set_title('信頼度スコアの分布')
+        axes[0, 1].set_xlabel('信頼度スコア')
+        axes[0, 1].set_ylabel('頻度')
+
+        # 時間的な傾向
         df['hour'] = pd.to_datetime(df['timestamp']).dt.hour
         hourly_counts = df.groupby('hour').size()
         axes[0, 2].bar(hourly_counts.index, hourly_counts.values)
-        axes[0, 2].set_title('Threats by Hour of Day')
-        axes[0, 2].set_xlabel('Hour')
-        axes[0, 2].set_ylabel('Threat Count')
-        
-        # Environment vs confidence
+        axes[0, 2].set_title('時間帯別の脅威')
+        axes[0, 2].set_xlabel('時間')
+        axes[0, 2].set_ylabel('脅威数')
+
+        # 環境と信頼度の関係
         sns.boxplot(data=df, x='environment_type', y='confidence_score', ax=axes[1, 0])
-        axes[1, 0].set_title('Confidence by Environment Type')
+        axes[1, 0].set_title('環境タイプ別の信頼度')
         axes[1, 0].tick_params(axis='x', rotation=45)
-        
-        # Correlation heatmap
+
+        # 相関ヒートマップ
         numeric_df = df.select_dtypes(include=[np.number])
         correlation_matrix = numeric_df.corr()
         sns.heatmap(correlation_matrix, annot=True, ax=axes[1, 1])
-        axes[1, 1].set_title('Correlation Matrix')
-        
-        # False positive analysis
+        axes[1, 1].set_title('相関行列')
+
+        # 誤検知の分析
         if 'false_positive_assessment' in df.columns:
             fp_data = df['false_positive_assessment'].value_counts()
             axes[1, 2].bar(fp_data.index, fp_data.values)
-            axes[1, 2].set_title('False Positive Assessment')
+            axes[1, 2].set_title('誤検知の評価')
             axes[1, 2].tick_params(axis='x', rotation=45)
-        
+
         plt.tight_layout()
-        plt.savefig(f'/data/research/analysis/visualization_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png', 
+        plt.savefig(f'/data/research/analysis/visualization_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png',
                    dpi=300, bbox_inches='tight')
         plt.close()
-    
+
     def export_research_data(self, format='csv', time_range_days=None):
-        """Export research data in various formats for external analysis"""
+        """外部分析用に研究データをさまざまな形式でエクスポート"""
         conn = sqlite3.connect(self.db_path)
-        
+
         if time_range_days:
             end_date = datetime.now()
             start_date = end_date - timedelta(days=time_range_days)
             date_filter = f"WHERE timestamp BETWEEN '{start_date.isoformat()}' AND '{end_date.isoformat()}'"
         else:
             date_filter = ""
-        
-        # Export threat observations
+
+        # 脅威の観測結果をエクスポート
         threat_query = f"SELECT * FROM threat_observations {date_filter}"
         threat_df = pd.read_sql_query(threat_query, conn)
-        
-        # Export cellular measurements
+
+        # 携帯通信の測定値をエクスポート
         cellular_query = f"SELECT * FROM cellular_measurements {date_filter}"
         cellular_df = pd.read_sql_query(cellular_query, conn)
-        
+
         conn.close()
-        
+
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
+
         if format.lower() == 'csv':
             threat_df.to_csv(f'/data/research/exports/threats_{timestamp}.csv', index=False)
             cellular_df.to_csv(f'/data/research/exports/cellular_{timestamp}.csv', index=False)
@@ -1460,7 +1460,7 @@ class RayHunterResearchPlatform:
         elif format.lower() == 'parquet':
             threat_df.to_parquet(f'/data/research/exports/threats_{timestamp}.parquet')
             cellular_df.to_parquet(f'/data/research/exports/cellular_{timestamp}.parquet')
-        
+
         return {
             'export_format': format,
             'threats_records': len(threat_df),
@@ -1471,9 +1471,9 @@ class RayHunterResearchPlatform:
 
 ## まとめ
 
-RayHunterの高度な導入には、**携帯電話通信プロトコル**、**RF分析**、システム統合、脅威モデリングなど複数分野の専門知識が必要です。このガイドで扱った手法を使えば、専門ユーザーは誤検知と運用負荷を抑えながら、**RayHunter**の検出能力を最大限に活用できます。
+**RayHunter**の高度な導入には、**携帯電話通信プロトコル**、**RF分析**、システム統合、脅威モデリングなど複数分野の専門知識が必要です。このガイドで扱った手法を使えば、専門ユーザーは誤検知と運用負荷を抑えながら、**RayHunter**の検出能力を最大限に活用できます。
 
-*RayHunterの高度な運用に関する主なポイント:*
+*高度な **RayHunter** 運用の主なポイント:*
 
 1. **独自ヒューリスティックの最適化**は、環境に合わせた設定により、検出感度を保ったまま誤検知を80%削減できます。
 2. **APIによる自動化**により、企業規模の導入や既存のセキュリティ運用センターとの連携が可能になります。
@@ -1481,9 +1481,9 @@ RayHunterの高度な導入には、**携帯電話通信プロトコル**、**RF
 4. **高度なトラブルシューティング手法**は、多様で難しい環境でも安定した運用を支えます。
 5. **研究連携機能**は、携帯電話通信の脅威に関する学術研究や商用研究を支援します。
 
-RayHunterの専門ユーザーは、**携帯電話通信のセキュリティ**、**監視技術**、オープンソースの検出機能の動向を継続して確認してください。*脅威の変化に応じて、検出手法と運用手順を継続的に改善する必要があります。*
+**RayHunter**の専門ユーザーは、**携帯電話通信のセキュリティ**、**監視技術**、オープンソースの検出機能の動向を継続して確認してください。*脅威の変化に応じて、検出手法と運用手順を継続的に改善する必要があります。*
 
-RayHunterを専門的なセキュリティ運用に導入する組織は、専用の**セキュリティ運用センター**との連携、担当者への定期的なトレーニング、**RayHunter**コミュニティとの継続的な協力を検討してください。脅威情報や検出方法の改善を共有できます。
+**RayHunter**を専門的なセキュリティ運用に導入する組織は、専用の**セキュリティ運用センター**との連携、担当者への定期的なトレーニング、**RayHunter**コミュニティとの継続的な協力を検討してください。脅威情報や検出方法の改善を共有できます。
 
 高度な設定に使う機器をまだお持ちでない方へ。**[RayHunter対応を確認済みの機器](https://stscollective.com/collections/rayhunter)**はSTS Collectiveで販売しています。読者コード **SIMEONONSECURITY** で最大20%割引になります。
 

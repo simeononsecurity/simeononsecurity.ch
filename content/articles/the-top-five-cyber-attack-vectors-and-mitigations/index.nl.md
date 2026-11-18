@@ -1,6 +1,7 @@
 ---
 title: "De top 5 cyberaanvalvectoren beperken"
 date: 2023-03-06
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer hoe u uzelf en uw bedrijf kunt beschermen tegen de meest voorkomende cyberaanvalsvectoren, waaronder social engineering, malware, denial-of-service-aanvallen, wachtwoordaanvallen en aanvallen op webtoepassingen."
@@ -10,7 +11,7 @@ coverAlt: "Een cartoonillustratie van een persoon die een schild vasthoudt en vo
 coverCaption: ""
 ---
 
-**Mitigating the Top 5 Cyber Attack Vectors**
+**De vijf belangrijkste cyberaanvalsvectoren beperken**
 
 **Cyberaanvallen** komen de laatste jaren steeds vaker voor en de frequentie en geavanceerdheid ervan blijven toenemen. **Cybercriminelen** gebruiken verschillende methoden om individuen en organisaties aan te vallen, en het is essentieel om de meest voorkomende **aanvalvectoren** te begrijpen om uzelf en uw bedrijf te beschermen. In dit artikel worden de vijf belangrijkste cyberaanvalsvectoren besproken en worden tips gegeven om ze te beperken.
 

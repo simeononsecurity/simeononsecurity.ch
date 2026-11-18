@@ -13,7 +13,7 @@ coverCaption: ""
 
 **Najlepsze dystrybucje Linuksa do przejścia z Windows**
 
-Rozważasz przejście z systemu Windows na Linux? Przy szerokiej gamie dostępnych dystrybucji Linuksa, wybór odpowiedniej dla swoich potrzeb może być trudny. W tym artykule omówimy niektóre z najlepszych dystrybucji Linuksa, które zapewniają płynne przejście z systemu Windows, w tym [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php), and [**Manjaro**](https://manjaro.org/)
+Rozważasz przejście z systemu Windows na Linux? Przy szerokiej gamie dostępnych dystrybucji Linuksa, wybór odpowiedniej dla swoich potrzeb może być trudny. W tym artykule omówimy niektóre z najlepszych dystrybucji Linuksa, które zapewniają płynne przejście z systemu Windows, w tym [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php) oraz [**Manjaro**](https://manjaro.org/).
 
 ______
 

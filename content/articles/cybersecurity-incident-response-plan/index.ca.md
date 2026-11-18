@@ -1,12 +1,12 @@
 ---
 title: "Gestió dels incidents de ciberseguretat"
 date: 2023-10-08
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprèn a elaborar un pla sòlid de resposta als incidents de ciberseguretat per reduir-ne l'impacte i protegir l'organització de les ciberamenaces."
-genre: ["Ciberseguretat", "Resposta als incidents", "Bretxa de dades", "Atacs de programari maliciós", "Ransomware", "Pèrdues financeres", "Gestió de la reputació", "Compliment legal", "Continuïtat del negoci", "Mitigació de riscos"]
-tags: ["Ciberseguretat", "Resposta als incidents", "Bretxa de dades", "Atacs de programari maliciós", "Ransomware", "Pèrdues financeres", "Gestió de la reputació", "Compliment legal", "Continuïtat del negoci", "Mitigació de riscos", "Seguretat de la informació", "Ciberdefensa", "Protecció de dades", "Seguretat de TI", "Amenaces digitals", "Privacitat de les dades", "Ciberresiliència", "Seguretat de xarxa", "Mesures de seguretat", "Gestió d'incidents", "Seguretat de les dades", "Polítiques de seguretat", "Preparació davant les ciberamenaces", "Ciberamenaces", "Recuperació de dades", "Sensibilització en ciberseguretat", "Detecció d'amenaces", "Investigació d'incidents", "Formació en seguretat"]
+genre: ["Ciberseguretat", "Resposta als incidents", "Bretxa de dades", "Atacs de programari maliciós", "Programari de segrest", "Pèrdues financeres", "Gestió de la reputació", "Compliment legal", "Continuïtat del negoci", "Mitigació de riscos"]
+tags: ["Ciberseguretat", "Resposta als incidents", "Bretxa de dades", "Atacs de programari maliciós", "Programari de segrest", "Pèrdues financeres", "Gestió de la reputació", "Compliment legal", "Continuïtat del negoci", "Mitigació de riscos", "Seguretat de la informació", "Ciberdefensa", "Protecció de dades", "Seguretat de TI", "Amenaces digitals", "Privacitat de les dades", "Ciberresiliència", "Seguretat de xarxa", "Mesures de seguretat", "Gestió d'incidents", "Seguretat de les dades", "Polítiques de seguretat", "Preparació davant les ciberamenaces", "Ciberamenaces", "Recuperació de dades", "Sensibilització en ciberseguretat", "Detecció d'amenaces", "Investigació d'incidents", "Formació en seguretat"]
 cover: "/img/cover/cybersecurity_superheroes_shield.webp"
 coverAlt: "Imatge simbòlica d'un grup de superherois que defensa una ciutat de les ciberamenaces, amb els textos Incident Response Plan i Risk Mitigation als escuts"
 coverCaption: "Junts protegim el teu món digital!"
@@ -33,11 +33,11 @@ Una raó important per tenir un **pla complet de resposta als incidents** són l
 
 Els **danys a la reputació** també poden ser **greus**. Avui la informació es difon ràpidament per les xarxes socials i les plataformes en línia. Les notícies sobre una **bretxa de dades** o un **ciberatac** poden perjudicar la imatge d'una organització i afeblir la **confiança dels clients**. Això pot comportar pèrdua d'oportunitats comercials, menys fidelitat i dificultats per atreure clients nous. Un pla permet **gestionar la reputació de manera proactiva**, amb una resposta ràpida i transparent que **limita el dany a la marca**.
 
-A més dels efectes financers i reputacionals, els incidents també poden tenir **conseqüències legals i reguladores**. Les organitzacions han de complir les lleis de protecció de dades per evitar sancions elevades. Per exemple, el **Reglament general de protecció de dades de la Unió Europea (GDPR)** preveu multes de fins a **20 milions d'euros o el 4% del volum de negoci anual mundial**, segons quina quantitat sigui més alta. Un pla que contempli les obligacions legals i reguladores ajuda a reduir el risc d'incompliment i les **conseqüències financeres i legals** associades.
+A més dels **efectes financers i reputacionals**, els incidents també poden tenir **conseqüències legals i reguladores**. Les organitzacions han de **complir les lleis de protecció de dades** per evitar sancions elevades. Per exemple, el **Reglament general de protecció de dades de la Unió Europea (GDPR)** preveu multes de fins a **20 milions d'euros o el 4% del volum de negoci anual mundial**, segons quina quantitat sigui més alta. Un pla que contempli les obligacions legals i reguladores ajuda a reduir el risc d'incompliment i les **conseqüències financeres i legals** associades.
 
 La interconnexió de l'ecosistema empresarial també implica que un incident pot tenir **efectes fora de l'organització**. Si es comprometen els sistemes d'un **proveïdor**, es pot interrompre la **cadena de subministrament** i afectar la disponibilitat de béns o serveis. Una filtració de **dades de clients** pot causar **robatori d'identitat o frau** i perjudicar la relació amb els clients. Un pla que consideri les parts externes ajuda a gestionar les conseqüències i a **mantenir la confiança dels socis, proveïdors i clients**.
 
-Un **pla de resposta als incidents de ciberseguretat** és una part essencial de l'estratègia general de seguretat d'una organització. Redueix els efectes sobre l'**estabilitat financera**, la **reputació**, el **compliment legal** i les **relacions externes**. Invertir en un pla ben dissenyat ajuda a mitigar els riscos i a garantir la **continuïtat del negoci** en l'era digital.
+Un **pla de resposta als incidents de ciberseguretat** és una part essencial de l'estratègia general de seguretat d'una organització. Redueix els efectes sobre l'**estabilitat financera**, la **reputació**, el **compliment legal** i les **relacions externes**. Invertir en un pla ben dissenyat ajuda a **mitigar els riscos** i a garantir la **continuïtat del negoci** en l'era digital.
 
 ## Elements clau d'un pla de resposta als incidents de ciberseguretat
 

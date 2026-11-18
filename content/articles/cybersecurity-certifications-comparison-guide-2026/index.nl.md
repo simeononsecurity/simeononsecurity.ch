@@ -1,7 +1,7 @@
 ---
 title: "Vergelijking van cybersecuritycertificeringen 2026"
 date: 2026-05-24
-lastmod: 2026-11-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Een vergelijking uit 2026 van aanbieders van cybersecuritycertificeringen, prijzen, rendement op investering en aansluiting op carrièrepaden."
@@ -140,12 +140,12 @@ ______
 
 **Voorbeeld uit de praktijk:**
 ```
-Job Listing Analysis (SOC Analyst I, Fortune 500 Company):
-"Required: Security+ or equivalent"
-"Preferred: Bachelor's degree OR 2 years experience"
+Analyse van een vacature (SOC-analist I bij een Fortune 500-bedrijf):
+"Vereist: Security+ of gelijkwaardig"
+"Gewenst: bachelordiploma OF 2 jaar ervaring"
 
-Translation: Security+ = Entry ticket. Nobody cares after 2 years of experience.
-Salary Range: $60,000-$75,000
+Betekenis: Security+ geeft toegang tot de functie. Na 2 jaar ervaring telt het certificaat nauwelijks nog.
+Salarisbereik: $60,000-$75,000
 ```
 
 **AI-integratie in 2026:**
@@ -196,12 +196,12 @@ CISSP heeft iets bijzonders bereikt: **HR-afdelingen noemen het voor functies op
 
 **Analyse van CISSP in vacatures:**
 ```
-Entry-Level SOC Analyst: "CISSP preferred" (12% of listings)
-Mid-Level Security Engineer: "CISSP required" (45% of listings)
-Senior Security Architect: "CISSP required" (78% of listings)
-CISO: "CISSP required" (85% of listings)
+SOC-analist op instapniveau: "CISSP gewenst" (12% van de vacatures)
+Beveiligingsingenieur op middenniveau: "CISSP vereist" (45% van de vacatures)
+Beveiligingsarchitect op seniorniveau: "CISSP vereist" (78% van de vacatures)
+CISO: "CISSP vereist" (85% van de vacatures)
 
-Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
+De realiteit: CISSP staat in veel vacatures, maar is nergens "vereist" voor echte beginners.
 ```
 
 **De acht CISSP-domeinen (versie 2026):**
@@ -232,14 +232,14 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 
 **Kostenanalyse (totale eigendomskosten over 5 jaar):**
 ```
-CISSP Total Cost of Ownership (5 years):
-- Exam: $749
-- Study materials: $200-500
-- Renewal fees: $135/year × 5 = $675
-- Total 5-year cost: $1,624-$1,924
-- Annual maintenance effort: 40 CPE credits/year
+Totale eigendomskosten van CISSP (5 jaar):
+- Examen: $749
+- Studiemateriaal: $200-500
+- Verlengingskosten: $135/jaar × 5 = $675
+- Totale kosten over 5 jaar: $1,624-$1,924
+- Jaarlijkse onderhoudsinspanning: 40 CPE-punten/jaar
 
-ROI: High if targeting management roles, moderate for technical IC roles
+Rendement: hoog bij een doel in management, gemiddeld voor technische individuele functies
 ```
 
 **AI-integratie in 2026:**
@@ -311,14 +311,14 @@ OSCP (Offensive Security Certified Professional) blijft de **bekendste certifice
 
 **De werkelijke prijs:**
 ```
-OSCP Cost Breakdown (2026):
-- Self-Guided Package (3 months lab time): $1,699
-- Learn One Package (3 months + Learn One year): $2,699
-- Exam retake: $249 each
+Kostenoverzicht OSCP (2026):
+- Self-Guided-pakket (3 maanden labtijd): $1,699
+- Learn One-pakket (3 maanden + één jaar Learn One): $2,699
+- Herkansing examen: $249 per poging
 
-Removed in 2025: Learn Unlimited (unlimited time) - this angered community
+In 2025 verwijderd: Learn Unlimited (onbeperkte tijd). Dit leidde tot onvrede in de community.
 
-Average total cost including retakes: $1,950-$2,500
+Gemiddelde totale kosten inclusief herkansingen: $1,950-$2,500
 ```
 
 **Sterke punten:**
@@ -490,19 +490,19 @@ Dit is de controversiële realiteit: **in 2026 zijn cloudcertificeringen voor de
 
 **Waarom cloud in 2026 wint:**
 ```
-Traditional Cybersecurity Jobs (2020-2024):
-- On-premises data centers
-- Physical firewalls and network security
-- Windows Server and Active Directory
-- VPN concentrators and DMZs
+Traditionele cybersecurityfuncties (2020-2024):
+- Datacenters op de eigen locatie
+- Fysieke firewalls en netwerkbeveiliging
+- Windows Server en Active Directory
+- VPN-concentrators en DMZ-zones
 
-Modern Cybersecurity Jobs (2025-2026):
-- AWS, Azure, GCP cloud environments
-- Container security (Docker, Kubernetes)
-- Serverless security (Lambda, Azure Functions)
-- Identity and access management (IAM)
-- Infrastructure as Code (Terraform, CloudFormation)
-- AI/ML model security
+Moderne cybersecurityfuncties (2025-2026):
+- Cloudomgevingen van AWS, Azure en GCP
+- Containerbeveiliging (Docker, Kubernetes)
+- Beveiliging van serverloze toepassingen (Lambda, Azure Functions)
+- Identiteits- en toegangsbeheer (IAM)
+- Infrastructuur als code (Terraform, CloudFormation)
+- Beveiliging van AI/ML-modellen
 ```
 
 **De kloof in vaardigheden is groot.** Bedrijven zijn sneller naar de cloud overgestapt dan beveiligingsprofessionals cloudvaardigheden hebben opgedaan. Daardoor is de vraag uitzonderlijk hoog.
@@ -550,23 +550,23 @@ Modern Cybersecurity Jobs (2025-2026):
 
 **Kostenanalyse: cloud versus traditioneel:**
 ```
-Traditional Security Path (3-year cost):
+Traditioneel beveiligingstraject (kosten over 3 jaar):
 - Security+: $404
 - CySA+: $404
 - PenTest+: $404
-- CISSP: $749 + $405 renewal
-Total: $2,366 over 3 years
+- CISSP: $749 + $405 verlenging
+Totaal: $2,366 over 3 jaar
 
-Cloud Security Path (3-year cost):
+Cloudbeveiligingstraject (kosten over 3 jaar):
 - AWS Cloud Practitioner: $100
 - AWS Solutions Architect Associate: $150
 - AWS Security Specialty: $300
 - Azure Fundamentals: $99
-- Azure Security Engineer: $165 + $165 renewal
-Total: $979 over 3 years
+- Azure Security Engineer: $165 + $165 verlenging
+Totaal: $979 over 3 jaar
 
-Savings: $1,387 (58% less expensive)
-Job Market Demand: 38% vs 36% (cloud higher)
+Besparing: $1,387 (58% goedkoper)
+Vraag op de arbeidsmarkt: 38% tegenover 36% (cloud hoger)
 ```
 
 **Sterke punten van cloudcertificeringen:**
@@ -649,19 +649,19 @@ SANS Institute biedt **uitstekende trainingsinhoud** met docenten die tot de bes
 
 **Het probleem? De prijs.**
 ```
-SANS GPEN (Penetration Testing) Total Cost:
-- SANS SEC560 Course: $7,995
-- GPEN Exam (2 attempts): $979
-- Books and materials: $200
-- Travel/lodging (if in-person): $2,000+
-Total: $11,174 - $13,174
+Totale kosten SANS GPEN (penetratietesten):
+- SANS SEC560-cursus: $7,995
+- GPEN-examen (2 pogingen): $979
+- Boeken en materiaal: $200
+- Reis- en verblijfskosten (bij fysieke deelname): $2,000+
+Totaal: $11,174 - $13,174
 
-Alternative:
+Alternatief:
 - OSCP: $1,699-2,699
-- Or HackTheBox CPTS: $499
-- Or OffSec + HTB combined: $2,198
+- Of HackTheBox CPTS: $499
+- Of OffSec + HTB samen: $2,198
 
-Savings with alternatives: $8,976-$10,976 (75-83% less expensive)
+Besparing met alternatieven: $8,976-$10,976 (75-83% goedkoper)
 ```
 
 **Uitsplitsing van SANS-prijzen:**
@@ -1031,11 +1031,11 @@ Elke aanbieder probeert AI-inhoud aan certificeringen toe te voegen. Dit zijn de
 
 **Certificeringsstrategie voor het AI-tijdperk:**
 ```
-WRONG Approach:
-"Get AI-proof certification" → No such thing exists
+VERKEERDE aanpak:
+"Haal een AI-bestendig certificaat" → zo'n certificaat bestaat niet
 
-RIGHT Approach:
-"Get AI-aware certifications" → Choose vendors updating content
+JUISTE aanpak:
+"Haal een AI-bewust certificaat" → kies aanbieders die hun inhoud bijwerken
 ```
 
 **Aanbieders die vooruitgaan:** AWS, Azure, ISC2 en SANS (duur, maar actueel)

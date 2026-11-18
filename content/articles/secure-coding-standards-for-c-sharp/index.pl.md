@@ -1,6 +1,7 @@
 ---
 title: "Standardy bezpiecznego kodowania dla programistów C#"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj najlepsze praktyki bezpiecznego kodowania w języku C#, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane."
@@ -22,7 +23,7 @@ Dane wejściowe użytkownika są często istotnym źródłem zagrożeń bezpiecz
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Sprawdź, czy ciąg wejściowy zawiera wyłącznie cyfry
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // Przetwórz dane
     }
 }
 ```

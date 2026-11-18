@@ -1,11 +1,12 @@
 ---
 title: "Flock-You डिटेक्शन: काउंटर-सर्विलांस सेटअप गाइड"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ESP32-आधारित हार्डवेयर का उपयोग करके Flock Safety ALPR कैमरों का पता लगाने के लिए ओपन-सोर्स Flock-You प्रोजेक्ट का व्यापक तकनीकी गाइड। इसमें सेटअप निर्देश, फर्मवेयर विवरण और खरीद विकल्प शामिल हैं।"
 genre: ["सुरक्षा हार्डवेयर", "काउंटर सर्विलांस", "गोपनीयता तकनीक", "ओपन सोर्स प्रोजेक्ट", "ESP32 विकास", "WiFi मॉनिटरिंग", "गोपनीयता उपकरण", "डिजिटल अधिकार", "हार्डवेयर हैकिंग", "नेटवर्क सुरक्षा"]
-tags: ["Flock-You Project", "ALPR Detection", "ESP32-S3", "WiFi OUI Detection", "Counter Surveillance Hardware", "Flock Safety Detection", "Open Source Security", "Privacy Hardware", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "Promiscuous Mode WiFi", "802.11 Monitoring", "Colonel Panic Tech", "STS Collective", "Privacy Devices", "Surveillance Detection", "WiFi Scanning", "GitHub Project", "colonelpanichacks", "ESP32 Firmware", "Hardware Setup Guide", "DIY Privacy Tools", "Network Monitoring", "OUI Database", "Wildcard Probe Detection", "Frame Analysis", "ALPR Camera Detection", "Privacy Technology", "Detection Hardware", "Arduino ESP32", "Platform.io", "Embedded Systems", "RF Detection", "Signal Processing", "Privacy Engineering", "Counter Technology", "Security Research", "Privacy Advocacy", "Open Hardware", "Privacy Defense", "Detection Firmware", "Mobile Detection", "Privacy Projects", "Hardware Comparison"]
+tags: ['Flock-You परियोजना', 'ALPR पहचान', 'ESP32-S3', 'WiFi OUI पहचान', 'निगरानी-रोधी हार्डवेयर', 'Flock Safety की पहचान', 'ओपन-सोर्स सुरक्षा', 'गोपनीयता हार्डवेयर', 'M5 Atom Lite', 'OUI-SPY', 'mesh-detect v2', 'प्रॉमिस्क्युअस मोड WiFi', '802.11 मॉनिटरिंग', 'Colonel Panic Tech', 'STS Collective', 'गोपनीयता उपकरण', 'निगरानी पहचान', 'WiFi स्कैनिंग', 'GitHub परियोजना', 'colonelpanichacks', 'ESP32 फर्मवेयर', 'हार्डवेयर सेटअप मार्गदर्शिका', 'DIY गोपनीयता उपकरण', 'नेटवर्क मॉनिटरिंग', 'OUI डेटाबेस', 'वाइल्डकार्ड प्रोब पहचान', 'फ्रेम विश्लेषण', 'ALPR कैमरा पहचान', 'गोपनीयता तकनीक', 'पहचान हार्डवेयर', 'Arduino ESP32', 'Platform.io', 'एम्बेडेड सिस्टम', 'RF पहचान', 'सिग्नल प्रोसेसिंग', 'गोपनीयता इंजीनियरिंग', 'निगरानी-रोधी तकनीक', 'सुरक्षा अनुसंधान', 'गोपनीयता वकालत', 'ओपन हार्डवेयर', 'गोपनीयता रक्षा', 'पहचान फर्मवेयर', 'मोबाइल पहचान', 'गोपनीयता परियोजनाएं', 'हार्डवेयर तुलना']
 cover: "/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp"
 coverAlt: "अग्रभूमि में ESP32-आधारित डिवाइस दिखाता एक चित्रण जो WiFi सिग्नल स्कैन कर रहा है। रंगीन तरंगें विभिन्न सिग्नल शक्तियों को दर्शाती हैं, जो एक गहरी पृष्ठभूमि के सामने स्थापित हैं।"
 coverCaption: "ALPR सर्विलांस कैमरों का पता लगाने के लिए ओपन-सोर्स हार्डवेयर समाधान"
@@ -41,20 +42,20 @@ Flock Safety कैमरों में कनेक्टिविटी औ�
 शोधकर्ताओं **@NitekryDPaul** और **DeFlockJoplin** समुदाय ने Flock Safety कैमरा तैनाती में लगातार मौजूद **31 विशिष्ट OUI** खोजे:
 
 ```
-Primary Espressif OUIs (ESP32-based modules):
-D4:AD:FC - Espressif Inc. (Common ESP32-S3)
+मुख्य Espressif OUI (ESP32-आधारित मॉड्यूल):
+D4:AD:FC - Espressif Inc. (सामान्य ESP32-S3)
 AC:67:B2 - Espressif Inc. (ESP32-WROOM)
-84:F3:EB - Espressif Inc. (ESP32-S3 variants)
+84:F3:EB - Espressif Inc. (ESP32-S3 के विभिन्न रूप)
 B4:E6:2D - Espressif Inc. (ESP32-C3)
-CC:DB:A7 - Espressif Inc. (ESP32-based)
+CC:DB:A7 - Espressif Inc. (ESP32-आधारित)
 24:0A:C4 - Espressif Inc. (ESP32-SOLO)
 30:AE:A4 - Espressif Inc. (ESP32-WROVER)
-94:B9:7E - Espressif Inc. (ESP32-based)
+94:B9:7E - Espressif Inc. (ESP32-आधारित)
 A4:CF:12 - Espressif Inc. (ESP32-S2)
 C0:49:EF - Espressif Inc. (ESP32-C6)
 
-Additional OUIs identified in Flock deployments:
-[... 21 additional manufacturer OUIs ...]
+Flock परिनियोजनों में पहचाने गए अतिरिक्त OUI:
+[... निर्माताओं के 21 अतिरिक्त OUI ...]
 ```
 
 जब एक डिटेक्शन डिवाइस प्रोमिस्क्यूअस मोड में WiFi ट्रैफिक स्कैन करता है, **तो यह इन OUI के साथ फ्रेम प्रसारित करने वाले किसी भी डिवाइस की पहचान करता है**।
@@ -317,14 +318,14 @@ ______
 
 2. **सॉफ्टवेयर सेटअप**:
    ```bash
-   # Install PlatformIO
+   # PlatformIO इंस्टॉल करें
    pip install platformio
-   
-   # Clone repository
+
+   # रिपॉज़िटरी क्लोन करें
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
-   # Flash firmware
+
+   # फ़र्मवेयर फ़्लैश करें
    pio run -t upload
    pio device monitor
    ```
@@ -407,7 +408,7 @@ ______
    - ब्राउज़र खोलें: `http://192.168.4.1`
    - वेब इंटरफ़ेस 4 फर्मवेयर मोड प्रदर्शित करता है:
      1. **Detector** - मल्टी-टार्गेट BLE स्कैनर
-     2. **Foxhunter** - RF डायरेक्शन फाइंडिंग  
+     2. **Foxhunter** - RF डायरेक्शन फाइंडिंग
      3. **Flock-You** - ALPR कैमरा डिटेक्शन
      4. **Sky Spy** - ड्रोन RemoteID डिटेक्टर
    - वांछित मोड चुनें और "Activate" क्लिक करें
@@ -636,37 +637,37 @@ ______
 तकनीकी कार्यान्वयन में रुचि रखने वालों के लिए, यहां डिटेक्शन लॉजिक का एक सरलीकृत दृश्य है:
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// Flock-You पहचान का मुख्य भाग (अवधारणात्मक, पूरा कोड नहीं)
 
-// OUI Database (31 known Flock-associated OUIs)
+// OUI डेटाबेस (Flock से जुड़े 31 OUI)
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 संस्करण
+    // ... 28 और OUI ...
 };
 
-// Promiscuous mode callback
+// प्रोमिस्क्युअस मोड कॉलबैक
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // फ़्रेम से MAC पता निकालें
+    uint8_t *mac = pkt->payload + 10; // addr2 फ़ील्ड की स्थिति
+
+    // OUI डेटाबेस से मिलान करें
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // OUI मिलान मिला
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // सिग्नल की शक्ति की सीमा जाँचें
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // अतिरिक्त हस्ताक्षरों के लिए फ़्रेम का विश्लेषण करें
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // उच्च-विश्वास पहचान
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // केवल OUI मिलान
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -674,16 +675,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// वाइल्डकार्ड प्रोब पहचान
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // मैनेजमेंट फ़्रेम, सबटाइप प्रोब अनुरोध
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // खाली SSID IE (वाइल्डकार्ड) जाँचें
+    // स्थिति फ़्रेम की संरचना पर निर्भर है
+    uint8_t *ie = &pkt->payload[24]; // IE की शुरुआत
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // वाइल्डकार्ड प्रोब
     }
     return false;
 }

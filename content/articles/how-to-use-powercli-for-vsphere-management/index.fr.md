@@ -1,7 +1,7 @@
 ---
 title: "Maîtriser PowerCLI pour administrer vSphere"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Apprenez à utiliser PowerCLI pour administrer VMware vSphere, automatiser les tâches et gagner en productivité."
@@ -68,10 +68,10 @@ PowerCLI automatise les tâches répétitives. Quelques lignes de code peuvent e
 #### Créer un instantané de toutes les VM d’un dossier
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## Arrêter toutes les machines virtuelles sur un hôte donné
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## Créer un instantané de toutes les machines virtuelles d’un dossier donné
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Ce script montre comment arrêter les VM d’un hôte précis et créer un insta
 #### Arrêter toutes les VM d’un dossier en toute sécurité
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## Récupérer le dossier contenant les machines virtuelles à arrêter
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## Récupérer toutes les machines virtuelles du dossier indiqué
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## Arrêter proprement toutes les machines virtuelles
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

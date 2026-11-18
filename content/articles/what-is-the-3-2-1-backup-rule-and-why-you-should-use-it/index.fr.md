@@ -48,7 +48,7 @@ Maintenant que vous comprenez les avantages de la règle de sauvegarde 3-2-1, il
 
 - **Choisissez vos types de stockage** : Pour mettre en œuvre la règle de sauvegarde 3-2-1, vous devez choisir deux types de stockage différents. Les disques durs externes, les services de stockage en nuage et les périphériques de stockage en réseau (NAS) sont quelques-unes des options les plus courantes. Tenez compte de la quantité de données que vous devez sauvegarder et choisissez des types de stockage qui répondent à vos besoins.
 
-- Automatisez vos sauvegardes** : La création manuelle de sauvegardes peut prendre du temps et être source d'erreurs. Envisagez plutôt d'automatiser vos sauvegardes à l'aide d'un logiciel de sauvegarde. Il existe de nombreux logiciels de sauvegarde, gratuits ou payants. Parmi les options les plus populaires, citons [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), and [Carbonite](https://www.carbonite.com/)
+- Automatisez vos sauvegardes** : La création manuelle de sauvegardes peut prendre du temps et être source d'erreurs. Envisagez plutôt d'automatiser vos sauvegardes à l'aide d'un logiciel de sauvegarde. Il existe de nombreux logiciels de sauvegarde, gratuits ou payants. Parmi les options les plus populaires, citons [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), et [Carbonite](https://www.carbonite.com/).
 
 - Testez vos sauvegardes** : La création de sauvegardes n'est que la première étape. Il est essentiel de tester régulièrement vos sauvegardes pour vous assurer que vos données sont récupérables en cas de perte de données. Assurez-vous d'avoir un plan pour tester vos sauvegardes, qu'il s'agisse d'un processus manuel ou automatisé.
 

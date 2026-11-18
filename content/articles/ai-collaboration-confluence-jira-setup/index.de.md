@@ -1,7 +1,7 @@
 ---
 title: "Confluence und Jira für KI einrichten: Berechtigungen und Zuständigkeit"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Richte maßgebliche Confluence-Seiten und Berechtigungen für unternehmensverwaltetes Jira ein, damit Teams nach Prüfung zusammenarbeiten können."
@@ -53,15 +53,15 @@ Stand Oktober 2026 verwendest du für den Seitenzugriff die Schaltfläche **Shar
 5. **Öffne Share** auf jeder maßgeblichen Seite. Setze den allgemeinen Zugriff für berechtigte Bereichsmitglieder auf Nur-Lesen und gewähre ausgewählten Verantwortlichen und Publishern gezielte Bearbeitungsrechte. Speichere und prüfe den Zugriff mit dem Mitwirkendenkonto.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+Quell-ID: REQ-17
+Rolle des Verantwortlichen: product-owner
+Status: genehmigte Grundlage
+Geltungsbereich: nur synthetische Exportdateien
+Aufbewahrung: 7 Tage
+Lieferstatus: grundlegende Laborkonfiguration
+Ausnahmen: Produktionsdaten, Sicherungskopien und gesetzliche Aufbewahrungspflichten ausgeschlossen
+Genehmigungsnachweis: Prüfung der Grundlage DEC-12
+Implementierungsreferenz: geschützten GitHub-Basis-Commit anhängen
 ```
 
 **Setze für jede maßgebliche Seite Einschränkungen.** Gehe nicht davon aus, dass eine Bearbeitungssperre auf einer übergeordneten Seite auch deren Unterseiten schützt. Die Vererbung von Lese- und Bearbeitungsrechten unterscheidet sich, und Bereichsberechtigungen gelten weiterhin. Ein Link allein gewährt keinen Zugriff. Prüfe alle Mitgliedschaften, wenn ein vermeintlicher Nur-Lesen-Benutzer weiterhin Änderungen vornehmen kann.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Verwende diese Starttexte für die beiden anderen Seiten.** Ersetze vor der Genehmigung eines Datensatzes die Platzhalter für Prüfungen durch tatsächliche Nachweise aus der Sandbox.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+Quell-ID: RUN-04
+Rolle des Verantwortlichen: operations-owner
+Status: genehmigte Grundlage
+Geltungsbereich: nur synthetische Exportdateien
+Konfigurierte Aufbewahrung: 7 Tage
+Verfahren: REQ-17 vor einer geprüften Änderung mit config.json vergleichen
+Laufzeitgrenze: in diesem Labor läuft kein Löschauftrag und es entstehen keine Löschungsnachweise
+Wiederherstellung: die zuvor genehmigte Konfiguration nach Prüfung wiederherstellen
+Grenze der Wiederherstellung: eine wiederhergestellte Konfiguration stellt gelöschte Dateien nicht wieder her
+Prüfnachweis: tatsächliche prüfende Person, Seitenversion und Entscheidungsreferenz eintragen
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Seite: Entscheidungsregister
+Eintrags-ID: DEC-12
+Entscheidung: sieben Tage als synthetische Grundlage verwenden
+Geltungsbereich: nur export-service-lab
+Anforderung: Seitenversion von REQ-17 nach Veröffentlichung festhalten
+Betriebshandbuch: Seitenversion von RUN-04 nach Veröffentlichung festhalten
+Richtlinie: geschützte GitHub-Revision von POL-01 nach Prüfung festhalten
+Produktprüfung: ausstehend, bis die benannte verantwortliche Person eine Entscheidung einträgt
+Betriebsprüfung: ausstehend, bis die benannte verantwortliche Person eine Entscheidung einträgt
+Status: Beispielentwurf, durch beobachtete Prüfungsnachweise ersetzen
 ```
 
 ## Die Karte aktualisieren
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Füge diesen Entwurf in PROP-042 ein.** Das Jira-Element verfolgt die Auslieferung. Sein Text ersetzt nicht den genehmigten Wortlaut in Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+Vorschlags-ID: PROP-042
+Status: Entwurf
+Derzeit genehmigter Wert: 7 Tage, Seitenversion von REQ-17 festhalten
+Vorgeschlagener Wert: 30 Tage für synthetische Exportdateien
+Ausnahmen: Produktionsdaten, Sicherungskopien und gesetzliche Aufbewahrungspflichten
+Betroffene Datensätze: REQ-17, RUN-04, config.json, proposal.json
+Feste Vorschlagsanlage: ausstehend
+Prüfung durch Produktverantwortliche: ausstehend
+Prüfung durch Betriebsverantwortliche: ausstehend
+Veröffentlichungsregister: ausstehend
+Bei geänderter Quellversion, fehlender Prüfung oder verweigertem Zugriff abbrechen
 ```
 
 | Rolle | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Trenne Lesen, Entwürfe und Veröffentlichung.** Mitwirkende benötigen genügend Zugriff, um die synthetische Anforderung zu verstehen und einen Vorschlag einzureichen. Sie benötigen weder Bearbeitungszugriff auf die maßgebliche Seite noch die Berechtigung, den eigenen Vorschlag als genehmigt zu markieren.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Testeintrag: PERM-REQ-EDIT
+Rolle: Mitwirkende
+Quelle: REQ-17
+Voraussetzung: Quelle ist lesbar und die veröffentlichte Revision wurde erfasst
+Versuch: maßgebliche Anforderung bearbeiten
+Erwartung: Bearbeitung abgelehnt, veröffentlichte Revision unverändert
+Beobachtung: aus der Sandbox eintragen
+Nachweis: natives Ergebnis und unabhängige erneute Revisionsabfrage
+Prüfende Person: Administrator oder unabhängige Berechtigungsprüfung
 ```
 
 **Verwende für verweigertes Lesen einen separaten Datensatz.** Die lesbare Anforderung des Mitwirkenden prüft die Trennung von Veröffentlichung und Bearbeitung. Die unzugängliche Seite des ausgeschlossenen Benutzers prüft Vertraulichkeit. Eine gemeinsame Zeile verschleiert, welche Grenze getestet wurde.

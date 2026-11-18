@@ -1,7 +1,7 @@
 ---
 title: "ローカルモデルで Claude Cowork と Claude Code を使う: 2026年版セットアップガイド"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Anthropic互換APIを使って、OllamaをClaude DesktopおよびClaude Codeに接続します。2026年のモデル選択とクラウド限定機能も確認します。"
@@ -188,7 +188,7 @@ Ollamaのドキュメントは、リポジトリ作業について一つ明確�
 Claude Codeの起動後、次のように依頼します。
 
 ```text
-Read the current directory and list all files
+現在のディレクトリを読み、すべてのファイルを一覧表示します
 ```
 
 **実際のファイル一覧が返れば、ツール呼び出しは動作しています。** ディレクトリを読んだ場合の説明だけを返すなら、ツール呼び出しは接続されていません。コーディング用の指示を付けたチャットモデルを使っている状態で、プロンプトを工夫しても直りません。
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 Claude Codeのセッション内で `/loop` を使うと、指定間隔でプロンプトまたはスラッシュコマンドを実行できます。
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m 未対応のPRを確認し、状態を要約します
+/loop 1h 最新のAIニュースを調べ、主な動向を要約します
+/loop 15m 新しいGitHub issueを確認し、優先度順に整理します
 ```
 
 *セッションが開いている間だけ実行されます。バックグラウンドデーモンではないため、セッションを閉じると停止します。*

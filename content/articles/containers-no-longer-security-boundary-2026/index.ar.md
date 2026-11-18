@@ -1,7 +1,7 @@
 ---
 title: "لم تعد الحاويات تشكّل حدودًا أمنية في عام 2026"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "تكشف ثغرات النواة في عام 2026 سبب عدم كفاية عزل الحاويات متعددة المستأجرين. تعرّف على Copy Fail وDirty Frag وFragnesia وCVE-2026-80521، وقارن بين الحاويات المقوّاة والآلات الافتراضية المصغّرة."
@@ -12,7 +12,6 @@ coverAlt: "رسم رقمي لحاويات متوهجة متعددة تتصل ب�
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **تشارك الحاويات نواة واحدة. وفي عام 2026، أثبتت أربع عائلات مستقلة من الثغرات أن خللًا واحدًا في النواة يكفي لمغادرة الحاوية والوصول إلى المضيف.** تمنح Copy Fail وDirty Frag وFragnesia وCVE-2026-80521 مستخدمًا محليًا غير مميّز صلاحيات الجذر. وكل واحدة من هذه الثغرات تكسر حد الحاوية.
 
 *الجانب المقلق ليس العيوب نفسها، بل انخفاض كلفة اكتشاف الذكاء الاصطناعي لها، وكيف تسبب تصحيح واحد في ظهور عيب جديد.*
@@ -245,27 +244,27 @@ Copy Fail هي الأبسط بين الثغرات الأربع، والأكثر 
 لا يحل أي مما يلي محل حد الآلة الافتراضية، لكنه يزيل مسارات سهلة:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# عطّل الوحدات التي تستغلها عائلة page-cache عندما لا تكون مطلوبة
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# قيّد مساحات أسماء المستخدمين غير المميّزين، فهذا يمنع متغيرات ESP
+# Debian وUbuntu: هذا تخفيف جزئي، وليس حلاً كاملاً
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# إذا اشتُبه بوجود استغلال، فأفرغ ذاكرة page cache للتخلص من الملفات التنفيذية المعدّلة في الذاكرة
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# نقاط بدء الكشف
+- استخدام غير متوقع لـ unshare(CLONE_NEWUSER) من حمل عمل بلا سبب مشروع
+- نشاط NETLINK_XFRM أو ظهور ارتباطات أمان XFRM خارج مضيفات IPsec
+- طلبات ربط مقابس AF_ALG
+- تحميل esp4 أو esp6 أو rxrpc على مضيفات لا تشغّل IPsec ولا AFS
 ```
 
 > **تحذير: يتخلص `drop_caches` من النسخة المعدلة الموجودة في الذاكرة فيزيل الإفساد، لكنه لا يزيل مهاجمًا وصل إلى الجذر بالفعل. تعامل معه كجزء من الاستجابة للحوادث، لا كمعالجة نهائية.**

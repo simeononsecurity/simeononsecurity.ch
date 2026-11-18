@@ -1,6 +1,7 @@
 ---
 title: "Essentiële do's en don'ts voor het hardenen van je Linux-systeem"
 date: 2023-02-28
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Leer de essentiële do's en donts voor het harden van je Linux systeem, inclusief updaten, firewalls gebruiken, SELinux of AppArmor inschakelen, wachtwoordbeleid configureren en systeemlogs controleren."
@@ -13,7 +14,7 @@ coverCaption: ""
 
 Linux is een populair besturingssysteem dat zowel door particulieren als bedrijven wordt gebruikt. Hoewel het vaak als veiliger wordt beschouwd dan andere besturingssystemen vanwege de open-source aard, vereist het nog steeds de juiste hardening om de veiligheid van het systeem en de gegevens die het bevat te garanderen. In dit artikel zullen we een aantal algemene do's en don'ts bespreken die kunnen helpen om je Linux systeem veilig te houden.
 
-## Do's:
+## Aanbevelingen:
 
 ### Houd je systeem bijgewerkt
 
@@ -290,13 +291,13 @@ Vergeet niet om uw systeemlogboeken regelmatig te controleren en te analyseren o
 
 ______
 
-## Don'ts:
+## Te vermijden:
 
 ### Gebruik zwakke wachtwoorden
 
 Het gebruik van zwakke wachtwoorden is een veelgemaakte fout die je Linux-systeem kwetsbaar kan maken voor aanvallen. Aanvallers kunnen tools gebruiken om wachtwoorden te raden die gebaseerd zijn op gewone woorden, namen of datums. Het is belangrijk om sterke en unieke wachtwoorden te gebruiken die niet gemakkelijk te raden zijn.
 
-Je kunt sterke wachtwoorden maken door een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens te gebruiken. Het is ook een goed gebruik om een [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) kan je ook helpen om je wachtwoorden te onthouden en te voorkomen dat je hetzelfde wachtwoord voor meerdere accounts gebruikt.
+Je kunt sterke wachtwoorden maken met een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens. Het is ook verstandig om een [wachtwoordmanager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) te gebruiken om complexe wachtwoorden veilig te genereren en op te slaan. [Wachtwoordmanagers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) helpen je ook om je wachtwoorden te onthouden en te voorkomen dat je hetzelfde wachtwoord voor meerdere accounts gebruikt.
 
 ### SSH-toegang voor root toestaan
 

@@ -1,7 +1,7 @@
 ---
 title: "Flux de publicació amb IA a GitHub, Confluence i Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Publica una proposta fixa de retenció a Confluence, GitHub i Jira amb comprovacions de versions i recuperació davant d'una publicació parcial."
@@ -173,7 +173,7 @@ Aquestes frases són textos de proposta d'exemple, no registres d'un tenant acti
 | Confluence REQ-17 | v4, set dies | PROP-042 r1, Producte aprova de v4 a v5 | El publicador escriu v5, el revisor torna a obrir v5 | Trenta dies, exclou còpies de seguretat i retencions legals |
 | Configuració de GitHub | Commit `main` `base-001`, set dies | PROP-042 r1, Operacions aprova el diff candidat | PR fusionada com a `merge-002`, clon independent llegeix trenta | Trenta dies a la font protegida |
 | Confluence RUN-04 | v2, set dies | PROP-042 r1, Operacions aprova de v2 a v3 | El publicador escriu v3, el revisor torna a obrir v3 | Pas operatiu de trenta dies amb reversió |
-| Jira PROP-042 | In Review | Les dues decisions dels responsables estan vinculades a r1 | El responsable del lliurament adjunta proves i passa a Done | Tancat després de les tres relectures |
+| Jira PROP-042 | En revisió | Les dues decisions dels responsables estan vinculades a r1 | El responsable del lliurament adjunta proves i passa a Done | Tancat després de les tres relectures |
 
 Les etiquetes anteriors són il·lustratives, no proves del tenant. El teu registre necessita enllaços natius a les versions de les pàgines i ID de commit. Abans de passar Jira a Done, adjunta la proposta fixada, les dues revisions per rol, el registre de les bases d'origen, cada relectura de publicació, el resultat de la prova negativa i les limitacions d'execució no resoltes. Si falta algun element, mantén el lliurament obert o `Blocked`.
 

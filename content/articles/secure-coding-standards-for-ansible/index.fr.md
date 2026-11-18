@@ -1,6 +1,7 @@
 ---
 title: "Directives de codage sécurisé pour Ansible : Meilleures pratiques"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques pour écrire du code sécurisé avec Ansible, un outil populaire pour la gestion de la configuration et le déploiement."
@@ -111,7 +112,7 @@ Les développeurs doivent assainir les entrées des utilisateurs afin d'éviter 
 Les développeurs peuvent utiliser l'outil `regex_replace` dans Ansible afin d'assainir les entrées des utilisateurs. Le filtre `regex_replace` permet aux développeurs de remplacer des motifs dans des chaînes par d'autres motifs. Par exemple, pour remplacer tous les caractères non alphanumériques d'une chaîne par une chaîne vide, les développeurs peuvent utiliser le code suivant :
 
 ```yaml
-- name: Sanitize user input
+- name: Assainir les entrées utilisateur
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

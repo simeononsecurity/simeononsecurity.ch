@@ -1,7 +1,7 @@
 ---
 title: "Los mejores harnesses de agentes de IA en 2026: elige según el flujo de trabajo"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compara Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi y LangGraph según la ejecución de herramientas, la memoria, la recuperación y el esfuerzo de integración."
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Componentes metálicos modulares conectados a un procesador central brillante mediante rutas turquesa y naranja sobre una superficie de trabajo oscura"
 coverCaption: "Ilustración conceptual de los componentes que rodean un modelo de IA."
 ---
-
 **Deep Agents es mi primera opción para un agente general con modelos configurables y gestión de contexto integrada.** Claude Agent SDK encaja bien para insertar el comportamiento de ejecución de Claude Code. OpenAI Agents SDK y Pydantic AI merecen una prueba para agentes específicos de una aplicación. Pi prefiere un núcleo pequeño y extensible, mientras LangGraph prefiere un control explícito del flujo de trabajo.
 
 **La mejor opción depende del trabajo que pretendas aceptar.** Un asistente de investigación, un editor de repositorios y un servicio que procese solicitudes de clientes necesitan herramientas y reglas de recuperación distintas. Estas recomendaciones son juicios editoriales basados en documentación oficial revisada el **10 de octubre de 2026**, no resultados de un benchmark práctico de rendimiento.
@@ -160,7 +159,7 @@ Para un **agente ilustrativo de revisión de facturas**, la validación del esqu
 **No fuerces configuraciones no compatibles en la vía controlada.** Si dos candidatos no tienen un modelo o interfaz de herramientas común, informa de la comparación como una evaluación del sistema. Mantén en el registro el esfuerzo de configuración y la dirección humana.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Registro de prueba ilustrativo, no es un archivo de configuración de un framework
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

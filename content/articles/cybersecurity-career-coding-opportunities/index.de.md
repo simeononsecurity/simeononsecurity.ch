@@ -1,12 +1,12 @@
 ---
 title: "So starten Sie eine Karriere in der Cybersicherheit"
 date: 2023-11-05
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Erfahren Sie mehr über Rollen, den Nutzen von Programmierung und geeignete Programmiersprachen für die Cybersicherheit. Finden Sie Ihren Weg."
-genre: ["Technologie", "Cybersicherheit", "Karriere", "Programmierung", "IT", "Fähigkeiten", "Möglichkeiten", "Lernen", "Codieren", "Digitales"]
-tags: ["Cybersicherheit", "Karrierewege", "Programmiersprachen", "Programmierkenntnisse", "Nichttechnische Rollen", "Technische Rollen", "IT-Karrieren", "Technologietrends", "Sicherheitsanalyse", "Netzwerksicherheit", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Datenschutz", "Digitale Forensik", "Ethisches Hacking", "Softwareentwicklung", "Cyberabwehr", "Netzwerktechnik", "Sicherheitsberatung", "Kompetenzentwicklung", "Informationssicherheit", "Bedrohungserkennung", "Incident Response", "Programmierung für Sicherheit"]
+genre: ["Technologie", "Cybersicherheit", "Karriere", "Programmierung", "Informationstechnologie", "Fähigkeiten", "Möglichkeiten", "Lernen", "Codieren", "Digitales"]
+tags: ["Cybersicherheit", "Karrierewege", "Programmiersprachen", "Programmierkenntnisse", "Nichttechnische Rollen", "Technische Rollen", "IT-Karrieren", "Technologietrends", "Sicherheitsanalyse", "Netzwerksicherheit", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Datenschutz", "Digitale Forensik", "Ethisches Hacking", "Softwareentwicklung", "Cyberabwehr", "Netzwerktechnik", "Sicherheitsberatung", "Kompetenzentwicklung", "Informationssicherheit", "Bedrohungserkennung", "Reaktion auf Sicherheitsvorfälle", "Programmierung für Sicherheit"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Ein Cybersicherheitsexperte mit Umhang und Laptop schützt vor digitalen Bedrohungen."
 coverCaption: "Beschützer der digitalen Welt helfen, die Online-Sicherheit zu bewahren."

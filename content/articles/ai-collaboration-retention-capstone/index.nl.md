@@ -1,12 +1,12 @@
 ---
 title: "Capstone AI-samenwerking: GitHub, Confluence en Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Lever een synthetische bewaartermijnwijziging via GitHub-first- en Confluence/Jira-workflows, met foutbewijs en onafhankelijke beoordeling."
-genre: ["Kunstmatige intelligentie", "Teamsamenwerking", "Software-engineering"]
-tags: ["AI-samenwerkingscursus", "bewaarvoorstel", "GitHub-review", "Confluence Jira-workflow", "foutmatrix", "onafhankelijke acceptatie"]
+genre: ["Kunstmatige intelligentie", "Teamsamenwerking", "Softwareontwikkeling"]
+tags: ["AI-samenwerkingscursus", "bewaarvoorstel", "GitHub-beoordeling", "Confluence-Jira-werkwijze", "foutmatrix", "onafhankelijke acceptatie"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustratie van professionals die gedeeld projectwerk beoordelen in een cybersecurity-werkruimte"
 coverCaption: ""
@@ -46,16 +46,16 @@ coverCaption: ""
 **Open de Issue en kandidaat-PR** met de GitHub-lessen. Wijzig vereiste, configuratie, voorstel en runbook samen. Leg de beschermde basis vast, voer vertrouwde controles uit en verkrijg product- en operationsbeoordelingen op de definitieve commit.
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+Uitvoering: GitHub-first
+Wijziging: synthetische bewaring 7 -> 30 dagen
+Vereiste: REQ-17 revisie 2
+Configuratie: retention_days 30
+Runbook: bewaartermijn: 30 dagen
+Voorstel: basisrevisie 1, van 7, naar 30
+Manifest: beschermde bronhashes van vóór de wijziging
+Beoordeling: beoordeling door product en operations van de definitieve voorstelversie
+Publicatie: samengevoegde commit en herlezing ter controle
+Limiet: geen actieve verwijderingsservice getest
 ```
 
 **Vul de echte verwijzingen vanuit de sandbox in.** Het overzicht toont de verwachte koppeling, geen voltooid bewijs. De maintainer mergt pas na beoordeling en leest daarna onafhankelijk **`main`**. Sluit de Issue nadat je de definitieve records hebt gekoppeld.
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    dezelfde bewijscategorieën, onafhankelijk verzameld
 ```
 
 **Deze namen zijn een organisatievoorbeeld**, geen aangeleverde archiefbestanden. Bewaar echt bewijs privé in de goedgekeurde sandbox. Gedeelde cursusinzendingen gebruiken rollabels en geredigeerde verwijzingen. Beoordelaars behouden toegang tot native records.
@@ -148,6 +148,23 @@ capstone-evidence/
 5. **Herstel via review:** bewaar foutbewijs voordat je controles terugzet.
 6. **Herhaal het positieve geval:** bevestig dat de gecorrigeerde workflow toegestaan werk blijft leveren.
 
+**Injectie- en resetkaart per geval:** gebruik vóór het volgende geval een nieuw synthetisch voorstel of herstel een beoordeelde basis. De observator legt de voorwaarde vast en bevestigt de reset. Wis de mislukte poging nooit uit het ledger.
+
+| Geval | Injectie en controle: GitHub-first | Injectie en controle: Mixed | Reset vóór het volgende geval |
+|---|---|---|---|
+| Goedgekeurde wijziging | Dien de vastgezette PR in, haal beide beoordelingen op, merge en open `main` opnieuw | Publiceer REQ-17, merge de beoordeelde diff, publiceer RUN-04 en lees alle records opnieuw | Leg de eindversies vast als nieuwe basis |
+| Verouderde context | Leg een manifest vast, wijzig daarna de testbasis met een aparte beoordeelde PR voordat je het oude voorstel valideert | Leg paginaversies vast en laat een bevoegde editor een testpagina wijzigen vóór de prewrite-read | Stop, vergelijk versies, leg nieuwe bronnen vast en laat een nieuw pakket beoordelen |
+| Onbevoegde schrijfactie | Contributor probeert een onschuldige directe push naar beschermd `main` en legt de serverweigering vast | Contributor probeert REQ-17 te bewerken en naar Approved over te gaan | Lees commit, paginaversie en Jira-status opnieuw en bevestig dat ze ongewijzigd zijn |
+| Conflict | Het Issue-concept zegt zestig dagen, het goedgekeurde bestand zeven | Het Jira-concept zegt zestig dagen, REQ-17 zeven | De producteigenaar stemt het concept af en legt de beslissing vast |
+| Gedeeltelijke publicatie | Stop na goedkeuring maar vóór merge of teruglezen, en laat het Issue open | Stop na teruglezen van REQ-17 terwijl configuratie en RUN-04 nog zeven aangeven | Houd levering in behandeling en vraag een beoordeeld besluit over afronding of compensatie |
+| Toegang geweigerd | Een uitgesloten testidentiteit probeert een synthetische bron uit een privétestrepository te lezen | De uitgesloten identiteit probeert een beperkte synthetische pagina te openen | Herstel alleen goedgekeurde testtoegang en controleer of de gewone lezer nog toegang heeft |
+| Herstel | Onderbreek een goedgekeurde testwijziging en stel na beoordeling afronding of revert voor | Gebruik het ledger voor gedeeltelijke publicatie om beoordeelde afronding of compensatie voor te stellen | Lees elke bron opnieuw en stem het ledger ermee af |
+| Overdracht | Stuur MAP-01 en het ledger zonder de oude chat naar een nieuwe reviewer | Stuur toegewezen pagina-ID's en het ledger zonder de oude chat naar een nieuwe reviewer | De reviewer opent de huidige bronnen en noteert de volgende toegestane stap |
+
+Leg bij elk geweigerd geval de platformreactie en een tweede lezing van het beschermde record vast. Controleer voor de uitgesloten gebruiker providertraces, ophaallogs of auditgegevens om na te gaan of beschermde tekst de taak bereikte. Ontbreekt dit bewijs, markeer de toegangsveiligheidscontrole als Blocked. Een zichtbare weigering bewijst niet dat geen gecachet fragment is teruggegeven. Ontbreekt de controle in het plan of een goedgekeurde testidentiteit, noteer dan Blocked in plaats van een geslaagde test te simuleren.
+
+
+
 **Een geplande fout blijft een foutobservatie.** Noem een onbevoegde publicatie geen geslaagde test omdat je de controle wilde onderzoeken. De test legde een defect bloot. De publicatiegrens faalde en vereist herstel.
 
 ## Een gemengd resultaat interpreteren
@@ -164,37 +181,53 @@ capstone-evidence/
 
 **Verwachte redenering:** houd de run onvoltooid, controleer actuele bronnen en vraag het juiste eigenaarbesluit. Rond niet af door machtigingen te verzwakken of de snapshotcontrole als live publicatiebewijs te beschrijven.
 
+**Ingevuld leerpakket voor Mixed, synthetisch en geen bewijs uit een tenant:**
+
+```text
+Uitvoering: MIXED-042-example
+Vastgelegde basis: REQ-17 v4 = 7 dagen; RUN-04 v2 = 7 dagen.
+GitHub main base-001 config.json = {"retention_days": 7}; Jira PROP-042 r1 = In Review.
+Vast voorstel: REQ-17 v5 stelt 30 dagen bewaring van synthetische exports in. Productiegegevens, back-ups en wettelijke bewaarplichten vallen erbuiten.
+GitHub config.json wijzigt retention_days van 7 naar 30. RUN-04 v3 vermeldt 30 dagen; in het lab draait geen verwijderdienst. Onvolledige publicatie blijft open.
+Beoordeling: producteigenaar keurt de exacte REQ-17-tekst goed. Operations keurt de configuratiediff en runbook op r1 goed.
+Publicatie: uitgever leest REQ-17 v5 en RUN-04 v3 opnieuw en bevestigt 30 dagen; beheerder leest main op merge-002 met retention_days 30.
+Geweigerde actie: bijdrager mag REQ-17 v5 niet bewerken. Uitgever bevestigt dat niets is gewijzigd; waarnemer bewaart platformbewijs.
+Herstel: RUN-04-poging mislukt en Jira blijft Blocked. Operations keurt een nieuwe poging goed; na herlezing van v3 wordt Jira Done.
+Overdracht: nieuwe reviewer krijgt MAP-01 en logboek, leest de drie bronnen en Jira, en noteert 30 dagen en de open runtimekloof.
+Beperking: alleen bronpublicatie is aangetoond. Verwijdertijd: niet uitgevoerd.
+```
+
 ## Review met een onafhankelijke lezer
 
 **Vraag de beoordelaar gebeurtenissen te reconstrueren**, niet alleen je conclusie te lezen. Die moet goedgekeurde baseline, vastgezet voorstel, eigenaarsbesluiten, resulterende revisies, mislukte pogingen, herstel en resterende hiaten vinden zonder jouw vertelling.
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+Vragen voor onafhankelijke beoordeling:
+Welke bron bepaalt de bewaartermijn in deze route?
+Welk exact pakket beoordeelde elke eigenaar?
+Is een bron na de beoordeling gewijzigd?
+Wat is gepubliceerd en wat staat nog open?
+Welke geweigerde actie is onder welke rol waargenomen?
+Heeft beschermde tekst de context van een uitgesloten gebruiker bereikt?
+Welke reparatie is beoordeeld en opnieuw gelezen?
+Kan de nieuwe overdracht de huidige status onafhankelijk reconstrueren?
 ```
 
 **Scoor iedere vereiste afzonderlijk.** Gebruik Supported, Failed, Blocked of Not run met een bewijsverwijzing. Consistentie, goedkeuring, machtigingen, herstel en overdracht zijn aparte vereisten. Een verzameling groene lokale tests compenseert geen mislukte live-publicatiegrens.
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+Uitvoerings-ID en route:
+Reviewrol en datum:
+Geval 01 goedgekeurde wijziging: status ___ bewijs ___ kloof ___
+Geval 02 verouderde context: status ___ bewijs ___ kloof ___
+Geval 03 ongeoorloofde schrijfactie: status ___ bewijs ___ kloof ___
+Geval 04 conflict: status ___ bewijs ___ kloof ___
+Geval 05 gedeeltelijke publicatie: status ___ bewijs ___ kloof ___
+Geval 06 toegang geweigerd: status ___ bewijs ___ kloof ___
+Geval 07 herstel: status ___ bewijs ___ kloof ___
+Geval 08 overdracht: status ___ bewijs ___ kloof ___
+Eindoordeel: Onderbouwd / Mislukt / Geblokkeerd / Niet uitgevoerd
+Volgende verantwoordelijke rol en actie:
 ```
 
 **Supported betekent dat de beoordelaar waargenomen bewijs vond voor elk toepasselijk geval.** Noteer Failed voor een waargenomen controlefout, Blocked voor ontbrekende toegang of controle en Not run voor een niet-uitgevoerd geval. Bewaar iedere native verwijzing in het genoemde bewijsbestand.
@@ -204,17 +237,17 @@ Next accountable role and action:
 **Geredegeerd modelpakket, alleen illustratief:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+Route: github-first | Uitvoering: G-01 | Reviewer: onafhankelijke pilotrol
+Basis: beschermde commit base-001 | Vast voorstel: PROP-042 r1
+Goedkeuringen: productbeoordeling P-01, operationsbeoordeling O-01
+Consistentie: lokale controle geslaagd, uitvoer C-01 opgeslagen
+Toegang: directe push door bijdrager geweigerd, native gebeurtenis D-01
+Publicatie: commit merge-002; nieuwe clone bevestigt 30 dagen
+Uitzondering: back-ups en wettelijke bewaarplichten uitgesloten
+Herstel: onderbreking R-01 opnieuw gelezen en na beoordeling opgelost
+Overdracht: tweede lezer vond huidige basis, uitzondering en volgende stap
+Runtimegrens: geen claim over verwijdering of productie-uitrol
+Oordeel: alleen onderbouwd voor synthetische GitHub-first-route
 ```
 
 Vervang iedere illustratieve verwijzing door een waargenomen sandbox-artefact. Herhaal het volledige pakket voor Mixed met eigen bronversies en reviews. De beoordelaar moet een gekopieerde GitHub-goedkeuring in het Mixed-pakket afwijzen.
@@ -243,14 +276,14 @@ Vervang iedere illustratieve verwijzing door een waargenomen sandbox-artefact. H
 ## Het uitrolbesluit maken
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+Besluit: nieuwe synthetische pilot, geblokkeerd of afgewezen
+Bewijs: beide uitvoeringspakketten en foutmatrix
+Niet afgedwongen eisen: procedurele controles expliciet opsommen
+Providerbeoordeling: invoerbereik en bewaring
+Verantwoordelijkheid: product, operations, beleid, repository, levering
+Productiekloven: runtimetests, geheimen, uitrol, toegangscontrole
+Volgende stap: beperkte vervolgactie met verantwoordelijke rol
+Beoordelingsdatum: vastgesteld door piloteigenaren
 ```
 
 **Verwachte redenering:** synthetisch succes ondersteunt nog één begrensde pilot. Productie vereist afzonderlijke goedkeuring voor echte gegevens, deployment, verwerking door de provider en runtimegedrag. Een geslaagd assistentantwoord is geen deploymentautorisatie.

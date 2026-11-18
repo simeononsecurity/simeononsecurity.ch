@@ -1,6 +1,7 @@
 ---
 title: "Que faire si vous pensez que votre courriel ou votre téléphone est compromis ?"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apprenez les mesures essentielles à prendre si vous pensez que votre messagerie, votre ordinateur ou votre téléphone a été piraté ou compromis, y compris la modification des mots de passe, la recherche de logiciels malveillants et l'effacement de votre appareil."
@@ -12,7 +13,7 @@ coverCaption: ""
 
 À l'ère du numérique, nos appareils contiennent une multitude d'informations sensibles, qu'il s'agisse de données financières et personnelles ou de documents de travail confidentiels. Si vous pensez que votre courrier électronique, votre ordinateur ou votre téléphone a été compromis, cela peut être une expérience stressante et alarmante. Mais ne paniquez pas ! Il existe des mesures à prendre pour protéger vos données et rétablir la sécurité de votre appareil.
 
-## Étape 1 : Évaluer la situation
+## Étape 1 : Examiner le contexte
 
 La première chose à faire lorsque vous pensez que votre messagerie, votre ordinateur de bureau ou votre téléphone a été compromis est d'évaluer la situation. Voici quelques points à vérifier :
 
@@ -28,40 +29,40 @@ La première chose à faire lorsque vous pensez que votre messagerie, votre ordi
 
 Il est important de prendre note de tout signe de compromission afin de pouvoir prendre les mesures nécessaires pour protéger votre appareil et vos données. Si vous n'êtes pas certain que votre appareil a été compromis, il est toujours préférable de faire preuve de prudence.
 
-Apprenez à identifier [phishing and suspicious emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
+Apprenez à identifier [courriels d’hameçonnage et messages suspects](https://simeononsecurity.com/articles/how-to-identify-phishing/) et [ingénierie sociale](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
 
 ______
 
-## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+## [Étape 2 : Changez vos mots de passe et vérifiez les informations de récupération](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-- [**Change your passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour tous vos comptes immédiatement si vous soupçonnez que votre appareil a été compromis
+- [changer vos mots de passe](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour tous vos comptes immédiatement si vous soupçonnez que votre appareil a été compromis
 
 Si vous pensez que votre messagerie, votre ordinateur ou votre téléphone a été compromis, l'étape suivante consiste à modifier immédiatement les mots de passe de tous vos comptes. Cela peut prendre un certain temps, alors donnez la priorité aux comptes importants comme vos courriels, vos comptes bancaires, vos comptes de médias sociaux, etc.
 
 - Donnez la priorité aux comptes importants** comme vos courriels, vos comptes bancaires, vos comptes de médias sociaux, etc.
 
-- [**Choose strong, unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour chacun de vos comptes et **évitez d'utiliser le même mot de passe** pour plusieurs comptes
-- A [**strong password**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) doit comporter au moins **12 caractères** et un **mélange de lettres majuscules et minuscules, de chiffres et de symboles**.
+- [choisir des mots de passe robustes et uniques](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) pour chacun de vos comptes et **évitez d'utiliser le même mot de passe** pour plusieurs comptes
+- A [créer un mot de passe robuste](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) doit comporter au moins **12 caractères** et un **mélange de lettres majuscules et minuscules, de chiffres et de symboles**.
 
 Choisissez des mots de passe forts et uniques pour chacun de vos comptes et évitez d'utiliser le même mot de passe pour plusieurs comptes. Un mot de passe fort doit comporter au moins 12 caractères et un mélange de lettres majuscules et minuscules, de chiffres et de symboles. Évitez d'utiliser des mots ou des phrases courants et n'incluez pas d'informations personnelles telles que votre nom, votre date de naissance ou votre adresse.
 
 ***Quelques exemples de mots de passe sûrs*** :
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: un mot de passe de 12 caractères comprenant des majuscules, des minuscules, des chiffres et des symboles
+- Ilovesecurity7!: un mot de passe de 16 caractères combinant des mots, des chiffres et un symbole
+- xK2%qpzL5!rS: un mot de passe de 12 caractères comprenant des majuscules et minuscules aléatoires, des chiffres et des symboles
 ```
 
 ***Exemples de phrases types*** :
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: une phrase secrète de 24 caractères composée de trois mots aléatoires et de chiffres
+- orange$5my#yellow: une phrase secrète de 16 caractères composée de deux mots aléatoires, de chiffres et de symboles
+- pizza3onions?lovers: une phrase secrète de 19 caractères composée de deux mots aléatoires, de chiffres et d’un symbole
+- tangerine8shark?43: une phrase secrète de 18 caractères composée de deux mots aléatoires, de chiffres et d’un symbole
+- elephant6pasta*tree: une phrase secrète de 19 caractères composée de deux mots aléatoires, de chiffres et d’un symbole
 ```
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour un niveau de sécurité supplémentaire
+- [activer l’authentification à deux facteurs](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) pour un niveau de sécurité supplémentaire
 
 Il est également conseillé d'activer l'authentification à deux facteurs, qui ajoute un niveau de sécurité supplémentaire à vos comptes. L'authentification à deux facteurs requiert une deuxième méthode de vérification, comme un code envoyé à votre téléphone ou à votre courrier électronique, en plus de votre mot de passe.
 
@@ -92,7 +93,7 @@ ______
 - Logiciel antivirus** (Norton, McAfee, Avast, etc.)
 - Navigateur web** (Google Chrome, Mozilla Firefox, Safari, etc.)
 - Client de messagerie** (Microsoft Outlook, Apple Mail, Gmail, etc.)
-- Applications** (Microsoft Office, Adobe Creative Suite, etc.)
+- Applications** (Microsoft Office, Adobe Creative Suite, etc.).
 
 ______
 
@@ -116,7 +117,7 @@ Pour rechercher des logiciels malveillants sur votre appareil, utilisez un logic
 
 Il est également conseillé d'analyser tous les périphériques externes, tels que les clés USB, que vous avez utilisés avec l'appareil compromis. Les périphériques externes peuvent souvent contenir des logiciels malveillants susceptibles d'infecter votre appareil ; il est donc important de les analyser avant de les utiliser avec votre appareil.
 
-Voir quelques [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.com/recommendations/anti-virus)
+Voir quelques [logiciels antivirus et anti-logiciels malveillants recommandés](https://simeononsecurity.com/recommendations/anti-virus).
 
 ______
 
@@ -138,7 +139,7 @@ Une fois que vous avez vérifié que vos fichiers importants sont sécurisés, v
 
 N'oubliez pas que l'effacement de votre appareil efface toutes les données qu'il contient. Il est donc important de sauvegarder tous les fichiers importants avant d'effacer votre appareil.
 
-En savoir plus sur les [3-2-1 Backup Rule](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+En savoir plus sur les [règle de sauvegarde 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 
 ______
 
@@ -161,6 +162,6 @@ N'oubliez pas que la sécurité de vos portefeuilles et de vos clés de crypto-m
 
 ______
 
-## Conclusion
+## Pour conclure
 
 En conclusion, si vous pensez que votre messagerie, votre ordinateur ou votre téléphone a été compromis, il est important de prendre des mesures immédiates pour protéger vos données et rétablir la sécurité de votre appareil. Évaluez la situation, changez vos mots de passe, mettez à jour vos logiciels, recherchez les logiciels malveillants sur votre appareil, sauvegardez vos fichiers importants et effacez votre appareil à partir d'un appareil connu comme étant propre. En suivant ces étapes, vous pouvez reprendre le contrôle de votre sécurité numérique et vous protéger contre de futures compromissions.

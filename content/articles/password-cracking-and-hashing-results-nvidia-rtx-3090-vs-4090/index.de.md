@@ -1,10 +1,11 @@
 ---
 title: "NVIDIA RTX 3090 vs. RTX 4090: Leistungsvergleich beim Passwortknacken"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Entdecken Sie den Leistungsunterschied zwischen NVIDIA RTX 3090 und RTX 4090 beim Knacken von Passwörtern und zeigen Sie die Auswirkungen auf die Sicherheit und Schutzmaßnahmen auf."
-tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "Passwortknacken", "Leistung", "Sicherheit", "Passwortschutz", "Cybersicherheit", "Benchmark", "GPU", "Passwort-Manager", "sichere Passwörter", "Zwei-Faktor-Authentifizierung", "staatliche Vorschriften", "CISA", "GDPR", "Datensicherheit", "Hardware-Vergleich", "Passwortsicherheit", "Grafikkarte", "Passwortstärke"]
+tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "Passwortknacken", "Leistung", "Sicherheit", "Passwortschutz", "Cybersicherheit", "Leistungstest", "GPU", "Passwort-Manager", "sichere Passwörter", "Zwei-Faktor-Authentifizierung", "staatliche Vorschriften", "CISA", "GDPR", "Datensicherheit", "Hardware-Vergleich", "Passwortsicherheit", "Grafikkarte", "Passwortstärke"]
 cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Eine illustrierte Darstellung eines digitalen Schlosses, das geknackt wird, symbolisiert den Inhalt des Artikels über die Leistung des Passwortknackens."
 coverCaption: ""
@@ -30,7 +31,7 @@ Die NVIDIA RTX 4090 ist der Nachfolger der RTX 3090 und die derzeit leistungsst�
 
 In Benchmarks zum Knacken von Passwörtern, die von simeononsecurity.com durchgeführt wurden, konnte die RTX 4090 ein einfaches Passwort mit acht Zeichen in 60 Sekunden und ein komplexes Passwort mit acht Zeichen in 600 Sekunden knacken. Für ein einfaches Passwort mit zwölf Zeichen stieg die Zeit auf 6000 Sekunden und für ein komplexes Passwort mit zwölf Zeichen weiter auf 60000 Sekunden.
 
-## Benchmarks
+## Benchmark-Ergebnisse
 
 Wir haben eine Reihe von Benchmarks durchgeführt, um die Leistung der **RTX 3090** und **RTX 4090** beim Knacken von Passwörtern zu vergleichen. Wir haben das Passwort-Cracking-Tool Hashcat verwendet und eine Reihe von verschiedenen Passwortlängen und Komplexitätsstufen.
 
@@ -49,7 +50,7 @@ Passwortlänge | Komplexität | RTX 3090 (Sekunden) | RTX 4090 (Sekunden)
 
 Die Ergebnisse unserer Benchmarks zeigen, dass der **RTX 4090** ein leistungsstarkes Werkzeug zum Knacken von Passwörtern ist. Dies bedeutet, dass es Angreifern nun möglich ist, Passwörter viel schneller als je zuvor zu knacken.
 
-Dies ist ein ernsthaftes Sicherheitsproblem, da es bedeutet, dass Angreifer nun viel leichter Zugang zu Konten und Systemen erhalten können. Um sich vor Angriffen zum Knacken von Passwörtern zu schützen, sollten Sie Folgendes verwenden [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) um Sie bei der Erstellung und Speicherung sicherer Kennwörter zu unterstützen.
+Dies ist ein ernstes Sicherheitsproblem, da Angreifer dadurch viel leichter Zugriff auf Konten und Systeme erhalten können. Schützen Sie sich vor Passwortangriffen mit [**starken Passwörtern**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), die schwer zu erraten sind. Verwenden Sie außerdem einen [**Passwortmanager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), der Sie beim Erstellen und Speichern [starker Passwörter](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) unterstützt.
 
 ## Fazit
 

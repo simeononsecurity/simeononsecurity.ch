@@ -1,7 +1,7 @@
 ---
 title: "Освойте PowerCLI для управления vSphere"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Узнайте, как управлять VMware vSphere с помощью PowerCLI, автоматизировать задачи и повысить продуктивность."
@@ -68,10 +68,10 @@ PowerCLI автоматизирует повторяющиеся задачи. �
 #### Создание снимков всех ВМ в папке
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## Выключить все виртуальные машины на указанном хосте
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## Создать снимок всех виртуальных машин в указанной папке
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Descr
 #### Безопасное завершение работы всех ВМ в папке
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## Получить папку с виртуальными машинами, которые нужно выключить
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## Получить все виртуальные машины в указанной папке
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## Корректно завершить работу всех виртуальных машин
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

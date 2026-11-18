@@ -1,7 +1,7 @@
 ---
 title: "2026 年最佳 AI Agent 框架：按工作流选择"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "比较 Deep Agents、Claude Agent SDK、OpenAI Agents SDK、Pydantic AI、Pi 和 LangGraph 的工具执行、记忆、恢复与集成成本。"
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "深色工作台上，模块化金属部件通过青绿色和橙色路径连接到发光的中央处理器。"
 coverCaption: "AI 模型周围各组件的概念插图。"
 ---
-
 **对于通用 Agent，我会优先评估 Deep Agents，因为它支持配置模型并内置上下文管理。** Claude Agent SDK 适合在应用中嵌入 Claude Code 的执行行为。OpenAI Agents SDK 和 Pydantic AI 值得用于应用专用 Agent。Pi 提供精简且可扩展的核心，LangGraph 则侧重明确的工作流控制。
 
 **最佳选择取决于你打算让系统执行哪些工作。** 研究助手、代码库编辑器和处理客户请求的服务需要不同的工具与恢复规则。这些建议是根据截至 **2026 年 10 月 10 日**查阅的官方文档作出的编辑判断，并非实测性能基准。
@@ -160,7 +159,7 @@ coverCaption: "AI 模型周围各组件的概念插图。"
 **不要把不受支持的配置强行纳入受控比较。** 如果两个候选方案没有共同的模型或工具接口，应将比较报告为系统评估。记录设置工作量和人工引导。
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# 试验记录示例，并非框架配置文件
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

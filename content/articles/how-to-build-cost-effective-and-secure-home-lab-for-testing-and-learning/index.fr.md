@@ -39,7 +39,7 @@ ______
 
 ### 1. Logiciel de virtualisation
 
-Le composant logiciel le plus important d'un laboratoire domestique est le **logiciel de virtualisation**. Les options les plus courantes sont les suivantes [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows) Ces plateformes vous permettent de créer et de gérer plusieurs machines virtuelles sur un seul hôte. Choisissez celle qui correspond le mieux à vos besoins et à votre budget.
+Le composant logiciel le plus important d'un laboratoire domestique est le **logiciel de virtualisation**. Les options les plus courantes sont les suivantes : [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) et [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows). Ces plateformes vous permettent de créer et de gérer plusieurs machines virtuelles sur un seul hôte. Choisissez celle qui correspond le mieux à vos besoins et à votre budget.
 
 ### 2. Systèmes d'exploitation
 
@@ -96,9 +96,9 @@ ______
 Une fois votre laboratoire personnel installé, vous pouvez commencer à **apprendre et à tester** différentes technologies. Voici quelques sujets et projets populaires à explorer :
 
 1. **Réseau** : Expérimentez différentes topologies de réseau, protocoles de routage et configurations de pare-feu.
-2. **Informatique en nuage** : En savoir plus sur [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
-3. **Systèmes d'exploitation** : Tester diverses distributions Linux, Windows Server et des technologies de conteneurisation telles que [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
-4. **Cybersécurité** : Pratiquer le piratage éthique, l'analyse des vulnérabilités et la réponse aux incidents à l'aide d'outils tels que [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
+2. **Informatique en nuage** : En savoir plus sur [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/) ou [Google Cloud Platform (GCP)](https://cloud.google.com/)
+3. **Systèmes d'exploitation** : Tester diverses distributions Linux, Windows Server et des technologies de conteneurisation telles que [Docker](https://www.docker.com/) et [Kubernetes](https://kubernetes.io/).
+4. **Cybersécurité** : Pratiquer le piratage éthique, l'analyse des vulnérabilités et la réponse aux incidents à l'aide d'outils tels que [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/) et [Wireshark](https://www.wireshark.org/).
 
 ______
 

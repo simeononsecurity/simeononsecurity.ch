@@ -1,7 +1,7 @@
 ---
 title: "Sichere Coding-Standards für Python: Bewährte Praktiken"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Lernen Sie die besten Praktiken zur sicheren Programmierung in Python kennen, um das Risiko von Sicherheitsverletzungen zu minimieren und sensible Daten zu schützen."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Funktion zur Validierung der Eingabe mithilfe regulärer Ausdrücke.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python verfügt über mehrere Funktionen, die bei unsachgemäßer Verwendung anf
 
 Zum Beispiel, statt der Verwendung von `eval()` Funktion zur Konvertierung einer Zeichenkette in eine Ganzzahl verwenden, sollten Entwickler die `int()` Funktion.
 ```py
-# Instead of using eval function
+# Statt die eval-Funktion zu verwenden
 x = eval('10')
 
-# Use int function
+# Verwenden Sie die int-Funktion
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Funktion zur Verschlüsselung eines Passworts mit der Kryptografiebibliothek.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ Webanwendungen sind anfällig für verschiedene Sicherheitsrisiken wie Cross-Sit
 Wenn Sie beispielsweise SQL-Abfragen schreiben, sollten Sie **parametrisierte Abfragen** verwenden, anstatt Benutzereingaben mit der Abfrage zu verketten. Parametrisierte Abfragen verhindern SQL-Injection-Angriffe, da sie Benutzereingaben als Daten und nicht als ausführbaren Code behandeln.
 
 ```py
-# Instead of this
+# Stattdessen
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Verwenden Sie eine parametrisierte Abfrage
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

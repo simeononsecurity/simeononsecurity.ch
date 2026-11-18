@@ -1,7 +1,7 @@
 ---
 title: "Mastering Active Directory Administration met PowerShell: Installatie- en gebruikshandleiding"
 date: 2023-07-25
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ontdek hoe u de Active Directory module voor PowerShell effectief kunt installeren en gebruiken om uw Windows Active Directory beheertaken te stroomlijnen."
@@ -185,29 +185,29 @@ Door deze beveiligingsgerelateerde cmdlets te gebruiken, kunnen beheerders effec
 
 ## Voorbeeld van Active Directory module script voor PowerShell
 ```powershell
-# Import Active Directory module
+# De Active Directory-module importeren
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# Active Directory-informatie ophalen
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# Een nieuwe Active Directory-gebruiker maken
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# Een nieuwe Active Directory-groep maken
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# Een nieuwe Active Directory-organisatie-eenheid maken
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# Active Directory-objecten wijzigen
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# Active Directory-beveiliging beheren
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

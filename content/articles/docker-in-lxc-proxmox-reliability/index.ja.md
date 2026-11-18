@@ -1,17 +1,16 @@
 ---
 title: "Proxmox LXC上のDocker：信頼性、根拠、VMへの移行"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "文書化されたAppArmorの障害、ホストフリーズの報告に関する慎重な検討、診断コマンド、VMへの移行計画をもとに、Proxmox LXC内のDockerを評価します。"
 genre: ["仮想化", "Linux管理", "ホームラボ"]
-tags: ["LXC上のDocker", "Proxmox上のDocker", "Proxmox LXC", "Docker仮想マシン", "ホームラボの信頼性", "Proxmoxホストのフリーズ", "Debian Docker VM", "非特権コンテナ", "コンテナの入れ子", "Linuxカーネルの分離", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Dockerストレージドライバー", "containerdイメージストア", "メモリ圧迫", "Linux PSI", "永続ジャーナル", "Proxmoxバックアップ", "bind mountのバックアップ", "VM移行", "障害領域", "GPUパススルー", "ホームサーバーのトラブルシューティング"]
+tags: ["LXC上のDocker", "Proxmox上のDocker", "Proxmox上のLXCコンテナ", "Docker仮想マシン", "ホームラボの信頼性", "Proxmoxホストのフリーズ", "Debian 上の Docker 仮想マシン", "非特権コンテナ", "コンテナの入れ子", "Linuxカーネルの分離", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Dockerストレージドライバー", "containerdイメージストア", "メモリ圧迫", "Linux PSI", "永続ジャーナル", "Proxmoxバックアップ", "bind mountのバックアップ", "VM移行", "障害領域", "GPUパススルー", "ホームサーバーのトラブルシューティング"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "共有ハードウェアに接続された、入れ子状のワークロード枠と独立した仮想マシン区画を示すホームサーバーのアイソメトリック図"
 coverCaption: "共有ハードウェアとワークロードの分離境界を概念的に示す図"
 ---
-
 **Linux Containers（LXC）内のDocker**は、インフラのオーバーヘッドを抑える一方で、アプリケーションのランタイムとProxmoxホストとの相互作用を増やします。家庭で使うDockerサービスには、Debianの**仮想マシン（VM）**が実用的な出発点です。ゲストカーネルを分離し、トラブルシューティング時に再現する環境を簡素化できます。この記事では、提供された動画と関連するインシデント報告を確認し、文書化された障害と移行計画を紹介します。
 
 <!--more-->
@@ -66,14 +65,14 @@ coverCaption: "共有ハードウェアとワークロードの分離境界を�
 ## カーネルの境界を把握する
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+LXC内のDocker:
+アプリケーション -> Dockerランタイム -> LXCの名前空間とポリシー
+                         -> Proxmoxホストカーネル -> 物理ハードウェア
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+VM内のDocker:
+アプリケーション -> Dockerランタイム -> ゲストLinuxカーネル
+                         -> 仮想ハードウェア / KVM-QEMU
+                         -> Proxmoxホストカーネル -> 物理ハードウェア
 ```
 
 **LXC**はホストのカーネルを使います。名前空間、コントロールグループ、ケーパビリティ、seccomp、セキュリティプロファイルはプロセスを制限しますが、独立したカーネルを提供しません。LXC内にDockerを加えると、同じホストカーネルを使うワークロードにコンテナ管理の層がもう一つ加わります。[LXCのアーキテクチャと隔離機能](https://linuxcontainers.org/lxc/introduction/)
@@ -108,7 +107,7 @@ Dockerは**Debian向けのインストール手順**を公開しています。�
 
 ## 確認済みの入れ子構成の障害
 
-**2025年のrunc/AppArmor互換性問題**は検証可能な例です。runcのメンテナーは、AppArmorプロファイルが設定された外側のコンテナ内で、ファイル記述子を再オープンする際の障害を文書化しました。AppArmorが**`/proc/sys`**へのアクセスを**`/sys`**へのアクセスと誤認し、ポリシーで拒否しました。[runc issue 4968](https://github.com/opencontainers/runc/issues/4968)
+**2025年のrunc/AppArmor互換性問題**は検証可能な例です。runcのメンテナーは、AppArmorプロファイルが設定された外側のコンテナ内で、ファイル記述子を再オープンする際の障害を文書化しました。AppArmorが**`/proc/sys`**へのアクセスを**`/sys`**へのアクセスと誤認し、ポリシーで拒否しました。[runcの課題4968](https://github.com/opencontainers/runc/issues/4968)
 
 **影響を受けた起動処理**では、次のエラーが報告されました。
 
@@ -290,17 +289,17 @@ findmnt -T /var/lib/docker
 測定した根拠を使って構成を選び、見直す時期を定めます。
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+サービスと家庭への影響:
+現在のホスト / カーネル / LXC / Dockerのバージョン:
+必要なGPU、デバイス、ネットワークへのアクセス:
+測定したメモリ、CPU、ストレージ、レイテンシ:
+既知の障害の兆候と再発間隔:
+バックアップ範囲と復元成功の証拠:
+選択した構成と理由:
+許容される停止時間と復旧目標:
+切り替えと切り替え後のデータ復元手順:
+受け入れテストと監視期間:
+構成の再検討が必要となる条件:
 ```
 
 **LXC内のDockerを意図的に選ぶ**のは、その利点が統合作業に見合い、復旧経路をテスト済みの場合です。通常のDockerゲスト環境と独立したゲストカーネルでサービス運用が簡素になるならVMを選びます。どちらの判断も、バックアップ、監視、ホストの保守の代わりにはなりません。
@@ -326,8 +325,8 @@ Condition requiring another architecture review:
 | **[元の動画](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | 元の解説と報告された安定期間 |
 | **[Proxmoxのインシデントスレッド](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | 当事者の観察と移行後の追記 |
 | **[Proxmoxコンテナツールキット](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | コンテナアーキテクチャと現在のOCIの区別 |
-| **[runc issue 4968](https://github.com/opencontainers/runc/issues/4968)** | 文書化された起動障害と過去のパッケージ修正 |
-| **[LXC pull request 4609](https://github.com/lxc/lxc/pull/4609)** | マージ済みの上流AppArmor変更 |
+| **[runcの課題4968](https://github.com/opencontainers/runc/issues/4968)** | 文書化された起動障害と過去のパッケージ修正 |
+| **[LXCへの変更提案4609](https://github.com/lxc/lxc/pull/4609)** | マージ済みの上流AppArmor変更 |
 | **[Dockerのドキュメント](https://docs.docker.com/engine/install/debian/)** | ゲストへのインストール基準。ランタイムとストレージの詳細は本文のリンクを参照 |
 | **[Linux PSIのドキュメント](https://docs.kernel.org/accounting/psi.html)** | リソース負荷の解釈 |
 | **[Linux Watchdogのドキュメント](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | 定義されたカーネルロックアップ条件 |

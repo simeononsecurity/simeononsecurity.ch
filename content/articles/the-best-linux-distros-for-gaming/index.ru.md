@@ -42,7 +42,7 @@ coverCaption: ""
 
 ### Другие игровые дистрибутивы Linux
 
-Пока [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/), and [SteamOS](https://store.steampowered.com/steamos/) являются одними из лучших вариантов для игр на Linux, но есть и другие заметные дистрибутивы Linux, с которыми стоит познакомиться:
+К лучшим вариантам для игр на Linux относятся [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/) и [SteamOS](https://store.steampowered.com/steamos/), но есть и другие заметные дистрибутивы Linux, с которыми стоит познакомиться:
 
 - [**Pop!_OS**](https://pop.system76.com/) Разработанная компанией System76, Pop!_OS обеспечивает оптимизацию игрового процесса и включает такие функции, как автоматическое переключение GPU для ноутбуков.
 - [**Fedora**](https://www.fedoraproject.org/) Fedora предлагает отличную поддержку игр, ориентируясь на передовые технологии и последние обновления программного обеспечения.

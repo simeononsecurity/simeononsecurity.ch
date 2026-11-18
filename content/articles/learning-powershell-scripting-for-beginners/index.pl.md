@@ -3,6 +3,7 @@ title: "Skrypty PowerShell: Przewodnik krok po kroku dla początkujących, jak z
 draft: false
 toc: true
 date: 2023-02-25
+lastmod: 2026-11-14
 description: "Poznaj podstawy skryptów PowerShell i zautomatyzuj zadania dzięki temu przewodnikowi krok po kroku dla początkujących, obejmującemu polecenia cmdlet, pętle, funkcje i nie tylko."
 genre: ["Technologia", "Programowanie", "Automatyzacja", "Windows", "Skrypty", "IT", "Zadania administracyjne", "Zarządzanie komputerami", "Rozwój oprogramowania", "Kodowanie"]
 tags: ["Skrypty PowerShell", "Automatyzacja PowerShell", "Skrypty Windows", "Polecenia cmdlet PowerShell", "Moduły PowerShell", "Pętle PowerShell", "Instrukcje warunkowe PowerShell", "Funkcje PowerShell", "Najlepsze praktyki PowerShell", "Debugowanie PowerShell", "Testowanie PowerShell", "Zmienne PowerShell", "PowerShell ISE", "Remoting PowerShell", "Technologie Microsoft", "Automatyzacja IT", "zarządzanie komputerem", "Kodowanie dla początkujących", "zadania administracyjne", "Pomysły na skrypty PowerShell", "automatyczne kopie zapasowe", "zarządzanie plikami", "informacje o systemie", "zarządzanie użytkownikami", "instalacja oprogramowania", "konfiguracja sieci", "automatyzacja zabezpieczeń", "planowanie zadań", "manipulacja rejestrem", "zdalna administracja"]
@@ -24,7 +25,7 @@ PowerShell to potężna powłoka wiersza poleceń i język skryptowy opracowany 
 
 PowerShell jest preinstalowany w większości wersji systemu operacyjnego Windows. Jeśli jednak używasz starszej wersji Windows lub potrzebujesz nowszej wersji PowerShell, możesz pobrać ją ze strony Microsoft. Aby pobrać i zainstalować PowerShell, wykonaj następujące kroki:
 
-1. Przejdź do strony [Microsoft PowerShell website](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) i wybierz wersję PowerShell, którą chcesz zainstalować.
+1. Przejdź do strony [oficjalna witryna Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) i wybierz wersję PowerShell, którą chcesz zainstalować.
 2. Pobierz plik instalacyjny i uruchom go.
 3. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby zakończyć proces instalacji.
 
@@ -78,7 +79,7 @@ Pętle służą do powtarzania bloku kodu określoną liczbę razy. PowerShell o
 - **Pętla While**: powtarza blok kodu tak długo, jak warunek jest prawdziwy.
 - **Pętla Do-While**: powtarza blok kodu co najmniej raz, a następnie tak długo, jak warunek jest prawdziwy.
 - **orEach loop**: powtarza blok kodu dla każdego elementu w kolekcji.
-  
+
 Na przykład, poniższy kod używa pętli For do wypisania liczb od 1 do 5:
 ```powershell
 for($i=1; $i -le 5; $i++) {
@@ -101,7 +102,7 @@ Na przykład poniższy kod używa instrukcji If do sprawdzenia, czy liczba jest 
 ```powershell
 $number = 10
 if ($number -gt 5) {
-    Write-Host "The number is greater than 5"
+    Write-Host "Liczba jest większa niż 5"
 }
 ```
 #### Funkcje
@@ -122,7 +123,7 @@ function Add-Numbers {
 }
 
 $result = Add-Numbers -num1 5 -num2 10
-Write-Host "The result is $result"
+Write-Host "Wynik to $result"
 ```
 ### PowerShell ISE
 PowerShell ISE (Integrated Scripting Environment) to graficzny interfejs użytkownika dla skryptów PowerShell. PowerShell ISE zapewnia bogaty edytor tekstu, narzędzia do debugowania i inne funkcje, które ułatwiają pisanie i testowanie skryptów PowerShell. Aby otworzyć PowerShell ISE, wykonaj następujące kroki:
@@ -171,11 +172,11 @@ Podczas pisania **skryptów PowerShell** ważne jest, aby przestrzegać najlepsz
 
 - **Używaj opisowych nazw zmiennych**: Używaj nazw zmiennych, które jasno wskazują ich cel.
 - Używaj komentarzy**: Używaj komentarzy, aby wyjaśnić cel kodu.
-- **Używaj obsługi błędów**: Używaj obsługi błędów, aby z wdziękiem obsługiwać błędy i wyjątki. The `Try...Catch...Finally` w PowerShell umożliwia obsługę wyjątków i podejmowanie odpowiednich działań. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
-- **Dokładne testowanie skryptów**: Dokładnie testuj skrypty, aby upewnić się, że działają zgodnie z oczekiwaniami. Możesz użyć **Pester**, frameworka testowego dla PowerShell, aby napisać i uruchomić testy jednostkowe dla swoich skryptów. [Pester Documentation](https://pester.dev/)
-- **Używaj funkcji i modułów**: Używaj funkcji i modułów do organizowania kodu i poprawy możliwości jego ponownego wykorzystania. Funkcje pozwalają podzielić kod na mniejsze, łatwe w zarządzaniu fragmenty, podczas gdy moduły zapewniają sposób na pakowanie i dystrybucję kodu. [About Functions](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [About Modules](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
-- **Unikaj twardego kodowania wartości**: Unikaj twardego kodowania wartości w skrypcie i zamiast tego używaj parametrów lub zmiennych. Sprawia to, że skrypty są bardziej elastyczne i wielokrotnego użytku. Parametry można przekazywać do skryptów za pomocą funkcji `param` słowo kluczowe. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
-- **Użyj pełnych danych wyjściowych**: Użyj pełnego wyjścia, aby dostarczyć dodatkowych informacji o postępie skryptu. Można użyć opcji `Write-Verbose` aby wyświetlać szczegółowe komunikaty podczas wykonywania skryptu. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
+- **Używaj obsługi błędów**: Używaj obsługi błędów, aby z wdziękiem obsługiwać błędy i wyjątki. The `Try...Catch...Finally` w PowerShell umożliwia obsługę wyjątków i podejmowanie odpowiednich działań. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
+- **Dokładne testowanie skryptów**: Dokładnie testuj skrypty, aby upewnić się, że działają zgodnie z oczekiwaniami. Możesz użyć **Pester**, frameworka testowego dla PowerShell, aby napisać i uruchomić testy jednostkowe dla swoich skryptów. [Dokumentacja Pester](https://pester.dev/)
+- **Używaj funkcji i modułów**: Używaj funkcji i modułów do organizowania kodu i poprawy możliwości jego ponownego wykorzystania. Funkcje pozwalają podzielić kod na mniejsze, łatwe w zarządzaniu fragmenty, podczas gdy moduły zapewniają sposób na pakowanie i dystrybucję kodu. [Informacje o funkcjach](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [Informacje o modułach](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
+- **Unikaj twardego kodowania wartości**: Unikaj twardego kodowania wartości w skrypcie i zamiast tego używaj parametrów lub zmiennych. Sprawia to, że skrypty są bardziej elastyczne i wielokrotnego użytku. Parametry można przekazywać do skryptów za pomocą funkcji `param` słowo kluczowe. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
+- **Użyj pełnych danych wyjściowych**: Użyj pełnego wyjścia, aby dostarczyć dodatkowych informacji o postępie skryptu. Można użyć opcji `Write-Verbose` aby wyświetlać szczegółowe komunikaty podczas wykonywania skryptu. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
 
 Przestrzeganie tych najlepszych praktyk pomoże ci pisać bardziej wydajne i łatwe w utrzymaniu skrypty PowerShell, zwiększając twoją produktywność i zapewniając stabilność zadań automatyzacji.
 
@@ -187,10 +188,10 @@ Obsługa błędów jest krytycznym aspektem skryptów PowerShell, ponieważ zape
 Oto przykład użycia instrukcji Try-Catch do sprawnej obsługi błędu:
 ```powershell
 try {
-    # some code that might throw an error
+    # kod, który może wywołać błąd
 }
 catch {
-    Write-Error "An error occurred: $_"
+    Write-Error "Wystąpił błąd: $_"
 }
 ```
 
@@ -200,11 +201,11 @@ Testowanie skryptów PowerShell jest niezbędne, aby upewnić się, że działaj
 
 Oto przykład użycia Pester do testowania skryptu PowerShell:
 ```powershell
-Describe "My PowerShell Script" {
-    It "Does something" {
-        # some code that should return the expected result
+Describe "Mój skrypt PowerShell" {
+    It "Wykonuje coś" {
+        # kod, który powinien zwrócić oczekiwany wynik
         $result = Do-Something
-        $result | Should -Be "expected result"
+        $result | Should -Be "oczekiwany wynik"
     }
 }
 ```
@@ -221,7 +222,7 @@ function Get-ProcessCount {
 }
 
 $count = Get-ProcessCount
-Write-Host "There are $count processes running."
+Write-Host "Uruchomionych jest $count procesów."
 ```
 
 #### Unikaj twardego kodowania wartości
@@ -233,7 +234,7 @@ param (
     [string]$name
 )
 
-Write-Host "Hello, $name!"
+Write-Host "Cześć, $name!"
 ```
 
 #### Korzystanie z pełnych danych wyjściowych
@@ -242,39 +243,39 @@ Pełne dane wyjściowe dostarczają dodatkowych informacji o postępie skryptu, 
 Oto przykład użycia pełnych danych wyjściowych w PowerShell:
 ```powershell
 function Get-ProcessCount {
-    Write-Verbose "Getting processes..."
+    Write-Verbose "Pobieranie procesów..."
     $processes = Get-Process
     $count = $processes.Count
     return $count
 }
 
 $count = Get-ProcessCount -Verbose
-Write-Host "There are $count processes running."
+Write-Host "Uruchomionych jest $count procesów."
 ```
 
 ### Dziesięć pomysłów na skrypty PowerShell dla początkujących
 
 Jeśli jesteś początkującym użytkownikiem skryptów PowerShell, oto dziesięć pomysłów na skrypty, które pomogą ci zacząć:
 
-- **Automatyczne kopie zapasowe**: Utwórz skrypt, który zautomatyzuje proces tworzenia kopii zapasowych ważnych plików i katalogów na zewnętrznym dysku twardym lub w chmurze. Możesz użyć `Copy-Item` cmdlet do kopiowania plików i `Start-Job` aby uruchomić proces tworzenia kopii zapasowej w tle. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
+- **Automatyczne kopie zapasowe**: Utwórz skrypt, który zautomatyzuje proces tworzenia kopii zapasowych ważnych plików i katalogów na zewnętrznym dysku twardym lub w chmurze. Możesz użyć `Copy-Item` cmdlet do kopiowania plików i `Start-Job` aby uruchomić proces tworzenia kopii zapasowej w tle. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
 
-- **Zarządzanie plikami**: Utwórz skrypt, który organizuje pliki i katalogi, sortując je w różnych folderach na podstawie typu pliku, rozmiaru lub innych kryteriów. Można użyć funkcji `Get-ChildItem` cmdlet do pobierania plików i polecenie `Move-Item` cmdlet, aby przenieść je do wybranej lokalizacji. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
+- **Zarządzanie plikami**: Utwórz skrypt, który organizuje pliki i katalogi, sortując je w różnych folderach na podstawie typu pliku, rozmiaru lub innych kryteriów. Można użyć funkcji `Get-ChildItem` cmdlet do pobierania plików i polecenie `Move-Item` cmdlet, aby przenieść je do wybranej lokalizacji. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
 
-- **Informacje systemowe**: Utwórz skrypt, który pobiera informacje systemowe, takie jak użycie procesora i pamięci, miejsce na dysku i ustawienia sieciowe, i wyświetla je w łatwym do odczytania formacie. Możesz użyć `Get-WmiObject` cmdlet do zbierania informacji systemowych i formatowania ich przy użyciu `Format-Table` lub `Out-GridView` [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
+- **Informacje systemowe**: Utwórz skrypt, który pobiera informacje systemowe, takie jak użycie procesora i pamięci, miejsce na dysku i ustawienia sieciowe, i wyświetla je w łatwym do odczytania formacie. Możesz użyć `Get-WmiObject` cmdlet do zbierania informacji systemowych i formatowania ich przy użyciu `Format-Table` lub `Out-GridView` [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
 
-- **Zarządzanie użytkownikami**: Utwórz skrypt automatyzujący proces dodawania, modyfikowania lub usuwania użytkowników i grup w systemie operacyjnym Windows. Można użyć `New-LocalUser` `Set-LocalUser` oraz `Remove-LocalUser` do zarządzania użytkownikami, oraz `New-LocalGroup` `Add-LocalGroupMember` oraz `Remove-LocalGroup` do zarządzania grupami. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
+- **Zarządzanie użytkownikami**: Utwórz skrypt automatyzujący proces dodawania, modyfikowania lub usuwania użytkowników i grup w systemie operacyjnym Windows. Można użyć `New-LocalUser` `Set-LocalUser` oraz `Remove-LocalUser` do zarządzania użytkownikami, oraz `New-LocalGroup` `Add-LocalGroupMember` oraz `Remove-LocalGroup` do zarządzania grupami. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
 
-- **Instalacja oprogramowania**: Utwórz skrypt, który instaluje i konfiguruje oprogramowanie na wielu komputerach jednocześnie, oszczędzając czas i wysiłek. Możesz użyć `Invoke-Command` do wykonywania poleceń instalacyjnych na komputerach zdalnych. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- **Instalacja oprogramowania**: Utwórz skrypt, który instaluje i konfiguruje oprogramowanie na wielu komputerach jednocześnie, oszczędzając czas i wysiłek. Możesz użyć `Invoke-Command` do wykonywania poleceń instalacyjnych na komputerach zdalnych. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
-- **Konfiguracja sieci**: Utwórz skrypt automatyzujący proces konfiguracji ustawień sieciowych, takich jak adres IP, maska podsieci i brama domyślna. Można użyć `Set-NetIPAddress` `Set-NetIPInterface` oraz `Set-DnsClientServerAddress` aby skonfigurować ustawienia sieciowe. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
+- **Konfiguracja sieci**: Utwórz skrypt automatyzujący proces konfiguracji ustawień sieciowych, takich jak adres IP, maska podsieci i brama domyślna. Można użyć `Set-NetIPAddress` `Set-NetIPInterface` oraz `Set-DnsClientServerAddress` aby skonfigurować ustawienia sieciowe. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
 
-- **Bezpieczeństwo**: Utwórz skrypt, który przeprowadza audyt i monitoruje ustawienia zabezpieczeń oraz ostrzega użytkownika w przypadku wykrycia jakichkolwiek zmian. Można użyć funkcji `Get-AuditPolicy` cmdlet w celu pobrania zasad audytu i `Send-MailMessage` cmdlet do wysyłania powiadomień e-mail. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
+- **Bezpieczeństwo**: Utwórz skrypt, który przeprowadza audyt i monitoruje ustawienia zabezpieczeń oraz ostrzega użytkownika w przypadku wykrycia jakichkolwiek zmian. Można użyć funkcji `Get-AuditPolicy` cmdlet w celu pobrania zasad audytu i `Send-MailMessage` cmdlet do wysyłania powiadomień e-mail. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
 
-- **Planowanie zadań**: Utwórz skrypt, który zaplanuje i zautomatyzuje powtarzające się zadania, takie jak kopie zapasowe, aktualizacje i skanowanie systemu. Możesz użyć funkcji `Register-ScheduledTask` cmdlet do tworzenia zaplanowanych zadań oraz `Start-ScheduledTask` cmdlet, aby je wykonać. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
+- **Planowanie zadań**: Utwórz skrypt, który zaplanuje i zautomatyzuje powtarzające się zadania, takie jak kopie zapasowe, aktualizacje i skanowanie systemu. Możesz użyć funkcji `Register-ScheduledTask` cmdlet do tworzenia zaplanowanych zadań oraz `Start-ScheduledTask` cmdlet, aby je wykonać. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
 
-- **Manipulacja rejestrem**: Tworzenie skryptu, który modyfikuje lub pobiera wartości rejestru dla określonych kluczy lub wartości. Można użyć funkcji `Get-ItemProperty` i `Set-ItemProperty` do interakcji z rejestrem. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
+- **Manipulacja rejestrem**: Tworzenie skryptu, który modyfikuje lub pobiera wartości rejestru dla określonych kluczy lub wartości. Można użyć funkcji `Get-ItemProperty` i `Set-ItemProperty` do interakcji z rejestrem. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
 
-- Zdalna administracja**: Utwórz skrypt, który umożliwia zdalną administrację komputerami z systemem Windows, pozwalając użytkownikom na wykonywanie poleceń i skryptów na zdalnych maszynach. Można użyć funkcji `Enter-PSSession` cmdlet lub `Invoke-Command` do uruchamiania poleceń na komputerach zdalnych. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- Zdalna administracja**: Utwórz skrypt, który umożliwia zdalną administrację komputerami z systemem Windows, pozwalając użytkownikom na wykonywanie poleceń i skryptów na zdalnych maszynach. Można użyć funkcji `Enter-PSSession` cmdlet lub `Invoke-Command` do uruchamiania poleceń na komputerach zdalnych. [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Dokumentacja Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
 Zacznij odkrywać te pomysły na skrypty, aby zdobyć praktyczne doświadczenie i rozwinąć swoje umiejętności PowerShell.
 

@@ -30,7 +30,7 @@ Een context van 128K tokens vraagt nog een grote allocatie. De exacte KV-cachegr
 | **24GB discrete GPU** | 4-bitgewichten met kleinere context, of gedeeltelijke offload |
 | **32GB discrete GPU** | 6-bitgewichten met een bruikbaar 128K-contextdoel |
 | **Twee 16GB-GPU's** | Gesplitst model met minder ruimte voor runtime-overhead |
-| **64GB unified memory** | Grotere context en modellen, binnen de GPU-geheugenlimiet |
+| **64GB geïntegreerd geheugen** | Grotere context en modellen, binnen de GPU-geheugenlimiet |
 
 **32 GB is een meetpunt voor dimensionering, geen garantie.** Een model kan laden en toch te weinig ruimte overlaten voor een lange prompt, grotere batch, multimodale invoer of een tweede proces.
 

@@ -1,12 +1,12 @@
 ---
 title: "PowerCLI ਨਾਲ vCenter ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਦਾ ਆਡਿਟ ਕਿਵੇਂ ਕਰੀਏ"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਵਰਚੁਅਲ ਬੁਨਿਆਦੀ ਢਾਂਚੇ ਦੀ ਰੱਖਿਆ ਲਈ PowerCLI ਨਾਲ vCenter ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਦਾ ਆਡਿਟ ਕਰਨਾ ਸਿੱਖੋ।"
 genre: ["vCenter ਇਜਾਜ਼ਤ ਆਡਿਟ", "PowerCLI ਆਟੋਮੇਸ਼ਨ", "VMware ਸੁਰੱਖਿਆ", "ਵਰਚੁਅਲ ਬੁਨਿਆਦੀ ਢਾਂਚਾ ਪ੍ਰਬੰਧਨ", "ਇਜਾਜ਼ਤਾਂ ਦੀਆਂ ਨਿਯੁਕਤੀਆਂ", "ਵਰਤੋਂਕਾਰ ਪਹੁੰਚ ਨਿਯੰਤਰਣ", "ਸੁਰੱਖਿਆ ਕਮਜ਼ੋਰੀਆਂ", "PowerShell ਆਟੋਮੇਸ਼ਨ", "vSphere ਵਾਤਾਵਰਣ ਪ੍ਰਬੰਧਨ", "ਵਰਤੋਂਕਾਰ ਇਜਾਜ਼ਤ ਸਮੀਖਿਆ"]
-tags: ["vCenter", "PowerCLI", "ਇਜਾਜ਼ਤ ਆਡਿਟ", "vSphere", "VMware", "ਵਰਚੁਅਲ ਬੁਨਿਆਦੀ ਢਾਂਚਾ", "PowerShell", "ਵਰਤੋਂਕਾਰ ਪਹੁੰਚ ਨਿਯੰਤਰਣ", "ਸੁਰੱਖਿਆ ਕਮਜ਼ੋਰੀਆਂ", "ਇਜਾਜ਼ਤਾਂ ਦੀਆਂ ਨਿਯੁਕਤੀਆਂ", "ਆਟੋਮੇਸ਼ਨ", "PowerCLI cmdlets", "ਵਰਤੋਂਕਾਰ ਭੂਮਿਕਾਵਾਂ", "ਇਜਾਜ਼ਤ ਸਮੀਖਿਆ", "ਸੁਰੱਖਿਆ ਨੀਤੀਆਂ", "ਪਾਲਣਾ", "ਆਡਿਟ ਰਿਪੋਰਟਾਂ", "ਡਾਟਾ ਸੁਰੱਖਿਆ", "GDPR", "HIPAA", "ਵਰਤੋਂਕਾਰ ਪ੍ਰਬੰਧਨ", "vCenter ਵਰਤੋਂਕਾਰ", "ਸੁਰੱਖਿਆ ਦੇ ਚੰਗੇ ਅਮਲ", "ਸਰਕਾਰੀ ਨਿਯਮ", "PowerCLI ਸਥਾਪਨਾ", "vCenter ਕਨੈਕਸ਼ਨ", "PowerCLI ਸਕ੍ਰਿਪਟਾਂ", "ਆਡਿਟ ਪ੍ਰਕਿਰਿਆ", "ਆਡਿਟ ਡਾਟਾ ਨਿਰਯਾਤ", "ਇਜਾਜ਼ਤਾਂ ਹਟਾਉਣਾ"]
+tags: ["vCenter", "PowerCLI", "ਇਜਾਜ਼ਤ ਆਡਿਟ", "vSphere", "VMware", "ਵਰਚੁਅਲ ਬੁਨਿਆਦੀ ਢਾਂਚਾ", "PowerShell", "ਵਰਤੋਂਕਾਰ ਪਹੁੰਚ ਨਿਯੰਤਰਣ", "ਸੁਰੱਖਿਆ ਕਮਜ਼ੋਰੀਆਂ", "ਇਜਾਜ਼ਤਾਂ ਦੀਆਂ ਨਿਯੁਕਤੀਆਂ", "ਆਟੋਮੇਸ਼ਨ", "PowerCLI ਕਮਾਂਡਲੈਟ", "ਵਰਤੋਂਕਾਰ ਭੂਮਿਕਾਵਾਂ", "ਇਜਾਜ਼ਤ ਸਮੀਖਿਆ", "ਸੁਰੱਖਿਆ ਨੀਤੀਆਂ", "ਪਾਲਣਾ", "ਆਡਿਟ ਰਿਪੋਰਟਾਂ", "ਡਾਟਾ ਸੁਰੱਖਿਆ", "GDPR", "HIPAA", "ਵਰਤੋਂਕਾਰ ਪ੍ਰਬੰਧਨ", "vCenter ਵਰਤੋਂਕਾਰ", "ਸੁਰੱਖਿਆ ਦੇ ਚੰਗੇ ਅਮਲ", "ਸਰਕਾਰੀ ਨਿਯਮ", "PowerCLI ਸਥਾਪਨਾ", "vCenter ਕਨੈਕਸ਼ਨ", "PowerCLI ਸਕ੍ਰਿਪਟਾਂ", "ਆਡਿਟ ਪ੍ਰਕਿਰਿਆ", "ਆਡਿਟ ਡਾਟਾ ਨਿਰਯਾਤ", "ਇਜਾਜ਼ਤਾਂ ਹਟਾਉਣਾ"]
 cover: "/img/cover/audit-permissions-vcenter-powercli.webp"
 coverAlt: "ਗੂੜ੍ਹੇ ਨੀਲੇ ਪਿਛੋਕੜ ਉੱਤੇ ਵਰਤੋਂਕਾਰ ਇਜਾਜ਼ਤਾਂ ਅਤੇ ਪਹੁੰਚ ਪੱਧਰ ਦਿਖਾਉਂਦੇ ਅਮੂਰਤ ਤੱਤਾਂ ਵਾਲੇ ਵਰਚੁਅਲ ਡਾਟਾ ਸੈਂਟਰ ਦਾ ਚਿੱਤਰ।"
 coverCaption: "PowerCLI ਰਾਹੀਂ ਇਜਾਜ਼ਤਾਂ ਦਾ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਆਡਿਟ ਕਰਕੇ ਆਪਣਾ vCenter ਸੁਰੱਖਿਅਤ ਰੱਖੋ।"
@@ -82,22 +82,22 @@ PowerCLI ਸਥਾਪਤ ਅਤੇ vCenter ਨਾਲ ਜੁੜਿਆ ਹੋਵ�
 
    ਉਦਾਹਰਨ:
    ```powershell
-         # Connect to vCenter
+         # vCenter ਨਾਲ ਜੁੜੋ
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # vCenter ਦੇ ਸਾਰੇ ਵਰਤੋਂਕਾਰ ਪ੍ਰਾਪਤ ਕਰੋ
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # ਵਰਤੋਂਕਾਰਾਂ ਦੀਆਂ ਮਨਜ਼ੂਰੀਆਂ ਸੰਭਾਲਣ ਲਈ ਐਰੇ ਸ਼ੁਰੂ ਕਰੋ
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # ਹਰ ਵਰਤੋਂਕਾਰ 'ਤੇ ਜਾ ਕੇ ਉਸ ਦੀਆਂ ਮਨਜ਼ੂਰੀਆਂ ਪ੍ਰਾਪਤ ਕਰੋ
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # ਮਨਜ਼ੂਰੀਆਂ ਨੂੰ CSV ਫਾਈਲ ਵਿੱਚ ਬਦਲੋ
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 

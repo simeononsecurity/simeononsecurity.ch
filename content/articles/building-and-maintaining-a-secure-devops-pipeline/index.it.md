@@ -1,11 +1,11 @@
 ---
 title: "Costruire e mantenere una pipeline DevOps sicura: Migliori pratiche e casi di studio"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Imparate a costruire e mantenere una pipeline DevOps sicura utilizzando best practice ed esempi reali in questa guida completa."
-tags: ["DevOps", "sicurezza", "conduttura", "integrazione continua", "consegna continua", "automazione", "containerizzazione", "codifica sicura", "scansione delle vulnerabilità", "monitoring", "feedback", "controllo della versione", "controllo degli accessi", "recupero in caso di disastro", "continuità aziendale", "studio di caso", "Primavera", "Django", "OWASP", "Netflix", "Capital One"]
+tags: ["DevOps", "sicurezza", "flusso di distribuzione", "integrazione continua", "consegna continua", "automazione", "containerizzazione", "codifica sicura", "scansione delle vulnerabilità", "monitoraggio", "riscontro", "controllo della versione", "controllo degli accessi", "recupero in caso di disastro", "continuità aziendale", "studio di caso", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
 cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
 coverAlt: "Illustrazione digitale astratta di una pipeline DevOps sicura, con elementi visivi che rappresentano lo sviluppo del codice, i test automatizzati e la distribuzione, su uno sfondo scuro dai colori vivaci."
 coverCaption: ""
@@ -84,7 +84,7 @@ I controlli di accesso sono una componente cruciale per mantenere la sicurezza d
 
 Per esempio, strumenti come HashiCorp Vault possono essere utilizzati per implementare i controlli di accesso alle pipeline DevOps. Può essere utilizzato per gestire in modo sicuro l'accesso ai segreti e ad altre informazioni sensibili, assicurando che solo il personale autorizzato abbia accesso.
 
-### 4. Implementare piani di disaster recovery e continuità operativa
+### 4. Attuare piani di ripristino di emergenza e continuità operativa
 
 L'implementazione di piani di disaster recovery e business continuity è essenziale per garantire la disponibilità e la sicurezza di una pipeline DevOps. Questi piani devono essere sviluppati e testati regolarmente e devono includere procedure per rispondere agli incidenti di sicurezza e per riprendersi dalle interruzioni della pipeline.
 

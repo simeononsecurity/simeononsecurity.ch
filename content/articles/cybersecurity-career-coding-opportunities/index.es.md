@@ -1,12 +1,12 @@
 ---
 title: "Cómo iniciar una carrera en ciberseguridad"
 date: 2023-11-05
-lastmod: 2026-11-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Conoce los puestos, la importancia de programar y los mejores lenguajes para trabajar en ciberseguridad. Elige tu camino."
-genre: ["Tecnología", "Ciberseguridad", "Carrera profesional", "Programación", "TI", "Habilidades", "Oportunidades", "Aprendizaje", "Codificación", "Digital"]
-tags: ["Ciberseguridad", "Trayectorias profesionales", "Lenguajes de programación", "Habilidades de programación", "Puestos no técnicos", "Puestos técnicos", "Carreras de TI", "Tendencias tecnológicas", "Análisis de seguridad", "Seguridad de redes", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Protección de datos", "Informática forense digital", "Hacking ético", "Desarrollo de software", "Defensa cibernética", "Ingeniería de redes", "Consultoría de seguridad", "Desarrollo de habilidades", "Seguridad de la información", "Detección de amenazas", "Respuesta a incidentes", "Programación para seguridad"]
+genre: ["Tecnología", "Ciberseguridad", "Carrera profesional", "Programación", "TI", "Habilidades", "Oportunidades", "Aprendizaje", "Codificación", "Tecnología digital"]
+tags: ["Ciberseguridad", "Trayectorias profesionales", "Lenguajes de programación", "Habilidades de programación", "Puestos no técnicos", "Puestos técnicos", "Carreras de TI", "Tendencias tecnológicas", "Análisis de seguridad", "Seguridad de redes", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Protección de datos", "Informática forense digital", "Hacking ético", "Desarrollo de software", "Defensa cibernética", "Ingeniería de redes", "Consultoría de seguridad", "Desarrollo de habilidades", "Seguridad de la información", "Detección de amenazas", "Respuesta a incidentes", "Programación para seguridad"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Un profesional de ciberseguridad con una capa y un portátil, protegiendo frente a amenazas digitales."
 coverCaption: "Guardianes de los espacios digitales: apoyo a quienes protegen el ciberespacio"

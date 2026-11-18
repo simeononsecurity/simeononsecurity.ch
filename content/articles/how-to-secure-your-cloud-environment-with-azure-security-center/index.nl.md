@@ -1,12 +1,13 @@
 ---
-title: "Azure Beveiligingscentrum: Beveilig uw cloudomgeving met vertrouwen"
+title: "Uw cloudomgeving beveiligen met Microsoft Defender for Cloud"
 date: 2023-04-10
+lastmod: 2026-11-14
 toc: true
 draft: false
-description: "Leer hoe u uw cloudomgeving kunt beveiligen met behulp van Azure Security Center, met best practices en voorbeelden uit de praktijk."
-tags: ["Azuur", "Beveiligingscentrum", "cloudbeveiliging", "Azure Sentinel", "Azure Defender", "netwerkbeveiliging", "identiteitsbeheer", "gegevensbeveiliging", "detectie van bedreigingen", "reactie op bedreigingen", "MFA", "RBAC", "NSG's", "Azure Firewall", "WAF", "Azure AD", "Azure Informatiebeveiliging", "Encryptie van de Azure opslagdienst", "Azure schijfversleuteling"]
+description: "Beveilig Azure-workloads met Microsoft Defender for Cloud. Bekijk historische Azure Security Center-termen, aanbevelingen, beleidsregels en responsstappen."
+tags: ["Azure", "Security Center", "cloudbeveiliging", "Azure Sentinel", "Azure Defender", "netwerkbeveiliging", "identiteitsbeheer", "gegevensbeveiliging", "dreigingsdetectie", "respons op dreigingen", "MFA", "RBAC", "NSGs", "Azure Firewall", "WAF", "Azure AD", "Azure Information Protection", "Azure Storage Service Encryption", "Azure Disk Encryption"]
 cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
-coverAlt: "Een schildpictogram omgeven door wolkensymbolen, die een veilige cloudomgeving voorstellen, met het Azure Security Center-logo op het schild."
+coverAlt: "Een schild tussen cloudsymbolen staat voor een veilige cloudomgeving. Op het schild staat het Azure Security Center-logo."
 coverCaption: ""
 ---
 
@@ -15,6 +16,10 @@ coverCaption: ""
 Het beveiligen van uw cloudomgeving is essentieel om de gegevens, toepassingen en infrastructuur van uw organisatie te beschermen tegen bedreigingen. Microsoft's **Azure Security Center** is een krachtig hulpmiddel waarmee u uw beveiligingshouding kunt versterken en snel potentiële risico's in uw Azure-omgeving kunt identificeren. In dit artikel bespreken we hoe u uw cloudomgeving kunt beveiligen met behulp van Azure Security Center, en behandelen we de best practices voor het implementeren van verschillende beveiligingsfuncties. Daarnaast duiken we in dit artikel in meer technische details en voorbeelden, zodat u beter begrijpt hoe u uw cloudomgeving kunt beveiligen met behulp van Azure Security Center.
 
 ______
+
+*Productnamen zijn sinds de oorspronkelijke publicatie gewijzigd. Microsoft Azure Security Center heet nu Microsoft Defender for Cloud. Azure Active Directory heet nu Microsoft Entra ID. Azure Sentinel heet nu Microsoft Sentinel. Azure Defender verwijst naar Defender-plannen en workloadbeveiliging binnen Defender for Cloud. De oude namen blijven staan waar ze de terminologie uit 2023 beschrijven.*
+
+Het huidige [overzicht van Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction) beschrijft een Cloud Native Application Protection Platform met beheer van de cloudbeveiligingsstatus, DevSecOps en cloudworkloadbeveiliging. Beschikbaarheid en licenties hangen af van de cloud, het resourcetype, het abonnement en het plan.
 
 ## Inzicht in Azure Beveiligingscentrum
 
@@ -26,9 +31,9 @@ ______
 
 ## Beveiligingsbeleid en nalevingsnormen implementeren
 
-Met Azure Security Center kunt u beveiligingsbeleid implementeren en beheren in uw cloudomgeving. U kunt de **Azure Policy**-service gebruiken om aangepaste beveiligingsbeleidslijnen te maken of ingebouwde beleidslijnen gebruiken om best practices en nalevingsnormen af te dwingen. U kunt ook uw beveiligingsstatus toetsen aan industrienormen zoals[NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final), [CIS](https://www.cisecurity.org/), and [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)
+Met Azure Security Center kunt u beveiligingsbeleid implementeren en beheren in uw cloudomgeving. U kunt de **Azure Policy**-service gebruiken om aangepaste beveiligingsbeleidslijnen te maken of ingebouwde beleidslijnen gebruiken om best practices en nalevingsnormen af te dwingen. U kunt ook uw beveiligingsstatus toetsen aan industrienormen zoals [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final), [CIS](https://www.cisecurity.org/) en [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html).
 
-Azure Security Center biedt ook functies voor compliancebeheer, waarmee u de compliance-status van uw organisatie kunt volgen ten opzichte van verschillende regelgevingskaders, zoals[GDPR](https://gdpr.eu/), [HIPAA](https://www.hhs.gov/hipaa/index.html), and [PCI DSS](https://www.pcisecuritystandards.org/)
+Azure Security Center biedt ook functies voor compliancebeheer, waarmee u de compliance-status van uw organisatie kunt volgen ten opzichte van verschillende regelgevingskaders, zoals [GDPR](https://gdpr.eu/), [HIPAA](https://www.hhs.gov/hipaa/index.html) en [PCI DSS](https://www.pcisecuritystandards.org/).
 
 ______
 
@@ -45,13 +50,13 @@ Het implementeren van goede netwerkbeveiligingsmaatregelen, zoals **Network Secu
 NSG's fungeren als een virtuele firewall voor uw Azure resources, waarmee u regels kunt definiëren die netwerkverkeer van en naar uw resources toestaan of weigeren. U kunt bijvoorbeeld een NSG maken met regels om specifiek verkeer toe te staan of te weigeren:
 
 ```azurecli
-# Create a Network Security Group
+# Een netwerkbeveiligingsgroep maken
 az network nsg create --name MyNSG --resource-group MyResourceGroup
 
-# Add rules to allow or deny traffic
+# Regels toevoegen om verkeer toe te staan of te blokkeren
 az network nsg rule create --name MyNSGRule --nsg-name MyNSG --priority 100 --resource-group MyResourceGroup --access Allow --protocol Tcp --direction Inbound --source-address-prefixes '*' --source-port-ranges '*' --destination-address-prefixes '*' --destination-port-ranges '80'
 ```
-Meer informatie over[Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) in de officiële documentatie.
+Meer informatie over[Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) Gebruik in productie een bekend bronbereik in plaats van alle IPv4-bronnen toe te staan. Raadpleeg het [NSG-beveiligingsoverzicht](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview). in de officiële documentatie.
 
 #### Azure Firewall
 Azure Firewall is een beheerde, cloudgebaseerde netwerkbeveiligingsdienst die uw Azure-bronnen beschermt. Het biedt geavanceerde functies zoals filteren op basis van dreigingsinformatie, webcategorieën en gecentraliseerde registratie en analyse. Om Azure Firewall in te stellen, kunt u het volgende doen[quickstart instructions](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep)
@@ -61,17 +66,17 @@ Web Application Firewall (WAF) is een functie van **Azure Application Gateway** 
 
 Hier is een voorbeeld van hoe u een Application Gateway maakt met WAF ingeschakeld:
 ```azurecli
-# Create a WAF policy
+# Een WAF-beleid maken
 az network application-gateway waf-policy create --name MyWafPolicy --resource-group MyResourceGroup --location EastUS
 
-# Create a virtual network and subnet
+# Een virtueel netwerk en subnet maken
 az network vnet create --name MyVNet --resource-group MyResourceGroup --location EastUS --address-prefix 10.0.0.0/16
 az network vnet subnet create --name MySubnet --resource-group MyResourceGroup --vnet-name MyVNet --address-prefix 10.0.0.0/24
 
-# Create a public IP address
+# Een openbaar IP-adres maken
 az network public-ip create --name MyPublicIP --resource-group MyResourceGroup --location EastUS --sku Standard
 
-# Create an Application Gateway with WAF enabled
+# Een Application Gateway met ingeschakelde WAF maken
 az network application-gateway create --name MyAppGateway --resource-group MyResourceGroup --location EastUS --vnet-name MyVNet --subnet MySubnet --public-ip-address MyPublicIP --http-settings-cookie-based-affinity Enabled --sku WAF_v2 --waf-policy MyWafPolicy
 
 ```
@@ -88,10 +93,10 @@ MFA voegt een extra beveiligingslaag toe aan uw Azure AD-accounts door gebruiker
 Voorbeeld: MFA inschakelen voor een gebruiker
 
 ```powershell
-# Connect to Azure AD
+# Verbinden met Azure AD
 Connect-AzureAD
 
-# Enable MFA for a specific user
+# MFA inschakelen voor een specifieke gebruiker
 $UserPrincipalName = "johndoe@example.com"
 $StsUserObjectID = (Get-AzureADUser -Filter "UserPrincipalName eq '$UserPrincipalName'").ObjectId
 $StrongAuthRequirements = @(@{"Location"=""; "SatisfactionFactor"="2"; "VerificationMethod"="1"};@{"Location"=""; "SatisfactionFactor"="2"; "VerificationMethod"="2"})
@@ -102,7 +107,7 @@ Met RBAC kunt u granulaire machtigingen definiëren voor uw Azure resources, zod
 
 Voorbeeld: Een rol toewijzen aan een gebruiker
 ```azurecli
-# Assign a Reader role to a user
+# De rol Reader aan een gebruiker toewijzen
 az role assignment create --assignee johndoe@example.com --role "Reader" --scope "/subscriptions/your_subscription_id/resourceGroups/your_resource_group"
 ```
 #### Toezicht op verdachte activiteiten
@@ -113,12 +118,12 @@ Volg de volgende stappen om Azure AD Identity Protection in te stellen[official 
 Voorbeeld: Een beleid voor voorwaardelijke toegang maken
 
 ```powershell
-# Connect to Azure AD
+# Verbinden met Azure AD
 Connect-AzureAD
 
-# Create a Conditional Access policy
+# Beleid voor voorwaardelijke toegang maken
 $PolicyName = "BlockSignInFromUnknownLocations"
-$PolicyDescription = "Block sign-ins for users from unknown locations."
+$PolicyDescription = "Aanmeldingen van gebruikers vanaf onbekende locaties blokkeren."
 $PolicyState = "Enabled"
 $Conditions = @{
     "SignInRiskLevels" = @("medium","high");
@@ -134,7 +139,7 @@ $GrantControls = @{
 New-AzureADMSConditionalAccessPolicy -DisplayName $PolicyName -State $PolicyState -Conditions $Conditions -GrantControls $GrantControls -Description $PolicyDescription
 
 ```
-Meer informatie over[Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) and [Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) in de officiële documentatie.
+Meer informatie over [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview) en [Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) vindt u in de officiële documentatie.
 
 
 ### Gegevensbeveiliging
@@ -143,17 +148,17 @@ De bescherming van uw gegevens in de cloud is van cruciaal belang. Azure Securit
 
 #### Azure Information Protection
 
-**Azure Information Protection (AIP)** is een cloud-based oplossing waarmee u gevoelige documenten en e-mails kunt classificeren, labelen en beschermen. AIP biedt een reeks ingebouwde labels, zoals "Vertrouwelijk" en "Persoonlijk", die kunnen worden aangepast aan de behoeften van uw organisatie. U kunt AIP ook configureren om automatisch labels toe te passen op basis van vooraf gedefinieerde regels. Om aan de slag te gaan met AIP, volgt u de[official guide](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection)
+**Azure Information Protection (AIP)** is een cloud-based oplossing waarmee u gevoelige documenten en e-mails kunt classificeren, labelen en beschermen. AIP biedt een reeks ingebouwde labels, zoals "Vertrouwelijk" en "Persoonlijk", die kunnen worden aangepast aan de behoeften van uw organisatie. U kunt AIP ook configureren om automatisch labels toe te passen op basis van vooraf gedefinieerde regels. Om aan de slag te gaan met AIP, volgt u de[official guide](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) Azure Information Protection is een historische productnaam en staat in de actuele Sentinel-documentatie als verouderd. Raadpleeg de documentatie over Microsoft Purview Information Protection voordat u een nieuwe implementatie start.
 
 Voorbeeld: Een aangepast etiket maken
 
 ```powershell
-# Connect to the AIP service
+# Verbinden met de AIP-service
 Connect-AipService
 
-# Create a custom label with protection settings
+# Een aangepast label met beveiligingsinstellingen maken
 $LabelName = "Sensitive - Internal Use Only"
-$LabelDescription = "This label applies encryption and an access policy for internal use only."
+$LabelDescription = "Dit label past versleuteling en een toegangsbeleid voor uitsluitend intern gebruik toe."
 $LabelProtectionSettings = @{
     "ContentExpirationDate" = (Get-Date).AddMonths(6).ToUniversalTime();
     "OfflineAccessInterval" = "P7D";
@@ -167,7 +172,7 @@ New-AipServiceLabel -Name $LabelName -Description $LabelDescription -ProtectionS
 Voorbeeld: SSE inschakelen voor een opslagaccount
 
 ```azurecli
-# Enable SSE using Azure-managed keys
+# SSE inschakelen met door Azure beheerde sleutels
 az storage account update --name mystorageaccount --resource-group myresourcegroup --encryption-services blob file
 ```
 #### Azure Schijfversleuteling
@@ -175,10 +180,10 @@ az storage account update --name mystorageaccount --resource-group myresourcegro
 
 Voorbeeld: Azure-schijfversleuteling inschakelen voor een virtuele machine
 ```azurecli
-# Enable Azure Disk Encryption for a Windows VM
+# Azure Disk Encryption inschakelen voor een Windows-VM
 az vm encryption enable --resource-group myResourceGroup --name myVM --disk-encryption-keyvault myKeyVault
 ```
-Meer informatie over[Azure Information Protection](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection), [Azure Storage Service Encryption](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption), and [Azure Disk Encryption](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) in de officiële documentatie.
+Meer informatie over [Azure Information Protection](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection), [Azure Storage Service Encryption](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) en [Azure Disk Encryption](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview) vindt u in de officiële documentatie.
 ______
 
 ## Detecteren van en reageren op bedreigingen
@@ -192,7 +197,7 @@ Azure Security Center gebruikt **Azure Defender**, een set geavanceerde mogelijk
 Voorbeeld: Azure Defender inschakelen voor een abonnement
 
 ```azurecli
-# Enable Azure Defender for a subscription
+# Azure Defender inschakelen voor een abonnement
 az security auto-provisioning-setting update --name default --auto-provision on
 ```
 ### Reactie op bedreigingen
@@ -200,16 +205,18 @@ Wanneer een bedreiging wordt gedetecteerd, is het essentieel om snel en effectie
 
 Voorbeeld: Maak een Logic App playbook voor Azure Sentinel
 ```azurecli
-# Create a resource group
+# Een resourcegroep maken
 az group create --name MyResourceGroup --location EastUS
 
-# Create a Logic App
+# Een Logic App maken
 az logic workflow create --resource-group MyResourceGroup --location EastUS --name MyPlaybook --definition @playbook-definition.json
 ```
 De`playbook-definition.json` bestand moet de Logic App playbook definitie bevatten. U kunt voorbeelden van playbooks voor Azure Sentinel vinden in de[Azure-Sentinel GitHub repository](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks)
 
-Door gebruik te maken van de mogelijkheden van Azure Security Center voor detectie van bedreigingen en te integreren met Azure Sentinel, kunt u een robuuste beveiligingsstrategie opzetten om bedreigingen in uw Azure-omgeving te detecteren en erop te reageren. Meer informatie over[Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) and [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) in de officiële documentatie.
+Door gebruik te maken van de mogelijkheden van Azure Security Center voor detectie van bedreigingen en te integreren met Azure Sentinel, kunt u een robuuste beveiligingsstrategie opzetten om bedreigingen in uw Azure-omgeving te detecteren en erop te reageren. Meer informatie over [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) en [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) vindt u in de officiële documentatie.
 ______
+
+De [Defender for Cloud-connector](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud) stuurt waarschuwingen naar Microsoft Sentinel. Controleer de connector, regels voor gegevensverzameling en analyse en de incidentworkflow voordat u op automatisering vertrouwt.
 
 ## Toezicht en Rapportage
 
@@ -229,9 +236,9 @@ Met Azure Security Center kunt u nalevingsrapporten genereren voor verschillende
 
 ______
 
-## Best practices voor Azure Security Center
+## Aanbevolen werkwijzen voor Azure Security Center
 
-Om het meeste uit Azure Security Center te halen, kunt u overwegen de volgende best practices te implementeren:
+Om het meeste uit Azure Security Center te halen, kunt u overwegen de volgende aanbevolen werkwijzen toe te passen:
 
 1. **Schakel Azure Security Center in op al uw abonnementen**: Ervoor zorgen dat al uw Azure-abonnementen worden beschermd door Azure Security Center is cruciaal voor het behoud van een veilige cloudomgeving.
 2. **Bekijk regelmatig uw Secure Score**: Het monitoren van uw Secure Score helpt u inzicht te krijgen in uw algehele beveiligingshouding en gebieden te identificeren die verbetering behoeven.
@@ -240,15 +247,33 @@ Om het meeste uit Azure Security Center te halen, kunt u overwegen de volgende b
 5. **Blijf op de hoogte van compliancevereisten**: Zorg ervoor dat uw organisatie blijft voldoen aan de nieuwste regelgevingskaders door uw compliancebeleid regelmatig te herzien en bij te werken.
 
 ______
+## Huidige Defender for Cloud-werkwijze
+
+Gebruik deze volgorde voor een huidige implementatie. De namen in de oorspronkelijke secties blijven nuttig voor historische zoekopdrachten, maar de portal en documentatie gebruiken de terminologie van Defender for Cloud.
+
+1. **Breng abonnementen en connectors in kaart.** Leg Azure-abonnementen, AWS- of GCP-connectors, DevOps-projecten en kritieke resources vast.
+2. **Schakel de vereiste Defender-plannen in.** Kies plannen per workload en controleer de licenties voordat u ze inschakelt voor productieabonnementen.
+3. **Controleer Cloud Secure Score en aanbevelingen.** Geef prioriteit aan internetblootstelling, identiteitsrisico’s, misbruikbare kwetsbaarheden en ontbrekende logging. Een score bewijst geen volledige naleving.
+4. **Configureer Microsoft Entra-controles.** Vereis phishingbestendige MFA voor belangrijke accounts, pas RBAC met minimale rechten toe en controleer bevoorrechte toegang.
+5. **Stuur waarschuwingen naar Microsoft Sentinel.** Controleer opname van waarschuwingen, analytische regels, eigenaarschap, automatisering van respons en bewaartermijnen.
+6. **Controleer opnieuw na wijzigingen.** Bekijk aanbevelingen na patches, architectuurwijzigingen, nieuwe connectors of planwijzigingen.
+
+## Praktische controlelijst
+
+- **Identiteit:** verwijder verouderde accounts, beperk permanente beheerdersrechten en controleer uitsluitingen voor voorwaardelijke toegang.
+- **Netwerk:** verwijder openbare beheerpoorten, beperk NSG-bronbereiken en controleer of firewall- en WAF-logboeken de bewakingswerkruimte bereiken.
+- **Gegevens:** classificeer gevoelige opslag, controleer versleuteling en sleutelbeheer en test herstel van back-ups.
+- **Detectie:** controleer de ernst van waarschuwingen, meldingsroutes, incidenteigenaarschap en respons-playbooks.
+- **Governance:** wijs elke beleidsactie toe aan een eigenaar, een vervaldatum voor uitzonderingen en bewijs voor het vereiste raamwerk.
+
 
 ## Referenties
-
--[Azure Security Center Documentation](https://docs.microsoft.com/en-us/azure/security-center/)
--[Azure Policy Service](https://docs.microsoft.com/en-us/azure/governance/policy/)
--[NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
--[CIS](https://www.cisecurity.org/)
--[ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)
--[GDPR](https://gdpr.eu/)
--[HIPAA](https://www.hhs.gov/hipaa/index.html)
--[PCI DSS](https://www.pcisecuritystandards.org/)
+- [Azure Security Center Documentation](https://docs.microsoft.com/en-us/azure/security-center/)
+- [Azure Policy Service](https://docs.microsoft.com/en-us/azure/governance/policy/)
+- [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
+- [CIS](https://www.cisecurity.org/)
+- [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html)
+- [GDPR](https://gdpr.eu/)
+- [HIPAA](https://www.hhs.gov/hipaa/index.html)
+- [PCI DSS](https://www.pcisecuritystandards.org/)
 

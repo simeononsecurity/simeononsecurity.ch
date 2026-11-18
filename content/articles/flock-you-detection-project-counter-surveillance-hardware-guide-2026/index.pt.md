@@ -1,6 +1,7 @@
 ---
 title: "Flock-You Detection: Guia de Configuração para Contra-Vigilância"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Guia técnico completo do projeto open-source Flock-You para detectar câmeras ALPR da Flock Safety usando hardware baseado em ESP32. Inclui instruções de configuração, detalhes de firmware e opções de compra."
@@ -41,20 +42,20 @@ Cada interface de rede tem um **endereço MAC** composto por:
 Os pesquisadores **@NitekryDPaul** e a comunidade **DeFlockJoplin** descobriram **31 OUIs específicos** consistentemente presentes nas implantações de câmeras Flock Safety:
 
 ```
-Primary Espressif OUIs (ESP32-based modules):
-D4:AD:FC - Espressif Inc. (Common ESP32-S3)
+OUIs principais da Espressif (módulos baseados em ESP32):
+D4:AD:FC - Espressif Inc. (ESP32-S3 comum)
 AC:67:B2 - Espressif Inc. (ESP32-WROOM)
-84:F3:EB - Espressif Inc. (ESP32-S3 variants)
+84:F3:EB - Espressif Inc. (variantes do ESP32-S3)
 B4:E6:2D - Espressif Inc. (ESP32-C3)
-CC:DB:A7 - Espressif Inc. (ESP32-based)
+CC:DB:A7 - Espressif Inc. (baseado em ESP32)
 24:0A:C4 - Espressif Inc. (ESP32-SOLO)
 30:AE:A4 - Espressif Inc. (ESP32-WROVER)
-94:B9:7E - Espressif Inc. (ESP32-based)
+94:B9:7E - Espressif Inc. (baseado em ESP32)
 A4:CF:12 - Espressif Inc. (ESP32-S2)
 C0:49:EF - Espressif Inc. (ESP32-C6)
 
-Additional OUIs identified in Flock deployments:
-[... 21 additional manufacturer OUIs ...]
+OUIs adicionais identificados nas instalações do Flock:
+[... mais 21 OUIs de fabricantes ...]
 ```
 
 Quando um dispositivo de detecção escaneia o tráfego WiFi no modo promíscuo, **ele identifica qualquer dispositivo transmitindo quadros com esses OUIs**.
@@ -317,14 +318,14 @@ ______
 
 2. **Configuração de Software**:
    ```bash
-   # Install PlatformIO
+   # Instalar o PlatformIO
    pip install platformio
-   
-   # Clone repository
+
+   # Clonar o repositório
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
-   # Flash firmware
+
+   # Gravar o firmware
    pio run -t upload
    pio device monitor
    ```
@@ -636,37 +637,37 @@ ______
 Para os interessados na implementação técnica, aqui está uma visão simplificada da lógica de detecção:
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// Núcleo da detecção do Flock-You (conceitual, não é o código completo)
 
-// OUI Database (31 known Flock-associated OUIs)
+// Banco de dados OUI (31 OUI associados ao Flock)
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // Variante Espressif ESP32-S3
+    // ... mais 28 OUI ...
 };
 
-// Promiscuous mode callback
+// Callback do modo promíscuo
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // Extrair endereço MAC do quadro
+    uint8_t *mac = pkt->payload + 10; // Posição do campo addr2
+
+    // Verificar no banco de dados OUI
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // Correspondência OUI encontrada
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // Verificar o limite da intensidade do sinal
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // Analisar o quadro em busca de assinaturas adicionais
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // Detecção de alta confiança
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // Somente correspondência OUI
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -674,16 +675,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// Detecção de probe wildcard
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // Quadro de gerenciamento, subtipo solicitação de probe
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // Verificar IE SSID vazio (wildcard)
+    // A posição depende da estrutura do quadro
+    uint8_t *ie = &pkt->payload[24]; // Início dos IEs
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // Probe wildcard
     }
     return false;
 }

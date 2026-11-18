@@ -1,7 +1,7 @@
 ---
 title: "Flusso di pubblicazione AI per GitHub, Confluence e Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Pubblica una proposta di conservazione fissa su Confluence, GitHub e Jira, con controlli di versione e procedure per recuperare una pubblicazione parziale."
@@ -173,7 +173,7 @@ Queste stringhe sono testi di proposta esemplificativi, non record di un tenant 
 | Confluence REQ-17 | v4, sette giorni | PROP-042 r1, Product ha approvato v4 verso v5 | Il responsabile ha scritto v5, il reviewer ha riaperto v5 | Trenta giorni, backup e blocchi legali esclusi |
 | Configurazione GitHub | Commit `base-001` su `main`, sette giorni | PROP-042 r1, Operations ha approvato il diff candidato | PR integrata come `merge-002`, clone indipendente ha riletto trenta | Trenta giorni nella fonte protetta |
 | Confluence RUN-04 | v2, sette giorni | PROP-042 r1, Operations ha approvato v2 verso v3 | Il responsabile ha scritto v3, il reviewer ha riaperto v3 | Procedura operativa di trenta giorni con ripristino |
-| Jira PROP-042 | In Review | Entrambe le decisioni dei responsabili legate a r1 | Il responsabile della consegna ha allegato le prove e impostato `Done` | Chiusura dopo tutte e tre le riletture |
+| Jira PROP-042 | In revisione | Entrambe le decisioni dei responsabili legate a r1 | Il responsabile della consegna ha allegato le prove e impostato `Done` | Chiusura dopo tutte e tre le riletture |
 
 Le etichette sono illustrative e non costituiscono prove di un tenant. Il registro deve contenere i collegamenti alle versioni native delle pagine e gli ID dei commit. Prima di impostare Jira su `Done`, allega la proposta bloccata, le revisioni di entrambi i ruoli, il record della base di partenza, ogni lettura di ritorno della pubblicazione, il risultato del test negativo e i limiti di runtime irrisolti. Se manca un elemento, lascia la consegna aperta o impostala su `Blocked`.
 

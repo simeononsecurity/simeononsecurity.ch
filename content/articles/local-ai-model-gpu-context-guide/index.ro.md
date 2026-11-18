@@ -1,7 +1,7 @@
 ---
 title: "Ce model AI local ar trebui să rulezi? Ghid GPU, context și programare pentru octombrie 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Un ghid practic din octombrie 2026 pentru alegerea modelelor AI locale destinate agenților de programare. Compară memoria GPU, creșterea KV cache, dimensiunea contextului, calitatea cuantizării, procesarea prompturilor, setările de raționament și costurile închirierii în cloud."
@@ -78,7 +78,7 @@ Aceste valori descriu arhitecturi și setări runtime specifice. Folosește-le c
 |---|---|---|
 | **Attention complet în fiecare strat** | Creștere mare a cache-ului | Necesită mai multă memorie pentru prompturi lungi |
 | **Attention hibrid sau sliding** | Creștere mai mică a cache-ului în unele straturi | Mai mult spațiu pentru context la aceeași dimensiune a modelului |
-| **Mixture of experts** | Mai puțini parametri activi pe token | Mai puține calcule pe token, dar toate greutățile au nevoie de stocare |
+| **Amestec de experți (MoE)** | Mai puțini parametri activi pe token | Mai puține calcule pe token, dar toate greutățile au nevoie de stocare |
 | **Extensie pentru context lung** | Fereastră de lucru mai mare | Mai multă memorie pentru cache și mai multă procesare a promptului |
 
 **Citește arhitectura modelului înainte să cumperi memorie.** Numărul de parametri ascunde costul unei sesiuni lungi de programare.

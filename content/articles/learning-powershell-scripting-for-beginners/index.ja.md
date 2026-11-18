@@ -3,6 +3,7 @@ title: "PowerShellスクリプティング：タスクを自動化するため�
 draft: false
 toc: true
 date: 2023-02-25
+lastmod: 2026-11-14
 description: "PowerShellスクリプトの基本を学び、タスクを自動化するための初心者向けステップバイステップガイドです。コマンドレット、ループ、関数などを網羅しています。"
 genre: ["技術情報", "プログラミング", "オートメーション", "ウィンドウズ", "スクリプト", "インフォメーション", "アドミニストレーティブタスク", "コンピュータ管理", "ソフトウェア開発", "コーディング"]
 tags: ["PowerShellスクリプティング", "PowerShellによる自動化", "ウィンドウズスクリプト", "PowerShellコマンドレット", "PowerShellモジュール", "PowerShellのループ", "PowerShellの条件文", "PowerShell関数", "PowerShellのベストプラクティス", "PowerShellのデバッギング", "PowerShellのテスト", "PowerShellの変数", "PowerShell ISE", "PowerShellリモーティング", "マイクロソフトテクノロジー", "ITオートメーション", "けいさんきかんり", "ビギナーズコーディング", "管理業務", "PowerShellスクリプトのアイデア", "自動バックアップ", "ファイル管理", "システム情報", "ユーザー管理", "ソフトウェアインストール", "ネットワーク構成", "セキュリティオートメーション", "タスクスケジューリング", "レジストリ操作", "リモート管理"]
@@ -24,7 +25,7 @@ PowerShellは、Microsoft社が開発した強力なコマンドラインシェ�
 
 PowerShellは、ほとんどのバージョンのWindowsオペレーティングシステムにプリインストールされています。ただし、古いバージョンのWindowsを使用している場合や、より新しいバージョンのPowerShellが必要な場合は、Microsoftのウェブサイトからダウンロードすることができます。PowerShellのダウンロードとインストールは、以下の手順で行います：
 
-1.にアクセスします。 [Microsoft PowerShell website](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2)をクリックし、インストールするPowerShellのバージョンを選択します。
+1.にアクセスします。 [Microsoft PowerShell の公式サイト](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2)をクリックし、インストールするPowerShellのバージョンを選択します。
 2.インストールファイルをダウンロードし、実行する。
 3.画面の指示に従って、インストールを完了します。
 
@@ -74,11 +75,11 @@ $name = "John"
 #### ループ
 ループは、あるコードのブロックを一定回数繰り返すために使用されます。PowerShellでは、以下のようなループの種類をサポートしています：
 
-- For ループ**：コードのブロックを特定の回数だけ繰り返します。
-- For ループ**：コードのブロックを特定の回数だけ繰り返します。
-- Do-Whileループ**：少なくとも1回、そして条件が真である限り、コードのブロックを繰り返します。
-- orEachループ**：コレクション内の各アイテムに対して、コードのブロックを繰り返します。
-  
+- **Forループ**：コードのブロックを特定の回数だけ繰り返します。
+- **Whileループ**：条件が真である限り、コードのブロックを繰り返します。
+- **Do-Whileループ**：条件の判定前に少なくとも1回実行し、その後は条件が真である限り繰り返します。
+- **ForEachループ**：コレクション内の各アイテムに対して、コードのブロックを繰り返します。
+
 例えば、次のコードは、Forループを使って1から5までの数字を表示します：
 ```powershell
 for($i=1; $i -le 5; $i++) {
@@ -88,7 +89,7 @@ Write-Host $i
 
 #### 条件付きステートメント
 
-条件付きステートメント（Conditional Statements
+条件付きステートメント
 
 条件文は、特定の条件が真である場合にコードブロックを実行するために使用されます。PowerShellでは、次のようなタイプの条件文をサポートしています：
 
@@ -101,7 +102,7 @@ Write-Host $i
 ```powershell
 $number = 10
 if ($number -gt 5) {
-    Write-Host "The number is greater than 5"
+    Write-Host "数値は 5 より大きい"
 }
 ```
 #### ファンクション
@@ -122,7 +123,7 @@ function Add-Numbers {
 }
 
 $result = Add-Numbers -num1 5 -num2 10
-Write-Host "The result is $result"
+Write-Host "結果は $result です"
 ```
 ### PowerShell ISE
 PowerShell ISE (Integrated Scripting Environment) は、PowerShell スクリプトのためのグラフィカルユーザーインターフェイスです。PowerShell ISE は、リッチテキストエディタ、デバッグツール、および PowerShell スクリプトの作成とテストを容易にするその他の機能を提供します。PowerShell ISEを開くには、次の手順に従います：
@@ -171,11 +172,11 @@ PowerShellスクリプト**を作成する場合、スクリプトが**安全**�
 
 - 説明的な変数名を使用する**：説明的な変数名**：目的を明確に示す変数名を使用する。
 - コメントを使用する**：コメントの使用**：コードの目的を説明するためにコメントを使用します。
-- エラー処理**を使用するエラーハンドリングを使用して、エラーや例外を優雅に処理する。その `Try...Catch...Finally`PowerShellのコンストラクトを使用すると、例外を処理し、適切なアクションを実行することができます。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
-- **Test scripts thoroughly**：スクリプトを徹底的にテストして、期待通りに動作することを確認します。PowerShellのテストフレームワークである**Pester**を使って、スクリプトのユニットテストを書き、実行することができます。 [Pester Documentation](https://pester.dev/)
-- **関数とモジュールを使う**：コードを整理し、再利用性を高めるために、関数とモジュールを使用します。関数はコードをより小さく、管理しやすい断片に分解することを可能にし、モジュールはコードをパッケージ化して配布する方法を提供します。 [About Functions](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [About Modules](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
-- **Avoid hardcoding values**：スクリプト内で値をハードコードすることは避け、代わりにパラメータや変数を使用します。これにより、スクリプトはより柔軟で再利用しやすくなります。スクリプトにパラメータを渡すには、次のようにします。 `param`のキーワードを使用します。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
-- **Use verbose output**：スクリプトの進行状況について追加情報を提供するために、冗長出力を使用します。を使用することができます。 `Write-Verbose`スクリプトの実行中に冗長なメッセージを表示するコマンドレットです。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
+- エラー処理**を使用するエラーハンドリングを使用して、エラーや例外を優雅に処理する。その `Try...Catch...Finally`PowerShellのコンストラクトを使用すると、例外を処理し、適切なアクションを実行することができます。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
+- **スクリプトを十分にテストする**：スクリプトを徹底的にテストして、期待通りに動作することを確認します。PowerShellのテストフレームワークである**Pester**を使って、スクリプトのユニットテストを書き、実行することができます。 [Pester のドキュメント](https://pester.dev/)
+- **関数とモジュールを使う**：コードを整理し、再利用性を高めるために、関数とモジュールを使用します。関数はコードをより小さく、管理しやすい断片に分解することを可能にし、モジュールはコードをパッケージ化して配布する方法を提供します。 [関数について](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [モジュールについて](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
+- **値のハードコードを避ける**：スクリプト内で値をハードコードすることは避け、代わりにパラメータや変数を使用します。これにより、スクリプトはより柔軟で再利用しやすくなります。スクリプトにパラメータを渡すには、次のようにします。 `param`のキーワードを使用します。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
+- **詳細な出力を使用する**：スクリプトの進行状況について追加情報を提供するために、冗長出力を使用します。を使用することができます。 `Write-Verbose`スクリプトの実行中に冗長なメッセージを表示するコマンドレットです。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
 
 これらのベストプラクティスに従うことで、より効率的で保守性の高いPowerShellスクリプトを書くことができ、生産性を向上させ、自動化タスクの安定性を確保することができます。
 
@@ -187,10 +188,10 @@ PowerShellスクリプト**を作成する場合、スクリプトが**安全**�
 以下は、Try-Catchステートメントを使用して、エラーを優雅に処理する例である：
 ```powershell
 try {
-    # some code that might throw an error
+    # エラーを発生させる可能性のあるコード
 }
 catch {
-    Write-Error "An error occurred: $_"
+    Write-Error "エラーが発生しました: $_"
 }
 ```
 
@@ -200,11 +201,11 @@ PowerShell スクリプトのテストは、期待通りに動作することを
 
 ここでは、Pesterを使用してPowerShellスクリプトをテストする例を紹介します：
 ```powershell
-Describe "My PowerShell Script" {
-    It "Does something" {
-        # some code that should return the expected result
+Describe "自分の PowerShell スクリプト" {
+    It "何かを実行する" {
+        # 期待する結果を返すはずのコード
         $result = Do-Something
-        $result | Should -Be "expected result"
+        $result | Should -Be "期待する結果"
     }
 }
 ```
@@ -221,7 +222,7 @@ function Get-ProcessCount {
 }
 
 $count = Get-ProcessCount
-Write-Host "There are $count processes running."
+Write-Host "$count 個のプロセスが実行中です。"
 ```
 
 #### 値のハードコード化を避ける
@@ -233,7 +234,7 @@ param (
     [string]$name
 )
 
-Write-Host "Hello, $name!"
+Write-Host "$name さん、こんにちは！"
 ```
 
 #### Verbose出力を使用する
@@ -242,39 +243,39 @@ Verbose 出力は、スクリプトの進捗に関する追加情報を提供し
 ここでは、PowerShellで冗長出力を使用する例について説明します：
 ```powershell
 function Get-ProcessCount {
-    Write-Verbose "Getting processes..."
+    Write-Verbose "プロセスを取得しています..."
     $processes = Get-Process
     $count = $processes.Count
     return $count
 }
 
 $count = Get-ProcessCount -Verbose
-Write-Host "There are $count processes running."
+Write-Host "$count 個のプロセスが実行中です。"
 ```
 
 ### 初心者のためのPowerShellスクリプトのアイデア10選
 
 PowerShellスクリプトの初心者の方向けに、スクリプトのアイデアを10個ご紹介します：
 
-- バックアップの自動化**：重要なファイルやディレクトリを外付けハードドライブやクラウドストレージサービスにバックアップするプロセスを自動化するスクリプトを作成します。を使用することができます。 `Copy-Item`コマンドレットでファイルをコピーし `Start-Job`コマンドレットを使用すると、バックグラウンドでバックアップ処理を実行することができます。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
+- バックアップの自動化**：重要なファイルやディレクトリを外付けハードドライブやクラウドストレージサービスにバックアップするプロセスを自動化するスクリプトを作成します。を使用することができます。 `Copy-Item`コマンドレットでファイルをコピーし `Start-Job`コマンドレットを使用すると、バックグラウンドでバックアップ処理を実行することができます。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
 
-- **ファイル管理**：ファイルやディレクトリを、ファイルの種類やサイズなどの条件に基づいて別のフォルダに分類して整理するスクリプトを作成します。を使用することができます。 `Get-ChildItem`コマンドレットでファイルを取得し `Move-Item`コマンドレットを使用して、目的の場所に移動させることができます。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
+- **ファイル管理**：ファイルやディレクトリを、ファイルの種類やサイズなどの条件に基づいて別のフォルダに分類して整理するスクリプトを作成します。を使用することができます。 `Get-ChildItem`コマンドレットでファイルを取得し `Move-Item`コマンドレットを使用して、目的の場所に移動させることができます。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
 
-- **システム情報**：CPUやメモリの使用量、ディスク容量、ネットワーク設定などのシステム情報を取得し、見やすく表示するスクリプトを作成します。を使用することができます。 `Get-WmiObject`コマンドレットを使用して、システム情報を収集し、フォーマットすることができます。 `Format-Table`または `Out-GridView` [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
+- **システム情報**：CPUやメモリの使用量、ディスク容量、ネットワーク設定などのシステム情報を取得し、見やすく表示するスクリプトを作成します。を使用することができます。 `Get-WmiObject`コマンドレットを使用して、システム情報を収集し、フォーマットすることができます。 `Format-Table`または `Out-GridView` [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
 
-- **User management**：Windowsオペレーティングシステムのユーザーとグループの追加、変更、削除のプロセスを自動化するスクリプトを作成します。を使用することができます。 `New-LocalUser` `Set-LocalUser`と `Remove-LocalUser`ユーザーを管理するためのコマンドレットと `New-LocalGroup` `Add-LocalGroupMember`と `Remove-LocalGroup`コマンドレットを使用して、グループを管理します。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
+- **ユーザー管理**：Windowsオペレーティングシステムのユーザーとグループの追加、変更、削除のプロセスを自動化するスクリプトを作成します。を使用することができます。 `New-LocalUser` `Set-LocalUser`と `Remove-LocalUser`ユーザーを管理するためのコマンドレットと `New-LocalGroup` `Add-LocalGroupMember`と `Remove-LocalGroup`コマンドレットを使用して、グループを管理します。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
 
-- **ソフトウエアのインストール**：複数のコンピューターに一度にソフトウェアをインストールし、設定するスクリプトを作成し、時間と手間を省くことができます。を使用することができます。 `Invoke-Command`コマンドレットを使用して、リモートコンピューターでインストールコマンドを実行します。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- **ソフトウエアのインストール**：複数のコンピューターに一度にソフトウェアをインストールし、設定するスクリプトを作成し、時間と手間を省くことができます。を使用することができます。 `Invoke-Command`コマンドレットを使用して、リモートコンピューターでインストールコマンドを実行します。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
-- **ネットワーク設定**：IPアドレス、サブネットマスク、デフォルトゲートウェイなど、ネットワーク設定のプロセスを自動化するスクリプトを作成します。を使用することができます。 `Set-NetIPAddress` `Set-NetIPInterface`と `Set-DnsClientServerAddress`コマンドレットを使用して、ネットワーク設定を行います。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
+- **ネットワーク設定**：IPアドレス、サブネットマスク、デフォルトゲートウェイなど、ネットワーク設定のプロセスを自動化するスクリプトを作成します。を使用することができます。 `Set-NetIPAddress` `Set-NetIPInterface`と `Set-DnsClientServerAddress`コマンドレットを使用して、ネットワーク設定を行います。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
 
-- **Security**：セキュリティ設定を監査・監視し、変更が検出された場合はユーザーに警告するスクリプトを作成します。このスクリプトでは `Get-AuditPolicy`コマンドレットを使用して、監査ポリシーを取得し `Send-MailMessage`コマンドレットを使用して、電子メール通知を送信します。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
+- **Security**：セキュリティ設定を監査・監視し、変更が検出された場合はユーザーに警告するスクリプトを作成します。このスクリプトでは `Get-AuditPolicy`コマンドレットを使用して、監査ポリシーを取得し `Send-MailMessage`コマンドレットを使用して、電子メール通知を送信します。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
 
-- **タスクスケジューリング**：バックアップ、アップデート、システムスキャンなど、定期的なタスクをスケジュールして自動化するスクリプトを作成します。を使用することができます。 `Register-ScheduledTask`コマンドレットでスケジュールタスクを作成し `Start-ScheduledTask`コマンドレットで実行します。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
+- **タスクスケジューリング**：バックアップ、アップデート、システムスキャンなど、定期的なタスクをスケジュールして自動化するスクリプトを作成します。を使用することができます。 `Register-ScheduledTask`コマンドレットでスケジュールタスクを作成し `Start-ScheduledTask`コマンドレットで実行します。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
 
-- **レジストリ操作**：特定のキーや値のレジストリ値を変更したり、取得したりするスクリプトを作成します。を使用することができます。 `Get-ItemProperty`と `Set-ItemProperty`レジストリと対話するためのコマンドレットです。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
+- **レジストリ操作**：特定のキーや値のレジストリ値を変更したり、取得したりするスクリプトを作成します。を使用することができます。 `Get-ItemProperty`と `Set-ItemProperty`レジストリと対話するためのコマンドレットです。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
 
-- **Remote administration**：Windowsコンピュータのリモート管理を可能にするスクリプトを作成し、ユーザーがリモートマシンでコマンドやスクリプトを実行できるようにします。を使用することができます。 `Enter-PSSession`コマンドレットまたは `Invoke-Command`コマンドレットを使用して、リモートコンピューター上でコマンドを実行することができます。 [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- **Remote administration**：Windowsコンピュータのリモート管理を可能にするスクリプトを作成し、ユーザーがリモートマシンでコマンドやスクリプトを実行できるようにします。を使用することができます。 `Enter-PSSession`コマンドレットまたは `Invoke-Command`コマンドレットを使用して、リモートコンピューター上でコマンドを実行することができます。 [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Microsoft のドキュメント](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
 これらのスクリプトのアイデアを探求して、実践的な経験を積み、PowerShellのスキルを拡大することを始めましょう。
 

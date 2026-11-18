@@ -1,7 +1,7 @@
 ---
 title: "用于网络安全的 PowerShell：自动化与防御"
 date: 2023-02-02
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "探索 PowerShell 在增强网络安全操作方面的强大功能，并通过自动化和简化流程来实现符合行业标准。"
@@ -11,7 +11,7 @@ coverAlt: "一个人在键盘上打字，背景是计算机服务器和网线，
 coverCaption: ""
 ---
 
-## Introduction：
+## 引言
 
 PowerShell 是一种功能强大、用途广泛的脚本语言，在网络安全领域越来越受欢迎。它是一种基于任务的命令行 shell 和脚本语言，构建于 .NET 框架之上，旨在自动执行管理任务并简化复杂流程。PowerShell 能够自动化和简化日常任务，使安全团队能够专注于更重要的活动，因此在网络安全操作和合规性方面的使用越来越广泛。
 

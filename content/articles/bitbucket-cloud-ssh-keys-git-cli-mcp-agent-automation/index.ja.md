@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket Cloud SSHキー：AIエージェント向け読み取り専用Gitアクセス"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "AIエージェントの読み取り専用ワークフロー向けに、Bitbucket CloudのSSHキー、Git CLIアクセス、REST APIトークン、1Password、MCPツールを設定します。"
@@ -138,7 +138,7 @@ Atlassianの[複数リポジトリアクセスキーガイド](https://support.a
 ファイルを使うポータブルな例：
 
 ```ini
-# .gitconfig inside one local repository
+# 1 つのローカルリポジトリ内の .gitconfig
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

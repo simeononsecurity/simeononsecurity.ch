@@ -3,7 +3,7 @@ title: "AIサイバーセキュリティ認定資格は実務に追いついて�
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "認定資格の経験と現在の攻撃対象領域の限界を踏まえ、AIガバナンス認定資格とAIセキュリティ実務の隔たりについて考察します。"
 tags: ["AIセキュリティ", "AIガバナンス", "AI認定資格", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "プロンプトインジェクション", "AIサイバーセキュリティ", "LLMセキュリティ", "OWASP LLM Top 10", "MITRE ATLAS", "AIリスク管理", "AIコンプライアンス", "機械学習セキュリティ", "モデルのサプライチェーン", "敵対的AI", "AIエージェント", "MCPセキュリティ", "AIレッドチーム演習", "AIガバナンス認定資格", "エージェント型AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

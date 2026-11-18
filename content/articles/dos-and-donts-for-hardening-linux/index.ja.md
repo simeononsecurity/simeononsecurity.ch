@@ -1,9 +1,10 @@
 ---
 title: "Linuxシステムのハードニングに欠かせない「やるべきこと」と「やってはいけないこと」。"
 date: 2023-02-28
+lastmod: 2026-11-15
 toc: true
 draft: false
-description: "アップデート、ファイアウォールの使用、SELinuxやAppArmorの有効化、パスワードポリシーの設定、システムログの監視など、Linuxシステムの堅牢化に不可欠なDoとDonを学ぶことができます。"
+description: "アップデート、ファイアウォールの使用、SELinuxやAppArmorの有効化、パスワードポリシーの設定、システムログの監視など、Linuxシステムの堅牢化に不可欠な「やるべきこと」と「避けるべきこと」を学ぶことができます。"
 tags: ["Linuxのセキュリティ", "システムハードニング", "ファイヤーウォール", "セリナックス", "AppArmor", "パスワードポリシー", "システムアップデート", "システムログ", "セキュリティモジュール", "アクセスコントロールポリシー", "サイバーセキュリティ", "システムセキュリティ", "ネットワークセキュリティ", "脆弱性管理", "セキュリティベストプラクティス", "ITセキュリティ", "情報セキュリティ", "ソフトウェアアップデート", "ルートアクセス", "パスワードマネージャ"]
 cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Linuxと書かれた盾を持つ漫画のロックが、矢を盾に跳ね返される。"
@@ -13,7 +14,7 @@ coverCaption: ""
 
 Linuxは、個人でも企業でもよく使われるオペレーティングシステムです。オープンソースであることから、他のオペレーティング・システムよりも安全だと思われがちですが、システムとデータの安全性を確保するためには、適切なハードニングが必要です。この記事では、Linuxシステムの安全性を維持するための一般的なハードニングの方法と注意点について説明します。
 
-## Do's：
+## 推奨事項：
 
 ### システムを常にアップデートしておく
 
@@ -290,13 +291,13 @@ Linux用のログ管理ツールの例としては、以下のものがありま
 
 ______
 
-## Don'ts：
+## 避けるべきこと：
 
 ### 弱いパスワードの使用
 
 脆弱なパスワードを使用することは、Linux システムを攻撃されやすい状態にする一般的な間違いです。攻撃者は、一般的な単語、名前、または日付に基づいたパスワードを推測するツールを使用することができます。簡単に推測できない、強力でユニークなパスワードを使用することが重要です。
 
-大文字、小文字、数字、特殊文字を組み合わせて使用することで、強力なパスワードを作成することができます。を使用するのもよい習慣です。 [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)は、パスワードを覚えて、複数のアカウントで同じパスワードを使用しないようにするのにも役立ちます。
+大文字、小文字、数字、特殊文字を組み合わせて、強力なパスワードを作成できます。また、複雑なパスワードを安全に生成して保存するには、[パスワードマネージャー](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)を使うとよいでしょう。[パスワードマネージャー](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)は、パスワードを覚えやすくし、複数のアカウントで同じパスワードを使わないようにするのにも役立ちます。
 
 ### rootのSSHアクセスを許可する
 

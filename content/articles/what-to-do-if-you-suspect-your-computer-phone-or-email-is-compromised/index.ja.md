@@ -1,11 +1,11 @@
 ---
 title: "電子メールや電話が危険にさらされていると思ったときの対処法"
 date: 2023-02-27
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "パスワードの変更、マルウェアのスキャン、デバイスの消去など、メールやデスクトップ、携帯電話がハッキングされた疑いがある場合に取るべき重要なステップをご紹介します。"
-tags: ["デバイスセキュリティ", "データ保護", "故障した装置", "ハッキングメール", "ハックフォン", "マルウェア", "ウィルス除去", "パスワードセキュリティ", "データバックアップ", "二要素認証", "サイバーセキュリティ", "オンラインセーフティー", "デジタルプライバシー", "こじんじょうほうぬすみ", "オンライン詐欺", "テクニカルサポート", "パソコン修理", "データ復旧", "ITサービス", "技術"]
+tags: ["デバイスセキュリティ", "データ保護", "故障した装置", "ハッキングメール", "ハックフォン", "マルウェア", "ウィルス除去", "パスワードセキュリティ", "データバックアップ", "二要素認証", "サイバーセキュリティ", "オンラインセーフティー", "デジタルプライバシー", "こじんじょうほうぬすみ", "オンライン詐欺", "テクニカルサポート", "パソコン修理", "データ復旧", "ITサービス", "技術", "メールのセキュリティ", "パソコンのセキュリティ", "スマートフォンのセキュリティ", "デバイスへの不正侵入", "セキュリティ侵害", "デバイスの侵害", "マルウェアスキャン", "データ消去", "暗号資産の鍵", "暗号資産ウォレットのセキュリティ", "資産の保護", "メールアカウントの侵害", "デバイスのセキュリティ対策", "メールを安全にする方法", "侵害されたスマートフォンを保護する手順", "マルウェアの削除方法", "パスワードセキュリティのベストプラクティス", "データのバックアップ方法", "二要素認証の重要性", "オンライン安全のためのサイバー対策", "デジタルプライバシーのヒント", "オンラインでの個人情報盗難の防止", "オンライン詐欺への対処法", "侵害されたデバイスの技術サポート", "パソコン修理サービス", "データ復旧ソリューション", "デバイスセキュリティのITサービス", "最新の技術動向", "安全なメールの運用", "パソコンのセキュリティ対策", "スマートフォンの安全対策", "デバイスへの不正侵入を防ぐ"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "パソコンやスマホの前に立って心配そうな表情を浮かべる人と、その背後に潜む漫画のハッカーが描かれた画像。"
 coverCaption: ""
@@ -29,15 +29,19 @@ coverCaption: ""
 
 デバイスとデータを保護するために適切な行動を取ることができるように、侵害の兆候をメモしておくことが重要です。お使いのデバイスが危険にさらされているかどうかわからない場合は、以下のような方法で対処することをお勧めします。
 
+
+フィッシングメールとソーシャルエンジニアリングの見分け方を確認しましょう： [フィッシングメールや不審なメール](https://simeononsecurity.com/articles/how-to-identify-phishing/)、 [ソーシャルエンジニアリング](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## ステップ2： パスワードを変更し、リカバリ情報を確認する
+## [ステップ2：パスワードを変更し、復旧情報を確認する](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - デバイスが侵害された疑いがある場合、すべてのアカウントのパスワード**を直ちに変更する。
 
 
 メール、デスクトップ、電話のいずれかが侵害された疑いがある場合、次のステップは、すべてのアカウントのパスワードをすぐに変更することです。これには時間がかかるので、メール、銀行口座、ソーシャルメディアアカウントなど、重要なアカウントを優先的に変更しましょう。
 
+詳しい手順はこちらをご覧ください： [パスワードの変更](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [強固で一意のパスワードの選択](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [強固なパスワードの作成](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) 、 [二要素認証の有効化](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/).
 - 電子メール、銀行口座、ソーシャルメディア口座など、重要なアカウント**を優先してください。
 
 - 各アカウントに強力でユニークなパスワード**を選択し、**複数のアカウントで同じパスワード**を使用することは避けてください。
@@ -47,18 +51,18 @@ ______
 
 ***安全なパスワードのいくつかの例***：
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: 大文字、小文字、数字、記号を含む12文字のパスワード
+- Ilovesecurity7!: 単語と数字に記号を組み合わせた16文字のパスワード
+- xK2%qpzL5!rS: 大文字と小文字、数字、記号をランダムに含む12文字のパスワード
 ```
 
 ***パスフレーズ***の例です：
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: 数字を含むランダムな3語で構成された24文字のパスフレーズ
+- orange$5my#yellow: 数字と記号を含むランダムな2語で構成された16文字のパスフレーズ
+- pizza3onions?lovers: 数字と記号を1つ含むランダムな2語で構成された19文字のパスフレーズ
+- tangerine8shark?43: 数字と記号を1つ含むランダムな2語で構成された18文字のパスフレーズ
+- elephant6pasta*tree: 数字と記号を1つ含むランダムな2語で構成された19文字のパスフレーズ
 ```
 
 - 二要素認証**を有効にすることで、より安全性を高めることができます。
@@ -94,6 +98,7 @@ ______
 - メールクライアント**（Microsoft Outlook、Apple Mail、Gmailなど）
 - アプリケーション**（Microsoft Office、Adobe Creative Suite など）
 
+こちらもご覧ください： [おすすめのウイルス対策・マルウェア対策ソフトウェア](https://simeononsecurity.com/recommendations/anti-virus).
 ______
 
 ## ステップ4：デバイスのマルウェアをスキャンする
@@ -116,6 +121,7 @@ ______
 
 また、感染したデバイスで使用したUSBメモリなどの外部デバイスをスキャンするのもよい方法です。外付けデバイスには、デバイスを感染させるマルウェアが含まれていることが多いので、デバイスで使用する前にスキャンすることが重要です。
 
+詳しくはこちら： [3-2-1バックアップルール](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 ______
 
 ## ステップ5：重要なファイルのバックアップとデバイスの消去

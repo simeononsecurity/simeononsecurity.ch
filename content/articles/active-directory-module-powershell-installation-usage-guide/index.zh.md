@@ -1,7 +1,7 @@
 ---
 title: "使用 PowerShell 掌握 Active Directory 管理：安装和使用指南"
 date: 2023-07-25
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "了解如何有效安装和使用 PowerShell 的 Active Directory 模块来简化 Windows Active Directory 管理任务。"
@@ -185,29 +185,29 @@ Import-Module ActiveDirectory
 
 ## PowerShell 的活动目录模块脚本示例
 ```powershell
-# Import Active Directory module
+# 导入 Active Directory 模块
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# 获取 Active Directory 信息
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# 创建新的 Active Directory 用户
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# 创建新的 Active Directory 组
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# 创建新的 Active Directory 组织单位
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# 修改 Active Directory 对象
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# 管理 Active Directory 安全性
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

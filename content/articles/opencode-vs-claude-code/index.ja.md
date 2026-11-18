@@ -1,7 +1,7 @@
 ---
 title: "OpenCode 対 Claude Code: 2026年コーディングエージェント比較"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "モデル選択、ローカル推論、料金、権限、プロジェクト指示、日々のコーディング作業について OpenCode と Claude Code を比較します。"
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+リポジトリに記載されたビルドとテストのコマンドを使ってください。
+無関係な変更を保持してください。
+依存関係を変更する前に失敗の原因を説明してください。
+コミット前に最終 diff を確認してください。
 ```
 
 **共有指示は比較時のノイズを減らします。** ビルドコマンド、アーキテクチャ制約、受け入れ基準を一つの正規ファイルに置きます。[OpenCode のルールドキュメント](https://opencode.ai/docs/rules/) は `AGENTS.md` と `CLAUDE.md` へのフォールバックを説明しています。すべての指示ファイルが自動的に結合されると考えないでください。

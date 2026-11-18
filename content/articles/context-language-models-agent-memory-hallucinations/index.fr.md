@@ -1,7 +1,7 @@
 ---
 title: "Les Context Language Models de Meta : une meilleure mémoire pour les agents, pas la fin des hallucinations"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Comment les Context Language Models modifient la mémoire des agents, ce que démontrent les benchmarks et comment les coûts du cache, les capacités du modèle et les notes non fiables influent sur la fiabilité."
@@ -48,11 +48,11 @@ Cette distinction compte pour évaluer toute technique de mémoire. **Conservati
 **Rulin Shao et ses coauteurs**, dont des chercheurs de Meta Superintelligence Labs et de l’Université de Washington, ont présenté les CLM dans un prépublication du 29 septembre 2026. Leur implémentation expose le contexte actif sous forme de fichier modifiable. L’agent le modifie avec des commandes shell ou du code, puis le runtime fournit la version révisée lors de l’appel suivant. Voir [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Continuation ordinaire :
+contexte existant + nouvelle réponse + nouvelle sortie de l’outil
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Continuation avec contexte modifiable :
+l’agent révise le fichier de contexte -> l’environnement d’exécution charge le contexte révisé -> appel suivant au modèle
 ```
 
 L’approche zéro-shot ne nécessite **pas de remplacer l’architecture du modèle**. Le runtime ajoute une capacité autour d’un modèle existant. L’article étudie séparément les instructions, les stratégies de gestion du contexte apprises et l’apprentissage par renforcement.
@@ -101,11 +101,11 @@ L’analyse supplémentaire de TerminalBench rapporte aussi **aucune modificatio
 Le **cache KV** stocke des calculs intermédiaires d’attention. Avec la mise en cache ordinaire du préfixe, le texte inchangé au début de la requête suivante réutilise les calculs précédents. Une modification près du début réduit le préfixe réutilisable et oblige à retraiter le texte suivant.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Requête précédente : A + B + C
+Requête révisée :  A + remplacement de B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Réutilisation standard du préfixe :
+réutiliser A et recalculer le remplacement de B ainsi que C
 ```
 
 La mesure **FLOPs de réutilisation du préfixe** de l’article compte la génération et le traitement du prompt après la première divergence. Un PFLOP représente 10¹⁵ opérations en virgule flottante. Il s’agit d’un total de calcul estimé, pas d’une note de qualité, d’une mesure de débit ou d’une facture.

@@ -1,7 +1,7 @@
 ---
 title: "AWS vs Azure vs Google Cloud 2026: comparação completa"
 date: 2023-07-01
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Compare AWS, Azure e Google Cloud em 2026, incluindo preços, segurança, conformidade, serviços, desempenho e escolha do provedor."
@@ -290,7 +290,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 | **Contêineres sem servidor** | Fargate, App Runner | Container Apps | Cloud Run |
 | **Computação em lote** | AWS Batch | Azure Batch | Cloud Batch |
 | **HPC** | ParallelCluster | CycleCloud | Cloud HPC Toolkit |
-| **Modelos de preço de VM** | On-Demand, Reserved, Spot, Savings Plans | Pay-as-you-go, Reserved, Spot | On-Demand, Committed Use, Preemptible |
+| **Modelos de preço de VM** | Sob demanda, Reservado, Spot, Savings Plans | Pagamento conforme o uso, Reservado, Spot | Sob demanda, Committed Use, Preemptible |
 
 **Benchmarks de desempenho de 2026** (equivalentes a c6a.2xlarge / F8s_v2 / n2-standard-8):
 
@@ -398,7 +398,7 @@ A segurança continua sendo uma prioridade máxima para quem adota a nuvem. Os t
 | **DNS** | Route 53 | Azure DNS | Cloud DNS |
 | **Balanceamento de carga** | ELB/ALB/NLB/GWLB | Load Balancer, App Gateway | Cloud Load Balancing (global) |
 | **Conectividade privada** | Direct Connect | ExpressRoute | Cloud Interconnect |
-| **VPN** | Site-to-Site VPN | VPN Gateway | Cloud VPN |
+| **VPN** | VPN de local a local | VPN Gateway | Cloud VPN |
 | **Malha de serviços** | App Mesh | Open Service Mesh | Traffic Director |
 | **Gerenciamento de APIs** | API Gateway | API Management | Apigee, API Gateway |
 

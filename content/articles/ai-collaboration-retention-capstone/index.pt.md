@@ -1,7 +1,7 @@
 ---
 title: "Capstone de Colaboração com IA: GitHub, Confluence e Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Entregue uma alteração sintética de retenção por fluxos GitHub-first e Confluence/Jira, com evidências de falhas e revisão independente."
@@ -46,16 +46,16 @@ coverCaption: ""
 **Abra a Issue e o PR candidato** usando as lições do GitHub. Altere juntos requisito, configuração, proposta e runbook. Capture a base protegida, execute verificações confiáveis e obtenha revisões de produto e operações no commit final.
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+Execução: GitHub-first
+Alteração: retenção sintética 7 -> 30 dias
+Requisito: REQ-17 revisão 2
+Configuração: retention_days 30
+Runbook: período de retenção: 30 dias
+Proposta: revisão base 1, de 7, para 30
+Manifesto: hashes das fontes protegidas antes da alteração
+Revisão: revisão de produto e operações na versão final da proposta
+Publicação: commit mesclado e nova leitura de confirmação
+Limite: nenhum serviço de exclusão em execução foi testado
 ```
 
 **Preencha as referências reais da sandbox.** O esboço mostra o mapeamento esperado, não evidências concluídas. O mantenedor faz o merge somente depois da revisão e então lê **`main`** de forma independente. Feche a Issue depois de vincular os registros finais.
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    as mesmas categorias de evidência, coletadas de forma independente
 ```
 
 **Esses nomes são um exemplo de organização**, não arquivos de arquivo fornecidos. Guarde as evidências reais em privado na sandbox aprovada. Envie trabalhos do curso compartilhados com rótulos de função e referências redigidas, enquanto revisores mantêm acesso aos registros nativos.
@@ -182,28 +182,17 @@ Para cada caso negado, registre a resposta da plataforma e uma segunda leitura d
 **Pacote didático preenchido da trilha Mixed, sintético e não evidência de tenant:**
 
 ```text
-Run: MIXED-042-example
-Captured base: REQ-17 v4 = 7 days, RUN-04 v2 = 7 days,
-  GitHub main base-001 config.json = {"retention_days": 7}, Jira PROP-042 r1 = In Review
-Fixed proposal: REQ-17 v5 wording says synthetic exports 30 days,
-  excluding production data, backups, and legal holds.
-  GitHub config.json changes retention_days from 7 to 30.
-  RUN-04 v3 wording says 30 days, no deletion service runs in this lab,
-  and incomplete publication stays pending.
-Review: product owner approved the exact requirement wording at PROP-042 r1.
-  Operations owner approved the exact config diff and runbook wording at r1.
-Publication: publisher reopened REQ-17 v5 and read 30 days.
-  Maintainer reopened main at merge-002 and read retention_days 30.
-  Publisher reopened RUN-04 v3 and read 30 days.
-Denied action: contributor tried an edit to restricted REQ-17 from v5.
-  Platform denied the edit, the publisher reread v5 unchanged, and the
-  observer saved the native denial. No edit was applied and v5 stayed unchanged.
-Recovery: after a separate simulated failed RUN-04 attempt, Jira stayed
-  Blocked. Operations approved a retry against the current version.
-  Publisher reread v3 after the authorized retry before Jira moved to Done.
-Handoff: a new reviewer received MAP-01 and the ledger, reopened the three
-  sources and Jira, and named the current 30-day state and remaining runtime gap.
-Limit: source publication is shown. Actual deletion timing is Not run.
+Execução: MIXED-042-example
+Base capturada: REQ-17 v4 = 7 dias; RUN-04 v2 = 7 dias.
+GitHub main base-001 config.json = {"retention_days": 7}; Jira PROP-042 r1 = In Review.
+Proposta fixada: REQ-17 v5 define 30 dias para exportações sintéticas. Dados de produção, backups e retenção legal ficam excluídos.
+GitHub config.json altera retention_days de 7 para 30. RUN-04 v3 indica 30 dias; nenhum serviço de exclusão funciona no laboratório. A publicação incompleta fica pendente.
+Revisão: responsável pelo produto aprova o texto exato de REQ-17. Operações aprovam o diff de configuração e o runbook em r1.
+Publicação: publicador relê REQ-17 v5 e RUN-04 v3 e confirma 30 dias; mantenedor lê main em merge-002 e retention_days 30.
+Ação negada: colaborador não pode editar REQ-17 v5. Publicador confirma que não mudou; observador guarda a evidência da plataforma.
+Recuperação: tentativa de RUN-04 falha e Jira permanece Blocked. Operações autorizam nova tentativa; após reler v3, Jira passa a Done.
+Transição: novo revisor recebe MAP-01 e o registro, relê as três fontes e Jira, e anota 30 dias e a lacuna de execução restante.
+Limite: somente a publicação das fontes foi demonstrada. Tempo de exclusão: não executado.
 ```
 
 Substitua cada versão, ator, negação e read-back ilustrativos por registros nativos antes de marcar uma linha ao vivo como Supported. Se um plano ou função não permitir o teste, marque a linha como Blocked e mantenha o curso das duas trilhas incompleto.
@@ -213,32 +202,32 @@ Substitua cada versão, ator, negação e read-back ilustrativos por registros n
 **Peça ao revisor para reconstruir os eventos**, não apenas ler sua conclusão. Ele deve localizar baseline aprovada, proposta fixada, decisões dos proprietários, revisões resultantes, tentativas falhas, reparo e lacunas restantes sem sua narrativa.
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+Perguntas para revisão independente:
+Qual fonte rege a intenção de retenção neste fluxo?
+Qual pacote exato cada responsável revisou?
+Alguma fonte mudou após a revisão?
+O que foi publicado e o que continua pendente?
+Qual ação negada foi observada e sob qual papel?
+O texto protegido chegou ao contexto de um usuário excluído?
+Qual correção foi revisada e lida novamente?
+A nova transição reconstrói o estado atual de modo independente?
 ```
 
 **Pontue cada requisito separadamente.** Use Supported, Failed, Blocked ou Not run com uma referência de evidência. Consistência, aprovação, permissões, recuperação e handoff são requisitos distintos. Um conjunto de testes locais verdes não compensa um limite de publicação ao vivo que falhou.
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+ID e fluxo da execução:
+Papel e data da revisão:
+Caso 01 mudança aprovada: status ___ evidência ___ lacuna ___
+Caso 02 contexto desatualizado: status ___ evidência ___ lacuna ___
+Caso 03 escrita não autorizada: status ___ evidência ___ lacuna ___
+Caso 04 conflito: status ___ evidência ___ lacuna ___
+Caso 05 publicação parcial: status ___ evidência ___ lacuna ___
+Caso 06 acesso negado: status ___ evidência ___ lacuna ___
+Caso 07 recuperação: status ___ evidência ___ lacuna ___
+Caso 08 transição: status ___ evidência ___ lacuna ___
+Decisão geral: Comprovado / Falha / Bloqueado / Não executado
+Próximo papel responsável e ação:
 ```
 
 **Supported significa que o revisor encontrou evidência observada para cada caso aplicável.** Registre Failed para uma falha de controle observada, Blocked para acesso ou controle ausente e Not run para um caso não tentado. Mantenha a referência nativa de cada caso em seu arquivo de evidência nomeado.
@@ -248,17 +237,17 @@ Next accountable role and action:
 **Pacote de modelo redigido, apenas ilustrativo:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+Fluxo: github-first | Execução: G-01 | Revisor: papel de piloto independente
+Base: commit protegido base-001 | Proposta fixada: PROP-042 r1
+Aprovações: revisão de produto P-01, revisão de operações O-01
+Consistência: verificação local aprovada, saída C-01 salva
+Permissão: push direto do colaborador negado, evento nativo D-01
+Publicação: commit merge-002; clone novo confirma 30 dias
+Exceção: backups e retenção legal excluídos
+Recuperação: interrupção R-01 relida e resolvida por revisão
+Transição: segundo leitor encontrou a base atual, a exceção e a próxima ação
+Limite de execução: sem alegação de exclusão ou implantação em produção
+Decisão: comprovado apenas para o fluxo sintético GitHub-first
 ```
 
 Substitua cada referência ilustrativa por um artefato observado da sandbox. Repita o pacote completo para a trilha Mixed com suas próprias versões de fontes e revisões. O revisor deve rejeitar uma aprovação GitHub copiada no pacote Mixed.
@@ -287,23 +276,23 @@ Substitua cada referência ilustrativa por um artefato observado da sandbox. Rep
 ## Crie a decisão de rollout
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+Decisão: outro piloto sintético, bloqueado ou rejeitado
+Evidências: os dois pacotes de execução e a matriz de falhas
+Requisitos não impostos: listar explicitamente controles procedimentais
+Revisão do provedor: escopo de entrada e retenção
+Cobertura responsável: produto, operações, política, repositório, entrega
+Lacunas de produção: testes de execução, segredos, implantação, revisão de acesso
+Próxima ação: acompanhamento limitado com papel responsável
+Data de revisão: definida pelos responsáveis do piloto
 ```
 
 **Raciocínio esperado:** sucesso sintético apoia outro piloto limitado. Produção exige aprovação separada para dados reais, implantação, tratamento pelo provedor e comportamento em execução. Uma resposta bem-sucedida do assistente não é autorização de implantação.
 
 ## Referências principais
 
-- **Controles do repositório:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Acesso ao workplace:** [Confluence permissions](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
-- **Controles de entrega:** [Jira permission schemes](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
+- **Controles do repositório:** [Branches protegidos](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+- **Acesso ao workplace:** [Permissões do Confluence](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
+- **Controles de entrega:** [Esquemas de permissões do Jira](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
 
 ## Próximos passos
 

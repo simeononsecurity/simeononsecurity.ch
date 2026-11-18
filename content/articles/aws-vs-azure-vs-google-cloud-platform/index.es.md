@@ -1,7 +1,7 @@
 ---
 title: "AWS vs Azure vs Google Cloud 2026: Comparación completa de plataformas cloud – Precios, seguridad, servicios y rendimiento"
 date: 2023-07-01
-lastmod: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Comparación completa 2026 de AWS, Microsoft Azure y Google Cloud Platform (GCP). Análisis detallado de precios, características de seguridad, certificaciones de cumplimiento, servicios, benchmarks de rendimiento y marcos de decisión para elegir el mejor proveedor cloud para sus necesidades."
@@ -116,7 +116,7 @@ La seguridad sigue siendo la máxima prioridad para la adopción cloud. Los tres
 | **Contenedores** | ECS, EKS, Fargate | AKS, Container Instances | GKE, Cloud Run, GCE |
 | **Funciones Serverless** | Lambda | Azure Functions | Cloud Functions |
 | **Contenedores Serverless** | Fargate, App Runner | Container Apps | Cloud Run |
-| **Modelos de precios VM** | On-Demand, Reserved, Spot, Savings Plans | Pay-as-you-go, Reserved, Spot | On-Demand, Committed Use, Preemptible |
+| **Modelos de precios VM** | Bajo demanda, Reservado, Spot, Savings Plans | Pago por uso, Reservado, Spot | Bajo demanda, Committed Use, Preemptible |
 
 **Ganador Kubernetes**: **Google GKE** – Kubernetes líder (Google inventó Kubernetes), control plane gratuito, mejor autoscaling, Autopilot para cero operaciones.
 
@@ -159,13 +159,13 @@ La seguridad sigue siendo la máxima prioridad para la adopción cloud. Los tres
 
 | Tipo de instancia | AWS | Azure | Google Cloud |
 |---------------|-----|-------|--------------|
-| **On-Demand (por hora)** | $0,384 (m6i.2xlarge) | $0,400 (D8s v5) | $0,379 (n2-standard-8) |
-| **On-Demand (por mes)** | $280,32 | $292,00 | $276,67 |
-| **Reserved 1 año (por mes)** | $184,00 (34 % ahorro) | $208,00 (29 % ahorro) | $190,00 (31 % ahorro) |
-| **Reserved 3 años (por mes)** | $115,00 (59 % ahorro) | $139,00 (52 % ahorro) | $132,00 (52 % ahorro) |
+| **Bajo demanda (por hora)** | $0,384 (m6i.2xlarge) | $0,400 (D8s v5) | $0,379 (n2-standard-8) |
+| **Bajo demanda (por mes)** | $280,32 | $292,00 | $276,67 |
+| **Reservado a 1 año (por mes)** | $184,00 (34 % ahorro) | $208,00 (29 % ahorro) | $190,00 (31 % ahorro) |
+| **Reservado a 3 años (por mes)** | $115,00 (59 % ahorro) | $139,00 (52 % ahorro) | $132,00 (52 % ahorro) |
 | **Spot/Preemptible** | ~$84 (70 % ahorro) | ~$88 (70 % ahorro) | ~$83 (70 % ahorro) |
 
-**Ganador**: **Google Cloud** – Precios on-demand más bajos, descuentos por uso sostenido (automáticos), descuentos por uso comprometido.
+**Ganador**: **Google Cloud** – Precios más bajos bajo demanda, descuentos por uso sostenido (automáticos), descuentos por uso comprometido.
 
 ### Análisis de costo total de propiedad (TCO)
 

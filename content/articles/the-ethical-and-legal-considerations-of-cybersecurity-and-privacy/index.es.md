@@ -1,6 +1,7 @@
 ---
 title: "Ciberseguridad y privacidad en la transformación digital: Consideraciones legales y éticas"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Conozca las consideraciones legales y éticas de la ciberseguridad y la privacidad en la transformación digital."
@@ -38,7 +39,7 @@ Establecer confianza con los clientes es esencial para construir relaciones dura
 
 ### Normativa sobre privacidad de datos
 
-**Normativa sobre privacidad de datos**, como el Reglamento General de Protección de Datos de la Unión Europea. [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA) son cada vez más frecuentes a medida que aumenta la cantidad de datos personales que se recogen y almacenan en línea. Estas normativas están diseñadas para proteger la privacidad y la seguridad de los datos personales de los individuos y proporcionarles un mayor control sobre sus datos.
+**Normativa sobre privacidad de datos**, como el Reglamento General de Protección de Datos de la Unión Europea [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) y la Ley de Privacidad del Consumidor de California (CCPA) son cada vez más frecuentes a medida que aumenta la cantidad de datos personales que se recogen y almacenan en línea. Estas normativas están diseñadas para proteger la privacidad y la seguridad de los datos personales de los individuos y proporcionarles un mayor control sobre sus datos.
 
 Por ejemplo, el GDPR, que entró en vigor en 2018, otorga a las personas el derecho a acceder, corregir y eliminar sus datos personales en poder de empresas y organizaciones. Las empresas y organizaciones que recopilan y procesan datos personales deben cumplir con el GDPR o enfrentar multas significativas y repercusiones legales.
 
@@ -46,7 +47,7 @@ Del mismo modo, la CCPA, que entró en vigor en 2020, proporciona a los resident
 
 ### Leyes de ciberseguridad
 
-**Las leyes de ciberseguridad** son otra consideración legal en la era de la transformación digital. Estas leyes están diseñadas para proteger a individuos, empresas y gobiernos de ciberataques y violaciones. La Ley de Intercambio de Información sobre Ciberseguridad [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) son dos ejemplos de leyes sobre ciberseguridad en Estados Unidos.
+**Las leyes de ciberseguridad** son otra consideración legal en la era de la transformación digital. Estas leyes están diseñadas para proteger a individuos, empresas y gobiernos de ciberataques y violaciones. La Ley de Intercambio de Información sobre Ciberseguridad [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), y la Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) son dos ejemplos de leyes sobre ciberseguridad en Estados Unidos.
 
 La CISA, aprobada en 2015, fomenta el intercambio de información sobre amenazas de ciberseguridad entre el sector privado y el gobierno para ayudar a prevenir los ciberataques. La CFAA, promulgada en 1986, penaliza las actividades relacionadas con la informática, como la piratería y el fraude informático.
 

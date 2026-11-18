@@ -50,30 +50,30 @@ coverCaption: ""
 **Copiază acest șablon** pentru o sarcină mică de programare sau cercetare. Elimină câmpurile irelevante în loc să le completezi cu formulări vagi.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Rezultat:
+Sursa autorizată și revizia:
+Fișiere sau înregistrări relevante:
+Modificări permise:
+Modificări și acțiuni excluse:
+Exemple de comportament dorit:
+Verificări de finalizare:
+Când să te oprești sau să întrebi:
+Raportează:
 ```
 
 **Pentru laborator,** pachetul completat arată astfel:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Obiectiv: adaugă un filtru --status opțional în task_report.py.
+Sursă: docs/requirements.md, revizia 1.
+Fișiere relevante: task_report.py, tasks.json, tests/.
+Modificări permise: task_report.py și teste specifice.
+Excluse: tasks.json, dependențe noi, commituri și pushuri.
+Exemple: fără filtru se afișează Total tasks: 4. open și done afișează câte 2.
+Verificări: rulează testele unitare și patru comenzi manuale: fără filtru, open, done și o valoare invalidă.
+O valoare invalidă trebuie să returneze un cod diferit de zero și un mesaj clar.
+Oprește-te sau întreabă dacă sursele se contrazic, lipsește un fișier sau eșuează o verificare inițială fără legătură.
+Raport: fișiere modificate, comenzi, rezultate observate și probleme nerezolvate.
 ```
 
 **Pe Windows,** folosește `py -3` în comenzile din pachet dacă mediul tău folosește lansatorul Python.

@@ -1,12 +1,12 @@
 ---
 title: "如何使用 PowerCLI 审核 vCenter 的权限"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "了解如何使用 PowerCLI 有效审核 vCenter 的权限，确保虚拟基础架构的安全。"
 genre: ["vCenter 权限审计", "PowerCLI 自动化", "VMware 安全", "虚拟基础设施管理", "许可任务", "用户访问控制", "安全漏洞", "PowerShell 自动化", "vSphere 环境管理", "用户权限审查"]
-tags: ["vCentre", "PowerCLI", "审计权限", "vSphere", "虚拟软件", "虚拟基础设施", "PowerShell", "用户访问控制", "安全漏洞", "权限分配", "自动化", "PowerCLI cmdlets", "用户角色", "权限审查", "安全政策", "合规性", "审计报告", "数据保护", "GDPR", "HIPAA", "用户管理", "vCenter 用户", "安全最佳做法", "政府法规", "PowerCLI 安装", "vCenter 连接", "PowerCLI 脚本", "过程审计", "导出审计数据", "清除许可"]
+tags: ["vCentre", "PowerCLI", "审计权限", "vSphere", "虚拟软件", "虚拟基础设施", "PowerShell", "用户访问控制", "安全漏洞", "权限分配", "自动化", "PowerCLI 命令", "用户角色", "权限审查", "安全政策", "合规性", "审计报告", "数据保护", "GDPR", "HIPAA", "用户管理", "vCenter 用户", "安全最佳做法", "政府法规", "PowerCLI 安装", "vCenter 连接", "PowerCLI 脚本", "过程审计", "导出审计数据", "清除许可"]
 cover: "/img/cover/audit-permissions-vcenter-powercli.webp"
 coverAlt: "图示：保护虚拟数据中心免受未经授权访问的防护罩。"
 coverCaption: "使用 PowerCLI 进行有效的权限审计，保护您的 vCenter。"
@@ -27,7 +27,7 @@ coverCaption: "使用 PowerCLI 进行有效的权限审计，保护您的 vCente
 ## 准备环境
 在进入审计流程之前，您需要建立必要的环境。以下是开始的步骤：
 
-1.**安装 PowerCLI**：从官方网站下载并安装最新版本的**PowerCLI**。 [VMware website](https://www.vmware.com/support/developer/PowerCLI/)按照安装向导进行操作，确保系统成功安装。
+1.**安装 PowerCLI**：从[VMware 官方网站](https://www.vmware.com/support/developer/PowerCLI/)下载并安装最新版本的**PowerCLI**。按照安装向导进行操作，确保系统成功安装。
 
 2.**连接到 vCenter**：启动**PowerCLI**控制台或**PowerShell**窗口，然后使用 `Connect-VIServer`cmdlet.提供建立连接所需的凭证。
 
@@ -82,22 +82,22 @@ coverCaption: "使用 PowerCLI 进行有效的权限审计，保护您的 vCente
 
    示例：
    ```powershell
-         # Connect to vCenter
+         # 连接到 vCenter
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # 获取所有 vCenter 用户
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # 初始化用于存储用户权限的数组
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # 遍历每位用户并获取其权限
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # 将权限转换为 CSV 文件
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 
@@ -107,6 +107,6 @@ coverCaption: "使用 PowerCLI 进行有效的权限审计，保护您的 vCente
 切记定期审查和更新贵组织的**安全策略**，使其符合行业最佳实践和相关政府法规，如**《一般数据保护条例》（GDPR）**和**《健康保险可携性和责任法案》（HIPAA）**。实施强大的权限审核流程将有助于建立更安全、更合规的 vCenter 环境。
 
 ## 参考资料
-- [Download PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
+- [下载 PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)

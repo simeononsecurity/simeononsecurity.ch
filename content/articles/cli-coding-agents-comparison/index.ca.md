@@ -1,17 +1,16 @@
 ---
 title: "Comparació d'agents de codificació CLI: Claude Code, Codex, Gemini, OpenCode, Copilot i Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Compara sis agents de codificació de terminal segons el flux de treball, l'automatització, l'accés als models, els permisos i l'esforç de revisió. Crea una llista curta amb una prova repetible al repositori."
 genre: ["Eines per a desenvolupadors", "Intel·ligència artificial", "Desenvolupament de programari"]
-tags: ["agents de codificació CLI", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "agents de terminal", "automatització headless", "agent harness", "proveïdors de models", "fluxos Git", "comparació d'agents de codificació", "eines shell", "assistent de codificació", "permisos de l'agent", "context del repositori", "automatització CI", "revisió de codi", "eines per a desenvolupadors"]
+tags: ["agents de codificació CLI", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "agents de terminal", "automatització headless", "estructura per a agents de programació", "proveïdors de models", "fluxos Git", "comparació d'agents de codificació", "eines shell", "assistent de codificació", "permisos de l'agent", "context del repositori", "automatització CI", "revisió de codi", "eines per a desenvolupadors"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "Sis finestres de terminal abstractes envolten un símbol de repositori en una graella equilibrada sobre un fons fosc"
 coverCaption: ""
 ---
-
 Els **agents de codificació de terminal** comparteixen una interfície familiar, però difereixen en la recopilació de context, l'edició de fitxers, les sol·licituds d'aprovació i la integració amb scripts. Aquesta guia compara Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI i Aider. Avalua els seus fluxos de terminal separadament dels productes d'escriptori de cada proveïdor.
 
 **Comença per les teves restriccions.** L'accés al proveïdor, l'automatització repetible i els hàbits de revisió filtren millor que una classificació general. Les recomanacions següents són judicis editorials basats en documentació oficial revisada el 10 d'octubre de 2026, no classificacions de rendiment mesurat.
@@ -98,10 +97,10 @@ Els **agents de codificació de terminal** comparteixen una interfície familiar
 **Les instruccions del projecte necessiten verificació.** Dona a cada eina la mateixa ordre de build, criteris d'acceptació i exclusions mitjançant el seu mecanisme d'instruccions compatible. Demana-li que repeteixi les restriccions actives abans d'editar. Un fitxer d'instruccions absent és un defecte de configuració, no un benchmark del model.
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+Tasca: Corregiu la reproducció proporcionada sense canviar l’API pública.
+Abast: Preserveu els canvis no relacionats i eviteu afegir dependències.
+Evidència: Executeu la prova de regressió existent i les proves adjacents pertinents.
+Informe: Expliqueu la causa, els fitxers modificats, les comprovacions i la incertesa pendent.
 ```
 
 **Aquest prompt de prova és delimitat expressament.** Afegeix una reproducció coneguda i comprovacions escrites de manera independent. Usa el mateix commit inicial en checkouts separats. Registra la versió de l'eina, el model, el proveïdor, la política de permisos, el temps transcorregut i les intervencions.

@@ -1,7 +1,7 @@
 ---
 title: "Una fonte, molti strumenti: costruire un framework di collaborazione IA per team misti"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Costruisci un framework condiviso di collaborazione IA per sviluppatori e non sviluppatori. Assegna le fonti autorevoli, traccia le versioni del contesto, rivedi i cambiamenti duraturi e scegli una mappa di progetto, RAG o entrambe."
@@ -88,10 +88,10 @@ Un ADR resta vicino al codice quando governa il design del repository. Una decis
 **Gli agenti portano le prove nel contesto della sessione**, poi preparano proposte. Non approvano fatti duraturi da soli. Modificare un branch o inviare una bozza non equivale a pubblicare policy o fondere codice.
 
 ```text
-Source -> permission-checked read -> session context
-Session context -> proposal + base version -> owner review
-Owner approval -> controlled publication -> change log
-Changed base version -> reconcile proposal -> review again
+Fonte -> lettura con verifica dei permessi -> contesto di sessione
+Contesto di sessione -> proposta + versione di base -> revisione del responsabile
+Approvazione del responsabile -> pubblicazione controllata -> registro delle modifiche
+Versione di base modificata -> riconcilia la proposta -> nuova revisione
 ```
 
 **Collega la versione base** prima della revisione. Servono valore precedente, valore proposto, motivo, prove e sistemi coinvolti. L'approvazione deve indicare una revisione precisa.
@@ -148,19 +148,19 @@ tracker:
 ### Riquadro: intestazione AGENTS.md
 
 ```markdown
-Policy-Version: v3 | Source: wiki:POL-01 | Status: approved
+Policy-Version: v3 | Source: wiki:POL-01 | Status: approvato
 
-# Project instructions
+# Istruzioni del progetto
 
-Read the project map MAP-01 before starting a task.
-Load docs/policy-snapshot.md and record its source revision.
-Treat chat memory and search excerpts as caches.
-Attach source revisions to every factual proposal.
-Use one task and one worktree per coding task.
-Do not publish policy, approve decisions, or merge your own code.
-Stop on unresolved source conflicts or overlapping writes.
-Required checks: tests, documentation review, policy freshness.
-Owners: engineering maintainer, product owner, policy owner.
+Leggi la mappa del progetto MAP-01 prima di iniziare un’attività.
+Carica docs/policy-snapshot.md e registra la revisione della fonte.
+Tratta la memoria delle chat e gli estratti di ricerca come cache.
+Allega le revisioni delle fonti a ogni proposta fattuale.
+Usa una task e un worktree per ogni attività di programmazione.
+Non pubblicare policy, non approvare decisioni e non unire il tuo codice.
+Fermati in presenza di conflitti irrisolti tra le fonti o scritture sovrapposte.
+Controlli richiesti: test, revisione della documentazione e aggiornamento delle policy.
+Responsabili: manutentore tecnico, responsabile prodotto e responsabile delle policy.
 ```
 
 Un'etichetta di versione non prova che il contenuto sia identico. Genera gli adapter dallo snapshot approvato oppure confronta la parte policy con un digest. Controlla eccezioni, regole disattivate e override locali.
@@ -191,12 +191,12 @@ Il commit sintetico va sostituito con quello ispezionato. Collega ogni affermazi
 
 | Regola indice | Comportamento richiesto |
 |---|---|
-| **Ingest sources, not caches** | Escludere riepiloghi generati e copie non tracciate |
+| **Acquisire le fonti, non le cache** | Escludere riepiloghi generati e copie non tracciate |
 | **Preserve provenance** | Conservare ID, revisione, sezione e stato per ogni frammento |
-| **Refresh on change** | Reindicizzare le modifiche e invalidare i frammenti obsoleti |
+| **Aggiornare a ogni modifica** | Reindicizzare le modifiche e invalidare i frammenti obsoleti |
 | **Honor access changes** | Aggiornare permessi e rimuovere contenuti revocati |
 | **Return citations** | Esporre riferimenti accanto al testo recuperato |
-| **Check the live record** | Recuperare prove attuali prima di una proposta importante |
+| **Verificare il record aggiornato** | Recuperare prove attuali prima di una proposta importante |
 
 Un frammento recuperato è un puntatore. La fonte attiva conferma formulazione, eccezioni e accesso. Se il recupero attivo fallisce, etichetta lo snapshot e ferma l'azione duratura. Embedding vecchi e contesto mancante creano rischi diversi. Applica l'autorizzazione prima di restituire frammenti al modello.
 
@@ -207,18 +207,18 @@ Un frammento recuperato è un puntatore. La fonte attiva conferma formulazione, 
 ### Riquadro: RAG o no?
 
 ```text
-Do tasks usually name a project, page, issue, or file?
-  Yes -> Is direct retrieval sufficient for the pilot?
-           Yes -> MAP ONLY
-           No  -> HYBRID: map for known IDs, RAG for discovery
-  No  -> Is evidence scattered across a large collection?
-           No  -> MAP ONLY, plus native search
-           Yes -> Is work exploratory and read-only?
-                    Yes -> RAG-LED ONLY for discovery
-                    No  -> HYBRID with live-source checks
+Le attività indicano di solito un progetto, una pagina, un ticket o un file?
+  Sì -> Il recupero diretto basta per il progetto pilota?
+           Sì -> SOLO MAPPA
+           No -> IBRIDO: mappa per gli ID noti, RAG per la ricerca
+  No -> Le prove sono sparse in una raccolta ampia?
+           No -> SOLO MAPPA, con ricerca nativa
+           Sì -> Il lavoro è esplorativo e in sola lettura?
+                    Sì -> SOLO RAG per la ricerca
+                    No -> IBRIDO con controlli sulle fonti aggiornate
 
-Every option retains owners, authorization, and provenance.
-RAG-led discovery still checks sources before durable action.
+Ogni opzione mantiene responsabili, autorizzazioni e provenienza.
+La ricerca guidata da RAG verifica comunque le fonti prima di ogni azione duratura.
 ```
 
 RAG-only descrive l'interfaccia di recupero, non il permesso di ignorare la governance. Il modello ibrido separa scoperta e verifica. La mappa risponde “dove”, la fonte “cosa”.
@@ -239,7 +239,7 @@ RAG-only descrive l'interfaccia di recupero, non il permesso di ignorare la gove
 **Applica la regola della stessa PR:** modifica insieme codice e documentazione interessata. Se non serve un aggiornamento, scrivi l'eccezione nella PR. Usa un task, branch e worktree per lavoro. Non fare commit diretto sul branch predefinito.
 
 ```text
-KB-Update: none (reason: internal refactor preserves documented behavior)
+Aggiornamento KB: nessuno (motivo: il refactoring interno mantiene il comportamento documentato)
 ```
 
 ## Informazioni fuori dal repository
@@ -249,12 +249,12 @@ KB-Update: none (reason: internal refactor preserves documented behavior)
 **Sequenza sicura:** rileggi pagina e vincoli, confronta la versione base, riconcilia le modifiche intermedie, scrivi con condizione sulla versione attesa, verifica la pagina e il change log. Usa scritture condizionali quando disponibili. Nei risultati del tracker conserva comando, commit, comportamento atteso e reale e criteri di accettazione.
 
 ```text
-Finding: retention implementation disagrees with approved requirement
-Evidence: REQ-17 v8 and inspected config/retention.yaml
-Inspection command: git show HEAD:config/retention.yaml
-Commit: full inspected commit ID recorded in the manifest
-Acceptance: approved duration matches code, tests, and runbook
-Status: awaiting product and engineering owner review
+Rilievo: l’implementazione della conservazione non coincide con il requisito approvato
+Prove: REQ-17 v8 e file config/retention.yaml esaminato
+Comando di ispezione: git show HEAD:config/retention.yaml
+Commit: ID completo del commit esaminato registrato nel manifesto
+Criterio di accettazione: la durata approvata coincide con codice, test e runbook
+Stato: in attesa della revisione dei responsabili prodotto e ingegneria
 ```
 
 Il registro separa regole e ragionamento. Gli agenti propongono. Le persone decidono.

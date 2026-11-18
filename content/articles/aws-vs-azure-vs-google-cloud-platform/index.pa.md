@@ -1,7 +1,7 @@
 ---
 title: "AWS ਬਨਾਮ Azure ਬਨਾਮ Google Cloud 2026: ਪੂਰੀ ਤੁਲਨਾ"
 date: 2023-07-01
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "AWS, Azure ਅਤੇ Google Cloud ਦੀ 2026 ਦੀ ਤੁਲਨਾ, ਜਿਸ ਵਿੱਚ ਕੀਮਤ, ਸੁਰੱਖਿਆ, ਪਾਲਣਾ, ਸੇਵਾਵਾਂ, ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਪ੍ਰਦਾਤਾ ਦੀ ਚੋਣ ਸ਼ਾਮਲ ਹੈ."
@@ -290,7 +290,7 @@ coverCaption: "ਕਲਾਉਡ ਵਿੱਚ ਆਪਣੇ ਕਾਰੋਬਾਰ �
 | **ਸਰਵਰਲੈੱਸ ਕੰਟੇਨਰ** | Fargate, App Runner | Container Apps | Cloud Run |
 | **ਬੈਚ ਕੰਪਿਊਟਿੰਗ** | AWS Batch | Azure Batch | Cloud Batch |
 | **HPC** | ParallelCluster | CycleCloud | Cloud HPC Toolkit |
-| **VM ਕੀਮਤ ਮਾਡਲ** | On-Demand, Reserved, Spot, Savings Plans | Pay-as-you-go, Reserved, Spot | On-Demand, Committed Use, Preemptible |
+| **VM ਕੀਮਤ ਮਾਡਲ** | ਮੰਗ ਅਨੁਸਾਰ, ਰਾਖਵੀਆਂ, Spot, Savings Plans | ਵਰਤੋਂ ਮੁਤਾਬਕ ਭੁਗਤਾਨ, ਰਾਖਵੀਆਂ, Spot | ਮੰਗ ਅਨੁਸਾਰ, Committed Use, Preemptible |
 
 **2026 ਕਾਰਗੁਜ਼ਾਰੀ ਬੈਂਚਮਾਰਕ** (c6a.2xlarge / F8s_v2 / n2-standard-8 ਦੇ ਬਰਾਬਰ):
 
@@ -398,7 +398,7 @@ coverCaption: "ਕਲਾਉਡ ਵਿੱਚ ਆਪਣੇ ਕਾਰੋਬਾਰ �
 | **DNS** | Route 53 | Azure DNS | Cloud DNS |
 | **ਲੋਡ ਬੈਲੈਂਸਿੰਗ** | ELB/ALB/NLB/GWLB | Load Balancer, App Gateway | Cloud Load Balancing (ਵਿਸ਼ਵਵਿਆਪੀ) |
 | **ਨਿੱਜੀ ਕਨੈਕਟੀਵਿਟੀ** | Direct Connect | ExpressRoute | Cloud Interconnect |
-| **VPN** | Site-to-Site VPN | VPN Gateway | Cloud VPN |
+| **VPN** | ਸਥਾਨ-ਤੋਂ-ਸਥਾਨ VPN | VPN Gateway | Cloud VPN |
 | **ਸਰਵਿਸ ਮੈਸ਼** | App Mesh | Open Service Mesh | Traffic Director |
 | **API ਪ੍ਰਬੰਧਨ** | API Gateway | API Management | Apigee, API Gateway |
 
@@ -417,13 +417,13 @@ coverCaption: "ਕਲਾਉਡ ਵਿੱਚ ਆਪਣੇ ਕਾਰੋਬਾਰ �
 
 | ਇੰਸਟੈਂਸ ਕਿਸਮ | AWS | Azure | Google Cloud |
 |---------------|-----|-------|--------------|
-| **On-Demand (ਪ੍ਰਤੀ ਘੰਟਾ)** | $0.384 (m6i.2xlarge) | $0.400 (D8s v5) | $0.379 (n2-standard-8) |
-| **On-Demand (ਪ੍ਰਤੀ ਮਹੀਨਾ)** | $280.32 | $292.00 | $276.67 |
-| **1-ਸਾਲ ਰਿਜ਼ਰਵ (ਪ੍ਰਤੀ ਮਹੀਨਾ)** | $184.00 (34% ਬਚਤ) | $208.00 (29% ਬਚਤ) | $190.00 (31% ਬਚਤ) |
-| **3-ਸਾਲ ਰਿਜ਼ਰਵ (ਪ੍ਰਤੀ ਮਹੀਨਾ)** | $115.00 (59% ਬਚਤ) | $139.00 (52% ਬਚਤ) | $132.00 (52% ਬਚਤ) |
+| **ਮੰਗ ਅਨੁਸਾਰ (ਪ੍ਰਤੀ ਘੰਟਾ)** | $0.384 (m6i.2xlarge) | $0.400 (D8s v5) | $0.379 (n2-standard-8) |
+| **ਮੰਗ ਅਨੁਸਾਰ (ਪ੍ਰਤੀ ਮਹੀਨਾ)** | $280.32 | $292.00 | $276.67 |
+| **1 ਸਾਲ ਲਈ ਰਾਖਵੀਂ (ਪ੍ਰਤੀ ਮਹੀਨਾ)** | $184.00 (34% ਬਚਤ) | $208.00 (29% ਬਚਤ) | $190.00 (31% ਬਚਤ) |
+| **3 ਸਾਲ ਲਈ ਰਾਖਵੀਂ (ਪ੍ਰਤੀ ਮਹੀਨਾ)** | $115.00 (59% ਬਚਤ) | $139.00 (52% ਬਚਤ) | $132.00 (52% ਬਚਤ) |
 | **Spot/Preemptible** | ~$84 (70% ਬਚਤ) | ~$88 (70% ਬਚਤ) | ~$83 (70% ਬਚਤ) |
 
-**ਜੇਤੂ**: **Google Cloud**, ਸਭ ਤੋਂ ਘੱਟ On-Demand ਕੀਮਤ, ਆਟੋਮੈਟਿਕ sustained use ਛੋਟਾਂ ਅਤੇ committed use ਛੋਟਾਂ.
+**ਜੇਤੂ**: **Google Cloud**, ਸਭ ਤੋਂ ਘੱਟ ਮੰਗ ਅਨੁਸਾਰ ਕੀਮਤ, ਆਟੋਮੈਟਿਕ sustained use ਛੋਟਾਂ ਅਤੇ committed use ਛੋਟਾਂ.
 
 ### ਸਟੋਰੇਜ ਕੀਮਤ
 
@@ -564,7 +564,7 @@ coverCaption: "ਕਲਾਉਡ ਵਿੱਚ ਆਪਣੇ ਕਾਰੋਬਾਰ �
 | ਟੂਲ | AWS | Azure | Google Cloud |
 |------|-----|-------|--------------|
 | **ਮੂਲ ਪ੍ਰਬੰਧਨ** | Control Tower (ਸਿਰਫ਼ AWS) | Arc (Azure + ਹੋਰ) | Anthos (GCP + ਹੋਰ) |
-| **Infrastructure-as-Code** | CloudFormation | ARM templates, Bicep | Deployment Manager |
+| **ਕੋਡ ਵਜੋਂ ਬੁਨਿਆਦੀ ਢਾਂਚਾ** | CloudFormation | ARM templates, Bicep | Deployment Manager |
 | **ਕਰਾਸ-ਕਲਾਉਡ IaC** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
 | **ਨਿਗਰਾਨੀ** | CloudWatch | Azure Monitor | Cloud Operations |
 | **ਕਰਾਸ-ਕਲਾਉਡ ਨਿਗਰਾਨੀ** | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace |

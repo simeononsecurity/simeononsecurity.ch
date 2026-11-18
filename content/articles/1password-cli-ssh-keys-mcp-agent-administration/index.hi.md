@@ -1,12 +1,12 @@
 ---
-title: "1Password SSH Agent and CLI: Read-Only AI Agent Access"
+title: "1Password SSH Agent और CLI: AI एजेंटों के लिए केवल-पठन पहुँच"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "1Password CLI, SSH Agent और MCP के साथ read-only SSH वर्कफ़्लो डिज़ाइन करें। लाइव टेस्टिंग से पहले सिंथेटिक कमांड्स, संकीर्ण अनुमतियाँ और मानवीय अनुमोदन का उपयोग करें।"
-genre: ["System Administration", "Cloud Security", "Automation"]
-tags: ["1Password CLI", "SSH keys", "1Password SSH Agent", "MCP", "Model Context Protocol", "agent administration", "systems administration", "Bitbucket Cloud", "Git over SSH", "secret references", "service accounts", "least privilege", "public key authentication", "secret management", "command line security", "automation safety"]
+genre: ["सिस्टम प्रशासन", "क्लाउड सुरक्षा", "स्वचालन"]
+tags: ["1Password CLI", "SSH कुंजियाँ", "1Password SSH Agent", "MCP", "Model Context Protocol", "एजेंट प्रशासन", "सिस्टम प्रशासन", "Bitbucket Cloud", "SSH पर Git", "सीक्रेट संदर्भ", "सेवा खाते", "न्यूनतम विशेषाधिकार", "सार्वजनिक कुंजी प्रमाणीकरण", "सीक्रेट प्रबंधन", "कमांड लाइन सुरक्षा", "स्वचालन सुरक्षा"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "एजेंट का एक अमूर्त आरेख जो एक secret reference, SSH agent और MCP टूल्स का उपयोग करता है, बिना किसी निजी कुंजी दिखाए।"
 coverCaption: ""
@@ -82,7 +82,7 @@ Bitbucket Cloud सामान्य Git और OpenSSH कमांड-ला�
 
 **Bitbucket को सार्वजनिक-कुंजी उपभोक्ता (public-key consumer) के रूप में मानें।** अनुमोदित Bitbucket खाते या रिपॉज़िटरी सेटिंग के माध्यम से सार्वजनिक कुंजी या फिंगरप्रिंट पंजीकृत करें। निजी कुंजी को 1Password में रखें। Git क्लाइंट SSH Agent से साइन करने के लिए अनुरोध करता है। क्लाइंट निजी-कुंजी फ़ाइल को पढ़ता नहीं है।
 
-Bitbucket एक्सेस-कुंजी दायरे, पंजीकरण पथ, और केवल-पठन (read-only) Git परीक्षण के लिए, [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/) देखें।
+Bitbucket एक्सेस-कुंजी दायरे, पंजीकरण पथ, और केवल-पठन (read-only) Git परीक्षण के लिए, [Bitbucket Cloud SSH कुंजियाँ और Git CLI: AI एजेंटों के लिए केवल-पठन पहुँच](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/) देखें।
 
 Bitbucket दस्तावेज़ीकरण इसे Git CLI वर्कफ़्लो कहता है। यह लेख एक अलग Bitbucket MCP सर्वर या Bitbucket CLI नामक उत्पाद का मान नहीं लेता है। Bitbucket-विशिष्ट CLI को अपनी अपनी वर्तमान दस्तावेज़ीकरण और अपनी अपनी अनुमति समीक्षा की आवश्यकता होती है।
 
@@ -163,10 +163,10 @@ agent_policy:
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: केवल-पठन कनेक्टिविटी जाँच
+host_key_source: स्वीकृत व्यवस्थापक रिकॉर्ड
+approval_owner: नामित ऑपरेटर
+rollback: सार्वजनिक कुंजी हटाएँ और परीक्षण पहचान निरस्त करें
 ```
 
 **अपेक्षित परिणाम, परीक्षण नहीं किया गया:** रिकॉर्ड एक लक्ष्य और एक कार्रवाई की पहचान करता है। रिकॉर्ड में होस्टनेम, IP पता, टोकन, निजी कुंजी, या व्यक्तिगत डेटा शामिल नहीं है।
@@ -239,7 +239,7 @@ MCP कॉन्फ़िगरेशन को क्लाइंट के स
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# केवल macOS या Linux पर
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

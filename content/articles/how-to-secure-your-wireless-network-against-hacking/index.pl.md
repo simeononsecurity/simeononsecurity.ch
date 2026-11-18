@@ -41,7 +41,7 @@ __________
 
 ### Zmień domyślną nazwę sieci (SSID) i hasło
 
-Pierwszym i najważniejszym krokiem do zabezpieczenia sieci bezprzewodowej jest **zmiana domyślnej nazwy sieci (SSID) i hasła**. Domyślny SSID i hasło nadane przez producenta routera łatwo odgadnąć i wykorzystać. Zastąp domyślny SSID i hasło unikalnym, silnym zestawem 
+Pierwszym i najważniejszym krokiem do zabezpieczenia sieci bezprzewodowej jest **zmiana domyślnej nazwy sieci (SSID) i hasła**. Domyślny SSID i hasło nadane przez producenta routera łatwo odgadnąć i wykorzystać. Zastąp domyślny SSID i hasło unikalnym, silnym zestawem
 
 ### Używaj silnych haseł
 

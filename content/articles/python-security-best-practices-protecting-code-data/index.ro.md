@@ -1,6 +1,7 @@
 ---
 title: "Cele mai bune practici de securitate Python: Protejarea codului și a datelor dvs"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Învățați cele mai bune practici esențiale de securitate Python pentru a vă proteja codul și datele de potențiale amenințări, asigurând protecția datelor, integritatea sistemului și consolidarea încrederii."
@@ -183,7 +184,7 @@ Iată o foaie de informații concisă care rezumă cele mai bune practici de sec
 
 4. **Protejați datele sensibile** utilizând **tehnici de criptare puternice**. Utilizați algoritmi de criptare bine stabiliți, cum ar fi **AES (Advanced Encryption Standard)** și asigurați stocarea și transmiterea în siguranță a informațiilor sensibile. Puteți face referire la [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) pentru mai multe informații.
 
-5. **Securizați accesul la baza de date** utilizând **explicații pregătite** pentru a preveni atacurile de injecție SQL și implementând **least privilege** pentru a restricționa permisiunile utilizatorilor bazei de date. Aceste practici minimizează riscul de acces neautorizat la date sensibile. Aflați mai multe despre **explicațiile pregătite** în pagina de [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **Securizați accesul la baza de date** folosind **instrucțiuni pregătite** pentru a preveni atacurile de tip SQL injection și aplicând **principiul privilegiului minim** pentru a limita permisiunile utilizatorilor bazei de date. Aceste practici reduc riscul accesului neautorizat la date sensibile. Consultați [documentația SQLAlchemy](https://www.sqlalchemy.org) despre instrucțiunile pregătite și [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) despre principiul privilegiului minim.
 
 6. **Actualizați în mod regulat dependențele** pentru a rezolva vulnerabilitățile de securitate și a beneficia de corecții de erori. Instrumente precum [Snyk - Open Source Security Platform](https://snyk.io/) vă poate ajuta să identificați vulnerabilitățile din dependențele proiectului dumneavoastră.
 

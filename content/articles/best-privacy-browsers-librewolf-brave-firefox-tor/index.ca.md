@@ -1,7 +1,7 @@
 ---
-title: "Millors Navegadors de Privacitat 2026: LibreWolf vs Brave vs Tor"
+title: "Millors Navegadors de Privacitat 2026: LibreWolf, Brave i Tor"
 date: 2023-08-23
-lastmod: 2026-11-14
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: 'Comparació completa del 2026 dels millors navegadors centrats en la privacitat: LibreWolf, Brave, Firefox, Tor i més. Proves detallades de privacitat, referències de rendiment i anàlisi de seguretat per protegir les teves dades en línia.'
@@ -99,7 +99,7 @@ Aquesta guia completa examina els principals navegadors de privacitat - **LibreW
 | **Protecció contra empremtes digitals** | Excel·lent | Molt bo | Bo | Excel·lent | Cap |
 | **Cercador per defecte** | DuckDuckGo | Brave Search | Google | DuckDuckGo | Google |
 | **Telemetria** | Cap | Opcional | Opcional | Cap | Extensiva |
-| **Gestió de cookies** | Estricte | Estricte | Estàndard | Estricte | Permissiu |
+| **Gestió de galetes** | Estricte | Estricte | Estàndard | Estricte | Permissiu |
 | **HTTPS a tot arreu** | Sí | Sí | Opcional | Sí | No |
 | **Control de JavaScript** | Configurable | Configurable | Extensions | Configurable | Limitat |
 | **Bloquejador d’anuncis integrat** | Via uBlock | Sí | No | Sí | No |
@@ -108,12 +108,12 @@ Aquesta guia completa examina els principals navegadors de privacitat - **LibreW
 | **Ús de memòria (10 pestanyes)** | 1,2 GB | 1,1 GB | 1,3 GB | 1,5 GB | 1,4 GB |
 | **Freqüència d’actualització** | Mensual | Setmanal | Mensual | Cada dos mesos | Setmanal |
 | **Versió mòbil** | No | Sí | Sí | Sí (Android) | Sí |
-| **Suport d’extensions** | Add-ons de Firefox | Botiga Chrome/Brave | Add-ons de Firefox | Limitat | Botiga Chrome | 
+| **Suport d’extensions** | Complements de Firefox | Botiga Chrome/Brave | Complements de Firefox | Limitat | Botiga Chrome |
 | **Basat en** | Firefox ESR | Chromium | Gecko | Firefox ESR | Chromium |
 
 ## 1. LibreWolf: Privacitat màxima per defecte
 
-**LibreWolf** és un fork reforçat de Firefox optimitzat per a la privacitat i la seguretat sense concessions. El 2026, LibreWolf s’ha convertit en l’estàndard d’or per a usuaris que busquen una privacitat real per defecte, sense telemetria, sense recollida de dades i amb la configuració de seguretat màxima activada des del principi.
+**LibreWolf** és una versió derivada de Firefox, reforçada i optimitzada per a la privacitat i la seguretat sense concessions. El 2026, LibreWolf s’ha convertit en l’estàndard d’or per a usuaris que busquen una privacitat real per defecte, sense telemetria, sense recollida de dades i amb la configuració de seguretat màxima activada des del principi.
 
 ### Què fa únic LibreWolf
 
@@ -127,7 +127,7 @@ Aquesta guia completa examina els principals navegadors de privacitat - **LibreW
 **Funcions de privacitat (versió 2026):**
 
 **1. Protecció millorada contra el rastreig (màxima):**
-- Bloqueja totes les cookies de tercers per defecte
+- Bloqueja totes les galetes de tercers per defecte
 - Política estricta de referents (sense referents entre orígens)
 - Aïllament de primer partit activat
 - Mode resistent a l’empremta digital actiu
@@ -227,11 +227,11 @@ layers.acceleration.force-enabled = true
 
 **Què bloqueja Shields:**
 - Rastrejadors de tercers (més de 5.000 dominis)
-- Cookies entre llocs
-- Intentos de fingerprinting
+- Galetes entre llocs
+- Intents de generar empremtes digitals del navegador
 - Scripts i iframes d’anuncis
-- Scripts de cryptojacking
-- Intentos de reconeixement de dispositius
+- Scripts que segresten recursos per minar criptomonedes
+- Intents de reconeixement de dispositius
 
 **Integració Brave Search:**
 - Índex de cerca independent (no basat en Google)
@@ -278,7 +278,7 @@ layers.acceleration.force-enabled = true
 ### Proves de rendiment de Brave
 
 **Puntuacions de privadesa:**
-- EFF Cover Your Tracks: Supera (amb fingerprint únic)
+- EFF Cover Your Tracks: Supera la prova, però amb una empremta digital única
 - Browserleaks: Informació lleugerament filtrada
 - Perfect Privacy Test: 89/100
 - WebRTC: Segur amb configuració adequada
@@ -300,7 +300,7 @@ layers.acceleration.force-enabled = true
 
 **Consideracions actuals:**
 - L’enfocament en criptomonedes pot no agradar a tothom
-- Alguna unicitat en fingerprinting persisteix
+- Encara persisteix certa singularitat en l’empremta digital del navegador
 - Brave Rewards requereix KYC per retirar
 - Classificacions de cerca encara en desenvolupament
 
@@ -356,10 +356,10 @@ Configuració > Privadesa i seguretat:
 ### Evolució de la privadesa de Firefox (2020-2026)
 
 **2020**: Llançament de la Protecció Avançada contra el Seguiment (ETP)
-**2021**: Introducció de la Protecció Total de Cookies
-**2022**: Expansió de Firefox Relay (màscara de correu electrònic)
+**2021**: Introducció de la Protecció Total de Galetes
+**2022**: Expansió de Firefox Relay (emmascarament de l’adreça de correu)
 **2023**: Afegit Control Global de Privadesa
-**2024**: Protecció millorada contra fingerprinting
+**2024**: Protecció millorada contra l’empremta digital del navegador
 **2025**: Sistema d’Atribució que preserva la privadesa
 **2026**: Detecció de seguiment impulsada per IA
 
@@ -369,14 +369,14 @@ Configuració > Privadesa i seguretat:
 
 **Estàndard** (per defecte):
 - Bloqueja rastrejadors coneguts a finestres privades
-- Bloqueja cookies de seguiment de tercers
-- Bloqueja cryptominers i fingerprinting
+- Bloqueja galetes de seguiment de tercers
+- Bloqueja els miners de criptomonedes i la identificació per empremta digital del navegador
 - Bloqueig bàsic de rastrejadors de xarxes socials
 
 **Estricte** (Recomanat per a privadesa):
-- Bloqueja TOTES les cookies de seguiment de tercers
+- Bloqueja TOTES les galetes de seguiment de tercers
 - Bloqueja rastrejadors a TOTES les finestres
-- Protecció avançada contra fingerprinting
+- Protecció avançada contra l’empremta digital del navegador
 - Pot trencar alguns llocs web
 
 **Personalitzat**:
@@ -384,21 +384,21 @@ Configuració > Privadesa i seguretat:
 - Defineix el teu propi equilibri
 - Excepcions per lloc possibles
 
-### Protecció Total de Cookies (TCP)
+### Protecció Total de Galetes (TCP)
 
-Enfocament revolucionari per a la gestió de cookies:
+Enfocament revolucionari per a la gestió de galetes:
 
 **Com funciona:**
-- Cada lloc web té el seu propi "pot de cookies"
-- Les cookies no es comparteixen entre llocs
+- Cada lloc web té el seu propi "pot de galetes"
+- Les galetes no es comparteixen entre llocs
 - Evita el seguiment entre llocs
 - Manté la funcionalitat del lloc
 
 **Impacte:**
-- Reducció del 90% en seguiment amb cookies de tercers
+- Reducció del 90% en seguiment amb galetes de tercers
 - Cap trencament de lloc en el 95% dels casos
 - Partició automàtica
-- Funciona amb cookies existents
+- Funciona amb galetes existents
 
 ### Funcions de privadesa específiques de Firefox
 
@@ -420,7 +420,7 @@ Evita que es barregin les dades entre contextos
 - Bloqueja el correu brossa a la font
 - Resposta integrada
 - Nivell gratuït: 5 àlies
-- Premium: Il·limitat + màscara de telèfon
+- Premium: Il·limitat + emmascarament del número de telèfon
 
 **3. Mozilla VPN:**
 - Protocol WireGuard
@@ -449,7 +449,7 @@ Evita que es barregin les dades entre contextos
 Galetes i dades dels llocs:
 ✓ Elimina les galetes quan es tanqui Firefox
 □ Totes les galetes de tercers (fes servir ETP)
-  
+
 Historial:
 ○ No recordis mai l’historial (més privadesa)
 ● Fes servir la configuració personalitzada (recomanada):
@@ -509,11 +509,11 @@ privacy.resistFingerprinting.letterboxing = true
 ### Quan triar Firefox
 
 ✅ **Millor per:**
-- Usuaris que valoren l’open-source i la missió de Mozilla
+- Usuaris que valoren el codi obert i la missió de Mozilla
 - Els que necessiten un ecosistema extens d’extensions
 - Usuaris avançats que volen personalització
 - Usuaris conscients de la privadesa en l’ús habitual
-- Desenvolupadors que necessiten excel·lents DevTools
+- Desenvolupadors que necessiten excel·lents eines de desenvolupament
 - Usuaris amb múltiples dispositius que volen sincronització
 
 ❌ **No ideal per:**
@@ -529,7 +529,7 @@ privacy.resistFingerprinting.letterboxing = true
 
 ## 4. Tor Browser: Anonimat màxim
 
-**Tor Browser** continua sent l’estàndard d’or per a l’autèntic anonimat en línia. En redirigir el trànsit a través dels més de 7.000 relays voluntaris de la xarxa Tor, Tor fa que la vigilància i l’anàlisi del trànsit siguin extremadament difícils.
+**Tor Browser** continua sent l’estàndard d’or per a l’autèntic anonimat en línia. En redirigir el trànsit a través dels més de 7.000 retransmissors voluntaris de la xarxa Tor, Tor fa que la vigilància i l’anàlisi del trànsit siguin extremadament difícils.
 
 ### Com et protegeix Tor
 
@@ -621,7 +621,7 @@ Tu → Node d’entrada → Node intermedi → Node de sortida → Lloc web
 ✓ Fes servir ponts en regions censurades
 ```
 
-### Tor vs VPN
+### Tor contra VPN
 
 | Característica | Tor | VPN |
 |----------------|-----|-----|
@@ -682,7 +682,7 @@ Provats amb perfils de navegació idèntics en 100 llocs populars:
 
 **Temps de càrrega de pàgina (mitjana):**
 - Brave: 1,6 s
-- LibreWolf: 1,8 s  
+- LibreWolf: 1,8 s
 - Firefox: 2,1 s
 - Chrome: 2,0 s
 - Tor: 6,8 s
@@ -747,7 +747,7 @@ Necessites un navegador mòbil que protegeixi la privadesa?
 3r: Chrome
 
 **Desenvolupament/Proves:**
-1r: Firefox (excel·lents DevTools)
+1r: Firefox (excel·lents eines de desenvolupament)
 2n: Brave (proves Chromium)
 3r: Chrome (referència Chromium)
 
@@ -792,9 +792,9 @@ Necessites un navegador mòbil que protegeixi la privadesa?
 **Temporary Containers**: Aïlla llocs web en contenidors
 **CanvasBlocker**: Evita l’empremta digital de canvas
 
-## Guia de migració a Privacy Browser
+## Guia de migració a un navegador centrat en la privacitat
 
-### Canviant de Chrome a Privacy Browser
+### Canviant de Chrome a un navegador centrat en la privacitat
 
 **Pas 1: Tria el teu navegador**
 - Usuari tècnic → LibreWolf
@@ -943,9 +943,9 @@ El [manual de Tor Browser](https://tb-manual.torproject.org/) i la [guia de priv
 
 Les proteccions del navegador redueixen l’exposició, però no fan anònims un compte, un dispositiu o una connexió. La **navegació privada** elimina determinats elements de l’historial local quan acaba la sessió. No amaga el trànsit a l’operador de xarxa ni impedeix que un lloc identifiqui un usuari que hi ha iniciat sessió. [Tor Project n’explica la diferència](https://support.torproject.org/tor-browser/general/tb-vs-incognito-mode/).
 
-**En el fingerprinting, importa quantes persones tenen un perfil semblant al vostre.** Tor Browser intenta agrupar els usuaris en grups d’empremtes habituals amb letterboxing, valors estandarditzats i aïllament de primera part. Tor Project assenyala que l’anonimat perfecte no és possible. Sense un motiu concret, no afegiu extensions inusuals, no maximitzeu la finestra de Tor i no canvieu els valors predeterminats. [Llegiu les indicacions de Tor sobre fingerprinting](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+**Pel que fa a l’empremta digital del navegador, importa quantes persones comparteixen un perfil semblant al vostre.** Tor Browser intenta agrupar els usuaris en grups d’empremtes habituals amb letterboxing, valors estandarditzats i aïllament de primera part. Tor Project assenyala que l’anonimat perfecte no és possible. Sense un motiu concret, no afegiu extensions inusuals, no maximitzeu la finestra de Tor i no canvieu els valors predeterminats. [Llegiu les indicacions de Tor sobre la protecció contra l’empremta digital del navegador](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
 
-**LibreWolf necessita actualitzacions regulars.** Les preguntes freqüents del projecte indiquen que les versions solen seguir Firefox upstream en tres dies i que el navegador no té un actualitzador automàtic propi. Feu servir el gestor de paquets o el mètode d’instal·lació de la vostra plataforma i comproveu la versió instal·lada després de les actualitzacions de seguretat. [Consulteu les preguntes freqüents de LibreWolf](https://librewolf.net/docs/faq/).
+**LibreWolf necessita actualitzacions regulars.** Les preguntes freqüents del projecte indiquen que les versions de LibreWolf solen incorporar les actualitzacions de la versió original de Firefox en un termini de tres dies i que el navegador no té un actualitzador automàtic propi. Feu servir el gestor de paquets o el mètode d’instal·lació de la vostra plataforma i comproveu la versió instal·lada després de les actualitzacions de seguretat. [Consulteu les preguntes freqüents de LibreWolf](https://librewolf.net/docs/faq/).
 
 Abans de triar un navegador, feu servir aquesta llista:
 
@@ -953,7 +953,7 @@ Abans de triar un navegador, feu servir aquesta llista:
 - **Via d’actualització:** confirmeu qui proporciona les actualitzacions i com les instal·lareu.
 - **Compatibilitat:** proveu bancs, feina, contingut multimèdia, extensions i accessibilitat abans de canviar tot el vostre flux de treball.
 - **Separació d’identitats:** no feu servir inicis de sessió personals en sessions pensades per reduir els vincles entre activitats.
-- **Fingerprinting:** manteniu una configuració propera a la configuració habitual. Moltes extensions de privacitat poden fer que el navegador sigui més distintiu.
+- **Empremta digital del navegador:** manteniu una configuració propera a la configuració habitual. Moltes extensions de privacitat poden fer que el navegador sigui més distintiu.
 - **Capa de xarxa:** tracteu DNS, VPN i Tor com a controls separats. Cadascun protegeix una part diferent de la connexió.
 
 Les puntuacions de rendiment i privacitat que apareixen en altres parts d’aquesta pàgina són mesures històriques o comparacions il·lustratives si no s’indiquen el mètode, la data, el perfil de maquinari i els resultats en brut. No les considereu classificacions universals actuals. Proveu els vostres llocs i dispositius després de cada actualització important del navegador.
@@ -990,6 +990,6 @@ ______
 5. [Firefox Focus per Android](https://play.google.com/store/apps/details?id=org.mozilla.focus)
 6. [Firefox Focus per iOS](https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337)
 7. [EFF Cover Your Tracks](https://coveryourtracks.eff.org/)
-8. [AmIUnique Browser Fingerprinting](https://www.amiunique.org/)
-9. [Browserleaks Privacy Tests](https://browserleaks.com/)
-10. [Privacy Guides Browser Recommendations](https://www.privacyguides.org/browsers/)
+8. [Empremta digital del navegador amb AmIUnique](https://www.amiunique.org/)
+9. [Proves de privacitat de Browserleaks](https://browserleaks.com/)
+10. [Recomanacions de navegadors de Privacy Guides](https://www.privacyguides.org/browsers/)

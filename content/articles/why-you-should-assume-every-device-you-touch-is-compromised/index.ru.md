@@ -1,6 +1,7 @@
 ---
 title: "Предполагать, что каждое устройство уже скомпрометировано: Укрепление цифровой безопасности во взаимосвязанном мире"
 date: 2023-06-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Узнайте, почему важно считать, что каждое устройство уже скомпрометировано, и изучите практические меры по повышению уровня цифровой безопасности в современном взаимосвязанном мире."
@@ -23,7 +24,7 @@ coverCaption: "Защитите свою цифровую жизнь: Прими
 
 Вместо того чтобы успокаиваться, важно не терять бдительности и действовать на опережение. Это означает, что необходимо быть в курсе последних достижений в области безопасности и постоянно совершенствовать свою защиту. Это предполагает внедрение **многоуровневой защиты** и применение подхода "защита во всю глубину".
 
-Например, даже если вы применяете такие меры аутентификации, как **двухфакторная аутентификация (2FA)**, все равно важно регулярно обновлять пароли и с осторожностью относиться к информации, которую вы предоставляете в Интернете. Кроме того, использование безопасных коммуникационных приложений с **end-to-end шифрованием**, таких как [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) может обеспечить дополнительный уровень защиты конфиденциальных разговоров.
+Например, даже если вы применяете такие меры аутентификации, как **двухфакторная аутентификация (2FA)**, все равно важно регулярно обновлять пароли и с осторожностью относиться к информации, которую вы предоставляете в Интернете. Кроме того, использование безопасных коммуникационных приложений со **сквозным шифрованием**, таких как [Signal](https://www.signal.org/) или [Wire](https://wire.com/en/) может обеспечить дополнительный уровень защиты конфиденциальных разговоров.
 
 Предполагая, что каждое устройство уже скомпрометировано, вы с большей вероятностью предпримете необходимые шаги для защиты своей цифровой жизни. Это включает в себя соблюдение **гигиены устройства** путем ограничения количества установленных приложений и регулярного выполнения **заводского сброса настроек** для устранения возможных вредоносных программ или компрометации.
 
@@ -37,15 +38,15 @@ coverCaption: "Защитите свою цифровую жизнь: Прими
 
 Когда речь идет о работе в Интернете, для защиты от киберугроз необходимо придерживаться безопасных привычек. Вот некоторые ключевые правила, которых следует придерживаться:
 
-1. [**Avoid visiting sketchy websites**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/): Malicious websites can infect your device with malware or steal your personal information. It is crucial to stick to trusted and reputable websites to minimize the risk of compromise. For example, when shopping online, stick to well-known e-commerce platforms like [Amazon](https://www.amazon.com/) or [eBay](https://www.ebay.com/) которые имеют надежные средства защиты. Избегайте нажатия на подозрительные ссылки или рекламу, которые могут перенаправить вас на недобросовестные сайты.
+1. [**Не посещайте подозрительные сайты**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/): Вредоносные сайты могут заразить устройство вредоносным ПО или похитить ваши личные данные. Выбирайте надежные сайты, чтобы снизить риск компрометации. Для онлайн-покупок используйте известные площадки, например [Amazon](https://www.amazon.com/) или [eBay](https://www.ebay.com/), с надежными средствами защиты. Не переходите по подозрительным ссылкам и рекламе, ведущим на мошеннические сайты.
 
-2. [**Always verify website authenticity**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Прежде чем вводить учетные данные или передавать конфиденциальную информацию на сайте, необходимо убедиться в его легитимности. Это поможет вам не стать жертвой фишинга или не посетить мошеннические сайты. Некоторые шаги, которые необходимо предпринять, включают:
+2. [**Проверяйте подлинность сайтов**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Прежде чем вводить учетные данные или передавать конфиденциальную информацию на сайте, необходимо убедиться в его легитимности. Это поможет вам не стать жертвой фишинга или не посетить мошеннические сайты. Некоторые шаги, которые необходимо предпринять, включают:
 
    - **Проверьте наличие протокола HTTPS**: Найдите в URL-адресе сайта значок висячего замка и букву "https://". Буква "s" в слове "https" означает, что соединение зашифровано, что обеспечивает более высокий уровень безопасности. Например, при доступе к веб-сайту интернет-банка убедитесь, что URL-адрес начинается с "https://", чтобы обеспечить безопасное соединение.
-   
-   - **Ищите индикаторы доверия**: Многие браузеры отображают индикаторы доверия, такие как зеленый значок замка или значок безопасности, которые указывают на то, что сайт прошел проверку и является безопасным. Обращайте внимание на эти индикаторы, прежде чем вводить конфиденциальную информацию. Например, такие популярные браузеры, как [Google Chrome](https://www.google.com/chrome/) and [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) предоставлять визуальные подсказки, помогающие пользователям идентифицировать защищенные сайты.
 
-   - [**Beware of phishing attempts**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/): Be cautious of phishing emails or messages that mimic legitimate websites to trick you into sharing personal information. Avoid clicking on links in unsolicited emails or messages, and manually type the website URL in your browser instead. Organizations like the [Anti-Phishing Working Group](https://apwg.org/) предоставлять ресурсы и информацию, помогающие людям выявлять попытки фишинга и сообщать о них.
+   - **Ищите индикаторы доверия**: Многие браузеры отображают индикаторы доверия, такие как зеленый значок замка или значок безопасности, которые указывают на то, что сайт прошел проверку и является безопасным. Обращайте внимание на эти индикаторы, прежде чем вводить конфиденциальную информацию. Например, такие популярные браузеры, как [браузер Google Chrome](https://www.google.com/chrome/) and [браузер Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) предоставлять визуальные подсказки, помогающие пользователям идентифицировать защищенные сайты.
+
+   - [**Остерегайтесь фишинга**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/): Будьте осторожны с письмами и сообщениями, которые имитируют настоящие сайты, чтобы выманить личные данные. Не переходите по ссылкам из нежелательных сообщений, а вводите адрес сайта в браузере вручную. Организация [рабочая группа по борьбе с фишингом (Anti-Phishing Working Group)](https://apwg.org/) публикует материалы, помогающие распознавать фишинговые атаки и сообщать о них.
 
 Соблюдение этих правил безопасной работы в Интернете позволяет значительно снизить риск компрометации устройства или стать жертвой мошенников.
 
@@ -53,7 +54,7 @@ coverCaption: "Защитите свою цифровую жизнь: Прими
 
 В эпоху цифровых технологий защита персональных данных является **важнейшей задачей**. Применяя безопасные методы, вы можете свести к минимуму риск **кражи личных данных** и несанкционированного доступа к конфиденциальной информации. Вот некоторые важные шаги, которые необходимо предпринять:
 
-1. [**Refrain from sharing personal details**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/): Be cautious when it comes to **sharing personal information online**. Avoid disclosing sensitive details such as your **full name, address, phone number, or financial information** on public platforms or to unknown individuals. Identity theft is a significant concern, and minimizing the exposure of personal data reduces the chances of unauthorized access. For example, refrain from sharing your home address on social media platforms like [Facebook](https://www.facebook.com/) or [Twitter](https://twitter.com/)
+1. [**Не раскрывайте личные данные**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/): Будьте осторожны, публикуя личные сведения в интернете. Не размещайте полное имя, адрес, номер телефона или финансовые данные на общедоступных площадках и не передавайте их незнакомцам. Кража личности представляет серьезную угрозу, а сокращение объема открытых личных данных снижает риск несанкционированного доступа. Например, не публикуйте домашний адрес в социальных сетях, таких как [Facebook](https://www.facebook.com/) или [Twitter](https://twitter.com/).
 
 2. **Проявляйте осторожность с интимным контентом**: Необходимо помнить о рисках, связанных с **обменом интимным контентом в Интернете**. Никогда не обменивайтесь **откровенными фотографиями или видеозаписями**, поскольку они могут быть использованы для **черной почты или мести**, что приведет к сильным эмоциональным переживаниям и потенциальной компрометации. Помните, что после размещения такого контента бывает трудно контролировать его распространение или предотвратить неправомерное использование. Защищайте свою частную жизнь, проявляя осторожность и уважение к своим и чужим границам.
 
@@ -62,21 +63,21 @@ coverCaption: "Защитите свою цифровую жизнь: Прими
 
 Использование **жестких методов аутентификации и паролей** обеспечивает дополнительный уровень безопасности ваших учетных записей в Интернете. Следуйте этим рекомендациям:
 
-1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Two-factor authentication provides an additional layer of security by requiring something you know (password) and something you have (a mobile device or security key) to access your accounts. Enable 2FA whenever possible, as it significantly reduces the risk of unauthorized access. Major online services like [Google](https://www.google.com/landing/2step/) and [Microsoft](https://www.microsoft.com/en-us/account/security/) предлагают варианты включения 2FA.
+1. [**Включите двухфакторную аутентификацию (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Включайте 2FA при любой возможности, чтобы добавить дополнительный уровень защиты. Метод сочетает то, что вы знаете (пароль), с тем, чем вы владеете (мобильным устройством или ключом безопасности). Крупные онлайн-сервисы, такие как [Google](https://www.google.com/landing/2step/) и [Microsoft](https://www.microsoft.com/en-us/account/security/), предлагают варианты включения 2FA.
 
-2. [**Use randomly generated passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/): It is crucial to create **strong and unique passwords** for all your accounts. Avoid using easily guessable information like your name or birthdate. Instead, consider using a [password manager](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) для генерации и безопасного хранения сложных паролей.
+2. [**Используйте случайно сгенерированные пароли**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/): Создавайте надежные уникальные пароли для всех учетных записей. Не используйте легко угадываемые сведения, например имя или дату рождения. Рассмотрите [менеджер паролей](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) для безопасного создания и хранения сложных паролей.
 
 Следуя этим рекомендациям, вы сможете усилить защиту своих персональных данных и снизить риск несанкционированного доступа к конфиденциальной информации.
-### [Social Media Privacy](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+### [Конфиденциальность в социальных сетях](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
-1. [**Minimize social media usage**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Важно **ограничить свое присутствие в социальных сетях**, чтобы снизить риск раскрытия личной информации. Минимизация информации, предоставляемой в социальных сетях, позволяет снизить риск несанкционированного доступа к вашим данным. Настройте параметры **приватности** для ограничения доступа к своим сообщениям и профилю, чтобы только доверенные лица могли просматривать ваши материалы.
+1. [**Сократите использование социальных сетей**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Важно **ограничить свое присутствие в социальных сетях**, чтобы снизить риск раскрытия личной информации. Минимизация информации, предоставляемой в социальных сетях, позволяет снизить риск несанкционированного доступа к вашим данным. Настройте параметры **приватности** для ограничения доступа к своим сообщениям и профилю, чтобы только доверенные лица могли просматривать ваши материалы.
 
-Например, на таких платформах, как [Facebook](https://www.facebook.com/) and [Twitter](https://twitter.com/) вы можете настроить параметры конфиденциальности, чтобы контролировать, кто может видеть ваши сообщения, фотографии и личную информацию. Тщательно контролируя свое присутствие в социальных сетях, вы можете обеспечить конфиденциальность и защитить свои личные данные.
+Например, на таких платформах, как [Facebook](https://www.facebook.com/) и [Twitter](https://twitter.com/) вы можете настроить параметры конфиденциальности, чтобы контролировать, кто может видеть ваши сообщения, фотографии и личную информацию. Тщательно контролируя свое присутствие в социальных сетях, вы можете обеспечить конфиденциальность и защитить свои личные данные.
 ### Безопасная связь
 
-1. [**Utilize secure communication apps**](https://simeononsecurity.com/recommendations/messengers) Когда речь идет об общении с другими людьми, очень важно уделять первостепенное внимание безопасности и конфиденциальности своих сообщений. Выбирайте **безопасные коммуникационные приложения**, использующие **постоянное шифрование**, чтобы ваши сообщения оставались **конфиденциальными** и были защищены от несанкционированного доступа.
+1. [**Используйте защищённые приложения для общения**](https://simeononsecurity.com/recommendations/messengers): Выбирайте защищённые приложения для общения, например Signal или Wire. Они используют сквозное шифрование, чтобы сохранять конфиденциальность сообщений.
 
-Например, [Signal](https://www.signal.org/) and [Wire](https://wire.com/en/) это популярные приложения для обмена сообщениями, известные своими надежными защитными функциями. Эти приложения шифруют сообщения таким образом, что получить доступ к ним и расшифровать их могут только адресаты, что обеспечивает высокий уровень конфиденциальности и безопасности.
+Например, [Signal](https://www.signal.org/) или [Wire](https://wire.com/en/) это популярные приложения для обмена сообщениями, известные своими надежными защитными функциями. Эти приложения шифруют сообщения таким образом, что получить доступ к ним и расшифровать их могут только адресаты, что обеспечивает высокий уровень конфиденциальности и безопасности.
 
 Используя защищенные приложения для обмена сообщениями, вы можете быть уверены в том, что ваши разговоры защищены, а конфиденциальная информация остается в тайне.
 ### Гигиена устройства
@@ -92,7 +93,7 @@ coverCaption: "Защитите свою цифровую жизнь: Прими
 
 Регулярное резервное копирование данных имеет решающее значение для защиты от их потери в результате отказа оборудования, атак вредоносных программ и других непредвиденных обстоятельств. Следуйте этим рекомендациям, чтобы обеспечить сохранность важных данных:
 
-1. [**Maintain backups**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): It is essential to **create and maintain regular backups** of your important data. By following the [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/), you can ensure the availability and recoverability of your data in the event of a disaster. This strategy involves having **three copies** of your data, with **two copies stored on different mediums** (such as an external hard drive and cloud storage) and **one copy stored off-site** (e.g., in a secure location or using a remote backup service) Такой подход минимизирует риск потери данных и обеспечивает резервирование критически важной информации.
+1. [**Создавайте резервные копии**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Регулярно создавайте резервные копии важных данных. Следуйте [стратегии резервного копирования 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): храните три копии данных, две на разных носителях, а одну в другом месте.
 
 Реализация надежной стратегии резервного копирования данных позволяет защитить ценные сведения и восстановить их в случае непредвиденных инцидентов или повреждения данных.
 
@@ -110,11 +111,11 @@ ______
 
 4. **Управлять конфиденциальностью в социальных сетях**: Ограничьте свое присутствие в социальных сетях и настройте параметры конфиденциальности, чтобы контролировать, кто может получить доступ к вашим сообщениям и профилю. Сведение к минимуму своего присутствия в сети поможет защитить конфиденциальность.
 
-5. **Использовать безопасные приложения для общения**: Используйте **безопасные приложения для общения**, например [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) которые используют **end-to-end шифрование** для обеспечения конфиденциальности ваших сообщений.
+5. **Использовать безопасные приложения для общения**: Используйте **безопасные приложения для общения**, например [Signal](https://www.signal.org/) или [Wire](https://wire.com/en/) которые используют **сквозное шифрование** для обеспечения конфиденциальности ваших сообщений.
 
 6. **Соблюдайте гигиену устройства**: Сведите к минимуму количество установленных приложений и программ, чтобы уменьшить площадь атаки. Регулярно выполняйте **заводской сброс** на своих устройствах для устранения возможных вредоносных программ или компрометации.
 
-7. **Ведение резервного копирования данных**: Следуйте указаниям [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) создавая и поддерживая регулярное резервное копирование важных данных. Такая стратегия обеспечивает резервирование и помогает защитить данные от потери.
+7. **Ведение резервного копирования данных**: Следуйте указаниям [стратегия резервного копирования 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) создавая и поддерживая регулярное резервное копирование важных данных. Такая стратегия обеспечивает резервирование и помогает защитить данные от потери.
 
 Принятие этих мер безопасности и информирование о новейших методах защиты позволяет повысить уровень цифровой безопасности и защитить себя от киберугроз. Не забывайте о проактивности и адаптируйте свои меры безопасности по мере появления новых угроз.
 
@@ -122,8 +123,8 @@ ______
 
 ## Ссылки
 
-1. [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-2. [Federal Trade Commission (FTC) - Protecting Personal Information: A Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/protecting-personal-information-guide-business)
-3. [Signal - Secure Messaging, Calls, and Video](https://www.signal.org/)
-4. [Wire](https://wire.com/en/) 
+1. [рамочная система кибербезопасности National Institute of Standards and Technology (NIST)](https://www.nist.gov/cyberframework)
+2. [Federal Trade Commission (FTC) - руководство для компаний по защите персональных данных](https://www.ftc.gov/tips-advice/business-center/guidance/protecting-personal-information-guide-business)
+3. [Signal - безопасные сообщения, звонки и видео](https://www.signal.org/)
+4. [Wire](https://wire.com/en/)
 

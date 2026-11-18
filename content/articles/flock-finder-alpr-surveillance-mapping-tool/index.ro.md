@@ -5,8 +5,8 @@ lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Flock Finder este un instrument open-source care cartografiază peste 40.000 de camere ALPR Flock Safety la nivel mondial folosind datele WiFi WiGLE și amprenta OUI. Aflați cum funcționează, limitele sale și instrumentele hardware pentru detecție în timp real."
-genre: ["Tehnologie pentru Confidențialitate", "Contra-Supraveghere", "Proiecte Open Source", "Drepturi Digitale", "Securitate Rețea", "Instrumente Confidențialitate", "Hardware Hacking", "Cercetare Securitate"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "Cititor Numere de Înmatriculare", "Amprentare OUI", "WiGLE", "Supraveghere WiFi", "Contra-Supraveghere", "STS Collective", "FlockYou", "ESP32", "Instrumente Confidențialitate", "NitekryDPaul", "DeFlockJoplin", "Detectare ALPR", "Securitate Open Source", "Cartografiere Supraveghere", "Supraveghere în Masă", "WiFi OUI", "Protecție Confidențialitate", "Adresă MAC", "Mod Promiscuu", "802.11", "Detectare în Timp Real", "Wardriving", "Drepturi Digitale", "Libertăți Civile", "Conștientizare Supraveghere", "GitHub", "Python"]
+genre: ["Tehnologie pentru Confidențialitate", "Contra-Supraveghere", "Proiecte Open Source", "Drepturi Digitale", "Securitate Rețea", "Instrumente Confidențialitate", "Modificarea hardware-ului", "Cercetare Securitate"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "Cititor Numere de Înmatriculare", "Amprentare OUI", "WiGLE", "Supraveghere WiFi", "Contra-Supraveghere", "STS Collective", "FlockYou", "ESP32", "Instrumente Confidențialitate", "NitekryDPaul", "DeFlockJoplin", "Detectare ALPR", "Securitate Open Source", "Cartografiere Supraveghere", "Supraveghere în Masă", "WiFi OUI", "Protecție Confidențialitate", "Adresă MAC", "Mod Promiscuu", "802.11", "Detectare în Timp Real", "scanarea rețelelor WiFi în timpul deplasării", "Drepturi Digitale", "Libertăți Civile", "Conștientizare Supraveghere", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "O hartă interactivă care afișează marcatori colorați indicând locațiile camerelor ALPR Flock Safety, cu semnale WiFi abstracte emanând din marcatori pe un fundal întunecat."
 coverCaption: "Flock Finder cartografiază peste 40.000 de camere ALPR Flock Safety suspecte folosind datele WiFi WiGLE și amprenta OUI."
@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **Un instrument open-source de conștientizare a supravegherii care cartografiază camerele ALPR Flock Safety folosind date WiFi colectate colaborativ.**
+
+> **Corecție, 21 septembrie 2026:** Am auditat setul de date de bază, cu 146,526 de înregistrări, și am constatat că titlul inițial și marcajele uniforme de pe hartă exagerau considerabil ce putea demonstra o potrivire OUI. Auditul a identificat 50,278 de sisteme Barco ClickShare și 60,793 de înregistrări care corespundeau regulilor de denumire pentru alte dispozitive cunoscute. Flock Finder publică acum clase de dovezi, exclude aceste înregistrări din harta și titlul implicite și oferă filtre de încredere. Citește metodologia completă și corecția în **[Am cartografiat 146,526 de „camere Flock”. 50,278 erau sisteme ClickShare](/articles/flock-finder-oui-false-positive-audit-2026/)**.
 
 ## Ce este Flock Finder?
 
@@ -37,6 +39,10 @@ Pentru context privind importanța supravegherii ALPR Flock Safety pentru confid
 ______
 
 ## Cum Funcționează: Amprenta OUI prin WiGLE
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="Diagramă care arată cum Flock Finder compară prefixele MAC WiFi din WiGLE cu semnături OUI cunoscute pentru a estima pozițiile camerelor" >}}
 
 ### Perspectiva Fundamentală
 
@@ -77,7 +83,7 @@ Combinat cu **detectarea cererilor de sondaj wildcard** (cadre de management 802
 
 ______
 
-## Utilizarea Hărții Live
+## Utilizarea hărții interactive
 
 Harta interactivă este disponibilă la **[simeononsecurity.github.io/flock-finder/](https://simeononsecurity.github.io/flock-finder/)**. Afișează:
 
@@ -116,34 +122,34 @@ ______
 ### Configurare
 
 ```bash
-# Clone the repository
+# Clonează depozitul
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# Instalează dependențele
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# Configurează acreditările API WiGLE
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# Editează .env cu numele și tokenul API WiGLE
 ```
 
 ### Rularea Scanerului
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# Scanare completă — toate cele 31 de prefixe OUI la nivel mondial
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# Test pentru un singur OUI
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# Numai SUA
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# Casetă de delimitare specifică (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# Rulare de probă — verifică autentificarea, fără interogări API
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,7 +157,7 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# Deschide http://localhost:8080 în browser
 ```
 
 ### Actualizări Zilnice Automate prin GitHub Actions
@@ -160,7 +166,7 @@ Bifurcați repo-ul și adăugați credențialele WiGLE ca **secrete de repositor
 
 ______
 
-## Detectare în Timp Real: Hardware FlockYou de la STS Collective
+## Detectare în timp real: dispozitive FlockYou de la STS Collective
 
 Harta WiGLE vă spune unde camerele *au fost observate*. Pentru detectare în timp real în timp ce conduceți — folosind metoda actuală de potrivire OUI a lui @NitekryDPaul pe traficul WiFi live — aveți nevoie de hardware dedicat.
 
@@ -181,6 +187,8 @@ Toate dispozitivele:
 - Alimentate prin USB-C (adaptor auto, power bank sau laptop)
 
 > 💰 **Reduceri Exclusive**: Folosiți codul **FLOCKFINDER** pentru **20% reducere** la toate dispozitivele FlockYou de la STS Collective — sau folosiți codul **SIMEONONSECURITY** pentru până la 20% reducere la întreaga comandă. [Cumpărați la stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< stscollective-ad "flockyou" >}}
 
 Pentru o analiză tehnică completă a acestor dispozitive și alternative DIY, citiți **[Proiectul Flock-You Detection: Ghid Complet de Hardware și Configurare pentru Contra-Supraveghere](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
@@ -223,7 +231,7 @@ Acoperirea WiGLE este neuniformă. Dacă niciun wardriver nu a scanat o anumită
 
 Fluxul de lucru GitHub Actions rulează zilnic și extrage cele mai recente rezultate WiGLE. Cu toate acestea, WiGLE poate avea înregistrări de la zile la ani pentru orice locație dată. Verificați fișierul `scan_stats.json` pentru marcajul de timp al celui mai recent scan.
 
-### Pot contribui cu propriile date de wardrive?
+### Pot contribui cu date proprii de scanare WiFi din timpul deplasărilor cu mașina?
 
 Da. Încărcați datele de wardrive la [WiGLE](https://wigle.net) — acestea alimentează automat următoarea scanare zilnică a Flock Finder. Puteți contribui și cu prefixe OUI sau îmbunătățiri de cod prin [Ghidul de Contribuție](https://github.com/simeononsecurity/flock-finder/blob/main/CONTRIBUTING.md).
 
@@ -259,6 +267,12 @@ ______
 Este un **instrument de transparență**, nu un tracker live. Datele sale sunt istorice, incomplete și probabilistice. Dar face vizibilă scara supravegherii ALPR într-un mod în care rezumatele și rapoartele nu pot.
 
 Pentru protecție genuină în timp real în timp ce vă deplasați prin zone supravegheate, combinați harta cu hardware dedicat. **[Dispozitivele FlockYou de la STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** implementează metoda de detectare a lui @NitekryDPaul direct pe un ESP32 și vă alertează în momentul în care este detectată o semnătură de cameră live — disponibile la **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** cu codul **FLOCKFINDER** sau **SIMEONONSECURITY** pentru până la 20% reducere.
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Cumpărați detectoare FlockYou și economisiți 20%
+{{< /centerbutton >}}
 
 ### Articole Conexe
 

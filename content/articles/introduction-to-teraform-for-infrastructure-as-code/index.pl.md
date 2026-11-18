@@ -1,10 +1,11 @@
 ---
 title: "Rozpoczęcie pracy z Terraform dla Infrastructure as Code"
 date: 2023-05-04
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą."
-tags: ["Terraform", "Infrastruktura jako kod", "IaC", "Chmura obliczeniowa", "DevOps", "Automatyka", "AWS", "Lazurowy", "Google Cloud", "Dostawcy usług w chmurze", "Zarządzanie konfiguracją", "Wdrożenie", "Provisioning", "Zarządzanie zasobami", "Skalowalność", "Resilience", "Bezpieczeństwo", "Zgodność", "Najlepsze praktyki"]
+tags: ["Terraform", "Infrastruktura jako kod", "IaC", "Chmura obliczeniowa", "DevOps", "Automatyka", "AWS", "Azure", "Google Cloud", "Dostawcy usług w chmurze", "Zarządzanie konfiguracją", "Wdrożenie", "Aprowizacja", "Zarządzanie zasobami", "Skalowalność", "Odporność", "Bezpieczeństwo", "Zgodność", "Najlepsze praktyki"]
 cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Kreskówkowy monitor komputera z wieloma podłączonymi do sieci urządzeniami, które pojawiają się jako dodawane lub usuwane klocki, co oznacza zarządzanie infrastrukturą za pomocą Terraform."
 coverCaption: ""
@@ -32,11 +33,11 @@ Używanie Teraform do aplikacji infrastructure as code oferuje kilka korzyści, 
 
 - Oszczędność kosztów:** Zdolność Teraform do łatwego dostarczania i usuwania zasobów może skutkować oszczędnością kosztów.
 
-## Getting Started with Teraform
+## Rozpoczęcie pracy z Teraform
 
 Aby rozpocząć pracę z Teraform, będziesz musiał:
 
-1. **Pobrać Teraform:** Teraform może być pobrany z witryny[official website](https://www.terraform.io/downloads.html)
+1. **Pobrać Teraform:** Teraform może być pobrany z witryny[oficjalnej strony internetowej](https://www.terraform.io/downloads.html)
 
 2. **Utwórz plik konfiguracyjny:** Teraform używa plików konfiguracyjnych napisanych w języku HashiCorp Configuration Language (HCL) lub JSON. Plik konfiguracyjny definiuje infrastrukturę, którą chcesz stworzyć, zaktualizować lub usunąć.
 
@@ -134,7 +135,7 @@ Kiedy jesteś zadowolony ze zmian, możesz je zastosować używając opcji`terra
 
 Spowoduje to zastosowanie zmian w Twojej infrastrukturze. Zauważ, że zastosowanie zmian może zająć trochę czasu, w zależności od rozmiaru i złożoności Twojej infrastruktury.
 
-## Best Practices for Using Teraform
+## Najlepsze praktyki korzystania z Teraform
 
 Aby zapewnić, że używasz Teraform efektywnie, rozważ przestrzeganie tych najlepszych praktyk:
 
@@ -154,6 +155,6 @@ Teraform to potężne narzędzie Infrastructure as Code, które umożliwia szybs
 
 **Referencje:**
 
--[Teraform Official Website](https://www.terraform.io/)
--[Teraform Documentation](https://www.terraform.io/docs/index.html)
--[AWS Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)
+- [Oficjalna strona Teraform](https://www.terraform.io/)
+- [Dokumentacja Teraform](https://www.terraform.io/docs/index.html)
+- [Najlepsze praktyki AWS w zakresie bezpieczeństwa, tożsamości i zgodności](https://aws.amazon.com/architecture/security-identity-compliance/)

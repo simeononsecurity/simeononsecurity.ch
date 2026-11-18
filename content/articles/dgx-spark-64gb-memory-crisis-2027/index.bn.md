@@ -1,7 +1,7 @@
 ---
 title: "64GB DGX Spark স্থানীয় AI হার্ডওয়্যারের দামের জন্য সতর্কবার্তা"
 date: 2026-10-03
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "NVIDIA-এর 64GB DGX Spark স্তর দেখায়, মেমরির সরবরাহের চাপ স্থানীয় AI হার্ডওয়্যারকে কীভাবে প্রভাবিত করছে। এই নির্দেশিকায় ক্ষমতা কমানো, unified memory-এর বিনিময় এবং 2027 সালের শেষের আগে DRAM স্বস্তি না আসার কারণ ব্যাখ্যা করা হয়েছে।"
@@ -27,7 +27,7 @@ NVIDIA-এর documentation standard DGX Spark-এ **128GB LPDDR5x unified syste
 
 **NVIDIA 128GB system-এ 200 billion parameter পর্যন্ত model support-এর কথাও বলে।** এটিকে platform capability claim হিসেবে দেখুন, আপনার quantization, context, runtime এবং operating-system headroom-সহ প্রতিটি model ওই আকারে fit করবে এমন promise হিসেবে নয়। 64GB স্তরে shared pool অর্ধেক। তাই exact model ও context test করুন।
 
-| Configuration | Shared memory | Listed price | উপযুক্ত কাজ |
+| বিন্যাস | ভাগ করা মেমরি | তালিকাভুক্ত মূল্য | উপযুক্ত কাজ |
 |---|---:|---:|---|
 | **64GB DGX Spark** | 64GB | Reported starting price 4,999 dollar | ছোট model, ছোট context এবং কম entry cost |
 | **128GB DGX Spark** | 128GB | নতুন স্তরের reported price 6,950 dollar | বড় model, দীর্ঘ context এবং বেশি memory headroom |
@@ -38,11 +38,11 @@ NVIDIA-এর documentation standard DGX Spark-এ **128GB LPDDR5x unified syste
 
 স্থানীয় AI system-এর memory শুধু model weight-এর জন্য নয়। Runtime-এ KV cache, temporary tensor, tokenizer state, operating-system allocation এবং application data থাকে। দীর্ঘ prompt ও বড় batch cache-এর প্রয়োজন বাড়ায়।
 
-| Workload factor | Memory pressure |
+| কাজের চাপের উপাদান | মেমরির চাপ |
 |---|---|
 | **Model weight** | Quantized model file-কে runtime overhead-সহ fit করতে হয় |
 | **Context length** | দীর্ঘ prompt KV cache বাড়ায় |
-| **Batch size** | বেশি concurrent sequence-এর জন্য বেশি working memory লাগে |
+| **ব্যাচের আকার** | বেশি concurrent sequence-এর জন্য বেশি working memory লাগে |
 | **Quantization** | ছোট format weight storage কমায়, কিন্তু quality ও speed-এর tradeoff বদলায় |
 | **Multiple service** | Embedding, reranking, database এবং model একই machine share করে |
 
@@ -79,7 +79,7 @@ Production cycle সময়টি ব্যাখ্যা করে। নত
 
 Memory crisis product category অনুযায়ী আলাদা প্রভাব ফেলে। TrendForce আশা করছে 2027-এর দ্বিতীয়ার্ধে new capacity ও process migration output বাড়াবে এবং consumer-electronics demand দুর্বল থাকবে, তাই NAND Flash condition শিথিল হবে। DRAM-এর পথ কঠিন, কারণ HBM ও server memory scarce wafer capacity ব্যবহার করে।
 
-| Memory type | Local AI-তে প্রধান ভূমিকা | 2027 outlook |
+| মেমরির ধরন | Local AI-তে প্রধান ভূমিকা | 2027 সালের পূর্বাভাস |
 |---|---|---|
 | **DRAM** | System memory, GPU memory এবং server module | Supply tight, relief সম্ভবত 2027-এর শেষে বা পরে |
 | **HBM** | AI accelerator-এর পাশে high-bandwidth memory | Supply constrained এবং price pressure বেশি |
@@ -120,7 +120,7 @@ Market evidence তাৎক্ষণিক DDR5 বা DRAM price collapse ধ�
 
 October 2026 buyer-এর পছন্দ পরিষ্কার। সীমিত workload-এ 64GB কিনুন, model flexibility গুরুত্বপূর্ণ হলে 128GB-এর জন্য খরচ করুন, uncertain demand-এ rent করুন, অথবা specific price target ও backup plan নিয়ে অপেক্ষা করুন। Target ছাড়া অপেক্ষা করলে আরেক product refresh, allocation shift বা high memory cost-এর আরেক বছর সামনে আসতে পারে।
 
-## References
+## তথ্যসূত্র
 
 1. [64GB DGX Spark স্থানীয় AI-এর সতর্কবার্তা](https://www.youtube.com/watch?v=7kWqGfnEhCM)
 2. [NVIDIA DGX Spark hardware guide](https://docs.nvidia.com/dgx/dgx-spark/hardware.html)

@@ -1,7 +1,7 @@
 ---
 title: "Die häufigsten Arten von Cyberangriffen und wie Verteidiger sie erkennen"
 date: 2026-09-11
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Lernen Sie die häufigsten Arten von Cyberangriffen kennen, erkennen Sie ihre Spuren in Protokollen und Telemetriedaten und üben Sie die Erkennung in einem Sicherheitslabor zu Hause."
@@ -65,7 +65,7 @@ ______
 
 ______
 
-## Denial-of-Service
+## Dienstverweigerungsangriffe (DoS)
 
 **Ein Denial-of-Service-Angriff (DoS)** überflutet ein Ziel mit Anfragen, bis legitime Nutzer keinen Zugriff mehr haben. **Ein verteilter Denial-of-Service-Angriff (DDoS)** nutzt dieselbe Methode gleichzeitig von vielen Systemen aus. Dadurch lässt sich der Datenverkehr viel schwerer anhand der Quelladresse filtern.
 

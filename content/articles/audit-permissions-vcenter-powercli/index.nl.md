@@ -1,12 +1,12 @@
 ---
 title: "Machtigingen voor een vCenter controleren met PowerCLI"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer hoe je effectief machtigingen voor een vCenter kunt controleren met PowerCLI, zodat je een veilige virtuele infrastructuur krijgt."
 genre: ["Controle van vCenter-machtigingen", "PowerCLI automatisering", "VMware-beveiliging", "Beheer van virtuele infrastructuur", "Toestemming opdrachten", "Toegangsbeheer voor gebruikers", "Kwetsbaarheden in de beveiliging", "PowerShell automatisering", "vSphere-omgevingbeheer", "Overzicht gebruikersrechten"]
-tags: ["vCentre", "PowerCLI", "audit machtigingen", "vSphere", "VMware", "virtuele infrastructuur", "PowerShell", "toegangscontrole voor gebruikers", "beveiligingsgaten", "toestemmingsopdrachten", "automatisering", "PowerCLI cmdlets", "gebruikersrollen", "permissieoverzicht", "veiligheidsbeleid", "naleving", "auditrapporten", "gegevensbescherming", "GDPR", "HIPAA", "gebruikersbeheer", "vCenter gebruikers", "beste beveiligingsprocedures", "overheidsvoorschriften", "PowerCLI installatie", "vCenter-verbinding", "PowerCLI scripting", "procesaudit", "auditgegevens exporteren", "toestemming verwijderen"]
+tags: ["vCentre", "PowerCLI", "audit machtigingen", "vSphere", "VMware", "virtuele infrastructuur", "PowerShell", "toegangscontrole voor gebruikers", "beveiligingsgaten", "toestemmingsopdrachten", "automatisering", "PowerCLI-opdrachten", "gebruikersrollen", "permissieoverzicht", "veiligheidsbeleid", "naleving", "auditrapporten", "gegevensbescherming", "GDPR", "HIPAA", "gebruikersbeheer", "vCenter gebruikers", "beste beveiligingsprocedures", "overheidsvoorschriften", "PowerCLI-installatie", "vCenter-verbinding", "PowerCLI-scripts", "procesaudit", "auditgegevens exporteren", "toestemming verwijderen"]
 cover: "/img/cover/audit-permissions-vcenter-powercli.webp"
 coverAlt: "Een afbeelding van een schild dat een virtueel datacenter beschermt tegen ongeautoriseerde toegang."
 coverCaption: "Bescherm je vCenter met effectieve rechtencontrole met PowerCLI."
@@ -27,7 +27,7 @@ Laten we eens duiken in het proces van het auditen van machtigingen voor een vCe
 ## De omgeving voorbereiden
 Voordat u in het auditproces duikt, moet u de benodigde omgeving opzetten. Hier zijn de stappen om te beginnen:
 
-1. **Installeer PowerCLI**: Download en installeer de nieuwste versie van **PowerCLI** van de officiële [VMware website](https://www.vmware.com/support/developer/PowerCLI/) Volg de installatiewizard en zorg ervoor dat het met succes wordt geïnstalleerd op uw systeem.
+1. **Installeer PowerCLI**: Download en installeer de nieuwste versie van **PowerCLI** van de officiële [VMware-site](https://www.vmware.com/support/developer/PowerCLI/) Volg de installatiewizard en zorg ervoor dat het met succes wordt geïnstalleerd op uw systeem.
 
 2. **Verbind met vCenter**: Start de **PowerCLI** console of **PowerShell** venster en maak verbinding met uw vCenter server met behulp van de `Connect-VIServer` cmdlet. Geef de nodige referenties om een verbinding op te zetten.
 
@@ -82,22 +82,22 @@ Nu PowerCLI is geïnstalleerd en verbonden met je vCenter-server, gaan we het pr
 
    Voorbeeld:
    ```powershell
-         # Connect to vCenter
+         # Verbinden met vCenter
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # Alle vCenter-gebruikers ophalen
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # Een array initialiseren om gebruikersmachtigingen op te slaan
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # Elke gebruiker doorlopen en diens machtigingen ophalen
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # Machtigingen omzetten naar een CSV-bestand
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 
@@ -107,6 +107,6 @@ Het auditen van permissies voor een vCenter-omgeving is een **cruciale stap** in
 Vergeet niet om het **beveiligingsbeleid** van uw organisatie regelmatig te herzien en bij te werken om het af te stemmen op de beste praktijken in de sector en relevante overheidsvoorschriften, zoals de **Algemene Verordening Gegevensbescherming (GDPR)** en de **Health Insurance Portability and Accountability Act (HIPAA)**. Het implementeren van een robuust proces voor het controleren van machtigingen draagt bij aan een veiligere vCenter-omgeving die voldoet aan de voorschriften.
 
 ## Referenties
-- [Download PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
+- [PowerCLI downloaden](https://www.vmware.com/support/developer/PowerCLI/)
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)

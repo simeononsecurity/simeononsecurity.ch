@@ -1,7 +1,7 @@
 ---
 title: "Structura Directorului Windows"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Ghid complet 2026 pentru structura directorului Windows, inclusiv diagrame vizuale, actualizări Windows 11, considerații de securitate și tehnici avansate de navigare pentru gestionarea eficientă a fișierelor.
@@ -75,53 +75,53 @@ La cel mai înalt nivel al structurii directorului, avem **directorul rădăcin�
 Iată o reprezentare vizuală cuprinzătoare a ierarhiei sistemului de fișiere Windows:
 
 ```
-C:\ (Root Directory)
+C:\ (Director rădăcină)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [Fișiere de sistem și componente ale sistemului de operare]
+│   ├── System32\              [Fișiere și executabile de sistem pe 64 de biți]
+│   ├── SysWOW64\              [Strat de compatibilitate pe 32 de biți în sistemele pe 64 de biți]
+│   ├── Boot\                  [Configurația de pornire și fișierele de inițializare]
+│   ├── Fonts\                 [Fonturi de sistem]
+│   ├── Temp\                  [Fișiere temporare de sistem]
+│   ├── assembly\              [Asamblări .NET Framework]
+│   ├── inf\                   [Informații despre instalarea driverelor]
+│   ├── WinSxS\                [Depozitul de componente Windows Side-by-Side]
+│   ├── Logs\                  [Fișiere jurnal de sistem]
+│   └── Security\              [Politici și șabloane de securitate]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [Aplicații pe 64 de biți (în sisteme pe 64 de biți)]
+│   ├── Common Files\          [Componente partajate ale programelor]
+│   └── [Foldere de aplicații]  [Programe instalate individual]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [Aplicații pe 32 de biți în sisteme pe 64 de biți]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [Foldere de aplicații]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [Directoare ale profilurilor de utilizator]
+│   ├── Public\                [Fișiere partajate ale utilizatorilor]
+│   ├── [Nume de utilizator]\            [Profiluri individuale de utilizator]
+│   │   ├── Desktop\           [Fișiere de pe desktop]
+│   │   ├── Documents\         [Documente ale utilizatorului]
+│   │   ├── Downloads\         [Fișiere descărcate]
+│   │   ├── Pictures\          [Imagini ale utilizatorului]
+│   │   ├── Videos\            [Videoclipuri ale utilizatorului]
+│   │   ├── Music\             [Fișiere audio ale utilizatorului]
+│   │   ├── AppData\           [Date ale aplicațiilor]
+│   │   │   ├── Local\         [Date ale aplicațiilor specifice mașinii]
+│   │   │   ├── LocalLow\      [Date ale aplicațiilor cu integritate redusă]
+│   │   │   └── Roaming\       [Date ale profilului mobil]
+│   │   ├── OneDrive\          [Fișiere sincronizate cu cloudul (Windows 11)]
+│   │   └── Contacts\          [Contacte ale utilizatorului]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [Date partajate ale aplicațiilor (ascunse)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [Date ale aplicațiilor]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [Jurnale și rapoarte de performanță]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [Coș de reciclare (ascuns)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [Puncte de restaurare a sistemului (ascunse)]
 ```
 
 ______
@@ -218,7 +218,7 @@ Directorul **Program Files** este locația implicită unde sunt instalate aplica
 | **C:\Windows\Temp\** | Fișiere temporare la nivel de sistem | Recomandat săptămânal |
 | **C:\Users\username\AppData\Local\Temp\** | Fișiere temporare specifice utilizatorului | Recomandat săptămânal |
 | **C:\Temp\** | Locație temporară pentru aplicații legacy/personalizate | După necesitate |
-| **%TEMP%** | Variabilă de mediu care indică temp-ul utilizatorului | N/A (variabilă) |
+| **%TEMP%** | Variabilă de mediu care indică temp-ul utilizatorului | Nu se aplică (variabilă) |
 
 **Practica recomandată pentru curățare:** Conform celor mai bune practici Microsoft, directoarele temporare trebuie curățate lunar. Storage Sense din Windows 11 poate automatiza acest proces. În 2026, directorul temp acumulează în medie 2-10 GB lunar.
 
@@ -303,9 +303,9 @@ ______
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # Listează recursiv subdirectoarele
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # Creează un director nou
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **Comenzi PowerShell esențiale:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # Schimbă directorul (alias: cd)
+Get-ChildItem                    # Listează elementele (aliasuri: dir, ls)
+Get-ChildItem -Recurse           # Listează recursiv
+Get-ChildItem -Force             # Afișează elementele ascunse
+Test-Path [path]                 # Verifică dacă există calea
+New-Item -ItemType Directory     # Creează un director nou
+Remove-Item [path]               # Șterge elementul
+Get-Item [path]                  # Obține proprietățile elementului
+Resolve-Path [path]              # Transformă calea relativă în cale absolută
 ```
 
 **Exemplu avansat PowerShell:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# Găsește toate fișierele .log mai mari de 10MB
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# Calculează dimensiunea directorului
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "Dimensiunea directorului: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal (Standard 2026)
@@ -440,12 +440,12 @@ Windows folosește **permisiuni NTFS** pentru a controla accesul la directoare �
 
 **Exemplu Audit Permisiuni PowerShell:**
 ```powershell
-# Get ACL for a directory
+# Obține ACL-ul unui director
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# Exportă permisiunile în CSV
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **Soluții:**
 ```powershell
-# Take ownership of a file/folder
+# Preia proprietatea unui fișier/director
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# Acordă permisiuni
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### Problema 3: Directorul WinSxS Ocupă Prea Mult Spațiu
 
 **Soluții:**
-```cmd
-# Analyze component store
+```powershell
+# Analizează depozitul de componente
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# Curăță depozitul de componente
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# Elimină versiunile înlocuite (ireversibil)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - Ștergeți datele aplicațiilor inutile
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# Afișează cele mai mari directoare din AppData
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. Module PowerShell
 
 ```powershell
-# Install useful modules
+# Instalează module utile
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# Listă de directoare îmbunătățită cu pictograme
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **Activare Audit:**
 ```powershell
-# Enable file auditing via PowerShell
+# Activează auditarea fișierelor prin PowerShell
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Vizualizator Evenimente > Jurnale Windows > Securitate (ID-uri Eveniment 4663, 4
 - Implementați filtre de fișiere pentru a preveni tipurile de fișiere neautorizate
 
 ______
+
+## Note despre căile Windows actuale
+
+Windows păstrează aceleași foldere principale în versiunile desktop acceptate, dar unele căi necesită atenție:
+
+| Cale | Rol actual | Utilizare sigură |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | Fișiere binare și biblioteci native de sistem pentru arhitectura instalată. În Windows pe 64 de biți, procesele pe 32 de biți folosesc stratul Windows-on-Windows prin **`SysWOW64`**. | Nu înlocui manual fișierele. Folosește Windows Update, DISM sau programul de instalare al furnizorului. |
+| **`C:\Windows\WinSxS`** | Depozit de componente folosit pentru service și recuperare. Legăturile hard fac estimările de dimensiune din Explorer înșelătoare. | Analizează și curăță depozitul de componente cu DISM. Nu șterge fișiere din folder. |
+| **`C:\Users\<name>\AppData`** | Starea aplicațiilor pentru fiecare utilizator. `Local`, `LocalLow` și `Roaming` răspund unor nevoi diferite ale aplicațiilor și profilurilor. | Fă backup datelor aplicațiilor înainte de a goli memoria cache. Nu presupune că orice folder poate fi șters. |
+| **Stocarea distribuțiilor WSL 2** | O distribuție folosește un disc virtual `ext4.vhdx` în directorul `LocalState` al pachetului. | Exportă sau oprește distribuția înainte de întreținerea discului. Nu edita discul virtual ca pe un folder obișnuit. |
+
+Diagrama și exemplele mai vechi rămân utile ca hartă. Microsoft documentează calea discului virtual WSL 2 și explică de ce distribuția este stocată pe un hard disk virtual, nu în fișiere Windows obișnuite. Numele exact al pachetului diferă în funcție de distribuție și metoda de instalare. Consultă [îndrumările Microsoft despre spațiul de disc WSL](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+Microsoft a încheiat suportul pentru Windows 10 versiunea 22H2 la 14 octombrie 2025, cu excepția edițiilor cu termeni de ciclu de viață separat sau a celor eligibile pentru un acord Extended Security Update. În 2026, tratează Windows 10 ca pe un caz de migrare sau gestionare a excepțiilor. Consultă [notificarea Microsoft despre ciclul de viață Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+Intervalele de dimensiune și procentele de adoptare din secțiunile inițiale sunt cifre orientative, nu măsurători ale acestui site. Dimensiunea directorului depinde de software-ul instalat, istoricul actualizărilor, conținutul profilului și politicile de păstrare. Verifică sistemul local înainte de a șterge ceva.
+
+## Listă de verificare pentru întreținerea sigură a directoarelor
+
+1. Notează calea, proprietarul, ACL-ul și scopul profesional înainte de a modifica un director protejat.
+2. Creează sau confirmă un backup recuperabil înainte de a elimina datele aplicațiilor sau de a schimba permisiunile.
+3. Preferă instrumente acceptate precum **Storage Sense**, **DISM**, **`robocopy`** și programele de dezinstalare.
+4. Testează modificările cu un cont de utilizator standard dacă sarcina nu cere privilegii elevate.
+5. Verifică Event Viewer și jurnalele aplicațiilor după întreținere.
+6. Păstrează o înregistrare de revenire cu calea inițială, comanda, ora și rezultatul.
+
+**Nu folosi `/MIR` cu o destinație neverificată.** `robocopy /MIR` elimină din destinație fișierele absente din sursă.
+
 
 ## Concluzie
 

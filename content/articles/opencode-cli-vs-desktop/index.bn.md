@@ -1,7 +1,7 @@
 ---
 title: "OpenCode CLI বনাম Desktop: ২০২৬ সালের ওয়ার্কফ্লো তুলনা"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "সার্ভার আর্কিটেকচার, provider configuration, scripting, session state এবং troubleshooting-এর মাধ্যমে OpenCode-এর terminal ও desktop client তুলনা করুন।"
@@ -34,9 +34,9 @@ coverCaption: ""
 | Layer | যে প্রশ্নের উত্তর দরকার |
 |---|---|
 | **Client** | Terminal UI, desktop app, না non-interactive command? |
-| **Agent server** | কোন process request গ্রহণ করে? |
+| **এজেন্ট সার্ভার** | কোন process request গ্রহণ করে? |
 | **Repository** | Server কোন directory access করে? |
-| **Model provider** | কোন service inference দেয়? |
+| **মডেল প্রদানকারী** | কোন service inference দেয়? |
 | **Session** | Existing conversation, না নতুন task? |
 
 **Server location inference location নয়।** আপনার computer-এ থাকা agent server-ও configured hosted model-এ request পাঠাতে পারে। বিপরীতে compatible local inference service নিজের model ও resource requirement-সহ আলাদা process।
@@ -73,10 +73,10 @@ opencode run "Identify this project's test command. Do not modify files."
 
 **ছোট real task দিয়ে desktop interaction মূল্যায়ন করুন।** Project খুলুন, server নিশ্চিত করুন, bounded request পাঠান, changed file পরীক্ষা করুন এবং correction চান। Agent-এর কাজ বুঝতে কত effort লাগে তা বিচার করুন। Graphical client আপনার editor ও debugger-এর সম্পূর্ণ replacement ধরে নেবেন না।
 
-| Desktop trial | প্রত্যাশিত evidence |
+| ডেস্কটপ পরীক্ষা | প্রত্যাশিত evidence |
 |---|---|
-| **Project selection** | Agent intended repository শনাক্ত করে |
-| **Model selection** | Provider ও model trial record-এর সঙ্গে মেলে |
+| **প্রকল্প নির্বাচন** | Agent intended repository শনাক্ত করে |
+| **মডেল নির্বাচন** | Provider ও model trial record-এর সঙ্গে মেলে |
 | **Command execution** | দরকারি runtime ও test পাওয়া যায় |
 | **Change inspection** | Full patch সহজে খুঁজে review করা যায় |
 | **Restart** | Intended project ও session শনাক্তযোগ্য থাকে |

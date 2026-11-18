@@ -1,7 +1,7 @@
 ---
 title: "9 个用于研究、设计和开发的 AI 代理技能项目"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "按工作流、宿主支持、依赖项和成本比较九个代理技能项目。了解如何安装、检查和测试所需技能。"
@@ -154,13 +154,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **以下示例命令来自项目当前的安装文档。**只运行所选项目的命令。软件包运行器会下载并执行安装代码，因此运行前应检查上游项目并选择安装范围。
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer：用户级 Codex 安装
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days：用户级 Codex 安装
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion：官方技能集合，不是框架仓库
 npx skills add remotion-dev/skills
 ```
 
@@ -184,7 +184,7 @@ npx skills add remotion-dev/skills
 **用一项已保存任务作为基线。**先在未安装新技能时运行，再在安装后运行。尽可能保持模型、输入、工具和验收标准不变。将失败情况和人工修正与最终结果一起记录。
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# 示例评估记录，不是技能配置架构
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

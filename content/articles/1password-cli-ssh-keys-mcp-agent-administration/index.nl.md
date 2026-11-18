@@ -1,12 +1,12 @@
 ---
 title: "1Password SSH Agent en CLI: Alleen-lezen AI-agent-toegang"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ontwerp een alleen-lezen SSH-workflow met 1Password CLI, de SSH Agent en MCP. Gebruik synthetische commando's, beperkte machtigingen en menselijke goedkeuring voordat u live test."
 genre: ["Systeembeheer", "Cloudbeveiliging", "Automatisering"]
-tags: ["1Password CLI", "SSH-sleutels", "1Password SSH Agent", "MCP", "Model Context Protocol", "agentbeheer", "systeembeheer", "Bitbucket Cloud", "Git over SSH", "geheimverwijzingen", "serviceaccounts", "minimale machtigingen", "open sleutelauthenticatie", "geheimbeheer", "commandoregelbeveiliging", "automatiseringsveiligheid"]
+tags: ["1Password CLI", "SSH-sleutels", "1Password SSH Agent", "MCP", "Model Context Protocol", "agentbeheer", "systeembeheer", "Bitbucket Cloud", "Git via SSH", "geheimverwijzingen", "serviceaccounts", "minimale bevoegdheden", "authenticatie met openbare sleutels", "geheimbeheer", "beveiliging van de opdrachtregel", "automatiseringsveiligheid"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "Abstracte diagram van een agent die een geheimverwijzing, een SSH-agent en MCP-tools gebruikt zonder private sleutels te tonen."
 coverCaption: ""
@@ -82,7 +82,7 @@ Bitbucket Cloud gebruikt de normale Git- en OpenSSH-commandoregelwerkwijze. De [
 
 **Behandel Bitbucket als de gebruiker van de openbare sleutel.** Registreer de openbare sleutel of vingerafdruk via de goedgekeurde Bitbucket-account- of repositoryinstelling. Bewaar de privé-sleutel in 1Password. De Git-client vraagt de SSH Agent om te ondertekenen. De client leest geen privé-sleutelbestand.
 
-Voor de Bitbucket-toegangssleutelomvang, registratiepad en read-only Git-test, zie [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+Voor de Bitbucket-toegangssleutelomvang, registratiepad en read-only Git-test, zie [Bitbucket Cloud SSH-sleutels en Git CLI: alleen-lezen toegang voor AI-agenten](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 De Bitbucket-documentatie noemt dit een Git CLI-werkwijze. Dit artikel gaat niet uit van een aparte Bitbucket MCP-server of een product genaamd Bitbucket CLI. Een Bitbucket-specifieke CLI heeft zijn eigen actuele documentatie en zijn eigen machtigingsbeoordeling nodig.
 
@@ -163,10 +163,10 @@ Noteer de doelklasse, het externe account, de beoogde repository of het commando
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: alleen-lezen connectiviteitstest
+host_key_source: goedgekeurd beheerdersrecord
+approval_owner: aangewezen operator
+rollback: publieke sleutel verwijderen en testidentiteit intrekken
 ```
 
 **Verwacht resultaat, niet getest:** Het record identificeert één doel en één operatie. Het record bevat geen hostnaam, IP-adres, token, privé-sleutel of persoonlijke gegevens.
@@ -221,7 +221,7 @@ Het commando gebruikt een repository-placeholder. Vervang de placeholder alleen 
 
 Verifieer eerst de SSH-client en het doel zonder MCP. Voeg daarna één read-only MCP-server of lokale connector toe. Geef de agent een tool zoals `read_status` of `prepare_command`. Begin niet met een algemene shell-tool.
 
-De MCP-configuratie moet runtime-waarden refereren via het door de client ondersteunde omgevingsmechanisme. De [1Password AI security guide](https://www.1password.dev/security-for-ai) beschrijft het vervangen van plaintext MCP-configuratietokens door omgevingsvariabelen die worden geladen uit 1Password. **Houd de referentie of de variabelenaam in de configuratie. Houd de opgeloste waarde buiten het transcript van de agent.**
+De MCP-configuratie moet runtime-waarden refereren via het door de client ondersteunde omgevingsmechanisme. De [1Password-gids voor AI-beveiliging](https://www.1password.dev/security-for-ai) beschrijft het vervangen van plaintext MCP-configuratietokens door omgevingsvariabelen die worden geladen uit 1Password. **Houd de referentie of de variabelenaam in de configuratie. Houd de opgeloste waarde buiten het transcript van de agent.**
 
 Dit gedeelte beschrijft een ontwerp, geen geteste MCP-configuratie. Er is hier geen client, server, transport, versie of fixture vastgelegd. Valideer één read-only server in een apart testprofiel voordat een agent wordt verbonden met een productiesysteem.
 
@@ -239,7 +239,7 @@ De volgende sequentie toont de volgorde zonder gebruik van echte infrastructuur.
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Alleen op macOS of Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```
@@ -301,7 +301,7 @@ De veiligere volgorde is:
 
 **Onverwacht SSH-consentvenster:** Weiger het venster. Controleer de procesnaam, de terminalsessie, de sleutelvingerafdruk, het repository-doel en de hostsleutel. Beoordeel de SSH-clientconfiguratie voordat u opnieuw probeert.
 
-**Geen SSH Agent-socket:** Bevestig dat de 1Password-desktopapp is geïnstalleerd via een ondersteunde methode, dat de SSH Agent is ingeschakeld en dat de client de platformspecifieke socket gebruikt. De [officiële SSH Agent-pagina](https://www.1password.dev/ssh/agent)] bevat de vereisten voor besturingssystemen en links voor socket-instellingen.
+**Geen SSH Agent-socket:** Bevestig dat de 1Password-desktopapp is geïnstalleerd via een ondersteunde methode, dat de SSH Agent is ingeschakeld en dat de client de platformspecifieke socket gebruikt. De [officiële SSH Agent-pagina](https://www.1password.dev/ssh/agent) bevat de vereisten voor besturingssystemen en links voor socket-instellingen.
 
 **Openbare sleutel-authenticatie mislukt:** Controleer de geselecteerde openbare sleutel, het remote-account, de repository-permissie, de hostsleutel en de SSH-configuratie. Gebruik een vergelijking van openbare vingerafdrukken. Los de fout niet op door een ongerelateerde private sleutel te exporteren.
 
@@ -337,7 +337,7 @@ Stop de workflow en roter de sleutel. Onderzoek de MCP-serverrespons, shellcomma
 
 ### Een sleutellijst bevat te veel identiteiten
 
-De 1Password SSH Agent toont in aanmerking komende sleutels uit de geconfigurede kluis. Gebruik een gescope agent-configuratie of host-specifieke SSH-configuratie. De [agent-documentatie](https://www.1password.dev/ssh/agent)] noemt ook de limiet van zes sleutels voor de OpenSSH-server.
+De 1Password SSH Agent toont in aanmerking komende sleutels uit de geconfigurede kluis. Gebruik een gescope agent-configuratie of host-specifieke SSH-configuratie. De [agent-documentatie](https://www.1password.dev/ssh/agent) noemt ook de limiet van zes sleutels voor de OpenSSH-server.
 
 ### Een commando werkt handmatig maar faalt in een taak
 

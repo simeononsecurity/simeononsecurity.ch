@@ -1,7 +1,7 @@
 ---
 title: "Bucle limitate pentru agenții AI: verificări, reîncercări și reguli de oprire"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Definește o buclă de obiectiv AI cu stare observabilă, verificări, limite pentru reîncercări, condiții de oprire și predare clară către o persoană."
@@ -89,7 +89,7 @@ Dovezi necesare: rularea completă a testelor și codul de ieșire al comenzii i
 **Începe cu laboratorul neatins.** Cele două teste inițiale trec. În copia nouă, creează `tests/test_loop_contract.py` cu verificarea de mai jos. Acest fișier descrie o funcție dorită care lipsește din proiectul inițial. Nu face parte din arhiva ZIP inițială, menținută.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""O verificare controlată care eșuează pentru exercițiul filtrului de stare."""
 
 import subprocess
 import sys

@@ -1,6 +1,7 @@
 ---
 title: "Cyberbeveiliging en privacy bij digitale transformatie: Juridische en ethische overwegingen"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer over de juridische en ethische overwegingen van cyberbeveiliging en privacy bij digitale transformatie."
@@ -38,7 +39,7 @@ Vertrouwen wekken bij klanten is essentieel voor het opbouwen van duurzame relat
 
 ### Regelgeving inzake gegevensprivacy
 
-**Privacyregels**, zoals de Algemene Verordening Gegevensbescherming van de Europese Unie.[GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA) worden steeds belangrijker naarmate de hoeveelheid online verzamelde en opgeslagen persoonsgegevens toeneemt. Deze regelgeving is bedoeld om de privacy en veiligheid van de persoonsgegevens van individuen te beschermen en individuen meer controle over hun gegevens te geven.
+**Privacyregels**, zoals de Algemene Verordening Gegevensbescherming van de Europese Unie [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) en de California Consumer Privacy Act (CCPA), komen steeds vaker voor naarmate er online meer persoonsgegevens worden verzameld en opgeslagen. Deze regels beschermen de privacy en veiligheid van persoonsgegevens en geven mensen meer controle over hun gegevens.
 
 De GDPR bijvoorbeeld, die in 2018 van kracht werd, geeft personen het recht op toegang tot, correctie en verwijdering van hun persoonsgegevens die in het bezit zijn van bedrijven en organisaties. Bedrijven en organisaties die persoonsgegevens verzamelen en verwerken moeten voldoen aan de GDPR of aanzienlijke boetes en juridische repercussies tegemoet zien.
 
@@ -46,7 +47,7 @@ Ook de CCPA, die in 2020 van kracht werd, geeft inwoners van Californië het rec
 
 ### Cyberbeveiligingswetten
 
-**Cyberbeveiligingswetten** zijn een andere juridische overweging in het tijdperk van digitale transformatie. Deze wetten zijn bedoeld om personen, bedrijven en overheden te beschermen tegen cyberaanvallen en inbreuken. De Cybersecurity Information Sharing Act[CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) zijn twee voorbeelden van cyberbeveiligingswetten in de Verenigde Staten.
+**Cyberbeveiligingswetten** zijn een andere juridische overweging in het tijdperk van digitale transformatie. Deze wetten zijn bedoeld om personen, bedrijven en overheden te beschermen tegen cyberaanvallen en inbreuken. De Cybersecurity Information Sharing Act [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act) en de Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) zijn twee voorbeelden van cyberbeveiligingswetten in de Verenigde Staten.
 
 De CISA, die in 2015 werd aangenomen, moedigt het delen van informatie over cyberbeveiligingsdreigingen tussen de particuliere sector en de overheid aan om cyberaanvallen te helpen voorkomen. De CFAA, die in 1986 werd aangenomen, criminaliseert computergerelateerde activiteiten zoals hacken en computerfraude.
 

@@ -1,10 +1,11 @@
 ---
 title: "如果您认为您的电子邮件或电话遭到入侵怎么办"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "了解如果您怀疑您的电子邮件、台式机或手机遭到黑客攻击或遭到破坏，应采取的基本步骤，包括更改密码、扫描恶意软件和清理设备。"
-tags: ["设备安全", "数据保护", "受损设备", "被黑的电子邮件", "被黑的电话", "恶意软件", "病毒清除", "密码安全", "数据备份", "双因素认证", "网络安全", "上网安全", "数字隐私", "身份盗窃", "网上诈骗", "技术支持", "电脑维修", "数据恢复", "资讯科技服务", "技术"]
+tags: ["设备安全", "数据保护", "受损设备", "被黑的电子邮件", "被黑的电话", "恶意软件", "病毒清除", "密码安全", "数据备份", "双因素认证", "网络安全", "上网安全", "数字隐私", "身份盗窃", "网上诈骗", "技术支持", "电脑维修", "数据恢复", "资讯科技服务", "技术", "电子邮件安全", "电脑安全", "手机安全", "设备入侵", "安全漏洞", "设备遭到入侵", "恶意软件扫描", "擦除数据", "加密密钥", "加密货币钱包安全", "资金保护", "电子邮件遭到入侵", "设备安全提示", "如何保护电子邮件", "保护受侵手机的步骤", "恶意软件清除技巧", "密码安全最佳实践", "数据备份方法", "双因素认证的重要性", "保障网络安全的措施", "数字隐私提示", "防止网络身份盗窃", "如何应对网络诈骗", "受侵设备技术支持", "电脑维修服务", "数据恢复方案", "设备安全信息技术服务", "最新技术趋势", "安全电子邮件实践", "电脑安全措施", "手机安全注意事项", "防止设备遭到入侵"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "一个人站在电脑或电话前的卡通形象，表情忧郁，而卡通黑客则潜伏在背景中。"
 coverCaption: ""
@@ -28,15 +29,20 @@ coverCaption: ""
 
 请务必注意任何妥协迹象，以便您可以采取适当的措施来保护您的设备和数据。如果您不确定您的设备是否已被入侵，最好在
 
+
+了解如何识别钓鱼邮件和社会工程攻击： [钓鱼邮件和可疑邮件](https://simeononsecurity.com/articles/how-to-identify-phishing/)，以及[社会工程攻击](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## 第 2 步：更改密码并验证恢复信息
+## [第 2 步：更改密码并验证恢复信息](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - 如果您怀疑您的设备已被盗用，请立即为您的所有帐户**更改您的密码**
 
 
 如果您怀疑您的电子邮件、台式机或电话已被盗用，下一步是立即更改所有帐户的密码。这需要一段时间，因此请优先处理重要帐户，例如您的电子邮件、银行帐户、社交媒体帐户等。
 
+
+如需更多指导，请参阅： [更改密码](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [选择强大且独特的密码](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [创建强密码](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) 以及 [启用双因素身份验证](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/).
 - **优先处理重要帐户**，例如您的电子邮件、银行帐户、社交媒体帐户等。
 
 - **为您的每个帐户选择强而独特的密码**，**避免在多个帐户中使用相同的密码**
@@ -46,18 +52,18 @@ ______
 
 ***安全密码的一些示例***：
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: 一个包含大小写字母、数字和符号的12位密码
+- Ilovesecurity7!: 一个由单词、数字和一个符号组合成的16位密码
+- xK2%qpzL5!rS: 一个包含随机大小写字母、数字和符号的12位密码
 ```
 
 ***密码短语示例***：
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: 一个由三个随机单词和数字组成的24位密码短语
+- orange$5my#yellow: 一个由两个随机单词、数字和符号组成的16位密码短语
+- pizza3onions?lovers: 一个由两个随机单词、数字和一个符号组成的19位密码短语
+- tangerine8shark?43: 一个由两个随机单词、数字和一个符号组成的18位密码短语
+- elephant6pasta*tree: 一个由两个随机单词、数字和一个符号组成的19位密码短语
 ```
 
 - **启用双因素身份验证**以获得额外的安全层
@@ -93,6 +99,7 @@ ______
 - **电子邮件客户端**（Microsoft Outlook、Apple Mail、Gmail 等）
 - **应用程序**（Microsoft Office、Adobe Creative Suite 等）
 
+[ 推荐的防病毒和反恶意软件 ](https://simeononsecurity.com/recommendations/anti-virus)
 ______
 
 ## 第 4 步：扫描您的设备以查找恶意软件
@@ -115,6 +122,7 @@ ______
 
 扫描与受感染设备一起使用的任何外部设备（例如 USB 驱动器）也是一个好主意。外部设备通常会携带可以感染您设备的恶意软件，因此在将它们用于您的设备之前对其进行扫描非常重要。
 
+[ 3-2-1 备份规则 ](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
 ______
 
 ## 第 5 步：备份重要文件并擦除您的设备
@@ -156,6 +164,8 @@ ______
 
 ______
 
-＃＃ 结论
+## 结论
+
+如果您怀疑电子邮件、电脑或手机遭到入侵，请立即采取行动保护数据并恢复设备安全。评估情况、更改密码、更新软件、扫描恶意软件、备份重要文件，并从已知安全的设备上清除受感染设备。完成这些步骤后，您可以重新掌控数字安全，并降低未来再次遭到入侵的风险。
 
 总之，如果您怀疑您的电子邮件、台式机或电话已受到威胁，请务必立即采取措施保护您的数据并恢复设备的安全性。评估情况、更改密码、更新软件、扫描设备中的恶意软件、备份重要文件以及从已知干净的设备上擦除设备。通过执行这些步骤，您可以重新控制您的数字安全并保护自己免受未来的危害。

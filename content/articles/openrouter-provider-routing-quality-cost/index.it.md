@@ -1,11 +1,11 @@
 ---
 title: "Routing dei provider OpenRouter: qualità del modello, limiti dei token e costi reali"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diagnostica le risposte incoerenti di OpenRouter, confronta i limiti degli endpoint e i costi della cache, poi configura il routing dei provider senza disattivare per errore i controlli di qualità."
-genre: ["Intelligenza artificiale", "Infrastruttura", "Open Source"]
+genre: ["Intelligenza artificiale", "Infrastruttura", "software a codice aperto"]
 tags: ["OpenRouter", "routing dei provider", "endpoint OpenRouter", "qualità dei modelli IA", "inferenza LLM", "quantizzazione", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "chiamate agli strumenti", "finestra di contesto", "token massimi", "token di ragionamento", "caching dei prompt", "costi API", "fallback del provider", "require_parameters", "agenti IA", "benchmark di inferenza", "test degli endpoint", "modelli open-weight"]
 cover: "/img/cover/openrouter-provider-routing-inference-services.webp"
 coverAlt: "Illustrazione digitale astratta di nodi interconnessi che rappresentano servizi di inferenza IA, con linee luminose che indicano il flusso dei dati su uno sfondo scuro."
@@ -138,7 +138,7 @@ curl --fail --silent --show-error \
 
 **`quantizations`** è una allowlist di formati nominati, non un minimo numerico. Un array contenente **`"fp8"`** seleziona gli endpoint FP8 corrispondenti. Non include automaticamente BF16 o tutti i formati con più bit. Confronta prima il checkpoint originale, poi applica il filtro solo quando la tua valutazione sostiene la restrizione.
 
-## Mantenere attivo il routing qualità
+## Mantenere attiva la selezione dei provider in base alla qualità
 
 ```json
 {
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Carico di lavoro: 6 milioni di token in ingresso + 1 milione di token in uscita
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Per milione di token complessivi in ingresso e in uscita:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```
@@ -210,7 +210,7 @@ B =  $3.84 / 7 = $0.55
 
 **L'incertezza dei benchmark conta.** L'[analisi di Epoch AI sul benchmarking](https://epoch.ai/gradient-updates/why-benchmarking-is-hard) descrive variazioni dovute a implementazioni, sampling e scaffold degli agenti. Una risposta deludente non dimostra un difetto persistente del provider né ne identifica la causa.
 
-## Procedura guidata per il routing degli endpoint
+## Guida all'instradamento verso le destinazioni dell'API
 
 {{< youtube id="ZsnFX5mEJ4s" enable="true" title="Routing degli endpoint OpenRouter, precisione e prezzi" >}}
 

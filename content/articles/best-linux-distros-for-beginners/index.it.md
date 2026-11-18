@@ -3,7 +3,7 @@ title: "Le Migliori Distro Linux per Principianti 2026"
 draft: false
 toc: true
 date: 2023-05-28
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 description: Guida completa 2026 alle migliori distribuzioni Linux per principianti, inclusi Ubuntu, Zorin OS, Linux Mint, Manjaro e Pop!_OS con confronti dettagliati, requisiti di sistema e guide alla migrazione.
 tags:
 - Distro Linux
@@ -464,7 +464,7 @@ Elementary segue linee guida di design rigorose che garantiscono:
 
 **AppCenter**: lo store curato di Elementary offre:
 - App native progettate per Elementary
-- Modello pay-what-you-want a sostegno degli sviluppatori
+- Modello "paga quanto vuoi" a sostegno degli sviluppatori
 - Applicazioni di alta qualità e ben progettate
 - Processo di revisione rigoroso per garantire qualità
 
@@ -484,7 +484,7 @@ Elementary segue linee guida di design rigorose che garantiscono:
 - **Grafica**: ottimizzata per animazioni fluide
 - **Tempo di installazione**: 15 minuti
 
-### Modello Pay-What-You-Want
+### Modello "paga quanto vuoi"
 
 Elementary utilizza un modello di distribuzione unico:
 - Pagamento suggerito di 25$ al download

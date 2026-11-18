@@ -1,12 +1,12 @@
 ---
 title: "क्या IT और साइबर सुरक्षा के लिए प्रोग्रामिंग सीखनी चाहिए?"
 date: 2023-02-12
-lastmod: 2026-11-07
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "IT या साइबर सुरक्षा में अपने करियर के लिए उपयोगी प्रोग्रामिंग कौशल चुनें और PowerShell, Bash, Python, Ansible, Packer या Terraform से शुरुआत करें।"
-genre: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing", "Professional Development"]
-tags: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing", "IT Careers", "Cyber Security Careers", "IT Professionals", "Cyber Security Professionals", "Network Automation", "Security Analysis", "Scripting Languages", "Configuration Management", "Infrastructure as Code", "IT Automation", "IT Industry", "Cyber Security Industry", "Job Market", "IT Skills"]
+genre: ["IT और साइबर सुरक्षा", "प्रोग्रामिंग कौशल", "करियर में उन्नति", "ऑटोमेशन", "कमांड लाइन", "स्क्रिप्टिंग", "इन्फ्रास्ट्रक्चर परिनियोजन", "डेटा विश्लेषण", "सुरक्षा परीक्षण", "व्यावसायिक विकास"]
+tags: ["IT और साइबर सुरक्षा", "प्रोग्रामिंग कौशल", "करियर में उन्नति", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "ऑटोमेशन", "कमांड लाइन", "स्क्रिप्टिंग", "इन्फ्रास्ट्रक्चर परिनियोजन", "डेटा विश्लेषण", "सुरक्षा परीक्षण", "IT करियर", "साइबर सुरक्षा करियर", "IT पेशेवर", "साइबर सुरक्षा पेशेवर", "नेटवर्क ऑटोमेशन", "सुरक्षा विश्लेषण", "स्क्रिप्टिंग भाषाएँ", "कॉन्फ़िगरेशन प्रबंधन", "कोड के रूप में इन्फ्रास्ट्रक्चर", "IT ऑटोमेशन", "IT उद्योग", "साइबर सुरक्षा उद्योग", "रोज़गार बाज़ार", "IT कौशल"]
 cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "कंप्यूटर के सामने बैठा व्यक्ति कमांड-लाइन इंटरफ़ेस में कोड लिख रहा है और स्क्रीन पर टेक्स्ट स्क्रॉल हो रहा है।"
 coverCaption: "IT और साइबर सुरक्षा के लिए प्रोग्रामिंग की क्षमता का लाभ उठाएँ।"

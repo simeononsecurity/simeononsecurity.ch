@@ -1,7 +1,7 @@
 ---
 title: "OpenCode față de Claude Code: comparația agenților de programare în 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compară OpenCode și Claude Code pentru alegerea modelelor, inferența locală, prețuri, permisiuni, instrucțiuni de proiect și fluxuri zilnice de programare."
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+Folosește comenzile de compilare și testare documentate în depozit.
+Păstrează modificările fără legătură.
+Explică erorile înainte de a schimba dependențele.
+Verifică diff-ul final înainte de commit.
 ```
 
 **Instrucțiunile comune reduc zgomotul comparației.** Păstrează comenzile de build, limitele arhitecturii și criteriile de acceptare într-un singur fișier canonic. [Documentația regulilor OpenCode](https://opencode.ai/docs/rules/) descrie `AGENTS.md` și alternativa `CLAUDE.md`. Nu presupune că toate fișierele de instrucțiuni sunt combinate automat.

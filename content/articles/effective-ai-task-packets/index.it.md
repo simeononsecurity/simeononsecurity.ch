@@ -50,30 +50,30 @@ coverCaption: ""
 **Copia questo modello** per una piccola attività di programmazione o ricerca. Elimina i campi non pertinenti invece di riempirli con testo vago.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Risultato:
+Fonte autorevole e revisione:
+File o record pertinenti:
+Modifiche consentite:
+Modifiche e azioni escluse:
+Esempi del comportamento desiderato:
+Controlli di completamento:
+Quando fermarsi o chiedere:
+Riporta:
 ```
 
 **Per il laboratorio,** il pacchetto compilato è questo:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Obiettivo: aggiungi un filtro --status facoltativo a task_report.py.
+Fonte: docs/requirements.md, revisione 1.
+File pertinenti: task_report.py, tasks.json, tests/.
+Modifiche consentite: task_report.py e test mirati.
+Esclusi: tasks.json, nuove dipendenze, commit e push.
+Esempi: senza filtro mostra Total tasks: 4. open e done mostrano 2 ciascuno.
+Controlli: esegui i test unitari e quattro comandi manuali: senza filtro, open, done e un valore non valido.
+Il valore non valido deve restituire un codice diverso da zero con un messaggio chiaro.
+Fermati o chiedi se le fonti sono in conflitto, manca un file o fallisce un controllo iniziale non correlato.
+Report: file modificati, comandi, risultati osservati e questioni irrisolte.
 ```
 
 **Su Windows,** usa `py -3` nei comandi del pacchetto se il tuo ambiente usa il launcher Python.

@@ -1,17 +1,16 @@
 ---
 title: "Docker w LXC na Proxmox: niezawodność, dowody i migracja do VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Oceń Docker wewnątrz Proxmox LXC na podstawie udokumentowanego błędu AppArmor, uważnej analizy zgłoszenia o zawieszeniu hosta, poleceń diagnostycznych i planu migracji do VM."
-genre: ["Wirtualizacja", "Administracja Linuksem", "Homelab"]
+genre: ["Wirtualizacja", "Administracja Linuksem", "domowe laboratorium"]
 tags: ["Docker w LXC", "Docker na Proxmox", "LXC w Proxmox", "maszyna wirtualna Docker", "niezawodność homelabu", "zawieszanie hosta Proxmox", "Debianowa maszyna wirtualna Docker", "kontenery bez uprawnień", "zagnieżdżanie kontenerów", "izolacja jądra Linuksa", "AppArmor", "runc", "lxc-pve", "Docker Compose", "sterowniki pamięci masowej Docker", "magazyn obrazów containerd", "presja pamięci", "Linux PSI", "trwały dziennik", "kopie zapasowe Proxmox", "kopie zapasowe bind mountów", "migracja VM", "domeny awarii", "przekazywanie GPU", "rozwiązywanie problemów z serwerem domowym"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Izometryczna ilustracja domowego serwera przedstawiająca zagnieżdżone obciążenia i osobną maszynę wirtualną podłączoną do współdzielonego sprzętu"
 coverCaption: "Ilustracja koncepcyjna współdzielonego sprzętu i różnych granic izolacji obciążeń"
 ---
-
 **Docker wewnątrz Linux Containers (LXC)** zmniejsza narzut infrastruktury, ale zwiększa liczbę interakcji między środowiskiem uruchomieniowym aplikacji a hostem Proxmox. Dla usług Docker, od których zależy domowa sieć, praktycznym punktem wyjścia jest **maszyna wirtualna (VM) z Debianem**. Oddziela ona jądro gościa i upraszcza środowisko, które trzeba odtworzyć podczas diagnozowania problemów. Ten artykuł analizuje przekazany film, sprawdza powiązany raport o incydencie oraz dodaje udokumentowane awarie i plan migracji.
 
 <!--more-->
@@ -66,14 +65,14 @@ Właściciel później zgłosił **poprawę po migracji**. W aktualizacji z 3 si
 ## Określ granicę jądra
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker w LXC:
+Aplikacja -> środowisko Docker -> przestrzenie nazw i polityka LXC
+              -> jądro hosta Proxmox -> sprzęt fizyczny
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker w maszynie wirtualnej:
+Aplikacja -> środowisko Docker -> jądro Linux gościa
+              -> sprzęt wirtualny / KVM-QEMU
+              -> jądro hosta Proxmox -> sprzęt fizyczny
 ```
 
 **LXC** korzysta z jądra hosta. Przestrzenie nazw, grupy kontrolne, uprawnienia, seccomp i profile bezpieczeństwa ograniczają procesy, ale nie dostarczają oddzielnego jądra. Dodanie Dockera wewnątrz LXC tworzy kolejną warstwę zarządzania kontenerami dla obciążeń korzystających z tego samego jądra hosta. [Architektura LXC i funkcje izolacji](https://linuxcontainers.org/lxc/introduction/)
@@ -108,7 +107,7 @@ Docker publikuje **ścieżkę instalacji dla Debiana**. Użyj listy obsługiwany
 
 ## Potwierdzona awaria zagnieżdżenia
 
-**Niezgodność runc/AppArmor z 2025 r.** to weryfikowalny przykład. Opiekunowie runc opisali problem z ponownym otwieraniem deskryptora wewnątrz zewnętrznego kontenera z profilem AppArmor. AppArmor błędnie zinterpretował dostęp do **`/proc/sys`** jako dostęp do **`/sys`**, przez co polityka go zablokowała. [Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)
+**Niezgodność runc/AppArmor z 2025 r.** to weryfikowalny przykład. Opiekunowie runc opisali problem z ponownym otwieraniem deskryptora wewnątrz zewnętrznego kontenera z profilem AppArmor. AppArmor błędnie zinterpretował dostęp do **`/proc/sys`** jako dostęp do **`/sys`**, przez co polityka go zablokowała. [zgłoszenie runc 4968](https://github.com/opencontainers/runc/issues/4968)
 
 **Dotknięta problemem próba uruchomienia** zgłaszała fragment błędu:
 
@@ -271,7 +270,7 @@ Unikaj **dwóch aktywnych źródeł zapisu** do tej samej pamięci bazy danych. 
 
 **Testy akceptacyjne** powinny odpowiadać przeznaczeniu usługi. Zielony status kontenera potwierdza działanie procesu. Użyteczna usługa wymaga też danych, dostępu do sieci, zależności i sprawnego odzyskiwania.
 
-| Test | Zachowywany dowód |
+| Próba | Zachowywany dowód |
 |---|---|
 | **Działanie aplikacji** | Udana rzeczywista transakcja, kwerenda lub operacja medialna |
 | **Kompletność danych** | Oczekiwane rekordy, pliki, uprawnienia i ostatnie zmiany |
@@ -290,17 +289,17 @@ Unikaj **dwóch aktywnych źródeł zapisu** do tej samej pamięci bazy danych. 
 **Korzystaj z pomiarów**, wybierz wdrożenie i określ, kiedy ponownie je ocenisz:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Wpływ na usługę i gospodarstwo domowe:
+Aktualne wersje hosta / jądra / LXC / Docker:
+Wymagany dostęp do GPU, urządzeń i sieci:
+Zmierzona pamięć, CPU, pamięć masowa i opóźnienia:
+Znany objaw awarii i odstęp między nawrotami:
+Zakres kopii zapasowych i dowód udanego odtworzenia:
+Wybrana architektura i uzasadnienie:
+Dozwolone okno przestoju i cel odtworzenia:
+Procedura przełączenia i późniejszego przywrócenia danych:
+Testy akceptacyjne i okres obserwacji:
+Warunek wymagający ponownego przeglądu architektury:
 ```
 
 **Wybierz świadomie zagnieżdżenie LXC**, gdy jego zalety uzasadniają nakład pracy integracyjnej, a ścieżka odzyskiwania została przetestowana. Wybierz VM, gdy typowe środowisko Docker i oddzielne jądro gościa upraszczają działanie usługi. Żadna z tych decyzji nie zastępuje kopii zapasowych, monitorowania ani konserwacji hosta.
@@ -326,8 +325,8 @@ W ramach **powiązanych materiałów** skorzystaj z [przewodnika aktualizacji Pr
 | **[Film źródłowy](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Pierwotne omówienie i zgłoszony okres stabilności |
 | **[Wątek incydentu Proxmox](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Obserwacje z pierwszej ręki i aktualizacja po migracji |
 | **[Zestaw narzędzi kontenerowych Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Architektura kontenerów i aktualne rozróżnienie OCI |
-| **[Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Udokumentowana awaria uruchamiania i historyczna poprawka pakietu |
-| **[Pull request LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Scalona zmiana AppArmor upstream |
+| **[zgłoszenie runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Udokumentowana awaria uruchamiania i historyczna poprawka pakietu |
+| **[prośba o scalenie zmian LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Scalona zmiana AppArmor upstream |
 | **[Dokumentacja Docker](https://docs.docker.com/engine/install/debian/)** | Podstawa instalacji w gościu, ze szczegółowymi odnośnikami do runtime i pamięci masowej powyżej |
 | **[Dokumentacja PSI Linux](https://docs.kernel.org/accounting/psi.html)** | Interpretacja presji zasobów |
 | **[Dokumentacja watchdog Linux](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Zdefiniowane warunki lockup jądra |

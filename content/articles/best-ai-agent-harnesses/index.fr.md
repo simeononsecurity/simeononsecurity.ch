@@ -1,7 +1,7 @@
 ---
 title: "Meilleurs harnesses d'agents IA en 2026 : choisir selon le flux de travail"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Comparez Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi et LangGraph selon l'exécution des outils, la mémoire, la reprise et l'effort d'intégration."
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Composants métalliques modulaires reliés à un processeur central lumineux par des chemins turquoise et orange sur une surface de travail sombre"
 coverCaption: "Illustration conceptuelle des composants autour d'un modèle d'IA."
 ---
-
 **Deep Agents est mon premier choix pour un agent généraliste avec des modèles configurables et une gestion intégrée du contexte.** Claude Agent SDK convient bien à l'intégration du comportement d'exécution de Claude Code. OpenAI Agents SDK et Pydantic AI méritent un essai pour des agents propres à une application, tandis que Pi privilégie un noyau extensible réduit et LangGraph privilégie un contrôle explicite du flux de travail.
 
 **Le meilleur choix dépend du travail que vous voulez accepter.** Un assistant de recherche, un éditeur de dépôt et un service qui traite les demandes des clients ont besoin d'outils et de règles de reprise différents. Ces recommandations sont des jugements éditoriaux fondés sur la documentation officielle vérifiée le **10 octobre 2026**, et non des résultats d'un benchmark de performance pratique.
@@ -138,7 +137,7 @@ Pour un **agent illustratif de revue de factures**, la validation du schéma vé
 
 **Une liste de fonctionnalités ne constitue qu'un point de départ.** Faites passer chaque candidat par des échecs proches de votre charge de travail. Utilisez un espace de travail jetable et des services de test contenant des données synthétiques.
 
-| Test | Preuve à conserver |
+| Vérification | Preuve à conserver |
 |---|---|
 | **Soumission interrompue** | Un seul effet externe après la reprise |
 | **Conversation longue** | Les exigences initiales restent satisfaites |
@@ -160,7 +159,7 @@ Pour un **agent illustratif de revue de factures**, la validation du schéma vé
 **Ne forcez pas les configurations non prises en charge dans l'axe contrôlé.** Si deux candidats n'ont pas de modèle ou d'interface d'outils communs, présentez la comparaison comme une évaluation système. Gardez l'effort de configuration et le pilotage humain dans les résultats.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Enregistrement d’essai illustratif, pas un fichier de configuration de framework
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

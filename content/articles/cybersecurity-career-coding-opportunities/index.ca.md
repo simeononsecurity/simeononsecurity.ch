@@ -1,12 +1,12 @@
 ---
 title: "Com començar una carrera en ciberseguretat"
 date: 2023-11-05
-lastmod: 2026-11-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Coneix els llocs de treball, la importància de programar i els millors llenguatges de ciberseguretat. Tria el teu camí."
-genre: ["Tecnologia", "Ciberseguretat", "Carrera professional", "Programació", "TI", "Habilitats", "Oportunitats", "Aprenentatge", "Codificació", "Digital"]
-tags: ["Ciberseguretat", "Trajectòries professionals", "Llenguatges de programació", "Habilitats de programació", "Llocs no tècnics", "Llocs tècnics", "Carreres de TI", "Tendències tecnològiques", "Anàlisi de seguretat", "Seguretat de xarxes", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Protecció de dades", "Informàtica forense digital", "Hacking ètic", "Desenvolupament de programari", "Defensa cibernètica", "Enginyeria de xarxes", "Consultoria de seguretat", "Desenvolupament d'habilitats", "Seguretat de la informació", "Detecció d'amenaces", "Resposta a incidents", "Programació per a la seguretat"]
+genre: ["Tecnologia", "Ciberseguretat", "Carrera professional", "Programació", "TI", "Habilitats", "Oportunitats", "Aprenentatge", "Codificació", "Tecnologia digital"]
+tags: ["Ciberseguretat", "Trajectòries professionals", "Llenguatges de programació", "Habilitats de programació", "Llocs no tècnics", "Llocs tècnics", "Carreres de TI", "Tendències tecnològiques", "Anàlisi de seguretat", "Seguretat de xarxes", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Protecció de dades", "Informàtica forense digital", "Hacking ètic", "Desenvolupament de programari", "Defensa cibernètica", "Enginyeria de xarxes", "Consultoria de seguretat", "Desenvolupament d'habilitats", "Seguretat de la informació", "Detecció d'amenaces", "Resposta a incidents", "Programació per a la seguretat"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Un professional de ciberseguretat amb capa i portàtil, que protegeix contra amenaces digitals."
 coverCaption: "Guardians dels espais digitals: suport a qui protegeix el ciberespai"

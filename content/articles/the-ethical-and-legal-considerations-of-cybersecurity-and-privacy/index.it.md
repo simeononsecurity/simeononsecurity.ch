@@ -1,6 +1,7 @@
 ---
 title: "Cybersecurity e privacy nella trasformazione digitale: Considerazioni legali ed etiche"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Imparate a conoscere le considerazioni legali ed etiche sulla cybersicurezza e sulla privacy nella trasformazione digitale."
@@ -38,7 +39,7 @@ Stabilire un rapporto di fiducia con i clienti è essenziale per costruire relaz
 
 ### Regolamenti sulla privacy dei dati
 
-**Regolamenti sulla privacy dei dati**, come il Regolamento generale sulla protezione dei dati dell'Unione Europea.[GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA) stanno diventando sempre più diffusi con l'aumento della quantità di dati personali raccolti e memorizzati online. Queste norme sono state concepite per proteggere la privacy e la sicurezza dei dati personali degli individui e per fornire loro un maggiore controllo sui propri dati.
+**Regolamenti sulla privacy dei dati**, come il Regolamento generale sulla protezione dei dati dell'Unione europea [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) e il California Consumer Privacy Act (CCPA) stanno diventando sempre più diffusi con l'aumento della quantità di dati personali raccolti e memorizzati online. Queste norme sono state concepite per proteggere la privacy e la sicurezza dei dati personali degli individui e per fornire loro un maggiore controllo sui propri dati.
 
 Ad esempio, il GDPR, entrato in vigore nel 2018, fornisce alle persone il diritto di accedere, correggere e cancellare i propri dati personali in possesso di aziende e organizzazioni. Le aziende e le organizzazioni che raccolgono ed elaborano dati personali devono conformarsi al GDPR o incorrere in multe significative e ripercussioni legali.
 
@@ -46,7 +47,7 @@ Allo stesso modo, il CCPA, entrato in vigore nel 2020, fornisce ai residenti in 
 
 ### Leggi sulla sicurezza informatica
 
-**Le leggi sulla cybersecurity** sono un'altra considerazione legale nell'era della trasformazione digitale. Queste leggi sono pensate per proteggere gli individui, le aziende e i governi da attacchi e violazioni informatiche. La legge sulla condivisione delle informazioni sulla sicurezza informatica[CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sono due esempi di leggi sulla sicurezza informatica negli Stati Uniti.
+**Le leggi sulla cybersecurity** sono un'altra considerazione legale nell'era della trasformazione digitale. Queste leggi sono pensate per proteggere gli individui, le aziende e i governi da attacchi e violazioni informatiche. La legge sulla condivisione delle informazioni sulla sicurezza informatica [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), e il Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sono due esempi di leggi sulla sicurezza informatica negli Stati Uniti.
 
 Il CISA, approvato nel 2015, incoraggia la condivisione di informazioni sulle minacce alla sicurezza informatica tra il settore privato e il governo per aiutare a prevenire gli attacchi informatici. La CFAA, promulgata nel 1986, criminalizza le attività legate al computer come l'hacking e la frode informatica.
 

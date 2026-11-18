@@ -1,12 +1,12 @@
 ---
 title: "Berechtigungen in vCenter mit PowerCLI prüfen"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Berechtigungen in vCenter mit PowerCLI wirksam prüfen und Ihre virtuelle Infrastruktur schützen."
 genre: ["Prüfung von vCenter-Berechtigungen", "PowerCLI-Automatisierung", "VMware-Sicherheit", "Verwaltung virtueller Infrastruktur", "Berechtigungszuweisungen", "Benutzerzugriffskontrolle", "Sicherheitslücken", "PowerShell-Automatisierung", "Verwaltung von vSphere-Umgebungen", "Überprüfung von Benutzerberechtigungen"]
-tags: ["vCenter", "PowerCLI", "Berechtigungsprüfung", "vSphere", "VMware", "virtuelle Infrastruktur", "PowerShell", "Benutzerzugriffskontrolle", "Sicherheitslücken", "Berechtigungszuweisungen", "Automatisierung", "PowerCLI-Cmdlets", "Benutzerrollen", "Berechtigungsprüfung", "Sicherheitsrichtlinien", "Compliance", "Auditberichte", "Datenschutz", "DSGVO", "HIPAA", "Benutzerverwaltung", "vCenter-Benutzer", "bewährte Sicherheitsverfahren", "staatliche Vorschriften", "PowerCLI-Installation", "vCenter-Verbindung", "PowerCLI-Skripte", "Prüfprozess", "Auditdaten exportieren", "Berechtigungen entfernen"]
+tags: ["vCenter", "PowerCLI", "Berechtigungsprüfung", "vSphere", "VMware", "virtuelle Infrastruktur", "PowerShell", "Benutzerzugriffskontrolle", "Sicherheitslücken", "Berechtigungszuweisungen", "Automatisierung", "PowerCLI-Befehle", "Benutzerrollen", "Berechtigungsprüfung", "Sicherheitsrichtlinien", "Regelkonformität", "Auditberichte", "Datenschutz", "DSGVO", "HIPAA", "Benutzerverwaltung", "vCenter-Benutzer", "bewährte Sicherheitsverfahren", "staatliche Vorschriften", "Installation von PowerCLI", "vCenter-Verbindung", "PowerCLI-Skripte", "Prüfprozess", "Auditdaten exportieren", "Berechtigungen entfernen"]
 cover: "/img/cover/audit-permissions-vcenter-powercli.webp"
 coverAlt: "Eine Illustration eines virtuellen Rechenzentrums mit abstrakten Elementen für Benutzerberechtigungen und Zugriffsstufen vor einem dunkelblauen Hintergrund."
 coverCaption: "Schützen Sie Ihr vCenter mit einer gründlichen Berechtigungsprüfung per PowerCLI."
@@ -30,7 +30,7 @@ Sehen wir uns die Prüfung von vCenter-Berechtigungen mit PowerCLI an.
 
 Richten Sie zunächst die erforderliche Umgebung ein:
 
-1. **PowerCLI installieren**: Laden Sie die aktuelle Version von **PowerCLI** von der offiziellen [VMware-Website](https://www.vmware.com/support/developer/PowerCLI/) herunter und installieren Sie sie. Folgen Sie dem Installationsassistenten.
+1. **PowerCLI installieren**: Laden Sie die aktuelle Version von **PowerCLI** von der offiziellen [VMware-Webseite](https://www.vmware.com/support/developer/PowerCLI/) herunter und installieren Sie sie. Folgen Sie dem Installationsassistenten.
 
 2. **Mit vCenter verbinden**: Öffnen Sie die **PowerCLI**-Konsole oder ein **PowerShell**-Fenster und verbinden Sie sich mit dem Cmdlet `Connect-VIServer`. Geben Sie die erforderlichen Anmeldedaten an.
 
@@ -82,22 +82,22 @@ Mit installierter PowerCLI und einer Verbindung zu vCenter führen Sie die folge
 
    Beispiel:
    ```powershell
-         # Connect to vCenter
+         # Mit vCenter verbinden
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # Alle vCenter-Benutzer abrufen
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # Ein Array zum Speichern der Benutzerberechtigungen initialisieren
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # Jeden Benutzer durchlaufen und dessen Berechtigungen abrufen
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # Berechtigungen in eine CSV-Datei umwandeln
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 

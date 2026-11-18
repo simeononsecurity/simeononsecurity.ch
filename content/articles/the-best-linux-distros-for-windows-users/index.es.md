@@ -13,7 +13,7 @@ coverCaption: ""
 
 **Las mejores distribuciones Linux para cambiar de Windows**
 
-¿Estás pensando en cambiar de Windows a Linux? Con la amplia gama de distribuciones de Linux disponibles, puede resultar complicado elegir la que mejor se adapte a tus necesidades. En este artículo, exploraremos algunas de las mejores distribuciones Linux que proporcionan una transición suave desde Windows, incluyendo [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php), and [**Manjaro**](https://manjaro.org/)
+¿Estás pensando en cambiar de Windows a Linux? Con la amplia gama de distribuciones de Linux disponibles, puede resultar complicado elegir la que mejor se adapte a tus necesidades. En este artículo, exploraremos algunas de las mejores distribuciones Linux que proporcionan una transición suave desde Windows, incluyendo [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php) y [**Manjaro**](https://manjaro.org/).
 
 ______
 

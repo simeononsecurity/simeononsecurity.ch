@@ -48,7 +48,7 @@ tags:
 cover: /img/cover/active-directory-module-powershell-installation-usage-guide.webp
 coverAlt: Uma ilustração de uma tela de computador mostrando um console do PowerShell com cmdlets coloridos, cercado por representações abstratas de contas de usuário e grupos, com um fundo escuro.
 coverCaption: Desbloqueie o Poder da Administração do Active Directory com PowerShell.
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 ---
 
 ## Introdução
@@ -69,7 +69,7 @@ Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 -Online
 
 1. Aguarde a conclusão da instalação. Quando terminar, você poderá começar a usar o módulo do Active Directory.
 
-### Windows Server 
+### Windows Server
 1. Abra o **Windows PowerShell** com privilégios administrativos.
 2. Execute o seguinte comando para instalar o módulo:
 
@@ -224,29 +224,29 @@ Usando esses cmdlets relacionados à segurança, os administradores podem gerenc
 
 ## Exemplo de script do módulo Active Directory para PowerShell
 ```powershell
-# Import Active Directory module
+# Importar o módulo do Active Directory
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# Obter informações do Active Directory
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# Criar um novo usuário do Active Directory
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# Criar um novo grupo do Active Directory
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# Criar uma nova unidade organizacional do Active Directory
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# Modificar objetos do Active Directory
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# Gerenciar a segurança do Active Directory
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

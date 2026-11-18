@@ -1,7 +1,7 @@
 ---
 title: "إتقان PowerCLI لإدارة vSphere"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "تعرّف على استخدام PowerCLI لإدارة VMware vSphere وأتمتة المهام وتحسين الإنتاجية."
@@ -68,10 +68,10 @@ ______
 #### إنشاء لقطات لجميع الأجهزة الافتراضية في مجلد
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## إيقاف تشغيل جميع الأجهزة الافتراضية على مضيف محدد
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## إنشاء لقطة لجميع الأجهزة الافتراضية في مجلد محدد
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Descr
 #### إيقاف جميع الأجهزة الافتراضية في مجلد بأمان
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## استرداد المجلد الذي يحتوي على الأجهزة الافتراضية المطلوب إيقافها
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## استرداد جميع الأجهزة الافتراضية ضمن المجلد المحدد
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## إيقاف تشغيل جميع الأجهزة الافتراضية بطريقة منظمة
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

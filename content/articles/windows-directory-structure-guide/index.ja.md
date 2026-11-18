@@ -1,7 +1,7 @@
 ---
 title: "Windowsのディレクトリ構造"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: 視覚的な図解、Windows 11の更新情報、セキュリティ考慮事項、効率的なファイル管理のための専門的なナビゲーション技術を含む、Windowsのディレクトリ構造に関する2026年完全ガイド。
@@ -75,53 +75,53 @@ ______
 以下はWindowsファイルシステム階層の包括的な視覚表現です:
 
 ```
-C:\ (Root Directory)
+C:\ (ルートディレクトリ)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [システムファイルとOSコンポーネント]
+│   ├── System32\              [64ビットのシステムファイルと実行ファイル]
+│   ├── SysWOW64\              [64ビットシステム上の32ビット互換レイヤー]
+│   ├── Boot\                  [ブート設定と起動ファイル]
+│   ├── Fonts\                 [システムフォント]
+│   ├── Temp\                  [システム一時ファイル]
+│   ├── assembly\              [.NET Frameworkアセンブリ]
+│   ├── inf\                   [ドライバーのインストール情報]
+│   ├── WinSxS\                [Windows Side-by-Sideコンポーネントストア]
+│   ├── Logs\                  [システムログファイル]
+│   └── Security\              [セキュリティポリシーとテンプレート]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [64ビットアプリケーション（64ビットシステムの場合）]
+│   ├── Common Files\          [共有プログラムコンポーネント]
+│   └── [アプリケーションフォルダー]  [個別にインストールされたプログラム]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [64ビットシステム上の32ビットアプリケーション]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [アプリケーションフォルダー]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [ユーザープロファイルディレクトリ]
+│   ├── Public\                [共有ユーザーファイル]
+│   ├── [ユーザー名]\            [個別のユーザープロファイル]
+│   │   ├── Desktop\           [デスクトップファイル]
+│   │   ├── Documents\         [ユーザーのドキュメント]
+│   │   ├── Downloads\         [ダウンロードしたファイル]
+│   │   ├── Pictures\          [ユーザーの画像]
+│   │   ├── Videos\            [ユーザーの動画]
+│   │   ├── Music\             [ユーザーの音声ファイル]
+│   │   ├── AppData\           [アプリケーションデータ]
+│   │   │   ├── Local\         [マシン固有のアプリデータ]
+│   │   │   ├── LocalLow\      [低整合性アプリデータ]
+│   │   │   └── Roaming\       [移動プロファイルデータ]
+│   │   ├── OneDrive\          [クラウドと同期されたファイル（Windows 11）]
+│   │   └── Contacts\          [ユーザーの連絡先]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [共有アプリケーションデータ（非表示）]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [アプリケーションデータ]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [パフォーマンスログとレポート]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [ごみ箱（非表示）]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [システム復元ポイント（非表示）]
 ```
 
 ______
@@ -303,9 +303,9 @@ Windowsディレクトリ構造のナビゲーション方法を理解するこ�
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # サブディレクトリを含めて再帰的に一覧表示
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # 新しいディレクトリを作成
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **基本的なPowerShellコマンド:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # ディレクトリを変更（エイリアス: cd）
+Get-ChildItem                    # 項目を一覧表示（エイリアス: dir、ls）
+Get-ChildItem -Recurse           # 再帰的に一覧表示
+Get-ChildItem -Force             # 隠し項目を表示
+Test-Path [path]                 # パスの存在を確認
+New-Item -ItemType Directory     # 新しいディレクトリを作成
+Remove-Item [path]               # 項目を削除
+Get-Item [path]                  # 項目のプロパティを取得
+Resolve-Path [path]              # 相対パスを絶対パスに変換
 ```
 
 **高度なPowerShell例:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# 10MBを超える.logファイルをすべて検索
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# ディレクトリのサイズを計算
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "ディレクトリのサイズ: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal（2026年標準）
@@ -440,12 +440,12 @@ Windowsは**NTFSアクセス許可**でディレクトリやファイルへの�
 
 **PowerShellによる権限監査例:**
 ```powershell
-# Get ACL for a directory
+# ディレクトリのACLを取得
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# アクセス許可をCSVにエクスポート
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **解決策:**
 ```powershell
-# Take ownership of a file/folder
+# ファイル/フォルダーの所有権を取得
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# アクセス許可を付与
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### 問題3: WinSxSディレクトリの容量が大きすぎる
 
 **解決策:**
-```cmd
-# Analyze component store
+```powershell
+# コンポーネント ストアを分析する
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# コンポーネント ストアをクリーンアップする
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# 置き換え済みのバージョンを削除する（元に戻せません）
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - 不要なアプリケーションデータを削除
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# AppData内の大きなフォルダーを表示
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. PowerShellモジュール
 
 ```powershell
-# Install useful modules
+# 便利なモジュールをインストール
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# アイコン付きの拡張ディレクトリ一覧
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **監査を有効にする:**
 ```powershell
-# Enable file auditing via PowerShell
+# PowerShellでファイル監査を有効化
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Set-Acl "C:\Important\Directory" $acl
 - ファイルスクリーンを展開して許可されていないファイルタイプを防止する
 
 ______
+
+## 現在の Windows パスに関する注意
+
+サポート対象のデスクトップ版でも Windows の主要フォルダーは共通ですが、注意が必要なパスがあります。
+
+| パス | 現在の役割 | 安全な取り扱い |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | インストール済みアーキテクチャ向けのネイティブなシステムバイナリとライブラリです。64 ビット版 Windows では、32 ビットプロセスは **`SysWOW64`** を介して Windows-on-Windows 層を使用します。 | ファイルを手作業で置き換えないでください。Windows Update、DISM、またはベンダーのインストーラーを使用してください。 |
+| **`C:\Windows\WinSxS`** | サービス処理と回復に使うコンポーネントストアです。ハードリンクのため、エクスプローラーのサイズ推定は誤解を招きます。 | DISM でコンポーネントストアを分析し、クリーンアップしてください。フォルダー内のファイルを削除しないでください。 |
+| **`C:\Users\<name>\AppData`** | ユーザーごとのアプリケーション状態です。`Local`、`LocalLow`、`Roaming` はアプリとプロファイルの異なるニーズに対応します。 | キャッシュを消去する前にアプリケーションデータをバックアップしてください。すべてのフォルダーを削除可能と考えないでください。 |
+| **WSL 2 ディストリビューションのストレージ** | ディストリビューションはパッケージの `LocalState` ディレクトリ内にある `ext4.vhdx` 仮想ディスクを使用します。 | ディスク保守の前にディストリビューションをエクスポートするか停止してください。仮想ディスクを通常のフォルダーのように編集しないでください。 |
+
+以前の図と例は、全体像を把握するのに引き続き役立ちます。Microsoft は WSL 2 仮想ディスクのパスを説明し、通常の Windows ファイルではなく仮想ハードディスクにディストリビューションを保存する理由を示しています。正確なパッケージ名はディストリビューションとインストール方法によって異なります。[WSL のディスク領域に関する Microsoft のガイダンス](https://learn.microsoft.com/en-us/windows/wsl/disk-space)を参照してください。
+
+Microsoft は 2025 年 10 月 14 日に Windows 10 バージョン 22H2 のサポートを終了しました。別のライフサイクル条件が適用されるエディションや、対象となる Extended Security Update の契約は例外です。2026 年は Windows 10 を移行または例外管理の対象として扱ってください。[Windows 10 のライフサイクルに関する Microsoft の通知](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support)を参照してください。
+
+元のセクションにあるサイズ範囲と普及率は説明用の数値であり、このサイトで測定した値ではありません。ディレクトリのサイズは、インストール済みソフトウェア、更新履歴、プロファイルの内容、保持設定によって変わります。削除する前にローカルシステムを確認してください。
+
+## 安全なディレクトリ保守チェックリスト
+
+1. 保護されたディレクトリを変更する前に、パス、所有者、ACL、業務上の目的を記録します。
+2. アプリケーションデータの削除やアクセス許可の変更の前に、復元可能なバックアップを作成するか確認します。
+3. **Storage Sense**、**DISM**、**`robocopy`**、アプリケーションのアンインストーラーなど、サポート対象のツールを優先します。
+4. 管理者権限が不要な作業では、標準ユーザーアカウントで変更をテストします。
+5. 保守後にイベント ビューアーとアプリケーションログを確認します。
+6. 元のパス、コマンド、時刻、結果を含むロールバック記録を残します。
+
+**確認していない宛先に `/MIR` を使わないでください。** `robocopy /MIR` は、ソースに存在しない宛先のファイルを削除します。
+
 
 ## 結論
 

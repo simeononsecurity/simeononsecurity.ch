@@ -1,7 +1,7 @@
 ---
 title: "Recuperação de deriva de agentes de IA e fluxo de transferência"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Detecte fontes e adaptadores de políticas desatualizados, recupere publicações interrompidas e verifique transferências independentes entre agentes."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Execute a verificação preliminar
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Leia MAP-01 e registre a revisão.
+Leia POL-01 e compare as versões dos adaptadores ativos.
+Leia REQ-17 e RUN-04 nos locais indicados no mapa.
+Leia config.json em main protegido.
+Leia a proposta congelada e as revisões atuais dos papéis.
+Compare as fontes atuais com as bases revisadas.
+Liste divergências, leituras negadas e publicações pendentes.
+Interrompa gravações importantes até que os responsáveis resolvam cada divergência.
 ```
 
 **O colaborador executa a verificação preliminar antes de preparar o rascunho. A pessoa que publica repete a verificação antes de escrever.** Guarde a comparação de versões com a proposta. As verificações semanais complementam essas leituras, mas não as substituem.
@@ -103,16 +103,16 @@ choices:
 ## Verifique uma transferência independente
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Repasse: HANDOFF-042
+Tarefa: PROP-042
+Mapa e política: anexe as revisões atuais aprovadas
+Evidências: referências a requisitos, runbook e configuração
+Registro: completed, failed, pending
+Decisão: escolha do responsável e revisão fixa da proposta
+Limites: nenhum teste de exclusão em execução e nenhum dado de produção
+Próximo papel: papel responsável
+Próxima ação: uma etapa delimitada
+Pare: base alterada, acesso negado ou autoridade em conflito
 ```
 
 **Abra outra ferramenta ou uma sessão limpa** com o mapa e a transferência, sem a conversa anterior. Exija novas leituras das fontes, um manifesto novo e a identificação da ação pendente. Evidências coletadas manualmente no navegador continuam válidas se forem identificadas como instantâneo e verificadas novamente antes da escrita.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **Compensação não apaga o histórico.** Mantenha a tentativa de alteração para trinta dias, a falha e a restauração posterior como registros separados. A fonte final indica sete, enquanto o histórico de entrega explica por que a proposta aprovada não foi concluída.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Decisão de recuperação: compensação ilustrativa
+Proposta original: PROP-042, revisão 1
+Divergência observada: requisito 30, configuração/runbook 7
+Decisão do responsável: restaurar a intenção-base aprovada
+Objeto de revisão: comparar a compensação fixa com a versão atual do requisito
+Resultado: registre a revisão resultante e releia o valor de sete dias
+Entrega original: retire ou bloqueie com explicação
+Limite: nenhuma exclusão em execução ou restauração de dados foi realizada
 ```
 
 **Preserve explicitamente qualquer exceção adicionada por outra pessoa.** Colar cegamente o conteúdo de uma página antiga pode remover uma alteração intermediária válida. Compare o texto atual com o pretendido e revise uma alteração compensatória mínima em relação à versão atual.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Use uma sessão limpa e outra pessoa revisora.** Forneça o mapa, o pacote fixado, o registro e a decisão de recuperação. Não compartilhe o chat anterior. Peça a quem recebe a transferência que indique a intenção atual, a configuração, as orientações operacionais e a próxima ação autorizada.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Leia as fontes atuais indicadas no mapa de forma independente.
+Diferencie intenção aprovada, configuração registrada e estado da entrega.
+Compare-as com o pacote revisado e o registro.
+Liste leituras ausentes e bases alteradas.
+Recomende uma próxima etapa delimitada e indique quem responde por ela.
+Não trate este repasse como aprovação nem como permissão para publicar.
 ```
 
 **Raciocínio esperado:** a pessoa receptora verifica o resultado da compensação antes de descrever a linha de base como restaurada. Se repetir apenas “sete dias” da transferência, a exigência de leitura independente não foi testada. Peça evidências das fontes em vez de outro resumo.
@@ -219,4 +219,4 @@ Entregue este inventário a uma segunda pessoa sem o chat anterior. A transferê
 
 ## Próximas etapas
 
-**Conclua o [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** usando as duas trilhas e uma segunda pessoa leitora. Mostre leituras atuais das fontes, incompatibilidades entre versões, responsável pela decisão, recuperação revisada, leitura de retorno e reconstrução independente.
+**Conclua o [Capítulo final sobre retenção](/articles/ai-collaboration-retention-capstone/)** usando as duas trilhas e uma segunda pessoa leitora. Mostre leituras atuais das fontes, incompatibilidades entre versões, responsável pela decisão, recuperação revisada, leitura de retorno e reconstrução independente.

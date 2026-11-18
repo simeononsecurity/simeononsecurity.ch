@@ -1,7 +1,7 @@
 ---
 title: "AWS vs Azure vs Google Cloud 2026 : Comparaison complète des plateformes cloud – Prix, sécurité, services et performance"
 date: 2023-07-01
-lastmod: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Comparaison complète 2026 d'AWS, Microsoft Azure et Google Cloud Platform (GCP). Analyse détaillée des prix, fonctionnalités de sécurité, certifications de conformité, services, benchmarks de performance et cadres décisionnels pour choisir le meilleur fournisseur cloud pour vos besoins."
@@ -180,7 +180,7 @@ La sécurité reste la priorité absolue pour l'adoption cloud. Les trois fourni
 | **Conteneurs** | ECS, EKS, Fargate | AKS, Container Instances | GKE, Cloud Run, GCE |
 | **Fonctions Serverless** | Lambda | Azure Functions | Cloud Functions |
 | **Conteneurs Serverless** | Fargate, App Runner | Container Apps | Cloud Run |
-| **Modèles de tarification VM** | On-Demand, Reserved, Spot, Savings Plans | Pay-as-you-go, Reserved, Spot | On-Demand, Committed Use, Preemptible |
+| **Modèles de tarification VM** | À la demande, réservées, Spot, Savings Plans | Paiement à l'usage, réservées, Spot | À la demande, Committed Use, Preemptible |
 
 **Gagnant Kubernetes** : **Google GKE** – Kubernetes de pointe (Google a inventé Kubernetes), control plane gratuit, meilleur autoscaling, Autopilot pour zéro opération.
 
@@ -225,11 +225,11 @@ La sécurité reste la priorité absolue pour l'adoption cloud. Les trois fourni
 
 | Type d'instance | AWS | Azure | Google Cloud |
 |---------------|-----|-------|--------------|
-| **On-Demand (par heure)** | 0,384 $ (m6i.2xlarge) | 0,400 $ (D8s v5) | 0,379 $ (n2-standard-8) |
-| **On-Demand (par mois)** | 280,32 $ | 292,00 $ | 276,67 $ |
-| **Reserved 1 an (par mois)** | 184,00 $ (34 % d'économies) | 208,00 $ (29 % d'économies) | 190,00 $ (31 % d'économies) |
+| **À la demande (par heure)** | 0,384 $ (m6i.2xlarge) | 0,400 $ (D8s v5) | 0,379 $ (n2-standard-8) |
+| **À la demande (par mois)** | 280,32 $ | 292,00 $ | 276,67 $ |
+| **Réservation sur 1 an (par mois)** | 184,00 $ (34 % d'économies) | 208,00 $ (29 % d'économies) | 190,00 $ (31 % d'économies) |
 
-**Gagnant** : **Google Cloud** – Tarification on-demand la plus basse, remises pour utilisation soutenue (automatiques), remises pour utilisation engagée.
+**Gagnant** : **Google Cloud** – Tarification à la demande la plus basse, remises pour utilisation soutenue (automatiques), remises pour utilisation engagée.
 
 ### Analyse du coût total de possession (TCO)
 

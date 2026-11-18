@@ -1,7 +1,7 @@
 ---
 title: "GitHub ਵਿੱਚ AI ਸਹਿਯੋਗ: ਰਿਪੋਜ਼ਟਰੀ ਅਤੇ ਸਮੀਖਿਆ ਦੀਆਂ ਹੱਦਾਂ"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "AI ਵੱਲੋਂ ਦਿੱਤੇ ਸਮੀਖਿਆਯੋਗ ਯੋਗਦਾਨਾਂ ਲਈ ਸਰੋਤ ਨਕਸ਼ਾ, ਫਾਈਲ ਮਾਲਕੀ ਅਤੇ ਸੁਰੱਖਿਅਤ ਪ੍ਰਕਾਸ਼ਨ ਹੱਦ ਬਣਾਓ।"
@@ -54,7 +54,7 @@ Clone ਕਮਾਂਡ ਨਾਲ ਰਿਪੋਜ਼ਟਰੀ ਡਾਇਰੈਕ�
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "ਸਿੰਥੈਟਿਕ ਸਹਿਯੋਗ ਅਧਾਰ ਸ਼ਾਮਲ ਕਰੋ"
 git push origin main
 git status --short
 git remote -v

@@ -1,11 +1,11 @@
 ---
 title: "Como criar um pipeline DevOps seguro: boas práticas"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda a criar e manter um pipeline DevOps seguro com boas práticas e exemplos reais neste guia completo."
-tags: ["DevOps", "segurança", "pipeline", "integração contínua", "entrega contínua", "automação", "contêineres", "programação segura", "análise de vulnerabilidades", "monitoramento", "feedback", "controle de versão", "controle de acesso", "recuperação de desastres", "continuidade dos negócios", "estudo de caso", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
+tags: ["DevOps", "segurança", "fluxo de entrega DevOps", "integração contínua", "entrega contínua", "automação", "contêineres", "programação segura", "análise de vulnerabilidades", "monitoramento", "retorno", "controle de versão", "controle de acesso", "recuperação de desastres", "continuidade dos negócios", "estudo de caso", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
 cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
 coverAlt: "Ilustração digital abstrata de um pipeline DevOps seguro, com elementos visuais de desenvolvimento de código, testes automatizados e implantação sobre um fundo escuro com cores vibrantes."
 coverCaption: ""

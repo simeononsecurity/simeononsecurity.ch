@@ -3,7 +3,7 @@ title: "Top 5 certificări de securitate cibernetică pentru profesioniștii din
 draft: false
 toc: true
 date: 2023-05-26
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 description: "Compară certificările de securitate cibernetică pentru profesioniștii din mediul de afaceri după cost, domeniu, valoare profesională și responsabilități de protecție."
 tags: ["certificări de securitate cibernetică", "certificări non-tehnice", "profesioniști din mediul de afaceri", "securitatea informațiilor", "gestionarea confidențialității", "competențe de securitate cibernetică", "protecția datelor", "programe de certificare", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP US", "guvernanța securității", "reglementări privind confidențialitatea", "conformitate", "gestionarea riscurilor", "confidențialitatea informațiilor", "securitatea afacerilor", "confidențialitatea datelor", "certificări 2026", "conducere în securitate", "specialist în confidențialitate", "securitate cibernetică pentru afaceri", "certificări executive", "certificări de management", "conformitate de securitate", "conformitate GDPR", "conformitate CCPA", "conformitate HIPAA", "responsabil cu protecția datelor", "responsabil cu confidențialitatea", "manager de securitate", "guvernanța securității cibernetice", "evaluarea riscurilor", "cadre de securitate", "cadre de confidențialitate", "costul certificării", "randamentul certificării", "dezvoltarea carierei", "creșterea salariului", "competențe de securitate pentru afaceri", "securitatea întreprinderii", "securitatea organizațională", "strategia de securitate", "strategia de confidențialitate", "gestionarea conformității", "gestionarea programului de securitate", "gestionarea programului de confidențialitate", "gestionarea riscurilor de afaceri", "politica de securitate", "politica de confidențialitate"]
 cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
@@ -1092,7 +1092,7 @@ Mulți profesioniști se întreabă dacă să obțină CIPP/US sau CIPP/E:
 |---|---:|
 | Analist de confidențialitate | $75,000-$95,000 |
 | Manager de confidențialitate | $110,000-$140,000 |
-| Chief Privacy Officer | $160,000-$220,000 |
+| Director de confidențialitate | $160,000-$220,000 |
 | Consilier juridic pentru confidențialitate | $140,000-$200,000 |
 | Consultant de confidențialitate | $120,000-$175,000 |
 

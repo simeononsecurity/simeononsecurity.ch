@@ -1,7 +1,7 @@
 ---
 title: "ਵਿੰਡੋਜ਼ ਡਾਇਰੈਕਟਰੀ ਢਾਂਚਾ"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: ਵਿੰਡੋਜ਼ ਡਾਇਰੈਕਟਰੀ ਢਾਂਚੇ ਲਈ ਪੂਰਾ 2026 ਗਾਈਡ ਜਿਸ ਵਿੱਚ ਵਿਜ਼ੂਅਲ ਡਾਇਗ੍ਰਾਮ, ਵਿੰਡੋਜ਼ 11 ਅੱਪਡੇਟ, ਸੁਰੱਖਿਆ ਦੇ ਵਿਚਾਰ ਅਤੇ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਫਾਈਲ ਪ੍ਰਬੰਧਨ ਲਈ ਮਾਹਿਰ ਨੈਵੀਗੇਸ਼ਨ ਤਕਨੀਕਾਂ ਸ਼ਾਮਲ ਹਨ।
@@ -75,53 +75,53 @@ ______
 ਇੱਥੇ ਵਿੰਡੋਜ਼ ਫਾਈਲ ਸਿਸਟਮ ਹਾਇਰਾਰਕੀ ਦੀ ਵਿਸਤ੍ਰਿਤ ਵਿਜ਼ੂਅਲ ਪ੍ਰਸਤੁਤੀ ਹੈ:
 
 ```
-C:\ (Root Directory)
+C:\ (ਰੂਟ ਡਾਇਰੈਕਟਰੀ)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [ਸਿਸਟਮ ਫਾਈਲਾਂ ਅਤੇ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਦੇ ਹਿੱਸੇ]
+│   ├── System32\              [64-ਬਿੱਟ ਸਿਸਟਮ ਫਾਈਲਾਂ ਅਤੇ ਐਗਜ਼ਿਕਿਊਟੇਬਲ]
+│   ├── SysWOW64\              [64-ਬਿੱਟ ਸਿਸਟਮਾਂ ਉੱਤੇ 32-ਬਿੱਟ ਅਨੁਕੂਲਤਾ ਪਰਤ]
+│   ├── Boot\                  [ਬੂਟ ਸੰਰਚਨਾ ਅਤੇ ਸ਼ੁਰੂਆਤੀ ਫਾਈਲਾਂ]
+│   ├── Fonts\                 [ਸਿਸਟਮ ਫੌਂਟ]
+│   ├── Temp\                  [ਸਿਸਟਮ ਦੀਆਂ ਅਸਥਾਈ ਫਾਈਲਾਂ]
+│   ├── assembly\              [.NET Framework ਅਸੈਂਬਲੀਆਂ]
+│   ├── inf\                   [ਡਰਾਈਵਰ ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਣਕਾਰੀ]
+│   ├── WinSxS\                [Windows Side-by-Side ਕੰਪੋਨੈਂਟ ਸਟੋਰ]
+│   ├── Logs\                  [ਸਿਸਟਮ ਲੌਗ ਫਾਈਲਾਂ]
+│   └── Security\              [ਸੁਰੱਖਿਆ ਨੀਤੀਆਂ ਅਤੇ ਟੈਂਪਲੇਟ]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [64-ਬਿੱਟ ਐਪਲੀਕੇਸ਼ਨਾਂ (64-ਬਿੱਟ ਸਿਸਟਮਾਂ ਉੱਤੇ)]
+│   ├── Common Files\          [ਸਾਂਝੇ ਪ੍ਰੋਗਰਾਮ ਹਿੱਸੇ]
+│   └── [ਐਪਲੀਕੇਸ਼ਨ ਫੋਲਡਰ]  [ਵੱਖ-ਵੱਖ ਇੰਸਟਾਲ ਕੀਤੇ ਪ੍ਰੋਗਰਾਮ]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [64-ਬਿੱਟ ਸਿਸਟਮਾਂ ਉੱਤੇ 32-ਬਿੱਟ ਐਪਲੀਕੇਸ਼ਨਾਂ]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [ਐਪਲੀਕੇਸ਼ਨ ਫੋਲਡਰ]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [ਯੂਜ਼ਰ ਪ੍ਰੋਫ਼ਾਈਲ ਡਾਇਰੈਕਟਰੀਆਂ]
+│   ├── Public\                [ਸਾਂਝੀਆਂ ਯੂਜ਼ਰ ਫਾਈਲਾਂ]
+│   ├── [ਯੂਜ਼ਰ ਨਾਮ]\            [ਵੱਖ-ਵੱਖ ਯੂਜ਼ਰ ਪ੍ਰੋਫ਼ਾਈਲ]
+│   │   ├── Desktop\           [ਡੈਸਕਟਾਪ ਫਾਈਲਾਂ]
+│   │   ├── Documents\         [ਯੂਜ਼ਰ ਦਸਤਾਵੇਜ਼]
+│   │   ├── Downloads\         [ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਫਾਈਲਾਂ]
+│   │   ├── Pictures\          [ਯੂਜ਼ਰ ਤਸਵੀਰਾਂ]
+│   │   ├── Videos\            [ਯੂਜ਼ਰ ਵੀਡੀਓ]
+│   │   ├── Music\             [ਯੂਜ਼ਰ ਆਡੀਓ ਫਾਈਲਾਂ]
+│   │   ├── AppData\           [ਐਪਲੀਕੇਸ਼ਨ ਡਾਟਾ]
+│   │   │   ├── Local\         [ਮਸ਼ੀਨ-ਵਿਸ਼ੇਸ਼ ਐਪ ਡਾਟਾ]
+│   │   │   ├── LocalLow\      [ਘੱਟ-ਇੰਟੈਗ੍ਰਿਟੀ ਐਪ ਡਾਟਾ]
+│   │   │   └── Roaming\       [ਰੋਮਿੰਗ ਪ੍ਰੋਫ਼ਾਈਲ ਡਾਟਾ]
+│   │   ├── OneDrive\          [ਕਲਾਊਡ ਨਾਲ ਸਿੰਕ ਕੀਤੀਆਂ ਫਾਈਲਾਂ (Windows 11)]
+│   │   └── Contacts\          [ਯੂਜ਼ਰ ਸੰਪਰਕ]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [ਸਾਂਝਾ ਐਪਲੀਕੇਸ਼ਨ ਡਾਟਾ (ਲੁਕਿਆ ਹੋਇਆ)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [ਐਪਲੀਕੇਸ਼ਨ ਡਾਟਾ]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [ਕਾਰਗੁਜ਼ਾਰੀ ਲੌਗ ਅਤੇ ਰਿਪੋਰਟਾਂ]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [ਰੀਸਾਈਕਲ ਬਿਨ (ਲੁਕਿਆ ਹੋਇਆ)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [ਸਿਸਟਮ ਰੀਸਟੋਰ ਪੁਆਇੰਟ (ਲੁਕੇ ਹੋਏ)]
 ```
 
 ______
@@ -303,9 +303,9 @@ ______
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # ਸਬਡਾਇਰੈਕਟਰੀਆਂ ਵਿੱਚੋਂ ਮੁੜ-ਮੁੜ ਸੂਚੀ ਬਣਾਓ
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # ਨਵੀਂ ਡਾਇਰੈਕਟਰੀ ਬਣਾਓ
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **ਜ਼ਰੂਰੀ ਪਾਵਰਸ਼ੈੱਲ ਕਮਾਂਡਾਂ:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # ਡਾਇਰੈਕਟਰੀ ਬਦਲੋ (ਉਪਨਾਮ: cd)
+Get-ChildItem                    # ਆਈਟਮਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ (ਉਪਨਾਮ: dir, ls)
+Get-ChildItem -Recurse           # ਮੁੜ-ਮੁੜ ਸੂਚੀ ਬਣਾਓ
+Get-ChildItem -Force             # ਲੁਕੀਆਂ ਆਈਟਮਾਂ ਦਿਖਾਓ
+Test-Path [path]                 # ਜਾਂਚੋ ਕਿ ਪਾਥ ਮੌਜੂਦ ਹੈ
+New-Item -ItemType Directory     # ਨਵੀਂ ਡਾਇਰੈਕਟਰੀ ਬਣਾਓ
+Remove-Item [path]               # ਆਈਟਮ ਮਿਟਾਓ
+Get-Item [path]                  # ਆਈਟਮ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਲਵੋ
+Resolve-Path [path]              # ਸਾਪੇਖ ਪਾਥ ਨੂੰ ਪੂਰਨ ਪਾਥ ਵਿੱਚ ਬਦਲੋ
 ```
 
 **ਉੱਨਤ ਪਾਵਰਸ਼ੈੱਲ ਉਦਾਹਰਨ:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# 10MB ਤੋਂ ਵੱਡੀਆਂ ਸਾਰੀਆਂ .log ਫਾਈਲਾਂ ਲੱਭੋ
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# ਡਾਇਰੈਕਟਰੀ ਦਾ ਆਕਾਰ ਕੱਢੋ
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "ਡਾਇਰੈਕਟਰੀ ਦਾ ਆਕਾਰ: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. ਵਿਂਡੋਜ਼ ਟਰਮੀਨਲ (2026 ਮਿਆਰੀ)
@@ -440,18 +440,18 @@ Windows ਡਾਇਰੈਕਟਰੀਆਂ ਅਤੇ ਫਾਈਲਾਂ ਦੀ �
 
 **PowerShell ਅਧਿਕਾਰ ਆਡਿਟ ਉਦਾਹਰਨ:**
 ```powershell
-# Get ACL for a directory
+# ਡਾਇਰੈਕਟਰੀ ਦਾ ACL ਲਵੋ
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# ਇਜਾਜ਼ਤਾਂ CSV ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
 ### ਸੁਰੱਖਿਅਤ ਡਾਇਰੈਕਟਰੀਆਂ
 
-**Windows ਮਹੱਤਵਪੂਰਨ ਡਾਇਰੈਕਟਰੀਆਂ ਨੂੰ ਸੋਧ ਤੋਂ ਬਚਾਉਂਦਾ ਹੈ। [Microsoft Security Baselines](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines) ਮੁਤਾਬਕ, ਇਹ ਸੁਰੱਖਿਆ ਮਾਲਵੇਅਰ ਨੂੰ ਸਿਸਟਮ ਦੀ ਅਖੰਡਤਾ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾਉਣ ਤੋਂ ਰੋਕਦੀ ਹੈ।
+**Windows ਮਹੱਤਵਪੂਰਨ ਡਾਇਰੈਕਟਰੀਆਂ ਨੂੰ ਸੋਧ ਤੋਂ ਬਚਾਉਂਦਾ ਹੈ।** [Microsoft Security Baselines](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines) ਮੁਤਾਬਕ, ਇਹ ਸੁਰੱਖਿਆ ਮਾਲਵੇਅਰ ਨੂੰ ਸਿਸਟਮ ਦੀ ਅਖੰਡਤਾ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾਉਣ ਤੋਂ ਰੋਕਦੀ ਹੈ।
 
 **ਸੁਰੱਖਿਅਤ ਸਥਾਨ:**
 - C:\Windows\System32\
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **ਹੱਲ:**
 ```powershell
-# Take ownership of a file/folder
+# ਫਾਈਲ/ਫੋਲਡਰ ਦੀ ਮਲਕੀਅਤ ਲਵੋ
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# ਇਜਾਜ਼ਤਾਂ ਦਿਓ
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### ਸਮੱਸਿਆ 3: WinSxS ਡਾਇਰੈਕਟਰੀ ਬਹੁਤ ਜ਼ਿਆਦਾ ਸਥਾਨ ਲੈ ਰਹੀ ਹੈ
 
 **ਹੱਲ:**
-```cmd
-# Analyze component store
+```powershell
+# ਕੰਪੋਨੈਂਟ ਸਟੋਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# ਕੰਪੋਨੈਂਟ ਸਟੋਰ ਸਾਫ਼ ਕਰੋ
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# ਬਦਲੇ ਗਏ ਸੰਸਕਰਣ ਹਟਾਓ (ਇਹ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - ਲੋੜੀਂਦਾ ਐਪਲੀਕੇਸ਼ਨ ਡੇਟਾ ਮਿਟਾਓ
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# AppData ਦੇ ਸਭ ਤੋਂ ਵੱਡੇ ਫੋਲਡਰ ਦਿਖਾਓ
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. PowerShell ਮੋਡੀਊਲ
 
 ```powershell
-# Install useful modules
+# ਲਾਭਦਾਇਕ ਮੋਡੀਊਲ ਇੰਸਟਾਲ ਕਰੋ
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# ਆਈਕਨਾਂ ਨਾਲ ਸੁਧਰੀ ਡਾਇਰੈਕਟਰੀ ਸੂਚੀ
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **ਆਡਿਟਿੰਗ ਚਾਲੂ ਕਰੋ:**
 ```powershell
-# Enable file auditing via PowerShell
+# PowerShell ਰਾਹੀਂ ਫਾਈਲ ਆਡਿਟਿੰਗ ਚਾਲੂ ਕਰੋ
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Set-Acl "C:\Important\Directory" $acl
 - ਅਣਅਧਿਕ੍ਰਿਤ ਫਾਇਲ ਕਿਸਮਾਂ ਨੂੰ ਰੋਕਣ ਲਈ ਫਾਇਲ ਸਕ੍ਰੀਨ ਤਾਇਨਾਤ ਕਰੋ
 
 ______
+
+## ਮੌਜੂਦਾ Windows ਪਾਥਾਂ ਬਾਰੇ ਨੋਟ
+
+ਸਮਰਥਿਤ ਡੈਸਕਟਾਪ ਰਿਲੀਜ਼ਾਂ ਵਿੱਚ Windows ਮੁੱਖ ਫੋਲਡਰ ਉਹੀ ਰੱਖਦਾ ਹੈ, ਪਰ ਕੁਝ ਪਾਥਾਂ ਨੂੰ ਧਿਆਨ ਨਾਲ ਵਰਤਣਾ ਲੋੜੀਂਦਾ ਹੈ:
+
+| ਪਾਥ | ਮੌਜੂਦਾ ਭੂਮਿਕਾ | ਸੁਰੱਖਿਅਤ ਵਰਤੋਂ |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | ਇੰਸਟਾਲ ਕੀਤੇ ਆਰਕੀਟੈਕਚਰ ਲਈ ਮੂਲ ਸਿਸਟਮ ਬਾਈਨਰੀਆਂ ਅਤੇ ਲਾਇਬ੍ਰੇਰੀਆਂ। 64-ਬਿੱਟ Windows ਵਿੱਚ 32-ਬਿੱਟ ਪ੍ਰਕਿਰਿਆਵਾਂ **`SysWOW64`** ਰਾਹੀਂ Windows-on-Windows ਪਰਤ ਵਰਤਦੀਆਂ ਹਨ। | ਫਾਈਲਾਂ ਹੱਥੀਂ ਨਾ ਬਦਲੋ। Windows Update, DISM ਜਾਂ ਵਿਕਰੇਤਾ ਦਾ ਇੰਸਟਾਲਰ ਵਰਤੋ। |
+| **`C:\Windows\WinSxS`** | ਸਰਵਿਸਿੰਗ ਅਤੇ ਰਿਕਵਰੀ ਲਈ ਕੰਪੋਨੈਂਟ ਸਟੋਰ। ਹਾਰਡ ਲਿੰਕਾਂ ਕਰਕੇ File Explorer ਦੇ ਆਕਾਰ ਦੇ ਅੰਦਾਜ਼ੇ ਗੁੰਮਰਾਹ ਕਰ ਸਕਦੇ ਹਨ। | DISM ਨਾਲ ਕੰਪੋਨੈਂਟ ਸਟੋਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਸਫ਼ਾਈ ਕਰੋ। ਫੋਲਡਰ ਵਿੱਚੋਂ ਫਾਈਲਾਂ ਨਾ ਮਿਟਾਓ। |
+| **`C:\Users\<name>\AppData`** | ਹਰ ਯੂਜ਼ਰ ਦੀ ਐਪਲੀਕੇਸ਼ਨ ਸਥਿਤੀ। `Local`, `LocalLow` ਅਤੇ `Roaming` ਐਪਾਂ ਅਤੇ ਪ੍ਰੋਫ਼ਾਈਲਾਂ ਦੀਆਂ ਵੱਖਰੀਆਂ ਲੋੜਾਂ ਪੂਰੀਆਂ ਕਰਦੇ ਹਨ। | ਕੈਸ਼ ਸਾਫ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਐਪਲੀਕੇਸ਼ਨ ਡਾਟੇ ਦਾ ਬੈਕਅੱਪ ਲਵੋ। ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਹਰ ਫੋਲਡਰ ਮਿਟਾਇਆ ਜਾ ਸਕਦਾ ਹੈ। |
+| **WSL 2 ਡਿਸਟ੍ਰੀਬਿਊਸ਼ਨ ਸਟੋਰੇਜ** | ਡਿਸਟ੍ਰੀਬਿਊਸ਼ਨ ਪੈਕੇਜ ਦੀ `LocalState` ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ `ext4.vhdx` ਵਰਚੁਅਲ ਡਿਸਕ ਵਰਤਦੀ ਹੈ। | ਡਿਸਕ ਦੀ ਸੰਭਾਲ ਤੋਂ ਪਹਿਲਾਂ ਡਿਸਟ੍ਰੀਬਿਊਸ਼ਨ ਐਕਸਪੋਰਟ ਕਰੋ ਜਾਂ ਬੰਦ ਕਰੋ। ਵਰਚੁਅਲ ਡਿਸਕ ਨੂੰ ਆਮ ਫੋਲਡਰ ਵਾਂਗ ਨਾ ਸੋਧੋ। |
+
+ਪੁਰਾਣਾ ਚਿੱਤਰ ਅਤੇ ਉਦਾਹਰਨਾਂ ਨਕਸ਼ੇ ਵਾਂਗ ਲਾਭਦਾਇਕ ਹਨ। Microsoft WSL 2 ਵਰਚੁਅਲ ਡਿਸਕ ਦਾ ਪਾਥ ਦਸਤਾਵੇਜ਼ ਕਰਦਾ ਹੈ ਅਤੇ ਦੱਸਦਾ ਹੈ ਕਿ ਡਿਸਟ੍ਰੀਬਿਊਸ਼ਨ ਆਮ Windows ਫਾਈਲਾਂ ਦੀ ਬਜਾਏ ਵਰਚੁਅਲ ਹਾਰਡ ਡਿਸਕ ਵਿੱਚ ਕਿਉਂ ਰੱਖੀ ਜਾਂਦੀ ਹੈ। ਸਹੀ ਪੈਕੇਜ ਨਾਮ ਡਿਸਟ੍ਰੀਬਿਊਸ਼ਨ ਅਤੇ ਇੰਸਟਾਲੇਸ਼ਨ ਢੰਗ ਮੁਤਾਬਕ ਬਦਲਦਾ ਹੈ। [WSL ਡਿਸਕ ਸਪੇਸ ਬਾਰੇ Microsoft ਦੀ ਗਾਈਡ](https://learn.microsoft.com/en-us/windows/wsl/disk-space) ਵੇਖੋ।
+
+Microsoft ਨੇ Windows 10 ਵਰਜਨ 22H2 ਲਈ ਸਮਰਥਨ 14 ਅਕਤੂਬਰ 2025 ਨੂੰ ਖਤਮ ਕੀਤਾ, ਸਿਵਾਏ ਉਹਨਾਂ ਐਡੀਸ਼ਨਾਂ ਦੇ ਜਿਨ੍ਹਾਂ ਦੀਆਂ ਵੱਖਰੀਆਂ ਲਾਈਫਸਾਈਕਲ ਸ਼ਰਤਾਂ ਹਨ ਜਾਂ ਜੋ ਯੋਗ Extended Security Update ਪ੍ਰਬੰਧ ਵਿੱਚ ਹਨ। 2026 ਵਿੱਚ Windows 10 ਨੂੰ ਮਾਈਗ੍ਰੇਸ਼ਨ ਜਾਂ ਅਪਵਾਦ-ਪ੍ਰਬੰਧਨ ਦਾ ਮਾਮਲਾ ਸਮਝੋ। [Windows 10 ਲਾਈਫਸਾਈਕਲ ਬਾਰੇ Microsoft ਦਾ ਨੋਟਿਸ](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support) ਵੇਖੋ।
+
+ਮੂਲ ਭਾਗਾਂ ਵਿੱਚ ਆਕਾਰ ਦੀਆਂ ਹੱਦਾਂ ਅਤੇ ਅਪਣਾਉਣ ਦੀਆਂ ਪ੍ਰਤੀਸ਼ਤਾਂ ਉਦਾਹਰਨੀ ਅੰਕੜੇ ਹਨ, ਇਸ ਸਾਈਟ ਦੇ ਮਾਪ ਨਹੀਂ। ਡਾਇਰੈਕਟਰੀ ਦਾ ਆਕਾਰ ਇੰਸਟਾਲ ਕੀਤੇ ਸਾਫਟਵੇਅਰ, ਅੱਪਡੇਟ ਇਤਿਹਾਸ, ਪ੍ਰੋਫ਼ਾਈਲ ਸਮੱਗਰੀ ਅਤੇ ਰੱਖ-ਰਖਾਅ ਨੀਤੀਆਂ ਉੱਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ। ਕੁਝ ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਸਥਾਨਕ ਸਿਸਟਮ ਦੀ ਜਾਂਚ ਕਰੋ।
+
+## ਡਾਇਰੈਕਟਰੀ ਦੀ ਸੁਰੱਖਿਅਤ ਸੰਭਾਲ ਲਈ ਜਾਂਚ-ਸੂਚੀ
+
+1. ਸੁਰੱਖਿਅਤ ਡਾਇਰੈਕਟਰੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਪਾਥ, ਮਾਲਕ, ACL ਅਤੇ ਕਾਰੋਬਾਰੀ ਮਕਸਦ ਦਰਜ ਕਰੋ।
+2. ਐਪਲੀਕੇਸ਼ਨ ਡਾਟਾ ਹਟਾਉਣ ਜਾਂ ਅਧਿਕਾਰ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਮੁੜ-ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ ਸਕਣ ਵਾਲਾ ਬੈਕਅੱਪ ਬਣਾਓ ਜਾਂ ਪੱਕਾ ਕਰੋ।
+3. **Storage Sense**, **DISM**, **`robocopy`** ਅਤੇ ਐਪ ਅਨਇੰਸਟਾਲਰ ਵਰਗੇ ਸਮਰਥਿਤ ਟੂਲਾਂ ਨੂੰ ਪਹਿਲ ਦਿਓ।
+4. ਜੇ ਕੰਮ ਲਈ ਉੱਚੇ ਅਧਿਕਾਰ ਲੋੜੀਂਦੇ ਨਹੀਂ, ਤਾਂ ਮਿਆਰੀ ਯੂਜ਼ਰ ਖਾਤੇ ਨਾਲ ਬਦਲਾਅ ਪਰਖੋ।
+5. ਸੰਭਾਲ ਤੋਂ ਬਾਅਦ Event Viewer ਅਤੇ ਐਪਲੀਕੇਸ਼ਨ ਲੌਗ ਵੇਖੋ।
+6. ਅਸਲ ਪਾਥ, ਕਮਾਂਡ, ਸਮਾਂ ਅਤੇ ਨਤੀਜੇ ਸਮੇਤ ਵਾਪਸੀ ਰਿਕਾਰਡ ਰੱਖੋ।
+
+**ਬਿਨਾਂ ਜਾਂਚੇ ਟਿਕਾਣੇ ਨਾਲ `/MIR` ਨਾ ਵਰਤੋ।** `robocopy /MIR` ਮੰਜ਼ਿਲ ਤੋਂ ਉਹ ਫਾਈਲਾਂ ਮਿਟਾਉਂਦਾ ਹੈ ਜੋ ਸਰੋਤ ਵਿੱਚ ਨਹੀਂ ਹਨ।
+
 
 ## ਨਤੀਜਾ
 

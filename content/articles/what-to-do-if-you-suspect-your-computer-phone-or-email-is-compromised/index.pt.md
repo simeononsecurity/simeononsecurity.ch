@@ -1,10 +1,11 @@
 ---
 title: "O que fazer se você acha que seu e-mail ou telefone está comprometido"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda as etapas essenciais a serem seguidas se você suspeitar que seu e-mail, área de trabalho ou telefone foi invadido ou comprometido, incluindo alteração de senhas, verificação de malware e limpeza do dispositivo."
-tags: ["segurança do dispositivo", "Proteção de dados", "dispositivo comprometido", "e-mail hackeado", "telefone hackeado", "malware", "remoção de vírus", "senha de segurança", "backup de dados", "autenticação de dois fatores", "cíber segurança", "segurança online", "privacidade digital", "roubo de identidade", "fraude online", "suporte técnico", "Conserto de computador", "recuperação de dados", "serviços de TI", "tecnologia"]
+tags: ["segurança do dispositivo", "Proteção de dados", "dispositivo comprometido", "e-mail hackeado", "telefone hackeado", "software malicioso", "remoção de vírus", "senha de segurança", "backup de dados", "autenticação de dois fatores", "cíber segurança", "segurança online", "privacidade digital", "roubo de identidade", "fraude online", "suporte técnico", "Conserto de computador", "recuperação de dados", "serviços de TI", "tecnologia", "segurança de e-mail", "segurança do computador", "segurança do telefone", "invasão de dispositivos", "violação de segurança", "dispositivo comprometido", "verificação de malware", "apagamento de dados", "chaves de criptomoedas", "segurança de carteiras de criptomoedas", "proteção de fundos", "comprometimento de e-mail", "dicas de segurança para dispositivos", "como proteger seu e-mail", "etapas para proteger um telefone comprometido", "técnicas de remoção de malware", "boas práticas de segurança de senhas", "métodos de backup de dados", "importância da autenticação de dois fatores", "medidas de segurança cibernética online", "dicas de privacidade digital", "prevenção de roubo de identidade online", "como lidar com fraudes online", "suporte técnico para dispositivos comprometidos", "serviços de conserto de computadores", "soluções de recuperação de dados", "serviços de TI para segurança de dispositivos", "tendências tecnológicas recentes", "práticas de e-mail seguro", "medidas de segurança do computador", "precauções de segurança para telefones", "prevenção de invasões de dispositivos"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Uma imagem de desenho animado de uma pessoa parada na frente de um computador ou telefone com uma expressão preocupada, enquanto um hacker de desenho animado espreita ao fundo."
 coverCaption: ""
@@ -28,15 +29,19 @@ A primeira etapa a ser tomada quando você suspeitar que seu e-mail, área de tr
 
 É importante observar quaisquer sinais de comprometimento para que você possa tomar as medidas adequadas para proteger seu dispositivo e seus dados. Se você não tem certeza se seu dispositivo foi comprometido, é sempre melhor errar no
 
+
+Saiba como identificar e-mails de phishing e engenharia social: [e-mails de phishing e mensagens suspeitas](https://simeononsecurity.com/articles/how-to-identify-phishing/)e [engenharia social](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## Etapa 2: altere suas senhas e verifique as informações de recuperação
+## [Etapa 2: altere suas senhas e verifique as informações de recuperação](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - **Altere suas senhas** para todas as suas contas imediatamente se suspeitar que seu dispositivo foi comprometido
 
 
 Se você suspeitar que seu e-mail, área de trabalho ou telefone foi comprometido, a próxima etapa é alterar as senhas de todas as suas contas imediatamente. Isso vai demorar um pouco, então priorize contas importantes como seus e-mails, contas bancárias, contas de mídia social, etc.
 
+Para obter mais orientações, consulte: [alterar suas senhas](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [escolher senhas fortes e exclusivas](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [criar uma senha forte](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) e [ativar a autenticação de dois fatores](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/).
 - **Priorize contas importantes** como seus e-mails, contas bancárias, contas de mídia social, etc.
 
 - **Escolha senhas fortes e exclusivas** para cada uma de suas contas e **evite usar a mesma senha** em várias contas
@@ -46,18 +51,18 @@ Escolha senhas fortes e exclusivas para cada uma de suas contas e evite usar a m
 
 ***Alguns exemplos de senhas seguras***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: uma senha de 12 caracteres com letras maiúsculas e minúsculas, números e símbolos
+- Ilovesecurity7!: uma senha de 16 caracteres que combina palavras, números e um símbolo
+- xK2%qpzL5!rS: uma senha de 12 caracteres com letras maiúsculas e minúsculas aleatórias, números e símbolos
 ```
 
 ***Exemplos de frases secretas***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: uma frase-senha de 24 caracteres com três palavras aleatórias e números
+- orange$5my#yellow: uma frase-senha de 16 caracteres com duas palavras aleatórias, números e símbolos
+- pizza3onions?lovers: uma frase-senha de 19 caracteres com duas palavras aleatórias, números e um símbolo
+- tangerine8shark?43: uma frase-senha de 18 caracteres com duas palavras aleatórias, números e um símbolo
+- elephant6pasta*tree: uma frase-senha de 19 caracteres com duas palavras aleatórias, números e um símbolo
 ```
 
 - **Ative a autenticação de dois fatores** para uma camada extra de segurança
@@ -79,7 +84,7 @@ Por fim, depois de alterar a senha e iniciar outras sessões, você deve reserva
 
 ______
 
-## Etapa 3: atualize seu software
+## Etapa 3: atualize seus programas
 
 **Manter seu sistema operacional**, antivírus e outros softwares **atualizados** é essencial para manter a segurança do seu dispositivo. As atualizações de software geralmente incluem patches de segurança que **resolvem vulnerabilidades conhecidas**, por isso é importante atualizar seu software o mais rápido possível quando as atualizações estiverem disponíveis.
 
@@ -93,9 +98,10 @@ ______
 - **Cliente de e-mail** (Microsoft Outlook, Apple Mail, Gmail, etc.)
 - **Aplicativos** (Microsoft Office, Adobe Creative Suite, etc.)
 
+Veja também: [software antivírus e antimalware recomendado](https://simeononsecurity.com/recommendations/anti-virus).
 ______
 
-## Etapa 4: verifique se há malware no seu dispositivo
+## Etapa 4: procure programas maliciosos no dispositivo
 
 - **Execute uma verificação de malware** no seu dispositivo para verificar se há algum software malicioso que possa ter sido instalado
 - **Malware** pode incluir **vírus**, **worms**, **Trojans** e outros tipos de software malicioso que **podem comprometer a segurança** do seu dispositivo e dados
@@ -115,9 +121,10 @@ Para verificar se há malware em seu dispositivo, use um software antivírus con
 
 Também é uma boa ideia verificar todos os dispositivos externos, como unidades USB, que você usou com o dispositivo comprometido. Dispositivos externos geralmente carregam malware que pode infectar seu dispositivo, por isso é importante verificá-los antes de usá-los com seu dispositivo.
 
+Saiba mais sobre a: [regra de backup 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 ______
 
-## Etapa 5: faça backup de arquivos importantes e limpe seu dispositivo
+## Etapa 5: copie arquivos importantes e limpe seu dispositivo
 
 - **Faça backup de todos os arquivos importantes** antes de limpar seu dispositivo se suspeitar que seu dispositivo está comprometido
 - **Verifique** se seus **arquivos importantes estão seguros** verificando-os com um software antivírus antes de fazer backup deles

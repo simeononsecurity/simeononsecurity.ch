@@ -1,7 +1,7 @@
 ---
 title: "Enfortir la resiliència de la ciberseguretat amb la gestió dels canvis"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Descobreix la importància de la gestió dels canvis en la ciberseguretat i com reforçar la resiliència davant l'evolució de les amenaces actuals."

@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket Cloud SSH 密钥：面向 AI 代理的只读 Git 访问"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "为 AI 代理的只读工作流配置 Bitbucket Cloud SSH 密钥、Git CLI 访问、REST API 令牌、1Password 和 MCP 工具。"
@@ -138,7 +138,7 @@ Atlassian 的[单设备多仓库访问密钥指南](https://support.atlassian.co
 基于文件的可移植示例：
 
 ```ini
-# .gitconfig inside one local repository
+# 单个本地代码库内的 .gitconfig
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

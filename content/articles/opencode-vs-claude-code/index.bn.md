@@ -1,7 +1,7 @@
 ---
 title: "OpenCode বনাম Claude Code: 2026 সালের কোডিং এজেন্ট তুলনা"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "মডেল নির্বাচন, স্থানীয় ইনফারেন্স, মূল্য, অনুমতি, প্রকল্পের নির্দেশনা এবং দৈনিক কোডিং ওয়ার্কফ্লোতে OpenCode ও Claude Code তুলনা করুন।"
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+রিপোজিটরিতে নথিভুক্ত বিল্ড ও টেস্ট কমান্ড ব্যবহার করুন।
+অপ্রাসঙ্গিক পরিবর্তনগুলো অক্ষত রাখুন।
+নির্ভরতা পরিবর্তনের আগে ব্যর্থতার কারণ ব্যাখ্যা করুন।
+কমিট করার আগে চূড়ান্ত diff পর্যালোচনা করুন।
 ```
 
 **ভাগ করা নির্দেশনা তুলনার শব্দ কমায়।** বিল্ড কমান্ড, আর্কিটেকচার সীমা ও গ্রহণযোগ্যতার মানদণ্ড একটি মূল ফাইলে রাখুন। [OpenCode-এর নিয়মের নথি](https://opencode.ai/docs/rules/) `AGENTS.md` এবং `CLAUDE.md` বিকল্প বর্ণনা করে। প্রতিটি নির্দেশনা ফাইল স্বয়ংক্রিয়ভাবে একত্রিত হয় ধরে নেবেন না।

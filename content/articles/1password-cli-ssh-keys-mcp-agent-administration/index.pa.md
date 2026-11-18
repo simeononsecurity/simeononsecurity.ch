@@ -1,12 +1,12 @@
 ---
 title: "1Password SSH ਏਜੰਟ ਅਤੇ CLI: ਪੜ੍ਹਨ-ਸਿਰਫ਼ AI ਏਜੰਟ ਐਕਸੈਸ"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "1Password CLI, SSH ਏਜੰਟ ਅਤੇ MCP ਨਾਲ ਇੱਕ ਪੜ੍ਹਨ-ਸਿਰਫ਼ SSH ਵਰਕਫਲੋ ਡਿਜ਼ਾਈਨ ਕਰੋ। ਲਾਈਵ ਟੈਸਟਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਸੰਸਲੇਸ਼ਿਤ ਕਮਾਂਡਾਂ, ਸੰਕੁੱਚ ਅਧਿਕਾਰਾਂ ਅਤੇ ਮਨੁੱਖੀ ਮਨਜ਼ੂਰੀ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
 genre: ["ਸਿਸਟਮ ਪ੍ਰਬੰਧਨ", "ਕਲਾਊਡ ਸੁਰੱਖਿਆ", "ਆਟੋਮੇਸ਼ਨ"]
-tags: ["1Password CLI", "SSH ਕੁੰਜੀਆਂ", "1Password SSH ਏਜੰਟ", "MCP", "ਮਾਡਲ ਕੰਟੈਕਸਟ ਪ੍ਰੋਟੋਕੋਲ", "ਏਜੰਟ ਪ੍ਰਬੰਧਨ", "ਸਿਸਟਮ ਪ੍ਰਬੰਧਨ", "Bitbucket Cloud", "Git over SSH", "ਸਿੱਕਟ ਰੈਫਰੈਂਸ", "ਸਰਵਿਸ ਖਾਤੇ", "ਘੱਟੋ-ਘੱਟ ਅਧਿਕਾਰ", "ਪਬਲਿਕ ਕੁੰਜੀ ਪ੍ਰਮਾਣੀਕਰਨ", "ਸਿੱਕਟ ਪ੍ਰਬੰਧਨ", "ਕਮਾਂਡ ਲਾਈਨ ਸੁਰੱਖਿਆ", "ਆਟੋਮੇਸ਼ਨ ਸੁਰੱਖਿਆ"]
+tags: ["1Password CLI", "SSH ਕੁੰਜੀਆਂ", "1Password SSH ਏਜੰਟ", "MCP", "ਮਾਡਲ ਕੰਟੈਕਸਟ ਪ੍ਰੋਟੋਕੋਲ", "ਏਜੰਟ ਪ੍ਰਬੰਧਨ", "ਸਿਸਟਮ ਪ੍ਰਬੰਧਨ", "Bitbucket Cloud", "SSH ਰਾਹੀਂ Git", "ਸਿੱਕਟ ਰੈਫਰੈਂਸ", "ਸਰਵਿਸ ਖਾਤੇ", "ਘੱਟੋ-ਘੱਟ ਅਧਿਕਾਰ", "ਪਬਲਿਕ ਕੁੰਜੀ ਪ੍ਰਮਾਣੀਕਰਨ", "ਸਿੱਕਟ ਪ੍ਰਬੰਧਨ", "ਕਮਾਂਡ ਲਾਈਨ ਸੁਰੱਖਿਆ", "ਆਟੋਮੇਸ਼ਨ ਸੁਰੱਖਿਆ"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "ਇੱਕ ਏਜੰਟ ਦਾ ਐਬਸਟਰੈਕਟ ਡਾਇਗ੍ਰਾਮ ਜੋ ਕਿਸੇ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਦਿਖਾਏ ਬਿਨਾਂ ਸਿੱਕਟ ਰੈਫਰੈਂਸ, SSH ਏਜੰਟ ਅਤੇ MCP ਟੂਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ।"
 coverCaption: ""
@@ -82,7 +82,7 @@ Bitbucket Cloud ਨਿਯਮਤ Git ਅਤੇ OpenSSH ਕਮਾਂਡ-ਲਾਈ�
 
 **Bitbucket ਨੂੰ ਪਬਲਿਕ-ਕੀ ਖਪਤਕਾਰ ਵਜੋਂ ਮੰਨੋ।** ਮਨਜ਼ੂਰ Bitbucket ਖਾਤਾ ਜਾਂ ਰਿਪੋਜ਼ਿਟਰੀ ਸੈਟਿੰਗ ਰਾਹੀਂ ਪਬਲਿਕ ਕੀ ਜਾਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਨੂੰ ਰਜਿਸਟਰ ਕਰੋ। ਪ੍ਰਾਈਵੇਟ ਕੀ ਨੂੰ 1Password ਵਿੱਚ ਰੱਖੋ। Git ਕਲਾਇੰਟ SSH ਏਜੰਟ ਨੂੰ ਸਾਈਨ ਕਰਨ ਲਈ ਬੇਨਤੀ ਕਰਦਾ ਹੈ। ਕਲਾਇੰਟ ਕੋਈ ਪ੍ਰਾਈਵੇਟ-ਕੀ ਫਾਈਲ ਨਹੀਂ ਪੜ੍ਹਦਾ।
 
-Bitbucket ਐਕਸੈਸ-ਕੀ ਸੀਮਾ, ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਪਾਥ, ਅਤੇ ਰੀਡ-ਓਨਲੀ Git ਟੈਸਟ ਲਈ, [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/) ਵੇਖੋ।
+Bitbucket ਐਕਸੈਸ-ਕੀ ਸੀਮਾ, ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਪਾਥ, ਅਤੇ ਰੀਡ-ਓਨਲੀ Git ਟੈਸਟ ਲਈ, [Bitbucket Cloud SSH ਕੁੰਜੀਆਂ ਅਤੇ Git CLI: AI ਏਜੰਟਾਂ ਲਈ ਸਿਰਫ਼-ਪੜ੍ਹਨ ਪਹੁੰਚ](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/) ਵੇਖੋ।
 
 Bitbucket ਦਸਤਾਵੇਜ਼ਾਂ ਇਸਨੂੰ Git CLI ਵਰਕਫਲੋ ਕਹਿੰਦੀਆਂ ਹਨ। ਇਹ ਲੇਖ ਕਿਸੇ ਵੱਖਰੇ Bitbucket MCP ਸਰਵਰ ਜਾਂ Bitbucket CLI ਨਾਮੀ ਉਤਪਾਦ ਦੀ ਧਾਰਨਾ ਨਹੀਂ ਕਰਦਾ। Bitbucket-ਵਿਸ਼ੇਸ਼ CLI ਨੂੰ ਆਪਣੀ ਮੌਜੂਦਾ ਦਸਤਾਵੇਜ਼ਾਂ ਅਤੇ ਆਪਣੀ ਆਪਣੀ ਅਧਿਕਾਰ ਸਮੀਖਿਆ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।
 
@@ -144,7 +144,7 @@ agent_policy:
 
 ਇੱਕ **ਸਰਵਿਸ ਖਾਤਾ** ਇੱਕ ਆਟੋਮੇਟਿਡ ਪ੍ਰੋਸੈਸ ਨੂੰ ਉਸਦੀ ਆਪਣੀ ਪਛਾਣ ਦਿੰਦਾ ਹੈ। [1Password CLI ਸਕ੍ਰਿਪਟ ਗਾਈਡ](https://www.1password.dev/cli/secrets-scripts) ਚੁਣੇ ਹੋਏ ਵਾਲਟਾਂ ਲਈ ਘੱਟ-ਅਧਿਕਾਰ ਪਹੁੰਚ ਲਈ ਸਰਵਿਸ ਖਾਤਿਆਂ ਦੀ ਸਿਫਾਰਸ਼ ਕਰਦੀ ਹੈ। ਇਹ ਇੱਕ ਅਗਾਜ਼ ਜੌਬ ਨੂੰ ਇੱਕ ਵਿਅਕਤੀ ਦੇ SSO, MFA, ਵਾਲਟ ਇੰਵੈਂਟਰੀ, ਅਤੇ ਰੋਜ਼ਾਨਾ ਖਾਤੇ ਤੋਂ ਵੱਖ ਕਰਦਾ ਹੈ।
 
-A **secret reference** (ਗੁਪਤ ਹਵਾਲਾ) ਕਿਸੇ ਮੁੱਲ ਦਾ ਨਾਮ ਦਿੰਦਾ ਹੈ, ਬਿਨਾਂ ਕਿਸੇ ਸਰੋਤ ਵਿੱਚ ਮੁੱਲ ਨੂੰ ਰੱਖੇ। [1Password CLI reference](https://www.1password.dev/cli/reference) `op://vault/item/field` ਰੂਪ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਹਵਾਲਾ ਸਿਰਫ਼ ਉਦੋਂ ਸੁਰੱਖਿਅਤ ਹੈ ਜਦੋਂ ਘੇਰੇ ਵਾਲਾ ਪ੍ਰਕਿਰਿਆ (process) ਅਜੇ ਵੀ ਸੰਕੁਚਤ ਪਹੁੰਚ ਰੱਖਦਾ ਹੈ। ਇੱਕ ਹਵਾਲਾ ਨੀਤੀ ਨੂੰ ਚੁਰਾ ਨਹੀਂ ਸਕਦਾ।
+A **secret reference** (ਗੁਪਤ ਹਵਾਲਾ) ਕਿਸੇ ਮੁੱਲ ਦਾ ਨਾਮ ਦਿੰਦਾ ਹੈ, ਬਿਨਾਂ ਕਿਸੇ ਸਰੋਤ ਵਿੱਚ ਮੁੱਲ ਨੂੰ ਰੱਖੇ। [1Password CLI ਹਵਾਲਾ](https://www.1password.dev/cli/reference) `op://vault/item/field` ਰੂਪ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਹਵਾਲਾ ਸਿਰਫ਼ ਉਦੋਂ ਸੁਰੱਖਿਅਤ ਹੈ ਜਦੋਂ ਘੇਰੇ ਵਾਲਾ ਪ੍ਰਕਿਰਿਆ (process) ਅਜੇ ਵੀ ਸੰਕੁਚਤ ਪਹੁੰਚ ਰੱਖਦਾ ਹੈ। ਇੱਕ ਹਵਾਲਾ ਨੀਤੀ ਨੂੰ ਚੁਰਾ ਨਹੀਂ ਸਕਦਾ।
 
 ਜਦੋਂ ਇੱਕ ਕਮਾਂਡ ਨੂੰ ਇੱਕ ਮੁੱਲ ਦੀ ਲੋੜ ਹੋਵੇ, ਤਾਂ `op read` ਦੀ ਵਰਤੋਂ ਕਰੋ। ਜਦੋਂ ਇੱਕ ਬੱਚੇ ਪ੍ਰਕਿਰਿਆ (child process) ਨੂੰ ਕੰਟਰੋਲ ਕੀਤੇ ਗਏ ਰਨਟਾਈਮ ਮੁੱਲਾਂ ਦੇ ਸੈੱਟ ਦੀ ਲੋੜ ਹੋਵੇ, ਤਾਂ `op run` ਦੀ ਵਰਤੋਂ ਕਰੋ। ਜਦੋਂ ਇੱਕ ਨਵਾਂ SSH Key ਆਈਟਮ ਨੂੰ ਮਨਜ਼ੂਰ ਕੀਤੇ ਗਏ ਵਾਲਟ ਵਿੱਚ ਮੌਜੂਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਤਾਂ `op item create` ਦੀ ਵਰਤੋਂ ਕਰੋ।
 
@@ -163,17 +163,17 @@ A **secret reference** (ਗੁਪਤ ਹਵਾਲਾ) ਕਿਸੇ ਮੁੱਲ 
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: ਸਿਰਫ਼-ਪੜ੍ਹਨ ਕਨੈਕਟੀਵਿਟੀ ਜਾਂਚ
+host_key_source: ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਪ੍ਰਸ਼ਾਸਕ ਦਾ ਰਿਕਾਰਡ
+approval_owner: ਨਾਮਜ਼ਦ ਓਪਰੇਟਰ
+rollback: ਜਨਤਕ ਕੁੰਜੀ ਹਟਾਓ ਅਤੇ ਟੈਸਟ ਪਛਾਣ ਰੱਦ ਕਰੋ
 ```
 
 **ਅਨੁਮਾਨਿਤ ਨਤੀਜਾ, ਅਜ਼ਮਾਇਸ਼-ਹੀਣ:** ਰਿਕਾਰਡ ਇੱਕ ਟਾਰਗੇਟ ਅਤੇ ਇੱਕ ਕਾਰਵਾਈ ਦੀ ਪਛਾਣ ਕਰਦਾ ਹੈ। ਰਿਕਾਰਡ ਵਿੱਚ ਕੋਈ ਹੋਸਟਨੇਮ, IP ਪਤਾ, ਟੋਕਨ, ਪ੍ਰਾਈਵੇਟ ਕੀ, ਜਾਂ ਨਿੱਜੀ ਡਾਟਾ ਨਹੀਂ ਹੁੰਦਾ।
 
 ### 2. SSH Key ਆਈਟਮ ਬਣਾਓ ਜਾਂ ਚੁਣੋ
 
-ਆਧਿਕਾਰਿਕ [1Password SSH key guide](https://www.1password.dev/ssh/manage-keys) CLI ਸਿਰਜਣਾ ਪੈਟਰਨ ਦਾ ਦਸਤਾਵੇਜ਼ੀਕਰਨ ਕਰਦਾ ਹੈ। ਹੇਠਾਂ ਦਿੱਤੀ ਕਮਾਂਡ ਇੱਕ ਸਿੰਥੈਟਿਕ ਸਿਰਲੇਖ ਅਤੇ ਨਾਮ-ਸੰਕੇਤਿਤ ਟੈਸਟ ਵਾਲਟ ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ।
+ਆਧਿਕਾਰਿਕ [1Password SSH ਕੁੰਜੀ ਗਾਈਡ](https://www.1password.dev/ssh/manage-keys) CLI ਸਿਰਜਣਾ ਪੈਟਰਨ ਦਾ ਦਸਤਾਵੇਜ਼ੀਕਰਨ ਕਰਦਾ ਹੈ। ਹੇਠਾਂ ਦਿੱਤੀ ਕਮਾਂਡ ਇੱਕ ਸਿੰਥੈਟਿਕ ਸਿਰਲੇਖ ਅਤੇ ਨਾਮ-ਸੰਕੇਤਿਤ ਟੈਸਟ ਵਾਲਟ ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ।
 
 ```bash
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
@@ -239,7 +239,7 @@ MCP ਸੰਰਚਨਾ ਨੂੰ ਕਲਾਇੰਟ ਦੁਆਰਾ ਸਮਰਥ
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# ਸਿਰਫ਼ macOS ਜਾਂ Linux ਉੱਤੇ
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```
@@ -337,7 +337,7 @@ ssh-ed25519 AAAA<synthetic-public-key> synthetic-key-label
 
 ### ਕੀ ਦੀ ਸੂਚੀ ਵਿੱਚ ਬਹੁਤ ਸਾਰੀਆਂ ਪਛਾਣਾਂ ਹਨ
 
-1Password SSH Agent ਆਪਣੇ ਕਨਫਿਗਰ ਕੀਤੇ ਗਏ ਵਾਲਟਾਂ ਤੋਂ ਯੋਗ ਕੀ ਨੂੰ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਦਾ ਹੈ। ਸਕੋਪ ਕੀਤੇ ਗਏ ਏਜੰਟ ਕਨਫਿਗਰੇਸ਼ਨ ਜਾਂ ਹੋਸਟ-ਵਿਸ਼ੇਸ਼ SSH ਕਨਫਿਗਰੇਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰੋ। [ਏਜੰਟ ਦਸਤਾਵੇਜ਼ਾਂ](https://www.1password.dev/ssh/agent)] ਵਿੱਚ ਵੀ OpenSSH ਸਰਵਰ ਦੀ ਛੇ-ਕੀ ਸੀਮਾ ਦਾ ਜ਼ਿਕਰ ਹੈ।
+1Password SSH Agent ਆਪਣੇ ਕਨਫਿਗਰ ਕੀਤੇ ਗਏ ਵਾਲਟਾਂ ਤੋਂ ਯੋਗ ਕੀ ਨੂੰ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਦਾ ਹੈ। ਸਕੋਪ ਕੀਤੇ ਗਏ ਏਜੰਟ ਕਨਫਿਗਰੇਸ਼ਨ ਜਾਂ ਹੋਸਟ-ਵਿਸ਼ੇਸ਼ SSH ਕਨਫਿਗਰੇਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰੋ। [ਏਜੰਟ ਦਸਤਾਵੇਜ਼ਾਂ](https://www.1password.dev/ssh/agent) ਵਿੱਚ ਵੀ OpenSSH ਸਰਵਰ ਦੀ ਛੇ-ਕੀ ਸੀਮਾ ਦਾ ਜ਼ਿਕਰ ਹੈ।
 
 ### ਇੱਕ ਕਮਾਂਡ ਹੱਥ ਨਾਲ ਕੰਮ ਕਰਦਾ ਹੈ ਪਰ ਜੌਬ ਵਿੱਚ ਫੇਲ੍ਹ ਹੁੰਦਾ ਹੈ
 
@@ -353,6 +353,6 @@ ssh-ed25519 AAAA<synthetic-public-key> synthetic-key-label
 
 ਇੱਕ ਸੰਸਲੇਸ਼ਿਤ ਰਿਪੋਜ਼ਟਰੀ ਅਤੇ ਇੱਕ ਰੀਡ-ਓਨਲੀ MCP ਟੂਲ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ। ਹਰ ਉਮੀਦ ਕੀਤੇ ਨਤੀਜੇ ਨੂੰ ਅਜ਼ਮਾਇਆ ਨਹੀਂ ਮੰਨੋ ਜਦੋਂ ਤੱਕ ਕਿ ਕੰਟਰੋਲਡ ਵਾਤਾਵਰਣ ਪ੍ਰਮਾਣ ਪੈਦਾ ਨਹੀਂ ਕਰਦਾ। ਫਿਰ, ਗੈਰ-ਪ੍ਰੋਡਕਸ਼ਨ ਟਾਰਗੇਟ, ਨਾਮ-ਸੂਚਿਤ ਓਪਰੇਟਰ, ਪ੍ਰਮਾਣਿਤ ਹੋਸਟ ਕੀ, ਅਤੇ ਲਿਖਤੀ ਰੋਲਬੈਕ ਰਿਕਾਰਡ ਨਾਲ ਵਰਕਫਲੋ ਦੁਹਰਾਓ।
 
-ਮੌਜੂਦਾ ਕਮਾਂਡ ਫਲੈਗਾਂ ਲਈ [1Password CLI ਰੈਫਰੈਂਸ](https://www.1password.dev/cli/reference) ਪੜ੍ਹੋ। ਸਰਵਿਸ-ਐਕਾਊਂਟ ਓਟੋਮੇਸ਼ਨ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ [Load secrets into scripts](https://www.1password.dev/cli/secrets-scripts) ਪੜ੍ਹੋ। ਨਵੇਂ ਸਰਵਰ ਤੋਂ ਟੂਲਾਂ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣ ਤੋਂ ਪਹਿਲਾਂ [MCP specification](https://modelcontextprotocol.io/specification/2026-07-28) ਪੜ੍ਹੋ।
+ਮੌਜੂਦਾ ਕਮਾਂਡ ਫਲੈਗਾਂ ਲਈ [1Password CLI ਰੈਫਰੈਂਸ](https://www.1password.dev/cli/reference) ਪੜ੍ਹੋ। ਸਰਵਿਸ-ਐਕਾਊਂਟ ਓਟੋਮੇਸ਼ਨ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ [ਸਕ੍ਰਿਪਟਾਂ ਵਿੱਚ ਸੀਕ੍ਰੇਟ ਲੋਡ ਕਰੋ](https://www.1password.dev/cli/secrets-scripts) ਪੜ੍ਹੋ। ਨਵੇਂ ਸਰਵਰ ਤੋਂ ਟੂਲਾਂ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣ ਤੋਂ ਪਹਿਲਾਂ [MCP ਵਿਸ਼ੇਸ਼ਤਾ](https://modelcontextprotocol.io/specification/2026-07-28) ਪੜ੍ਹੋ।
 
 **ਇੰਟਰਐਕਟਿਵ SSH ਨੂੰ ਮਨੁੱਖੀ-ਮਨਜ਼ੂਰੀ ਵਾਲਾ ਰੱਖੋ। ਅਣ-ਨਿਗਰਾਨੀ ਐਕਸੈਸ ਨੂੰ ਵੱਖਰਾ ਰੱਖੋ। ਜਦੋਂ ਟਾਰਗੇਟ ਏਜੰਟ-ਆਧਾਰਿਤ ਪ੍ਰਮਾਣੀਕਰਨ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ, ਤਾਂ ਨਿੱਜੀ ਕੀ ਨੂੰ ਕਦੇ ਵੀ ਪੜ੍ਹਨਾ ਨਹੀਂ ਚਾਹੀਦਾ।**

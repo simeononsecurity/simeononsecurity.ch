@@ -41,7 +41,7 @@ __________
 
 ### Ändern Sie den Standardnetzwerknamen (SSID) und das Standardpasswort
 
-Der erste und wichtigste Schritt zum Schutz Ihres WLANs ist, **den Standardnetzwerknamen (SSID) und das Standardpasswort zu ändern**. Die vom Routerhersteller vorgegebene SSID und das Passwort lassen sich leicht erraten und von Hackern ausnutzen. Ändern Sie die Standard-SSID und das Standardpasswort in eine einzigartige, starke Kombination 
+Der erste und wichtigste Schritt zum Schutz Ihres WLANs ist, **den Standardnetzwerknamen (SSID) und das Standardpasswort zu ändern**. Die vom Routerhersteller vorgegebene SSID und das Passwort lassen sich leicht erraten und von Hackern ausnutzen. Ändern Sie die Standard-SSID und das Standardpasswort in eine einzigartige, starke Kombination
 
 ### Verwenden Sie starke Passwörter
 

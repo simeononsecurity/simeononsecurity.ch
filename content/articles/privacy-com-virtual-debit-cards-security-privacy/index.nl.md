@@ -1,7 +1,7 @@
 ---
 title: "Privacy.com Virtuele Kaarten: Hoe Betalingsprivacy Werkt"
 date: 2023-09-03
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Wat er op een betaalkaart wordt opgeslagen, waarom de magneetstrip het zwakste onderdeel is, wat een handelaar ziet wanneer je betaalt met een virtueel nummer, en hoe de kaarttypes en limieten van Privacy.com in de praktijk werken.
@@ -80,7 +80,7 @@ De meeste artikelen behandelen virtuele kaarten als een algemeen privacyhulpmidd
 
 **De CVV bewijst dat iemand de kaart fysiek vasthield** toen deze werd uitgegeven. Het wordt niet op de magneetstrip opgeslagen, wat precies de reden is waarom een skimmer die de strip kopieert deze nooit verkrijgt.
 
-*Bekijk dit alles zelf met de **[Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/)**, die Track 1 en Track 2 ontleedt, de servicecodecijfers decodeert en het resultaat opnieuw codeert. Het draait volledig in je browser, wat belangrijk is omdat dit de volledige inhoud van een betaalkaart is.*
+*Bekijk dit alles zelf met de **[Magneetstripdecoder en -encoder](/magnetic-stripe-decoder/)**, die Track 1 en Track 2 ontleedt, de servicecodecijfers decodeert en het resultaat opnieuw codeert. Het draait volledig in je browser, wat belangrijk is omdat dit de volledige inhoud van een betaalkaart is.*
 
 {{< figure src="payment-card-data-anatomy-pan-cvv-tracks.webp" alt="Diagram dat de elementen van een betaalkaart toont, inclusief het primaire rekeningnummer, vervaldatum, CVV en de drie magneetstriptracks met wat elk bevat" >}}
 
@@ -220,7 +220,7 @@ De decoderoptie **Inclusief berekende LRC** voegt het afdrukbare LRC-teken toe a
 
 **Gebruik de decoder om teststrings te schrijven, niet voor echte betaalkaarten.** De tool accepteert velden, bouwt Spoor 1 en Spoor 2 opnieuw op, voegt optionele sentinels toe en berekent de LRC. Het draait lokaal in de browser.
 
-1. Open de **[Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/)**.
+1. Open de **[Magneetstripdecoder en -encoder](/magnetic-stripe-decoder/)**.
 2. Selecteer **Load Test Card**. Dit vult de tool met de synthetische PAN `4111111111111111`, de naam `TEST/USER`, vervaldatum `2912`, servicecode `201` en test discretionaire gegevens.
 3. Schakel **Include start and end sentinels** in om de fysieke recordgrenzen weer te geven.
 4. Schakel **Include calculated LRC** in om het berekende controleteken toe te voegen.
@@ -232,11 +232,11 @@ Voor een synthetische Track 1-oefening, gebruik:
 
 ```text
 PAN: 4111111111111111
-Surname: TEST
-First name: USER
-Expiry: 12/29
-Service code: 201
-Discretionary data: 000000000
+Achternaam: TEST
+Voornaam: USER
+Vervaldatum: 12/29
+Servicecode: 201
+Discretionaire gegevens: 000000000
 ```
 
 Voor een synthetische Track 2-oefening, gebruik dezelfde PAN, vervaldatum, servicecode en een numeriek discretionair veld. De gegenereerde Track 2-string laat de naam weg omdat Track 2 geen naamveld heeft.
@@ -264,6 +264,21 @@ Wanneer je betaalt met een virtuele kaart, ontvangt de handelaar een nummer, ver
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="Diagram dat toont hoe een virtueel kaartnummer naar de handelaar gaat terwijl het echte kaartnummer tussen de kaarthouder en de uitgevende bank blijft" >}}
 
+## Wat de winkelier nog ziet
+
+**Een virtuele kaart schermt de betaalrekening en het oorspronkelijke PAN af.** De wijziging wist de gegevens van het afrekenen niet.
+
+Volgens de ondersteuningsdocumentatie van Privacy deelt de kaart de volgende gegevens met een winkelier: het kaartnummer van 16 cijfers, de vervaldatum, de CVV en het factuuradres dat je bij het afrekenen invoert. De winkelier ziet ook de naam die je opgeeft. Lees de [officiële uitleg over zichtbare winkeliergegevens](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant) voordat je een virtuele kaart als bescherming van je identiteit beschouwt.
+
+| Laag | Gegevens die zichtbaar blijven of worden bewaard |
+|---|---|
+| **Winkelier** | Virtueel kaartnummer, vervaldatum, CVV, factuuradres en naam die bij het afrekenen zijn opgegeven, bestelgegevens en gegevens van het winkelaccount |
+| **Privacy.com** | Identiteitsgegevens, financieringsbron, kaartgegevens, transactiegegevens en apparaatgegevens volgens het [privacybeleid](https://www.privacy.com/privacy-policy) |
+| **Financieringsbank** | Transactiedatum, bedrag en een omschrijving met Privacy.com of `PWP*`; de bank bepaalt de exacte weergave |
+| **Betaalnetwerk en uitgever** | Autorisatie-, vereffenings-, fraude- en geschilgegevens die nodig zijn om de betaling te verwerken |
+
+De praktische grens is eenvoudig. Een virtuele kaart beperkt hergebruik van kaartgegevens. Je naam, verzendadres, winkelaccount, browsersessie en andere gegevens die je buiten de kaartvelden invult, blijven zichtbaar voor de winkelier. Afzonderlijke winkelaccounts en e-mailaliassen helpen koppeling van je identiteit tussen sites te beperken. Een virtuele kaart biedt die scheiding op zichzelf niet.
+
 ## De Drie Soorten Kaartvormige Dingen
 
 De terminologie wordt inconsistent gebruikt en het verschil is belangrijk als je kiest wat je aan een handelaar geeft.
@@ -284,9 +299,9 @@ De terminologie wordt inconsistent gebruikt en het verschil is belangrijk als je
 
 | Kaarttype | Gedrag | Beste Voor |
 |---|---|---|
-| **Single-Use** | Sluit automatisch na één transactie | Eenmalige aankopen en onbekende handelaren |
+| **Eenmalig gebruik** | Sluit automatisch na één transactie | Eenmalige aankopen en onbekende handelaren |
 | **Merchant-Locked** | Vergrendelt op de eerste handelaar die het gebruikt en faalt elders | Dagelijks online winkelen |
-| **Category-Locked** | Beperkt tot een uitgavencategorie | Het beheersen van een hele klasse uitgaven |
+| **Categoriegebonden** | Beperkt tot een uitgavencategorie | Het beheersen van een hele klasse uitgaven |
 | **Everywhere** | Een fysieke kaart met hetzelfde beschermingsmodel | Aankopen in persoon |
 
 **Merchant locking is het mechanisme dat het meeste waarde biedt.** Een vergrendelde kaart faalt bij elke handelaar behalve degene waarmee het eerst werd gebruikt, wat betekent dat een datalek bij die handelaar een nummer oplevert dat elders nutteloos is.
@@ -313,6 +328,22 @@ Twee operationele details die het waard zijn om te weten:
 
 *Onze **[Persoonlijke Financiële Veiligheid](/personal-security-course/personal-finance/)** module plaatst dit naast kredietbevriezingen en kaarttokenisatie als de drie controles die beperken wat een enkele gecompromitteerde handelaar kan bereiken.*
 
+## Terugkerende kosten en autorisaties
+
+**Kaartbediening werkt op het moment van autorisatie.** Privacy beschrijft een transactie in behandeling als toestemming voor de winkelier om een afgesproken bedrag af te schrijven. Een autorisatie van $0 controleert of een kaart actief is. Ze is geen voltooide aankoop. Bij transacties via een bank volgt eerst een vereffeningsfase voordat de afschrijving is afgerond. Zie de [officiële uitleg over transactiestatussen](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized).
+
+| Gebeurtenis | Wat er gebeurt | Grens van de instelling |
+|---|---|---|
+| **Kaart toevoegen aan een dienst** | De winkelier stuurt een autorisatie van $0 om de kaart te controleren | Een geldige kaartcontrole bewijst niet dat een bestelling is betaald |
+| **Aankoop geautoriseerd** | Privacy registreert een bedrag in behandeling en geeft de winkelier toestemming om het afgesproken bedrag te innen | Beschikbare middelen en latere autorisaties houden rekening met de transactie in behandeling |
+| **Aankoop vereffend** | De financieringsbron wordt afgeschreven nadat de winkelier de transactie heeft verwerkt | Wijzigingen in de bestelling of een extra fooi kunnen het eindbedrag anders maken dan de eerste autorisatie |
+| **Kaart gepauzeerd of gesloten na autorisatie** | Toekomstige autorisaties worden tegengehouden | Een eerdere autorisatie blijft onder de regels van het betaalnetwerk vallen |
+| **Bestedingslimiet gewijzigd na autorisatie** | De nieuwe limiet geldt voor toekomstige pogingen | De eerdere autorisatie behoudt haar bestaande status |
+
+**Een kaartlimiet is geen vooruitbetaald saldo.** Volgens de specifieke kaartgids van Privacy blokkeert de limiet autorisatiepogingen boven het gekozen bedrag. De financieringsbron wordt afgeschreven wanneer transacties worden afgerond. De voortschrijdende perioden omvatten 24 uur voor daglimieten, 30 dagen voor maandlimieten en 364 dagen voor jaarlimieten, met voor sommige abonnementsperioden een buffer van zes dagen. De [officiële gids over bestedingslimieten](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) beschrijft deze regels.
+
+Stel voor abonnementen vóór de eerste afschrijving een terugkerende limiet in, controleer transacties in behandeling en tijdens vereffening, en zeg het abonnement ook bij de winkelier op. Een kaart sluiten blokkeert toekomstige autorisaties. Het annuleert geen reeds geautoriseerde aankoop en levert geen terugbetaling op. De [gids voor pauzeren en sluiten](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards) van Privacy beschrijft dezelfde grens.
+
 ## Plannen en Wat Elk Ontgrendelt
 
 Privacy.com biedt een gratis abonnement naast drie betaalde plannen. Prijzen en functielimieten kunnen veranderen, dus controleer de actuele voorwaarden voordat je je abonneert.
@@ -327,6 +358,8 @@ Privacy.com biedt een gratis abonnement naast drie betaalde plannen. Prijzen en 
 **De gratis laag dekt het kernvoordeel op het gebied van beveiliging.** Koppeling aan handelaar, eenmalige kaarten en bestedingslimieten zijn de mechanismen die blootstelling verminderen, en deze zijn beschikbaar zonder te betalen. De betaalde lagen voegen organisatie en gemak toe, niet extra bescherming.
 
 **Buitenlandse transactiekosten verschillen per laag.** De gratis laag rekent 3% op buitenlandse transacties met een minimum van $0,50, terwijl de betaalde lagen dit niet doen.
+
+Lees de [actuele voorwaarden van Privacy.com](https://www.privacy.com/terms) voordat je je abonneert.
 
 ## Wat Privacy.com Niet Doet
 
@@ -367,7 +400,28 @@ Twee certificeringen zijn het noemen waard omdat ze onafhankelijk verifieerbaar 
 
 *De praktische reden om de uitgevende bank te controleren is verificatie. Iedereen beweert een kaartprogramma te runnen, en de naam van de uitgever op de kaart is wat je verifieert met de bank die in de documenten staat.*
 
-Controleer het schema en de bank via het PAN-prefix met de **[Magnetic Stripe Decoder](/magnetic-stripe-decoder/)**, die het hoofdschema-gebied rapporteert en de Luhn-controlecijfer valideert.
+Controleer het schema en de bank via het PAN-prefix met de **[Magneetstripdecoder](/magnetic-stripe-decoder/)**, die het hoofdschema-gebied rapporteert en de Luhn-controlecijfer valideert.
+
+## Accountherstel en afhankelijkheid van de aanbieder
+
+**Toegang tot je account is een afzonderlijke beveiliging naast kaartscheiding.** Bij niet-herkende activiteit adviseert Privacy contact op te nemen met de winkelier, 2FA en gedeelde kaarten te controleren, inlogcodes voor nieuwe apparaten na te kijken, het wachtwoord opnieuw in te stellen en ondersteuning te contacteren. De [beveiligingsgids voor accounts](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account) noemt deze stappen.
+
+Houd het hersteladres en je Amerikaanse telefoonnummer actueel. Volgens Privacy is bevestiging nodig wanneer een van deze gegevens verandert. Zie de [gids voor accountgegevens](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number). Schakel 2FA in en bewaar winkelnamen en de laatste vier kaartcijfers in een wachtwoordbeheerder. Zet een volledig PAN of CVV niet in een gewone notitie-app.
+
+Je account sluiten verwijdert niet alle gegevens. Het beleid van Privacy, voor het laatst bijgewerkt op 8 juni 2026, noemt bewaartermijnen van minstens vijf jaar voor identiteitsverificatie- en betaalkaartgegevens, zes jaar voor gegevens van de financieringsbank en ACH-transacties, en drie jaar voor auditlogboeken. Lees het onderdeel over bewaren in het [privacybeleid van Privacy](https://www.privacy.com/privacy-policy) voordat je accountsluiting als gegevensverwijdering beschouwt.
+
+**Privacy blijft afhankelijk van de financieringsbank, Plaid, ACH, kaartnetwerken en de eigen accountsystemen.** Bankfinanciering gebruikt ACH via Plaid. Privacy vermeldt een alternatieve financiering met een betaalkaart voor banken die niet worden ondersteund, maar toegang blijft afhankelijk van een Amerikaanse bank of kredietunie en een Amerikaans telefoonnummer. De [gids voor bankkoppeling](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account) en de [toelatingsgids](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy) beschrijven deze voorwaarden.
+
+Financieringsproblemen kunnen betalingen onderbreken. Privacy documenteert tijdelijke accountpauzes wanneer de dienst een financieringsbron niet kan afschrijven, bijvoorbeeld door onvoldoende saldo of een gesloten account. De ondersteuningspagina vermeldt ook dat het verwijderen van een financieringsbron transacties die al tegen die bron zijn geautoriseerd niet stopt. Lees de [gids voor niet-vereffende transacties](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction) en de [gids voor het verwijderen van een financieringsbron](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account) voordat je een bank of betaalkaart verwijdert.
+
+| Afhankelijkheid | Foutscenario | Praktische reactie |
+|---|---|---|
+| **Financieringsbank of Plaid** | Niet-ondersteunde, gesloten of verouderde koppeling | Houd een geschikte alternatieve bron aan en controleer de accountstatus |
+| **Privacy-account** | Nieuwe identiteitscontrole, verloren herstelkanaal of accountopschorting | Houd 2FA en herstelgegevens actueel |
+| **Winkelier** | Virtuele of prepaid kaartreeks geweigerd, of terugkerende afschrijving blijft doorgaan | Houd voor uitzonderingen een echte kaart achter de hand en zeg op bij de winkelier |
+| **Netwerk of uitgever** | Vertraging bij autorisatie, vereffening, terugbetaling of geschil | Bewaar bonnen, afschriften en transactiegegevens |
+
+De voorwaarden van Privacy beschrijven diensten die het bedrijf en zijn financiële partners afzonderlijk leveren. De voorwaarden staan ook toe dat aanvullende identiteitsgegevens worden opgevraagd en accounts worden beperkt. Neem toegang tot de aanbieder en accountgegevens mee in je dreigingsmodel. Laat niet al je essentiële rekeningen via één kaartaanbieder lopen.
 
 ## Virtuele Kaarten Goed Gebruiken
 
@@ -382,6 +436,19 @@ Controleer het schema en de bank via het PAN-prefix met de **[Magnetic Stripe De
 
 > **Veelgemaakte fout: een virtuele kaart zien als vervanging voor het controleren van je afschriften.** Koppeling aan handelaar voorkomt één soort schade. Het detecteert geen gecompromitteerde rekening bij je bank, geen ongeautoriseerde overboeking of frauduleuze afschrijving op de echte kaart erachter.
 
+## Huidige grenzen van de bediening
+
+De huidige ondersteuningsdocumentatie van Privacy.com zegt dat een specifieke bestedingslimiet autorisatiepogingen boven die limiet blokkeert. De [gids voor bestedingslimieten](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) beschrijft ook voortschrijdende perioden. De [kaartdocumentatie voor ontwikkelaars](https://developers.privacy.com/docs/cards) noemt kaarten die aan een winkelier zijn gebonden en velden voor bestedingslimieten.
+
+| Instelling | Helpt tegen | Lost niet op |
+|---|---|---|
+| Aan een winkelier gebonden kaart | Hergebruik van een nummer bij een andere winkelier | Een gehackt Privacy.com-account of een frauduleuze transactie bij de bedoelde winkelier |
+| Bestedingslimiet | Onverwachte autorisatiebedragen en afwijkingen bij terugkerende afschrijvingen | Een afschrijving vóór je de limiet wijzigt of een gehackte financieringsrekening |
+| Virtuele kaart sluiten | Toekomstige autorisaties op dat nummer | Een terugbetaling, geschil of al aangemaakt winkelierrecord |
+| Afzonderlijke kaart per dienst | Een transactie snel herkennen en de kaart intrekken | Uitval bij de aanbieder, identiteitscontroles of gegevens bij de bank |
+
+Controleer de financieringsrekening, accountherstelmethoden, waarschuwingen en kaartenlijst als één geheel. Een virtueel nummer verandert welk nummer je met een winkelier deelt. Het verbergt de transactie niet voor de uitgevende bank, kaartaanbieder, winkelier, betaalnetwerken, belastinggegevens of een rechtbank met wettelijke bevoegdheid. Het maakt van een betaalkaart geen kredietlijn en garandeert geen gunstige uitkomst van een geschil.
+
 ## Belangrijkste Punten
 
 - **Een virtuele kaart verandert het nummer dat de handelaar opslaat.** Je echte PAN bereikt hen nooit, dat is het hele mechanisme.
@@ -395,12 +462,12 @@ Controleer het schema en de bank via het PAN-prefix met de **[Magnetic Stripe De
 
 ## Volgende Stappen
 
-1. **Inspecteer de trackgegevens van je eigen kaart** en zie precies wat een magneetstrip bevat: **[Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/)**
-2. **Bevries je krediet** als je dat nog niet hebt gedaan, dit is de sterkere maatregel tegen fraude bij nieuwe accounts: **[Personal Finance Security](/personal-security-course/personal-finance/)**
-3. **Pas de tiering-discipline toe** om te bepalen hoeveel moeite dit voor jouw situatie waard is: **[Prioritized Personal Security Checklist](/articles/personal-security-checklist-prioritized-2026/)**
+1. **Inspecteer de trackgegevens van je eigen kaart** en zie precies wat een magneetstrip bevat: **[Magneetstripdecoder en -encoder](/magnetic-stripe-decoder/)**
+2. **Bevries je krediet** als je dat nog niet hebt gedaan, dit is de sterkere maatregel tegen fraude bij nieuwe accounts: **[Beveiliging van persoonlijke financiën](/personal-security-course/personal-finance/)**
+3. **Pas de tiering-discipline toe** om te bepalen hoeveel moeite dit voor jouw situatie waard is: **[Geprioriteerde checklist voor persoonlijke beveiliging](/articles/personal-security-checklist-prioritized-2026/)**
 4. **Bekijk de Privacy.com-abonnementen en actuele voorwaarden** voordat je je aanmeldt: **[Privacy.com](https://www.privacy.com/virtual-card)**
 5. **Controleer of je gegevens al in een datalek voorkomen** voordat je aanneemt dat je niet bent getroffen: **[Have I Been Pwned](https://haveibeenpwned.com)**
-6. **Lees de checklist voor betalingsbeveiliging** voor de organisatorische tegenhanger: **[Incident Response Checklist](/checklists/incident-response-checklist/)**
+6. **Lees de checklist voor betalingsbeveiliging** voor de organisatorische tegenhanger: **[Checklist voor incidentrespons](/checklists/incident-response-checklist/)**
 
 ## Referenties
 
@@ -413,3 +480,17 @@ Controleer het schema en de bank via het PAN-prefix met de **[Magnetic Stripe De
 7. [ANSI/ISO ALPHA data-encoding, de Track 1-tekenset en pariteitstabel](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [ISO-tekens voor magnetische kaarten, de Track 1- en Track 2-sets naast elkaar](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [Magnetische kaartgegevens lezen, een praktische walkthrough met een live kaartscan](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Privacy-ontwikkelaarsdocumentatie: kaarttypen, statussen en bestedingslimieten](https://developers.privacy.com/docs/cards)
+11. [Privacy-ondersteuning: gegevens die met winkeliers worden gedeeld](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Privacy-ondersteuning: bestedingslimieten voor afzonderlijke kaarten](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Privacy-ondersteuning: transactiestatussen en autorisaties](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Privacy-ondersteuning: kaarten pauzeren en sluiten](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Privacy-ondersteuning: omschrijvingen op bankafschriften](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Privacy-ondersteuning: een bankrekening koppelen via Plaid](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Privacy-ondersteuning: accountactiviteit en herstelcontroles](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Privacy-ondersteuning: e-mailadres en telefoonnummer van het account bijwerken](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Privacy-ondersteuning: voorwaarden om een account te gebruiken](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Privacy-ondersteuning: niet-vereffende transacties](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Privacy-ondersteuning: een financieringsbron verwijderen](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Privacy.com-privacybeleid](https://www.privacy.com/privacy-policy)
+23. [Gebruiksvoorwaarden van Privacy.com](https://www.privacy.com/terms)

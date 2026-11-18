@@ -1,7 +1,7 @@
 ---
 title: "গবেষণা, ডিজাইন ও ডেভেলপমেন্টের জন্য ৯টি AI Agent Skill প্রকল্প"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ওয়ার্কফ্লো, হোস্ট সাপোর্ট, নির্ভরতা ও খরচ অনুযায়ী নয়টি agent skill প্রকল্প তুলনা করুন। আপনার প্রয়োজনীয় skill ইনস্টল, পরিদর্শন ও পরীক্ষা করতে শিখুন।"
@@ -62,7 +62,7 @@ coverCaption: "কাজভিত্তিক agent skill library-এর ধা�
 
 **Draft-এর সঙ্গে constraint দিন।** Audience, থাকা আবশ্যক fact এবং কাছাকাছি থাকা আবশ্যক citation চিহ্নিত করুন। Edit-এর পর original-এর সঙ্গে factual claim তুলনা করুন। Better rhythm unsupported statistic validate করে না।
 
-| Writing check | Passing result |
+| লেখার মান যাচাই | সফল ফলাফল |
 |---|---|
 | **Meaning** | একই claim, qualification ও scope |
 | **Sources** | উদ্ধৃত findings-এর কাছে attribution থাকে |
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **নিচের example command project-এর current installation documentation থেকে এসেছে।** Selected project-এর command-ই চালান। Package runner installer code download ও execute করে, তাই চালানোর আগে upstream project inspect এবং installation scope নির্বাচন করুন।
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: ব্যবহারকারী-স্তরে Codex ইনস্টলেশন
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: ব্যবহারকারী-স্তরে Codex ইনস্টলেশন
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: আনুষ্ঠানিক স্কিল সংগ্রহ, ফ্রেমওয়ার্কের রিপোজিটরি নয়
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **একটি saved task baseline হিসেবে ব্যবহার করুন।** New skill ছাড়া task চালান, তারপর skill-সহ চালান। সম্ভব হলে model, input, tool ও acceptance criteria একই রাখুন। Failure ও human correction final result-এর সঙ্গে record করুন।
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# দৃষ্টান্তমূলক মূল্যায়ন নথি, স্কিল কনফিগারেশন স্কিমা নয়
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

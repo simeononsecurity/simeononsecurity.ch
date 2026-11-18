@@ -1,7 +1,7 @@
 ---
 title: "Mastering Active Directory Administration with PowerShell: Ghid de instalare și utilizare"
 date: 2023-07-25
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Descoperiți cum să instalați și să utilizați în mod eficient modulul Active Directory pentru PowerShell pentru a simplifica sarcinile de administrare a Windows Active Directory."
@@ -185,29 +185,29 @@ Prin utilizarea acestor cmdlet-uri legate de securitate, administratorii pot ges
 
 ## Exemplu de script de modul Active Directory pentru PowerShell
 ```powershell
-# Import Active Directory module
+# Importă modulul Active Directory
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# Obține informații din Active Directory
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# Creează un utilizator Active Directory nou
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# Creează un grup Active Directory nou
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# Creează o unitate organizațională Active Directory nouă
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# Modifică obiectele Active Directory
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# Gestionează securitatea Active Directory
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

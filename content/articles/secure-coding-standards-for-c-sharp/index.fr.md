@@ -1,6 +1,7 @@
 ---
 title: "Normes de codage sécurisé pour les développeurs C#"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques de codage sécurisé en C# pour minimiser le risque de failles de sécurité et protéger les données sensibles."
@@ -22,7 +23,7 @@ Les données saisies par l'utilisateur constituent souvent une source importante
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Vérifier si la chaîne d’entrée ne contient que des chiffres
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // Traiter les données
     }
 }
 ```

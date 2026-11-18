@@ -3,7 +3,7 @@ title: "AI 网络安全认证：跟不上实践"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "根据认证经历和当前攻击面限制，探讨 AI 治理认证与 AI 安全实践之间的差距。"
 tags: ["AI 安全", "AI 治理", "AI 认证", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "提示注入", "AI 网络安全", "LLM 安全", "OWASP LLM Top 10", "MITRE ATLAS", "AI 风险管理", "AI 合规", "机器学习安全", "模型供应链", "对抗式 AI", "AI 智能体", "MCP 安全", "AI 红队测试", "AI 治理认证", "智能体式 AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

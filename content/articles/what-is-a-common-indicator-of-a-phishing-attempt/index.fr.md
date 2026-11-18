@@ -1,6 +1,7 @@
 ---
 title: "Reconnaître les tentatives d'hameçonnage : Indicateurs communs et conseils de sécurité"
 date: 2023-06-18
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Un guide complet sur l'identification des indicateurs communs des tentatives d'hameçonnage et des conseils pratiques pour rester en sécurité en ligne."
@@ -48,7 +49,7 @@ Les tentatives d'hameçonnage demandent généralement des informations personne
 
 Méfiez-vous des pièces jointes inattendues, surtout si elles proviennent d'expéditeurs inconnus. Les courriels d'hameçonnage peuvent contenir des pièces jointes contenant des logiciels malveillants ou des virus. N'ouvrez pas les pièces jointes si vous ne les attendez pas et si vous n'avez pas vérifié la source.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Conseils pour rester en sécurité en ligne**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Maintenant que vous connaissez les indicateurs courants des tentatives d'hameçonnage, voici quelques conseils pour vous aider à rester en sécurité en ligne :
 

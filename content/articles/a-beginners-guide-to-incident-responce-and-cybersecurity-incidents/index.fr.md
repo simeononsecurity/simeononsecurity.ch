@@ -1,7 +1,7 @@
 ---
 title: "Guide du débutant en matière de réponse aux incidents de cybersécurité"
 date: 2023-03-16
-lastmod: 2026-11-07
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Apprenez les bases de la réponse aux incidents et de la gestion des incidents de cybersécurité grâce à ce guide destiné aux débutants."
@@ -44,7 +44,7 @@ Une fois l'incident maîtrisé, l'étape suivante est l'**enquête**. L'enquête
 
 Une fois l'enquête terminée, l'étape suivante est la **remédiation**. Il s'agit de restaurer les systèmes dans l'état où ils se trouvaient avant l'incident et de mettre en œuvre des mesures pour éviter que des incidents similaires ne se produisent à l'avenir. La remédiation peut impliquer l'installation de correctifs ou de mises à jour, la modification des mots de passe ou la mise en œuvre de nouvelles mesures de sécurité.
 
-### Reporting
+### Rapport
 
 La dernière étape du processus de réponse à un incident est le **rapport**. Il s'agit de documenter l'incident, la réponse apportée et les enseignements tirés. Le rapport est important pour améliorer les processus de réponse aux incidents et pour répondre aux exigences légales et réglementaires.
 
@@ -65,4 +65,4 @@ ______
 
 ## Conclusion
 
-Une réponse efficace aux incidents est essentielle pour minimiser les dommages causés par les incidents de cybersécurité. En suivant les meilleures pratiques et en mettant en œuvre un plan de réponse aux incidents efficace, les individus et les organisations peuvent être mieux préparés à répondre aux incidents et à prévenir les incidents futurs. 
+Une réponse efficace aux incidents est essentielle pour minimiser les dommages causés par les incidents de cybersécurité. En suivant les meilleures pratiques et en mettant en œuvre un plan de réponse aux incidents efficace, les individus et les organisations peuvent être mieux préparés à répondre aux incidents et à prévenir les incidents futurs.

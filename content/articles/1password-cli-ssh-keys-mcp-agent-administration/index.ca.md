@@ -1,7 +1,7 @@
 ---
 title: "1Password SSH Agent and CLI: Accés de només lectura per a agents d'IA"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Dissenyar un flux de treball SSH de només lectura amb 1Password CLI, l'Agent SSH i MCP. Utilitzar comandes sintètiques, permisos restringits i aprovació humana abans de les proves en directe."
@@ -82,7 +82,7 @@ Bitbucket Cloud utilitza el flux de treball habitual de Git i OpenSSH des de la 
 
 **Tracteу Bitbucket com a consumidor de claus públiques.** Registreу la clau pública o l'empremta digital a través de la configuració aprovada de la compte o el repositori de Bitbucket. Mantingueу la clau privada a 1Password. El client Git demana a l'Agent SSH que signi. El client no llegeix un fitxer de clau privada.
 
-Per a l'abast de la clau d'accés de Bitbucket, la ruta de registre i la prova de Git només lectura, vegeu [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+Per a l'abast de la clau d'accés de Bitbucket, la ruta de registre i la prova de Git només lectura, vegeu [Claus SSH de Bitbucket Cloud i CLI de Git: accés de només lectura per a agents d'IA](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 La documentació de Bitbucket anomena això un flux de treball de Git CLI. Aquest article no assumeix un servidor MCP de Bitbucket separat ni un producte anomenat Bitbucket CLI. Una CLI específica de Bitbucket necessita la seva pròpia documentació actual i la seva pròpia revisió de permisos.
 
@@ -163,10 +163,10 @@ Anoteu la classe de destinació, el compte remot, el repositori o comandament pr
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: comprovació de connectivitat només de lectura
+host_key_source: registre aprovat per l’administrador
+approval_owner: operador designat
+rollback: eliminar la clau pública i revocar la identitat de prova
 ```
 
 **Resultat esperat, no provat:** El registre identifica una destinació i una operació. El registre no conté un nom d'amfitrió, una adreça IP, un testimoni, una clau privada ni dades personals.
@@ -221,7 +221,7 @@ La comanda utilitza un marcador de posició de repositori. Substituiu el marcado
 
 Primer verifiqueu el client SSH i l'objectiu sense MCP. Després afegiu un sol servidor MCP de només lectura o un connector local. Doneu a l'agent una eina com `read_status` o `prepare_command`. No comenceu amb una eina de shell general.
 
-La configuració de l'MCP hauria de fer referència als valors d'execució mitjançant el mecanisme d'entorn admes pel client. La [Guia de seguretat de 1Password AI](https://www.1password.dev/security-for-ai)] descriu la substitució dels tokens de configuració MCP en text pla per variables d'entorn carregades des de 1Password. **Mantingue la referència o el nom de la variable a la configuració. Mantingui el valor resolt fora de la transcripció de l'agent.**
+La configuració de l'MCP hauria de fer referència als valors d'execució mitjançant el mecanisme d'entorn admes pel client. La [Guia de seguretat de 1Password AI](https://www.1password.dev/security-for-ai) descriu la substitució dels tokens de configuració MCP en text pla per variables d'entorn carregades des de 1Password. **Mantingue la referència o el nom de la variable a la configuració. Mantingui el valor resolt fora de la transcripció de l'agent.**
 
 Aquesta secció descriu un disseny, no una configuració MCP provada. Aquí no es fixa cap client, servidor, transport, versió o fixture. Valideu un servidor només de lectura en un perfil de proves separat abans de connectar un agent a un sistema de producció.
 
@@ -239,7 +239,7 @@ La següent seqüència mostra l'ordre sense utilitzar infraestructura real. Aqu
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Només a macOS o Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

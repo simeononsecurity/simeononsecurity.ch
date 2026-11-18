@@ -1,17 +1,16 @@
 ---
 title: "Ansible vs Puppet vs Chef 2026: gestió de configuració"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Comparativa del 2026 d'Ansible, Puppet i Chef sobre arquitectura, funcions, corba d'aprenentatge, rendiment, preus i casos d'ús."
 genre: ["DevOps", "Automatització d'infraestructura", "Gestió de configuració", "Operacions de TI", "Computació al núvol", "Administració de sistemes", "TI empresarial", "Desenvolupament de programari", "Infraestructura de TI", "Eines d'automatització"]
-tags: ["ansible vs puppet", "ansible vs chef", "puppet vs chef", "gestió de configuració", "infraestructura com a codi", "eines devops", "comparativa d'automatització", "ansible", "puppet", "chef", "automatització d'infraestructura", "eines de gestió de configuració 2026", "automatització devops", "configuració de servidors", "gestió d'infraestructura", "funcions d'ansible", "funcions de puppet", "funcions de chef", "eines de configuració", "automatització de TI", "orquestració d'infraestructura", "configuració declarativa", "configuració procedimental", "automatització sense agents", "automatització amb agents", "playbooks d'ansible", "manifests de puppet", "receptes de chef", "bones pràctiques devops", "desplegament d'infraestructura", "deriva de configuració", "configuració idempotent", "ansible tower", "puppet enterprise", "chef automate", "comparativa de plataformes d'automatització", "comparativa de corbes d'aprenentatge", "selecció d'eines devops", "automatització empresarial"]
+tags: ["Ansible contra Puppet", "Ansible contra Chef", "Puppet contra Chef", "gestió de configuració", "infraestructura com a codi", "eines devops", "comparativa d'automatització", "ansible", "puppet", "chef", "automatització d'infraestructura", "eines de gestió de configuració 2026", "automatització devops", "configuració de servidors", "gestió d'infraestructura", "funcions d'ansible", "funcions de puppet", "funcions de chef", "eines de configuració", "automatització de TI", "orquestració d'infraestructura", "configuració declarativa", "configuració procedimental", "automatització sense agents", "automatització amb agents", "playbooks d'ansible", "manifests de puppet", "receptes de chef", "bones pràctiques devops", "desplegament d'infraestructura", "deriva de configuració", "configuració idempotent", "ansible tower", "puppet enterprise", "chef automate", "comparativa de plataformes d'automatització", "comparativa de corbes d'aprenentatge", "selecció d'eines devops", "automatització empresarial"]
 cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "Il·lustració d'un centre de dades futurista dividit en tres seccions que representen Ansible, Puppet i Chef. Cada secció mostra una arquitectura de sistema diferent i connexions lluminoses sobre un fons fosc."
 coverCaption: "Tria l'eina de gestió de configuració adequada per a la teva infraestructura"
 ---
-
 ## Ansible vs Puppet vs Chef 2026: comparativa completa de gestió de configuració
 
 El 2026, la **gestió de configuració** continua sent essencial per administrar infraestructures modernes a gran escala. **Ansible**, **Puppet** i **Chef** lideren el mercat empresarial. Aquestes eines admeten la **infraestructura com a codi (IaC)** i permeten als equips automatitzar la configuració de servidors, el desplegament d'aplicacions i l'orquestració d'infraestructura en milers de sistemes.
@@ -146,23 +145,23 @@ Aquesta guia compara **Ansible**, **Puppet** i **Chef** per arquitectura, funcio
 **Exemple** (instal·lar i iniciar Apache):
 ```yaml
 ---
-- name: Configure web servers
+- name: Configura els servidors web
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: Instal·la Apache
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: Inicia el servei Apache
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: Desplega el lloc web
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -186,19 +185,19 @@ Aquesta guia compara **Ansible**, **Puppet** i **Chef** per arquitectura, funcio
 **Exemple** (la mateixa configuració d'Apache):
 ```puppet
 class apache {
-  # Install Apache package
+  # Instal·la el paquet Apache
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # Desplega el fitxer del lloc web
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -228,20 +227,20 @@ node 'webserver.example.com' {
 
 **Exemple** (la mateixa configuració d'Apache):
 ```ruby
-# Recipe: apache::default
+# Recepta: apache::default
 
-# Install Apache package
+# Instal·la el paquet Apache
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# Inicia i habilita el servei Apache
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# Desplega el fitxer del lloc web
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -528,7 +527,7 @@ end
 
 **Enfocament amb Ansible**:
 ```yaml
-- name: Manage web server fleet
+- name: Gestiona la flota de servidors web
   hosts: webservers
   become: yes
   roles:
@@ -536,7 +535,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: Desplega l’aplicació
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -549,7 +548,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -561,7 +560,7 @@ node /webserver\d+/ {
 
 **Enfocament amb Chef**:
 ```ruby
-# Role: webserver
+# Rol: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -569,7 +568,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# Recepta: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

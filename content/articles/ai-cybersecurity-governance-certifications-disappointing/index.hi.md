@@ -3,7 +3,7 @@ title: "AI साइबर सुरक्षा प्रमाणपत्र:
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "प्रमाणन के अनुभव और वर्तमान आक्रमण सतह की सीमाओं के आधार पर AI शासन प्रमाणपत्रों और AI सुरक्षा अभ्यास के बीच के अंतर पर एक विचार।"
 tags: ["AI सुरक्षा", "AI शासन", "AI प्रमाणपत्र", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "प्रॉम्प्ट इंजेक्शन", "AI साइबर सुरक्षा", "LLM सुरक्षा", "OWASP LLM Top 10", "MITRE ATLAS", "AI जोखिम प्रबंधन", "AI अनुपालन", "मशीन लर्निंग सुरक्षा", "मॉडल आपूर्ति श्रृंखला", "प्रतिकूल AI", "AI एजेंट", "MCP सुरक्षा", "AI रेड टीमिंग", "AI शासन प्रमाणपत्र", "एजेंटिक AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

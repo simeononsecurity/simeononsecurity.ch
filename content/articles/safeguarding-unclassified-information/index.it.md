@@ -1,11 +1,12 @@
 ---
 title: "La verità sulle informazioni non classificate: Caratteristiche, salvaguardia e regolamenti"
 date: 2023-06-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Scoprite la vera natura delle informazioni non classificate, le loro caratteristiche principali, le misure di salvaguardia e le normative pertinenti per una protezione efficace."
 genre: ["Sicurezza delle informazioni", "Gestione dei dati", "Regolamenti governativi", "Condivisione delle informazioni", "Protezione dei dati", "Riservatezza", "Mitigazione del rischio", "Governance dell'informazione", "Classificazione dei dati", "Accesso alle informazioni"]
-tags: ["informazioni non classificate", "sicurezza delle informazioni", "agenzie governative", "protezione dei dati", "gestione delle informazioni", "informazioni controllate non classificate", "controlli di accesso", "crittografia", "formazione dei dipendenti", "sicurezza fisica", "data classification", "riservatezza", "governance dell'informazione", "mitigazione del rischio", "condivisione delle informazioni", "gestione dei dati", "regolamenti governativi", "accesso alle informazioni", "salvaguardia", "misure di sicurezza", "informazioni sensibili", "valore delle informazioni non classificate", "dati disponibili al pubblico", "CUI program", "documenti ufficiali dell'agenzia", "accessibility", "condivisibilità", "sensibilità limitata", "valore delle informazioni non classificate", "Regolamenti del programma CUI", "risposta agli incidenti", "misure di sicurezza fisica"]
+tags: ["informazioni non classificate", "sicurezza delle informazioni", "agenzie governative", "protezione dei dati", "gestione delle informazioni", "informazioni controllate non classificate", "controlli di accesso", "crittografia", "formazione dei dipendenti", "sicurezza fisica", "classificazione dei dati", "riservatezza", "governance dell'informazione", "mitigazione del rischio", "condivisione delle informazioni", "gestione dei dati", "regolamenti governativi", "accesso alle informazioni", "salvaguardia", "misure di sicurezza", "informazioni sensibili", "valore delle informazioni non classificate", "dati disponibili al pubblico", "programma CUI", "documenti ufficiali dell'agenzia", "accessibilità", "condivisibilità", "sensibilità limitata", "valore delle informazioni non classificate", "Regolamenti del programma CUI", "risposta agli incidenti", "misure di sicurezza fisica"]
 cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "Un'illustrazione simbolica che mostra un caveau chiuso a chiave con all'interno informazioni non classificate."
 coverCaption: "Proteggere le chiavi: Salvaguardia delle informazioni non classificate per la sicurezza delle informazioni"
@@ -43,7 +44,7 @@ Comprendere le caratteristiche delle **informazioni non classificate** è fondam
 
 **4. Valore**: Le **informazioni non classificate** possono avere un valore significativo per organizzazioni, individui o altre parti interessate. Possono includere proprietà intellettuale, risultati di ricerca, dati finanziari o dettagli operativi che contribuiscono al funzionamento generale e al successo di un'entità.
 
-**5. Soggette a normative**: Sebbene le **informazioni non classificate** non abbiano gli stessi rigorosi requisiti di protezione delle informazioni classificate, alcune norme e politiche possono comunque disciplinarne il trattamento, la conservazione e la diffusione. Ad esempio, negli Stati Uniti, la gestione delle **informazioni non classificate controllate (CUI)** è regolata dalla [CUI program](https://www.archives.gov/cui), established by the National Archives and Records Administration (NARA)
+**5. Soggette a normative**: Sebbene le **informazioni non classificate** non abbiano gli stessi rigorosi requisiti di protezione delle informazioni classificate, alcune norme e politiche possono comunque disciplinarne il trattamento, la conservazione e la diffusione. Ad esempio, negli Stati Uniti, la gestione delle **informazioni non classificate controllate (CUI)** è regolata dal [programma CUI](https://www.archives.gov/cui), istituito da National Archives and Records Administration (NARA)
 
 La comprensione di queste caratteristiche consente alle organizzazioni di implementare misure adeguate per proteggere le **informazioni non classificate** e mitigare i potenziali rischi associati alla loro gestione e condivisione.
 
@@ -69,7 +70,7 @@ ______
 
 ## Conclusione
 
-Le **informazioni non classificate** svolgono un ruolo vitale nelle organizzazioni e nelle agenzie governative. Comprendono un'ampia gamma di dati e conoscenze che, pur non essendo classificate, hanno comunque un valore e richiedono protezione. Comprendendo le caratteristiche delle informazioni non classificate e implementando adeguate misure di salvaguardia, le organizzazioni possono garantire la **riservatezza**, l'**integrità** e la **disponibilità** di queste preziose informazioni. La conformità alle normative governative pertinenti, come ad esempio il [CUI program](https://www.archives.gov/cui) negli Stati Uniti, migliora ulteriormente la protezione delle informazioni non classificate e contribuisce alla **sicurezza informatica** complessiva.
+Le **informazioni non classificate** svolgono un ruolo vitale nelle organizzazioni e nelle agenzie governative. Comprendono un'ampia gamma di dati e conoscenze che, pur non essendo classificate, hanno comunque un valore e richiedono protezione. Comprendendo le caratteristiche delle informazioni non classificate e implementando adeguate misure di salvaguardia, le organizzazioni possono garantire la **riservatezza**, l'**integrità** e la **disponibilità** di queste preziose informazioni. L'adesione al [programma CUI](https://www.archives.gov/cui) negli Stati Uniti migliora ulteriormente la protezione delle informazioni non classificate e contribuisce alla **sicurezza informatica** complessiva.
 
 La protezione delle informazioni non classificate è essenziale per mantenere la fiducia degli stakeholder, prevenire accessi o divulgazioni non autorizzati e preservare la reputazione e la continuità operativa delle organizzazioni. Implementando le misure consigliate, le organizzazioni possono creare un ambiente sicuro per le informazioni non classificate e ridurre i rischi associati.
 
@@ -77,4 +78,4 @@ ______
 
 ## Riferimenti
 
-1. National Archives and Records Administration (NARA). Programma Informazioni non classificate controllate (CUI). Recuperato da [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. National Archives and Records Administration (NARA). Programma Informazioni non classificate controllate (CUI). Recuperato da [pagina del programma CUI su archives.gov](https://www.archives.gov/cui)

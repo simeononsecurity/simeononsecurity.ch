@@ -1,6 +1,7 @@
 ---
 title: "Cómo reconocer los intentos de phishing: Indicadores comunes y consejos de seguridad"
 date: 2023-06-18
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Una completa guía para identificar los indicadores más comunes de los intentos de phishing y consejos prácticos para mantenerse seguro en Internet."
@@ -48,7 +49,7 @@ Los intentos de phishing suelen solicitar información personal, como contraseñ
 
 Tenga cuidado con los archivos adjuntos inesperados, sobre todo si proceden de remitentes desconocidos. Los correos electrónicos de phishing pueden contener archivos adjuntos con programas maliciosos o virus. Evite abrir archivos adjuntos a menos que los espere y haya verificado la fuente.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Consejos para mantenerse seguro en línea**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Ahora que ya conoce los indicadores comunes de los intentos de phishing, le ofrecemos algunos consejos para ayudarle a mantenerse seguro en Internet:
 
@@ -74,7 +75,7 @@ Más información en [What to Do If You Think Your Email or Phone Is Compromised
 
 ______
 
-## **References**
+## **Referencias**
 
 - [Federal Trade Commission: How to Recognize and Avoid Phishing Scams](https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
 - [National Cyber Security Centre: Phishing Attacks](https://www.ncsc.gov.uk/phishing)

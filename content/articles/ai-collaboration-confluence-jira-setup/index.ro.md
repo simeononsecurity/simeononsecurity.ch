@@ -1,7 +1,7 @@
 ---
 title: "Configurarea AI în Confluence și Jira: permisiuni și autoritate"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configurați pagini de referință în Confluence și permisiuni Jira administrate de companie pentru colaborarea între echipe cu revizuire."
@@ -53,15 +53,15 @@ coverCaption: ""
 5. Pe fiecare pagină de referință, **deschideți Share**. Setați accesul general doar pentru citire pentru membrii eligibili ai spațiului și acordați separat drepturi specifice de editare proprietarilor și editorilor desemnați. Salvați și verificați cu utilizatorul colaborator.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+ID sursă: REQ-17
+Rolul proprietarului: product-owner
+Stare: bază aprobată
+Domeniu: numai fișiere de export sintetice
+Perioadă de păstrare: 7 zile
+Starea livrării: configurația de bază a laboratorului
+Excepții: datele de producție, copiile de rezervă și obligațiile legale de păstrare sunt excluse
+Dovada aprobării: revizuirea bazei DEC-12
+Referință de implementare: atașează commitul de bază protejat din GitHub
 ```
 
 **Aplicați restricții fiecărei pagini de referință.** Nu presupuneți că restricția de editare a unei pagini părinte protejează și paginile copil. Moștenirea permisiunilor de citire și editare diferă, iar permisiunile spațiului se aplică în continuare. Un link nu acordă acces. Verificați toate apartenențele dacă un utilizator care ar trebui să aibă doar citire poate totuși edita.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Folosiți aceste texte inițiale pentru celelalte două pagini.** Înlocuiți câmpurile temporare de revizuire cu dovezi reale din mediul de testare înainte să aprobați o înregistrare.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+ID sursă: RUN-04
+Rolul proprietarului: operations-owner
+Stare: bază aprobată
+Domeniu: numai fișiere de export sintetice
+Perioadă de păstrare configurată: 7 zile
+Procedură: compară REQ-17 cu config.json înainte de o modificare revizuită
+Limită de execuție: laboratorul nu are o sarcină de ștergere și nu produce dovezi de ștergere
+Recuperare: restabilește configurația aprobată anterioară după revizuire
+Limită de recuperare: restabilirea configurației nu recuperează fișierele șterse
+Dovada revizuirii: adaugă recenzentul real, versiunea paginii și referința deciziei
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Pagină: Registrul deciziilor
+ID intrare: DEC-12
+Decizie: folosește șapte zile ca bază sintetică
+Domeniu: numai export-service-lab
+Cerință: înregistrează versiunea paginii REQ-17 după publicare
+Manual: înregistrează versiunea paginii RUN-04 după publicare
+Politică: înregistrează revizia GitHub protejată POL-01 după revizuire
+Revizuire produs: în așteptare până când proprietarul desemnat înregistrează o decizie
+Revizuire operațiuni: în așteptare până când proprietarul desemnat înregistrează o decizie
+Stare: exemplu de ciornă, înlocuiește cu dovezi observate ale revizuirii
 ```
 
 ## Actualizați harta
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Lipiți această schiță în PROP-042.** Elementul Jira urmărește livrarea. Textul său nu înlocuiește formularea aprobată în Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+ID propunere: PROP-042
+Stare: ciornă
+Valoare aprobată curentă: 7 zile, de înregistrat versiunea paginii REQ-17
+Valoare propusă: 30 de zile pentru fișiere de export sintetice
+Excluderi: date de producție, copii de rezervă și obligații legale de păstrare
+Înregistrări afectate: REQ-17, RUN-04, config.json, proposal.json
+Atașament fix al propunerii: în așteptare
+Revizuirea proprietarului de produs: în așteptare
+Revizuirea proprietarului operațional: în așteptare
+Registrul publicării: în așteptare
+Oprește-te dacă se schimbă versiunea sursei, lipsește revizuirea sau accesul este refuzat
 ```
 
 | Rol | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Separați citirea, redactarea și publicarea.** Un colaborator are nevoie de acces suficient pentru a înțelege cerința sintetică și a trimite o propunere. Nu are nevoie de drept de editare asupra paginii de referință sau de permisiunea de a-și aproba propria propunere.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Înregistrare de test: PERM-REQ-EDIT
+Rol: colaborator
+Sursă: REQ-17
+Condiție prealabilă: sursa poate fi citită, iar revizia publicată a fost capturată
+Încercare: editează cerința autoritativă
+Rezultat așteptat: editare refuzată, revizie publicată neschimbată
+Observat: completează din sandbox
+Dovadă: rezultat nativ și recitire independentă a reviziei
+Recenzent: administrator sau revizor independent al permisiunilor
 ```
 
 **Folosiți o înregistrare separată pentru refuzul citirii.** Cerința lizibilă de către colaborator testează separarea publicării de editare. Pagina inaccesibilă utilizatorului exclus testează confidențialitatea. Combinarea cazurilor într-un singur rând ascunde limita verificată.

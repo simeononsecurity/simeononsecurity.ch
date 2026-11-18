@@ -6,7 +6,7 @@ toc: true
 draft: false
 description: "Flock Finder — это инструмент с открытым исходным кодом, который картирует более 40 000 камер ALPR Flock Safety по всему миру с использованием данных WiFi от WiGLE и отпечатков OUI. Узнайте, как это работает, его ограничения и аппаратные инструменты для обнаружения в реальном времени."
 genre: ["Технологии конфиденциальности", "Контрнаблюдение", "Проекты с открытым исходным кодом", "Цифровые права", "Сетевая безопасность", "Инструменты конфиденциальности", "Аппаратный хакинг", "Исследования безопасности"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "Считыватель номерных знаков", "OUI-отпечатки", "WiGLE", "WiFi-слежка", "Контрнаблюдение", "STS Collective", "FlockYou", "ESP32", "Инструменты конфиденциальности", "NitekryDPaul", "DeFlockJoplin", "Обнаружение ALPR", "Безопасность с открытым кодом", "Картирование слежки", "Массовая слежка", "WiFi OUI", "Защита конфиденциальности", "MAC-адрес", "Неразборчивый режим", "802.11", "Обнаружение в реальном времени", "Wardriving", "Цифровые права", "Гражданские свободы", "Осведомлённость о слежке", "GitHub", "Python"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "Считыватель номерных знаков", "OUI-отпечатки", "WiGLE", "WiFi-слежка", "Контрнаблюдение", "STS Collective", "FlockYou", "ESP32", "Инструменты конфиденциальности", "NitekryDPaul", "DeFlockJoplin", "Обнаружение ALPR", "Безопасность с открытым кодом", "Картирование слежки", "Массовая слежка", "WiFi OUI", "Защита конфиденциальности", "MAC-адрес", "Неразборчивый режим", "802.11", "Обнаружение в реальном времени", "сканирование Wi-Fi-сетей во время поездок", "Цифровые права", "Гражданские свободы", "Осведомлённость о слежке", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "Интерактивная карта с цветными маркерами, указывающими расположение камер ALPR Flock Safety, с абстрактными WiFi-сигналами, исходящими от маркеров на тёмном фоне."
 coverCaption: "Flock Finder картирует более 40 000 предполагаемых камер ALPR Flock Safety с использованием данных WiFi от WiGLE и отпечатков OUI."
@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **Инструмент с открытым исходным кодом для повышения осведомлённости о слежке, картирующий камеры ALPR Flock Safety с помощью краудсорсинговых данных WiFi.**
+
+> **Исправление, 21 сентября 2026 года:** Мы проверили исходный набор данных из 146,526 записей и выяснили, что первоначальный заголовок и одинаковые маркеры на карте значительно преувеличивали доказательную силу сопоставления OUI. Аудит выявил 50,278 систем Barco ClickShare и 60,793 записи, соответствующие правилам именования известных других устройств. Теперь Flock Finder публикует классы доказательств, исключает эти записи из карты и заголовка по умолчанию и предоставляет фильтры достоверности. Полная методика и исправление приведены в статье **[Мы нанесли на карту 146,526 «камер Flock». 50,278 из них оказались системами ClickShare](/articles/flock-finder-oui-false-positive-audit-2026/)**.
 
 ## Что такое Flock Finder?
 
@@ -37,6 +39,10 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ______
 
 ## Принцип работы: OUI-отпечатки через WiGLE
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="Схема показывает, как Flock Finder сопоставляет префиксы MAC Wi-Fi из WiGLE с известными сигнатурами OUI, чтобы оценить местоположение камер" >}}
 
 ### Ключевая идея
 
@@ -116,34 +122,34 @@ ______
 ### Настройка
 
 ```bash
-# Clone the repository
+# Клонируйте репозиторий
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# Установите зависимости
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# Настройте учетные данные WiGLE API
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# Отредактируйте .env, указав имя и токен WiGLE API
 ```
 
 ### Запуск сканера
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# Полное сканирование — все 31 префикс OUI по всему миру
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# Тест одного OUI
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# Только США
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# Заданный ограничивающий прямоугольник (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# Пробный запуск — проверка авторизации без запросов к API
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,7 +157,7 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# Откройте http://localhost:8080 в браузере
 ```
 
 ### Автоматические ежедневные обновления через GitHub Actions
@@ -181,6 +187,8 @@ ______
 - Питание через USB-C (автомобильный адаптер, павербанк или ноутбук)
 
 > 💰 **Эксклюзивные скидки**: Используйте код **FLOCKFINDER** для получения **скидки 20%** на все устройства FlockYou от STS Collective — или используйте код **SIMEONONSECURITY** для скидки до 20% на весь заказ. [Купить на stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< stscollective-ad "flockyou" >}}
 
 Для полного технического обзора этих устройств и DIY-альтернатив прочитайте **[Проект Flock-You Detection: Полное руководство по аппаратному обеспечению и настройке контрнаблюдения](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
@@ -259,6 +267,12 @@ ______
 Это **инструмент прозрачности**, а не живой трекер. Его данные носят исторический, неполный и вероятностный характер. Но он делает масштаб слежки ALPR видимым так, как не могут абстракции и отчёты.
 
 Для реальной защиты в реальном времени при перемещении по отслеживаемым районам дополните карту специализированным оборудованием. **[Устройства FlockYou от STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** реализуют метод обнаружения @NitekryDPaul непосредственно на ESP32 и оповещают вас в момент обнаружения живой сигнатуры камеры — доступны на **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** с кодом **FLOCKFINDER** или **SIMEONONSECURITY** для скидки до 20%.
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Купите детекторы FlockYou со скидкой 20%
+{{< /centerbutton >}}
 
 ### Связанные статьи
 

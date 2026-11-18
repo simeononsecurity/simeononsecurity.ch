@@ -1,12 +1,12 @@
 ---
 title: "Provider-routing in OpenRouter: modelkwaliteit, tokenlimieten en werkelijke kosten"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diagnosticeer inconsistente antwoorden van OpenRouter, vergelijk endpointlimieten en cachekosten en stel provider-routing in zonder kwaliteitscontroles per ongeluk uit te schakelen."
-genre: ["Kunstmatige intelligentie", "Infrastructuur", "Open Source"]
-tags: ["OpenRouter", "provider-routing", "OpenRouter-endpoints", "AI-modelkwaliteit", "LLM-inferentie", "kwantisatie", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "toolaanroepen", "contextvenster", "maximale tokens", "redeneertokens", "promptcaching", "API-kosten", "provider-fallback", "require_parameters", "AI-agents", "inferentiebenchmarks", "endpointtests", "open-weight modellen"]
+genre: ["Kunstmatige intelligentie", "Infrastructuur", "openbronsoftware"]
+tags: ["OpenRouter", "aanbiederroutering", "OpenRouter-eindpunten", "AI-modelkwaliteit", "LLM-inferentie", "kwantisatie", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "toolaanroepen", "contextvenster", "maximale tokens", "redeneertokens", "promptcaching", "API-kosten", "terugvaloptie voor de provider", "require_parameters", "AI-agenten", "inferentiebenchmarks", "endpointtests", "open-weight modellen"]
 cover: "/img/cover/openrouter-provider-routing-inference-services.webp"
 coverAlt: "Abstracte digitale illustratie van verbonden knooppunten voor AI-inferentiediensten, met heldere lijnen die datastromen aangeven tegen een donkere achtergrond."
 coverCaption: ""
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Werklast: 6 miljoen invoertokens + 1 miljoen uitvoertokens
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Per miljoen gecombineerde invoer- en uitvoertokens:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```
@@ -202,7 +202,7 @@ B =  $3.84 / 7 = $0.55
 | **Onverwachte kosten** | Outputvolume, cachelezingen, retries, providerwijzigingen |
 | **Geen geschikte provider** | Conflicterende limieten, allowlists en fallbackbeperkingen |
 
-**Bewaar de generation-ID** die met de respons terugkomt. De [generation-metadata-API van OpenRouter](https://openrouter.ai/docs/api/api-reference/generations/get-request-&-usage-metadata-for-a-generation) toont provideridentiteit, gebruik, kosten en finishinformatie. Een sessie-ID groepeert verwant werk, maar vervangt de generation-ID niet voor één verzoek.
+**Bewaar de generation-ID** die met de respons terugkomt. De [API voor generatiegegevens van OpenRouter](https://openrouter.ai/docs/api/api-reference/generations/get-request-&-usage-metadata-for-a-generation) toont provideridentiteit, gebruik, kosten en finishinformatie. Een sessie-ID groepeert verwant werk, maar vervangt de generation-ID niet voor één verzoek.
 
 **Bewaar het verzoek samen met de generation-ID.** Houd model, providervoorkeuren, gevraagde parameters, tijdstip en responsgebruik bij elkaar. Zo blijft een latere kwaliteits- of kostenvergelijking reproduceerbaar wanneer routing, prijzen of endpointmetadata veranderen.
 
@@ -210,7 +210,7 @@ B =  $3.84 / 7 = $0.55
 
 **Onzekerheid in benchmarks is relevant.** Epoch AI's [analyse van benchmarking](https://epoch.ai/gradient-updates/why-benchmarking-is-hard) beschrijft variatie door implementaties, sampling en agent-scaffolds. Eén teleurstellend antwoord bewijst geen blijvend providerprobleem en legt de oorzaak niet vast.
 
-## Rondleiding door endpoint-routing
+## Stapsgewijze uitleg over routering naar API-eindpunten
 
 {{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint-routing, precisie en prijzen" >}}
 

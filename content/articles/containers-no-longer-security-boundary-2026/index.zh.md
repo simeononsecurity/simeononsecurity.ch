@@ -1,7 +1,7 @@
 ---
 title: "2026年，容器已不再是安全边界"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "2026年的内核漏洞揭示了多租户容器隔离为何不足。了解 Copy Fail、Dirty Frag、Fragnesia 和 CVE-2026-80521，并比较加固容器与 microVM 边界。"
@@ -12,7 +12,6 @@ coverAlt: "多个发光容器连接到中央内核符号的数字插图。深色
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **容器共享同一个内核。2026年，四个独立的漏洞系列证明，一个内核错误就足以让攻击者离开容器并进入主机。** Copy Fail、Dirty Frag、Fragnesia 和 CVE-2026-80521 都能让无特权的本地用户获得 root 权限。每个漏洞都越过了容器边界。
 
 *令人担忧的不是漏洞本身，而是 AI 如今能以多低的成本找到它们，以及一个补丁如何又引入了另一个漏洞。*
@@ -245,27 +244,27 @@ KVM 的攻击面确实存在。Google 专门运行 **kvmCTF** 来发现此类漏
 这些措施都不能替代 VM 边界，但可以消除容易利用的路径：
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# 不需要时，禁用 page-cache 家族滥用的模块
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# 限制非特权用户命名空间，从而阻止 ESP 变体
+# Debian 和 Ubuntu：这只是部分缓解措施，并非完整方案
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# 怀疑遭到利用时，清空页缓存以丢弃内存中已修改的二进制文件
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# 初始检测信号
+- 工作负载无正当理由地意外调用 unshare(CLONE_NEWUSER)
+- IPsec 主机之外出现 NETLINK_XFRM 活动或 XFRM 安全关联
+- 请求绑定 AF_ALG 套接字
+- 未运行 IPsec 或 AFS 的主机加载 esp4、esp6 或 rxrpc
 ```
 
 > **警告：`drop_caches` 会丢弃被修改的内存副本，从而清除损坏，但不能移除已经取得 root 的攻击者。应将其视为事件响应，而非修复措施。**

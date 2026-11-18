@@ -1,6 +1,7 @@
 ---
 title: "Meilleures pratiques de sécurité Python : Protéger votre code et vos données"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques essentielles de sécurité Python pour protéger votre code et vos données des menaces potentielles, en assurant la protection des données, l'intégrité du système et la construction de la confiance."
@@ -183,7 +184,7 @@ Voici un résumé des **meilleures pratiques de sécurité en Python** présent�
 
 4. **Protégez les données sensibles** à l'aide de **techniques de cryptage puissantes**. Utilisez des algorithmes de cryptage bien établis tels que **AES (Advanced Encryption Standard)** et assurez un stockage et une transmission sécurisés des informations sensibles. Vous pouvez vous référer à la norme [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) pour plus d'informations.
 
-5. **Sécurisez l'accès à la base de données** en utilisant des **prepared statements** pour prévenir les attaques par injection SQL et en mettant en œuvre le **least privilege** pour limiter les autorisations des utilisateurs de la base de données. Ces pratiques minimisent le risque d'accès non autorisé aux données sensibles. Pour en savoir plus sur les **énoncés préparés**, consultez la section [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **Sécurisez l'accès à la base de données** avec des **requêtes préparées** pour prévenir les injections SQL et avec le **principe du moindre privilège** pour limiter les droits des utilisateurs de la base de données. Ces pratiques réduisent le risque d'accès non autorisé aux données sensibles. Consultez la [documentation SQLAlchemy](https://www.sqlalchemy.org) sur les requêtes préparées et l’[OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) sur le principe du moindre privilège.
 
 6. **Mettez régulièrement à jour les dépendances** pour corriger les failles de sécurité et bénéficier des corrections de bogues. Des outils comme [Snyk - Open Source Security Platform](https://snyk.io/) peut vous aider à identifier les vulnérabilités dans les dépendances de votre projet.
 

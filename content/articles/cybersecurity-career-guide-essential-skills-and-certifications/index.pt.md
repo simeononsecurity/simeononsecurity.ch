@@ -1,7 +1,7 @@
 ---
 title: "Guia de carreira em cibersegurança 2026"
 date: 2023-06-24
-lastmod: 2026-11-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Guia de carreira em cibersegurança para 2026 com competências, certificações, dados salariais, caminhos profissionais e pesquisa do mercado de trabalho."
@@ -152,13 +152,13 @@ Todo profissional de cibersegurança precisa destas competências técnicas bás
 
 **Python para cibersegurança** (linguagem mais importante):
 ```python
-# Example: Automated security scanning script
+# Exemplo: script automatizado de verificação de segurança
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Executa uma verificação automatizada de vulnerabilidades
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
@@ -295,10 +295,10 @@ Competências técnicas sozinhas não bastam. O **pensamento crítico** diferenc
 
 **Desenvolvimento de competências de comunicação**:
 ```
-Entry Level: Write clear incident reports
-Mid-Level: Present security updates to management
-Senior:Lead security strategy discussions with executives
-Executive: Communicate security posture to board of directors
+Nível inicial: escreva relatórios claros sobre incidentes
+Nível intermediário: apresente atualizações de segurança à gestão
+Nível sênior: lidere conversas com executivos sobre estratégia de segurança
+Nível executivo: apresente a postura de segurança ao conselho
 ```
 
 ### Competências emergentes para 2026 e além
@@ -442,15 +442,15 @@ Entender diferentes especializações ajuda você a escolher o caminho certo.
 
 **Progressão profissional**:
 ```
-Junior SOC Analyst (0-2 years) → $55,000-75,000
+Analista SOC júnior (0-2 anos) → $55,000-75,000
     ↓
-SOC Analyst II (2-4 years) → $75,000-95,000
+Analista SOC II (2-4 anos) → $75,000-95,000
     ↓
-Senior SOC Analyst (4-7 years) → $95,000-120,000
+Analista SOC sênior (4-7 anos) → $95,000-120,000
     ↓
-SOC Team Lead (7-10 years) → $120,000-145,000
+Líder da equipe SOC (7-10 anos) → $120,000-145,000
     ↓
-SOC Manager (10+ years) → $145,000-180,000
+Gerente de SOC (10+ anos) → $145,000-180,000
 ```
 
 **Competências necessárias**:
@@ -480,15 +480,15 @@ SOC Manager (10+ years) → $145,000-180,000
 
 **Progressão profissional**:
 ```
-Junior Penetration Tester (0-2 years) → $70,000-90,000
+Testador de invasão júnior (0-2 anos) → $70,000-90,000
     ↓
-Penetration Tester (2-5 years) → $95,000-130,000
+Testador de invasão (2-5 anos) → $95,000-130,000
     ↓
-Senior Penetration Tester (5-8 years) → $130,000-165,000
+Testador de invasão sênior (5-8 anos) → $130,000-165,000
     ↓
-Lead Pentester / Red Team Lead (8-12 years) → $165,000-200,000
+Líder de testes de invasão / líder da equipe vermelha (8-12 anos) → $165,000-200,000
     ↓
-Principal Security Consultant (12+ years) → $200,000-275,000+
+Consultor principal de segurança (12+ anos) → $200,000-275,000+
 ```
 
 **Competências necessárias**:
@@ -519,15 +519,15 @@ Principal Security Consultant (12+ years) → $200,000-275,000+
 
 **Progressão profissional**:
 ```
-Junior Security Engineer (0-2 years) → $75,000-95,000
+Engenheiro de segurança júnior (0-2 anos) → $75,000-95,000
     ↓
-Security Engineer (2-5 years) → $105,000-135,000
+Engenheiro de segurança (2-5 anos) → $105,000-135,000
     ↓
-Senior Security Engineer (5-8 years) → $135,000-170,000
+Engenheiro de segurança sênior (5-8 anos) → $135,000-170,000
     ↓
-Security Architect (8-12 years) → $170,000-220,000
+Arquiteto de segurança (8-12 anos) → $170,000-220,000
     ↓
-Principal/Lead Security Architect (12+ years) → $220,000-300,000+
+Arquiteto principal/líder de segurança (12+ anos) → $220,000-300,000+
 ```
 
 **Competências necessárias**:
@@ -558,15 +558,15 @@ Principal/Lead Security Architect (12+ years) → $220,000-300,000+
 
 **Progressão profissional**:
 ```
-Junior Cloud Security Engineer (0-2 years) → $80,000-100,000
+Engenheiro de segurança em nuvem júnior (0-2 anos) → $80,000-100,000
     ↓
-Cloud Security Engineer (2-5 years) → $115,000-145,000
+Engenheiro de segurança em nuvem (2-5 anos) → $115,000-145,000
     ↓
-Senior Cloud Security Engineer (5-8 years) → $145,000-185,000
+Engenheiro de segurança em nuvem sênior (5-8 anos) → $145,000-185,000
     ↓
-Cloud Security Architect (8-12 years) → $185,000-235,000
+Arquiteto de segurança em nuvem (8-12 anos) → $185,000-235,000
     ↓
-Principal Cloud Security Architect (12+ years) → $235,000-320,000+
+Arquiteto principal de segurança em nuvem (12+ anos) → $235,000-320,000+
 ```
 
 **Competências necessárias**:
@@ -597,15 +597,15 @@ Principal Cloud Security Architect (12+ years) → $235,000-320,000+
 
 **Progressão profissional**:
 ```
-Junior GRC Analyst (0-2 years) → $60,000-78,000
+Analista GRC júnior (0-2 anos) → $60,000-78,000
     ↓
-GRC Analyst (2-4 years) → $78,000-98,000
+Analista GRC (2-4 anos) → $78,000-98,000
     ↓
-Senior GRC Analyst (4-7 years) → $98,000-125,000
+Analista GRC sênior (4-7 anos) → $98,000-125,000
     ↓
-GRC Manager (7-10 years) → $125,000-155,000
+Gerente GRC (7-10 anos) → $125,000-155,000
     ↓
-Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,000+
+Diretor de conformidade / diretor-chefe de conformidade (10+ anos) → $155,000-225,000+
 ```
 
 **Competências necessárias**:
@@ -636,15 +636,15 @@ Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,0
 
 **Progressão profissional**:
 ```
-Junior Incident Response Analyst (0-2 years) → $65,000-85,000
+Analista júnior de resposta a incidentes (0-2 anos) → $65,000-85,000
     ↓
-Incident Response Analyst (2-5 years) → $90,000-115,000
+Analista de resposta a incidentes (2-5 anos) → $90,000-115,000
     ↓
-Senior Incident Responder (5-8 years) → $115,000-150,000
+Especialista sênior em resposta a incidentes (5-8 anos) → $115,000-150,000
     ↓
-Incident Response Team Lead (8-12 years) → $150,000-190,000
+Líder da equipe de resposta a incidentes (8-12 anos) → $150,000-190,000
     ↓
-Director of Incident Response (12+ years) → $190,000-250,000+
+Diretor de resposta a incidentes (12+ anos) → $190,000-250,000+
 ```
 
 **Competências necessárias**:
@@ -850,39 +850,39 @@ ______
 **Estrutura do currículo**:
 
 ```
-[Your Name]
-[LinkedIn URL] | [GitHub URL] | [Email] | [Phone] | [Location]
+[Seu nome]
+[URL do LinkedIn] | [URL do GitHub] | [E-mail] | [Telefone] | [Localização]
 
-SUMMARY
-Results-driven cybersecurity professional with hands-on experience in [specific skills].
-Certified in [certifications]. Passionate about [specific security area].
+RESUMO
+Profissional de cibersegurança orientado a resultados, com experiência prática em [habilidades específicas].
+Certificado em [certificações]. Interesse especial em [área de segurança específica].
 
-TECHNICAL SKILLS
-- Security: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
-- Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
-- Programming: Python, PowerShell, Bash, SQL
-- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
+HABILIDADES TÉCNICAS
+- Segurança: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
+- Nuvem: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Ferramentas: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
+- Programação: Python, PowerShell, Bash, SQL
+- Estruturas de referência: NIST CSF, MITRE ATT&CK, OWASP Top 10
 
-CERTIFICATIONS
-- CompTIA Security+ (Date)
-- AWS Certified Security Specialty (Date)
-- [Other relevant certs]
+CERTIFICAÇÕES
+- CompTIA Security+ (data)
+- AWS Certified Security Specialty (data)
+- [outras certificações relevantes]
 
-PROFESSIONAL EXPERIENCE
-[Company Name] - [Security Role] (Dates)
-- QUANTIFY achievements (Reduced false positives by 40%)
-- USE security keywords (SIEM, incident response, threat hunting)
-- SHOW impact (Identified and remediated 15 critical vulnerabilities)
+EXPERIÊNCIA PROFISSIONAL
+[Nome da empresa] - [Cargo na área de segurança] (datas)
+- Quantifique resultados (redução de 40% nos falsos positivos)
+- Use termos de segurança (SIEM, resposta a incidentes, busca de ameaças)
+- Mostre o impacto (identificação e correção de 15 vulnerabilidades críticas)
 
-PROJECTS (If entry-level or career changer)
-[Project Name] - [Technology Stack]
-- Built [specific security tool/system]
-- Demonstrates [specific skills]
-- GitHub: [link]
+PROJETOS (para quem está começando ou mudando de carreira)
+[Nome do projeto] - [Pilha tecnológica]
+- Crie [ferramenta/sistema de segurança específico]
+- Demonstre [habilidades específicas]
+- GitHub: [URL]
 
-EDUCATION
-[Degree] in [Field], [University] (Date)
+FORMAÇÃO
+[Diploma] em [Área], [Universidade] (data)
 ```
 
 **Dicas para o currículo**:
@@ -966,18 +966,17 @@ EDUCATION
 
 **Exemplo de e-mail de negociação**:
 ```
-Thank you for the offer. I'm excited about the opportunity to join [Company] as [Role].
+Agradeço pela oferta. Fico muito feliz com a oportunidade de integrar a [Empresa] como [Cargo].
 
-After reviewing the offer and researching market rates for this position in [Location],
-I'd like to discuss the compensation package. Based on my [certifications/experience/skills],
-I was hoping for a base salary in the range of $[X-Y].
+Depois de analisar a proposta e pesquisar os valores de mercado para esta função em [Localização], gostaria de conversar sobre o pacote de remuneração. Considerando minhas [certificações/experiência/habilidades], eu esperava um salário-base na faixa de $[X-Y].
 
-Additionally, I'd appreciate if we could discuss:
-- Annual training/certification budget
-- Remote work flexibility
-- [Other priorities]
+Também gostaria de conversar sobre:
+- Orçamento anual para treinamento e certificações
+- Flexibilidade para trabalho remoto
+- [outras prioridades]
 
-I'm confident I can deliver significant value to the team and look forward to discussing this further.
+Tenho confiança de que posso agregar valor significativo à equipe e aguardo a oportunidade de conversar mais sobre isso.
+
 ```
 
 ______

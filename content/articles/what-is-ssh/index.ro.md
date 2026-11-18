@@ -1,6 +1,7 @@
 ---
 title: "Puterea SSH: Accesul la distanță și gestionarea securizată la distanță simplificate"
 date: 2023-06-14
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Descoperiți beneficiile SSH, învățați cum să generați chei SSH, să vă conectați la servere la distanță, să transferați fișiere în siguranță și să personalizați configurațiile SSH."
@@ -9,7 +10,6 @@ cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "O ilustrație de desen animat a unei persoane care se conectează în siguranță la un server folosind SSH."
 coverCaption: ""
 ---
-
 **Ce este SSH și cum se utilizează?**
 
 SSH (Secure Shell) este un protocol de rețea care oferă o metodă sigură și criptată de accesare a calculatoarelor și serverelor de la distanță. Acesta permite utilizatorilor să se conecteze și să gestioneze în siguranță sistemele la distanță printr-o rețea nesecurizată, cum ar fi internetul. Acest articol va oferi o prezentare generală a SSH, a beneficiilor sale și a modului de utilizare eficientă a acestuia.
@@ -85,7 +85,7 @@ scp /path/to/local/file username@remote_server_ip:/path/to/remote/location
 
 4. Introduceți parola sau furnizați calea către cheia privată dacă vi se solicită. Fișierul va fi copiat în siguranță pe serverul de la distanță.
 
-### SSH Configuration
+### Configurarea SSH
 
 Fișierele de configurare SSH vă permit să personalizați și să reglați cu precizie comportamentul clientului SSH. Fișierul principal de configurare este de obicei localizat la `/etc/ssh/sshd_config` pe partea serverului și `~/.ssh/config` pe partea clientului. Prin editarea acestor fișiere, puteți defini opțiuni personalizate, cum ar fi numele de utilizator, numerele de port și setările de conectare implicite.
 

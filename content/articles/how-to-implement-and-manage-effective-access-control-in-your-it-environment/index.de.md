@@ -1,10 +1,11 @@
 ---
 title: "Effektive Zugangskontrolle: Best Practices für die IT-Sicherheit"
 date: 2023-04-13
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie sensible Daten und Systeme schützen können, indem Sie wirksame Maßnahmen zur Zugriffskontrolle in Ihrer IT-Umgebung implementieren."
-tags: ["Zugangskontrolle", "IT-Sicherheit", "Cybersecurity", "Passwörter", "Biometrische Authentifizierung", "Rollenbasierte Zugriffskontrolle", "Multi-Faktor-Authentifizierung", "Datenschutz", "Risikobewertung", "Ausbildung der Mitarbeiter", "Werkzeuge für die Rechnungsprüfung", "Werkzeuge für die Berichterstattung", "Penetrationstests", "Bewertung der Anfälligkeit", "Physische Zugangskontrolle", "Logische Zugangskontrolle", "Vorschriften zur Einhaltung", "HIPAA", "GDPR"]
+tags: ["Zugangskontrolle", "IT-Sicherheit", "Cybersicherheit", "Passwörter", "Biometrische Authentifizierung", "Rollenbasierte Zugriffskontrolle", "Multi-Faktor-Authentifizierung", "Datenschutz", "Risikobewertung", "Ausbildung der Mitarbeiter", "Werkzeuge für Sicherheitsprüfungen", "Werkzeuge für die Berichterstattung", "Penetrationstests", "Bewertung der Anfälligkeit", "Physische Zugangskontrolle", "Logische Zugangskontrolle", "Vorschriften zur Einhaltung", "HIPAA", "GDPR"]
 cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "Eine verschlossene Tür mit einem Fingerabdruck-Scanner als einziges Mittel, um Zugang zu erhalten."
 coverCaption: ""
@@ -44,7 +45,7 @@ Die Umsetzung einer wirksamen Zugangskontrolle erfordert einen umfassenden Ansat
 
 3. **Implementieren Sie logische Kontrollen**: Logische Kontrollen sind ein wesentlicher Bestandteil der Zugangskontrolle. Dazu gehören Maßnahmen wie Passwörter, biometrische Authentifizierung und rollenbasierte Zugangskontrolle. Logische Kontrollen sollten auf der Grundlage der Ergebnisse Ihrer Risikobewertung implementiert werden.
 
-4. **Durchsetzung von Passwortrichtlinien**: Passwörter sind eine gängige Form der logischen Zugangskontrolle. Um die Wirksamkeit von Passwörtern zu gewährleisten, sollten Unternehmen strenge Passwortrichtlinien durchsetzen. Passwortrichtlinien sollten die Benutzer dazu verpflichten, starke, komplexe Passwörter zu erstellen und diese regelmäßig zu ändern.
+4. **Durchsetzung von Passwortrichtlinien**: Passwörter sind eine gängige Form der logischen Zugangskontrolle. Um die Wirksamkeit von Passwörtern zu gewährleisten, sollten Unternehmen strenge Passwortrichtlinien durchsetzen. Passwortrichtlinien sollten die Benutzer dazu verpflichten, [starke Passwörter](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) zu erstellen und diese regelmäßig zu ändern.
 
 5. **Implementieren Sie die Multi-Faktor-Authentifizierung**: Die Multi-Faktor-Authentifizierung ist ein wirksames Mittel, um die Sicherheit Ihrer IT-Umgebung zu erhöhen. Bei der Multi-Faktor-Authentifizierung müssen die Benutzer mehr als eine Form der Authentifizierung angeben, z. B. ein Passwort und einen Fingerabdruck oder eine Smartcard und eine PIN.
 

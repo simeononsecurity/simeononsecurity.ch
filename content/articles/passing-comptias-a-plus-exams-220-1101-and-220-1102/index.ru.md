@@ -72,9 +72,9 @@ coverCaption: ""
 
 Одним из лучших ресурсов для подготовки к экзаменам CompTIA A+ является официальная платформа онлайн-обучения CompTIA CertMaster. CertMaster предлагает интерактивное обучение с использованием различных учебных материалов, включая видео, практические вопросы и флэш-карты.
 
-Другие авторитетные учебные ресурсы включают [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), the [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), and the [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN) 
+Другие авторитетные учебные ресурсы включают [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), и [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN).
 
-Кроме того, существует множество онлайновых курсов и учебных пособий, доступных через таких провайдеров, как [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/) При использовании различных учебных ресурсов важно сосредоточиться на тех, которые соответствуют целям экзамена, и использовать ресурсы из авторитетных источников, чтобы гарантировать точность и качество.
+Кроме того, существует множество онлайновых курсов и учебных пособий, доступных через таких провайдеров, как [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/) и [Coursera](https://www.coursera.org/). При использовании различных учебных ресурсов важно сосредоточиться на тех, которые соответствуют целям экзамена, и использовать ресурсы из авторитетных источников, чтобы гарантировать точность и качество.
 
 {{< youtube id="87t6P5ZHTP0" >}}{{< youtube id="OS9MJjNK6gA" >}}
 

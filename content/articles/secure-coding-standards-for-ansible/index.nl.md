@@ -1,6 +1,7 @@
 ---
 title: "Richtlijnen voor veilig coderen met Ansible: Beste werkwijzen"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer de best practices voor het schrijven van veilige code met Ansible, een populaire tool voor configuratiebeheer en implementatie."
@@ -111,7 +112,7 @@ Ontwikkelaars moeten gebruikersinvoer zuiveren om **code-injectie** en andere be
 Ontwikkelaars kunnen de `regex_replace` filter in Ansible om gebruikersinvoer te zuiveren. De `regex_replace` Met het filter kunnen ontwikkelaars patronen in tekenreeksen vervangen door andere patronen. Om bijvoorbeeld alle niet-alfanumerieke tekens in een tekenreeks te vervangen door een lege tekenreeks, kunnen ontwikkelaars de volgende code gebruiken:
 
 ```yaml
-- name: Sanitize user input
+- name: Gebruikersinvoer opschonen
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

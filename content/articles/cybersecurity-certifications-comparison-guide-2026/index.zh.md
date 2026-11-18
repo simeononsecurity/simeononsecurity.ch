@@ -1,7 +1,7 @@
 ---
 title: "2026 年网络安全认证对比"
 date: 2026-05-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "对比 2026 年网络安全认证机构、价格、投资回报和职业路径适配度。"
@@ -140,12 +140,12 @@ ______
 
 **真实案例：**
 ```
-Job Listing Analysis (SOC Analyst I, Fortune 500 Company):
-"Required: Security+ or equivalent"
-"Preferred: Bachelor's degree OR 2 years experience"
+招聘信息分析（财富 500 强公司的 I 级 SOC 分析师）：
+“要求：Security+ 或同等资格”
+“优先：学士学位或 2 年经验”
 
-Translation: Security+ = Entry ticket. Nobody cares after 2 years of experience.
-Salary Range: $60,000-$75,000
+解读：Security+ 是入门门槛。积累 2 年经验后，这项认证便不再重要。
+薪资范围：$60,000-$75,000
 ```
 **2026 年 AI 整合：**
 新的 SECT AI+ 涵盖：
@@ -195,12 +195,12 @@ CISSP 做到了一件了不起的事：**HR 会在各级岗位中列出它**，�
 
 **招聘信息中的 CISSP：**
 ```
-Entry-Level SOC Analyst: "CISSP preferred" (12% of listings)
-Mid-Level Security Engineer: "CISSP required" (45% of listings)
-Senior Security Architect: "CISSP required" (78% of listings)
-CISO: "CISSP required" (85% of listings)
+初级 SOC 分析师：“优先考虑 CISSP”（12% 的招聘信息）
+中级安全工程师：“要求 CISSP”（45% 的招聘信息）
+高级安全架构师：“要求 CISSP”（78% 的招聘信息）
+CISO：“要求 CISSP”（85% 的招聘信息）
 
-Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
+现实情况：CISSP 出现在许多招聘信息中，但真正的初学者没有任何岗位将其列为“必需”。
 ```
 **CISSP 八大领域（2026 版）：**
 1. 安全与风险管理
@@ -230,14 +230,14 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 
 **成本分析（5 年总拥有成本）：**
 ```
-CISSP Total Cost of Ownership (5 years):
-- Exam: $749
-- Study materials: $200-500
-- Renewal fees: $135/year × 5 = $675
-- Total 5-year cost: $1,624-$1,924
-- Annual maintenance effort: 40 CPE credits/year
+CISSP 总持有成本（5 年）：
+- 考试：$749
+- 学习材料：$200-500
+- 续费：$135/年 × 5 = $675
+- 5 年总成本：$1,624-$1,924
+- 每年维护投入：40 个 CPE 学分/年
 
-ROI: High if targeting management roles, moderate for technical IC roles
+投资回报：以管理岗位为目标时较高，以技术个人贡献者岗位为目标时中等
 ```
 **2026 年 AI 整合：**
 ISC2 新的 **AI Security Certificate** 涵盖：
@@ -307,14 +307,14 @@ ______
 
 **价格现实：**
 ```
-OSCP Cost Breakdown (2026):
-- Self-Guided Package (3 months lab time): $1,699
-- Learn One Package (3 months + Learn One year): $2,699
-- Exam retake: $249 each
+OSCP 成本明细（2026）：
+- Self-Guided 套餐（3 个月实验室时长）：$1,699
+- Learn One 套餐（3 个月 + 一年 Learn One）：$2,699
+- 补考：每次 $249
 
-Removed in 2025: Learn Unlimited (unlimited time) - this angered community
+2025 年移除：Learn Unlimited（不限时）。此举引起社区不满。
 
-Average total cost including retakes: $1,950-$2,500
+包含补考的平均总成本：$1,950-$2,500
 ```
 **优势：**
 - **行业黄金标准：** 最受认可的进攻性安全认证
@@ -485,19 +485,19 @@ ______
 
 **云计算为何在 2026 年占优：**
 ```
-Traditional Cybersecurity Jobs (2020-2024):
-- On-premises data centers
-- Physical firewalls and network security
-- Windows Server and Active Directory
-- VPN concentrators and DMZs
+传统网络安全岗位 (2020-2024):
+- 企业本地数据中心
+- 物理防火墙与网络安全
+- Windows Server 和 Active Directory
+- VPN 集中器与 DMZ 区域
 
-Modern Cybersecurity Jobs (2025-2026):
-- AWS, Azure, GCP cloud environments
-- Container security (Docker, Kubernetes)
-- Serverless security (Lambda, Azure Functions)
-- Identity and access management (IAM)
-- Infrastructure as Code (Terraform, CloudFormation)
-- AI/ML model security
+现代网络安全岗位 (2025-2026):
+- AWS、Azure、GCP 云环境
+- 容器安全 (Docker、Kubernetes)
+- 无服务器计算安全 (Lambda、Azure Functions)
+- 身份与访问管理 (IAM)
+- 基础设施即代码 (Terraform、CloudFormation)
+- AI/ML 模型安全
 ```
 **技能差距巨大。** 企业迁移到云的速度超过安全从业者掌握云技能的速度，形成了前所未有的需求。
 
@@ -544,23 +544,23 @@ Modern Cybersecurity Jobs (2025-2026):
 
 **成本分析：云与传统认证：**
 ```
-Traditional Security Path (3-year cost):
+传统安全职业路径（3 年成本）：
 - Security+: $404
 - CySA+: $404
 - PenTest+: $404
-- CISSP: $749 + $405 renewal
-Total: $2,366 over 3 years
+- CISSP: $749 + $405 续费
+总计：3 年 $2,366
 
-Cloud Security Path (3-year cost):
+云安全职业路径（3 年成本）：
 - AWS Cloud Practitioner: $100
 - AWS Solutions Architect Associate: $150
 - AWS Security Specialty: $300
 - Azure Fundamentals: $99
-- Azure Security Engineer: $165 + $165 renewal
-Total: $979 over 3 years
+- Azure Security Engineer: $165 + $165 续费
+总计：3 年 $979
 
-Savings: $1,387 (58% less expensive)
-Job Market Demand: 38% vs 36% (cloud higher)
+节省：$1,387（费用低 58%）
+就业市场需求：38% 对 36%（云安全更高）
 ```
 **云认证的优势：**
 - **需求最高：** 38% 的岗位要求云认证（AWS + Azure）
@@ -642,19 +642,19 @@ SANS Institute 提供**优秀培训内容**，讲师都是顶尖实战人员。�
 
 **问题在于价格。**
 ```
-SANS GPEN (Penetration Testing) Total Cost:
-- SANS SEC560 Course: $7,995
-- GPEN Exam (2 attempts): $979
-- Books and materials: $200
-- Travel/lodging (if in-person): $2,000+
-Total: $11,174 - $13,174
+SANS GPEN（渗透测试）总成本：
+- SANS SEC560 课程：$7,995
+- GPEN 考试（2 次机会）：$979
+- 书籍和材料：$200
+- 差旅/住宿（线下参加时）：$2,000+
+总计：$11,174 - $13,174
 
-Alternative:
+替代方案：
 - OSCP: $1,699-2,699
-- Or HackTheBox CPTS: $499
-- Or OffSec + HTB combined: $2,198
+- 或 HackTheBox CPTS: $499
+- 或 OffSec + HTB 组合：$2,198
 
-Savings with alternatives: $8,976-$10,976 (75-83% less expensive)
+采用替代方案可节省：$8,976-$10,976（费用低 75-83%）
 ```
 **SANS 价格明细：**
 
@@ -1023,11 +1023,11 @@ ______
 
 **AI 时代的认证策略：**
 ```
-WRONG Approach:
-"Get AI-proof certification" → No such thing exists
+错误做法：
+“获取一项能抵御 AI 的认证” → 这种认证并不存在
 
-RIGHT Approach:
-"Get AI-aware certifications" → Choose vendors updating content
+正确做法：
+“获取了解 AI 的认证” → 选择会更新课程内容的供应商
 ```
 **领先机构：** AWS、Azure、ISC2、SANS（价格高但内容新）
 **落后机构：** INE、EC-Council，以及不更新内容的机构

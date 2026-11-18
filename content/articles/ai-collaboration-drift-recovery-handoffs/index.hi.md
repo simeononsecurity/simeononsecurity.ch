@@ -1,7 +1,7 @@
 ---
 title: "AI एजेंट ड्रिफ्ट की पुनर्प्राप्ति और हैंडऑफ़ कार्यप्रवाह"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "पुराने स्रोतों और नीति अडैप्टर की पहचान करें, रुकी हुई प्रकाशन प्रक्रिया बहाल करें और एजेंटों के बीच स्वतंत्र हैंडऑफ़ सत्यापित करें।"
@@ -46,14 +46,14 @@ coverCaption: ""
 ## प्रारंभिक जाँच करें
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+MAP-01 पढ़ें और उसका संशोधन दर्ज करें।
+POL-01 पढ़ें और सक्रिय एडेप्टर संस्करणों की तुलना करें।
+मैप में दिए स्थानों से REQ-17 और RUN-04 पढ़ें।
+सुरक्षित main पर config.json पढ़ें।
+स्थिर प्रस्ताव और भूमिकाओं की मौजूदा समीक्षाएँ पढ़ें।
+मौजूदा स्रोतों की समीक्षा किए गए आधारों से तुलना करें।
+अंतर, अस्वीकृत पठन और लंबित प्रकाशन सूचीबद्ध करें।
+हर अंतर के समाधान तक प्रभावकारी लेखन रोकें।
 ```
 
 **योगदानकर्ता मसौदा बनाने से पहले प्रारंभिक जाँच करता है। प्रकाशक लिखने से पहले उसे दोहराता है।** संस्करण तुलना प्रस्ताव के साथ रखें। साप्ताहिक जाँच इन पढ़ाइयों को पूरक करती है, उनकी जगह नहीं लेती।
@@ -103,16 +103,16 @@ choices:
 ## स्वतंत्र हैंडऑफ़ सत्यापित करें
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+हस्तांतरण: HANDOFF-042
+कार्य: PROP-042
+मैप और नीति: मौजूदा स्वीकृत संशोधन संलग्न करें
+साक्ष्य: आवश्यकता, runbook और configuration संदर्भ
+लेजर: completed, failed, pending
+निर्णय: मालिक का विकल्प और प्रस्ताव का निश्चित संशोधन
+सीमाएँ: रनटाइम हटाने का परीक्षण या उत्पादन डेटा नहीं
+अगली भूमिका: जवाबदेह भूमिका
+अगली कार्रवाई: एक सीमित कदम
+रुकें: आधार बदला, पहुँच अस्वीकृत या अधिकारों में टकराव
 ```
 
 **पिछली बातचीत के बजाय मानचित्र और हैंडऑफ़ के साथ** दूसरा टूल या साफ़ सत्र खोलें। नए स्रोत-पाठ, नया मैनिफेस्ट और लंबित कार्रवाई की पहचान अनिवार्य करें। हाथ से जुटाया ब्राउज़र प्रमाण स्नैपशॉट के रूप में चिह्नित और लिखने से पहले दोबारा जाँचा हो तो मान्य रहता है।
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **प्रतिपूर्ति इतिहास मिटाना नहीं है।** तीस दिन करने का प्रयास, उसकी विफलता और बाद की बहाली अलग रिकॉर्ड में रखें। अंतिम स्रोत सात बताता है, जबकि डिलीवरी इतिहास बताता है कि स्वीकृत प्रस्ताव क्यों पूरा नहीं हुआ।
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+पुनर्प्राप्ति निर्णय: उदाहरणात्मक क्षतिपूर्ति
+मूल प्रस्ताव: PROP-042 संशोधन 1
+देखा गया अंतर: आवश्यकता 30, configuration/runbook 7
+मालिक का निर्णय: स्वीकृत आधार आशय बहाल करें
+समीक्षा विषय: निश्चित क्षतिपूर्ति की मौजूदा आवश्यकता-संस्करण से तुलना
+परिणाम: परिणामी संशोधन दर्ज करें और सात-दिन का मान फिर पढ़ें
+मूल डिलीवरी: कारण सहित वापस लें या रोकें
+सीमा: रनटाइम पर हटाना या डेटा बहाल करना नहीं हुआ
 ```
 
 **दूसरे लेखक का जोड़ा अपवाद स्पष्ट रूप से बनाए रखें।** पुराना पेज बिना जाँच चिपकाने से वैध बीच का बदलाव हट सकता है। वर्तमान और इच्छित पाठ की तुलना करें, फिर वर्तमान संस्करण के आधार पर न्यूनतम प्रतिपूरक बदलाव की समीक्षा करें।
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **साफ़ सत्र और अलग समीक्षक इस्तेमाल करें।** मानचित्र, तय पैकेज, लॉग और पुनर्प्राप्ति निर्णय दें। पिछली चैट न दें। प्राप्तकर्ता से वर्तमान इरादा, कॉन्फ़िगरेशन, संचालन निर्देश और अगली अधिकृत कार्रवाई बताने को कहें।
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+मैप किए गए मौजूदा स्रोत स्वतंत्र रूप से पढ़ें।
+स्वीकृत आशय, committed configuration और delivery स्थिति अलग रखें।
+उनकी समीक्षा किए पैकेज और लेजर से तुलना करें।
+छूटी हुई रीड और बदले आधार सूचीबद्ध करें।
+जवाबदेह भूमिका सहित एक सीमित अगला कदम सुझाएँ।
+इस हस्तांतरण को अनुमोदन या प्रकाशन की अनुमति न मानें।
 ```
 
 **अपेक्षित तर्क:** आधार स्थिति बहाल बताने से पहले प्राप्तकर्ता प्रतिपूर्ति का परिणाम सत्यापित करता है। यदि वह हैंडऑफ़ से केवल “सात दिन” दोहराता है, तो स्वतंत्र पढ़ने की शर्त जाँची नहीं गई। दूसरी सारांश के बजाय स्रोत प्रमाण माँगें।
@@ -219,4 +219,4 @@ Do not treat this handoff as approval or publication permission.
 
 ## अगले कदम
 
-**दोनों ट्रैक और दूसरे पाठक के साथ [Retention Capstone](/articles/ai-collaboration-retention-capstone/) पूरा करें।** वर्तमान स्रोत-पाठ, संस्करण असंगति, निर्णय मालिक, समीक्षा किया पुनर्प्राप्ति, परिणाम-पठन और स्वतंत्र पुनर्निर्माण दिखाएँ।
+**दोनों ट्रैक और दूसरे पाठक के साथ [रिटेंशन समापन पाठ](/articles/ai-collaboration-retention-capstone/) पूरा करें।** वर्तमान स्रोत-पाठ, संस्करण असंगति, निर्णय मालिक, समीक्षा किया पुनर्प्राप्ति, परिणाम-पठन और स्वतंत्र पुनर्निर्माण दिखाएँ।

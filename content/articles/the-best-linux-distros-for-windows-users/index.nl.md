@@ -13,7 +13,7 @@ coverCaption: ""
 
 **Beste Linux Distro's om over te stappen van Windows**
 
-Overweegt u over te stappen van Windows naar Linux? Met het grote aanbod aan beschikbare Linux-distributies kan het een uitdaging zijn om de juiste voor uw behoeften te kiezen. In dit artikel verkennen we enkele van de beste Linux-distro's die een soepele overgang van Windows bieden, waaronder [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php), and [**Manjaro**](https://manjaro.org/)
+Overweegt u over te stappen van Windows naar Linux? Met het grote aanbod aan beschikbare Linux-distributies kan het een uitdaging zijn om de juiste voor uw behoeften te kiezen. In dit artikel verkennen we enkele van de beste Linux-distro's die een soepele overgang van Windows bieden, waaronder [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php) en [**Manjaro**](https://manjaro.org/).
 
 ______
 

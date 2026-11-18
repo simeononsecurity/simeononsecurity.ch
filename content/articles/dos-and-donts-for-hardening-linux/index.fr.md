@@ -1,10 +1,11 @@
 ---
 title: "Ce qu'il faut faire et ne pas faire pour durcir votre système Linux"
 date: 2023-02-28
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Apprenez les choses essentielles à faire et à ne pas faire pour renforcer votre système Linux, y compris la mise à jour, l'utilisation de pare-feu, l'activation de SELinux ou AppArmor, la configuration de politiques de mot de passe et la surveillance des journaux du système."
-tags: ["Linux security", "durcissement du système", "pare-feu", "SELinux", "AppArmor", "politique en matière de mot de passe", "mises à jour du système", "journaux du système", "modules de sécurité", "les politiques de contrôle d'accès", "cybersécurité", "sécurité du système", "sécurité des réseaux", "gestion de la vulnérabilité", "meilleures pratiques en matière de sécurité", "Sécurité informatique", "la sécurité de l'information", "mises à jour du logiciel", "accès à la racine", "gestionnaire de mot de passe"]
+tags: ["Sécurité de Linux", "durcissement du système", "pare-feu", "SELinux", "AppArmor", "politique en matière de mot de passe", "mises à jour du système", "journaux du système", "modules de sécurité", "les politiques de contrôle d'accès", "cybersécurité", "sécurité du système", "sécurité des réseaux", "gestion de la vulnérabilité", "meilleures pratiques en matière de sécurité", "Sécurité informatique", "la sécurité de l'information", "mises à jour du logiciel", "accès à la racine", "gestionnaire de mot de passe"]
 cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Un cadenas de dessin animé tient un bouclier sur lequel figure le mot Linux, tandis qu'une flèche rebondit sur le bouclier."
 coverCaption: ""
@@ -296,7 +297,7 @@ ______
 
 L'utilisation de mots de passe faibles est une erreur courante qui peut rendre votre système Linux vulnérable aux attaques. Les attaquants peuvent utiliser des outils pour deviner les mots de passe basés sur des mots, des noms ou des dates courants. Il est important d'utiliser des mots de passe forts et uniques qui ne sont pas facilement devinables.
 
-Vous pouvez créer des mots de passe forts en utilisant une combinaison de lettres majuscules et minuscules, de chiffres et de caractères spéciaux. Il est également conseillé d'utiliser un [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) peut également vous aider à mémoriser vos mots de passe et à éviter d'utiliser le même mot de passe pour plusieurs comptes.
+Vous pouvez créer des mots de passe forts en utilisant une combinaison de lettres majuscules et minuscules, de chiffres et de caractères spéciaux. Il est également conseillé d'utiliser un [gestionnaire de mots de passe](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pour générer et stocker des mots de passe complexes en toute sécurité. Les [gestionnaires de mots de passe](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) peuvent aussi vous aider à mémoriser vos mots de passe et à éviter d'utiliser le même mot de passe pour plusieurs comptes.
 
 ### Autoriser l'accès SSH à la racine
 

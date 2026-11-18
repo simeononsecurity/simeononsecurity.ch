@@ -1,7 +1,7 @@
 ---
 title: "Normes de codage sécurisé pour Python : Meilleures pratiques"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques de codage sécurisé en Python pour minimiser le risque de failles de sécurité et protéger les données sensibles."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Fonction permettant de valider l’entrée à l’aide d’expressions régulières.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python possède plusieurs fonctions qui peuvent être vulnérables à des probl�
 
 Par exemple, au lieu d'utiliser `eval()` pour convertir une chaîne de caractères en un entier, les développeurs doivent utiliser la fonction `int()` fonction.
 ```py
-# Instead of using eval function
+# Au lieu d'utiliser la fonction eval
 x = eval('10')
 
-# Use int function
+# Utilisez la fonction int
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Fonction permettant de chiffrer un mot de passe avec la bibliothèque de cryptographie.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ Les applications web sont vulnérables à plusieurs risques de sécurité tels q
 Par exemple, lors de l'écriture de requêtes SQL, utilisez des **requêtes paramétrées** au lieu de concaténer l'entrée de l'utilisateur avec la requête. Les requêtes paramétrées empêchent les attaques par injection SQL en traitant l'entrée de l'utilisateur comme des données plutôt que comme un code exécutable.
 
 ```py
-# Instead of this
+# À la place
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Utilisez une requête paramétrée
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

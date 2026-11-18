@@ -1,17 +1,16 @@
 ---
 title: "Docker em LXC no Proxmox: confiabilidade, evidências e migração para VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Avalie o Docker dentro do Proxmox LXC com uma falha documentada do AppArmor, uma análise cuidadosa de um relato de travamento do host, comandos de diagnóstico e um plano de migração para VM."
-genre: ["Virtualização", "Administração Linux", "Homelab"]
+genre: ["Virtualização", "Administração Linux", "laboratório doméstico"]
 tags: ["Docker no LXC", "Docker no Proxmox", "LXC do Proxmox", "máquina virtual Docker", "confiabilidade do homelab", "travamentos do host Proxmox", "VM Debian para Docker", "contêineres sem privilégios", "contêineres aninhados", "isolamento do kernel Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "drivers de armazenamento Docker", "repositório de imagens containerd", "pressão de memória", "Linux PSI", "journal persistente", "backups do Proxmox", "backups de bind mounts", "migração de VM", "domínios de falha", "passthrough de GPU", "solução de problemas do servidor doméstico"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Ilustração isométrica de um servidor doméstico com caixas de cargas de trabalho aninhadas e um compartimento separado para uma máquina virtual conectado ao hardware compartilhado"
 coverCaption: "Ilustração conceitual do hardware compartilhado e de diferentes limites de isolamento de cargas de trabalho"
 ---
-
 **Docker dentro de Linux Containers (LXC)** reduz parte da sobrecarga de infraestrutura, mas aumenta as interações entre o ambiente de execução das aplicações e o host Proxmox. Para serviços Docker dos quais sua casa depende, uma **máquina virtual (VM) Debian** é um ponto de partida prático porque separa o kernel convidado e simplifica o ambiente que você precisa reproduzir durante a investigação de problemas. Este artigo examina o vídeo fornecido, verifica o relato de incidente relacionado e acrescenta falhas documentadas e um plano de migração.
 
 <!--more-->
@@ -66,14 +65,14 @@ O **período de observação** merece análise. Dezesseis dias estão dentro de 
 ## Localize o limite do kernel
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker dentro do LXC:
+Aplicação -> ambiente de execução do Docker -> namespaces e política do LXC
+                    -> kernel do host Proxmox -> hardware físico
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker dentro de uma VM:
+Aplicação -> ambiente de execução do Docker -> kernel Linux convidado
+                    -> hardware virtual / KVM-QEMU
+                    -> kernel do host Proxmox -> hardware físico
 ```
 
 **LXC** usa o kernel do host. Namespaces, grupos de controle, recursos, seccomp e perfis de segurança restringem processos sem fornecer um kernel separado. Adicionar Docker dentro de LXC cria outra camada de gerenciamento de contêineres para cargas de trabalho que usam o mesmo kernel subjacente do host. [Arquitetura LXC e recursos de contenção](https://linuxcontainers.org/lxc/introduction/)
@@ -290,17 +289,17 @@ Os **testes de aceitação** devem acompanhar a finalidade do serviço. Um estad
 **Use evidências medidas** para escolher uma implantação e definir quando você a revisará:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Impacto no serviço e na residência:
+Versões atuais de host / kernel / LXC / Docker:
+Acesso necessário a GPU, dispositivos e rede:
+Memória, CPU, armazenamento e latência medidos:
+Sinal de falha conhecido e intervalo de recorrência:
+Cobertura de backup e evidência de restauração bem-sucedida:
+Arquitetura escolhida e motivo:
+Janela de indisponibilidade permitida e meta de recuperação:
+Procedimento de migração e reversão de dados após a migração:
+Testes de aceitação e período de observação:
+Condição que exige nova análise da arquitetura:
 ```
 
 **Escolha o aninhamento LXC de forma deliberada** quando seus benefícios justificarem o trabalho de integração e você tiver testado o caminho de recuperação. Escolha uma VM quando um ambiente convidado Docker convencional e um kernel convidado separado simplificarem a operação do serviço. Nenhuma decisão substitui backups, monitoramento e manutenção do host.
@@ -327,7 +326,7 @@ Para **trabalhos relacionados**, consulte o [guia de atualização do Proxmox VE
 | **[Tópico de incidente do Proxmox](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Observações em primeira pessoa e atualização da migração |
 | **[Conjunto de ferramentas de contêineres do Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Arquitetura de contêineres e distinção atual de OCI |
 | **[Problema 4968 do runc](https://github.com/opencontainers/runc/issues/4968)** | Falha de inicialização documentada e correção histórica de pacote |
-| **[Pull request 4609 do LXC](https://github.com/lxc/lxc/pull/4609)** | Alteração upstream do AppArmor integrada |
+| **[solicitação de alteração do LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Alteração upstream do AppArmor integrada |
 | **[Documentação do Docker](https://docs.docker.com/engine/install/debian/)** | Base de instalação do convidado, com referências específicas de ambiente de execução e armazenamento acima |
 | **[Documentação Linux PSI](https://docs.kernel.org/accounting/psi.html)** | Interpretação da pressão de recursos |
 | **[Documentação Linux watchdog](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Condições definidas de bloqueio do kernel |

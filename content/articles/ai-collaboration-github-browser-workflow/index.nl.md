@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI-workflow voor niet-programmeurs: Issues en pull requests"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Gebruik browserbewerkingen, Issues, chatcontextpakketten en beoordeelde pull requests zonder lokale ontwikkelomgeving."
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **Label het pakket als snapshot-gebaseerd** totdat de maintainer het voor publicatie vergelijkt met de actuele bronnen.
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+Projectnaam: export-service-lab
+Taak: PROP-042 draft, no publication permission
+Bevoegdheid: requirement.json, REQ-17 revision 1
+Basiswaarde: retention_days 7
+Beleid: POL-01 version 1
+Aangevraagd voorstel: retention_days 30
+Bewijs: attach browser-verified commit references
+Ontbrekend bewijs: no runtime deletion observations
+Uitvoer: proposed wording, affected files, questions, rollback
+Stop: bron niet beschikbaar, revisie gewijzigd of bevoegdheden in conflict
 ```
 
 **Voeg echte sandboxrevisies privé toe.** Het sjabloon bevat geen afgerond bewijs. Vraag de assistent ontbrekende registraties te benoemen voordat je publicatie aanbeveelt.
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **Ingevuld synthetisch pakket vóór het lezen van een live bron:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+Projectnaam: export-service-lab
+Taak: draft PROP-042 in an Issue
+Goedgekeurde basiswaarde: REQ-17 revision 1, retention_days 7
+Voorstel: retention_days 30, synthetic export files only
+Betrokken records: requirement.json, config.json, proposal.json, runbook.md
+Uitsluitingen: productiegegevens, back-ups en wettelijke bewaarplichten
+Bekend bewijs: supplied lab baseline files
+Ontbrekend bewijs: current main commit, owner decisions, runtime deletion result
+Status: concept, publicatie geblokkeerd tot actuele revisies en controles zijn geverifieerd
+Volgende rol: maintainer supplies verified main commit and runs checks
 ```
 
 **Het pakket is een volledige conceptaanvraag.** De regel over ontbrekend bewijs is bewust opgenomen. Vervang de aangeleverde labbasis door actuele sandboxrevisies voordat je publicatie vraagt.
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Selecteer Issues, New issue** en gebruik de titel **`PROP-042: propose thirty-day synthetic retention`**. Plak deze beschrijving en voeg het bronpakket toe.
 
 ```text
-Proposal: PROP-042
+Voorstel: PROP-042
 Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+Huidige goedgekeurde waarde: 7 days, REQ-17 revision 1
+Aangevraagde waarde: 30 days
+Reden: fictional pilot requirement, not compliance advice
+Reikwijdte: synthetic export records only
+Betrokken bestanden: requirement.json, config.json, runbook.md
+Bewijs: source revisions and policy version attached
+Beoordelaars: product-owner and operations-owner
+Implementatiebeoordelaar: repository-maintainer
+Acceptatie: consistent records, denied publication, fresh handoff
+Terugdraaien: reviewed restoration of the approved baseline
 ```
 
 **Vraag de chat het voorstel met het pakket te vergelijken**, aannames op te sommen en vragen voor de verantwoordelijke eigenaren op te stellen. Bewaar het concept in de Issue. Vraag de chat niet de wijziging goed te keuren en behandel de chatthread niet als beslisregister.
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **Negatieve test:** vraag de chat het voorstel goed te keuren of te publiceren. Het verwachte beleidsgedrag is een antwoord dat alleen een concept levert. Probeer daarna afzonderlijk directe publicatie als bijdrager en registreer de platformweigering met ongewijzigde bronrevisie. Houd gedrags- en toegangscontroletests gescheiden.
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+Overdracht: HANDOFF-042
+Voorstel: PROP-042
+Beleid: POL-01 version 1
+Bronnen: attach current requirement, runbook, and config revisions
+Gepubliceerde waarde: record after reading main
+Voltooid: merged files and check reference
+Resterend: runtime deletion service not tested
+Volgende rol: operations-owner
+Volgende actie: independent source read and runbook verification
+Stop: bron gewijzigd, toegang ontbreekt of bevoegdheden zijn in conflict
 ```
 
 **Start een nieuwe sessie alleen met map en overdracht.** Vereis een nieuwe bronlezing of een expliciet verzoek om browserbewijs. De sessie moet de waarde uit bronregistraties reconstrueren en niet de samenvatting van de vorige assistent herhalen.
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **Een browserbijdrager heeft nog steeds een volledige vraag nodig.** “Wijzig de bewaartermijn naar dertig dagen” laat de huidige autoriteit, scope, beoordelingsstatus en betrokken registraties weg. Geef de chat het bronpakket en een schrijfopdracht. Als het record niet beschikbaar is, vraag je de maintainer om geautoriseerd bewijs in plaats van onthouden tekst te gebruiken.
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+Schrijf een Issue-concept voor PROP-042 op basis van het bijgevoegde synthetische bronpakket.
+Label zeven dagen als de goedgekeurde basiswaarde.
+Label dertig dagen als voorstel.
+Behoud de uitzonderingen voor productiegegevens, back-ups en wettelijke bewaarplichten.
+Noem wijzigingen aan de vereisten, configuratie, het voorstel en het runbook.
+Noem ontbrekend bewijs in plaats van dit met veronderstelde revisies aan te vullen.
+Beweer niet dat de eigenaar heeft goedgekeurd of dat de oplevering is voltooid.
 ```
 
 **Controleer het antwoord voordat je het kopieert.** Kijk of de scope is gewijzigd, een commit is verzonnen of goedkeuring als afgerond wordt beschreven. Verwijder onbewezen beweringen en bewaar openstaande vragen in de Issue. De chat helpt bij het schrijven van het voorstel. De chat levert geen bewijs uit systemen die niet zijn gelezen.
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **Voorbeeld van zwakke tekst:** “Exports blijven nu dertig dagen beschikbaar.” Dit beschrijft levering als afgerond en laat de synthetische scope weg. Gebruik tijdens de beoordeling een voorstelverklaring.
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+Voorgestelde intentie:
+Bewaar synthetische exportbestanden 30 dagen.
+Sluit productiegegevens, back-ups en wettelijke bewaarplichten uit.
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+Huidige goedgekeurde intentie:
+Bewaar synthetische exportbestanden 7 dagen volgens revisie 1 van REQ-17.
 
-Delivery:
-Not published. No runtime deletion service was tested.
+Oplevering:
+Niet gepubliceerd. Er is geen verwijderdienst tijdens uitvoering getest.
 ```
 
 **Vergelijk elk betrokken bestand met deze tekst.** De revisie van de vereiste gaat in de kandidaat vooruit. De configuratie bereikt dertig dagen. De eerste regel van het runbook bereikt dertig dagen en behoudt de labbeperking. Het voorstel noemt zeven dagen nog steeds de vorige waarde en revisie één de basis.

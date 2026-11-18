@@ -1,7 +1,7 @@
 ---
 title: "GitHub Copilot CLI বনাম VS Code: ২০২৬ কর্মপ্রবাহের তুলনা"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Copilot-এর টার্মিনাল এজেন্টের সঙ্গে VS Code অভিজ্ঞতা তুলনা করুন। এতে এডিটর প্রসঙ্গ, ভিজ্যুয়াল ডিফ, Agent মোড, CLI সংযোগ এবং অ্যাকাউন্ট নীতি রয়েছে।"
@@ -74,7 +74,7 @@ copilot
 | সংযোগের আগে | যাচাই |
 |---|---|
 | **Workspace** | নির্দিষ্ট folder খোলা ও trusted |
-| **Execution location** | CLI ও editor integration একই environment নির্দেশ করে |
+| চালানোর স্থান | CLI ও editor integration একই environment নির্দেশ করে |
 | **Selection** | হাইলাইট করা code বর্তমান অনুরোধের সঙ্গে মেলে |
 | **Permissions** | প্রয়োজন হলে proposed-edit review চালু থাকে |
 | **Session** | নির্দিষ্ট conversation চলতে থাকে |
@@ -96,7 +96,7 @@ copilot
 | **দেওয়া context** | লুকানো manual setup effort দেখায় |
 | **সঠিকতা** | plausible code ও verified fix আলাদা করে |
 | **Approval steps** | একই policy-তে supervision burden দেখায় |
-| **Review time** | পুরো patch বোঝার সময় মাপে |
+| পর্যালোচনার সময় | পুরো patch বোঝার সময় মাপে |
 | **Manual repairs** | agent শেষ করার পরের কাজ ধরে |
 | **Usage** | cost ও accepted outcome যুক্ত করে |
 

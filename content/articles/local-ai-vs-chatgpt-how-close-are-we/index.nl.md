@@ -1,7 +1,7 @@
 ---
 title: "Lokale AI versus ChatGPT: hoe dichtbij zijn we echt?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Vergelijk lokale AI met ChatGPT en Claude aan de hand van benchmarkscores, geheugenschattingen, servicesnelheid en agentverificatie. Met scenario's voor RTX 5090, DGX Spark en Mac Studio."
@@ -48,8 +48,8 @@ De [gepubliceerde evaluatiemethode](https://artificialanalysis.ai/methodology/in
 **Geheugenpassing** begint met drie toewijzingen. Modelgewichten bewaren geleerde parameters. De key-value-cache, of **KV-cache**, houdt aandachtsgegevens tijdens inferentie bij. Runtimebuffers en andere software gebruiken de resterende ruimte.
 
 ```text
-Required memory = resident weights + context cache + runtime allowance
-Available memory = physical capacity - operating system and application reserve
+Benodigd geheugen = resident gewichten + contextcache + runtime-reserve
+Beschikbaar geheugen = fysieke capaciteit - gereserveerd geheugen voor besturingssysteem en toepassingen
 ```
 
 **Kwantisatie** verlaagt de opslagprecisie van modelgewichten. Lagere precisie verlaagt het geheugengebruik, terwijl kwaliteit afhangt van model en gekwantiseerde build. Cacheprecisie is een aparte instelling. Een Q4-gewichtbestand bewijst geen vierbitscache.
@@ -78,7 +78,7 @@ De [Qwen3.8-27B-modelkaart](https://huggingface.co/Qwen/Qwen3.8-27B) en [GLM-5.3
 De **aandachtscache van Qwen** geeft een uitgewerkt voorbeeld. De [gepubliceerde configuratie](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json) noemt 64 lagen, volledige aandacht om de vier lagen, vier key-value-heads en een headdimensie van 256.
 
 ```text
-Full-attention KV bytes per token:
+KV-bytes per token bij volledige aandacht:
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -188,8 +188,8 @@ Een **hybride workflow** heeft een expliciete overdrachtsregel nodig. Houd priv�
 **Menselijke hersteltijd** verandert vaak de economie. Een snel lokaal antwoord dat tien minuten correctie vraagt kost meer werktijd dan een trager antwoord dat de review passeert. Tel geaccepteerde resultaten naast inferentie-uitgaven.
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
+Kosten per geaccepteerde taak =
+(hardwaretoewijzing + elektriciteit + servicekosten + onderhoud + beoordelingstijd)
 ÷ accepted tasks
 ```
 

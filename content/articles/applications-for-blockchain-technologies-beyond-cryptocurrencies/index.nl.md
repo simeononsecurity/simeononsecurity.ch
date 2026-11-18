@@ -1,7 +1,7 @@
 ---
 title: "Het potentieel van blockchaintechnologie ontsluiten: Het verkennen van toepassingen die verder gaan dan alleen cryptocurrencies"
 date: 2023-06-23
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ontdek de diverse toepassingen van blockchaintechnologie die verder gaan dan cryptocurrencies en een revolutie teweegbrengen op het gebied van financiën, supply chain management, gezondheidszorg, energie en nog veel meer."
@@ -78,7 +78,7 @@ Asset tokenization vergroot ook de **transparantie** en vermindert fraude, omdat
 
 Kortom, blockchaintechnologie heeft het potentieel om de financiële sector op een aantal manieren te revolutioneren. Van **smart contracts** tot **decentrale financiering**, **grensoverschrijdende betalingen** tot **asset tokenization**, de mogelijkheden zijn eindeloos. Aangezien de technologie zich blijft ontwikkelen, kunnen we de komende jaren nog meer spannende ontwikkelingen verwachten.
 
-### Blockchain in Supply Chain Management
+### Blockchain in toeleveringsketenbeheer
 
 #### Herkomst en traceerbaarheid
 

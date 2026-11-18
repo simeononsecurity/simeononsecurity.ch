@@ -1,7 +1,7 @@
 ---
 title: "Metas Context Language Models: Besseres Agentengedächtnis, kein Ende der Halluzinationen"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Wie Context Language Models das Agentengedächtnis bearbeiten, was die Benchmarks belegen und wie Cachekosten, Modellfähigkeit und nicht vertrauenswürdige Notizen die Zuverlässigkeit beeinflussen."
@@ -48,11 +48,11 @@ Diese Unterscheidung zählt bei jeder Gedächtnistechnik. **Erhaltung und Korrek
 **Rulin Shao und Mitautoren**, darunter Forschende von Meta Superintelligence Labs und der University of Washington, stellten CLMs in einem Preprint vom 29. September 2026 vor. Ihre Implementierung stellt den laufenden Kontext als bearbeitbare Datei bereit. Der Agent ändert sie mit Shellbefehlen oder Code, und die Laufzeit lädt den überarbeiteten Inhalt beim nächsten Aufruf. Siehe [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Gewöhnliche Fortsetzung:
+vorhandener Kontext + neue Antwort + neue Werkzeugausgabe
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Fortsetzung mit bearbeitbarem Kontext:
+Agent überarbeitet die Kontextdatei -> Laufzeit lädt den überarbeiteten Kontext -> nächster Modellaufruf
 ```
 
 **Die Modellarchitektur muss** für den Zero-Shot-Ansatz **nicht ersetzt werden**. Die Laufzeit ergänzt eine Fähigkeit um ein vorhandenes Modell. Die Arbeit untersucht außerdem Anweisungen, erlernte Kontextverwaltung und Reinforcement Learning.
@@ -101,11 +101,11 @@ Die ergänzende TerminalBench-Analyse meldet außerdem **keine Kontextbearbeitun
 **Der KV-Cache** speichert Zwischenberechnungen der Aufmerksamkeit. Beim normalen Prefix-Caching verwendet unveränderter Text am Anfang der nächsten Anfrage frühere Berechnungen wieder. Eine Änderung nahe am Anfang verkürzt den wiederverwendbaren Prefix und zwingt zur erneuten Verarbeitung des folgenden Textes.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Vorherige Anfrage: A + B + C
+Überarbeitete Anfrage:  A + Ersatz für B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Gewöhnliche Präfixwiederverwendung:
+A wiederverwenden und den Ersatz für B sowie C neu berechnen
 ```
 
 Das **Prefix-Reuse-FLOPs**-Maß der Arbeit zählt Generierung und Promptverarbeitung nach der ersten Abweichung. Ein PFLOP entspricht 10¹⁵ Gleitkommaoperationen. Dies ist eine geschätzte Rechensumme, kein Qualitätswert, Durchsatzmaß oder Rechnungsbetrag.
@@ -191,7 +191,7 @@ Das offizielle Repository steht unter **CC BY-NC 4.0**. Prüfe die [Lizenz](http
 - **Rulin Shao et al.:** [Context Language Models](https://arxiv.org/abs/2609.37725), 29. September 2026, mit [vollständigen Ergebnissen und Anhängen](https://arxiv.org/html/2609.37725v1).
 - **Meta-Forschungsimplementierung:** [Repository für Context Language Models](https://github.com/facebookresearch/context-language-models).
 - **Serving-Implementierung:** [Dokumentation zu Suffix Cache Reuse](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md).
-- **Anthropic:** [Prompt-Caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching).
+- **Anthropic:** [Dokumentation zum Prompt-Cache](https://platform.claude.com/docs/en/build-with-claude/prompt-caching).
 - **OpenAI:** [Selbst erzeugte Prompt-Injections in Komprimierungszusammenfassungen](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/).
 - **llama.cpp:** [Diskussion zur Prompt-Neuverarbeitung von Hybridmodellen](https://github.com/ggml-org/llama.cpp/issues/20225).
 - **Kai:** [Das Ende der KI-Halluzinationen? Metas neue Lösung (CLM)](https://www.youtube.com/watch?v=9-iiHFQyzuM).

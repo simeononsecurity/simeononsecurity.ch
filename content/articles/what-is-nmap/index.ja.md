@@ -1,7 +1,7 @@
 ---
 title: "Nmap：ネットワークスキャンとサービス検出のガイド"
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ネットワークスキャン、ポートスキャン、サービス検出、オペレーティングシステムの識別など、ネットワークセキュリティを評価するためにNmapを効果的に使用する方法を紹介します。"
@@ -11,7 +11,7 @@ coverAlt: "3DアニメーションスタイルでNmapスキャンツールを使
 coverCaption: ""
 ---
 
-[**What is Nmap and How to Use It?**](https://nmap.org/download.html)
+[**Nmapとは何か、どのように使うのか**](https://nmap.org/download.html)
 
 [Nmap](https://nmap.org/download.html) (Network Mapper)は、コンピュータネットワーク上のホストやサービスを発見するために使用される強力で汎用性の高いオープンソースのネットワークスキャンツールです。ネットワークインフラに関する貴重な情報を提供し、ネットワークセキュリティを評価するのに役立ちます。この記事では、Nmapの基本、機能、効果的な使用方法について説明します。
 

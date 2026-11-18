@@ -1,17 +1,16 @@
 ---
 title: "Comparação de agentes de codificação CLI: Claude Code, Codex, Gemini, OpenCode, Copilot e Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Compare seis agentes de codificação no terminal por fluxo de trabalho, automação, acesso a modelos, permissões e esforço de revisão. Monte uma lista curta com um teste repetível no repositório."
 genre: ["Ferramentas para desenvolvedores", "Inteligência artificial", "Desenvolvimento de software"]
-tags: ["agentes de codificação CLI", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "agentes de terminal", "automação headless", "agent harness", "provedores de modelos", "fluxos Git", "comparação de agentes de codificação", "ferramentas shell", "assistente de codificação", "permissões do agente", "contexto do repositório", "automação CI", "revisão de código", "ferramentas para desenvolvedores"]
+tags: ["agentes de codificação CLI", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "agentes de terminal", "automação headless", "estrutura para agentes de programação", "provedores de modelos", "fluxos Git", "comparação de agentes de codificação", "ferramentas shell", "assistente de codificação", "permissões do agente", "contexto do repositório", "automação CI", "revisão de código", "ferramentas para desenvolvedores"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "Seis janelas de terminal abstratas cercam um símbolo de repositório em uma grade equilibrada sobre um fundo escuro"
 coverCaption: ""
 ---
-
 Os **agentes de codificação no terminal** compartilham uma interface conhecida, mas diferem na coleta de contexto, edição de arquivos, solicitação de aprovação e integração com scripts. Este guia compara Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI e Aider. Ele avalia os fluxos de terminal separadamente dos produtos de desktop de cada provedor.
 
 **Comece pelas suas restrições.** Acesso ao provedor, automação repetível e hábitos de revisão são filtros melhores do que uma classificação genérica. As recomendações abaixo são julgamentos editoriais baseados na documentação oficial verificada em 10 de outubro de 2026, não rankings de desempenho medido.
@@ -98,10 +97,10 @@ Os **agentes de codificação no terminal** compartilham uma interface conhecida
 **As instruções do projeto precisam de verificação.** Dê a cada ferramenta o mesmo comando de build, critérios de aceitação e exclusões pela sua interface de instruções compatível. Peça que repita as restrições ativas antes de editar. Um arquivo de instruções ausente é um defeito de configuração, não um benchmark do modelo.
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+Tarefa: Corrija a reprodução fornecida sem alterar a API pública.
+Escopo: Preserve alterações não relacionadas e evite novas dependências.
+Evidências: Execute o teste de regressão existente e os testes adjacentes relevantes.
+Relatório: Explique a causa, os arquivos alterados, as verificações e as incertezas restantes.
 ```
 
 **Este prompt de teste é delimitado de propósito.** Adicione uma reprodução conhecida e verificações escritas de forma independente. Use o mesmo commit inicial em checkouts separados. Registre versão da ferramenta, modelo, provedor, política de permissões, tempo decorrido e intervenções.

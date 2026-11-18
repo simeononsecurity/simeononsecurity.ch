@@ -1,7 +1,7 @@
 ---
 title: "Vast.ai पर Llama 3.1 8B और Qwen3.8 27B GPU बेंचमार्क"
 date: 2026-10-02
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "प्रमुख Vast.ai GPU पर Llama 3.1 8B और Qwen3.8 27B के मापे गए Ollama बेंचमार्क। डिकोड गति, लंबे संदर्भ, किराया लागत, self-hosting, API क्रेडिट और सदस्यताओं की तुलना।"
@@ -53,7 +53,7 @@ Vast.ai अपनी सेवा को compute providers और users को �
 
 > **Benchmark सीमा:** ये आँकड़े एक serving pattern में दो Ollama Q4_K_M workloads बताते हैं। ये training speed, multi-user throughput, image generation, vLLM performance या किसी दूसरे model के परिणाम का अनुमान नहीं हैं।
 
-## Llama 3.1 8B rerun
+## Llama 3.1 8B का पुनः परीक्षण
 
 **Llama 3.1:8b उसी GPU pool के लिए व्यावहारिक baseline है।** Ollama लगभग 120 million downloads बताता है। [Official Ollama model page](https://ollama.com/library/llama3.1:8b) 4.9 GB Q4_K_M build, 8.03B parameters और 128K context window बताती है।
 
@@ -89,11 +89,11 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 | **128k** | 9 hosts पर पूरा। 2x RTX 5060 Ti host दूसरे trial में timeout हुआ |
 | **256k** | सभी hosts के लिए unsupported, क्योंकि Llama 3.1 8B अधिकतम 128K context support करता है |
 
-## दोनों models की तुलना
+## दोनों मॉडलों की तुलना
 
 **छोटा Llama model हर comparable GPU पर तेज था, लेकिन model size और quality एक-दूसरे के बदले नहीं हैं।** Llama 3.1 8B कम memory वाला लोकप्रिय baseline है। Qwen3.8 27B अधिक memory लेता है और अलग capability profile देता है। इन numbers का उपयोग hardware selection के लिए करें, universal winner घोषित करने के लिए नहीं।
 
-| Use case | बेहतर benchmark reference | कारण |
+| उपयोग का मामला | बेहतर बेंचमार्क संदर्भ | कारण |
 |---|---|---|
 | **तेज 8B assistant** | Llama 3.1:8b | अधिक decode speed और कम model memory |
 | **27B local sizing** | Qwen3.8:27b | बड़े single-GPU workload के लिए अधिक प्रतिनिधि |
@@ -103,11 +103,11 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 
 पहले Qwen rerun ने supported levels पर actual counts लगभग **32,770**, **65,538** और **131,074** tokens सुधारे। Qwen तुलना में ये corrected labels requested `num_ctx` values की जगह इस्तेमाल होते हैं।
 
-## लगभग 16k tokens
+## लगभग 16k टोकन
 
 **H100 SXM ने short-context run में 134.4 decode tokens प्रति सेकंड प्राप्त किए।** RTX PRO 5000 113.9 tokens प्रति सेकंड पर थी और उसका hourly rate आधे से कम था।
 
-| Rank | GPU | VRAM | Decode tok/s | Prefill tok/s | Rental rate |
+| क्रम | GPU | VRAM | डिकोड tok/s | प्रीफिल tok/s | किराया दर |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **134.4** | 89,974 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **113.9** | 68,726 | $1.005/hr |
@@ -118,11 +118,11 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 | 7 | **RTX PRO 6000 S** | 95.6 GB | **49.3** | 52,773 | $1.756/hr |
 | 8 | **A100 PCIe** | 40 GB | **38.4** | 38,886 | $0.565/hr |
 
-## लगभग 32.8k tokens
+## लगभग 32.8k टोकन
 
 **Medium context में ranking स्थिर रही।** H100 SXM 120.0 tokens प्रति सेकंड, RTX PRO 5000 105.0 और RTX 6000 Ada 75.7 पर पहुँची।
 
-| Rank | GPU | VRAM | Decode tok/s | Prefill tok/s | Rental rate |
+| क्रम | GPU | VRAM | डिकोड tok/s | प्रीफिल tok/s | किराया दर |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **120.0** | 139,748 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **105.0** | 103,707 | $1.005/hr |
@@ -133,11 +133,11 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 | 7 | **CMP 170HX** | 64 GB | **46.2** | 77,984 | $0.420/hr |
 | 8 | **A100 PCIe** | 40 GB | **36.1** | 73,377 | $0.565/hr |
 
-## लगभग 65.5k tokens
+## लगभग 65.5k टोकन
 
 **लंबे prompts ने memory capacity और headroom के बीच बड़ा अंतर दिखाया।** H100 112.0 tokens प्रति सेकंड पर पहले रहा। RTX PRO 6000 Max-Q decode speed में RTX 6000 Ada से आगे आया।
 
-| Rank | GPU | VRAM | Decode tok/s | Prefill tok/s | Rental rate |
+| क्रम | GPU | VRAM | डिकोड tok/s | प्रीफिल tok/s | किराया दर |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **112.0** | 195,252 | $2.693/hr |
 | 2 | **RTX PRO 5000** | 47.8 GB | **96.9** | 148,897 | $1.005/hr |
@@ -148,11 +148,11 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 | 7 | **RTX PRO 6000 S** | 95.6 GB | **37.0** | 124,927 | $1.756/hr |
 | 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
 
-## लगभग 131k tokens
+## लगभग 131k टोकन
 
 **इस context length पर H100 ही 100 decode tokens प्रति सेकंड से ऊपर था।** RTX PRO 6000 Max-Q 73.4 पर और RTX 6000 Ada 61.7 पर पूरा हुआ।
 
-| Rank | GPU | VRAM | Decode tok/s | Prefill tok/s | Rental rate |
+| क्रम | GPU | VRAM | डिकोड tok/s | प्रीफिल tok/s | किराया दर |
 |---:|---|---:|---:|---:|---:|
 | 1 | **H100 SXM** | 79.6 GB | **108.2** | 242,093 | $2.693/hr |
 | 2 | **RTX PRO 6000 Max-Q** | 95.6 GB | **73.4** | 197,208 | $1.507/hr |
@@ -163,7 +163,7 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 | 7 | **CMP 170HX** | 64 GB | N/A | N/A | $0.420/hr |
 | 8 | **A100 PCIe** | 40 GB | N/A | N/A | $0.565/hr |
 
-## Overall decode comparison
+## समग्र डिकोड तुलना
 
 | GPU | ~16k | ~32.8k | ~65.5k | ~131k |
 |---|---:|---:|---:|---:|
@@ -178,11 +178,11 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 
 **H100 ने हर completed context length में lead किया।** इसका advantage RTX PRO 5000 पर लगभग 16k में 20.5 tokens प्रति सेकंड से 32.8k में 12.0 तक घटा। Fast first response और लंबे session की कम लागत के बीच चुनाव करें।
 
-## प्रति million decode tokens लागत
+## प्रति दस लाख डिकोड टोकन की लागत
 
 **Hourly price अकेले उपयोगी तुलना छिपाता है।** Supplied hourly rate को decode throughput से divide करने पर one million generated tokens की rough rental cost मिलती है। इसमें prompt processing, idle time, storage, transfer, tax, discount और failed runs शामिल नहीं हैं।
 
-| GPU | Short-context rate | लगभग लागत प्रति 1M decode tokens |
+| GPU | छोटे संदर्भ की दर | लगभग लागत प्रति 1M decode tokens |
 |---|---:|---:|
 | **CMP 170HX** | $0.420/hr | $2.27 |
 | **RTX PRO 5000** | $1.005/hr | $2.45 |
@@ -195,7 +195,7 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 
 **CMP 170HX इस सीमित arithmetic comparison में जीता।** RTX PRO 5000 और RTX 6000 Ada पास थे तथा दोनों अधिक throughput देते थे। Interactive use में extra waiting time अक्सर lowest token cost से अधिक महत्वपूर्ण है।
 
-## किराया, credits, subscription या hardware?
+## किराया, क्रेडिट, सदस्यता या हार्डवेयर?
 
 **सही विकल्प utilization और control requirements पर निर्भर है।** GPU rental variable compute bill है। API credits variable model bill हैं। Chat subscription fixed access fee और usage limits देता है। Owned hardware capital purchase के बाद electricity, cooling, maintenance और depreciation लाता है।
 
@@ -210,11 +210,11 @@ Llama 3.1 8B की listed context limit 128K है, इसलिए 256k unsup
 
 H100 $2.693/hr पर लगातार 24 घंटे में लगभग $64.63 और 30 दिनों में $1,941.00 पड़ता है। RTX PRO 5000 $1.005/hr पर लगभग $24.12 प्रतिदिन और $723.60 प्रति 30 दिन पड़ती है। केवल active sessions वाला total अलग होगा।
 
-### API credits कब बेहतर हैं
+### API क्रेडिट कब बेहतर हैं
 
 **जब usage irregular हो, automation महत्वपूर्ण हो और किसी खास local model की आवश्यकता न हो, API credits बेहतर हैं।** वे provisioning, downloads, drivers और idle time से बचाते हैं। OpenRouter catalog model context, providers और token pricing की तुलना करता है। Live calculator से bill जाँचें।
 
-### Subscription कब बेहतर है
+### सदस्यता कब बेहतर है
 
 **हर दिन hosted assistant इस्तेमाल करने वाले व्यक्ति के लिए subscription उपयुक्त है।** Claude के individual plans Free, Pro और Max access को अलग limits और features के साथ रखते हैं। Subscription API access नहीं है। Interactive writing, research, coding और file review में इसका उपयोग करें। Script या agent को metered endpoint चाहिए तो API credits चुनें।
 
@@ -226,13 +226,13 @@ H100 $2.693/hr पर लगातार 24 घंटे में लगभग 
 
 **Sustained utilization, stable model requirements और local control के बाद hardware खरीदना उचित है।** Purchase availability risk हटाता है और private data को hosted provider के बिना चलाने देता है। Host, power supply, storage, cooling, electricity, replacement और setup time भी लागत में जोड़ें। RTX 4090 reference specs 24 GB memory, 450 W graphics power और 850 W minimum system power बताती हैं। यह tested 27B Q4_K_M configuration के लिए 24 GB से कम है, इसलिए वास्तविक model memory जाँचें।
 
-## Abliterated और uncensored models
+## एब्लिटरेटेड और बिना सेंसर किए गए मॉडल
 
 **Abliterated और uncensored variants खरीद निर्णय बदलते हैं।** कम refusals आकर्षक हो सकते हैं, पर safety behavior कमजोर, provenance अनिश्चित, prompt format inconsistent और license limits संभव हैं। पहले किराये पर लें। दिए rate पर RTX PRO 5000 का एक दिन लगभग $24.12 पड़ता है।
 
 **Uncensored model को सीधे public Internet पर expose न करें।** Authentication, rate limits, logging controls और network isolation लगाएँ। बिना समीक्षा वाले source को personal, confidential या regulated data न दें।
 
-## Benchmark caveats
+## बेंचमार्क की सीमाएँ
 
 **Missing results भी result का हिस्सा हैं।** `N/A` valid measurement न बनने का अर्थ है, दूसरे card के score जितनी धीमी GPU होने का नहीं। दूसरा H100 model download देर से पूरा होने के कारण valid set नहीं बना सका। 2x RTX 5060 Ti CPU execution के कारण exclude हुआ। Qwen 256k पूरा नहीं हुआ और उसका highest valid level लगभग 131k actual tokens था। Requested `num_ctx` ranking label नहीं था और final tables actual `prompt_eval_count` values इस्तेमाल करती हैं। दो valid trials का median लिया गया। Tuned vLLM या llama.cpp अलग ranking देंगे।
 

@@ -1,7 +1,7 @@
 ---
 title: "16GB GPU-তে লোকাল AI কোডিং: Strata, OpenCode এবং Qwen3.8"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Strata এবং OpenCode দিয়ে একটি লোকাল কোডিং এজেন্ট চালান। প্রকাশিত RTX 4060 Ti ফলাফল, RAM প্রয়োজনীয়তা, প্রম্পট পুনর্ব্যবহার, reasoning বাজেট এবং পেইড সাবস্ক্রিপশন বদলানোর সীমা পরীক্ষা করুন।"
@@ -28,23 +28,23 @@ coverCaption: ""
 
 **সময় ও কঠিনতা:** Intermediate। task completion speed মূল্যায়নের আগে বড় model download ও installation-এর জন্য সময় রাখুন। প্রকাশিত task timing setup বাদ দেয়।
 
-## পরীক্ষিত Configuration
+## পরীক্ষিত কনফিগারেশন
 
-| Component | প্রকাশিত configuration |
+| উপাদান | প্রকাশিত configuration |
 |---|---|
 | **GPU** | NVIDIA RTX 4060 Ti, 16GB VRAM |
 | **CPU** | Intel Core i5-11600K |
-| **System memory** | 64GB RAM |
+| **সিস্টেম মেমরি** | 64GB RAM |
 | **Storage** | NVMe SSD |
-| **Model** | Qwen3.8-Flash-Next, 125B MoE, IQ3_S |
+| **মডেল** | Qwen3.8-Flash-Next, 125B MoE, IQ3_S |
 | **Inference engine** | Strata |
 | **Coding agent** | OpenCode |
 | **Configured context** | 65,536 token |
-| **Configured output limit** | 16,384 token |
+| **কনফিগার করা আউটপুট সীমা** | 16,384 token |
 
-**NetworkCoder-এর প্রকাশিত configuration ও result** এই সংখ্যাগুলো দেয়। [Test repository](https://github.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU) 28 second-এ 46.84GiB expert weight load করার কথা বলে, যেখানে 4,431 expert GPU memory-এর 8.45GiB দখল করে। এই measurement পরীক্ষিত run বর্ণনা করে, অন্য engine version-এ একই allocation নিশ্চিত করে না।
+**NetworkCoder-এর প্রকাশিত configuration ও result** এই সংখ্যাগুলো দেয়। [পরীক্ষার রিপোজিটরি](https://github.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU) 28 second-এ 46.84GiB expert weight load করার কথা বলে, যেখানে 4,431 expert GPU memory-এর 8.45GiB দখল করে। এই measurement পরীক্ষিত run বর্ণনা করে, অন্য engine version-এ একই allocation নিশ্চিত করে না।
 
-**বর্তমান compatibility এই test-এর চেয়ে বিস্তৃত।** 6 October 2026-এ পরীক্ষা অনুযায়ী, [Strata project](https://github.com/Niko1221/Strata) অন্তত 12GB VRAM-সহ নির্বাচিত NVIDIA ও AMD card এবং 32GB RAM system-এর জন্য ছোট model option document করে। এই option 16GB GPU, 64GB RAM, IQ3_S experiment পুনরাবৃত্তি করে না। hardware কেনার আগে নির্দিষ্ট GPU, model variant এবং runtime support পরীক্ষা করুন।
+**বর্তমান সামঞ্জস্যতার পরিধি এই পরীক্ষার চেয়ে বড়।** ৬ অক্টোবর ২০২৬-এ যাচাই করা [Strata প্রকল্প](https://github.com/Niko1221/Strata)-এ অন্তত 12GB VRAM-সহ নির্বাচিত NVIDIA ও AMD কার্ড এবং 32GB RAM সিস্টেমের জন্য ছোট মডেলের বিকল্প নথিবদ্ধ আছে। এগুলো 16GB GPU, 64GB RAM ও IQ3_S-সহ পরীক্ষাটি পুনরুৎপাদন করে না। হার্ডওয়্যার কেনার আগে নির্দিষ্ট GPU, model variant এবং runtime support যাচাই করুন।
 
 ## Model কোথায় থাকে
 
@@ -52,11 +52,11 @@ coverCaption: ""
 
 **Strata-এর hybrid execution** ঘনঘন ব্যবহৃত expert GPU-তে রাখে এবং expert collection system RAM-এ ধরে। CPU uncached expert-এর calculation করে, GPU cached expert সামলায়। Storage model file ও lookup data-ও রাখে। system পুরো 125B model 16GB VRAM-এ ঢোকায় না।
 
-**GPU memory-এর একাধিক ব্যবহার আছে।** Runtime allocation, attention state এবং expert cache একটি সীমিত resource ভাগ করে। context-এর জন্য বেশি জায়গা দিলে অবশিষ্ট expert-cache capacity বদলে যায়। বর্তমান Strata version KV-cache streaming-ও সমর্থন করে, তাই পুরনো configuration-এর তুলনায় exact placement আলাদা। আপনার engine version-এর জন্য [technical documentation](https://github.com/Niko1221/Strata/blob/main/docs/DETAILS.md) দেখুন।
+**GPU memory একাধিক কাজের মধ্যে ভাগ হয়।** Runtime allocation, attention state এবং expert cache একই সীমিত সম্পদ ব্যবহার করে। Context-এর জন্য বেশি memory দিলে expert cache-এর অবশিষ্ট capacity কমে। Strata-র বর্তমান সংস্করণগুলো KV-cache streaming-ও সমর্থন করে, তাই পুরোনো configuration-এর তুলনায় data placement ভিন্ন। আপনার engine version-এর [কারিগরি নথি](https://github.com/Niko1221/Strata/blob/main/docs/DETAILS.md) দেখুন।
 
 {{< figure src="local-agent-gpu-ram-expert-cache.webp" alt="একটি লোকাল workstation GPU, system memory ও solid-state storage-এর মধ্যে model execution ভাগ করছে এমন চিত্র" caption="GPU inference system-এর একটি অংশ, যার সঙ্গে CPU execution, system RAM ও storage যুক্ত" >}}
 
-## Prompt reuse speed বদলায়
+## প্রম্পট পুনর্ব্যবহারে গতি বদলায়
 
 **একটি coding agent loop চালায়:** task পড়ে, tool action চায়, result পায় এবং পরের action ঠিক করে। File content, error ও test output conversation-এ জমে। Agent context compact বা select-ও করে, তাই প্রতিটি implementation-এ অপরিবর্তিত পুরো history চিরকাল resend হয় না।
 
@@ -69,7 +69,7 @@ coverCaption: ""
 | **Cold prompt** | reusable prefix state ছাড়া নতুন content-এর সময় |
 | **Warm continuation** | existing context-এ tool result যোগ করার পরের সময় |
 | **Generation speed** | response চলাকালে প্রতি second-এ token |
-| **Task duration** | planning, generation, tool, test ও retry একসঙ্গে |
+| **কাজের সময়কাল** | planning, generation, tool, test ও retry একসঙ্গে |
 
 **দুটি cache আলাদা কাজ করে।** Expert cache ঘনঘন ব্যবহৃত weight GPU computation-এর কাছে রাখে। Prefix reuse আগের input-এর কাজ পুনরায় করা এড়ায়। উচ্চ expert-cache hit rate prompt-cache hit প্রমাণ করে না।
 
@@ -83,7 +83,7 @@ coverCaption: ""
 | **Racing game, প্রথম চেষ্টা** | 6m 35s | reasoning-এর সময় output শেষ, code নেই |
 | **Racing game, budgeted retry** | 4m 51s | game generated, JavaScript syntax checked |
 
-**[প্রকাশিত result file](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/results.csv)** প্রথম task-এ 48–52 token per second, দ্বিতীয়টিতে 40–43 এবং তৃতীয়টিতে 37–44 output speed record করে। “Up to 52” এই observation-এর peak, প্রতিটি task-এর sustained rate নয়।
+**[প্রকাশিত ফলাফলের ফাইল](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/results.csv)** প্রথম task-এ প্রতি সেকেন্ডে 48–52 token, দ্বিতীয়টিতে 40–43 এবং তৃতীয়টিতে 37–44 token-এর গতি জানায়। “Up to 52” পর্যবেক্ষণ করা সর্বোচ্চ গতি, প্রতিটি task-এর স্থায়ী গতি নয়।
 
 **প্রথম তিনটি task একটি application বাড়ায়।** 5/5, 6/6 ও 7/7 count পরপর test suite বোঝায়। এগুলো যোগ করলে 18টি independent capability প্রমাণ হয় না। একই agent লেখা test coverage ও meaningful assertion-এর জন্য review দরকার।
 
@@ -123,7 +123,7 @@ cd Strata
 npm install -g opencode-ai
 ```
 
-**OpenCode install করুন** [official instruction](https://opencode.ai/docs/) ব্যবহার করে। আলাদা terminal-এ **`STRATA_BASE_URL`**-কে Strata প্রদর্শিত local API base হিসেবে set করুন, সঙ্গে **`/v1`** suffix রাখুন। এই setup-এ inference local machine-এ bound রাখুন।
+**OpenCode ইনস্টল করুন** এর [অফিসিয়াল নির্দেশিকা](https://opencode.ai/docs/) মেনে। অন্য terminal-এ **`STRATA_BASE_URL`**-কে Strata-র দেওয়া local API address-এ সেট করুন এবং শেষে **`/v1`** যোগ করুন। এই সেটআপে inference local machine-এ রাখুন।
 
 ```json
 {
@@ -147,7 +147,7 @@ npm install -g opencode-ai
 }
 ```
 
-**Provider block `~/.config/opencode/opencode.json`-এ merge করুন**, existing setting রেখে। এই [published example configuration](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/config/opencode.json) environment variable থেকে local endpoint load করে। OpenCode [custom provider](https://opencode.ai/docs/providers/) ও [environment substitution](https://opencode.ai/docs/config/) document করে।
+**`~/.config/opencode/opencode.json` ফাইলে provider block যোগ করুন**, বিদ্যমান settings রেখে। [প্রকাশিত নমুনা কনফিগারেশন](https://raw.githubusercontent.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU/main/config/opencode.json) environment variable থেকে local endpoint-এর ঠিকানা নেয়। OpenCode [কাস্টম provider](https://opencode.ai/docs/providers/) এবং [পরিবেশ ভেরিয়েবল প্রতিস্থাপন](https://opencode.ai/docs/config/) সমর্থন করে।
 
 **`local` একটি placeholder credential**, example-এর unauthenticated local setup-এর মতো। এটি server secure করে না। আপনার Strata instance authentication enable করলে উপযুক্ত local secret mechanism দিয়ে configured credential দিন।
 
@@ -164,7 +164,7 @@ npm install -g opencode-ai
 }
 ```
 
-**Agent evaluate করার সময় এই initial permission OpenCode configuration-এ merge করুন।** [Permission documentation](https://opencode.ai/docs/permissions/) available control ব্যাখ্যা করে। Inference যেখানেই চলুক, file change ও shell execution আপনার machine-এ প্রভাব ফেলে।
+**Agent-এর কার্যকারিতা মূল্যায়নের আগে OpenCode configuration-এ প্রাথমিক permissions যোগ করুন।** [অনুমতি-সংক্রান্ত নথি](https://opencode.ai/docs/permissions/)-তে উপলভ্য নিয়ন্ত্রণগুলো ব্যাখ্যা করা আছে। Inference যেখানেই চলুক, file পরিবর্তন ও shell command আপনার machine-এ প্রভাব ফেলবে।
 
 **Local inference প্রতিটি tool-কে local করে না।** Package download, web tool, external integration ও optional sharing network service জড়িত করে। Private repository সামলানোর আগে enabled tool review করুন। “Model locally runs” claim “nothing leaves the computer”-এর চেয়ে সংকীর্ণ।
 
@@ -196,11 +196,11 @@ npm install -g opencode-ai
 
 **Useful local agent-এর universal superiority দরকার নেই।** এটি যদি routine edit নির্ভরযোগ্যভাবে সামলায় এবং কঠিন task-এর ছোট set অন্য tool-এর জন্য রাখে, তবে আপনার দরকারি paid service ইতিমধ্যে বদলে যায়। নিজের project-এ accepted work দেখে সিদ্ধান্ত নিন।
 
-## Demonstration ও পরের ধাপ
+## প্রদর্শনী ও পরবর্তী ধাপ
 
 {{< youtube id="QBPbvMaHkJc" enable="true" title="Strata, OpenCode এবং 16GB GPU দিয়ে local coding agent test" >}}
 
-**আরও দেখা:** [125B local coding-agent demonstration](https://www.youtube.com/watch?v=QBPbvMaHkJc)। উপরের reported measurement published test-এর, এই article-এর জন্য independently performed benchmark নয়।
+**আরও দেখুন:** [125B local coding agent-এর প্রদর্শনী](https://www.youtube.com/watch?v=QBPbvMaHkJc)। উপরের পরিমাপগুলো প্রকাশিত পরীক্ষার ফল, এই নিবন্ধের জন্য আলাদাভাবে চালানো benchmark নয়।
 
 1. **একটি ছোট task পুনরায় চালান** fixed acceptance criteria ও saved starting revision দিয়ে।
 2. **Cold ও warm turn measure করুন** এবং prefix reuse-কে cold prefill speed ভাববেন না।
@@ -208,4 +208,4 @@ npm install -g opencode-ai
 4. **Generated test inspect করুন** এবং implementation যে case ভাবেনি সেগুলো যোগ করুন।
 5. **Completed work compare করুন** subscription বদলানোর আগে current coding tool-এর সঙ্গে।
 
-**Hardware planning-এর জন্য**, [local AI model ও GPU context guide](/articles/local-ai-model-gpu-context-guide/) পড়ুন। Hosted-model behavior-এর জন্য [OpenRouter provider routing ও cost](/articles/openrouter-provider-routing-quality-cost/) দেখুন।
+**হার্ডওয়্যার পরিকল্পনার জন্য**, [স্থানীয় AI মডেল ও GPU প্রসঙ্গ নির্দেশিকা](/articles/local-ai-model-gpu-context-guide/) পড়ুন। Hosted model-এর আচরণ ও খরচ সম্পর্কে [OpenRouter provider routing নির্দেশিকা](/articles/openrouter-provider-routing-quality-cost/) দেখুন।

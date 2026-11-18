@@ -1,7 +1,7 @@
 ---
 title: "OpenCode CLI बनाम Desktop: 2026 वर्कफ़्लो तुलना"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "OpenCode के terminal और desktop clients की तुलना server architecture, provider configuration, scripting, session state और troubleshooting के आधार पर करें।"
@@ -34,9 +34,9 @@ coverCaption: ""
 | Layer | उत्तर देने योग्य प्रश्न |
 |---|---|
 | **Client** | Terminal UI, desktop app या non-interactive command? |
-| **Agent server** | कौन सा process request प्राप्त करता है? |
+| **एजेंट सर्वर** | कौन सा process request प्राप्त करता है? |
 | **Repository** | Server किस directory को access करता है? |
-| **Model provider** | कौन सी service inference देती है? |
+| **मॉडल प्रदाता** | कौन सी service inference देती है? |
 | **Session** | Existing conversation या नया task? |
 
 **Server location, inference location नहीं है।** आपके computer पर agent server होने पर भी requests configured hosted model को जा सकती हैं। इसके विपरीत compatible local inference service अपने model और resource requirements वाला अलग process है।
@@ -73,10 +73,10 @@ opencode run "Identify this project's test command. Do not modify files."
 
 **छोटे real task से desktop interaction का मूल्यांकन करें।** Project खोलें, server confirm करें, bounded request भेजें, changed files inspect करें और correction माँगें। Agent के actions समझने में लगने वाला effort आँकें। Graphical client को editor और debugger का complete replacement न मानें।
 
-| Desktop trial | अपेक्षित evidence |
+| डेस्कटॉप परीक्षण | अपेक्षित evidence |
 |---|---|
-| **Project selection** | Agent intended repository पहचानता है |
-| **Model selection** | Provider और model trial record से मेल खाते हैं |
+| **परियोजना चयन** | Agent intended repository पहचानता है |
+| **मॉडल चयन** | Provider और model trial record से मेल खाते हैं |
 | **Command execution** | Required runtime और tests उपलब्ध हैं |
 | **Change inspection** | Full patch आसानी से मिलता और review होता है |
 | **Restart** | Intended project और session पहचाने जा सकते हैं |

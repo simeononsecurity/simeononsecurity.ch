@@ -1,7 +1,7 @@
 ---
 title: "Docker в LXC на Proxmox: надёжность, факты и миграция на виртуальную машину"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Оцените Docker внутри Proxmox LXC по документированной ошибке AppArmor, разбору сообщения о зависании хоста, диагностическим командам и плану миграции на виртуальную машину."
@@ -66,14 +66,14 @@ coverCaption: "Концептуальная иллюстрация общего 
 ## Определите границу ядра
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker внутри LXC:
+Приложение -> среда выполнения Docker -> пространства имён и политики LXC
+                 -> ядро хоста Proxmox -> физическое оборудование
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker внутри виртуальной машины:
+Приложение -> среда выполнения Docker -> гостевое ядро Linux
+                 -> виртуальное оборудование / KVM-QEMU
+                 -> ядро хоста Proxmox -> физическое оборудование
 ```
 
 **LXC** использует ядро хоста. Пространства имён, группы управления, возможности, seccomp и профили безопасности ограничивают процессы, но не предоставляют отдельное ядро. Docker внутри LXC добавляет ещё один уровень управления контейнерами для нагрузок, использующих то же ядро хоста. [Архитектура LXC и функции изоляции](https://linuxcontainers.org/lxc/introduction/)
@@ -290,17 +290,17 @@ findmnt -T /var/lib/docker
 **Используйте измеренные данные**, чтобы выбрать размещение и определить, когда его пересмотреть:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Влияние на службу и дом:
+Текущие версии хоста / ядра / LXC / Docker:
+Необходимый доступ к GPU, устройствам и сети:
+Измеренные память, CPU, хранилище и задержка:
+Известный признак сбоя и интервал повторения:
+Охват резервного копирования и подтверждение успешного восстановления:
+Выбранная архитектура и причина:
+Допустимое окно простоя и цель восстановления:
+Порядок переключения и отката данных после переключения:
+Приёмочные тесты и период наблюдения:
+Условие, требующее повторного анализа архитектуры:
 ```
 
 **Выбирайте вложенный LXC осознанно**, если преимущества оправдывают интеграционную работу и вы проверили восстановление. Выбирайте VM, если обычная гостевая среда Docker и отдельное ядро упрощают эксплуатацию службы. Ни один вариант не заменяет резервные копии, мониторинг и обслуживание хоста.

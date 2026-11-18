@@ -1,7 +1,7 @@
 ---
 title: "Normen voor veilig coderen in Python: Beste praktijken"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer de beste praktijken voor veilig coderen in Python om het risico van beveiligingslekken te minimaliseren en gevoelige gegevens te beschermen."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Functie om invoer met reguliere expressies te valideren.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python heeft verschillende functies die kwetsbaar zijn voor beveiligingsprobleme
 
 Bijvoorbeeld, in plaats van`eval()` functie om een tekenreeks naar een geheel getal te converteren, moeten ontwikkelaars de`int()` functie.
 ```py
-# Instead of using eval function
+# In plaats van de eval-functie te gebruiken
 x = eval('10')
 
-# Use int function
+# Gebruik de int-functie
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Functie om een wachtwoord met de cryptografiebibliotheek te versleutelen.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ Webtoepassingen zijn kwetsbaar voor verschillende veiligheidsrisico's zoals cros
 Gebruik bijvoorbeeld bij het schrijven van SQL-query's **geparametriseerde query's** in plaats van gebruikersinvoer aan de query te koppelen. Geparameteriseerde query's voorkomen SQL-injectie aanvallen door gebruikersinvoer te behandelen als gegevens en niet als uitvoerbare code.
 
 ```py
-# Instead of this
+# In plaats daarvan
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Gebruik een geparametriseerde query
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

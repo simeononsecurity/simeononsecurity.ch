@@ -1,11 +1,11 @@
 ---
 title: "دليل المبتدئين إلى البلوك تشين لإدارة الهوية بأمان"
 date: 2023-04-06
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "تعرّف إلى استخدام تقنية البلوك تشين للمصادقة الآمنة وإدارة الهوية من خلال دليل المبتدئين هذا."
-tags: ["blockchain", "identity management", "authentication", "decentralized identity", "passwordless authentication", "smart contracts", "public key cryptography", "private key cryptography", "immutable records", "decentralized system", "single sign-on", "verification of credentials", "scalability", "privacy", "adoption", "digital identity", "distributed ledger technology", "cybersecurity", "data privacy", "technology"]
+tags: ["البلوك تشين", "إدارة الهوية", "المصادقة", "الهوية اللامركزية", "المصادقة دون كلمة مرور", "العقود الذكية", "تشفير المفتاح العام", "تشفير المفتاح الخاص", "سجلات غير قابلة للتغيير", "نظام لامركزي", "تسجيل الدخول الموحد", "التحقق من بيانات الاعتماد", "قابلية التوسع", "الخصوصية", "التبني", "الهوية الرقمية", "تقنية دفتر الأستاذ الموزع", "الأمن السيبراني", "خصوصية البيانات", "التقنية"]
 cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "رسم توضيحي لشبكة بلوك تشين تتكون من كتل وخطوط متوهجة مترابطة، وتمثل إدارة الهوية بأمان. تظهر صور ظلية لمستخدمين تحيط بها دروع بيانات رقمية."
 coverCaption: ""
@@ -75,4 +75,4 @@ coverCaption: ""
 
 ## المراجع
 
-1. ناكاموتو، ساتوشي. (2008). بيتكوين: نظام نقد إلكتروني ندّي. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+1. ناكاموتو، ساتوشي. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)

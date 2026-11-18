@@ -1,7 +1,7 @@
 ---
 title: "Normas de codificación segura para Python: Buenas prácticas"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprenda las mejores prácticas de codificación segura en Python para minimizar el riesgo de brechas de seguridad y proteger los datos sensibles."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Función para validar la entrada mediante expresiones regulares.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python tiene varias funciones que pueden ser vulnerables a problemas de segurida
 
 Por ejemplo, en lugar de utilizar `eval()` para convertir una cadena en un número entero, los desarrolladores deben utilizar la función `int()` función.
 ```py
-# Instead of using eval function
+# En lugar de usar la función eval
 x = eval('10')
 
-# Use int function
+# Use la función int
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Función para cifrar una contraseña con la biblioteca de criptografía.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ Las aplicaciones Web son vulnerables a varios riesgos de seguridad como el cross
 Por ejemplo, al escribir consultas SQL, utilice **consultas parametrizadas** en lugar de concatenar la entrada del usuario con la consulta. Las consultas parametrizadas evitan los ataques de inyección SQL al tratar la entrada del usuario como datos y no como código ejecutable.
 
 ```py
-# Instead of this
+# En su lugar
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Use una consulta parametrizada
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

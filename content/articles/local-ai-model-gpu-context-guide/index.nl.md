@@ -1,7 +1,7 @@
 ---
 title: "Welk lokaal AI-model moet je draaien? Een GPU-, context- en programmeergids voor oktober 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Een praktische gids voor oktober 2026 voor het kiezen van lokale AI-modellen voor programmeeragents. Vergelijk GPU-geheugen, groei van de KV-cache, contextgrootte, quantisatiekwaliteit, promptverwerking, redeneerniveaus en cloudhuurkosten."
@@ -78,7 +78,7 @@ Deze cijfers beschrijven specifieke modelarchitecturen en runtime-instellingen. 
 |---|---|---|
 | **Volledige attention in elke laag** | Grote cachegroei | Meer geheugen nodig voor lange prompts |
 | **Hybride of sliding attention** | Lagere cachegroei in sommige lagen | Meer contextmarge bij dezelfde modelgrootte |
-| **Mixture of experts** | Minder actieve parameters per token | Minder berekening per token, maar alle gewichten moeten worden opgeslagen |
+| **Mengeling van experts (MoE)** | Minder actieve parameters per token | Minder berekening per token, maar alle gewichten moeten worden opgeslagen |
 | **Uitbreiding voor lange context** | Groter werkvenster | Meer cachegeheugen en meer promptverwerking |
 
 **Lees de modelarchitectuur voordat je geheugen koopt.** Het aantal parameters verbergt op zichzelf de kosten van een lange programmeersessie.

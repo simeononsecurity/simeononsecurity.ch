@@ -1,12 +1,12 @@
 ---
 title: "Een carrière in cybersecurity beginnen"
 date: 2023-11-05
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Ontdek functies, de rol van programmeren en geschikte programmeertalen voor cybersecurity. Kies jouw richting."
-genre: ["Technologie", "Cybersecurity", "Carrière", "Programmeren", "IT", "Vaardigheden", "Kansen", "Leren", "Coderen", "Digitaal"]
-tags: ["Cybersecurity", "Carrièrepaden", "Programmeertalen", "Codeervaardigheden", "Niet-technische functies", "Technische functies", "IT-carrières", "Technologische trends", "Beveiligingsanalyse", "Netwerkbeveiliging", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Gegevensbescherming", "Digitale forensische analyse", "Ethisch hacken", "Softwareontwikkeling", "Cyberdefensie", "Netwerktechniek", "Beveiligingsadvies", "Vaardigheden ontwikkelen", "Informatiebeveiliging", "Dreigingsdetectie", "Incidentrespons", "Coderen voor beveiliging"]
+genre: ["Technologie", "Cyberbeveiliging", "Carrière", "Programmeren", "informatietechnologie", "Vaardigheden", "Kansen", "Leren", "Coderen", "Digitaal"]
+tags: ["Cyberbeveiliging", "Carrièrepaden", "Programmeertalen", "Codeervaardigheden", "Niet-technische functies", "Technische functies", "IT-carrières", "Technologische trends", "Beveiligingsanalyse", "Netwerkbeveiliging", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Gegevensbescherming", "Digitale forensische analyse", "Ethisch hacken", "Softwareontwikkeling", "Cyberdefensie", "Netwerktechniek", "Beveiligingsadvies", "Vaardigheden ontwikkelen", "Informatiebeveiliging", "Dreigingsdetectie", "Incidentrespons", "Coderen voor beveiliging"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Een cybersecurityprofessional met een cape en laptop die digitale dreigingen afweert."
 coverCaption: "Beschermers van de digitale wereld helpen de online beveiliging te bewaken."

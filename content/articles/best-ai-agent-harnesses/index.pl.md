@@ -1,7 +1,7 @@
 ---
 title: "Najlepsze frameworki agentów AI w 2026 roku: wybór według przepływu pracy"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Porównanie Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi i LangGraph pod kątem wykonywania narzędzi, pamięci, odzyskiwania oraz wysiłku integracyjnego."
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Modułowe metalowe elementy połączone z podświetlanym centralnym procesorem turkusowymi i pomarańczowymi ścieżkami na ciemnej powierzchni roboczej"
 coverCaption: "Koncepcyjna ilustracja elementów otaczających model AI."
 ---
-
 **Deep Agents to mój pierwszy kandydat na uniwersalnego agenta z konfigurowalnymi modelami i wbudowanym zarządzaniem kontekstem.** Claude Agent SDK dobrze nadaje się do osadzania sposobu wykonywania Claude Code. OpenAI Agents SDK i Pydantic AI warto przetestować dla agentów dopasowanych do aplikacji, a Pi stawia na mały, rozszerzalny rdzeń, zaś LangGraph na jawne sterowanie przepływem pracy.
 
 **Najlepszy wybór zależy od pracy, którą agent ma przyjmować.** Asystent badawczy, edytor repozytorium i usługa obsługująca żądania klientów potrzebują różnych narzędzi oraz reguł odzyskiwania. Te rekomendacje są ocenami redakcyjnymi opartymi na oficjalnej dokumentacji sprawdzonej **10 października 2026 roku**, a nie wynikami praktycznego benchmarku wydajności.
@@ -138,7 +137,7 @@ Dla **przykładowego agenta przeglądającego faktury** walidacja schematu spraw
 
 **Lista funkcji to dopiero początek.** Przeprowadź każdego kandydata przez awarie podobne do tych z Twojego obciążenia. Użyj tymczasowego obszaru roboczego i usług testowych z syntetycznymi rekordami.
 
-| Test | Dowód do zachowania |
+| Próba | Dowód do zachowania |
 |---|---|
 | **Przerwane wysłanie** | Jeden skutek zewnętrzny po odzyskaniu |
 | **Długa rozmowa** | Oryginalne wymagania nadal spełnione |
@@ -160,7 +159,7 @@ Dla **przykładowego agenta przeglądającego faktury** walidacja schematu spraw
 **Nie wymuszaj nieobsługiwanych konfiguracji w torze kontrolowanym.** Jeśli dwóch kandydatów nie ma wspólnego modelu lub interfejsu narzędzi, przedstaw porównanie jako ocenę systemu. Zachowaj wysiłek konfiguracji i sterowanie człowieka w rejestrze.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Przykładowy zapis próby, nie plik konfiguracji frameworka
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

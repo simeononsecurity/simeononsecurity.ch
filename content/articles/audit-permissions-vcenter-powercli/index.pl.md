@@ -1,7 +1,7 @@
 ---
 title: "Jak przeprowadzić audyt uprawnień dla vCenter za pomocą PowerCLI"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną."
@@ -27,7 +27,7 @@ Przyjrzyjmy się procesowi audytu uprawnień dla vCenter przy użyciu PowerCLI.
 ## Przygotowanie środowiska
 Przed rozpoczęciem procesu audytu należy skonfigurować niezbędne środowisko. Oto kroki, które należy wykonać, aby rozpocząć:
 
-1. **Instalacja PowerCLI**: Pobierz i zainstaluj najnowszą wersję **PowerCLI** z oficjalnej strony [VMware website](https://www.vmware.com/support/developer/PowerCLI/) Postępuj zgodnie z instrukcjami kreatora instalacji i upewnij się, że aplikacja została pomyślnie zainstalowana w systemie.
+1. **Instalacja PowerCLI**: Pobierz i zainstaluj najnowszą wersję **PowerCLI** z oficjalnej [witryny VMware](https://www.vmware.com/support/developer/PowerCLI/). Postępuj zgodnie z instrukcjami kreatora instalacji i upewnij się, że aplikacja została pomyślnie zainstalowana w systemie.
 
 2. **Połącz się z vCenter**: Uruchom konsolę **PowerCLI** lub okno **PowerShell** i połącz się z serwerem vCenter za pomocą polecenia `Connect-VIServer` cmdlet. Podaj poświadczenia niezbędne do nawiązania połączenia.
 
@@ -82,22 +82,22 @@ Teraz, gdy PowerCLI jest już zainstalowane i połączone z serwerem vCenter, pr
 
    Przykład:
    ```powershell
-         # Connect to vCenter
+         # Połącz się z vCenter
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # Pobierz wszystkich użytkowników vCenter
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # Zainicjuj tablicę do przechowywania uprawnień użytkowników
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # Przejdź przez listę użytkowników i pobierz ich uprawnienia
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # Zapisz uprawnienia do pliku CSV
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 
@@ -107,6 +107,6 @@ Audyt uprawnień dla środowiska vCenter jest **kluczowym krokiem** w utrzymaniu
 Pamiętaj, aby okresowo przeglądać i aktualizować **polityki bezpieczeństwa** swojej organizacji, aby dostosować je do najlepszych praktyk branżowych i odpowiednich przepisów rządowych, takich jak **ogólne rozporządzenie o ochronie danych (RODO)** i **ustawa o przenośności i odpowiedzialności w ubezpieczeniach zdrowotnych (HIPAA)**. Wdrożenie solidnego procesu audytu uprawnień przyczyni się do zwiększenia bezpieczeństwa i zgodności środowiska vCenter.
 
 ## Referencje
-- [Download PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
+- [Pobierz PowerCLI](https://www.vmware.com/support/developer/PowerCLI/)
 - [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)

@@ -13,7 +13,7 @@ coverCaption: ""
 
 **从 Windows 转向 Linux 的最佳 Linux 发行版**
 
-你是否正在考虑从 Windows 转向 Linux？面对种类繁多的 Linux 发行版，选择一款适合你的发行版可能很有挑战性。在本文中，我们将探讨一些能让你从 Windows 平稳过渡的最佳 Linux 发行版，包括 [**Ubuntu**](https://ubuntu.com/download)、[**Zorin OS**](https://zorinos.com/)、[**Linux Mint**](https://linuxmint.com/download.php)和[**Manjaro**](https://manjaro.org/)
+你是否正在考虑从 Windows 转向 Linux？面对种类繁多的 Linux 发行版，选择一款适合你的发行版可能很有挑战性。在本文中，我们将探讨一些能让你从 Windows 平稳过渡的最佳 Linux 发行版，包括 [**Ubuntu**](https://ubuntu.com/download)、[**Zorin OS**](https://zorinos.com/)、[**Linux Mint**](https://linuxmint.com/download.php)和[**Manjaro**](https://manjaro.org/)。
 
 ______
 

@@ -1,7 +1,7 @@
 ---
 title: "आपको कौन सा लोकल AI मॉडल चलाना चाहिए? अक्टूबर 2026 के लिए GPU, कॉन्टेक्स्ट और कोडिंग गाइड"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "कोडिंग एजेंटों के लिए लोकल AI मॉडल चुनने की अक्टूबर 2026 की व्यावहारिक गाइड। GPU मेमोरी, KV-कैश वृद्धि, कॉन्टेक्स्ट आकार, क्वांटाइजेशन गुणवत्ता, प्रॉम्प्ट प्रोसेसिंग, रीजनिंग सेटिंग और क्लाउड रेंटल लागत की तुलना करें।"
@@ -74,11 +74,11 @@ Reference material में चर्चा किया गया एक 27B c
 
 ये आंकड़े खास model architectures और runtime settings के लिए हैं। इन्हें architecture देखने का कारण मानें, universal memory formula नहीं।
 
-| Model behavior | Context effect | Hardware implication |
+| मॉडल का व्यवहार | Context effect | Hardware implication |
 |---|---|---|
 | **हर layer में full attention** | Cache की बड़ी वृद्धि | Long prompts के लिए अधिक memory चाहिए |
 | **Hybrid या sliding attention** | कुछ layers में कम cache growth | समान model size पर अधिक context headroom |
-| **Mixture of experts** | प्रति token कम active parameters | प्रति token कम compute, लेकिन सभी weights के लिए storage चाहिए |
+| **विशेषज्ञों का मिश्रण (MoE)** | प्रति token कम active parameters | प्रति token कम compute, लेकिन सभी weights के लिए storage चाहिए |
 | **Long-context extension** | बड़ी working window | अधिक cache memory और prompt-processing work |
 
 **Memory खरीदने से पहले model architecture पढ़ें।** Parameter count अकेले लंबे coding session की cost छिपाता है।
@@ -149,9 +149,9 @@ Agent अपना बहुत समय पढ़ने में बिता
 
 | Metric | User experience |
 |---|---|
-| **Decode tokens per second** | Processing के बाद answer कितनी जल्दी दिखता है |
-| **Prompt tokens per second** | Answer शुरू होने से पहले agent कितनी देर रुकता है |
-| **Time to first token** | Prompt processing और setup की combined delay |
+| **डिकोड टोकन प्रति सेकंड** | Processing के बाद answer कितनी जल्दी दिखता है |
+| **प्रॉम्प्ट टोकन प्रति सेकंड** | Answer शुरू होने से पहले agent कितनी देर रुकता है |
+| **पहले टोकन तक का समय** | Prompt processing और setup की combined delay |
 | **Context retention** | Task के दौरान project state का कितना हिस्सा उपलब्ध रहता है |
 
 **अपने prompt sizes को benchmark करें।** छोटा synthetic prompt repository work के दौरान महत्वपूर्ण cost छिपाता है।
@@ -185,7 +185,7 @@ Occasional work के लिए rental compute बेहतर है। पू
 
 Frequent, private या offline workload के लिए owned hardware बेहतर है। इससे queue time हटता है और repeatable tests के लिए stable environment मिलता है।
 
-| Situation | Better first move |
+| स्थिति | बेहतर पहला कदम |
 |---|---|
 | **महीने में कुछ sessions** | GPU rent करें या API उपयोग करें |
 | **Daily private coding** | Supported 24GB से 32GB system खरीदें |

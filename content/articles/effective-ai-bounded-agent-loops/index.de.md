@@ -1,7 +1,7 @@
 ---
 title: "Begrenzte KI-Agentenschleifen: Prüfungen, Wiederholungen und Stoppregeln"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Definieren Sie eine KI-Zielschleife mit beobachtbarem Zustand, Prüfungen, Wiederholungsgrenzen, Stoppbedingungen und klarer Übergabe an einen Menschen."
@@ -89,7 +89,7 @@ Erforderliche Nachweise: vollständiger Testlauf und Exit-Status des ungültigen
 **Beginnen Sie mit dem unveränderten Lab.** Die beiden Ausgangstests bestehen. Erstellen Sie in der frischen Extraktion `tests/test_loop_contract.py` mit der folgenden Prüfung. Diese Datei beschreibt eine gewünschte Funktion, die im Starter fehlt. Sie gehört nicht in das gepflegte Starter-ZIP.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Eine kontrolliert fehlschlagende Prüfung für die Übung zum Statusfilter."""
 
 import subprocess
 import sys

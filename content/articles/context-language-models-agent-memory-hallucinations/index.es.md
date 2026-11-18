@@ -1,7 +1,7 @@
 ---
 title: "Los Context Language Models de Meta: mejor memoria para agentes, no el fin de las alucinaciones"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Cómo los Context Language Models editan la memoria de los agentes, qué demuestran las pruebas y cómo afectan la fiabilidad los costes de caché, la capacidad del modelo y las notas no confiables."
@@ -48,11 +48,11 @@ Esta distinción importa al evaluar cualquier técnica de memoria. **La conserva
 **Rulin Shao y sus coautores**, incluidos investigadores de Meta Superintelligence Labs y la University of Washington, presentaron los CLM en un preprint del 29 de septiembre de 2026. Su implementación expone el contexto activo como un archivo editable. El agente lo modifica con comandos de shell o código, y el entorno carga el contenido revisado en la siguiente llamada. Consulta [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Continuación habitual:
+contexto existente + respuesta nueva + salida nueva de la herramienta
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Continuación con contexto editable:
+el agente revisa el archivo de contexto -> el entorno de ejecución carga el contexto revisado -> siguiente llamada al modelo
 ```
 
 **La arquitectura del modelo no necesita reemplazarse** para el método zero-shot. El entorno añade una capacidad alrededor de un modelo existente. El artículo también estudia instrucciones, estrategias aprendidas de gestión del contexto y aprendizaje por refuerzo.
@@ -101,11 +101,11 @@ El análisis suplementario de TerminalBench también informa de **ninguna edici�
 **La caché KV** almacena cálculos intermedios de atención. Con el almacenamiento en caché normal del prefijo, el texto sin cambios al principio de la siguiente solicitud reutiliza el cálculo anterior. Una edición cerca del principio reduce el prefijo reutilizable y obliga a procesar otra vez el texto posterior.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Solicitud anterior: A + B + C
+Solicitud revisada:  A + sustituto de B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Reutilización de prefijo estándar:
+reutiliza A y vuelve a calcular el reemplazo de B y C
 ```
 
 La métrica de **FLOPs de reutilización del prefijo** del artículo cuenta la generación y el procesamiento del prompt después del primer desajuste. Un PFLOP representa 10¹⁵ operaciones de coma flotante. Es un total de cómputo estimado, no una puntuación de calidad, una medida de rendimiento ni una factura.

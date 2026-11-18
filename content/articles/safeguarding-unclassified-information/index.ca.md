@@ -1,7 +1,7 @@
 ---
 title: "Informació no classificada: protecció i normativa"
 date: 2023-06-10
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Descobriu la naturalesa de la informació no classificada, les seves característiques, les mesures de protecció i la normativa aplicable."
@@ -54,7 +54,7 @@ ______
 
 Tot i que la **informació no classificada** no requereix el mateix nivell de protecció que la informació classificada, és essencial aplicar salvaguardes adequades per reduir riscos i mantenir la **confidencialitat**, la **integritat** i la **disponibilitat**. Algunes mesures són:
 
-**1. Controls d'accés**: implementeu **controls d'accés** perquè només les persones autoritzades puguin consultar i modificar la informació no classificada. Podeu fer-ho amb **l'autenticació d'usuaris**, controls d'accés basats en rols i revisions periòdiques dels accessos.
+**1. Controls d'accés**: implementeu **controls d'accés** perquè només les persones autoritzades puguin consultar i modificar la informació no classificada. Podeu fer-ho amb **l'autenticació d'usuaris**, **controls d'accés basats en rols** i revisions periòdiques dels accessos.
 
 **2. Xifratge**: xifreu la informació no classificada sensible, sobretot quan s'emmagatzema o es transmet per xarxes. El **xifratge** afegeix una capa de protecció i ajuda a evitar l'**accés no autoritzat** o la **intercepció**.
 
@@ -62,7 +62,7 @@ Tot i que la **informació no classificada** no requereix el mateix nivell de pr
 
 **4. Resposta a incidents**: desenvolupeu i mantingueu un **pla de resposta a incidents** per abordar amb rapidesa qualsevol incompliment o incident relacionat amb informació no classificada. El pla ha d'indicar els passos que cal seguir en cas d'**accés no autoritzat**, **pèrdua** o **divulgació** d'informació sensible.
 
-**5. Seguretat física**: apliqueu **mesures de seguretat física** per protegir documents en paper, dispositius d'emmagatzematge o equips que continguin informació no classificada. Poden incloure armaris tancats amb clau, sales de servidors segures o sistemes de vigilància.
+**5. Seguretat física**: apliqueu **mesures de seguretat física** per protegir documents en paper, dispositius d’emmagatzematge o equips que continguin informació no classificada. Poden incloure **armaris tancats amb clau**, **sales de servidors segures** o **sistemes de vigilància**.
 
 Aquestes mesures redueixen els riscos associats a la informació no classificada i protegeixen les **dades sensibles** contra l'accés o la divulgació no autoritzats.
 
@@ -78,4 +78,4 @@ ______
 
 ## Referències
 
-1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI) Program. Consultat a [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI) Program. Consultat a [pàgina del programa CUI a archives.gov](https://www.archives.gov/cui)

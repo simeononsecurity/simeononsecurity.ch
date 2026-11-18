@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Confronto delle prestazioni di cracking delle password"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Scoprite il divario di prestazioni tra NVIDIA RTX 3090 e RTX 4090 nel cracking delle password, evidenziando le implicazioni per la sicurezza e le misure di protezione."
@@ -49,7 +50,7 @@ Lunghezza password | Complessità | RTX 3090 (secondi) | RTX 4090 (secondi)
 
 I risultati dei nostri benchmark mostrano che la **RTX 4090** è uno strumento potente per il cracking delle password. Ciò significa che ora gli aggressori possono decifrare le password molto più rapidamente che in passato.
 
-Si tratta di un grave problema di sicurezza, in quanto significa che gli aggressori possono accedere ad account e sistemi molto più facilmente. Per proteggersi dagli attacchi di cracking delle password, è consigliabile utilizzare [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) per aiutarvi a generare e memorizzare password forti.
+Si tratta di un grave problema di sicurezza, perché gli aggressori possono accedere più facilmente agli account e ai sistemi. Per proteggersi dagli attacchi di cracking delle password, è consigliabile usare [**password robuste**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), difficili da indovinare. È inoltre consigliabile usare un [**gestore di password**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) per creare e conservare [password sicure](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 
 ## Conclusione
 

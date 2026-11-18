@@ -1,6 +1,7 @@
 ---
 title: "Используйте ChatGPT в своем терминале (Bash, PowerShell, Python): введение в инструмент командной строки ChatGPT для разработчиков"
 date: 2023-02-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Узнайте, как использовать модель OpenAI ChatGPT с помощью удобного интерфейса командной строки (CLI) для легкого создания текста и ответов на вопросы."
@@ -31,27 +32,27 @@ pip install chatgpt requests pyreadline3
 После установки разработчики могут использовать интерфейс командной строки ChatGPT для легкого создания текста или ответов на вопросы. Например, чтобы сгенерировать текст на основе подсказки, разработчики могут использовать следующую команду:
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "В чём цель существования?"
 ```
 
 Или, чтобы ответить на вопрос:
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "Какова столица Франции?"
 ```
 
 Интерфейс командной строки ChatGPT также можно использовать с базовыми скриптами:
 
 **Линукс:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="В чём смысл жизни?"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "В чём смысл жизни?"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

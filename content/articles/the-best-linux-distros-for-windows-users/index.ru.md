@@ -13,7 +13,7 @@ coverCaption: ""
 
 **Лучшие дистрибутивы Linux для перехода с Windows**.
 
-Вы собираетесь перейти с Windows на Linux? Учитывая широкий спектр доступных дистрибутивов Linux, выбрать подходящий может быть непросто. В этой статье мы рассмотрим некоторые из лучших дистрибутивов Linux, обеспечивающих плавный переход с Windows, в том числе [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php), and [**Manjaro**](https://manjaro.org/)
+Вы собираетесь перейти с Windows на Linux? Учитывая широкий спектр доступных дистрибутивов Linux, выбрать подходящий может быть непросто. В этой статье мы рассмотрим некоторые из лучших дистрибутивов Linux, обеспечивающих плавный переход с Windows, в том числе [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php) и [**Manjaro**](https://manjaro.org/).
 
 ______
 

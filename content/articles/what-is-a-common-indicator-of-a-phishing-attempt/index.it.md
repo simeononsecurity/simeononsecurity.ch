@@ -1,6 +1,7 @@
 ---
 title: "Riconoscere i tentativi di phishing: Indicatori comuni e consigli di sicurezza"
 date: 2023-06-18
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Una guida completa per identificare gli indicatori comuni dei tentativi di phishing e consigli pratici per rimanere al sicuro online."
@@ -48,7 +49,7 @@ I tentativi di phishing richiedono comunemente informazioni personali, come pass
 
 Fate attenzione agli allegati inaspettati delle e-mail, soprattutto se provengono da mittenti sconosciuti. Le e-mail di phishing possono contenere allegati che contengono software dannoso o virus. Evitate di aprire gli allegati se non li aspettate e se non avete verificato la fonte.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Consigli per restare al sicuro online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Ora che siete a conoscenza degli indicatori comuni dei tentativi di phishing, ecco alcuni consigli che vi aiuteranno a stare al sicuro online:
 

@@ -1,7 +1,7 @@
 ---
 title: "Confluence と Jira の AI 設定：権限と決定権"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Confluence の正式な根拠ページと、会社管理 Jira の権限を設定し、レビュー済みのチーム横断コラボレーションを実現します。"
@@ -53,15 +53,15 @@ coverCaption: ""
 5. 各正式な根拠ページで **Share を開きます。** 対象のスペースメンバーには閲覧のみを許可し、指定したオーナーと公開担当者には個別に編集権限を付与します。保存してコントリビューターユーザーで確認します。
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+ソース ID: REQ-17
+所有者ロール: product-owner
+状態: 承認済みの基準
+範囲: 合成エクスポートファイルのみ
+保持期間: 7 日
+提供状態: ラボの基本構成
+例外: 本番データ、バックアップ、法的保全対象は除外
+承認証拠: DEC-12 基準レビュー
+実装参照: 保護された GitHub 基準コミットを添付
 ```
 
 **各正式な根拠ページに制限を適用してください。** 親ページの編集制限が子ページも保護すると決めつけないでください。閲覧と編集の権限継承は異なり、スペースの権限も適用されます。リンクだけではアクセス権は付与されません。読み取り専用のはずのユーザーが編集できる場合は、すべてのグループ所属を確認してください。
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **ほかの 2 ページには次の本文を使います。** レコードを承認済みにする前に、レビュー項目のプレースホルダーをサンドボックスの実際の証跡に置き換えてください。
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+ソース ID: RUN-04
+所有者ロール: operations-owner
+状態: 承認済みの基準
+範囲: 合成エクスポートファイルのみ
+設定済み保持期間: 7 日
+手順: レビュー済みの変更前に REQ-17 と config.json を比較
+実行時の制限: このラボには削除ジョブがなく、削除の証拠も生成されない
+復旧: レビューを経て以前の承認済み構成に戻す
+復旧の制限: 構成を戻しても削除済みファイルは復元されない
+レビュー証拠: 実際のレビュアー、ページ版、決定参照を記入
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+ページ: 決定登録簿
+項目 ID: DEC-12
+決定: 合成環境の基準として 7 日を使う
+範囲: export-service-lab のみ
+要件: 公開後に REQ-17 のページ版を記録
+手順書: 公開後に RUN-04 のページ版を記録
+ポリシー: レビュー後に POL-01 の保護された GitHub リビジョンを記録
+製品レビュー: 指名された所有者の決定を待つ
+運用レビュー: 指名された所有者の決定を待つ
+状態: 下書き例。観測したレビュー証拠に置き換える
 ```
 
 ## マップの更新
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **この草案を PROP-042 に貼り付けます。** Jira の項目はデリバリーを追跡します。記載内容は Confluence の承認済み文言を置き換えません。
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+提案 ID: PROP-042
+状態: 下書き
+現在の承認値: 7 日。REQ-17 のページ版を記録
+提案値: 合成エクスポートファイルを 30 日保持
+除外対象: 本番データ、バックアップ、法的保全対象
+対象レコード: REQ-17、RUN-04、config.json、proposal.json
+固定の提案添付: 保留
+製品所有者のレビュー: 保留
+運用所有者のレビュー: 保留
+公開台帳: 保留
+ソース版の変更、レビュー不足、アクセス拒否があれば中止
 ```
 
 | ロール | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **読み取り、草案作成、公開を分けます。** コントリビューターには合成要件を理解し、提案を送るのに十分なアクセスが必要です。正式な根拠ページの編集権限や、自分の提案を承認済みにする権限は不要です。
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+テスト記録: PERM-REQ-EDIT
+ロール: コントリビューター
+ソース: REQ-17
+前提条件: ソースを読めて、公開済みリビジョンを記録済み
+試行: 正式な要件を編集
+期待結果: 編集拒否、公開済みリビジョンは不変
+観測結果: サンドボックスの結果を記入
+証拠: ネイティブの結果と独立したリビジョン再読込
+レビュアー: 管理者または独立した権限レビュアー
 ```
 
 **読み取り拒否は別の記録で確認します。** コントリビューターが要件を読めるかは公開と編集の分離をテストします。除外ユーザーがページを開けないことは機密性をテストします。両方を 1 行にまとめると、どの境界を確認したのか分からなくなります。

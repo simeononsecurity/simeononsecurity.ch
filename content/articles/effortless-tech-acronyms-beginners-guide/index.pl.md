@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Uproszczony i przyjazny robot z entuzjazmem wyjaśniający skróty technologiczne początkującemu.
 coverCaption: Demistyfikacja Żargonu Technicznego dla Początkujących
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 ---
 
 ## Wprowadzenie
@@ -186,7 +186,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **BYOM**: Bring Your Own Modem
   - Polityka umożliwiająca użytkownikom przynoszenie i używanie własnych modemów do łączenia się z internetem.
 
-- **BaaS**: Backend as a Service
+- **BaaS**: Backend as a Service (backend jako usługa)
   - Usługa chmurowa zapewniająca infrastrukturę backendu aplikacji webowych lub mobilnych, w tym serwery, bazy danych i usługi przechowywania.
 
 
@@ -221,7 +221,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **CSV**: Comma-Separated Values
   - Prosty format pliku używany do przechowywania danych tabelarycznych, gdzie wartości danych są oddzielone przecinkami.
 
-- **CaaS**: Container as a Service
+- **CaaS**: Container as a Service (kontenery jako usługa)
   - Usługa chmurowa oferująca platformę do wdrażania i zarządzania kontenerami, takimi jak kontenery Docker, w sposób skalowalny i efektywny.
 
 
@@ -256,10 +256,10 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **DRAM**: Dynamic Random Access Memory
   - Typ ulotnej pamięci komputerowej, powszechnie używanej jako pamięć główna w komputerach i innych urządzeniach elektronicznych.
 
-- **DaaS**: Data as a Service
+- **DaaS**: Data as a Service (dane jako usługa)
   - Usługa chmurowa zapewniająca dostęp do danych na żądanie, umożliwiająca organizacjom przechowywanie, dostęp i zarządzanie danymi w skalowalny i opłacalny sposób.
 
-- **DaaS**: Desktop as a Service
+- **DaaS**: Desktop as a Service (pulpit jako usługa)
   - Usługa wirtualizacji pulpitu oparta na chmurze, która pozwala użytkownikom na dostęp i korzystanie z wirtualnych pulpitów hostowanych na zdalnym serwerze lub centrum danych.
 
 
@@ -341,7 +341,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **FTP**: File Transfer Protocol
   - Protokół sieciowy używany do przesyłania plików między klientem a serwerem w sieci komputerowej.
 
-- **FaaS**: Function as a Service
+- **FaaS**: Function as a Service (funkcja jako usługa)
   - Usługa chmurowa pozwalająca programistom na uruchamianie pojedynczych funkcji lub fragmentów kodu w odpowiedzi na zdarzenia, często bez zarządzania infrastrukturą.
 
 - **Firewall**: Urządzenie lub oprogramowanie zabezpieczające sieć
@@ -394,7 +394,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **Gbps**: Gigabitów na sekundę
   - Jednostka prędkości transferu danych, oznaczająca miliard bitów przesłanych w ciągu sekundy, często używana do pomiaru prędkości sieci lub transferu danych.
 
-- 
+-
 ### H
 - **HDD**: Dysk Twardy
   - Urządzenie do przechowywania danych wykorzystujące wirujące talerze do zapisu i odczytu danych, powszechnie stosowane w komputerach stacjonarnych i serwerach.
@@ -681,7 +681,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **PSU**: Power Supply Unit
   - Urządzenie przetwarzające energię elektryczną z zewnętrznego źródła na napięcie i prąd wymagane do zasilania komputera lub innych urządzeń elektronicznych.
 
-- **PaaS**: Platform as a Service
+- **PaaS**: Platform as a Service (platforma jako usługa)
   - Model usługi chmurowej oferujący platformę do tworzenia, uruchamiania i zarządzania aplikacjami bez konieczności zarządzania infrastrukturą.
 
 ### Q
@@ -765,7 +765,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
   - Protokoły używane do zabezpieczania komunikacji internetowej przez szyfrowanie danych przesyłanych między serwerem WWW a przeglądarką klienta.
 
-- **SaaS**: Software as a Service
+- **SaaS**: Software as a Service (oprogramowanie jako usługa)
   - Model usługi chmurowej dostarczający aplikacje programowe przez internet na zasadzie subskrypcji.
 
 ### T

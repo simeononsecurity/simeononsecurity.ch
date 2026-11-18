@@ -1,7 +1,7 @@
 ---
 title: "Comparació de certificacions de ciberseguretat 2026"
 date: 2026-05-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Comparativa de 2026 dels proveïdors de certificacions de ciberseguretat, els preus, el retorn de la inversió i l'encaix amb les trajectòries professionals."
@@ -141,12 +141,12 @@ ______
 
 **Exemple real:**
 ```
-Job Listing Analysis (SOC Analyst I, Fortune 500 Company):
-"Required: Security+ or equivalent"
-"Preferred: Bachelor's degree OR 2 years experience"
+Anàlisi d’ofertes de feina (Analista SOC I, empresa Fortune 500):
+"Obligatori: Security+ o equivalent"
+"Preferit: Grau universitari o 2 anys d’experiència"
 
-Translation: Security+ = Entry ticket. Nobody cares after 2 years of experience.
-Salary Range: $60,000-$75,000
+En altres paraules: Security+ és el tiquet d’entrada. A ningú no li importa després de 2 anys d’experiència.
+Interval salarial: $60,000-$75,000
 ```
 
 **Integració de la IA el 2026:**
@@ -197,12 +197,12 @@ CISSP ha aconseguit una cosa poc habitual: **els departaments de recursos humans
 
 **Anàlisi de CISSP a les ofertes de feina:**
 ```
-Entry-Level SOC Analyst: "CISSP preferred" (12% of listings)
-Mid-Level Security Engineer: "CISSP required" (45% of listings)
-Senior Security Architect: "CISSP required" (78% of listings)
-CISO: "CISSP required" (85% of listings)
+Analista SOC júnior: "CISSP preferit" (12% de les ofertes)
+Enginyer de seguretat de nivell mitjà: "CISSP obligatori" (45% de les ofertes)
+Arquitecte de seguretat sènior: "CISSP obligatori" (78% de les ofertes)
+CISO: "CISSP obligatori" (85% de les ofertes)
 
-Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
+Realitat: CISSP apareix a tot arreu, però no és "obligatori" per als principiants de debò.
 ```
 
 **Els vuit dominis de CISSP, versió 2026:**
@@ -233,14 +233,14 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 
 **Anàlisi del cost a 5 anys:**
 ```
-CISSP Total Cost of Ownership (5 years):
-- Exam: $749
-- Study materials: $200-500
-- Renewal fees: $135/year × 5 = $675
-- Total 5-year cost: $1,624-$1,924
-- Annual maintenance effort: 40 CPE credits/year
+Cost total de CISSP durant 5 anys:
+- Examen: $749
+- Materials d’estudi: $200-500
+- Quotes de renovació: $135/any × 5 = $675
+- Cost total de 5 anys: $1,624-$1,924
+- Dedicació anual de manteniment: 40 crèdits de formació professional contínua (CPE)/any
 
-ROI: High if targeting management roles, moderate for technical IC roles
+ROI (rendiment de la inversió): Alt si busques càrrecs de gestió, moderat per a rols tècnics individuals (IC)
 ```
 
 **Integració de la IA el 2026:**
@@ -314,14 +314,14 @@ OSCP (Offensive Security Certified Professional) continua sent la **certificaci�
 
 **La realitat dels preus:**
 ```
-OSCP Cost Breakdown (2026):
-- Self-Guided Package (3 months lab time): $1,699
-- Learn One Package (3 months + Learn One year): $2,699
-- Exam retake: $249 each
+Desglossament del cost d’OSCP (2026):
+- Self-Guided Package (3 mesos de laboratori): $1,699
+- Learn One Package (3 mesos + un any de Learn One): $2,699
+- Repetició de l’examen: $249 cadascun
 
-Removed in 2025: Learn Unlimited (unlimited time) - this angered community
+El 2025 es va retirar Learn Unlimited (temps il·limitat), cosa que va indignar la comunitat
 
-Average total cost including retakes: $1,950-$2,500
+Cost total mitjà amb repeticions: $1,950-$2,500
 ```
 
 **Punts forts:**
@@ -496,19 +496,19 @@ Aquesta és una realitat controvertida: **el 2026, les certificacions de núvol 
 **Per què guanya el núvol el 2026:**
 
 ```
-Traditional Cybersecurity Jobs (2020-2024):
-- On-premises data centers
-- Physical firewalls and network security
-- Windows Server and Active Directory
-- VPN concentrators and DMZs
+Feines tradicionals de ciberseguretat (2020-2024):
+- Centres de dades a les instal·lacions de l’organització
+- Tallafocs físics i seguretat de xarxa
+- Windows Server i Active Directory
+- Concentradors VPN i zones DMZ
 
-Modern Cybersecurity Jobs (2025-2026):
-- AWS, Azure, GCP cloud environments
-- Container security (Docker, Kubernetes)
-- Serverless security (Lambda, Azure Functions)
-- Identity and access management (IAM)
-- Infrastructure as Code (Terraform, CloudFormation)
-- AI/ML model security
+Feines modernes de ciberseguretat (2025-2026):
+- Entorns al núvol d’AWS, Azure i GCP
+- Seguretat de contenidors (Docker, Kubernetes)
+- Seguretat de la computació sense servidor (Lambda, Azure Functions)
+- Gestió d’identitats i accessos (IAM)
+- Infraestructura com a codi (Terraform, CloudFormation)
+- Seguretat dels models d’AI/ML
 ```
 
 **La diferència d'habilitats és enorme.** Les empreses han migrat al núvol més ràpidament del que els professionals de seguretat han adquirit-ne les habilitats, cosa que ha creat una demanda excepcional.
@@ -557,23 +557,23 @@ Modern Cybersecurity Jobs (2025-2026):
 **Anàlisi de costos: núvol davant del model tradicional:**
 
 ```
-Traditional Security Path (3-year cost):
+Itinerari de seguretat tradicional (cost de 3 anys):
 - Security+: $404
 - CySA+: $404
 - PenTest+: $404
-- CISSP: $749 + $405 renewal
-Total: $2,366 over 3 years
+- CISSP: $749 + $405 renovació
+Cost total: $2,366 en 3 anys
 
-Cloud Security Path (3-year cost):
+Itinerari de seguretat al núvol (cost de 3 anys):
 - AWS Cloud Practitioner: $100
 - AWS Solutions Architect Associate: $150
 - AWS Security Specialty: $300
 - Azure Fundamentals: $99
-- Azure Security Engineer: $165 + $165 renewal
-Total: $979 over 3 years
+- Azure Security Engineer: $165 + $165 renovació
+Cost total: $979 en 3 anys
 
-Savings: $1,387 (58% less expensive)
-Job Market Demand: 38% vs 36% (cloud higher)
+Estalvi: $1,387 (58% més econòmic)
+Demanda del mercat laboral: 38% enfront de 36% (la demanda del núvol és superior)
 ```
 
 **Punts forts de les certificacions de núvol:**
@@ -659,19 +659,19 @@ SANS Institute ofereix **contingut de formació excel·lent**, impartit per prof
 **El problema? El preu.**
 
 ```
-SANS GPEN (Penetration Testing) Total Cost:
-- SANS SEC560 Course: $7,995
-- GPEN Exam (2 attempts): $979
-- Books and materials: $200
-- Travel/lodging (if in-person): $2,000+
-Total: $11,174 - $13,174
+Cost total de SANS GPEN (proves de penetració):
+- Curs SANS SEC560: $7,995
+- Examen GPEN (2 intents): $979
+- Llibres i materials: $200
+- Viatge/allotjament (si és presencial): $2,000+
+Cost total: $11,174 - $13,174
 
-Alternative:
+Alternativa:
 - OSCP: $1,699-2,699
-- Or HackTheBox CPTS: $499
-- Or OffSec + HTB combined: $2,198
+- O HackTheBox CPTS: $499
+- O OffSec + HTB combinats: $2,198
 
-Savings with alternatives: $8,976-$10,976 (75-83% less expensive)
+Estalvi amb les alternatives: $8,976-$10,976 (75-83% més econòmic)
 ```
 
 **Desglossament dels preus de SANS:**
@@ -1046,11 +1046,11 @@ Tots els proveïdors de certificacions s'afanyen a afegir continguts d'IA. Aques
 **Estratègia de certificacions per a l'era de la IA:**
 
 ```
-WRONG Approach:
-"Get AI-proof certification" → No such thing exists
+Enfocament incorrecte:
+"Obtenir una certificació a prova d’IA" → Això no existeix
 
-RIGHT Approach:
-"Get AI-aware certifications" → Choose vendors updating content
+Enfocament correcte:
+"Obtenir certificacions conscients de la IA" → Tria proveïdors que actualitzin els continguts
 ```
 
 **Proveïdors que avancen:** AWS, Azure, ISC2 i SANS, tot i el preu

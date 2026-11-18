@@ -1,6 +1,7 @@
 ---
 title: "Wytyczne bezpiecznego kodowania dla Ansible: Najlepsze praktyki"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Poznaj najlepsze praktyki pisania bezpiecznego kodu za pomocą Ansible, popularnego narzędzia do zarządzania konfiguracją i wdrażania."
@@ -111,7 +112,7 @@ Programiści powinni oczyszczać dane wejściowe użytkownika, aby zapobiec **ws
 Deweloperzy mogą korzystać z funkcji `regex_replace` w Ansible do oczyszczania danych wprowadzanych przez użytkownika. Filtr `regex_replace` umożliwia programistom zastępowanie wzorców w ciągach innymi wzorcami. Na przykład, aby zastąpić wszystkie znaki niealfanumeryczne w ciągu pustym ciągiem, programiści mogą użyć następującego kodu:
 
 ```yaml
-- name: Sanitize user input
+- name: Oczyść dane wejściowe użytkownika
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

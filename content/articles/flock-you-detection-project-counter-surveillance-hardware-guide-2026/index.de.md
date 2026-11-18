@@ -1,7 +1,7 @@
 ---
 title: "Flock-You Erkennungsprojekt: Vollständiger Gegensurveillance-Hardware- und Einrichtungsleitfaden 2026"
 date: 2026-05-24
-lastmod: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Umfassender technischer Leitfaden zum Open-Source-Projekt Flock-You zur Erkennung von Flock Safety ALPR-Kameras mit ESP32-basierter Hardware. Enthält Einrichtungsanweisungen, Firmware-Details und Einkaufsinformationen."
@@ -289,11 +289,11 @@ ______
    ```bash
    # PlatformIO installieren
    pip install platformio
-   
+
    # Repository klonen
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
+
    # Firmware flashen
    pio run -t upload
    pio device monitor

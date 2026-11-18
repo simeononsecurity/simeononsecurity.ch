@@ -1,17 +1,16 @@
 ---
 title: "I migliori harness per agenti AI nel 2026: scegli in base al workflow"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Confronta Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi e LangGraph per esecuzione degli strumenti, memoria, recupero e impegno di integrazione."
 genre: ["Intelligenza artificiale", "Sviluppo software", "Sicurezza AI"]
-tags: ["harness per agenti AI", "migliori framework per agenti", "Deep Agents", "Claude Agent SDK", "OpenAI Agents SDK", "Pydantic AI", "agente di coding Pi", "LangGraph", "runtime per agenti", "chiamate agli strumenti", "memoria degli agenti", "gestione del contesto", "esecuzione duratura", "permessi degli agenti", "sicurezza degli agenti AI", "agenti AI locali", "valutazione degli agenti", "human in the loop", "confronto SDK per agenti", "agenti in produzione"]
+tags: ["harness per agenti AI", "migliori framework per agenti", "Deep Agents", "Claude Agent SDK", "OpenAI Agents SDK", "Pydantic AI", "agente di coding Pi", "LangGraph", "runtime per agenti", "chiamate agli strumenti", "memoria degli agenti", "gestione del contesto", "esecuzione duratura", "permessi degli agenti", "sicurezza degli agenti AI", "agenti AI locali", "valutazione degli agenti", "umano nel ciclo", "confronto SDK per agenti", "agenti in produzione"]
 cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Componenti metallici modulari collegati a un processore centrale luminoso da percorsi turchesi e arancioni su una superficie di lavoro scura"
 coverCaption: "Illustrazione concettuale dei componenti che circondano un modello AI."
 ---
-
 **Deep Agents è la mia prima scelta per un agente generale con modelli configurabili e gestione del contesto integrata.** Claude Agent SDK è adatto a incorporare il comportamento di esecuzione di Claude Code. OpenAI Agents SDK e Pydantic AI meritano una prova per agenti specifici di un'applicazione. Pi preferisce un core piccolo ed estensibile, mentre LangGraph privilegia il controllo esplicito del workflow.
 
 **La scelta migliore dipende dal lavoro che vuoi accettare.** Un assistente di ricerca, un editor di repository e un servizio che gestisce richieste dei clienti richiedono strumenti e regole di recupero diverse. Queste raccomandazioni sono giudizi editoriali basati sulla documentazione ufficiale verificata il **10 ottobre 2026**, non risultati di un benchmark pratico delle prestazioni.
@@ -138,7 +137,7 @@ Per un **agente illustrativo di revisione fatture**, la validazione dello schema
 
 **Una lista di feature è solo un punto di partenza.** Esegui ogni candidato attraverso errori simili al tuo workload. Usa un workspace usa e getta e servizi di test con record sintetici.
 
-| Test | Prova da conservare |
+| Verifica | Prova da conservare |
 |---|---|
 | **Invio interrotto** | Un effetto esterno dopo il recupero |
 | **Conversazione lunga** | I requisiti originali restano soddisfatti |
@@ -160,7 +159,7 @@ Per un **agente illustrativo di revisione fatture**, la validazione dello schema
 **Non forzare configurazioni non supportate nel percorso controllato.** Se manca un modello o un'interfaccia comune, descrivi il confronto come valutazione del sistema. Registra anche effort di setup e guida umana.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Registro di prova illustrativo, non è un file di configurazione del framework
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

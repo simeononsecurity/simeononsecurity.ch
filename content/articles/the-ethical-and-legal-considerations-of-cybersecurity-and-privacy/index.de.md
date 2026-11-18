@@ -1,6 +1,7 @@
 ---
 title: "Cybersicherheit und Datenschutz bei der digitalen Transformation: Rechtliche und ethische Erwägungen"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Erfahren Sie mehr über die rechtlichen und ethischen Aspekte der Cybersicherheit und des Datenschutzes bei der digitalen Transformation."
@@ -38,7 +39,7 @@ Der Aufbau von Vertrauen bei den Kunden ist für den Aufbau langfristiger Bezieh
 
 ### Datenschutzbestimmungen
 
-**Datenschutzbestimmungen**, wie die Allgemeine Datenschutzverordnung der Europäischen Union [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA) werden immer häufiger, da die Menge der online erfassten und gespeicherten personenbezogenen Daten zunimmt. Diese Vorschriften sollen die Privatsphäre und die Sicherheit der personenbezogenen Daten des Einzelnen schützen und ihm mehr Kontrolle über seine Daten geben.
+**Datenschutzbestimmungen**, etwa die Datenschutz-Grundverordnung der Europäischen Union [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) und der California Consumer Privacy Act (CCPA), werden mit der zunehmenden Erfassung und Speicherung personenbezogener Daten im Internet immer häufiger. Diese Vorschriften sollen die Privatsphäre und die Sicherheit personenbezogener Daten schützen und Menschen mehr Kontrolle über ihre Daten geben.
 
 Die 2018 in Kraft getretene Datenschutz-Grundverordnung (DSGVO) beispielsweise gibt Einzelpersonen das Recht auf Zugang, Berichtigung und Löschung ihrer von Unternehmen und Organisationen gespeicherten personenbezogenen Daten. Unternehmen und Organisationen, die personenbezogene Daten erheben und verarbeiten, müssen die DSGVO einhalten, sonst drohen erhebliche Geldstrafen und rechtliche Konsequenzen.
 
@@ -46,7 +47,7 @@ Auch das CCPA, das 2020 in Kraft trat, gibt den Einwohnern Kaliforniens das Rech
 
 ### Cybersecurity-Gesetze
 
-**Cybersicherheitsgesetze** sind eine weitere rechtliche Überlegung im Zeitalter der digitalen Transformation. Diese Gesetze sollen Einzelpersonen, Unternehmen und Regierungen vor Cyberangriffen und Datenschutzverletzungen schützen. Der Cybersecurity Information Sharing Act [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sind zwei Beispiele für Cybersicherheitsgesetze in den Vereinigten Staaten.
+**Cybersicherheitsgesetze** sind eine weitere rechtliche Überlegung im Zeitalter der digitalen Transformation. Diese Gesetze sollen Einzelpersonen, Unternehmen und Regierungen vor Cyberangriffen und Datenschutzverletzungen schützen. Der Cybersecurity Information Sharing Act [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act) und der Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sind zwei Beispiele für Cybersicherheitsgesetze in den Vereinigten Staaten.
 
 Das 2015 verabschiedete CISA fördert den Austausch von Informationen über Cybersicherheitsbedrohungen zwischen dem privaten Sektor und der Regierung, um Cyberangriffe zu verhindern. Das 1986 erlassene CFAA kriminalisiert computerbezogene Aktivitäten wie Hacking und Computerbetrug.
 

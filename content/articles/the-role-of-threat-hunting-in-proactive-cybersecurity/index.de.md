@@ -1,7 +1,7 @@
 ---
 title: "Bedrohungsjagd: Proaktive Verteidigung gegen Cyberangriffe"
 date: 2023-03-11
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Erfahren Sie, wie die Bedrohungsjagd Cyberangriffe verhindern kann und welche Vorteile und Herausforderungen die Implementierung als proaktive Cybersicherheitsmaßnahme mit sich bringt."
@@ -82,7 +82,7 @@ Die Bedrohungsjagd erfordert ein **hohes Maß an technischem Fachwissen** und **
 
 Die Suche nach Bedrohungen kann ein **Ressourcen-intensiver Prozess** sein, der viel Zeit und Mühe erfordert. Er umfasst die manuelle Untersuchung potenzieller Bedrohungen, die Analyse des Netzwerkverkehrs, die Untersuchung von Systemprotokollen und vieles mehr. Unternehmen müssen für eine effektive Bedrohungsjagd entsprechende Ressourcen bereitstellen, darunter qualifiziertes Personal und moderne Sicherheitstools.
 
-### False Positives
+### Falsch-positive Ergebnisse
 
 Die Suche nach Bedrohungen kann zu **falsch-positiven** Ergebnissen führen, d. h. zu Warnmeldungen oder Indikatoren, die zunächst verdächtig erscheinen, sich dann aber als harmlos herausstellen. Diese Fehlalarme können Ressourcen vergeuden und unnötige Untersuchungen verursachen. Unternehmen müssen robuste Prozesse und Methoden einführen, um **Falschmeldungen** schnell herauszufiltern und sich auf echte Bedrohungen zu konzentrieren.
 

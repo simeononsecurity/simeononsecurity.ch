@@ -1,6 +1,7 @@
 ---
 title: "Fortinet बनाम Cisco: संपूर्ण नेटवर्क सुरक्षा तुलना"
 date: 2026-05-24
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Fortinet और Cisco नेटवर्क सुरक्षा समाधानों की व्यापक तुलना जिसमें फायरवॉल, स्विच, SD-WAN, मूल्य निर्धारण, प्रदर्शन बेंचमार्क, और 2026 के लिए तैनाती सिफारिशें शामिल हैं।
@@ -65,7 +66,6 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-21
 ---
 
 ## परिचय: Fortinet बनाम Cisco नेटवर्क सुरक्षा मुकाबला
@@ -147,24 +147,22 @@ Fortinet का **Security Fabric** एक व्यापक साइबरस
 **Security Fabric के मुख्य घटक:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              FortiManager (Management)                  │
-│              FortiAnalyzer (Analytics)                  │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│  FortiGate FW  │    │  FortiSwitch    │  │ FortiAP    │
-│  (Perimeter)   │    │  (Network)      │  │ (Wireless) │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-            ┌────────▼─────────┐
-            │   FortiClient    │
-            │   (Endpoint)     │
-            └──────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                               FortiManager (प्रबंधन)                               │
+│                              FortiAnalyzer (विश्लेषण)                              │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│      FortiGate FW       │  │       FortiSwitch       │  │         FortiAP         │
+│         (परिधि)         │  │        (नेटवर्क)         │  │        (वायरलेस)        │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │       FortiClient       │
+                             │      (अंतिम उपकरण)      │
+                             └─────────────────────────┘
 ```
 
 **Security Fabric की प्रमुख विशेषताएं:**
@@ -195,25 +193,23 @@ Cisco का दृष्टिकोण नेटवर्किंग, सु�
 **Cisco Secure वास्तुकला:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Cisco SecureX                         │
-│         (Unified Threat Response Platform)              │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│ Firepower NGFW │    │ Catalyst Switch │  │  Umbrella  │
-│   (Firewall)   │    │   (Network)     │  │   (Cloud)  │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-        ┌────────────┴────────────┐
-        │  Cisco Secure Endpoint  │
-        │  Cisco Duo (MFA)        │
-        │  Third-party tools      │
-        └─────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                   Cisco SecureX                                   │
+│                             एकीकृत खतरा प्रतिक्रिया मंच                             │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│     Firepower NGFW      │  │      Catalyst स्विच      │  │        Umbrella         │
+│        (फ़ायरवॉल)        │  │        (नेटवर्क)         │  │         (क्लाउड)         │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │  Cisco Secure Endpoint  │
+                             │     Cisco Duo (MFA)     │
+                             │     तृतीय-पक्ष उपकरण     │
+                             └─────────────────────────┘
 ```
 
 **Cisco Secure की प्रमुख विशेषताएं:**
@@ -338,12 +334,12 @@ ______
 
 **FortiGate SD-WAN उपयोग मामले:**
 ```
-Branch Office Configuration:
-- FortiGate 60F as branch firewall/SD-WAN device
-- Dual WAN links (ISP + LTE backup)
-- IPsec tunnels to headquarters FortiGate
-- Application steering (VoIP → low latency, bulk data → high bandwidth)
-- Cost savings: $2,500 device replaces $2,000 firewall + $3,000 SD-WAN appliance
+शाखा कार्यालय का विन्यास:
+- शाखा के फ़ायरवॉल और SD-WAN उपकरण के रूप में FortiGate 60F
+- दो WAN लिंक (ISP + LTE बैकअप)
+- मुख्यालय के FortiGate तक IPsec टनल
+- अनुप्रयोग के अनुसार ट्रैफ़िक निर्देशन (VoIP → कम विलंबता, बड़ी मात्रा का डेटा → अधिक बैंडविड्थ)
+- लागत बचत: $2,500 का उपकरण $2,000 के फ़ायरवॉल + $3,000 के SD-WAN उपकरण की जगह लेता है
 ```
 
 **Cisco SD-WAN (Viptela प्लेटफ़ॉर्म):**
@@ -356,13 +352,13 @@ Branch Office Configuration:
 
 **Cisco SD-WAN उपयोग मामले:**
 ```
-Enterprise WAN Deployment:
-- vEdge routers at all branch locations
-- vSmart controllers in data centers (HA pair)
-- vManage centralized management
-- Integration with existing Catalyst switching
-- Firepower firewalls at data center perimeter
-- Cost: Higher but superior for complex topologies
+उद्यम WAN की तैनाती:
+- सभी शाखाओं में vEdge राउटर
+- डेटा केंद्रों में vSmart नियंत्रक (HA जोड़ी)
+- vManage से केंद्रीकृत प्रबंधन
+- मौजूदा Catalyst स्विचिंग के साथ एकीकरण
+- डेटा केंद्र की परिधि पर Firepower फ़ायरवॉल
+- लागत: अधिक, लेकिन जटिल टोपोलॉजी के लिए बेहतर
 ```
 
 **SD-WAN निर्णय:**
@@ -387,24 +383,24 @@ Enterprise WAN Deployment:
 
 **विभाजन परिदृश्य:**
 ```
-Requirement: Isolate guest WiFi, employee devices, IoT devices, and servers
+आवश्यकता: अतिथि WiFi, कर्मचारी उपकरण, IoT उपकरण और सर्वर अलग करना
 
-Fortinet Approach:
-- FortiGate defines security zones (guest, employee, IoT, server)
-- FortiAP assigns users to VLANs based on SSID
-- FortiSwitch enforces VLAN isolation
-- FortiGate policies control inter-zone traffic
-- Complexity: Moderate
-- Cost: Lower (included in Security Fabric)
+Fortinet का तरीका:
+- FortiGate सुरक्षा क्षेत्र निर्धारित करता है (अतिथि, कर्मचारी, IoT, सर्वर)
+- FortiAP उपयोगकर्ताओं को SSID के आधार पर VLAN देता है
+- FortiSwitch VLAN पृथक्करण लागू करता है
+- FortiGate नीतियाँ क्षेत्रों के बीच ट्रैफ़िक नियंत्रित करती हैं
+- जटिलता: मध्यम
+- लागत: कम (Security Fabric में शामिल)
 
-Cisco Approach:
-- ISE profiles devices and assigns SGT tags
-- TrustSec policies enforce SGT-based access control
-- Enforcement at Catalyst switches (hardware TCAM)
-- Firepower provides perimeter security
-- Complexity: Higher (requires ISE deployment)
-- Cost: Higher (ISE licensing + TrustSec-capable switches)
-- Benefit: More granular, scales better in very large environments
+Cisco का तरीका:
+- ISE उपकरणों की प्रोफ़ाइल बनाता है और SGT टैग देता है
+- TrustSec नीतियाँ SGT-आधारित पहुँच नियंत्रण लागू करती हैं
+- Catalyst स्विचों पर प्रवर्तन (हार्डवेयर TCAM)
+- Firepower परिधि की सुरक्षा करता है
+- जटिलता: अधिक (ISE की तैनाती आवश्यक)
+- लागत: अधिक (ISE लाइसेंस + TrustSec-सक्षम स्विच)
+- लाभ: अधिक सूक्ष्म नियंत्रण और बहुत बड़े परिवेशों में बेहतर विस्तार क्षमता
 ```
 
 **विभाजन निर्णय:**
@@ -473,20 +469,20 @@ end
 
 **नीति निर्माण (Firepower Management Center GUI):**
 ```
-GUI Workflow:
-1. Navigate to Policies → Access Control → [Policy Name]
-2. Add Rule:
-   - Name: "Allow-Web-Outbound"
-   - Source Networks: internal-network
-   - Destination Networks: any
-   - Ports: HTTP, HTTPS
-   - Action: Allow
-   - Inspection: Enable IPS (balanced policy)
-   - File Policy: Block malware (AMP)
-   - URL Filtering: Enable (custom category list)
-   - TLS/SSL: Decrypt known key, inspect
-3. Deploy changes to managed devices
-4. Verify deployment completion
+ग्राफ़िकल इंटरफ़ेस की प्रक्रिया:
+1. Policies → Access Control → [नीति का नाम] पर जाएँ
+2. नियम जोड़ें (Add Rule):
+   - नाम (Name): "Allow-Web-Outbound"
+   - स्रोत नेटवर्क (Source Networks): internal-network
+   - गंतव्य नेटवर्क (Destination Networks): any
+   - पोर्ट (Ports): HTTP, HTTPS
+   - कार्रवाई (Action): Allow
+   - निरीक्षण (Inspection): IPS सक्षम करें (संतुलित नीति)
+   - फ़ाइल नीति (File Policy): मैलवेयर रोकें (AMP)
+   - URL फ़िल्टरिंग (URL Filtering): सक्षम करें (अनुकूलित श्रेणी सूची)
+   - TLS/SSL: ज्ञात कुंजी से डिक्रिप्ट करें और निरीक्षण करें
+3. प्रबंधित उपकरणों पर बदलाव तैनात करें
+4. तैनाती पूरी होने की पुष्टि करें
 ```
 
 **Cisco Firepower की ताकतें:**
@@ -508,7 +504,7 @@ GUI Workflow:
 **FortiGate ऑटोमेशन:**
 
 ```python
-# Python example: Create firewall policy via FortiOS API
+# Python उदाहरण: FortiOS API से फ़ायरवॉल नीति बनाएँ
 import requests
 import json
 
@@ -533,7 +529,7 @@ policy_data = {
 }
 
 response = requests.post(fortios_api, headers=headers, data=json.dumps(policy_data), verify=False)
-print(f"Policy creation status: {response.status_code}")
+print(f"नीति निर्माण की स्थिति: {response.status_code}")
 ```
 
 **FortiGate ऑटोमेशन परिपक्वता:**
@@ -546,20 +542,20 @@ print(f"Policy creation status: {response.status_code}")
 **Cisco Firepower ऑटोमेशन:**
 
 ```python
-# Python example: Create access control policy via FMC API
+# Python उदाहरण: FMC API से एक्सेस कंट्रोल नीति बनाएँ
 from fireREST import FMC
 
 fmc = FMC(hostname='fmc.example.com', username='admin', password='password')
 fmc.login()
 
-# Create network object
+# नेटवर्क ऑब्जेक्ट बनाएँ
 network_obj = fmc.create_network_object(
     name='internal-network',
     value='10.0.0.0/8',
-    description='Corporate internal network'
+    description='आंतरिक कॉर्पोरेट नेटवर्क'
 )
 
-# Create access control rule
+# एक्सेस कंट्रोल नियम बनाएँ
 rule = fmc.create_access_rule(
     policy_name='Corporate-Access-Policy',
     name='Allow-Web-Outbound',
@@ -571,9 +567,9 @@ rule = fmc.create_access_rule(
     file_policy='Block Malware'
 )
 
-# Deploy changes
+# बदलाव लागू करें
 deployment = fmc.deploy(device_list=['firewall01', 'firewall02'])
-print(f"Deployment status: {deployment}")
+print(f"परिनियोजन की स्थिति: {deployment}")
 ```
 
 **Cisco Firepower ऑटोमेशन परिपक्वता:**
@@ -682,12 +678,12 @@ ______
 **उदाहरण FortiGate कुल लागत (3-वर्ष):**
 
 ```
-FortiGate 600F Deployment:
-- Hardware: $20,000 (one-time)
-- Enterprise Bundle: $7,000/year × 3 years = $21,000
-- FortiCare Premium Support: $2,000/year × 3 years = $6,000
-- Total 3-year cost: $47,000
-- Effective annual cost: $15,667/year
+FortiGate 600F की तैनाती:
+- हार्डवेयर: $20,000 (एक बार)
+- Enterprise Bundle: $7,000/वर्ष × 3 वर्ष = $21,000
+- FortiCare Premium Support: $2,000/वर्ष × 3 वर्ष = $6,000
+- 3 वर्षों की कुल लागत: $47,000
+- प्रभावी वार्षिक लागत: $15,667/वर्ष
 ```
 
 **FortiGate लाइसेंसिंग के फायदे:**
@@ -717,13 +713,13 @@ FortiGate 600F Deployment:
 **उदाहरण Cisco Firepower कुल लागत (3 वर्ष):**
 
 ```
-Cisco FPR4145 Deployment:
-- Hardware: $32,000 (one-time)
-- Cisco Plus Secure Bundle: $15,000/year × 3 years = $45,000
-- FMC hardware/VM: $12,000 (one-time) or $2,000/year (VM subscription)
-- Cisco SmartNet Support: $4,000/year × 3 years = $12,000
-- Total 3-year cost: $101,000
-- Effective annual cost: $33,667/year
+Cisco FPR4145 की तैनाती:
+- हार्डवेयर: $32,000 (एक बार)
+- Cisco Plus Secure Bundle: $15,000/वर्ष × 3 वर्ष = $45,000
+- FMC हार्डवेयर/VM: $12,000 (एक बार) या $2,000/वर्ष (VM सदस्यता)
+- Cisco SmartNet Support: $4,000/वर्ष × 3 वर्ष = $12,000
+- 3 वर्षों की कुल लागत: $101,000
+- प्रभावी वार्षिक लागत: $33,667/वर्ष
 ```
 
 **Cisco Firepower लाइसेंसिंग के नुकसान:**
@@ -745,40 +741,40 @@ Cisco FPR4145 Deployment:
 **Fortinet समाधान TCO:**
 
 ```
-Hardware:
-- 2× FortiGate 600F (HA pair): $40,000
-- FortiManager VM (free for <10 devices): $0
+हार्डवेयर:
+- 2× FortiGate 600F (HA जोड़ी): $40,000
+- FortiManager VM (<10 उपकरणों के लिए मुफ़्त): $0
 - FortiAnalyzer 1000E: $8,000
 
-Subscriptions (5 years):
-- Enterprise Bundle licenses: $7,000/year × 2 firewalls × 5 years = $70,000
-- FortiCare Premium Support: $2,000/year × 2 firewalls × 5 years = $20,000
-- FortiAnalyzer log storage: $1,000/year × 5 years = $5,000
+सदस्यताएँ (5 वर्ष):
+- Enterprise Bundle लाइसेंस: $7,000/वर्ष × 2 फ़ायरवॉल × 5 वर्ष = $70,000
+- FortiCare Premium Support: $2,000/वर्ष × 2 फ़ायरवॉल × 5 वर्ष = $20,000
+- FortiAnalyzer लॉग भंडारण: $1,000/वर्ष × 5 वर्ष = $5,000
 
-Professional Services:
-- Initial deployment and training: $10,000
+पेशेवर सेवाएँ:
+- प्रारंभिक तैनाती और प्रशिक्षण: $10,000
 
-Total 5-year TCO: $153,000
-Average annual cost: $30,600
+5 वर्षों का कुल TCO: $153,000
+औसत वार्षिक लागत: $30,600
 ```
 
 **Cisco समाधान TCO:**
 
 ```
-Hardware:
-- 2× Cisco FPR4145 (HA pair): $64,000
+हार्डवेयर:
+- 2× Cisco FPR4145 (HA जोड़ी): $64,000
 - Firepower Management Center 2500: $25,000
 
-Subscriptions (5 years):
-- Cisco Plus Secure (all licenses): $15,000/year × 2 firewalls × 5 years = $150,000
-- SmartNet 8×5×NBD: $4,000/year × 2 firewalls × 5 years = $40,000
-- FMC support: $2,500/year × 5 years = $12,500
+सदस्यताएँ (5 वर्ष):
+- Cisco Plus Secure (सभी लाइसेंस): $15,000/वर्ष × 2 फ़ायरवॉल × 5 वर्ष = $150,000
+- SmartNet 8×5×NBD: $4,000/वर्ष × 2 फ़ायरवॉल × 5 वर्ष = $40,000
+- FMC सहायता: $2,500/वर्ष × 5 वर्ष = $12,500
 
-Professional Services:
-- Initial deployment and training: $20,000
+पेशेवर सेवाएँ:
+- प्रारंभिक तैनाती और प्रशिक्षण: $20,000
 
-Total 5-year TCO: $311,500
-Average annual cost: $62,300
+5 वर्षों का कुल TCO: $311,500
+औसत वार्षिक लागत: $62,300
 ```
 
 **TCO विश्लेषण:**
@@ -810,15 +806,15 @@ ______
 
 **नमूना कॉन्फ़िगरेशन:**
 ```
-Equipment:
+उपकरण:
 - 1× FortiGate 100F: $2,500
-- 2× FortiSwitch 124F (48-port): $2,000 each
-- 3× FortiAP 431F (WiFi 6): $600 each
-- Enterprise Bundle subscription: $900/year
-- FortiCare 8×5 Support: $300/year
+- 2× FortiSwitch 124F (48 पोर्ट): $2,000 प्रत्येक
+- 3× FortiAP 431F (WiFi 6): $600 प्रत्येक
+- Enterprise Bundle सदस्यता: $900/वर्ष
+- FortiCare 8×5 Support: $300/वर्ष
 
-Total first-year cost: $9,100
-Annual renewal: $1,200
+पहले वर्ष की कुल लागत: $9,100
+वार्षिक नवीनीकरण: $1,200
 ```
 
 ### मध्यम आकार का उद्यम (100-1,000 कर्मचारी)
@@ -841,41 +837,41 @@ Annual renewal: $1,200
 
 **नमूना कॉन्फ़िगरेशन (Fortinet):**
 ```
-Headquarters:
-- 2× FortiGate 600F (HA cluster): $40,000
+मुख्यालय:
+- 2× FortiGate 600F (HA क्लस्टर): $40,000
 - FortiManager 400E: $12,000
 - FortiAnalyzer 1000E: $8,000
 
-Branch Offices (5 locations):
+शाखा कार्यालय (5 स्थान):
 - 5× FortiGate 100F: $12,500
 - 10× FortiSwitch 124F: $20,000
 
-Subscriptions (annual):
+सदस्यताएँ (वार्षिक):
 - Enterprise Bundle: $24,000
 - FortiCare Premium Support: $8,000
 
-Total first-year cost: $124,500
-Annual renewal: $32,000
+पहले वर्ष की कुल लागत: $124,500
+वार्षिक नवीनीकरण: $32,000
 ```
 
 **नमूना कॉन्फ़िगरेशन (Cisco):**
 ```
-Headquarters:
-- 2× Cisco FPR4145 (HA cluster): $64,000
+मुख्यालय:
+- 2× Cisco FPR4145 (HA क्लस्टर): $64,000
 - Cisco FMC 2500: $25,000
-- Cisco ISE 3615 (2-node): $45,000
+- Cisco ISE 3615 (2 नोड): $45,000
 
-Branch Offices (5 locations):
+शाखा कार्यालय (5 स्थान):
 - 5× Cisco FPR2140: $45,000
 - 10× Catalyst 9200-48P: $80,000
 
-Subscriptions (annual):
-- Cisco Plus Secure licenses: $90,000
-- SmartNet support: $30,000
-- ISE Plus licenses: $15,000
+सदस्यताएँ (वार्षिक):
+- Cisco Plus Secure लाइसेंस: $90,000
+- SmartNet सहायता: $30,000
+- ISE Plus लाइसेंस: $15,000
 
-Total first-year cost: $394,000
-Annual renewal: $135,000
+पहले वर्ष की कुल लागत: $394,000
+वार्षिक नवीनीकरण: $135,000
 ```
 
 **लागत अंतर:** Cisco समाधान 216% अधिक लागत वाला है ($269,500 पहला वर्ष, $103,000 वार्षिक)
@@ -895,17 +891,17 @@ Annual renewal: $135,000
 
 **हालांकि, हाइब्रिड दृष्टिकोण पर विचार करें:**
 ```
-Data Center / Headquarters: Cisco
-- Cisco Firepower 9300 series (high performance)
-- Cisco ISE for network access control
-- Integration with existing Cisco data center
+डेटा केंद्र / मुख्यालय: Cisco
+- Cisco Firepower 9300 शृंखला (उच्च प्रदर्शन)
+- नेटवर्क पहुँच नियंत्रण के लिए Cisco ISE
+- मौजूदा Cisco डेटा केंद्र के साथ एकीकरण
 
-Branch Offices: Fortinet
-- FortiGate appliances for cost-effective branch security
-- Integrated SD-WAN to headquarters
-- Managed via FortiManager (centralized)
+शाखा कार्यालय: Fortinet
+- किफ़ायती शाखा सुरक्षा के लिए FortiGate उपकरण
+- मुख्यालय तक एकीकृत SD-WAN
+- FortiManager से केंद्रीकृत प्रबंधन
 
-Savings: 40-50% reduction in branch office costs while maintaining Cisco core
+बचत: Cisco कोर बनाए रखते हुए शाखा कार्यालयों की लागत में 40-50% कमी
 ```
 
 ### सेवा प्रदाता / MSP
@@ -957,26 +953,26 @@ ______
 **माइग्रेशन सर्वोत्तम प्रथाएँ:**
 
 ```
-Phase 1: Pilot (Months 1-2)
-- Deploy FortiGate in parallel at pilot site
-- Replicate existing Cisco policies
-- Train team on FortiGate management
-- Validate performance and features
+चरण 1: प्रायोगिक तैनाती (महीने 1-2)
+- प्रायोगिक स्थान पर FortiGate समानांतर तैनात करें
+- मौजूदा Cisco नीतियों की प्रतिकृति बनाएँ
+- टीम को FortiGate प्रबंधन का प्रशिक्षण दें
+- प्रदर्शन और सुविधाओं की पुष्टि करें
 
-Phase 2: Branch Rollout (Months 3-6)
-- Migrate branch offices first (simpler configurations)
-- Use cutover windows to minimize downtime
-- Keep Cisco policies documented for rollback
+चरण 2: शाखाओं में तैनाती (महीने 3-6)
+- पहले शाखा कार्यालयों का माइग्रेशन करें (सरल विन्यास)
+- बंद रहने का समय घटाने के लिए निर्धारित संक्रमण अवधि का उपयोग करें
+- वापसी के लिए Cisco नीतियों का दस्तावेज़ रखें
 
-Phase 3: Data Center / HQ (Months 7-9)
-- More complex configurations require careful planning
-- Consider HA cutover to minimize downtime
-- Extensive testing of all VPN connections
+चरण 3: डेटा केंद्र / मुख्यालय (महीने 7-9)
+- अधिक जटिल विन्यासों के लिए सावधानीपूर्वक योजना आवश्यक है
+- बंद रहने का समय घटाने के लिए HA संक्रमण पर विचार करें
+- सभी VPN कनेक्शन का व्यापक परीक्षण करें
 
-Phase 4: Decommission (Months 10-12)
-- Remove Cisco equipment after stability period
-- Return or repurpose hardware
-- Cancel Cisco SmartNet subscriptions
+चरण 4: सेवा से हटाना (महीने 10-12)
+- स्थिर संचालन की अवधि के बाद Cisco उपकरण हटाएँ
+- हार्डवेयर लौटाएँ या अन्य काम में लगाएँ
+- Cisco SmartNet सदस्यताएँ रद्द करें
 ```
 
 {{< figure src="cisco-to-fortinet-network-migration-phased-timeline.webp" alt="समयरेखा आरेख जो Cisco से Fortinet नेटवर्क सुरक्षा के लिए 12 महीने की चरणबद्ध माइग्रेशन दिखाता है जिसमें महीने 1 से 2 में पायलट तैनाती, महीने 3 से 6 में शाखा रोलआउट, महीने 7 से 9 में डेटा सेंटर कटओवर, और महीने 10 से 12 में अंतिम निष्कासन शामिल है" >}}
@@ -1007,28 +1003,28 @@ Phase 4: Decommission (Months 10-12)
 **माइग्रेशन सर्वोत्तम प्रथाएँ:**
 
 ```
-Phase 1: Design (Months 1-2)
-- Assess current FortiGate features in use
-- Design equivalent Cisco architecture
-- Identify features requiring additional Cisco products (ISE, etc.)
-- Validate licensing requirements with Cisco SE
+चरण 1: डिज़ाइन (महीने 1-2)
+- वर्तमान में उपयोग की जा रही FortiGate सुविधाओं का आकलन करें
+- समतुल्य Cisco आर्किटेक्चर डिज़ाइन करें
+- अतिरिक्त Cisco उत्पादों की आवश्यकता वाली सुविधाएँ पहचानें (ISE आदि)
+- Cisco SE के साथ लाइसेंस आवश्यकताओं की पुष्टि करें
 
-Phase 2: Proof of Concept (Months 3-4)
-- Deploy Cisco FMC and test firewall in lab
-- Replicate critical policies and test thoroughly
-- Train security team on FMC management
-- Benchmark performance under realistic load
+चरण 2: अवधारणा का प्रमाण (महीने 3-4)
+- प्रयोगशाला में Cisco FMC और परीक्षण फ़ायरवॉल तैनात करें
+- महत्वपूर्ण नीतियों की प्रतिकृति बनाएँ और अच्छी तरह जाँचें
+- सुरक्षा टीम को FMC प्रबंधन का प्रशिक्षण दें
+- यथार्थ भार के अंतर्गत प्रदर्शन मापें
 
-Phase 3: Phased Deployment (Months 5-12)
-- Deploy Cisco firewalls at new locations first
-- Cutover existing locations during maintenance windows
-- Maintain FortiGate parallel for 30-60 days
-- Extensive VPN and application testing
+चरण 3: चरणबद्ध तैनाती (महीने 5-12)
+- पहले नए स्थानों पर Cisco फ़ायरवॉल तैनात करें
+- रखरखाव अवधि में मौजूदा स्थानों को नए तंत्र पर ले जाएँ
+- FortiGate को 30-60 दिनों तक समानांतर चलाएँ
+- VPN और अनुप्रयोगों का व्यापक परीक्षण करें
 
-Phase 4: Optimization (Months 13-18)
-- Leverage advanced Cisco features (TrustSec, etc.)
-- Integrate with other Cisco products
-- Optimize policies and rule bases
+चरण 4: अनुकूलन (महीने 13-18)
+- Cisco की उन्नत सुविधाएँ इस्तेमाल करें (TrustSec आदि)
+- अन्य Cisco उत्पादों के साथ एकीकृत करें
+- नीतियों और नियम समूहों को अनुकूलित करें
 ```
 
 ______
@@ -1099,29 +1095,15 @@ ______
 ### निर्णय वृक्ष
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Do you have existing Cisco campus network (ISE)?      │
-└───────────────┬─────────────────────────────────────────┘
-                │
-        ┌───────┴───────┐
-       YES             NO
-        │               │
-        │               │
-        v               v
-┌──────────────┐  ┌─────────────────┐
-│ Need TrustSec │  │ Need integrated │
-│ micro-seg?    │  │ SD-WAN?         │
-└───┬──────────┘  └────────┬────────┘
-    │                      │
-  ┌─┴─┐                  ┌─┴─┐
- YES NO                 YES NO
-  │   │                  │   │
-  v   v                  v   v
-┌────┐ ┌──────┐      ┌────┐ ┌──────┐
-│Cisco│ │Either│      │Fort│ │Either│
-│wins │ │works │      │inet│ │works │
-└────┘ └──────┘      │wins│ └──────┘
-                     └────┘
+क्या आपके पास पहले से Cisco परिसर नेटवर्क (ISE) है?
+├─ हाँ
+│  └─ TrustSec सूक्ष्म विभाजन चाहिए?
+│     ├─ हाँ: Cisco बेहतर है
+│     └─ नहीं: दोनों उपयुक्त हैं
+└─ नहीं
+   └─ एकीकृत SD-WAN चाहिए?
+      ├─ हाँ: Fortinet बेहतर है
+      └─ नहीं: दोनों उपयुक्त हैं
 ```
 
 ### चयन मानदंड स्कोरकार्ड

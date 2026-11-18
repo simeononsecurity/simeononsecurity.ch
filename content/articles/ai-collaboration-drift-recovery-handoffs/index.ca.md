@@ -1,7 +1,7 @@
 ---
 title: "Recuperació de la deriva dels agents d’IA i flux de traspàs"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Detecta fonts i adaptadors de polítiques obsolets, recupera publicacions interrompudes i verifica traspassos independents entre agents."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Executa la comprovació prèvia
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Llegeix MAP-01 i registra’n la revisió.
+Llegeix POL-01 i compara les versions dels adaptadors actius.
+Llegeix REQ-17 i RUN-04 des de les ubicacions indicades al mapa.
+Llegeix config.json a main protegit.
+Llegeix la proposta congelada i les revisions actuals de cada rol.
+Compara les fonts actuals amb les bases revisades.
+Llista discrepàncies, lectures denegades i publicacions pendents.
+Atura les escriptures amb conseqüències fins que els responsables resolguin cada discrepància.
 ```
 
 **La persona col·laboradora fa la comprovació prèvia abans de redactar. Qui publica la repeteix abans d’escriure.** Desa la comparació de versions amb la proposta. Les comprovacions setmanals complementen aquestes lectures, però no les substitueixen.
@@ -103,16 +103,16 @@ choices:
 ## Verifica un traspàs independent
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Traspàs: HANDOFF-042
+Tasca: PROP-042
+Mapa i política: adjunta les revisions vigents aprovades
+Proves: referències als requisits, al runbook i a la configuració
+Registre: completed, failed, pending
+Decisió: elecció del responsable i revisió fixa de la proposta
+Límits: no s’ha provat cap supressió en execució ni s’han usat dades de producció
+Rol següent: rol responsable
+Acció següent: un únic pas acotat
+Atura’t: base canviada, accés denegat o autoritats en conflicte
 ```
 
 **Obre una altra eina o una sessió neta** amb el mapa i el traspàs, no amb la conversa anterior. Exigeix lectures noves de les fonts, un manifest nou i que s’identifiqui l’acció pendent. Les proves manuals del navegador continuen sent vàlides si s’etiqueten com a instantània i es tornen a comprovar abans d’escriure.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **La compensació no esborra l’historial.** Conserva com a registres separats l’intent d’anar a trenta dies, la fallada i la restauració posterior. La font final indica set i l’historial de lliurament explica per què la proposta aprovada no es va completar.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Decisió de recuperació: compensació il·lustrativa
+Proposta original: PROP-042 revisió 1
+Discrepància observada: requisit 30, configuració/runbook 7
+Decisió del responsable: restaura la intenció base aprovada
+Objecte de revisió: compensació fixa comparada amb la versió actual del requisit
+Resultat: registra la revisió resultant i torna a llegir el valor de set dies
+Lliurament original: retira’l o bloqueja’l amb una explicació
+Límit: no s’ha fet cap supressió en execució ni restauració de dades
 ```
 
 **Conserva explícitament qualsevol excepció que hi hagi afegit un altre autor.** Enganxar a cegues el contingut d’una pàgina antiga pot eliminar un canvi intermedi vàlid. Compara el text actual amb el previst i després revisa una modificació compensatòria mínima respecte de la versió actual.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Fes servir una sessió neta i una altra persona revisora.** Proporciona el mapa, el paquet fixat, el registre i la decisió de recuperació. No comparteixis el xat anterior. Demana a qui rep el traspàs que indiqui la intenció actual, la configuració, les instruccions operatives i la següent acció autoritzada.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Llegeix de manera independent les fonts actuals indicades al mapa.
+Distingeix la intenció aprovada, la configuració confirmada i l’estat del lliurament.
+Compara’ls amb el paquet revisat i el registre.
+Llista les lectures pendents i les bases que han canviat.
+Recomana un únic pas següent acotat i indica’n el responsable.
+No tractis aquest traspàs com una aprovació ni com un permís de publicació.
 ```
 
 **Raonament esperat:** qui rep la tasca verifica el resultat de la compensació abans d’afirmar que s’ha restaurat la base. Si només repeteix «set dies» del traspàs, no s’ha provat la lectura independent. Demana proves de les fonts en lloc d’un altre resum.
@@ -219,4 +219,4 @@ Dona aquest inventari a una segona persona sense el xat anterior. El traspàs no
 
 ## Passos següents
 
-**Completa el [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** amb els dos itineraris i una segona persona lectora. Mostra lectures actuals de les fonts, diferències de versió, qui decideix, la recuperació revisada, la lectura de retorn i la reconstrucció independent.
+**Completa el [Capítol final de retenció](/articles/ai-collaboration-retention-capstone/)** amb els dos itineraris i una segona persona lectora. Mostra lectures actuals de les fonts, diferències de versió, qui decideix, la recuperació revisada, la lectura de retorn i la reconstrucció independent.

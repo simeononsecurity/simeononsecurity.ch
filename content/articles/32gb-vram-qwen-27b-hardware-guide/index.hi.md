@@ -1,7 +1,7 @@
 ---
 title: "Qwen 27B के लिए 32GB VRAM: अक्टूबर 2026 की लोकल AI हार्डवेयर गाइड"
 date: 2026-10-03
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "32GB उपयोगी accelerator memory के साथ Qwen 27B मॉडल चलाने के लिए अक्टूबर 2026 की व्यावहारिक गाइड। इसमें single GPU, दो कार्ड वाले सिस्टम, unified memory, इस्तेमाल किए गए data-center कार्ड, किराये की computing, software support और full-context सीमाओं की तुलना है।"
@@ -25,12 +25,12 @@ Memory requirement weights से शुरू होती है। Dense 27B 
 
 128K-token context एक और बड़ा allocation जोड़ता है। Exact KV-cache size model architecture, cache precision, batch settings और backend पर निर्भर करती है। लगभग **8GB** का practical estimate weights और cache को करीब **28.5GB** बनाता है, फिर operating system और inference runtime का हिस्सा आता है।
 
-| Configuration | क्या support करता है |
+| विन्यास | क्या support करता है |
 |---|---|
 | **24GB discrete GPU** | कम context के साथ 4-bit weights, या partial offload |
 | **32GB discrete GPU** | उपयोगी 128K context target के साथ 6-bit weights |
 | **दो 16GB GPU** | runtime overhead के लिए कम headroom वाला split model |
-| **64GB unified memory** | GPU allocation limit के अधीन बड़े context और models |
+| **64GB एकीकृत मेमोरी** | GPU allocation limit के अधीन बड़े context और models |
 
 **32GB sizing point है, guarantee नहीं।** Model load हो सकता है, फिर भी long prompt, बड़ा batch, multimodal input या दूसरा process चलाने के लिए जगह कम पड़ सकती है।
 
@@ -56,7 +56,7 @@ Apple silicon शांत systems के लिए उपयोगी है।
 
 Split method भी महत्वपूर्ण है। **Layer splitting** अलग model layers को अलग cards पर रखता है। Capacity बढ़ती है, लेकिन cards model से बारी-बारी गुजरते हैं। **Tensor splitting** एक ही layer का काम दोनों cards पर रखता है। Communication बढ़ती है, लेकिन दोनों devices अधिक सीधे योगदान देते हैं।
 
-| Split method | मुख्य लाभ | मुख्य लागत |
+| विभाजन विधि | मुख्य लाभ | मुख्य लागत |
 |---|---|---|
 | **Layer split** | Capacity का आसान विस्तार | एक card अक्सर दूसरे के काम करते समय प्रतीक्षा करता है |
 | **Tensor split** | कुछ workloads में बेहतर parallel compute | अधिक tuning और interconnect traffic |
@@ -64,7 +64,7 @@ Split method भी महत्वपूर्ण है। **Layer splitting**
 
 **दो-card plan के लिए खरीद से पहले tested backend चाहिए।** PCIe generation, slot spacing, power delivery, driver support और exact quantization परिणाम बदलते हैं।
 
-## Single-card options
+## एकल कार्ड विकल्प
 
 ### RTX 5090
 
@@ -84,7 +84,7 @@ Arc Pro B70 32GB memory के साथ professional workloads के लिए
 
 **कम purchase price working build खोजने में लगे घंटों की भरपाई नहीं करती।** Tinkerer के लिए यह project का हिस्सा है। रोज इस्तेमाल होने वाली workstation में driver और application support का वास्तविक मूल्य है।
 
-## Used data-center cards
+## उपयोग किए गए डेटा-सेंटर कार्ड
 
 ### Tesla V100
 
@@ -126,14 +126,14 @@ Fast GPU rent करने से calculation बदलती है। Reported
 | Usage pattern | पहला test |
 |---|---|
 | **हर सप्ताह कुछ घंटे** | Hosted model या rented GPU |
-| **Short project** | 5090-class card rent करके real workload मापें |
-| **Daily interactive use** | Backend और context test करने के बाद खरीदें |
+| **अल्पकालिक परियोजना** | 5090-class card rent करके real workload मापें |
+| **दैनिक संवादात्मक उपयोग** | Backend और context test करने के बाद खरीदें |
 | **रातभर चलने वाले agents** | Owned hardware को justify करना आसान |
 | **Steady private workload** | Network isolation वाला owned hardware |
 
 **Model, backend या context length अनिश्चित हो तो पहले rent करें।** एक weekend का measured use गलत workstation purchase से सस्ता है।
 
-## Buying recommendations
+## खरीद संबंधी सुझाव
 
 ### दो RTX 5060 Ti 16GB cards
 
@@ -153,7 +153,7 @@ Used data-center hardware तभी चुनें जब project में dri
 
 Silence, low idle power और compact desktop को maximum throughput से अधिक महत्व हो तो 32GB Apple silicon चुनें। Exact runner की memory allocation जांचें। पूरे 32GB को model के लिए उपलब्ध न मानें।
 
-### Cloud rental
+### क्लाउड किराया
 
 Workload occasional हो, model अक्सर बदले या local ownership से fast prompt response अधिक महत्वपूर्ण हो तो rental चुनें। Test के बाद instance बंद करें। Idle time price advantage जल्दी खत्म करता है।
 
@@ -173,7 +173,7 @@ Workload occasional हो, model अक्सर बदले या local owne
 
 सबसे उपयोगी test real workload के prompt से आता है। Coding के लिए representative codebase लें। Research के लिए normal retrieval या paste workflow वाला long document लें। Time to first token, prompt processing, generation speed, memory, output quality और power मापें।
 
-## Final recommendation
+## अंतिम सुझाव
 
 **Lowest-friction 32GB CUDA build के लिए दो RTX 5060 Ti 16GB cards खरीदें।** छोटा test backend confirm करने के बाद ही tensor-split configuration इस्तेमाल करें।
 
@@ -185,7 +185,7 @@ Workload occasional हो, model अक्सर बदले या local owne
 
 32GB का सवाल यह नहीं है कि सबसे सस्ता gigabyte किस card में है। सवाल है कि कौन सा system पर्याप्त usable memory छोड़ता है, आपके workload को जल्दी पढ़ता है, आपके software के साथ चलता है और नियमित use से अपनी purchase price कमाता है।
 
-## References
+## संदर्भ
 
 - [Every Ways to Get 32GB VRAM for Local AI at Full Context](https://www.youtube.com/watch?v=uavLRbbfM94), ऊपर की field comparison का video reference।
 - [NVIDIA GeForce RTX 5090 specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/), VRAM, bandwidth, power और CUDA capability की official जानकारी।

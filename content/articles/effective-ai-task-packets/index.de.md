@@ -50,30 +50,30 @@ coverCaption: ""
 **Kopiere diese Vorlage** für eine kleine Programmier- oder Rechercheaufgabe. Entferne irrelevante Felder, statt sie mit vagen Angaben auszufüllen.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Ergebnis:
+Verbindliche Quelle und Revision:
+Relevante Dateien oder Datensätze:
+Zulässige Änderungen:
+Ausgeschlossene Änderungen und Aktionen:
+Beispiele für das gewünschte Verhalten:
+Abschlussprüfungen:
+Wann anhalten oder nachfragen:
+Bericht mit:
 ```
 
 **Für das Labor** sieht das ausgefüllte Paket so aus:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Ergebnis: Füge task_report.py einen optionalen --status-Filter hinzu.
+Quelle: docs/requirements.md, Revision 1.
+Relevante Dateien: task_report.py, tasks.json, tests/.
+Zulässige Änderungen: task_report.py und gezielte Tests.
+Ausgeschlossen: tasks.json, neue Abhängigkeiten, Commits und Pushes.
+Beispiele: Ohne Filter erscheint Total tasks: 4. open und done ergeben jeweils 2.
+Prüfungen: Führe Unit-Tests und vier manuelle Befehle aus: ohne Filter, open, done und ungültig.
+Ein ungültiger Wert muss mit einer klaren Meldung einen Exit-Code ungleich null liefern.
+Bei einem Quellenkonflikt, einer fehlenden Datei oder einem unabhängigen Ausgangsfehler halte an oder frage nach.
+Bericht: geänderte Dateien, Befehle, beobachtete Ausgaben und offene Punkte.
 ```
 
 **Unter Windows** verwende in Paketbefehlen `py -3`, wenn deine Umgebung den Python-Launcher nutzt.

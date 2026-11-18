@@ -1,7 +1,7 @@
 ---
 title: "Agenci kodowania CLI porównani: Claude Code, Codex, Gemini, OpenCode, Copilot i Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Porównaj sześciu terminalowych agentów kodowania pod kątem przepływu pracy, automatyzacji, dostępu do modeli, uprawnień i nakładu pracy przy przeglądzie. Utwórz krótką listę za pomocą powtarzalnego testu repozytorium."
@@ -98,10 +98,10 @@ coverCaption: ""
 **Instrukcje projektu wymagają weryfikacji.** Przekaż każdemu narzędziu to samo polecenie budowania, kryteria akceptacji i wykluczenia za pomocą obsługiwanego mechanizmu instrukcji. Poproś je o powtórzenie aktywnych ograniczeń przed edycją. Brak pliku instrukcji to wada konfiguracji, a nie test modelu.
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+Zadanie: Napraw podany przypadek odtworzeniowy bez zmiany publicznego API.
+Zakres: Zachowaj niezwiązane zmiany i nie dodawaj nowych zależności.
+Dowody: Uruchom istniejący test regresji oraz odpowiednie sąsiednie testy.
+Raport: Wyjaśnij przyczynę, zmienione pliki, kontrole i pozostałe niepewności.
 ```
 
 **Ten prompt testowy ma celowo ograniczony zakres.** Dodaj znaną reprodukcję i niezależnie napisane sprawdzenia. Użyj tego samego commita początkowego w osobnych klonach. Zapisz wersję narzędzia, model, dostawcę, politykę uprawnień, czas trwania i interwencje.

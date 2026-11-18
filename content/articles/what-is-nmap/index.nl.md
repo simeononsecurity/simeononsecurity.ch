@@ -1,7 +1,7 @@
 ---
 title: "Nmap: een gids voor netwerkscannen en servicedetectie"
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ontdek hoe u Nmap effectief kunt gebruiken voor het scannen van netwerken, het scannen van poorten, het opsporen van services en het identificeren van besturingssystemen om de netwerkbeveiliging te beoordelen."
@@ -11,7 +11,7 @@ coverAlt: "Netwerkbeveiligingsconcept met Nmap-scantools in een 3D-geanimeerde s
 coverCaption: ""
 ---
 
-[**What is Nmap and How to Use It?**](https://nmap.org/download.html)
+[**Wat is Nmap en hoe gebruik je het?**](https://nmap.org/download.html)
 
 [Nmap](https://nmap.org/download.html) (Network Mapper) is een krachtig en veelzijdig open-source netwerkscanprogramma dat wordt gebruikt om hosts en diensten op een computernetwerk te ontdekken. Het geeft waardevolle informatie over de netwerkinfrastructuur en helpt bij het beoordelen van de netwerkbeveiliging. In dit artikel zullen we de basisprincipes van Nmap, zijn functies en het effectieve gebruik ervan onderzoeken.
 

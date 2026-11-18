@@ -1,7 +1,7 @@
 ---
 title: "Настройка ИИ в Confluence и Jira: разрешения и полномочия"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Настройте официальные страницы-источники в Confluence и разрешения в управляемой компанией Jira для проверяемого взаимодействия между командами."
@@ -53,15 +53,15 @@ coverCaption: ""
 5. На каждой официальной странице-источнике **откройте Share**. Для участников пространства, которым разрешен доступ, задайте режим только для чтения, а назначенным владельцам и издателям отдельно предоставьте права на редактирование. Сохраните настройки и проверьте их под учетной записью участника.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+ID источника: REQ-17
+Роль владельца: product-owner
+Статус: утверждённая базовая версия
+Область: только синтетические файлы экспорта
+Срок хранения: 7 дней
+Состояние поставки: базовая конфигурация лаборатории
+Исключения: производственные данные, резервные копии и юридические сроки хранения исключены
+Подтверждение утверждения: проверка базовой версии DEC-12
+Ссылка на реализацию: приложить защищённый базовый коммит GitHub
 ```
 
 **Установите ограничения для каждой официальной страницы-источника.** Не считайте, что ограничение редактирования родительской страницы защищает дочерние. Наследование прав чтения и редактирования работает по-разному, а разрешения пространства продолжают действовать. Одна ссылка не дает доступа. Проверьте членство во всех группах, если пользователь с предполагаемым доступом только для чтения по-прежнему редактирует страницы.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Используйте эти начальные тексты для двух остальных страниц.** Перед утверждением записи замените поля-заполнители проверки фактическими данными из тестовой среды.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+ID источника: RUN-04
+Роль владельца: operations-owner
+Статус: утверждённая базовая версия
+Область: только синтетические файлы экспорта
+Настроенный срок хранения: 7 дней
+Процедура: перед проверяемым изменением сравнить REQ-17 с config.json
+Ограничение выполнения: в лаборатории нет задания на удаление и доказательств удаления
+Восстановление: после проверки вернуть предыдущую утверждённую конфигурацию
+Ограничение восстановления: возврат конфигурации не восстанавливает удалённые файлы
+Подтверждение проверки: добавить фактического проверяющего, версию страницы и ссылку на решение
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Страница: Реестр решений
+ID записи: DEC-12
+Решение: использовать семь дней как синтетическую базу
+Область: только export-service-lab
+Требование: записать версию страницы REQ-17 после публикации
+Инструкция: записать версию страницы RUN-04 после публикации
+Политика: записать защищённую ревизию GitHub POL-01 после проверки
+Проверка продукта: ожидается решение назначенного владельца
+Проверка операций: ожидается решение назначенного владельца
+Статус: черновой пример, заменить наблюдаемыми данными проверки
 ```
 
 ## Обновление карты
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Вставьте этот черновик в PROP-042.** Элемент Jira отслеживает выполнение. Его текст не заменяет утвержденную формулировку в Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+ID предложения: PROP-042
+Статус: черновик
+Текущее утверждённое значение: 7 дней, записать версию страницы REQ-17
+Предлагаемое значение: 30 дней для синтетических файлов экспорта
+Исключения: производственные данные, резервные копии и юридические сроки хранения
+Затронутые записи: REQ-17, RUN-04, config.json, proposal.json
+Постоянное вложение предложения: ожидается
+Проверка владельца продукта: ожидается
+Проверка владельца операций: ожидается
+Журнал публикации: ожидается
+Остановиться при смене версии источника, отсутствии проверки или отказе в доступе
 ```
 
 | Роль | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Разделяйте чтение, подготовку черновика и публикацию.** Участнику нужен доступ, достаточный для понимания синтетического требования и отправки предложения. Ему не нужны права на редактирование страницы-источника или утверждение собственного предложения.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Запись теста: PERM-REQ-EDIT
+Роль: участник
+Источник: REQ-17
+Предусловие: источник доступен для чтения, опубликованная ревизия зафиксирована
+Попытка: изменить основное требование
+Ожидаемый результат: отказ в изменении, опубликованная ревизия без изменений
+Наблюдение: заполнить по данным из песочницы
+Подтверждение: исходный результат и независимая повторная проверка ревизии
+Проверяющий: администратор или независимый проверяющий разрешений
 ```
 
 **Для отказа в чтении создайте отдельную запись.** Доступное участнику требование проверяет разделение чтения и публикации. Недоступная страница для исключенного пользователя проверяет конфиденциальность. Объединение проверок в одной строке скрывает, какая граница проверялась.

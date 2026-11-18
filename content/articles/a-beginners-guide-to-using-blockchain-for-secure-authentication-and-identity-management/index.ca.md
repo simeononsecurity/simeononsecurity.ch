@@ -1,11 +1,11 @@
 ---
 title: "Guia per a principiants sobre blockchain per a una gestió segura de la identitat"
 date: 2023-04-06
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprèn a fer servir la tecnologia blockchain per a l’autenticació segura i la gestió de la identitat amb aquesta guia per a principiants."
-tags: ["blockchain", "identity management", "authentication", "decentralized identity", "passwordless authentication", "smart contracts", "public key cryptography", "private key cryptography", "immutable records", "decentralized system", "single sign-on", "verification of credentials", "scalability", "privacy", "adoption", "digital identity", "distributed ledger technology", "cybersecurity", "data privacy", "technology"]
+tags: ["cadena de blocs", "gestió de la identitat", "autenticació", "identitat descentralitzada", "autenticació sense contrasenya", "contractes intel·ligents", "criptografia de clau pública", "criptografia de clau privada", "registres immutables", "sistema descentralitzat", "inici de sessió únic", "verificació de credencials", "escalabilitat", "privacitat", "adopció", "identitat digital", "tecnologia de llibre major distribuït", "ciberseguretat", "privacitat de dades", "tecnologia"]
 cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "Il·lustració d’una xarxa blockchain amb blocs i línies lluminosos interconnectats, que representa la gestió segura de la identitat. També hi apareixen siluetes d’usuaris amb escuts digitals per protegir les dades."
 coverCaption: ""
@@ -15,11 +15,11 @@ coverCaption: ""
 
 La tecnologia **blockchain** ha despertat interès per les seves possibles aplicacions en diversos àmbits, inclosos l’**autenticació segura i la gestió de la identitat**. En aquest article t’expliquem com fer servir blockchain per a aquests propòsits.
 
-## Què és blockchain?
+## Què és la cadena de blocs?
 
 Blockchain és una **tecnologia de registre distribuït** que permet fer transaccions segures i transparents entre parts sense intermediaris. Cada transacció es registra en un bloc, que es connecta amb el bloc anterior per formar una cadena de blocs. D’aquí ve el nom blockchain.
 
-## Com garanteix blockchain l’autenticació segura i la gestió de la identitat?
+## Com garanteix la cadena de blocs l’autenticació segura i la gestió de la identitat?
 
 ### Sistema descentralitzat
 
@@ -37,7 +37,7 @@ Blockchain fa servir **criptografia de clau pública i privada** per protegir le
 
 Els contractes intel·ligents s’executen automàticament i incorporen les condicions de l’acord entre comprador i venedor directament en línies de codi. S’emmagatzemen a la cadena de blocs, cosa que els fa transparents i resistents a manipulacions.
 
-## Ús de blockchain per a l’autenticació segura i la gestió de la identitat
+## Ús de cadena de blocs per a l’autenticació segura i la gestió de la identitat
 
 ### Identitat descentralitzada
 
@@ -55,7 +55,7 @@ Blockchain es pot fer servir en solucions d’**inici de sessió únic**, que pe
 
 Blockchain es pot fer servir per **verificar credencials** i permetre als usuaris demostrar les seves credencials sense revelar informació personal. Els contractes intel·ligents permeten verificar-les de manera transparent i resistent a manipulacions.
 
-## Reptes de blockchain per a l’autenticació segura i la gestió de la identitat
+## Reptes de cadena de blocs per a l’autenticació segura i la gestió de la identitat
 
 ### Escalabilitat
 
@@ -75,4 +75,4 @@ Blockchain ofereix diverses solucions possibles per a l’autenticació segura m
 
 ## Referències
 
-1. Nakamoto, S. (2008). Bitcoin: un sistema d’efectiu electrònic entre iguals. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+1. Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)

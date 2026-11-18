@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork und Claude Code mit lokalen Modellen: Einrichtungsleitfaden 2026"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Richte Ollama mit Claude Desktop und Claude Code über eine Anthropic-kompatible API ein. Erfahre mehr über Modellauswahl und Cloud-Funktionen im Jahr 2026."
@@ -188,7 +188,7 @@ Toolaufrufe unterscheiden einen Agenten von einem Textgenerator. Prüfe, ob sie 
 Frage Claude Code nach dem Start:
 
 ```text
-Read the current directory and list all files
+Lies das aktuelle Verzeichnis und liste alle Dateien auf
 ```
 
 **Wenn echte Dateien aufgelistet werden, funktionieren die Toolaufrufe.** Antwortet das Modell, es würde das Verzeichnis lesen, und beschreibt, was dort wohl liegt, ist die Funktion nicht verbunden. Du sprichst mit einem Chatmodell, das einen Programmierprompt erhalten hat, nicht mit einem Agenten. Weitere Prompts beheben das nicht.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 In einer Claude-Code-Sitzung führt `/loop` einen Prompt oder Slash-Befehl in einem festgelegten Intervall aus:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m Prüfe meine offenen PRs und fasse ihren Status zusammen
+/loop 1h Recherchiere die neuesten KI-Nachrichten und fasse wichtige Entwicklungen zusammen
+/loop 15m Prüfe neue GitHub-Issues und ordne sie nach Priorität
 ```
 
 *Das läuft, solange die Sitzung geöffnet ist. Es ist kein Hintergrunddienst und endet mit der Sitzung.*
@@ -274,8 +274,8 @@ In einer Claude-Code-Sitzung führt `/loop` einen Prompt oder Slash-Befehl in ei
 ## Nächste Schritte
 
 1. **Installiere Ollama und lade ein Modell mit bestätigter Toolunterstützung herunter**, bevor du Claude einrichtest: **[Ollama-Modellbibliothek](https://ollama.com/library)**
-2. **Lies Ollamas Seite zu Claude Code**, um aktuelle Optionen und Modelle zu sehen: **[Claude-Code-Integration](https://docs.ollama.com/integrations/claude-code)**
-3. **Wenn du Cowork brauchst, nutze die Seite für Claude Desktop:** **[Claude-Desktop-Integration](https://docs.ollama.com/integrations/claude-desktop)**
+2. **Lies Ollamas Seite zu Claude Code**, um aktuelle Optionen und Modelle zu sehen: **[Integration für Claude Code](https://docs.ollama.com/integrations/claude-code)**
+3. **Wenn du Cowork brauchst, nutze die Seite für Claude Desktop:** **[Integration für Claude Desktop](https://docs.ollama.com/integrations/claude-desktop)**
 4. **Lege die Hardware vor dem Kauf fest**, anhand der Speicherkategorien in unserem Leitfaden für lokale Inferenz: **[Lokale KI 2026: Ein 27B-Modell übertrifft Sonnet 4.6](/articles/local-ai-2026-build-your-rig-now/)**
 5. **Prüfe die Möglichkeiten kleinerer Hardware**, wenn du einen ständig verfügbaren Agenten auf einem sparsamen Gerät willst: **[Welche KI-Modelle laufen auf einem Raspberry Pi 4 oder 5?](/articles/ai-models-raspberry-pi-4-5/)**
 
@@ -290,8 +290,8 @@ In einer Claude-Code-Sitzung führt `/loop` einen Prompt oder Slash-Befehl in ei
 
 ## Quellen
 
-1. [Claude-Code-Integration - Ollama-Dokumentation](https://docs.ollama.com/integrations/claude-code)
-2. [Claude-Desktop-Integration - Ollama-Dokumentation](https://docs.ollama.com/integrations/claude-desktop)
+1. [Ollama-Dokumentation: Integration für Claude Code](https://docs.ollama.com/integrations/claude-code)
+2. [Ollama-Dokumentation: Integration für Claude Desktop](https://docs.ollama.com/integrations/claude-desktop)
 3. [Ollama-Modellbibliothek](https://ollama.com/library)
 4. [Qwen3.8 - Ollama-Modellbibliothek](https://ollama.com/library/qwen3.8)
 5. [Claude Cowork mit lokalen Modellen - PromptSpace](https://www.promptspace.in/blog/how-to-use-claude-cowork-with-local-models-2026-guide)

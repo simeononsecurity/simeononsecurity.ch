@@ -128,4 +128,3 @@ Creating a secure Wi-Fi network is essential for safeguarding your personal info
 - [NSA Best Practices for Securing Your Home Network](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF)
 - [FTC How to Secure Your Home Wi-Fi Network](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network)
 - [CISA Using Wireless Technology Securely](https://www.cisa.gov/sites/default/files/publications/Wireless-Security.pdf)
-

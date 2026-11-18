@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket Cloud SSH ਕੁੰਜੀਆਂ: AI ਏਜੰਟਾਂ ਲਈ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ Git ਪਹੁੰਚ"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੇ AI ਏਜੰਟ ਵਰਕਫਲੋ ਲਈ Bitbucket Cloud SSH ਕੁੰਜੀਆਂ, Git CLI ਪਹੁੰਚ, REST API ਟੋਕਨ, 1Password ਅਤੇ MCP ਟੂਲ ਸੈੱਟ ਕਰੋ।"
@@ -138,7 +138,7 @@ Atlassian ਦੀ [ਕਈ ਰਿਪੋਜ਼ਟਰੀ ਪਹੁੰਚ ਕੁੰ�
 ਫਾਈਲ-ਅਧਾਰਿਤ ਪੋਰਟੇਬਲ ਉਦਾਹਰਣ:
 
 ```ini
-# .gitconfig inside one local repository
+# ਇੱਕ ਸਥਾਨਕ ਰਿਪੋਜ਼ਟਰੀ ਦੇ ਅੰਦਰ .gitconfig
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

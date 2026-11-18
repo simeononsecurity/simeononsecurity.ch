@@ -1,7 +1,7 @@
 ---
 title: "Effiziente und sichere Docker-Container bauen: Ein Leitfaden für Einsteiger"
 date: 2023-02-24
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie, wie Sie mithilfe von Best Practices, Tipps und Schritt-für-Schritt-Anleitungen effiziente und sichere Docker-Container erstellen können."
@@ -82,7 +82,7 @@ Jede Zeile in Ihrer Dockerdatei erzeugt eine neue Schicht in Ihrem Docker-Image,
 
 Bsp:
 ```dockerfile
-RUN apt update 
+RUN apt update
 RUN apt install apache -y
 ```
 gegen
@@ -101,22 +101,22 @@ docker run -e PORT=3000 my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# Arbeitsverzeichnis festlegen
 WORKDIR /app
 
-# Copy package.json and yarn.lock to the container
+# package.json und yarn.lock in den Container kopieren
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Abhängigkeiten installieren
 RUN yarn install --frozen-lockfile
 
-# Copy the application code to the container
+# Anwendungscode in den Container kopieren
 COPY . .
 
-# Expose the application port
+# Anwendungsport freigeben
 EXPOSE $PORT
 
-# Start the application
+# Anwendung starten
 CMD ["yarn", "start"]
 ```
 
@@ -133,25 +133,25 @@ docker run -v /home/user/app/data:/app/data my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# Arbeitsverzeichnis festlegen
 WORKDIR /app
 
-# Copy the package.json and yarn.lock files to the container
+# package.json- und yarn.lock-Dateien in den Container kopieren
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Abhängigkeiten installieren
 RUN yarn install --frozen-lockfile
 
-# Copy the rest of the application code to the container
+# Restlichen Anwendungscode in den Container kopieren
 COPY . .
 
-# Expose the application port
+# Anwendungsport freigeben
 EXPOSE 3000
 
-# Start the application
+# Anwendung starten
 CMD ["yarn", "start"]
 
-# Mount a volume for the application data
+# Volume für Anwendungsdaten einbinden
 VOLUME ["/app/data"]
 ```
 
@@ -163,25 +163,25 @@ Bsp:
 ```Dockerfile
 FROM node:14
 
-# Create a new user to run the container
+# Benutzer zum Ausführen des Containers erstellen
 RUN useradd --user-group --create-home --shell /bin/false app
 
-# Change the working directory to the app user's home directory
+# Arbeitsverzeichnis zum Homeverzeichnis des App-Benutzers ändern
 WORKDIR /home/app
 
-# Install dependencies as the app user
+# Abhängigkeiten als App-Benutzer installieren
 COPY package.json yarn.lock ./
 RUN chown -R app:app /home/app
 USER app
 RUN yarn install --frozen-lockfile --production
 
-# Copy the application code as the app user
+# Anwendungscode als App-Benutzer kopieren
 COPY --chown=app:app . .
 
-# Expose the port
+# Port freigeben
 EXPOSE 3000
 
-# Start the application as the app user
+# Anwendung als App-Benutzer starten
 CMD ["yarn", "start"]
 ```
 
@@ -193,19 +193,19 @@ Ex:
 ```Dockerfile
 FROM ubuntu:latest
 
-# Update the package list and install security updates
+# Paketliste aktualisieren und Sicherheitsupdates installieren
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
-# Install the nginx web server
+# nginx-Webserver installieren
 RUN apt-get install -y nginx
 
-# Copy the application code to the container
+# Anwendungscode in den Container kopieren
 COPY . /var/www/html/
 
-# Expose port 80 to the host system
+# Port 80 für den Host freigeben
 EXPOSE 80
 
-# Start the nginx server
+# nginx-Server starten
 CMD ["nginx", "-g", "daemon off;"]
 
 ```

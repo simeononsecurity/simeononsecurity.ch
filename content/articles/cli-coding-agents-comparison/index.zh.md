@@ -1,17 +1,16 @@
 ---
 title: "CLI 编程代理比较：Claude Code、Codex、Gemini、OpenCode、Copilot 和 Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "从工作流、自动化、模型访问、权限和审查工作量比较六种终端编程代理。通过可重复的仓库试验建立候选清单。"
 genre: ["开发者工具", "人工智能", "软件开发"]
-tags: ["CLI 编程代理", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "终端代理", "headless 自动化", "agent harness", "模型提供商", "Git 工作流", "编程代理比较", "shell 工具", "编程助手", "代理权限", "仓库上下文", "CI 自动化", "代码审查", "开发者工具"]
+tags: ["CLI 编程代理", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "终端代理", "headless 自动化", "编程代理框架", "模型提供商", "Git 工作流", "编程代理比较", "shell 工具", "编程助手", "代理权限", "仓库上下文", "CI 自动化", "代码审查", "开发者工具"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "六个抽象终端窗口在深色背景的平衡网格中围绕一个仓库符号"
 coverCaption: ""
 ---
-
 **终端编程代理**拥有熟悉的界面，但在收集上下文、编辑文件、请求批准和接入脚本方面各不相同。本指南比较 Claude Code CLI、Codex CLI、Gemini CLI、OpenCode CLI、GitHub Copilot CLI 和 Aider。评估范围是它们的终端工作流，不包含各供应商的桌面产品。
 
 **先明确你的限制。** 供应商访问、可重复自动化和审查习惯比通用排行榜更适合筛选工具。以下建议是基于 2026 年 10 月 10 日检查的官方文档得出的编辑判断，不是实测性能排名。
@@ -98,10 +97,10 @@ coverCaption: ""
 **项目指令需要验证。** 通过工具支持的指令机制，为每个工具提供相同的构建命令、验收标准和排除项。编辑前要求它重复当前约束。缺少指令文件是配置缺陷，不是模型基准。
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+任务：修复给定的复现问题，同时不更改公共API。
+范围：保留无关改动，并避免引入新依赖。
+证据：运行现有回归测试及相关的相邻测试。
+报告：说明原因、修改的文件、检查结果和仍存在的不确定性。
 ```
 
 **这个试验 prompt 有意设置了边界。** 添加已知复现和独立编写的检查。分别的 checkout 使用相同起始 commit。记录工具版本、模型、供应商、权限策略、经过的时间和人工干预。

@@ -1,12 +1,12 @@
 ---
 title: "Come iniziare una carriera nella sicurezza informatica"
 date: 2023-11-05
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Scopri i ruoli, l'importanza della programmazione e i linguaggi utili nella sicurezza informatica. Scegli il tuo percorso."
-genre: ["Tecnologia", "Sicurezza informatica", "Carriera", "Programmazione", "IT", "Competenze", "Opportunità", "Apprendimento", "Codifica", "Digitale"]
-tags: ["Sicurezza informatica", "Percorsi professionali", "Linguaggi di programmazione", "Competenze di codifica", "Ruoli non tecnici", "Ruoli tecnici", "Carriere IT", "Tendenze tecnologiche", "Analisi della sicurezza", "Sicurezza di rete", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Protezione dei dati", "Analisi forense digitale", "Hacking etico", "Sviluppo software", "Difesa informatica", "Ingegneria di rete", "Consulenza sulla sicurezza", "Sviluppo delle competenze", "Sicurezza delle informazioni", "Rilevamento delle minacce", "Risposta agli incidenti", "Codifica per la sicurezza"]
+genre: ["Tecnologia", "Sicurezza informatica", "Carriera", "Programmazione", "Tecnologie dell’informazione", "Competenze", "Opportunità", "Apprendimento", "Codifica", "Digitale"]
+tags: ["Sicurezza informatica", "Percorsi professionali", "Linguaggi di programmazione", "Competenze di codifica", "Ruoli non tecnici", "Ruoli tecnici", "Carriere IT", "Tendenze tecnologiche", "Analisi della sicurezza", "Sicurezza di rete", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Protezione dei dati", "Analisi forense digitale", "Hacking etico", "Sviluppo software", "Difesa informatica", "Ingegneria di rete", "Consulenza sulla sicurezza", "Sviluppo delle competenze", "Sicurezza delle informazioni", "Rilevamento delle minacce", "Risposta agli incidenti", "Codifica per la sicurezza"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Un professionista della sicurezza informatica con mantello e laptop protegge dagli attacchi digitali."
 coverCaption: "I guardiani del mondo digitale aiutano a proteggere la sicurezza online."

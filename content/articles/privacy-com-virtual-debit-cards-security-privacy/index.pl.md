@@ -1,7 +1,7 @@
 ---
 title: "Karty Wirtualne Privacy.com: Jak działa prywatność płatności"
 date: 2023-09-03
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Co jest przechowywane na karcie płatniczej, dlaczego pasek magnetyczny jest jej najsłabszą częścią, co widzi sprzedawca, gdy płacisz wirtualnym numerem, oraz jak w praktyce działają typy kart i limity Privacy.com.
@@ -80,7 +80,7 @@ Większość materiałów traktuje karty wirtualne jako ogólne narzędzie prywa
 
 **CVV potwierdza, że ktoś fizycznie posiadał kartę** w momencie jej wydania. Nie jest przechowywany na pasku magnetycznym, dlatego skimmer kopiujący pasek nigdy go nie uzyska.
 
-*Sprawdź to wszystko samodzielnie za pomocą **[Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/)**, który analizuje ścieżki 1 i 2, dekoduje cyfry kodu usługi i ponownie koduje wynik. Działa całkowicie w przeglądarce, co ma znaczenie, bo to pełna zawartość karty płatniczej.*
+*Sprawdź to wszystko samodzielnie za pomocą **[Dekoder i enkoder paska magnetycznego](/magnetic-stripe-decoder/)**, który analizuje ścieżki 1 i 2, dekoduje cyfry kodu usługi i ponownie koduje wynik. Działa całkowicie w przeglądarce, co ma znaczenie, bo to pełna zawartość karty płatniczej.*
 
 {{< figure src="payment-card-data-anatomy-pan-cvv-tracks.webp" alt="Schemat pokazujący elementy karty płatniczej, w tym główny numer konta, datę ważności, CVV oraz trzy ścieżki paska magnetycznego z informacją, co każda z nich zawiera" >}}
 
@@ -232,11 +232,11 @@ Do ćwiczenia ze syntetyczną Ścieżką 1 użyj:
 
 ```text
 PAN: 4111111111111111
-Surname: TEST
-First name: USER
-Expiry: 12/29
-Service code: 201
-Discretionary data: 000000000
+Nazwisko: TEST
+Imię: USER
+Data ważności: 12/29
+Kod usługi: 201
+Dane dowolne: 000000000
 ```
 
 Do ćwiczenia ze syntetyczną Ścieżką 2 użyj tego samego numeru PAN, daty ważności, kodu usługi oraz numerycznego pola dowolnego. Wygenerowany ciąg Ścieżki 2 pomija nazwę, ponieważ Ścieżka 2 nie zawiera pola nazwy.
@@ -263,6 +263,21 @@ Gdy płacisz kartą wirtualną, sprzedawca otrzymuje numer, datę ważności i C
 *To rozróżnienie ciągle myli ludzi. Jeśli twój model zagrożeń obejmuje wydawcę lub sieć, karta wirtualna niczego w tym nie zmienia.*
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="Schemat pokazujący, jak wirtualny numer karty trafia do sprzedawcy, podczas gdy prawdziwy numer karty pozostaje między posiadaczem karty a bankiem wydającym" >}}
+
+## Co nadal widzi sprzedawca
+
+**Karta wirtualna zasłania rachunek źródłowy i pierwotny PAN.** Nie usuwa danych przekazanych podczas płatności.
+
+Dokumentacja pomocy Privacy wymienia dane karty udostępniane sprzedawcy: 16-cyfrowy numer karty, datę ważności, CVV i adres rozliczeniowy podany podczas płatności. Sprzedawca widzi też podane przez Ciebie imię i nazwisko. Przeczytaj [oficjalne wyjaśnienie danych widocznych dla sprzedawcy](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant), zanim uznasz kartę wirtualną za osłonę tożsamości.
+
+| Warstwa | Dane nadal widoczne lub przechowywane |
+|---|---|
+| **Sprzedawca** | Numer karty wirtualnej, data ważności, CVV, podany adres rozliczeniowy i nazwisko, dane zamówienia oraz dane konta u sprzedawcy |
+| **Privacy.com** | Dane tożsamości, źródło finansowania, dane karty i transakcji oraz dane urządzenia zgodnie z [polityką prywatności](https://www.privacy.com/privacy-policy) |
+| **Bank finansujący** | Data i kwota transakcji oraz opis zawierający Privacy.com lub `PWP*`; dokładny zapis ustala bank |
+| **Sieć płatnicza i wydawca** | Dane autoryzacji, rozliczenia, oszustw i sporów potrzebne do przetworzenia płatności |
+
+Praktyczna granica jest prosta. Karta wirtualna ogranicza ponowne użycie danych karty. Imię i nazwisko, adres dostawy, konto u sprzedawcy, sesja przeglądarki i inne dane podane poza polami karty nadal są widoczne dla sprzedawcy. Osobne konta u sprzedawców i aliasy e-mail pomagają ograniczyć łączenie tożsamości między witrynami. Sama karta wirtualna nie zapewnia takiego rozdzielenia.
 
 ## Trzy rodzaje kartopodobnych rzeczy
 
@@ -313,6 +328,22 @@ Dwie operacyjne szczegóły warte zapamiętania:
 
 *Nasz **[Moduł bezpieczeństwa finansów osobistych](/personal-security-course/personal-finance/)** umieszcza to obok blokad kredytowych i tokenizacji kart jako trzy mechanizmy ograniczające, do czego pojedynczy skompromitowany sprzedawca ma dostęp.*
 
+## Opłaty cykliczne i autoryzacje
+
+**Ustawienia karty działają w chwili autoryzacji.** Privacy opisuje transakcję oczekującą jako zgodę sprzedawcy na pobranie uzgodnionej kwoty. Autoryzacja na 0 USD sprawdza, czy karta jest aktywna. Nie oznacza zakończonego zakupu. Przy transakcjach finansowanych z banku przed zakończeniem obciążenia następuje etap rozliczania. Zobacz [oficjalny przewodnik po stanach transakcji](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized).
+
+| Zdarzenie | Co się dzieje | Granica ustawienia |
+|---|---|---|
+| **Dodanie karty do usługi** | Sprzedawca wysyła autoryzację na 0 USD, aby sprawdzić kartę | Prawidłowe sprawdzenie karty nie dowodzi, że zamówienie zostało opłacone |
+| **Autoryzacja zakupu** | Privacy zapisuje oczekującą kwotę i zezwala sprzedawcy pobrać uzgodnioną kwotę | Dostępne środki i późniejsze autoryzacje uwzględniają oczekującą transakcję |
+| **Rozliczenie zakupu** | Po przetworzeniu przez sprzedawcę źródło finansowania zostaje obciążone | Zmiana zamówienia lub dodanie napiwku może zmienić kwotę końcową względem pierwszej autoryzacji |
+| **Wstrzymanie lub zamknięcie karty po autoryzacji** | Przyszłe autoryzacje zostają zatrzymane | Wcześniejsza autoryzacja nadal podlega zasadom sieci płatniczej |
+| **Zmiana limitu po autoryzacji** | Nowy limit dotyczy przyszłych prób | Wcześniejsza autoryzacja zachowuje dotychczasowy stan |
+
+**Limit karty nie jest saldem przedpłaconym.** Według przewodnika Privacy dla konkretnej karty limit blokuje próby autoryzacji przekraczające wybraną kwotę. Źródło finansowania jest obciążane w miarę rozliczania transakcji. Okresy kroczące obejmują 24 godziny dla limitów dziennych, 30 dni dla miesięcznych i 364 dni dla rocznych, a niektóre cykle rozliczeniowe subskrypcji mają sześciodniowy bufor. [Oficjalny przewodnik po limitach wydatków](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) opisuje te zasady.
+
+Przy subskrypcjach ustaw limit cykliczny przed pierwszym obciążeniem, sprawdzaj transakcje oczekujące i rozliczane, a subskrypcję anuluj także u sprzedawcy. Zamknięcie karty blokuje przyszłe autoryzacje. Nie anuluje zakupu, który już autoryzowano, ani nie powoduje zwrotu pieniędzy. [Przewodnik Privacy o wstrzymywaniu i zamykaniu kart](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards) opisuje tę samą granicę.
+
 ## Plany i co każdy odblokowuje
 
 Privacy.com oferuje darmowy plan oraz trzy płatne. Ceny i zakres funkcji mogą się zmieniać, więc przed subskrypcją sprawdź aktualne warunki.
@@ -327,6 +358,8 @@ Privacy.com oferuje darmowy plan oraz trzy płatne. Ceny i zakres funkcji mogą 
 **Darmowy plan obejmuje podstawową korzyść bezpieczeństwa.** Blokada sprzedawcy, karty jednorazowe i limity wydatków to mechanizmy ograniczające ryzyko, dostępne bez opłat. Płatne plany dodają organizację i wygodę, a nie dodatkową ochronę.
 
 **Opłaty za transakcje zagraniczne różnią się w zależności od planu.** Darmowy plan pobiera 3% za transakcje zagraniczne, min. 0,50 USD, a plany płatne nie pobierają tych opłat.
+
+Przed subskrypcją przeczytaj [aktualne warunki Privacy.com](https://www.privacy.com/terms).
 
 ## Czego Privacy.com Nie Robi
 
@@ -367,7 +400,28 @@ Warto wymienić dwie certyfikacje, bo są niezależnie weryfikowalne, a nie tylk
 
 *Praktyczny powód, by sprawdzić bank wydający, to weryfikacja. Każdy może twierdzić, że prowadzi program kartowy, a nazwa wydawcy na karcie to to, co potwierdzasz z bankiem w dokumentach.*
 
-Sprawdź schemat i bank po prefiksie PAN za pomocą **[Magnetic Stripe Decoder](/magnetic-stripe-decoder/)**, który pokazuje główny zakres schematu i weryfikuje cyfrę kontrolną Luhna.
+Sprawdź schemat i bank po prefiksie PAN za pomocą **[Dekoder paska magnetycznego](/magnetic-stripe-decoder/)**, który pokazuje główny zakres schematu i weryfikuje cyfrę kontrolną Luhna.
+
+## Odzyskiwanie konta i zależność od dostawcy
+
+**Dostęp do konta to odrębna kontrola od izolacji karty.** W przypadku nierozpoznanej aktywności Privacy zaleca kontakt ze sprzedawcą, sprawdzenie 2FA i kart udostępnionych innym osobom, weryfikację kodów logowania na nowych urządzeniach, zmianę hasła i kontakt z pomocą techniczną. Te kroki wymienia [przewodnik bezpieczeństwa konta](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account).
+
+Dbaj o aktualny adres e-mail do odzyskiwania konta i amerykański numer telefonu. Zgodnie z [przewodnikiem dotyczącym danych konta](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number), Privacy wymaga potwierdzenia zmiany któregokolwiek z tych danych. Włącz 2FA i zapisuj nazwy sprzedawców oraz cztery ostatnie cyfry kart w menedżerze haseł. Nie zapisuj pełnego PAN ani CVV w zwykłej aplikacji do notatek.
+
+Zamknięcie konta nie usuwa wszystkich zapisów. Polityka Privacy, ostatnio zaktualizowana 8 czerwca 2026 r., podaje okresy przechowywania wynoszące co najmniej pięć lat dla danych weryfikacji tożsamości i kart płatniczych, sześć lat dla informacji o banku finansującym i transakcji ACH oraz trzy lata dla dzienników audytowych. Przeczytaj sekcję o przechowywaniu w [polityce prywatności Privacy](https://www.privacy.com/privacy-policy), zanim uznasz zamknięcie konta za usunięcie danych.
+
+**Privacy nadal zależy od banku finansującego, Plaid, ACH, sieci kartowych i własnych systemów kont.** Finansowanie z banku odbywa się przez ACH za pośrednictwem Plaid. Privacy podaje, że w przypadku nieobsługiwanych banków dostępna jest alternatywna metoda finansowania kartą debetową, ale kwalifikacja nadal wymaga konta w banku lub kasie kredytowej w USA oraz amerykańskiego numeru telefonu. Wymagania opisują [przewodnik łączenia konta bankowego](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account) i [przewodnik kwalifikacji](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy).
+
+Problemy z finansowaniem wpływają na płatności. Privacy opisuje tymczasowe wstrzymanie konta, gdy usługa nie może obciążyć źródła finansowania, na przykład z powodu niewystarczających środków lub zamkniętego konta. Strona pomocy podaje też, że usunięcie źródła finansowania nie zatrzymuje transakcji już autoryzowanych względem tego źródła. Przed usunięciem banku lub karty debetowej przeczytaj [przewodnik rozwiązywania problemu nierozliczonej transakcji](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction) i [przewodnik usuwania źródła finansowania](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account).
+
+| Zależność | Rodzaj awarii | Praktyczna reakcja |
+|---|---|---|
+| **Bank finansujący lub Plaid** | Nieobsługiwane, zamknięte lub nieaktualne połączenie | Zachowaj kwalifikujące się źródło zapasowe i sprawdzaj stan konta |
+| **Konto Privacy** | Ponowna weryfikacja tożsamości, utrata kanału odzyskiwania lub zawieszenie konta | Dbaj o aktualne 2FA i dane odzyskiwania |
+| **Sprzedawca** | Odrzucenie zakresu karty wirtualnej lub przedpłaconej albo kontynuacja cyklicznego obciążania | Zachowaj prawdziwą kartę na wyjątki i anuluj usługę u sprzedawcy |
+| **Sieć lub wydawca** | Opóźnienie autoryzacji, rozliczenia, zwrotu lub sporu | Zachowaj paragony, wyciągi i dane transakcji |
+
+Warunki Privacy opisują oddzielne usługi firmy i jej partnerów finansowych. Pozwalają też żądać dodatkowych informacji o tożsamości i ograniczać konta. Uwzględnij dostęp do dostawcy i dane konta w modelu zagrożeń. Nie kieruj wszystkich niezbędnych rachunków przez jednego dostawcę kart.
 
 ## Jak Dobrze Korzystać z Kart Wirtualnych
 
@@ -381,6 +435,19 @@ Sprawdź schemat i bank po prefiksie PAN za pomocą **[Magnetic Stripe Decoder](
 6. **Miej jedną prawdziwą kartę dla sprzedawców odrzucających zakresy wirtualne**, by zablokowane płatności nie stały się nagłym problemem.
 
 > **Częsty błąd: traktowanie karty wirtualnej jako zastępstwa za kontrolę wyciągów.** Blokada sprzedawcy zapobiega jednemu rodzajowi szkody. Nie wykrywa kompromitacji konta w banku, nieautoryzowanego przelewu ani oszukańczego obciążenia prawdziwej karty.
+
+## Obecne granice kontroli
+
+Aktualna dokumentacja pomocy Privacy.com stwierdza, że limit wydatków dla konkretnej karty blokuje próby autoryzacji powyżej tego limitu. [Przewodnik po limitach wydatków](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) opisuje także kroczące okresy. [Dokumentacja kart dla programistów](https://developers.privacy.com/docs/cards) wymienia karty przypisane do sprzedawcy i pola limitu wydatków.
+
+| Kontrola | Pomaga w przypadku | Nie rozwiązuje problemu |
+|---|---|---|
+| Karta przypisana do sprzedawcy | Ponowne użycie numeru u innego sprzedawcy | Przejęte konto Privacy.com lub oszukańcza transakcja u wybranego sprzedawcy |
+| Limit wydatków | Nieoczekiwane kwoty autoryzacji i odchylenia cyklicznego obciążania | Obciążenie sprzed zmiany limitu lub przejęte konto finansujące |
+| Zamknięcie karty wirtualnej | Przyszłe autoryzacje na ten numer | Zwrot, spór lub zapis u sprzedawcy już utworzony |
+| Oddzielna karta dla każdej usługi | Szybkie wykrycie i unieważnienie karty | Awaria dostawcy, kontrola tożsamości lub zapisy po stronie banku |
+
+Traktuj rachunek finansujący, metody odzyskiwania konta, alerty i listę kart jako jeden zestaw zabezpieczeń. Numer wirtualny zmienia numer przekazany sprzedawcy. Nie ukrywa transakcji przed bankiem wydającym kartę, dostawcą karty, sprzedawcą, sieciami płatniczymi, dokumentacją podatkową ani sądem działającym na podstawie prawa. Nie zmienia też karty debetowej w linię kredytową ani nie gwarantuje korzystnego rozstrzygnięcia sporu.
 
 ## Kluczowe Wnioski
 
@@ -413,3 +480,17 @@ Sprawdź schemat i bank po prefiksie PAN za pomocą **[Magnetic Stripe Decoder](
 7. [ANSI/ISO kodowanie danych ALPHA, zestaw znaków i tabela parzystości dla ścieżki 1](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [Znaki ISO dla kart magnetycznych, zestawy ścieżki 1 i ścieżki 2 obok siebie](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [Odczyt danych z karty magnetycznej, praktyczny przewodnik z rzeczywistym skanem karty](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Dokumentacja Privacy dla programistów: typy kart, stany i limity wydatków](https://developers.privacy.com/docs/cards)
+11. [Pomoc Privacy: informacje udostępniane sprzedawcom](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Pomoc Privacy: limity wydatków dla poszczególnych kart](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Pomoc Privacy: stany transakcji i autoryzacje](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Pomoc Privacy: wstrzymywanie i zamykanie kart](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Pomoc Privacy: opisy transakcji na wyciągu bankowym](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Pomoc Privacy: łączenie rachunku bankowego przez Plaid](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Pomoc Privacy: aktywność na koncie i kontrola odzyskiwania](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Pomoc Privacy: aktualizacja adresu e-mail i telefonu na koncie](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Pomoc Privacy: kto może korzystać z usługi](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Pomoc Privacy: nierozliczone transakcje](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Pomoc Privacy: usuwanie źródła finansowania](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Polityka prywatności Privacy.com](https://www.privacy.com/privacy-policy)
+23. [Warunki korzystania z usługi Privacy.com](https://www.privacy.com/terms)

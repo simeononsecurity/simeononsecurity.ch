@@ -1,12 +1,12 @@
 ---
 title: "Jak rozpocząć karierę w cyberbezpieczeństwie"
 date: 2023-11-05
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj role, znaczenie programowania i przydatne języki w cyberbezpieczeństwie. Wybierz swoją ścieżkę."
-genre: ["Technologia", "Cyberbezpieczeństwo", "Kariera", "Programowanie", "IT", "Umiejętności", "Możliwości", "Nauka", "Kodowanie", "Cyfrowe technologie"]
-tags: ["Cyberbezpieczeństwo", "Ścieżki kariery", "Języki programowania", "Umiejętności programistyczne", "Role nietechniczne", "Role techniczne", "Kariera w IT", "Trendy technologiczne", "Analiza bezpieczeństwa", "Bezpieczeństwo sieci", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Ochrona danych", "Kryminalistyka cyfrowa", "Etyczne hakowanie", "Tworzenie oprogramowania", "Cyberobrona", "Inżynieria sieci", "Konsulting bezpieczeństwa", "Rozwój umiejętności", "Bezpieczeństwo informacji", "Wykrywanie zagrożeń", "Reagowanie na incydenty", "Programowanie na potrzeby bezpieczeństwa"]
+genre: ["Technologia", "Cyberbezpieczeństwo", "Kariera", "Programowanie", "technologie informatyczne", "Umiejętności", "Możliwości", "Nauka", "Kodowanie", "Cyfrowe technologie"]
+tags: ["Cyberbezpieczeństwo", "Ścieżki kariery", "Języki programowania", "Umiejętności programistyczne", "Role nietechniczne", "Role techniczne", "Kariera w IT", "Trendy technologiczne", "Analiza bezpieczeństwa", "Bezpieczeństwo sieci", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Ochrona danych", "Kryminalistyka cyfrowa", "Etyczne hakowanie", "Tworzenie oprogramowania", "Cyberobrona", "Inżynieria sieci", "Konsulting bezpieczeństwa", "Rozwój umiejętności", "Bezpieczeństwo informacji", "Wykrywanie zagrożeń", "Reagowanie na incydenty", "Programowanie na potrzeby bezpieczeństwa"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Specjalista ds. cyberbezpieczeństwa w pelerynie i z laptopem chroni przed zagrożeniami cyfrowymi."
 coverCaption: "Strażnicy cyfrowego świata pomagają chronić bezpieczeństwo online."

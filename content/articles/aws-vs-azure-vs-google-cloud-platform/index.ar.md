@@ -398,7 +398,7 @@ coverCaption: "أمّن أعمالك في السحابة"
 | **DNS** | Route 53 | Azure DNS | Cloud DNS |
 | **موازنة التحميل** | ELB/ALB/NLB/GWLB | Load Balancer وApp Gateway | Cloud Load Balancing (عالمي) |
 | **الاتصال الخاص** | Direct Connect | ExpressRoute | Cloud Interconnect |
-| **VPN** | Site-to-Site VPN | VPN Gateway | Cloud VPN |
+| **VPN** | VPN من موقع إلى موقع | VPN Gateway | Cloud VPN |
 | **شبكة الخدمات** | App Mesh | Open Service Mesh | Traffic Director |
 | **إدارة API** | API Gateway | API Management | Apigee وAPI Gateway |
 

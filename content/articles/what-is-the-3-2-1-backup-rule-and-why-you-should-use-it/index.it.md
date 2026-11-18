@@ -48,7 +48,7 @@ Ora che si conoscono i vantaggi della regola di backup 3-2-1, è il momento di i
 
 - **Scegliere i tipi di archiviazione**: Per implementare la regola di backup 3-2-1, è necessario scegliere due diversi tipi di archiviazione. Tra le opzioni più diffuse vi sono i dischi rigidi esterni, i servizi di cloud storage e i dispositivi NAS (Network Attached Storage). Considerate la quantità di dati di cui dovete eseguire il backup e scegliete i tipi di archiviazione in grado di soddisfare le vostre esigenze.
 
-- Automatizzare i backup**: La creazione manuale dei backup può richiedere molto tempo ed essere soggetta a errori. Considerate invece la possibilità di automatizzare i backup utilizzando un software di backup. Sono disponibili molti software di backup, sia gratuiti che a pagamento. Alcune opzioni popolari includono[Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), and [Carbonite](https://www.carbonite.com/)
+- Automatizzare i backup**: La creazione manuale dei backup può richiedere molto tempo ed essere soggetta a errori. Considerate invece la possibilità di automatizzare i backup utilizzando un software di backup. Sono disponibili molti software di backup, sia gratuiti che a pagamento. Alcune opzioni popolari includono [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), e [Carbonite](https://www.carbonite.com/).
 
 - Testate i vostri backup**: La creazione di backup è solo il primo passo. È essenziale testare regolarmente i backup per garantire che i dati siano recuperabili in caso di perdita di dati. Assicuratevi di avere un piano per testare i vostri backup, sia che si tratti di un processo manuale o automatico.
 

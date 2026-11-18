@@ -1,7 +1,7 @@
 ---
 title: "Modele językowe kontekstu Meta: lepsza pamięć agentów, ale nie koniec halucynacji"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Jak Context Language Models edytują pamięć agenta, co pokazują benchmarki oraz jak koszty cache, możliwości modelu i niezaufane notatki wpływają na niezawodność."
@@ -48,11 +48,11 @@ To rozróżnienie ma znaczenie przy ocenie każdej techniki pamięci. **Zachowan
 **Rulin Shao i współautorzy**, w tym badacze z Meta Superintelligence Labs i University of Washington, przedstawili CLM w preprincie z 29 września 2026 roku. Ich implementacja udostępnia bieżący kontekst jako edytowalny plik. Agent używa poleceń powłoki lub kodu do jego modyfikacji, a środowisko dostarcza zmienioną zawartość przy kolejnym wywołaniu. Zobacz [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Zwykła kontynuacja:
+istniejący kontekst + nowa odpowiedź + nowe wyjście narzędzia
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Kontynuacja z edytowalnym kontekstem:
+agent zmienia plik kontekstu -> środowisko wykonawcze ładuje zmieniony kontekst -> następne wywołanie modelu
 ```
 
 **Architektury modelu nie trzeba zastępować** w podejściu zero-shot. Środowisko dodaje możliwość do istniejącego modelu. Artykuł osobno bada instrukcje, wyuczone strategie zarządzania kontekstem i uczenie ze wzmocnieniem.
@@ -101,11 +101,11 @@ Uzupełniająca analiza TerminalBench podaje również **brak edycji kontekstu w
 **Cache KV** przechowuje pośrednie obliczenia uwagi. Przy zwykłym cache prefiksu niezmieniony tekst na początku następnego żądania ponownie wykorzystuje wcześniejsze obliczenia. Edycja blisko początku skraca ponownie używalny prefiks i wymusza ponowne przetworzenie późniejszego tekstu.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Poprzednie żądanie: A + B + C
+Zmienione żądanie:  A + zamiennik B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Standardowe ponowne użycie prefiksu:
+ponownie użyj A i przelicz zamiennik B oraz C
 ```
 
 Metryka **FLOPs ponownego użycia prefiksu** w artykule liczy generowanie i przetwarzanie promptu po pierwszym niezgodnym miejscu. PFLOP oznacza 10¹⁵ operacji zmiennoprzecinkowych. To szacunkowa suma obliczeń, a nie ocena jakości, pomiar przepustowości ani faktura.

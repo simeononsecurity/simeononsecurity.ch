@@ -50,30 +50,30 @@ coverCaption: ""
 **Copia aquesta plantilla** per a una tasca petita de programació o recerca. Elimina els camps que no hi tenen relació en comptes d’omplir-los amb text vague.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Resultat:
+Font autoritzada i revisió:
+Fitxers o registres rellevants:
+Canvis permesos:
+Canvis i accions exclosos:
+Exemples del comportament desitjat:
+Comprovacions de finalització:
+Quan aturar-se o preguntar:
+Informa de:
 ```
 
 **Per al laboratori,** el paquet complet queda així:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Objectiu: afegeix un filtre --status opcional a task_report.py.
+Font: docs/requirements.md, revisió 1.
+Fitxers rellevants: task_report.py, tasks.json, tests/.
+Canvis permesos: task_report.py i proves específiques.
+Exclosos: tasks.json, dependències noves, commits i enviaments.
+Exemples: sense filtre, mostra Total tasks: 4. open i done mostren 2 cadascun.
+Comprovacions: executa les proves unitàries i quatre ordres manuals: sense filtre, open, done i un valor no vàlid.
+El valor no vàlid ha de retornar un codi diferent de zero amb un missatge clar.
+Atura’t o pregunta si hi ha conflicte de fonts, falta un fitxer o falla una prova inicial no relacionada.
+Informe: fitxers modificats, ordres, resultats observats i qüestions pendents.
 ```
 
 **A Windows,** fes servir `py -3` a les ordres del paquet si el teu entorn utilitza el llançador de Python.

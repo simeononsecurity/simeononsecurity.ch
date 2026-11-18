@@ -1,6 +1,7 @@
 ---
 title: "Inzicht in de betekenis van beveiligingsrubriceringsrichtlijnen voor gegevensbescherming"
 date: 2023-06-17
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Het belang van beveiligingsrubriceringsgidsen voor de bescherming van gerubriceerde informatie en de naleving van de regelgeving onderzoeken."
@@ -20,7 +21,7 @@ Gidsen voor beveiligingsrubricering zijn uitgebreide documenten met richtlijnen 
 
 {{< youtube id="__RtEdKdRGg" >}}
 
-## **Key Concepts of Security Classification Guides***
+## **Kernbegrippen van gidsen voor beveiligingsrubricering**
 
 ### Classificatieniveaus
 

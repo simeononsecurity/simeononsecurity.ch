@@ -1,7 +1,7 @@
 ---
 title: "Odzyskiwanie po rozjechaniu kontekstu agenta AI i przekazywanie pracy"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Wykrywaj nieaktualne źródła i adaptery polityk, wznawiaj przerwaną publikację oraz weryfikuj niezależne przekazania między agentami."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Wykonanie kontroli wstępnej
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Przeczytaj MAP-01 i zapisz jego rewizję.
+Przeczytaj POL-01 i porównaj wersje aktywnych adapterów.
+Przeczytaj REQ-17 i RUN-04 z lokalizacji wskazanych w mapie.
+Przeczytaj config.json na chronionej gałęzi main.
+Przeczytaj zamrożoną propozycję i aktualne przeglądy ról.
+Porównaj bieżące źródła ze sprawdzonymi bazami.
+Wymień rozbieżności, odmowy odczytu i oczekujące publikacje.
+Wstrzymaj istotne zapisy, dopóki właściciele nie rozwiążą każdej rozbieżności.
 ```
 
 **Autor wkładu wykonuje kontrolę wstępną przed przygotowaniem projektu. Wydawca powtarza ją przed wprowadzeniem zmian.** Dołącz porównanie wersji do projektu. Cotygodniowe kontrole uzupełniają odczyt aktualnych źródeł, ale go nie zastępują.
@@ -103,16 +103,16 @@ choices:
 ## Weryfikacja niezależnego przekazania
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Przekazanie: HANDOFF-042
+Zadanie: PROP-042
+Mapa i zasady: dołącz aktualne zatwierdzone rewizje
+Dowody: odnośniki do wymagań, runbooka i konfiguracji
+Rejestr: completed, failed, pending
+Decyzja: wybór właściciela i ustalona rewizja propozycji
+Ograniczenia: bez testu usuwania w czasie działania i bez danych produkcyjnych
+Następna rola: osoba odpowiedzialna
+Następne działanie: jeden ograniczony krok
+Stop: zmieniona baza, odmowa dostępu lub sprzeczne uprawnienia
 ```
 
 **Otwórz inne narzędzie lub czystą sesję** z mapą i przekazaniem, bez poprzedniej rozmowy. Wymagaj świeżych odczytów źródeł, nowego manifestu i wskazania nierozstrzygniętej czynności. Ręczne dowody z przeglądarki pozostają ważne, jeśli oznaczysz je jako zrzut stanu i sprawdzisz ponownie przed zapisem.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **Kompensacja nie usuwa historii.** Zachowaj osobno próbę zmiany na trzydzieści dni, jej niepowodzenie i późniejsze przywrócenie. Źródło końcowe wskazuje siedem, a historia dostarczenia wyjaśnia, dlaczego zatwierdzony projekt nie został ukończony.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Decyzja o odzyskaniu: przykładowa kompensacja
+Pierwotna propozycja: PROP-042, rewizja 1
+Zaobserwowana rozbieżność: wymaganie 30, konfiguracja/runbook 7
+Decyzja właściciela: przywróć zatwierdzoną intencję bazową
+Przedmiot przeglądu: porównaj stałą kompensację z aktualną wersją wymagania
+Wynik: zapisz wynikową rewizję i ponownie odczytaj wartość siedmiu dni
+Pierwotna dostawa: wycofaj lub zablokuj z wyjaśnieniem
+Ograniczenie: nie wykonano usuwania w czasie działania ani odzyskiwania danych
 ```
 
 **Jawnie zachowaj wyjątek dodany przez innego autora.** Ślepe wklejenie treści starej strony może usunąć prawidłową zmianę wprowadzoną po drodze. Porównaj aktualny i zamierzony tekst, a następnie sprawdź minimalną zmianę kompensującą względem aktualnej wersji.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Użyj czystej sesji i innego recenzenta.** Przekaż mapę, ustalony pakiet, rejestr i decyzję odzyskiwania. Nie pokazuj poprzedniego czatu. Poproś odbiorcę o wskazanie bieżącej intencji, konfiguracji, instrukcji operacyjnych i następnego dozwolonego działania.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Niezależnie przeczytaj bieżące źródła wskazane w mapie.
+Rozróżnij zatwierdzoną intencję, zatwierdzoną konfigurację i stan dostarczenia.
+Porównaj je ze sprawdzonym pakietem i rejestrem.
+Wymień brakujące odczyty i zmienione bazy.
+Zaleć jeden ograniczony następny krok i wskaż odpowiedzialną rolę.
+Nie traktuj tego przekazania jako akceptacji ani zgody na publikację.
 ```
 
 **Oczekiwane rozumowanie:** odbiorca weryfikuje wynik kompensacji przed opisaniem przywrócenia stanu bazowego. Jeśli jedynie powtórzy „siedem dni” z przekazania, wymóg niezależnego odczytu nie został sprawdzony. Poproś o dowody ze źródeł zamiast kolejnego podsumowania.
@@ -219,4 +219,4 @@ Przekaż tę inwentaryzację drugiej osobie bez starego czatu. Przekazanie zalic
 
 ## Następne kroki
 
-**Ukończ [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** z użyciem obu ścieżek i drugiego czytelnika. Pokaż świeże odczyty źródeł, rozbieżności wersji, decyzję właściciela, sprawdzone odzyskiwanie, odczyt zwrotny i niezależną rekonstrukcję.
+**Ukończ [Rozdział podsumowujący retencję](/articles/ai-collaboration-retention-capstone/)** z użyciem obu ścieżek i drugiego czytelnika. Pokaż świeże odczyty źródeł, rozbieżności wersji, decyzję właściciela, sprawdzone odzyskiwanie, odczyt zwrotny i niezależną rekonstrukcję.

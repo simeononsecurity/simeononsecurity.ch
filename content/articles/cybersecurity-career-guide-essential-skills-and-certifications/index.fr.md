@@ -1,7 +1,7 @@
 ---
 title: "Guide de carrière en cybersécurité 2026 : Compétences essentielles, certifications et données salariales"
 date: 2023-06-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Guide complet de carrière en cybersécurité 2026 couvrant les compétences essentielles, les meilleures certifications, les données salariales, les parcours professionnels et les perspectives du marché de l'emploi pour les futurs professionnels de la sécurité."
@@ -159,13 +159,13 @@ Tous les professionnels de la cybersécurité ont besoin de ces bases techniques
 
 **Python en cybersécurité** :
 ```python
-# Example: Automated security scanning script
+# Exemple : script automatisé d’analyse de sécurité
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Effectue une analyse automatisée des vulnérabilités
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
@@ -679,7 +679,7 @@ Certifié en [certifications]. Intérêt marqué pour [domaine de sécurité pr�
 
 COMPÉTENCES TECHNIQUES
 - Sécurité : SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud : AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Informatique en nuage : AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
 - Outils : Wireshark, Nmap, Burp Suite, Metasploit, Nessus
 - Programmation : Python, PowerShell, Bash, SQL
 - Référentiels : NIST CSF, MITRE ATT&CK, OWASP Top 10

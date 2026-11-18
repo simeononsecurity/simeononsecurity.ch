@@ -1,11 +1,11 @@
 ---
 title: "Construire et maintenir un pipeline DevOps sécurisé : Meilleures pratiques et études de cas"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apprenez à construire et à maintenir un pipeline DevOps sécurisé à l'aide de bonnes pratiques et d'exemples concrets dans ce guide complet."
-tags: ["DevOps", "sécurité", "canalisation", "intégration continue", "livraison continue", "automation", "conteneurisation", "codage sécurisé", "analyse de la vulnérabilité", "contrôle", "retour d'information", "contrôle des versions", "le contrôle d'accès", "reprise après sinistre", "continuité des activités", "étude de cas", "Printemps", "Django", "OWASP", "Netflix", "Capital One"]
+tags: ["DevOps", "sécurité", "chaîne DevOps", "intégration continue", "livraison continue", "automatisation", "conteneurisation", "codage sécurisé", "analyse des vulnérabilités", "surveillance", "retour d’information", "contrôle des versions", "contrôle d’accès", "reprise après sinistre", "continuité des activités", "étude de cas", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
 cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
 coverAlt: "Illustration numérique abstraite d’un pipeline DevOps sécurisé, avec des éléments visuels représentant le développement du code, les tests automatisés et le déploiement, sur un fond sombre aux couleurs vives."
 coverCaption: ""
@@ -114,9 +114,9 @@ Netflix est un service de vidéo en streaming qui utilise un pipeline DevOps pou
 Capital One est une société de services financiers qui utilise un pipeline DevOps pour fournir de nouvelles mises à jour et fonctionnalités logicielles à ses clients. Pour assurer la sécurité de son pipeline, Capital One utilise un certain nombre de bonnes pratiques, notamment :
 
 - **Utiliser des pratiques de codage sécurisées et effectuer des révisions de code régulières**.
-    - Capital One a développé [secure coding standards](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) sur la base des meilleures pratiques de l'industrie, telles que celles de l'OWASP. Ils procèdent également à des révisions régulières du code afin d'identifier et de corriger toute vulnérabilité en matière de sécurité.
+    - Capital One a développé [normes de programmation sécurisée](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) sur la base des meilleures pratiques de l'industrie, telles que celles de l'OWASP. Ils procèdent également à des révisions régulières du code afin d'identifier et de corriger toute vulnérabilité en matière de sécurité.
 - Mise en œuvre de tests de sécurité automatisés tout au long du pipeline**
-    - Capital One a mis en place une variété d'outils de tests de sécurité automatisés tout au long de son pipeline DevOps, y compris des scanners de vulnérabilité et des outils d'analyse statique. Elle utilise également des tests automatisés pour s'assurer que l'ensemble du code répond à ses exigences en matière de sécurité. [secure coding standards](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/)
+    - Capital One a mis en place une variété d'outils de tests de sécurité automatisés tout au long de son pipeline DevOps, y compris des scanners de vulnérabilité et des outils d'analyse statique. Elle utilise également des tests automatisés pour s'assurer que l'ensemble du code répond à ses exigences en matière de sécurité. [normes de programmation sécurisée](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/)
 - **Utiliser des conteneurs sécurisés pour emballer et déployer des applications**
     - Capital One utilise des conteneurs pour emballer et déployer des applications dans son pipeline DevOps. Elle a mis en place des contrôles de sécurité stricts autour de ses conteneurs, notamment en n'utilisant que des sources fiables et en procédant à des analyses de vulnérabilité régulières.
 - Réaliser régulièrement des audits de sécurité et des évaluations des vulnérabilités**

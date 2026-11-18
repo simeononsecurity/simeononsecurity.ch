@@ -1,10 +1,11 @@
 ---
 title: "Què fer si creieu que el vostre correu electrònic o telèfon està compromès"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apreneu els passos essencials a seguir si sospiteu que el vostre correu electrònic, escriptori o telèfon ha estat piratejat o compromès, com ara canviar les contrasenyes, buscar programari maliciós i netejar el vostre dispositiu."
-tags: ["seguretat del dispositiu", "protecció de dades", "dispositiu compromès", "correu electrònic piratejat", "telèfon piratejat", "programari maliciós", "eliminació de virus", "seguretat de contrasenya", "còpia de seguretat de dades", "autenticació de dos factors", "seguretat cibernètica", "seguretat en línia", "privadesa digital", "el robatori d'identitat", "frau en línia", "suport tècnic", "reparació d'ordinadors", "recuperació de dades", "serveis informàtics", "tecnologia"]
+tags: ["seguretat del dispositiu", "protecció de dades", "dispositiu compromès", "correu electrònic piratejat", "telèfon piratejat", "programari maliciós", "eliminació de virus", "seguretat de contrasenya", "còpia de seguretat de dades", "autenticació de dos factors", "seguretat cibernètica", "seguretat en línia", "privadesa digital", "el robatori d'identitat", "frau en línia", "suport tècnic", "reparació d'ordinadors", "recuperació de dades", "serveis informàtics", "tecnologia", "seguretat del correu electrònic", "seguretat de l’ordinador", "seguretat del telèfon", "pirateria de dispositius", "bretxa de seguretat", "dispositiu compromès", "anàlisi de programari maliciós", "esborrament de dades", "claus criptogràfiques", "seguretat de la cartera de criptomonedes", "protecció dels fons", "compromís del correu electrònic", "consells de seguretat dels dispositius", "com protegir el correu electrònic", "passos per protegir un telèfon compromès", "tècniques per eliminar programari maliciós", "bones pràctiques per a les contrasenyes", "mètodes de còpia de seguretat", "importància de l’autenticació de dos factors", "mesures de ciberseguretat per a la seguretat en línia", "consells de privadesa digital", "prevenció del robatori d’identitat en línia", "com afrontar el frau en línia", "suport tècnic per a dispositius compromesos", "serveis de reparació d’ordinadors", "solucions de recuperació de dades", "serveis informàtics per a la seguretat dels dispositius", "tendències tecnològiques recents", "pràctiques de correu electrònic segur", "mesures de seguretat de l’ordinador", "precaucions de seguretat del telèfon", "prevenció de la pirateria de dispositius"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Imatge de dibuixos animats d'una persona davant d'un ordinador o telèfon amb una expressió preocupada, mentre un pirata informàtic de dibuixos animats s'amaga al fons."
 coverCaption: ""
@@ -28,15 +29,19 @@ El primer pas a fer quan sospiteu que el vostre correu electrònic, escriptori o
 
 És important prendre nota de qualsevol signe de compromís perquè pugueu prendre les mesures adequades per protegir el vostre dispositiu i les vostres dades. Si no esteu segur de si el vostre dispositiu s'ha vist compromès, sempre és millor equivocar-vos
 
+
+Obteniu més informació sobre els correus de pesca i l’enginyeria social: [correus de pesca i missatges sospitosos](https://simeononsecurity.com/articles/how-to-identify-phishing/)i [enginyeria social](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## Pas 2: canvieu les vostres contrasenyes i verifiqueu la informació de recuperació
+## [Pas 2: canvieu les contrasenyes i verifiqueu la informació de recuperació](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - **Canvieu les vostres contrasenyes** per a tots els vostres comptes immediatament si sospiteu que el vostre dispositiu s'ha vist compromès
 
 
 Si sospiteu que el vostre correu electrònic, escriptori o telèfon s'ha vist compromès, el següent pas és canviar les contrasenyes de tots els vostres comptes immediatament. Això trigarà una estona, així que prioritzeu els comptes importants com els vostres correus electrònics, comptes bancaris, comptes de xarxes socials, etc.
 
+Per obtenir més orientació, consulteu: [canviar les contrasenyes](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [triar contrasenyes fortes i úniques](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [crear una contrasenya forta](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) i [activar l’autenticació de dos factors](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/).
 - **Prioritzar els comptes importants** com els vostres correus electrònics, comptes bancaris, comptes de xarxes socials, etc.
 
 - **Trieu contrasenyes úniques i fortes** per a cadascun dels vostres comptes i **eviteu utilitzar la mateixa contrasenya** en diversos comptes
@@ -46,18 +51,18 @@ Trieu contrasenyes úniques i fortes per a cadascun dels vostres comptes i evite
 
 ***Alguns exemples de contrasenyes segures***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: una contrasenya de 12 caràcters amb majúscules, minúscules, números i símbols
+- Ilovesecurity7!: una contrasenya de 16 caràcters que combina paraules, números i un símbol
+- xK2%qpzL5!rS: una contrasenya de 12 caràcters amb majúscules i minúscules aleatòries, números i símbols
 ```
 
 ***Exemples de frases de pas***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: una frase de contrasenya de 24 caràcters amb tres paraules aleatòries i números
+- orange$5my#yellow: una frase de contrasenya de 16 caràcters amb dues paraules aleatòries, números i símbols
+- pizza3onions?lovers: una frase de contrasenya de 19 caràcters amb dues paraules aleatòries, números i un símbol
+- tangerine8shark?43: una frase de contrasenya de 18 caràcters amb dues paraules aleatòries, números i un símbol
+- elephant6pasta*tree: una frase de contrasenya de 19 caràcters amb dues paraules aleatòries, números i un símbol
 ```
 
 - **Activa l'autenticació de dos factors** per obtenir una capa addicional de seguretat
@@ -93,6 +98,7 @@ ______
 - **Client de correu electrònic** (Microsoft Outlook, Apple Mail, Gmail, etc.)
 - **Aplicacions** (Microsoft Office, Adobe Creative Suite, etc.)
 
+Consulteu també: [programari antivirus i antiprogramari maliciós recomanat](https://simeononsecurity.com/recommendations/anti-virus).
 ______
 
 ## Pas 4: escaneja el teu dispositiu per trobar programari maliciós
@@ -115,6 +121,7 @@ Per escanejar el vostre dispositiu a la recerca de programari maliciós, utilitz
 
 També és una bona idea escanejar qualsevol dispositiu extern, com ara unitats USB, que hàgiu utilitzat amb el dispositiu compromès. Els dispositius externs sovint poden portar programari maliciós que pot infectar el vostre dispositiu, per la qual cosa és important escanejar-los abans d'utilitzar-los amb el vostre dispositiu.
 
+Llegiu més sobre: [regla de còpia de seguretat 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 ______
 
 ## Pas 5: feu una còpia de seguretat dels fitxers importants i netegeu el vostre dispositiu

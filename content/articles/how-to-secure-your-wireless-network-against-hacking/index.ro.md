@@ -41,7 +41,7 @@ __________
 
 ### Schimbă numele implicit al rețelei (SSID) și parola
 
-Primul și cel mai important pas pentru securizarea rețelei wireless este **schimbarea numelui implicit al rețelei (SSID) și a parolei**. SSID-ul și parola oferite de producătorul routerului sunt ușor de ghicit și pot fi exploatate de hackeri. Înlocuiește SSID-ul și parola implicite cu o combinație unică și puternică 
+Primul și cel mai important pas pentru securizarea rețelei wireless este **schimbarea numelui implicit al rețelei (SSID) și a parolei**. SSID-ul și parola oferite de producătorul routerului sunt ușor de ghicit și pot fi exploatate de hackeri. Înlocuiește SSID-ul și parola implicite cu o combinație unică și puternică
 
 ### Folosește parole puternice
 

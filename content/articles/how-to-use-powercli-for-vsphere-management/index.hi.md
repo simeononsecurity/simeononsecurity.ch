@@ -1,7 +1,7 @@
 ---
 title: "vSphere प्रबंधन के लिए PowerCLI में दक्षता"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "PowerCLI से VMware vSphere प्रबंधित करने, कार्यों को स्वचालित करने और उत्पादकता बढ़ाने का तरीका जानें।"
@@ -68,10 +68,10 @@ PowerCLI बार-बार होने वाले कार्यों क
 #### फ़ोल्डर की सभी VM का स्नैपशॉट लेना
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## निर्दिष्ट होस्ट की सभी वर्चुअल मशीनें बंद करें
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## निर्दिष्ट फ़ोल्डर की सभी वर्चुअल मशीनों का स्नैपशॉट लें
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Descr
 #### फ़ोल्डर की सभी VM को सुरक्षित रूप से बंद करना
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## बंद की जाने वाली वर्चुअल मशीनों वाला फ़ोल्डर प्राप्त करें
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## निर्दिष्ट फ़ोल्डर की सभी वर्चुअल मशीनें प्राप्त करें
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## सभी वर्चुअल मशीनों को सुरक्षित ढंग से बंद करें
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

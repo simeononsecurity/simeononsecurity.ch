@@ -1,7 +1,7 @@
 ---
 title: "Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących"
 date: 2023-02-24
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku."
@@ -82,7 +82,7 @@ Każda linia w pliku Dockerfile tworzy nową warstwę w obrazie Docker, a każda
 
 Ex:
 ```dockerfile
-RUN apt update 
+RUN apt update
 RUN apt install apache -y
 ```
 vs
@@ -101,22 +101,22 @@ docker run -e PORT=3000 my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# Ustaw katalog roboczy
 WORKDIR /app
 
-# Copy package.json and yarn.lock to the container
+# Skopiuj package.json i yarn.lock do kontenera
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Zainstaluj zależności
 RUN yarn install --frozen-lockfile
 
-# Copy the application code to the container
+# Skopiuj kod aplikacji do kontenera
 COPY . .
 
-# Expose the application port
+# Udostępnij port aplikacji
 EXPOSE $PORT
 
-# Start the application
+# Uruchom aplikację
 CMD ["yarn", "start"]
 ```
 
@@ -133,25 +133,25 @@ docker run -v /home/user/app/data:/app/data my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# Ustaw katalog roboczy
 WORKDIR /app
 
-# Copy the package.json and yarn.lock files to the container
+# Skopiuj pliki package.json i yarn.lock do kontenera
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Zainstaluj zależności
 RUN yarn install --frozen-lockfile
 
-# Copy the rest of the application code to the container
+# Skopiuj pozostały kod aplikacji do kontenera
 COPY . .
 
-# Expose the application port
+# Udostępnij port aplikacji
 EXPOSE 3000
 
-# Start the application
+# Uruchom aplikację
 CMD ["yarn", "start"]
 
-# Mount a volume for the application data
+# Zamontuj wolumin na dane aplikacji
 VOLUME ["/app/data"]
 ```
 
@@ -163,25 +163,25 @@ Ex:
 ```Dockerfile
 FROM node:14
 
-# Create a new user to run the container
+# Utwórz użytkownika do uruchamiania kontenera
 RUN useradd --user-group --create-home --shell /bin/false app
 
-# Change the working directory to the app user's home directory
+# Zmień katalog roboczy na katalog domowy użytkownika aplikacji
 WORKDIR /home/app
 
-# Install dependencies as the app user
+# Zainstaluj zależności jako użytkownik aplikacji
 COPY package.json yarn.lock ./
 RUN chown -R app:app /home/app
 USER app
 RUN yarn install --frozen-lockfile --production
 
-# Copy the application code as the app user
+# Skopiuj kod jako użytkownik aplikacji
 COPY --chown=app:app . .
 
-# Expose the port
+# Udostępnij port
 EXPOSE 3000
 
-# Start the application as the app user
+# Uruchom aplikację jako użytkownik aplikacji
 CMD ["yarn", "start"]
 ```
 
@@ -193,19 +193,19 @@ Ex:
 ```Dockerfile
 FROM ubuntu:latest
 
-# Update the package list and install security updates
+# Zaktualizuj listę pakietów i zainstaluj poprawki bezpieczeństwa
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
-# Install the nginx web server
+# Zainstaluj serwer WWW nginx
 RUN apt-get install -y nginx
 
-# Copy the application code to the container
+# Skopiuj kod aplikacji do kontenera
 COPY . /var/www/html/
 
-# Expose port 80 to the host system
+# Udostępnij port 80 systemowi hosta
 EXPOSE 80
 
-# Start the nginx server
+# Uruchom serwer nginx
 CMD ["nginx", "-g", "daemon off;"]
 
 ```

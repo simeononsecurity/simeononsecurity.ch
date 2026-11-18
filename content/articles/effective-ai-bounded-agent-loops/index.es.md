@@ -1,7 +1,7 @@
 ---
 title: "Bucles acotados de agentes de IA: comprobaciones, reintentos y reglas de parada"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Define un bucle de objetivos de IA con estado observable, comprobaciones, límites de reintentos, condiciones de parada y una transferencia clara a una persona."
@@ -89,7 +89,7 @@ Pruebas necesarias: ejecución completa de las pruebas y código de salida del c
 **Empieza con el laboratorio intacto.** Sus dos pruebas iniciales pasan. Crea `tests/test_loop_contract.py` en la extracción nueva con la comprobación siguiente. Este archivo expresa una función deseada que falta en el proyecto inicial. No forma parte del ZIP inicial mantenido.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Una comprobación fallida controlada para el ejercicio del filtro de estado."""
 
 import subprocess
 import sys

@@ -42,7 +42,7 @@ Puteți găsi mai multe informații și descărca SteamOS de pe site-ul lor ofic
 
 ### Alte distribuții Linux prietenoase cu jocurile de noroc
 
-În timp ce [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/), and [SteamOS](https://store.steampowered.com/steamos/) se numără printre alegerile de top pentru jocurile Linux, există și alte distribuții Linux notabile care merită explorate:
+În timp ce [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/) și [SteamOS](https://store.steampowered.com/steamos/) se numără printre cele mai bune opțiuni pentru jocurile pe Linux, există și alte distribuții Linux remarcabile care merită explorate:
 
 - [**Pop!_OS**](https://pop.system76.com/) Dezvoltat de System76, Pop!_OS oferă o experiență de joc optimizată și include caracteristici precum comutarea automată a GPU-ului pentru laptopuri.
 - [**Fedora**](https://www.fedoraproject.org/) Fedora oferă un suport excelent pentru jocuri, cu accent pe tehnologiile de ultimă oră și pe cele mai recente actualizări de software.

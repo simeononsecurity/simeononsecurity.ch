@@ -1,6 +1,7 @@
 ---
 title: "Normas de codificación segura para desarrolladores de C#"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda las mejores prácticas de codificación segura en C# para minimizar el riesgo de infracciones de seguridad y proteger los datos confidenciales."
@@ -22,7 +23,7 @@ La entrada de datos por parte del usuario suele ser una fuente importante de rie
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Comprobar si la cadena de entrada solo contiene dígitos
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // Procesar los datos
     }
 }
 ```

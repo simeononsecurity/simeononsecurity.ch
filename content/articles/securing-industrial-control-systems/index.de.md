@@ -8,6 +8,7 @@ genre: ["Industrielle Kontrollsysteme", "Cybersecurity", "ICS-Sicherheitsherausf
 tags: ["Industrielle Kontrollsysteme", "ICS-Sicherheit", "Cybersecurity", "ICS-Herausforderungen", "ICS Bewährte Praktiken", "Ältere Systeme", "Veraltete Technologien", "Sensibilisierungsschulung", "Komplexität von Cyber-Bedrohungen", "Schwachstellen in der Lieferkette", "Insider-Bedrohungen", "Menschliches Versagen", "Umfassender Sicherheitsrahmen", "ICS-Bewertung", "Mitarbeiterschulung", "Segmentierung des Netzes", "Zugangskontrolle", "Planung der Reaktion auf Vorfälle", "Sicherheit im Energiesektor", "Sicherheit von Produktionsanlagen", "Sicherheit der Wasseraufbereitungsanlage", "Künstliche Intelligenz", "Maschinelles Lernen", "Blockchain-Technologie", "Öffentlich-private Zusammenarbeit", "ICS-Sicherheitsmaßnahmen", "Folgen von ICS-Verletzungen", "Proaktive ICS-Sicherheit", "Implementierung der ICS-Sicherheit", "ICS-Sicherheitstrends"]
 cover: "/img/cover/A_symbolic_image_representing_the_concept_of_s.webp"
 coverAlt: "Ein symbolisches Bild, das das Konzept der Sicherung industrieller Steuersysteme gegen Cyber-Bedrohungen darstellt und ein Schild mit einem Schloss zeigt, das ein Netz miteinander verbundener Geräte schützt."
+lastmod: 2026-11-13
 ---
 
 ## Sicherung industrieller Kontrollsysteme (ICS): Herausforderungen und bewährte Praktiken
@@ -25,7 +26,7 @@ Zu den Hauptkomponenten von ICS gehören **Programmierbare Logik-Controller (PLC
 | Komponente | Beschreibung |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Speicherprogrammierbare Steuerungen (SPS) | Werden zur Steuerung und Verwaltung der industriellen Prozesse verwendet.                                                |
-| Supervisory Control and Data Acquisition (SCADA) | Wird zur Überwachung und Steuerung der Prozesse verwendet.                                                          |
+| Überwachungs-, Steuerungs- und Datenerfassung (SCADA) | Wird zur Überwachung und Steuerung der Prozesse verwendet.                                                          |
 | Human Machine Interfaces (HMIs) | Bieten eine grafische Schnittstelle für Bediener zur Überwachung des Systems und zur Interaktion mit den Prozessen.  |
 | Verteilte Steuerungssysteme (DCS) | Dienen der Steuerung und Verwaltung der Prozesse an mehreren Standorten.                                 |
 
@@ -42,7 +43,7 @@ Es gibt verschiedene Arten von IKS, die in unterschiedlichen Branchen eingesetzt
 |-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Energiemanagementsysteme (EMS) | Werden zur Steuerung und Kontrolle des Energieverbrauchs in Gebäuden und Industrieanlagen eingesetzt.                                           |
 | Gebäudeautomationssysteme (BAS) | Dienen der Steuerung und Verwaltung verschiedener Systeme in einem Gebäude, wie z. B. Heizung, Lüftung und Klimatisierung.        |
-| Supervisory Control and Data Acquisition (SCADA) | Wird in Branchen wie der Öl- und Gasindustrie, der Wasseraufbereitung und der Fertigung zur Überwachung und Steuerung industrieller Prozesse eingesetzt. |
+| Überwachungs-, Steuerungs- und Datenerfassung (SCADA) | Wird in Branchen wie der Öl- und Gasindustrie, der Wasseraufbereitung und der Fertigung zur Überwachung und Steuerung industrieller Prozesse eingesetzt. |
 | Prozessleitsysteme (PCS) | Werden in Branchen wie der Chemie-, Pharma- und Lebensmittelindustrie zur Kontrolle und Steuerung von Produktionsprozessen eingesetzt.  |
 
 

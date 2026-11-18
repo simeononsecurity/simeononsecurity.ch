@@ -1,7 +1,7 @@
 ---
 title: "Enrutament de proveïdors d'OpenRouter: qualitat del model, límits de tokens i costos reals"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diagnostica respostes inconsistents d'OpenRouter, compara els límits dels endpoints i els costos de la memòria cau, i configura l'enrutament sense desactivar controls de qualitat per accident."
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Càrrega de treball: 6 milions de tokens d’entrada + 1 milió de tokens de sortida
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Per cada milió de tokens combinats d’entrada i sortida:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```

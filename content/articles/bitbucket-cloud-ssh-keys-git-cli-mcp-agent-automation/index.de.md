@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket Cloud SSH-Schlüssel: schreibgeschützter Git-Zugriff für KI-Agenten"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Richte Bitbucket Cloud SSH-Schlüssel, Git-CLI-Zugriff, REST-API-Tokens, 1Password und MCP-Tools für schreibgeschützte KI-Agenten-Workflows ein."
@@ -138,7 +138,7 @@ Die [Atlassian-Anleitung zu mehreren Repository-Zugriffsschlüsseln](https://sup
 Portables dateibasiertes Beispiel:
 
 ```ini
-# .gitconfig inside one local repository
+# .gitconfig innerhalb eines lokalen Repositorys
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

@@ -3,7 +3,7 @@ title: "Certificações de cibersegurança em IA: atrasadas em relação à prá
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Uma análise da distância entre certificações de governança de IA e a prática de segurança, com base na experiência com certificações e nos limites atuais da superfície de ataque."
 tags: ["Segurança de IA", "Governança de IA", "Certificações de IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injeção de prompt", "cibersegurança de IA", "segurança de LLM", "OWASP LLM Top 10", "MITRE ATLAS", "gestão de riscos de IA", "conformidade de IA", "segurança de aprendizado de máquina", "cadeia de suprimentos de modelos", "IA adversarial", "agentes de IA", "segurança do MCP", "red teaming de IA", "certificações de governança de IA", "IA agêntica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

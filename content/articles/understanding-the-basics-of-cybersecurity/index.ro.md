@@ -3,7 +3,7 @@ title: "Înțelegerea principiilor de bază ale securității cibernetice"
 draft: false
 toc: true
 date: 2023-06-11
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 description: "Descoperiți importanța securității cibernetice și învățați cum să vă protejați securitatea personală, profesională și națională împotriva amenințărilor cibernetice în continuă evoluție."
 genre: ["Înțelegerea principiilor de bază ale securității cibernetice", "Importanța securității cibernetice", "Protejarea informațiilor personale", "Protejarea datelor de afaceri", "Preocupări legate de securitatea națională", "Terminologie cheie în domeniul securității cibernetice", "Tipuri de atacuri cibernetice", "Cele mai bune practici în materie de securitate cibernetică", "Rolul criptării în securitatea cibernetică", "Securitatea cibernetică pentru întreprinderi"]
 tags: ["Securitatea cibernetică", "Bazele securității cibernetice", "Importanța securității cibernetice", "Protejarea informațiilor personale", "Protecția datelor de afaceri", "Securitatea națională", "Amenințări cibernetice", "Malware", "Phishing", "Ransomware", "Vulnerabilități", "Exploatează", "Atacuri de inginerie socială", "Atacuri cu parole", "Atacurile Man-in-the-Middle", "Atacuri DDoS", "Cele mai bune practici în materie de securitate cibernetică", "Parole puternice", "Actualizări de software", "Autentificarea cu mai mulți factori", "Terminologia securității cibernetice", "Tipuri de atacuri cibernetice", "Rolul criptării în securitatea cibernetică", "Tipuri de criptare", "Protecția datelor", "Planul de securitate cibernetică", "Formarea și conștientizarea angajaților", "Audituri regulate de securitate", "Amenințări cibernetice emergente", "Inteligența artificială în securitatea cibernetică"]
@@ -16,7 +16,7 @@ coverAlt: "Un scut cu simbolul unui lacăt, reprezentând securitatea cibernetic
 
 În epoca tehnologică de astăzi, **importanța securității cibernetice** nu poate fi supraestimată. Pe măsură ce continuăm să ne bazăm pe tehnologie pentru aproape fiecare aspect al vieții noastre de zi cu zi, riscurile reprezentate de **amenințările cibernetice** sunt în continuă evoluție. Înțelegerea noțiunilor de bază ale securității cibernetice este esențială pentru **protejarea datelor personale și de afaceri**, precum și pentru preocupările de securitate națională.
 
-### The Importance of Cybersecurity (Importanța securității cibernetice)
+### Importanța securității cibernetice
 
 **Securitatea cibernetică** se referă la practica de a proteja dispozitivele, rețelele și informațiile sensibile de **acces neautorizat, furt sau deteriorare**. Nevoia de securitate cibernetică a devenit din ce în ce mai importantă în ultimii ani, deoarece **amenințările cibernetice continuă să crească și să evolueze**. Odată cu creșterea **social media**, **banking-ul online** și **stocarea în cloud**, **criminalii cibernetici** au mai multe oportunități ca niciodată de a exploata vulnerabilitățile și de a obține acces la informații valoroase.
 
@@ -82,7 +82,7 @@ Pe măsură ce tehnologia continuă să avanseze, crește și numărul și compl
 
 **Atacurile DDoS (Distributed Denial of Service)** sunt un tip de atac cibernetic care implică copleșirea unui sistem sau a unei rețele cu trafic, făcându-l practic inutilizabil. Aceste atacuri sunt deseori efectuate cu ajutorul **botnets**, care sunt rețele de calculatoare infectate care pot fi controlate de un singur atacator. Atacurile DDoS pot fi dificil de combătut, deoarece pot proveni din mai multe surse diferite și pot fi dificil de distins de traficul legitim. Există diferite tipuri de atacuri DDoS, inclusiv **atacuri volumetrice**, **atacuri de protocol** și **atacuri la nivel de aplicație**.
 
-### Cybersecurity Best Practices
+### Cele mai bune practici de securitate cibernetică
 
 Punerea în aplicare a **cele mai bune practici de securitate cibernetică** este esențială pentru protecția împotriva **amenințărilor cibernetice**. Securitatea cibernetică este practica de protejare a dispozitivelor, rețelelor și informațiilor sensibile împotriva accesului neautorizat, furtului sau deteriorării.
 
@@ -90,7 +90,7 @@ Odată cu creșterea tehnologiei digitale, securitatea cibernetică a devenit o 
 
 Iată câteva dintre cele mai bune practici cheie pe care trebuie să le urmați pentru a vă asigura că sunteți protejat împotriva amenințărilor cibernetice:
 
-#### [Creating Strong Passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+#### [Crearea unor parole puternice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 **Parolele puternice** sunt esențiale pentru a preveni atacurile cu parole. Parolele trebuie să fie **lungi, complexe și unice** pentru fiecare cont. O parolă puternică ar trebui să conțină o combinație de **literă minusculă și majusculă, numere și simboluri**. Evitați să folosiți cuvinte sau fraze comune, precum și informații personale, cum ar fi numele sau data nașterii.
 
@@ -102,7 +102,7 @@ De asemenea, se recomandă utilizarea unui **gestionar de parole**, care poate g
 
 De asemenea, se recomandă să activați **actualizările automate** ori de câte ori este posibil, pentru a vă asigura că executați întotdeauna cea mai recentă versiune de software.
 
-#### [Implementing Multi-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
+#### [Implementarea autentificării multifactor](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
 **Autentificarea cu factori multipli** adaugă un nivel suplimentar de securitate, solicitând utilizatorilor să introducă nu numai o parolă, ci și o a doua formă de identificare, cum ar fi o amprentă digitală sau un simbol de securitate. Acest lucru poate ajuta la prevenirea accesului neautorizat la conturile dvs., chiar dacă parola dvs. este compromisă.
 
@@ -120,7 +120,7 @@ Urmând aceste bune practici, vă puteți reduce semnificativ riscul de a deveni
 
 **Criptarea** joacă un rol esențial în securitatea cibernetică, protejând datele sensibile de accesul neautorizat. Criptarea este procesul de convertire a datelor într-un cod care poate fi descifrat numai cu ajutorul cheii sau parolei corecte.
 
-#### [What is Encryption?](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
+#### [Ce este criptarea?](https://simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/)
 
 **Criptarea** este o tehnică de comunicare securizată care presupune transformarea datelor în text clar în text cifrat cu ajutorul unui algoritm și al unei chei.
 
@@ -144,7 +144,7 @@ Criptarea este, de asemenea, utilizată în armată și în guvern pentru a prot
 
 În concluzie, criptarea este un instrument vital în domeniul securității cibernetice, care ajută la protejarea datelor sensibile împotriva accesului neautorizat. Înțelegând modul în care funcționează criptarea și diferitele tipuri de criptare, ne putem proteja mai bine pe noi înșine și informațiile noastre de **atacuri cibernetice**.
 
-### Cybersecurity for Businesses
+### Securitatea cibernetică pentru companii
 
 **Business-urile** trebuie să ia în serios securitatea cibernetică pentru a-și proteja **clienții**, **angajații** și **bottom line**.
 
@@ -152,7 +152,7 @@ Criptarea este, de asemenea, utilizată în armată și în guvern pentru a prot
 
 Elaborarea unui **plan de securitate cibernetică** este esențială pentru identificarea și atenuarea **riscurilor cibernetice**. Acest plan ar trebui să includă politici și proceduri pentru **protecția datelor**, **răspunsul la incidente** și **formarea angajaților**.
 
-#### [Employee Training and Awareness](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
+#### [Instruirea și conștientizarea angajaților](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/)
 
 Instruirea angajaților cu privire la **cele mai bune practici în materie de securitate cibernetică** este esențială pentru a reduce riscul de **eroare umană** și pentru a se asigura că toată lumea din organizație este pe aceeași lungime de undă atunci când vine vorba de securitatea cibernetică.
 
@@ -160,7 +160,7 @@ Instruirea angajaților cu privire la **cele mai bune practici în materie de se
 
 Auditurile regulate de **securitate** sunt importante pentru a identifica vulnerabilitățile și pentru a se asigura că măsurile de securitate cibernetică ale organizației sunt eficiente. Aceste audituri ar trebui să fie efectuate de către o **parte terță** externă.
 
-### [The Future of Cybersecurity](https://simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
+### [Viitorul securității cibernetice](https://simeononsecurity.com/articles/the-future-of-cybersecurity-in-a-post-pandemic-world/)
 
 Lumea securității cibernetice evoluează în mod constant, iar pentru a vă proteja împotriva celor mai recente amenințări este esențial să fiți la curent cu noile amenințări.
 
@@ -168,11 +168,11 @@ Lumea securității cibernetice evoluează în mod constant, iar pentru a vă pr
 
 Noile tehnologii, cum ar fi **Internetul lucrurilor (IoT)** și **inteligența artificială (AI)**, creează noi oportunități pentru **atacuri cibernetice**. Este esențial să rămâneți la curent cu **amenințările și tehnologiile emergente** pentru a vă proteja împotriva acestora.
 
-#### [The Role of Artificial Intelligence](https://simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
+#### [Rolul inteligenței artificiale](https://simeononsecurity.com/articles/the-role-of-artificial-intelligence-in-threat-detection-and-response/)
 
 **Inteligența artificială** poate fi utilizată atât pentru a ataca, cât și pentru a se apăra împotriva **amenințărilor cibernetice**. Sistemele de detectare și răspuns bazate pe inteligență artificială pot ajuta la identificarea și atenuarea amenințărilor în timp real.
 
-#### [The Importance of Collaboration and Information Sharing](https://simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
+#### [Importanța colaborării și a schimbului de informații](https://simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/)
 
 **Amenințările cibernetice** sunt de natură globală și necesită cooperare internațională pentru a fi combătute. O **securitate cibernetică** eficientă necesită **colaborare** și **schimb de informații** între guverne, întreprinderi și persoane fizice.
 

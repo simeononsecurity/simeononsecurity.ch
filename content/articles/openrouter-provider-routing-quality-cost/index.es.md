@@ -1,7 +1,7 @@
 ---
 title: "Enrutamiento de proveedores de OpenRouter: calidad del modelo, límites de tokens y costes reales"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diagnostica respuestas inconsistentes de OpenRouter, compara límites de endpoints y costes de caché, y configura el enrutamiento sin desactivar controles de calidad por accidente."
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Carga de trabajo: 6 millones de tokens de entrada + 1 millón de tokens de salida
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Por cada millón de tokens combinados de entrada y salida:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```
