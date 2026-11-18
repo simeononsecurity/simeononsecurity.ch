@@ -1,7 +1,7 @@
 ---
 title: "هيكل دليل ويندوز"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: دليل كامل لعام 2026 لهيكل دليل ويندوز يشمل مخططات بصرية، تحديثات ويندوز 11، اعتبارات الأمان، وتقنيات التنقل المتقدمة لإدارة الملفات بكفاءة.
@@ -75,53 +75,53 @@ ______
 إليك تمثيلًا بصريًا شاملاً لتسلسل نظام ملفات ويندوز:
 
 ```
-C:\ (Root Directory)
+C:\ (الدليل الجذري)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [ملفات النظام ومكونات نظام التشغيل]
+│   ├── System32\              [ملفات النظام والبرامج التنفيذية بنظام 64 بت]
+│   ├── SysWOW64\              [طبقة توافق 32 بت على أنظمة 64 بت]
+│   ├── Boot\                  [إعدادات الإقلاع وملفات بدء التشغيل]
+│   ├── Fonts\                 [خطوط النظام]
+│   ├── Temp\                  [الملفات المؤقتة للنظام]
+│   ├── assembly\              [تجميعات .NET Framework]
+│   ├── inf\                   [معلومات تثبيت برامج التشغيل]
+│   ├── WinSxS\                [مخزن مكونات Windows Side-by-Side]
+│   ├── Logs\                  [سجلات النظام]
+│   └── Security\              [سياسات وقوالب الأمان]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [تطبيقات 64 بت (على أنظمة 64 بت)]
+│   ├── Common Files\          [مكونات البرامج المشتركة]
+│   └── [مجلدات التطبيقات]  [البرامج المثبتة لكل مستخدم]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [تطبيقات 32 بت على أنظمة 64 بت]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [مجلدات التطبيقات]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [مجلدات ملفات تعريف المستخدمين]
+│   ├── Public\                [ملفات المستخدمين المشتركة]
+│   ├── [اسم المستخدم]\            [ملفات تعريف المستخدمين الفردية]
+│   │   ├── Desktop\           [ملفات سطح المكتب]
+│   │   ├── Documents\         [مستندات المستخدم]
+│   │   ├── Downloads\         [الملفات التي تم تنزيلها]
+│   │   ├── Pictures\          [صور المستخدم]
+│   │   ├── Videos\            [مقاطع فيديو المستخدم]
+│   │   ├── Music\             [ملفات المستخدم الصوتية]
+│   │   ├── AppData\           [بيانات التطبيقات]
+│   │   │   ├── Local\         [بيانات التطبيقات الخاصة بالجهاز]
+│   │   │   ├── LocalLow\      [بيانات التطبيقات منخفضة التكامل]
+│   │   │   └── Roaming\       [بيانات ملف التعريف المتجول]
+│   │   ├── OneDrive\          [ملفات متزامنة مع السحابة (Windows 11)]
+│   │   └── Contacts\          [جهات اتصال المستخدم]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [بيانات التطبيقات المشتركة (مخفية)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [بيانات التطبيقات]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [سجلات الأداء وتقاريره]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [سلة المحذوفات (مخفية)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [نقاط استعادة النظام (مخفية)]
 ```
 
 ______
@@ -303,9 +303,9 @@ ______
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # عرض العناصر تكرارياً عبر المجلدات الفرعية
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # إنشاء مجلد جديد
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **أوامر PowerShell الأساسية:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # تغيير المجلد (الاسم البديل: cd)
+Get-ChildItem                    # عرض العناصر (الأسماء البديلة: dir وls)
+Get-ChildItem -Recurse           # عرض العناصر تكرارياً
+Get-ChildItem -Force             # إظهار العناصر المخفية
+Test-Path [path]                 # التحقق من وجود المسار
+New-Item -ItemType Directory     # إنشاء مجلد جديد
+Remove-Item [path]               # حذف العنصر
+Get-Item [path]                  # الحصول على خصائص العنصر
+Resolve-Path [path]              # تحويل المسار النسبي إلى مطلق
 ```
 
 **مثال متقدم على PowerShell:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# العثور على ملفات .log التي يتجاوز حجمها 10MB
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# حساب حجم المجلد
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "حجم الدليل: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal (المعيار في 2026)
@@ -440,12 +440,12 @@ ______
 
 **مثال تدقيق الأذونات باستخدام PowerShell:**
 ```powershell
-# Get ACL for a directory
+# الحصول على قائمة التحكم بالوصول لمجلد
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# تصدير الأذونات إلى CSV
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **الحلول:**
 ```powershell
-# Take ownership of a file/folder
+# تولي ملكية ملف أو مجلد
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# منح الأذونات
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### المشكلة 3: مجلد WinSxS يشغل مساحة كبيرة
 
 **الحلول:**
-```cmd
-# Analyze component store
+```powershell
+# تحليل مخزن المكونات
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# تنظيف مخزن المكونات
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# إزالة الإصدارات المستبدلة (لا يمكن التراجع عن هذا الإجراء)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - حذف بيانات التطبيقات غير الضرورية
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# إظهار أكبر المجلدات في AppData
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. وحدات PowerShell
 
 ```powershell
-# Install useful modules
+# تثبيت الوحدات المفيدة
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# قائمة محسّنة للعناصر مع الأيقونات
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **تمكين التدقيق:**
 ```powershell
-# Enable file auditing via PowerShell
+# تمكين تدقيق الملفات باستخدام PowerShell
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Set-Acl "C:\Important\Directory" $acl
 - نشر شاشات الملفات لمنع أنواع الملفات غير المصرح بها
 
 ______
+
+## ملاحظات حول مسارات Windows الحالية
+
+تحتفظ Windows بالمجلدات الرئيسية نفسها عبر إصدارات سطح المكتب المدعومة، لكن بعض المسارات تتطلب عناية:
+
+| المسار | الدور الحالي | التعامل الآمن |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | ملفات النظام الثنائية والمكتبات الأصلية للبنية المثبتة. في Windows ذي 64 بت، تستخدم العمليات ذات 32 بت طبقة Windows-on-Windows عبر **`SysWOW64`**. | لا تستبدل الملفات يدويًا. استخدم Windows Update أو DISM أو برنامج التثبيت المقدم من البائع. |
+| **`C:\Windows\WinSxS`** | مخزن المكونات المستخدم للصيانة والاسترداد. تجعل الروابط الثابتة تقديرات الحجم في مستكشف الملفات مضللة. | استخدم تحليل مخزن المكونات والتنظيف عبر DISM. لا تحذف الملفات من المجلد. |
+| **`C:\Users\<name>\AppData`** | حالة التطبيقات الخاصة بكل مستخدم. تلبي `Local` و`LocalLow` و`Roaming` احتياجات مختلفة للتطبيقات وملفات التعريف. | انسخ بيانات التطبيقات احتياطيًا قبل مسح ذاكرات التخزين المؤقت. لا تفترض أن كل مجلد قابل للحذف. |
+| **تخزين توزيعة WSL 2** | تستخدم التوزيعة قرصًا افتراضيًا `ext4.vhdx` داخل مجلد `LocalState` للحزمة. | صدّر التوزيعة أو أوقف تشغيلها قبل صيانة القرص. لا تعدّل القرص الافتراضي كمجلد عادي. |
+
+يظل المخطط والأمثلة الأقدم مفيدة كخريطة. توضح Microsoft مسار القرص الافتراضي لـ WSL 2 وتشرح سبب تخزين التوزيعة في قرص افتراضي بدلًا من ملفات Windows العادية. يختلف اسم الحزمة الدقيق حسب التوزيعة وطريقة التثبيت. راجع [إرشادات Microsoft حول مساحة قرص WSL](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+أنهت Microsoft دعم Windows 10 الإصدار 22H2 في 14 أكتوبر 2025، باستثناء الإصدارات ذات شروط دورة حياة منفصلة أو ترتيب مؤهل لتحديثات الأمان الموسعة. تعامل مع Windows 10 في عام 2026 كحالة ترحيل أو إدارة استثناء. راجع [إشعار Microsoft بشأن دورة حياة Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+نطاقات الأحجام ونسب التبني في الأقسام الأصلية أرقام توضيحية وليست قياسات من هذا الموقع. يعتمد حجم الدليل على البرامج المثبتة وسجل التحديثات ومحتوى ملف التعريف وسياسات الاحتفاظ. افحص النظام المحلي قبل حذف أي شيء.
+
+## قائمة التحقق من صيانة الدليل بأمان
+
+1. سجّل المسار والمالك وقائمة التحكم بالوصول والغرض التجاري قبل تغيير دليل محمي.
+2. أنشئ نسخة احتياطية قابلة للاستعادة أو تحقق منها قبل حذف بيانات التطبيقات أو تغيير الأذونات.
+3. فضّل الأدوات المدعومة مثل **Storage Sense** و**DISM** و**`robocopy`** وبرامج إلغاء تثبيت التطبيقات.
+4. اختبر التغييرات باستخدام حساب مستخدم عادي عندما لا تتطلب المهمة صلاحيات مرتفعة.
+5. راجع عارض الأحداث وسجلات التطبيقات بعد الصيانة.
+6. احتفظ بسجل للتراجع يتضمن المسار الأصلي والأمر والوقت والنتيجة.
+
+**لا تستخدم `/MIR` مع وجهة لم تراجعها.** يحذف `robocopy /MIR` ملفات الوجهة غير الموجودة في المصدر.
+
 
 ## الخاتمة
 

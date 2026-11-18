@@ -1,7 +1,7 @@
 ---
 title: "২০২৬ সালের সেরা AI এজেন্ট হারনেস: কাজের ধরন অনুযায়ী বেছে নিন"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "টুল এক্সিকিউশন, মেমরি, পুনরুদ্ধার এবং ইন্টিগ্রেশন প্রচেষ্টার ভিত্তিতে Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi এবং LangGraph তুলনা করুন।"
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "অন্ধকার কাজের পৃষ্ঠে টিল ও কমলা পথ দিয়ে একটি উজ্জ্বল কেন্দ্রীয় প্রসেসরের সঙ্গে যুক্ত মডিউলার ধাতব উপাদান"
 coverCaption: "একটি AI মডেলকে ঘিরে থাকা উপাদানগুলোর ধারণাগত চিত্র।"
 ---
-
 **কনফিগারযোগ্য মডেল ও বিল্ট-ইন কনটেক্সট ম্যানেজমেন্টসহ সাধারণ কাজের এজেন্টের জন্য Deep Agents আমার প্রথম পছন্দ।** Claude Code-এর এক্সিকিউশন আচরণ অ্যাপ্লিকেশনে বসাতে Claude Agent SDK উপযুক্ত। অ্যাপ্লিকেশন-নির্দিষ্ট এজেন্টের জন্য OpenAI Agents SDK এবং Pydantic AI পরীক্ষা করা উচিত। Pi একটি ছোট এক্সটেনসিবল কোরকে অগ্রাধিকার দেয়, আর LangGraph স্পষ্ট ওয়ার্কফ্লো নিয়ন্ত্রণকে অগ্রাধিকার দেয়।
 
 **সেরা পছন্দ নির্ভর করে আপনি কোন কাজ গ্রহণ করবেন তার ওপর।** গবেষণা সহকারী, রিপোজিটরি এডিটর এবং গ্রাহকের অনুরোধ প্রক্রিয়াকরণকারী সার্ভিসের জন্য আলাদা টুল ও পুনরুদ্ধার নিয়ম লাগে। এগুলো ১০ অক্টোবর ২০২৬ তারিখে পরীক্ষা করা অফিসিয়াল ডকুমেন্টেশনভিত্তিক সম্পাদকীয় মতামত, হাতে-কলমে পারফরম্যান্স বেঞ্চমার্কের ফল নয়।
@@ -41,7 +40,7 @@ coverCaption: "একটি AI মডেলকে ঘিরে থাকা উ�
 
 একটি **উদাহরণভিত্তিক সাপোর্ট এজেন্ট** একটি অর্ডার পরীক্ষা করে প্রতিস্থাপন অনুরোধ তৈরি করবে। অর্ডার পড়া, প্রতিস্থাপনের প্রস্তাব এবং তা জমা দেওয়ার আলাদা ক্ষমতা থাকা উচিত। বিশ্বাসযোগ্য ব্যাখ্যা জমা দেওয়ার অনুমতি প্রমাণ করে না, আর সংরক্ষিত ট্রান্সক্রিপ্টও জমা দেওয়া হয়েছে কি না প্রমাণ করে না।
 
-**পরিধি:** এই গাইড embed করা যায় এমন সফটওয়্যার ও রানটাইম পছন্দ তুলনা করে। প্রতিদিনের ডেভেলপার ইন্টারফেসের জন্য আলাদা [CLI coding-agent comparison](/articles/cli-coding-agents-comparison/) অথবা [GUI coding-agent comparison](/articles/gui-coding-agents-comparison/) ব্যবহার করুন। SDK তুলনা যেন নীরবে টার্মিনাল টুল ও এডিটর এক্সটেনশনের র‍্যাঙ্কিংয়ে পরিণত না হয়।
+**পরিধি:** এই গাইড embed করা যায় এমন সফটওয়্যার ও রানটাইম পছন্দ তুলনা করে। প্রতিদিনের ডেভেলপার ইন্টারফেসের জন্য আলাদা [CLI কোডিং-এজেন্টের তুলনা](/articles/cli-coding-agents-comparison/) অথবা [GUI কোডিং-এজেন্টের তুলনা](/articles/gui-coding-agents-comparison/) ব্যবহার করুন। SDK তুলনা যেন নীরবে টার্মিনাল টুল ও এডিটর এক্সটেনশনের র‍্যাঙ্কিংয়ে পরিণত না হয়।
 
 ## ব্যবহারিক সংক্ষিপ্ত তালিকা
 
@@ -58,9 +57,9 @@ coverCaption: "একটি AI মডেলকে ঘিরে থাকা উ�
 
 **Acceptance test পূরণ করা সবচেয়ে ছোট layer দিয়ে শুরু করুন।** সীমিত tool call-এর জন্য typed application framework, উন্মুক্ত file বা research কাজের জন্য assembled agent এবং recovery ও transition-এর named state দরকার হলে explicit graph ব্যবহার করুন। সহজ layer কেন ব্যর্থ হয় তা test দেখানোর পর memory, shell access বা subagent যোগ করুন।
 
-## Deep Agents: assembled capability
+## Deep Agents: সমন্বিত সক্ষমতা
 
-**ফাইল, টুল এবং দীর্ঘ কথোপকথনে কাজ করা এজেন্টের জন্য আগে Deep Agents বেছে নিন।** এর [official overview](https://docs.langchain.com/oss/python/deepagents/overview) filesystem backend, context offloading, summarization, subagent এবং human approval নথিবদ্ধ করে। এটি LangChain এবং LangGraph runtime-এর ওপর তৈরি, আর একাধিক model provider-এর integration দেয়।
+**ফাইল, টুল এবং দীর্ঘ কথোপকথনে কাজ করা এজেন্টের জন্য আগে Deep Agents বেছে নিন।** এর [আনুষ্ঠানিক পরিচিতি](https://docs.langchain.com/oss/python/deepagents/overview) filesystem backend, context offloading, summarization, subagent এবং human approval নথিবদ্ধ করে। এটি LangChain এবং LangGraph runtime-এর ওপর তৈরি, আর একাধিক model provider-এর integration দেয়।
 
 **Configuration এখনও আচরণ নির্ধারণ করে।** বর্তমান documentation অনুযায়ী version 0.7 থেকে task planning opt-in। পুরনো release-এর tutorial বর্তমান default বর্ণনা করে ধরে নেবেন না। Evaluation-এ package version ও enabled middleware লিখে রাখুন।
 
@@ -68,13 +67,13 @@ coverCaption: "একটি AI মডেলকে ঘিরে থাকা উ�
 
 **আমার সুপারিশ:** provider choice ও assembled capability দরকার হলে document-analysis বা repository-work service-এর shortlist-এ রাখুন। কাজ যদি দুটি নির্দিষ্ট API call ও validated response-এ সীমিত থাকে, ছোট starting point নিন। অতিরিক্ত tool মূল্যায়নের জন্য অতিরিক্ত behavior আনে।
 
-## Claude: embedded execution
+## Claude: অন্তর্নির্মিত কার্যসম্পাদন
 
-**আপনার application-এর ভেতরে Claude Code-এর agent চাইলে Claude Agent SDK বেছে নিন।** Anthropic-এর বর্ণনা অনুযায়ী Python ও TypeScript library-টি Claude Code-এর একই execution loop, tool এবং context management ব্যবহার করে। SDK আপনার পরিচালিত একটি process-এ Claude Code binary চালায়। এটি Anthropic-এর basic API client এবং hosted Managed Agents থেকে আলাদা। [Agent SDK overview](https://code.claude.com/docs/en/agent-sdk/overview)।
+**আপনার application-এর ভেতরে Claude Code-এর agent চাইলে Claude Agent SDK বেছে নিন।** Anthropic-এর বর্ণনা অনুযায়ী Python ও TypeScript library-টি Claude Code-এর একই execution loop, tool এবং context management ব্যবহার করে। SDK আপনার পরিচালিত একটি process-এ Claude Code binary চালায়। এটি Anthropic-এর basic API client এবং hosted Managed Agents থেকে আলাদা। [Agent SDK পরিচিতি](https://code.claude.com/docs/en/agent-sdk/overview)।
 
 **মূল আকর্ষণ হলো বিদ্যমান execution system পুনরায় ব্যবহার।** File operation, command, hook, permission, session ও subagent documented capability হিসেবে আসে। আপনার integration application boundary এবং task-specific acceptance check দেয়।
 
-**Hosting একটি engineering decision।** Anthropic-এর [deployment guidance](https://code.claude.com/docs/en/agent-sdk/secure-deployment) filesystem control, network restriction এবং isolation নিয়ে আলোচনা করে। Permission prompt-কে operating-system boundary না ভেবে process-এর চারপাশে এগুলো configure করুন।
+**Hosting একটি engineering decision।** Anthropic-এর [ডিপ্লয়মেন্ট নির্দেশিকা](https://code.claude.com/docs/en/agent-sdk/secure-deployment) filesystem control, network restriction এবং isolation নিয়ে আলোচনা করে। Permission prompt-কে operating-system boundary না ভেবে process-এর চারপাশে এগুলো configure করুন।
 
 **আমার সুপারিশ:** Claude-কেন্দ্রিক document বা coding automation-এ file ও command কাজ বেশি হলে এটি মূল্যায়ন করুন। Local model এবং একাধিক hosted provider তুলনা product requirement হলে provider-flexible alternative বেছে নিন।
 
@@ -83,49 +82,49 @@ coverCaption: "একটি AI মডেলকে ঘিরে থাকা উ�
 | **Deep Agents** | model selection, middleware ও backend configuration |
 | **Claude Agent SDK** | application process-এর মধ্যে Claude Code execution |
 
-## OpenAI: application tool workflow
+## OpenAI: অ্যাপ্লিকেশনের টুল-ভিত্তিক কর্মপ্রবাহ
 
-**Function, delegated task ও explicit output-কেন্দ্রিক application-এর জন্য OpenAI Agents SDK বেছে নিন।** এর [overview](https://openai.github.io/openai-agents-python/) agent loop, handoff, guardrail, tracing ও sandbox-agent capability নথিবদ্ধ করে। SDK builder interface, Codex developer application নয়।
+**Function, delegated task ও explicit output-কেন্দ্রিক application-এর জন্য OpenAI Agents SDK বেছে নিন।** এর [পরিচিতি](https://openai.github.io/openai-agents-python/) agent loop, handoff, guardrail, tracing ও sandbox-agent capability নথিবদ্ধ করে। SDK builder interface, Codex developer application নয়।
 
-**Approval configurable behavior।** [Human-in-the-loop guide](https://openai.github.io/openai-agents-python/human_in_the_loop/) decision-এর পর interrupted run এবং resume করার serialized state বর্ণনা করে। Local shell ও patch tool-এর approval opt-in। শুধু approval callback যোগ করলে approval requirement সক্রিয় হয় না।
+**Approval configurable behavior।** [মানব-তত্ত্বাবধান নির্দেশিকা](https://openai.github.io/openai-agents-python/human_in_the_loop/) decision-এর পর interrupted run এবং resume করার serialized state বর্ণনা করে। Local shell ও patch tool-এর approval opt-in। শুধু approval callback যোগ করলে approval requirement সক্রিয় হয় না।
 
-**Model support OpenAI-এর বাইরেও যায়।** [Provider documentation](https://openai.github.io/openai-agents-python/models/) external-provider integration point ও adapter বর্ণনা করে। Selected endpoint-এর structured output, tool calling ও transport support যাচাই করুন। Feature parity ধরে নেবেন না।
+**Model support OpenAI-এর বাইরেও যায়।** [প্রোভাইডার-সংক্রান্ত নথি](https://openai.github.io/openai-agents-python/models/) external-provider integration point ও adapter বর্ণনা করে। Selected endpoint-এর structured output, tool calling ও transport support যাচাই করুন। Feature parity ধরে নেবেন না।
 
 **আমার সুপারিশ:** কার্যকর action-গুলো well-defined application function হিসেবে আগে থেকেই থাকলে service-এর shortlist-এ রাখুন। যেমন order আনুন, ordinary code-এ eligibility হিসাব করুন এবং structured request প্রস্তুত করুন। Model পরের tool বেছে নিলেও authorization ও eligibility check application-এ রাখুন।
 
-## Pydantic AI: typed application
+## Pydantic AI: টাইপ-নির্ধারিত অ্যাপ্লিকেশন
 
-**Python type এবং validated output application-এর কেন্দ্রে থাকলে Pydantic AI বেছে নিন।** এর [core documentation](https://pydantic.dev/docs/ai/overview/) typed tool, dependency injection, structured output ও durable-execution integration কভার করে। Validation output-এর required structure নিশ্চিত করে। প্রতিটি field সত্য কি না তা নিশ্চিত করে না।
+**Python type এবং validated output application-এর কেন্দ্রে থাকলে Pydantic AI বেছে নিন।** এর [মূল নথি](https://pydantic.dev/docs/ai/overview/) typed tool, dependency injection, structured output ও durable-execution integration কভার করে। Validation output-এর required structure নিশ্চিত করে। প্রতিটি field সত্য কি না তা নিশ্চিত করে না।
 
-**আলাদা Harness package assembled capability যোগ করে।** এর [documentation](https://pydantic.dev/docs/ai/harness/) Coder ও Researcher stack, filesystem ও shell access, memory এবং workspace integration অন্তর্ভুক্ত করে। Local workspace এবং isolated sandbox আলাদা execution choice। Relevant harness capability workspace চায়, নীরবে একটি workspace নির্বাচন করে না।
+**আলাদা Harness package assembled capability যোগ করে।** এর [ডকুমেন্টেশন](https://pydantic.dev/docs/ai/harness/) Coder ও Researcher stack, filesystem ও shell access, memory এবং workspace integration অন্তর্ভুক্ত করে। Local workspace এবং isolated sandbox আলাদা execution choice। Relevant harness capability workspace চায়, নীরবে একটি workspace নির্বাচন করে না।
 
 **আমার সুপারিশ:** typed record ফেরত দেওয়া Python service-এর জন্য core framework shortlist করুন। Task-এর workspace exploration বা open-ended research দরকার হলে harness capability যোগ করুন। এতে bounded extraction service নির্দিষ্ট প্রয়োজন ছাড়া shell access পাবে না।
 
 একটি **উদাহরণ invoice-review agent**-এর জন্য schema validation দেখে total numeric কি না এবং currency অনুমোদিত set-এ আছে কি না। আলাদা application logic total-কে line item-এর সঙ্গে তুলনা করে এবং source evidence যাচাই করে। Trial-এ দুটো check-ই রাখুন।
 
-| Application concern | Acceptance check |
+| অ্যাপ্লিকেশন-সংক্রান্ত বিষয় | গ্রহণযোগ্যতার যাচাই |
 |---|---|
-| **Structured output** | field validate করুন এবং meaning স্বাধীনভাবে যাচাই করুন |
+| **গঠিত আউটপুট** | field validate করুন এবং meaning স্বাধীনভাবে যাচাই করুন |
 | **Approval pause** | exact pending action ও decision persist করুন |
 | **Provider change** | tool-call ও output compatibility test পুনরায় চালান |
 
-## Pi: ছোট extensible core
+## Pi: ছোট ও সম্প্রসারণযোগ্য মূল কাঠামো
 
-**Compact coding-agent implementation-এ সরাসরি নিয়ন্ত্রণ চাইলে Pi SDK বেছে নিন।** [Project documentation](https://github.com/earendil-works/pi/tree/main/packages/coding-agent) interactive interface-এর পাশাপাশি SDK ও RPC integration বর্ণনা করে। Default tool set reading, writing, editing এবং shell execution নিয়ে গঠিত। Extension অতিরিক্ত behavior দেয়।
+**Compact coding-agent implementation-এ সরাসরি নিয়ন্ত্রণ চাইলে Pi SDK বেছে নিন।** [প্রকল্পের ডকুমেন্টেশন](https://github.com/earendil-works/pi/tree/main/packages/coding-agent) interactive interface-এর পাশাপাশি SDK ও RPC integration বর্ণনা করে। Default tool set reading, writing, editing এবং shell execution নিয়ে গঠিত। Extension অতিরিক্ত behavior দেয়।
 
 **Minimalism integrator-এর কাজ বাড়ায়।** Pi ইচ্ছাকৃতভাবে built-in permission popup ও subagent orchestration বাদ দেয়। Confirmation flow-এর জন্য documentation container বা custom extension ব্যবহারের নির্দেশ দেয়। এখানে embedded SDK মূল্যায়ন করুন, অন্য vendor-এর graphical editor-এর সঙ্গে terminal interface তুলনা করবেন না।
 
 **আমার সুপারিশ:** bespoke coding service-এ execution restriction, extension review ও recovery policy নিজের দায়িত্বে নিতে প্রস্তুত থাকলে Pi shortlist করুন। ছোট core behavior বোঝা ও বদলানোর জন্য সুবিধাজনক। Built-in approval ও orchestration system প্রধান প্রয়োজন হলে এটি কম উপযুক্ত starting point।
 
-## LangGraph: explicit workflow control
+## LangGraph: স্পষ্ট কর্মপ্রবাহ নিয়ন্ত্রণ
 
-**Workflow-এর explicit state ও transition দরকার হলে LangGraph বেছে নিন।** [Persistence documentation](https://docs.langchain.com/oss/python/langgraph/persistence) thread-scoped checkpoint ও cross-thread store আলাদা করে। Persistent checkpointer process restart-এর পর recovery সমর্থন করে। In-memory checkpointer করে না।
+**Workflow-এর explicit state ও transition দরকার হলে LangGraph বেছে নিন।** [স্থায়িত্ব-সংক্রান্ত ডকুমেন্টেশন](https://docs.langchain.com/oss/python/langgraph/persistence) thread-scoped checkpoint ও cross-thread store আলাদা করে। Persistent checkpointer process restart-এর পর recovery সমর্থন করে। In-memory checkpointer করে না।
 
 **LangGraph একটি runtime foundation।** আপনি workflow সংজ্ঞায়িত করেন এবং model-driven behavior কোথায় থাকবে ঠিক করেন। Deep Agents এই foundation ব্যবহার করে, তাই execution path-এ সরাসরি নিয়ন্ত্রণ বেশি দরকার হলে LangGraph-এ নামা যুক্তিসঙ্গত।
 
 **আমার সুপারিশ:** named stage, review pause এবং পৃথক recovery rule থাকা process-এর জন্য shortlist করুন। একটি document-intake workflow field extract, validate, review request এবং approved record publish করতে পারে। Model content বেছে নেবে কিন্তু business process বানাবে না, এমন অবস্থায় fixed transition উপযোগী।
 
-| Workflow stage | Completion evidence |
+| কর্মপ্রবাহের ধাপ | সমাপ্তির প্রমাণ |
 |---|---|
 | **Extract** | source-linked candidate record |
 | **Validate** | deterministic check ও exception |
@@ -138,18 +137,18 @@ coverCaption: "একটি AI মডেলকে ঘিরে থাকা উ�
 
 **Feature list কেবল শুরু।** আপনার workload-এর মতো failure-এর মধ্য দিয়ে প্রতিটি candidate চালান। Disposable workspace ব্যবহার করুন এবং synthetic record দিয়ে service পরীক্ষা করুন।
 
-| Test | যে evidence রাখবেন |
+| পরীক্ষা | যে evidence রাখবেন |
 |---|---|
 | **Interrupted submission** | recovery-এর পর একটি external effect |
 | **Long conversation** | original requirement এখনও পূরণ |
-| **Rejected action** | alternate tool দিয়ে কোনও effect নয় |
+| **প্রত্যাখ্যাত পদক্ষেপ** | alternate tool দিয়ে কোনও effect নয় |
 | **Untrusted document instruction** | document text authority পায় না |
 | **Malformed tool arguments** | application mutation-এর আগে rejection |
 | **Budget exhaustion** | inspectable partial work-সহ bounded stop |
 
 **Repetition স্পষ্টভাবে নির্ধারণ করুন।** Replacement-request service-এ test service request accept করার পর, local completion save হওয়ার আগে worker থামান। Restart-এর পর workflow operation identifier খুঁজবে, অন্ধভাবে আবার submit করবে না। এটি proposed test, তালিকাভুক্ত product-এর observed result নয়।
 
-**Compaction-এর পর evidence পরীক্ষা করুন।** Task-এর শুরুতে গুরুত্বপূর্ণ requirement রাখুন, তারপর configured context strategy সক্রিয় করার মতো বাস্তব উপাদান দিন। Agent-কে final artifact ও supporting source reference দিতে বলুন। [CLM and agent-memory analysis](/articles/context-language-models-agent-memory-hallucinations/) ব্যাখ্যা করে কেন note রাখা আর accurate evidence রাখা আলাদা বিষয়।
+**Compaction-এর পর evidence পরীক্ষা করুন।** Task-এর শুরুতে গুরুত্বপূর্ণ requirement রাখুন, তারপর configured context strategy সক্রিয় করার মতো বাস্তব উপাদান দিন। Agent-কে final artifact ও supporting source reference দিতে বলুন। [Meta-র Context Language Models: এজেন্টের উন্নত স্মৃতি, হ্যালুসিনেশনের অবসান নয়](/articles/context-language-models-agent-memory-hallucinations/) ব্যাখ্যা করে কেন note রাখা আর accurate evidence রাখা আলাদা বিষয়।
 
 **Telemetry destination review করুন।** Tool trace ও memory store-এ task data থাকতে পারে। কোন system তা পায় এবং কতদিন রাখে লিখে রাখুন। Local model inference মানেই local-only logging, retrieval বা execution নয়।
 
@@ -160,7 +159,7 @@ coverCaption: "একটি AI মডেলকে ঘিরে থাকা উ�
 **Controlled track-এ unsupported configuration জোর করে দেবেন না।** দুই candidate-এর common model বা tool interface না থাকলে comparison-কে system evaluation হিসেবে report করুন। Setup effort ও human steering record-এ রাখুন।
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# উদাহরণমূলক পরীক্ষার রেকর্ড, কোনো ফ্রেমওয়ার্ক কনফিগারেশন ফাইল নয়
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"
@@ -193,8 +192,7 @@ record:
 
 **আপনার requirements পূরণ করা সবচেয়ে ছোট system নির্বাচন করুন।** Trial fixture, package version ও failure record রাখুন। Model, context strategy, tool বা execution backend বদলালে আবার চালান। এই পরিবর্তনগুলো evaluated system বদলে দেয়।
 
-## References
-
+## তথ্যসূত্র
 - [LangChain: Deep Agents overview](https://docs.langchain.com/oss/python/deepagents/overview)
 - [Anthropic: Claude Agent SDK overview](https://code.claude.com/docs/en/agent-sdk/overview)
 - [Anthropic: Secure deployment](https://code.claude.com/docs/en/agent-sdk/secure-deployment)

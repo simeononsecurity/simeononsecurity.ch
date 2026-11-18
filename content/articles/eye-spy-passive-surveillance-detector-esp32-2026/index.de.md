@@ -1,7 +1,7 @@
 ---
 title: "Eye Spy: Passiver ESP32-Detektor für Überwachung und Tracker"
 date: 2026-06-07
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Eine vollständige technische Referenz für Eye Spy v1.1 - ein Open-Source-passiver BLE- und WiFi-Überwachungsdetektor, der auf dem M5Stack Atom Lite (ESP32-PICO-D4) läuft und nach Bodycams, ALPR-Systemen, AirTags, Drohnen und versteckten Kameras mit einem Konfidenz-Score-Bedrohungsmodell und einer einzigen RGB-LED sucht."
@@ -100,7 +100,7 @@ Geräte schwächer als **−90 dBm** werden ignoriert, um Fehlalarme in dichten 
 
 #### BLE-Erkennungstabelle
 
-| # | Ziel | Erkennungsmethode | Score |
+| # | Ziel | Erkennungsmethode | Punktwert |
 |---|------|------------------|-------|
 | 1 | **Axon Bodycam** | BLE MAC OUI `00:25:df` (Axon - Bodycams, Taser, LE-Ausrüstung) | +5 🔴 |
 | 2 | **Ray-Ban Meta Smart Glasses** | BLE-Dienst-UUID `0xFD5F` | +5 🔴 |
@@ -122,7 +122,7 @@ Der WiFi-Scan-Motor verwendet die Standard-AP-Scanning-Schnittstelle des ESP32, 
 
 #### WiFi-Scan-Erkennungstabelle
 
-| # | Ziel | Erkennungsmethode | Score |
+| # | Ziel | Erkennungsmethode | Punktwert |
 |---|------|------------------|-------|
 | 12 | **Flock Safety Kamera (OUI)** | BSSID stimmt mit 22-Eintrags-Flock Safety OUI-Tabelle überein | +5 🔴 |
 | 13 | **ALPR / LPR Kamera (OUI)** | BSSID stimmt mit Motorola Solutions / Vigilant Solutions OUI `00:0e:58` überein | +5 🔴 |
@@ -139,7 +139,7 @@ Der Promiscuous-Motor versetzt das ESP32-Radio in den **Monitor-Modus** und erfa
 
 #### Promiscuous-Erkennungstabelle
 
-| # | Ziel | Erkennungsmethode | Score |
+| # | Ziel | Erkennungsmethode | Punktwert |
 |---|------|------------------|-------|
 | 18 | **Drohne (OpenDroneID WiFi NaN)** | 802.11-Management-Frame an Ziel `51:6f:9a:01:00:00` - ASTM F3411 Remote ID Broadcast | +4 🔴 |
 

@@ -1,7 +1,7 @@
 ---
 title: "Die besten KI-Agent-Harnesses 2026: Nach Workflow auswählen"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Vergleiche Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi und LangGraph nach Tool-Ausführung, Speicher, Wiederherstellung und Integrationsaufwand."
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Modulare Metallkomponenten, die über türkisfarbene und orangefarbene Pfade mit einem leuchtenden zentralen Prozessor auf einer dunklen Arbeitsfläche verbunden sind"
 coverCaption: "Konzeptionelle Darstellung der Komponenten rund um ein KI-Modell."
 ---
-
 **Deep Agents steht bei mir an erster Stelle für einen allgemeinen Agenten mit konfigurierbaren Modellen und integrierter Kontextverwaltung.** Claude Agent SDK eignet sich gut, um das Ausführungsverhalten von Claude Code einzubetten. OpenAI Agents SDK und Pydantic AI verdienen einen Test für anwendungsspezifische Agenten. Pi setzt auf einen kleinen, erweiterbaren Kern, während LangGraph die explizite Workflow-Steuerung bevorzugt.
 
 **Die beste Wahl hängt von der Arbeit ab, die du annehmen willst.** Ein Rechercheassistent, ein Repository-Editor und ein Dienst für Kundenanfragen brauchen unterschiedliche Tools und Wiederherstellungsregeln. Diese Empfehlungen sind redaktionelle Einschätzungen auf Grundlage offizieller Dokumentation, geprüft am **10. Oktober 2026**, und keine Ergebnisse eines praktischen Leistungstests.
@@ -138,7 +137,7 @@ Bei einem **beispielhaften Rechnungsprüfungs-Agenten** prüft die Schema-Validi
 
 **Eine Feature-Liste ist nur der Anfang.** Führe jeden Kandidaten durch Fehler, die deiner Arbeit ähneln. Nutze einen verworfenen Arbeitsbereich und teste Dienste mit synthetischen Datensätzen.
 
-| Test | Beleg, der erhalten bleiben soll |
+| Prüfung | Beleg, der erhalten bleiben soll |
 |---|---|
 | **Unterbrochene Übermittlung** | Eine externe Auswirkung nach der Wiederherstellung |
 | **Langes Gespräch** | Ursprüngliche Anforderungen weiterhin erfüllt |
@@ -160,7 +159,7 @@ Bei einem **beispielhaften Rechnungsprüfungs-Agenten** prüft die Schema-Validi
 **Erzwinge nicht unterstützte Konfigurationen nicht im kontrollierten Weg.** Wenn zwei Kandidaten kein gemeinsames Modell oder keine gemeinsame Tool-Schnittstelle haben, melde den Vergleich als Systembewertung. Halte Einrichtungsaufwand und menschliche Steuerung fest.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Veranschaulichender Testdatensatz, keine Framework-Konfigurationsdatei
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

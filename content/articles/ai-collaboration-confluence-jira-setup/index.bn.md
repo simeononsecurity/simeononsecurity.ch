@@ -1,7 +1,7 @@
 ---
 title: "Confluence ও Jira-তে AI সেটআপ: অনুমতি ও কর্তৃত্ব"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "পর্যালোচিত দলগত সহযোগিতার জন্য Confluence-এর কর্তৃত্বপূর্ণ পৃষ্ঠা এবং কোম্পানি-পরিচালিত Jira অনুমতি কনফিগার করুন।"
@@ -53,15 +53,15 @@ coverCaption: ""
 5. প্রতিটি কর্তৃত্বপূর্ণ পৃষ্ঠায় **Share খুলুন।** উপযুক্ত স্পেস সদস্যদের সাধারণ অ্যাক্সেস শুধু-পড়া রাখুন এবং নির্ধারিত মালিক বা প্রকাশকদের নির্দিষ্ট সম্পাদনার অনুমতি দিন। সংরক্ষণ করে অবদানকারী ব্যবহারকারী দিয়ে যাচাই করুন।
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+উৎস আইডি: REQ-17
+মালিকের ভূমিকা: product-owner
+অবস্থা: অনুমোদিত ভিত্তি
+পরিধি: শুধু কৃত্রিম রপ্তানি ফাইল
+সংরক্ষণকাল: ৭ দিন
+সরবরাহের অবস্থা: ল্যাবের মৌলিক কনফিগারেশন
+ব্যতিক্রম: উৎপাদন ডেটা, ব্যাকআপ এবং আইনি সংরক্ষণ বাদ
+অনুমোদনের প্রমাণ: DEC-12 ভিত্তি পর্যালোচনা
+বাস্তবায়নের রেফারেন্স: সুরক্ষিত GitHub ভিত্তি কমিট সংযুক্ত করুন
 ```
 
 **প্রতিটি কর্তৃত্বপূর্ণ পৃষ্ঠায় সীমাবদ্ধতা দিন।** অভিভাবক পৃষ্ঠার সম্পাদনা সীমাবদ্ধতা তার অধীনস্থ পৃষ্ঠাগুলোও রক্ষা করে ধরে নেবেন না। পড়া ও সম্পাদনার অনুমতি ভিন্নভাবে উত্তরাধিকার পায়, আর স্পেসের অনুমতিও প্রযোজ্য থাকে। শুধু লিংক দিলেই অ্যাক্সেস মেলে না। শুধু-পড়ার কথা এমন ব্যবহারকারী সম্পাদনা করতে পারলে সব সদস্যপদ পরীক্ষা করুন।
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **অন্য দুটি পৃষ্ঠার জন্য এই প্রাথমিক লেখা ব্যবহার করুন।** কোনো রেকর্ড অনুমোদিত করার আগে অস্থায়ী পর্যালোচনা ক্ষেত্রগুলো স্যান্ডবক্সের প্রকৃত প্রমাণ দিয়ে বদলান।
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+উৎস আইডি: RUN-04
+মালিকের ভূমিকা: operations-owner
+অবস্থা: অনুমোদিত ভিত্তি
+পরিধি: শুধু কৃত্রিম রপ্তানি ফাইল
+কনফিগার করা সংরক্ষণকাল: ৭ দিন
+পদ্ধতি: পর্যালোচিত পরিবর্তনের আগে REQ-17 এবং config.json তুলনা করুন
+চালনার সীমা: এই ল্যাবে মুছে ফেলার কাজ নেই এবং মুছে ফেলার প্রমাণ তৈরি হয় না
+পুনরুদ্ধার: পর্যালোচনার পর আগের অনুমোদিত কনফিগারেশন ফিরিয়ে আনুন
+পুনরুদ্ধারের সীমা: কনফিগারেশন ফিরিয়ে আনলে মুছে যাওয়া ফাইল ফিরে আসে না
+পর্যালোচনার প্রমাণ: প্রকৃত পর্যালোচক, পৃষ্ঠার সংস্করণ এবং সিদ্ধান্তের রেফারেন্স যোগ করুন
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+পৃষ্ঠা: সিদ্ধান্ত নিবন্ধন
+এন্ট্রি আইডি: DEC-12
+সিদ্ধান্ত: কৃত্রিম ভিত্তি হিসেবে সাত দিন ব্যবহার করুন
+পরিধি: শুধু export-service-lab
+প্রয়োজন: প্রকাশের পর REQ-17 পৃষ্ঠার সংস্করণ নথিভুক্ত করুন
+রানবুক: প্রকাশের পর RUN-04 পৃষ্ঠার সংস্করণ নথিভুক্ত করুন
+নীতি: পর্যালোচনার পর POL-01-এর সুরক্ষিত GitHub রিভিশন নথিভুক্ত করুন
+পণ্য পর্যালোচনা: নির্দিষ্ট মালিকের সিদ্ধান্ত নথিভুক্ত হওয়া পর্যন্ত অপেক্ষমাণ
+অপারেশন পর্যালোচনা: নির্দিষ্ট মালিকের সিদ্ধান্ত নথিভুক্ত হওয়া পর্যন্ত অপেক্ষমাণ
+অবস্থা: খসড়া উদাহরণ, পর্যবেক্ষিত পর্যালোচনার প্রমাণ দিয়ে বদলান
 ```
 
 ## ম্যাপ হালনাগাদ করুন
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **এই খসড়াটি PROP-042-এ পেস্ট করুন।** Jira আইটেম সরবরাহের অগ্রগতি রাখে। এর লেখা Confluence-এর অনুমোদিত ভাষার বিকল্প নয়।
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+প্রস্তাব আইডি: PROP-042
+অবস্থা: খসড়া
+বর্তমান অনুমোদিত মান: ৭ দিন, REQ-17 পৃষ্ঠার সংস্করণ নথিভুক্ত করুন
+প্রস্তাবিত মান: কৃত্রিম রপ্তানি ফাইলের জন্য ৩০ দিন
+বাদ: উৎপাদন ডেটা, ব্যাকআপ এবং আইনি সংরক্ষণ
+প্রভাবিত রেকর্ড: REQ-17, RUN-04, config.json, proposal.json
+স্থায়ী প্রস্তাব সংযুক্তি: অপেক্ষমাণ
+পণ্য-মালিকের পর্যালোচনা: অপেক্ষমাণ
+অপারেশন-মালিকের পর্যালোচনা: অপেক্ষমাণ
+প্রকাশনা রেজিস্টার: অপেক্ষমাণ
+উৎস সংস্করণ বদলালে, পর্যালোচনা না থাকলে বা প্রবেশাধিকার অস্বীকার হলে থামুন
 ```
 
 | ভূমিকা | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **পড়া, খসড়া তৈরি ও প্রকাশ আলাদা রাখুন।** সিন্থেটিক প্রয়োজনীয়তা বুঝে প্রস্তাব জমা দেওয়ার মতো অ্যাক্সেস অবদানকারীর দরকার। কর্তৃত্বপূর্ণ পৃষ্ঠা সম্পাদনা বা নিজের প্রস্তাব অনুমোদন করার অনুমতি তার দরকার নেই।
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+পরীক্ষার রেকর্ড: PERM-REQ-EDIT
+ভূমিকা: অবদানকারী
+উৎস: REQ-17
+পূর্বশর্ত: উৎস পড়া যায় এবং প্রকাশিত রিভিশন নথিভুক্ত হয়েছে
+চেষ্টা: কর্তৃত্বপূর্ণ প্রয়োজনীয়তা সম্পাদনা
+প্রত্যাশিত: সম্পাদনা অস্বীকৃত, প্রকাশিত রিভিশন অপরিবর্তিত
+পর্যবেক্ষিত: স্যান্ডবক্স থেকে পূরণ করুন
+প্রমাণ: নেটিভ ফলাফল এবং স্বাধীনভাবে রিভিশন পুনরায় পড়া
+পর্যালোচক: প্রশাসক অথবা স্বাধীন অনুমতি পর্যালোচক
 ```
 
 **পড়তে অস্বীকৃতির জন্য আলাদা রেকর্ড ব্যবহার করুন।** অবদানকারী প্রয়োজনীয়তা পড়তে পারছে কি না, তা প্রকাশ ও সম্পাদনার বিভাজন পরীক্ষা করে। বাদ-পড়া ব্যবহারকারী পৃষ্ঠা খুলতে পারছে না কি না, তা গোপনীয়তা পরীক্ষা করে। দুটো এক সারিতে রাখলে কোন সীমা পরীক্ষা হয়েছে বোঝা যায় না।

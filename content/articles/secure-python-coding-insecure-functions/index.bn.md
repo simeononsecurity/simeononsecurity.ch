@@ -1,7 +1,7 @@
 ---
 title: "নিরাপদ Python কোডিং"
 date: 2023-09-26
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "অনিরাপদ ফাংশন এড়িয়ে এবং নির্ভরযোগ্য অ্যাপ তৈরির ভালো অনুশীলন মেনে নিরাপদ Python কোড লিখতে শিখুন।"
@@ -30,10 +30,10 @@ ___________
 
 #### eval() দিয়ে ডাইনামিক কোড চালানো:
 ```python
-# Unsafe: Using eval() for dynamic code execution
+# অনিরাপদ: ডাইনামিক কোড চালাতে eval() ব্যবহার
 user_input = input("Enter a Python expression: ")
 result = eval(user_input)
-print("Result:", result)
+print("ফলাফল:", result)
 ```
 
 #### `ast.literal_eval()` দিয়ে আরও নিরাপদ বিকল্প:
@@ -43,9 +43,9 @@ import ast
 user_input = input("Enter a literal value: ")
 try:
     parsed_value = ast.literal_eval(user_input)
-    print("Parsed value:", parsed_value)
+    print("পার্স করা মান:", parsed_value)
 except (ValueError, SyntaxError):
-    print("Invalid input.")
+    print("ইনপুট অবৈধ।")
 ```
 
 ### অপরিষ্কার ডেটা দিয়ে স্ট্রিং জোড়া লাগানো
@@ -76,7 +76,7 @@ import pickle
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = pickle.dumps(data)
-# Store or send serialized_data
+# serialized_data সংরক্ষণ বা পাঠান
 ```
 
 #### json দিয়ে নিরাপদ বিকল্প:
@@ -85,7 +85,7 @@ import json
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = json.dumps(data)
-# Store or send serialized_data
+# serialized_data সংরক্ষণ বা পাঠান
 ```
 
 ### `mark_safe()` দিয়ে HTML যথেষ্ট এস্কেপ না করা
@@ -124,7 +124,7 @@ import subprocess
 
 command = input("Enter a command: ")
 result = subprocess.run(command, shell=True, capture_output=True, text=True)
-print("Output:", result.stdout)
+print("আউটপুট:", result.stdout)
 ```
 
 ### `hash()` দিয়ে অপর্যাপ্ত পাসওয়ার্ড হ্যাশিং
@@ -135,7 +135,7 @@ print("Output:", result.stdout)
 ```python
 password = input("Enter your password: ")
 hashed_password = hash(password)
-# Store hashed_password in the database
+# hashed_password ডেটাবেসে সংরক্ষণ করুন
 ```
 
 #### bcrypt দিয়ে নিরাপদ পদ্ধতি:
@@ -144,7 +144,7 @@ import bcrypt
 
 password = input("Enter your password: ")
 hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-# Store hashed_password in the database
+# hashed_password ডেটাবেসে সংরক্ষণ করুন
 ```
 
 ## **নিরাপদ বিকল্প ও ভালো অনুশীলন**
@@ -163,7 +163,7 @@ if response.status_code == 200:
     data = response.json()
     print(data)
 else:
-    print("Request failed.")
+    print("অনুরোধ ব্যর্থ হয়েছে।")
 ```
 
 ### **`with`** স্টেটমেন্টে ফাইল নিরাপদে সামলানো
@@ -174,12 +174,12 @@ else:
 ```python
 filename = "example.txt"
 
-# Unsafe: Without using `with`
+# অনিরাপদ: with ব্যবহার না করে
 file = open(filename, "r")
 content = file.read()
 file.close()
 
-# Safer: Using `with` statement
+# নিরাপদতর: with স্টেটমেন্ট ব্যবহার করে
 with open(filename, "r") as file:
     content = file.read()
 ```
@@ -194,7 +194,7 @@ import html
 
 user_input = input("Enter some text: ")
 sanitized_input = html.escape(user_input)
-print("Sanitized input:", sanitized_input)
+print("পরিশোধিত ইনপুট:", sanitized_input)
 ```
 
 ### **`sqlite3`**-এ প্যারামিটারযুক্ত কোয়েরি
@@ -228,9 +228,9 @@ import os
 
 api_key = os.environ.get("API_KEY")
 if api_key:
-    print("API Key:", api_key)
+    print("API কী:", api_key)
 else:
-    print("API Key not set.")
+    print("API কী সেট করা নেই।")
 ```
 
 #### python-decouple দিয়ে পরিবেশ ভেরিয়েবল পরিচালনা:
@@ -238,7 +238,7 @@ else:
 from decouple import config
 
 api_key = config("API_KEY")
-print("API Key:", api_key)
+print("API কী:", api_key)
 ```
 
 ### **`secrets`** দিয়ে শক্তিশালী র‍্যান্ডমনেস
@@ -250,7 +250,7 @@ print("API Key:", api_key)
 import secrets
 
 token = secrets.token_hex(16)
-print("Secure Token:", token)
+print("নিরাপদ টোকেন:", token)
 ```
 
 ## উপসংহার

@@ -1,17 +1,16 @@
 ---
 title: "Docker dans LXC sur Proxmox : fiabilité, preuves et migration vers une VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Évaluez Docker dans Proxmox LXC à partir d’un échec AppArmor documenté, d’une analyse attentive d’un signalement de blocage de l’hôte, de commandes de diagnostic et d’un plan de migration vers une VM."
-genre: ["Virtualisation", "Administration Linux", "Homelab"]
+genre: ["Virtualisation", "Administration Linux", "laboratoire domestique"]
 tags: ["Docker dans LXC", "Docker sur Proxmox", "LXC Proxmox", "machine virtuelle Docker", "fiabilité du homelab", "blocages de l’hôte Proxmox", "VM Debian pour Docker", "conteneurs sans privilèges", "conteneurs imbriqués", "isolation du noyau Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "pilotes de stockage Docker", "magasin d’images containerd", "pression mémoire", "Linux PSI", "journal persistant", "sauvegardes Proxmox", "sauvegardes de bind mounts", "migration de VM", "domaines de panne", "passage de GPU", "dépannage du serveur domestique"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Illustration isométrique d’un serveur domestique montrant des charges imbriquées et un compartiment distinct pour une machine virtuelle reliée au matériel partagé"
 coverCaption: "Illustration conceptuelle du matériel partagé et de différentes frontières d’isolation des charges"
 ---
-
 **Docker dans Linux Containers (LXC)** réduit certains frais d’infrastructure, mais multiplie les interactions entre l’environnement d’exécution des applications et l’hôte Proxmox. Pour les services Docker dont votre foyer dépend, une **machine virtuelle (VM) Debian** constitue un point de départ pratique. Elle sépare le noyau invité et simplifie l’environnement à reproduire lors du dépannage. Cet article examine la vidéo fournie, vérifie le rapport d’incident associé et ajoute des défaillances documentées ainsi qu’un plan de migration.
 
 <!--more-->
@@ -66,14 +65,14 @@ La **période d’observation** mérite un examen attentif. Seize jours se situe
 ## Repérer la frontière du noyau
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker dans LXC :
+Application -> environnement d’exécution Docker -> espaces de noms et règles LXC
+                 -> noyau de l’hôte Proxmox -> matériel physique
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker dans une machine virtuelle :
+Application -> environnement d’exécution Docker -> noyau Linux invité
+                 -> matériel virtuel / KVM-QEMU
+                 -> noyau de l’hôte Proxmox -> matériel physique
 ```
 
 **LXC** utilise le noyau de l’hôte. Les espaces de noms, groupes de contrôle, capacités, seccomp et profils de sécurité limitent les processus sans fournir un noyau distinct. Ajouter Docker dans LXC crée une autre couche de gestion de conteneurs pour des charges qui utilisent le même noyau hôte. [Architecture et fonctionnalités de confinement LXC](https://linuxcontainers.org/lxc/introduction/)
@@ -108,7 +107,7 @@ Docker publie une **procédure d’installation pour Debian**. Utilisez la liste
 
 ## Une défaillance d’imbrication confirmée
 
-L’**incompatibilité runc/AppArmor de 2025** est un exemple vérifiable. Les mainteneurs de runc ont documenté un échec lors de la réouverture d’un descripteur dans un conteneur externe doté d’un profil AppArmor. AppArmor interprétait à tort un accès sous **`/proc/sys`** comme un accès sous **`/sys`**, ce qui entraînait un refus de la politique. [Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)
+L’**incompatibilité runc/AppArmor de 2025** est un exemple vérifiable. Les mainteneurs de runc ont documenté un échec lors de la réouverture d’un descripteur dans un conteneur externe doté d’un profil AppArmor. AppArmor interprétait à tort un accès sous **`/proc/sys`** comme un accès sous **`/sys`**, ce qui entraînait un refus de la politique. [problème runc 4968](https://github.com/opencontainers/runc/issues/4968)
 
 Un **démarrage affecté** signalait cet extrait d’erreur :
 
@@ -271,7 +270,7 @@ findmnt -T /var/lib/docker
 
 Les **tests d’acceptation** doivent suivre l’objectif du service. Un état de conteneur vert confirme qu’un processus tourne. Un service utilisable exige aussi ses données, l’accès réseau, ses dépendances et son comportement de reprise.
 
-| Test | Élément à conserver |
+| Vérification | Élément à conserver |
 |---|---|
 | **Fonctionnement applicatif** | Transaction, requête ou opération multimédia réelle réussie |
 | **Exhaustivité des données** | Enregistrements, fichiers, autorisations et modifications récentes attendus |
@@ -290,17 +289,17 @@ Les **tests d’acceptation** doivent suivre l’objectif du service. Un état d
 **Utilisez des mesures** pour choisir un déploiement et définir quand le réexaminer :
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Impact sur le service et le foyer :
+Versions actuelles de l’hôte / noyau / LXC / Docker :
+Accès requis au GPU, aux appareils et au réseau :
+Mémoire, CPU, stockage et latence mesurés :
+Symptôme de panne connu et intervalle de récurrence :
+Couverture des sauvegardes et preuve de restauration réussie :
+Architecture choisie et raison :
+Fenêtre d’interruption autorisée et objectif de reprise :
+Procédure de bascule et de retour des données après bascule :
+Tests d’acceptation et période d’observation :
+Condition nécessitant une nouvelle révision de l’architecture :
 ```
 
 **Choisissez délibérément l’imbrication LXC** lorsque ses avantages justifient le travail d’intégration et que vous avez testé la reprise. Choisissez une VM si un environnement Docker invité classique et un noyau invité distinct simplifient l’exploitation du service. Aucune de ces décisions ne remplace les sauvegardes, la surveillance et la maintenance de l’hôte.
@@ -326,8 +325,8 @@ Pour les **sujets connexes**, consultez le [guide de mise à niveau Proxmox VE](
 | **[Vidéo source](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Présentation initiale et durée de stabilité signalée |
 | **[Discussion de l’incident Proxmox](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Observations de première main et suivi de migration |
 | **[Boîte à outils de conteneurs Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Architecture des conteneurs et distinction OCI actuelle |
-| **[Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Échec de démarrage documenté et correctif historique de paquet |
-| **[Pull request LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Modification AppArmor amont fusionnée |
+| **[problème runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Échec de démarrage documenté et correctif historique de paquet |
+| **[demande de modification LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Modification AppArmor amont fusionnée |
 | **[Documentation Docker](https://docs.docker.com/engine/install/debian/)** | Base d’installation de l’invité, avec les références au runtime et au stockage ci-dessus |
 | **[Documentation Linux PSI](https://docs.kernel.org/accounting/psi.html)** | Interprétation de la pression sur les ressources |
 | **[Documentation Linux watchdog](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Conditions de blocage définies par le noyau |

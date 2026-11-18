@@ -1,11 +1,12 @@
 ---
 title: "Flock-You検出：カウンター監視セットアップガイド"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ESP32ベースのハードウェアを使用してFlock Safety ALPRカメラを検出するオープンソースFlock-Youプロジェクトの包括的な技術ガイド。セットアップ手順、ファームウェアの詳細、購入オプションを含む。"
 genre: ["セキュリティハードウェア", "カウンター監視", "プライバシー技術", "オープンソースプロジェクト", "ESP32開発", "WiFiモニタリング", "プライバシーツール", "デジタル権利", "ハードウェアハッキング", "ネットワークセキュリティ"]
-tags: ["Flock-You Project", "ALPR Detection", "ESP32-S3", "WiFi OUI Detection", "Counter Surveillance Hardware", "Flock Safety Detection", "Open Source Security", "Privacy Hardware", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "Promiscuous Mode WiFi", "802.11 Monitoring", "Colonel Panic Tech", "STS Collective", "Privacy Devices", "Surveillance Detection", "WiFi Scanning", "GitHub Project", "colonelpanichacks", "ESP32 Firmware", "Hardware Setup Guide", "DIY Privacy Tools", "Network Monitoring", "OUI Database", "Wildcard Probe Detection", "Frame Analysis", "ALPR Camera Detection", "Privacy Technology", "Detection Hardware", "Arduino ESP32", "Platform.io", "Embedded Systems", "RF Detection", "Signal Processing", "Privacy Engineering", "Counter Technology", "Security Research", "Privacy Advocacy", "Open Hardware", "Privacy Defense", "Detection Firmware", "Mobile Detection", "Privacy Projects", "Hardware Comparison"]
+tags: ['Flock-Youプロジェクト', 'ALPR検知', 'ESP32-S3', 'WiFi OUI検知', '監視対抗ハードウェア', 'Flock Safety検知', 'オープンソースセキュリティ', 'プライバシー保護ハードウェア', 'M5 Atom Lite', 'OUI-SPY', 'mesh-detect v2', 'WiFiプロミスキャスモード', '802.11監視', 'Colonel Panic Tech', 'STS Collective', 'プライバシー保護デバイス', '監視検知', 'WiFiスキャン', 'GitHubプロジェクト', 'colonelpanichacks', 'ESP32ファームウェア', 'ハードウェア設定ガイド', 'DIYプライバシーツール', 'ネットワーク監視', 'OUIデータベース', 'ワイルドカードプローブ検知', 'フレーム解析', 'ALPRカメラ検知', 'プライバシー技術', '検知ハードウェア', 'Arduino ESP32', 'Platform.io', '組み込みシステム', 'RF検知', '信号処理', 'プライバシーエンジニアリング', '監視対抗技術', 'セキュリティ研究', 'プライバシー擁護', 'オープンハードウェア', 'プライバシー防御', '検知ファームウェア', 'モバイル検知', 'プライバシープロジェクト', 'ハードウェア比較']
 cover: "/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp"
 coverAlt: "前景にESP32ベースのデバイスが映り、WiFi信号をスキャンしている様子を示すイラスト。カラフルな波が異なる信号強度を表し、暗い背景に映えている。"
 coverCaption: "ALPR監視カメラを検出するためのオープンソースハードウェアソリューション"
@@ -41,20 +42,20 @@ Flock Safetyカメラには、接続性とリモート管理のための**組み
 研究者**@NitekryDPaul**と**DeFlockJoplin**コミュニティは、Flock Safetyカメラの展開に常に存在する**31の特定のOUI**を発見しました：
 
 ```
-Primary Espressif OUIs (ESP32-based modules):
-D4:AD:FC - Espressif Inc. (Common ESP32-S3)
+主要なEspressif OUI（ESP32ベースのモジュール）：
+D4:AD:FC - Espressif Inc. (一般的なESP32-S3)
 AC:67:B2 - Espressif Inc. (ESP32-WROOM)
-84:F3:EB - Espressif Inc. (ESP32-S3 variants)
+84:F3:EB - Espressif Inc. (ESP32-S3の各種バリエーション)
 B4:E6:2D - Espressif Inc. (ESP32-C3)
-CC:DB:A7 - Espressif Inc. (ESP32-based)
+CC:DB:A7 - Espressif Inc. (ESP32ベース)
 24:0A:C4 - Espressif Inc. (ESP32-SOLO)
 30:AE:A4 - Espressif Inc. (ESP32-WROVER)
-94:B9:7E - Espressif Inc. (ESP32-based)
+94:B9:7E - Espressif Inc. (ESP32ベース)
 A4:CF:12 - Espressif Inc. (ESP32-S2)
 C0:49:EF - Espressif Inc. (ESP32-C6)
 
-Additional OUIs identified in Flock deployments:
-[... 21 additional manufacturer OUIs ...]
+Flockの導入環境で確認された追加のOUI：
+[... メーカーの追加OUI 21件 ...]
 ```
 
 検出デバイスがプロミスキャスモードでWiFiトラフィックをスキャンすると、**これらのOUIを持つフレームをブロードキャストしているデバイスを識別します**。
@@ -317,14 +318,14 @@ ______
 
 2. **ソフトウェアセットアップ**：
    ```bash
-   # Install PlatformIO
+   # PlatformIO をインストール
    pip install platformio
-   
-   # Clone repository
+
+   # リポジトリをクローン
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
-   # Flash firmware
+
+   # ファームウェアを書き込む
    pio run -t upload
    pio device monitor
    ```
@@ -407,7 +408,7 @@ ______
    - ブラウザで開く：`http://192.168.4.1`
    - Webインターフェースが4つのファームウェアモードを表示：
      1. **Detector** - マルチターゲットBLEスキャナー
-     2. **Foxhunter** - RF方向探知  
+     2. **Foxhunter** - RF方向探知
      3. **Flock-You** - ALPRカメラ検出
      4. **Sky Spy** - ドローンRemoteID検出器
    - 希望のモードを選択して「Activate」をクリック
@@ -636,37 +637,37 @@ ______
 技術的な実装に興味がある方のために、検出ロジックの簡略化されたビューを示します：
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// Flock-You 検出の中核（概念例、完全なコードではありません）
 
-// OUI Database (31 known Flock-associated OUIs)
+// OUI データベース（Flock 関連の OUI 31 件）
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 の派生モデル
+    // ... OUI がさらに 28 件 ...
 };
 
-// Promiscuous mode callback
+// プロミスキャスモードのコールバック
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // フレームから MAC アドレスを抽出
+    uint8_t *mac = pkt->payload + 10; // addr2 フィールドの位置
+
+    // OUI データベースと照合
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // OUI が一致
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // 信号強度のしきい値を確認
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // 追加のシグネチャについてフレームを解析
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // 高確度の検出
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // OUI の一致のみ
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -674,16 +675,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// ワイルドカードプローブの検出
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // 管理フレーム、サブタイプはプローブ要求
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // 空の SSID IE（ワイルドカード）を確認
+    // 位置はフレーム構造によって異なる
+    uint8_t *ie = &pkt->payload[24]; // IE の開始位置
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // ワイルドカードプローブ
     }
     return false;
 }

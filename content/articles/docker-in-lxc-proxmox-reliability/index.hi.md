@@ -1,17 +1,16 @@
 ---
 title: "Proxmox पर LXC में Docker: विश्वसनीयता, प्रमाण और VM माइग्रेशन"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "दस्तावेज़ीकृत AppArmor विफलता, होस्ट के रुकने की रिपोर्ट की सावधानीपूर्वक समीक्षा, निदान कमांड और VM माइग्रेशन योजना के आधार पर Proxmox LXC के भीतर Docker का मूल्यांकन करें।"
 genre: ["वर्चुअलाइज़ेशन", "Linux प्रशासन", "होमलैब"]
-tags: ["LXC में Docker", "Proxmox पर Docker", "Proxmox LXC", "Docker वर्चुअल मशीन", "होमलैब की विश्वसनीयता", "Proxmox होस्ट का रुक जाना", "Debian Docker VM", "बिना विशेषाधिकार वाले कंटेनर", "कंटेनर नेस्टिंग", "Linux कर्नेल पृथक्करण", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker स्टोरेज ड्राइवर", "containerd इमेज स्टोर", "मेमोरी दबाव", "Linux PSI", "स्थायी जर्नल", "Proxmox बैकअप", "bind mount बैकअप", "VM माइग्रेशन", "विफलता क्षेत्र", "GPU पासथ्रू", "होम सर्वर समस्या निवारण"]
+tags: ["LXC में Docker", "Proxmox पर Docker", "Proxmox पर LXC कंटेनर", "Docker वर्चुअल मशीन", "होमलैब की विश्वसनीयता", "Proxmox होस्ट का रुक जाना", "Debian पर Docker वर्चुअल मशीन", "बिना विशेषाधिकार वाले कंटेनर", "कंटेनर नेस्टिंग", "Linux कर्नेल पृथक्करण", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker स्टोरेज ड्राइवर", "containerd इमेज स्टोर", "मेमोरी दबाव", "Linux PSI", "स्थायी जर्नल", "Proxmox बैकअप", "bind mount बैकअप", "VM माइग्रेशन", "विफलता क्षेत्र", "GPU पासथ्रू", "होम सर्वर समस्या निवारण"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "साझा हार्डवेयर से जुड़े नेस्टेड वर्कलोड बॉक्स और अलग वर्चुअल मशीन कक्ष वाला घरेलू सर्वर का आइसोमेट्रिक चित्र"
 coverCaption: "साझा हार्डवेयर और वर्कलोड आइसोलेशन की अलग-अलग सीमाओं का वैचारिक चित्र"
 ---
-
 **Linux Containers (LXC) के भीतर Docker** कुछ बुनियादी ढाँचे का अतिरिक्त खर्च घटाता है, लेकिन एप्लिकेशन रनटाइम और Proxmox होस्ट के बीच परस्पर क्रियाएँ बढ़ाता है। घर जिन Docker सेवाओं पर निर्भर है, उनके लिए Debian की **वर्चुअल मशीन (VM)** व्यावहारिक शुरुआती विकल्प है। यह गेस्ट कर्नेल को अलग करती है और समस्या की जाँच के दौरान दोहराए जाने वाले वातावरण को सरल बनाती है। यह लेख दिए गए वीडियो की जाँच करता है, संबंधित घटना रिपोर्ट की पुष्टि करता है और दस्तावेज़ीकृत विफलताओं तथा माइग्रेशन योजना को जोड़ता है।
 
 <!--more-->
@@ -66,14 +65,14 @@ coverCaption: "साझा हार्डवेयर और वर्कल�
 ## कर्नेल सीमा पहचानें
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+LXC के अंदर Docker:
+एप्लिकेशन -> Docker रनटाइम -> LXC नेमस्पेस और नीति
+                 -> Proxmox होस्ट कर्नेल -> भौतिक हार्डवेयर
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+VM के अंदर Docker:
+एप्लिकेशन -> Docker रनटाइम -> गेस्ट Linux कर्नेल
+                 -> वर्चुअल हार्डवेयर / KVM-QEMU
+                 -> Proxmox होस्ट कर्नेल -> भौतिक हार्डवेयर
 ```
 
 **LXC** होस्ट कर्नेल का उपयोग करता है। नेमस्पेस, कंट्रोल ग्रुप, क्षमताएँ, seccomp और सुरक्षा प्रोफ़ाइल प्रक्रियाओं को सीमित करते हैं, अलग कर्नेल नहीं देते। LXC में Docker जोड़ने से उसी अंतर्निहित होस्ट कर्नेल का उपयोग करने वाले वर्कलोड के चारों ओर कंटेनर प्रबंधन की एक और परत बनती है। [LXC संरचना और कंटेनमेंट सुविधाएँ](https://linuxcontainers.org/lxc/introduction/)
@@ -108,7 +107,7 @@ Docker **Debian स्थापना मार्ग** प्रकाशित
 
 ## पुष्टि की गई नेस्टिंग विफलता
 
-**2025 की runc/AppArmor असंगतता** जाँचा जा सकने वाला उदाहरण है। runc रखरखावकर्ताओं ने AppArmor प्रोफ़ाइल वाले बाहरी कंटेनर में फ़ाइल डिस्क्रिप्टर दोबारा खोलने की विफलता दर्ज की। AppArmor ने **`/proc/sys`** के नीचे की पहुँच को गलती से **`/sys`** के नीचे की पहुँच समझा, जिससे नीति ने उसे रोक दिया। [runc इश्यू 4968](https://github.com/opencontainers/runc/issues/4968)
+**2025 की runc/AppArmor असंगतता** जाँचा जा सकने वाला उदाहरण है। runc रखरखावकर्ताओं ने AppArmor प्रोफ़ाइल वाले बाहरी कंटेनर में फ़ाइल डिस्क्रिप्टर दोबारा खोलने की विफलता दर्ज की। AppArmor ने **`/proc/sys`** के नीचे की पहुँच को गलती से **`/sys`** के नीचे की पहुँच समझा, जिससे नीति ने उसे रोक दिया। [runc की समस्या 4968](https://github.com/opencontainers/runc/issues/4968)
 
 **प्रभावित स्टार्टअप** ने यह त्रुटि अंश दिया:
 
@@ -290,17 +289,17 @@ findmnt -T /var/lib/docker
 **मापे गए प्रमाण का उपयोग करें** परिनियोजन चुनने और समीक्षा का समय तय करने के लिए:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+सेवा और घर पर प्रभाव:
+वर्तमान होस्ट / कर्नेल / LXC / Docker संस्करण:
+आवश्यक GPU, डिवाइस और नेटवर्क पहुँच:
+मापी गई मेमोरी, CPU, स्टोरेज और लेटेंसी:
+ज्ञात विफलता संकेत और दोहराव का अंतराल:
+बैकअप कवरेज और सफल बहाली का प्रमाण:
+चुनी गई संरचना और कारण:
+अनुमत सेवा-विराम अवधि और बहाली लक्ष्य:
+कटओवर और उसके बाद डेटा वापस करने की प्रक्रिया:
+स्वीकृति परीक्षण और निगरानी अवधि:
+वह शर्त जिसके लिए संरचना की दोबारा समीक्षा चाहिए:
 ```
 
 **LXC नेस्टिंग सोच-समझकर चुनें** जब लाभ एकीकरण कार्य को उचित ठहराएँ और पुनर्प्राप्ति रास्ता जाँचा हो। VM चुनें जब सामान्य Docker गेस्ट वातावरण और अलग गेस्ट कर्नेल सेवा संचालन सरल करते हों। कोई भी विकल्प बैकअप, निगरानी और होस्ट रखरखाव का स्थान नहीं लेता।
@@ -326,8 +325,8 @@ Condition requiring another architecture review:
 | **[स्रोत वीडियो](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | मूल व्याख्या और बताई गई स्थिरता अवधि |
 | **[Proxmox घटना थ्रेड](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | प्रत्यक्ष टिप्पणियाँ और माइग्रेशन फ़ॉलो-अप |
 | **[Proxmox कंटेनर टूलकिट](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | कंटेनर संरचना और मौजूदा OCI अंतर |
-| **[runc इश्यू 4968](https://github.com/opencontainers/runc/issues/4968)** | दस्तावेज़ीकृत स्टार्टअप विफलता और ऐतिहासिक पैकेज सुधार |
-| **[LXC पुल अनुरोध 4609](https://github.com/lxc/lxc/pull/4609)** | मर्ज किया गया अपस्ट्रीम AppArmor बदलाव |
+| **[runc की समस्या 4968](https://github.com/opencontainers/runc/issues/4968)** | दस्तावेज़ीकृत स्टार्टअप विफलता और ऐतिहासिक पैकेज सुधार |
+| **[LXC में बदलाव मर्ज करने का अनुरोध 4609](https://github.com/lxc/lxc/pull/4609)** | मर्ज किया गया अपस्ट्रीम AppArmor बदलाव |
 | **[Docker दस्तावेज़](https://docs.docker.com/engine/install/debian/)** | गेस्ट इंस्टॉलेशन आधार और ऊपर दिए रनटाइम तथा स्टोरेज संदर्भ |
 | **[Linux PSI दस्तावेज़](https://docs.kernel.org/accounting/psi.html)** | संसाधन दबाव की व्याख्या |
 | **[Linux watchdog दस्तावेज़](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | परिभाषित कर्नेल lockup स्थितियाँ |

@@ -1,6 +1,7 @@
 ---
 title: "Informatieclassificatie begrijpen: Wie bepaalt en wijst rubriceringsniveaus toe"
 date: 2023-06-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer over het proces van informatieclassificatie, inclusief wie rubriceringsniveaus aanwijst en toewijst, en het belang van het naleven van overheidsvoorschriften."
@@ -76,7 +77,7 @@ Informatieclassificatie is onderworpen aan verschillende **overheidsvoorschrifte
 
 Door deze voorschriften na te leven, kunnen organisaties en personen die betrokken zijn bij de verwerking van geclassificeerde informatie ervoor zorgen dat de juiste procedures worden gevolgd en dat de nodige beveiligingsmaatregelen worden genomen om gevoelige gegevens te beschermen. Niet-naleving van deze voorschriften kan ernstige gevolgen hebben, waaronder juridische sancties en schade aan de nationale veiligheid.
 
-Om meer te weten te komen over deze voorschriften en hun specifieke vereisten, kunt u de officiële documentatie en bronnen raadplegen die door de respectieve autoriteiten worden verstrekt. U kunt bijvoorbeeld het **Executive Order 13526** raadplegen op de [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) website, explore the **NISPOM** on the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) website, and find detailed information about **ITAR** on the [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing) website.
+Raadpleeg voor meer informatie over deze voorschriften en de bijbehorende eisen de officiële documentatie en bronnen van de bevoegde instanties. U vindt de **Executive Order 13526** op de website van de [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information), de **NISPOM** op de website van de [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) en uitgebreide informatie over **ITAR** op de website van het [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing).
 
 ______
 

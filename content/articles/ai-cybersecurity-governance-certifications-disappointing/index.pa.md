@@ -3,7 +3,7 @@ title: "AI ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਸਰਟੀਫਿਕੇਸ਼�
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "AI ਗਵਰਨੈਂਸ ਸਰਟੀਫਿਕੇਸ਼ਨਾਂ ਅਤੇ AI ਸੁਰੱਖਿਆ ਅਮਲ ਵਿਚਲੇ ਫਰਕ ਬਾਰੇ ਰਾਏ, ਜੋ ਸਰਟੀਫਿਕੇਸ਼ਨ ਅਨੁਭਵ ਅਤੇ ਮੌਜੂਦਾ ਹਮਲਾ-ਸਤਹ ਦੀਆਂ ਹੱਦਾਂ ਉੱਤੇ ਆਧਾਰਿਤ ਹੈ।"
 tags: ["AI ਸੁਰੱਖਿਆ", "AI ਗਵਰਨੈਂਸ", "AI ਸਰਟੀਫਿਕੇਸ਼ਨ", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "ਪ੍ਰੌਂਪਟ ਇੰਜੈਕਸ਼ਨ", "AI ਸਾਈਬਰ ਸੁਰੱਖਿਆ", "LLM ਸੁਰੱਖਿਆ", "OWASP LLM Top 10", "MITRE ATLAS", "AI ਜੋਖਮ ਪ੍ਰਬੰਧਨ", "AI ਅਨੁਕੂਲਤਾ", "ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਸੁਰੱਖਿਆ", "ਮਾਡਲ ਸਪਲਾਈ ਚੇਨ", "ਵਿਰੋਧੀ AI", "AI ਏਜੰਟ", "MCP ਸੁਰੱਖਿਆ", "AI ਰੈੱਡ ਟੀਮਿੰਗ", "AI ਗਵਰਨੈਂਸ ਸਰਟੀਫਿਕੇਸ਼ਨ", "ਏਜੈਂਟਿਕ AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

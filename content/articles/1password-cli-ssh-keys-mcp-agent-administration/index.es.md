@@ -1,7 +1,7 @@
 ---
 title: "1Password SSH Agent and CLI: Acceso de solo lectura para agentes de IA"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diseñe un flujo de trabajo SSH de solo lectura con 1Password CLI, el SSH Agent y MCP. Utilice comandos sintéticos, permisos restringidos y aprobación humana antes de las pruebas en vivo."
@@ -82,7 +82,7 @@ Bitbucket Cloud utiliza el flujo de trabajo de línea de comandos normal de Git 
 
 **Trate Bitbucket como el consumidor de la clave pública.** Registre la clave pública o la huella digital a través de la cuenta de Bitbucket aprobada o la configuración del repositorio. Mantenga la clave privada en 1Password. El cliente Git solicita al SSH Agent que firme. El cliente no lee un archivo de clave privada.
 
-Para el alcance de la clave de acceso de Bitbucket, la ruta de registro y la prueba de Git de solo lectura, consulte [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+Para el alcance de la clave de acceso de Bitbucket, la ruta de registro y la prueba de Git de solo lectura, consulte [Claves SSH de Bitbucket Cloud y CLI de Git: acceso de solo lectura para agentes de IA](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 La documentación de Bitbucket denomina a esto un flujo de trabajo de Git CLI. Este artículo no asume un servidor MCP de Bitbucket separado ni un producto llamado Bitbucket CLI. Una CLI específica de Bitbucket requiere su propia documentación actual y su propia revisión de permisos.
 
@@ -163,10 +163,10 @@ Anote la clase de objetivo, la cuenta remota, el repositorio o comando previsto,
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: comprobación de conectividad de solo lectura
+host_key_source: registro aprobado por el administrador
+approval_owner: operador designado
+rollback: eliminar la clave pública y revocar la identidad de prueba
 ```
 
 **Resultado esperado, sin probar:** El registro identifica un objetivo y una operación. El registro no contiene un nombre de host, dirección IP, token, clave privada o datos personales.
@@ -239,7 +239,7 @@ La siguiente secuencia muestra el orden sin utilizar infraestructura real. Estos
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Solo en macOS o Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

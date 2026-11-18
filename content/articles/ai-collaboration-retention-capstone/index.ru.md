@@ -1,7 +1,7 @@
 ---
 title: "Итоговый проект по сотрудничеству с ИИ: GitHub, Confluence и Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Проведите синтетическое изменение хранения данных через процессы GitHub-first и Confluence/Jira, сохранив доказательства сбоев и независимую проверку."
@@ -46,16 +46,16 @@ coverCaption: ""
 **Откройте Issue и кандидатский PR** по урокам GitHub. Вместе измените требование, конфигурацию, предложение и runbook. Зафиксируйте защищённую базу, выполните доверенные проверки и получите проверки продукта и операций на финальном коммите.
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+Запуск: GitHub-first
+Изменение: синтетическое хранение 7 -> 30 дней
+Требование: REQ-17 ревизия 2
+Конфигурация: retention_days 30
+Инструкция: срок хранения: 30 дней
+Предложение: базовая ревизия 1, с 7, до 30
+Манифест: хеши защищённых источников до изменения
+Проверка: проверка продукта и эксплуатации для итоговой версии предложения
+Публикация: объединённый коммит и повторное чтение
+Ограничение: работающая служба удаления не тестировалась
 ```
 
 **Заполните реальные ссылки из песочницы.** Схема показывает ожидаемое сопоставление, а не готовые доказательства. Мейнтейнер выполняет merge только после проверки, затем независимо читает **`main`**. Закройте Issue после добавления ссылок на итоговые записи.
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    те же категории доказательств, собранные независимо
 ```
 
 **Эти имена являются примером организации**, а не предоставленными архивными файлами. Храните реальные доказательства в закрытой одобренной песочнице. В общих материалах курса используйте метки ролей и скрытые ссылки, а проверяющие должны сохранять доступ к нативным записям.
@@ -182,28 +182,17 @@ capstone-evidence/
 **Заполненный учебный пакет трека Mixed, синтетический и не являющийся доказательством tenant:**
 
 ```text
-Run: MIXED-042-example
-Captured base: REQ-17 v4 = 7 days, RUN-04 v2 = 7 days,
-  GitHub main base-001 config.json = {"retention_days": 7}, Jira PROP-042 r1 = In Review
-Fixed proposal: REQ-17 v5 wording says synthetic exports 30 days,
-  excluding production data, backups, and legal holds.
-  GitHub config.json changes retention_days from 7 to 30.
-  RUN-04 v3 wording says 30 days, no deletion service runs in this lab,
-  and incomplete publication stays pending.
-Review: product owner approved the exact requirement wording at PROP-042 r1.
-  Operations owner approved the exact config diff and runbook wording at r1.
-Publication: publisher reopened REQ-17 v5 and read 30 days.
-  Maintainer reopened main at merge-002 and read retention_days 30.
-  Publisher reopened RUN-04 v3 and read 30 days.
-Denied action: contributor tried an edit to restricted REQ-17 from v5.
-  Platform denied the edit, the publisher reread v5 unchanged, and the
-  observer saved the native denial. No edit was applied and v5 stayed unchanged.
-Recovery: after a separate simulated failed RUN-04 attempt, Jira stayed
-  Blocked. Operations approved a retry against the current version.
-  Publisher reread v3 after the authorized retry before Jira moved to Done.
-Handoff: a new reviewer received MAP-01 and the ledger, reopened the three
-  sources and Jira, and named the current 30-day state and remaining runtime gap.
-Limit: source publication is shown. Actual deletion timing is Not run.
+Запуск: MIXED-042-example
+Зафиксированная база: REQ-17 v4 = 7 дней; RUN-04 v2 = 7 дней.
+GitHub main base-001 config.json = {"retention_days": 7}; Jira PROP-042 r1 = In Review.
+Зафиксированное предложение: REQ-17 v5 задаёт хранение синтетических экспортов 30 дней. Производственные данные, резервные копии и юридические удержания исключены.
+GitHub config.json меняет retention_days с 7 на 30. RUN-04 v3 указывает 30 дней; служба удаления в лаборатории не запускалась. Незавершённая публикация остаётся ожидающей.
+Проверка: владелец продукта утвердил точный текст REQ-17. Эксплуатация одобрила diff конфигурации и runbook на r1.
+Публикация: издатель перечитал REQ-17 v5 и RUN-04 v3 и подтвердил 30 дней; сопровождающий прочитал main на merge-002 и retention_days 30.
+Отклонённое действие: участнику отказано в изменении REQ-17 v5. Издатель подтвердил отсутствие изменений, наблюдатель сохранил событие платформы.
+Восстановление: попытка RUN-04 не удалась, Jira осталась Blocked. Эксплуатация одобрила повтор; после чтения v3 Jira перешла в Done.
+Передача: новый проверяющий получил MAP-01 и журнал, перечитал три источника и Jira, отметил 30 дней и оставшийся пробел выполнения.
+Ограничение: подтверждена только публикация источников. Время удаления: не запускалось.
 ```
 
 Замените каждую иллюстративную версию, роль, отказ и read-back нативными записями до того, как отметить живую строку как Supported. Если план или роль не разрешает тест, отметьте строку Blocked и оставьте курс обоих треков незавершённым.
@@ -213,32 +202,32 @@ Limit: source publication is shown. Actual deletion timing is Not run.
 **Попросите проверяющего восстановить события**, а не только прочитать ваш вывод. Без вашей narration он должен найти одобренную базу, зафиксированное предложение, решения владельцев, итоговые ревизии, неудачные попытки, исправление и оставшиеся пробелы.
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+Вопросы независимой проверки:
+Какой источник задаёт срок хранения в этом процессе?
+Какой точный пакет проверил каждый владелец?
+Менялся ли источник после проверки?
+Что опубликовано, а что ещё ожидает?
+Какое отклонённое действие наблюдалось и под какой ролью?
+Попал ли защищённый текст в контекст исключённого пользователя?
+Какое исправление проверили и перечитали?
+Восстанавливает ли новая передача текущее состояние независимо?
 ```
 
 **Оценивайте каждое требование отдельно.** Используйте Supported, Failed, Blocked или Not run со ссылкой на доказательство. Согласованность, одобрение, разрешения, восстановление и handoff являются отдельными требованиями. Набор зелёных локальных тестов не компенсирует сбой живой границы публикации.
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+ID запуска и процесс:
+Роль проверяющего и дата:
+Случай 01 одобренное изменение: статус ___ доказательство ___ пробел ___
+Случай 02 устаревший контекст: статус ___ доказательство ___ пробел ___
+Случай 03 несанкционированная запись: статус ___ доказательство ___ пробел ___
+Случай 04 конфликт: статус ___ доказательство ___ пробел ___
+Случай 05 частичная публикация: статус ___ доказательство ___ пробел ___
+Случай 06 отказ в доступе: статус ___ доказательство ___ пробел ___
+Случай 07 восстановление: статус ___ доказательство ___ пробел ___
+Случай 08 передача: статус ___ доказательство ___ пробел ___
+Общее решение: Подтверждено / Сбой / Блокировано / Не запускалось
+Следующая ответственная роль и действие:
 ```
 
 **Supported означает, что проверяющий нашёл наблюдаемые доказательства для каждого применимого случая.** Записывайте Failed при наблюдаемом сбое контроля, Blocked при отсутствии доступа или контроля и Not run для непройденного случая. Храните нативную ссылку каждого случая в его именованном файле доказательств.
@@ -248,17 +237,17 @@ Next accountable role and action:
 **Редактированный модельный пакет, только для иллюстрации:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+Процесс: github-first | Запуск: G-01 | Проверяющий: отдельная роль пилота
+База: защищённый commit base-001 | Зафиксированное предложение: PROP-042 r1
+Согласования: проверка продукта P-01, эксплуатации O-01
+Согласованность: локальная проверка пройдена, вывод C-01 сохранён
+Разрешение: прямой push участника отклонён, событие D-01
+Публикация: commit merge-002; новый clone подтверждает 30 дней
+Исключение: резервные копии и юридические удержания исключены
+Восстановление: прерывание R-01 перечитано и устранено после проверки
+Передача: второй читатель нашёл текущую базу, исключение и следующий шаг
+Ограничение: нет утверждений об удалении или развёртывании в production
+Решение: подтверждено только для синтетического процесса GitHub-first
 ```
 
 Замените каждую иллюстративную ссылку наблюдаемым артефактом песочницы. Повторите полный пакет для трека Mixed с его собственными версиями источников и проверками. Проверяющий должен отклонить скопированное одобрение GitHub в пакете Mixed.
@@ -287,23 +276,23 @@ Decision: Supported for synthetic GitHub-first track only
 ## Создайте решение о rollout
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+Решение: ещё один синтетический пилот, блокировка или отказ
+Доказательства: оба пакета запусков и матрица сбоев
+Необязательные меры: явно перечислить процедурные контроли
+Проверка провайдера: объём входных данных и хранение
+Ответственные области: продукт, эксплуатация, политика, репозиторий, доставка
+Пробелы production: тесты выполнения, секреты, развёртывание, проверка доступа
+Следующий шаг: ограниченная задача с назначенной ролью
+Дата проверки: назначают владельцы пилота
 ```
 
 **Ожидаемое рассуждение:** синтетический успех поддерживает ещё один ограниченный пилот. Для production нужны отдельные разрешения на реальные данные, deployment, обработку провайдером и поведение во время выполнения. Успешный ответ ассистента не является разрешением на deployment.
 
 ## Основные ссылки
 
-- **Контроли репозитория:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
-- **Доступ к workplace:** [Confluence permissions](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
-- **Контроли доставки:** [Jira permission schemes](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
+- **Контроли репозитория:** [Защищённые ветки](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+- **Доступ к workplace:** [Разрешения Confluence](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/).
+- **Контроли доставки:** [Схемы разрешений Jira](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/).
 
 ## Следующие шаги
 

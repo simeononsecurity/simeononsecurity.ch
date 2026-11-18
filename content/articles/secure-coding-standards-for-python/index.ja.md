@@ -1,7 +1,7 @@
 ---
 title: "Pythonのためのセキュアコーディングスタンダード：ベストプラクティス"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "セキュリティ侵害のリスクを最小限に抑え、機密データを保護するために、Pythonでセキュアコーディングするためのベストプラクティスを学びます。"
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    正規表現を使用して入力を検証する関数。
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python には、注意深く使用しないとセキュリティ上の問題が�
 
 例えば`eval()`関数を使って文字列を整数に変換する場合、開発者はこの関数を使用する必要があります。`int()`関数を使用します。
 ```py
-# Instead of using eval function
+# eval関数を使用する代わりに
 x = eval('10')
 
-# Use int function
+# int関数を使用する
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    暗号ライブラリを使用してパスワードを暗号化する関数。
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ encrypted_password = encrypt_password(password)
 例えば、SQLクエリを書くときは、ユーザー入力をクエリに連結するのではなく、**パラメータ化されたクエリ**を使用します。パラメータ化されたクエリは、ユーザー入力を実行可能なコードではなく、データとして扱うことで、SQLインジェクション攻撃を防ぎます。
 
 ```py
-# Instead of this
+# 代わりに
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# パラメーター化クエリを使用する
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

@@ -1,6 +1,7 @@
 ---
 title: "Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania."
@@ -183,7 +184,7 @@ Oto zwięzła ściągawka podsumowująca **najlepsze praktyki bezpieczeństwa** 
 
 4. **Ochrona wrażliwych danych** przy użyciu **silnych technik szyfrowania**. Wykorzystaj dobrze znane algorytmy szyfrowania, takie jak **AES (Advanced Encryption Standard)** i zapewnij bezpieczne przechowywanie i przesyłanie poufnych informacji. Możesz odnieść się do [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) więcej informacji.
 
-5. **Zabezpiecz dostęp do bazy danych**, używając **preparowanych instrukcji**, aby zapobiec atakom SQL injection i wdrażając **najniższe uprawnienia**, aby ograniczyć uprawnienia użytkowników bazy danych. Praktyki te minimalizują ryzyko nieautoryzowanego dostępu do wrażliwych danych. Dowiedz się więcej o **preparowanych instrukcjach** w sekcji [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **Zabezpiecz dostęp do bazy danych** za pomocą **instrukcji przygotowanych**, aby zapobiegać atakom SQL injection, oraz stosuj **zasadę najmniejszych uprawnień**, aby ograniczyć uprawnienia użytkowników bazy danych. Te praktyki zmniejszają ryzyko nieautoryzowanego dostępu do poufnych danych. Więcej o instrukcjach przygotowanych znajdziesz w [dokumentacji SQLAlchemy](https://www.sqlalchemy.org), a o zasadzie najmniejszych uprawnień w [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
 
 6. **Regularnie aktualizuj zależności**, aby wyeliminować luki w zabezpieczeniach i korzystać z poprawek błędów. Narzędzia takie jak [Snyk - Open Source Security Platform](https://snyk.io/) może pomóc zidentyfikować luki w zależnościach projektu.
 

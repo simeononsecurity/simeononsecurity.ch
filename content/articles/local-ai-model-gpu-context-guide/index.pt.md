@@ -1,7 +1,7 @@
 ---
 title: "Qual modelo de IA local você deve executar? Guia de GPU, contexto e programação para outubro de 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Um guia prático de outubro de 2026 para escolher modelos de IA locais para agentes de programação. Compare memória da GPU, crescimento do KV cache, tamanho do contexto, qualidade da quantização, processamento de prompts, configurações de raciocínio e custos de aluguel na nuvem."
@@ -78,7 +78,7 @@ Esses números descrevem arquiteturas específicas e configurações específica
 |---|---|---|
 | **Attention completa em todas as camadas** | Grande crescimento do cache | Precisa de mais memória para prompts longos |
 | **Attention híbrida ou deslizante** | Menor crescimento do cache em algumas camadas | Mais espaço de contexto no mesmo tamanho de modelo |
-| **Mixture of experts** | Menos parâmetros ativos por token | Menos computação por token, mas todos os pesos ainda precisam de armazenamento |
+| **Mistura de especialistas (MoE)** | Menos parâmetros ativos por token | Menos computação por token, mas todos os pesos ainda precisam de armazenamento |
 | **Extensão de contexto longo** | Janela de trabalho maior | Mais memória de cache e mais processamento de prompts |
 
 **Leia a arquitetura antes de comprar memória.** A contagem de parâmetros sozinha esconde o custo de uma sessão longa de programação.

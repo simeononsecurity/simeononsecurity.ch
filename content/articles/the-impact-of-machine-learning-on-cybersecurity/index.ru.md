@@ -1,7 +1,7 @@
 ---
 title: "Влияние машинного обучения на кибербезопасность"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Узнайте, как машинное обучение помогает выявлять угрозы, определять их приоритет и реагировать на них, а также о пределах внедрения и рисках безопасности."
@@ -67,6 +67,6 @@ ______
 
 ## Ссылки
 
-1. "Что такое кибербезопасность?". Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2. "Машинное обучение в кибербезопасности". Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "Защита данных и устройств". Национальный институт стандартов и технологий. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "Что такое кибербезопасность?". Cisco. [руководство Cisco по кибербезопасности](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
+2. "Машинное обучение в кибербезопасности". Cylance. [статья Cylance о машинном обучении в кибербезопасности](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
+3.  "Защита данных и устройств". Национальный институт стандартов и технологий. [руководство NIST по защите данных и устройств](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)

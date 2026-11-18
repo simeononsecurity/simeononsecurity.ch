@@ -48,7 +48,7 @@ tags:
 cover: /img/cover/active-directory-module-powershell-installation-usage-guide.webp
 coverAlt: Una il·lustració d'una pantalla d'ordinador mostrant una consola de PowerShell amb cmdlets acolorits, envoltada de representacions abstractes de comptes d'usuari i grups, sobre un fons fosc.
 coverCaption: Desbloqueja el poder de l'administració d'Active Directory amb PowerShell.
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 ---
 
 ## Introducció
@@ -69,7 +69,7 @@ Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 -Online
 
 1. Espera que la instal·lació finalitzi. Un cop acabada, podràs començar a utilitzar el mòdul d'Active Directory.
 
-### Windows Server 
+### Windows Server
 1. Obre **Windows PowerShell** amb privilegis d'administrador.
 2. Executa la següent comanda per instal·lar el mòdul:
 
@@ -224,29 +224,29 @@ Utilitzant aquests cmdlets relacionats amb la seguretat, els administradors pode
 
 ## Exemple d'script del mòdul d'Active Directory per PowerShell
 ```powershell
-# Import Active Directory module
+# Importa el mòdul Active Directory
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# Recupera informació d’Active Directory
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# Crea un usuari nou d’Active Directory
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# Crea un grup nou d’Active Directory
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# Crea una unitat organitzativa nova d’Active Directory
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# Modifica objectes d’Active Directory
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# Gestiona la seguretat d’Active Directory
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

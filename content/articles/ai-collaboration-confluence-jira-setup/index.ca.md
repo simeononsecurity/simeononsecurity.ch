@@ -1,7 +1,7 @@
 ---
 title: "Configuració d’IA a Confluence i Jira: permisos i autoritat"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configureu pàgines de referència de Confluence i permisos de Jira gestionats per l’empresa per a una col·laboració entre equips revisada."
@@ -53,15 +53,15 @@ A l’octubre de 2026, feu servir el botó **Share** o el control de restriccion
 5. A cada pàgina de referència, **obriu Share**. Configureu l’accés general com a només lectura per als membres aptes de l’espai i concediu permisos d’edició específics als responsables i editors designats. Deseu i verifiqueu amb l’usuari col·laborador.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+ID de font: REQ-17
+Rol responsable: product-owner
+Estat: base aprovada
+Abast: només fitxers d’exportació sintètics
+Retenció: 7 dies
+Estat de lliurament: configuració base del laboratori
+Excepcions: s’exclouen les dades de producció, les còpies de seguretat i les obligacions legals de conservació
+Prova d’aprovació: revisió de la base DEC-12
+Referència d’implementació: adjunta el commit base protegit de GitHub
 ```
 
 **Apliqueu restriccions a cada pàgina de referència.** No suposeu que una restricció d’edició a una pàgina principal protegeix les seves pàgines filles. L’herència de lectura i edició funciona de manera diferent, i els permisos de l’espai també s’apliquen. Un enllaç per si sol no concedeix accés. Reviseu totes les pertinences si un usuari que només hauria de llegir encara pot editar.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Feu servir aquests textos inicials per a les altres dues pàgines.** Abans d’aprovar un registre, substituïu els camps de revisió provisionals per proves reals del sandbox.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+ID de font: RUN-04
+Rol responsable: operations-owner
+Estat: base aprovada
+Abast: només fitxers d’exportació sintètics
+Retenció configurada: 7 dies
+Procediment: compara REQ-17 amb config.json abans d’un canvi revisat
+Límit d’execució: aquest laboratori no té cap tasca d’eliminació ni genera proves d’eliminació
+Recuperació: restaura la configuració aprovada anterior després de revisar-la
+Límit de recuperació: restaurar la configuració no recupera els fitxers eliminats
+Prova de revisió: afegeix el revisor real, la versió de la pàgina i la referència de decisió
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Pàgina: Registre de decisions
+ID de l’entrada: DEC-12
+Decisió: usa set dies com a base sintètica
+Abast: només export-service-lab
+Requisit: registra la versió de la pàgina REQ-17 després de publicar-la
+Manual operatiu: registra la versió de la pàgina RUN-04 després de publicar-la
+Política: registra la revisió protegida de GitHub de POL-01 després de revisar-la
+Revisió del producte: pendent fins que el responsable designat registri una decisió
+Revisió d’operacions: pendent fins que el responsable designat registri una decisió
+Estat: exemple d’esborrany, substitueix-lo per proves de revisió observades
 ```
 
 ## Actualitzar el mapa
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Enganxeu aquest esborrany a PROP-042.** L’element de Jira fa el seguiment del lliurament. El seu text no substitueix la redacció aprovada a Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+ID de proposta: PROP-042
+Estat: esborrany
+Valor aprovat actual: 7 dies, cal registrar la versió de la pàgina REQ-17
+Valor proposat: 30 dies per als fitxers d’exportació sintètics
+Exclusions: dades de producció, còpies de seguretat i obligacions legals de conservació
+Registres afectats: REQ-17, RUN-04, config.json, proposal.json
+Adjunt fix de la proposta: pendent
+Revisió del responsable de producte: pendent
+Revisió del responsable d’operacions: pendent
+Registre de publicació: pendent
+Atura’t si canvia la versió de la font, falta una revisió o es denega l’accés
 ```
 
 | Rol | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Separeu la lectura, la preparació d’esborranys i la publicació.** Un col·laborador necessita prou accés per entendre el requisit sintètic i enviar una proposta. No necessita permís d’edició a la pàgina de referència ni permís per aprovar la seva pròpia proposta.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Registre de prova: PERM-REQ-EDIT
+Rol: col·laborador
+Font: REQ-17
+Precondició: la font és llegible i s’ha capturat la revisió publicada
+Intent: editar el requisit autoritatiu
+Resultat esperat: edició denegada, revisió publicada sense canvis
+Resultat observat: omple-ho des de l’entorn de proves
+Prova: resultat natiu i lectura independent de la revisió
+Revisor: administrador o revisor independent dels permisos
 ```
 
 **Feu servir un registre separat per a la lectura denegada.** El fet que el col·laborador pugui llegir el requisit comprova la separació entre publicació i edició. Que l’usuari exclòs no pugui obrir la pàgina comprova la confidencialitat. Ajuntar-ho en una fila amaga quin límit s’ha provat.

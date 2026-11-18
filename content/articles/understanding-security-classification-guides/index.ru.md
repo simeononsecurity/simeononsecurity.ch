@@ -1,6 +1,7 @@
 ---
 title: "Понимание значения классификационных справочников безопасности в защите информации"
 date: 2023-06-17
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Изучить важность классификационных справочников для защиты секретной информации и обеспечения соответствия нормативным требованиям."
@@ -78,7 +79,7 @@ ______
 
 ______
 
-## **References**
+## **Источники**
 
 1. [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 

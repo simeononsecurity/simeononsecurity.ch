@@ -1,7 +1,7 @@
 ---
 title: "উইন্ডোজ ডিরেক্টরি কাঠামো"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: দৃশ্যমান চিত্র, উইন্ডোজ ১১ আপডেট, নিরাপত্তা বিবেচনা এবং দক্ষ ফাইল ব্যবস্থাপনার জন্য বিশেষজ্ঞ নেভিগেশন কৌশলসহ উইন্ডোজ ডিরেক্টরি কাঠামোর সম্পূর্ণ ২০২৬ গাইড।
@@ -75,53 +75,53 @@ ______
 এখানে উইন্ডোজ ফাইল সিস্টেমের শ্রেণিবিন্যাসের একটি বিস্তৃত দৃশ্যমান উপস্থাপনা:
 
 ```
-C:\ (Root Directory)
+C:\ (রুট ডিরেক্টরি)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [সিস্টেম ফাইল ও অপারেটিং সিস্টেমের উপাদান]
+│   ├── System32\              [৬৪-বিট সিস্টেম ফাইল ও এক্সিকিউটেবল]
+│   ├── SysWOW64\              [৬৪-বিট সিস্টেমে ৩২-বিট সামঞ্জস্য স্তর]
+│   ├── Boot\                  [বুট কনফিগারেশন ও স্টার্টআপ ফাইল]
+│   ├── Fonts\                 [সিস্টেম ফন্ট]
+│   ├── Temp\                  [সিস্টেমের অস্থায়ী ফাইল]
+│   ├── assembly\              [.NET Framework অ্যাসেম্বলি]
+│   ├── inf\                   [ড্রাইভার ইনস্টলেশনের তথ্য]
+│   ├── WinSxS\                [Windows Side-by-Side কম্পোনেন্ট স্টোর]
+│   ├── Logs\                  [সিস্টেম লগ ফাইল]
+│   └── Security\              [নিরাপত্তা নীতি ও টেমপ্লেট]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [৬৪-বিট অ্যাপ্লিকেশন (৬৪-বিট সিস্টেমে)]
+│   ├── Common Files\          [শেয়ার করা প্রোগ্রাম উপাদান]
+│   └── [অ্যাপ্লিকেশন ফোল্ডার]  [পৃথক ইনস্টল করা প্রোগ্রাম]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [৬৪-বিট সিস্টেমে ৩২-বিট অ্যাপ্লিকেশন]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [অ্যাপ্লিকেশন ফোল্ডার]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [ব্যবহারকারী প্রোফাইল ডিরেক্টরি]
+│   ├── Public\                [শেয়ার করা ব্যবহারকারী ফাইল]
+│   ├── [ব্যবহারকারীর নাম]\            [পৃথক ব্যবহারকারী প্রোফাইল]
+│   │   ├── Desktop\           [ডেস্কটপ ফাইল]
+│   │   ├── Documents\         [ব্যবহারকারীর নথি]
+│   │   ├── Downloads\         [ডাউনলোড করা ফাইল]
+│   │   ├── Pictures\          [ব্যবহারকারীর ছবি]
+│   │   ├── Videos\            [ব্যবহারকারীর ভিডিও]
+│   │   ├── Music\             [ব্যবহারকারীর অডিও ফাইল]
+│   │   ├── AppData\           [অ্যাপ্লিকেশন ডেটা]
+│   │   │   ├── Local\         [কম্পিউটার-নির্দিষ্ট অ্যাপ ডেটা]
+│   │   │   ├── LocalLow\      [নিম্ন-অখণ্ডতার অ্যাপ ডেটা]
+│   │   │   └── Roaming\       [রোমিং প্রোফাইল ডেটা]
+│   │   ├── OneDrive\          [ক্লাউডে সিঙ্ক করা ফাইল (Windows 11)]
+│   │   └── Contacts\          [ব্যবহারকারীর পরিচিতি]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [শেয়ার করা অ্যাপ্লিকেশন ডেটা (লুকানো)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [অ্যাপ্লিকেশন ডেটা]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [পারফরম্যান্স লগ ও প্রতিবেদন]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [রিসাইকেল বিন (লুকানো)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [সিস্টেম পুনরুদ্ধার পয়েন্ট (লুকানো)]
 ```
 
 ______
@@ -135,7 +135,7 @@ ______
 - উইন্ডোজ ৩২-বিট সিস্টেমে, সিস্টেম ডিরেক্টরি সাধারণত **C:\Windows\System32** এ থাকে।
 - উইন্ডোজ ৬৪-বিট সিস্টেমে, ৬৪-বিট লাইব্রেরির জন্য সিস্টেম ডিরেক্টরি **C:\Windows\System32** এ থাকে, আর ৩২-বিট লাইব্রেরির জন্য **C:\Windows\SysWOW64** এ থাকে।
 
-**প্রধান সাবডিরেক্টরি এবং তাদের কার্য:
+**প্রধান সাবডিরেক্টরি এবং তাদের কার্য:**
 
 | সাবডিরেক্টরি | উদ্দেশ্য |
 |-------------|---------|
@@ -152,7 +152,7 @@ ______
 
 **ব্যবহারকারী ডিরেক্টরি** (যাকে ব্যবহারকারী প্রোফাইল ফোল্ডারও বলা হয়) প্রতিটি ব্যবহারকারী অ্যাকাউন্টের ব্যক্তিগতকৃত সেটিংস এবং ফাইল সংরক্ষণ করে। এতে ব্যবহারকারী-নির্দিষ্ট ডেটা যেমন ডকুমেন্ট, ডেস্কটপ ফাইল, ডাউনলোড এবং অ্যাপ্লিকেশন সেটিংস থাকে। ব্যবহারকারী ডিরেক্টরি অবস্থিত **C:\Users\username** এ, যেখানে "username" ব্যবহারকারী অ্যাকাউন্টের নাম।
 
-**ব্যবহারকারী ডিরেক্টরির বিস্তারিত উপাদান:
+**ব্যবহারকারী ডিরেক্টরির বিস্তারিত উপাদান:**
 
 | ডিরেক্টরি | বর্ণনা | সাধারণ আকার |
 |-----------|-------------|--------------|
@@ -176,7 +176,7 @@ ______
 - **C:\Program Files** - এই ডিরেক্টরিতে ৬৪-বিট অ্যাপ্লিকেশন ও প্রোগ্রাম থাকে।
 - **C:\Program Files (x86)** - ৬৪-বিট সিস্টেমে ৩২-বিট অ্যাপ্লিকেশন ও প্রোগ্রাম এখানে থাকে।
 
-**ইনস্টলেশন সেরা অনুশীলন:
+**ইনস্টলেশন সেরা অনুশীলন:**
 
 | বিবেচনা | সুপারিশ |
 |--------------|----------------|
@@ -303,9 +303,9 @@ ______
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # সাবডিরেক্টরিসহ সব আইটেম তালিকাভুক্ত করুন
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # নতুন ডিরেক্টরি তৈরি করুন
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **প্রয়োজনীয় পাওয়ারশেল কমান্ড:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # ডিরেক্টরি পরিবর্তন করুন (অ্যালিয়াস: cd)
+Get-ChildItem                    # আইটেম তালিকাভুক্ত করুন (অ্যালিয়াস: dir, ls)
+Get-ChildItem -Recurse           # পুনরাবৃত্তভাবে তালিকাভুক্ত করুন
+Get-ChildItem -Force             # লুকানো আইটেম দেখান
+Test-Path [path]                 # পাথ আছে কি না যাচাই করুন
+New-Item -ItemType Directory     # নতুন ডিরেক্টরি তৈরি করুন
+Remove-Item [path]               # আইটেম মুছুন
+Get-Item [path]                  # আইটেমের বৈশিষ্ট্য দেখুন
+Resolve-Path [path]              # আপেক্ষিক পাথকে পরম পাথে রূপান্তর করুন
 ```
 
 **উন্নত পাওয়ারশেল উদাহরণ:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# 10MB-এর বড় সব .log ফাইল খুঁজুন
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# ডিরেক্টরির আকার হিসাব করুন
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "ডিরেক্টরির আকার: $([math]::Round($size, 2)) GB"
 ```
 
 ### ৪. উইন্ডোজ টার্মিনাল (২০২৬ স্ট্যান্ডার্ড)
@@ -440,18 +440,18 @@ Windows **NTFS পারমিশন** ব্যবহার করে ডির
 
 **PowerShell পারমিশন অডিট উদাহরণ:**
 ```powershell
-# Get ACL for a directory
+# ডিরেক্টরির ACL দেখুন
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# অনুমতি CSV-তে রপ্তানি করুন
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
 ### সুরক্ষিত ডিরেক্টরি
 
-**Windows গুরুত্বপূর্ণ ডিরেক্টরিগুলোকে পরিবর্তন থেকে রক্ষা করে। [Microsoft Security Baselines](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines) অনুযায়ী, এই সুরক্ষা ম্যালওয়্যার থেকে সিস্টেমের অখণ্ডতা রক্ষা করে।
+**Windows গুরুত্বপূর্ণ ডিরেক্টরিগুলোকে পরিবর্তন থেকে রক্ষা করে।** [Microsoft Security Baselines](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines) অনুযায়ী, এই সুরক্ষা ম্যালওয়্যার থেকে সিস্টেমের অখণ্ডতা রক্ষা করে।
 
 **সুরক্ষিত অবস্থান:**
 - C:\Windows\System32\
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **সমাধান:**
 ```powershell
-# Take ownership of a file/folder
+# ফাইল/ফোল্ডারের মালিকানা নিন
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# অনুমতি দিন
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### সমস্যা ৩: WinSxS ডিরেক্টরি অতিরিক্ত স্থান দখল করছে
 
 **সমাধান:**
-```cmd
-# Analyze component store
+```powershell
+# কম্পোনেন্ট স্টোর বিশ্লেষণ
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# কম্পোনেন্ট স্টোর পরিষ্কার
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# প্রতিস্থাপিত সংস্করণ সরান (এটি ফিরিয়ে নেওয়া যায় না)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - অপ্রয়োজনীয় অ্যাপ্লিকেশন ডেটা মুছুন
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# AppData-র সবচেয়ে বড় ফোল্ডার দেখান
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### ৩. PowerShell মডিউল
 
 ```powershell
-# Install useful modules
+# দরকারি মডিউল ইনস্টল করুন
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# আইকনসহ উন্নত ডিরেক্টরি তালিকা
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **অডিটিং সক্ষম করুন:**
 ```powershell
-# Enable file auditing via PowerShell
+# PowerShell দিয়ে ফাইল অডিটিং চালু করুন
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Set-Acl "C:\Important\Directory" $acl
 - অননুমোদিত ফাইল টাইপ প্রতিরোধে ফাইল স্ক্রিন ডিপ্লয় করুন
 
 ______
+
+## বর্তমান Windows পাথ সম্পর্কে নোট
+
+সমর্থিত ডেস্কটপ সংস্করণগুলোতে Windows একই প্রধান ফোল্ডারগুলো রাখে, তবে কয়েকটি পাথে সতর্কতা দরকার:
+
+| পাথ | বর্তমান ভূমিকা | নিরাপদ ব্যবহার |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | ইনস্টল করা আর্কিটেকচারের নেটিভ সিস্টেম বাইনারি ও লাইব্রেরি। ৬৪-বিট Windows-এ ৩২-বিট প্রসেস **`SysWOW64`**-এর মাধ্যমে Windows-on-Windows স্তর ব্যবহার করে। | হাতে ফাইল প্রতিস্থাপন করবেন না। Windows Update, DISM, অথবা বিক্রেতার ইনস্টলার ব্যবহার করুন। |
+| **`C:\Windows\WinSxS`** | সার্ভিসিং ও পুনরুদ্ধারের জন্য ব্যবহৃত কম্পোনেন্ট স্টোর। হার্ড লিংকের কারণে File Explorer-এর আকারের অনুমান বিভ্রান্তিকর হতে পারে। | DISM দিয়ে কম্পোনেন্ট স্টোর বিশ্লেষণ ও পরিষ্কার করুন। ফোল্ডার থেকে ফাইল মুছবেন না। |
+| **`C:\Users\<name>\AppData`** | প্রতি-ব্যবহারকারীর অ্যাপ্লিকেশন অবস্থা। `Local`, `LocalLow`, এবং `Roaming` অ্যাপ ও প্রোফাইলের ভিন্ন প্রয়োজন মেটায়। | ক্যাশ পরিষ্কারের আগে অ্যাপের ডেটা ব্যাকআপ করুন। সব ফোল্ডার মুছে ফেলা নিরাপদ ধরে নেবেন না। |
+| **WSL 2 ডিস্ট্রিবিউশন স্টোরেজ** | ডিস্ট্রিবিউশনটি প্যাকেজের `LocalState` ডিরেক্টরিতে একটি `ext4.vhdx` ভার্চুয়াল ডিস্ক ব্যবহার করে। | ডিস্ক রক্ষণাবেক্ষণের আগে ডিস্ট্রিবিউশন এক্সপোর্ট করুন বা বন্ধ করুন। ভার্চুয়াল ডিস্ককে সাধারণ ফোল্ডারের মতো সম্পাদনা করবেন না। |
+
+পুরোনো চিত্র ও উদাহরণগুলো মানচিত্র হিসেবে এখনও কাজে লাগে। Microsoft WSL 2 ভার্চুয়াল ডিস্কের পাথ নথিভুক্ত করে এবং ব্যাখ্যা করে কেন ডিস্ট্রিবিউশন সাধারণ Windows ফাইলের বদলে ভার্চুয়াল হার্ড ডিস্কে থাকে। ডিস্ট্রিবিউশন ও ইনস্টল পদ্ধতি অনুসারে প্যাকেজের সঠিক নাম বদলে যায়। দেখুন [WSL ডিস্ক স্পেস সম্পর্কে Microsoft-এর নির্দেশিকা](https://learn.microsoft.com/en-us/windows/wsl/disk-space)।
+
+Microsoft ১৪ অক্টোবর ২০২৫-এ Windows 10 সংস্করণ 22H2-এর সমর্থন শেষ করেছে। আলাদা লাইফসাইকেল শর্তযুক্ত সংস্করণ বা যোগ্য Extended Security Update ব্যবস্থা এর ব্যতিক্রম। ২০২৬ সালে Windows 10-কে মাইগ্রেশন বা ব্যতিক্রম-ব্যবস্থাপনার ক্ষেত্র হিসেবে ধরুন। দেখুন [Windows 10 লাইফসাইকেল সম্পর্কে Microsoft-এর বিজ্ঞপ্তি](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support)।
+
+মূল অংশগুলোর আকারের সীমা ও গ্রহণের হার এই সাইটের পরিমাপ নয়, এগুলো উদাহরণমূলক পরিসংখ্যান। ইনস্টল করা সফটওয়্যার, আপডেটের ইতিহাস, প্রোফাইলের বিষয়বস্তু এবং সংরক্ষণ নীতির ওপর ডিরেক্টরির আকার নির্ভর করে। কিছু মোছার আগে স্থানীয় সিস্টেম পরীক্ষা করুন।
+
+## নিরাপদ ডিরেক্টরি রক্ষণাবেক্ষণের চেকলিস্ট
+
+1. সুরক্ষিত ডিরেক্টরি বদলানোর আগে পাথ, মালিক, ACL এবং ব্যবসায়িক উদ্দেশ্য নথিভুক্ত করুন।
+2. অ্যাপ্লিকেশন ডেটা সরানো বা অনুমতি বদলানোর আগে পুনরুদ্ধারযোগ্য ব্যাকআপ তৈরি করুন বা নিশ্চিত করুন।
+3. **Storage Sense**, **DISM**, **`robocopy`**, এবং অ্যাপ আনইনস্টলার মতো সমর্থিত টুল ব্যবহার করুন।
+4. কাজটিতে প্রশাসনিক অধিকার দরকার না হলে সাধারণ ব্যবহারকারী অ্যাকাউন্টে পরিবর্তন পরীক্ষা করুন।
+5. রক্ষণাবেক্ষণের পরে Event Viewer ও অ্যাপ্লিকেশন লগ পর্যালোচনা করুন।
+6. মূল পাথ, কমান্ড, সময় এবং ফলাফলসহ রোলব্যাক রেকর্ড রাখুন।
+
+**পর্যালোচনা না করা গন্তব্যে `/MIR` ব্যবহার করবেন না।** `robocopy /MIR` উৎসে নেই এমন গন্তব্যের ফাইল মুছে দেয়।
+
 
 ## উপসংহার
 

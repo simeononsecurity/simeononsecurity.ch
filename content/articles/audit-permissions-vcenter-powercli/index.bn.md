@@ -1,7 +1,7 @@
 ---
 title: "PowerCLI দিয়ে vCenter-এর অনুমতি অডিট করার পদ্ধতি"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ভার্চুয়াল অবকাঠামো সুরক্ষিত রাখতে PowerCLI দিয়ে vCenter-এর অনুমতি অডিট করতে শিখুন।"
@@ -82,22 +82,22 @@ PowerCLI ইনস্টল ও vCenter-এ সংযুক্ত রেখে �
 
    উদাহরণ:
    ```powershell
-         # Connect to vCenter
+         # vCenter-এ সংযোগ করুন
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # vCenter-এর সব ব্যবহারকারী সংগ্রহ করুন
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # ব্যবহারকারীর অনুমতি সংরক্ষণের জন্য একটি অ্যারে শুরু করুন
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # প্রতিটি ব্যবহারকারীর অনুমতি সংগ্রহ করতে একে একে তাদের দেখুন
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # অনুমতিগুলো CSV ফাইলে রূপান্তর করুন
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 

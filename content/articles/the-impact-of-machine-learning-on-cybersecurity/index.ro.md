@@ -1,7 +1,7 @@
 ---
 title: "Impactul învățării automate asupra securității cibernetice"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Aflați cum învățarea automată sprijină detectarea, trierea și răspunsul la amenințări, precum și limitele de implementare și riscurile de securitate."
@@ -67,6 +67,6 @@ ______
 
 ## Referințe
 
-1. "Ce este securitatea cibernetică?" Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2. "Învățarea automată în securitatea cibernetică". Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "Securizarea datelor și a dispozitivelor". Institutul Național de Standarde și Tehnologie. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "Ce este securitatea cibernetică?" Cisco. [ghidul Cisco despre securitate cibernetică](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
+2. "Învățarea automată în securitatea cibernetică". Cylance. [articolul Cylance despre învățarea automată în securitatea cibernetică](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
+3.  "Securizarea datelor și a dispozitivelor". Institutul Național de Standarde și Tehnologie. [ghidul NIST pentru securizarea datelor și dispozitivelor](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)

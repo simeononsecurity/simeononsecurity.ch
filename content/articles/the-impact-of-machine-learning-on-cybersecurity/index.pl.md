@@ -1,11 +1,11 @@
 ---
 title: "Wpływ uczenia maszynowego na bezpieczeństwo cybernetyczne"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Dowiedz się, jak uczenie maszynowe wspiera wykrywanie i priorytetyzację zagrożeń oraz reagowanie na nie, a także poznaj ograniczenia wdrożenia i zagrożenia dla bezpieczeństwa."
-tags: ["Uczenie maszynowe", "Cybersecurity", "Adaptacja", "Sztuczna inteligencja", "Wykrywanie zagrożeń", "Ochrona danych", "W czasie rzeczywistym", "Uczenie się pod nadzorem", "Uczenie bez nadzoru", "Uczenie się przez wzmocnienie", "Fałszywe pozytywy", "Fałszywe negatywy", "Szkolenie pracowników", "Rozwiązania w zakresie bezpieczeństwa", "Analityka danych", "Bezpieczeństwo sieci", "Bezpieczeństwo w chmurze", "Rozpoznawanie wzorów", "Wykrywanie anomalii", "Cyberzagrożenia"]
+tags: ["Uczenie maszynowe", "Cyberbezpieczeństwo", "Adaptacja", "Sztuczna inteligencja", "Wykrywanie zagrożeń", "Ochrona danych", "W czasie rzeczywistym", "Uczenie się pod nadzorem", "Uczenie bez nadzoru", "Uczenie się przez wzmocnienie", "Fałszywe pozytywy", "Fałszywe negatywy", "Szkolenie pracowników", "Rozwiązania w zakresie bezpieczeństwa", "Analityka danych", "Bezpieczeństwo sieci", "Bezpieczeństwo w chmurze", "Rozpoznawanie wzorów", "Wykrywanie anomalii", "Cyberzagrożenia"]
 cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Kreskówkowy robot stojący na straży przed wirtualną tarczą, symbolizujący wykorzystanie uczenia maszynowego w cyberbezpieczeństwie."
 coverCaption: ""
@@ -67,6 +67,6 @@ Uczenie maszynowe zrewolucjonizowało obszar cyberbezpieczeństwa, zapewniając 
 
 ## Referencje.
 
-1. "What Is Cybersecurity?" Cisco.[https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2. "Machine Learning in Cybersecurity". Cylance.[https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "Securing Data & Devices." National Institute of Standards and Technology.[https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "What Is Cybersecurity?" Cisco.[poradnik Cisco dotyczący cyberbezpieczeństwa](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (dostęp uzyskano 4 marca 2023)
+2. "Machine Learning in Cybersecurity". Cylance.[artykuł Cylance o uczeniu maszynowym w cyberbezpieczeństwie](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (dostęp uzyskano 4 marca 2023)
+3.  "Securing Data & Devices." National Institute of Standards and Technology.[poradnik NIST o zabezpieczaniu danych i urządzeń](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (dostęp uzyskano 4 marca 2023)

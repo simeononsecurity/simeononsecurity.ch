@@ -1,7 +1,7 @@
 ---
 title: "OpenRouter प्रोवाइडर रूटिंग: मॉडल गुणवत्ता, टोकन सीमाएं और वास्तविक लागत"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "OpenRouter के असंगत उत्तरों का निदान करें, एंडपॉइंट सीमाओं और कैश लागत की तुलना करें, और गुणवत्ता नियंत्रणों को गलती से बंद किए बिना प्रोवाइडर रूटिंग कॉन्फ़िगर करें।"
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+कार्यभार: 6 मिलियन इनपुट टोकन + 1 मिलियन आउटपुट टोकन
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+प्रति मिलियन संयुक्त इनपुट और आउटपुट टोकन:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```
@@ -202,7 +202,7 @@ B =  $3.84 / 7 = $0.55
 | **अप्रत्याशित खर्च** | आउटपुट मात्रा, कैश रीड, रिट्राई, प्रोवाइडर बदलाव |
 | **कोई पात्र प्रोवाइडर नहीं** | टकराती सीमाएं, allowlist और फॉलबैक प्रतिबंध |
 
-**प्रतिक्रिया के साथ आया generation ID बचाएं।** OpenRouter की [generation metadata API](https://openrouter.ai/docs/api/api-reference/generations/get-request-&-usage-metadata-for-a-generation) प्रोवाइडर पहचान, उपयोग, लागत और समाप्ति जानकारी दिखाती है। session ID जुड़े काम को समूहित करती है, पर एक अनुरोध की जांच के लिए generation ID का स्थान नहीं लेती।
+**प्रतिक्रिया के साथ आया generation ID बचाएं।** OpenRouter की [जनरेशन मेटाडेटा API](https://openrouter.ai/docs/api/api-reference/generations/get-request-&-usage-metadata-for-a-generation) प्रोवाइडर पहचान, उपयोग, लागत और समाप्ति जानकारी दिखाती है। session ID जुड़े काम को समूहित करती है, पर एक अनुरोध की जांच के लिए generation ID का स्थान नहीं लेती।
 
 **generation ID के साथ अनुरोध भी बचाएं।** मॉडल, प्रोवाइडर प्राथमिकताएं, मांगे पैरामीटर, समय और प्रतिक्रिया उपयोग को साथ रखें। रूटिंग, कीमत या एंडपॉइंट मेटाडेटा बदलने के बाद भी बाद की गुणवत्ता या लागत तुलना दोहराई जा सकेगी।
 

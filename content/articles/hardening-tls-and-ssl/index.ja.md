@@ -1,7 +1,7 @@
 ---
 title: "SSL と TLS 1.1 以前を無効にしてコンピューターのセキュリティを強化する"
 date: 2023-02-08
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "TLS 1.2 以降を維持しながら、SSL と古い TLS バージョンを無効にします。Windows の Schannel、.NET、Linux サービスを扱います。"
@@ -42,17 +42,17 @@ Function Disable-Protocol {
     Set-ItemProperty -Path $ClientPath -Force -Name Enabled -Type "DWORD" -Value 0
     Set-ItemProperty -Path $ClientPath -Force -Name DisabledByDefault -Type "DWORD" -Value 1
 }
-# Disable SSL v2
+# SSL v2 を無効化
 Disable-Protocol -Protocol "SSL 2.0"
-# Disable SSL v3
+# SSL v3 を無効化
 Disable-Protocol -Protocol "SSL 3.0"
-# Disable TLS 1.0
+# TLS 1.0 を無効化
 Disable-Protocol -Protocol "TLS 1.0"
-# Disable DTLS 1.0
+# DTLS 1.0 を無効化
 Disable-Protocol -Protocol "DTLS 1.0"
-# Disable TLS 1.1
+# TLS 1.1 を無効化
 Disable-Protocol -Protocol "TLS 1.1"
-# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
+# DTLS 1.1 プロトコルはありません。RFC 8996 は DTLS 1.0 を非推奨とし、DTLS 1.2 を維持しています。
 
 function Set-NETStrongAuthentication {
     param(

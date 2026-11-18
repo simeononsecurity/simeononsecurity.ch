@@ -42,7 +42,7 @@ SteamOSの詳細な情報およびダウンロードは、公式ウェブサイ�
 
 ### その他のゲーム向けLinuxディストロ
 
-とはいえ [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/), and [SteamOS](https://store.steampowered.com/steamos/)はLinuxゲームのトップチョイスの一つですが、他にも探索する価値のある注目のLinuxディストリビューションがあります：
+Linuxゲームに適したディストリビューションとして、[Ubuntu](https://ubuntu.com/download)、[Zorin OS](https://zorinos.com/)、[Manjaro](https://manjaro.org/)、[SteamOS](https://store.steampowered.com/steamos/)が人気ですが、ほかにも探索する価値のある注目のLinuxディストリビューションがあります：
 
 - [**Pop!_OS**](https://pop.system76.com/)System76によって開発されたPop！_OSは、最適化されたゲーム体験を提供し、ノートパソコン用の自動GPU切り替えなどの機能を備えています。
 - [**Fedora**](https://www.fedoraproject.org/)Fedoraは、最先端技術と最新のソフトウェアアップデートに重点を置いており、優れたゲームサポートを提供します。

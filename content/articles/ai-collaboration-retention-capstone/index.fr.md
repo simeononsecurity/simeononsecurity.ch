@@ -1,7 +1,7 @@
 ---
 title: "Projet final de collaboration IA : GitHub, Confluence et Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Livrez une modification synthétique de rétention avec des workflows GitHub-first et Confluence/Jira, des preuves d'échec et une revue indépendante."
@@ -46,16 +46,16 @@ coverCaption: ""
 **Ouvrez l'Issue et la PR candidate** avec les leçons GitHub. Modifiez ensemble l'exigence, la configuration, la proposition et le runbook. Capturez la base protégée, exécutez les contrôles fiables et obtenez les revues produit et opérations sur le commit final.
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
+Exécution: GitHub-first
+Modification: conservation synthétique 7 -> 30 jours
+Exigence: REQ-17 révision 2
 Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+Runbook: durée de conservation : 30 jours
+Proposition: révision de base 1, de 7, à 30
+Manifeste: hachages des sources protégées avant modification
+Revue: revue produit et opérations sur la version finale de la proposition
+Publication: commit fusionné et nouvelle lecture de vérification
+Limite: aucun service de suppression en cours d’exécution testé
 ```
 
 **Remplissez les références réelles depuis le bac à sable.** Le plan indique la correspondance attendue, pas des preuves terminées. Le mainteneur ne fusionne qu'après la revue, puis lit indépendamment **`main`**. Fermez l'Issue après avoir lié les enregistrements finaux.
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    mêmes catégories de preuves, collectées indépendamment
 ```
 
 **Ces noms sont un exemple d'organisation**, pas des fichiers d'archive fournis. Stockez les preuves réelles en privé dans le bac à sable approuvé. Les travaux partagés doivent utiliser des rôles et des références expurgées, tandis que les réviseurs gardent l'accès aux enregistrements natifs.
@@ -148,6 +148,23 @@ capstone-evidence/
 5. **Réparez par la revue :** conservez les preuves d'échec avant de restaurer les contrôles.
 6. **Répétez le cas positif :** confirmez que le workflow corrigé livre encore le travail autorisé.
 
+**Carte d’injection et de réinitialisation pour chaque cas :** avant le cas suivant, utilise une nouvelle proposition synthétique ou restaure une base révisée. La personne observatrice consigne la précondition et confirme la réinitialisation. N’efface jamais la tentative échouée du registre.
+
+| Cas | Injection et vérification : GitHub-first | Injection et vérification : Mixed | Réinitialisation avant le cas suivant |
+|---|---|---|---|
+| Changement approuvé | Envoie le PR figé, obtiens les deux revues, fusionne-le puis rouvre `main` | Publie REQ-17, fusionne le diff révisé, publie RUN-04 puis relis les enregistrements | Enregistre les révisions finales comme nouvelle base |
+| Contexte obsolète | Capture un manifeste, puis modifie la base de test avec un PR distinct et révisé avant de valider l’ancienne proposition | Capture les versions des pages, puis fais modifier une page de test par un éditeur autorisé avant la lecture préalable à l’écriture | Arrête-toi, compare les versions, capture de nouvelles sources et fais réviser un nouveau paquet |
+| Écriture non autorisée | Contributor tente un push direct sans danger vers `main` protégé et enregistre le refus du serveur | Contributor tente de modifier REQ-17 et de déclencher Approved | Relis le commit, la version de page et l’état Jira pour confirmer qu’ils n’ont pas changé |
+| Conflit | Le brouillon de l’Issue indique soixante jours, le fichier approuvé en indique sept | Le brouillon Jira indique soixante jours, REQ-17 en indique sept | La personne responsable du produit concilie le brouillon et consigne sa décision |
+| Publication partielle | Arrête-toi après l’approbation et avant la fusion ou la relecture, en laissant l’Issue ouvert | Arrête-toi après la relecture de REQ-17 tandis que la configuration et RUN-04 indiquent encore sept | Garde la livraison en attente et demande une décision révisée de finalisation ou de compensation |
+| Refus d’accès | Une identité de test exclue tente de lire une source synthétique dans un dépôt de test privé | L’identité exclue tente d’accéder à une page synthétique restreinte | Rétablis uniquement l’accès de test approuvé et vérifie que le lecteur habituel fonctionne toujours |
+| Récupération | Interromps un changement de test approuvé, puis propose une finalisation ou un revert révisé | Utilise le registre de publication partielle pour proposer une finalisation ou une compensation révisée | Relis chaque source et rapproche-la du registre |
+| Relève | Envoie MAP-01 et le registre à une nouvelle personne sans l’ancien chat | Envoie les ID des pages mappées et le registre à une nouvelle personne sans l’ancien chat | La personne ouvre les sources actuelles et consigne la prochaine action autorisée |
+
+Pour chaque cas refusé, consigne la réponse de la plateforme et relis l’enregistrement protégé. Pour le cas de l’utilisateur exclu, consulte les traces d’outils, les journaux de récupération ou les pistes d’audit du fournisseur afin de vérifier si le texte protégé a atteint la tâche. Sans ces preuves, marque ce contrôle de sécurité d’accès comme Bloqué : un refus visible ne prouve pas qu’aucun extrait en cache n’a été renvoyé. Si le contrôle n’est pas disponible dans l’offre ou si une identité de test approuvée manque, indique Bloqué au lieu de simuler un succès.
+
+
+
 **Un échec planifié reste une observation d'échec.** Ne qualifiez pas une publication non autorisée de test réussi simplement parce que vous vouliez sonder le contrôle. Le test a réussi à exposer un défaut, mais la limite de publication a échoué et exige une réparation.
 
 ## Interpréter un résultat mixte
@@ -164,37 +181,53 @@ capstone-evidence/
 
 **Raisonnement attendu :** gardez l'exécution incomplète, vérifiez les sources actuelles et demandez la décision du responsable approprié. Ne terminez pas en affaiblissant les permissions ou en décrivant le contrôle d'instantané comme une preuve de publication en direct.
 
+**Paquet pédagogique Mixed, synthétique et sans données de tenant :**
+
+```text
+Exécution : MIXED-042-example
+Base capturée : REQ-17 v4 = 7 jours ; RUN-04 v2 = 7 jours.
+GitHub main base-001 config.json = {"retention_days": 7} ; Jira PROP-042 r1 = In Review.
+Proposition figée : REQ-17 v5 fixe à 30 jours la conservation des exports synthétiques. Les données de production, sauvegardes et obligations légales sont exclues.
+GitHub config.json fait passer retention_days de 7 à 30. RUN-04 v3 indique 30 jours ; aucun service de suppression ne tourne dans ce labo. La publication incomplète reste en attente.
+Revue : le responsable produit approuve le texte exact de REQ-17. L’équipe opérations approuve le diff de configuration et le runbook à r1.
+Publication : l’éditeur relit REQ-17 v5 et RUN-04 v3, qui indiquent 30 jours ; le mainteneur relit main à merge-002 avec retention_days 30.
+Action refusée : l’édition de REQ-17 v5 par le contributeur est refusée. L’éditeur confirme que la version n’a pas changé et l’observateur conserve la preuve native.
+Récupération : une tentative RUN-04 échoue, Jira reste Blocked. Les opérations autorisent une nouvelle tentative ; après relecture de v3, Jira passe à Done.
+Relève : une nouvelle personne reçoit MAP-01 et le registre, relit les trois sources et Jira, puis signale les 30 jours et la lacune d’exécution.
+Limite : seule la publication des sources est démontrée. Délai de suppression : non exécuté.
+```
+
 ## Revoir avec un lecteur indépendant
 
 **Demandez au réviseur de reconstruire les événements**, pas seulement de lire votre conclusion. Il doit trouver la référence approuvée, la proposition figée, les décisions des responsables, les révisions obtenues, les tentatives échouées, la réparation et les lacunes restantes sans votre narration.
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+Questions de revue indépendante :
+Quelle source définit l’intention de conservation dans ce parcours ?
+Quel paquet exact chaque responsable a-t-il examiné ?
+Une source a-t-elle changé après la revue ?
+Qu’est-ce qui a été publié et qu’est-ce qui reste en attente ?
+Quelle action refusée a été observée sous quel rôle ?
+Un texte protégé a-t-il atteint le contexte d’un utilisateur exclu ?
+Quelle correction a été revue et relue ?
+La nouvelle relève permet-elle de reconstruire seule l’état actuel ?
 ```
 
 **Notez chaque exigence séparément.** Utilisez Supported, Failed, Blocked ou Not run avec une référence de preuve. Cohérence, approbation, permissions, récupération et passation sont des exigences distinctes. Une collection de tests locaux au vert ne compense pas une limite de publication en direct défaillante.
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+ID et parcours :
+Rôle et date de revue :
+Cas 01 changement approuvé : statut ___ preuve ___ lacune ___
+Cas 02 contexte périmé : statut ___ preuve ___ lacune ___
+Cas 03 écriture non autorisée : statut ___ preuve ___ lacune ___
+Cas 04 conflit : statut ___ preuve ___ lacune ___
+Cas 05 publication partielle : statut ___ preuve ___ lacune ___
+Cas 06 refus d’accès : statut ___ preuve ___ lacune ___
+Cas 07 récupération : statut ___ preuve ___ lacune ___
+Cas 08 relève : statut ___ preuve ___ lacune ___
+Décision générale : Étayée / Échec / Bloquée / Non exécutée
+Prochain rôle responsable et action :
 ```
 
 **Supported signifie que le réviseur a trouvé une preuve observée pour chaque cas applicable.** Notez Failed pour un échec de contrôle observé, Blocked pour un accès ou contrôle manquant et Not run pour un cas non tenté. Gardez chaque référence native dans son fichier de preuve nommé.
@@ -204,17 +237,17 @@ Next accountable role and action:
 **Paquet de modèle expurgé, illustratif uniquement :**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+Parcours : github-first | Exécution : G-01 | Relecteur : rôle pilote indépendant
+Base : commit protégé base-001 | Proposition figée : PROP-042 r1
+Approbations : revue produit P-01, revue opérations O-01
+Cohérence : contrôle local réussi, sortie C-01 enregistrée
+Permission : push direct du contributeur refusé, événement D-01
+Publication : commit merge-002 ; un clone neuf confirme 30 jours
+Exception : sauvegardes et obligations légales exclues
+Récupération : interruption R-01 relue et résolue après revue
+Relève : la seconde personne retrouve la base, l’exception et l’étape suivante
+Limite : aucune affirmation de suppression ou déploiement en production
+Décision : étayée uniquement pour le parcours GitHub-first synthétique
 ```
 
 Remplacez chaque référence illustrative par un artefact observé du bac à sable. Répétez le paquet complet pour la piste Mixed avec ses propres versions sources et revues. Le réviseur doit rejeter une approbation GitHub copiée dans le paquet Mixed.
@@ -243,14 +276,14 @@ Remplacez chaque référence illustrative par un artefact observé du bac à sab
 ## Créer la décision de déploiement
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+Décision : autre pilote synthétique, bloqué ou rejeté
+Preuves : deux dossiers d’exécution et matrice des échecs
+Exigences non imposées : énumérer explicitement les contrôles procéduraux
+Revue fournisseur : périmètre des entrées et conservation
+Responsabilités : produit, opérations, politique, dépôt, livraison
+Lacunes de production : tests d’exécution, secrets, déploiement, revue d’accès
+Étape suivante : suivi limité avec un responsable
+Date de revue : fixée par les responsables du pilote
 ```
 
 **Raisonnement attendu :** une réussite synthétique justifie un autre pilote borné. La production exige une approbation distincte pour les données réelles, le déploiement, le traitement par le fournisseur et le comportement à l'exécution. Une réponse réussie de l'assistant n'est pas une autorisation de déploiement.

@@ -1,7 +1,7 @@
 ---
 title: "ਖੋਜ, ਡਿਜ਼ਾਈਨ ਅਤੇ ਵਿਕਾਸ ਲਈ 9 AI Agent Skill ਪ੍ਰੋਜੈਕਟ"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ਵਰਕਫਲੋ, ਹੋਸਟ ਸਹਾਇਤਾ, ਨਿਰਭਰਤਾਵਾਂ ਅਤੇ ਲਾਗਤ ਦੇ ਆਧਾਰ ਤੇ ਨੌਂ agent skill ਪ੍ਰੋਜੈਕਟਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ। ਆਪਣੀ ਲੋੜ ਵਾਲੀਆਂ skills ਨੂੰ ਇੰਸਟਾਲ, ਜਾਂਚ ਅਤੇ ਟੈਸਟ ਕਰਨਾ ਸਿੱਖੋ।"
@@ -62,7 +62,7 @@ coverCaption: "ਕੰਮ-ਵਿਸ਼ੇਸ਼ agent skill ਲਾਇਬ੍ਰੇ
 
 **Draft ਨਾਲ constraints ਦਿਓ।** Audience, ਬਚੇ ਰਹਿਣ ਵਾਲੇ facts ਅਤੇ ਨਾਲ ਰਹਿਣ ਵਾਲੇ citations ਦੱਸੋ। Editing ਤੋਂ ਬਾਅਦ factual claims ਦੀ original ਨਾਲ ਤੁਲਨਾ ਕਰੋ। Better rhythm unsupported statistic ਨੂੰ validate ਨਹੀਂ ਕਰਦੀ।
 
-| Writing check | Passing result |
+| ਲਿਖਤ ਦੀ ਜਾਂਚ | ਸਫਲ ਨਤੀਜਾ |
 |---|---|
 | **Meaning** | ਉਹੀ claims, qualifications ਅਤੇ scope |
 | **Sources** | Attribution borrowed findings ਦੇ ਨੇੜੇ ਰਹਿੰਦੀ ਹੈ |
@@ -126,7 +126,7 @@ coverCaption: "ਕੰਮ-ਵਿਸ਼ੇਸ਼ agent skill ਲਾਇਬ੍ਰੇ
 
 **Documented core set ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।** Current installation guidance core skills ਨੂੰ larger published collection ਅਤੇ repository-internal skills ਤੋਂ ਵੱਖ ਕਰਦੀ ਹੈ। ਹਰ folder indiscriminately install ਕਰਨ ਨਾਲ unrelated instructions ਅਤੇ maintenance burden ਵਧਦਾ ਹੈ।
 
-| Video workflow | Important acceptance check |
+| Video workflow | ਮਹੱਤਵਪੂਰਨ ਸਵੀਕਾਰਤਾ ਜਾਂਚ |
 |---|---|
 | **Watch** | Timestamped observations inspected media ਨਾਲ agree ਕਰਦੇ ਹਨ |
 | **Remotion** | Final export timing, fonts, audio ਅਤੇ layout ਬਚਾਉਂਦਾ ਹੈ |
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **ਹੇਠਲੇ example commands projects ਦੀ current installation documentation ਤੋਂ ਹਨ।** Selected project ਲਈ ਸਿਰਫ਼ command ਚਲਾਓ। Package runner installer code download ਅਤੇ execute ਕਰਦਾ ਹੈ। Upstream project inspect ਕਰੋ ਅਤੇ installation scope ਚੁਣੋ।
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: ਵਰਤੋਂਕਾਰ-ਪੱਧਰ ’ਤੇ Codex ਇੰਸਟਾਲੇਸ਼ਨ
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: ਵਰਤੋਂਕਾਰ-ਪੱਧਰ ’ਤੇ Codex ਇੰਸਟਾਲੇਸ਼ਨ
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: ਅਧਿਕਾਰਤ ਸਕਿੱਲ ਸੰਗ੍ਰਹਿ, ਫਰੇਮਵਰਕ ਰਿਪੋਜ਼ਟਰੀ ਨਹੀਂ
 npx skills add remotion-dev/skills
 ```
 
@@ -169,7 +169,7 @@ npx skills add remotion-dev/skills
 
 **Existing installations ਬਚਾਓ।** Skill replace ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਦਾ version, local changes ਅਤੇ manager check ਕਰੋ। User, project ਅਤੇ plugin locations ਵਿੱਚ competing copies ਨਾ ਰੱਖੋ, ਜਦ ਤੱਕ host resolution method document ਨਾ ਕਰੇ।
 
-| Installation state | What it establishes |
+| ਇੰਸਟਾਲੇਸ਼ਨ ਦੀ ਸਥਿਤੀ | ਇਹ ਕੀ ਸਥਾਪਿਤ ਕਰਦਾ ਹੈ |
 |---|---|
 | **Files present** | Instructions ਅਤੇ referenced assets ਮੌਜੂਦ ਹਨ |
 | **Host discovers skill** | Agent ਇਸ ਦਾ name ਅਤੇ description ਪਛਾਣਦਾ ਹੈ |
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **ਇੱਕ saved task ਨੂੰ baseline ਬਣਾਓ।** ਪਹਿਲਾਂ new skill ਤੋਂ ਬਿਨਾਂ ਚਲਾਓ। ਫਿਰ skill ਨਾਲ ਚਲਾਓ ਅਤੇ ਜਿੱਥੇ ਸੰਭਵ ਹੋਵੇ model, input, tools ਅਤੇ acceptance criteria steady ਰੱਖੋ। Failures ਅਤੇ human corrections ਨੂੰ final result ਨਾਲ record ਕਰੋ।
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# ਉਦਾਹਰਨਾਤਮਕ ਮੁਲਾਂਕਣ ਰਿਕਾਰਡ, ਸਕਿੱਲ ਸੰਰਚਨਾ ਸਕੀਮਾ ਨਹੀਂ
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

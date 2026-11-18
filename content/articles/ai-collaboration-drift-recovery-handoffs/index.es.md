@@ -1,7 +1,7 @@
 ---
 title: "Recuperación ante la deriva de agentes de IA y flujo de traspaso"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Detecta fuentes y adaptadores de políticas obsoletos, recupera publicaciones interrumpidas y verifica traspasos independientes entre agentes."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Ejecuta la comprobación previa
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Lee MAP-01 y registra su revisión.
+Lee POL-01 y compara las versiones de los adaptadores activos.
+Lee REQ-17 y RUN-04 en las ubicaciones indicadas en el mapa.
+Lee config.json en main protegido.
+Lee la propuesta congelada y las revisiones actuales de cada rol.
+Compara las fuentes actuales con las bases revisadas.
+Enumera discrepancias, lecturas denegadas y publicaciones pendientes.
+Detén las escrituras con consecuencias hasta que los responsables resuelvan cada discrepancia.
 ```
 
 **La persona colaboradora hace la comprobación previa antes de redactar. La persona publicadora la repite antes de escribir.** Conserva la comparación de versiones con la propuesta. Las comprobaciones semanales complementan estas lecturas, pero no las sustituyen.
@@ -103,16 +103,16 @@ choices:
 ## Verifica un traspaso independiente
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Traspaso: HANDOFF-042
+Tarea: PROP-042
+Mapa y política: adjunta las revisiones vigentes aprobadas
+Evidencia: referencias a requisitos, runbook y configuración
+Registro: completed, failed, pending
+Decisión: elección del responsable y revisión fija de la propuesta
+Límites: no se probó la eliminación en tiempo de ejecución ni se usaron datos de producción
+Siguiente rol: rol responsable
+Siguiente acción: un paso acotado
+Detente: base modificada, acceso denegado o autoridad en conflicto
 ```
 
 **Abre otra herramienta o una sesión limpia** con el mapa y el traspaso, no con la conversación anterior. Exige nuevas lecturas de las fuentes, un manifiesto nuevo y la identificación de la acción pendiente. Las pruebas manuales del navegador siguen siendo válidas si se etiquetan como instantánea y se vuelven a comprobar antes de escribir.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **La compensación no borra el historial.** Conserva como registros separados el intento de cambio a treinta días, su fallo y la restauración posterior. La fuente final indica siete, mientras el historial de entrega explica por qué la propuesta aprobada no terminó.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Decisión de recuperación: compensación ilustrativa
+Propuesta original: PROP-042, revisión 1
+Discrepancia observada: requisito 30, configuración/runbook 7
+Decisión del responsable: restaurar la intención base aprobada
+Objeto de revisión: comparar la compensación fija con la versión actual del requisito
+Resultado: registra la revisión resultante y vuelve a leer el valor de siete días
+Entrega original: retírala o bloquéala con una explicación
+Límite: no se realizó eliminación en tiempo de ejecución ni restauración de datos
 ```
 
 **Conserva explícitamente cualquier excepción que haya añadido otra persona.** Pegar a ciegas el contenido de una página antigua puede eliminar un cambio intermedio válido. Compara el texto actual con el previsto y luego revisa una modificación compensatoria mínima respecto de la versión actual.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Usa una sesión limpia y otra persona revisora.** Proporciona el mapa, el paquete fijado, el registro y la decisión de recuperación. No compartas el chat anterior. Pide a quien recibe el traspaso que indique la intención actual, la configuración, las instrucciones operativas y la próxima acción autorizada.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Lee por separado las fuentes actuales indicadas en el mapa.
+Distingue la intención aprobada, la configuración confirmada y el estado de entrega.
+Compáralas con el paquete revisado y el registro.
+Enumera las lecturas pendientes y las bases que cambiaron.
+Recomienda un único siguiente paso acotado e indica quién responde por él.
+No trates este traspaso como aprobación ni como permiso de publicación.
 ```
 
 **Razonamiento esperado:** quien recibe verifica el resultado de la compensación antes de afirmar que se restauró la base. Si solo repite «siete días» del traspaso, no se ha probado el requisito de lectura independiente. Pide pruebas de las fuentes en lugar de otro resumen.
@@ -219,4 +219,4 @@ Entrega este inventario a una segunda persona sin el chat anterior. El traspaso 
 
 ## Próximos pasos
 
-**Completa el [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** con ambos recorridos y una segunda persona lectora. Muestra lecturas actuales de las fuentes, desajustes de versiones, quién decide, la recuperación revisada, la lectura de retorno y la reconstrucción independiente.
+**Completa el [Capítulo final sobre retención](/articles/ai-collaboration-retention-capstone/)** con ambos recorridos y una segunda persona lectora. Muestra lecturas actuales de las fuentes, desajustes de versiones, quién decide, la recuperación revisada, la lectura de retorno y la reconstrucción independiente.

@@ -1,7 +1,7 @@
 ---
 title: "Maîtriser les incidents de cybersécurité"
 date: 2023-10-08
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Apprenez à élaborer un plan solide de réponse aux incidents de cybersécurité afin d'en limiter les effets et de protéger votre organisation contre les cybermenaces."
@@ -33,11 +33,11 @@ L'un des principaux motifs d'adopter un **plan complet de réponse aux incidents
 
 Les **atteintes à la réputation** provoquées par un incident peuvent également être **graves**. Aujourd'hui, l'information circule rapidement sur les réseaux sociaux et les plateformes en ligne. L'annonce d'une **violation de données** ou d'une **cyberattaque** peut ternir l'image d'une organisation et affaiblir la **confiance des clients**. Cela peut entraîner la perte d'occasions commerciales, une baisse de fidélité et des difficultés à attirer de nouveaux clients. Un plan permet de **gérer la réputation de façon proactive**, en répondant rapidement et avec transparence pour **limiter les dommages à la marque**.
 
-Au-delà des conséquences financières et réputationnelles, les incidents de cybersécurité peuvent avoir des **conséquences juridiques et réglementaires**. Les organisations doivent respecter les nombreuses lois sur la protection des données afin d'éviter de lourdes amendes. Par exemple, le **Règlement général sur la protection des données de l'Union européenne (GDPR)** prévoit des amendes pouvant atteindre **20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial**, le montant le plus élevé étant retenu. Un plan qui traite les obligations juridiques et réglementaires aide à réduire les risques de non-conformité et leurs **conséquences financières et juridiques**.
+Au-delà des **conséquences financières et réputationnelles**, les incidents de cybersécurité peuvent avoir des **conséquences juridiques et réglementaires**. Les organisations doivent **respecter les nombreuses lois sur la protection des données** afin d'éviter de lourdes amendes. Par exemple, le **Règlement général sur la protection des données de l'Union européenne (GDPR)** prévoit des amendes pouvant atteindre **20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial**, le montant le plus élevé étant retenu. Un plan qui traite les obligations juridiques et réglementaires aide à réduire les risques de non-conformité et leurs **conséquences financières et juridiques**.
 
 L'interconnexion de l'écosystème économique signifie aussi qu'un incident peut avoir des **répercussions au-delà de l'organisation**. Si les systèmes d'un **fournisseur** sont compromis, la **chaîne d'approvisionnement** peut être perturbée et la disponibilité des biens ou services réduite. Une fuite de **données clients** peut provoquer une **usurpation d'identité ou une fraude** et nuire à la relation avec les clients. Un plan qui prend en compte les parties externes aide à gérer les répercussions et à **préserver la confiance des partenaires, fournisseurs et clients**.
 
-Un **plan de réponse aux incidents de cybersécurité** est un élément essentiel de la stratégie générale de cybersécurité d'une organisation. Il limite les effets sur la **stabilité financière**, la **réputation**, la **conformité juridique** et les **relations externes**. Un plan bien conçu permet d'atténuer les risques et d'assurer la **continuité des activités** à l'ère numérique.
+Un **plan de réponse aux incidents de cybersécurité** est un élément essentiel de la stratégie générale de cybersécurité d'une organisation. Il limite les effets sur la **stabilité financière**, la **réputation**, la **conformité juridique** et les **relations externes**. Un plan bien conçu permet d'**atténuer les risques** et d'assurer la **continuité des activités** à l'ère numérique.
 
 ## Éléments clés d'un plan de réponse aux incidents de cybersécurité
 

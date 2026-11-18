@@ -1,10 +1,11 @@
 ---
 title: "Cosa fare se si pensa che la propria e-mail o il proprio telefono siano stati compromessi"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Imparate i passi essenziali da compiere se sospettate che la vostra e-mail, il vostro desktop o il vostro telefono siano stati violati o compromessi, tra cui la modifica delle password, la scansione alla ricerca di malware e la pulizia del dispositivo."
-tags: ["sicurezza del dispositivo", "protezione dei dati", "dispositivo compromesso", "email violate", "telefono violato", "malware", "rimozione dei virus", "sicurezza della password", "backup dei dati", "autenticazione a due fattori", "sicurezza informatica", "sicurezza online", "digital privacy", "furto d'identità", "frode online", "assistenza tecnica", "riparazione computer", "recupero dati", "Servizi IT", "tecnologia"]
+tags: ["sicurezza del dispositivo", "protezione dei dati", "dispositivo compromesso", "email violate", "telefono violato", "software dannoso", "rimozione dei virus", "sicurezza della password", "backup dei dati", "autenticazione a due fattori", "sicurezza informatica", "sicurezza online", "privacy digitale", "furto d'identità", "frode online", "assistenza tecnica", "riparazione computer", "recupero dati", "Servizi IT", "tecnologia", "sicurezza della posta elettronica", "sicurezza del computer", "sicurezza del telefono", "hacking dei dispositivi", "violazione della sicurezza", "dispositivo compromesso", "scansione antimalware", "cancellazione dei dati", "chiavi crittografiche", "sicurezza dei portafogli di criptovalute", "protezione dei fondi", "compromissione della posta elettronica", "consigli per la sicurezza dei dispositivi", "come proteggere la posta elettronica", "passaggi per proteggere un telefono compromesso", "tecniche di rimozione del malware", "buone pratiche per la sicurezza delle password", "metodi di backup dei dati", "importanza dell’autenticazione a due fattori", "misure di sicurezza informatica online", "consigli per la privacy digitale", "prevenzione del furto di identità online", "come affrontare le frodi online", "assistenza tecnica per dispositivi compromessi", "servizi di riparazione computer", "soluzioni per il recupero dei dati", "servizi IT per la sicurezza dei dispositivi", "ultime tendenze tecnologiche", "pratiche di posta elettronica sicura", "misure di sicurezza del computer", "precauzioni per la sicurezza del telefono", "prevenzione dell’hacking dei dispositivi"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Un'immagine a fumetti di una persona in piedi davanti a un computer o a un telefono con un'espressione preoccupata, mentre un hacker a fumetti si aggira sullo sfondo."
 coverCaption: ""
@@ -28,15 +29,19 @@ Il primo passo da compiere quando si sospetta che la posta elettronica, il deskt
 
 È importante prendere nota di qualsiasi segno di compromissione in modo da poter intraprendere le azioni appropriate per proteggere il dispositivo e i dati. Se non si è sicuri che il proprio dispositivo sia stato compromesso, è sempre meglio sbagliare.
 
+
+Scoprite come riconoscere le email di phishing e l’ingegneria sociale: [email di phishing e messaggi sospetti](https://simeononsecurity.com/articles/how-to-identify-phishing/)e [ingegneria sociale](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
+
 ______
 
-## Fase 2: Cambiare le password e verificare le informazioni di recupero
+## [Fase 2: Cambiare le password e verificare le informazioni di recupero](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
 - Cambiare immediatamente le password** di tutti gli account se si sospetta che il dispositivo sia stato compromesso.
 
 
 Se si sospetta che la posta elettronica, il desktop o il telefono siano stati compromessi, il passo successivo è cambiare immediatamente le password di tutti gli account. Ci vorrà un po' di tempo, quindi date la priorità agli account importanti, come quelli di posta elettronica, banca, social media e così via.
 
+Per ulteriori indicazioni, consultate: [cambiare le password](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [scegliere password robuste e uniche](https://simeononsecurity.com/articles/how-to-create-strong-passwords/), [creare una password robusta](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) e [attivare l’autenticazione a due fattori](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/).
 - Date la priorità agli account importanti** come le e-mail, i conti bancari, gli account dei social media, ecc.
 
 - Scegliete password forti e uniche** per ciascuno dei vostri account e **evitare di usare la stessa password** per più account.
@@ -46,18 +51,18 @@ Scegliete password forti e uniche per ogni account ed evitate di usare la stessa
 
 ***Alcuni esempi di password sicure***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: una password di 12 caratteri con lettere maiuscole e minuscole, numeri e simboli
+- Ilovesecurity7!: una password di 16 caratteri che combina parole, numeri e un simbolo
+- xK2%qpzL5!rS: una password di 12 caratteri con lettere maiuscole e minuscole casuali, numeri e simboli
 ```
 
 ***Esempi di frasi di passaggio***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: una passphrase di 24 caratteri con tre parole casuali e numeri
+- orange$5my#yellow: una passphrase di 16 caratteri con due parole casuali, numeri e simboli
+- pizza3onions?lovers: una passphrase di 19 caratteri con due parole casuali, numeri e un simbolo
+- tangerine8shark?43: una passphrase di 18 caratteri con due parole casuali, numeri e un simbolo
+- elephant6pasta*tree: una passphrase di 19 caratteri con due parole casuali, numeri e un simbolo
 ```
 
 - **Attivare l'autenticazione a due fattori** per un ulteriore livello di sicurezza
@@ -79,7 +84,7 @@ Infine, dopo aver cambiato la password ed eliminato le altre sessioni, è necess
 
 ______
 
-## Fase 3: Aggiornare il software
+## Fase 3: Aggiornare i programmi
 
 **Mantenere il sistema operativo**, l'antivirus e altri software **aggiornati** è essenziale per mantenere la sicurezza del dispositivo. Gli aggiornamenti del software spesso includono patch di sicurezza che **risolvono vulnerabilità note**, quindi è importante aggiornare il software il prima possibile quando gli aggiornamenti sono disponibili.
 
@@ -93,9 +98,10 @@ ______
 - **Client di posta elettronica** (Microsoft Outlook, Apple Mail, Gmail, ecc.)
 - **Applicazioni** (Microsoft Office, Adobe Creative Suite, ecc.)
 
+Consultate anche: [software antivirus e antimalware consigliato](https://simeononsecurity.com/recommendations/anti-virus).
 ______
 
-## Fase 4: scansione del dispositivo alla ricerca di malware
+## Fase 4: individuare programmi nocivi sul dispositivo
 
 - Eseguire una scansione malware** sul dispositivo per verificare la presenza di eventuali software dannosi installati.
 - Il **malware** può includere **virus**, **worm**, **trojan** e altri tipi di software dannoso che **possono compromettere la sicurezza** del dispositivo e dei dati.
@@ -115,9 +121,10 @@ Per eseguire la scansione del dispositivo alla ricerca di malware, utilizzare un
 
 È inoltre consigliabile eseguire una scansione di eventuali dispositivi esterni, come le unità USB, utilizzati con il dispositivo compromesso. I dispositivi esterni possono spesso contenere malware in grado di infettare il dispositivo, quindi è importante eseguire una scansione prima di utilizzarli con il dispositivo.
 
+Scoprite di più sulla: [regola di backup 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 ______
 
-## Fase 5: Backup dei file importanti e pulizia del dispositivo
+## Fase 5: Copiare i file importanti e ripulire il dispositivo
 
 - Eseguire il backup di tutti i file importanti** prima di cancellare il dispositivo se si sospetta che il dispositivo sia compromesso.
 - Verificate** che i vostri **file importanti** siano sicuri** eseguendo una scansione con un software antivirus prima di eseguire il backup.

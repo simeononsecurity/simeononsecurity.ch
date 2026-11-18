@@ -1,7 +1,7 @@
 ---
 title: "Configurazione AI di Confluence e Jira: autorizzazioni e autorità"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configura le pagine di riferimento ufficiali in Confluence e le autorizzazioni di Jira gestite dall’azienda per una collaborazione tra team soggetta a revisione."
@@ -53,15 +53,15 @@ A ottobre 2026, usa il controllo **Share** o delle restrizioni per gestire l’a
 5. Su ogni pagina autorevole, **apri Share**. Imposta l’accesso generale in sola lettura per i membri dello spazio idonei e assegna autorizzazioni di modifica specifiche ai responsabili e ai pubblicatori designati. Salva e verifica con l’utente collaboratore.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+ID sorgente: REQ-17
+Ruolo responsabile: product-owner
+Stato: riferimento approvato
+Ambito: solo file di esportazione sintetici
+Conservazione: 7 giorni
+Stato di consegna: configurazione di base del laboratorio
+Eccezioni: esclusi i dati di produzione, i backup e gli obblighi di conservazione legale
+Prova di approvazione: revisione della baseline DEC-12
+Riferimento di implementazione: allegare il commit di base protetto su GitHub
 ```
 
 **Applica restrizioni a ogni pagina autorevole.** Non presumere che la restrizione di modifica di una pagina padre protegga anche le figlie. L’ereditarietà di lettura e modifica funziona in modo diverso e restano valide anche le autorizzazioni dello spazio. Un collegamento da solo non concede accesso. Controlla tutte le appartenenze se un utente che dovrebbe avere solo lettura riesce ancora a modificare.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Usa questi testi iniziali per le altre due pagine.** Prima di approvare un record, sostituisci i campi di revisione segnaposto con prove reali dell’ambiente di test.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+ID sorgente: RUN-04
+Ruolo responsabile: operations-owner
+Stato: riferimento approvato
+Ambito: solo file di esportazione sintetici
+Conservazione configurata: 7 giorni
+Procedura: confrontare REQ-17 con config.json prima di una modifica soggetta a revisione
+Limite di esecuzione: questo laboratorio non ha un processo di eliminazione e non produce prove di eliminazione
+Ripristino: ripristinare la configurazione approvata precedente dopo la revisione
+Limite del ripristino: ripristinare la configurazione non recupera i file eliminati
+Prova della revisione: aggiungere il revisore effettivo, la versione della pagina e il riferimento alla decisione
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Pagina: Registro delle decisioni
+ID voce: DEC-12
+Decisione: usare sette giorni come baseline sintetica
+Ambito: solo export-service-lab
+Requisito: registrare la versione della pagina REQ-17 dopo la pubblicazione
+Runbook: registrare la versione della pagina RUN-04 dopo la pubblicazione
+Policy: registrare la revisione protetta GitHub di POL-01 dopo la revisione
+Revisione prodotto: in attesa finché il responsabile indicato non registra una decisione
+Revisione operativa: in attesa finché il responsabile indicato non registra una decisione
+Stato: esempio di bozza, sostituire con prove di revisione osservate
 ```
 
 ## Aggiorna la mappa
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Incolla questa bozza in PROP-042.** L’elemento Jira tiene traccia della consegna. Il testo non sostituisce la formulazione approvata in Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+ID proposta: PROP-042
+Stato: Bozza
+Valore attualmente approvato: 7 giorni, da registrare la versione della pagina REQ-17
+Valore proposto: 30 giorni per i file di esportazione sintetici
+Esclusioni: dati di produzione, backup e obblighi di conservazione legale
+Record interessati: REQ-17, RUN-04, config.json, proposal.json
+Allegato fisso della proposta: in attesa
+Revisione del responsabile prodotto: in attesa
+Revisione del responsabile operativo: in attesa
+Registro di pubblicazione: in attesa
+Interrompere se cambia la versione della fonte, manca la revisione o l’accesso viene negato
 ```
 
 | Ruolo | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Separa lettura, bozza e pubblicazione.** Un collaboratore deve poter comprendere il requisito sintetico e inviare una proposta. Non gli servono i permessi di modifica sulla pagina autorevole né il permesso di approvare la propria proposta.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Record di test: PERM-REQ-EDIT
+Ruolo: collaboratore
+Fonte: REQ-17
+Prerequisito: la fonte è leggibile e la revisione pubblicata è stata acquisita
+Tentativo: modificare il requisito autorevole
+Risultato previsto: modifica negata, revisione pubblicata invariata
+Risultato osservato: compilare dalla sandbox
+Prova: risultato nativo e rilettura indipendente della revisione
+Revisore: amministratore o revisore indipendente delle autorizzazioni
 ```
 
 **Usa un record separato per testare la lettura negata.** Il requisito leggibile dal collaboratore verifica la separazione tra pubblicazione e modifica. La pagina inaccessibile per l’utente escluso verifica la riservatezza. Riunire i due casi in un’unica riga nasconde quale limite è stato testato.

@@ -1,16 +1,15 @@
 ---
 title: "استخدم ChatGPT في الطرفية: Bash وPowerShell وPython"
 date: 2023-02-07
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "تعرّف على استخدام نموذج ChatGPT من OpenAI عبر واجهة سطر الأوامر (CLI) لإنشاء النصوص والإجابة عن الأسئلة بسهولة."
-tags: ["ChatGPT", "OpenAI", "Command Line Interface", "CLI", "text generation", "question answering", "developer toolkit", "pip package manager", "Python 3.5", "PowerShell", "Bash"]
+tags: ["ChatGPT", "OpenAI", "واجهة سطر الأوامر", "CLI", "توليد النص", "الإجابة عن الأسئلة", "مجموعة أدوات المطور", "مدير الحزم pip", "Python 3.5", "PowerShell", "Bash"]
 cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "مطوّر يجلس أمام حاسوبه ويكتب على لوحة المفاتيح، مع ظهور واجهة ChatGPT CLI في الطرفية."
 coverCaption: ""
 ---
-
 يُعدّ **ChatGPT**، الذي طورته OpenAI، **نموذجًا لغويًا متقدمًا** قادرًا على إنشاء نصوص شبيهة بالنصوص البشرية. ويوفر ChatGPT CLI (واجهة سطر الأوامر) للمطورين طريقة مريحة للتفاعل مع النموذج عبر سطر الأوامر. باستخدام ChatGPT CLI، يستطيع المطورون إنشاء النصوص وإكمالها والإجابة عن الأسئلة بالاستفادة من إمكانات النموذج.
 
 لا يتطلب تثبيت ChatGPT CLI سوى وجود Python 3.5 أو إصدار أحدث على جهاز المطور. ويمكن استخدام مدير الحزم pip لتثبيت ChatGPT CLI بتنفيذ الأمر التالي:
@@ -32,27 +31,27 @@ pip install chatgpt requests pyreadline3
 بعد التثبيت، يستطيع المطورون استخدام ChatGPT CLI لإنشاء النصوص أو الإجابة عن الأسئلة. على سبيل المثال، لإنشاء نص استنادًا إلى مطالبة، استخدم الأمر التالي:
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "ما الغاية من الوجود؟"
 ```
 
 وللإجابة عن سؤال:
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "ما عاصمة فرنسا؟"
 ```
 
 يمكن أيضًا استخدام ChatGPT CLI في نصوص برمجية بسيطة:
 
 **Linux:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="ما معنى الحياة؟"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "ما معنى الحياة؟"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

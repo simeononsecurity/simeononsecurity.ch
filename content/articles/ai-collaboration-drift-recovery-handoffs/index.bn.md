@@ -1,7 +1,7 @@
 ---
 title: "এআই এজেন্টের ড্রিফট পুনরুদ্ধার ও কাজ হস্তান্তরের ধাপ"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "পুরোনো উৎস ও নীতিমালা অ্যাডাপ্টার শনাক্ত করুন, থেমে যাওয়া প্রকাশনা পুনরুদ্ধার করুন এবং এজেন্টদের মধ্যে স্বাধীন হস্তান্তর যাচাই করুন।"
@@ -46,14 +46,14 @@ coverCaption: ""
 ## প্রাথমিক যাচাই চালান
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+MAP-01 পড়ে তার রিভিশন লিখে রাখুন।
+POL-01 পড়ে সক্রিয় অ্যাডাপ্টারের সংস্করণ তুলনা করুন।
+ম্যাপে নির্ধারিত অবস্থান থেকে REQ-17 এবং RUN-04 পড়ুন।
+সুরক্ষিত main-এ config.json পড়ুন।
+স্থির করা প্রস্তাব এবং বর্তমান ভূমিকা-পর্যালোচনা পড়ুন।
+বর্তমান উৎসকে পর্যালোচিত ভিত্তির সঙ্গে তুলনা করুন।
+অমিল, পড়ার অনুমতি না পাওয়া এবং অপেক্ষমাণ প্রকাশনা তালিকাভুক্ত করুন।
+দায়িত্বপ্রাপ্তরা প্রতিটি অমিল মেটানো পর্যন্ত গুরুত্বপূর্ণ লেখা বন্ধ রাখুন।
 ```
 
 **অবদানকারী খসড়া তৈরির আগে প্রাথমিক যাচাই করেন। প্রকাশক লেখার আগে আবার যাচাই করেন।** সংস্করণ তুলনা প্রস্তাবের সঙ্গে সংরক্ষণ করুন। সাপ্তাহিক পরীক্ষা এই পাঠকে সহায়তা করে, কিন্তু এর বিকল্প নয়।
@@ -103,16 +103,16 @@ choices:
 ## স্বাধীন হস্তান্তর যাচাই
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+হস্তান্তর: HANDOFF-042
+কাজ: PROP-042
+ম্যাপ ও নীতি: অনুমোদিত বর্তমান রিভিশন সংযুক্ত করুন
+প্রমাণ: requirement, runbook ও configuration-এর রেফারেন্স
+লেজার: completed, failed, pending
+সিদ্ধান্ত: মালিকের পছন্দ এবং স্থির প্রস্তাবের রিভিশন
+সীমা: রানটাইমে মুছে ফেলার পরীক্ষা বা উৎপাদনের তথ্য নেই
+পরবর্তী ভূমিকা: দায়িত্বপ্রাপ্ত ভূমিকা
+পরবর্তী পদক্ষেপ: একটি নির্দিষ্ট সীমিত ধাপ
+থামুন: ভিত্তি বদল, প্রবেশাধিকার অস্বীকৃতি বা কর্তৃত্বে দ্বন্দ্ব
 ```
 
 **আগের কথোপকথন নয়, মানচিত্র ও হস্তান্তর নিয়ে** অন্য টুল বা পরিষ্কার সেশন খুলুন। নতুন উৎস-পাঠ, নতুন ম্যানিফেস্ট এবং অপেক্ষমাণ কাজ চিহ্নিত করা বাধ্যতামূলক করুন। হাতে সংগৃহীত ব্রাউজার প্রমাণ স্ন্যাপশট বলে চিহ্নিত ও লেখার আগে পুনরায় যাচাই করলে বৈধ থাকে।
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **ক্ষতিপূরণ ইতিহাস মুছে দেয় না।** ত্রিশ দিনে পরিবর্তনের চেষ্টা, তার ব্যর্থতা এবং পরের পুনঃস্থাপন পৃথক নথি হিসেবে রাখুন। চূড়ান্ত উৎসে সাত বলা থাকবে; সরবরাহের ইতিহাসে অনুমোদিত প্রস্তাব শেষ না হওয়ার কারণ থাকবে।
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+পুনরুদ্ধার সিদ্ধান্ত: উদাহরণস্বরূপ ক্ষতিপূরণমূলক পরিবর্তন
+মূল প্রস্তাব: PROP-042 রিভিশন 1
+পর্যবেক্ষিত অমিল: requirement 30, configuration/runbook 7
+মালিকের সিদ্ধান্ত: অনুমোদিত ভিত্তিগত অভিপ্রায় ফিরিয়ে আনুন
+পর্যালোচনার বিষয়: বর্তমান requirement সংস্করণের বিপরীতে স্থির ক্ষতিপূরণ
+ফলাফল: নতুন রিভিশন নথিবদ্ধ করুন এবং সাত দিনের মান পুনরায় পড়ে নিশ্চিত করুন
+মূল সরবরাহ: ব্যাখ্যাসহ প্রত্যাহার করুন বা আটকে রাখুন
+সীমা: রানটাইমে মুছে ফেলা বা তথ্য পুনরুদ্ধার করা হয়নি
 ```
 
 **অন্য লেখক কোনো ব্যতিক্রম যোগ করলে সেটি স্পষ্টভাবে সংরক্ষণ করুন।** পুরোনো পৃষ্ঠার লেখা অন্ধভাবে বসালে বৈধ মধ্যবর্তী পরিবর্তন মুছে যেতে পারে। বর্তমান ও উদ্দেশ্যপ্রণোদিত লেখা তুলনা করে বর্তমান সংস্করণের বিপরীতে ন্যূনতম ক্ষতিপূরণমূলক সংশোধনী পর্যালোচনা করুন।
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **পরিষ্কার সেশন ও অন্য পর্যালোচক ব্যবহার করুন।** মানচিত্র, স্থির করা প্যাকেজ, হিসাব এবং পুনরুদ্ধারের সিদ্ধান্ত দিন। পুরোনো চ্যাট দেবেন না। গ্রহীতাকে বর্তমান উদ্দেশ্য, কনফিগারেশন, পরিচালন নির্দেশনা এবং পরবর্তী অনুমোদিত কাজ বলতে বলুন।
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+ম্যাপে নির্ধারিত বর্তমান উৎসগুলো স্বাধীনভাবে পড়ুন।
+অনুমোদিত অভিপ্রায়, জমা দেওয়া কনফিগারেশন এবং সরবরাহের অবস্থা আলাদা করুন।
+পর্যালোচিত প্যাকেজ ও লেজারের সঙ্গে তুলনা করুন।
+কোন পাঠ বাকি এবং কোন ভিত্তি বদলেছে তা লিখুন।
+দায়িত্বপ্রাপ্ত ভূমিকা নির্দিষ্ট করে একটি সীমিত পরবর্তী পদক্ষেপ সুপারিশ করুন।
+এই হস্তান্তরকে অনুমোদন বা প্রকাশের অনুমতি হিসেবে ধরবেন না।
 ```
 
 **প্রত্যাশিত যুক্তি:** প্রাথমিক অবস্থা পুনঃস্থাপিত বলার আগে গ্রহীতা ক্ষতিপূরণের ফল যাচাই করেন। হস্তান্তর থেকে শুধু “সাত দিন” বললে স্বাধীন পাঠের শর্ত পরীক্ষা হয়নি। আরেকটি সারাংশের বদলে উৎসের প্রমাণ চান।
@@ -219,4 +219,4 @@ Do not treat this handoff as approval or publication permission.
 
 ## পরবর্তী ধাপ
 
-**দুই ট্র্যাক ও দ্বিতীয় পাঠক নিয়ে [Retention Capstone](/articles/ai-collaboration-retention-capstone/) সম্পন্ন করুন।** বর্তমান উৎস-পাঠ, সংস্করণের অমিল, সিদ্ধান্তের মালিক, পর্যালোচিত পুনরুদ্ধার, ফল পুনরায় পড়া এবং স্বাধীন পুনর্গঠন দেখান।
+**দুই ট্র্যাক ও দ্বিতীয় পাঠক নিয়ে [ধারণকাল সমাপনী অধ্যায়](/articles/ai-collaboration-retention-capstone/) সম্পন্ন করুন।** বর্তমান উৎস-পাঠ, সংস্করণের অমিল, সিদ্ধান্তের মালিক, পর্যালোচিত পুনরুদ্ধার, ফল পুনরায় পড়া এবং স্বাধীন পুনর্গঠন দেখান।

@@ -3,7 +3,7 @@ title: "La cybersécurité de l'IA et les certifications de gouvernance ne suive
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Une opinion professionnelle sur l'écart entre les certifications de gouvernance de l'IA et la pratique réelle de la sécurité de l'IA. Nous en avons passé plusieurs et sommes repartis déçus. Les frameworks sont récents et axés sur la gouvernance. La surface d'attaque a évolué plus vite."
 tags: ["sécurité IA", "gouvernance IA", "certifications IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injection de prompt", "cybersécurité IA", "sécurité LLM", "OWASP LLM Top 10", "MITRE ATLAS", "gestion des risques IA", "conformité IA", "sécurité machine learning", "chaîne d'approvisionnement modèle", "IA adversariale", "agents IA", "sécurité MCP", "red teaming IA", "certifications gouvernance IA", "IA agentique", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

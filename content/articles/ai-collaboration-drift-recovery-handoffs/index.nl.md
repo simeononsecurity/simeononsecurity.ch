@@ -1,11 +1,11 @@
 ---
 title: "AI-agenten: herstel van drift en overdrachtsworkflow"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Detecteer verouderde bronnen en beleidsadapters, herstel onderbroken publicaties en controleer onafhankelijke overdrachten tussen agents."
-genre: ["Kunstmatige intelligentie", "Teamwerk", "Software-engineering"]
+genre: ["Kunstmatige intelligentie", "Teamwerk", "Softwareontwikkeling"]
 tags: ["AI-samenwerkingscursus", "bronafwijking", "publicatieherstel", "agentoverdracht", "actuele bronverificatie", "compensatie"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Illustratie van professionals die gezamenlijk projectwerk beoordelen in een cybersecuritywerkruimte"
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Voer de preflight uit
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Lees MAP-01 en noteer de revisie.
+Lees POL-01 en vergelijk de versies van actieve adapters.
+Lees REQ-17 en RUN-04 op de locaties in de map.
+Lees config.json op beschermd main.
+Lees het bevroren voorstel en de huidige rolbeoordelingen.
+Vergelijk actuele bronnen met de beoordeelde basisversies.
+Noteer afwijkingen, geweigerde leesacties en publicaties in afwachting.
+Stop ingrijpende schrijfacties totdat eigenaren elke afwijking hebben opgelost.
 ```
 
 **De bijdrager voert de preflight uit vóór het opstellen van een voorstel. De uitgever herhaalt die vóór het schrijven.** Bewaar de versievergelijking bij het voorstel. Wekelijkse controles vullen deze bronlezingen aan, maar vervangen ze niet.
@@ -103,16 +103,16 @@ choices:
 ## Controleer een onafhankelijke overdracht
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Overdracht: HANDOFF-042
+Taak: PROP-042
+Map en beleid: voeg de huidige goedgekeurde revisies toe
+Bewijs: verwijzingen naar vereisten, runbook en configuratie
+Register: completed, failed, pending
+Besluit: keuze van de eigenaar en vaste revisie van het voorstel
+Beperkingen: geen verwijdertest tijdens uitvoering en geen productiegegevens
+Volgende rol: verantwoordelijke rol
+Volgende actie: één afgebakende stap
+Stop: basis gewijzigd, toegang geweigerd of bevoegdheden in conflict
 ```
 
 **Open een andere tool of een schone sessie** met de kaart en overdracht, niet met het vorige gesprek. Vereis nieuwe bronlezingen, een nieuw manifest en een benoemde openstaande actie. Handmatig browserbewijs blijft geldig als je het als momentopname labelt en vóór het schrijven opnieuw controleert.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **Compensatie verwijdert de geschiedenis niet.** Bewaar de poging met dertig dagen, de mislukking en het latere herstel als afzonderlijke records. De eindbron vermeldt zeven, terwijl de aflevergeschiedenis uitlegt waarom het goedgekeurde voorstel niet is afgerond.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Herstelbesluit: illustratieve compensatie
+Oorspronkelijk voorstel: PROP-042 revisie 1
+Waargenomen afwijking: vereiste 30, configuratie/runbook 7
+Besluit van de eigenaar: herstel de goedgekeurde basisintentie
+Beoordelingsobject: vergelijk de vaste compensatie met de huidige versie van de vereiste
+Resultaat: leg de nieuwe revisie vast en lees de termijn van zeven dagen terug
+Oorspronkelijke levering: trek terug of blokkeer met toelichting
+Beperking: geen verwijdering tijdens uitvoering of gegevensherstel uitgevoerd
 ```
 
 **Behoud een uitzondering expliciet als een andere schrijver die heeft toegevoegd.** Een oude paginaversie blind terugzetten kan een geldige tussentijdse wijziging verwijderen. Vergelijk de actuele en beoogde tekst en beoordeel daarna een minimale compenserende wijziging tegen de actuele versie.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Gebruik een schone sessie en een andere beoordelaar.** Geef de kaart, het vastgezette pakket, het register en het herstelbesluit. Houd het vorige gesprek achterwege. Vraag de ontvanger de actuele bedoeling, configuratie, werkinstructies en volgende toegestane actie te benoemen.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Lees de actuele bronnen uit de map onafhankelijk.
+Onderscheid goedgekeurde intentie, vastgelegde configuratie en leveringsstatus.
+Vergelijk ze met het beoordeelde pakket en register.
+Noteer ontbrekende leesacties en gewijzigde basisversies.
+Adviseer één afgebakende volgende stap en benoem de verantwoordelijke rol.
+Behandel deze overdracht niet als goedkeuring of toestemming om te publiceren.
 ```
 
 **Verwachte redenering:** de ontvanger controleert het resultaat van de compensatie voordat die de uitgangssituatie als hersteld beschrijft. Als de ontvanger alleen ‘zeven dagen’ uit de overdracht herhaalt, is de eis van onafhankelijk lezen nog niet getest. Vraag om bronbewijs in plaats van nog een samenvatting.
@@ -219,4 +219,4 @@ Geef deze inventaris aan een tweede lezer zonder het oude gesprek. De overdracht
 
 ## Vervolgstappen
 
-**Voltooi de [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** met beide trajecten en een tweede lezer. Toon actuele bronlezingen, versieafwijkingen, de beslissingseigenaar, het beoordeelde herstel, de teruglezing en onafhankelijke reconstructie.
+**Voltooi de [Afsluitend hoofdstuk over bewaartermijnen](/articles/ai-collaboration-retention-capstone/)** met beide trajecten en een tweede lezer. Toon actuele bronlezingen, versieafwijkingen, de beslissingseigenaar, het beoordeelde herstel, de teruglezing en onafhankelijke reconstructie.

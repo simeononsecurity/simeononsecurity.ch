@@ -1,10 +1,11 @@
 ---
 title: "Was ist zu tun, wenn Sie glauben, dass Ihre E-Mail oder Ihr Telefon kompromittiert wurde?"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Informieren Sie sich über die wichtigsten Schritte, die Sie unternehmen müssen, wenn Sie vermuten, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon gehackt oder kompromittiert wurde, einschließlich des Änderns von Kennwörtern, des Scannens nach Malware und des Löschens Ihres Geräts."
-tags: ["Gerätesicherheit", "datenschutz", "gefährdetes Gerät", "gehackte E-Mail", "gehacktes Telefon", "Malware", "Virenentfernung", "Passwortsicherheit", "Datensicherung", "Zwei-Faktor-Authentifizierung", "Cybersicherheit", "Online-Sicherheit", "digitaler Datenschutz", "Identitätsdiebstahl", "Online-Betrug", "Technischer Support", "Computer-Reparatur", "Datenwiederherstellung", "IT-Dienste", "Technologie", "E-Mail-Sicherheit", "Desktop-Sicherheit", "Telefonsicherheit", "Geräte-Hacking", "Sicherheitsverletzung", "Gerätekompromiss", "Malware-Scan", "Datenlöschung", "Kryptoschlüssel", "Krypto-Wallet-Sicherheit", "Fondsschutz", "E-Mail-Kompromiss", "Tipps zur Gerätesicherheit", "wie Sie Ihre E-Mail sichern können", "Schritte zum Schutz eines gefährdeten Telefons", "Techniken zur Malware-Entfernung", "beste Praktiken für die Passwortsicherheit", "Datensicherungsmethoden", "Bedeutung der Zwei-Faktor-Authentifizierung", "Cybersecurity-Maßnahmen für die Online-Sicherheit", "Tipps zum Schutz der digitalen Privatsphäre", "Verhinderung von Identitätsdiebstahl im Internet", "wie man mit Online-Betrug umgeht", "Technischer Support für gefährdete Geräte", "Computer-Reparaturdienste", "Datenwiederherstellungslösungen", "IT-Dienste für Gerätesicherheit", "neueste Technologietrends", "sichere E-Mail-Praktiken", "Desktop-Sicherheitsmaßnahmen", "Sicherheitsvorkehrungen am Telefon", "Verhinderung des Hackens von Geräten"]
+tags: ["Gerätesicherheit", "datenschutz", "gefährdetes Gerät", "gehackte E-Mail", "gehacktes Telefon", "Schadsoftware", "Virenentfernung", "Passwortsicherheit", "Datensicherung", "Zwei-Faktor-Authentifizierung", "Cybersicherheit", "Online-Sicherheit", "digitaler Datenschutz", "Identitätsdiebstahl", "Online-Betrug", "Technischer Support", "Computer-Reparatur", "Datenwiederherstellung", "IT-Dienste", "Technologie", "E-Mail-Sicherheit", "Desktop-Sicherheit", "Telefonsicherheit", "Geräte-Hacking", "Sicherheitsverletzung", "Gerätekompromiss", "Schadsoftware-Scan", "Datenlöschung", "Kryptoschlüssel", "Krypto-Wallet-Sicherheit", "Fondsschutz", "E-Mail-Kompromiss", "Tipps zur Gerätesicherheit", "wie Sie Ihre E-Mail sichern können", "Schritte zum Schutz eines gefährdeten Telefons", "Techniken zur Malware-Entfernung", "beste Praktiken für die Passwortsicherheit", "Datensicherungsmethoden", "Bedeutung der Zwei-Faktor-Authentifizierung", "Cybersecurity-Maßnahmen für die Online-Sicherheit", "Tipps zum Schutz der digitalen Privatsphäre", "Verhinderung von Identitätsdiebstahl im Internet", "wie man mit Online-Betrug umgeht", "Technischer Support für gefährdete Geräte", "Computer-Reparaturdienste", "Datenwiederherstellungslösungen", "IT-Dienste für Gerätesicherheit", "neueste Technologietrends", "sichere E-Mail-Praktiken", "Desktop-Sicherheitsmaßnahmen", "Sicherheitsvorkehrungen am Telefon", "Verhinderung des Hackens von Geräten"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Ein Cartoon-Bild einer Person, die mit besorgter Miene vor einem Computer oder Telefon steht, während im Hintergrund ein Cartoon-Hacker lauert."
 coverCaption: ""
@@ -12,7 +13,7 @@ coverCaption: ""
 
 In unserem digitalen Zeitalter enthalten unsere Geräte eine Fülle sensibler Informationen, von finanziellen und persönlichen Daten bis hin zu vertraulichen Arbeitsdokumenten. Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, kann das eine stressige und alarmierende Erfahrung sein. Aber kein Grund zur Panik! Es gibt Maßnahmen, die Sie ergreifen können, um Ihre Daten zu schützen und die Sicherheit Ihres Geräts wiederherzustellen.
 
-## Schritt 1: Beurteilen Sie die Situation
+## Schritt 1: Prüfen Sie die Lage
 
 Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, sollten Sie als Erstes die Situation einschätzen. Hier sind ein paar Dinge, auf die Sie achten sollten:
 
@@ -28,40 +29,40 @@ Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon komp
 
 Es ist wichtig, alle Anzeichen einer Kompromittierung zu beachten, damit Sie geeignete Maßnahmen zum Schutz Ihres Geräts und Ihrer Daten ergreifen können. Wenn Sie sich nicht sicher sind, ob Ihr Gerät kompromittiert wurde, ist es immer besser, auf Nummer sicher zu gehen.
 
-Erfahren Sie, wie Sie Folgendes erkennen können [phishing and suspicious emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
+Erfahren Sie, wie Sie Folgendes erkennen können [Phishing-E-Mails und verdächtige Nachrichten](https://simeononsecurity.com/articles/how-to-identify-phishing/) und [soziale Manipulation](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
 
 ______
 
-## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+## [Schritt 2: Ändern Sie Ihre Passwörter und überprüfen Sie die Wiederherstellungsinformationen](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-- [**Change your passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für alle Ihre Konten sofort, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde
+- [Passwörter ändern](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für alle Ihre Konten sofort, wenn Sie vermuten, dass Ihr Gerät kompromittiert wurde
 
 Wenn Sie den Verdacht haben, dass Ihre E-Mail, Ihr Desktop oder Ihr Telefon kompromittiert wurde, müssen Sie als Nächstes sofort die Kennwörter für alle Ihre Konten ändern. Dies wird einige Zeit in Anspruch nehmen. Priorisieren Sie daher wichtige Konten wie Ihre E-Mails, Bankkonten, Konten in sozialen Medien usw.
 
 - **Priorisieren Sie wichtige Konten** wie Ihre E-Mails, Bankkonten, Konten in sozialen Medien usw.
 
-- [**Choose strong, unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für jedes Ihrer Konten und **vermeiden Sie die Verwendung des gleichen Passworts** für mehrere Konten
-- A [**strong password**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) sollte mindestens **12 Zeichen lang** sein und eine **Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen** enthalten
+- [starke, einzigartige Passwörter wählen](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) für jedes Ihrer Konten und **vermeiden Sie die Verwendung des gleichen Passworts** für mehrere Konten
+- A [ein starkes Passwort erstellen](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) sollte mindestens **12 Zeichen lang** sein und eine **Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen** enthalten
 
 Wählen Sie sichere, eindeutige Passwörter für jedes Ihrer Konten und vermeiden Sie die Verwendung desselben Passworts für mehrere Konten. Ein sicheres Passwort sollte mindestens 12 Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen enthalten. Vermeiden Sie gebräuchliche Wörter oder Phrasen, und geben Sie keine persönlichen Daten wie Ihren Namen, Ihr Geburtsdatum oder Ihre Adresse an.
 
 ***Einige Beispiele für sichere Passwörter***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: ein 12-stelliges Passwort mit Groß- und Kleinbuchstaben, Zahlen und Symbolen
+- Ilovesecurity7!: ein 16-stelliges Passwort aus einer Kombination von Wörtern, Zahlen und einem Symbol
+- xK2%qpzL5!rS: ein 12-stelliges Passwort mit zufälligen Groß- und Kleinbuchstaben, Zahlen und Symbolen
 ```
 
 ***Beispiele für Passphrasen***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: eine 24-stellige Passphrase aus drei zufälligen Wörtern mit Zahlen
+- orange$5my#yellow: eine 16-stellige Passphrase aus zwei zufälligen Wörtern mit Zahlen und Symbolen
+- pizza3onions?lovers: eine 19-stellige Passphrase aus zwei zufälligen Wörtern mit Zahlen und einem Symbol
+- tangerine8shark?43: eine 18-stellige Passphrase aus zwei zufälligen Wörtern mit Zahlen und einem Symbol
+- elephant6pasta*tree: eine 19-stellige Passphrase aus zwei zufälligen Wörtern mit Zahlen und einem Symbol
 ```
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) für eine zusätzliche Ebene der Sicherheit
+- [Zwei-Faktor-Authentifizierung aktivieren](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) für eine zusätzliche Ebene der Sicherheit
 
 Es ist auch eine gute Idee, die Zwei-Faktor-Authentifizierung zu aktivieren, die eine zusätzliche Sicherheitsebene für Ihre Konten bietet. Die Zwei-Faktor-Authentifizierung erfordert eine zweite Verifizierungsmethode, z. B. einen Code, der an Ihr Telefon oder Ihre E-Mail gesendet wird, zusätzlich zu Ihrem Passwort.
 
@@ -80,7 +81,7 @@ Nachdem Sie das Kennwort geändert und andere Sitzungen ausgeschlossen haben, so
 
 ______
 
-## Schritt 3: Aktualisieren Sie Ihre Software
+## Schritt 3: Aktualisieren Sie Ihre Anwendungen
 
 **Um die Sicherheit Ihres Geräts aufrechtzuerhalten, ist es wichtig, dass Sie Ihr Betriebssystem**, Ihr Antivirenprogramm und andere Software **auf dem neuesten Stand halten**. Software-Updates enthalten oft Sicherheits-Patches, die **bekannte Schwachstellen** beheben. Daher ist es wichtig, dass Sie Ihre Software so schnell wie möglich aktualisieren, sobald Updates verfügbar sind.
 
@@ -92,11 +93,11 @@ ______
 - **Virenschutzsoftware** (Norton, McAfee, Avast, usw.)
 - **Webbrowser** (Google Chrome, Mozilla Firefox, Safari usw.)
 - **E-Mail-Client** (Microsoft Outlook, Apple Mail, Gmail usw.)
-- **Anwendungen** (Microsoft Office, Adobe Creative Suite usw.)
+- **Anwendungen** (Microsoft Office, Adobe Creative Suite usw.).
 
 ______
 
-## Schritt 4: Scannen Sie Ihr Gerät auf Malware
+## Schritt 4: Prüfen Sie Ihr Gerät auf Schadsoftware
 
 - Führen Sie einen Malware-Scan** auf Ihrem Gerät durch, um zu prüfen, ob möglicherweise bösartige Software installiert wurde.
 - **Malware** kann **Viren**, **Würmer**, **Trojaner** und andere Arten von Schadsoftware umfassen, die **die Sicherheit** Ihres Geräts und Ihrer Daten gefährden können
@@ -116,7 +117,7 @@ Verwenden Sie zum Scannen Ihres Geräts auf Malware eine vertrauenswürdige und 
 
 Es ist auch eine gute Idee, alle externen Geräte, wie z. B. USB-Laufwerke, zu scannen, die Sie mit dem gefährdeten Gerät verwendet haben. Externe Geräte können oft Malware enthalten, die Ihr Gerät infizieren kann, daher ist es wichtig, sie zu scannen, bevor Sie sie mit Ihrem Gerät verwenden.
 
-Siehe einige [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.com/recommendations/anti-virus)
+Siehe einige [empfohlene Antiviren- und Anti-Malware-Software](https://simeononsecurity.com/recommendations/anti-virus).
 
 ______
 
@@ -138,7 +139,7 @@ Sobald Sie sich vergewissert haben, dass Ihre wichtigen Dateien sicher sind, sol
 
 Denken Sie daran, dass beim Löschen Ihres Geräts alle Daten auf dem Gerät gelöscht werden. Es ist daher wichtig, dass Sie alle wichtigen Dateien sichern, bevor Sie Ihr Gerät löschen.
 
-Erfahren Sie mehr über die wichtigen [3-2-1 Backup Rule](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+Erfahren Sie mehr über die wichtigen [3-2-1-Backup-Regel](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 
 ______
 

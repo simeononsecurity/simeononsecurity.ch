@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT- en Claude-projecten: herbruikbare AI-context instellen"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Stel ChatGPT- en Claude-projecten in met gerichte instructies, actuele referentiebestanden en een eenvoudige test voor hergebruikte context."
@@ -43,7 +43,7 @@ approved-schedule.md, revisie 1
 Bronmarkering: WS-2026-11-12-R1
 Evenement: Inleiding digitale veiligheid
 Datum: 2026-11-12
-Start: 7 p.m.
+Aanvang: 19.00 uur
 Locatie: Community Room A
 ```
 

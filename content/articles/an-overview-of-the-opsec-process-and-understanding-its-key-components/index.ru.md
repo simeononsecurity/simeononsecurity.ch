@@ -1,6 +1,7 @@
 ---
 title: "Понимание ключевых компонентов процесса OPSEC для эффективной защиты информации"
 date: 2023-06-15
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Изучите критические компоненты процесса OPSEC и научитесь эффективно защищать конфиденциальную информацию."
@@ -54,7 +55,7 @@ ______
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) HIPAA устанавливает стандарты безопасности для защиты конфиденциальной информации о здоровье пациента в сфере здравоохранения.
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR — это регламент, устанавливающий правила защиты персональных данных физических лиц в Европейском союзе (ЕС).
 
 Соблюдение этих требований позволяет организациям обеспечить адекватные меры по защите конфиденциальной информации и избежать правовых последствий.
 
@@ -66,7 +67,7 @@ ______
 
 ______
 
-## **References**
+## **Источники**
 
 1. [National Industrial Security Program Operating Manual (NISPOM)](https://www.dss.mil/Portals/50/Documents/Manuals/5105_21_VOL_1.pdf)
 

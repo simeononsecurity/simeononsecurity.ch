@@ -1,7 +1,7 @@
 ---
 title: "調査、デザイン、開発のためのAIエージェントスキルプロジェクト9選"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ワークフロー、ホスト対応、依存関係、コストを基準に9つのエージェントスキルプロジェクトを比較します。必要なスキルをインストールし、調査してテストする方法を学べます。"
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **以下のコマンドは各プロジェクトの現在のインストール文書からの例です。** 選択したプロジェクトのコマンドだけを実行します。パッケージランナーはインストーラーコードをダウンロードして実行するため、実行前に上流プロジェクトを調べ、インストール範囲を選びます。
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer：ユーザー単位の Codex インストール
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days：ユーザー単位の Codex インストール
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion：公式スキル集。フレームワークのリポジトリではない
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **保存したタスクをベースラインにします。** 新しいスキルなしで実行し、次にスキルありで実行します。可能な限りモデル、入力、ツール、受け入れ基準を同じにします。失敗と人による修正を最終結果と一緒に記録します。
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# 評価記録の例。スキル設定スキーマではない
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

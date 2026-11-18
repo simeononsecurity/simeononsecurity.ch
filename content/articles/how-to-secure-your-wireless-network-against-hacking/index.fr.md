@@ -41,7 +41,7 @@ __________
 
 ### Modifiez le nom de réseau (SSID) et le mot de passe par défaut
 
-La première étape, et la plus importante, consiste à **modifier le nom de réseau (SSID) et le mot de passe par défaut**. Le SSID et le mot de passe fournis par le fabricant du routeur sont faciles à deviner et les pirates peuvent facilement les exploiter. Remplacez le SSID et le mot de passe par défaut par une combinaison unique et robuste 
+La première étape, et la plus importante, consiste à **modifier le nom de réseau (SSID) et le mot de passe par défaut**. Le SSID et le mot de passe fournis par le fabricant du routeur sont faciles à deviner et les pirates peuvent facilement les exploiter. Remplacez le SSID et le mot de passe par défaut par une combinaison unique et robuste
 
 ### Utilisez des mots de passe robustes
 

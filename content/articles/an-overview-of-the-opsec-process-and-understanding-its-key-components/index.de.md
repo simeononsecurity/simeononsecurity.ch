@@ -1,6 +1,7 @@
 ---
 title: "Verstehen der Schlüsselkomponenten des OPSEC-Prozesses für einen wirksamen Informationsschutz"
 date: 2023-06-15
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Lernen Sie die kritischen Komponenten des OPSEC-Prozesses kennen und erfahren Sie, wie Sie sensible Informationen effektiv schützen können."
@@ -54,7 +55,7 @@ Mehrere staatliche Vorschriften enthalten Richtlinien und Anforderungen für die
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) Der HIPAA legt Sicherheitsstandards für den Schutz sensibler Gesundheitsdaten von Patienten im Gesundheitssektor fest.
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): Die Datenschutz-Grundverordnung (DSGVO) ist eine Verordnung, die Leitlinien zum Schutz personenbezogener Daten in der Europäischen Union (EU) festlegt.
 
 Durch die Einhaltung dieser Vorschriften können Unternehmen sicherstellen, dass sie angemessene Maßnahmen zum Schutz sensibler Daten ergreifen und rechtliche Konsequenzen vermeiden.
 

@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Сравнение производительности при взломе паролей"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Обнаружен разрыв в производительности между NVIDIA RTX 3090 и RTX 4090 при взломе паролей, показаны последствия для безопасности и меры защиты."
@@ -49,7 +50,7 @@ NVIDIA RTX 4090 является преемницей RTX 3090 и на сего�
 
 Результаты наших бенчмарков показывают, что **RTX 4090** является мощным инструментом для взлома паролей. Это означает, что теперь злоумышленники могут взламывать пароли гораздо быстрее, чем когда-либо ранее.
 
-Это представляет собой серьезную проблему для безопасности, поскольку теперь злоумышленники могут получить доступ к учетным записям и системам гораздо быстрее. Чтобы защититься от атак со взломом паролей, необходимо использовать [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) для создания и хранения надежных паролей.
+Это серьезная проблема безопасности, поскольку злоумышленники могут гораздо легче получить доступ к учетным записям и системам. Для защиты от атак по взлому паролей используйте [**надежные пароли**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), которые трудно угадать. Также используйте [**менеджер паролей**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), чтобы создавать и хранить [надежные пароли](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 
 ## Заключение
 

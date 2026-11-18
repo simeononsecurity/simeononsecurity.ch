@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork și Claude Code cu modele locale: ghid de configurare 2026"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Configurează Ollama cu Claude Desktop și Claude Code printr-un API compatibil cu Anthropic. Vezi modelele și funcțiile disponibile doar în cloud în 2026."
@@ -149,8 +149,8 @@ Oferta de modele s-a schimbat mult în 2026, așa că recomandările din primăv
 | Model | Tip | Context | De ce să-l alegi |
 |---|---|---|---|
 | **Qwen3.8 27B** | Local, 18 GB | 256K | Cel mai bun model local generalist actual, cu viziune, apeluri de instrumente și control al gândirii |
-| **Qwen3 Coder Next** | Local, MoE 80B total / 3B active | 256K | Creat pentru agenți de programare care rulează continuu, cu un mod rapid fără gândire |
-| **Qwen3.6 35B A3B** | Local, MoE 35B / 3B active | 262K | Apache 2.0 și eficient cu memorie modestă |
+| **Qwen3 Coder Next** | Local, MoE 80B în total / 3B activi | 256K | Creat pentru agenți de programare care rulează continuu, cu un mod rapid fără gândire |
+| **Qwen3.6 35B A3B** | Local, MoE 35B / 3B activi | 262K | Apache 2.0 și eficient cu memorie modestă |
 | **kimi-k2.7-code:cloud** | Cloud | Mare | Model cloud pentru programare, fără cerințe de hardware local |
 | **glm-5.3-flash** | Cloud | Mare | Primul model recomandat de documentația Ollama |
 
@@ -188,7 +188,7 @@ Apelurile de instrumente diferențiază un agent de un generator de text. Verifi
 După pornirea Claude Code, cere-i:
 
 ```text
-Read the current directory and list all files
+Citește directorul curent și enumeră toate fișierele
 ```
 
 **Dacă afișează fișiere reale, apelurile de instrumente funcționează.** Dacă spune că ar citi directorul și descrie ce se așteaptă să găsească, funcția nu este conectată. Vorbești cu un model de chat cu un prompt de programare, nu cu un agent. Mai multe prompturi nu vor remedia problema.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 Într-o sesiune Claude Code, `/loop` execută periodic un prompt sau o comandă slash:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m Verifică PR-urile mele deschise și rezumă starea lor
+/loop 1h Caută cele mai recente știri despre IA și rezumă evoluțiile importante
+/loop 15m Verifică problemele GitHub noi și ordonează-le după prioritate
 ```
 
 *Funcționează cât timp sesiunea este deschisă. Nu este un daemon în fundal și se oprește odată cu sesiunea.*

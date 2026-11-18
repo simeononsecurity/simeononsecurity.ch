@@ -1,7 +1,7 @@
 ---
 title: "Cartões Virtuais Privacy.com: Como Funciona a Privacidade no Pagamento"
 date: 2023-09-03
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: O que é armazenado em um cartão de pagamento, por que a tarja magnética é a parte mais fraca dele, o que um comerciante vê quando você paga com um número virtual e como os tipos e limites de cartões da Privacy.com funcionam na prática.
@@ -232,11 +232,11 @@ Para um exercício sintético da Faixa 1, use:
 
 ```text
 PAN: 4111111111111111
-Surname: TEST
-First name: USER
-Expiry: 12/29
-Service code: 201
-Discretionary data: 000000000
+Apelido: TEST
+Nome: USER
+Validade: 12/29
+Código de serviço: 201
+Dados discricionários: 000000000
 ```
 
 Para um exercício sintético da Faixa 2, use o mesmo PAN, validade, código de serviço e um campo discricionário numérico. A string gerada da Faixa 2 omite o nome porque a Faixa 2 não possui campo de nome.
@@ -263,6 +263,21 @@ Quando você paga com um cartão virtual, o comerciante recebe um número, uma v
 *A distinção confunde as pessoas constantemente. Se seu modelo de ameaça inclui o emissor ou a rede, um cartão virtual não muda nada nisso.*
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="Diagrama mostrando um número de cartão virtual indo para o comerciante enquanto o número real do cartão permanece entre o titular e o banco emissor" >}}
+
+## O que o comerciante continua a ver
+
+**Um cartão virtual oculta a conta de financiamento e o PAN original.** A alteração não apaga os dados enviados no checkout.
+
+A documentação de apoio da Privacy lista os dados do cartão partilhados com o comerciante: o número de 16 dígitos, a data de validade, o CVV e a morada de faturação introduzida no checkout. O comerciante também vê o nome que fornece. Leia a [explicação oficial dos dados visíveis para o comerciante](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant) antes de considerar o cartão virtual uma proteção de identidade.
+
+| Camada | Dados ainda visíveis ou retidos |
+|---|---|
+| **Comerciante** | Número do cartão virtual, validade, CVV, morada de faturação e nome indicados no checkout, dados da encomenda e da conta do comerciante |
+| **Privacy.com** | Dados de identidade, fonte de financiamento, dados dos cartões e transações e dados do dispositivo, segundo a [política de privacidade](https://www.privacy.com/privacy-policy) |
+| **Banco de financiamento** | Data e montante da transação e uma descrição com Privacy.com ou `PWP*`; o banco define a apresentação exata |
+| **Rede de pagamento e emissor** | Registos de autorização, liquidação, fraude e disputa necessários para processar o pagamento |
+
+O limite prático é simples. Um cartão virtual reduz a reutilização das credenciais do cartão. O seu nome, morada de entrega, conta no comerciante, sessão do navegador e outros dados enviados fora dos campos do cartão continuam visíveis para o comerciante. Contas de comerciante separadas e aliases de e-mail ajudam a limitar a associação de identidade entre sites. Um cartão virtual, por si só, não cria essa separação.
 
 ## Os Três Tipos de Objeto em Forma de Cartão
 
@@ -313,6 +328,22 @@ Dois detalhes operacionais que valem a pena saber:
 
 *Nosso módulo **[Segurança Financeira Pessoal](/personal-security-course/personal-finance/)** coloca isso ao lado de congelamentos de crédito e tokenização de cartão como os três controles que limitam o que um único comerciante comprometido alcança.*
 
+## Débitos recorrentes e autorizações
+
+**Os controlos do cartão atuam no momento da autorização.** A Privacy descreve uma transação pendente como a autorização para o comerciante cobrar um montante acordado. Uma autorização de $0 verifica se o cartão está ativo. Não é uma compra concluída. As transações financiadas por um banco passam por uma etapa de liquidação antes de o débito terminar. Consulte o [guia oficial dos estados das transações](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized).
+
+| Evento | O que acontece | Limite do controlo |
+|---|---|---|
+| **Cartão adicionado a um serviço** | O comerciante envia uma autorização de $0 para verificar o cartão | Uma verificação válida não prova que uma encomenda foi paga |
+| **Compra autorizada** | A Privacy regista um montante pendente e permite ao comerciante cobrar o montante acordado | Os fundos disponíveis e as autorizações seguintes refletem a transação pendente |
+| **Compra liquidada** | A fonte de financiamento é debitada após o processamento do comerciante | Uma alteração da encomenda ou uma gorjeta adicional pode produzir um montante final diferente da primeira autorização |
+| **Cartão pausado ou fechado após autorização** | As autorizações futuras são bloqueadas | Uma autorização anterior continua sujeita às regras da rede de pagamento |
+| **Limite de despesa alterado após autorização** | O novo limite aplica-se às tentativas futuras | A autorização anterior mantém o estado que já tinha |
+
+**O limite do cartão não é um saldo pré-pago.** O guia da Privacy para cada cartão indica que o limite bloqueia tentativas de autorização acima do montante escolhido. A fonte de financiamento é debitada à medida que as transações são concluídas. As janelas móveis são de 24 horas para os limites diários, 30 dias para os mensais e 364 dias para os anuais, com uma margem de seis dias em alguns ciclos de faturação de subscrições. O [guia oficial dos limites de despesa](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) documenta estas regras.
+
+Para as subscrições, defina um limite recorrente antes do primeiro débito, reveja as transações pendentes e em liquidação e cancele também junto do comerciante. Fechar um cartão bloqueia as autorizações futuras. Não cancela uma compra já autorizada nem gera um reembolso. O [guia da Privacy para pausar e fechar cartões](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards) descreve o mesmo limite.
+
 ## Planos e O Que Cada Um Desbloqueia
 
 Privacy.com oferece um plano gratuito junto com três planos pagos. Preços e limites de recursos mudam, então confirme os termos atuais antes de assinar.
@@ -327,6 +358,8 @@ Privacy.com oferece um plano gratuito junto com três planos pagos. Preços e li
 **O plano gratuito cobre o benefício principal de segurança.** Bloqueio por comerciante, cartões de uso único e limites de gastos são os mecanismos que reduzem a exposição, e estão disponíveis sem custo. Os planos pagos adicionam organização e conveniência, não proteção adicional.
 
 **As taxas para transações estrangeiras variam por plano.** O plano gratuito cobra 3% em transações estrangeiras com mínimo de $0,50, enquanto os planos pagos não cobram.
+
+Antes de subscrever, consulte os [termos atuais da Privacy.com](https://www.privacy.com/terms).
 
 ## O Que o Privacy.com Não Faz
 
@@ -369,6 +402,27 @@ Duas certificações valem ser mencionadas porque são verificáveis independent
 
 Inspecione o esquema e banco pelo prefixo do PAN usando o **[Decodificador de Faixa Magnética](/magnetic-stripe-decoder/)**, que informa a faixa principal do esquema e valida o dígito verificador Luhn.
 
+## Recuperação da conta e dependência do fornecedor
+
+**O acesso à conta é um controlo separado do isolamento do cartão.** Perante atividade desconhecida, a Privacy recomenda contactar o comerciante, verificar a 2FA e os cartões partilhados, rever os códigos de início de sessão de dispositivos novos, redefinir a palavra-passe e contactar o apoio. O [guia de segurança da conta](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account) lista estes passos.
+
+Mantenha atualizado o e-mail de recuperação e o seu número de telefone dos EUA. Segundo o [guia dos dados da conta](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number), a Privacy exige confirmação quando altera qualquer um destes dados. Ative a 2FA e guarde os nomes dos comerciantes e os últimos quatro dígitos dos cartões num gestor de palavras-passe. Não guarde um PAN completo nem o CVV numa aplicação de notas comum.
+
+Fechar a conta não apaga todos os registos. A política da Privacy, atualizada pela última vez a 8 de junho de 2026, indica períodos de retenção de pelo menos cinco anos para dados de verificação de identidade e cartões de pagamento, seis anos para dados do banco de financiamento e transações ACH, e três anos para registos de auditoria. Leia a secção de retenção da [política de privacidade da Privacy](https://www.privacy.com/privacy-policy) antes de considerar o fecho da conta como eliminação de dados.
+
+**A Privacy continua dependente do banco de financiamento, da Plaid, do ACH, das redes de cartões e dos seus próprios sistemas de conta.** O financiamento bancário usa ACH através da Plaid. A Privacy indica uma alternativa de financiamento por cartão de débito para bancos não suportados, mas a elegibilidade continua a exigir um banco ou cooperativa de crédito dos EUA e um número de telefone dos EUA. O [guia para ligar uma conta bancária](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account) e o [guia de elegibilidade](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy) descrevem estes requisitos.
+
+Os problemas de financiamento afetam os pagamentos. A Privacy documenta pausas temporárias da conta quando o serviço não consegue debitar a fonte de financiamento, por exemplo, devido a saldo insuficiente ou a uma conta fechada. A página de apoio também afirma que remover uma fonte de financiamento não interrompe transações já autorizadas contra essa fonte. Leia o [guia de transações por liquidar](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction) e o [guia para remover uma fonte de financiamento](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account) antes de remover um banco ou cartão de débito.
+
+| Dependência | Tipo de falha | Resposta prática |
+|---|---|---|
+| **Banco de financiamento ou Plaid** | Ligação não suportada, fechada ou desatualizada | Mantenha uma fonte alternativa elegível e reveja o estado da conta |
+| **Conta Privacy** | Nova revisão de identidade, perda do canal de recuperação ou suspensão da conta | Mantenha atualizadas a 2FA e os dados de recuperação |
+| **Comerciante** | Rejeição de um intervalo de cartão virtual ou pré-pago, ou continuação de um débito recorrente | Mantenha um cartão real para exceções e cancele junto do comerciante |
+| **Rede ou emissor** | Atraso na autorização, liquidação, reembolso ou disputa | Guarde recibos, extratos e registos de transações |
+
+Os termos da Privacy descrevem serviços separados da empresa e dos seus parceiros financeiros. Também permitem pedidos de dados de identidade adicionais e restrições de contas. Inclua o acesso ao fornecedor e os registos da conta no seu modelo de ameaças. Não encaminhe todas as faturas essenciais por um único fornecedor de cartões.
+
 ## Usando Cartões Virtuais Corretamente
 
 **Os controles só ajudam se você configurá-los.** Seis hábitos trazem a maior parte do benefício.
@@ -381,6 +435,19 @@ Inspecione o esquema e banco pelo prefixo do PAN usando o **[Decodificador de Fa
 6. **Mantenha um cartão real para comerciantes que rejeitam faixas virtuais**, para que um bloqueio no checkout não vire emergência.
 
 > **Erro comum: tratar um cartão virtual como substituto para revisar seus extratos.** O bloqueio por comerciante impede uma classe de danos. Não detecta conta comprometida no banco, transferência não autorizada ou cobrança fraudulenta no cartão real por trás dele.
+
+## Limites atuais dos controlos
+
+A documentação de apoio atual da Privacy.com indica que um limite de despesa específico do cartão bloqueia tentativas de autorização acima do limite. O [guia dos limites de despesa](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) também descreve janelas móveis. A [documentação de cartões para programadores](https://developers.privacy.com/docs/cards) lista cartões associados a comerciantes e campos de limites de despesa.
+
+| Controlo | Ajuda com | Não resolve |
+|---|---|---|
+| Cartão associado a um comerciante | Reutilização do número noutro comerciante | Conta Privacy.com comprometida ou transação fraudulenta no comerciante pretendido |
+| Limite de despesa | Montantes de autorização inesperados e desvios de cobranças recorrentes | Débito anterior à alteração do limite ou conta de financiamento comprometida |
+| Fecho de um cartão virtual | Autorizações futuras com esse número | Reembolso, disputa ou registo do comerciante já criado |
+| Cartão separado por serviço | Identificação e revogação rápidas | Falhas do fornecedor, verificações de identidade ou registos bancários |
+
+Reveja a conta de financiamento, os métodos de recuperação da conta, os alertas e a lista de cartões como um único conjunto de controlos. Um número virtual altera o número partilhado com o comerciante. Não oculta a transação do banco emissor, do fornecedor do cartão, do comerciante, das redes de pagamento, dos registos fiscais ou de um tribunal com autoridade legal. Também não transforma um cartão de débito numa linha de crédito nem garante o resultado de uma disputa.
 
 ## Principais Conclusões
 
@@ -413,3 +480,17 @@ Inspecione o esquema e banco pelo prefixo do PAN usando o **[Decodificador de Fa
 7. [Codificação de dados ANSI/ISO ALPHA, conjunto de caracteres da Faixa 1 e tabela de paridade](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [Caracteres ISO para cartão magnético, conjuntos da Faixa 1 e Faixa 2 lado a lado](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [Leitura de dados de cartão magnético, um passo a passo prático com escaneamento ao vivo do cartão](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Documentação de programadores da Privacy: tipos de cartão, estados e limites](https://developers.privacy.com/docs/cards)
+11. [Apoio da Privacy: dados partilhados com comerciantes](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Apoio da Privacy: limites de despesa por cartão](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Apoio da Privacy: estados de transação e autorizações](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Apoio da Privacy: pausar e fechar cartões](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Apoio da Privacy: descrições nos extratos bancários](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Apoio da Privacy: ligar uma conta bancária através da Plaid](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Apoio da Privacy: atividade da conta e verificações de recuperação](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Apoio da Privacy: atualizar o e-mail e o telefone da conta](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Apoio da Privacy: requisitos de elegibilidade](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Apoio da Privacy: transações por liquidar](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Apoio da Privacy: remover uma fonte de financiamento](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Política de privacidade da Privacy.com](https://www.privacy.com/privacy-policy)
+23. [Termos de serviço da Privacy.com](https://www.privacy.com/terms)

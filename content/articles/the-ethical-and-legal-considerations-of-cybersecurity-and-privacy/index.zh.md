@@ -1,6 +1,7 @@
 ---
 title: "数字化转型中的网络安全与隐私：法律与道德考量"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "了解数字化转型中网络安全和隐私的法律和道德考虑因素。"
@@ -38,7 +39,7 @@ coverCaption: ""
 
 ### 数据隐私法规
 
-**数据隐私法规**，如欧盟的《通用数据保护条例 [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA)随着在线收集和存储的个人数据日益增多，《个人数据保护法》也变得越来越普遍。这些法规旨在保护个人隐私和个人数据的安全，并为个人提供更多的数据控制权。
+**数据隐私法规**，例如欧盟《通用数据保护条例》([GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en))和 California Consumer Privacy Act (CCPA)，随着在线收集和存储的个人数据日益增多而变得越来越普遍。这些法规旨在保护个人隐私和个人数据安全，并让个人更好地控制自己的数据。
 
 例如，2018 年生效的 GDPR 规定，个人有权访问、更正和删除公司和组织持有的个人数据。收集和处理个人数据的公司和组织必须遵守 GDPR，否则将面临巨额罚款和法律后果。
 
@@ -46,7 +47,7 @@ coverCaption: ""
 
 ### 网络安全法
 
-**网络安全法**是数字化转型时代的另一个法律考虑因素。这些法律旨在保护个人、企业和政府免受网络攻击和信息泄露。网络安全信息共享法 [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act)是美国网络安全法律的两个例子。
+**网络安全法律**是数字化转型时代需要考虑的另一项法律问题。这些法律旨在保护个人、企业和政府免受网络攻击和安全漏洞的影响。美国《网络安全信息共享法》(Cybersecurity Information Sharing Act, [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act))和 Computer Fraud and Abuse Act ([CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act))是两部网络安全法律。
 
 CISA 于 2015 年通过，鼓励私营部门与政府共享网络安全威胁信息，以帮助预防网络攻击。CFAA 于 1986 年颁布，将黑客攻击和计算机欺诈等计算机相关活动定为刑事犯罪。
 

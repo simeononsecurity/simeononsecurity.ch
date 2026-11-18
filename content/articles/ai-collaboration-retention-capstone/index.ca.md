@@ -1,7 +1,7 @@
 ---
 title: "Capstone de col·laboració amb IA: GitHub, Confluence i Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Executa un canvi de retenció sintètic amb fluxos de treball GitHub-first i Confluence/Jira, evidència de fallades i revisió independent."
@@ -46,16 +46,16 @@ coverCaption: ""
 **Obre l’Issue i el PR candidat** amb les lliçons de GitHub. Canvia alhora el requisit, la configuració, la proposta i el runbook. Captura la base protegida, executa les comprovacions fiables i obtén les revisions de producte i operacions en el commit final.
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+Execució: GitHub-first
+Canvi: retenció sintètica 7 -> 30 dies
+Requisit: REQ-17 revisió 2
+Configuració: retention_days 30
+Runbook: termini de retenció: 30 dies
+Proposta: revisió base 1, de 7, a 30
+Manifest: hashes de les fonts protegides abans del canvi
+Revisió: revisions de producte i operacions sobre la versió final de la proposta
+Publicació: commit fusionat i lectura de verificació
+Límit: no s’ha provat cap servei d’eliminació en execució
 ```
 
 **Omple les referències reals des del sandbox.** L’esquema és un mapa esperat, no una evidència completa. El mantenidor només fa merge després de la revisió i després llegeix **`main`** de manera independent. Tanca l’Issue quan hagis enllaçat els registres finals.
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    les mateixes categories d’evidència, recollides de manera independent
 ```
 
 **Aquests noms són un exemple d’organització**, no fitxers d’arxiu subministrats. Desa l’evidència real de manera privada al sandbox aprovat. Els lliuraments compartits han d’usar rols i referències redactades.
@@ -148,6 +148,23 @@ capstone-evidence/
 5. **Repara amb revisió:** conserva l’evidència abans de restaurar els controls.
 6. **Repeteix el cas positiu:** confirma que el flux corregit encara lliura el treball permès.
 
+**Targeta d’injecció i restabliment per a cada cas:** abans del cas següent, fes servir una proposta sintètica nova o restaura una base revisada. La persona observadora registra la precondició i confirma el restabliment. No esborris mai l’intent fallit del registre.
+
+| Cas | Injecció i comprovació: GitHub-first | Injecció i comprovació: Mixed | Restabliment abans del cas següent |
+|---|---|---|---|
+| Canvi aprovat | Envia el PR fixat, obtén les dues revisions, fusiona’l i torna a obrir `main` | Publica REQ-17, fusiona el diff revisat, publica RUN-04 i torna a llegir els registres | Desa les revisions finals com a nova base |
+| Context obsolet | Captura un manifest i canvia la base de prova amb un PR revisat separat abans de validar la proposta antiga | Captura les versions de les pàgines i fes que un editor autoritzat canviï una pàgina de prova abans de la lectura prèvia a l’escriptura | Atura’t, compara versions, captura fonts noves i revisa un paquet nou |
+| Escriptura no autoritzada | Contributor intenta un push directe innocu a `main` protegit i desa la denegació del servidor | Contributor intenta editar REQ-17 i fer la transició a Approved | Torna a llegir el commit, la versió de la pàgina i l’estat de Jira per confirmar que no han canviat |
+| Conflicte | L’esborrany de l’Issue diu seixanta dies i el fitxer aprovat en diu set | L’esborrany de Jira diu seixanta dies i REQ-17 en diu set | La persona responsable de producte concilia l’esborrany i registra la decisió |
+| Publicació parcial | Atura’t després de l’aprovació i abans de fusionar o rellegir; deixa l’Issue obert | Atura’t després de rellegir REQ-17 mentre la configuració i RUN-04 encara indiquen set | Mantén el lliurament pendent i obtén una decisió revisada per completar o compensar |
+| Accés denegat | Una identitat de prova exclosa intenta llegir una font sintètica d’un repositori privat de prova | La identitat exclosa intenta accedir a una pàgina sintètica restringida | Restaura només l’accés de prova aprovat i comprova que el lector habitual encara hi accedeix |
+| Recuperació | Interromp un canvi de prova aprovat i proposa completar-lo o revertir-lo amb revisió | Fes servir el registre de publicació parcial per proposar completar-la o compensar-la amb revisió | Torna a llegir cada font i concilia el registre |
+| Traspàs | Envia MAP-01 i el registre a una persona revisora nova sense el xat anterior | Envia els ID de les pàgines mapejades i el registre a una persona revisora nova sense el xat anterior | La persona revisora obre les fonts actuals i anota el pas següent autoritzat |
+
+En cada cas denegat, registra la resposta de la plataforma i torna a llegir el registre protegit. Per al cas de l’usuari exclòs, consulta les traces d’eines, els registres de recuperació o les dades d’auditoria del proveïdor per comprovar si el text protegit va arribar a la tasca. Si no hi ha aquestes proves, marca com a Bloquejada la comprovació de seguretat d’accés; una denegació visible no demostra que no s’hagi retornat un fragment en memòria cau. Si el pla no inclou el control o falta una identitat de prova autoritzada, marca Bloquejat en lloc de simular un aprovat.
+
+
+
 **Una fallada planificada continua sent una observació de fallada.** No anomenis exitosa una publicació no autoritzada perquè volies provar-la. La prova ha exposat un defecte, però el límit de publicació ha fallat.
 
 ## Interpreta un resultat mixt
@@ -164,37 +181,53 @@ capstone-evidence/
 
 **Raonament esperat:** mantén l’execució incompleta, verifica les fonts actuals i demana la decisió del propietari corresponent. No afebleixis permisos ni descriguis la comprovació de la instantània com a evidència de publicació en directe.
 
+**Paquet pedagògic de Mixed, sintètic i sense dades d'un client:**
+
+```text
+Execució: MIXED-042-example
+Base capturada: REQ-17 v4 = 7 dies; RUN-04 v2 = 7 dies.
+GitHub main base-001 config.json = {"retention_days": 7}; Jira PROP-042 r1 = In Review.
+Proposta fixada: REQ-17 v5 estableix 30 dies per a les exportacions sintètiques. Exclou dades de producció, còpies de seguretat i retencions legals.
+GitHub config.json canvia retention_days de 7 a 30. RUN-04 v3 indica 30 dies; al laboratori no s’executa cap servei d’eliminació. La publicació incompleta queda pendent.
+Revisió: el responsable de producte aprova el text exacte de REQ-17. Operacions aprova el diff de configuració i el runbook a r1.
+Publicació: qui publica rellegeix REQ-17 v5 i RUN-04 v3, tots dos amb 30 dies; manteniment llegeix main a merge-002 amb retention_days 30.
+Acció denegada: es denega al col·laborador editar REQ-17 v5. Qui publica confirma que no ha canviat; qui observa desa la prova de la plataforma.
+Recuperació: falla un intent de RUN-04 i Jira continua Blocked. Operacions autoritza un altre intent; després de rellegir v3, Jira passa a Done.
+Relleu: una persona revisora nova rep MAP-01 i el registre, llegeix les tres fonts i Jira, i anota els 30 dies i la mancança d’execució.
+Límit: només es demostra la publicació de les fonts. Temps d’eliminació: no executat.
+```
+
 ## Revisa amb un lector independent
 
 **Demana al revisor que reconstrueixi els esdeveniments**, no que només llegeixi la conclusió. Ha de trobar la base aprovada, la proposta fixada, les decisions, les revisions resultants, les fallades, la reparació i les mancances sense la teva narració.
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+Preguntes de revisió independent:
+Quina font regeix la intenció de retenció en aquest flux?
+Quin paquet exacte ha revisat cada responsable?
+Ha canviat cap font després de la revisió?
+Què s’ha publicat i què continua pendent?
+Quina acció denegada s’ha observat i amb quin rol?
+Ha arribat text protegit al context d’un usuari exclòs?
+Quina reparació s’ha revisat i rellegit?
+El nou relleu reconstrueix l’estat actual de manera independent?
 ```
 
 **Puntua cada requisit per separat.** Usa Supported, Failed, Blocked o Not run amb una referència d’evidència. Coherència, aprovació, permisos, recuperació i traspàs són requisits diferents.
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+ID i flux d’execució:
+Rol de revisió i data:
+Cas 01 canvi aprovat: estat ___ prova ___ mancança ___
+Cas 02 context obsolet: estat ___ prova ___ mancança ___
+Cas 03 escriptura no autoritzada: estat ___ prova ___ mancança ___
+Cas 04 conflicte: estat ___ prova ___ mancança ___
+Cas 05 publicació parcial: estat ___ prova ___ mancança ___
+Cas 06 accés denegat: estat ___ prova ___ mancança ___
+Cas 07 recuperació: estat ___ prova ___ mancança ___
+Cas 08 relleu: estat ___ prova ___ mancança ___
+Decisió general: Justificada / Fallida / Bloquejada / No executada
+Rol responsable següent i acció:
 ```
 
 **Supported significa que el revisor ha trobat evidència observada per a cada cas aplicable.** Registra Failed davant una fallada observada, Blocked si falta accés o control i Not run si no s’ha intentat.
@@ -204,17 +237,17 @@ Next accountable role and action:
 **Paquet de model redactat, només il·lustratiu:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+Flux: github-first | Execució: G-01 | Revisor: rol pilot independent
+Base: commit protegit base-001 | Proposta fixada: PROP-042 r1
+Aprovacions: revisió de producte P-01, revisió d’operacions O-01
+Coherència: comprovació local superada, resultat C-01 desat
+Permís: push directe del col·laborador denegat, esdeveniment D-01
+Publicació: commit merge-002; un clon nou confirma 30 dies
+Excepció: còpies de seguretat i retencions legals excloses
+Recuperació: interrupció R-01 rellegida i resolta amb revisió
+Relleu: la segona persona troba la base actual, l’excepció i el pas següent
+Límit d’execució: no afirma eliminació ni desplegament en producció
+Decisió: justificada només per al flux sintètic GitHub-first
 ```
 
 Substitueix cada referència il·lustrativa per un artefacte observat del sandbox. Repeteix el paquet complet per a Mixed amb les seves versions i revisions. El revisor ha de rebutjar una aprovació GitHub copiada dins del paquet Mixed.
@@ -243,14 +276,14 @@ Substitueix cada referència il·lustrativa per un artefacte observat del sandbo
 ## Crea la decisió de desplegament
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+Decisió: un altre pilot sintètic, bloquejat o rebutjat
+Proves: els dos paquets d’execució i la matriu de fallades
+Requisits no aplicats: enumereu explícitament els controls procedimentals
+Revisió del proveïdor: abast de les entrades i retenció
+Responsabilitats: producte, operacions, política, repositori, lliurament
+Mancances de producció: proves d’execució, secrets, desplegament, revisió d’accés
+Pas següent: seguiment acotat amb un rol responsable
+Data de revisió: assignada pels responsables del pilot
 ```
 
 **Raonament esperat:** l’èxit sintètic permet un altre pilot limitat. Producció requereix aprovació separada per a dades reals, desplegament, tractament del proveïdor i comportament d’execució. Una resposta correcta de l’assistent no és autorització de desplegament.

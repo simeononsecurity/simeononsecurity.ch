@@ -1,7 +1,7 @@
 ---
 title: "Meta-র Context Language Models: এজেন্টের উন্নত স্মৃতি, হ্যালুসিনেশনের অবসান নয়"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Context Language Models কীভাবে এজেন্টের স্মৃতি সম্পাদনা করে, বেঞ্চমার্ক কী প্রমাণ করে, এবং ক্যাশের খরচ, মডেলের সক্ষমতা ও অবিশ্বস্ত নোট কীভাবে নির্ভরযোগ্যতাকে প্রভাবিত করে।"
@@ -48,11 +48,11 @@ coverCaption: "সম্পাদনাযোগ্য এজেন্ট স্
 **Rulin Shao ও সহলেখকেরা**, Meta Superintelligence Labs এবং University of Washington-এর গবেষকদের সঙ্গে, 29 সেপ্টেম্বর 2026-এর একটি preprint-এ CLM উপস্থাপন করেন। তাঁদের বাস্তবায়ন সক্রিয় কনটেক্সটকে সম্পাদনাযোগ্য ফাইল হিসেবে প্রকাশ করে। এজেন্ট shell কমান্ড বা কোড দিয়ে ফাইল বদলায়, আর runtime পরের কলে সংশোধিত বিষয়বস্তু সরবরাহ করে। দেখুন [Context Language Models](https://arxiv.org/abs/2609.37725)।
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+সাধারণ ধারাবাহিকতা:
+বিদ্যমান প্রসঙ্গ + নতুন উত্তর + নতুন টুল আউটপুট
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+সম্পাদনযোগ্য প্রসঙ্গের ধারাবাহিকতা:
+এজেন্ট প্রসঙ্গ ফাইল সংশোধন করে -> রানটাইম সংশোধিত প্রসঙ্গ লোড করে -> পরবর্তী মডেল কল
 ```
 
 **Zero-shot পদ্ধতিতে মডেল আর্কিটেকচার বদলাতে হয় না।** Runtime বিদ্যমান মডেলের চারপাশে একটি সক্ষমতা যোগ করে। পেপারটি নির্দেশনা, শেখা কনটেক্সট-ব্যবস্থাপনা কৌশল এবং reinforcement learning-ও আলাদাভাবে পরীক্ষা করে।
@@ -101,11 +101,11 @@ Supplementary TerminalBench analysis-এ **9B-এর অর্ধেক কা�
 **KV cache** attention-এর মধ্যবর্তী গণনা ধরে রাখে। সাধারণ prefix caching-এ পরের অনুরোধের শুরুতে অপরিবর্তিত লেখা আগের গণনা পুনর্ব্যবহার করে। শুরুর কাছে সম্পাদনা করলে পুনর্ব্যবহারযোগ্য prefix ছোট হয় এবং পরের লেখা আবার process করতে হয়।
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+আগের অনুরোধ: A + B + C
+সংশোধিত অনুরোধ:  A + B-এর বিকল্প + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+সাধারণ prefix পুনর্ব্যবহার:
+A পুনর্ব্যবহার করুন, B-এর বদলি অংশ ও C পুনরায় গণনা করুন
 ```
 
 পেপারের **prefix-reuse FLOPs** মেট্রিক প্রথম অমিলের পর generation এবং prompt processing গণনা করে। একটি PFLOP হলো 10¹⁵ floating-point operation। এটি আনুমানিক কম্পিউট মোট, quality score, throughput measurement বা invoice নয়।
@@ -122,9 +122,9 @@ Appendix C-এর **7.7× উদাহরণে** 20,000-token prompt এবং 
 
 **Reuse আনুমানিক।** টিকে থাকা token আগের context-এর অধীনে গণনা করা state ধরে রাখে। তাই benchmark performance মিলে গেলেও নতুন prompt পুরোপুরি পুনর্গণনার সঙ্গে numerical equivalence প্রমাণ হয় না।
 
-BrowseComp-Plus তুলনায় লেখকেরা **server-side compute 35% কম** জানান। অতিরিক্ত পুনর্ব্যবহৃত prompt token-এর 7.8 percentage point-এর মধ্যে 5.3 এসেছে বাদ দেওয়া reasoning block থেকে, 2.5 এসেছে অন্য edit থেকে। তাই এই লাভের বড় অংশ explicit CLM editing-এর বাইরেও প্রযোজ্য। দেখুন [SCR implementation notes](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md)।
+BrowseComp-Plus তুলনায় লেখকেরা **server-side compute 35% কম** জানান। অতিরিক্ত পুনর্ব্যবহৃত prompt token-এর 7.8 percentage point-এর মধ্যে 5.3 এসেছে বাদ দেওয়া reasoning block থেকে, 2.5 এসেছে অন্য edit থেকে। তাই এই লাভের বড় অংশ explicit CLM editing-এর বাইরেও প্রযোজ্য। দেখুন [SCR বাস্তবায়ন-সংক্রান্ত নোট](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md)।
 
-**API billing-এর ক্ষেত্রে** সাধারণ input, cache write এবং cache read আলাদা করুন। Anthropic Sonnet 4.6-এর জন্য প্রতি মিলিয়ন token-এ সাধারণ input, পাঁচ মিনিটের cache write এবং cache hit-এর দাম যথাক্রমে $3, $3.75 এবং $0.30 জানায়। 20,000 token cache write হিসেবে আবার লিখতে $0.075 লাগে, hit-এর জন্য $0.006। $0.069 পার্থক্যে output ও অন্য billing modifier ধরা নেই। [Prompt-caching documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), 10 অক্টোবর 2026-এ পরীক্ষা করা হয়েছে।
+**API billing-এর ক্ষেত্রে** সাধারণ input, cache write এবং cache read আলাদা করুন। Anthropic Sonnet 4.6-এর জন্য প্রতি মিলিয়ন token-এ সাধারণ input, পাঁচ মিনিটের cache write এবং cache hit-এর দাম যথাক্রমে $3, $3.75 এবং $0.30 জানায়। 20,000 token cache write হিসেবে আবার লিখতে $0.075 লাগে, hit-এর জন্য $0.006। $0.069 পার্থক্যে output ও অন্য billing modifier ধরা নেই। [প্রম্পট ক্যাশিংয়ের নথি](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), 10 অক্টোবর 2026-এ পরীক্ষা করা হয়েছে।
 
 **মোট কাজের খরচই tradeoff ঠিক করে।** মাঝেমধ্যে ব্যয়বহুল edit পরের input অনেক কমালে সাশ্রয় দেয়। অল্প কয়েকটি বাকি turn-এর আগে ঘন ঘন edit করলে খরচ ফেরত পাওয়ার সুযোগ কমে।
 
@@ -189,9 +189,9 @@ Official repository **CC BY-NC 4.0** শর্তে প্রকাশিত।
 ## রেফারেন্স
 
 - **Rulin Shao et al.:** [Context Language Models](https://arxiv.org/abs/2609.37725), 29 সেপ্টেম্বর 2026, সঙ্গে [পূর্ণ ফলাফল ও appendix](https://arxiv.org/html/2609.37725v1)।
-- **Meta research implementation:** [Context Language Models repository](https://github.com/facebookresearch/context-language-models)।
-- **Serving implementation:** [Suffix Cache Reuse documentation](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md)।
-- **Anthropic:** [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)।
+- **Meta research implementation:** [Context Language Models-এর ভান্ডার](https://github.com/facebookresearch/context-language-models)।
+- **Serving implementation:** [Suffix Cache Reuse-এর নথি](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md)।
+- **Anthropic:** [প্রম্পট ক্যাশিংয়ের নথি](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)।
 - **OpenAI:** [Self-generated prompt injections in compaction summaries](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/)।
-- **llama.cpp:** [Hybrid-model prompt reprocessing discussion](https://github.com/ggml-org/llama.cpp/issues/20225)।
+- **llama.cpp:** [হাইব্রিড মডেলে prompt পুনঃপ্রক্রিয়াকরণ আলোচনা](https://github.com/ggml-org/llama.cpp/issues/20225)।
 - **Kai:** [The End of AI Hallucinations? Meta's New Fix (CLM's)](https://www.youtube.com/watch?v=9-iiHFQyzuM)।

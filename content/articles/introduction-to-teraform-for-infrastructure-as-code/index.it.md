@@ -1,10 +1,11 @@
 ---
 title: "Come iniziare con Terraform per Infrastructure as Code"
 date: 2023-05-04
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Imparate le basi di Terraform, un popolare strumento di infrastructure as code, e come usarlo per gestire l'infrastruttura in modo efficiente."
-tags: ["Terraform", "Infrastruttura come codice", "IaC", "Cloud Computing", "DevOps", "Automazione", "AWS", "Azzurro", "Google Cloud", "Fornitori di cloud", "Gestione della configurazione", "Distribuzione", "Approvvigionamento", "Gestione delle risorse", "Scalability", "Resilienza", "Sicurezza", "Compliance", "Migliori pratiche"]
+tags: ["Terraform", "Infrastruttura come codice", "IaC", "Cloud Computing", "DevOps", "Automazione", "AWS", "Azure", "Google Cloud", "Fornitori di cloud", "Gestione della configurazione", "Distribuzione", "Approvvigionamento", "Gestione delle risorse", "Scalabilità", "Resilienza", "Sicurezza", "Compliance", "Migliori pratiche"]
 cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Un monitor di computer a fumetti con dispositivi multipli collegati alla rete che appaiono come blocchi di costruzione che vengono aggiunti o rimossi, a significare la gestione dell'infrastruttura con Terraform."
 coverCaption: ""
@@ -36,7 +37,7 @@ L'uso di Teraform per le applicazioni infrastructure as code offre diversi vanta
 
 Per iniziare con Teraform, è necessario:
 
-1. **Scaricare Teraform:** Teraform può essere scaricato dal sito web[official website](https://www.terraform.io/downloads.html)
+1. **Scaricare Teraform:** Teraform può essere scaricato dal sito web[sito ufficiale](https://www.terraform.io/downloads.html)
 
 2. **Teraform utilizza file di configurazione scritti in HashiCorp Configuration Language (HCL) o JSON. Il file di configurazione definisce l'infrastruttura che si desidera creare, aggiornare o cancellare.
 
@@ -154,6 +155,6 @@ Teraform è un potente strumento di infrastructure as code che consente una gest
 
 **Riferimenti:**
 
--[Teraform Official Website](https://www.terraform.io/)
--[Teraform Documentation](https://www.terraform.io/docs/index.html)
--[AWS Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)
+- [Sito ufficiale di Teraform](https://www.terraform.io/)
+- [Documentazione di Teraform](https://www.terraform.io/docs/index.html)
+- [Best practice AWS per sicurezza, identità e conformità](https://aws.amazon.com/architecture/security-identity-compliance/)

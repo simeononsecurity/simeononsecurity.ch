@@ -1,7 +1,7 @@
 ---
 title: "Confluence और Jira में AI सेटअप: अनुमतियाँ और अधिकार"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "समीक्षित टीम सहयोग के लिए Confluence के प्राधिकार पृष्ठ और कंपनी-प्रबंधित Jira अनुमतियाँ कॉन्फ़िगर करें।"
@@ -53,15 +53,15 @@ coverCaption: ""
 5. हर प्राधिकार पृष्ठ पर **Share खोलें।** योग्य स्पेस सदस्यों के लिए सामान्य एक्सेस केवल-पढ़ने का रखें और चुने हुए मालिकों/प्रकाशकों को अलग से संपादन अधिकार दें। बदलाव सहेजें और योगदानकर्ता खाते से सत्यापित करें।
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+स्रोत आईडी: REQ-17
+मालिक की भूमिका: product-owner
+स्थिति: स्वीकृत आधार
+दायरा: केवल सिंथेटिक निर्यात फ़ाइलें
+प्रतिधारण: 7 दिन
+डिलीवरी स्थिति: प्रयोगशाला का आधार कॉन्फ़िगरेशन
+अपवाद: उत्पादन डेटा, बैकअप और कानूनी रोक शामिल नहीं
+स्वीकृति प्रमाण: DEC-12 आधार समीक्षा
+कार्यान्वयन संदर्भ: सुरक्षित GitHub आधार कमिट संलग्न करें
 ```
 
 **हर प्राधिकार पृष्ठ पर प्रतिबंध लगाएँ।** यह न मानें कि पैरेंट पृष्ठ का संपादन प्रतिबंध उसके चाइल्ड पृष्ठों को भी सुरक्षित करता है। पढ़ने और संपादन की अनुमतियों का उत्तराधिकार अलग होता है, और स्पेस अनुमतियाँ भी लागू रहती हैं। केवल लिंक से एक्सेस नहीं मिलता। केवल-पढ़ने वाले उपयोगकर्ता के संपादन करने पर सभी सदस्यताएँ जाँचें।
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **अन्य दो पृष्ठों के लिए ये प्रारंभिक पाठ इस्तेमाल करें।** किसी रिकॉर्ड को स्वीकृत करने से पहले अस्थायी समीक्षा फ़ील्ड को सैंडबॉक्स के वास्तविक प्रमाण से बदलें।
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+स्रोत आईडी: RUN-04
+मालिक की भूमिका: operations-owner
+स्थिति: स्वीकृत आधार
+दायरा: केवल सिंथेटिक निर्यात फ़ाइलें
+कॉन्फ़िगर प्रतिधारण: 7 दिन
+प्रक्रिया: समीक्षा किए गए बदलाव से पहले REQ-17 और config.json की तुलना करें
+रनटाइम सीमा: इस प्रयोगशाला में मिटाने का काम नहीं है और मिटाने का प्रमाण नहीं बनता
+पुनर्प्राप्ति: समीक्षा के बाद पिछला स्वीकृत कॉन्फ़िगरेशन बहाल करें
+पुनर्प्राप्ति सीमा: कॉन्फ़िगरेशन बहाल करने से मिटाई गई फ़ाइलें वापस नहीं आतीं
+समीक्षा प्रमाण: वास्तविक समीक्षक, पृष्ठ संस्करण और निर्णय संदर्भ जोड़ें
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+पृष्ठ: निर्णय रजिस्टर
+प्रविष्टि आईडी: DEC-12
+निर्णय: सिंथेटिक आधार के रूप में सात दिन रखें
+दायरा: केवल export-service-lab
+आवश्यकता: प्रकाशन के बाद REQ-17 पृष्ठ संस्करण दर्ज करें
+रनबुक: प्रकाशन के बाद RUN-04 पृष्ठ संस्करण दर्ज करें
+नीति: समीक्षा के बाद POL-01 का सुरक्षित GitHub संशोधन दर्ज करें
+उत्पाद समीक्षा: नामित मालिक के निर्णय दर्ज करने तक लंबित
+ऑपरेशन समीक्षा: नामित मालिक के निर्णय दर्ज करने तक लंबित
+स्थिति: मसौदा उदाहरण, देखे गए समीक्षा प्रमाण से बदलें
 ```
 
 ## मैप अपडेट करें
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **यह ड्राफ़्ट PROP-042 में चिपकाएँ।** Jira आइटम डिलीवरी ट्रैक करता है। इसका पाठ Confluence की स्वीकृत भाषा की जगह नहीं लेता।
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+प्रस्ताव आईडी: PROP-042
+स्थिति: मसौदा
+वर्तमान स्वीकृत मान: 7 दिन, REQ-17 पृष्ठ संस्करण दर्ज करें
+प्रस्तावित मान: सिंथेटिक निर्यात फ़ाइलों के लिए 30 दिन
+अपवाद: उत्पादन डेटा, बैकअप और कानूनी रोक
+प्रभावित रिकॉर्ड: REQ-17, RUN-04, config.json, proposal.json
+स्थायी प्रस्ताव संलग्नक: लंबित
+उत्पाद-मालिक समीक्षा: लंबित
+ऑपरेशन-मालिक समीक्षा: लंबित
+प्रकाशन रजिस्टर: लंबित
+स्रोत संस्करण बदलने, समीक्षा न होने या पहुँच अस्वीकृत होने पर रुकें
 ```
 
 | भूमिका | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **पढ़ने, ड्राफ़्ट बनाने और प्रकाशित करने को अलग रखें।** योगदानकर्ता को सिंथेटिक आवश्यकता समझने और प्रस्ताव भेजने भर का एक्सेस चाहिए। उसे प्राधिकार पृष्ठ संपादित करने या अपना प्रस्ताव स्वीकृत करने की अनुमति नहीं चाहिए।
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+परीक्षण रिकॉर्ड: PERM-REQ-EDIT
+भूमिका: योगदानकर्ता
+स्रोत: REQ-17
+पूर्वशर्त: स्रोत पढ़ने योग्य है और प्रकाशित संशोधन दर्ज है
+प्रयास: आधिकारिक आवश्यकता संपादित करें
+अपेक्षित: संपादन अस्वीकृत, प्रकाशित संशोधन अपरिवर्तित
+देखा गया: सैंडबॉक्स से भरें
+प्रमाण: मूल परिणाम और संशोधन का स्वतंत्र पुनःपठन
+समीक्षक: प्रशासक या स्वतंत्र अनुमति समीक्षक
 ```
 
 **पढ़ने से इनकार के लिए अलग रिकॉर्ड रखें।** योगदानकर्ता द्वारा पढ़ी जा सकने वाली आवश्यकता, प्रकाशन और संपादन का अलगाव जाँचती है। बहिष्कृत उपयोगकर्ता का पृष्ठ न खोल पाना गोपनीयता जाँचता है। दोनों को एक पंक्ति में जोड़ने से पता नहीं चलता कि कौन-सी सीमा जाँची गई।

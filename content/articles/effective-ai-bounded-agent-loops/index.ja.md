@@ -1,7 +1,7 @@
 ---
 title: "AIエージェントの上限付きループ: チェック、再試行、停止ルール"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "観察可能な状態、チェック、再試行の上限、停止条件、人への明確な引き継ぎを備えたAI目標ループを定義します。"
@@ -89,7 +89,7 @@ coverCaption: ""
 **変更前のラボから始めます。** 2つのベースラインテストは合格します。新しい展開先で、下記のチェックを含む `tests/test_loop_contract.py` を作成します。このファイルはスターターに存在しない機能を要求するものです。保守対象のスターターZIPには含めません。
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""ステータスフィルター演習用の、制御された失敗チェックを1つ。"""
 
 import subprocess
 import sys

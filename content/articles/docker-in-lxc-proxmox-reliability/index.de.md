@@ -1,17 +1,16 @@
 ---
 title: "Docker in LXC auf Proxmox: Zuverlässigkeit, Belege und VM-Migration"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Bewerte Docker in Proxmox LXC anhand eines dokumentierten AppArmor-Fehlers, einer sorgfältigen Analyse eines Host-Freezes, Diagnosebefehlen und eines Migrationsplans für eine VM."
-genre: ["Virtualisierung", "Linux-Administration", "Homelab"]
-tags: ["Docker in LXC", "Docker auf Proxmox", "Proxmox-LXC", "Docker-VM", "Homelab-Zuverlässigkeit", "Proxmox-Host friert ein", "Debian-Docker-VM", "unprivilegierte Container", "verschachtelte Container", "Linux-Kernel-Isolierung", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker-Speichertreiber", "containerd-Image-Speicher", "Speicherdruck", "Linux PSI", "persistentes Journal", "Proxmox-Backups", "Bind-Mount-Backups", "VM-Migration", "Fehlerdomänen", "GPU-Passthrough", "Fehlersuche auf dem Heimserver"]
+genre: ["Virtualisierung", "Linux-Systemverwaltung", "Heimlabor"]
+tags: ["Docker in einem LXC-Container", "Docker auf Proxmox", "LXC-Container auf Proxmox", "Docker-VM", "Homelab-Zuverlässigkeit", "Proxmox-Host friert ein", "Virtuelle Debian-Maschine mit Docker", "unprivilegierte Container", "verschachtelte Container", "Linux-Kernel-Isolierung", "AppArmor", "runc", "lxc-pve", "Docker Compose", "Docker-Speichertreiber", "containerd-Image-Speicher", "Speicherdruck", "Linux PSI", "persistentes Journal", "Proxmox-Sicherungen", "Sicherungen von Bind-Mounts", "Umzug virtueller Maschinen", "Fehlerdomänen", "GPU-Durchreichung", "Fehlersuche auf dem Heimserver"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Isometrische Illustration eines Heimservers mit verschachtelten Workloads und einem separaten Bereich für eine virtuelle Maschine auf gemeinsam genutzter Hardware"
 coverCaption: "Konzeptillustration gemeinsam genutzter Hardware und unterschiedlicher Grenzen für die Workload-Isolierung"
 ---
-
 **Docker in Linux Containers (LXC)** spart einen Teil des Infrastrukturaufwands, führt aber zu mehr Wechselwirkungen zwischen der Anwendungsruntime und dem Proxmox-Host. Für Docker-Dienste, auf die dein Haushalt angewiesen ist, bietet eine Debian-**virtuelle Maschine (VM)** einen praktikablen Ausgangspunkt. Sie trennt den Gastkernel und vereinfacht die Umgebung, die du bei der Fehlersuche reproduzieren musst. Dieser Artikel untersucht das bereitgestellte Video, prüft den zugrunde liegenden Incident-Bericht und ergänzt dokumentierte Fehler sowie einen Migrationsplan.
 
 <!--more-->
@@ -66,14 +65,14 @@ Der **Beobachtungszeitraum** verdient Aufmerksamkeit. Sechzehn Tage liegen inner
 ## Kernelgrenze bestimmen
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker in LXC:
+Anwendung -> Docker-Laufzeit -> LXC-Namespaces und Richtlinien
+              -> Proxmox-Hostkernel -> physische Hardware
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker in einer VM:
+Anwendung -> Docker-Laufzeit -> Gast-Linux-Kernel
+              -> virtuelle Hardware / KVM-QEMU
+              -> Proxmox-Hostkernel -> physische Hardware
 ```
 
 **LXC** verwendet den Hostkernel. Namespaces, Control Groups, Capabilities, seccomp und Sicherheitsprofile beschränken Prozesse, stellen aber keinen separaten Kernel bereit. Docker in LXC fügt eine weitere Containerverwaltungsebene für Workloads hinzu, die denselben Hostkernel nutzen. [LXC-Architektur und Isolationsfunktionen](https://linuxcontainers.org/lxc/introduction/)
@@ -95,7 +94,7 @@ Der **breitere konzeptionelle Vergleich** steht unter [Docker-Container im Vergl
 
 **„Nicht unterstützt“** erfordert eine benannte Komponente und Version. Unterscheide eine vom Anbieter empfohlene Bereitstellung, dokumentierte Funktionen, die Pflege durch die Distribution und einen vertraglichen Supportanspruch. Ein funktionierender verschachtelter Stack beweist nicht, dass alle Kombinationen gleich umfassend getestet werden. Eine VM-Empfehlung bedeutet auch nicht, dass Maintainer jeden Nesting-Fehler ablehnen.
 
-**Die aktuelle Proxmox-Dokumentation** macht eine wichtige Unterscheidung. Der Quellcode des Container-Toolkits beschreibt die Unterstützung von **Open Container Initiative (OCI)**-Anwendungsimages als Technologie-Vorschau, bei der Images in das LXC-Framework konvertiert werden. Für Anforderungen mit Fokus auf Isolation und Live-Migration empfiehlt Proxmox auch Container in einer QEMU-VM. Ein OCI-Image in dieses Framework zu importieren unterscheidet sich davon, Docker Engine zu installieren und Compose in einem LXC-Gast auszuführen. [Dokumentation des Proxmox-Container-Toolkits](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
+**Die aktuelle Proxmox-Dokumentation** macht eine wichtige Unterscheidung. Der Quellcode des Container-Toolkits beschreibt die Unterstützung von **Open Container Initiative (OCI)**-Anwendungsimages als Technologie-Vorschau, bei der Images in das LXC-Framework konvertiert werden. Für Anforderungen mit Fokus auf Isolation und Live-Migration empfiehlt Proxmox auch Container in einer QEMU-VM. Ein OCI-Image in dieses Framework zu importieren unterscheidet sich davon, Docker Engine zu installieren und Compose in einem LXC-Gast auszuführen. [Dokumentation der Proxmox-Containerwerkzeuge](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)
 
 | Bereitstellung | Zu prüfende Frage |
 |---|---|
@@ -108,7 +107,7 @@ Docker veröffentlicht einen **Installationsweg für Debian**. Nutze die Liste u
 
 ## Ein bestätigter Nesting-Fehler
 
-Die **runc/AppArmor-Inkompatibilität von 2025** ist ein überprüfbares Beispiel. Die runc-Maintainer dokumentierten einen Fehler beim erneuten Öffnen eines Deskriptors in einem äußeren Container mit AppArmor-Profil. AppArmor deutete einen Zugriff unter **`/proc/sys`** fälschlich als Zugriff unter **`/sys`**, wodurch eine Richtlinienverweigerung ausgelöst wurde. [runc-Issue 4968](https://github.com/opencontainers/runc/issues/4968)
+Die **runc/AppArmor-Inkompatibilität von 2025** ist ein überprüfbares Beispiel. Die runc-Maintainer dokumentierten einen Fehler beim erneuten Öffnen eines Deskriptors in einem äußeren Container mit AppArmor-Profil. AppArmor deutete einen Zugriff unter **`/proc/sys`** fälschlich als Zugriff unter **`/sys`**, wodurch eine Richtlinienverweigerung ausgelöst wurde. [runc-Problem 4968](https://github.com/opencontainers/runc/issues/4968)
 
 Ein **betroffener Startvorgang** meldete diesen Fehlerauszug:
 
@@ -151,7 +150,7 @@ journalctl --list-boots
 journalctl -k -b -1 --no-pager
 ```
 
-**`pveversion -v`** erfasst die installierten Proxmox-Komponentenversionen. **`pct config`** erfasst die Konfiguration des äußeren Containers. In **`journalctl`** wählt **`-k`** Kernelmeldungen, **`-b -1`** den vorherigen Start und **`--no-pager`** liefert einfache Terminalausgabe. Meldungen des vorherigen Starts setzen erhaltene Journaldaten voraus. [Proxmox-Toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc), [systemd-journalctl-Referenz](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
+**`pveversion -v`** erfasst die installierten Proxmox-Komponentenversionen. **`pct config`** erfasst die Konfiguration des äußeren Containers. In **`journalctl`** wählt **`-k`** Kernelmeldungen, **`-b -1`** den vorherigen Start und **`--no-pager`** liefert einfache Terminalausgabe. Meldungen des vorherigen Starts setzen erhaltene Journaldaten voraus. [Proxmox-Werkzeugsammlung](https://github.com/proxmox/pve-docs/blob/master/pct.adoc), [systemd-journalctl-Referenz](https://github.com/systemd/systemd/blob/main/man/journalctl.xml)
 
 **Prüfe danach den Docker-Host**, also das LXC oder die VM, in der der Daemon läuft:
 
@@ -271,7 +270,7 @@ Vermeide **zwei aktive Schreiber** auf denselben Datenbankspeicher. Ein Rollback
 
 **Abnahmetests** sollten dem Zweck des Dienstes folgen. Ein grüner Containerstatus zeigt einen laufenden Prozess. Ein nutzbarer Dienst braucht außerdem seine Daten, Netzwerkzugriff, Abhängigkeiten und ein funktionierendes Wiederherstellungsverhalten.
 
-| Test | Zu sichernder Beleg |
+| Prüfung | Zu sichernder Beleg |
 |---|---|
 | **Anwendungsfunktion** | Erfolgreiche echte Transaktion, Abfrage oder Medienoperation |
 | **Vollständigkeit der Daten** | Erwartete Datensätze, Dateien, Berechtigungen und aktuelle Änderungen |
@@ -290,17 +289,17 @@ Vermeide **zwei aktive Schreiber** auf denselben Datenbankspeicher. Ein Rollback
 **Nutze gemessene Belege**, um eine Bereitstellung auszuwählen und den Zeitpunkt ihrer erneuten Bewertung festzulegen:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Auswirkungen auf Dienst und Haushalt:
+Aktuelle Versionen von Host / Kernel / LXC / Docker:
+Benötigter Zugriff auf GPU, Geräte und Netzwerk:
+Gemessener Speicher-, CPU-, Speicherplatz- und Latenzbedarf:
+Bekanntes Fehlersymptom und Wiederholungsintervall:
+Backup-Abdeckung und Nachweis einer erfolgreichen Wiederherstellung:
+Gewählte Architektur und Begründung:
+Zulässiges Ausfallfenster und Wiederherstellungsziel:
+Verfahren für Umstellung und Daten-Rollback danach:
+Abnahmetests und Beobachtungszeitraum:
+Bedingung für eine erneute Architekturprüfung:
 ```
 
 **Wähle LXC-Nesting bewusst**, wenn seine Vorteile den Integrationsaufwand rechtfertigen und du den Wiederherstellungsweg getestet hast. Wähle eine VM, wenn eine übliche Docker-Gastumgebung und ein separater Gastkernel den Dienstbetrieb vereinfachen. Keine der beiden Entscheidungen ersetzt Backups, Monitoring und Hostwartung.
@@ -324,10 +323,10 @@ Für **verwandte Themen** nutze den [Proxmox-VE-Upgrade-Leitfaden](/articles/pro
 | Quelle | Rolle |
 |---|---|
 | **[Quellvideo](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Ursprüngliche Erklärung und gemeldeter Stabilitätszeitraum |
-| **[Proxmox-Incident-Thread](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Beobachtungen aus erster Hand und Migrationsnachtrag |
-| **[Proxmox-Container-Toolkit](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Containerarchitektur und aktuelle OCI-Unterscheidung |
-| **[runc-Issue 4968](https://github.com/opencontainers/runc/issues/4968)** | Dokumentierter Startfehler und historischer Paket-Fix |
-| **[LXC-Pull-Request 4609](https://github.com/lxc/lxc/pull/4609)** | Zusammengeführte Upstreamänderung in AppArmor |
+| **[Proxmox-Forendiskussion zum Vorfall](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Beobachtungen aus erster Hand und Migrationsnachtrag |
+| **[Proxmox-Containerwerkzeuge](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Containerarchitektur und aktuelle OCI-Unterscheidung |
+| **[runc-Problem 4968](https://github.com/opencontainers/runc/issues/4968)** | Dokumentierter Startfehler und historischer Paket-Fix |
+| **[LXC-Änderungsanfrage 4609](https://github.com/lxc/lxc/pull/4609)** | Zusammengeführte Upstreamänderung in AppArmor |
 | **[Docker-Dokumentation](https://docs.docker.com/engine/install/debian/)** | Installationsbasis für den Gast, mit obigen Verweisen auf Runtime und Speicher |
 | **[Linux-PSI-Dokumentation](https://docs.kernel.org/accounting/psi.html)** | Einordnung des Ressourcendrucks |
 | **[Linux-Watchdog-Dokumentation](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Definierte Kernel-Lockupbedingungen |

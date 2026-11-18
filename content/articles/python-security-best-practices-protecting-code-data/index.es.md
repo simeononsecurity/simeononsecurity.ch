@@ -1,6 +1,7 @@
 ---
 title: "Buenas prácticas de seguridad en Python: Proteja su código y sus datos"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprenda las mejores prácticas de seguridad esenciales de Python para salvaguardar su código y sus datos de posibles amenazas, garantizando la protección de los datos, la integridad del sistema y la creación de confianza."
@@ -183,7 +184,7 @@ He aquí una hoja de trucos concisa que resume las **mejores prácticas de segur
 
 4. **Proteja los datos confidenciales** mediante **técnicas de cifrado potentes**. Utilice algoritmos de encriptación bien establecidos como **AES (Advanced Encryption Standard)** y garantice un almacenamiento y transmisión seguros de la información sensible. Puede consultar la [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) para más información.
 
-5. **Asegure el acceso a la base de datos** utilizando **prepared statements** para evitar ataques de inyección SQL e implementando **least privilege** para restringir los permisos de usuario de la base de datos. Estas prácticas minimizan el riesgo de acceso no autorizado a datos sensibles. Más información sobre **prepared statements** en la sección [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **Proteja el acceso a la base de datos** con **sentencias preparadas** para evitar ataques de inyección SQL y con el **principio de mínimo privilegio** para limitar los permisos de los usuarios de la base de datos. Estas prácticas reducen el riesgo de acceso no autorizado a datos sensibles. Consulte la [documentación de SQLAlchemy](https://www.sqlalchemy.org) sobre sentencias preparadas y la [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) sobre el principio de mínimo privilegio.
 
 6. **Actualice regularmente las dependencias** para abordar las vulnerabilidades de seguridad y beneficiarse de las correcciones de errores. Herramientas como [Snyk - Open Source Security Platform](https://snyk.io/) puede ayudarle a identificar vulnerabilidades en las dependencias de su proyecto.
 

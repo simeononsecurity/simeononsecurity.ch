@@ -1,7 +1,7 @@
 ---
 title: "Boucles d’agents IA bornées : contrôles, nouvelles tentatives et règles d’arrêt"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Définissez une boucle d’objectif d’IA avec un état observable, des contrôles, des limites de nouvelles tentatives, des conditions d’arrêt et un transfert clair à une personne."
@@ -89,7 +89,7 @@ Preuves requises : exécution complète des tests et code de sortie de la comman
 **Commencez avec le laboratoire intact.** Ses deux tests de base réussissent. Dans la nouvelle extraction, créez `tests/test_loop_contract.py` avec le contrôle ci-dessous. Ce fichier exprime une fonctionnalité souhaitée qui manque dans le projet de départ. Il ne fait pas partie de l’archive ZIP de départ maintenue.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Un contrôle en échec contrôlé pour l’exercice sur le filtre d’état."""
 
 import subprocess
 import sys

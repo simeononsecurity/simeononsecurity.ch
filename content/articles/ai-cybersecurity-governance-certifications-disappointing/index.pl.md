@@ -3,9 +3,9 @@ title: "Certyfikaty cyberbezpieczeństwa AI: nie nadążają za praktyką"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Opinia o różnicy między certyfikatami zarządzania AI a praktyką bezpieczeństwa AI, oparta na doświadczeniach z certyfikacją i obecnych ograniczeniach powierzchni ataku."
-tags: ["Bezpieczeństwo AI", "Zarządzanie AI", "Certyfikaty AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "prompt injection", "Cyberbezpieczeństwo AI", "Bezpieczeństwo LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Zarządzanie ryzykiem AI", "Zgodność AI", "Bezpieczeństwo uczenia maszynowego", "Łańcuch dostaw modeli", "Adwersarialne AI", "Agenci AI", "Bezpieczeństwo MCP", "Red teaming AI", "Certyfikaty zarządzania AI", "Agentowa AI", "Google SAIF"]
+tags: ["Bezpieczeństwo AI", "Zarządzanie AI", "Certyfikaty AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "wstrzykiwanie promptów", "Cyberbezpieczeństwo AI", "Bezpieczeństwo LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Zarządzanie ryzykiem AI", "Zgodność AI", "Bezpieczeństwo uczenia maszynowego", "Łańcuch dostaw modeli", "Adwersarialne AI", "Agenci AI", "Bezpieczeństwo MCP", "Red teaming AI", "Certyfikaty zarządzania AI", "Agentowa AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "Dwuczęściowa scena: po jednej stronie specjaliści w biurze omawiają dokumenty zarządzania, a po drugiej chaotyczne obrazy cyfrowe przedstawiają systemy AI pod cyberatakiem. Kontrast podkreślają żywe kolory."
 coverCaption: ""

@@ -48,7 +48,7 @@ Nu u de voordelen van de 3-2-1 back-upregel begrijpt, is het tijd om deze te imp
 
 - **Kies uw opslagtypes**: Om de 3-2-1 back-upregel toe te passen, moet u twee verschillende opslagtypes kiezen. Enkele populaire opties zijn externe harde schijven, cloudopslagdiensten en NAS-apparaten (Network Attached Storage). Bedenk hoeveel gegevens u wilt back-uppen en kies opslagtypes die aan uw behoeften kunnen voldoen.
 
-- Automatiseer uw back-ups**: Handmatig back-ups maken kan tijdrovend en foutgevoelig zijn. Overweeg in plaats daarvan uw back-ups te automatiseren met behulp van back-upsoftware. Er is veel back-upsoftware beschikbaar, zowel gratis als betaald. Enkele populaire opties zijn[Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), and [Carbonite](https://www.carbonite.com/)
+- Automatiseer uw back-ups**: Handmatig back-ups maken kan tijdrovend en foutgevoelig zijn. Overweeg in plaats daarvan uw back-ups te automatiseren met behulp van back-upsoftware. Er is veel back-upsoftware beschikbaar, zowel gratis als betaald. Enkele populaire opties zijn [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), en [Carbonite](https://www.carbonite.com/).
 
 - Test uw back-ups**: Het maken van back-ups is slechts de eerste stap. Het is essentieel om uw back-ups regelmatig te testen om ervoor te zorgen dat uw gegevens kunnen worden hersteld in geval van gegevensverlies. Zorg ervoor dat u een plan hebt voor het testen van uw back-ups, of dit nu een handmatig of een geautomatiseerd proces is.
 

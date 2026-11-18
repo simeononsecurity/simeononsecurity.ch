@@ -65,7 +65,7 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 ---
 
 ## Introductie: Fortinet vs Cisco Netwerkbeveiliging Duel
@@ -147,24 +147,22 @@ Fortinet's **Security Fabric** is een uitgebreid cybersecurityplatform dat alle 
 **Kerncomponenten van Security Fabric:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              FortiManager (Management)                  │
-│              FortiAnalyzer (Analytics)                  │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│  FortiGate FW  │    │  FortiSwitch    │  │ FortiAP    │
-│  (Perimeter)   │    │  (Network)      │  │ (Wireless) │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-            ┌────────▼─────────┐
-            │   FortiClient    │
-            │   (Endpoint)     │
-            └──────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                               FortiManager (Beheer)                               │
+│                              FortiAnalyzer (Analyse)                              │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│      FortiGate FW       │  │       FortiSwitch       │  │         FortiAP         │
+│       (Perimeter)       │  │        (Netwerk)        │  │       (Draadloos)       │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │       FortiClient       │
+                             │       (Eindpunt)        │
+                             └─────────────────────────┘
 ```
 
 **Belangrijkste kenmerken van Security Fabric:**
@@ -195,25 +193,23 @@ Cisco's aanpak legt de nadruk op **best-of-breed integratie** binnen een breder 
 **Cisco Secure Architectuur:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Cisco SecureX                         │
-│         (Unified Threat Response Platform)              │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│ Firepower NGFW │    │ Catalyst Switch │  │  Umbrella  │
-│   (Firewall)   │    │   (Network)     │  │   (Cloud)  │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-        ┌────────────┴────────────┐
-        │  Cisco Secure Endpoint  │
-        │  Cisco Duo (MFA)        │
-        │  Third-party tools      │
-        └─────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                   Cisco SecureX                                   │
+│                      Uniform platform voor dreigingsrespons                       │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│     Firepower NGFW      │  │     Catalyst-switch     │  │        Umbrella         │
+│       (Firewall)        │  │        (Netwerk)        │  │         (Cloud)         │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │  Cisco Secure Endpoint  │
+                             │     Cisco Duo (MFA)     │
+                             │ Hulpmiddelen van derden │
+                             └─────────────────────────┘
 ```
 
 **Belangrijkste kenmerken van Cisco Secure:**
@@ -313,7 +309,7 @@ ______
 | **Applicatiebeheer** | ✓ 6.000+ apps | ✓ 4.500+ apps | Fortinet (dekking) |
 | **Webfiltering** | ✓ FortiGuard Web Filter | ✓ Cisco Talos Web Filter | Fortinet (prestaties) |
 | **Anti-Malware** | ✓ FortiGuard AV | ✓ AMP voor Netwerken | Cisco (geavanceerde detectie) |
-| **Sandboxing** | ✓ FortiSandbox (add-on) | ✓ Threat Grid (inbegrepen) | Cisco |
+| **Sandboxing** | ✓ FortiSandbox (uitbreiding) | ✓ Threat Grid (inbegrepen) | Cisco |
 | **SSL/TLS Inspectie** | ✓ Hardwareversneld | ✓ Software-gebaseerd | Fortinet (prestaties) |
 | **VPN (IPsec)** | ✓ Hoge prestaties | ✓ Hoge prestaties | Gelijkspel |
 | **VPN (SSL/TLS)** | ✓ FortiClient VPN | ✓ AnyConnect | Cisco (functies) |
@@ -338,12 +334,12 @@ Beide leveranciers hebben aanzienlijke investeringen in SD-WAN gedaan, maar met 
 
 **FortiGate SD-WAN Gebruiksscenario's:**
 ```
-Branch Office Configuration:
-- FortiGate 60F as branch firewall/SD-WAN device
-- Dual WAN links (ISP + LTE backup)
-- IPsec tunnels to headquarters FortiGate
-- Application steering (VoIP → low latency, bulk data → high bandwidth)
-- Cost savings: $2,500 device replaces $2,000 firewall + $3,000 SD-WAN appliance
+Configuratie van een filiaal:
+- FortiGate 60F als firewall en SD-WAN-apparaat voor het filiaal
+- Twee WAN-verbindingen (ISP + LTE-reserveverbinding)
+- IPsec-tunnels naar de FortiGate op het hoofdkantoor
+- Toepassingsgestuurde routering (VoIP → lage latentie, bulkgegevens → hoge bandbreedte)
+- Kostenbesparing: een apparaat van $2,500 vervangt een firewall van $2,000 + een SD-WAN-apparaat van $3,000
 ```
 
 **Cisco SD-WAN (Viptela Platform):**
@@ -356,13 +352,13 @@ Branch Office Configuration:
 
 **Cisco SD-WAN Gebruiksscenario's:**
 ```
-Enterprise WAN Deployment:
-- vEdge routers at all branch locations
-- vSmart controllers in data centers (HA pair)
-- vManage centralized management
-- Integration with existing Catalyst switching
-- Firepower firewalls at data center perimeter
-- Cost: Higher but superior for complex topologies
+Implementatie van een bedrijfs-WAN:
+- vEdge-routers op alle filialen
+- vSmart-controllers in datacenters (HA-paar)
+- Centraal beheer via vManage
+- Integratie met bestaande Catalyst-switches
+- Firepower-firewalls aan de datacenterperimeter
+- Kosten: hoger, maar beter geschikt voor complexe topologieën
 ```
 
 **SD-WAN Oordeel:**
@@ -387,24 +383,24 @@ Enterprise WAN Deployment:
 
 **Segmentatiescenario:**
 ```
-Requirement: Isolate guest WiFi, employee devices, IoT devices, and servers
+Vereiste: isoleer gast-wifi, medewerkersapparaten, IoT-apparaten en servers
 
-Fortinet Approach:
-- FortiGate defines security zones (guest, employee, IoT, server)
-- FortiAP assigns users to VLANs based on SSID
-- FortiSwitch enforces VLAN isolation
-- FortiGate policies control inter-zone traffic
-- Complexity: Moderate
-- Cost: Lower (included in Security Fabric)
+Aanpak van Fortinet:
+- FortiGate definieert beveiligingszones (gasten, medewerkers, IoT, servers)
+- FortiAP wijst gebruikers aan VLAN's toe op basis van de SSID
+- FortiSwitch dwingt VLAN-isolatie af
+- FortiGate-beleid regelt verkeer tussen zones
+- Complexiteit: gemiddeld
+- Kosten: lager (inbegrepen in Security Fabric)
 
-Cisco Approach:
-- ISE profiles devices and assigns SGT tags
-- TrustSec policies enforce SGT-based access control
-- Enforcement at Catalyst switches (hardware TCAM)
-- Firepower provides perimeter security
-- Complexity: Higher (requires ISE deployment)
-- Cost: Higher (ISE licensing + TrustSec-capable switches)
-- Benefit: More granular, scales better in very large environments
+Aanpak van Cisco:
+- ISE profileert apparaten en wijst SGT-tags toe
+- TrustSec-beleid dwingt toegangscontrole op basis van SGT af
+- Handhaving op Catalyst-switches (hardware-TCAM)
+- Firepower beveiligt de perimeter
+- Complexiteit: hoger (implementatie van ISE vereist)
+- Kosten: hoger (ISE-licenties + switches met TrustSec-ondersteuning)
+- Voordeel: fijnmaziger, schaalt beter in zeer grote omgevingen
 ```
 
 **Segmentatie-oordeel:**
@@ -473,20 +469,20 @@ end
 
 **Beleidscreatie (Firepower Management Center GUI):**
 ```
-GUI Workflow:
-1. Navigate to Policies → Access Control → [Policy Name]
-2. Add Rule:
-   - Name: "Allow-Web-Outbound"
-   - Source Networks: internal-network
-   - Destination Networks: any
-   - Ports: HTTP, HTTPS
-   - Action: Allow
-   - Inspection: Enable IPS (balanced policy)
-   - File Policy: Block malware (AMP)
-   - URL Filtering: Enable (custom category list)
-   - TLS/SSL: Decrypt known key, inspect
-3. Deploy changes to managed devices
-4. Verify deployment completion
+Werkwijze in de grafische interface:
+1. Ga naar Policies → Access Control → [Beleidsnaam]
+2. Voeg een regel toe (Add Rule):
+   - Naam (Name): "Allow-Web-Outbound"
+   - Bronnetwerken (Source Networks): internal-network
+   - Doelnetwerken (Destination Networks): any
+   - Poorten (Ports): HTTP, HTTPS
+   - Actie (Action): Allow
+   - Inspectie (Inspection): Schakel IPS in (gebalanceerd beleid)
+   - Bestandsbeleid (File Policy): Blokkeer malware (AMP)
+   - URL-filtering (URL Filtering): Schakel in (aangepaste categorielijst)
+   - TLS/SSL: Ontsleutel met bekende sleutel en inspecteer
+3. Implementeer wijzigingen op beheerde apparaten
+4. Controleer of de implementatie is voltooid
 ```
 
 **Sterke punten Cisco Firepower:**
@@ -508,7 +504,7 @@ Beide platforms ondersteunen moderne automatisering, maar met verschillende volw
 **FortiGate Automatisering:**
 
 ```python
-# Python example: Create firewall policy via FortiOS API
+# Python-voorbeeld: maak een firewallbeleid via de FortiOS-API
 import requests
 import json
 
@@ -533,7 +529,7 @@ policy_data = {
 }
 
 response = requests.post(fortios_api, headers=headers, data=json.dumps(policy_data), verify=False)
-print(f"Policy creation status: {response.status_code}")
+print(f"Status van beleidsaanmaak: {response.status_code}")
 ```
 
 **Volwassenheid FortiGate Automatisering:**
@@ -546,20 +542,20 @@ print(f"Policy creation status: {response.status_code}")
 **Cisco Firepower Automatisering:**
 
 ```python
-# Python example: Create access control policy via FMC API
+# Python-voorbeeld: maak een toegangscontrolebeleid via de FMC-API
 from fireREST import FMC
 
 fmc = FMC(hostname='fmc.example.com', username='admin', password='password')
 fmc.login()
 
-# Create network object
+# Netwerkobject maken
 network_obj = fmc.create_network_object(
     name='internal-network',
     value='10.0.0.0/8',
-    description='Corporate internal network'
+    description='Intern bedrijfsnetwerk'
 )
 
-# Create access control rule
+# Toegangscontroleregel maken
 rule = fmc.create_access_rule(
     policy_name='Corporate-Access-Policy',
     name='Allow-Web-Outbound',
@@ -571,9 +567,9 @@ rule = fmc.create_access_rule(
     file_policy='Block Malware'
 )
 
-# Deploy changes
+# Wijzigingen implementeren
 deployment = fmc.deploy(device_list=['firewall01', 'firewall02'])
-print(f"Deployment status: {deployment}")
+print(f"Implementatiestatus: {deployment}")
 ```
 
 **Volwassenheid Cisco Firepower Automatisering:**
@@ -682,12 +678,12 @@ ______
 **Voorbeeld Totale Kosten FortiGate (3 Jaar):**
 
 ```
-FortiGate 600F Deployment:
-- Hardware: $20,000 (one-time)
-- Enterprise Bundle: $7,000/year × 3 years = $21,000
-- FortiCare Premium Support: $2,000/year × 3 years = $6,000
-- Total 3-year cost: $47,000
-- Effective annual cost: $15,667/year
+Implementatie van FortiGate 600F:
+- Hardware: $20,000 (eenmalig)
+- Enterprise Bundle: $7,000/jaar × 3 jaar = $21,000
+- FortiCare Premium Support: $2,000/jaar × 3 jaar = $6,000
+- Totale kosten over 3 jaar: $47,000
+- Effectieve jaarlijkse kosten: $15,667/jaar
 ```
 
 **Voordelen FortiGate Licenties:**
@@ -717,13 +713,13 @@ FortiGate 600F Deployment:
 **Voorbeeld totale kosten Cisco Firepower (3 jaar):**
 
 ```
-Cisco FPR4145 Deployment:
-- Hardware: $32,000 (one-time)
-- Cisco Plus Secure Bundle: $15,000/year × 3 years = $45,000
-- FMC hardware/VM: $12,000 (one-time) or $2,000/year (VM subscription)
-- Cisco SmartNet Support: $4,000/year × 3 years = $12,000
-- Total 3-year cost: $101,000
-- Effective annual cost: $33,667/year
+Implementatie van Cisco FPR4145:
+- Hardware: $32,000 (eenmalig)
+- Cisco Plus Secure Bundle: $15,000/jaar × 3 jaar = $45,000
+- FMC hardware/VM: $12,000 (eenmalig) of $2,000/jaar (VM-abonnement)
+- Cisco SmartNet Support: $4,000/jaar × 3 jaar = $12,000
+- Totale kosten over 3 jaar: $101,000
+- Effectieve jaarlijkse kosten: $33,667/jaar
 ```
 
 **Nadelen Cisco Firepower-licenties:**
@@ -746,39 +742,39 @@ Cisco FPR4145 Deployment:
 
 ```
 Hardware:
-- 2× FortiGate 600F (HA pair): $40,000
-- FortiManager VM (free for <10 devices): $0
+- 2× FortiGate 600F (HA-paar): $40,000
+- FortiManager VM (gratis voor <10 apparaten): $0
 - FortiAnalyzer 1000E: $8,000
 
-Subscriptions (5 years):
-- Enterprise Bundle licenses: $7,000/year × 2 firewalls × 5 years = $70,000
-- FortiCare Premium Support: $2,000/year × 2 firewalls × 5 years = $20,000
-- FortiAnalyzer log storage: $1,000/year × 5 years = $5,000
+Abonnementen (5 jaar):
+- Enterprise Bundle-licenties: $7,000/jaar × 2 firewalls × 5 jaar = $70,000
+- FortiCare Premium Support: $2,000/jaar × 2 firewalls × 5 jaar = $20,000
+- Logopslag van FortiAnalyzer: $1,000/jaar × 5 jaar = $5,000
 
-Professional Services:
-- Initial deployment and training: $10,000
+Professionele diensten:
+- Eerste implementatie en training: $10,000
 
-Total 5-year TCO: $153,000
-Average annual cost: $30,600
+Totale TCO over 5 jaar: $153,000
+Gemiddelde jaarlijkse kosten: $30,600
 ```
 
 **TCO Cisco-oplossing:**
 
 ```
 Hardware:
-- 2× Cisco FPR4145 (HA pair): $64,000
+- 2× Cisco FPR4145 (HA-paar): $64,000
 - Firepower Management Center 2500: $25,000
 
-Subscriptions (5 years):
-- Cisco Plus Secure (all licenses): $15,000/year × 2 firewalls × 5 years = $150,000
-- SmartNet 8×5×NBD: $4,000/year × 2 firewalls × 5 years = $40,000
-- FMC support: $2,500/year × 5 years = $12,500
+Abonnementen (5 jaar):
+- Cisco Plus Secure (alle licenties): $15,000/jaar × 2 firewalls × 5 jaar = $150,000
+- SmartNet 8×5×NBD: $4,000/jaar × 2 firewalls × 5 jaar = $40,000
+- Ondersteuning voor FMC: $2,500/jaar × 5 jaar = $12,500
 
-Professional Services:
-- Initial deployment and training: $20,000
+Professionele diensten:
+- Eerste implementatie en training: $20,000
 
-Total 5-year TCO: $311,500
-Average annual cost: $62,300
+Totale TCO over 5 jaar: $311,500
+Gemiddelde jaarlijkse kosten: $62,300
 ```
 
 **TCO-analyse:**
@@ -810,15 +806,15 @@ ______
 
 **Voorbeeldconfiguratie:**
 ```
-Equipment:
+Apparatuur:
 - 1× FortiGate 100F: $2,500
-- 2× FortiSwitch 124F (48-port): $2,000 each
-- 3× FortiAP 431F (WiFi 6): $600 each
-- Enterprise Bundle subscription: $900/year
-- FortiCare 8×5 Support: $300/year
+- 2× FortiSwitch 124F (48 poorten): $2,000 per stuk
+- 3× FortiAP 431F (WiFi 6): $600 per stuk
+- Enterprise Bundle-abonnement: $900/jaar
+- FortiCare 8×5 Support: $300/jaar
 
-Total first-year cost: $9,100
-Annual renewal: $1,200
+Totale kosten in het eerste jaar: $9,100
+Jaarlijkse verlenging: $1,200
 ```
 
 ### Middelgroot bedrijf (100-1.000 werknemers)
@@ -841,41 +837,41 @@ Annual renewal: $1,200
 
 **Voorbeeldconfiguratie (Fortinet):**
 ```
-Headquarters:
-- 2× FortiGate 600F (HA cluster): $40,000
+Hoofdkantoor:
+- 2× FortiGate 600F (HA-cluster): $40,000
 - FortiManager 400E: $12,000
 - FortiAnalyzer 1000E: $8,000
 
-Branch Offices (5 locations):
+Filialen (5 locaties):
 - 5× FortiGate 100F: $12,500
 - 10× FortiSwitch 124F: $20,000
 
-Subscriptions (annual):
+Abonnementen (jaarlijks):
 - Enterprise Bundle: $24,000
 - FortiCare Premium Support: $8,000
 
-Total first-year cost: $124,500
-Annual renewal: $32,000
+Totale kosten in het eerste jaar: $124,500
+Jaarlijkse verlenging: $32,000
 ```
 
 **Voorbeeldconfiguratie (Cisco):**
 ```
-Headquarters:
-- 2× Cisco FPR4145 (HA cluster): $64,000
+Hoofdkantoor:
+- 2× Cisco FPR4145 (HA-cluster): $64,000
 - Cisco FMC 2500: $25,000
-- Cisco ISE 3615 (2-node): $45,000
+- Cisco ISE 3615 (2 knooppunten): $45,000
 
-Branch Offices (5 locations):
+Filialen (5 locaties):
 - 5× Cisco FPR2140: $45,000
 - 10× Catalyst 9200-48P: $80,000
 
-Subscriptions (annual):
-- Cisco Plus Secure licenses: $90,000
-- SmartNet support: $30,000
-- ISE Plus licenses: $15,000
+Abonnementen (jaarlijks):
+- Cisco Plus Secure-licenties: $90,000
+- Ondersteuning via SmartNet: $30,000
+- ISE Plus-licenties: $15,000
 
-Total first-year cost: $394,000
-Annual renewal: $135,000
+Totale kosten in het eerste jaar: $394,000
+Jaarlijkse verlenging: $135,000
 ```
 
 **Kostenverschil:** Cisco-oplossing kost 216% meer ($269.500 eerste jaar, $103.000 jaarlijks)
@@ -895,17 +891,17 @@ Annual renewal: $135,000
 
 **Overweeg echter een hybride aanpak:**
 ```
-Data Center / Headquarters: Cisco
-- Cisco Firepower 9300 series (high performance)
-- Cisco ISE for network access control
-- Integration with existing Cisco data center
+Datacenter / hoofdkantoor: Cisco
+- Cisco Firepower 9300-serie (hoge prestaties)
+- Cisco ISE voor netwerktoegangscontrole
+- Integratie met het bestaande Cisco-datacenter
 
-Branch Offices: Fortinet
-- FortiGate appliances for cost-effective branch security
-- Integrated SD-WAN to headquarters
-- Managed via FortiManager (centralized)
+Filialen: Fortinet
+- FortiGate-apparaten voor kosteneffectieve filiaalbeveiliging
+- Geïntegreerde SD-WAN naar het hoofdkantoor
+- Beheerd via FortiManager (centraal)
 
-Savings: 40-50% reduction in branch office costs while maintaining Cisco core
+Besparing: 40-50% lagere filiaalkosten met behoud van de Cisco-kern
 ```
 
 ### Serviceprovider / MSP
@@ -916,7 +912,7 @@ Savings: 40-50% reduction in branch office costs while maintaining Cisco core
 
 **Fortinet voor MSP's:**
 - **Administratieve domeinen (ADOM's):** FortiManager ondersteunt echte multi-tenant
-- **Flexibele licenties:** Per-apparaat licenties maken pay-as-you-grow mogelijk
+- **Flexibele licenties:** Licenties per apparaat laten de kosten meegroeien met uw omgeving
 - **API-volwassenheid:** Uitstekende Terraform/Ansible-ondersteuning voor automatisering
 - **Winstmarges:** Lagere kosten zorgen voor betere marges op managed services
 
@@ -957,26 +953,26 @@ ______
 **Beste praktijken voor migratie:**
 
 ```
-Phase 1: Pilot (Months 1-2)
-- Deploy FortiGate in parallel at pilot site
-- Replicate existing Cisco policies
-- Train team on FortiGate management
-- Validate performance and features
+Fase 1: proefimplementatie (maand 1-2)
+- Implementeer FortiGate parallel op de proeflocatie
+- Neem bestaand Cisco-beleid over
+- Train het team in FortiGate-beheer
+- Valideer prestaties en functies
 
-Phase 2: Branch Rollout (Months 3-6)
-- Migrate branch offices first (simpler configurations)
-- Use cutover windows to minimize downtime
-- Keep Cisco policies documented for rollback
+Fase 2: uitrol naar filialen (maand 3-6)
+- Migreer eerst de filialen (eenvoudigere configuraties)
+- Gebruik omschakelvensters om uitvaltijd te beperken
+- Documenteer Cisco-beleid voor terugdraaien
 
-Phase 3: Data Center / HQ (Months 7-9)
-- More complex configurations require careful planning
-- Consider HA cutover to minimize downtime
-- Extensive testing of all VPN connections
+Fase 3: datacenter / hoofdkantoor (maand 7-9)
+- Complexere configuraties vereisen zorgvuldige planning
+- Overweeg een HA-omschakeling om uitvaltijd te beperken
+- Test alle VPN-verbindingen uitgebreid
 
-Phase 4: Decommission (Months 10-12)
-- Remove Cisco equipment after stability period
-- Return or repurpose hardware
-- Cancel Cisco SmartNet subscriptions
+Fase 4: buitengebruikstelling (maand 10-12)
+- Verwijder Cisco-apparatuur na een stabiele periode
+- Retourneer hardware of geef deze een andere bestemming
+- Zeg Cisco SmartNet-abonnementen op
 ```
 
 {{< figure src="cisco-to-fortinet-network-migration-phased-timeline.webp" alt="Tijdlijn diagram dat een gefaseerde migratie van 12 maanden van Cisco naar Fortinet netwerkbeveiliging toont met pilotimplementatie in maanden 1 tot 2, uitrol op vestigingen in maanden 3 tot 6, datacenter-overgang in maanden 7 tot 9 en definitieve buitengebruikstelling in maanden 10 tot 12" >}}
@@ -1007,28 +1003,28 @@ Phase 4: Decommission (Months 10-12)
 **Beste praktijken voor migratie:**
 
 ```
-Phase 1: Design (Months 1-2)
-- Assess current FortiGate features in use
-- Design equivalent Cisco architecture
-- Identify features requiring additional Cisco products (ISE, etc.)
-- Validate licensing requirements with Cisco SE
+Fase 1: ontwerp (maand 1-2)
+- Beoordeel de huidige gebruikte FortiGate-functies
+- Ontwerp een gelijkwaardige Cisco-architectuur
+- Identificeer functies die aanvullende Cisco-producten vereisen (ISE enz.)
+- Controleer de licentievereisten met de Cisco SE
 
-Phase 2: Proof of Concept (Months 3-4)
-- Deploy Cisco FMC and test firewall in lab
-- Replicate critical policies and test thoroughly
-- Train security team on FMC management
-- Benchmark performance under realistic load
+Fase 2: haalbaarheidsproef (maand 3-4)
+- Implementeer Cisco FMC en een testfirewall in het lab
+- Neem essentieel beleid over en test grondig
+- Train het beveiligingsteam in FMC-beheer
+- Meet prestaties onder realistische belasting
 
-Phase 3: Phased Deployment (Months 5-12)
-- Deploy Cisco firewalls at new locations first
-- Cutover existing locations during maintenance windows
-- Maintain FortiGate parallel for 30-60 days
-- Extensive VPN and application testing
+Fase 3: gefaseerde implementatie (maand 5-12)
+- Implementeer Cisco-firewalls eerst op nieuwe locaties
+- Schakel bestaande locaties om tijdens onderhoudsvensters
+- Laat FortiGate 30-60 dagen parallel draaien
+- Test VPN en toepassingen uitgebreid
 
-Phase 4: Optimization (Months 13-18)
-- Leverage advanced Cisco features (TrustSec, etc.)
-- Integrate with other Cisco products
-- Optimize policies and rule bases
+Fase 4: optimalisatie (maand 13-18)
+- Gebruik geavanceerde Cisco-functies (TrustSec enz.)
+- Integreer met andere Cisco-producten
+- Optimaliseer beleid en regelverzamelingen
 ```
 
 ______
@@ -1099,36 +1095,22 @@ ______
 ### Beslissingsboom
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Do you have existing Cisco campus network (ISE)?      │
-└───────────────┬─────────────────────────────────────────┘
-                │
-        ┌───────┴───────┐
-       YES             NO
-        │               │
-        │               │
-        v               v
-┌──────────────┐  ┌─────────────────┐
-│ Need TrustSec │  │ Need integrated │
-│ micro-seg?    │  │ SD-WAN?         │
-└───┬──────────┘  └────────┬────────┘
-    │                      │
-  ┌─┴─┐                  ┌─┴─┐
- YES NO                 YES NO
-  │   │                  │   │
-  v   v                  v   v
-┌────┐ ┌──────┐      ┌────┐ ┌──────┐
-│Cisco│ │Either│      │Fort│ │Either│
-│wins │ │works │      │inet│ │works │
-└────┘ └──────┘      │wins│ └──────┘
-                     └────┘
+Hebt u al een Cisco-campusnetwerk (ISE)?
+├─ JA
+│  └─ Microsegmentatie met TrustSec nodig?
+│     ├─ JA: Cisco heeft de voorkeur
+│     └─ NEE: Beide voldoen
+└─ NEE
+   └─ Geïntegreerde SD-WAN nodig?
+      ├─ JA: Fortinet heeft de voorkeur
+      └─ NEE: Beide voldoen
 ```
 
 ### Selectiecriteria Scorekaart
 
 Beoordeel elke factor van 1-5 (1=niet belangrijk, 5=kritiek), vermenigvuldig daarna met de score van de leverancier:
 
-| Criteria | Gewicht (1-5) | Fortinet Score | Cisco Score | Uw Prioriteit |
+| Criteria | Gewicht (1-5) | Fortinet-score | Cisco-score | Uw Prioriteit |
 |----------|--------------|----------------|-------------|---------------|
 | **Initiële kosten** | _____ | 5 | 3 | _____ |
 | **TCO (5 jaar)** | _____ | 5 | 3 | _____ |

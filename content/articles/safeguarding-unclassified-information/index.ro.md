@@ -1,6 +1,7 @@
 ---
 title: "Adevărul despre informațiile neclasificate: Caracteristici, protecție și reglementări"
 date: 2023-06-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Descoperiți adevărata natură a informațiilor neclasificate, caracteristicile esențiale ale acestora, măsurile de protecție și reglementările relevante pentru o protecție eficientă."
@@ -43,7 +44,7 @@ ______
 
 **4. Valoare**: **Informațiile neclasificate** pot deține o valoare semnificativă pentru organizații, persoane sau alte părți interesate. Acestea pot include proprietate intelectuală, rezultate ale cercetării, date financiare sau detalii operaționale care contribuie la funcționarea și succesul general al unei entități.
 
-**5. Sub rezerva reglementărilor**: Deși **informațiile neclasificate** nu au aceleași cerințe stricte de protecție ca și informațiile clasificate, anumite reglementări și politici pot totuși să reglementeze manipularea, stocarea și diseminarea acestora. De exemplu, în Statele Unite ale Americii, manipularea **informațiilor neclasificate controlate (CUI)** este reglementată prin [CUI program](https://www.archives.gov/cui), established by the National Archives and Records Administration (NARA)
+**5. Sub rezerva reglementărilor**: Deși **informațiile neclasificate** nu au aceleași cerințe stricte de protecție ca și informațiile clasificate, anumite reglementări și politici pot totuși să reglementeze manipularea, stocarea și diseminarea acestora. De exemplu, în Statele Unite ale Americii, manipularea **informațiilor neclasificate controlate (CUI)** este reglementată prin [Programul CUI](https://www.archives.gov/cui), stabilit de National Archives and Records Administration (NARA)
 
 Înțelegerea acestor caracteristici permite organizațiilor să pună în aplicare măsuri adecvate pentru a proteja **informațiile neclasificate** și pentru a reduce riscurile potențiale asociate cu manipularea și partajarea acestora.
 
@@ -69,7 +70,7 @@ ______
 
 ## Concluzie
 
-**Informațiile neclasificate** joacă un rol vital în cadrul organizațiilor și agențiilor guvernamentale. Acestea cuprind o gamă largă de date și cunoștințe care, deși nu sunt clasificate, au totuși valoare și necesită protecție. Prin înțelegerea caracteristicilor informațiilor neclasificate și prin punerea în aplicare a unor măsuri de protecție adecvate, organizațiile pot asigura **confidențialitatea**, **integritatea** și **disponibilitatea** acestor informații valoroase. Respectarea reglementărilor guvernamentale relevante, cum ar fi [CUI program](https://www.archives.gov/cui) în Statele Unite, consolidează și mai mult protecția informațiilor neclasificate și contribuie la **securitatea generală a informațiilor**.
+**Informațiile neclasificate** joacă un rol vital în cadrul organizațiilor și agențiilor guvernamentale. Acestea cuprind o gamă largă de date și cunoștințe care, deși nu sunt clasificate, au totuși valoare și necesită protecție. Prin înțelegerea caracteristicilor informațiilor neclasificate și prin punerea în aplicare a unor măsuri de protecție adecvate, organizațiile pot asigura **confidențialitatea**, **integritatea** și **disponibilitatea** acestor informații valoroase. Respectarea reglementărilor guvernamentale relevante, cum ar fi [Programul CUI](https://www.archives.gov/cui) în Statele Unite, consolidează și mai mult protecția informațiilor neclasificate și contribuie la **securitatea generală a informațiilor**.
 
 Protejarea informațiilor neclasificate este esențială pentru menținerea încrederii părților interesate, pentru prevenirea accesului neautorizat sau a divulgării neautorizate și pentru păstrarea reputației și a continuității operaționale a organizațiilor. Prin punerea în aplicare a măsurilor recomandate, organizațiile pot crea un mediu sigur pentru informațiile neclasificate și pot reduce riscurile asociate.
 
@@ -77,4 +78,4 @@ ______
 
 ## Referințe
 
-1. Administrația Națională a Arhivelor și Înregistrărilor (NARA). Programul Controlled Unclassified Information (CUI). Extras din [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. Administrația Națională a Arhivelor și Înregistrărilor (NARA). Programul Controlled Unclassified Information (CUI). Extras din [pagina programului CUI pe archives.gov](https://www.archives.gov/cui)

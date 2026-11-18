@@ -1,7 +1,7 @@
 ---
 title: "Informações não classificadas: proteção e regulamentação"
 date: 2023-06-10
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Conheça a natureza das informações não classificadas, suas características, medidas de proteção e regulamentações pertinentes."
@@ -54,7 +54,7 @@ ______
 
 Embora **informações não classificadas** não precisem do mesmo nível de proteção que informações classificadas, é essencial adotar salvaguardas adequadas para reduzir riscos e manter a **confidencialidade**, a **integridade** e a **disponibilidade**. Algumas medidas são:
 
-**1. Controles de acesso**: implemente **controles de acesso** para garantir que somente pessoas autorizadas possam acessar e alterar informações não classificadas. Isso pode ser feito com **autenticação de usuários**, controles de acesso baseados em funções e revisões periódicas de acesso.
+**1. Controles de acesso**: implemente **controles de acesso** para garantir que somente pessoas autorizadas possam acessar e alterar informações não classificadas. Isso pode ser feito com **autenticação de usuários**, **controles de acesso baseados em funções** e revisões periódicas de acesso.
 
 **2. Criptografia**: aplique **criptografia** às informações não classificadas sensíveis, sobretudo quando forem armazenadas ou transmitidas por redes. A criptografia acrescenta uma camada de proteção e ajuda a impedir **acesso não autorizado** ou **interceptação**.
 
@@ -62,7 +62,7 @@ Embora **informações não classificadas** não precisem do mesmo nível de pro
 
 **4. Resposta a incidentes**: desenvolva e mantenha um **plano de resposta a incidentes** para lidar prontamente com violações ou incidentes envolvendo informações não classificadas. O plano deve descrever as medidas a tomar em caso de **acesso não autorizado**, **perda** ou **divulgação** de informações sensíveis.
 
-**5. Segurança física**: adote **medidas de segurança física** para proteger documentos, dispositivos de armazenamento ou equipamentos que contenham informações não classificadas. Isso pode incluir armários trancados, salas de servidores seguras ou sistemas de vigilância.
+**5. Segurança física**: adote **medidas de segurança física** para proteger documentos, dispositivos de armazenamento ou equipamentos que contenham informações não classificadas. Isso pode incluir **armários trancados**, **salas de servidores seguras** ou **sistemas de vigilância**.
 
 Essas medidas reduzem os riscos associados às informações não classificadas e mantêm os **dados sensíveis** protegidos contra acesso ou divulgação não autorizados.
 
@@ -78,4 +78,4 @@ ______
 
 ## Referências
 
-1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI) Program. Acessado em: [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI) Program. Acessado em: [página do programa CUI em archives.gov](https://www.archives.gov/cui)

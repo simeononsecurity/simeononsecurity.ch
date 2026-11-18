@@ -1,6 +1,7 @@
 ---
 title: "ਆਪਣੇ ਟਰਮੀਨਲ ਵਿੱਚ ਚੈਟਜੀਪੀਟੀ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਬੈਸ਼, ਪਾਵਰਸ਼ੇਲ, ਪਾਈਥਨ): ਡਿਵੈਲਪਰਾਂ ਲਈ ਚੈਟਜੀਪੀਟੀ ਸੀਐਲਆਈ ਟੂਲ ਦੀ ਇੱਕ ਜਾਣ-ਪਛਾਣ"
 date: 2023-02-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਪਾਠ ਬਣਾਉਣ ਅਤੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇਣ ਲਈ ਸੁਵਿਧਾਜਨਕ ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ (CLI) ਦੁਆਰਾ OpenAI ਦੇ ChatGPT ਮਾਡਲ ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰਨੀ ਹੈ ਬਾਰੇ ਸਿੱਖੋ।"
@@ -31,27 +32,27 @@ pip install chatgpt requests pyreadline3
 ਇੱਕ ਵਾਰ ਇੰਸਟਾਲ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਡਿਵੈਲਪਰ ਟੈਕਸਟ ਤਿਆਰ ਕਰਨ ਜਾਂ ਆਸਾਨੀ ਨਾਲ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇਣ ਲਈ ChatGPT CLI ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਨ। ਉਦਾਹਰਨ ਲਈ, ਇੱਕ ਪ੍ਰੋਂਪਟ ਦੇ ਅਧਾਰ ਤੇ ਟੈਕਸਟ ਬਣਾਉਣ ਲਈ, ਡਿਵੈਲਪਰ ਹੇਠ ਦਿੱਤੀ ਕਮਾਂਡ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਨ:
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "ਹੋਂਦ ਦਾ ਮਕਸਦ ਕੀ ਹੈ?"
 ```
 
 ਜਾਂ, ਇੱਕ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦੇਣ ਲਈ:
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "ਫਰਾਂਸ ਦੀ ਰਾਜਧਾਨੀ ਕੀ ਹੈ?"
 ```
 
 ChatGPT CLI ਨੂੰ ਮੂਲ ਸਕ੍ਰਿਪਟਾਂ ਨਾਲ ਵੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ:
 
 **ਲੀਨਕਸ:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="ਜ਼ਿੰਦਗੀ ਦਾ ਅਰਥ ਕੀ ਹੈ?"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "ਜ਼ਿੰਦਗੀ ਦਾ ਅਰਥ ਕੀ ਹੈ?"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

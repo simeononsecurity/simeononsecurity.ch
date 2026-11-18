@@ -1,7 +1,7 @@
 ---
 title: "সাইবার নিরাপত্তায় মেশিন লার্নিংয়ের প্রভাব এবং কীভাবে মানিয়ে নেবেন"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "হুমকি শনাক্তকরণ, অগ্রাধিকার নির্ধারণ ও প্রতিক্রিয়ায় মেশিন লার্নিংয়ের ভূমিকা এবং স্থাপনার সীমা ও নিরাপত্তা ঝুঁকি জানুন।"
@@ -67,6 +67,6 @@ ______
 
 ## তথ্যসূত্র
 
-1. “সাইবার নিরাপত্তা কী?” Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (দেখা হয়েছে ৪ মার্চ ২০২৩)।
-2. “সাইবার নিরাপত্তায় মেশিন লার্নিং।” Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (দেখা হয়েছে ৪ মার্চ ২০২৩)।
-3. “তথ্য ও ডিভাইস সুরক্ষা।” National Institute of Standards and Technology. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (দেখা হয়েছে ৪ মার্চ ২০২৩)।
+1. “সাইবার নিরাপত্তা কী?” Cisco. [Cisco-এর সাইবার নিরাপত্তা নির্দেশিকা](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (দেখা হয়েছে ৪ মার্চ ২০২৩)।
+2. “সাইবার নিরাপত্তায় মেশিন লার্নিং।” Cylance. [সাইবার নিরাপত্তায় মেশিন লার্নিং নিয়ে Cylance-এর নিবন্ধ](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (দেখা হয়েছে ৪ মার্চ ২০২৩)।
+3. “তথ্য ও ডিভাইস সুরক্ষা।” National Institute of Standards and Technology. [ডেটা ও ডিভাইস সুরক্ষায় NIST-এর নির্দেশিকা](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (দেখা হয়েছে ৪ মার্চ ২০২৩)।

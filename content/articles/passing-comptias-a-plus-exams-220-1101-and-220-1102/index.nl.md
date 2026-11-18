@@ -72,9 +72,9 @@ Om succesvol te zijn in de CompTIA A+ examens is het belangrijk om meerdere stud
 
 Een goede bron om te studeren voor de CompTIA A+ examens is het officiële CompTIA CertMaster online leerplatform. CertMaster biedt interactief leren met een verscheidenheid aan studiemateriaal, waaronder video's, oefenvragen en flashcards.
 
-Andere gerenommeerde studiebronnen zijn[CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), the [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), and the [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN) 
+Andere gerenommeerde studiebronnen zijn [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), en [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN).
 
-Daarnaast zijn er veel online cursussen en tutorials beschikbaar via aanbieders als[Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/) Wanneer u meerdere studiebronnen gebruikt, is het belangrijk om u te concentreren op bronnen die aansluiten bij de examendoelstellingen en om bronnen van gerenommeerde bronnen te gebruiken om de nauwkeurigheid en kwaliteit te waarborgen.
+Daarnaast zijn er veel online cursussen en tutorials beschikbaar via aanbieders als [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/) en [Coursera](https://www.coursera.org/). Wanneer u meerdere studiebronnen gebruikt, is het belangrijk om u te concentreren op bronnen die aansluiten bij de examendoelstellingen en om bronnen van gerenommeerde bronnen te gebruiken om de nauwkeurigheid en kwaliteit te waarborgen.
 
 {{< youtube id="87t6P5ZHTP0" >}}{{< youtube id="OS9MJjNK6gA" >}}
 

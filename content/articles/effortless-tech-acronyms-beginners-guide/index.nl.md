@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Een vereenvoudigde en vriendelijke robot die met enthousiasme technische afkortingen aan een beginner uitlegt.
 coverCaption: Technisch Jargon Ontwarren voor Beginners
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 ---
 
 ## Inleiding
@@ -186,7 +186,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **BYOM**: Bring Your Own Modem
   - Een beleid dat gebruikers toestaat hun eigen modems mee te brengen en te gebruiken voor internetverbinding.
 
-- **BaaS**: Backend as a Service
+- **BaaS**: Backend as a Service (backend als dienst)
   - Een cloudcomputingdienst die de infrastructuur levert voor de backend van een web- of mobiele applicatie, inclusief server-, database- en opslagdiensten.
 
 
@@ -221,7 +221,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **CSV**: Comma-Separated Values
   - Een eenvoudig bestandsformaat dat wordt gebruikt voor het opslaan van tabelgegevens, waarbij gegevenswaarden door komma's worden gescheiden.
 
-- **CaaS**: Container as a Service
+- **CaaS**: Container as a Service (container als dienst)
   - Een cloudcomputingdienst die een platform biedt voor het implementeren en beheren van containers, zoals Docker-containers, op een schaalbare en efficiënte manier.
 
 
@@ -341,7 +341,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **FTP**: File Transfer Protocol
   - Een netwerkprotocol dat wordt gebruikt om bestanden over te dragen tussen een client en een server op een computernetwerk.
 
-- **FaaS**: Function as a Service
+- **FaaS**: Function as a Service (functie als dienst)
   - Een cloud computing dienst die ontwikkelaars toestaat individuele functies of stukjes code uit te voeren als reactie op gebeurtenissen, vaak zonder het onderliggende infrastructuurbeheer.
 
 - **Firewall**: Netwerkbeveiligingsapparaat of software
@@ -394,7 +394,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **Gbps**: Gigabits per seconde
   - Een eenheid voor datasnelheid, die één miljard bits per seconde vertegenwoordigt, vaak gebruikt om netwerk- of datatransfersnelheden te meten.
 
-- 
+-
 ### H
 - **HDD**: Hard Disk Drive
   - Een gegevensopslagapparaat dat gebruikmaakt van draaiende schijven om data op te slaan en op te halen, vaak te vinden in desktop- en servercomputers.
@@ -432,7 +432,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **HVM**: Hardware Virtual Machine
   - Een virtualisatietechnologie die een hypervisor toestaat virtuele machines te draaien met directe toegang tot fysieke hardware, wat hoge prestaties en compatibiliteit biedt.
 
-- **HaaS**: Hardware as a Service
+- **HaaS**: Hardware as a Service (hardware als dienst)
   - Een cloudcomputing servicemodel waarbij hardwarebronnen, zoals servers en infrastructuur, aan gebruikers worden geleverd op abonnementsbasis, zodat ze fysieke hardware op afstand kunnen gebruiken.
 
 
@@ -467,7 +467,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **ISO**: International Organization for Standardization
   - Een internationale organisatie die normen ontwikkelt en publiceert voor diverse industrieën en technologieën.
 
-- **IaaS**: Infrastructure as a Service
+- **IaaS**: Infrastructure as a Service (infrastructuur als dienst)
   - Een cloudcomputing servicemodel dat gevirtualiseerde computerbronnen levert, waaronder servers, opslag en netwerken, via het internet.
 
 - **IoT**: Internet of Things
@@ -681,7 +681,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **PSU**: Power Supply Unit
   - Een apparaat dat elektriciteit van een externe bron omzet in de spanning en stroom die nodig zijn om een computer of andere elektronische apparaten van stroom te voorzien.
 
-- **PaaS**: Platform as a Service
+- **PaaS**: Platform as a Service (platform als dienst)
   - Een cloudcomputing servicemodel dat een platform biedt voor het ontwikkelen, uitvoeren en beheren van applicaties zonder dat de onderliggende infrastructuur beheerd hoeft te worden.
 
 ### Q
@@ -765,7 +765,7 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
   - Protocollen die worden gebruikt om internetcommunicatie te beveiligen door data te versleutelen die tussen een webserver en de browser van een cliënt wordt verzonden.
 
-- **SaaS**: Software as a Service
+- **SaaS**: Software as a Service (software als dienst)
   - Een cloudcomputing servicemodel dat softwareapplicaties via internet aanbiedt op abonnementsbasis.
 
 ### T
@@ -850,20 +850,20 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
 - **XSS**: Cross-Site Scripting
   - Een type beveiligingslek dat aanvallers in staat stelt kwaadaardige scripts in webpagina's te injecteren die door andere gebruikers worden bekeken.
 
-- **XaaS**: Anything as a Service
+- **XaaS**: Anything as a Service (alles als dienst)
   - Een algemene term die verschillende cloudservicemodellen omvat, zoals SaaS, PaaS en IaaS.
 
 ### Y
-- **YAGNI**: You Aren't Gonna Need It
+- **YAGNI**: You Aren't Gonna Need It (dat heb je niet nodig)
   - Een softwareontwikkelingsprincipe dat eenvoud aanmoedigt en het vermijden van onnodige functies totdat ze daadwerkelijk nodig zijn.
 
 - **YAML**: YAML Ain't Markup Language
   - Een menselijk leesbaar data-serialisatieformaat dat wordt gebruikt voor configuratiebestanden en gegevensuitwisseling.
 
-- **YMMV**: Your Mileage May Vary
+- **YMMV**: Your Mileage May Vary (je ervaringen kunnen verschillen)
   - Een uitdrukking die aangeeft dat individuele ervaringen kunnen verschillen, vaak gebruikt om uiteenlopende resultaten te erkennen.
 
-- **YOLO**: You Only Live Once
+- **YOLO**: You Only Live Once (je leeft maar één keer)
   - Een informele uitdrukking die het benadrukt om het leven ten volle te leven en risico's te nemen.
 
 ### Z

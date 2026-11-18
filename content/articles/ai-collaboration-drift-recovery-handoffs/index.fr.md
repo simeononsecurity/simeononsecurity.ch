@@ -1,7 +1,7 @@
 ---
 title: "Récupérer après une dérive d’agent IA et transmettre le travail"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Détectez les sources et adaptateurs de politique obsolètes, reprenez une publication interrompue et vérifiez les transmissions indépendantes entre agents."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Effectuer le contrôle préalable
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Lis MAP-01 et note sa révision.
+Lis POL-01 et compare les versions des adaptateurs actifs.
+Lis REQ-17 et RUN-04 aux emplacements indiqués dans le plan.
+Lis config.json sur main protégé.
+Lis la proposition figée et les revues actuelles des rôles.
+Compare les sources actuelles aux bases examinées.
+Liste les écarts, les lectures refusées et les publications en attente.
+Arrête les écritures à conséquences jusqu’à ce que les responsables résolvent chaque écart.
 ```
 
 **Le contributeur effectue le contrôle préalable avant de rédiger. La personne qui publie le répète avant d’écrire.** Conservez la comparaison des versions avec la proposition. Les contrôles hebdomadaires complètent ces lectures, sans les remplacer.
@@ -103,16 +103,16 @@ choices:
 ## Vérifier une transmission indépendante
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Passation : HANDOFF-042
+Tâche : PROP-042
+Plan et politique : joins les révisions approuvées actuelles
+Preuves : références aux exigences, au runbook et à la configuration
+Registre : completed, failed, pending
+Décision : choix du responsable et révision fixe de la proposition
+Limites : aucun test de suppression à l’exécution et aucune donnée de production
+Rôle suivant : rôle responsable
+Action suivante : une étape délimitée
+Arrêt : base modifiée, accès refusé ou autorités contradictoires
 ```
 
 **Ouvrez un autre outil ou une session vierge** avec la carte et la transmission, sans reprendre la conversation précédente. Exigez de nouvelles lectures des sources, un nouveau manifeste et l’identification de l’action en attente. Les preuves issues d’un navigateur manuel restent valides si elles sont désignées comme instantané et vérifiées à nouveau avant l’écriture.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **La compensation n’efface pas l’historique.** Conservez la tentative de passage à trente jours, son échec et la restauration ultérieure comme enregistrements distincts. La source finale indique sept, et l’historique de livraison explique pourquoi la proposition approuvée n’a pas abouti.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Décision de récupération : compensation illustrative
+Proposition initiale : PROP-042, révision 1
+Écart observé : exigence 30, configuration/runbook 7
+Décision du responsable : restaurer l’intention de base approuvée
+Objet de revue : comparer la compensation fixe à la version actuelle de l’exigence
+Résultat : consigne la révision obtenue et relis la valeur de sept jours
+Livraison initiale : retirer ou bloquer avec explication
+Limite : aucune suppression à l’exécution ni restauration de données effectuée
 ```
 
 **Préservez explicitement toute exception ajoutée par un autre contributeur.** Coller aveuglément le contenu d’une ancienne page risque de supprimer une modification intermédiaire valide. Comparez le texte actuel et le texte visé, puis faites examiner une modification compensatoire minimale par rapport à la version actuelle.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Utilisez une session vierge et un autre réviseur.** Fournissez la carte, le paquet fixé, le registre et la décision de récupération. Ne transmettez pas la conversation précédente. Demandez au destinataire d’indiquer l’intention actuelle, la configuration, les consignes opérationnelles et la prochaine action autorisée.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Lis indépendamment les sources actuelles indiquées dans le plan.
+Distingue l’intention approuvée, la configuration validée et l’état de livraison.
+Compare-les au dossier examiné et au registre.
+Liste les lectures manquantes et les bases modifiées.
+Recommande une prochaine étape délimitée et indique son responsable.
+Ne considère pas cette passation comme une approbation ni une autorisation de publication.
 ```
 
 **Raisonnement attendu :** le destinataire vérifie le résultat de la compensation avant de dire que la référence initiale est rétablie. S’il répète seulement « sept jours » à partir de la transmission, l’exigence de lecture indépendante n’a pas été testée. Demandez des preuves issues des sources plutôt qu’un nouveau résumé.
@@ -219,4 +219,4 @@ Remettez cet inventaire à un second lecteur sans l’ancienne conversation. La 
 
 ## Étapes suivantes
 
-**Terminez le [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** avec les deux parcours et un second lecteur. Montrez les lectures actuelles des sources, les écarts de version, le propriétaire de la décision, la récupération examinée, la relecture et la reconstitution indépendante.
+**Terminez le [Chapitre final sur la conservation](/articles/ai-collaboration-retention-capstone/)** avec les deux parcours et un second lecteur. Montrez les lectures actuelles des sources, les écarts de version, le propriétaire de la décision, la récupération examinée, la relecture et la reconstitution indépendante.

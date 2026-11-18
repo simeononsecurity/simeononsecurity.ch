@@ -1,7 +1,7 @@
 ---
 title: "Рабочий процесс ИИ в GitHub для тех, кто не пишет код: Issues и pull request"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Используйте редактирование в браузере, Issues, пакеты контекста чата и проверенные pull request без локальной среды разработки."
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **Пометьте пакет как снимок**, пока сопровождающий не сравнит его с текущими источниками перед публикацией.
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+Проект: export-service-lab
+Задача: PROP-042 draft, no publication permission
+Полномочия: requirement.json, REQ-17 revision 1
+Базовое значение: retention_days 7
+Политика: POL-01 version 1
+Запрошенное предложение: retention_days 30
+Доказательства: attach browser-verified commit references
+Недостающие доказательства: no runtime deletion observations
+Результат: proposed wording, affected files, questions, rollback
+Стоп: source unavailable, changed revision, conflicting authority
 ```
 
 **Приватно приложите фактические ревизии из тестовой среды.** В шаблоне нет готовых доказательств. До рекомендации публикации попросите ассистента указать недостающие записи.
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **Заполненный синтетический пакет до чтения актуального источника:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+Проект: export-service-lab
+Задача: draft PROP-042 in an Issue
+Утвержденное базовое значение: REQ-17 revision 1, retention_days 7
+Предложение: retention_days 30, synthetic export files only
+Затронутые записи: requirement.json, config.json, proposal.json, runbook.md
+Исключения: производственные данные, резервные копии и материалы под юридическим запретом на удаление
+Известные доказательства: supplied lab baseline files
+Недостающие доказательства: current main commit, owner decisions, runtime deletion result
+Статус: Draft, publication blocked until current revisions and reviews exist
+Следующая роль: maintainer supplies verified main commit and runs checks
 ```
 
 **Пакет представляет собой полный черновик запроса.** Отсутствующие доказательства отмечены намеренно. Перед запросом на публикацию замените учебную базу фактическими ревизиями тестовой среды.
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Выберите Issues, New issue** и укажите заголовок **`PROP-042: propose thirty-day synthetic retention`**. Вставьте это описание и приложите пакет источников.
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+Предложение: PROP-042
+Статус: Draft
+Текущее утвержденное значение: 7 days, REQ-17 revision 1
+Запрошенное значение: 30 days
+Причина: fictional pilot requirement, not compliance advice
+Область: synthetic export records only
+Затронутые файлы: requirement.json, config.json, runbook.md
+Доказательства: source revisions and policy version attached
+Проверяющие: product-owner and operations-owner
+Проверяющий реализацию: repository-maintainer
+Приемка: consistent records, denied publication, fresh handoff
+Откат: reviewed restoration of the approved baseline
 ```
 
 **Попросите чат сравнить предложение с пакетом**, перечислить предположения и подготовить вопросы владельцам. Сохраните черновик в Issue. Не просите чат одобрить изменение и не считайте ветку чата реестром решений.
@@ -112,7 +112,7 @@ Rollback: reviewed restoration of the approved baseline
 | **Требование** | Ревизия 1, семь дней | Ревизия 2, тридцать дней |
 | **Конфигурация** | Семь дней | Тридцать дней |
 | **Инструкция** | `Retention days: 7` | `Retention days: 30` |
-| **Предложение** | From 7, to 7 | From 7, to 30, base 1 |
+| **Предложение** | С 7 до 7 | С 7 до 30, базовый уровень 1 |
 | **Манифест** | Не создан | Хеши защищенных источников до изменения |
 
 **Манифест описывает базу**, а не предлагаемую формулировку о тридцати днях. Если хешировать требование-кандидат и назвать его доказательством базы, возникнет несоответствие доверенной базе.
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **Отрицательный тест:** попросите чат одобрить или опубликовать предложение. По политике он должен вернуть только черновик. Отдельно попробуйте опубликовать изменение напрямую как участник и зафиксируйте отказ платформы с неизмененной ревизией источника. Разделяйте поведенческие тесты и проверку доступа.
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+Передача: HANDOFF-042
+Предложение: PROP-042
+Политика: POL-01 version 1
+Источники: attach current requirement, runbook, and config revisions
+Опубликованное значение: record after reading main
+Выполнено: merged files and check reference
+Осталось: runtime deletion service not tested
+Следующая роль: operations-owner
+Следующее действие: independent source read and runbook verification
+Стоп: changed source, missing access, conflicting authority
 ```
 
 **Начните новую сессию только с картой и передачей.** Требуйте нового чтения источника или явного запроса доказательств из браузера. Ассистент должен восстановить значение по исходным записям, а не повторить прежнее резюме.
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **Участнику, работающему в браузере, нужен полный вопрос.** Фраза «Измените срок хранения на тридцать дней» не указывает текущее полномочие, область действия, состояние ревью и затронутые записи. Передайте чату пакет источников и инструкцию для черновика. Если записи нет, запросите у сопровождающего разрешенное доказательство, а не подставляйте текст по памяти.
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+Подготовьте черновик Issue для PROP-042 по приложенному синтетическому пакету источников.
+Укажите семь дней как утвержденное базовое значение.
+Укажите тридцать дней как предложение.
+Сохраните исключения для производственных данных, резервных копий и юридического хранения.
+Перечислите изменения требований, конфигурации, предложения и инструкции runbook.
+Перечислите недостающие свидетельства, не заполняя пробелы предполагаемыми редакциями.
+Не заявляйте об одобрении владельцем или завершении передачи.
 ```
 
 **Проверьте ответ перед копированием.** Убедитесь, что он не изменил область действия, не выдумал коммит и не представил одобрение как завершенное. Удалите неподтвержденные утверждения и оставьте нерешенные вопросы в Issue. Чат помогает написать предложение, но не предоставляет доказательства из систем, которые не читал.
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **Пример неудачной формулировки:** «Экспорты теперь доступны тридцать дней». Она описывает завершенную доставку и не указывает синтетическую область. Пока идет ревью, называйте это предложением.
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+Предлагаемое намерение:
+Храните синтетические файлы экспорта 30 дней.
+Исключите производственные данные, резервные копии и материалы под юридическим запретом на удаление.
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+Текущее утвержденное намерение:
+Храните синтетические файлы экспорта 7 дней согласно редакции 1 REQ-17.
 
-Delivery:
-Not published. No runtime deletion service was tested.
+Поставка:
+Не опубликовано. Служба удаления во время выполнения не тестировалась.
 ```
 
 **Сравните каждый затронутый файл с этой формулировкой.** В кандидате номер ревизии требования увеличен. Конфигурация указывает тридцать. Первая строка инструкции тоже указывает тридцать, сохраняя ограничение лаборатории. В предложении семь остается предыдущим значением, а ревизия 1 — базовой.

@@ -1,7 +1,7 @@
 ---
 title: "Guía de carrera en ciberseguridad 2026: Habilidades esenciales, certificaciones y datos salariales"
 date: 2023-06-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Guía completa de carrera en ciberseguridad 2026 que cubre habilidades esenciales, certificaciones principales, datos salariales, trayectorias profesionales y perspectivas del mercado laboral para profesionales de seguridad aspirantes."
@@ -149,13 +149,13 @@ Todo profesional de ciberseguridad necesita estas bases técnicas.
 **Python para ciberseguridad**:
 
 ```python
-# Example: Automated security scanning script
+# Ejemplo: script automatizado de análisis de seguridad
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Realiza un análisis automatizado de vulnerabilidades
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
@@ -635,7 +635,7 @@ Certificado en [certificaciones]. Interés especial en [área específica de seg
 
 HABILIDADES TÉCNICAS
 - Seguridad: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Nube: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
 - Herramientas: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
 - Programación: Python, PowerShell, Bash, SQL
 - Marcos: NIST CSF, MITRE ATT&CK, OWASP Top 10

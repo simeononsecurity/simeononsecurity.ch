@@ -39,7 +39,7 @@ ______
 
 ### 1. Software di virtualizzazione
 
-Il componente software più importante in un laboratorio domestico è il **software di virtualizzazione**. Le opzioni più diffuse includono [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows) Queste piattaforme consentono di creare e gestire più macchine virtuali su un unico host. Scegliete quella più adatta alle vostre esigenze e al vostro budget.
+Il componente software più importante in un laboratorio domestico è il **software di virtualizzazione**. Le opzioni più diffuse includono [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) e [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows). Queste piattaforme consentono di creare e gestire più macchine virtuali su un unico host. Scegliete quella più adatta alle vostre esigenze e al vostro budget.
 
 ### 2. Sistemi operativi
 
@@ -96,9 +96,9 @@ ______
 Dopo aver allestito il vostro laboratorio domestico, potete iniziare ad **apprendere e testare** varie tecnologie. Alcuni argomenti e progetti popolari da esplorare sono:
 
 1. **Rete**: Sperimentate diverse topologie di rete, protocolli di routing e configurazioni di firewall.
-2. **Cloud Computing**: Imparare a conoscere [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
-3. **Sistemi operativi**: Testare varie distribuzioni Linux, Windows Server e tecnologie di containerizzazione quali [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
-4. **Cybersecurity**: Praticare l'hacking etico, la scansione delle vulnerabilità e la risposta agli incidenti utilizzando strumenti quali [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
+2. **Cloud Computing**: Imparare a conoscere [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/) oppure [Google Cloud Platform (GCP)](https://cloud.google.com/)
+3. **Sistemi operativi**: Testare varie distribuzioni Linux, Windows Server e tecnologie di containerizzazione quali [Docker](https://www.docker.com/) e [Kubernetes](https://kubernetes.io/).
+4. **Cybersecurity**: Praticare l'hacking etico, la scansione delle vulnerabilità e la risposta agli incidenti utilizzando strumenti quali [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/) e [Wireshark](https://www.wireshark.org/).
 
 ______
 

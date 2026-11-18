@@ -3,6 +3,7 @@ title: "Securitatea dispozitivelor mobile: Sfaturi eficiente pentru a vă păstr
 draft: false
 toc: true
 date: 2023-06-15
+lastmod: 2026-11-14
 description: "Aflați cum să vă securizați dispozitivul mobil și să vă protejați datele de amenințările cibernetice cu aceste sfaturi eficiente pentru securitatea dispozitivelor mobile."
 genre: ["Tehnologie", "Securitatea cibernetică", "Securitate mobilă", "Protecția datelor", "Siguranța online", "Confidențialitate", "Atacuri de phishing", "Malware", "Securitate Wi-Fi", "Securitatea parolei"]
 tags: ["Securitate mobilă", "Securitatea cibernetică", "Protecția datelor", "Dispozitive mobile", "Siguranța online", "Confidențialitate", "Atacuri de phishing", "Malware", "Securitate Wi-Fi", "Dispozitive furate", "Securitatea parolei", "Autentificarea biometrică", "Autentificare cu doi factori", "Software antivirus", "Permisiunile aplicației", "Setări de confidențialitate", "Criptarea datelor", "Copii de siguranță pentru date", "Siguranța Wi-Fi publică", "Dispozitive pierdute sau furate", "Sfaturi de securitate mobilă", "Cele mai bune practici de securitate mobilă", "Soluții de securitate mobilă", "Protejarea dispozitivelor mobile", "Securizarea aplicațiilor mobile", "Gestionarea dispozitivelor mobile", "Amenințări la adresa securității mobile", "Sfaturi privind confidențialitatea mobilă", "Mobile Data Security", "Securitatea cibernetică mobilă"]
@@ -134,7 +135,7 @@ Când vine vorba de stocarea datelor dvs., utilizarea unui **serviciu de stocare
 Aceste servicii oferă, de asemenea, caracteristici suplimentare de securitate, cum ar fi **autentificarea cu doi factori**, care adaugă un nivel suplimentar de protecție contului dvs. Cu toate acestea, asigurați-vă că folosiți o **parolă puternică și unică** și activați toate funcțiile de securitate disponibile pentru a maximiza protecția datelor dvs.
 
 În concluzie, securizarea datelor dvs. cu criptare și copii de rezervă este esențială în era digitală de astăzi. Luând măsurile necesare pentru a vă proteja datele, vă puteți asigura că **informațiile dvs. sensibile rămân în siguranță**.
-### Staying Safe on Public Wi-Fi Networks
+### Cum să te protejezi pe rețelele Wi-Fi publice
 
 Rețelele Wi-Fi publice sunt convenabile, dar adesea **neprotejate**, ceea ce poate reprezenta riscuri semnificative pentru securitatea dispozitivelor mobile. Să analizăm câteva sfaturi pentru a rămâne în siguranță în rețelele Wi-Fi publice:
 

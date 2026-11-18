@@ -1,7 +1,7 @@
 ---
 title: "Który lokalny model AI uruchomić? Przewodnik po GPU, kontekście i kodowaniu na październik 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Praktyczny przewodnik z października 2026 po wyborze lokalnych modeli AI dla agentów kodujących. Porównaj pamięć GPU, wzrost KV cache, rozmiar kontekstu, jakość kwantyzacji, przetwarzanie promptów, ustawienia rozumowania i koszty wynajmu chmury."
@@ -78,7 +78,7 @@ Te liczby dotyczą konkretnych architektur modeli i ustawień runtime. Traktuj j
 |---|---|---|
 | **Full attention w każdej warstwie** | Duży wzrost cache | Więcej pamięci dla długich promptów |
 | **Hybrid lub sliding attention** | Mniejszy wzrost cache w części warstw | Więcej miejsca na kontekst przy tym samym rozmiarze modelu |
-| **Mixture of experts** | Mniej aktywnych parametrów na token | Mniej obliczeń na token, lecz wszystkie wagi nadal wymagają miejsca |
+| **Mieszanka ekspertów (MoE)** | Mniej aktywnych parametrów na token | Mniej obliczeń na token, lecz wszystkie wagi nadal wymagają miejsca |
 | **Rozszerzenie long-context** | Większe okno robocze | Więcej pamięci cache i pracy przy przetwarzaniu promptu |
 
 **Przeczytaj architekturę modelu przed zakupem pamięci.** Sama liczba parametrów ukrywa koszt długiej sesji kodowania.

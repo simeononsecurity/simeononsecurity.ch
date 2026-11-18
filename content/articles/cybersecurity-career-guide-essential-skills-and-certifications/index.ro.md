@@ -1,7 +1,7 @@
 ---
 title: "Ghid de carieră în securitate cibernetică 2026"
 date: 2023-06-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Ghid de carieră în securitate cibernetică pentru 2026, cu competențe, certificări, salarii, trasee profesionale și cercetări despre piața muncii."
@@ -147,13 +147,13 @@ Orice profesionist în securitate are nevoie de aceste fundamente.
 
 **Python pentru securitate cibernetică**, cel mai important limbaj:
 ```python
-# Example: Automated security scanning script
+# Exemplu: script automatizat de scanare de securitate
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Efectuează o scanare automată a vulnerabilităților
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
@@ -290,10 +290,10 @@ Competențele tehnice nu sunt suficiente. **Gândirea critică** îi diferenția
 
 **Dezvoltarea comunicării**:
 ```
-Entry Level: Write clear incident reports
-Mid-Level: Present security updates to management
-Senior:Lead security strategy discussions with executives
-Executive: Communicate security posture to board of directors
+Nivel de început: redactează rapoarte clare despre incidente
+Nivel mediu: prezintă conducerii actualizări privind securitatea
+Nivel senior: condu discuții cu directorii despre strategia de securitate
+Nivel executiv: prezintă consiliului de administrație starea securității
 ```
 
 ### Competențe emergente pentru 2026 și anii următori
@@ -437,15 +437,15 @@ Cunoașterea specializărilor te ajută să alegi direcția potrivită.
 
 **Evoluția carierei**:
 ```
-Junior SOC Analyst (0-2 years) → $55,000-75,000
+Analist SOC junior (0-2 ani) → $55,000-75,000
     ↓
-SOC Analyst II (2-4 years) → $75,000-95,000
+Analist SOC II (2-4 ani) → $75,000-95,000
     ↓
-Senior SOC Analyst (4-7 years) → $95,000-120,000
+Analist SOC senior (4-7 ani) → $95,000-120,000
     ↓
-SOC Team Lead (7-10 years) → $120,000-145,000
+Liderul echipei SOC (7-10 ani) → $120,000-145,000
     ↓
-SOC Manager (10+ years) → $145,000-180,000
+Manager SOC (10+ ani) → $145,000-180,000
 ```
 
 **Competențe**: platforme SIEM precum Splunk, Sentinel și Chronicle, analiza și corelarea jurnalelor, răspuns la incidente, analiza traficului, interpretarea informațiilor despre amenințări.
@@ -464,15 +464,15 @@ SOC Manager (10+ years) → $145,000-180,000
 
 **Evoluția carierei**:
 ```
-Junior Penetration Tester (0-2 years) → $70,000-90,000
+Tester de penetrare junior (0-2 ani) → $70,000-90,000
     ↓
-Penetration Tester (2-5 years) → $95,000-130,000
+Tester de penetrare (2-5 ani) → $95,000-130,000
     ↓
-Senior Penetration Tester (5-8 years) → $130,000-165,000
+Tester de penetrare senior (5-8 ani) → $130,000-165,000
     ↓
-Lead Pentester / Red Team Lead (8-12 years) → $165,000-200,000
+Coordonator de testare a penetrării / lider al echipei roșii (8-12 ani) → $165,000-200,000
     ↓
-Principal Security Consultant (12+ years) → $200,000-275,000+
+Consultant principal în securitate (12+ ani) → $200,000-275,000+
 ```
 
 **Competențe**: atacarea aplicațiilor web, testarea penetrării rețelelor, exploatarea Active Directory, inginerie socială, rapoarte și comunicare.
@@ -492,15 +492,15 @@ Principal Security Consultant (12+ years) → $200,000-275,000+
 
 **Evoluția carierei**:
 ```
-Junior Security Engineer (0-2 years) → $75,000-95,000
+Inginer de securitate junior (0-2 ani) → $75,000-95,000
     ↓
-Security Engineer (2-5 years) → $105,000-135,000
+Inginer de securitate (2-5 ani) → $105,000-135,000
     ↓
-Senior Security Engineer (5-8 years) → $135,000-170,000
+Inginer de securitate senior (5-8 ani) → $135,000-170,000
     ↓
-Security Architect (8-12 years) → $170,000-220,000
+Arhitect de securitate (8-12 ani) → $170,000-220,000
     ↓
-Principal/Lead Security Architect (12+ years) → $220,000-300,000+
+Arhitect principal/coordonator de securitate (12+ ani) → $220,000-300,000+
 ```
 
 **Competențe**: arhitectură de securitate a rețelelor, securitate AWS, Azure și GCP, zero trust, cadre NIST și ISO 27001, instrumente de securitate pentru companii.
@@ -520,15 +520,15 @@ Principal/Lead Security Architect (12+ years) → $220,000-300,000+
 
 **Evoluția carierei**:
 ```
-Junior Cloud Security Engineer (0-2 years) → $80,000-100,000
+Inginer de securitate cloud junior (0-2 ani) → $80,000-100,000
     ↓
-Cloud Security Engineer (2-5 years) → $115,000-145,000
+Inginer de securitate cloud (2-5 ani) → $115,000-145,000
     ↓
-Senior Cloud Security Engineer (5-8 years) → $145,000-185,000
+Inginer de securitate cloud senior (5-8 ani) → $145,000-185,000
     ↓
-Cloud Security Architect (8-12 years) → $185,000-235,000
+Arhitect de securitate cloud (8-12 ani) → $185,000-235,000
     ↓
-Principal Cloud Security Architect (12+ years) → $235,000-320,000+
+Arhitect principal de securitate cloud (12+ ani) → $235,000-320,000+
 ```
 
 **Competențe**: AWS, Azure și GCP, Terraform și CloudFormation, Docker și Kubernetes, DevSecOps, instrumente cloud-native.
@@ -548,15 +548,15 @@ Principal Cloud Security Architect (12+ years) → $235,000-320,000+
 
 **Evoluția carierei**:
 ```
-Junior GRC Analyst (0-2 years) → $60,000-78,000
+Analist GRC junior (0-2 ani) → $60,000-78,000
     ↓
-GRC Analyst (2-4 years) → $78,000-98,000
+Analist GRC (2-4 ani) → $78,000-98,000
     ↓
-Senior GRC Analyst (4-7 years) → $98,000-125,000
+Analist GRC senior (4-7 ani) → $98,000-125,000
     ↓
-GRC Manager (7-10 years) → $125,000-155,000
+Manager GRC (7-10 ani) → $125,000-155,000
     ↓
-Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,000+
+Director de conformitate / director-șef de conformitate (10+ ani) → $155,000-225,000+
 ```
 
 **Competențe**: cadre SOC 2, ISO 27001, PCI-DSS și HIPAA, evaluarea riscurilor, audit, politici, gestionarea părților interesate.
@@ -576,15 +576,15 @@ Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,0
 
 **Evoluția carierei**:
 ```
-Junior Incident Response Analyst (0-2 years) → $65,000-85,000
+Analist de răspuns la incidente junior (0-2 ani) → $65,000-85,000
     ↓
-Incident Response Analyst (2-5 years) → $90,000-115,000
+Analist de răspuns la incidente (2-5 ani) → $90,000-115,000
     ↓
-Senior Incident Responder (5-8 years) → $115,000-150,000
+Specialist senior în răspuns la incidente (5-8 ani) → $115,000-150,000
     ↓
-Incident Response Team Lead (8-12 years) → $150,000-190,000
+Liderul echipei de răspuns la incidente (8-12 ani) → $150,000-190,000
     ↓
-Director of Incident Response (12+ years) → $190,000-250,000+
+Director de răspuns la incidente (12+ ani) → $190,000-250,000+
 ```
 
 **Competențe**: criminalistică digitală, analiză malware, cadre NIST și SANS, analiza memoriei și a discurilor, analiza cronologiei.
@@ -690,39 +690,39 @@ CV-ul trebuie să treacă de sistemele ATS și să convingă managerii de recrut
 
 **Structura CV-ului**:
 ```
-[Your Name]
-[LinkedIn URL] | [GitHub URL] | [Email] | [Phone] | [Location]
+[Numele tău]
+[URL LinkedIn] | [URL GitHub] | [E-mail] | [Telefon] | [Locație]
 
-SUMMARY
-Results-driven cybersecurity professional with hands-on experience in [specific skills].
-Certified in [certifications]. Passionate about [specific security area].
+REZUMAT
+Specialist în securitate cibernetică, orientat spre rezultate, cu experiență practică în [competențe specifice].
+Certificat în [certificări]. Interesat de [domeniu specific de securitate].
 
-TECHNICAL SKILLS
-- Security: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
-- Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
-- Programming: Python, PowerShell, Bash, SQL
-- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
+COMPETENȚE TEHNICE
+- Securitate: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
+- Servicii de cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Instrumente: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
+- Programare: Python, PowerShell, Bash, SQL
+- Cadre de securitate: NIST CSF, MITRE ATT&CK, OWASP Top 10
 
-CERTIFICATIONS
-- CompTIA Security+ (Date)
-- AWS Certified Security Specialty (Date)
-- [Other relevant certs]
+CERTIFICĂRI
+- CompTIA Security+ (data)
+- AWS Certified Security Specialty (data)
+- [alte certificări relevante]
 
-PROFESSIONAL EXPERIENCE
-[Company Name] - [Security Role] (Dates)
-- QUANTIFY achievements (Reduced false positives by 40%)
-- USE security keywords (SIEM, incident response, threat hunting)
-- SHOW impact (Identified and remediated 15 critical vulnerabilities)
+EXPERIENȚĂ PROFESIONALĂ
+[Numele companiei] - [Rol în securitate] (date)
+- Cuantifică rezultatele (reducerea cu 40% a alertelor fals pozitive)
+- Folosește termeni din domeniul securității (SIEM, răspuns la incidente, căutarea amenințărilor)
+- Arată impactul (identificarea și remedierea a 15 vulnerabilități critice)
 
-PROJECTS (If entry-level or career changer)
-[Project Name] - [Technology Stack]
-- Built [specific security tool/system]
-- Demonstrates [specific skills]
-- GitHub: [link]
+PROIECTE (la început de carieră sau la schimbarea domeniului)
+[Numele proiectului] - [Stiva tehnologică]
+- Creează [instrument/sistem specific de securitate]
+- Demonstrează [competențe specifice]
+- GitHub: [URL]
 
-EDUCATION
-[Degree] in [Field], [University] (Date)
+EDUCAȚIE
+[Diplomă] în [Domeniu], [Universitate] (data)
 ```
 
 **Sfaturi pentru CV**:
@@ -774,18 +774,17 @@ Interviurile de securitate au de obicei trei etape.
 
 **Exemplu de e-mail pentru negociere**:
 ```
-Thank you for the offer. I'm excited about the opportunity to join [Company] as [Role].
+Vă mulțumesc pentru ofertă. Mă bucur de oportunitatea de a mă alătura [Companie] în rolul de [Rol].
 
-After reviewing the offer and researching market rates for this position in [Location],
-I'd like to discuss the compensation package. Based on my [certifications/experience/skills],
-I was hoping for a base salary in the range of $[X-Y].
+După ce am analizat oferta și am cercetat nivelurile salariale de pe piață pentru acest rol în [Locație], aș dori să discutăm pachetul de compensații. Având în vedere [certificări/experiență/competențe], speram la un salariu de bază în intervalul $[X-Y].
 
-Additionally, I'd appreciate if we could discuss:
-- Annual training/certification budget
-- Remote work flexibility
-- [Other priorities]
+De asemenea, aș aprecia să discutăm:
+- Buget anual pentru formare și certificări
+- Flexibilitate pentru lucrul la distanță
+- [alte priorități]
 
-I'm confident I can deliver significant value to the team and look forward to discussing this further.
+Cred că pot aduce o valoare semnificativă echipei și aștept cu interes să discutăm mai departe.
+
 ```
 
 ______

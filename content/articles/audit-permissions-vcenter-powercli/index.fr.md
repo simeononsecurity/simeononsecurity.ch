@@ -1,7 +1,7 @@
 ---
 title: "Auditer les autorisations vCenter avec PowerCLI"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apprenez à auditer les autorisations vCenter avec PowerCLI pour protéger une infrastructure virtuelle."
@@ -82,22 +82,22 @@ Suivez ces étapes lorsque PowerCLI est installé et connecté à vCenter :
 
    Exemple :
    ```powershell
-         # Connect to vCenter
+         # Se connecter à vCenter
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # Récupérer tous les utilisateurs de vCenter
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # Initialiser un tableau pour stocker les autorisations des utilisateurs
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # Parcourir chaque utilisateur et récupérer ses autorisations
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # Convertir les autorisations en fichier CSV
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 

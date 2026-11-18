@@ -1,10 +1,11 @@
 ---
 title: "Primeros pasos con Terraform para la Infraestructura como Código"
 date: 2023-05-04
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda los conceptos básicos de Terraform, una popular herramienta de infraestructura como código, y cómo utilizarla para gestionar la infraestructura de forma eficiente."
-tags: ["Terraform", "Infraestructura como código", "IaC", "Computación en nube", "DevOps", "Automatización", "AWS", "Azure", "Nube de Google", "Proveedores de nube", "Gestión de la configuración", "Despliegue", "Aprovisionamiento", "Gestión de recursos", "Escalabilidad", "Resiliencia", "Seguridad", "Conformidad", "Buenas prácticas"]
+tags: ["Terraform", "Infraestructura como código", "IaC", "Computación en nube", "DevOps", "Automatización", "AWS", "Azure", "Google Cloud", "Proveedores de nube", "Gestión de la configuración", "Despliegue", "Aprovisionamiento", "Gestión de recursos", "Escalabilidad", "Resiliencia", "Seguridad", "Conformidad", "Buenas prácticas"]
 cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Un monitor de ordenador de dibujos animados con múltiples dispositivos conectados a la red que aparecen como bloques de construcción que se añaden o eliminan, lo que significa gestión de infraestructuras con Terraform."
 coverCaption: ""
@@ -36,7 +37,7 @@ El uso de Teraform para aplicaciones de infraestructura como código ofrece vari
 
 Para empezar a utilizar Teraform, necesitará:
 
-1. **Descargar Teraform:** Teraform puede descargarse de la página[official website](https://www.terraform.io/downloads.html)
+1. **Descargar Teraform:** Teraform puede descargarse de la página[sitio web oficial](https://www.terraform.io/downloads.html)
 
 2. **Teraform utiliza archivos de configuración escritos en HashiCorp Configuration Language (HCL) o JSON. El archivo de configuración define la infraestructura que desea crear, actualizar o eliminar.
 
@@ -152,8 +153,8 @@ Teraform es una potente herramienta de infraestructura como código que permite 
 
 ---
 
-**Referencias
+**Referencias:**
 
--[Teraform Official Website](https://www.terraform.io/)
--[Teraform Documentation](https://www.terraform.io/docs/index.html)
--[AWS Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)
+- [Sitio oficial de Teraform](https://www.terraform.io/)
+- [Documentación de Teraform](https://www.terraform.io/docs/index.html)
+- [Mejores prácticas de AWS para seguridad, identidad y cumplimiento](https://aws.amazon.com/architecture/security-identity-compliance/)

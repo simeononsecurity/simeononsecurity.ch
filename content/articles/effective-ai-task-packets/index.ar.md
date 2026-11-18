@@ -50,30 +50,30 @@ coverCaption: ""
 **انسخ هذا القالب** لمهمة برمجة أو بحث صغيرة. احذف الحقول غير ذات الصلة بدلاً من ملئها بنص مبهم.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+النتيجة:
+المصدر المعتمد ومراجعته:
+الملفات أو السجلات ذات الصلة:
+التغييرات المسموح بها:
+التغييرات والإجراءات المستثناة:
+أمثلة على السلوك المطلوب:
+فحوص الاكتمال:
+متى تتوقف أو تسأل:
+أرسل التقرير متضمنًا:
 ```
 
 **في المختبر،** تبدو الحزمة المكتملة كما يلي:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+النتيجة: أضف مرشح --status اختياريًا إلى task_report.py.
+المصدر: docs/requirements.md، المراجعة 1.
+الملفات ذات الصلة: task_report.py، tasks.json، tests/.
+التغييرات المسموح بها: task_report.py والاختبارات المركزة.
+المستثنى: tasks.json، الاعتماديات الجديدة والالتزامات والدفع.
+أمثلة: من دون مرشح، اطبع Total tasks: 4. مع open أو done، اطبع 2 لكل منهما.
+الفحوص: شغّل اختبارات الوحدات وأربعة أوامر يدوية: من دون مرشح، وopen، وdone، وقيمة غير صالحة.
+يجب أن تنتهي القيمة غير الصالحة برمز خطأ غير صفري ورسالة واضحة.
+توقف أو اسأل عند تعارض المصدر أو غياب الملف أو وجود فشل أساسي غير ذي صلة.
+التقرير: الملفات المعدّلة، والأوامر، والمخرجات المرصودة، والمسائل غير المحسومة.
 ```
 
 **على Windows،** استخدم `py -3` في أوامر الحزمة إذا كانت بيئتك تستخدم مشغّل Python.

@@ -1,7 +1,7 @@
 ---
 title: "Ansible बनाम Puppet बनाम Chef 2026: कॉन्फ़िगरेशन प्रबंधन"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "आर्किटेक्चर, सुविधाओं, सीखने की अवधि, प्रदर्शन, मूल्य और उपयोग के मामलों के आधार पर 2026 में Ansible, Puppet और Chef की तुलना।"
@@ -11,7 +11,6 @@ cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "तीन हिस्सों में बँटे भविष्य के डेटा सेंटर का चित्र, जिसमें Ansible, Puppet और Chef दर्शाए गए हैं। हर हिस्से में अलग सिस्टम आर्किटेक्चर और चमकते कनेक्शन हैं, पृष्ठभूमि गहरी है।"
 coverCaption: "अपने इन्फ्रास्ट्रक्चर के लिए सही कॉन्फ़िगरेशन प्रबंधन टूल चुनें"
 ---
-
 ## Ansible बनाम Puppet बनाम Chef 2026: कॉन्फ़िगरेशन प्रबंधन की पूरी तुलना
 
 2026 में भी आधुनिक इन्फ्रास्ट्रक्चर को बड़े स्तर पर प्रबंधित करने के लिए **कॉन्फ़िगरेशन प्रबंधन** अहम है। एंटरप्राइज़ बाज़ार में **Ansible**, **Puppet** और **Chef** अग्रणी हैं। ये टूल **कोड के रूप में इन्फ्रास्ट्रक्चर (IaC)** को सक्षम करते हैं, जिससे टीमें हज़ारों सिस्टम पर सर्वर कॉन्फ़िगरेशन, ऐप परिनियोजन और इन्फ्रास्ट्रक्चर ऑर्केस्ट्रेशन को स्वचालित कर सकती हैं।
@@ -146,23 +145,23 @@ coverCaption: "अपने इन्फ्रास्ट्रक्चर क
 **उदाहरण** (Apache इंस्टॉल करना और शुरू करना):
 ```yaml
 ---
-- name: Configure web servers
+- name: वेब सर्वर कॉन्फ़िगर करें
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: Apache इंस्टॉल करें
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: Apache सेवा शुरू करें
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: वेबसाइट तैनात करें
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -186,19 +185,19 @@ coverCaption: "अपने इन्फ्रास्ट्रक्चर क
 **उदाहरण** (वही Apache सेटअप):
 ```puppet
 class apache {
-  # Install Apache package
+  # Apache पैकेज इंस्टॉल करें
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # वेबसाइट की फ़ाइल तैनात करें
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -228,20 +227,20 @@ node 'webserver.example.com' {
 
 **उदाहरण** (वही Apache सेटअप):
 ```ruby
-# Recipe: apache::default
+# रेसिपी: apache::default
 
-# Install Apache package
+# Apache पैकेज इंस्टॉल करें
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# Apache सेवा शुरू और सक्षम करें
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# वेबसाइट की फ़ाइल तैनात करें
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -266,7 +265,7 @@ end
 | सुविधा | Ansible | Puppet | Chef |
 |---------|---------|--------|------|
 | **स्थिर इन्वेंटरी** | INI, YAML फ़ाइलें | node परिभाषाएँ | node ऑब्जेक्ट |
-| **डायनामिक इन्वेंटरी** | scripts, plugins (AWS, Azure, GCP आदि) | PuppetDB queries, External Node Classifiers | Chef Server queries, knife search |
+| **डायनामिक इन्वेंटरी** | scripts, plugins (AWS, Azure, GCP आदि) | PuppetDB queries, External Node Classifiers | Chef Server से पूछताछ, knife search |
 | **समूहीकरण** | इन्वेंटरी फ़ाइलों के समूह | node समूह, वर्गीकरण | roles, environments |
 | **वेरिएबल** | host vars, group vars | facts, Hiera data | attributes, data bags |
 
@@ -528,7 +527,7 @@ end
 
 **Ansible तरीका**:
 ```yaml
-- name: Manage web server fleet
+- name: वेब सर्वर समूह प्रबंधित करें
   hosts: webservers
   become: yes
   roles:
@@ -536,7 +535,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: एप्लिकेशन तैनात करें
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -549,7 +548,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -561,7 +560,7 @@ node /webserver\d+/ {
 
 **Chef तरीका**:
 ```ruby
-# Role: webserver
+# भूमिका: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -569,7 +568,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# रेसिपी: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

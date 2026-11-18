@@ -1,6 +1,7 @@
 ---
 title: "Załóżmy, że każde urządzenie jest już zagrożone: Wzmocnienie bezpieczeństwa cyfrowego w połączonym świecie"
 date: 2023-06-25
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Dowiedz się, dlaczego ważne jest, aby zakładać, że każde urządzenie jest już zagrożone i poznaj praktyczne środki zwiększające bezpieczeństwo cyfrowe w dzisiejszym połączonym świecie."
@@ -12,7 +13,7 @@ coverCaption: ""
 
 **Dlaczego należy zakładać, że każde urządzenie jest zagrożone**
 
-W dzisiejszym połączonym świecie, w którym technologia przenika każdy aspekt naszego życia, cyberbezpieczeństwo ma ogromne znaczenie. Powszechność cyberzagrożeń i rosnące wyrafinowanie hakerów sprawiają, że niezbędne jest przyjęcie proaktywnego sposobu myślenia, jeśli chodzi o bezpieczeństwo urządzeń. W tym artykule omówimy, dlaczego należy zakładać, że każde urządzenie jest zagrożone i przedstawimy praktyczne środki w celu zwiększenia bezpieczeństwa cyfrowego.
+W dzisiejszym połączonym świecie, w którym technologia przenika każdy aspekt naszego życia, cyberbezpieczeństwo ma ogromne znaczenie. Powszechność cyberzagrożeń i rosnące wyrafinowanie hakerów sprawiają, że niezbędne jest przyjęcie proaktywnego sposobu myślenia, jeśli chodzi o bezpieczeństwo urządzeń. W tym artykule omówimy, dlaczego należy zakładać, że każde urządzenie jest zagrożone i przedstawimy praktyczne środki w celu zwiększenia bezpieczeństwa cyfrowego. Bezpieczne aplikacje, takie jak [Signal](https://www.signal.org/) i [Wire](https://wire.com/en/), zapewniają dodatkową ochronę.
 
 ## Iluzja absolutnego bezpieczeństwa
 
@@ -24,29 +25,33 @@ Założenie, że każde urządzenie jest zagrożone, zmusza do przyjęcia komple
 
 ### Bezpieczne nawyki przeglądania
 
-1. [**Avoid visiting sketchy websites**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Złośliwe strony internetowe mogą zainfekować urządzenie złośliwym oprogramowaniem lub wykraść dane osobowe. Trzymaj się zaufanych i renomowanych witryn, aby zminimalizować ryzyko naruszenia bezpieczeństwa.
+1. [**Unikaj podejrzanych witryn**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Złośliwe strony internetowe mogą zainfekować urządzenie złośliwym oprogramowaniem lub wykraść dane osobowe. Trzymaj się zaufanych i renomowanych witryn, aby zminimalizować ryzyko naruszenia bezpieczeństwa. Podczas zakupów korzystaj ze znanych platform, takich jak [Amazon](https://www.amazon.com/) lub [eBay](https://www.ebay.com/).
 
-2. [**Always verify website authenticity**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/) Przed wprowadzeniem danych logowania lub udostępnieniem poufnych informacji należy zweryfikować legalność witryny. Sprawdź protokół HTTPS, poszukaj wskaźników zaufania i uważaj na próby phishingu.
+2. [**Zawsze sprawdzaj autentyczność witryny**](https://simeononsecurity.com/articles/tips-for-secure-e-commerce-transactions-and-safe-online-shopping/): Zanim wpiszesz dane logowania lub udostępnisz poufne informacje, sprawdź, czy witryna jest wiarygodna. Pomoże Ci to uniknąć phishingu i fałszywych stron. Wykonaj następujące kroki:
+
+   - **Sprawdź protokół HTTPS**: Poszukaj ikony kłódki i `https://` w adresie URL. Litera `s` oznacza szyfrowane połączenie. Upewnij się, że adres banku internetowego zaczyna się od `https://`.
+   - **Szukaj oznak zaufania**: Przeglądarki mogą wyświetlać zieloną kłódkę lub plakietkę bezpieczeństwa, aby wskazać, że witryna została zweryfikowana i jest bezpieczna. Sprawdź te oznaczenia przed podaniem poufnych informacji. Przeglądarki takie jak [przeglądarka Google Chrome](https://www.google.com/chrome/) i [przeglądarka Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) pomagają wizualnie rozpoznawać bezpieczne witryny.
+   - [**Uważaj na próby phishingu**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/): Zachowaj ostrożność wobec wiadomości e-mail i komunikatów podszywających się pod legalne witryny, aby wyłudzić dane osobowe. Nie otwieraj linków z niezamówionych wiadomości; wpisz adres witryny w przeglądarce. [grupa robocza ds. phishingu](https://apwg.org/) udostępnia materiały pomagające rozpoznawać i zgłaszać próby phishingu.
 
 ### Ochrona danych osobowych
 
-1. [**Refrain from sharing personal details**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Zachowaj ostrożność podczas udostępniania wrażliwych danych osobowych online. Kradzież tożsamości jest poważnym problemem, a zminimalizowanie ekspozycji danych osobowych zmniejsza szanse na nieautoryzowany dostęp.
+1. [**Nie udostępniaj danych osobowych**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Zachowaj ostrożność podczas udostępniania wrażliwych danych osobowych online. Kradzież tożsamości jest poważnym problemem, a zminimalizowanie ekspozycji danych osobowych zmniejsza szanse na nieautoryzowany dostęp. Nie publikuj adresu domu na [Facebooku](https://www.facebook.com/) ani [Twitterze](https://twitter.com/).
 
 2. **Zachowaj ostrożność w przypadku treści intymnych**: Nigdy nie wymieniaj się w sieci zdjęciami lub filmami z nagością. Mogą one zostać wykorzystane do szantażu lub zemsty, prowadząc do poważnego stresu emocjonalnego i potencjalnej kompromitacji.
 
 ### Praktyki silnego uwierzytelniania i haseł
 
-1. [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Utilize 2FA whenever possible to add an extra layer of security. It combines something you know (password) with something you have (a mobile device or security key) znacznie zmniejszając ryzyko nieautoryzowanego dostępu.
+1. [**Włącz uwierzytelnianie dwuskładnikowe (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Włącz 2FA, gdy tylko jest to możliwe, aby dodać dodatkową warstwę ochrony. Metoda łączy coś, co znasz (hasło), z czymś, co masz (urządzeniem mobilnym lub kluczem bezpieczeństwa). [Google](https://www.google.com/landing/2step/) i [Microsoft](https://www.microsoft.com/en-us/account/security/) udostępniają opcje 2FA.
 
-2. [**Use randomly generated passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Wdrażaj silne i unikalne hasła dla wszystkich swoich kont. Rozważ użycie menedżera haseł do generowania i bezpiecznego przechowywania złożonych haseł.
+2. [**Używaj losowo wygenerowanych haseł**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Wdrażaj silne i unikalne hasła dla wszystkich swoich kont. Rozważ użycie menedżera haseł do generowania i bezpiecznego przechowywania złożonych haseł. [Menedżer haseł](https://simeononsecurity.com/articles/how-to-choose-a-password-manager/) pomaga generować i bezpiecznie przechowywać złożone hasła.
 
-### [Social Media Privacy](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
+### [Prywatność w mediach społecznościowych](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/)
 
-1. [**Minimize social media usage**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Ogranicz swoją obecność na platformach mediów społecznościowych, aby zmniejszyć ekspozycję danych osobowych. Skonfiguruj ustawienia prywatności, aby ograniczyć dostęp do swoich postów i profilu.
+1. [**Ogranicz korzystanie z mediów społecznościowych**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) Ogranicz swoją obecność na platformach mediów społecznościowych, aby zmniejszyć ekspozycję danych osobowych. Skonfiguruj ustawienia prywatności, aby ograniczyć dostęp do swoich postów i profilu. Na [Facebooku](https://www.facebook.com/) i [Twitterze](https://twitter.com/) możesz wybrać, kto zobaczy Twoje posty i zdjęcia.
 
 ### Bezpieczna komunikacja
 
-1. [**Utilize secure communication apps**](https://simeononsecurity.com/recommendations/messengers): Opt for secure communication apps such as [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/) które wykorzystują szyfrowanie typu end-to-end, zapewniając poufność wiadomości.
+1. [**Korzystaj z bezpiecznych aplikacji komunikacyjnych**](https://simeononsecurity.com/recommendations/messengers): Wybieraj bezpieczne aplikacje komunikacyjne, takie jak [Signal](https://www.signal.org/) lub [Wire](https://wire.com/en/). Korzystają one z szyfrowania end-to-end, aby chronić poufność wiadomości.
 
 ### Higiena urządzeń
 
@@ -56,20 +61,30 @@ Założenie, że każde urządzenie jest zagrożone, zmusza do przyjęcia komple
 
 ### Kopia zapasowa danych
 
-1. [**Maintain backups**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Create and maintain regular backups of your important data. Follow the [3-2-1 backup strategy](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) która obejmuje posiadanie trzech kopii danych, dwóch na różnych nośnikach i jednej przechowywanej poza siedzibą firmy.
+1. [**Twórz kopie zapasowe**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): Regularnie twórz kopie zapasowe ważnych danych. Stosuj [strategię tworzenia kopii zapasowych 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/): przechowuj trzy kopie danych, dwie na różnych nośnikach, a jedną poza siedzibą.
 
 ______
 
 ## Wnioski
 
-Podsumowując, przyjęcie założenia, że każde urządzenie jest zagrożone, umożliwia podjęcie niezbędnych środków ostrożności w celu ochrony swojego cyfrowego życia. Przestrzegając zalecanych środków bezpieczeństwa w różnych kategoriach, można znacznie zmniejszyć ryzyko związane z cyberzagrożeniami. Pamiętaj, aby zachować czujność, być na bieżąco z najnowszymi praktykami bezpieczeństwa i odpowiednio dostosowywać swoje środki bezpieczeństwa.
+Przyjmij proaktywne podejście do cyberbezpieczeństwa i załóż, że każde urządzenie może być przejęte. Wdrożenie zalecanych środków z poszczególnych kategorii znacznie poprawi Twoje bezpieczeństwo cyfrowe. Oto najważniejsze wskazówki:
+
+1. **Zachowuj czujność**: Uważaj na informacje udostępniane w Internecie, szczególnie na wrażliwe dane osobowe. Ograniczenie ich ujawniania zmniejsza ryzyko nieuprawnionego dostępu i kradzieży tożsamości.
+2. **Stosuj silne uwierzytelnianie**: Włączaj **uwierzytelnianie dwuskładnikowe (2FA)**, gdy tylko jest to możliwe. Łączy ono coś, co znasz (hasło), z czymś, co masz (urządzeniem mobilnym lub kluczem bezpieczeństwa), ograniczając ryzyko nieuprawnionego dostępu.
+3. **Używaj silnych haseł**: Twórz i stosuj **losowo generowane hasła** do swoich kont. Rozważ użycie **menedżera haseł**, który generuje i bezpiecznie przechowuje złożone hasła.
+4. **Chroń prywatność w mediach społecznościowych**: Ogranicz swoją obecność na platformach społecznościowych i ustaw prywatność tak, aby kontrolować dostęp do postów i profilu. Mniejszy ślad cyfrowy pomaga chronić prywatność.
+5. **Korzystaj z bezpiecznych komunikatorów**: Wybieraj aplikacje, takie jak [Signal](https://www.signal.org/) lub [Wire](https://wire.com/en/), które stosują **szyfrowanie end-to-end**, aby chronić poufność wiadomości.
+6. **Dbaj o higienę urządzeń**: Ogranicz liczbę zainstalowanych aplikacji i programów, aby zmniejszyć powierzchnię ataku. Regularnie przywracaj urządzenia do ustawień fabrycznych, aby usunąć możliwe złośliwe oprogramowanie lub skutki przejęcia.
+7. **Twórz kopie zapasowe danych**: Stosuj [strategię kopii zapasowych 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) i regularnie kopiuj ważne dane. Strategia zapewnia redundancję i pomaga zapobiegać utracie danych.
+
+Stosując te środki i śledząc aktualne praktyki bezpieczeństwa, możesz zwiększyć swoje bezpieczeństwo cyfrowe i chronić się przed cyberzagrożeniami. Zachowuj czujność i dostosowuj zabezpieczenia do nowych zagrożeń.
 
 ______
 
 ## Referencje
 
-1. [National Institute of Standards and Technology (NIST) Cybersecurity Framework](https://www.nist.gov/cyberframework)
-2. [Federal Trade Commission (FTC) - Protecting Personal Information: A Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/protecting-personal-information-guide-business)
-3. [Signal - Secure Messaging, Calls, and Video](https://www.signal.org/)
-4. [Wire](https://wire.com/en/) 
+1. [ramy cyberbezpieczeństwa National Institute of Standards and Technology (NIST)](https://www.nist.gov/cyberframework)
+2. [Federal Trade Commission (FTC) - poradnik ochrony danych osobowych dla firm](https://www.ftc.gov/tips-advice/business-center/guidance/protecting-personal-information-guide-business)
+3. [Signal - bezpieczne wiadomości, połączenia i wideo](https://www.signal.org/)
+4. [Wire](https://wire.com/en/)
 

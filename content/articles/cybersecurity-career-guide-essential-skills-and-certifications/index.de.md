@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity-Karriereleitfaden 2026: Wesentliche Fähigkeiten, Zertifizierungen und Gehaltsdaten"
 date: 2023-06-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Vollständiger Cybersecurity-Karriereleitfaden 2026 mit wesentlichen Fähigkeiten, Top-Zertifizierungen, Gehaltsdaten, Karrierepfaden und Arbeitsmarkteinblicken für angehende Sicherheitsprofis."
@@ -150,13 +150,13 @@ Jede Cybersecurity-Fachkraft braucht diese technischen Grundlagen.
 **Python für Cybersecurity**:
 
 ```python
-# Example: Automated security scanning script
+# Beispiel: Automatisiertes Sicherheitsskript
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Führt einen automatisierten Schwachstellenscan durch
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
@@ -579,10 +579,10 @@ Zertifiziert in [Zertifizierungen]. Engagiert für [bestimmter Sicherheitsbereic
 
 TECHNISCHE FÄHIGKEITEN
 - Sicherheit: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Cloud-Plattformen: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
 - Werkzeuge: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
 - Programmierung: Python, PowerShell, Bash, SQL
-- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
+- Rahmenwerke: NIST CSF, MITRE ATT&CK, OWASP Top 10
 
 ZERTIFIZIERUNGEN
 - CompTIA Security+ (Datum)
@@ -599,7 +599,7 @@ PROJEKTE (bei Berufseinstieg oder Quereinstieg)
 [Projektname] - [Technologie-Stack]
 - [Bestimmtes Sicherheitstool/-system] entwickelt
 - [Bestimmte Fähigkeiten] nachgewiesen
-- GitHub: [Link]
+- GitHub: [URL]
 
 AUSBILDUNG
 [Abschluss] in [Fachgebiet], [Hochschule] (Datum)

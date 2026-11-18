@@ -30,7 +30,7 @@ Kontekst 128K tokenów dodaje kolejną dużą alokację. Dokładny rozmiar cache
 | **24GB discrete GPU** | Wagi 4-bitowe ze zmniejszonym kontekstem lub częściowy offload |
 | **32GB discrete GPU** | Wagi 6-bitowe z użytecznym celem kontekstu 128K |
 | **Dwa GPU 16GB** | Model podzielony między karty z mniejszym zapasem na narzut runtime |
-| **64GB unified memory** | Większy kontekst i większe modele, zależnie od limitu alokacji pamięci GPU |
+| **64GB pamięci zunifikowanej** | Większy kontekst i większe modele, zależnie od limitu alokacji pamięci GPU |
 
 **32 GB to punkt doboru, a nie gwarancja.** Model może się załadować i zostawić zbyt mało miejsca na długi prompt, większy batch, wejścia multimodalne lub drugi proces.
 

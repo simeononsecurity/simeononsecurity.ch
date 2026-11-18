@@ -1,6 +1,7 @@
 ---
 title: "Fortinet против Cisco: полное сравнение сетевой безопасности"
 date: 2026-05-24
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Всестороннее сравнение решений Fortinet и Cisco для сетевой безопасности, включая межсетевые экраны, коммутаторы, SD-WAN, цены, показатели производительности и рекомендации по развертыванию на 2026 год.
@@ -65,7 +66,6 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-21
 ---
 
 ## Введение: Противостояние сетевой безопасности Fortinet и Cisco
@@ -147,24 +147,22 @@ Fortinet **Security Fabric** представляет собой комплек�
 **Основные компоненты Security Fabric:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              FortiManager (Management)                  │
-│              FortiAnalyzer (Analytics)                  │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│  FortiGate FW  │    │  FortiSwitch    │  │ FortiAP    │
-│  (Perimeter)   │    │  (Network)      │  │ (Wireless) │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-            ┌────────▼─────────┐
-            │   FortiClient    │
-            │   (Endpoint)     │
-            └──────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                             FortiManager (Управление)                             │
+│                             FortiAnalyzer (Аналитика)                             │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│      FortiGate FW       │  │       FortiSwitch       │  │         FortiAP         │
+│       (Периметр)        │  │         (Сеть)          │  │   (Беспроводная сеть)   │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │       FortiClient       │
+                             │  (Конечное устройство)  │
+                             └─────────────────────────┘
 ```
 
 **Ключевые особенности Security Fabric:**
@@ -195,25 +193,23 @@ Fortinet **Security Fabric** представляет собой комплек�
 **Архитектура Cisco Secure:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Cisco SecureX                         │
-│         (Unified Threat Response Platform)              │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│ Firepower NGFW │    │ Catalyst Switch │  │  Umbrella  │
-│   (Firewall)   │    │   (Network)     │  │   (Cloud)  │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-        ┌────────────┴────────────┐
-        │  Cisco Secure Endpoint  │
-        │  Cisco Duo (MFA)        │
-        │  Third-party tools      │
-        └─────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                   Cisco SecureX                                   │
+│                      Единая платформа реагирования на угрозы                      │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│     Firepower NGFW      │  │   Коммутатор Catalyst   │  │        Umbrella         │
+│   (Межсетевой экран)    │  │         (Сеть)          │  │        (Облако)         │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │  Cisco Secure Endpoint  │
+                             │     Cisco Duo (MFA)     │
+                             │  Сторонние инструменты  │
+                             └─────────────────────────┘
 ```
 
 **Ключевые особенности Cisco Secure:**
@@ -338,12 +334,12 @@ ______
 
 **Сценарии использования FortiGate SD-WAN:**
 ```
-Branch Office Configuration:
-- FortiGate 60F as branch firewall/SD-WAN device
-- Dual WAN links (ISP + LTE backup)
-- IPsec tunnels to headquarters FortiGate
-- Application steering (VoIP → low latency, bulk data → high bandwidth)
-- Cost savings: $2,500 device replaces $2,000 firewall + $3,000 SD-WAN appliance
+Конфигурация филиала:
+- FortiGate 60F как межсетевой экран и устройство SD-WAN филиала
+- Два канала WAN (провайдер + резервный LTE)
+- Туннели IPsec к FortiGate головного офиса
+- Направление трафика приложений (VoIP → низкая задержка, массовая передача данных → высокая пропускная способность)
+- Экономия: устройство за $2,500 заменяет межсетевой экран за $2,000 + устройство SD-WAN за $3,000
 ```
 
 **Cisco SD-WAN (платформа Viptela):**
@@ -356,13 +352,13 @@ Branch Office Configuration:
 
 **Сценарии использования Cisco SD-WAN:**
 ```
-Enterprise WAN Deployment:
-- vEdge routers at all branch locations
-- vSmart controllers in data centers (HA pair)
-- vManage centralized management
-- Integration with existing Catalyst switching
-- Firepower firewalls at data center perimeter
-- Cost: Higher but superior for complex topologies
+Развёртывание корпоративной WAN:
+- Маршрутизаторы vEdge во всех филиалах
+- Контроллеры vSmart в центрах обработки данных (пара HA)
+- Централизованное управление через vManage
+- Интеграция с существующими коммутаторами Catalyst
+- Межсетевые экраны Firepower на периметре центра обработки данных
+- Стоимость: выше, но решение лучше подходит для сложных топологий
 ```
 
 **Вердикт по SD-WAN:**
@@ -387,24 +383,24 @@ Enterprise WAN Deployment:
 
 **Сценарий сегментации:**
 ```
-Requirement: Isolate guest WiFi, employee devices, IoT devices, and servers
+Требование: изолировать гостевую WiFi-сеть, устройства сотрудников, устройства IoT и серверы
 
-Fortinet Approach:
-- FortiGate defines security zones (guest, employee, IoT, server)
-- FortiAP assigns users to VLANs based on SSID
-- FortiSwitch enforces VLAN isolation
-- FortiGate policies control inter-zone traffic
-- Complexity: Moderate
-- Cost: Lower (included in Security Fabric)
+Подход Fortinet:
+- FortiGate определяет зоны безопасности (гости, сотрудники, IoT, серверы)
+- FortiAP распределяет пользователей по VLAN на основе SSID
+- FortiSwitch обеспечивает изоляцию VLAN
+- Политики FortiGate управляют трафиком между зонами
+- Сложность: умеренная
+- Стоимость: ниже (включено в Security Fabric)
 
-Cisco Approach:
-- ISE profiles devices and assigns SGT tags
-- TrustSec policies enforce SGT-based access control
-- Enforcement at Catalyst switches (hardware TCAM)
-- Firepower provides perimeter security
-- Complexity: Higher (requires ISE deployment)
-- Cost: Higher (ISE licensing + TrustSec-capable switches)
-- Benefit: More granular, scales better in very large environments
+Подход Cisco:
+- ISE создаёт профили устройств и назначает метки SGT
+- Политики TrustSec обеспечивают контроль доступа на основе SGT
+- Применение на коммутаторах Catalyst (аппаратная TCAM)
+- Firepower защищает периметр
+- Сложность: выше (требуется развёртывание ISE)
+- Стоимость: выше (лицензии ISE + коммутаторы с поддержкой TrustSec)
+- Преимущество: более точное управление и лучшее масштабирование в очень крупных средах
 ```
 
 **Вердикт по сегментации:**
@@ -473,20 +469,20 @@ end
 
 **Создание политик (GUI Firepower Management Center):**
 ```
-GUI Workflow:
-1. Navigate to Policies → Access Control → [Policy Name]
-2. Add Rule:
-   - Name: "Allow-Web-Outbound"
-   - Source Networks: internal-network
-   - Destination Networks: any
-   - Ports: HTTP, HTTPS
-   - Action: Allow
-   - Inspection: Enable IPS (balanced policy)
-   - File Policy: Block malware (AMP)
-   - URL Filtering: Enable (custom category list)
-   - TLS/SSL: Decrypt known key, inspect
-3. Deploy changes to managed devices
-4. Verify deployment completion
+Порядок действий в графическом интерфейсе:
+1. Перейдите в Policies → Access Control → [Имя политики]
+2. Добавьте правило (Add Rule):
+   - Имя (Name): "Allow-Web-Outbound"
+   - Исходные сети (Source Networks): internal-network
+   - Сети назначения (Destination Networks): any
+   - Порты (Ports): HTTP, HTTPS
+   - Действие (Action): Allow
+   - Проверка (Inspection): Включите IPS (сбалансированная политика)
+   - Политика файлов (File Policy): Блокируйте вредоносное ПО (AMP)
+   - Фильтрация URL (URL Filtering): Включите (настраиваемый список категорий)
+   - TLS/SSL: Расшифруйте известным ключом и проверьте
+3. Разверните изменения на управляемых устройствах
+4. Проверьте завершение развёртывания
 ```
 
 **Сильные стороны Cisco Firepower:**
@@ -508,7 +504,7 @@ GUI Workflow:
 **Автоматизация FortiGate:**
 
 ```python
-# Python example: Create firewall policy via FortiOS API
+# Пример на Python: создать политику межсетевого экрана через FortiOS API
 import requests
 import json
 
@@ -533,7 +529,7 @@ policy_data = {
 }
 
 response = requests.post(fortios_api, headers=headers, data=json.dumps(policy_data), verify=False)
-print(f"Policy creation status: {response.status_code}")
+print(f"Статус создания политики: {response.status_code}")
 ```
 
 **Уровень зрелости автоматизации FortiGate:**
@@ -546,20 +542,20 @@ print(f"Policy creation status: {response.status_code}")
 **Автоматизация Cisco Firepower:**
 
 ```python
-# Python example: Create access control policy via FMC API
+# Пример на Python: создать политику управления доступом через FMC API
 from fireREST import FMC
 
 fmc = FMC(hostname='fmc.example.com', username='admin', password='password')
 fmc.login()
 
-# Create network object
+# Создать сетевой объект
 network_obj = fmc.create_network_object(
     name='internal-network',
     value='10.0.0.0/8',
-    description='Corporate internal network'
+    description='Внутренняя корпоративная сеть'
 )
 
-# Create access control rule
+# Создать правило управления доступом
 rule = fmc.create_access_rule(
     policy_name='Corporate-Access-Policy',
     name='Allow-Web-Outbound',
@@ -571,9 +567,9 @@ rule = fmc.create_access_rule(
     file_policy='Block Malware'
 )
 
-# Deploy changes
+# Развернуть изменения
 deployment = fmc.deploy(device_list=['firewall01', 'firewall02'])
-print(f"Deployment status: {deployment}")
+print(f"Статус развертывания: {deployment}")
 ```
 
 **Уровень зрелости автоматизации Cisco Firepower:**
@@ -682,12 +678,12 @@ ______
 **Пример общей стоимости FortiGate за 3 года:**
 
 ```
-FortiGate 600F Deployment:
-- Hardware: $20,000 (one-time)
-- Enterprise Bundle: $7,000/year × 3 years = $21,000
-- FortiCare Premium Support: $2,000/year × 3 years = $6,000
-- Total 3-year cost: $47,000
-- Effective annual cost: $15,667/year
+Развёртывание FortiGate 600F:
+- Оборудование: $20,000 (единовременно)
+- Enterprise Bundle: $7,000/год × 3 года = $21,000
+- FortiCare Premium Support: $2,000/год × 3 года = $6,000
+- Общая стоимость за 3 года: $47,000
+- Эффективная годовая стоимость: $15,667/год
 ```
 
 **Преимущества лицензирования FortiGate:**
@@ -717,13 +713,13 @@ FortiGate 600F Deployment:
 **Пример общей стоимости Cisco Firepower (3 года):**
 
 ```
-Cisco FPR4145 Deployment:
-- Hardware: $32,000 (one-time)
-- Cisco Plus Secure Bundle: $15,000/year × 3 years = $45,000
-- FMC hardware/VM: $12,000 (one-time) or $2,000/year (VM subscription)
-- Cisco SmartNet Support: $4,000/year × 3 years = $12,000
-- Total 3-year cost: $101,000
-- Effective annual cost: $33,667/year
+Развёртывание Cisco FPR4145:
+- Оборудование: $32,000 (единовременно)
+- Cisco Plus Secure Bundle: $15,000/год × 3 года = $45,000
+- FMC оборудование/VM: $12,000 (единовременно) или $2,000/год (подписка на VM)
+- Cisco SmartNet Support: $4,000/год × 3 года = $12,000
+- Общая стоимость за 3 года: $101,000
+- Эффективная годовая стоимость: $33,667/год
 ```
 
 **Недостатки лицензирования Cisco Firepower:**
@@ -745,40 +741,40 @@ Cisco FPR4145 Deployment:
 **Общая стоимость решения Fortinet:**
 
 ```
-Hardware:
-- 2× FortiGate 600F (HA pair): $40,000
-- FortiManager VM (free for <10 devices): $0
+Оборудование:
+- 2× FortiGate 600F (пара HA): $40,000
+- FortiManager VM (бесплатно для <10 устройств): $0
 - FortiAnalyzer 1000E: $8,000
 
-Subscriptions (5 years):
-- Enterprise Bundle licenses: $7,000/year × 2 firewalls × 5 years = $70,000
-- FortiCare Premium Support: $2,000/year × 2 firewalls × 5 years = $20,000
-- FortiAnalyzer log storage: $1,000/year × 5 years = $5,000
+Подписки (5 лет):
+- Лицензии Enterprise Bundle: $7,000/год × 2 межсетевых экрана × 5 лет = $70,000
+- FortiCare Premium Support: $2,000/год × 2 межсетевых экрана × 5 лет = $20,000
+- Хранение журналов FortiAnalyzer: $1,000/год × 5 лет = $5,000
 
-Professional Services:
-- Initial deployment and training: $10,000
+Профессиональные услуги:
+- Первоначальное развёртывание и обучение: $10,000
 
-Total 5-year TCO: $153,000
-Average annual cost: $30,600
+Общая TCO за 5 лет: $153,000
+Средняя годовая стоимость: $30,600
 ```
 
 **Общая стоимость решения Cisco:**
 
 ```
-Hardware:
-- 2× Cisco FPR4145 (HA pair): $64,000
+Оборудование:
+- 2× Cisco FPR4145 (пара HA): $64,000
 - Firepower Management Center 2500: $25,000
 
-Subscriptions (5 years):
-- Cisco Plus Secure (all licenses): $15,000/year × 2 firewalls × 5 years = $150,000
-- SmartNet 8×5×NBD: $4,000/year × 2 firewalls × 5 years = $40,000
-- FMC support: $2,500/year × 5 years = $12,500
+Подписки (5 лет):
+- Cisco Plus Secure (все лицензии): $15,000/год × 2 межсетевых экрана × 5 лет = $150,000
+- SmartNet 8×5×NBD: $4,000/год × 2 межсетевых экрана × 5 лет = $40,000
+- Поддержка FMC: $2,500/год × 5 лет = $12,500
 
-Professional Services:
-- Initial deployment and training: $20,000
+Профессиональные услуги:
+- Первоначальное развёртывание и обучение: $20,000
 
-Total 5-year TCO: $311,500
-Average annual cost: $62,300
+Общая TCO за 5 лет: $311,500
+Средняя годовая стоимость: $62,300
 ```
 
 **Анализ TCO:**
@@ -810,15 +806,15 @@ ______
 
 **Пример конфигурации:**
 ```
-Equipment:
+Оборудование:
 - 1× FortiGate 100F: $2,500
-- 2× FortiSwitch 124F (48-port): $2,000 each
-- 3× FortiAP 431F (WiFi 6): $600 each
-- Enterprise Bundle subscription: $900/year
-- FortiCare 8×5 Support: $300/year
+- 2× FortiSwitch 124F (48 портов): $2,000 за единицу
+- 3× FortiAP 431F (WiFi 6): $600 за единицу
+- Подписка Enterprise Bundle: $900/год
+- FortiCare 8×5 Support: $300/год
 
-Total first-year cost: $9,100
-Annual renewal: $1,200
+Общая стоимость первого года: $9,100
+Ежегодное продление: $1,200
 ```
 
 ### Среднее предприятие (100-1,000 сотрудников)
@@ -841,41 +837,41 @@ Annual renewal: $1,200
 
 **Пример конфигурации (Fortinet):**
 ```
-Headquarters:
-- 2× FortiGate 600F (HA cluster): $40,000
+Головной офис:
+- 2× FortiGate 600F (кластер HA): $40,000
 - FortiManager 400E: $12,000
 - FortiAnalyzer 1000E: $8,000
 
-Branch Offices (5 locations):
+Филиалы (5 площадок):
 - 5× FortiGate 100F: $12,500
 - 10× FortiSwitch 124F: $20,000
 
-Subscriptions (annual):
+Подписки (ежегодно):
 - Enterprise Bundle: $24,000
 - FortiCare Premium Support: $8,000
 
-Total first-year cost: $124,500
-Annual renewal: $32,000
+Общая стоимость первого года: $124,500
+Ежегодное продление: $32,000
 ```
 
 **Пример конфигурации (Cisco):**
 ```
-Headquarters:
-- 2× Cisco FPR4145 (HA cluster): $64,000
+Головной офис:
+- 2× Cisco FPR4145 (кластер HA): $64,000
 - Cisco FMC 2500: $25,000
-- Cisco ISE 3615 (2-node): $45,000
+- Cisco ISE 3615 (2 узла): $45,000
 
-Branch Offices (5 locations):
+Филиалы (5 площадок):
 - 5× Cisco FPR2140: $45,000
 - 10× Catalyst 9200-48P: $80,000
 
-Subscriptions (annual):
-- Cisco Plus Secure licenses: $90,000
-- SmartNet support: $30,000
-- ISE Plus licenses: $15,000
+Подписки (ежегодно):
+- Лицензии Cisco Plus Secure: $90,000
+- Поддержка SmartNet: $30,000
+- Лицензии ISE Plus: $15,000
 
-Total first-year cost: $394,000
-Annual renewal: $135,000
+Общая стоимость первого года: $394,000
+Ежегодное продление: $135,000
 ```
 
 **Разница в стоимости:** Решение Cisco стоит на 216% дороже ($269,500 в первый год, $103,000 ежегодно)
@@ -895,17 +891,17 @@ Annual renewal: $135,000
 
 **Однако рассмотрите гибридный подход:**
 ```
-Data Center / Headquarters: Cisco
-- Cisco Firepower 9300 series (high performance)
-- Cisco ISE for network access control
-- Integration with existing Cisco data center
+Центр обработки данных / головной офис: Cisco
+- Серия Cisco Firepower 9300 (высокая производительность)
+- Cisco ISE для контроля доступа к сети
+- Интеграция с существующим центром обработки данных Cisco
 
-Branch Offices: Fortinet
-- FortiGate appliances for cost-effective branch security
-- Integrated SD-WAN to headquarters
-- Managed via FortiManager (centralized)
+Филиалы: Fortinet
+- Устройства FortiGate для экономичной защиты филиалов
+- Интегрированная SD-WAN до головного офиса
+- Централизованное управление через FortiManager
 
-Savings: 40-50% reduction in branch office costs while maintaining Cisco core
+Экономия: снижение затрат филиалов на 40-50% при сохранении ядра Cisco
 ```
 
 ### Провайдер услуг / MSP
@@ -957,26 +953,26 @@ ______
 **Рекомендации по миграции:**
 
 ```
-Phase 1: Pilot (Months 1-2)
-- Deploy FortiGate in parallel at pilot site
-- Replicate existing Cisco policies
-- Train team on FortiGate management
-- Validate performance and features
+Этап 1: пилотный проект (месяцы 1-2)
+- Разверните FortiGate параллельно на пилотной площадке
+- Воспроизведите существующие политики Cisco
+- Обучите команду управлению FortiGate
+- Проверьте производительность и функции
 
-Phase 2: Branch Rollout (Months 3-6)
-- Migrate branch offices first (simpler configurations)
-- Use cutover windows to minimize downtime
-- Keep Cisco policies documented for rollback
+Этап 2: развёртывание в филиалах (месяцы 3-6)
+- Сначала перенесите филиалы (более простые конфигурации)
+- Используйте окна переключения для сокращения простоя
+- Сохраните документацию политик Cisco для отката
 
-Phase 3: Data Center / HQ (Months 7-9)
-- More complex configurations require careful planning
-- Consider HA cutover to minimize downtime
-- Extensive testing of all VPN connections
+Этап 3: центр обработки данных / головной офис (месяцы 7-9)
+- Более сложные конфигурации требуют тщательного планирования
+- Рассмотрите переключение HA для сокращения простоя
+- Тщательно проверьте все VPN-соединения
 
-Phase 4: Decommission (Months 10-12)
-- Remove Cisco equipment after stability period
-- Return or repurpose hardware
-- Cancel Cisco SmartNet subscriptions
+Этап 4: вывод из эксплуатации (месяцы 10-12)
+- Удалите оборудование Cisco после периода стабильной работы
+- Верните оборудование или используйте его для других задач
+- Отмените подписки Cisco SmartNet
 ```
 
 {{< figure src="cisco-to-fortinet-network-migration-phased-timeline.webp" alt="Диаграмма временной шкалы, показывающая поэтапную 12-месячную миграцию с Cisco на Fortinet, охватывающую пилотное развертывание в месяцах 1-2, внедрение в филиалах в месяцах 3-6, переключение дата-центра в месяцах 7-9 и окончательное снятие с эксплуатации в месяцах 10-12" >}}
@@ -1007,28 +1003,28 @@ Phase 4: Decommission (Months 10-12)
 **Рекомендации по миграции:**
 
 ```
-Phase 1: Design (Months 1-2)
-- Assess current FortiGate features in use
-- Design equivalent Cisco architecture
-- Identify features requiring additional Cisco products (ISE, etc.)
-- Validate licensing requirements with Cisco SE
+Этап 1: проектирование (месяцы 1-2)
+- Оцените используемые сейчас функции FortiGate
+- Спроектируйте эквивалентную архитектуру Cisco
+- Определите функции, требующие дополнительных продуктов Cisco (ISE и т. д.)
+- Проверьте требования к лицензированию с Cisco SE
 
-Phase 2: Proof of Concept (Months 3-4)
-- Deploy Cisco FMC and test firewall in lab
-- Replicate critical policies and test thoroughly
-- Train security team on FMC management
-- Benchmark performance under realistic load
+Этап 2: проверка концепции (месяцы 3-4)
+- Разверните Cisco FMC и тестовый межсетевой экран в лаборатории
+- Воспроизведите критически важные политики и тщательно проверьте их
+- Обучите команду безопасности управлению FMC
+- Измерьте производительность при реалистичной нагрузке
 
-Phase 3: Phased Deployment (Months 5-12)
-- Deploy Cisco firewalls at new locations first
-- Cutover existing locations during maintenance windows
-- Maintain FortiGate parallel for 30-60 days
-- Extensive VPN and application testing
+Этап 3: поэтапное развёртывание (месяцы 5-12)
+- Сначала разверните межсетевые экраны Cisco на новых площадках
+- Переключите существующие площадки в окна обслуживания
+- Поддерживайте параллельную работу FortiGate в течение 30-60 дней
+- Тщательно проверьте VPN и приложения
 
-Phase 4: Optimization (Months 13-18)
-- Leverage advanced Cisco features (TrustSec, etc.)
-- Integrate with other Cisco products
-- Optimize policies and rule bases
+Этап 4: оптимизация (месяцы 13-18)
+- Используйте расширенные функции Cisco (TrustSec и т. д.)
+- Интегрируйте с другими продуктами Cisco
+- Оптимизируйте политики и наборы правил
 ```
 
 ______
@@ -1099,29 +1095,15 @@ ______
 ### Дерево решений
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Do you have existing Cisco campus network (ISE)?      │
-└───────────────┬─────────────────────────────────────────┘
-                │
-        ┌───────┴───────┐
-       YES             NO
-        │               │
-        │               │
-        v               v
-┌──────────────┐  ┌─────────────────┐
-│ Need TrustSec │  │ Need integrated │
-│ micro-seg?    │  │ SD-WAN?         │
-└───┬──────────┘  └────────┬────────┘
-    │                      │
-  ┌─┴─┐                  ┌─┴─┐
- YES NO                 YES NO
-  │   │                  │   │
-  v   v                  v   v
-┌────┐ ┌──────┐      ┌────┐ ┌──────┐
-│Cisco│ │Either│      │Fort│ │Either│
-│wins │ │works │      │inet│ │works │
-└────┘ └──────┘      │wins│ └──────┘
-                     └────┘
+У вас уже есть кампусная сеть Cisco (ISE)?
+├─ ДА
+│  └─ Нужна микросегментация TrustSec?
+│     ├─ ДА: Предпочтительнее Cisco
+│     └─ НЕТ: Подходят оба варианта
+└─ НЕТ
+   └─ Нужна интегрированная SD-WAN?
+      ├─ ДА: Предпочтительнее Fortinet
+      └─ НЕТ: Подходят оба варианта
 ```
 
 ### Таблица оценки критериев выбора

@@ -1,7 +1,7 @@
 ---
 title: "Lokale AI-programmering op een 16GB-GPU: Strata, OpenCode en Qwen3.8"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Draai een lokale codeeragent met Strata en OpenCode. Bekijk gemelde RTX 4060 Ti-resultaten, RAM-vereisten, prompthergebruik, redeneerbudgetten en de grenzen van het vervangen van een betaald abonnement."
@@ -30,7 +30,7 @@ coverCaption: ""
 
 ## Geteste configuratie
 
-| Component | Gemelde configuratie |
+| Onderdeel | Gemelde configuratie |
 |---|---|
 | **GPU** | NVIDIA RTX 4060 Ti, 16GB VRAM |
 | **CPU** | Intel Core i5-11600K |
@@ -44,7 +44,7 @@ coverCaption: ""
 
 **De door NetworkCoder gepubliceerde configuratie en resultaten** leveren deze cijfers. De [testrepository](https://github.com/network-tocoder/Free-Local-AI-Coding-Agent-125B-on-16GB-GPU) meldt dat 46.84GiB expertgewichten in 28 seconden werd geladen, waarbij 4.431 experts 8.45GiB GPU-geheugen gebruikten. Deze metingen beschrijven de geteste run, niet een gegarandeerde toewijzing met een andere engineversie.
 
-**De huidige compatibiliteit is breder dan deze test.** Het [Strata-project](https://github.com/Niko1221/Strata), gecontroleerd op 6 oktober 2026, documenteert geselecteerde NVIDIA- en AMD-kaarten met minstens 12GB VRAM en kleinere modellen voor systemen met 32GB RAM. Deze opties reproduceren het experiment met een 16GB-GPU, 64GB RAM en IQ3_S niet. Controleer de exacte GPU, modelvariant en runtimeondersteuning voordat je hardware koopt.
+**De huidige compatibiliteit is breder dan deze test.** Het [project Strata](https://github.com/Niko1221/Strata), gecontroleerd op 6 oktober 2026, documenteert geselecteerde NVIDIA- en AMD-kaarten met minstens 12GB VRAM en kleinere modellen voor systemen met 32GB RAM. Deze opties reproduceren het experiment met een 16GB-GPU, 64GB RAM en IQ3_S niet. Controleer de exacte GPU, modelvariant en runtimeondersteuning voordat je hardware koopt.
 
 ## Waar het model staat
 

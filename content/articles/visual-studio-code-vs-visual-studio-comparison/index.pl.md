@@ -247,29 +247,29 @@ ______
 
 ### Wybierz Visual Studio Code jeśli:
 
-✅ **Tworzysz aplikacje webowe** - React, Vue, Angular, Node.js  
-✅ **Pracujesz z językami skryptowymi** - Python, JavaScript, PHP, Ruby  
-✅ **Potrzebujesz rozwoju wieloplatformowego** - Linux, macOS, Windows  
-✅ **Cenisz szybkość i lekkie narzędzia** - Szybkie poprawki, szybkie uruchamianie  
-✅ **Pracujesz z chmurą i DevOps** - Docker, Kubernetes, Azure Functions  
-✅ **Masz ograniczony budżet** - Zawsze darmowy, bez kosztów licencji  
-✅ **Chcesz personalizacji** - 30 000+ rozszerzeń  
-✅ **Kodujesz na wielu urządzeniach** - Synchronizacja ustawień między urządzeniami  
-✅ **Wolisz projekty oparte na folderach** - Repozytoria Git, mikroserwisy  
-✅ **Jesteś studentem lub hobbystą** - Nauka, projekty osobiste  
+✅ **Tworzysz aplikacje webowe** - React, Vue, Angular, Node.js
+✅ **Pracujesz z językami skryptowymi** - Python, JavaScript, PHP, Ruby
+✅ **Potrzebujesz rozwoju wieloplatformowego** - Linux, macOS, Windows
+✅ **Cenisz szybkość i lekkie narzędzia** - Szybkie poprawki, szybkie uruchamianie
+✅ **Pracujesz z chmurą i DevOps** - Docker, Kubernetes, Azure Functions
+✅ **Masz ograniczony budżet** - Zawsze darmowy, bez kosztów licencji
+✅ **Chcesz personalizacji** - 30 000+ rozszerzeń
+✅ **Kodujesz na wielu urządzeniach** - Synchronizacja ustawień między urządzeniami
+✅ **Wolisz projekty oparte na folderach** - Repozytoria Git, mikroserwisy
+✅ **Jesteś studentem lub hobbystą** - Nauka, projekty osobiste
 
 ### Wybierz Visual Studio jeśli:
 
-✅ **Tworzysz aplikacje .NET** - C#, ASP.NET, Blazor, WPF, WinForms  
-✅ **Budujesz aplikacje desktopowe** - Aplikacje Windows, WPF, UWP  
-✅ **Tworzysz aplikacje mobilne** - Xamarin, .MAUI  
-✅ **Tworzysz gry** - Unity, Unreal Engine C++  
-✅ **Pracujesz nad dużymi rozwiązaniami korporacyjnymi** - Wieloprojektowe bazy kodu  
-✅ **Potrzebujesz zaawansowanego debugowania/profilowania** - Optymalizacja wydajności, analiza pamięci  
-✅ **Tworzysz aplikacje C++** - Windows, gry, programowanie systemowe  
-✅ **Korzystasz z wizualnych projektantów** - Formularze, XAML, projektanci baz danych  
-✅ **Potrzebujesz narzędzi architektonicznych** - Mapy kodu, grafy zależności (Enterprise)  
-✅ **Jesteś częścią dużego zespołu deweloperskiego** - Enterprise ALM, integracja Azure DevOps  
+✅ **Tworzysz aplikacje .NET** - C#, ASP.NET, Blazor, WPF, WinForms
+✅ **Budujesz aplikacje desktopowe** - Aplikacje Windows, WPF, UWP
+✅ **Tworzysz aplikacje mobilne** - Xamarin, .MAUI
+✅ **Tworzysz gry** - Unity, Unreal Engine C++
+✅ **Pracujesz nad dużymi rozwiązaniami korporacyjnymi** - Wieloprojektowe bazy kodu
+✅ **Potrzebujesz zaawansowanego debugowania/profilowania** - Optymalizacja wydajności, analiza pamięci
+✅ **Tworzysz aplikacje C++** - Windows, gry, programowanie systemowe
+✅ **Korzystasz z wizualnych projektantów** - Formularze, XAML, projektanci baz danych
+✅ **Potrzebujesz narzędzi architektonicznych** - Mapy kodu, grafy zależności (Enterprise)
+✅ **Jesteś częścią dużego zespołu deweloperskiego** - Enterprise ALM, integracja Azure DevOps
 
 ### Podejście hybrydowe: używaj obu
 

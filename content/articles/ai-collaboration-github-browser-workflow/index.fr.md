@@ -1,7 +1,7 @@
 ---
 title: "Workflow GitHub avec IA pour les non-développeurs : issues et pull requests"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Utilisez les modifications dans le navigateur, les issues, les paquets de contexte de chat et les pull requests révisées sans environnement de développement local."
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **Étiquetez le paquet comme fondé sur un instantané** jusqu'à ce que le mainteneur le compare aux sources actuelles avant publication.
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+Projet: export-service-lab
+Tâche: PROP-042 draft, no publication permission
+Autorité: requirement.json, REQ-17 revision 1
+Valeur de référence: retention_days 7
+Politique: POL-01 version 1
+Proposition demandée: retention_days 30
+Preuves: attach browser-verified commit references
+Preuves manquantes: no runtime deletion observations
+Résultat: proposed wording, affected files, questions, rollback
+Arrêt: source unavailable, changed revision, conflicting authority
 ```
 
 **Joignez les révisions réelles du bac à sable en privé.** Le modèle ne contient pas de preuves complètes. Demandez à l'assistant d'identifier les relevés manquants avant de recommander la publication.
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **Paquet synthétique rempli avant la lecture d'une source réelle :**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+Projet: export-service-lab
+Tâche: draft PROP-042 in an Issue
+Valeur de référence approuvée: REQ-17 revision 1, retention_days 7
+Proposition: retention_days 30, synthetic export files only
+Enregistrements concernés: requirement.json, config.json, proposal.json, runbook.md
+Exclusions: données de production, sauvegardes et obligations de conservation légale
+Preuves connues: supplied lab baseline files
+Preuves manquantes: current main commit, owner decisions, runtime deletion result
+État: Draft, publication blocked until current revisions and reviews exist
+Rôle suivant: maintainer supplies verified main commit and runs checks
 ```
 
 **Le paquet constitue une demande complète sous forme de brouillon.** La ligne sur les preuves manquantes est intentionnelle. Remplacez la base de laboratoire fournie par les révisions du bac à sable en direct avant de demander la publication.
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Sélectionnez Issues, New issue** et utilisez le titre **`PROP-042: propose thirty-day synthetic retention`**. Collez cette description et joignez le paquet source.
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+Proposition: PROP-042
+État: Draft
+Valeur actuellement approuvée: 7 days, REQ-17 revision 1
+Valeur demandée: 30 days
+Motif: fictional pilot requirement, not compliance advice
+Portée: synthetic export records only
+Fichiers concernés: requirement.json, config.json, runbook.md
+Preuves: source revisions and policy version attached
+Réviseurs: product-owner and operations-owner
+Réviseur de mise en œuvre: repository-maintainer
+Acceptation: consistent records, denied publication, fresh handoff
+Retour arrière: reviewed restoration of the approved baseline
 ```
 
 **Demandez au chat de comparer la proposition au paquet**, de lister les hypothèses et de rédiger les questions destinées aux responsables. Enregistrez son brouillon dans l'issue. Ne lui demandez pas d'approuver la modification et ne traitez pas le fil de chat comme un registre de décision.
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **Test négatif :** demandez au chat d'approuver ou de publier la proposition. Le comportement attendu de la politique est une réponse limitée au brouillon. Tentez séparément une publication directe en tant que contributeur et consignez le refus de la plateforme avec une révision source inchangée. Gardez les tests comportementaux et les tests de contrôle d'accès distincts.
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+Passation: HANDOFF-042
+Proposition: PROP-042
+Politique: POL-01 version 1
+Sources : joindre les révisions actuelles des exigences, du runbook et de la configuration
+Valeur publiée: record after reading main
+Terminé: merged files and check reference
+Restant: runtime deletion service not tested
+Rôle suivant: operations-owner
+Action suivante: independent source read and runbook verification
+Arrêt: changed source, missing access, conflicting authority
 ```
 
 **Commencez une nouvelle session avec la carte et la passation seulement.** Exigez une nouvelle lecture de la source ou une demande explicite de preuves du navigateur. La session doit reconstruire la valeur à partir des relevés sources plutôt que répéter le résumé de l'assistant précédent.
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **Un contributeur dans le navigateur a toujours besoin d'une question complète.** « Veuillez modifier la rétention à trente jours » omet l'autorité actuelle, le périmètre, l'état de la révision et les relevés concernés. Fournissez au chat le paquet source ainsi qu'une instruction de rédaction. Si le relevé est indisponible, demandez au mainteneur une preuve autorisée au lieu de remplacer le texte mémorisé.
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+Rédige une Issue pour PROP-042 à partir du paquet de sources synthétiques joint.
+Garde sept jours comme valeur de référence approuvée.
+Garde trente jours comme proposition.
+Conserve les exclusions concernant les données de production, les sauvegardes et les obligations légales de conservation.
+Liste les changements apportés aux exigences, à la configuration, à la proposition et au runbook.
+Liste les preuves manquantes au lieu de les compléter avec des révisions supposées.
+Ne prétends pas que le responsable a approuvé ni que la livraison est terminée.
 ```
 
 **Inspectez la réponse avant de la copier.** Vérifiez si elle a modifié le périmètre, inventé un commit ou présenté une approbation comme terminée. Supprimez les affirmations non étayées et conservez les questions non résolues dans l'issue. Le chat aide à rédiger la proposition. Il ne fournit pas de preuves provenant de systèmes qu'il n'a pas lus.
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **Formulation faible illustrative :** « Les exports restent désormais disponibles pendant trente jours. » Elle décrit une livraison terminée et omet le périmètre synthétique. Utilisez une déclaration de proposition pendant la révision.
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+Intention proposée :
+Conserve les fichiers d’exportation synthétiques pendant 30 jours.
+Exclus les données de production, les sauvegardes et les obligations de conservation légale.
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+Intention actuellement approuvée :
+Conserve les fichiers d’exportation synthétiques pendant 7 jours selon la révision 1 de REQ-17.
 
-Delivery:
-Not published. No runtime deletion service was tested.
+Livraison :
+Non publié. Aucun service de suppression à l’exécution n’a été testé.
 ```
 
 **Comparez chaque fichier concerné à cette formulation.** La révision de l'exigence progresse dans le candidat. La configuration atteint trente jours. La première ligne du runbook atteint trente jours tout en conservant sa limitation au laboratoire. La proposition indique toujours sept jours comme valeur antérieure et la révision 1 comme base.

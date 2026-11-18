@@ -1,7 +1,7 @@
 ---
 title: "स्थानीय मॉडल के साथ Claude Cowork और Claude Code: 2026 सेटअप गाइड"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Anthropic-संगत API के ज़रिए Claude Desktop और Claude Code के साथ Ollama कॉन्फ़िगर करें। 2026 के मॉडल और क्लाउड-आधारित सुविधाएँ देखें।"
@@ -188,7 +188,7 @@ Tool calling, agent और text generator के बीच का अंतर �
 Claude Code शुरू होने पर उससे कहें:
 
 ```text
-Read the current directory and list all files
+वर्तमान डायरेक्टरी पढ़ें और सभी फ़ाइलों की सूची दें
 ```
 
 **अगर वह असली फ़ाइलों की सूची दे, तो tool calling काम कर रही है।** अगर वह कहता है कि वह directory पढ़ेगा और बताता है कि वहाँ क्या होने की उम्मीद है, तो सुविधा जुड़ी नहीं है। आप coding prompt लगे chat model से बात कर रहे हैं, agent से नहीं। और prompt देना इसे ठीक नहीं करेगा।
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 Claude Code session में `/loop` तय अंतराल पर prompt या slash command चलाता है:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m मेरी खुली PR देखें और उनकी स्थिति का सार दें
+/loop 1h हाल की AI खबरें खोजें और मुख्य प्रगति का सार दें
+/loop 15m नई GitHub समस्याएँ देखें और प्राथमिकता के अनुसार क्रम दें
 ```
 
 *यह session खुला रहने तक चलता है। यह background daemon नहीं है, इसलिए session बंद होने पर रुक जाता है।*

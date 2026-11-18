@@ -1,11 +1,11 @@
 ---
 title: "Rutarea furnizorilor OpenRouter: calitatea modelului, limitele tokenurilor și costurile reale"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Diagnostichează răspunsurile inconsistente OpenRouter, compară limitele endpointurilor și costurile cache-ului și configurează rutarea furnizorilor fără să dezactivezi accidental controalele de calitate."
-genre: ["Inteligență artificială", "Infrastructură", "Open Source"]
+genre: ["Inteligență artificială", "Infrastructură", "software cu sursă deschisă"]
 tags: ["OpenRouter", "rutarea furnizorilor", "endpointuri OpenRouter", "calitatea modelelor AI", "inferență LLM", "cuantizare", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "apelarea instrumentelor", "fereastra de context", "număr maxim de tokenuri", "tokenuri de raționament", "cache pentru prompt", "costuri API", "fallback furnizor", "require_parameters", "agenți AI", "benchmarkuri de inferență", "testarea endpointurilor", "modele open weight"]
 cover: "/img/cover/openrouter-provider-routing-inference-services.webp"
 coverAlt: "Ilustrație digitală abstractă cu noduri interconectate care reprezintă servicii de inferență AI, cu linii strălucitoare ce indică fluxul datelor pe un fundal întunecat."
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Volum de lucru: 6 milioane de tokenuri de intrare + 1 milion de tokenuri de ieșire
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Per milion de tokenuri combinate de intrare și ieșire:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```

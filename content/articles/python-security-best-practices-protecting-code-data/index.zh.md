@@ -1,6 +1,7 @@
 ---
 title: "Python 安全最佳实践：保护您的代码和数据"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "学习基本的 Python 安全最佳实践，保护代码和数据免受潜在威胁，确保数据保护、系统完整性和建立信任。"
@@ -183,7 +184,7 @@ ______
 
 4.**使用**强加密技术**保护敏感数据**。利用**AES（高级加密标准）**等成熟的加密算法，确保敏感信息的安全存储和传输。您可以参考 [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)了解更多信息。
 
-5.通过使用**准备语句**来防止 SQL 注入攻击，并实施**最小权限**来限制数据库用户权限，**确保数据库访问**的安全性。这些做法可最大限度地降低未经授权访问敏感数据的风险。了解有关**准备语句**的更多信息，请参阅 [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **保护数据库访问**：使用**预处理语句**防止 SQL 注入攻击，并遵循**最小权限原则**来限制数据库用户的权限。这些做法可降低敏感数据遭到未授权访问的风险。有关预处理语句，请参阅 [SQLAlchemy 文档](https://www.sqlalchemy.org)；有关最小权限原则，请参阅 [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)。
 
 6.**定期更新依赖项**，以解决安全漏洞并受益于漏洞修复。工具，如 [Snyk - Open Source Security Platform](https://snyk.io/)可以帮助你识别项目依赖关系中的漏洞。
 

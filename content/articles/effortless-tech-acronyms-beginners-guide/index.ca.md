@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot simplificat i amigable que explica acrònims tecnològics a un principiants amb entusiasme.
 coverCaption: Desxifrant la Jerga Tecnològica per a Principiants
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 ---
 
 ## Introducció
@@ -186,7 +186,7 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **BYOM**: Bring Your Own Modem
   - Una política que permet als usuaris portar i utilitzar els seus propis modems per a la connectivitat a Internet.
 
-- **BaaS**: Backend as a Service
+- **BaaS**: Backend as a Service (back-end com a servei)
   - Un servei de computació en núvol que proporciona la infraestructura per al backend d'una aplicació web o mòbil, incloent serveis de servidor, base de dades i emmagatzematge.
 
 
@@ -221,7 +221,7 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **CSV**: Comma-Separated Values
   - Un format de fitxer senzill utilitzat per emmagatzemar dades tabulars, amb valors separats per comes.
 
-- **CaaS**: Container as a Service
+- **CaaS**: Container as a Service (contenidors com a servei)
   - Un servei de computació en núvol que proporciona una plataforma per desplegar i gestionar contenidors, com els contenidors Docker, de manera escalable i eficient.
 
 
@@ -394,7 +394,7 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **Gbps**: Gigabits per segon
   - Una unitat de velocitat de transferència de dades que representa mil milions de bits transmesos en un segon, sovint usada per mesurar velocitats de xarxa o transferència de dades.
 
-- 
+-
 ### H
 - **HDD**: Disc Dur
   - Un dispositiu d’emmagatzematge de dades que utilitza discos giratoris per emmagatzemar i recuperar dades, habitualment trobat en ordinadors d’escriptori i servidors.

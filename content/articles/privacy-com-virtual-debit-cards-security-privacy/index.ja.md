@@ -1,7 +1,7 @@
 ---
 title: "Privacy.com バーチャルカード：支払いのプライバシーの仕組み"
 date: 2023-09-03
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: 支払いカードに保存されている情報、なぜ磁気ストライプが最も弱い部分なのか、バーチャル番号で支払うと加盟店が何を見るのか、そしてPrivacy.comのカードタイプと制限が実際にどのように機能するか。
@@ -232,11 +232,11 @@ ref:
 
 ```text
 PAN: 4111111111111111
-Surname: TEST
-First name: USER
-Expiry: 12/29
-Service code: 201
-Discretionary data: 000000000
+姓: TEST
+名: USER
+有効期限: 12/29
+サービスコード: 201
+任意データ: 000000000
 ```
 
 合成Track 2の演習には、同じPAN、有効期限、サービスコード、および数値の裁量フィールドを使用します。生成されるTrack 2文字列には名前が含まれません。Track 2には名前フィールドがないためです。
@@ -263,6 +263,21 @@ Discretionary data: 000000000
 *この区別は多くの人を混乱させます。もし脅威モデルに発行者やネットワークが含まれるなら、仮想カードは何も変えません。*
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="実際のカード番号はカード所有者と発行銀行の間に留まり、バーチャルカード番号が加盟店に送られる様子を示す図" >}}
+
+## 加盟店に引き続き見える情報
+
+**バーチャルカードは、資金元の口座と元のPANを隠します。** 購入手続きで送信した情報は消えません。
+
+Privacyのサポート資料によると、加盟店には16桁のカード番号、有効期限、CVV、購入時に入力した請求先住所が共有されます。入力した氏名も加盟店に表示されます。バーチャルカードを本人情報を隠す手段と考える前に、[加盟店に見える情報についての公式説明](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)を確認してください。
+
+| 層 | 引き続き見える、または保存される情報 |
+|---|---|
+| **加盟店** | バーチャルカード番号、有効期限、CVV、購入時に入力した請求先住所と氏名、注文情報、加盟店アカウント情報 |
+| **Privacy.com** | [プライバシーポリシー](https://www.privacy.com/privacy-policy)に基づく本人確認情報、資金元、カード情報、取引情報、端末情報 |
+| **資金元の銀行** | 取引日、金額、Privacy.comまたは`PWP*`を含む摘要。表示の詳細は銀行が決めます |
+| **決済ネットワークと発行会社** | 支払い処理に必要な承認、精算、不正利用、異議申し立ての記録 |
+
+実務上の境界は明確です。バーチャルカードはカード情報の再利用を減らします。氏名、配送先住所、加盟店アカウント、ブラウザーセッション、カード欄以外で送信した情報は、引き続き加盟店に見えます。加盟店ごとにアカウントを分け、メールエイリアスを使うと、サイトをまたぐ本人情報の関連付けを抑えられます。バーチャルカードだけでは、この分離はできません。
 
 ## 3種類のカード形状のもの
 
@@ -313,6 +328,22 @@ Discretionary data: 000000000
 
 *私たちの**[個人金融セキュリティ](/personal-security-course/personal-finance/)**モジュールは、これをクレジット凍結やカードトークン化と並び、単一の侵害された加盟店がアクセスできる範囲を制限する3つのコントロールとして位置づけています。*
 
+## 定期請求とオーソリ
+
+**カードの制御はオーソリ時に働きます。** Privacyは保留中の取引を、加盟店が合意した金額を引き落とす許可として説明しています。$0のオーソリはカードが有効かを確認するもので、購入完了を意味しません。銀行口座から資金を引き出す取引では、引き落とし完了の前に精算処理が入ります。[取引状態についての公式ガイド](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)を参照してください。
+
+| 発生事象 | 処理内容 | 制御の境界 |
+|---|---|---|
+| **サービスへのカード登録** | 加盟店がカード確認のため$0のオーソリを送信 | カード確認に成功しても、注文が支払済みとは限りません |
+| **購入のオーソリ** | Privacyが保留中の金額を記録し、加盟店に合意額の徴収を許可 | 利用可能額と後続の承認には保留中の取引が反映されます |
+| **購入の精算** | 加盟店の処理後に資金元から引き落とし | 注文変更や追加のチップにより、最初のオーソリと確定額が異なることがあります |
+| **オーソリ後にカードを一時停止または閉鎖** | 今後のオーソリを停止 | 以前のオーソリには引き続き決済ネットワークの規則が適用されます |
+| **オーソリ後に利用限度額を変更** | 新しい限度額は今後の試行に適用 | 以前のオーソリの状態は変わりません |
+
+**カードの限度額はプリペイド残高ではありません。** Privacyのカード別ガイドによると、設定額を超えるオーソリを限度額がブロックします。取引が完了するたびに資金元から引き落とされます。日次限度額は24時間、月次は30日、年次は364日のローリング期間です。一部のサブスクリプション請求期間には6日間の猶予があります。[利用限度額についての公式ガイド](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)に規則が記載されています。
+
+サブスクリプションでは初回請求の前に定期限度額を設定し、保留中および精算中の項目を確認し、加盟店側でも解約してください。カードを閉じると今後のオーソリは止まります。すでに承認された購入は取り消されず、返金も発生しません。[カードの一時停止と閉鎖に関するPrivacyのガイド](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)にも同じ境界が記載されています。
+
 ## プランとそれぞれが解放するもの
 
 Privacy.comは無料プランと3つの有料プランを提供しています。価格や機能の境界は変わるため、申し込む前に最新の条件を確認してください。
@@ -327,6 +358,8 @@ Privacy.comは無料プランと3つの有料プランを提供しています�
 **無料プランは基本的なセキュリティ効果をカバーしています。** 加盟店ロック、使い捨てカード、利用限度額がリスク軽減の仕組みであり、これらは無料で利用可能です。有料プランは追加の保護ではなく、整理や利便性を提供します。
 
 **外国取引手数料はプランによって異なります。** 無料プランは外国取引に3％（最低$0.50）を課しますが、有料プランは課しません。
+
+契約する前に、[Privacy.comの最新利用規約](https://www.privacy.com/terms)を確認してください。
 
 ## Privacy.comができないこと
 
@@ -367,7 +400,28 @@ Privacy.comは無料プランと3つの有料プランを提供しています�
 
 *実用的な理由として発行銀行を確認してください。誰でもカードプログラムを名乗れますが、カードに記載された発行者名が書類の銀行名と一致するかを確認することが重要です。*
 
-PANプレフィックスからスキームと銀行を**[Magnetic Stripe Decoder](/magnetic-stripe-decoder/)**で調べてください。主要スキーム範囲を報告し、ルーンチェックディジットの検証も行います。
+PANプレフィックスからスキームと銀行を**[磁気ストライプデコーダー](/magnetic-stripe-decoder/)**で調べてください。主要スキーム範囲を報告し、ルーンチェックディジットの検証も行います。
+
+## アカウント復旧とプロバイダーへの依存
+
+**アカウントへのアクセス管理は、カードの分離とは別の制御です。** 見覚えのない利用について、Privacyは加盟店への連絡、2FAと共有カードの確認、新しい端末のログインコードの確認、パスワードの再設定、サポートへの連絡を推奨しています。[アカウントセキュリティガイド](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)に手順が記載されています。
+
+復旧用メールアドレスと米国の電話番号を最新の状態に保ってください。[アカウント情報のガイド](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)によると、いずれかを変更する際にはPrivacyの確認が必要です。2FAを有効にし、加盟店名とカード番号の下4桁をパスワードマネージャーに保存してください。完全なPANやCVVを一般的なメモアプリに保存しないでください。
+
+アカウントを閉じてもすべての記録が消えるわけではありません。2026年6月8日更新のPrivacyのポリシーでは、本人確認情報と決済カード情報は少なくとも5年間、資金元の銀行情報とACH取引は6年間、監査ログは3年間保存されます。アカウント閉鎖をデータ削除と見なす前に、[Privacyのプライバシーポリシーにある保存期間の説明](https://www.privacy.com/privacy-policy)を確認してください。
+
+**Privacyは資金元の銀行、Plaid、ACH、カードネットワーク、自社のアカウントシステムに引き続き依存します。** 銀行口座からの資金移動はPlaid経由のACHを使います。Privacyによると、未対応の銀行にはデビットカードによる代替手段がありますが、利用資格には米国の銀行または信用組合と米国の電話番号が必要です。[銀行口座の接続ガイド](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)と[利用資格ガイド](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)に要件が記載されています。
+
+資金調達の問題は支払い処理に影響します。残高不足や口座閉鎖などにより資金元から引き落とせない場合、Privacyはアカウントを一時停止することがあります。資金元の削除では、その資金元に対してすでに承認された取引は停止しないともサポートページに記載されています。銀行やデビットカードを削除する前に、[未精算取引の解決ガイド](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)と[資金元の削除ガイド](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)を確認してください。
+
+| 依存先 | 障害の例 | 実務上の対応 |
+|---|---|---|
+| **資金元の銀行またはPlaid** | 未対応、口座閉鎖、または古い接続情報 | 条件を満たす予備の資金元を用意し、アカウントの状態を確認 |
+| **Privacyアカウント** | 本人確認の再要求、復旧手段の喪失、アカウント停止 | 2FAと復旧情報を最新に保つ |
+| **加盟店** | バーチャルまたはプリペイドカードの識別子を拒否、定期請求が継続 | 例外用に実カードを用意し、加盟店側で解約 |
+| **ネットワークまたは発行会社** | オーソリ、精算、返金、異議申し立ての遅延 | 領収書、明細、取引記録を保管 |
+
+Privacyの規約では、同社と金融サービスパートナーが別々のサービスを提供します。規約は追加の本人確認情報の要求やアカウント制限も認めています。プロバイダーへのアクセスとアカウント記録を脅威モデルに含めてください。重要な請求をすべて1社のカードプロバイダーに集中させないでください。
 
 ## バーチャルカードの効果的な使い方
 
@@ -381,6 +435,19 @@ PANプレフィックスからスキームと銀行を**[Magnetic Stripe Decoder
 6. **バーチャルカード番号帯を拒否する加盟店用に実カードを1枚用意する。** ブロックされた決済が緊急事態にならないように。
 
 > **よくある誤り：バーチャルカードを明細確認の代わりに扱うこと。** 加盟店ロックは一種の被害防止策ですが、銀行口座の不正利用や不正送金、実カードの不正請求は検知しません。
+
+## 現在の制御境界
+
+Privacy.comの最新サポート資料によると、カード別の利用限度額は、限度額を超えるオーソリをブロックします。[利用限度額ガイド](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)にはローリング期間も記載されています。[開発者向けカード資料](https://developers.privacy.com/docs/cards)では、加盟店固定カードと利用限度額フィールドが説明されています。
+
+| 制御 | 役立つこと | 解決できないこと |
+|---|---|---|
+| 加盟店固定カード | 別の加盟店での番号の再利用 | Privacy.comアカウントの侵害、または指定した加盟店での不正取引 |
+| 利用限度額 | 想定外の承認額、定期請求の増額 | 限度額変更前の請求、資金元アカウントの侵害 |
+| バーチャルカードの閉鎖 | その番号への今後のオーソリ | 返金、異議申し立て、作成済みの加盟店記録 |
+| サービスごとの個別カード | 取引の迅速な特定とカードの無効化 | プロバイダー障害、本人確認、銀行側の記録 |
+
+資金元口座、アカウント復旧手段、アラート、カード一覧を1つの制御セットとして確認してください。バーチャル番号で変わるのは加盟店に共有する番号です。発行銀行、カードプロバイダー、加盟店、決済ネットワーク、税務記録、法的権限を持つ裁判所に取引が隠れるわけではありません。デビットカードがクレジット枠に変わることも、異議申し立てが認められる保証もありません。
 
 ## 重要なポイントまとめ
 
@@ -413,3 +480,17 @@ PANプレフィックスからスキームと銀行を**[Magnetic Stripe Decoder
 7. [ANSI/ISO ALPHAデータエンコーディング、トラック1の文字セットとパリティ表](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [磁気カードのISO文字、トラック1とトラック2のセットの比較](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [磁気カードデータの読み取り、実際のカードスキャンによる実践的な解説](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Privacy開発者向けドキュメント: カードの種類、状態、利用限度額](https://developers.privacy.com/docs/cards)
+11. [Privacyサポート: 加盟店に共有される情報](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Privacyサポート: カードごとの利用限度額](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Privacyサポート: 取引状態とオーソリ](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Privacyサポート: カードの一時停止と解約](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Privacyサポート: 銀行明細の取引表示](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Privacyサポート: Plaid経由で銀行口座を接続する方法](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Privacyサポート: アカウントの利用状況と復旧確認](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Privacyサポート: アカウントのメールアドレスと電話番号の更新](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Privacyサポート: 利用資格](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Privacyサポート: 未精算取引](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Privacyサポート: 資金元の削除](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Privacy.comプライバシーポリシー](https://www.privacy.com/privacy-policy)
+23. [Privacy.com利用規約](https://www.privacy.com/terms)

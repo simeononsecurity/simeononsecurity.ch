@@ -1,6 +1,7 @@
 ---
 title: "Directrices de codificación segura para Ansible: Buenas prácticas"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprenda las mejores prácticas para escribir código seguro con Ansible, una popular herramienta para la gestión de la configuración y el despliegue."
@@ -111,7 +112,7 @@ Los desarrolladores deben desinfectar la entrada del usuario para prevenir la **
 Los desarrolladores pueden utilizar el `regex_replace` en Ansible para desinfectar la entrada del usuario. La dirección `regex_replace` permite a los programadores sustituir patrones de cadenas por otros patrones. Por ejemplo, para sustituir todos los caracteres no alfanuméricos de una cadena por una cadena vacía, los desarrolladores pueden utilizar el código siguiente:
 
 ```yaml
-- name: Sanitize user input
+- name: Sanear la entrada del usuario
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

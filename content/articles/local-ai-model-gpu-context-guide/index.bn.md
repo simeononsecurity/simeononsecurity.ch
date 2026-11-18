@@ -1,7 +1,7 @@
 ---
 title: "কোন স্থানীয় AI মডেল চালাবেন? অক্টোবর ২০২৬-এর GPU কনটেক্সট ও কোডিং গাইড"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "কোডিং এজেন্টের জন্য স্থানীয় AI মডেল বাছাইয়ের অক্টোবর ২০২৬-এর ব্যবহারিক গাইড। GPU মেমরি, KV-cache বৃদ্ধি, কনটেক্সট আকার, quantization quality, prompt processing, reasoning settings এবং cloud rental cost তুলনা করুন।"
@@ -31,9 +31,9 @@ Model tier list সাধারণত parameter count-কে GPU memory number-�
 
 Model weight প্রথম allocation। **KV cache** হলো বাড়তে থাকা allocation। এটি active context-এর attention key এবং value রাখে, যাতে প্রতিটি generated token-এর পরে runtime-কে পুরো prompt আবার গণনা করতে না হয়।
 
-| Memory consumer | কী রাখে | কেন গুরুত্বপূর্ণ |
+| মেমরি ব্যবহারকারী | কী রাখে | কেন গুরুত্বপূর্ণ |
 |---|---|---|
-| **Model weights** | Quantized parameter | একবারের loading requirement |
+| মডেলের ওজন | Quantized parameter | একবারের loading requirement |
 | **KV cache** | Active context-এর note | Prompt এবং conversation বাড়লে বাড়ে |
 | **Runtime buffers** | Temporary computation space | Backend এবং batch size অনুযায়ী বদলে যায় |
 | **Agent instructions** | System prompt এবং tool definition | Project file আসার আগেই context ব্যবহার করে |
@@ -74,11 +74,11 @@ Reference material-এ আলোচিত একটি 27B coding model সী�
 
 এই সংখ্যা নির্দিষ্ট model architecture এবং runtime setting বর্ণনা করে। এগুলিকে architecture পরীক্ষা করার কারণ হিসেবে নিন, universal memory formula হিসেবে নয়।
 
-| Model behavior | Context effect | Hardware implication |
+| মডেলের আচরণ | Context effect | Hardware implication |
 |---|---|---|
 | **প্রতিটি layer-এ full attention** | বড় cache growth | Long prompt-এর জন্য বেশি memory লাগে |
 | **Hybrid বা sliding attention** | কিছু layer-এ কম cache growth | একই model size-এ বেশি context headroom |
-| **Mixture of experts** | প্রতি token-এ কম active parameter | প্রতি token-এ কম compute, কিন্তু total weight storage দরকার |
+| **বিশেষজ্ঞের মিশ্রণ (MoE)** | প্রতি token-এ কম active parameter | প্রতি token-এ কম compute, কিন্তু total weight storage দরকার |
 | **Long-context extension** | বড় working window | বেশি cache memory এবং বেশি prompt-processing work |
 
 **Memory কেনার আগে model architecture পড়ুন।** শুধু parameter count দীর্ঘ coding session-এর cost লুকিয়ে রাখে।
@@ -151,7 +151,7 @@ Agent-এর অনেক সময় পড়তে যায়। প্র
 |---|---|
 | **Decode token per second** | Processing-এর পরে answer কত দ্রুত দেখা যায় |
 | **Prompt token per second** | Answer শুরুর আগে agent কতক্ষণ অপেক্ষা করে |
-| **Time to first token** | Prompt processing এবং setup-এর মিলিত delay |
+| প্রথম টোকেন পেতে সময় | Prompt processing এবং setup-এর মিলিত delay |
 | **Context retention** | Task চলাকালে কত project state available থাকে |
 
 **নিজের prompt size benchmark করুন।** ছোট synthetic prompt repository work-এর সবচেয়ে গুরুত্বপূর্ণ cost লুকিয়ে রাখে।
@@ -185,7 +185,7 @@ Occasional work-এর জন্য rental compute জেতে। সারা 
 
 Workload frequent, private বা offline হলে owned hardware জেতে। Queue time বাদ যায় এবং repeatable test-এর জন্য stable environment পাওয়া যায়।
 
-| Situation | Better first move |
+| পরিস্থিতি | আগে নেওয়ার ভালো পদক্ষেপ |
 |---|---|
 | **মাসে কয়েকটি session** | GPU rent করুন বা API ব্যবহার করুন |
 | **Daily private coding** | Supported 24GB থেকে 32GB system কিনুন |

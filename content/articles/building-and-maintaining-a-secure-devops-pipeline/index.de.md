@@ -1,11 +1,11 @@
 ---
 title: "Aufbau und Aufrechterhaltung einer sicheren DevOps-Pipeline: Best Practices und Fallstudien"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie, wie Sie eine sichere DevOps-Pipeline mithilfe von Best Practices und Beispielen aus der Praxis aufbauen und pflegen."
-tags: ["DevOps", "Sicherheit", "Pipeline", "kontinuierliche Integration", "kontinuierliche Bereitstellung", "Automatisierung", "Containerisierung", "sichere Kodierung", "Sicherheitslücken-Scanning", "Überwachung", "Rückmeldung", "Versionskontrolle", "Zugangskontrolle", "Notfallwiederherstellung", "Geschäftskontinuität", "Fallstudie", "Frühling", "Django", "OWASP", "Netflix", "Kapital Eins"]
+tags: ["DevOps", "Sicherheit", "Bereitstellungskette", "kontinuierliche Integration", "kontinuierliche Bereitstellung", "Automatisierung", "Containerisierung", "sichere Kodierung", "Sicherheitslücken-Scanning", "Überwachung", "Rückmeldung", "Versionskontrolle", "Zugangskontrolle", "Notfallwiederherstellung", "Geschäftskontinuität", "Fallstudie", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
 cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
 coverAlt: "Abstrakte digitale Illustration einer sicheren DevOps-Pipeline mit visuellen Elementen für Codeentwicklung, automatisierte Tests und Bereitstellung vor dunklem Hintergrund mit leuchtenden Farben."
 coverCaption: ""
@@ -26,7 +26,7 @@ Bevor wir uns den Best Practices für den Aufbau und die Pflege einer sicheren D
 
 Diese Phasen sind eng miteinander verknüpft, wobei jede Phase vom Ergebnis der vorherigen Phase abhängt. In einer gut konzipierten DevOps-Pipeline können Codeänderungen schnell und effizient getestet und für die Produktion bereitgestellt werden, ohne die Sicherheit zu beeinträchtigen.
 
-## Best Practices für den Aufbau einer sicheren DevOps-Pipeline
+## Bewährte Vorgehensweisen für den Aufbau einer sicheren DevOps-Pipeline
 
 ### 1. Sichere Kodierungspraktiken verwenden
 
@@ -62,7 +62,7 @@ Splunk ist beispielsweise ein beliebtes Tool, das für die Protokollanalyse, die
 
 Ein weiteres Beispiel ist Prometheus, ein Open-Source-Überwachungs- und Warnsystem, das zur Überwachung verschiedener Metriken, einschließlich der Leistung der Pipeline und der Anwendungen, verwendet werden kann. Es kann in die DevOps-Pipeline integriert werden, um eine kontinuierliche Überwachung zu ermöglichen, und kann Entwickler warnen, wenn Leistungs- oder Sicherheitsprobleme auftreten. Darüber hinaus kann es den Entwicklern wertvolles Feedback geben, so dass sie die Qualität und Effizienz der DevOps-Pipeline verbessern können.
 
-## Best Practices für die Aufrechterhaltung einer sicheren DevOps-Pipeline
+## Bewährte Vorgehensweisen zur Aufrechterhaltung einer sicheren DevOps-Pipeline
 
 Sobald eine sichere DevOps-Pipeline aufgebaut wurde, ist es wichtig, ihre Sicherheit im Laufe der Zeit aufrechtzuerhalten. Im Folgenden finden Sie einige Best Practices für die Pflege einer sicheren DevOps-Pipeline:
 
@@ -84,7 +84,7 @@ Zugriffskontrollen sind eine entscheidende Komponente für die Aufrechterhaltung
 
 So können beispielsweise Tools wie HashiCorp Vault zur Implementierung von Zugriffskontrollen für DevOps-Pipelines verwendet werden. Damit lässt sich der Zugang zu Geheimnissen und anderen sensiblen Informationen sicher verwalten, so dass nur befugte Personen Zugriff haben.
 
-### 4. Implementierung von Disaster-Recovery- und Business-Continuity-Plänen
+### 4. Pläne für Notfallwiederherstellung und Geschäftskontinuität umsetzen
 
 Die Implementierung von Disaster-Recovery- und Business-Continuity-Plänen ist unerlässlich, um die Verfügbarkeit und Sicherheit einer DevOps-Pipeline zu gewährleisten. Diese Pläne sollten regelmäßig entwickelt und getestet werden und Verfahren für die Reaktion auf Sicherheitsvorfälle und die Wiederherstellung nach Unterbrechungen der Pipeline enthalten.
 
@@ -114,9 +114,9 @@ Netflix ist ein Streaming-Videodienst, der eine DevOps-Pipeline verwendet, um ne
 Capital One ist ein Finanzdienstleistungsunternehmen, das eine DevOps-Pipeline verwendet, um seinen Kunden neue Software-Updates und Funktionen bereitzustellen. Um die Sicherheit der Pipeline zu gewährleisten, setzt Capital One eine Reihe von Best Practices ein, darunter:
 
 - **Verwendung sicherer Kodierungsverfahren und regelmäßige Codeüberprüfungen**
-    - Capital One hat entwickelt [secure coding standards](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) auf der Grundlage bewährter Praktiken der Branche, z. B. OWASP. Außerdem führen sie regelmäßige Codeüberprüfungen durch, um etwaige Sicherheitsschwachstellen zu ermitteln und zu beheben.
+    - Capital One hat entwickelt [Standards für sichere Programmierung](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) auf der Grundlage bewährter Praktiken der Branche, z. B. OWASP. Außerdem führen sie regelmäßige Codeüberprüfungen durch, um etwaige Sicherheitsschwachstellen zu ermitteln und zu beheben.
 - **Einführung automatisierter Sicherheitstests in der gesamten Pipeline**
-    - Capital One hat in der gesamten DevOps-Pipeline eine Reihe von automatisierten Sicherheitstools implementiert, darunter Schwachstellen-Scanner und statische Analysetools. Außerdem werden automatisierte Tests eingesetzt, um sicherzustellen, dass der gesamte Code den Anforderungen des Unternehmens entspricht. [secure coding standards](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/)
+    - Capital One hat in der gesamten DevOps-Pipeline eine Reihe von automatisierten Sicherheitstools implementiert, darunter Schwachstellen-Scanner und statische Analysetools. Außerdem werden automatisierte Tests eingesetzt, um sicherzustellen, dass der gesamte Code den Anforderungen des Unternehmens entspricht. [Standards für sichere Programmierung](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/)
 - **Verwendung von sicheren Containern zur Paketierung und Bereitstellung von Anwendungen**
     - Capital One verwendet Container zur Paketierung und Bereitstellung von Anwendungen in ihrer DevOps-Pipeline. Sie haben strenge Sicherheitskontrollen für ihre Container implementiert, einschließlich der Verwendung ausschließlich vertrauenswürdiger Quellen und der Durchführung regelmäßiger Schwachstellenscans.
 - **Durchführung regelmäßiger Sicherheitsaudits und Schwachstellenbewertungen**

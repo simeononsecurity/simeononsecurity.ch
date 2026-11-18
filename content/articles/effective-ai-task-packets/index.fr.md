@@ -50,30 +50,30 @@ coverCaption: ""
 **Copiez ce modèle** pour une petite tâche de programmation ou de recherche. Supprimez les champs sans rapport avec la tâche au lieu de les remplir avec des formulations vagues.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Résultat :
+Source de référence et révision :
+Fichiers ou enregistrements concernés :
+Modifications autorisées :
+Modifications et actions exclues :
+Exemples de comportement attendu :
+Vérifications de fin :
+Quand s’arrêter ou poser une question :
+Compte rendu avec :
 ```
 
 **Pour le laboratoire,** le dossier rempli ressemble à ceci :
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Objectif : ajoute un filtre --status facultatif à task_report.py.
+Source : docs/requirements.md, révision 1.
+Fichiers concernés : task_report.py, tasks.json, tests/.
+Modifications autorisées : task_report.py et tests ciblés.
+Exclus : tasks.json, nouvelles dépendances, commits et envois.
+Exemples : sans filtre, affiche Total tasks: 4. open et done affichent 2 chacun.
+Vérifications : lance les tests unitaires et quatre commandes manuelles : sans filtre, open, done et une valeur invalide.
+La valeur invalide doit renvoyer un code de sortie non nul avec un message clair.
+Arrête-toi ou demande si les sources se contredisent, si un fichier manque ou si un échec initial sans rapport survient.
+Compte rendu : fichiers modifiés, commandes, résultats observés et points non résolus.
 ```
 
 **Sous Windows,** utilisez `py -3` dans toute commande du dossier si votre environnement utilise le lanceur Python.

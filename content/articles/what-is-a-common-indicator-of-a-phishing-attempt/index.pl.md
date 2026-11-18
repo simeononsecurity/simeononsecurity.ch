@@ -1,6 +1,7 @@
 ---
 title: "Rozpoznawanie prób phishingu: Typowe wskaźniki i wskazówki dotyczące bezpieczeństwa"
 date: 2023-06-18
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Kompleksowy przewodnik na temat rozpoznawania typowych oznak prób phishingu i praktyczne wskazówki dotyczące zachowania bezpieczeństwa w Internecie."
@@ -48,7 +49,7 @@ Próby phishingu zazwyczaj wymagają podania danych osobowych, takich jak hasła
 
 Zachowaj ostrożność w przypadku nieoczekiwanych załączników do wiadomości e-mail, zwłaszcza jeśli pochodzą one od nieznanych nadawców. Wiadomości phishingowe mogą zawierać załączniki zawierające złośliwe oprogramowanie lub wirusy. Unikaj otwierania załączników, chyba że się ich spodziewasz i zweryfikowałeś źródło.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Wskazówki dotyczące bezpieczeństwa w Internecie**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Teraz, gdy znasz już typowe wskaźniki prób phishingu, oto kilka wskazówek, które pomogą Ci zachować bezpieczeństwo w Internecie:
 

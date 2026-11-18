@@ -1,10 +1,11 @@
 ---
 title: "Infrastructure as CodeのためのTerraformをはじめよう。"
 date: 2023-05-04
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Infrastructure as Codeの代表的なツールであるTerraformの基本を学び、インフラを効率的に管理するための使い方を紹介します。"
-tags: ["テラフォーム", "コードとしてのインフラ", "アイエーシー", "クラウドコンピューティング", "デブオプス", "オートメーション", "エーダブリュエス", "アズール", "グーグルクラウド", "クラウドプロバイダー", "コンフィギュレーションマネジメント", "デプロイメント", "プロビジョニング", "リソースマネジメント", "スケーラビリティ", "レジリエンス", "セキュリティ", "コンプライアンス", "ベストプラクティス"]
+tags: ["Terraform", "コードとしてのインフラ", "アイエーシー", "クラウドコンピューティング", "DevOps", "オートメーション", "AWS", "Azure", "Google Cloud", "クラウドプロバイダー", "コンフィギュレーションマネジメント", "デプロイメント", "プロビジョニング", "リソースマネジメント", "スケーラビリティ", "レジリエンス", "セキュリティ", "コンプライアンス", "ベストプラクティス"]
 cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Terraformでインフラを管理することを意味し、ネットワークに接続された複数の機器が積み木のように見える漫画のようなコンピューターモニター。"
 coverCaption: ""
@@ -22,23 +23,23 @@ coverCaption: ""
 
 Infrastructure as Codeの用途にTeraformを使用することで、以下のような利点があります：
 
-- 効率とスピード:** Teraformは、手作業によるプロセスを排除することで、より速く、より効率的なインフラ管理を可能にします。
+- **効率とスピード:** Teraformは、手作業によるプロセスを排除することで、より速く、より効率的なインフラ管理を可能にします。
 
-- インフラストラクチャの定義にコードを使用することで、Teraformは環境間の一貫性を確保します。
+- **一貫性:** インフラストラクチャをコードで定義することで、Teraformは環境間の一貫性を確保します。
 
-- スケーラビリティ:** Teraformは、増大する需要に対応するため、インフラストラクチャを容易に拡張することが可能です。
+- **スケーラビリティ:** Teraformは、増大する需要に対応するため、インフラストラクチャを容易に拡張することが可能です。
 
-- コラボレーション： ** Teraformの設定ファイルはバージョン管理され、チームメンバー間で共有することができるため、コラボレーションを容易にすることができます。
+- **コラボレーション:** Teraformの設定ファイルはバージョン管理され、チームメンバー間で共有することができるため、コラボレーションを容易にすることができます。
 
-- **Cost Savings:** Teraformはリソースのプロビジョニングとデプロビジョニングを簡単に行うことができるため、コスト削減が可能です。
+- **コスト削減:** Teraformはリソースのプロビジョニングとデプロビジョニングを簡単に行うことができるため、コスト削減が可能です。
 
 ## Teraformを使いこなすために
 
 Teraformを使い始めるには、以下のものが必要です：
 
-1.**Teraform のダウンロード： ** Teraform は、以下のサイトからダウンロードすることができます。[official website](https://www.terraform.io/downloads.html)
+1. **Teraformのダウンロード:** Teraform は、以下のサイトからダウンロードすることができます。[公式サイト](https://www.terraform.io/downloads.html)
 
-2.**Create a Configuration File:** Teraformは、HashiCorp Configuration Language（HCL）またはJSONで書かれた設定ファイルを使用します。設定ファイルには、作成・更新・削除したいインフラが定義されています。
+2. **設定ファイルの作成:** Teraformは、HashiCorp Configuration Language（HCL）またはJSONで書かれた設定ファイルを使用します。設定ファイルには、作成・更新・削除したいインフラが定義されています。
 
 Terraformを使用するには、目的のインフラストラクチャを定義するための設定ファイルを作成する必要があります。設定ファイルには、作成するリソース、そのプロパティ、依存関係が指定されています。
 
@@ -114,13 +115,13 @@ resource "vsphere_virtual_machine" "vm" {
 
 構成ファイルを作成すると、それを使用してインフラストラクチャ・リソースを作成、更新、または削除することができます。
 
-3.**Teraformの初期化:**設定ファイルを作成したら、Teraformを初期化するために`terraform init`コマンドを実行します。これにより、必要なプラグインやモジュールがダウンロードされます。
+3. **Teraformの初期化:**設定ファイルを作成したら、Teraformを初期化するために`terraform init`コマンドを実行します。これにより、必要なプラグインやモジュールがダウンロードされます。
 
 例えば、設定ファイルの名前が`main.tf`という名前のディレクトリに`terraform-example`で以下のコマンドを実行することで、Terraformを初期化することができます。`terraform-example`ディレクトリを作成します：```terraform init```
 
 設定ファイルに指定された必要なプラグインやモジュールをダウンロードします。
 
-1.**Plan and Apply Infrastructure:** 初期化した後、次のように実行します。`terraform plan`コマンドを使用して、インフラストラクチャにどのような変更が行われるかを確認し、変更を適用します。`terraform apply`コマンドを使用します。
+4. **インフラの計画と適用:** 初期化した後、次のように実行します。`terraform plan`コマンドを使用して、インフラストラクチャにどのような変更が行われるかを確認し、変更を適用します。`terraform apply`コマンドを使用します。
 
 初期化後、インフラストラクチャにどのような変更を加えるかを計画するために`terraform plan`コマンドを使用します。これにより、どのようなリソースが作成、更新、または削除されるかがわかります。たとえば、次のような名前の設定ファイルがあるとします。`main.tf`という名前のディレクトリに`terraform-example`は、以下のコマンドを実行することで、インフラの変更を計画することができます：
 
@@ -138,13 +139,13 @@ resource "vsphere_virtual_machine" "vm" {
 
 Teraformを効果的に使用するために、以下のベストプラクティスに従うことを検討してください：
 
-- バージョンコントロールの使用:** Teraformの設定ファイルをバージョンコントロールに保存し、コラボレーションを可能にし、変更点を確実に追跡します。
+- **バージョン管理を使う:** Teraformの設定ファイルをバージョンコントロールに保存し、コラボレーションを可能にし、変更点を確実に追跡します。
 
-- モジュールを使用する:** Teraformのモジュールを使用して、コードを整理し再利用します。
+- **モジュールを使う:** Teraformのモジュールを使用して、コードを整理し再利用します。
 
-- **Separate Configurations:** 環境ごとに設定を分ける (例: dev, staging, prod) ことで、一貫性を確保し、設定のドリフトを回避します。
+- **構成を分ける:** 環境ごとに設定を分ける (例: dev, staging, prod) ことで、一貫性を確保し、設定のドリフトを回避します。
 
-- 変更を検証する:**インフラストラクチャに変更を適用する前に、(1) (2) (3) (4) (5) (6) (7)を使用して、変更を検証してください。`terraform plan`コマンドを使用します。
+- **変更を検証する:**インフラストラクチャに変更を適用する前に、(1) (2) (3) (4) (5) (6) (7)を使用して、変更を検証してください。`terraform plan`コマンドを使用します。
 
 ## 結論
 
@@ -152,8 +153,8 @@ Teraformは、より速く、より効率的で、一貫性のあるインフラ
 
 ---
 
-**参考文献：**1
+**参考文献：**
 
--[Teraform Official Website](https://www.terraform.io/)
--[Teraform Documentation](https://www.terraform.io/docs/index.html)
--[AWS Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)
+- [Teraform公式サイト](https://www.terraform.io/)
+- [Teraformのドキュメント](https://www.terraform.io/docs/index.html)
+- [AWSのセキュリティ、アイデンティティ、コンプライアンスに関するベストプラクティス](https://aws.amazon.com/architecture/security-identity-compliance/)

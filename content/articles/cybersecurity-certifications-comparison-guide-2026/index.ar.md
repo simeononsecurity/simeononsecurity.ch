@@ -1,7 +1,7 @@
 ---
 title: "مقارنة شهادات الأمن السيبراني لعام 2026"
 date: 2026-05-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "مقارنة لعام 2026 بين مزودي شهادات الأمن السيبراني وأسعارهم والعائد على الاستثمار ومدى ملاءمتهم للمسارات المهنية."
@@ -141,12 +141,12 @@ ______
 
 **مثال من الواقع:**
 ```
-Job Listing Analysis (SOC Analyst I, Fortune 500 Company):
-"Required: Security+ or equivalent"
-"Preferred: Bachelor's degree OR 2 years experience"
+تحليل إعلانات الوظائف (محلل مركز العمليات الأمنية من المستوى الأول، شركة من قائمة Fortune 500):
+"مطلوب: Security+ أو ما يعادلها"
+"مفضّل: درجة البكالوريوس أو خبرة لمدة عامين"
 
-Translation: Security+ = Entry ticket. Nobody cares after 2 years of experience.
-Salary Range: $60,000-$75,000
+الخلاصة: Security+ تذكرة دخول. لا يهتم بها أحد بعد عامين من الخبرة.
+نطاق الراتب: $60,000-$75,000
 ```
 
 **تكامل الذكاء الاصطناعي في 2026:**
@@ -197,12 +197,12 @@ ______
 
 **تحليل CISSP في إعلانات الوظائف:**
 ```
-Entry-Level SOC Analyst: "CISSP preferred" (12% of listings)
-Mid-Level Security Engineer: "CISSP required" (45% of listings)
-Senior Security Architect: "CISSP required" (78% of listings)
-CISO: "CISSP required" (85% of listings)
+محلل مركز العمليات الأمنية للمبتدئين: "يفضّل CISSP" (12% من الإعلانات)
+مهندس أمن بمستوى متوسط: "CISSP مطلوب" (45% من الإعلانات)
+مهندس معماري أمني خبير: "CISSP مطلوب" (78% من الإعلانات)
+مسؤول أمن المعلومات: "CISSP مطلوب" (85% من الإعلانات)
 
-Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
+الواقع: يظهر CISSP في كل مكان، لكنه لا يُشترط للمبتدئين فعليًا.
 ```
 
 **مجالات CISSP الثمانية، إصدار 2026:**
@@ -233,14 +233,14 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 
 **تحليل التكلفة خلال 5 سنوات:**
 ```
-CISSP Total Cost of Ownership (5 years):
-- Exam: $749
-- Study materials: $200-500
-- Renewal fees: $135/year × 5 = $675
-- Total 5-year cost: $1,624-$1,924
-- Annual maintenance effort: 40 CPE credits/year
+إجمالي تكلفة CISSP على مدى 5 سنوات:
+- الاختبار: $749
+- مواد الدراسة: $200-500
+- رسوم التجديد: $135/سنة × 5 = $675
+- إجمالي التكلفة خلال 5 سنوات: $1,624-$1,924
+- جهد الصيانة السنوي: 40 رصيدًا للتطوير المهني المستمر (CPE)/سنة
 
-ROI: High if targeting management roles, moderate for technical IC roles
+ROI (العائد على الاستثمار): مرتفع عند استهداف مناصب إدارية، ومتوسط للأدوار التقنية الفردية (IC)
 ```
 
 **تكامل الذكاء الاصطناعي في 2026:**
@@ -314,14 +314,14 @@ ______
 
 **واقع الأسعار:**
 ```
-OSCP Cost Breakdown (2026):
-- Self-Guided Package (3 months lab time): $1,699
-- Learn One Package (3 months + Learn One year): $2,699
-- Exam retake: $249 each
+تفصيل تكاليف OSCP (2026):
+- باقة Self-Guided (3 أشهر من وقت المختبر): $1,699
+- باقة Learn One (3 أشهر + سنة من Learn One): $2,699
+- إعادة الاختبار: $249 لكل محاولة
 
-Removed in 2025: Learn Unlimited (unlimited time) - this angered community
+أُزيلت Learn Unlimited في 2025 (مدة غير محدودة)، ما أثار استياء المجتمع
 
-Average total cost including retakes: $1,950-$2,500
+متوسط التكلفة الإجمالية مع إعادة الاختبارات: $1,950-$2,500
 ```
 
 **نقاط القوة:**
@@ -496,19 +496,19 @@ ______
 **لماذا تتقدم السحابة في 2026:**
 
 ```
-Traditional Cybersecurity Jobs (2020-2024):
-- On-premises data centers
-- Physical firewalls and network security
-- Windows Server and Active Directory
-- VPN concentrators and DMZs
+وظائف الأمن السيبراني التقليدية (2020-2024):
+- مراكز بيانات مستضافة في مقر المؤسسة
+- جدران حماية مادية وأمن الشبكات
+- Windows Server وActive Directory
+- مُركّزات VPN ومناطق DMZ
 
-Modern Cybersecurity Jobs (2025-2026):
-- AWS, Azure, GCP cloud environments
-- Container security (Docker, Kubernetes)
-- Serverless security (Lambda, Azure Functions)
-- Identity and access management (IAM)
-- Infrastructure as Code (Terraform, CloudFormation)
-- AI/ML model security
+وظائف الأمن السيبراني الحديثة (2025-2026):
+- بيئات سحابية على AWS وAzure وGCP
+- أمن الحاويات (Docker وKubernetes)
+- أمن الحوسبة بلا خوادم (Lambda وAzure Functions)
+- إدارة الهوية والوصول (IAM)
+- البنية التحتية بوصفها شيفرة (Terraform وCloudFormation)
+- أمن نماذج AI/ML
 ```
 
 **فجوة المهارات كبيرة.** انتقلت المؤسسات إلى السحابة أسرع من اكتساب المتخصصين الأمنيين لمهاراتها، ما أوجد طلباً غير مسبوق.
@@ -557,23 +557,23 @@ Modern Cybersecurity Jobs (2025-2026):
 **تحليل التكلفة: السحابة مقابل المسار التقليدي:**
 
 ```
-Traditional Security Path (3-year cost):
+المسار الأمني التقليدي (تكلفة 3 سنوات):
 - Security+: $404
 - CySA+: $404
 - PenTest+: $404
-- CISSP: $749 + $405 renewal
-Total: $2,366 over 3 years
+- CISSP: $749 + $405 رسوم تجديد
+الإجمالي: $2,366 على مدى 3 سنوات
 
-Cloud Security Path (3-year cost):
+مسار أمن السحابة (تكلفة 3 سنوات):
 - AWS Cloud Practitioner: $100
 - AWS Solutions Architect Associate: $150
 - AWS Security Specialty: $300
 - Azure Fundamentals: $99
-- Azure Security Engineer: $165 + $165 renewal
-Total: $979 over 3 years
+- Azure Security Engineer: $165 + $165 رسوم تجديد
+الإجمالي: $979 على مدى 3 سنوات
 
-Savings: $1,387 (58% less expensive)
-Job Market Demand: 38% vs 36% (cloud higher)
+التوفير: $1,387 (58% أقل تكلفة)
+الطلب في سوق العمل: 38% مقابل 36% (طلب السحابة أعلى)
 ```
 
 **نقاط قوة شهادات السحابة:**
@@ -659,19 +659,19 @@ ______
 **المشكلة؟ السعر.**
 
 ```
-SANS GPEN (Penetration Testing) Total Cost:
-- SANS SEC560 Course: $7,995
-- GPEN Exam (2 attempts): $979
-- Books and materials: $200
-- Travel/lodging (if in-person): $2,000+
-Total: $11,174 - $13,174
+إجمالي تكلفة SANS GPEN (اختبار الاختراق):
+- دورة SANS SEC560: $7,995
+- اختبار GPEN (محاولتان): $979
+- الكتب والمواد: $200
+- السفر والإقامة (للحضور الشخصي): $2,000+
+الإجمالي: $11,174 - $13,174
 
-Alternative:
+بديل:
 - OSCP: $1,699-2,699
-- Or HackTheBox CPTS: $499
-- Or OffSec + HTB combined: $2,198
+- أو HackTheBox CPTS: $499
+- أو OffSec وHTB معًا: $2,198
 
-Savings with alternatives: $8,976-$10,976 (75-83% less expensive)
+التوفير باستخدام البدائل: $8,976-$10,976 (75-83% أقل تكلفة)
 ```
 
 **تفصيل أسعار SANS:**
@@ -1046,11 +1046,11 @@ ______
 **استراتيجية الشهادات لعصر الذكاء الاصطناعي:**
 
 ```
-WRONG Approach:
-"Get AI-proof certification" → No such thing exists
+نهج خاطئ:
+"الحصول على شهادة منيعة أمام الذكاء الاصطناعي" → لا توجد شهادة كهذه
 
-RIGHT Approach:
-"Get AI-aware certifications" → Choose vendors updating content
+نهج صحيح:
+"الحصول على شهادات تواكب الذكاء الاصطناعي" → اختر جهات تحدّث المحتوى
 ```
 
 **المزودون المتقدمون:** AWS وAzure وISC2 وSANS، رغم تكلفتها العالية

@@ -1,6 +1,7 @@
 ---
 title: "効果的な情報保護のためのOPSECプロセスの主要コンポーネントの理解"
 date: 2023-06-15
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "OPSECプロセスの重要な構成要素を探り、機密情報を効果的に保護する方法を学ぶことができます。"
@@ -54,7 +55,7 @@ ______
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)HIPAAは、医療分野における患者さんの機密性の高い健康情報を保護するためのセキュリティ基準を定めています。
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPRは、欧州連合（EU）域内における個人データ保護の指針を定める規則です。
 
 これらの規制を遵守することで、組織は機密情報を保護するための適切な対策を講じ、法的な影響を回避することができます。
 

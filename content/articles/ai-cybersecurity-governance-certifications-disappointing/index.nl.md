@@ -3,9 +3,9 @@ title: "AI-cybersecuritycertificeringen: ze lopen achter op de praktijk"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Een mening over de kloof tussen certificeringen voor AI-governance en de praktijk van AI-beveiliging, gebaseerd op certificeringservaring en de huidige grenzen van het aanvalsoppervlak."
-tags: ["AI-beveiliging", "AI-governance", "AI-certificeringen", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "prompt injection", "AI-cybersecurity", "LLM-beveiliging", "OWASP LLM Top 10", "MITRE ATLAS", "AI-risicobeheer", "AI-compliance", "machinelearningbeveiliging", "modeltoeleveringsketen", "adversarial AI", "AI-agenten", "MCP-beveiliging", "AI red teaming", "AI-governancecertificeringen", "agentic AI", "Google SAIF"]
+tags: ["AI-beveiliging", "AI-governance", "AI-certificeringen", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "promptinjectie", "AI-cybersecurity", "LLM-beveiliging", "OWASP LLM Top 10", "MITRE ATLAS", "AI-risicobeheer", "AI-compliance", "machinelearningbeveiliging", "modeltoeleveringsketen", "adversariële AI", "AI-agenten", "MCP-beveiliging", "AI-red-teaming", "AI-governancecertificeringen", "agentische AI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "De afbeelding toont twee contrasterende scènes: aan de ene kant bespreken professionals op kantoor governance-documenten, aan de andere kant staan chaotische digitale beelden voor AI-systemen onder cyberaanval. Felle kleuren benadrukken het contrast."
 coverCaption: ""

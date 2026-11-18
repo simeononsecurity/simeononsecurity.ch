@@ -3,7 +3,7 @@ title: "Geavanceerde RayHunter 2026: Technieken en probleemoplossing"
 draft: false
 toc: true
 date: 2026-03-10
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 description: "Technische handleiding voor geavanceerde RayHunter-technieken, probleemoplossing, aangepaste configuraties, API-integratie en workflows voor detectie van IMSI-catchers."
 tags: ["Rayhunter", "geavanceerde technieken", "probleemoplossing", "configuratie voor experts", "IMSI-catcher", "surveillancedetectie", "heuristische optimalisatie", "API-integratie", "analyseworkflows", "dreigingsmodellering", "beveiliging van mobiele netwerken", "draadloze forensische analyse", "detectieoptimalisatie", "aangepaste configuraties", "geavanceerde implementatie", "beveiligingsonderzoek", "netwerkanalyse", "RF-analyse", "maatregelen tegen surveillance", "privacytools"]
 cover: "/img/cover/advanced-rayhunter-techniques-troubleshooting-2026.webp"
@@ -44,15 +44,15 @@ De detectieprestaties van **RayHunter** hangen sterk af van de juiste configurat
 **Configuratie voor stedelijke gebieden met hoge dichtheid**:
 ```toml
 [heuristics]
-# Reduce sensitivity for busy urban environments
+# Verlaag de gevoeligheid in drukke stedelijke gebieden
 connection_release_detection = { enabled = true, sensitivity = "low", timeout = 30 }
 imsi_request_detection = { enabled = true, threshold = 3, window = 60 }
 null_cipher_detection = { enabled = true, immediate_alert = false }
 sib_downgrade_detection = { enabled = true, sensitivity = "medium" }
-incomplete_sib_detection = { enabled = false }  # High false positive rate in urban areas
+incomplete_sib_detection = { enabled = false }  # Veel fout-positieven in stedelijke gebieden
 
 [filtering]
-# Advanced filtering for urban environments
+# Geavanceerde filtering voor stedelijke omgevingen
 tower_density_threshold = 20
 legitimate_carrier_whitelist = ["Verizon", "AT&T", "T-Mobile"]
 frequency_hopping_tolerance = 5
@@ -61,7 +61,7 @@ frequency_hopping_tolerance = 5
 **Configuratie voor landelijke gebieden met lage dichtheid**:
 ```toml
 [heuristics]
-# Increase sensitivity for sparse environments
+# Verhoog de gevoeligheid in dunbevolkte gebieden
 connection_release_detection = { enabled = true, sensitivity = "high", timeout = 10 }
 imsi_request_detection = { enabled = true, threshold = 1, window = 30 }
 null_cipher_detection = { enabled = true, immediate_alert = true }
@@ -69,7 +69,7 @@ sib_downgrade_detection = { enabled = true, sensitivity = "high" }
 incomplete_sib_detection = { enabled = true, threshold = 2 }
 
 [filtering]
-# Minimal filtering for rural environments
+# Minimale filtering voor landelijke gebieden
 tower_density_threshold = 5
 legitimate_carrier_whitelist = []
 frequency_hopping_tolerance = 1
@@ -78,16 +78,16 @@ frequency_hopping_tolerance = 1
 **Configuratie voor evenementen met hoge beveiligingseisen**:
 ```toml
 [heuristics]
-# Maximum sensitivity for high-risk scenarios
+# Maximale gevoeligheid voor scenario's met een hoog risico
 connection_release_detection = { enabled = true, sensitivity = "maximum", timeout = 5 }
 imsi_request_detection = { enabled = true, threshold = 1, window = 15 }
 null_cipher_detection = { enabled = true, immediate_alert = true, block_connection = true }
 sib_downgrade_detection = { enabled = true, sensitivity = "maximum" }
 incomplete_sib_detection = { enabled = true, threshold = 1 }
-test_heuristic = { enabled = false }  # Never enable test mode during operations
+test_heuristic = { enabled = false }  # Schakel de testmodus nooit in tijdens gebruik
 
 [alerting]
-# Immediate alerts for high-security scenarios
+# Directe meldingen voor scenario's met hoge beveiliging
 alert_threshold = "low"
 immediate_notification = true
 multi_channel_alerts = true
@@ -100,21 +100,21 @@ Ervaren gebruikers kunnen aangepaste detectieheuristieken ontwikkelen door de co
 **Aangepaste heuristiek voor timinganalyse**:
 ```toml
 [custom_heuristics]
-# Custom timing-based detection
+# Aangepaste detectie op basis van tijd
 timing_anomaly_detection = {
     enabled = true,
-    baseline_establishment = 300,  # 5 minutes baseline
-    deviation_threshold = 3.0,     # 3 standard deviations
+    baseline_establishment = 300,  # Basislijn van 5 minuten
+    deviation_threshold = 3.0,     # 3 standaardafwijkingen
     minimum_samples = 50,
     alert_on_first_deviation = false
 }
 
-# Advanced pattern recognition
+# Geavanceerde patroonherkenning
 cell_tower_behavior_analysis = {
     enabled = true,
-    learning_period = 3600,        # 1 hour learning
-    pattern_memory = 168,          # 7 days pattern retention
-    anomaly_sensitivity = 0.85,    # 85% confidence threshold
+    learning_period = 3600,        # Leertijd van 1 uur
+    pattern_memory = 168,          # Patronen 7 dagen bewaren
+    anomaly_sensitivity = 0.85,    # Betrouwbaarheidsdrempel van 85%
     behavioral_baseline = "adaptive"
 }
 ```
@@ -122,19 +122,19 @@ cell_tower_behavior_analysis = {
 **Heuristiek voor geografische correlatie**:
 ```toml
 [geo_correlation]
-# Location-based threat assessment
+# Locatiegebaseerde dreigingsbeoordeling
 enabled = true
-gps_accuracy_threshold = 10        # 10 meter accuracy required
-movement_speed_threshold = 50      # 50 km/h maximum reasonable speed
-stationary_threshold = 100         # 100 meter stationary radius
+gps_accuracy_threshold = 10        # Vereiste nauwkeurigheid van 10 meter
+movement_speed_threshold = 50      # Redelijke maximumsnelheid van 50 km/u
+stationary_threshold = 100         # Stilstaande straal van 100 meter
 suspicious_location_database = "/data/rayhunter/suspicious_locations.db"
 
-# Coordinated detection across multiple devices
+# Gecoördineerde detectie op meerdere apparaten
 multi_device_correlation = {
     enabled = true,
-    correlation_radius = 1000,     # 1km correlation radius
-    time_synchronization = 5,      # 5 second time sync tolerance
-    consensus_threshold = 0.67     # 67% of devices must agree
+    correlation_radius = 1000,     # Correlatiestraal van 1 km
+    time_synchronization = 5,      # Tijdsynchronisatietolerantie van 5 seconden
+    consensus_threshold = 0.67     # 67% van de apparaten moet overeenstemmen
 }
 ```
 
@@ -145,20 +145,20 @@ Voor langdurige operaties zijn strategieën voor energiebeheer nodig die verder 
 **Adaptief energiebeheer**:
 ```toml
 [power_management]
-# Dynamic power scaling based on threat level
+# Dynamische energieregeling op basis van het dreigingsniveau
 adaptive_scaling = true
 baseline_power_mode = "balanced"
 high_alert_power_mode = "maximum_performance"
 low_activity_power_mode = "extended_battery"
 
-# Scheduled operation modes
+# Geplande bedrijfsmodi
 scheduled_modes = [
     { time = "00:00-06:00", mode = "low_power", days = ["monday", "tuesday", "wednesday", "thursday", "friday"] },
     { time = "06:00-22:00", mode = "high_sensitivity", days = ["saturday", "sunday"] },
     { time = "22:00-24:00", mode = "balanced", days = "all" }
 ]
 
-# Battery-level triggered mode changes
+# Moduswijzigingen op basis van batterijniveau
 battery_thresholds = {
     "90%" = "maximum_performance",
     "50%" = "balanced",
@@ -170,18 +170,18 @@ battery_thresholds = {
 **Energiebeheer voor meerdere apparaten**:
 ```toml
 [coordinated_power]
-# Coordinate power management across multiple devices
+# Energiebeheer op meerdere apparaten coördineren
 device_roles = ["primary", "secondary", "backup"]
 role_switching_enabled = true
 battery_level_sharing = true
 automatic_failover = true
 
-# Advanced sleep/wake coordination
+# Geavanceerde afstemming van slaap- en waakstanden
 coordinated_sleep_cycles = {
     enabled = true,
-    sleep_rotation_interval = 300,  # 5 minutes
+    sleep_rotation_interval = 300,  # 5 minuten
     minimum_active_devices = 2,
-    overlap_period = 30             # 30 seconds overlap
+    overlap_period = 30             # Overlap van 30 seconden
 }
 ```
 
@@ -196,39 +196,39 @@ coordinated_sleep_cycles = {
 **Workflows voor batchanalyse**:
 ```bash
 #!/bin/bash
-# Advanced batch analysis script for multiple recordings
+# Geavanceerd batchescript voor meerdere opnamen
 
 ANALYSIS_DIR="/data/rayhunter/analysis"
 RECORDINGS_DIR="/data/rayhunter/recordings"
 OUTPUT_DIR="/data/rayhunter/reports"
 
-# Process all recordings with custom parameters
+# Verwerk alle opnamen met aangepaste parameters
 for recording in "$RECORDINGS_DIR"/*.qmdl; do
     filename=$(basename "$recording" .qmdl)
-    echo "Processing $filename..."
-    
-    # Standard analysis
+    echo "$filename wordt verwerkt..."
+
+    # Standaardanalyse
     rayhunter-check -p "$recording" --json > "$OUTPUT_DIR/${filename}_standard.json"
-    
-    # Debug analysis with extended output
+
+    # Foutopsporingsanalyse met uitgebreide uitvoer
     rayhunter-check -d -p "$recording" --verbose > "$OUTPUT_DIR/${filename}_debug.log"
-    
-    # Custom heuristic analysis
+
+    # Analyse met aangepaste heuristieken
     rayhunter-check -p "$recording" --config "/etc/rayhunter/custom_analysis.toml" \
         --output-format json > "$OUTPUT_DIR/${filename}_custom.json"
-    
-    # Threat correlation analysis
+
+    # Dreigingscorrelatie analyseren
     rayhunter-check -p "$recording" --correlate-threats \
         --baseline "$ANALYSIS_DIR/baseline.qmdl" > "$OUTPUT_DIR/${filename}_correlation.json"
 done
 
-# Generate consolidated report
+# Geconsolideerd rapport genereren
 python3 /opt/rayhunter/analysis/consolidate_reports.py "$OUTPUT_DIR" > "$OUTPUT_DIR/consolidated_analysis.html"
 ```
 
 **Geavanceerde filtering en analyse**:
 ```bash
-# Custom analysis with specific focus areas
+# Aangepaste analyse met specifieke aandachtspunten
 rayhunter-check -p recording.qmdl \
     --focus-heuristics "imsi_request,null_cipher" \
     --time-range "14:30-15:45" \
@@ -236,13 +236,13 @@ rayhunter-check -p recording.qmdl \
     --operator-filter "unknown" \
     --confidence-threshold 0.8
 
-# Comparative analysis between recordings
+# Opnamen met elkaar vergelijken
 rayhunter-check --compare recording1.qmdl recording2.qmdl \
     --baseline-period 300 \
     --anomaly-detection \
     --statistical-analysis
 
-# Integration with external tools
+# Integratie met externe hulpprogramma's
 rayhunter-check -p recording.qmdl --export-wireshark | \
     tshark -r - -Y "gsm || lte" -T json > cellular_traffic.json
 ```
@@ -253,8 +253,8 @@ rayhunter-check -p recording.qmdl --export-wireshark | \
 ```python
 #!/usr/bin/env python3
 """
-Advanced RayHunter Analysis Integration
-Provides sophisticated analysis capabilities for RayHunter data
+Geavanceerde RayHunter-analyse-integratie
+Biedt geavanceerde analysemogelijkheden voor RayHunter-gegevens
 """
 
 import json
@@ -269,13 +269,13 @@ class RayHunterAnalyzer:
     def __init__(self, database_path="/data/rayhunter/analysis.db"):
         self.db_path = database_path
         self.init_database()
-    
+
     def init_database(self):
-        """Initialize analysis database with custom schema"""
+        """Analysedatabase met een aangepast schema initialiseren"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        # Create advanced analysis tables
+
+        # Geavanceerde analysetabellen maken
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS threat_events (
                 id INTEGER PRIMARY KEY,
@@ -289,7 +289,7 @@ class RayHunterAnalyzer:
                 correlated_events TEXT
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS baseline_data (
                 id INTEGER PRIMARY KEY,
@@ -301,16 +301,16 @@ class RayHunterAnalyzer:
                 anomaly_thresholds TEXT
             )
         ''')
-        
+
         conn.commit()
         conn.close()
-    
+
     def process_rayhunter_json(self, json_file_path):
-        """Process RayHunter JSON output for advanced analysis"""
+        """RayHunter JSON-uitvoer verwerken voor geavanceerde analyse"""
         with open(json_file_path, 'r') as f:
             data = json.load(f)
-        
-        # Extract and normalize threat events
+
+        # Dreigingsgebeurtenissen extraheren en normaliseren
         events = []
         for alert in data.get('alerts', []):
             event = {
@@ -321,37 +321,37 @@ class RayHunterAnalyzer:
                 'device_location': alert.get('location', {})
             }
             events.append(event)
-        
+
         return events
-    
+
     def calculate_confidence_score(self, alert):
-        """Calculate advanced confidence score based on multiple factors"""
+        """Geavanceerde betrouwbaarheidsscore op basis van meerdere factoren berekenen"""
         base_confidence = alert.get('confidence', 0.5)
-        
-        # Factor in multiple data points
+
+        # Meerdere gegevenspunten meewegen
         factors = {
             'signal_strength': alert.get('signal_strength', 0) / 100,
             'timing_consistency': alert.get('timing_score', 0.5),
             'protocol_compliance': alert.get('protocol_score', 0.5),
             'environmental_context': alert.get('environment_score', 0.5)
         }
-        
-        # Weighted confidence calculation
-        weights = {'signal_strength': 0.3, 'timing_consistency': 0.25, 
+
+        # Gewogen betrouwbaarheid berekenen
+        weights = {'signal_strength': 0.3, 'timing_consistency': 0.25,
                   'protocol_compliance': 0.25, 'environmental_context': 0.2}
-        
+
         weighted_confidence = sum(factors[k] * weights[k] for k in factors)
         return min(base_confidence + weighted_confidence, 1.0)
-    
+
     def correlation_analysis(self, events, time_window=300):
-        """Perform temporal and spatial correlation analysis"""
+        """Temporele en ruimtelijke correlatieanalyse uitvoeren"""
         correlations = []
-        
+
         for i, event1 in enumerate(events):
             for j, event2 in enumerate(events[i+1:], i+1):
-                time_diff = abs((datetime.fromisoformat(event1['timestamp']) - 
+                time_diff = abs((datetime.fromisoformat(event1['timestamp']) -
                                datetime.fromisoformat(event2['timestamp'])).total_seconds())
-                
+
                 if time_diff <= time_window:
                     correlation = {
                         'event1_id': i,
@@ -361,46 +361,46 @@ class RayHunterAnalyzer:
                         'threat_escalation': self.assess_threat_escalation(event1, event2)
                     }
                     correlations.append(correlation)
-        
+
         return correlations
-    
+
     def calculate_correlation_strength(self, event1, event2):
-        """Calculate correlation strength between two events"""
-        # Implement sophisticated correlation algorithm
+        """Correlatiesterkte tussen twee gebeurtenissen berekenen"""
+        # Geavanceerd correlatiealgoritme implementeren
         similarity_factors = []
-        
-        # Threat type similarity
+
+        # Overeenkomst tussen dreigingstypen
         if event1['threat_type'] == event2['threat_type']:
             similarity_factors.append(0.4)
         elif self.are_related_threats(event1['threat_type'], event2['threat_type']):
             similarity_factors.append(0.2)
-        
-        # Confidence score similarity
+
+        # Overeenkomst tussen betrouwbaarheidsscores
         confidence_diff = abs(event1['confidence_score'] - event2['confidence_score'])
         similarity_factors.append(1.0 - confidence_diff)
-        
+
         return np.mean(similarity_factors)
-    
+
     def generate_threat_report(self, analysis_period_hours=24):
-        """Generate comprehensive threat assessment report"""
+        """Uitgebreid rapport voor dreigingsbeoordeling genereren"""
         end_time = datetime.now()
         start_time = end_time - timedelta(hours=analysis_period_hours)
-        
-        # Query database for recent events
+
+        # Recente gebeurtenissen opvragen uit de database
         conn = sqlite3.connect(self.db_path)
         query = '''
-            SELECT * FROM threat_events 
+            SELECT * FROM threat_events
             WHERE timestamp BETWEEN ? AND ?
             ORDER BY timestamp DESC
         '''
-        
+
         df = pd.read_sql_query(query, conn, params=(start_time.isoformat(), end_time.isoformat()))
         conn.close()
-        
+
         if df.empty:
             return {"status": "no_threats", "period": analysis_period_hours}
-        
-        # Generate statistical analysis
+
+        # Statistische analyse genereren
         threat_stats = {
             'total_events': len(df),
             'unique_threat_types': df['threat_type'].nunique(),
@@ -409,7 +409,7 @@ class RayHunterAnalyzer:
             'temporal_patterns': self.analyze_temporal_patterns(df),
             'risk_assessment': self.calculate_risk_level(df)
         }
-        
+
         return threat_stats
 ```
 
@@ -423,8 +423,8 @@ De **REST API** van **RayHunter** ondersteunt geavanceerde automatisering en int
 ```python
 #!/usr/bin/env python3
 """
-Enterprise RayHunter Monitoring System
-Automated threat detection and response integration
+RayHunter-bewakingssysteem voor bedrijven
+Integratie van geautomatiseerde dreigingsdetectie en respons
 """
 
 import requests
@@ -441,9 +441,9 @@ class RayHunterMonitor:
         self.devices = device_configs
         self.alert_handlers = []
         self.setup_logging()
-    
+
     def setup_logging(self):
-        """Configure enterprise-grade logging"""
+        """Logging op bedrijfsniveau configureren"""
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -453,33 +453,33 @@ class RayHunterMonitor:
             ]
         )
         self.logger = logging.getLogger('RayHunterMonitor')
-    
+
     def monitor_devices(self, poll_interval=30):
-        """Continuous monitoring of multiple RayHunter devices"""
+        """Meerdere RayHunter-apparaten voortdurend bewaken"""
         while True:
             for device_name, config in self.devices.items():
                 try:
                     device_status = self.check_device_status(config)
                     alerts = self.get_recent_alerts(config)
-                    
+
                     if alerts:
                         self.process_alerts(device_name, alerts)
-                    
+
                     self.log_device_status(device_name, device_status)
-                    
+
                 except Exception as e:
-                    self.logger.error(f"Error monitoring device {device_name}: {e}")
-            
+                    self.logger.error(f"Fout bij het bewaken van apparaat {device_name}: {e}")
+
             time.sleep(poll_interval)
-    
+
     def check_device_status(self, config):
-        """Check comprehensive device status via API"""
+        """Volledige apparaatstatus via de API controleren"""
         api_url = f"http://{config['ip']}:8080/api/status"
-        
+
         try:
             response = requests.get(api_url, timeout=10)
             response.raise_for_status()
-            
+
             status_data = response.json()
             return {
                 'online': True,
@@ -490,65 +490,65 @@ class RayHunterMonitor:
                 'heuristics_enabled': status_data.get('active_heuristics')
             }
         except requests.RequestException as e:
-            self.logger.warning(f"Device {config['ip']} unreachable: {e}")
+            self.logger.warning(f"Apparaat {config['ip']} niet bereikbaar: {e}")
             return {'online': False, 'error': str(e)}
-    
+
     def get_recent_alerts(self, config, minutes=5):
-        """Retrieve recent alerts from device"""
+        """Recente meldingen van het apparaat ophalen"""
         api_url = f"http://{config['ip']}:8080/api/alerts"
         params = {'since': f"{minutes}min"}
-        
+
         try:
             response = requests.get(api_url, params=params, timeout=10)
             response.raise_for_status()
             return response.json().get('alerts', [])
         except requests.RequestException:
             return []
-    
+
     def process_alerts(self, device_name, alerts):
-        """Process and respond to alerts"""
+        """Meldingen verwerken en erop reageren"""
         for alert in alerts:
             alert_level = self.assess_alert_severity(alert)
-            
+
             if alert_level == 'CRITICAL':
                 self.handle_critical_alert(device_name, alert)
             elif alert_level == 'HIGH':
                 self.handle_high_alert(device_name, alert)
             elif alert_level == 'MEDIUM':
                 self.handle_medium_alert(device_name, alert)
-            
-            # Log all alerts
-            self.logger.info(f"Alert from {device_name}: {alert['heuristic']} - {alert_level}")
-    
+
+            # Alle meldingen registreren
+            self.logger.info(f"Melding van {device_name}: {alert['heuristic']} - {alert_level}")
+
     def assess_alert_severity(self, alert):
-        """Assess alert severity based on multiple factors"""
+        """Ernst van een melding op basis van meerdere factoren beoordelen"""
         threat_type = alert.get('heuristic', '')
         confidence = alert.get('confidence_score', 0)
-        
-        # Critical threats
+
+        # Kritieke dreigingen
         if threat_type in ['null_cipher_detection', 'imsi_request_detection'] and confidence > 0.9:
             return 'CRITICAL'
-        
-        # High severity threats
+
+        # Dreigingen met hoge ernst
         elif threat_type in ['connection_release_detection', 'sib_downgrade_detection'] and confidence > 0.8:
             return 'HIGH'
-        
-        # Medium severity
+
+        # Gemiddelde ernst
         elif confidence > 0.6:
             return 'MEDIUM'
-        
+
         return 'LOW'
-    
+
     def handle_critical_alert(self, device_name, alert):
-        """Handle critical security alerts with immediate response"""
-        # Send immediate notifications
-        self.send_sms_alert(f"CRITICAL: IMSI catcher detected by {device_name}")
-        self.send_email_alert("CRITICAL THREAT", device_name, alert)
-        
-        # Execute automated response
+        """Kritieke beveiligingsmeldingen direct afhandelen"""
+        # Directe meldingen versturen
+        self.send_sms_alert(f"KRITIEK: IMSI-catcher gedetecteerd door {device_name}")
+        self.send_email_alert("KRITIEKE DREIGING", device_name, alert)
+
+        # Automatische reactie uitvoeren
         subprocess.run(['/opt/security/scripts/critical_response.sh', device_name])
-        
-        # Log to SIEM
+
+        # In SIEM registreren
         self.log_to_siem('CRITICAL', device_name, alert)
 ```
 
@@ -557,9 +557,9 @@ class RayHunterMonitor:
 **SIEM-integratiescript**:
 ```python
 def integrate_with_siem(self, alert_data):
-    """Integration with enterprise SIEM systems"""
-    
-    # Splunk integration
+    """Integratie met SIEM-systemen voor bedrijven"""
+
+    # Integratie met Splunk
     splunk_data = {
         'sourcetype': 'rayhunter:alert',
         'source': f"rayhunter:{alert_data['device_name']}",
@@ -572,19 +572,19 @@ def integrate_with_siem(self, alert_data):
             'severity': alert_data['severity']
         }
     }
-    
-    # Send to Splunk HEC
+
+    # Naar Splunk HEC verzenden
     requests.post(
         'https://splunk.company.com:8088/services/collector',
         headers={'Authorization': 'Splunk <HEC-TOKEN>'},
         json=splunk_data
     )
-    
-    # QRadar integration via syslog
-    syslog_message = f"RayHunter ALERT: {alert_data['heuristic']} detected " \
-                    f"with confidence {alert_data['confidence_score']:.2f} " \
-                    f"on device {alert_data['device_name']}"
-    
+
+    # Integratie met QRadar via syslog
+    syslog_message = f"RayHunter-waarschuwing: {alert_data['heuristic']} gedetecteerd " \
+                    f"met een betrouwbaarheid van {alert_data['confidence_score']:.2f} " \
+                    f"op apparaat {alert_data['device_name']}"
+
     subprocess.run([
         'logger', '-p', 'local0.alert', '-t', 'RayHunter', syslog_message
     ])
@@ -601,7 +601,7 @@ Bij geavanceerde inzet werken vaak meerdere **RayHunter**-apparaten samen voor v
 **Configuratie van master en slaves**:
 ```toml
 [coordination]
-# Master device configuration
+# Configuratie van het hoofdapparaat
 role = "master"
 slave_devices = [
     { ip = "192.168.1.101", name = "rayhunter-north", priority = 1 },
@@ -609,14 +609,14 @@ slave_devices = [
     { ip = "192.168.1.103", name = "rayhunter-west", priority = 3 }
 ]
 
-# Coordination settings
-sync_interval = 30              # Sync every 30 seconds
-correlation_window = 60         # 1 minute correlation window
-consensus_threshold = 0.67      # 67% agreement required for alert
+# Coördinatie-instellingen
+sync_interval = 30              # Elke 30 seconden synchroniseren
+correlation_window = 60         # Correlatievenster van 1 minuut
+consensus_threshold = 0.67      # Voor een melding is 67% overeenstemming vereist
 automatic_failover = true
-heartbeat_timeout = 120         # 2 minutes heartbeat timeout
+heartbeat_timeout = 120         # Time-out voor hartslagmelding van 2 minuten
 
-# Alert distribution
+# Meldingen verspreiden
 distribute_alerts = true
 alert_consolidation = true
 duplicate_suppression = true
@@ -626,15 +626,15 @@ cross_validation_required = true
 **Configuratie van slave-apparaten**:
 ```toml
 [coordination]
-# Slave device configuration
+# Configuratie van een secundair apparaat
 role = "slave"
 master_device = { ip = "192.168.1.100", name = "rayhunter-master" }
 
-# Reporting settings
-report_interval = 15            # Report every 15 seconds
-include_negative_results = true # Report lack of threats too
-local_decision_making = false   # Defer to master
-emergency_autonomous_mode = true # Act independently if master unavailable
+# Rapportage-instellingen
+report_interval = 15            # Elke 15 seconden rapporteren
+include_negative_results = true # Meld ook wanneer er geen dreigingen zijn
+local_decision_making = false   # Volg het hoofdapparaat
+emergency_autonomous_mode = true # Werk zelfstandig als het hoofdapparaat niet beschikbaar is
 ```
 
 ### Scripts voor gecoördineerde analyse
@@ -643,8 +643,8 @@ emergency_autonomous_mode = true # Act independently if master unavailable
 ```python
 #!/usr/bin/env python3
 """
-Multi-Device RayHunter Coordination System
-Provides coordinated threat detection across multiple devices
+RayHunter-coördinatiesysteem voor meerdere apparaten
+Biedt gecoördineerde dreigingsdetectie op meerdere apparaten
 """
 
 import asyncio
@@ -658,48 +658,48 @@ class CoordinatedDetectionSystem:
         self.devices = device_network
         self.correlation_matrix = {}
         self.active_threats = {}
-        
+
     async def coordinate_detection(self):
-        """Main coordination loop"""
+        """Hoofdlus voor coördinatie"""
         while True:
-            # Collect data from all devices
+            # Gegevens van alle apparaten verzamelen
             device_data = await self.collect_device_data()
-            
-            # Perform correlation analysis
+
+            # Correlatieanalyse uitvoeren
             correlated_threats = self.correlate_threats(device_data)
-            
-            # Validate threats through consensus
+
+            # Dreigingen valideren via consensus
             validated_threats = self.consensus_validation(correlated_threats)
-            
-            # Distribute validated threats back to devices
+
+            # Gevalideerde dreigingen naar apparaten verspreiden
             await self.distribute_threat_intelligence(validated_threats)
-            
-            await asyncio.sleep(30)  # 30-second coordination cycle
-    
+
+            await asyncio.sleep(30)  # Coördinatiecyclus van 30 seconden
+
     async def collect_device_data(self):
-        """Collect data from all devices in parallel"""
+        """Gegevens van alle apparaten verzamelen parallel"""
         tasks = []
         for device in self.devices:
             task = self.get_device_data(device)
             tasks.append(task)
-        
+
         results = await asyncio.gather(*tasks, return_exceptions=True)
         return {device['name']: result for device, result in zip(self.devices, results)}
-    
+
     async def get_device_data(self, device):
-        """Get data from individual device"""
+        """Gegevens van één apparaat ophalen"""
         async with aiohttp.ClientSession() as session:
             try:
-                # Get recent alerts
+                # Recente meldingen ophalen
                 alerts_url = f"http://{device['ip']}:8080/api/alerts?since=1min"
                 async with session.get(alerts_url) as response:
                     alerts_data = await response.json()
-                
-                # Get device status
+
+                # Apparaatstatus ophalen
                 status_url = f"http://{device['ip']}:8080/api/status"
                 async with session.get(status_url) as response:
                     status_data = await response.json()
-                
+
                 return {
                     'alerts': alerts_data.get('alerts', []),
                     'status': status_data,
@@ -707,79 +707,79 @@ class CoordinatedDetectionSystem:
                 }
             except Exception as e:
                 return {'error': str(e), 'timestamp': datetime.now().isoformat()}
-    
+
     def correlate_threats(self, device_data):
-        """Correlate threats across multiple devices"""
+        """Dreigingen van meerdere apparaten met elkaar correleren"""
         correlated_threats = []
-        
-        # Extract all alerts from all devices
+
+        # Alle meldingen van alle apparaten extraheren
         all_alerts = []
         for device_name, data in device_data.items():
             if 'alerts' in data:
                 for alert in data['alerts']:
                     alert['source_device'] = device_name
                     all_alerts.append(alert)
-        
-        # Group alerts by time and threat type
+
+        # Meldingen groeperen op tijd en dreigingstype
         threat_groups = self.group_alerts_by_similarity(all_alerts)
-        
+
         for group in threat_groups:
-            if len(group) >= 2:  # Multiple devices detected similar threats
+            if len(group) >= 2:  # Meerdere apparaten hebben vergelijkbare dreigingen gedetecteerd
                 correlated_threat = self.create_correlated_threat(group)
                 correlated_threats.append(correlated_threat)
-        
+
         return correlated_threats
-    
+
     def group_alerts_by_similarity(self, alerts, time_window=60):
-        """Group alerts by temporal and threat similarity"""
+        """Meldingen groeperen op basis van tijd en dreigingsovereenkomst"""
         groups = []
         processed_alerts = set()
-        
+
         for i, alert1 in enumerate(alerts):
             if i in processed_alerts:
                 continue
-                
+
             group = [alert1]
             processed_alerts.add(i)
-            
+
             alert1_time = datetime.fromisoformat(alert1['timestamp'])
-            
+
             for j, alert2 in enumerate(alerts[i+1:], i+1):
                 if j in processed_alerts:
                     continue
-                
+
                 alert2_time = datetime.fromisoformat(alert2['timestamp'])
                 time_diff = abs((alert1_time - alert2_time).total_seconds())
-                
-                if (time_diff <= time_window and 
+
+                if (time_diff <= time_window and
                     alert1['heuristic'] == alert2['heuristic'] and
                     alert1['source_device'] != alert2['source_device']):
-                    
+
                     group.append(alert2)
                     processed_alerts.add(j)
-            
+
             groups.append(group)
-        
+
         return groups
-    
+
     def consensus_validation(self, correlated_threats):
-        """Validate threats through device consensus"""
+        """Dreigingen valideren op basis van overeenstemming tussen apparaten"""
         validated_threats = []
-        
+
         for threat in correlated_threats:
             device_count = len(set(alert['source_device'] for alert in threat['constituent_alerts']))
             confidence_scores = [alert['confidence_score'] for alert in threat['constituent_alerts']]
-            
-            # Require minimum number of devices and confidence threshold
-            if (device_count >= 2 and 
+
+            # Minimaal aantal apparaten en betrouwbaarheidsdrempel vereisen
+            if (device_count >= 2 and
                 np.mean(confidence_scores) >= 0.7 and
                 min(confidence_scores) >= 0.5):
-                
+
                 threat['validated'] = True
                 threat['consensus_strength'] = device_count / len(self.devices)
                 threat['confidence_score'] = np.mean(confidence_scores)
                 validated_threats.append(threat)
-        
+
         return validated_threats
 ```
 
@@ -792,105 +792,105 @@ class CoordinatedDetectionSystem:
 **Problemen met hoog CPU-gebruik oplossen**:
 ```bash
 #!/bin/bash
-# RayHunter performance troubleshooting script
+# Script voor problemen met RayHunter-prestaties
 
-echo "=== RayHunter Performance Analysis ==="
+echo "=== RayHunter-prestatieanalyse ==="
 
-# Check CPU usage
-echo "Current CPU usage:"
+# CPU-gebruik controleren
+echo "Huidig CPU-gebruik:"
 top -bn1 | grep rayhunter
 
-# Check memory usage
-echo -e "\nMemory usage:"
+# Geheugengebruik controleren
+echo -e "\nGeheugengebruik:"
 ps aux | grep rayhunter | awk '{print $4, $6, $11}'
 
-# Check disk I/O
-echo -e "\nDisk I/O:"
+# Schijf-I/O controleren
+echo -e "\nSchijf-I/O:"
 iotop -a -o -d1 -n3 | grep rayhunter
 
-# Analyze configuration issues
-echo -e "\nConfiguration analysis:"
+# Configuratieproblemen analyseren
+echo -e "\nConfiguratieanalyse:"
 if [ -f /data/rayhunter/config.toml ]; then
-    # Check for resource-intensive configurations
+    # Controleren op configuraties die veel bronnen gebruiken
     grep -E "test_heuristic.*true|sensitivity.*maximum|debug.*true" /data/rayhunter/config.toml
-    
-    # Check recording settings
+
+    # Opname-instellingen controleren
     grep -E "recording|storage" /data/rayhunter/config.toml
 else
-    echo "Config file not found!"
+    echo "Configuratiebestand niet gevonden!"
 fi
 
-# Check for excessive logging
-echo -e "\nLog file sizes:"
+# Overmatige logregistratie controleren
+echo -e "\nGrootte van logbestanden:"
 du -sh /data/rayhunter/logs/*
 
-# Network performance check
-echo -e "\nNetwork performance:"
+# Netwerkprestaties controleren
+echo -e "\nNetwerkprestaties:"
 netstat -i | grep -E "wlan|eth"
 
-# Generate optimization recommendations
-echo -e "\n=== Optimization Recommendations ==="
+# Optimalisatieadviezen genereren
+echo -e "\n=== Aanbevelingen voor optimalisatie ==="
 
-# Check if test heuristic is enabled
+# Controleren of de testheuristiek is ingeschakeld
 if grep -q "test_heuristic.*=.*true" /data/rayhunter/config.toml; then
-    echo "⚠️  Test heuristic is enabled - disable for production use"
+    echo "⚠️ De testheuristiek is ingeschakeld. Schakel deze uit voor productiegebruik."
 fi
 
-# Check sensitivity settings
+# Gevoeligheidsinstellingen controleren
 if grep -q "sensitivity.*=.*\"maximum\"" /data/rayhunter/config.toml; then
-    echo "⚠️  Maximum sensitivity may cause high CPU usage in dense environments"
+    echo "⚠️ Maximale gevoeligheid kan in dichtbevolkte omgevingen tot hoog CPU-gebruik leiden."
 fi
 
-# Check storage settings
+# Opslaginstellingen controleren
 STORAGE_USED=$(df -h /data/rayhunter | awk 'NR==2 {print $5}' | sed 's/%//')
 if [ "$STORAGE_USED" -gt 80 ]; then
-    echo "⚠️  Storage usage is ${STORAGE_USED}% - clean up old recordings"
+    echo "⚠️ Opslaggebruik is ${STORAGE_USED}%; verwijder oude opnamen."
 fi
 ```
 
 **Geheugenlekken opsporen en verhelpen**:
 ```bash
 #!/bin/bash
-# Memory leak detection and automatic remediation
+# Geheugenlekken opsporen en automatisch verhelpen
 
-MEMORY_THRESHOLD=80  # 80% memory usage threshold
+MEMORY_THRESHOLD=80  # Drempel voor geheugengebruik: 80%
 LOG_FILE="/var/log/rayhunter/memory_monitor.log"
 
 monitor_memory() {
     while true; do
-        # Get RayHunter memory usage
+        # Geheugengebruik van RayHunter ophalen
         MEMORY_USAGE=$(ps aux | grep rayhunter-daemon | grep -v grep | awk '{print $4}')
-        
+
         if [ ! -z "$MEMORY_USAGE" ]; then
             MEMORY_PERCENT=$(echo "$MEMORY_USAGE" | cut -d. -f1)
-            
-            echo "$(date): RayHunter memory usage: ${MEMORY_USAGE}%" >> "$LOG_FILE"
-            
+
+            echo "$(date): RayHunter-geheugengebruik: ${MEMORY_USAGE}%" >> "$LOG_FILE"
+
             if [ "$MEMORY_PERCENT" -gt "$MEMORY_THRESHOLD" ]; then
-                echo "$(date): High memory usage detected: ${MEMORY_USAGE}%" >> "$LOG_FILE"
-                
-                # Attempt graceful restart
-                echo "$(date): Attempting graceful restart..." >> "$LOG_FILE"
+                echo "$(date): Hoog geheugengebruik gedetecteerd: ${MEMORY_USAGE}%" >> "$LOG_FILE"
+
+                # Een normale herstart proberen
+                echo "$(date): Poging tot een nette herstart..." >> "$LOG_FILE"
                 systemctl restart rayhunter_daemon
-                
+
                 sleep 30
-                
-                # Verify restart was successful
+
+                # Controleren of de herstart is geslaagd
                 if pgrep rayhunter-daemon > /dev/null; then
-                    echo "$(date): Graceful restart successful" >> "$LOG_FILE"
+                    echo "$(date): Nette herstart geslaagd" >> "$LOG_FILE"
                 else
-                    echo "$(date): Graceful restart failed, attempting force restart" >> "$LOG_FILE"
+                    echo "$(date): Nette herstart mislukt, poging tot geforceerde herstart" >> "$LOG_FILE"
                     killall -9 rayhunter-daemon
                     systemctl start rayhunter_daemon
                 fi
             fi
         fi
-        
-        sleep 60  # Check every minute
+
+        sleep 60  # Controleer elke minuut
     done
 }
 
-# Run memory monitoring in background
+# Geheugenbewaking op de achtergrond uitvoeren
 monitor_memory &
 ```
 
@@ -899,78 +899,78 @@ monitor_memory &
 **Geavanceerde verbindingsdiagnostiek**:
 ```bash
 #!/bin/bash
-# Advanced RayHunter connectivity troubleshooting
+# Geavanceerde probleemoplossing voor RayHunter-connectiviteit
 
-echo "=== RayHunter Network Diagnostics ==="
+echo "=== RayHunter-netwerkdiagnose ==="
 
-# Check basic connectivity
-echo "1. Basic connectivity check:"
+# Basisconnectiviteit controleren
+echo "1. Basiscontrole van de verbinding:"
 ping -c 3 8.8.8.8 > /dev/null 2>&1
 if [ $? -eq 0 ]; then
-    echo "✓ Internet connectivity: OK"
+    echo "✓ Internetverbinding: GESLAAGD"
 else
-    echo "✗ Internet connectivity: FAILED"
+    echo "✗ Internetverbinding: MISLUKT"
 fi
 
-# Check cellular connection
-echo -e "\n2. Cellular connection analysis:"
+# Mobiele verbinding controleren
+echo -e "\n2. Analyse van de mobiele verbinding:"
 if command -v qmicli &> /dev/null; then
-    # Check modem status
+    # Modemstatus controleren
     qmicli -d /dev/cdc-wdm0 --dms-get-operating-mode
     qmicli -d /dev/cdc-wdm0 --nas-get-signal-strength
     qmicli -d /dev/cdc-wdm0 --nas-get-serving-system
 else
-    echo "qmicli not available - using alternative methods"
-    
-    # Check network interfaces
+    echo "qmicli niet beschikbaar, alternatieve methoden worden gebruikt"
+
+    # Netwerkinterfaces controleren
     ip addr show | grep -A 10 wwan
-    
-    # Check routing
+
+    # Routering controleren
     ip route show
 fi
 
-# Check RayHunter web interface
-echo -e "\n3. RayHunter web interface check:"
+# Webinterface van RayHunter controleren
+echo -e "\n3. Controle van de RayHunter-webinterface:"
 for port in 8080 80; do
     if netstat -tuln | grep ":$port " > /dev/null; then
-        echo "✓ Port $port is listening"
-        
-        # Test HTTP response
+        echo "✓ Poort $port luistert"
+
+        # HTTP-respons testen
         if curl -s -o /dev/null -w "%{http_code}" "http://localhost:$port" | grep -q "200\|302"; then
-            echo "✓ HTTP service responding on port $port"
+            echo "✓ HTTP-service reageert op poort $port"
         else
-            echo "✗ HTTP service not responding properly on port $port"
+            echo "✗ HTTP-service reageert niet goed op poort $port"
         fi
     else
-        echo "✗ Port $port is not listening"
+        echo "✗ Poort $port luistert niet"
     fi
 done
 
-# Check cellular diagnostics interface
-echo -e "\n4. Cellular diagnostics interface:"
+# Diagnose-interface voor mobiele verbinding controleren
+echo -e "\n4. Interface voor mobiele diagnostiek:"
 if [ -c /dev/diag ]; then
-    echo "✓ /dev/diag interface available"
+    echo "✓ /dev/diag-interface beschikbaar"
     ls -la /dev/diag
 else
-    echo "✗ /dev/diag interface not available"
-    echo "Checking alternative interfaces:"
+    echo "✗ /dev/diag-interface niet beschikbaar"
+    echo "Alternatieve interfaces worden gecontroleerd:"
     ls -la /dev/ | grep -E "ttyUSB|cdc-wdm|qcserial"
 fi
 
-# Advanced network analysis
-echo -e "\n5. Advanced network analysis:"
+# Geavanceerde netwerkanalyse
+echo -e "\n5. Geavanceerde netwerkanalyse:"
 
-# Check APN settings
-echo "Current APN configuration:"
-grep -r "apn" /etc/NetworkManager/system-connections/ 2>/dev/null || echo "No APN config found"
+# APN-instellingen controleren
+echo "Huidige APN-configuratie:"
+grep -r "apn" /etc/NetworkManager/system-connections/ 2>/dev/null || echo "Geen APN-configuratie gevonden"
 
-# Check DNS resolution
-echo "DNS resolution test:"
+# DNS-omzetting controleren
+echo "DNS-resolutietest:"
 nslookup google.com | head -5
 
-# Check firewall rules
-echo "Firewall rules affecting RayHunter:"
-iptables -L | grep -E "8080|rayhunter" || echo "No specific firewall rules found"
+# Firewallregels controleren
+echo "Firewallregels die RayHunter beïnvloeden:"
+iptables -L | grep -E "8080|rayhunter" || echo "Geen specifieke firewallregels gevonden"
 ```
 
 #### Problemen per apparaat
@@ -978,66 +978,66 @@ iptables -L | grep -E "8080|rayhunter" || echo "No specific firewall rules found
 **Geavanceerde probleemoplossing voor Orbic RC400L**:
 ```bash
 #!/bin/bash
-# Orbic RC400L specific troubleshooting procedures
+# Specifieke probleemoplossing voor Orbic RC400L
 
-echo "=== Orbic RC400L Advanced Diagnostics ==="
+echo "=== Geavanceerde diagnostiek van Orbic RC400L ==="
 
-# Check bootloader and system partition status
-echo "1. System partition analysis:"
+# Status van bootloader en systeempartitie controleren
+echo "1. Analyse van de systeempartitie:"
 df -h | grep -E "/system|/data|/usrdata"
 
-# Check Android subsystem
-echo -e "\n2. Android subsystem check:"
+# Android-subsysteem controleren
+echo -e "\n2. Controle van het Android-subsysteem:"
 if command -v adb &> /dev/null; then
     adb devices
     if adb devices | grep -q "device$"; then
-        echo "✓ ADB connection available"
-        
-        # Check system properties
+        echo "✓ ADB-verbinding beschikbaar"
+
+        # Systeemeigenschappen controleren
         adb shell getprop | grep -E "ro.build|persist.vendor"
-        
-        # Check running processes
+
+        # Actieve processen controleren
         adb shell ps | grep rayhunter
-        
-        # Check system logs
-        echo "Recent system errors:"
+
+        # Systeemlogboeken controleren
+        echo "Recente systeemfouten:"
         adb logcat -d | grep -E "ERROR|FATAL" | tail -10
     else
-        echo "✗ No ADB connection available"
+        echo "✗ Geen ADB-verbinding beschikbaar"
     fi
 else
-    echo "ADB not available - using alternative methods"
+    echo "ADB niet beschikbaar, alternatieve methoden worden gebruikt"
 fi
 
-# Check modem firmware
-echo -e "\n3. Modem firmware analysis:"
+# Modemfirmware controleren
+echo -e "\n3. Analyse van de modemfirmware:"
 if [ -c /dev/diag ]; then
-    # Use custom tool to query modem firmware
+    # Aangepast hulpprogramma gebruiken om modemfirmware op te vragen
     python3 << 'EOF'
 import serial
 import struct
 import time
 
 try:
-    # Open diagnostic interface
+    # Diagnose-interface openen
     diag = serial.Serial('/dev/diag', 115200, timeout=1)
-    
-    # Query firmware version (simplified)
-    # This would require proper DIAG protocol implementation
-    print("Modem diagnostic interface accessible")
+
+    # Firmwareversie opvragen (vereenvoudigd)
+    # Hiervoor is een correcte DIAG-protocolimplementatie nodig
+    print("Modemdiagnose-interface toegankelijk")
     diag.close()
 except Exception as e:
-    print(f"Modem diagnostic access failed: {e}")
+    print(f"Toegang tot modemdiagnostiek mislukt: {e}")
 EOF
 fi
 
-# Check carrier-specific issues
-echo -e "\n4. Carrier configuration check:"
-echo "Current band preferences:"
+# Problemen met specifieke providers controleren
+echo -e "\n4. Controle van providerconfiguratie:"
+echo "Huidige bandvoorkeuren:"
 cat /data/rayhunter/config.toml | grep -A 5 -B 5 "band"
 
-echo "Network registration status:"
-# Check registration with all available carriers
+echo "Status van netwerkregistratie:"
+# Registratie bij alle beschikbare providers controleren
 if command -v qmicli &> /dev/null; then
     qmicli -d /dev/cdc-wdm0 --nas-get-home-network
     qmicli -d /dev/cdc-wdm0 --nas-get-preferred-networks
@@ -1047,57 +1047,57 @@ fi
 **Probleemoplossing voor TP-Link M7350**:
 ```bash
 #!/bin/bash
-# TP-Link M7350 specific troubleshooting
+# Specifieke probleemoplossing voor TP-Link M7350
 
-echo "=== TP-Link M7350 Advanced Diagnostics ==="
+echo "=== Geavanceerde diagnostiek van TP-Link M7350 ==="
 
-# Check SD card functionality
-echo "1. SD card diagnostics:"
+# Werking van de SD-kaart controleren
+echo "1. SD-kaartdiagnostiek:"
 if mountpoint -q /media/sd; then
-    echo "✓ SD card is mounted"
+    echo "✓ SD-kaart is gekoppeld"
     df -h /media/sd
-    
-    # Check SD card health
-    echo "SD card filesystem check:"
+
+    # Status van de SD-kaart controleren
+    echo "Controle van het SD-kaartbestandssysteem:"
     fsck -n /dev/mmcblk0p1 2>&1 | head -10
-    
-    # Check write permissions
+
+    # Schrijfrechten controleren
     touch /media/sd/test_write 2>/dev/null && rm /media/sd/test_write
     if [ $? -eq 0 ]; then
-        echo "✓ SD card write permissions OK"
+        echo "✓ Schrijfrechten voor SD-kaart zijn in orde"
     else
-        echo "✗ SD card write permissions failed"
+        echo "✗ Schrijfrechten voor SD-kaart zijn mislukt"
     fi
 else
-    echo "✗ SD card not mounted"
-    echo "Available block devices:"
+    echo "✗ SD-kaart is niet gekoppeld"
+    echo "Beschikbare blokapparaten:"
     lsblk | grep -E "mmc|sd"
 fi
 
-# Check OpenWrt system
-echo -e "\n2. OpenWrt system analysis:"
-echo "System information:"
+# OpenWrt-systeem controleren
+echo -e "\n2. Analyse van het OpenWrt-systeem:"
+echo "Systeeminformatie:"
 cat /proc/version
 uname -a
 
-echo "Available memory:"
+echo "Beschikbaar geheugen:"
 free -h
 
-echo "System load:"
+echo "Systeembelasting:"
 uptime
 
-# Check package installation
-echo "Installed packages relevant to RayHunter:"
+# Pakketinstallatie controleren
+echo "Geïnstalleerde pakketten voor RayHunter:"
 opkg list-installed | grep -E "python|kmod|usb"
 
-# Check kernel modules
-echo -e "\n3. Kernel module status:"
+# Kernelmodules controleren
+echo -e "\n3. Status van kernelmodules:"
 lsmod | grep -E "diag|qmi|cdc|usb"
 
-# Check USB diagnostic interface
-echo "USB diagnostic devices:"
+# USB-diagnose-interface controleren
+echo "USB-diagnoseapparaten:"
 lsusb -t
-ls -la /dev/ttyUSB* 2>/dev/null || echo "No USB serial devices found"
+ls -la /dev/ttyUSB* 2>/dev/null || echo "Geen USB-seriële apparaten gevonden"
 ```
 
 ### Herstelprocedures
@@ -1105,7 +1105,7 @@ ls -la /dev/ttyUSB* 2>/dev/null || echo "No USB serial devices found"
 **Scripts voor systeemherstel**:
 ```bash
 #!/bin/bash
-# Emergency RayHunter system recovery
+# Noodherstel van het RayHunter-systeem
 
 BACKUP_DIR="/data/rayhunter/backup"
 CONFIG_FILE="/data/rayhunter/config.toml"
@@ -1118,62 +1118,62 @@ log_message() {
 create_backup() {
     log_message "Creating system backup..."
     mkdir -p "$BACKUP_DIR"
-    
-    # Backup configuration
+
+    # Configuratie back-uppen
     cp "$CONFIG_FILE" "$BACKUP_DIR/config_$(date +%Y%m%d_%H%M%S).toml"
-    
-    # Backup recordings (last 24 hours)
+
+    # Opnamen van de afgelopen 24 uur back-uppen
     find /data/rayhunter/recordings -name "*.qmdl" -mtime -1 -exec cp {} "$BACKUP_DIR/" \;
-    
-    # Backup logs
+
+    # Logboeken back-uppen
     tar -czf "$BACKUP_DIR/logs_$(date +%Y%m%d_%H%M%S).tar.gz" /data/rayhunter/logs/
-    
+
     log_message "Backup completed"
 }
 
 reset_configuration() {
     log_message "Resetting configuration to defaults..."
-    
-    # Stop RayHunter service
+
+    # RayHunter-service stoppen
     systemctl stop rayhunter_daemon
-    
-    # Reset to factory configuration
+
+    # Fabrieksconfiguratie herstellen
     cp /etc/rayhunter/config.toml.default "$CONFIG_FILE"
-    
-    # Clear problematic cache files
+
+    # Probleemcachebestanden wissen
     rm -f /data/rayhunter/cache/*
-    
-    # Reset permissions
+
+    # Machtigingen herstellen
     chown -R rayhunter:rayhunter /data/rayhunter/
     chmod -R 755 /data/rayhunter/
-    
+
     log_message "Configuration reset completed"
 }
 
 factory_reset() {
     log_message "Performing factory reset..."
-    
-    # Create backup first
+
+    # Eerst een back-up maken
     create_backup
-    
-    # Stop all RayHunter services
+
+    # Alle RayHunter-services stoppen
     systemctl stop rayhunter_daemon
     systemctl disable rayhunter_daemon
-    
-    # Remove all RayHunter data (except backups)
+
+    # Alle RayHunter-gegevens verwijderen, behalve back-ups
     find /data/rayhunter -type f ! -path "*/backup/*" -delete
-    
-    # Reinstall RayHunter
+
+    # RayHunter opnieuw installeren
     cd /tmp
     wget -O rayhunter-latest.zip "https://github.com/EFForg/rayhunter/releases/latest/download/rayhunter-linux-x64.zip"
     unzip rayhunter-latest.zip
     ./installer $(detect_device_type)
-    
+
     log_message "Factory reset completed"
 }
 
 detect_device_type() {
-    # Auto-detect device type for reinstallation
+    # Apparaattype automatisch detecteren voor herinstallatie
     if grep -q "Orbic" /proc/cpuinfo || [ -d "/android_root" ]; then
         echo "orbic"
     elif grep -q "MT7620" /proc/cpuinfo || [ -f "/etc/openwrt_version" ]; then
@@ -1183,35 +1183,35 @@ detect_device_type() {
     fi
 }
 
-# Main recovery menu
-echo "=== RayHunter Emergency Recovery ==="
-echo "1. Create backup only"
-echo "2. Reset configuration to defaults"
-echo "3. Factory reset (destructive)"
-echo "4. System diagnostics"
-echo "5. Exit"
+# Hoofdmenu voor herstel
+echo "=== Noodherstel van RayHunter ==="
+echo "1. Alleen een back-up maken"
+echo "2. Configuratie terugzetten naar standaardwaarden"
+echo "3. Fabrieksinstellingen herstellen (destructief)"
+echo "4. Systeemdiagnose"
+echo "5. Afsluiten"
 
-read -p "Select option (1-5): " choice
+read -p "Selecteer optie (1-5): " choice
 
 case $choice in
     1) create_backup ;;
     2) reset_configuration ;;
-    3) 
-        read -p "Are you sure? This will erase all data except backups (y/N): " confirm
+    3)
+        read -p "Weet u het zeker? Alle gegevens behalve back-ups worden gewist (y/N): " confirm
         if [ "$confirm" = "y" ] || [ "$confirm" = "Y" ]; then
             factory_reset
         else
-            echo "Factory reset cancelled"
+            echo "Herstel naar fabrieksinstellingen geannuleerd"
         fi
         ;;
-    4) 
-        echo "Running system diagnostics..."
-        # Run all diagnostic scripts
+    4)
+        echo "Systeemdiagnose wordt uitgevoerd..."
+        # Alle diagnosescripts uitvoeren
         /opt/rayhunter/scripts/performance_check.sh
         /opt/rayhunter/scripts/network_diagnostics.sh
         ;;
     5) exit 0 ;;
-    *) echo "Invalid option" ;;
+    *) echo "Ongeldige optie" ;;
 esac
 ```
 
@@ -1225,8 +1225,8 @@ esac
 ```python
 #!/usr/bin/env python3
 """
-RayHunter Research Integration Platform
-Advanced configuration for academic cellular security research
+RayHunter-platform voor onderzoeksintegratie
+Geavanceerde configuratie voor academisch onderzoek naar mobiele beveiliging
 """
 
 import pandas as pd
@@ -1242,13 +1242,13 @@ class RayHunterResearchPlatform:
     def __init__(self, research_db="/data/research/rayhunter_research.db"):
         self.db_path = research_db
         self.setup_research_database()
-        
+
     def setup_research_database(self):
-        """Setup comprehensive research database schema"""
+        """Uitgebreid schema voor de onderzoeksdatabase instellen"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        # Extended schema for research data
+
+        # Schema uitbreiden voor onderzoeksgegevens
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS research_sessions (
                 session_id TEXT PRIMARY KEY,
@@ -1261,7 +1261,7 @@ class RayHunterResearchPlatform:
                 metadata JSON
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS cellular_measurements (
                 id INTEGER PRIMARY KEY,
@@ -1279,7 +1279,7 @@ class RayHunterResearchPlatform:
                 FOREIGN KEY (session_id) REFERENCES research_sessions (session_id)
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS threat_observations (
                 id INTEGER PRIMARY KEY,
@@ -1294,67 +1294,67 @@ class RayHunterResearchPlatform:
                 FOREIGN KEY (session_id) REFERENCES research_sessions (session_id)
             )
         ''')
-        
+
         conn.commit()
         conn.close()
-    
+
     def conduct_controlled_experiment(self, experiment_config):
-        """Conduct controlled experiment with specified parameters"""
+        """Gecontroleerd experiment met de opgegeven parameters uitvoeren"""
         session_id = f"exp_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        
-        # Configure RayHunter for experiment
+
+        # RayHunter configureren voor het experiment
         self.configure_rayhunter_for_research(experiment_config)
-        
-        # Start data collection
+
+        # Gegevensverzameling starten
         collection_start = datetime.now()
-        
-        # Run experiment for specified duration
+
+        # Experiment gedurende de opgegeven tijd uitvoeren
         experiment_duration = experiment_config.get('duration_minutes', 60)
-        
-        # Collect baseline measurements
+
+        # Basismetingen verzamelen
         baseline_data = self.collect_baseline_measurements(experiment_duration // 3)
-        
-        # Introduce controlled variables if specified
+
+        # Opgegeven controlevariabelen introduceren
         if experiment_config.get('introduce_threats', False):
             threat_data = self.simulate_threat_scenarios(experiment_config['threat_scenarios'])
-        
-        # Collect post-intervention data
+
+        # Gegevens na de interventie verzamelen
         post_data = self.collect_post_measurements(experiment_duration // 3)
-        
-        # Analyze results
+
+        # Resultaten analyseren
         analysis_results = self.analyze_experiment_results(
             session_id, baseline_data, post_data
         )
-        
+
         return {
             'session_id': session_id,
             'duration': experiment_duration,
             'analysis': analysis_results,
             'raw_data_location': f"/data/research/sessions/{session_id}"
         }
-    
+
     def statistical_threat_analysis(self, time_period_days=30):
-        """Perform statistical analysis of threat detection patterns"""
+        """Statistische analyse uitvoeren van patronen voor dreigingsdetectie"""
         conn = sqlite3.connect(self.db_path)
-        
-        # Query threat observations
+
+        # Dreigingswaarnemingen opvragen
         end_date = datetime.now()
         start_date = end_date - timedelta(days=time_period_days)
-        
+
         query = """
             SELECT t.*, s.environment_type, s.location
             FROM threat_observations t
             JOIN research_sessions s ON t.session_id = s.session_id
             WHERE t.timestamp BETWEEN ? AND ?
         """
-        
+
         df = pd.read_sql_query(query, conn, params=(start_date.isoformat(), end_date.isoformat()))
         conn.close()
-        
+
         if df.empty:
-            return {"error": "No data available for analysis"}
-        
-        # Statistical analysis
+            return {"error": "Geen gegevens beschikbaar voor analyse"}
+
+        # Statistische analyse
         analysis = {
             'descriptive_stats': {
                 'total_observations': len(df),
@@ -1367,8 +1367,8 @@ class RayHunterResearchPlatform:
             'temporal_patterns': self.analyze_temporal_patterns(df),
             'false_positive_analysis': self.analyze_false_positives(df)
         }
-        
-        # Environment correlation analysis
+
+        # Correlatie met de omgeving analyseren
         for env_type in df['environment_type'].unique():
             env_data = df[df['environment_type'] == env_type]
             analysis['environmental_correlation'][env_type] = {
@@ -1376,81 +1376,81 @@ class RayHunterResearchPlatform:
                 'average_confidence': env_data['confidence_score'].mean(),
                 'threat_type_distribution': env_data['threat_type'].value_counts().to_dict()
             }
-        
-        # Generate visualizations
+
+        # Visualisaties genereren
         self.generate_research_visualizations(df, analysis)
-        
+
         return analysis
-    
+
     def generate_research_visualizations(self, df, analysis):
-        """Generate comprehensive research visualizations"""
+        """Uitgebreide onderzoeksvisualisaties genereren"""
         fig, axes = plt.subplots(2, 3, figsize=(20, 12))
-        
-        # Threat type distribution
+
+        # Verdeling van dreigingstypen
         threat_counts = df['threat_type'].value_counts()
         axes[0, 0].pie(threat_counts.values, labels=threat_counts.index, autopct='%1.1f%%')
-        axes[0, 0].set_title('Threat Type Distribution')
-        
-        # Confidence score distribution
+        axes[0, 0].set_title('Verdeling van dreigingstypen')
+
+        # Verdeling van betrouwbaarheidsscores
         axes[0, 1].hist(df['confidence_score'], bins=20, alpha=0.7)
-        axes[0, 1].set_title('Confidence Score Distribution')
-        axes[0, 1].set_xlabel('Confidence Score')
-        axes[0, 1].set_ylabel('Frequency')
-        
-        # Temporal patterns
+        axes[0, 1].set_title('Verdeling van betrouwbaarheidsscores')
+        axes[0, 1].set_xlabel('Betrouwbaarheidsscore')
+        axes[0, 1].set_ylabel('Frequentie')
+
+        # Patronen in de tijd
         df['hour'] = pd.to_datetime(df['timestamp']).dt.hour
         hourly_counts = df.groupby('hour').size()
         axes[0, 2].bar(hourly_counts.index, hourly_counts.values)
-        axes[0, 2].set_title('Threats by Hour of Day')
-        axes[0, 2].set_xlabel('Hour')
-        axes[0, 2].set_ylabel('Threat Count')
-        
-        # Environment vs confidence
+        axes[0, 2].set_title('Dreigingen per uur van de dag')
+        axes[0, 2].set_xlabel('Uur')
+        axes[0, 2].set_ylabel('Aantal dreigingen')
+
+        # Omgeving tegenover betrouwbaarheid
         sns.boxplot(data=df, x='environment_type', y='confidence_score', ax=axes[1, 0])
-        axes[1, 0].set_title('Confidence by Environment Type')
+        axes[1, 0].set_title('Betrouwbaarheid per omgevingstype')
         axes[1, 0].tick_params(axis='x', rotation=45)
-        
-        # Correlation heatmap
+
+        # Correlatieheatmap
         numeric_df = df.select_dtypes(include=[np.number])
         correlation_matrix = numeric_df.corr()
         sns.heatmap(correlation_matrix, annot=True, ax=axes[1, 1])
-        axes[1, 1].set_title('Correlation Matrix')
-        
-        # False positive analysis
+        axes[1, 1].set_title('Correlatiematrix')
+
+        # Analyse van fout-positieven
         if 'false_positive_assessment' in df.columns:
             fp_data = df['false_positive_assessment'].value_counts()
             axes[1, 2].bar(fp_data.index, fp_data.values)
-            axes[1, 2].set_title('False Positive Assessment')
+            axes[1, 2].set_title('Beoordeling van foutpositieven')
             axes[1, 2].tick_params(axis='x', rotation=45)
-        
+
         plt.tight_layout()
-        plt.savefig(f'/data/research/analysis/visualization_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png', 
+        plt.savefig(f'/data/research/analysis/visualization_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png',
                    dpi=300, bbox_inches='tight')
         plt.close()
-    
+
     def export_research_data(self, format='csv', time_range_days=None):
-        """Export research data in various formats for external analysis"""
+        """Onderzoeksgegevens in verschillende indelingen exporteren voor externe analyse"""
         conn = sqlite3.connect(self.db_path)
-        
+
         if time_range_days:
             end_date = datetime.now()
             start_date = end_date - timedelta(days=time_range_days)
             date_filter = f"WHERE timestamp BETWEEN '{start_date.isoformat()}' AND '{end_date.isoformat()}'"
         else:
             date_filter = ""
-        
-        # Export threat observations
+
+        # Dreigingswaarnemingen exporteren
         threat_query = f"SELECT * FROM threat_observations {date_filter}"
         threat_df = pd.read_sql_query(threat_query, conn)
-        
-        # Export cellular measurements
+
+        # Mobiele metingen exporteren
         cellular_query = f"SELECT * FROM cellular_measurements {date_filter}"
         cellular_df = pd.read_sql_query(cellular_query, conn)
-        
+
         conn.close()
-        
+
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
+
         if format.lower() == 'csv':
             threat_df.to_csv(f'/data/research/exports/threats_{timestamp}.csv', index=False)
             cellular_df.to_csv(f'/data/research/exports/cellular_{timestamp}.csv', index=False)
@@ -1460,7 +1460,7 @@ class RayHunterResearchPlatform:
         elif format.lower() == 'parquet':
             threat_df.to_parquet(f'/data/research/exports/threats_{timestamp}.parquet')
             cellular_df.to_parquet(f'/data/research/exports/cellular_{timestamp}.parquet')
-        
+
         return {
             'export_format': format,
             'threats_records': len(threat_df),

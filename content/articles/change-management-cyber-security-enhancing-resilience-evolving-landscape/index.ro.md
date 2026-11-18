@@ -1,7 +1,7 @@
 ---
 title: "Consolidează reziliența securității cibernetice prin gestionarea schimbărilor"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Află de ce este importantă gestionarea schimbărilor în securitatea cibernetică și cum să consolidezi reziliența în fața peisajului actual al amenințărilor, aflat în schimbare."

@@ -1,12 +1,12 @@
 ---
 title: "Cum să începi o carieră în securitate cibernetică"
 date: 2023-11-05
-lastmod: 2026-11-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Află ce roluri există, cât contează programarea și care sunt limbajele principale. Alege-ți traseul în securitate cibernetică."
-genre: ["Tehnologie", "Securitate cibernetică", "Carieră", "Programare", "IT", "Competențe", "Oportunități", "Învățare", "Codare", "Digital"]
-tags: ["Securitate cibernetică", "Trasee profesionale", "Limbaje de programare", "Competențe de programare", "Roluri non-tehnice", "Roluri tehnice", "Cariere IT", "Tendințe tehnologice", "Analiză de securitate", "Securitatea rețelelor", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Protecția datelor", "Investigații digitale", "Hacking etic", "Dezvoltare software", "Apărare cibernetică", "Inginerie de rețea", "Consultanță de securitate", "Dezvoltarea competențelor", "Securitatea informațiilor", "Detectarea amenințărilor", "Răspuns la incidente", "Programare pentru securitate"]
+genre: ["Tehnologie", "Securitate cibernetică", "Carieră", "Programare", "tehnologia informației", "Competențe", "Oportunități", "Învățare", "Codare", "Tehnologie digitală"]
+tags: ["Securitate cibernetică", "Trasee profesionale", "Limbaje de programare", "Competențe de programare", "Roluri non-tehnice", "Roluri tehnice", "Cariere IT", "Tendințe tehnologice", "Analiză de securitate", "Securitatea rețelelor", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Protecția datelor", "Investigații digitale", "Hacking etic", "Dezvoltare software", "Apărare cibernetică", "Inginerie de rețea", "Consultanță de securitate", "Dezvoltarea competențelor", "Securitatea informațiilor", "Detectarea amenințărilor", "Răspuns la incidente", "Programare pentru securitate"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Un specialist în securitate cibernetică, cu o pelerină și un laptop, apără sistemele de amenințări digitale."
 coverCaption: "Gardienii spațiilor digitale, în sprijinul celor care protejează mediul cibernetic"

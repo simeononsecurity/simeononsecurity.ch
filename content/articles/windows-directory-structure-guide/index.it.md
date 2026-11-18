@@ -1,7 +1,7 @@
 ---
 title: "Struttura delle Directory di Windows"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Guida completa 2026 alla struttura delle directory di Windows, inclusi diagrammi visivi, aggiornamenti di Windows 11, considerazioni sulla sicurezza e tecniche esperte di navigazione per una gestione efficiente dei file.
@@ -75,53 +75,53 @@ Al livello più alto della struttura delle directory, troviamo la **directory ra
 Ecco una rappresentazione visiva completa della gerarchia del file system di Windows:
 
 ```
-C:\ (Root Directory)
+C:\ (Directory radice)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [File di sistema e componenti del sistema operativo]
+│   ├── System32\              [File di sistema ed eseguibili a 64 bit]
+│   ├── SysWOW64\              [Livello di compatibilità a 32 bit nei sistemi a 64 bit]
+│   ├── Boot\                  [Configurazione di avvio e file di avvio]
+│   ├── Fonts\                 [Caratteri di sistema]
+│   ├── Temp\                  [File temporanei di sistema]
+│   ├── assembly\              [Assembly di .NET Framework]
+│   ├── inf\                   [Informazioni sull’installazione dei driver]
+│   ├── WinSxS\                [Archivio componenti Windows Side-by-Side]
+│   ├── Logs\                  [File di registro di sistema]
+│   └── Security\              [Criteri e modelli di sicurezza]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [Applicazioni a 64 bit (nei sistemi a 64 bit)]
+│   ├── Common Files\          [Componenti condivisi dei programmi]
+│   └── [Cartelle delle applicazioni]  [Singoli programmi installati]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [Applicazioni a 32 bit nei sistemi a 64 bit]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [Cartelle delle applicazioni]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [Directory dei profili utente]
+│   ├── Public\                [File utente condivisi]
+│   ├── [Nome utente]\            [Profili utente individuali]
+│   │   ├── Desktop\           [File del desktop]
+│   │   ├── Documents\         [Documenti utente]
+│   │   ├── Downloads\         [File scaricati]
+│   │   ├── Pictures\          [Immagini utente]
+│   │   ├── Videos\            [Video utente]
+│   │   ├── Music\             [File audio utente]
+│   │   ├── AppData\           [Dati delle applicazioni]
+│   │   │   ├── Local\         [Dati delle app specifici del dispositivo]
+│   │   │   ├── LocalLow\      [Dati delle app a bassa integrità]
+│   │   │   └── Roaming\       [Dati del profilo mobile]
+│   │   ├── OneDrive\          [File sincronizzati con il cloud (Windows 11)]
+│   │   └── Contacts\          [Contatti utente]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [Dati condivisi delle applicazioni (nascosti)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [Dati delle applicazioni]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [Registri e rapporti sulle prestazioni]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [Cestino (nascosto)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [Punti di ripristino del sistema (nascosti)]
 ```
 
 ______
@@ -218,7 +218,7 @@ La **Directory dei File Temporanei** contiene file temporanei generati da vari p
 | **C:\Windows\Temp\** | File temporanei di sistema | Pulizia settimanale consigliata |
 | **C:\Users\username\AppData\Local\Temp\** | File temporanei specifici dell’utente | Pulizia settimanale consigliata |
 | **C:\Temp\** | Posizione temporanea legacy/personalizzata | Quando necessario |
-| **%TEMP%** | Variabile d’ambiente che punta alla temp utente | N/A (variabile) |
+| **%TEMP%** | Variabile d’ambiente che punta alla temp utente | Non applicabile (variabile) |
 
 **Best Practice per la Pulizia:** Secondo le best practice Microsoft, le directory temporanee dovrebbero essere svuotate mensilmente. Storage Sense di Windows 11 può automatizzare questo processo. Nel 2026, la directory temp media accumula 2-10 GB al mese.
 
@@ -303,9 +303,9 @@ Il **Prompt dei Comandi (CMD)** è un’interfaccia a riga di comando che consen
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # Elenca ricorsivamente nelle sottodirectory
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # Crea una nuova directory
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **Comandi PowerShell Essenziali:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # Cambia directory (alias: cd)
+Get-ChildItem                    # Elenca gli elementi (alias: dir, ls)
+Get-ChildItem -Recurse           # Elenca ricorsivamente
+Get-ChildItem -Force             # Mostra gli elementi nascosti
+Test-Path [path]                 # Verifica se il percorso esiste
+New-Item -ItemType Directory     # Crea una nuova directory
+Remove-Item [path]               # Elimina l’elemento
+Get-Item [path]                  # Ottieni le proprietà dell’elemento
+Resolve-Path [path]              # Converti il percorso relativo in assoluto
 ```
 
 **Esempio avanzato di PowerShell:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# Trova tutti i file .log più grandi di 10MB
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# Calcola la dimensione della directory
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "Dimensione directory: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal (Standard 2026)
@@ -440,12 +440,12 @@ Windows utilizza i **permessi NTFS** per controllare l'accesso a directory e fil
 
 **Esempio di Audit Permessi con PowerShell:**
 ```powershell
-# Get ACL for a directory
+# Ottieni l’ACL di una directory
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# Esporta le autorizzazioni in CSV
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **Soluzioni:**
 ```powershell
-# Take ownership of a file/folder
+# Assumi la proprietà di un file/cartella
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# Concedi le autorizzazioni
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### Problema 3: Directory WinSxS Occupa Troppo Spazio
 
 **Soluzioni:**
-```cmd
-# Analyze component store
+```powershell
+# Analizzare l’archivio dei componenti
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# Pulire l’archivio dei componenti
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# Rimuovere le versioni sostituite (irreversibile)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - Eliminare dati applicativi non necessari
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# Mostra le cartelle più grandi in AppData
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. Moduli PowerShell
 
 ```powershell
-# Install useful modules
+# Installa moduli utili
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# Elenco directory migliorato con icone
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **Abilitare la Verifica:**
 ```powershell
-# Enable file auditing via PowerShell
+# Abilita il controllo dei file con PowerShell
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Visualizzatore Eventi > Registri di Windows > Sicurezza (ID Evento 4663, 4656)
 - Distribuire filtri file per prevenire tipi di file non autorizzati
 
 ______
+
+## Note sui percorsi Windows attuali
+
+Windows mantiene le stesse cartelle principali nelle versioni desktop supportate, ma alcuni percorsi richiedono attenzione:
+
+| Percorso | Ruolo attuale | Uso sicuro |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | File binari e librerie di sistema nativi per l'architettura installata. In Windows a 64 bit, i processi a 32 bit usano il livello Windows-on-Windows tramite **`SysWOW64`**. | Non sostituire i file manualmente. Usa Windows Update, DISM o il programma di installazione del fornitore. |
+| **`C:\Windows\WinSxS`** | Archivio componenti usato per manutenzione e ripristino. I collegamenti fisici rendono fuorvianti le stime di dimensione di Esplora file. | Analizza e pulisci l'archivio componenti con DISM. Non eliminare file dalla cartella. |
+| **`C:\Users\<name>\AppData`** | Stato delle applicazioni per utente. `Local`, `LocalLow` e `Roaming` soddisfano esigenze diverse di app e profili. | Esegui il backup dei dati delle applicazioni prima di svuotare le cache. Non presumere che ogni cartella sia eliminabile. |
+| **Archiviazione delle distribuzioni WSL 2** | Una distribuzione usa un disco virtuale `ext4.vhdx` nella directory `LocalState` del pacchetto. | Esporta o arresta la distribuzione prima della manutenzione del disco. Non modificare il disco virtuale come una normale cartella. |
+
+Il vecchio diagramma e gli esempi restano utili come mappa. Microsoft documenta il percorso del disco virtuale WSL 2 e spiega perché la distribuzione è archiviata in un disco rigido virtuale invece che in normali file Windows. Il nome esatto del pacchetto varia in base alla distribuzione e al metodo di installazione. Consulta la [guida Microsoft sullo spazio su disco WSL](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+Microsoft ha terminato il supporto di Windows 10 versione 22H2 il 14 ottobre 2025, salvo le edizioni con condizioni di ciclo di vita separate o un accordo idoneo Extended Security Update. Nel 2026 tratta Windows 10 come un caso di migrazione o gestione delle eccezioni. Consulta l'[avviso Microsoft sul ciclo di vita di Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+Gli intervalli di dimensioni e le percentuali di diffusione delle sezioni originali sono dati illustrativi, non misurazioni di questo sito. La dimensione della directory dipende dal software installato, dalla cronologia degli aggiornamenti, dal contenuto del profilo e dalle regole di conservazione. Controlla il sistema locale prima di eliminare qualcosa.
+
+## Lista di controllo per la manutenzione sicura delle directory
+
+1. Registra il percorso, il proprietario, l'ACL e lo scopo aziendale prima di modificare una directory protetta.
+2. Crea o verifica un backup ripristinabile prima di rimuovere dati delle applicazioni o modificare autorizzazioni.
+3. Preferisci strumenti supportati come **Storage Sense**, **DISM**, **`robocopy`** e i programmi di disinstallazione.
+4. Prova le modifiche con un account utente standard se l'attività non richiede privilegi elevati.
+5. Controlla Visualizzatore eventi e registri delle applicazioni dopo la manutenzione.
+6. Conserva un registro di ripristino con il percorso originale, il comando, l'ora e il risultato.
+
+**Non usare `/MIR` con una destinazione non verificata.** `robocopy /MIR` rimuove dalla destinazione i file assenti nell'origine.
+
 
 ## Conclusione
 

@@ -1,6 +1,7 @@
 ---
 title: "Înțelegerea clasificării informațiilor: Cine determină și atribuie nivelurile de clasificare"
 date: 2023-06-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aflați despre procesul de clasificare a informațiilor, inclusiv cine desemnează și atribuie nivelurile de clasificare și importanța respectării reglementărilor guvernamentale."
@@ -76,7 +77,7 @@ Clasificarea informațiilor face obiectul diferitelor **reglementări și orient
 
 Prin respectarea acestor regulamente, organizațiile și persoanele implicate în manipularea informațiilor clasificate se pot asigura că sunt urmate procedurile adecvate și că există măsurile de securitate necesare pentru a proteja datele sensibile. Nerespectarea acestor reglementări poate avea consecințe grave, inclusiv sancțiuni legale și prejudicii la adresa securității naționale.
 
-Pentru a afla mai multe despre aceste reglementări și cerințele specifice ale acestora, puteți consulta documentația oficială și resursele furnizate de autoritățile respective. De exemplu, puteți accesa **Executive Order 13526** pe site-ul [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) website, explore the **NISPOM** on the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) website, and find detailed information about **ITAR** on the [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing) site-ul web.
+Pentru mai multe informații despre aceste reglementări și cerințele lor specifice, consultați documentația oficială și resursele autorităților competente. Textul **Executive Order 13526** poate fi consultat pe site-ul [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information), **NISPOM** pe site-ul [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/), iar informații detaliate despre **ITAR** pe site-ul [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing).
 
 ______
 

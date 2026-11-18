@@ -1,6 +1,7 @@
 ---
 title: "Best practices voor Python-beveiliging: Uw code en gegevens beschermen"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer de essentiële best practices op het gebied van Python-beveiliging om je code en gegevens te beschermen tegen mogelijke bedreigingen, om gegevensbescherming en systeemintegriteit te garanderen en vertrouwen op te bouwen."
@@ -183,7 +184,7 @@ Hier is een beknopt spiekbriefje met een samenvatting van de **Python beveiligin
 
 4. **Bescherm gevoelige gegevens** met **sterke encryptietechnieken**. Gebruik beproefde encryptie-algoritmen zoals **AES (Advanced Encryption Standard)** en zorg voor een veilige opslag en overdracht van gevoelige informatie. U kunt verwijzen naar de [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) voor meer informatie.
 
-5. **Beveilig databasetoegang** door **prepared statements** te gebruiken om SQL-injectieaanvallen te voorkomen en **least privilege** te implementeren om databasegebruikersrechten te beperken. Deze praktijken minimaliseren het risico op ongeautoriseerde toegang tot gevoelige gegevens. Meer informatie over **voorbereide verklaringen** in de [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **Beveilig de databasetoegang** met **voorbereide statements** om SQL-injectieaanvallen te voorkomen en met het **principe van minimale bevoegdheden** om de rechten van databasegebruikers te beperken. Deze werkwijzen verkleinen het risico op ongeautoriseerde toegang tot gevoelige gegevens. Lees meer over voorbereide statements in de [SQLAlchemy-documentatie](https://www.sqlalchemy.org) en over minimale bevoegdheden in de [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
 
 6. **Regelmatig afhankelijkheden** bijwerken om beveiligingsproblemen aan te pakken en te profiteren van bugfixes. Tools zoals [Snyk - Open Source Security Platform](https://snyk.io/) kan je helpen kwetsbaarheden te identificeren in de afhankelijkheden van je project.
 

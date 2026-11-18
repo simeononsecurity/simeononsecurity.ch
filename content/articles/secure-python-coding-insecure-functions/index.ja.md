@@ -1,7 +1,7 @@
 ---
 title: "Pythonの安全なコーディング"
 date: 2023-09-26
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "危険な関数を避け、堅牢で信頼できるアプリケーションを作るための実践方法を学び、安全なPythonコードを書きましょう。"
@@ -30,10 +30,10 @@ ___________
 
 #### eval() による動的コード実行:
 ```python
-# Unsafe: Using eval() for dynamic code execution
+# 危険: eval() で動的コードを実行
 user_input = input("Enter a Python expression: ")
 result = eval(user_input)
-print("Result:", result)
+print("結果：", result)
 ```
 
 #### `ast.literal_eval()` を使うより安全な方法:
@@ -43,9 +43,9 @@ import ast
 user_input = input("Enter a literal value: ")
 try:
     parsed_value = ast.literal_eval(user_input)
-    print("Parsed value:", parsed_value)
+    print("解析された値：", parsed_value)
 except (ValueError, SyntaxError):
-    print("Invalid input.")
+    print("入力が無効です。")
 ```
 
 ### 未検証データを使った文字列連結
@@ -76,7 +76,7 @@ import pickle
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = pickle.dumps(data)
-# Store or send serialized_data
+# serialized_data を保存または送信
 ```
 
 #### jsonを使うより安全な方法:
@@ -85,7 +85,7 @@ import json
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = json.dumps(data)
-# Store or send serialized_data
+# serialized_data を保存または送信
 ```
 
 ### `mark_safe()` によるHTMLエスケープ不足
@@ -124,7 +124,7 @@ import subprocess
 
 command = input("Enter a command: ")
 result = subprocess.run(command, shell=True, capture_output=True, text=True)
-print("Output:", result.stdout)
+print("出力：", result.stdout)
 ```
 
 ### `hash()` による不十分なパスワードハッシュ化
@@ -135,7 +135,7 @@ print("Output:", result.stdout)
 ```python
 password = input("Enter your password: ")
 hashed_password = hash(password)
-# Store hashed_password in the database
+# データベースに hashed_password を保存
 ```
 
 #### bcryptを使うより安全な方法:
@@ -144,7 +144,7 @@ import bcrypt
 
 password = input("Enter your password: ")
 hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-# Store hashed_password in the database
+# データベースに hashed_password を保存
 ```
 
 ## **より安全な代替手段とベストプラクティス**
@@ -163,7 +163,7 @@ if response.status_code == 200:
     data = response.json()
     print(data)
 else:
-    print("Request failed.")
+    print("リクエストに失敗しました。")
 ```
 
 ### **`with`** 文でファイルを安全に扱う
@@ -174,12 +174,12 @@ else:
 ```python
 filename = "example.txt"
 
-# Unsafe: Without using `with`
+# 危険: with を使用しない方法
 file = open(filename, "r")
 content = file.read()
 file.close()
 
-# Safer: Using `with` statement
+# より安全: with 文を使用
 with open(filename, "r") as file:
     content = file.read()
 ```
@@ -194,7 +194,7 @@ import html
 
 user_input = input("Enter some text: ")
 sanitized_input = html.escape(user_input)
-print("Sanitized input:", sanitized_input)
+print("サニタイズ済み入力：", sanitized_input)
 ```
 
 ### **`sqlite3`** のプレースホルダー付きクエリ
@@ -228,9 +228,9 @@ import os
 
 api_key = os.environ.get("API_KEY")
 if api_key:
-    print("API Key:", api_key)
+    print("API キー：", api_key)
 else:
-    print("API Key not set.")
+    print("API キーが設定されていません。")
 ```
 
 #### python-decoupleによる環境変数の管理:
@@ -238,7 +238,7 @@ else:
 from decouple import config
 
 api_key = config("API_KEY")
-print("API Key:", api_key)
+print("API キー：", api_key)
 ```
 
 ### **`secrets`** による強い乱数
@@ -250,7 +250,7 @@ print("API Key:", api_key)
 import secrets
 
 token = secrets.token_hex(16)
-print("Secure Token:", token)
+print("セキュリティトークン：", token)
 ```
 
 ## まとめ

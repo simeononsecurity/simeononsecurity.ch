@@ -1,6 +1,7 @@
 ---
 title: "Ansible 安全编码指南：最佳实践"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "了解使用 Ansible 编写安全代码的最佳实践，Ansible 是一种用于配置管理和部署的流行工具。"
@@ -111,7 +112,7 @@ SSH 密钥指纹是受管节点用于身份验证的 SSH 密钥的唯一标识�
 开发人员可以使用 `regex_replace`过滤器对用户输入进行消毒。用户输入 `regex_replace`过滤器允许开发人员用其他模式替换字符串中的模式。例如，要使用空字符串替换字符串中的所有非字母字符，开发人员可以使用以下代码：
 
 ```yaml
-- name: Sanitize user input
+- name: 清理用户输入
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

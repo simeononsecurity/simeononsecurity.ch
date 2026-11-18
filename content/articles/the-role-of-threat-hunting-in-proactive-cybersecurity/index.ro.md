@@ -1,7 +1,7 @@
 ---
 title: "Vânătoarea de amenințări: Apărare proactivă împotriva atacurilor cibernetice"
 date: 2023-03-11
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aflați cum vânătoarea de amenințări poate preveni atacurile cibernetice și care sunt beneficiile și provocările implementării acesteia ca măsură proactivă de securitate cibernetică."
@@ -58,7 +58,7 @@ Vânătoarea de amenințări oferă mai multe beneficii cheie care o diferenția
 
 **Vânătoarea de amenințări este o abordare proactivă** a securității cibernetice care permite organizațiilor să identifice și să răspundă la amenințări **înainte ca acestea să provoace vreun prejudiciu**. Prin căutarea activă a amenințărilor, organizațiile pot fi cu un pas înaintea potențialilor atacatori și pot atenua riscurile într-o manieră proactivă.
 
-### Improved Detection
+### Detecție îmbunătățită
 
 Vânătoarea de amenințări îmbunătățește **capacitatea de detectare** a unei organizații prin descoperirea amenințărilor care ar fi putut eluda măsurile tradiționale de securitate cibernetică. Prin căutarea activă a indicatorilor de compromitere (IoC) și a comportamentelor anormale, organizațiile pot identifica activități malițioase care altfel ar fi trecut neobservate.
 
@@ -82,7 +82,7 @@ Vânătoarea de amenințări necesită un **nivel ridicat de expertiză tehnică
 
 Vânătoarea de amenințări poate fi un **proces cu utilizare intensivă a resurselor** care necesită timp și efort semnificativ. Implică investigarea manuală a amenințărilor potențiale, analiza traficului de rețea, examinarea jurnalelor de sistem și multe altele. Organizațiile trebuie să aloce resurse adecvate, inclusiv personal calificat și instrumente de securitate avansate, pentru a desfășura operațiuni eficiente de vânătoare de amenințări.
 
-### False Positives
+### Rezultate fals pozitive
 
 Vânătoarea de amenințări poate genera **falsi pozitivi**, care sunt alerte sau indicatori care pot părea inițial suspecți, dar care se dovedesc a fi benigni. Aceste false pozitive pot deturna resurse și pot cauza investigații inutile. Organizațiile trebuie să stabilească procese și metodologii solide pentru a **filtra rapid rezultatele pozitive false** și a se concentra pe amenințările autentice.
 

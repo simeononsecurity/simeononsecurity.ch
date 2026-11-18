@@ -1,6 +1,7 @@
 ---
 title: "Prawda o informacjach jawnych: Charakterystyka, ochrona i przepisy"
 date: 2023-06-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Odkryj prawdziwą naturę informacji jawnych, ich kluczowe cechy, środki zabezpieczające i odpowiednie przepisy dotyczące skutecznej ochrony."
@@ -43,7 +44,7 @@ Zrozumienie cech **informacji jawnych** ma kluczowe znaczenie dla skutecznego za
 
 **4. Wartość**: **Informacje jawne** mogą mieć znaczną wartość dla organizacji, osób fizycznych lub innych zainteresowanych stron. Mogą obejmować własność intelektualną, wyniki badań, dane finansowe lub szczegóły operacyjne, które przyczyniają się do ogólnego funkcjonowania i sukcesu podmiotu.
 
-**5. Z zastrzeżeniem przepisów**: Chociaż **informacje jawne** nie mają tak rygorystycznych wymogów ochrony jak informacje niejawne, niektóre przepisy i zasady mogą nadal regulować ich przetwarzanie, przechowywanie i rozpowszechnianie. Na przykład w Stanach Zjednoczonych postępowanie z **kontrolowanymi informacjami jawnymi (CUI)** jest regulowane przez ustawę o ochronie informacji niejawnych. [CUI program](https://www.archives.gov/cui), established by the National Archives and Records Administration (NARA)
+**5. Podleganie przepisom**: Chociaż **informacje jawne** nie podlegają tak rygorystycznym wymogom ochrony jak informacje niejawne, ich przetwarzanie, przechowywanie i rozpowszechnianie mogą regulować określone przepisy i zasady. Na przykład w Stanach Zjednoczonych postępowanie z **kontrolowanymi informacjami jawnymi (CUI)** reguluje [program CUI](https://www.archives.gov/cui), ustanowiony przez National Archives and Records Administration (NARA).
 
 Zrozumienie tych cech umożliwia organizacjom wdrożenie odpowiednich środków w celu ochrony **informacji jawnych** i ograniczenia potencjalnego ryzyka związanego z ich przetwarzaniem i udostępnianiem.
 
@@ -69,7 +70,7 @@ ______
 
 ## Wnioski
 
-**Informacje jawne** odgrywają istotną rolę w organizacjach i agencjach rządowych. Obejmują one szeroki zakres danych i wiedzy, które choć nie są niejawne, nadal mają wartość i wymagają ochrony. Rozumiejąc cechy informacji jawnych i wdrażając odpowiednie zabezpieczenia, organizacje mogą zapewnić **poufność**, **integralność** i **dostępność** tych cennych informacji. Zgodność z odpowiednimi przepisami rządowymi, takimi jak [CUI program](https://www.archives.gov/cui) w Stanach Zjednoczonych, dodatkowo zwiększa ochronę informacji jawnych i przyczynia się do ogólnego **bezpieczeństwa informacji**.
+**Informacje jawne** odgrywają istotną rolę w organizacjach i agencjach rządowych. Obejmują one szeroki zakres danych i wiedzy, które choć nie są niejawne, nadal mają wartość i wymagają ochrony. Rozumiejąc cechy informacji jawnych i wdrażając odpowiednie zabezpieczenia, organizacje mogą zapewnić **poufność**, **integralność** i **dostępność** tych cennych informacji. Zgodność z odpowiednimi przepisami rządowymi, takimi jak [Program CUI](https://www.archives.gov/cui) w Stanach Zjednoczonych, dodatkowo zwiększa ochronę informacji jawnych i przyczynia się do ogólnego **bezpieczeństwa informacji**.
 
 Ochrona informacji jawnych jest niezbędna do utrzymania zaufania interesariuszy, zapobiegania nieautoryzowanemu dostępowi lub ujawnieniu oraz zachowania reputacji i ciągłości operacyjnej organizacji. Wdrażając zalecane środki, organizacje mogą stworzyć bezpieczne środowisko dla informacji jawnych i ograniczyć związane z nimi ryzyko.
 
@@ -77,4 +78,4 @@ ______
 
 ## Referencje
 
-1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI) Program. Retrieved from [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. National Archives and Records Administration (NARA). Program Controlled Unclassified Information (CUI). Pobrano z [strony programu CUI w archives.gov](https://www.archives.gov/cui)

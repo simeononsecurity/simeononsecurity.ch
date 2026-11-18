@@ -1,7 +1,7 @@
 ---
 title: "Renforcer la résilience en cybersécurité grâce à la gestion des changements"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez l’importance de la gestion des changements en cybersécurité et comment renforcer la résilience face à l’évolution des menaces."

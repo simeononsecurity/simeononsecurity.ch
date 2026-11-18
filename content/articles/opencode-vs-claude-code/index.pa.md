@@ -1,7 +1,7 @@
 ---
 title: "OpenCode ਬਨਾਮ Claude Code: 2026 ਕੋਡਿੰਗ ਏਜੰਟ ਤੁਲਨਾ"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਮਾਡਲ ਚੋਣ, ਲੋਕਲ ਇਨਫ਼ਰੈਂਸ, ਕੀਮਤ, ਇਜਾਜ਼ਤਾਂ, ਪ੍ਰੋਜੈਕਟ ਹਦਾਇਤਾਂ ਅਤੇ ਰੋਜ਼ਾਨਾ ਕੋਡਿੰਗ ਵਰਕਫ਼ਲੋ ਲਈ OpenCode ਅਤੇ Claude Code ਦੀ ਤੁਲਨਾ ਕਰੋ।"
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+ਰਿਪੋਜ਼ਟਰੀ ਵਿੱਚ ਦਰਜ ਬਿਲਡ ਅਤੇ ਟੈਸਟ ਕਮਾਂਡਾਂ ਵਰਤੋ।
+ਗੈਰ-ਸੰਬੰਧਿਤ ਤਬਦੀਲੀਆਂ ਨੂੰ ਜਿਉਂ ਦਾ ਤਿਉਂ ਰੱਖੋ।
+ਨਿਰਭਰਤਾਵਾਂ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਨਾਕਾਮੀਆਂ ਸਮਝਾਓ।
+ਕਮਿਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਅੰਤਿਮ diff ਦੀ ਸਮੀਖਿਆ ਕਰੋ।
 ```
 
 **ਸਾਂਝੀਆਂ ਹਦਾਇਤਾਂ ਤੁਲਨਾ ਦਾ ਸ਼ੋਰ ਘਟਾਉਂਦੀਆਂ ਹਨ।** ਬਿਲਡ ਕਮਾਂਡ, ਆਰਕੀਟੈਕਚਰ ਸੀਮਾਵਾਂ ਅਤੇ ਸਵੀਕ੍ਰਿਤੀ ਮਾਪਦੰਡ ਇੱਕ ਕੈਨੋਨੀਕਲ ਫ਼ਾਈਲ ਵਿੱਚ ਰੱਖੋ। OpenCode ਦੀ [ਨਿਯਮ ਡੌਕੂਮੈਂਟੇਸ਼ਨ](https://opencode.ai/docs/rules/) `AGENTS.md` ਅਤੇ `CLAUDE.md` fallback ਦੱਸਦੀ ਹੈ। ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਹਰ ਹਦਾਇਤ ਫ਼ਾਈਲ ਆਪਣੇ ਆਪ ਜੋੜੀ ਜਾਂਦੀ ਹੈ।

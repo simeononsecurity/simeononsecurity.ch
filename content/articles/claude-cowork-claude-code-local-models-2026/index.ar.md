@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork وClaude Code مع نماذج محلية: دليل الإعداد لعام 2026"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "اضبط Ollama مع Claude Desktop وClaude Code عبر واجهة API متوافقة مع Anthropic. تعرّف على النماذج المناسبة والميزات السحابية لعام 2026."
@@ -188,7 +188,7 @@ claude --model glm-5.3-flash
 بعد تشغيل Claude Code، اطلب منه:
 
 ```text
-Read the current directory and list all files
+اقرأ المجلد الحالي واعرض قائمة بكل ملفاته
 ```
 
 **إذا عرض ملفات فعلية، يعمل استدعاء الأدوات.** إذا أجاب بأنه سيقرأ المجلد ووصف ما يتوقع وجوده فيه، فالميزة غير مفعلة. عندها تتحدث إلى نموذج دردشة أضيف إليه موجه برمجي، لا إلى وكيل. لن يحل المزيد من التوجيهات المشكلة.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 داخل جلسة Claude Code، ينفذ `/loop` مطالبة أو أمراً مائلاً على فاصل زمني:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m تحقّق من طلبات السحب المفتوحة ولخّص حالتها
+/loop 1h ابحث عن أحدث أخبار الذكاء الاصطناعي ولخّص أبرز التطورات
+/loop 15m تحقّق من مشكلات GitHub الجديدة وصنّفها حسب الأولوية
 ```
 
 *يعمل الأمر ما دامت الجلسة مفتوحة. إنه ليس خدمة في الخلفية، ويتوقف عند انتهاء الجلسة.*

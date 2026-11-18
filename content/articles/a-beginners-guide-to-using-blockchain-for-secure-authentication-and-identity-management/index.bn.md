@@ -1,11 +1,11 @@
 ---
 title: "নিরাপদ পরিচয় ব্যবস্থাপনায় ব্লকচেইন: নতুনদের জন্য নির্দেশিকা"
 date: 2023-04-06
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "নতুনদের জন্য এই নির্দেশিকায় নিরাপদ প্রমাণীকরণ ও পরিচয় ব্যবস্থাপনায় ব্লকচেইন প্রযুক্তির ব্যবহার জানুন।"
-tags: ["blockchain", "identity management", "authentication", "decentralized identity", "passwordless authentication", "smart contracts", "public key cryptography", "private key cryptography", "immutable records", "decentralized system", "single sign-on", "verification of credentials", "scalability", "privacy", "adoption", "digital identity", "distributed ledger technology", "cybersecurity", "data privacy", "technology"]
+tags: ["ব্লকচেইন", "পরিচয় ব্যবস্থাপনা", "প্রমাণীকরণ", "বিকেন্দ্রীভূত পরিচয়", "পাসওয়ার্ডবিহীন প্রমাণীকরণ", "স্মার্ট কন্ট্রাক্ট", "পাবলিক কী ক্রিপ্টোগ্রাফি", "প্রাইভেট কী ক্রিপ্টোগ্রাফি", "অপরিবর্তনীয় নথি", "বিকেন্দ্রীভূত ব্যবস্থা", "একক সাইন-অন", "পরিচয়পত্র যাচাই", "সম্প্রসারণযোগ্যতা", "গোপনীয়তা", "গ্রহণ", "ডিজিটাল পরিচয়", "বিতরণকৃত লেজার প্রযুক্তি", "সাইবার নিরাপত্তা", "তথ্যের গোপনীয়তা", "প্রযুক্তি"]
 cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "নিরাপদ পরিচয় ব্যবস্থাপনার প্রতীক হিসেবে পরস্পর যুক্ত উজ্জ্বল ব্লক ও রেখা দিয়ে তৈরি একটি ব্লকচেইন নেটওয়ার্কের চিত্র। ব্যবহারকারীদের অবয়বের সঙ্গে ডিজিটাল তথ্যের ঢাল দেখানো হয়েছে।"
 coverCaption: ""
@@ -75,4 +75,4 @@ coverCaption: ""
 
 ## তথ্যসূত্র
 
-1. Nakamoto, S. (2008). Bitcoin: একটি পিয়ার-টু-পিয়ার ইলেকট্রনিক নগদ ব্যবস্থা। [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+1. Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)

@@ -72,9 +72,9 @@ CompTIA A+ 考试 220-1102 涵盖与操作系统、安全、软件故障排除�
 
 CompTIA CertMaster 官方在线学习平台是学习 CompTIA A+ 考试的最佳资源之一。CertMaster 通过各种学习材料提供互动学习，包括视频、练习题和闪存卡。
 
-其他著名的学习资源包括 [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), the [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), and the [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN)
+其他著名的学习资源包括 [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG)、[All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT)和[CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN).
 
-此外，还有许多在线课程和教程可供选择，例如 [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/)在使用多种学习资源时，重要的是要关注那些与考试目标一致的资源，并使用信誉良好的资源，以确保其准确性和质量。
+此外，还有许多在线课程和教程可供选择，例如 [Udemy](https://www.udemy.com/)、[LinkedIn Learning](https://www.linkedin.com/learning-login/) 和 [Coursera](https://www.coursera.org/)。在使用多种学习资源时，重要的是要关注那些与考试目标一致的资源，并使用信誉良好的资源，以确保其准确性和质量。
 
 {{< youtube id="87t6P5ZHTP0" >}}{{< youtube id="OS9MJjNK6gA" >}}
 

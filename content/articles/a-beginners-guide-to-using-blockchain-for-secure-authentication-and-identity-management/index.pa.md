@@ -1,11 +1,11 @@
 ---
 title: "ਸੁਰੱਖਿਅਤ ਪਛਾਣ ਪ੍ਰਬੰਧਨ ਲਈ ਬਲਾਕਚੇਨ: ਸ਼ੁਰੂਆਤੀ ਲੋਕਾਂ ਲਈ ਮਾਰਗਦਰਸ਼ਨ"
 date: 2023-04-06
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਇਸ ਸ਼ੁਰੂਆਤੀ ਮਾਰਗਦਰਸ਼ਨ ਨਾਲ ਜਾਣੋ ਕਿ ਸੁਰੱਖਿਅਤ ਪ੍ਰਮਾਣਿਕਤਾ ਅਤੇ ਪਛਾਣ ਪ੍ਰਬੰਧਨ ਲਈ ਬਲਾਕਚੇਨ ਤਕਨਾਲੋਜੀ ਕਿਵੇਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ।"
-tags: ["blockchain", "identity management", "authentication", "decentralized identity", "passwordless authentication", "smart contracts", "public key cryptography", "private key cryptography", "immutable records", "decentralized system", "single sign-on", "verification of credentials", "scalability", "privacy", "adoption", "digital identity", "distributed ledger technology", "cybersecurity", "data privacy", "technology"]
+tags: ["ਬਲਾਕਚੇਨ", "ਪਛਾਣ ਪ੍ਰਬੰਧਨ", "ਪ੍ਰਮਾਣਿਕਤਾ", "ਵਿਕੇਂਦਰੀਕ੍ਰਿਤ ਪਛਾਣ", "ਪਾਸਵਰਡ-ਰਹਿਤ ਪ੍ਰਮਾਣਿਕਤਾ", "ਸਮਾਰਟ ਕੰਟਰੈਕਟ", "ਜਨਤਕ ਕੁੰਜੀ ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ", "ਨਿੱਜੀ ਕੁੰਜੀ ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ", "ਅਟੱਲ ਰਿਕਾਰਡ", "ਵਿਕੇਂਦਰੀਕ੍ਰਿਤ ਪ੍ਰਣਾਲੀ", "ਸਿੰਗਲ ਸਾਈਨ-ਆਨ", "ਪ੍ਰਮਾਣ-ਪੱਤਰਾਂ ਦੀ ਪੁਸ਼ਟੀ", "ਵਿਸਥਾਰਯੋਗਤਾ", "ਨਿੱਜਤਾ", "ਅਪਣਾਉਣਾ", "ਡਿਜੀਟਲ ਪਛਾਣ", "ਵੰਡੇ ਹੋਏ ਲੈਜ਼ਰ ਦੀ ਤਕਨਾਲੋਜੀ", "ਸਾਈਬਰ ਸੁਰੱਖਿਆ", "ਡਾਟਾ ਨਿੱਜਤਾ", "ਤਕਨਾਲੋਜੀ"]
 cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "ਬਲਾਕਚੇਨ ਨੈੱਟਵਰਕ ਦਾ ਚਿੱਤਰ, ਜਿਸ ਵਿੱਚ ਚਮਕਦੇ ਜੁੜੇ ਬਲਾਕ ਅਤੇ ਰੇਖਾਵਾਂ ਸੁਰੱਖਿਅਤ ਪਛਾਣ ਪ੍ਰਬੰਧਨ ਨੂੰ ਦਰਸਾਉਂਦੀਆਂ ਹਨ। ਵਰਤੋਂਕਾਰਾਂ ਦੀਆਂ ਪਰਛਾਵਾਂ ਨਾਲ ਡਿਜੀਟਲ ਡਾਟਾ-ਢਾਲਾਂ ਵੀ ਦਿਖਾਈਆਂ ਗਈਆਂ ਹਨ।"
 coverCaption: ""
@@ -75,4 +75,4 @@ coverCaption: ""
 
 ## ਹਵਾਲੇ
 
-1. ਨਾਕਾਮੋਤੋ, ਸਤੋਸ਼ੀ। (2008)। ਬਿਟਕੋਇਨ: ਇੱਕ ਪੀਅਰ-ਟੂ-ਪੀਅਰ ਇਲੈਕਟ੍ਰਾਨਿਕ ਨਕਦੀ ਪ੍ਰਣਾਲੀ। [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+1. ਨਾਕਾਮੋਤੋ, ਸਤੋਸ਼ੀ। (2008)। Bitcoin: A Peer-to-Peer Electronic Cash System. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)

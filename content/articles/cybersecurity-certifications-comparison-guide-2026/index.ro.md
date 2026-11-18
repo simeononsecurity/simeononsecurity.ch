@@ -1,7 +1,7 @@
 ---
 title: "Comparația certificărilor de securitate cibernetică 2026"
 date: 2026-05-24
-lastmod: 2026-11-10
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "O comparație din 2026 a furnizorilor de certificări de securitate cibernetică, a prețurilor, rentabilității investiției și potrivirii cu traseele profesionale."
@@ -140,12 +140,12 @@ ______
 
 **Exemplu din lumea reală:**
 ```
-Job Listing Analysis (SOC Analyst I, Fortune 500 Company):
-"Required: Security+ or equivalent"
-"Preferred: Bachelor's degree OR 2 years experience"
+Analiza unui anunț de angajare (analist SOC de nivel I la o companie Fortune 500):
+„Obligatoriu: Security+ sau echivalent”
+„Preferat: diplomă de licență SAU 2 ani de experiență”
 
-Translation: Security+ = Entry ticket. Nobody cares after 2 years of experience.
-Salary Range: $60,000-$75,000
+Interpretare: Security+ este biletul de intrare. După 2 ani de experiență, certificarea nu mai contează.
+Interval salarial: $60,000-$75,000
 ```
 **Integrarea AI în 2026:**
 Noua certificare SECT AI+ acoperă:
@@ -195,12 +195,12 @@ CISSP a reușit ceva remarcabil: **departamentele HR o cer pentru posturi de toa
 
 **Analiza CISSP în anunțurile de angajare:**
 ```
-Entry-Level SOC Analyst: "CISSP preferred" (12% of listings)
-Mid-Level Security Engineer: "CISSP required" (45% of listings)
-Senior Security Architect: "CISSP required" (78% of listings)
-CISO: "CISSP required" (85% of listings)
+Analist SOC la nivel de început: „CISSP preferat” (12% dintre anunțuri)
+Inginer de securitate la nivel mediu: „CISSP obligatoriu” (45% dintre anunțuri)
+Arhitect senior de securitate: „CISSP obligatoriu” (78% dintre anunțuri)
+CISO: „CISSP obligatoriu” (85% dintre anunțuri)
 
-Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
+Realitatea: CISSP apare peste tot, dar nu este „obligatoriu” pentru începătorii fără experiență.
 ```
 **Cele opt domenii CISSP (versiunea 2026):**
 1. Gestionarea securității și a riscului
@@ -230,14 +230,14 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 
 **Analiza costului (cost total pe 5 ani):**
 ```
-CISSP Total Cost of Ownership (5 years):
-- Exam: $749
-- Study materials: $200-500
-- Renewal fees: $135/year × 5 = $675
-- Total 5-year cost: $1,624-$1,924
-- Annual maintenance effort: 40 CPE credits/year
+Costul total de deținere al CISSP (5 ani):
+- Examen: $749
+- Materiale de studiu: $200-500
+- Taxe de reînnoire: $135/an × 5 = $675
+- Cost total pe 5 ani: $1,624-$1,924
+- Efort anual de menținere: 40 de credite CPE/an
 
-ROI: High if targeting management roles, moderate for technical IC roles
+Rentabilitate: ridicată pentru roluri de management, moderată pentru roluri tehnice individuale
 ```
 **Integrarea AI în 2026:**
 Noul **AI Security Certificate** ISC2 acoperă:
@@ -307,14 +307,14 @@ OSCP (Offensive Security Certified Professional) rămâne **cea mai recunoscută
 
 **Realitatea prețurilor:**
 ```
-OSCP Cost Breakdown (2026):
-- Self-Guided Package (3 months lab time): $1,699
-- Learn One Package (3 months + Learn One year): $2,699
-- Exam retake: $249 each
+Defalcarea costului OSCP (2026):
+- Pachet Self-Guided (3 luni de laborator): $1,699
+- Pachet Learn One (3 luni + un an Learn One): $2,699
+- Reexaminare: $249 fiecare
 
-Removed in 2025: Learn Unlimited (unlimited time) - this angered community
+Eliminat în 2025: Learn Unlimited (timp nelimitat). Schimbarea a nemulțumit comunitatea.
 
-Average total cost including retakes: $1,950-$2,500
+Cost total mediu, inclusiv reexaminări: $1,950-$2,500
 ```
 **Puncte forte:**
 - **Standard de aur al industriei:** certificarea ofensivă cel mai bine recunoscută
@@ -485,19 +485,19 @@ Iată adevărul controversat: **în 2026, certificările cloud pot valora mai mu
 
 **De ce conduce cloudul în 2026:**
 ```
-Traditional Cybersecurity Jobs (2020-2024):
-- On-premises data centers
-- Physical firewalls and network security
-- Windows Server and Active Directory
-- VPN concentrators and DMZs
+Locuri de muncă tradiționale în securitate cibernetică (2020-2024):
+- Centre de date găzduite la sediu
+- Firewall-uri fizice și securitatea rețelei
+- Windows Server și Active Directory
+- Concentratoare VPN și zone DMZ
 
-Modern Cybersecurity Jobs (2025-2026):
-- AWS, Azure, GCP cloud environments
-- Container security (Docker, Kubernetes)
-- Serverless security (Lambda, Azure Functions)
-- Identity and access management (IAM)
-- Infrastructure as Code (Terraform, CloudFormation)
-- AI/ML model security
+Locuri de muncă moderne în securitate cibernetică (2025-2026):
+- Medii cloud AWS, Azure și GCP
+- Securitatea containerelor (Docker, Kubernetes)
+- Securitatea serviciilor fără server (Lambda, Azure Functions)
+- Gestionarea identității și a accesului (IAM)
+- Infrastructură ca cod (Terraform, CloudFormation)
+- Securitatea modelelor AI/ML
 ```
 **Diferența de competențe este uriașă.** Companiile au migrat la cloud mai repede decât au dobândit profesioniștii de securitate competențe cloud, creând o cerere fără precedent.
 
@@ -544,23 +544,23 @@ Modern Cybersecurity Jobs (2025-2026):
 
 **Analiza costurilor: cloud versus tradițional:**
 ```
-Traditional Security Path (3-year cost):
+Traseu tradițional în securitate (cost pe 3 ani):
 - Security+: $404
 - CySA+: $404
 - PenTest+: $404
-- CISSP: $749 + $405 renewal
-Total: $2,366 over 3 years
+- CISSP: $749 + $405 reînnoire
+Total: $2,366 în 3 ani
 
-Cloud Security Path (3-year cost):
+Traseu în securitatea cloudului (cost pe 3 ani):
 - AWS Cloud Practitioner: $100
 - AWS Solutions Architect Associate: $150
 - AWS Security Specialty: $300
 - Azure Fundamentals: $99
-- Azure Security Engineer: $165 + $165 renewal
-Total: $979 over 3 years
+- Azure Security Engineer: $165 + $165 reînnoire
+Total: $979 în 3 ani
 
-Savings: $1,387 (58% less expensive)
-Job Market Demand: 38% vs 36% (cloud higher)
+Economie: $1,387 (cu 58% mai ieftin)
+Cererea pe piața muncii: 38% față de 36% (mai mare pentru cloud)
 ```
 **Puncte forte ale certificărilor cloud:**
 - **Cerere ridicată:** 38% dintre joburi cer certificări AWS și Azure
@@ -642,19 +642,19 @@ SANS Institute oferă **conținut excelent de formare**, predat de instructori p
 
 **Problema este prețul.**
 ```
-SANS GPEN (Penetration Testing) Total Cost:
-- SANS SEC560 Course: $7,995
-- GPEN Exam (2 attempts): $979
-- Books and materials: $200
-- Travel/lodging (if in-person): $2,000+
+Costul total SANS GPEN (testare de penetrare):
+- Curs SANS SEC560: $7,995
+- Examen GPEN (2 încercări): $979
+- Cărți și materiale: $200
+- Transport/cazare (pentru participare fizică): $2,000+
 Total: $11,174 - $13,174
 
-Alternative:
+Alternativă:
 - OSCP: $1,699-2,699
-- Or HackTheBox CPTS: $499
-- Or OffSec + HTB combined: $2,198
+- Sau HackTheBox CPTS: $499
+- Sau OffSec + HTB împreună: $2,198
 
-Savings with alternatives: $8,976-$10,976 (75-83% less expensive)
+Economie cu alternativele: $8,976-$10,976 (cu 75-83% mai ieftin)
 ```
 **Detalierea prețurilor SANS:**
 
@@ -1023,11 +1023,11 @@ Fiecare furnizor încearcă să adauge conținut AI. Iată cine face acest lucru
 
 **Strategia certificărilor în era AI:**
 ```
-WRONG Approach:
-"Get AI-proof certification" → No such thing exists
+Abordare GREȘITĂ:
+„Obține o certificare imună la AI” → o astfel de certificare nu există
 
-RIGHT Approach:
-"Get AI-aware certifications" → Choose vendors updating content
+Abordare CORECTĂ:
+„Obține certificări adaptate la AI” → alege furnizori care își actualizează conținutul
 ```
 **Furnizori în creștere:** AWS, Azure, ISC2, SANS (scumpi, dar actuali)
 **Furnizori în declin:** INE, EC-Council și cei care nu actualizează conținutul

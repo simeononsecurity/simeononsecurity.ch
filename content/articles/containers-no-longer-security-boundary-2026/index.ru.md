@@ -1,7 +1,7 @@
 ---
 title: "Контейнеры больше не являются границей безопасности: выходы из ядра в 2026 году"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Обзор исследований выхода из контейнеров за 2026 год, ограничений изоляции ядра, давления на процесс установки исправлений и роли microVM."
@@ -12,7 +12,6 @@ coverAlt: "Цифровая иллюстрация: несколько свет�
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Контейнеры используют одно ядро. В 2026 году четыре независимых семейства уязвимостей доказали: одной ошибки ядра достаточно, чтобы выйти из контейнера на хост.** Copy Fail, Dirty Frag, Fragnesia и CVE-2026-80521 дают root непривилегированному локальному пользователю. Каждая уязвимость позволяет пересечь границу контейнера.
 
 *Тревожны не только сами ошибки. ИИ теперь находит их с малыми затратами, а один патч породил другую ошибку.*
@@ -245,27 +244,27 @@ DepthFirst получил **место в Google kernelCTF** за эту уяз�
 Эти меры не заменяют границу виртуальной машины, но убирают простые пути атаки:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Отключите ненужные модули, которыми злоупотребляет семейство page-cache
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Ограничьте непривилегированные пространства имён пользователей, блокируя варианты ESP
+# Debian и Ubuntu: это частичная мера смягчения, а не полное решение
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# При подозрении на эксплуатацию очистите page cache, чтобы удалить изменённые бинарные файлы из памяти
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Начальные признаки для обнаружения
+- Неожиданный unshare(CLONE_NEWUSER) от рабочей нагрузки без обоснованной причины
+- Активность NETLINK_XFRM или ассоциации безопасности XFRM вне хостов IPsec
+- Запросы на привязку сокетов AF_ALG
+- Загрузка esp4, esp6 или rxrpc на хостах без IPsec и AFS
 ```
 
 > **Предупреждение: `drop_caches` отбрасывает изменённую копию в памяти и устраняет повреждение, но не удаляет атакующего, который уже получил root. Используйте эту меру при реагировании на инцидент, а не как способ устранения угрозы.**

@@ -1,6 +1,7 @@
 ---
 title: "Înțelegerea componentelor cheie ale procesului OPSEC pentru o protecție eficientă a informațiilor"
 date: 2023-06-15
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Explorați componentele critice ale procesului OPSEC și învățați cum să protejați eficient informațiile sensibile."
@@ -54,7 +55,7 @@ Mai multe reglementări guvernamentale oferă orientări și cerințe pentru imp
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) HIPAA stabilește standarde de securitate pentru protejarea informațiilor sensibile privind sănătatea pacienților în sectorul sănătății.
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): Regulamentul general privind protecția datelor (GDPR) stabilește orientări pentru protecția datelor cu caracter personal în Uniunea Europeană (UE).
 
 Prin respectarea acestor reglementări, organizațiile se pot asigura că dispun de măsuri adecvate pentru a proteja informațiile sensibile și pentru a evita repercusiunile legale.
 

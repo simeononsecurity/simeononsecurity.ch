@@ -1,6 +1,7 @@
 ---
 title: "Schritt-für-Schritt-Leitfaden für eine Karriere in IT und Cybersicherheit"
 date: 2023-02-13
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Entdecken Sie die Schritte, die Sie unternehmen müssen, um Ihre Karriere im aufregenden und sich ständig weiterentwickelnden Bereich der IT und Cybersicherheit zu starten, mit diesem umfassenden Leitfaden"
@@ -21,15 +22,15 @@ Wie das Sprichwort sagt, muss man erst lernen, wie man etwas aufbaut, bevor man 
 
 ## Ein Studium oder eine Zertifizierung anstreben
 
-Ein IT- oder Cybersicherheitsstudium ist zwar ratsam, aber nicht der einzige Weg, um in den Beruf einzusteigen. Verfolgen Sie [CompTIA's A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) können Ihnen einen guten Start in diesem Bereich ermöglichen und Ihnen oft zeigen, ob Sie diesen Bereich überhaupt weiter verfolgen wollen. Diese Zertifizierungen werden von vielen Arbeitgebern anerkannt, und sie werden oft auf ein Studium angerechnet. Außerdem kosten sie deutlich weniger als ein Hochschulstudium.
+Ein Studium der IT oder Cybersicherheit ist empfehlenswert, aber nicht der einzige Einstieg in den Beruf. Mit [CompTIA A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+](https://www.comptia.org/certifications/network) und der [Security+-Zertifizierung](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) können Sie gut anfangen und herausfinden, ob Sie diesen Weg weiterverfolgen möchten. Viele Arbeitgeber erkennen diese Zertifizierungen an, und oft lassen sie sich auf Studienleistungen anrechnen. Außerdem sind sie deutlich günstiger als ein Hochschulabschluss.
 
 ## Erweitern Sie Ihre Fähigkeiten
 
-Sobald Sie die [CompTIA certifications](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/), or at least the [Security+ certification](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), you can start advancing your skills. Pursuing certifications like [Microsoft's MCSA](https://www.microsoft.com/en-us/learning/certification), [CompTIA's Linux+](https://www.comptia.org/certifications/linux) oder der CCNA von Cisco belegen, dass Sie über ein Mindestmaß an administrativen Fähigkeiten und Kenntnissen verfügen. Diese Zertifizierungen machen Sie auch zu einem wettbewerbsfähigeren Kandidaten für IT- und Cybersicherheitsjobs.
+Wenn Sie die [CompTIA-Zertifizierungen](https://simeononsecurity.com/articles/tips-and-tricks-for-passing-comptia-exams/) oder zumindest die [Security+-Zertifizierung](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) erworben haben, können Sie Ihre Fähigkeiten ausbauen. Zertifizierungen wie [MCSA von Microsoft](https://www.microsoft.com/en-us/learning/certification), [Linux+ von CompTIA](https://www.comptia.org/certifications/linux) oder Cisco CCNA belegen grundlegende Kenntnisse und Fähigkeiten in der Systemadministration. Sie machen Sie auch zu einem stärkeren Kandidaten für Stellen in IT und Cybersicherheit.
 
 ## Cybersecurity im Fokus
 
-Wenn Sie eine Karriere im Bereich der Cybersicherheit anstreben, sollten Sie sich entweder für den Erwerb des [pentest+](https://www.comptia.org/certifications/pentest) or [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) (preferred) Zertifizierung. **Mit der CEH-Zertifizierung erhalten Sie eine solide Grundlage für ethisches Hacken und Penetrationstests, und die OSCP-Zertifizierung ist der nächste Schritt für diejenigen, die ihre Fähigkeiten auf die nächste Stufe bringen wollen.**
+Wenn Sie eine Karriere in der Cybersicherheit anstreben, sollten Sie CompTIA [PenTest+](https://www.comptia.org/certifications/pentest) oder, bevorzugt, [CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) erwerben. **Die CEH-Zertifizierung vermittelt eine solide Grundlage für ethisches Hacking und Penetrationstests. Die OSCP-Zertifizierung ist der nächste Schritt für alle, die ihre Fähigkeiten weiter ausbauen möchten.**
 
 ## Skripting lernen
 
@@ -39,13 +40,13 @@ Das Erlernen von Skripten ist eine wichtige Fähigkeit für jeden, der im IT- un
 
 Als Anfänger im Bereich IT und Cybersicherheit stehen Ihnen viele Ressourcen zur Verfügung, die Ihnen helfen, Wissen und Fähigkeiten zu erwerben. Einige empfohlene Ressourcen sind:
 
-- [**Online courses**](https://simeononsecurity.com/recommendations/learning_resources/) Viele Websites bieten kostenlose oder kostengünstige Kurse zu verschiedenen Themen der IT und Cybersicherheit an. Zu den beliebtesten Plattformen gehören Coursera, Udemy und edX. Die Website Cybrary bietet zum Beispiel kostenlose Kurse zu Themen wie Ethical Hacking, Netzwerksicherheit und Cloud-Sicherheit.
+- [**Onlinekurse**](https://simeononsecurity.com/recommendations/learning_resources/) Viele Websites bieten kostenlose oder kostengünstige Kurse zu verschiedenen Themen der IT und Cybersicherheit an. Zu den beliebtesten Plattformen gehören Coursera, Udemy und edX. Die Website Cybrary bietet zum Beispiel kostenlose Kurse zu Themen wie Ethical Hacking, Netzwerksicherheit und Cloud-Sicherheit.
 
-- [**Tutorials and free resources**](https://simeononsecurity.com/recommendations/learning_resources/): Many websites offer free tutorials and resources on topics such as programming languages, cybersecurity tools, and operating systems. For example, the website [W3Schools](https://www.w3schools.com/) bietet kostenlose Tutorials zu Programmiersprachen wie HTML, CSS und JavaScript.
+- [**Tutorials und kostenlose Ressourcen**](https://simeononsecurity.com/recommendations/learning_resources/): Viele Websites bieten kostenlose Tutorials und Ressourcen zu Programmiersprachen, Cybersicherheitstools und Betriebssystemen. Zum Beispiel stellt [W3Schools](https://www.w3schools.com/) kostenlose Tutorials zu Sprachen wie HTML, CSS und JavaScript bereit.
 
-- [**Certifications**](https://simeononsecurity.com/recommendations/certifications/): Certifications can be a valuable asset in the IT and cybersecurity fields. They demonstrate your knowledge and skills in a particular area and can make you more marketable to employers. Some popular certifications include [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/), and [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)
+- [**Zertifizierungen**](https://simeononsecurity.com/recommendations/certifications/): Zertifizierungen sind in IT und Cybersicherheit ein wertvoller Nachweis. Sie belegen Wissen und Fähigkeiten in einem Fachgebiet und können die Chancen bei Arbeitgebern verbessern. Zu den bekannten Zertifizierungen gehören [CompTIA Security+](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) und [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP).
 
-- [**Books**](https://simeononsecurity.com/recommendations/books/): Reading books can be a great way to learn about IT and cybersecurity topics in-depth. Some recommended books include ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" by Michael Sikorski and Andrew Honig](https://amzn.to/3xVXzFa), and ["The Art of Deception: Controlling the Human Element of Security" by Kevin Mitnick](https://amzn.to/3SuW8qL)
+- [**Bücher**](https://simeononsecurity.com/recommendations/books/): Bücher helfen dabei, Themen aus IT und Cybersicherheit gründlich kennenzulernen. Zu den empfohlenen Titeln gehören ["The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" von Gene Kim](https://amzn.to/3xVIRhy), ["Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software" von Michael Sikorski und Andrew Honig](https://amzn.to/3xVXzFa) und ["The Art of Deception: Controlling the Human Element of Security" von Kevin Mitnick](https://amzn.to/3SuW8qL).
 
 Zusätzlich zu diesen Ressourcen ist die Vernetzung in den Bereichen IT und Cybersicherheit von entscheidender Bedeutung. Durch den Beitritt zu Branchengruppen, die Teilnahme an Konferenzen und den Kontakt zu anderen Fachleuten können Sie sich über neue Technologien und Trends in diesem Bereich informieren.
 ______

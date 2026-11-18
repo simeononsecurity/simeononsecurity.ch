@@ -1,6 +1,7 @@
 ---
 title: "De waarheid over niet-gerubriceerde informatie: Kenmerken, beveiliging en regelgeving"
 date: 2023-06-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ontdek de ware aard van niet-gerubriceerde informatie, de belangrijkste kenmerken, beschermingsmaatregelen en relevante regelgeving voor effectieve bescherming."
@@ -24,8 +25,8 @@ ______
 Niet-gerubriceerde informatie kan verschillende vormen aannemen, inclusief maar niet beperkt tot:
 
 - **Publiekelijk beschikbare gegevens**: Informatie die vrij toegankelijk is voor het algemene publiek, zoals gepubliceerde rapporten, nieuwsartikelen of openbaar gedeelde documenten.
-- Gecontroleerde niet-gerubriceerde gegevens (CUI)**: Gevoelige maar niet-gerubriceerde informatie die onderworpen is aan specifieke beveiligingseisen die zijn vastgelegd in overheidsvoorschriften. Een voorbeeld van CUI in de Verenigde Staten is persoonlijk identificeerbare informatie (PII), waaronder persoonlijke gegevens zoals burgerservicenummers, adressen of financiële gegevens.
-- Officiële gegevens van een agentschap**: Documenten, databases of bestanden gegenereerd of onderhouden door overheidsinstanties die niet geclassificeerd zijn maar waardevolle informatie bevatten. Bijvoorbeeld overheidsrapporten, correspondentie of administratieve bestanden kunnen onder deze categorie vallen.
+- **Gecontroleerde niet-gerubriceerde informatie (CUI)**: Gevoelige maar niet-gerubriceerde informatie die onderworpen is aan specifieke beveiligingseisen die zijn vastgelegd in overheidsvoorschriften. Een voorbeeld van CUI in de Verenigde Staten is persoonlijk identificeerbare informatie (PII), waaronder persoonlijke gegevens zoals burgerservicenummers, adressen of financiële gegevens.
+- **Officiële gegevens van een agentschap**: Documenten, databases of bestanden die door overheidsinstanties zijn opgesteld of bijgehouden. Ze zijn niet geclassificeerd, maar bevatten waardevolle informatie. Overheidsrapporten, correspondentie en administratieve bestanden zijn voorbeelden.
 
 Door de verschillende soorten en vormen van niet-gerubriceerde informatie te begrijpen, kunnen organisaties dergelijke gegevens effectief beheren en beschermen in overeenstemming met de geldende voorschriften.
 
@@ -43,7 +44,7 @@ Het begrijpen van de kenmerken van **ongerubriceerde informatie** is cruciaal vo
 
 **4. Waarde**: **Niet-gerubriceerde informatie** kan een aanzienlijke waarde hebben voor organisaties, personen of andere belanghebbenden. Het kan gaan om intellectueel eigendom, onderzoeksresultaten, financiële gegevens of operationele details die bijdragen aan het algemene functioneren en succes van een entiteit.
 
-**5. Onderworpen aan regelgeving**: Hoewel **ongerubriceerde informatie** niet dezelfde strenge beschermingseisen heeft als gerubriceerde informatie, kunnen bepaalde voorschriften en beleidsregels toch van toepassing zijn op de verwerking, opslag en verspreiding ervan. In de Verenigde Staten wordt de behandeling van **gecontroleerde niet-gerubriceerde informatie (CUI)** bijvoorbeeld geregeld door de [CUI program](https://www.archives.gov/cui), established by the National Archives and Records Administration (NARA)
+**5. Onderworpen aan regelgeving**: Hoewel **ongerubriceerde informatie** niet dezelfde strenge beschermingseisen heeft als gerubriceerde informatie, kunnen bepaalde voorschriften en beleidsregels toch van toepassing zijn op de verwerking, opslag en verspreiding ervan. In de Verenigde Staten wordt de behandeling van **gecontroleerde niet-gerubriceerde informatie (CUI)** bijvoorbeeld geregeld door het [CUI-programma](https://www.archives.gov/cui), ingesteld door National Archives and Records Administration (NARA)
 
 Inzicht in deze kenmerken stelt organisaties in staat om geschikte maatregelen te implementeren om **ongerubriceerde gegevens** te beschermen en potentiële risico's in verband met het verwerken en delen ervan te beperken.
 
@@ -69,7 +70,7 @@ ______
 
 ## Conclusie
 
-**Niet-geclassificeerde informatie** speelt een vitale rol in organisaties en overheidsinstellingen. Het omvat een breed scala aan gegevens en kennis die, hoewel ze niet geclassificeerd zijn, toch waardevol zijn en bescherming vereisen. Door de kenmerken van niet-gerubriceerde informatie te begrijpen en de juiste voorzorgsmaatregelen te nemen, kunnen organisaties de **vertrouwelijkheid**, **integriteit** en **beschikbaarheid** van deze waardevolle informatie garanderen. Naleving van relevante overheidsvoorschriften, zoals de [CUI program](https://www.archives.gov/cui) in de Verenigde Staten, de bescherming van niet-gerubriceerde informatie verder verbetert en bijdraagt aan de algehele **informatiebeveiliging**.
+**Niet-geclassificeerde informatie** speelt een vitale rol in organisaties en overheidsinstellingen. Het omvat een breed scala aan gegevens en kennis die, hoewel ze niet geclassificeerd zijn, toch waardevol zijn en bescherming vereisen. Door de kenmerken van niet-gerubriceerde informatie te begrijpen en de juiste voorzorgsmaatregelen te nemen, kunnen organisaties de **vertrouwelijkheid**, **integriteit** en **beschikbaarheid** van deze waardevolle informatie garanderen. De naleving van het [CUI-programma](https://www.archives.gov/cui) in de Verenigde Staten verbetert de bescherming van niet-gerubriceerde informatie en draagt bij aan de algehele **informatiebeveiliging**.
 
 Het beschermen van niet-gerubriceerde informatie is essentieel voor het behouden van het vertrouwen van belanghebbenden, het voorkomen van ongeautoriseerde toegang of openbaarmaking, en het behouden van de reputatie en operationele continuïteit van organisaties. Door de aanbevolen maatregelen te implementeren, kunnen organisaties een veilige omgeving voor niet-gerubriceerde gegevens creëren en de bijbehorende risico's beperken.
 
@@ -77,4 +78,4 @@ ______
 
 ## Referenties
 
-1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI)-programma. Opgehaald van [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI)-programma. Opgehaald van [CUI-programmapagina op archives.gov](https://www.archives.gov/cui)

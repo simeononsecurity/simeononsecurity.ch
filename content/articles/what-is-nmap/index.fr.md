@@ -1,7 +1,7 @@
 ---
 title: "Nmap : un guide de l'analyse réseau et de la détection de services"
 date: 2023-06-13
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Découvrez comment utiliser efficacement Nmap pour l'analyse du réseau, l'analyse des ports, la détection des services et l'identification des systèmes d'exploitation afin d'évaluer la sécurité du réseau."
@@ -11,7 +11,7 @@ coverAlt: "Concept de sécurité des réseaux avec les outils de balayage Nmap d
 coverCaption: ""
 ---
 
-[**What is Nmap and How to Use It?**](https://nmap.org/download.html)
+[**Qu'est-ce que Nmap et comment l'utiliser ?**](https://nmap.org/download.html)
 
 [Nmap](https://nmap.org/download.html) (Network Mapper) est un outil puissant et polyvalent d'analyse de réseau à code source ouvert, utilisé pour découvrir les hôtes et les services d'un réseau informatique. Il fournit des informations précieuses sur l'infrastructure du réseau et aide à évaluer la sécurité du réseau. Dans cet article, nous allons explorer les bases de Nmap, ses fonctionnalités et comment l'utiliser efficacement.
 

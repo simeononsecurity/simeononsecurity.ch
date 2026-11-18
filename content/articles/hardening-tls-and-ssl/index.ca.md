@@ -1,7 +1,7 @@
 ---
 title: "Reforceu la seguretat de l’ordinador desactivant SSL i TLS 1.1 i versions anteriors"
 date: 2023-02-08
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Desactiveu SSL i les versions antigues de TLS i manteniu TLS 1.2 o posterior. El text tracta Schannel i .NET a Windows i els serveis Linux."
@@ -42,17 +42,17 @@ Function Disable-Protocol {
     Set-ItemProperty -Path $ClientPath -Force -Name Enabled -Type "DWORD" -Value 0
     Set-ItemProperty -Path $ClientPath -Force -Name DisabledByDefault -Type "DWORD" -Value 1
 }
-# Disable SSL v2
+# Desactiva SSL v2
 Disable-Protocol -Protocol "SSL 2.0"
-# Disable SSL v3
+# Desactiva SSL v3
 Disable-Protocol -Protocol "SSL 3.0"
-# Disable TLS 1.0
+# Desactiva TLS 1.0
 Disable-Protocol -Protocol "TLS 1.0"
-# Disable DTLS 1.0
+# Desactiva DTLS 1.0
 Disable-Protocol -Protocol "DTLS 1.0"
-# Disable TLS 1.1
+# Desactiva TLS 1.1
 Disable-Protocol -Protocol "TLS 1.1"
-# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
+# No hi ha cap protocol DTLS 1.1. L’RFC 8996 desaconsella DTLS 1.0 i manté DTLS 1.2.
 
 function Set-NETStrongAuthentication {
     param(

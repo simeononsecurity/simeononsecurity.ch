@@ -1,7 +1,7 @@
 ---
 title: "Recuperarea derivei agenților AI și fluxul de predare a sarcinilor"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Detectează surse și adaptoare de politici învechite, recuperează publicări întrerupte și verifică predări independente între agenți."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## Efectuarea verificării preliminare
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+Citește MAP-01 și înregistrează revizia.
+Citește POL-01 și compară versiunile adaptoarelor active.
+Citește REQ-17 și RUN-04 din locațiile indicate în hartă.
+Citește config.json din main protejat.
+Citește propunerea înghețată și revizuirile actuale ale rolurilor.
+Compară sursele curente cu bazele verificate.
+Listează discrepanțele, citirile refuzate și publicările în așteptare.
+Oprește scrierile cu impact până când responsabilii rezolvă fiecare discrepanță.
 ```
 
 **Contribuitorul face verificarea preliminară înainte de redactare. Editorul o repetă înainte de scriere.** Păstrează comparația versiunilor împreună cu propunerea. Verificările săptămânale completează aceste citiri, dar nu le înlocuiesc.
@@ -103,16 +103,16 @@ choices:
 ## Verificarea unei predări independente
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+Predare: HANDOFF-042
+Sarcină: PROP-042
+Hartă și politică: atașează reviziile aprobate actuale
+Dovezi: referințe la cerințe, runbook și configurație
+Registru: completed, failed, pending
+Decizie: alegerea responsabilului și revizia fixă a propunerii
+Limite: fără test de ștergere în execuție și fără date de producție
+Rol următor: rol responsabil
+Acțiune următoare: un pas delimitat
+Stop: bază schimbată, acces refuzat sau autorități în conflict
 ```
 
 **Deschide alt instrument sau o sesiune curată** cu harta și predarea, nu conversația anterioară. Cere citiri noi ale surselor, un manifest nou și identificarea acțiunii în așteptare. Dovezile colectate manual în browser rămân valabile dacă sunt etichetate ca instantaneu și reverificate înainte de scriere.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **Compensarea nu șterge istoricul.** Păstrează încercarea de schimbare la treizeci de zile, eșecul ei și restaurarea ulterioară ca înregistrări separate. Sursa finală spune șapte, iar istoricul livrării explică de ce propunerea aprobată nu a fost finalizată.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+Decizie de recuperare: compensare ilustrativă
+Propunere originală: PROP-042, revizia 1
+Discrepanță observată: cerință 30, configurație/runbook 7
+Decizia responsabilului: restaurează intenția de bază aprobată
+Obiectul revizuirii: compară compensarea fixă cu versiunea actuală a cerinței
+Rezultat: înregistrează revizia rezultată și recitește valoarea de șapte zile
+Livrare originală: retrage sau blochează cu explicație
+Limită: nu s-au efectuat ștergeri în execuție sau restaurări de date
 ```
 
 **Păstrează explicit orice excepție adăugată de alt autor.** Lipirea oarbă a corpului unei pagini vechi riscă să elimine o modificare intermediară validă. Compară textul actual cu cel dorit, apoi revizuiește o modificare compensatorie minimă pe baza versiunii curente.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **Folosește o sesiune curată și un alt revizor.** Furnizează harta, pachetul fixat, registrul și decizia de recuperare. Nu oferi conversația anterioară. Cere destinatarului să precizeze intenția actuală, configurația, îndrumarea operațională și următoarea acțiune autorizată.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+Citește independent sursele actuale indicate în hartă.
+Distinge intenția aprobată, configurația confirmată și starea livrării.
+Compară-le cu pachetul verificat și registrul.
+Listează citirile lipsă și bazele schimbate.
+Recomandă un pas următor delimitat și indică rolul responsabil.
+Nu trata această predare ca aprobare sau permisiune de publicare.
 ```
 
 **Raționament așteptat:** destinatarul verifică rezultatul compensării înainte de a descrie baza ca restaurată. Dacă repetă doar „șapte zile” din predare, cerința de citire independentă nu a fost testată. Cere dovezi din surse în locul unui alt rezumat.
@@ -219,4 +219,4 @@ Dă acest inventar unui al doilea cititor fără conversația veche. Predarea tr
 
 ## Pașii următori
 
-**Finalizează [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** folosind ambele piste și un al doilea cititor. Arată citiri actuale ale surselor, diferențe de versiune, proprietarul deciziei, recuperarea revizuită, recitirea și reconstrucția independentă.
+**Finalizează [Capitolul final despre retenție](/articles/ai-collaboration-retention-capstone/)** folosind ambele piste și un al doilea cititor. Arată citiri actuale ale surselor, diferențe de versiune, proprietarul deciziei, recuperarea revizuită, recitirea și reconstrucția independentă.

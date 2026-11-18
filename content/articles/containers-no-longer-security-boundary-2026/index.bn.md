@@ -1,7 +1,7 @@
 ---
 title: "২০২৬ সালে কনটেইনার আর নিরাপত্তার সীমানা নয়"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "২০২৬ সালের কার্নেল দুর্বলতাগুলো দেখায় কেন বহু-টেন্যান্ট কনটেইনার আইসোলেশন যথেষ্ট নয়। Copy Fail, Dirty Frag, Fragnesia এবং CVE-2026-80521 সম্পর্কে জানুন, আর শক্তিশালী কনটেইনারের সঙ্গে মাইক্রোভিএম সীমার তুলনা করুন।"
@@ -12,7 +12,6 @@ coverAlt: "একাধিক উজ্জ্বল কনটেইনারক�
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **কনটেইনার একই কার্নেল ভাগ করে। ২০২৬ সালে চারটি স্বতন্ত্র দুর্বলতা-পরিবার প্রমাণ করেছে যে একটি কার্নেল বাগই কনটেইনার থেকে বেরিয়ে হোস্টে পৌঁছানোর জন্য যথেষ্ট।** Copy Fail, Dirty Frag, Fragnesia এবং CVE-2026-80521 প্রত্যেকটি কম-অধিকারপ্রাপ্ত স্থানীয় ব্যবহারকারীকে root অধিকার দেয়। প্রতিটি দুর্বলতাই কনটেইনারের সীমানা ভেঙে দেয়।
 
 *অস্বস্তিকর বিষয়টি বাগগুলো নিজেরা নয়। AI এখন কত কম খরচে সেগুলো খুঁজে পায় এবং একটি প্যাচ কীভাবে আরেকটি বাগ তৈরি করল, সেটিই আসল বিষয়।*
@@ -245,27 +244,27 @@ Guest নিজের কার্নেল চালায় বলে guest-�
 কোনোটিই VM সীমানার বিকল্প নয়। তবে প্রতিটি সহজ আক্রমণের পথ সরায়:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# যেখানে প্রয়োজন নেই, সেখানে page-cache পরিবার যে মডিউলগুলো অপব্যবহার করে সেগুলো নিষ্ক্রিয় করুন
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# অবিশেষাধিকারপ্রাপ্ত ব্যবহারকারীর নেমস্পেস সীমিত করুন, যা ESP রূপগুলো আটকে দেয়
+# Debian ও Ubuntu: এটি আংশিক প্রশমন, সম্পূর্ণ সমাধান নয়
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# শোষণের সন্দেহ হলে, পরিবর্তিত ইন-মেমরি বাইনারি বাদ দিতে page cache খালি করুন
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# শনাক্তকরণের প্রাথমিক সংকেত
+- বৈধ কারণ ছাড়া কোনো workload থেকে অপ্রত্যাশিত unshare(CLONE_NEWUSER)
+- IPsec হোস্টের বাইরে NETLINK_XFRM কার্যকলাপ বা XFRM security association দেখা যাওয়া
+- AF_ALG socket bind করার অনুরোধ
+- IPsec বা AFS কোনোটিই চালায় না এমন হোস্টে esp4, esp6 বা rxrpc লোড হওয়া
 ```
 
 > **সতর্কতা: `drop_caches` মেমরির পরিবর্তিত কপি ফেলে দুর্নীতি পরিষ্কার করে, কিন্তু root অধিকার পাওয়া আক্রমণকারীকে সরায় না। একে incident response হিসেবে ধরুন, সমাধান হিসেবে নয়।**

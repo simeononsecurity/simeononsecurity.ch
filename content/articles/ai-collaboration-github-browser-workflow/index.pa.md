@@ -1,7 +1,7 @@
 ---
 title: "ਗੈਰ-ਕੋਡਰਾਂ ਲਈ GitHub AI ਵਰਕਫਲੋ: Issues ਅਤੇ Pull Requests"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ਲੋਕਲ ਵਿਕਾਸ ਵਾਤਾਵਰਣ ਤੋਂ ਬਿਨਾਂ ਬ੍ਰਾਊਜ਼ਰ ਸੋਧਾਂ, Issues, ਚੈਟ ਸੰਦਰਭ ਪੈਕੇਟਾਂ ਅਤੇ ਸਮੀਖਿਆ ਕੀਤੀਆਂ pull requests ਦੀ ਵਰਤੋਂ ਕਰੋ।"
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **ਪੈਕੇਟ ਨੂੰ snapshot-ਅਧਾਰਿਤ ਚਿੰਨ੍ਹਿਤ ਕਰੋ** ਜਦ ਤੱਕ ਰਖ-ਰਖਾਅ ਕਰਤਾ ਪ੍ਰਕਾਸ਼ਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਸਰੋਤਾਂ ਦੇ ਮੌਜੂਦਾ ਵਰਜਨਾਂ ਨਾਲ ਤੁਲਨਾ ਨਾ ਕਰੇ।
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+ਪ੍ਰੋਜੈਕਟ: export-service-lab
+ਕੰਮ: PROP-042 draft, no publication permission
+ਅਧਿਕਾਰ: requirement.json, REQ-17 revision 1
+ਆਧਾਰ ਮੁੱਲ: retention_days 7
+ਨੀਤੀ: POL-01 version 1
+ਮੰਗਿਆ ਪ੍ਰਸਤਾਵ: retention_days 30
+ਸਬੂਤ: attach browser-verified commit references
+ਗੁੰਮ ਸਬੂਤ: no runtime deletion observations
+ਨਤੀਜਾ: proposed wording, affected files, questions, rollback
+ਰੁਕੋ: source unavailable, changed revision, conflicting authority
 ```
 
 **ਅਸਲ sandbox ਵਰਜਨ ਨਿੱਜੀ ਤੌਰ 'ਤੇ ਜੋੜੋ।** ਇਸ ਨਮੂਨੇ ਵਿੱਚ ਪੂਰੇ ਕੀਤੇ ਸਬੂਤ ਨਹੀਂ ਹਨ। ਪ੍ਰਕਾਸ਼ਨ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਹਾਇਕ ਨੂੰ ਗੁੰਮ ਰਿਕਾਰਡ ਦੱਸਣ ਲਈ ਕਹੋ।
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **ਲਾਈਵ ਸਰੋਤ ਪੜ੍ਹਨ ਤੋਂ ਪਹਿਲਾਂ ਭਰਿਆ ਕਾਲਪਨਿਕ ਪੈਕੇਟ:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+ਪ੍ਰੋਜੈਕਟ: export-service-lab
+ਕੰਮ: draft PROP-042 in an Issue
+ਮਨਜ਼ੂਰ ਆਧਾਰ ਮੁੱਲ: REQ-17 revision 1, retention_days 7
+ਪ੍ਰਸਤਾਵ: retention_days 30, synthetic export files only
+ਪ੍ਰਭਾਵਿਤ ਰਿਕਾਰਡ: requirement.json, config.json, proposal.json, runbook.md
+ਛੋਟਾਂ: ਉਤਪਾਦਨ ਡਾਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੋਕਾਂ
+ਜਾਣੇ ਸਬੂਤ: supplied lab baseline files
+ਗੁੰਮ ਸਬੂਤ: current main commit, owner decisions, runtime deletion result
+ਸਥਿਤੀ: Draft, publication blocked until current revisions and reviews exist
+ਅਗਲੀ ਭੂਮਿਕਾ: maintainer supplies verified main commit and runs checks
 ```
 
 **ਇਹ ਪੈਕੇਟ ਮਸੌਦਾ ਬੇਨਤੀ ਵਜੋਂ ਪੂਰਾ ਹੈ।** ਗੁੰਮ ਸਬੂਤ ਵਾਲੀ ਲਾਈਨ ਜਾਣਬੁੱਝ ਕੇ ਹੈ। ਪ੍ਰਕਾਸ਼ਨ ਮੰਗਣ ਤੋਂ ਪਹਿਲਾਂ ਦਿੱਤੇ ਲੈਬ ਆਧਾਰ ਨੂੰ sandbox ਦੀਆਂ ਮੌਜੂਦਾ ਵਰਜਨਾਂ ਨਾਲ ਬਦਲੋ।
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Issues, New issue ਚੁਣੋ** ਅਤੇ ਸਿਰਲੇਖ **`PROP-042: propose thirty-day synthetic retention`** ਵਰਤੋ। ਇਹ ਵੇਰਵਾ ਪੇਸਟ ਕਰੋ ਅਤੇ ਸਰੋਤ ਪੈਕੇਟ ਜੋੜੋ।
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+ਪ੍ਰਸਤਾਵ: PROP-042
+ਸਥਿਤੀ: Draft
+ਮੌਜੂਦਾ ਮਨਜ਼ੂਰ ਮੁੱਲ: 7 days, REQ-17 revision 1
+ਮੰਗਿਆ ਮੁੱਲ: 30 days
+ਕਾਰਨ: fictional pilot requirement, not compliance advice
+ਦਾਇਰਾ: synthetic export records only
+ਪ੍ਰਭਾਵਿਤ ਫ਼ਾਈਲਾਂ: requirement.json, config.json, runbook.md
+ਸਬੂਤ: source revisions and policy version attached
+ਸਮੀਖਿਆਕਾਰ: product-owner and operations-owner
+ਲਾਗੂਕਰਨ ਸਮੀਖਿਆਕਾਰ: repository-maintainer
+ਸਵੀਕਾਰਤਾ: consistent records, denied publication, fresh handoff
+ਵਾਪਸੀ: reviewed restoration of the approved baseline
 ```
 
 **ਚੈਟ ਨੂੰ ਪ੍ਰਸਤਾਵ ਅਤੇ ਪੈਕੇਟ ਦੀ ਤੁਲਨਾ ਕਰਨ ਲਈ ਕਹੋ**, ਧਾਰਨਾਵਾਂ ਦੀ ਸੂਚੀ ਬਣਾਉਣ ਅਤੇ ਮਾਲਕਾਂ ਲਈ ਸਵਾਲ ਤਿਆਰ ਕਰਨ ਲਈ ਕਹੋ। ਮਸੌਦਾ Issue ਵਿੱਚ ਸੰਭਾਲੋ। ਚੈਟ ਤੋਂ ਤਬਦੀਲੀ ਮਨਜ਼ੂਰ ਕਰਨ ਲਈ ਨਾ ਕਹੋ ਅਤੇ ਗੱਲਬਾਤ ਨੂੰ ਫੈਸਲਾ ਰਜਿਸਟਰ ਨਾ ਮੰਨੋ।
@@ -112,7 +112,7 @@ Rollback: reviewed restoration of the approved baseline
 | **ਲੋੜ** | ਸੋਧ 1, ਸੱਤ ਦਿਨ | ਸੋਧ 2, ਤੀਹ ਦਿਨ |
 | **ਸੰਰਚਨਾ** | ਸੱਤ ਦਿਨ | ਤੀਹ ਦਿਨ |
 | **ਰਨਬੁੱਕ** | `Retention days: 7` | `Retention days: 30` |
-| **ਪ੍ਰਸਤਾਵ** | From 7, to 7 | From 7, to 30, base 1 |
+| **ਪ੍ਰਸਤਾਵ** | 7 ਤੋਂ 7 ਤੱਕ | 7 ਤੋਂ 30 ਤੱਕ, ਆਧਾਰ 1 |
 | **Manifest** | ਦਰਜ ਨਹੀਂ ਕੀਤਾ | ਤਬਦੀਲੀ ਤੋਂ ਪਹਿਲਾਂ ਦੇ ਸੁਰੱਖਿਅਤ ਸਰੋਤਾਂ ਦੇ hashes |
 
 **Manifest ਆਧਾਰ ਦਾ ਵੇਰਵਾ ਦਿੰਦਾ ਹੈ**, ਤੀਹ ਦਿਨਾਂ ਵਾਲੇ ਪ੍ਰਸਤਾਵਿਤ ਲਿਖਤ ਦਾ ਨਹੀਂ। ਉਮੀਦਵਾਰ ਲੋੜ ਦਾ hash ਕਰਕੇ ਉਸਨੂੰ ਆਧਾਰ ਦਾ ਸਬੂਤ ਕਹਿਣ ਨਾਲ ਭਰੋਸੇਯੋਗ ਆਧਾਰ ਨਾਲ ਮੇਲ ਨਹੀਂ ਰਹਿੰਦਾ।
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **ਨਕਾਰਾਤਮਕ ਟੈਸਟ:** ਚੈਟ ਨੂੰ ਪ੍ਰਸਤਾਵ ਮਨਜ਼ੂਰ ਜਾਂ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨ ਲਈ ਕਹੋ। ਨੀਤੀ ਅਨੁਸਾਰ ਉਮੀਦ ਕੀਤਾ ਵਰਤਾਅ ਸਿਰਫ਼ ਮਸੌਦਾ ਜਵਾਬ ਹੈ। ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਯੋਗਦਾਨਕਰਤਾ ਵਜੋਂ ਸਿੱਧਾ ਪ੍ਰਕਾਸ਼ਨ ਅਜ਼ਮਾਓ ਅਤੇ ਬਿਨਾਂ ਬਦਲੀ ਸਰੋਤ ਸੋਧ ਸਮੇਤ ਪਲੇਟਫਾਰਮ ਦਾ ਇਨਕਾਰ ਦਰਜ ਕਰੋ। ਵਰਤਾਅ ਅਤੇ ਪਹੁੰਚ-ਨਿਯੰਤਰਣ ਟੈਸਟ ਵੱਖਰੇ ਰੱਖੋ।
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+ਹਵਾਲਗੀ: HANDOFF-042
+ਪ੍ਰਸਤਾਵ: PROP-042
+ਨੀਤੀ: POL-01 version 1
+ਸਰੋਤ: attach current requirement, runbook, and config revisions
+ਪ੍ਰਕਾਸ਼ਿਤ ਮੁੱਲ: record after reading main
+ਮੁਕੰਮਲ: merged files and check reference
+ਬਾਕੀ: runtime deletion service not tested
+ਅਗਲੀ ਭੂਮਿਕਾ: operations-owner
+ਅਗਲਾ ਕਦਮ: independent source read and runbook verification
+ਰੁਕੋ: changed source, missing access, conflicting authority
 ```
 
 **ਨਵਾਂ ਸੈਸ਼ਨ ਸਿਰਫ਼ ਨਕਸ਼ੇ ਅਤੇ ਹਵਾਲਗੀ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।** ਨਵੀਂ ਸਰੋਤ ਪੜ੍ਹਤ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਸਬੂਤ ਲਈ ਸਪਸ਼ਟ ਬੇਨਤੀ ਲਾਜ਼ਮੀ ਕਰੋ। ਸਹਾਇਕ ਨੂੰ ਪਿਛਲਾ ਸੰਖੇਪ ਦੁਹਰਾਉਣ ਦੀ ਬਜਾਏ ਸਰੋਤ ਰਿਕਾਰਡਾਂ ਤੋਂ ਮੁੱਲ ਮੁੜ ਬਣਾਉਣਾ ਚਾਹੀਦਾ ਹੈ।
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **ਬ੍ਰਾਊਜ਼ਰ ਯੋਗਦਾਨਕਰਤਾ ਨੂੰ ਵੀ ਪੂਰਾ ਸਵਾਲ ਦੇਣਾ ਪੈਂਦਾ ਹੈ।** “ਰੋਕ ਮਿਆਦ ਤੀਹ ਦਿਨ ਕਰ ਦਿਓ” ਮੌਜੂਦਾ ਅਧਿਕਾਰ, ਦਾਇਰਾ, ਸਮੀਖਿਆ ਸਥਿਤੀ ਅਤੇ ਪ੍ਰਭਾਵਿਤ ਰਿਕਾਰਡ ਛੱਡ ਦਿੰਦਾ ਹੈ। ਚੈਟ ਨੂੰ ਸਰੋਤ ਪੈਕੇਟ ਅਤੇ ਮਸੌਦਾ ਬਣਾਉਣ ਦੀ ਹਦਾਇਤ ਦਿਓ। ਜੇ ਰਿਕਾਰਡ ਉਪਲਬਧ ਨਹੀਂ, ਤਾਂ ਯਾਦ ਕੀਤੀ ਲਿਖਤ ਪਾਉਣ ਦੀ ਬਜਾਏ ਰਖ-ਰਖਾਅ ਕਰਤਾ ਤੋਂ ਅਧਿਕਾਰਤ ਸਬੂਤ ਮੰਗੋ।
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+ਨਾਲ ਦਿੱਤੇ ਕ੍ਰਿਤ੍ਰਿਮ ਸਰੋਤ-ਪੈਕੇਟ ਤੋਂ PROP-042 ਲਈ ਇੱਕ Issue ਦਾ ਖਰੜਾ ਲਿਖੋ।
+ਸੱਤ ਦਿਨਾਂ ਨੂੰ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਆਧਾਰ ਮੁੱਲ ਵਜੋਂ ਦਰਸਾਓ।
+ਤੀਹ ਦਿਨਾਂ ਨੂੰ ਪ੍ਰਸਤਾਵ ਵਜੋਂ ਦਰਸਾਓ।
+ਉਤਪਾਦਨ ਡਾਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੋਕਾਂ ਲਈ ਛੋਟਾਂ ਕਾਇਮ ਰੱਖੋ।
+ਲੋੜਾਂ, ਸੰਰਚਨਾ, ਪ੍ਰਸਤਾਵ ਅਤੇ ਰਨਬੁੱਕ ਵਿੱਚ ਹੋਏ ਬਦਲਾਅ ਦਰਜ ਕਰੋ।
+ਅਨੁਮਾਨੀ ਰਿਵਿਜ਼ਨਾਂ ਨਾਲ ਭਰਨ ਦੀ ਥਾਂ ਗੁੰਮ ਸਬੂਤ ਦਰਜ ਕਰੋ।
+ਮਾਲਕ ਦੀ ਮਨਜ਼ੂਰੀ ਜਾਂ ਕੰਮ ਸੌਂਪਣ ਦੇ ਪੂਰਾ ਹੋਣ ਦਾ ਦਾਅਵਾ ਨਾ ਕਰੋ।
 ```
 
 **ਜਵਾਬ ਕਾਪੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ।** ਵੇਖੋ ਕਿ ਇਸ ਨੇ ਦਾਇਰਾ ਬਦਲਿਆ, commit ਘੜਿਆ ਜਾਂ ਮਨਜ਼ੂਰੀ ਨੂੰ ਪੂਰਾ ਹੋਇਆ ਦੱਸਿਆ। ਬਿਨਾਂ ਸਬੂਤ ਵਾਲੇ ਦਾਅਵੇ ਹਟਾਓ ਅਤੇ ਅਣਸੁਲਝੇ ਸਵਾਲ Issue ਵਿੱਚ ਰੱਖੋ। ਚੈਟ ਪ੍ਰਸਤਾਵ ਲਿਖਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ, ਉਹਨਾਂ ਸਿਸਟਮਾਂ ਦੇ ਸਬੂਤ ਨਹੀਂ ਦਿੰਦੀ ਜਿਨ੍ਹਾਂ ਨੂੰ ਉਸ ਨੇ ਪੜ੍ਹਿਆ ਨਹੀਂ।
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **ਕਮਜ਼ੋਰ ਲਿਖਤ ਦੀ ਮਿਸਾਲ:** “ਨਿਰਯਾਤ ਹੁਣ ਤੀਹ ਦਿਨਾਂ ਲਈ ਉਪਲਬਧ ਰਹਿੰਦੇ ਹਨ।” ਇਹ ਡਿਲਿਵਰੀ ਪੂਰੀ ਦੱਸਦੀ ਹੈ ਅਤੇ ਕਾਲਪਨਿਕ ਦਾਇਰਾ ਛੱਡਦੀ ਹੈ। ਜਦ ਸਮੀਖਿਆ ਬਾਕੀ ਹੋਵੇ, ਪ੍ਰਸਤਾਵ ਵਾਲਾ ਬਿਆਨ ਵਰਤੋ।
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+ਪ੍ਰਸਤਾਵਿਤ ਇਰਾਦਾ:
+ਕ੍ਰਿਤ੍ਰਿਮ ਐਕਸਪੋਰਟ ਫ਼ਾਈਲਾਂ 30 ਦਿਨ ਰੱਖੋ।
+ਉਤਪਾਦਨ ਡਾਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੋਕਾਂ ਨੂੰ ਬਾਹਰ ਰੱਖੋ।
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+ਮੌਜੂਦਾ ਮਨਜ਼ੂਰ ਇਰਾਦਾ:
+REQ-17 ਦੇ ਰਿਵਿਜ਼ਨ 1 ਅਨੁਸਾਰ ਕ੍ਰਿਤ੍ਰਿਮ ਐਕਸਪੋਰਟ ਫ਼ਾਈਲਾਂ 7 ਦਿਨ ਰੱਖੋ।
 
-Delivery:
-Not published. No runtime deletion service was tested.
+ਸਪੁਰਦਗੀ:
+ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ। ਚੱਲਣ ਵੇਲੇ ਮਿਟਾਉਣ ਵਾਲੀ ਕੋਈ ਸੇਵਾ ਜਾਂਚੀ ਨਹੀਂ ਗਈ।
 ```
 
 **ਹਰ ਪ੍ਰਭਾਵਿਤ ਫਾਈਲ ਦੀ ਇਸ ਲਿਖਤ ਨਾਲ ਤੁਲਨਾ ਕਰੋ।** ਉਮੀਦਵਾਰ ਵਿੱਚ ਲੋੜ ਦੀ ਸੋਧ ਅੱਗੇ ਵਧਦੀ ਹੈ। ਸੰਰਚਨਾ ਤੀਹ ਤੱਕ ਪਹੁੰਚਦੀ ਹੈ। ਰਨਬੁੱਕ ਦੀ ਪਹਿਲੀ ਲਾਈਨ ਤੀਹ ਕਰਦੀ ਹੈ ਅਤੇ ਲੈਬ ਸੀਮਾ ਸੰਭਾਲਦੀ ਹੈ। ਪ੍ਰਸਤਾਵ ਸੱਤ ਨੂੰ ਪਿਛਲਾ ਮੁੱਲ ਅਤੇ ਸੋਧ ਇੱਕ ਨੂੰ ਆਧਾਰ ਦੱਸਦਾ ਹੈ।

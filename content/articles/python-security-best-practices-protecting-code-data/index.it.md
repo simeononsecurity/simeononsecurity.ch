@@ -1,6 +1,7 @@
 ---
 title: "Le migliori pratiche di sicurezza di Python: Proteggere il codice e i dati"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Imparate le migliori pratiche di sicurezza di Python per salvaguardare il vostro codice e i vostri dati da potenziali minacce, garantendo la protezione dei dati, l'integrità del sistema e la creazione di fiducia."
@@ -183,7 +184,7 @@ Ecco una scheda sintetica che riassume le **migliori pratiche di sicurezza di Py
 
 4. **Proteggere i dati sensibili** utilizzando **tecniche di crittografia forti**. Utilizzate algoritmi di crittografia consolidati come **AES (Advanced Encryption Standard)** e garantite l'archiviazione e la trasmissione sicura delle informazioni sensibili. È possibile fare riferimento al [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) per maggiori informazioni.
 
-5. **Proteggere l'accesso al database** utilizzando **prepared statements** per prevenire gli attacchi SQL injection e implementando **least privilege** per limitare le autorizzazioni degli utenti del database. Queste pratiche riducono al minimo il rischio di accesso non autorizzato ai dati sensibili. Per saperne di più sui **prepared statement** consultare la sezione [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **Proteggi l'accesso al database** con **istruzioni preparate** per prevenire gli attacchi di SQL injection e con il **principio del privilegio minimo** per limitare le autorizzazioni degli utenti del database. Queste pratiche riducono il rischio di accesso non autorizzato ai dati sensibili. Consulta la [documentazione di SQLAlchemy](https://www.sqlalchemy.org) sulle istruzioni preparate e la [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) sul principio del privilegio minimo.
 
 6. **Aggiornare regolarmente le dipendenze** per risolvere le vulnerabilità di sicurezza e beneficiare delle correzioni dei bug. Strumenti come [Snyk - Open Source Security Platform](https://snyk.io/) può aiutare a identificare le vulnerabilità nelle dipendenze del progetto.
 
@@ -211,7 +212,7 @@ ______
 4. Snyk - Piattaforma di sicurezza open source: [Link](https://snyk.io/)
 5. Documentazione ufficiale di Python: [Link](https://docs.python.org)
 6. OWASP - Progetto aperto sulla sicurezza delle applicazioni web: [Link](https://owasp.org)
-7. NIST - National Institute of Standards and Technology: [Link](https://www.nist.gov)
+7. NIST - National Institute of Standards and Technology: [Sito ufficiale](https://www.nist.gov)
 8. Bleach: [Link](https://bleach.readthedocs.io)
 9. html5lib: [Link](https://html5lib.readthedocs.io)
 10. SQLAlchemy: [Link](https://www.sqlalchemy.org)

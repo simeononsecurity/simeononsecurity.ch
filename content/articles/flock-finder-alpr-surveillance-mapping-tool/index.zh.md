@@ -15,6 +15,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 
 **一款利用众包 WiFi 数据绘制 Flock Safety ALPR 摄像头地图的开源监控感知工具。**
 
+> **更正，2026年9月21日：** 我们审计了包含146,526条记录的底层数据集，发现原始标题和统一的地图标记严重夸大了 OUI 匹配能够证明的内容。审计发现50,278套 Barco ClickShare 系统，以及60,793条符合已知其他设备命名规则的记录。Flock Finder 现在会公布证据类别，将这些记录排除在默认地图和标题之外，并提供可信度筛选。完整方法和更正说明见 **[我们绘制了146,526台“Flock摄像头”的地图，其中50,278台是ClickShare系统](/articles/flock-finder-oui-false-positive-audit-2026/)**。
+
 ## 什么是 Flock Finder？
 
 **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** 是一个开源项目，用于绘制美国及其他 108 个国家的 **Flock Safety ALPR（自动车牌识别）摄像头**地图。它将 **31 个已知的 Flock Safety WiFi OUI（组织唯一标识符）前缀**与 **WiGLE 众包 WiFi 数据库**相结合，在交互式地图上识别并标注疑似摄像头位置。
@@ -37,6 +39,10 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ______
 
 ## 工作原理：通过 WiGLE 进行 OUI 指纹识别
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="示意图展示 Flock Finder 如何将 WiGLE 中 WiFi 网络的 MAC 前缀与已知 OUI 特征匹配，以估算摄像头位置" >}}
 
 ### 核心思路
 
@@ -116,34 +122,34 @@ ______
 ### 设置
 
 ```bash
-# Clone the repository
+# 克隆代码库
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# 安装依赖项
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# 设置WiGLE API凭据
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# 在.env中填写WiGLE API名称和令牌
 ```
 
-### 运行扫描器
+### 执行扫描
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# 全量扫描 — 全球全部31个OUI前缀
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# 单个OUI测试
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# 仅限美国
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# 指定边界框 (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# 试运行 — 验证身份验证，不发送API查询
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,7 +157,7 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# 在浏览器中打开http://localhost:8080
 ```
 
 ### 通过 GitHub Actions 自动每日更新
@@ -181,6 +187,8 @@ WiGLE 地图告诉您摄像头*曾被观测到*的位置。要在驾驶时进行
 - 通过 USB-C 供电（车载适配器、移动电源或笔记本电脑）
 
 > 💰 **独家折扣**：使用代码 **FLOCKFINDER** 可享 STS Collective 所有 FlockYou 设备 **8 折优惠**——或使用代码 **SIMEONONSECURITY** 可享整个订单最高 8 折优惠。[在 stscollective.com/discount/SIMEONONSECURITY 购物](https://stscollective.com/discount/SIMEONONSECURITY)。
+
+{{< stscollective-ad "flockyou" >}}
 
 有关这些设备和 DIY 替代方案的完整技术分析，请阅读**[Flock-You 检测项目：完整的反监控硬件与设置指南](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**。
 
@@ -259,6 +267,12 @@ ______
 它是一款**透明度工具**，而非实时追踪器。其数据具有历史性、不完整性和概率性。但它以摘要和报告所无法做到的方式，将 ALPR 监控的规模直观呈现出来。
 
 要在穿越受监控区域时获得真正的实时保护，请将地图与专用硬件结合使用。**[STS Collective 的 FlockYou 设备](https://stscollective.com/discount/SIMEONONSECURITY)**直接在 ESP32 上实现了 @NitekryDPaul 的检测方法，并在检测到实时摄像头特征时立即提醒您——可在 **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** 使用代码 **FLOCKFINDER** 或 **SIMEONONSECURITY** 享受最高 8 折优惠。
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  购买 FlockYou 检测器，立省 20%
+{{< /centerbutton >}}
 
 ### 相关文章
 

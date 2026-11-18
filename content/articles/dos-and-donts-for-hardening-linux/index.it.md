@@ -1,6 +1,7 @@
 ---
 title: "I comportamenti essenziali da tenere per l'hardening del sistema Linux"
 date: 2023-02-28
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Imparate a conoscere i comportamenti essenziali per rendere più sicuro il vostro sistema Linux, tra cui l'aggiornamento, l'uso dei firewall, l'abilitazione di SELinux o AppArmor, la configurazione dei criteri per le password e il monitoraggio dei registri di sistema."
@@ -296,7 +297,7 @@ ______
 
 L'uso di password deboli è un errore comune che può rendere il sistema Linux vulnerabile agli attacchi. Gli aggressori possono utilizzare strumenti per indovinare le password basate su parole, nomi o date comuni. È importante utilizzare password forti e uniche, non facilmente indovinabili.
 
-È possibile creare password forti utilizzando una combinazione di lettere maiuscole e minuscole, numeri e caratteri speciali. È inoltre buona norma utilizzare una password [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) può anche aiutarvi a ricordare le vostre password e a evitare di usare la stessa password per più account.
+È possibile creare password robuste utilizzando una combinazione di lettere maiuscole e minuscole, numeri e caratteri speciali. È inoltre buona norma usare un [gestore di password](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) per generare e conservare password complesse in modo sicuro. I [gestori di password](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) possono anche aiutarvi a ricordare le password ed evitare di usare la stessa password per più account.
 
 ### Consentire l'accesso SSH di root
 

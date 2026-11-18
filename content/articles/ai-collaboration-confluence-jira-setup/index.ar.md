@@ -1,7 +1,7 @@
 ---
 title: "إعداد الذكاء الاصطناعي في Confluence وJira: الأذونات والصلاحيات"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "اضبط صفحات الصلاحيات في Confluence وأذونات Jira المُدارة من الشركة للتعاون بين الفرق بعد المراجعة."
@@ -53,15 +53,15 @@ coverCaption: ""
 5. **افتح Share** لكل صفحة مرجعية معتمدة. اضبط الوصول العام على القراءة فقط لأعضاء المساحة المؤهلين، وامنح المالكين والناشرين المحددين صلاحية التعديل على نحو منفصل. احفظ الإعدادات وتحقق منها بحساب المساهم.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+معرّف المصدر: REQ-17
+دور المالك: product-owner
+الحالة: خط أساس معتمد
+النطاق: ملفات التصدير الاصطناعية فقط
+مدة الاحتفاظ: 7 أيام
+حالة التسليم: إعداد المختبر الأساسي
+الاستثناءات: تُستثنى بيانات الإنتاج والنسخ الاحتياطية ومتطلبات الاحتفاظ القانونية
+دليل الموافقة: مراجعة خط الأساس DEC-12
+مرجع التنفيذ: أرفق التزام GitHub الأساسي المحمي
 ```
 
 **طبّق القيود على كل صفحة صلاحيات.** لا تفترض أن قيد التعديل على الصفحة الرئيسية يحمي الصفحات الفرعية. يختلف توريث أذونات القراءة والتعديل، وتظل أذونات المساحة سارية. لا يمنح الرابط وحده حق الوصول. راجع جميع العضويات إذا ظل مستخدم يفترض أنه للقراءة فقط قادرًا على التعديل.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **استخدم هذه النصوص الأولية للصفحتين الأخريين.** استبدل حقول المراجعة المؤقتة بأدلة فعلية من بيئة الاختبار قبل اعتماد السجل.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+معرّف المصدر: RUN-04
+دور المالك: operations-owner
+الحالة: خط أساس معتمد
+النطاق: ملفات التصدير الاصطناعية فقط
+مدة الاحتفاظ المضبوطة: 7 أيام
+الإجراء: قارن REQ-17 مع config.json قبل تغيير خاضع للمراجعة
+حد التشغيل: لا توجد في هذا المختبر مهمة حذف ولا ينتج أدلة على الحذف
+الاستعادة: أعد الإعداد السابق المعتمد بعد المراجعة
+حد الاستعادة: استعادة الإعداد لا تستعيد الملفات المحذوفة
+دليل المراجعة: أضف اسم المراجع الفعلي وإصدار الصفحة ومرجع القرار
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+الصفحة: سجل القرارات
+معرّف الإدخال: DEC-12
+القرار: اعتماد سبعة أيام كخط أساس اصطناعي
+النطاق: export-service-lab فقط
+المتطلب: سجّل إصدار صفحة REQ-17 بعد النشر
+دليل التشغيل: سجّل إصدار صفحة RUN-04 بعد النشر
+السياسة: سجّل مراجعة GitHub المحمية لـ POL-01 بعد المراجعة
+مراجعة المنتج: معلّقة حتى يسجّل المالك المحدد قراراً
+مراجعة العمليات: معلّقة حتى يسجّل المالك المحدد قراراً
+الحالة: مثال مسودة، استبدله بأدلة المراجعة المرصودة
 ```
 
 ## تحديث الخريطة
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **الصق هذه المسودة في PROP-042.** يتتبع عنصر Jira التسليم. ولا تحل صياغته محل الصياغة المعتمدة في Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+معرّف المقترح: PROP-042
+الحالة: مسودة
+القيمة المعتمدة حالياً: 7 أيام، سجّل إصدار صفحة REQ-17
+القيمة المقترحة: 30 يوماً لملفات التصدير الاصطناعية
+الاستثناءات: بيانات الإنتاج والنسخ الاحتياطية ومتطلبات الاحتفاظ القانونية
+السجلات المتأثرة: REQ-17, RUN-04, config.json, proposal.json
+مرفق المقترح الثابت: معلّق
+مراجعة مسؤول المنتج: معلّقة
+مراجعة مسؤول العمليات: معلّقة
+سجل النشر: معلّق
+أوقف العمل عند تغيّر إصدار المصدر أو غياب المراجعة أو رفض الوصول
 ```
 
 | الدور | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **افصل بين القراءة وإعداد المسودة والنشر.** يحتاج المساهم إلى وصول كافٍ لفهم المتطلب الاصطناعي وإرسال مقترح. ولا يحتاج إلى صلاحية تعديل صفحة الصلاحيات أو اعتماد مقترحه بنفسه.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+سجل الاختبار: PERM-REQ-EDIT
+الدور: مساهم
+المصدر: REQ-17
+الشرط المسبق: المصدر مقروء وتم تسجيل المراجعة المنشورة
+المحاولة: تعديل المتطلب المعتمد
+المتوقع: رفض التعديل وبقاء المراجعة المنشورة دون تغيير
+النتيجة المرصودة: املأها من البيئة المعزولة
+الدليل: النتيجة الأصلية وقراءة مستقلة للمراجعة
+المراجع: مسؤول النظام أو مراجع مستقل للأذونات
 ```
 
 **استخدم سجلًا منفصلًا لاختبار رفض القراءة.** تختبر قراءة المساهم للمتطلب فصل النشر عن التعديل. وتختبر الصفحة غير المتاحة للمستخدم المستثنى السرية. يؤدي جمع الحالتين في صف واحد إلى إخفاء الحد الذي جرى اختباره.

@@ -50,30 +50,30 @@ coverCaption: ""
 **Skopiuj ten szablon** do małego zadania programistycznego lub badawczego. Usuń nieistotne pola zamiast wypełniać je nieprecyzyjnym tekstem.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Wynik:
+Autorytatywne źródło i rewizja:
+Powiązane pliki lub rekordy:
+Dozwolone zmiany:
+Wykluczone zmiany i działania:
+Przykłady oczekiwanego działania:
+Kontrole ukończenia:
+Kiedy przerwać lub zapytać:
+Raport ma zawierać:
 ```
 
 **W laboratorium** wypełniony pakiet wygląda tak:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Cel: dodaj opcjonalny filtr --status do task_report.py.
+Źródło: docs/requirements.md, rewizja 1.
+Powiązane pliki: task_report.py, tasks.json, tests/.
+Dozwolone zmiany: task_report.py i ukierunkowane testy.
+Wykluczone: tasks.json, nowe zależności, commity i wysyłanie zmian.
+Przykłady: bez filtra wyświetla się Total tasks: 4. open i done pokazują po 2.
+Kontrole: uruchom testy jednostkowe i cztery polecenia ręczne: bez filtra, open, done oraz nieprawidłowa wartość.
+Nieprawidłowa wartość musi zwrócić kod różny od zera i jasny komunikat błędu.
+Zatrzymaj się lub zapytaj przy konflikcie źródeł, braku pliku albo niezwiązanym błędzie początkowym.
+Raport: zmienione pliki, polecenia, zaobserwowane wyniki i nierozwiązane kwestie.
 ```
 
 **W systemie Windows** użyj `py -3` w poleceniach pakietu, jeśli twoje środowisko korzysta z programu uruchamiającego Pythona.

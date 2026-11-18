@@ -1,7 +1,7 @@
 ---
 title: "Modelos de Linguagem de Contexto da Meta: melhor memória para agentes, não o fim das alucinações"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Como os Context Language Models editam a memória de agentes, o que os benchmarks demonstram e como custos de cache, capacidade do modelo e notas não confiáveis afetam a confiabilidade."
@@ -48,11 +48,11 @@ Essa distinção importa ao avaliar qualquer técnica de memória. **Preservaç�
 **Rulin Shao e coautores**, incluindo pesquisadores da Meta Superintelligence Labs e da University of Washington, apresentaram os CLMs em um preprint de 29 de setembro de 2026. A implementação expõe o contexto ativo como um arquivo editável. O agente usa comandos de shell ou código para modificá-lo, e o runtime fornece o conteúdo revisado na próxima chamada. Consulte [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Continuação comum:
+contexto existente + nova resposta + nova saída da ferramenta
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Continuação com contexto editável:
+o agente revisa o arquivo de contexto -> o ambiente de execução carrega o contexto revisado -> próxima chamada do modelo
 ```
 
 **A arquitetura do modelo não precisa ser substituída** no método zero-shot. O runtime acrescenta uma capacidade a um modelo existente. O artigo também investiga instruções, estratégias aprendidas de gerenciamento de contexto e aprendizado por reforço.
@@ -101,11 +101,11 @@ A análise suplementar do TerminalBench também relata **nenhuma edição de con
 **O cache KV** armazena cálculos intermediários de atenção. Com cache de prefixo comum, texto inalterado no início da próxima solicitação reutiliza a computação anterior. Uma edição perto do início reduz o prefixo reutilizável e força o processamento novamente para o texto posterior.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Solicitação anterior: A + B + C
+Solicitação revisada:  A + substituto de B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Reutilização padrão do prefixo:
+reutilize A e recalcule a substituição de B e C
 ```
 
 A métrica de **FLOPs de reutilização do prefixo** do artigo conta geração e processamento do prompt após a primeira divergência. Um PFLOP representa 10¹⁵ operações de ponto flutuante. É um total estimado de computação, não uma pontuação de qualidade, medida de throughput ou fatura.
@@ -191,7 +191,7 @@ O repositório oficial usa a licença **CC BY-NC 4.0**. Verifique a [licença](h
 - **Rulin Shao et al.:** [Context Language Models](https://arxiv.org/abs/2609.37725), 29 de setembro de 2026, com [resultados completos e apêndices](https://arxiv.org/html/2609.37725v1).
 - **Implementação de pesquisa da Meta:** [repositório Context Language Models](https://github.com/facebookresearch/context-language-models).
 - **Implementação de serviço:** [documentação do Suffix Cache Reuse](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md).
-- **Anthropic:** [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching).
+- **Anthropic:** [Cache de prompts](https://platform.claude.com/docs/en/build-with-claude/prompt-caching).
 - **OpenAI:** [Injeções de prompt autogeradas em resumos de compactação](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/).
 - **llama.cpp:** [Discussão sobre reprocessamento de prompts de modelos híbridos](https://github.com/ggml-org/llama.cpp/issues/20225).
 - **Kai:** [O fim das alucinações de IA? A nova correção da Meta (CLM)](https://www.youtube.com/watch?v=9-iiHFQyzuM).

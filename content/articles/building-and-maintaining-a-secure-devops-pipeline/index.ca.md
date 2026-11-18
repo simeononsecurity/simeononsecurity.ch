@@ -1,11 +1,11 @@
 ---
 title: "Construir una pipeline DevOps segura: bones pràctiques"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprèn a crear i mantenir una pipeline DevOps segura amb bones pràctiques i exemples reals en aquesta guia completa."
-tags: ["DevOps", "seguretat", "pipeline", "integració contínua", "lliurament continu", "automatització", "contenidors", "programació segura", "anàlisi de vulnerabilitats", "supervisió", "retroacció", "control de versions", "control d’accés", "recuperació davant desastres", "continuïtat del negoci", "cas d’estudi", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
+tags: ["DevOps", "seguretat", "flux de treball DevOps", "integració contínua", "lliurament continu", "automatització", "contenidors", "programació segura", "anàlisi de vulnerabilitats", "supervisió", "retroacció", "control de versions", "control d’accés", "recuperació davant desastres", "continuïtat del negoci", "cas d’estudi", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
 cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
 coverAlt: "Il·lustració digital abstracta d’una pipeline DevOps segura amb elements visuals de desenvolupament de codi, proves automatitzades i desplegament sobre un fons fosc de colors vius."
 coverCaption: ""

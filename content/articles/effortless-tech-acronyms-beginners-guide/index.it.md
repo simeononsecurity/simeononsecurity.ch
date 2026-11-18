@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot semplificato e amichevole che spiega con entusiasmo gli acronimi tecnologici a un principiante.
 coverCaption: Demistificare il gergo tecnologico per principianti
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 ---
 
 ## Introduzione
@@ -186,7 +186,7 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **BYOM**: Porta il Tuo Modem
   - Una politica che consente agli utenti di portare e usare i propri modem per la connettività internet.
 
-- **BaaS**: Backend as a Service
+- **BaaS**: Backend as a Service (backend come servizio)
   - Un servizio di cloud computing che fornisce l'infrastruttura per il backend di un'applicazione web o mobile, inclusi server, database e servizi di storage.
 
 
@@ -221,7 +221,7 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **CSV**: Comma-Separated Values
   - Un formato di file semplice usato per memorizzare dati tabellari, con valori separati da virgole.
 
-- **CaaS**: Container as a Service
+- **CaaS**: Container as a Service (container come servizio)
   - Un servizio di cloud computing che fornisce una piattaforma per distribuire e gestire container, come i container Docker, in modo scalabile ed efficiente.
 
 
@@ -256,10 +256,10 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **DRAM**: Dynamic Random Access Memory
   - Un tipo di memoria volatile per computer comunemente usata come memoria principale nei computer e in altri dispositivi elettronici.
 
-- **DaaS**: Data as a Service
+- **DaaS**: Data as a Service (dati come servizio)
   - Un servizio di cloud computing che fornisce accesso ai dati su richiesta, permettendo alle organizzazioni di archiviare, accedere e gestire i dati in modo scalabile ed economico.
 
-- **DaaS**: Desktop as a Service
+- **DaaS**: Desktop as a Service (desktop come servizio)
   - Un servizio di virtualizzazione desktop basato su cloud che consente agli utenti di accedere e utilizzare desktop virtuali ospitati su un server remoto o data center.
 
 
@@ -341,7 +341,7 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **FTP**: File Transfer Protocol
   - Un protocollo di rete usato per trasferire file tra un client e un server su una rete di computer.
 
-- **FaaS**: Function as a Service
+- **FaaS**: Function as a Service (funzione come servizio)
   - Un servizio di cloud computing che permette agli sviluppatori di eseguire singole funzioni o porzioni di codice in risposta a eventi, spesso senza gestire l'infrastruttura sottostante.
 
 - **Firewall**: Dispositivo o software di sicurezza di rete
@@ -394,7 +394,7 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **Gbps**: Gigabit al secondo
   - Un'unità di velocità di trasferimento dati, che rappresenta un miliardo di bit trasmessi in un secondo, spesso usata per misurare velocità di rete o trasferimento dati.
 
-- 
+-
 ### H
 - **HDD**: Disco Rigido
   - Un dispositivo di memorizzazione dati che utilizza dischi rotanti per archiviare e recuperare dati, comunemente presente in computer desktop e server.
@@ -681,7 +681,7 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **PSU**: Power Supply Unit
   - Un dispositivo che converte l'elettricità da una fonte esterna nella tensione e corrente necessarie per alimentare un computer o altri dispositivi elettronici.
 
-- **PaaS**: Platform as a Service
+- **PaaS**: Platform as a Service (piattaforma come servizio)
   - Un modello di servizio cloud che fornisce una piattaforma per sviluppare, eseguire e gestire applicazioni senza gestire l'infrastruttura sottostante.
 
 ### Q
@@ -765,7 +765,7 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
   - Protocolli usati per proteggere la comunicazione internet criptando i dati trasmessi tra un server web e il browser del client.
 
-- **SaaS**: Software as a Service
+- **SaaS**: Software as a Service (software come servizio)
   - Un modello di servizio cloud che fornisce applicazioni software via internet su base di abbonamento.
 
 ### T
@@ -850,20 +850,20 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **XSS**: Cross-Site Scripting
   - Un tipo di vulnerabilità di sicurezza che permette agli attaccanti di inserire script dannosi in pagine web visualizzate da altri utenti.
 
-- **XaaS**: Anything as a Service
+- **XaaS**: Anything as a Service (qualsiasi cosa come servizio)
   - Un termine generico che comprende vari modelli di servizi cloud, come SaaS, PaaS e IaaS.
 
 ### Y
-- **YAGNI**: You Aren't Gonna Need It
+- **YAGNI**: You Aren't Gonna Need It (non ti servirà)
   - Un principio di sviluppo software che incoraggia la semplicità e l'evitare l'inclusione di funzionalità non necessarie fino a quando non sono effettivamente richieste.
 
 - **YAML**: YAML Ain't Markup Language
   - Un formato di serializzazione dati leggibile dall'uomo usato per file di configurazione e scambio dati.
 
-- **YMMV**: Your Mileage May Vary
+- **YMMV**: Your Mileage May Vary (il tuo risultato può variare)
   - Un'espressione che indica che le esperienze individuali possono differire, spesso usata per riconoscere risultati variabili.
 
-- **YOLO**: You Only Live Once
+- **YOLO**: You Only Live Once (si vive una volta sola)
   - Una frase colloquiale che enfatizza il vivere la vita al massimo e prendere rischi.
 
 ### Z

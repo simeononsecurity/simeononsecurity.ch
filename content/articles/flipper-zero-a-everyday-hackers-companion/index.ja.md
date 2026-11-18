@@ -3,9 +3,9 @@ title: "Flipper Zero：ハッカーとメイカーのための完全ガイド"
 draft: false
 toc: true
 date: 2023-05-26
-lastmod: 2026-10-21
+lastmod: 2026-11-14
 description: "ハードウェアハッキング、無線通信解析、日常的な技術ニーズに対応する究極のハンドヘルドガジェット、Flipper Zeroの多様な使用例をご紹介します。"
-tags: ["ピンボールZERO", "ハンドヘルドデバイス", "ハードウェアハッキング", "リバースエンジニアリング", "無線通信解析", "装置制御", "セキュリティ監査", "侵入テスト", "デイリーテックコンパニオン", "オープンソース", "ブルートゥース", "エヌエフシー", "RFID", "IR", "エミュ", "セキュリティテスト", "Kali Linux", "電子ペーパーディスプレイ", "QRコード", "ホームオートメーション", "セキュリティの脆弱性", "無線プロトコル", "ファームウェア抽出", "てんめつ", "デバッギング", "物理的アクセス制御システム", "スマートホームオートメーションシステム", "デバイスエミュレーション", "無線システムの脆弱性", "対抗措置", "小型ガジェット"]
+tags: ["Flipper Zero", "ハンドヘルドデバイス", "ハードウェアハッキング", "リバースエンジニアリング", "無線通信解析", "装置制御", "セキュリティ監査", "侵入テスト", "デイリーテックコンパニオン", "オープンソース", "ブルートゥース", "エヌエフシー", "RFID", "IR", "エミュ", "セキュリティテスト", "Kali Linux", "電子ペーパーディスプレイ", "QRコード", "ホームオートメーション", "セキュリティの脆弱性", "無線プロトコル", "ファームウェア抽出", "てんめつ", "デバッギング", "物理的アクセス制御システム", "スマートホームオートメーションシステム", "デバイスエミュレーション", "無線システムの脆弱性", "対抗措置", "小型ガジェット"]
 cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"
 coverAlt: "フリッパーゼロの周囲に様々なツールや無線信号を配置し、その多機能性を象徴するカラフルなイラストです"
 coverCaption: ""
@@ -43,8 +43,8 @@ ______
 
 セキュリティの専門家、ハードウェアの愛好家、あるいはテクノロジーをいじるのが好きな人など、Flipper Zeroは印象的な機能とユースケースを提供します。ハードウェアのハッキングや無線通信の解析から、デバイスのエミュレーションや日常の技術的なニーズまで、Flipper Zeroは多用途で不可欠なツールであることを証明しています。
 
-Flipper Zeroの詳細については、以下の公式ウェブサイトをご覧ください。 [flipperzero.one](https://flipperzero.one/). Additionally, you can explore the documentation and download firmware updates from the [official GitHub repository](https://github.com/flipperdevices/flipper-zero-firmware)
+Flipper Zeroの詳細については、以下の公式ウェブサイトをご覧ください：[flipperzero.one](https://flipperzero.one/)。Flipper Zeroの公式GitHubリポジトリはこちらです：[Flipper Zeroの公式GitHubリポジトリ](https://github.com/flipperdevices/flipper-zero-firmware)。
 
 参考文献
-- [Flipper Zero Official Website](https://flipperzero.one/)
-- [Flipper Zero GitHub Repository](https://github.com/flipperdevices/flipper-zero-firmware)
+- [Flipper Zero公式ウェブサイト](https://flipperzero.one/)
+- [Flipper Zero公式GitHubリポジトリ](https://github.com/flipperdevices/flipper-zero-firmware)

@@ -1,6 +1,7 @@
 ---
 title: "Inzicht in de belangrijkste onderdelen van het OPSEC-proces voor doeltreffende informatiebescherming"
 date: 2023-06-15
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ontdek de kritische onderdelen van het OPSEC-proces en leer hoe u gevoelige informatie effectief kunt beschermen."
@@ -32,7 +33,7 @@ De eerste stap in het OPSEC-proces is het identificeren van de **kritische infor
 
 Na het identificeren van kritieke informatie is de volgende stap het uitvoeren van een **bedreigingsbeoordeling**. Hierbij worden potentiële bedreigingen voor de vertrouwelijkheid, integriteit en beschikbaarheid van de geïdentificeerde informatie geëvalueerd. Bedreigingen kunnen afkomstig zijn van verschillende bronnen, zoals concurrenten, hackers, insiders of buitenlandse inlichtingendiensten. Inzicht in de potentiële bedreigingen helpt organisaties passende tegenmaatregelen te ontwikkelen om de risico's effectief te beperken.
 
-### 3. **Vulnerability Assessment**
+### 3. **Kwetsbaarheidsbeoordeling**
 
 Zodra de bedreigingen zijn geïdentificeerd, is het essentieel om de **kwetsbaarheden** te beoordelen die door tegenstanders kunnen worden uitgebuit. Kwetsbaarheden kunnen technische, operationele of procedurele zwakheden zijn die de veiligheid van de kritieke informatie in gevaar kunnen brengen. Voorbeelden van kwetsbaarheden zijn verouderde software, zwakke toegangscontroles, gebrek aan opleiding van werknemers of ontoereikende fysieke beveiligingsmaatregelen. Door kwetsbaarheden te identificeren, kunnen organisaties proactieve maatregelen nemen om hun beveiliging te verbeteren.
 
@@ -54,7 +55,7 @@ Diverse overheidsvoorschriften geven richtlijnen en eisen voor de uitvoering van
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) HIPAA stelt veiligheidsnormen vast voor de bescherming van gevoelige gezondheidsinformatie over patiënten in de gezondheidszorg.
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): De Algemene verordening gegevensbescherming (AVG) is een verordening met richtsnoeren voor de bescherming van persoonsgegevens binnen de Europese Unie (EU).
 
 Door aan deze voorschriften te voldoen, kunnen organisaties ervoor zorgen dat zij adequate maatregelen nemen om gevoelige informatie te beschermen en juridische gevolgen te voorkomen.
 
@@ -66,7 +67,7 @@ Het OPSEC-proces is een fundamenteel onderdeel van informatiebescherming, dat or
 
 ______
 
-## **References**
+## **Referenties**
 
 1. [National Industrial Security Program Operating Manual (NISPOM)](https://www.dss.mil/Portals/50/Documents/Manuals/5105_21_VOL_1.pdf)
 

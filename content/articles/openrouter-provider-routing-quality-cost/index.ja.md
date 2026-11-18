@@ -1,7 +1,7 @@
 ---
 title: "OpenRouterプロバイダールーティング: モデル品質、トークン制限、実際のコスト"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "OpenRouterの一貫しない回答を診断し、エンドポイントの制限とキャッシュ費用を比較して、品質管理を誤って無効にせずプロバイダールーティングを設定します。"
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+ワークロード: 入力トークン600万 + 出力トークン100万
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+入力と出力を合わせた100万トークンあたり:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```

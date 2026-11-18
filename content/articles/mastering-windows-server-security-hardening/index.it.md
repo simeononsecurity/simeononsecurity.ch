@@ -1,7 +1,7 @@
 ---
 title: "Padroneggiare la sicurezza di Windows Server"
 date: 2023-10-11
-lastmod: 2026-11-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Scopri strategie efficaci per proteggere Windows Server, dalle basi dell'hardening alle tecniche avanzate per salvaguardare l'infrastruttura."
@@ -151,7 +151,7 @@ L'**intelligenza artificiale (IA)** analizza grandi quantità di dati e individu
 |-------------|---------------------|-----------------|
 | **Controller di dominio** | Proteggere AD DS, SYSVOL, DNS, replica, gruppi privilegiati e accesso alla console fisica o virtuale | Una policy o una modifica di autenticazione errata ha effetto sul dominio |
 | **Server membro** | Limitare amministrazione locale, account di servizio, SMB, RDP, WinRM e porte applicative | Le dipendenze di dominio e applicazioni variano in base al carico di lavoro |
-| **File server** | Firma o crittografia SMB, revisione delle ACL di condivisioni e NTFS, protezione ransomware, snapshot e test di ripristino | I permessi di condivisione e NTFS si combinano |
+| **Server di file** | Firma o crittografia SMB, revisione delle ACL di condivisioni e NTFS, protezione ransomware, snapshot e test di ripristino | I permessi di condivisione e NTFS si combinano |
 | **Server in workgroup** | Separare gli account locali, usare password amministrative univoche, liste di autorizzazione del firewall, patch e ripristino da console | Nessun criterio di dominio offre un ripristino centralizzato |
 
 ## Piano di rollback per le modifiche ai servizi

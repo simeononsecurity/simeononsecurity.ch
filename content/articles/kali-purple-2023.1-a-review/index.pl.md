@@ -1,6 +1,7 @@
 ---
 title: "Kali Purple 2023.1: Aktualizacje i podstawowe funkcje"
 date: 2023-04-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Poznaj zaawansowane funkcje, narzędzia i ulepszenia Kali Purple 2023.1 w naszej kompleksowej recenzji dla etycznych hakerów i entuzjastów cyberbezpieczeństwa."
@@ -10,7 +11,7 @@ coverAlt: "Animowana w 3D maskotka smoka Kali Linux, otoczona różnymi narzędz
 coverCaption: ""
 ---
 
-**Kali Purple 2023.1: A Review**
+**Kali Purple 2023.1: recenzja**
 
 Kali Purple 2023.1 to **najnowsza wersja** popularnej dystrybucji do **testów penetracyjnych** i **etycznego hakowania**. W tym artykule przyjrzymy się bliżej nowym funkcjom, usprawnieniom i aktualizacjom, które przynosi ta wersja.
 

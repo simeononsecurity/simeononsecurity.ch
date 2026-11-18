@@ -1,6 +1,7 @@
 ---
 title: "Standarde de codare securizată pentru dezvoltatorii C#"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Învățați cele mai bune practici de codare securizată în C# pentru a minimiza riscul de breșe de securitate și pentru a proteja datele sensibile."
@@ -22,7 +23,7 @@ Datele introduse de utilizator reprezintă adesea o sursă semnificativă de ris
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Verifică dacă șirul de intrare conține doar cifre
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // Procesează datele
     }
 }
 ```

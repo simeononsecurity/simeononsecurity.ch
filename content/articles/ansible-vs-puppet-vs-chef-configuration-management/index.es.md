@@ -1,17 +1,16 @@
 ---
 title: "Ansible vs Puppet vs Chef 2026: gestión de configuración"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Comparativa de Ansible, Puppet y Chef en 2026 sobre arquitectura, funciones, curva de aprendizaje, rendimiento, precios y casos de uso."
 genre: ["DevOps", "Automatización de infraestructura", "Gestión de configuración", "Operaciones de TI", "Computación en la nube", "Administración de sistemas", "TI empresarial", "Desarrollo de software", "Infraestructura de TI", "Herramientas de automatización"]
-tags: ["ansible vs puppet", "ansible vs chef", "puppet vs chef", "gestión de configuración", "infrastructure as code", "herramientas devops", "comparativa de automatización", "ansible", "puppet", "chef", "automatización de infraestructura", "herramientas de gestión de configuración 2026", "automatización devops", "configuración de servidores", "gestión de infraestructura", "funciones de ansible", "funciones de puppet", "funciones de chef", "herramientas de configuración", "automatización de TI", "orquestación de infraestructura", "configuración declarativa", "configuración procedimental", "automatización sin agentes", "automatización con agentes", "playbooks de ansible", "manifiestos de puppet", "recetas de chef", "buenas prácticas de devops", "despliegue de infraestructura", "deriva de configuración", "configuración idempotente", "ansible tower", "puppet enterprise", "chef automate", "comparativa de plataformas de automatización", "comparativa de curvas de aprendizaje", "elección de herramientas devops", "automatización empresarial"]
+tags: ["Ansible frente a Puppet", "Ansible frente a Chef", "Puppet frente a Chef", "gestión de configuración", "infraestructura como código", "herramientas devops", "comparativa de automatización", "ansible", "puppet", "chef", "automatización de infraestructura", "herramientas de gestión de configuración 2026", "automatización devops", "configuración de servidores", "gestión de infraestructura", "funciones de ansible", "funciones de puppet", "funciones de chef", "herramientas de configuración", "automatización de TI", "orquestación de infraestructura", "configuración declarativa", "configuración procedimental", "automatización sin agentes", "automatización con agentes", "playbooks de ansible", "manifiestos de puppet", "recetas de chef", "buenas prácticas de devops", "despliegue de infraestructura", "deriva de configuración", "configuración idempotente", "ansible tower", "puppet enterprise", "chef automate", "comparativa de plataformas de automatización", "comparativa de curvas de aprendizaje", "elección de herramientas devops", "automatización empresarial"]
 cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "Ilustración de un centro de datos futurista dividido en tres secciones que representan Ansible, Puppet y Chef. Cada sección muestra una arquitectura de sistema distinta y conexiones luminosas sobre un fondo oscuro."
 coverCaption: "Elige la herramienta de gestión de configuración adecuada para tu infraestructura"
 ---
-
 ## Ansible vs Puppet vs Chef 2026: comparativa completa de gestión de configuración
 
 En 2026, la **gestión de configuración** sigue siendo esencial para administrar infraestructura moderna a gran escala. **Ansible**, **Puppet** y **Chef** destacan en el mercado empresarial. Estas herramientas admiten **Infrastructure as Code (IaC)** y permiten a los equipos automatizar la configuración de servidores, el despliegue de aplicaciones y la orquestación de infraestructura en miles de sistemas.
@@ -147,23 +146,23 @@ Esta guía compara **Ansible**, **Puppet** y **Chef** por arquitectura, funcione
 **Ejemplo** (instalar e iniciar Apache):
 ```yaml
 ---
-- name: Configure web servers
+- name: Configurar servidores web
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: Instalar Apache
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: Iniciar el servicio Apache
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: Implementar el sitio web
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -187,19 +186,19 @@ Esta guía compara **Ansible**, **Puppet** y **Chef** por arquitectura, funcione
 **Ejemplo** (la misma configuración de Apache):
 ```puppet
 class apache {
-  # Install Apache package
+  # Instalar el paquete Apache
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # Implementar el archivo del sitio web
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -229,20 +228,20 @@ node 'webserver.example.com' {
 
 **Ejemplo** (la misma configuración de Apache):
 ```ruby
-# Recipe: apache::default
+# Receta: apache::default
 
-# Install Apache package
+# Instalar el paquete Apache
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# Iniciar y habilitar el servicio Apache
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# Implementar el archivo del sitio web
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -529,7 +528,7 @@ end
 
 **Enfoque con Ansible**:
 ```yaml
-- name: Manage web server fleet
+- name: Administrar la flota de servidores web
   hosts: webservers
   become: yes
   roles:
@@ -537,7 +536,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: Implementar la aplicación
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -550,7 +549,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -562,7 +561,7 @@ node /webserver\d+/ {
 
 **Enfoque con Chef**:
 ```ruby
-# Role: webserver
+# Rol: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -570,7 +569,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# Receta: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

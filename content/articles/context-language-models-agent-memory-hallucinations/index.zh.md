@@ -1,7 +1,7 @@
 ---
 title: "Meta 的 Context Language Models：改善智能体记忆，但无法终结幻觉"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "介绍 Context Language Models 如何编辑智能体记忆、基准测试证明了什么，以及缓存成本、模型能力和不可信笔记如何影响可靠性。"
@@ -48,11 +48,11 @@ coverCaption: "可编辑智能体记忆的概念图。"
 **Rulin Shao 及其共同作者**在 2026 年 9 月 29 日发布的预印本中介绍了 CLM，作者包括 Meta Superintelligence Labs 和华盛顿大学的研究人员。其实现会将实时上下文公开为可编辑文件。智能体使用 shell 命令或代码修改文件，运行时在下一次调用时提供修改后的内容。参见 [Context Language Models](https://arxiv.org/abs/2609.37725)。
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+普通续接：
+现有上下文 + 新回复 + 新工具输出
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+可编辑上下文续接：
+智能体修改上下文文件 -> 运行时加载修改后的上下文 -> 下一次模型调用
 ```
 
 零样本方法**不需要替换模型架构**。运行时为现有模型增加一项能力。论文还分别研究了指令、学习得到的上下文管理策略和强化学习。
@@ -101,11 +101,11 @@ agent revises context file -> runtime loads revised context -> next model call
 **KV 缓存**保存中间注意力计算。使用常规前缀缓存时，下一次请求开头未改变的文本会复用之前的计算。靠近开头的编辑会缩短可复用前缀，并迫使系统重新处理后续文本。
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+先前请求： A + B + C
+修订后的请求：  A + B 的替代内容 + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+标准前缀复用：
+复用 A，重新计算 B 的替换内容和 C
 ```
 
 论文的**前缀复用 FLOPs**指标统计首次不匹配之后的生成和提示处理。一个 PFLOP 代表 10¹⁵ 次浮点运算。这是估算的计算总量，不是质量分数、吞吐量测量或账单。

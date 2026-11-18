@@ -1,7 +1,7 @@
 ---
 title: "AWS बनाम Azure बनाम Google Cloud 2026: पूरी तुलना"
 date: 2023-07-01
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "AWS, Azure और Google Cloud की 2026 की तुलना, जिसमें मूल्य, सुरक्षा, अनुपालन, सेवाएँ, प्रदर्शन और प्रदाता का चयन शामिल है।"
@@ -290,7 +290,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | **सर्वरलेस कंटेनर** | Fargate, App Runner | Container Apps | Cloud Run |
 | **बैच कंप्यूटिंग** | AWS Batch | Azure Batch | Cloud Batch |
 | **HPC** | ParallelCluster | CycleCloud | Cloud HPC Toolkit |
-| **VM मूल्य मॉडल** | On-Demand, Reserved, Spot, Savings Plans | Pay-as-you-go, Reserved, Spot | On-Demand, Committed Use, Preemptible |
+| **VM मूल्य मॉडल** | मांग पर, आरक्षित, Spot, Savings Plans | उपयोग के अनुसार भुगतान, आरक्षित, Spot | मांग पर, Committed Use, Preemptible |
 
 **2026 के प्रदर्शन बेंचमार्क** (c6a.2xlarge / F8s_v2 / n2-standard-8 के समकक्ष):
 
@@ -398,7 +398,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | **DNS** | Route 53 | Azure DNS | Cloud DNS |
 | **लोड बैलेंसिंग** | ELB/ALB/NLB/GWLB | Load Balancer, App Gateway | Cloud Load Balancing (वैश्विक) |
 | **निजी कनेक्टिविटी** | Direct Connect | ExpressRoute | Cloud Interconnect |
-| **VPN** | Site-to-Site VPN | VPN Gateway | Cloud VPN |
+| **VPN** | स्थान-से-स्थान VPN | VPN Gateway | Cloud VPN |
 | **सर्विस मेश** | App Mesh | Open Service Mesh | Traffic Director |
 | **API प्रबंधन** | API Gateway | API Management | Apigee, API Gateway |
 
@@ -564,7 +564,7 @@ coverCaption: "क्लाउड में अपने व्यवसाय �
 | टूल | AWS | Azure | Google Cloud |
 |------|-----|-------|--------------|
 | **नेटिव प्रबंधन** | Control Tower (केवल AWS) | Arc (Azure और अन्य) | Anthos (GCP और अन्य) |
-| **Infrastructure-as-Code** | CloudFormation | ARM templates, Bicep | Deployment Manager |
+| **कोड के रूप में अवसंरचना** | CloudFormation | ARM templates, Bicep | Deployment Manager |
 | **क्रॉस-क्लाउड IaC** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
 | **निगरानी** | CloudWatch | Azure Monitor | Cloud Operations |
 | **क्रॉस-क्लाउड निगरानी** | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace | Datadog, New Relic, Dynatrace |

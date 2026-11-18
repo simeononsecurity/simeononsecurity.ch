@@ -1,7 +1,7 @@
 ---
 title: "Struktura katalogów Windows"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Kompletny przewodnik na 2026 rok po strukturze katalogów Windows, zawierający diagramy wizualne, aktualizacje Windows 11, kwestie bezpieczeństwa oraz zaawansowane techniki nawigacji dla efektywnego zarządzania plikami.
@@ -75,53 +75,53 @@ Na najwyższym poziomie struktury katalogów znajduje się **katalog główny**,
 Oto kompleksowa wizualna reprezentacja hierarchii systemu plików Windows:
 
 ```
-C:\ (Root Directory)
+C:\ (Katalog główny)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [Pliki systemowe i składniki systemu operacyjnego]
+│   ├── System32\              [64-bitowe pliki systemowe i pliki wykonywalne]
+│   ├── SysWOW64\              [Warstwa zgodności 32-bitowej w systemach 64-bitowych]
+│   ├── Boot\                  [Konfiguracja rozruchu i pliki startowe]
+│   ├── Fonts\                 [Czcionki systemowe]
+│   ├── Temp\                  [Tymczasowe pliki systemowe]
+│   ├── assembly\              [Zestawy .NET Framework]
+│   ├── inf\                   [Informacje o instalacji sterowników]
+│   ├── WinSxS\                [Magazyn składników Windows Side-by-Side]
+│   ├── Logs\                  [Pliki dziennika systemowego]
+│   └── Security\              [Zasady i szablony zabezpieczeń]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [Aplikacje 64-bitowe (w systemach 64-bitowych)]
+│   ├── Common Files\          [Współdzielone składniki programów]
+│   └── [Foldery aplikacji]  [Poszczególne zainstalowane programy]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [Aplikacje 32-bitowe w systemach 64-bitowych]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [Foldery aplikacji]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [Katalogi profili użytkowników]
+│   ├── Public\                [Udostępnione pliki użytkowników]
+│   ├── [Nazwa użytkownika]\            [Poszczególne profile użytkowników]
+│   │   ├── Desktop\           [Pliki pulpitu]
+│   │   ├── Documents\         [Dokumenty użytkownika]
+│   │   ├── Downloads\         [Pobrane pliki]
+│   │   ├── Pictures\          [Obrazy użytkownika]
+│   │   ├── Videos\            [Filmy użytkownika]
+│   │   ├── Music\             [Pliki audio użytkownika]
+│   │   ├── AppData\           [Dane aplikacji]
+│   │   │   ├── Local\         [Dane aplikacji specyficzne dla komputera]
+│   │   │   ├── LocalLow\      [Dane aplikacji o niskim poziomie integralności]
+│   │   │   └── Roaming\       [Dane profilu mobilnego]
+│   │   ├── OneDrive\          [Pliki synchronizowane z chmurą (Windows 11)]
+│   │   └── Contacts\          [Kontakty użytkownika]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [Udostępnione dane aplikacji (ukryte)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [Dane aplikacji]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [Dzienniki i raporty wydajności]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [Kosz (ukryty)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [Punkty przywracania systemu (ukryte)]
 ```
 
 ______
@@ -303,9 +303,9 @@ Zrozumienie nawigacji po strukturze katalogów Windows jest kluczowe do dostępu
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # Wyświetl rekurencyjnie podkatalogi
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # Utwórz nowy katalog
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **Podstawowe polecenia PowerShell:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # Zmień katalog (alias: cd)
+Get-ChildItem                    # Wyświetl elementy (aliasy: dir, ls)
+Get-ChildItem -Recurse           # Wyświetl rekurencyjnie
+Get-ChildItem -Force             # Pokaż ukryte elementy
+Test-Path [path]                 # Sprawdź, czy ścieżka istnieje
+New-Item -ItemType Directory     # Utwórz nowy katalog
+Remove-Item [path]               # Usuń element
+Get-Item [path]                  # Pobierz właściwości elementu
+Resolve-Path [path]              # Zamień ścieżkę względną na bezwzględną
 ```
 
 **Zaawansowany przykład PowerShell:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# Znajdź wszystkie pliki .log większe niż 10MB
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# Oblicz rozmiar katalogu
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "Rozmiar katalogu: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal (standard 2026)
@@ -440,12 +440,12 @@ Windows używa **uprawnień NTFS** do kontrolowania dostępu do katalogów i pli
 
 **Przykład audytu uprawnień w PowerShell:**
 ```powershell
-# Get ACL for a directory
+# Pobierz ACL katalogu
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# Eksportuj uprawnienia do CSV
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **Rozwiązania:**
 ```powershell
-# Take ownership of a file/folder
+# Przejmij własność pliku/folderu
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# Nadaj uprawnienia
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### Problem 3: Katalog WinSxS zajmuje za dużo miejsca
 
 **Rozwiązania:**
-```cmd
-# Analyze component store
+```powershell
+# Analizuj magazyn składników
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# Wyczyść magazyn składników
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# Usuń zastąpione wersje (nieodwracalne)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - Usuń niepotrzebne dane aplikacji
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# Pokaż największe foldery w AppData
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. Moduły PowerShell
 
 ```powershell
-# Install useful modules
+# Zainstaluj przydatne moduły
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# Ulepszona lista katalogów z ikonami
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **Włącz audytowanie:**
 ```powershell
-# Enable file auditing via PowerShell
+# Włącz audyt plików w PowerShell
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Podgląd zdarzeń > Dzienniki systemu Windows > Zabezpieczenia (ID zdarzeń 4663
 - Wdrożenie filtrów plików zapobiegających nieautoryzowanym typom plików
 
 ______
+
+## Aktualne uwagi dotyczące ścieżek systemu Windows
+
+Windows zachowuje te same główne foldery w obsługiwanych wersjach desktopowych, ale niektóre ścieżki wymagają ostrożności:
+
+| Ścieżka | Bieżąca rola | Bezpieczne postępowanie |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | Natywne pliki binarne i biblioteki systemowe dla zainstalowanej architektury. W 64-bitowym systemie Windows procesy 32-bitowe korzystają z warstwy Windows-on-Windows przez **`SysWOW64`**. | Nie zastępuj plików ręcznie. Używaj Windows Update, DISM albo instalatora dostawcy. |
+| **`C:\Windows\WinSxS`** | Magazyn składników używany do obsługi i odzyskiwania systemu. Twarde dowiązania sprawiają, że szacunki rozmiaru w Eksploratorze są mylące. | Analizuj i czyść magazyn składników za pomocą DISM. Nie usuwaj z niego plików. |
+| **`C:\Users\<name>\AppData`** | Stan aplikacji dla poszczególnych użytkowników. `Local`, `LocalLow` i `Roaming` służą różnym potrzebom aplikacji i profili. | Zrób kopię zapasową danych aplikacji przed wyczyszczeniem pamięci podręcznej. Nie zakładaj, że każdy folder można usunąć. |
+| **Pamięć dystrybucji WSL 2** | Dystrybucja korzysta z wirtualnego dysku `ext4.vhdx` w katalogu pakietu `LocalState`. | Wyeksportuj lub zatrzymaj dystrybucję przed konserwacją dysku. Nie edytuj dysku wirtualnego jak zwykłego folderu. |
+
+Starszy diagram i przykłady nadal pomagają zorientować się w strukturze. Microsoft opisuje ścieżkę wirtualnego dysku WSL 2 i wyjaśnia, dlaczego dystrybucja jest przechowywana na wirtualnym dysku twardym, a nie w zwykłych plikach systemu Windows. Dokładna nazwa pakietu zależy od dystrybucji i metody instalacji. Zobacz [wskazówki Microsoftu dotyczące miejsca na dysku WSL](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+Microsoft zakończył obsługę systemu Windows 10 w wersji 22H2 14 października 2025 r., z wyjątkiem edycji z osobnymi warunkami cyklu życia lub kwalifikującą się umową Extended Security Update. W 2026 r. traktuj Windows 10 jako przypadek migracji lub zarządzania wyjątkami. Zobacz [informację Microsoftu o cyklu życia Windows 10](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+Zakresy rozmiarów i odsetki wdrożeń w pierwotnych sekcjach to liczby poglądowe, a nie pomiary z tej witryny. Rozmiar katalogu zależy od zainstalowanego oprogramowania, historii aktualizacji, zawartości profilu i zasad przechowywania. Przed usunięciem czegokolwiek sprawdź lokalny system.
+
+## Lista kontrolna bezpiecznej konserwacji katalogów
+
+1. Przed zmianą chronionego katalogu zapisz ścieżkę, właściciela, ACL i cel biznesowy.
+2. Przed usunięciem danych aplikacji lub zmianą uprawnień utwórz albo potwierdź możliwość odzyskania kopii zapasowej.
+3. Wybieraj obsługiwane narzędzia, takie jak **Storage Sense**, **DISM**, **`robocopy`** i deinstalatory aplikacji.
+4. Jeśli zadanie nie wymaga podwyższonych uprawnień, testuj zmiany na koncie standardowego użytkownika.
+5. Po konserwacji sprawdź Podgląd zdarzeń i dzienniki aplikacji.
+6. Prowadź rejestr wycofania zmian z pierwotną ścieżką, poleceniem, godziną i wynikiem.
+
+**Nie używaj `/MIR` z niesprawdzonym miejscem docelowym.** `robocopy /MIR` usuwa z miejsca docelowego pliki, których nie ma w źródle.
+
 
 ## Podsumowanie
 

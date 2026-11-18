@@ -1,7 +1,7 @@
 ---
 title: "Windows-Verzeichnisstruktur"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: Vollständiger Leitfaden 2026 zur Windows-Verzeichnisstruktur einschließlich visueller Diagramme, Windows 11-Updates, Sicherheitsaspekten und Expertennavigationstechniken für effizientes Dateimanagement.
@@ -50,7 +50,7 @@ tags:
 - Windows-Systemressourcen
 - Windows 11-Verzeichnisstruktur
 - WSL-Verzeichnisstruktur
-- OneDrive-Integration
+- OneDrive-Anbindung
 cover: /img/cover/An_image_depicting_a_tree-like_structure_repre.webp
 coverAlt: Ein Bild, das eine baumartige Struktur darstellt, die das Windows-Verzeichnis-System repräsentiert.
 coverCaption: Verwalten Sie Ihre Dateien effizient mit der Windows-Verzeichnisstruktur.
@@ -75,53 +75,53 @@ Auf der obersten Ebene der Verzeichnisstruktur befindet sich das **Stammverzeich
 Hier ist eine umfassende visuelle Darstellung der Windows-Dateisystem-Hierarchie:
 
 ```
-C:\ (Root Directory)
+C:\ (Stammverzeichnis)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [Systemdateien und Betriebssystemkomponenten]
+│   ├── System32\              [64-Bit-Systemdateien und ausführbare Dateien]
+│   ├── SysWOW64\              [32-Bit-Kompatibilitätsschicht auf 64-Bit-Systemen]
+│   ├── Boot\                  [Startkonfiguration und Startdateien]
+│   ├── Fonts\                 [Systemschriftarten]
+│   ├── Temp\                  [Temporäre Systemdateien]
+│   ├── assembly\              [Baugruppen des .NET Framework]
+│   ├── inf\                   [Informationen zur Treiberinstallation]
+│   ├── WinSxS\                [Windows-Side-by-Side-Komponentenspeicher]
+│   ├── Logs\                  [Systemprotokolldateien]
+│   └── Security\              [Sicherheitsrichtlinien und Vorlagen]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [64-Bit-Anwendungen (auf 64-Bit-Systemen)]
+│   ├── Common Files\          [Gemeinsam genutzte Programmkomponenten]
+│   └── [Anwendungsordner]  [Einzeln installierte Programme]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [32-Bit-Anwendungen auf 64-Bit-Systemen]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [Anwendungsordner]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [Benutzerprofilordner]
+│   ├── Public\                [Freigegebene Benutzerdateien]
+│   ├── [Benutzername]\            [Einzelne Benutzerprofile]
+│   │   ├── Desktop\           [Desktopdateien]
+│   │   ├── Documents\         [Benutzerdokumente]
+│   │   ├── Downloads\         [Heruntergeladene Dateien]
+│   │   ├── Pictures\          [Benutzerbilder]
+│   │   ├── Videos\            [Benutzervideos]
+│   │   ├── Music\             [Benutzeraudiodateien]
+│   │   ├── AppData\           [Anwendungsdaten]
+│   │   │   ├── Local\         [Gerätespezifische Anwendungsdaten]
+│   │   │   ├── LocalLow\      [Anwendungsdaten mit niedriger Integrität]
+│   │   │   └── Roaming\       [Daten des mobilen Profils]
+│   │   ├── OneDrive\          [Mit der Cloud synchronisierte Dateien (Windows 11)]
+│   │   └── Contacts\          [Benutzerkontakte]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [Freigegebene Anwendungsdaten (ausgeblendet)]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [Anwendungsdaten]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [Leistungsprotokolle und Berichte]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [Papierkorb (ausgeblendet)]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [Systemwiederherstellungspunkte (ausgeblendet)]
 ```
 
 ______
@@ -218,7 +218,7 @@ Das **Verzeichnis für temporäre Dateien** enthält temporäre Dateien, die von
 | **C:\Windows\Temp\** | Systemweite temporäre Dateien | Wöchentlich empfohlen |
 | **C:\Users\Benutzername\AppData\Local\Temp\** | Benutzerspezifische temporäre Dateien | Wöchentlich empfohlen |
 | **C:\Temp\** | Legacy-/benutzerdefinierter Anwendungstemp | Nach Bedarf |
-| **%TEMP%** | Umgebungsvariable, verweist auf Benutzertemp | N/A (Variable) |
+| **%TEMP%** | Umgebungsvariable, verweist auf Benutzertemp | Nicht zutreffend (Variable) |
 
 **Reinigungs-Best Practice:** Laut Microsofts Best Practices sollten temporäre Verzeichnisse monatlich geleert werden. Storage Sense von Windows 11 kann diesen Prozess automatisieren. Im Jahr 2026 sammelt ein durchschnittliches Temp-Verzeichnis monatlich 2-10 GB an.
 
@@ -303,9 +303,9 @@ Die **Eingabeaufforderung (CMD)** ist eine Kommandozeilenschnittstelle, die es B
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # Rekursiv alle Unterverzeichnisse auflisten
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # Neues Verzeichnis erstellen
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **Wesentliche PowerShell-Befehle:**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # Verzeichnis wechseln (Alias: cd)
+Get-ChildItem                    # Elemente auflisten (Aliase: dir, ls)
+Get-ChildItem -Recurse           # Rekursiv auflisten
+Get-ChildItem -Force             # Versteckte Elemente anzeigen
+Test-Path [path]                 # Prüfen, ob der Pfad existiert
+New-Item -ItemType Directory     # Neues Verzeichnis erstellen
+Remove-Item [path]               # Element löschen
+Get-Item [path]                  # Elementeigenschaften abrufen
+Resolve-Path [path]              # Relativen in absoluten Pfad umwandeln
 ```
 
 **Erweitertes PowerShell-Beispiel:**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# Alle .log-Dateien über 10MB finden
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# Verzeichnisgröße berechnen
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "Verzeichnisgröße: $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows Terminal (Standard 2026)
@@ -440,12 +440,12 @@ Windows verwendet **NTFS-Berechtigungen**, um den Zugriff auf Verzeichnisse und 
 
 **PowerShell-Beispiel zur Berechtigungsprüfung:**
 ```powershell
-# Get ACL for a directory
+# ACL eines Verzeichnisses abrufen
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# Berechtigungen nach CSV exportieren
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **Lösungen:**
 ```powershell
-# Take ownership of a file/folder
+# Besitz einer Datei/eines Ordners übernehmen
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# Berechtigungen erteilen
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### Problem 3: WinSxS-Verzeichnis belegt zu viel Speicher
 
 **Lösungen:**
-```cmd
-# Analyze component store
+```powershell
+# Komponentenspeicher analysieren
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# Komponentenspeicher bereinigen
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# Ersetzte Versionen entfernen (nicht umkehrbar)
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - Unnötige Anwendungsdaten entfernen
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# Größte Ordner in AppData anzeigen
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. PowerShell-Module
 
 ```powershell
-# Install useful modules
+# Nützliche Module installieren
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# Verbesserte Verzeichnisliste mit Symbolen
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **Überwachung aktivieren:**
 ```powershell
-# Enable file auditing via PowerShell
+# Dateiüberwachung mit PowerShell aktivieren
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Ereignisanzeige > Windows-Protokolle > Sicherheit (Ereignis-IDs 4663, 4656)
 - Einsatz von Dateibildschirmen zur Verhinderung unerlaubter Dateitypen
 
 ______
+
+## Aktuelle Hinweise zu Windows-Pfaden
+
+Windows behält dieselben Hauptordner in unterstützten Desktopversionen bei. Bei einigen Pfaden ist jedoch Vorsicht geboten:
+
+| Pfad | Aktuelle Funktion | Sichere Handhabung |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | Native Systembinärdateien und Bibliotheken für die installierte Architektur. Unter 64-Bit-Windows verwenden 32-Bit-Prozesse die Windows-on-Windows-Ebene über **`SysWOW64`**. | Ersetze Dateien nicht manuell. Verwende Windows Update, DISM oder das Installationsprogramm des Herstellers. |
+| **`C:\Windows\WinSxS`** | Komponentenspeicher für Wartung und Wiederherstellung. Hardlinks machen Größenschätzungen im Explorer ungenau. | Analysiere und bereinige den Komponentenspeicher mit DISM. Lösche keine Dateien aus dem Ordner. |
+| **`C:\Users\<name>\AppData`** | Anwendungsdaten für einzelne Benutzer. `Local`, `LocalLow` und `Roaming` erfüllen unterschiedliche Anforderungen von Anwendungen und Profilen. | Sichere Anwendungsdaten, bevor du Caches löschst. Gehe nicht davon aus, dass jeder Ordner entbehrlich ist. |
+| **WSL-2-Distributionsspeicher** | Eine Distribution verwendet eine virtuelle `ext4.vhdx`-Festplatte im `LocalState`-Verzeichnis des Pakets. | Exportiere oder beende die Distribution vor der Festplattenwartung. Bearbeite die virtuelle Festplatte nicht wie einen normalen Ordner. |
+
+Das ältere Diagramm und die Beispiele bleiben als Übersicht nützlich. Microsoft dokumentiert den Pfad der virtuellen WSL-2-Festplatte und erklärt, weshalb die Distribution auf einer virtuellen Festplatte statt in gewöhnlichen Windows-Dateien gespeichert wird. Der genaue Paketname hängt von Distribution und Installationsmethode ab. Siehe Microsofts [Hinweise zum WSL-Speicherplatz](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+Microsoft beendete den Support für Windows 10 Version 22H2 am 14. Oktober 2025. Ausgenommen sind Editionen mit eigenen Lebenszyklusbedingungen oder einer berechtigten Extended-Security-Update-Vereinbarung. Behandle Windows 10 im Jahr 2026 als Migrations- oder Ausnahmefall. Siehe Microsofts [Hinweis zum Windows-10-Lebenszyklus](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+Die Größenbereiche und Verbreitungsanteile in den ursprünglichen Abschnitten sind Richtwerte und keine Messungen dieser Website. Die Verzeichnisgröße hängt von installierter Software, Updateverlauf, Profilinhalten und Aufbewahrungsregeln ab. Prüfe das lokale System, bevor du etwas löschst.
+
+## Checkliste für die sichere Verzeichniswartung
+
+1. Notiere Pfad, Besitzer, ACL und Geschäftszweck, bevor du ein geschütztes Verzeichnis änderst.
+2. Erstelle oder bestätige eine wiederherstellbare Sicherung, bevor du Anwendungsdaten löschst oder Berechtigungen änderst.
+3. Bevorzuge unterstützte Werkzeuge wie **Storage Sense**, **DISM**, **`robocopy`** und Anwendungs-Deinstallationsprogramme.
+4. Teste Änderungen mit einem Standardbenutzerkonto, wenn die Aufgabe keine erhöhten Rechte erfordert.
+5. Prüfe nach der Wartung die Ereignisanzeige und Anwendungsprotokolle.
+6. Führe ein Rollback-Protokoll mit ursprünglichem Pfad, Befehl, Zeitpunkt und Ergebnis.
+
+**Verwende `/MIR` nicht mit einem ungeprüften Ziel.** `robocopy /MIR` entfernt Zieldateien, die in der Quelle fehlen.
+
 
 ## Fazit
 

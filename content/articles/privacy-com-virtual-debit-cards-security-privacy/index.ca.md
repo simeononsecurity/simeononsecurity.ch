@@ -1,7 +1,7 @@
 ---
 title: "Targetes Virtuals de Privacy.com: Com Funciona la Privacitat en el Pagament"
 date: 2023-09-03
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: Què s'emmagatzema en una targeta de pagament, per què la banda magnètica és la part més feble, què veu un comerciant quan pagues amb un número virtual, i com funcionen en la pràctica els tipus i límits de targetes de Privacy.com.
@@ -232,11 +232,11 @@ Per a un exercici de Pista 1 sintètica, utilitzeu:
 
 ```text
 PAN: 4111111111111111
-Surname: TEST
-First name: USER
-Expiry: 12/29
-Service code: 201
-Discretionary data: 000000000
+Cognom: TEST
+Nom: USER
+Caducitat: 12/29
+Codi de servei: 201
+Dades discrecionals: 000000000
 ```
 
 Per a un exercici de Pista 2 sintètica, utilitzeu el mateix PAN, data de caducitat, codi de servei i un camp discrecional numèric. La cadena generada de Pista 2 omet el nom perquè la Pista 2 no té camp de nom.
@@ -263,6 +263,21 @@ Quan pagueu amb una targeta virtual, el comerciant rep un número, una data de c
 *La distinció confon constantment la gent. Si el vostre model d'amenaça inclou l'emissor o la xarxa, una targeta virtual no canvia res d'això.*
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="Diagrama que mostra un número de targeta virtual enviat al comerciant mentre el número real de la targeta es manté entre el titular i el banc emissor" >}}
+
+## Què continua veient el comerç
+
+**Una targeta virtual amaga el compte de finançament i el PAN original.** El canvi no esborra les dades del pagament.
+
+La documentació d’assistència de Privacy enumera les dades de la targeta que es comparteixen amb el comerç: el número de 16 dígits, la data de caducitat, el CVV i l’adreça de facturació introduïda en pagar. El comerç també veu el nom que indiques. Llegeix l’[explicació oficial de les dades visibles per al comerç](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant) abans de considerar una targeta virtual un escut d’identitat.
+
+| Capa | Dades que continuen visibles o conservades |
+|---|---|
+| **Comerç** | Número de targeta virtual, caducitat, CVV, adreça de facturació i nom indicats en pagar, dades de la comanda i del compte del comerç |
+| **Privacy.com** | Dades d’identitat, font de finançament, dades de targeta i transaccions, i dades del dispositiu segons la [política de privadesa](https://www.privacy.com/privacy-policy) |
+| **Banc de finançament** | Data i import de la transacció i un descriptor amb Privacy.com o `PWP*`; el banc determina la visualització exacta |
+| **Xarxa de pagament i emissor** | Registres d’autorització, liquidació, frau i disputa necessaris per processar el pagament |
+
+El límit pràctic és simple. Una targeta virtual redueix la reutilització de les credencials de la targeta. El teu nom, adreça d’enviament, compte del comerç, sessió del navegador i altres dades introduïdes fora dels camps de la targeta continuen visibles per al comerç. Els comptes separats als comerços i els àlies de correu electrònic ajuden a limitar la vinculació de la identitat entre llocs. Una targeta virtual per si sola no crea aquesta separació.
 
 ## Els Tres Tipus de Objecte en Forma de Targeta
 
@@ -313,6 +328,22 @@ Dos detalls operatius que val la pena conèixer:
 
 *El nostre **[Mòdul de Seguretat Financera Personal](/personal-security-course/personal-finance/)** situa això al costat de les congelacions de crèdit i la tokenització de targetes com els tres controls que limiten què pot accedir un comerciant compromès.*
 
+## Càrrecs recurrents i autoritzacions
+
+**Els controls de la targeta actuen en el moment de l’autorització.** Privacy descriu una transacció pendent com el permís perquè el comerç cobri un import acordat. Una autorització de 0 $ comprova si la targeta està activa. No és una compra completada. Les transaccions finançades des d’un banc passen per una fase de liquidació abans que s’acabi el càrrec. Consulta la [guia oficial dels estats de les transaccions](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized).
+
+| Esdeveniment | Què passa | Límit del control |
+|---|---|---|
+| **Afegir una targeta a un servei** | El comerç envia una autorització de 0 $ per comprovar la targeta | Una comprovació correcta no demostra que s’hagi pagat una comanda |
+| **Compra autoritzada** | Privacy registra un import pendent i permet al comerç cobrar l’import acordat | Els fons disponibles i les autoritzacions posteriors reflecteixen la transacció pendent |
+| **Compra liquidada** | La font de finançament rep el càrrec després del processament del comerç | Un canvi de comanda o una propina afegida pot fer que l’import final difereixi de la primera autorització |
+| **Targeta pausada o tancada després de l’autorització** | S’aturen les autoritzacions futures | Una autorització anterior continua sotmesa a les regles de la xarxa de pagament |
+| **Límit de despesa canviat després de l’autorització** | El límit nou s’aplica als intents futurs | L’autorització anterior conserva l’estat que ja tenia |
+
+**El límit de la targeta no és un saldo prepagat.** La guia de Privacy per a cada targeta indica que el límit bloqueja els intents d’autorització per sobre de l’import triat. La font de finançament rep el càrrec quan es completen les transaccions. Les finestres mòbils són de 24 hores per als límits diaris, 30 dies per als mensuals i 364 dies per als anuals, amb un marge de sis dies per a alguns cicles de facturació de subscripcions. La [guia oficial dels límits de despesa](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) documenta aquestes regles.
+
+Per a les subscripcions, fixa un límit recurrent abans del primer càrrec, revisa els registres pendents i en liquidació, i cancel·la també amb el comerç. Tancar una targeta bloqueja les autoritzacions futures. No cancel·la una compra ja autoritzada ni genera un reemborsament. La [guia de Privacy per pausar i tancar targetes](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards) descriu el mateix límit.
+
 ## Plans i Què Desbloqueja Cada Un
 
 Privacy.com ofereix un nivell gratuït juntament amb tres plans de pagament. Els preus i els límits de funcions canvien, així que confirma els termes actuals abans de subscriure't.
@@ -327,6 +358,8 @@ Privacy.com ofereix un nivell gratuït juntament amb tres plans de pagament. Els
 **El nivell gratuït cobreix el benefici principal de seguretat.** El bloqueig per comerciant, les targetes d’un sol ús i els límits de despesa són els mecanismes que redueixen l’exposició, i estan disponibles sense pagar. Els nivells de pagament afegeixen organització i comoditat més que protecció addicional.
 
 **Les comissions per transaccions estrangeres varien segons el nivell.** El nivell gratuït cobra un 3% en transaccions estrangeres amb un mínim de 0,50 $, mentre que els nivells de pagament no.
+
+Abans de subscriure't, consulta les [condicions actuals de Privacy.com](https://www.privacy.com/terms).
 
 ## Què No Fa Privacy.com
 
@@ -367,7 +400,28 @@ Val la pena esmentar dues certificacions perquè són verificables de manera ind
 
 *La raó pràctica per comprovar el banc emissor és la verificació. Qualsevol pot afirmar que gestiona un programa de targetes, i el nom de l’emissor a la targeta és el que confirmes amb el banc indicat en la documentació.*
 
-Inspecciona el sistema i el banc pel prefix PAN amb el **[Magnetic Stripe Decoder](/magnetic-stripe-decoder/)**, que informa del rang principal del sistema i valida el dígit de control Luhn.
+Inspecciona el sistema i el banc pel prefix PAN amb el **[Descodificador de banda magnètica](/magnetic-stripe-decoder/)**, que informa del rang principal del sistema i valida el dígit de control Luhn.
+
+## Recuperació del compte i dependència del proveïdor
+
+**L’accés al compte és un control diferent de l’aïllament de la targeta.** Davant d’activitat desconeguda, Privacy recomana contactar amb el comerç, revisar la 2FA i les targetes compartides, comprovar els codis d’inici de sessió dels dispositius nous, restablir la contrasenya i contactar amb l’assistència. La [guia de seguretat del compte](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account) enumera aquests passos.
+
+Mantén actualitzats el correu de recuperació i el teu número de telèfon dels Estats Units. Segons la [guia de dades del compte](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number), Privacy demana confirmació quan canvies qualsevol d’aquestes dades. Activa la 2FA i desa els noms dels comerços i els quatre darrers dígits de les targetes en un gestor de contrasenyes. No desis un PAN complet ni un CVV en una aplicació de notes corrent.
+
+Tancar el compte no esborra tots els registres. La política de Privacy, actualitzada el 8 de juny de 2026, estableix períodes de conservació d’almenys cinc anys per a dades de verificació d’identitat i targetes de pagament, sis anys per a informació del banc de finançament i transaccions ACH, i tres anys per als registres d’auditoria. Llegeix l’apartat de conservació de la [política de privadesa de Privacy](https://www.privacy.com/privacy-policy) abans de considerar que el tancament del compte equival a esborrar dades.
+
+**Privacy continua depenent del banc de finançament, Plaid, ACH, les xarxes de targetes i els seus sistemes de compte.** El finançament bancari fa servir ACH a través de Plaid. Privacy diu que els bancs no compatibles tenen l’alternativa de finançar amb targeta de dèbit, però l’elegibilitat continua requerint un banc o una cooperativa de crèdit dels EUA i un número de telèfon dels EUA. La [guia per connectar un compte bancari](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account) i la [guia d’elegibilitat](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy) descriuen aquests requisits.
+
+Els problemes de finançament afecten els pagaments. Privacy documenta pauses temporals del compte quan el servei no pot carregar una font de finançament, per exemple, per saldo insuficient o compte tancat. La seva pàgina d’assistència també diu que treure una font de finançament no atura transaccions ja autoritzades contra aquesta font. Llegeix la [guia de transaccions no liquidades](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction) i la [guia per treure una font de finançament](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account) abans de retirar un banc o una targeta de dèbit.
+
+| Dependència | Tipus d’error | Resposta pràctica |
+|---|---|---|
+| **Banc de finançament o Plaid** | Connexió no compatible, tancada o desactualitzada | Mantén una font alternativa apta i revisa l’estat del compte |
+| **Compte de Privacy** | Nova revisió d’identitat, pèrdua del canal de recuperació o suspensió del compte | Mantén actualitzats la 2FA i les dades de recuperació |
+| **Comerç** | Rebuig d’un rang de targeta virtual o prepagada, o continuació d’un càrrec recurrent | Conserva una targeta real per a excepcions i cancel·la amb el comerç |
+| **Xarxa o emissor** | Retard d’autorització, liquidació, reemborsament o disputa | Conserva rebuts, extractes i registres de transaccions |
+
+Les condicions de Privacy descriuen serveis separats de l’empresa i dels seus socis financers. També permeten demanar informació d’identitat addicional i restringir comptes. Inclou l’accés al proveïdor i els registres del compte en el teu model d’amenaces. No canalitzis totes les factures essencials per un únic proveïdor de targetes.
 
 ## Com Utilitzar Bé les Targetes Virtuals
 
@@ -381,6 +435,19 @@ Inspecciona el sistema i el banc pel prefix PAN amb el **[Magnetic Stripe Decode
 6. **Mantingues una targeta real per a comerciants que rebutgen rangs virtuals**, perquè un bloqueig a la caixa no esdevingui una emergència.
 
 > **Error comú: tractar una targeta virtual com a substitut de revisar els teus extractes.** El bloqueig per comerciant evita una classe de danys. No detecta un compte compromès al teu banc, una transferència no autoritzada ni un càrrec fraudulent a la targeta real darrere.
+
+## Límits actuals dels controls
+
+La documentació d’assistència actual de Privacy.com indica que un límit de despesa per a una targeta bloqueja intents d’autorització per sobre del límit. La [guia dels límits de despesa](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) també descriu finestres mòbils. La [documentació de targetes per a desenvolupadors](https://developers.privacy.com/docs/cards) enumera targetes vinculades a comerços i camps de límit de despesa.
+
+| Control | Ajuda amb | No resol |
+|---|---|---|
+| Targeta vinculada a un comerç | Reutilització d’un número en un altre comerç | Compromís del compte de Privacy.com o una transacció fraudulenta al comerç previst |
+| Límit de despesa | Imports d’autorització inesperats i desviacions dels càrrecs recurrents | Un càrrec anterior al canvi del límit o un compte de finançament compromès |
+| Tancar una targeta virtual | Autoritzacions futures amb aquest número | Un reemborsament, una disputa o un registre del comerç ja creat |
+| Una targeta separada per servei | Identificació i revocació ràpides | Interrupcions del proveïdor, comprovacions d’identitat o registres del banc |
+
+Revisa el compte de finançament, els mètodes de recuperació del compte, les alertes i la llista de targetes com un únic conjunt de controls. Un número virtual canvia el número que comparteixes amb el comerç. No amaga la transacció al banc emissor, al proveïdor de targetes, al comerç, a les xarxes de pagament, als registres fiscals ni a un tribunal amb autoritat legal. Tampoc converteix una targeta de dèbit en una línia de crèdit ni garanteix el resultat d’una disputa.
 
 ## Conclusions Clau
 
@@ -413,3 +480,17 @@ Inspecciona el sistema i el banc pel prefix PAN amb el **[Magnetic Stripe Decode
 7. [Codificació de dades ANSI/ISO ALPHA, el conjunt de caràcters de la Pista 1 i taula de paritat](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [Caràcters ISO de targeta magnètica, conjunts de la Pista 1 i Pista 2 comparats](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [Lectura de dades de targeta magnètica, guia pràctica amb escaneig en viu d’una targeta](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Documentació de desenvolupadors de Privacy: tipus de targeta, estats i límits](https://developers.privacy.com/docs/cards)
+11. [Assistència de Privacy: dades compartides amb els comerços](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Assistència de Privacy: límits de despesa per targeta](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Assistència de Privacy: estats de transaccions i autoritzacions](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Assistència de Privacy: pausar i tancar targetes](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Assistència de Privacy: descriptors als extractes bancaris](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Assistència de Privacy: connectar un compte bancari amb Plaid](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Assistència de Privacy: activitat del compte i comprovacions de recuperació](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Assistència de Privacy: actualitzar el correu i el telèfon del compte](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Assistència de Privacy: requisits d’elegibilitat](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Assistència de Privacy: transaccions no liquidades](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Assistència de Privacy: eliminar una font de finançament](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Política de privadesa de Privacy.com](https://www.privacy.com/privacy-policy)
+23. [Condicions del servei de Privacy.com](https://www.privacy.com/terms)

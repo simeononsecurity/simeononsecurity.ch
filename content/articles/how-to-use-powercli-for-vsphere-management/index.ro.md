@@ -1,7 +1,7 @@
 ---
 title: "Stăpânește PowerCLI pentru administrarea vSphere"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Află cum să folosești PowerCLI pentru a administra VMware vSphere, a automatiza sarcini și a crește productivitatea."
@@ -68,10 +68,10 @@ PowerCLI automatizează sarcini repetitive. Câteva rânduri de cod pot efectua 
 #### Crearea instantaneelor tuturor VM-urilor dintr-un folder
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## Oprește toate mașinile virtuale de pe o gazdă specifică
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## Creează un snapshot pentru toate mașinile virtuale dintr-un folder specific
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Scriptul arată cum să oprești VM-urile de pe o gazdă și să creezi instanta
 #### Oprirea în siguranță a tuturor VM-urilor dintr-un folder
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## Preia folderul care conține mașinile virtuale ce urmează să fie oprite
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## Preia toate mașinile virtuale din folderul specificat
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## Oprește controlat toate mașinile virtuale
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

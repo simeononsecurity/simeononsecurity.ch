@@ -1,12 +1,12 @@
 ---
 title: "Como lidar com incidentes de cibersegurança"
 date: 2023-10-08
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprenda a desenvolver um plano sólido de resposta a incidentes de cibersegurança para reduzir os impactos e proteger sua organização contra ameaças cibernéticas."
-genre: ["Cibersegurança", "Resposta a incidentes", "Violação de dados", "Ataques de malware", "Ransomware", "Perdas financeiras", "Gestão da reputação", "Conformidade legal", "Continuidade dos negócios", "Mitigação de riscos"]
-tags: ["Cibersegurança", "Resposta a incidentes", "Violação de dados", "Ataques de malware", "Ransomware", "Perdas financeiras", "Gestão da reputação", "Conformidade legal", "Continuidade dos negócios", "Mitigação de riscos", "Segurança da informação", "Defesa cibernética", "Proteção de dados", "Segurança de TI", "Ameaças digitais", "Privacidade de dados", "Resiliência cibernética", "Segurança de rede", "Medidas de segurança", "Tratamento de incidentes", "Segurança de dados", "Políticas de segurança", "Preparação cibernética", "Ameaças cibernéticas", "Recuperação de dados", "Conscientização sobre cibersegurança", "Detecção de ameaças", "Investigação de incidentes", "Treinamento de segurança"]
+genre: ["Cibersegurança", "Resposta a incidentes", "Violação de dados", "Ataques de malware", "Software de resgate", "Perdas financeiras", "Gestão da reputação", "Conformidade legal", "Continuidade dos negócios", "Mitigação de riscos"]
+tags: ["Cibersegurança", "Resposta a incidentes", "Violação de dados", "Ataques de malware", "Software de resgate", "Perdas financeiras", "Gestão da reputação", "Conformidade legal", "Continuidade dos negócios", "Mitigação de riscos", "Segurança da informação", "Defesa cibernética", "Proteção de dados", "Segurança de TI", "Ameaças digitais", "Privacidade de dados", "Resiliência cibernética", "Segurança de rede", "Medidas de segurança", "Tratamento de incidentes", "Segurança de dados", "Políticas de segurança", "Preparação cibernética", "Ameaças cibernéticas", "Recuperação de dados", "Conscientização sobre cibersegurança", "Detecção de ameaças", "Investigação de incidentes", "Treinamento de segurança"]
 cover: "/img/cover/cybersecurity_superheroes_shield.webp"
 coverAlt: "Imagem simbólica de um grupo de super-heróis que protege uma cidade contra ameaças cibernéticas, com os dizeres Incident Response Plan e Risk Mitigation nos escudos"
 coverCaption: "Juntos, protegemos seu mundo digital!"
@@ -33,11 +33,11 @@ Um dos principais motivos para ter um **plano abrangente de resposta a incidente
 
 Os **danos à reputação** causados por um incidente também podem ser **graves**. Hoje, as informações se espalham rapidamente pelas redes sociais e plataformas on-line. Uma notícia sobre uma **violação de dados** ou um **ataque cibernético** pode prejudicar a imagem de uma organização e reduzir a **confiança dos clientes**. Isso pode causar perda de oportunidades comerciais, redução da fidelidade e dificuldade para atrair novos clientes. Um plano permite **gerenciar a reputação de forma proativa**, com uma resposta rápida e transparente que **limite os danos à marca**.
 
-Além das consequências financeiras e reputacionais, os incidentes de cibersegurança também podem ter **implicações legais e regulatórias**. As organizações precisam cumprir as muitas leis e normas de proteção de dados para evitar multas elevadas. Por exemplo, o **Regulamento Geral sobre a Proteção de Dados da União Europeia (GDPR)** prevê multas de até **20 milhões de euros ou 4% do faturamento anual mundial**, prevalecendo o valor mais alto. Um plano que inclua medidas para atender às obrigações legais e regulatórias ajuda a reduzir os riscos de descumprimento e suas **consequências financeiras e legais**.
+Além das **consequências financeiras e reputacionais**, os incidentes de cibersegurança também podem ter **implicações legais e regulatórias**. As organizações precisam **cumprir as muitas leis e normas de proteção de dados** para evitar multas elevadas. Por exemplo, o **Regulamento Geral sobre a Proteção de Dados da União Europeia (GDPR)** prevê multas de até **20 milhões de euros ou 4% do faturamento anual mundial**, prevalecendo o valor mais alto. Um plano que inclua medidas para atender às obrigações legais e regulatórias ajuda a reduzir os riscos de descumprimento e suas **consequências financeiras e legais**.
 
 A interconexão do ecossistema empresarial também faz com que um incidente possa gerar **efeitos além da organização**. Se os sistemas de um **fornecedor** forem comprometidos, a **cadeia de suprimentos** pode ser interrompida e a disponibilidade de produtos ou serviços pode diminuir. Uma violação de **dados de clientes** pode levar a **roubo de identidade ou fraude** e prejudicar a relação com eles. Um plano que considere as partes interessadas externas ajuda a lidar com os efeitos e a **manter a confiança de parceiros, fornecedores e clientes**.
 
-Um **plano de resposta a incidentes de cibersegurança** é essencial para a estratégia geral de segurança da organização. Ele reduz os impactos na **estabilidade financeira**, na **reputação**, na **conformidade legal** e nas **relações externas**. Investir em um plano bem elaborado ajuda a mitigar riscos e garantir a **continuidade dos negócios** na era digital.
+Um **plano de resposta a incidentes de cibersegurança** é essencial para a estratégia geral de segurança da organização. Ele reduz os impactos na **estabilidade financeira**, na **reputação**, na **conformidade legal** e nas **relações externas**. Investir em um plano bem elaborado ajuda a **mitigar riscos** e garantir a **continuidade dos negócios** na era digital.
 
 ## Elementos essenciais de um plano de resposta a incidentes de cibersegurança
 
@@ -124,7 +124,7 @@ Em uma época em que as **ameaças cibernéticas** representam riscos importante
 
 ## Referências
 
-1. IBM Security. (2020). Cost of a Data Breach Report 2020. [Link](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)
-2. European Union Agency for Cybersecurity (ENISA). (2021). Threat Landscape for ENISA and the EU Member States 2021. [Link](https://www.enisa.europa.eu/topics/threat-landscape)
-3. Payment Card Industry (PCI) Security Standards Council. (n.d.). PCI DSS. [Link](https://www.pcisecuritystandards.org/pci_security/)
-4. National Institute of Standards and Technology (NIST). (2020). NIST Cybersecurity Framework. [Link](https://www.nist.gov/cyberframework)
+1. IBM Security. (2020). Cost of a Data Breach Report 2020. [Fonte](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)
+2. European Union Agency for Cybersecurity (ENISA). (2021). Threat Landscape for ENISA and the EU Member States 2021. [Fonte](https://www.enisa.europa.eu/topics/threat-landscape)
+3. Payment Card Industry (PCI) Security Standards Council. (n.d.). PCI DSS. [Fonte](https://www.pcisecuritystandards.org/pci_security/)
+4. National Institute of Standards and Technology (NIST). (2020). NIST Cybersecurity Framework. [Fonte](https://www.nist.gov/cyberframework)

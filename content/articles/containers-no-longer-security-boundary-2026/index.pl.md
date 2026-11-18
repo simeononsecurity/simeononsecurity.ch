@@ -1,18 +1,17 @@
 ---
 title: "Kontenery nie są już granicą bezpieczeństwa: ucieczki z kernela w 2026 roku"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Omów badania nad ucieczkami z kontenerów z 2026 roku, granice izolacji kernela, presję na instalowanie poprawek i rolę mikroVM."
 genre: ["Bezpieczeństwo kontenerów", "Linux", "Bezpieczeństwo kernela", "Wirtualizacja", "Bezpieczeństwo chmury", "Badania zagrożeń", "Blue team", "DevSecOps"]
-tags: ["container escape", "granica bezpieczeństwa kontenerów", "Linux kernel CVE", "lokalne podniesienie uprawnień", "LPE 2026", "Copy Fail", "CVE-2026-31431", "Dirty Frag", "CVE-2026-43284", "CVE-2026-43500", "Fragnesia", "CVE-2026-46300", "CVE-2026-80521", "kernelCTF", "kvmCTF", "microVM", "Firecracker", "Kata Containers", "uszkodzenie page cache", "AF_ALG", "AF_UNIX", "XFRM ESP", "RxRPC", "izolacja przestrzeni nazw", "wywołanie systemowe clone", "wykrywanie podatności AI", "bezpieczeństwo Dockera", "bezpieczeństwo Kubernetes", "izolacja wielu dzierżawców", "ucieczka z sandboxa", "nsjail", "Bubblewrap", "Firejail", "Dirty Pipe", "trend CVE kernela"]
+tags: ["ucieczka z kontenera", "granica bezpieczeństwa kontenerów", "Linux kernel CVE", "lokalne podniesienie uprawnień", "LPE 2026", "Copy Fail", "CVE-2026-31431", "Dirty Frag", "CVE-2026-43284", "CVE-2026-43500", "Fragnesia", "CVE-2026-46300", "CVE-2026-80521", "kernelCTF", "kvmCTF", "microVM", "Firecracker", "Kata Containers", "uszkodzenie page cache", "AF_ALG", "AF_UNIX", "XFRM ESP", "RxRPC", "izolacja przestrzeni nazw", "wywołanie systemowe clone", "wykrywanie podatności AI", "bezpieczeństwo Dockera", "bezpieczeństwo Kubernetes", "izolacja wielu dzierżawców", "ucieczka z sandboxa", "nsjail", "Bubblewrap", "Firejail", "Dirty Pipe", "trend CVE kernela"]
 cover: "/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp"
 coverAlt: "Cyfrowa ilustracja wielu świecących kontenerów połączonych z centralnym symbolem kernela. Kolorowe elementy pokazują podatności rozchodzące się z kernela na ciemnym tle."
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Kontenery współdzielą jeden kernel. W 2026 roku cztery odrębne rodziny podatności pokazały, że pojedynczy błąd kernela wystarcza, by opuścić kontener i dostać się na hosta.** Copy Fail, Dirty Frag, Fragnesia i CVE-2026-80521 zapewniają uprawnienia roota nieuprzywilejowanemu użytkownikowi lokalnemu. Każda z nich przekracza granicę kontenera.
 
 *Najbardziej niepokojące nie są same błędy. Chodzi o to, jak tanio AI je teraz znajduje i jak jedna poprawka doprowadziła do kolejnego błędu.*
@@ -245,27 +244,27 @@ Wspólna zasada jest prosta. **Kontenery świetnie służą do pakowania aplikac
 Żadne z tych działań nie zastępuje granicy VM, ale każde usuwa łatwe ścieżki ataku:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Wyłącz niepotrzebne moduły wykorzystywane przez rodzinę page-cache
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Ogranicz nieuprzywilejowane przestrzenie nazw użytkowników, co blokuje warianty ESP
+# Debian i Ubuntu: to częściowe ograniczenie skutków, nie pełne rozwiązanie
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# Przy podejrzeniu wykorzystania opróżnij page cache, aby usunąć zmodyfikowane pliki binarne z pamięci
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Wstępne sygnały wykrywania
+- Nieoczekiwane unshare(CLONE_NEWUSER) z obciążenia bez uzasadnionego powodu
+- Aktywność NETLINK_XFRM lub skojarzenia bezpieczeństwa XFRM poza hostami IPsec
+- Żądania powiązania gniazd AF_ALG
+- Ładowanie esp4, esp6 lub rxrpc na hostach bez IPsec i AFS
 ```
 
 > **Ostrzeżenie: `drop_caches` usuwa zmodyfikowaną kopię z pamięci i tym samym czyści uszkodzenie, ale nie usuwa atakującego, który uzyskał już roota. Traktuj to jako reagowanie na incydent, a nie naprawę.**

@@ -48,7 +48,7 @@ Agora que você entende os benefícios da regra de backup 3-2-1, é hora de impl
 
 - **Escolha seus tipos de armazenamento**: para implementar a regra de backup 3-2-1, você precisa escolher dois tipos de armazenamento diferentes. Algumas opções populares incluem discos rígidos externos, serviços de armazenamento em nuvem e dispositivos de armazenamento conectado à rede (NAS). Considere a quantidade de dados que você precisa para fazer backup e escolha os tipos de armazenamento que podem atender às suas necessidades.
 
-- **Automatize seus backups**: a criação manual de backups pode ser demorada e sujeita a erros. Em vez disso, considere automatizar seus backups usando um software de backup. Muitas opções de software de backup estão disponíveis, gratuitas e pagas. Algumas opções populares incluem [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), and [Carbonite](https://www.carbonite.com/)
+- **Automatize seus backups**: a criação manual de backups pode ser demorada e sujeita a erros. Em vez disso, considere automatizar seus backups usando um software de backup. Muitas opções de software de backup estão disponíveis, gratuitas e pagas. Algumas opções populares incluem [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), e [Carbonite](https://www.carbonite.com/).
 
 - **Teste seus backups**: Criar backups é apenas o primeiro passo. É essencial testar regularmente seus backups para garantir que seus dados sejam recuperáveis em caso de perda de dados. Certifique-se de ter um plano para testar seus backups, seja um processo manual ou automatizado.
 

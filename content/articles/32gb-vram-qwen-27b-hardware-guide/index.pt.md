@@ -30,7 +30,7 @@ Um contexto de 128K tokens adiciona outra grande alocação. O tamanho exato do 
 | **24GB discrete GPU** | Pesos de 4 bits com contexto reduzido ou offload parcial |
 | **32GB discrete GPU** | Pesos de 6 bits com uma meta útil de contexto 128K |
 | **Duas GPUs de 16GB** | Modelo dividido com menos margem para overhead do runtime |
-| **64GB unified memory** | Contextos e modelos maiores, sujeitos ao limite de alocação da memória da GPU |
+| **64 GB de memória unificada** | Contextos e modelos maiores, sujeitos ao limite de alocação da memória da GPU |
 
 **32 GB é um ponto de dimensionamento, não uma garantia.** O modelo pode carregar e ainda deixar pouco espaço para um prompt longo, um batch maior, entradas multimodais ou um segundo processo.
 

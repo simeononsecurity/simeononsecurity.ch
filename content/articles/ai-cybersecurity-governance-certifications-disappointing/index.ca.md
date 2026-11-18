@@ -3,7 +3,7 @@ title: "Certificacions de ciberseguretat en IA: no segueixen el ritme"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Una opinió sobre la distància entre les certificacions de governança d'IA i la pràctica de seguretat, basada en l'experiència amb certificacions i els límits actuals de la superfície d'atac."
 tags: ["Seguretat de la IA", "Governança de la IA", "Certificacions d'IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injecció de prompt", "Ciberseguretat de la IA", "Seguretat dels LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestió dels riscos d'IA", "Compliment d'IA", "Seguretat de l'aprenentatge automàtic", "Cadena de subministrament de models", "IA adversària", "Agents d'IA", "Seguretat MCP", "Red teaming d'IA", "Certificacions de governança d'IA", "IA agèntica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

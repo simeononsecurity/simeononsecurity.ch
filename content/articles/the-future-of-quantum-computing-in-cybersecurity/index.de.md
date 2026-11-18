@@ -1,10 +1,11 @@
 ---
 title: "Die Zukunft der Quanteninformatik und Cybersicherheit"
 date: 2023-03-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Erforschen Sie die Zukunft der Quanteninformatik und ihre Auswirkungen auf die Cybersicherheit, einschließlich Post-Quantum-Kryptographie und Schwachstellen klassischer kryptographischer Algorithmen."
-tags: ["Quantencomputer", "Cybersecurity", "Qubits", "RSA", "ECC", "Post-Quantum-Kryptographie", "Quanten-Tempern", "Quantenvorherrschaft", "Überlagerung", "Entanglement", "Kryptographische Algorithmen", "Digitale Infrastruktur", "Optimierungsprobleme", "Tech-Giganten", "Forschung und Entwicklung", "Dekohärenz", "Online-Transaktionen", "Sicheres Messaging", "Onlinebanking", "Entdeckung von Arzneimitteln"]
+tags: ["Quantencomputer", "Cybersicherheit", "Quantenbits", "RSA", "ECC", "Post-Quantum-Kryptographie", "Quanten-Tempern", "Quantenvorherrschaft", "Überlagerung", "Verschränkung", "Kryptographische Algorithmen", "Digitale Infrastruktur", "Optimierungsprobleme", "Tech-Giganten", "Forschung und Entwicklung", "Dekohärenz", "Online-Transaktionen", "Sicheres Messaging", "Onlinebanking", "Entdeckung von Arzneimitteln"]
 cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Ein animiertes Bild eines Hackers, der versucht, in ein durch RSA-Verschlüsselung geschütztes Computersystem einzudringen, aber scheitert, da ein Quantencomputer die Verschlüsselung in Sekundenschnelle im Hintergrund löst."
 coverCaption: ""
@@ -28,7 +29,7 @@ ______
 
 Die Quanteninformatik steckt noch in den Kinderschuhen, aber in den letzten Jahren wurden bedeutende Fortschritte erzielt. Technologiegiganten wie IBM, Google und Microsoft haben erhebliche Investitionen in das Quantencomputing getätigt, und die Forschung und Entwicklung in diesem Bereich hat stark zugenommen.
 
-Einer der bedeutendsten Durchbrüche im Quantencomputing ist die Entwicklung von **Quantum Annealing**, einer Methode zur Lösung von Optimierungsproblemen mit Hilfe von Qubits. Diese Methode hat das Potenzial, Bereiche wie das Finanzwesen, die Logistik und die Arzneimittelentdeckung zu revolutionieren.
+Einer der bedeutendsten Durchbrüche im Quantencomputing ist die Entwicklung des **Quantenannealings**, einer Methode zur Lösung von Optimierungsproblemen mit Hilfe von Qubits. Diese Methode hat das Potenzial, Bereiche wie das Finanzwesen, die Logistik und die Arzneimittelentdeckung zu revolutionieren.
 
 Eine weitere wichtige Entwicklung in der Quanteninformatik ist die **Quantenüberlegenheit**, d. h. die Fähigkeit eines Quantencomputers, eine Berechnung durchzuführen, die kein klassischer Computer in einer angemessenen Zeitspanne lösen kann. Im Jahr 2019 behauptete Google, die Quantenüberlegenheit erreicht zu haben, aber diese Behauptung wird von einigen Forschern bestritten.
 
@@ -42,11 +43,11 @@ Die Quanteninformatik hat das Potenzial, viele Bereiche zu revolutionieren, daru
 
 Einer der am weitesten verbreiteten kryptografischen Algorithmen ist **RSA**, der zur Sicherung von Online-Transaktionen, zum Schutz sensibler Daten und zur Authentifizierung von Benutzern verwendet wird. RSA basiert auf der Schwierigkeit, große Zahlen zu faktorisieren, und klassische Computer würden Milliarden von Jahren brauchen, um einen RSA-Verschlüsselungsschlüssel zu knacken. Ein Quantencomputer hingegen könnte denselben Schlüssel in Sekundenschnelle faktorisieren und damit RSA und andere ähnliche Algorithmen überflüssig machen.
 
-Ein weiterer kryptografischer Algorithmus, der für Quantencomputer anfällig ist, ist die **Elliptic Curve Cryptography (ECC)**, die in vielen Anwendungen, einschließlich sicherer Nachrichtenübermittlung und Online-Banking, eingesetzt wird. ECC basiert auf der Schwierigkeit, den diskreten Logarithmus einer zufälligen elliptischen Kurve zu finden, was für klassische Computer als rechnerisch schwierig gilt. Ein Quantencomputer könnte dieses Problem jedoch in Polynomialzeit lösen, was ECC anfällig für Quantenangriffe macht.
+Ein weiterer kryptografischer Algorithmus, der für Quantencomputer anfällig ist, ist die **elliptische Kurvenkryptografie (ECC)**, die in vielen Anwendungen, einschließlich sicherer Nachrichtenübermittlung und Online-Banking, eingesetzt wird. ECC basiert auf der Schwierigkeit, den diskreten Logarithmus einer zufälligen elliptischen Kurve zu finden, was für klassische Computer als rechnerisch schwierig gilt. Ein Quantencomputer könnte dieses Problem jedoch in Polynomialzeit lösen, was ECC anfällig für Quantenangriffe macht.
 
 ______
 
-## Post-Quantum-Kryptographie
+## Postquanten-Kryptografie
 
 Die Anfälligkeit klassischer kryptografischer Algorithmen gegenüber Quantencomputern hat zur Entwicklung der **Post-Quantum-Kryptografie** geführt, einem Zweig der Kryptografie, der darauf abzielt, Algorithmen zu entwickeln, die gegen Quantenangriffe resistent sind. Die Post-Quantum-Kryptografie nutzt mathematische Probleme, die sowohl für klassische als auch für Quantencomputer als schwer lösbar gelten, wie z. B. das Problem des **Lernens mit Fehlern** (LWE) und das Problem der **codebasierten Kryptografie** (CBC).
 
@@ -62,4 +63,4 @@ Da sich das Quantencomputing weiter entwickelt, ist es wichtig, über seine Fort
 ## Referenzen
 
 1. IBM Forschung. (n.d.). Quantencomputer. Abgerufen am 4. März 2023, von https://www.research.ibm.com/quantum-computing/
-2. National Institute of Standards and Technology. (n.d.). Post-Quantum Kryptographie Standardisierung. Abgerufen am 4. März 2023, von https://csrc.nist.gov/projects/post-quantum-cryptography
+2. National Institute of Standards and Technology. (n.d.). Post-Quantum Cryptography Standardization. Abgerufen am 4. März 2023, von https://csrc.nist.gov/projects/post-quantum-cryptography

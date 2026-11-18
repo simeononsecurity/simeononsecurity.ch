@@ -1,7 +1,7 @@
 ---
 title: "OpenCode contra Claude Code: comparació d'agents de programació de 2026"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compara OpenCode i Claude Code en elecció de models, inferència local, preus, permisos, instruccions del projecte i fluxos diaris de programació."
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+Fes servir les ordres de compilació i proves documentades del repositori.
+Conserva els canvis que no estiguin relacionats.
+Explica les fallades abans de canviar dependències.
+Revisa el diff final abans de fer el commit.
 ```
 
 **Les instruccions compartides redueixen el soroll de la comparació.** Mantén les ordres de compilació, les restriccions d'arquitectura i els criteris d'acceptació en un fitxer canònic. La [documentació de regles d'OpenCode](https://opencode.ai/docs/rules/) descriu `AGENTS.md` i un recurs alternatiu a `CLAUDE.md`. No donis per fet que tots els fitxers d'instruccions es combinen automàticament.

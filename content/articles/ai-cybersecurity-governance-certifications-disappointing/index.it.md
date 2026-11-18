@@ -3,7 +3,7 @@ title: "Certificazioni di cybersecurity AI: non tengono il passo"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Un'opinione sul divario tra le certificazioni di governance AI e la pratica della sicurezza AI, basata sull'esperienza di certificazione e sui limiti attuali della superficie di attacco."
 tags: ["Sicurezza AI", "Governance AI", "Certificazioni AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "prompt injection", "Cybersecurity AI", "Sicurezza LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestione dei rischi AI", "Conformità AI", "Sicurezza del machine learning", "Catena di fornitura dei modelli", "AI avversaria", "Agenti AI", "Sicurezza MCP", "Red teaming AI", "Certificazioni di governance AI", "AI agentica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

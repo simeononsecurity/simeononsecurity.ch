@@ -1,10 +1,11 @@
 ---
 title: "Démarrer avec Terraform pour Infrastructure as Code"
 date: 2023-05-04
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apprenez les bases de Terraform, un outil populaire d'infrastructure en tant que code, et comment l'utiliser pour gérer efficacement l'infrastructure."
-tags: ["Terraform", "L'infrastructure en tant que code", "IaC", "Informatique en nuage", "DevOps", "Automatisation", "AWS", "Azure", "Google Cloud", "Fournisseurs d'informatique en nuage", "Gestion de la configuration", "Déploiement", "Provisionnement", "Resource Management", "Évolutivité", "Résilience", "Sécurité", "Conformité", "Meilleures pratiques"]
+tags: ["Terraform", "L'infrastructure en tant que code", "IaC", "Informatique en nuage", "DevOps", "Automatisation", "AWS", "Azure", "Google Cloud", "Fournisseurs d'informatique en nuage", "Gestion de la configuration", "Déploiement", "Provisionnement", "Gestion des ressources", "Évolutivité", "Résilience", "Sécurité", "Conformité", "Meilleures pratiques"]
 cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Un écran d'ordinateur de bande dessinée avec de multiples appareils connectés au réseau apparaissant comme des blocs de construction ajoutés ou supprimés, signifiant la gestion de l'infrastructure avec Terraform."
 coverCaption: ""
@@ -32,11 +33,11 @@ L'utilisation de Teraform pour les applications d'infrastructure en tant que cod
 
 - La capacité de Teraform à provisionner et à déprovisionner facilement les ressources permet de réaliser des économies.
 
-## Getting Started with Teraform
+## Premiers pas avec Teraform
 
 Pour commencer avec Teraform, vous aurez besoin de :
 
-1. **Télécharger Teraform:** Teraform peut être téléchargé à partir de la page[official website](https://www.terraform.io/downloads.html)
+1. **Télécharger Teraform:** Teraform peut être téléchargé à partir de la page[site officiel](https://www.terraform.io/downloads.html)
 
 2. **Créer un fichier de configuration :** Teraform utilise des fichiers de configuration écrits en HashiCorp Configuration Language (HCL) ou en JSON. Le fichier de configuration définit l'infrastructure que vous souhaitez créer, mettre à jour ou supprimer.
 
@@ -154,6 +155,6 @@ Teraform est un puissant outil d'infrastructure en tant que code qui permet une 
 
 **Références:**
 
--[Teraform Official Website](https://www.terraform.io/)
--[Teraform Documentation](https://www.terraform.io/docs/index.html)
--[AWS Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)
+- [Site officiel de Teraform](https://www.terraform.io/)
+- [Documentation de Teraform](https://www.terraform.io/docs/index.html)
+- [Bonnes pratiques AWS en matière de sécurité, d’identité et de conformité](https://aws.amazon.com/architecture/security-identity-compliance/)

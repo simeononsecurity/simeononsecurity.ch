@@ -1,7 +1,7 @@
 ---
 title: "El 2026, els contenidors ja no són una frontera de seguretat"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Les vulnerabilitats del nucli del 2026 mostren per què l’aïllament de contenidors multiinquilí no és suficient. Coneix Copy Fail, Dirty Frag, Fragnesia i CVE-2026-80521, i compara els contenidors reforçats amb les fronteres de microVM."
@@ -12,7 +12,6 @@ coverAlt: "Il·lustració digital de diversos contenidors brillants connectats a
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Els contenidors comparteixen un únic nucli. El 2026, quatre famílies independents de vulnerabilitats han demostrat que un sol error al nucli és suficient per sortir d’un contenidor i arribar a l’amfitrió.** Copy Fail, Dirty Frag, Fragnesia i CVE-2026-80521 donen privilegis root a un usuari local sense privilegis. Totes travessen la frontera del contenidor.
 
 *La part preocupant no són els errors en si. És el baix cost amb què la IA els troba ara i com un pedaç en va crear un altre.*
@@ -245,27 +244,27 @@ El principi comú és simple. **Els contenidors són una eina excel·lent per em
 Res d’això substitueix la frontera d’una VM, però elimina vies fàcils:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Desactiva els mòduls que explota la família page-cache quan no calguin
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Restringeix els espais de noms d’usuari sense privilegis, que bloquegen les variants ESP
+# Debian i Ubuntu: és una mitigació parcial, no completa
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# Si se sospita d’una explotació, buida la memòria cau de pàgines per descartar els binaris modificats en memòria
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Indicadors inicials de detecció
+- Ús inesperat d’unshare(CLONE_NEWUSER) des d’una càrrega sense cap motiu legítim
+- Activitat NETLINK_XFRM o associacions de seguretat XFRM fora dels amfitrions IPsec
+- Sol·licituds per associar sòcols AF_ALG
+- Càrrega d’esp4, esp6 o rxrpc en amfitrions que no executen ni IPsec ni AFS
 ```
 
 > **Avís: `drop_caches` descarta la còpia modificada en memòria i n’elimina la corrupció, però no expulsa un atacant que ja ha obtingut root. Tracta’l com a resposta a incidents, no com a correcció.**

@@ -1,17 +1,16 @@
 ---
 title: "Ansible vs Puppet vs Chef 2026: управление конфигурацией"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Сравнение Ansible, Puppet и Chef в 2026 году: архитектура, функции, обучение, производительность, цены и сценарии использования."
 genre: ["DevOps", "Автоматизация инфраструктуры", "Управление конфигурацией", "ИТ-операции", "Облачные вычисления", "Системное администрирование", "Корпоративные ИТ", "Разработка ПО", "ИТ-инфраструктура", "Инструменты автоматизации"]
-tags: ["ansible vs puppet", "ansible vs chef", "puppet vs chef", "управление конфигурацией", "infrastructure as code", "инструменты devops", "сравнение автоматизации", "ansible", "puppet", "chef", "автоматизация инфраструктуры", "инструменты управления конфигурацией 2026", "автоматизация devops", "конфигурация серверов", "управление инфраструктурой", "функции ansible", "функции puppet", "функции chef", "системы управления конфигурацией", "автоматизация ИТ", "оркестрация инфраструктуры", "декларативная конфигурация", "процедурная конфигурация", "автоматизация без агентов", "автоматизация с агентами", "playbook ansible", "манифесты puppet", "рецепты chef", "лучшие практики devops", "развертывание инфраструктуры", "дрейф конфигурации", "идемпотентная конфигурация", "ansible tower", "puppet enterprise", "chef automate", "сравнение платформ автоматизации", "сравнение сложности обучения", "выбор инструментов devops", "корпоративная автоматизация"]
+tags: ["Ansible и Puppet: сравнение", "Ansible и Chef: сравнение", "Puppet и Chef: сравнение", "управление конфигурацией", "инфраструктура как код", "инструменты devops", "сравнение автоматизации", "ansible", "puppet", "chef", "автоматизация инфраструктуры", "инструменты управления конфигурацией 2026", "автоматизация devops", "конфигурация серверов", "управление инфраструктурой", "функции ansible", "функции puppet", "функции chef", "системы управления конфигурацией", "автоматизация ИТ", "оркестрация инфраструктуры", "декларативная конфигурация", "процедурная конфигурация", "автоматизация без агентов", "автоматизация с агентами", "playbook ansible", "манифесты puppet", "рецепты chef", "лучшие практики devops", "развертывание инфраструктуры", "дрейф конфигурации", "идемпотентная конфигурация", "ansible tower", "puppet enterprise", "chef automate", "сравнение платформ автоматизации", "сравнение сложности обучения", "выбор инструментов devops", "корпоративная автоматизация"]
 cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "Иллюстрация футуристического центра обработки данных с тремя секциями для Ansible, Puppet и Chef. В каждой секции показана своя архитектура системы со светящимися соединениями на тёмном фоне."
 coverCaption: "Выберите подходящий инструмент управления конфигурацией для своей инфраструктуры"
 ---
-
 ## Ansible vs Puppet vs Chef 2026: полное сравнение средств управления конфигурацией
 
 В 2026 году **управление конфигурацией** по-прежнему важно для эксплуатации современной инфраструктуры в больших масштабах. **Ansible**, **Puppet** и **Chef** занимают ведущие позиции на корпоративном рынке. Эти инструменты поддерживают **Infrastructure as Code (IaC)** и позволяют командам автоматизировать настройку серверов, развертывание приложений и оркестрацию инфраструктуры на тысячах систем.
@@ -147,23 +146,23 @@ coverCaption: "Выберите подходящий инструмент упр
 **Пример** (установка и запуск Apache):
 ```yaml
 ---
-- name: Configure web servers
+- name: Настроить веб-серверы
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: Установить Apache
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: Запустить службу Apache
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: Развернуть веб-сайт
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -187,19 +186,19 @@ coverCaption: "Выберите подходящий инструмент упр
 **Пример** (та же настройка Apache):
 ```puppet
 class apache {
-  # Install Apache package
+  # Установить пакет Apache
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # Развернуть файл веб-сайта
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -229,20 +228,20 @@ node 'webserver.example.com' {
 
 **Пример** (та же настройка Apache):
 ```ruby
-# Recipe: apache::default
+# Рецепт: apache::default
 
-# Install Apache package
+# Установить пакет Apache
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# Запустить и включить службу Apache
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# Развернуть файл веб-сайта
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -529,7 +528,7 @@ end
 
 **Подход Ansible**:
 ```yaml
-- name: Manage web server fleet
+- name: Управлять парком веб-серверов
   hosts: webservers
   become: yes
   roles:
@@ -537,7 +536,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: Развернуть приложение
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -550,7 +549,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -562,7 +561,7 @@ node /webserver\d+/ {
 
 **Подход Chef**:
 ```ruby
-# Role: webserver
+# Роль: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -570,7 +569,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# Рецепт: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

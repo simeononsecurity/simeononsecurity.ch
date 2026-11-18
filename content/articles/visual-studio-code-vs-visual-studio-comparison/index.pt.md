@@ -247,29 +247,29 @@ ______
 
 ### Escolha Visual Studio Code Se:
 
-✅ **Você desenvolve aplicações web** - React, Vue, Angular, Node.js  
-✅ **Você trabalha com linguagens de script** - Python, JavaScript, PHP, Ruby  
-✅ **Você precisa de desenvolvimento multiplataforma** - Linux, macOS, Windows  
-✅ **Você valoriza velocidade e ferramentas leves** - Edições rápidas, inicialização rápida  
-✅ **Você trabalha com cloud e DevOps** - Docker, Kubernetes, Azure Functions  
-✅ **Você tem orçamento limitado** - Sempre gratuito, sem custos de licença  
-✅ **Você quer personalização** - 30.000+ extensões  
-✅ **Você programa em múltiplas máquinas** - Sincronização de configurações entre dispositivos  
-✅ **Você prefere projetos baseados em pastas** - Repositórios Git, microsserviços  
-✅ **Você é estudante ou hobbyista** - Aprendizado, projetos pessoais  
+✅ **Você desenvolve aplicações web** - React, Vue, Angular, Node.js
+✅ **Você trabalha com linguagens de script** - Python, JavaScript, PHP, Ruby
+✅ **Você precisa de desenvolvimento multiplataforma** - Linux, macOS, Windows
+✅ **Você valoriza velocidade e ferramentas leves** - Edições rápidas, inicialização rápida
+✅ **Você trabalha com cloud e DevOps** - Docker, Kubernetes, Azure Functions
+✅ **Você tem orçamento limitado** - Sempre gratuito, sem custos de licença
+✅ **Você quer personalização** - 30.000+ extensões
+✅ **Você programa em múltiplas máquinas** - Sincronização de configurações entre dispositivos
+✅ **Você prefere projetos baseados em pastas** - Repositórios Git, microsserviços
+✅ **Você é estudante ou hobbyista** - Aprendizado, projetos pessoais
 
 ### Escolha Visual Studio Se:
 
-✅ **Você desenvolve aplicações .NET** - C#, ASP.NET, Blazor, WPF, WinForms  
-✅ **Você cria aplicações desktop** - Apps Windows, WPF, UWP  
-✅ **Você desenvolve apps móveis** - Xamarin, .MAUI  
-✅ **Você cria jogos** - Unity, Unreal Engine C++  
-✅ **Você trabalha em soluções empresariais grandes** - Bases de código multi-projeto  
-✅ **Você precisa de depuração/perfilagem avançada** - Otimização de desempenho, análise de memória  
-✅ **Você desenvolve aplicações C++** - Windows, jogos, programação de sistemas  
-✅ **Você usa Designers Visuais** - Forms, XAML, designers de banco de dados  
-✅ **Você precisa de ferramentas de arquitetura** - Mapas de código, grafos de dependência (Enterprise)  
-✅ **Você faz parte de uma grande equipe de desenvolvimento** - ALM empresarial, integração Azure DevOps  
+✅ **Você desenvolve aplicações .NET** - C#, ASP.NET, Blazor, WPF, WinForms
+✅ **Você cria aplicações desktop** - Apps Windows, WPF, UWP
+✅ **Você desenvolve apps móveis** - Xamarin, .MAUI
+✅ **Você cria jogos** - Unity, Unreal Engine C++
+✅ **Você trabalha em soluções empresariais grandes** - Bases de código multi-projeto
+✅ **Você precisa de depuração/perfilagem avançada** - Otimização de desempenho, análise de memória
+✅ **Você desenvolve aplicações C++** - Windows, jogos, programação de sistemas
+✅ **Você usa Designers Visuais** - Forms, XAML, designers de banco de dados
+✅ **Você precisa de ferramentas de arquitetura** - Mapas de código, grafos de dependência (Enterprise)
+✅ **Você faz parte de uma grande equipe de desenvolvimento** - ALM empresarial, integração Azure DevOps
 
 ### Abordagem Híbrida: Use Ambos
 

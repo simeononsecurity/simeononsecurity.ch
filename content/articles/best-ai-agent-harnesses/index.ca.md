@@ -1,7 +1,7 @@
 ---
 title: "Els millors harnesses d'agents d'IA el 2026: tria segons el flux de treball"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compara Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi i LangGraph segons l'execució d'eines, la memòria, la recuperació i l'esforç d'integració."
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Components metàl·lics modulars connectats a un processador central lluminós amb camins turquesa i taronja sobre una superfície de treball fosca"
 coverCaption: "Il·lustració conceptual dels components que envolten un model d'IA."
 ---
-
 **Deep Agents és la meva primera opció per a un agent general amb models configurables i gestió del context integrada.** Claude Agent SDK encaixa bé per incrustar el comportament d'execució de Claude Code. OpenAI Agents SDK i Pydantic AI mereixen una prova per a agents específics d'una aplicació, mentre Pi prioritza un nucli petit i extensible i LangGraph prioritza el control explícit del flux de treball.
 
 **La millor opció depèn del treball que vulguis acceptar.** Un assistent de recerca, un editor de repositoris i un servei que processa sol·licituds de clients necessiten eines i regles de recuperació diferents. Aquestes recomanacions són judicis editorials basats en documentació oficial revisada el **10 d'octubre de 2026**, no resultats d'un benchmark pràctic de rendiment.
@@ -32,7 +31,7 @@ Un **harness d'agent és el programari que envolta una crida al model.** Prepara
 
 Un **model** proposa la següent acció. Una **eina** executa una operació. Un **runtime** executa i conserva el flux de treball. Aquestes responsabilitats se solapen en productes empaquetats, però separar-les ajuda a identificar capacitats que falten.
 
-| Component | Pregunta que cal fer |
+| Element | Pregunta que cal fer |
 |---|---|
 | **Gestió del context** | Quins requisits sobreviuen a una execució llarga? |
 | **Execució d'eines** | Qui valida els arguments i limita l'autoritat? |
@@ -160,7 +159,7 @@ Per a un **agent il·lustratiu de revisió de factures**, la validació de l'esq
 **No forcis configuracions no compatibles en la línia controlada.** Si dos candidats no comparteixen model o interfície d'eines, presenta la comparació com una avaluació del sistema. Conserva en el registre l'esforç de configuració i la direcció humana.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Registre de prova il·lustratiu, no és un fitxer de configuració d’un framework
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

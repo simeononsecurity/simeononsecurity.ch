@@ -1,7 +1,7 @@
 ---
 title: "Colaboración de IA en GitHub: límites del repositorio y de la revisión"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Crea un mapa de fuentes basado en GitHub, asigna propietarios de archivos y establece un límite de publicación protegido para contribuciones de IA revisadas."
@@ -55,7 +55,7 @@ El comando clone debe dar nombre al directorio del repositorio. Si `unzip` no es
 
 ```bash
 git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
-git commit -m "Add synthetic collaboration baseline"
+git commit -m "Añadir una base sintética de colaboración"
 git push origin main
 git status --short
 git remote -v

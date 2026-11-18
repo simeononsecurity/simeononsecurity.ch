@@ -1,6 +1,7 @@
 ---
 title: "Soluții cloud securizate: AWS vs. Azure vs. Google Cloud Platform - Alegerea celei mai bune soluții pentru afacerea dvs"
 date: 2023-07-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Descoperiți principalele caracteristici și certificări de securitate în cloud de la AWS, Azure și Google Cloud Platform pentru a alege cea mai bună soluție de cloud securizată pentru afacerea dumneavoastră."
@@ -135,7 +136,7 @@ Respectarea conformității cu reglementările este crucială pentru întreprind
 
 #### Prețuri și comparație a costurilor
 
-În ceea ce privește prețurile, fiecare platformă oferă scheme de tarifare diferite și variază în funcție de utilizare și de numărul de caracteristici utilizate. **AWS**, de exemplu, oferă mai multe scheme de tarifare diferite, inclusiv instanțe la cerere, instanțe rezervate și instanțe punctuale. **Azure** oferă prețuri avantajoase și reduceri pentru contractele pe termen lung, ceea ce o face o alegere populară pentru companiile care au nevoie de o structură de costuri stabilă și previzibilă. **Google Cloud Platform** oferă prețuri de tip "pay-as-you-go" și reduceri pentru contracte pe termen lung, ceea ce o face o alegere populară pentru întreprinderile care necesită flexibilitate și scalabilitate.
+În ceea ce privește prețurile, fiecare platformă oferă scheme de tarifare diferite și variază în funcție de utilizare și de numărul de caracteristici utilizate. **AWS**, de exemplu, oferă mai multe scheme de tarifare diferite, inclusiv instanțe la cerere, instanțe rezervate și instanțe punctuale. **Azure** oferă prețuri avantajoase și reduceri pentru contractele pe termen lung, ceea ce o face o alegere populară pentru companiile care au nevoie de o structură de costuri stabilă și previzibilă. **Google Cloud Platform** oferă prețuri în funcție de utilizare și reduceri pentru contracte pe termen lung, ceea ce o face o alegere populară pentru întreprinderile care necesită flexibilitate și scalabilitate.
 
 Este important să luați în considerare atât prețurile, cât și caracteristicile de securitate oferite de fiecare platformă pentru a lua o decizie în cunoștință de cauză. În cele din urmă, cea mai bună alegere va depinde de nevoile și cerințele unice ale afacerii dumneavoastră.
 
@@ -154,7 +155,7 @@ Securitatea | Caracteristici de securitate robuste | Caracteristici de securitat
 | standarde și certificări | certificări | management și |
 | (HIPAA, PCI DSS, SOC etc.) | (HIPAA, ISO/IEC 27001, SOC) | module de securitate hardware |
 | (HSM-uri) |
-| Prețuri | Scheme multiple de prețuri | Prețuri rentabile și | Prețuri de tip "Pay-as-you-go" și |
+| Prețuri | Scheme multiple de prețuri | Prețuri rentabile și | Prețuri în funcție de utilizare și |
 | (la cerere, rezervată, cu reduceri pe termen lung, cu reduceri pe termen lung).
 | | instanțe, instanțe spot) | contracte | contracte | contracte |
 | | | | |

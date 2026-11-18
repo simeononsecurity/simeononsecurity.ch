@@ -1,7 +1,7 @@
 ---
 title: "স্থানীয় AI বনাম ChatGPT: আমরা আসলে কতটা কাছাকাছি?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "বেঞ্চমার্ক স্কোর, মেমরি অনুমান, সার্ভিং গতি এবং এজেন্ট যাচাইয়ের মাধ্যমে স্থানীয় AI-এর সঙ্গে ChatGPT ও Claude-এর তুলনা করুন। RTX 5090, DGX Spark এবং Mac Studio-এর পরিস্থিতিও অন্তর্ভুক্ত।"
@@ -78,7 +78,7 @@ coverCaption: "স্থানীয় এবং হোস্টেড AI-এ�
 **Qwen attention cache** একটি হিসাবের উদাহরণ। এর [প্রকাশিত কনফিগারেশন](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json)-এ ৬৪ স্তর, প্রতি চতুর্থ স্তরে full attention, চারটি key-value head এবং ২৫৬ head dimension আছে।
 
 ```text
-Full-attention KV bytes per token:
+প্রতি টোকেনে পূর্ণ-অ্যাটেনশন KV বাইট:
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -118,7 +118,7 @@ Full-attention KV bytes per token:
 
 **Artificial Analysis local inference benchmark** ১৬৮ model turn-এর recorded workload replay করে। [Laptop এবং workstation results](https://artificialanalysis.ai/hardware-inference-stack/laptops-workstations/) পরীক্ষিত Qwen3.8 27B configuration-এর সময় দেখায়।
 
-| সিস্টেম | Serving replay time |
+| সিস্টেম | পরিবেশন পুনঃচালনার সময় |
 |---|---|
 | **DGX Spark, 128 GB** | 24.2 মিনিট |
 | **RTX 5090** | 4.9 মিনিট |
@@ -128,7 +128,7 @@ RTX ফল Spark সময়ের প্রায় এক-পঞ্চমা
 
 **Replay timing** tool execution বাদ দেয় এবং recorded response length চাপিয়ে দেয়। এটি উত্তরটি মূল কাজ সমাধান করেছে কি না মাপে না। MacBook measurement Mac Studio performance প্রমাণ করে না।
 
-## এজেন্টকে feedback দিন
+## এজেন্টকে প্রতিক্রিয়া দিন
 
 একটি **agent execution system** tool, context, action loop এবং verification দেয়। মডেল ওই ব্যবস্থার মধ্যে action লেখে বা বেছে নেয়। CSV export-এ project file পড়া, code বদলানো, test চালানো এবং error পাওয়া দরকার।
 
@@ -145,7 +145,7 @@ RTX ফল Spark সময়ের প্রায় এক-পঞ্চমা
 
 এটি **vendor-reported evidence**, ছোট local model frontier model-এর সমান এমন প্রমাণ নয়। সীমিত সিদ্ধান্ত হলো model selection একা agent outcome ব্যাখ্যা করে না। LangChain maximum reasoning সব সময় চালালে timeout-এর কারণে খারাপ ফলও জানায়।
 
-## কাজের সঙ্গে checks মেলান
+## কাজের সঙ্গে যাচাই মিলিয়ে নিন
 
 একটি **passing check** কেবল তার coverage প্রমাণ করে। Column name যাচাই করা CSV test date format, quoting, Unicode এবং access control পরীক্ষা করে না। কী ফল চাই তা আগে নির্ধারণ করুন।
 
@@ -158,7 +158,7 @@ RTX ফল Spark সময়ের প্রায় এক-পঞ্চমা
 
 **τ-bench study** tool, user এবং domain rule-এর সঙ্গে কাজ করা agent পরীক্ষা করে। [Research paper](https://arxiv.org/abs/2406.12045) final database state expected outcome-এর সঙ্গে মিলিয়ে দেখে। তাই transaction-এর জন্য fluent confirmation যথেষ্ট নয়।
 
-## Local মানে offline নয়
+## স্থানীয় মানে অফলাইন নয়
 
 **Local inference** মডেল কোথায় চলে তা নিয়ন্ত্রণ করে। চারপাশের application এখনও ঠিক করে document, search query, trace এবং tool result কোথায় যায়। Remote search বা cloud tool-এ যুক্ত local coding model networked system।
 
@@ -167,9 +167,9 @@ Ollama বলে local execution-এ prompt বা answer পায় না �
 | Data path | কী পরীক্ষা করবেন |
 |---|---|
 | **Inference endpoint** | local process, remote server বা automatic fallback |
-| **Search and retrieval** | বাইরে পাঠানো query ও document fragment |
+| **অনুসন্ধান ও পুনরুদ্ধার** | বাইরে পাঠানো query ও document fragment |
 | **Tool connections** | প্রতিটি service-এ প্রকাশিত file ও record |
-| **Logs and traces** | storage location, retained content এবং access |
+| **লগ ও ট্রেস** | storage location, retained content এবং access |
 
 একটি **hybrid workflow**-এর স্পষ্ট handoff rule দরকার। Private document extraction local রাখুন, approved aggregate result-ই hosted analysis-এ পাঠান। বাইরে যাওয়া উপাদান পরীক্ষা করুন। Name, customer detail বা confidential finding থাকলে summary-ও sensitive।
 
@@ -185,13 +185,13 @@ Ollama বলে local execution-এ prompt বা answer পায় না �
 
 **Local inference** উপযুক্ত যখন measured quality ও latency আপনার চাহিদা পূরণ করে। অতিরিক্ত capability failure বা review effort কমালে hosted model উপকারী থাকে। কোন data machine-এর বাইরে যাবে তা ঠিক করে hybrid workflow task ভাগ করে।
 
-## Accepted result প্রতি খরচ গুনুন
+## গৃহীত ফলাফলের খরচ হিসাব করুন
 
 **Human repair time** অর্থনীতিকে বদলে দেয়। দশ মিনিট correction দরকার এমন দ্রুত local response, review পাস করা ধীর response-এর চেয়ে বেশি কাজের সময় খরচ করে। Inference expense-এর সঙ্গে accepted result গুনুন।
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
+গৃহীত প্রতিটি কাজের খরচ =
+(হার্ডওয়্যার বরাদ্দ + বিদ্যুৎ + পরিষেবা ফি + রক্ষণাবেক্ষণ + পর্যালোচনার সময়)
 ÷ accepted tasks
 ```
 
@@ -213,4 +213,4 @@ Hardware-এর জন্য [local model, GPU এবং context guide](/article
 - **Unsloth:** [Qwen GGUF বিল্ড](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) এবং [GLM GGUF বিল্ড](https://huggingface.co/unsloth/GLM-5.3-GGUF/tree/main)।
 - **Ollama:** [runtime, memory এবং privacy documentation](https://docs.ollama.com/faq)।
 - **LangChain:** [agent engineering ফল](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)।
-- **τ-bench:** [tool-agent-user evaluation research](https://arxiv.org/abs/2406.12045)।
+- **τ-bench:** [টুল-এজেন্ট-ব্যবহারকারী মূল্যায়ন গবেষণা](https://arxiv.org/abs/2406.12045)।

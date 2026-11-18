@@ -1,7 +1,7 @@
 ---
 title: "Costruire contenitori Docker efficienti e sicuri: Una guida per principianti"
 date: 2023-02-24
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Imparate a creare contenitori Docker efficienti e sicuri utilizzando le migliori pratiche, i suggerimenti e le istruzioni passo-passo di questa guida completa."
@@ -82,7 +82,7 @@ Ogni riga del file Docker crea un nuovo livello nell'immagine Docker e ogni live
 
 Es:
 ```dockerfile
-RUN apt update 
+RUN apt update
 RUN apt install apache -y
 ```
 vs
@@ -101,22 +101,22 @@ docker run -e PORT=3000 my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# Imposta la directory di lavoro
 WORKDIR /app
 
-# Copy package.json and yarn.lock to the container
+# Copia package.json e yarn.lock nel container
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Installa le dipendenze
 RUN yarn install --frozen-lockfile
 
-# Copy the application code to the container
+# Copia il codice dell’applicazione nel container
 COPY . .
 
-# Expose the application port
+# Espone la porta dell’applicazione
 EXPOSE $PORT
 
-# Start the application
+# Avvia l’applicazione
 CMD ["yarn", "start"]
 ```
 
@@ -133,25 +133,25 @@ docker run -v /home/user/app/data:/app/data my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# Imposta la directory di lavoro
 WORKDIR /app
 
-# Copy the package.json and yarn.lock files to the container
+# Copia i file package.json e yarn.lock nel container
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# Installa le dipendenze
 RUN yarn install --frozen-lockfile
 
-# Copy the rest of the application code to the container
+# Copia il resto del codice dell’applicazione nel container
 COPY . .
 
-# Expose the application port
+# Espone la porta dell’applicazione
 EXPOSE 3000
 
-# Start the application
+# Avvia l’applicazione
 CMD ["yarn", "start"]
 
-# Mount a volume for the application data
+# Monta un volume per i dati dell’applicazione
 VOLUME ["/app/data"]
 ```
 
@@ -163,25 +163,25 @@ Es:
 ```Dockerfile
 FROM node:14
 
-# Create a new user to run the container
+# Crea un utente per eseguire il container
 RUN useradd --user-group --create-home --shell /bin/false app
 
-# Change the working directory to the app user's home directory
+# Cambia la directory di lavoro nella home dell’utente dell’app
 WORKDIR /home/app
 
-# Install dependencies as the app user
+# Installa le dipendenze come utente dell’app
 COPY package.json yarn.lock ./
 RUN chown -R app:app /home/app
 USER app
 RUN yarn install --frozen-lockfile --production
 
-# Copy the application code as the app user
+# Copia il codice come utente dell’app
 COPY --chown=app:app . .
 
-# Expose the port
+# Espone la porta
 EXPOSE 3000
 
-# Start the application as the app user
+# Avvia l’applicazione come utente dell’app
 CMD ["yarn", "start"]
 ```
 
@@ -193,19 +193,19 @@ Es:
 ```Dockerfile
 FROM ubuntu:latest
 
-# Update the package list and install security updates
+# Aggiorna l’elenco dei pacchetti e installa gli aggiornamenti di sicurezza
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
-# Install the nginx web server
+# Installa il server Web nginx
 RUN apt-get install -y nginx
 
-# Copy the application code to the container
+# Copia il codice dell’applicazione nel container
 COPY . /var/www/html/
 
-# Expose port 80 to the host system
+# Espone la porta 80 al sistema host
 EXPOSE 80
 
-# Start the nginx server
+# Avvia il server nginx
 CMD ["nginx", "-g", "daemon off;"]
 
 ```

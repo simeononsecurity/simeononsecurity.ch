@@ -3,7 +3,7 @@ title: "La ciberseguridad de IA y las certificaciones de gobernanza no están al
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Una opinión profesional sobre la brecha entre las certificaciones de gobernanza de IA y la práctica real de seguridad de IA. Aprobamos varias de ellas y salimos decepcionados. Los marcos son incipientes y están orientados a la gobernanza. La superficie de ataque creció más rápido."
 tags: ["seguridad IA", "gobernanza IA", "certificaciones IA", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "inyección de prompt", "ciberseguridad IA", "seguridad LLM", "OWASP LLM Top 10", "MITRE ATLAS", "gestión de riesgos IA", "cumplimiento IA", "seguridad machine learning", "cadena de suministro de modelos", "IA adversarial", "agentes IA", "seguridad MCP", "red teaming IA", "certificaciones gobernanza IA", "IA agéntica", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

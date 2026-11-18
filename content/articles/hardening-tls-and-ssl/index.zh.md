@@ -1,7 +1,7 @@
 ---
 title: "禁用 SSL 和 TLS 1.1 及更早版本以加固计算机安全"
 date: 2023-02-08
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "停用 SSL 和旧版 TLS，同时保留 TLS 1.2 或更新版本。本文介绍 Windows Schannel、.NET 和 Linux 服务。"
@@ -42,17 +42,17 @@ Function Disable-Protocol {
     Set-ItemProperty -Path $ClientPath -Force -Name Enabled -Type "DWORD" -Value 0
     Set-ItemProperty -Path $ClientPath -Force -Name DisabledByDefault -Type "DWORD" -Value 1
 }
-# Disable SSL v2
+# 禁用 SSL v2
 Disable-Protocol -Protocol "SSL 2.0"
-# Disable SSL v3
+# 禁用 SSL v3
 Disable-Protocol -Protocol "SSL 3.0"
-# Disable TLS 1.0
+# 禁用 TLS 1.0
 Disable-Protocol -Protocol "TLS 1.0"
-# Disable DTLS 1.0
+# 禁用 DTLS 1.0
 Disable-Protocol -Protocol "DTLS 1.0"
-# Disable TLS 1.1
+# 禁用 TLS 1.1
 Disable-Protocol -Protocol "TLS 1.1"
-# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
+# 不存在 DTLS 1.1 协议。RFC 8996 弃用 DTLS 1.0，并保留 DTLS 1.2。
 
 function Set-NETStrongAuthentication {
     param(

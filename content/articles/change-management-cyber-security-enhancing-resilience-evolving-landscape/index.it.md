@@ -1,7 +1,7 @@
 ---
 title: "Rafforzare la resilienza informatica con la gestione delle modifiche"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Scopri l'importanza della gestione delle modifiche nella sicurezza informatica e come rafforzare la resilienza nel panorama delle minacce in evoluzione."

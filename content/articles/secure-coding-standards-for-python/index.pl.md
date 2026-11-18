@@ -1,7 +1,7 @@
 ---
 title: "Standardy bezpiecznego kodowania dla Pythona: Najlepsze praktyki"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Poznaj najlepsze praktyki bezpiecznego kodowania w Pythonie, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Funkcja do walidacji danych wejściowych za pomocą wyrażeń regularnych.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python posiada kilka funkcji, które mogą być podatne na problemy bezpieczeńs
 
 Na przykład, zamiast używać`eval()` aby przekonwertować ciąg znaków na liczbę całkowitą, programiści powinni użyć funkcji`int()` funkcja.
 ```py
-# Instead of using eval function
+# Zamiast używać funkcji eval
 x = eval('10')
 
-# Use int function
+# Użyj funkcji int
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Funkcja do szyfrowania hasła za pomocą biblioteki kryptograficznej.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ Aplikacje internetowe są podatne na kilka zagrożeń bezpieczeństwa, takich ja
 Na przykład, podczas pisania zapytań SQL, używaj **parametrycznych zapytań** zamiast konkatenacji danych wejściowych użytkownika z zapytaniem. Zapytania parametryzowane zapobiegają atakom typu SQL injection poprzez traktowanie danych wejściowych użytkownika jako danych, a nie kodu wykonywalnego.
 
 ```py
-# Instead of this
+# Zamiast tego
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Użyj sparametryzowanego zapytania
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

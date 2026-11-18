@@ -1,7 +1,7 @@
 ---
 title: "Guia professional de ciberseguretat 2026"
 date: 2023-06-24
-lastmod: 2026-11-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Guia de carrera en ciberseguretat per al 2026 amb habilitats, certificacions, dades salarials, itineraris professionals i recerca del mercat laboral."
@@ -152,23 +152,23 @@ Tots els professionals de ciberseguretat necessiten aquestes habilitats tècniqu
 
 **Python per a ciberseguretat** (el llenguatge més important):
 ```python
-# Example: Automated security scanning script
+# Exemple: script automatitzat d’anàlisi de seguretat
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Fa una anàlisi automatitzada de vulnerabilitats
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
-    
+
     results = {
         'host': target_ip,
         'open_ports': [],
         'vulnerabilities': []
     }
-    
+
     for host in nm.all_hosts():
         for proto in nm[host].all_protocols():
             ports = nm[host][proto].keys()
@@ -179,7 +179,7 @@ def security_scan(target_ip):
                     'service': service['name'],
                     'version': service['version']
                 })
-    
+
     return json.dumps(results, indent=2)
 ```
 
@@ -295,10 +295,10 @@ Les habilitats tècniques no són suficients. El **pensament crític** diferenci
 
 **Desenvolupament de les habilitats de comunicació**:
 ```
-Entry Level: Write clear incident reports
-Mid-Level: Present security updates to management
-Senior:Lead security strategy discussions with executives
-Executive: Communicate security posture to board of directors
+Nivell inicial: redacta informes clars d’incidents
+Nivell intermedi: presenta actualitzacions de seguretat a la direcció
+Nivell sènior: lidera converses d’estratègia de seguretat amb els directius
+Direcció executiva: comunica l’estat de la seguretat al consell d’administració
 ```
 
 ### Habilitats emergents per al 2026 i més enllà
@@ -442,15 +442,15 @@ Entendre les diferents especialitzacions t'ajuda a escollir el camí adequat.
 
 **Progressió professional**:
 ```
-Junior SOC Analyst (0-2 years) → $55,000-75,000
+Analista SOC júnior (0-2 anys) → $55,000-75,000
     ↓
-SOC Analyst II (2-4 years) → $75,000-95,000
+Analista SOC II (2-4 anys) → $75,000-95,000
     ↓
-Senior SOC Analyst (4-7 years) → $95,000-120,000
+Analista SOC sènior (4-7 anys) → $95,000-120,000
     ↓
-SOC Team Lead (7-10 years) → $120,000-145,000
+Cap d’equip SOC (7-10 anys) → $120,000-145,000
     ↓
-SOC Manager (10+ years) → $145,000-180,000
+Responsable SOC (10+ anys) → $145,000-180,000
 ```
 
 **Habilitats necessàries**:
@@ -480,15 +480,15 @@ SOC Manager (10+ years) → $145,000-180,000
 
 **Progressió professional**:
 ```
-Junior Penetration Tester (0-2 years) → $70,000-90,000
+Provador de penetració júnior (0-2 anys) → $70,000-90,000
     ↓
-Penetration Tester (2-5 years) → $95,000-130,000
+Provador de penetració (2-5 anys) → $95,000-130,000
     ↓
-Senior Penetration Tester (5-8 years) → $130,000-165,000
+Provador de penetració sènior (5-8 anys) → $130,000-165,000
     ↓
-Lead Pentester / Red Team Lead (8-12 years) → $165,000-200,000
+Responsable de pentesting / cap de l’equip vermell (8-12 anys) → $165,000-200,000
     ↓
-Principal Security Consultant (12+ years) → $200,000-275,000+
+Consultor principal de seguretat (12+ anys) → $200,000-275,000+
 ```
 
 **Habilitats necessàries**:
@@ -519,15 +519,15 @@ Principal Security Consultant (12+ years) → $200,000-275,000+
 
 **Progressió professional**:
 ```
-Junior Security Engineer (0-2 years) → $75,000-95,000
+Enginyer de seguretat júnior (0-2 anys) → $75,000-95,000
     ↓
-Security Engineer (2-5 years) → $105,000-135,000
+Enginyer de seguretat (2-5 anys) → $105,000-135,000
     ↓
-Senior Security Engineer (5-8 years) → $135,000-170,000
+Enginyer de seguretat sènior (5-8 anys) → $135,000-170,000
     ↓
-Security Architect (8-12 years) → $170,000-220,000
+Arquitecte de seguretat (8-12 anys) → $170,000-220,000
     ↓
-Principal/Lead Security Architect (12+ years) → $220,000-300,000+
+Arquitecte principal/líder de seguretat (12+ anys) → $220,000-300,000+
 ```
 
 **Habilitats necessàries**:
@@ -558,15 +558,15 @@ Principal/Lead Security Architect (12+ years) → $220,000-300,000+
 
 **Progressió professional**:
 ```
-Junior Cloud Security Engineer (0-2 years) → $80,000-100,000
+Enginyer de seguretat al núvol júnior (0-2 anys) → $80,000-100,000
     ↓
-Cloud Security Engineer (2-5 years) → $115,000-145,000
+Enginyer de seguretat al núvol (2-5 anys) → $115,000-145,000
     ↓
-Senior Cloud Security Engineer (5-8 years) → $145,000-185,000
+Enginyer de seguretat al núvol sènior (5-8 anys) → $145,000-185,000
     ↓
-Cloud Security Architect (8-12 years) → $185,000-235,000
+Arquitecte de seguretat al núvol (8-12 anys) → $185,000-235,000
     ↓
-Principal Cloud Security Architect (12+ years) → $235,000-320,000+
+Arquitecte principal de seguretat al núvol (12+ anys) → $235,000-320,000+
 ```
 
 **Habilitats necessàries**:
@@ -597,15 +597,15 @@ Principal Cloud Security Architect (12+ years) → $235,000-320,000+
 
 **Progressió professional**:
 ```
-Junior GRC Analyst (0-2 years) → $60,000-78,000
+Analista GRC júnior (0-2 anys) → $60,000-78,000
     ↓
-GRC Analyst (2-4 years) → $78,000-98,000
+Analista GRC (2-4 anys) → $78,000-98,000
     ↓
-Senior GRC Analyst (4-7 years) → $98,000-125,000
+Analista GRC sènior (4-7 anys) → $98,000-125,000
     ↓
-GRC Manager (7-10 years) → $125,000-155,000
+Responsable de GRC (7-10 anys) → $125,000-155,000
     ↓
-Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,000+
+Director de compliment / director de compliment normatiu (10+ anys) → $155,000-225,000+
 ```
 
 **Habilitats necessàries**:
@@ -636,15 +636,15 @@ Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,0
 
 **Progressió professional**:
 ```
-Junior Incident Response Analyst (0-2 years) → $65,000-85,000
+Analista de resposta a incidents júnior (0-2 anys) → $65,000-85,000
     ↓
-Incident Response Analyst (2-5 years) → $90,000-115,000
+Analista de resposta a incidents (2-5 anys) → $90,000-115,000
     ↓
-Senior Incident Responder (5-8 years) → $115,000-150,000
+Especialista sènior en resposta a incidents (5-8 anys) → $115,000-150,000
     ↓
-Incident Response Team Lead (8-12 years) → $150,000-190,000
+Cap de l’equip de resposta a incidents (8-12 anys) → $150,000-190,000
     ↓
-Director of Incident Response (12+ years) → $190,000-250,000+
+Director de resposta a incidents (12+ anys) → $190,000-250,000+
 ```
 
 **Habilitats necessàries**:
@@ -850,39 +850,39 @@ ______
 **Estructura del currículum**:
 
 ```
-[Your Name]
-[LinkedIn URL] | [GitHub URL] | [Email] | [Phone] | [Location]
+[El teu nom]
+[URL de LinkedIn] | [URL de GitHub] | [Correu electrònic] | [Telèfon] | [Ubicació]
 
-SUMMARY
-Results-driven cybersecurity professional with hands-on experience in [specific skills]. 
-Certified in [certifications]. Passionate about [specific security area].
+RESUM
+Professional de la ciberseguretat orientat als resultats, amb experiència pràctica en [competències específiques].
+Amb certificacions en [certificacions] i interès per [àmbit de seguretat específic].
 
-TECHNICAL SKILLS
-- Security: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
-- Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
-- Programming: Python, PowerShell, Bash, SQL
-- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
+COMPETÈNCIES TÈCNIQUES
+- Seguretat: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
+- Núvol: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Eines: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
+- Programació: Python, PowerShell, Bash, SQL
+- Marcs de treball: NIST CSF, MITRE ATT&CK, OWASP Top 10
 
-CERTIFICATIONS
-- CompTIA Security+ (Date)
-- AWS Certified Security Specialty (Date)
-- [Other relevant certs]
+CERTIFICACIONS
+- CompTIA Security+ (data)
+- AWS Certified Security Specialty (data)
+- [altres certificacions rellevants]
 
-PROFESSIONAL EXPERIENCE
-[Company Name] - [Security Role] (Dates)
-- QUANTIFY achievements (Reduced false positives by 40%)
-- USE security keywords (SIEM, incident response, threat hunting)
-- SHOW impact (Identified and remediated 15 critical vulnerabilities)
+EXPERIÈNCIA PROFESSIONAL
+[Nom de l’empresa] - [càrrec de seguretat] (dates)
+- Quantifica els assoliments (reducció del 40% dels falsos positius)
+- Fes servir paraules clau de seguretat (SIEM, resposta a incidents, cerca d’amenaces)
+- Mostra l’impacte (identificació i correcció de 15 vulnerabilitats crítiques)
 
-PROJECTS (If entry-level or career changer)
-[Project Name] - [Technology Stack]
-- Built [specific security tool/system]
-- Demonstrates [specific skills]
-- GitHub: [link]
+PROJECTES (si comences la carrera o canvies de sector)
+[Nom del projecte] - [pila tecnològica]
+- Crea [eina/sistema de seguretat específic]
+- Demostra [competències específiques]
+- GitHub: [enllaç]
 
-EDUCATION
-[Degree] in [Field], [University] (Date)
+FORMACIÓ
+[Titulació] en [Camp], [Universitat] (data)
 ```
 
 **Consells per al currículum**:
@@ -966,18 +966,17 @@ EDUCATION
 
 **Exemple de correu de negociació**:
 ```
-Thank you for the offer. I'm excited about the opportunity to join [Company] as [Role].
+Gràcies per l’oferta. Em fa il·lusió tenir l’oportunitat d’incorporar-me a [Empresa] com a [càrrec].
 
-After reviewing the offer and researching market rates for this position in [Location], 
-I'd like to discuss the compensation package. Based on my [certifications/experience/skills], 
-I was hoping for a base salary in the range of $[X-Y].
+Després de revisar l’oferta i consultar les tarifes del mercat per a aquest lloc a [Ubicació], m’agradaria parlar del paquet retributiu. Tenint en compte les meves [certificacions/experiència/competències], esperava un salari base dins del rang de $[X-Y].
 
-Additionally, I'd appreciate if we could discuss:
-- Annual training/certification budget
-- Remote work flexibility
-- [Other priorities]
+A més, agrairia que poguéssim parlar de:
+- Pressupost anual de formació i certificacions
+- Flexibilitat per treballar a distància
+- [altres prioritats]
 
-I'm confident I can deliver significant value to the team and look forward to discussing this further.
+Confio que puc aportar un valor considerable a l’equip i espero poder-ne parlar més.
+
 ```
 
 ______

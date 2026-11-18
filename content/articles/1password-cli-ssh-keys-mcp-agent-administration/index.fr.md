@@ -1,7 +1,7 @@
 ---
 title: "1Password SSH Agent and CLI: Accès en lecture seule pour les agents IA"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Concevez un flux de travail SSH en lecture seule avec 1Password CLI, l'agent SSH et MCP. Utilisez des commandes synthétiques, des permissions restreintes et une approbation humaine avant les tests en direct."
@@ -82,7 +82,7 @@ Bitbucket Cloud utilise le flux de travail en ligne de commande Git et OpenSSH s
 
 **Considérez Bitbucket comme le consommateur de la clé publique.** Enregistrez la clé publique ou l’empreinte via le compte Bitbucket approuvé ou le paramètre de dépôt. Conservez la clé privée dans 1Password. Le client Git demande à l’agent SSH de signer. Le client ne lit pas de fichier de clé privée.
 
-Pour la portée de la clé d’accès Bitbucket, le chemin d’enregistrement et le test Git en lecture seule, consultez [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+Pour la portée de la clé d’accès Bitbucket, le chemin d’enregistrement et le test Git en lecture seule, consultez [Clés SSH Bitbucket Cloud et CLI Git : accès en lecture seule pour les agents IA](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 La documentation de Bitbucket appelle cela un flux de travail Git CLI. Cet article ne suppose pas un serveur MCP Bitbucket distinct ou un produit nommé Bitbucket CLI. Un CLI spécifique à Bitbucket nécessite sa propre documentation à jour et sa propre revue des permissions.
 
@@ -163,10 +163,10 @@ Notez la classe de cible, le compte distant, le dépôt ou la commande prévue, 
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: vérification de connectivité en lecture seule
+host_key_source: entrée approuvée par un administrateur
+approval_owner: opérateur désigné
+rollback: supprimer la clé publique et révoquer l’identité de test
 ```
 
 **Résultat attendu, non testé :** L'enregistrement identifie une cible et une opération. L'enregistrement ne contient pas d'hôte, d'adresse IP, de jeton, de clé privée ou de données personnelles.
@@ -239,7 +239,7 @@ La séquence suivante montre l'ordre sans utiliser d'infrastructure réelle. Ces
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Uniquement sous macOS ou Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```
@@ -301,7 +301,7 @@ L’ordre plus sûr est le suivant :
 
 **Invite de consentement SSH inattendue :** Refuser l'invite. Vérifier le nom du processus, la session du terminal, l'empreinte de la clé, la cible du dépôt et la clé d'hôte. Examiner la configuration du client SSH avant de réessayer.
 
-**Absence de socket Agent SSH :** Confirmer que l'application de bureau 1Password est installée par une méthode prise en charge, que l'Agent SSH est activé et que le client utilise le socket spécifique à la plateforme. La [page officielle de l'Agent SSH](https://www.1password.dev/ssh/agent)] liste les exigences du système d'exploitation et les liens de configuration du socket.
+**Absence de socket Agent SSH :** Confirmer que l'application de bureau 1Password est installée par une méthode prise en charge, que l'Agent SSH est activé et que le client utilise le socket spécifique à la plateforme. La [page officielle de l'Agent SSH](https://www.1password.dev/ssh/agent) liste les exigences du système d'exploitation et les liens de configuration du socket.
 
 **Échec de l'authentification par clé publique :** Vérifier la clé publique sélectionnée, le compte distant, l'autorisation du dépôt, la clé d'hôte et la configuration SSH. Utiliser une comparaison d'empreinte publique. Ne pas résoudre l'erreur en exportant une clé privée non liée.
 

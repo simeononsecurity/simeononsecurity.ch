@@ -1,7 +1,7 @@
 ---
 title: "Руководство по карьере в кибербезопасности 2026"
 date: 2023-06-24
-lastmod: 2026-11-09
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Руководство по карьере в кибербезопасности в 2026 году: навыки, сертификаты, данные о зарплатах, карьерные пути и исследование рынка труда."
@@ -152,23 +152,23 @@ ______
 
 **Python для кибербезопасности** (самый важный язык):
 ```python
-# Example: Automated security scanning script
+# Пример: автоматизированный скрипт проверки безопасности
 import nmap
 import json
 
 def security_scan(target_ip):
     """
-    Performs automated vulnerability scan
+    Выполняет автоматическое сканирование уязвимостей
     """
     nm = nmap.PortScanner()
     nm.scan(target_ip, arguments='-sV -sC --script vuln')
-    
+
     results = {
         'host': target_ip,
         'open_ports': [],
         'vulnerabilities': []
     }
-    
+
     for host in nm.all_hosts():
         for proto in nm[host].all_protocols():
             ports = nm[host][proto].keys()
@@ -179,7 +179,7 @@ def security_scan(target_ip):
                     'service': service['name'],
                     'version': service['version']
                 })
-    
+
     return json.dumps(results, indent=2)
 ```
 
@@ -295,10 +295,10 @@ def security_scan(target_ip):
 
 **Развитие коммуникативных навыков**:
 ```
-Entry Level: Write clear incident reports
-Mid-Level: Present security updates to management
-Senior:Lead security strategy discussions with executives
-Executive: Communicate security posture to board of directors
+Начальный уровень: составляйте понятные отчёты об инцидентах
+Средний уровень: информируйте руководство о состоянии безопасности
+Старший уровень: ведите с руководителями обсуждения стратегии безопасности
+Уровень руководства: докладывайте совету директоров о состоянии безопасности
 ```
 
 ### Новые навыки в 2026 году и далее
@@ -440,15 +440,15 @@ ______
 
 **Карьерный рост**:
 ```
-Junior SOC Analyst (0-2 years) → $55,000-75,000
+Младший аналитик SOC (0-2 лет) → $55,000-75,000
     ↓
-SOC Analyst II (2-4 years) → $75,000-95,000
+Аналитик SOC II (2-4 лет) → $75,000-95,000
     ↓
-Senior SOC Analyst (4-7 years) → $95,000-120,000
+Старший аналитик SOC (4-7 лет) → $95,000-120,000
     ↓
-SOC Team Lead (7-10 years) → $120,000-145,000
+Руководитель команды SOC (7-10 лет) → $120,000-145,000
     ↓
-SOC Manager (10+ years) → $145,000-180,000
+Менеджер SOC (10+ лет) → $145,000-180,000
 ```
 
 **Необходимые навыки**:
@@ -478,15 +478,15 @@ SOC Manager (10+ years) → $145,000-180,000
 
 **Карьерный рост**:
 ```
-Junior Penetration Tester (0-2 years) → $70,000-90,000
+Младший специалист по тестированию на проникновение (0-2 лет) → $70,000-90,000
     ↓
-Penetration Tester (2-5 years) → $95,000-130,000
+Специалист по тестированию на проникновение (2-5 лет) → $95,000-130,000
     ↓
-Senior Penetration Tester (5-8 years) → $130,000-165,000
+Старший специалист по тестированию на проникновение (5-8 лет) → $130,000-165,000
     ↓
-Lead Pentester / Red Team Lead (8-12 years) → $165,000-200,000
+Ведущий специалист по тестированию на проникновение / руководитель красной команды (8-12 лет) → $165,000-200,000
     ↓
-Principal Security Consultant (12+ years) → $200,000-275,000+
+Главный консультант по безопасности (12+ лет) → $200,000-275,000+
 ```
 
 **Необходимые навыки**:
@@ -517,15 +517,15 @@ Principal Security Consultant (12+ years) → $200,000-275,000+
 
 **Карьерный рост**:
 ```
-Junior Security Engineer (0-2 years) → $75,000-95,000
+Младший инженер по безопасности (0-2 лет) → $75,000-95,000
     ↓
-Security Engineer (2-5 years) → $105,000-135,000
+Инженер по безопасности (2-5 лет) → $105,000-135,000
     ↓
-Senior Security Engineer (5-8 years) → $135,000-170,000
+Старший инженер по безопасности (5-8 лет) → $135,000-170,000
     ↓
-Security Architect (8-12 years) → $170,000-220,000
+Архитектор безопасности (8-12 лет) → $170,000-220,000
     ↓
-Principal/Lead Security Architect (12+ years) → $220,000-300,000+
+Главный архитектор безопасности / ведущий архитектор безопасности (12+ лет) → $220,000-300,000+
 ```
 
 **Необходимые навыки**:
@@ -556,15 +556,15 @@ Principal/Lead Security Architect (12+ years) → $220,000-300,000+
 
 **Карьерный рост**:
 ```
-Junior Cloud Security Engineer (0-2 years) → $80,000-100,000
+Младший инженер облачной безопасности (0-2 лет) → $80,000-100,000
     ↓
-Cloud Security Engineer (2-5 years) → $115,000-145,000
+Инженер облачной безопасности (2-5 лет) → $115,000-145,000
     ↓
-Senior Cloud Security Engineer (5-8 years) → $145,000-185,000
+Старший инженер облачной безопасности (5-8 лет) → $145,000-185,000
     ↓
-Cloud Security Architect (8-12 years) → $185,000-235,000
+Архитектор облачной безопасности (8-12 лет) → $185,000-235,000
     ↓
-Principal Cloud Security Architect (12+ years) → $235,000-320,000+
+Главный архитектор облачной безопасности (12+ лет) → $235,000-320,000+
 ```
 
 **Необходимые навыки**:
@@ -595,15 +595,15 @@ Principal Cloud Security Architect (12+ years) → $235,000-320,000+
 
 **Карьерный рост**:
 ```
-Junior GRC Analyst (0-2 years) → $60,000-78,000
+Младший аналитик GRC (0-2 лет) → $60,000-78,000
     ↓
-GRC Analyst (2-4 years) → $78,000-98,000
+Аналитик GRC (2-4 лет) → $78,000-98,000
     ↓
-Senior GRC Analyst (4-7 years) → $98,000-125,000
+Старший аналитик GRC (4-7 лет) → $98,000-125,000
     ↓
-GRC Manager (7-10 years) → $125,000-155,000
+Менеджер GRC (7-10 лет) → $125,000-155,000
     ↓
-Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,000+
+Директор по соответствию требованиям / главный специалист по соответствию требованиям (10+ лет) → $155,000-225,000+
 ```
 
 **Необходимые навыки**:
@@ -634,15 +634,15 @@ Director of Compliance / Chief Compliance Officer (10+ years) → $155,000-225,0
 
 **Карьерный рост**:
 ```
-Junior Incident Response Analyst (0-2 years) → $65,000-85,000
+Младший аналитик реагирования на инциденты (0-2 лет) → $65,000-85,000
     ↓
-Incident Response Analyst (2-5 years) → $90,000-115,000
+Аналитик реагирования на инциденты (2-5 лет) → $90,000-115,000
     ↓
-Senior Incident Responder (5-8 years) → $115,000-150,000
+Старший специалист по реагированию на инциденты (5-8 лет) → $115,000-150,000
     ↓
-Incident Response Team Lead (8-12 years) → $150,000-190,000
+Руководитель команды реагирования на инциденты (8-12 лет) → $150,000-190,000
     ↓
-Director of Incident Response (12+ years) → $190,000-250,000+
+Директор по реагированию на инциденты (12+ лет) → $190,000-250,000+
 ```
 
 **Необходимые навыки**:
@@ -848,39 +848,39 @@ ______
 **Структура резюме**:
 
 ```
-[Your Name]
-[LinkedIn URL] | [GitHub URL] | [Email] | [Phone] | [Location]
+[Ваше имя]
+[URL профиля LinkedIn] | [URL профиля GitHub] | [Электронная почта] | [Телефон] | [Местоположение]
 
-SUMMARY
-Results-driven cybersecurity professional with hands-on experience in [specific skills]. 
-Certified in [certifications]. Passionate about [specific security area].
+КРАТКОЕ ОПИСАНИЕ
+Нацеленный на результат специалист по кибербезопасности с практическим опытом в [конкретные навыки].
+Сертификаты: [сертификаты]. Профессиональные интересы: [конкретная область безопасности].
 
-TECHNICAL SKILLS
-- Security: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
-- Cloud: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
-- Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
-- Programming: Python, PowerShell, Bash, SQL
-- Frameworks: NIST CSF, MITRE ATT&CK, OWASP Top 10
+ТЕХНИЧЕСКИЕ НАВЫКИ
+- Безопасность: SIEM (Splunk, ELK), IDS/IPS (Snort, Suricata), WAF, EDR
+- Облачные технологии: AWS (Security Groups, IAM, GuardDuty), Azure (NSGs, Sentinel)
+- Инструменты: Wireshark, Nmap, Burp Suite, Metasploit, Nessus
+- Программирование: Python, PowerShell, Bash, SQL
+- Фреймворки: NIST CSF, MITRE ATT&CK, OWASP Top 10
 
-CERTIFICATIONS
-- CompTIA Security+ (Date)
-- AWS Certified Security Specialty (Date)
-- [Other relevant certs]
+СЕРТИФИКАТЫ
+- CompTIA Security+ (дата)
+- AWS Certified Security Specialty (дата)
+- [другие релевантные сертификаты]
 
-PROFESSIONAL EXPERIENCE
-[Company Name] - [Security Role] (Dates)
-- QUANTIFY achievements (Reduced false positives by 40%)
-- USE security keywords (SIEM, incident response, threat hunting)
-- SHOW impact (Identified and remediated 15 critical vulnerabilities)
+ОПЫТ РАБОТЫ
+[Название компании] - [Должность в сфере безопасности] (даты)
+- Указывайте результаты в цифрах (сокращение ложных срабатываний на 40%)
+- Используйте ключевые термины безопасности (SIEM, реагирование на инциденты, поиск угроз)
+- Покажите результат (обнаружение и устранение 15 критических уязвимостей)
 
-PROJECTS (If entry-level or career changer)
-[Project Name] - [Technology Stack]
-- Built [specific security tool/system]
-- Demonstrates [specific skills]
-- GitHub: [link]
+ПРОЕКТЫ (для начинающих или меняющих профессию)
+[Название проекта] - [Стек технологий]
+- Создайте [конкретный инструмент/система безопасности]
+- Продемонстрируйте [конкретные навыки]
+- GitHub: [ссылка]
 
-EDUCATION
-[Degree] in [Field], [University] (Date)
+ОБРАЗОВАНИЕ
+[Степень] по направлению [Специальность], [Университет] (дата)
 ```
 
 **Советы по резюме**:
@@ -964,18 +964,17 @@ EDUCATION
 
 **Пример письма для переговоров**:
 ```
-Thank you for the offer. I'm excited about the opportunity to join [Company] as [Role].
+Спасибо за предложение. Для меня интересна возможность присоединиться к [Компания] в роли [Должность].
 
-After reviewing the offer and researching market rates for this position in [Location], 
-I'd like to discuss the compensation package. Based on my [certifications/experience/skills], 
-I was hoping for a base salary in the range of $[X-Y].
+После изучения предложения и анализа рыночных ставок для этой должности в [Местоположение] предлагаю обсудить условия компенсации. С учётом моих [сертификаты/опыт/навыки] ориентир по базовой зарплате для меня составляет $[X-Y].
 
-Additionally, I'd appreciate if we could discuss:
-- Annual training/certification budget
-- Remote work flexibility
-- [Other priorities]
+Также предлагаю обсудить:
+- Годовой бюджет на обучение и сертификации
+- Гибкие условия удалённой работы
+- [другие приоритеты]
 
-I'm confident I can deliver significant value to the team and look forward to discussing this further.
+Мои знания и опыт помогут внести значимый вклад в работу команды. Буду ждать возможности обсудить детали.
+
 ```
 
 ______

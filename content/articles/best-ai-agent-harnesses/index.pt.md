@@ -1,7 +1,7 @@
 ---
 title: "Melhores harnesses de agentes de IA em 2026: escolha pelo fluxo de trabalho"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compare Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi e LangGraph por execução de ferramentas, memória, recuperação e esforço de integração."
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Componentes metálicos modulares ligados a um processador central brilhante por caminhos turquesa e laranja em uma superfície de trabalho escura"
 coverCaption: "Ilustração conceitual dos componentes ao redor de um modelo de IA."
 ---
-
 **Deep Agents é minha primeira opção para um agente geral com modelos configuráveis e gestão de contexto integrada.** Claude Agent SDK se encaixa bem na incorporação do comportamento de execução do Claude Code. OpenAI Agents SDK e Pydantic AI merecem um teste para agentes específicos de aplicações, enquanto Pi favorece um núcleo pequeno e extensível, e LangGraph favorece o controle explícito do fluxo.
 
 **A melhor escolha depende do trabalho que você pretende aceitar.** Um assistente de pesquisa, um editor de repositório e um serviço que processa pedidos de clientes precisam de ferramentas e regras de recuperação diferentes. Estas recomendações são avaliações editoriais baseadas na documentação oficial verificada em **10 de outubro de 2026**, não resultados de um benchmark prático de desempenho.
@@ -160,7 +159,7 @@ Para um **agente ilustrativo de revisão de faturas**, a validação do esquema 
 **Não force configurações sem suporte na trilha controlada.** Se dois candidatos não tiverem modelo ou interface de ferramentas em comum, informe a comparação como avaliação de sistema. Registre o esforço de configuração e a orientação humana.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Registro de teste ilustrativo, não é um arquivo de configuração de framework
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

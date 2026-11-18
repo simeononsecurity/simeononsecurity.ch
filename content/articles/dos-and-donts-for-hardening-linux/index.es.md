@@ -1,6 +1,7 @@
 ---
 title: "Qué hacer y qué no hacer para reforzar su sistema Linux"
 date: 2023-02-28
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Aprenda lo que debe y no debe hacer para reforzar su sistema Linux, incluidas las actualizaciones, el uso de cortafuegos, la activación de SELinux o AppArmor, la configuración de políticas de contraseñas y la supervisión de los registros del sistema."
@@ -296,7 +297,7 @@ ______
 
 Usar contraseñas débiles es un error común que puede dejar su sistema Linux vulnerable a ataques. Los atacantes pueden utilizar herramientas para adivinar contraseñas basadas en palabras comunes, nombres o fechas. Es importante utilizar contraseñas fuertes y únicas que no sean fáciles de adivinar.
 
-Puedes crear contraseñas seguras utilizando una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. También es una buena práctica utilizar una [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) también puede ayudarte a recordar tus contraseñas y evitar que utilices la misma contraseña para varias cuentas.
+Puedes crear contraseñas seguras utilizando una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. También es recomendable utilizar un [gestor de contraseñas](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para generar y guardar contraseñas complejas de forma segura. Los [gestores de contraseñas](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) también pueden ayudarte a recordar tus contraseñas y evitar que utilices la misma contraseña para varias cuentas.
 
 ### Permitir acceso root SSH
 

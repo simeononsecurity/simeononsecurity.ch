@@ -48,7 +48,7 @@ Nachdem Sie nun die Vorteile der 3-2-1-Backup-Regel verstanden haben, ist es an 
 
 - **Wählen Sie Ihre Speichertypen**: Um die 3-2-1-Backup-Regel umzusetzen, müssen Sie zwei verschiedene Speichertypen wählen. Zu den beliebtesten Optionen gehören externe Festplatten, Cloud-Speicherdienste und NAS-Geräte (Network-Attached Storage). Überlegen Sie, wie viele Daten Sie sichern müssen, und wählen Sie einen Speichertyp, der Ihren Anforderungen entspricht.
 
-- **Automatisieren Sie Ihre Backups**: Die manuelle Erstellung von Backups kann zeitaufwändig und fehleranfällig sein. Ziehen Sie stattdessen in Erwägung, Ihre Sicherungen mithilfe von Sicherungssoftware zu automatisieren. Es gibt zahlreiche kostenlose und kostenpflichtige Sicherungssoftware. Einige beliebte Optionen sind [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), and [Carbonite](https://www.carbonite.com/)
+- **Automatisieren Sie Ihre Backups**: Die manuelle Erstellung von Backups kann zeitaufwändig und fehleranfällig sein. Ziehen Sie stattdessen in Erwägung, Ihre Sicherungen mithilfe von Sicherungssoftware zu automatisieren. Es gibt zahlreiche kostenlose und kostenpflichtige Sicherungssoftware. Einige beliebte Optionen sind [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), und [Carbonite](https://www.carbonite.com/).
 
 - **Testen Sie Ihre Backups**: Die Erstellung von Sicherungskopien ist nur der erste Schritt. Es ist wichtig, dass Sie Ihre Backups regelmäßig testen, um sicherzustellen, dass Ihre Daten im Falle eines Datenverlustes wiederhergestellt werden können. Stellen Sie sicher, dass Sie einen Plan für das Testen Ihrer Backups haben, unabhängig davon, ob es sich um einen manuellen oder einen automatisierten Prozess handelt.
 

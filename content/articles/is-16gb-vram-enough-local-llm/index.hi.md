@@ -1,7 +1,7 @@
 ---
 title: "क्या गंभीर स्थानीय LLM काम के लिए 16GB VRAM पर्याप्त है?"
 date: 2026-10-07
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "मॉडल वेट, KV कैश और प्रॉम्प्ट प्रोसेसिंग के आधार पर 16GB स्थानीय LLM सेटअप का आकार तय करें। Qwen3.8 27B के मेमोरी बजट, GPU बैंडविड्थ और स्वामित्व लागत की तुलना करें।"
@@ -84,14 +84,14 @@ KV कैश पहले प्रोसेस किए गए टोकन �
 
 यह उदाहरण उपयोग करें। हर आवंटन decimal GB में है। नीचे का 1.0 GB रिज़र्व योजना की धारणा है, सार्वभौमिक रनटाइम डिफ़ॉल्ट नहीं।
 
-| आवंटन | Vision on / vision off |
+| आवंटन | विज़न चालू / विज़न बंद |
 |---|---|
 | Physical 16 GiB capacity | 17.180 / 17.180 GB |
-| Model weights | 11.800 / 11.800 GB |
+| मॉडल के वज़न | 11.800 / 11.800 GB |
 | Optional MTP head | 0.350 / 0.350 GB |
 | Vision projector estimate | 0.930 / 0 GB |
-| Assumed other allocations | 1.000 / 1.000 GB |
-| Left for growing cache | 3.100 / 4.030 GB |
+| अन्य अनुमानित आवंटन | 1.000 / 1.000 GB |
+| बढ़ते कैश के लिए शेष | 3.100 / 4.030 GB |
 
 65,536 bytes प्रति टोकन पर 3.100 GB लगभग 47,300 टोकन रखते हैं। Vision बंद होने पर आदर्श 8-bit storage 32,768 bytes प्रति टोकन लेगा और लगभग 123,000 टोकन रखेगा।
 
@@ -130,7 +130,7 @@ Prefill generation से पहले prompt process करता है। Dec
 
 Prompt-processing time का अनुमान लगाने के लिए uncached prompt tokens को measured prefill throughput से भाग दें। नए 30,000-token prompt पर दो illustrative rates ये waits देते हैं:
 
-| Example prompt rate | Calculated processing time |
+| उदाहरण प्रॉम्प्ट दर | गणना किया गया प्रोसेसिंग समय |
 |---|---|
 | 750 tokens/s | 40 seconds |
 | 150 tokens/s | 200 seconds |
@@ -143,7 +143,7 @@ Cold request और reusable prefix वाली continuation को अलग-�
 
 Purchase price, usable memory, bandwidth और software path को साथ तुलना करें। सस्ता card अपना लाभ खो देता है यदि workload unsupported features माँगता है या latency target से अधिक समय लेता है।
 
-| 16GB desktop card | Memory bandwidth |
+| 16GB desktop card | मेमोरी बैंडविड्थ |
 |---|---|
 | RX 9060 XT | 320 GB/s |
 | RTX 5060 Ti | 448 GB/s |
@@ -154,11 +154,11 @@ AMD के [RX 9070 specifications](https://www.amd.com/en/products/graphics/des
 
 अपने intended model और backend वाले benchmarks चुनें। Short prompts और sustained generation के लिए decode performance को अधिक महत्व दें। Repository analysis में cold prefill, long-context speed और successful task completion को प्राथमिकता दें। किसी vendor को खरीदने से पहले software availability जाँचें।
 
-## Mac और laptop labels
+## Mac और लैपटॉप मॉडल
 
 16GB Apple silicon Mac CPU, GPU, operating system और applications के बीच memory साझा करता है। Discrete 16GB GPU में system RAM के साथ dedicated video memory होती है। ये capacities equivalent model budgets नहीं बतातीं।
 
-Apple [recommended GPU working-set size](https://developer.apple.com/documentation/metal/mtldevice/recommendedmaxworkingsetsize) देता है। Runtime की reported allowance और system memory pressure जाँचें। macOS और अन्य applications के लिए जगह छोड़ें, पूरे shared pool को inference के लिए budget न करें।
+Apple [अनुशंसित GPU वर्किंग-सेट आकार](https://developer.apple.com/documentation/metal/mtldevice/recommendedmaxworkingsetsize) देता है। Runtime की reported allowance और system memory pressure जाँचें। macOS और अन्य applications के लिए जगह छोड़ें, पूरे shared pool को inference के लिए budget न करें।
 
 Laptops में manufacturer का exact SKU, dedicated memory, GPU power limit और cooling जाँचें। [NVIDIA RTX 5060 family page](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/) desktop RTX 5060 Ti memory variants सूचीबद्ध करता है। Family name अकेले 16GB सिद्ध नहीं करता, और desktop results laptop throughput सिद्ध नहीं करते।
 
@@ -189,10 +189,10 @@ Hosted output price $0.16 प्रति million होने पर इस sce
 | Split strategy | Main tradeoff |
 |---|---|
 | Layer split | Different layers occupy different devices |
-| Tensor or row split | Work within layers adds communication |
-| CPU plus GPU | More capacity with a different latency profile |
+| टेंसर या रो विभाजन | Work within layers adds communication |
+| CPU और GPU साथ में | अलग विलंबता विशेषताओं के साथ अधिक क्षमता |
 
-दूसरा card तब विचार योग्य है जब motherboard, power supply, cooling और backend पहले से plan support करते हों। Complete system cost की तुलना larger single GPU से करें। [32GB Qwen hardware guide](/articles/32gb-vram-qwen-27b-hardware-guide/) इन alternatives को cover करती है।
+दूसरा card तब विचार योग्य है जब motherboard, power supply, cooling और backend पहले से plan support करते हों। Complete system cost की तुलना larger single GPU से करें। [32GB Qwen हार्डवेयर गाइड](/articles/32gb-vram-qwen-27b-hardware-guide/) इन alternatives को cover करती है।
 
 ## समस्या-समाधान और अगले कदम
 
@@ -200,4 +200,4 @@ Loading fail हो तो context घटाएँ और allocations जाँ�
 
 Normal instructions, files और tool outputs वाला repeatable test बचाएँ। Model revision, runtime version, cache precision, occupied context, peak memory, first-token latency, decode speed और task pass रिकॉर्ड करें। Longest expected session के पास फिर परीक्षण करें।
 
-छोटे alternatives की तुलना के लिए [local model and context guide](/articles/local-ai-model-gpu-context-guide/) उपयोग करें। Quality requirements पूरा करने वाला सबसे छोटा model चुनें, फिर complete task के लिए पर्याप्त memory reserve करें। इन conditions में 16GB workstation के लिए उपयोगी target है।
+छोटे alternatives की तुलना के लिए [लोकल मॉडल और कॉन्टेक्स्ट गाइड](/articles/local-ai-model-gpu-context-guide/) उपयोग करें। Quality requirements पूरा करने वाला सबसे छोटा model चुनें, फिर complete task के लिए पर्याप्त memory reserve करें। इन conditions में 16GB workstation के लिए उपयोगी target है।

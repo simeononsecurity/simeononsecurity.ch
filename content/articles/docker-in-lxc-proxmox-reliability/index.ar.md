@@ -1,7 +1,7 @@
 ---
 title: "Docker داخل LXC على Proxmox: الموثوقية والأدلة والترحيل إلى VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "قيّم Docker داخل Proxmox LXC بالاستناد إلى خلل موثّق في AppArmor، وقراءة متأنية لتقرير عن تجمّد المضيف، وأوامر تشخيصية، وخطة ترحيل إلى VM."
@@ -66,14 +66,14 @@ coverCaption: "رسم مفاهيمي للأجهزة المشتركة وحدود 
 ## حدّد حدود النواة
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker داخل LXC:
+التطبيق -> بيئة تشغيل Docker -> مساحات أسماء LXC والسياسات
+            -> نواة Proxmox المضيفة -> الأجهزة المادية
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker داخل آلة افتراضية:
+التطبيق -> بيئة تشغيل Docker -> نواة Linux الضيفة
+            -> أجهزة افتراضية / KVM-QEMU
+            -> نواة Proxmox المضيفة -> الأجهزة المادية
 ```
 
 يستخدم **LXC** نواة المضيف. وتقيّد مساحات الأسماء ومجموعات التحكم والقدرات وseccomp وملفات الأمان العمليات دون توفير نواة منفصلة. تؤدي إضافة Docker داخل LXC إلى إنشاء طبقة أخرى لإدارة الحاويات حول أحمال تستخدم نواة المضيف نفسها. [بنية LXC وميزات الاحتواء](https://linuxcontainers.org/lxc/introduction/)
@@ -290,17 +290,17 @@ findmnt -T /var/lib/docker
 **استخدم أدلة مقيسة** لاختيار النشر وتحديد موعد مراجعته:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+أثر الخدمة والمنزل:
+إصدارات المضيف / النواة / LXC / Docker الحالية:
+متطلبات GPU والأجهزة والشبكة:
+الذاكرة ووحدة المعالجة والتخزين وزمن الاستجابة المقاسة:
+علامة الفشل المعروفة والفاصل بين مرات حدوثه:
+تغطية النسخ الاحتياطي ودليل نجاح الاستعادة:
+البنية المختارة وسبب الاختيار:
+نافذة التوقف المسموح بها وهدف الاستعادة:
+إجراء تحويل البيانات والتراجع عنها بعد التحويل:
+اختبارات القبول وفترة المراقبة:
+الشرط الذي يستلزم مراجعة البنية مجدداً:
 ```
 
 **اختر تداخل LXC عمدًا** عندما تبرر مزاياه عمل التكامل وتكون قد اختبرت مسار التعافي. اختر VM عندما تسهّل بيئة Docker تقليدية داخل الضيف ونواة ضيف منفصلة تشغيل الخدمة. لا يغني أي من الخيارين عن النسخ الاحتياطية والمراقبة وصيانة المضيف.

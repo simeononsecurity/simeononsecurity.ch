@@ -1,7 +1,7 @@
 ---
 title: "O impacto do aprendizado de máquina na segurança cibernética e como se adaptar"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Saiba como o aprendizado de máquina ajuda a detectar ameaças, priorizar alertas e responder, além dos limites de implantação e dos riscos de segurança."
@@ -67,6 +67,6 @@ O aprendizado de máquina transformou a segurança cibernética ao oferecer dete
 
 ## Referências
 
-1. “O que é segurança cibernética?” Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (acessado em 4 de março de 2023).
-2. “Aprendizado de máquina em segurança cibernética.” Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (acessado em 4 de março de 2023).
-3. “Proteção de dados e dispositivos.” National Institute of Standards and Technology. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (acessado em 4 de março de 2023).
+1. “O que é segurança cibernética?” Cisco. [guia da Cisco sobre segurança cibernética](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (acessado em 4 de março de 2023).
+2. “Aprendizado de máquina em segurança cibernética.” Cylance. [artigo da Cylance sobre aprendizado de máquina em segurança cibernética](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (acessado em 4 de março de 2023).
+3. “Proteção de dados e dispositivos.” National Institute of Standards and Technology. [guia do NIST para proteger dados e dispositivos](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (acessado em 4 de março de 2023).

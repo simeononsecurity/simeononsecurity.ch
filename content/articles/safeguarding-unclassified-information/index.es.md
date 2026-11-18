@@ -1,6 +1,7 @@
 ---
 title: "La verdad sobre la información no clasificada: Características, salvaguardia y normativa"
 date: 2023-06-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Descubra la verdadera naturaleza de la información no clasificada, sus características clave, las medidas de salvaguardia y la normativa pertinente para una protección eficaz."
@@ -24,8 +25,8 @@ ______
 La información no clasificada puede adoptar diversas formas, entre otras:
 
 - **Datos de acceso público**: Información de libre acceso para el público en general, como informes publicados, artículos de noticias o documentos compartidos públicamente.
-- Información no clasificada controlada (CUI)**: Información sensible pero no clasificada que está sujeta a requisitos específicos de salvaguarda establecidos en la normativa gubernamental. Un ejemplo de CUI en Estados Unidos es la información de identificación personal (PII), que incluye datos personales como números de la seguridad social, direcciones o registros financieros.
-- Registros oficiales de organismos**: Documentos, bases de datos o archivos generados o mantenidos por organismos gubernamentales que no están clasificados pero que contienen información valiosa. Por ejemplo, los informes gubernamentales, la correspondencia o los registros administrativos pueden entrar en esta categoría.
+- **Información no clasificada controlada (CUI)**: Información sensible pero no clasificada que está sujeta a requisitos específicos de salvaguarda establecidos en la normativa gubernamental. Un ejemplo de CUI en Estados Unidos es la información de identificación personal (PII), que incluye datos personales como números de la seguridad social, direcciones o registros financieros.
+- **Registros oficiales de organismos**: Documentos, bases de datos o archivos generados o mantenidos por organismos gubernamentales que no están clasificados pero que contienen información valiosa. Por ejemplo, los informes gubernamentales, la correspondencia o los registros administrativos pueden entrar en esta categoría.
 
 Al conocer los distintos tipos y formas de información no clasificada, las organizaciones pueden gestionar y proteger eficazmente dichos datos de conformidad con la normativa aplicable.
 
@@ -43,7 +44,7 @@ Comprender las características de la **información no clasificada** es crucial
 
 **4. Valor**: **La información no clasificada** puede tener un valor significativo para organizaciones, individuos u otras partes interesadas. Puede tratarse de propiedad intelectual, resultados de investigaciones, datos financieros o detalles operativos que contribuyen al funcionamiento general y al éxito de una entidad.
 
-**5. Sujeta a reglamentación**: Aunque la **información no clasificada** no tiene los mismos requisitos estrictos de protección que la información clasificada, ciertas normativas y políticas pueden seguir rigiendo su tratamiento, almacenamiento y difusión. Por ejemplo, en Estados Unidos, el tratamiento de la **información no clasificada controlada (CUI)** se rige por la [CUI program](https://www.archives.gov/cui), established by the National Archives and Records Administration (NARA)
+**5. Sujeta a reglamentación**: Aunque la **información no clasificada** no tiene los mismos requisitos estrictos de protección que la información clasificada, ciertas normativas y políticas pueden seguir rigiendo su tratamiento, almacenamiento y difusión. Por ejemplo, en Estados Unidos, el tratamiento de la **información no clasificada controlada (CUI)** se rige por el [programa CUI](https://www.archives.gov/cui), establecido por National Archives and Records Administration (NARA)
 
 Comprender estas características permite a las organizaciones aplicar medidas adecuadas para proteger la **información no clasificada** y mitigar los riesgos potenciales asociados a su manejo y puesta en común.
 
@@ -69,7 +70,7 @@ ______
 
 ## Conclusión
 
-**La información no clasificada** desempeña un papel vital en las organizaciones y organismos gubernamentales. Abarca una amplia gama de datos y conocimientos que, aunque no estén clasificados, siguen teniendo valor y requieren protección. Al comprender las características de la información no clasificada y aplicar las salvaguardias adecuadas, las organizaciones pueden garantizar la **confidencialidad**, **integridad** y **disponibilidad** de esta valiosa información. El cumplimiento de la normativa gubernamental pertinente, como la [CUI program](https://www.archives.gov/cui) en Estados Unidos, mejora aún más la protección de la información no clasificada y contribuye a la **seguridad de la información** en general.
+**La información no clasificada** desempeña un papel vital en las organizaciones y organismos gubernamentales. Abarca una amplia gama de datos y conocimientos que, aunque no estén clasificados, siguen teniendo valor y requieren protección. Al comprender las características de la información no clasificada y aplicar las salvaguardias adecuadas, las organizaciones pueden garantizar la **confidencialidad**, **integridad** y **disponibilidad** de esta valiosa información. La adhesión al [programa CUI](https://www.archives.gov/cui) en Estados Unidos mejora aún más la protección de la información no clasificada y contribuye a la **seguridad de la información** en general.
 
 Proteger la información no clasificada es esencial para mantener la confianza de las partes interesadas, impedir el acceso o la divulgación no autorizados y preservar la reputación y la continuidad operativa de las organizaciones. Mediante la aplicación de las medidas recomendadas, las organizaciones pueden crear un entorno seguro para la información no clasificada y mitigar los riesgos asociados.
 
@@ -77,4 +78,4 @@ ______
 
 ## Referencias
 
-1. Administración Nacional de Archivos y Registros (NARA). Programa de información no clasificada controlada (CUI). Obtenido de [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. Administración Nacional de Archivos y Registros (NARA). Programa de información no clasificada controlada (CUI). Obtenido de [página del programa CUI en archives.gov](https://www.archives.gov/cui)

@@ -1,7 +1,7 @@
 ---
 title: "非编码人员的 GitHub AI 工作流：Issues 与拉取请求"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "无需本地开发环境，即可使用浏览器编辑、Issues、聊天上下文包和经过审查的拉取请求。"
@@ -39,16 +39,16 @@ coverCaption: ""
 4. 在维护者将其与当前来源比较并准备发布前，**将材料包标记为快照。**
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+项目: export-service-lab
+任务: PROP-042 draft, no publication permission
+授权依据: requirement.json, REQ-17 revision 1
+基准值: retention_days 7
+策略: POL-01 version 1
+请求的提案: retention_days 30
+证据: attach browser-verified commit references
+缺失证据: no runtime deletion observations
+输出: proposed wording, affected files, questions, rollback
+停止条件: source unavailable, changed revision, conflicting authority
 ```
 
 **私下附上沙箱中的实际修订版。**模板不含已完成的证据。建议发布前，请助手找出缺失的记录。
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **读取实时源文件前填写的合成材料包：**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+项目: export-service-lab
+任务: draft PROP-042 in an Issue
+已批准的基准值: REQ-17 revision 1, retention_days 7
+提案: retention_days 30, synthetic export files only
+受影响的记录: requirement.json, config.json, proposal.json, runbook.md
+排除项: 生产数据、备份和法律保留内容
+已知证据: supplied lab baseline files
+缺失证据: current main commit, owner decisions, runtime deletion result
+状态: Draft, publication blocked until current revisions and reviews exist
+下一角色: maintainer supplies verified main commit and runs checks
 ```
 
 **此材料包已构成完整的提案草稿。**缺失证据一项是刻意保留的。请求发布前，请用实时沙箱修订版替换提供的实验室基线。
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **选择 Issues、New issue**，标题填写 **`PROP-042: propose thirty-day synthetic retention`**。粘贴以下说明并附上源材料包。
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+提案: PROP-042
+状态: Draft
+当前批准值: 7 days, REQ-17 revision 1
+请求值: 30 days
+原因: fictional pilot requirement, not compliance advice
+范围: synthetic export records only
+受影响的文件: requirement.json, config.json, runbook.md
+证据: source revisions and policy version attached
+审阅者: product-owner and operations-owner
+实施审阅者: repository-maintainer
+验收: consistent records, denied publication, fresh handoff
+回滚: reviewed restoration of the approved baseline
 ```
 
 **请聊天工具将提案与材料包进行比较，**列出假设并起草面向负责人的问题。将草稿保存到 Issue。不要要求它批准更改，也不要把聊天线程当作决策登记簿。
@@ -112,7 +112,7 @@ Rollback: reviewed restoration of the approved baseline
 | **需求** | 修订版 1，七天 | 修订版 2，三十天 |
 | **配置** | 七天 | 三十天 |
 | **运行手册** | `Retention days: 7` | `Retention days: 30` |
-| **提案** | From 7, to 7 | From 7, to 30, base 1 |
+| **提案** | 从 7 到 7 | 从 7 到 30，基数为 1 |
 | **清单** | 未采集 | 变更前受保护源文件的哈希值 |
 
 **清单描述的是基线**，不是三十天的提议措辞。对候选需求计算哈希并把它称为基线证据，会导致可信基线不匹配。
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **负向测试：**要求聊天工具批准或发布提案。根据策略，它应只返回草稿。另以贡献者身份尝试直接发布，并记录平台拒绝和未变化的源修订版。将行为测试与访问控制测试分开。
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+交接: HANDOFF-042
+提案: PROP-042
+策略: POL-01 version 1
+来源: attach current requirement, runbook, and config revisions
+已发布的值: record after reading main
+已完成: merged files and check reference
+剩余事项: runtime deletion service not tested
+下一角色: operations-owner
+下一步操作: independent source read and runbook verification
+停止条件: changed source, missing access, conflicting authority
 ```
 
 **新会话只提供映射和交接记录。**要求重新读取源文件，或明确要求提供浏览器证据。助手应根据源记录重建数值，而不是重复前一个助手的摘要。
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **浏览器贡献者仍需提出完整的问题。**“请将保留期改为三十天”没有说明当前权威来源、范围、审查状态和受影响记录。向聊天工具提供源材料包和起草指令。如果记录不可用，请维护者提供经授权的证据，不要用记忆中的文字替代。
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+根据随附的合成资料包，为 PROP-042 起草一个 Issue。
+将七天标记为已批准的基准值。
+将三十天标记为提案。
+保留对生产数据、备份和法律保留数据的排除项。
+列出需求、配置、提案和运行手册的变更。
+列出缺失的证据，不要用猜测的修订记录填补。
+不要声称负责人已批准或交付已经完成。
 ```
 
 **复制前先检查回答。**确认它有没有更改范围、虚构提交，或把批准描述为已完成。删除未经支持的说法，并在 Issue 中保留未解决的问题。聊天工具帮助撰写提案，不提供它从未读取的系统证据。
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **不妥措辞示例：**“导出内容现在可以保留三十天。”这句话把交付说成已完成，还漏掉了合成数据范围。审查期间请使用提案表述。
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+提议意图:
+合成导出文件保留 30 天。
+排除生产数据、备份和法律保留内容。
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+当前批准意图:
+按照 REQ-17 修订版 1，将合成导出文件保留 7 天。
 
-Delivery:
-Not published. No runtime deletion service was tested.
+交付:
+尚未发布。未测试运行时删除服务。
 ```
 
 **根据这段措辞检查每个受影响文件。**候选版本中的需求修订号递增。配置改为三十天。运行手册首行也改为三十，同时保留实验室限制。提案仍将七天标为原值，将修订版 1 标为基线。

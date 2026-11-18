@@ -1,7 +1,7 @@
 ---
 title: "機械学習がサイバーセキュリティに与える影響について"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "機械学習による脅威の検出、トリアージ、対応の支援に加え、導入上の限界とセキュリティリスクについて解説します。"
@@ -67,6 +67,6 @@ ______
 
 ## 参考文献
 
-1."サイバーセキュリティとは何か？"シスコ[https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2."サイバーセキュリティにおける機械学習"Cylance（サイランス）。[https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "データ＆デバイスの安全性確保"米国国立標準技術研究所（National Institute of Standards and Technology）。[https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "サイバーセキュリティとは何か？"シスコ[Ciscoのサイバーセキュリティ解説](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
+2. "サイバーセキュリティにおける機械学習"Cylance（サイランス）。[サイバーセキュリティにおける機械学習に関するCylanceの記事](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
+3.  "データ＆デバイスの安全性確保"米国国立標準技術研究所（National Institute of Standards and Technology）。[データとデバイスを保護するNISTガイド](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)

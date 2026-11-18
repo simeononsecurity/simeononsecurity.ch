@@ -1,12 +1,12 @@
 ---
-title: "1Password SSH Agent and CLI: Read-Only AI Agent Access"
+title: "1Password SSH Agent и CLI: доступ агентам ИИ только для чтения"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Спроектируйте workflow только для чтения с использованием 1Password CLI, SSH Agent и MCP. Используйте синтетические команды, ограниченные разрешения и одобрение человеком перед живым тестированием."
 genre: ["Системное администрирование", "Облачная безопасность", "Автоматизация"]
-tags: ["1Password CLI", "SSH-ключи", "1Password SSH Agent", "MCP", "Model Context Protocol", "администрирование агентов", "системное администрирование", "Bitbucket Cloud", "Git over SSH", "ссылки на секреты", "сервисные учетные записи", "принцип минимальных привилегий", "аутентификация по открытому ключу", "управление секретами", "безопасность командной строки", "безопасность автоматизации"]
+tags: ["1Password CLI", "SSH-ключи", "1Password SSH Agent", "MCP", "Model Context Protocol", "администрирование агентов", "системное администрирование", "Bitbucket Cloud", "Git через SSH", "ссылки на секреты", "служебные учетные записи", "принцип наименьших привилегий", "аутентификация с открытым ключом", "управление секретами", "безопасность командной строки", "безопасность автоматизации"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "Абстрактная диаграмма агента, использующего ссылку на секрет, SSH-агента и инструменты MCP без отображения закрытых ключей."
 coverCaption: ""
@@ -163,10 +163,10 @@ agent_policy:
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: проверка соединения только для чтения
+host_key_source: запись, одобренная администратором
+approval_owner: назначенный оператор
+rollback: удалить открытый ключ и отозвать тестовую учетную запись
 ```
 
 **Ожидаемый результат, непроверенный:** Запись идентифицирует один целевой объект и одну операцию. Запись не содержит имени хоста, IP-адреса, токена, закрытого ключа или персональных данных.
@@ -239,7 +239,7 @@ git ls-remote "<repository-ssh-url>" HEAD
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Только в macOS или Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

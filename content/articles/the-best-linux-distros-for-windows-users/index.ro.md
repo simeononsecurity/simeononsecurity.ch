@@ -13,7 +13,7 @@ coverCaption: ""
 
 **Cele mai bune distribuții Linux pentru a trece de la Windows**
 
-Vă gândiți să treceți de la Windows la Linux? Având în vedere gama largă de distribuții Linux disponibile, poate fi o provocare să o alegeți pe cea potrivită pentru nevoile dumneavoastră. În acest articol, vom explora unele dintre cele mai bune distribuții Linux care oferă o tranziție ușoară de la Windows, inclusiv [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php), and [**Manjaro**](https://manjaro.org/)
+Vă gândiți să treceți de la Windows la Linux? Având în vedere gama largă de distribuții Linux disponibile, poate fi o provocare să o alegeți pe cea potrivită pentru nevoile dumneavoastră. În acest articol, vom explora unele dintre cele mai bune distribuții Linux care oferă o tranziție ușoară de la Windows, inclusiv [**Ubuntu**](https://ubuntu.com/download), [**Zorin OS**](https://zorinos.com/), [**Linux Mint**](https://linuxmint.com/download.php) și [**Manjaro**](https://manjaro.org/).
 
 ______
 

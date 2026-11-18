@@ -1,6 +1,7 @@
 ---
 title: "Veilige codeerpraktijken voor webontwikkeling: Een beginnershandleiding"
 date: 2023-03-14
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer essentiële veilige codeerpraktijken voor webontwikkeling om veilige webtoepassingen te bouwen en het risico van cyberaanvallen te verminderen."
@@ -9,7 +10,6 @@ cover: "/img/cover/A_cartoon_developer_standing_confidently_in_front_of_a_shield
 coverAlt: "Een cartoonontwikkelaar staat zelfverzekerd voor een schild met een slotsymbool terwijl hij een laptop vasthoudt."
 coverCaption: ""
 ---
-
 In het huidige digitale tijdperk is webontwikkeling een snel groeiend vakgebied. Websites en toepassingen zijn een vitaal onderdeel van bedrijven en organisaties, en daarom is **veiligheid** van het grootste belang. In deze beginnersgids zullen we enkele essentiële **veilige codeerpraktijken** voor webontwikkeling onderzoeken. Aan het eind van dit artikel zult u een goed begrip hebben van hoe u veilige webapplicaties kunt bouwen en het risico van cyberaanvallen kunt verminderen.
 
 ## De basis begrijpen
@@ -39,7 +39,7 @@ Het **Open Web Application Security Project (OWASP)** publiceert een lijst met d
 9. [**Insecure communication between components**](https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication)
 10. [**Poor code quality**](https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality)
 
-## Best Practices
+## Beste werkwijzen
 
 ### Gebruik een veilige ontwikkelingscyclus (SDLC).
 

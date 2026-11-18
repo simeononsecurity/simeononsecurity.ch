@@ -1,7 +1,7 @@
 ---
 title: "Ograniczone pętle agentów AI: kontrole, ponowienia i reguły zatrzymania"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Zdefiniuj pętlę celu AI z obserwowalnym stanem, kontrolami, limitami ponowień, warunkami zatrzymania i jasnym przekazaniem zadania człowiekowi."
@@ -89,7 +89,7 @@ Wymagane dowody: pełny przebieg testów i kod wyjścia nieprawidłowego polecen
 **Zacznij od niezmienionego laboratorium.** Dwa testy bazowe przechodzą. W świeżo rozpakowanej kopii utwórz `tests/test_loop_contract.py` z poniższą kontrolą. Ten plik określa pożądaną funkcję, której brakuje w wersji startowej. Nie należy do utrzymywanego archiwum ZIP wersji startowej.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Jedna kontrolowana nieudana kontrola w ćwiczeniu filtrowania statusu."""
 
 import subprocess
 import sys

@@ -1,6 +1,7 @@
 ---
 title: "Fortinet 与 Cisco：完整的网络安全对比"
 date: 2026-05-24
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: 全面比较 Fortinet 和 Cisco 的网络安全解决方案，包括防火墙、交换机、SD-WAN、定价、性能基准以及 2026 年的部署建议。
@@ -65,7 +66,6 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-21
 ---
 
 ## 介绍：Fortinet 与 Cisco 网络安全对决
@@ -147,24 +147,22 @@ Fortinet 的**安全架构**是一个综合的网络安全平台，将所有 For
 **安全架构核心组件：**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              FortiManager (Management)                  │
-│              FortiAnalyzer (Analytics)                  │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│  FortiGate FW  │    │  FortiSwitch    │  │ FortiAP    │
-│  (Perimeter)   │    │  (Network)      │  │ (Wireless) │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-            ┌────────▼─────────┐
-            │   FortiClient    │
-            │   (Endpoint)     │
-            └──────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                FortiManager (管理)                                │
+│                               FortiAnalyzer (分析)                                │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│      FortiGate FW       │  │       FortiSwitch       │  │         FortiAP         │
+│         (边界)          │  │         (网络)          │  │         (无线)          │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │       FortiClient       │
+                             │         (终端)          │
+                             └─────────────────────────┘
 ```
 
 **安全架构关键特性：**
@@ -195,25 +193,23 @@ Cisco 的方法强调跨更广泛生态系统的**最佳集成**，涵盖网络�
 **Cisco 安全架构：**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Cisco SecureX                         │
-│         (Unified Threat Response Platform)              │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│ Firepower NGFW │    │ Catalyst Switch │  │  Umbrella  │
-│   (Firewall)   │    │   (Network)     │  │   (Cloud)  │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-        ┌────────────┴────────────┐
-        │  Cisco Secure Endpoint  │
-        │  Cisco Duo (MFA)        │
-        │  Third-party tools      │
-        └─────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                   Cisco SecureX                                   │
+│                                 统一威胁响应平台                                  │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│     Firepower NGFW      │  │     Catalyst交换机      │  │        Umbrella         │
+│        (防火墙)         │  │         (网络)          │  │          (云)           │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │  Cisco Secure Endpoint  │
+                             │     Cisco Duo (MFA)     │
+                             │       第三方工具        │
+                             └─────────────────────────┘
 ```
 
 **Cisco 安全关键特性：**
@@ -338,12 +334,12 @@ ______
 
 **FortiGate SD-WAN 用例：**
 ```
-Branch Office Configuration:
-- FortiGate 60F as branch firewall/SD-WAN device
-- Dual WAN links (ISP + LTE backup)
-- IPsec tunnels to headquarters FortiGate
-- Application steering (VoIP → low latency, bulk data → high bandwidth)
-- Cost savings: $2,500 device replaces $2,000 firewall + $3,000 SD-WAN appliance
+分支机构配置:
+- 将FortiGate 60F用作分支防火墙和SD-WAN设备
+- 双WAN链路（ISP + LTE备份）
+- 通向总部FortiGate的IPsec隧道
+- 按应用引导流量（VoIP → 低延迟，批量数据 → 高带宽）
+- 节省成本：一台$2,500的设备替代$2,000的防火墙 + $3,000的SD-WAN设备
 ```
 
 **Cisco SD-WAN（Viptela平台）：**
@@ -356,13 +352,13 @@ Branch Office Configuration:
 
 **Cisco SD-WAN 用例：**
 ```
-Enterprise WAN Deployment:
-- vEdge routers at all branch locations
-- vSmart controllers in data centers (HA pair)
-- vManage centralized management
-- Integration with existing Catalyst switching
-- Firepower firewalls at data center perimeter
-- Cost: Higher but superior for complex topologies
+企业WAN部署:
+- 所有分支机构均部署vEdge路由器
+- 在数据中心部署vSmart控制器（HA双机）
+- 通过vManage集中管理
+- 与现有Catalyst交换网络集成
+- 在数据中心边界部署Firepower防火墙
+- 成本：更高，但更适合复杂拓扑
 ```
 
 **SD-WAN 结论：**
@@ -387,24 +383,24 @@ Enterprise WAN Deployment:
 
 **分段场景：**
 ```
-Requirement: Isolate guest WiFi, employee devices, IoT devices, and servers
+要求：隔离访客WiFi、员工设备、IoT设备和服务器
 
-Fortinet Approach:
-- FortiGate defines security zones (guest, employee, IoT, server)
-- FortiAP assigns users to VLANs based on SSID
-- FortiSwitch enforces VLAN isolation
-- FortiGate policies control inter-zone traffic
-- Complexity: Moderate
-- Cost: Lower (included in Security Fabric)
+Fortinet方案:
+- FortiGate定义安全区域（访客、员工、IoT、服务器）
+- FortiAP根据SSID将用户分配到VLAN
+- FortiSwitch强制实施VLAN隔离
+- FortiGate策略控制区域间流量
+- 复杂度：中等
+- 成本：较低（包含在Security Fabric中）
 
-Cisco Approach:
-- ISE profiles devices and assigns SGT tags
-- TrustSec policies enforce SGT-based access control
-- Enforcement at Catalyst switches (hardware TCAM)
-- Firepower provides perimeter security
-- Complexity: Higher (requires ISE deployment)
-- Cost: Higher (ISE licensing + TrustSec-capable switches)
-- Benefit: More granular, scales better in very large environments
+Cisco方案:
+- ISE分析设备特征并分配SGT标签
+- TrustSec策略实施基于SGT的访问控制
+- 在Catalyst交换机上实施控制（硬件TCAM）
+- Firepower提供边界安全保护
+- 复杂度：较高（需要部署ISE）
+- 成本：较高（ISE许可 + 支持TrustSec的交换机）
+- 优势：控制更细，超大型环境中的扩展能力更好
 ```
 
 **分段结论：**
@@ -473,20 +469,20 @@ end
 
 **策略创建（Firepower管理中心GUI）：**
 ```
-GUI Workflow:
-1. Navigate to Policies → Access Control → [Policy Name]
-2. Add Rule:
-   - Name: "Allow-Web-Outbound"
-   - Source Networks: internal-network
-   - Destination Networks: any
-   - Ports: HTTP, HTTPS
-   - Action: Allow
-   - Inspection: Enable IPS (balanced policy)
-   - File Policy: Block malware (AMP)
-   - URL Filtering: Enable (custom category list)
-   - TLS/SSL: Decrypt known key, inspect
-3. Deploy changes to managed devices
-4. Verify deployment completion
+图形界面操作流程:
+1. 进入Policies → Access Control → [策略名称]
+2. 添加规则（Add Rule）:
+   - 名称（Name）: "Allow-Web-Outbound"
+   - 源网络（Source Networks）: internal-network
+   - 目标网络（Destination Networks）: any
+   - 端口（Ports）: HTTP, HTTPS
+   - 操作（Action）: Allow
+   - 检测（Inspection）: 启用IPS（平衡策略）
+   - 文件策略（File Policy）: 阻止恶意软件（AMP）
+   - URL过滤（URL Filtering）: 启用（自定义类别列表）
+   - TLS/SSL: 使用已知密钥解密并检测
+3. 将更改部署到受管设备
+4. 确认部署完成
 ```
 
 **Cisco Firepower 优势：**
@@ -508,7 +504,7 @@ GUI Workflow:
 **FortiGate 自动化：**
 
 ```python
-# Python example: Create firewall policy via FortiOS API
+# Python 示例：通过 FortiOS API 创建防火墙策略
 import requests
 import json
 
@@ -533,7 +529,7 @@ policy_data = {
 }
 
 response = requests.post(fortios_api, headers=headers, data=json.dumps(policy_data), verify=False)
-print(f"Policy creation status: {response.status_code}")
+print(f"策略创建状态: {response.status_code}")
 ```
 
 **FortiGate 自动化成熟度：**
@@ -546,20 +542,20 @@ print(f"Policy creation status: {response.status_code}")
 **Cisco Firepower 自动化：**
 
 ```python
-# Python example: Create access control policy via FMC API
+# Python 示例：通过 FMC API 创建访问控制策略
 from fireREST import FMC
 
 fmc = FMC(hostname='fmc.example.com', username='admin', password='password')
 fmc.login()
 
-# Create network object
+# 创建网络对象
 network_obj = fmc.create_network_object(
     name='internal-network',
     value='10.0.0.0/8',
-    description='Corporate internal network'
+    description='企业内部网络'
 )
 
-# Create access control rule
+# 创建访问控制规则
 rule = fmc.create_access_rule(
     policy_name='Corporate-Access-Policy',
     name='Allow-Web-Outbound',
@@ -571,9 +567,9 @@ rule = fmc.create_access_rule(
     file_policy='Block Malware'
 )
 
-# Deploy changes
+# 部署更改
 deployment = fmc.deploy(device_list=['firewall01', 'firewall02'])
-print(f"Deployment status: {deployment}")
+print(f"部署状态: {deployment}")
 ```
 
 **Cisco Firepower 自动化成熟度：**
@@ -682,12 +678,12 @@ ______
 **FortiGate 总成本示例（三年）：**
 
 ```
-FortiGate 600F Deployment:
-- Hardware: $20,000 (one-time)
-- Enterprise Bundle: $7,000/year × 3 years = $21,000
-- FortiCare Premium Support: $2,000/year × 3 years = $6,000
-- Total 3-year cost: $47,000
-- Effective annual cost: $15,667/year
+FortiGate 600F部署:
+- 硬件: $20,000 (一次性)
+- Enterprise Bundle: $7,000/年 × 3 年 = $21,000
+- FortiCare Premium Support: $2,000/年 × 3 年 = $6,000
+- 3年总成本: $47,000
+- 实际年均成本: $15,667/年
 ```
 
 **FortiGate 许可优点：**
@@ -717,13 +713,13 @@ FortiGate 600F Deployment:
 **Cisco Firepower 总成本示例（3年）：**
 
 ```
-Cisco FPR4145 Deployment:
-- Hardware: $32,000 (one-time)
-- Cisco Plus Secure Bundle: $15,000/year × 3 years = $45,000
-- FMC hardware/VM: $12,000 (one-time) or $2,000/year (VM subscription)
-- Cisco SmartNet Support: $4,000/year × 3 years = $12,000
-- Total 3-year cost: $101,000
-- Effective annual cost: $33,667/year
+Cisco FPR4145部署:
+- 硬件: $32,000 (一次性)
+- Cisco Plus Secure Bundle: $15,000/年 × 3 年 = $45,000
+- FMC 硬件/VM: $12,000 (一次性) 或 $2,000/年 (VM订阅)
+- Cisco SmartNet Support: $4,000/年 × 3 年 = $12,000
+- 3年总成本: $101,000
+- 实际年均成本: $33,667/年
 ```
 
 **Cisco Firepower 许可缺点：
@@ -745,40 +741,40 @@ Cisco FPR4145 Deployment:
 **Fortinet 解决方案 TCO：**
 
 ```
-Hardware:
-- 2× FortiGate 600F (HA pair): $40,000
-- FortiManager VM (free for <10 devices): $0
+硬件:
+- 2× FortiGate 600F (HA双机): $40,000
+- FortiManager VM (设备数<10时免费): $0
 - FortiAnalyzer 1000E: $8,000
 
-Subscriptions (5 years):
-- Enterprise Bundle licenses: $7,000/year × 2 firewalls × 5 years = $70,000
-- FortiCare Premium Support: $2,000/year × 2 firewalls × 5 years = $20,000
-- FortiAnalyzer log storage: $1,000/year × 5 years = $5,000
+订阅（5年）:
+- Enterprise Bundle许可: $7,000/年 × 2 台防火墙 × 5 年 = $70,000
+- FortiCare Premium Support: $2,000/年 × 2 台防火墙 × 5 年 = $20,000
+- FortiAnalyzer日志存储: $1,000/年 × 5 年 = $5,000
 
-Professional Services:
-- Initial deployment and training: $10,000
+专业服务:
+- 初始部署和培训: $10,000
 
-Total 5-year TCO: $153,000
-Average annual cost: $30,600
+5年总拥有成本（TCO）: $153,000
+年均成本: $30,600
 ```
 
 **Cisco 解决方案 TCO：**
 
 ```
-Hardware:
-- 2× Cisco FPR4145 (HA pair): $64,000
+硬件:
+- 2× Cisco FPR4145 (HA双机): $64,000
 - Firepower Management Center 2500: $25,000
 
-Subscriptions (5 years):
-- Cisco Plus Secure (all licenses): $15,000/year × 2 firewalls × 5 years = $150,000
-- SmartNet 8×5×NBD: $4,000/year × 2 firewalls × 5 years = $40,000
-- FMC support: $2,500/year × 5 years = $12,500
+订阅（5年）:
+- Cisco Plus Secure（所有许可）: $15,000/年 × 2 台防火墙 × 5 年 = $150,000
+- SmartNet 8×5×NBD: $4,000/年 × 2 台防火墙 × 5 年 = $40,000
+- FMC支持: $2,500/年 × 5 年 = $12,500
 
-Professional Services:
-- Initial deployment and training: $20,000
+专业服务:
+- 初始部署和培训: $20,000
 
-Total 5-year TCO: $311,500
-Average annual cost: $62,300
+5年总拥有成本（TCO）: $311,500
+年均成本: $62,300
 ```
 
 **TCO 分析：
@@ -810,15 +806,15 @@ ______
 
 **示例配置：
 ```
-Equipment:
+设备:
 - 1× FortiGate 100F: $2,500
-- 2× FortiSwitch 124F (48-port): $2,000 each
-- 3× FortiAP 431F (WiFi 6): $600 each
-- Enterprise Bundle subscription: $900/year
-- FortiCare 8×5 Support: $300/year
+- 2× FortiSwitch 124F (48端口): $2,000 每台
+- 3× FortiAP 431F (WiFi 6): $600 每台
+- Enterprise Bundle订阅: $900/年
+- FortiCare 8×5 Support: $300/年
 
-Total first-year cost: $9,100
-Annual renewal: $1,200
+首年总成本: $9,100
+年度续订: $1,200
 ```
 
 ### 中型企业（100-1,000名员工）
@@ -841,41 +837,41 @@ Annual renewal: $1,200
 
 **示例配置（Fortinet）：**
 ```
-Headquarters:
-- 2× FortiGate 600F (HA cluster): $40,000
+总部:
+- 2× FortiGate 600F (HA集群): $40,000
 - FortiManager 400E: $12,000
 - FortiAnalyzer 1000E: $8,000
 
-Branch Offices (5 locations):
+分支机构（5个地点）:
 - 5× FortiGate 100F: $12,500
 - 10× FortiSwitch 124F: $20,000
 
-Subscriptions (annual):
+订阅（每年）:
 - Enterprise Bundle: $24,000
 - FortiCare Premium Support: $8,000
 
-Total first-year cost: $124,500
-Annual renewal: $32,000
+首年总成本: $124,500
+年度续订: $32,000
 ```
 
 **示例配置（Cisco）：**
 ```
-Headquarters:
-- 2× Cisco FPR4145 (HA cluster): $64,000
+总部:
+- 2× Cisco FPR4145 (HA集群): $64,000
 - Cisco FMC 2500: $25,000
-- Cisco ISE 3615 (2-node): $45,000
+- Cisco ISE 3615 (2节点): $45,000
 
-Branch Offices (5 locations):
+分支机构（5个地点）:
 - 5× Cisco FPR2140: $45,000
 - 10× Catalyst 9200-48P: $80,000
 
-Subscriptions (annual):
-- Cisco Plus Secure licenses: $90,000
-- SmartNet support: $30,000
-- ISE Plus licenses: $15,000
+订阅（每年）:
+- Cisco Plus Secure许可: $90,000
+- SmartNet支持: $30,000
+- ISE Plus许可: $15,000
 
-Total first-year cost: $394,000
-Annual renewal: $135,000
+首年总成本: $394,000
+年度续订: $135,000
 ```
 
 **成本差异：** Cisco方案成本高出216%（首年269,500美元，年均103,000美元）
@@ -895,17 +891,17 @@ Annual renewal: $135,000
 
 **但建议考虑混合方案：
 ```
-Data Center / Headquarters: Cisco
-- Cisco Firepower 9300 series (high performance)
-- Cisco ISE for network access control
-- Integration with existing Cisco data center
+数据中心 / 总部: Cisco
+- Cisco Firepower 9300系列（高性能）
+- 使用Cisco ISE进行网络访问控制
+- 与现有Cisco数据中心集成
 
-Branch Offices: Fortinet
-- FortiGate appliances for cost-effective branch security
-- Integrated SD-WAN to headquarters
-- Managed via FortiManager (centralized)
+分支机构: Fortinet
+- 使用FortiGate设备经济地保护分支机构
+- 通向总部的集成SD-WAN
+- 通过FortiManager集中管理
 
-Savings: 40-50% reduction in branch office costs while maintaining Cisco core
+节省成本：保留Cisco核心网络，同时将分支机构成本降低40-50%
 ```
 
 ### 服务提供商 / MSP
@@ -957,26 +953,26 @@ ______
 **迁移最佳实践：
 
 ```
-Phase 1: Pilot (Months 1-2)
-- Deploy FortiGate in parallel at pilot site
-- Replicate existing Cisco policies
-- Train team on FortiGate management
-- Validate performance and features
+阶段1：试点（第1-2个月）
+- 在试点地点并行部署FortiGate
+- 复制现有Cisco策略
+- 培训团队管理FortiGate
+- 验证性能和功能
 
-Phase 2: Branch Rollout (Months 3-6)
-- Migrate branch offices first (simpler configurations)
-- Use cutover windows to minimize downtime
-- Keep Cisco policies documented for rollback
+阶段2：分支部署（第3-6个月）
+- 先迁移分支机构（配置较简单）
+- 利用切换窗口减少停机时间
+- 保留Cisco策略文档以便回滚
 
-Phase 3: Data Center / HQ (Months 7-9)
-- More complex configurations require careful planning
-- Consider HA cutover to minimize downtime
-- Extensive testing of all VPN connections
+阶段3：数据中心 / 总部（第7-9个月）
+- 更复杂的配置需要仔细规划
+- 考虑HA切换以减少停机时间
+- 全面测试所有VPN连接
 
-Phase 4: Decommission (Months 10-12)
-- Remove Cisco equipment after stability period
-- Return or repurpose hardware
-- Cancel Cisco SmartNet subscriptions
+阶段4：退役（第10-12个月）
+- 稳定运行一段时间后移除Cisco设备
+- 退还硬件或改作他用
+- 取消Cisco SmartNet订阅
 ```
 
 {{< figure src="cisco-to-fortinet-network-migration-phased-timeline.webp" alt="时间线图展示从 Cisco 迁移到 Fortinet 网络安全的 12 个月分阶段迁移，涵盖第 1 至 2 个月的试点部署，第 3 至 6 个月的分支部署，第 7 至 9 个月的数据中心切换，以及第 10 至 12 个月的最终退役" >}}
@@ -1007,28 +1003,28 @@ Phase 4: Decommission (Months 10-12)
 **迁移最佳实践：
 
 ```
-Phase 1: Design (Months 1-2)
-- Assess current FortiGate features in use
-- Design equivalent Cisco architecture
-- Identify features requiring additional Cisco products (ISE, etc.)
-- Validate licensing requirements with Cisco SE
+阶段1：设计（第1-2个月）
+- 评估当前使用的FortiGate功能
+- 设计等效的Cisco架构
+- 找出需要额外Cisco产品的功能（ISE等）
+- 与Cisco SE核实许可要求
 
-Phase 2: Proof of Concept (Months 3-4)
-- Deploy Cisco FMC and test firewall in lab
-- Replicate critical policies and test thoroughly
-- Train security team on FMC management
-- Benchmark performance under realistic load
+阶段2：概念验证（第3-4个月）
+- 在实验室部署Cisco FMC和测试防火墙
+- 复制关键策略并进行充分测试
+- 培训安全团队管理FMC
+- 在真实负载条件下测试性能
 
-Phase 3: Phased Deployment (Months 5-12)
-- Deploy Cisco firewalls at new locations first
-- Cutover existing locations during maintenance windows
-- Maintain FortiGate parallel for 30-60 days
-- Extensive VPN and application testing
+阶段3：分阶段部署（第5-12个月）
+- 先在新地点部署Cisco防火墙
+- 在维护窗口内切换现有地点
+- 让FortiGate并行运行30-60天
+- 全面测试VPN和应用程序
 
-Phase 4: Optimization (Months 13-18)
-- Leverage advanced Cisco features (TrustSec, etc.)
-- Integrate with other Cisco products
-- Optimize policies and rule bases
+阶段4：优化（第13-18个月）
+- 使用Cisco高级功能（TrustSec等）
+- 与其他Cisco产品集成
+- 优化策略和规则集
 ```
 
 ______
@@ -1099,29 +1095,15 @@ ______
 ### 决策树
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Do you have existing Cisco campus network (ISE)?      │
-└───────────────┬─────────────────────────────────────────┘
-                │
-        ┌───────┴───────┐
-       YES             NO
-        │               │
-        │               │
-        v               v
-┌──────────────┐  ┌─────────────────┐
-│ Need TrustSec │  │ Need integrated │
-│ micro-seg?    │  │ SD-WAN?         │
-└───┬──────────┘  └────────┬────────┘
-    │                      │
-  ┌─┴─┐                  ┌─┴─┐
- YES NO                 YES NO
-  │   │                  │   │
-  v   v                  v   v
-┌────┐ ┌──────┐      ┌────┐ ┌──────┐
-│Cisco│ │Either│      │Fort│ │Either│
-│wins │ │works │      │inet│ │works │
-└────┘ └──────┘      │wins│ └──────┘
-                     └────┘
+是否已有Cisco园区网络（ISE）？
+├─ 是
+│  └─ 需要TrustSec微分段？
+│     ├─ 是: Cisco更优
+│     └─ 否: 两者均适用
+└─ 否
+   └─ 需要集成SD-WAN？
+      ├─ 是: Fortinet更优
+      └─ 否: 两者均适用
 ```
 
 ### 选择标准评分表

@@ -1,17 +1,16 @@
 ---
 title: "Comparația agenților de codare CLI: Claude Code, Codex, Gemini, OpenCode, Copilot și Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Compară șase agenți de codare în terminal după flux de lucru, automatizare, acces la modele, permisiuni și efort de revizuire. Creează o listă scurtă printr-un test repetabil în repository."
 genre: ["Instrumente pentru dezvoltatori", "Inteligență artificială", "Dezvoltare software"]
-tags: ["agenți de codare CLI", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "agenți de terminal", "automatizare headless", "agent harness", "furnizori de modele", "fluxuri Git", "comparație agenți de codare", "instrumente shell", "asistent de codare", "permisiuni agent", "context repository", "automatizare CI", "revizuire cod", "instrumente pentru dezvoltatori"]
+tags: ["agenți de codare CLI", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "agenți de terminal", "automatizare headless", "cadru pentru agenți de programare", "furnizori de modele", "fluxuri Git", "comparație agenți de codare", "instrumente shell", "asistent de codare", "permisiuni agent", "context repository", "automatizare CI", "revizuire cod", "instrumente pentru dezvoltatori"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "Șase ferestre abstracte de terminal înconjoară un simbol de repository într-o grilă echilibrată pe fundal întunecat"
 coverCaption: ""
 ---
-
 **Agenții de codare din terminal** folosesc o interfață familiară, dar diferă prin colectarea contextului, editarea fișierelor, cererea aprobării și integrarea în scripturi. Acest ghid compară Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI și Aider. Evaluează fluxurile lor de terminal separat de produsele desktop ale fiecărui furnizor.
 
 **Începe cu restricțiile tale.** Accesul la furnizor, automatizarea repetabilă și obiceiurile de revizuire sunt filtre mai bune decât un clasament general. Recomandările de mai jos sunt judecăți editoriale bazate pe documentația oficială verificată la 10 octombrie 2026, nu clasamente de performanță măsurată.
@@ -98,10 +97,10 @@ coverCaption: ""
 **Instrucțiunile proiectului cer verificare.** Oferă fiecărui instrument aceeași comandă de build, criterii de acceptare și excluderi prin mecanismul de instrucțiuni acceptat. Cere-i să repete restricțiile active înainte de editare. Un fișier de instrucțiuni lipsă este un defect de configurare, nu un benchmark al modelului.
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+Sarcină: Remediază reproducerea furnizată fără să modifici API-ul public.
+Domeniu: Păstrează modificările fără legătură și evită dependențele noi.
+Dovezi: Rulează testul de regresie existent și testele adiacente relevante.
+Raport: Explică cauza, fișierele modificate, verificările și incertitudinile rămase.
 ```
 
 **Acest prompt de test este limitat intenționat.** Adaugă o reproducere cunoscută și verificări scrise independent. Folosește același commit inițial în checkout-uri separate. Notează versiunea instrumentului, modelul, furnizorul, politica permisiunilor, timpul scurs și intervențiile.

@@ -1,7 +1,7 @@
 ---
 title: "効率的で安全なDockerコンテナの構築：初心者のためのガイド"
 date: 2023-02-24
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "この包括的なガイドでは、ベストプラクティス、ヒント、ステップバイステップの手順を使用して、効率的で安全なDockerコンテナを作成する方法について説明します。"
@@ -82,7 +82,7 @@ Dockerfileの各行がDockerイメージに新しいレイヤーを作成し、�
 
 Ex：
 ```dockerfile
-RUN apt update 
+RUN apt update
 RUN apt install apache -y
 ```
 対
@@ -101,22 +101,22 @@ docker run -e PORT=3000 my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# 作業ディレクトリを設定
 WORKDIR /app
 
-# Copy package.json and yarn.lock to the container
+# package.json と yarn.lock をコンテナにコピー
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# 依存関係をインストール
 RUN yarn install --frozen-lockfile
 
-# Copy the application code to the container
+# アプリケーションコードをコンテナにコピー
 COPY . .
 
-# Expose the application port
+# アプリケーションのポートを公開
 EXPOSE $PORT
 
-# Start the application
+# アプリケーションを起動
 CMD ["yarn", "start"]
 ```
 
@@ -133,25 +133,25 @@ docker run -v /home/user/app/data:/app/data my-app
 ```Dockerfile
 FROM node:14
 
-# Set the working directory
+# 作業ディレクトリを設定
 WORKDIR /app
 
-# Copy the package.json and yarn.lock files to the container
+# package.json と yarn.lock ファイルをコンテナにコピー
 COPY package.json yarn.lock ./
 
-# Install dependencies
+# 依存関係をインストール
 RUN yarn install --frozen-lockfile
 
-# Copy the rest of the application code to the container
+# 残りのアプリケーションコードをコンテナにコピー
 COPY . .
 
-# Expose the application port
+# アプリケーションのポートを公開
 EXPOSE 3000
 
-# Start the application
+# アプリケーションを起動
 CMD ["yarn", "start"]
 
-# Mount a volume for the application data
+# アプリケーションデータ用のボリュームをマウント
 VOLUME ["/app/data"]
 ```
 
@@ -163,25 +163,25 @@ Ex：
 ```Dockerfile
 FROM node:14
 
-# Create a new user to run the container
+# コンテナ実行用のユーザーを作成
 RUN useradd --user-group --create-home --shell /bin/false app
 
-# Change the working directory to the app user's home directory
+# 作業ディレクトリをアプリユーザーのホームに変更
 WORKDIR /home/app
 
-# Install dependencies as the app user
+# アプリユーザーとして依存関係をインストール
 COPY package.json yarn.lock ./
 RUN chown -R app:app /home/app
 USER app
 RUN yarn install --frozen-lockfile --production
 
-# Copy the application code as the app user
+# アプリユーザーとしてアプリケーションコードをコピー
 COPY --chown=app:app . .
 
-# Expose the port
+# ポートを公開
 EXPOSE 3000
 
-# Start the application as the app user
+# アプリユーザーとしてアプリケーションを起動
 CMD ["yarn", "start"]
 ```
 
@@ -193,19 +193,19 @@ Ex：
 ```Dockerfile
 FROM ubuntu:latest
 
-# Update the package list and install security updates
+# パッケージ一覧を更新してセキュリティ更新をインストール
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
-# Install the nginx web server
+# nginx Web サーバーをインストール
 RUN apt-get install -y nginx
 
-# Copy the application code to the container
+# アプリケーションコードをコンテナにコピー
 COPY . /var/www/html/
 
-# Expose port 80 to the host system
+# ホストにポート 80 を公開
 EXPOSE 80
 
-# Start the nginx server
+# nginx サーバーを起動
 CMD ["nginx", "-g", "daemon off;"]
 
 ```

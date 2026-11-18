@@ -1,6 +1,7 @@
 ---
 title: "Понимание классификации информации: Кто определяет и назначает уровни классификации"
 date: 2023-06-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Узнайте о процессе классификации информации, в том числе о том, кто назначает и присваивает уровни классификации, а также о важности соблюдения государственных норм."
@@ -76,7 +77,7 @@ OCA - это лицо, уполномоченное исполнительным
 
 Соблюдение этих требований позволяет организациям и частным лицам, работающим с секретной информацией, гарантировать соблюдение надлежащих процедур и принятие необходимых мер безопасности для защиты секретных данных. Несоблюдение этих правил может привести к серьезным последствиям, включая юридические санкции и ущерб национальной безопасности.
 
-Для получения более подробной информации об этих нормах и их конкретных требованиях можно обратиться к официальной документации и ресурсам, предоставляемым соответствующими органами. Например, вы можете ознакомиться с **Executive Order 13526** на сайте [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) website, explore the **NISPOM** on the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) website, and find detailed information about **ITAR** on the [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing) сайт.
+Подробнее об этих нормах и конкретных требованиях можно узнать из официальных документов и ресурсов соответствующих органов. Например, ознакомьтесь с **Executive Order 13526** в [архиве Белого дома](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information), изучите руководство **NISPOM**, посетите [сайт Агентства контрразведки и безопасности Министерства обороны США (DCSA)](https://www.dcsa.mil/) и найдите подробные сведения об **ITAR** на сайте [Государственного департамента США](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing).
 
 ______
 

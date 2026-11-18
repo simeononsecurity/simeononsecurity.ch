@@ -30,7 +30,7 @@ Un context de 128K tokeni adaugă o alocare mare. Dimensiunea exactă a cache-ul
 | **24GB discrete GPU** | Greutăți pe 4 biți cu context redus sau offload parțial |
 | **32GB discrete GPU** | Greutăți pe 6 biți cu o țintă utilă de context 128K |
 | **Două GPU-uri de 16GB** | Model împărțit, cu mai puțin spațiu pentru overhead-ul runtime |
-| **64GB unified memory** | Context și modele mai mari, în limita alocării memoriei GPU |
+| **64 GB de memorie unificată** | Context și modele mai mari, în limita alocării memoriei GPU |
 
 **32 GB este un punct de dimensionare, nu o garanție.** Modelul se poate încărca și totuși să rămână prea puțin spațiu pentru un prompt lung, un batch mai mare, intrări multimodale sau un al doilea proces.
 

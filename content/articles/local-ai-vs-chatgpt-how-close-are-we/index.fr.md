@@ -1,7 +1,7 @@
 ---
 title: "IA locale contre ChatGPT : où en sommes-nous vraiment ?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Comparez l'IA locale à ChatGPT et Claude avec des scores de référence, des estimations de mémoire, la vitesse de service et la vérification des agents. Inclut des scénarios RTX 5090, DGX Spark et Mac Studio."
@@ -48,8 +48,8 @@ La [méthodologie d'évaluation publiée](https://artificialanalysis.ai/methodol
 La **compatibilité mémoire** commence par trois allocations. Les poids stockent les paramètres appris. Le cache clé-valeur, ou **cache KV**, conserve les données d'attention utilisées pendant l'inférence. Les tampons d'exécution et les autres logiciels consomment l'espace restant.
 
 ```text
-Required memory = resident weights + context cache + runtime allowance
-Available memory = physical capacity - operating system and application reserve
+Mémoire requise = poids résidents + cache de contexte + marge du runtime
+Mémoire disponible = capacité physique - réserve pour le système d’exploitation et les applications
 ```
 
 La **quantification** réduit la précision de stockage des poids. Une précision plus faible réduit les besoins mémoire, avec une qualité qui dépend du modèle et du build quantifié. La précision du cache est un réglage séparé. Un fichier de poids Q4 ne prouve pas que le cache utilise quatre bits.
@@ -78,7 +78,7 @@ La **taille du téléchargement** offre un point de départ plus concret que le 
 Le **cache d'attention de Qwen** fournit un exemple calculé. Sa [configuration publiée](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json) indique 64 couches, une attention complète toutes les quatre couches, quatre têtes clé-valeur et une dimension de tête de 256.
 
 ```text
-Full-attention KV bytes per token:
+Octets KV en attention complète par jeton :
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -188,9 +188,9 @@ L'**inférence locale** convient aux tâches dont la qualité et la latence éva
 Le **temps de réparation humaine** change souvent l'économie. Une réponse locale rapide qui exige dix minutes de correction consomme plus de temps de travail qu'une réponse plus lente qui passe la revue. Comptez les résultats acceptés avec la dépense d'inférence.
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
-÷ accepted tasks
+Coût par tâche acceptée =
+(allocation matérielle + électricité + frais de service + maintenance + temps de revue)
+÷ nombre de tâches acceptées
 ```
 
 **Coût de revue indicatif :** avec un taux supposé de 30 $ par heure, huit minutes de correction coûtent 4 $ par tâche. Cent tâches de ce type consomment 400 $ de temps de revue. Ces chiffres sont des exemples arithmétiques, pas des taux d'échec mesurés pour un modèle local.

@@ -1,7 +1,7 @@
 ---
 title: "Utilitzeu ChatGPT al vostre terminal (Bash, PowerShell, Python): una introducció a l'eina CLI de ChatGPT per a desenvolupadors"
 date: 2023-02-07
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Apreneu a utilitzar el model ChatGPT d'OpenAI mitjançant la còmoda interfície de línia d'ordres (CLI) per generar text i respondre preguntes amb facilitat."
@@ -32,27 +32,27 @@ pip install chatgpt requests pyreadline3
 Un cop instal·lats, els desenvolupadors poden utilitzar la CLI de ChatGPT per generar text o respondre preguntes amb facilitat. Per exemple, per generar text basat en un indicador, els desenvolupadors poden utilitzar l'ordre següent:
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "Quin és el propòsit de l’existència?"
 ```
 
 O, per respondre una pregunta:
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "Quina és la capital de França?"
 ```
 
 La CLI de ChatGPT també es pot utilitzar amb scripts bàsics:
 
 **Linux:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="Quin és el sentit de la vida?"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "Quin és el sentit de la vida?"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

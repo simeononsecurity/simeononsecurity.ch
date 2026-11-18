@@ -1,7 +1,7 @@
 ---
 title: "स्थानीय AI बनाम ChatGPT: हम वास्तव में कितने करीब हैं?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "बेंचमार्क स्कोर, मेमोरी अनुमान, सर्विंग गति और एजेंट सत्यापन के आधार पर स्थानीय AI की तुलना ChatGPT और Claude से करें। इसमें RTX 5090, DGX Spark और Mac Studio परिदृश्य शामिल हैं।"
@@ -48,8 +48,8 @@ coverCaption: "स्थानीय और होस्टेड AI का व�
 **मेमोरी फिट** तीन आवंटनों से शुरू होता है। मॉडल वेट सीखे हुए पैरामीटर रखते हैं। की-वैल्यू, या **KV कैश**, इन्फरेंस में इस्तेमाल होने वाला अटेंशन डेटा रखता है। रनटाइम बफर और अन्य सॉफ्टवेयर बाकी जगह लेते हैं।
 
 ```text
-Required memory = resident weights + context cache + runtime allowance
-Available memory = physical capacity - operating system and application reserve
+आवश्यक मेमोरी = रेज़िडेंट वेट + कॉन्टेक्स्ट कैश + रनटाइम के लिए अतिरिक्त जगह
+उपलब्ध मेमोरी = भौतिक क्षमता - ऑपरेटिंग सिस्टम और ऐप्लिकेशन के लिए आरक्षित भाग
 ```
 
 **क्वांटाइजेशन** मॉडल वेट की स्टोरेज सटीकता घटाता है। कम सटीकता मेमोरी आवश्यकता घटाती है, लेकिन गुणवत्ता मॉडल और क्वांटाइज्ड बिल्ड पर निर्भर करती है। कैश सटीकता अलग सेटिंग है। Q4 वेट फाइल चार-बिट कैश सिद्ध नहीं करती।
@@ -78,7 +78,7 @@ Available memory = physical capacity - operating system and application reserve
 **Qwen का अटेंशन कैश** गणना का उदाहरण देता है। इसकी [प्रकाशित कॉन्फिगरेशन](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json) 64 लेयर, हर चौथी लेयर पर फुल अटेंशन, चार की-वैल्यू हेड और 256 हेड आयाम बताती है।
 
 ```text
-Full-attention KV bytes per token:
+प्रति टोकन पूर्ण-अटेंशन KV बाइट:
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -188,8 +188,8 @@ Ollama कहता है कि स्थानीय निष्पादन
 **मानवीय सुधार समय** अर्थशास्त्र बदलता है। तेज स्थानीय उत्तर को दस मिनट सुधार चाहिए तो वह समीक्षा पास करने वाले धीमे उत्तर से अधिक काम का समय लेता है। इन्फरेंस खर्च के साथ स्वीकार किए गए परिणाम गिनें।
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
+स्वीकृत प्रति कार्य लागत =
+(हार्डवेयर आवंटन + बिजली + सेवा शुल्क + रखरखाव + समीक्षा समय)
 ÷ accepted tasks
 ```
 

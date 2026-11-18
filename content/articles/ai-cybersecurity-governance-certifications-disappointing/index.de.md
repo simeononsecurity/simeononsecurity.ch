@@ -3,7 +3,7 @@ title: "KI-Cybersicherheit und Governance-Zertifizierungen halten nicht mit dem 
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "Eine Facheinschätzung zur Lücke zwischen KI-Governance-Zertifizierungen und tatsächlicher KI-Sicherheitspraxis. Wir haben mehrere davon abgelegt und waren enttäuscht. Die Frameworks sind noch jung und governance-orientiert. Die Angriffsfläche ist schneller gewachsen."
 tags: ["KI-Sicherheit", "KI-Governance", "KI-Zertifizierungen", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "Prompt-Injection", "KI-Cybersicherheit", "LLM-Sicherheit", "OWASP LLM Top 10", "MITRE ATLAS", "KI-Risikomanagement", "KI-Compliance", "Machine-Learning-Sicherheit", "Modell-Lieferkette", "gegnerische KI", "KI-Agenten", "MCP-Sicherheit", "KI-Red-Teaming", "KI-Governance-Zertifizierungen", "agentische KI", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"

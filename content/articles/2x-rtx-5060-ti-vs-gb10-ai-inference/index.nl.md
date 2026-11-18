@@ -1,7 +1,7 @@
 ---
 title: "2x RTX 5060 Ti versus GB10: lokale AI-benchmark met vijf modellen bij 256K context"
 date: 2026-10-10
-lastmod: 2026-11-07
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Vergelijking van vijf modellen op RTX 5060 Ti en GB10, plus een benchmark op dezelfde host van Qwen3.8 Flash-Next Strata tot 256K context."
@@ -27,7 +27,7 @@ De NVIDIA GB10 gebruikt 128 GB coherent unified memory. NVIDIA vermeldt 128 GB L
 | Systeem | Geheugen | Geheugenmodel | Vermogenscijfer |
 |---|---:|---|---:|
 | **2x RTX 5060 Ti 16 GB** | 32 GB totaal | Twee aparte GPU-geheugenpools | 360 W totaal voor GPU's |
-| **GB10-systeem** | 128 GB | Coherent unified system memory | 140 W GB10 TDP |
+| **GB10-systeem** | 128 GB | Coherent gedeeld systeemgeheugen | 140 W GB10 TDP |
 
 De GB10 wint niet elke doorvoertest omdat LPDDR5x dezelfde bandbreedte als discrete GPU's biedt. Het voordeel zit in capaciteit en plaatsing. CPU en GPU delen één adresruimte, zodat de werkset niet binnen twee geïsoleerde pools van 16 GB hoeft te passen.
 
@@ -109,7 +109,7 @@ Bij 256K verwerkte het systeem met twee kaarten prompts voor GPT-OSS en Qwen3.5 
 
 Drie extra runs maten Qwen3.8 Flash-Next GGUF-pakketten op het systeem met twee RTX 5060 Ti-kaarten bij contextinstellingen van 4K en 16K. De exacte Hugging Face-modelreferentie en kwantisatie staan in elke rij.
 
-| Exact model | Kwantisatie | Generatie 4K | Generatie 16K |
+| Exacte modelreferentie | Kwantisatie | Generatie 4K | Generatie 16K |
 |---|---:|---:|---:|
 | [`hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ2_XS`](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ2_XS) | IQ2_XS | 31.77 tok/s | 28.20 tok/s |
 | [`hf.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF:IQ3_S`](https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ3_S) | IQ3_S | 24.54 tok/s | 22.60 tok/s |
@@ -135,7 +135,7 @@ Dit vergelijkt complete stacks. Modelarchitectuur, kwantisatie, verpakking, expe
 
 ### Testsysteem en methode
 
-| Component | Vastgelegde configuratie |
+| Onderdeel | Vastgelegde configuratie |
 |---|---|
 | **GPU's** | 2x NVIDIA GeForce RTX 5060 Ti, elk 16 GiB, compute capability 12.0 |
 | **GPU-verbinding** | PCIe 4.0 x4 per kaart, PHB-topologie, geen NVLink |

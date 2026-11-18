@@ -1,7 +1,7 @@
 ---
 title: "Creare un programma efficace di formazione sulla consapevolezza della cybersicurezza"
 date: 2023-02-18
-lastmod: 2026-10-21
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Imparate a costruire e gestire un efficace programma di formazione sulla consapevolezza della cybersecurity che riduca il rischio di attacchi informatici e protegga i dati sensibili."
@@ -10,7 +10,7 @@ cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_w
 coverAlt: "Un'immagine animata di un gruppo di dipendenti riuniti intorno a un computer o un esperto di sicurezza che spiega i concetti di cybersecurity su una lavagna."
 coverCaption: ""
 ---
- per costruire e gestire un efficace programma di formazione sulla consapevolezza della sicurezza informatica**
+**Come creare e gestire un programma efficace di formazione sulla consapevolezza della cybersicurezza**
 
 Nell'attuale mondo guidato dalla tecnologia, le minacce alla sicurezza informatica stanno diventando sempre più sofisticate e pervasive. I criminali informatici possono violare anche i sistemi più sicuri e rubare dati sensibili, con conseguenti perdite finanziarie e di reputazione per le organizzazioni. Per proteggersi da tali minacce, è fondamentale disporre di un **efficace programma di formazione sulla consapevolezza della sicurezza informatica**. Questo articolo illustra i passi necessari per costruire e gestire un programma di formazione efficace sulla consapevolezza della sicurezza informatica, confrontandolo con lo standard NIST 800-50 per lo stesso argomento e migliorandolo.
 
@@ -40,7 +40,7 @@ ______
 
 ## Fase 5: erogazione della formazione
 
-La quinta fase consiste nel **consegnare la formazione**. Si tratta di condurre le sessioni di formazione o di mettere i materiali formativi a disposizione dei destinatari. È essenziale garantire che la formazione sia coinvolgente e interattiva per mantenere l'interesse e la motivazione del pubblico.
+Il quinto passo è **erogare la formazione**. Si tratta di condurre le sessioni di formazione o di mettere i materiali formativi a disposizione dei destinatari. È essenziale garantire che la formazione sia coinvolgente e interattiva per mantenere l'interesse e la motivazione del pubblico.
 
 ______
 

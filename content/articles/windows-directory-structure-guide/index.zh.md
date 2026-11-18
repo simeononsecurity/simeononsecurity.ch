@@ -1,7 +1,7 @@
 ---
 title: "Windows目录结构"
 date: 2023-07-26
-lastmod: 2026-10-08
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: 2026年完整指南，涵盖Windows目录结构，包括视觉图示、Windows 11更新、安全注意事项以及高效文件管理的专家导航技巧。
@@ -75,53 +75,53 @@ ______
 以下是Windows文件系统层级的全面视觉表示：
 
 ```
-C:\ (Root Directory)
+C:\ (根目录)
 │
-├── Windows\                    [System files and OS components]
-│   ├── System32\              [64-bit system files and executables]
-│   ├── SysWOW64\              [32-bit compatibility layer on 64-bit systems]
-│   ├── Boot\                  [Boot configuration and startup files]
-│   ├── Fonts\                 [System fonts]
-│   ├── Temp\                  [System temporary files]
-│   ├── assembly\              [.NET Framework assemblies]
-│   ├── inf\                   [Driver installation information]
-│   ├── WinSxS\                [Windows Side-by-Side component store]
-│   ├── Logs\                  [System log files]
-│   └── Security\              [Security policies and templates]
+├── Windows\                    [系统文件和操作系统组件]
+│   ├── System32\              [64 位系统文件和可执行文件]
+│   ├── SysWOW64\              [64 位系统上的 32 位兼容层]
+│   ├── Boot\                  [启动配置和启动文件]
+│   ├── Fonts\                 [系统字体]
+│   ├── Temp\                  [系统临时文件]
+│   ├── assembly\              [.NET Framework 程序集]
+│   ├── inf\                   [驱动程序安装信息]
+│   ├── WinSxS\                [Windows Side-by-Side 组件存储区]
+│   ├── Logs\                  [系统日志文件]
+│   └── Security\              [安全策略和模板]
 │
-├── Program Files\              [64-bit applications (on 64-bit systems)]
-│   ├── Common Files\          [Shared program components]
-│   └── [Application Folders]  [Individual installed programs]
+├── Program Files\              [64 位应用程序（在 64 位系统上）]
+│   ├── Common Files\          [共享程序组件]
+│   └── [应用程序文件夹]  [单独安装的程序]
 │
-├── Program Files (x86)\        [32-bit applications on 64-bit systems]
+├── Program Files (x86)\        [64 位系统上的 32 位应用程序]
 │   ├── Common Files\
-│   └── [Application Folders]
+│   └── [应用程序文件夹]
 │
-├── Users\                      [User profile directories]
-│   ├── Public\                [Shared user files]
-│   ├── [Username]\            [Individual user profiles]
-│   │   ├── Desktop\           [Desktop files]
-│   │   ├── Documents\         [User documents]
-│   │   ├── Downloads\         [Downloaded files]
-│   │   ├── Pictures\          [User images]
-│   │   ├── Videos\            [User videos]
-│   │   ├── Music\             [User audio files]
-│   │   ├── AppData\           [Application data]
-│   │   │   ├── Local\         [Machine-specific app data]
-│   │   │   ├── LocalLow\      [Low-integrity app data]
-│   │   │   └── Roaming\       [Roaming profile data]
-│   │   ├── OneDrive\          [Cloud-synced files (Windows 11)]
-│   │   └── Contacts\          [User contacts]
+├── Users\                      [用户配置文件目录]
+│   ├── Public\                [共享用户文件]
+│   ├── [用户名]\            [单个用户配置文件]
+│   │   ├── Desktop\           [桌面文件]
+│   │   ├── Documents\         [用户文档]
+│   │   ├── Downloads\         [下载的文件]
+│   │   ├── Pictures\          [用户图像]
+│   │   ├── Videos\            [用户视频]
+│   │   ├── Music\             [用户音频文件]
+│   │   ├── AppData\           [应用程序数据]
+│   │   │   ├── Local\         [特定于计算机的应用程序数据]
+│   │   │   ├── LocalLow\      [低完整性应用程序数据]
+│   │   │   └── Roaming\       [漫游配置文件数据]
+│   │   ├── OneDrive\          [与云同步的文件（Windows 11）]
+│   │   └── Contacts\          [用户联系人]
 │
-├── ProgramData\                [Shared application data (hidden)]
+├── ProgramData\                [共享应用程序数据（隐藏）]
 │   ├── Microsoft\
-│   └── [Application Data]
+│   └── [应用程序数据]
 │
-├── PerfLogs\                   [Performance logs and reports]
+├── PerfLogs\                   [性能日志和报告]
 │
-├── $Recycle.Bin\              [Recycle bin (hidden)]
+├── $Recycle.Bin\              [回收站（隐藏）]
 │
-└── System Volume Information\  [System restore points (hidden)]
+└── System Volume Information\  [系统还原点（隐藏）]
 ```
 
 ______
@@ -303,9 +303,9 @@ ______
 cd [path]              # Change directory
 dir                    # List directory contents
 dir /a                 # List all files including hidden
-dir /s                 # List recursively through subdirectories
+dir /s                 # 递归列出子目录
 tree                   # Display directory tree structure
-mkdir [name]           # Create new directory
+mkdir [name]           # 创建新目录
 rmdir [name]           # Remove directory
 pushd [path]           # Save current location and change directory
 popd                   # Return to saved location
@@ -326,28 +326,28 @@ C:\Users\JohnDoe>tree /F
 **基本PowerShell命令：**
 
 ```powershell
-Set-Location [path]              # Change directory (alias: cd)
-Get-ChildItem                    # List items (alias: dir, ls)
-Get-ChildItem -Recurse           # List recursively
-Get-ChildItem -Force             # Show hidden items
-Test-Path [path]                 # Check if path exists
-New-Item -ItemType Directory     # Create new directory
-Remove-Item [path]               # Delete item
-Get-Item [path]                  # Get item properties
-Resolve-Path [path]              # Convert relative to absolute path
+Set-Location [path]              # 更改目录（别名：cd）
+Get-ChildItem                    # 列出项目（别名：dir、ls）
+Get-ChildItem -Recurse           # 递归列出
+Get-ChildItem -Force             # 显示隐藏项目
+Test-Path [path]                 # 检查路径是否存在
+New-Item -ItemType Directory     # 创建新目录
+Remove-Item [path]               # 删除项目
+Get-Item [path]                  # 获取项目属性
+Resolve-Path [path]              # 将相对路径转换为绝对路径
 ```
 
 **高级PowerShell示例：**
 ```powershell
-# Find all .log files larger than 10MB
-Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log | 
-    Where-Object {$_.Length -gt 10MB} | 
+# 查找所有大于 10MB 的 .log 文件
+Get-ChildItem -Path C:\Windows\Logs -Recurse -Filter *.log |
+    Where-Object {$_.Length -gt 10MB} |
     Select-Object Name, Length, LastWriteTime
 
-# Calculate directory size
-$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue | 
+# 计算目录大小
+$size = (Get-ChildItem -Path "C:\Program Files" -Recurse -ErrorAction SilentlyContinue |
     Measure-Object -Property Length -Sum).Sum / 1GB
-Write-Output "Directory size: $([math]::Round($size, 2)) GB"
+Write-Output "目录大小： $([math]::Round($size, 2)) GB"
 ```
 
 ### 4. Windows终端（2026标准）
@@ -440,12 +440,12 @@ Windows使用**NTFS权限**控制目录和文件访问。理解权限对安全�
 
 **PowerShell权限审计示例：**
 ```powershell
-# Get ACL for a directory
+# 获取目录的 ACL
 Get-Acl "C:\Program Files\Application" | Format-List
 
-# Export permissions to CSV
-Get-ChildItem "C:\Important" -Recurse | Get-Acl | 
-    Select-Object Path, Owner, AccessToString | 
+# 将权限导出为 CSV
+Get-ChildItem "C:\Important" -Recurse | Get-Acl |
+    Select-Object Path, Owner, AccessToString |
     Export-Csv "C:\Audit\permissions.csv"
 ```
 
@@ -481,24 +481,24 @@ subst Z: "C:\Very\Long\Path\Structure"
 
 **解决方案：**
 ```powershell
-# Take ownership of a file/folder
+# 取得文件/文件夹的所有权
 takeown /F "C:\Path\To\File" /R /D Y
 
-# Grant permissions
+# 授予权限
 icacls "C:\Path\To\File" /grant username:F /T
 ```
 
 ### 问题3：WinSxS目录占用过多空间
 
 **解决方案：**
-```cmd
-# Analyze component store
+```powershell
+# 分析组件存储
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
 
-# Clean up component store
+# 清理组件存储
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 
-# Remove superseded versions (irreversible)
+# 删除已被替代的版本（此操作不可撤销）
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 
@@ -520,10 +520,10 @@ Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 - 删除不必要的应用数据
 
 ```powershell
-# Show largest folders in AppData
-Get-ChildItem "$env:LOCALAPPDATA" -Directory | 
+# 显示 AppData 中最大的文件夹
+Get-ChildItem "$env:LOCALAPPDATA" -Directory |
     ForEach-Object {
-        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | 
+        $size = (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue |
             Measure-Object -Property Length -Sum).Sum / 1MB
         [PSCustomObject]@{
             Folder = $_.Name
@@ -624,11 +624,11 @@ robocopy C:\Source D:\Destination /MIR /R:3 /W:10 /LOG:copy.log
 ### 3. PowerShell模块
 
 ```powershell
-# Install useful modules
+# 安装有用的模块
 Install-Module -Name PSWriteColor
 Install-Module -Name Terminal-Icons
 
-# Enhanced directory listing with icons
+# 带图标的增强目录列表
 Get-ChildItem | Format-Table -AutoSize
 ```
 
@@ -650,7 +650,7 @@ ______
 
 **启用审核：**
 ```powershell
-# Enable file auditing via PowerShell
+# 使用 PowerShell 启用文件审核
 $acl = Get-Acl "C:\Important\Directory"
 $auditRule = New-Object System.Security.AccessControl.FileSystemAuditRule(
     "Everyone","Write","Success")
@@ -671,6 +671,35 @@ Set-Acl "C:\Important\Directory" $acl
 - 部署文件筛选器防止未经授权的文件类型
 
 ______
+
+## 当前 Windows 路径说明
+
+在受支持的桌面版本中，Windows 保留相同的主要文件夹，但某些路径需要谨慎处理：
+
+| 路径 | 当前作用 | 安全处理方式 |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | 与已安装架构对应的原生系统二进制文件和库。在 64 位 Windows 上，32 位进程通过 **`SysWOW64`** 使用 Windows-on-Windows 层。 | 不要手动替换文件。请使用 Windows Update、DISM 或供应商安装程序。 |
+| **`C:\Windows\WinSxS`** | 用于维护和恢复的组件存储。硬链接会导致文件资源管理器的大小估算产生误差。 | 使用 DISM 分析并清理组件存储。不要删除此文件夹中的文件。 |
+| **`C:\Users\<name>\AppData`** | 每个用户的应用程序状态。`Local`、`LocalLow` 和 `Roaming` 分别满足不同的应用和配置文件需求。 | 清理缓存前备份应用程序数据。不要假设每个文件夹都能删除。 |
+| **WSL 2 发行版存储** | 发行版使用位于软件包 `LocalState` 目录中的 `ext4.vhdx` 虚拟磁盘。 | 磁盘维护前导出或关闭发行版。不要像编辑普通文件夹那样修改虚拟磁盘。 |
+
+旧图示和示例仍可作为结构地图。Microsoft 说明了 WSL 2 虚拟磁盘路径，并解释发行版为何存储在虚拟硬盘中，而非普通 Windows 文件中。软件包的确切名称取决于发行版和安装方式。请参阅 [Microsoft 的 WSL 磁盘空间指南](https://learn.microsoft.com/en-us/windows/wsl/disk-space)。
+
+Microsoft 已于 2025 年 10 月 14 日终止对 Windows 10 版本 22H2 的支持，但具有独立生命周期条款的版本或符合条件的 Extended Security Update 安排除外。2026 年应将 Windows 10 视为迁移或例外管理事项。请参阅 [Microsoft 的 Windows 10 生命周期通知](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support)。
+
+原有章节中的大小范围和采用率是示例数据，并非本站测量结果。目录大小取决于已安装软件、更新历史、配置文件内容和保留策略。删除内容前请检查本地系统。
+
+## 安全维护目录检查清单
+
+1. 更改受保护目录前，记录路径、所有者、ACL 和业务用途。
+2. 删除应用程序数据或更改权限前，创建或确认可恢复的备份。
+3. 优先使用受支持的工具，例如 **Storage Sense**、**DISM**、**`robocopy`** 和应用程序卸载程序。
+4. 如果任务不需要提升权限，请使用标准用户帐户测试更改。
+5. 维护后检查事件查看器和应用程序日志。
+6. 保留回滚记录，写明原始路径、命令、时间和结果。
+
+**不要对未经检查的目标使用 `/MIR`。** `robocopy /MIR` 会删除目标中源目录不存在的文件。
+
 
 ## 结论
 

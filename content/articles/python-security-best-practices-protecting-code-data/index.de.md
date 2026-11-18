@@ -1,6 +1,7 @@
 ---
 title: "Bewährte Python-Sicherheitspraktiken: Schützen Sie Ihren Code und Ihre Daten"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Lernen Sie die wichtigsten Best Practices für Python-Sicherheit kennen, um Ihren Code und Ihre Daten vor potenziellen Bedrohungen zu schützen, Datenschutz und Systemintegrität zu gewährleisten und Vertrauen aufzubauen."
@@ -183,7 +184,7 @@ Hier ist ein kurzer Spickzettel, der die in diesem Artikel besprochenen **Python
 
 4. **Schützen Sie sensible Daten** mit **starken Verschlüsselungstechniken**. Verwenden Sie bewährte Verschlüsselungsalgorithmen wie **AES (Advanced Encryption Standard)** und sorgen Sie für eine sichere Speicherung und Übertragung sensibler Daten. Sie können sich auf die [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) für weitere Informationen.
 
-5. 5. **Sichern Sie den Datenbankzugriff**, indem Sie **prepared statements** verwenden, um SQL-Injection-Angriffe zu verhindern, und **least privilege** implementieren, um die Rechte der Datenbankbenutzer zu beschränken. Diese Praktiken minimieren das Risiko eines unbefugten Zugriffs auf sensible Daten. Erfahren Sie mehr über **Vorbereitete Anweisungen** in der [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **Sichern Sie den Datenbankzugriff** mit **vorbereiteten Anweisungen**, um SQL-Injection-Angriffe zu verhindern, und setzen Sie das **Prinzip der geringsten Rechte** um, um Datenbankbenutzerrechte einzuschränken. Diese Maßnahmen senken das Risiko eines unbefugten Zugriffs auf sensible Daten. Weitere Informationen zu vorbereiteten Anweisungen finden Sie in der [SQLAlchemy-Dokumentation](https://www.sqlalchemy.org) und zum Prinzip der geringsten Rechte im [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
 
 6. **Regelmäßige Aktualisierung von Abhängigkeiten**, um Sicherheitslücken zu schließen und von Fehlerbehebungen zu profitieren. Tools wie [Snyk - Open Source Security Platform](https://snyk.io/) kann Ihnen helfen, Schwachstellen in Ihren Projektabhängigkeiten zu erkennen.
 

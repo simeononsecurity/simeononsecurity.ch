@@ -1,10 +1,11 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Vergelijking van wachtwoordkraakprestaties"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ontdek de prestatiekloof tussen NVIDIA RTX 3090 en RTX 4090 bij het kraken van wachtwoorden, met aandacht voor veiligheidsimplicaties en beschermingsmaatregelen."
-tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "wachtwoord kraken", "prestatie", "beveiliging", "wachtwoordbeveiliging", "cyberbeveiliging", "benchmark", "GPU", "wachtwoord manager", "sterke wachtwoorden", "twee-factor authenticatie", "overheidsvoorschriften", "CISA", "GDPR", "gegevensbeveiliging", "hardwarevergelijking", "wachtwoordbeveiliging", "grafische kaart", "wachtwoordsterkte"]
+tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "wachtwoord kraken", "prestatie", "beveiliging", "wachtwoordbeveiliging", "cyberbeveiliging", "prestatietest", "GPU", "wachtwoord manager", "sterke wachtwoorden", "twee-factor authenticatie", "overheidsvoorschriften", "CISA", "GDPR", "gegevensbeveiliging", "hardwarevergelijking", "wachtwoordbeveiliging", "grafische kaart", "wachtwoordsterkte"]
 cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Een geïllustreerde afbeelding van een digitaal slot dat wordt gekraakt, als symbool voor de inhoud van het artikel over het kraken van wachtwoorden."
 coverCaption: ""
@@ -14,7 +15,7 @@ coverCaption: ""
 
 Bij het kraken van wachtwoorden telt elke seconde. Dit is waar de kracht van moderne grafische kaarten zoals de NVIDIA RTX 3090 en 4090 van pas kan komen. In dit artikel vergelijken we de prestaties van deze twee kaarten bij het kraken van wachtwoorden.
 
-## Password Cracking Basics
+## Basisprincipes van het kraken van wachtwoorden
 
 Voordat we in de vergelijking duiken, is het essentieel om enkele basisprincipes van het kraken van wachtwoorden te begrijpen. Wachtwoorden kunnen worden gekraakt met verschillende methoden, waaronder brute-force aanvallen, woordenboek aanvallen en rainbow table aanvallen. Elk van deze methoden heeft zijn sterke en zwakke punten, maar ze berusten allemaal op het vermogen om snel veel berekeningen uit te voeren.
 
@@ -30,7 +31,7 @@ De NVIDIA RTX 4090 is de opvolger van de RTX 3090 en is momenteel de krachtigste
 
 In benchmarks voor het kraken van wachtwoorden, uitgevoerd door simeononsecurity.com, kon de RTX 4090 een eenvoudig wachtwoord van acht tekens kraken in 60 seconden en een complex wachtwoord van acht tekens in 600 seconden. Voor een eenvoudig wachtwoord van twaalf tekens nam de tijd toe tot 6000 seconden, en voor een complex wachtwoord van twaalf tekens tot 60000 seconden.
 
-## Benchmarks
+## Benchmarkresultaten
 
 We hebben een aantal benchmarks uitgevoerd om de kraakprestaties van de **RTX 3090** en **RTX 4090** te vergelijken. We gebruikten het Hashcat-wachtwoordkraakprogramma en een aantal verschillende wachtwoordlengtes en complexiteitsniveaus.
 
@@ -49,7 +50,7 @@ Wachtwoordlengte | Complexiteit | RTX 3090 (Seconden) | RTX 4090 (Seconden)
 
 De resultaten van onze benchmarks laten zien dat de **RTX 4090** een krachtig hulpmiddel is voor het kraken van wachtwoorden. Dit betekent dat het voor aanvallers nu mogelijk is om wachtwoorden veel sneller te kraken dan ooit tevoren.
 
-Dit is een ernstig beveiligingsprobleem, omdat het betekent dat aanvallers nu veel gemakkelijker toegang kunnen krijgen tot accounts en systemen. Om uzelf te beschermen tegen aanvallen voor het kraken van wachtwoorden, moet u gebruik maken van [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) om u te helpen sterke wachtwoorden te genereren en op te slaan.
+Dit is een ernstig beveiligingsprobleem, omdat aanvallers hierdoor veel gemakkelijker toegang tot accounts en systemen krijgen. Bescherm uzelf tegen aanvallen op wachtwoorden met [**sterke wachtwoorden**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) die moeilijk te raden zijn. Gebruik ook een [**wachtwoordmanager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) om [sterke wachtwoorden te maken](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) en ze veilig op te slaan.
 
 ## Conclusie
 

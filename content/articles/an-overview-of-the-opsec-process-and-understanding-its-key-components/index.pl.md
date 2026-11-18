@@ -1,6 +1,7 @@
 ---
 title: "Zrozumienie kluczowych elementów procesu OPSEC dla skutecznej ochrony informacji"
 date: 2023-06-15
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj krytyczne elementy procesu OPSEC i dowiedz się, jak skutecznie chronić poufne informacje."
@@ -54,7 +55,7 @@ Kilka przepisów rządowych zawiera wytyczne i wymagania dotyczące wdrażania s
 
 2. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html) HIPAA ustanawia standardy bezpieczeństwa w celu ochrony poufnych informacji zdrowotnych pacjentów w sektorze opieki zdrowotnej.
 
-3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): GDPR is a regulation that sets guidelines for the protection of personal data of individuals within the European Union (EU)
+3. [General Data Protection Regulation (GDPR)](https://gdpr.eu/): Ogólne rozporządzenie o ochronie danych (RODO) określa wytyczne dotyczące ochrony danych osobowych w Unii Europejskiej (UE).
 
 Przestrzegając tych przepisów, organizacje mogą zapewnić sobie odpowiednie środki ochrony poufnych informacji i uniknąć konsekwencji prawnych.
 

@@ -1,7 +1,7 @@
 ---
 title: "AI locală vs ChatGPT: cât de aproape suntem?"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compară AI locală cu ChatGPT și Claude prin scoruri de benchmark, estimări de memorie, viteză de servire și verificarea agenților. Include RTX 5090, DGX Spark și Mac Studio."
@@ -48,8 +48,8 @@ Un model care încape în stația ta are nevoie și de instrumente potrivite și
 **Potrivirea memoriei** are trei componente. Greutățile păstrează parametrii învățați. Cache-ul cheie-valoare, sau **cache KV**, păstrează datele de atenție folosite la inferență. Bufferele runtime și software-ul consumă restul.
 
 ```text
-Required memory = resident weights + context cache + runtime allowance
-Available memory = physical capacity - operating system and application reserve
+Memorie necesară = ponderi rezidente + cache de context + rezervă pentru execuție
+Memorie disponibilă = capacitate fizică - rezerva pentru sistemul de operare și aplicații
 ```
 
 **Cuantizarea** reduce precizia de stocare a greutăților. Precizia mai mică reduce memoria, cu un compromis de calitate dependent de model și build. Precizia cache-ului este separată. Un fișier Q4 nu dovedește un cache de patru biți.
@@ -78,7 +78,7 @@ Pentru 27 de miliarde de parametri la 16 biți, greutățile cer aproximativ 50,
 **Cache-ul de atenție Qwen** oferă un exemplu calculat. [Configurația publicată](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json) specifică 64 de straturi, atenție completă la fiecare al patrulea strat, patru capete key-value și dimensiunea capului 256.
 
 ```text
-Full-attention KV bytes per token:
+Octeți KV per token cu atenție completă:
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -190,8 +190,8 @@ Un **flux hibrid** are nevoie de o regulă explicită de predare. Păstrează ex
 **Timpul de reparare umană** schimbă economia. Un răspuns local rapid care cere zece minute de corecție consumă mai mult timp decât unul lent care trece revizuirea. Numără rezultatele acceptate împreună cu costul inferenței.
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
+Cost per sarcină acceptată =
+(alocarea hardware-ului + electricitate + taxe de serviciu + mentenanță + timp de revizuire)
 ÷ accepted tasks
 ```
 

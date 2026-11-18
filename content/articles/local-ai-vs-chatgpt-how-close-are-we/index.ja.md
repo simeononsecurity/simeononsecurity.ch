@@ -1,7 +1,7 @@
 ---
 title: "ローカルAIとChatGPTの比較。本当にどこまで近づいたのか"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ベンチマークスコア、メモリ見積もり、サービング速度、エージェント検証を使い、ローカルAIとChatGPTおよびClaudeを比較します。RTX 5090、DGX Spark、Mac Studioの構成も扱います。"
@@ -48,8 +48,8 @@ coverCaption: "ローカルAIとホスト型AIの概念図。"
 **メモリ適合性**は三つの割り当てから始まります。モデルウェイトは学習済みパラメータを保存します。キー・バリュー、つまり**KVキャッシュ**は推論中の注意機構のデータを保持します。ランタイムバッファなどのソフトウェアが残りの容量を使います。
 
 ```text
-Required memory = resident weights + context cache + runtime allowance
-Available memory = physical capacity - operating system and application reserve
+必要メモリ = 常駐ウェイト + コンテキストキャッシュ + ランタイムの余裕分
+利用可能メモリ = 物理容量 - OSとアプリケーション用の予約領域
 ```
 
 **量子化**はウェイトの保存精度を下げます。低い精度は必要メモリを減らしますが、品質はモデルと量子化ビルドに依存します。キャッシュ精度は別設定です。Q4ウェイトファイルは、4ビットキャッシュを意味しません。
@@ -78,7 +78,7 @@ Available memory = physical capacity - operating system and application reserve
 **Qwenのアテンションキャッシュ**で計算例を示します。[公開設定](https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json)は、64層、4層ごとのフルアテンション、4個のキー・バリューヘッド、ヘッド次元256を指定します。
 
 ```text
-Full-attention KV bytes per token:
+フルアテンションのトークンあたりKVバイト数:
 16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes
 = 65,536 bytes
 
@@ -188,8 +188,8 @@ Ollamaはローカル実行ではプロンプトや回答を受け取らない�
 **人による修正時間**が経済性を変えます。速いローカル応答でも10分の修正が必要なら、レビューを通る遅い応答より作業時間がかかります。推論費用と受け入れ済み結果を一緒に数えてください。
 
 ```text
-Cost per accepted task =
-(hardware allocation + electricity + service fees + maintenance + review time)
+受理されたタスクあたりのコスト =
+(ハードウェア配賦 + 電気代 + サービス料金 + 保守費用 + レビュー時間)
 ÷ accepted tasks
 ```
 

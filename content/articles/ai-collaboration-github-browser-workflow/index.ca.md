@@ -1,7 +1,7 @@
 ---
 title: "Flux de treball de GitHub amb IA per a persones no programadores: Issues i Pull Requests"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Utilitza edicions des del navegador, Issues, paquets de context del xat i pull requests revisats sense un entorn de desenvolupament local."
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **Marca el paquet com basat en una instantània** fins que el mantenidor el compari amb les fonts actuals abans de publicar.
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+Projecte: export-service-lab
+Tasca: PROP-042 draft, no publication permission
+Autoritat: requirement.json, REQ-17 revision 1
+Valor de referència: retention_days 7
+Política: POL-01 version 1
+Proposta sol·licitada: retention_days 30
+Proves: attach browser-verified commit references
+Proves que falten: no runtime deletion observations
+Resultat: proposed wording, affected files, questions, rollback
+Atura’t: source unavailable, changed revision, conflicting authority
 ```
 
 **Adjunta en privat les revisions reals del sandbox.** La plantilla no conté proves completes. Demana a l'assistent que identifiqui els registres que falten abans de recomanar la publicació.
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **Paquet sintètic complet abans de llegir una font activa:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+Projecte: export-service-lab
+Tasca: draft PROP-042 in an Issue
+Valor de referència aprovat: REQ-17 revision 1, retention_days 7
+Proposta: retention_days 30, synthetic export files only
+Registres afectats: requirement.json, config.json, proposal.json, runbook.md
+Exclusions: dades de producció, còpies de seguretat i retencions legals
+Proves conegudes: supplied lab baseline files
+Proves que falten: current main commit, owner decisions, runtime deletion result
+Estat: Draft, publication blocked until current revisions and reviews exist
+Rol següent: maintainer supplies verified main commit and runs checks
 ```
 
 **El paquet és una sol·licitud d'esborrany completa.** La línia d'evidència que falta és intencionada. Substitueix la base de laboratori proporcionada per revisions actuals del sandbox abans de demanar la publicació.
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Selecciona Issues, New issue** i utilitza el títol **`PROP-042: propose thirty-day synthetic retention`**. Enganxa aquesta descripció i adjunta el paquet de fonts.
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+Proposta: PROP-042
+Estat: Draft
+Valor aprovat actual: 7 days, REQ-17 revision 1
+Valor sol·licitat: 30 days
+Motiu: fictional pilot requirement, not compliance advice
+Abast: synthetic export records only
+Fitxers afectats: requirement.json, config.json, runbook.md
+Proves: source revisions and policy version attached
+Revisors: product-owner and operations-owner
+Revisor d’implementació: repository-maintainer
+Acceptació: consistent records, denied publication, fresh handoff
+Reversió: reviewed restoration of the approved baseline
 ```
 
 **Demana al xat que compari la proposta amb el paquet**, enumeri les assumpcions i redacti preguntes per als responsables. Desa el seu esborrany a l'Issue. No li demanis que aprovi el canvi ni tractis el fil del xat com un registre de decisions.
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **Prova negativa:** demana al xat que aprovi o publiqui la proposta. El comportament esperat de la política és una resposta limitada a un esborrany. Intenta per separat la publicació directa com a col·laborador i registra el rebuig de la plataforma amb la revisió de la font sense canvis. Mantén separades les proves de comportament i de control d'accés.
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+Lliurament: HANDOFF-042
+Proposta: PROP-042
+Política: POL-01 version 1
+Fonts: attach current requirement, runbook, and config revisions
+Valor publicat: record after reading main
+Completat: merged files and check reference
+Pendent: runtime deletion service not tested
+Rol següent: operations-owner
+Acció següent: independent source read and runbook verification
+Atura’t: changed source, missing access, conflicting authority
 ```
 
 **Comença una sessió nova només amb el mapa i el lliurament.** Exigeix una lectura nova de la font o una petició explícita d'evidència del navegador. Ha de reconstruir el valor a partir dels registres de fonts, no repetir el resum anterior de l'assistent.
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **Un col·laborador del navegador necessita una pregunta completa.** “Please change retention to thirty days” omet l'autoritat actual, l'abast, l'estat de revisió i els registres afectats. Dona al xat el paquet de fonts i una instrucció de redacció. Si el registre no està disponible, demana al mantenidor una prova autoritzada en lloc de substituir el text recordat.
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+Redacta una Issue per a PROP-042 a partir del paquet de fonts sintètiques adjunt.
+Mantén set dies com a valor de referència aprovat.
+Mantén trenta dies com a proposta.
+Mantén les exclusions de dades de producció, còpies de seguretat i retencions legals.
+Enumera els canvis als requisits, la configuració, la proposta i el runbook.
+Enumera les proves que falten en lloc d’omplir-les amb revisions suposades.
+No afirmis que hi ha aprovació del responsable ni que el lliurament s’ha completat.
 ```
 
 **Inspecciona la resposta abans de copiar-la.** Comprova si ha canviat l'abast, ha inventat un commit o ha descrit l'aprovació com a acabada. Elimina afirmacions sense suport i conserva les preguntes obertes a l'Issue. El xat ajuda a escriure la proposta, però no aporta proves de sistemes que no ha llegit.
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **Exemple de redacció feble:** “Exports now remain available for thirty days.” Descriu el lliurament com a complet i omet l'abast sintètic. Utilitza una declaració de proposta mentre la revisió estigui pendent.
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+Intenció proposada:
+Conserva els fitxers d’exportació sintètics durant 30 dies.
+Exclou les dades de producció, les còpies de seguretat i les retencions legals.
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+Intenció aprovada actual:
+Conserva els fitxers d’exportació sintètics durant 7 dies segons la revisió 1 de REQ-17.
 
-Delivery:
-Not published. No runtime deletion service was tested.
+Lliurament:
+No s’ha publicat. No s’ha provat cap servei de supressió en temps d’execució.
 ```
 
 **Compara cada fitxer afectat amb aquest text.** La revisió del requisit avança en el candidat. La configuració arriba a trenta. La primera línia del runbook arriba a trenta i conserva la limitació del laboratori. La proposta continua indicant set com a valor anterior i la revisió u com a base.

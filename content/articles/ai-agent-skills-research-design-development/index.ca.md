@@ -1,7 +1,7 @@
 ---
 title: "9 projectes de skills d'agents d'IA per a recerca, disseny i desenvolupament"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Compara nou projectes de skills d'agents segons el flux de treball, el suport de l'amfitrió, les dependències i el cost. Aprèn a instal·lar, inspeccionar i provar les skills que necessites."
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **Les comandes següents provenen de la documentació actual d'instal·lació dels projectes.** Executa només la comanda del projecte escollit. El runner de paquets baixa i executa codi d'instal·lació, així que inspecciona el projecte upstream i tria l'abast abans d'executar-lo.
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: instal·lació de Codex a nivell d’usuari
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: instal·lació de Codex a nivell d’usuari
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: col·lecció oficial de skills, no el repositori del framework
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **Utilitza una tasca desada com a línia base.** Executa-la sense la skill nova i després amb la skill, mantenint constants el model, l'entrada, les eines i els criteris d'acceptació quan sigui possible. Registra els errors i les correccions humanes juntament amb el resultat final.
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# Registre d’avaluació il·lustratiu, no un esquema de configuració de skills
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

@@ -1,12 +1,12 @@
 ---
 title: "Como começar uma carreira em cibersegurança"
 date: 2023-11-05
-lastmod: 2026-11-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Conheça as funções, a importância da programação e as principais linguagens da cibersegurança. Escolha seu caminho."
-genre: ["Tecnologia", "Cibersegurança", "Carreira", "Programação", "TI", "Competências", "Oportunidades", "Aprendizagem", "Codificação", "Digital"]
-tags: ["Cibersegurança", "Planos de carreira", "Linguagens de programação", "Competências de codificação", "Funções não técnicas", "Funções técnicas", "Carreiras de TI", "Tendências tecnológicas", "Análise de segurança", "Segurança de redes", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Proteção de dados", "Perícia digital", "Hacking ético", "Desenvolvimento de software", "Defesa cibernética", "Engenharia de redes", "Consultoria de segurança", "Desenvolvimento de competências", "Segurança da informação", "Detecção de ameaças", "Resposta a incidentes", "Programação para segurança"]
+genre: ["Tecnologia", "Cibersegurança", "Carreira", "Programação", "TI", "Competências", "Oportunidades", "Aprendizagem", "Codificação", "Tecnologia digital"]
+tags: ["Cibersegurança", "Planos de carreira", "Linguagens de programação", "Competências de codificação", "Funções não técnicas", "Funções técnicas", "Carreiras de TI", "Tendências tecnológicas", "Análise de segurança", "Segurança de redes", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Proteção de dados", "Perícia digital", "Hacking ético", "Desenvolvimento de software", "Defesa cibernética", "Engenharia de redes", "Consultoria de segurança", "Desenvolvimento de competências", "Segurança da informação", "Detecção de ameaças", "Resposta a incidentes", "Programação para segurança"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Profissional de cibersegurança com capa e portátil, protegendo contra ameaças digitais."
 coverCaption: "Guardiões dos espaços digitais, em apoio a quem protege o ciberespaço"

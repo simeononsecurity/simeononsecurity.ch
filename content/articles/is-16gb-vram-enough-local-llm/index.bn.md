@@ -1,7 +1,7 @@
 ---
 title: "গুরুতর স্থানীয় LLM কাজের জন্য 16GB VRAM কি যথেষ্ট?"
 date: 2026-10-07
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "মডেল ওজন, KV cache এবং prompt processing অনুযায়ী 16GB স্থানীয় LLM সেটআপের আকার নির্ধারণ করুন। Qwen3.8 27B memory budget, GPU bandwidth এবং ownership cost তুলনা করুন।"
@@ -47,7 +47,7 @@ Quantization কম bit দিয়ে weights সংরক্ষণ করে�
 
 [ISTA-DASLab-এর GSQ-RCO model card](https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF)-এ IQ3_S-এর আকার 11.8 GB। এই পদ্ধতি size budget-এর মধ্যে বিভিন্ন tensor-এ বিভিন্ন precision দেয়। Optional MTP version প্রায় 0.35 GB যোগ করে, আর vision projector প্রায় 0.9 GB যোগ করে।
 
-| Published benchmark | BF16 / IQ3_S score |
+| প্রকাশিত বেঞ্চমার্ক | BF16 / IQ3_S স্কোর |
 |---|---|
 | AIME25 | 100.00 / 100.00 |
 | LiveCodeBench v6 | 85.71 / 85.71 |
@@ -84,14 +84,14 @@ KV cache আগে process করা token-এর attention key ও value রা
 
 এই worked example ব্যবহার করুন, যেখানে সব allocation decimal GB-এ। নিচের 1.0 GB reserve planning assumption, universal runtime default নয়।
 
-| Allocation | Vision on / vision off |
+| Allocation | ভিশন চালু / ভিশন বন্ধ |
 |---|---|
 | Physical 16 GiB capacity | 17.180 / 17.180 GB |
-| Model weights | 11.800 / 11.800 GB |
+| মডেলের ওজন | 11.800 / 11.800 GB |
 | Optional MTP head | 0.350 / 0.350 GB |
 | Vision projector estimate | 0.930 / 0 GB |
-| Assumed other allocations | 1.000 / 1.000 GB |
-| Left for growing cache | 3.100 / 4.030 GB |
+| অন্যান্য অনুমিত বরাদ্দ | 1.000 / 1.000 GB |
+| ক্যাশ বৃদ্ধির জন্য অবশিষ্ট | 3.100 / 4.030 GB |
 
 প্রতি token 65,536 byte হলে 3.100 GB প্রায় 47,300 token ধরে। Vision বন্ধ থাকলে ideal 8-bit storage প্রতি token 32,768 byte ব্যবহার করে প্রায় 123,000 token ধরে।
 
@@ -130,7 +130,7 @@ Generation-এর আগে prefill prompt process করে। Decode answer �
 
 Prompt-processing time estimate করতে uncached prompt token-কে measured prefill throughput দিয়ে ভাগ করুন। নতুন 30,000-token prompt-এ দুটি illustrative rate এই wait দেয়:
 
-| Example prompt rate | Calculated processing time |
+| উদাহরণ প্রম্পট হার | গণনাকৃত প্রসেসিং সময় |
 |---|---|
 | 750 tokens/s | 40 seconds |
 | 150 tokens/s | 200 seconds |
@@ -143,7 +143,7 @@ Cold request এবং reusable prefix-সহ continuation আলাদা ক�
 
 Purchase price, usable memory, bandwidth এবং software path একসঙ্গে তুলনা করুন। Workload unsupported feature চাইলে বা latency target-এর চেয়ে বেশি সময় নিলে কম দামের card-এর advantage থাকে না।
 
-| 16GB desktop card | Memory bandwidth |
+| 16GB desktop card | মেমরি ব্যান্ডউইথ |
 |---|---|
 | RX 9060 XT | 320 GB/s |
 | RTX 5060 Ti | 448 GB/s |

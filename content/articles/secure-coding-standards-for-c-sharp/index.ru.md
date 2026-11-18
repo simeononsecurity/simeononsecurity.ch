@@ -1,6 +1,7 @@
 ---
 title: "Стандарты безопасного кодирования для разработчиков на C#"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Ознакомьтесь с лучшими практиками безопасного кодирования на языке C#, чтобы минимизировать риск нарушения безопасности и защитить конфиденциальные данные."
@@ -22,7 +23,7 @@ _____
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // Проверить, содержит ли входная строка только цифры
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // Обработать данные
     }
 }
 ```

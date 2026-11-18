@@ -1,7 +1,7 @@
 ---
 title: "Topul browserelor sigure pentru protecția confidențialității: Brave, Firefox și Tor"
 date: 2023-04-09
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Descoperiți cele mai bune browsere sigure pentru protecția confidențialității, printre care Brave, Firefox și Tor, și aflați care sunt caracteristicile și avantajele acestora."
@@ -21,7 +21,7 @@ ______
 
 **Brave** este un browser open-source bazat pe Chromium care oferă caracteristici excelente de confidențialitate și securitate. Dezvoltat de Brave Software, browserul este conceput pentru a prioritiza confidențialitatea și securitatea utilizatorilor fără a compromite performanța.
 
-### Key Features
+### Caracteristici principale
 
 - Blochează în mod implicit reclamele, amprentele și urmăritorii, eliminând necesitatea unei instalări sau configurări suplimentare.
 - Protecții încorporate împotriva malware-ului și a phishing-ului, folosind liste de site-uri malițioase obținute de mulțimea de utilizatori.

@@ -1,12 +1,12 @@
 ---
 title: "Cyberresilienz durch Change Management stärken"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Erfahre, warum Change Management für die Cybersicherheit wichtig ist und wie du die Widerstandsfähigkeit gegenüber einer sich wandelnden Bedrohungslage stärkst."
-genre: ["Cybersicherheit", "Change Management", "Resilienz", "IT-Infrastruktur", "Risikobewertung", "Compliance", "Incident Response", "Best Practices", "ITIL", "Sicherheitskontrollen"]
-tags: ["Cybersicherheit", "Change Management", "Resilienz", "Digitale Assets", "Sicherheitsvorfälle", "Compliance", "IT-Infrastruktur", "Risikobewertung", "Tests und Validierung", "Kommunikation", "Zusammenarbeit", "Dokumentation", "Best Practices", "ITIL", "Sicherheitskontrollen", "Bedrohungslage", "Geschäftsbetrieb", "Systemausfälle", "Datenschutzverletzungen", "Schwachstellen", "Regulatorische Anforderungen", "Auswirkungsanalysen", "Schulung und Sensibilisierung", "Ressourcennutzung", "Kontinuierliche Verbesserung", "IT-Systeme", "IT-Richtlinien", "IT-Verfahren", "Kontrollierte Umgebung", "Einbindung von Stakeholdern"]
+genre: ["Cybersicherheit", "Änderungsmanagement", "Resilienz", "IT-Infrastruktur", "Risikobewertung", "Compliance", "Reaktion auf Sicherheitsvorfälle", "Bewährte Verfahren", "ITIL", "Sicherheitskontrollen"]
+tags: ["Cybersicherheit", "Änderungsmanagement", "Resilienz", "Digitale Assets", "Sicherheitsvorfälle", "Compliance", "IT-Infrastruktur", "Risikobewertung", "Tests und Validierung", "Kommunikation", "Zusammenarbeit", "Dokumentation", "Bewährte Verfahren", "ITIL", "Sicherheitskontrollen", "Bedrohungslage", "Geschäftsbetrieb", "Systemausfälle", "Datenschutzverletzungen", "Schwachstellen", "Regulatorische Anforderungen", "Auswirkungsanalysen", "Schulung und Sensibilisierung", "Ressourcennutzung", "Kontinuierliche Verbesserung", "IT-Systeme", "IT-Richtlinien", "IT-Verfahren", "Kontrollierte Umgebung", "Einbindung von Stakeholdern"]
 cover: "/img/cover/A_team_of_professionals_working_together_to_bu.webp"
 coverAlt: "Ein Team von Fachleuten baut gemeinsam einen Schutzschild um einen Netzwerkserver. Das Bild steht für Schutz und Resilienz gegen Cyberbedrohungen."
 coverCaption: "Resiliente Sicherheit aufbauen: Digitale Assets schützen"

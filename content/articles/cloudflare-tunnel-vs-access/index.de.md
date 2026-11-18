@@ -1,12 +1,12 @@
 ---
 title: "Cloudflare Tunnel und Access: Brauchst du beides?"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Verstehe den Unterschied zwischen Cloudflare Tunnel und Access, wähle den Schutz für ein Heim-Dashboard und veröffentliche keine private Anwendung ohne Authentifizierung."
 genre: ["Netzwerksicherheit", "Selbsthosting", "Cloud-Sicherheit"]
-tags: ["Cloudflare Tunnel", "Cloudflare Access", "Cloudflare Tunnel und Access", "Cloudflare Zero Trust", "cloudflared", "selbst gehostete Anwendungen", "Homelab-Sicherheit", "Fernzugriff", "Identitätsanbieter", "Zugriffsrichtlinien", "Anwendungsauthentifizierung", "öffentlicher Hostname", "Ursprungsschutz", "ausgehender Tunnel", "Servicetoken", "Service Auth", "MFA", "privates Dashboard", "Reverse-Proxy", "CGNAT"]
+tags: ["Cloudflare Tunnel", "Cloudflare Access", "Cloudflare Tunnel und Access", "Cloudflare Zero Trust", "cloudflared", "selbst gehostete Anwendungen", "Homelab-Sicherheit", "Fernzugriff", "Identitätsanbieter", "Zugriffsrichtlinien", "Anwendungsauthentifizierung", "öffentlicher Hostname", "Ursprungsschutz", "ausgehender Tunnel", "Servicetoken", "Service Auth", "MFA", "privates Dashboard", "umgekehrter Proxy", "CGNAT"]
 cover: "/img/cover/cloudflare-tunnel-vs-access.webp"
 coverAlt: "Ein Heimserver verbindet sich über einen transparenten Durchgang mit einem Cloud-Gateway und einer separaten Identitätsprüfung."
 coverCaption: ""

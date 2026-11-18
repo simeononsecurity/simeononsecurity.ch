@@ -1,17 +1,16 @@
 ---
 title: "2026年のAIエージェントハーネス：ワークフローで選ぶ"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Deep Agents、Claude Agent SDK、OpenAI Agents SDK、Pydantic AI、Pi、LangGraphを、ツール実行、メモリ、復旧、統合の負担で比較します。"
 genre: ["人工知能", "ソフトウェア開発", "AIセキュリティ"]
-tags: ["AIエージェントハーネス", "エージェントフレームワーク", "Deep Agents", "Claude Agent SDK", "OpenAI Agents SDK", "Pydantic AI", "Piコーディングエージェント", "LangGraph", "エージェントランタイム", "ツール呼び出し", "エージェントメモリ", "コンテキスト管理", "永続実行", "エージェント権限", "AIエージェントセキュリティ", "ローカルAIエージェント", "エージェント評価", "human in the loop", "エージェントSDK比較", "本番エージェント"]
+tags: ["AIエージェントハーネス", "エージェントフレームワーク", "Deep Agents", "Claude Agent SDK", "OpenAI Agents SDK", "Pydantic AI", "Piコーディングエージェント", "LangGraph", "エージェントランタイム", "ツール呼び出し", "エージェントメモリ", "コンテキスト管理", "永続実行", "エージェント権限", "AIエージェントセキュリティ", "ローカルAIエージェント", "エージェント評価", "人間参加型", "エージェントSDK比較", "本番エージェント"]
 cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "暗い作業面で、ターコイズとオレンジの経路を通じて光る中央プロセッサにつながるモジュール式の金属部品"
 coverCaption: "AIモデルを取り囲むコンポーネントの概念図。"
 ---
-
 **Deep Agentsは、設定可能なモデルと組み込みのコンテキスト管理を備えた汎用エージェントの第一候補です。** Claude Agent SDKはClaude Codeの実行動作を組み込む用途に適しています。アプリケーション固有のエージェントではOpenAI Agents SDKとPydantic AIを試す価値があります。Piは小さく拡張可能なコアを重視し、LangGraphは明示的なワークフロー制御を重視します。
 
 **最適な選択は、受け入れる仕事で決まります。** 調査アシスタント、リポジトリ編集ツール、顧客要求を処理するサービスでは、必要なツールと復旧ルールが異なります。これらは**2026年10月10日**に公式ドキュメントを確認した編集上の判断であり、実測性能ベンチマークの結果ではありません。
@@ -160,7 +159,7 @@ coverCaption: "AIモデルを取り囲むコンポーネントの概念図。"
 **対応しない設定を制御比較に押し込みません。** 共通モデルやツールインターフェースがなければ、比較をシステム評価として報告します。設定の手間と人間による誘導も記録します。
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# 試行記録の例。フレームワークの設定ファイルではありません
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

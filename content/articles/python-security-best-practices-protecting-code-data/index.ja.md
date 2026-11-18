@@ -1,6 +1,7 @@
 ---
 title: "Pythonセキュリティのベストプラクティス：コードとデータの保護"
 date: 2023-08-01
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "あなたのコードとデータを潜在的な脅威から守り、データ保護、システムの完全性、信頼性を確保するために不可欠なPythonセキュリティのベストプラクティスを学びましょう。"
@@ -183,7 +184,7 @@ ______
 
 4.**強力な暗号化技術**を使用して**機密データ**を保護します。AES（Advanced Encryption Standard）**のような確立された暗号化アルゴリズムを利用し、機密情報の安全な保存と送信を保証する。を参照することができます。 [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)をご覧ください。
 
-5.SQLインジェクション攻撃を防ぐために**prepared statements**を使用し、データベース・ユーザー権限を制限するために**least privilege**を実装することによって、**データベース・アクセス**を安全にします。これらのプラクティスは、機密データへの不正アクセスのリスクを最小限に抑えます。プリペアド・ステートメント**の詳細については [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
+5. **データベースアクセスを保護する**には、SQLインジェクション攻撃を防ぐために**プリペアドステートメント**を使用し、データベースユーザーの権限を制限するために**最小権限の原則**を適用します。これらの方法は、機密データへの不正アクセスのリスクを最小限に抑えます。**プリペアドステートメント**については[SQLAlchemyのドキュメント](https://www.sqlalchemy.org)、**最小権限の原則**については[OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)を参照してください。
 
 6.セキュリティの脆弱性に対処し、バグ修正の恩恵を受けるために、**依存関係** を定期的に更新する。以下のようなツールがあります。 [Snyk - Open Source Security Platform](https://snyk.io/)は、プロジェクトの依存関係の脆弱性を特定するのに役立つ。
 

@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Comparación del rendimiento a la hora de descifrar contraseñas"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Descubre la diferencia de rendimiento entre NVIDIA RTX 3090 y RTX 4090 en el descifrado de contraseñas, destacando las implicaciones de seguridad y las medidas de protección."
@@ -49,7 +50,7 @@ Longitud de la contraseña | Complejidad | RTX 3090 (Segundos) | RTX 4090 (Segun
 
 Los resultados de nuestras pruebas demuestran que el **RTX 4090** es una potente herramienta para descifrar contraseñas. Esto significa que ahora los atacantes pueden descifrar contraseñas mucho más rápido que antes.
 
-Esto supone un grave problema de seguridad, ya que significa que ahora los atacantes pueden acceder a cuentas y sistemas con mucha más facilidad. Para protegerte de los ataques de descifrado de contraseñas, debes utilizar [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) para ayudarte a generar y almacenar contraseñas seguras.
+Esto supone un grave problema de seguridad, ya que ahora los atacantes pueden acceder a cuentas y sistemas con mucha más facilidad. Para protegerte de los ataques de descifrado de contraseñas, utiliza [**contraseñas seguras**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) difíciles de adivinar. Usa también un [**gestor de contraseñas**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) que te ayude a generar y guardar [contraseñas seguras](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 
 ## Conclusión
 

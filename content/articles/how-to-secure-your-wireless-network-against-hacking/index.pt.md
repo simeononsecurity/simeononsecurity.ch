@@ -41,7 +41,7 @@ __________
 
 ### Altere o nome de rede (SSID) e a senha padrão
 
-A primeira e mais importante etapa para proteger a rede sem fio é **alterar o nome de rede (SSID) e a senha padrão**. O SSID e a senha definidos pelo fabricante do roteador são fáceis de adivinhar e podem ser explorados por hackers. Troque o SSID e a senha padrão por uma combinação exclusiva e forte 
+A primeira e mais importante etapa para proteger a rede sem fio é **alterar o nome de rede (SSID) e a senha padrão**. O SSID e a senha definidos pelo fabricante do roteador são fáceis de adivinhar e podem ser explorados por hackers. Troque o SSID e a senha padrão por uma combinação exclusiva e forte
 
 ### Use senhas fortes
 

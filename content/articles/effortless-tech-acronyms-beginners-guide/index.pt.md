@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Um robô simplificado e amigável explicando acrônimos tecnológicos a um iniciante com entusiasmo.
 coverCaption: Desmistificando o Jargão Tecnológico para Iniciantes
-lastmod: 2026-10-08
+lastmod: 2026-11-14
 ---
 
 ## Introdução
@@ -394,7 +394,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **Gbps**: Gigabits por segundo
   - Uma unidade de velocidade de transferência de dados, representando um bilhão de bits transmitidos em um segundo, frequentemente usada para medir taxas de rede ou transferência de dados.
 
-- 
+-
 ### H
 - **HDD**: Disco Rígido
   - Um dispositivo de armazenamento de dados que usa discos giratórios para armazenar e recuperar dados, comumente encontrado em computadores desktop e servidores.
@@ -681,7 +681,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **PSU**: Power Supply Unit
   - Um dispositivo que converte eletricidade de uma fonte externa na voltagem e corrente necessárias para alimentar um computador ou outros dispositivos eletrônicos.
 
-- **PaaS**: Platform as a Service
+- **PaaS**: Platform as a Service (plataforma como serviço)
   - Um modelo de serviço de computação em nuvem que fornece uma plataforma para desenvolver, executar e gerenciar aplicações sem gerenciar a infraestrutura subjacente.
 
 ### Q
@@ -765,7 +765,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
   - Protocolos usados para proteger a comunicação na internet criptografando dados transmitidos entre um servidor web e o navegador do cliente.
 
-- **SaaS**: Software as a Service
+- **SaaS**: Software as a Service (software como serviço)
   - Um modelo de serviço de computação em nuvem que fornece aplicações de software pela internet mediante assinatura.
 
 ### T

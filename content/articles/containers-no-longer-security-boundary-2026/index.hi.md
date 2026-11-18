@@ -1,7 +1,7 @@
 ---
 title: "2026 में कंटेनर अब सुरक्षा सीमा नहीं रहे"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "2026 की कर्नेल कमजोरियाँ दिखाती हैं कि मल्टी-टेनेंट कंटेनर आइसोलेशन पर्याप्त क्यों नहीं है। Copy Fail, Dirty Frag, Fragnesia और CVE-2026-80521 को समझें, और मजबूत कंटेनरों की तुलना microVM सीमा से करें।"
@@ -12,7 +12,6 @@ coverAlt: "केंद्रीय कर्नेल चिह्न से �
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **कंटेनर एक ही कर्नेल साझा करते हैं। 2026 में चार अलग-अलग कमजोरी परिवारों ने साबित किया कि कंटेनर से निकलकर होस्ट तक पहुँचने के लिए कर्नेल का एक बग ही काफी है।** Copy Fail, Dirty Frag, Fragnesia और CVE-2026-80521, हर एक कम-अधिकार वाले स्थानीय उपयोगकर्ता को root देता है। हर कमजोरी कंटेनर सीमा पार करती है।
 
 *चिंता की बात बग खुद नहीं हैं। चिंता यह है कि AI उन्हें कितनी कम लागत में खोज लेता है और एक पैच ने दूसरा बग कैसे बनाया।*
@@ -245,27 +244,27 @@ Guest अपना कर्नेल चलाता है, इसलिए �
 इनमें से कोई भी VM सीमा की जगह नहीं लेता, लेकिन ये आसान रास्ते हटाते हैं:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# जहाँ ज़रूरत न हो, वहाँ page-cache परिवार द्वारा दुरुपयोग किए जाने वाले मॉड्यूल बंद करें
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# गैर-विशेषाधिकार प्राप्त उपयोगकर्ता नेमस्पेस सीमित करें, जिससे ESP के रूप रुकते हैं
+# Debian और Ubuntu: यह आंशिक शमन है, पूर्ण समाधान नहीं
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# शोषण का संदेह हो तो, मेमोरी में बदले गए बाइनरी हटाने के लिए पेज कैश खाली करें
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# पहचान के शुरुआती संकेत
+- बिना वैध कारण वाले workload से अनपेक्षित unshare(CLONE_NEWUSER)
+- IPsec होस्ट के बाहर NETLINK_XFRM गतिविधि या XFRM सुरक्षा संबंध दिखाई देना
+- AF_ALG socket bind करने के अनुरोध
+- ऐसे होस्ट पर esp4, esp6 या rxrpc लोड होना जहाँ IPsec और AFS दोनों नहीं चलते
 ```
 
 > **चेतावनी: `drop_caches` बदली हुई मेमोरी कॉपी हटाकर करप्शन साफ करता है, लेकिन पहले से root तक पहुँचे हमलावर को नहीं हटाता। इसे incident response समझें, remediation नहीं।**

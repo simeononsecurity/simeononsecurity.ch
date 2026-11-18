@@ -6,7 +6,7 @@ toc: true
 draft: false
 description: "Flock Finder هو أداة مفتوحة المصدر ترسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR حول العالم باستخدام بيانات WiGLE WiFi وبصمة OUI. تعرف على آلية عملها وقيودها وأدوات الأجهزة للكشف في الوقت الفعلي."
 genre: ["تقنية الخصوصية", "مراقبة مضادة", "مشاريع مفتوحة المصدر", "الحقوق الرقمية", "أمن الشبكات", "أدوات الخصوصية", "اختراق الأجهزة", "بحث الأمن"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "قارئ لوحة الترخيص", "بصمة OUI", "WiGLE", "مراقبة WiFi", "مراقبة مضادة", "STS Collective", "FlockYou", "ESP32", "أدوات الخصوصية", "NitekryDPaul", "DeFlockJoplin", "كشف ALPR", "أمن مفتوح المصدر", "رسم خرائط المراقبة", "مراقبة جماعية", "WiFi OUI", "حماية الخصوصية", "عنوان MAC", "الوضع العشوائي", "802.11", "كشف في الوقت الفعلي", "Wardriving", "الحقوق الرقمية", "الحريات المدنية", "وعي المراقبة", "GitHub", "Python"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "قارئ لوحة الترخيص", "بصمة OUI", "WiGLE", "مراقبة WiFi", "مراقبة مضادة", "STS Collective", "FlockYou", "ESP32", "أدوات الخصوصية", "NitekryDPaul", "DeFlockJoplin", "كشف ALPR", "أمن مفتوح المصدر", "رسم خرائط المراقبة", "مراقبة جماعية", "WiFi OUI", "حماية الخصوصية", "عنوان MAC", "الوضع العشوائي", "802.11", "كشف في الوقت الفعلي", "مسح شبكات WiFi أثناء القيادة", "الحقوق الرقمية", "الحريات المدنية", "وعي المراقبة", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "خريطة تفاعلية تعرض علامات ملونة تشير إلى مواقع كاميرات Flock Safety ALPR، مع إشارات WiFi مجردة تنبثق من العلامات على خلفية داكنة."
 coverCaption: "Flock Finder يرسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR مشتبه بها باستخدام بيانات WiGLE WiFi وبصمة OUI."
@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **أداة توعية بالمراقبة مفتوحة المصدر ترسم خرائط لكاميرات Flock Safety ALPR باستخدام بيانات WiFi المجمّعة جماعيًا.**
+
+> **تصحيح، 21 سبتمبر 2026:** راجعنا مجموعة البيانات الأساسية التي تضم 146,526 سجلًا، ووجدنا أن العنوان الأصلي وعلامات الخريطة الموحدة بالغَا كثيرًا في تقدير ما يمكن أن يثبته تطابق OUI. كشف التدقيق عن 50,278 نظام Barco ClickShare و60,793 سجلًا تطابق قواعد تسمية الأنظمة المعروفة الأخرى. ينشر Flock Finder الآن فئات للأدلة، ويستبعد هذه السجلات من الخريطة والعنوان الافتراضيين، ويتيح عوامل تصفية للثقة. اقرأ المنهجية والتصحيح كاملين في **[رسمنا خرائط 146,526 «كاميرا Flock». كان 50,278 منها أنظمة ClickShare](/articles/flock-finder-oui-false-positive-audit-2026/)**.
 
 ## ما هو Flock Finder؟
 
@@ -37,6 +39,10 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ______
 
 ## كيف يعمل: بصمة OUI عبر WiGLE
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="مخطط يوضح كيف تطابق Flock Finder بادئات MAC لشبكات WiFi في WiGLE مع بصمات OUI المعروفة لتقدير مواقع الكاميرات على الخريطة" >}}
 
 ### الفكرة الجوهرية
 
@@ -116,34 +122,34 @@ ______
 ### الإعداد
 
 ```bash
-# Clone the repository
+# استنسخ المستودع
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# ثبّت التبعيات
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# أعدّ بيانات اعتماد WiGLE API
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# حرّر .env باسم WiGLE API والرمز المميز
 ```
 
 ### تشغيل الماسح
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# فحص كامل — جميع بادئات OUI الـ31 حول العالم
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# اختبار OUI واحد
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# الولايات المتحدة فقط
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# مربع إحاطة محدد (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# تشغيل تجريبي — تحقّق من المصادقة دون استعلامات API
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,7 +157,7 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# افتح http://localhost:8080 في متصفحك
 ```
 
 ### التحديثات اليومية الآلية عبر GitHub Actions
@@ -181,6 +187,8 @@ ______
 - مزوّدة بالطاقة عبر USB-C (محوّل سيارة، بنك طاقة، أو كمبيوتر محمول)
 
 > 💰 **خصومات حصرية**: استخدم رمز **FLOCKFINDER** للحصول على **20% خصم** على جميع أجهزة STS Collective FlockYou — أو استخدم رمز **SIMEONONSECURITY** للحصول على ما يصل إلى 20% خصم على طلبك بالكامل. [تسوق على stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< stscollective-ad "flockyou" >}}
 
 للاطلاع على تحليل تقني كامل لهذه الأجهزة وبدائل DIY، اقرأ **[مشروع كشف Flock-You: دليل شامل للأجهزة المضادة للمراقبة والإعداد](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
@@ -223,7 +231,7 @@ ______
 
 يعمل سير عمل GitHub Actions يوميًا ويسحب أحدث نتائج WiGLE. ومع ذلك، قد يحتوي WiGLE نفسه على سجلات تتراوح من أيام إلى سنوات لأي موقع معين. تحقق من ملف `scan_stats.json` للاطلاع على طابع وقت المسح الأخير.
 
-### هل يمكنني المساهمة ببيانات wardrive الخاصة بي؟
+### هل يمكنني المساهمة ببيانات مسح شبكات WiFi أثناء القيادة؟
 
 نعم. ارفع بيانات wardrive إلى [WiGLE](https://wigle.net) — تتغذى تلقائيًا في المسح اليومي التالي لـ Flock Finder. يمكنك أيضًا المساهمة ببادئات OUI أو تحسينات الكود عبر [دليل المساهمة](https://github.com/simeononsecurity/flock-finder/blob/main/CONTRIBUTING.md).
 
@@ -259,6 +267,12 @@ ______
 إنه **أداة شفافية**، وليس متتبعًا حيًا. بياناته تاريخية وغير مكتملة واحتمالية. لكنها تجعل حجم مراقبة ALPR مرئيًا بطريقة لا تستطيع الملخصات والتقارير فعلها.
 
 للحماية الفعلية في الوقت الفعلي أثناء تنقلك عبر المناطق الخاضعة للمراقبة، اقرن الخريطة بأجهزة مخصصة. **[أجهزة FlockYou من STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** تطبّق طريقة @NitekryDPaul للكشف مباشرة على ESP32 وتنبهك فور اكتشاف توقيع كاميرا حية — متاحة على **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** برمز **FLOCKFINDER** أو **SIMEONONSECURITY** للحصول على ما يصل إلى 20% خصم.
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  تسوّق أجهزة كشف FlockYou ووفر 20%
+{{< /centerbutton >}}
 
 ### مقالات ذات صلة
 

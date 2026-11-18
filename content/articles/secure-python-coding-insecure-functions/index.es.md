@@ -1,7 +1,7 @@
 ---
 title: "Programación segura en Python"
 date: 2023-09-26
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprende a escribir código seguro en Python, evitar funciones inseguras y crear aplicaciones robustas y fiables."
@@ -30,10 +30,10 @@ ___________
 
 #### Ejecución dinámica de código con eval():
 ```python
-# Unsafe: Using eval() for dynamic code execution
+# Inseguro: usar eval() para ejecutar código dinámico
 user_input = input("Enter a Python expression: ")
 result = eval(user_input)
-print("Result:", result)
+print("Resultado:", result)
 ```
 
 #### Alternativa más segura con `ast.literal_eval()`:
@@ -43,9 +43,9 @@ import ast
 user_input = input("Enter a literal value: ")
 try:
     parsed_value = ast.literal_eval(user_input)
-    print("Parsed value:", parsed_value)
+    print("Valor analizado:", parsed_value)
 except (ValueError, SyntaxError):
-    print("Invalid input.")
+    print("Entrada no válida.")
 ```
 
 ### Concatenación de cadenas con datos sin depurar
@@ -76,7 +76,7 @@ import pickle
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = pickle.dumps(data)
-# Store or send serialized_data
+# Almacenar o enviar serialized_data
 ```
 
 #### Alternativa más segura con json:
@@ -85,7 +85,7 @@ import json
 
 data = {'user': 'admin', 'role': 'admin'}
 serialized_data = json.dumps(data)
-# Store or send serialized_data
+# Almacenar o enviar serialized_data
 ```
 
 ### Escapado insuficiente de HTML con `mark_safe()`
@@ -124,7 +124,7 @@ import subprocess
 
 command = input("Enter a command: ")
 result = subprocess.run(command, shell=True, capture_output=True, text=True)
-print("Output:", result.stdout)
+print("Salida:", result.stdout)
 ```
 
 ### Hashing de contraseñas inadecuado con `hash()`
@@ -135,7 +135,7 @@ print("Output:", result.stdout)
 ```python
 password = input("Enter your password: ")
 hashed_password = hash(password)
-# Store hashed_password in the database
+# Guardar hashed_password en la base de datos
 ```
 
 #### Enfoque más seguro con bcrypt:
@@ -144,7 +144,7 @@ import bcrypt
 
 password = input("Enter your password: ")
 hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-# Store hashed_password in the database
+# Guardar hashed_password en la base de datos
 ```
 
 ## **Alternativas más seguras y buenas prácticas**
@@ -163,7 +163,7 @@ if response.status_code == 200:
     data = response.json()
     print(data)
 else:
-    print("Request failed.")
+    print("La solicitud falló.")
 ```
 
 ### Manejo seguro de archivos con la instrucción **`with`**
@@ -174,12 +174,12 @@ Usa la instrucción **`with`** al trabajar con archivos para evitar fugas de rec
 ```python
 filename = "example.txt"
 
-# Unsafe: Without using `with`
+# Inseguro: sin usar with
 file = open(filename, "r")
 content = file.read()
 file.close()
 
-# Safer: Using `with` statement
+# Más seguro: usar la instrucción with
 with open(filename, "r") as file:
     content = file.read()
 ```
@@ -194,7 +194,7 @@ import html
 
 user_input = input("Enter some text: ")
 sanitized_input = html.escape(user_input)
-print("Sanitized input:", sanitized_input)
+print("Entrada depurada:", sanitized_input)
 ```
 
 ### Consultas parametrizadas con **`sqlite3`**
@@ -228,9 +228,9 @@ import os
 
 api_key = os.environ.get("API_KEY")
 if api_key:
-    print("API Key:", api_key)
+    print("Clave de API:", api_key)
 else:
-    print("API Key not set.")
+    print("La clave de API no está configurada.")
 ```
 
 #### Gestión de variables con python-decouple:
@@ -238,7 +238,7 @@ else:
 from decouple import config
 
 api_key = config("API_KEY")
-print("API Key:", api_key)
+print("Clave de API:", api_key)
 ```
 
 ### Aleatoriedad robusta con **`secrets`**
@@ -250,7 +250,7 @@ Usa el módulo **`secrets`** en vez de `random` para generar valores aleatorios 
 import secrets
 
 token = secrets.token_hex(16)
-print("Secure Token:", token)
+print("Token seguro:", token)
 ```
 
 ## Conclusión

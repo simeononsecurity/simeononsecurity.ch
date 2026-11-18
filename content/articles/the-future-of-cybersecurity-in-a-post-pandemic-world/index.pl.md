@@ -1,7 +1,7 @@
 ---
 title: "Przyszłość cyberbezpieczeństwa w świecie po pandemii"
 date: 2023-03-04
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Odkryj, jak przygotować się na przyszłość cyberbezpieczeństwa w świecie post-pandemicznym i zmniejszyć ryzyko padnięcia ofiarą cyberataków."
@@ -19,7 +19,7 @@ Zanim zagłębimy się w przyszłość, ważne jest, aby zrozumieć **obecny sta
 
 ______
 
-## The Future of Cybersecurity
+## Przyszłość cyberbezpieczeństwa
 
 Jak więc wygląda przyszłość cyberbezpieczeństwa w świecie po pandemii? Niestety, jest prawdopodobne, że cyberataki będą nadal rosły w częstotliwości i wyrafinowaniu. W szczególności możemy spodziewać się większej liczby ataków skierowanych na pracowników zdalnych i chmurę.
 

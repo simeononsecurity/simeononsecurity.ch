@@ -1,7 +1,7 @@
 ---
 title: "Privacy.com 虚拟卡：支付隐私如何运作"
 date: 2023-09-03
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: 支付卡上存储了什么，为什么磁条是其最薄弱的部分，商户在你使用虚拟号码支付时看到什么，以及 Privacy.com 的卡类型和限额在实际中的运作方式。
@@ -232,11 +232,11 @@ ref:
 
 ```text
 PAN: 4111111111111111
-Surname: TEST
-First name: USER
-Expiry: 12/29
-Service code: 201
-Discretionary data: 000000000
+姓氏: TEST
+名字: USER
+有效期: 12/29
+服务代码: 201
+附加数据: 000000000
 ```
 
 对于合成轨道2练习，使用相同的主账号、有效期、服务代码和数字专用字段。生成的轨道2字符串省略了姓名，因为轨道2没有姓名字段。
@@ -263,6 +263,21 @@ Discretionary data: 000000000
 *这个区别经常让人混淆。如果您的威胁模型包括发行方或网络，虚拟卡对此没有任何改变。*
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="示意图显示虚拟卡号发送给商户，而真实卡号仅在持卡人与发卡银行之间传递" >}}
+
+## 商户仍能看到什么
+
+**虚拟卡会隐藏资金来源账户和原始 PAN。** 但不会清除结账时提交的数据。
+
+Privacy 的支持文档列出了与商户共享的卡片数据：16 位卡号、有效期、CVV，以及结账时填写的账单地址。商户也能看到你提供的姓名。在把虚拟卡视为身份屏障前，请阅读[商户可见数据的官方说明](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)。
+
+| 层级 | 仍然可见或保留的数据 |
+|---|---|
+| **商户** | 虚拟卡号、有效期、CVV、结账时填写的账单地址和姓名、订单数据以及商户账户数据 |
+| **Privacy.com** | 根据[隐私政策](https://www.privacy.com/privacy-policy)保留的身份数据、资金来源、卡片和交易数据、设备数据 |
+| **资金来源银行** | 交易日期、金额，以及包含 Privacy.com 或 `PWP*` 的交易描述。具体显示格式由银行决定 |
+| **支付网络和发卡方** | 处理付款所需的授权、结算、欺诈和争议记录 |
+
+实际边界很明确。虚拟卡会减少卡片凭据的重复使用。你的姓名、收货地址、商户账户、浏览器会话，以及在卡片字段之外提交的其他信息仍对商户可见。为不同商户使用不同账户和电子邮件别名，有助于减少网站之间的身份关联。单靠虚拟卡无法实现这种隔离。
 
 ## 三种卡片形态
 
@@ -313,6 +328,22 @@ Discretionary data: 000000000
 
 *我们的**[个人理财安全](/personal-security-course/personal-finance/)**模块将此与信用冻结和卡令牌化并列，作为限制单一受损商户风险的三大控制措施。*
 
+## 定期扣款和授权
+
+**卡片控制在授权时生效。** Privacy 将待处理交易描述为允许商户扣取约定金额。$0 授权用于检查卡片是否有效，并不表示购买已完成。银行资金来源的交易在扣款完成前还会经过结算阶段。请参阅[交易状态官方指南](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)。
+
+| 事件 | 处理方式 | 控制边界 |
+|---|---|---|
+| **向服务添加卡片** | 商户发送 $0 授权以检查卡片 | 卡片检查成功不代表订单已付款 |
+| **购买获准** | Privacy 记录待处理金额，并允许商户收取约定金额 | 可用资金和后续授权会反映待处理交易 |
+| **购买结算** | 商户处理完成后从资金来源扣款 | 订单变更或追加小费会导致最终金额与首次授权不同 |
+| **授权后暂停或关闭卡片** | 阻止未来授权 | 先前授权仍受支付网络规则约束 |
+| **授权后更改消费限额** | 新限额适用于之后的尝试 | 先前授权保留原有状态 |
+
+**卡片限额不是预付余额。** Privacy 的单卡指南说明，限额会阻止超出所选金额的授权尝试。交易完成时，资金来源才会被扣款。滚动周期分别为每日限额 24 小时、每月限额 30 天、每年限额 364 天。某些订阅账单周期还设有六天缓冲期。[消费限额官方指南](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)介绍了这些规则。
+
+对于订阅，应在首次扣款前设置周期限额，检查待处理和结算中的记录，并另外向商户取消订阅。关闭卡片会阻止未来授权，但不会取消已授权的购买，也不会产生退款。[Privacy 暂停和关闭卡片指南](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)也说明了这一边界。
+
 ## 计划及其解锁内容
 
 Privacy.com 提供一个免费套餐和三个付费套餐。价格和功能边界会变化，订阅前请确认当前条款。
@@ -327,6 +358,8 @@ Privacy.com 提供一个免费套餐和三个付费套餐。价格和功能边�
 **免费套餐涵盖核心安全优势。** 商户锁定、一次性卡和消费限额是减少风险的机制，且无需付费即可使用。付费套餐增加的是组织和便利性，而非额外保护。
 
 **外币交易手续费因套餐而异。** 免费套餐对外币交易收取 3% 费用，最低 $0.50，付费套餐则无此费用。
+
+订阅前，请阅读 [Privacy.com 当前服务条款](https://www.privacy.com/terms)。
 
 ## Privacy.com 不提供的功能
 
@@ -369,6 +402,27 @@ Privacy.com 提供一个免费套餐和三个付费套餐。价格和功能边�
 
 使用 **[磁条解码器](/magnetic-stripe-decoder/)** 检查卡号前缀，报告主要卡组织范围并验证 Luhn 校验位。
 
+## 账户恢复和对服务提供商的依赖
+
+**账户访问是与卡片隔离不同的控制措施。** 对于无法识别的活动，Privacy 建议联系商户、检查 2FA 和共享卡片、查看新设备的登录验证码、重置密码并联系支持团队。[账户安全指南](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)列出了这些步骤。
+
+保持恢复邮箱和美国电话号码为最新信息。根据[账户信息指南](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)，更改其中任一信息时，Privacy 都会要求确认。启用 2FA，并在密码管理器中保存商户名称和卡号末四位。不要把完整 PAN 或 CVV 保存在普通记事应用中。
+
+关闭账户不会删除所有记录。Privacy 的政策最后更新于 2026 年 6 月 8 日，其中说明身份验证和支付卡数据至少保留五年，资金来源银行信息和 ACH 交易保留六年，审计日志保留三年。在把账户关闭视为数据删除前，请阅读[Privacy 隐私政策中的保留期限说明](https://www.privacy.com/privacy-policy)。
+
+**Privacy 仍依赖其资金来源银行、Plaid、ACH、卡网络和自身账户系统。** 银行资金通过 Plaid 使用 ACH。Privacy 表示，不受支持的银行可改用借记卡资金来源，但用户仍须拥有美国银行或信用合作社账户及美国电话号码。[连接银行账户指南](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)和[资格指南](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)说明了这些要求。
+
+资金问题会影响支付操作。当服务无法从资金来源扣款时，例如余额不足或账户已关闭，Privacy 可能会暂时暂停账户。支持页面还说明，移除资金来源不会停止已针对该来源授权的交易。移除银行或借记卡前，请阅读[未结算交易指南](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)和[移除资金来源指南](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)。
+
+| 依赖方 | 故障类型 | 实际应对方式 |
+|---|---|---|
+| **资金来源银行或 Plaid** | 不受支持、已关闭或过期的连接 | 保留符合条件的备用来源并检查账户状态 |
+| **Privacy 账户** | 重新进行身份审查、失去恢复渠道或账户暂停 | 保持 2FA 和恢复信息为最新状态 |
+| **商户** | 拒绝虚拟卡或预付卡号段，或继续定期扣款 | 为例外情况保留一张实体卡，并向商户取消订阅 |
+| **网络或发卡方** | 授权、结算、退款或争议延迟 | 保留收据、账单和交易记录 |
+
+Privacy 的条款描述了公司及其金融服务合作伙伴提供的独立服务。条款还允许要求补充身份信息并限制账户。将服务提供商访问权限和账户记录纳入威胁模型。不要把所有必要账单都交给同一家卡片服务商处理。
+
 ## 如何有效使用虚拟卡
 
 **控制措施只有配置后才有效。** 六个习惯带来大部分好处。
@@ -381,6 +435,19 @@ Privacy.com 提供一个免费套餐和三个付费套餐。价格和功能边�
 6. **为拒绝虚拟卡号段的商户保留一张实体卡，** 避免结账被阻成为紧急情况。
 
 > **常见错误：将虚拟卡当作监控账单的替代。** 商户锁定防止一种风险，但无法检测银行账户被攻破、未经授权的转账或实体卡上的欺诈消费。
+
+## 当前控制边界
+
+Privacy.com 当前支持文档说明，单卡消费限额会阻止超过限额的授权尝试。[消费限额指南](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)也介绍了滚动周期。[开发者卡片文档](https://developers.privacy.com/docs/cards)列出了商户锁定卡和消费限额字段。
+
+| 控制措施 | 有助于 | 无法解决 |
+|---|---|---|
+| 商户锁定卡 | 在另一商户处重复使用卡号 | Privacy.com 账户遭入侵，或指定商户处发生欺诈交易 |
+| 消费限额 | 意外授权金额和定期扣款偏差 | 更改限额前已经发生的扣款，或遭入侵的资金账户 |
+| 关闭虚拟卡 | 阻止该卡号未来的授权 | 退款、争议或已经创建的商户记录 |
+| 每项服务使用独立卡片 | 快速识别并撤销卡片 | 服务商中断、身份审查或银行端记录 |
+
+应将资金账户、账户恢复方式、提醒和卡片列表作为一组控制措施审查。虚拟卡号改变的是与商户共享的号码。它不会向发卡银行、卡片服务商、商户、支付网络、税务记录或依法有权的法院隐藏交易。它也不会把借记卡变成信用额度，或保证争议处理结果。
 
 ## 关键要点
 
@@ -413,3 +480,17 @@ Privacy.com 提供一个免费套餐和三个付费套餐。价格和功能边�
 7. [ANSI/ISO ALPHA数据编码，轨道1字符集和奇偶校验表](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [磁卡ISO字符，轨道1和轨道2字符集对照](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [读取磁卡数据，带实卡扫描的实用演练](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Privacy 开发者文档：卡片类型、状态和消费限额](https://developers.privacy.com/docs/cards)
+11. [Privacy 支持：与商户共享的信息](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Privacy 支持：单卡消费限额](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Privacy 支持：交易状态和授权](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Privacy 支持：暂停和关闭卡片](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Privacy 支持：银行账单中的交易描述](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Privacy 支持：通过 Plaid 连接银行账户](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Privacy 支持：账户活动和恢复检查](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Privacy 支持：更新账户邮箱和电话号码](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Privacy 支持：使用资格](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Privacy 支持：未结算交易](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Privacy 支持：移除资金来源](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Privacy.com 隐私政策](https://www.privacy.com/privacy-policy)
+23. [Privacy.com 服务条款](https://www.privacy.com/terms)

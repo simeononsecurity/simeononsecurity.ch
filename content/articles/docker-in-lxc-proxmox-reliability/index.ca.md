@@ -1,17 +1,16 @@
 ---
 title: "Docker a LXC sobre Proxmox: fiabilitat, proves i migració a una VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Avalua Docker dins de Proxmox LXC amb un error documentat d’AppArmor, una lectura acurada d’un informe sobre bloquejos de l’amfitrió, ordres de diagnòstic i un pla de migració a una VM."
-genre: ["Virtualització", "Administració de Linux", "Homelab"]
+genre: ["Virtualització", "Administració de Linux", "laboratori domèstic"]
 tags: ["Docker dins de LXC", "Docker a Proxmox", "LXC de Proxmox", "màquina virtual de Docker", "fiabilitat de l’homelab", "bloquejos de l’amfitrió Proxmox", "VM Debian per a Docker", "contenidors sense privilegis", "contenidors niats", "aïllament del nucli Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "controladors d’emmagatzematge de Docker", "magatzem d’imatges de containerd", "pressió de memòria", "Linux PSI", "diari persistent", "còpies de seguretat de Proxmox", "còpies de bind mounts", "migració de VM", "dominis de fallada", "pas de GPU", "diagnòstic del servidor domèstic"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Il·lustració isomètrica d’un servidor domèstic amb càrregues de treball imbricades i un compartiment separat per a una màquina virtual connectada a maquinari compartit"
 coverCaption: "Il·lustració conceptual del maquinari compartit i de diferents límits d’aïllament de les càrregues de treball"
 ---
-
 **Docker dins de Linux Containers (LXC)** redueix part de la sobrecàrrega d’infraestructura, però augmenta les interaccions entre l’entorn d’execució de les aplicacions i l’amfitrió Proxmox. Per als serveis Docker dels quals depèn la teva llar, una **màquina virtual (VM) amb Debian** és un punt de partida pràctic. Separa el nucli convidat i simplifica l’entorn que has de reproduir quan investigues un problema. Aquest article analitza el vídeo proporcionat, comprova l’informe d’incident relacionat i afegeix errors documentats i un pla de migració.
 
 <!--more-->
@@ -66,14 +65,14 @@ El **període d’observació** mereix atenció. Setze dies són dins d’un int
 ## Localitza el límit del nucli
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker dins de LXC:
+Aplicació -> Entorn d’execució Docker -> espais de noms i polítiques LXC
+              -> nucli de l’amfitrió Proxmox -> maquinari físic
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker dins d’una màquina virtual:
+Aplicació -> Entorn d’execució Docker -> nucli Linux convidat
+              -> maquinari virtual / KVM-QEMU
+              -> nucli de l’amfitrió Proxmox -> maquinari físic
 ```
 
 **LXC** utilitza el nucli de l’amfitrió. Els espais de noms, grups de control, capacitats, seccomp i perfils de seguretat restringeixen processos sense proporcionar un nucli separat. Afegir Docker dins de LXC crea una altra capa de gestió de contenidors per a càrregues que utilitzen el mateix nucli subjacent de l’amfitrió. [Arquitectura LXC i funcions de contenció](https://linuxcontainers.org/lxc/introduction/)
@@ -108,7 +107,7 @@ Docker publica una **via d’instal·lació per a Debian**. Fes servir la llista
 
 ## Una fallada d’imbricació confirmada
 
-La **incompatibilitat de runc/AppArmor del 2025** és un exemple verificable. Els mantenidors de runc van documentar una fallada en tornar a obrir un descriptor dins d’un contenidor extern amb un perfil AppArmor. AppArmor va interpretar erròniament un accés sota **`/proc/sys`** com un accés sota **`/sys`** i la política el va denegar. [Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)
+La **incompatibilitat de runc/AppArmor del 2025** és un exemple verificable. Els mantenidors de runc van documentar una fallada en tornar a obrir un descriptor dins d’un contenidor extern amb un perfil AppArmor. AppArmor va interpretar erròniament un accés sota **`/proc/sys`** com un accés sota **`/sys`** i la política el va denegar. [problema de runc 4968](https://github.com/opencontainers/runc/issues/4968)
 
 Un **inici afectat** va informar d’aquest fragment d’error:
 
@@ -290,17 +289,17 @@ Les **proves d’acceptació** han de seguir el propòsit del servei. Un estat v
 **Utilitza proves mesurades** per triar un desplegament i definir quan el revisaràs:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Impacte en el servei i la llar:
+Versions actuals de l’amfitrió / nucli / LXC / Docker:
+Accés necessari a GPU, dispositius i xarxa:
+Memòria, CPU, emmagatzematge i latència mesurats:
+Símptoma de fallada conegut i interval de recurrència:
+Cobertura de les còpies de seguretat i prova de restauració correcta:
+Arquitectura triada i motiu:
+Finestra d’interrupció permesa i objectiu de recuperació:
+Procediment de canvi i reversió de dades posterior al canvi:
+Proves d’acceptació i període d’observació:
+Condició que exigeix revisar de nou l’arquitectura:
 ```
 
 **Tria deliberadament Docker dins de LXC** quan els avantatges justifiquin el treball d’integració i hagis provat la recuperació. Tria una VM quan un entorn Docker convidat convencional i un nucli convidat separat simplifiquin el funcionament del servei. Cap de les dues decisions substitueix les còpies de seguretat, la supervisió i el manteniment de l’amfitrió.
@@ -326,8 +325,8 @@ Per a **feines relacionades**, utilitza la [guia d’actualització de Proxmox V
 | **[Vídeo d’origen](https://www.youtube.com/watch?v=XyPBHhZg0Ok)** | Explicació original i període d’estabilitat comunicat |
 | **[Fil de l’incident Proxmox](https://forum.proxmox.com/threads/pve-host-freezes-every-2-3-weeks.185009/)** | Observacions de primera mà i seguiment de la migració |
 | **[Conjunt d’eines de contenidors Proxmox](https://github.com/proxmox/pve-docs/blob/master/pct.adoc)** | Arquitectura de contenidors i distinció actual d’OCI |
-| **[Issue runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Fallada d’inici documentada i correcció històrica del paquet |
-| **[Pull request LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Canvi upstream d’AppArmor integrat |
+| **[problema de runc 4968](https://github.com/opencontainers/runc/issues/4968)** | Fallada d’inici documentada i correcció històrica del paquet |
+| **[sol·licitud de canvi de LXC 4609](https://github.com/lxc/lxc/pull/4609)** | Canvi upstream d’AppArmor integrat |
 | **[Documentació Docker](https://docs.docker.com/engine/install/debian/)** | Base d’instal·lació del convidat amb referències específiques al runtime i a l’emmagatzematge |
 | **[Documentació Linux PSI](https://docs.kernel.org/accounting/psi.html)** | Interpretació de la pressió dels recursos |
 | **[Documentació del watchdog Linux](https://docs.kernel.org/admin-guide/lockup-watchdogs.html)** | Condicions de lockup del nucli definides |

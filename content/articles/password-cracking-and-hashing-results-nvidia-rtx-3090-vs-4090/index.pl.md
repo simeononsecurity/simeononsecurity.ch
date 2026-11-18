@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Porównanie wydajności łamania haseł"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Odkryj różnicę w wydajności między NVIDIA RTX 3090 i RTX 4090 w łamaniu haseł, podkreślając konsekwencje dla bezpieczeństwa i środki ochrony."
@@ -49,7 +50,7 @@ Długość hasła | Złożoność | RTX 3090 (sekundy) | RTX 4090 (sekundy)
 
 Wyniki naszych testów porównawczych pokazują, że **RTX 4090** jest potężnym narzędziem do łamania haseł. Oznacza to, że atakujący mogą teraz łamać hasła znacznie szybciej niż kiedykolwiek wcześniej.
 
-Jest to poważne zagrożenie dla bezpieczeństwa, ponieważ oznacza to, że atakujący mogą teraz znacznie łatwiej uzyskać dostęp do kont i systemów. Aby chronić się przed atakami polegającymi na łamaniu haseł, należy używać [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) aby pomóc w generowaniu i przechowywaniu silnych haseł.
+Stanowi to poważny problem bezpieczeństwa, ponieważ napastnicy mogą dzięki temu znacznie łatwiej uzyskać dostęp do kont i systemów. Aby chronić się przed atakami polegającymi na łamaniu haseł, używaj [**silnych haseł**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), których trudno się domyślić. Korzystaj też z [**menedżera haseł**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/), który pomoże Ci tworzyć i przechowywać [silne hasła](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 
 ## Wnioski
 

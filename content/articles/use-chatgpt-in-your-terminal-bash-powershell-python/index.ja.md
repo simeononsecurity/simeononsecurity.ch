@@ -1,7 +1,7 @@
 ---
 title: "ターミナル（Bash、PowerShell、Python）でChatGPTを使う：開発者向けCLIツール「ChatGPT」入門編"
 date: 2023-02-07
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "OpenAIのChatGPTモデルを、便利なコマンドラインインターフェース（CLI）を使って、テキスト生成や質問応答を簡単に行う方法をご紹介します。"
@@ -32,27 +32,27 @@ pip install chatgpt requests pyreadline3
 インストール後、開発者はChatGPT CLIを使用して、簡単にテキストを生成したり、質問に答えたりすることができます。例えば、プロンプトに基づいてテキストを生成するには、開発者は次のコマンドを使用できます：
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "存在する目的は何ですか？"
 ```
 
 あるいは、質問に答えるために：
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "フランスの首都はどこですか？"
 ```
 
 ChatGPT CLIは、基本的なスクリプトでも活用することができます：
 
 **Linux:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="人生の意味とは何ですか？"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "人生の意味とは何ですか？"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

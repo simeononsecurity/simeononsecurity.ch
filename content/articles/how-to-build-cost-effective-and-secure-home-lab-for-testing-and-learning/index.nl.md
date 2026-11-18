@@ -39,7 +39,7 @@ ______
 
 ### 1. Virtualisatiesoftware
 
-De meest cruciale softwarecomponent in een thuislab is de **virtualisatiesoftware**. Populaire opties zijn [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows) Met deze platforms kun je meerdere VM's op één host maken en beheren. Kies er een die het beste past bij je behoeften en budget.
+De meest cruciale softwarecomponent in een thuislab is de **virtualisatiesoftware**. Populaire opties zijn [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) en [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows). Met deze platforms kun je meerdere VM's op één host maken en beheren. Kies er een die het beste past bij je behoeften en budget.
 
 ### 2. Besturingssystemen
 
@@ -96,9 +96,9 @@ ______
 Nu je je thuislab hebt opgezet, kun je beginnen met **leren en testen** van verschillende technologieën. Enkele populaire onderwerpen en projecten om te verkennen zijn:
 
 1. **Netwerk**: Experimenteer met verschillende netwerktopologieën, routeringsprotocollen en firewallconfiguraties.
-2. **Cloud Computing**: Leren over [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
-3. **Besturingssystemen**: Test verschillende Linux-distributies, Windows Server en containerisatietechnologieën zoals [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
-4. **Cyberbeveiliging**: Oefen ethisch hacken, scannen op kwetsbaarheden en reageren op incidenten met tools zoals [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
+2. **Cloud Computing**: Leren over [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/) of [Google Cloud Platform (GCP)](https://cloud.google.com/)
+3. **Besturingssystemen**: Test verschillende Linux-distributies, Windows Server en containerisatietechnologieën zoals [Docker](https://www.docker.com/) en [Kubernetes](https://kubernetes.io/).
+4. **Cyberbeveiliging**: Oefen ethisch hacken, scannen op kwetsbaarheden en reageren op incidenten met tools zoals [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/) en [Wireshark](https://www.wireshark.org/).
 
 ______
 

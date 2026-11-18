@@ -1,7 +1,7 @@
 ---
 title: "L'impatto dell'apprendimento automatico sulla sicurezza informatica"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Scoprite come l'apprendimento automatico supporta il rilevamento, la classificazione e la risposta alle minacce, oltre ai limiti di implementazione e ai rischi per la sicurezza."
@@ -67,6 +67,6 @@ L'apprendimento automatico ha rivoluzionato il campo della cybersecurity, fornen
 
 ## Riferimenti
 
-1. "Che cos'è la sicurezza informatica?" Cisco.[https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2. "L'apprendimento automatico nella sicurezza informatica". Cylance.[https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "Sicurezza dei dati e dei dispositivi". Istituto nazionale degli standard e della tecnologia.[https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "Che cos'è la sicurezza informatica?" Cisco.[guida Cisco sulla sicurezza informatica](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
+2. "L'apprendimento automatico nella sicurezza informatica". Cylance.[articolo Cylance sull’apprendimento automatico nella sicurezza informatica](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
+3.  "Sicurezza dei dati e dei dispositivi". Istituto nazionale degli standard e della tecnologia.[guida NIST per proteggere dati e dispositivi](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)

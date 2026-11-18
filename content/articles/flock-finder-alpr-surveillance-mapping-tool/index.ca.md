@@ -6,7 +6,7 @@ toc: true
 draft: false
 description: "Flock Finder és una eina de codi obert que mapeja més de 40.000 càmeres Flock Safety ALPR arreu del món utilitzant dades WiFi de WiGLE i empremta OUI. Aprèn com funciona, les seves limitacions i les eines de maquinari per a la detecció en temps real."
 genre: ["Tecnologia de privacitat", "Contravigil·lància", "Projectes de codi obert", "Drets digitals", "Seguretat de xarxes", "Eines de privacitat", "Pirateria de maquinari", "Recerca de seguretat"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "Lector de matrícules", "Empremta OUI", "WiGLE", "Vigilància WiFi", "Contravigil·lància", "STS Collective", "FlockYou", "ESP32", "Eines de privacitat", "NitekryDPaul", "DeFlockJoplin", "Detecció ALPR", "Seguretat de codi obert", "Mapeig de vigilància", "Vigilància massiva", "WiFi OUI", "Protecció de la privacitat", "Adreça MAC", "Mode promiscu", "802.11", "Detecció en temps real", "Wardriving", "Drets digitals", "Llibertats civils", "Consciència de vigilància", "GitHub", "Python"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "Lector de matrícules", "Empremta OUI", "WiGLE", "Vigilància WiFi", "Contravigil·lància", "STS Collective", "FlockYou", "ESP32", "Eines de privacitat", "NitekryDPaul", "DeFlockJoplin", "Detecció ALPR", "Seguretat de codi obert", "Mapeig de vigilància", "Vigilància massiva", "WiFi OUI", "Protecció de la privacitat", "Adreça MAC", "Mode promiscu", "802.11", "Detecció en temps real", "escaneig de xarxes WiFi mentre es condueix", "Drets digitals", "Llibertats civils", "Consciència de vigilància", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "Un mapa interactiu que mostra marcadors de colors que indiquen les ubicacions de les càmeres Flock Safety ALPR, amb senyals WiFi abstractes emanant dels marcadors sobre un fons fosc."
 coverCaption: "Flock Finder mapeja més de 40.000 presumptes càmeres Flock Safety ALPR utilitzant dades WiFi de WiGLE i empremta OUI."
@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **Una eina de consciència sobre la vigilància de codi obert que mapeja les càmeres Flock Safety ALPR utilitzant dades WiFi de col·laboració ciutadana.**
+
+> **Correcció, 21 de setembre de 2026:** Hem auditat el conjunt de dades subjacent de 146,526 registres i hem comprovat que el titular original i els marcadors uniformes del mapa exageraven molt què podia demostrar una coincidència OUI. L’auditoria va trobar 50,278 sistemes Barco ClickShare i 60,793 registres que coincidien amb regles de denominació d’altres dispositius coneguts. Flock Finder ara publica classes d’evidència, exclou aquests registres del mapa i del titular per defecte, i ofereix filtres de confiança. Llegeix la metodologia i la correcció completes a **[Vam cartografiar 146,526 «càmeres Flock». 50,278 eren sistemes ClickShare](/articles/flock-finder-oui-false-positive-audit-2026/)**.
 
 ## Què és Flock Finder?
 
@@ -36,7 +38,11 @@ Per obtenir context sobre per què la vigilància ALPR de Flock Safety és impor
 
 ______
 
-## Com funciona: Empremta OUI via WiGLE
+## Com funciona: Empremta OUI amb WiGLE
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="Diagrama que mostra com Flock Finder compara prefixos MAC de punts WiFi de WiGLE amb signatures OUI conegudes per estimar ubicacions de càmeres" >}}
 
 ### La idea central
 
@@ -116,34 +122,34 @@ ______
 ### Configuració
 
 ```bash
-# Clone the repository
+# Clona el repositori
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# Instal·la les dependències
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# Configura les credencials de l’API de WiGLE
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# Edita .env amb el nom i el testimoni de l’API de WiGLE
 ```
 
-### Execució de l'escàner
+### Execució de l'escaneig
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# Escaneig complet — els 31 prefixos OUI arreu del món
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# Prova d’un sol OUI
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# Només als EUA
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# Quadre delimitador específic (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# Prova en sec — verifica l’autenticació, sense consultes a l’API
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,10 +157,10 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# Obre http://localhost:8080 al navegador
 ```
 
-### Actualitzacions diàries automatitzades via GitHub Actions
+### Actualitzacions diàries automatitzades mitjançant GitHub Actions
 
 Feu un fork del repositori i afegiu les vostres credencials de WiGLE com a **secrets del repositori** (`WIGLE_API_NAME` i `WIGLE_API_TOKEN`). El flux de treball inclòs s'executa a les 6 AM UTC diàriament i confirma automàticament els fitxers de dades actualitzats sempre que es troben noves càmeres.
 
@@ -181,6 +187,8 @@ Tots els dispositius:
 - Alimentats via USB-C (adaptador de cotxe, bateria externa o portàtil)
 
 > 💰 **Descomptes exclusius**: Utilitzeu el codi **FLOCKFINDER** per a un **20% de descompte** en tots els dispositius STS Collective FlockYou — o utilitzeu el codi **SIMEONONSECURITY** per a un descompte de fins al 20% en tota la vostra comanda. [Compreu a stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< stscollective-ad "flockyou" >}}
 
 Per a una anàlisi tècnica completa d'aquests dispositius i alternatives DIY, llegiu la **[Guia completa de maquinari i configuració del Projecte de Detecció Flock-You](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
@@ -223,7 +231,7 @@ La cobertura de WiGLE és desigual. Si cap conductor de wardriving ha escanejat 
 
 El flux de treball de GitHub Actions s'executa diàriament i obté els últims resultats de WiGLE. No obstant això, WiGLE en si pot tenir registres que van des de dies fins a anys d'antiguitat per a qualsevol ubicació determinada. Comproveu el fitxer `scan_stats.json` per a la marca de temps de l'exploració més recent.
 
-### Puc contribuir amb les meves pròpies dades de wardrive?
+### Puc contribuir amb les meves pròpies dades d'escaneig de xarxes WiFi des d'un vehicle?
 
 Sí. Pengeu les vostres dades de wardrive a [WiGLE](https://wigle.net) — s'incorpora automàticament a la propera exploració diària de Flock Finder. També podeu contribuir amb prefixos OUI o millores de codi mitjançant la [Guia de contribució](https://github.com/simeononsecurity/flock-finder/blob/main/CONTRIBUTING.md).
 
@@ -259,6 +267,12 @@ ______
 És una **eina de transparència**, no un rastrejador en directe. Les seves dades són històriques, incompletes i probabilístiques. Però fa visible l'escala de la vigilància ALPR d'una manera que els resums i els informes no poden.
 
 Per a una protecció genuïna en temps real mentre us moveu per zones vigilades, combineu el mapa amb maquinari dedicat. **[Els dispositius FlockYou de STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** implementen el mètode de detecció de @NitekryDPaul directament en un ESP32 i us alerten en el moment en què es detecta una signatura de càmera en viu — disponibles a **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** amb el codi **FLOCKFINDER** o **SIMEONONSECURITY** per a un descompte de fins al 20%.
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Compra detectors FlockYou i estalvia un 20%
+{{< /centerbutton >}}
 
 ### Articles relacionats
 

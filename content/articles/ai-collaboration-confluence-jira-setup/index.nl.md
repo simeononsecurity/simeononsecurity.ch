@@ -1,7 +1,7 @@
 ---
 title: "Confluence en Jira AI instellen: machtigingen en bevoegdheden"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configureer gezaghebbende Confluence-pagina’s en Jira-machtigingen voor bedrijfsbeheerde samenwerking tussen teams na beoordeling."
@@ -53,15 +53,15 @@ Gebruik vanaf oktober 2026 de knop **Share** of de beperkingsinstelling voor toe
 5. **Open Share** op elke gezaghebbende pagina. Stel de algemene toegang in op alleen-lezen voor geschikte ruimtedeelnemers en geef aangewezen eigenaren en uitgevers afzonderlijk bewerkingsrechten. Sla op en controleer dit met de bijdrager.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+Bron-ID: REQ-17
+Rol eigenaar: product-owner
+Status: goedgekeurde basis
+Reikwijdte: alleen synthetische exportbestanden
+Bewaartermijn: 7 dagen
+Leveringsstatus: basisconfiguratie van het lab
+Uitzonderingen: productiegegevens, back-ups en wettelijke bewaarplichten uitgesloten
+Goedkeuringsbewijs: beoordeling van basis DEC-12
+Implementatiereferentie: voeg de beschermde GitHub-basiscommit toe
 ```
 
 **Pas beperkingen toe op elke gezaghebbende pagina.** Ga er niet van uit dat een bewerkingsbeperking op een bovenliggende pagina ook de onderliggende pagina’s beschermt. Overerving van lees- en bewerkingsrechten werkt verschillend en ruimtemachtigingen blijven gelden. Een koppeling geeft op zichzelf geen toegang. Controleer alle lidmaatschappen als een gebruiker met vermeend alleen-lezen toegang toch kan bewerken.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Gebruik deze begininhoud voor de andere twee pagina’s.** Vervang tijdelijke beoordelingsvelden door werkelijk bewijs uit de testomgeving voordat je een record goedkeurt.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+Bron-ID: RUN-04
+Rol eigenaar: operations-owner
+Status: goedgekeurde basis
+Reikwijdte: alleen synthetische exportbestanden
+Ingestelde bewaartermijn: 7 dagen
+Procedure: vergelijk REQ-17 met config.json vóór een beoordeelde wijziging
+Runtimebeperking: dit lab heeft geen verwijdertaak en levert geen verwijderbewijs
+Herstel: zet de eerder goedgekeurde configuratie na beoordeling terug
+Herstelbeperking: een herstelde configuratie herstelt geen verwijderde bestanden
+Beoordelingsbewijs: voeg de echte beoordelaar, paginaversie en beslisreferentie toe
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Pagina: Besluitenregister
+Item-ID: DEC-12
+Besluit: gebruik zeven dagen als synthetische basis
+Reikwijdte: alleen export-service-lab
+Vereiste: leg de paginaversie van REQ-17 na publicatie vast
+Draaiboek: leg de paginaversie van RUN-04 na publicatie vast
+Beleid: leg de beschermde GitHub-revisie van POL-01 na beoordeling vast
+Productbeoordeling: in afwachting van een besluit van de genoemde eigenaar
+Operationele beoordeling: in afwachting van een besluit van de genoemde eigenaar
+Status: conceptvoorbeeld, vervang door waargenomen beoordelingsbewijs
 ```
 
 ## De kaart bijwerken
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Plak deze concepttekst in PROP-042.** Het Jira-item volgt de uitvoering. De tekst vervangt de goedgekeurde formulering in Confluence niet.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+Voorstel-ID: PROP-042
+Status: Concept
+Huidige goedgekeurde waarde: 7 dagen, paginaversie van REQ-17 vastleggen
+Voorgestelde waarde: 30 dagen voor synthetische exportbestanden
+Uitsluitingen: productiegegevens, back-ups en wettelijke bewaarplichten
+Betrokken records: REQ-17, RUN-04, config.json, proposal.json
+Vaste bijlage van voorstel: in afwachting
+Beoordeling door producteigenaar: in afwachting
+Beoordeling door operationeel eigenaar: in afwachting
+Publicatieregister: in afwachting
+Stop bij gewijzigde bronversie, ontbrekende beoordeling of geweigerde toegang
 ```
 
 | Rol | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Scheid lezen, voorstellen maken en publiceren.** Een bijdrager heeft voldoende toegang nodig om de synthetische eis te begrijpen en een voorstel in te dienen. Bewerkingsrechten op de gezaghebbende pagina of toestemming om het eigen voorstel goed te keuren zijn niet nodig.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Testrecord: PERM-REQ-EDIT
+Rol: bijdrager
+Bron: REQ-17
+Voorwaarde: bron is leesbaar en gepubliceerde revisie is vastgelegd
+Poging: de gezaghebbende vereiste bewerken
+Verwacht: bewerking geweigerd, gepubliceerde revisie ongewijzigd
+Waargenomen: vul in vanuit de sandbox
+Bewijs: native resultaat en onafhankelijke revisiecontrole
+Beoordelaar: beheerder of onafhankelijke machtigingsbeoordelaar
 ```
 
 **Gebruik een apart record voor geweigerde leestoegang.** De leesbare eis voor de bijdrager test de scheiding van publicatierechten. Een ontoegankelijke pagina voor een uitgesloten gebruiker test vertrouwelijkheid. Door beide in één rij te combineren, zie je niet welke grens is getest.

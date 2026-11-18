@@ -1,17 +1,16 @@
 ---
 title: "CLI-Coding-Agenten im Vergleich: Claude Code, Codex, Gemini, OpenCode, Copilot und Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Vergleichen Sie sechs Coding-Agenten im Terminal nach Workflow, Automatisierung, Modellzugang, Berechtigungen und Prüfaufwand. Erstellen Sie eine Auswahlliste mit einem wiederholbaren Repository-Test."
 genre: ["Entwicklerwerkzeuge", "Künstliche Intelligenz", "Softwareentwicklung"]
-tags: ["CLI-Coding-Agenten", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "Terminal-Agenten", "Headless-Automatisierung", "agent harness", "Modellanbieter", "Git-Workflows", "Vergleich von Coding-Agenten", "Shell-Tools", "Coding-Assistent", "Agentenberechtigungen", "Repository-Kontext", "CI-Automatisierung", "Codeprüfung", "Entwicklerwerkzeuge"]
+tags: ["CLI-Coding-Agenten", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "Terminal-Agenten", "Headless-Automatisierung", "Rahmenwerk für Programmieragenten", "Modellanbieter", "Git-Arbeitsabläufe", "Vergleich von Coding-Agenten", "Shell-Werkzeuge", "Coding-Assistent", "Agentenberechtigungen", "Repository-Kontext", "CI-Automatisierung", "Codeprüfung", "Entwicklerwerkzeuge"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "Sechs abstrakte Terminalfenster umgeben ein Repository-Symbol in einem ausgewogenen Raster auf dunklem Hintergrund"
 coverCaption: ""
 ---
-
 **Coding-Agenten im Terminal** nutzen eine vertraute Oberfläche, unterscheiden sich aber bei Kontextsammlung, Dateibearbeitung, Genehmigungen und der Einbindung in Skripte. Dieser Leitfaden vergleicht Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI und Aider. Er bewertet deren Terminal-Workflows unabhängig von den Desktop-Produkten der jeweiligen Anbieter.
 
 **Beginnen Sie mit Ihren Einschränkungen.** Anbieterzugang, wiederholbare Automatisierung und Prüfgewohnheiten filtern besser als eine allgemeine Rangliste. Die folgenden Empfehlungen sind redaktionelle Einschätzungen auf Grundlage offizieller Dokumentation, die am 10. Oktober 2026 geprüft wurde. Sie sind keine gemessenen Leistungsrankings.
@@ -98,10 +97,10 @@ coverCaption: ""
 **Projektanweisungen brauchen eine Prüfung.** Geben Sie jedem Tool denselben Build-Befehl, dieselben Akzeptanzkriterien und Ausschlüsse über seine unterstützte Anweisungsschnittstelle. Lassen Sie es die aktiven Einschränkungen vor der Bearbeitung wiederholen. Eine fehlende Anweisungsdatei ist ein Einrichtungsfehler und kein Modellbenchmark.
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+Aufgabe: Behebe die angegebene Reproduktion, ohne die öffentliche API zu ändern.
+Umfang: Erhalte nicht zusammenhängende Änderungen und füge keine neuen Abhängigkeiten hinzu.
+Nachweise: Führe den bestehenden Regressionstest und relevante benachbarte Tests aus.
+Bericht: Erkläre Ursache, geänderte Dateien, Prüfungen und verbleibende Unsicherheiten.
 ```
 
 **Dieser Test-Prompt ist absichtlich begrenzt.** Fügen Sie eine bekannte Reproduktion und unabhängig geschriebene Prüfungen hinzu. Verwenden Sie denselben Ausgangscommit in getrennten Checkouts. Notieren Sie Tool-Version, Modell, Anbieter, Berechtigungsrichtlinie, verstrichene Zeit und Eingriffe.
@@ -122,4 +121,4 @@ Report: Explain the cause, changed files, checks, and remaining uncertainty.
 
 **Unerwartete Ergebnisse beginnen oft bei der Konfiguration.** Fehlende Tools, falsche Arbeitsverzeichnisse, unterschiedliche Modellversionen oder erschöpfte Kontingente verzerren Vergleiche. Prüfen Sie diese Punkte vor wiederholtem Umschreiben von Prompts.
 
-**Lesen Sie als Nächstes einen fokussierten Leitfaden:** [OpenCode vs Claude Code](/articles/opencode-vs-claude-code/), [Codex CLI vs Desktop](/articles/codex-cli-vs-desktop/), [Claude Code CLI vs Desktop](/articles/claude-code-cli-vs-desktop/), [OpenCode CLI vs Desktop](/articles/opencode-cli-vs-desktop/) oder [Copilot CLI vs VS Code](/articles/github-copilot-cli-vs-vscode/). Diese Oberflächenvergleiche bleiben innerhalb der jeweiligen Produktfamilie.
+**Lesen Sie als Nächstes einen fokussierten Leitfaden:** [OpenCode im Vergleich zu Claude Code](/articles/opencode-vs-claude-code/), [Codex CLI im Vergleich zur Desktop-App](/articles/codex-cli-vs-desktop/), [Claude Code CLI im Vergleich zur Desktop-App](/articles/claude-code-cli-vs-desktop/), [OpenCode CLI im Vergleich zur Desktop-App](/articles/opencode-cli-vs-desktop/) oder [Copilot CLI im Vergleich zu VS Code](/articles/github-copilot-cli-vs-vscode/). Diese Oberflächenvergleiche bleiben innerhalb der jeweiligen Produktfamilie.

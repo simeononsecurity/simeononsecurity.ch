@@ -1,12 +1,12 @@
 ---
 title: "1Password SSH Agent und CLI: Nur-Lese-Zugriff für KI-Agenten"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Entwerfen Sie einen nur-lesbaren SSH-Workflow mit 1Password CLI, dem SSH Agent und MCP. Verwenden Sie synthetische Befehle, eingeschränkte Berechtigungen und menschliche Genehmigung vor dem Live-Test."
 genre: ["Systemadministration", "Cloud-Sicherheit", "Automatisierung"]
-tags: ["1Password CLI", "SSH-Schlüssel", "1Password SSH Agent", "MCP", "Model Context Protocol", "Agenten-Verwaltung", "Systemadministration", "Bitbucket Cloud", "Git über SSH", "Geheimnis-Referenzen", "Service-Konten", "Least Privilege", "Public-Key-Authentifizierung", "Geheimnisverwaltung", "Befehlszeilen-Sicherheit", "Automatisierungssicherheit"]
+tags: ["1Password CLI", "SSH-Schlüssel", "1Password SSH Agent", "MCP", "Model Context Protocol", "Agenten-Verwaltung", "Systemadministration", "Bitbucket Cloud", "Git über SSH", "Geheimnis-Referenzen", "Service-Konten", "Prinzip der geringsten Rechte", "Public-Key-Authentifizierung", "Geheimnisverwaltung", "Befehlszeilen-Sicherheit", "Automatisierungssicherheit"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "Abstrakte Darstellung eines Agenten, der eine Geheimnis-Referenz, einen SSH-Agenten und MCP-Tools verwendet, ohne private Schlüssel anzuzeigen."
 coverCaption: ""
@@ -82,7 +82,7 @@ Bitbucket Cloud verwendet den normalen Git- und OpenSSH-Workflow über die Befeh
 
 **Behandeln Sie Bitbucket als Verbraucher des öffentlichen Schlüssels.** Registrieren Sie den öffentlichen Schlüssel oder Fingerabdruck über die genehmigte Bitbucket-Konto- oder Repository-Einstellung. Bewahren Sie den privaten Schlüssel in 1Password auf. Der Git-Client bittet den SSH-Agenten um das Signieren. Der Client liest keine private Schlüssel-Datei.
 
-Für den Bitbucket-Zugangsschlüssel-Bereich, den Registrierungspfad und den nur-lesenden Git-Test siehe [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+Für den Bitbucket-Zugangsschlüssel-Bereich, den Registrierungspfad und den nur-lesenden Git-Test siehe [Bitbucket-Cloud-SSH-Schlüssel und Git-CLI: Nur-Lesezugriff für KI-Agenten](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 Die Bitbucket-Dokumentation bezeichnet dies als Git-CLI-Workflow. Dieser Artikel geht nicht von einem separaten Bitbucket-MCP-Server oder einem Produkt namens Bitbucket CLI aus. Ein Bitbucket-spezifisches CLI benötigt seine eigene aktuelle Dokumentation und seine eigene Berechtigungsprüfung.
 
@@ -163,10 +163,10 @@ Notieren Sie die Zielklasse, das entfernte Konto, das beabsichtigte Repository o
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: schreibgeschützter Verbindungstest
+host_key_source: freigegebener Administratoreintrag
+approval_owner: benannter Betreiber
+rollback: öffentlichen Schlüssel entfernen und Testidentität widerrufen
 ```
 
 **Erwartetes Ergebnis, ungetestet:** Der Datensatz identifiziert ein Ziel und eine Operation. Der Datensatz enthält keine Hostname, IP-Adresse, Token, privaten Schlüssel oder personenbezogene Daten.
@@ -221,7 +221,7 @@ Der Befehl verwendet einen Repository-Platzhalter. Ersetzen Sie den Platzhalter 
 
 Prüfen Sie zunächst den SSH-Client und das Ziel ohne MCP. Fügen Sie dann einen schreibgeschützten MCP-Server oder lokalen Connector hinzu. Stellen Sie dem Agenten ein Tool wie `read_status` oder `prepare_command` zur Verfügung. Beginnen Sie nicht mit einem allgemeinen Shell-Tool.
 
-Die MCP-Konfiguration sollte Laufzeitwerte über den vom Client unterstützten Umgebungsmechanismus referenzieren. Der [1Password AI security guide](https://www.1password.dev/security-for-ai) beschreibt den Ersatz von Klartext-MCP-Konfigurations-Token durch Umgebungsvariablen, die aus 1Password geladen werden. **Behalten Sie die Referenz oder den Variablennamen in der Konfiguration bei. Halten Sie den aufgelösten Wert aus dem Agenten-Transkript heraus.**
+Die MCP-Konfiguration sollte Laufzeitwerte über den vom Client unterstützten Umgebungsmechanismus referenzieren. Der [1Password-Leitfaden zur KI-Sicherheit](https://www.1password.dev/security-for-ai) beschreibt den Ersatz von Klartext-MCP-Konfigurations-Token durch Umgebungsvariablen, die aus 1Password geladen werden. **Behalten Sie die Referenz oder den Variablennamen in der Konfiguration bei. Halten Sie den aufgelösten Wert aus dem Agenten-Transkript heraus.**
 
 Dieser Abschnitt beschreibt ein Design, keine getestete MCP-Konfiguration. Hier ist kein Client, Server, Transport, keine Version oder kein Fixture festgelegt. Validieren Sie einen nur-lesenden Server in einem separaten Testprofil, bevor Sie einen Agenten mit einem Produktionssystem verbinden.
 
@@ -239,7 +239,7 @@ Die folgende Sequenz zeigt die Reihenfolge, ohne echte Infrastruktur zu verwende
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Nur unter macOS oder Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```
@@ -337,7 +337,7 @@ Stoppen Sie den Workflow und rotieren Sie den Schlüssel. Untersuchen Sie die MC
 
 ### Eine Schlüssel-Liste enthält zu viele Identitäten
 
-Der 1Password SSH-Agent zeigt berechtigte Schlüssel aus seinen konfigurierten Vaults an. Verwenden Sie eine bereichsbezogene Agenten-Konfiguration oder eine host-spezifische SSH-Konfiguration. Die [Agenten-Dokumentation](https://www.1password.dev/ssh/agent)] erwähnt auch die Sechs-Schlüssel-Grenze des OpenSSH-Servers.
+Der 1Password SSH-Agent zeigt berechtigte Schlüssel aus seinen konfigurierten Vaults an. Verwenden Sie eine bereichsbezogene Agenten-Konfiguration oder eine host-spezifische SSH-Konfiguration. Die [Agenten-Dokumentation](https://www.1password.dev/ssh/agent) erwähnt auch die Sechs-Schlüssel-Grenze des OpenSSH-Servers.
 
 ### Ein Befehl funktioniert manuell, schlägt aber in einem Job fehl
 

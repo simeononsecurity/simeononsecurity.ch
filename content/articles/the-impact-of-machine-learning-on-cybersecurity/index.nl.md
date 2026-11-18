@@ -1,7 +1,7 @@
 ---
 title: "De impact van machinaal leren op cyberbeveiliging"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Lees hoe machine learning helpt bij het detecteren en prioriteren van bedreigingen en bij de respons, plus de grenzen aan inzet en beveiligingsrisico’s."
@@ -67,6 +67,6 @@ Machine learning heeft een revolutie teweeggebracht op het gebied van cyberbevei
 
 ## Referenties
 
-1. "Wat is cyberbeveiliging?" Cisco.[https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2. "Machine Learning in Cybersecurity." Cylance.[https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "Securing Data & Devices." National Institute of Standards and Technology.[https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "Wat is cyberbeveiliging?" Cisco.[Cisco-handleiding voor cyberbeveiliging](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (geraadpleegd op 4 maart 2023)
+2. "Machine Learning in Cybersecurity." Cylance.[Cylance-artikel over machinaal leren in cyberbeveiliging](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (geraadpleegd op 4 maart 2023)
+3.  "Securing Data & Devices." National Institute of Standards and Technology.[NIST-handleiding voor het beveiligen van gegevens en apparaten](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (geraadpleegd op 4 maart 2023)

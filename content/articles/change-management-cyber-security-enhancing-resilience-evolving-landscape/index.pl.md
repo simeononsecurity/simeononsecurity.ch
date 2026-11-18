@@ -1,7 +1,7 @@
 ---
 title: "Zwiększanie odporności cyberbezpieczeństwa dzięki zarządzaniu zmianami"
 date: 2023-07-26
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Poznaj znaczenie zarządzania zmianami w cyberbezpieczeństwie i dowiedz się, jak zwiększyć odporność organizacji na zmieniające się zagrożenia."

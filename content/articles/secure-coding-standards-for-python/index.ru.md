@@ -1,7 +1,7 @@
 ---
 title: "Стандарты безопасного кодирования на Python: Лучшие практики"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python, чтобы минимизировать риск нарушения безопасности и защитить конфиденциальные данные."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Функция для проверки ввода с помощью регулярных выражений.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ def validate_input(input_string):
 
 Например, вместо использования `eval()` для преобразования строки в целое число, разработчикам следует использовать функцию `int()` функция.
 ```py
-# Instead of using eval function
+# Вместо использования функции eval
 x = eval('10')
 
-# Use int function
+# Используйте функцию int
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Функция для шифрования пароля с помощью криптографической библиотеки.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ encrypted_password = encrypt_password(password)
 Например, при написании SQL-запросов следует использовать **параметризованные запросы**, а не конкатенировать вводимые пользователем данные с запросом. Параметризованные запросы предотвращают атаки SQL-инъекций, поскольку рассматривают вводимые пользователем данные как данные, а не как исполняемый код.
 
 ```py
-# Instead of this
+# Вместо этого
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Используйте параметризованный запрос
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

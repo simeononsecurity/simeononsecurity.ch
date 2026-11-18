@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT gebruiken in uw Terminal (Bash, PowerShell, Python): Een inleiding tot de ChatGPT CLI-tool voor ontwikkelaars"
 date: 2023-02-07
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer hoe u het OpenAI ChatGPT-model kunt gebruiken via de handige Command Line Interface (CLI) voor het eenvoudig genereren van tekst en het beantwoorden van vragen."
@@ -32,27 +32,27 @@ pip install chatgpt requests pyreadline3
 Eenmaal geïnstalleerd, kunnen ontwikkelaars de ChatGPT CLI gebruiken om gemakkelijk tekst te genereren of vragen te beantwoorden. Om bijvoorbeeld tekst te genereren op basis van een prompt, kunnen ontwikkelaars het volgende commando gebruiken:
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "Wat is het doel van het bestaan?"
 ```
 
 Of, om een vraag te beantwoorden:
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "Wat is de hoofdstad van Frankrijk?"
 ```
 
 De ChatGPT CLI kan ook worden gebruikt met basisscripts:
 
 **Linux:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="Wat is de zin van het leven?"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "Wat is de zin van het leven?"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

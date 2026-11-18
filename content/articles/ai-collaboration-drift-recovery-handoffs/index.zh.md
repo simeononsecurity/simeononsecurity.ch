@@ -1,7 +1,7 @@
 ---
 title: "AI 代理偏差恢复与交接工作流"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "识别过时的来源和策略适配器，恢复中断的发布，并验证代理之间的独立交接。"
@@ -46,14 +46,14 @@ coverCaption: ""
 ## 执行预检
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+阅读 MAP-01 并记录其修订版本。
+阅读 POL-01 并比较当前适配器版本。
+从映射位置读取 REQ-17 和 RUN-04。
+读取受保护 main 上的 config.json。
+读取冻结的提案和各角色当前的审核。
+将当前来源与已审核的基准进行比较。
+列出不一致、读取被拒和待发布事项。
+在负责人解决每项不一致前，停止有重大影响的写入。
 ```
 
 **贡献者在起草前执行预检。发布者在写入前再次执行。**将版本比较记录与提案一同保存。每周检查可以补充这些读取，但不能替代它们。
@@ -103,16 +103,16 @@ choices:
 ## 验证独立交接
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+交接：HANDOFF-042
+任务：PROP-042
+映射和策略：附上当前已批准的修订版本
+证据：需求、runbook 和配置的引用
+台账：completed, failed, pending
+决定：负责人选择和固定的提案修订版本
+限制：未测试运行时删除，未使用生产数据
+下一角色：负责角色
+下一步：一个范围明确的步骤
+停止条件：基准变更、访问被拒或授权冲突
 ```
 
 **使用地图和交接信息打开另一个工具或干净会话，**不要沿用之前的对话。要求重新读取来源、生成新清单并指出待处理操作。如果将手动浏览器证据标注为快照，并在写入前重新检查，这些证据仍然有效。
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **补偿不会删除历史。**将尝试改为三十天、该变更失败和后续恢复分别作为独立记录保留。最终来源写明七天，交付历史说明已批准的提案为何未完成。
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+恢复决定：补偿示例
+原始提案：PROP-042 修订版 1
+观察到的不一致：需求 30，配置/runbook 7
+负责人决定：恢复已批准的基准意图
+审核对象：将固定补偿与当前需求版本进行比较
+结果：记录产生的修订版本，并重新读取七天值
+原始交付：说明原因后撤回或阻止
+限制：未执行运行时删除或数据恢复
 ```
 
 **明确保留其他作者添加的例外。**盲目粘贴旧页面内容可能会移除有效的中间变更。比较当前文本和预期文本，再根据当前版本审查最小补偿变更。
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **使用干净会话和另一位审查者。**提供地图、固定版本的包、台账和恢复决策，不提供之前的聊天记录。请接收者说明当前意图、配置、操作指南和下一项获准操作。
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+独立读取映射中列出的当前来源。
+区分已批准意图、已提交配置和交付状态。
+将其与已审核的软件包和台账进行比较。
+列出缺失的读取项和已更改的基准。
+建议一个范围明确的下一步，并标明负责角色。
+不要将此交接视为批准或发布许可。
 ```
 
 **预期推理：**接收者在描述基准已恢复之前先验证补偿结果。如果只重复交接信息中的“七天”，就没有测试独立读取要求。应要求来源证据，而不是另一份摘要。
@@ -219,4 +219,4 @@ Do not treat this handoff as approval or publication permission.
 
 ## 后续步骤
 
-**使用两条工作轨道和第二位读者完成 [Retention Capstone](/articles/ai-collaboration-retention-capstone/)。**展示最新来源读取、版本偏差、决策负责人、经过审查的恢复、回读和独立重建。
+**使用两条工作轨道和第二位读者完成 [保留期限总结课](/articles/ai-collaboration-retention-capstone/)。**展示最新来源读取、版本偏差、决策负责人、经过审查的恢复、回读和独立重建。

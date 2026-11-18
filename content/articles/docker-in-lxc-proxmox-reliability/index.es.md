@@ -1,17 +1,16 @@
 ---
 title: "Docker en LXC sobre Proxmox: fiabilidad, pruebas y migración a VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Evalúa Docker dentro de Proxmox LXC con un fallo documentado de AppArmor, un análisis cuidadoso de un informe sobre bloqueos del host, comandos de diagnóstico y un plan de migración a una VM."
-genre: ["Virtualización", "Administración de Linux", "Homelab"]
+genre: ["Virtualización", "Administración de Linux", "laboratorio doméstico"]
 tags: ["Docker en LXC", "Docker en Proxmox", "LXC de Proxmox", "máquina virtual para Docker", "fiabilidad del homelab", "bloqueos del host Proxmox", "máquina virtual Debian para Docker", "contenedores sin privilegios", "anidamiento de contenedores", "aislamiento del kernel de Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "controladores de almacenamiento de Docker", "almacén de imágenes de containerd", "presión de memoria", "Linux PSI", "diario persistente", "copias de seguridad de Proxmox", "copias de bind mounts", "migración de VM", "dominios de fallo", "paso de GPU", "solución de problemas del servidor doméstico"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Ilustración isométrica de un servidor doméstico con cargas de trabajo anidadas y un compartimento separado para una máquina virtual conectada al hardware compartido"
 coverCaption: "Ilustración conceptual del hardware compartido y distintos límites de aislamiento de cargas"
 ---
-
 **Docker dentro de Linux Containers (LXC)** reduce parte del coste de infraestructura, pero aumenta las interacciones entre el entorno de ejecución de las aplicaciones y el host Proxmox. Para los servicios Docker de los que depende tu hogar, una **máquina virtual (VM) Debian** es un punto de partida práctico. Separa el kernel invitado y simplifica el entorno que debes reproducir al investigar un problema. Este artículo analiza el vídeo proporcionado, comprueba el informe de incidente relacionado e incorpora fallos documentados y un plan de migración.
 
 <!--more-->
@@ -66,14 +65,14 @@ El **periodo de observación** merece atención. Dieciséis días caen dentro de
 ## Ubica el límite del kernel
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker dentro de LXC:
+Aplicación -> Entorno de ejecución de Docker -> espacios de nombres y políticas de LXC
+              -> kernel del host Proxmox -> hardware físico
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker dentro de una máquina virtual:
+Aplicación -> Entorno de ejecución de Docker -> kernel Linux invitado
+              -> hardware virtual / KVM-QEMU
+              -> kernel del host Proxmox -> hardware físico
 ```
 
 **LXC** utiliza el kernel del host. Los espacios de nombres, grupos de control, capacidades, seccomp y perfiles de seguridad restringen procesos sin proporcionar un kernel independiente. Añadir Docker dentro de LXC crea otra capa de administración de contenedores para cargas que usan el mismo kernel subyacente del host. [Arquitectura y funciones de contención de LXC](https://linuxcontainers.org/lxc/introduction/)
@@ -290,17 +289,17 @@ Las **pruebas de aceptación** deben responder al propósito del servicio. Un es
 **Usa pruebas medidas** para elegir un despliegue y definir cuándo volver a evaluarlo:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Impacto en el servicio y el hogar:
+Versiones actuales de host / kernel / LXC / Docker:
+Acceso requerido a GPU, dispositivos y red:
+Memoria, CPU, almacenamiento y latencia medidos:
+Señal de fallo conocida e intervalo de recurrencia:
+Cobertura de copias de seguridad y prueba de restauración satisfactoria:
+Arquitectura elegida y motivo:
+Ventana de interrupción permitida y objetivo de recuperación:
+Procedimiento de cambio y reversión de datos posterior al cambio:
+Pruebas de aceptación y periodo de observación:
+Condición que exige volver a revisar la arquitectura:
 ```
 
 **Elige Docker anidado en LXC de forma deliberada** cuando sus ventajas justifiquen el trabajo de integración y hayas probado la recuperación. Elige una VM cuando un entorno Docker invitado convencional y un kernel invitado separado simplifiquen el funcionamiento del servicio. Ninguna decisión sustituye las copias de seguridad, la supervisión ni el mantenimiento del host.

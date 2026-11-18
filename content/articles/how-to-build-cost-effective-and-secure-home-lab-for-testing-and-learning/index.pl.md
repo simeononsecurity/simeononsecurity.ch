@@ -39,7 +39,7 @@ ______
 
 ### 1. Oprogramowanie do wirtualizacji
 
-Najważniejszym komponentem oprogramowania w domowym laboratorium jest **oprogramowanie do wirtualizacji**. Popularne opcje obejmują [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), and [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows) Platformy te umożliwiają tworzenie i zarządzanie wieloma maszynami wirtualnymi na jednym hoście. Wybierz tę, która najlepiej odpowiada Twoim potrzebom i budżetowi.
+Najważniejszym komponentem oprogramowania w domowym laboratorium jest **oprogramowanie do wirtualizacji**. Popularne opcje obejmują [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html), [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) oraz [Microsoft Hyper-V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows). Platformy te umożliwiają tworzenie i zarządzanie wieloma maszynami wirtualnymi na jednym hoście. Wybierz tę, która najlepiej odpowiada Twoim potrzebom i budżetowi.
 
 ### 2. Systemy operacyjne
 
@@ -96,9 +96,9 @@ ______
 Po skonfigurowaniu domowego laboratorium możesz teraz rozpocząć **naukę i testowanie** różnych technologii. Niektóre popularne tematy i projekty do zbadania obejmują:
 
 1. **Sieć**: Eksperymentowanie z różnymi topologiami sieci, protokołami routingu i konfiguracjami zapory sieciowej.
-2. **Cloud Computing**: Dowiedz się więcej o [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), or [Google Cloud Platform (GCP)](https://cloud.google.com/)
-3. **Systemy operacyjne**: Testowanie różnych dystrybucji Linuksa, Windows Server i technologii konteneryzacji, np. [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/)
-4. **Bezpieczeństwo cybernetyczne**: Praktyka etycznego hakowania, skanowania podatności i reagowania na incydenty przy użyciu narzędzi takich jak [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/), and [Wireshark](https://www.wireshark.org/)
+2. **Cloud Computing**: Dowiedz się więcej o [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/) lub [Google Cloud Platform (GCP)](https://cloud.google.com/)
+3. **Systemy operacyjne**: Testowanie różnych dystrybucji Linuksa, Windows Server i technologii konteneryzacji, np. [Docker](https://www.docker.com/) i [Kubernetes](https://kubernetes.io/).
+4. **Bezpieczeństwo cybernetyczne**: Praktyka etycznego hakowania, skanowania podatności i reagowania na incydenty przy użyciu narzędzi takich jak [Kali Linux](https://www.kali.org/), [Metasploit](https://www.metasploit.com/) oraz [Wireshark](https://www.wireshark.org/).
 
 ______
 

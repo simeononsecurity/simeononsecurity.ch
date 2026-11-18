@@ -1,7 +1,7 @@
 ---
 title: "有界 AI 代理循环：检查、重试与停止规则"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "定义一个 AI 目标循环，包含可观察状态、检查、重试上限、停止条件，以及向人员清晰移交任务的方式。"
@@ -89,7 +89,7 @@ coverCaption: ""
 **从未修改的实验开始。** 两个基线测试都通过。在新解压的副本中创建 `tests/test_loop_contract.py`，并加入下面的检查。该文件定义了启动项目中不存在的目标功能，不属于维护中的启动 ZIP。
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""用于状态筛选练习的一项受控失败检查。"""
 
 import subprocess
 import sys

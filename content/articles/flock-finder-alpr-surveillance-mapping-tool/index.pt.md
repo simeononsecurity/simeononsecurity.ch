@@ -1,11 +1,12 @@
 ---
 title: "Flock Finder: Mapeie Câmeras ALPR do Flock Safety"
 date: 2026-07-22
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "O Flock Finder é uma ferramenta de código aberto que mapeia mais de 40.000 câmeras ALPR do Flock Safety em todo o mundo usando dados WiFi do WiGLE e impressão digital OUI. Saiba como funciona, suas limitações e as ferramentas de hardware para detecção em tempo real."
 genre: ["Tecnologia de Privacidade", "Contra-Vigilância", "Projetos de Código Aberto", "Direitos Digitais", "Segurança de Rede", "Ferramentas de Privacidade", "Hacking de Hardware", "Pesquisa de Segurança"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "Leitor de Placa", "Impressão Digital OUI", "WiGLE", "Vigilância WiFi", "Contra-Vigilância", "STS Collective", "FlockYou", "ESP32", "Ferramentas de Privacidade", "NitekryDPaul", "DeFlockJoplin", "Detecção ALPR", "Segurança de Código Aberto", "Mapeamento de Vigilância", "Vigilância em Massa", "WiFi OUI", "Proteção de Privacidade", "Endereço MAC", "Modo Promíscuo", "802.11", "Detecção em Tempo Real", "Wardriving", "Direitos Digitais", "Liberdades Civis", "Consciência de Vigilância", "GitHub", "Python"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "Leitor de Placa", "Impressão Digital OUI", "WiGLE", "Vigilância WiFi", "Contra-Vigilância", "STS Collective", "FlockYou", "ESP32", "Ferramentas de Privacidade", "NitekryDPaul", "DeFlockJoplin", "Detecção ALPR", "Segurança de Código Aberto", "Mapeamento de Vigilância", "Vigilância em Massa", "WiFi OUI", "Proteção de Privacidade", "Endereço MAC", "Modo Promíscuo", "802.11", "Detecção em Tempo Real", "varredura de redes WiFi durante a condução", "Direitos Digitais", "Liberdades Civis", "Consciência de Vigilância", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "Um mapa interativo exibindo marcadores coloridos indicando localizações de câmeras ALPR do Flock Safety, com sinais WiFi abstratos emanando dos marcadores sobre um fundo escuro."
 coverCaption: "O Flock Finder mapeia mais de 40.000 câmeras ALPR suspeitas do Flock Safety usando dados WiFi do WiGLE e impressão digital OUI."
@@ -13,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **Uma ferramenta de conscientização de vigilância de código aberto que mapeia câmeras ALPR do Flock Safety usando dados WiFi coletivos.**
+
+> **Correção, 21 de setembro de 2026:** Auditamos o conjunto de dados subjacente com 146,526 registros e descobrimos que o título original e os marcadores uniformes do mapa exageravam muito o que uma correspondência OUI poderia comprovar. A auditoria encontrou 50,278 sistemas Barco ClickShare e 60,793 registros que correspondiam a regras de nomenclatura de outros dispositivos conhecidos. O Flock Finder agora publica classes de evidência, exclui esses registros do mapa e do título padrão e oferece filtros de confiança. Leia a metodologia completa e a correção em **[Mapeamos 146,526 “câmeras Flock”. 50,278 eram sistemas ClickShare](/articles/flock-finder-oui-false-positive-audit-2026/)**.
 
 ## O que é o Flock Finder?
 
@@ -35,9 +38,13 @@ Para contexto sobre por que a vigilância ALPR do Flock Safety importa para a pr
 
 ______
 
-## Como Funciona: Impressão Digital OUI via WiGLE
+## Como funciona: impressão digital OUI com dados do WiGLE
 
-### O Insight Central
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="Diagrama que mostra como o Flock Finder compara prefixos MAC de WiFi do WiGLE com assinaturas OUI conhecidas para estimar locais de câmeras" >}}
+
+### A Ideia Central
 
 As câmeras do Flock Safety contêm **transceivers WiFi** que periodicamente acordam do modo de espera para enviar dados de placas capturadas para a nuvem. Durante essas breves janelas ativas, a câmera transmite quadros WiFi que contêm seu **endereço MAC** — e os primeiros três bytes de cada endereço MAC identificam o fabricante. Este é o **OUI (Identificador Único Organizacional)**.
 
@@ -127,7 +134,7 @@ cp .env.example .env
 # Edite .env com seu Nome e Token de API do WiGLE
 ```
 
-### Executando o Scanner
+### Executar a varredura
 
 ```bash
 # Varredura completa — todos os 31 prefixos OUI, em todo o mundo
@@ -153,13 +160,13 @@ python3 -m http.server 8080 --directory docs/
 # Abra http://localhost:8080 no seu navegador
 ```
 
-### Atualizações Diárias Automatizadas via GitHub Actions
+### Atualizações diárias automatizadas por meio do GitHub Actions
 
 Faça um fork do repositório e adicione suas credenciais do WiGLE como **segredos do repositório** (`WIGLE_API_NAME` e `WIGLE_API_TOKEN`). O fluxo de trabalho incluído é executado às 6h UTC diariamente e confirma automaticamente arquivos de dados atualizados sempre que novas câmeras são encontradas.
 
 ______
 
-## Detecção em Tempo Real: Hardware FlockYou do STS Collective
+## Detecção em Tempo Real: dispositivos FlockYou do STS Collective
 
 O mapa WiGLE informa onde as câmeras *foram observadas*. Para detecção em tempo real enquanto você dirige — usando o método real de correspondência OUI de @NitekryDPaul no tráfego WiFi ao vivo — você precisa de hardware dedicado.
 
@@ -180,6 +187,8 @@ Todos os dispositivos:
 - Alimentados via USB-C (adaptador de carro, banco de energia ou laptop)
 
 > 💰 **Descontos Exclusivos**: Use o código **FLOCKFINDER** para **20% de desconto** em todos os dispositivos FlockYou do STS Collective — ou use o código **SIMEONONSECURITY** para até 20% de desconto em seu pedido inteiro. [Compre em stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< stscollective-ad "flockyou" >}}
 
 Para um detalhamento técnico completo desses dispositivos e alternativas DIY, leia o **[Projeto de Detecção Flock-You: Guia Completo de Hardware de Contra-Vigilância e Configuração](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
@@ -222,7 +231,7 @@ A cobertura do WiGLE é desigual. Se nenhum wardriver varreu uma determinada ár
 
 O fluxo de trabalho do GitHub Actions é executado diariamente e puxa os resultados mais recentes do WiGLE. No entanto, o próprio WiGLE pode ter registros que variam de dias a anos atrás para qualquer local. Verifique o arquivo `scan_stats.json` para o timestamp da varredura mais recente.
 
-### Posso contribuir com meus próprios dados de wardriving?
+### Posso contribuir com meus próprios dados de varredura WiFi durante viagens de carro?
 
 Sim. Faça upload dos seus dados de wardriving para o [WiGLE](https://wigle.net) — eles automaticamente alimentam a próxima varredura diária do Flock Finder. Você também pode contribuir com prefixos OUI ou melhorias de código via o [Guia de Contribuição](https://github.com/simeononsecurity/flock-finder/blob/main/CONTRIBUTING.md).
 
@@ -258,6 +267,12 @@ O **Flock Finder** dá a qualquer pessoa uma noção visual rápida de quão amp
 É uma **ferramenta de transparência**, não um rastreador ao vivo. Seus dados são históricos, incompletos e probabilísticos. Mas torna a escala da vigilância ALPR visível de uma forma que abstrações e relatórios não conseguem.
 
 Para proteção genuína em tempo real enquanto você se move por áreas vigiadas, combine o mapa com hardware dedicado. Os **[dispositivos FlockYou do STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** implementam o método de detecção de @NitekryDPaul diretamente em um ESP32 e alertam você no momento em que uma assinatura de câmera ao vivo é detectada — disponível em **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** com o código **FLOCKFINDER** ou **SIMEONONSECURITY** para até 20% de desconto.
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Compre detectores FlockYou e economize 20%
+{{< /centerbutton >}}
 
 ### Artigos Relacionados
 

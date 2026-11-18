@@ -1,6 +1,7 @@
 ---
 title: "Cyberbezpieczeństwo i prywatność w cyfrowej transformacji: Rozważania prawne i etyczne"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Dowiedz się więcej o prawnych i etycznych aspektach cyberbezpieczeństwa i prywatności w transformacji cyfrowej."
@@ -38,7 +39,7 @@ Nawiązanie zaufania z klientami jest niezbędne do budowania długotrwałych re
 
 ### Przepisy dotyczące prywatności danych
 
-**Regulacje dotyczące prywatności danych**, takie jak ogólne rozporządzenie o ochronie danych Unii Europejskiej [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA) stają się coraz bardziej powszechne wraz ze wzrostem ilości danych osobowych gromadzonych i przechowywanych online. Przepisy te mają na celu ochronę prywatności i bezpieczeństwa danych osobowych osób fizycznych oraz zapewnienie im większej kontroli nad ich danymi.
+**Regulacje dotyczące prywatności danych**, takie jak ogólne rozporządzenie o ochronie danych Unii Europejskiej [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) oraz California Consumer Privacy Act (CCPA) stają się coraz bardziej powszechne wraz ze wzrostem ilości danych osobowych gromadzonych i przechowywanych online. Przepisy te mają na celu ochronę prywatności i bezpieczeństwa danych osobowych osób fizycznych oraz zapewnienie im większej kontroli nad ich danymi.
 
 Na przykład RODO, które weszło w życie w 2018 roku, zapewnia osobom fizycznym prawo dostępu, poprawiania i usuwania ich danych osobowych przechowywanych przez firmy i organizacje. Firmy i organizacje, które gromadzą i przetwarzają dane osobowe, muszą przestrzegać RODO, w przeciwnym razie grożą im znaczne grzywny i konsekwencje prawne.
 
@@ -46,7 +47,7 @@ Podobnie CCPA, która weszła w życie w 2020 r., zapewnia mieszkańcom Kaliforn
 
 ### Przepisy dotyczące cyberbezpieczeństwa
 
-**Przepisy dotyczące cyberbezpieczeństwa** są kolejnym aspektem prawnym w dobie transformacji cyfrowej. Przepisy te mają na celu ochronę osób fizycznych, firm i rządów przed cyberatakami i naruszeniami. Ustawa o wymianie informacji w zakresie cyberbezpieczeństwa [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) to dwa przykłady przepisów dotyczących cyberbezpieczeństwa w Stanach Zjednoczonych.
+**Przepisy dotyczące cyberbezpieczeństwa** są kolejnym aspektem prawnym w dobie transformacji cyfrowej. Przepisy te mają na celu ochronę osób fizycznych, firm i rządów przed cyberatakami i naruszeniami. Ustawa o wymianie informacji w zakresie cyberbezpieczeństwa [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), a także Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) to dwa przykłady przepisów dotyczących cyberbezpieczeństwa w Stanach Zjednoczonych.
 
 Ustawa CISA, która została uchwalona w 2015 r., zachęca do dzielenia się informacjami o zagrożeniach cyberbezpieczeństwa między sektorem prywatnym a rządem w celu zapobiegania cyberatakom. Ustawa CFAA, która została uchwalona w 1986 roku, kryminalizuje działania związane z komputerami, takie jak hakowanie i oszustwa komputerowe.
 

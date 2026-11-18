@@ -1,7 +1,7 @@
 ---
 title: "构建安全的 DevOps 流水线：最佳实践"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "本指南结合最佳实践和真实案例，介绍如何构建和维护安全的 DevOps 流水线。"

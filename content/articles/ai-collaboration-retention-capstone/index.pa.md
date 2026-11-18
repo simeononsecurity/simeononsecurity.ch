@@ -1,7 +1,7 @@
 ---
 title: "AI ਸਹਿਯੋਗ ਕੈਪਸਟੋਨ: GitHub, Confluence ਅਤੇ Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "GitHub-first ਅਤੇ Confluence/Jira ਵਰਕਫਲੋ ਰਾਹੀਂ ਇੱਕ ਸਿੰਥੈਟਿਕ ਰਿਟੈਂਸ਼ਨ ਬਦਲਾਅ ਪੇਸ਼ ਕਰੋ, ਅਸਫਲਤਾ ਦੇ ਸਬੂਤ ਅਤੇ ਸੁਤੰਤਰ ਸਮੀਖਿਆ ਸਮੇਤ।"
@@ -31,7 +31,7 @@ coverCaption: ""
 
 **ਟੈਸਟਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਹਰ ਟਰੈਕ ਲਈ ਇੱਕ ਸਬੂਤ ਡਾਇਰੈਕਟਰੀ ਤਿਆਰ ਕਰੋ।** ਸਮੀਖਿਅਕ ਨੂੰ ਚੈਟ ਸੰਖੇਪ ਤੇ ਨਿਰਭਰ ਹੋਏ ਬਿਨਾਂ actor, source revisions, ਕੀਤੀ ਕਾਰਵਾਈ, ਦੇਖਿਆ ਨਤੀਜਾ ਅਤੇ ਅੰਤਿਮ ਸਥਿਤੀ ਪਛਾਣ ਸਕਣੀ ਚਾਹੀਦੀ ਹੈ।
 
-## ਦੋ ਬੇਸਲਾਈਨ ਬਣਾਓ
+## ਦੋ ਮੁੱਢਲੇ ਮਾਪਦੰਡ ਸਥਾਪਤ ਕਰੋ
 
 1. **ਵੱਖਰੇ ਰਨ ਬਣਾਓ** ਜਿਨ੍ਹਾਂ ਦੇ ਨਾਮ GitHub-first ਅਤੇ Mixed ਹੋਣ। revisions ਅਤੇ reviews ਵੱਖ ਰੱਖੋ।
 2. **ਸੱਤ ਦਿਨਾਂ ਦੀ ਬੇਸਲਾਈਨ ਬਹਾਲ ਕਰੋ** ਹਰ ਟਰੈਕ ਦੀ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਪ੍ਰਕਿਰਿਆ ਰਾਹੀਂ ਅਤੇ ਨਤੀਜੇ ਵਜੋਂ ਮਿਲੀਆਂ revisions ਕੈਪਚਰ ਕਰੋ।
@@ -41,26 +41,26 @@ coverCaption: ""
 
 **PROP-042 correlation label ਹੈ, ਦੁਬਾਰਾ ਵਰਤੀ ਜਾ ਸਕਣ ਵਾਲੀ approval ਨਹੀਂ।** ਹਰ run ਨੂੰ ਆਪਣੀ frozen revision ਅਤੇ source evidence ਚਾਹੀਦੀ ਹੈ। ਰਿਪੋਰਟਾਂ ਵਿੱਚ run IDs ਸ਼ਾਮਲ ਕਰੋ।
 
-## GitHub-First ਪੇਸ਼ ਕਰੋ
+## GitHub-first ਵਰਕਫਲੋ ਪੂਰਾ ਕਰੋ
 
 **GitHub lessons ਵਰਤ ਕੇ Issue ਅਤੇ candidate PR ਖੋਲ੍ਹੋ।** requirement, configuration, proposal ਅਤੇ runbook ਨੂੰ ਇਕੱਠੇ ਬਦਲੋ। protected base ਕੈਪਚਰ ਕਰੋ, trusted checks ਚਲਾਓ ਅਤੇ final commit ਤੇ product ਅਤੇ operations reviews ਲਵੋ।
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+ਰਨ: GitHub-first
+ਤਬਦੀਲੀ: ਸਿੰਥੈਟਿਕ ਡਾਟਾ ਰੱਖ-ਰਖਾਅ 7 -> 30 ਦਿਨ
+ਲੋੜ: REQ-17 ਰਿਵਿਜ਼ਨ 2
+ਸੰਰਚਨਾ: retention_days 30
+ਰਨਬੁੱਕ: ਰੱਖਣ ਦੀ ਮਿਆਦ: 30 ਦਿਨ
+ਪ੍ਰਸਤਾਵ: ਬੇਸ ਰਿਵਿਜ਼ਨ 1, ਤੋਂ 7, ਤੱਕ 30
+ਮੈਨੀਫੈਸਟ: ਬਦਲਾਅ ਤੋਂ ਪਹਿਲਾਂ ਦੇ ਸੁਰੱਖਿਅਤ ਸਰੋਤ ਹੈਸ਼
+ਸਮੀਖਿਆ: ਅੰਤਿਮ ਪ੍ਰਸਤਾਵ ਰਿਵਿਜ਼ਨ ਉੱਤੇ ਉਤਪਾਦ ਅਤੇ ਓਪਰੇਸ਼ਨ ਦੀ ਸਮੀਖਿਆ
+ਪ੍ਰਕਾਸ਼ਨ: ਮਰਜ ਕੀਤਾ ਕਮਿਟ ਅਤੇ ਮੁੜ ਪੜ੍ਹ ਕੇ ਪੁਸ਼ਟੀ
+ਹੱਦ: ਚੱਲਦੀ ਮਿਟਾਉਣ ਸੇਵਾ ਦੀ ਜਾਂਚ ਨਹੀਂ ਹੋਈ
 ```
 
 **ਸੈਂਡਬਾਕਸ ਤੋਂ ਅਸਲ references ਭਰੋ।** ਇਹ outline ਉਮੀਦ ਕੀਤੀ mapping ਹੈ, ਪੂਰਾ evidence ਨਹੀਂ। maintainer ਸਿਰਫ review ਤੋਂ ਬਾਅਦ merge ਕਰਦਾ ਹੈ ਅਤੇ ਫਿਰ ਸੁਤੰਤਰ ਤੌਰ ਤੇ **`main`** ਪੜ੍ਹਦਾ ਹੈ। ਅੰਤਿਮ records ਦੇ links ਜੋੜਨ ਤੋਂ ਬਾਅਦ Issue ਬੰਦ ਕਰੋ।
 
-## Mixed ਟਰੈਕ ਪੇਸ਼ ਕਰੋ
+## Mixed track ਪੇਸ਼ ਕਰੋ
 
 **Confluence versions ਪੜ੍ਹੋ ਅਤੇ Jira proposal freeze ਕਰੋ।** ਦੋਵੇਂ ਮਾਲਕਾਂ ਦੀਆਂ reviews ਲਵੋ। requirement ਨੂੰ delivery pending ਨਾਲ publish ਕਰੋ, configuration merge ਕਰੋ, runbook publish ਕਰੋ ਅਤੇ Done ਤੋਂ ਪਹਿਲਾਂ ਸਾਰੇ systems ਨੂੰ ਵਾਪਸ ਪੜ੍ਹੋ।
 
@@ -76,7 +76,7 @@ Limit: no running deletion service exercised
 
 **ਮਾਲਕੀ ਦੀਆਂ ਲੋੜਾਂ ਦੇ ਆਧਾਰ ਤੇ workflow ਚੁਣੋ।** GitHub-first cross-system coordination ਘਟਾਉਂਦਾ ਹੈ। Mixed track workplace homes ਕਾਇਮ ਰੱਖਦਾ ਹੈ ਅਤੇ publication/access checks ਜੋੜਦਾ ਹੈ।
 
-## Failure matrix ਚਲਾਓ
+## ਅਸਫਲਤਾ ਜਾਂਚ-ਸਾਰਣੀ ਚਲਾਓ
 
 | Case | Injection | ਲੋੜੀਂਦਾ observed evidence |
 |---|---|---|
@@ -106,7 +106,7 @@ Limit: no running deletion service exercised
 
 **Expected ਅਤੇ observed outcomes ਵੱਖ ਰੱਖੋ।** ਹਰ case ਲਈ run ID, actor role, initial revisions, attempted action, expectation, observation, resulting revisions ਅਤੇ reviewer decision ਦਰਜ ਕਰੋ। ਸਾਂਝੀਆਂ ਰਿਪੋਰਟਾਂ ਵਿੱਚ credentials ਅਤੇ account identifiers redaction ਕਰੋ।
 
-## Completion ਦਾ ਮੁਲਾਂਕਣ ਕਰੋ
+## ਪੂਰਾ ਹੋਣ ਦਾ ਮੁਲਾਂਕਣ ਕਰੋ
 
 **Pass ਲਈ ਹਰ ਲਾਗੂ row ਦਾ observed evidence** ਅਤੇ independent acceptance ਲੋੜੀਂਦੀ ਹੈ। reviewers permissions, source freshness, role review, partial publication, handoff reconstruction ਅਤੇ consistency logs ਦੀ ਜਾਂਚ ਕਰਦੇ ਹਨ।
 
@@ -114,7 +114,7 @@ Limit: no running deletion service exercised
 
 **completed/blocked cases, rejected stale proposals, denied writes, recoveries ਅਤੇ reviewer time ਮਾਪੋ।** proposed outcomes observed ਹੋਣ ਤੱਕ expected ਰਹਿੰਦੇ ਹਨ। ਦਿੱਤੇ ਦਸ unit tests consistency ਕਵਰ ਕਰਦੇ ਹਨ, live tenant security ਨਹੀਂ।
 
-## ਦੋ runs ਦੀ ਯੋਜਨਾ ਬਣਾਓ
+## ਦੋ ਕਾਰਜ-ਚੱਕਰਾਂ ਦੀ ਯੋਜਨਾ ਬਣਾਓ
 
 **tracks ਵਿੱਚ approval ਦੁਬਾਰਾ ਨਾ ਵਰਤੋ।** requested value ਇੱਕੋ ਹੈ, ਪਰ source homes, captured revisions, permissions ਅਤੇ publishing sequence ਵੱਖ ਹਨ। ਹਰ run ਨੂੰ ਆਪਣੀ evidence directory ਅਤੇ review packet ਦਿਓ।
 
@@ -130,14 +130,14 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    ਉਹੀ ਸਬੂਤ ਸ਼੍ਰੇਣੀਆਂ, ਵੱਖਰੇ ਤੌਰ ਤੇ ਇਕੱਠੀਆਂ ਕੀਤੀਆਂ
 ```
 
 **ਇਹ names organization example ਹਨ**, supplied archive files ਨਹੀਂ। ਅਸਲ evidence approved sandbox ਵਿੱਚ private ਰੱਖੋ। shared course submissions ਵਿੱਚ role labels ਅਤੇ redacted references ਵਰਤੋ, ਜਦਕਿ reviewers native records ਤੱਕ ਪਹੁੰਚ ਰੱਖਣ।
 
 **failures ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ test observer ਨਿਯੁਕਤ ਕਰੋ।** contributor attempted action ਕਰਦਾ ਹੈ। observer initial state, outcome ਅਤੇ resulting state ਦਰਜ ਕਰਦਾ ਹੈ। reviewer ਬਾਅਦ ਵਿੱਚ ਤੈਅ ਕਰਦਾ ਹੈ ਕਿ evidence claim ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ ਜਾਂ ਨਹੀਂ। independent acceptance ਦਾ ਭਰਮ ਪੈਦਾ ਕਰਨ ਦੀ ਥਾਂ role overlap ਦੱਸੋ।
 
-## Failures ਨੂੰ ਅਲੱਗ ਚਲਾਓ
+## ਅਸਫਲਤਾਵਾਂ ਨੂੰ ਵੱਖ-ਵੱਖ ਚਲਾਓ
 
 **cases ਦੇ ਵਿਚਕਾਰ verified reviewed state ਤੇ reset ਕਰੋ।** source drift, access revocation ਅਤੇ runbook mismatch ਨੂੰ ਇਕੱਠੇ inject ਕਰਨ ਨਾਲ ਕਿਹੜੇ control ਨੇ proposal ਰੱਦ ਕੀਤਾ, ਇਹ ਅਸਪਸ਼ਟ ਹੋ ਜਾਂਦਾ ਹੈ। ਹਰ run ਵਿੱਚ ਇੱਕ failure reviewer ਨੂੰ traceable ਕਾਰਨ ਦਿੰਦਾ ਹੈ।
 
@@ -165,7 +165,7 @@ capstone-evidence/
 
 ਹਰ denied case ਲਈ platform response ਅਤੇ protected record ਦਾ ਦੂਜਾ read ਦਰਜ ਕਰੋ। excluded-user case ਲਈ returned task context ਵੀ inspect ਕਰੋ ਤਾਂ cached excerpt safe denial ਦਾ ਭਰਮ ਨਾ ਬਣੇ। ਜੇ plan ਵਿੱਚ control ਉਪਲਬਧ ਨਹੀਂ ਜਾਂ approved test identity missing ਹੈ, pass simulate ਕਰਨ ਦੀ ਥਾਂ Blocked ਦਰਜ ਕਰੋ।
 
-## Mixed ਨਤੀਜੇ ਦੀ ਵਿਆਖਿਆ ਕਰੋ
+## ਮਿਲੇ-ਜੁਲੇ ਨਤੀਜੇ ਦੀ ਵਿਆਖਿਆ ਕਰੋ
 
 **Illustrative evidence package:** local consistency pass, product ਅਤੇ operations ਨੇ fixed package review ਕੀਤਾ, requirement publication ਸਫਲ ਹੋਈ ਅਤੇ runbook edit access deny ਹੋਈ। configuration ਅਜੇ merge ਨਹੀਂ ਹੋਈ। Jira Blocked ਰਹਿੰਦਾ ਹੈ।
 
@@ -182,63 +182,52 @@ capstone-evidence/
 **ਭਰਿਆ ਹੋਇਆ mixed-track teaching packet, ਸਿੰਥੈਟਿਕ ਅਤੇ tenant evidence ਨਹੀਂ:**
 
 ```text
-Run: MIXED-042-example
-Captured base: REQ-17 v4 = 7 days, RUN-04 v2 = 7 days,
-  GitHub main base-001 config.json = {"retention_days": 7}, Jira PROP-042 r1 = In Review
-Fixed proposal: REQ-17 v5 wording says synthetic exports 30 days,
-  excluding production data, backups, and legal holds.
-  GitHub config.json changes retention_days from 7 to 30.
-  RUN-04 v3 wording says 30 days, no deletion service runs in this lab,
-  and incomplete publication stays pending.
-Review: product owner approved the exact requirement wording at PROP-042 r1.
-  Operations owner approved the exact config diff and runbook wording at r1.
-Publication: publisher reopened REQ-17 v5 and read 30 days.
-  Maintainer reopened main at merge-002 and read retention_days 30.
-  Publisher reopened RUN-04 v3 and read 30 days.
-Denied action: contributor tried an edit to restricted REQ-17 from v5.
-  Platform denied the edit, the publisher reread v5 unchanged, and the
-  observer saved the native denial. No edit was applied and v5 stayed unchanged.
-Recovery: after a separate simulated failed RUN-04 attempt, Jira stayed
-  Blocked. Operations approved a retry against the current version.
-  Publisher reread v3 after the authorized retry before Jira moved to Done.
-Handoff: a new reviewer received MAP-01 and the ledger, reopened the three
-  sources and Jira, and named the current 30-day state and remaining runtime gap.
-Limit: source publication is shown. Actual deletion timing is Not run.
+ਰਨ: MIXED-042-example
+ਦਰਜ ਕੀਤਾ ਆਧਾਰ: REQ-17 v4 = 7 ਦਿਨ; RUN-04 v2 = 7 ਦਿਨ।
+GitHub main base-001 config.json = {"retention_days": 7}; Jira PROP-042 r1 = In Review.
+ਪੱਕਾ ਪ੍ਰਸਤਾਵ: REQ-17 v5 ਸਿੰਥੈਟਿਕ ਨਿਰਯਾਤ 30 ਦਿਨ ਰੱਖਦਾ ਹੈ। ਉਤਪਾਦਨ ਡਾਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੱਖ-ਰਖਾਅ ਸ਼ਾਮਲ ਨਹੀਂ।
+GitHub config.json retention_days ਨੂੰ 7 ਤੋਂ 30 ਕਰਦਾ ਹੈ। RUN-04 v3 ਵਿੱਚ 30 ਦਿਨ ਹਨ; ਲੈਬ ਵਿੱਚ ਮਿਟਾਉਣ ਸੇਵਾ ਨਹੀਂ ਚੱਲਦੀ। ਅਧੂਰਾ ਪ੍ਰਕਾਸ਼ਨ ਬਕਾਇਆ ਰਹਿੰਦਾ ਹੈ।
+ਸਮੀਖਿਆ: ਉਤਪਾਦ ਮਾਲਕ PROP-042 r1 ਉੱਤੇ REQ-17 ਦਾ ਸਹੀ ਪਾਠ ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ। ਓਪਰੇਸ਼ਨ r1 ਉੱਤੇ ਸੰਰਚਨਾ diff ਅਤੇ runbook ਮਨਜ਼ੂਰ ਕਰਦੇ ਹਨ।
+ਪ੍ਰਕਾਸ਼ਨ: ਪ੍ਰਕਾਸ਼ਕ REQ-17 v5 ਅਤੇ RUN-04 v3 ਮੁੜ ਪੜ੍ਹ ਕੇ 30 ਦਿਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦਾ ਹੈ; ਰੱਖ-ਰਖਾਅਕਰਤਾ merge-002 ਦੇ main ਵਿੱਚ retention_days 30 ਪੜ੍ਹਦਾ ਹੈ।
+ਰੱਦ ਕਾਰਵਾਈ: ਯੋਗਦਾਨਕਰਤਾ ਦੀ REQ-17 v5 ਸੋਧ ਰੱਦ। ਪ੍ਰਕਾਸ਼ਕ ਅਣਬਦਲਿਆ ਹਾਲ ਪੁਸ਼ਟ ਕਰਦਾ ਹੈ; ਨਿਗਰਾਨ ਮੂਲ ਪਲੇਟਫਾਰਮ ਸਬੂਤ ਸੰਭਾਲਦਾ ਹੈ।
+ਮੁੜ ਪ੍ਰਾਪਤੀ: RUN-04 ਕੋਸ਼ਿਸ਼ ਅਸਫਲ, Jira Blocked ਰਹਿੰਦਾ ਹੈ। ਓਪਰੇਸ਼ਨ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਮਨਜ਼ੂਰ ਕਰਦੇ ਹਨ; v3 ਮੁੜ ਪੜ੍ਹਨ ਮਗਰੋਂ Jira Done ਹੁੰਦਾ ਹੈ।
+ਹਵਾਲਗੀ: ਨਵਾਂ ਸਮੀਖਿਅਕ MAP-01 ਅਤੇ ਰਜਿਸਟਰ ਲੈਂਦਾ, ਤਿੰਨ ਸਰੋਤ ਅਤੇ Jira ਪੜ੍ਹਦਾ, 30 ਦਿਨ ਅਤੇ ਬਾਕੀ ਰਨਟਾਈਮ ਘਾਟ ਦਰਜ ਕਰਦਾ ਹੈ।
+ਹੱਦ: ਕੇਵਲ ਸਰੋਤ ਪ੍ਰਕਾਸ਼ਨ ਦਾ ਸਬੂਤ ਹੈ। ਮਿਟਾਉਣ ਦਾ ਸਮਾਂ: ਨਹੀਂ ਚਲਾਇਆ।
 ```
 
 ਹਰ illustrative version, actor, denial ਅਤੇ read-back ਨੂੰ live row Supported ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ native records ਨਾਲ ਬਦਲੋ। ਜੇ ਕੋਈ plan ਜਾਂ role test ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੰਦਾ, row ਨੂੰ Blocked ਦਰਜ ਕਰੋ ਅਤੇ ਦੋਵੇਂ track ਵਾਲਾ course incomplete ਰੱਖੋ।
 
-## Independent reader ਨਾਲ review ਕਰੋ
+## ਸੁਤੰਤਰ ਪਾਠਕ ਨਾਲ ਸਮੀਖਿਆ ਕਰੋ
 
 **reviewer ਨੂੰ events reconstruct ਕਰਨ ਲਈ ਕਹੋ**, ਸਿਰਫ਼ ਆਪਣਾ conclusion ਪੜ੍ਹਨ ਲਈ ਨਹੀਂ। ਤੁਹਾਡੀ narration ਤੋਂ ਬਿਨਾਂ ਉਹ approved baseline, fixed proposal, owner decisions, resulting revisions, failed attempts, repair ਅਤੇ remaining gaps ਲੱਭ ਸਕਣ।
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+ਸੁਤੰਤਰ ਸਮੀਖਿਆ ਦੇ ਸਵਾਲ:
+ਇਸ ਰਾਹ ਵਿੱਚ ਰੱਖਣ ਦੀ ਨੀਤੀ ਕਿਹੜਾ ਸਰੋਤ ਤੈਅ ਕਰਦਾ ਹੈ?
+ਹਰ ਮਾਲਕ ਨੇ ਕਿਹੜਾ ਸਹੀ ਪੈਕੇਜ ਸਮੀਖਿਆ ਕੀਤਾ?
+ਕੀ ਸਮੀਖਿਆ ਮਗਰੋਂ ਕੋਈ ਸਰੋਤ ਬਦਲਿਆ?
+ਕੀ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਇਆ ਅਤੇ ਕੀ ਬਕਾਇਆ ਹੈ?
+ਕਿਹੜੀ ਰੱਦ ਕਾਰਵਾਈ ਕਿਹੜੀ ਭੂਮਿਕਾ ਹੇਠ ਦੇਖੀ ਗਈ?
+ਕੀ ਸੁਰੱਖਿਅਤ ਲਿਖਤ ਬਾਹਰ ਰੱਖੇ ਵਰਤੋਂਕਾਰ ਦੇ ਸੰਦਰਭ ਤੱਕ ਪਹੁੰਚੀ?
+ਕਿਹੜੀ ਮੁਰੰਮਤ ਸਮੀਖਿਆ ਕੇ ਮੁੜ ਪੜ੍ਹੀ ਗਈ?
+ਕੀ ਨਵੀਂ ਹਵਾਲਗੀ ਮੌਜੂਦਾ ਹਾਲਤ ਸੁਤੰਤਰ ਤੌਰ ਤੇ ਮੁੜ ਬਣਾਉਂਦੀ ਹੈ?
 ```
 
 **ਹਰ requirement ਨੂੰ ਵੱਖਰੇ score ਕਰੋ।** evidence reference ਨਾਲ Supported, Failed, Blocked ਜਾਂ Not run ਵਰਤੋ। consistency, approval, permissions, recovery ਅਤੇ handoff ਵੱਖ requirements ਹਨ। green local tests ਦਾ ਸਮੂਹ failed live publication boundary ਨੂੰ offset ਨਹੀਂ ਕਰਦਾ।
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+ਰਨ ID ਅਤੇ ਰਾਹ:
+ਸਮੀਖਿਅਕ ਦੀ ਭੂਮਿਕਾ ਅਤੇ ਮਿਤੀ:
+ਕੇਸ 01 ਮਨਜ਼ੂਰ ਤਬਦੀਲੀ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੇਸ 02 ਪੁਰਾਣਾ ਸੰਦਰਭ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੇਸ 03 ਬਿਨਾਂ ਮਨਜ਼ੂਰੀ ਲਿਖਤ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੇਸ 04 ਟਕਰਾਅ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੇਸ 05 ਅਧੂਰਾ ਪ੍ਰਕਾਸ਼ਨ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੇਸ 06 ਪਹੁੰਚ ਰੱਦ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੇਸ 07 ਮੁੜ ਪ੍ਰਾਪਤੀ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੇਸ 08 ਹਵਾਲਗੀ: ਹਾਲਤ ___ ਸਬੂਤ ___ ਘਾਟ ___
+ਕੁੱਲ ਫ਼ੈਸਲਾ: ਸਹਾਇਤਾਪ੍ਰਾਪਤ / ਅਸਫਲ / ਰੋਕਿਆ / ਨਹੀਂ ਚਲਾਇਆ
+ਅਗਲੀ ਜ਼ਿੰਮੇਵਾਰ ਭੂਮਿਕਾ ਅਤੇ ਕਾਰਵਾਈ:
 ```
 
 **Supported ਦਾ ਅਰਥ ਹੈ ਕਿ reviewer ਨੇ ਹਰ ਲਾਗੂ case ਲਈ observed evidence ਲੱਭ ਲਿਆ।** observed control failure ਲਈ Failed, missing access ਜਾਂ missing control ਲਈ Blocked ਅਤੇ unattempted case ਲਈ Not run ਦਰਜ ਕਰੋ। ਹਰ case ਦਾ native reference ਉਸਦੀ named evidence file ਵਿੱਚ ਰੱਖੋ।
@@ -248,17 +237,17 @@ Next accountable role and action:
 **Redacted model package, ਕੇਵਲ ਉਦਾਹਰਨ ਲਈ:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+ਰਾਹ: github-first | ਰਨ: G-01 | ਸਮੀਖਿਅਕ: ਸੁਤੰਤਰ ਪਾਇਲਟ ਭੂਮਿਕਾ
+ਆਧਾਰ: ਸੁਰੱਖਿਅਤ commit base-001 | ਪੱਕਾ ਪ੍ਰਸਤਾਵ: PROP-042 r1
+ਮਨਜ਼ੂਰੀਆਂ: ਉਤਪਾਦ ਸਮੀਖਿਆ P-01, ਓਪਰੇਸ਼ਨ ਸਮੀਖਿਆ O-01
+ਇਕਸਾਰਤਾ: ਸਥਾਨਕ ਜਾਂਚ ਪਾਸ, ਨਤੀਜਾ C-01 ਸੰਭਾਲਿਆ
+ਇਜਾਜ਼ਤ: ਯੋਗਦਾਨਕਰਤਾ ਦਾ ਸਿੱਧਾ push ਰੱਦ, ਮੂਲ ਘਟਨਾ D-01
+ਪ੍ਰਕਾਸ਼ਨ: commit merge-002; ਨਵਾਂ clone 30 ਦਿਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦਾ ਹੈ
+ਛੋਟ: ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੱਖ-ਰਖਾਅ ਬਾਹਰ
+ਮੁੜ ਪ੍ਰਾਪਤੀ: ਰੁਕਾਵਟ R-01 ਮੁੜ ਪੜ੍ਹ ਕੇ ਸਮੀਖਿਆ ਨਾਲ ਹੱਲ
+ਹਵਾਲਗੀ: ਦੂਜੇ ਪਾਠਕ ਨੇ ਮੌਜੂਦਾ ਆਧਾਰ, ਛੋਟ ਅਤੇ ਅਗਲਾ ਕਦਮ ਲੱਭਿਆ
+ਰਨਟਾਈਮ ਹੱਦ: ਉਤਪਾਦਨ ਮਿਟਾਉਣ ਜਾਂ deployment ਦਾ ਦਾਅਵਾ ਨਹੀਂ
+ਫ਼ੈਸਲਾ: ਕੇਵਲ ਸਿੰਥੈਟਿਕ GitHub-first ਰਾਹ ਲਈ ਸਹਾਇਤਾਪ੍ਰਾਪਤ
 ```
 
 ਹਰ illustrative reference ਨੂੰ observed sandbox artifact ਨਾਲ ਬਦਲੋ। Mixed track ਲਈ ਇਸਦਾ ਆਪਣਾ source versions ਅਤੇ reviews ਵਾਲਾ ਪੂਰਾ package ਦੁਹਰਾਓ। reviewer ਨੂੰ Mixed package ਵਿੱਚ copied GitHub approval ਰੱਦ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ।
@@ -270,7 +259,7 @@ Decision: Supported for synthetic GitHub-first track only
 | Decision element | ਲੋੜੀਂਦਾ ਵੇਰਵਾ |
 |---|---|
 | **Scope** | ਇੱਕ ਅਗਲਾ ਬਦਲਾਅ ਅਤੇ ਉਸਦੀਆਂ ਸਪਸ਼ਟ exclusions |
-| **Evidence** | Supported cases ਅਤੇ unresolved failures |
+| **ਸਬੂਤ** | Supported cases ਅਤੇ unresolved failures |
 | **Controls** | Platform-enforced ਅਤੇ procedural requirements ਵੱਖਰੇ |
 | **Owners** | ਹਰ ਬਾਕੀ gap ਲਈ accountable role |
 | **Runtime gap** | Untested deletion/deployment behavior |
@@ -278,33 +267,33 @@ Decision: Supported for synthetic GitHub-first track only
 
 **Completion check:** ਦੋਵੇਂ run packages independent reconstruction ਤੋਂ ਬਚੇ ਰਹਿਣ, ਲਾਗੂ failure cases ਲਈ observed evidence ਹੋਵੇ ਅਤੇ unresolved controls ਦਿਖਦੇ ਰਹਿਣ। ਜੇ ਸਿਰਫ਼ GitHub track ਪੂਰਾ ਹੈ, ਤਾਂ partial course completion report ਕਰੋ। Mixed track ਵੀ ਅਜਿਹਾ ਹੀ ਵਰਤੇਗਾ, ਇਹ ਨਾ ਮੰਨੋ।
 
-## Troubleshooting ਅਤੇ Backout
+## ਸਮੱਸਿਆ-ਨਿਵਾਰਣ ਅਤੇ ਵਾਪਸੀ ਦੀ ਪ੍ਰਕਿਰਿਆ
 
 **ਸਿਰਫ਼ happy-path evidence:** denial ਅਤੇ interruption tests ਦੁਬਾਰਾ ਚਲਾਓ। **Overlapping roles:** ਦੱਸੋ ਅਤੇ ਵੱਖਰੇ users ਨਾਲ ਦੁਹਰਾਓ। **Missing plan controls:** ਰੁਕੋ ਅਤੇ approved sandbox ਲਵੋ।
 
 **Backout:** reviewed PRs ਅਤੇ Confluence edits ਰਾਹੀਂ baseline ਬਹਾਲ ਕਰੋ, temporary integrations revoke ਕਰੋ, Jira evidence archive ਕਰੋ ਅਤੇ evidence retention ਤੋਂ ਬਾਅਦ owner-approved synthetic cleanup ਕਰੋ। recovery history ਸੰਭਾਲੋ।
 
-## Rollout decision ਬਣਾਓ
+## ਪੜਾਅਵਾਰ ਰੋਲਆਉਟ ਬਾਰੇ ਫੈਸਲਾ ਤਿਆਰ ਕਰੋ
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+ਫ਼ੈਸਲਾ: ਹੋਰ ਸਿੰਥੈਟਿਕ ਪਾਇਲਟ, ਰੋਕਿਆ ਜਾਂ ਰੱਦ
+ਸਬੂਤ: ਦੋਵੇਂ ਰਨ ਪੈਕੇਜ ਅਤੇ ਅਸਫਲਤਾ ਮੈਟ੍ਰਿਕਸ
+ਲਾਗੂ ਨਾ ਕੀਤੀਆਂ ਲੋੜਾਂ: ਪ੍ਰਕਿਰਿਆਈ ਨਿਯੰਤਰਣ ਸਪਸ਼ਟ ਦਰਜ ਕਰੋ
+ਪ੍ਰਦਾਤਾ ਸਮੀਖਿਆ: ਇਨਪੁੱਟ ਦਾ ਘੇਰਾ ਅਤੇ ਰੱਖ-ਰਖਾਅ
+ਜ਼ਿੰਮੇਵਾਰੀ: ਉਤਪਾਦ, ਓਪਰੇਸ਼ਨ, ਨੀਤੀ, ਰਿਪੋਜ਼ਟਰੀ, ਡਿਲਿਵਰੀ
+ਉਤਪਾਦਨ ਘਾਟਾਂ: ਰਨਟਾਈਮ ਟੈਸਟ, ਰਾਜ਼, deployment, ਪਹੁੰਚ ਸਮੀਖਿਆ
+ਅਗਲਾ ਕਦਮ: ਜ਼ਿੰਮੇਵਾਰ ਭੂਮਿਕਾ ਨਾਲ ਸੀਮਿਤ ਪਾਲਣਾ
+ਸਮੀਖਿਆ ਮਿਤੀ: ਪਾਇਲਟ ਮਾਲਕ ਨਿਰਧਾਰਤ ਕਰਨ
 ```
 
 **Expected reasoning:** synthetic success another bounded pilot ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ। Production ਲਈ real data, deployment, provider handling ਅਤੇ runtime behavior ਲਈ ਵੱਖਰੀ approval ਚਾਹੀਦੀ ਹੈ। successful assistant answer deployment authorization ਨਹੀਂ ਹੈ।
 
-## ਮੁੱਖ references
+## ਮੁੱਖ ਹਵਾਲੇ
 
-- **Repository controls:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)।
-- **Workplace access:** [Confluence permissions](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/)।
-- **Delivery controls:** [Jira permission schemes](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/)।
+- **Repository controls:** [ਸੁਰੱਖਿਅਤ ਸ਼ਾਖਾਵਾਂ](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)।
+- **Workplace access:** [Confluence ਅਨੁਮਤੀਆਂ](https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/)।
+- **Delivery controls:** [Jira ਅਨੁਮਤੀ ਸਕੀਮਾਂ](https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/)।
 
 ## ਅਗਲੇ ਕਦਮ
 
-**[course hub](/ai-collaboration-course-start/) ਤੇ ਵਾਪਸ ਜਾਓ** ਅਤੇ missing controls ਦੀ ਸਮੀਖਿਆ ਕਰੋ। ਹੋਰ pilot ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀ implementation ਦੀ [framework article](/articles/one-source-many-tools-ai-collaboration-framework/) ਨਾਲ ਤੁਲਨਾ ਕਰੋ।
+**[ਕੋਰਸ ਹੱਬ](/ai-collaboration-course-start/) ਤੇ ਵਾਪਸ ਜਾਓ** ਅਤੇ missing controls ਦੀ ਸਮੀਖਿਆ ਕਰੋ। ਹੋਰ pilot ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀ implementation ਦੀ [ਫਰੇਮਵਰਕ ਲੇਖ](/articles/one-source-many-tools-ai-collaboration-framework/) ਨਾਲ ਤੁਲਨਾ ਕਰੋ।

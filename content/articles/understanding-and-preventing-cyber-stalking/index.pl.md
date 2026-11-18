@@ -1,6 +1,7 @@
 ---
 title: "Zapobieganie cyberstalkingowi: Wskazówki dotyczące zachowania bezpieczeństwa w sieci"
 date: 2023-05-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Dowiedz się, jak chronić się przed cyberstalkingiem i zapewnić sobie bezpieczeństwo w sieci dzięki tym wskazówkom i technikom."
@@ -10,7 +11,7 @@ coverAlt: "Osoba patrząca na swój telefon z zatroskanym wyrazem twarzy, gdy w 
 coverCaption: ""
 ---
 
-**Zrozumienie i zapobieganie cyberstalkingowi: Tips and Techniques for Staying Safe Online**
+**Zrozumienie cyberstalkingu i zapobieganie mu: wskazówki i techniki bezpiecznego korzystania z sieci**
 
 Cyberstalking jest poważnym przestępstwem, które może powodować znaczne zaburzenia emocjonalne i szkody fizyczne. Jest to wykorzystanie Internetu, mediów społecznościowych, poczty elektronicznej lub innych technologii cyfrowych do prześladowania, nękania lub grożenia osobie. Cyberstalkerzy mogą być anonimowi i mogą atakować swoje ofiary z dowolnego miejsca na świecie. Ten artykuł zawiera przegląd tego, czym jest cyberstalking oraz oferuje wskazówki i techniki pozwalające zachować bezpieczeństwo w sieci.
 

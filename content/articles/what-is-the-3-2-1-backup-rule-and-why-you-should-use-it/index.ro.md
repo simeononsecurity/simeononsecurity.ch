@@ -48,7 +48,7 @@ Acum că înțelegeți beneficiile regulii de backup 3-2-1, este timpul să o im
 
 - **Alegeți tipurile de stocare**: pentru a implementa regula de rezervă 3-2-1, trebuie să alegeți două tipuri de stocare diferite. Unele opțiuni populare includ hard disk-uri externe, servicii de stocare în cloud și dispozitive de stocare atașată la rețea (NAS). Luați în considerare cantitatea de date de care aveți nevoie pentru a face backup și alegeți tipurile de stocare care se pot adapta nevoilor dvs.
 
-- **Automatizați-vă backup-urile**: crearea manuală a backup-urilor poate fi consumatoare de timp și predispusă la erori. În schimb, luați în considerare automatizarea backup-urilor folosind software-ul de backup. Sunt disponibile multe opțiuni de software de backup, atât gratuite, cât și plătite. Unele opțiuni populare includ [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), and [Carbonite](https://www.carbonite.com/)
+- **Automatizați-vă backup-urile**: crearea manuală a backup-urilor poate fi consumatoare de timp și predispusă la erori. În schimb, luați în considerare automatizarea backup-urilor folosind software-ul de backup. Sunt disponibile multe opțiuni de software de backup, atât gratuite, cât și plătite. Unele opțiuni populare includ [Acronis](https://www.acronis.com/), [Backblaze](https://www.backblaze.com/), și [Carbonite](https://www.carbonite.com/).
 
 - **Testează-ți copiile de rezervă**: crearea de copii de siguranță este doar primul pas. Este esențial să testați în mod regulat backup-urile pentru a vă asigura că datele dumneavoastră sunt recuperabile în cazul pierderii datelor. Asigurați-vă că aveți un plan pentru testarea copiilor de rezervă, fie că este un proces manual sau unul automat.
 

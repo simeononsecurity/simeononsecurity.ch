@@ -1,6 +1,7 @@
 ---
 title: "Flock-You检测：反监控设置指南"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "使用基于ESP32硬件检测Flock Safety ALPR摄像头的开源Flock-You项目综合技术指南。包括设置说明、固件详情和购买选项。"
@@ -319,11 +320,11 @@ ______
    ```bash
    # 安装PlatformIO
    pip install platformio
-   
+
    # 克隆仓库
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
+
    # 刷入固件
    pio run -t upload
    pio device monitor
@@ -636,37 +637,37 @@ ______
 对于对技术实现感兴趣的人，以下是检测逻辑的简化视图：
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// Flock-You 检测核心（概念示例，非完整代码）
 
-// OUI Database (31 known Flock-associated OUIs)
+// OUI 数据库（31 个与 Flock 相关的 OUI）
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 变体
+    // ... 另外 28 个 OUI ...
 };
 
-// Promiscuous mode callback
+// 混杂模式回调
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // 从帧中提取 MAC 地址
+    uint8_t *mac = pkt->payload + 10; // addr2 字段位置
+
+    // 与 OUI 数据库比对
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // 找到 OUI 匹配项
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // 检查信号强度阈值
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // 分析帧中的其他特征
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // 高置信度检测
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // 仅 OUI 匹配
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -674,16 +675,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// 通配探测检测
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // 管理帧，子类型为探测请求
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // 检查空 SSID IE（通配）
+    // 位置取决于帧结构
+    uint8_t *ie = &pkt->payload[24]; // IE 起始位置
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // 通配探测
     }
     return false;
 }

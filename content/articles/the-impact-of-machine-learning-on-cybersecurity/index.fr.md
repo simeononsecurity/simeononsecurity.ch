@@ -1,11 +1,11 @@
 ---
 title: "L'impact de l'apprentissage automatique sur la cybersécurité"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez comment l'apprentissage automatique aide à détecter et à prioriser les menaces et à y répondre, ainsi que ses limites de déploiement et ses risques de sécurité."
-tags: ["Apprentissage automatique", "Cybersécurité", "Adaptation", "Intelligence artificielle", "Détection des menaces", "Protection des données", "En temps réel", "Apprentissage supervisé", "Apprentissage non supervisé", "Apprentissage par renforcement", "Faux positifs", "Faux négatifs", "Formation des employés", "Solutions de sécurité", "Analyse des données", "Sécurité des réseaux", "Sécurité de l'informatique en nuage", "Reconnaissance des formes", "Détection des anomalies", "Cybermenaces"]
+tags: ["Apprentissage automatique", "Cybersécurité", "Capacité d’adaptation", "Intelligence artificielle", "Détection des menaces", "Protection des données", "En temps réel", "Apprentissage supervisé", "Apprentissage non supervisé", "Apprentissage par renforcement", "Faux positifs", "Faux négatifs", "Formation des employés", "Solutions de sécurité", "Analyse des données", "Sécurité des réseaux", "Sécurité de l'informatique en nuage", "Reconnaissance des formes", "Détection des anomalies", "Cybermenaces"]
 cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Un robot de dessin animé monte la garde devant un bouclier virtuel, symbolisant l'utilisation de l'apprentissage automatique dans le domaine de la cybersécurité."
 coverCaption: ""
@@ -67,6 +67,6 @@ L'apprentissage automatique a révolutionné le domaine de la cybersécurité en
 
 ## Références
 
-1. "Qu'est-ce que la cybersécurité ? Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
-2. "Machine Learning in Cybersecurity (apprentissage automatique dans le domaine de la cybersécurité). Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
-3.  "Securing Data & Devices" (sécurisation des données et des appareils). National Institute of Standards and Technology (Institut national des normes et de la technologie). [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)
+1. "Qu'est-ce que la cybersécurité ? Cisco. [guide de Cisco sur la cybersécurité](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (accessed March 4, 2023)
+2. "Machine Learning in Cybersecurity (apprentissage automatique dans le domaine de la cybersécurité). Cylance. [article de Cylance sur l’apprentissage automatique en cybersécurité](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (accessed March 4, 2023)
+3.  "Securing Data & Devices" (sécurisation des données et des appareils). National Institute of Standards and Technology (Institut national des normes et de la technologie). [guide du NIST pour sécuriser les données et les appareils](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (accessed March 4, 2023)

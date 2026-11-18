@@ -1,7 +1,7 @@
 ---
 title: "سير عمل GitHub بالذكاء الاصطناعي لغير المبرمجين: Issues وPull Requests"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "استخدم تعديلات المتصفح وIssues وحزم سياق المحادثة وطلبات السحب التي خضعت للمراجعة دون بيئة تطوير محلية."
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **ضع علامة على الحزمة بأنها مبنية على لقطة** إلى أن يقارنها المشرف بالمصادر الحالية قبل النشر.
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+المشروع: export-service-lab
+المهمة: PROP-042 draft, no publication permission
+المرجع المعتمد: requirement.json, REQ-17 revision 1
+خط الأساس: retention_days 7
+السياسة: POL-01 version 1
+المقترح المطلوب: retention_days 30
+الأدلة: attach browser-verified commit references
+الأدلة الناقصة: no runtime deletion observations
+المخرجات: proposed wording, affected files, questions, rollback
+توقف: source unavailable, changed revision, conflicting authority
 ```
 
 **أرفق مراجعات الصندوق الرمل الفعلية بشكل خاص.** لا يحتوي القالب على أدلة مكتملة. اطلب من المساعد تحديد السجلات الناقصة قبل التوصية بالنشر.
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **حزمة اصطناعية مكتملة قبل قراءة مصدر مباشر:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+المشروع: export-service-lab
+المهمة: مسودة PROP-042 في Issue
+خط الأساس المعتمد: مراجعة REQ-17 رقم 1، retention_days 7
+المقترح: retention_days 30، ملفات التصدير الاصطناعية فقط
+السجلات المتأثرة: requirement.json, config.json, proposal.json, runbook.md
+الاستثناءات: بيانات الإنتاج والنسخ الاحتياطية والحجوزات القانونية
+الأدلة المعروفة: ملفات خط الأساس المقدمة للمختبر
+الأدلة الناقصة: الإيداع الحالي في main، قرارات المالك، ونتيجة الحذف أثناء التشغيل
+الحالة: مسودة، النشر محظور حتى تتوفر المراجعات والمراجعات الحالية
+الدور التالي: يقدّم المشرف إيداع main موثّقًا ويجري الفحوص
 ```
 
 **الحزمة مسودة طلب مكتملة.** سطر الأدلة الناقصة مقصود. استبدل أساس المختبر المقدم بمراجعات صندوق الرمل المباشرة قبل طلب النشر.
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **اختر Issues ثم New issue** واستخدم العنوان **`PROP-042: propose thirty-day synthetic retention`**. الصق هذا الوصف وأرفق حزمة المصدر.
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+المقترح: PROP-042
+الحالة: Draft
+القيمة المعتمدة الحالية: 7 days, REQ-17 revision 1
+القيمة المطلوبة: 30 days
+السبب: fictional pilot requirement, not compliance advice
+النطاق: synthetic export records only
+الملفات المتأثرة: requirement.json, config.json, runbook.md
+الأدلة: source revisions and policy version attached
+المراجعون: product-owner and operations-owner
+مراجع التنفيذ: repository-maintainer
+القبول: consistent records, denied publication, fresh handoff
+التراجع: reviewed restoration of the approved baseline
 ```
 
 **اطلب من المحادثة مقارنة المقترح بالحزمة**، وسرد الافتراضات، وصياغة أسئلة المالكين. احفظ مسودتها في Issue. لا تطلب منها الموافقة على التغيير أو تعامل سلسلة المحادثة كسجل قرار.
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **الاختبار السلبي:** اطلب من المحادثة الموافقة على المقترح أو نشره. سلوك السياسة المتوقع هو رد يقتصر على المسودة. حاول النشر المباشر بشكل منفصل بصفتك مساهماً وسجّل رفض المنصة مع بقاء مراجعة المصدر دون تغيير. أبق اختبارات السلوك واختبارات التحكم في الوصول منفصلة.
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+التسليم: HANDOFF-042
+المقترح: PROP-042
+السياسة: POL-01 version 1
+المصادر: attach current requirement, runbook, and config revisions
+القيمة المنشورة: record after reading main
+المكتمل: merged files and check reference
+المتبقي: runtime deletion service not tested
+الدور التالي: operations-owner
+الإجراء التالي: independent source read and runbook verification
+توقف: changed source, missing access, conflicting authority
 ```
 
 **ابدأ جلسة جديدة بالخريطة والتسليم فقط.** اطلب قراءة مصدر جديدة أو طلباً صريحاً لأدلة المتصفح. يجب أن يعيد بناء القيمة من سجلات المصدر بدلاً من تكرار ملخص المساعد السابق.
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **يحتاج مساهم المتصفح إلى سؤال كامل.** عبارة "Please change retention to thirty days" تحذف السلطة الحالية والنطاق وحالة المراجعة والسجلات المتأثرة. أعط المحادثة حزمة المصدر وتعليمة صياغة. إذا لم يتوفر السجل، فاطلب من المشرف دليلاً مصرحاً بدلاً من استبدال النص المحفوظ.
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+اكتب مسودة Issue لـ PROP-042 بالاستناد إلى حزمة المصادر الاصطناعية المرفقة.
+أبقِ سبعة أيام موضحةً على أنها خط الأساس المعتمد.
+أبقِ ثلاثين يومًا موضحةً على أنها المقترح.
+حافظ على استثناء بيانات الإنتاج والنسخ الاحتياطية والاحتجازات القانونية.
+اذكر تغييرات المتطلبات والإعدادات والمقترح ودليل التشغيل.
+اذكر الأدلة الناقصة بدلًا من ملئها بمراجعات مُخمّنة.
+لا تدّعِ موافقة المالك أو اكتمال التسليم.
 ```
 
 **افحص الإجابة قبل نسخها.** تحقق مما إذا كانت قد غيّرت النطاق أو اخترعت التزاماً أو وصفت الموافقة بأنها مكتملة. أزل الادعاءات غير المدعومة واحتفظ بالأسئلة غير المحسومة في Issue. تساعد المحادثة في كتابة المقترح، ولا تقدم أدلة من أنظمة لم تقرأها.
@@ -177,18 +177,16 @@ Do not claim owner approval or delivered behavior.
 **صياغة ضعيفة توضيحية:** "Exports now remain available for thirty days." تصف التسليم بأنه مكتمل وتحذف النطاق الاصطناعي. استخدم بيان مقترح ما دامت المراجعة معلقة.
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+النية المقترحة:
+الاحتفاظ بملفات التصدير الاصطناعية لمدة 30 يومًا.
+استبعاد بيانات الإنتاج والنسخ الاحتياطية والحجوزات القانونية.
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+النية المعتمدة الحالية:
+احتفظ بملفات التصدير الاصطناعية لمدة 7 أيام وفق مراجعة REQ-17 رقم 1.
 
-Delivery:
-Not published. No runtime deletion service was tested.
+التسليم:
+لم يُنشر. لم تُختبر أي خدمة حذف أثناء التشغيل.
 ```
-
-**قارن كل ملف متأثر بهذه الصياغة.** تتقدم مراجعة المتطلب في المرشح. يصل الإعداد إلى ثلاثين. يصل السطر الأول من runbook إلى ثلاثين مع الحفاظ على قيد المختبر. ما زال المقترح يذكر سبعة باعتبارها القيمة السابقة والمراجعة 1 باعتبارها الأساس.
 
 **اسأل عن حالات عدم التطابق بدلاً من إصلاح ضوابط غير مألوفة.** إذا أضاف تصحيح المشرف أيضاً إضعافاً للحماية أو حذفاً للسياسة، فاطلب تفسيراً وافصل المراجعة. لا تحتاج إلى فهم كل سطر في سير العمل لتحديد تغيير خارج النطاق المطلوب.
 

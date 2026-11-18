@@ -1,10 +1,11 @@
 ---
 title: "Aan de slag met Terraform voor Infrastructure as Code"
 date: 2023-05-04
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Leer de basis van Terraform, een populaire infrastructure as code tool, en hoe u deze kunt gebruiken om infrastructuur efficiënt te beheren."
-tags: ["Terraform", "Infrastructuur als code", "IaC", "Cloud Computing", "DevOps", "Automatisering", "AWS", "Azuur", "Google Cloud", "Cloud aanbieders", "Configuratiebeheer", "Inzet", "Voorziening", "Beheer van middelen", "Schaalbaarheid", "Veerkracht", "Beveiliging", "Naleving", "Beste praktijken"]
+tags: ["Terraform", "Infrastructuur als code", "IaC", "Cloud Computing", "DevOps", "Automatisering", "AWS", "Azure", "Google Cloud", "Cloud aanbieders", "Configuratiebeheer", "Inzet", "Voorziening", "Beheer van middelen", "Schaalbaarheid", "Veerkracht", "Beveiliging", "Naleving", "Beste praktijken"]
 cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Een cartoonachtig computerscherm waarop meerdere op het netwerk aangesloten apparaten verschijnen als bouwstenen die worden toegevoegd of verwijderd, wat duidt op infrastructuurbeheer met Terraform."
 coverCaption: ""
@@ -36,7 +37,7 @@ Het gebruik van Teraform voor infrastructuur als code toepassingen biedt verschi
 
 Om met Teraform aan de slag te gaan, moet u:
 
-1. **Download Teraform:** Teraform kan worden gedownload van de[official website](https://www.terraform.io/downloads.html)
+1. **Download Teraform:** Teraform kan worden gedownload van de[officiële website](https://www.terraform.io/downloads.html)
 
 2. **Maak een configuratiebestand:** Teraform gebruikt configuratiebestanden die zijn geschreven in HashiCorp Configuration Language (HCL) of JSON. Het configuratiebestand definieert de infrastructuur die u wilt aanmaken, bijwerken of verwijderen.
 
@@ -154,6 +155,6 @@ Teraform is een krachtige infrastructure as code tool die sneller, efficiënter 
 
 **Referenties:**
 
--[Teraform Official Website](https://www.terraform.io/)
--[Teraform Documentation](https://www.terraform.io/docs/index.html)
--[AWS Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/)
+- [Officiële website van Teraform](https://www.terraform.io/)
+- [Teraform-documentatie](https://www.terraform.io/docs/index.html)
+- [AWS-best practices voor beveiliging, identiteit en compliance](https://aws.amazon.com/architecture/security-identity-compliance/)

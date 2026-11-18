@@ -1,7 +1,7 @@
 ---
 title: "Standarde de codare securizată pentru Python: Cele mai bune practici"
 date: 2023-02-26
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Învățați cele mai bune practici de codare securizată în Python pentru a minimiza riscul de breșe de securitate și pentru a proteja datele sensibile."
@@ -25,7 +25,7 @@ import re
 
 def validate_input(input_string):
     """
-    Function to validate input using regular expressions.
+    Funcție pentru validarea intrării cu expresii regulate.
     """
     pattern = r"^[0-9]+$"
     if re.match(pattern, input_string):
@@ -40,10 +40,10 @@ Python are mai multe funcții care pot fi vulnerabile la probleme de securitate 
 
 De exemplu, în loc de a utiliza `eval()` pentru a converti un șir de caractere într-un număr întreg, dezvoltatorii ar trebui să utilizeze funcția `int()` funcție.
 ```py
-# Instead of using eval function
+# În loc să folosiți funcția eval
 x = eval('10')
 
-# Use int function
+# Folosiți funcția int
 x = int('10')
 ```
 
@@ -57,7 +57,7 @@ from cryptography.fernet import Fernet
 
 def encrypt_password(password):
     """
-    Function to encrypt password using cryptography library.
+    Funcție pentru criptarea parolei folosind biblioteca de criptografie.
     """
     key = Fernet.generate_key()
     f = Fernet(key)
@@ -94,10 +94,10 @@ Aplicațiile web sunt vulnerabile la mai multe riscuri de securitate, cum ar fi 
 De exemplu, atunci când scrieți interogări SQL, utilizați **interogări parametrizate** în loc să concatenați datele de intrare ale utilizatorului cu interogarea. Interogările parametrizate previn atacurile de injecție SQL prin tratarea datelor introduse de utilizator ca date și nu ca cod executabil.
 
 ```py
-# Instead of this
+# În schimb
 query = "SELECT * FROM users WHERE username = '" + username + "';"
 
-# Use parameterized query
+# Folosiți o interogare parametrizată
 query = "SELECT * FROM users WHERE username = %s;"
 cursor.execute(query, (username,))
 ```

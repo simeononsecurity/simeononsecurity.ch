@@ -41,7 +41,7 @@ __________
 
 ### Cambia il nome di rete (SSID) e la password predefiniti
 
-Il primo e più importante passo per proteggere la rete wireless consiste nel **cambiare il nome di rete (SSID) e la password predefiniti**. Il SSID e la password forniti dal produttore del router sono facili da indovinare e gli hacker possono sfruttarli facilmente. Sostituisci il SSID e la password predefiniti con una combinazione unica e robusta 
+Il primo e più importante passo per proteggere la rete wireless consiste nel **cambiare il nome di rete (SSID) e la password predefiniti**. Il SSID e la password forniti dal produttore del router sono facili da indovinare e gli hacker possono sfruttarli facilmente. Sostituisci il SSID e la password predefiniti con una combinazione unica e robusta
 
 ### Usa password complesse
 

@@ -1,7 +1,7 @@
 ---
 title: "OpenCode CLI ਬਨਾਮ Desktop: 2026 ਵਰਕਫਲੋ ਤੁਲਨਾ"
 date: 2026-10-06
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Server architecture, provider configuration, scripting, session state ਅਤੇ troubleshooting ਦੇ ਆਧਾਰ ਤੇ OpenCode ਦੇ terminal ਅਤੇ desktop clients ਦੀ ਤੁਲਨਾ ਕਰੋ।"
@@ -34,9 +34,9 @@ coverCaption: ""
 | Layer | ਜਵਾਬ ਦੇਣ ਵਾਲਾ ਸਵਾਲ |
 |---|---|
 | **Client** | Terminal UI, desktop app ਜਾਂ non-interactive command? |
-| **Agent server** | ਕਿਹੜਾ process request ਲੈਂਦਾ ਹੈ? |
+| **ਏਜੰਟ ਸਰਵਰ** | ਕਿਹੜਾ process request ਲੈਂਦਾ ਹੈ? |
 | **Repository** | Server ਕਿਹੜੀ directory access ਕਰਦਾ ਹੈ? |
-| **Model provider** | ਕਿਹੜੀ service inference ਦਿੰਦੀ ਹੈ? |
+| **ਮਾਡਲ ਪ੍ਰਦਾਤਾ** | ਕਿਹੜੀ service inference ਦਿੰਦੀ ਹੈ? |
 | **Session** | Existing conversation ਜਾਂ ਨਵਾਂ task? |
 
 **Server location inference location ਨਹੀਂ ਹੈ।** Computer ਉੱਤੇ agent server ਹੋਣ ਦੇ ਬਾਵਜੂਦ requests configured hosted model ਨੂੰ ਜਾ ਸਕਦੀਆਂ ਹਨ। ਇਸ ਦੇ ਉਲਟ compatible local inference service ਆਪਣੇ model ਅਤੇ resource requirements ਵਾਲਾ ਵੱਖਰਾ process ਹੈ।
@@ -73,10 +73,10 @@ opencode run "Identify this project's test command. Do not modify files."
 
 **ਛੋਟੇ real task ਨਾਲ desktop interaction ਦੀ ਜਾਂਚ ਕਰੋ।** Project ਖੋਲ੍ਹੋ, server confirm ਕਰੋ, bounded request ਭੇਜੋ, changed files inspect ਕਰੋ ਅਤੇ correction ਮੰਗੋ। Agent ਦੀਆਂ actions ਸਮਝਣ ਲਈ ਲੱਗਦਾ effort ਮਾਪੋ। Graphical client ਨੂੰ editor ਅਤੇ debugger ਦਾ complete replacement ਨਾ ਸਮਝੋ।
 
-| Desktop trial | ਉਮੀਦ ਕੀਤੀ evidence |
+| ਡੈਸਕਟਾਪ ਅਜ਼ਮਾਇਸ਼ | ਉਮੀਦ ਕੀਤੀ evidence |
 |---|---|
-| **Project selection** | Agent intended repository ਪਛਾਣਦਾ ਹੈ |
-| **Model selection** | Provider ਅਤੇ model trial record ਨਾਲ ਮਿਲਦੇ ਹਨ |
+| **ਪ੍ਰੋਜੈਕਟ ਚੋਣ** | Agent intended repository ਪਛਾਣਦਾ ਹੈ |
+| **ਮਾਡਲ ਚੋਣ** | Provider ਅਤੇ model trial record ਨਾਲ ਮਿਲਦੇ ਹਨ |
 | **Command execution** | Required runtime ਅਤੇ tests ਉਪਲਬਧ ਹਨ |
 | **Change inspection** | Full patch ਲੱਭਣਾ ਅਤੇ review ਕਰਨਾ ਸੌਖਾ ਹੈ |
 | **Restart** | Intended project ਅਤੇ session ਪਛਾਣਯੋਗ ਰਹਿੰਦੇ ਹਨ |

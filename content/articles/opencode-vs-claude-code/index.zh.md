@@ -1,7 +1,7 @@
 ---
 title: "OpenCode 与 Claude Code：2026 年编程代理对比"
 date: 2026-10-06
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "从模型选择、本地推理、价格、权限、项目说明和日常编程流程等方面比较 OpenCode 与 Claude Code。"
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+使用仓库文档中列出的构建和测试命令。
+保留无关改动。
+更改依赖项前先说明失败原因。
+提交前检查最终 diff。
 ```
 
 **共享说明能减少对比噪声。** 将构建命令、架构约束和验收标准放在一个规范文件中。OpenCode 的[规则文档](https://opencode.ai/docs/rules/)介绍了 `AGENTS.md` 和 `CLAUDE.md` 回退规则。不要假设所有说明文件都会自动合并。

@@ -1,7 +1,7 @@
 ---
 title: "Els Context Language Models de Meta: millor memòria per als agents, no la fi de les al·lucinacions"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Com els Context Language Models editen la memòria dels agents, què demostren els benchmarks i com afecten la fiabilitat els costos de la memòria cau, la capacitat del model i les notes no fiables."
@@ -48,11 +48,11 @@ Aquesta distinció importa en avaluar qualsevol tècnica de memòria. **La conse
 **Rulin Shao i els seus coautors**, inclosos investigadors de Meta Superintelligence Labs i la University of Washington, van presentar els CLM en un preprint del 29 de setembre de 2026. La implementació exposa el context actiu com un fitxer editable. L'agent el modifica amb ordres de shell o codi, i l'entorn carrega el contingut revisat en la crida següent. Consulta [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Continuació habitual:
+context existent + resposta nova + sortida nova de l’eina
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Continuació amb context editable:
+l’agent revisa el fitxer de context -> l’entorn d’execució carrega el context revisat -> crida següent al model
 ```
 
 **L'arquitectura del model no s'ha de substituir** per a l'enfocament zero-shot. L'entorn afegeix una capacitat al voltant d'un model existent. L'article també estudia les instruccions, les estratègies apreses de gestió del context i l'aprenentatge per reforç.
@@ -101,11 +101,11 @@ L'anàlisi suplementària de TerminalBench també informa de **cap edició de co
 **La memòria cau KV** desa càlculs intermedis d'atenció. Amb la memòria cau normal del prefix, el text sense canvis al principi de la sol·licitud següent reutilitza el càlcul anterior. Una edició a prop del principi redueix el prefix reutilitzable i obliga a processar de nou el text posterior.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Sol·licitud anterior: A + B + C
+Sol·licitud revisada:  A + substitut de B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Reutilització de prefix estàndard:
+reutilitza A i torna a calcular la substitució de B i C
 ```
 
 La mètrica de **FLOPs de reutilització del prefix** de l'article compta la generació i el processament del prompt després del primer desajust. Un PFLOP representa 10¹⁵ operacions de coma flotant. És un total de càlcul estimat, no una puntuació de qualitat, una mesura de rendiment ni una factura.

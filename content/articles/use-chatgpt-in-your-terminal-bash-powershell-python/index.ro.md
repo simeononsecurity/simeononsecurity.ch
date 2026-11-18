@@ -1,7 +1,7 @@
 ---
 title: "Utilizați ChatGPT în terminalul dvs. (Bash, PowerShell, Python): o introducere în instrumentul CLI ChatGPT pentru dezvoltatori"
 date: 2023-02-07
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aflați cum să utilizați modelul ChatGPT al OpenAI prin interfața convenabilă pentru linia de comandă (CLI) pentru generarea de text și răspunsul la întrebări cu ușurință."
@@ -32,27 +32,27 @@ pip install chatgpt requests pyreadline3
 Odată instalați, dezvoltatorii pot folosi ChatGPT CLI pentru a genera text sau pentru a răspunde cu ușurință la întrebări. De exemplu, pentru a genera text pe baza unui prompt, dezvoltatorii pot folosi următoarea comandă:
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "Care este scopul existenței?"
 ```
 
 Sau, pentru a răspunde la o întrebare:
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "Care este capitala Franței?"
 ```
 
 ChatGPT CLI poate fi utilizat și cu scripturi de bază:
 
 **Linux:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="Care este sensul vieții?"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **Windows PowerShell:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "Care este sensul vieții?"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

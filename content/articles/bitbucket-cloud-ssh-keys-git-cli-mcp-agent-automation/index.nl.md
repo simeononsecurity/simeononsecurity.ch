@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket Cloud SSH-sleutels: alleen-lezen Git-toegang voor AI-agents"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Stel Bitbucket Cloud SSH-sleutels, Git CLI-toegang, REST API-tokens, 1Password en MCP-tools in voor alleen-lezen workflows met AI-agents."
@@ -138,7 +138,7 @@ De [Atlassian-gids voor meerdere repository-toegangssleutels](https://support.at
 Draagbaar voorbeeld met bestanden:
 
 ```ini
-# .gitconfig inside one local repository
+# .gitconfig binnen één lokale repository
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

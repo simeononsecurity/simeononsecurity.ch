@@ -1,11 +1,11 @@
 ---
 title: "Guia para iniciantes sobre blockchain na gestão segura de identidade"
 date: 2023-04-06
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Aprenda a usar a tecnologia blockchain para autenticação segura e gestão de identidade com este guia para iniciantes."
-tags: ["blockchain", "identity management", "authentication", "decentralized identity", "passwordless authentication", "smart contracts", "public key cryptography", "private key cryptography", "immutable records", "decentralized system", "single sign-on", "verification of credentials", "scalability", "privacy", "adoption", "digital identity", "distributed ledger technology", "cybersecurity", "data privacy", "technology"]
+tags: ["cadeia de blocos", "gestão da identidade", "autenticação", "identidade descentralizada", "autenticação sem senha", "contratos inteligentes", "criptografia de chave pública", "criptografia de chave privada", "registros imutáveis", "sistema descentralizado", "logon único", "verificação de credenciais", "escalabilidade", "privacidade", "adoção", "identidade digital", "tecnologia de registro distribuído", "cibersegurança", "privacidade de dados", "tecnologia"]
 cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "Ilustração de uma rede blockchain com blocos e linhas interligados e luminosos, representando a gestão segura de identidade. Silhuetas de usuários aparecem com escudos digitais de dados."
 coverCaption: ""
@@ -15,11 +15,11 @@ coverCaption: ""
 
 A tecnologia **blockchain** vem chamando a atenção por suas possíveis aplicações em várias áreas, incluindo a **autenticação segura e a gestão de identidade**. Neste artigo, apresentamos um guia para iniciantes sobre o uso de blockchain para essas finalidades.
 
-## O que é blockchain?
+## O que é a cadeia de blocos?
 
 Blockchain é uma **tecnologia de registro distribuído** que permite transações seguras e transparentes entre partes sem intermediários. Cada transação é registrada em um bloco, que se conecta ao bloco anterior para formar uma cadeia de blocos. Daí vem o nome blockchain.
 
-## Como blockchain garante autenticação segura e gestão de identidade?
+## Como a cadeia de blocos garante autenticação segura e gestão de identidade?
 
 ### Sistema descentralizado
 
@@ -37,7 +37,7 @@ Blockchain usa **criptografia de chave pública e privada** para proteger as tra
 
 Contratos inteligentes são contratos autoexecutáveis cujos termos entre comprador e vendedor são escritos diretamente em linhas de código. Eles ficam armazenados na blockchain, o que garante transparência e resistência a adulterações.
 
-## Uso de blockchain para autenticação segura e gestão de identidade
+## Uso da cadeia de blocos para autenticação segura e gestão de identidade
 
 ### Identidade descentralizada
 
@@ -55,7 +55,7 @@ Blockchain pode ser usada em soluções de **logon único**, que permitem ao usu
 
 Blockchain pode ser usada em soluções de **verificação de credenciais**, que permitem aos usuários comprovar suas credenciais sem revelar informações pessoais. Os contratos inteligentes podem verificar essas credenciais de forma transparente e resistente a adulterações.
 
-## Desafios do uso de blockchain para autenticação segura e gestão de identidade
+## Desafios do uso da cadeia de blocos para autenticação segura e gestão de identidade
 
 ### Escalabilidade
 
@@ -75,4 +75,4 @@ A tecnologia blockchain oferece várias soluções possíveis para autenticaçã
 
 ## Referências
 
-1. Nakamoto, S. (2008). Bitcoin: um sistema de dinheiro eletrônico ponto a ponto. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+1. Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)

@@ -467,7 +467,7 @@ ______
 | **Webhooks** | Ja | Ja | Ja | Ja |
 | **Marketplace/Integrationen** | Moderat | Umfangreich | Umfangreich | Begrenzt |
 | **Mobile Apps** | iOS, Android | iOS, Android | iOS, Android | iOS, Android |
-| **On-Premises-Option** | Nein | GitHub Enterprise Server | Ja | Bitbucket Data Center |
+| **Vor-Ort-Bereitstellungsoption** | Nein | GitHub Enterprise Server | Ja | Bitbucket Data Center |
 | **Kostenloser Tier-Nutzer** | 5 | Unbegrenzt | Unbegrenzt | 5 |
 | **Kostenlose private Repos** | Unbegrenzt (5 Nutzer) | Unbegrenzt | Unbegrenzt | Unbegrenzt (5 Nutzer) |
 | **Support** | Community/Bezahlt | Community/Bezahlt | Community/Bezahlt | Community/Bezahlt |

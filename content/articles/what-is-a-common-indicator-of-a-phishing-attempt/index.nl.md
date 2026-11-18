@@ -1,6 +1,7 @@
 ---
 title: "Phishing-pogingen herkennen: Veel voorkomende aanwijzingen en veiligheidstips"
 date: 2023-06-18
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Een uitgebreide gids over het herkennen van veelvoorkomende indicatoren van phishingpogingen en praktische tips om veilig online te blijven."
@@ -48,7 +49,7 @@ Bij phishing-pogingen wordt vaak om persoonlijke informatie gevraagd, zoals wach
 
 Wees voorzichtig met onverwachte e-mailbijlagen, vooral als deze afkomstig zijn van onbekende afzenders. Phishing-e-mails kunnen bijlagen bevatten met kwaadaardige software of virussen. Vermijd het openen van bijlagen tenzij u ze verwacht en de bron hebt gecontroleerd.
 
-## [**Tips for Staying Safe Online**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
+## [**Tips om online veilig te blijven**](https://simeononsecurity.com/articles/protecting-yourself-online-and-offline-from-hacking-smear-campains-and-identity-theft/)
 
 Nu u op de hoogte bent van de gebruikelijke indicatoren van phishingpogingen, volgen hier enkele tips om u te helpen veilig online te blijven:
 
@@ -74,7 +75,7 @@ Leer [What to Do If You Think Your Email or Phone Is Compromised](https://simeon
 
 ______
 
-## **References**
+## **Referenties**
 
 - [Federal Trade Commission: How to Recognize and Avoid Phishing Scams](https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
 - [National Cyber Security Centre: Phishing Attacks](https://www.ncsc.gov.uk/phishing)

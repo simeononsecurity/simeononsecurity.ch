@@ -1,7 +1,7 @@
 ---
 title: "Flujo de publicación con IA en GitHub, Confluence y Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Publica una propuesta fija de retención en Confluence, GitHub y Jira con controles de versión y recuperación ante una publicación parcial."
@@ -176,7 +176,7 @@ Estos textos son propuestas de ejemplo, no registros activos del tenant. Adjunta
 | Confluence REQ-17 | v4, siete días | PROP-042 r1, producto aprobó v4 a v5 | La persona publicadora escribió v5, el revisor volvió a abrir v5 | Treinta días, copias de seguridad y retenciones legales excluidas |
 | Configuración de GitHub | Commit `main` `base-001`, siete días | PROP-042 r1, operaciones aprobó el diff candidato | PR fusionada como `merge-002`, clon independiente leyó treinta | Treinta días en la fuente protegida |
 | Confluence RUN-04 | v2, siete días | PROP-042 r1, operaciones aprobó v2 a v3 | La persona publicadora escribió v3, el revisor volvió a abrir v3 | Paso operativo de treinta días con reversión |
-| Jira PROP-042 | In Review | Ambas decisiones vinculadas a r1 | El responsable de entrega adjuntó pruebas y pasó a Done | Cierre tras las tres lecturas de verificación |
+| Jira PROP-042 | En revisión | Ambas decisiones vinculadas a r1 | El responsable de entrega adjuntó pruebas y pasó a Done | Cierre tras las tres lecturas de verificación |
 
 Las etiquetas anteriores son ilustrativas, no pruebas del tenant. Tu registro necesita enlaces nativos a las versiones de páginas y los ID de commit. Antes de pasar Jira a Done, adjunta la propuesta congelada, las dos revisiones por función, el registro de las bases de origen, cada lectura de publicación, el resultado de las pruebas negativas y las limitaciones de ejecución no resueltas. Si falta un elemento, mantén la entrega abierta o `Blocked`.
 

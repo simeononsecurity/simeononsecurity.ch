@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork en Claude Code met lokale modellen: installatiegids 2026"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configureer Ollama met Claude Desktop en Claude Code via een Anthropic-compatibele API. Bekijk modelkeuzes en cloudfuncties voor 2026."
@@ -188,7 +188,7 @@ Toolaanroepen maken van een agent iets anders dan een tekstgenerator. Controleer
 Vraag Claude Code nadat het is gestart:
 
 ```text
-Read the current directory and list all files
+Lees de huidige map en geef een lijst van alle bestanden
 ```
 
 **Toont het echte bestanden, dan werken toolaanroepen.** Antwoordt het dat het de map zou lezen en beschrijft het wat daar vermoedelijk staat, dan is de functie niet gekoppeld. Je praat dan met een chatmodel waarop een programmeerprompt is toegepast. Geen enkele extra prompt lost dit op.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 Binnen een Claude Code-sessie voert `/loop` met een interval een prompt of slashopdracht uit:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m Controleer mijn open PRs en vat hun status samen
+/loop 1h Onderzoek het laatste AI-nieuws en vat belangrijke ontwikkelingen samen
+/loop 15m Controleer nieuwe GitHub-issues en rangschik ze op prioriteit
 ```
 
 *Dit werkt zolang de sessie open is. Het is geen achtergrondproces en stopt zodra de sessie eindigt.*

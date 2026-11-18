@@ -1,7 +1,7 @@
 ---
 title: "Qwen 27B-এর জন্য 32GB VRAM: অক্টোবর 2026-এর লোকাল AI হার্ডওয়্যার গাইড"
 date: 2026-10-03
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "অক্টোবর 2026-এর ব্যবহারিক গাইড। 32GB ব্যবহারযোগ্য অ্যাক্সিলারেটর মেমরিতে Qwen 27B মডেল চালানো, একক GPU, দুই-কার্ড বিল্ড, unified memory, ব্যবহৃত ডেটা-সেন্টার কার্ড, ভাড়া করা কম্পিউট, সফটওয়্যার সমর্থন এবং পূর্ণ-কনটেক্সট সীমা তুলনা করুন।"
@@ -30,7 +30,7 @@ ref: ["/articles/local-ai-2026-build-your-rig-now", "/articles/qwen38-27b-vast-a
 | **24GB discrete GPU** | কম context-সহ 4-bit weights, অথবা আংশিক offload |
 | **32GB discrete GPU** | ব্যবহারযোগ্য 128K context লক্ষ্যসহ 6-bit weights |
 | **দুটি 16GB GPU** | runtime overhead-এর জন্য কম headroom-সহ ভাগ করা মডেল |
-| **64GB unified memory** | বড় context এবং মডেলের বিকল্প, GPU memory allocation limit-এর অধীন |
+| **64GB সমন্বিত মেমরি** | বড় context এবং মডেলের বিকল্প, GPU memory allocation limit-এর অধীন |
 
 **32GB একটি sizing point, নিশ্চয়তা নয়।** মডেল load হলেও দীর্ঘ prompt, বড় batch, multimodal input অথবা দ্বিতীয় process-এর জন্য খুব কম জায়গা থাকতে পারে।
 
@@ -56,7 +56,7 @@ Apple silicon CPU এবং GPU-এর জন্য একটি shared pool ব
 
 Split method-ও গুরুত্বপূর্ণ। **Layer splitting** আলাদা মডেল layer আলাদা কার্ডে দেয়। এতে capacity বাড়ে, কিন্তু কার্ডগুলো পালা করে মডেলের মধ্য দিয়ে কাজ করে। **Tensor splitting** একই layer-এর কাজ দুই কার্ডে রাখে। এতে communication বাড়ে, কিন্তু দুই device সরাসরি বেশি অবদান রাখে।
 
-| Split method | প্রধান সুবিধা | প্রধান খরচ |
+| বিভাজন পদ্ধতি | প্রধান সুবিধা | প্রধান খরচ |
 |---|---|---|
 | **Layer split** | সহজ capacity expansion | একটি কার্ড কাজ করার সময় অন্যটি প্রায়ই অপেক্ষা করে |
 | **Tensor split** | কিছু workload-এ ভালো parallel compute | বেশি tuning এবং বেশি interconnect traffic |
@@ -153,7 +153,7 @@ Driver testing, cooling work এবং backend maintenance project-এর অং
 
 Silence, low idle power এবং compact desktop maximum throughput-এর চেয়ে গুরুত্বপূর্ণ হলে 32GB Apple silicon system বেছে নিন। Full 32GB model-এর জন্য available ধরে নেওয়ার আগে নির্দিষ্ট runner-এর memory allocation দেখুন।
 
-### Cloud rental
+### ক্লাউড ভাড়া
 
 Workload occasional হলে, model বারবার বদলালে অথবা local ownership-এর চেয়ে দ্রুত prompt response গুরুত্বপূর্ণ হলে rental বেছে নিন। Test-এর পর instance বন্ধ করুন। Idle time দ্রুত price advantage সরিয়ে দেয়।
 

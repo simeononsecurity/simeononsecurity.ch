@@ -3,9 +3,9 @@ title: "Certificările de securitate cibernetică AI: rămân în urmă"
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "O opinie despre diferența dintre certificările de guvernanță AI și practica de securitate AI, bazată pe experiența de certificare și limitele actuale ale suprafeței de atac."
-tags: ["Securitate AI", "Guvernanță AI", "Certificări AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "prompt injection", "Securitate cibernetică AI", "Securitate LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestionarea riscurilor AI", "Conformitate AI", "Securitatea învățării automate", "Lanțul de aprovizionare al modelelor", "AI adversarială", "Agenți AI", "Securitate MCP", "Red teaming AI", "Certificări de guvernanță AI", "AI agentică", "Google SAIF"]
+tags: ["Securitate AI", "Guvernanță AI", "Certificări AI", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "injectarea prompturilor", "Securitate cibernetică AI", "Securitate LLM", "OWASP LLM Top 10", "MITRE ATLAS", "Gestionarea riscurilor AI", "Conformitate AI", "Securitatea învățării automate", "Lanțul de aprovizionare al modelelor", "AI adversarială", "Agenți AI", "Securitate MCP", "Red teaming AI", "Certificări de guvernanță AI", "AI agentică", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "Scena este împărțită: într-o parte, specialiștii dintr-un birou discută documente de guvernanță; în cealaltă, elemente digitale haotice reprezintă sisteme AI atacate cibernetic, cu culori vii care accentuează contrastul."
 coverCaption: ""

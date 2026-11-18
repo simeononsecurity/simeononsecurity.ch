@@ -1,7 +1,7 @@
 ---
 title: "AI ਏਜੰਟ ਡ੍ਰਿਫਟ ਤੋਂ ਮੁੜ-ਸੰਭਾਲ ਅਤੇ ਹਵਾਲਗੀ ਦਾ ਕਾਰਜ-ਪ੍ਰਵਾਹ"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ਪੁਰਾਣੇ ਸਰੋਤਾਂ ਅਤੇ ਨੀਤੀ ਅਡੈਪਟਰਾਂ ਦੀ ਪਛਾਣ ਕਰੋ, ਰੁਕੇ ਪ੍ਰਕਾਸ਼ਨ ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ ਅਤੇ ਏਜੰਟਾਂ ਵਿਚਕਾਰ ਸੁਤੰਤਰ ਹਵਾਲਗੀ ਦੀ ਜਾਂਚ ਕਰੋ।"
@@ -46,14 +46,14 @@ coverCaption: ""
 ## ਮੁੱਢਲੀ ਜਾਂਚ ਚਲਾਓ
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+MAP-01 ਪੜ੍ਹੋ ਅਤੇ ਉਸਦਾ ਰਿਵਿਜ਼ਨ ਦਰਜ ਕਰੋ।
+POL-01 ਪੜ੍ਹੋ ਅਤੇ ਚੱਲ ਰਹੇ ਐਡਾਪਟਰ ਵਰਜਨਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।
+ਮੈਪ ਵਿੱਚ ਦਿੱਤੀਆਂ ਥਾਵਾਂ ਤੋਂ REQ-17 ਅਤੇ RUN-04 ਪੜ੍ਹੋ।
+ਸੁਰੱਖਿਅਤ main ਉੱਤੇ config.json ਪੜ੍ਹੋ।
+ਸਥਿਰ ਪ੍ਰਸਤਾਵ ਅਤੇ ਮੌਜੂਦਾ ਭੂਮਿਕਾ ਸਮੀਖਿਆਵਾਂ ਪੜ੍ਹੋ।
+ਮੌਜੂਦਾ ਸਰੋਤਾਂ ਦੀ ਸਮੀਖਿਆ ਕੀਤੇ ਆਧਾਰਾਂ ਨਾਲ ਤੁਲਨਾ ਕਰੋ।
+ਅੰਤਰ, ਪੜ੍ਹਨ ਤੋਂ ਇਨਕਾਰ ਅਤੇ ਬਕਾਇਆ ਪ੍ਰਕਾਸ਼ਨ ਦਰਜ ਕਰੋ।
+ਜਦ ਤੱਕ ਮਾਲਕ ਹਰ ਅੰਤਰ ਹੱਲ ਨਹੀਂ ਕਰਦੇ, ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਲਿਖਤ ਰੋਕੋ।
 ```
 
 **ਯੋਗਦਾਨਕਰਤਾ ਮਸੌਦਾ ਲਿਖਣ ਤੋਂ ਪਹਿਲਾਂ ਮੁੱਢਲੀ ਜਾਂਚ ਕਰਦਾ ਹੈ। ਪ੍ਰਕਾਸ਼ਕ ਲਿਖਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸਨੂੰ ਦੁਹਰਾਉਂਦਾ ਹੈ।** ਸੰਸਕਰਣਾਂ ਦੀ ਤੁਲਨਾ ਪ੍ਰਸਤਾਵ ਨਾਲ ਸੰਭਾਲੋ। ਹਫ਼ਤਾਵਾਰੀ ਜਾਂਚਾਂ ਇਹ ਪੜ੍ਹਤਾਂ ਪੂਰੀਆਂ ਕਰਦੀਆਂ ਹਨ, ਪਰ ਇਨ੍ਹਾਂ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈਂਦੀਆਂ।
@@ -103,16 +103,16 @@ choices:
 ## ਸੁਤੰਤਰ ਹਵਾਲਗੀ ਦੀ ਜਾਂਚ ਕਰੋ
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+ਹਵਾਲਗੀ: HANDOFF-042
+ਕੰਮ: PROP-042
+ਮੈਪ ਅਤੇ ਨੀਤੀ: ਮੌਜੂਦਾ ਮਨਜ਼ੂਰ ਰਿਵਿਜ਼ਨ ਨੱਥੀ ਕਰੋ
+ਸਬੂਤ: ਲੋੜਾਂ, runbook ਅਤੇ configuration ਦੇ ਹਵਾਲੇ
+ਲੇਜ਼ਰ: completed, failed, pending
+ਫ਼ੈਸਲਾ: ਮਾਲਕ ਦੀ ਚੋਣ ਅਤੇ ਪ੍ਰਸਤਾਵ ਦਾ ਨਿਸ਼ਚਿਤ ਰਿਵਿਜ਼ਨ
+ਹੱਦਾਂ: ਚੱਲਣ ਵੇਲੇ ਮਿਟਾਉਣ ਦੀ ਜਾਂਚ ਨਹੀਂ ਅਤੇ ਉਤਪਾਦਨ ਡਾਟਾ ਨਹੀਂ
+ਅਗਲੀ ਭੂਮਿਕਾ: ਜ਼ਿੰਮੇਵਾਰ ਭੂਮਿਕਾ
+ਅਗਲਾ ਕਦਮ: ਇੱਕ ਸੀਮਤ ਕਦਮ
+ਰੁਕੋ: ਆਧਾਰ ਬਦਲਿਆ, ਪਹੁੰਚ ਰੱਦ ਜਾਂ ਅਧਿਕਾਰਾਂ ਵਿੱਚ ਟਕਰਾਅ
 ```
 
 **ਪਿਛਲੀ ਗੱਲਬਾਤ ਦੀ ਥਾਂ ਨਕਸ਼ੇ ਅਤੇ ਹਵਾਲਗੀ ਨਾਲ** ਹੋਰ ਟੂਲ ਜਾਂ ਸਾਫ਼ ਸੈਸ਼ਨ ਖੋਲ੍ਹੋ। ਨਵੇਂ ਸਰੋਤ-ਪਾਠ, ਨਵਾਂ ਮੈਨੀਫੈਸਟ ਅਤੇ ਲੰਬਿਤ ਕਾਰਵਾਈ ਦੀ ਪਛਾਣ ਲਾਜ਼ਮੀ ਕਰੋ। ਹੱਥੀਂ ਬ੍ਰਾਊਜ਼ਰ ਸਬੂਤ ਸਨੈਪਸ਼ਾਟ ਵਜੋਂ ਲੇਬਲ ਕਰਨ ਅਤੇ ਲਿਖਣ ਤੋਂ ਪਹਿਲਾਂ ਮੁੜ ਜਾਂਚਣ 'ਤੇ ਵੈਧ ਰਹਿੰਦਾ ਹੈ।
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **ਮੁਆਵਜ਼ਾ ਇਤਿਹਾਸ ਮਿਟਾਉਣਾ ਨਹੀਂ।** ਤੀਹ ਦਿਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼, ਉਸਦੀ ਨਾਕਾਮੀ ਅਤੇ ਬਾਅਦਲੀ ਮੁੜ-ਸਥਾਪਨਾ ਵੱਖਰੇ ਰਿਕਾਰਡ ਵਜੋਂ ਰੱਖੋ। ਅੰਤਿਮ ਸਰੋਤ ਸੱਤ ਦੱਸਦਾ ਹੈ ਅਤੇ ਡਿਲਿਵਰੀ ਇਤਿਹਾਸ ਸਮਝਾਉਂਦਾ ਹੈ ਕਿ ਮਨਜ਼ੂਰ ਪ੍ਰਸਤਾਵ ਕਿਉਂ ਪੂਰਾ ਨਾ ਹੋਇਆ।
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+ਮੁੜ-ਸੰਭਾਲ ਫ਼ੈਸਲਾ: ਉਦਾਹਰਨੀ ਪੂਰਤੀ
+ਮੂਲ ਪ੍ਰਸਤਾਵ: PROP-042 ਰਿਵਿਜ਼ਨ 1
+ਦੇਖਿਆ ਅੰਤਰ: ਲੋੜ 30, configuration/runbook 7
+ਮਾਲਕ ਦਾ ਫ਼ੈਸਲਾ: ਮਨਜ਼ੂਰ ਆਧਾਰਕ ਇਰਾਦਾ ਬਹਾਲ ਕਰੋ
+ਸਮੀਖਿਆ ਵਿਸ਼ਾ: ਨਿਸ਼ਚਿਤ ਪੂਰਤੀ ਦੀ ਮੌਜੂਦਾ ਲੋੜ ਵਰਜਨ ਨਾਲ ਤੁਲਨਾ
+ਨਤੀਜਾ: ਬਣਿਆ ਰਿਵਿਜ਼ਨ ਦਰਜ ਕਰੋ ਅਤੇ ਸੱਤ ਦਿਨਾਂ ਦਾ ਮੁੱਲ ਮੁੜ ਪੜ੍ਹੋ
+ਮੂਲ ਸਪੁਰਦਗੀ: ਕਾਰਨ ਸਮੇਤ ਵਾਪਸ ਲਓ ਜਾਂ ਰੋਕੋ
+ਹੱਦ: ਚੱਲਣ ਵੇਲੇ ਮਿਟਾਉਣਾ ਜਾਂ ਡਾਟਾ ਬਹਾਲੀ ਨਹੀਂ ਕੀਤੀ
 ```
 
 **ਦੂਜੇ ਲੇਖਕ ਵੱਲੋਂ ਜੋੜਿਆ ਅਪਵਾਦ ਸਪੱਸ਼ਟ ਤੌਰ 'ਤੇ ਸੰਭਾਲੋ।** ਪੁਰਾਣੇ ਪੰਨੇ ਦਾ ਲਿਖਤ ਅੰਨ੍ਹੇਵਾਹ ਪਾਉਣ ਨਾਲ ਵੈਧ ਵਿਚਕਾਰਲੀ ਤਬਦੀਲੀ ਹਟ ਸਕਦੀ ਹੈ। ਮੌਜੂਦਾ ਅਤੇ ਚਾਹੀਦੇ ਲਿਖਤ ਦੀ ਤੁਲਨਾ ਕਰੋ, ਫਿਰ ਮੌਜੂਦਾ ਸੰਸਕਰਣ ਦੇ ਆਧਾਰ 'ਤੇ ਘੱਟੋ-ਘੱਟ ਮੁਆਵਜ਼ਾ ਸੋਧ ਦੀ ਸਮੀਖਿਆ ਕਰੋ।
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **ਸਾਫ਼ ਸੈਸ਼ਨ ਅਤੇ ਵੱਖਰਾ ਸਮੀਖਿਆਕਾਰ ਵਰਤੋ।** ਨਕਸ਼ਾ, ਨਿਰਧਾਰਤ ਪੈਕੇਜ, ਲੇਜ਼ਰ ਅਤੇ ਮੁੜ-ਸੰਭਾਲ ਫੈਸਲਾ ਦਿਓ। ਪੁਰਾਣੀ ਗੱਲਬਾਤ ਨਾ ਦਿਓ। ਪ੍ਰਾਪਤਕਰਤਾ ਨੂੰ ਮੌਜੂਦਾ ਇਰਾਦਾ, ਕਨਫਿਗਰੇਸ਼ਨ, ਕਾਰਜ-ਨਿਰਦੇਸ਼ ਅਤੇ ਅਗਲੀ ਮਨਜ਼ੂਰ ਕਾਰਵਾਈ ਦੱਸਣ ਲਈ ਕਹੋ।
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+ਮੈਪ ਵਿੱਚ ਦਿੱਤੇ ਮੌਜੂਦਾ ਸਰੋਤ ਸੁਤੰਤਰ ਤੌਰ ਤੇ ਪੜ੍ਹੋ।
+ਮਨਜ਼ੂਰ ਇਰਾਦੇ, ਦਰਜ configuration ਅਤੇ ਸਪੁਰਦਗੀ ਦੀ ਹਾਲਤ ਵਿੱਚ ਫ਼ਰਕ ਕਰੋ।
+ਉਹਨਾਂ ਦੀ ਸਮੀਖਿਆ ਕੀਤੇ ਪੈਕੇਜ ਅਤੇ ਲੇਜ਼ਰ ਨਾਲ ਤੁਲਨਾ ਕਰੋ।
+ਗੁੰਮ ਪੜ੍ਹਤਾਂ ਅਤੇ ਬਦਲੇ ਆਧਾਰ ਦਰਜ ਕਰੋ।
+ਜ਼ਿੰਮੇਵਾਰ ਭੂਮਿਕਾ ਦੇ ਨਾਲ ਇੱਕ ਸੀਮਤ ਅਗਲਾ ਕਦਮ ਸੁਝਾਓ।
+ਇਸ ਹਵਾਲਗੀ ਨੂੰ ਮਨਜ਼ੂਰੀ ਜਾਂ ਪ੍ਰਕਾਸ਼ਨ ਦੀ ਇਜਾਜ਼ਤ ਨਾ ਸਮਝੋ।
 ```
 
 **ਉਮੀਦ ਕੀਤਾ ਤਰਕ:** ਮੁੜ-ਸਥਾਪਿਤ ਆਧਾਰ ਦੱਸਣ ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰਾਪਤਕਰਤਾ ਮੁਆਵਜ਼ਾ ਨਤੀਜਾ ਜਾਂਚਦਾ ਹੈ। ਜੇ ਉਹ ਹਵਾਲਗੀ ਤੋਂ ਸਿਰਫ਼ “ਸੱਤ ਦਿਨ” ਦੁਹਰਾਉਂਦਾ ਹੈ ਤਾਂ ਸੁਤੰਤਰ ਪੜ੍ਹਤ ਦੀ ਲੋੜ ਪਰਖੀ ਨਹੀਂ ਗਈ। ਹੋਰ ਸਾਰ ਦੀ ਥਾਂ ਸਰੋਤ ਸਬੂਤ ਮੰਗੋ।
@@ -219,4 +219,4 @@ Do not treat this handoff as approval or publication permission.
 
 ## ਅਗਲੇ ਕਦਮ
 
-**ਦੋਵੇਂ ਟ੍ਰੈਕ ਅਤੇ ਦੂਜੇ ਪਾਠਕ ਨਾਲ [Retention Capstone](/articles/ai-collaboration-retention-capstone/) ਪੂਰਾ ਕਰੋ।** ਮੌਜੂਦਾ ਸਰੋਤ ਪੜ੍ਹਤਾਂ, ਸੰਸਕਰਣ ਅੰਤਰ, ਫੈਸਲੇ ਦਾ ਮਾਲਕ, ਸਮੀਖਿਆ ਕੀਤੀ ਮੁੜ-ਸੰਭਾਲ, ਮੁੜ-ਪੜ੍ਹਤ ਅਤੇ ਸੁਤੰਤਰ ਪੁਨਰ-ਰਚਨਾ ਦਿਖਾਓ।
+**ਦੋਵੇਂ ਟ੍ਰੈਕ ਅਤੇ ਦੂਜੇ ਪਾਠਕ ਨਾਲ [ਰੱਖਣ ਦੀ ਮਿਆਦ ਵਾਲਾ ਸਮਾਪਤੀ ਪਾਠ](/articles/ai-collaboration-retention-capstone/) ਪੂਰਾ ਕਰੋ।** ਮੌਜੂਦਾ ਸਰੋਤ ਪੜ੍ਹਤਾਂ, ਸੰਸਕਰਣ ਅੰਤਰ, ਫੈਸਲੇ ਦਾ ਮਾਲਕ, ਸਮੀਖਿਆ ਕੀਤੀ ਮੁੜ-ਸੰਭਾਲ, ਮੁੜ-ਪੜ੍ਹਤ ਅਤੇ ਸੁਤੰਤਰ ਪੁਨਰ-ਰਚਨਾ ਦਿਖਾਓ।

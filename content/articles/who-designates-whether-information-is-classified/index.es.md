@@ -1,6 +1,7 @@
 ---
 title: "Comprender la clasificación de la información: Quién determina y asigna los niveles de clasificación"
 date: 2023-06-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Conozca el proceso de clasificación de la información, incluyendo quién designa y asigna los niveles de clasificación, y la importancia de cumplir la normativa gubernamental."
@@ -76,7 +77,7 @@ La clasificación de la información está sujeta a diversas **normas y directri
 
 Mediante el cumplimiento de esta normativa, las organizaciones y personas implicadas en el manejo de información clasificada pueden garantizar que se siguen los procedimientos adecuados y que se aplican las medidas de seguridad necesarias para salvaguardar los datos sensibles. El incumplimiento de esta normativa puede acarrear graves consecuencias, incluidas sanciones legales y daños a la seguridad nacional.
 
-Para obtener más información sobre estas normativas y sus requisitos específicos, puede consultar la documentación oficial y los recursos proporcionados por las autoridades respectivas. Por ejemplo, puede acceder a la **Orden ejecutiva 13526** en la dirección [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) website, explore the **NISPOM** on the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) website, and find detailed information about **ITAR** on the [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing) sitio web.
+Para obtener más información sobre estas normas y sus requisitos específicos, consulte la documentación oficial y los recursos de las autoridades correspondientes. Puede consultar la **Executive Order 13526** en el sitio web de [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information), revisar la **NISPOM** en el sitio web de [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) y encontrar información detallada sobre **ITAR** en el sitio web de [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing).
 
 ______
 

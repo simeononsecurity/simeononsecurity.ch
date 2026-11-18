@@ -1,7 +1,7 @@
 ---
 title: "GitHub Copilot CLI ਬਨਾਮ VS Code: 2026 ਵਰਕਫਲੋ ਤੁਲਨਾ"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Copilot ਟਰਮੀਨਲ ਏਜੰਟ ਦੀ VS Code ਅਨੁਭਵ ਨਾਲ ਤੁਲਨਾ ਕਰੋ। ਇਸ ਵਿੱਚ ਐਡੀਟਰ ਸੰਦਰਭ, ਵਿਜ਼ੂਅਲ ਡਿਫ, Agent ਮੋਡ, CLI ਏਕੀਕਰਨ ਅਤੇ ਖਾਤਾ ਨੀਤੀਆਂ ਸ਼ਾਮਲ ਹਨ।"
@@ -31,7 +31,7 @@ coverCaption: ""
 |---|---|---|
 | **Standalone CLI** | Terminal prompt ਅਤੇ command output | Reproduced test failure ਸਮਝਾ ਕੇ ਠੀਕ ਕਰਨਾ |
 | **VS Code integration** | Editor selection, chat, suggestions ਅਤੇ diffs | Selected function ਅਤੇ ਉਸਦੇ tests ਬਦਲਣਾ |
-| **CLI connected to VS Code** | Editor context ਅਤੇ review ਵਾਲਾ terminal task | Shell ਤੋਂ ਜਾਂਚ ਕਰਕੇ patch ਨੂੰ visually inspect ਕਰਨਾ |
+| **VS Code ਨਾਲ ਜੁੜਿਆ CLI** | Editor context ਅਤੇ review ਵਾਲਾ terminal task | Shell ਤੋਂ ਜਾਂਚ ਕਰਕੇ patch ਨੂੰ visually inspect ਕਰਨਾ |
 
 **Hybrid ਤਰੀਕਾ CLI session ਹੀ ਰਹਿੰਦਾ ਹੈ।** Integrated terminal ਵਿੱਚ ਚਲਾਉਣ ਨਾਲ ਇਹ ਆਪਣੇ ਆਪ editor ਦੀ native Agent-mode conversation ਨਹੀਂ ਬਣਦਾ। Active session ਅਤੇ connection ਜਾਂਚੋ।
 
@@ -74,7 +74,7 @@ copilot
 | Connect ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ | ਜਾਂਚ |
 |---|---|
 | **Workspace** | Intended folder ਖੁੱਲ੍ਹਾ ਅਤੇ trusted ਹੈ |
-| **Execution location** | CLI ਅਤੇ editor integration ਇੱਕੋ environment ਨੂੰ ਦਰਸਾਉਂਦੇ ਹਨ |
+| ਚਲਾਉਣ ਦੀ ਥਾਂ | CLI ਅਤੇ editor integration ਇੱਕੋ environment ਨੂੰ ਦਰਸਾਉਂਦੇ ਹਨ |
 | **Selection** | Highlighted code ਮੌਜੂਦਾ request ਨਾਲ ਮਿਲਦਾ ਹੈ |
 | **Permissions** | ਲੋੜ ਹੋਣ ਤੇ proposed-edit review enabled ਹੈ |
 | **Session** | Intended conversation ਜਾਰੀ ਹੈ |
@@ -96,7 +96,7 @@ copilot
 | **Supplied context** | ਲੁਕਿਆ manual setup effort ਦਿਖਾਉਂਦਾ ਹੈ |
 | **Correctness** | Plausible code ਅਤੇ verified fix ਵੱਖ ਕਰਦਾ ਹੈ |
 | **Approval steps** | ਇੱਕੋ policy ਹੇਠ supervision burden ਦਿਖਾਉਂਦਾ ਹੈ |
-| **Review time** | ਪੂਰਾ patch ਸਮਝਣ ਦਾ ਸਮਾਂ ਮਾਪਦਾ ਹੈ |
+| ਸਮੀਖਿਆ ਸਮਾਂ | ਪੂਰਾ patch ਸਮਝਣ ਦਾ ਸਮਾਂ ਮਾਪਦਾ ਹੈ |
 | **Manual repairs** | Agent ਤੋਂ ਬਾਅਦ ਬਚਿਆ ਕੰਮ ਦਰਜ ਕਰਦਾ ਹੈ |
 | **Usage** | Cost ਨੂੰ accepted outcomes ਨਾਲ ਜੋੜਦਾ ਹੈ |
 

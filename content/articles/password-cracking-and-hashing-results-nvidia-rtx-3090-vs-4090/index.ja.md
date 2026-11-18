@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090：パスワードクラッキングの性能比較"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "パスワードクラッキングにおけるNVIDIA RTX 3090とRTX 4090の性能差を発見し、セキュリティへの影響と保護対策を浮き彫りにしています。"
@@ -49,7 +50,7 @@ RTX 3090**とRTX 4090**のパスワードクラッキング性能を比較する
 
 ベンチマークの結果から、**RTX 4090**はパスワードのクラッキングに強力なツールであることがわかりました。これは、攻撃者がこれまでよりもはるかに速くパスワードをクラックすることが可能になったことを意味します。
 
-これは、攻撃者がより簡単にアカウントやシステムにアクセスできるようになったことを意味するため、セキュリティ上の重大な懸念事項です。パスワードクラックの攻撃から身を守るには、以下のような方法があります。 [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)で、強力なパスワードの生成と保存を支援します。
+これは、攻撃者がアカウントやシステムに簡単にアクセスできるようになるため、重大なセキュリティ上の懸念です。パスワードクラッキング攻撃から身を守るには、推測されにくい[**強力なパスワード**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/)を使用してください。また、[**パスワードマネージャー**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)も使用し、[強力なパスワード](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)の生成と安全な保存に役立ててください。
 
 ## 結論
 

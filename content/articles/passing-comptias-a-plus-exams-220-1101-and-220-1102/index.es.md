@@ -72,9 +72,9 @@ Para tener éxito en los exámenes CompTIA A+, es importante utilizar múltiples
 
 Un gran recurso para estudiar para los exámenes CompTIA A+ es la plataforma oficial de aprendizaje en línea CompTIA CertMaster. CertMaster ofrece aprendizaje interactivo con una variedad de materiales de estudio, incluidos videos, preguntas de práctica y tarjetas.
 
-Otros recursos de estudio de buena reputación incluyen [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), the [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), and the [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN) 
+Otros recursos de estudio de buena reputación incluyen [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), y [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN).
 
-Además, hay muchos cursos y tutoriales en línea disponibles a través de proveedores como [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/) Al utilizar múltiples recursos de estudio, es importante centrarse en aquellos que se ajusten a los objetivos del examen y utilizar recursos de fuentes acreditadas para garantizar la precisión y la calidad.
+Además, hay muchos cursos y tutoriales en línea disponibles a través de proveedores como [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/) y [Coursera](https://www.coursera.org/). Al utilizar múltiples recursos de estudio, es importante centrarse en aquellos que se ajusten a los objetivos del examen y utilizar recursos de fuentes acreditadas para garantizar la precisión y la calidad.
 
 {{< youtube id="87t6P5ZHTP0" >}}{{< youtube id="OS9MJjNK6gA" >}}
 

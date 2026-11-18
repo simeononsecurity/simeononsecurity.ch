@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090 : Comparaison des performances de craquage de mots de passe"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Découvrez l'écart de performances entre les NVIDIA RTX 3090 et RTX 4090 dans le craquage de mots de passe, en soulignant les implications en termes de sécurité et les mesures de protection."
@@ -49,7 +50,7 @@ Longueur du mot de passe | Complexité | RTX 3090 (secondes) | RTX 4090 (seconde
 
 Les résultats de nos benchmarks montrent que la **RTX 4090** est un outil puissant pour craquer les mots de passe. Cela signifie qu'il est désormais possible pour les attaquants de déchiffrer les mots de passe beaucoup plus rapidement qu'auparavant.
 
-Il s'agit là d'un grave problème de sécurité, car cela signifie que les attaquants peuvent désormais accéder aux comptes et aux systèmes beaucoup plus facilement. Pour vous protéger contre les attaques par craquage de mot de passe, vous devez utiliser [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pour vous aider à générer et à conserver des mots de passe forts.
+Il s’agit d’un grave problème de sécurité, car les attaquants peuvent désormais accéder beaucoup plus facilement aux comptes et aux systèmes. Pour vous protéger contre les attaques par craquage de mots de passe, utilisez des [**mots de passe robustes**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) difficiles à deviner. Utilisez également un [**gestionnaire de mots de passe**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pour vous aider à créer et à conserver des [mots de passe robustes](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 
 ## Conclusion
 

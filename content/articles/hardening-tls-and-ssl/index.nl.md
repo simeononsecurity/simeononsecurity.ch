@@ -1,7 +1,7 @@
 ---
 title: "Beveilig uw computer door SSL en TLS 1.1 en ouder uit te schakelen"
 date: 2023-02-08
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Schakel SSL en oude TLS-versies uit en houd TLS 1.2 of nieuwer beschikbaar. Dit artikel behandelt Schannel en .NET op Windows en Linux-services."
@@ -42,17 +42,17 @@ Function Disable-Protocol {
     Set-ItemProperty -Path $ClientPath -Force -Name Enabled -Type "DWORD" -Value 0
     Set-ItemProperty -Path $ClientPath -Force -Name DisabledByDefault -Type "DWORD" -Value 1
 }
-# Disable SSL v2
+# SSL v2 uitschakelen
 Disable-Protocol -Protocol "SSL 2.0"
-# Disable SSL v3
+# SSL v3 uitschakelen
 Disable-Protocol -Protocol "SSL 3.0"
-# Disable TLS 1.0
+# TLS 1.0 uitschakelen
 Disable-Protocol -Protocol "TLS 1.0"
-# Disable DTLS 1.0
+# DTLS 1.0 uitschakelen
 Disable-Protocol -Protocol "DTLS 1.0"
-# Disable TLS 1.1
+# TLS 1.1 uitschakelen
 Disable-Protocol -Protocol "TLS 1.1"
-# There is no DTLS 1.1 protocol. RFC 8996 deprecates DTLS 1.0 and retains DTLS 1.2.
+# Er bestaat geen DTLS 1.1-protocol. RFC 8996 verklaart DTLS 1.0 verouderd en handhaaft DTLS 1.2.
 
 function Set-NETStrongAuthentication {
     param(

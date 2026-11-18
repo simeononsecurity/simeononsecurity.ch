@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork y Claude Code con modelos locales: guía de configuración 2026"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configura Ollama con Claude Desktop y Claude Code mediante una API compatible con Anthropic. Revisa los modelos y las funciones exclusivas de la nube en 2026."
@@ -188,7 +188,7 @@ Las llamadas a herramientas distinguen a un agente de un generador de texto. Com
 Cuando Claude Code esté en ejecución, pídele:
 
 ```text
-Read the current directory and list all files
+Lee el directorio actual y enumera todos los archivos
 ```
 
 **Si muestra archivos reales, las llamadas a herramientas funcionan.** Si responde que leería el directorio y describe lo que espera encontrar, la función no está conectada. Estás hablando con un modelo de chat al que se añadió una instrucción de programación, no con un agente. Ninguna indicación adicional lo arreglará.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 Dentro de una sesión de Claude Code, `/loop` ejecuta una indicación o comando slash a intervalos:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m Revisa mis PR abiertas y resume su estado
+/loop 1h Investiga las últimas noticias de IA y resume los avances clave
+/loop 15m Revisa las nuevas incidencias de GitHub y ordénalas por prioridad
 ```
 
 *Esto se ejecuta mientras la sesión está abierta. No es un servicio en segundo plano, por lo que termina al cerrar la sesión.*

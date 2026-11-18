@@ -1,7 +1,7 @@
 ---
 title: "Ansible مقابل Puppet مقابل Chef 2026: إدارة الإعدادات"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "مقارنة لعام 2026 بين Ansible وPuppet وChef تشمل البنية والميزات ومنحنى التعلم والأداء والأسعار وحالات الاستخدام."
@@ -11,7 +11,6 @@ cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "رسم لمركز بيانات مستقبلي مقسم إلى ثلاثة أقسام تمثل Ansible وPuppet وChef. يعرض كل قسم بنية نظام مختلفة وروابط مضيئة على خلفية داكنة."
 coverCaption: "اختر أداة إدارة الإعدادات المناسبة لبنيتك التحتية"
 ---
-
 ## Ansible مقابل Puppet مقابل Chef 2026: مقارنة شاملة لإدارة الإعدادات
 
 في عام 2026، تظل **إدارة الإعدادات** ضرورية لإدارة البنى التحتية الحديثة على نطاق واسع، وتتصدر **Ansible** و**Puppet** و**Chef** سوق المؤسسات. تدعم هذه الأدوات **البنية التحتية كرمز (IaC)**، وتساعد الفرق على أتمتة إعداد الخوادم ونشر التطبيقات وتنسيق البنية التحتية عبر آلاف الأنظمة.
@@ -146,23 +145,23 @@ coverCaption: "اختر أداة إدارة الإعدادات المناسبة 
 **مثال** (تثبيت Apache وتشغيله):
 ```yaml
 ---
-- name: Configure web servers
+- name: تهيئة خوادم الويب
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: تثبيت Apache
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: بدء خدمة Apache
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: نشر الموقع
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -186,19 +185,19 @@ coverCaption: "اختر أداة إدارة الإعدادات المناسبة 
 **مثال** (إعداد Apache نفسه):
 ```puppet
 class apache {
-  # Install Apache package
+  # تثبيت حزمة Apache
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # نشر ملف الموقع
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -228,20 +227,20 @@ node 'webserver.example.com' {
 
 **مثال** (إعداد Apache نفسه):
 ```ruby
-# Recipe: apache::default
+# وصفة: apache::default
 
-# Install Apache package
+# تثبيت حزمة Apache
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# بدء خدمة Apache وتفعيلها
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# نشر ملف الموقع
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -528,7 +527,7 @@ end
 
 **نهج Ansible**:
 ```yaml
-- name: Manage web server fleet
+- name: إدارة مجموعة خوادم الويب
   hosts: webservers
   become: yes
   roles:
@@ -536,7 +535,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: نشر التطبيق
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -549,7 +548,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -561,7 +560,7 @@ node /webserver\d+/ {
 
 **نهج Chef**:
 ```ruby
-# Role: webserver
+# دور: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -569,7 +568,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# وصفة: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

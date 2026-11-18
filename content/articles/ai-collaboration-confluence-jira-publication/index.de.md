@@ -1,7 +1,7 @@
 ---
 title: "KI-Publikationsablauf für GitHub, Confluence und Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Veröffentliche einen festen Aufbewahrungsvorschlag in Confluence, GitHub und Jira, prüfe Versionen und plane die Wiederherstellung nach einer Teilveröffentlichung."
@@ -176,7 +176,7 @@ Diese Zeichenfolgen sind Beispieltexte für Vorschläge, keine Datensätze eines
 | Confluence REQ-17 | v4, sieben Tage | PROP-042 r1, Product genehmigte v4 zu v5 | Veröffentlichungsperson schrieb v5, Prüfer öffnete v5 erneut | Dreißig Tage, Backups und rechtliche Sperren ausgeschlossen |
 | GitHub-Konfiguration | `main`-Commit `base-001`, sieben Tage | PROP-042 r1, Operations genehmigte den Kandidat-Diff | PR als `merge-002` zusammengeführt, unabhängiger Klon las dreißig aus | Dreißig Tage in der geschützten Quelle |
 | Confluence RUN-04 | v2, sieben Tage | PROP-042 r1, Operations genehmigte v2 zu v3 | Veröffentlichungsperson schrieb v3, Prüfer öffnete v3 erneut | Betriebsanweisung für dreißig Tage mit Rücksetzoption |
-| Jira PROP-042 | In Review | Beide Entscheidungen der Verantwortlichen an r1 gebunden | Lieferverantwortlicher fügte Nachweise hinzu und setzte den Status auf `Done` | Abschluss nach allen drei erneuten Lesevorgängen |
+| Jira PROP-042 | In Prüfung | Beide Entscheidungen der Verantwortlichen an r1 gebunden | Lieferverantwortlicher fügte Nachweise hinzu und setzte den Status auf `Done` | Abschluss nach allen drei erneuten Lesevorgängen |
 
 Die obigen Bezeichnungen sind Beispiele und keine Mandantennachweise. Dein Protokoll benötigt native Seitenversionslinks und Commit-IDs. Hänge vor dem Wechsel von Jira zu `Done` den eingefrorenen Vorschlag, beide Rollenprüfungen, den Quellbasisdatensatz, jeden Veröffentlichungsnachweis, das Ergebnis des Negativtests und verbleibende Laufzeitgrenzen an. Fehlt ein Punkt, lass die Bereitstellung offen oder auf `Blocked`.
 

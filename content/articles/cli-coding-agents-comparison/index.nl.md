@@ -1,17 +1,16 @@
 ---
 title: "CLI-codeeragenten vergeleken: Claude Code, Codex, Gemini, OpenCode, Copilot en Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Vergelijk zes codeeragenten voor de terminal op workflow, automatisering, modeltoegang, rechten en revisiewerk. Stel een shortlist samen met een herhaalbare repository-test."
 genre: ["Ontwikkelaarstools", "Kunstmatige intelligentie", "Softwareontwikkeling"]
-tags: ["CLI-codeeragenten", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "terminalagenten", "headless automatisering", "agent harness", "modelproviders", "Git-workflows", "vergelijking codeeragenten", "shelltools", "codeerassistent", "agentrechten", "repositorycontext", "CI-automatisering", "codereview", "ontwikkelaarstools"]
+tags: ["CLI-codeeragenten", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "terminalagenten", "headless automatisering", "raamwerk voor programmeeragenten", "modelproviders", "Git-werkstromen", "vergelijking codeeragenten", "shelltools", "codeerassistent", "agentrechten", "repositorycontext", "CI-automatisering", "codereview", "ontwikkelaarstools"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "Zes abstracte terminalvensters rond een repositoriesymbool in een uitgebalanceerd raster op een donkere achtergrond"
 coverCaption: ""
 ---
-
 **Codeeragenten in de terminal** gebruiken een vertrouwde interface, maar verschillen in contextverzameling, bestandsbewerking, goedkeuringsvragen en aansluiting op scripts. Deze gids vergelijkt Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI en Aider. De terminalworkflows worden los van de desktopproducten van elke leverancier beoordeeld.
 
 **Begin bij je beperkingen.** Leverancierstoegang, herhaalbare automatisering en reviewgewoonten zijn betere filters dan een algemene ranglijst. De aanbevelingen hieronder zijn redactionele oordelen op basis van officiële documentatie die op 10 oktober 2026 is gecontroleerd, geen gemeten prestatieranglijst.
@@ -98,10 +97,10 @@ coverCaption: ""
 **Projectinstructies moeten worden gecontroleerd.** Geef elke tool hetzelfde buildcommando, dezelfde acceptatiecriteria en dezelfde uitsluitingen via het ondersteunde instructiemechanisme. Laat hem de actieve beperkingen herhalen vóór het bewerken. Een ontbrekend instructiebestand is een configuratiefout, geen modelbenchmark.
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+Taak: Los de opgegeven reproductie op zonder de openbare API te wijzigen.
+Scope: Behoud niet-gerelateerde wijzigingen en voeg geen nieuwe afhankelijkheden toe.
+Bewijs: Voer de bestaande regressietest en relevante aangrenzende tests uit.
+Rapport: Leg de oorzaak, gewijzigde bestanden, controles en resterende onzekerheden uit.
 ```
 
 **Deze testprompt is bewust afgebakend.** Voeg een bekende reproductie en onafhankelijk geschreven controles toe. Gebruik dezelfde startcommit in afzonderlijke checkouts. Noteer toolversie, model, provider, rechtenbeleid, verstreken tijd en interventies.

@@ -1,7 +1,7 @@
 ---
 title: "استعادة انحراف وكلاء الذكاء الاصطناعي وسير تسليم المهام"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "اكتشف المصادر ومحولات السياسات القديمة، واستعد النشر المتوقف، وتحقق من عمليات التسليم المستقلة بين الوكلاء."
@@ -46,14 +46,14 @@ coverCaption: ""
 ## تنفيذ الفحص المسبق
 
 ```text
-Read MAP-01 and capture its revision.
-Read POL-01 and compare active adapter versions.
-Read REQ-17 and RUN-04 from mapped homes.
-Read config.json at protected main.
-Read frozen proposal and current role reviews.
-Compare current sources with reviewed bases.
-List mismatches, denied reads, and pending publications.
-Stop consequential writes until owners resolve each mismatch.
+اقرأ MAP-01 وسجّل مراجعته.
+اقرأ POL-01 وقارن إصدارات المهايئات النشطة.
+اقرأ REQ-17 و RUN-04 من المواقع المحددة في الخريطة.
+اقرأ config.json من main المحمي.
+اقرأ الاقتراح المجمد ومراجعات الأدوار الحالية.
+قارن المصادر الحالية بالأسس التي تمت مراجعتها.
+سجّل أوجه الاختلاف ورفض القراءة والمنشورات المعلقة.
+أوقف عمليات الكتابة المؤثرة حتى يحل المالكون كل اختلاف.
 ```
 
 **ينفذ المساهم الفحص المسبق قبل إعداد المسودة. ويعيد الناشر الفحص قبل الكتابة.** احتفظ بمقارنة الإصدارات مع المقترح. تكمل الفحوص الأسبوعية هذه القراءات ولا تحل محلها.
@@ -103,16 +103,16 @@ choices:
 ## التحقق من تسليم مستقل
 
 ```text
-Handoff: HANDOFF-042
-Task: PROP-042
-Map and policy: attach current approved revisions
-Evidence: requirement, runbook, configuration references
-Ledger: completed, failed, pending
-Decision: owner choice and fixed proposal revision
-Limits: no runtime deletion test or production data
-Next role: accountable role
-Next action: one bounded step
-Stop: changed base, access denial, conflicting authority
+التسليم: HANDOFF-042
+المهمة: PROP-042
+الخريطة والسياسة: أرفق المراجعات الحالية المعتمدة
+الأدلة: مراجع المتطلبات ودليل التشغيل والإعدادات
+السجل: completed, failed, pending
+القرار: اختيار المالك ومراجعة الاقتراح الثابتة
+الحدود: لم يُختبر حذف أثناء التشغيل ولا بيانات إنتاجية
+الدور التالي: الدور المسؤول
+الإجراء التالي: خطوة واحدة محددة
+توقف: أساس متغير أو رفض وصول أو صلاحيات متعارضة
 ```
 
 **افتح أداة أخرى أو جلسة نظيفة** باستخدام الخريطة والتسليم، لا المحادثة السابقة. اشترط قراءة جديدة للمصادر وبيانًا جديدًا وتحديد الإجراء المعلق. تظل أدلة المتصفح اليدوية صالحة إذا وُصفت بأنها لقطة وأعيد فحصها قبل الكتابة.
@@ -147,14 +147,14 @@ Stop: changed base, access denial, conflicting authority
 **التعويض لا يحذف السجل.** احتفظ بمحاولة التغيير إلى ثلاثين يومًا وفشلها والاستعادة اللاحقة كسجلات منفصلة. يذكر المصدر النهائي سبعة، بينما يشرح سجل التسليم سبب عدم إكمال المقترح المعتمد.
 
 ```text
-Recovery decision: illustrative compensation
-Original proposal: PROP-042 revision 1
-Observed mismatch: requirement 30, configuration/runbook 7
-Owner decision: restore approved baseline intent
-Review object: fixed compensation against current requirement version
-Result: capture resulting revision and seven-day read-back
-Original delivery: withdrawn or blocked with explanation
-Limit: no runtime deletion or data restoration performed
+قرار الاستعادة: تعويض توضيحي
+الاقتراح الأصلي: PROP-042 المراجعة 1
+الاختلاف المرصود: المتطلب 30، والإعداد/دليل التشغيل 7
+قرار المالك: استعد النية الأساسية المعتمدة
+موضوع المراجعة: تعويض ثابت مقابل إصدار المتطلب الحالي
+النتيجة: سجّل المراجعة الناتجة وأكّد القراءة لمدة سبعة أيام
+التسليم الأصلي: اسحبه أو أوقفه مع توضيح السبب
+الحد: لم يُنفذ حذف أثناء التشغيل أو استعادة للبيانات
 ```
 
 **حافظ صراحةً على أي استثناء أضافه كاتب آخر.** قد تؤدي إعادة لصق محتوى صفحة قديم دون مراجعة إلى إزالة تغيير وسيط صالح. قارن النص الحالي بالنص المقصود، ثم راجع تعديلًا تعويضيًا محدودًا مقابل الإصدار الحالي.
@@ -164,12 +164,12 @@ Limit: no runtime deletion or data restoration performed
 **استخدم جلسة نظيفة ومراجعًا آخر.** قدم الخريطة والحزمة الثابتة والسجل وقرار الاستعادة. لا تقدم المحادثة السابقة. اطلب من المستلم ذكر النية الحالية والإعداد والإرشادات التشغيلية والإجراء المسموح التالي.
 
 ```text
-Read the mapped current sources independently.
-Distinguish approved intent, committed configuration, and delivery state.
-Compare them with the reviewed package and ledger.
-List missing reads and changed bases.
-Recommend one bounded next action with its accountable role.
-Do not treat this handoff as approval or publication permission.
+اقرأ المصادر الحالية المحددة في الخريطة بشكل مستقل.
+ميّز بين النية المعتمدة والإعداد المثبت وحالة التسليم.
+قارنها بالحزمة والسجل اللذين تمت مراجعتهما.
+سجّل القراءات الناقصة والأسس التي تغيرت.
+اقترح إجراءً تالياً واحداً محدوداً وحدد المسؤول عنه.
+لا تتعامل مع هذا التسليم كموافقة أو إذن بالنشر.
 ```
 
 **الاستدلال المتوقع:** يتحقق المستلم من نتيجة التعويض قبل وصف خط الأساس بأنه مستعاد. إذا كرر فقط «سبعة أيام» من التسليم، فلم يُختبر شرط القراءة المستقلة. اطلب دليلًا من المصادر بدل ملخص آخر.
@@ -219,4 +219,4 @@ Do not treat this handoff as approval or publication permission.
 
 ## الخطوات التالية
 
-**أكمل [Retention Capstone](/articles/ai-collaboration-retention-capstone/)** باستخدام المسارين وقارئ ثانٍ. اعرض قراءات المصادر الحالية واختلافات الإصدارات ومالك القرار والاستعادة التي تمت مراجعتها وقراءة النتيجة وإعادة البناء المستقلة.
+**أكمل [مشروع الاحتفاظ الختامي](/articles/ai-collaboration-retention-capstone/)** باستخدام المسارين وقارئ ثانٍ. اعرض قراءات المصادر الحالية واختلافات الإصدارات ومالك القرار والاستعادة التي تمت مراجعتها وقراءة النتيجة وإعادة البناء المستقلة.

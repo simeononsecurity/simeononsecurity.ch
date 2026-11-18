@@ -1,6 +1,7 @@
 ---
 title: "Detectarea Flock-You: Ghid de Configurare pentru Contra-Supraveghere"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Ghid tehnic complet al proiectului open-source Flock-You pentru detectarea camerelor ALPR Flock Safety folosind hardware bazat pe ESP32. Include instrucțiuni de configurare, detalii despre firmware și opțiuni de achiziție."
@@ -319,11 +320,11 @@ ______
    ```bash
    # Instalează PlatformIO
    pip install platformio
-   
+
    # Clonează repository-ul
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
+
    # Flashează firmware-ul
    pio run -t upload
    pio device monitor
@@ -636,37 +637,37 @@ ______
 Pentru cei interesați de implementarea tehnică, iată o vedere simplificată a logicii de detectare:
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// Nucleul detectării Flock-You (conceptual, nu este codul complet)
 
-// OUI Database (31 known Flock-associated OUIs)
+// Bază de date OUI (31 de identificatori asociați cu Flock)
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // Variantă Espressif ESP32-S3
+    // ... încă 28 de identificatori OUI ...
 };
 
-// Promiscuous mode callback
+// Callback pentru modul promiscuu
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // Extrage adresa MAC din cadru
+    uint8_t *mac = pkt->payload + 10; // Poziția câmpului addr2
+
+    // Verifică baza de date OUI
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // A fost găsită o potrivire OUI
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // Verifică pragul puterii semnalului
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // Analizează cadrul pentru semnături suplimentare
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // Detectare cu încredere ridicată
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // Doar potrivire OUI
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -674,16 +675,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// Detectarea probei wildcard
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // Cadru de management, subtip cerere de probă
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // Verifică dacă IE SSID este gol (wildcard)
+    // Poziția depinde de structura cadrului
+    uint8_t *ie = &pkt->payload[24]; // Începutul IE-urilor
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // Probă wildcard
     }
     return false;
 }

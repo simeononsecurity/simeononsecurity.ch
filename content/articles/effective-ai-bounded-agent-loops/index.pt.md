@@ -1,7 +1,7 @@
 ---
 title: "Loops limitados de agentes de IA: verificações, novas tentativas e regras de parada"
 date: 2026-10-10
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Defina um loop de objetivo de IA com estado observável, verificações, limites de tentativas, condições de parada e uma transferência clara para uma pessoa."
@@ -89,7 +89,7 @@ Evidência necessária: execução completa dos testes e status de saída do com
 **Comece com o laboratório intacto.** Os dois testes de referência passam. Na nova extração, crie `tests/test_loop_contract.py` com a verificação abaixo. Esse arquivo expressa uma funcionalidade desejada ausente no projeto inicial. Ele não pertence ao ZIP inicial mantido.
 
 ```python
-"""One controlled failing check for the status-filter exercise."""
+"""Uma verificação com falha controlada para o exercício de filtro de status."""
 
 import subprocess
 import sys

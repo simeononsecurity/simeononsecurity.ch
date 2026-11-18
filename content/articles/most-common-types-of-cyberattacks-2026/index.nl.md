@@ -1,7 +1,7 @@
 ---
 title: "De meest voorkomende soorten cyberaanvallen en hoe verdedigers ze herkennen"
 date: 2026-09-11
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer de meest voorkomende soorten cyberaanvallen herkennen, ontdek welk bewijs ze achterlaten in logs en telemetrie en oefen detectie in een thuislab voor beveiliging."
@@ -65,7 +65,7 @@ ______
 
 ______
 
-## Denial of service
+## DoS-aanvallen
 
 Een **denial-of-serviceaanval (DoS)** overspoelt een doel met verzoeken totdat legitieme gebruikers geen toegang meer hebben. Een **distributed denial-of-serviceaanval (DDoS)** doet hetzelfde vanaf veel systemen tegelijk. Daardoor is het verkeer veel moeilijker op basis van bronadres te filteren.
 

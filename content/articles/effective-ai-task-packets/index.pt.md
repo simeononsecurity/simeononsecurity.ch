@@ -50,30 +50,30 @@ coverCaption: ""
 **Copie este modelo** para uma pequena tarefa de programação ou pesquisa. Exclua campos sem relação com a tarefa em vez de preenchê-los com texto vago.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Resultado:
+Fonte oficial e revisão:
+Arquivos ou registros relevantes:
+Alterações permitidas:
+Alterações e ações excluídas:
+Exemplos do comportamento desejado:
+Verificações de conclusão:
+Quando parar ou perguntar:
+Relate:
 ```
 
 **Para o laboratório,** o pacote preenchido fica assim:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Objetivo: adicione um filtro --status opcional a task_report.py.
+Fonte: docs/requirements.md, revisão 1.
+Arquivos relevantes: task_report.py, tasks.json, tests/.
+Alterações permitidas: task_report.py e testes direcionados.
+Excluído: tasks.json, novas dependências, commits e envios.
+Exemplos: sem filtro, exibe Total tasks: 4. open e done exibem 2 cada.
+Verificações: execute os testes unitários e quatro comandos manuais: sem filtro, open, done e um valor inválido.
+O valor inválido deve retornar um código diferente de zero com uma mensagem clara.
+Pare ou pergunte se houver conflito entre fontes, arquivo ausente ou falha inicial sem relação com a tarefa.
+Relatório: arquivos alterados, comandos, resultados observados e questões não resolvidas.
 ```
 
 **No Windows,** use `py -3` nos comandos do pacote se o seu ambiente usar o inicializador Python.

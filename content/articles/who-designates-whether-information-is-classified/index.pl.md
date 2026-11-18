@@ -1,6 +1,7 @@
 ---
 title: "Zrozumienie klasyfikacji informacji: Kto określa i przypisuje poziomy klasyfikacji?"
 date: 2023-06-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Dowiedz się o procesie klasyfikacji informacji, w tym o tym, kto wyznacza i przypisuje poziomy klasyfikacji, a także o znaczeniu przestrzegania przepisów rządowych."
@@ -76,7 +77,7 @@ Klasyfikacja informacji podlega różnym **przepisom i wytycznym rządowym** w c
 
 Przestrzegając tych przepisów, organizacje i osoby zaangażowane w przetwarzanie informacji niejawnych mogą zapewnić przestrzeganie odpowiednich procedur i niezbędnych środków bezpieczeństwa w celu ochrony wrażliwych danych. Nieprzestrzeganie tych przepisów może skutkować poważnymi konsekwencjami, w tym karami prawnymi i szkodami dla bezpieczeństwa narodowego.
 
-Aby dowiedzieć się więcej o tych przepisach i ich konkretnych wymaganiach, można zapoznać się z oficjalną dokumentacją i zasobami dostarczonymi przez odpowiednie organy. Na przykład, można uzyskać dostęp do **Executive Order 13526** na stronie internetowej [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) website, explore the **NISPOM** on the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) website, and find detailed information about **ITAR** on the [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing) strona internetowa.
+Więcej informacji o tych przepisach i ich szczegółowych wymaganiach można znaleźć w oficjalnych dokumentach i zasobach właściwych organów. **Executive Order 13526** znajduje się na stronie [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information), **NISPOM** na stronie [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/), a szczegółowe informacje o **ITAR** na stronie [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing).
 
 ______
 

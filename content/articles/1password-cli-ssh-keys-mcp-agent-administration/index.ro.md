@@ -1,7 +1,7 @@
 ---
 title: "1Password SSH Agent and CLI: Acces în mod de doar citire pentru agenți AI"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Proiectați un flux de lucru SSH în mod de doar citire cu 1Password CLI, SSH Agent și MCP. Folosiți comenzi sintetice, permisiuni restrânse și aprobare umană înainte de testarea în mediu real."
@@ -82,7 +82,7 @@ Bitbucket Cloud utilizează fluxul de lucru normal de linie de comandă Git și 
 
 **Tratați Bitbucket ca pe un consumator de chei publice.** Înregistrați cheia publică sau amprenta prin contul Bitbucket aprobat sau prin setarea depozitului. Păstrați cheia privată în 1Password. Clientul Git solicită agentului SSH să semneze. Clientul nu citește un fișier de cheie privată.
 
-Pentru domeniul cheii de acces Bitbucket, calea de înregistrare și testul Git doar-citire, consultați [Bitbucket Cloud SSH Keys and Git CLI: Read-Only Access for AI Agents](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
+Pentru domeniul cheii de acces Bitbucket, calea de înregistrare și testul Git doar-citire, consultați [Chei SSH Bitbucket Cloud și CLI Git: acces doar în citire pentru agenții AI](/articles/bitbucket-cloud-ssh-keys-git-cli-mcp-agent-automation/).
 
 Documentația Bitbucket numește acest lucru flux de lucru Git CLI. Acest articol nu presupune un server MCP separat Bitbucket sau un produs numit Bitbucket CLI. Un CLI specific Bitbucket necesită propria sa documentație curentă și propria sa revizuire a permisiunilor.
 
@@ -163,10 +163,10 @@ Scrieți clasa țintă, contul remote, depozitul sau comanda intenționată, sur
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: verificare a conectivității doar în citire
+host_key_source: înregistrare aprobată de administrator
+approval_owner: operator desemnat
+rollback: elimină cheia publică și revocă identitatea de test
 ```
 
 **Rezultat așteptat, netestat:** Înregistrarea identifică o singură țintă și o singură operațiune. Înregistrarea nu conține un nume de gazdă, o adresă IP, un token, o cheie privată sau date personale.
@@ -239,7 +239,7 @@ Următoarea secvență arată ordinea fără a utiliza infrastructură reală. A
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# Numai pe macOS sau Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

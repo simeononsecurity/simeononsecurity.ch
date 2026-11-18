@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork i Claude Code amb models locals: guia de configuració 2026"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configura Ollama amb Claude Desktop i Claude Code mitjançant una API compatible amb Anthropic. Revisa els models i les funcions exclusives del núvol el 2026."
@@ -188,7 +188,7 @@ Les crides a eines distingeixen un agent d'un generador de text. Val la pena ver
 Quan Claude Code estigui en marxa, demana-li:
 
 ```text
-Read the current directory and list all files
+Llegeix el directori actual i enumera tots els fitxers
 ```
 
 **Si mostra fitxers reals, les crides a eines funcionen.** Si diu que llegiria el directori i descriu què espera trobar-hi, la funció no està connectada. Parles amb un model de xat amb una instrucció de programació, no amb un agent. Més prompts no ho arreglaran.
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 Dins d'una sessió de Claude Code, `/loop` executa un prompt o una ordre slash amb un interval:
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m Revisa les meves PR obertes i resumeix-ne l’estat
+/loop 1h Investiga les notícies recents d’IA i resumeix-ne els avenços principals
+/loop 15m Revisa les incidències noves de GitHub i prioritza-les
 ```
 
 *Funciona mentre la sessió està oberta. No és un dimoni de fons i s'atura quan acaba la sessió.*

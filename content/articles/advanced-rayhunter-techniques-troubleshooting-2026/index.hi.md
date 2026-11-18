@@ -3,7 +3,7 @@ title: "उन्नत RayHunter 2026: तकनीकें और समस�
 draft: false
 toc: true
 date: 2026-03-10
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 description: "उन्नत RayHunter तकनीकों, समस्या निवारण, कस्टम कॉन्फ़िगरेशन, API एकीकरण और IMSI catcher पहचान कार्यप्रवाह की तकनीकी मार्गदर्शिका।"
 tags: ["Rayhunter", "उन्नत तकनीकें", "समस्या निवारण", "विशेषज्ञ कॉन्फ़िगरेशन", "IMSI catcher", "निगरानी पहचान", "ह्यूरिस्टिक अनुकूलन", "API एकीकरण", "विश्लेषण कार्यप्रवाह", "खतरा मॉडलिंग", "सेलुलर सुरक्षा", "वायरलेस फॉरेंसिक्स", "पहचान अनुकूलन", "कस्टम कॉन्फ़िगरेशन", "उन्नत तैनाती", "सुरक्षा शोध", "नेटवर्क विश्लेषण", "RF विश्लेषण", "निगरानी प्रतिरोध", "गोपनीयता उपकरण"]
 cover: "/img/cover/advanced-rayhunter-techniques-troubleshooting-2026.webp"
@@ -44,15 +44,15 @@ coverCaption: "उन्नत RayHunter तकनीकें: विशेष�
 **घनी आबादी वाले शहरी वातावरण का कॉन्फ़िगरेशन**:
 ```toml
 [heuristics]
-# Reduce sensitivity for busy urban environments
+# व्यस्त शहरी क्षेत्रों में संवेदनशीलता घटाएँ
 connection_release_detection = { enabled = true, sensitivity = "low", timeout = 30 }
 imsi_request_detection = { enabled = true, threshold = 3, window = 60 }
 null_cipher_detection = { enabled = true, immediate_alert = false }
 sib_downgrade_detection = { enabled = true, sensitivity = "medium" }
-incomplete_sib_detection = { enabled = false }  # High false positive rate in urban areas
+incomplete_sib_detection = { enabled = false }  # शहरी क्षेत्रों में गलत सकारात्मक परिणामों की दर अधिक
 
 [filtering]
-# Advanced filtering for urban environments
+# शहरी वातावरण के लिए उन्नत फ़िल्टरिंग
 tower_density_threshold = 20
 legitimate_carrier_whitelist = ["Verizon", "AT&T", "T-Mobile"]
 frequency_hopping_tolerance = 5
@@ -61,7 +61,7 @@ frequency_hopping_tolerance = 5
 **कम आबादी वाले ग्रामीण वातावरण का कॉन्फ़िगरेशन**:
 ```toml
 [heuristics]
-# Increase sensitivity for sparse environments
+# कम आबादी वाले वातावरण में संवेदनशीलता बढ़ाएँ
 connection_release_detection = { enabled = true, sensitivity = "high", timeout = 10 }
 imsi_request_detection = { enabled = true, threshold = 1, window = 30 }
 null_cipher_detection = { enabled = true, immediate_alert = true }
@@ -69,7 +69,7 @@ sib_downgrade_detection = { enabled = true, sensitivity = "high" }
 incomplete_sib_detection = { enabled = true, threshold = 2 }
 
 [filtering]
-# Minimal filtering for rural environments
+# ग्रामीण वातावरण के लिए न्यूनतम फ़िल्टरिंग
 tower_density_threshold = 5
 legitimate_carrier_whitelist = []
 frequency_hopping_tolerance = 1
@@ -78,16 +78,16 @@ frequency_hopping_tolerance = 1
 **उच्च सुरक्षा वाले कार्यक्रम का कॉन्फ़िगरेशन**:
 ```toml
 [heuristics]
-# Maximum sensitivity for high-risk scenarios
+# उच्च-जोखिम परिदृश्यों के लिए अधिकतम संवेदनशीलता
 connection_release_detection = { enabled = true, sensitivity = "maximum", timeout = 5 }
 imsi_request_detection = { enabled = true, threshold = 1, window = 15 }
 null_cipher_detection = { enabled = true, immediate_alert = true, block_connection = true }
 sib_downgrade_detection = { enabled = true, sensitivity = "maximum" }
 incomplete_sib_detection = { enabled = true, threshold = 1 }
-test_heuristic = { enabled = false }  # Never enable test mode during operations
+test_heuristic = { enabled = false }  # ऑपरेशन के दौरान परीक्षण मोड कभी सक्षम न करें
 
 [alerting]
-# Immediate alerts for high-security scenarios
+# उच्च-सुरक्षा परिदृश्यों के लिए तत्काल अलर्ट
 alert_threshold = "low"
 immediate_notification = true
 multi_channel_alerts = true
@@ -100,21 +100,21 @@ multi_channel_alerts = true
 **कस्टम समय विश्लेषण ह्यूरिस्टिक**:
 ```toml
 [custom_heuristics]
-# Custom timing-based detection
+# कस्टम समय-आधारित पहचान
 timing_anomaly_detection = {
     enabled = true,
-    baseline_establishment = 300,  # 5 minutes baseline
-    deviation_threshold = 3.0,     # 3 standard deviations
+    baseline_establishment = 300,  # 5 मिनट की आधाररेखा
+    deviation_threshold = 3.0,     # 3 मानक विचलन
     minimum_samples = 50,
     alert_on_first_deviation = false
 }
 
-# Advanced pattern recognition
+# उन्नत पैटर्न पहचान
 cell_tower_behavior_analysis = {
     enabled = true,
-    learning_period = 3600,        # 1 hour learning
-    pattern_memory = 168,          # 7 days pattern retention
-    anomaly_sensitivity = 0.85,    # 85% confidence threshold
+    learning_period = 3600,        # 1 घंटे तक सीखना
+    pattern_memory = 168,          # पैटर्न 7 दिनों तक रखें
+    anomaly_sensitivity = 0.85,    # विश्वास सीमा 85%
     behavioral_baseline = "adaptive"
 }
 ```
@@ -122,19 +122,19 @@ cell_tower_behavior_analysis = {
 **भौगोलिक सहसंबंध ह्यूरिस्टिक**:
 ```toml
 [geo_correlation]
-# Location-based threat assessment
+# स्थान-आधारित खतरा आकलन
 enabled = true
-gps_accuracy_threshold = 10        # 10 meter accuracy required
-movement_speed_threshold = 50      # 50 km/h maximum reasonable speed
-stationary_threshold = 100         # 100 meter stationary radius
+gps_accuracy_threshold = 10        # 10 मीटर की सटीकता आवश्यक
+movement_speed_threshold = 50      # अधिकतम उचित गति 50 किमी/घंटा
+stationary_threshold = 100         # स्थिरता की त्रिज्या 100 मीटर
 suspicious_location_database = "/data/rayhunter/suspicious_locations.db"
 
-# Coordinated detection across multiple devices
+# कई डिवाइसों में समन्वित पहचान
 multi_device_correlation = {
     enabled = true,
-    correlation_radius = 1000,     # 1km correlation radius
-    time_synchronization = 5,      # 5 second time sync tolerance
-    consensus_threshold = 0.67     # 67% of devices must agree
+    correlation_radius = 1000,     # सहसंबंध की त्रिज्या 1 किमी
+    time_synchronization = 5,      # समय सिंक सहनशीलता 5 सेकंड
+    consensus_threshold = 0.67     # 67% डिवाइसों की सहमति आवश्यक
 }
 ```
 
@@ -145,20 +145,20 @@ multi_device_correlation = {
 **अनुकूली बिजली प्रबंधन**:
 ```toml
 [power_management]
-# Dynamic power scaling based on threat level
+# खतरे के स्तर के आधार पर गतिशील पावर स्केलिंग
 adaptive_scaling = true
 baseline_power_mode = "balanced"
 high_alert_power_mode = "maximum_performance"
 low_activity_power_mode = "extended_battery"
 
-# Scheduled operation modes
+# निर्धारित ऑपरेशन मोड
 scheduled_modes = [
     { time = "00:00-06:00", mode = "low_power", days = ["monday", "tuesday", "wednesday", "thursday", "friday"] },
     { time = "06:00-22:00", mode = "high_sensitivity", days = ["saturday", "sunday"] },
     { time = "22:00-24:00", mode = "balanced", days = "all" }
 ]
 
-# Battery-level triggered mode changes
+# बैटरी स्तर से ट्रिगर होने वाले मोड परिवर्तन
 battery_thresholds = {
     "90%" = "maximum_performance",
     "50%" = "balanced",
@@ -170,18 +170,18 @@ battery_thresholds = {
 **कई उपकरणों के बिजली प्रबंधन का समन्वय**:
 ```toml
 [coordinated_power]
-# Coordinate power management across multiple devices
+# कई डिवाइसों में पावर प्रबंधन समन्वित करें
 device_roles = ["primary", "secondary", "backup"]
 role_switching_enabled = true
 battery_level_sharing = true
 automatic_failover = true
 
-# Advanced sleep/wake coordination
+# उन्नत स्लीप/वेक समन्वय
 coordinated_sleep_cycles = {
     enabled = true,
-    sleep_rotation_interval = 300,  # 5 minutes
+    sleep_rotation_interval = 300,  # 5 मिनट
     minimum_active_devices = 2,
-    overlap_period = 30             # 30 seconds overlap
+    overlap_period = 30             # 30 सेकंड का ओवरलैप
 }
 ```
 
@@ -196,39 +196,39 @@ coordinated_sleep_cycles = {
 **बैच विश्लेषण कार्यप्रवाह**:
 ```bash
 #!/bin/bash
-# Advanced batch analysis script for multiple recordings
+# कई रिकॉर्डिंग के लिए उन्नत बैच विश्लेषण स्क्रिप्ट
 
 ANALYSIS_DIR="/data/rayhunter/analysis"
 RECORDINGS_DIR="/data/rayhunter/recordings"
 OUTPUT_DIR="/data/rayhunter/reports"
 
-# Process all recordings with custom parameters
+# कस्टम पैरामीटर के साथ सभी रिकॉर्डिंग संसाधित करें
 for recording in "$RECORDINGS_DIR"/*.qmdl; do
     filename=$(basename "$recording" .qmdl)
-    echo "Processing $filename..."
-    
-    # Standard analysis
+    echo "$filename पर काम हो रहा है..."
+
+    # मानक विश्लेषण
     rayhunter-check -p "$recording" --json > "$OUTPUT_DIR/${filename}_standard.json"
-    
-    # Debug analysis with extended output
+
+    # विस्तृत आउटपुट के साथ डिबग विश्लेषण
     rayhunter-check -d -p "$recording" --verbose > "$OUTPUT_DIR/${filename}_debug.log"
-    
-    # Custom heuristic analysis
+
+    # कस्टम हीयूरिस्टिक विश्लेषण
     rayhunter-check -p "$recording" --config "/etc/rayhunter/custom_analysis.toml" \
         --output-format json > "$OUTPUT_DIR/${filename}_custom.json"
-    
-    # Threat correlation analysis
+
+    # खतरा सहसंबंध विश्लेषण
     rayhunter-check -p "$recording" --correlate-threats \
         --baseline "$ANALYSIS_DIR/baseline.qmdl" > "$OUTPUT_DIR/${filename}_correlation.json"
 done
 
-# Generate consolidated report
+# समेकित रिपोर्ट बनाएँ
 python3 /opt/rayhunter/analysis/consolidate_reports.py "$OUTPUT_DIR" > "$OUTPUT_DIR/consolidated_analysis.html"
 ```
 
 **उन्नत फ़िल्टरिंग और विश्लेषण**:
 ```bash
-# Custom analysis with specific focus areas
+# विशिष्ट फ़ोकस क्षेत्रों के साथ कस्टम विश्लेषण
 rayhunter-check -p recording.qmdl \
     --focus-heuristics "imsi_request,null_cipher" \
     --time-range "14:30-15:45" \
@@ -236,13 +236,13 @@ rayhunter-check -p recording.qmdl \
     --operator-filter "unknown" \
     --confidence-threshold 0.8
 
-# Comparative analysis between recordings
+# रिकॉर्डिंग के बीच तुलनात्मक विश्लेषण
 rayhunter-check --compare recording1.qmdl recording2.qmdl \
     --baseline-period 300 \
     --anomaly-detection \
     --statistical-analysis
 
-# Integration with external tools
+# बाहरी टूल के साथ एकीकरण
 rayhunter-check -p recording.qmdl --export-wireshark | \
     tshark -r - -Y "gsm || lte" -T json > cellular_traffic.json
 ```
@@ -253,8 +253,8 @@ rayhunter-check -p recording.qmdl --export-wireshark | \
 ```python
 #!/usr/bin/env python3
 """
-Advanced RayHunter Analysis Integration
-Provides sophisticated analysis capabilities for RayHunter data
+RayHunter उन्नत विश्लेषण एकीकरण
+RayHunter डेटा के लिए उन्नत विश्लेषण क्षमताएँ प्रदान करता है
 """
 
 import json
@@ -269,13 +269,13 @@ class RayHunterAnalyzer:
     def __init__(self, database_path="/data/rayhunter/analysis.db"):
         self.db_path = database_path
         self.init_database()
-    
+
     def init_database(self):
-        """Initialize analysis database with custom schema"""
+        """विश्लेषण डेटाबेस को कस्टम स्कीमा के साथ शुरू करें"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        # Create advanced analysis tables
+
+        # उन्नत विश्लेषण तालिकाएँ बनाएँ
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS threat_events (
                 id INTEGER PRIMARY KEY,
@@ -289,7 +289,7 @@ class RayHunterAnalyzer:
                 correlated_events TEXT
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS baseline_data (
                 id INTEGER PRIMARY KEY,
@@ -301,16 +301,16 @@ class RayHunterAnalyzer:
                 anomaly_thresholds TEXT
             )
         ''')
-        
+
         conn.commit()
         conn.close()
-    
+
     def process_rayhunter_json(self, json_file_path):
-        """Process RayHunter JSON output for advanced analysis"""
+        """उन्नत विश्लेषण के लिए RayHunter JSON आउटपुट प्रोसेस करें"""
         with open(json_file_path, 'r') as f:
             data = json.load(f)
-        
-        # Extract and normalize threat events
+
+        # खतरे की घटनाएँ निकालें और सामान्यीकृत करें
         events = []
         for alert in data.get('alerts', []):
             event = {
@@ -321,37 +321,37 @@ class RayHunterAnalyzer:
                 'device_location': alert.get('location', {})
             }
             events.append(event)
-        
+
         return events
-    
+
     def calculate_confidence_score(self, alert):
-        """Calculate advanced confidence score based on multiple factors"""
+        """कई कारकों के आधार पर उन्नत विश्वास स्कोर की गणना करें"""
         base_confidence = alert.get('confidence', 0.5)
-        
-        # Factor in multiple data points
+
+        # कई डेटा बिंदुओं को ध्यान में रखें
         factors = {
             'signal_strength': alert.get('signal_strength', 0) / 100,
             'timing_consistency': alert.get('timing_score', 0.5),
             'protocol_compliance': alert.get('protocol_score', 0.5),
             'environmental_context': alert.get('environment_score', 0.5)
         }
-        
-        # Weighted confidence calculation
-        weights = {'signal_strength': 0.3, 'timing_consistency': 0.25, 
+
+        # भारित विश्वास गणना
+        weights = {'signal_strength': 0.3, 'timing_consistency': 0.25,
                   'protocol_compliance': 0.25, 'environmental_context': 0.2}
-        
+
         weighted_confidence = sum(factors[k] * weights[k] for k in factors)
         return min(base_confidence + weighted_confidence, 1.0)
-    
+
     def correlation_analysis(self, events, time_window=300):
-        """Perform temporal and spatial correlation analysis"""
+        """समय और स्थान के आधार पर सहसंबंध विश्लेषण करें"""
         correlations = []
-        
+
         for i, event1 in enumerate(events):
             for j, event2 in enumerate(events[i+1:], i+1):
-                time_diff = abs((datetime.fromisoformat(event1['timestamp']) - 
+                time_diff = abs((datetime.fromisoformat(event1['timestamp']) -
                                datetime.fromisoformat(event2['timestamp'])).total_seconds())
-                
+
                 if time_diff <= time_window:
                     correlation = {
                         'event1_id': i,
@@ -361,46 +361,46 @@ class RayHunterAnalyzer:
                         'threat_escalation': self.assess_threat_escalation(event1, event2)
                     }
                     correlations.append(correlation)
-        
+
         return correlations
-    
+
     def calculate_correlation_strength(self, event1, event2):
-        """Calculate correlation strength between two events"""
-        # Implement sophisticated correlation algorithm
+        """दो घटनाओं के बीच सहसंबंध की ताकत की गणना करें"""
+        # उन्नत सहसंबंध एल्गोरिदम लागू करें
         similarity_factors = []
-        
-        # Threat type similarity
+
+        # खतरे के प्रकार की समानता
         if event1['threat_type'] == event2['threat_type']:
             similarity_factors.append(0.4)
         elif self.are_related_threats(event1['threat_type'], event2['threat_type']):
             similarity_factors.append(0.2)
-        
-        # Confidence score similarity
+
+        # विश्वास स्कोर की समानता
         confidence_diff = abs(event1['confidence_score'] - event2['confidence_score'])
         similarity_factors.append(1.0 - confidence_diff)
-        
+
         return np.mean(similarity_factors)
-    
+
     def generate_threat_report(self, analysis_period_hours=24):
-        """Generate comprehensive threat assessment report"""
+        """खतरे के आकलन की व्यापक रिपोर्ट तैयार करें"""
         end_time = datetime.now()
         start_time = end_time - timedelta(hours=analysis_period_hours)
-        
-        # Query database for recent events
+
+        # हाल की घटनाओं के लिए डेटाबेस क्वेरी करें
         conn = sqlite3.connect(self.db_path)
         query = '''
-            SELECT * FROM threat_events 
+            SELECT * FROM threat_events
             WHERE timestamp BETWEEN ? AND ?
             ORDER BY timestamp DESC
         '''
-        
+
         df = pd.read_sql_query(query, conn, params=(start_time.isoformat(), end_time.isoformat()))
         conn.close()
-        
+
         if df.empty:
             return {"status": "no_threats", "period": analysis_period_hours}
-        
-        # Generate statistical analysis
+
+        # सांख्यिकीय विश्लेषण बनाएँ
         threat_stats = {
             'total_events': len(df),
             'unique_threat_types': df['threat_type'].nunique(),
@@ -409,7 +409,7 @@ class RayHunterAnalyzer:
             'temporal_patterns': self.analyze_temporal_patterns(df),
             'risk_assessment': self.calculate_risk_level(df)
         }
-        
+
         return threat_stats
 ```
 
@@ -423,8 +423,8 @@ class RayHunterAnalyzer:
 ```python
 #!/usr/bin/env python3
 """
-Enterprise RayHunter Monitoring System
-Automated threat detection and response integration
+एंटरप्राइज़ RayHunter निगरानी प्रणाली
+स्वचालित खतरा पहचान और प्रतिक्रिया का एकीकरण
 """
 
 import requests
@@ -441,9 +441,9 @@ class RayHunterMonitor:
         self.devices = device_configs
         self.alert_handlers = []
         self.setup_logging()
-    
+
     def setup_logging(self):
-        """Configure enterprise-grade logging"""
+        """एंटरप्राइज़-स्तरीय लॉगिंग कॉन्फ़िगर करें"""
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -453,33 +453,33 @@ class RayHunterMonitor:
             ]
         )
         self.logger = logging.getLogger('RayHunterMonitor')
-    
+
     def monitor_devices(self, poll_interval=30):
-        """Continuous monitoring of multiple RayHunter devices"""
+        """कई RayHunter डिवाइसों की लगातार निगरानी"""
         while True:
             for device_name, config in self.devices.items():
                 try:
                     device_status = self.check_device_status(config)
                     alerts = self.get_recent_alerts(config)
-                    
+
                     if alerts:
                         self.process_alerts(device_name, alerts)
-                    
+
                     self.log_device_status(device_name, device_status)
-                    
+
                 except Exception as e:
-                    self.logger.error(f"Error monitoring device {device_name}: {e}")
-            
+                    self.logger.error(f"डिवाइस {device_name} की निगरानी में त्रुटि: {e}")
+
             time.sleep(poll_interval)
-    
+
     def check_device_status(self, config):
-        """Check comprehensive device status via API"""
+        """API के माध्यम से डिवाइस की पूरी स्थिति जाँचें"""
         api_url = f"http://{config['ip']}:8080/api/status"
-        
+
         try:
             response = requests.get(api_url, timeout=10)
             response.raise_for_status()
-            
+
             status_data = response.json()
             return {
                 'online': True,
@@ -490,65 +490,65 @@ class RayHunterMonitor:
                 'heuristics_enabled': status_data.get('active_heuristics')
             }
         except requests.RequestException as e:
-            self.logger.warning(f"Device {config['ip']} unreachable: {e}")
+            self.logger.warning(f"डिवाइस {config['ip']} तक पहुँचना संभव नहीं: {e}")
             return {'online': False, 'error': str(e)}
-    
+
     def get_recent_alerts(self, config, minutes=5):
-        """Retrieve recent alerts from device"""
+        """डिवाइस से हाल की चेतावनियाँ प्राप्त करें"""
         api_url = f"http://{config['ip']}:8080/api/alerts"
         params = {'since': f"{minutes}min"}
-        
+
         try:
             response = requests.get(api_url, params=params, timeout=10)
             response.raise_for_status()
             return response.json().get('alerts', [])
         except requests.RequestException:
             return []
-    
+
     def process_alerts(self, device_name, alerts):
-        """Process and respond to alerts"""
+        """चेतावनियों को प्रोसेस करें और उन पर कार्रवाई करें"""
         for alert in alerts:
             alert_level = self.assess_alert_severity(alert)
-            
+
             if alert_level == 'CRITICAL':
                 self.handle_critical_alert(device_name, alert)
             elif alert_level == 'HIGH':
                 self.handle_high_alert(device_name, alert)
             elif alert_level == 'MEDIUM':
                 self.handle_medium_alert(device_name, alert)
-            
-            # Log all alerts
-            self.logger.info(f"Alert from {device_name}: {alert['heuristic']} - {alert_level}")
-    
+
+            # सभी अलर्ट लॉग करें
+            self.logger.info(f"{device_name} से चेतावनी: {alert['heuristic']} - {alert_level}")
+
     def assess_alert_severity(self, alert):
-        """Assess alert severity based on multiple factors"""
+        """कई कारकों के आधार पर चेतावनी की गंभीरता का आकलन करें"""
         threat_type = alert.get('heuristic', '')
         confidence = alert.get('confidence_score', 0)
-        
-        # Critical threats
+
+        # गंभीर खतरे
         if threat_type in ['null_cipher_detection', 'imsi_request_detection'] and confidence > 0.9:
             return 'CRITICAL'
-        
-        # High severity threats
+
+        # उच्च गंभीरता वाले खतरे
         elif threat_type in ['connection_release_detection', 'sib_downgrade_detection'] and confidence > 0.8:
             return 'HIGH'
-        
-        # Medium severity
+
+        # मध्यम गंभीरता
         elif confidence > 0.6:
             return 'MEDIUM'
-        
+
         return 'LOW'
-    
+
     def handle_critical_alert(self, device_name, alert):
-        """Handle critical security alerts with immediate response"""
-        # Send immediate notifications
-        self.send_sms_alert(f"CRITICAL: IMSI catcher detected by {device_name}")
-        self.send_email_alert("CRITICAL THREAT", device_name, alert)
-        
-        # Execute automated response
+        """गंभीर सुरक्षा चेतावनियों पर तुरंत कार्रवाई करें"""
+        # तत्काल सूचनाएँ भेजें
+        self.send_sms_alert(f"गंभीर: {device_name} ने IMSI कैचर का पता लगाया")
+        self.send_email_alert("गंभीर खतरा", device_name, alert)
+
+        # स्वचालित प्रतिक्रिया लागू करें
         subprocess.run(['/opt/security/scripts/critical_response.sh', device_name])
-        
-        # Log to SIEM
+
+        # SIEM में लॉग करें
         self.log_to_siem('CRITICAL', device_name, alert)
 ```
 
@@ -557,9 +557,9 @@ class RayHunterMonitor:
 **SIEM एकीकरण स्क्रिप्ट**:
 ```python
 def integrate_with_siem(self, alert_data):
-    """Integration with enterprise SIEM systems"""
-    
-    # Splunk integration
+    """एंटरप्राइज़ SIEM सिस्टम के साथ एकीकरण"""
+
+    # Splunk एकीकरण
     splunk_data = {
         'sourcetype': 'rayhunter:alert',
         'source': f"rayhunter:{alert_data['device_name']}",
@@ -572,19 +572,19 @@ def integrate_with_siem(self, alert_data):
             'severity': alert_data['severity']
         }
     }
-    
-    # Send to Splunk HEC
+
+    # Splunk HEC पर भेजें
     requests.post(
         'https://splunk.company.com:8088/services/collector',
         headers={'Authorization': 'Splunk <HEC-TOKEN>'},
         json=splunk_data
     )
-    
-    # QRadar integration via syslog
-    syslog_message = f"RayHunter ALERT: {alert_data['heuristic']} detected " \
-                    f"with confidence {alert_data['confidence_score']:.2f} " \
-                    f"on device {alert_data['device_name']}"
-    
+
+    # syslog के ज़रिए QRadar एकीकरण
+    syslog_message = f"RayHunter चेतावनी: {alert_data['heuristic']} का पता चला " \
+                    f"विश्वास स्तर {alert_data['confidence_score']:.2f} " \
+                    f"डिवाइस {alert_data['device_name']} पर"
+
     subprocess.run([
         'logger', '-p', 'local0.alert', '-t', 'RayHunter', syslog_message
     ])
@@ -601,7 +601,7 @@ def integrate_with_siem(self, alert_data):
 **मास्टर-स्लेव कॉन्फ़िगरेशन**:
 ```toml
 [coordination]
-# Master device configuration
+# मास्टर डिवाइस कॉन्फ़िगरेशन
 role = "master"
 slave_devices = [
     { ip = "192.168.1.101", name = "rayhunter-north", priority = 1 },
@@ -609,14 +609,14 @@ slave_devices = [
     { ip = "192.168.1.103", name = "rayhunter-west", priority = 3 }
 ]
 
-# Coordination settings
-sync_interval = 30              # Sync every 30 seconds
-correlation_window = 60         # 1 minute correlation window
-consensus_threshold = 0.67      # 67% agreement required for alert
+# समन्वय सेटिंग
+sync_interval = 30              # हर 30 सेकंड में सिंक करें
+correlation_window = 60         # 1 मिनट की सहसंबंध विंडो
+consensus_threshold = 0.67      # अलर्ट के लिए 67% सहमति आवश्यक
 automatic_failover = true
-heartbeat_timeout = 120         # 2 minutes heartbeat timeout
+heartbeat_timeout = 120         # हार्टबीट टाइमआउट 2 मिनट
 
-# Alert distribution
+# अलर्ट वितरण
 distribute_alerts = true
 alert_consolidation = true
 duplicate_suppression = true
@@ -626,15 +626,15 @@ cross_validation_required = true
 **स्लेव उपकरण कॉन्फ़िगरेशन**:
 ```toml
 [coordination]
-# Slave device configuration
+# स्लेव डिवाइस कॉन्फ़िगरेशन
 role = "slave"
 master_device = { ip = "192.168.1.100", name = "rayhunter-master" }
 
-# Reporting settings
-report_interval = 15            # Report every 15 seconds
-include_negative_results = true # Report lack of threats too
-local_decision_making = false   # Defer to master
-emergency_autonomous_mode = true # Act independently if master unavailable
+# रिपोर्टिंग सेटिंग
+report_interval = 15            # हर 15 सेकंड में रिपोर्ट करें
+include_negative_results = true # खतरे न होने की स्थिति भी रिपोर्ट करें
+local_decision_making = false   # मास्टर के निर्देश मानें
+emergency_autonomous_mode = true # मास्टर उपलब्ध न हो तो स्वतंत्र रूप से काम करें
 ```
 
 ### समन्वित विश्लेषण स्क्रिप्ट
@@ -643,8 +643,8 @@ emergency_autonomous_mode = true # Act independently if master unavailable
 ```python
 #!/usr/bin/env python3
 """
-Multi-Device RayHunter Coordination System
-Provides coordinated threat detection across multiple devices
+बहु-डिवाइस RayHunter समन्वय प्रणाली
+कई डिवाइसों में समन्वित खतरा पहचान प्रदान करता है
 """
 
 import asyncio
@@ -658,48 +658,48 @@ class CoordinatedDetectionSystem:
         self.devices = device_network
         self.correlation_matrix = {}
         self.active_threats = {}
-        
+
     async def coordinate_detection(self):
-        """Main coordination loop"""
+        """मुख्य समन्वय लूप"""
         while True:
-            # Collect data from all devices
+            # सभी डिवाइसों से डेटा एकत्र करें
             device_data = await self.collect_device_data()
-            
-            # Perform correlation analysis
+
+            # सहसंबंध विश्लेषण करें
             correlated_threats = self.correlate_threats(device_data)
-            
-            # Validate threats through consensus
+
+            # सहमति के ज़रिए खतरों को मान्य करें
             validated_threats = self.consensus_validation(correlated_threats)
-            
-            # Distribute validated threats back to devices
+
+            # सत्यापित खतरों को डिवाइसों पर वापस वितरित करें
             await self.distribute_threat_intelligence(validated_threats)
-            
-            await asyncio.sleep(30)  # 30-second coordination cycle
-    
+
+            await asyncio.sleep(30)  # 30 सेकंड का समन्वय चक्र
+
     async def collect_device_data(self):
-        """Collect data from all devices in parallel"""
+        """सभी डिवाइसों से डेटा एकत्र करें समानांतर रूप से"""
         tasks = []
         for device in self.devices:
             task = self.get_device_data(device)
             tasks.append(task)
-        
+
         results = await asyncio.gather(*tasks, return_exceptions=True)
         return {device['name']: result for device, result in zip(self.devices, results)}
-    
+
     async def get_device_data(self, device):
-        """Get data from individual device"""
+        """एक डिवाइस से डेटा प्राप्त करें"""
         async with aiohttp.ClientSession() as session:
             try:
-                # Get recent alerts
+                # हाल के अलर्ट देखें
                 alerts_url = f"http://{device['ip']}:8080/api/alerts?since=1min"
                 async with session.get(alerts_url) as response:
                     alerts_data = await response.json()
-                
-                # Get device status
+
+                # डिवाइस की स्थिति देखें
                 status_url = f"http://{device['ip']}:8080/api/status"
                 async with session.get(status_url) as response:
                     status_data = await response.json()
-                
+
                 return {
                     'alerts': alerts_data.get('alerts', []),
                     'status': status_data,
@@ -707,79 +707,79 @@ class CoordinatedDetectionSystem:
                 }
             except Exception as e:
                 return {'error': str(e), 'timestamp': datetime.now().isoformat()}
-    
+
     def correlate_threats(self, device_data):
-        """Correlate threats across multiple devices"""
+        """कई डिवाइसों में खतरों का सहसंबंध करें"""
         correlated_threats = []
-        
-        # Extract all alerts from all devices
+
+        # सभी डिवाइसों से सभी अलर्ट निकालें
         all_alerts = []
         for device_name, data in device_data.items():
             if 'alerts' in data:
                 for alert in data['alerts']:
                     alert['source_device'] = device_name
                     all_alerts.append(alert)
-        
-        # Group alerts by time and threat type
+
+        # समय और खतरे के प्रकार के अनुसार अलर्ट समूहित करें
         threat_groups = self.group_alerts_by_similarity(all_alerts)
-        
+
         for group in threat_groups:
-            if len(group) >= 2:  # Multiple devices detected similar threats
+            if len(group) >= 2:  # कई डिवाइसों ने समान खतरों का पता लगाया
                 correlated_threat = self.create_correlated_threat(group)
                 correlated_threats.append(correlated_threat)
-        
+
         return correlated_threats
-    
+
     def group_alerts_by_similarity(self, alerts, time_window=60):
-        """Group alerts by temporal and threat similarity"""
+        """समय और खतरे की समानता के आधार पर चेतावनियों को समूहित करें"""
         groups = []
         processed_alerts = set()
-        
+
         for i, alert1 in enumerate(alerts):
             if i in processed_alerts:
                 continue
-                
+
             group = [alert1]
             processed_alerts.add(i)
-            
+
             alert1_time = datetime.fromisoformat(alert1['timestamp'])
-            
+
             for j, alert2 in enumerate(alerts[i+1:], i+1):
                 if j in processed_alerts:
                     continue
-                
+
                 alert2_time = datetime.fromisoformat(alert2['timestamp'])
                 time_diff = abs((alert1_time - alert2_time).total_seconds())
-                
-                if (time_diff <= time_window and 
+
+                if (time_diff <= time_window and
                     alert1['heuristic'] == alert2['heuristic'] and
                     alert1['source_device'] != alert2['source_device']):
-                    
+
                     group.append(alert2)
                     processed_alerts.add(j)
-            
+
             groups.append(group)
-        
+
         return groups
-    
+
     def consensus_validation(self, correlated_threats):
-        """Validate threats through device consensus"""
+        """डिवाइसों की सहमति से खतरों की पुष्टि करें"""
         validated_threats = []
-        
+
         for threat in correlated_threats:
             device_count = len(set(alert['source_device'] for alert in threat['constituent_alerts']))
             confidence_scores = [alert['confidence_score'] for alert in threat['constituent_alerts']]
-            
-            # Require minimum number of devices and confidence threshold
-            if (device_count >= 2 and 
+
+            # डिवाइसों की न्यूनतम संख्या और विश्वास सीमा आवश्यक करें
+            if (device_count >= 2 and
                 np.mean(confidence_scores) >= 0.7 and
                 min(confidence_scores) >= 0.5):
-                
+
                 threat['validated'] = True
                 threat['consensus_strength'] = device_count / len(self.devices)
                 threat['confidence_score'] = np.mean(confidence_scores)
                 validated_threats.append(threat)
-        
+
         return validated_threats
 ```
 
@@ -792,105 +792,105 @@ class CoordinatedDetectionSystem:
 **अधिक CPU उपयोग का समस्या निवारण**:
 ```bash
 #!/bin/bash
-# RayHunter performance troubleshooting script
+# RayHunter प्रदर्शन समस्या-समाधान स्क्रिप्ट
 
-echo "=== RayHunter Performance Analysis ==="
+echo "=== RayHunter प्रदर्शन विश्लेषण ==="
 
-# Check CPU usage
-echo "Current CPU usage:"
+# CPU उपयोग जाँचें
+echo "वर्तमान CPU उपयोग:"
 top -bn1 | grep rayhunter
 
-# Check memory usage
-echo -e "\nMemory usage:"
+# मेमोरी उपयोग जाँचें
+echo -e "\nमेमोरी उपयोग:"
 ps aux | grep rayhunter | awk '{print $4, $6, $11}'
 
-# Check disk I/O
-echo -e "\nDisk I/O:"
+# डिस्क I/O जाँचें
+echo -e "\nडिस्क I/O:"
 iotop -a -o -d1 -n3 | grep rayhunter
 
-# Analyze configuration issues
-echo -e "\nConfiguration analysis:"
+# कॉन्फ़िगरेशन समस्याओं का विश्लेषण करें
+echo -e "\nकॉन्फ़िगरेशन विश्लेषण:"
 if [ -f /data/rayhunter/config.toml ]; then
-    # Check for resource-intensive configurations
+    # अधिक संसाधन लेने वाले कॉन्फ़िगरेशन जाँचें
     grep -E "test_heuristic.*true|sensitivity.*maximum|debug.*true" /data/rayhunter/config.toml
-    
-    # Check recording settings
+
+    # रिकॉर्डिंग सेटिंग जाँचें
     grep -E "recording|storage" /data/rayhunter/config.toml
 else
-    echo "Config file not found!"
+    echo "कॉन्फ़िगरेशन फ़ाइल नहीं मिली!"
 fi
 
-# Check for excessive logging
-echo -e "\nLog file sizes:"
+# अत्यधिक लॉगिंग की जाँच करें
+echo -e "\nलॉग फ़ाइलों के आकार:"
 du -sh /data/rayhunter/logs/*
 
-# Network performance check
-echo -e "\nNetwork performance:"
+# नेटवर्क प्रदर्शन जाँचें
+echo -e "\nनेटवर्क प्रदर्शन:"
 netstat -i | grep -E "wlan|eth"
 
-# Generate optimization recommendations
-echo -e "\n=== Optimization Recommendations ==="
+# अनुकूलन संबंधी सुझाव बनाएँ
+echo -e "\n=== अनुकूलन सुझाव ==="
 
-# Check if test heuristic is enabled
+# जाँचें कि परीक्षण हीयूरिस्टिक सक्षम है या नहीं
 if grep -q "test_heuristic.*=.*true" /data/rayhunter/config.toml; then
-    echo "⚠️  Test heuristic is enabled - disable for production use"
+    echo "⚠️ टेस्ट हीयूरिस्टिक चालू है; उत्पादन में इसे बंद करें"
 fi
 
-# Check sensitivity settings
+# संवेदनशीलता सेटिंग जाँचें
 if grep -q "sensitivity.*=.*\"maximum\"" /data/rayhunter/config.toml; then
-    echo "⚠️  Maximum sensitivity may cause high CPU usage in dense environments"
+    echo "⚠️ घने वातावरण में अधिकतम संवेदनशीलता से CPU उपयोग बढ़ सकता है"
 fi
 
-# Check storage settings
+# स्टोरेज सेटिंग जाँचें
 STORAGE_USED=$(df -h /data/rayhunter | awk 'NR==2 {print $5}' | sed 's/%//')
 if [ "$STORAGE_USED" -gt 80 ]; then
-    echo "⚠️  Storage usage is ${STORAGE_USED}% - clean up old recordings"
+    echo "⚠️ स्टोरेज उपयोग ${STORAGE_USED}%; पुरानी रिकॉर्डिंग हटाएँ"
 fi
 ```
 
 **मेमोरी लीक का पता लगाना और समाधान**:
 ```bash
 #!/bin/bash
-# Memory leak detection and automatic remediation
+# मेमोरी लीक पहचानें और अपने-आप ठीक करें
 
-MEMORY_THRESHOLD=80  # 80% memory usage threshold
+MEMORY_THRESHOLD=80  # मेमोरी उपयोग की सीमा 80%
 LOG_FILE="/var/log/rayhunter/memory_monitor.log"
 
 monitor_memory() {
     while true; do
-        # Get RayHunter memory usage
+        # RayHunter मेमोरी उपयोग देखें
         MEMORY_USAGE=$(ps aux | grep rayhunter-daemon | grep -v grep | awk '{print $4}')
-        
+
         if [ ! -z "$MEMORY_USAGE" ]; then
             MEMORY_PERCENT=$(echo "$MEMORY_USAGE" | cut -d. -f1)
-            
-            echo "$(date): RayHunter memory usage: ${MEMORY_USAGE}%" >> "$LOG_FILE"
-            
+
+            echo "$(date): RayHunter मेमोरी उपयोग: ${MEMORY_USAGE}%" >> "$LOG_FILE"
+
             if [ "$MEMORY_PERCENT" -gt "$MEMORY_THRESHOLD" ]; then
-                echo "$(date): High memory usage detected: ${MEMORY_USAGE}%" >> "$LOG_FILE"
-                
-                # Attempt graceful restart
-                echo "$(date): Attempting graceful restart..." >> "$LOG_FILE"
+                echo "$(date): अधिक मेमोरी उपयोग का पता चला: ${MEMORY_USAGE}%" >> "$LOG_FILE"
+
+                # सुरक्षित ढंग से पुनः आरंभ करने का प्रयास करें
+                echo "$(date): सामान्य तरीके से रीस्टार्ट करने का प्रयास..." >> "$LOG_FILE"
                 systemctl restart rayhunter_daemon
-                
+
                 sleep 30
-                
-                # Verify restart was successful
+
+                # पुष्टि करें कि पुनः आरंभ सफल रहा
                 if pgrep rayhunter-daemon > /dev/null; then
-                    echo "$(date): Graceful restart successful" >> "$LOG_FILE"
+                    echo "$(date): सामान्य रीस्टार्ट सफल हुआ" >> "$LOG_FILE"
                 else
-                    echo "$(date): Graceful restart failed, attempting force restart" >> "$LOG_FILE"
+                    echo "$(date): सामान्य रीस्टार्ट विफल हुआ, ज़बरन रीस्टार्ट का प्रयास किया जा रहा है" >> "$LOG_FILE"
                     killall -9 rayhunter-daemon
                     systemctl start rayhunter_daemon
                 fi
             fi
         fi
-        
-        sleep 60  # Check every minute
+
+        sleep 60  # हर मिनट जाँचें
     done
 }
 
-# Run memory monitoring in background
+# पृष्ठभूमि में मेमोरी मॉनिटरिंग चलाएँ
 monitor_memory &
 ```
 
@@ -899,78 +899,78 @@ monitor_memory &
 **उन्नत कनेक्टिविटी निदान**:
 ```bash
 #!/bin/bash
-# Advanced RayHunter connectivity troubleshooting
+# RayHunter कनेक्टिविटी की उन्नत समस्या-समाधान प्रक्रिया
 
-echo "=== RayHunter Network Diagnostics ==="
+echo "=== RayHunter नेटवर्क निदान ==="
 
-# Check basic connectivity
-echo "1. Basic connectivity check:"
+# बुनियादी कनेक्टिविटी जाँचें
+echo "1. बुनियादी कनेक्टिविटी जाँच:"
 ping -c 3 8.8.8.8 > /dev/null 2>&1
 if [ $? -eq 0 ]; then
-    echo "✓ Internet connectivity: OK"
+    echo "✓ इंटरनेट कनेक्टिविटी: ठीक है"
 else
-    echo "✗ Internet connectivity: FAILED"
+    echo "✗ इंटरनेट कनेक्टिविटी: विफल"
 fi
 
-# Check cellular connection
-echo -e "\n2. Cellular connection analysis:"
+# सेलुलर कनेक्शन जाँचें
+echo -e "\n2. मोबाइल कनेक्शन विश्लेषण:"
 if command -v qmicli &> /dev/null; then
-    # Check modem status
+    # मोडेम की स्थिति जाँचें
     qmicli -d /dev/cdc-wdm0 --dms-get-operating-mode
     qmicli -d /dev/cdc-wdm0 --nas-get-signal-strength
     qmicli -d /dev/cdc-wdm0 --nas-get-serving-system
 else
-    echo "qmicli not available - using alternative methods"
-    
-    # Check network interfaces
+    echo "qmicli उपलब्ध नहीं है, वैकल्पिक तरीकों का उपयोग किया जा रहा है"
+
+    # नेटवर्क इंटरफ़ेस जाँचें
     ip addr show | grep -A 10 wwan
-    
-    # Check routing
+
+    # रूटिंग जाँचें
     ip route show
 fi
 
-# Check RayHunter web interface
-echo -e "\n3. RayHunter web interface check:"
+# RayHunter वेब इंटरफ़ेस जाँचें
+echo -e "\n3. RayHunter वेब इंटरफ़ेस जाँच:"
 for port in 8080 80; do
     if netstat -tuln | grep ":$port " > /dev/null; then
-        echo "✓ Port $port is listening"
-        
-        # Test HTTP response
+        echo "✓ पोर्ट $port सुन रहा है"
+
+        # HTTP प्रतिक्रिया जाँचें
         if curl -s -o /dev/null -w "%{http_code}" "http://localhost:$port" | grep -q "200\|302"; then
-            echo "✓ HTTP service responding on port $port"
+            echo "✓ HTTP सेवा पोर्ट $port पर प्रतिक्रिया दे रही है"
         else
-            echo "✗ HTTP service not responding properly on port $port"
+            echo "✗ HTTP सेवा पोर्ट $port पर ठीक से प्रतिक्रिया नहीं दे रही है"
         fi
     else
-        echo "✗ Port $port is not listening"
+        echo "✗ पोर्ट $port नहीं सुन रहा है"
     fi
 done
 
-# Check cellular diagnostics interface
-echo -e "\n4. Cellular diagnostics interface:"
+# सेलुलर डायग्नोस्टिक इंटरफ़ेस जाँचें
+echo -e "\n4. मोबाइल निदान इंटरफ़ेस:"
 if [ -c /dev/diag ]; then
-    echo "✓ /dev/diag interface available"
+    echo "✓ /dev/diag इंटरफ़ेस उपलब्ध है"
     ls -la /dev/diag
 else
-    echo "✗ /dev/diag interface not available"
-    echo "Checking alternative interfaces:"
+    echo "✗ /dev/diag इंटरफ़ेस उपलब्ध नहीं है"
+    echo "वैकल्पिक इंटरफ़ेस जाँचे जा रहे हैं:"
     ls -la /dev/ | grep -E "ttyUSB|cdc-wdm|qcserial"
 fi
 
-# Advanced network analysis
-echo -e "\n5. Advanced network analysis:"
+# उन्नत नेटवर्क विश्लेषण
+echo -e "\n5. उन्नत नेटवर्क विश्लेषण:"
 
-# Check APN settings
-echo "Current APN configuration:"
-grep -r "apn" /etc/NetworkManager/system-connections/ 2>/dev/null || echo "No APN config found"
+# APN सेटिंग जाँचें
+echo "वर्तमान APN कॉन्फ़िगरेशन:"
+grep -r "apn" /etc/NetworkManager/system-connections/ 2>/dev/null || echo "कोई APN कॉन्फ़िगरेशन नहीं मिला"
 
-# Check DNS resolution
-echo "DNS resolution test:"
+# DNS रिज़ॉल्यूशन जाँचें
+echo "DNS रिज़ॉल्यूशन परीक्षण:"
 nslookup google.com | head -5
 
-# Check firewall rules
-echo "Firewall rules affecting RayHunter:"
-iptables -L | grep -E "8080|rayhunter" || echo "No specific firewall rules found"
+# फ़ायरवॉल नियम जाँचें
+echo "RayHunter को प्रभावित करने वाले फ़ायरवॉल नियम:"
+iptables -L | grep -E "8080|rayhunter" || echo "कोई विशिष्ट फ़ायरवॉल नियम नहीं मिला"
 ```
 
 #### उपकरण-विशिष्ट समस्या निवारण
@@ -978,66 +978,66 @@ iptables -L | grep -E "8080|rayhunter" || echo "No specific firewall rules found
 **Orbic RC400L का उन्नत समस्या निवारण**:
 ```bash
 #!/bin/bash
-# Orbic RC400L specific troubleshooting procedures
+# Orbic RC400L की विशिष्ट समस्या-समाधान प्रक्रियाएँ
 
-echo "=== Orbic RC400L Advanced Diagnostics ==="
+echo "=== Orbic RC400L उन्नत निदान ==="
 
-# Check bootloader and system partition status
-echo "1. System partition analysis:"
+# बूटलोडर और सिस्टम पार्टीशन की स्थिति जाँचें
+echo "1. सिस्टम पार्टिशन विश्लेषण:"
 df -h | grep -E "/system|/data|/usrdata"
 
-# Check Android subsystem
-echo -e "\n2. Android subsystem check:"
+# Android सबसिस्टम जाँचें
+echo -e "\n2. Android सबसिस्टम जाँच:"
 if command -v adb &> /dev/null; then
     adb devices
     if adb devices | grep -q "device$"; then
-        echo "✓ ADB connection available"
-        
-        # Check system properties
+        echo "✓ ADB कनेक्शन उपलब्ध है"
+
+        # सिस्टम गुण जाँचें
         adb shell getprop | grep -E "ro.build|persist.vendor"
-        
-        # Check running processes
+
+        # चल रही प्रक्रियाएँ जाँचें
         adb shell ps | grep rayhunter
-        
-        # Check system logs
-        echo "Recent system errors:"
+
+        # सिस्टम लॉग जाँचें
+        echo "हाल की सिस्टम त्रुटियाँ:"
         adb logcat -d | grep -E "ERROR|FATAL" | tail -10
     else
-        echo "✗ No ADB connection available"
+        echo "✗ ADB कनेक्शन उपलब्ध नहीं है"
     fi
 else
-    echo "ADB not available - using alternative methods"
+    echo "ADB उपलब्ध नहीं है, वैकल्पिक तरीकों का उपयोग किया जा रहा है"
 fi
 
-# Check modem firmware
-echo -e "\n3. Modem firmware analysis:"
+# मोडेम फ़र्मवेयर जाँचें
+echo -e "\n3. मॉडेम फ़र्मवेयर विश्लेषण:"
 if [ -c /dev/diag ]; then
-    # Use custom tool to query modem firmware
+    # मोडेम फ़र्मवेयर क्वेरी करने के लिए कस्टम टूल इस्तेमाल करें
     python3 << 'EOF'
 import serial
 import struct
 import time
 
 try:
-    # Open diagnostic interface
+    # डायग्नोस्टिक इंटरफ़ेस खोलें
     diag = serial.Serial('/dev/diag', 115200, timeout=1)
-    
-    # Query firmware version (simplified)
-    # This would require proper DIAG protocol implementation
-    print("Modem diagnostic interface accessible")
+
+    # फ़र्मवेयर संस्करण की सरल क्वेरी करें
+    # इसके लिए DIAG प्रोटोकॉल का उचित कार्यान्वयन आवश्यक होगा
+    print("मॉडेम निदान इंटरफ़ेस उपलब्ध है")
     diag.close()
 except Exception as e:
-    print(f"Modem diagnostic access failed: {e}")
+    print(f"मॉडेम निदान तक पहुँच विफल: {e}")
 EOF
 fi
 
-# Check carrier-specific issues
-echo -e "\n4. Carrier configuration check:"
-echo "Current band preferences:"
+# कैरियर-विशिष्ट समस्याएँ जाँचें
+echo -e "\n4. कैरियर कॉन्फ़िगरेशन जाँच:"
+echo "वर्तमान बैंड प्राथमिकताएँ:"
 cat /data/rayhunter/config.toml | grep -A 5 -B 5 "band"
 
-echo "Network registration status:"
-# Check registration with all available carriers
+echo "नेटवर्क पंजीकरण स्थिति:"
+# सभी उपलब्ध कैरियरों पर पंजीकरण जाँचें
 if command -v qmicli &> /dev/null; then
     qmicli -d /dev/cdc-wdm0 --nas-get-home-network
     qmicli -d /dev/cdc-wdm0 --nas-get-preferred-networks
@@ -1047,57 +1047,57 @@ fi
 **TP-Link M7350 का समस्या निवारण**:
 ```bash
 #!/bin/bash
-# TP-Link M7350 specific troubleshooting
+# TP-Link M7350 की विशिष्ट समस्या-समाधान प्रक्रिया
 
-echo "=== TP-Link M7350 Advanced Diagnostics ==="
+echo "=== TP-Link M7350 उन्नत निदान ==="
 
-# Check SD card functionality
-echo "1. SD card diagnostics:"
+# SD कार्ड की कार्यक्षमता जाँचें
+echo "1. SD कार्ड निदान:"
 if mountpoint -q /media/sd; then
-    echo "✓ SD card is mounted"
+    echo "✓ SD कार्ड माउंट है"
     df -h /media/sd
-    
-    # Check SD card health
-    echo "SD card filesystem check:"
+
+    # SD कार्ड की स्थिति जाँचें
+    echo "SD कार्ड फ़ाइल सिस्टम जाँच:"
     fsck -n /dev/mmcblk0p1 2>&1 | head -10
-    
-    # Check write permissions
+
+    # लिखने की अनुमतियाँ जाँचें
     touch /media/sd/test_write 2>/dev/null && rm /media/sd/test_write
     if [ $? -eq 0 ]; then
-        echo "✓ SD card write permissions OK"
+        echo "✓ SD कार्ड की लेखन अनुमतियाँ ठीक हैं"
     else
-        echo "✗ SD card write permissions failed"
+        echo "✗ SD कार्ड की लेखन अनुमतियाँ विफल रहीं"
     fi
 else
-    echo "✗ SD card not mounted"
-    echo "Available block devices:"
+    echo "✗ SD कार्ड माउंट नहीं है"
+    echo "उपलब्ध ब्लॉक डिवाइस:"
     lsblk | grep -E "mmc|sd"
 fi
 
-# Check OpenWrt system
-echo -e "\n2. OpenWrt system analysis:"
-echo "System information:"
+# OpenWrt सिस्टम जाँचें
+echo -e "\n2. OpenWrt सिस्टम विश्लेषण:"
+echo "सिस्टम जानकारी:"
 cat /proc/version
 uname -a
 
-echo "Available memory:"
+echo "उपलब्ध मेमोरी:"
 free -h
 
-echo "System load:"
+echo "सिस्टम लोड:"
 uptime
 
-# Check package installation
-echo "Installed packages relevant to RayHunter:"
+# पैकेज इंस्टॉलेशन जाँचें
+echo "RayHunter से संबंधित इंस्टॉल किए गए पैकेज:"
 opkg list-installed | grep -E "python|kmod|usb"
 
-# Check kernel modules
-echo -e "\n3. Kernel module status:"
+# कर्नेल मॉड्यूल जाँचें
+echo -e "\n3. कर्नेल मॉड्यूल स्थिति:"
 lsmod | grep -E "diag|qmi|cdc|usb"
 
-# Check USB diagnostic interface
-echo "USB diagnostic devices:"
+# USB डायग्नोस्टिक इंटरफ़ेस जाँचें
+echo "USB निदान डिवाइस:"
 lsusb -t
-ls -la /dev/ttyUSB* 2>/dev/null || echo "No USB serial devices found"
+ls -la /dev/ttyUSB* 2>/dev/null || echo "कोई USB सीरियल डिवाइस नहीं मिला"
 ```
 
 ### पुनर्प्राप्ति प्रक्रिया
@@ -1105,7 +1105,7 @@ ls -la /dev/ttyUSB* 2>/dev/null || echo "No USB serial devices found"
 **सिस्टम पुनर्प्राप्ति स्क्रिप्ट**:
 ```bash
 #!/bin/bash
-# Emergency RayHunter system recovery
+# RayHunter सिस्टम की आपातकालीन बहाली
 
 BACKUP_DIR="/data/rayhunter/backup"
 CONFIG_FILE="/data/rayhunter/config.toml"
@@ -1118,62 +1118,62 @@ log_message() {
 create_backup() {
     log_message "Creating system backup..."
     mkdir -p "$BACKUP_DIR"
-    
-    # Backup configuration
+
+    # कॉन्फ़िगरेशन का बैकअप लें
     cp "$CONFIG_FILE" "$BACKUP_DIR/config_$(date +%Y%m%d_%H%M%S).toml"
-    
-    # Backup recordings (last 24 hours)
+
+    # रिकॉर्डिंग का बैकअप लें (पिछले 24 घंटे)
     find /data/rayhunter/recordings -name "*.qmdl" -mtime -1 -exec cp {} "$BACKUP_DIR/" \;
-    
-    # Backup logs
+
+    # लॉग का बैकअप लें
     tar -czf "$BACKUP_DIR/logs_$(date +%Y%m%d_%H%M%S).tar.gz" /data/rayhunter/logs/
-    
+
     log_message "Backup completed"
 }
 
 reset_configuration() {
     log_message "Resetting configuration to defaults..."
-    
-    # Stop RayHunter service
+
+    # RayHunter सेवा रोकें
     systemctl stop rayhunter_daemon
-    
-    # Reset to factory configuration
+
+    # फ़ैक्टरी कॉन्फ़िगरेशन पर रीसेट करें
     cp /etc/rayhunter/config.toml.default "$CONFIG_FILE"
-    
-    # Clear problematic cache files
+
+    # समस्या पैदा करने वाली कैश फ़ाइलें साफ़ करें
     rm -f /data/rayhunter/cache/*
-    
-    # Reset permissions
+
+    # अनुमतियाँ रीसेट करें
     chown -R rayhunter:rayhunter /data/rayhunter/
     chmod -R 755 /data/rayhunter/
-    
+
     log_message "Configuration reset completed"
 }
 
 factory_reset() {
     log_message "Performing factory reset..."
-    
-    # Create backup first
+
+    # पहले बैकअप बनाएँ
     create_backup
-    
-    # Stop all RayHunter services
+
+    # RayHunter की सभी सेवाएँ रोकें
     systemctl stop rayhunter_daemon
     systemctl disable rayhunter_daemon
-    
-    # Remove all RayHunter data (except backups)
+
+    # बैकअप को छोड़कर RayHunter का सारा डेटा हटाएँ
     find /data/rayhunter -type f ! -path "*/backup/*" -delete
-    
-    # Reinstall RayHunter
+
+    # RayHunter फिर से इंस्टॉल करें
     cd /tmp
     wget -O rayhunter-latest.zip "https://github.com/EFForg/rayhunter/releases/latest/download/rayhunter-linux-x64.zip"
     unzip rayhunter-latest.zip
     ./installer $(detect_device_type)
-    
+
     log_message "Factory reset completed"
 }
 
 detect_device_type() {
-    # Auto-detect device type for reinstallation
+    # पुनः इंस्टॉल के लिए डिवाइस प्रकार अपने-आप पहचानें
     if grep -q "Orbic" /proc/cpuinfo || [ -d "/android_root" ]; then
         echo "orbic"
     elif grep -q "MT7620" /proc/cpuinfo || [ -f "/etc/openwrt_version" ]; then
@@ -1183,35 +1183,35 @@ detect_device_type() {
     fi
 }
 
-# Main recovery menu
-echo "=== RayHunter Emergency Recovery ==="
-echo "1. Create backup only"
-echo "2. Reset configuration to defaults"
-echo "3. Factory reset (destructive)"
-echo "4. System diagnostics"
-echo "5. Exit"
+# मुख्य बहाली मेनू
+echo "=== RayHunter सिस्टम आपातकालीन रिकवरी ==="
+echo "1. केवल बैकअप बनाएँ"
+echo "2. कॉन्फ़िगरेशन को डिफ़ॉल्ट पर रीसेट करें"
+echo "3. फ़ैक्टरी रीसेट (विनाशकारी)"
+echo "4. सिस्टम निदान"
+echo "5. बाहर निकलें"
 
-read -p "Select option (1-5): " choice
+read -p "विकल्प चुनें (1-5): " choice
 
 case $choice in
     1) create_backup ;;
     2) reset_configuration ;;
-    3) 
-        read -p "Are you sure? This will erase all data except backups (y/N): " confirm
+    3)
+        read -p "क्या आप सुनिश्चित हैं? बैकअप के अलावा सभी डेटा मिट जाएगा (y/N): " confirm
         if [ "$confirm" = "y" ] || [ "$confirm" = "Y" ]; then
             factory_reset
         else
-            echo "Factory reset cancelled"
+            echo "फ़ैक्टरी रीसेट रद्द किया गया"
         fi
         ;;
-    4) 
-        echo "Running system diagnostics..."
-        # Run all diagnostic scripts
+    4)
+        echo "सिस्टम निदान चल रहा है..."
+        # सभी डायग्नोस्टिक स्क्रिप्ट चलाएँ
         /opt/rayhunter/scripts/performance_check.sh
         /opt/rayhunter/scripts/network_diagnostics.sh
         ;;
     5) exit 0 ;;
-    *) echo "Invalid option" ;;
+    *) echo "अमान्य विकल्प" ;;
 esac
 ```
 
@@ -1225,8 +1225,8 @@ esac
 ```python
 #!/usr/bin/env python3
 """
-RayHunter Research Integration Platform
-Advanced configuration for academic cellular security research
+RayHunter अनुसंधान एकीकरण प्लेटफ़ॉर्म
+अकादमिक सेलुलर सुरक्षा अनुसंधान के लिए उन्नत कॉन्फ़िगरेशन
 """
 
 import pandas as pd
@@ -1242,13 +1242,13 @@ class RayHunterResearchPlatform:
     def __init__(self, research_db="/data/research/rayhunter_research.db"):
         self.db_path = research_db
         self.setup_research_database()
-        
+
     def setup_research_database(self):
-        """Setup comprehensive research database schema"""
+        """शोध डेटाबेस के लिए व्यापक स्कीमा सेटअप करें"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        # Extended schema for research data
+
+        # अनुसंधान डेटा के लिए विस्तारित स्कीमा
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS research_sessions (
                 session_id TEXT PRIMARY KEY,
@@ -1261,7 +1261,7 @@ class RayHunterResearchPlatform:
                 metadata JSON
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS cellular_measurements (
                 id INTEGER PRIMARY KEY,
@@ -1279,7 +1279,7 @@ class RayHunterResearchPlatform:
                 FOREIGN KEY (session_id) REFERENCES research_sessions (session_id)
             )
         ''')
-        
+
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS threat_observations (
                 id INTEGER PRIMARY KEY,
@@ -1294,67 +1294,67 @@ class RayHunterResearchPlatform:
                 FOREIGN KEY (session_id) REFERENCES research_sessions (session_id)
             )
         ''')
-        
+
         conn.commit()
         conn.close()
-    
+
     def conduct_controlled_experiment(self, experiment_config):
-        """Conduct controlled experiment with specified parameters"""
+        """निर्दिष्ट पैरामीटर के साथ नियंत्रित प्रयोग करें"""
         session_id = f"exp_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        
-        # Configure RayHunter for experiment
+
+        # प्रयोग के लिए RayHunter कॉन्फ़िगर करें
         self.configure_rayhunter_for_research(experiment_config)
-        
-        # Start data collection
+
+        # डेटा संग्रह शुरू करें
         collection_start = datetime.now()
-        
-        # Run experiment for specified duration
+
+        # निर्दिष्ट अवधि तक प्रयोग चलाएँ
         experiment_duration = experiment_config.get('duration_minutes', 60)
-        
-        # Collect baseline measurements
+
+        # आधाररेखा माप एकत्र करें
         baseline_data = self.collect_baseline_measurements(experiment_duration // 3)
-        
-        # Introduce controlled variables if specified
+
+        # निर्दिष्ट होने पर नियंत्रित चर शामिल करें
         if experiment_config.get('introduce_threats', False):
             threat_data = self.simulate_threat_scenarios(experiment_config['threat_scenarios'])
-        
-        # Collect post-intervention data
+
+        # हस्तक्षेप के बाद का डेटा एकत्र करें
         post_data = self.collect_post_measurements(experiment_duration // 3)
-        
-        # Analyze results
+
+        # परिणामों का विश्लेषण करें
         analysis_results = self.analyze_experiment_results(
             session_id, baseline_data, post_data
         )
-        
+
         return {
             'session_id': session_id,
             'duration': experiment_duration,
             'analysis': analysis_results,
             'raw_data_location': f"/data/research/sessions/{session_id}"
         }
-    
+
     def statistical_threat_analysis(self, time_period_days=30):
-        """Perform statistical analysis of threat detection patterns"""
+        """खतरे की पहचान के पैटर्न का सांख्यिकीय विश्लेषण करें"""
         conn = sqlite3.connect(self.db_path)
-        
-        # Query threat observations
+
+        # खतरे संबंधी अवलोकनों की क्वेरी करें
         end_date = datetime.now()
         start_date = end_date - timedelta(days=time_period_days)
-        
+
         query = """
             SELECT t.*, s.environment_type, s.location
             FROM threat_observations t
             JOIN research_sessions s ON t.session_id = s.session_id
             WHERE t.timestamp BETWEEN ? AND ?
         """
-        
+
         df = pd.read_sql_query(query, conn, params=(start_date.isoformat(), end_date.isoformat()))
         conn.close()
-        
+
         if df.empty:
-            return {"error": "No data available for analysis"}
-        
-        # Statistical analysis
+            return {"error": "विश्लेषण के लिए कोई डेटा उपलब्ध नहीं है"}
+
+        # सांख्यिकीय विश्लेषण
         analysis = {
             'descriptive_stats': {
                 'total_observations': len(df),
@@ -1367,8 +1367,8 @@ class RayHunterResearchPlatform:
             'temporal_patterns': self.analyze_temporal_patterns(df),
             'false_positive_analysis': self.analyze_false_positives(df)
         }
-        
-        # Environment correlation analysis
+
+        # पर्यावरण सहसंबंध विश्लेषण
         for env_type in df['environment_type'].unique():
             env_data = df[df['environment_type'] == env_type]
             analysis['environmental_correlation'][env_type] = {
@@ -1376,81 +1376,81 @@ class RayHunterResearchPlatform:
                 'average_confidence': env_data['confidence_score'].mean(),
                 'threat_type_distribution': env_data['threat_type'].value_counts().to_dict()
             }
-        
-        # Generate visualizations
+
+        # विज़ुअलाइज़ेशन बनाएँ
         self.generate_research_visualizations(df, analysis)
-        
+
         return analysis
-    
+
     def generate_research_visualizations(self, df, analysis):
-        """Generate comprehensive research visualizations"""
+        """व्यापक शोध विज़ुअलाइज़ेशन बनाएँ"""
         fig, axes = plt.subplots(2, 3, figsize=(20, 12))
-        
-        # Threat type distribution
+
+        # खतरे के प्रकार का वितरण
         threat_counts = df['threat_type'].value_counts()
         axes[0, 0].pie(threat_counts.values, labels=threat_counts.index, autopct='%1.1f%%')
-        axes[0, 0].set_title('Threat Type Distribution')
-        
-        # Confidence score distribution
+        axes[0, 0].set_title('खतरे के प्रकारों का वितरण')
+
+        # विश्वास स्कोर का वितरण
         axes[0, 1].hist(df['confidence_score'], bins=20, alpha=0.7)
-        axes[0, 1].set_title('Confidence Score Distribution')
-        axes[0, 1].set_xlabel('Confidence Score')
-        axes[0, 1].set_ylabel('Frequency')
-        
-        # Temporal patterns
+        axes[0, 1].set_title('विश्वास स्कोर का वितरण')
+        axes[0, 1].set_xlabel('विश्वास स्कोर')
+        axes[0, 1].set_ylabel('आवृत्ति')
+
+        # समयगत पैटर्न
         df['hour'] = pd.to_datetime(df['timestamp']).dt.hour
         hourly_counts = df.groupby('hour').size()
         axes[0, 2].bar(hourly_counts.index, hourly_counts.values)
-        axes[0, 2].set_title('Threats by Hour of Day')
-        axes[0, 2].set_xlabel('Hour')
-        axes[0, 2].set_ylabel('Threat Count')
-        
-        # Environment vs confidence
+        axes[0, 2].set_title('दिन के घंटे के अनुसार खतरे')
+        axes[0, 2].set_xlabel('घंटा')
+        axes[0, 2].set_ylabel('खतरों की संख्या')
+
+        # विश्वास की तुलना में पर्यावरण
         sns.boxplot(data=df, x='environment_type', y='confidence_score', ax=axes[1, 0])
-        axes[1, 0].set_title('Confidence by Environment Type')
+        axes[1, 0].set_title('पर्यावरण के प्रकार के अनुसार विश्वास')
         axes[1, 0].tick_params(axis='x', rotation=45)
-        
-        # Correlation heatmap
+
+        # सहसंबंध हीटमैप
         numeric_df = df.select_dtypes(include=[np.number])
         correlation_matrix = numeric_df.corr()
         sns.heatmap(correlation_matrix, annot=True, ax=axes[1, 1])
-        axes[1, 1].set_title('Correlation Matrix')
-        
-        # False positive analysis
+        axes[1, 1].set_title('सहसंबंध मैट्रिक्स')
+
+        # गलत सकारात्मक परिणामों का विश्लेषण
         if 'false_positive_assessment' in df.columns:
             fp_data = df['false_positive_assessment'].value_counts()
             axes[1, 2].bar(fp_data.index, fp_data.values)
-            axes[1, 2].set_title('False Positive Assessment')
+            axes[1, 2].set_title('गलत सकारात्मक परिणामों का आकलन')
             axes[1, 2].tick_params(axis='x', rotation=45)
-        
+
         plt.tight_layout()
-        plt.savefig(f'/data/research/analysis/visualization_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png', 
+        plt.savefig(f'/data/research/analysis/visualization_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png',
                    dpi=300, bbox_inches='tight')
         plt.close()
-    
+
     def export_research_data(self, format='csv', time_range_days=None):
-        """Export research data in various formats for external analysis"""
+        """बाहरी विश्लेषण के लिए शोध डेटा को विभिन्न फ़ॉर्मैट में निर्यात करें"""
         conn = sqlite3.connect(self.db_path)
-        
+
         if time_range_days:
             end_date = datetime.now()
             start_date = end_date - timedelta(days=time_range_days)
             date_filter = f"WHERE timestamp BETWEEN '{start_date.isoformat()}' AND '{end_date.isoformat()}'"
         else:
             date_filter = ""
-        
-        # Export threat observations
+
+        # खतरे संबंधी अवलोकन निर्यात करें
         threat_query = f"SELECT * FROM threat_observations {date_filter}"
         threat_df = pd.read_sql_query(threat_query, conn)
-        
-        # Export cellular measurements
+
+        # सेलुलर माप निर्यात करें
         cellular_query = f"SELECT * FROM cellular_measurements {date_filter}"
         cellular_df = pd.read_sql_query(cellular_query, conn)
-        
+
         conn.close()
-        
+
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
+
         if format.lower() == 'csv':
             threat_df.to_csv(f'/data/research/exports/threats_{timestamp}.csv', index=False)
             cellular_df.to_csv(f'/data/research/exports/cellular_{timestamp}.csv', index=False)
@@ -1460,7 +1460,7 @@ class RayHunterResearchPlatform:
         elif format.lower() == 'parquet':
             threat_df.to_parquet(f'/data/research/exports/threats_{timestamp}.parquet')
             cellular_df.to_parquet(f'/data/research/exports/cellular_{timestamp}.parquet')
-        
+
         return {
             'export_format': format,
             'threats_records': len(threat_df),

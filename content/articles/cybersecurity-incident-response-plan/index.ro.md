@@ -1,12 +1,12 @@
 ---
 title: "Gestionarea incidentelor de securitate cibernetică"
 date: 2023-10-08
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Află cum să dezvolți un plan solid de răspuns la incidentele de securitate cibernetică pentru a le limita impactul și a-ți proteja organizația de amenințările cibernetice."
-genre: ["Securitate cibernetică", "Răspuns la incidente", "Breșă de date", "Atacuri malware", "Ransomware", "Pierderi financiare", "Gestionarea reputației", "Conformitate juridică", "Continuitatea activității", "Reducerea riscurilor"]
-tags: ["Securitate cibernetică", "Răspuns la incidente", "Breșă de date", "Atacuri malware", "Ransomware", "Pierderi financiare", "Gestionarea reputației", "Conformitate juridică", "Continuitatea activității", "Reducerea riscurilor", "Securitatea informațiilor", "Apărare cibernetică", "Protecția datelor", "Securitate IT", "Amenințări digitale", "Confidențialitatea datelor", "Reziliență cibernetică", "Securitatea rețelei", "Măsuri de securitate", "Gestionarea incidentelor", "Securitatea datelor", "Politici de securitate", "Pregătire pentru amenințări cibernetice", "Amenințări cibernetice", "Recuperarea datelor", "Conștientizarea securității cibernetice", "Detectarea amenințărilor", "Investigarea incidentelor", "Instruire în securitate"]
+genre: ["Securitate cibernetică", "Răspuns la incidente", "Breșă de date", "Atacuri malware", "Software de răscumpărare", "Pierderi financiare", "Gestionarea reputației", "Conformitate juridică", "Continuitatea activității", "Reducerea riscurilor"]
+tags: ["Securitate cibernetică", "Răspuns la incidente", "Breșă de date", "Atacuri malware", "Software de răscumpărare", "Pierderi financiare", "Gestionarea reputației", "Conformitate juridică", "Continuitatea activității", "Reducerea riscurilor", "Securitatea informațiilor", "Apărare cibernetică", "Protecția datelor", "Securitate IT", "Amenințări digitale", "Confidențialitatea datelor", "Reziliență cibernetică", "Securitatea rețelei", "Măsuri de securitate", "Gestionarea incidentelor", "Securitatea datelor", "Politici de securitate", "Pregătire pentru amenințări cibernetice", "Amenințări cibernetice", "Recuperarea datelor", "Conștientizarea securității cibernetice", "Detectarea amenințărilor", "Investigarea incidentelor", "Instruire în securitate"]
 cover: "/img/cover/cybersecurity_superheroes_shield.webp"
 coverAlt: "Imagine simbolică a unui grup de supereroi care apără un oraș de amenințări cibernetice, cu inscripțiile Incident Response Plan și Risk Mitigation pe scuturi"
 coverCaption: "Împreună îți protejăm lumea digitală!"
@@ -33,11 +33,11 @@ Un motiv important pentru un **plan cuprinzător de răspuns la incidente** îl 
 
 **Daunele reputației** provocate de un incident pot fi, de asemenea, **grave**. Informațiile circulă rapid prin rețelele sociale și platformele online. O știre despre o **breșă de date** sau un **atac cibernetic** poate afecta imaginea organizației și poate slăbi **încrederea clienților**. Pot urma pierderea unor oportunități comerciale, scăderea loialității clienților și dificultăți în atragerea altora noi. Un plan permite **gestionarea proactivă a reputației**, printr-un răspuns prompt și transparent care **limitează daunele aduse mărcii**.
 
-Pe lângă efectele financiare și reputaționale, incidentele de securitate cibernetică pot avea **consecințe juridice și de reglementare**. Organizațiile trebuie să respecte legile privind protecția datelor pentru a evita sancțiunile. De exemplu, **Regulamentul general privind protecția datelor al Uniunii Europene (GDPR)** prevede amenzi de până la **20 de milioane de euro sau 4% din cifra de afaceri anuală globală**, în funcție de suma mai mare. Un plan cu măsuri pentru îndeplinirea obligațiilor juridice și de reglementare ajută la reducerea riscului de neconformitate și a **consecințelor financiare și juridice** aferente.
+Pe lângă **efectele financiare și reputaționale**, incidentele de securitate cibernetică pot avea **consecințe juridice și de reglementare**. Organizațiile trebuie să **respecte legile privind protecția datelor** pentru a evita sancțiunile. De exemplu, **Regulamentul general privind protecția datelor al Uniunii Europene (GDPR)** prevede amenzi de până la **20 de milioane de euro sau 4% din cifra de afaceri anuală globală**, în funcție de suma mai mare. Un plan cu măsuri pentru îndeplinirea obligațiilor juridice și de reglementare ajută la reducerea riscului de neconformitate și a **consecințelor financiare și juridice** aferente.
 
 Caracterul interconectat al mediului de afaceri actual înseamnă și că un incident poate avea **efecte dincolo de organizație**. Dacă sistemele unui **furnizor** sunt compromise, **lanțul de aprovizionare** poate fi perturbat, afectând disponibilitatea produselor sau serviciilor. O breșă a **datelor clienților** poate duce la **furt de identitate sau fraudă** și poate afecta relația cu aceștia. Un plan care ia în considerare părțile externe ajută la gestionarea efectelor și la **păstrarea încrederii partenerilor, furnizorilor și clienților**.
 
-Un **plan de răspuns la incidentele de securitate cibernetică** este o componentă importantă a strategiei generale de securitate a organizației. Acesta limitează efectele asupra **stabilității financiare**, **reputației**, **conformității juridice** și **relațiilor externe**. Un plan bine conceput ajută la reducerea riscurilor și la menținerea **continuității activității** în era digitală.
+Un **plan de răspuns la incidentele de securitate cibernetică** este o componentă importantă a strategiei generale de securitate a organizației. Acesta limitează efectele asupra **stabilității financiare**, **reputației**, **conformității juridice** și **relațiilor externe**. Un plan bine conceput ajută la **reducerea riscurilor** și la menținerea **continuității activității** în era digitală.
 
 ## Elemente esențiale ale planului de răspuns la incidente
 
@@ -124,7 +124,7 @@ Organizațiile ar trebui să organizeze și exerciții periodice pentru a evalua
 
 ## Referințe
 
-1. IBM Security. (2020). Cost of a Data Breach Report 2020. [Link](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)
-2. European Union Agency for Cybersecurity (ENISA). (2021). Threat Landscape for ENISA and the EU Member States 2021. [Link](https://www.enisa.europa.eu/topics/threat-landscape)
-3. Payment Card Industry (PCI) Security Standards Council. (n.d.). PCI DSS. [Link](https://www.pcisecuritystandards.org/pci_security/)
-4. National Institute of Standards and Technology (NIST). (2020). NIST Cybersecurity Framework. [Link](https://www.nist.gov/cyberframework)
+1. IBM Security. (2020). Cost of a Data Breach Report 2020. [Sursă](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)
+2. European Union Agency for Cybersecurity (ENISA). (2021). Threat Landscape for ENISA and the EU Member States 2021. [Sursă](https://www.enisa.europa.eu/topics/threat-landscape)
+3. Payment Card Industry (PCI) Security Standards Council. (n.d.). PCI DSS. [Sursă](https://www.pcisecuritystandards.org/pci_security/)
+4. National Institute of Standards and Technology (NIST). (2020). NIST Cybersecurity Framework. [Sursă](https://www.nist.gov/cyberframework)

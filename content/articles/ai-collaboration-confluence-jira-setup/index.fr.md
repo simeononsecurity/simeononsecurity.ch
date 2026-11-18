@@ -1,7 +1,7 @@
 ---
 title: "Configurer l’IA dans Confluence et Jira : autorisations et responsabilités"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Configurez les pages de référence de Confluence et les autorisations Jira gérées par l’entreprise pour une collaboration interéquipes avec revue."
@@ -53,15 +53,15 @@ En octobre 2026, utilisez le bouton **Share** ou le contrôle de restriction pou
 5. Sur chaque page de référence, **ouvrez Share**. Définissez un accès général en lecture seule pour les membres admissibles de l’espace et accordez des droits de modification précis aux responsables et éditeurs désignés. Enregistrez et vérifiez avec l’utilisateur contributeur.
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+Identifiant source : REQ-17
+Rôle du responsable : product-owner
+État : Référence approuvée
+Portée : fichiers d’exportation synthétiques uniquement
+Durée de conservation : 7 jours
+État de livraison : configuration de référence du laboratoire
+Exceptions : données de production, sauvegardes et obligations de conservation légale exclues
+Preuve d’approbation : examen de référence DEC-12
+Référence d’implémentation : joindre le commit de référence protégé sur GitHub
 ```
 
 **Appliquez des restrictions à chaque page de référence.** Ne supposez pas qu’une restriction de modification sur une page parente protège ses pages enfants. L’héritage des droits de lecture et de modification diffère, et les autorisations de l’espace restent applicables. Un lien seul n’accorde aucun accès. Vérifiez toutes les appartenances si un utilisateur censé être en lecture seule peut toujours modifier les pages.
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **Utilisez ces textes de départ pour les deux autres pages.** Remplacez les champs de revue temporaires par des preuves réelles de l’environnement de test avant d’approuver un enregistrement.
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+Identifiant source : RUN-04
+Rôle du responsable : operations-owner
+État : Référence approuvée
+Portée : fichiers d’exportation synthétiques uniquement
+Durée de conservation configurée : 7 jours
+Procédure : comparer REQ-17 à config.json avant toute modification examinée
+Limite d’exécution : ce laboratoire n’exécute aucune tâche de suppression et ne produit aucune preuve de suppression
+Récupération : rétablir la configuration approuvée précédente après examen
+Limite de récupération : le rétablissement de la configuration ne restaure pas les fichiers supprimés
+Preuve d’examen : ajouter le nom du réviseur réel, la version de la page et la référence de décision
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+Page : Registre des décisions
+Identifiant d’entrée : DEC-12
+Décision : utiliser sept jours comme référence synthétique
+Portée : export-service-lab uniquement
+Exigence : version de page REQ-17, à consigner après publication
+Guide opératoire : version de page RUN-04, à consigner après publication
+Politique : révision protégée de GitHub POL-01, à consigner après examen
+Examen produit : en attente jusqu’à ce que le responsable désigné consigne une décision
+Examen opérations : en attente jusqu’à ce que le responsable désigné consigne une décision
+État : exemple provisoire, remplacer par les preuves d’examen observées
 ```
 
 ## Mettre à jour la carte
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **Collez ce brouillon dans PROP-042.** L’élément Jira suit la livraison. Son texte ne remplace pas la formulation approuvée dans Confluence.
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+Identifiant de proposition : PROP-042
+État : Brouillon
+Valeur actuellement approuvée : 7 jours, version de page REQ-17 à consigner
+Valeur proposée : 30 jours pour les fichiers d’exportation synthétiques
+Exclusions : données de production, sauvegardes, obligations de conservation légale
+Enregistrements concernés : REQ-17, RUN-04, config.json, proposal.json
+Pièce jointe fixe de la proposition : en attente
+Examen du responsable produit : en attente
+Examen du responsable des opérations : en attente
+Registre de publication : en attente
+Arrêter si la version source change, si un examen manque ou si l’accès est refusé
 ```
 
 | Rôle | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **Séparez lecture, brouillon et publication.** Un contributeur doit avoir assez d’accès pour comprendre l’exigence synthétique et soumettre une proposition. Il n’a besoin ni de modifier la page de référence ni d’approuver sa propre proposition.
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+Enregistrement de test : PERM-REQ-EDIT
+Rôle : contributeur
+Source : REQ-17
+Prérequis : la source est lisible et la révision publiée a été relevée
+Tentative : modifier l’exigence faisant autorité
+Résultat attendu : modification refusée, révision publiée inchangée
+Résultat observé : à renseigner depuis l’environnement isolé
+Preuve : résultat natif et lecture indépendante de la révision
+Réviseur : administrateur ou réviseur indépendant des autorisations
 ```
 
 **Utilisez un enregistrement distinct pour le refus de lecture.** La lecture de l’exigence par le contributeur vérifie la séparation entre publication et modification. L’inaccessibilité de la page pour un utilisateur exclu vérifie la confidentialité. Regrouper les deux dans une ligne masque la limite testée.

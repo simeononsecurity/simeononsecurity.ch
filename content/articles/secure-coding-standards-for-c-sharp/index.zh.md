@@ -1,6 +1,7 @@
 ---
 title: "C# 开发人员的安全编码标准"
 date: 2023-02-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "学习 C# 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。"
@@ -22,7 +23,7 @@ _____
 public static bool ValidateInput(string inputString)
 {
     bool isValid = false;
-    // Check if input string contains only digits
+    // 检查输入字符串是否只包含数字
     if (Regex.IsMatch(inputString, @"^\d+$"))
     {
         isValid = true;
@@ -113,7 +114,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         command.Parameters.AddWithValue("@Username", username);
         connection.Open();
         SqlDataReader reader = command.ExecuteReader();
-        // process the data
+        // 处理数据
     }
 }
 ```

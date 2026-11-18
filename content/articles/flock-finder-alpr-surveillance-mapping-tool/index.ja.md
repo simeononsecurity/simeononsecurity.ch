@@ -6,7 +6,7 @@ toc: true
 draft: false
 description: "Flock FinderはWiGLE WiFiデータとOUIフィンガープリンティングを使用して、世界中の40,000以上のFlock Safety ALPRカメラをマッピングするオープンソースツールです。仕組み、制限事項、およびリアルタイム検出のハードウェアツールについて学びましょう。"
 genre: ["プライバシー技術", "対監視", "オープンソースプロジェクト", "デジタル権利", "ネットワークセキュリティ", "プライバシーツール", "ハードウェアハッキング", "セキュリティ研究"]
-tags: ["Flock Finder", "Flock Safety", "ALPR", "ナンバープレートリーダー", "OUIフィンガープリンティング", "WiGLE", "WiFi監視", "対監視", "STS Collective", "FlockYou", "ESP32", "プライバシーツール", "NitekryDPaul", "DeFlockJoplin", "ALPR検出", "オープンソースセキュリティ", "監視マッピング", "大規模監視", "WiFi OUI", "プライバシー保護", "MACアドレス", "プロミスキャスモード", "802.11", "リアルタイム検出", "Wardriving", "デジタル権利", "市民的自由", "監視への意識", "GitHub", "Python"]
+tags: ["Flock Finder", "Flock Safety", "ALPR", "ナンバープレートリーダー", "OUIフィンガープリンティング", "WiGLE", "WiFi監視", "対監視", "STS Collective", "FlockYou", "ESP32", "プライバシーツール", "NitekryDPaul", "DeFlockJoplin", "ALPR検出", "オープンソースセキュリティ", "監視マッピング", "大規模監視", "WiFi OUI", "プライバシー保護", "MACアドレス", "プロミスキャスモード", "802.11", "リアルタイム検出", "車でのWiFiネットワーク探索", "デジタル権利", "市民的自由", "監視への意識", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"
 coverAlt: "Flock Safety ALPRカメラの位置を示すカラフルなマーカーを表示するインタラクティブマップ。暗い背景にマーカーから抽象的なWiFi信号が放射されている。"
 coverCaption: "Flock FinderはWiGLE WiFiデータとOUIフィンガープリンティングを使用して40,000以上の疑わしいFlock Safety ALPRカメラをマッピングします。"
@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 ---
 
 **クラウドソーシングされたWiFiデータを使用してFlock Safety ALPRカメラをマッピングする、オープンソースの監視意識向上ツール。**
+
+> **訂正、2026年9月21日:** 基礎となる146,526件のデータセットを監査した結果、当初の見出しと地図上の一律なマーカーは、OUI照合で証明できる内容を大幅に誇張していたことが分かりました。監査ではBarco ClickShareシステムが50,278件、既知の他製品の命名規則に一致するレコードが60,793件見つかりました。Flock Finderは現在、証拠区分を公開し、これらのレコードを既定の地図と見出しから除外し、信頼度フィルターを提供しています。詳しい方法と訂正内容は **[146,526台の「Flockカメラ」を地図化。そのうち50,278台はClickShareシステムだった](/articles/flock-finder-oui-false-positive-audit-2026/)** をご覧ください。
 
 ## Flock Finderとは？
 
@@ -37,6 +39,10 @@ Flock Safety ALPRの監視がプライバシーにとって重要な理由につ
 ______
 
 ## 仕組み：WiGLEを通じたOUIフィンガープリンティング
+
+
+
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="Flock FinderがWiGLEのWiFi MACアドレスのプレフィックスを既知のOUI署名と照合し、カメラ位置を地図上で推定する流れを示す図" >}}
 
 ### 核心的な洞察
 
@@ -116,34 +122,34 @@ ______
 ### セットアップ
 
 ```bash
-# Clone the repository
+# リポジトリをクローンします
 git clone https://github.com/simeononsecurity/flock-finder.git
 cd flock-finder
 
-# Install dependencies
+# 依存関係をインストールします
 pip install -r requirements.txt
 
-# Set up your WiGLE API credentials
+# WiGLE APIの認証情報を設定します
 cp .env.example .env
-# Edit .env with your WiGLE API Name and Token
+# WiGLE APIの名前とトークンを使って.envを編集します
 ```
 
-### スキャナーの実行
+### スキャンを実行する
 
 ```bash
-# Full scan — all 31 OUI prefixes, worldwide
+# 全件スキャン — 世界中の31個のOUIプレフィックス
 python3 scripts/wigle_query.py
 
-# Single OUI test
+# 単一OUIのテスト
 python3 scripts/wigle_query.py --oui 70:C9:4E
 
-# US only
+# 米国のみ
 python3 scripts/wigle_query.py --country US
 
-# Specific bounding box (lat1,lon1,lat2,lon2)
+# 指定した境界ボックス (lat1,lon1,lat2,lon2)
 python3 scripts/wigle_query.py --bbox 37,-97,39,-94
 
-# Dry run — verify auth, no API queries
+# ドライラン — 認証を確認し、APIクエリは実行しません
 python3 scripts/wigle_query.py --dry-run
 ```
 
@@ -151,7 +157,7 @@ python3 scripts/wigle_query.py --dry-run
 
 ```bash
 python3 -m http.server 8080 --directory docs/
-# Open http://localhost:8080 in your browser
+# ブラウザーでhttp://localhost:8080を開きます
 ```
 
 ### GitHub Actionsによる自動日次更新
@@ -181,6 +187,8 @@ WiGLEマップはカメラが*観察された場所*を教えてくれます。�
 - USB-Cで電源供給（カーアダプター、モバイルバッテリー、またはノートPC）
 
 > 💰 **限定割引**：コード **FLOCKFINDER** を使用すると、すべてのSTS Collective FlockYouデバイスで**20%オフ** — またはコード **SIMEONONSECURITY** を使用すると注文全体で最大20%オフ。[stscollective.com/discount/SIMEONONSECURITYで購入](https://stscollective.com/discount/SIMEONONSECURITY)。
+
+{{< stscollective-ad "flockyou" >}}
 
 これらのデバイスとDIY代替品の完全な技術的分析については、**[Flock-You検出プロジェクト：完全な対監視ハードウェアおよびセットアップガイド](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**をお読みください。
 
@@ -223,7 +231,7 @@ WiGLEのカバレッジは均一ではありません。その特定のOUIがア
 
 GitHub Actionsワークフローは毎日実行され、最新のWiGLE結果を取得します。ただし、WiGLE自体は特定の場所について数日から数年前のレコードを持っている場合があります。最近のスキャンのタイムスタンプについては`scan_stats.json`ファイルを確認してください。
 
-### 自分のwardriveデータを提供できますか？
+### 車で移動しながら収集したWiFiスキャンデータを提供できますか？
 
 はい。wardriveデータを[WiGLE](https://wigle.net)にアップロードしてください — Flock Finderの次の日次スキャンに自動的に反映されます。[貢献ガイド](https://github.com/simeononsecurity/flock-finder/blob/main/CONTRIBUTING.md)を通じてOUIプレフィックスやコードの改善も貢献できます。
 
@@ -259,6 +267,12 @@ ______
 これは**透明性ツール**であり、ライブトラッカーではありません。そのデータは歴史的、不完全、確率的です。しかし、要約やレポートでは表現できない方法でALPR監視の規模を可視化します。
 
 監視された地域を移動する際の真のリアルタイム保護には、マップと専用ハードウェアを組み合わせてください。**[STS CollectiveのFlockYouデバイス](https://stscollective.com/discount/SIMEONONSECURITY)**は@NitekryDPaulの検出方法をESP32に直接実装し、ライブカメラシグネチャが検出された瞬間に警告を発します — **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)**でコード**FLOCKFINDER**または**SIMEONONSECURITY**を使用して最大20%オフで入手可能。
+
+
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  FlockYou検知器を購入して20%割引
+{{< /centerbutton >}}
 
 ### 関連記事
 

@@ -1,12 +1,12 @@
 ---
 title: "Cybersecurityincidenten beheersen"
 date: 2023-10-08
-lastmod: 2026-11-09
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Leer hoe je een robuust responsplan voor cybersecurityincidenten opstelt om de impact te beperken en je bedrijf tegen cyberdreigingen te beschermen."
-genre: ["Cybersecurity", "Incidentrespons", "Datalek", "Malwareaanvallen", "Ransomware", "Financiële verliezen", "Reputatiebeheer", "Wettelijke naleving", "Bedrijfscontinuïteit", "Risicobeperking"]
-tags: ["Cybersecurity", "Incidentrespons", "Datalek", "Malwareaanvallen", "Ransomware", "Financiële verliezen", "Reputatiebeheer", "Wettelijke naleving", "Bedrijfscontinuïteit", "Risicobeperking", "Informatiebeveiliging", "Cyberverdediging", "Gegevensbescherming", "IT-beveiliging", "Digitale bedreigingen", "Gegevensprivacy", "Cyberweerbaarheid", "Netwerkbeveiliging", "Beveiligingsmaatregelen", "Incidentafhandeling", "Gegevensbeveiliging", "Beveiligingsbeleid", "Cyberparaatheid", "Cyberdreigingen", "Gegevensherstel", "Cyberbewustzijn", "Dreigingsdetectie", "Incidentonderzoek", "Beveiligingstraining"]
+genre: ["Cyberbeveiliging", "Incidentrespons", "Datalek", "Malwareaanvallen", "Gijzelsoftware", "Financiële verliezen", "Reputatiebeheer", "Wettelijke naleving", "Bedrijfscontinuïteit", "Risicobeperking"]
+tags: ["Cyberbeveiliging", "Incidentrespons", "Datalek", "Malwareaanvallen", "Gijzelsoftware", "Financiële verliezen", "Reputatiebeheer", "Wettelijke naleving", "Bedrijfscontinuïteit", "Risicobeperking", "Informatiebeveiliging", "Cyberverdediging", "Gegevensbescherming", "IT-beveiliging", "Digitale bedreigingen", "Gegevensprivacy", "Cyberweerbaarheid", "Netwerkbeveiliging", "Beveiligingsmaatregelen", "Incidentafhandeling", "Gegevensbeveiliging", "Beveiligingsbeleid", "Cyberparaatheid", "Cyberdreigingen", "Gegevensherstel", "Cyberbewustzijn", "Dreigingsdetectie", "Incidentonderzoek", "Beveiligingstraining"]
 cover: "/img/cover/cybersecurity_superheroes_shield.webp"
 coverAlt: "Een symbolische afbeelding van een groep superhelden die een stad tegen cyberdreigingen verdedigt, met schilden waarop Incident Response Plan en Risk Mitigation staan."
 coverCaption: "Samen sterk: bescherm je digitale wereld!"
@@ -34,11 +34,11 @@ Een belangrijke reden voor een **volledig responsplan** is het mogelijke **finan
 
 Ook de **reputatieschade** door een **cybersecurityincident** kan voor een organisatie **verwoestend** zijn. Informatie verspreidt zich tegenwoordig snel via sociale media en online platforms. Nieuws over een **datalek** of **cyberaanval** kan het imago van een organisatie snel beschadigen en het **vertrouwen van klanten** ondermijnen. Dat kan leiden tot gemiste **zakelijke kansen**, minder klantloyaliteit en moeite om nieuwe klanten aan te trekken. Met een **incidentresponsplan** kunnen organisaties hun reputatie **proactief beheren** door snel en transparant te reageren, zodat mogelijke **merkschade wordt beperkt**.
 
-Naast financiële en reputatiegevolgen kunnen **cybersecurityincidenten** ook **juridische en regelgevende gevolgen** hebben. Door het groeiende aantal wetten en regels voor gegevensbescherming moeten organisaties aan deze eisen voldoen om hoge boetes te voorkomen. De **Algemene verordening gegevensbescherming van de Europese Unie (GDPR)** legt bijvoorbeeld boetes op tot **20 miljoen euro of 4% van de wereldwijde jaaromzet**, afhankelijk van welk bedrag hoger is. Een **incidentresponsplan** met maatregelen voor wettelijke en regelgevende verplichtingen helpt het risico op niet-naleving en de bijbehorende financiële en juridische gevolgen te beperken.
+Naast **financiële en reputatiegevolgen** kunnen **cybersecurityincidenten** ook **juridische en regelgevende gevolgen** hebben. Door het groeiende aantal wetten en regels voor gegevensbescherming moeten organisaties **aan deze eisen voldoen** om hoge boetes te voorkomen. De **Algemene verordening gegevensbescherming van de Europese Unie (GDPR)** legt bijvoorbeeld boetes op tot **20 miljoen euro of 4% van de wereldwijde jaaromzet**, afhankelijk van welk bedrag hoger is. Een **incidentresponsplan** met maatregelen voor wettelijke en regelgevende verplichtingen helpt het risico op niet-naleving en de bijbehorende financiële en juridische gevolgen te beperken.
 
 De onderlinge verbondenheid van het bedrijfsleven betekent ook dat een **cybersecurityincident** gevolgen buiten de organisatie kan hebben. Als bijvoorbeeld de systemen van een **leverancier** worden gecompromitteerd, kan dat de **toeleveringsketen verstoren** en de beschikbaarheid van goederen of diensten beïnvloeden. Een datalek met **klantgegevens** kan leiden tot **identiteitsdiefstal of fraude** en de relatie met klanten schaden. Met een responsplan dat rekening houdt met externe belanghebbenden kunnen organisaties de gevolgen beter **beheersen** en het **vertrouwen van partners, leveranciers en klanten behouden**.
 
-Een **responsplan voor cybersecurityincidenten** is essentieel voor de algemene cybersecuritystrategie van een organisatie. Het beperkt de gevolgen voor **financiële stabiliteit**, **reputatie**, **wettelijke naleving** en **externe relaties**. Door te investeren in een goed ontworpen plan kunnen organisaties de risico's van incidenten beperken en de **bedrijfscontinuïteit** in het digitale tijdperk waarborgen.
+Een **responsplan voor cybersecurityincidenten** is essentieel voor de algemene cybersecuritystrategie van een organisatie. Het beperkt de gevolgen voor **financiële stabiliteit**, **reputatie**, **wettelijke naleving** en **externe relaties**. Door te investeren in een goed ontworpen plan kunnen organisaties **de risico's van incidenten beperken** en de **bedrijfscontinuïteit** in het digitale tijdperk waarborgen.
 
 ## Belangrijke onderdelen van een responsplan
 
@@ -125,7 +125,7 @@ Cyberdreigingen vormen grote risico's voor organisaties van elke omvang. Daarom 
 
 ## Bronnen
 
-1. IBM Security. (2020). Cost of a Data Breach Report 2020. [Link](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)
-2. European Union Agency for Cybersecurity (ENISA). (2021). Threat Landscape for ENISA and the EU Member States 2021. [Link](https://www.enisa.europa.eu/topics/threat-landscape)
-3. Payment Card Industry (PCI) Security Standards Council. (n.d.). PCI DSS. [Link](https://www.pcisecuritystandards.org/pci_security/)
-4. National Institute of Standards and Technology (NIST). (2020). NIST Cybersecurity Framework. [Link](https://www.nist.gov/cyberframework)
+1. IBM Security. (2020). Cost of a Data Breach Report 2020. [Bron](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)
+2. European Union Agency for Cybersecurity (ENISA). (2021). Threat Landscape for ENISA and the EU Member States 2021. [Bron](https://www.enisa.europa.eu/topics/threat-landscape)
+3. Payment Card Industry (PCI) Security Standards Council. (n.d.). PCI DSS. [Bron](https://www.pcisecuritystandards.org/pci_security/)
+4. National Institute of Standards and Technology (NIST). (2020). NIST Cybersecurity Framework. [Bron](https://www.nist.gov/cyberframework)

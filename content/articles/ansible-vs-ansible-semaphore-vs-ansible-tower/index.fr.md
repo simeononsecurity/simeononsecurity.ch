@@ -1,7 +1,7 @@
 ---
 title: "Ansible, Semaphore et Tower : comparaison de l'automatisation"
 date: 2023-06-15
-lastmod: 2026-11-08
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Découvrez la puissance de l'automatisation Ansible en comparant Ansible simple, Ansible Tower et Ansible Semaphore, et choisissez le bon outil pour une gestion efficace de l'infrastructure."
@@ -12,7 +12,7 @@ coverAlt: "Illustration des outils Ansible : Ansible simple avec une ligne de co
 coverCaption: "Utilisez Ansible pour gérer efficacement votre infrastructure"
 ---
 
-## **I. Introduction**
+## **I. Présentation**
 
 Ansible est un outil d'automatisation open-source très répandu qui permet de rationaliser et de simplifier la gestion de l'infrastructure. L'utilisation d'outils d'automatisation tels qu'Ansible est essentielle pour gérer et dimensionner efficacement l'infrastructure, car elle permet une configuration et un déploiement cohérents entre les systèmes.
 

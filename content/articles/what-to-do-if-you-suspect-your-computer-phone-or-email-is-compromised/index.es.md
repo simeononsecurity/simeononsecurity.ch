@@ -1,10 +1,11 @@
 ---
 title: "Qué hacer si cree que su correo electrónico o su teléfono están en peligro"
 date: 2023-02-27
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Conozca los pasos esenciales que debe dar si sospecha que su correo electrónico, ordenador o teléfono han sido pirateados o comprometidos, incluido el cambio de contraseñas, el análisis en busca de malware y la limpieza de su dispositivo."
-tags: ["seguridad de los dispositivos", "protección de datos", "dispositivo comprometido", "correo electrónico pirateado", "teléfono pirateado", "malware", "eliminación de virus", "seguridad de contraseñas", "copia de seguridad de datos", "autenticación de dos factores", "ciberseguridad", "seguridad en línea", "privacidad digital", "robo de identidad", "fraude en línea", "soporte técnico", "reparación de ordenadores", "recuperación de datos", "Servicios informáticos", "tecnología", "seguridad del correo electrónico", "seguridad de escritorio", "seguridad telefónica", "piratería de dispositivos", "violación de la seguridad", "compromiso del dispositivo", "análisis de malware", "borrado de datos", "claves criptográficas", "seguridad de los monederos criptográficos", "protección de fondos", "compromiso de correo electrónico", "consejos de seguridad para dispositivos", "cómo proteger su correo electrónico", "pasos para proteger un teléfono comprometido", "técnicas de eliminación de malware", "buenas prácticas para la seguridad de las contraseñas", "métodos de copia de seguridad de datos", "importancia de la autenticación de dos factores", "medidas de ciberseguridad para la seguridad en línea", "consejos para la privacidad digital", "prevenir el robo de identidad en línea", "cómo hacer frente al fraude en línea", "asistencia técnica para dispositivos comprometidos", "servicios de reparación de ordenadores", "soluciones de recuperación de datos", "Servicios informáticos para la seguridad de los dispositivos", "últimas tendencias tecnológicas", "prácticas seguras de correo electrónico", "medidas de seguridad en el escritorio", "precauciones de seguridad en el teléfono", "prevención de la piratería de dispositivos"]
+tags: ["seguridad de los dispositivos", "protección de datos", "dispositivo comprometido", "correo electrónico pirateado", "teléfono pirateado", "programas maliciosos", "eliminación de virus", "seguridad de contraseñas", "copia de seguridad de datos", "autenticación de dos factores", "ciberseguridad", "seguridad en línea", "privacidad digital", "robo de identidad", "fraude en línea", "soporte técnico", "reparación de ordenadores", "recuperación de datos", "Servicios informáticos", "tecnología", "seguridad del correo electrónico", "seguridad de escritorio", "seguridad telefónica", "piratería de dispositivos", "violación de la seguridad", "compromiso del dispositivo", "análisis de malware", "borrado de datos", "claves criptográficas", "seguridad de los monederos criptográficos", "protección de fondos", "compromiso de correo electrónico", "consejos de seguridad para dispositivos", "cómo proteger su correo electrónico", "pasos para proteger un teléfono comprometido", "técnicas de eliminación de malware", "buenas prácticas para la seguridad de las contraseñas", "métodos de copia de seguridad de datos", "importancia de la autenticación de dos factores", "medidas de ciberseguridad para la seguridad en línea", "consejos para la privacidad digital", "prevenir el robo de identidad en línea", "cómo hacer frente al fraude en línea", "asistencia técnica para dispositivos comprometidos", "servicios de reparación de ordenadores", "soluciones de recuperación de datos", "Servicios informáticos para la seguridad de los dispositivos", "últimas tendencias tecnológicas", "prácticas seguras de correo electrónico", "medidas de seguridad en el escritorio", "precauciones de seguridad en el teléfono", "prevención de la piratería de dispositivos"]
 cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Una imagen de dibujos animados de una persona frente a un ordenador o un teléfono con expresión preocupada, mientras un hacker de dibujos animados acecha en el fondo."
 coverCaption: ""
@@ -28,40 +29,40 @@ El primer paso que debes dar cuando sospeches que tu correo electrónico, ordena
 
 Es importante que tomes nota de cualquier signo de peligro para que puedas tomar las medidas adecuadas para proteger tu dispositivo y tus datos. Si no estás seguro de que tu dispositivo se haya visto comprometido, siempre es mejor equivocarse.
 
-Aprenda a identificar [phishing and suspicious emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/)
+Aprenda a identificar [correos de phishing y mensajes sospechosos](https://simeononsecurity.com/articles/how-to-identify-phishing/) y [ingeniería social](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
 
 ______
 
-## [Step 2: Change Your Passwords and Verify Recovery Information](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
+## [Paso 2: Cambia tus contraseñas y verifica la información de recuperación](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-- [**Change your passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para todas sus cuentas inmediatamente si sospecha que su dispositivo ha sido comprometido
+- [cambiar tus contraseñas](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para todas sus cuentas inmediatamente si sospecha que su dispositivo ha sido comprometido
 
 Si sospechas que tu correo electrónico, ordenador o teléfono han sido comprometidos, el siguiente paso es cambiar las contraseñas de todas tus cuentas inmediatamente. Esto llevará un tiempo, así que da prioridad a las cuentas importantes, como las de correo electrónico, cuentas bancarias, redes sociales, etc.
 
 - Prioriza las cuentas importantes**, como las de correo electrónico, cuentas bancarias, redes sociales, etc.
 
-- [**Choose strong, unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para cada una de sus cuentas y **evite utilizar la misma contraseña** en varias cuentas.
-- A [**strong password**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) debe tener al menos **12 caracteres** e incluir una **mezcla de letras mayúsculas y minúsculas, números y símbolos**.
+- [elegir contraseñas seguras y únicas](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) para cada una de sus cuentas y **evite utilizar la misma contraseña** en varias cuentas.
+- A [crear una contraseña segura](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) debe tener al menos **12 caracteres** e incluir una **mezcla de letras mayúsculas y minúsculas, números y símbolos**.
 
 Elija contraseñas seguras y únicas para cada una de sus cuentas y evite utilizar la misma contraseña para varias cuentas. Una contraseña segura debe tener al menos 12 caracteres e incluir una mezcla de letras mayúsculas y minúsculas, números y símbolos. Evite utilizar palabras o frases comunes y no incluya información personal como su nombre, fecha de nacimiento o dirección.
 
 ***Algunos ejemplos de contraseñas seguras***:
 ```txt
-- G8Q$s#E6jF9h: a 12-character password that includes uppercase and lowercase letters, numbers, and symbols
-- Ilovesecurity7!: a 16-character password that includes a combination of words and numbers, and a symbol
-- xK2%qpzL5!rS: a 12-character password that includes random uppercase and lowercase letters, numbers, and symbols
+- G8Q$s#E6jF9h: una contraseña de 12 caracteres con mayúsculas, minúsculas, números y símbolos
+- Ilovesecurity7!: una contraseña de 16 caracteres que combina palabras, números y un símbolo
+- xK2%qpzL5!rS: una contraseña de 12 caracteres con mayúsculas y minúsculas aleatorias, números y símbolos
 ```
 
 ***Ejemplos de frases de paso***:
 ```txt
-- sunflower2cherry7socks: a 24-character passphrase that includes three random words with numbers
-- orange$5my#yellow: a 16-character passphrase that includes two random words with numbers and symbols
-- pizza3onions?lovers: a 19-character passphrase that includes two random words with numbers and a symbol
-- tangerine8shark?43: a 18-character passphrase that includes two random words with numbers and a symbol
-- elephant6pasta*tree: a 19-character passphrase that includes two random words with numbers and a symbol
+- sunflower2cherry7socks: una frase de contraseña de 24 caracteres con tres palabras aleatorias y números
+- orange$5my#yellow: una frase de contraseña de 16 caracteres con dos palabras aleatorias, números y símbolos
+- pizza3onions?lovers: una frase de contraseña de 19 caracteres con dos palabras aleatorias, números y un símbolo
+- tangerine8shark?43: una frase de contraseña de 18 caracteres con dos palabras aleatorias, números y un símbolo
+- elephant6pasta*tree: una frase de contraseña de 19 caracteres con dos palabras aleatorias, números y un símbolo
 ```
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para una capa adicional de seguridad
+- [activar la autenticación de dos factores](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) para una capa adicional de seguridad
 
 También es buena idea activar la autenticación de doble factor, que añade una capa adicional de seguridad a tus cuentas. La autenticación de dos factores requiere un segundo método de verificación, como un código enviado a tu teléfono o correo electrónico, además de tu contraseña.
 
@@ -80,7 +81,7 @@ Por último, después de cambiar la contraseña y expulsar otras sesiones, deber
 
 ______
 
-## Paso 3: Actualiza tu software
+## Paso 3: Actualiza tus programas
 
 **Mantener su sistema operativo**, antivirus y otro software **actualizado** es esencial para mantener la seguridad de su dispositivo. Las actualizaciones de software suelen incluir parches de seguridad que **abordan vulnerabilidades conocidas**, por lo que es importante actualizar el software lo antes posible cuando haya actualizaciones disponibles.
 
@@ -92,11 +93,11 @@ ______
 - Antivirus** (Norton, McAfee, Avast, etc.)
 - Navegador web** (Google Chrome, Mozilla Firefox, Safari, etc.)
 - Cliente de correo electrónico** (Microsoft Outlook, Apple Mail, Gmail, etc.)
-- Aplicaciones** (Microsoft Office, Adobe Creative Suite, etc.)
+- Aplicaciones** (Microsoft Office, Adobe Creative Suite, etc.).
 
 ______
 
-## Paso 4: Analiza tu dispositivo en busca de malware
+## Paso 4: Busca programas maliciosos en tu dispositivo
 
 - **Ejecuta un escaneo de malware** en tu dispositivo para buscar cualquier software malicioso que pueda haber sido instalado.
 - **Malware** puede incluir **virus**, **gusanos**, **troyanos**, y otros tipos de software malicioso que **pueden comprometer la seguridad** de su dispositivo y sus datos.
@@ -116,7 +117,7 @@ Para buscar malware en tu dispositivo, utiliza un software antivirus de confianz
 
 También es una buena idea escanear cualquier dispositivo externo, como unidades USB, que haya utilizado con el dispositivo comprometido. Los dispositivos externos a menudo pueden contener malware que puede infectar su dispositivo, por lo que es importante escanearlos antes de utilizarlos con su dispositivo.
 
-Ver algunos [recommended Anti-Virus and Anti-Malware software](https://simeononsecurity.com/recommendations/anti-virus)
+Ver algunos [software antivirus y antimalware recomendado](https://simeononsecurity.com/recommendations/anti-virus).
 
 ______
 
@@ -138,7 +139,7 @@ Una vez que hayas verificado que tus archivos importantes están seguros, debes 
 
 Recuerda que al borrar el dispositivo se eliminarán todos los datos que contenga, por lo que es importante hacer una copia de seguridad de todos los archivos importantes antes de hacerlo.
 
-Más información sobre [3-2-1 Backup Rule](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/)
+Más información sobre [regla de copias de seguridad 3-2-1](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/).
 
 ______
 

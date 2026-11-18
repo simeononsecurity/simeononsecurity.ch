@@ -1,7 +1,7 @@
 ---
 title: "9 AI-agentvaardigheidsprojecten voor onderzoek, ontwerp en ontwikkeling"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Vergelijk negen agentvaardigheidsprojecten op workflow, hostondersteuning, afhankelijkheden en kosten. Leer hoe je de benodigde vaardigheden installeert, inspecteert en test."
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **De voorbeeldcommando's hieronder komen uit de huidige installatiedocumentatie van de projecten.** Voer alleen het commando voor het gekozen project uit. De pakketstarter downloadt en voert installatiecode uit. Inspecteer daarom eerst het upstreamproject en kies de installatiescope.
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: Codex-installatie op gebruikersniveau
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: Codex-installatie op gebruikersniveau
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: officiële skillverzameling, niet de frameworkrepository
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **Gebruik één opgeslagen taak als baseline.** Voer die zonder de nieuwe vaardigheid uit en daarna met de vaardigheid, waarbij model, invoer, tools en acceptatiecriteria zo gelijk mogelijk blijven. Noteer mislukkingen en menselijke correcties samen met het eindresultaat.
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# Voorbeeld van een evaluatierecord, geen schema voor skillconfiguratie
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

@@ -1,7 +1,7 @@
 ---
 title: "掌握用于 vSphere 管理的 PowerCLI"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "了解如何使用 PowerCLI 管理 VMware vSphere、自动执行任务并提高效率。"
@@ -68,10 +68,10 @@ PowerCLI 的一项主要优势是自动执行重复任务。几行代码即可�
 #### 为文件夹中的所有虚拟机创建快照
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## 关闭指定主机上的所有虚拟机
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## 为指定文件夹中的所有虚拟机创建快照
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Descr
 #### 安全关闭文件夹中的所有虚拟机
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## 获取包含待关闭虚拟机的文件夹
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## 获取指定文件夹中的所有虚拟机
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## 正常关闭所有虚拟机
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

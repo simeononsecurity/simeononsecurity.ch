@@ -1,7 +1,7 @@
 ---
 title: "Confluence ਅਤੇ Jira ਵਿੱਚ AI ਸੈਟਅੱਪ: ਇਜਾਜ਼ਤਾਂ ਅਤੇ ਅਧਿਕਾਰ"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "ਸਮੀਖਿਆ ਤੋਂ ਬਾਅਦ ਟੀਮਾਂ ਦੇ ਸਾਂਝੇ ਕੰਮ ਲਈ Confluence ਦੇ ਅਧਿਕਾਰਤ ਪੰਨੇ ਅਤੇ ਕੰਪਨੀ ਵੱਲੋਂ ਪ੍ਰਬੰਧਿਤ Jira ਇਜਾਜ਼ਤਾਂ ਸੈੱਟ ਕਰੋ।"
@@ -53,15 +53,15 @@ coverCaption: ""
 5. ਹਰ ਅਧਿਕਾਰਤ ਪੰਨੇ ’ਤੇ **Share ਖੋਲ੍ਹੋ।** ਯੋਗ ਥਾਂ-ਮੈਂਬਰਾਂ ਲਈ ਆਮ ਪਹੁੰਚ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਤੱਕ ਰੱਖੋ ਅਤੇ ਚੁਣੇ ਮਾਲਕਾਂ/ਪ੍ਰਕਾਸ਼ਕਾਂ ਨੂੰ ਵੱਖਰੀ ਸੋਧ-ਪਹੁੰਚ ਦਿਓ। ਸੰਭਾਲੋ ਅਤੇ ਯੋਗਦਾਨਕਰਤਾ ਦੇ ਖਾਤੇ ਨਾਲ ਜਾਂਚੋ।
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+ਸਰੋਤ ID: REQ-17
+ਮਾਲਕ ਦੀ ਭੂਮਿਕਾ: product-owner
+ਸਥਿਤੀ: ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਆਧਾਰ
+ਦਾਇਰਾ: ਸਿਰਫ਼ ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ ਫਾਈਲਾਂ
+ਰੱਖਣ ਦੀ ਮਿਆਦ: 7 ਦਿਨ
+ਡਿਲਿਵਰੀ ਸਥਿਤੀ: ਲੈਬ ਦੀ ਮੁੱਢਲੀ ਸੰਰਚਨਾ
+ਅਪਵਾਦ: ਉਤਪਾਦਨ ਡੇਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੋਕਾਂ ਸ਼ਾਮਲ ਨਹੀਂ
+ਮਨਜ਼ੂਰੀ ਦਾ ਸਬੂਤ: DEC-12 ਆਧਾਰ ਸਮੀਖਿਆ
+ਲਾਗੂਕਰਨ ਹਵਾਲਾ: ਸੁਰੱਖਿਅਤ GitHub ਆਧਾਰ commit ਨੱਥੀ ਕਰੋ
 ```
 
 **ਹਰ ਅਧਿਕਾਰਤ ਪੰਨੇ ’ਤੇ ਰੋਕਾਂ ਲਗਾਓ।** ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਮੂਲ ਪੰਨੇ ਦੀ ਸੋਧ-ਰੋਕ ਉਸ ਦੇ ਅਧੀਨ ਪੰਨਿਆਂ ਨੂੰ ਵੀ ਬਚਾਉਂਦੀ ਹੈ। ਪੜ੍ਹਨ ਅਤੇ ਸੋਧਣ ਦੀ ਇਜਾਜ਼ਤ ਵੱਖਰੇ ਢੰਗ ਨਾਲ ਵਿਰਸੇ ਵਿੱਚ ਮਿਲਦੀ ਹੈ, ਅਤੇ ਥਾਂ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਵੀ ਲਾਗੂ ਰਹਿੰਦੀਆਂ ਹਨ। ਸਿਰਫ਼ ਲਿੰਕ ਦੇਣ ਨਾਲ ਪਹੁੰਚ ਨਹੀਂ ਮਿਲਦੀ। ਜੇ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲਾ ਵਰਤੋਂਕਾਰ ਹਾਲੇ ਵੀ ਸੋਧ ਕਰਦਾ ਹੈ, ਤਾਂ ਸਾਰੀਆਂ ਮੈਂਬਰਸ਼ਿਪਾਂ ਜਾਂਚੋ।
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **ਹੋਰ ਦੋ ਪੰਨਿਆਂ ਲਈ ਇਹ ਸ਼ੁਰੂਆਤੀ ਲਿਖਤ ਵਰਤੋ।** ਰਿਕਾਰਡ ਮਨਜ਼ੂਰ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਅਸਥਾਈ ਸਮੀਖਿਆ ਖੇਤਰਾਂ ਨੂੰ ਜਾਂਚ ਮਾਹੌਲ ਦੇ ਅਸਲ ਸਬੂਤ ਨਾਲ ਬਦਲੋ।
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+ਸਰੋਤ ID: RUN-04
+ਮਾਲਕ ਦੀ ਭੂਮਿਕਾ: operations-owner
+ਸਥਿਤੀ: ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਆਧਾਰ
+ਦਾਇਰਾ: ਸਿਰਫ਼ ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ ਫਾਈਲਾਂ
+ਸੰਰਚਿਤ ਰੱਖਣ ਦੀ ਮਿਆਦ: 7 ਦਿਨ
+ਵਿਧੀ: ਸਮੀਖਿਆ ਕੀਤੀ ਤਬਦੀਲੀ ਤੋਂ ਪਹਿਲਾਂ REQ-17 ਦੀ config.json ਨਾਲ ਤੁਲਨਾ ਕਰੋ
+ਚੱਲਣ ਦੀ ਸੀਮਾ: ਇਸ ਲੈਬ ਵਿੱਚ ਮਿਟਾਉਣ ਵਾਲਾ ਕੰਮ ਨਹੀਂ ਅਤੇ ਮਿਟਾਉਣ ਦਾ ਸਬੂਤ ਨਹੀਂ ਬਣਦਾ
+ਰਿਕਵਰੀ: ਸਮੀਖਿਆ ਰਾਹੀਂ ਪਿਛਲੀ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਸੰਰਚਨਾ ਵਾਪਸ ਲਿਆਓ
+ਰਿਕਵਰੀ ਦੀ ਸੀਮਾ: ਸੰਰਚਨਾ ਵਾਪਸ ਲਿਆਉਣ ਨਾਲ ਮਿਟੀਆਂ ਫਾਈਲਾਂ ਵਾਪਸ ਨਹੀਂ ਆਉਂਦੀਆਂ
+ਸਮੀਖਿਆ ਦਾ ਸਬੂਤ: ਅਸਲ ਸਮੀਖਿਅਕ, ਪੰਨੇ ਦਾ ਸੰਸਕਰਣ ਅਤੇ ਫੈਸਲੇ ਦਾ ਹਵਾਲਾ ਸ਼ਾਮਲ ਕਰੋ
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+ਪੰਨਾ: ਫੈਸਲਾ ਰਜਿਸਟਰ
+ਐਂਟਰੀ ID: DEC-12
+ਫੈਸਲਾ: ਸਿੰਥੈਟਿਕ ਆਧਾਰ ਵਜੋਂ ਸੱਤ ਦਿਨ ਵਰਤੋ
+ਦਾਇਰਾ: ਸਿਰਫ਼ export-service-lab
+ਲੋੜ: ਪ੍ਰਕਾਸ਼ਨ ਤੋਂ ਬਾਅਦ REQ-17 ਪੰਨੇ ਦਾ ਸੰਸਕਰਣ ਦਰਜ ਕਰੋ
+ਰਨਬੁੱਕ: ਪ੍ਰਕਾਸ਼ਨ ਤੋਂ ਬਾਅਦ RUN-04 ਪੰਨੇ ਦਾ ਸੰਸਕਰਣ ਦਰਜ ਕਰੋ
+ਨੀਤੀ: ਸਮੀਖਿਆ ਤੋਂ ਬਾਅਦ POL-01 ਦੀ ਸੁਰੱਖਿਅਤ GitHub ਰਿਵਿਜ਼ਨ ਦਰਜ ਕਰੋ
+ਉਤਪਾਦ ਸਮੀਖਿਆ: ਨਾਮਜ਼ਦ ਮਾਲਕ ਵੱਲੋਂ ਫੈਸਲਾ ਦਰਜ ਕਰਨ ਤੱਕ ਬਾਕੀ
+ਓਪਰੇਸ਼ਨ ਸਮੀਖਿਆ: ਨਾਮਜ਼ਦ ਮਾਲਕ ਵੱਲੋਂ ਫੈਸਲਾ ਦਰਜ ਕਰਨ ਤੱਕ ਬਾਕੀ
+ਸਥਿਤੀ: ਮਸੌਦਾ ਉਦਾਹਰਨ, ਵੇਖੇ ਗਏ ਸਮੀਖਿਆ ਸਬੂਤ ਨਾਲ ਬਦਲੋ
 ```
 
 ## ਨਕਸ਼ਾ ਅੱਪਡੇਟ ਕਰੋ
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **ਇਹ ਮਸੌਦਾ PROP-042 ਵਿੱਚ ਪੇਸਟ ਕਰੋ।** Jira ਆਈਟਮ ਸਪੁਰਦਗੀ ਦਾ ਪਤਾ ਰੱਖਦਾ ਹੈ। ਇਸ ਦੀ ਲਿਖਤ Confluence ਦੀ ਮਨਜ਼ੂਰ ਲਿਖਤ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈਂਦੀ।
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+ਪ੍ਰਸਤਾਵ ID: PROP-042
+ਸਥਿਤੀ: ਮਸੌਦਾ
+ਮੌਜੂਦਾ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਮੁੱਲ: 7 ਦਿਨ, REQ-17 ਪੰਨੇ ਦਾ ਸੰਸਕਰਣ ਦਰਜ ਕਰੋ
+ਪ੍ਰਸਤਾਵਿਤ ਮੁੱਲ: ਸਿੰਥੈਟਿਕ ਐਕਸਪੋਰਟ ਫਾਈਲਾਂ ਲਈ 30 ਦਿਨ
+ਬਾਹਰ ਰੱਖਿਆ: ਉਤਪਾਦਨ ਡੇਟਾ, ਬੈਕਅੱਪ ਅਤੇ ਕਾਨੂੰਨੀ ਰੋਕਾਂ
+ਪ੍ਰਭਾਵਿਤ ਰਿਕਾਰਡ: REQ-17, RUN-04, config.json, proposal.json
+ਨਿਰਧਾਰਤ ਪ੍ਰਸਤਾਵ ਅਟੈਚਮੈਂਟ: ਬਾਕੀ
+ਉਤਪਾਦ ਮਾਲਕ ਦੀ ਸਮੀਖਿਆ: ਬਾਕੀ
+ਓਪਰੇਸ਼ਨ ਮਾਲਕ ਦੀ ਸਮੀਖਿਆ: ਬਾਕੀ
+ਪ੍ਰਕਾਸ਼ਨ ਰਜਿਸਟਰ: ਬਾਕੀ
+ਸਰੋਤ ਸੰਸਕਰਣ ਬਦਲੇ, ਸਮੀਖਿਆ ਨਾ ਹੋਵੇ ਜਾਂ ਪਹੁੰਚ ਰੱਦ ਹੋਵੇ ਤਾਂ ਰੁਕੋ
 ```
 
 | ਭੂਮਿਕਾ | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **ਪੜ੍ਹਨ, ਮਸੌਦਾ ਬਣਾਉਣ ਅਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨ ਨੂੰ ਵੱਖਰਾ ਰੱਖੋ।** ਯੋਗਦਾਨਕਰਤਾ ਨੂੰ ਸਿੰਥੈਟਿਕ ਲੋੜ ਸਮਝਣ ਅਤੇ ਪ੍ਰਸਤਾਵ ਭੇਜਣ ਜਿੰਨੀ ਪਹੁੰਚ ਚਾਹੀਦੀ ਹੈ। ਉਸ ਨੂੰ ਅਧਿਕਾਰਤ ਪੰਨੇ ਦੀ ਸੋਧ ਜਾਂ ਆਪਣਾ ਪ੍ਰਸਤਾਵ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਚਾਹੀਦੀ।
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+ਟੈਸਟ ਰਿਕਾਰਡ: PERM-REQ-EDIT
+ਭੂਮਿਕਾ: ਯੋਗਦਾਨਕਰਤਾ
+ਸਰੋਤ: REQ-17
+ਪੂਰਵ-ਸ਼ਰਤ: ਸਰੋਤ ਪੜ੍ਹਿਆ ਜਾ ਸਕਦਾ ਹੈ ਅਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਰਿਵਿਜ਼ਨ ਦਰਜ ਹੈ
+ਕੋਸ਼ਿਸ਼: ਅਧਿਕਾਰਤ ਲੋੜ ਨੂੰ ਸੋਧੋ
+ਉਮੀਦ: ਸੋਧ ਰੱਦ, ਪ੍ਰਕਾਸ਼ਿਤ ਰਿਵਿਜ਼ਨ ਜਿਉਂ ਦੀ ਤਿਉਂ
+ਦੇਖਿਆ ਗਿਆ: sandbox ਤੋਂ ਭਰੋ
+ਸਬੂਤ: ਮੂਲ ਨਤੀਜਾ ਅਤੇ ਰਿਵਿਜ਼ਨ ਦੀ ਸੁਤੰਤਰ ਮੁੜ ਪੜ੍ਹਤ
+ਸਮੀਖਿਅਕ: ਪ੍ਰਬੰਧਕ ਜਾਂ ਸੁਤੰਤਰ ਅਨੁਮਤੀ ਸਮੀਖਿਅਕ
 ```
 
 **ਪੜ੍ਹਨ ਤੋਂ ਇਨਕਾਰ ਲਈ ਵੱਖਰਾ ਰਿਕਾਰਡ ਵਰਤੋ।** ਯੋਗਦਾਨਕਰਤਾ ਦੀ ਪੜ੍ਹਨਯੋਗ ਲੋੜ ਪ੍ਰਕਾਸ਼ਨ ਅਤੇ ਸੋਧ ਦੇ ਵੱਖਰੇਪਣ ਦੀ ਜਾਂਚ ਕਰਦੀ ਹੈ। ਬਾਹਰ ਰੱਖੇ ਵਰਤੋਂਕਾਰ ਦਾ ਨਾ ਖੁੱਲਣ ਵਾਲਾ ਪੰਨਾ ਗੁਪਤਤਾ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ। ਦੋਹਾਂ ਨੂੰ ਇਕ ਕਤਾਰ ਵਿੱਚ ਜੋੜਨ ਨਾਲ ਪਤਾ ਨਹੀਂ ਲੱਗਦਾ ਕਿ ਕਿਹੜੀ ਹੱਦ ਜਾਂਚੀ ਗਈ।

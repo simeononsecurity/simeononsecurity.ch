@@ -1,17 +1,16 @@
 ---
 title: "CLI कोडिंग एजेंट तुलना: Claude Code, Codex, Gemini, OpenCode, Copilot और Aider"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "वर्कफ़्लो, ऑटोमेशन, मॉडल एक्सेस, अनुमतियों और समीक्षा प्रयास के आधार पर छह टर्मिनल कोडिंग एजेंट की तुलना करें। दोहराए जा सकने वाले repository परीक्षण से shortlist बनाएं।"
 genre: ["डेवलपर टूल", "कृत्रिम बुद्धिमत्ता", "सॉफ्टवेयर विकास"]
-tags: ["CLI कोडिंग एजेंट", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "टर्मिनल एजेंट", "headless automation", "agent harness", "मॉडल प्रदाता", "Git workflows", "कोडिंग एजेंट तुलना", "shell tools", "कोडिंग सहायक", "एजेंट अनुमतियां", "repository context", "CI automation", "code review", "डेवलपर टूल"]
+tags: ["CLI कोडिंग एजेंट", "Claude Code CLI", "Codex CLI", "Gemini CLI", "OpenCode CLI", "GitHub Copilot CLI", "Aider", "टर्मिनल एजेंट", "बिना इंटरफ़ेस वाला स्वचालन", "कोडिंग एजेंटों का ढाँचा", "मॉडल प्रदाता", "Git कार्यप्रवाह", "कोडिंग एजेंट तुलना", "शेल उपकरण", "कोडिंग सहायक", "एजेंट अनुमतियां", "रिपॉज़िटरी संदर्भ", "CI स्वचालन", "कोड समीक्षा", "डेवलपर टूल"]
 cover: "/img/cover/cli-coding-agents-comparison.webp"
 coverAlt: "गहरे बैकग्राउंड पर संतुलित ग्रिड में repository प्रतीक के आसपास छह अमूर्त टर्मिनल विंडो"
 coverCaption: ""
 ---
-
 **टर्मिनल कोडिंग एजेंट** एक परिचित इंटरफ़ेस साझा करते हैं, लेकिन context जुटाने, फ़ाइल संपादित करने, approval मांगने और scripts में जुड़ने के तरीकों में अलग हैं। यह गाइड Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI और Aider की तुलना करती है। मूल्यांकन हर provider के desktop product से अलग terminal workflow पर है।
 
 **अपनी सीमाओं से शुरू करें।** Provider access, दोहराए जा सकने वाला automation और review आदतें सामान्य leaderboard से बेहतर filter हैं। नीचे की सिफारिशें 10 अक्टूबर 2026 को जांचे गए official documentation पर आधारित editorial judgments हैं, measured performance ranking नहीं।
@@ -36,23 +35,23 @@ coverCaption: ""
 | **Copilot CLI** | Shell से Copilot access | Organization access और tool approval |
 | **Aider** | Git-केंद्रित pair programming | File selection और editing model |
 
-**यह सीमित shortlist है।** यह छह स्थापित terminal workflows की तुलना करती है, CLI वाले हर product की नहीं। Graphical editor और extensions [GUI coding-agent comparison](/articles/gui-coding-agents-comparison/) में हैं।
+**यह सीमित shortlist है।** यह छह स्थापित terminal workflows की तुलना करती है, CLI वाले हर product की नहीं। Graphical editor और extensions [GUI कोडिंग-एजेंट तुलना](/articles/gui-coding-agents-comparison/) में हैं।
 
 ## Claude Code और Codex
 
-**Claude Code CLI** interactive sessions, resumable conversations, piped input और scripts के लिए print mode देता है। [CLI reference](https://code.claude.com/docs/en/cli-reference) इन entry points को document करता है। Shell से task निर्देशित करते हुए Claude से repository changes करवाने हों तो इसे trial करें।
+**Claude Code CLI** interactive sessions, resumable conversations, piped input और scripts के लिए print mode देता है। [CLI संदर्भ](https://code.claude.com/docs/en/cli-reference) इन entry points को document करता है। Shell से task निर्देशित करते हुए Claude से repository changes करवाने हों तो इसे trial करें।
 
-**Codex CLI** terminal interface में repository inspection, edits, command execution और review देता है। OpenAI का [CLI documentation](https://learn.chatgpt.com/docs/codex/cli) interactive controls बताता है। [Non-interactive mode](https://learn.chatgpt.com/docs/non-interactive-mode) scripts और continuous integration के लिए `codex exec` देता है।
+**Codex CLI** terminal interface में repository inspection, edits, command execution और review देता है। OpenAI का [CLI दस्तावेज़](https://learn.chatgpt.com/docs/codex/cli) interactive controls बताता है। [गैर-संवादात्मक मोड](https://learn.chatgpt.com/docs/non-interactive-mode) scripts और continuous integration के लिए `codex exec` देता है।
 
 **पूरे हुए काम से चुनाव करें।** हर tool को अनजान bug और मौजूदा failing test दें। Explanation, patch scope, test selection और rejected approach के बाद recovery की तुलना करें। Confident final message correctness का प्रमाण नहीं।
 
 ## Gemini CLI और Copilot
 
-**Gemini CLI** का [official guide](https://geminicli.com/docs/) project context, extensions, tool execution और automation document करता है। [Headless reference](https://geminicli.com/docs/cli/headless/) structured output और exit codes बताता है। इसलिए output handling trial का ठोस भाग है, terminal उपलब्ध होने पर आधारित अनुमान नहीं।
+**Gemini CLI** का [आधिकारिक मार्गदर्शिका](https://geminicli.com/docs/) project context, extensions, tool execution और automation document करता है। [हेडलेस संदर्भ](https://geminicli.com/docs/cli/headless/) structured output और exit codes बताता है। इसलिए output handling trial का ठोस भाग है, terminal उपलब्ध होने पर आधारित अनुमान नहीं।
 
-**GitHub Copilot CLI** वर्तमान standalone `copilot` command से interactive work और programmatic prompts support करता है। [Product documentation](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-cli) planning और tool permissions cover करता है। Team के account और policies के साथ इसका मूल्यांकन करें। GitHub branding हर repository या service का automatic access नहीं देती।
+**GitHub Copilot CLI** वर्तमान standalone `copilot` command से interactive work और programmatic prompts support करता है। [उत्पाद दस्तावेज़](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-cli) planning और tool permissions cover करता है। Team के account और policies के साथ इसका मूल्यांकन करें। GitHub branding हर repository या service का automatic access नहीं देती।
 
-| Automation entry | Documented command family |
+| स्वचालन प्रविष्टि | दस्तावेज़ीकृत कमांड परिवार |
 |---|---|
 | **Claude Code** | `claude -p` |
 | **Codex** | `codex exec` |
@@ -63,7 +62,7 @@ coverCaption: ""
 
 ## OpenCode और Aider
 
-**OpenCode CLI** interactive terminal UI को command-line operations के साथ मिलाता है। [CLI reference](https://opencode.ai/docs/cli/) `opencode run` बताता है और [provider guide](https://opencode.ai/docs/providers/) model connections समझाता है। Compatibility और billing संभालने का कारण हो तो इसे trial करें।
+**OpenCode CLI** interactive terminal UI को command-line operations के साथ मिलाता है। [CLI संदर्भ](https://opencode.ai/docs/cli/) `opencode run` बताता है और [प्रदाता मार्गदर्शिका](https://opencode.ai/docs/providers/) model connections समझाता है। Compatibility और billing संभालने का कारण हो तो इसे trial करें।
 
 **Aider** Git repository में pair programming पर केंद्रित है। [Documentation](https://aider.chat/docs/) file selection, repository maps, model connections और lint/test integration cover करता है। सीमित editing conversation निर्देशित करना और changes को explicit Git workflow के पास रखना हो तो इसे trial करें।
 
@@ -77,11 +76,11 @@ coverCaption: ""
 
 **Provider flexibility की operational cost होती है।** Custom endpoint model identifiers, context settings, authentication और tool support पर निर्णय जोड़ता है। Integrated service कुछ setup choices घटाती है, पर access को account और policy से जोड़ती है। कोई भी व्यवस्था universal quality ranking नहीं बनाती।
 
-| Cost category | Trial में शामिल करें |
+| लागत श्रेणी | Trial में शामिल करें |
 |---|---|
 | **Account allowance** | Included access, rate limits और exhaustion behavior |
 | **Metered inference** | Prompt, output, cache और retry usage |
-| **Local serving** | Hardware, electricity और runtime maintenance |
+| स्थानीय रूप से चलाना | Hardware, electricity और runtime maintenance |
 | **Human effort** | Setup, corrections और final review |
 | **Failed work** | Abandoned runs और reverted patches |
 
@@ -93,15 +92,15 @@ coverCaption: ""
 
 **Approval और isolation अलग controls हैं।** Approval prompt पूछता है कि action आगे बढ़ना चाहिए या नहीं। Sandbox executed action को मिलने वाले resources सीमित करता है। File access, network access और tools से शुरू हुए commands समेत दोनों जांचें।
 
-**Codex permission documentation** filesystem और network rules अलग करती है, destination restrictions की conditions समेत। Installed setup देखने के लिए [permission reference](https://learn.chatgpt.com/docs/permissions) इस्तेमाल करें। हर shortlisted tool में harmless allowed और harmless prohibited action test करके policy पर निर्भर करें।
+**Codex permission documentation** filesystem और network rules अलग करती है, destination restrictions की conditions समेत। Installed setup देखने के लिए [अनुमति संदर्भ](https://learn.chatgpt.com/docs/permissions) इस्तेमाल करें। हर shortlisted tool में harmless allowed और harmless prohibited action test करके policy पर निर्भर करें।
 
 **Project instructions की verification जरूरी है।** Supported instruction mechanism से हर tool को वही build command, acceptance criteria और exclusions दें। Edit से पहले active constraints दोहराने को कहें। Missing instruction file setup defect है, model benchmark नहीं।
 
 ```text
-Task: Fix the supplied reproduction without changing the public API.
-Scope: Preserve unrelated work and avoid new dependencies.
-Evidence: Run the existing regression test and relevant neighboring tests.
-Report: Explain the cause, changed files, checks, and remaining uncertainty.
+कार्य: सार्वजनिक API बदले बिना दिए गए पुनरुत्पादन को ठीक करें।
+दायरा: असंबंधित बदलाव सुरक्षित रखें और नई निर्भरताएँ न जोड़ें।
+साक्ष्य: मौजूदा रिग्रेशन परीक्षण और संबंधित पड़ोसी परीक्षण चलाएँ।
+रिपोर्ट: कारण, बदली गई फ़ाइलें, जाँच और शेष अनिश्चितता बताएँ।
 ```
 
 **यह trial prompt जानबूझकर सीमित है।** Known reproduction और independently written checks जोड़ें। अलग checkouts में वही starting commit उपयोग करें। Tool version, model, provider, permission policy, elapsed time और interventions दर्ज करें।

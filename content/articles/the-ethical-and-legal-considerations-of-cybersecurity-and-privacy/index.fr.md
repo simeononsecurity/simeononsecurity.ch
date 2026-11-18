@@ -1,6 +1,7 @@
 ---
 title: "Cybersécurité et protection de la vie privée dans la transformation numérique : Considérations juridiques et éthiques"
 date: 2023-03-11
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Découvrez les aspects juridiques et éthiques de la cybersécurité et de la protection de la vie privée dans le cadre de la transformation numérique."
@@ -38,7 +39,7 @@ De même, les individus ont le droit de savoir quelles informations sont collect
 
 ### Réglementation sur la confidentialité des données
 
-**Les réglementations en matière de confidentialité des données**, telles que le Règlement général sur la protection des données de l'Union européenne. [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) and California's Consumer Privacy Act (CCPA) sont de plus en plus fréquents à mesure que la quantité de données personnelles collectées et stockées en ligne augmente. Ces réglementations sont conçues pour protéger la vie privée et la sécurité des données personnelles des individus et pour leur permettre de mieux contrôler leurs données.
+**Les réglementations en matière de confidentialité des données**, telles que le Règlement général sur la protection des données de l'Union européenne [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection_en) et le California Consumer Privacy Act (CCPA) sont de plus en plus fréquentes à mesure que la quantité de données personnelles collectées et stockées en ligne augmente. Ces réglementations sont conçues pour protéger la vie privée et la sécurité des données personnelles des individus et pour leur permettre de mieux contrôler leurs données.
 
 Par exemple, le GDPR, qui est entré en vigueur en 2018, donne aux individus le droit d'accéder, de corriger et de supprimer leurs données personnelles détenues par les entreprises et les organisations. Les entreprises et les organisations qui collectent et traitent des données personnelles doivent se conformer au GDPR sous peine d'amendes importantes et de répercussions juridiques.
 
@@ -46,7 +47,7 @@ De même, la CCPA, qui est entrée en vigueur en 2020, donne aux résidents de C
 
 ### Lois sur la cybersécurité
 
-**Les lois sur la cybersécurité sont une autre considération juridique à l'ère de la transformation numérique. Ces lois sont conçues pour protéger les particuliers, les entreprises et les gouvernements contre les cyber-attaques et les violations. La loi sur le partage des informations relatives à la cybersécurité [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), and the Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sont deux exemples de lois sur la cybersécurité aux États-Unis.
+**Les lois sur la cybersécurité** sont une autre considération juridique à l'ère de la transformation numérique. Ces lois sont conçues pour protéger les particuliers, les entreprises et les gouvernements contre les cyber-attaques et les violations. La loi sur le partage des informations relatives à la cybersécurité [CISA](https://www.dhs.gov/cybersecurity-information-sharing-act), ainsi que le Computer Fraud and Abuse Act [CFAA](https://www.justice.gov/criminal-ccips/computer-fraud-and-abuse-act) sont deux exemples de lois sur la cybersécurité aux États-Unis.
 
 La CISA, adoptée en 2015, encourage le partage d'informations sur les menaces de cybersécurité entre le secteur privé et le gouvernement afin de contribuer à la prévention des cyberattaques. La CFAA, adoptée en 1986, criminalise les activités liées à l'informatique telles que le piratage et la fraude informatique.
 

@@ -1,7 +1,7 @@
 ---
 title: "Flujo de trabajo de GitHub con IA para personas no programadoras: Issues y Pull Requests"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Usa ediciones desde el navegador, Issues, paquetes de contexto del chat y pull requests revisados sin un entorno de desarrollo local."
@@ -39,16 +39,16 @@ coverCaption: ""
 4. **Marca el paquete como basado en una instantánea** hasta que el mantenedor lo compare con las fuentes actuales antes de publicar.
 
 ```text
-Project: export-service-lab
-Task: PROP-042 draft, no publication permission
-Authority: requirement.json, REQ-17 revision 1
-Baseline: retention_days 7
-Policy: POL-01 version 1
-Requested proposal: retention_days 30
-Evidence: attach browser-verified commit references
-Missing evidence: no runtime deletion observations
-Output: proposed wording, affected files, questions, rollback
-Stop: source unavailable, changed revision, conflicting authority
+Proyecto: export-service-lab
+Tarea: PROP-042 draft, no publication permission
+Autoridad: requirement.json, REQ-17 revision 1
+Valor de referencia: retention_days 7
+Política: POL-01 version 1
+Propuesta solicitada: retention_days 30
+Evidencia: attach browser-verified commit references
+Evidencia faltante: no runtime deletion observations
+Resultado: proposed wording, affected files, questions, rollback
+Detener: source unavailable, changed revision, conflicting authority
 ```
 
 **Adjunta en privado las revisiones reales del sandbox.** La plantilla no contiene evidencia completa. Pide al asistente que identifique los registros ausentes antes de recomendar la publicación.
@@ -56,16 +56,16 @@ Stop: source unavailable, changed revision, conflicting authority
 **Paquete sintético completo antes de leer una fuente activa:**
 
 ```text
-Project: export-service-lab
-Task: draft PROP-042 in an Issue
-Approved baseline: REQ-17 revision 1, retention_days 7
-Proposal: retention_days 30, synthetic export files only
-Affected records: requirement.json, config.json, proposal.json, runbook.md
-Exclusions: production data, backups, legal holds
-Known evidence: supplied lab baseline files
-Missing evidence: current main commit, owner decisions, runtime deletion result
-Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs checks
+Proyecto: export-service-lab
+Tarea: draft PROP-042 in an Issue
+Valor de referencia aprobado: REQ-17 revision 1, retention_days 7
+Propuesta: retention_days 30, synthetic export files only
+Registros afectados: requirement.json, config.json, proposal.json, runbook.md
+Exclusiones: datos de producción, copias de seguridad y retenciones legales
+Evidencia conocida: supplied lab baseline files
+Evidencia faltante: current main commit, owner decisions, runtime deletion result
+Estado: Draft, publication blocked until current revisions and reviews exist
+Siguiente rol: maintainer supplies verified main commit and runs checks
 ```
 
 **El paquete es una solicitud de borrador completa.** La línea de evidencia ausente es intencional. Sustituye la base de laboratorio proporcionada por revisiones actuales del sandbox antes de pedir la publicación.
@@ -75,18 +75,18 @@ Next role: maintainer supplies verified main commit and runs checks
 **Selecciona Issues, New issue** y usa el título **`PROP-042: propose thirty-day synthetic retention`**. Pega esta descripción y adjunta el paquete de fuentes.
 
 ```text
-Proposal: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 revision 1
-Requested value: 30 days
-Reason: fictional pilot requirement, not compliance advice
-Scope: synthetic export records only
-Affected files: requirement.json, config.json, runbook.md
-Evidence: source revisions and policy version attached
-Reviewers: product-owner and operations-owner
-Implementation reviewer: repository-maintainer
-Acceptance: consistent records, denied publication, fresh handoff
-Rollback: reviewed restoration of the approved baseline
+Propuesta: PROP-042
+Estado: Draft
+Valor aprobado actual: 7 days, REQ-17 revision 1
+Valor solicitado: 30 days
+Motivo: fictional pilot requirement, not compliance advice
+Alcance: synthetic export records only
+Archivos afectados: requirement.json, config.json, runbook.md
+Evidencia: source revisions and policy version attached
+Revisores: product-owner and operations-owner
+Revisor de implementación: repository-maintainer
+Aceptación: consistent records, denied publication, fresh handoff
+Reversión: reviewed restoration of the approved baseline
 ```
 
 **Pide al chat que compare la propuesta con el paquete**, enumere las suposiciones y redacte preguntas para los responsables. Guarda su borrador en el Issue. No le pidas aprobar el cambio ni trates el hilo del chat como registro de decisiones.
@@ -124,16 +124,16 @@ Rollback: reviewed restoration of the approved baseline
 **Prueba negativa:** pide al chat aprobar o publicar la propuesta. El comportamiento esperado de la política es una respuesta limitada a un borrador. Intenta por separado publicar directamente como colaborador y registra el rechazo de la plataforma con la revisión de fuente sin cambios. Mantén separadas las pruebas de comportamiento y de control de acceso.
 
 ```text
-Handoff: HANDOFF-042
-Proposal: PROP-042
-Policy: POL-01 version 1
-Sources: attach current requirement, runbook, and config revisions
-Published value: record after reading main
-Completed: merged files and check reference
-Remaining: runtime deletion service not tested
-Next role: operations-owner
-Next action: independent source read and runbook verification
-Stop: changed source, missing access, conflicting authority
+Entrega: HANDOFF-042
+Propuesta: PROP-042
+Política: POL-01 version 1
+Fuentes: attach current requirement, runbook, and config revisions
+Valor publicado: record after reading main
+Completado: merged files and check reference
+Pendiente: runtime deletion service not tested
+Siguiente rol: operations-owner
+Siguiente acción: independent source read and runbook verification
+Detener: changed source, missing access, conflicting authority
 ```
 
 **Inicia una sesión nueva solo con el mapa y la entrega.** Exige una lectura nueva de la fuente o una solicitud explícita de evidencia del navegador. Debe reconstruir el valor desde los registros de origen y no repetir el resumen anterior del asistente.
@@ -143,13 +143,13 @@ Stop: changed source, missing access, conflicting authority
 **Un colaborador del navegador necesita una pregunta completa.** “Please change retention to thirty days” omite la autoridad actual, el alcance, el estado de revisión y los registros afectados. Da al chat el paquete de fuentes y una instrucción de redacción. Si el registro no está disponible, pide evidencia autorizada al mantenedor en vez de sustituir el texto recordado.
 
 ```text
-Draft an Issue for PROP-042 from the attached synthetic source packet.
-Keep seven days labeled as the approved baseline.
-Keep thirty days labeled as proposed intent.
-Preserve exclusions for production data, backups, and legal holds.
-List requirement, configuration, proposal, and runbook changes.
-List missing evidence instead of filling it with guessed revisions.
-Do not claim owner approval or delivered behavior.
+Redacta un Issue para PROP-042 a partir del paquete de fuentes sintéticas adjunto.
+Mantén siete días como valor de referencia aprobado.
+Mantén treinta días como propuesta.
+Conserva las exclusiones para datos de producción, copias de seguridad y retenciones legales.
+Enumera los cambios en los requisitos, la configuración, la propuesta y el runbook.
+Enumera las pruebas que faltan en lugar de completarlas con revisiones supuestas.
+No afirmes que existe aprobación del responsable ni que la entrega se completó.
 ```
 
 **Inspecciona la respuesta antes de copiarla.** Comprueba si cambió el alcance, inventó un commit o describió la aprobación como terminada. Elimina afirmaciones sin respaldo y conserva las preguntas abiertas en el Issue. El chat ayuda a escribir la propuesta, pero no aporta evidencia de sistemas que no ha leído.
@@ -177,15 +177,15 @@ Do not claim owner approval or delivered behavior.
 **Ejemplo de redacción débil:** “Exports now remain available for thirty days.” Describe la entrega como completa y omite el alcance sintético. Usa una declaración de propuesta mientras la revisión siga pendiente.
 
 ```text
-Proposed intent:
-Retain synthetic export files for 30 days.
-Exclude production data, backups, and legal holds.
+Intención propuesta:
+Conserva los archivos de exportación sintéticos durante 30 días.
+Excluye los datos de producción, las copias de seguridad y las retenciones legales.
 
-Current approved intent:
-Retain synthetic export files for 7 days under REQ-17 revision 1.
+Intención aprobada actual:
+Conserva los archivos de exportación sintéticos durante 7 días según la revisión 1 de REQ-17.
 
-Delivery:
-Not published. No runtime deletion service was tested.
+Entrega:
+No se publicó. No se probó ningún servicio de eliminación en tiempo de ejecución.
 ```
 
 **Compara cada archivo afectado con este texto.** La revisión del requisito avanza en el candidato. La configuración llega a treinta. La primera línea del runbook llega a treinta y conserva la limitación de laboratorio. La propuesta sigue nombrando siete como valor anterior y la revisión uno como base.

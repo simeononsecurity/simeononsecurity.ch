@@ -1,132 +1,131 @@
 ---
-title: "Een veilige DevOps-pijplijn bouwen en onderhouden: Beste praktijken en casestudies"
+title: "Budowa bezpiecznego potoku DevOps: dobre praktyki"
 date: 2023-02-25
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
-description: "Leer in deze uitgebreide gids hoe u een veilige DevOps-pijplijn kunt bouwen en onderhouden aan de hand van best practices en voorbeelden uit de praktijk."
-tags: ["DevOps", "beveiliging", "pijpleiding", "voortdurende integratie", "continue levering", "automatisering", "containerisatie", "veilige codering", "scannen op kwetsbaarheden", "controle", "feedback", "versiebeheer", "toegangscontrole", "noodherstel", "bedrijfscontinuïteit", "casestudy", "Lente", "Django", "OWASP", "Netflix", "Capital One"]
+description: "Poznaj dobre praktyki i przykłady z życia, które pomogą Ci budować i utrzymywać bezpieczny potok DevOps."
+tags: ["DevOps", "bezpieczeństwo", "potok DevOps", "integracja ciągła", "ciągłe dostarczanie", "automatyzacja", "konteneryzacja", "bezpieczne programowanie", "skanowanie podatności", "monitorowanie", "informacja zwrotna", "kontrola wersji", "kontrola dostępu", "odzyskiwanie po awarii", "ciągłość działania", "studium przypadku", "Spring", "Django", "OWASP", "Netflix", "Capital One"]
 cover: "/img/cover/building-and-maintaining-a-secure-devops-pipeline.webp"
-coverAlt: "Abstrakcyjna ilustracja cyfrowa przedstawiająca bezpieczny potok DevOps z elementami wizualnymi symbolizującymi rozwój kodu, automatyczne testy i wdrażanie na ciemnym tle z żywymi kolorami."
+coverAlt: "Abstrakcyjna ilustracja cyfrowa bezpiecznego potoku DevOps. Przedstawia tworzenie kodu, automatyczne testy i wdrażanie na ciemnym tle z jaskrawymi akcentami."
 coverCaption: ""
 ---
 
-**Hoe bouw en onderhoud je een veilige DevOps-pijplijn? Best practices en casestudies**
+**Jak zbudować i utrzymywać bezpieczny potok DevOps? Dobre praktyki i przykłady wdrożeń**
 
-DevOps is een benadering van softwareontwikkeling die de nadruk legt op samenwerking en automatisering tussen ontwikkelings- en operationele teams. DevOps-pijplijnen zijn essentieel voor het succes van softwareontwikkelingsteams, omdat ze een snelle, geautomatiseerde levering van software-updates en functies mogelijk maken. Het waarborgen van de veiligheid van DevOps-pijplijnen kan echter een uitdaging zijn, omdat er veel potentiële kwetsbaarheden zijn die door aanvallers kunnen worden uitgebuit. In dit artikel bespreken we best practices voor het bouwen en onderhouden van een veilige DevOps-pijplijn, samen met case studies van succesvolle implementaties.
+DevOps to podejście do tworzenia oprogramowania, które kładzie nacisk na współpracę i automatyzację między zespołami programistycznymi i operacyjnymi. Potoki DevOps mają kluczowe znaczenie dla zespołów tworzących oprogramowanie, ponieważ umożliwiają szybkie, zautomatyzowane dostarczanie aktualizacji i nowych funkcji. Zabezpieczenie takich potoków bywa jednak trudne, bo atakujący mogą wykorzystać wiele potencjalnych podatności. W tym artykule omawiamy dobre praktyki budowania i utrzymywania bezpiecznego potoku DevOps oraz przykłady udanych wdrożeń.
 
-## Inleiding
+## Wprowadzenie
 
-Voordat we ingaan op best practices voor het bouwen en onderhouden van een veilige DevOps-pijplijn, is het belangrijk om de basiscomponenten van een DevOps-pijplijn te begrijpen. Op hoog niveau bestaat een typische DevOps-pijplijn uit de volgende stappen:
+Zanim przejdziemy do dobrych praktyk budowania i utrzymywania bezpiecznego potoku DevOps, warto poznać jego podstawowe elementy. Typowy potok DevOps obejmuje następujące etapy:
 
-1. **Codeontwikkeling en versiebeheer**
-2. **Continue integratie en testen**
-3. **Continue levering en implementatie**
-4. **Monitoring en feedback**
+1. **Tworzenie kodu i kontrola wersji**
+2. **Integracja ciągła i testowanie**
+3. **Ciągłe dostarczanie i wdrażanie**
+4. **Monitorowanie i informacja zwrotna**
 
-Deze stadia zijn sterk met elkaar verbonden, waarbij elk stadium afhankelijk is van de output van het vorige stadium. In een goed ontworpen DevOps-pijplijn kunnen codewijzigingen snel en efficiënt worden getest en uitgerold naar productie, zonder dat dit ten koste gaat van de veiligheid.
+Etapy są ze sobą ściśle powiązane, a każdy zależy od wyników poprzedniego. W dobrze zaprojektowanym potoku zmiany kodu można szybko i sprawnie testować oraz wdrażać na produkcję bez obniżania poziomu bezpieczeństwa.
 
-## Best Practices voor het bouwen van een veilige DevOps-pijplijn
+## Dobre praktyki budowania bezpiecznego potoku DevOps
 
-### 1. Gebruik veilige codeerpraktijken
+### 1. Stosuj bezpieczne praktyki programowania
 
-Veilige codeerpraktijken zijn essentieel voor het bouwen van een veilige DevOps-pijplijn. Dit omvat het naleven van gevestigde coderingsnormen zoals die van het Open Web Application Security Project (OWASP) om veelvoorkomende kwetsbaarheden te voorkomen, het gebruik van veilige ontwikkelingsframeworks zoals Spring en Django, en het trainen van ontwikkelaars om veilige coderingspraktijken te volgen. Ook moet regelmatig worden gecontroleerd of de code vrij is van kwetsbaarheden.
+Bezpieczne programowanie jest niezbędne przy budowie bezpiecznego potoku DevOps. Obejmuje stosowanie uznanych standardów kodowania, takich jak zalecenia Open Web Application Security Project (OWASP), aby zapobiegać typowym podatnościom. Obejmuje też korzystanie z bezpiecznych frameworków, takich jak Spring i Django, szkolenie programistów oraz regularne przeglądy kodu pod kątem podatności.
 
-Een ontwikkelaar kan bijvoorbeeld een veilig ontwikkelingskader zoals Django gebruiken om beveiligingsproblemen zoals SQL-injectie en cross-site scripting (XSS)-aanvallen te voorkomen. Daarnaast biedt OWASP een lijst van veilige codeerpraktijken waarmee ontwikkelaars veelvoorkomende kwetsbaarheden kunnen voorkomen, zoals injectieaanvallen, verbroken authenticatie en cross-site request forgery (CSRF).
+Na przykład Django może pomóc zapobiegać takim problemom jak wstrzyknięcie SQL i ataki cross-site scripting (XSS). OWASP publikuje również praktyki bezpiecznego programowania, które pomagają unikać typowych podatności, takich jak ataki przez wstrzyknięcie, błędy uwierzytelniania i fałszowanie żądań między witrynami (CSRF).
 
-### 2. Implementeer veilig versiebeheer
+### 2. Zabezpiecz kontrolę wersji
 
-Het implementeren van veilig versiebeheer is cruciaal voor het handhaven van de veiligheid van een DevOps-pijplijn. Ontwikkelaars moeten een veilige repository gebruiken, zoals Git of SVN, om wijzigingen in de code op te slaan en te beheren, en de toegang tot de repository te beperken tot bevoegd personeel. Twee-factor authenticatie moet ook worden ingeschakeld om ongeautoriseerde toegang tot de repository te voorkomen.
+Bezpieczna kontrola wersji jest kluczowa dla ochrony potoku DevOps. Programiści powinni przechowywać zmiany kodu w bezpiecznym repozytorium, takim jak Git lub SVN, i ograniczyć dostęp do niego do upoważnionych osób. Należy też włączyć uwierzytelnianie dwuskładnikowe, aby zapobiec nieuprawnionemu dostępowi.
 
-Codewijzigingen moeten worden beoordeeld voordat ze worden samengevoegd in de hoofdbranch. Dit kan worden gedaan via een pull request proces waarbij wijzigingen worden beoordeeld en goedgekeurd door tenminste één andere ontwikkelaar. Door veilig versiebeheer te implementeren, kunnen ontwikkelaars ongeautoriseerde wijzigingen voorkomen en ervoor zorgen dat alleen geautoriseerde wijzigingen worden samengevoegd in de codebase.
+Przed scaleniem zmian do głównej gałęzi należy je sprawdzić. Można to zrobić przez proces pull requestów, w którym co najmniej jeden inny programista przegląda i zatwierdza zmiany. Bezpieczna kontrola wersji pomaga zapobiegać nieautoryzowanym modyfikacjom i zapewnia, że do bazy kodu trafiają wyłącznie zatwierdzone zmiany.
 
-Een ontwikkelaar kan bijvoorbeeld GitHub gebruiken, waarmee hij een privé-repository kan aanmaken en de toegang kan beperken tot bevoegd personeel. Ze kunnen ook twee-factor authenticatie inschakelen om een extra beveiligingslaag toe te voegen aan hun repository. Tot slot kunnen ze door het gebruik van een pull request proces ervoor zorgen dat alle wijzigingen door ten minste één andere ontwikkelaar worden bekeken en goedgekeurd voordat ze worden samengevoegd in de hoofdbranch.
+Na przykład GitHub pozwala utworzyć prywatne repozytorium i ograniczyć do niego dostęp. Można też włączyć uwierzytelnianie dwuskładnikowe, aby dodać kolejną warstwę ochrony. Proces pull requestów zapewnia, że przed scaleniem każdą zmianę sprawdzi i zatwierdzi co najmniej jeden inny programista.
 
-### 3. Beveiligingstesten automatiseren
+### 3. Automatyzuj testy bezpieczeństwa
 
-Geautomatiseerde beveiligingstesten zijn een cruciaal onderdeel van een veilige DevOps-pijplijn, omdat hiermee kwetsbaarheden snel kunnen worden opgespoord en aangepakt. Dit soort tests kan worden uitgevoerd met behulp van verschillende beveiligingstools zoals statische analysetools en kwetsbaarhedenscanners die in de DevOps-pijplijn moeten worden geïntegreerd en automatisch moeten worden uitgevoerd als onderdeel van de continue integratie- en testfase.
+Zautomatyzowane testy bezpieczeństwa są ważnym elementem bezpiecznego potoku DevOps, ponieważ pozwalają szybko wykrywać i usuwać podatności. Można do nich użyć narzędzi bezpieczeństwa, takich jak analizatory statyczne i skanery podatności. Warto zintegrować je z potokiem i uruchamiać automatycznie podczas ciągłej integracji oraz testowania.
 
-Snyk is bijvoorbeeld een populaire tool die applicatiecode en open source afhankelijkheden kan scannen op kwetsbaarheden. Het kan worden geïntegreerd in de DevOps-pijplijn om beveiligingsproblemen vroeg in de ontwikkelingscyclus op te sporen en aan te pakken, zodat wordt voorkomen dat kwetsbaarheden in productieomgevingen worden geïntroduceerd.
+Snyk to popularne narzędzie, które skanuje kod aplikacji i zależności open source w poszukiwaniu podatności. Integracja z potokiem DevOps pozwala wykrywać i usuwać problemy na wczesnym etapie prac, zanim podatności trafią do środowiska produkcyjnego.
 
-### 4. Gebruik veilige containers
+### 4. Używaj bezpiecznych kontenerów
 
-Containers zijn een populaire manier om applicaties in een DevOps-pijplijn te verpakken en in te zetten. Als containers echter niet veilig worden geïmplementeerd, kunnen ze een potentieel kwetsbaar punt worden. Om veilige containers te gebruiken, moeten ontwikkelaars ervoor zorgen dat de images van containers uit betrouwbare bronnen komen en dat ze vóór de inzet worden gescand op kwetsbaarheden. Bovendien moet de toegang tot containers worden beperkt en moet runtime-bescherming worden geïmplementeerd om ongeoorloofde toegang of wijziging te voorkomen.
+Kontenery są popularnym sposobem pakowania i wdrażania aplikacji w potoku DevOps. Jeśli nie zostaną odpowiednio zabezpieczone, mogą stać się źródłem podatności. Obrazy kontenerów powinny pochodzić z zaufanych źródeł i przechodzić skanowanie pod kątem podatności przed wdrożeniem. Należy też ograniczyć dostęp do kontenerów i wdrożyć ochronę podczas ich działania, aby zapobiec nieuprawnionemu dostępowi lub modyfikacjom.
 
-Docker Hub biedt bijvoorbeeld een kwetsbaarhedenscanfunctie die kan worden gebruikt om containerimages te scannen op kwetsbaarheden voordat ze worden ingezet. Daarnaast kan de toegang tot containers worden beperkt door het implementeren van een containerbeveiligingsbeleid dat bepaalt wie toegang heeft tot welke containers. Ten slotte kan runtime-bescherming worden bereikt door containerbeveiligingsmaatregelen te implementeren, zoals het ondertekenen van containerafbeeldingen, container-firewall en containerruntime-beveiliging.
+Docker Hub udostępnia funkcję skanowania podatności obrazów kontenerów przed wdrożeniem. Dostęp do kontenerów można ograniczyć za pomocą polityk bezpieczeństwa, które określają, kto może korzystać z poszczególnych kontenerów. Ochronę w czasie działania zapewniają między innymi podpisywanie obrazów, zapora dla kontenerów i zabezpieczenia środowiska uruchomieniowego.
 
-### 5. Implementeer continue monitoring en feedback
+### 5. Stale monitoruj system i zbieraj informacje zwrotne
 
-Continue monitoring en feedback is cruciaal voor het onderhouden van een veilige DevOps-pijplijn, omdat kwetsbaarheden en prestatieproblemen hiermee snel kunnen worden geïdentificeerd en aangepakt. Verschillende tools zoals loganalyzers, tools voor prestatiebewaking en oplossingen voor het beheer van beveiligingsinformatie en -gebeurtenissen (SIEM) moeten in de DevOps-pijplijn worden geïntegreerd om continue bewaking te garanderen.
+Ciągłe monitorowanie i zbieranie informacji zwrotnych pomaga szybko wykrywać podatności oraz problemy z wydajnością. Potok DevOps powinien zawierać narzędzia do analizy logów, monitorowania wydajności i zarządzania informacjami oraz zdarzeniami bezpieczeństwa (SIEM).
 
-Splunk is bijvoorbeeld een populaire tool die kan worden gebruikt voor loganalyse, prestatiebewaking en SIEM. Het kan worden geïntegreerd in de DevOps-pijplijn om real-time feedback te geven over de prestaties en beveiliging van de pijplijn en toepassingen. Het kan ook inzicht geven in eventuele beveiligingsincidenten, zodat ontwikkelaars eventuele kwetsbaarheden snel kunnen verhelpen.
+Splunk to popularne narzędzie do analizy logów, monitorowania wydajności i obsługi SIEM. Można zintegrować je z potokiem DevOps, aby otrzymywać informacje o wydajności i bezpieczeństwie potoku oraz aplikacji w czasie rzeczywistym. Narzędzie dostarcza też danych o incydentach bezpieczeństwa, co pomaga szybko usuwać podatności.
 
-Een ander voorbeeld is Prometheus, een open-source monitoring- en waarschuwingssysteem dat kan worden gebruikt voor het monitoren van verschillende metrieken, waaronder de prestaties van de pijplijn en toepassingen. Het kan worden geïntegreerd in de DevOps-pijplijn voor continue monitoring, en kan ontwikkelaars waarschuwen wanneer zich prestatie- of beveiligingsproblemen voordoen. Bovendien kan het waardevolle feedback geven aan ontwikkelaars, zodat zij de kwaliteit en efficiëntie van de DevOps-pijplijn kunnen verbeteren.
+Innym przykładem jest Prometheus, system monitorowania i alarmowania typu open source. Pozwala śledzić różne wskaźniki, w tym wydajność potoku i aplikacji. Integracja z potokiem DevOps zapewnia ciągłe monitorowanie i ostrzega programistów o problemach z wydajnością lub bezpieczeństwem. Dostarcza też informacji zwrotnych, które pomagają poprawiać jakość i sprawność potoku.
 
-## Best Practices voor het onderhouden van een veilige DevOps-pijplijn
+## Dobre praktyki utrzymywania bezpiecznego potoku DevOps
 
-Zodra een veilige DevOps-pijplijn is gebouwd, is het belangrijk om de beveiliging ervan in de loop der tijd te onderhouden. Hier zijn enkele best practices voor het onderhouden van een veilige DevOps-pijplijn:
+Po zbudowaniu bezpiecznego potoku DevOps trzeba dbać o jego ochronę. Oto dobre praktyki, które w tym pomagają:
 
-### 1. Werk software en afhankelijkheden regelmatig bij
+### 1. Regularnie aktualizuj oprogramowanie i zależności
 
-Het regelmatig bijwerken van software en afhankelijkheden is essentieel voor het onderhouden van een veilige DevOps-pijplijn. Dit moet gebeuren als onderdeel van de continue leverings- en uitrolfase en moet waar mogelijk worden geautomatiseerd om ervoor te zorgen dat bekende kwetsbaarheden worden gepatcht voordat ze kunnen worden uitgebuit.
+Regularne aktualizowanie oprogramowania i zależności jest niezbędne do utrzymania bezpiecznego potoku DevOps. Aktualizacje powinny być częścią ciągłego dostarczania i wdrażania, a ich proces warto zautomatyzować, aby znane podatności zostały załatane, zanim ktoś je wykorzysta.
 
-Tools als Dependabot en WhiteSource kunnen bijvoorbeeld in de DevOps-pijplijn worden geïntegreerd om het proces van het bijwerken van afhankelijkheden en het patchen van kwetsbaarheden te automatiseren.
+Narzędzia takie jak Dependabot i WhiteSource można zintegrować z potokiem DevOps, aby automatyzować aktualizowanie zależności i usuwanie podatności.
 
-### 2. Voer regelmatig beveiligingsaudits uit
+### 2. Regularnie przeprowadzaj audyty bezpieczeństwa
 
-Het uitvoeren van regelmatige beveiligingsaudits is cruciaal voor het handhaven van een veilige DevOps-pijplijn. Beveiligingsaudits moeten regelmatig worden uitgevoerd door een onafhankelijke derde partij om ervoor te zorgen dat alle beveiligingscontroles werken zoals bedoeld, en om eventuele nieuwe kwetsbaarheden te identificeren. Deze audits moeten betrekking hebben op alle onderdelen van de DevOps-pijplijn, inclusief code, infrastructuur en personeel.
+Regularne audyty bezpieczeństwa pomagają utrzymywać bezpieczny potok DevOps. Niezależna strona trzecia powinna sprawdzać, czy wszystkie zabezpieczenia działają zgodnie z założeniami, oraz szukać nowych podatności. Audyt powinien obejmować wszystkie elementy potoku, w tym kod, infrastrukturę i personel.
 
-Zo is penetratietesten een populaire beveiligingstechniek die kan worden gebruikt om kwetsbaarheden in de DevOps-pijplijn op te sporen. Hierbij wordt een aanval op de pijplijn gesimuleerd om zwakke plekken en kwetsbaarheden op te sporen.
+Testy penetracyjne to popularna metoda audytu bezpieczeństwa. Polegają na symulowaniu ataku na potok, aby wykryć słabe punkty i podatności.
 
-### 3. Toegangscontroles implementeren
+### 3. Wdrażaj kontrolę dostępu
 
-Toegangscontroles zijn een cruciaal onderdeel van het handhaven van de veiligheid van een DevOps-pijplijn. Toegang tot de pijplijn moet worden beperkt tot bevoegd personeel, en toegang moet worden verleend op een 'need-to-know' basis. Bovendien moeten toegangscontroles worden geïmplementeerd voor alle onderdelen van de pijplijn, inclusief versiebeheer, containers en monitoring tools.
+Kontrola dostępu jest kluczowym elementem bezpieczeństwa potoku DevOps. Dostęp należy ograniczyć do upoważnionych osób i przyznawać go zgodnie z zasadą niezbędnej wiedzy. Kontrola dostępu powinna obejmować wszystkie elementy potoku, w tym system kontroli wersji, kontenery i narzędzia monitorujące.
 
-Hulpmiddelen als HashiCorp Vault kunnen bijvoorbeeld worden gebruikt om toegangscontroles voor DevOps-pijplijnen te implementeren. Het kan worden gebruikt om de toegang tot geheimen en andere gevoelige informatie veilig te beheren en ervoor te zorgen dat alleen bevoegd personeel toegang heeft.
+Narzędzia takie jak HashiCorp Vault pomagają zarządzać dostępem do potoków DevOps. Można ich używać do bezpiecznego zarządzania sekretami i innymi poufnymi informacjami, tak aby dostęp miały wyłącznie upoważnione osoby.
 
-### 4. Implementeer rampenherstel- en bedrijfscontinuïteitsplannen
+### 4. Przygotuj plany odtwarzania po awarii i ciągłości działania
 
-Het implementeren van rampherstel- en bedrijfscontinuïteitsplannen is essentieel om de beschikbaarheid en veiligheid van een DevOps-pijplijn te garanderen. Deze plannen moeten regelmatig worden ontwikkeld en getest, en moeten procedures bevatten voor het reageren op beveiligingsincidenten en het herstellen van verstoringen van de pijplijn.
+Plany odtwarzania po awarii i ciągłości działania pomagają zapewnić dostępność i bezpieczeństwo potoku DevOps. Należy je regularnie opracowywać i testować. Powinny opisywać reakcję na incydenty bezpieczeństwa oraz przywracanie potoku po zakłóceniach.
 
-Een rampherstelplan kan bijvoorbeeld regelmatige back-ups van kritieke gegevens en configuraties omvatten, evenals procedures voor het herstellen van de pijplijn in geval van een ramp. Een bedrijfscontinuïteitsplan kan redundante infrastructuur en failover-procedures omvatten, zodat de pijplijn beschikbaar en veilig blijft, zelfs in het geval van een verstoring.
+Plan odtwarzania po awarii może obejmować regularne kopie zapasowe ważnych danych i konfiguracji oraz procedury przywracania potoku. Plan ciągłości działania może przewidywać nadmiarową infrastrukturę i procedury przełączania awaryjnego, aby potok pozostał dostępny i bezpieczny mimo zakłóceń.
 
-## Casestudies
+## Przykłady wdrożeń
 
-Hier zijn enkele case studies van succesvolle implementaties van veilige DevOps pipelines:
+Poniżej przedstawiamy przykłady udanych wdrożeń bezpiecznych potoków DevOps:
 
 ### 1. Netflix
 
-Netflix is een streaming videodienst die een DevOps-pijplijn gebruikt om snel nieuwe functies en updates aan zijn platform te leveren. Om de veiligheid van zijn pijplijn te garanderen, gebruikt Netflix een aantal best practices, waaronder:
+Netflix to serwis wideo, który używa potoku DevOps do szybkiego dostarczania nowych funkcji i aktualizacji platformy. Aby zabezpieczyć potok, firma stosuje między innymi następujące praktyki:
 
-- **Het implementeren van geautomatiseerde beveiligingstests in de hele pijplijn**.
-    - Netflix heeft geautomatiseerde beveiligingstestprogramma's zoals Prana en Stethoscope geïmplementeerd om beveiligingsproblemen op te sporen.
-- **Het gebruik van veilige containers om applicaties te verpakken en te implementeren**
-    - Netflix heeft containerisatie omarmd en gebruikt veilige containers om zijn applicaties te verpakken en te implementeren. Ze gebruiken Docker containers om applicaties te isoleren en te beveiligen, en ze hebben ook hun eigen container management platform genaamd Titus.
-- **Het uitvoeren van regelmatige beveiligingsaudits en kwetsbaarheidsbeoordelingen**
-    - Netflix voert regelmatig beveiligingsaudits en kwetsbaarheidsbeoordelingen uit om ervoor te zorgen dat hun pijplijn veilig is. Ze werken ook samen met beveiligingsdeskundigen van derden om eventuele kwetsbaarheden te identificeren en aan te pakken.
-- **Implementatie van toegangscontroles voor alle componenten van de pijplijn**
-    - Netflix heeft toegangscontroles geïmplementeerd voor alle onderdelen van hun pijplijn, inclusief versiebeheer, containers en monitoring tools. Ze gebruiken een combinatie van rolgebaseerde toegangscontroles, netwerksegmentatie en beveiligingsmonitoring om ervoor te zorgen dat alleen bevoegd personeel toegang heeft.
-- **Ontwikkeling van rampenherstel en bedrijfscontinuïteitsplannen**
-    - Netflix heeft rampherstel- en bedrijfscontinuïteitsplannen ontwikkeld om de beschikbaarheid en veiligheid van hun pijplijn te garanderen. Ze gebruiken een combinatie van back-ups, failover-procedures en redundante infrastructuur om ervoor te zorgen dat hun pijplijn beschikbaar blijft, zelfs in het geval van een ramp.
+- **Automatyczne testy bezpieczeństwa w całym potoku**
+    - Netflix wdrożył narzędzia takie jak Prana i Stethoscope do wykrywania podatności.
+- **Bezpieczne kontenery do pakowania i wdrażania aplikacji**
+    - Netflix używa bezpiecznych kontenerów do pakowania i wdrażania aplikacji. Kontenery Docker izolują aplikacje, a własna platforma zarządzania kontenerami firmy nosi nazwę Titus.
+- **Regularne audyty bezpieczeństwa i oceny podatności**
+    - Netflix regularnie audytuje potok i współpracuje z zewnętrznymi ekspertami, aby wykrywać i usuwać podatności.
+- **Kontrola dostępu do wszystkich elementów potoku**
+    - Netflix kontroluje dostęp do systemu kontroli wersji, kontenerów i narzędzi monitorujących. Łączy kontrolę opartą na rolach, segmentację sieci i monitorowanie bezpieczeństwa, aby dostęp miały tylko upoważnione osoby.
+- **Plany odtwarzania po awarii i ciągłości działania**
+    - Netflix opracował takie plany i korzysta z kopii zapasowych, procedur przełączania awaryjnego oraz nadmiarowej infrastruktury, aby potok pozostał dostępny także podczas awarii.
 
 ### 2. Capital One
 
-Capital One is een financiële dienstverlener die een DevOps-pijplijn gebruikt om nieuwe software-updates en functies aan zijn klanten te leveren. Om de veiligheid van zijn pijplijn te garanderen, gebruikt Capital One een aantal best practices, waaronder:
+Capital One to firma świadcząca usługi finansowe, która używa potoku DevOps do dostarczania klientom aktualizacji i nowych funkcji. W celu zabezpieczenia potoku stosuje między innymi następujące praktyki:
 
-- **Het gebruik van veilige codeerpraktijken en het uitvoeren van regelmatige codebeoordelingen**.
-    - Capital One heeft [veilige coderingsnormen](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) ontwikkeld op basis van best practices uit de sector, zoals OWASP. Ze voeren ook regelmatig codebeoordelingen uit om eventuele beveiligingsproblemen op te sporen en aan te pakken.
-- **Implementatie van geautomatiseerde beveiligingstests in de hele pijplijn**
-    - Capital One heeft een reeks geautomatiseerde tools voor beveiligingstests in hun DevOps-pijplijn geïmplementeerd, waaronder kwetsbaarhedenscanners en tools voor statische analyse. Ze gebruiken ook geautomatiseerde tests om ervoor te zorgen dat alle code voldoet aan hun [normen voor veilig coderen](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/).
-- Beveiligde containers gebruiken om applicaties te verpakken en te implementeren**
-    - Capital One gebruikt containers voor het verpakken en implementeren van applicaties in hun DevOps-pijplijn. Ze hebben strenge beveiligingsmaatregelen ingevoerd rond hun containers, waaronder het gebruik van alleen betrouwbare bronnen en het regelmatig uitvoeren van kwetsbaarheidsscans.
-- **Het uitvoeren van regelmatige beveiligingsaudits en kwetsbaarheidsbeoordelingen**
-    - Capital One voert regelmatig beveiligingsaudits en kwetsbaarheidsbeoordelingen uit om ervoor te zorgen dat hun pijplijn veilig is. Ze werken ook samen met beveiligingsdeskundigen van derden om eventuele kwetsbaarheden te identificeren en aan te pakken.
-- **Implementatie van toegangscontroles voor alle onderdelen van de pijplijn**
-    - Capital One heeft strenge toegangscontroles geïmplementeerd voor alle onderdelen van hun DevOps-pijplijn, waaronder versiebeheer, containers en monitoringtools. Ze gebruiken een combinatie van netwerksegmentatie, firewalls en rolgebaseerde toegangscontroles om ervoor te zorgen dat alleen bevoegd personeel toegang heeft.
-- **Ontwikkeling van rampenherstel- en bedrijfscontinuïteitsplannen**
-    - Capital One heeft rampherstel- en bedrijfscontinuïteitsplannen ontwikkeld om de beschikbaarheid en veiligheid van hun DevOps-pijplijn te garanderen. Ze hebben verschillende redundantie- en failover-procedures geïmplementeerd om ervoor te zorgen dat hun pijplijn beschikbaar blijft, zelfs in het geval van een ramp.
+- **Bezpieczne programowanie i regularne przeglądy kodu**
+    - Capital One opracowała [standardy bezpiecznego programowania](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/) oparte na praktykach branżowych, takich jak zalecenia OWASP. Firma regularnie przegląda kod, aby wykrywać i usuwać podatności.
+- **Automatyczne testy bezpieczeństwa w całym potoku**
+    - Capital One wdrożyła skanery podatności, narzędzia analizy statycznej i automatyczne testy, które sprawdzają zgodność kodu z [jej standardami bezpiecznego programowania](https://simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/).
+- **Bezpieczne kontenery do pakowania i wdrażania aplikacji**
+    - Capital One używa kontenerów i stosuje wobec nich rygorystyczne zabezpieczenia, w tym zaufane źródła oraz regularne skanowanie podatności.
+- **Regularne audyty bezpieczeństwa i oceny podatności**
+    - Capital One regularnie audytuje potok i współpracuje z zewnętrznymi ekspertami, aby wykrywać i usuwać podatności.
+- **Kontrola dostępu do wszystkich elementów potoku**
+    - Capital One kontroluje dostęp do systemu kontroli wersji, kontenerów i narzędzi monitorujących. Łączy segmentację sieci, zapory i kontrolę opartą na rolach, aby dostęp miały tylko upoważnione osoby.
+- **Plany odtwarzania po awarii i ciągłości działania**
+    - Capital One opracowała takie plany i wdrożyła nadmiarowość oraz przełączanie awaryjne, aby potok pozostał dostępny podczas awarii.
 
-## Conclusie
+## Podsumowanie
 
-Het bouwen en onderhouden van een veilige DevOps-pijplijn is essentieel om de veiligheid en beschikbaarheid van softwaretoepassingen te garanderen. Door best practices te volgen voor het bouwen en onderhouden van een veilige DevOps-pijplijn, kunnen organisaties het risico op beveiligingsincidenten verminderen en de efficiëntie van hun softwareontwikkelingsproces verbeteren. Door deze best practices te implementeren en te leren van succesvolle case studies, kunnen organisaties een DevOps-pijplijn creëren die zowel veilig als efficiënt is.
-
+Budowa i utrzymanie bezpiecznego potoku DevOps ma kluczowe znaczenie dla bezpieczeństwa i dostępności aplikacji. Stosowanie dobrych praktyk ogranicza ryzyko incydentów i usprawnia proces tworzenia oprogramowania. Wdrażając te praktyki i ucząc się z udanych przykładów, organizacje mogą tworzyć bezpieczne i sprawne potoki DevOps.

@@ -41,7 +41,7 @@ __________
 
 ### Change the Default Network Name (SSID) and Password
 
-The first and most important step to secure your wireless network is to **change the default network name (SSID) and password**. The default SSID and password provided by the router manufacturer are easy to guess and can be easily exploited by hackers. Changing the default SSID and password to a unique and strong combination 
+The first and most important step to secure your wireless network is to **change the default network name (SSID) and password**. The default SSID and password provided by the router manufacturer are easy to guess and can be easily exploited by hackers. Changing the default SSID and password to a unique and strong combination
 
 ### Use Strong Passwords
 

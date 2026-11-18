@@ -1,7 +1,7 @@
 ---
 title: "9 مشاريع لمهارات وكلاء الذكاء الاصطناعي للبحث والتصميم والتطوير"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "قارن تسعة مشاريع لمهارات الوكلاء حسب سير العمل ودعم المضيف والاعتماديات والتكلفة. تعلّم تثبيت المهارات التي تحتاج إليها وفحصها واختبارها."
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **تأتي أوامر الأمثلة أدناه من توثيق التثبيت الحالي للمشاريع.** شغّل الأمر الخاص بالمشروع المختار فقط. ينزل مشغل الحزم كود التثبيت وينفذه، لذلك افحص المشروع الأعلى واختر نطاق التثبيت قبل تشغيله.
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: تثبيت Codex على مستوى المستخدم
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: تثبيت Codex على مستوى المستخدم
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: مجموعة المهارات الرسمية، وليست مستودع إطار العمل
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **استخدم مهمة محفوظة كخط أساس.** شغّلها دون المهارة الجديدة، ثم بالمهارة مع تثبيت النموذج والمدخلات والأدوات ومعايير القبول حيثما أمكن. سجل الإخفاقات والتصحيحات البشرية مع النتيجة النهائية.
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# سجل تقييم توضيحي، وليس مخططًا لإعداد المهارات
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

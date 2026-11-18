@@ -934,7 +934,7 @@ De **Password Changer** van Dashlane automatiseert het wijzigen van wachtwoorden
 | **TOTP-/2FA-codes** | 💰 Premium | ✅ Ja | ✅ Ja | 💰 Premium | ✅ Ja | 💰 Premium |
 | **Controle op datalekken** | 💰 Premium | ❌ Nee | ✅ Ja | ✅ Ja | ✅ Ja | 💰 Premium |
 | **Wachtwoordgezondheid** | ✅ Ja | ⚠️ Basis | ✅ Geavanceerd | ✅ Ja | ✅ Geavanceerd | 💰 Premium |
-| **Beveiligde bestandsopslag** | 💰 Premium (1 GB) | ✅ In database | ✅ Ja (5 GB) | 💰 Premium (1 GB) | ✅ Ja (1 GB) | ❌ Nee |
+| **Beveiligde bestandsopslag** | 💰 Premium (1 GB) | ✅ In de database | ✅ Ja (5 GB) | 💰 Premium (1 GB) | ✅ Ja (1 GB) | ❌ Nee |
 | **Veilig delen** | ✅ Ja | ⚠️ Handmatig | ✅ Geavanceerd | ✅ Ja | ✅ Ja | ✅ Ja |
 | **Noodtoegang** | 💰 Premium | ❌ Nee | ✅ Ja | ✅ Ja | ✅ Ja | ❌ Nee (planning) |
 | **Reismodus** | ❌ Nee | N.v.t. | ✅ Ja | ❌ Nee | ❌ Nee | ❌ Nee |

@@ -1,7 +1,7 @@
 ---
 title: "L’impact de l’aprenentatge automàtic en la ciberseguretat i com adaptar-s’hi"
 date: 2023-03-07
-lastmod: 2026-11-07
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Descobreix com l’aprenentatge automàtic ajuda a detectar amenaces, prioritzar-les i respondre-hi, així com els límits de desplegament i els riscos de seguretat."
@@ -67,6 +67,6 @@ L’aprenentatge automàtic ha transformat la ciberseguretat amb una detecció i
 
 ## Referències
 
-1. «Què és la ciberseguretat?». Cisco. [https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (consulta: 4 de març de 2023).
-2. «Aprenentatge automàtic en ciberseguretat». Cylance. [https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (consulta: 4 de març de 2023).
-3. «Protecció de dades i dispositius». National Institute of Standards and Technology. [https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (consulta: 4 de març de 2023).
+1. «Què és la ciberseguretat?». Cisco. [guia de Cisco sobre ciberseguretat](https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html) (consulta: 4 de març de 2023).
+2. «Aprenentatge automàtic en ciberseguretat». Cylance. [article de Cylance sobre aprenentatge automàtic en ciberseguretat](https://www.cylance.com/en-us/resources/machine-learning-in-cybersecurity.html) (consulta: 4 de març de 2023).
+3. «Protecció de dades i dispositius». National Institute of Standards and Technology. [guia de NIST per protegir dades i dispositius](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/securing-data-devices-1) (consulta: 4 de març de 2023).

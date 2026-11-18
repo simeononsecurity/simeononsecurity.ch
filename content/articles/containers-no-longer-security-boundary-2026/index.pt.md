@@ -1,18 +1,17 @@
 ---
 title: "Em 2026, contêineres deixaram de ser uma fronteira de segurança"
 date: 2026-09-28
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "As vulnerabilidades do kernel em 2026 mostram por que o isolamento de contêineres multi-tenant não basta. Conheça Copy Fail, Dirty Frag, Fragnesia e CVE-2026-80521, e compare contêineres reforçados com a fronteira de microVM."
-genre: ["Segurança de contêineres", "Linux", "Segurança do kernel", "Virtualização", "Segurança em nuvem", "Pesquisa de ameaças", "Blue Team", "DevSecOps"]
+genre: ["Segurança de contêineres", "Linux", "Segurança do kernel", "Virtualização", "Segurança em nuvem", "Pesquisa de ameaças", "equipe de defesa", "DevSecOps"]
 tags: ["Escape de contêiner", "Fronteira de segurança de contêineres", "CVE do kernel Linux", "Escalonamento local de privilégios", "LPE 2026", "Copy Fail", "CVE-2026-31431", "Dirty Frag", "CVE-2026-43284", "CVE-2026-43500", "Fragnesia", "CVE-2026-46300", "CVE-2026-80521", "kernelCTF", "kvmCTF", "microVM", "Firecracker", "Kata Containers", "Corrupção do cache de páginas", "AF_ALG", "AF_UNIX", "XFRM ESP", "RxRPC", "Isolamento de namespaces", "Chamada de sistema clone", "Descoberta de vulnerabilidades por IA", "Segurança do Docker", "Segurança do Kubernetes", "Isolamento multi-tenant", "Escape de sandbox", "nsjail", "Bubblewrap", "Firejail", "Dirty Pipe", "Tendência de CVEs do kernel"]
 cover: "/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp"
 coverAlt: "Ilustração digital de vários contêineres luminosos conectados a um símbolo central de kernel. Elementos coloridos representam vulnerabilidades que se irradiam do kernel em um fundo escuro."
 coverCaption: ""
 ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubernetes-environment", "/cvss-calculator"]
 ---
-
 **Os contêineres compartilham um único kernel. Em 2026, quatro famílias de vulnerabilidades distintas provaram que um único bug no kernel basta para sair de um contêiner e chegar ao host.** Copy Fail, Dirty Frag, Fragnesia e CVE-2026-80521 dão privilégios root a um usuário local sem privilégios. Todas atravessam a fronteira do contêiner.
 
 *O aspecto preocupante não são os bugs em si. É o baixo custo com que a IA os encontra agora e como um patch criou outro bug.*
@@ -245,27 +244,27 @@ O princípio comum é simples. **Contêineres são excelentes para empacotamento
 Nada disso substitui uma fronteira de VM, mas tudo remove caminhos fáceis:
 
 ```bash
-# Disable the modules the page-cache family abuses, where they are not needed
+# Desative os módulos explorados pela família page-cache quando não forem necessários
 printf 'install algif_aead /bin/false\ninstall esp4 /bin/false\ninstall esp6 /bin/false\ninstall rxrpc /bin/false\n' \
   > /etc/modprobe.d/harden-pagecache-family.conf
 rmmod algif_aead esp4 esp6 rxrpc 2>/dev/null || true
 ```
 
 ```bash
-# Restrict unprivileged user namespaces, which gates the ESP variants
-# Debian and Ubuntu: this is a partial mitigation, not a complete one
+# Restrinja os namespaces de usuários sem privilégios, bloqueando as variantes ESP
+# Debian e Ubuntu: esta é uma mitigação parcial, não completa
 sysctl -w kernel.unprivileged_userns_clone=0
 
-# If exploitation is suspected, drop the page cache to discard modified in-memory binaries
+# Se houver suspeita de exploração, limpe o cache de páginas para descartar binários modificados na memória
 echo 1 | tee /proc/sys/vm/drop_caches
 ```
 
 ```text
-# Detection starting points
-- Unexpected unshare(CLONE_NEWUSER) from a workload with no legitimate reason
-- NETLINK_XFRM activity, or XFRM security associations appearing outside IPsec hosts
-- Requests to bind AF_ALG sockets
-- Loads of esp4, esp6, or rxrpc on hosts running neither IPsec nor AFS
+# Sinais iniciais de detecção
+- unshare(CLONE_NEWUSER) inesperado em uma carga de trabalho sem motivo legítimo
+- Atividade NETLINK_XFRM ou associações de segurança XFRM fora de hosts IPsec
+- Solicitações para associar sockets AF_ALG
+- Carregamento de esp4, esp6 ou rxrpc em hosts sem IPsec nem AFS
 ```
 
 > **Aviso: `drop_caches` descarta a cópia modificada em memória e limpa a corrupção, mas não remove um atacante que já obteve root. Trate como resposta a incidente, não como correção.**

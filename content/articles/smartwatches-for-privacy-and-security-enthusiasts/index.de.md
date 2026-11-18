@@ -1,10 +1,11 @@
 ---
 title: "Datenschutzfreundliche Smartwatch-Optionen für datenbewusste Nutzer"
 date: 2023-05-27
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Entdecken Sie die besten Smartwatches für Liebhaber des Datenschutzes mit Schwerpunkt auf Datensicherheit und Benutzerkontrolle."
-tags: ["Smartwatch-Optionen", "Geräte, die auf Datenschutz ausgerichtet sind", "Datensicherheit", "Benutzerkontrolle", "AsteroidOS", "PineTime", "Der Watchy", "Die offene Smartwatch", "Bangle.js 2", "Gadgetbridge", "tragbare Technologie", "Datenschutz", "anpassbare Erfahrung", "Schutz personenbezogener Daten", "Open-Source-Smartwatches", "Fitness-Tracking", "Benachrichtigungen", "Smartwatch-Firmware", "datenschutzbewusste Menschen", "Von Gadgetbridge unterstützte Geräte", "Amazfit Bip", "Garmin-Uhren", "Fitbit-Modelle", "Pinetime Smartwatch", "The Watchy von Squarofumi", "Die offene Smartwatch von Pauls_3D_Things", "Bangle.js 2 Smartwatch", "Kompatibilität von Gadgetbridge", "Von AsteroidOS unterstützte Geräte", "Smartwatch-Datenschutzfunktionen", "Open-Source-Wearable-Technologie", "Datenschutzlösungen"]
+tags: ["Smartwatch-Optionen", "Geräte, die auf Datenschutz ausgerichtet sind", "Datensicherheit", "Benutzerkontrolle", "AsteroidOS", "PineTime", "The Watchy", "Die offene Smartwatch", "Smartwatch Bangle.js 2", "Gadgetbridge", "tragbare Technologie", "Datenschutz", "anpassbare Erfahrung", "Schutz personenbezogener Daten", "quelloffene Smartwatches", "Fitnessüberwachung", "Benachrichtigungen", "Firmware für Smartwatches", "datenschutzbewusste Menschen", "Von Gadgetbridge unterstützte Geräte", "Smartwatch Amazfit Bip", "Garmin-Uhren", "Fitbit-Modelle", "PineTime-Uhr", "The Watchy von Squarofumi", "Die offene Smartwatch von Pauls_3D_Things", "Smartwatch Bangle.js 2", "Gadgetbridge-Kompatibilität", "Von AsteroidOS unterstützte Geräte", "Smartwatch-Datenschutzfunktionen", "Open-Source-Wearable-Technologie", "Datenschutzlösungen"]
 cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.webp"
 coverAlt: "Illustration einer Smartwatch mit einem Schild, das den Datenschutz symbolisiert"
 coverCaption: ""
@@ -13,6 +14,7 @@ coverCaption: ""
 **Smartwatch-Optionen für Liebhaber der Privatsphäre**
 
 Im heutigen digitalen Zeitalter ist der Schutz der Privatsphäre für Menschen, die ihre persönlichen Daten schützen wollen, zu einem immer wichtigeren Thema geworden. Mit dem Aufkommen der Wearable-Technologie haben Smartwatches als praktische und vielseitige Geräte an Beliebtheit gewonnen. Für Liebhaber des Datenschutzes ist es jedoch von entscheidender Bedeutung, eine Smartwatch zu wählen, bei der die Datensicherheit im Vordergrund steht und die die Kontrolle über persönliche Informationen bietet. In diesem Artikel stellen wir eine Reihe von Smartwatch-Optionen vor, die speziell für den Datenschutz entwickelt wurden.
+
 
 ______
 
@@ -32,40 +34,50 @@ ______
 
 ### 1. AsteroidOS
 
-[AsteroidOS](https://asteroidos.org/) is an open-source Linux distribution designed to run on various smartwatches. It prioritizes user control and data privacy. With features such as Always-on-Display, Tilt-to-Wake, and Phone Notifications, AsteroidOS offers a customizable and privacy-focused smartwatch experience. Some of the supported devices for AsteroidOS include the LG G Watch, LG Watch Urbane, and Sony Smartwatch 3. See the supported device list [here](https://asteroidos.org/watches/)
+[AsteroidOS](https://asteroidos.org/) ist eine quelloffene Linux-Distribution für verschiedene Smartwatches. Sie setzt auf Benutzerkontrolle und Datenschutz. Funktionen wie Always-on-Display, Tilt-to-Wake und Telefonbenachrichtigungen ermöglichen ein anpassbares, datenschutzorientiertes Erlebnis. Unterstützte Geräte sind unter anderem LG G Watch, LG Watch Urbane und Sony Smartwatch 3. Die Liste finden Sie [hier](https://asteroidos.org/watches/).
 
 {{< youtube id="6H0KaRvF7jE" >}}
 
 ### 2. PineTime
 
-[PineTime](https://www.pine64.org/pinetime/) is an open-source smartwatch project by Pine64. It aims to provide an affordable and privacy-focused alternative to mainstream smartwatches. PineTime runs on the [InfiniTime](https://github.com/JF002/InfiniTime) Firmware, die aktiv entwickelt wird und sich auf Datenschutz und Sicherheit konzentriert. Das Projekt begrüßt Beiträge der Community und bietet eine Reihe von Funktionen wie Fitness-Tracking und Benachrichtigungen.
+[PineTime](https://www.pine64.org/pinetime/) ist ein quelloffenes Smartwatch-Projekt von Pine64. Es soll eine erschwingliche, datenschutzfreundliche Alternative zu gängigen Smartwatches bieten. PineTime nutzt die Firmware [InfiniTime](https://github.com/JF002/InfiniTime), die aktiv entwickelt wird und Datenschutz und Sicherheit in den Mittelpunkt stellt. Das Projekt begrüßt Beiträge aus der Community und bietet Funktionen wie Fitness-Tracking und Benachrichtigungen.
 
 {{< youtube id="bbXd5m4JaqE" >}}
 
 
 ### 3. The Watchy von Squarofumi
 
-[The Watchy](https://watchy.sqfmi.com/) von Squarofumi ist eine quelloffene E-Paper-Smartwatch, die an individuelle Vorlieben angepasst werden kann. Sie ermöglicht den Nutzern die Kontrolle über ihre Daten und bietet eine Plattform für Entwickler, um personalisierte Zifferblätter und Anwendungen zu erstellen. Die Watchy bietet datenschutzbewussten Menschen eine einzigartige und anpassbare Smartwatch-Erfahrung.
+[Smartwatch The Watchy](https://watchy.sqfmi.com/) von Squarofumi ist eine quelloffene E-Paper-Smartwatch, die an individuelle Vorlieben angepasst werden kann. Sie ermöglicht den Nutzern die Kontrolle über ihre Daten und bietet eine Plattform für Entwickler, um personalisierte Zifferblätter und Anwendungen zu erstellen. Die Watchy bietet datenschutzbewussten Menschen eine einzigartige und anpassbare Smartwatch-Erfahrung.
 
 {{< youtube id="TbeXV9sXUnI" >}}
 
 ### 4. Bangle.js 2 Smartwatch
 
-[Bangle.js 2](https://banglejs.com/) ist eine hackbare und quelloffene Smartwatch, bei der Datenschutz und Benutzerkontrolle an erster Stelle stehen. Sie läuft mit JavaScript und bietet eine Plattform für Entwickler, die ihre eigenen Apps und Zifferblätter erstellen können. Mit ihrem modularen Design und dem Fokus auf Open-Source-Software bietet die Bangle.js 2 datenschutzbewussten Menschen die Möglichkeit, ihre Smartwatch individuell zu gestalten.
+[Smartwatch Bangle.js 2](https://banglejs.com/) ist eine hackbare und quelloffene Smartwatch, bei der Datenschutz und Benutzerkontrolle an erster Stelle stehen. Sie läuft mit JavaScript und bietet eine Plattform für Entwickler, die ihre eigenen Apps und Zifferblätter erstellen können. Mit ihrem modularen Design und dem Fokus auf Open-Source-Software bietet die Bangle.js 2 datenschutzbewussten Menschen die Möglichkeit, ihre Smartwatch individuell zu gestalten.
 
 {{< youtube id="LwSAEcJUAu8" >}}
 
 ### 5. Unterstützte Geräte mit Gadgetbridge
 
-[Gadgetbridge](https://gadgetbridge.org/) is an open-source companion application for various smartwatches. It allows users to connect and manage their smartwatches independently, reducing reliance on proprietary apps. Gadgetbridge supports a range of privacy-focused devices, including the [Amazfit Bip](https://amzn.to/3MWQpc3), [galaxy devices](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Galaxy-Buds), [headphones](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Sony-Headphones), and several [Fitbit models](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/FitPro). By using Gadgetbridge, privacy enthusiasts can enjoy the functionality of their smartwatches while maintaining control over their data. Unfortunately **not all devices are supported equally** and the list is ever changing. To see a **list of supported devices** check out the [gadgetbridge github](https://github.com/Freeyourgadget/Gadgetbridge) 
+[Gadgetbridge](https://gadgetbridge.org/) ist eine quelloffene Begleit-App für verschiedene Smartwatches. Sie verbindet und verwaltet Uhren unabhängig und verringert die Abhängigkeit von proprietären Apps. Unterstützt werden unter anderem [Smartwatch Amazfit Bip](https://amzn.to/3MWQpc3), [Galaxy-Geräte](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Galaxy-Buds), [Kopfhörer](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Sony-Headphones) und mehrere [Fitbit-Modelle](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/FitPro). So behalten Sie die Kontrolle über Ihre Daten. **Die Geräte werden unterschiedlich gut unterstützt**, und die Liste ändert sich laufend. Die aktuelle **Geräteliste** finden Sie im [Gadgetbridge-Projekt auf GitHub](https://github.com/Freeyourgadget/Gadgetbridge).
 
 {{< youtube id="Nln9euIiQUQ" >}}
 
 ______
 
+## Schlussfolgerung
+
 Zusammenfassend lässt sich sagen, dass die Wahl einer Smartwatch, die Wert auf den Schutz der Privatsphäre legt, für Personen, die auf den Schutz ihrer persönlichen Daten bedacht sind, unerlässlich ist. Die in diesem Artikel erwähnten Optionen wie AsteroidOS, PineTime, The Watchy, Bangle.js 2 und die von Gadgetbridge unterstützten Geräte bieten datenschutzfreundliche Funktionen und anpassbare Erfahrungen. Wenn Sie eine Smartwatch auswählen, die Ihren Datenschutzbedürfnissen entspricht, können Sie die Vorteile der Wearable-Technologie genießen und gleichzeitig Ihre Daten schützen.
 
 Denken Sie daran, dass Sie vor dem Kauf immer die Spezifikationen und Funktionen jeder Smartwatch prüfen sollten, um sicherzustellen, dass sie Ihren Datenschutzanforderungen entspricht.
+
+| Smartwatch | Funktionen | Unterstützte Geräte | Open Source | Anpassbarkeit | Preis |
+| --- | --- | --- | --- | --- | --- |
+| AsteroidOS | Always-on-Display, Tilt-to-Wake, Telefonbenachrichtigungen | LG G Watch, LG Watch Urbane, Sony Smartwatch 3 | Ja | Begrenzt | $150-$200 |
+| PineTime | Fitness-Tracking, Benachrichtigungen | Mit InfiniTime-Firmware anpassbar | Ja | Begrenzt | $25-$50 |
+| The Watchy | E-Paper-Display, anpassbare Zifferblätter, Apps | Anpassbar | Ja | Umfangreich | $80-$100 |
+| Bangle.js 2 | Hackbar, Open Source, JavaScript-basiert | Anpassbar | Ja | Umfangreich | $60-$80 |
+| Von Gadgetbridge unterstützte Geräte | Je nach unterstütztem Gerät unterschiedlich | Amazfit Bip, Galaxy-Geräte, Kopfhörer, Fitbit-Modelle | Ja | Begrenzt | Variiert |
 
 ______
 
@@ -73,9 +85,9 @@ ______
 
 1. [AsteroidOS](https://asteroidos.org/)
 2. [PineTime](https://www.pine64.org/pinetime/)
-3. [InfiniTime Firmware](https://github.com/JF002/InfiniTime)
-4. [The Watchy by Squarofumi](https://watchy.sqfmi.com/)
-5. [Bangle.js 2 Smartwatch](https://banglejs.com/)
+3. [Firmware für InfiniTime](https://github.com/JF002/InfiniTime)
+4. [The Watchy von Squarofumi](https://watchy.sqfmi.com/)
+5. [Smartwatch Bangle.js 2](https://banglejs.com/)
 6. [Gadgetbridge](https://gadgetbridge.org/)
 7. [Amazfit](https://www.amazfit.com/)
 8. [Garmin](https://www.garmin.com/)

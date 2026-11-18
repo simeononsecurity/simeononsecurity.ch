@@ -1,7 +1,7 @@
 ---
 title: "使用本地模型运行 Claude Cowork 和 Claude Code：2026 设置指南"
 date: 2026-09-22
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "通过兼容 Anthropic 的 API 配置 Ollama 与 Claude Desktop、Claude Code。了解 2026 年的模型选择和云端专属功能。"
@@ -188,7 +188,7 @@ Claude Code 会把文件内容、差异和命令输出放进上下文窗口。�
 Claude Code 启动后，向它提出请求：
 
 ```text
-Read the current directory and list all files
+读取当前目录并列出所有文件
 ```
 
 **如果它列出真实文件，说明工具调用正常。** 如果它说自己会读取目录，却只能描述预期内容，说明工具调用没有接通。你面对的是附带编程提示的聊天模型，而不是代理。继续修改提示词无法修复此问题。
@@ -240,9 +240,9 @@ ollama launch claude --model gemma4:cloud --yes -- -p "how does this repository 
 在 Claude Code 会话中，`/loop` 会按指定间隔运行提示或斜杠命令：
 
 ```text
-/loop 30m Check my open PRs and summarize their status
-/loop 1h Research the latest AI news and summarize key developments
-/loop 15m Check for new GitHub issues and triage by priority
+/loop 30m 检查我未完成的 PR 并总结其状态
+/loop 1h 搜索最新 AI 新闻并总结重要进展
+/loop 15m 检查新的 GitHub 问题并按优先级分类
 ```
 
 *会话保持打开时，该命令才会运行。它不是后台守护进程，会随会话关闭而停止。*

@@ -1,7 +1,7 @@
 ---
 title: "Ansible 与 Puppet 与 Chef 2026：配置管理"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "2026 年 Ansible、Puppet 和 Chef 对比，涵盖架构、功能、学习曲线、性能、价格和使用场景。"
@@ -11,7 +11,6 @@ cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "一幅未来数据中心插图，分成三个区域，分别代表 Ansible、Puppet 和 Chef。每个区域展示不同的系统架构和发光连接，背景为深色。"
 coverCaption: "为你的基础设施选择合适的配置管理工具"
 ---
-
 ## Ansible 与 Puppet 与 Chef 2026：配置管理完整对比
 
 到了 2026 年，**配置管理**仍是大规模管理现代基础设施的关键。**Ansible**、**Puppet** 和 **Chef** 在企业市场中占据主导地位。这些工具支持**基础设施即代码 (IaC)**，让团队能够在数千个系统中自动配置服务器、部署应用和编排基础设施。
@@ -146,23 +145,23 @@ coverCaption: "为你的基础设施选择合适的配置管理工具"
 **示例**（安装并启动 Apache）：
 ```yaml
 ---
-- name: Configure web servers
+- name: 配置 Web 服务器
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: 安装 Apache
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: 启动 Apache 服务
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: 部署网站
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -186,19 +185,19 @@ coverCaption: "为你的基础设施选择合适的配置管理工具"
 **示例**（同样的 Apache 配置）：
 ```puppet
 class apache {
-  # Install Apache package
+  # 安装 Apache 软件包
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # 部署网站文件
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -228,20 +227,20 @@ node 'webserver.example.com' {
 
 **示例**（同样的 Apache 配置）：
 ```ruby
-# Recipe: apache::default
+# 配方: apache::default
 
-# Install Apache package
+# 安装 Apache 软件包
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# 启动并启用 Apache 服务
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# 部署网站文件
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -528,7 +527,7 @@ end
 
 **Ansible 方案**：
 ```yaml
-- name: Manage web server fleet
+- name: 管理 Web 服务器群
   hosts: webservers
   become: yes
   roles:
@@ -536,7 +535,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: 部署应用程序
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -549,7 +548,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -561,7 +560,7 @@ node /webserver\d+/ {
 
 **Chef 方案**：
 ```ruby
-# Role: webserver
+# 角色: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -569,7 +568,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# 配方: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

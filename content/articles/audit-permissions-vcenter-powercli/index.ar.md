@@ -1,7 +1,7 @@
 ---
 title: "كيفية تدقيق أذونات vCenter باستخدام PowerCLI"
 date: 2023-08-04
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "تعرّف على كيفية تدقيق أذونات vCenter باستخدام PowerCLI لحماية بنية تحتية افتراضية."
@@ -82,22 +82,22 @@ coverCaption: "احمِ vCenter من خلال تدقيق الأذونات باس
 
    مثال:
    ```powershell
-         # Connect to vCenter
+         # اتصل بخادم vCenter
       Connect-VIServer -Server <vCenterServer> -User <Username> -Password <Password>
 
-      # Get all vCenter users
+      # اجلب جميع مستخدمي vCenter
       $users = Get-VIUser
 
-      # Initialize an array to store user permissions
+      # هيّئ مصفوفة لتخزين أذونات المستخدمين
       $permissions = @()
 
-      # Iterate through each user and retrieve their permissions
+      # مرّ على كل مستخدم واسترجع أذوناته
       foreach ($user in $users) {
          $userPermissions = Get-VIPermission -Entity <vCenter> -Principal $user.Name
          $permissions += $userPermissions
       }
 
-      # Convert permissions to a CSV file
+      # حوّل الأذونات إلى ملف CSV
       $permissions | Export-Csv -Path "UserPermissions.csv" -NoTypeInformation
    ```
 

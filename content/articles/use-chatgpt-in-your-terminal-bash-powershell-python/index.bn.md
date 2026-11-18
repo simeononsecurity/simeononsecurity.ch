@@ -1,7 +1,7 @@
 ---
 title: "আপনার টার্মিনালে ChatGPT ব্যবহার করুন (Bash, PowerShell, Python): ডেভেলপারদের জন্য ChatGPT CLI টুলের একটি ভূমিকা"
 date: 2023-02-07
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "সহজে পাঠ্য তৈরি এবং প্রশ্নের উত্তর দেওয়ার জন্য সুবিধাজনক কমান্ড লাইন ইন্টারফেস (CLI) এর মাধ্যমে OpenAI এর ChatGPT মডেলটি কীভাবে ব্যবহার করবেন তা শিখুন।"
@@ -32,27 +32,27 @@ pip install chatgpt requests pyreadline3
 একবার ইনস্টল হয়ে গেলে, বিকাশকারীরা পাঠ্য তৈরি করতে বা সহজে প্রশ্নের উত্তর দিতে ChatGPT CLI ব্যবহার করতে পারে। উদাহরণস্বরূপ, একটি প্রম্পটের উপর ভিত্তি করে পাঠ্য তৈরি করতে, বিকাশকারীরা নিম্নলিখিত কমান্ডটি ব্যবহার করতে পারেন:
 
 ```bash
-chatgpt generate --prompt "What is the purpose of existence?"
+chatgpt generate --prompt "অস্তিত্বের উদ্দেশ্য কী?"
 ```
 
 অথবা, একটি প্রশ্নের উত্তর দিতে:
 
 ```bash
-chatgpt answer --question "What is the capital of France?"
+chatgpt answer --question "ফ্রান্সের রাজধানী কী?"
 ```
 
 ChatGPT CLI মৌলিক স্ক্রিপ্টগুলির সাথেও ব্যবহার করা যেতে পারে:
 
 **লিনাক্স:**
 ```bash
-prompt="What is the meaning of life?"
+prompt="জীবনের অর্থ কী?"
 answer=$(chatgpt generate --prompt "$prompt")
 echo "$answer"
 ```
 
 **উইন্ডোজ পাওয়ারশেল:**
 ```powershell
-$prompt = "What is the meaning of life?"
+$prompt = "জীবনের অর্থ কী?"
 $answer = chatgpt generate --prompt $prompt
 Write-Host $answer
 ```

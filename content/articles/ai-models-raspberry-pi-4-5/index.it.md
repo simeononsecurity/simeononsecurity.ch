@@ -61,7 +61,7 @@ Una prima prova sul Pi 4 sembrava molto peggiore delle misurazioni finali: circa
 
 Il Pi 5 da 8 GB ha gestito tutti i **25 modelli** nel nostro benchmark di velocità e memoria. La tabella include ogni prova, anche i modelli che non consigliamo per questo carico di risposte brevi. Il simbolo † indica un GGUF importato. “Think off” segnala l'impostazione usata per la prova di velocità; la prova separata di conformità non ha necessariamente usato la stessa impostazione.
 
-| Modello | File GB | Output tok/s | Risposta s | Picco RSS MB | Valutazione per risposte brevi |
+| Modello | File GB | Uscita tok/s | Risposta s | Picco RSS MB | Valutazione per risposte brevi |
 |---|---:|---:|---:|---:|---|
 | `lfm2.5-230m` † | 0.25 | 45.0 | 1.8 | 446 | Latenza più bassa; 78% di conformità ripetuta |
 | `bonsai-1.7b` †, Q1_0 | 0.25 | 15.3 | 8.2 | 871 | Da evitare: pesi a 1 bit e conformità 3/6 in un singolo test |

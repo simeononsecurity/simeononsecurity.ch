@@ -1,7 +1,7 @@
 ---
 title: "Processus de publication IA pour GitHub, Confluence et Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Publiez une proposition fixe de durée de conservation dans Confluence, GitHub et Jira, avec contrôle des versions et reprise après publication partielle."
@@ -176,7 +176,7 @@ Ces chaînes sont des exemples de proposition, pas des enregistrements issus d'u
 | Confluence REQ-17 | v4, sept jours | PROP-042 r1, Product a approuvé v4 vers v5 | Le responsable a écrit v5, le reviewer a rouvert v5 | Trente jours, sauvegardes et obligations légales exclues |
 | Configuration GitHub | Commit `base-001` sur `main`, sept jours | PROP-042 r1, Operations a approuvé le diff candidat | PR fusionnée en `merge-002`, clone indépendant relu à trente | Trente jours dans la source protégée |
 | Confluence RUN-04 | v2, sept jours | PROP-042 r1, Operations a approuvé v2 vers v3 | Le responsable a écrit v3, le reviewer a rouvert v3 | Procédure de trente jours avec retour arrière |
-| Jira PROP-042 | In Review | Décisions des deux responsables liées à r1 | Le responsable de livraison a joint les preuves et passé à `Done` | Clôture après les trois relectures |
+| Jira PROP-042 | En cours de révision | Décisions des deux responsables liées à r1 | Le responsable de livraison a joint les preuves et passé à `Done` | Clôture après les trois relectures |
 
 Les étiquettes ci-dessus sont illustratives et ne constituent pas des preuves de tenant. Votre journal doit contenir les liens natifs vers les versions de page et les ID de commit. Avant de passer Jira à `Done`, joignez la proposition figée, les deux revues de rôle, l'enregistrement de la base source, chaque preuve de lecture après publication, le résultat du test négatif et les limites d'exécution non résolues. S'il manque un élément, laissez la livraison ouverte ou `Blocked`.
 

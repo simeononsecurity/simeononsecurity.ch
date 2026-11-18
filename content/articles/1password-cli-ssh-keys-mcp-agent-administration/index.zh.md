@@ -1,12 +1,12 @@
 ---
 title: "1Password SSH Agent 和 CLI：只读 AI 代理访问"
 date: 2026-10-11
-lastmod: 2026-10-28
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "使用 1Password CLI、SSH Agent 和 MCP 设计只读 SSH 工作流。使用合成命令、窄权限，并在实时测试前进行人工审批。"
 genre: ["系统管理", "云安全", "自动化"]
-tags: ["1Password CLI", "SSH 密钥", "1Password SSH Agent", "MCP", "Model Context Protocol", "代理管理", "系统管理", "Bitbucket Cloud", "Git over SSH", "密钥引用", "服务账户", "最小权限", "公钥认证", "密钥管理", "命令行安全", "自动化安全"]
+tags: ["1Password CLI", "SSH 密钥", "1Password SSH Agent", "MCP", "Model Context Protocol", "代理管理", "系统管理", "Bitbucket Cloud", "通过 SSH 使用 Git", "密钥引用", "服务账户", "最小权限", "公钥身份验证", "密钥管理", "命令行安全", "自动化安全"]
 cover: "/img/cover/1password-cli-ssh-keys-mcp-agent-administration.webp"
 coverAlt: "抽象示意图，展示代理使用密钥引用、SSH Agent 和 MCP 工具，而不显示私钥。"
 coverCaption: ""
@@ -163,10 +163,10 @@ agent_policy:
 ```text
 target_class: test-repository
 remote_account: git
-operation: read-only connectivity check
-host_key_source: approved administrator record
-approval_owner: named operator
-rollback: remove public key and revoke test identity
+operation: 只读连通性检查
+host_key_source: 经管理员批准的记录
+approval_owner: 指定操作员
+rollback: 删除公钥并撤销测试身份
 ```
 
 **预期结果，未测试：** 该记录标识一个目标和一个操作。该记录不包含主机名、IP 地址、令牌、私钥或个人数据。
@@ -239,7 +239,7 @@ MCP 配置应通过客户端支持的环境机制引用运行时值。[1Password
 op --version
 op item create --category ssh --ssh-generate-key=ed25519 --vault "synthetic-test-vault" --title "synthetic-agent-admin-key"
 op read "op://synthetic-test-vault/synthetic-agent-admin-key/synthetic-public-key-field"
-# macOS or Linux only
+# 仅限 macOS 或 Linux
 ssh-add -l
 git ls-remote "<repository-ssh-url>" HEAD
 ```

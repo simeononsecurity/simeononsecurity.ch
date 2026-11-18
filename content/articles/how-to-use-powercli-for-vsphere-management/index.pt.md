@@ -1,7 +1,7 @@
 ---
 title: "Domine o PowerCLI para gerenciar o vSphere"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Aprenda a usar o PowerCLI para gerenciar VMware vSphere, automatizar tarefas e aumentar a produtividade."
@@ -68,10 +68,10 @@ O PowerCLI automatiza tarefas repetitivas. Poucas linhas de código podem execut
 #### Criar snapshots de todas as VMs em uma pasta
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## Desligar todas as máquinas virtuais em um host específico
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## Criar um snapshot de todas as máquinas virtuais em uma pasta específica
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Este script mostra como desligar as VMs de um host e criar snapshots das VMs em 
 #### Desligar todas as VMs de uma pasta com segurança
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## Obter a pasta que contém as máquinas virtuais que serão desligadas
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## Obter todas as máquinas virtuais na pasta especificada
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## Desligar todas as máquinas virtuais de forma ordenada
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

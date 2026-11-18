@@ -1,6 +1,7 @@
 ---
 title: "Flock-You সনাক্তকরণ: কাউন্টার-সার্ভেইল্যান্স সেটআপ গাইড"
 date: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "ESP32-ভিত্তিক হার্ডওয়্যার ব্যবহার করে Flock Safety ALPR ক্যামেরা সনাক্ত করার জন্য ওপেন-সোর্স Flock-You প্রকল্পের ব্যাপক প্রযুক্তিগত গাইড। সেটআপ নির্দেশাবলী, ফার্মওয়্যার বিবরণ এবং ক্রয় বিকল্প অন্তর্ভুক্ত।"
@@ -41,20 +42,20 @@ Flock Safety ক্যামেরায় সংযোগ এবং দূর�
 গবেষকরা **@NitekryDPaul** এবং **DeFlockJoplin** কমিউনিটি Flock Safety ক্যামেরা মোতায়েনে ধারাবাহিকভাবে উপস্থিত **৩১টি নির্দিষ্ট OUI** আবিষ্কার করেছেন:
 
 ```
-Primary Espressif OUIs (ESP32-based modules):
-D4:AD:FC - Espressif Inc. (Common ESP32-S3)
+প্রধান Espressif OUI (ESP32-ভিত্তিক মডিউল):
+D4:AD:FC - Espressif Inc. (সাধারণ ESP32-S3)
 AC:67:B2 - Espressif Inc. (ESP32-WROOM)
-84:F3:EB - Espressif Inc. (ESP32-S3 variants)
+84:F3:EB - Espressif Inc. (ESP32-S3-এর বিভিন্ন রূপ)
 B4:E6:2D - Espressif Inc. (ESP32-C3)
-CC:DB:A7 - Espressif Inc. (ESP32-based)
+CC:DB:A7 - Espressif Inc. (ESP32-ভিত্তিক)
 24:0A:C4 - Espressif Inc. (ESP32-SOLO)
 30:AE:A4 - Espressif Inc. (ESP32-WROVER)
-94:B9:7E - Espressif Inc. (ESP32-based)
+94:B9:7E - Espressif Inc. (ESP32-ভিত্তিক)
 A4:CF:12 - Espressif Inc. (ESP32-S2)
 C0:49:EF - Espressif Inc. (ESP32-C6)
 
-Additional OUIs identified in Flock deployments:
-[... 21 additional manufacturer OUIs ...]
+Flock স্থাপনায় শনাক্ত করা অতিরিক্ত OUI:
+[... আরও ২১টি নির্মাতার OUI ...]
 ```
 
 যখন একটি সনাক্তকরণ ডিভাইস প্রমিসকিউয়াস মোডে WiFi ট্রাফিক স্ক্যান করে, **এটি এই OUI সহ ফ্রেম প্রচারকারী যেকোনো ডিভাইস সনাক্ত করে**।
@@ -316,14 +317,14 @@ ______
 
 ২. **সফটওয়্যার সেটআপ**:
    ```bash
-   # Install PlatformIO
+   # PlatformIO ইনস্টল করুন
    pip install platformio
-   
-   # Clone repository
+
+   # রিপোজিটরি ক্লোন করুন
    git clone https://github.com/simeononsecurity/flock-you-esp32.git
    cd flock-you-esp32
-   
-   # Flash firmware
+
+   # ফার্মওয়্যার ফ্ল্যাশ করুন
    pio run -t upload
    pio device monitor
    ```
@@ -633,37 +634,37 @@ ______
 প্রযুক্তিগত বাস্তবায়নে আগ্রহীদের জন্য, সনাক্তকরণ যুক্তির একটি সরলীকৃত দৃশ্য:
 
 ```cpp
-// Flock-You Detection Core (Conceptual - not full code)
+// Flock-You শনাক্তকরণের মূল অংশ (ধারণামূলক, সম্পূর্ণ কোড নয়)
 
-// OUI Database (31 known Flock-associated OUIs)
+// OUI ডেটাবেস (Flock-এর সঙ্গে সম্পর্কিত 31টি OUI)
 const uint8_t FLOCK_OUI_LIST[][3] = {
     {0xD4, 0xAD, 0xFC}, // Espressif ESP32-S3
     {0xAC, 0x67, 0xB2}, // Espressif ESP32-WROOM
-    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 variant
-    // ... 28 more OUIs ...
+    {0x84, 0xF3, 0xEB}, // Espressif ESP32-S3 ভ্যারিয়েন্ট
+    // ... আরও 28টি OUI ...
 };
 
-// Promiscuous mode callback
+// প্রমিসকুয়াস মোড কলব্যাক
 void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     wifi_promiscuous_pkt_t *pkt = (wifi_promiscuous_pkt_t*)buf;
-    
-    // Extract MAC address from frame
-    uint8_t *mac = pkt->payload + 10; // addr2 field position
-    
-    // Check against OUI database
+
+    // ফ্রেম থেকে MAC ঠিকানা বের করুন
+    uint8_t *mac = pkt->payload + 10; // addr2 ফিল্ডের অবস্থান
+
+    // OUI ডেটাবেসে মিল পরীক্ষা করুন
     for (int i = 0; i < NUM_OUIS; i++) {
         if (memcmp(mac, FLOCK_OUI_LIST[i], 3) == 0) {
-            // OUI match found
+            // OUI মিল পাওয়া গেছে
             int rssi = pkt->rx_ctrl.rssi;
-            
-            // Check signal strength threshold
+
+            // সিগন্যাল শক্তির সীমা পরীক্ষা করুন
             if (rssi > RSSI_THRESHOLD) {
-                // Analyze frame for additional signatures
+                // অতিরিক্ত চিহ্নের জন্য ফ্রেম বিশ্লেষণ করুন
                 if (is_wildcard_probe_request(pkt)) {
-                    // High confidence detection
+                    // উচ্চ-নিশ্চয়তার শনাক্তকরণ
                     trigger_alert(mac, rssi, HIGH_CONFIDENCE);
                 } else {
-                    // OUI match only
+                    // শুধু OUI মিল
                     trigger_alert(mac, rssi, MEDIUM_CONFIDENCE);
                 }
             }
@@ -671,16 +672,16 @@ void wifi_sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
     }
 }
 
-// Wildcard probe detection
+// ওয়াইল্ডকার্ড প্রোব শনাক্তকরণ
 bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
-    // Management frame, subtype probe request
+    // ম্যানেজমেন্ট ফ্রেম, সাবটাইপ প্রোব রিকোয়েস্ট
     if ((pkt->payload[0] & 0x0F) != 0x04) return false;
-    
-    // Check for empty SSID IE (wildcard)
-    // Position depends on frame structure
-    uint8_t *ie = &pkt->payload[24]; // Start of IEs
+
+    // খালি SSID IE আছে কি না পরীক্ষা করুন (ওয়াইল্ডকার্ড)
+    // অবস্থান ফ্রেমের কাঠামোর ওপর নির্ভর করে
+    uint8_t *ie = &pkt->payload[24]; // IE-গুলোর শুরু
     if (ie[0] == 0x00 && ie[1] == 0x00) {
-        return true; // Wildcard probe
+        return true; // ওয়াইল্ডকার্ড প্রোব
     }
     return false;
 }

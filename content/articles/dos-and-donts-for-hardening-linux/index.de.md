@@ -1,6 +1,7 @@
 ---
-title: "Wesentliche Do's und Don'ts für die Absicherung Ihres Linux-Systems"
+title: "Wichtige Empfehlungen und Fehler, die Sie bei der Absicherung Ihres Linux-Systems vermeiden sollten"
 date: 2023-02-28
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: "Lernen Sie die wichtigsten Maßnahmen zur Absicherung Ihres Linux-Systems kennen, einschließlich Updates, Verwendung von Firewalls, Aktivierung von SELinux oder AppArmor, Konfiguration von Passwortrichtlinien und Überwachung von Systemprotokollen."
@@ -13,7 +14,7 @@ coverCaption: ""
 
 Linux ist ein beliebtes Betriebssystem, das von Privatpersonen und Unternehmen gleichermaßen genutzt wird. Obwohl es aufgrund seines Open-Source-Charakters oft als sicherer als andere Betriebssysteme gilt, muss es dennoch ordnungsgemäß gehärtet werden, um die Sicherheit des Systems und der darin gespeicherten Daten zu gewährleisten. In diesem Artikel gehen wir auf einige allgemeine Tipps und Tricks ein, die dazu beitragen können, Ihr Linux-System sicher zu machen.
 
-## Do's:
+## Empfehlungen:
 
 ### Halten Sie Ihr System auf dem neuesten Stand
 
@@ -290,13 +291,13 @@ Denken Sie daran, Ihre Systemprotokolle regelmäßig zu überprüfen und zu anal
 
 ______
 
-## Don'ts:
+## Zu vermeiden:
 
 ### Schwache Passwörter verwenden
 
 Die Verwendung schwacher Passwörter ist ein häufiger Fehler, der Ihr Linux-System anfällig für Angriffe machen kann. Angreifer können Tools verwenden, um Passwörter zu erraten, die auf allgemeinen Wörtern, Namen oder Daten basieren. Es ist wichtig, starke und eindeutige Passwörter zu verwenden, die nicht leicht zu erraten sind.
 
-Sie können sichere Kennwörter erstellen, indem Sie eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen verwenden. Es ist auch eine gute Praxis, ein [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) kann Ihnen auch dabei helfen, sich Ihre Passwörter zu merken und zu vermeiden, dass Sie das gleiche Passwort für mehrere Konten verwenden.
+Sie können sichere Kennwörter erstellen, indem Sie eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen verwenden. Es ist auch sinnvoll, einen [Passwortmanager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) zu verwenden, um komplexe Passwörter sicher zu erzeugen und zu speichern. [Passwortmanager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) helfen Ihnen außerdem dabei, sich Ihre Passwörter zu merken und nicht dasselbe Passwort für mehrere Konten zu verwenden.
 
 ### SSH-Zugang für root zulassen
 

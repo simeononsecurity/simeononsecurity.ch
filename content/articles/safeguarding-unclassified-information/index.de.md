@@ -1,10 +1,11 @@
 ---
 title: "Die Wahrheit über nicht klassifizierte Informationen: Merkmale, Schutz und Vorschriften"
 date: 2023-06-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Erfahren Sie mehr über die wahre Natur nicht klassifizierter Informationen, ihre wichtigsten Merkmale, Schutzmaßnahmen und die einschlägigen Vorschriften für einen wirksamen Schutz."
-genre: ["Informationssicherheit", "Data Management", "Staatliche Vorschriften", "Gemeinsame Nutzung von Informationen", "Datenschutz", "Vertraulichkeit", "Risikominderung", "Informationsmanagement", "Klassifizierung der Daten", "Zugang zu Informationen"]
+genre: ["Informationssicherheit", "Datenmanagement", "Staatliche Vorschriften", "Gemeinsame Nutzung von Informationen", "Datenschutz", "Vertraulichkeit", "Risikominderung", "Informationsmanagement", "Klassifizierung der Daten", "Zugang zu Informationen"]
 tags: ["nicht eingestufte Informationen", "Informationssicherheit", "staatliche Stellen", "datenschutz", "Informationsmanagement", "kontrollierte nicht eingestufte Informationen", "Zugangskontrollen", "Verschlüsselung", "Mitarbeiterschulung", "physische Sicherheit", "Datenklassifizierung", "Vertraulichkeit", "Informationsmanagement", "Risikominderung", "Informationsaustausch", "Datenverwaltung", "staatliche Vorschriften", "Informationszugang", "Absicherung", "Sicherheitsmaßnahmen", "sensible Informationen", "Wert der nicht eingestuften Informationen", "öffentlich verfügbare Daten", "CUI-Programm", "offizielle Unterlagen der Agentur", "Zugänglichkeit", "Austauschbarkeit", "begrenzte Empfindlichkeit", "Wert der nicht eingestuften Informationen", "Vorschriften für das CUI-Programm", "Vorfallreaktion", "physische Sicherheitsmaßnahmen"]
 cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "Eine symbolische Illustration eines verschlossenen Tresors, in dem sich nicht klassifizierte Informationen befinden."
@@ -13,7 +14,7 @@ coverCaption: "Sichern der Schlüssel: Schutz von nicht klassifizierten Informat
 
 ## Einleitung
 
-**Unclassified Information** ist ein Begriff, der häufig im Zusammenhang mit Regierungsbehörden und Organisationen verwendet wird. Er bezieht sich auf Informationen, die nicht als Verschlusssache eingestuft sind oder einer bestimmten Sicherheitsstufe zugeordnet sind. In diesem Artikel werden wir uns mit der Art der nicht eingestuften Informationen, ihren Merkmalen und den damit verbundenen Auswirkungen befassen. Wir werden uns auch mit der Bedeutung des Schutzes nicht klassifizierter Informationen und den Maßnahmen befassen, die zu ihrem Schutz ergriffen werden können.
+Der Begriff **nicht klassifizierte Informationen** wird häufig im Zusammenhang mit Regierungsbehörden und Organisationen verwendet. Er bezeichnet Informationen, die keiner Geheimhaltungsstufe zugeordnet sind. In diesem Artikel betrachten wir ihre Merkmale, Bedeutung und Schutzmaßnahmen.
 
 ______
 
@@ -43,7 +44,7 @@ Das Verständnis der Merkmale von **nicht eingestuften Informationen** ist entsc
 
 **4. Wert**: **Nicht als Verschlusssache eingestufte Informationen** können für Organisationen, Einzelpersonen oder andere Beteiligte von erheblichem Wert sein. Dazu können geistiges Eigentum, Forschungsergebnisse, Finanzdaten oder betriebliche Details gehören, die zum allgemeinen Funktionieren und Erfolg einer Einrichtung beitragen.
 
-**5. Unterliegt den Vorschriften**: Obwohl **unclassified information** nicht denselben strengen Schutzanforderungen unterliegt wie Verschlusssachen, können bestimmte Vorschriften und Richtlinien den Umgang, die Speicherung und die Weitergabe von Informationen regeln. In den Vereinigten Staaten unterliegt der Umgang mit **kontrollierten nicht eingestuften Informationen (CUI)** beispielsweise den Bestimmungen des [CUI program](https://www.archives.gov/cui), established by the National Archives and Records Administration (NARA)
+**5. Vorschriften**: Obwohl **nicht klassifizierte Informationen** nicht denselben strengen Schutzanforderungen wie Verschlusssachen unterliegen, regeln bestimmte Vorschriften und Richtlinien dennoch ihren Umgang, ihre Speicherung und Weitergabe. In den Vereinigten Staaten legt beispielsweise das von der National Archives and Records Administration (NARA) eingerichtete [CUI-Programm](https://www.archives.gov/cui) den Umgang mit **kontrollierten nicht klassifizierten Informationen (CUI)** fest.
 
 Das Verständnis dieser Merkmale ermöglicht es Organisationen, geeignete Maßnahmen zum Schutz von **unklassifizierten Informationen** zu ergreifen und potenzielle Risiken im Zusammenhang mit ihrer Handhabung und Weitergabe zu mindern.
 
@@ -51,7 +52,7 @@ ______
 
 ## Schutz nicht klassifizierter Informationen
 
-Auch wenn **unverschlüsselte Informationen** nicht dasselbe Schutzniveau erfordern wie Verschlusssachen, ist es dennoch unerlässlich, geeignete Schutzmaßnahmen zu ergreifen, um Risiken zu mindern und **Vertraulichkeit**, **Integrität** und **Verfügbarkeit** zu wahren. Hier sind einige Maßnahmen, die ergriffen werden können:
+Auch wenn **nicht klassifizierte Informationen** nicht dasselbe Schutzniveau wie Verschlusssachen erfordern, sind geeignete Schutzmaßnahmen unerlässlich, um Risiken zu mindern und **Vertraulichkeit**, **Integrität** und **Verfügbarkeit** zu wahren. Hier sind einige Maßnahmen:
 
 **1. Zugangskontrollen**: Implementieren Sie **Zugangskontrollen**, um sicherzustellen, dass nur autorisierte Personen auf nicht klassifizierte Informationen zugreifen und diese ändern können. Dies kann durch **Benutzerauthentifizierung**, **rollenspezifische Zugriffskontrollen** und regelmäßige Zugriffsüberprüfungen erreicht werden.
 
@@ -69,7 +70,7 @@ ______
 
 ## Schlussfolgerung
 
-**Unklassifizierte Informationen** spielen in Organisationen und Regierungsbehörden eine wichtige Rolle. Sie umfassen ein breites Spektrum an Daten und Wissen, die zwar nicht als Verschlusssache eingestuft sind, aber dennoch einen Wert darstellen und geschützt werden müssen. Durch das Verständnis der Merkmale nicht klassifizierter Informationen und die Implementierung geeigneter Schutzmaßnahmen können Organisationen die **Vertraulichkeit**, **Integrität** und **Verfügbarkeit** dieser wertvollen Informationen sicherstellen. Die Einhaltung einschlägiger staatlicher Vorschriften, wie z. B. der [CUI program](https://www.archives.gov/cui) in den Vereinigten Staaten den Schutz von nicht als Verschlusssache eingestuften Informationen weiter verbessert und zur allgemeinen **Informationssicherheit** beiträgt.
+**Unklassifizierte Informationen** spielen in Organisationen und Regierungsbehörden eine wichtige Rolle. Sie umfassen ein breites Spektrum an Daten und Wissen, die zwar nicht als Verschlusssache eingestuft sind, aber dennoch einen Wert darstellen und geschützt werden müssen. Durch das Verständnis der Merkmale nicht klassifizierter Informationen und die Implementierung geeigneter Schutzmaßnahmen können Organisationen die **Vertraulichkeit**, **Integrität** und **Verfügbarkeit** dieser wertvollen Informationen sicherstellen. Die Einhaltung einschlägiger staatlicher Vorschriften, wie etwa des [CUI-Programms](https://www.archives.gov/cui) in den Vereinigten Staaten, verbessert den Schutz nicht als Verschlusssache eingestufter Informationen und trägt zur allgemeinen **Informationssicherheit** bei.
 
 Der Schutz von nicht als Verschlusssache eingestuften Informationen ist von entscheidender Bedeutung, um das Vertrauen der Beteiligten zu erhalten, unbefugten Zugriff oder Offenlegung zu verhindern und den Ruf und die betriebliche Kontinuität von Organisationen zu wahren. Durch die Umsetzung der empfohlenen Maßnahmen können Organisationen eine sichere Umgebung für nicht klassifizierte Informationen schaffen und die damit verbundenen Risiken mindern.
 
@@ -77,4 +78,4 @@ ______
 
 ## Referenzen
 
-1. National Archives and Records Administration (NARA). Programm für kontrollierte nicht klassifizierte Informationen (CUI). Abgerufen von [https://www.archives.gov/cui](https://www.archives.gov/cui)
+1. National Archives and Records Administration (NARA). Programm für kontrollierte nicht klassifizierte Informationen (CUI). Abgerufen von [CUI-Programm auf archives.gov](https://www.archives.gov/cui)

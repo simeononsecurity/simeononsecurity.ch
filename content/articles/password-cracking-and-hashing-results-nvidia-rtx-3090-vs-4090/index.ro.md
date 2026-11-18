@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090: Comparație între performanțele de spargere a parolelor"
 date: 2023-05-16
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Descoperiți diferența de performanță dintre NVIDIA RTX 3090 și RTX 4090 în ceea ce privește spargerea parolelor, evidențiind implicațiile de securitate și măsurile de protecție."
@@ -49,7 +50,7 @@ Lungime parolă | Complexitate | RTX 3090 (secunde) | RTX 4090 (secunde)
 
 Rezultatele testelor noastre de referință arată că **RTX 4090** este un instrument puternic pentru spargerea parolelor. Acest lucru înseamnă că atacatorii pot sparge parolele mult mai repede decât până acum.
 
-Acest lucru reprezintă o preocupare serioasă în materie de securitate, deoarece înseamnă că atacatorii pot obține acum acces la conturi și sisteme mult mai ușor. Pentru a vă proteja împotriva atacurilor de spargere a parolelor, ar trebui să utilizați [**strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) that are difficult to guess. You should also use a [**password manager**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pentru a vă ajuta să generați și să stocați parole puternice.
+Aceasta este o problemă gravă de securitate, deoarece atacatorii pot obține astfel mult mai ușor acces la conturi și sisteme. Pentru a vă proteja împotriva atacurilor de spargere a parolelor, folosiți [**parole puternice**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/), greu de ghicit. Folosiți și un [**manager de parole**](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) pentru a crea și stoca [parole puternice](https://simeononsecurity.com/articles/how-to-create-strong-passwords/).
 
 ## Concluzie
 

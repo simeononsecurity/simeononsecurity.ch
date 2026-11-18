@@ -50,30 +50,30 @@ coverCaption: ""
 **Copia esta plantilla** para una tarea pequeña de programación o investigación. Elimina los campos irrelevantes en vez de rellenarlos con texto impreciso.
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+Resultado:
+Fuente autorizada y revisión:
+Archivos o registros pertinentes:
+Cambios permitidos:
+Cambios y acciones excluidos:
+Ejemplos del comportamiento deseado:
+Comprobaciones de finalización:
+Cuándo detenerse o preguntar:
+Informe con:
 ```
 
 **Para el laboratorio,** el paquete completo queda así:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+Objetivo: añade un filtro --status opcional a task_report.py.
+Fuente: docs/requirements.md, revisión 1.
+Archivos pertinentes: task_report.py, tasks.json, tests/.
+Cambios permitidos: task_report.py y pruebas específicas.
+Excluido: tasks.json, dependencias nuevas, commits y envíos.
+Ejemplos: sin filtro muestra Total tasks: 4. open y done muestran 2 cada uno.
+Comprobaciones: ejecuta las pruebas unitarias y cuatro comandos manuales: sin filtro, open, done y un valor no válido.
+El valor no válido debe devolver un código distinto de cero con un mensaje claro.
+Detente o pregunta si hay conflicto de fuentes, falta un archivo o falla una prueba inicial no relacionada.
+Informe: archivos modificados, comandos, resultados observados y asuntos pendientes.
 ```
 
 **En Windows,** usa `py -3` en los comandos del paquete si tu entorno utiliza el lanzador de Python.

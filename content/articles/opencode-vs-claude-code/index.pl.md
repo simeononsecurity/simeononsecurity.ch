@@ -1,7 +1,7 @@
 ---
 title: "OpenCode kontra Claude Code: Porównanie agentów programistycznych na 2026 rok"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Porównaj OpenCode i Claude Code pod względem wyboru modeli, lokalnego wnioskowania, cen, uprawnień, instrukcji projektu i codziennych przepływów pracy programisty."
@@ -111,10 +111,10 @@ ollama launch claude
 ```markdown
 # AGENTS.md
 
-Use the repository's documented build and test commands.
-Preserve unrelated changes.
-Explain failures before changing dependencies.
-Review the final diff before committing.
+Używaj udokumentowanych w repozytorium poleceń budowania i testowania.
+Zachowaj niezwiązane zmiany.
+Wyjaśnij błędy przed zmianą zależności.
+Przejrzyj końcowy diff przed commitem.
 ```
 
 **Wspólne instrukcje ograniczają szum porównania.** Trzymaj polecenia budowania, ograniczenia architektury i kryteria akceptacji w jednym pliku kanonicznym. [Dokumentacja zasad OpenCode](https://opencode.ai/docs/rules/) opisuje `AGENTS.md` i opcję awaryjną `CLAUDE.md`. Nie zakładaj, że każdy plik instrukcji jest automatycznie łączony.

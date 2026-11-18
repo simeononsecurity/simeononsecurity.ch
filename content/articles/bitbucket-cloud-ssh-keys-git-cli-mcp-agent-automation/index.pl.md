@@ -1,7 +1,7 @@
 ---
 title: "Klucze SSH Bitbucket Cloud: dostęp Git tylko do odczytu dla agentów AI"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Skonfiguruj klucze SSH Bitbucket Cloud, dostęp Git CLI, tokeny REST API, 1Password i narzędzia MCP dla procesów agentów AI działających tylko do odczytu."
@@ -138,7 +138,7 @@ Na jednym urządzeniu często znajduje się kilka kluczy Bitbucket. Szeroki agen
 Przenośny przykład oparty na plikach:
 
 ```ini
-# .gitconfig inside one local repository
+# .gitconfig wewnątrz jednego lokalnego repozytorium
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

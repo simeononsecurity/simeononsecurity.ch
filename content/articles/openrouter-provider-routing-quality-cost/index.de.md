@@ -1,12 +1,12 @@
 ---
 title: "OpenRouter-Provider-Routing: Modellqualität, Tokenlimits und reale Kosten"
 date: 2026-10-05
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Analysieren Sie uneinheitliche OpenRouter-Antworten, vergleichen Sie Endpoint-Limits und Cache-Kosten und konfigurieren Sie Provider-Routing, ohne Qualitätskontrollen versehentlich zu deaktivieren."
-genre: ["Künstliche Intelligenz", "Infrastruktur", "Open Source"]
-tags: ["OpenRouter", "Provider-Routing", "OpenRouter-Endpunkte", "KI-Modellqualität", "LLM-Inferenz", "Quantisierung", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "Tool-Aufrufe", "Kontextfenster", "maximale Tokens", "Reasoning-Tokens", "Prompt-Caching", "API-Kosten", "Provider-Fallback", "require_parameters", "KI-Agenten", "Inferenz-Benchmarks", "Endpoint-Tests", "Open-Weight-Modelle"]
+genre: ["Künstliche Intelligenz", "Infrastruktur", "offene Software"]
+tags: ["OpenRouter", "Anbieter-Routing", "OpenRouter-Endpunkte", "KI-Modellqualität", "LLM-Inferenz", "Quantisierung", "FP4", "MXFP4", "BF16", "gpt-oss-120b", "Auto Exacto", "Exacto", "Tool-Aufrufe", "Kontextfenster", "maximale Tokens", "Tokens für Schlussfolgerungen", "Prompt-Zwischenspeicherung", "API-Kosten", "Anbieter-Ausweichoption", "require_parameters", "KI-Agenten", "Inferenz-Benchmarks", "Endpoint-Tests", "Open-Weight-Modelle"]
 cover: "/img/cover/openrouter-provider-routing-inference-services.webp"
 coverAlt: "Abstrakte digitale Illustration verbundener Knoten für KI-Inferenzdienste mit leuchtenden Linien für den Datenfluss auf dunklem Hintergrund."
 coverCaption: ""
@@ -171,12 +171,12 @@ curl --fail --silent --show-error \
 | **B** | $0.42 | $1.32 |
 
 ```text
-Workload: 6 million input tokens + 1 million output tokens
+Arbeitslast: 6 Millionen Eingabetokens + 1 Million Ausgabetokens
 
 A = 6 × $0.03 + 1 × $16.00 = $16.18
 B = 6 × $0.42 + 1 × $1.32  =  $3.84
 
-Per million combined input and output tokens:
+Pro Million kombinierter Ein- und Ausgabetokens:
 A = $16.18 / 7 = $2.31
 B =  $3.84 / 7 = $0.55
 ```
@@ -210,7 +210,7 @@ B =  $3.84 / 7 = $0.55
 
 **Benchmarkunsicherheit zählt.** Die [Analyse von Epoch AI](https://epoch.ai/gradient-updates/why-benchmarking-is-hard) beschreibt Unterschiede durch Implementierungen, Sampling und Agentengerüste. Eine enttäuschende Antwort beweist weder einen dauerhaften Providerfehler noch seine Ursache.
 
-## Endpoint-Routing im Ablauf
+## Weiterleitung zu Endpunkten Schritt für Schritt
 
 {{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 

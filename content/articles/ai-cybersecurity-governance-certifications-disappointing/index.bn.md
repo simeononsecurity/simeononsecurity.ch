@@ -3,9 +3,9 @@ title: "AI সাইবার নিরাপত্তা সার্টিফ�
 draft: false
 toc: true
 date: 2026-06-26
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 description: "সার্টিফিকেশনের অভিজ্ঞতা ও বর্তমান আক্রমণ-পৃষ্ঠের সীমাবদ্ধতার ভিত্তিতে AI governance সার্টিফিকেশন এবং AI security চর্চার ব্যবধান নিয়ে মতামত।"
-tags: ["AI নিরাপত্তা", "AI governance", "AI সার্টিফিকেশন", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "প্রম্পট ইনজেকশন", "AI সাইবার নিরাপত্তা", "LLM নিরাপত্তা", "OWASP LLM Top 10", "MITRE ATLAS", "AI ঝুঁকি ব্যবস্থাপনা", "AI compliance", "মেশিন লার্নিং নিরাপত্তা", "মডেল supply chain", "প্রতিপক্ষীয় AI", "AI agent", "MCP নিরাপত্তা", "AI red teaming", "AI governance সার্টিফিকেশন", "agentic AI", "Google SAIF"]
+tags: ["AI নিরাপত্তা", "শাসনব্যবস্থা", "AI সার্টিফিকেশন", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "প্রম্পট ইনজেকশন", "AI সাইবার নিরাপত্তা", "LLM নিরাপত্তা", "OWASP LLM Top 10", "MITRE ATLAS", "AI ঝুঁকি ব্যবস্থাপনা", "সম্মতি", "মেশিন লার্নিং নিরাপত্তা", "মডেল supply chain", "প্রতিপক্ষীয় AI", "AI agent", "MCP নিরাপত্তা", "রেড টিম পরীক্ষা", "AI governance সার্টিফিকেশন", "এজেন্টভিত্তিক কৃত্রিম বুদ্ধিমত্তা", "Google SAIF"]
 cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
 coverAlt: "দুটি অংশে বিভক্ত দৃশ্য: এক পাশে অফিসে পেশাজীবীরা governance নথি নিয়ে আলোচনা করছেন; অন্য পাশে বিশৃঙ্খল ডিজিটাল চিত্র সাইবার আক্রমণের মুখে AI system দেখায়। উজ্জ্বল রং দুই দৃশ্যের পার্থক্য তুলে ধরে।"
 coverCaption: ""

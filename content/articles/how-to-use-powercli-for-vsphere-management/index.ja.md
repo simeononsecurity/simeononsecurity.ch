@@ -1,7 +1,7 @@
 ---
 title: "vSphere 管理のための PowerCLI 活用ガイド"
 date: 2023-08-02
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "PowerCLI を使って VMware vSphere を管理し、作業を自動化して生産性を高める方法を紹介します。"
@@ -68,10 +68,10 @@ PowerCLI の利点は、繰り返し作業を自動化できることです。�
 #### フォルダー内の全 VM のスナップショットを作成
 
 ```PowerShell
-## Power off all virtual machines on a specific host
+## 指定したホスト上のすべての仮想マシンを停止
 Get-VMHost -Name "MyHost" | Get-VM | Stop-VM
 
-## Take a snapshot of all virtual machines in a specific folder
+## 指定したフォルダー内のすべての仮想マシンのスナップショットを作成
 Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Description "Daily Backup"
 ```
 
@@ -80,13 +80,13 @@ Get-Folder -Name "MyFolder" | Get-VM | New-Snapshot -Name "DailySnapshot" -Descr
 #### フォルダー内の全 VM を安全にシャットダウン
 
 ```PowerShell
-## Retrieve the folder containing the virtual machines to be shutdown
+## 停止対象の仮想マシンを含むフォルダーを取得
 $folder = Get-Folder -Name "MyFolder"
 
-## Retrieve all virtual machines within the specified folder
+## 指定したフォルダー内のすべての仮想マシンを取得
 $vms = Get-VM -Location $folder
 
-## Shutdown all virtual machines gracefully
+## すべての仮想マシンを正常にシャットダウン
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "PoweredOn") {
         $vm | Shutdown-VMGuest -Confirm:$false

@@ -41,7 +41,7 @@ __________
 
 ### Canvieu el nom de xarxa (SSID) i la contrasenya per defecte
 
-El primer pas i el més important per protegir la xarxa sense fil és **canviar el nom de xarxa (SSID) i la contrasenya per defecte**. El SSID i la contrasenya que proporciona el fabricant de l'encaminador són fàcils d'endevinar i els pirates els poden aprofitar amb facilitat. Canvieu el SSID i la contrasenya per defecte per una combinació única i robusta 
+El primer pas i el més important per protegir la xarxa sense fil és **canviar el nom de xarxa (SSID) i la contrasenya per defecte**. El SSID i la contrasenya que proporciona el fabricant de l'encaminador són fàcils d'endevinar i els pirates els poden aprofitar amb facilitat. Canvieu el SSID i la contrasenya per defecte per una combinació única i robusta
 
 ### Feu servir contrasenyes segures
 

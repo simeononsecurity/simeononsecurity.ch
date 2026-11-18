@@ -1,7 +1,7 @@
 ---
 title: "Einsteigerhandbuch zur Website-Entwicklung: HTML, CSS und JavaScript"
 date: 2023-02-27
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Lernen Sie die Grundlagen der Website-Entwicklung, einschließlich HTML, CSS und JavaScript, mit diesem einsteigerfreundlichen Leitfaden."
@@ -27,11 +27,11 @@ Hier ist ein Beispiel für ein einfaches HTML-Dokument:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>Meine Website</title>
 </head>
 <body>
-  <h1>Welcome to my website!</h1>
-  <p>This is my first paragraph.</p>
+  <h1>Willkommen auf meiner Website!</h1>
+  <p>Dies ist mein erster Absatz.</p>
 </body>
 </html>
 ```
@@ -65,7 +65,7 @@ Um mehr über JavaScript zu erfahren, empfehlen wir [w3schools.com](https://www.
 Hier ist ein Beispiel für die Verwendung von JavaScript (innerhalb von HTML), um eine Meldung zu erstellen:
 
 ```js
-<button onclick="alert('Hello, world!')">Click me</button>
+<button onclick="alert('Hallo, Welt!')">Klick mich</button>
 ```
 
 Mit diesem Code wird eine Schaltfläche erstellt, die, wenn sie angeklickt wird, eine Meldung mit der Nachricht "Hallo, Welt!" anzeigt.

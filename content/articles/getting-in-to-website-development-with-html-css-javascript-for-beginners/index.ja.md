@@ -1,7 +1,7 @@
 ---
 title: "ウェブサイト制作の入門書：HTML、CSS、JavaScript"
 date: 2023-02-27
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "HTML、CSS、JavaScriptなど、Webサイト制作の基礎を初心者にわかりやすく解説します。"
@@ -27,11 +27,11 @@ HTMLを始めるには、HTMLの詳しいガイドを掲載している [w3schoo
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>マイウェブサイト</title>
 </head>
 <body>
-  <h1>Welcome to my website!</h1>
-  <p>This is my first paragraph.</p>
+  <h1>私のウェブサイトへようこそ！</h1>
+  <p>これが私の最初の段落です。</p>
 </body>
 </html>
 ```
@@ -65,7 +65,7 @@ JavaScriptについて詳しく知りたい方は、JavaScriptの包括的なガ
 ここでは、JavaScript（htmlの中）を使ってアラートを作成する例を紹介します：
 
 ```js
-<button onclick="alert('Hello, world!')">Click me</button>
+<button onclick="alert('こんにちは、世界！')">クリック</button>
 ```
 
 このコードは、クリックすると "Hello, world!"というメッセージのアラートが表示されるボタンを作成します。

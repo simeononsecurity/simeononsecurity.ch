@@ -1,7 +1,7 @@
 ---
 title: "9 proyectos de skills de agentes de IA para investigación, diseño y desarrollo"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Compara nueve proyectos de skills de agentes según el flujo de trabajo, el soporte del host, las dependencias y el coste. Aprende a instalar, inspeccionar y probar las skills que necesitas."
@@ -155,13 +155,13 @@ skillspector scan ./downloaded-skill --no-llm --format json --output report.json
 **Los comandos de ejemplo siguientes proceden de la documentación actual de instalación de los proyectos.** Ejecuta solo el comando del proyecto elegido. El ejecutor de paquetes descarga y ejecuta código de instalación, así que inspecciona el proyecto upstream y elige el alcance antes de ejecutarlo.
 
 ```bash
-# Humanizer: user-wide Codex installation
+# Humanizer: instalación de Codex para todo el usuario
 npx skills add blader/humanizer --global --agent codex
 
-# last30days: user-wide Codex installation
+# last30days: instalación de Codex para todo el usuario
 npx skills add mvanhorn/last30days-skill -g -a codex
 
-# Remotion: official skill collection, not the framework repository
+# Remotion: colección oficial de skills, no el repositorio del framework
 npx skills add remotion-dev/skills
 ```
 
@@ -185,7 +185,7 @@ npx skills add remotion-dev/skills
 **Usa una tarea guardada como línea base.** Ejecútala sin la skill nueva y después con ella, manteniendo constantes el modelo, la entrada, las herramientas y los criterios de aceptación cuando sea posible. Registra fallos y correcciones humanas junto con el resultado final.
 
 ```yaml
-# Illustrative evaluation record, not a skill configuration schema
+# Registro de evaluación ilustrativo, no un esquema de configuración de skills
 job: "review a settings page"
 input: "same source revision and test data"
 variants:

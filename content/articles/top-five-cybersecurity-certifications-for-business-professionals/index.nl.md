@@ -3,7 +3,7 @@ title: "De top 5 cyberbeveiligingscertificeringen voor zakelijke professionals"
 draft: false
 toc: true
 date: 2023-05-26
-lastmod: 2026-11-13
+lastmod: 2026-11-14
 description: "Vergelijk cyberbeveiligingscertificeringen voor zakelijke professionals op kosten, reikwijdte, carrièremogelijkheden en beschermingsverantwoordelijkheden."
 tags: ["cyberbeveiligingscertificeringen", "niet-technische certificeringen", "zakelijke professionals", "informatiebeveiliging", "privacybeheer", "vaardigheden in cyberbeveiliging", "gegevensbescherming", "certificeringsprogramma's", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP US", "beveiligingsgovernance", "privacyregelgeving", "naleving", "risicobeheer", "informatieprivacy", "bedrijfsbeveiliging", "gegevensprivacy", "certificeringen 2026", "beveiligingsleiderschap", "privacyprofessional", "cyberbeveiliging voor bedrijven", "certificeringen voor leidinggevenden", "managementcertificeringen", "beveiligingsnaleving", "GDPR-naleving", "CCPA-naleving", "HIPAA-naleving", "functionaris voor gegevensbescherming", "privacyfunctionaris", "beveiligingsmanager", "governance voor cyberbeveiliging", "risicobeoordeling", "beveiligingsframeworks", "privacyframeworks", "certificeringskosten", "rendement van certificering", "loopbaanontwikkeling", "salarisstijging", "beveiligingsvaardigheden voor bedrijven", "enterprise-beveiliging", "beveiliging van organisaties", "beveiligingsstrategie", "privacystrategie", "compliancemanagement", "beheer van beveiligingsprogramma's", "beheer van privacyprogramma's", "bedrijfsrisicobeheer", "beveiligingsbeleid", "privacybeleid"]
 cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
@@ -540,7 +540,7 @@ Deze combinatie biedt:
 | Technische diepgang | Laag | Geen | Geen | Gemiddeld |
 | Managementfocus | Zeer hoog | Laag | Laag | Gemiddeld |
 | Focus op implementatie | Zeer hoog | Gemiddeld | Gemiddeld | Hoog |
-| Ideale functie | Privacymanager/-functionaris | DPO | VS-privacymanager | Privacy-engineer |
+| Ideale functie | Privacymanager/-functionaris | DPO | VS-privacymanager | Privacy-ingenieur |
 
 Meer informatie over CIPM: [CIPM - Certified Information Privacy Manager](https://iapp.org/certify/cipm/)
 
@@ -1092,7 +1092,7 @@ Veel professionals vragen zich af of zij CIPP/US of CIPP/E moeten behalen:
 |---|---:|
 | Privacyanalist | $75,000-$95,000 |
 | Privacymanager | $110,000-$140,000 |
-| Chief Privacy Officer | $160,000-$220,000 |
+| Hoofd privacy | $160,000-$220,000 |
 | Privacyjurist | $140,000-$200,000 |
 | Privacyconsultant | $120,000-$175,000 |
 

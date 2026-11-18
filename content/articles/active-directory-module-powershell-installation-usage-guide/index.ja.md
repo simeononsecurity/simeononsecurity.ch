@@ -48,7 +48,7 @@ tags:
 cover: /img/cover/active-directory-module-powershell-installation-usage-guide.webp
 coverAlt: カラフルなコマンドレットが表示されたPowerShellコンソールのコンピュータ画面のイラスト。ユーザーアカウントやグループを抽象的に表現したものに囲まれ、暗い背景に配置されています。
 coverCaption: PowerShellでActive Directory管理の力を解き放つ。
-lastmod: 2026-10-08
+lastmod: 2026-11-13
 ---
 
 ## はじめに
@@ -69,7 +69,7 @@ Add-WindowsCapability -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 -Online
 
 1. インストールが完了するまで待ちます。完了後、Active Directoryモジュールを使用開始できます。
 
-### Windows Server 
+### Windows Server
 1. 管理者権限で**Windows PowerShell**を開きます。
 2. 次のコマンドを実行してモジュールをインストールします。
 
@@ -224,29 +224,29 @@ Active Directory (AD) オブジェクトの管理・運用に加え、PowerShell
 
 ## PowerShell 用 Active Directory モジュールの例スクリプト
 ```powershell
-# Import Active Directory module
+# Active Directory モジュールをインポート
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# Active Directory の情報を取得
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# 新しい Active Directory ユーザーを作成
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# 新しい Active Directory グループを作成
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# 新しい Active Directory 組織単位を作成
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# Active Directory オブジェクトを変更
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# Active Directory のセキュリティを管理
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

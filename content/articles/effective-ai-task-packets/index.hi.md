@@ -50,30 +50,30 @@ coverCaption: ""
 **छोटे कोडिंग या शोध कार्य के लिए यह प्रारूप कॉपी करें।** अप्रासंगिक फ़ील्ड को अस्पष्ट पाठ से भरने की बजाय हटा दें।
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+परिणाम:
+अधिकृत स्रोत और संशोधन:
+संबंधित फ़ाइलें या रिकॉर्ड:
+अनुमत बदलाव:
+बहिष्कृत बदलाव और कार्रवाइयाँ:
+वांछित व्यवहार के उदाहरण:
+पूर्णता जाँच:
+कब रुकें या पूछें:
+वापसी रिपोर्ट में दें:
 ```
 
 **प्रयोगशाला के लिए** पूरा पैकेट इस तरह दिखता है:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+परिणाम: task_report.py में वैकल्पिक --status फ़िल्टर जोड़ें।
+स्रोत: docs/requirements.md, संशोधन 1।
+संबंधित फ़ाइलें: task_report.py, tasks.json, tests/.
+अनुमत बदलाव: task_report.py और लक्षित परीक्षण.
+बहिष्कृत: tasks.json, नई निर्भरताएँ, कमिट और पुश।
+उदाहरण: बिना फ़िल्टर के Total tasks: 4 दिखता है। open और done दोनों में 2 दिखते हैं।
+जाँच: यूनिट टेस्ट और चार मैन्युअल कमांड चलाएँ: बिना फ़िल्टर, open, done और अमान्य मान।
+अमान्य मान को स्पष्ट त्रुटि संदेश के साथ शून्य से अलग exit code देना चाहिए।
+स्रोत टकराएँ, फ़ाइल न मिले या असंबंधित शुरुआती जाँच विफल हो तो रुकें या पूछें।
+रिपोर्ट: बदली फ़ाइलें, कमांड, देखे गए आउटपुट और अनसुलझे मुद्दे।
 ```
 
 **Windows पर,** यदि आपका परिवेश Python launcher इस्तेमाल करता है, तो पैकेट के कमांड में `py -3` लिखें।

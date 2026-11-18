@@ -3,6 +3,7 @@ title: "PowerShell Scripting: Een stap-voor-stap handleiding voor beginners om t
 draft: false
 toc: true
 date: 2023-02-25
+lastmod: 2026-11-14
 description: "Leer de basis van PowerShell scripting en automatiseer taken met deze stap-voor-stap handleiding voor beginners, waarin cmdlets, loops, functies en meer aan bod komen."
 genre: ["Technologie", "Programmeren", "Automatisering", "Windows", "Scripting", "IT", "Administratieve taken", "Computerbeheer", "Software Ontwikkeling", "Codering"]
 tags: ["PowerShell-scripting", "PowerShell automatisering", "Windows scripting", "PowerShell cmdlets", "PowerShell-modules", "PowerShell-lussen", "PowerShell voorwaardelijke verklaringen", "PowerShell-functies", "PowerShell best practices", "PowerShell debugging", "PowerShell testen", "PowerShell-variabelen", "PowerShell ISE", "PowerShell Remoting", "Microsoft-technologieën", "IT-automatisering", "computerbeheer", "coderen voor beginners", "administratieve taken", "PowerShell script-ideeën", "geautomatiseerde back-ups", "bestandsbeheer", "systeeminformatie", "gebruikersbeheer", "software-installatie", "netwerkconfiguratie", "veiligheidsautomatisering", "taakplanning", "register manipulatie", "administratie op afstand"]
@@ -24,7 +25,7 @@ PowerShell is een krachtige commandoregel-shell en scripttaal ontwikkeld door Mi
 
 PowerShell is vooraf geïnstalleerd in de meeste versies van het Windows-besturingssysteem. Als u echter een oudere versie van Windows gebruikt of als u een nieuwere versie van PowerShell nodig hebt, kunt u deze downloaden van de Microsoft-website. Volg deze stappen om PowerShell te downloaden en te installeren:
 
-1. Ga naar de [Microsoft PowerShell website](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) en selecteer de versie van PowerShell die je wilt installeren.
+1. Ga naar de [officiële Microsoft PowerShell-site](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) en selecteer de versie van PowerShell die je wilt installeren.
 2. Download het installatiebestand en voer het uit.
 3. Volg de instructies op het scherm om het installatieproces te voltooien.
 
@@ -78,7 +79,7 @@ Lussen worden gebruikt om een blok code een bepaald aantal keren te herhalen. Po
 - **While loop**: herhaalt een blok code zolang een voorwaarde waar is.
 - **Do-While loop**: herhaalt een blok code minstens één keer en daarna zolang een voorwaarde waar is.
 - **orEach loop**: herhaalt een blok code voor elk item in een verzameling.
-  
+
 De volgende code gebruikt bijvoorbeeld een For-lus om de getallen 1 tot en met 5 af te drukken:
 ```powershell
 for($i=1; $i -le 5; $i++) {
@@ -101,7 +102,7 @@ De volgende code gebruikt bijvoorbeeld een If-instructie om te controleren of ee
 ```powershell
 $number = 10
 if ($number -gt 5) {
-    Write-Host "The number is greater than 5"
+    Write-Host "Het getal is groter dan 5"
 }
 ```
 #### Functies
@@ -122,7 +123,7 @@ function Add-Numbers {
 }
 
 $result = Add-Numbers -num1 5 -num2 10
-Write-Host "The result is $result"
+Write-Host "Het resultaat is $result"
 ```
 ### PowerShell ISE
 PowerShell ISE (Integrated Scripting Environment) is een grafische gebruikersinterface voor PowerShell-scripts. PowerShell ISE biedt een rijke teksteditor, foutopsporingstools en andere functies die het schrijven en testen van PowerShell-scripts vergemakkelijken. Voer de volgende stappen uit om PowerShell ISE te openen:
@@ -171,11 +172,11 @@ Bij het schrijven van **PowerShell scripts** is het belangrijk om best practices
 
 - **Gebruik beschrijvende namen voor variabelen**: Gebruik variabele namen die duidelijk hun doel aangeven.
 - **Gebruik commentaar**: Gebruik commentaar om het doel van de code uit te leggen.
-- **Gebruik foutafhandeling**: Gebruik foutafhandeling om fouten en uitzonderingen netjes af te handelen. De `Try...Catch...Finally` construct in PowerShell kun je uitzonderingen afhandelen en de juiste acties ondernemen. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
-- **Scripts grondig testen**: Test scripts grondig om ervoor te zorgen dat ze werken zoals verwacht. Je kunt **Pester**, een testframework voor PowerShell, gebruiken om eenheidstests voor je scripts te schrijven en uit te voeren. [Pester Documentation](https://pester.dev/)
-- **Gebruik functies en modules**: Gebruik functies en modules om code te organiseren en herbruikbaarheid te verbeteren. Met functies kunt u uw code opdelen in kleinere, hanteerbare stukken, terwijl modules een manier bieden om uw code te verpakken en te verspreiden. [About Functions](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [About Modules](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
-- **Vermijd het coderen van waarden**: Vermijd het hardcoden van waarden in het script en gebruik in plaats daarvan parameters of variabelen. Dit maakt je scripts flexibeler en herbruikbaarder. Je kunt parameters aan je scripts doorgeven met de `param` trefwoord. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
-- **Use verbose output** gebruiken: Gebruik verbose uitvoer om extra informatie te geven over de voortgang van het script. U kunt de `Write-Verbose` cmdlet om uitgebreide berichten weer te geven tijdens het uitvoeren van het script. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
+- **Gebruik foutafhandeling**: Gebruik foutafhandeling om fouten en uitzonderingen netjes af te handelen. De `Try...Catch...Finally` construct in PowerShell kun je uitzonderingen afhandelen en de juiste acties ondernemen. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-try-catch-finally?view=powershell-7.1)
+- **Scripts grondig testen**: Test scripts grondig om ervoor te zorgen dat ze werken zoals verwacht. Je kunt **Pester**, een testframework voor PowerShell, gebruiken om eenheidstests voor je scripts te schrijven en uit te voeren. [Pester-documentatie](https://pester.dev/)
+- **Gebruik functies en modules**: Gebruik functies en modules om code te organiseren en herbruikbaarheid te verbeteren. Met functies kunt u uw code opdelen in kleinere, hanteerbare stukken, terwijl modules een manier bieden om uw code te verpakken en te verspreiden. [Over functies](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-functions?view=powershell-7.1), [Over modules](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-modules?view=powershell-7.1)
+- **Vermijd het coderen van waarden**: Vermijd het hardcoden van waarden in het script en gebruik in plaats daarvan parameters of variabelen. Dit maakt je scripts flexibeler en herbruikbaarder. Je kunt parameters aan je scripts doorgeven met de `param` trefwoord. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.1)
+- **Uitgebreide uitvoer** gebruiken: Gebruik verbose uitvoer om extra informatie te geven over de voortgang van het script. U kunt de `Write-Verbose` cmdlet om uitgebreide berichten weer te geven tijdens het uitvoeren van het script. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-verbose?view=powershell-7.1)
 
 Als u deze best practices volgt, kunt u efficiëntere en beter onderhoudbare PowerShell-scripts schrijven, waardoor uw productiviteit toeneemt en de stabiliteit van uw automatiseringstaken wordt gegarandeerd.
 
@@ -187,10 +188,10 @@ Foutafhandeling is een kritisch aspect van PowerShell-scripting, omdat het ervoo
 Hier is een voorbeeld van het gebruik van het Try-Catch statement om een fout netjes af te handelen:
 ```powershell
 try {
-    # some code that might throw an error
+    # code dat een fout kan veroorzaken
 }
 catch {
-    Write-Error "An error occurred: $_"
+    Write-Error "Er is een fout opgetreden: $_"
 }
 ```
 
@@ -200,11 +201,11 @@ Het testen van PowerShell-scripts is essentieel om ervoor te zorgen dat ze werke
 
 Hier volgt een voorbeeld van het gebruik van Pester om een PowerShell-script te testen:
 ```powershell
-Describe "My PowerShell Script" {
-    It "Does something" {
-        # some code that should return the expected result
+Describe "Mijn PowerShell-script" {
+    It "Doet iets" {
+        # code dat het verwachte resultaat moet opleveren
         $result = Do-Something
-        $result | Should -Be "expected result"
+        $result | Should -Be "verwachte resultaat"
     }
 }
 ```
@@ -221,7 +222,7 @@ function Get-ProcessCount {
 }
 
 $count = Get-ProcessCount
-Write-Host "There are $count processes running."
+Write-Host "Er zijn $count processen actief."
 ```
 
 #### Vermijd hardcodering van waarden
@@ -233,7 +234,7 @@ param (
     [string]$name
 )
 
-Write-Host "Hello, $name!"
+Write-Host "Hallo, $name!"
 ```
 
 #### Verbose uitvoer gebruiken
@@ -242,39 +243,39 @@ Verbose uitvoer geeft extra informatie over de voortgang van het script, wat han
 Hier volgt een voorbeeld van het gebruik van verbose-uitvoer in PowerShell:
 ```powershell
 function Get-ProcessCount {
-    Write-Verbose "Getting processes..."
+    Write-Verbose "Processen ophalen..."
     $processes = Get-Process
     $count = $processes.Count
     return $count
 }
 
 $count = Get-ProcessCount -Verbose
-Write-Host "There are $count processes running."
+Write-Host "Er zijn $count processen actief."
 ```
 
 ### Tien PowerShell Script-ideeën voor beginners
 
 Als je een beginner bent in PowerShell scripting, zijn hier tien scriptideeën om je op weg te helpen:
 
-- **Geautomatiseerde back-ups**: Maak een script dat het proces van het maken van back-ups van belangrijke bestanden en mappen naar een externe harde schijf of cloudopslagdienst automatiseert. Je kunt de `Copy-Item` cmdlet om bestanden te kopiëren en het `Start-Job` cmdlet om het back-upproces op de achtergrond uit te voeren. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
+- **Geautomatiseerde back-ups**: Maak een script dat het proces van het maken van back-ups van belangrijke bestanden en mappen naar een externe harde schijf of cloudopslagdienst automatiseert. Je kunt de `Copy-Item` cmdlet om bestanden te kopiëren en het `Start-Job` cmdlet om het back-upproces op de achtergrond uit te voeren. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.1)
 
-- **Bestandsbeheer**: Maak een script dat bestanden en mappen organiseert door ze in verschillende mappen te sorteren op basis van bestandstype, grootte of andere criteria. Je kunt de `Get-ChildItem` cmdlet om bestanden op te halen en de `Move-Item` cmdlet om ze naar de gewenste locatie te verplaatsen. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
+- **Bestandsbeheer**: Maak een script dat bestanden en mappen organiseert door ze in verschillende mappen te sorteren op basis van bestandstype, grootte of andere criteria. Je kunt de `Get-ChildItem` cmdlet om bestanden op te halen en de `Move-Item` cmdlet om ze naar de gewenste locatie te verplaatsen. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/move-item?view=powershell-7.1)
 
-- **Systeeminformatie**: Maak een script dat systeeminformatie ophaalt, zoals CPU- en geheugengebruik, schijfruimte en netwerkinstellingen, en dit weergeeft in een makkelijk te lezen formaat. Je kunt de `Get-WmiObject` cmdlet om systeeminformatie te verzamelen en op te maken met `Format-Table` of `Out-GridView` [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
+- **Systeeminformatie**: Maak een script dat systeeminformatie ophaalt, zoals CPU- en geheugengebruik, schijfruimte en netwerkinstellingen, en dit weergeeft in een makkelijk te lezen formaat. Je kunt de `Get-WmiObject` cmdlet om systeeminformatie te verzamelen en op te maken met `Format-Table` of `Out-GridView` [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-7.1)
 
-- **Gebruikersbeheer**: Maak een script dat het toevoegen, wijzigen of verwijderen van gebruikers en groepen in het Windows-besturingssysteem automatiseert. Je kunt de `New-LocalUser` `Set-LocalUser` en `Remove-LocalUser` cmdlets om gebruikers te beheren en de `New-LocalGroup` `Add-LocalGroupMember` en `Remove-LocalGroup` cmdlets om groepen te beheren. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
+- **Gebruikersbeheer**: Maak een script dat het toevoegen, wijzigen of verwijderen van gebruikers en groepen in het Windows-besturingssysteem automatiseert. Je kunt de `New-LocalUser` `Set-LocalUser` en `Remove-LocalUser` cmdlets om gebruikers te beheren en de `New-LocalGroup` `Add-LocalGroupMember` en `Remove-LocalGroup` cmdlets om groepen te beheren. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser?view=powershell-7.1), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localgroup?view=powershell-7.1)
 
-- **Software-installatie**: Maak een script dat software op meerdere computers tegelijk installeert en configureert, waardoor je tijd en moeite bespaart. U kunt de `Invoke-Command` cmdlet om installatieopdrachten uit te voeren op computers op afstand. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- **Software-installatie**: Maak een script dat software op meerdere computers tegelijk installeert en configureert, waardoor je tijd en moeite bespaart. U kunt de `Invoke-Command` cmdlet om installatieopdrachten uit te voeren op computers op afstand. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
-- **Netwerkconfiguratie**: Maak een script dat het proces voor het configureren van netwerkinstellingen automatiseert, zoals IP-adres, subnetmasker en standaardgateway. Je kunt de `Set-NetIPAddress` `Set-NetIPInterface` en `Set-DnsClientServerAddress` cmdlets om netwerkinstellingen te configureren. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
+- **Netwerkconfiguratie**: Maak een script dat het proces voor het configureren van netwerkinstellingen automatiseert, zoals IP-adres, subnetmasker en standaardgateway. Je kunt de `Set-NetIPAddress` `Set-NetIPInterface` en `Set-DnsClientServerAddress` cmdlets om netwerkinstellingen te configureren. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipaddress?view=win10-ps), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface?view=win10-ps), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/dnsclient/set-dnsclientserveraddress?view=win10-ps)
 
-- **Veiligheid**: Maak een script dat de beveiligingsinstellingen controleert en bewaakt en de gebruiker waarschuwt als er wijzigingen worden gedetecteerd. U kunt de `Get-AuditPolicy` cmdlet om auditbeleidslijnen op te halen en de `Send-MailMessage` cmdlet om e-mailmeldingen te versturen. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
+- **Veiligheid**: Maak een script dat de beveiligingsinstellingen controleert en bewaakt en de gebruiker waarschuwt als er wijzigingen worden gedetecteerd. U kunt de `Get-AuditPolicy` cmdlet om auditbeleidslijnen op te halen en de `Send-MailMessage` cmdlet om e-mailmeldingen te versturen. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-auditpolicy?view=powershell-7.1), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7.1)
 
-- **Taken plannen**: Maak een script dat terugkerende taken plant en automatiseert, zoals back-ups, updates en systeemscans. U kunt de `Register-ScheduledTask` cmdlet om geplande taken te maken en de `Start-ScheduledTask` cmdlet om ze uit te voeren. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
+- **Taken plannen**: Maak een script dat terugkerende taken plant en automatiseert, zoals back-ups, updates en systeemscans. U kunt de `Register-ScheduledTask` cmdlet om geplande taken te maken en de `Start-ScheduledTask` cmdlet om ze uit te voeren. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask?view=win10-ps), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask?view=win10-ps)
 
-- **Registry manipulatie**: Maak een script dat de registerwaarden voor specifieke sleutels of waarden wijzigt of ophaalt. Je kunt de `Get-ItemProperty` en `Set-ItemProperty` cmdlets voor interactie met het register. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
+- **Registry manipulatie**: Maak een script dat de registerwaarden voor specifieke sleutels of waarden wijzigt of ophaalt. Je kunt de `Get-ItemProperty` en `Set-ItemProperty` cmdlets voor interactie met het register. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.1), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.1)
 
-- **Op afstand beheren**: Maak een script waarmee Windows-computers op afstand kunnen worden beheerd, zodat gebruikers opdrachten en scripts kunnen uitvoeren op computers op afstand. U kunt de `Enter-PSSession` cmdlet of het `Invoke-Command` cmdlet om commando's uit te voeren op computers op afstand. [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
+- **Op afstand beheren**: Maak een script waarmee Windows-computers op afstand kunnen worden beheerd, zodat gebruikers opdrachten en scripts kunnen uitvoeren op computers op afstand. U kunt de `Enter-PSSession` cmdlet of het `Invoke-Command` cmdlet om commando's uit te voeren op computers op afstand. [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enter-pssession?view=powershell-7.1), [Microsoft-documentatie](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.1)
 
 Begin met het verkennen van deze scriptideeën om praktische ervaring op te doen en je PowerShell-vaardigheden uit te breiden.
 

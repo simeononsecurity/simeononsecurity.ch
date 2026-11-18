@@ -1,7 +1,7 @@
 ---
 title: "Chei SSH Bitbucket Cloud: acces Git doar în citire pentru agenți AI"
 date: 2026-10-11
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Configurați chei SSH Bitbucket Cloud, acces Git CLI, tokenuri REST API, 1Password și instrumente MCP pentru fluxuri de lucru ale agenților AI doar în citire."
@@ -138,7 +138,7 @@ Un dispozitiv are adesea mai multe chei Bitbucket. Un agent SSH general oferă m
 Exemplu portabil bazat pe fișiere:
 
 ```ini
-# .gitconfig inside one local repository
+# .gitconfig în interiorul unui singur depozit local
 [core]
     sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/<repository-automation-key>
 ```

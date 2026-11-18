@@ -1,12 +1,12 @@
 ---
 title: "Comment commencer une carrière en cybersécurité"
 date: 2023-11-05
-lastmod: 2026-11-09
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "Découvrez les métiers, l'utilité du code et les langages de programmation adaptés à la cybersécurité. Choisissez votre voie."
 genre: ["Technologie", "Cybersécurité", "Carrière", "Programmation", "Informatique", "Compétences", "Possibilités", "Apprentissage", "Codage", "Numérique"]
-tags: ["Cybersécurité", "Parcours professionnels", "Langages de programmation", "Compétences en codage", "Métiers non techniques", "Métiers techniques", "Carrières informatiques", "Tendances technologiques", "Analyse de sécurité", "Sécurité des réseaux", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C sharp", "PHP", "Protection des données", "Criminalistique numérique", "Piratage éthique", "Développement logiciel", "Cyberdéfense", "Ingénierie réseau", "Conseil en sécurité", "Développement des compétences", "Sécurité de l'information", "Détection des menaces", "Réponse aux incidents", "Codage pour la sécurité"]
+tags: ["Cybersécurité", "Parcours professionnels", "Langages de programmation", "Compétences en codage", "Métiers non techniques", "Métiers techniques", "Carrières informatiques", "Tendances technologiques", "Analyse de sécurité", "Sécurité des réseaux", "Python", "Java", "JavaScript", "Go", "Swift", "Kotlin", "C#", "PHP", "Protection des données", "Criminalistique numérique", "Piratage éthique", "Développement logiciel", "Cyberdéfense", "Ingénierie réseau", "Conseil en sécurité", "Développement des compétences", "Sécurité de l'information", "Détection des menaces", "Réponse aux incidents", "Codage pour la sécurité"]
 cover: "/img/cover/cybersecurity_cape_guard.webp"
 coverAlt: "Un professionnel de la cybersécurité, vêtu d'une cape et muni d'un ordinateur portable, protège contre les menaces numériques."
 coverCaption: "Les gardiens du monde numérique contribuent à la sécurité en ligne."

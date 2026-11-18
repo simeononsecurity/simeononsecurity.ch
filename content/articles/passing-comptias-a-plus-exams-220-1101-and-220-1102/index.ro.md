@@ -72,9 +72,9 @@ Pentru a avea succes la examenele CompTIA A+, este important să folosiți mai m
 
 O resursă excelentă pentru a studia pentru examenele CompTIA A+ este platforma oficială de învățare online CompTIA CertMaster. CertMaster oferă o învățare interactivă cu o varietate de materiale de studiu, inclusiv videoclipuri, întrebări practice și carduri flash.
 
-Alte resurse de studiu de renume includ [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), the [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), and the [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN) 
+Alte resurse de studiu de renume includ [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), și [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN).
 
-În plus, există numeroase cursuri și tutoriale online disponibile prin intermediul unor furnizori precum [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/) Atunci când folosiți mai multe resurse de studiu, este important să vă concentrați asupra celor care se aliniază cu obiectivele examenului și să folosiți resurse din surse de încredere pentru a asigura acuratețea și calitatea.
+În plus, există numeroase cursuri și tutoriale online disponibile prin intermediul unor furnizori precum [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/) și [Coursera](https://www.coursera.org/). Atunci când folosiți mai multe resurse de studiu, este important să vă concentrați asupra celor care se aliniază cu obiectivele examenului și să folosiți resurse din surse de încredere pentru a asigura acuratețea și calitatea.
 
 {{< youtube id="87t6P5ZHTP0" >}}{{< youtube id="OS9MJjNK6gA" >}}
 

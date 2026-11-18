@@ -1,7 +1,7 @@
 ---
 title: "Une source, de nombreux outils : construire un cadre de collaboration IA pour des équipes mixtes"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Construisez un cadre de collaboration IA partagé pour les développeurs et les non-développeurs. Définissez les sources de vérité, suivez les versions du contexte, examinez les changements durables et choisissez une carte de projet, du RAG ou les deux."
@@ -160,19 +160,19 @@ tracker:
 ### Encadré : en-tête AGENTS.md
 
 ```markdown
-Policy-Version: v3 | Source: wiki:POL-01 | Status: approved
+Policy-Version: v3 | Source: wiki:POL-01 | Status: approuvé
 
-# Project instructions
+# Instructions du projet
 
-Read the project map MAP-01 before starting a task.
-Load docs/policy-snapshot.md and record its source revision.
-Treat chat memory and search excerpts as caches.
-Attach source revisions to every factual proposal.
-Use one task and one worktree per coding task.
-Do not publish policy, approve decisions, or merge your own code.
-Stop on unresolved source conflicts or overlapping writes.
-Required checks: tests, documentation review, policy freshness.
-Owners: engineering maintainer, product owner, policy owner.
+Lisez la carte du projet MAP-01 avant de commencer une tâche.
+Chargez docs/policy-snapshot.md et consignez la révision de sa source.
+Traitez la mémoire des conversations et les extraits de recherche comme des caches.
+Joignez les révisions des sources à chaque proposition factuelle.
+Utilisez une tâche et un worktree par tâche de programmation.
+Ne publiez pas de politique, n’approuvez pas de décision et ne fusionnez pas votre propre code.
+Arrêtez-vous si des sources sont en conflit ou si des écritures se chevauchent.
+Vérifications requises : tests, revue de la documentation et actualité des politiques.
+Responsables : responsable technique, responsable produit et responsable des politiques.
 ```
 
 **Les instructions d'un projet de discussion reçoivent la même procédure.** Un non-développeur reçoit la carte et l'instantané par des importations ou connecteurs approuvés. Sans accès direct, une personne fournit l'export versionné et note la limite.
@@ -261,7 +261,7 @@ La découverte par RAG vérifie encore les sources avant toute action durable.
 **Appliquez la règle de la même PR :** modifiez le code et la documentation touchée ensemble. Si aucune mise à jour n'est nécessaire, inscrivez l'exception dans la PR.
 
 ```text
-KB-Update: none (reason: internal refactor preserves documented behavior)
+Mise à jour de la base de connaissances : aucune (motif : la refactorisation interne préserve le comportement documenté)
 ```
 
 **Le pipeline fait respecter la déclaration.** Un contrôle obligatoire refuse les changements de comportement sans documentation ou exception. Une revue humaine examine l'exception. Un contrôle de chemin détecte les candidats, mais ne prouve pas la complétude.
@@ -287,12 +287,12 @@ KB-Update: none (reason: internal refactor preserves documented behavior)
 **Les constats du tracker portent des preuves.** Notez l'observation, la commande, le commit inspecté, le comportement attendu, le comportement réel et le critère d'acceptation. Retirez les secrets et les données sensibles.
 
 ```text
-Finding: retention implementation disagrees with approved requirement
-Evidence: REQ-17 v8 and inspected config/retention.yaml
-Inspection command: git show HEAD:config/retention.yaml
-Commit: full inspected commit ID recorded in the manifest
-Acceptance: approved duration matches code, tests, and runbook
-Status: awaiting product and engineering owner review
+Constat : l’implémentation de la rétention contredit l’exigence approuvée
+Preuves : REQ-17 v8 et fichier config/retention.yaml examiné
+Commande d’inspection : git show HEAD:config/retention.yaml
+Commit : identifiant complet du commit examiné consigné dans le manifeste
+Critère d’acceptation : la durée approuvée correspond au code, aux tests et au runbook
+Statut : en attente de la revue des responsables produit et ingénierie
 ```
 
 **Le registre des décisions sépare les règles du raisonnement.** Enregistrez la question, les options, la recommandation, les compromis, le responsable et l'approbation. Les agents proposent. Les personnes décident.

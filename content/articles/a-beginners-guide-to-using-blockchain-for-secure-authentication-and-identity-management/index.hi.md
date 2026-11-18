@@ -1,11 +1,11 @@
 ---
 title: "सुरक्षित पहचान प्रबंधन के लिए ब्लॉकचेन की शुरुआती मार्गदर्शिका"
 date: 2023-04-06
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "इस शुरुआती मार्गदर्शिका से जानें कि सुरक्षित प्रमाणीकरण और पहचान प्रबंधन के लिए ब्लॉकचेन तकनीक का उपयोग कैसे करें।"
-tags: ["blockchain", "identity management", "authentication", "decentralized identity", "passwordless authentication", "smart contracts", "public key cryptography", "private key cryptography", "immutable records", "decentralized system", "single sign-on", "verification of credentials", "scalability", "privacy", "adoption", "digital identity", "distributed ledger technology", "cybersecurity", "data privacy", "technology"]
+tags: ["ब्लॉकचेन", "पहचान प्रबंधन", "प्रमाणीकरण", "विकेंद्रीकृत पहचान", "पासवर्ड रहित प्रमाणीकरण", "स्मार्ट कॉन्ट्रैक्ट", "सार्वजनिक कुंजी क्रिप्टोग्राफी", "निजी कुंजी क्रिप्टोग्राफी", "अपरिवर्तनीय अभिलेख", "विकेंद्रीकृत प्रणाली", "एकल साइन-ऑन", "प्रमाण-पत्रों का सत्यापन", "मापनीयता", "गोपनीयता", "अपनाना", "डिजिटल पहचान", "वितरित खाता-बही तकनीक", "साइबर सुरक्षा", "डेटा गोपनीयता", "प्रौद्योगिकी"]
 cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
 coverAlt: "ब्लॉकचेन नेटवर्क का चित्र, जिसमें चमकते हुए आपस में जुड़े ब्लॉक और रेखाएँ सुरक्षित पहचान प्रबंधन दर्शाती हैं। उपयोगकर्ताओं की आकृतियों के साथ डिजिटल डेटा शील्ड दिखाए गए हैं।"
 coverCaption: ""
@@ -75,4 +75,4 @@ coverCaption: ""
 
 ## संदर्भ
 
-1. Nakamoto, S. (2008). Bitcoin: एक पीयर-टू-पीयर इलेक्ट्रॉनिक कैश सिस्टम। [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+1. Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)

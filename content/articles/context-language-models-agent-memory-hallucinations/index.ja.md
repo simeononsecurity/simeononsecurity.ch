@@ -1,7 +1,7 @@
 ---
 title: "MetaのContext Language Models：エージェントの記憶を改善するが、幻覚を終わらせるものではない"
 date: 2026-10-06
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Context Language Modelsによるエージェント記憶の編集方法、ベンチマークが示す内容、キャッシュ費用やモデル能力、信頼できないメモが信頼性に与える影響を解説します。"
@@ -48,11 +48,11 @@ coverCaption: "編集可能なエージェント記憶の概念図。"
 **Rulin Shaoと共著者**は、Meta Superintelligence Labsおよびワシントン大学の研究者とともに、2026年9月29日のプレプリントでCLMを紹介しました。実装では実行中のコンテキストを編集可能なファイルとして公開します。エージェントがシェルコマンドやコードで変更すると、ランタイムは次の呼び出しで更新済みの内容を渡します。[Context Language Models](https://arxiv.org/abs/2609.37725)を参照してください。
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+通常の継続:
+既存のコンテキスト + 新しい応答 + 新しいツール出力
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+編集可能なコンテキストでの継続:
+エージェントがコンテキストファイルを改訂 -> ランタイムが改訂後のコンテキストを読み込む -> 次のモデル呼び出し
 ```
 
 ゼロショット方式では、**モデルアーキテクチャを置き換える必要はありません**。ランタイムが既存モデルに機能を追加します。論文では指示、学習済みコンテキスト管理戦略、強化学習も別途検討しています。
@@ -101,11 +101,11 @@ agent revises context file -> runtime loads revised context -> next model call
 **KVキャッシュ**は中間的なアテンション計算を保存します。通常のプレフィックスキャッシュでは、次の要求の先頭にある変更されていないテキストについて、過去の計算を再利用します。先頭に近い編集は再利用できるプレフィックスを短くし、後続のテキストを再処理させます。
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+前のリクエスト: A + B + C
+修正後のリクエスト:  A + Bの置き換え + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+標準的なプレフィックス再利用:
+Aを再利用し、Bの置換部分とCを再計算します
 ```
 
 論文の**プレフィックス再利用FLOPs**指標は、最初の不一致後の生成とプロンプト処理を数えます。PFLOPは10¹⁵回の浮動小数点演算を表します。これは計算量の推定値であり、品質スコア、スループット測定、請求額ではありません。

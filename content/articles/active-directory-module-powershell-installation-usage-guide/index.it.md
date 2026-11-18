@@ -1,7 +1,7 @@
 ---
 title: "Padroneggiare l'amministrazione di Active Directory con PowerShell: Guida all'installazione e all'uso"
 date: 2023-07-25
-lastmod: 2026-11-07
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Scoprite come installare e utilizzare efficacemente il modulo Active Directory per PowerShell per semplificare le attività di amministrazione di Windows Active Directory."
@@ -185,29 +185,29 @@ Utilizzando queste cmdlet relative alla sicurezza, gli amministratori possono ge
 
 ## Esempio di script del modulo Active Directory per PowerShell
 ```powershell
-# Import Active Directory module
+# Importa il modulo Active Directory
 Import-Module ActiveDirectory
 
-# Retrieve Active Directory information
+# Recupera le informazioni di Active Directory
 Get-ADUser -Filter 'SamAccountName -like "johndoe*"'
 Get-ADGroup -Filter 'GroupCategory -eq "Security"'
 Get-ADOrganizationalUnit -Filter *
 
-# Create a new Active Directory user
+# Crea un nuovo utente Active Directory
 New-ADUser -SamAccountName "john.doe" -Name "John Doe"
 
-# Create a new Active Directory group
+# Crea un nuovo gruppo Active Directory
 New-ADGroup -Name "Marketing" -Description "Marketing Team"
 
-# Create a new Active Directory organizational unit
+# Crea una nuova unità organizzativa Active Directory
 New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=contoso,DC=com"
 
-# Modify Active Directory objects
+# Modifica gli oggetti Active Directory
 Set-ADUser -Identity "john.doe" -PhoneNumber "123456789"
 Set-ADGroup -Identity "Marketing" -Description "Marketing Team"
 Set-ADOrganizationalUnit -Identity "OU=Sales,DC=contoso,DC=com" -Description "Sales Department"
 
-# Manage Active Directory security
+# Gestisci la sicurezza di Active Directory
 Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)

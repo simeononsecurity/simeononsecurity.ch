@@ -1,7 +1,7 @@
 ---
 title: "AIコラボレーション・キャップストーン: GitHub、Confluence、Jira"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "GitHub-first と Confluence/Jira のワークフローで合成保持期間の変更を実施し、失敗の証拠と独立レビューを用意します。"
@@ -46,16 +46,16 @@ coverCaption: ""
 **GitHub のレッスンに従って Issue と候補 PR を開きます。** 要件、設定、提案、ランブックを一緒に変更します。保護されたベースを記録し、信頼できるチェックを実行し、最終コミットでプロダクトと運用のレビューを取得します。
 
 ```text
-Run: GitHub-first
-Change: synthetic retention 7 -> 30 days
-Requirement: REQ-17 revision 2
-Configuration: retention_days 30
-Runbook: Retention days: 30
-Proposal: base revision 1, from 7, to 30
-Manifest: protected pre-change source hashes
-Review: product and operations at final proposal revision
-Publication: merged commit and read-back
-Limit: no running deletion service exercised
+実行: GitHub-first
+変更: 合成データの保持 7 -> 30 日
+要件: REQ-17 改訂 2
+設定: retention_days 30
+運用手順書: 保持期間: 30日
+提案: ベースリビジョン 1, から 7, へ 30
+マニフェスト: 変更前の保護されたソースハッシュ
+レビュー: 提案の最終版に対するプロダクトと運用担当者のレビュー
+公開: マージ済みコミットと再読み取り確認
+制限: 稼働中の削除サービスは未テスト
 ```
 
 **サンドボックスから実際の参照を入れます。** この概要は想定される対応関係であり、完了した証拠ではありません。メンテナーはレビュー後にのみマージし、その後 **`main`** を独立して読み直します。最終記録をリンクしてから Issue を閉じます。
@@ -130,7 +130,7 @@ capstone-evidence/
     publication-readback
     recovery-and-handoff
   mixed/
-    same evidence categories, independently captured
+    同じ証拠カテゴリを個別に取得
 ```
 
 **これらの名前は整理例です。** 提供されたアーカイブファイルではありません。実際の証拠は承認済みサンドボックスに非公開で保存します。共有提出物は役割ラベルと編集済み参照を使い、レビュー担当者はネイティブ記録へのアクセスを保持します。
@@ -148,6 +148,23 @@ capstone-evidence/
 5. **レビューを通して修復します。** 制御を戻す前に失敗証拠を保存します。
 6. **成功ケースを繰り返します。** 修正後のワークフローが許可された作業を配信できることを確認します。
 
+**各ケースの注入・リセットカード:** 次のケースの前に新しい合成提案を使うか、レビュー済みの基準状態を復元する。観察者は前提条件を記録し、リセットを確認する。失敗した試行をledgerから消してはならない。
+
+| ケース | GitHub-firstでの注入と確認 | Mixedでの注入と確認 | 次のケース前のリセット |
+|---|---|---|---|
+| 承認済み変更 | 固定したPRを提出し、両方のレビューを得てマージし、`main`を再度開く | REQ-17を公開し、レビュー済みdiffをマージし、RUN-04を公開して全記録を再読する | 最終リビジョンを次の基準として記録する |
+| 古いコンテキスト | マニフェストを取得し、古い提案を検証する前に別のレビュー済みPRでテスト基準を変更する | ページ版を取得し、書き込み前の再読前に許可された編集者がテストページを変更する | 停止し、版を比較し、新しいソースを取得して新しいパッケージをレビューする |
+| 無許可の書き込み | Contributorが保護された`main`への無害な直接pushを試し、サーバーの拒否を記録する | ContributorがREQ-17の編集とApprovedへの遷移を試す | commit、ページ版、Jira状態を再読し、変更がないことを確認する |
+| 競合 | Issueの下書きは60日、承認済みファイルは7日を示す | Jiraの下書きは60日、REQ-17は7日を示す | 製品責任者が下書きを調整し、判断を記録する |
+| 部分公開 | 承認後、マージまたは再読の前に停止し、Issueを開いたままにする | REQ-17を再読した後、設定とRUN-04がまだ7日の段階で停止する | 提供を保留し、完了または補償のレビュー済み判断を得る |
+| アクセス拒否 | 除外されたテストIDが非公開テストリポジトリの合成ソースを読もうとする | 除外されたIDが制限付き合成ページへのアクセスを試みる | 承認されたテストアクセスだけを戻し、通常の読者がアクセスできることを確認する |
+| 復旧 | 承認済みテスト変更を中断し、レビュー済みの完了または取り消しを提案する | 部分公開のledgerを使い、レビュー済みの完了または補償を提案する | 各ソースを再読してledgerと照合する |
+| 引き継ぎ | 古いチャットなしでMAP-01とledgerを新しいレビュアーに送る | 古いチャットなしでマッピング済みページIDとledgerを新しいレビュアーに送る | レビュアーが最新ソースを開き、次の許可された手順を記録する |
+
+拒否された各ケースで、プラットフォームの応答と保護対象レコードの再読を記録する。除外ユーザーのケースでは、保護されたテキストがタスクに届いたかを確認するため、プロバイダー対応のツールトレース、取得ログ、監査記録を調べる。証拠がなければアクセス安全性チェックをBlockedとする。見える拒否だけでは、キャッシュ済みの抜粋が返されなかった証明にならない。プランに制御がない、または承認済みのテストIDがない場合も、合格を装わずBlockedと記録する。
+
+
+
 **計画した失敗も失敗の観測です。** 権限外の公開を、制御を調べる意図があったから成功テストと呼んではいけません。テストは欠陥を見つけることに成功しましたが、公開境界は失敗しており、修復が必要です。
 
 ## 混合結果を解釈する
@@ -164,37 +181,53 @@ capstone-evidence/
 
 **期待される判断:** 実行を未完了のままにし、現在のソースを確認し、適切な所有者の判断を求めます。権限を弱めたり、スナップショットチェックをライブ公開の証拠と説明して完了扱いにしません。
 
+**Mixedトラックの記入済み教材パケット。合成例であり、tenantの証拠ではありません。**
+
+```text
+実行: MIXED-042-example
+取得した基準: REQ-17 v4 = 7日、RUN-04 v2 = 7日。
+GitHub main base-001 config.json = {"retention_days": 7}、Jira PROP-042 r1 = In Review。
+確定した提案: REQ-17 v5 は合成エクスポートを30日保持する。実運用データ、バックアップ、法的保全は対象外。
+GitHub config.json の retention_days を7から30に変更。RUN-04 v3 は30日を記載。ラボで削除サービスは稼働せず、未完了の公開は保留。
+レビュー: プロダクト責任者がREQ-17の正確な文面を承認。運用担当者がr1の設定差分とrunbookを承認。
+公開: 公開担当者がREQ-17 v5とRUN-04 v3を再読し30日を確認。保守担当者がmerge-002のmainでretention_days 30を確認。
+拒否された操作: 担当者によるREQ-17 v5の編集を拒否。公開担当者が未変更を確認し、観察者がプラットフォームの証拠を保存。
+復旧: RUN-04の試行が失敗しJiraはBlocked。運用担当者が再試行を承認し、v3の再読後にJiraをDoneへ変更。
+引き継ぎ: 新しいレビュー担当者がMAP-01と台帳を受け取り、3つの情報源とJiraを確認。30日設定と残る実行時の課題を記録。
+制限: 情報源の公開のみを確認。削除時間: 未実行。
+```
+
 ## 独立した読者とレビューする
 
 **レビュー担当者には結論だけでなく、出来事を再構成してもらいます。** 承認済みベースライン、固定提案、所有者の判断、結果リビジョン、失敗した試行、修復、残るギャップを、あなたの説明なしに見つけられる必要があります。
 
 ```text
-Reviewer questions:
-Which source governs retention intent in this track?
-Which exact package did each owner review?
-Did any source change after review?
-What was published, and what remains pending?
-Which denied action was observed under which role?
-Did protected text reach an excluded user's context?
-Which repair was reviewed and read back?
-Does the fresh handoff reconstruct current state independently?
+独立レビューの質問:
+この手順の保持方針を決める情報源はどれか。
+各責任者がレビューした正確なパッケージはどれか。
+レビュー後に情報源が変更されたか。
+何が公開され、何が保留中か。
+どの役割で、どの拒否操作を確認したか。
+保護対象の文章が除外ユーザーのコンテキストに届いたか。
+どの修正をレビューして再確認したか。
+新しい引き継ぎだけで現在の状態を再構成できるか。
 ```
 
 **要件を個別に採点します。** 証拠参照とともに Supported、Failed、Blocked、Not run を使います。整合性、承認、権限、復旧、引き継ぎは別々の要件です。ローカルテストがすべて緑でも、ライブの公開境界の失敗を埋め合わせません。
 
 ```text
-Run ID and track:
-Reviewer role and review date:
-Case 01 approved change: status ___ evidence ___ gap ___
-Case 02 stale context: status ___ evidence ___ gap ___
-Case 03 unauthorized write: status ___ evidence ___ gap ___
-Case 04 conflict: status ___ evidence ___ gap ___
-Case 05 partial publication: status ___ evidence ___ gap ___
-Case 06 access denial: status ___ evidence ___ gap ___
-Case 07 recovery: status ___ evidence ___ gap ___
-Case 08 handoff: status ___ evidence ___ gap ___
-Overall decision: Supported / Failed / Blocked / Not run
-Next accountable role and action:
+実行IDと手順:
+レビュー担当の役割と日付:
+ケース01 承認済み変更: 状態 ___ 証拠 ___ 課題 ___
+ケース02 古いコンテキスト: 状態 ___ 証拠 ___ 課題 ___
+ケース03 未承認の書き込み: 状態 ___ 証拠 ___ 課題 ___
+ケース04 競合: 状態 ___ 証拠 ___ 課題 ___
+ケース05 部分公開: 状態 ___ 証拠 ___ 課題 ___
+ケース06 アクセス拒否: 状態 ___ 証拠 ___ 課題 ___
+ケース07 復旧: 状態 ___ 証拠 ___ 課題 ___
+ケース08 引き継ぎ: 状態 ___ 証拠 ___ 課題 ___
+総合判断: 裏付けあり / 失敗 / ブロック / 未実行
+次の責任者の役割と対応:
 ```
 
 **Supported は、該当するすべてのケースで観測証拠をレビュー担当者が確認したことを意味します。** 観測された制御失敗には Failed、アクセスまたは制御の不足には Blocked、未実行のケースには Not run を記録します。各ネイティブ参照を名前付き証拠ファイルに残します。
@@ -204,17 +237,17 @@ Next accountable role and action:
 **編集済みモデルパッケージ、説明用のみ:**
 
 ```text
-Track: github-first | Run: G-01 | Reviewer: separate pilot role
-Base: protected commit base-001 | Fixed proposal: PROP-042 r1
-Approvals: product review ref P-01, operations review ref O-01
-Consistency: local check pass, saved output ref C-01
-Permission: contributor direct push denied, native event ref D-01
-Publication: merged commit merge-002, fresh clone confirms thirty
-Exception: backups and legal holds remain excluded
-Recovery: interruption case R-01 read back and resolved through review
-Handoff: second reader found current base, exception, and next action
-Runtime limit: no production deletion or deployment claim
-Decision: Supported for synthetic GitHub-first track only
+手順: github-first | 実行: G-01 | レビュー担当: 独立したパイロット役
+基準: 保護されたcommit base-001 | 確定提案: PROP-042 r1
+承認: プロダクトレビュー P-01、運用レビュー O-01
+整合性: ローカル検査合格、結果C-01を保存
+権限: 担当者の直接pushを拒否、ネイティブイベントD-01
+公開: commit merge-002、新しいcloneで30日を確認
+例外: バックアップと法的保全は対象外
+復旧: 中断R-01を再確認し、レビュー後に解決
+引き継ぎ: 2人目が現在の基準、例外、次の対応を確認
+実行時の制限: 本番削除やデプロイは主張しない
+判断: 合成GitHub-first手順に限り裏付けあり
 ```
 
 説明用の参照をすべて、サンドボックスで観測した成果物に置き換えます。Mixed についても固有のソースバージョンとレビューでパッケージ全体を繰り返します。レビュー担当者は Mixed パッケージにコピーされた GitHub 承認があれば拒否します。
@@ -243,14 +276,14 @@ Decision: Supported for synthetic GitHub-first track only
 ## ロールアウト判断を作成する
 
 ```text
-Decision: another synthetic pilot, blocked, or rejected
-Evidence: both run packages and failure matrix
-Unenforced requirements: procedural controls listed explicitly
-Provider review: input scope and retention handling
-Owner coverage: product, operations, policy, repository, delivery
-Production gaps: runtime tests, secrets, deployment, access review
-Next action: one bounded follow-up with accountable role
-Review date: assigned by pilot owners
+判断: 別の合成パイロット、ブロック、または却下
+証拠: 2つの実行パッケージと失敗マトリクス
+未適用要件: 手続き上の統制を明記
+プロバイダーレビュー: 入力範囲と保持
+責任範囲: プロダクト、運用、ポリシー、リポジトリ、提供
+本番の課題: 実行時テスト、秘密情報、デプロイ、アクセスレビュー
+次の対応: 責任者を決めた限定的なフォローアップ
+レビュー日: パイロット責任者が設定
 ```
 
 **期待される判断:** 合成環境での成功は、別の範囲限定パイロットを支えます。本番には、実データ、展開、プロバイダーの取り扱い、実行時動作について別の承認が必要です。アシスタントの成功した回答は、展開の許可ではありません。

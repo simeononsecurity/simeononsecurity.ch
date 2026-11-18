@@ -1,7 +1,7 @@
 ---
 title: "ਕੀ ਗੰਭੀਰ ਲੋਕਲ LLM ਕੰਮ ਲਈ 16GB VRAM ਕਾਫ਼ੀ ਹੈ?"
 date: 2026-10-07
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "ਮਾਡਲ ਵਜ਼ਨ, KV ਕੈਸ਼ ਅਤੇ ਪ੍ਰੌਂਪਟ ਪ੍ਰੋਸੈਸਿੰਗ ਦੇ ਆਧਾਰ ਤੇ 16GB ਲੋਕਲ LLM ਸੈਟਅੱਪ ਦਾ ਆਕਾਰ ਨਿਰਧਾਰਤ ਕਰੋ। Qwen3.8 27B ਮੈਮੋਰੀ ਬਜਟ, GPU ਬੈਂਡਵਿਡਥ ਅਤੇ ਮਾਲਕੀ ਲਾਗਤ ਦੀ ਤੁਲਨਾ ਕਰੋ।"
@@ -130,7 +130,7 @@ Prefill generation ਤੋਂ ਪਹਿਲਾਂ prompt process ਕਰਦਾ ਹ�
 
 Processing time ਦਾ ਅਨੁਮਾਨ ਲਾਉਣ ਲਈ uncached prompt tokens ਨੂੰ measured prefill throughput ਨਾਲ ਭਾਗ ਦਿਓ। Fresh 30,000-token prompt ਲਈ ਦੋ ਉਦਾਹਰਨੀ rates ਇਹ ਉਡੀਕ ਦਿੰਦੇ ਹਨ:
 
-| Example prompt rate | Calculated processing time |
+| ਉਦਾਹਰਨ ਪ੍ਰੌਂਪਟ ਦਰ | ਗਣਨਾ ਕੀਤਾ ਪ੍ਰੋਸੈਸਿੰਗ ਸਮਾਂ |
 |---|---|
 | 750 tokens/s | 40 seconds |
 | 150 tokens/s | 200 seconds |
@@ -143,7 +143,7 @@ Cold request ਅਤੇ reusable prefix ਵਾਲੀ continuation ਨੂੰ ਵ�
 
 Purchase price, usable memory, bandwidth ਅਤੇ software path ਨੂੰ ਇਕੱਠੇ ਤੁਲਨਾ ਕਰੋ। ਜੇ workload ਨੂੰ unsupported features ਚਾਹੀਦੇ ਹਨ ਜਾਂ latency target ਤੋਂ ਵੱਧ ਸਮਾਂ ਲੱਗਦਾ ਹੈ ਤਾਂ ਘੱਟ ਕੀਮਤ ਵਾਲਾ card ਆਪਣਾ ਫਾਇਦਾ ਗੁਆ ਦਿੰਦਾ ਹੈ।
 
-| 16GB desktop card | Memory bandwidth |
+| 16GB desktop card | ਮੈਮੋਰੀ ਬੈਂਡਵਿਡਥ |
 |---|---|
 | RX 9060 XT | 320 GB/s |
 | RTX 5060 Ti | 448 GB/s |

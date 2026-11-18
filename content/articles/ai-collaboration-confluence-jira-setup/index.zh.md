@@ -1,7 +1,7 @@
 ---
 title: "Confluence 与 Jira AI 设置：权限与职责"
 date: 2026-10-01
-lastmod: 2026-11-08
+lastmod: 2026-11-12
 toc: true
 draft: false
 description: "配置 Confluence 正式依据页面和公司管理的 Jira 权限，以支持经过审查的跨团队协作。"
@@ -53,15 +53,15 @@ coverCaption: ""
 5. 在每个正式依据页面上**打开 Share**。对符合条件的空间成员设置只读访问，并单独授予指定负责人和发布者编辑权限。保存后，用贡献者账户验证。
 
 ```text
-Source ID: REQ-17
-Owner role: product-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Retention: 7 days
-Delivery state: baseline lab configuration
-Exceptions: production data, backups, and legal holds excluded
-Approval evidence: DEC-12 baseline review
-Implementation reference: attach protected GitHub baseline commit
+来源 ID：REQ-17
+所有者角色：product-owner
+状态：已批准基线
+范围：仅限合成导出文件
+保留期限：7 天
+交付状态：实验室基础配置
+例外：不包括生产数据、备份和法律保留事项
+批准证据：DEC-12 基线审查
+实施参考：附上受保护的 GitHub 基线提交
 ```
 
 **对每个正式依据页面设置限制。**不要假设父页面的编辑限制也会保护子页面。读取权限和编辑权限的继承方式不同，空间权限仍然适用。仅有链接不会授予访问权限。如果本应只读的用户仍能编辑，请检查所有成员身份。
@@ -69,29 +69,29 @@ Implementation reference: attach protected GitHub baseline commit
 **其他两个页面请使用以下起始正文。**将临时审核字段替换为沙箱中的实际证据，然后再批准记录。
 
 ```text
-Source ID: RUN-04
-Owner role: operations-owner
-Status: Approved baseline
-Scope: synthetic export files only
-Configured retention: 7 days
-Procedure: compare REQ-17 with config.json before a reviewed change
-Runtime limit: this lab has no deletion job and produces no deletion evidence
-Recovery: restore the prior approved configuration through review
-Recovery limit: restoring configuration does not restore deleted files
-Review evidence: add actual reviewer, page version, and decision reference
+来源 ID：RUN-04
+所有者角色：operations-owner
+状态：已批准基线
+范围：仅限合成导出文件
+配置的保留期限：7 天
+流程：审查变更前，将 REQ-17 与 config.json 比较
+运行限制：本实验室没有删除任务，也不会生成删除证据
+恢复：经审查后恢复先前批准的配置
+恢复限制：恢复配置不会恢复已删除的文件
+审查证据：填写实际审查人、页面版本和决策参考
 ```
 
 ```text
-Page: Decision Register
-Entry ID: DEC-12
-Decision: use seven days as the synthetic baseline
-Scope: export-service-lab only
-Requirement: REQ-17 page version, record after publication
-Runbook: RUN-04 page version, record after publication
-Policy: POL-01 protected GitHub revision, record after review
-Product review: pending until the named owner records a decision
-Operations review: pending until the named owner records a decision
-Status: draft example, replace with observed review evidence
+页面：决策登记簿
+条目 ID：DEC-12
+决策：将七天作为合成基线
+范围：仅限 export-service-lab
+要求：发布后记录 REQ-17 页面版本
+操作手册：发布后记录 RUN-04 页面版本
+策略：审查后记录 POL-01 受保护的 GitHub 修订版
+产品审查：等待指定所有者记录决策
+运营审查：等待指定所有者记录决策
+状态：草稿示例，请替换为实际观察到的审查证据
 ```
 
 ## 更新映射
@@ -122,17 +122,17 @@ snapshot_rule: repository requirement copies are not authoritative
 **将此草案粘贴到 PROP-042。**Jira 工作项负责跟踪交付。其内容不能替代 Confluence 中已批准的措辞。
 
 ```text
-Proposal ID: PROP-042
-Status: Draft
-Current approved value: 7 days, REQ-17 page version to record
-Proposed value: 30 days for synthetic export files
-Exclusions: production data, backups, legal holds
-Affected records: REQ-17, RUN-04, config.json, proposal.json
-Fixed proposal attachment: pending
-Product-owner review: pending
-Operations-owner review: pending
-Publication ledger: pending
-Stop on changed source version, missing review, or denied access
+提案 ID：PROP-042
+状态：草稿
+当前批准值：7 天，记录 REQ-17 页面版本
+拟议值：合成导出文件保留 30 天
+排除项：生产数据、备份和法律保留事项
+受影响记录：REQ-17、RUN-04、config.json、proposal.json
+固定提案附件：待处理
+产品所有者审查：待处理
+运营所有者审查：待处理
+发布登记簿：待处理
+若来源版本更改、缺少审查或访问被拒绝，请停止
 ```
 
 | 角色 | Confluence | Jira | GitHub |
@@ -185,15 +185,15 @@ Stop on changed source version, missing review, or denied access
 **将读取、起草和发布分开。**贡献者需要足够的权限来理解合成需求并提交提案，但不需要编辑正式依据页面，也不需要批准自己的提案。
 
 ```text
-Test record: PERM-REQ-EDIT
-Role: contributor
-Source: REQ-17
-Precondition: source is readable, published revision captured
-Attempt: edit the authoritative requirement
-Expected: edit denied, published revision unchanged
-Observed: fill from the sandbox
-Evidence: native result and independent revision read-back
-Reviewer: administrator or independent permission reviewer
+测试记录：PERM-REQ-EDIT
+角色：贡献者
+来源：REQ-17
+前提：来源可读，且已记录发布版本
+尝试：编辑权威要求
+预期：拒绝编辑，发布版本保持不变
+观察结果：从沙盒填写
+证据：原生结果及独立重新读取的版本
+审查人：管理员或独立权限审查人
 ```
 
 **使用单独记录测试拒绝读取。**贡献者能读取需求，测试的是发布与编辑的分离。排除用户无法访问页面，测试的是机密性。将两项合并到一行会掩盖实际测试的边界。

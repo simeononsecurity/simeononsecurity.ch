@@ -72,9 +72,9 @@ Um bei den CompTIA A+ Prüfungen erfolgreich zu sein, ist es wichtig, mehrere Le
 
 Eine hervorragende Ressource zum Lernen für die CompTIA A+ Prüfungen ist die offizielle CompTIA CertMaster Online-Lernplattform. CertMaster bietet interaktives Lernen mit einer Vielzahl von Lernmaterialien, einschließlich Videos, Übungsfragen und Flashcards.
 
-Andere renommierte Lernressourcen sind [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), the [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), and the [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN) 
+Andere renommierte Lernressourcen sind [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), und [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN).
 
-Darüber hinaus gibt es zahlreiche Online-Kurse und -Lehrgänge, die von Anbietern wie [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/) Bei der Verwendung mehrerer Lernressourcen ist es wichtig, sich auf diejenigen zu konzentrieren, die mit den Prüfungszielen übereinstimmen, und Ressourcen aus seriösen Quellen zu verwenden, um Genauigkeit und Qualität zu gewährleisten.
+Darüber hinaus gibt es zahlreiche Online-Kurse und -Lehrgänge, die von Anbietern wie [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/) und [Coursera](https://www.coursera.org/). Bei der Verwendung mehrerer Lernressourcen ist es wichtig, sich auf diejenigen zu konzentrieren, die mit den Prüfungszielen übereinstimmen, und Ressourcen aus seriösen Quellen zu verwenden, um Genauigkeit und Qualität zu gewährleisten.
 
 {{< youtube id="87t6P5ZHTP0" >}}{{< youtube id="OS9MJjNK6gA" >}}
 

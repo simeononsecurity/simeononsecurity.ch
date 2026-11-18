@@ -50,30 +50,30 @@ coverCaption: ""
 **ਛੋਟੇ ਕੋਡਿੰਗ ਜਾਂ ਖੋਜ ਕੰਮ ਲਈ ਇਹ ਖਾਕਾ ਨਕਲ ਕਰੋ।** ਗੈਰ-ਸੰਬੰਧਿਤ ਖਾਨਿਆਂ ਨੂੰ ਅਸਪਸ਼ਟ ਲਿਖਤ ਨਾਲ ਭਰਨ ਦੀ ਥਾਂ ਹਟਾ ਦਿਓ।
 
 ```text
-Outcome:
-Authoritative source and revision:
-Relevant files or records:
-Allowed changes:
-Excluded changes and actions:
-Examples of desired behavior:
-Completion checks:
-Stop or ask when:
-Report back with:
+ਨਤੀਜਾ:
+ਅਧਿਕਾਰਤ ਸਰੋਤ ਅਤੇ ਰਿਵਿਜ਼ਨ:
+ਸੰਬੰਧਿਤ ਫ਼ਾਈਲਾਂ ਜਾਂ ਰਿਕਾਰਡ:
+ਮਨਜ਼ੂਰ ਬਦਲਾਅ:
+ਬਾਹਰ ਰੱਖੇ ਬਦਲਾਅ ਅਤੇ ਕਾਰਵਾਈਆਂ:
+ਚਾਹੇ ਵਿਹਾਰ ਦੀਆਂ ਉਦਾਹਰਨਾਂ:
+ਪੂਰਨਤਾ ਜਾਂਚਾਂ:
+ਕਦੋਂ ਰੁਕਣਾ ਜਾਂ ਪੁੱਛਣਾ ਹੈ:
+ਵਾਪਸੀ ਰਿਪੋਰਟ ਵਿੱਚ:
 ```
 
 **ਲੈਬ ਲਈ** ਭਰਿਆ ਹੋਇਆ ਪੈਕੇਟ ਇਉਂ ਹੈ:
 
 ```text
-Outcome: Add an optional --status filter to task_report.py.
-Source: docs/requirements.md, revision 1.
-Relevant files: task_report.py, tasks.json, tests/.
-Allowed changes: task_report.py and focused tests.
-Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4. Open and done each print 2.
-Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
-The invalid value must exit nonzero with a clear error.
-Stop or ask: source conflict, missing file, unrelated failing baseline.
-Report: changed files, commands, observed outputs, unresolved issues.
+ਨਤੀਜਾ: task_report.py ਵਿੱਚ ਵਿਕਲਪੀ --status ਫਿਲਟਰ ਜੋੜੋ।
+ਸਰੋਤ: docs/requirements.md, ਰਿਵਿਜ਼ਨ 1।
+ਸੰਬੰਧਿਤ ਫ਼ਾਈਲਾਂ: task_report.py, tasks.json, tests/.
+ਮਨਜ਼ੂਰ ਬਦਲਾਅ: task_report.py ਅਤੇ ਨਿਸ਼ਾਨਾਬੱਧ ਟੈਸਟ.
+ਬਾਹਰ ਰੱਖਿਆ: tasks.json, ਨਵੀਆਂ ਨਿਰਭਰਤਾਵਾਂ, ਕਮਿਟ ਅਤੇ ਪੁਸ਼।
+ਉਦਾਹਰਨਾਂ: ਫਿਲਟਰ ਤੋਂ ਬਿਨਾਂ Total tasks: 4 ਦਿਖਾਓ। open ਅਤੇ done ਦੋਵੇਂ 2 ਦਿਖਾਉਂਦੇ ਹਨ।
+ਜਾਂਚਾਂ: ਯੂਨਿਟ ਟੈਸਟ ਅਤੇ ਚਾਰ ਹੱਥੀਂ ਕਮਾਂਡਾਂ ਚਲਾਓ: ਫਿਲਟਰ ਤੋਂ ਬਿਨਾਂ, open, done ਅਤੇ ਗਲਤ ਮੁੱਲ।
+ਗਲਤ ਮੁੱਲ ਨੂੰ ਸਪਸ਼ਟ ਸੁਨੇਹੇ ਨਾਲ ਗੈਰ-ਜ਼ੀਰੋ exit code ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ।
+ਸਰੋਤ ਟਕਰਾਅ, ਫ਼ਾਈਲ ਗੁੰਮ ਹੋਣ ਜਾਂ ਗੈਰ-ਸੰਬੰਧਿਤ ਸ਼ੁਰੂਆਤੀ ਨਾਕਾਮੀ ਉੱਤੇ ਰੁਕੋ ਜਾਂ ਪੁੱਛੋ।
+ਰਿਪੋਰਟ: ਬਦਲੀਆਂ ਫ਼ਾਈਲਾਂ, ਕਮਾਂਡਾਂ, ਵੇਖੇ ਨਤੀਜੇ ਅਤੇ ਬਾਕੀ ਮੁੱਦੇ।
 ```
 
 **Windows ਉੱਤੇ,** ਜੇ ਤੁਹਾਡਾ ਮਾਹੌਲ Python launcher ਵਰਤਦਾ ਹੈ ਤਾਂ ਪੈਕੇਟ ਦੀਆਂ ਕਮਾਂਡਾਂ ਵਿੱਚ `py -3` ਵਰਤੋ।

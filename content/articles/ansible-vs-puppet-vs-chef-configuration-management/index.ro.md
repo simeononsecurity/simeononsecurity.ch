@@ -1,17 +1,16 @@
 ---
 title: "Ansible vs Puppet vs Chef 2026: gestionarea configurației"
 date: 2026-05-24
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Comparație din 2026 între Ansible, Puppet și Chef privind arhitectura, funcțiile, curba de învățare, performanța, prețurile și cazurile de utilizare."
 genre: ["DevOps", "Automatizarea infrastructurii", "Gestionarea configurației", "Operațiuni IT", "Cloud computing", "Administrarea sistemelor", "IT pentru companii", "Dezvoltare software", "Infrastructură IT", "Instrumente de automatizare"]
-tags: ["ansible vs puppet", "ansible vs chef", "puppet vs chef", "gestionarea configurației", "infrastructură ca și cod", "instrumente devops", "comparație automatizare", "ansible", "puppet", "chef", "automatizarea infrastructurii", "instrumente de configurare 2026", "automatizare devops", "configurarea serverelor", "gestionarea infrastructurii", "funcții ansible", "funcții puppet", "funcții chef", "instrumente de gestionare a configurației", "automatizare IT", "orchestrarea infrastructurii", "configurație declarativă", "configurație procedurală", "automatizare fără agenți", "automatizare cu agenți", "playbook-uri ansible", "manifeste puppet", "rețete chef", "bune practici devops", "implementarea infrastructurii", "derivă de configurație", "configurație idempotentă", "ansible tower", "puppet enterprise", "chef automate", "comparație platforme de automatizare", "comparație curbe de învățare", "selectarea instrumentelor devops", "automatizare pentru companii"]
+tags: ["Ansible versus Puppet", "Ansible versus Chef", "Puppet versus Chef", "gestionarea configurației", "infrastructură ca și cod", "instrumente devops", "comparație automatizare", "ansible", "puppet", "chef", "automatizarea infrastructurii", "instrumente de configurare 2026", "automatizare devops", "configurarea serverelor", "gestionarea infrastructurii", "funcții ansible", "funcții puppet", "funcții chef", "instrumente de gestionare a configurației", "automatizare IT", "orchestrarea infrastructurii", "configurație declarativă", "configurație procedurală", "automatizare fără agenți", "automatizare cu agenți", "playbook-uri ansible", "manifeste puppet", "rețete chef", "bune practici devops", "implementarea infrastructurii", "derivă de configurație", "configurație idempotentă", "ansible tower", "puppet enterprise", "chef automate", "comparație platforme de automatizare", "comparație curbe de învățare", "selectarea instrumentelor devops", "automatizare pentru companii"]
 cover: "/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp"
 coverAlt: "Ilustrație a unui centru de date futurist împărțit în trei secțiuni care reprezintă Ansible, Puppet și Chef. Fiecare secțiune arată o arhitectură de sistem diferită și conexiuni luminoase pe un fundal întunecat."
 coverCaption: "Alege instrumentul potrivit pentru gestionarea configurației infrastructurii tale"
 ---
-
 ## Ansible vs Puppet vs Chef 2026: comparație completă pentru gestionarea configurației
 
 În 2026, **gestionarea configurației** rămâne esențială pentru administrarea infrastructurii moderne la scară largă. **Ansible**, **Puppet** și **Chef** domină piața companiilor. Aceste instrumente susțin **infrastructura ca și cod (IaC)** și ajută echipele să automatizeze configurarea serverelor, implementarea aplicațiilor și orchestrarea infrastructurii pe mii de sisteme.
@@ -146,23 +145,23 @@ Acest ghid compară **Ansible**, **Puppet** și **Chef** după arhitectură, fun
 **Exemplu** (instalarea și pornirea Apache):
 ```yaml
 ---
-- name: Configure web servers
+- name: Configurați serverele web
   hosts: webservers
   become: yes
-  
+
   tasks:
-    - name: Install Apache
+    - name: Instalați Apache
       ansible.builtin.package:
         name: httpd
         state: present
-    
-    - name: Start Apache service
+
+    - name: Porniți serviciul Apache
       ansible.builtin.service:
         name: httpd
         state: started
         enabled: yes
-    
-    - name: Deploy website
+
+    - name: Implementați site-ul web
       ansible.builtin.copy:
         src: ./website/index.html
         dest: /var/www/html/index.html
@@ -186,19 +185,19 @@ Acest ghid compară **Ansible**, **Puppet** și **Chef** după arhitectură, fun
 **Exemplu** (aceeași configurație Apache):
 ```puppet
 class apache {
-  # Install Apache package
+  # Instalați pachetul Apache
   package { 'httpd':
     ensure => installed,
   }
-  
+
   # Manage Apache service
   service { 'httpd':
     ensure  => running,
     enable  => true,
     require => Package['httpd'],
   }
-  
-  # Deploy website file
+
+  # Implementați fișierul site-ului
   file { '/var/www/html/index.html':
     ensure  => file,
     source  => 'puppet:///modules/apache/index.html',
@@ -228,20 +227,20 @@ node 'webserver.example.com' {
 
 **Exemplu** (aceeași configurație Apache):
 ```ruby
-# Recipe: apache::default
+# Rețetă: apache::default
 
-# Install Apache package
+# Instalați pachetul Apache
 package 'httpd' do
   action :install
 end
 
-# Start and enable Apache service
+# Porniți și activați serviciul Apache
 service 'httpd' do
   action [:enable, :start]
   supports restart: true, reload: true
 end
 
-# Deploy website file
+# Implementați fișierul site-ului
 cookbook_file '/var/www/html/index.html' do
   source 'index.html'
   mode '0644'
@@ -528,7 +527,7 @@ end
 
 **Abordarea Ansible**:
 ```yaml
-- name: Manage web server fleet
+- name: Gestionați flota de servere web
   hosts: webservers
   become: yes
   roles:
@@ -536,7 +535,7 @@ end
     - apache
     - monitoring
   tasks:
-    - name: Deploy application
+    - name: Implementați aplicația
       ansible.builtin.git:
         repo: https://github.com/company/webapp.git
         dest: /var/www/html
@@ -549,7 +548,7 @@ node /webserver\d+/ {
   include common
   include apache
   include monitoring
-  
+
   vcsrepo { '/var/www/html':
     ensure   => latest,
     provider => git,
@@ -561,7 +560,7 @@ node /webserver\d+/ {
 
 **Abordarea Chef**:
 ```ruby
-# Role: webserver
+# Rol: webserver
 run_list(
   'recipe[common]',
   'recipe[apache]',
@@ -569,7 +568,7 @@ run_list(
   'recipe[webapp::deploy]'
 )
 
-# Recipe: webapp::deploy
+# Rețetă: webapp::deploy
 git '/var/www/html' do
   repository 'https://github.com/company/webapp.git'
   revision 'production'

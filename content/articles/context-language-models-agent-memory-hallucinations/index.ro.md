@@ -1,7 +1,7 @@
 ---
 title: "Modelele lingvistice de context ale Meta: memorie mai bună pentru agenți, nu sfârșitul halucinațiilor"
 date: 2026-10-06
-lastmod: 2026-11-09
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Cum editează Context Language Models memoria agenților, ce arată benchmarkurile și cum afectează fiabilitatea costurile cache-ului, capacitatea modelului și notițele neverificate."
@@ -48,11 +48,11 @@ Această distincție contează la evaluarea oricărei tehnici de memorie. **Păs
 **Rulin Shao și coautorii**, inclusiv cercetători de la Meta Superintelligence Labs și University of Washington, au introdus CLM într-un preprint din 29 septembrie 2026. Implementarea expune contextul activ ca fișier editabil. Agentul folosește comenzi shell sau cod pentru a-l modifica, iar runtime-ul furnizează conținutul revizuit la următorul apel. Vezi [Context Language Models](https://arxiv.org/abs/2609.37725).
 
 ```text
-Ordinary continuation:
-existing context + new response + new tool output
+Continuare obișnuită:
+context existent + răspuns nou + ieșire nouă a instrumentului
 
-Editable-context continuation:
-agent revises context file -> runtime loads revised context -> next model call
+Continuare cu context editabil:
+agentul revizuiește fișierul de context -> mediul de execuție încarcă contextul revizuit -> următorul apel al modelului
 ```
 
 **Arhitectura modelului nu trebuie înlocuită** pentru abordarea zero-shot. Runtime-ul adaugă o capacitate unui model existent. Lucrarea cercetează separat instrucțiunile, strategiile învățate de gestionare a contextului și învățarea prin recompensă.
@@ -101,11 +101,11 @@ Analiza suplimentară TerminalBench raportează și **nicio editare de context �
 **Cache-ul KV** stochează calcule intermediare de atenție. Cu cache obișnuit de prefix, textul neschimbat de la începutul următoarei cereri reutilizează calculul anterior. O editare aproape de început reduce prefixul reutilizabil și forțează procesarea din nou a textului ulterior.
 
 ```text
-Previous request: A + B + C
-Revised request:  A + replacement for B + C
+Cererea anterioară: A + B + C
+Cererea revizuită:  A + înlocuitorul lui B + C
 
-Standard prefix reuse:
-reuse A, recompute replacement for B and C
+Reutilizarea standard a prefixului:
+reutilizează A și recalculează înlocuirea lui B și a lui C
 ```
 
 Metrica **FLOP-uri de reutilizare a prefixului** din lucrare numără generarea și procesarea promptului după prima nepotrivire. Un PFLOP reprezintă 10¹⁵ operații în virgulă mobilă. Este un total estimat de calcul, nu un scor de calitate, o măsură de debit sau o factură.
@@ -191,7 +191,7 @@ Repozitoriul oficial folosește termenii **CC BY-NC 4.0**. Verifică [licența](
 - **Rulin Shao și colab.:** [Context Language Models](https://arxiv.org/abs/2609.37725), 29 septembrie 2026, cu [rezultatele complete și anexele](https://arxiv.org/html/2609.37725v1).
 - **Implementarea de cercetare Meta:** [repozitoriul Context Language Models](https://github.com/facebookresearch/context-language-models).
 - **Implementarea de servire:** [documentația Suffix Cache Reuse](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md).
-- **Anthropic:** [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching).
+- **Anthropic:** [Cache-ul prompturilor](https://platform.claude.com/docs/en/build-with-claude/prompt-caching).
 - **OpenAI:** [Injecții de prompt autogenerate în rezumatele de compactare](https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/).
 - **llama.cpp:** [Discuție despre reprocesarea prompturilor pentru modele hibride](https://github.com/ggml-org/llama.cpp/issues/20225).
 - **Kai:** [Sfârșitul halucinațiilor AI? Noua soluție Meta (CLM)](https://www.youtube.com/watch?v=9-iiHFQyzuM).

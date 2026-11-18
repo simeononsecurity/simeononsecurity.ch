@@ -1,12 +1,12 @@
 ---
 title: "Cloudflare Tunnel a Access: czy potrzebujesz obu usług?"
 date: 2026-09-11
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Poznaj różnice między Cloudflare Tunnel i Access, wybierz ochronę dla domowego panelu i uniknij udostępnienia prywatnej aplikacji bez uwierzytelniania."
 genre: ["Bezpieczeństwo sieci", "Samodzielny hosting", "Bezpieczeństwo chmury"]
-tags: ["Cloudflare Tunnel", "Cloudflare Access", "Cloudflare Tunnel a Access", "Cloudflare Zero Trust", "cloudflared", "aplikacje hostowane samodzielnie", "bezpieczeństwo homelabu", "zdalny dostęp", "dostawca tożsamości", "zasady dostępu", "uwierzytelnianie aplikacji", "publiczna nazwa hosta", "ochrona origin", "tunel wychodzący", "tokeny usług", "Service Auth", "MFA", "prywatny panel", "reverse proxy", "CGNAT"]
+tags: ["Cloudflare Tunnel", "Cloudflare Access", "Cloudflare Tunnel a Access", "Cloudflare Zero Trust", "cloudflared", "aplikacje hostowane samodzielnie", "bezpieczeństwo homelabu", "zdalny dostęp", "dostawca tożsamości", "zasady dostępu", "uwierzytelnianie aplikacji", "publiczna nazwa hosta", "ochrona origin", "tunel wychodzący", "tokeny usług", "Service Auth", "MFA", "prywatny panel", "odwrotny proxy", "CGNAT"]
 cover: "/img/cover/cloudflare-tunnel-vs-access.webp"
 coverAlt: "Domowy serwer łączy się przez przezroczysty kanał z bramą chmurową i oddzielnym punktem weryfikacji tożsamości."
 coverCaption: ""

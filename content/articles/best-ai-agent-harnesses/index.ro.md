@@ -1,7 +1,7 @@
 ---
 title: "Cele mai bune harness-uri pentru agenți AI în 2026: alege după fluxul de lucru"
 date: 2026-10-06
-lastmod: 2026-10-10
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Compară Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi și LangGraph după execuția instrumentelor, memorie, recuperare și efort de integrare."
@@ -11,7 +11,6 @@ cover: "/img/cover/ai-agent-execution-components.webp"
 coverAlt: "Componente metalice modulare conectate la un procesor central luminos prin trasee turcoaz și portocalii pe o suprafață de lucru întunecată"
 coverCaption: "Ilustrație conceptuală a componentelor din jurul unui model AI."
 ---
-
 **Deep Agents este prima mea opțiune pentru un agent general cu modele configurabile și gestionare integrată a contextului.** Claude Agent SDK se potrivește pentru încorporarea comportamentului de execuție al Claude Code. OpenAI Agents SDK și Pydantic AI merită testate pentru agenți specifici aplicației, în timp ce Pi preferă un nucleu mic și extensibil, iar LangGraph preferă controlul explicit al fluxului.
 
 **Cea mai bună alegere depinde de munca pe care vrei să o accepți.** Un asistent de cercetare, un editor de repository și un serviciu care procesează cereri ale clienților au nevoie de instrumente și reguli de recuperare diferite. Recomandările sunt judecăți editoriale bazate pe documentația oficială verificată la **10 octombrie 2026**, nu rezultate ale unui benchmark practic de performanță.
@@ -138,7 +137,7 @@ Pentru un **agent ilustrativ de verificare a facturilor**, validarea schemei ver
 
 **Lista de funcții este doar începutul.** Rulează fiecare candidat prin eșecuri asemănătoare sarcinii tale. Folosește un workspace temporar și servicii de test cu înregistrări sintetice.
 
-| Test | Dovadă de păstrat |
+| Verificare | Dovadă de păstrat |
 |---|---|
 | **Trimitere întreruptă** | Un efect extern după recuperare |
 | **Conversație lungă** | Cerințele inițiale încă sunt satisfăcute |
@@ -160,7 +159,7 @@ Pentru un **agent ilustrativ de verificare a facturilor**, validarea schemei ver
 **Nu forța configurații neacceptate în pista controlată.** Dacă doi candidați nu au un model sau o interfață comună, raportează comparația ca evaluare de sistem. Păstrează înregistrate efortul de configurare și ghidarea umană.
 
 ```yaml
-# Illustrative trial record, not a framework configuration file
+# Înregistrare de probă ilustrativă, nu un fișier de configurare a cadrului
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

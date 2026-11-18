@@ -1,7 +1,7 @@
 ---
 title: "Tailscale vs Headscale: Vollständiger Vergleichsleitfaden 2026 für selbst gehostete VPNs"
 date: 2026-05-24
-lastmod: 2026-05-24
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Umfassender Vergleich von Tailscale und Headscale für 2026, einschließlich Funktionen, Preise, Leistung, Sicherheit und Einsatzszenarien, damit Sie die beste WireGuard-basierte Mesh-VPN-Lösung wählen."
@@ -107,7 +107,7 @@ ______
 | **CLI-Verwaltung** | ✅ Ja | ✅ Ja | Beide bieten umfassende CLI-Tools |
 | **REST-API** | ✅ Ja | ✅ Ja | Verwaltungsaufgaben automatisieren |
 | **gRPC-API** | ❌ Nein | ✅ Ja | Headscale bietet gRPC für die Fernsteuerung |
-| **Terraform-Provider** | ✅ Offiziell | ❌ Nein | Infrastructure-as-Code-Integration |
+| **Terraform-Provider** | ✅ Offiziell | ❌ Nein | Integration von Infrastruktur als Code |
 | **Kubernetes-Operator** | ✅ Offiziell | ⚠️ Community | Community-Operator für Headscale |
 | **Mobile Apps** | ✅ iOS, Android | ✅ Kompatibel | Tailscale-Apps mit Headscale-Server verwenden |
 | **Admin-Konsole** | ✅ Umfassend | ❌ Nein | Headscale setzt auf CLI/API |
@@ -286,7 +286,7 @@ ______
 | **Neues Gerät hinzufügen** | Link klicken, authentifizieren | Auth-Key generieren oder Web-Auth | Tailscale (einfacher) |
 | **ACLs aktualisieren** | In der Web-Oberfläche bearbeiten, sofortig | Datei bearbeiten, Konfiguration neu laden | Tailscale (einfacher) |
 | **Verbindungsstatus anzeigen** | Web-Dashboard | CLI oder Community-Oberfläche | Tailscale (einfacher) |
-| **Probleme beheben** | Detaillierte Logs im Dashboard | Server-Logs + Client-Logs | Tailscale (einfacher) |
+| **Probleme beheben** | Detaillierte Logs im Dashboard | Server- und Clientprotokolle | Tailscale (einfacher) |
 | **Software-Updates** | Automatisch | Manuelle Server-Updates | Tailscale (einfacher) |
 | **Konfiguration sichern** | Automatisch | Manuell (Datenbank + Konfiguration) | Tailscale (einfacher) |
 | **Notfallwiederherstellung** | Automatisch | Manueller Restore aus Backup | Tailscale (einfacher) |

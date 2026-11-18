@@ -1,6 +1,7 @@
 ---
 title: "Fortinet対Cisco：ネットワークセキュリティの完全比較"
 date: 2026-05-24
+lastmod: 2026-11-15
 toc: true
 draft: false
 description: FortinetとCiscoのネットワークセキュリティソリューションを包括的に比較。ファイアウォール、スイッチ、SD-WAN、価格、パフォーマンスベンチマーク、2026年の導入推奨を含む。
@@ -65,7 +66,6 @@ ref:
 - /articles/pfsense-vs-firewalla-network-security-comparison
 - /articles/ubiquiti-unifi-vs-tp-link-omada
 - /articles/best-wifi-mesh-system-for-consumers
-lastmod: 2026-10-21
 ---
 
 ## はじめに：Fortinet対Ciscoネットワークセキュリティ対決
@@ -147,24 +147,22 @@ Fortinetの**Security Fabric**は、すべてのFortinetセキュリティ製品
 **Security Fabricのコアコンポーネント:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              FortiManager (Management)                  │
-│              FortiAnalyzer (Analytics)                  │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│  FortiGate FW  │    │  FortiSwitch    │  │ FortiAP    │
-│  (Perimeter)   │    │  (Network)      │  │ (Wireless) │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-            ┌────────▼─────────┐
-            │   FortiClient    │
-            │   (Endpoint)     │
-            └──────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                FortiManager (管理)                                │
+│                               FortiAnalyzer (分析)                                │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│      FortiGate FW       │  │       FortiSwitch       │  │         FortiAP         │
+│         (境界)          │  │     (ネットワーク)      │  │         (無線)          │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │       FortiClient       │
+                             │    (エンドポイント)     │
+                             └─────────────────────────┘
 ```
 
 **Security Fabricの主な特徴:**
@@ -195,25 +193,23 @@ Ciscoのアプローチは、ネットワーキング、セキュリティ、コ
 **Cisco Secureアーキテクチャ:**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Cisco SecureX                         │
-│         (Unified Threat Response Platform)              │
-└────────────────────┬────────────────────────────────────┘
-                     │
-        ┌────────────┴────────────┬─────────────┐
-        │                         │             │
-┌───────▼────────┐    ┌──────────▼──────┐  ┌───▼────────┐
-│ Firepower NGFW │    │ Catalyst Switch │  │  Umbrella  │
-│   (Firewall)   │    │   (Network)     │  │   (Cloud)  │
-└───────┬────────┘    └──────────┬──────┘  └───┬────────┘
-        │                        │             │
-        └────────────┬───────────┴─────────────┘
-                     │
-        ┌────────────┴────────────┐
-        │  Cisco Secure Endpoint  │
-        │  Cisco Duo (MFA)        │
-        │  Third-party tools      │
-        └─────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                                   Cisco SecureX                                   │
+│                           統合脅威対応プラットフォーム                            │
+└─────────────────────────────────────────┬─────────────────────────────────────────┘
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+┌────────────┴────────────┐  ┌────────────┴────────────┐  ┌────────────┴────────────┐
+│     Firepower NGFW      │  │    Catalystスイッチ     │  │        Umbrella         │
+│   (ファイアウォール)    │  │     (ネットワーク)      │  │       (クラウド)        │
+└────────────┬────────────┘  └────────────┬────────────┘  └────────────┬────────────┘
+             └────────────────────────────┬────────────────────────────┘
+                                          │
+                             ┌────────────┴────────────┐
+                             │  Cisco Secure Endpoint  │
+                             │     Cisco Duo (MFA)     │
+                             │ サードパーティ製ツール  │
+                             └─────────────────────────┘
 ```
 
 **Cisco Secureの主な特徴:**
@@ -338,12 +334,12 @@ ______
 
 **FortiGate SD-WANのユースケース：**
 ```
-Branch Office Configuration:
-- FortiGate 60F as branch firewall/SD-WAN device
-- Dual WAN links (ISP + LTE backup)
-- IPsec tunnels to headquarters FortiGate
-- Application steering (VoIP → low latency, bulk data → high bandwidth)
-- Cost savings: $2,500 device replaces $2,000 firewall + $3,000 SD-WAN appliance
+支社の構成:
+- 支社のファイアウォール兼SD-WAN機器としてFortiGate 60Fを使用
+- 二系統のWAN回線（ISP + LTEバックアップ）
+- 本社のFortiGateへのIPsecトンネル
+- アプリケーション別の経路制御（VoIP → 低遅延、大容量データ → 高帯域幅）
+- コスト削減：$2,500の機器で、$2,000のファイアウォール + $3,000のSD-WAN機器を置き換え
 ```
 
 **Cisco SD-WAN（Viptelaプラットフォーム）：**
@@ -356,13 +352,13 @@ Branch Office Configuration:
 
 **Cisco SD-WANのユースケース：**
 ```
-Enterprise WAN Deployment:
-- vEdge routers at all branch locations
-- vSmart controllers in data centers (HA pair)
-- vManage centralized management
-- Integration with existing Catalyst switching
-- Firepower firewalls at data center perimeter
-- Cost: Higher but superior for complex topologies
+企業WANの導入:
+- 全支社にvEdgeルーターを配置
+- データセンターにvSmartコントローラーを配置（HAペア）
+- vManageによる集中管理
+- 既存のCatalystスイッチ環境との統合
+- データセンター境界にFirepowerファイアウォールを配置
+- コスト：高いが、複雑なトポロジーに適している
 ```
 
 **SD-WANの評価：**
@@ -387,24 +383,24 @@ Enterprise WAN Deployment:
 
 **セグメンテーションシナリオ：**
 ```
-Requirement: Isolate guest WiFi, employee devices, IoT devices, and servers
+要件：ゲストWiFi、従業員端末、IoT機器、サーバーを分離
 
-Fortinet Approach:
-- FortiGate defines security zones (guest, employee, IoT, server)
-- FortiAP assigns users to VLANs based on SSID
-- FortiSwitch enforces VLAN isolation
-- FortiGate policies control inter-zone traffic
-- Complexity: Moderate
-- Cost: Lower (included in Security Fabric)
+Fortinetの方式:
+- FortiGateでセキュリティゾーンを定義（ゲスト、従業員、IoT、サーバー）
+- FortiAPでSSIDに基づいてユーザーをVLANに割り当て
+- FortiSwitchでVLANの分離を強制
+- FortiGateのポリシーでゾーン間通信を制御
+- 複雑さ：中程度
+- コスト：低い（Security Fabricに含まれる）
 
-Cisco Approach:
-- ISE profiles devices and assigns SGT tags
-- TrustSec policies enforce SGT-based access control
-- Enforcement at Catalyst switches (hardware TCAM)
-- Firepower provides perimeter security
-- Complexity: Higher (requires ISE deployment)
-- Cost: Higher (ISE licensing + TrustSec-capable switches)
-- Benefit: More granular, scales better in very large environments
+Ciscoの方式:
+- ISEで機器をプロファイリングし、SGTタグを割り当て
+- TrustSecポリシーでSGTベースのアクセス制御を適用
+- Catalystスイッチで制御を実施（ハードウェアTCAM）
+- Firepowerで境界を保護
+- 複雑さ：高い（ISEの導入が必要）
+- コスト：高い（ISEライセンス + TrustSec対応スイッチ）
+- 利点：より細かな制御と、大規模環境での高い拡張性
 ```
 
 **セグメンテーションの評価：**
@@ -473,20 +469,20 @@ end
 
 **ポリシー作成（Firepower Management Center GUI）：**
 ```
-GUI Workflow:
-1. Navigate to Policies → Access Control → [Policy Name]
-2. Add Rule:
-   - Name: "Allow-Web-Outbound"
-   - Source Networks: internal-network
-   - Destination Networks: any
-   - Ports: HTTP, HTTPS
-   - Action: Allow
-   - Inspection: Enable IPS (balanced policy)
-   - File Policy: Block malware (AMP)
-   - URL Filtering: Enable (custom category list)
-   - TLS/SSL: Decrypt known key, inspect
-3. Deploy changes to managed devices
-4. Verify deployment completion
+GUIでの操作手順:
+1. Policies → Access Control → [ポリシー名]を開く
+2. ルールを追加（Add Rule）:
+   - 名前（Name）: "Allow-Web-Outbound"
+   - 送信元ネットワーク（Source Networks）: internal-network
+   - 宛先ネットワーク（Destination Networks）: any
+   - ポート（Ports）: HTTP, HTTPS
+   - 動作（Action）: Allow
+   - 検査（Inspection）: IPSを有効化（バランス型ポリシー）
+   - ファイルポリシー（File Policy）: マルウェアをブロック（AMP）
+   - URLフィルタリング（URL Filtering）: 有効化（カスタムカテゴリ一覧）
+   - TLS/SSL: 既知の鍵で復号し、検査
+3. 管理対象機器に変更を展開
+4. 展開の完了を確認
 ```
 
 **Cisco Firepowerの強み：**
@@ -508,7 +504,7 @@ GUI Workflow:
 **FortiGateの自動化:**
 
 ```python
-# Python example: Create firewall policy via FortiOS API
+# Pythonの例: FortiOS APIでファイアウォールポリシーを作成
 import requests
 import json
 
@@ -533,7 +529,7 @@ policy_data = {
 }
 
 response = requests.post(fortios_api, headers=headers, data=json.dumps(policy_data), verify=False)
-print(f"Policy creation status: {response.status_code}")
+print(f"ポリシー作成の状態: {response.status_code}")
 ```
 
 **FortiGateの自動化成熟度:**
@@ -546,20 +542,20 @@ print(f"Policy creation status: {response.status_code}")
 **Cisco Firepowerの自動化:**
 
 ```python
-# Python example: Create access control policy via FMC API
+# Pythonの例: FMC APIでアクセス制御ポリシーを作成
 from fireREST import FMC
 
 fmc = FMC(hostname='fmc.example.com', username='admin', password='password')
 fmc.login()
 
-# Create network object
+# ネットワークオブジェクトを作成
 network_obj = fmc.create_network_object(
     name='internal-network',
     value='10.0.0.0/8',
-    description='Corporate internal network'
+    description='社内ネットワーク'
 )
 
-# Create access control rule
+# アクセス制御ルールを作成
 rule = fmc.create_access_rule(
     policy_name='Corporate-Access-Policy',
     name='Allow-Web-Outbound',
@@ -571,9 +567,9 @@ rule = fmc.create_access_rule(
     file_policy='Block Malware'
 )
 
-# Deploy changes
+# 変更を適用
 deployment = fmc.deploy(device_list=['firewall01', 'firewall02'])
-print(f"Deployment status: {deployment}")
+print(f"展開の状態: {deployment}")
 ```
 
 **Cisco Firepowerの自動化成熟度:**
@@ -682,12 +678,12 @@ ______
 **FortiGateの総コスト例（3年間）:**
 
 ```
-FortiGate 600F Deployment:
-- Hardware: $20,000 (one-time)
-- Enterprise Bundle: $7,000/year × 3 years = $21,000
-- FortiCare Premium Support: $2,000/year × 3 years = $6,000
-- Total 3-year cost: $47,000
-- Effective annual cost: $15,667/year
+FortiGate 600Fの導入:
+- ハードウェア: $20,000 (初回のみ)
+- Enterprise Bundle: $7,000/年 × 3 年 = $21,000
+- FortiCare Premium Support: $2,000/年 × 3 年 = $6,000
+- 3年間の総費用: $47,000
+- 実質的な年間費用: $15,667/年
 ```
 
 **FortiGateライセンスの利点:**
@@ -717,13 +713,13 @@ FortiGate 600F Deployment:
 **Cisco Firepowerの総コスト例（3年間）：**
 
 ```
-Cisco FPR4145 Deployment:
-- Hardware: $32,000 (one-time)
-- Cisco Plus Secure Bundle: $15,000/year × 3 years = $45,000
-- FMC hardware/VM: $12,000 (one-time) or $2,000/year (VM subscription)
-- Cisco SmartNet Support: $4,000/year × 3 years = $12,000
-- Total 3-year cost: $101,000
-- Effective annual cost: $33,667/year
+Cisco FPR4145の導入:
+- ハードウェア: $32,000 (初回のみ)
+- Cisco Plus Secure Bundle: $15,000/年 × 3 年 = $45,000
+- FMC ハードウェア/VM: $12,000 (初回のみ) または $2,000/年 (VMサブスクリプション)
+- Cisco SmartNet Support: $4,000/年 × 3 年 = $12,000
+- 3年間の総費用: $101,000
+- 実質的な年間費用: $33,667/年
 ```
 
 **Cisco Firepowerのライセンスのデメリット:**
@@ -745,40 +741,40 @@ Cisco FPR4145 Deployment:
 **FortinetソリューションのTCO：**
 
 ```
-Hardware:
-- 2× FortiGate 600F (HA pair): $40,000
-- FortiManager VM (free for <10 devices): $0
+ハードウェア:
+- 2× FortiGate 600F (HAペア): $40,000
+- FortiManager VM (<10台は無料): $0
 - FortiAnalyzer 1000E: $8,000
 
-Subscriptions (5 years):
-- Enterprise Bundle licenses: $7,000/year × 2 firewalls × 5 years = $70,000
-- FortiCare Premium Support: $2,000/year × 2 firewalls × 5 years = $20,000
-- FortiAnalyzer log storage: $1,000/year × 5 years = $5,000
+サブスクリプション（5年間）:
+- Enterprise Bundleライセンス: $7,000/年 × 2 台のファイアウォール × 5 年 = $70,000
+- FortiCare Premium Support: $2,000/年 × 2 台のファイアウォール × 5 年 = $20,000
+- FortiAnalyzerのログ保存: $1,000/年 × 5 年 = $5,000
 
-Professional Services:
-- Initial deployment and training: $10,000
+専門サービス:
+- 初期導入と研修: $10,000
 
-Total 5-year TCO: $153,000
-Average annual cost: $30,600
+5年間の総TCO: $153,000
+年間平均費用: $30,600
 ```
 
 **CiscoソリューションのTCO：**
 
 ```
-Hardware:
-- 2× Cisco FPR4145 (HA pair): $64,000
+ハードウェア:
+- 2× Cisco FPR4145 (HAペア): $64,000
 - Firepower Management Center 2500: $25,000
 
-Subscriptions (5 years):
-- Cisco Plus Secure (all licenses): $15,000/year × 2 firewalls × 5 years = $150,000
-- SmartNet 8×5×NBD: $4,000/year × 2 firewalls × 5 years = $40,000
-- FMC support: $2,500/year × 5 years = $12,500
+サブスクリプション（5年間）:
+- Cisco Plus Secure（全ライセンス）: $15,000/年 × 2 台のファイアウォール × 5 年 = $150,000
+- SmartNet 8×5×NBD: $4,000/年 × 2 台のファイアウォール × 5 年 = $40,000
+- FMCサポート: $2,500/年 × 5 年 = $12,500
 
-Professional Services:
-- Initial deployment and training: $20,000
+専門サービス:
+- 初期導入と研修: $20,000
 
-Total 5-year TCO: $311,500
-Average annual cost: $62,300
+5年間の総TCO: $311,500
+年間平均費用: $62,300
 ```
 
 **TCO分析：**
@@ -810,15 +806,15 @@ ______
 
 **サンプル構成：**
 ```
-Equipment:
+機器:
 - 1× FortiGate 100F: $2,500
-- 2× FortiSwitch 124F (48-port): $2,000 each
-- 3× FortiAP 431F (WiFi 6): $600 each
-- Enterprise Bundle subscription: $900/year
-- FortiCare 8×5 Support: $300/year
+- 2× FortiSwitch 124F (48ポート): $2,000 各
+- 3× FortiAP 431F (WiFi 6): $600 各
+- Enterprise Bundleサブスクリプション: $900/年
+- FortiCare 8×5 Support: $300/年
 
-Total first-year cost: $9,100
-Annual renewal: $1,200
+初年度の総費用: $9,100
+年間更新費用: $1,200
 ```
 
 ### 中規模企業（従業員100～1,000名）
@@ -841,41 +837,41 @@ Annual renewal: $1,200
 
 **サンプル構成（Fortinet）：**
 ```
-Headquarters:
-- 2× FortiGate 600F (HA cluster): $40,000
+本社:
+- 2× FortiGate 600F (HAクラスター): $40,000
 - FortiManager 400E: $12,000
 - FortiAnalyzer 1000E: $8,000
 
-Branch Offices (5 locations):
+支社（5拠点）:
 - 5× FortiGate 100F: $12,500
 - 10× FortiSwitch 124F: $20,000
 
-Subscriptions (annual):
+サブスクリプション（年間）:
 - Enterprise Bundle: $24,000
 - FortiCare Premium Support: $8,000
 
-Total first-year cost: $124,500
-Annual renewal: $32,000
+初年度の総費用: $124,500
+年間更新費用: $32,000
 ```
 
 **サンプル構成（Cisco）：**
 ```
-Headquarters:
-- 2× Cisco FPR4145 (HA cluster): $64,000
+本社:
+- 2× Cisco FPR4145 (HAクラスター): $64,000
 - Cisco FMC 2500: $25,000
-- Cisco ISE 3615 (2-node): $45,000
+- Cisco ISE 3615 (2ノード): $45,000
 
-Branch Offices (5 locations):
+支社（5拠点）:
 - 5× Cisco FPR2140: $45,000
 - 10× Catalyst 9200-48P: $80,000
 
-Subscriptions (annual):
-- Cisco Plus Secure licenses: $90,000
-- SmartNet support: $30,000
-- ISE Plus licenses: $15,000
+サブスクリプション（年間）:
+- Cisco Plus Secureライセンス: $90,000
+- SmartNetサポート: $30,000
+- ISE Plusライセンス: $15,000
 
-Total first-year cost: $394,000
-Annual renewal: $135,000
+初年度の総費用: $394,000
+年間更新費用: $135,000
 ```
 
 **コスト差：** Ciscoソリューションは216％高価（初年度269,500ドル、年間103,000ドル）
@@ -895,17 +891,17 @@ Annual renewal: $135,000
 
 **ただし、ハイブリッドアプローチも検討：**
 ```
-Data Center / Headquarters: Cisco
-- Cisco Firepower 9300 series (high performance)
-- Cisco ISE for network access control
-- Integration with existing Cisco data center
+データセンター / 本社: Cisco
+- Cisco Firepower 9300シリーズ（高性能）
+- ネットワークアクセス制御用のCisco ISE
+- 既存のCiscoデータセンターとの統合
 
-Branch Offices: Fortinet
-- FortiGate appliances for cost-effective branch security
-- Integrated SD-WAN to headquarters
-- Managed via FortiManager (centralized)
+支社: Fortinet
+- 費用効率のよい支社保護にFortiGate機器を使用
+- 本社への統合SD-WAN
+- FortiManagerによる集中管理
 
-Savings: 40-50% reduction in branch office costs while maintaining Cisco core
+削減効果：Ciscoのコアを維持しながら、支社コストを40-50%削減
 ```
 
 ### サービスプロバイダ / MSP
@@ -957,26 +953,26 @@ ______
 **移行のベストプラクティス：**
 
 ```
-Phase 1: Pilot (Months 1-2)
-- Deploy FortiGate in parallel at pilot site
-- Replicate existing Cisco policies
-- Train team on FortiGate management
-- Validate performance and features
+第1段階：試験導入（1-2か月目）
+- 試験拠点でFortiGateを並行導入
+- 既存のCiscoポリシーを再現
+- FortiGateの管理についてチームを訓練
+- 性能と機能を検証
 
-Phase 2: Branch Rollout (Months 3-6)
-- Migrate branch offices first (simpler configurations)
-- Use cutover windows to minimize downtime
-- Keep Cisco policies documented for rollback
+第2段階：支社への展開（3-6か月目）
+- 構成が単純な支社から移行
+- 切り替え作業枠を設けて停止時間を抑制
+- 切り戻し用にCiscoポリシーの文書を保持
 
-Phase 3: Data Center / HQ (Months 7-9)
-- More complex configurations require careful planning
-- Consider HA cutover to minimize downtime
-- Extensive testing of all VPN connections
+第3段階：データセンター / 本社（7-9か月目）
+- 複雑な構成には慎重な計画が必要
+- 停止時間を抑えるためHA切り替えを検討
+- すべてのVPN接続を徹底的にテスト
 
-Phase 4: Decommission (Months 10-12)
-- Remove Cisco equipment after stability period
-- Return or repurpose hardware
-- Cancel Cisco SmartNet subscriptions
+第4段階：撤去（10-12か月目）
+- 安定稼働期間の後にCisco機器を撤去
+- ハードウェアを返却または転用
+- Cisco SmartNetの契約を解約
 ```
 
 {{< figure src="cisco-to-fortinet-network-migration-phased-timeline.webp" alt="CiscoからFortinetへの12か月段階的移行タイムライン図。1～2か月目にパイロット展開、3～6か月目に支店展開、7～9か月目にデータセンター切替、10～12か月目に最終廃止を示す。" >}}
@@ -1007,28 +1003,28 @@ Phase 4: Decommission (Months 10-12)
 **移行のベストプラクティス：**
 
 ```
-Phase 1: Design (Months 1-2)
-- Assess current FortiGate features in use
-- Design equivalent Cisco architecture
-- Identify features requiring additional Cisco products (ISE, etc.)
-- Validate licensing requirements with Cisco SE
+第1段階：設計（1-2か月目）
+- 現在使用中のFortiGate機能を評価
+- 同等のCiscoアーキテクチャを設計
+- 追加のCisco製品が必要な機能を特定（ISEなど）
+- Cisco SEとライセンス要件を確認
 
-Phase 2: Proof of Concept (Months 3-4)
-- Deploy Cisco FMC and test firewall in lab
-- Replicate critical policies and test thoroughly
-- Train security team on FMC management
-- Benchmark performance under realistic load
+第2段階：概念実証（3-4か月目）
+- ラボにCisco FMCとテスト用ファイアウォールを導入
+- 重要なポリシーを再現し、十分にテスト
+- セキュリティチームにFMC管理の研修を実施
+- 現実的な負荷で性能を測定
 
-Phase 3: Phased Deployment (Months 5-12)
-- Deploy Cisco firewalls at new locations first
-- Cutover existing locations during maintenance windows
-- Maintain FortiGate parallel for 30-60 days
-- Extensive VPN and application testing
+第3段階：段階的導入（5-12か月目）
+- 新しい拠点からCiscoファイアウォールを導入
+- 既存拠点は保守作業枠で切り替え
+- FortiGateを30-60日間並行稼働
+- VPNとアプリケーションを徹底的にテスト
 
-Phase 4: Optimization (Months 13-18)
-- Leverage advanced Cisco features (TrustSec, etc.)
-- Integrate with other Cisco products
-- Optimize policies and rule bases
+第4段階：最適化（13-18か月目）
+- Ciscoの高度な機能を使用（TrustSecなど）
+- ほかのCisco製品と統合
+- ポリシーとルール群を最適化
 ```
 
 ______
@@ -1099,29 +1095,15 @@ ______
 ### 意思決定ツリー
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Do you have existing Cisco campus network (ISE)?      │
-└───────────────┬─────────────────────────────────────────┘
-                │
-        ┌───────┴───────┐
-       YES             NO
-        │               │
-        │               │
-        v               v
-┌──────────────┐  ┌─────────────────┐
-│ Need TrustSec │  │ Need integrated │
-│ micro-seg?    │  │ SD-WAN?         │
-└───┬──────────┘  └────────┬────────┘
-    │                      │
-  ┌─┴─┐                  ┌─┴─┐
- YES NO                 YES NO
-  │   │                  │   │
-  v   v                  v   v
-┌────┐ ┌──────┐      ┌────┐ ┌──────┐
-│Cisco│ │Either│      │Fort│ │Either│
-│wins │ │works │      │inet│ │works │
-└────┘ └──────┘      │wins│ └──────┘
-                     └────┘
+既存のCiscoキャンパスネットワーク（ISE）はありますか？
+├─ はい
+│  └─ TrustSecのマイクロセグメンテーションが必要？
+│     ├─ はい: Ciscoが優位
+│     └─ いいえ: どちらも適合
+└─ いいえ
+   └─ 統合SD-WANが必要？
+      ├─ はい: Fortinetが優位
+      └─ いいえ: どちらも適合
 ```
 
 ### 選定基準スコアカード

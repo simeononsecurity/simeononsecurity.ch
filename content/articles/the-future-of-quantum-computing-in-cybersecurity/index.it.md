@@ -1,10 +1,11 @@
 ---
 title: "Il futuro dell'informatica quantistica e della sicurezza informatica"
 date: 2023-03-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Esplora il futuro dell'informatica quantistica e il suo impatto sulla sicurezza informatica, compresa la crittografia post-quantistica e le vulnerabilità degli algoritmi crittografici classici."
-tags: ["Calcolo quantistico", "Sicurezza informatica", "Qubit", "RSA", "CEC", "Crittografia post-quantistica", "Ricottura quantistica", "Supremazia quantistica", "Superposizione", "Entanglement", "Algoritmi crittografici", "Infrastruttura digitale", "Problemi di ottimizzazione", "Giganti della tecnologia", "Ricerca e sviluppo", "Decoerenza", "Transazioni online", "Messaggistica sicura", "Banca online", "Scoperta di farmaci"]
+tags: ["Calcolo quantistico", "Sicurezza informatica", "bit quantistici", "RSA", "ECC", "Crittografia post-quantistica", "Ricottura quantistica", "Supremazia quantistica", "Superposizione", "Entanglement quantistico", "Algoritmi crittografici", "Infrastruttura digitale", "Problemi di ottimizzazione", "Giganti della tecnologia", "Ricerca e sviluppo", "Decoerenza", "Transazioni online", "Messaggistica sicura", "Banca online", "Scoperta di farmaci"]
 cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Un'immagine animata di un hacker che cerca di penetrare in un sistema informatico protetto dalla crittografia RSA, ma poi fallisce mentre un computer quantistico risolve la crittografia in pochi secondi sullo sfondo."
 coverCaption: ""
@@ -12,13 +13,13 @@ coverCaption: ""
 
 **Il futuro dell'informatica quantistica e le sue implicazioni per la sicurezza informatica**
 
-L'informatica quantistica è un campo di studi che si concentra sullo sviluppo di tecnologie informatiche basate sui principi della teoria quantistica. A differenza dell'informatica tradizionale, che utilizza cifre binarie, l'informatica quantistica utilizza i **quantum bits** o **qubits**, che possono rappresentare più valori contemporaneamente, consentendo calcoli più veloci e complessi. Sebbene sia ancora agli inizi, l'informatica quantistica ha il potenziale per rivoluzionare molti campi, tra cui la sicurezza informatica. In questo articolo esploreremo il futuro dell'informatica quantistica e le sue implicazioni per la sicurezza informatica.
+L'informatica quantistica è un campo di studi che si concentra sullo sviluppo di tecnologie informatiche basate sui principi della teoria quantistica. A differenza dell'informatica tradizionale, che utilizza cifre binarie, l'informatica quantistica utilizza i **bit quantistici** o **qubit**, che possono rappresentare più valori contemporaneamente, consentendo calcoli più veloci e complessi. Sebbene sia ancora agli inizi, l'informatica quantistica ha il potenziale per rivoluzionare molti campi, tra cui la sicurezza informatica. In questo articolo esploreremo il futuro dell'informatica quantistica e le sue implicazioni per la sicurezza informatica.
 
 ## Introduzione al calcolo quantistico
 
 L'informatica quantistica si basa sui principi della meccanica quantistica, che descrive il comportamento della materia e dell'energia alla scala più piccola. Una delle differenze più significative tra la meccanica quantistica e la meccanica classica è il concetto di **superposizione**. La sovrapposizione è la capacità di un sistema quantistico di esistere in più stati contemporaneamente.
 
-Nell'informatica classica, i bit sono utilizzati per rappresentare l'informazione e possono esistere in uno dei due stati 0 o 1. Nell'informatica quantistica, i qub sono utilizzati per rappresentare l'informazione. Nell'informatica quantistica, i qubit possono esistere in entrambi gli stati contemporaneamente, il che consente di eseguire un numero maggiore di calcoli in parallelo.
+Nell'informatica classica, i bit sono utilizzati per rappresentare l'informazione e possono trovarsi in uno dei due stati, 0 o 1. Nell'informatica quantistica, i qubit possono esistere in entrambi gli stati contemporaneamente, consentendo di eseguire più calcoli in parallelo.
 
 Un altro concetto importante nell'informatica quantistica è l'**entanglement**. L'entanglement è un fenomeno per cui due qubit sono collegati in modo tale che lo stato di un qubit dipende dallo stato dell'altro. Questa proprietà consente una comunicazione più rapida tra i qubit, fondamentale per l'informatica quantistica.
 
@@ -28,9 +29,9 @@ ______
 
 L'informatica quantistica è ancora agli inizi, ma negli ultimi anni sono stati compiuti progressi significativi. Giganti tecnologici come IBM, Google e Microsoft hanno investito in modo significativo nell'informatica quantistica e il settore ha registrato un'impennata nella ricerca e nello sviluppo.
 
-Una delle scoperte più significative nel campo dell'informatica quantistica è lo sviluppo del **quantum annealing**, un metodo per risolvere problemi di ottimizzazione utilizzando i qubit. Questo metodo ha il potenziale per rivoluzionare campi come la finanza, la logistica e la scoperta di farmaci, tra gli altri.
+Una delle scoperte più significative nel campo dell'informatica quantistica è lo sviluppo dell'**annealing quantistico**, un metodo per risolvere problemi di ottimizzazione utilizzando i qubit. Questo metodo ha il potenziale per rivoluzionare campi come la finanza, la logistica e la scoperta di farmaci, tra gli altri.
 
-Un altro sviluppo significativo nell'informatica quantistica è la **quantum supremacy**, la capacità di un computer quantistico di eseguire un calcolo che nessun computer classico può risolvere in un tempo ragionevole. Nel 2019 Google ha affermato di aver raggiunto la supremazia quantistica, ma l'affermazione è stata contestata da alcuni ricercatori.
+Un altro sviluppo significativo nell'informatica quantistica è la **supremazia quantistica**, la capacità di un computer quantistico di eseguire un calcolo che nessun computer classico può risolvere in un tempo ragionevole. Nel 2019 Google ha affermato di aver raggiunto la supremazia quantistica, ma l'affermazione è stata contestata da alcuni ricercatori.
 
 Nonostante questi progressi, l'informatica quantistica deve ancora affrontare diverse sfide. Una delle sfide più significative è il problema della **decoerenza quantistica**, che si riferisce alla tendenza dei qubit a perdere la loro coerenza e a diventare instabili. Questa instabilità può causare errori nei calcoli e rendere i computer quantistici inaffidabili.
 
@@ -61,5 +62,5 @@ Con la continua evoluzione dell'informatica quantistica, sarà importante rimane
 
 ## Riferimenti
 
-1. IBM Research. (n.d.). Informatica quantistica. Recuperato il 4 marzo 2023, da https://www.research.ibm.com/quantum-computing/.
-2. Istituto nazionale degli standard e della tecnologia. (n.d.). Standardizzazione della crittografia post-quantistica. Recuperato il 4 marzo 2024 da https://csrc.nist.gov/projects/post-quantum-cryptography.
+1. IBM Research. (n.d.). Informatica quantistica. Recuperato il 4 marzo 2023, da https://www.research.ibm.com/quantum-computing/
+2. Istituto nazionale degli standard e della tecnologia. (n.d.). Standardizzazione della crittografia post-quantistica. Recuperato il 4 marzo 2023 da https://csrc.nist.gov/projects/post-quantum-cryptography

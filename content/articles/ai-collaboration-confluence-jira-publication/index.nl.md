@@ -1,7 +1,7 @@
 ---
 title: "AI-publicatieworkflow voor GitHub, Confluence en Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Publiceer een vast retentievoorstel in Confluence, GitHub en Jira met versiecontroles en herstel na gedeeltelijke publicatie."
@@ -176,7 +176,7 @@ Deze teksten zijn voorbeeldvoorstellen, geen gegevens uit een live tenant. Voeg 
 | Confluence REQ-17 | v4, zeven dagen | PROP-042 r1, Product keurde v4 naar v5 goed | Publiceerder schreef v5, reviewer opende v5 opnieuw | Dertig dagen, back-ups en wettelijke bewaarplichten uitgesloten |
 | GitHub-configuratie | `main`-commit `base-001`, zeven dagen | PROP-042 r1, Operations keurde de kandidaat-diff goed | PR samengevoegd als `merge-002`, onafhankelijke kloon las dertig terug | Dertig dagen in de beveiligde bron |
 | Confluence RUN-04 | v2, zeven dagen | PROP-042 r1, Operations keurde v2 naar v3 goed | Publiceerder schreef v3, reviewer opende v3 opnieuw | Bedrijfsstap voor dertig dagen met terugzetprocedure |
-| Jira PROP-042 | `In Review` | Beide eigenaarbesluiten gekoppeld aan r1 | Leveringseigenaar voegde bewijs toe en zette de status op `Done` | Afgesloten na alle drie teruglezingen |
+| Jira PROP-042 | Ter beoordeling | Beide eigenaarbesluiten gekoppeld aan r1 | Leveringseigenaar voegde bewijs toe en zette de status op `Done` | Afgesloten na alle drie teruglezingen |
 
 De labels hierboven zijn illustratief, geen tenantbewijs. Je logboek heeft koppelingen naar de oorspronkelijke paginaversies en commit-ID's nodig. Voeg vóór je Jira op `Done` zet het vaste voorstel, de twee rolreviews, de registratie van de bronbasissen, elke publicatieteruglezing, het resultaat van de negatieve test en de resterende runtimebeperkingen toe. Ontbreekt er iets, houd de levering open of `Blocked`.
 

@@ -1,17 +1,16 @@
 ---
 title: "Docker în LXC pe Proxmox: fiabilitate, dovezi și migrare la VM"
 date: 2026-09-16
-lastmod: 2026-11-08
+lastmod: 2026-11-13
 toc: true
 draft: false
 description: "Evaluează Docker în Proxmox LXC printr-o defecțiune AppArmor documentată, o analiză atentă a unui raport despre blocarea gazdei, comenzi de diagnosticare și un plan de migrare la VM."
-genre: ["Virtualizare", "Administrarea Linux", "Homelab"]
+genre: ["Virtualizare", "Administrarea Linux", "laborator de acasă"]
 tags: ["Docker în LXC", "Docker pe Proxmox", "LXC Proxmox", "mașină virtuală Docker", "fiabilitatea homelabului", "blocarea gazdei Proxmox", "VM Debian pentru Docker", "containere fără privilegii", "imbricarea containerelor", "izolarea nucleului Linux", "AppArmor", "runc", "lxc-pve", "Docker Compose", "drivere de stocare Docker", "depozit de imagini containerd", "presiune asupra memoriei", "Linux PSI", "jurnal persistent", "copii de rezervă Proxmox", "copii de rezervă pentru bind mount-uri", "migrare VM", "domenii de defectare", "passthrough GPU", "depanarea serverului de acasă"]
 cover: "/img/cover/docker-lxc-vm-homelab-isolation.webp"
 coverAlt: "Ilustrație izometrică a unui server de acasă, cu casete de sarcini imbricate și un compartiment separat pentru mașina virtuală, conectat la hardware partajat"
 coverCaption: "Ilustrație conceptuală a hardware-ului partajat și a diferitelor limite de izolare a sarcinilor"
 ---
-
 **Docker în Linux Containers (LXC)** reduce o parte din cheltuielile suplimentare de infrastructură, dar mărește numărul de interacțiuni dintre mediul de execuție al aplicațiilor și gazda Proxmox. Pentru serviciile Docker de care depinde locuința ta, o **mașină virtuală (VM) Debian** este un punct de pornire practic, deoarece separă nucleul invitat și simplifică mediul pe care trebuie să îl reproduci când investighezi o problemă. Acest articol examinează videoclipul furnizat, verifică raportul de incident asociat și adaugă defecțiuni documentate și un plan de migrare.
 
 <!--more-->
@@ -66,14 +65,14 @@ Ulterior, proprietarul a raportat **îmbunătățiri după migrare**. Într-o ac
 ## Identifică limita nucleului
 
 ```text
-Docker inside LXC:
-Application -> Docker runtime -> LXC namespaces and policy
-            -> Proxmox host kernel -> physical hardware
+Docker în LXC:
+Aplicație -> runtime Docker -> spații de nume și politici LXC
+                  -> kernelul gazdă Proxmox -> hardware fizic
 
-Docker inside a VM:
-Application -> Docker runtime -> guest Linux kernel
-            -> virtual hardware / KVM-QEMU
-            -> Proxmox host kernel -> physical hardware
+Docker într-o VM:
+Aplicație -> runtime Docker -> kernelul Linux al invitatului
+                  -> hardware virtual / KVM-QEMU
+                  -> kernelul gazdă Proxmox -> hardware fizic
 ```
 
 **LXC** folosește nucleul gazdei. Spațiile de nume, grupurile de control, capabilitățile, seccomp și profilurile de securitate restricționează procesele fără să furnizeze un nucleu separat. Adăugarea Docker în LXC creează încă un nivel de gestionare a containerelor pentru sarcini care folosesc același nucleu de bază al gazdei. [Arhitectura LXC și funcțiile de izolare](https://linuxcontainers.org/lxc/introduction/)
@@ -271,7 +270,7 @@ Evită **doi scriitori activi** către aceeași stocare de bază de date. Reveni
 
 **Testele de acceptanță** trebuie să urmărească scopul serviciului. O stare verde a containerului confirmă un proces pornit. Un serviciu utilizabil are nevoie și de date, acces la rețea, dependențe și comportament de recuperare.
 
-| Test | Dovezi de păstrat |
+| Verificare | Dovezi de păstrat |
 |---|---|
 | **Funcția aplicației** | O tranzacție, interogare sau operație media reală reușită |
 | **Integritatea datelor** | Înregistrările, fișierele, permisiunile și modificările recente așteptate |
@@ -290,17 +289,17 @@ Evită **doi scriitori activi** către aceeași stocare de bază de date. Reveni
 **Folosește dovezi măsurate** pentru a alege implementarea și a stabili când o vei reevalua:
 
 ```text
-Service and household impact:
-Current host / kernel / LXC / Docker versions:
-Required GPU, device, and network access:
-Measured memory, CPU, storage, and latency:
-Known failure signature and recurrence interval:
-Backup coverage and successful restore evidence:
-Chosen deployment and reason:
-Permitted outage window and recovery target:
-Cutover and post-cutover data rollback procedure:
-Acceptance tests and observation period:
-Condition requiring another architecture review:
+Impactul asupra serviciului și locuinței:
+Versiunile curente ale hostului / kernelului / LXC / Docker:
+Acces necesar la GPU, dispozitive și rețea:
+Memorie, CPU, stocare și latență măsurate:
+Semnătură cunoscută a defecțiunii și intervalul de recurență:
+Acoperirea copiilor de rezervă și dovada restaurării reușite:
+Arhitectura aleasă și motivul:
+Fereastra de întrerupere permisă și obiectivul de recuperare:
+Procedura de tranziție și revenire a datelor după tranziție:
+Teste de acceptanță și perioadă de observare:
+Condiția care necesită o nouă analiză a arhitecturii:
 ```
 
 **Alege deliberat imbricarea LXC** când beneficiile justifică munca de integrare și ai testat calea de recuperare. Alege un VM când un mediu Docker convențional în sistemul invitat și un nucleu invitat separat simplifică operarea serviciului. Niciuna dintre decizii nu înlocuiește backupurile, monitorizarea și întreținerea gazdei.

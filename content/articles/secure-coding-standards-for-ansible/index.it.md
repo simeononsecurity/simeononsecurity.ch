@@ -1,6 +1,7 @@
 ---
 title: "Linee guida per la codifica sicura di Ansible: Migliori pratiche"
 date: 2023-03-02
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Imparate le migliori pratiche per scrivere codice sicuro con Ansible, un popolare strumento per la gestione della configurazione e la distribuzione."
@@ -111,7 +112,7 @@ Gli sviluppatori devono sanificare l'input dell'utente per prevenire la **code i
 Gli sviluppatori possono utilizzare l'opzione `regex_replace` in Ansible per sanificare l'input dell'utente. Il filtro `regex_replace` consente agli sviluppatori di sostituire i pattern nelle stringhe con altri pattern. Ad esempio, per sostituire tutti i caratteri non alfanumerici di una stringa con una stringa vuota, gli sviluppatori possono utilizzare il seguente codice:
 
 ```yaml
-- name: Sanitize user input
+- name: Sanificare l'input utente
   vars:
     user_input: "Hello! This is a string with non-alphanumeric characters."
     sanitized_input: "{{ user_input | regex_replace('[^A-Za-z0-9]', '') }}"

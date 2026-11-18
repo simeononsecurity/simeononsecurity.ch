@@ -1,7 +1,7 @@
 ---
 title: "Flux de publicare AI în GitHub, Confluence și Jira"
 date: 2026-10-01
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 toc: true
 draft: false
 description: "Publică o propunere fixă de retenție în Confluence, GitHub și Jira, cu verificări de versiune și recuperare după publicarea parțială."
@@ -176,7 +176,7 @@ Aceste formulări sunt texte propuse pentru exemplu, nu înregistrări active al
 | Confluence REQ-17 | v4, șapte zile | PROP-042 r1, Produs a aprobat schimbarea v4 la v5 | Editorul a scris v5, revizorul a redeschis v5 | Treizeci de zile, backup-urile și reținerile legale excluse |
 | Configurație GitHub | Commit-ul `main` `base-001`, șapte zile | PROP-042 r1, Operațiunile au aprobat diff-ul candidat | PR îmbinată ca `merge-002`, o clonă independentă a citit treizeci | Treizeci de zile în sursa protejată |
 | Confluence RUN-04 | v2, șapte zile | PROP-042 r1, Operațiunile a aprobat schimbarea v2 la v3 | Editorul a scris v3, revizorul a redeschis v3 | Pas operațional de treizeci de zile cu revenire |
-| Jira PROP-042 | In Review | Deciziile ambilor responsabili sunt legate de r1 | Responsabilul livrării a atașat dovezile și a trecut la Done | Închis după cele trei recitiri |
+| Jira PROP-042 | În curs de revizuire | Deciziile ambilor responsabili sunt legate de r1 | Responsabilul livrării a atașat dovezile și a trecut la Done | Închis după cele trei recitiri |
 
 Etichetele de mai sus sunt ilustrative, nu dovezi din tenant. Registrul tău are nevoie de linkuri native către versiunile paginilor și de ID-uri commit. Înainte de a muta Jira la Done, atașează propunerea fixată, ambele revizuiri pe roluri, înregistrarea bazelor sursă, fiecare recitire a publicării, rezultatul testului negativ și limitele nerezolvate la execuție. Dacă lipsește un element, menține livrarea deschisă sau `Blocked`.
 
