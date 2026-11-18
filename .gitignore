@@ -71,3 +71,7 @@ tools/pngcrush.exe
 *.img
 tools/fix_content.py
 tools/generate_ad_images.py
+
+# Local scratch/audit working dirs (translation pipelines)
+.tmp/
+.translation-audit-local-ai-v1/
