@@ -24,6 +24,7 @@ import sys
 import tomllib
 import unicodedata
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 
 
 
@@ -39,6 +40,10 @@ ENGLISH_STOPWORDS = set(
     "may might could would must been being"
     .split()
 )
+ENGLISH_READER_VERBS = {
+    "allows", "enables", "ensures", "follows", "helps", "includes", "means",
+    "offers", "provides", "remains", "requires", "supports", "uses", "works",
+}
 TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "average mean final score latency memory bandwidth method trial throughput "
     "value category result benchmark stage test cost price output input time "
@@ -76,7 +81,7 @@ LOCALE_STOPWORDS = {
     "nl": set("de het een en of van voor met is zijn in op aan niet dat als zich ook naar door deze dit".split()),
     "pl": set("i w z na do jest są nie się oraz albo że dla przez od co jak tego tej także".split()),
     "pt": set("o a os as um uma e ou de que em para por com é são não do da dos das como se também".split()),
-    "ro": set("și de în la este sunt cu pentru din nu pe un o că ca aceasta acești".split()),
+    "ro": set("a și de în la este sunt cu pentru din nu pe un o că ca aceasta acești".split()),
 }
 CSV_FIELDS = [
     "path", "locale", "reasons", "tokens", "english_stopword_ratio",
@@ -88,7 +93,11 @@ CSV_FIELDS = [
     "copied_english_metadata", "taxonomy_count_differences",
     "expected_script_ratio", "copied_english_opening", "copied_link_labels",
     "copied_english_link_connectors",
+    "copied_english_internal_link_labels",
+    "copied_english_reader_verbs",
+    "copied_english_acronym_expansions",
     "english_reader_code_prose_fallback",
+    "high_confidence_english_paragraphs",
     "copied_english_body",
     "copied_english_prose_paragraphs",
     "markdown_structure_differences", "note",
@@ -102,6 +111,26 @@ SCRIPT_RANGES = {
     "ja": ((0x3040, 0x30FF), (0x3400, 0x9FFF)),
     "zh": ((0x3400, 0x9FFF),),
 }
+REFERENCE_HEADINGS = {
+    "reference", "references", "reference list", "references and resources", "sources", "source list",
+    "bibliography", "bibliographies", "further reading", "referencia", "referencias", "referencias y recursos",
+    "referencia bibliografica", "referencias bibliograficas", "referencies", "referències", "referències i recursos",
+    "referencia", "referencias", "bibliografia", "bibliografie", "riferimenti", "fontes", "referências",
+    "referências e recursos", "fontes bibliográficas", "références", "referenties", "bronnen", "referencje", "źródła", "spis źródeł", "literatura", "список литературы",
+    "библиография", "источники", "المراجع", "المصادر", "संदर्भ", "स्रोत", "তথ্যসূত্র", "ਹਵਾਲੇ",
+    "referències", "riferimenti bibliografici", "références", "referințe", "referințe bibliografice",
+    "参考文献", "参考资料", "参考資料", "參考文獻",
+}
+
+
+def is_reference_heading(value: str) -> bool:
+    """Match localized bibliography labels, accents, and qualified variants."""
+    def fold(text: str) -> str:
+        normalized = unicodedata.normalize("NFKD", normalize(text))
+        return "".join(char for char in normalized if not unicodedata.combining(char))
+
+    heading = fold(value)
+    return heading in {fold(item) for item in REFERENCE_HEADINGS}
 
 
 def configured_locales() -> list[str]:
@@ -773,6 +802,49 @@ def copied_english_link_labels(source: str, target: str) -> list[str]:
     return copied
 
 
+def copied_english_internal_link_labels(source: str, target: str, locale: str) -> list[str]:
+    """Block copied labels for first-party articles with a localized sibling title."""
+    copied = []
+    source_links_by_target: dict[str, list[str]] = {}
+    for source_label, source_target in markdown_links(source):
+        source_links_by_target.setdefault(source_target, []).append(source_label)
+    for target_label, target_target in markdown_links(target):
+        source_labels = source_links_by_target.get(target_target, [])
+        target_words = set(normalize(target_label).split())
+        matched_source = None
+        for source_label in source_labels:
+            source_words = set(normalize(source_label).split())
+            if (
+                source_words == target_words
+                or (len(target_words) >= 3 and target_words <= source_words)
+                or len(source_words & target_words) >= 3
+            ):
+                matched_source = source_label
+                break
+        if matched_source is None:
+            continue
+        parsed = urlsplit(target_target)
+        host = (parsed.hostname or "").lower()
+        if host and host != "simeononsecurity.com" and not host.endswith(".simeononsecurity.com"):
+            continue
+        path = unquote(parsed.path)
+        match = re.search(r"(?:^|/)articles/([^/]+)/?$", path)
+        if not match:
+            continue
+        translated_page = ARTICLES / match.group(1) / f"index.{locale}.md"
+        if not translated_page.is_file():
+            continue
+        translated_metadata, _ = read_page(translated_page)
+        translated_title = translated_metadata.get("title")
+        if (
+            isinstance(translated_title, str)
+            and normalize(translated_title)
+            and normalize(translated_title) != normalize(target_label)
+        ):
+            copied.append(f"{matched_source} => {target_label} => {source_target}")
+    return copied
+
+
 def copied_english_link_connectors(text: str) -> list[str]:
     """Find English `and` or `or` left as a connector in a linked item list."""
     findings = []
@@ -1001,17 +1073,14 @@ def copied_english_table_cells(source: str, target: str) -> list[str]:
     for table_index, (source_table, target_table) in enumerate(
         zip(source_tables, target_tables), start=1
     ):
-        for row_index, (source_row, target_row) in enumerate(
-            zip(source_table, target_table), start=1
-        ):
-            for cell_index, (source_cell, target_cell) in enumerate(
-                zip(source_row, target_row), start=1
-            ):
-                normalized = normalize(source_cell)
+        source_cells = {normalize(cell) for row in source_table for cell in row}
+        for row_index, target_row in enumerate(target_table, start=1):
+            for cell_index, target_cell in enumerate(target_row, start=1):
+                normalized = normalize(target_cell)
                 words = normalized.split()
                 if (
                     normalized
-                    and normalized == normalize(target_cell)
+                    and normalized in source_cells
                     and words
                     and any(word in TABLE_ENGLISH_REVIEW_WORDS for word in words)
                 ):
@@ -1043,6 +1112,35 @@ def copied_english_headings(source: str, target: str) -> list[str]:
     return sorted(set(copied))
 
 
+def copied_english_acronym_expansions(source: str, target: str) -> list[str]:
+    """Find glossary entries whose English acronym expansion remains untranslated."""
+    entry_pattern = re.compile(
+        r"^\s*[-+*]\s+\*\*(?P<acronym>(?:[A-Z0-9]{2,}|[A-Z][a-z0-9]{1,4}[A-Z][A-Za-z0-9/+.-]{0,9}))\*\*\s*:\s*(?P<expansion>.+?)\s*$"
+    )
+
+    def entries(text: str) -> dict[str, list[str]]:
+        found: dict[str, list[str]] = {}
+        for line in text.splitlines():
+            match = entry_pattern.match(line)
+            if not match:
+                continue
+            acronym = match.group("acronym")
+            expansion = normalize(visible_text(match.group("expansion")))
+            if expansion:
+                found.setdefault(acronym, []).append(expansion)
+        return found
+
+    source_entries = entries(source)
+    target_entries = entries(target)
+    copied = []
+    for acronym, source_expansions in source_entries.items():
+        target_expansions = target_entries.get(acronym, [])
+        for source_expansion in source_expansions:
+            if len(source_expansion.split()) >= 2 and source_expansion in target_expansions:
+                copied.append(f"{acronym}: {source_expansion}")
+    return sorted(set(copied))
+
+
 def prose_sentences(text: str) -> set[str]:
     """Return normalized reader-facing sentences outside code and markup."""
     visible = visible_text(text, include_link_labels=False)
@@ -1062,6 +1160,10 @@ def reader_prose_paragraphs(text: str) -> set[str]:
         if not raw:
             continue
         lines = [line.strip() for line in raw.splitlines() if line.strip()]
+        # Tables often mix localized labels with model names, units, and
+        # figures. The copied-table-cell screen is more precise here.
+        if lines and all(line.startswith("|") for line in lines):
+            continue
         candidates = []
         if lines and all(re.match(r"(?:[-+*]\s|\d+[.)]\s)", line) for line in lines):
             candidates.extend(lines)
@@ -1235,6 +1337,95 @@ def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
     return findings
 
 
+def high_confidence_english_paragraphs(text: str, locale: str) -> list[str]:
+    """Find substantial English reader prose while excluding names and citations.
+
+    The broader paragraph screen intentionally flags mixed-script technical
+    prose for manual review. This stricter result blocks only substantial prose
+    paragraphs with English stopword density, weak target-language signals, and
+    little or no expected script. It strips linked labels, skips bibliography
+    sections, and excludes code, headings, tables, and title-cased reference
+    entries.
+    """
+    locale_words = LOCALE_STOPWORDS.get(locale, set())
+    findings = []
+    in_references = False
+    parts = []
+    current = []
+    for line in strip_fenced_blocks(text).splitlines():
+        if re.match(r"^ {0,3}#{1,6}\s", line):
+            if current:
+                parts.append("\n".join(current))
+                current = []
+            parts.append(line)
+        elif not line.strip():
+            if current:
+                parts.append("\n".join(current))
+                current = []
+        else:
+            current.append(line)
+    if current:
+        parts.append("\n".join(current))
+
+    for part in parts:
+        raw = part.strip()
+        if not raw:
+            continue
+        lines = [line.strip() for line in raw.splitlines() if line.strip()]
+        if lines and all(line.startswith("|") for line in lines):
+            continue
+        heading_lines = [line for line in lines if line.startswith("#")]
+        if heading_lines:
+            in_references = is_reference_heading(
+                re.sub(r"^#{1,6}\s*", "", heading_lines[-1])
+            )
+            if in_references or len(lines) == 1:
+                continue
+        if in_references:
+            continue
+        list_item = bool(re.match(r"(?:[-+*]|\d+[.)])\s", raw))
+        if list_item:
+            title_words = re.findall(r"\b[A-Za-z][A-Za-z0-9'-]*\b", raw)
+            capitalized = sum(word[0].isupper() for word in title_words)
+            if title_words and capitalized / len(title_words) >= 0.6:
+                continue
+        paragraph = normalize(visible_text(raw, include_link_labels=False))
+        # Keep accented Latin words intact. Dropping them makes some localized
+        # prose look English-heavy because short words overlap with English
+        # stopwords.
+        tokens = re.findall(r"[^\W\d_]+(?:'[^\W\d_]+)?", paragraph.lower())
+        if len(tokens) < 12:
+            continue
+        english_signals = sum(word in ENGLISH_STOPWORDS for word in tokens)
+        english_ratio = english_signals / len(tokens)
+        locale_ratio = sum(word in locale_words for word in tokens) / len(tokens)
+        expected_script = script_ratio(paragraph, locale)
+        if expected_script is not None and expected_script >= 0.20:
+            continue
+        if english_signals >= 3 and english_ratio >= 0.22 and locale_ratio < 0.10:
+            findings.append(paragraph)
+    return sorted(findings)
+
+
+def copied_english_reader_verbs(source: str, target: str) -> list[str]:
+    """Find common English reader prose verbs copied into translated paragraphs."""
+    source_words = set(re.findall(r"[a-z]+", visible_text(source, include_link_labels=False).lower()))
+    findings = []
+    for part in re.split(r"\n\s*\n", strip_fenced_blocks(target)):
+        raw = part.strip()
+        lines = [line.strip() for line in raw.splitlines() if line.strip()]
+        if not raw or any(line.startswith(("#", "|")) for line in lines):
+            continue
+        paragraph = normalize(visible_text(raw, include_link_labels=False))
+        tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", paragraph.lower())
+        if len(tokens) < 8:
+            continue
+        copied = sorted(ENGLISH_READER_VERBS.intersection(tokens, source_words))
+        if copied:
+            findings.extend(f"{word}: {paragraph}" for word in copied)
+    return sorted(set(findings))
+
+
 def script_ratio(text: str, locale: str) -> float | None:
     ranges = SCRIPT_RANGES.get(locale)
     if not ranges:
@@ -1350,9 +1541,12 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_spans = copied_english_prose_spans(source_body, body)
         copied_prose_paragraphs = copied_english_prose_paragraphs(source_body, body)
         english_paragraphs = english_dominant_paragraphs(body, locale)
+        high_confidence_english_paragraphs_found = high_confidence_english_paragraphs(body, locale)
+        copied_reader_verbs = copied_english_reader_verbs(source_body, body)
         english_body_fallback = english_dominant_body(body, locale)
         copied_table_cells = copied_english_table_cells(source_body, body)
         copied_headings = copied_english_headings(source_body, body)
+        copied_acronym_expansions = copied_english_acronym_expansions(source_body, body)
         structure_differences = markdown_structure_differences(source_body, body)
         ratio = script_ratio(prose, locale)
         reasons = []
@@ -1402,12 +1596,18 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("copied_english_prose_paragraph")
         if english_paragraphs:
             reasons.append("English_dominant_reader_paragraph")
+        if high_confidence_english_paragraphs_found:
+            reasons.append("high_confidence_english_paragraph")
+        if copied_reader_verbs:
+            reasons.append("copied_english_reader_verb")
         if english_body_fallback:
             reasons.append("English_dominant_reader_body")
         if copied_table_cells:
             reasons.append("English_reader_table_cell_copy")
         if copied_headings:
             reasons.append("English_reader_heading_copy")
+        if copied_acronym_expansions:
+            reasons.append("copied_english_acronym_expansion")
         if len(tokens) >= 120 and english_ratio >= 0.22 and locale_ratio < 0.12:
             reasons.append("English_stopword_dominance")
         if ratio is not None and len(prose) > 500 and ratio < 0.08:
@@ -1419,6 +1619,11 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_link_labels = copied_english_link_labels(source_body, body)
         if copied_link_labels:
             reasons.append("English_reader_link_label_copy")
+        copied_internal_link_labels = copied_english_internal_link_labels(
+            source_body, body, locale
+        )
+        if copied_internal_link_labels:
+            reasons.append("copied_english_internal_link_label")
         copied_link_connectors = copied_english_link_connectors(body)
         if copied_link_connectors:
             reasons.append("copied_english_link_connector")
@@ -1441,8 +1646,11 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
                 "split_word_emphasis": " | ".join(split_emphasis),
                 "english_dominant_paragraphs": " | ".join(english_paragraphs),
+                "high_confidence_english_paragraphs": " | ".join(high_confidence_english_paragraphs_found),
+                "copied_english_reader_verbs": " | ".join(copied_reader_verbs),
                 "copied_english_table_cells": " | ".join(copied_table_cells),
                 "copied_english_headings": " | ".join(copied_headings),
+                "copied_english_acronym_expansions": " | ".join(copied_acronym_expansions),
                 "copied_english_metadata": " | ".join(
                     [f"{key}: {metadata[key]}" for key in copied_metadata]
                     + [f"{key}: {', '.join(values)}" for key, values in copied_taxonomy.items()]
@@ -1453,6 +1661,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_english_opening": copied_opening,
                 "copied_link_labels": " | ".join(copied_link_labels),
+                "copied_english_internal_link_labels": " | ".join(copied_internal_link_labels),
                 "copied_english_link_connectors": " | ".join(copied_link_connectors),
                 "copied_english_body": copied_body,
                 "copied_english_prose_paragraphs": " | ".join(copied_prose_paragraphs),
@@ -1474,8 +1683,8 @@ def main() -> int:
         action="store_true",
         help=(
             "fail on high-confidence English fallback signals: an exact English body or prose paragraph, "
-            "many copied English paragraphs, English stopword dominance, copied reader-facing code text, "
-            "or a missing target script"
+            "one English-dominant reader paragraph, many copied English paragraphs, "
+            "English stopword dominance, copied reader-facing code text, or a missing target script"
         ),
     )
     args = parser.parse_args()
@@ -1505,10 +1714,14 @@ def main() -> int:
             "many_exact_English_paragraphs",
             "English_stopword_dominance",
             "English_dominant_reader_body",
+            "high_confidence_english_paragraph",
+            "copied_english_reader_verb",
             "expected_script_missing",
             "copied_english_opening",
             "copied_english_link_connector",
             "English_reader_code_prose_fallback",
+            "copied_english_acronym_expansion",
+            "copied_english_internal_link_label",
         }
         blockers = [
             row for row in findings

@@ -44,6 +44,10 @@
   proper-name exception. Preserve the source tag and genre counts. The leakage
   checker flags `taxonomy_count_mismatch`; inspect the report's source/target
   counts, then compare value order manually because translations change values.
+- In glossary entries, retain the acronym as the fixed key and translate its
+  reader-facing expansion. Do not leave the source English expansion as the
+  only explanation. Keep the English wording alongside the localized expansion
+  only when readers need the canonical phrase to identify the acronym.
 - Check false friends that change evidence-handling meaning. For example,
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private
@@ -210,6 +214,10 @@
   report, and require the peer reviewer to check those dispositions. A zero
   `--fail-on-english-fallback` count does not clear heading findings because
   that strict gate does not block them.
+  Treat `copied_english_acronym_expansion` as an approval blocker. Translate the
+  glossary expansion while retaining its acronym key. A bilingual expansion is
+  acceptable only when localized wording appears beside the canonical English
+  phrase.
   Compare unchanged descriptive table cells directly with the source. The
   leakage checker queues copied descriptive cells, including common
   single-word labels, for manual review. Translate
@@ -372,8 +380,18 @@
   `copied_english_body` as a blocking exact-body fallback finding, even when
   translated front matter differs. Repair English-dominant short paragraphs;
   translated text elsewhere in the file does not make those paragraphs complete.
-  The strict gate also blocks a single exact English prose paragraph or long
-  reader-facing list item copied from the source. Run it on the temporary
+  The strict gate also blocks one high-confidence English-dominant reader prose
+  paragraph, a single exact English paragraph, or a long reader-facing list item
+  copied from the source. The paragraph blocker excludes title-cased references,
+  linked bibliography entries, code, headings, tables, and paragraphs with
+  substantial expected-language script. Review broad mixed-script flags in
+  context instead of treating product names or source titles as English prose.
+  Keep localized bibliography headings in `REFERENCE_HEADINGS` so translated
+  citations do not look like reader prose. The strict paragraph screen skips
+  Markdown table rows because copied descriptive cells have their own check,
+  and counts accented Latin words as whole tokens before comparing English and
+  locale stopwords.
+  Run it on the temporary
   candidate before integration and again on the frozen in-tree bundle. Do not
   count code fences, tables, headings, shortcodes, linked list entries that
   contain only names, or title-cased list entries as prose for this blocker;
@@ -387,12 +405,33 @@
   English conjunctions `and` or `or` before the final Markdown link. The strict
   fallback checker flags this pattern and CI blocks it. Keep official linked
   names and destinations unchanged.
+  Translate descriptive labels for first-party article links when a localized
+  sibling page exists. Keep the URL unchanged. The strict checker blocks an
+  unchanged English label when the linked article has a translated title.
+  When reviewing a link-label finding, confirm the exact label and its paired
+  destination in the report. An unrelated first-party link elsewhere on the
+  same page does not make an external product label an internal article link.
+  Acronym glossary entries also need a localized expansion beside the fixed
+  acronym key. Keep the canonical English phrase only when it helps readers
+  identify the acronym, and pair it with localized wording. The strict checker
+  blocks an expansion copied unchanged from English, including expansions that
+  contain no English stopwords.
+  Table-cell copy findings compare cells within the same table even when a
+  translation changes row or column order. Inspect each flagged cell against
+  its localized row and do not dismiss it because its coordinates changed.
+  Translate common English prose verbs when they appear inside localized
+  paragraphs. The checker blocks source-matching verbs such as `offers`,
+  `provides`, `includes`, and `supports`, even when the rest of the paragraph
+  uses the target language.
   The `Translation English Fallback Check` workflow runs the high-confidence
   fallback screen on article changes. Run the same gate locally with
   `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
-  It blocks exact English-body copies, multiple copied English paragraphs,
-  English-dominant prose, missing expected scripts, copied reader-facing
-  openings and linked-list connectors, and English-heavy code comments or
+  It blocks exact English-body copies, copied English prose verbs, copied English expansions in glossary
+  entries, copied labels for localized first-party article links, one
+  high-confidence English-dominant
+  reader paragraph, multiple copied English paragraphs, English-dominant prose,
+  missing expected scripts, copied reader-facing
+  openings, linked-list connectors, and English-heavy code comments or
   sample values. In product comparisons, preserve product names but translate the
   comparison wording such as `vs`; an English list of brands is not a localized
   title. The broader checker

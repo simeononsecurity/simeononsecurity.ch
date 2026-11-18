@@ -14,8 +14,10 @@ from check_translation_english_leakage import (
     audit_bundle,
     copied_english_prose_spans,
     copied_english_link_labels,
+    copied_english_internal_link_labels,
     copied_english_link_connectors,
     copied_english_headings,
+    copied_english_acronym_expansions,
     copied_english_opening,
     copied_english_prose_paragraphs,
     copied_english_taxonomy,
@@ -27,6 +29,8 @@ from check_translation_english_leakage import (
     english_reader_code_prose_fallback,
     copied_unlabeled_fence_lines,
     english_dominant_paragraphs,
+    high_confidence_english_paragraphs,
+    copied_english_reader_verbs,
     english_dominant_body,
     main as checker_main,
     markdown_structure,
@@ -222,6 +226,109 @@ class FencedProseTests(unittest.TestCase):
             ],
         )
 
+    def test_high_confidence_gate_flags_a_single_english_reader_paragraph(self):
+        english = (
+            "Administrators review each access request before granting permission to protected records. "
+            "The system records every decision and alerts the responsible owner."
+        )
+        self.assertEqual(high_confidence_english_paragraphs(english, "fr"), [normalize(english)])
+
+    def test_high_confidence_gate_ignores_target_script_with_technical_names(self):
+        chinese = (
+            "管理員會檢查每個 access request，再授予受保護資料的權限。"
+            "系統會記錄決策並通知負責人。"
+        )
+        self.assertEqual(high_confidence_english_paragraphs(chinese, "zh"), [])
+
+    def test_high_confidence_gate_ignores_title_cased_reference_entries(self):
+        citation = (
+            "- National Institute of Standards and Technology (NIST). (2017). "
+            "NIST Special Publication 800-37: Risk Management Framework for "
+            "Information Systems and Organizations: A System Life Cycle Approach."
+        )
+        self.assertEqual(high_confidence_english_paragraphs(citation, "fr"), [])
+
+    def test_high_confidence_gate_skips_localized_reference_sections(self):
+        references = (
+            "## Références\n\n"
+            "- [What Is Machine Learning?](https://example.com/ml)\n"
+            "- National Institute of Standards and Technology (NIST). (2017). "
+            "NIST Special Publication 800-37: Risk Management Framework for "
+            "Information Systems and Organizations."
+        )
+        self.assertEqual(high_confidence_english_paragraphs(references, "fr"), [])
+
+    def test_high_confidence_gate_skips_more_localized_reference_sections(self):
+        for heading in (
+            "参考資料",
+            "Referințe",
+            "Referències",
+            "Bibliografía",
+            "Referências Bibliográficas",
+            "Fontes bibliográficas",
+        ):
+            with self.subTest(heading=heading):
+                references = (
+                    f"## {heading}\n"
+                    "- National Institute of Standards and Technology (NIST). (2017). "
+                    "NIST Special Publication 800-37: Risk Management Framework for "
+                    "Information Systems and Organizations. Retrieved from https://example.com"
+                )
+                self.assertEqual(high_confidence_english_paragraphs(references, "fr"), [])
+
+    def test_reference_architecture_is_not_mistaken_for_a_bibliography(self):
+        text = (
+            "## Reference Architecture\n\n"
+            "Administrators review each access request before granting permission "
+            "to protected records. The system records the decision and alerts the owner."
+        )
+        self.assertEqual(len(high_confidence_english_paragraphs(text, "fr")), 1)
+
+    def test_bibliography_heading_does_not_hide_preceding_english_prose(self):
+        text = (
+            "Administrators review each access request before granting permission "
+            "to protected records. The system records the decision and alerts the owner.\n"
+            "## Referințe\n"
+            "- National Institute of Standards and Technology (NIST). (2017). "
+            "NIST Special Publication 800-37: Risk Management Framework."
+        )
+        self.assertEqual(len(high_confidence_english_paragraphs(text, "ro")), 1)
+
+    def test_high_confidence_gate_ignores_table_rows(self):
+        table = (
+            "| Method | Average throughput at 6 GHz 1,485 Mbps at 15 feet | Average throughput at 5 GHz 780 Mbps |\n"
+            "| --- | --- | --- |\n"
+            "| Test result | Average latency at 15 ms | Network performance remains stable |"
+        )
+        self.assertEqual(high_confidence_english_paragraphs(table, "it"), [])
+
+    def test_high_confidence_gate_counts_accented_latin_words(self):
+        romanian = (
+            "Aplicația a validat lista, a extras datele, a procesat cererile, "
+            "a păstrat rezultatele, a salvat raportul pentru administrator."
+        )
+        self.assertEqual(high_confidence_english_paragraphs(romanian, "ro"), [])
+
+    def test_high_confidence_gate_strips_link_labels_but_keeps_english_sentence(self):
+        mixed = (
+            "- Elija [**StartMail**](https://example.com/) if you seek a user-friendly interface, "
+            "custom domain integration, and support for PFS encryption."
+        )
+        found = high_confidence_english_paragraphs(mixed, "es")
+        self.assertEqual(len(found), 1)
+        self.assertIn("if you seek a user friendly interface", found[0])
+
+    def test_flags_a_copied_english_reader_verb_inside_localized_prose(self):
+        source = (
+            "StartMail offers PFS protection, which means each email session uses a unique key."
+        )
+        target = (
+            "[StartMail](https://example.com/) offers **PFS (Perfect Forward Secrecy)**, "
+            "lo que significa que cada sesión utiliza una clave única."
+        )
+        self.assertEqual(len(copied_english_reader_verbs(source, target)), 1)
+        self.assertIn("offers:", copied_english_reader_verbs(source, target)[0])
+
     def test_audit_flags_short_wholly_english_locale_file(self):
         with TemporaryDirectory() as temporary_directory:
             root = Path(temporary_directory)
@@ -343,6 +450,60 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(result, 1)
         self.assertIn("copied_english_prose_paragraph", stdout.getvalue())
+
+    def test_strict_gate_blocks_one_paraphrased_english_paragraph_in_a_translation(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Review access'\n---\n"
+                "The original English source describes a different access process with separate controls.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Vérifier les accès'\n---\n"
+                "Le système examine chaque demande avant d'accorder un accès limité aux dossiers.\n\n"
+                "Administrators check every access request before they grant permission to sensitive records. "
+                "The platform logs each decision and alerts the designated owner.\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("high_confidence_english_paragraph", stdout.getvalue())
+        self.assertIn(str(bundle / "index.fr.md"), stdout.getvalue())
+
+    def test_strict_gate_blocks_one_english_verb_inside_localized_paragraph(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Secure email'\n---\n"
+                "StartMail offers PFS protection, which means each email session uses a unique key.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.es.md").write_text(
+                "---\ntitle: 'Correo seguro'\n---\n"
+                "StartMail offers **PFS (Perfect Forward Secrecy)**, lo que significa que cada sesión "
+                "utiliza una clave única.\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["es"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_reader_verb", stdout.getvalue())
 
     def test_audit_flags_short_exact_english_body_with_different_front_matter(self):
         with TemporaryDirectory() as temporary_directory:
@@ -601,6 +762,85 @@ class FencedProseTests(unittest.TestCase):
     def test_flags_short_generic_heading_copies(self):
         self.assertEqual(copied_english_headings("## Switches", "## Switches"), ["switches"])
 
+    def test_blocks_an_unchanged_english_acronym_expansion(self):
+        source = "- **BaaS**: Backend as a Service\n"
+        unchanged = "- **BaaS**: Backend as a Service\n"
+        localized = "- **BaaS**: バックエンド・アズ・ア・サービス\n"
+        bilingual = "- **BaaS**: Backend as a Service (バックエンド・アズ・ア・サービス)\n"
+
+        self.assertEqual(
+            copied_english_acronym_expansions(source, unchanged),
+            ["BaaS: backend as a service"],
+        )
+        self.assertEqual(copied_english_acronym_expansions(source, localized), [])
+        self.assertEqual(copied_english_acronym_expansions(source, bilingual), [])
+
+    def test_blocks_unchanged_acronym_expansions_without_english_stopwords(self):
+        for expansion in ("Application Programming Interface", "Transport Layer Security"):
+            with self.subTest(expansion=expansion):
+                entry = f"- **API**: {expansion}\n"
+                self.assertEqual(
+                    copied_english_acronym_expansions(entry, entry),
+                    [f"API: {normalize(expansion)}"],
+                )
+
+    def test_checks_duplicate_acronym_keys_independently(self):
+        source = (
+            "- **DOS**: Disk Operating System\n"
+            "- **DOS**: Denial of Service\n"
+        )
+        target = (
+            "- **DOS**: Sistema Operativo de Disco\n"
+            "- **DOS**: Denial of Service\n"
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(source, target),
+            ["DOS: denial of service"],
+        )
+
+    def test_flags_unchanged_english_table_cells_after_row_or_column_reordering(self):
+        source = (
+            "| Método | Latency at 15 ms | Precio |\n"
+            "| --- | --- | --- |\n"
+            "| Modelo A | 20 ms | $99 |\n"
+            "| Modelo B | 25 ms | $129 |\n"
+        )
+        target = (
+            "| Precio | Método | Latency at 15 ms |\n"
+            "| --- | --- | --- |\n"
+            "| $129 | Modelo B | 25 ms |\n"
+            "| $99 | Modelo A | 20 ms |\n"
+        )
+        findings = copied_english_table_cells(source, target)
+        self.assertTrue(any("latency at 15 ms" in finding for finding in findings))
+
+    def test_does_not_treat_a_platform_name_as_an_acronym(self):
+        text = "- **Android**: Tor Browser for Android\n"
+        self.assertEqual(copied_english_acronym_expansions(text, text), [])
+
+    def test_strict_gate_blocks_an_unchanged_english_acronym_expansion(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Acronyms'\n---\n- **BaaS**: Backend as a Service\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.ja.md").write_text(
+                "---\ntitle: '略語'\n---\n- **BaaS**: Backend as a Service\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["ja"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_acronym_expansion", stdout.getvalue())
+
     def test_flags_english_fragments_in_mixed_language_headings(self):
         source = "## Gateways and All-in-One"
         target = "## Gateways / Todo en uno"
@@ -680,6 +920,91 @@ class FencedProseTests(unittest.TestCase):
         target = "[VPN service](https://example.com/other)"
 
         self.assertEqual(copied_english_link_labels(source, target), [])
+
+    def test_internal_article_link_copy_blocks_when_sibling_title_is_localized(self):
+        with TemporaryDirectory() as temporary_directory:
+            articles = Path(temporary_directory) / "articles"
+            sibling = articles / "compromised-email"
+            sibling.mkdir(parents=True)
+            (sibling / "index.de.md").write_text(
+                "---\ntitle: 'Was tun bei kompromittierter E-Mail?'\n---\n", encoding="utf-8"
+            )
+            source = (
+                "Read [the guide](https://simeononsecurity.com/articles/other-guide/) and "
+                "[Enable two-factor authentication (2FA)]"
+                "(https://simeononsecurity.com/articles/compromised-email/)."
+            )
+            target = (
+                "Aktivieren Sie [Enable two-factor authentication]"
+                "(https://simeononsecurity.com/articles/compromised-email/) und lesen Sie "
+                "[die Anleitung](https://simeononsecurity.com/articles/other-guide/)."
+            )
+
+            with patch("check_translation_english_leakage.ARTICLES", articles):
+                findings = copied_english_internal_link_labels(source, target, "de")
+
+        self.assertEqual(len(findings), 1)
+        self.assertIn("Enable two-factor authentication", findings[0])
+
+    def test_strict_gate_blocks_copied_internal_link_label(self):
+        with TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory).resolve()
+            articles = root / "articles"
+            sibling = articles / "compromised-email"
+            sibling.mkdir(parents=True)
+            (sibling / "index.de.md").write_text(
+                "---\ntitle: 'Was tun bei kompromittierter E-Mail?'\n---\n", encoding="utf-8"
+            )
+            bundle = articles / "current-article"
+            bundle.mkdir()
+            url = "https://simeononsecurity.com/articles/compromised-email/"
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Email security'\n---\nSee [What to Do If You Think Your Email Is Compromised]"
+                f"({url}).\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.de.md").write_text(
+                "---\ntitle: 'E-Mail-Sicherheit'\n---\nLesen Sie "
+                f"[What to Do If You Think Your Email Is Compromised]({url}).\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.ROOT", root),
+                patch("check_translation_english_leakage.ARTICLES", articles),
+                patch("check_translation_english_leakage.configured_locales", return_value=["de"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_internal_link_label", stdout.getvalue())
+
+    def test_internal_link_gate_does_not_attach_last_source_url_to_other_links(self):
+        with TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            articles = root / "articles"
+            sibling = articles / "strong-passwords"
+            sibling.mkdir(parents=True)
+            (sibling / "index.de.md").write_text(
+                "---\ntitle: 'Starke Passwörter erstellen'\n---\n", encoding="utf-8"
+            )
+            source = (
+                "[Norton Family](https://example.com/norton) and "
+                "[Kaspersky Safe Kids](https://example.com/kaspersky). "
+                "Read [strong passwords](https://simeononsecurity.com/articles/strong-passwords/)."
+            )
+            target = (
+                "[Norton Family](https://example.com/norton) und "
+                "[Kaspersky Safe Kids](https://example.com/kaspersky). "
+                "Lesen Sie [starke Passwörter](https://simeononsecurity.com/articles/strong-passwords/)."
+            )
+
+            with patch("check_translation_english_leakage.ARTICLES", articles):
+                findings = copied_english_internal_link_labels(source, target, "de")
+
+        self.assertEqual(findings, [])
 
     def test_flags_english_and_connector_between_linked_list_items(self):
         text = (
