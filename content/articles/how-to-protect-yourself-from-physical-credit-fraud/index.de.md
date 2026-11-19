@@ -10,7 +10,6 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "Eine Cartoon-Illustration zeigt einen Dieb, der mit einem elektronischen Gerät Kreditkartendaten aus einer Geldbörse stiehlt."
 coverCaption: ""
 ---
-simeononsecurity.com
  **So schützen Sie sich vor physischem Kreditkartenbetrug**
 
  Kreditkarten sind aus unserem Alltag nicht mehr wegzudenken. Mit der Bequemlichkeit, die sie bieten, geht jedoch das Betrugsrisiko einher. Kriminelle haben verschiedene Techniken entwickelt, um Kreditkarteninformationen zu stehlen, wie z. B. Skimming, Phishing und Hacking. In diesem Artikel besprechen wir, wie Sie sich vor physischem Kreditkartenbetrug schützen können.

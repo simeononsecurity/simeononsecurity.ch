@@ -10,7 +10,6 @@ cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.
 coverAlt: "Ilustración de dibujos animados de un ladrón que usa un dispositivo electrónico para robar los datos de una tarjeta de crédito de una cartera."
 coverCaption: ""
 ---
-simeononsecurity.com
  **Cómo protegerse del fraude físico con tarjetas de crédito**
 
  Las tarjetas de crédito se han convertido en una parte esencial de nuestra vida diaria. Sin embargo, con la comodidad que brindan, viene el riesgo de fraude. Los delincuentes han desarrollado varias técnicas para robar información de tarjetas de crédito, como skimming, phishing y piratería. En este artículo, analizaremos cómo puede protegerse del fraude físico con tarjetas de crédito.
