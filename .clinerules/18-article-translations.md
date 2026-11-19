@@ -74,9 +74,12 @@
   still refers to credential theft or impersonation attacks.
 - Translate common English technical terms when the target language has a clear
   reader-facing equivalent. In Italian prose and table labels, use
-  `velocità di trasferimento` for `throughput` and `integrato` or
-  `tutto-in-uno` or `con funzioni integrate` for `all-in-one`; keep the English
+  `velocità di trasferimento` for `throughput` and `integrato`,
+  `tutto-in-uno`, or `con funzioni integrate` for `all-in-one`. Keep the English
   only for an exact UI label or formal product name.
+- In Hindi, translate password-manager `vault` consistently as
+  `पासवर्ड मैनेजर का सुरक्षित भंडार`. Search the whole locale file for every
+  occurrence instead of repairing only the flagged paragraph.
 - Use the established target-language acronym for laws and regulatory regimes.
   In French, use `RGPD` for `GDPR`; introduce `GDPR` once in parentheses only
   when the English acronym helps identify sources, then use `RGPD` consistently
