@@ -1,7 +1,7 @@
 ---
 title: "Manual DoD 8140.03: Programa para la fuerza laboral del ciberespacio"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Conozca el Programa de Cualificación y Gestión de la Fuerza Laboral del Ciberespacio del DoD, descrito en el Manual 8140.03."
@@ -33,7 +33,7 @@ Para obtener más información sobre el propósito y la aplicación del **Manual
 
 El **Manual DoD 8140.03** se aplica a numerosas entidades del Departamento de Defensa (DoD) y define las cualificaciones y los requisitos del personal destinado a puestos que realizan **trabajo en el ciberespacio**. Su ámbito incluye varios componentes y organizaciones del DoD, entre ellos:
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Oficina del Secretario de Defensa)**
 - **Departamentos militares**
 - **Office of the Chairman of the Joint Chiefs of Staff (CJCS) y Joint Staff**
 - **Comandos combatientes**
@@ -60,7 +60,7 @@ La sección 2 del **Manual DoD 8140.03** describe las **responsabilidades** de l
 
 - El **Under Secretary of Defense for Intelligence and Security (USD(I&S))** supervisa el desarrollo y la gestión de las funciones laborales del componente de **inteligencia (ciberespacio)** y coordina la recopilación de datos de cualificación. Así, las funciones de ciberespacio relacionadas con inteligencia se alinean con las normas y los datos necesarios.
 
-- El **Office of the Secretary of Defense (OSD)** y los responsables de los **componentes del DoD** presentan recomendaciones a la CWMB para su aprobación sobre políticas, procedimientos y procesos para gestionar la fuerza laboral del ciberespacio. La colaboración busca establecer prácticas uniformes en el DoD para cualificar y gestionar al personal.
+- La **Oficina del Secretario de Defensa (OSD)** y los responsables de los **componentes del DoD** presentan recomendaciones a la CWMB para su aprobación sobre políticas, procedimientos y procesos para gestionar la fuerza laboral del ciberespacio. La colaboración busca establecer prácticas uniformes en el DoD para cualificar y gestionar al personal.
 
 Al definir estas responsabilidades, el DoD promueve un enfoque coordinado y eficaz para cualificar y gestionar su fuerza laboral del ciberespacio. Esto permite desarrollar métricas uniformes, programas adecuados de formación y educación, y políticas y procedimientos que respaldan los objetivos del **Programa de Cualificación y Gestión de la Fuerza Laboral del Ciberespacio**.
 
@@ -78,7 +78,7 @@ Entre los objetivos y procedimientos destacados están:
 
 - **Requisitos fundamentales y de residencia:** Los empleados civiles y los miembros de las Fuerzas Armadas asignados a funciones de ciberespacio deben cumplir estos requisitos dentro de plazos definidos. Los empleados civiles tienen 9 meses y los miembros del servicio, 12 meses. Así reciben la formación y educación necesarias para su trabajo.
 
-- **Gestión de los requisitos de cualificación:** El **Office of the Secretary of Defense (OSD)** y los **componentes del DoD** gestionan el desarrollo y la implementación de los requisitos en las áreas de residencia y CPD. Definen los conocimientos y las habilidades de cada función y establecen procesos para evaluar y validar las cualificaciones del personal.
+- **Gestión de los requisitos de cualificación:** La **Oficina del Secretario de Defensa (OSD)** y los **componentes del DoD** gestionan el desarrollo y la implementación de los requisitos en las áreas de residencia y CPD. Definen los conocimientos y las habilidades de cada función y establecen procesos para evaluar y validar las cualificaciones del personal.
 
 - **Requisitos de cualificación para contratistas:** Los contratistas que realizan trabajo en el ciberespacio deben cumplir los **requisitos fundamentales de cualificación** al comenzar sus asignaciones. Así, quienes trabajan junto al personal del DoD también tienen las cualificaciones necesarias.
 
@@ -142,7 +142,7 @@ La **opción de cualificación fundamental basada en la experiencia** ofrece un 
 
 Las **áreas de cualificación de residencia** se adaptan a cada función de trabajo. La formación cubre todas las tareas esenciales y los **conocimientos, habilidades y capacidades (KSA)** pertinentes. Así, el personal adquiere la experiencia y la competencia necesarias para sus responsabilidades.
 
-El **Office of the Secretary of Defense (OSD)** y los **componentes del DoD** gestionan el desarrollo y la implementación de requisitos en las áreas de residencia y de **Desarrollo Profesional Continuo (CPD)**. Esto ayuda a mantener la coherencia con los objetivos generales del Programa de Cualificación.
+La **Oficina del Secretario de Defensa (OSD)** y los **componentes del DoD** gestionan el desarrollo y la implementación de requisitos en las áreas de residencia y de **Desarrollo Profesional Continuo (CPD)**. Esto ayuda a mantener la coherencia con los objetivos generales del Programa de Cualificación.
 
 Tras completar los requisitos fundamentales y de residencia, el personal puede participar en **actividades de CPD** para mantener y mejorar su competencia. Para cumplir esta disposición, debe dedicar al menos **20 horas al año** a actividades de CPD o educación. Estas actividades permiten mantenerse al día con tendencias, tecnologías y buenas prácticas emergentes en el cambiante ámbito del ciberespacio.
 

@@ -1,7 +1,7 @@
 ---
 title: "Podręcznik DoD 8140.03: program dla kadry cyberprzestrzeni"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Poznaj program kwalifikacji i zarządzania kadrą cyberprzestrzeni DoD opisany w podręczniku 8140.03."
@@ -33,11 +33,11 @@ Więcej informacji o celu i wdrażaniu **Podręcznika DoD 8140.03** zawiera sam 
 
 **Podręcznik DoD 8140.03** ma zastosowanie do wielu podmiotów Departamentu Obrony (DoD) i opisuje kwalifikacje oraz wymagania dla osób na stanowiskach obejmujących **pracę w cyberprzestrzeni**. Obejmuje różne komponenty i jednostki organizacyjne DoD, w tym:
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Biuro Sekretarza Obrony)**
 - **Departamenty wojskowe**
-- **Office of the Chairman of the Joint Chiefs of Staff (CJCS) i Joint Staff**
+- **Biuro Przewodniczącego Połączonych Szefów Sztabów (CJCS) i Połączony Sztab**
 - **Dowództwa bojowe**
-- **Office of Inspector General Departamentu Obrony**
+- **Biuro Inspektora Generalnego Departamentu Obrony**
 - **Agencje obronne**
 - **Terenowe jednostki DoD**
 - **Inne jednostki organizacyjne DoD**
@@ -58,9 +58,9 @@ Sekcja 2 **Podręcznika DoD 8140.03** opisuje **odpowiedzialność** różnych p
 
 - **Under Secretary of Defense for Personnel and Readiness (USD(P&R))** sprawuje **nadzór**, określa wytyczne dotyczące zasobów ludzkich, opracowuje zalecenia w sprawie **szkoleń i edukacji** oraz wskazuje systemy kadrowe do gromadzenia danych. Nadzór ten wspiera dostępność wykwalifikowanego personelu, odpowiednich szkoleń i skutecznego zarządzania zasobami ludzkimi.
 
-- **Under Secretary of Defense for Intelligence and Security (USD(I&S))** nadzoruje rozwój i zarządzanie rolami elementu **wywiadowczego (cyberprzestrzeń)** oraz koordynuje gromadzenie danych o kwalifikacjach. Zapewnia to zgodność ról cyberprzestrzeni związanych z wywiadem z ustalonymi standardami i wymaganymi danymi.
+- **Podsekretarz Obrony ds. Wywiadu i Bezpieczeństwa (USD(I&S))** nadzoruje rozwój i zarządzanie rolami elementu **wywiadowczego (cyberprzestrzeń)** oraz koordynuje gromadzenie danych o kwalifikacjach. Zapewnia to zgodność ról cyberprzestrzeni związanych z wywiadem z ustalonymi standardami i wymaganymi danymi.
 
-- **Office of the Secretary of Defense (OSD)** oraz kierownicy **komponentów DoD** przedstawiają CWMB do zatwierdzenia zalecenia dotyczące polityk, procedur i procesów potrzebnych do zarządzania kadrą cyberprzestrzeni. Współpraca ta ma ustanowić spójne zasady kwalifikowania i zarządzania personelem w całym DoD.
+- **Biuro Sekretarza Obrony (OSD)** oraz kierownicy **komponentów DoD** przedstawiają CWMB do zatwierdzenia zalecenia dotyczące polityk, procedur i procesów potrzebnych do zarządzania kadrą cyberprzestrzeni. Współpraca ta ma ustanowić spójne zasady kwalifikowania i zarządzania personelem w całym DoD.
 
 Jasny podział obowiązków wspiera skoordynowane i skuteczne kwalifikowanie oraz zarządzanie kadrą cyberprzestrzeni. Umożliwia opracowywanie jednolitych mierników, odpowiednich programów szkoleń i edukacji oraz polityk i procedur wspierających cele **Programu kwalifikacji i zarządzania kadrą cyberprzestrzeni**.
 
@@ -78,7 +78,7 @@ Do najważniejszych celów i procedur należą:
 
 - **Podstawowe i stanowiskowe wymagania kwalifikacyjne:** Cywilni pracownicy DoD i żołnierze przydzieleni do ról cyberprzestrzeni muszą spełnić te wymagania w określonych terminach. Pracownicy cywilni mają 9 miesięcy, a żołnierze 12 miesięcy. W tym czasie otrzymują szkolenie i edukację potrzebne do pracy.
 
-- **Zarządzanie wymaganiami kwalifikacyjnymi:** **Office of the Secretary of Defense (OSD)** i **komponenty DoD** zarządzają opracowywaniem i wdrażaniem wymagań w obszarach stanowiskowych i CPD. Określają wiedzę i umiejętności potrzebne dla każdej roli oraz procedury oceny i potwierdzania kwalifikacji.
+- **Zarządzanie wymaganiami kwalifikacyjnymi:** **Biuro Sekretarza Obrony (OSD)** i **komponenty DoD** zarządzają opracowywaniem i wdrażaniem wymagań w obszarach stanowiskowych i CPD. Określają wiedzę i umiejętności potrzebne dla każdej roli oraz procedury oceny i potwierdzania kwalifikacji.
 
 - **Wymagania kwalifikacyjne dla wykonawców:** Wykonawcy realizujący zadania w cyberprzestrzeni muszą spełnić **podstawowe wymagania kwalifikacyjne** z chwilą rozpoczęcia przydziału. Dzięki temu także wykonawcy współpracujący z personelem DoD mają niezbędne kwalifikacje.
 
@@ -142,7 +142,7 @@ Komponenty DoD ustanawiają procedury **dokumentowania, przeglądu, weryfikacji 
 
 **Stanowiskowe obszary kwalifikacji** są dostosowane do każdej konkretnej roli. Szkolenie obejmuje wszystkie istotne zadania oraz związane z nimi **wiedzę, umiejętności i zdolności (KSA)**. Dzięki temu personel zdobywa przygotowanie potrzebne do powierzonych obowiązków.
 
-**Office of the Secretary of Defense (OSD)** i **komponenty DoD** zarządzają opracowywaniem oraz wdrażaniem wymagań w obszarach stanowiskowym i **ciągłego rozwoju zawodowego (CPD)**. Zapewnia to spójność z ogólnymi celami Programu kwalifikacji.
+**Biuro Sekretarza Obrony (OSD)** i **komponenty DoD** zarządzają opracowywaniem oraz wdrażaniem wymagań kwalifikacyjnych w obszarach stanowiskowych i **ciągłego rozwoju zawodowego (CPD)**. Zapewnia to spójność z ogólnymi celami Programu kwalifikacji.
 
 Po spełnieniu wymagań podstawowych i stanowiskowych personel może uczestniczyć w **działaniach CPD**, aby utrzymywać i rozwijać kompetencje. Zgodnie z tym wydaniem należy poświęcić co najmniej **20 godzin rocznie** na CPD lub edukację. Działania te pomagają śledzić nowe trendy, technologie i dobre praktyki w szybko zmieniającej się cyberprzestrzeni.
 

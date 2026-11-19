@@ -1,7 +1,7 @@
 ---
 title: "Manual DoD 8140.03: Programa per al personal del ciberespai"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Conegueu el programa de qualificació i gestió del personal del ciberespai del DoD descrit al Manual 8140.03."
@@ -33,7 +33,7 @@ Per obtenir més informació sobre l'objectiu i l'aplicació del **Manual DoD 81
 
 El **Manual DoD 8140.03** s'aplica a moltes entitats del Departament de Defensa (DoD) i descriu les qualificacions i els requisits del personal assignat a posicions que duen a terme **tasques al ciberespai**. L'àmbit inclou diversos components i entitats organitzatives del DoD, com ara:
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Oficina del Secretari de Defensa)**
 - **Departaments militars**
 - **Office of the Chairman of the Joint Chiefs of Staff (CJCS) i Joint Staff**
 - **Comandaments combatents**
@@ -60,7 +60,7 @@ La secció 2 del **Manual DoD 8140.03** descriu les **responsabilitats** de les 
 
 - L'**Under Secretary of Defense for Intelligence and Security (USD(I&S))** supervisa el desenvolupament i la gestió dels rols de l'element d'**intel·ligència (ciberespai)** i coordina la recollida de dades de qualificació. Això alinea els rols d'intel·ligència al ciberespai amb els estàndards establerts i les dades necessàries.
 
-- L'**Office of the Secretary of Defense (OSD)** i els responsables dels **components del DoD** presenten recomanacions a la CWMB perquè les aprovi, relatives a les polítiques, els procediments i els processos necessaris per gestionar el personal del ciberespai. La col·laboració vol establir pràctiques coherents de qualificació i gestió a tot el DoD.
+- L'**Oficina del Secretari de Defensa (OSD)** i els responsables dels **components del DoD** presenten recomanacions a la CWMB perquè les aprovi, relatives a les polítiques, els procediments i els processos necessaris per gestionar el personal del ciberespai. La col·laboració vol establir pràctiques coherents de qualificació i gestió a tot el DoD.
 
 En definir clarament aquestes responsabilitats, el DoD promou un enfocament coordinat i eficaç per qualificar i gestionar el seu personal del ciberespai. Això permet desenvolupar mètriques estandarditzades, programes adequats de formació i educació, i polítiques i procediments que donen suport als objectius del **Programa de qualificació i gestió del personal del ciberespai**.
 
@@ -78,7 +78,7 @@ Entre els objectius i procediments destacats hi ha:
 
 - **Requisits fonamentals i de residència:** Els empleats civils del DoD i els membres de les Forces Armades assignats a rols de treball al ciberespai han de complir aquests requisits dins dels terminis establerts. Els empleats civils tenen 9 mesos i els membres de les Forces Armades, 12 mesos. Això els proporciona la formació i l'educació necessàries.
 
-- **Gestió dels requisits de qualificació:** L'**Office of the Secretary of Defense (OSD)** i els **components del DoD** gestionen el desenvolupament i la implementació dels requisits de les àrees de residència i CPD. Defineixen els coneixements i les habilitats de cada rol i estableixen processos per avaluar i validar les qualificacions.
+- **Gestió dels requisits de qualificació:** L'**Oficina del Secretari de Defensa (OSD)** i els **components del DoD** gestionen el desenvolupament i la implementació dels requisits de les àrees de residència i CPD. Defineixen els coneixements i les habilitats de cada rol i estableixen processos per avaluar i validar les qualificacions.
 
 - **Requisits de qualificació dels contractistes:** Els contractistes que treballen al ciberespai han de complir els **requisits fonamentals de qualificació** quan comencen l'encàrrec. Així, els contractistes que treballen amb personal del DoD també tenen les qualificacions necessàries.
 
@@ -142,7 +142,7 @@ L'**opció de qualificació fonamental basada en l'experiència** ofereix una ma
 
 Les **àrees de qualificació de residència** s'adapten a cada rol. La formació cobreix les tasques essencials i els **coneixements, les habilitats i les capacitats (KSA)** pertinents. Així, el personal adquireix l'expertesa i la competència necessàries per a les seves responsabilitats.
 
-L'**Office of the Secretary of Defense (OSD)** i els **components del DoD** gestionen el desenvolupament i la implementació dels requisits de les àrees de residència i de **desenvolupament professional continu (CPD)**. Això afavoreix la coherència amb els objectius generals del Programa de qualificació.
+L'**Oficina del Secretari de Defensa (OSD)** i els **components del DoD** gestionen el desenvolupament i la implementació dels requisits de les àrees de residència i de **desenvolupament professional continu (CPD)**. Això afavoreix la coherència amb els objectius generals del Programa de qualificació.
 
 Després de completar els requisits fonamentals i de residència, el personal pot participar en **activitats de CPD** per mantenir i millorar la seva competència. Per complir aquesta disposició, ha de dedicar com a mínim **20 hores anuals** a activitats de CPD o educació. Això ajuda els professionals a seguir noves tendències, tecnologies i bones pràctiques en el ciberespai, que canvia ràpidament.
 

@@ -1,7 +1,7 @@
 ---
 title: "DoD-Handbuch 8140.03: Programm für die Cyberspace-Belegschaft"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Erfahren Sie mehr über das Programm zur Qualifizierung und Verwaltung der Cyberspace-Belegschaft des DoD aus Handbuch 8140.03."
@@ -33,7 +33,7 @@ Weitere Informationen zu Zweck und Umsetzung von **DoD-Handbuch 8140.03** finden
 
 **DoD-Handbuch 8140.03** gilt für zahlreiche Organisationen innerhalb des Verteidigungsministeriums (DoD). Es beschreibt Qualifikationen und Anforderungen für Beschäftigte in Positionen mit **Cyberspace-Aufgaben**. Dazu gehören verschiedene DoD-Komponenten und Organisationseinheiten, darunter:
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Büro des Verteidigungsministers)**
 - **Militärministerien**
 - **Office of the Chairman of the Joint Chiefs of Staff (CJCS) und Joint Staff**
 - **Kampfkommandos**
@@ -60,7 +60,7 @@ Abschnitt 2 von **DoD-Handbuch 8140.03** beschreibt die **Zuständigkeiten** der
 
 - Der **Under Secretary of Defense for Intelligence and Security (USD(I&S))** beaufsichtigt die Entwicklung und Verwaltung von Arbeitsrollen des **Nachrichtenwesen-Elements (Cyberspace)** und koordiniert die Erfassung von Qualifizierungsdaten. Dadurch werden nachrichtendienstliche Cyberspace-Rollen an Qualifizierungsstandards ausgerichtet und notwendige Daten erfasst.
 
-- Das **Office of the Secretary of Defense (OSD)** und die Leitungen der **DoD-Komponenten** legen dem CWMB Empfehlungen zu Richtlinien, Verfahren und Prozessen zur Verwaltung der Cyberspace-Belegschaft zur Genehmigung vor. Die Zusammenarbeit soll einheitliche Regeln zur Qualifizierung und Verwaltung des Personals im gesamten DoD schaffen.
+- Das **Büro des Verteidigungsministers (OSD)** und die Leitungen der **DoD-Komponenten** legen dem CWMB Empfehlungen zu Richtlinien, Verfahren und Prozessen zur Verwaltung der Cyberspace-Belegschaft zur Genehmigung vor. Die Zusammenarbeit soll einheitliche Regeln zur Qualifizierung und Verwaltung des Personals im gesamten DoD schaffen.
 
 Durch die klare Verteilung der Zuständigkeiten fördert das DoD eine koordinierte und wirksame Qualifizierung und Verwaltung seiner Cyberspace-Belegschaft. So entstehen einheitliche Kennzahlen, passende Ausbildungs- und Schulungsprogramme sowie Richtlinien und Verfahren zur Unterstützung der Ziele des **Programms zur Qualifizierung und Verwaltung der Cyberspace-Belegschaft**.
 
@@ -78,7 +78,7 @@ Zu den wichtigsten Zielen und Verfahren gehören:
 
 - **Grundlegende und arbeitsplatzbezogene Qualifikationen:** Zivile Beschäftigte des DoD und Militärangehörige in Cyberspace-Arbeitsrollen müssen diese Anforderungen innerhalb festgelegter Fristen erfüllen. Zivilbeschäftigte haben 9 Monate, Militärangehörige 12 Monate. So erhalten sie die für ihre Aufgaben nötige Ausbildung und Schulung.
 
-- **Verwaltung der Qualifikationsanforderungen:** Das **Office of the Secretary of Defense (OSD)** und die **DoD-Komponenten** verwalten die Entwicklung und Umsetzung der Qualifikationsanforderungen in den Bereichen Arbeitsplatz und CPD. Sie bestimmen das nötige Wissen und die erforderlichen Fähigkeiten je Arbeitsrolle und legen Verfahren zur Bewertung und Bestätigung der Qualifikationen fest.
+- **Verwaltung der Qualifikationsanforderungen:** Das **Büro des Verteidigungsministers (OSD)** und die **DoD-Komponenten** verwalten die Entwicklung und Umsetzung der Qualifikationsanforderungen in den Bereichen Arbeitsplatz und CPD. Sie bestimmen das nötige Wissen und die erforderlichen Fähigkeiten je Arbeitsrolle und legen Verfahren zur Bewertung und Bestätigung der Qualifikationen fest.
 
 - **Qualifikationsanforderungen für Auftragnehmer:** Auftragnehmer mit Cyberspace-Aufgaben müssen zu Beginn ihres Einsatzes die **grundlegenden Qualifikationsanforderungen** erfüllen. Dadurch besitzen auch Auftragnehmer, die mit DoD-Personal arbeiten, die nötigen Qualifikationen.
 
@@ -142,7 +142,7 @@ Die **grundlegende Qualifizierungsoption auf Erfahrungsbasis** bietet eine hilfr
 
 Die **arbeitsplatzbezogenen Qualifizierungsbereiche** sind auf die jeweilige Arbeitsrolle zugeschnitten. Die Schulung behandelt alle wichtigen Aufgaben sowie die relevanten **Kenntnisse, Fähigkeiten und Kompetenzen (KSAs)**. So erwerben Beschäftigte das nötige Fachwissen für ihre Aufgaben.
 
-Das **Office of the Secretary of Defense (OSD)** und die **DoD-Komponenten** verwalten Entwicklung und Umsetzung der Anforderungen in den Bereichen Arbeitsplatz und **fortlaufende berufliche Entwicklung (CPD)**. Das fördert einheitliche Vorgaben und unterstützt die Ziele des Qualifizierungsprogramms.
+Das **Büro des Verteidigungsministers (OSD)** und die **DoD-Komponenten** verwalten Entwicklung und Umsetzung der Anforderungen in den Bereichen Arbeitsplatz und **fortlaufende berufliche Entwicklung (CPD)**. Das fördert einheitliche Vorgaben und unterstützt die Ziele des Qualifizierungsprogramms.
 
 Nach Abschluss der grundlegenden und arbeitsplatzbezogenen Qualifikationen können Beschäftigte an **CPD-Aktivitäten** teilnehmen, um ihre Kompetenz zu erhalten und zu verbessern. Gemäß dieser Ausgabe müssen sie mindestens **20 Stunden pro Jahr** für CPD- oder Ausbildungsaktivitäten aufwenden. So bleiben Fachkräfte über neue Trends, Technologien und bewährte Verfahren im sich rasch wandelnden Cyberspace informiert.
 

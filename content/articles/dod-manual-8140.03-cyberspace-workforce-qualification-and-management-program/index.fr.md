@@ -1,7 +1,7 @@
 ---
 title: "Manuel DoD 8140.03 : Programme de qualification des effectifs du cyberespace"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Découvrez le programme de qualification et de gestion des effectifs du cyberespace du DoD, présenté dans le manuel 8140.03."
@@ -33,7 +33,7 @@ Pour en savoir plus sur l’objectif et la mise en œuvre du **manuel DoD 8140.0
 
 Le **manuel DoD 8140.03** s’applique à de nombreuses entités du ministère de la Défense (DoD). Il définit les qualifications et les exigences concernant le personnel affecté à des postes impliquant des **activités dans le cyberespace**. Son champ d’application couvre différents composants et organismes du DoD, notamment :
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Bureau du secrétaire à la Défense)**
 - **Départements militaires**
 - **Office of the Chairman of the Joint Chiefs of Staff (CJCS) et Joint Staff**
 - **Commandements combattants**
@@ -60,7 +60,7 @@ La section 2 du **manuel DoD 8140.03** précise les **responsabilités** des ent
 
 - L’**Under Secretary of Defense for Intelligence and Security (USD(I&S))** supervise le développement et la gestion des fonctions de la composante **renseignement (cyberespace)** et coordonne la collecte des données de qualification. Cela permet d’aligner ces fonctions sur les normes établies et de recueillir les données de qualification nécessaires.
 
-- L’**Office of the Secretary of Defense (OSD)** et les responsables des **composants du DoD** soumettent au CWMB, pour approbation, des recommandations relatives aux politiques, procédures et processus de gestion des effectifs du cyberespace. Cette collaboration vise à établir des pratiques cohérentes de qualification et de gestion dans l’ensemble du DoD.
+- Le **Bureau du secrétaire à la Défense (OSD)** et les responsables des **composants du DoD** soumettent au CWMB, pour approbation, des recommandations relatives aux politiques, procédures et processus de gestion des effectifs du cyberespace. Cette collaboration vise à établir des pratiques cohérentes de qualification et de gestion dans l’ensemble du DoD.
 
 En définissant clairement ces responsabilités, le DoD favorise une approche coordonnée et efficace de la qualification et de la gestion de ses effectifs du cyberespace. Cela soutient l’élaboration de mesures communes, de programmes adaptés de formation et d’enseignement, ainsi que de politiques et procédures conformes aux objectifs du **Programme de qualification et de gestion des effectifs du cyberespace**.
 
@@ -78,7 +78,7 @@ Parmi les objectifs et procédures mis en avant figurent :
 
 - **Exigences de qualification fondamentale et de résidence :** Les employés civils du DoD et les militaires affectés à des fonctions du cyberespace doivent satisfaire ces exigences dans des délais précis. Les employés civils disposent de 9 mois et les militaires de 12 mois. Cela leur permet de suivre la formation et l’enseignement nécessaires à leurs fonctions.
 
-- **Gestion des exigences de qualification :** L’**Office of the Secretary of Defense (OSD)** et les **composants du DoD** gèrent l’élaboration et la mise en œuvre des exigences relatives aux domaines de résidence et de CPD. Ils définissent les connaissances et compétences nécessaires pour chaque fonction, puis établissent des processus d’évaluation et de validation des qualifications.
+- **Gestion des exigences de qualification :** Le **Bureau du secrétaire à la Défense (OSD)** et les **composants du DoD** gèrent l’élaboration et la mise en œuvre des exigences relatives aux domaines de résidence et de CPD. Ils définissent les connaissances et compétences nécessaires pour chaque fonction, puis établissent des processus d’évaluation et de validation des qualifications.
 
 - **Exigences de qualification des contractuels :** Les contractuels qui effectuent des activités dans le cyberespace doivent satisfaire aux **exigences de qualification fondamentales** dès le début de leur mission. Les personnes qui travaillent aux côtés du personnel du DoD disposent ainsi des qualifications nécessaires.
 
@@ -142,7 +142,7 @@ L’**option de qualification fondamentale par l’expérience** constitue un mo
 
 Les **domaines de qualification de résidence** sont adaptés à chaque fonction de travail. La formation couvre les tâches essentielles et les **connaissances, compétences et capacités (KSA)** associées à la fonction. Le personnel acquiert ainsi l’expertise et le niveau de compétence nécessaires à ses responsabilités.
 
-L’**Office of the Secretary of Defense (OSD)** et les **composants du DoD** gèrent l’élaboration et la mise en œuvre des exigences concernant les domaines de résidence et de **développement professionnel continu (CPD)**. Cela favorise la cohérence avec les objectifs généraux du Programme de qualification.
+Le **Bureau du secrétaire à la Défense (OSD)** et les **composants du DoD** gèrent l’élaboration et la mise en œuvre des exigences concernant les domaines de résidence et de **développement professionnel continu (CPD)**. Cela favorise la cohérence avec les objectifs généraux du Programme de qualification.
 
 Après avoir satisfait aux exigences fondamentales et de résidence, le personnel peut participer à des **activités de CPD** pour maintenir et améliorer ses compétences. Pour respecter cette directive, il doit consacrer au moins **20 heures par an** à des activités de CPD ou d’enseignement. Elles l’aident à suivre les nouvelles tendances, technologies et pratiques recommandées dans le domaine du cyberespace, qui évolue rapidement.
 

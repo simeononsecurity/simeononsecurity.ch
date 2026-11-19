@@ -1,7 +1,7 @@
 ---
 title: "Manuale DoD 8140.03: programma per la forza lavoro del cyberspazio"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Scopri il programma del DoD per la qualifica e la gestione della forza lavoro del cyberspazio, descritto nel Manuale 8140.03."
@@ -33,7 +33,7 @@ Per ulteriori informazioni sullo scopo e sull'attuazione del **Manuale DoD 8140.
 
 Il **Manuale DoD 8140.03** si applica a numerose entità del Dipartimento della Difesa (DoD) e definisce le qualifiche e i requisiti per il personale assegnato a posizioni che svolgono **attività nel cyberspazio**. L'ambito comprende diversi componenti ed enti organizzativi del DoD, tra cui:
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Ufficio del Segretario alla Difesa)**
 - **Dipartimenti militari**
 - **Office of the Chairman of the Joint Chiefs of Staff (CJCS) e Joint Staff**
 - **Comandi combattenti**
@@ -60,7 +60,7 @@ La sezione 2 del **Manuale DoD 8140.03** descrive le **responsabilità** delle e
 
 - L'**Under Secretary of Defense for Intelligence and Security (USD(I&S))** supervisiona lo sviluppo e la gestione dei ruoli lavorativi dell'elemento di **intelligence (cyberspazio)** e coordina la raccolta dei dati di qualifica. Ciò allinea i ruoli cyber legati all'intelligence agli standard di qualifica e ai dati necessari.
 
-- L'**Office of the Secretary of Defense (OSD)** e i responsabili dei **componenti del DoD** sottopongono al CWMB, per l'approvazione, raccomandazioni su politiche, procedure e processi necessari per gestire la forza lavoro del cyberspazio. La collaborazione mira a stabilire pratiche coerenti per qualificare e gestire il personale in tutto il DoD.
+- L'**Ufficio del Segretario alla Difesa (OSD)** e i responsabili dei **componenti del DoD** sottopongono al CWMB, per l'approvazione, raccomandazioni su politiche, procedure e processi necessari per gestire la forza lavoro del cyberspazio. La collaborazione mira a stabilire pratiche coerenti per qualificare e gestire il personale in tutto il DoD.
 
 Definendo chiaramente queste responsabilità, il DoD promuove un approccio coordinato ed efficace alla qualifica e alla gestione della propria forza lavoro del cyberspazio. Ciò sostiene metriche standardizzate, programmi adeguati di formazione e istruzione e politiche e procedure che supportano gli obiettivi del **Programma di qualifica e gestione della forza lavoro del cyberspazio**.
 
@@ -78,7 +78,7 @@ Tra gli obiettivi e le procedure principali figurano:
 
 - **Requisiti di qualifica fondamentali e di residenza:** I dipendenti civili del DoD e i membri delle Forze armate assegnati a ruoli nel cyberspazio devono soddisfare questi requisiti entro termini specifici. I dipendenti civili hanno 9 mesi, mentre i militari hanno 12 mesi. Ciò garantisce loro la formazione e l'istruzione necessarie per il ruolo.
 
-- **Gestione dei requisiti di qualifica:** L'**Office of the Secretary of Defense (OSD)** e i **componenti del DoD** gestiscono lo sviluppo e l'attuazione dei requisiti nelle aree di residenza e CPD. Definiscono le conoscenze e le competenze richieste per ciascun ruolo e stabiliscono procedure per valutare e convalidare le qualifiche del personale.
+- **Gestione dei requisiti di qualifica:** L'**Ufficio del Segretario alla Difesa (OSD)** e i **componenti del DoD** gestiscono lo sviluppo e l'attuazione dei requisiti nelle aree di residenza e CPD. Definiscono le conoscenze e le competenze richieste per ciascun ruolo e stabiliscono procedure per valutare e convalidare le qualifiche del personale.
 
 - **Requisiti di qualifica per i contraenti:** I contraenti che svolgono attività nel cyberspazio devono soddisfare i **requisiti di qualifica fondamentali** all'inizio dell'incarico. In questo modo anche chi lavora con il personale del DoD possiede le qualifiche necessarie.
 
@@ -142,7 +142,7 @@ L'**opzione di qualifica fondamentale basata sull'esperienza** offre un metodo u
 
 Le **aree di qualifica di residenza** sono adattate a ogni ruolo. La formazione copre tutte le attività essenziali e le **conoscenze, competenze e capacità (KSA)** pertinenti al ruolo. Così il personale acquisisce la preparazione necessaria per le responsabilità assegnate.
 
-L'**Office of the Secretary of Defense (OSD)** e i **componenti del DoD** gestiscono lo sviluppo e l'attuazione dei requisiti per le aree di residenza e di **sviluppo professionale continuo (CPD)**. Ciò favorisce la coerenza con gli obiettivi generali del Programma di qualifica.
+L'**Ufficio del Segretario alla Difesa (OSD)** e i **componenti del DoD** gestiscono lo sviluppo e l'attuazione dei requisiti per le aree di residenza e di **sviluppo professionale continuo (CPD)**. Ciò favorisce la coerenza con gli obiettivi generali del Programma di qualifica.
 
 Dopo aver completato i requisiti fondamentali e di residenza, il personale può partecipare ad **attività CPD** per mantenere e migliorare la propria competenza. Per rispettare questa disposizione, deve svolgere almeno **20 ore all'anno** di attività CPD o istruzione. Queste attività aiutano i professionisti a seguire tendenze, tecnologie e migliori pratiche emergenti nel cyberspazio, in rapida evoluzione.
 

@@ -1,7 +1,7 @@
 ---
 title: "Manualul DoD 8140.03: Programul pentru personalul din spațiul cibernetic"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Aflați despre Programul de calificare și gestionare a personalului din spațiul cibernetic al DoD, prezentat în Manualul 8140.03."
@@ -33,7 +33,7 @@ Pentru mai multe informații despre scopul și aplicarea **Manualului DoD 8140.0
 
 **Manualul DoD 8140.03** se aplică multor entități din cadrul Departamentului Apărării (DoD) și descrie calificările și cerințele pentru personalul din posturi care presupun **activități în spațiul cibernetic**. Domeniul său include componente și entități organizaționale ale DoD, precum:
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Biroul Secretarului Apărării)**
 - **Departamentele militare**
 - **Office of the Chairman of the Joint Chiefs of Staff (CJCS) și Joint Staff**
 - **Comandamentele combatante**
@@ -60,7 +60,7 @@ Secțiunea 2 din **Manualul DoD 8140.03** descrie **responsabilitățile** entit
 
 - **Under Secretary of Defense for Intelligence and Security (USD(I&S))** supraveghează dezvoltarea și gestionarea rolurilor de lucru ale elementului de **informații (spațiul cibernetic)** și coordonează colectarea datelor de calificare. Astfel, rolurile cibernetice de informații se aliniază standardelor stabilite și colectării datelor necesare.
 
-- **Office of the Secretary of Defense (OSD)** și conducătorii **componentelor DoD** transmit CWMB recomandări spre aprobare despre politicile, procedurile și procesele necesare gestionării personalului din spațiul cibernetic. Colaborarea urmărește stabilirea unor practici consecvente de calificare și gestionare la nivelul DoD.
+- **Biroul Secretarului Apărării (OSD)** și conducătorii **componentelor DoD** transmit CWMB recomandări spre aprobare despre politicile, procedurile și procesele necesare gestionării personalului din spațiul cibernetic. Colaborarea urmărește stabilirea unor practici consecvente de calificare și gestionare la nivelul DoD.
 
 Definirea clară a acestor responsabilități ajută DoD să adopte o abordare coordonată și eficientă pentru calificarea și gestionarea personalului din spațiul cibernetic. Ea sprijină dezvoltarea indicatorilor standardizați, a programelor adecvate de instruire și educație și a politicilor și procedurilor pentru obiectivele **Programului de calificare și gestionare a personalului din spațiul cibernetic**.
 
@@ -78,7 +78,7 @@ Printre obiectivele și procedurile importante se numără:
 
 - **Cerințe fundamentale și de rezidență:** Angajații civili ai DoD și membrii serviciilor militare repartizați în roluri din spațiul cibernetic trebuie să îndeplinească aceste cerințe în termene stabilite. Angajații civili au 9 luni, iar membrii serviciilor 12 luni. Astfel, ei primesc instruirea și educația necesare.
 
-- **Gestionarea cerințelor de calificare:** **Office of the Secretary of Defense (OSD)** și **componentele DoD** gestionează dezvoltarea și implementarea cerințelor pentru domeniile de rezidență și CPD. Ele stabilesc cunoștințele și competențele necesare fiecărui rol și procesele de evaluare și validare a calificărilor.
+- **Gestionarea cerințelor de calificare:** **Biroul Secretarului Apărării (OSD)** și **componentele DoD** gestionează dezvoltarea și implementarea cerințelor pentru domeniile de rezidență și CPD. Ele stabilesc cunoștințele și competențele necesare fiecărui rol și procesele de evaluare și validare a calificărilor.
 
 - **Cerințe de calificare pentru contractori:** Contractorii care desfășoară activități în spațiul cibernetic trebuie să îndeplinească **cerințele fundamentale de calificare** la începutul misiunilor. Astfel, și contractorii care lucrează alături de personalul DoD au calificările necesare.
 
@@ -142,7 +142,7 @@ Componentele DoD stabilesc procese pentru **documentarea, revizuirea, validarea 
 
 **Domeniile de calificare de rezidență** sunt adaptate fiecărui rol. Instruirea acoperă toate sarcinile esențiale și **cunoștințele, competențele și capacitățile (KSA)** relevante. Astfel, personalul dobândește expertiza și nivelul de pregătire necesare responsabilităților sale.
 
-**Office of the Secretary of Defense (OSD)** și **componentele DoD** gestionează dezvoltarea și implementarea cerințelor pentru domeniile de rezidență și **Dezvoltare Profesională Continuă (CPD)**. Aceasta asigură coerența cu obiectivele generale ale Programului de calificare.
+**Biroul Secretarului Apărării (OSD)** și **componentele DoD** gestionează dezvoltarea și implementarea cerințelor pentru domeniile de rezidență și **Dezvoltare Profesională Continuă (CPD)**. Aceasta asigură coerența cu obiectivele generale ale Programului de calificare.
 
 După îndeplinirea cerințelor fundamentale și de rezidență, personalul poate participa la **activități CPD** pentru a-și menține și îmbunătăți competența. Pentru a respecta această dispoziție, fiecare persoană trebuie să participe la cel puțin **20 de ore pe an** de activități CPD sau educație. Acestea ajută la urmărirea tendințelor, tehnologiilor și bunelor practici emergente din spațiul cibernetic, aflat în schimbare rapidă.
 

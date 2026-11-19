@@ -1,7 +1,7 @@
 ---
 title: "DoD-handleiding 8140.03: programma voor cyberspacepersoneel"
 date: 2023-02-15
-lastmod: 2026-11-12
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Lees over het DoD-programma voor kwalificatie en beheer van cyberspacepersoneel, zoals beschreven in handleiding 8140.03."
@@ -33,7 +33,7 @@ Raadpleeg voor meer informatie over het doel en de uitvoering van **DoD-handleid
 
 **DoD-handleiding 8140.03** geldt voor veel onderdelen van het ministerie van Defensie (DoD). De handleiding beschrijft de kwalificaties en vereisten voor personeel in functies waarin **cyberspacewerk** wordt verricht. De reikwijdte omvat verschillende DoD-onderdelen en organisatorische entiteiten, waaronder:
 
-- **OSD (Office of the Secretary of Defense)**
+- **OSD (Bureau van de minister van Defensie)**
 - **Militaire departementen**
 - **Office of the Chairman of the Joint Chiefs of Staff (CJCS) en de Joint Staff**
 - **Gevechtscommando's**
@@ -60,7 +60,7 @@ Sectie 2 van **DoD-handleiding 8140.03** beschrijft de **verantwoordelijkheden**
 
 - De **Under Secretary of Defense for Intelligence and Security (USD(I&S))** houdt toezicht op de ontwikkeling en het beheer van functies binnen het **inlichtingenonderdeel van het cyberspacepersoneel** en coördineert het verzamelen van kwalificatiegegevens. Dit stemt inlichtingenfuncties op cyberspacegebied af op de geldende kwalificatienormen en benodigde gegevensverzameling.
 
-- Het **Office of the Secretary of Defense (OSD)** en de hoofden van **DoD-onderdelen** doen ter goedkeuring aanbevelingen aan de CWMB over beleid, procedures en processen voor het beheer van cyberspacepersoneel. Deze samenwerking helpt om binnen het DoD consistente werkwijzen vast te stellen voor de kwalificatie en het beheer van betrokken personeel.
+- Het **Bureau van de minister van Defensie (OSD)** en de hoofden van **DoD-onderdelen** doen ter goedkeuring aanbevelingen aan de CWMB over beleid, procedures en processen voor het beheer van cyberspacepersoneel. Deze samenwerking helpt om binnen het DoD consistente werkwijzen vast te stellen voor de kwalificatie en het beheer van betrokken personeel.
 
 Door deze verantwoordelijkheden duidelijk vast te leggen, bevordert het DoD een gecoördineerde en effectieve aanpak van de kwalificatie en het beheer van cyberspacepersoneel. Dit ondersteunt uniforme maatstaven, passende trainings- en onderwijsprogramma's en beleid en procedures die de doelen van het **programma voor kwalificatie en beheer van cyberspacepersoneel** dienen.
 
@@ -78,7 +78,7 @@ Belangrijke doelen en procedures van het kwalificatieprogramma zijn:
 
 - **Fundamentele kwalificaties en kwalificaties op de werkplek:** Civiele DoD-medewerkers en militairen in cyberspacefuncties moeten deze kwalificaties binnen vastgestelde termijnen behalen. Civiele medewerkers krijgen 9 maanden en militairen 12 maanden. Zo ontvangen zij de training en opleiding die nodig zijn voor hun werk.
 
-- **Beheer van kwalificatievereisten:** Het **Office of the Secretary of Defense (OSD)** en **DoD-onderdelen** beheren de ontwikkeling en uitvoering van kwalificatievereisten voor de onderdelen werkplek en CPD. Zij bepalen welke kennis en vaardigheden voor elke functie nodig zijn en stellen procedures vast om kwalificaties te beoordelen en te valideren.
+- **Beheer van kwalificatievereisten:** Het **Bureau van de minister van Defensie (OSD)** en **DoD-onderdelen** beheren de ontwikkeling en uitvoering van kwalificatievereisten voor de onderdelen werkplek en CPD. Zij bepalen welke kennis en vaardigheden voor elke functie nodig zijn en stellen procedures vast om kwalificaties te beoordelen en te valideren.
 
 - **Kwalificatievereisten voor contractanten:** Contractanten die cyberspacewerk uitvoeren, moeten bij aanvang van hun opdracht aan de **fundamentele kwalificatievereisten** voldoen. Zo beschikken ook contractanten die met DoD-medewerkers samenwerken over de benodigde kwalificaties.
 
@@ -142,7 +142,7 @@ De **fundamentele kwalificatieoptie op basis van ervaring** biedt een waardevoll
 
 De **kwalificatiegebieden op de werkplek** zijn afgestemd op elke specifieke functie. De training behandelt alle essentiële taken en **kennis, vaardigheden en bekwaamheden (KSA's)** voor de betreffende functie. Zo verwerven medewerkers de expertise en het vaardigheidsniveau dat voor hun verantwoordelijkheden nodig is.
 
-Het **Office of the Secretary of Defense (OSD)** en **DoD-onderdelen** beheren de ontwikkeling en uitvoering van vereisten voor de kwalificatiegebieden op de werkplek en voor **voortdurende professionele ontwikkeling (CPD)**. Dit bevordert consistentie en aansluiting op de doelen van het kwalificatieprogramma.
+Het **Bureau van de minister van Defensie (OSD)** en **DoD-onderdelen** beheren de ontwikkeling en uitvoering van vereisten voor de kwalificatiegebieden op de werkplek en voor **voortdurende professionele ontwikkeling (CPD)**. Dit bevordert consistentie en aansluiting op de doelen van het kwalificatieprogramma.
 
 Na het behalen van de fundamentele kwalificaties en kwalificaties op de werkplek kunnen medewerkers deelnemen aan **CPD-activiteiten** om hun bekwaamheid te behouden en te verbeteren. Voor deze uitgave moeten zij minimaal **20 uur per jaar** besteden aan CPD of onderwijs. Deze activiteiten houden professionals op de hoogte van nieuwe trends, technologieën en best practices in het snel veranderende cyberspacedomein.
 
