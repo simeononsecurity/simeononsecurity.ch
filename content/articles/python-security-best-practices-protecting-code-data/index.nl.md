@@ -1,7 +1,7 @@
 ---
-title: "Best practices voor Python-beveiliging: Uw code en gegevens beschermen"
+title: "Aanbevolen beveiligingspraktijken voor Python: uw code en gegevens beschermen"
 date: 2023-08-01
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Leer de essentiële best practices op het gebied van Python-beveiliging om je code en gegevens te beschermen tegen mogelijke bedreigingen, om gegevensbescherming en systeemintegriteit te garanderen en vertrouwen op te bouwen."
