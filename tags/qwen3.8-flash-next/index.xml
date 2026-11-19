@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qwen3.8 Flash Next on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Qwen3.8 Flash Next on simeononsecurity</title><link>https://simeononsecurity.com/tags/qwen3.8-flash-next/</link></image><link>https://simeononsecurity.com/tags/qwen3.8-flash-next/</link><description>Recent content in Qwen3.8 Flash Next on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/qwen3.8-flash-next/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti vs GB10: Five-Model Local AI Benchmark at 256K Context</title><link>https://simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Local AI"
+, "GPU Hardware"
+, "Benchmarking"
+, "Computer Hardware"</category><guid>https://simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A five-model RTX 5060 Ti versus GB10 comparison, plus a same-host Qwen3.8 Flash-Next Strata benchmark through 256K context.</description><enclosure url="https://simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Local AI Coding on a 16GB GPU: Strata, OpenCode, and Qwen3.8</title><link>https://simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Developer Tools"
+, "Self-Hosted AI"
+, "AI Hardware"</category><guid>https://simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Run a local coding agent with Strata and OpenCode. Review RTX 4060 Ti results, RAM needs, prompt reuse, and subscription limits.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item></channel></rss>
