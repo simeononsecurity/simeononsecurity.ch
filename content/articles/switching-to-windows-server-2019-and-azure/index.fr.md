@@ -39,7 +39,7 @@ Avant de choisir, documentez les dépendances des charges de travail, les object
 
 1. **L'évolutivité** : Azure est une plateforme en nuage hautement évolutive qui permet aux entreprises d'adapter rapidement et facilement leur infrastructure informatique à l'évolution de leurs besoins. Cela signifie que les entreprises peuvent répondre rapidement à l'évolution de leurs besoins sans avoir à se soucier des limites de leur infrastructure sur site.
 
-2. **Rendement** : Azure est une solution **rentable pour les entreprises de toutes tailles**. En éliminant le besoin de maintenance matérielle et logicielle, les entreprises peuvent réduire leurs coûts informatiques et se concentrer sur la croissance de leur activité.
+2. **Rentabilité** : Azure est une solution **rentable pour les entreprises de toutes tailles**. En éliminant le besoin de maintenance matérielle et logicielle, les entreprises peuvent réduire leurs coûts informatiques et se concentrer sur la croissance de leur activité.
 
 3. **Fiabilité accrue** : Azure est conçu pour la haute disponibilité et la reprise après sinistre, ce qui signifie que les entreprises peuvent être sûres que leurs données sont toujours disponibles et protégées, même en cas de sinistre.
 
