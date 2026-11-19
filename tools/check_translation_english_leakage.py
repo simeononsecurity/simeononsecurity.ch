@@ -1180,13 +1180,17 @@ def copied_english_acronym_expansions(
             source_expansions, target_expansions
         ):
             source_words = source_expansion.split()
+            key_words = set(normalize(key).split())
             if len(source_words) < 2 and normalize(key) not in FIXED_GLOSSARY_TERMS:
                 continue
             if source_expansion == target_expansion:
                 copied.append(f"{key}: {source_expansion}")
                 continue
             target_words = target_expansion.split()
-            localized_words = [word for word in target_words if word not in source_words]
+            localized_words = [
+                word for word in target_words
+                if word not in source_words and word not in key_words
+            ]
             expected_ranges = SCRIPT_RANGES.get(locale or "", ())
             target_script_letters = sum(
                 char.isalpha()
@@ -1200,7 +1204,7 @@ def copied_english_acronym_expansions(
                 )
                 outside_words = [
                     word for word in normalize(outside_parentheses).split()
-                    if word not in source_words
+                    if word not in source_words and word not in key_words
                 ]
                 outside_script_letters = sum(
                     char.isalpha()

@@ -914,6 +914,26 @@ class FencedProseTests(unittest.TestCase):
             [],
         )
 
+    def test_repeating_a_multiword_acronym_key_does_not_count_as_translation(self):
+        fixtures = (
+            (
+                "- **AWS CLI**: Command Line Interface\n",
+                "- **AWS CLI**: AWS CLI (Amazon Web Services Command Line Interface)\n",
+                "AWS CLI: copied phrase command line interface",
+            ),
+            (
+                "- **CI/CD**: Continuous Integration and Continuous Deployment\n",
+                "- **CI/CD**: CI/CD (Continuous Integration and Continuous Deployment)\n",
+                "CI/CD: copied phrase continuous integration and continuous deployment",
+            ),
+        )
+        for source, target, expected in fixtures:
+            with self.subTest(key=source.split("**")[1]):
+                self.assertEqual(
+                    copied_english_acronym_expansions(source, target, "es"),
+                    [expected],
+                )
+
     def test_flags_partial_content_phrases_without_stopwords(self):
         ssl_source = "- **SSL**: Secure Sockets Layer\n"
         ssl_target = "- **SSL**: Capa de Secure Sockets\n"

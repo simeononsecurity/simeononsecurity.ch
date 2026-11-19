@@ -421,6 +421,9 @@
   contain no English stopwords, and flags substantial copied phrases inside a
   partially localized expansion. Check repeated acronym keys entry by entry;
   one localized expansion does not clear another occurrence of the same key.
+  Repeating the fixed acronym key beside the English expansion does not count
+  as localized wording; the checker excludes key tokens from its localization
+  threshold.
   When the canonical English phrase remains beside a CJK translation, require at
   least six target-script letters before treating the expansion as localized.
   For German and Dutch, one localized compound must contain at least eight
