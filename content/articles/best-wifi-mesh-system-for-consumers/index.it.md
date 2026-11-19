@@ -1,7 +1,7 @@
 ---
 title: "Migliori sistemi Wi-Fi mesh 2026: guida all'acquisto e modelli consigliati"
 date: 2023-08-06
-lastmod: 2026-11-08
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Guida 2026 ai sistemi Wi-Fi mesh Wi-Fi 6E e Wi-Fi 7 per uso domestico, con confronti su copertura, prestazioni, configurazione e criteri di acquisto."
@@ -52,7 +52,7 @@ Questa guida confronta i **migliori sistemi Wi-Fi mesh del 2026**. Analizza test
 - **Target Wake Time (TWT)**: maggiore durata della batteria per i dispositivi IoT
 - **1024-QAM**: codifica dei dati più efficiente
 
-**Prestazioni reali** (2026): throughput tipico di 600-1.200 Mbps
+**Prestazioni reali** (2026): velocità di trasferimento tipica di 600-1.200 Mbps
 
 **Ideale per**: utenti attenti al budget, case piccole (meno di 2.000 sq ft) e carichi standard di dispositivi
 
@@ -67,7 +67,7 @@ Questa guida confronta i **migliori sistemi Wi-Fi mesh del 2026**. Analizza test
 - Prestazioni migliori in ambienti affollati, come appartamenti e condomini
 - Latenza inferiore per gaming e videoconferenze
 
-**Prestazioni reali** (2026): throughput tipico di 1.000-2.500 Mbps
+**Prestazioni reali** (2026): velocità di trasferimento tipica di 1.000-2.500 Mbps
 
 **Ideale per**: appassionati di tecnologia, gamer, case grandi (2.000-4.000 sq ft) e piani Internet multi-gigabit
 
@@ -79,11 +79,11 @@ Questa guida confronta i **migliori sistemi Wi-Fi mesh del 2026**. Analizza test
 - Velocità teorica massima: **46 Gbps** (bande combinate)
 - **Canali da 320 MHz** (il doppio dei canali da 160 MHz di Wi-Fi 6E)
 - **Multi-Link Operation (MLO)**: connessione simultanea su più bande
-- **4096-QAM**: throughput superiore del 20% rispetto a Wi-Fi 6E
+- **4096-QAM**: velocità di trasferimento superiore del 20% rispetto a Wi-Fi 6E
 - **16x16 MU-MIMO**: fino a 16 flussi simultanei
 - **Preamble puncturing**: utilizzo più efficiente dei canali
 
-**Prestazioni reali** (2026): throughput tipico di 2.500-5.000+ Mbps
+**Prestazioni reali** (2026): velocità di trasferimento tipica di 2.500-5.000+ Mbps
 
 **Ideale per**: utenti early adopter, case molto grandi (oltre 4.000 sq ft), fibra multi-gigabit (2,5+ Gbps) e chi vuole prepararsi alle tecnologie future
 
@@ -126,7 +126,7 @@ Questa guida confronta i **migliori sistemi Wi-Fi mesh del 2026**. Analizza test
 | **1-2,5 Gbps** | Wi-Fi 6E (necessario per la velocità piena) |
 | **2,5+ Gbps** | Wi-Fi 7 (unica opzione per sfruttare tutta la velocità) |
 
-**Throughput reale previsto** (a 15 piedi, un client):
+**Velocità di trasferimento reale prevista** (a 15 piedi, un client):
 
 | Standard Wi-Fi | Banda a 5 GHz | Banda a 6 GHz | Attraverso una parete | Attraverso due pareti |
 |--------------|------------|------------|------------------|-------------------|
@@ -155,7 +155,7 @@ Questa guida confronta i **migliori sistemi Wi-Fi mesh del 2026**. Analizza test
 - ❌ Richiede cavi Ethernet tra i nodi
 - 💡 **Uso tipico**: nuova costruzione, Ethernet già presente o adattatori powerline
 
-**Impatto sulle prestazioni**: nella stessa situazione, il backhaul cablato può aumentare il throughput del **40-70%** rispetto a quello wireless.
+**Impatto sulle prestazioni**: nella stessa situazione, il backhaul cablato può aumentare la velocità di trasferimento del **40-70%** rispetto a quello wireless.
 
 ### Numero di dispositivi connessi
 
@@ -236,8 +236,8 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 - **Antenne**: 6 antenne interne per nodo
 
 **Prestazioni** (test 2026):
-- Throughput a 6 GHz: 1.650 Mbps a 15 piedi
-- Throughput a 5 GHz: 825 Mbps a 15 piedi
+- Velocità di trasferimento a 6 GHz: 1.650 Mbps a 15 piedi
+- Velocità di trasferimento a 5 GHz: 825 Mbps a 15 piedi
 - Dispositivi supportati: oltre 100 contemporaneamente
 - Latenza: 12 ms in media (gaming)
 
@@ -273,9 +273,9 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 - **Memoria**: 2 GB di RAM
 
 **Prestazioni** (test 2026):
-- Throughput a 6 GHz: 4.300 Mbps a 15 piedi (client Wi-Fi 7)
-- Throughput a 5 GHz: 2.100 Mbps a 15 piedi
-- Throughput con Multi-Link Operation: 5.800 Mbps combinati
+- Velocità di trasferimento a 6 GHz: 4.300 Mbps a 15 piedi (client Wi-Fi 7)
+- Velocità di trasferimento a 5 GHz: 2.100 Mbps a 15 piedi
+- Velocità di trasferimento con Multi-Link Operation: 5.800 Mbps combinati
 - Oltre 200 dispositivi supportati simultaneamente
 - Latenza: 8 ms in media
 
@@ -314,8 +314,8 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 - **Hub IoT**: Zigbee e Bluetooth integrati
 
 **Prestazioni** (test 2026):
-- Throughput a 6 GHz: 1.485 Mbps a 15 piedi
-- Throughput a 5 GHz: 780 Mbps a 15 piedi
+- Velocità di trasferimento a 6 GHz: 1.485 Mbps a 15 piedi
+- Velocità di trasferimento a 5 GHz: 780 Mbps a 15 piedi
 - Oltre 80 dispositivi supportati simultaneamente
 - Latenza: 15 ms in media
 
@@ -353,7 +353,7 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 - **Memoria**: 2 GB di RAM
 
 **Prestazioni** (test 2026):
-- Throughput a 6 GHz: 4.850 Mbps a 15 piedi
+- Velocità di trasferimento a 6 GHz: 4.850 Mbps a 15 piedi
 - Backhaul wireless quad-band: banda dedicata a 6 GHz
 - Oltre 200 dispositivi supportati simultaneamente
 - Latenza: 7 ms in media
@@ -392,7 +392,7 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 - **Tecnologia AiMesh**: compatibile con altri router Asus
 
 **Prestazioni** (test 2026, ottimizzato per il gaming):
-- Throughput a 6 GHz: 2.100 Mbps a 15 piedi
+- Velocità di trasferimento a 6 GHz: 2.100 Mbps a 15 piedi
 - Latenza nei giochi: 9 ms in media, tra le migliori
 - Jitter: <1 ms, eccellente per il gaming competitivo
 - Oltre 100 dispositivi supportati simultaneamente
@@ -431,8 +431,8 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 - **Cognitive Mesh**: gestione della rete ottimizzata dall'AI
 
 **Prestazioni** (test 2026):
-- Throughput a 6 GHz: 3.200 Mbps a 15 piedi
-- Throughput a 5 GHz: 1.850 Mbps a 15 piedi
+- Velocità di trasferimento a 6 GHz: 3.200 Mbps a 15 piedi
+- Velocità di trasferimento a 5 GHz: 1.850 Mbps a 15 piedi
 - Oltre 150 dispositivi supportati simultaneamente
 - Latenza: 10 ms in media
 
@@ -474,7 +474,7 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 - Gestione di rete di livello professionale
 
 **Prestazioni** (test 2026):
-- Throughput a 6 GHz: 4.500 Mbps a 15 piedi
+- Velocità di trasferimento a 6 GHz: 4.500 Mbps a 15 piedi
 - Oltre 300 dispositivi supportati per access point
 - Roaming fluido: handoff inferiore a 50 ms
 - Latenza: 6 ms in media
@@ -503,7 +503,7 @@ I sistemi mesh moderni supportano molti dispositivi, ma la capacità varia:
 
 ## Confronto delle prestazioni: test reali 2026
 
-Le tabelle di questa sezione sono utili per confrontare i sistemi, ma l'articolo non include i file delle misurazioni originali, gli script di test, il piano dei canali, le versioni firmware, i driver client o le impostazioni radio necessarie per riprodurre i risultati. Considera i valori come misurazioni storiche dell'articolo, non come limiti universali dei prodotti. Le velocità dichiarate dai produttori sono velocità PHY aggregate o obiettivi di laboratorio. Un client usa di solito una catena radio e ottiene un throughput applicativo inferiore.
+Le tabelle di questa sezione sono utili per confrontare i sistemi, ma l'articolo non include i file delle misurazioni originali, gli script di test, il piano dei canali, le versioni firmware, i driver client o le impostazioni radio necessarie per riprodurre i risultati. Considera i valori come misurazioni storiche dell'articolo, non come limiti universali dei prodotti. Le velocità dichiarate dai produttori sono velocità PHY aggregate o obiettivi di laboratorio. Un client usa di solito una catena radio e ottiene una velocità di trasferimento applicativa inferiore.
 
 Prima dell'acquisto verifica la pagina del prodotto corrente, le bande supportate, le velocità delle porte Ethernet, i termini degli abbonamenti, il supporto firmware e la politica dei resi. La [pagina di supporto di eero Max 7](https://www.eero.com/support/articles/eero-max-7) indica Wi-Fi 7 tri-band, porte 10 GbE e 2,5 GbE. La [specifica di NETGEAR Orbi 970](https://www.downloads.netgear.com/files/GDC/RBE971/RBE971_TS.pdf) riporta la velocità aggregata e la copertura del satellite. Le specifiche dei produttori non sostituiscono un test indipendente a casa tua.
 
@@ -513,7 +513,7 @@ Prima dell'acquisto verifica la pagina del prodotto corrente, le bande supportat
 - Internet: fibra da 2 Gbps
 - Client: Samsung Galaxy S24 Ultra (Wi-Fi 7), MacBook Pro M3 (Wi-Fi 6E)
 
-### Test di throughput (banda 6 GHz, client Wi-Fi 6E/7)
+### Test della velocità di trasferimento (banda 6 GHz, client Wi-Fi 6E/7)
 
 | Sistema mesh | 15 piedi | 30 piedi | 45 piedi | Attraverso 2 pareti |
 |------------|---------|---------|---------|-----------------|

@@ -72,6 +72,11 @@
   cognate. In Catalan, do not render phishing as `pesca` alone; retain
   `phishing` or use a recognized descriptive phrase, and confirm the wording
   still refers to credential theft or impersonation attacks.
+- Translate common English technical terms when the target language has a clear
+  reader-facing equivalent. In Italian prose and table labels, use
+  `velocità di trasferimento` for `throughput` and `integrato` or
+  `tutto-in-uno` or `con funzioni integrate` for `all-in-one`; keep the English
+  only for an exact UI label or formal product name.
 - Use the established target-language acronym for laws and regulatory regimes.
   In French, use `RGPD` for `GDPR`; introduce `GDPR` once in parentheses only
   when the English acronym helps identify sources, then use `RGPD` consistently

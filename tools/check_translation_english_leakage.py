@@ -1006,6 +1006,7 @@ def markdown_structure_differences(source: str, target: str) -> dict[str, tuple[
 
 
 TABLE_SHARED_TERMS = {"ca": {"cost"}, "ro": {"cost"}}
+TABLE_FIXED_NAMES = {"azure", "server 2019"}
 
 
 def copied_english_table_cells(
@@ -1092,6 +1093,7 @@ def copied_english_table_cells(
                     and normalized in source_cells
                     and words
                     and any(word in TABLE_ENGLISH_REVIEW_WORDS for word in words)
+                    and normalized not in TABLE_FIXED_NAMES
                     and normalized not in TABLE_SHARED_TERMS.get(locale or "", set())
                 ):
                     copied.append(

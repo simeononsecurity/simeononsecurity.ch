@@ -204,6 +204,12 @@ class FencedProseTests(unittest.TestCase):
             ["table 1, row 1, cell 1: cost per user"],
         )
 
+    def test_accepts_exact_fixed_product_names_in_table_cells(self):
+        for name in ("Server 2019", "Azure"):
+            with self.subTest(name=name):
+                table = f"| {name} |\n| --- |\n"
+                self.assertEqual(copied_english_table_cells(table, table, "de"), [])
+
     def test_ignores_table_like_content_inside_code_fence(self):
         source = "```bash\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
         target = source
