@@ -1,6 +1,7 @@
 ---
 title: "Glosar de Termeni Tehnici: Ghid pentru Începători în IT și Acronyme de Securitate Cibernetică"
 date: 2023-12-23
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: Descoperă lumea IT cu acest ghid pentru începători despre acronimele tehnice, făcând învățarea ușoară pentru toți pasionații de tehnologie.
@@ -49,7 +50,6 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot simplificat și prietenos care explică acronimele tehnice unui începător cu entuziasm.
 coverCaption: Demistificarea Terminologiei Tehnice pentru Începători
-lastmod: 2026-11-14
 ---
 
 ## Introducere
@@ -66,7 +66,7 @@ lastmod: 2026-11-14
 - **ACL**: Lista de Control al Accesului
   - O listă de reguli sau permisiuni care determină ce utilizatori sau procese de sistem au acces la obiecte, funcții sau resurse într-un sistem informatic.
 
-- **AD**: Active Directory
+- **AD**: serviciu de directoare Active Directory
   - Un serviciu de directoare dezvoltat de Microsoft pentru rețelele de domenii Windows. Stochează informații despre obiectele dintr-o rețea și face aceste informații disponibile utilizatorilor și administratorilor de rețea.
 
 - **ADSL**: Linie Asimetrică de Abonat Digital
@@ -105,19 +105,19 @@ lastmod: 2026-11-14
 - **AV**: Antivirus
   - Software conceput pentru a detecta, preveni și elimina software-ul malițios (viruși, malware etc.) de pe un calculator sau rețea.
 
-- **AWS CLI**: Interfață de Linie de Comandă Amazon Web Services
+- **AWS CLI**: interfață de linie de comandă pentru Amazon Web Services (Amazon Web Services Command Line Interface)
   - Un instrument de linie de comandă oferit de Amazon Web Services (AWS) care permite utilizatorilor să interacționeze cu serviciile AWS și să gestioneze resursele prin linia de comandă.
 
-- **AWS**: Amazon Web Services
+- **AWS**: servicii cloud Amazon
   - O platformă de cloud computing oferită de Amazon care furnizează numeroase servicii cloud, inclusiv putere de calcul, stocare, baze de date, învățare automată și altele. AWS este utilizat pe scară largă pentru construirea și găzduirea aplicațiilor și serviciilor în cloud.
 
 
 ### B
 
-- **B2B**: Business to Business
+- **B2B**: între întreprinderi
   - Se referă la tranzacții, comunicare sau relații între două afaceri, nu între o afacere și un consumator.
 
-- **B2C**: Business to Consumer
+- **B2C**: între o companie și consumator
   - Denotă interacțiuni sau comerț între o afacere și consumatori individuali.
 
 - **BAE**: Înaintea Oricui
@@ -270,7 +270,7 @@ lastmod: 2026-11-14
 - **ECC**: Cod Corector de Erori
   - Un tip de cod folosit în memoria computerului și stocarea datelor pentru a detecta și corecta erorile din date.
 
-- **ECS**: Elastic Container Service
+- **ECS**: serviciu elastic de containere
   - Un serviciu oferit de platforme de cloud computing precum AWS care simplifică implementarea și gestionarea containerelor.
 
 - **EEPROM**: Memorie Programabilă Read-Only Electrice Ștergibilă
@@ -370,7 +370,7 @@ lastmod: 2026-11-14
 - **GNU**: GNU Nu este Unix
   - Un acronim recursiv folosit pentru a descrie Proiectul GNU, care este un proiect de software liber și sistem de operare.
 
-- **GPG**: GNU Privacy Guard
+- **GPG**: protecția confidențialității GNU
   - O implementare liberă și open-source a standardului de criptare OpenPGP folosită pentru securizarea comunicațiilor și datelor.
 
 - **GPIO**: Intrare/Ieșire cu Scop General
@@ -490,7 +490,7 @@ lastmod: 2026-11-14
 - **JDK**: Kit de Dezvoltare Java
   - Un set de unelte software pentru dezvoltarea aplicațiilor Java, incluzând un compilator, un depanator și un mediu de rulare.
 
-- **JIT**: Just-In-Time
+- **JIT**: la momentul execuției
   - O tehnică de compilare folosită în mașinile virtuale care compilează și execută codul în timpul rulării, folosită adesea pentru a îmbunătăți performanța limbajelor interpretate.
 
 - **JMS**: Serviciu de Mesagerie Java
@@ -579,7 +579,7 @@ lastmod: 2026-11-14
 - **MFA**: Autentificare Multi-Factor
   - Un proces de securitate care solicită utilizatorilor să furnizeze două sau mai multe factori de autentificare pentru a accesa un cont sau sistem, sporind securitatea.
 
-- **MIME**: Extensii Multipurpose pentru Poșta Internet
+- **MIME**: Extensii pentru poșta electronică pe Internet, care permit mai multe tipuri de conținut
   - Un standard care extinde formatul email-urilor pentru a suporta text în seturi de caractere diferite de ASCII, precum și atașamente precum imagini și audio.
 
 - **MSI**: Instalator Microsoft
@@ -635,50 +635,50 @@ lastmod: 2026-11-14
 - **OSI**: Interconectarea Sistemelor Deschise
   - Un cadru conceptual care standardizează funcțiile unui sistem de telecomunicații sau calcul într-un set de șapte straturi distincte.
 
-- **OSPF**: Open Shortest Path First
+- **OSPF**: protocolul care alege mai întâi calea deschisă cea mai scurtă
   - Un protocol de rutare folosit pentru rutare eficientă și scalabilă în rețele IP, în special în cadrul sistemelor autonome.
 
-- **OSS**: Open Source Software
+- **OSS**: software cu sursă deschisă
   - Software lansat cu o licență care permite oricui să vizualizeze, să utilizeze, să modifice și să distribuie codul sursă.
 
-- **OTP**: One-Time Password
+- **OTP**: parolă de unică folosință
   - O parolă valabilă pentru o singură sesiune de autentificare sau tranzacție, folosită adesea pentru securitate sporită.
 
-- **OTP**: One-Time Password sau One-Time Pad
+- **OTP**: parolă de unică folosință sau cifru de unică folosință
   - O tehnică criptografică care generează o parolă unică, de unică folosință, pentru comunicare securizată.
 
 ### P
-- **P2P**: Peer-to-Peer
+- **P2P**: de la egal la egal
   - O arhitectură de rețea în care dispozitivele comunică direct între ele, folosită adesea în partajarea fișierelor și calculul distribuit.
 
-- **PC**: Personal Computer
+- **PC**: calculator personal
   - Un calculator cu scop general, proiectat pentru utilizare individuală, care rulează adesea sisteme de operare desktop.
 
-- **PDF**: Portable Document Format
+- **PDF**: format portabil de document
   - Un format de fișier folosit pentru prezentarea și schimbul de documente independent de software, hardware și sisteme de operare.
 
-- **PHP**: Hypertext Preprocessor
+- **PHP**: preprocesor de hipertext
   - Un limbaj de scripting popular folosit pentru dezvoltarea web, pentru crearea de pagini și aplicații web dinamice.
 
-- **PKI**: Public Key Infrastructure
+- **PKI**: infrastructură cu chei publice
   - Un cadru care oferă comunicare securizată și autentificare prin utilizarea cheilor publice și private, folosit adesea pentru criptare și semnături digitale.
 
-- **POP**: Post Office Protocol
+- **POP**: protocol poștal
   - Un protocol standard de email folosit pentru a prelua mesaje de pe un server de mail către un client local de email.
 
-- **POP3**: Post Office Protocol, versiunea 3
+- **POP3**: protocol poștal, versiunea 3
   - Un protocol de email folosit pentru primirea și gestionarea mesajelor de email pe un server de mail.
 
-- **POS**: Point of Sale
+- **POS**: punct de vânzare
   - Locația și sistemul unde un client efectuează plata pentru produse sau servicii.
 
-- **POST**: Power-On Self-Test
+- **POST**: autotestare la pornire
   - Un proces de testare diagnostică prin care trec componentele hardware ale unui calculator la pornire.
 
-- **PPP**: Point-to-Point Protocol
+- **PPP**: protocol punct-la-punct
   - Un protocol de nivel legătură de date folosit pentru a stabili o conexiune directă între două noduri într-o rețea.
 
-- **PSU**: Power Supply Unit
+- **PSU**: unitate de alimentare
   - Un dispozitiv care convertește electricitatea dintr-o sursă externă în tensiunea și curentul necesare pentru alimentarea unui calculator sau a altor dispozitive electronice.
 
 - **PaaS**: Platform as a Service (platformă ca serviciu)
@@ -689,87 +689,87 @@ lastmod: 2026-11-14
 {{< figure src="tech-concepts-diverse-terms2.webp" alt="Secțiuni care prezintă termeni legați de tehnologie. O reprezentare vizuală a conceptelor tehnologice diverse." caption="Terminologie Tehnică de la A la Z." >}}
 
 
-- **QA**: Quality Assurance
+- **QA**: asigurarea calității
   - Procesul de asigurare a calității și fiabilității produselor sau serviciilor prin testare și revizuire.
 
-- **QEMU**: Quick Emulator
+- **QEMU**: emulator rapid
   - Un software open-source de virtualizare și emulare care permite rularea sistemelor de operare pe diverse platforme gazdă.
 
-- **QLC**: Quad-Level Cell
+- **QLC**: celulă cu patru niveluri
   - Un tip de memorie flash NAND care stochează patru biți de date per celulă de memorie, fiind potrivită pentru stocare de mare capacitate.
 
-- **QPS**: Queries Per Second
+- **QPS**: interogări pe secundă
   - O metrică folosită pentru a măsura numărul de interogări sau tranzacții pe care un sistem le poate gestiona într-o secundă.
 
-- **QPSK**: Quadrature Phase Shift Keying
+- **QPSK**: modulare prin deplasarea fazei în cuadratură
   - O schemă de modulație folosită în comunicațiile digitale pentru a transmite date prin variația fazei a două unde purtătoare.
 
-- **QR Code**: Quick Response Code
+- **QR Code**: cod de răspuns rapid
   - Un cod de bare bidimensional care poate stoca diverse informații, folosit adesea pentru recuperare rapidă a datelor cu dispozitive mobile.
 
-- **QWERTY**: Standard Keyboard Layout
+- **QWERTY**: dispunere standard a tastaturii QWERTY
   - Aranjamentul cel mai frecvent folosit pentru tastaturi, caracterizat prin dispunerea literelor pe rândul superior.
 
-- **QoS**: Quality of Service
+- **QoS**: calitatea serviciului
   - Un set de tehnologii și mecanisme care asigură performanță de rețea fiabilă și predictibilă pentru aplicații sau servicii specifice.
 
-- **Qubit**: Quantum Bit
+- **Qubit**: bit cuantic
   - Unitatea fundamentală de informație cuantică în calculul cuantic, analogă unui bit clasic în calculul tradițional, dar cu proprietăți cuantice unice.
 
 ### S
-- **SAML**: Security Assertion Markup Language
+- **SAML**: limbaj de marcare a aserțiunilor de securitate
   - Un cadru bazat pe XML pentru schimbul de date de autentificare și autorizare între părți, folosit adesea în sistemele single sign-on (SSO).
 
-- **SAN**: Storage Area Network
+- **SAN**: rețea de stocare
   - O rețea specializată de mare viteză care conectează dispozitive de stocare a datelor și le face accesibile serverelor.
 
-- **SBC**: Session Border Controller
+- **SBC**: controler de frontieră pentru sesiuni
   - Un dispozitiv de rețea care controlează sesiunile de comunicare în timp real, oferind securitate și management pentru comunicațiile VoIP și video.
 
-- **SDK**: Software Development Kit
+- **SDK**: kit de dezvoltare software
   - Un set de unelte, biblioteci și documentație pentru construirea aplicațiilor software pentru o platformă sau un cadru specific.
 
-- **SIEM**: Security Information and Event Management
+- **SIEM**: gestionarea informațiilor și evenimentelor de securitate
   - O soluție care combină managementul informațiilor de securitate (SIM) și managementul evenimentelor de securitate (SEM) pentru a oferi analiză în timp real a alertelor și evenimentelor de securitate.
 
-- **SIM**: Subscriber Identity Module
+- **SIM**: modul de identitate a abonatului
   - Un card mic care stochează în siguranță informații folosite pentru identificarea și autentificarea utilizatorilor de dispozitive mobile.
 
-- **SMB**: Server Message Block
+- **SMB**: bloc de mesaje pentru server
   - Un protocol de partajare a fișierelor în rețea folosit pentru partajarea fișierelor, imprimantelor și altor resurse într-o rețea locală.
 
-- **SMTP**: Simple Mail Transfer Protocol
+- **SMTP**: protocol simplu de transfer al poștei
   - Un protocol folosit pentru trimiterea și primirea mesajelor de email prin internet.
 
-- **SNMP**: Simple Network Management Protocol
+- **SNMP**: protocol simplu de gestionare a rețelei
   - Un protocol folosit pentru gestionarea și monitorizarea dispozitivelor de rețea, cum ar fi routere, switch-uri și servere.
 
-- **SOA**: Service-Oriented Architecture
+- **SOA**: arhitectură orientată spre servicii
   - O abordare de proiectare care structurează software-ul ca un set de servicii reutilizabile, slab cuplate.
 
-- **SPOF**: Single Point of Failure
+- **SPOF**: punct unic de defectare
   - Un component sau sistem care, dacă eșuează, poate cauza căderea întregului sistem.
 
-- **SQL**: Structured Query Language
+- **SQL**: limbaj de interogare structurat
   - Un limbaj specific domeniului folosit pentru gestionarea și interogarea bazelor de date relaționale.
 
-- **SSD**: Solid State Drive
+- **SSD**: unitate cu stare solidă
   - Un dispozitiv de stocare a datelor care folosește memorie flash NAND pentru a stoca date, oferind acces mai rapid la date decât hard disk-urile tradiționale.
 
-- **SSH**: Secure Shell
+- **SSH**: shell securizat
   - Un protocol criptografic de rețea folosit pentru autentificare securizată la distanță și execuția comenzilor pe dispozitive de rețea.
 
-- **SSL**: Secure Sockets Layer
+- **SSL**: strat de socluri securizate
   - Un protocol de securitate învechit pentru stabilirea legăturilor criptate între un server web și un browser, înlocuit de TLS.
 
-- **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
+- **SSL/TLS**: stratul de socketuri securizate/securitatea stratului de transport
   - Protocoale folosite pentru securizarea comunicațiilor pe internet prin criptarea datelor transmise între un server web și browserul clientului.
 
 - **SaaS**: Software as a Service (software ca serviciu)
   - Un model de servicii cloud computing care oferă aplicații software prin internet pe bază de abonament.
 
 ### T
-- **TCP**: Transmission Control Protocol
+- **TCP**: protocol de control al transmisiei
   - Un protocol de rețea orientat pe conexiune care asigură transmiterea fiabilă a datelor între dispozitive într-o rețea.
 
 - **TCP/IP**: Protocolul de Control al Transmisiunii/Protocolul Internet
@@ -803,7 +803,7 @@ lastmod: 2026-11-14
 
 
 ### V
-- **VGA**: Video Graphics Array
+- **VGA**: matrice grafică video
   - Un standard de afișare grafică care a fost predominant în calculatoarele și monitoarele timpurii.
 
 - **VLAN**: Rețea Locală Virtuală
@@ -837,7 +837,7 @@ lastmod: 2026-11-14
 - **WPA**: Acces Wi-Fi Protejat
   - Un set de protocoale de securitate concepute pentru a proteja rețelele wireless, înlocuind WEP.
 
-- **WWW**: World Wide Web
+- **WWW**: rețea mondială
   - Un sistem global de documente și resurse interconectate accesibile prin internet.
 
 ### X
@@ -847,7 +847,7 @@ lastmod: 2026-11-14
 - **XSLT**: Transformări ale Limbajului Extensibil de Foi de Stil
   - Un limbaj pentru transformarea documentelor XML în diverse formate, cum ar fi HTML sau text simplu.
 
-- **XSS**: Cross-Site Scripting
+- **XSS**: scriptare între site-uri
   - Un tip de vulnerabilitate de securitate care permite atacatorilor să injecteze scripturi malițioase în paginile web vizualizate de alți utilizatori.
 
 - **XaaS**: Orice ca Serviciu
@@ -867,7 +867,7 @@ lastmod: 2026-11-14
   - O expresie colocvială care subliniază trăirea vieții din plin și asumarea riscurilor.
 
 ### Z
-- **ZAP**: Zed Attack Proxy
+- **ZAP**: proxy de atac Zed
   - Un instrument open-source pentru testarea securității aplicațiilor web, conceput pentru a ajuta la identificarea vulnerabilităților de securitate în aplicațiile web.
 
 - **ZFS**: Sistem de Fișiere Zettabyte

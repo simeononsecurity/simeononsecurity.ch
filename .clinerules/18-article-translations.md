@@ -48,6 +48,9 @@
   reader-facing expansion. Do not leave the source English expansion as the
   only explanation. Keep the English wording alongside the localized expansion
   only when readers need the canonical phrase to identify the acronym.
+  Localize ordinary glossary term keys, such as “firewall,” when the target
+  language has a conventional term. Preserve fixed acronym keys such as `ACL`,
+  `CI/CD`, and `QR Code`.
 - Check false friends that change evidence-handling meaning. For example,
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private
@@ -418,6 +421,11 @@
   contain no English stopwords, and flags substantial copied phrases inside a
   partially localized expansion. Check repeated acronym keys entry by entry;
   one localized expansion does not clear another occurrence of the same key.
+  When the canonical English phrase remains beside a CJK translation, require at
+  least six target-script letters before treating the expansion as localized.
+  For German and Dutch, one localized compound must contain at least eight
+  letters. Other Latin-script languages need at least two localized words.
+  Accents alone do not clear copied English.
   Keep fixed technical keys such as `CI/CD`, `DDoS`, and `QR Code` intact. The
   checker includes mixed-case and slash-separated acronym keys, plus `QR Code`
   and `Qubit`, in its glossary screen.

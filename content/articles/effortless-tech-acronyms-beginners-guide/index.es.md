@@ -49,7 +49,7 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot simplificado y amigable que explica acrónimos tecnológicos a un principiante con entusiasmo.
 coverCaption: Desmitificando la Jerga Tecnológica para Principiantes
-lastmod: 2026-10-08
+lastmod: 2026-11-18
 ---
 
 ## Introducción
@@ -66,7 +66,7 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **ACL**: Lista de Control de Acceso
   - Una lista de reglas o permisos que determinan qué usuarios o procesos del sistema tienen acceso a objetos, funciones o recursos en un sistema informático.
 
-- **AD**: Active Directory
+- **AD**: directorio activo
   - Un servicio de directorio desarrollado por Microsoft para redes de dominio Windows. Almacena información sobre objetos en una red y pone esta información disponible para usuarios y administradores de red.
 
 - **ADSL**: Línea de Abonado Digital Asimétrica
@@ -105,10 +105,10 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **AV**: Antivirus
   - Software diseñado para detectar, prevenir y eliminar software malicioso (virus, malware, etc.) de una computadora o red.
 
-- **AWS CLI**: Interfaz de Línea de Comandos de Amazon Web Services
+- **AWS CLI**: Interfaz de línea de comandos de Amazon Web Services (Amazon Web Services Command Line Interface)
   - Una herramienta de línea de comandos proporcionada por Amazon Web Services (AWS) que permite a los usuarios interactuar con los servicios de AWS y gestionar recursos a través de la línea de comandos.
 
-- **AWS**: Amazon Web Services
+- **AWS**: servicios web de Amazon
   - Una plataforma de computación en la nube ofrecida por Amazon que proporciona muchos servicios en la nube, incluyendo potencia de cómputo, almacenamiento, bases de datos, aprendizaje automático y más. AWS es ampliamente usada para construir y alojar aplicaciones y servicios en la nube.
 
 
@@ -162,7 +162,7 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **BRB**: Vuelvo Enseguida
   - Una abreviatura comúnmente usada en mensajes de texto o chat para indicar una ausencia temporal.
 
-- **BSD**: Berkeley Software Distribution
+- **BSD**: distribución de software de Berkeley
   - Un sistema operativo derivado de UNIX que ha influenciado muchos otros sistemas operativos tipo Unix.
 
 - **BSS**: Conjunto de Servicio Básico
@@ -370,7 +370,7 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **GNU**: GNU No es Unix
   - Un acrónimo recursivo usado para describir el Proyecto GNU, que es un proyecto de software libre y sistema operativo.
 
-- **GPG**: GNU Privacy Guard
+- **GPG**: protección de privacidad de GNU
   - Una implementación libre y de código abierto del estándar de cifrado OpenPGP usada para asegurar comunicaciones y datos.
 
 - **GPIO**: Entrada/Salida de Propósito General
@@ -635,7 +635,7 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **OSI**: Interconexión de Sistemas Abiertos
   - Un marco conceptual que estandariza las funciones de un sistema de telecomunicaciones o computación en siete capas distintas.
 
-- **OSPF**: Open Shortest Path First
+- **OSPF**: primero la ruta abierta más corta
   - Un protocolo de enrutamiento utilizado para un enrutamiento eficiente y escalable en redes IP, particularmente dentro de sistemas autónomos.
 
 - **OSS**: Software de Código Abierto
@@ -644,7 +644,7 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **OTP**: Contraseña de un solo uso
   - Una contraseña válida solo para una sesión de inicio de sesión o transacción, usada frecuentemente para mayor seguridad.
 
-- **OTP**: Contraseña de un solo uso o One-Time Pad
+- **OTP**: Contraseña de un solo uso o libreta de clave de un solo uso
   - Una técnica criptográfica que genera una contraseña única y de un solo uso para comunicación segura.
 
 ### P
@@ -704,7 +704,7 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **QPSK**: Modulación por Desplazamiento de Fase en Cuadratura
   - Un esquema de modulación usado en comunicación digital para transmitir datos variando la fase de dos ondas portadoras.
 
-- **Código QR**: Código de Respuesta Rápida
+- **QR Code**: Código de Respuesta Rápida
   - Un código de barras bidimensional que puede almacenar variedad de información, usado frecuentemente para recuperación rápida de datos con dispositivos móviles.
 
 - **QWERTY**: Distribución Estándar de Teclado
@@ -837,7 +837,7 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
 - **WPA**: Acceso Protegido Wi-Fi
   - Un conjunto de protocolos de seguridad diseñados para proteger redes inalámbricas, reemplazando a WEP.
 
-- **WWW**: World Wide Web
+- **WWW**: red mundial
   - Un sistema global de documentos y recursos interconectados accesibles a través de internet.
 
 ### X

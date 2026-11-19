@@ -1,6 +1,7 @@
 ---
 title: "技術用語集：ITとサイバーセキュリティの略語初心者ガイド"
 date: 2023-12-23
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: この初心者向けの技術略語ガイドでITの世界を解き明かし、すべての技術愛好者が簡単に学べるようにします。
@@ -49,7 +50,6 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: 熱意を持って初心者に技術略語を説明する、親しみやすいロボットのイラスト。
 coverCaption: 初心者のための技術用語の解明
-lastmod: 2026-10-08
 ---
 
 ## はじめに
@@ -105,10 +105,10 @@ lastmod: 2026-10-08
 - **AV**: アンチウイルス
   - コンピュータやネットワークから悪意あるソフトウェア（ウイルス、マルウェアなど）を検出、防止、除去するためのソフトウェア。
 
-- **AWS CLI**: Amazon Web Services コマンドラインインターフェース
+- **AWS CLI**: AWSのコマンドラインインターフェース（Amazon Web Services Command Line Interface）
   - Amazon Web Services（AWS）が提供するコマンドラインツールで、ユーザーがコマンドラインからAWSサービスとやり取りしリソースを管理できる。
 
-- **AWS**: Amazon Web Services
+- **AWS**: Amazonのウェブサービス（Amazon Web Services）
   - Amazonが提供するクラウドコンピューティングプラットフォームで、コンピューティングパワー、ストレージ、データベース、機械学習など多くのクラウドサービスを提供。AWSはクラウド上でのアプリケーションやサービス構築・ホスティングに広く使われる。
 
 
@@ -120,108 +120,108 @@ lastmod: 2026-10-08
 - **B2C**: 企業対消費者
   - 企業と個人消費者間のやり取りや商取引を示す。
 
-- **BAE**: Before Anyone Else
+- **BAE**: 誰よりも大切な人
   - ソーシャルメディアやテキストでよく使われる用語で、最優先の誰かや何かに対する愛情を表現します。
 
-- **BAU**: Business As Usual
+- **BAU**: 通常どおりの業務
   - 企業や組織の通常または日常的な運営を意味します。
 
 - **BBQ**: Barbecue
   - 屋外でグリルやスモーカーを使って食べ物を調理する方法です。
 
-- **BCC**: Blind Carbon Copy
+- **BCC**: ブラインドカーボンコピー（Blind Carbon Copy）
   - メールの機能で、メールスレッドの他の受信者に知られずにメールのコピーを送信できます。
 
-- **BFD**: Bidirectional Forwarding Detection
+- **BFD**: 双方向転送検出（Bidirectional Forwarding Detection）
   - 2台のルーター間の転送経路の障害を迅速に検出するためのネットワークプロトコルです。
 
-- **BGP**: Border Gateway Protocol
+- **BGP**: ボーダーゲートウェイプロトコル（Border Gateway Protocol）
   - インターネット上の自律システム間でルーティング情報を交換するための標準化された外部ゲートウェイプロトコルです。
 
-- **BI**: Business Intelligence
+- **BI**: ビジネスインテリジェンス（Business Intelligence）
   - ビジネスデータを分析・提示し、情報に基づく意思決定を支援する技術、プロセス、ツールを指します。
 
-- **BIOS**: Basic Input/Output System
+- **BIOS**: 基本入出力システム（Basic Input/Output System）
   - コンピュータの起動時にハードウェアを初期化・制御するファームウェアです。
 
-- **BIP**: Basic Image Profile
+- **BIP**: 基本画像プロファイル（Basic Image Profile）
   - デジタルカメラやその他の画像機器で使用される画像フォーマットの仕様です。
 
-- **BLOB**: Binary Large Object
+- **BLOB**: バイナリーラージオブジェクト（Binary Large Object）
   - 画像、音声、動画などのバイナリデータをデータベースに格納するためのデータ型です。
 
-- **BOM**: Bill of Materials
+- **BOM**: 部品表
   - 製品を製造するために必要な部品や材料の一覧です。
 
 - **BOT**: Robot
   - インターネット上でタスクを自動または半自動で実行するプログラムやスクリプトです。
 
-- **BPS**: Bits Per Second
+- **BPS**: 1秒あたりのビット数（Bits Per Second）
   - 1秒間に送信できるビット数を示すデータ伝送速度の単位です。
 
-- **BRB**: Be Right Back
+- **BRB**: すぐ戻ります
   - テキストメッセージやチャットで一時的に席を外すことを示す略語です。
 
-- **BSD**: Berkeley Software Distribution
+- **BSD**: バークレー・ソフトウェア・ディストリビューション（Berkeley Software Distribution）
   - UNIXから派生したオペレーティングシステムで、多くのUnix系OSに影響を与えています。
 
-- **BSS**: Basic Service Set
+- **BSS**: 基本サービスセット（Basic Service Set）
   - 無線LANの基本構成要素で、無線クライアント機器とアクセスポイントを含みます。
 
-- **BSSA**: Base Station Subsystem Application
+- **BSSA**: 基地局サブシステムアプリケーション（Base Station Subsystem Application）
   - 携帯電話ネットワークにおいて、モバイル機器と基地局間の通信を管理するソフトウェアアプリケーションです。
 
-- **BSSID**: Basic Service Set Identifier
+- **BSSID**: 基本サービスセット識別子（Basic Service Set Identifier）
   - 単一の無線ネットワーク内で複数のアクセスポイントを識別するための一意の識別子です。
 
-- **BYOA**: Bring Your Own App
+- **BYOA**: 自分のアプリを持ち込む
   - 従業員が仕事のために自分の好みのソフトウェアアプリケーションを使用する慣習です。
 
-- **BYOB**: Bring Your Own Bottle
+- **BYOB**: 自分の飲み物を持参する
   - イベントに参加者が自分のアルコール飲料を持参することを示すフレーズです。
 
-- **BYOD**: Bring Your Own Device
+- **BYOD**: 自分の端末を持ち込む
   - 従業員が個人所有のデバイスを仕事に使用することを許可する方針です。
 
-- **BYOM**: Bring Your Own Modem
+- **BYOM**: 自分のモデムを持ち込む
   - ユーザーが自分のモデムを持ち込み、インターネット接続に使用することを許可する方針です。
 
-- **BaaS**: Backend as a Service
+- **BaaS**: バックエンド・アズ・ア・サービス
   - ウェブやモバイルアプリケーションのバックエンドのインフラ（サーバー、データベース、ストレージなど）を提供するクラウドコンピューティングサービスです。
 
 
 ### C
-- **CDN**: Content Delivery Network
+- **CDN**: コンテンツ配信ネットワーク（Content Delivery Network）
   - 地理的な位置に基づいて画像、動画、ウェブページなどのウェブコンテンツをユーザーに高速かつ安定して配信するために連携する分散サーバーのシステムです。
 
-- **CI/CD**: Continuous Integration/Continuous Deployment
+- **CI/CD**: 継続的インテグレーション／継続的デプロイメント
   - コード変更を自動でビルド、テスト、デプロイし、開発プロセスの協力と自動化を促進するソフトウェア開発の実践セットです。
 
-- **CIFS**: Common Internet File System
+- **CIFS**: 共通インターネットファイルシステム（Common Internet File System）
   - ネットワーク上でファイルやプリンターの共有・アクセスを可能にするプロトコルで、主にWindowsのファイル共有に関連します。
 
-- **CISO**: Chief Information Security Officer
+- **CISO**: 最高情報セキュリティ責任者（Chief Information Security Officer）
   - 組織の情報セキュリティ戦略と方針の監督・実施を担当する上級管理職です。
 
-- **CLI**: Command Line Interface
+- **CLI**: コマンドラインインターフェース（Command Line Interface）
   - コマンドを入力してコンピュータプログラムやOSと対話するテキストベースのインターフェースです。
 
-- **CRM**: Customer Relationship Management
+- **CRM**: 顧客関係管理（Customer Relationship Management）
   - 顧客とのやり取りや関係を管理・分析する技術と戦略で、顧客満足度向上や売上促進に用いられます。
 
-- **CRON**: Command Run ON
+- **CRON**: 指定した時刻にコマンドを実行する
   - Unix系OSの時間ベースのジョブスケジューラで、特定の間隔で繰り返しタスクを自動化します。
 
-- **CSP**: Content Security Policy
+- **CSP**: コンテンツセキュリティポリシー（Content Security Policy）
   - ウェブブラウザが実装するセキュリティ機能で、クロスサイトスクリプティング（XSS）攻撃のリスクを軽減するために実行可能なコンテンツのソースを制御します。
 
-- **CSS**: Cascading Style Sheets
+- **CSS**: カスケーディングスタイルシート（Cascading Style Sheets）
   - HTML、XML、その他のマークアップ言語で書かれた文書の表示や書式を記述するスタイルシート言語です。
 
-- **CSV**: Comma-Separated Values
+- **CSV**: カンマ区切り値（Comma-Separated Values）
   - データ値をカンマで区切った表形式データを保存するシンプルなファイル形式です。
 
-- **CaaS**: Container as a Service
+- **CaaS**: コンテナ・アズ・ア・サービス
   - Dockerコンテナなどのコンテナをスケーラブルかつ効率的に展開・管理するためのクラウドコンピューティングサービスです。
 
 
@@ -229,25 +229,25 @@ lastmod: 2026-10-08
 
 {{< figure src="tech-abbreviations-diverse-concepts.webp" alt="技術関連の略語を示すセクション。多様な技術概念の視覚的表現。" caption="技術アルファベットのナビゲート" >}}
 
-- **DBMS**: Database Management System
+- **DBMS**: データベース管理システム（Database Management System）
   - データを構造化して管理、保存、検索、保護するためのソフトウェアシステムで、主にリレーショナルデータベースで使われます。
 
-- **DDoS**: Distributed Denial of Service
+- **DDoS**: 分散型サービス拒否攻撃
   - 複数の乗っ取られたコンピュータを使って標的のシステムやネットワークに大量のトラフィックを送り込み、過負荷で利用不能にするサイバー攻撃の一種です。
 
-- **DHCP**: Dynamic Host Configuration Protocol
+- **DHCP**: 動的ホスト構成プロトコル（Dynamic Host Configuration Protocol）
   - ネットワーク上のデバイスにIPアドレスやその他の設定を自動割り当てするネットワークプロトコルです。
 
-- **DLP**: Data Loss Prevention
+- **DLP**: データ損失防止（Data Loss Prevention）
   - 組織内の機密データへの不正アクセスや漏洩を防止するための戦略、ツール、方針のセットです。
 
-- **DMZ**: Demilitarized Zone
+- **DMZ**: ネットワークの非武装地帯（Demilitarized Zone）
   - 信頼された内部ネットワークと信頼されない外部ネットワークの間に中立地帯を設けるネットワーク構成で、セキュリティ強化に用いられます。
 
-- **DNS**: Domain Name System
+- **DNS**: ドメインネームシステム（Domain Name System）
   - 人間が読みやすいドメイン名をIPアドレスに変換し、名前でウェブサイトやリソースにアクセスできるようにするシステムです。
 
-- **DOS**: Denial of Service
+- **DOS**: サービス拒否
   - 標的のシステムやネットワークに過剰なトラフィックや悪意ある活動を送り込み、利用不能にするサイバー攻撃です。
 
 - **DOS**: ディスクオペレーティングシステム
@@ -496,28 +496,28 @@ lastmod: 2026-10-08
 - **JMS**: Javaメッセージサービス
   - アプリケーション間のメッセージングを可能にするJavaベースのAPIで、メッセージングシステムを通じた通信を実現する。
 
-- **JNI**: Java Native Interface
+- **JNI**: Javaネイティブインターフェース（Java Native Interface）
   - JavaコードがCやC++など他のプログラミング言語で書かれたコードと連携できるプログラミングフレームワーク。
 
-- **JPEG**: Joint Photographic Experts Group
+- **JPEG**: 共同写真専門家グループ（Joint Photographic Experts Group）
   - 写真画像の圧縮用に設計された一般的な画像ファイル形式。
 
-- **JRE**: Java Runtime Environment
+- **JRE**: Javaアプリケーションの実行環境（Java Runtime Environment）
   - Javaアプリケーションやアプレットを実行するために必要なランタイム環境を提供するソフトウェアパッケージ。
 
 - **JS**: JavaScript
   - ウェブ開発で広く使われるスクリプト言語で、ウェブページにインタラクティブ性や動的コンテンツを実現する。
 
-- **JSON**: JavaScript Object Notation
+- **JSON**: JavaScriptオブジェクト表記法（JavaScript Object Notation）
   - 人間が読み書きしやすく、機械が解析・生成しやすい軽量なデータ交換フォーマット。
 
-- **JSP**: JavaServer Pages
+- **JSP**: Javaサーバーページ（JavaServer Pages）
   - Javaを使って動的なウェブコンテンツを作成する技術で、PHPやASPに似ている。
 
-- **JVM**: Java Virtual Machine
+- **JVM**: Javaバイトコードの仮想マシン（Java Virtual Machine）
   - Javaアプリケーションを様々なハードウェアやソフトウェアプラットフォーム上で動作させる仮想マシン。
 
-- **JWT**: JSON Web Token
+- **JWT**: JSONウェブトークン（JSON Web Token）
   - JSONオブジェクトとして情報を安全に送信するためのコンパクトで自己完結型の手段で、認証や認可によく使われる。
 
 
@@ -528,64 +528,64 @@ lastmod: 2026-10-08
 - **KB**: Kilobyte
   - 1,024バイトを表すデジタル情報の単位。
 
-- **KDE**: K Desktop Environment
+- **KDE**: Kデスクトップ環境（K Desktop Environment）
   - Unix系OS向けのデスクトップ環境で、グラフィカルユーザーインターフェースと多様なアプリケーションを提供する。
 
-- **KISS**: Keep It Simple, Stupid
+- **KISS**: シンプルにしておけ、愚か者
   - シンプルさを重視し、不必要な複雑さを避ける設計原則。
 
-- **KLOC**: Kilo Lines of Code
+- **KLOC**: コード千行
   - ソフトウェアの複雑さを示す指標で、プログラムのコード行数を千単位で表す。
 
-- **KPI**: Key Performance Indicator
+- **KPI**: 重要業績評価指標（Key Performance Indicator）
   - 組織や特定の活動のパフォーマンスや効果を評価するための測定可能な指標。
 
-- **KPI**: Key Performance Indicator
+- **KPI**: 重要業績評価指標（Key Performance Indicator）
   - 組織や特定の活動のパフォーマンスや効果を評価するための測定可能な指標。
 
-- **KVM**: Kernel-based Virtual Machine
+- **KVM**: カーネルベース仮想マシン（Kernel-based Virtual Machine）
   - Linuxカーネルの仮想化基盤で、仮想マシンの作成と管理を可能にする。
 
 - **Kb**: Kilobit
   - 1,000ビットを表すデジタル情報の単位。
 
-- **KbE**: Kilobits per second
+- **KbE**: キロビット毎秒（Kilobits per second）
   - 1秒間に1,000ビットのデータが転送される速度の単位。
 
 - **Kbps**: Kilobits per second
   - 1秒間に1,000ビットのデータが転送される速度の単位。
 
 ### L
-- **LAN**: Local Area Network
+- **LAN**: ローカルエリアネットワーク（Local Area Network）
   - 通常は単一の建物やキャンパス内の狭い地理的範囲をカバーするネットワーク。
 
-- **LCD**: Liquid Crystal Display
+- **LCD**: 液晶ディスプレイ（Liquid Crystal Display）
   - コンピュータモニター、テレビ、モバイル機器で一般的に使われる薄型パネル表示技術。
 
-- **LDAP**: Lightweight Directory Access Protocol
+- **LDAP**: 軽量ディレクトリアクセスプロトコル（Lightweight Directory Access Protocol）
   - ディレクトリ情報へのアクセスと管理に使われるプロトコルで、認証やディレクトリサービスに多用される。
 
-- **LED**: Light Emitting Diode
+- **LED**: 発光ダイオード（Light Emitting Diode）
   - 電流が流れると光を発する半導体素子で、表示装置、インジケーター、照明に広く使われる。
 
 
 ### M
-- **MAC**: Media Access Control
+- **MAC**: 媒体アクセス制御（Media Access Control）
   - ローカルネットワーク上のネットワーク機器を一意に識別するハードウェアアドレス。
 
-- **MD5**: Message Digest Algorithm 5
+- **MD5**: メッセージダイジェストアルゴリズム5（Message Digest Algorithm 5）
   - 128ビットのハッシュ値を生成する広く使われる暗号学的ハッシュ関数で、データの整合性検証に用いられる。
 
-- **MFA**: Multi-Factor Authentication
+- **MFA**: 複数の認証要素を用いる認証方式（Multi-Factor Authentication）
   - アカウントやシステムへのアクセスに複数の認証要素を要求し、セキュリティを強化する認証プロセス。
 
-- **MIME**: Multipurpose Internet Mail Extensions
+- **MIME**: 多目的インターネットメール拡張（Multipurpose Internet Mail Extensions）
   - ASCII以外の文字セットのテキストや画像、音声などの添付ファイルをサポートするためにメール形式を拡張する標準。
 
-- **MSI**: Microsoft Installer
+- **MSI**: Microsoftインストーラー（Microsoft Installer）
   - Windows OS上でソフトウェアのインストール、保守、削除に使われるファイル形式およびソフトウェアコンポーネント。
 
-- **MTU**: Maximum Transmission Unit
+- **MTU**: 最大転送単位（Maximum Transmission Unit）
   - ネットワーク上で断片化なしに送信可能な最大のパケットまたはフレームサイズ。
 
 - **Mbps**: Megabits per second
@@ -595,47 +595,47 @@ lastmod: 2026-10-08
 
 {{< figure src="tech-concepts-diverse-terms.webp" alt="多様な技術概念の視覚的表現を含む技術関連用語のセクション。" caption="ネットワークストレージから量子コンピューティングまで：技術AからZ。" >}}
 
-- **NAS**: Network-Attached Storage
+- **NAS**: ネットワーク接続ストレージ（Network-Attached Storage）
   - ネットワーク経由で異種クライアントにデータアクセスを提供するファイルレベルのデータストレージ装置。
 
-- **NAT**: Network Address Translation
+- **NAT**: ネットワークアドレス変換（Network Address Translation）
   - 通信中のパケットヘッダーのネットワークアドレス情報を変更する技術で、IPアドレスの節約に使われる。
 
-- **NIC**: Network Interface Card
+- **NIC**: ネットワークインターフェースカード（Network Interface Card）
   - コンピュータや機器をネットワークに接続し、通信機能を提供するハードウェアコンポーネント。
 
-- **NTP**: Network Time Protocol
+- **NTP**: ネットワークタイムプロトコル（Network Time Protocol）
   - パケット交換型の可変遅延データネットワーク上でコンピュータの時刻を同期するためのネットワークプロトコル。
 
-- **NVR**: Network Video Recorder
+- **NVR**: ネットワークビデオレコーダー（Network Video Recorder）
   - 防犯カメラの映像を録画・保存するための装置またはソフトウェア。
 
-- **NVRAM**: Non-Volatile Random Access Memory
+- **NVRAM**: 不揮発性ランダムアクセスメモリ（Non-Volatile Random Access Memory）
   - 電源が切れてもデータを保持するタイプのコンピュータメモリ。
 
 ### O
-- **OCR**: Optical Character Recognition
+- **OCR**: 光学式文字認識（Optical Character Recognition）
   - 印刷または手書きの文字を機械可読のテキストに変換する技術で、文書のスキャンやデジタル化に使われる。
 
-- **ODBC**: Open Database Connectivity
+- **ODBC**: オープンデータベース接続（Open Database Connectivity）
   - リレーショナルデータベースに接続するための標準インターフェースで、ソフトウェアが様々なデータベースシステムと連携可能にする。
 
-- **OEM**: Original Equipment Manufacturer
+- **OEM**: 相手先ブランド製造業者（Original Equipment Manufacturer）
   - 他社製品に組み込まれる製品や部品を製造し、その後別の会社のブランド名で販売される企業。
 
-- **ORM**: Object-Relational Mapping
+- **ORM**: オブジェクト関係マッピング（Object-Relational Mapping）
   - アプリケーションのオブジェクトをデータベースのテーブルにマッピングし、オブジェクト指向コードでデータベース操作を可能にするプログラミング技術。
 
-- **ORM**: Object-Relational Mapping
+- **ORM**: オブジェクト関係マッピング（Object-Relational Mapping）
   - アプリケーションのオブジェクトをデータベースのテーブルにマッピングし、オブジェクト指向コードでデータベース操作を可能にするプログラミング技術。
 
-- **OS**: Operating System
+- **OS**: オペレーティングシステム（Operating System）
   - ハードウェアとソフトウェア資源を管理し、コンピュータプログラムにサービスを提供し、ユーザーがコンピュータと対話できるようにするシステムソフトウェア。
 
-- **OSI**: Open Systems Interconnection
+- **OSI**: 開放型システム間相互接続（Open Systems Interconnection）
   - 通信システムや計算機システムの機能を7つの異なる層に標準化した概念的枠組み。
 
-- **OSPF**: Open Shortest Path First
+- **OSPF**: オープン最短パス優先（Open Shortest Path First）
   - IPネットワーク内、特に自律システム内で効率的かつスケーラブルなルーティングに使用されるルーティングプロトコル。
 
 - **OSS**: オープンソースソフトウェア

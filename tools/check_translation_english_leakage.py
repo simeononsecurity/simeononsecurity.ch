@@ -1118,6 +1118,20 @@ def copied_english_headings(source: str, target: str) -> list[str]:
 
 FIXED_GLOSSARY_TERMS = {"aws cli", "esim", "ios", "qr code", "qubit"}
 GLOSSARY_NAME_EXCEPTIONS = {"amazon web services"}
+PARTIAL_EXPANSION_PHRASES = {
+    "application programming",
+    "as a service",
+    "continuous deployment",
+    "continuous delivery",
+    "continuous integration",
+    "one time pad",
+    "one time password",
+    "secure socket",
+    "secure sockets",
+    "transport layer",
+}
+REORDERED_PARTIAL_EXPANSION_PHRASES = {"access control", "backend service"}
+LOCALE_EXPANSION_EXCEPTIONS = {"nl": {"bits per", "kilobits per"}}
 
 
 def fixed_glossary_key(key: str) -> bool:
@@ -1134,14 +1148,16 @@ def fixed_glossary_key(key: str) -> bool:
     )
 
 
-def copied_english_acronym_expansions(source: str, target: str) -> list[str]:
+def copied_english_acronym_expansions(
+    source: str, target: str, locale: str | None = None
+) -> list[str]:
     """Find fully or substantially copied English glossary expansions."""
     entry_pattern = re.compile(
         r"^\s*[-+*]\s+\*\*(?P<key>[^*\n]+)\*\*\s*[:：]\s*(?P<expansion>.+?)\s*$"
     )
 
-    def entries(text: str) -> dict[str, list[str]]:
-        found: dict[str, list[str]] = {}
+    def entries(text: str) -> dict[str, list[tuple[str, str]]]:
+        found: dict[str, list[tuple[str, str]]] = {}
         for line in text.splitlines():
             match = entry_pattern.match(line)
             if not match:
@@ -1149,9 +1165,10 @@ def copied_english_acronym_expansions(source: str, target: str) -> list[str]:
             key = match.group("key").strip()
             if not fixed_glossary_key(key):
                 continue
-            expansion = normalize(visible_text(match.group("expansion")))
+            raw_expansion = visible_text(match.group("expansion"))
+            expansion = normalize(raw_expansion)
             if expansion:
-                found.setdefault(key, []).append(expansion)
+                found.setdefault(key, []).append((expansion, raw_expansion))
         return found
 
     source_entries = entries(source)
@@ -1159,7 +1176,9 @@ def copied_english_acronym_expansions(source: str, target: str) -> list[str]:
     copied = []
     for key, source_expansions in source_entries.items():
         target_expansions = target_entries.get(key, [])
-        for source_expansion, target_expansion in zip(source_expansions, target_expansions):
+        for (source_expansion, _), (target_expansion, target_raw) in zip(
+            source_expansions, target_expansions
+        ):
             source_words = source_expansion.split()
             if len(source_words) < 2 and normalize(key) not in FIXED_GLOSSARY_TERMS:
                 continue
@@ -1168,7 +1187,57 @@ def copied_english_acronym_expansions(source: str, target: str) -> list[str]:
                 continue
             target_words = target_expansion.split()
             localized_words = [word for word in target_words if word not in source_words]
-            if source_expansion in target_expansion and len(localized_words) >= 2:
+            expected_ranges = SCRIPT_RANGES.get(locale or "", ())
+            target_script_letters = sum(
+                char.isalpha()
+                and any(start <= ord(char) <= end for start, end in expected_ranges)
+                for char in target_expansion
+            )
+            parenthetical_parts = re.findall(r"\([^()]*\)|（[^（）]*）", target_raw)
+            if any(source_expansion in normalize(part) for part in parenthetical_parts):
+                outside_parentheses = re.sub(
+                    r"\([^()]*\)|（[^（）]*）", " ", target_raw
+                )
+                outside_words = [
+                    word for word in normalize(outside_parentheses).split()
+                    if word not in source_words
+                ]
+                outside_script_letters = sum(
+                    char.isalpha()
+                    and any(start <= ord(char) <= end for start, end in expected_ranges)
+                    for char in outside_parentheses
+                )
+                outside_compound = any(
+                    sum(char.isalpha() for char in word) >= 8
+                    for word in outside_words
+                )
+                sufficient_outside_translation = (
+                    len(outside_words) >= 2
+                    or outside_script_letters >= 6
+                    or (locale in {"de", "nl"} and outside_compound)
+                )
+                if sufficient_outside_translation:
+                    continue
+                copied.append(f"{key}: copied phrase {source_expansion}")
+                continue
+            if source_expansion in target_expansion:
+                has_localized_compound = any(
+                    sum(char.isalpha() for char in word) >= 8
+                    for word in localized_words
+                )
+                has_dutch_unit_wording = (
+                    locale == "nl"
+                    and "seconde" in localized_words
+                    and any(word in source_words for word in ("bit", "bits", "kilobit", "kilobits"))
+                )
+                if (
+                    len(localized_words) >= 2
+                    or target_script_letters >= 6
+                    or has_dutch_unit_wording
+                    or (locale in {"de", "nl"} and has_localized_compound)
+                ):
+                    continue
+                copied.append(f"{key}: copied phrase {source_expansion}")
                 continue
             longest = 0
             longest_phrase = []
@@ -1182,16 +1251,48 @@ def copied_english_acronym_expansions(source: str, target: str) -> list[str]:
                     ):
                         run += 1
                     phrase = source_words[source_index:source_index + run]
-                    if run > longest and " ".join(phrase) not in GLOSSARY_NAME_EXCEPTIONS:
+                    phrase_text = " ".join(phrase)
+                    if (
+                        run > longest
+                        and phrase_text not in GLOSSARY_NAME_EXCEPTIONS
+                        and phrase_text not in LOCALE_EXPANSION_EXCEPTIONS.get(locale or "", set())
+                    ):
                         longest = run
                         longest_phrase = phrase
-            if longest >= 2 and longest / len(source_words) >= 0.35:
+            phrase = " ".join(longest_phrase)
+            has_english_connectors = sum(
+                word in ENGLISH_STOPWORDS for word in longest_phrase
+            ) >= 2
+            target_word_positions = {word: index for index, word in enumerate(target_words)}
+            reordered_phrase = next(
+                (
+                    candidate
+                    for candidate in REORDERED_PARTIAL_EXPANSION_PHRASES
+                    if all(word in target_word_positions for word in candidate.split())
+                    and [target_word_positions[word] for word in candidate.split()]
+                    != sorted(target_word_positions[word] for word in candidate.split())
+                ),
+                None,
+            )
+            is_version_label = bool(re.fullmatch(r"version \d+(?:\.\d+)*", phrase))
+            if (
+                longest >= 2
+                and longest / len(source_words) >= 0.35
+                and not is_version_label
+                and (has_english_connectors or phrase in PARTIAL_EXPANSION_PHRASES)
+            ):
                 copied.append(f"{key}: copied phrase {' '.join(longest_phrase)}")
+            elif reordered_phrase:
+                copied.append(f"{key}: copied phrase {reordered_phrase}")
     return sorted(set(copied))
 
 
-def missing_acronym_keys(source: str, target: str) -> list[str]:
+def missing_acronym_keys(
+    source: str, target: str, *, glossary_page: bool = True
+) -> list[str]:
     """Find fixed glossary keys changed or omitted in a translation."""
+    if not glossary_page:
+        return []
     entry_pattern = re.compile(
         r"^\s*[-+*]\s+\*\*(?P<key>[^*\n]+)\*\*\s*[:：]\s*.+?\s*$"
     )
@@ -1620,8 +1721,14 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         english_body_fallback = english_dominant_body(body, locale)
         copied_table_cells = copied_english_table_cells(source_body, body)
         copied_headings = copied_english_headings(source_body, body)
-        copied_acronym_expansions = copied_english_acronym_expansions(source_body, body)
-        missing_acronym_keys_found = missing_acronym_keys(source_body, body)
+        copied_acronym_expansions = copied_english_acronym_expansions(
+            source_body, body, locale
+        )
+        source_title = normalize(str(source_meta.get("title", "")))
+        is_glossary_page = "glossary" in source_title or "acronym" in source_title
+        missing_acronym_keys_found = missing_acronym_keys(
+            source_body, body, glossary_page=is_glossary_page
+        )
         structure_differences = markdown_structure_differences(source_body, body)
         ratio = script_ratio(prose, locale)
         reasons = []

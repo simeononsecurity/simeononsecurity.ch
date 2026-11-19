@@ -1,6 +1,7 @@
 ---
 title: "Glossaire du jargon technique : Guide du débutant des acronymes IT et cybersécurité"
 date: 2023-12-23
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: Découvrez le monde de l'informatique avec ce guide du débutant sur les acronymes techniques, rendant l'apprentissage facile pour tous les passionnés de technologie.
@@ -49,7 +50,6 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot simplifié et amical expliquant avec enthousiasme les acronymes techniques à un débutant.
 coverCaption: Démystifier le jargon technique pour les débutants
-lastmod: 2026-10-08
 ---
 
 ## Introduction
@@ -66,7 +66,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **ACL** : Liste de contrôle d'accès
   - Une liste de règles ou permissions qui déterminent quels utilisateurs ou processus système ont accès à des objets, fonctionnalités ou ressources dans un système informatique.
 
-- **AD** : Active Directory
+- **AD** : service d’annuaire actif
   - Un service d'annuaire développé par Microsoft pour les réseaux de domaine Windows. Il stocke des informations sur les objets d'un réseau et rend ces informations accessibles aux utilisateurs et administrateurs réseau.
 
 - **ADSL** : Ligne d'abonné numérique asymétrique
@@ -99,25 +99,25 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **ASM** : Langage assembleur
   - Un langage de programmation de bas niveau étroitement lié à l'architecture du processeur central (CPU) d'un ordinateur. Le langage assembleur est utilisé pour écrire des programmes qui interagissent directement avec le matériel.
 
-- **ASP** : Active Server Pages
+- **ASP** : pages serveur actives
   - Une technologie de script côté serveur développée par Microsoft pour créer des applications web dynamiques et des sites web. ASP permet d'intégrer du code dans des pages HTML pour générer du contenu dynamique.
 
 - **AV** : Antivirus
   - Un logiciel conçu pour détecter, prévenir et supprimer les logiciels malveillants (virus, malwares, etc.) d'un ordinateur ou réseau.
 
-- **AWS CLI** : Interface en ligne de commande Amazon Web Services
+- **AWS CLI** : Interface en ligne de commande Amazon Web Services (Amazon Web Services Command Line Interface)
   - Un outil en ligne de commande fourni par Amazon Web Services (AWS) qui permet aux utilisateurs d'interagir avec les services AWS et de gérer les ressources via la ligne de commande.
 
-- **AWS** : Amazon Web Services
+- **AWS** : services web d’Amazon
   - Une plateforme de cloud computing proposée par Amazon qui offre de nombreux services cloud, y compris la puissance de calcul, le stockage, les bases de données, l'apprentissage automatique, et plus encore. AWS est largement utilisé pour construire et héberger des applications et services dans le cloud.
 
 
 ### B
 
-- **B2B** : Business to Business
+- **B2B** : entreprise à entreprise
   - Désigne les transactions, communications ou relations entre deux entreprises plutôt qu'entre une entreprise et un consommateur.
 
-- **B2C** : Business to Consumer
+- **B2C** : entreprise à consommateur
   - Désigne les interactions ou le commerce entre une entreprise et des consommateurs individuels.
 
 - **BAE** : Avant Tout le Monde
@@ -162,7 +162,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **BRB** : Je Reviens Tout de Suite
   - Une abréviation couramment utilisée dans les messages texte ou les chats pour indiquer une absence temporaire.
 
-- **BSD** : Berkeley Software Distribution
+- **BSD** : distribution logicielle de Berkeley
   - Un système d'exploitation dérivé d'UNIX qui a influencé de nombreux autres systèmes d'exploitation de type Unix.
 
 - **BSS** : Ensemble de Service de Base
@@ -259,7 +259,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **DaaS** : Données en tant que service (Data as a Service)
   - Un service de cloud computing qui fournit un accès aux données à la demande, permettant aux organisations de stocker, accéder et gérer les données de manière évolutive et économique.
 
-- **DaaS** : Bureau en tant que service (Desktop as a Service)
+- **DaaS** : Bureau virtuel en tant que service (Desktop as a Service)
   - Un service de virtualisation de bureau basé sur le cloud qui permet aux utilisateurs d'accéder et d'utiliser des bureaux virtuels hébergés sur un serveur distant ou un centre de données.
 
 
@@ -270,7 +270,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **ECC** : Code de correction d'erreur (Error-Correcting Code)
   - Un type de code utilisé dans la mémoire informatique et le stockage de données pour détecter et corriger les erreurs dans les données.
 
-- **ECS** : Elastic Container Service
+- **ECS** : service élastique de conteneurs
   - Un service fourni par des plateformes de cloud computing comme AWS qui simplifie le déploiement et la gestion des conteneurs.
 
 - **EEPROM** : Mémoire morte programmable et effaçable électriquement (Electrically Erasable Programmable Read-Only Memory)
@@ -361,7 +361,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **GIF** : Format d'échange d'images (Graphics Interchange Format)
   - Un format de fichier image largement utilisé qui supporte les images statiques et animées avec une palette de couleurs limitée.
 
-- **SIG** : Système d'information géographique (Geographic Information System)
+- **GIS** : Système d'information géographique (SIG)
   - Un système qui combine des données géographiques avec diverses couches d'informations pour analyser, visualiser et comprendre les relations et motifs spatiaux.
 
 - **GMT** : Temps moyen de Greenwich (Greenwich Mean Time)
@@ -370,7 +370,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **GNU** : GNU n'est pas Unix (GNU's Not Unix)
   - Un acronyme récursif utilisé pour décrire le projet GNU, qui est un projet de logiciel libre et de système d'exploitation.
 
-- **GPG** : GNU Privacy Guard
+- **GPG** : protection de la vie privée de GNU
   - Une implémentation libre et open source de la norme de chiffrement OpenPGP utilisée pour sécuriser les communications et les données.
 
 - **GPIO** : Entrée/Sortie à usage général (General Purpose Input/Output)
@@ -579,7 +579,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **MFA** : Authentification multi-facteurs
   - Un processus de sécurité qui exige que les utilisateurs fournissent deux facteurs d'authentification ou plus pour accéder à un compte ou système, renforçant la sécurité.
 
-- **MIME** : Extensions multipurpose Internet Mail
+- **MIME** : Extensions polyvalentes de messagerie Internet
   - Une norme qui étend le formatage des emails pour supporter du texte dans des jeux de caractères autres que ASCII, ainsi que des pièces jointes comme des images et de l'audio.
 
 - **MSI** : Installateur Microsoft
@@ -635,7 +635,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **OSI** : Interconnexion de systèmes ouverts
   - Un cadre conceptuel qui standardise les fonctions d'un système de télécommunication ou informatique en sept couches distinctes.
 
-- **OSPF** : Open Shortest Path First
+- **OSPF** : chemin ouvert le plus court en premier
   - Un protocole de routage utilisé pour un routage efficace et évolutif dans les réseaux IP, particulièrement au sein des systèmes autonomes.
 
 - **OSS** : Logiciel Open Source
@@ -644,7 +644,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **OTP** : Mot de passe à usage unique
   - Un mot de passe valide pour une seule session de connexion ou transaction, souvent utilisé pour renforcer la sécurité.
 
-- **OTP** : Mot de passe à usage unique ou One-Time Pad
+- **OTP** : Mot de passe à usage unique ou masque à usage unique
   - Une technique cryptographique qui génère un mot de passe unique à usage unique pour une communication sécurisée.
 
 ### P
@@ -654,25 +654,25 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **PC** : Ordinateur personnel
   - Un ordinateur à usage général conçu pour un usage individuel, souvent équipé de systèmes d'exploitation de bureau.
 
-- **PDF** : Portable Document Format
+- **PDF** : format de document portable
   - Un format de fichier utilisé pour présenter et échanger des documents indépendamment des logiciels, matériels et systèmes d'exploitation.
 
-- **PHP** : Hypertext Preprocessor
+- **PHP** : préprocesseur hypertexte
   - Un langage de script populaire utilisé pour le développement web afin de créer des pages et applications web dynamiques.
 
 - **PKI** : Infrastructure à clé publique
   - Un cadre qui fournit une communication sécurisée et une authentification en utilisant des clés publiques et privées, souvent utilisé pour le chiffrement et les signatures numériques.
 
-- **POP** : Protocole de bureau de poste
+- **POP** : Protocole de récupération du courrier électronique
   - Un protocole standard de messagerie utilisé pour récupérer les messages d'un serveur de messagerie vers un client local.
 
-- **POP3** : Protocole de bureau de poste, version 3
+- **POP3** : Protocole de récupération du courrier électronique, version 3
   - Un protocole de messagerie utilisé pour recevoir et gérer les messages électroniques sur un serveur de messagerie.
 
 - **POS** : Point de vente
   - Le lieu et le système où un client effectue un paiement pour des produits ou services.
 
-- **POST** : Power-On Self-Test
+- **POST** : autotest à la mise sous tension
   - Un processus de test diagnostique que subissent les composants matériels d'un ordinateur lors de sa mise sous tension.
 
 - **PPP** : Protocole point à point
@@ -692,7 +692,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **QA** : Assurance qualité
   - Le processus garantissant la qualité et la fiabilité des produits ou services par des tests et des revues.
 
-- **QEMU** : Quick Emulator
+- **QEMU** : émulateur rapide
   - Un logiciel open source de virtualisation et d'émulation qui permet d'exécuter des systèmes d'exploitation sur diverses plateformes hôtes.
 
 - **QLC** : Cellule à quatre niveaux
@@ -717,7 +717,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
   - L'unité fondamentale d'information quantique en informatique quantique, analogue au bit classique en informatique traditionnelle mais avec des propriétés quantiques uniques.
 
 ### S
-- **SAML** : Security Assertion Markup Language
+- **SAML** : langage de balisage des assertions de sécurité
   - Un cadre basé sur XML pour l'échange de données d'authentification et d'autorisation entre parties, souvent utilisé dans les systèmes d'authentification unique (SSO).
 
 - **SAN** : Réseau de stockage
@@ -756,26 +756,26 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **SSD** : Disque à état solide
   - Un dispositif de stockage de données utilisant une mémoire flash NAND pour stocker les données, offrant un accès plus rapide que les disques durs traditionnels.
 
-- **SSH** : Secure Shell
+- **SSH** : interpréteur de commandes sécurisé
   - Un protocole réseau cryptographique utilisé pour une connexion distante sécurisée et l'exécution de commandes sur des dispositifs réseau.
 
-- **SSL** : Secure Sockets Layer
+- **SSL** : couche de sockets sécurisée
   - Un protocole de sécurité obsolète pour établir des liens chiffrés entre un serveur web et un navigateur, remplacé par TLS.
 
-- **SSL/TLS** : Secure Sockets Layer/Transport Layer Security
+- **SSL/TLS** : couche de sockets sécurisée/sécurité de la couche transport
   - Protocoles utilisés pour sécuriser la communication internet en chiffrant les données transmises entre un serveur web et le navigateur d'un client.
 
 - **SaaS** : Logiciel en tant que service
   - Un modèle de service cloud qui fournit des applications logicielles via Internet sur une base d'abonnement.
 
 ### T
-- **TCP** : Transmission Control Protocol
+- **TCP** : protocole de contrôle de transmission
   - Un protocole réseau orienté connexion qui assure la transmission fiable des données entre appareils sur un réseau.
 
 - **TCP/IP** : Protocole de contrôle de transmission/Protocole Internet
   - La suite de protocoles qui sous-tend Internet et la plupart des réseaux, responsable de la transmission des données et de l'adressage.
 
-- **TLS** : Transport Layer Security
+- **TLS** : sécurité de la couche transport
   - Un protocole cryptographique qui assure la transmission sécurisée des données sur un réseau, souvent utilisé pour sécuriser les communications web (remplaçant SSL).
 
 - **TTL** : Time to Live (Durée de vie)
@@ -789,13 +789,13 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **UAT** : User Acceptance Testing (Tests d'acceptation utilisateur)
   - Une phase du développement logiciel où les utilisateurs finaux testent le système pour s'assurer qu'il répond à leurs exigences et fonctionne correctement.
 
-- **UDP** : User Datagram Protocol
+- **UDP** : protocole de datagrammes utilisateur
   - Un protocole réseau sans connexion qui transmet les données sans garantir leur arrivée ni leur ordre.
 
 - **UI** : Interface utilisateur
   - Le moyen par lequel un utilisateur interagit avec et contrôle une application logicielle ou un dispositif matériel.
 
-- **USB** : Universal Serial Bus
+- **USB** : bus série universel
   - Une norme d'interface largement utilisée pour connecter et communiquer entre ordinateurs et périphériques.
 
 - **UUID** : Identifiant unique universel
@@ -803,7 +803,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 
 
 ### V
-- **VGA** : Video Graphics Array
+- **VGA** : matrice graphique vidéo
   - Une norme d'affichage graphique qui était courante dans les premiers ordinateurs et moniteurs.
 
 - **VLAN** : Réseau local virtuel
@@ -828,26 +828,26 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **WAN** : Réseau étendu
   - Un réseau couvrant une vaste zone géographique, connectant plusieurs réseaux locaux (LAN) sur de longues distances.
 
-- **WEP** : Wired Equivalent Privacy
+- **WEP** : confidentialité équivalente au filaire
   - Un protocole de chiffrement pour réseaux sans fil ancien et moins sécurisé.
 
 - **WLAN** : Réseau local sans fil
   - Un réseau local utilisant la communication sans fil pour connecter des dispositifs dans une zone géographique limitée.
 
-- **WPA** : Wi-Fi Protected Access
+- **WPA** : accès Wi-Fi protégé
   - Un ensemble de protocoles de sécurité conçus pour sécuriser les réseaux sans fil, remplaçant WEP.
 
-- **WWW** : World Wide Web
+- **WWW** : toile mondiale
   - Un système mondial de documents et ressources interconnectés accessibles via Internet.
 
 ### X
-- **XML** : Extensible Markup Language
+- **XML** : langage de balisage extensible
   - Un langage de balisage textuel utilisé pour stocker et transporter des données structurées.
 
-- **XSLT** : Extensible Stylesheet Language Transformations
+- **XSLT** : transformations du langage de feuilles de style extensible
   - Un langage pour transformer des documents XML en divers formats, tels que HTML ou texte brut.
 
-- **XSS** : Cross-Site Scripting
+- **XSS** : script intersite
   - Un type de vulnérabilité de sécurité qui permet aux attaquants d'injecter des scripts malveillants dans des pages web vues par d'autres utilisateurs.
 
 - **XaaS** : Anything as a Service (Tout en tant que service)
@@ -857,7 +857,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **YAGNI** : You Aren't Gonna Need It (Vous n'en aurez pas besoin)
   - Un principe de développement logiciel qui encourage la simplicité et évite l'inclusion de fonctionnalités inutiles tant qu'elles ne sont pas réellement nécessaires.
 
-- **YAML** : YAML Ain't Markup Language
+- **YAML** : YAML n’est pas un langage de balisage
   - Un format de sérialisation de données lisible par l'humain, utilisé pour les fichiers de configuration et l'échange de données.
 
 - **YMMV** : Your Mileage May Vary (Votre expérience peut varier)
@@ -867,13 +867,13 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
   - Une expression familière qui encourage à vivre pleinement et à prendre des risques.
 
 ### Z
-- **ZAP** : Zed Attack Proxy
+- **ZAP** : proxy d’attaque Zed
   - Un outil open source de test de sécurité des applications web conçu pour aider à détecter les vulnérabilités de sécurité dans les applications web.
 
-- **ZFS** : Zettabyte File System
+- **ZFS** : système de fichiers Zettabyte
   - Un système de fichiers et gestionnaire de volumes logiques conçu pour gérer de grandes quantités de données et fournir des fonctionnalités d'intégrité et de protection des données.
 
-- **ZIP** : Zone Improvement Plan
+- **ZIP** : plan d’amélioration de zone
   - Un système de codes postaux utilisé aux États-Unis pour améliorer la distribution du courrier.
 
 - **ZPL** : Couche conforme POSIX de ZFS

@@ -1,6 +1,7 @@
 ---
 title: "Glossario del gergo tecnologico: Guida per principianti agli acronimi IT e di sicurezza informatica"
 date: 2023-12-23
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: Scopri il mondo dell'IT con questa guida per principianti agli acronimi tecnologici, rendendo l'apprendimento semplice per tutti gli appassionati di tecnologia.
@@ -49,7 +50,6 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot semplificato e amichevole che spiega con entusiasmo gli acronimi tecnologici a un principiante.
 coverCaption: Demistificare il gergo tecnologico per principianti
-lastmod: 2026-11-14
 ---
 
 ## Introduzione
@@ -66,64 +66,64 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **ACL**: Lista di Controllo Accessi
   - Un elenco di regole o permessi che determinano quali utenti o processi di sistema hanno accesso a oggetti, funzionalità o risorse in un sistema informatico.
 
-- **AD**: Active Directory
+- **AD**: directory attivo
   - Un servizio di directory sviluppato da Microsoft per reti di dominio Windows. Memorizza informazioni sugli oggetti in una rete e rende queste informazioni disponibili a utenti e amministratori di rete.
 
-- **ADSL**: Asymmetric Digital Subscriber Line
+- **ADSL**: linea digitale asimmetrica per abbonati
   - Un tipo di connessione internet ad alta velocità che utilizza le linee telefoniche in rame esistenti per la trasmissione dei dati. Fornisce velocità di download più elevate rispetto a quelle di upload.
 
-- **AES**: Advanced Encryption Standard
+- **AES**: standard di cifratura avanzata
   - Un algoritmo di crittografia simmetrica ampiamente utilizzato che garantisce la riservatezza e l'integrità dei dati. AES è considerato altamente sicuro ed è usato in varie applicazioni, inclusa la crittografia dei dati e i protocolli di sicurezza.
 
 - **AI**: Intelligenza Artificiale
   - La simulazione dei processi di intelligenza umana da parte delle macchine, in particolare dei sistemi informatici. L'IA comprende varie tecnologie e tecniche, come l'apprendimento automatico, l'elaborazione del linguaggio naturale e le reti neurali.
 
-- **AJAX**: Asynchronous JavaScript and XML
+- **AJAX**: JavaScript asincrono e XML
   - Un insieme di tecniche di sviluppo web usate per creare applicazioni web interattive e dinamiche. AJAX consente di recuperare dati da un server senza dover ricaricare l'intera pagina web.
 
-- **AML**: Automated Machine Learning
+- **AML**: apprendimento automatico automatizzato
   - Un sottoinsieme dell'intelligenza artificiale che si concentra sull'automatizzazione del processo di addestramento e distribuzione dei modelli di machine learning. Semplifica e accelera la pipeline di apprendimento automatico.
 
-- **API**: Application Programming Interface
+- **API**: interfaccia di programmazione delle applicazioni
   - Un insieme di regole e protocolli che permette a diverse applicazioni software di comunicare tra loro. Le API consentono l'integrazione di vari servizi e funzionalità.
 
-- **APIPA**: Automatic Private IP Addressing
+- **APIPA**: assegnazione automatica di indirizzi IP privati
   - Una funzionalità presente in molti sistemi operativi moderni che assegna automaticamente un indirizzo IP privato a un dispositivo se non riesce a ottenere un indirizzo IP da un server DHCP. Questo garantisce che il dispositivo possa comunque connettersi alla rete locale.
 
-- **APT**: Advanced Persistent Threat
+- **APT**: minaccia persistente avanzata
   - Un tipo di attacco informatico in cui un utente non autorizzato ottiene accesso a una rete o sistema e rimane inosservato per un lungo periodo. Gli APT sono spesso associati ad attaccanti sofisticati e ben finanziati.
 
-- **ARP**: Address Resolution Protocol
+- **ARP**: protocollo di risoluzione degli indirizzi
   - Un protocollo usato per mappare un indirizzo IP a un indirizzo fisico (MAC) su una rete locale. È fondamentale per la comunicazione tra dispositivi sulla stessa rete.
 
-- **ASM**: Assembly Language
+- **ASM**: linguaggio assemblativo
   - Un linguaggio di programmazione a basso livello strettamente legato all'architettura dell'unità centrale di elaborazione (CPU) di un computer. Il linguaggio assembly è usato per scrivere programmi che interagiscono direttamente con l'hardware.
 
-- **ASP**: Active Server Pages
+- **ASP**: pagine server attive
   - Una tecnologia di scripting lato server sviluppata da Microsoft per costruire applicazioni web e siti dinamici. ASP consente di incorporare codice all'interno di pagine HTML per generare contenuti dinamici.
 
 - **AV**: Antivirus
   - Software progettato per rilevare, prevenire e rimuovere software dannoso (virus, malware, ecc.) da un computer o una rete.
 
-- **AWS CLI**: Amazon Web Services Command Line Interface
+- **AWS CLI**: interfaccia a riga di comando dei servizi web di Amazon
   - Uno strumento da linea di comando fornito da Amazon Web Services (AWS) che permette agli utenti di interagire con i servizi AWS e gestire risorse tramite la riga di comando.
 
-- **AWS**: Amazon Web Services
+- **AWS**: servizi web di Amazon
   - Una piattaforma di cloud computing offerta da Amazon che fornisce molti servizi cloud, inclusi potenza di calcolo, storage, database, machine learning e altro. AWS è ampiamente usata per costruire e ospitare applicazioni e servizi nel cloud.
 
 
 ### B
 
-- **B2B**: Business to Business
+- **B2B**: da impresa a impresa
   - Si riferisce a transazioni, comunicazioni o relazioni tra due aziende piuttosto che tra un'azienda e un consumatore.
 
-- **B2C**: Business to Consumer
+- **B2C**: da impresa a consumatore
   - Indica interazioni o commercio tra un'azienda e consumatori individuali.
 
 - **BAE**: Prima di Chiunque Altro
   - Un termine comunemente usato nei social media e negli SMS per esprimere affetto verso qualcuno o qualcosa che è una priorità assoluta.
 
-- **BAU**: Business As Usual
+- **BAU**: attività aziendale ordinaria
   - Indica il normale o consueto funzionamento di un'azienda o organizzazione.
 
 - **BBQ**: Barbecue
@@ -132,46 +132,46 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **BCC**: Copia Carbone Nascosta
   - Una funzione email che permette di inviare una copia di un'email a destinatari senza che gli altri nella conversazione ne siano a conoscenza.
 
-- **BFD**: Bidirectional Forwarding Detection
+- **BFD**: rilevamento bidirezionale dell’inoltro
   - Un protocollo di rete usato per rilevare rapidamente guasti nel percorso di inoltro tra due router.
 
-- **BGP**: Border Gateway Protocol
+- **BGP**: protocollo del gateway di confine
   - Un protocollo di gateway esterno standardizzato usato per scambiare informazioni di routing tra sistemi autonomi su internet.
 
-- **BI**: Business Intelligence
+- **BI**: analisi aziendale
   - Si riferisce a tecnologie, processi e strumenti usati per analizzare e presentare dati aziendali per prendere decisioni informate.
 
-- **BIOS**: Basic Input/Output System
+- **BIOS**: sistema base di ingresso e uscita
   - Un firmware che inizializza e controlla l'hardware durante il processo di avvio di un computer.
 
-- **BIP**: Basic Image Profile
+- **BIP**: profilo immagine di base
   - Una specifica per formati di immagine usati in fotocamere digitali e altri dispositivi di imaging.
 
-- **BLOB**: Binary Large Object
+- **BLOB**: grande oggetto binario
   - Un tipo di dato usato per memorizzare dati binari nei database, come immagini, audio o video.
 
-- **BOM**: Bill of Materials
+- **BOM**: distinta dei materiali
   - Un elenco dei componenti e materiali necessari per fabbricare un prodotto.
 
 - **BOT**: Robot
   - Un programma o script autonomo o semi-autonomo che esegue compiti, spesso su internet.
 
-- **BPS**: Bits Per Second
+- **BPS**: bit al secondo
   - Un'unità di misura della velocità di trasmissione dati, che indica quanti bit possono essere trasmessi in un secondo.
 
 - **BRB**: Torno Subito
   - Un'abbreviazione comunemente usata in messaggi di testo o chat per indicare un'assenza temporanea.
 
-- **BSD**: Berkeley Software Distribution
+- **BSD**: distribuzione software Berkeley
   - Un sistema operativo derivato da UNIX che ha influenzato molti altri sistemi operativi simili a Unix.
 
-- **BSS**: Basic Service Set
+- **BSS**: insieme di servizi di base
   - Un componente fondamentale di una rete locale wireless (WLAN) che include dispositivi client wireless e un punto di accesso.
 
-- **BSSA**: Base Station Subsystem Application
+- **BSSA**: applicazione del sottosistema della stazione base
   - Nelle reti cellulari, un'applicazione software che gestisce la comunicazione tra dispositivi mobili e la stazione base.
 
-- **BSSID**: Basic Service Set Identifier
+- **BSSID**: identificatore dell’insieme di servizi di base
   - Un identificatore unico usato per distinguere tra più punti di accesso wireless in una singola rete wireless.
 
 - **BYOA**: Porta la Tua App
@@ -191,34 +191,34 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 
 
 ### C
-- **CDN**: Content Delivery Network
+- **CDN**: rete di distribuzione dei contenuti
   - Un sistema di server distribuiti che lavorano insieme per fornire contenuti web, come immagini, video e pagine web, agli utenti in base alla loro posizione geografica, garantendo un accesso più rapido e affidabile.
 
-- **CI/CD**: Continuous Integration/Continuous Deployment
+- **CI/CD**: integrazione continua/distribuzione continua
   - Un insieme di pratiche di sviluppo software che prevedono la costruzione, il test e il deployment automatico delle modifiche al codice in produzione, promuovendo collaborazione e automazione nel processo di sviluppo.
 
-- **CIFS**: Common Internet File System
+- **CIFS**: sistema di file Internet comune
   - Un protocollo di rete che permette la condivisione di file e l'accesso a file e stampanti su una rete, spesso associato alla condivisione file di Windows.
 
-- **CISO**: Chief Information Security Officer
+- **CISO**: responsabile della sicurezza delle informazioni
   - Un dirigente senior responsabile della supervisione e dell'implementazione della strategia e delle politiche di sicurezza informatica di un'organizzazione.
 
-- **CLI**: Command Line Interface
+- **CLI**: interfaccia della riga di comando
   - Un'interfaccia testuale che permette agli utenti di interagire con un programma o sistema operativo digitando comandi.
 
-- **CRM**: Customer Relationship Management
+- **CRM**: gestione delle relazioni con i clienti
   - Una tecnologia e strategia per gestire e analizzare le interazioni e relazioni con i clienti, tipicamente usata dalle aziende per migliorare la soddisfazione del cliente e aumentare le vendite.
 
-- **CRON**: Command Run ON
+- **CRON**: comando eseguito a orari programmati
   - Un pianificatore di attività basato sul tempo nei sistemi operativi Unix-like, usato per automatizzare compiti ripetitivi a intervalli specifici.
 
-- **CSP**: Content Security Policy
+- **CSP**: politica di sicurezza dei contenuti
   - Una funzione di sicurezza implementata dai browser web per mitigare il rischio di attacchi cross-site scripting (XSS) controllando le fonti di contenuti eseguibili su una pagina web.
 
-- **CSS**: Cascading Style Sheets
+- **CSS**: fogli di stile a cascata
   - Un linguaggio di fogli di stile usato per descrivere la presentazione e la formattazione di un documento scritto in HTML, XML o altri linguaggi di markup.
 
-- **CSV**: Comma-Separated Values
+- **CSV**: valori separati da virgole
   - Un formato di file semplice usato per memorizzare dati tabellari, con valori separati da virgole.
 
 - **CaaS**: Container as a Service (container come servizio)
@@ -229,116 +229,116 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 
 {{< figure src="tech-abbreviations-diverse-concepts.webp" alt="Una sezione che mostra abbreviazioni legate alla tecnologia. Una rappresentazione visiva di diversi concetti tecnologici." caption="Navigare nell'alfabeto tecnologico" >}}
 
-- **DBMS**: Database Management System
+- **DBMS**: sistema di gestione dei database
   - Un sistema software usato per gestire, memorizzare, recuperare e proteggere dati in modo strutturato, spesso nel contesto di database relazionali.
 
-- **DDoS**: Distributed Denial of Service
+- **DDoS**: attacco distribuito di negazione del servizio
   - Un tipo di attacco informatico in cui più computer compromessi vengono usati per inondare un sistema o rete bersaglio con traffico, causando sovraccarico e indisponibilità.
 
-- **DHCP**: Dynamic Host Configuration Protocol
+- **DHCP**: protocollo di configurazione dinamica dell’host
   - Un protocollo di rete che automatizza l'assegnazione di indirizzi IP e altre impostazioni di configurazione ai dispositivi su una rete.
 
-- **DLP**: Data Loss Prevention
+- **DLP**: prevenzione della perdita di dati
   - Un insieme di strategie, strumenti e politiche progettate per prevenire accessi o distribuzioni non autorizzate di dati sensibili all'interno di un'organizzazione.
 
-- **DMZ**: Demilitarized Zone
+- **DMZ**: zona demilitarizzata
   - Un'architettura di rete che crea una zona neutrale tra una rete interna affidabile e una rete esterna non affidabile, spesso usata per aumentare la sicurezza.
 
-- **DNS**: Domain Name System
+- **DNS**: sistema dei nomi di dominio
   - Un sistema che traduce nomi di dominio leggibili dall'uomo in indirizzi IP, permettendo agli utenti di accedere a siti web e altre risorse tramite nomi.
 
-- **DOS**: Denial of Service
+- **DOS**: negazione del servizio
   - Un attacco informatico in cui un sistema o rete bersaglio viene sovraccaricato da traffico eccessivo o attività dannose, rendendolo non disponibile agli utenti.
 
-- **DOS**: Disk Operating System
+- **DOS**: sistema operativo su disco
   - Un sistema operativo per computer precoce che gestisce l'archiviazione e il recupero dei dati sui dischi del computer.
 
-- **DRAM**: Dynamic Random Access Memory
+- **DRAM**: memoria dinamica ad accesso casuale
   - Un tipo di memoria volatile per computer comunemente usata come memoria principale nei computer e in altri dispositivi elettronici.
 
-- **DaaS**: Data as a Service (dati come servizio)
+- **DaaS**: Dati come servizio (Data as a Service)
   - Un servizio di cloud computing che fornisce accesso ai dati su richiesta, permettendo alle organizzazioni di archiviare, accedere e gestire i dati in modo scalabile ed economico.
 
-- **DaaS**: Desktop as a Service (desktop come servizio)
+- **DaaS**: Desktop come servizio (Desktop as a Service)
   - Un servizio di virtualizzazione desktop basato su cloud che consente agli utenti di accedere e utilizzare desktop virtuali ospitati su un server remoto o data center.
 
 
 ### E
-- **EAI**: Enterprise Application Integration
+- **EAI**: integrazione delle applicazioni aziendali
   - Il processo di integrazione di varie applicazioni software e sistemi all'interno di un'impresa per permettere loro di lavorare insieme senza problemi.
 
-- **ECC**: Error-Correcting Code
+- **ECC**: codice a correzione d’errore
   - Un tipo di codice usato nella memoria del computer e nell'archiviazione dati per rilevare e correggere errori nei dati.
 
-- **ECS**: Elastic Container Service
+- **ECS**: servizio elastico per container
   - Un servizio fornito da piattaforme di cloud computing come AWS che semplifica il deployment e la gestione dei container.
 
-- **EEPROM**: Electrically Erasable Programmable Read-Only Memory
+- **EEPROM**: memoria di sola lettura programmabile e cancellabile elettricamente
   - Un tipo di memoria non volatile che può essere cancellata elettronicamente e riprogrammata, comunemente usata per memorizzare firmware e dati di configurazione.
 
-- **EHR**: Electronic Health Record
+- **EHR**: cartella clinica elettronica
   - Una registrazione digitale della salute e della storia medica di un paziente che può essere condivisa e accessibile da professionisti sanitari autorizzati.
 
-- **EIP**: Elastic IP
+- **EIP**: indirizzo IP elastico
   - Una funzionalità nelle piattaforme di cloud computing che permette agli utenti di allocare un indirizzo IP pubblico statico alle loro istanze virtuali o servizi, rendendoli accessibili da internet.
 
-- **ELB**: Elastic Load Balancer
+- **ELB**: bilanciatore del carico elastico
   - Un servizio che distribuisce il traffico di rete in ingresso su più server o risorse per migliorare la disponibilità e la tolleranza ai guasti.
 
-- **EMAC**: Ethernet Media Access Control
+- **EMAC**: controllo dell’accesso ai supporti Ethernet
   - Un sottolivello del livello di collegamento dati che controlla l'accesso al mezzo fisico nelle reti Ethernet.
 
-- **EOF**: End of File
+- **EOF**: fine del file
   - Un marcatore che indica la fine di un file o di un flusso di dati, spesso usato dai programmi per computer per riconoscere la terminazione dei dati.
 
-- **EOL**: End of Life
+- **EOL**: fine del ciclo di vita
   - Un termine usato per indicare la fine del supporto, della manutenzione o della produzione di un prodotto o software.
 
-- **ESD**: Electrostatic Discharge
+- **ESD**: scarica elettrostatica
   - Il flusso improvviso di elettricità tra due oggetti elettricamente carichi, spesso causato da attrito, e un potenziale rischio per i componenti elettronici.
 
-- **ETL**: Extract, Transform, Load
+- **ETL**: estrazione, trasformazione e caricamento
   - Un processo di integrazione dati in cui i dati vengono estratti dai sistemi sorgente, trasformati in un formato adatto e caricati in un database di destinazione o data warehouse per l'analisi.
 
-- **EULA**: End-User License Agreement
+- **EULA**: contratto di licenza per l’utente finale
   - Un contratto legale tra il fornitore del software e l'utente che definisce i termini e le condizioni per l'uso del software.
 
-- **EXE**: Executable File
+- **EXE**: file eseguibile
   - Un formato di file usato nei sistemi operativi Windows per memorizzare ed eseguire programmi o applicazioni.
 
 
 ### F
-- **FAQ**: Frequently Asked Questions
+- **FAQ**: domande frequenti
   - Una raccolta di domande comuni e relative risposte su un argomento o prodotto specifico.
 
-- **FAT**: File Allocation Table
+- **FAT**: tabella di allocazione dei file
   - Una struttura del file system usata per gestire e allocare lo spazio di archiviazione su dispositivi di memorizzazione, come hard disk.
 
-- **FDDI**: Fiber Distributed Data Interface
+- **FDDI**: interfaccia di distribuzione dati in fibra
   - Una tecnologia di rete locale (LAN) ad alta velocità che utilizza fibra ottica per la trasmissione dei dati.
 
-- **FIFO**: First In, First Out
+- **FIFO**: primo a entrare, primo a uscire
   - Una struttura dati e algoritmo di scheduling che processa per primi gli elementi o le richieste più vecchie.
 
-- **FLOSS**: Free Libre Open Source Software
+- **FLOSS**: software libero e open source
   - Si riferisce a software liberamente disponibile, open source, che permette agli utenti di visualizzare, modificare e distribuire il codice sorgente.
 
-- **FPGA**: Field-Programmable Gate Array
+- **FPGA**: matrice di porte programmabile sul campo
   - Un circuito integrato che può essere configurato per eseguire compiti o funzioni specifiche dopo la produzione.
 
-- **FQDN**: Fully Qualified Domain Name
+- **FQDN**: nome di dominio completo
   - Un nome di dominio completo e specifico che include sia l'host che il dominio nella gerarchia DNS.
 
-- **FQDN**: Fully Qualified Domain Name
+- **FQDN**: nome di dominio completo
   - Un nome di dominio completo e specifico che include sia l'host che il dominio nella gerarchia DNS.
 
-- **FQDN**: Fully Qualified Domain Name
+- **FQDN**: nome di dominio completo
   - Un nome di dominio completo e specifico che include sia l'host che il dominio nella gerarchia DNS.
 
-- **FSM**: Finite State Machine
+- **FSM**: macchina a stati finiti
   - Un modello matematico usato per progettare e analizzare sistemi con un numero finito di stati, transizioni e input.
 
-- **FTP**: File Transfer Protocol
+- **FTP**: protocollo di trasferimento file
   - Un protocollo di rete usato per trasferire file tra un client e un server su una rete di computer.
 
 - **FaaS**: Function as a Service (funzione come servizio)
@@ -358,22 +358,22 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **GB**: Gigabyte
   - Un'unità di misura dell'informazione digitale che rappresenta 1.073.741.824 byte, spesso usata per misurare la dimensione di file o dati.
 
-- **GIF**: Graphics Interchange Format
+- **GIF**: formato di interscambio grafico
   - Un formato di file immagine ampiamente usato che supporta immagini statiche e animate con una palette di colori limitata.
 
-- **GIS**: Geographic Information System
+- **GIS**: sistema informativo geografico
   - Un sistema che combina dati geografici con vari strati di informazioni per analizzare, visualizzare e comprendere relazioni e modelli spaziali.
 
-- **GMT**: Greenwich Mean Time
+- **GMT**: ora di Greenwich
   - Uno standard temporale usato come riferimento per la misurazione del tempo ed è spesso associato all'ora del Meridiano di Greenwich (0 gradi di longitudine).
 
-- **GNU**: GNU's Not Unix
+- **GNU**: GNU non è Unix
   - Un acronimo ricorsivo usato per descrivere il Progetto GNU, che è un progetto di software libero e sistema operativo.
 
-- **GPG**: GNU Privacy Guard
+- **GPG**: protezione della privacy GNU
   - Un'implementazione libera e open source dello standard di crittografia OpenPGP usata per la sicurezza delle comunicazioni e dei dati.
 
-- **GPIO**: General Purpose Input/Output
+- **GPIO**: ingresso e uscita per uso generale
   - Un insieme di pin su un microcontrollore o computer a scheda singola che possono essere configurati come ingressi o uscite digitali per vari compiti.
 
 - **GPL**: Licenza Pubblica Generale
@@ -490,34 +490,34 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **JDK**: Kit di Sviluppo Java
   - Un insieme di strumenti software per sviluppare applicazioni Java, inclusi compilatore, debugger e ambiente di runtime.
 
-- **JIT**: Just-In-Time
+- **JIT**: al momento dell’esecuzione
   - Una tecnica di compilazione usata nelle macchine virtuali che compila ed esegue codice a runtime, spesso usata per migliorare le prestazioni di linguaggi interpretati.
 
 - **JMS**: Servizio di Messaggistica Java
   - Un'API Java per la messaggistica tra applicazioni, che consente la comunicazione tramite sistemi di messaggistica.
 
-- **JNI**: Java Native Interface
+- **JNI**: interfaccia nativa Java
   - Un framework di programmazione che consente al codice Java di interagire con codice scritto in altri linguaggi di programmazione, come C e C++.
 
-- **JPEG**: Joint Photographic Experts Group
+- **JPEG**: gruppo congiunto di esperti fotografici
   - Un formato di file immagine comunemente usato, progettato per la compressione di immagini fotografiche.
 
-- **JRE**: Java Runtime Environment
+- **JRE**: ambiente di esecuzione Java
   - Un pacchetto software che fornisce l'ambiente di runtime necessario per eseguire applicazioni e applet Java.
 
 - **JS**: JavaScript
   - Un linguaggio di scripting ampiamente utilizzato per lo sviluppo web che abilita l'interattività e contenuti dinamici nelle pagine web.
 
-- **JSON**: JavaScript Object Notation
+- **JSON**: notazione degli oggetti JavaScript
   - Un formato leggero di scambio dati, facile da leggere e scrivere per gli esseri umani e semplice da analizzare e generare per le macchine.
 
-- **JSP**: JavaServer Pages
+- **JSP**: pagine server Java
   - Una tecnologia per creare contenuti web dinamici usando Java, simile a PHP o ASP.
 
-- **JVM**: Java Virtual Machine
+- **JVM**: macchina virtuale Java
   - Una macchina virtuale che permette alle applicazioni Java di girare su varie piattaforme hardware e software.
 
-- **JWT**: JSON Web Token
+- **JWT**: token web JSON
   - Un mezzo compatto e autonomo per trasmettere informazioni in modo sicuro tra le parti come oggetto JSON, spesso usato per autenticazione e autorizzazione.
 
 
@@ -528,64 +528,64 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **KB**: Kilobyte
   - Un'unità di memorizzazione digitale che rappresenta 1.024 byte.
 
-- **KDE**: K Desktop Environment
+- **KDE**: ambiente desktop K
   - Un ambiente desktop per sistemi operativi Unix-like, che fornisce un'interfaccia grafica e una serie di applicazioni.
 
-- **KISS**: Keep It Simple, Stupid
+- **KISS**: mantienilo semplice, sciocco
   - Un principio di progettazione che enfatizza la semplicità e l'evitamento di complessità non necessarie.
 
-- **KLOC**: Kilo Lines of Code
+- **KLOC**: mille righe di codice
   - Una misura della complessità del software, che indica il numero di migliaia di linee di codice in un programma.
 
-- **KPI**: Key Performance Indicator
+- **KPI**: indicatore chiave di prestazione
   - Un valore misurabile usato per valutare la performance e l'efficacia di un'organizzazione o di una specifica attività.
 
-- **KPI**: Key Performance Indicator
+- **KPI**: indicatore chiave di prestazione
   - Un valore misurabile usato per valutare la performance e l'efficacia di un'organizzazione o di una specifica attività.
 
-- **KVM**: Kernel-based Virtual Machine
+- **KVM**: macchina virtuale basata sul kernel
   - Un'infrastruttura di virtualizzazione per il kernel Linux che consente la creazione e gestione di macchine virtuali.
 
 - **Kb**: Kilobit
   - Un'unità di informazione digitale che rappresenta 1.000 bit.
 
-- **KbE**: Kilobits per second
+- **KbE**: kilobit al secondo
   - Un'unità di velocità di trasferimento dati, che indica 1.000 bit trasmessi in un secondo.
 
 - **Kbps**: Kilobits per second
   - Un'unità di velocità di trasferimento dati, che rappresenta 1.000 bit trasmessi in un secondo.
 
 ### L
-- **LAN**: Local Area Network
+- **LAN**: rete locale
   - Una rete che copre una piccola area geografica, tipicamente all'interno di un singolo edificio o campus.
 
-- **LCD**: Liquid Crystal Display
+- **LCD**: display a cristalli liquidi
   - Una tecnologia di display a pannello piatto comunemente usata in monitor per computer, TV e dispositivi mobili.
 
-- **LDAP**: Lightweight Directory Access Protocol
+- **LDAP**: protocollo leggero di accesso alle directory
   - Un protocollo usato per accedere e gestire informazioni di directory, spesso impiegato per autenticazione e servizi di directory.
 
-- **LED**: Light Emitting Diode
+- **LED**: diodo a emissione luminosa
   - Un dispositivo a semiconduttore che emette luce quando una corrente elettrica lo attraversa, comunemente usato in display, indicatori e illuminazione.
 
 
 ### M
-- **MAC**: Media Access Control
+- **MAC**: controllo di accesso ai supporti
   - Un indirizzo hardware che identifica univocamente i dispositivi di rete su una rete locale.
 
-- **MD5**: Message Digest Algorithm 5
+- **MD5**: algoritmo di digest del messaggio 5
   - Una funzione hash crittografica ampiamente usata che produce un valore hash a 128 bit, spesso usata per verificare l'integrità dei dati.
 
-- **MFA**: Multi-Factor Authentication
+- **MFA**: autenticazione a più fattori
   - Un processo di sicurezza che richiede agli utenti di fornire due o più fattori di autenticazione per accedere a un account o sistema, aumentando la sicurezza.
 
-- **MIME**: Multipurpose Internet Mail Extensions
+- **MIME**: estensioni della posta elettronica per più tipi di contenuto
   - Uno standard che estende il formato delle email per supportare testi in set di caratteri diversi da ASCII, oltre ad allegati come immagini e audio.
 
-- **MSI**: Microsoft Installer
+- **MSI**: programma di installazione Microsoft
   - Un formato di file e componente software usato per l'installazione, manutenzione e rimozione di software su sistemi operativi Windows.
 
-- **MTU**: Maximum Transmission Unit
+- **MTU**: unità massima di trasmissione
   - La dimensione massima di pacchetto o frame che può essere trasmessa su una rete senza frammentazione.
 
 - **Mbps**: Megabits per second
@@ -595,90 +595,90 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 
 {{< figure src="tech-concepts-diverse-terms.webp" alt="Sezioni che presentano termini legati alla tecnologia. Una rappresentazione visiva di diversi concetti tecnologici." caption="Dallo storage di rete al calcolo quantistico: tecnologia dalla A alla Z." >}}
 
-- **NAS**: Network-Attached Storage
+- **NAS**: archiviazione collegata alla rete
   - Un dispositivo di memorizzazione dati a livello di file che fornisce accesso ai dati a un gruppo eterogeneo di client tramite una rete.
 
-- **NAT**: Network Address Translation
+- **NAT**: traduzione degli indirizzi di rete
   - Una tecnica usata per modificare le informazioni degli indirizzi di rete negli header dei pacchetti durante il transito, spesso usata per conservare indirizzi IP.
 
-- **NIC**: Network Interface Card
+- **NIC**: scheda di interfaccia di rete
   - Un componente hardware che connette un computer o dispositivo a una rete e fornisce capacità di comunicazione di rete.
 
-- **NTP**: Network Time Protocol
+- **NTP**: protocollo temporale di rete
   - Un protocollo di rete usato per sincronizzare l'orario dei sistemi informatici su reti a commutazione di pacchetto con latenza variabile.
 
-- **NVR**: Network Video Recorder
+- **NVR**: registratore video di rete
   - Un dispositivo o software usato per registrare e memorizzare filmati video da telecamere di sicurezza.
 
-- **NVRAM**: Non-Volatile Random Access Memory
+- **NVRAM**: memoria ad accesso casuale non volatile
   - Un tipo di memoria del computer che conserva i dati anche quando l'alimentazione è spenta.
 
 ### O
-- **OCR**: Optical Character Recognition
+- **OCR**: riconoscimento ottico dei caratteri
   - La tecnologia che converte testo stampato o scritto a mano in testo codificato dalla macchina, spesso usata per la scansione e digitalizzazione di documenti.
 
-- **ODBC**: Open Database Connectivity
+- **ODBC**: connettività aperta ai database
   - Un'interfaccia standard per connettersi a database relazionali, permettendo al software di interagire con vari sistemi di database.
 
-- **OEM**: Original Equipment Manufacturer
+- **OEM**: produttore di apparecchiature originali
   - Un'azienda che produce prodotti o componenti usati nei prodotti di un'altra azienda e poi rebrandizzati come prodotti della seconda azienda.
 
-- **ORM**: Object-Relational Mapping
+- **ORM**: mappatura oggetto-relazionale
   - Una tecnica di programmazione che mappa oggetti di un'applicazione a tabelle di database, permettendo agli sviluppatori di lavorare con database usando codice orientato agli oggetti.
 
-- **ORM**: Object-Relational Mapping
+- **ORM**: mappatura oggetto-relazionale
   - Una tecnica di programmazione che mappa oggetti di un'applicazione a tabelle di database, permettendo agli sviluppatori di lavorare con database usando codice orientato agli oggetti.
 
-- **OS**: Operating System
+- **OS**: sistema operativo
   - Software di sistema che gestisce risorse hardware e software, fornisce servizi per programmi e permette agli utenti di interagire con il computer.
 
-- **OSI**: Open Systems Interconnection
+- **OSI**: interconnessione di sistemi aperti
   - Un quadro concettuale che standardizza le funzioni di un sistema di telecomunicazioni o informatico in sette livelli distinti.
 
-- **OSPF**: Open Shortest Path First
+- **OSPF**: prima il percorso aperto più breve
   - Un protocollo di routing utilizzato per un instradamento efficiente e scalabile nelle reti IP, particolarmente all'interno di sistemi autonomi.
 
-- **OSS**: Open Source Software
+- **OSS**: software open source
   - Software rilasciato con una licenza che permette a chiunque di visualizzare, usare, modificare e distribuire il codice sorgente.
 
-- **OTP**: One-Time Password
+- **OTP**: password monouso
   - Una password valida per una sola sessione di accesso o transazione, spesso usata per una maggiore sicurezza.
 
-- **OTP**: One-Time Password o One-Time Pad
+- **OTP**: password monouso o cifrario monouso
   - Una tecnica crittografica che genera una password unica e monouso per comunicazioni sicure.
 
 ### P
-- **P2P**: Peer-to-Peer
+- **P2P**: tra pari
   - Un'architettura di rete in cui i dispositivi comunicano direttamente tra loro, spesso usata per la condivisione di file e il calcolo distribuito.
 
-- **PC**: Personal Computer
+- **PC**: computer personale
   - Un computer a uso generale progettato per l'uso individuale, spesso con sistemi operativi desktop.
 
-- **PDF**: Portable Document Format
+- **PDF**: formato di documento portatile
   - Un formato di file usato per presentare e scambiare documenti indipendentemente da software, hardware e sistemi operativi.
 
-- **PHP**: Hypertext Preprocessor
+- **PHP**: preprocessore ipertestuale
   - Un linguaggio di scripting popolare usato per lo sviluppo web per creare pagine e applicazioni web dinamiche.
 
-- **PKI**: Public Key Infrastructure
+- **PKI**: infrastruttura a chiave pubblica
   - Un framework che fornisce comunicazioni sicure e autenticazione usando chiavi pubbliche e private, spesso usato per crittografia e firme digitali.
 
-- **POP**: Post Office Protocol
+- **POP**: protocollo dell’ufficio postale
   - Un protocollo standard per email usato per recuperare messaggi da un server di posta a un client locale.
 
-- **POP3**: Post Office Protocol, versione 3
+- **POP3**: Protocollo di accesso alla posta, versione 3
   - Un protocollo email usato per ricevere e gestire messaggi di posta su un server.
 
-- **POS**: Point of Sale
+- **POS**: punto vendita
   - Il luogo e il sistema dove un cliente effettua il pagamento per prodotti o servizi.
 
-- **POST**: Power-On Self-Test
+- **POST**: autotest all’accensione
   - Un processo diagnostico che i componenti hardware di un computer eseguono all'accensione.
 
-- **PPP**: Point-to-Point Protocol
+- **PPP**: protocollo punto-punto
   - Un protocollo del livello di collegamento dati usato per stabilire una connessione diretta tra due nodi in una rete.
 
-- **PSU**: Power Supply Unit
+- **PSU**: unità di alimentazione
   - Un dispositivo che converte l'elettricità da una fonte esterna nella tensione e corrente necessarie per alimentare un computer o altri dispositivi elettronici.
 
 - **PaaS**: Platform as a Service (piattaforma come servizio)
@@ -689,96 +689,96 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 {{< figure src="tech-concepts-diverse-terms2.webp" alt="Sezioni che presentano termini legati alla tecnologia. Una rappresentazione visiva di diversi concetti tecnologici." caption="Gergo tecnologico dalla A alla Z." >}}
 
 
-- **QA**: Quality Assurance
+- **QA**: garanzia della qualità
   - Il processo di assicurare la qualità e l'affidabilità di prodotti o servizi tramite test e revisione.
 
-- **QEMU**: Quick Emulator
+- **QEMU**: emulatore rapido
   - Un software open source di virtualizzazione ed emulazione che permette di eseguire sistemi operativi su varie piattaforme host.
 
-- **QLC**: Quad-Level Cell
+- **QLC**: cella a quattro livelli
   - Un tipo di memoria flash NAND che memorizza quattro bit di dati per cella di memoria, adatta per archiviazione ad alta capacità.
 
-- **QPS**: Queries Per Second
+- **QPS**: interrogazioni al secondo
   - Una metrica usata per misurare il numero di query o transazioni di database che un sistema può gestire in un secondo.
 
-- **QPSK**: Quadrature Phase Shift Keying
+- **QPSK**: modulazione a spostamento di fase in quadratura
   - Uno schema di modulazione usato nelle comunicazioni digitali per trasmettere dati variando la fase di due onde portanti.
 
-- **QR Code**: Quick Response Code
+- **QR Code**: codice di risposta rapida
   - Un codice a barre bidimensionale che può memorizzare varie informazioni, spesso usato per un rapido recupero dati con dispositivi mobili.
 
-- **QWERTY**: Standard Keyboard Layout
+- **QWERTY**: disposizione standard della tastiera
   - La disposizione di tastiera più comunemente usata, caratterizzata dall'ordine delle lettere nella fila superiore.
 
-- **QoS**: Quality of Service
+- **QoS**: qualità del servizio
   - Un insieme di tecnologie e meccanismi che garantiscono prestazioni di rete affidabili e prevedibili per applicazioni o servizi specifici.
 
-- **Qubit**: Quantum Bit
+- **Qubit**: bit quantistico
   - L'unità fondamentale dell'informazione quantistica nel calcolo quantistico, analoga al bit classico nel calcolo tradizionale ma con proprietà quantistiche uniche.
 
 ### S
-- **SAML**: Security Assertion Markup Language
+- **SAML**: linguaggio di marcatura delle asserzioni di sicurezza
   - Un framework basato su XML per lo scambio di dati di autenticazione e autorizzazione tra parti, spesso usato nei sistemi single sign-on (SSO).
 
-- **SAN**: Storage Area Network
+- **SAN**: rete di archiviazione
   - Una rete specializzata ad alta velocità che collega dispositivi di archiviazione dati rendendoli accessibili ai server.
 
-- **SBC**: Session Border Controller
+- **SBC**: controller del confine di sessione
   - Un dispositivo di rete che controlla le sessioni di comunicazione in tempo reale, fornendo sicurezza e gestione per comunicazioni VoIP e video.
 
-- **SDK**: Software Development Kit
+- **SDK**: kit di sviluppo software
   - Un insieme di strumenti, librerie e documentazione per costruire applicazioni software per una piattaforma o framework specifico.
 
-- **SIEM**: Security Information and Event Management
+- **SIEM**: gestione delle informazioni e degli eventi di sicurezza
   - Una soluzione che combina la gestione delle informazioni di sicurezza (SIM) e la gestione degli eventi di sicurezza (SEM) per fornire analisi in tempo reale di allarmi e eventi di sicurezza.
 
-- **SIM**: Subscriber Identity Module
+- **SIM**: modulo di identità dell’abbonato
   - Una piccola scheda che memorizza in modo sicuro informazioni usate per identificare e autenticare gli utenti di dispositivi mobili.
 
-- **SMB**: Server Message Block
+- **SMB**: blocco di messaggi del server
   - Un protocollo di condivisione file di rete usato per condividere file, stampanti e altre risorse in una rete locale.
 
-- **SMTP**: Simple Mail Transfer Protocol
+- **SMTP**: protocollo semplice di trasferimento della posta
   - Un protocollo usato per inviare e ricevere messaggi email su internet.
 
-- **SNMP**: Simple Network Management Protocol
+- **SNMP**: protocollo semplice di gestione della rete
   - Un protocollo usato per gestire e monitorare dispositivi di rete, come router, switch e server.
 
-- **SOA**: Service-Oriented Architecture
+- **SOA**: architettura orientata ai servizi
   - Un approccio progettuale che struttura il software come un insieme di servizi riutilizzabili e debolmente accoppiati.
 
-- **SPOF**: Single Point of Failure
+- **SPOF**: singolo punto di guasto
   - Un componente o sistema che, se fallisce, può causare il fallimento dell'intero sistema.
 
-- **SQL**: Structured Query Language
+- **SQL**: linguaggio di interrogazione strutturato
   - Un linguaggio specifico per la gestione e interrogazione di database relazionali.
 
-- **SSD**: Solid State Drive
+- **SSD**: unità a stato solido
   - Un dispositivo di archiviazione dati che usa memoria flash NAND per memorizzare dati, offrendo accesso più veloce rispetto ai tradizionali hard disk.
 
-- **SSH**: Secure Shell
+- **SSH**: shell sicura
   - Un protocollo di rete crittografico usato per accesso remoto sicuro ed esecuzione di comandi su dispositivi di rete.
 
-- **SSL**: Secure Sockets Layer
+- **SSL**: livello dei socket sicuro
   - Un protocollo di sicurezza obsoleto per stabilire collegamenti criptati tra un server web e un browser, sostituito da TLS.
 
-- **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
+- **SSL/TLS**: livello dei socket sicuro/sicurezza del livello di trasporto
   - Protocolli usati per proteggere la comunicazione internet criptando i dati trasmessi tra un server web e il browser del client.
 
 - **SaaS**: Software as a Service (software come servizio)
   - Un modello di servizio cloud che fornisce applicazioni software via internet su base di abbonamento.
 
 ### T
-- **TCP**: Transmission Control Protocol
+- **TCP**: protocollo di controllo della trasmissione
   - Un protocollo di rete orientato alla connessione che garantisce la trasmissione affidabile dei dati tra dispositivi in una rete.
 
-- **TCP/IP**: Transmission Control Protocol/Internet Protocol
+- **TCP/IP**: protocollo di controllo della trasmissione/protocollo Internet
   - La suite di protocolli che sostiene internet e la maggior parte delle reti, responsabile della trasmissione dei dati e dell'indirizzamento.
 
-- **TLS**: Transport Layer Security
+- **TLS**: sicurezza del livello di trasporto
   - Un protocollo crittografico che fornisce una trasmissione sicura dei dati su una rete, spesso usato per proteggere la comunicazione web (sostituisce SSL).
 
-- **TTL**: Time to Live
+- **TTL**: durata
   - Un valore nei pacchetti dati che indica il tempo massimo di esistenza del pacchetto in una rete prima che venga scartato.
 
 ### U
@@ -786,68 +786,68 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 {{< figure src="network-server-room.webp" alt="Una sala server di rete con file di server." caption="Sbloccare il mondo della tecnologia: una guida alle abbreviazioni tecnologiche" >}}
 
 
-- **UAT**: User Acceptance Testing
+- **UAT**: test di accettazione dell’utente
   - Una fase nello sviluppo software in cui gli utenti finali testano il sistema per assicurarsi che soddisfi i requisiti e funzioni correttamente.
 
-- **UDP**: User Datagram Protocol
+- **UDP**: protocollo dei datagrammi utente
   - Un protocollo di rete senza connessione che consegna dati senza garantire il loro arrivo o ordine.
 
-- **UI**: User Interface
+- **UI**: interfaccia utente
   - Il mezzo con cui un utente interagisce e controlla un'applicazione software o un dispositivo hardware.
 
-- **USB**: Universal Serial Bus
+- **USB**: bus seriale universale
   - Uno standard di interfaccia ampiamente usato per collegare e comunicare tra computer e periferiche.
 
-- **UUID**: Universally Unique Identifier
+- **UUID**: identificatore univoco universale
   - Un valore a 128 bit usato per identificare univocamente informazioni o entità nei sistemi informatici, spesso usato in database e applicazioni software.
 
 
 ### V
-- **VGA**: Video Graphics Array
+- **VGA**: matrice grafica video
   - Uno standard di visualizzazione grafica diffuso nei primi computer e monitor.
 
-- **VLAN**: Virtual Local Area Network
+- **VLAN**: rete locale virtuale
   - Una rete segmentata logicamente che raggruppa dispositivi basandosi su criteri specifici, indipendentemente dalla loro posizione fisica.
 
-- **VPC**: Virtual Private Cloud
+- **VPC**: cloud privato virtuale
   - Una rete virtuale dedicata a una singola organizzazione all'interno di un ambiente di cloud computing, che offre risorse private.
 
-- **VPN**: Virtual Private Network
+- **VPN**: rete privata virtuale
   - Una tecnologia di rete che stabilisce una connessione sicura e criptata su internet, permettendo agli utenti di accedere a risorse remote come se fossero in una rete locale.
 
-- **VPS**: Virtual Private Server
+- **VPS**: server privato virtuale
   - Un'istanza di server virtualizzato all'interno di un server fisico, che fornisce risorse dedicate all'utente.
 
-- **VRAM**: Video Random Access Memory
+- **VRAM**: memoria video ad accesso casuale
   - Un tipo di memoria usata nelle unità di elaborazione grafica (GPU) per memorizzare dati di immagini e video.
 
-- **VoIP**: Voice over Internet Protocol
+- **VoIP**: voce tramite protocollo Internet
   - Tecnologia che consente comunicazioni vocali e multimediali su internet, spesso usata per chiamate vocali e video.
 
 ### W
-- **WAN**: Wide Area Network
+- **WAN**: rete geografica
   - Una rete che copre un'ampia area geografica, collegando più reti locali (LAN) su lunghe distanze.
 
-- **WEP**: Wired Equivalent Privacy
+- **WEP**: riservatezza equivalente alla rete cablata
   - Un protocollo di crittografia per reti wireless più vecchio e meno sicuro.
 
-- **WLAN**: Wireless Local Area Network
+- **WLAN**: rete locale senza fili
   - Una rete locale che utilizza comunicazioni wireless per collegare dispositivi in un'area geografica limitata.
 
-- **WPA**: Wi-Fi Protected Access
+- **WPA**: accesso protetto Wi-Fi
   - Un insieme di protocolli di sicurezza progettati per proteggere le reti wireless, sostituendo WEP.
 
-- **WWW**: World Wide Web
+- **WWW**: rete mondiale
   - Un sistema globale di documenti e risorse interconnessi accessibili tramite internet.
 
 ### X
-- **XML**: Extensible Markup Language
+- **XML**: linguaggio di marcatura estensibile
   - Un linguaggio di markup basato su testo usato per memorizzare e trasportare dati strutturati.
 
-- **XSLT**: Extensible Stylesheet Language Transformations
+- **XSLT**: trasformazioni del linguaggio dei fogli di stile estensibili
   - Un linguaggio per trasformare documenti XML in vari formati, come HTML o testo semplice.
 
-- **XSS**: Cross-Site Scripting
+- **XSS**: scripting tra siti
   - Un tipo di vulnerabilità di sicurezza che permette agli attaccanti di inserire script dannosi in pagine web visualizzate da altri utenti.
 
 - **XaaS**: Anything as a Service (qualsiasi cosa come servizio)
@@ -857,7 +857,7 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
 - **YAGNI**: You Aren't Gonna Need It (non ti servirà)
   - Un principio di sviluppo software che incoraggia la semplicità e l'evitare l'inclusione di funzionalità non necessarie fino a quando non sono effettivamente richieste.
 
-- **YAML**: YAML Ain't Markup Language
+- **YAML**: YAML non è un linguaggio di marcatura
   - Un formato di serializzazione dati leggibile dall'uomo usato per file di configurazione e scambio dati.
 
 - **YMMV**: Your Mileage May Vary (il tuo risultato può variare)
@@ -867,16 +867,16 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
   - Una frase colloquiale che enfatizza il vivere la vita al massimo e prendere rischi.
 
 ### Z
-- **ZAP**: Zed Attack Proxy
+- **ZAP**: proxy di attacco Zed
   - Uno strumento open source per il test della sicurezza delle applicazioni web progettato per aiutare a trovare vulnerabilità di sicurezza nelle applicazioni web.
 
-- **ZFS**: Zettabyte File System
+- **ZFS**: file system Zettabyte
   - Un file system e gestore di volumi logici progettato per gestire grandi quantità di dati e fornire integrità e protezione dei dati.
 
-- **ZIP**: Zone Improvement Plan
+- **ZIP**: piano di miglioramento delle zone
   - Un sistema di codici postali usato negli Stati Uniti per migliorare la consegna della posta.
 
-- **ZPL**: ZFS POSIX-compliant Layer
+- **ZPL**: livello compatibile con POSIX per ZFS
   - Un livello nel file system ZFS che fornisce compatibilità con lo standard POSIX per le operazioni sui file.
 
 

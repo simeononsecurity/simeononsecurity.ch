@@ -1,6 +1,7 @@
 ---
 title: "Słownik Żargonu Technicznego: Przewodnik dla Początkujących po Skrótach IT i Cyberbezpieczeństwa"
 date: 2023-12-23
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: Odkryj świat IT dzięki temu przewodnikowi dla początkujących po skrótach technologicznych, ułatwiającemu naukę wszystkim entuzjastom technologii.
@@ -49,7 +50,6 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Uproszczony i przyjazny robot z entuzjazmem wyjaśniający skróty technologiczne początkującemu.
 coverCaption: Demistyfikacja Żargonu Technicznego dla Początkujących
-lastmod: 2026-11-14
 ---
 
 ## Wprowadzenie
@@ -66,7 +66,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **ACL**: Lista Kontroli Dostępu
   - Lista reguł lub uprawnień określająca, którzy użytkownicy lub procesy systemowe mają dostęp do obiektów, funkcji lub zasobów w systemie komputerowym.
 
-- **AD**: Active Directory
+- **AD**: katalogowa usługa Active Directory
   - Usługa katalogowa opracowana przez Microsoft dla sieci domen Windows. Przechowuje informacje o obiektach w sieci i udostępnia je użytkownikom oraz administratorom sieci.
 
 - **ADSL**: Asymetryczna Linia Abonencka Cyfrowa
@@ -105,10 +105,10 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **AV**: Antywirus
   - Oprogramowanie zaprojektowane do wykrywania, zapobiegania i usuwania złośliwego oprogramowania (wirusów, malware itp.) z komputera lub sieci.
 
-- **AWS CLI**: Interfejs Wiersza Poleceń Amazon Web Services
+- **AWS CLI**: interfejs wiersza poleceń Amazon Web Services (Amazon Web Services Command Line Interface)
   - Narzędzie wiersza poleceń dostarczone przez Amazon Web Services (AWS), które pozwala użytkownikom na interakcję z usługami AWS i zarządzanie zasobami za pomocą linii poleceń.
 
-- **AWS**: Amazon Web Services
+- **AWS**: usługi internetowe Amazon
   - Platforma chmurowa oferowana przez Amazon, zapewniająca wiele usług chmurowych, w tym moc obliczeniową, przechowywanie, bazy danych, uczenie maszynowe i inne. AWS jest szeroko stosowany do budowy i hostowania aplikacji oraz usług w chmurze.
 
 
@@ -120,70 +120,70 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **B2C**: Biznes dla Konsumenta
   - Oznacza interakcje lub handel między firmą a indywidualnymi konsumentami.
 
-- **BAE**: Before Anyone Else
+- **BAE**: ważniejszy niż wszyscy inni
   - Termin używany powszechnie w mediach społecznościowych i wiadomościach tekstowych, wyrażający uczucie do kogoś lub czegoś, co jest najwyższym priorytetem.
 
-- **BAU**: Business As Usual
+- **BAU**: normalny tryb działania
   - Oznacza normalne lub rutynowe funkcjonowanie firmy lub organizacji.
 
 - **BBQ**: Barbecue
   - Metoda gotowania jedzenia, często na zewnątrz, przy użyciu grilla lub wędzarni.
 
-- **BCC**: Blind Carbon Copy
+- **BCC**: ukryta kopia wiadomości
   - Funkcja e-mail, która pozwala wysłać kopię wiadomości do odbiorców, bez wiedzy innych uczestników wątku.
 
-- **BFD**: Bidirectional Forwarding Detection
+- **BFD**: dwukierunkowe wykrywanie przekazywania
   - Protokół sieciowy używany do szybkiego wykrywania awarii na ścieżce przekazywania między dwoma routerami.
 
-- **BGP**: Border Gateway Protocol
+- **BGP**: protokół bramy granicznej
   - Standardowy protokół bramy zewnętrznej używany do wymiany informacji o trasach między systemami autonomicznymi w internecie.
 
-- **BI**: Business Intelligence
+- **BI**: analityka biznesowa
   - Odnosi się do technologii, procesów i narzędzi służących do analizy i prezentacji danych biznesowych w celu podejmowania świadomych decyzji.
 
-- **BIOS**: Basic Input/Output System
+- **BIOS**: podstawowy system wejścia-wyjścia
   - Oprogramowanie układowe, które inicjalizuje i kontroluje sprzęt podczas procesu uruchamiania komputera.
 
-- **BIP**: Basic Image Profile
+- **BIP**: podstawowy profil obrazu
   - Specyfikacja formatów obrazów używanych w aparatach cyfrowych i innych urządzeniach obrazujących.
 
-- **BLOB**: Binary Large Object
+- **BLOB**: duży obiekt binarny
   - Typ danych używany do przechowywania danych binarnych w bazach danych, takich jak obrazy, dźwięk czy wideo.
 
-- **BOM**: Bill of Materials
+- **BOM**: wykaz materiałów
   - Lista komponentów i materiałów potrzebnych do wyprodukowania produktu.
 
 - **BOT**: Robot
   - Autonomiczny lub półautonomiczny program lub skrypt wykonujący zadania, często w internecie.
 
-- **BPS**: Bits Per Second
+- **BPS**: bity na sekundę
   - Jednostka miary prędkości transmisji danych, wskazująca ile bitów może zostać przesłanych w ciągu jednej sekundy.
 
-- **BRB**: Be Right Back
+- **BRB**: zaraz wracam
   - Skrót powszechnie używany w wiadomościach tekstowych lub czatach, oznaczający chwilową nieobecność.
 
-- **BSD**: Berkeley Software Distribution
+- **BSD**: dystrybucja oprogramowania Berkeley
   - System operacyjny wywodzący się z UNIX, który wpłynął na wiele innych systemów podobnych do Unix.
 
-- **BSS**: Basic Service Set
+- **BSS**: podstawowy zestaw usług
   - Podstawowy element bezprzewodowej sieci lokalnej (WLAN), obejmujący bezprzewodowe urządzenia klienckie i punkt dostępowy.
 
-- **BSSA**: Base Station Subsystem Application
+- **BSSA**: aplikacja podsystemu stacji bazowej
   - W sieciach komórkowych aplikacja programowa zarządzająca komunikacją między urządzeniami mobilnymi a stacją bazową.
 
-- **BSSID**: Basic Service Set Identifier
+- **BSSID**: identyfikator podstawowego zestawu usług
   - Unikalny identyfikator służący do rozróżniania wielu punktów dostępowych w jednej sieci bezprzewodowej.
 
-- **BYOA**: Bring Your Own App
+- **BYOA**: przynieś własną aplikację
   - Praktyka, w której pracownicy używają preferowanych przez siebie aplikacji do wykonywania zadań służbowych.
 
-- **BYOB**: Bring Your Own Bottle
+- **BYOB**: przynieś własną butelkę
   - Zwrot używany, aby wskazać, że goście powinni przynieść własne napoje alkoholowe na wydarzenie.
 
-- **BYOD**: Bring Your Own Device
+- **BYOD**: przynieś własne urządzenie
   - Polityka pozwalająca pracownikom na używanie własnych urządzeń do zadań związanych z pracą.
 
-- **BYOM**: Bring Your Own Modem
+- **BYOM**: przynieś własny modem
   - Polityka umożliwiająca użytkownikom przynoszenie i używanie własnych modemów do łączenia się z internetem.
 
 - **BaaS**: Backend as a Service (backend jako usługa)
@@ -191,34 +191,34 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 
 
 ### C
-- **CDN**: Content Delivery Network
+- **CDN**: sieć dostarczania treści
   - System rozproszonych serwerów współpracujących w celu dostarczania treści internetowych, takich jak obrazy, filmy i strony WWW, użytkownikom na podstawie ich lokalizacji geograficznej, zapewniając szybszy i bardziej niezawodny dostęp.
 
-- **CI/CD**: Continuous Integration/Continuous Deployment
+- **CI/CD**: ciągła integracja/ciągłe wdrażanie
   - Zestaw praktyk programistycznych polegających na automatycznym budowaniu, testowaniu i wdrażaniu zmian w kodzie do produkcji, wspierających współpracę i automatyzację w procesie tworzenia oprogramowania.
 
-- **CIFS**: Common Internet File System
+- **CIFS**: wspólny internetowy system plików
   - Protokół sieciowy umożliwiający udostępnianie plików oraz dostęp do plików i drukarek w sieci, często kojarzony z udostępnianiem plików w systemach Windows.
 
-- **CISO**: Chief Information Security Officer
+- **CISO**: dyrektor ds. bezpieczeństwa informacji
   - Starszy menedżer odpowiedzialny za nadzorowanie i wdrażanie strategii oraz polityk bezpieczeństwa informacji w organizacji.
 
-- **CLI**: Command Line Interface
+- **CLI**: interfejs wiersza poleceń
   - Interfejs tekstowy pozwalający użytkownikom na interakcję z programem komputerowym lub systemem operacyjnym poprzez wpisywanie poleceń.
 
-- **CRM**: Customer Relationship Management
+- **CRM**: zarządzanie relacjami z klientami
   - Technologia i strategia zarządzania oraz analizy interakcji i relacji z klientami, zwykle stosowana przez firmy w celu poprawy satysfakcji klientów i zwiększenia sprzedaży.
 
-- **CRON**: Command Run ON
+- **CRON**: polecenie uruchamiane o określonej porze
   - Harmonogram zadań oparty na czasie w systemach Unix i podobnych, używany do automatyzacji powtarzalnych zadań w określonych odstępach czasu.
 
-- **CSP**: Content Security Policy
+- **CSP**: polityka bezpieczeństwa treści
   - Funkcja bezpieczeństwa wdrażana przez przeglądarki internetowe, mająca na celu ograniczenie ryzyka ataków typu cross-site scripting (XSS) poprzez kontrolę źródeł treści wykonywanych na stronie WWW.
 
-- **CSS**: Cascading Style Sheets
+- **CSS**: kaskadowe arkusze stylów
   - Język arkuszy stylów używany do opisywania prezentacji i formatowania dokumentu napisanego w HTML, XML lub innych językach znaczników.
 
-- **CSV**: Comma-Separated Values
+- **CSV**: wartości rozdzielone przecinkami
   - Prosty format pliku używany do przechowywania danych tabelarycznych, gdzie wartości danych są oddzielone przecinkami.
 
 - **CaaS**: Container as a Service (kontenery jako usługa)
@@ -229,116 +229,116 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 
 {{< figure src="tech-abbreviations-diverse-concepts.webp" alt="Sekcja pokazująca skróty związane z technologią. Wizualna reprezentacja różnorodnych koncepcji technologicznych." caption="Nawigacja po Alfabecie Technologicznym" >}}
 
-- **DBMS**: Database Management System
+- **DBMS**: system zarządzania bazą danych
   - System oprogramowania służący do zarządzania, przechowywania, pobierania i zabezpieczania danych w sposób uporządkowany, często stosowany w kontekście baz danych relacyjnych.
 
-- **DDoS**: Distributed Denial of Service
+- **DDoS**: rozproszony atak typu odmowa usługi
   - Rodzaj cyberataku, w którym wiele zainfekowanych komputerów jest używanych do zalania systemu lub sieci ofiary ruchem, powodując jej przeciążenie i niedostępność.
 
-- **DHCP**: Dynamic Host Configuration Protocol
+- **DHCP**: dynamiczny protokół konfiguracji hosta
   - Protokół sieciowy automatyzujący przydzielanie adresów IP i innych ustawień konfiguracyjnych urządzeniom w sieci.
 
-- **DLP**: Data Loss Prevention
+- **DLP**: zapobieganie utracie danych
   - Zestaw strategii, narzędzi i polityk mających na celu zapobieganie nieautoryzowanemu dostępowi lub rozpowszechnianiu wrażliwych danych w organizacji.
 
-- **DMZ**: Demilitarized Zone
+- **DMZ**: strefa zdemilitaryzowana
   - Architektura sieciowa tworząca strefę neutralną między zaufaną siecią wewnętrzną a niezaufaną siecią zewnętrzną, często stosowana w celu zwiększenia bezpieczeństwa.
 
-- **DNS**: Domain Name System
+- **DNS**: system nazw domenowych
   - System tłumaczący czytelne dla człowieka nazwy domen na adresy IP, umożliwiający użytkownikom dostęp do stron internetowych i innych zasobów po nazwie.
 
-- **DOS**: Denial of Service
+- **DOS**: odmowa usługi
   - Cyberatak polegający na przeciążeniu systemu lub sieci nadmiernym ruchem lub złośliwą aktywnością, uniemożliwiający dostęp użytkownikom.
 
-- **DOS**: Disk Operating System
+- **DOS**: dyskowy system operacyjny
   - Wczesny system operacyjny komputera, który zarządza przechowywaniem i pobieraniem danych na dyskach komputerowych.
 
-- **DRAM**: Dynamic Random Access Memory
+- **DRAM**: dynamiczna pamięć o dostępie swobodnym
   - Typ ulotnej pamięci komputerowej, powszechnie używanej jako pamięć główna w komputerach i innych urządzeniach elektronicznych.
 
-- **DaaS**: Data as a Service (dane jako usługa)
+- **DaaS**: dane jako usługa (Data as a Service)
   - Usługa chmurowa zapewniająca dostęp do danych na żądanie, umożliwiająca organizacjom przechowywanie, dostęp i zarządzanie danymi w skalowalny i opłacalny sposób.
 
-- **DaaS**: Desktop as a Service (pulpit jako usługa)
+- **DaaS**: pulpit jako usługa (Desktop as a Service)
   - Usługa wirtualizacji pulpitu oparta na chmurze, która pozwala użytkownikom na dostęp i korzystanie z wirtualnych pulpitów hostowanych na zdalnym serwerze lub centrum danych.
 
 
 ### E
-- **EAI**: Enterprise Application Integration
+- **EAI**: integracja aplikacji przedsiębiorstwa
   - Proces integracji różnych aplikacji i systemów oprogramowania w przedsiębiorstwie, umożliwiający ich płynną współpracę.
 
-- **ECC**: Error-Correcting Code
+- **ECC**: kod korekcji błędów
   - Typ kodu używanego w pamięci komputerowej i przechowywaniu danych do wykrywania i korekty błędów w danych.
 
-- **ECS**: Elastic Container Service
+- **ECS**: elastyczna usługa kontenerów
   - Usługa oferowana przez platformy chmurowe, takie jak AWS, upraszczająca wdrażanie i zarządzanie kontenerami.
 
-- **EEPROM**: Electrically Erasable Programmable Read-Only Memory
+- **EEPROM**: elektrycznie kasowalna i programowalna pamięć tylko do odczytu
   - Typ nieulotnej pamięci, którą można elektronicznie wymazać i ponownie zaprogramować, powszechnie używany do przechowywania oprogramowania układowego i danych konfiguracyjnych.
 
-- **EHR**: Electronic Health Record
+- **EHR**: elektroniczna dokumentacja medyczna
   - Cyfrowy zapis zdrowia i historii medycznej pacjenta, który może być udostępniany i dostępny dla uprawnionych pracowników służby zdrowia.
 
-- **EIP**: Elastic IP
+- **EIP**: elastyczny adres IP
   - Funkcja w platformach chmurowych pozwalająca użytkownikom na przydzielenie statycznego, publicznego adresu IP do ich wirtualnych instancji lub usług, co umożliwia dostęp z internetu.
 
-- **ELB**: Elastic Load Balancer
+- **ELB**: elastyczny moduł równoważenia obciążenia
   - Usługa rozdzielająca przychodzący ruch sieciowy pomiędzy wiele serwerów lub zasobów w celu poprawy dostępności i odporności na awarie.
 
-- **EMAC**: Ethernet Media Access Control
+- **EMAC**: ethernetowa kontrola dostępu do medium
   - Podwarstwa warstwy łącza danych, która kontroluje dostęp do fizycznego medium w sieciach Ethernet.
 
-- **EOF**: End of File
+- **EOF**: koniec pliku
   - Znacznik wskazujący koniec pliku lub strumienia danych, często używany przez programy komputerowe do rozpoznania zakończenia danych.
 
-- **EOL**: End of Life
+- **EOL**: koniec cyklu życia
   - Termin oznaczający koniec wsparcia, utrzymania lub produkcji produktu lub oprogramowania.
 
-- **ESD**: Electrostatic Discharge
+- **ESD**: wyładowanie elektrostatyczne
   - Nagły przepływ elektryczności między dwoma naładowanymi elektrycznie obiektami, często wywołany tarciem, stanowiący potencjalne zagrożenie dla komponentów elektronicznych.
 
-- **ETL**: Extract, Transform, Load
+- **ETL**: ekstrakcja, transformacja i ładowanie
   - Proces integracji danych, w którym dane są wyodrębniane ze źródeł, przekształcane do odpowiedniego formatu i ładowane do docelowej bazy danych lub hurtowni danych do analizy.
 
-- **EULA**: End-User License Agreement
+- **EULA**: umowa licencyjna użytkownika końcowego
   - Umowa prawna między dostawcą oprogramowania a użytkownikiem określająca warunki korzystania z oprogramowania.
 
-- **EXE**: Executable File
+- **EXE**: plik wykonywalny
   - Format pliku używany w systemach Windows do przechowywania i uruchamiania programów lub aplikacji.
 
 
 ### F
-- **FAQ**: Frequently Asked Questions
+- **FAQ**: często zadawane pytania
   - Zbiór często zadawanych pytań i odpowiedzi dotyczących konkretnego tematu lub produktu.
 
-- **FAT**: File Allocation Table
+- **FAT**: tablica alokacji plików
   - Struktura systemu plików używana do zarządzania i przydzielania przestrzeni dyskowej na urządzeniach pamięci masowej, takich jak dyski twarde.
 
-- **FDDI**: Fiber Distributed Data Interface
+- **FDDI**: interfejs rozproszonych danych światłowodowych
   - Technologia szybkiej sieci lokalnej (LAN) wykorzystująca światłowód do transmisji danych.
 
-- **FIFO**: First In, First Out
+- **FIFO**: pierwsze weszło, pierwsze wyszło
   - Struktura danych i algorytm planowania, który przetwarza najstarsze elementy lub żądania jako pierwsze.
 
-- **FLOSS**: Free Libre Open Source Software
+- **FLOSS**: wolne i otwarte oprogramowanie
   - Oprogramowanie dostępne bezpłatnie, otwarte, pozwalające użytkownikom na przeglądanie, modyfikowanie i dystrybucję kodu źródłowego.
 
-- **FPGA**: Field-Programmable Gate Array
+- **FPGA**: programowalna macierz bramek
   - Układ scalony, który można skonfigurować do wykonywania określonych zadań lub funkcji po wyprodukowaniu.
 
-- **FQDN**: Fully Qualified Domain Name
+- **FQDN**: pełna nazwa domenowa
   - Pełna i specyficzna nazwa domenowa, która zawiera zarówno nazwę hosta, jak i domenę w hierarchii DNS.
 
-- **FQDN**: Fully Qualified Domain Name
+- **FQDN**: pełna nazwa domenowa
   - Pełna i specyficzna nazwa domenowa, która zawiera zarówno nazwę hosta, jak i domenę w hierarchii DNS.
 
-- **FQDN**: Fully Qualified Domain Name
+- **FQDN**: pełna nazwa domenowa
   - Pełna i specyficzna nazwa domenowa, która zawiera zarówno nazwę hosta, jak i domenę w hierarchii DNS.
 
-- **FSM**: Finite State Machine
+- **FSM**: automat o skończonej liczbie stanów
   - Model matematyczny używany do projektowania i analizy systemów o skończonej liczbie stanów, przejść i wejść.
 
-- **FTP**: File Transfer Protocol
+- **FTP**: protokół przesyłania plików
   - Protokół sieciowy używany do przesyłania plików między klientem a serwerem w sieci komputerowej.
 
 - **FaaS**: Function as a Service (funkcja jako usługa)
@@ -358,22 +358,22 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **GB**: Gigabajt
   - Jednostka przechowywania informacji cyfrowych, reprezentująca 1 073 741 824 bajtów, często używana do mierzenia rozmiaru plików lub danych.
 
-- **GIF**: Graphics Interchange Format
+- **GIF**: format wymiany grafiki
   - Powszechnie używany format plików graficznych, obsługujący obrazy statyczne i animowane z ograniczoną paletą kolorów.
 
-- **GIS**: Geographic Information System
+- **GIS**: system informacji geograficznej
   - System łączący dane geograficzne z różnymi warstwami informacji do analizy, wizualizacji i zrozumienia przestrzennych relacji i wzorców.
 
-- **GMT**: Greenwich Mean Time
+- **GMT**: czas średni Greenwich
   - Standard czasu używany jako odniesienie do pomiaru czasu, często kojarzony z czasem na południku zerowym (0 stopni długości geograficznej).
 
-- **GNU**: GNU's Not Unix
+- **GNU**: GNU to nie Unix
   - Rekurencyjny akronim opisujący projekt GNU, który jest projektem wolnego oprogramowania i systemu operacyjnego.
 
-- **GPG**: GNU Privacy Guard
+- **GPG**: narzędzie ochrony prywatności GNU
   - Wolna i otwarta implementacja standardu szyfrowania OpenPGP używana do zabezpieczania komunikacji i danych.
 
-- **GPIO**: General Purpose Input/Output
+- **GPIO**: wejście-wyjście ogólnego przeznaczenia
   - Zestaw pinów na mikrokontrolerze lub komputerze jednopłytkowym, które można skonfigurować jako cyfrowe wejścia lub wyjścia do różnych zadań.
 
 - **GPL**: Ogólna Licencja Publiczna
@@ -490,34 +490,34 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **JDK**: Zestaw Narzędzi Programistycznych Java
   - Zestaw narzędzi programowych do tworzenia aplikacji Java, w tym kompilator, debugger i środowisko uruchomieniowe.
 
-- **JIT**: Kompilacja Just-In-Time
+- **JIT**: Kompilacja w czasie działania (Just In Time)
   - Technika kompilacji używana w maszynach wirtualnych, która kompiluje i wykonuje kod w czasie działania, często stosowana w celu poprawy wydajności języków interpretowanych.
 
 - **JMS**: Usługa Komunikatów Java
   - API oparte na Javie do przesyłania komunikatów między aplikacjami, umożliwiające komunikację za pomocą systemów kolejkowania wiadomości.
 
-- **JNI**: Java Native Interface
+- **JNI**: natywny interfejs Java
   - Ramy programistyczne umożliwiające kodowi Java interakcję z kodem napisanym w innych językach programowania, takich jak C i C++.
 
-- **JPEG**: Joint Photographic Experts Group
+- **JPEG**: wspólna grupa ekspertów fotograficznych
   - Powszechnie używany format plików graficznych zaprojektowany do kompresji zdjęć fotograficznych.
 
-- **JRE**: Java Runtime Environment
+- **JRE**: środowisko uruchomieniowe Java
   - Pakiet oprogramowania zapewniający niezbędne środowisko uruchomieniowe do wykonywania aplikacji i apletów Java.
 
 - **JS**: JavaScript
   - Powszechnie używany język skryptowy do tworzenia stron internetowych, umożliwiający interaktywność i dynamiczne treści na stronach WWW.
 
-- **JSON**: JavaScript Object Notation
+- **JSON**: notacja obiektów JavaScript
   - Lekki format wymiany danych, łatwy do czytania i pisania przez ludzi oraz łatwy do analizowania i generowania przez maszyny.
 
-- **JSP**: JavaServer Pages
+- **JSP**: strony serwera Java
   - Technologia tworzenia dynamicznych treści internetowych za pomocą Java, podobna do PHP lub ASP.
 
-- **JVM**: Java Virtual Machine
+- **JVM**: wirtualna maszyna Java
   - Wirtualna maszyna umożliwiająca uruchamianie aplikacji Java na różnych platformach sprzętowych i programowych.
 
-- **JWT**: JSON Web Token
+- **JWT**: token sieciowy JSON
   - Kompaktowy, samodzielny sposób bezpiecznego przesyłania informacji między stronami jako obiekt JSON, często używany do uwierzytelniania i autoryzacji.
 
 
@@ -528,22 +528,22 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **KB**: Kilobajt
   - Jednostka przechowywania informacji cyfrowej, odpowiadająca 1 024 bajtom.
 
-- **KDE**: K Desktop Environment
+- **KDE**: środowisko graficzne K
   - Środowisko graficzne dla systemów Unixopodobnych, oferujące interfejs użytkownika oraz zestaw aplikacji.
 
-- **KISS**: Keep It Simple, Stupid
+- **KISS**: zachowaj prostotę, głupcze
   - Zasada projektowania podkreślająca prostotę i unikanie zbędnej złożoności.
 
-- **KLOC**: Kilo Lines of Code
+- **KLOC**: tysiąc linii kodu
   - Miara złożoności oprogramowania, wskazująca liczbę tysięcy linii kodu w programie.
 
-- **KPI**: Key Performance Indicator
+- **KPI**: kluczowy wskaźnik efektywności
   - Mierzalna wartość służąca do oceny wydajności i efektywności organizacji lub konkretnej działalności.
 
-- **KPI**: Key Performance Indicator
+- **KPI**: kluczowy wskaźnik efektywności
   - Mierzalna wartość służąca do oceny wydajności i efektywności organizacji lub konkretnej działalności.
 
-- **KVM**: Kernel-based Virtual Machine
+- **KVM**: maszyna wirtualna oparta na jądrze
   - Infrastruktura wirtualizacji dla jądra Linux, umożliwiająca tworzenie i zarządzanie maszynami wirtualnymi.
 
 - **Kb**: Kilobit
@@ -556,36 +556,36 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
   - Jednostka prędkości transferu danych, oznaczająca przesłanie 1 000 bitów w ciągu jednej sekundy.
 
 ### L
-- **LAN**: Local Area Network
+- **LAN**: sieć lokalna
   - Sieć obejmująca niewielki obszar geograficzny, zwykle w obrębie jednego budynku lub kampusu.
 
-- **LCD**: Liquid Crystal Display
+- **LCD**: wyświetlacz ciekłokrystaliczny
   - Technologia wyświetlaczy ciekłokrystalicznych, powszechnie stosowana w monitorach komputerowych, telewizorach i urządzeniach mobilnych.
 
-- **LDAP**: Lightweight Directory Access Protocol
+- **LDAP**: lekki protokół dostępu do katalogów
   - Protokół służący do dostępu i zarządzania informacjami katalogowymi, często używany do uwierzytelniania i usług katalogowych.
 
-- **LED**: Light Emitting Diode
+- **LED**: dioda elektroluminescencyjna
   - Półprzewodnikowy element emitujący światło po przepływie prądu elektrycznego, powszechnie stosowany w wyświetlaczach, wskaźnikach i oświetleniu.
 
 
 ### M
-- **MAC**: Media Access Control
+- **MAC**: kontrola dostępu do medium
   - Adres sprzętowy jednoznacznie identyfikujący urządzenia sieciowe w sieci lokalnej.
 
-- **MD5**: Message Digest Algorithm 5
+- **MD5**: algorytm skrótu wiadomości 5
   - Powszechnie stosowana kryptograficzna funkcja skrótu generująca 128-bitową wartość skrótu, często używana do weryfikacji integralności danych.
 
-- **MFA**: Multi-Factor Authentication
+- **MFA**: uwierzytelnianie wieloskładnikowe
   - Proces zabezpieczeń wymagający od użytkowników podania dwóch lub więcej czynników uwierzytelniających w celu uzyskania dostępu do konta lub systemu, zwiększający bezpieczeństwo.
 
-- **MIME**: Multipurpose Internet Mail Extensions
+- **MIME**: rozszerzenia poczty internetowej obsługujące wiele formatów treści
   - Standard rozszerzający formatowanie wiadomości e-mail o obsługę tekstu w zestawach znaków innych niż ASCII oraz załączników, takich jak obrazy i dźwięk.
 
-- **MSI**: Microsoft Installer
+- **MSI**: instalator Microsoftu
   - Format plików i komponent oprogramowania używany do instalacji, utrzymania i usuwania oprogramowania w systemach Windows.
 
-- **MTU**: Maximum Transmission Unit
+- **MTU**: maksymalna jednostka transmisji
   - Największy rozmiar pakietu lub ramki, który może być przesłany przez sieć bez fragmentacji.
 
 - **Mbps**: Megabity na sekundę
@@ -595,90 +595,90 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 
 {{< figure src="tech-concepts-diverse-terms.webp" alt="Sekcje prezentujące terminy związane z technologią. Wizualna reprezentacja różnorodnych koncepcji technologicznych." caption="Od Pamięci Sieciowej do Komputerów Kwantowych: Technologia od A do Z." >}}
 
-- **NAS**: Network-Attached Storage
+- **NAS**: pamięć masowa podłączona do sieci
   - Urządzenie do przechowywania danych na poziomie plików, zapewniające dostęp do danych dla heterogenicznej grupy klientów przez sieć.
 
-- **NAT**: Network Address Translation
+- **NAT**: translacja adresów sieciowych
   - Technika modyfikacji informacji o adresach sieciowych w nagłówkach pakietów podczas transmisji, często stosowana do oszczędzania adresów IP.
 
-- **NIC**: Network Interface Card
+- **NIC**: karta interfejsu sieciowego
   - Komponent sprzętowy łączący komputer lub urządzenie z siecią i zapewniający możliwości komunikacji sieciowej.
 
-- **NTP**: Network Time Protocol
+- **NTP**: protokół czasu sieciowego
   - Protokół sieciowy służący do synchronizacji czasu systemów komputerowych przez sieci pakietowe o zmiennej latencji.
 
-- **NVR**: Network Video Recorder
+- **NVR**: sieciowy rejestrator wideo
   - Urządzenie lub oprogramowanie służące do nagrywania i przechowywania materiału wideo z kamer bezpieczeństwa.
 
-- **NVRAM**: Non-Volatile Random Access Memory
+- **NVRAM**: nieulotna pamięć o dostępie swobodnym
   - Rodzaj pamięci komputerowej, która zachowuje dane nawet po wyłączeniu zasilania.
 
 ### O
-- **OCR**: Optical Character Recognition
+- **OCR**: optyczne rozpoznawanie znaków
   - Technologia przekształcająca drukowany lub ręcznie pisany tekst na tekst zakodowany maszynowo, często używana do skanowania i digitalizacji dokumentów.
 
-- **ODBC**: Open Database Connectivity
+- **ODBC**: otwarte połączenie z bazą danych
   - Standardowy interfejs do łączenia się z relacyjnymi bazami danych, umożliwiający oprogramowaniu współpracę z różnymi systemami bazodanowymi.
 
-- **OEM**: Original Equipment Manufacturer
+- **OEM**: producent oryginalnego sprzętu
   - Firma produkująca produkty lub komponenty używane w produktach innej firmy, które następnie są rebrandowane jako produkty tej drugiej firmy.
 
-- **ORM**: Object-Relational Mapping
+- **ORM**: mapowanie obiektowo-relacyjne
   - Technika programistyczna mapująca obiekty aplikacji na tabele baz danych, umożliwiająca programistom pracę z bazami danych za pomocą kodu obiektowego.
 
-- **ORM**: Object-Relational Mapping
+- **ORM**: mapowanie obiektowo-relacyjne
   - Technika programistyczna mapująca obiekty aplikacji na tabele baz danych, umożliwiająca programistom pracę z bazami danych za pomocą kodu obiektowego.
 
-- **OS**: Operating System
+- **OS**: system operacyjny
   - Oprogramowanie systemowe zarządzające zasobami sprzętowymi i programowymi, zapewniające usługi dla programów komputerowych oraz umożliwiające użytkownikom interakcję z komputerem.
 
-- **OSI**: Open Systems Interconnection
+- **OSI**: łączenie systemów otwartych
   - Koncepcyjny model standaryzujący funkcje systemu telekomunikacyjnego lub komputerowego na siedem odrębnych warstw.
 
-- **OSPF**: Open Shortest Path First
+- **OSPF**: najpierw najkrótsza ścieżka otwarta
   - Protokół routingu używany do efektywnego i skalowalnego trasowania w sieciach IP, szczególnie w obrębie systemów autonomicznych.
 
-- **OSS**: Open Source Software
+- **OSS**: oprogramowanie o otwartym kodzie źródłowym
   - Oprogramowanie wydane na licencji pozwalającej każdemu na przeglądanie, używanie, modyfikowanie i dystrybucję kodu źródłowego.
 
-- **OTP**: One-Time Password
+- **OTP**: hasło jednorazowe
   - Hasło ważne tylko dla jednej sesji logowania lub transakcji, często używane dla zwiększenia bezpieczeństwa.
 
-- **OTP**: One-Time Password lub One-Time Pad
+- **OTP**: hasło jednorazowe lub blok jednorazowy
   - Technika kryptograficzna generująca unikalne, jednorazowe hasło do bezpiecznej komunikacji.
 
 ### P
-- **P2P**: Peer-to-Peer
+- **P2P**: między równorzędnymi uczestnikami
   - Architektura sieci, w której urządzenia komunikują się bezpośrednio ze sobą, często stosowana w udostępnianiu plików i obliczeniach rozproszonych.
 
-- **PC**: Personal Computer
+- **PC**: komputer osobisty
   - Komputer ogólnego przeznaczenia zaprojektowany do użytku indywidualnego, często działający na systemach operacyjnych dla komputerów stacjonarnych.
 
-- **PDF**: Portable Document Format
+- **PDF**: przenośny format dokumentu
   - Format pliku używany do prezentacji i wymiany dokumentów niezależnie od oprogramowania, sprzętu i systemów operacyjnych.
 
-- **PHP**: Hypertext Preprocessor
+- **PHP**: preprocesor hipertekstu
   - Popularny język skryptowy używany do tworzenia dynamicznych stron internetowych i aplikacji.
 
-- **PKI**: Public Key Infrastructure
+- **PKI**: infrastruktura klucza publicznego
   - Ramy zapewniające bezpieczną komunikację i uwierzytelnianie za pomocą kluczy publicznych i prywatnych, często stosowane do szyfrowania i podpisów cyfrowych.
 
-- **POP**: Post Office Protocol
+- **POP**: protokół pocztowy
   - Standardowy protokół pocztowy używany do pobierania wiadomości z serwera pocztowego do lokalnego klienta poczty.
 
-- **POP3**: Post Office Protocol, wersja 3
+- **POP3**: protokół pocztowy, wersja 3
   - Protokół pocztowy używany do odbierania i zarządzania wiadomościami e-mail na serwerze pocztowym.
 
-- **POS**: Point of Sale
+- **POS**: punkt sprzedaży
   - Miejsce i system, w którym klient dokonuje płatności za produkty lub usługi.
 
-- **POST**: Power-On Self-Test
+- **POST**: test po włączeniu zasilania
   - Proces diagnostyczny, któremu poddawane są komponenty sprzętowe komputera podczas uruchamiania.
 
-- **PPP**: Point-to-Point Protocol
+- **PPP**: protokół punkt-punkt
   - Protokół warstwy łącza danych używany do ustanawiania bezpośredniego połączenia między dwoma węzłami w sieci.
 
-- **PSU**: Power Supply Unit
+- **PSU**: zasilacz
   - Urządzenie przetwarzające energię elektryczną z zewnętrznego źródła na napięcie i prąd wymagane do zasilania komputera lub innych urządzeń elektronicznych.
 
 - **PaaS**: Platform as a Service (platforma jako usługa)
@@ -689,93 +689,93 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 {{< figure src="tech-concepts-diverse-terms2.webp" alt="Sekcje prezentujące terminy związane z technologią. Wizualna reprezentacja różnorodnych koncepcji technologicznych." caption="Żargon Techniczny od A do Z." >}}
 
 
-- **QA**: Quality Assurance
+- **QA**: zapewnienie jakości
   - Proces zapewniania jakości i niezawodności produktów lub usług poprzez testowanie i przeglądy.
 
-- **QEMU**: Quick Emulator
+- **QEMU**: szybki emulator
   - Oprogramowanie open-source do wirtualizacji i emulacji, pozwalające na uruchamianie systemów operacyjnych na różnych platformach hosta.
 
-- **QLC**: Quad-Level Cell
+- **QLC**: komórka czteropoziomowa
   - Typ pamięci NAND flash, który przechowuje cztery bity danych na komórkę pamięci, odpowiedni do magazynowania o dużej pojemności.
 
-- **QPS**: Queries Per Second
+- **QPS**: zapytania na sekundę
   - Metryka mierząca liczbę zapytań do bazy danych lub transakcji, które system może obsłużyć w ciągu jednej sekundy.
 
-- **QPSK**: Quadrature Phase Shift Keying
+- **QPSK**: kwadraturowe kluczowanie z przesunięciem fazy
   - Schemat modulacji używany w komunikacji cyfrowej do przesyłania danych przez zmianę fazy dwóch fal nośnych.
 
-- **QR Code**: Quick Response Code
+- **QR Code**: kod szybkiej odpowiedzi
   - Dwuwymiarowy kod kreskowy, który może przechowywać różnorodne informacje, często używany do szybkiego odczytu danych za pomocą urządzeń mobilnych.
 
 - **QWERTY**: Standardowy układ klawiatury
   - Najczęściej używany układ klawiatury, charakteryzujący się rozmieszczeniem liter w górnym rzędzie.
 
-- **QoS**: Quality of Service
+- **QoS**: jakość usług
   - Zestaw technologii i mechanizmów zapewniających niezawodną i przewidywalną wydajność sieci dla określonych aplikacji lub usług.
 
-- **Qubit**: Quantum Bit
+- **Qubit**: bit kwantowy
   - Podstawowa jednostka informacji kwantowej w obliczeniach kwantowych, analogiczna do klasycznego bitu, ale z unikalnymi właściwościami kwantowymi.
 
 ### S
-- **SAML**: Security Assertion Markup Language
+- **SAML**: język znaczników asercji bezpieczeństwa
   - Oparty na XML framework do wymiany danych uwierzytelniających i autoryzacyjnych między stronami, często używany w systemach jednokrotnego logowania (SSO).
 
-- **SAN**: Storage Area Network
+- **SAN**: sieć pamięci masowej
   - Specjalistyczna, szybka sieć łącząca urządzenia do przechowywania danych i udostępniająca je serwerom.
 
-- **SBC**: Session Border Controller
+- **SBC**: kontroler graniczny sesji
   - Urządzenie sieciowe kontrolujące sesje komunikacji w czasie rzeczywistym, zapewniające bezpieczeństwo i zarządzanie dla VoIP i komunikacji wideo.
 
-- **SDK**: Software Development Kit
+- **SDK**: zestaw narzędzi programistycznych
   - Zestaw narzędzi, bibliotek i dokumentacji do tworzenia aplikacji programowych dla określonej platformy lub frameworka.
 
-- **SIEM**: Security Information and Event Management
+- **SIEM**: zarządzanie informacjami i zdarzeniami bezpieczeństwa
   - Rozwiązanie łączące zarządzanie informacjami o bezpieczeństwie (SIM) i zarządzanie zdarzeniami bezpieczeństwa (SEM) w celu zapewnienia analizy w czasie rzeczywistym alertów i zdarzeń bezpieczeństwa.
 
-- **SIM**: Subscriber Identity Module
+- **SIM**: moduł tożsamości abonenta
   - Mała karta, która bezpiecznie przechowuje informacje służące do identyfikacji i uwierzytelniania użytkowników urządzeń mobilnych.
 
-- **SMB**: Server Message Block
+- **SMB**: blok komunikatów serwera
   - Protokół sieciowy do udostępniania plików, drukarek i innych zasobów w sieci lokalnej.
 
-- **SMTP**: Simple Mail Transfer Protocol
+- **SMTP**: prosty protokół przesyłania poczty
   - Protokół używany do wysyłania i odbierania wiadomości e-mail przez internet.
 
-- **SNMP**: Simple Network Management Protocol
+- **SNMP**: prosty protokół zarządzania siecią
   - Protokół używany do zarządzania i monitorowania urządzeń sieciowych, takich jak routery, przełączniki i serwery.
 
-- **SOA**: Service-Oriented Architecture
+- **SOA**: architektura zorientowana na usługi
   - Podejście projektowe strukturyzujące oprogramowanie jako zestaw luźno powiązanych, wielokrotnego użytku usług.
 
-- **SPOF**: Single Point of Failure
+- **SPOF**: pojedynczy punkt awarii
   - Komponent lub system, który w przypadku awarii może spowodować awarię całego systemu.
 
-- **SQL**: Structured Query Language
+- **SQL**: strukturalny język zapytań
   - Specjalistyczny język używany do zarządzania i zapytań w relacyjnych bazach danych.
 
-- **SSD**: Solid State Drive
+- **SSD**: dysk półprzewodnikowy
   - Urządzenie do przechowywania danych wykorzystujące pamięć flash NAND, oferujące szybszy dostęp do danych niż tradycyjne dyski twarde.
 
-- **SSH**: Secure Shell
+- **SSH**: bezpieczna powłoka
   - Kryptograficzny protokół sieciowy używany do bezpiecznego zdalnego logowania i wykonywania poleceń na urządzeniach sieciowych.
 
-- **SSL**: Secure Sockets Layer
+- **SSL**: warstwa bezpiecznych gniazd
   - Przestarzały protokół bezpieczeństwa do ustanawiania zaszyfrowanych połączeń między serwerem WWW a przeglądarką, zastąpiony przez TLS.
 
-- **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
+- **SSL/TLS**: warstwa bezpiecznych gniazd/bezpieczeństwo warstwy transportowej
   - Protokoły używane do zabezpieczania komunikacji internetowej przez szyfrowanie danych przesyłanych między serwerem WWW a przeglądarką klienta.
 
 - **SaaS**: Software as a Service (oprogramowanie jako usługa)
   - Model usługi chmurowej dostarczający aplikacje programowe przez internet na zasadzie subskrypcji.
 
 ### T
-- **TCP**: Transmission Control Protocol
+- **TCP**: protokół sterowania transmisją
   - Protokół sieciowy zorientowany na połączenie, zapewniający niezawodne przesyłanie danych między urządzeniami w sieci.
 
 - **TCP/IP**: Protokół sterowania transmisją/Protokół internetowy
   - Zestaw protokołów, który stanowi podstawę internetu i większości sieci, odpowiedzialny za transmisję danych i adresowanie.
 
-- **TLS**: Transport Layer Security
+- **TLS**: bezpieczeństwo warstwy transportowej
   - Protokół kryptograficzny zapewniający bezpieczną transmisję danych w sieci, często używany do zabezpieczania komunikacji internetowej (zastępuje SSL).
 
 - **TTL**: Time to Live (czas życia)
@@ -789,13 +789,13 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **UAT**: Testy akceptacyjne użytkownika
   - Faza w rozwoju oprogramowania, w której końcowi użytkownicy testują system, aby upewnić się, że spełnia ich wymagania i działa poprawnie.
 
-- **UDP**: User Datagram Protocol
+- **UDP**: protokół datagramów użytkownika
   - Protokół sieciowy bezpołączeniowy, który dostarcza dane bez gwarancji ich dotarcia lub kolejności.
 
 - **UI**: Interfejs użytkownika
   - Sposób, w jaki użytkownik wchodzi w interakcję i kontroluje aplikację lub urządzenie sprzętowe.
 
-- **USB**: Universal Serial Bus
+- **USB**: uniwersalna magistrala szeregowa
   - Powszechnie stosowany standard interfejsu do łączenia i komunikacji między komputerami a urządzeniami peryferyjnymi.
 
 - **UUID**: Uniwersalny unikalny identyfikator
@@ -803,7 +803,7 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 
 
 ### V
-- **VGA**: Video Graphics Array
+- **VGA**: standard macierzy grafiki wideo
   - Standard wyświetlania grafiki, popularny w wczesnych komputerach i monitorach.
 
 - **VLAN**: Wirtualna sieć lokalna
@@ -821,33 +821,33 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
 - **VRAM**: Pamięć o dostępie swobodnym do grafiki
   - Typ pamięci używany w procesorach graficznych (GPU) do przechowywania danych obrazów i wideo.
 
-- **VoIP**: Voice over Internet Protocol
+- **VoIP**: głos przez protokół internetowy
   - Technologia umożliwiająca komunikację głosową i multimedialną przez internet, często wykorzystywana do rozmów głosowych i wideo.
 
 ### W
 - **WAN**: Sieć rozległa
   - Sieć obejmująca duży obszar geograficzny, łącząca wiele sieci lokalnych (LAN) na duże odległości.
 
-- **WEP**: Wired Equivalent Privacy
+- **WEP**: prywatność równoważna połączeniu przewodowemu
   - Starszy i mniej bezpieczny protokół szyfrowania sieci bezprzewodowych.
 
 - **WLAN**: Bezprzewodowa sieć lokalna
   - Sieć lokalna wykorzystująca komunikację bezprzewodową do łączenia urządzeń na ograniczonym obszarze.
 
-- **WPA**: Wi-Fi Protected Access
+- **WPA**: chroniony dostęp Wi-Fi
   - Zestaw protokołów zabezpieczających sieci bezprzewodowe, zastępujący WEP.
 
-- **WWW**: World Wide Web
+- **WWW**: ogólnoświatowa sieć WWW
   - Globalny system połączonych dokumentów i zasobów dostępnych przez internet.
 
 ### X
-- **XML**: Extensible Markup Language
+- **XML**: rozszerzalny język znaczników
   - Tekstowy język znaczników używany do przechowywania i przesyłania danych strukturalnych.
 
-- **XSLT**: Extensible Stylesheet Language Transformations
+- **XSLT**: przekształcenia rozszerzalnego języka arkuszy stylów
   - Język służący do przekształcania dokumentów XML na różne formaty, takie jak HTML czy tekst zwykły.
 
-- **XSS**: Cross-Site Scripting
+- **XSS**: skrypty między witrynami
   - Rodzaj luki bezpieczeństwa pozwalającej atakującym na wstrzyknięcie złośliwych skryptów do stron internetowych oglądanych przez innych użytkowników.
 
 - **XaaS**: Wszystko jako usługa
@@ -867,13 +867,13 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
   - Potoczne wyrażenie podkreślające życie pełnią życia i podejmowanie ryzyka.
 
 ### Z
-- **ZAP**: Zed Attack Proxy
+- **ZAP**: proxy do testów bezpieczeństwa Zed
   - Narzędzie open-source do testowania bezpieczeństwa aplikacji webowych, pomagające wykrywać luki bezpieczeństwa.
 
-- **ZFS**: Zettabyte File System
+- **ZFS**: system plików zettabajtów
   - System plików i menedżer woluminów logicznych zaprojektowany do obsługi dużych ilości danych oraz zapewniający integralność i ochronę danych.
 
-- **ZIP**: Zone Improvement Plan
+- **ZIP**: plan poprawy strefy
   - System kodów pocztowych używany w Stanach Zjednoczonych w celu usprawnienia dostarczania poczty.
 
 - **ZPL**: Warstwa zgodna z POSIX w ZFS

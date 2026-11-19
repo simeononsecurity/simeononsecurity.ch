@@ -1,6 +1,7 @@
 ---
 title: "Glossari de Jerga Tecnològica: Guia per a Principiants d'Acrònims d'IT i Ciberseguretat"
 date: 2023-12-23
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: Desbloqueja el món de la informàtica amb aquesta guia per a principiants d'acrònims tecnològics, fent que l'aprenentatge sigui senzill per a tots els entusiastes de la tecnologia.
@@ -49,7 +50,6 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Un robot simplificat i amigable que explica acrònims tecnològics a un principiants amb entusiasme.
 coverCaption: Desxifrant la Jerga Tecnològica per a Principiants
-lastmod: 2026-11-14
 ---
 
 ## Introducció
@@ -66,7 +66,7 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **ACL**: Llista de Control d'Accés
   - Una llista de regles o permisos que determinen quins usuaris o processos del sistema tenen accés a objectes, funcions o recursos en un sistema informàtic.
 
-- **AD**: Active Directory
+- **AD**: directori actiu
   - Un servei de directori desenvolupat per Microsoft per a xarxes de domini Windows. Emmagatzema informació sobre objectes en una xarxa i fa aquesta informació disponible per a usuaris i administradors de xarxa.
 
 - **ADSL**: Línia d'Abonat Digital Asimètrica
@@ -105,10 +105,10 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **AV**: Antivirus
   - Programari dissenyat per detectar, prevenir i eliminar programari maliciós (virus, malware, etc.) d'un ordinador o xarxa.
 
-- **AWS CLI**: Interfície de Línia de Comandes d'Amazon Web Services
+- **AWS CLI**: Interfície de línia d'ordres d'Amazon Web Services (Amazon Web Services Command Line Interface)
   - Una eina de línia de comandes proporcionada per Amazon Web Services (AWS) que permet als usuaris interactuar amb els serveis AWS i gestionar recursos a través de la línia de comandes.
 
-- **AWS**: Amazon Web Services
+- **AWS**: serveis web d’Amazon
   - Una plataforma de computació en núvol oferida per Amazon que proporciona molts serveis en el núvol, incloent potència de càlcul, emmagatzematge, bases de dades, aprenentatge automàtic i més. AWS s'utilitza àmpliament per construir i allotjar aplicacions i serveis al núvol.
 
 
@@ -120,10 +120,10 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **B2C**: Negoci a Consumidor
   - Denota interaccions o comerç entre una empresa i consumidors individuals.
 
-- **BAE**: Before Anyone Else
+- **BAE**: més important que qualsevol altra persona
   - Un terme comunament utilitzat a les xarxes socials i missatgeria per expressar afecte cap a algú o alguna cosa que és una prioritat màxima.
 
-- **BAU**: Business As Usual
+- **BAU**: activitat habitual
   - Significa l'operació normal o rutinària d'una empresa o organització.
 
 - **BBQ**: Barbacoa
@@ -132,58 +132,58 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **BCC**: Còpia Oculta
   - Una funció de correu electrònic que permet enviar una còpia d'un correu a destinataris sense que els altres en el fil de correu ho sàpiguen.
 
-- **BFD**: Bidirectional Forwarding Detection
+- **BFD**: detecció bidireccional de reenviament
   - Un protocol de xarxa utilitzat per detectar ràpidament fallades en el camí de reexpedició entre dos routers.
 
-- **BGP**: Border Gateway Protocol
+- **BGP**: protocol de passarel·la fronterera
   - Un protocol d'enrutament exterior estàndard utilitzat per intercanviar informació d'enrutament entre sistemes autònoms a Internet.
 
-- **BI**: Business Intelligence
+- **BI**: intel·ligència empresarial
   - Es refereix a les tecnologies, processos i eines utilitzades per analitzar i presentar dades empresarials per prendre decisions informades.
 
-- **BIOS**: Basic Input/Output System
+- **BIOS**: sistema bàsic d’entrada i sortida
   - Un firmware que inicialitza i controla el maquinari durant el procés d'arrencada d'un ordinador.
 
-- **BIP**: Basic Image Profile
+- **BIP**: perfil bàsic d’imatge
   - Una especificació per a formats d'imatge utilitzats en càmeres digitals i altres dispositius d'imatge.
 
-- **BLOB**: Binary Large Object
+- **BLOB**: objecte binari gran
   - Un tipus de dada utilitzat per emmagatzemar dades binàries en bases de dades, com imatges, àudio o vídeo.
 
-- **BOM**: Bill of Materials
+- **BOM**: llista de materials
   - Una llista dels components i materials necessaris per fabricar un producte.
 
 - **BOT**: Robot
   - Un programa o script autònom o semi-autònom que realitza tasques, sovint a Internet.
 
-- **BPS**: Bits Per Second
+- **BPS**: bits per segon
   - Una unitat de mesura per a la velocitat de transmissió de dades, que indica quants bits es poden transmetre en un segon.
 
-- **BRB**: Be Right Back
+- **BRB**: torno de seguida
   - Una abreviatura comunament utilitzada en missatgeria o xat per indicar una absència temporal.
 
-- **BSD**: Berkeley Software Distribution
+- **BSD**: distribució de programari de Berkeley
   - Un sistema operatiu derivat de UNIX que ha influït en molts altres sistemes operatius tipus Unix.
 
-- **BSS**: Basic Service Set
+- **BSS**: conjunt bàsic de serveis
   - Un component fonamental d'una xarxa local sense fils (WLAN) que inclou dispositius clients sense fils i un punt d'accés.
 
-- **BSSA**: Base Station Subsystem Application
+- **BSSA**: aplicació del subsistema d’estació base
   - En xarxes mòbils, una aplicació de programari que gestiona la comunicació entre dispositius mòbils i l'estació base.
 
-- **BSSID**: Basic Service Set Identifier
+- **BSSID**: identificador del conjunt bàsic de serveis
   - Un identificador únic utilitzat per distingir entre múltiples punts d'accés sense fils en una sola xarxa sense fils.
 
-- **BYOA**: Bring Your Own App
+- **BYOA**: porta la teva pròpia aplicació
   - La pràctica que els empleats utilitzen les seves aplicacions de programari preferides per a tasques laborals.
 
-- **BYOB**: Bring Your Own Bottle
+- **BYOB**: porta la teva pròpia ampolla
   - Una frase que indica que els convidats han de portar les seves pròpies begudes alcohòliques a un esdeveniment.
 
-- **BYOD**: Bring Your Own Device
+- **BYOD**: porta el teu propi dispositiu
   - Una política que permet als empleats utilitzar els seus dispositius personals per a tasques relacionades amb la feina.
 
-- **BYOM**: Bring Your Own Modem
+- **BYOM**: porta el teu propi mòdem
   - Una política que permet als usuaris portar i utilitzar els seus propis modems per a la connectivitat a Internet.
 
 - **BaaS**: Backend as a Service (back-end com a servei)
@@ -191,34 +191,34 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 
 
 ### C
-- **CDN**: Content Delivery Network
+- **CDN**: xarxa de distribució de continguts
   - Un sistema de servidors distribuïts que treballen conjuntament per lliurar contingut web, com imatges, vídeos i pàgines web, als usuaris segons la seva ubicació geogràfica, assegurant un accés més ràpid i fiable.
 
-- **CI/CD**: Continuous Integration/Continuous Deployment
+- **CI/CD**: integració contínua/desplegament continu
   - Un conjunt de pràctiques de desenvolupament de programari que impliquen la construcció, prova i desplegament automàtic dels canvis de codi a producció, promovent la col·laboració i l'automatització en el procés de desenvolupament.
 
-- **CIFS**: Common Internet File System
+- **CIFS**: sistema de fitxers d’Internet comú
   - Un protocol de xarxa que permet compartir fitxers i accedir a fitxers i impressores en una xarxa, sovint associat amb el compartiment de fitxers de Windows.
 
-- **CISO**: Chief Information Security Officer
+- **CISO**: responsable de seguretat de la informació
   - Un executiu sènior responsable de supervisar i implementar l'estratègia i les polítiques de seguretat de la informació d'una organització.
 
-- **CLI**: Command Line Interface
+- **CLI**: interfície de línia d’ordres
   - Una interfície basada en text que permet als usuaris interactuar amb un programa informàtic o sistema operatiu escrivint ordres.
 
-- **CRM**: Customer Relationship Management
+- **CRM**: gestió de les relacions amb els clients
   - Una tecnologia i estratègia per gestionar i analitzar les interaccions i relacions amb els clients, normalment utilitzada per empreses per millorar la satisfacció del client i impulsar les vendes.
 
-- **CRON**: Command Run ON
+- **CRON**: execució programada d’ordres
   - Un programador de tasques basat en temps en sistemes operatius tipus Unix, utilitzat per automatitzar tasques repetitives en intervals específics.
 
-- **CSP**: Content Security Policy
+- **CSP**: política de seguretat del contingut
   - Una característica de seguretat implementada pels navegadors web per mitigar el risc d'atacs de cross-site scripting (XSS) controlant les fonts de contingut que es poden executar en una pàgina web.
 
-- **CSS**: Cascading Style Sheets
+- **CSS**: fulls d’estil en cascada
   - Un llenguatge de fulls d'estil utilitzat per descriure la presentació i format d'un document escrit en HTML, XML o altres llenguatges de marques.
 
-- **CSV**: Comma-Separated Values
+- **CSV**: valors separats per comes
   - Un format de fitxer senzill utilitzat per emmagatzemar dades tabulars, amb valors separats per comes.
 
 - **CaaS**: Container as a Service (contenidors com a servei)
@@ -229,25 +229,25 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 
 {{< figure src="tech-abbreviations-diverse-concepts.webp" alt="Una secció que mostra abreviatures relacionades amb la tecnologia. Una representació visual de diversos conceptes tecnològics." caption="Navegant per l'Alfabet Tecnològic" >}}
 
-- **DBMS**: Database Management System
+- **DBMS**: sistema de gestió de bases de dades
   - Un sistema de programari utilitzat per gestionar, emmagatzemar, recuperar i protegir dades de manera estructurada, sovint en el context de bases de dades relacionals.
 
-- **DDoS**: Distributed Denial of Service
+- **DDoS**: atac distribuït de denegació de servei
   - Un tipus d'atac cibernètic en què múltiples ordinadors compromesos s'utilitzen per saturar un sistema o xarxa objectiu amb trànsit, fent-lo inaccessible.
 
-- **DHCP**: Dynamic Host Configuration Protocol
+- **DHCP**: protocol de configuració dinàmica d’amfitrió
   - Un protocol de xarxa que automatitza l'assignació d'adreces IP i altres configuracions a dispositius en una xarxa.
 
-- **DLP**: Data Loss Prevention
+- **DLP**: prevenció de la pèrdua de dades
   - Un conjunt d'estratègies, eines i polítiques dissenyades per prevenir l'accés o distribució no autoritzada de dades sensibles dins d'una organització.
 
-- **DMZ**: Demilitarized Zone
+- **DMZ**: zona desmilitaritzada
   - Una arquitectura de xarxa que crea una zona neutral entre una xarxa interna de confiança i una xarxa externa no confiable, sovint utilitzada per millorar la seguretat.
 
-- **DNS**: Domain Name System
+- **DNS**: sistema de noms de domini
   - Un sistema que tradueix noms de domini llegibles per humans en adreces IP, permetent als usuaris accedir a llocs web i altres recursos pel seu nom.
 
-- **DOS**: Denial of Service
+- **DOS**: denegació de servei
   - Un atac cibernètic en què un sistema o xarxa objectiu és saturat amb trànsit excessiu o activitat maliciosa, fent-lo inaccesible per als usuaris.
 
 - **DOS**: Sistema Operatiu de Disc
@@ -370,7 +370,7 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **GNU**: GNU No és Unix
   - Un acrònim recursiu utilitzat per descriure el Projecte GNU, que és un projecte de programari lliure i sistema operatiu.
 
-- **GPG**: GNU Privacy Guard
+- **GPG**: protecció de la privadesa de GNU
   - Una implementació lliure i de codi obert de l'estàndard de xifrat OpenPGP utilitzada per assegurar comunicacions i dades.
 
 - **GPIO**: Entrada/Sortida de Propòsit General
@@ -635,7 +635,7 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **OSI**: Interconnexió de Sistemes Oberts
   - Un marc conceptual que estandarditza les funcions d'un sistema de telecomunicacions o informàtic en set capes distintes.
 
-- **OSPF**: Open Shortest Path First
+- **OSPF**: primer camí obert més curt
   - Un protocol d'encaminament utilitzat per a un encaminament eficient i escalable en xarxes IP, especialment dins de sistemes autònoms.
 
 - **OSS**: Programari de Codi Obert
@@ -644,11 +644,11 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **OTP**: Contrasenya d'Ús Únic
   - Una contrasenya vàlida només per a una sessió d'inici o transacció, sovint usada per a una seguretat millorada.
 
-- **OTP**: Contrasenya d'Ús Únic o One-Time Pad
+- **OTP**: Contrasenya d'ús únic o bloc de clau d'un sol ús
   - Una tècnica criptogràfica que genera una contrasenya única d'un sol ús per a comunicacions segures.
 
 ### P
-- **P2P**: Peer-to-Peer
+- **P2P**: entre iguals
   - Una arquitectura de xarxa on els dispositius es comuniquen directament entre ells, sovint usada en compartició d'arxius i computació distribuïda.
 
 - **PC**: Ordinador Personal
@@ -704,7 +704,7 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
 - **QPSK**: Modulació per Desplaçament de Fase en Quadratura
   - Un esquema de modulació usat en comunicació digital per transmetre dades variant la fase de dues ones portadores.
 
-- **Codi QR**: Codi de Resposta Ràpida
+- **QR Code**: Codi de Resposta Ràpida
   - Un codi de barres bidimensional que pot emmagatzemar una varietat d'informació, sovint usat per a recuperació ràpida de dades amb dispositius mòbils.
 
 - **QWERTY**: Distribució Estàndard de Teclat

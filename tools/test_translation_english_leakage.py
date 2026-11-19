@@ -775,7 +775,7 @@ class FencedProseTests(unittest.TestCase):
             ["BaaS: backend as a service"],
         )
         self.assertEqual(copied_english_acronym_expansions(source, localized), [])
-        self.assertEqual(copied_english_acronym_expansions(source, bilingual), [])
+        self.assertEqual(copied_english_acronym_expansions(source, bilingual, "ja"), [])
 
     def test_blocks_unchanged_acronym_expansions_without_english_stopwords(self):
         for expansion in ("Application Programming Interface", "Transport Layer Security"):
@@ -863,6 +863,117 @@ class FencedProseTests(unittest.TestCase):
         )
         self.assertEqual(copied_english_acronym_expansions(source, bilingual), [])
 
+    def test_flags_full_english_expansion_with_only_one_localized_word(self):
+        source = "- **BaaS**: Backend as a Service\n"
+        for locale, partial in (
+            ("zh", "- **BaaS**: Backend as a Service 服务\n"),
+            ("es", "- **BaaS**: Backend as a Service prestación\n"),
+            ("pl", "- **BaaS**: Backend as a Service zażółć\n"),
+        ):
+            with self.subTest(locale=locale, partial=partial):
+                self.assertEqual(
+                    copied_english_acronym_expansions(source, partial, locale),
+                    ["BaaS: copied phrase backend as a service"],
+                )
+
+    def test_cjk_bilingual_expansion_needs_a_substantial_target_script_phrase(self):
+        source = "- **BaaS**: Backend as a Service\n"
+        short = "- **BaaS**: Backend as a Service サービス\n"
+        translated = "- **BaaS**: Backend as a Service バックエンド・アズ・ア・サービス\n"
+        short_bilingual = "- **BaaS**: サービス（Backend as a Service）\n"
+        translated_bilingual = (
+            "- **BaaS**: バックエンド・アズ・ア・サービス（Backend as a Service）\n"
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(source, short, "ja"),
+            ["BaaS: copied phrase backend as a service"],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(source, translated, "ja"),
+            [],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(source, short_bilingual, "ja"),
+            ["BaaS: copied phrase backend as a service"],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(source, translated_bilingual, "ja"),
+            [],
+        )
+
+    def test_latin_bilingual_expansion_needs_two_localized_words(self):
+        source = "- **BaaS**: Backend as a Service\n"
+        short = "- **BaaS**: servicio (Backend as a Service)\n"
+        translated = "- **BaaS**: servicio de alojamiento (Backend as a Service)\n"
+        self.assertEqual(
+            copied_english_acronym_expansions(source, short, "es"),
+            ["BaaS: copied phrase backend as a service"],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(source, translated, "es"),
+            [],
+        )
+
+    def test_flags_partial_content_phrases_without_stopwords(self):
+        ssl_source = "- **SSL**: Secure Sockets Layer\n"
+        ssl_target = "- **SSL**: Capa de Secure Sockets\n"
+        cicd_source = "- **CI/CD**: Continuous Integration and Continuous Deployment\n"
+        cicd_target = "- **CI/CD**: Integración continua/continuous integration\n"
+        api_source = "- **API**: Application Programming Interface\n"
+        api_target = "- **API**: Interfaz de Application Programming\n"
+        tls_source = "- **TLS**: Transport Layer Security\n"
+        tls_target = "- **TLS**: Seguridad de Transport Layer\n"
+        access_source = "- **ACL**: Access Control List\n"
+        access_target = "- **ACL**: Control de Access\n"
+        self.assertEqual(
+            copied_english_acronym_expansions(ssl_source, ssl_target),
+            ["SSL: copied phrase secure sockets"],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(cicd_source, cicd_target),
+            ["CI/CD: copied phrase continuous integration"],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(api_source, api_target),
+            ["API: copied phrase application programming"],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(tls_source, tls_target),
+            ["TLS: copied phrase transport layer"],
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(access_source, access_target),
+            ["ACL: copied phrase access control"],
+        )
+
+    def test_non_latin_characters_do_not_excuse_an_english_expansion(self):
+        source = "- **BaaS**: Backend as a Service\n"
+        mostly_english = "- **BaaS**: Backend as a Service 服务\n"
+        localized = "- **BaaS**: Backend as a Service 服务平台扩展内容\n"
+        self.assertEqual(
+            copied_english_acronym_expansions(source, mostly_english, "zh"),
+            ["BaaS: copied phrase backend as a service"],
+        )
+        self.assertEqual(copied_english_acronym_expansions(source, localized, "zh"), [])
+
+    def test_partial_expansion_screen_ignores_brand_names_and_version_labels(self):
+        aws_source = "- **AWS CLI**: Amazon Web Services Command Line Interface\n"
+        aws_target = "- **AWS CLI**: Interfaz de línea de comandos de Amazon Web Services\n"
+        html_source = "- **HTML5**: HyperText Markup Language, version 5\n"
+        html_target = "- **HTML5**: Langue de balisage hypertexte, version 5\n"
+        bps_source = "- **BPS**: Bits Per Second\n"
+        bps_target = "- **BPS**: bits per seconde\n"
+        kbe_source = "- **KbE**: Kilobits Per Second\n"
+        kbe_target = "- **KbE**: kilobits per seconde\n"
+        self.assertEqual(copied_english_acronym_expansions(aws_source, aws_target), [])
+        self.assertEqual(copied_english_acronym_expansions(html_source, html_target), [])
+        self.assertEqual(
+            copied_english_acronym_expansions(bps_source, bps_target, "nl"), []
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(kbe_source, kbe_target, "nl"), []
+        )
+
     def test_does_not_flag_an_unchanged_brand_name_as_a_glossary_expansion(self):
         entry = "- **Android**: Tor Browser for Android\n"
         self.assertEqual(copied_english_acronym_expansions(entry, entry), [])
@@ -907,6 +1018,27 @@ class FencedProseTests(unittest.TestCase):
         source = "- **MFA**: Multi-Factor Authentication\n"
         target = "- **MFA**: ਮਲਟੀ-ਫੈਕਟਰ ਪ੍ਰਮਾਣਿਕਤਾ\n"
         self.assertEqual(missing_acronym_keys(source, target), [])
+
+    def test_non_glossary_product_list_does_not_require_fixed_glossary_keys(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "secure-email-products"
+            bundle.mkdir()
+            keys = ["ProtonMail", "StartMail"] + [f"Tool{index}Name" for index in range(18)]
+            source = "---\ntitle: 'Secure Email Services'\n---\n" + "".join(
+                f"- **{key}**: Email service\n" for key in keys
+            )
+            target = "---\ntitle: 'E-Mail-Dienste'\n---\n" + "".join(
+                f"- **{key}**: E-Mail-Dienst\n" for key in keys[2:]
+            )
+            source_path = bundle / "index.en.md"
+            source_path.write_text(source, encoding="utf-8")
+            (bundle / "index.de.md").write_text(target, encoding="utf-8")
+
+            findings = audit_bundle(source_path, ["de"])
+
+        self.assertFalse(
+            any("missing_acronym_key" in row["reasons"] for row in findings)
+        )
 
     def test_recognizes_fullwidth_colon_in_localized_glossary_entries(self):
         source = "- **ACL**: Access Control List\n"
@@ -971,7 +1103,7 @@ class FencedProseTests(unittest.TestCase):
                 f"- **AA{index}**: Définition localisée {index}\n" for index in range(19)
             )
             (bundle / "index.en.md").write_text(
-                "---\ntitle: 'Geographic information systems'\n---\n"
+                "---\ntitle: 'Geographic information systems glossary'\n---\n"
                 + source_glossary,
                 encoding="utf-8",
             )

@@ -1,6 +1,7 @@
 ---
 title: "Glossário de Jargões Tecnológicos: Um Guia para Iniciantes em TI e Acrônimos de Segurança Cibernética"
 date: 2023-12-23
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: Desbloqueie o mundo da TI com este guia para iniciantes sobre acrônimos tecnológicos, tornando o aprendizado fácil para todos os entusiastas de tecnologia.
@@ -49,7 +50,6 @@ tags:
 cover: /img/cover/Tech-Acronyms-Explained.webp
 coverAlt: Um robô simplificado e amigável explicando acrônimos tecnológicos a um iniciante com entusiasmo.
 coverCaption: Desmistificando o Jargão Tecnológico para Iniciantes
-lastmod: 2026-11-14
 ---
 
 ## Introdução
@@ -66,7 +66,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **ACL**: Lista de Controle de Acesso
   - Uma lista de regras ou permissões que determinam quais usuários ou processos do sistema têm acesso a objetos, funcionalidades ou recursos em um sistema de computador.
 
-- **AD**: Active Directory
+- **AD**: serviço de diretório ativo
   - Um serviço de diretório desenvolvido pela Microsoft para redes de domínio Windows. Ele armazena informações sobre objetos em uma rede e disponibiliza essas informações para usuários e administradores de rede.
 
 - **ADSL**: Linha de Assinante Digital Assimétrica
@@ -105,10 +105,10 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **AV**: Antivírus
   - Software projetado para detectar, prevenir e remover softwares maliciosos (vírus, malware, etc.) de um computador ou rede.
 
-- **AWS CLI**: Interface de Linha de Comando do Amazon Web Services
+- **AWS CLI**: interface de linha de comando do Amazon Web Services (Amazon Web Services Command Line Interface)
   - Uma ferramenta de linha de comando fornecida pela Amazon Web Services (AWS) que permite aos usuários interagir com os serviços AWS e gerenciar recursos via linha de comando.
 
-- **AWS**: Amazon Web Services
+- **AWS**: serviços de nuvem da Amazon
   - Uma plataforma de computação em nuvem oferecida pela Amazon que fornece muitos serviços em nuvem, incluindo poder computacional, armazenamento, bancos de dados, aprendizado de máquina e mais. AWS é amplamente usada para construir e hospedar aplicações e serviços na nuvem.
 
 
@@ -162,7 +162,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **BRB**: Já Volto
   - Uma abreviação comumente usada em mensagens de texto ou bate-papo para indicar uma ausência temporária.
 
-- **BSD**: Berkeley Software Distribution
+- **BSD**: distribuição de software Berkeley
   - Um sistema operacional derivado do UNIX que influenciou muitos outros sistemas operacionais do tipo Unix.
 
 - **BSS**: Conjunto de Serviço Básico
@@ -370,7 +370,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **GNU**: GNU Não é Unix
   - Um acrônimo recursivo usado para descrever o Projeto GNU, que é um projeto de software livre e sistema operacional.
 
-- **GPG**: GNU Privacy Guard
+- **GPG**: proteção de privacidade GNU
   - Uma implementação livre e de código aberto do padrão de criptografia OpenPGP usada para proteger comunicações e dados.
 
 - **GPIO**: Entrada/Saída de Propósito Geral
@@ -490,7 +490,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **JDK**: Kit de Desenvolvimento Java
   - Um conjunto de ferramentas de software para desenvolver aplicações Java, incluindo compilador, depurador e ambiente de execução.
 
-- **JIT**: Just-In-Time
+- **JIT**: no momento da execução
   - Uma técnica de compilação usada em máquinas virtuais que compila e executa código em tempo de execução, frequentemente usada para melhorar o desempenho de linguagens interpretadas.
 
 - **JMS**: Serviço de Mensagens Java
@@ -635,50 +635,50 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **OSI**: Interconexão de Sistemas Abertos
   - Um framework conceitual que padroniza as funções de um sistema de telecomunicações ou computação em sete camadas distintas.
 
-- **OSPF**: Open Shortest Path First
+- **OSPF**: protocolo aberto que escolhe primeiro a rota mais curta
   - Um protocolo de roteamento usado para roteamento eficiente e escalável em redes IP, particularmente dentro de sistemas autônomos.
 
-- **OSS**: Open Source Software
+- **OSS**: software de código aberto
   - Software que é lançado com uma licença que permite a qualquer pessoa visualizar, usar, modificar e distribuir o código-fonte.
 
-- **OTP**: One-Time Password
+- **OTP**: senha de uso único
   - Uma senha válida para apenas uma sessão de login ou transação, frequentemente usada para segurança aprimorada.
 
-- **OTP**: One-Time Password ou One-Time Pad
+- **OTP**: senha de uso único ou bloco de uso único
   - Uma técnica criptográfica que gera uma senha única e de uso único para comunicação segura.
 
 ### P
-- **P2P**: Peer-to-Peer
+- **P2P**: entre pares
   - Uma arquitetura de rede onde dispositivos se comunicam diretamente entre si, frequentemente usada em compartilhamento de arquivos e computação distribuída.
 
-- **PC**: Personal Computer
+- **PC**: computador pessoal
   - Um computador de uso geral projetado para uso individual, frequentemente executando sistemas operacionais de desktop.
 
-- **PDF**: Portable Document Format
+- **PDF**: formato portátil de documento
   - Um formato de arquivo usado para apresentar e trocar documentos independentemente de software, hardware e sistemas operacionais.
 
-- **PHP**: Hypertext Preprocessor
+- **PHP**: pré-processador de hipertexto
   - Uma linguagem de script popular usada para desenvolvimento web para criar páginas e aplicações web dinâmicas.
 
-- **PKI**: Public Key Infrastructure
+- **PKI**: infraestrutura de chave pública
   - Uma estrutura que fornece comunicação segura e autenticação usando chaves públicas e privadas, frequentemente usada para criptografia e assinaturas digitais.
 
-- **POP**: Post Office Protocol
+- **POP**: protocolo dos correios
   - Um protocolo padrão de email usado para recuperar mensagens de um servidor de correio para um cliente de email local.
 
-- **POP3**: Post Office Protocol, versão 3
+- **POP3**: protocolo de correio, versão 3
   - Um protocolo de email usado para receber e gerenciar mensagens de email em um servidor de correio.
 
-- **POS**: Point of Sale
+- **POS**: ponto de venda
   - O local e sistema onde um cliente realiza o pagamento por produtos ou serviços.
 
-- **POST**: Power-On Self-Test
+- **POST**: autoteste ao ligar
   - Um processo de teste diagnóstico que os componentes de hardware de um computador realizam ao serem ligados.
 
-- **PPP**: Point-to-Point Protocol
+- **PPP**: protocolo ponto a ponto
   - Um protocolo da camada de enlace de dados usado para estabelecer uma conexão direta entre dois nós em uma rede.
 
-- **PSU**: Power Supply Unit
+- **PSU**: unidade de alimentação
   - Um dispositivo que converte eletricidade de uma fonte externa na voltagem e corrente necessárias para alimentar um computador ou outros dispositivos eletrônicos.
 
 - **PaaS**: Platform as a Service (plataforma como serviço)
@@ -689,87 +689,87 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 {{< figure src="tech-concepts-diverse-terms2.webp" alt="Seções apresentando termos relacionados à tecnologia. Uma representação visual de diversos conceitos tecnológicos." caption="Jargão Tecnológico de A a Z." >}}
 
 
-- **QA**: Quality Assurance
+- **QA**: garantia da qualidade
   - O processo de garantir a qualidade e confiabilidade de produtos ou serviços por meio de testes e revisão.
 
-- **QEMU**: Quick Emulator
+- **QEMU**: emulador rápido
   - Um software de virtualização e emulação open-source que permite executar sistemas operacionais em várias plataformas host.
 
-- **QLC**: Quad-Level Cell
+- **QLC**: célula de quatro níveis
   - Um tipo de memória flash NAND que armazena quatro bits de dados por célula de memória, tornando-a adequada para armazenamento de alta capacidade.
 
-- **QPS**: Queries Per Second
+- **QPS**: consultas por segundo
   - Uma métrica usada para medir o número de consultas de banco de dados ou transações que um sistema pode processar em um segundo.
 
-- **QPSK**: Quadrature Phase Shift Keying
+- **QPSK**: modulação por chaveamento de deslocamento de fase em quadratura
   - Um esquema de modulação usado em comunicação digital para transmitir dados variando a fase de duas ondas portadoras.
 
-- **QR Code**: Quick Response Code
+- **QR Code**: código de resposta rápida
   - Um código de barras bidimensional que pode armazenar uma variedade de informações, frequentemente usado para recuperação rápida de dados com dispositivos móveis.
 
-- **QWERTY**: Standard Keyboard Layout
+- **QWERTY**: padrão de teclado QWERTY
   - O layout de teclado mais comumente usado, caracterizado pela disposição das letras na linha superior.
 
-- **QoS**: Quality of Service
+- **QoS**: qualidade do serviço
   - Um conjunto de tecnologias e mecanismos que garantem desempenho de rede confiável e previsível para aplicações ou serviços específicos.
 
-- **Qubit**: Quantum Bit
+- **Qubit**: bit quântico
   - A unidade fundamental de informação quântica na computação quântica, análoga a um bit clássico na computação tradicional, mas com propriedades quânticas únicas.
 
 ### S
-- **SAML**: Security Assertion Markup Language
+- **SAML**: linguagem de marcação de asserções de segurança
   - Uma estrutura baseada em XML para troca de dados de autenticação e autorização entre partes, frequentemente usada em sistemas de login único (SSO).
 
-- **SAN**: Storage Area Network
+- **SAN**: rede de área de armazenamento
   - Uma rede especializada de alta velocidade que conecta dispositivos de armazenamento de dados e os torna acessíveis a servidores.
 
-- **SBC**: Session Border Controller
+- **SBC**: controlador de borda de sessão
   - Um dispositivo de rede que controla sessões de comunicação em tempo real, fornecendo segurança e gerenciamento para comunicações VoIP e de vídeo.
 
-- **SDK**: Software Development Kit
+- **SDK**: kit de desenvolvimento de software
   - Um conjunto de ferramentas, bibliotecas e documentação para construir aplicações de software para uma plataforma ou framework específico.
 
-- **SIEM**: Security Information and Event Management
+- **SIEM**: gestão de informações e eventos de segurança
   - Uma solução que combina gerenciamento de informações de segurança (SIM) e gerenciamento de eventos de segurança (SEM) para fornecer análise em tempo real de alertas e eventos de segurança.
 
-- **SIM**: Subscriber Identity Module
+- **SIM**: módulo de identidade do assinante
   - Um pequeno cartão que armazena com segurança informações usadas para identificar e autenticar usuários de dispositivos móveis.
 
-- **SMB**: Server Message Block
+- **SMB**: bloco de mensagens do servidor
   - Um protocolo de compartilhamento de arquivos em rede usado para compartilhar arquivos, impressoras e outros recursos em uma rede local.
 
-- **SMTP**: Simple Mail Transfer Protocol
+- **SMTP**: protocolo simples de transferência de correio
   - Um protocolo usado para enviar e receber mensagens de email pela internet.
 
-- **SNMP**: Simple Network Management Protocol
+- **SNMP**: protocolo simples de gerenciamento de rede
   - Um protocolo usado para gerenciar e monitorar dispositivos de rede, como roteadores, switches e servidores.
 
-- **SOA**: Service-Oriented Architecture
+- **SOA**: arquitetura orientada a serviços
   - Uma abordagem de design que estrutura software como um conjunto de serviços reutilizáveis e fracamente acoplados.
 
-- **SPOF**: Single Point of Failure
+- **SPOF**: ponto único de falha
   - Um componente ou sistema que, se falhar, pode causar a falha de todo o sistema.
 
-- **SQL**: Structured Query Language
+- **SQL**: linguagem de consulta estruturada
   - Uma linguagem específica de domínio usada para gerenciar e consultar bancos de dados relacionais.
 
-- **SSD**: Solid State Drive
+- **SSD**: unidade de estado sólido
   - Um dispositivo de armazenamento de dados que usa memória flash NAND para armazenar dados, oferecendo acesso mais rápido do que discos rígidos tradicionais.
 
-- **SSH**: Secure Shell
+- **SSH**: shell seguro
   - Um protocolo de rede criptográfico usado para login remoto seguro e execução de comandos em dispositivos de rede.
 
-- **SSL**: Secure Sockets Layer
+- **SSL**: camada de soquetes seguros
   - Um protocolo de segurança obsoleto para estabelecer conexões criptografadas entre um servidor web e um navegador, substituído pelo TLS.
 
-- **SSL/TLS**: Secure Sockets Layer/Transport Layer Security
+- **SSL/TLS**: camada de soquetes seguros/segurança da camada de transporte
   - Protocolos usados para proteger a comunicação na internet criptografando dados transmitidos entre um servidor web e o navegador do cliente.
 
 - **SaaS**: Software as a Service (software como serviço)
   - Um modelo de serviço de computação em nuvem que fornece aplicações de software pela internet mediante assinatura.
 
 ### T
-- **TCP**: Transmission Control Protocol
+- **TCP**: protocolo de controle de transmissão
   - Um protocolo de rede orientado à conexão que garante a transmissão confiável de dados entre dispositivos em uma rede.
 
 - **TCP/IP**: Protocolo de Controle de Transmissão/Protocolo da Internet
@@ -837,7 +837,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **WPA**: Acesso Protegido Wi-Fi
   - Um conjunto de protocolos de segurança projetados para proteger redes sem fio, substituindo o WEP.
 
-- **WWW**: World Wide Web
+- **WWW**: rede mundial de computadores
   - Um sistema global de documentos e recursos interconectados acessíveis via internet.
 
 ### X
@@ -847,7 +847,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
 - **XSLT**: Transformações de Linguagem de Folhas de Estilo Extensível
   - Uma linguagem para transformar documentos XML em vários formatos, como HTML ou texto simples.
 
-- **XSS**: Cross-Site Scripting
+- **XSS**: script entre sites
   - Um tipo de vulnerabilidade de segurança que permite que atacantes injetem scripts maliciosos em páginas web visualizadas por outros usuários.
 
 - **XaaS**: Qualquer Coisa como Serviço
@@ -867,7 +867,7 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
   - Uma frase coloquial que enfatiza viver a vida ao máximo e correr riscos.
 
 ### Z
-- **ZAP**: Zed Attack Proxy
+- **ZAP**: proxy de ataque Zed
   - Uma ferramenta de código aberto para testes de segurança de aplicações web, projetada para ajudar a encontrar vulnerabilidades de segurança em aplicações web.
 
 - **ZFS**: Sistema de Arquivos Zettabyte
