@@ -1005,7 +1005,12 @@ def markdown_structure_differences(source: str, target: str) -> dict[str, tuple[
     }
 
 
-def copied_english_table_cells(source: str, target: str) -> list[str]:
+TABLE_SHARED_TERMS = {"ca": {"cost"}, "ro": {"cost"}}
+
+
+def copied_english_table_cells(
+    source: str, target: str, locale: str | None = None
+) -> list[str]:
     """Queue unchanged descriptive table cells for human review."""
     def tables(text: str) -> list[list[list[str]]]:
         lines = text.splitlines()
@@ -1087,6 +1092,7 @@ def copied_english_table_cells(source: str, target: str) -> list[str]:
                     and normalized in source_cells
                     and words
                     and any(word in TABLE_ENGLISH_REVIEW_WORDS for word in words)
+                    and normalized not in TABLE_SHARED_TERMS.get(locale or "", set())
                 ):
                     copied.append(
                         f"table {table_index}, row {row_index}, cell {cell_index}: {normalized}"
@@ -1149,9 +1155,15 @@ def fixed_glossary_key(key: str) -> bool:
 
 
 def copied_english_acronym_expansions(
-    source: str, target: str, locale: str | None = None
+    source: str,
+    target: str,
+    locale: str | None = None,
+    *,
+    glossary_page: bool = True,
 ) -> list[str]:
     """Find fully or substantially copied English glossary expansions."""
+    if not glossary_page:
+        return []
     entry_pattern = re.compile(
         r"^\s*[-+*]\s+\*\*(?P<key>[^*\n]+)\*\*\s*[:：]\s*(?P<expansion>.+?)\s*$"
     )
@@ -1723,13 +1735,13 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         high_confidence_english_paragraphs_found = high_confidence_english_paragraphs(body, locale)
         copied_reader_verbs = copied_english_reader_verbs(source_body, body)
         english_body_fallback = english_dominant_body(body, locale)
-        copied_table_cells = copied_english_table_cells(source_body, body)
+        copied_table_cells = copied_english_table_cells(source_body, body, locale)
         copied_headings = copied_english_headings(source_body, body)
-        copied_acronym_expansions = copied_english_acronym_expansions(
-            source_body, body, locale
-        )
         source_title = normalize(str(source_meta.get("title", "")))
         is_glossary_page = "glossary" in source_title or "acronym" in source_title
+        copied_acronym_expansions = copied_english_acronym_expansions(
+            source_body, body, locale, glossary_page=is_glossary_page
+        )
         missing_acronym_keys_found = missing_acronym_keys(
             source_body, body, glossary_page=is_glossary_page
         )

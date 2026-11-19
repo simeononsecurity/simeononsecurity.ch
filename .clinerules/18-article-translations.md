@@ -431,7 +431,9 @@
   Accents alone do not clear copied English.
   Keep fixed technical keys such as `CI/CD`, `DDoS`, and `QR Code` intact. The
   checker includes mixed-case and slash-separated acronym keys, plus `QR Code`
-  and `Qubit`, in its glossary screen.
+  and `Qubit`, in its glossary screen. It applies expansion checks only when the
+  English title contains “glossary” or “acronym”; outside glossary articles, a
+  fixed key can introduce a product or tool list rather than an expansion.
   Keep the acronym key itself unchanged. Treat `missing_acronym_key` as a
   blocking finding and restore the source key while localizing its expansion.
   Review unchanged one-word technical terms in context. Keep them only when the
@@ -440,6 +442,8 @@
   Table-cell copy findings compare cells within the same table even when a
   translation changes row or column order. Inspect each flagged cell against
   its localized row and do not dismiss it because its coordinates changed.
+  A standalone `Cost` cell is valid in Catalan and Romanian; the checker exempts
+  only that exact word, not longer English labels such as `Cost per user`.
   Translate common English prose verbs when they appear inside localized
   paragraphs. The checker blocks source-matching verbs such as `offers`,
   `provides`, `includes`, and `supports`, even when the rest of the paragraph

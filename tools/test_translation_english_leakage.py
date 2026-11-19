@@ -191,6 +191,19 @@ class FencedProseTests(unittest.TestCase):
             ["table 1, row 1, cell 1: responsive assistant"],
         )
 
+    def test_accepts_cost_as_a_shared_catalan_and_romanian_table_word(self):
+        table = "| Cost |\n| --- |\n"
+        self.assertEqual(copied_english_table_cells(table, table, "ca"), [])
+        self.assertEqual(copied_english_table_cells(table, table, "ro"), [])
+        self.assertEqual(
+            copied_english_table_cells(
+                "| Cost per user |\n| --- |\n",
+                "| Cost per user |\n| --- |\n",
+                "ca",
+            ),
+            ["table 1, row 1, cell 1: cost per user"],
+        )
+
     def test_ignores_table_like_content_inside_code_fence(self):
         source = "```bash\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
         target = source
@@ -1058,6 +1071,28 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertFalse(
             any("missing_acronym_key" in row["reasons"] for row in findings)
+        )
+
+    def test_non_glossary_ci_cd_tool_list_is_not_checked_as_an_acronym_expansion(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "configuration-tools"
+            bundle.mkdir()
+            source_path = bundle / "index.en.md"
+            source_path.write_text(
+                "---\ntitle: 'Compare CI/CD Tools'\n---\n"
+                "- **CI/CD**: Easily integrated with Jenkins, GitLab CI, and GitHub Actions.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.es.md").write_text(
+                "---\ntitle: 'Comparar herramientas de CI/CD'\n---\n"
+                "- **CI/CD**: Se integra fácilmente con Jenkins, GitLab CI y GitHub Actions.\n",
+                encoding="utf-8",
+            )
+
+            findings = audit_bundle(source_path, ["es"])
+
+        self.assertFalse(
+            any("copied_english_acronym_expansion" in row["reasons"] for row in findings)
         )
 
     def test_recognizes_fullwidth_colon_in_localized_glossary_entries(self):
