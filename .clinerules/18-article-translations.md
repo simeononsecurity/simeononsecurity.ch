@@ -48,6 +48,11 @@
   mismatch instead of reading a candidate that the author is still changing.
 - Compare section structure against English. A translation with far fewer
   headings needs inspection for an older or incomplete source revision.
+- Treat a heading-count or heading-level mismatch as a blocking completeness
+  defect. The strict leakage gate blocks `markdown_heading_levels_mismatch`;
+  do not approve a locale until every source section has a translated
+  counterpart, even when the existing prose is fluent and the locale file
+  exists.
 - Use script-aware checks for completeness. Whitespace word counts undercount
   Chinese and Japanese; compare sections, lists, links, and reader-facing
   content against the source before marking a file incomplete or complete.
@@ -266,6 +271,10 @@
   `Server 2019`. Keep these fixed names when the source identifies those
   products; translate surrounding headings and prose. Do not widen the
   exemption to generic cells such as `server`, `capacity`, or `description`.
+- Add a confirmed generic English phrase to the strict fallback checker only
+  with a narrow regression fixture. For example, `GPS wardriving` is a
+  reader-facing capability description. Localize it while preserving fixed
+  identifiers such as GPS, Wi-Fi, and product names.
 - When a script splits a Markdown file on `---`, validate the split parts before
   writing. With Python `text.split('---', 2)`, part 0 is the prefix before the
   opening delimiter, part 1 is front matter, and part 2 is the body. Assert the
@@ -609,6 +618,10 @@
   The `Translation English Fallback Check` workflow runs the high-confidence
   fallback screen on article changes. Run the same gate locally with
   `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
+  Strict mode also blocks `translation_missing`; a zero exit requires every
+  configured locale file to exist. Keep the recursive configured-locale
+  inventory separate because the strict language gate does not validate
+  translation completeness or source structure.
   It blocks exact English-body copies, copied English prose verbs, copied English expansions in glossary
   entries or lowercase parenthetical prose without a localized explanation,
   copied labels for localized first-party article links, copied English
@@ -682,6 +695,12 @@
 
 ## Commit and Integrate Reviewed Bundles
 
+- Before copying or staging a completed bundle, derive the non-English locale set
+  from `config/_default/config.toml` in the validation script. Compare the exact
+  source, candidate, and destination locale-code sets; stop on any missing or
+  extra path. Do not hand-type a locale list in a copy or `git add` command. A
+  strict leakage scan can report a missing translation without making the
+  omission obvious in a long manual file list.
 - Before committing a locale bundle, stage its exact reviewed paths and run
   `git diff --cached --check`. Fix extra blank lines at end of newly created
   translation files before commit. Any edit after peer approval requires a new
