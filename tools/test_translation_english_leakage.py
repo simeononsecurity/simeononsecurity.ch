@@ -24,6 +24,7 @@ from check_translation_english_leakage import (
     copied_english_opening,
     copied_english_prose_paragraphs,
     copied_english_taxonomy,
+    copied_generic_english_taxonomy,
     copied_english_table_cells,
     taxonomy_count_differences,
     copied_reader_fenced_examples,
@@ -36,6 +37,7 @@ from check_translation_english_leakage import (
     copied_english_reader_verbs,
     english_dominant_body,
     english_dominant_title,
+    english_dominant_title_review,
     main as checker_main,
     markdown_structure,
     markdown_structure_differences,
@@ -57,6 +59,8 @@ class FencedProseTests(unittest.TestCase):
             english_dominant_title("Protect Your Data Now", "fr")
         )
         self.assertTrue(english_dominant_title("Security Incident", "de"))
+        self.assertTrue(english_dominant_title("Security Showdown", "pl"))
+        self.assertTrue(english_dominant_title("Secure Browsers", "pl"))
         self.assertTrue(english_dominant_title("Network Breach", "de"))
         self.assertTrue(english_dominant_title("RFID Skimming Attacks", "fr"))
         self.assertTrue(
@@ -64,8 +68,11 @@ class FencedProseTests(unittest.TestCase):
                 "Zero Trust Security Benefits and Challenges", "fr"
             )
         )
-        self.assertTrue(
+        self.assertFalse(
             english_dominant_title("The Legend of Zelda: A Link to the Past", "fr")
+        )
+        self.assertTrue(
+            english_dominant_title_review("The Legend of Zelda: A Link to the Past", "fr")
         )
         self.assertTrue(
             english_dominant_title(
@@ -96,13 +103,26 @@ class FencedProseTests(unittest.TestCase):
             )
         )
         self.assertFalse(english_dominant_title("Azure DevOps vs GitHub", "fr"))
+        self.assertFalse(english_dominant_title("Flipper Zero: la guía completa para hackers y makers", "es"))
+        self.assertFalse(english_dominant_title("Privacy beschermen: de CCPA en uw rechten begrijpen", "nl"))
+        self.assertFalse(english_dominant_title("Virtualisatie ontsluiten: meer IT-efficiëntie en schaalbaarheid", "nl"))
+        self.assertFalse(english_dominant_title("Ubiquiti Unifi et TP-Link Omada : quel système réseau choisir ?", "fr"))
+        self.assertTrue(english_dominant_title("Best Practices für sichere Codierung", "de"))
+        self.assertTrue(english_dominant_title("Top Secure Browsers for Privacy Protection", "pl"))
+        self.assertTrue(english_dominant_title("Cloud Security Showdown", "pl"))
+        self.assertTrue(english_dominant_title("A Comprehensive Guide", "pl"))
+        self.assertTrue(
+            english_dominant_title("TOP SECURE BROWSERS FOR PRIVACY PROTECTION", "pl")
+        )
+        self.assertTrue(english_dominant_title_review("10 plugins, compétences et outils MCP pour Claude Code : guide pratique", "fr"))
         self.assertFalse(
             english_dominant_title(
                 "Kreditkarten schützen: RFID-Skimming abwehren", "de"
             )
         )
-        self.assertTrue(english_dominant_title("RFID Skimming", "de"))
-        self.assertTrue(english_dominant_title("Skimming Attacks abwehren", "de"))
+        self.assertFalse(english_dominant_title("RFID Skimming", "de"))
+        self.assertFalse(english_dominant_title("Skimming Attacks abwehren", "de"))
+        self.assertTrue(english_dominant_title_review("Skimming Attacks abwehren", "de"))
         self.assertFalse(
             english_dominant_title(
                 "Comment protéger votre carte contre le vol", "fr"
@@ -451,7 +471,64 @@ class FencedProseTests(unittest.TestCase):
                         rows = list(csv.DictReader(report))
                     row = next(row for row in rows if row["locale"] == "fr")
                     self.assertIn(expected_reason, row["reasons"])
-                    self.assertEqual(row["english_dominant_title"], target_title)
+                    field = (
+                        "english_dominant_title_review"
+                        if expected_reason == "english_dominant_title_review"
+                        else "english_dominant_title"
+                    )
+                    self.assertEqual(row[field], target_title)
+
+    def test_queues_retained_english_vs_comparator_for_title_review(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "networking"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Ubiquiti Unifi vs TP-Link Omada'\n---\n"
+                "The source compares two networking systems and their features.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.pt.md").write_text(
+                "---\ntitle: 'Ubiquiti Unifi vs TP-Link Omada: qual sistema escolher?'\n---\n"
+                "Este artigo compara dois sistemas de rede e seus recursos.\n",
+                encoding="utf-8",
+            )
+            csv_path = Path(temporary_directory) / "findings.csv"
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["pt"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", "--csv", str(csv_path), str(bundle)]),
+                redirect_stdout(io.StringIO()),
+            ):
+                result = checker_main()
+            self.assertEqual(result, 0)
+            with csv_path.open(newline="", encoding="utf-8") as report:
+                row = next(csv.DictReader(report))
+            self.assertIn("copied_english_title_comparator", row["reasons"])
+
+    def test_does_not_treat_vs_code_product_name_as_a_comparator(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "vscode-extensions"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Best VS Code Extensions for C++ Development'\n---\n"
+                "The source describes useful extensions for C++ developers.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Meilleures extensions VS Code pour le développement C++'\n---\n"
+                "Cet article présente des extensions utiles pour les développeurs C++.\n",
+                encoding="utf-8",
+            )
+            csv_path = Path(temporary_directory) / "findings.csv"
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", "--csv", str(csv_path), str(bundle)]),
+                redirect_stdout(io.StringIO()),
+            ):
+                result = checker_main()
+            self.assertEqual(result, 0)
+            with csv_path.open(newline="", encoding="utf-8") as report:
+                rows = list(csv.DictReader(report))
+            self.assertEqual(rows, [])
 
     def test_blocks_one_copied_english_prose_paragraph_inside_a_translation(self):
         source = (
@@ -584,6 +661,35 @@ class FencedProseTests(unittest.TestCase):
             ],
         )
 
+    def test_flags_known_untranslated_generic_table_labels(self):
+        for label in (
+            "Model A",
+            "Model B",
+            "Model C",
+            "Total certifications",
+            "with fallback",
+            "Plug-and-play",
+            "Infrastructure as Code",
+        ):
+            with self.subTest(label=label):
+                table = f"| {label} |\n| --- |\n"
+                self.assertEqual(
+                    copied_english_table_cells(table, table, "fr"),
+                    [f"table 1, row 1, cell 1: {normalize(label)}"],
+                )
+
+    def test_ignores_localized_versions_of_generic_table_labels(self):
+        source = (
+            "| Model A | Total certifications | with fallback |\n"
+            "| --- | --- | --- |\n"
+        )
+        for target in (
+            "| Modelo A | Nombre total de certifications | Claude Opus 5.5, max（フォールバックあり） |\n"
+            "| --- | --- | --- |\n",
+        ):
+            with self.subTest(target=target):
+                self.assertEqual(copied_english_table_cells(source, target, "fr"), [])
+
     def test_flags_short_project_and_responsive_assistant_table_labels(self):
         self.assertEqual(
             copied_english_table_cells("| Short project |\n| --- |\n", "| Short project |\n| --- |\n"),
@@ -608,10 +714,24 @@ class FencedProseTests(unittest.TestCase):
         )
 
     def test_accepts_exact_fixed_product_names_in_table_cells(self):
-        for name in ("Server 2019", "Azure"):
+        for name in (
+            "Server 2019",
+            "Azure",
+            "Defender for Cloud",
+            "PCI DSS Level 1",
+            "SQL Database, Database for MySQL/PostgreSQL",
+            "Cache for Redis",
+            "Speech-to-Text, Text-to-Speech",
+            "Database for PostgreSQL",
+            "Migrate for Compute Engine",
+            "N/A",
+            "N/A (BigQuery, Dataplex)",
+        ):
             with self.subTest(name=name):
                 table = f"| {name} |\n| --- |\n"
                 self.assertEqual(copied_english_table_cells(table, table, "de"), [])
+        performance = "| Performance |\n| --- |\n"
+        self.assertEqual(copied_english_table_cells(performance, performance, "fr"), [])
 
     def test_ignores_table_like_content_inside_code_fence(self):
         source = "```bash\n| Method | Mean prefix reuse per trial |\n| --- | --- |\n```"
@@ -1165,6 +1285,72 @@ class FencedProseTests(unittest.TestCase):
             ),
             {"tags": ["FISMA", "cybersecurity"]},
         )
+
+    def test_identifies_unchanged_generic_english_taxonomy_labels(self):
+        source = {
+            "genre": ["Data Privacy", "Python Security"],
+            "tags": ["ad-blocking", "cross-platform", "Python interpreter", "FISMA"],
+        }
+        target = {
+            "genre": ["Data Privacy", "Sicherheit für Python"],
+            "tags": ["ad-blocking", "cross-platform", "Python interpreter", "FISMA"],
+        }
+
+        self.assertEqual(
+            copied_generic_english_taxonomy(source, target),
+            {
+                "genre": ["Data Privacy"],
+                "tags": ["Python interpreter", "ad-blocking", "cross-platform"],
+            },
+        )
+        self.assertEqual(
+            copied_generic_english_taxonomy(source, target, "de"),
+            {
+                "genre": ["Data Privacy"],
+                "tags": ["ad-blocking", "cross-platform"],
+            },
+        )
+        self.assertEqual(
+            copied_generic_english_taxonomy(source, target, "nl"),
+            {
+                "genre": ["Data Privacy"],
+                "tags": ["ad-blocking", "cross-platform"],
+            },
+        )
+        self.assertEqual(
+            copied_generic_english_taxonomy(source, target, "fr"),
+            {
+                "genre": ["Data Privacy"],
+                "tags": ["Python interpreter", "ad-blocking", "cross-platform"],
+            },
+        )
+
+    def test_strict_gate_blocks_unchanged_generic_english_taxonomy(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "browser-guide"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                '---\ntitle: "Browser privacy guide"\ntags: ["ad-blocking"]\n---\n'
+                "This article explains how browser extensions block advertising and protect privacy.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.nl.md").write_text(
+                '---\ntitle: "Gids voor browserprivacy"\ntags: ["ad-blocking"]\n---\n'
+                "Dit artikel legt uit hoe browserextensies advertenties blokkeren en privacy beschermen.\n",
+                encoding="utf-8",
+            )
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["nl"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", str(bundle)],
+                ),
+                redirect_stdout(io.StringIO()),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
 
     def test_flags_unchanged_headings_for_context_review(self):
         source = (

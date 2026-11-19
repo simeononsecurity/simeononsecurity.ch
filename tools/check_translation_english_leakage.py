@@ -42,10 +42,11 @@ ENGLISH_STOPWORDS = set(
 )
 ENGLISH_TITLE_TERMS = set(
     "attacks benefits best business cards challenge challenges cloud compare "
-    "comparison components complete credit data guide how introduction keep "
+    "comparison components complete comprehensive credit data guide how introduction keep "
     "key legend link model network now option overview past personal practices "
-    "privacy protect protecting protection review right risk safe security "
-    "skimming steps trust zero future"
+    "privacy protect protecting protection review right risk safe secure security "
+    "top browser browsers "
+    "showdown skimming steps trust zero future incident breach"
     .split()
 )
 LOCALE_TITLE_LOANWORDS = {"de": {"skimming"}}
@@ -65,6 +66,25 @@ TABLE_ENGLISH_REVIEW_WORDS = ENGLISH_STOPWORDS | set(
     "what check example setting location boundary control short project responsive assistant"
     .split()
 )
+TABLE_UNTRANSLATED_GENERIC_LABELS = {
+    "model a",
+    "model b",
+    "model c",
+    "total certifications",
+    "with fallback",
+    "plug and play",
+}
+GENERIC_ENGLISH_TAXONOMY_LABELS = {
+    "ad blocking",
+    "cross platform",
+    "data privacy",
+    "python interpreter",
+    "python security documentation",
+}
+LOCALE_ACCEPTED_TAXONOMY_LOANWORDS = {
+    "de": {"python interpreter"},
+    "nl": {"python interpreter"},
+}
 GENERIC_ENGLISH_LINK_LABELS = {
     "here",
     "click",
@@ -122,7 +142,7 @@ CSV_FIELDS = [
     "copied_english_table_cells", "copied_english_headings",
     "copied_english_metadata", "taxonomy_count_differences",
     "expected_script_ratio", "copied_english_opening", "copied_link_labels",
-    "english_dominant_title",
+    "english_dominant_title", "english_dominant_title_review",
     "copied_english_link_connectors",
     "copied_english_internal_link_labels",
     "copied_english_reader_verbs",
@@ -295,16 +315,53 @@ def copied_english_taxonomy(source: dict, target: dict) -> dict[str, list[str]]:
     return copied
 
 
+def copied_generic_english_taxonomy(
+    source: dict, target: dict, locale: str = ""
+) -> dict[str, list[str]]:
+    """Find unchanged generic English genre/tag values that must be localized."""
+    copied = copied_english_taxonomy(source, target)
+    accepted_loanwords = LOCALE_ACCEPTED_TAXONOMY_LOANWORDS.get(locale, set())
+    return {
+        key: [
+            value for value in values
+            if normalize(value) in GENERIC_ENGLISH_TAXONOMY_LABELS
+            and normalize(value) not in accepted_loanwords
+        ]
+        for key, values in copied.items()
+        if any(
+            normalize(value) in GENERIC_ENGLISH_TAXONOMY_LABELS
+            and normalize(value) not in accepted_loanwords
+            for value in values
+        )
+    }
+
+
 def english_dominant_title(title: str, locale: str) -> bool:
-    """Flag English descriptive titles, including English subtitles in mixed titles."""
+    """Flag high-confidence English title segments, including mixed titles."""
+    high_confidence, _needs_review = english_title_signals(title, locale)
+    return high_confidence
+
+
+def english_dominant_title_review(title: str, locale: str) -> bool:
+    """Queue ambiguous English-looking titles for a human source comparison."""
+    _high_confidence, needs_review = english_title_signals(title, locale)
+    return needs_review
+
+
+def english_title_signals(title: str, locale: str) -> tuple[bool, bool]:
+    """Separate clear English titles from titles that only need manual review."""
     title_without_fixed_term = re.sub(
         r"\bzero[\s-]+trust\b", " ", title, flags=re.I
     )
+    title_without_fixed_term = re.sub(
+        r"\bflipper[\s-]+zero\b", "Flipper", title_without_fixed_term, flags=re.I
+    )
     english_terms = ENGLISH_STOPWORDS | ENGLISH_TITLE_TERMS
     locale_words = LOCALE_STOPWORDS.get(locale, set())
-    for raw_segment in re.split(r"[:;|.!?–—-]", title_without_fixed_term):
+    for raw_segment in re.split(r"[:;|.!?–—]", title_without_fixed_term):
         segment = normalize(raw_segment).lower()
-        words = re.findall(r"[^\W_]+(?:['’][^\W_]+)?", segment, re.UNICODE)
+        raw_words = re.findall(r"[^\W_]+(?:['’][^\W_]+)?", raw_segment, re.UNICODE)
+        words = [word.lower() for word in raw_words]
         if len(words) < 2:
             continue
         has_localized_loanword_phrase = segment in LOCALE_TITLE_LOANWORD_PHRASES.get(
@@ -315,15 +372,30 @@ def english_dominant_title(title: str, locale: str) -> bool:
             if has_localized_loanword_phrase
             else english_terms
         )
-        english_matches = sum(word in segment_english_terms for word in words)
+        english_matches = sum(
+            word in segment_english_terms
+            and word not in locale_words
+            and (not raw_word.isupper() or word in ENGLISH_TITLE_TERMS)
+            for word, raw_word in zip(words, raw_words)
+        )
         english_ratio = english_matches / len(words)
         locale_ratio = sum(word in locale_words for word in words) / len(words)
         if english_ratio < 0.40 or locale_ratio >= 0.25:
             continue
         script_ratio_value = script_ratio(segment, locale)
-        if script_ratio_value is None or script_ratio_value < 0.25:
-            return True
-    return False
+        if script_ratio_value is not None and script_ratio_value >= 0.25:
+            continue
+        content_matches = sum(
+            word in ENGLISH_TITLE_TERMS
+            and word not in LOCALE_TITLE_LOANWORDS.get(locale, set())
+            and word not in locale_words
+            for word, raw_word in zip(words, raw_words)
+        )
+        if content_matches >= 2:
+            return True, False
+        if content_matches >= 1:
+            return False, True
+    return False, False
 
 
 def copied_english_inline_acronym_expansions(
@@ -1208,8 +1280,20 @@ def markdown_structure_differences(source: str, target: str) -> dict[str, tuple[
     }
 
 
-TABLE_SHARED_TERMS = {"ca": {"cost"}, "ro": {"cost"}}
-TABLE_FIXED_NAMES = {"azure", "server 2019"}
+TABLE_SHARED_TERMS = {"ca": {"cost"}, "fr": {"performance"}, "ro": {"cost"}}
+TABLE_FIXED_NAMES = {
+    "azure",
+    "server 2019",
+    "defender for cloud",
+    "pci dss level 1",
+    "sql database database for mysql postgresql",
+    "cache for redis",
+    "speech to text text to speech",
+    "database for postgresql",
+    "migrate for compute engine",
+    "n a",
+    "n a bigquery dataplex",
+}
 
 
 def copied_english_table_cells(
@@ -1293,9 +1377,15 @@ def copied_english_table_cells(
                 words = normalized.split()
                 if (
                     normalized
-                    and normalized in source_cells
+                    and (
+                        normalized in source_cells
+                        or normalized in TABLE_UNTRANSLATED_GENERIC_LABELS
+                    )
                     and words
-                    and any(word in TABLE_ENGLISH_REVIEW_WORDS for word in words)
+                    and (
+                        normalized in TABLE_UNTRANSLATED_GENERIC_LABELS
+                        or any(word in TABLE_ENGLISH_REVIEW_WORDS for word in words)
+                    )
                     and normalized not in TABLE_FIXED_NAMES
                     and normalized not in TABLE_SHARED_TERMS.get(locale or "", set())
                 ):
@@ -1961,16 +2051,23 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_opening = copied_english_opening(source_body, body)
         title = str(metadata.get("title", ""))
         english_title_fallback = english_dominant_title(title, locale)
+        english_title_review = english_dominant_title_review(title, locale)
         source_title_text = str(source_meta.get("title", ""))
         title_matches_source = normalize(title) == normalize(source_title_text)
         if copied_opening:
             reasons.append("copied_english_opening")
-        if english_title_fallback:
-            reasons.append(
-                "english_dominant_title_review"
-                if title_matches_source
-                else "high_confidence_english_title"
-            )
+        if title_matches_source and (english_title_fallback or english_title_review):
+            reasons.append("english_dominant_title_review")
+        elif english_title_fallback:
+            reasons.append("high_confidence_english_title")
+        elif english_title_review:
+            reasons.append("english_dominant_title_review")
+        source_comparison_title = re.sub(r"\bVS Code\b", " ", source_title_text, flags=re.I)
+        target_comparison_title = re.sub(r"\bVS Code\b", " ", title, flags=re.I)
+        source_has_vs = re.search(r"\bvs\.?(?=\s|$|[,:;!?])", source_comparison_title, flags=re.I)
+        target_has_vs = re.search(r"\bvs\.?(?=\s|$|[,:;!?])", target_comparison_title, flags=re.I)
+        if source_has_vs and target_has_vs and not title_matches_source:
+            reasons.append("copied_english_title_comparator")
         if copied_body:
             reasons.append("copied_english_body")
         if misplaced:
@@ -1983,6 +2080,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             and normalize(str(metadata[key])) == normalize(str(source_meta[key]))
         ]
         copied_taxonomy = copied_english_taxonomy(source_meta, metadata)
+        copied_generic_taxonomy = copied_generic_english_taxonomy(
+            source_meta, metadata, locale
+        )
         taxonomy_counts = taxonomy_count_differences(source_meta, metadata)
         metadata_keys = copied_metadata + sorted(copied_taxonomy)
         if len(prose.strip()) < 30:
@@ -2036,6 +2136,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("expected_script_missing")
         if metadata_keys:
             reasons.append("English_reader_metadata_copy:" + ",".join(metadata_keys))
+        if copied_generic_taxonomy:
+            reasons.append("copied_generic_english_taxonomy")
         if taxonomy_counts:
             reasons.append("taxonomy_count_mismatch:" + ",".join(sorted(taxonomy_counts)))
         copied_link_labels = copied_english_link_labels(source_body, body)
@@ -2082,6 +2184,7 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                     + [f"{key}: {', '.join(values)}" for key, values in copied_taxonomy.items()]
                 ),
                 "english_dominant_title": title if english_title_fallback else "",
+                "english_dominant_title_review": title if english_title_review else "",
                 "taxonomy_count_differences": json.dumps(
                     taxonomy_counts, ensure_ascii=False, sort_keys=True
                 ),
@@ -2156,6 +2259,7 @@ def main() -> int:
             "missing_acronym_key",
             "copied_english_internal_link_label",
             "English_reader_table_cell_copy",
+            "copied_generic_english_taxonomy",
         }
         blockers = [
             row for row in findings
