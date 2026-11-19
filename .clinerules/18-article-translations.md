@@ -26,6 +26,14 @@
   can miss bundles or count drafts as published.
 - Check existing files for valid YAML, published status, nonempty translated
   bodies, and missing sections. File existence alone does not establish coverage.
+- Before dispatching a bundle, compute its English source hash from the current
+  checkout and compare it with the recorded claim. Give the same verified hash
+  to the writer. If a writer reports a mismatch, stop before copying or editing
+  candidate files, then reconcile the claim and current source hash.
+- Before forwarding or applying peer-review findings, verify the report names
+  the assigned bundle and its English source hash. Compare each cited phrase
+  with that exact source; quarantine findings about another article instead of
+  applying them to the current candidate.
 - Compare section structure against English. A translation with far fewer
   headings needs inspection for an older or incomplete source revision.
 - When work is split into language batches, derive the complete language list
@@ -51,6 +59,11 @@
   Localize ordinary glossary term keys, such as “firewall,” when the target
   language has a conventional term. Preserve fixed acronym keys such as `ACL`,
   `CI/CD`, and `QR Code`.
+- Apply the same rule to acronym expansions in ordinary article prose. Keep the
+  acronym, but translate reader-facing expansions such as “software as a
+  service” unless the English wording is a formal product name or exact UI label.
+  Do not leave a standard expansion in English only because the acronym is
+  familiar to the target audience.
 - Check false friends that change evidence-handling meaning. For example,
   “unredacted evidence” means sensitive details remain present, not that evidence
   is unedited or unremediated. Keep such evidence only in the approved private
@@ -69,6 +82,13 @@
   `lastmod` in every changed locale file. Existing translations can carry
   different older dates, so verify the complete changed-file set instead of
   replacing only one known date value.
+- In fenced examples, preserve executable syntax, commands, identifiers, and
+  literal output. Translate natural-language comments and reader instructions
+  inside the fence, including lines such as `# Build and flash for Atom Lite`.
+  Treat comment markers as code syntax, not as proof that the words after them
+  are fixed technical text. Compare each reader-facing comment with its source
+  counterpart and inspect code-prose fallback findings before freezing a
+  candidate.
 - Before broad phrase replacements, protect or recheck fixed asset paths such as
   `cover`. Replacing a translated term can also mutate a lowercase filename.
   Compare every fixed path with the English source after edits.
@@ -126,6 +146,18 @@
   alone never establishes translated coverage.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
+
+## Keep the English-Fallback Gate Runnable
+
+- The full `tools/check_translation_english_leakage.py --all` scan takes longer
+  than 10 minutes on the current article corpus. Set
+  `.github/workflows/translation-english-fallback.yml` to a timeout of at least
+  30 minutes so the checker finishes. Confirm the CSV is complete and inspect
+  high-confidence prose findings before treating a run as a pass.
+- The table-cell checker exempts only the exact product-name cells `Azure` and
+  `Server 2019`. Keep these fixed names when the source identifies those
+  products; translate surrounding headings and prose. Do not widen the
+  exemption to generic cells such as `server`, `capacity`, or `description`.
 - When a script splits a Markdown file on `---`, validate the split parts before
   writing. With Python `text.split('---', 2)`, part 0 is the prefix before the
   opening delimiter, part 1 is front matter, and part 2 is the body. Assert the
