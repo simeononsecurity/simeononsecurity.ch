@@ -40,6 +40,14 @@ ENGLISH_STOPWORDS = set(
     "may might could would must been being"
     .split()
 )
+ENGLISH_TITLE_TERMS = set(
+    "attacks benefits best business cards challenge challenges cloud compare "
+    "comparison components complete credit data guide how introduction keep "
+    "key legend link model network now option overview past personal practices "
+    "privacy protect protecting protection review right risk safe security "
+    "skimming steps trust zero"
+    .split()
+)
 ENGLISH_READER_VERBS = {
     "allows", "enables", "ensures", "follows", "helps", "includes", "means",
     "offers", "provides", "remains", "requires", "supports", "uses", "works",
@@ -83,6 +91,24 @@ LOCALE_STOPWORDS = {
     "pt": set("o a os as um uma e ou de que em para por com é são não do da dos das como se também".split()),
     "ro": set("a și de în la este sunt cu pentru din nu pe un o că ca aceasta acești".split()),
 }
+LOCALE_ACRONYM_LOCALIZATION_MARKERS = {
+    "de": set(
+        "datenübertrag geschütz sicher sicherheit verschlüssel verbindung "
+        "übertrag nahfeldkommunik privat privates privater virtuell virtuelle "
+        "virtuelles netzwerk"
+        .split()
+    ),
+    "nl": set(
+        "beveilig contactloz gegevens bescherming versleutel veilig veiligheid verbinding "
+        "overdracht belangrijkste onderdeel privé privénetwerk virtueel virtuele "
+        "netwerk"
+        .split()
+    ),
+    "pt": set(
+        "dados rede privad segurança segur conexã protocol proteg virtual transfer"
+        .split()
+    ),
+}
 CSV_FIELDS = [
     "path", "locale", "reasons", "tokens", "english_stopword_ratio",
     "locale_stopword_ratio", "exact_english_paragraphs",
@@ -92,10 +118,12 @@ CSV_FIELDS = [
     "copied_english_table_cells", "copied_english_headings",
     "copied_english_metadata", "taxonomy_count_differences",
     "expected_script_ratio", "copied_english_opening", "copied_link_labels",
+    "english_dominant_title",
     "copied_english_link_connectors",
     "copied_english_internal_link_labels",
     "copied_english_reader_verbs",
     "copied_english_acronym_expansions",
+    "copied_english_inline_acronym_expansion_review",
     "missing_acronym_keys",
     "english_reader_code_prose_fallback",
     "high_confidence_english_paragraphs",
@@ -261,6 +289,168 @@ def copied_english_taxonomy(source: dict, target: dict) -> dict[str, list[str]]:
         if values:
             copied[key] = sorted(set(values))
     return copied
+
+
+def english_dominant_title(title: str, locale: str) -> bool:
+    """Flag English descriptive titles, including English subtitles in mixed titles."""
+    title_without_fixed_term = re.sub(
+        r"\bzero[\s-]+trust\b", " ", title, flags=re.I
+    )
+    english_terms = ENGLISH_STOPWORDS | ENGLISH_TITLE_TERMS
+    locale_words = LOCALE_STOPWORDS.get(locale, set())
+    for raw_segment in re.split(r"[:;|.!?–—-]", title_without_fixed_term):
+        segment = normalize(raw_segment).lower()
+        words = re.findall(r"[a-z]+(?:'[a-z]+)?", segment)
+        if len(words) < 2:
+            continue
+        english_ratio = sum(word in english_terms for word in words) / len(words)
+        locale_ratio = sum(word in locale_words for word in words) / len(words)
+        if english_ratio < 0.40 or locale_ratio >= 0.25:
+            continue
+        script_ratio_value = script_ratio(segment, locale)
+        if script_ratio_value is None or script_ratio_value < 0.25:
+            return True
+    return False
+
+
+def copied_english_inline_acronym_expansions(
+    source: str, target: str, locale: str
+) -> tuple[list[str], list[str]]:
+    """Find copied acronym expansions in prose and queue likely proper names."""
+    pattern = re.compile(
+        r"\b(?P<key>(?:[A-Z][a-z]+(?:[A-Z][A-Za-z0-9]*)+|[A-Z][A-Z0-9/&.-]{1,}[a-z]?))\s*"
+        r"(?:[-‐‑][^\W_]+)*\s*"
+        r"\(\s*(?P<expansion>[^()\n]{4,240})\s*\)"
+    )
+    target_parenthetical = re.compile(
+        r"(?P<key>[^\s()]+)\s*\(\s*(?P<expansion>[^()\n]{4,240})\s*\)",
+        re.UNICODE,
+    )
+    glossary_entry = re.compile(r"^[-*+]\s+\*\*[A-Z][A-Za-z0-9/&.-]*\*\*\s*:")
+
+    def prose_pairs(text: str) -> set[tuple[str, str]]:
+        pairs: set[tuple[str, str]] = set()
+        prose = strip_fenced_blocks(text)
+        for paragraph in re.split(r"\n\s*\n", prose):
+            lines = [line.strip() for line in paragraph.splitlines() if line.strip()]
+            if not lines or all(line.startswith(("#", "|", "{{<", "{{%")) for line in lines):
+                continue
+            if all(glossary_entry.match(line) for line in lines):
+                continue
+            visible = visible_text(paragraph, include_link_labels=False)
+            for match in pattern.finditer(visible):
+                expansion = normalize(match.group("expansion"))
+                if len(expansion.split()) >= 2:
+                    pairs.add((normalize(match.group("key")), expansion))
+        return pairs
+
+    def has_localized_explanation(extra: str) -> bool:
+        if locale in SCRIPT_RANGES:
+            ranges = SCRIPT_RANGES[locale]
+            letters = [char for char in extra if char.isalpha()]
+            localized_letters = sum(
+                any(start <= ord(char) <= end for start, end in ranges)
+                for char in letters
+            )
+            return localized_letters >= 6
+
+        words = re.findall(r"[^\W_]+(?:['’][^\W_]+)?", extra.lower(), re.UNICODE)
+        content_words = [word for word in words if word not in ENGLISH_STOPWORDS]
+        if locale in {"de", "nl"}:
+            has_local_word = any(
+                word.startswith(marker)
+                for word in content_words
+                for marker in LOCALE_ACRONYM_LOCALIZATION_MARKERS[locale]
+            )
+            has_local_connector = any(
+                word in LOCALE_STOPWORDS.get(locale, set()) for word in words
+            )
+            return has_local_word or has_local_connector
+        if locale in LOCALE_ACRONYM_LOCALIZATION_MARKERS:
+            if any(
+                word.startswith(marker)
+                for word in content_words
+                for marker in LOCALE_ACRONYM_LOCALIZATION_MARKERS[locale]
+            ):
+                return True
+        has_local_connector = any(
+            word in LOCALE_STOPWORDS.get(locale, set()) for word in words
+        )
+        return len(content_words) >= 2 and has_local_connector
+
+    source_pairs = prose_pairs(source)
+    target_pairs = prose_pairs(target)
+    blocking: set[str] = set()
+    review: set[str] = set()
+    target_by_key: dict[str, set[str]] = {}
+    for key, expansion in target_pairs:
+        target_by_key.setdefault(key, set()).add(expansion)
+
+    for key, source_expansion in source_pairs:
+        for target_expansion in target_by_key.get(key, set()):
+            if source_expansion not in target_expansion:
+                continue
+            extra = target_expansion.replace(source_expansion, " ", 1).strip()
+            finding = f"{key}: {source_expansion}"
+            localized_explanation = bool(extra and has_localized_explanation(extra))
+            if extra and localized_explanation:
+                # A script check cannot distinguish a translation from a
+                # phonetic transliteration. Keep bilingual expansions in the
+                # manual-review queue so a reviewer confirms meaning.
+                review.add(finding)
+                continue
+            raw_expansion = next(
+                (
+                    match.group("expansion").strip()
+                    for match in pattern.finditer(visible_text(target, include_link_labels=False))
+                    if normalize(match.group("key")) == key
+                    and normalize(match.group("expansion")) == target_expansion
+                ),
+                "",
+            )
+            words = re.findall(r"[A-Za-z]+", raw_expansion)
+            title_case_ratio = sum(word[0].isupper() for word in words) / max(1, len(words))
+            if title_case_ratio >= 0.6:
+                review.add(finding)
+            else:
+                blocking.add(finding)
+
+    # A locale can transliterate the acronym itself, which hides the source key
+    # from the matcher (for example, NFC -> एनएफसी). Queue those parentheticals
+    # for semantic review instead of silently treating them as localized.
+    source_keys_by_paragraph: list[set[str]] = []
+    for paragraph in re.split(r"\n\s*\n", strip_fenced_blocks(source)):
+        source_keys_by_paragraph.append(
+            {
+                normalize(match.group("key"))
+                for match in pattern.finditer(
+                    visible_text(paragraph, include_link_labels=False)
+                )
+            }
+        )
+    target_paragraphs = re.split(r"\n\s*\n", strip_fenced_blocks(target))
+    for index, paragraph in enumerate(target_paragraphs):
+        source_keys = (
+            source_keys_by_paragraph[index]
+            if index < len(source_keys_by_paragraph)
+            else set()
+        )
+        if not source_keys:
+            continue
+        visible_paragraph = visible_text(paragraph, include_link_labels=False)
+        for match in target_parenthetical.finditer(visible_paragraph):
+            target_key = match.group("key").strip().lower()
+            if target_key.isascii():
+                continue
+            expansion = normalize(match.group("expansion"))
+            if len(expansion.split()) >= 2:
+                possible_keys = ", ".join(sorted(source_keys))
+                review.add(
+                    f"{possible_keys}: possible noncanonical target key {target_key}; "
+                    "map this occurrence and verify expansion meaning"
+                )
+
+    return sorted(blocking), sorted(review)
 
 
 def taxonomy_count_differences(source: dict, target: dict) -> dict[str, tuple[int, int]]:
@@ -1744,6 +1934,11 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_acronym_expansions = copied_english_acronym_expansions(
             source_body, body, locale, glossary_page=is_glossary_page
         )
+        inline_acronym_blockers, inline_acronym_reviews = (
+            copied_english_inline_acronym_expansions(source_body, body, locale)
+        )
+        copied_acronym_expansions.extend(inline_acronym_blockers)
+        copied_acronym_expansions = sorted(set(copied_acronym_expansions))
         missing_acronym_keys_found = missing_acronym_keys(
             source_body, body, glossary_page=is_glossary_page
         )
@@ -1751,8 +1946,18 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         ratio = script_ratio(prose, locale)
         reasons = []
         copied_opening = copied_english_opening(source_body, body)
+        title = str(metadata.get("title", ""))
+        english_title_fallback = english_dominant_title(title, locale)
+        source_title_text = str(source_meta.get("title", ""))
+        title_matches_source = normalize(title) == normalize(source_title_text)
         if copied_opening:
             reasons.append("copied_english_opening")
+        if english_title_fallback:
+            reasons.append(
+                "english_dominant_title_review"
+                if title_matches_source
+                else "high_confidence_english_title"
+            )
         if copied_body:
             reasons.append("copied_english_body")
         if misplaced:
@@ -1808,6 +2013,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("English_reader_heading_copy")
         if copied_acronym_expansions:
             reasons.append("copied_english_acronym_expansion")
+        if inline_acronym_reviews:
+            reasons.append("copied_english_acronym_expansion_review")
         if missing_acronym_keys_found:
             reasons.append("missing_acronym_key")
         if len(tokens) >= 120 and english_ratio >= 0.22 and locale_ratio < 0.12:
@@ -1853,11 +2060,15 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "copied_english_table_cells": " | ".join(copied_table_cells),
                 "copied_english_headings": " | ".join(copied_headings),
                 "copied_english_acronym_expansions": " | ".join(copied_acronym_expansions),
+                "copied_english_inline_acronym_expansion_review": " | ".join(
+                    inline_acronym_reviews
+                ),
                 "missing_acronym_keys": " | ".join(missing_acronym_keys_found),
                 "copied_english_metadata": " | ".join(
                     [f"{key}: {metadata[key]}" for key in copied_metadata]
                     + [f"{key}: {', '.join(values)}" for key, values in copied_taxonomy.items()]
                 ),
+                "english_dominant_title": title if english_title_fallback else "",
                 "taxonomy_count_differences": json.dumps(
                     taxonomy_counts, ensure_ascii=False, sort_keys=True
                 ),
@@ -1887,7 +2098,11 @@ def main() -> int:
         help=(
             "fail on high-confidence English fallback signals: an exact English body or prose paragraph, "
             "one English-dominant reader paragraph, many copied English paragraphs, "
-            "English stopword dominance, copied reader-facing code text, or a missing target script"
+            "English stopword dominance, changed English-dominant titles, unchanged lowercase "
+            "inline acronym expansions without a localized gloss; source-identical titles and "
+            "bilingual or "
+            "title-case expansions need manual review, copied reader-facing "
+            "code text, or a missing target script"
         ),
     )
     args = parser.parse_args()
@@ -1918,6 +2133,7 @@ def main() -> int:
             "English_stopword_dominance",
             "English_dominant_reader_body",
             "high_confidence_english_paragraph",
+            "high_confidence_english_title",
             "copied_english_reader_verb",
             "expected_script_missing",
             "copied_english_opening",

@@ -18,6 +18,7 @@ from check_translation_english_leakage import (
     copied_english_link_connectors,
     copied_english_headings,
     copied_english_acronym_expansions,
+    copied_english_inline_acronym_expansions,
     fixed_glossary_key,
     missing_acronym_keys,
     copied_english_opening,
@@ -34,6 +35,7 @@ from check_translation_english_leakage import (
     high_confidence_english_paragraphs,
     copied_english_reader_verbs,
     english_dominant_body,
+    english_dominant_title,
     main as checker_main,
     markdown_structure,
     markdown_structure_differences,
@@ -50,6 +52,397 @@ from check_translation_english_leakage import (
 
 
 class FencedProseTests(unittest.TestCase):
+    def test_english_title_screen_catches_low_stopword_descriptive_titles(self):
+        self.assertTrue(
+            english_dominant_title("Protect Your Data Now", "fr")
+        )
+        self.assertTrue(
+            english_dominant_title(
+                "Zero Trust Security Benefits and Challenges", "fr"
+            )
+        )
+        self.assertTrue(
+            english_dominant_title("The Legend of Zelda: A Link to the Past", "fr")
+        )
+        self.assertTrue(
+            english_dominant_title(
+                "Protecting Your Personal Information: How to Keep Your Credit Cards Safe "
+                "from RFID Skimming and other Physical Attacks",
+                "fr",
+            )
+        )
+        self.assertTrue(
+            english_dominant_title(
+                "Aktualizacja do Windows Server 2019 lub przejście na Azure: Which Option "
+                "is Right for Your Business?",
+                "pl",
+            )
+        )
+        self.assertTrue(
+            english_dominant_title(
+                "OPSEC-proces: belangrijkste onderdelen en best practices", "nl"
+            )
+        )
+        self.assertFalse(english_dominant_title("Zero Trust model: beveiliging", "nl"))
+        self.assertFalse(english_dominant_title("Zero-Trust model: beveiliging", "nl"))
+        self.assertTrue(
+            english_dominant_title(
+                "Comparaison des plateformes serveur modernes pour les petites entreprises: "
+                "Which Option is Right for Your Business?",
+                "fr",
+            )
+        )
+        self.assertFalse(english_dominant_title("Azure DevOps vs GitHub", "fr"))
+        self.assertFalse(
+            english_dominant_title(
+                "Comment protéger votre carte contre le vol", "fr"
+            )
+        )
+
+    def test_flags_unchanged_parenthetical_acronym_expansions_in_prose(self):
+        source = (
+            "The company uses HTTPS (hypertext transfer protocol secure) "
+            "for customer connections.\n"
+        )
+        target = (
+            "L’entreprise utilise HTTPS (hypertext transfer protocol secure) "
+            "pour les connexions client.\n"
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "fr"),
+            (["https: hypertext transfer protocol secure"], []),
+        )
+
+    def test_inline_acronym_screen_ignores_glossary_and_translated_expansions(self):
+        entry = "- **HTTPS**: Hypertext Transfer Protocol Secure\n"
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(entry, entry, "fr"),
+            ([], []),
+        )
+        source = "HTTPS (hypertext transfer protocol secure) protects the connection."
+        localized = "HTTPS (protocole de transfert hypertexte sécurisé) protège la connexion."
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, localized, "fr"),
+            ([], []),
+        )
+
+    def test_inline_acronym_screen_allows_bilingual_expansion(self):
+        source = "HTTPS (Hypertext Transfer Protocol Secure) protects the connection."
+        target = (
+            "HTTPS (Hypertext Transfer Protocol Secure, protocole de transfert "
+            "hypertexte sécurisé) protège la connexion."
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "fr"),
+            ([], ["https: hypertext transfer protocol secure"]),
+        )
+
+    def test_inline_acronym_screen_requires_localized_german_or_dutch_wording(self):
+        source = "HTTPS (Hypertext Transfer Protocol Secure) protects the connection."
+        cases = (
+            (
+                "de",
+                "HTTPS (hypertext transfer protocol secure, encrypted connection "
+                "protocol) schützt die Verbindung.",
+                ["https: hypertext transfer protocol secure"],
+                [],
+            ),
+            (
+                "de",
+                "HTTPS (hypertext transfer protocol secure, verschlüsselte "
+                "Verbindung) schützt die Verbindung.",
+                [],
+                ["https: hypertext transfer protocol secure"],
+            ),
+            (
+                "nl",
+                "HTTPS (hypertext transfer protocol secure, encrypted connection "
+                "protocol) beschermt de verbinding.",
+                ["https: hypertext transfer protocol secure"],
+                [],
+            ),
+            (
+                "nl",
+                "HTTPS (hypertext transfer protocol secure, versleutelde "
+                "verbinding) beschermt de verbinding.",
+                [],
+                ["https: hypertext transfer protocol secure"],
+            ),
+        )
+        for locale, target, expected_blockers, expected_reviews in cases:
+            with self.subTest(locale=locale, target=target):
+                self.assertEqual(
+                    copied_english_inline_acronym_expansions(source, target, locale),
+                    (expected_blockers, expected_reviews),
+                )
+
+    def test_inline_acronym_screen_accepts_localized_compounds_for_manual_review(self):
+        cases = (
+            (
+                "de",
+                "HTTPS (hypertext transfer protocol secure) protects data.",
+                "HTTPS (hypertext transfer protocol secure, sicheres "
+                "Datenübertragungsprotokoll) schützt die Verbindung.",
+                "https: hypertext transfer protocol secure",
+            ),
+            (
+                "nl",
+                "NFC (near field communication) supports payments.",
+                "NFC (near field communication, contactloze communicatie) "
+                "is beschikbaar.",
+                "nfc: near field communication",
+            ),
+            (
+                "de",
+                "VPN (virtual private network) protects traffic.",
+                "VPN (virtual private network, virtuelles privates Netzwerk) "
+                "schützt den Datenverkehr.",
+                "vpn: virtual private network",
+            ),
+            (
+                "nl",
+                "VPN (virtual private network) protects traffic.",
+                "VPN (virtual private network, virtueel privénetwerk) "
+                "beschermt het verkeer.",
+                "vpn: virtual private network",
+            ),
+            (
+                "pt",
+                "VPN (virtual private network) protects traffic.",
+                "VPN (virtual private network, rede privada virtual) protege "
+                "a conexão.",
+                "vpn: virtual private network",
+            ),
+        )
+        for locale, source, target, expected_review in cases:
+            with self.subTest(locale=locale, target=target):
+                self.assertEqual(
+                    copied_english_inline_acronym_expansions(source, target, locale),
+                    ([], [expected_review]),
+                )
+
+    def test_inline_acronym_screen_matches_hyphenated_german_compounds(self):
+        source = "NFC (Near Field Communication) payments are convenient."
+        target = "NFC-Zahlungen (Near Field Communication) sind bequem."
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "de"),
+            ([], ["nfc: near field communication"]),
+        )
+
+    def test_inline_acronym_screen_uses_unicode_tokens_for_romanian(self):
+        source = "NFC (Near Field Communication) payments are convenient."
+        target = (
+            "Plățile NFC (Near Field Communication, comunicare în câmp apropiat) "
+            "sunt comode."
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "ro"),
+            ([], ["nfc: near field communication"]),
+        )
+
+    def test_inline_acronym_screen_queues_transliterated_acronym_for_review(self):
+        source = "NFC (Near Field Communication) payments are convenient."
+        target = (
+            "एनएफसी (नियर फील्ड कम्युनिकेशन) "
+            "भुगतान सुविधाजनक हैं।"
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "hi"),
+            (
+                [],
+                [
+                    "nfc: possible noncanonical target key एनएफसी; map this occurrence "
+                    "and verify expansion meaning"
+                ],
+            ),
+        )
+
+    def test_inline_acronym_screen_does_not_flag_unrelated_parenthetical(self):
+        source = (
+            "NFC (Near Field Communication) enables payment.\n\n"
+            "More information appears in a separate section."
+        )
+        target = (
+            "NFC (संपर्क रहित भुगतान तकनीक) "
+            "भुगतान सक्षम करता है।\n\n"
+            "अन्य जानकारी "
+            "(यहां स्पष्टीकरण है)।"
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "hi"),
+            ([], []),
+        )
+
+    def test_inline_acronym_screen_reviews_transliterated_repeat_in_same_paragraph(self):
+        source = (
+            "NFC (Near Field Communication) is useful, and NFC "
+            "(Near Field Communication) is common."
+        )
+        target = (
+            "NFC (नियर फील्ड कम्युनिकेशन) "
+            "उपयोगी है, "
+            "और एनएफसी "
+            "(नियर फील्ड कम्युनिकेशन) आम है।"
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "hi"),
+            (
+                [],
+                [
+                    "nfc: possible noncanonical target key एनएफसी; map this occurrence "
+                    "and verify expansion meaning"
+                ],
+            ),
+        )
+
+    def test_inline_acronym_screen_reviews_each_key_occurrence(self):
+        source = (
+            "NFC (Near Field Communication) payments work.\n\n"
+            "NFC (Near Field Communication) payments are common."
+        )
+        target = (
+            "NFC (नियर फील्ड कम्युनिकेशन) "
+            "भुगतान काम करते हैं।\n\n"
+            "एनएफसी (नियर फील्ड कम्युनिकेशन) "
+            "भुगतान आम हैं।"
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "hi"),
+            (
+                [],
+                [
+                    "nfc: possible noncanonical target key एनएफसी; map this occurrence "
+                    "and verify expansion meaning"
+                ],
+            ),
+        )
+
+    def test_inline_acronym_screen_checks_reader_lists_and_quotes(self):
+        source = (
+            "- Secure connections use HTTPS "
+            "(hypertext transfer protocol secure).\n"
+            "> HTTPS (hypertext transfer protocol secure) protects data.\n"
+        )
+        target = (
+            "- Les connexions utilisent HTTPS "
+            "(hypertext transfer protocol secure).\n"
+            "> HTTPS (hypertext transfer protocol secure) protège les données.\n"
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "fr"),
+            (["https: hypertext transfer protocol secure"], []),
+        )
+
+    def test_title_case_official_expansion_queues_review_instead_of_blocking(self):
+        source = "NIST (National Institute of Standards and Technology) publishes guidance."
+        target = "NIST (National Institute of Standards and Technology) publie des conseils."
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "fr"),
+            ([], ["nist: national institute of standards and technology"]),
+        )
+
+    def test_bengali_transliteration_does_not_clear_expansion_review(self):
+        source = "NFC (Near Field Communication) payments are convenient."
+        target = (
+            "NFC (Near Field Communication, "
+            "নিয়ার ফিল্ড কমিউনিকেশন) "
+            "পেমেন্ট সুবিধাজনক।"
+        )
+        self.assertEqual(
+            copied_english_inline_acronym_expansions(source, target, "bn"),
+            ([], ["nfc: near field communication"]),
+        )
+
+    def test_strict_gate_blocks_an_unchanged_inline_acronym_expansion(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "network-security"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Network Security'\n---\n"
+                "HTTPS (hypertext transfer protocol secure) protects data.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Sécurité réseau'\n---\n"
+                "HTTPS (hypertext transfer protocol secure) protège les données.\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_acronym_expansion", stdout.getvalue())
+
+    def test_english_dominant_title_blocks_only_when_different_from_source(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "payment-cards"
+            bundle.mkdir()
+            csv_path = Path(temporary_directory) / "findings.csv"
+            cases = (
+                (
+                    "Protecting Payment Cards",
+                    "Protect Your Data Now",
+                    1,
+                    "high_confidence_english_title",
+                ),
+                (
+                    "Choosing a Server Platform",
+                    "Comparaison des plateformes serveur modernes pour les petites entreprises: "
+                    "Which Option is Right for Your Business?",
+                    1,
+                    "high_confidence_english_title",
+                ),
+                (
+                    "The Legend of Zelda: A Link to the Past",
+                    "The Legend of Zelda: A Link to the Past",
+                    0,
+                    "english_dominant_title_review",
+                ),
+            )
+            for source_title, target_title, expected_result, expected_reason in cases:
+                with self.subTest(target_title=target_title):
+                    (bundle / "index.en.md").write_text(
+                        f"---\ntitle: '{source_title}'\n---\n"
+                        "The source explains practical ways to protect payment card data.\n",
+                        encoding="utf-8",
+                    )
+                    (bundle / "index.fr.md").write_text(
+                        f"---\ntitle: '{target_title}'\n---\n"
+                        "Ce guide présente des moyens pratiques de protéger les données.\n",
+                        encoding="utf-8",
+                    )
+                    stdout = io.StringIO()
+                    with (
+                        patch(
+                            "check_translation_english_leakage.configured_locales",
+                            return_value=["fr"],
+                        ),
+                        patch.object(
+                            sys,
+                            "argv",
+                            [
+                                "checker",
+                                "--fail-on-english-fallback",
+                                "--csv",
+                                str(csv_path),
+                                str(bundle),
+                            ],
+                        ),
+                        redirect_stdout(stdout),
+                    ):
+                        result = checker_main()
+                    self.assertEqual(result, expected_result)
+                    with csv_path.open(newline="", encoding="utf-8") as report:
+                        rows = list(csv.DictReader(report))
+                    row = next(row for row in rows if row["locale"] == "fr")
+                    self.assertIn(expected_reason, row["reasons"])
+                    self.assertEqual(row["english_dominant_title"], target_title)
+
     def test_blocks_one_copied_english_prose_paragraph_inside_a_translation(self):
         source = (
             "Une phrase française explique le contexte localisé et le traitement initial.\n\n"

@@ -55,6 +55,9 @@
   proper-name exception. Preserve the source tag and genre counts. The leakage
   checker flags `taxonomy_count_mismatch`; inspect the report's source/target
   counts, then compare value order manually because translations change values.
+  A clean strict English-fallback scan does not approve taxonomy: compare every
+  tag and genre against the source, translate generic English values, preserve
+  canonical product names and acronyms, and verify order and count before review.
 - In glossary entries, retain the acronym as the fixed key and translate its
   reader-facing expansion. Do not leave the source English expansion as the
   only explanation. Keep the English wording alongside the localized expansion
@@ -147,6 +150,25 @@
   or reader-facing English that still needs translation. Record unresolved
   findings in the external batch report; do not treat a translated body as
   approval for untranslated reader-facing sections.
+  The English-dominant title screen blocks descriptive English titles that
+  differ from the source title. An unchanged source title stays a manual-review
+  finding because official product or publication names can remain in English.
+  Review title, description, tags, alt text, and captions against the source. For
+  acronym expansions, strict mode blocks unchanged lowercase expansions in
+  reader prose, including lists and blockquotes, when the target adds no
+  localized explanation. The broader checker queues bilingual expansions and
+  title-case expansions for manual review. Script detection does not establish
+  meaning: phonetic transliteration of English words does not count as a
+  localized expansion. Keep the canonical acronym key and require a target-
+  language gloss. For every queued expansion, the peer reviewer must compare
+  the localized words with the source meaning and record a disposition. This
+  review catches untranslated expansions even when the strict checker cannot
+  distinguish transliteration from translation.
+  For German, Dutch, and Portuguese bilingual expansions, the checker uses
+  locale markers, including recognized compound stems, to decide whether added
+  wording enters manual review. An unrecognized suffix does not clear a strict
+  finding. Add a marker only after confirming the term against a native-language
+  source and adding a regression test. Review every queued expansion for meaning.
   For each locale, include a source-aligned review record for the title,
   description, opening, every section, and every reader-facing example or
   caption. The peer reviewer must verify each record against the frozen file
@@ -451,6 +473,10 @@
   English conjunctions `and` or `or` before the final Markdown link. The strict
   fallback checker flags this pattern and CI blocks it. Keep official linked
   names and destinations unchanged.
+  Reader-verb flags can match valid words in another language, such as Spanish
+  `uses` or French `supports`. Check the complete sentence against its English
+  source before changing text; keep grammatical target-language wording and
+  disposition a confirmed false positive in the batch report.
   Translate descriptive labels for first-party article links when a localized
   sibling page exists. Keep the URL unchanged. The strict checker blocks an
   unchanged English label when the linked article has a translated title.
@@ -474,9 +500,13 @@
   Accents alone do not clear copied English.
   Keep fixed technical keys such as `CI/CD`, `DDoS`, and `QR Code` intact. The
   checker includes mixed-case and slash-separated acronym keys, plus `QR Code`
-  and `Qubit`, in its glossary screen. It applies expansion checks only when the
-  English title contains “glossary” or “acronym”; outside glossary articles, a
-  fixed key can introduce a product or tool list rather than an expansion.
+  and `Qubit`, in its glossary screen. It screens unchanged parenthetical
+  acronym expansions in ordinary prose, lists, and blockquotes, including
+  acronym keys joined to locale-specific compounds such as German
+  `NFC-Zahlung`. It queues bilingual expansions and non-Latin transliterations
+  of acronym keys for peer review. Glossary definition lists use their
+  dedicated acronym-key check. A fixed acronym in a product or tool list is
+  not an expansion.
   Keep the acronym key itself unchanged. Treat `missing_acronym_key` as a
   blocking finding and restore the source key while localizing its expansion.
   Review unchanged one-word technical terms in context. Keep them only when the
@@ -495,12 +525,14 @@
   fallback screen on article changes. Run the same gate locally with
   `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
   It blocks exact English-body copies, copied English prose verbs, copied English expansions in glossary
-  entries, copied labels for localized first-party article links, one
+  entries or lowercase parenthetical prose without a localized explanation,
+  copied labels for localized first-party article links, one
   high-confidence English-dominant
   reader paragraph, multiple copied English paragraphs, English-dominant prose,
   missing expected scripts, copied reader-facing
-  openings, linked-list connectors, and English-heavy code comments or
-  sample values. In product comparisons, preserve product names but translate the
+  openings, linked-list connectors, English-heavy code comments or sample
+  values, and descriptive English titles that differ from the source. In
+  product comparisons, preserve product names but translate the
   comparison wording such as `vs`; an English list of brands is not a localized
   title. The broader checker
   remains a manual-review gate for shorter copied passages, reader-facing
