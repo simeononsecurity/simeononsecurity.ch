@@ -1,7 +1,7 @@
 ---
 title: "Rozpoznawanie prób phishingu: Typowe wskaźniki i wskazówki dotyczące bezpieczeństwa"
 date: 2023-06-18
-lastmod: 2026-11-14
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Kompleksowy przewodnik na temat rozpoznawania typowych oznak prób phishingu i praktyczne wskazówki dotyczące zachowania bezpieczeństwa w Internecie."
@@ -55,13 +55,13 @@ Teraz, gdy znasz już typowe wskaźniki prób phishingu, oto kilka wskazówek, k
 
 - **Dbaj o aktualność oprogramowania**: Regularnie aktualizuj system operacyjny, oprogramowanie antywirusowe i inne aplikacje w celu ochrony przed znanymi lukami w zabezpieczeniach.
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę zabezpieczeń do kont online, wymagając dodatkowej weryfikacji, takiej jak unikalny kod wysyłany na urządzenie mobilne.
+- [**Przewodnik po uwierzytelnianiu wieloczynnikowym: Rodzaje i najlepsze praktyki**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Uwierzytelnianie dwuskładnikowe dodaje dodatkową warstwę zabezpieczeń do kont online, wymagając dodatkowej weryfikacji, takiej jak unikalny kod wysyłany na urządzenie mobilne.
 
 - **Edukacja**: Bądź na bieżąco z najnowszymi technikami phishingu i oszustwami. Zapoznaj się z typowymi wskaźnikami i regularnie sprawdzaj zaufane źródła w celu uzyskania aktualizacji na temat nowych zagrożeń.
 
 - Bądź ostrożny z danymi osobowymi**: Unikaj udostępniania poufnych informacji online, chyba że masz pewność co do legalności i bezpieczeństwa witryny lub usługi, z której korzystasz.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utwórz silne i unikalne hasła dla każdego ze swoich kont, aby zminimalizować ryzyko nieautoryzowanego dostępu.
+- [**Tworzenie silnych haseł: Przewodnik po bezpieczeństwie i zarządzaniu hasłami**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Utwórz silne i unikalne hasła dla każdego ze swoich kont, aby zminimalizować ryzyko nieautoryzowanego dostępu.
 
 ______
 
@@ -71,7 +71,7 @@ Rozpoznawanie wskaźników próby phishingu jest niezbędne do ochrony danych os
 
 Pamiętaj, aby być na bieżąco, zapoznawać się z najnowszymi technikami phishingu i przestrzegać najlepszych praktyk w zakresie bezpieczeństwa online. Wdrażając te wskazówki i zachowując ostrożność, możesz zwiększyć swoje bezpieczeństwo online i zminimalizować ryzyko padnięcia ofiarą prób phishingu.
 
-Dowiedz się [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+Dowiedz się [Co zrobić, jeśli uważasz, że Twoje konto e-mail lub telefon zostały przejęte?](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 

@@ -1,7 +1,7 @@
 ---
 title: "Riconoscere i tentativi di phishing: Indicatori comuni e consigli di sicurezza"
 date: 2023-06-18
-lastmod: 2026-11-14
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Una guida completa per identificare gli indicatori comuni dei tentativi di phishing e consigli pratici per rimanere al sicuro online."
@@ -55,13 +55,13 @@ Ora che siete a conoscenza degli indicatori comuni dei tentativi di phishing, ec
 
 - **Mantenere il software aggiornato**: Aggiornate regolarmente il sistema operativo, il software antivirus e le altre applicazioni per proteggervi dalle vulnerabilità note.
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'autenticazione a due fattori aggiunge un ulteriore livello di sicurezza ai vostri account online richiedendo una verifica aggiuntiva, come un codice univoco inviato al vostro dispositivo mobile.
+- [**Guida all'autenticazione a più fattori: Tipi e migliori pratiche**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'autenticazione a due fattori aggiunge un ulteriore livello di sicurezza ai vostri account online richiedendo una verifica aggiuntiva, come un codice univoco inviato al vostro dispositivo mobile.
 
 - Istruitevi**: Rimanete informati sulle ultime tecniche di phishing e sulle truffe. Familiarizzate con gli indicatori più comuni e controllate regolarmente le fonti affidabili per gli aggiornamenti sulle nuove minacce.
 
 - **Essere cauti con le informazioni personali**: Evitate di condividere informazioni sensibili online a meno che non siate sicuri della legittimità e della sicurezza del sito web o del servizio che state utilizzando.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create password forti e uniche per ogni account per ridurre al minimo il rischio di accesso non autorizzato.
+- [**Creare password forti: Guida alla sicurezza e alla gestione delle password**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create password forti e uniche per ogni account per ridurre al minimo il rischio di accesso non autorizzato.
 
 ______
 
@@ -71,7 +71,7 @@ Riconoscere gli indicatori di un tentativo di phishing è fondamentale per salva
 
 Ricordate di rimanere informati, di istruirvi sulle ultime tecniche di phishing e di seguire le migliori pratiche per la sicurezza online. Attuando questi consigli e mantenendo una mentalità prudente, potrete migliorare la vostra sicurezza online e ridurre al minimo il rischio di cadere vittime di tentativi di phishing.
 
-Imparare [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+Imparare [Cosa fare se si pensa che la propria e-mail o il proprio telefono siano stati compromessi](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 

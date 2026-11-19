@@ -1,6 +1,7 @@
 ---
 title: "Recunoașterea tentativelor de phishing: Indicatori comuni și sfaturi de siguranță"
 date: 2023-06-18
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Aflați cum să recunoașteți indicatorii comuni ai tentativelor de phishing și cum să vă protejați online cu sfaturi practice pentru o mai bună securitate cibernetică."
@@ -123,7 +124,7 @@ Pentru a vă spori securitatea online și pentru a vă proteja de tentativele de
 
 - **Mențineți software-ul actualizat**: Actualizați-vă în mod regulat sistemul de operare, software-ul antivirus și alte aplicații. Aceste actualizări includ adesea patch-uri de securitate care abordează vulnerabilitățile cunoscute și protejează împotriva amenințărilor emergente. Menținându-vă software-ul la zi, reduceți la minimum riscul de a deveni victima atacurilor de phishing. Asigurați-vă că activați actualizările automate ori de câte ori este posibil.
 
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) 2FA oferă un nivel suplimentar de securitate pentru conturile dvs. online. Acesta vă cere să furnizați un al doilea factor de verificare, cum ar fi un cod unic trimis pe dispozitivul dvs. mobil, pe lângă parolă. Prin activarea 2FA, chiar dacă o tentativă de phishing reușește să vă obțină parola, atacatorul va avea nevoie în continuare de al doilea factor pentru a vă accesa contul.
+- [**Un ghid pentru autentificarea cu mai mulți factori: tipuri și bune practici**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/):  2FA oferă un nivel suplimentar de securitate pentru conturile dvs. online. Acesta vă cere să furnizați un al doilea factor de verificare, cum ar fi un cod unic trimis pe dispozitivul dvs. mobil, pe lângă parolă. Prin activarea 2FA, chiar dacă o tentativă de phishing reușește să vă obțină parola, atacatorul va avea nevoie în continuare de al doilea factor pentru a vă accesa contul.
 
 - **Educeți-vă cu privire la phishing**: Rămâneți informat cu privire la cele mai recente tehnici de phishing și escrocherii. Infractorii cibernetici își evoluează continuu tacticile, așa că este esențial să vă țineți la curent cu tendințele actuale. Informați-vă cu privire la indicatorii comuni ai tentativelor de phishing, cum ar fi adresele de e-mail suspecte, gramatica slabă și solicitările de informații personale. Verificați în mod regulat sursele de încredere, cum ar fi site-urile de securitate cibernetică, pentru actualizări privind noile amenințări de phishing.
 
@@ -142,7 +143,7 @@ Recunoașterea indicatorilor unei tentative de phishing este vitală pentru a v�
 
 Nu uitați să **să rămâneți informat**, să vă **instruiți** cu privire la cele mai recente tehnici de phishing și să urmați **cele mai bune practici de securitate online**. Prin punerea în aplicare a acestor sfaturi și prin menținerea unei mentalități prudente, vă puteți spori siguranța online și puteți reduce la minimum riscul de a cădea victimă tentativelor de phishing.
 
-Pentru îndrumări suplimentare cu privire la ce trebuie să faceți dacă bănuiți că e-mailul sau telefonul dvs. este compromis, puteți consulta articolul [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/) Această resursă oferă informații valoroase despre măsurile care trebuie luate în cazul unei potențiale compromiteri.
+Pentru îndrumări suplimentare cu privire la ce trebuie să faceți dacă bănuiți că e-mailul sau telefonul dvs. este compromis, puteți consulta articolul [Ce trebuie să faceți dacă credeți că e-mailul sau telefonul dvs. este compromis](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/) Această resursă oferă informații valoroase despre măsurile care trebuie luate în cazul unei potențiale compromiteri.
 
 Protejați-vă și rămâneți vigilenți în fața atacurilor de phishing pentru a vă asigura securitatea datelor personale și a conturilor online.
 

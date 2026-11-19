@@ -1,7 +1,7 @@
 ---
 title: "Reconnaître les tentatives d'hameçonnage : Indicateurs communs et conseils de sécurité"
 date: 2023-06-18
-lastmod: 2026-11-14
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Un guide complet sur l'identification des indicateurs communs des tentatives d'hameçonnage et des conseils pratiques pour rester en sécurité en ligne."
@@ -55,13 +55,13 @@ Maintenant que vous connaissez les indicateurs courants des tentatives d'hameço
 
 - **Mettez vos logiciels à jour** : Mettez régulièrement à jour votre système d'exploitation, votre logiciel antivirus et d'autres applications pour vous protéger contre les vulnérabilités connues.
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'authentification à deux facteurs ajoute une couche supplémentaire de sécurité à vos comptes en ligne en exigeant une vérification supplémentaire, comme un code unique envoyé à votre appareil mobile.
+- [**Guide de l'authentification multifactorielle : Types et meilleures pratiques**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) L'authentification à deux facteurs ajoute une couche supplémentaire de sécurité à vos comptes en ligne en exigeant une vérification supplémentaire, comme un code unique envoyé à votre appareil mobile.
 
 - Éduquez-vous** : Restez informé des dernières techniques d'hameçonnage et des escroqueries. Familiarisez-vous avec les indicateurs courants et consultez régulièrement des sources fiables pour vous tenir au courant des nouvelles menaces.
 
 - Soyez prudent avec vos informations personnelles** : Évitez de partager des informations sensibles en ligne si vous n'êtes pas sûr de la légitimité et de la sécurité du site web ou du service que vous utilisez.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Créez des mots de passe forts et uniques pour chacun de vos comptes afin de minimiser le risque d'accès non autorisé.
+- [**Créer des mots de passe forts : Un guide pour la sécurité et la gestion des mots de passe**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Créez des mots de passe forts et uniques pour chacun de vos comptes afin de minimiser le risque d'accès non autorisé.
 
 ______
 
@@ -71,7 +71,7 @@ Il est essentiel de reconnaître les indicateurs d'une tentative d'hameçonnage 
 
 N'oubliez pas de rester informé, de vous former aux dernières techniques d'hameçonnage et de suivre les meilleures pratiques en matière de sécurité en ligne. En appliquant ces conseils et en restant prudent, vous pouvez renforcer votre sécurité en ligne et minimiser le risque d'être victime de tentatives d'hameçonnage.
 
-Apprendre [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+Apprendre [Que faire si vous pensez que votre courriel ou votre téléphone est compromis ?](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 

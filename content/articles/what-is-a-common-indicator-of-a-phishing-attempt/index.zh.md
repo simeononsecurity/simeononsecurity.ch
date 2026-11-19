@@ -1,6 +1,7 @@
 ---
 title: "识别网络钓鱼企图：常见迹象和安全提示"
 date: 2023-06-18
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "了解如何识别网络钓鱼企图的常见迹象，并通过增强网络安全的实用技巧保护自己的上网安全。"
@@ -123,7 +124,7 @@ coverCaption: "保持警惕，确保安全。"
 
 - **保持软件更新**：定期更新操作系统、杀毒软件和其他应用程序。这些更新通常包括安全补丁，可解决已知漏洞并防范新出现的威胁。保持软件的最新版本，可以最大限度地降低遭受网络钓鱼攻击的风险。确保尽可能启用自动更新。
 
-- [**Enable two-factor authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)2FA 为您的在线账户提供了额外的安全保护。除密码外，它还要求您提供第二个验证因素，如发送到您移动设备上的唯一代码。启用 2FA 后，即使网络钓鱼企图成功获取了您的密码，攻击者仍需要第二个因素才能访问您的账户。
+- [**多重身份验证指南：类型和最佳实践**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): 2FA 为您的在线账户提供了额外的安全保护。除密码外，它还要求您提供第二个验证因素，如发送到您移动设备上的唯一代码。启用 2FA 后，即使网络钓鱼企图成功获取了您的密码，攻击者仍需要第二个因素才能访问您的账户。
 
 - 对网络钓鱼**进行自我教育：随时了解最新的网络钓鱼技术和骗局。网络犯罪分子的战术在不断演变，因此跟上当前的趋势至关重要。让自己了解网络钓鱼企图的常见迹象，如可疑的电子邮件地址、糟糕的语法和索取个人信息的要求。定期查看网络安全网站等可信来源，了解有关新网络钓鱼威胁的最新信息。
 
@@ -142,7 +143,7 @@ ______
 
 切记**保持知情**，**教育自己**最新的网络钓鱼技术，并遵循**在线安全的最佳做法**。通过实施这些提示和保持谨慎的心态，您可以加强在线安全，最大限度地降低成为网络钓鱼企图受害者的风险。
 
-如果您怀疑自己的电子邮件或电话受到威胁，您可以参阅以下文章，进一步了解如何应对。 [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)该资源提供了宝贵的信息，介绍了在发生潜在泄漏时应采取的步骤。
+如果您怀疑自己的电子邮件或电话受到威胁，您可以参阅以下文章，进一步了解如何应对。 [如果您认为您的电子邮件或电话遭到入侵怎么办](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)该资源提供了宝贵的信息，介绍了在发生潜在泄漏时应采取的步骤。
 
 保护自己并对网络钓鱼攻击保持警惕，以确保个人数据和在线账户的安全。
 

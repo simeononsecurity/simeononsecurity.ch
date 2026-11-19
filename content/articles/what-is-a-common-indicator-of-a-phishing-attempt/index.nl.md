@@ -1,7 +1,7 @@
 ---
 title: "Phishing-pogingen herkennen: Veel voorkomende aanwijzingen en veiligheidstips"
 date: 2023-06-18
-lastmod: 2026-11-14
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Een uitgebreide gids over het herkennen van veelvoorkomende indicatoren van phishingpogingen en praktische tips om veilig online te blijven."
@@ -55,13 +55,13 @@ Nu u op de hoogte bent van de gebruikelijke indicatoren van phishingpogingen, vo
 
 - Houd uw software up-to-date**: Werk uw besturingssysteem, antivirussoftware en andere toepassingen regelmatig bij om u te beschermen tegen bekende kwetsbaarheden.
 
-- [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Tweefactorauthenticatie voegt een extra beveiligingslaag toe aan uw online accounts door extra verificatie te vereisen, zoals een unieke code die naar uw mobiele apparaat wordt gestuurd.
+- [**Een gids voor Multi-Factor Authenticatie: Soorten en beste praktijken**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) Tweefactorauthenticatie voegt een extra beveiligingslaag toe aan uw online accounts door extra verificatie te vereisen, zoals een unieke code die naar uw mobiele apparaat wordt gestuurd.
 
 - Informeer uzelf**: Blijf op de hoogte van de nieuwste phishingtechnieken en oplichtingspraktijken. Maak uzelf vertrouwd met de gebruikelijke indicatoren en controleer regelmatig betrouwbare bronnen voor updates over nieuwe bedreigingen.
 
 - Wees voorzichtig met persoonlijke informatie**: Vermijd het online delen van gevoelige informatie, tenzij u zeker bent van de legitimiteit en veiligheid van de website of dienst die u gebruikt.
 
-- [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Maak sterke en unieke wachtwoorden voor elk van uw accounts om het risico van onbevoegde toegang te minimaliseren.
+- [**Sterke wachtwoorden maken: Een gids voor beveiliging en wachtwoordbeheer**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Maak sterke en unieke wachtwoorden voor elk van uw accounts om het risico van onbevoegde toegang te minimaliseren.
 
 ______
 
@@ -71,7 +71,7 @@ Het herkennen van de indicatoren van een phishing-poging is essentieel voor het 
 
 Vergeet niet op de hoogte te blijven, uzelf te informeren over de nieuwste phishingtechnieken en de beste praktijken voor online beveiliging te volgen. Door deze tips toe te passen en voorzichtig te blijven, kunt u uw online veiligheid verbeteren en het risico om slachtoffer te worden van phishingpogingen minimaliseren.
 
-Leer [What to Do If You Think Your Email or Phone Is Compromised](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
+Leer [Wat moet u doen als u denkt dat uw e-mail of telefoon is aangetast?](https://simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/)
 
 ______
 
