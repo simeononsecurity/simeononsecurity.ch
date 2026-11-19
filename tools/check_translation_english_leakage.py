@@ -1071,10 +1071,13 @@ def copied_english_table_cells(source: str, target: str) -> list[str]:
     source_tables = tables(source)
     target_tables = tables(target)
     copied = []
-    for table_index, (source_table, target_table) in enumerate(
-        zip(source_tables, target_tables), start=1
-    ):
-        source_cells = {normalize(cell) for row in source_table for cell in row}
+    source_cells = {
+        normalize(cell)
+        for source_table in source_tables
+        for row in source_table
+        for cell in row
+    }
+    for table_index, target_table in enumerate(target_tables, start=1):
         for row_index, target_row in enumerate(target_table, start=1):
             for cell_index, target_cell in enumerate(target_row, start=1):
                 normalized = normalize(target_cell)
@@ -1114,7 +1117,7 @@ def copied_english_headings(source: str, target: str) -> list[str]:
 
 
 FIXED_GLOSSARY_TERMS = {"aws cli", "esim", "ios", "qr code", "qubit"}
-MIN_FIXED_GLOSSARY_KEYS = 20
+GLOSSARY_NAME_EXCEPTIONS = {"amazon web services"}
 
 
 def fixed_glossary_key(key: str) -> bool:
@@ -1156,37 +1159,34 @@ def copied_english_acronym_expansions(source: str, target: str) -> list[str]:
     copied = []
     for key, source_expansions in source_entries.items():
         target_expansions = target_entries.get(key, [])
-        for source_expansion in source_expansions:
+        for source_expansion, target_expansion in zip(source_expansions, target_expansions):
             source_words = source_expansion.split()
             if len(source_words) < 2 and normalize(key) not in FIXED_GLOSSARY_TERMS:
                 continue
-            for target_expansion in target_expansions:
-                if source_expansion == target_expansion:
-                    copied.append(f"{key}: {source_expansion}")
-                    continue
-                if source_expansion in target_expansion:
-                    # Keep a complete canonical phrase only when localized
-                    # wording accompanies it for identification.
-                    continue
-                target_words = target_expansion.split()
-                longest = 0
-                longest_phrase = []
-                for source_index in range(len(source_words)):
-                    for target_index in range(len(target_words)):
-                        run = 0
-                        while (
-                            source_index + run < len(source_words)
-                            and target_index + run < len(target_words)
-                            and source_words[source_index + run] == target_words[target_index + run]
-                        ):
-                            run += 1
-                        if run > longest:
-                            longest = run
-                            longest_phrase = source_words[source_index:source_index + run]
-                if longest >= 3 and longest / len(source_words) >= 0.35:
-                    copied.append(
-                        f"{key}: copied phrase {' '.join(longest_phrase)}"
-                    )
+            if source_expansion == target_expansion:
+                copied.append(f"{key}: {source_expansion}")
+                continue
+            target_words = target_expansion.split()
+            localized_words = [word for word in target_words if word not in source_words]
+            if source_expansion in target_expansion and len(localized_words) >= 2:
+                continue
+            longest = 0
+            longest_phrase = []
+            for source_index in range(len(source_words)):
+                for target_index in range(len(target_words)):
+                    run = 0
+                    while (
+                        source_index + run < len(source_words)
+                        and target_index + run < len(target_words)
+                        and source_words[source_index + run] == target_words[target_index + run]
+                    ):
+                        run += 1
+                    phrase = source_words[source_index:source_index + run]
+                    if run > longest and " ".join(phrase) not in GLOSSARY_NAME_EXCEPTIONS:
+                        longest = run
+                        longest_phrase = phrase
+            if longest >= 2 and longest / len(source_words) >= 0.35:
+                copied.append(f"{key}: copied phrase {' '.join(longest_phrase)}")
     return sorted(set(copied))
 
 
@@ -1205,8 +1205,6 @@ def missing_acronym_keys(source: str, target: str) -> list[str]:
 
     source_keys = keys(source)
     target_keys = keys(target)
-    if len(source_keys) < MIN_FIXED_GLOSSARY_KEYS:
-        return []
     remaining = target_keys.copy()
     missing = []
     for key in source_keys:

@@ -885,6 +885,15 @@ class FencedProseTests(unittest.TestCase):
         )
         self.assertEqual(missing_acronym_keys(source, target), ["GIS"])
 
+    def test_fixed_key_check_covers_short_glossaries(self):
+        self.assertEqual(
+            missing_acronym_keys(
+                "- **GIS**: Geographic Information System\n",
+                "- **SIG**: Système d’information géographique\n",
+            ),
+            ["GIS"],
+        )
+
     def test_blocks_translating_a_fixed_qr_code_glossary_key(self):
         source = "- **QR Code**: Quick Response Code\n" + "".join(
             f"- **AA{index}**: Definition {index}\n" for index in range(19)
@@ -974,7 +983,6 @@ class FencedProseTests(unittest.TestCase):
             stdout = io.StringIO()
             with (
                 patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
-                patch("check_translation_english_leakage.MIN_FIXED_GLOSSARY_KEYS", 1),
                 patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
                 redirect_stdout(stdout),
             ):
