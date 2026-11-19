@@ -177,6 +177,29 @@
   proper name, official source title, fixed identifier, command, or literal
   value. A filename, `lastmod`, script ratio, or clean strict-checker result
   alone never establishes translated coverage.
+  During that review, compare every title, subtitle, description, table header,
+  table label, and internal-link label with its English source and target-language
+  meaning. Generic labels such as `Model A`, `Total certifications`, `with
+  fallback`, and `Plug-and-play` are reader-facing text, not model names or
+  technical identifiers.
+  Translate them even when surrounding table rows are localized. Treat an exact
+  English label in a locale file as a blocker unless the reviewer documents why
+  the literal English is required. Record the source and target wording in the
+  review ledger, then rerun the strict fallback screen after corrections.
+  Apply the same check to genre and tag values. The strict checker blocks exact
+  carryovers for reviewed generic labels such as `ad-blocking`, `cross-platform`,
+  `data privacy`, `python interpreter`, and `python security documentation`.
+  Preserve exact taxonomy text only for verified product names, acronyms, or
+  accepted target-language loanwords, and record the locale-specific reason.
+  Review `high_confidence_english_title` and `english_dominant_title_review`
+  separately. The strict gate blocks clear English title fallbacks. The `VS Code`
+  product name is not a comparison. Comparator matches remain in the manual-review queue because
+  `vs` appears in local-language titles; compare the source and target convention,
+  then translate reader-facing comparison wording when needed. The title-review
+  queue also includes ambiguous one-word matches; compare those with the source
+  and local-language title before changing them. Do not treat product names,
+  acronyms, locale stopwords, or localized cognates as English evidence by
+  themselves.
 - Preserve existing unrelated edits. Before replacing an older translation,
   compare its current hash with the hash recorded during inspection.
 
@@ -512,11 +535,21 @@
   Review unchanged one-word technical terms in context. Keep them only when the
   same form is accepted in the target language, such as `JavaScript`; otherwise
   localize them too.
+  `Python-Interpreter`/`python-interpreter` is an accepted technical term in
+  German and Dutch taxonomy. The checker exempts only that exact term in those
+  locales.
   Table-cell copy findings compare cells within the same table even when a
   translation changes row or column order. Inspect each flagged cell against
   its localized row and do not dismiss it because its coordinates changed.
+  The checker exempts a short exact list of reviewed product, standards, and
+  fixed-value labels in `TABLE_FIXED_NAMES`. Do not add a broad phrase or term
+  exemption. Add an exact value only after comparing its source and target row,
+  confirming it is a proper product/standard/literal, and adding a regression
+  fixture. Translate generic headers such as `Total certifications`.
   A standalone `Cost` cell is valid in Catalan and Romanian; the checker exempts
   only that exact word, not longer English labels such as `Cost per user`.
+  `Performance` is an established French label; keep the checker exemption exact
+  to that standalone French word.
   Translate common English prose verbs when they appear inside localized
   paragraphs. The checker blocks source-matching verbs such as `offers`,
   `provides`, `includes`, and `supports`, even when the rest of the paragraph
@@ -531,14 +564,16 @@
   reader paragraph, multiple copied English paragraphs, English-dominant prose,
   missing expected scripts, copied reader-facing
   openings, linked-list connectors, English-heavy code comments or sample
-  values, and descriptive English titles that differ from the source. In
-  product comparisons, preserve product names but translate the
-  comparison wording such as `vs`; an English list of brands is not a localized
-  title. The broader checker
+  values, and high-confidence English titles that differ from the source. The
+  CSV also queues retained `vs` comparators for manual review; the abbreviation
+  alone does not fail the strict gate. Preserve product names and localize the
+  connector when the target-language title needs it. An English list of brands
+  is not a localized title. The broader checker
   remains a manual-review gate for shorter copied passages, reader-facing
   examples, headings, metadata, and false positives. The high-confidence gate
   does not block exact copied titles, descriptions, image alt text, captions,
-  genres, or tags. Review those full-checker findings before approval. Translate
+  or taxonomy values outside the reviewed generic-label set. Review those
+  full-checker findings before approval. Translate
   descriptive values. Keep exact source wording only for a verified official
   name or fixed value, and record the reason.
   In CSV reports, review `copied_reader_fenced_lines`,
