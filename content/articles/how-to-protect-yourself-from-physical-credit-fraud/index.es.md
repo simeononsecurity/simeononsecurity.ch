@@ -1,11 +1,11 @@
 ---
-title: "Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks"
+title: "Protege tus tarjetas de crédito: defiéndete del skimming RFID"
 date: 2023-04-28
-lastmod: 2023-04-28
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Aprenda a protegerse del skimming RFID y a mantener seguros los datos de su tarjeta de crédito con estos consejos sencillos."
-tags: ["NFC", "carteras con bloqueo RFID", "lectores RFID", "skimming RFID", "tecnología RFID", "tarjetas de crédito con chip", "pagos sin contacto", "protección de tarjetas de crédito", "ciberseguridad", "protección de datos", "carterismo electrónico", "cifrado", "seguridad financiera", "hunter-cat", "robo de identidad", "pagos móviles", "phishing", "privacidad", "Silent Pocket", "tarjetas inteligentes"]
+tags: ["clonación RFID", "protección de tarjetas de crédito", "carteras con bloqueo RFID", "tarjetas de crédito con chip", "engaños por phishing", "ciberseguridad", "robo de identidad", "privacidad", "pagos sin contacto", "pagos móviles", "seguridad financiera", "tarjetas inteligentes", "NFC", "cifrado", "protección de datos", "lectores RFID", "tecnología RFID", "carterismo electrónico", "Silent Pocket", "Hunter-CAT"]
 cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "Ilustración de dibujos animados de un ladrón que usa un dispositivo electrónico para robar los datos de una tarjeta de crédito de una cartera."
 coverCaption: ""
@@ -31,11 +31,11 @@ simeononsecurity.com
 
  En lo que respecta a la banda magnética, no dejes que nadie tome una foto de tu tarjeta nunca. Tenga mucho cuidado al usar la banda magnética. Asegúrese de que no haya cámaras o cámaras estenopeicas que puedan verlo ingresar su código postal o número PIN. Mueva el puerto y si se mueve, no lo use.
 
- Si desea más garantía, use un dispositivo como [Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) para asegurarse de que no haya uno.
+ Si desea más garantía, use un dispositivo como [Lector RFID USB Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) para asegurarse de que no haya uno.
 
  ## Pago NFC
 
- El pago NFC (Near Field Communication) le permite realizar pagos tocando su tarjeta de crédito en una terminal de pago. Si bien esta tecnología es conveniente, también crea una oportunidad para que los delincuentes roben la información de su tarjeta de crédito.
+ El pago NFC (comunicación de campo cercano) le permite realizar pagos tocando su tarjeta de crédito en una terminal de pago. Si bien esta tecnología es conveniente, también crea una oportunidad para que los delincuentes roben la información de su tarjeta de crédito.
 
  Para protegerse de este tipo de fraude:
 
@@ -45,7 +45,7 @@ simeononsecurity.com
 
  ### Consejo adicional: considere billeteras con bloqueo RFID
 
- Para protegerse, obtenga una **billetera con bloqueo RFID** real. [Bolsillo silencioso](https://amzn.to/421J6o6) es la única marca recomendada. La mayoría de las billeteras con "Bloqueo de RFID" son una completa estafa. simeononsecurity.com probó personalmente cientos de billeteras y supuestos dispositivos de bloqueo de rfid. El bolsillo silencioso es legítimo.
+ Para protegerse, obtenga una **billetera con bloqueo RFID** real. [Cartera Silent Pocket con bloqueo RFID](https://amzn.to/421J6o6) es la única marca recomendada. La mayoría de las billeteras con "Bloqueo de RFID" son una completa estafa. simeononsecurity.com probó personalmente cientos de billeteras y supuestos dispositivos de bloqueo de rfid. El Silent Pocket es legítimo.
 
  ## Tecnología de chips
 
@@ -70,8 +70,8 @@ simeononsecurity.com
 
  ## Referencias
 
- - [Desnatado](https://www.investopedia.com/terms/s/skimming.asp):
- - [Phishing](https://www.investopedia.com/terms/p/phishing.asp):
+ - [clonación de banda magnética](https://www.investopedia.com/terms/s/skimming.asp):
+ - [suplantación de identidad](https://www.investopedia.com/terms/p/phishing.asp):
  - [Cómo funcionan las tarjetas de crédito con chip](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
- - [Cartera de bloqueo RFID de bolsillo silencioso](https://amzn.to/421J6o6)
+ - [Cartera Silent Pocket con bloqueo RFID](https://amzn.to/421J6o6)
  - [Lector RFID USB Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/)

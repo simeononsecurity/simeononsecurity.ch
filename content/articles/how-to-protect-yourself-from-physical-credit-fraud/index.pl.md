@@ -1,11 +1,11 @@
 ---
 title: "Zadbaj o bezpieczeństwo kart kredytowych: Obroń się przed skimmingiem RFID i atakami fizycznymi w celu ochrony informacji osobistych"
 date: 2023-04-28
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Dowiedz się, jak chronić się przed skimmingiem RFID i zachować bezpieczeństwo informacji o karcie kredytowej dzięki tym prostym wskazówkom."
-tags: ["RFID skimming", "ochrona karty kredytowej", "Portfele z blokadą RFID", "chipowe karty kredytowe", "phishing", "cybersecurity", "kradzież tożsamości", "prywatność", "płatności zbliżeniowe", "płatności mobilne", "bezpieczeństwo finansowe", "karty inteligentne", "NFC", "szyfrowanie", "ochrona danych", "Czytniki RFID", "Technologia RFID", "elektroniczne kieszonkowstwo", "cicha kieszeń", "łowca-kot"]
+tags: ["skimming RFID", "ochrona kart kredytowych", "portfele blokujące RFID", "karty kredytowe z chipem", "oszustwa phishingowe", "cyberbezpieczeństwo", "kradzież tożsamości", "prywatność", "płatności zbliżeniowe", "płatności mobilne", "bezpieczeństwo finansowe", "karty inteligentne", "NFC", "szyfrowanie", "ochrona danych", "czytniki RFID", "technologia RFID", "elektroniczna kradzież kieszonkowa", "Silent Pocket", "Hunter-CAT"]
 cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "Komiksowa ilustracja złodzieja używającego urządzenia elektronicznego do kradzieży informacji o karcie kredytowej z portfela osoby."
 coverCaption: ""
@@ -24,28 +24,28 @@ Aby uchronić się przed tego typu oszustwem:
 - **Używaj terminali płatniczych, które znajdują się w dobrze oświetlonych i zaludnionych miejscach**. W takich miejscach przestępcy mają mniejsze szanse na zainstalowanie skimmerów.
 - **Przykryj klawiaturę podczas wprowadzania kodu PIN**. Dzięki temu nikt nie będzie mógł zobaczyć Twojego kodu PIN.
 - **Sprawdź, czy na terminalu płatniczym nie ma śladów manipulacji**. Jeśli terminal wygląda podejrzanie, użyj innego lub zapłać gotówką.
-- Regularnie sprawdzaj wyciągi z kart kredytowych** i zgłaszaj podejrzane transakcje do swojego banku.
-- Używaj kart kredytowych tylko do transakcji fizycznych**, karty debetowe nie mają takiej samej federalnej ochrony przed oszustwem.
+- **Regularnie sprawdzaj wyciągi z kart kredytowych** i zgłaszaj podejrzane transakcje do swojego banku.
+- **Używaj kart kredytowych tylko do transakcji fizycznych**, karty debetowe nie mają takiej samej federalnej ochrony przed oszustwem.
 
 ### Dodatkowa wskazówka: Unikaj kamer i skimmerów
 
 Jeśli chodzi o pasek magnetyczny, nie pozwól nikomu zrobić zdjęcia swojej karty. Bądź bardzo ostrożny podczas używania paska magnetycznego. Upewnij się, że nie ma żadnych kamer lub kamer otworkowych, które mogą zobaczyć, jak wprowadzasz swój kod pocztowy lub numer pin. Poruszaj portem dookoła, a jeśli się porusza, nie używaj go.
 
-Jeśli chcesz mieć większą gwarancję, użyj urządzenia np.[Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) aby upewnić się, że nie ma żadnego.
+Jeśli chcesz mieć większą gwarancję, użyj urządzenia np. [Czytnik RFID USB Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) aby upewnić się, że nie ma żadnego.
 
 ## Płatność NFC
 
-Płatności NFC (Near Field Communication) pozwalają na dokonywanie płatności poprzez stuknięcie kartą kredytową w terminal płatniczy. Technologia ta jest wygodna, ale stwarza również okazję dla przestępców do kradzieży informacji o Twojej karcie kredytowej.
+Płatności NFC (komunikacja bliskiego zasięgu) pozwalają na dokonywanie płatności poprzez stuknięcie kartą kredytową w terminal płatniczy. Technologia ta jest wygodna, ale stwarza również okazję dla przestępców do kradzieży informacji o Twojej karcie kredytowej.
 
 Aby uchronić się przed tego typu oszustwem:
 
 - **Włączaj płatność NFC tylko wtedy, gdy musisz z niej skorzystać**. W innych przypadkach nie włączaj jej.
 - Używaj terminali płatniczych NFC znajdujących się w dobrze oświetlonych i zaludnionych miejscach.
-- Regularnie sprawdzaj wyciągi z kart kredytowych** i zgłaszaj wszelkie podejrzane transakcje do swojego banku.
+- **Regularnie sprawdzaj wyciągi z kart kredytowych** i zgłaszaj wszelkie podejrzane transakcje do swojego banku.
 
 ### Dodatkowa wskazówka: Rozważ portfele z blokadą RFID
 
-Aby się zabezpieczyć, zaopatrz się w prawdziwy **portfel blokujący RFID**.[Silent pocket](https://amzn.to/421J6o6) to jedyna rekomendowana marka. Większość portfeli "RFID Blocking" to kompletne oszustwo. simeononsecurity.com osobiście przetestował setki portfeli i rzekomych urządzeń blokujących rfid. Silent pocket jest legalny.
+Aby się zabezpieczyć, zaopatrz się w prawdziwy **portfel blokujący RFID**.[Portfel Silent Pocket z blokadą RFID](https://amzn.to/421J6o6) to jedyna rekomendowana marka. Większość portfeli "RFID Blocking" to kompletne oszustwo. simeononsecurity.com osobiście przetestował setki portfeli i rzekomych urządzeń blokujących rfid. Silent Pocket jest godny zaufania.
 
 ## Technologia chipowa
 
@@ -53,7 +53,7 @@ Większość kart kredytowych jest obecnie wyposażona w **technologię chipową
 
 Aby uchronić się przed tego typu oszustwem:
 
-- **Używaj terminali płatniczych obsługujących technologię chipową.
+- Używaj terminali płatniczych obsługujących technologię chipową.
 - **Nie machaj kartą kredytową**, jeśli terminal płatniczy obsługuje technologię chipową. Zawsze używaj chipa.
 - Regularnie **sprawdzaj wyciągi z karty kredytowej** i zgłaszaj podejrzane transakcje do swojego banku.
 
@@ -70,8 +70,8 @@ Ogólnie rzecz biorąc, ochrona przed oszustwami dotyczącymi fizycznych kart kr
 
 ## Referencje
 
--[Skimming](https://www.investopedia.com/terms/s/skimming.asp)
--[Phishing](https://www.investopedia.com/terms/p/phishing.asp)
--[How Chip Credit Cards Work](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
--[Silent Pocket RFID Blocking Wallet](https://amzn.to/421J6o6)
--[Hunter-CAT USB RFID Reader](https://hackerwarehouse.com/product/hunter-cat/)
+- [kradzież danych z paska magnetycznego](https://www.investopedia.com/terms/s/skimming.asp)
+- [Oszustwa phishingowe](https://www.investopedia.com/terms/p/phishing.asp)
+- [Jak działają karty kredytowe z chipem](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
+- [Portfel Silent Pocket z blokadą RFID](https://amzn.to/421J6o6)
+- [Czytnik RFID USB Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/)

@@ -1,11 +1,11 @@
 ---
-title: "Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks"
+title: "احمِ بطاقاتك الائتمانية: تجنّب سرقة البيانات عبر RFID"
 date: 2023-04-28
-lastmod: 2023-04-28
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "تعرّف على طرق حماية نفسك من سرقة بيانات RFID وحافظ على أمان معلومات بطاقتك الائتمانية بهذه النصائح البسيطة."
-tags: ["NFC", "محافظ حجب RFID", "قارئات RFID", "سحب بيانات RFID", "تقنية RFID", "بطاقات ائتمان ذات شريحة", "مدفوعات غير تلامسية", "حماية بطاقات الائتمان", "الأمن السيبراني", "حماية البيانات", "سرقة إلكترونية من الجيب", "التشفير", "الأمن المالي", "hunter-cat", "سرقة الهوية", "مدفوعات عبر الهاتف", "التصيد الاحتيالي", "الخصوصية", "Silent Pocket", "البطاقات الذكية"]
+tags: ["سحب بيانات RFID", "حماية بطاقات الائتمان", "محافظ حجب RFID", "بطاقات ائتمان ذات شريحة", "التصيد الاحتيالي", "الأمن السيبراني", "سرقة الهوية", "الخصوصية", "مدفوعات غير تلامسية", "مدفوعات عبر الهاتف", "الأمن المالي", "البطاقات الذكية", "NFC", "التشفير", "حماية البيانات", "قارئات RFID", "تقنية RFID", "سرقة إلكترونية من الجيب", "Silent Pocket", "Hunter-CAT"]
 cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "رسم كرتوني لشخص يسرق معلومات بطاقة ائتمان من محفظة باستخدام جهاز إلكتروني."
 coverCaption: ""
@@ -31,7 +31,7 @@ simeononsecurity.com
 
  بقدر ما يذهب الشريط المغناطيسي ، لا تدع أي شخص يلتقط صورة لبطاقتك على الإطلاق. كن حذرًا جدًا عند استخدام الشريط المغناطيسي. تأكد من عدم وجود كاميرات أو كاميرات ذات ثقوب يمكنها رؤيتك عند إدخال الرمز البريدي أو الرقم السري. تذبذب حول المنفذ وإذا كان يهتز ، فلا تستخدمه.
 
- إذا كنت تريد المزيد من الضمان ، فاستخدم جهازًا مثل [Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) للتأكد من عدم وجود جهاز.
+ إذا كنت تريد المزيد من الضمان ، فاستخدم جهازًا مثل [قارئ RFID USB من Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/) للتأكد من عدم وجود جهاز.
 
  ## دفع NFC
 
@@ -45,7 +45,7 @@ simeononsecurity.com
 
  ### نصيحة إضافية: ضع في اعتبارك محافظ حجب RFID
 
- لحماية نفسك ، احصل على ** محفظة حظر RFID ** فعلية. [جيب صامت](https://amzn.to/421J6o6) هي العلامة التجارية الوحيدة الموصى بها. معظم محافظ "حجب RFID" هي عملية احتيال كاملة. اختبر simeononsecurity.com شخصيًا مئات المحافظ وأجهزة حظر rfid المفترضة. الجيب الصامت شرعي.
+ لحماية نفسك ، احصل على ** محفظة حظر RFID ** فعلية. [محفظة Silent Pocket المزودة بحجب RFID](https://amzn.to/421J6o6) هي العلامة التجارية الوحيدة الموصى بها. معظم محافظ "حجب RFID" هي عملية احتيال كاملة. اختبر simeononsecurity.com شخصيًا مئات المحافظ وأجهزة حظر rfid المفترضة. Silent Pocket شرعي.
 
  ## تقنية الرقائق
 
@@ -70,8 +70,8 @@ simeononsecurity.com
 
  ## مراجع
 
- - [القشط](https://www.investopedia.com/terms/s/skimming.asp):
- - [التصيد](https://www.investopedia.com/terms/p/phishing.asp):
- - [كيف تعمل بطاقات الائتمان ذات الرقاقة الإلكترونية](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
- - [محفظة حجب RFID للجيب الصامت](https://amzn.to/421J6o6)
+ - [قراءة بيانات الشريط المغناطيسي](https://www.investopedia.com/terms/s/skimming.asp):
+ - [التصيد الاحتيالي](https://www.investopedia.com/terms/p/phishing.asp):
+ - [كيف تعمل بطاقات الائتمان ذات الشريحة](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
+ - [محفظة Silent Pocket المزودة بحجب RFID](https://amzn.to/421J6o6)
  - [قارئ RFID USB من Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/)

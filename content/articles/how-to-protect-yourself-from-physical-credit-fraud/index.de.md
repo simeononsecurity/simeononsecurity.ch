@@ -1,11 +1,11 @@
 ---
-title: "Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks"
+title: "Kreditkarten schützen: RFID-Skimming abwehren"
 date: 2023-04-28
-lastmod: 2023-04-28
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie sich mit einfachen Maßnahmen vor RFID-Skimming schützen und Ihre Kreditkartendaten sichern."
-tags: ["NFC", "RFID-blockierende Geldbörsen", "RFID-Lesegeräte", "RFID-Skimming", "RFID-Technologie", "Chip-Kreditkarten", "kontaktlose Zahlungen", "Kreditkartenschutz", "Cybersicherheit", "Datenschutz", "elektronischer Taschendiebstahl", "Verschlüsselung", "finanzielle Sicherheit", "hunter-cat", "Identitätsdiebstahl", "mobiles Bezahlen", "Phishing", "Privatsphäre", "Silent Pocket", "Smartcards"]
+tags: ["RFID-Datenklau", "Kreditkartenschutz", "RFID-blockierende Geldbörsen", "Chip-Kreditkarten", "Phishing-Angriffe", "Cybersicherheit", "Identitätsdiebstahl", "Privatsphäre", "kontaktlose Zahlungen", "mobiles Bezahlen", "finanzielle Sicherheit", "Smartcards", "NFC", "Verschlüsselung", "Datenschutz", "RFID-Lesegeräte", "RFID-Technologie", "elektronischer Taschendiebstahl", "Silent Pocket", "Hunter-CAT"]
 cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "Eine Cartoon-Illustration zeigt einen Dieb, der mit einem elektronischen Gerät Kreditkartendaten aus einer Geldbörse stiehlt."
 coverCaption: ""
@@ -31,11 +31,11 @@ simeononsecurity.com
 
  Was Magnetstreifen betrifft, lassen Sie niemals zu, dass jemand ein Foto von Ihrer Karte macht. Seien Sie sehr vorsichtig, wenn Sie den Magnetstreifen verwenden. Stellen Sie sicher, dass es keine Kameras oder Lochkameras gibt, die sehen können, wie Sie Ihre Postleitzahl oder PIN-Nummer eingeben. Wackeln Sie am Port herum und wenn er wackelt, verwenden Sie ihn nicht.
 
- Wenn Sie mehr Garantie wünschen, verwenden Sie ein Gerät wie [Hunter-CAT](https://hackerwarehouse.com/product/hunter-cat/), um sicherzustellen, dass es keine gibt.
+ Wenn Sie mehr Garantie wünschen, verwenden Sie ein Gerät wie [Hunter-CAT-USB-RFID-Lesegerät](https://hackerwarehouse.com/product/hunter-cat/), um sicherzustellen, dass es keine gibt.
 
  ## NFC-Zahlung
 
- Mit der NFC-Zahlung (Near Field Communication) können Sie Zahlungen vornehmen, indem Sie Ihre Kreditkarte an ein Zahlungsterminal halten. Diese Technologie ist zwar praktisch, bietet Kriminellen jedoch auch die Möglichkeit, Ihre Kreditkarteninformationen zu stehlen.
+ Mit der NFC-Zahlung (Nahfeldkommunikation) können Sie Zahlungen vornehmen, indem Sie Ihre Kreditkarte an ein Zahlungsterminal halten. Diese Technologie ist zwar praktisch, bietet Kriminellen jedoch auch die Möglichkeit, Ihre Kreditkarteninformationen zu stehlen.
 
  So schützen Sie sich vor dieser Art von Betrug:
 
@@ -45,7 +45,7 @@ simeononsecurity.com
 
  ### Zusätzlicher Tipp: Erwägen Sie Geldbörsen mit RFID-Blockierung
 
- Um sich zu schützen, besorgen Sie sich eine echte **RFID-blockierende Brieftasche**. [Silent pocket](https://amzn.to/421J6o6) ist die einzige empfohlene Marke. Die meisten Wallets mit „RFID-Blockierung“ sind ein kompletter Betrug. simeononsecurity.com hat persönlich hunderte Wallets und angebliche RFID-Blocker getestet. Silent Pocket ist legitim.
+ Um sich zu schützen, besorgen Sie sich eine echte **RFID-blockierende Brieftasche**. [Silent-Pocket-Geldbörse mit RFID-Blockierung](https://amzn.to/421J6o6) ist die einzige empfohlene Marke. Die meisten Wallets mit „RFID-Blockierung“ sind ein kompletter Betrug. simeononsecurity.com hat persönlich hunderte Wallets und angebliche RFID-Blocker getestet. Silent Pocket ist legitim.
 
  ## Chip-Technologie
 
@@ -55,7 +55,7 @@ simeononsecurity.com
 
  - Verwenden Sie Zahlungsterminals, die die Chiptechnologie unterstützen.
  - **Ziehen Sie Ihre Kreditkarte nicht durch**, wenn ein Zahlungsterminal Chiptechnologie unterstützt. Verwenden Sie immer den Chip.
- - Überprüfen Sie regelmäßig Ihre Kreditkartenabrechnungen** und melden Sie verdächtige Transaktionen Ihrer Bank.
+ - **Überprüfen Sie regelmäßig Ihre Kreditkartenabrechnungen** und melden Sie verdächtige Transaktionen Ihrer Bank.
 
  ### Zusatztipp: Behalten Sie Ihre Chipkarte im Auge
 
@@ -70,8 +70,8 @@ simeononsecurity.com
 
  ## Verweise
 
- - [Überfliegen](https://www.investopedia.com/terms/s/skimming.asp):
- - [Phishing](https://www.investopedia.com/terms/p/phishing.asp):
- - [Wie Chip-Kreditkarten funktionieren](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
- - [Silent Pocket Geldbörse mit RFID-Blockierung](https://amzn.to/421J6o6)
- - [Hunter-CAT USB-RFID-Lesegerät](https://hackerwarehouse.com/product/hunter-cat/)
+ - [Daten von Magnetstreifen auslesen](https://www.investopedia.com/terms/s/skimming.asp):
+ - [Phishing-Angriffe](https://www.investopedia.com/terms/p/phishing.asp):
+ - [So funktionieren Chip-Kreditkarten](https://www.creditkarma.com/credit-cards/i/chip-credit-cards-work)
+ - [Silent-Pocket-Geldbörse mit RFID-Blockierung](https://amzn.to/421J6o6)
+ - [Hunter-CAT-USB-RFID-Lesegerät](https://hackerwarehouse.com/product/hunter-cat/)
