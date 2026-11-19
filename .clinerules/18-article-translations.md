@@ -36,6 +36,9 @@
   applying them to the current candidate.
 - Compare section structure against English. A translation with far fewer
   headings needs inspection for an older or incomplete source revision.
+- Use script-aware checks for completeness. Whitespace word counts undercount
+  Chinese and Japanese; compare sections, lists, links, and reader-facing
+  content against the source before marking a file incomplete or complete.
 - When work is split into language batches, derive the complete language list
   again before the final audit. Do not treat a completed batch as full bundle
   coverage. Include every configured code, including `pl` when present.
