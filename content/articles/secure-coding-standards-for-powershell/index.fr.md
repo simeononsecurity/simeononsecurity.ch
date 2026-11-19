@@ -1,7 +1,7 @@
 ---
 title: "Meilleures pratiques pour le codage sécurisé dans PowerShell : Un guide"
 date: 2023-03-01
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Apprenez les meilleures pratiques pour écrire du code PowerShell sécurisé afin de protéger vos systèmes Windows contre les failles de sécurité."
@@ -96,7 +96,7 @@ Dans PowerShell, il existe plusieurs analyseurs de code statique, tels que `PSSc
 
 En voici un exemple, `PSScriptAnalyzer` est un analyseur de code statique populaire qui examine le code PowerShell à la recherche de failles de sécurité potentielles. Il peut détecter des problèmes tels que :
 
-- **Indentifiants codés à l'arrache**
+- **Identifiants codés en dur**
 - **l'utilisation de fonctions obsolètes ou dangereuses**
 - **Une validation d'entrée insuffisante**
 - **l'utilisation incorrecte de variables et de boucles**.

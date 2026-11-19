@@ -30,10 +30,22 @@
   checkout and compare it with the recorded claim. Give the same verified hash
   to the writer. If a writer reports a mismatch, stop before copying or editing
   candidate files, then reconcile the claim and current source hash.
+- Immediately before each batch dispatch, refresh the live agent list, Git status,
+  and progress ledger. Exclude every active claim and modified bundle, even when
+  another coordinator appended it during selection. Choose the next unused batch
+  identifier from the latest ledger. Record all bundle paths and full 64-character
+  source hashes together before spawning any writer, then verify those exact hashes
+  and paths one final time. A unique batch number does not replace unique bundle
+  ownership.
 - Before forwarding or applying peer-review findings, verify the report names
   the assigned bundle and its English source hash. Compare each cited phrase
   with that exact source; quarantine findings about another article instead of
   applying them to the current candidate.
+- Treat a frozen candidate directory as immutable once its manifest is written.
+  For any correction, copy the snapshot to a new versioned candidate directory,
+  preserve the earlier files and manifest, then create a new manifest. Reviewers
+  must verify the manifest before and after review; stop and report a hash
+  mismatch instead of reading a candidate that the author is still changing.
 - Compare section structure against English. A translation with far fewer
   headings needs inspection for an older or incomplete source revision.
 - Use script-aware checks for completeness. Whitespace word counts undercount
@@ -52,12 +64,19 @@
   translation would change the reference. Screen every identical source tag and
   genre value, including single-word values, in inline and block-style YAML lists
   for manual review. Translate reader-facing taxonomy terms and record any
-  proper-name exception. Preserve the source tag and genre counts. The leakage
-  checker flags `taxonomy_count_mismatch`; inspect the report's source/target
+  proper-name exception. Preserve the source tag and genre counts. The strict
+  gate blocks `taxonomy_count_mismatch`; inspect the report's source/target
   counts, then compare value order manually because translations change values.
-  A clean strict English-fallback scan does not approve taxonomy: compare every
+  A clean strict fallback scan still does not approve taxonomy: compare every
   tag and genre against the source, translate generic English values, preserve
   canonical product names and acronyms, and verify order and count before review.
+- Do not translate a brand name into a common noun in titles, prose, or taxonomy.
+  Keep names such as Brave, Epic, Puffin, and Waterfox intact, and translate only
+  the generic descriptor around the name.
+- In fenced formulas and text blocks, translate explanatory labels such as
+  `layers`, `KV heads`, `dimensions`, and `bytes`. Preserve the numeric values,
+  operators, and fixed identifiers such as `K` and `V`; a code or text fence does
+  not make reader-facing labels exempt from localization.
 - In glossary entries, retain the acronym as the fixed key and translate its
   reader-facing expansion. Do not leave the source English expansion as the
   only explanation. Keep the English wording alongside the localized expansion
@@ -78,11 +97,23 @@
   cognate. In Catalan, do not render phishing as `pesca` alone; retain
   `phishing` or use a recognized descriptive phrase, and confirm the wording
   still refers to credential theft or impersonation attacks.
+- Preserve the established programming-security meaning of common terms:
+  `hard-coded credentials` means credentials embedded directly in source code,
+  not credentials that are difficult to encode; `input sanitization` means
+  validating and cleaning input or output, not physical disinfection or
+  removal; and `data leakage` means unauthorized exposure, not data loss.
+  Translate `code injection` with the target language's established term and
+  preserve its meaning. When review finds one of these semantic errors, search
+  the entire locale file for related prose and taxonomy, correct each occurrence,
+  and recheck the full bundle.
 - Translate common English technical terms when the target language has a clear
   reader-facing equivalent. In Italian prose and table labels, use
   `velocità di trasferimento` for `throughput` and `integrato`,
   `tutto-in-uno`, or `con funzioni integrate` for `all-in-one`. Keep the English
   only for an exact UI label or formal product name.
+- In Italian, `password` is a standard security loanword. Phrases such as
+  `gestore di password` are localized when surrounding grammar is Italian;
+  retain the strict fallback finding only for an otherwise copied English label.
 - In Hindi, translate password-manager `vault` consistently as
   `पासवर्ड मैनेजर का सुरक्षित भंडार`. Search the whole locale file for every
   occurrence instead of repairing only the flagged paragraph.
@@ -178,19 +209,30 @@
   value. A filename, `lastmod`, script ratio, or clean strict-checker result
   alone never establishes translated coverage.
   During that review, compare every title, subtitle, description, table header,
-  table label, and internal-link label with its English source and target-language
-  meaning. Generic labels such as `Model A`, `Total certifications`, `with
+  table label, and link anchor, including external links and bibliography
+  references, with its English source and target-language meaning. Generic labels
+  such as `Link`, `Model A`, `Total certifications`, `with
   fallback`, and `Plug-and-play` are reader-facing text, not model names or
   technical identifiers.
+  In Snyk references, keep the product name `Snyk` and translate generic
+  descriptors such as `Open Source Security Platform`; do not carry over the
+  full English link label just because it starts with a brand name.
   Translate them even when surrounding table rows are localized. Treat an exact
   English label in a locale file as a blocker unless the reviewer documents why
   the literal English is required. Record the source and target wording in the
   review ledger, then rerun the strict fallback screen after corrections.
   Apply the same check to genre and tag values. The strict checker blocks exact
   carryovers for reviewed generic labels such as `ad-blocking`, `cross-platform`,
-  `data privacy`, `python interpreter`, and `python security documentation`.
+  `data privacy`, `internet privacy`, `open-source`, `python interpreter`, and
+  `python security documentation`.
   Preserve exact taxonomy text only for verified product names, acronyms, or
   accepted target-language loanwords, and record the locale-specific reason.
+  Translate reader-facing `description`, `caption`, and `alt` values in shortcode
+  arguments. Preserve official video titles, IDs, and other fixed parameters.
+  The leakage checker treats an unchanged multiword shortcode description,
+  caption, or alt value as a blocking English fallback; inspect other translated
+  values against their source because exact-copy checks do not detect every
+  incomplete translation.
   Review `high_confidence_english_title` and `english_dominant_title_review`
   separately. The strict gate blocks clear English title fallbacks. The `VS Code`
   product name is not a comparison. Comparator matches remain in the manual-review queue because
@@ -205,6 +247,11 @@
 
 ## Keep the English-Fallback Gate Runnable
 
+- Run the focused regression suite from the repository root with
+  `python3 tools/test_translation_english_leakage.py`. Do not invoke it as
+  `python3 -m unittest tools.test_translation_english_leakage`: the test imports
+  the checker as a top-level module, so that package-style invocation fails
+  before tests run.
 - The full `tools/check_translation_english_leakage.py --all` scan takes longer
   than 10 minutes on the current article corpus. Set
   `.github/workflows/translation-english-fallback.yml` to a timeout of at least
@@ -466,7 +513,7 @@
   only comparison heading only after confirming it contains no untranslated
   reader-facing wording.
   The checker flags missing locale files, empty bodies, repeated English source
-  paragraphs, sentences, or copied English word spans, English stopword
+  paragraphs, sentences, descriptive lines in reader-facing fences, or copied English word spans, English stopword
   dominance, missing expected scripts, and exact English reader metadata. Treat
   `copied_english_body` as a blocking exact-body fallback finding, even when
   translated front matter differs. Repair English-dominant short paragraphs;
@@ -559,7 +606,8 @@
   `python3 tools/check_translation_english_leakage.py --all --fail-on-english-fallback`.
   It blocks exact English-body copies, copied English prose verbs, copied English expansions in glossary
   entries or lowercase parenthetical prose without a localized explanation,
-  copied labels for localized first-party article links, one
+  copied labels for localized first-party article links, copied English
+  calculation labels in reader-facing formulas, one
   high-confidence English-dominant
   reader paragraph, multiple copied English paragraphs, English-dominant prose,
   missing expected scripts, copied reader-facing
@@ -576,6 +624,18 @@
   full-checker findings before approval. Translate
   descriptive values. Keep exact source wording only for a verified official
   name or fixed value, and record the reason.
+  Script-aware paragraph ratios miss short English phrases inside otherwise
+  localized Bengali, Hindi, Arabic, Japanese, Punjabi, Russian, and Chinese
+  prose. Review the CSV's exact two-to-six-word source phrase matches in those
+  locales, even when the strict paragraph screen passes. Translate reader-facing
+  phrases; preserve only verified names and fixed settings, and record the
+  reason. The strict gate blocks reviewed generic descriptors such as
+  `Multi-Gigabit` and `Hardware Controller` when copied verbatim. Add a narrow
+  regression fixture before adding any new descriptor to the checker. It also
+  blocks unchanged generic link anchors such as `Link`; translate bibliography
+  labels while keeping their destinations unchanged. Accept standard localized
+  compounds such as German `Python-Website` when the language uses the same
+  technical loanword.
   In CSV reports, review `copied_reader_fenced_lines`,
   `copied_unlabeled_fence_lines`, and `copied_reader_code_prose` separately from
   `exact_english_sentences`; fixed
