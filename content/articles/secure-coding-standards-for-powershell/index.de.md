@@ -1,7 +1,7 @@
 ---
-title: "Best Practices für sichere Codierung in PowerShell: Ein Leitfaden"
+title: "Bewährte Methoden für sicheres Programmieren in PowerShell: Ein Leitfaden"
 date: 2023-03-01
-lastmod: 2026-11-13
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Lernen Sie die besten Methoden zum Schreiben von sicherem PowerShell-Code kennen, um Ihre Windows-basierten Systeme vor Sicherheitslücken zu schützen."
