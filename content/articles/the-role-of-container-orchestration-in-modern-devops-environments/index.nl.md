@@ -5,7 +5,7 @@ lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Leer over het belang en de voordelen van containerorkestratie in moderne DevOps, samen met populaire containerorkestratietools en overheidsvoorschriften die relevant zijn voor containerisatie."
-tags: ["containerorkestratie", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "schaalbaarheid", "hoge beschikbaarheid", "taakverdeling", "beveiliging", "geautomatiseerde app implementaties", "HIPAA", "SOX", "AVG", "naleving", "softwareontwikkeling", "cloudtechnologie", "containerisatie", "technologie", "automatisering"]
+tags: ["containerorkestratie", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "schaalbaarheid", "hoge beschikbaarheid", "verkeersverdeling", "beveiliging", "geautomatiseerde app implementaties", "HIPAA", "SOX", "AVG", "naleving", "softwareontwikkeling", "cloudtechnologie", "containerisatie", "technologie", "automatisering"]
 cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Een cartooneske afbeelding van containers met een gelijk gewicht op een wip en een orkestleider die ze dirigeert."
 coverCaption: ""
