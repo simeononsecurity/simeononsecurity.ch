@@ -1,11 +1,11 @@
 ---
 title: "Orquestación de contenedores en entornos DevOps modernos"
 date: 2023-04-14
-lastmod: 2026-10-21
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Conozca la importancia y las ventajas de la orquestación de contenedores en el DevOps moderno, junto con las herramientas de orquestación de contenedores más populares y las normativas gubernamentales relevantes para la contenedorización."
-tags: ["orquestación de contenedores", "DevOps", "Kubernetes", "Enjambre Docker", "Apache Mesos", "escalabilidad", "alta disponibilidad", "equilibrio de carga", "seguridad", "implantación automatizada de aplicaciones", "HIPAA", "SOX", "GDPR", "conformidad", "desarrollo de software", "computación en nube", "contenedorización", "tecnología", "automatización"]
+tags: ["orquestación de contenedores", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "escalabilidad", "alta disponibilidad", "equilibrio de carga", "seguridad", "implantación automatizada de aplicaciones", "HIPAA", "SOX", "RGPD", "conformidad", "desarrollo de software", "computación en nube", "contenedorización", "tecnología", "automatización"]
 cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Una imagen caricaturesca que representa contenedores que comparten el mismo peso en un balancín con un director de orquesta que los dirige. "
 coverCaption: ""
@@ -28,17 +28,17 @@ El uso de la orquestación de contenedores en los entornos DevOps actuales tiene
 
 - **Escalabilidad**: Las herramientas de orquestación de contenedores como Kubernetes pueden ayudar a escalar contenedores horizontalmente desplegando automáticamente nuevas instancias cuando aumenta el tráfico.
 
-- Alta disponibilidad**: Los orquestadores también gestionan los fallos reiniciando automáticamente los contenedores fallidos o reprogramándolos para que se ejecuten en nodos sanos.
+- **Alta disponibilidad**: Los orquestadores también gestionan los fallos reiniciando automáticamente los contenedores fallidos o reprogramándolos para que se ejecuten en nodos sanos.
 
-- Equilibrio de la carga**: También pueden distribuir el tráfico uniformemente entre los contenedores que se ejecutan en diferentes nodos, evitando cualquier punto único de fallo.
+- **Equilibrio de la carga**: También pueden distribuir el tráfico uniformemente entre los contenedores que se ejecutan en diferentes nodos, evitando cualquier punto único de fallo.
 
-- Seguridad**: Los orquestadores de contenedores vienen con funciones de seguridad integradas como segmentación de red, gestión de secretos y controles de acceso que ayudan a proteger tus aplicaciones.
+- **Seguridad**: Los orquestadores de contenedores vienen con funciones de seguridad integradas como segmentación de red, gestión de secretos y controles de acceso que ayudan a proteger tus aplicaciones.
 
-- Despliegue automatizado de aplicaciones: Los orquestadores de contenedores pueden automatizar el proceso de despliegue para garantizar la coherencia y acelerar las implantaciones.
+- **Despliegue automatizado de aplicaciones**: Los orquestadores de contenedores pueden automatizar el proceso de despliegue para garantizar la coherencia y acelerar las implantaciones.
 
 ## Herramientas populares de orquestación de contenedores
 
-Existen varias herramientas de orquestación de contenedores en el mercado, pero veremos tres de las más populares: **Kubernetes**, **Docker Swarm,** y **Apache Mesos**.
+Existen varias herramientas de orquestación de contenedores en el mercado, pero veremos tres de las más populares: **Kubernetes**, **Docker Swarm** y **Apache Mesos**.
 
 ### Kubernetes
 **Kubernetes** es una herramienta de orquestación de contenedores de código abierto ampliamente utilizada en la industria. Inicialmente fue desarrollada por Google pero ahora es mantenida por la Cloud Native Computing Foundation (CNCF). Kubernetes proporciona una plataforma altamente escalable y tolerante a fallos para desplegar, gestionar y escalar aplicaciones en contenedores.
@@ -46,7 +46,7 @@ Existen varias herramientas de orquestación de contenedores en el mercado, pero
 Una de las principales ventajas de Kubernetes es el fuerte apoyo de su comunidad. Esto significa que puede encontrar varios recursos, documentación y foros de soporte en línea. Además, existen varias herramientas de terceros, como Helm, que pueden simplificar el proceso de despliegue de Kubernetes.
 
 ### Docker Swarm
-**Docker Swarm** es una herramienta de orquestación nativa integrada en el motor Docker. Proporciona una forma sencilla de gestionar y desplegar contenedores a escala. Con Docker Swarm, puede crear un clúster de nodos de alta disponibilidad para ejecutar sus aplicaciones.
+**Docker Swarm** es una herramienta de orquestación nativa integrada en el Docker Engine. Proporciona una forma sencilla de gestionar y desplegar contenedores a escala. Con Docker Swarm, puede crear un clúster de nodos de alta disponibilidad para ejecutar sus aplicaciones.
 
 Una de las ventajas de Docker Swarm es su facilidad de uso. Si ya utiliza Docker para crear y ejecutar sus contenedores, añadir Docker Swarm a su flujo de trabajo será sencillo. A diferencia de Kubernetes, que requiere un cierto nivel de experiencia para configurar y gestionar, Docker Swarm tiene una curva de aprendizaje poco profunda.
 
@@ -57,13 +57,13 @@ Algunas grandes empresas como Uber han utilizado con éxito Mesos para gestionar
 
 ## Normativa gubernamental sobre la contenedorización
 
-Las organizaciones necesitan asegurarse de que sus prácticas de contenerización cumplen con las regulaciones gubernamentales como HIPAA (Ley de Portabilidad y Responsabilidad de Seguros de Salud), SOX (Ley Sarbanes-Oxley) y GDPR (Reglamento General de Protección de Datos).
+Las organizaciones necesitan asegurarse de que sus prácticas de contenerización cumplen con las regulaciones gubernamentales como HIPAA (Ley de Portabilidad y Responsabilidad de Seguros de Salud), SOX (Ley Sarbanes-Oxley) y el Reglamento General de Protección de Datos (RGPD; GDPR).
 
 La HIPAA exige que los proveedores de servicios sanitarios garanticen la confidencialidad, integridad y disponibilidad de la información sanitaria electrónica protegida (ePHI). Las organizaciones deben asegurarse de que sus plataformas de contenedores cumplen la HIPAA.
 
 SOX es una ley aprobada por el Congreso de Estados Unidos en 2002 para proteger a los inversores de actividades contables fraudulentas. Si su organización está sujeta a la SOX, debe asegurarse de que su plataforma de contenedores cumple los requisitos de cumplimiento de la SOX.
 
-GDPR es una normativa aprobada por la Unión Europea con el objetivo de proteger la privacidad de los ciudadanos de la UE. Las organizaciones deben asegurarse de que su plataforma de contenedores cumple con GDPR si procesan datos personales de ciudadanos de la UE.
+El RGPD es una normativa aprobada por la Unión Europea con el objetivo de proteger la privacidad de los ciudadanos de la UE. Las organizaciones deben asegurarse de que su plataforma de contenedores cumple con el RGPD si procesan datos personales de ciudadanos de la UE.
 
 ## Reflexiones finales
 

@@ -1,19 +1,19 @@
 ---
 title: "Containerorkestratie in moderne DevOps-omgevingen"
 date: 2023-04-14
-lastmod: 2026-10-21
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Leer over het belang en de voordelen van containerorkestratie in moderne DevOps, samen met populaire containerorkestratietools en overheidsvoorschriften die relevant zijn voor containerisatie."
-tags: ["container orkestratie", "DevOps", "Kubernetes", "Docker Zwerm", "Apache Mesos", "schaalbaarheid", "hoge beschikbaarheid", "load balancing", "beveiliging", "geautomatiseerde app implementaties", "HIPAA", "SOX", "GDPR", "compliance", "softwareontwikkeling", "cloud computing", "containerisatie", "technologie", "automatisering"]
+tags: ["containerorkestratie", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "schaalbaarheid", "hoge beschikbaarheid", "taakverdeling", "beveiliging", "geautomatiseerde app implementaties", "HIPAA", "SOX", "AVG", "naleving", "softwareontwikkeling", "cloudtechnologie", "containerisatie", "technologie", "automatisering"]
 cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Een cartooneske afbeelding van containers met een gelijk gewicht op een wip en een orkestleider die ze dirigeert."
 coverCaption: ""
 ---
 
-**De rol van container orkestratie in moderne DevOps omgevingen**
+**De rol van containerorkestratie in moderne DevOps omgevingen**
 
-DevOps en containerisatie behoren tot de top buzzwords in de IT-wereld. Met name **container orkestratie** is een van de essentiële onderdelen van het moderne DevOps. Het is een proces dat de inzet, het beheer, het schalen en het netwerken van gecontaineriseerde applicaties automatiseert.
+DevOps en containerisatie behoren tot de belangrijkste modewoorden in de IT-wereld. Met name **containerorkestratie** is een van de essentiële onderdelen van het moderne DevOps. Het is een proces dat de inzet, het beheer, het schalen en het netwerken van gecontaineriseerde applicaties automatiseert.
 
 In dit artikel kijken we naar het belang van containerorkestratie in hedendaagse DevOps-omgevingen en bespreken we enkele populaire containerorkestratietools.
 
@@ -23,25 +23,25 @@ In dit artikel kijken we naar het belang van containerorkestratie in hedendaagse
 
 Het handmatig beheren van containers kan echter een uitdaging zijn, omdat u verschillende containers moet bijhouden die op meerdere hosts of nodes draaien. Containerorkestratie helpt dit proces te vereenvoudigen door verschillende taken bij het beheer van containers te automatiseren.
 
-## Voordelen van container orkestratie
+## Voordelen van containerorkestratie
 Er zijn verschillende voordelen aan het gebruik van containerorkestratie in moderne DevOps-omgevingen:
 
-- **Schaalbaarheid**: Container orchestration tools zoals Kubernetes kunnen helpen containers horizontaal te schalen door automatisch nieuwe instances in te zetten als het verkeer toeneemt.
+- **Schaalbaarheid**: orkestratietools voor containers zoals Kubernetes kunnen helpen containers horizontaal te schalen door automatisch nieuwe instanties in te zetten als het verkeer toeneemt.
 
-- Hoge beschikbaarheid**: Orchestrators gaan ook om met storingen door mislukte containers automatisch opnieuw te starten of ze opnieuw in te plannen om op gezonde nodes te draaien.
+- **Hoge beschikbaarheid**: Orkestrators gaan ook om met storingen door mislukte containers automatisch opnieuw te starten of ze opnieuw in te plannen om op gezonde knooppunten te draaien.
 
-- **Load balancing**: Ze kunnen ook het verkeer gelijkmatig verdelen over containers die op verschillende nodes draaien, waardoor een single point of failure wordt vermeden.
+- **Verkeersverdeling**: Ze kunnen ook het verkeer gelijkmatig verdelen over containers die op verschillende knooppunten draaien, waardoor een enkel storingspunt wordt vermeden.
 
-- Beveiliging**: Container orchestrators worden geleverd met ingebouwde beveiligingsfuncties zoals netwerksegmentatie, geheimbeheer en toegangscontroles die uw toepassingen helpen beveiligen.
+- **Beveiliging**: Containerorkestrators worden geleverd met ingebouwde beveiligingsfuncties zoals netwerksegmentatie, geheimbeheer en toegangscontroles die uw toepassingen helpen beveiligen.
 
-- Geautomatiseerde app-implementaties**: Containerorkestrators kunnen het implementatieproces automatiseren om consistentie te garanderen en rollouts te versnellen.
+- **Geautomatiseerde app-implementaties**: Containerorkestrators kunnen het implementatieproces automatiseren om consistentie te garanderen en updates sneller uit te rollen.
 
-## Populaire container orkestratie tools
+## Populaire containerorkestratietools
 
-Er zijn verschillende container orchestratie tools op de markt, maar we zullen kijken naar drie van de meest populaire: **Kubernetes**, **Docker Swarm,** en **Apache Mesos**.
+Er zijn verschillende containerorkestratietools op de markt, maar we zullen kijken naar drie van de meest populaire: **Kubernetes**, **Docker Swarm,** en **Apache Mesos**.
 
 ### Kubernetes
-**Kubernetes** is een open-source container orchestratie tool die veel gebruikt wordt in de industrie. Het werd oorspronkelijk ontwikkeld door Google, maar wordt nu onderhouden door de Cloud Native Computing Foundation (CNCF). Kubernetes biedt een zeer schaalbaar en fouttolerant platform voor het inzetten, beheren en schalen van gecontaineriseerde toepassingen.
+**Kubernetes** is een open-source tool voor containerorkestratie die veel gebruikt wordt in de industrie. Het werd oorspronkelijk ontwikkeld door Google, maar wordt nu onderhouden door de Cloud Native Computing Foundation (CNCF). Kubernetes biedt een zeer schaalbaar en fouttolerant platform voor het inzetten, beheren en schalen van gecontaineriseerde toepassingen.
 
 Een van de belangrijkste voordelen van Kubernetes is de sterke ondersteuning door de gemeenschap. Dit betekent dat u online verschillende bronnen, documentatie en ondersteuningsforums kunt vinden. Bovendien zijn er verschillende tools van derden, zoals Helm, die het implementatieproces van Kubernetes kunnen vereenvoudigen.
 
@@ -57,13 +57,13 @@ Sommige grote bedrijven zoals Uber hebben Mesos met succes gebruikt om hun micro
 
 ## Overheidsvoorschriften over containerisatie
 
-Organisaties moeten ervoor zorgen dat hun containerisatiepraktijken voldoen aan overheidsvoorschriften zoals HIPAA (Health Insurance Portability and Accountability Act), SOX (Sarbanes-Oxley Act) en GDPR (General Data Protection Regulation).
+Organisaties moeten ervoor zorgen dat hun containerisatiepraktijken voldoen aan overheidsvoorschriften zoals HIPAA (wet inzake de overdraagbaarheid en verantwoordingsplicht van zorgverzekeringen), SOX (Sarbanes-Oxley-wet) en de Algemene verordening gegevensbescherming (AVG; GDPR).
 
-HIPAA vereist dat zorgverleners de vertrouwelijkheid, integriteit en beschikbaarheid van Electronic Protected Health Information (ePHI) waarborgen. Organisaties moeten ervoor zorgen dat hun containerplatforms voldoen aan HIPAA.
+HIPAA vereist dat zorgverleners de vertrouwelijkheid, integriteit en beschikbaarheid van elektronische beschermde gezondheidsinformatie (ePHI) waarborgen. Organisaties moeten ervoor zorgen dat hun containerplatforms voldoen aan HIPAA.
 
 SOX is een wet die het Amerikaanse Congres in 2002 heeft aangenomen om investeerders te beschermen tegen frauduleuze boekhoudkundige activiteiten. Als uw organisatie onderworpen is aan SOX, moet u ervoor zorgen dat uw containerplatform voldoet aan de SOX-nalevingsvereisten.
 
-GDPR is een verordening van de Europese Unie die gericht is op de bescherming van de privacy van EU-burgers. Organisaties moeten ervoor zorgen dat hun containerplatform voldoet aan de GDPR als zij persoonsgegevens van EU-burgers verwerken.
+De AVG is een verordening van de Europese Unie die gericht is op de bescherming van de privacy van EU-burgers. Organisaties moeten ervoor zorgen dat hun containerplatform voldoet aan de AVG als zij persoonsgegevens van EU-burgers verwerken.
 
 ## Slotgedachten
 

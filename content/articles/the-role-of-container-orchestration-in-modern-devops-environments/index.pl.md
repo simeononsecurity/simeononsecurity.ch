@@ -1,11 +1,11 @@
 ---
 title: "Orkiestracja kontenerów w nowoczesnych środowiskach DevOps"
 date: 2023-04-14
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji."
-tags: ["orkiestracja kontenerów", "DevOps", "Kubernetes", "Rój Docker", "Apache Mesos", "skalowalność", "wysoka dostępność", "równoważenie obciążenia", "bezpieczeństwo", "zautomatyzowane wdrożenia aplikacji", "HIPAA", "SOX", "GDPR", "zgodność", "rozwój oprogramowania", "chmura obliczeniowa", "konteneryzacja", "technologia", "automatyka"]
+tags: ["orkiestracja kontenerów", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "skalowalność", "wysoka dostępność", "równoważenie obciążenia", "bezpieczeństwo", "zautomatyzowane wdrożenia aplikacji", "HIPAA", "SOX", "RODO", "zgodność", "rozwój oprogramowania", "chmura obliczeniowa", "konteneryzacja", "technologia", "automatyka"]
 cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Karykaturalny obrazek przedstawiający pojemniki o równym ciężarze na huśtawce, którymi kieruje dyrygent orkiestry"
 coverCaption: ""
@@ -13,7 +13,7 @@ coverCaption: ""
 
 **Rola orkiestracji kontenerów w nowoczesnych środowiskach DevOps**.
 
-DevOps i konteneryzacja to jedne z czołowych buzzwordów w świecie IT. W szczególności, **kontenerowa orkiestracja** jest jednym z podstawowych elementów współczesnego DevOps. Jest to proces, który automatyzuje wdrażanie, zarządzanie, skalowanie i tworzenie sieci skonteneryzowanych aplikacji.
+DevOps i konteneryzacja to jedne z najpopularniejszych modnych haseł w świecie IT. W szczególności, **kontenerowa orkiestracja** jest jednym z podstawowych elementów współczesnego DevOps. Jest to proces, który automatyzuje wdrażanie, zarządzanie, skalowanie i tworzenie sieci skonteneryzowanych aplikacji.
 
 W tym artykule przyjrzymy się znaczeniu orkiestracji kontenerowej we współczesnych środowiskach DevOps i omówimy kilka popularnych narzędzi do orkiestracji kontenerowej.
 
@@ -30,7 +30,7 @@ Istnieje kilka korzyści z używania orkiestracji kontenerów we współczesnych
 
 - **Wysoka dostępność**: Orkiestratory obsługują również awarie, automatycznie restartując niedziałające kontenery lub zmieniając ich harmonogram, aby działały na zdrowych węzłach.
 
-- **Load balancing**: Mogą również dystrybuować ruch równomiernie na kontenery uruchomione na różnych węzłach, unikając jakiegokolwiek pojedynczego punktu awarii.
+- **Równoważenie obciążenia**: Mogą również dystrybuować ruch równomiernie na kontenery uruchomione na różnych węzłach, unikając jakiegokolwiek pojedynczego punktu awarii.
 
 - **Bezpieczeństwo**: Orkiestratory kontenerowe pochodzą z wbudowanymi funkcjami bezpieczeństwa, takimi jak segmentacja sieci, zarządzanie sekretami i kontrola dostępu, które pomagają zabezpieczyć Twoje aplikacje.
 
@@ -46,7 +46,7 @@ Na rynku istnieje kilka narzędzi do orkiestracji kontenerów, ale przyjrzymy si
 Jedną z podstawowych zalet Kubernetes jest silne wsparcie społeczności. Oznacza to, że można znaleźć kilka zasobów, dokumentacji i forów wsparcia online. Ponadto istnieje kilka narzędzi innych firm, takich jak Helm, które mogą uprościć proces wdrażania Kubernetes.
 
 ### Docker Swarm
-**Docker Swarm** to natywne narzędzie orkiestracji wbudowane w silnik Docker. Zapewnia ono prosty sposób zarządzania i wdrażania kontenerów w skali. Dzięki Docker Swarm można stworzyć wysoko dostępny klaster węzłów do uruchamiania aplikacji.
+**Docker Swarm** to natywne narzędzie orkiestracji wbudowane w Docker Engine. Zapewnia ono prosty sposób zarządzania i wdrażania kontenerów w skali. Dzięki Docker Swarm można stworzyć wysoko dostępny klaster węzłów do uruchamiania aplikacji.
 
 Jedną z zalet Docker Swarm jest łatwość użycia. Jeśli już używasz Dockera do budowania i uruchamiania kontenerów, dodanie Docker Swarm do swojego przepływu pracy będzie proste. W przeciwieństwie do Kubernetes, który wymaga pewnego poziomu wiedzy do skonfigurowania i zarządzania, Docker Swarm ma płytką krzywą uczenia się.
 
@@ -57,13 +57,13 @@ Niektóre duże firmy, takie jak Uber, z powodzeniem wykorzystały Mesos do zarz
 
 ## Regulacje rządowe dotyczące konteneryzacji
 
-Organizacje muszą zapewnić zgodność swoich praktyk konteneryzacji z regulacjami rządowymi, takimi jak HIPAA (Health Insurance Portability and Accountability Act), SOX (Sarbanes-Oxley Act) i GDPR (General Data Protection Regulation).
+Organizacje muszą zapewnić zgodność swoich praktyk konteneryzacji z regulacjami rządowymi, takimi jak HIPAA (ustawa o przenośności i odpowiedzialności ubezpieczeń zdrowotnych), SOX (ustawa Sarbanesa-Oxleya) i RODO (rozporządzenie o ochronie danych osobowych; GDPR).
 
 HIPAA wymaga od dostawców usług zdrowotnych zapewnienia poufności, integralności i dostępności elektronicznych chronionych informacji zdrowotnych (ePHI). Organizacje muszą zapewnić, że ich platformy kontenerowe są zgodne z HIPAA.
 
 SOX to ustawa uchwalona przez Kongres Stanów Zjednoczonych w 2002 roku w celu ochrony inwestorów przed nieuczciwymi działaniami księgowymi. Jeśli Twoja organizacja podlega SOX, musisz upewnić się, że Twoja platforma kontenerowa spełnia wymagania zgodności z SOX.
 
-GDPR to regulacja uchwalona przez Unię Europejską, której celem jest ochrona prywatności obywateli UE. Organizacje muszą zapewnić, że ich platforma kontenerowa jest zgodna z GDPR, jeśli przetwarzają dane osobowe obywateli UE.
+RODO to regulacja uchwalona przez Unię Europejską, której celem jest ochrona prywatności obywateli UE. Organizacje muszą zapewnić, że ich platforma kontenerowa jest zgodna z RODO, jeśli przetwarzają dane osobowe obywateli UE.
 
 ## Końcowe wnioski
 

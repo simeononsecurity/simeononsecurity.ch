@@ -1,11 +1,11 @@
 ---
 title: "Orchestrarea containerelor în mediile DevOps moderne"
 date: 2023-04-14
-lastmod: 2026-10-21
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Aflați despre semnificația și beneficiile orchestrării containerelor în DevOps modern, împreună cu instrumentele populare de orchestrare a containerelor și reglementările guvernamentale relevante pentru containerizare."
-tags: ["orchestrarea containerelor", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "scalabilitate", "disponibilitate ridicată", "echilibrarea sarcinii", "securitate", "implementări automate de aplicații", "HIPAA", "SOX", "GDPR", "conformitate", "dezvoltarea de software", "cloud computing", "containerizare", "tehnologie", "automatizare"]
+tags: ["orchestrarea containerelor", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "scalabilitate", "disponibilitate ridicată", "echilibrarea sarcinii", "securitate", "implementări automate de aplicații", "HIPAA", "SOX", "GDPR", "conformitate", "dezvoltarea de software", "calcul în cloud", "containerizare", "tehnologie", "automatizare"]
 cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "O imagine caricaturală care înfățișează containere care împart greutatea egală pe o balansetă, cu un dirijor de orchestră care le dirijează. "
 coverCaption: ""
@@ -34,7 +34,7 @@ Există mai multe beneficii ale utilizării orchestrației de containere în med
 
 - **Securitate**: Orchestratoarele de containere vin cu funcții de securitate încorporate, cum ar fi segmentarea rețelei, gestionarea secretelor și controlul accesului, care vă ajută să vă securizați aplicațiile.
 
-- **Dezvoltarea automată a aplicațiilor**: Orchestratoarele de containere pot automatiza procesul de implementare pentru a asigura coerența și a accelera implementările.
+- **Implementarea automată a aplicațiilor**: Orchestratoarele de containere pot automatiza procesul de implementare pentru a asigura coerența și a accelera implementările.
 
 ## Instrumente populare de orchestrare a containerelor
 
@@ -57,7 +57,7 @@ Unele companii mari, cum ar fi Uber, au folosit cu succes Mesos pentru a-și ges
 
 ## Reglementări guvernamentale privind containerizarea
 
-Organizațiile trebuie să se asigure că practicile lor de containerizare respectă reglementările guvernamentale, cum ar fi HIPAA (Health Insurance Portability and Accountability Act), SOX (Sarbanes-Oxley Act) și GDPR (General Data Protection Regulation).
+Organizațiile trebuie să se asigure că practicile lor de containerizare respectă reglementările guvernamentale, cum ar fi HIPAA (Legea privind portabilitatea și responsabilitatea asigurărilor de sănătate), SOX (Legea Sarbanes-Oxley) și GDPR (Regulamentul general privind protecția datelor).
 
 HIPAA impune furnizorilor de servicii medicale să asigure confidențialitatea, integritatea și disponibilitatea informațiilor medicale electronice protejate (ePHI). Organizațiile trebuie să se asigure că platformele lor de containere sunt conforme cu HIPAA.
 
