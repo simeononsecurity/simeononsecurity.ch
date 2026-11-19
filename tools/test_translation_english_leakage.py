@@ -18,6 +18,8 @@ from check_translation_english_leakage import (
     copied_english_link_connectors,
     copied_english_headings,
     copied_english_acronym_expansions,
+    fixed_glossary_key,
+    missing_acronym_keys,
     copied_english_opening,
     copied_english_prose_paragraphs,
     copied_english_taxonomy,
@@ -784,6 +786,21 @@ class FencedProseTests(unittest.TestCase):
                     [f"API: {normalize(expansion)}"],
                 )
 
+    def test_does_not_block_a_single_word_shared_technical_term(self):
+        source = "- **AV**: Antivirus\n"
+        self.assertEqual(copied_english_acronym_expansions(source, source), [])
+
+    def test_acronym_checks_accept_fullwidth_colon_in_translations(self):
+        source = "- **API**: Application Programming Interface\n"
+        unchanged_english = "- **API**：Application Programming Interface\n"
+        localized = "- **API**：应用程序编程接口\n"
+        self.assertEqual(
+            copied_english_acronym_expansions(source, unchanged_english),
+            ["API: application programming interface"],
+        )
+        self.assertEqual(copied_english_acronym_expansions(source, localized), [])
+        self.assertEqual(missing_acronym_keys(source, localized), [])
+
     def test_checks_duplicate_acronym_keys_independently(self):
         source = (
             "- **DOS**: Disk Operating System\n"
@@ -796,6 +813,99 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(
             copied_english_acronym_expansions(source, target),
             ["DOS: denial of service"],
+        )
+
+    def test_does_not_treat_title_case_glossary_labels_as_acronym_keys(self):
+        for key in (
+            "Annual Plan",
+            "Enhanced Search",
+            "Cold Turkey",
+            "Calendar Integration",
+            "Professional Appearance",
+        ):
+            with self.subTest(key=key):
+                self.assertFalse(fixed_glossary_key(key))
+
+    def test_recognizes_common_mixed_case_acronym_keys(self):
+        for key in ("DDoS", "BaaS", "ProtonMail", "IPv6"):
+            with self.subTest(key=key):
+                self.assertTrue(fixed_glossary_key(key))
+
+    def test_recognizes_spaced_and_lowercase_fixed_glossary_keys(self):
+        for key in ("AWS CLI", "iOS", "eSIM"):
+            with self.subTest(key=key):
+                self.assertTrue(fixed_glossary_key(key))
+
+    def test_detects_nonstandard_acronym_and_technical_term_keys(self):
+        for key, expansion in (
+            ("CI/CD", "Continuous Integration and Continuous Delivery"),
+            ("DDoS", "Distributed Denial of Service"),
+            ("QR Code", "Quick Response Code"),
+            ("Qubit", "Quantum Bit"),
+        ):
+            with self.subTest(key=key):
+                entry = f"- **{key}**: {expansion}\n"
+                self.assertEqual(
+                    copied_english_acronym_expansions(entry, entry),
+                    [f"{key}: {normalize(expansion)}"],
+                )
+
+    def test_flags_a_partially_untranslated_multiword_expansion(self):
+        source = "- **OTP**: One-Time Password or One-Time Pad\n"
+        partial = "- **OTP**: Contraseña de un solo uso o One-Time Pad\n"
+        bilingual = (
+            "- **OTP**: Contraseña de un solo uso o cifrado de un solo uso "
+            "(One-Time Password or One-Time Pad)\n"
+        )
+        self.assertEqual(
+            copied_english_acronym_expansions(source, partial),
+            ["OTP: copied phrase one time pad"],
+        )
+        self.assertEqual(copied_english_acronym_expansions(source, bilingual), [])
+
+    def test_does_not_flag_an_unchanged_brand_name_as_a_glossary_expansion(self):
+        entry = "- **Android**: Tor Browser for Android\n"
+        self.assertEqual(copied_english_acronym_expansions(entry, entry), [])
+
+    def test_scans_glossary_entries_with_fullwidth_colons(self):
+        source = "- **API**: Application Programming Interface\n"
+        target = "- **API**：Application Programming Interface\n"
+        self.assertEqual(
+            copied_english_acronym_expansions(source, target),
+            ["API: application programming interface"],
+        )
+        self.assertEqual(missing_acronym_keys(source, target), [])
+
+    def test_blocks_translating_or_omitting_a_fixed_acronym_key(self):
+        source = "- **GIS**: Geographic Information System\n" + "".join(
+            f"- **AA{index}**: Definition {index}\n" for index in range(19)
+        )
+        target = "- **SIG**: Système d'information géographique\n" + "".join(
+            f"- **AA{index}**: Définition localisée {index}\n" for index in range(19)
+        )
+        self.assertEqual(missing_acronym_keys(source, target), ["GIS"])
+
+    def test_blocks_translating_a_fixed_qr_code_glossary_key(self):
+        source = "- **QR Code**: Quick Response Code\n" + "".join(
+            f"- **AA{index}**: Definition {index}\n" for index in range(19)
+        )
+        target = "- **QR ਕੋਡ**: ਤੁਰੰਤ ਜਵਾਬ ਕੋਡ\n" + "".join(
+            f"- **AA{index}**: ਸਥਾਨਕ ਪਰਿਭਾਸ਼ਾ {index}\n" for index in range(19)
+        )
+        self.assertEqual(missing_acronym_keys(source, target), ["QR Code"])
+
+    def test_short_article_bullet_lists_are_not_acronym_glossaries(self):
+        source = "- **MFA**: Multi-Factor Authentication\n"
+        target = "- **MFA**: ਮਲਟੀ-ਫੈਕਟਰ ਪ੍ਰਮਾਣਿਕਤਾ\n"
+        self.assertEqual(missing_acronym_keys(source, target), [])
+
+    def test_recognizes_fullwidth_colon_in_localized_glossary_entries(self):
+        source = "- **ACL**: Access Control List\n"
+        target = "- **ACL**：Access Control List\n"
+        self.assertEqual(missing_acronym_keys(source, target), [])
+        self.assertEqual(
+            copied_english_acronym_expansions(source, target),
+            ["ACL: access control list"],
         )
 
     def test_flags_unchanged_english_table_cells_after_row_or_column_reordering(self):
@@ -840,6 +950,62 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(result, 1)
         self.assertIn("copied_english_acronym_expansion", stdout.getvalue())
+
+    def test_strict_gate_blocks_a_changed_fixed_acronym_key(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            source_glossary = "- **GIS**: Geographic Information System\n" + "".join(
+                f"- **AA{index}**: Definition {index}\n" for index in range(19)
+            )
+            target_glossary = "- **SIG**: Système d’information géographique\n" + "".join(
+                f"- **AA{index}**: Définition localisée {index}\n" for index in range(19)
+            )
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Geographic information systems'\n---\n"
+                + source_glossary,
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Systèmes d’information géographique'\n---\n"
+                + target_glossary,
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch("check_translation_english_leakage.MIN_FIXED_GLOSSARY_KEYS", 1),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("missing_acronym_key", stdout.getvalue())
+
+    def test_strict_gate_blocks_an_unchanged_english_table_cell(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            table = "| Method | Average latency per request |\n| --- | --- |\n"
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Compare methods'\n---\n" + table,
+                encoding="utf-8",
+            )
+            (bundle / "index.de.md").write_text(
+                "---\ntitle: 'Methoden vergleichen'\n---\n" + table,
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["de"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("English_reader_table_cell_copy", stdout.getvalue())
 
     def test_flags_english_fragments_in_mixed_language_headings(self):
         source = "## Gateways and All-in-One"

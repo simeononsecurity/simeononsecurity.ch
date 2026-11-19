@@ -415,7 +415,17 @@
   acronym key. Keep the canonical English phrase only when it helps readers
   identify the acronym, and pair it with localized wording. The strict checker
   blocks an expansion copied unchanged from English, including expansions that
-  contain no English stopwords.
+  contain no English stopwords, and flags substantial copied phrases inside a
+  partially localized expansion. Check repeated acronym keys entry by entry;
+  one localized expansion does not clear another occurrence of the same key.
+  Keep fixed technical keys such as `CI/CD`, `DDoS`, and `QR Code` intact. The
+  checker includes mixed-case and slash-separated acronym keys, plus `QR Code`
+  and `Qubit`, in its glossary screen.
+  Keep the acronym key itself unchanged. Treat `missing_acronym_key` as a
+  blocking finding and restore the source key while localizing its expansion.
+  Review unchanged one-word technical terms in context. Keep them only when the
+  same form is accepted in the target language, such as `JavaScript`; otherwise
+  localize them too.
   Table-cell copy findings compare cells within the same table even when a
   translation changes row or column order. Inspect each flagged cell against
   its localized row and do not dismiss it because its coordinates changed.
