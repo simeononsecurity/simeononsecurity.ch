@@ -45,9 +45,13 @@ ENGLISH_TITLE_TERMS = set(
     "comparison components complete credit data guide how introduction keep "
     "key legend link model network now option overview past personal practices "
     "privacy protect protecting protection review right risk safe security "
-    "skimming steps trust zero"
+    "skimming steps trust zero future"
     .split()
 )
+LOCALE_TITLE_LOANWORDS = {"de": {"skimming"}}
+LOCALE_TITLE_LOANWORD_PHRASES = {
+    "de": {"skimming abwehren"},
+}
 ENGLISH_READER_VERBS = {
     "allows", "enables", "ensures", "follows", "helps", "includes", "means",
     "offers", "provides", "remains", "requires", "supports", "uses", "works",
@@ -300,10 +304,19 @@ def english_dominant_title(title: str, locale: str) -> bool:
     locale_words = LOCALE_STOPWORDS.get(locale, set())
     for raw_segment in re.split(r"[:;|.!?–—-]", title_without_fixed_term):
         segment = normalize(raw_segment).lower()
-        words = re.findall(r"[a-z]+(?:'[a-z]+)?", segment)
+        words = re.findall(r"[^\W_]+(?:['’][^\W_]+)?", segment, re.UNICODE)
         if len(words) < 2:
             continue
-        english_ratio = sum(word in english_terms for word in words) / len(words)
+        has_localized_loanword_phrase = segment in LOCALE_TITLE_LOANWORD_PHRASES.get(
+            locale, set()
+        )
+        segment_english_terms = (
+            english_terms - LOCALE_TITLE_LOANWORDS.get(locale, set())
+            if has_localized_loanword_phrase
+            else english_terms
+        )
+        english_matches = sum(word in segment_english_terms for word in words)
+        english_ratio = english_matches / len(words)
         locale_ratio = sum(word in locale_words for word in words) / len(words)
         if english_ratio < 0.40 or locale_ratio >= 0.25:
             continue

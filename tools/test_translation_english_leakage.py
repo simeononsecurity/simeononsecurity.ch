@@ -56,6 +56,9 @@ class FencedProseTests(unittest.TestCase):
         self.assertTrue(
             english_dominant_title("Protect Your Data Now", "fr")
         )
+        self.assertTrue(english_dominant_title("Security Incident", "de"))
+        self.assertTrue(english_dominant_title("Network Breach", "de"))
+        self.assertTrue(english_dominant_title("RFID Skimming Attacks", "fr"))
         self.assertTrue(
             english_dominant_title(
                 "Zero Trust Security Benefits and Challenges", "fr"
@@ -93,6 +96,13 @@ class FencedProseTests(unittest.TestCase):
             )
         )
         self.assertFalse(english_dominant_title("Azure DevOps vs GitHub", "fr"))
+        self.assertFalse(
+            english_dominant_title(
+                "Kreditkarten schützen: RFID-Skimming abwehren", "de"
+            )
+        )
+        self.assertTrue(english_dominant_title("RFID Skimming", "de"))
+        self.assertTrue(english_dominant_title("Skimming Attacks abwehren", "de"))
         self.assertFalse(
             english_dominant_title(
                 "Comment protéger votre carte contre le vol", "fr"
