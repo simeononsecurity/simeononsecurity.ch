@@ -1,7 +1,7 @@
 ---
 title: "व्यक्तिगत सुरक्षा चेकलिस्ट 2026: कहाँ से शुरू करें और क्या छोड़ें"
 date: 2026-09-30
-lastmod: 2026-11-15
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "हमलों पर प्रभाव के आधार पर व्यक्तिगत सुरक्षा के उपायों को प्राथमिकता दें, अकाउंट सुरक्षा और बैकअप से लेकर गोपनीयता और रिकवरी तक।"
@@ -186,7 +186,7 @@ ref: ["/articles/how-to-form-your-own-personal-threat-model-safeguard-online-sec
 **लीक की सूचना का मूल्य पूरी तरह समय पर निर्भर है।** पासवर्ड कहीं अभी भी मान्य हो, तभी लीक के बारे में जानना उपयोगी है।
 
 - **Have I Been Pwned** आपका पता नए डेटासेट में दिखने पर अलर्ट भेजता है। डोमेन आपका हो और आप एलियास इस्तेमाल करते हों तो पूरे डोमेन की सूचना भी देता है।
-- **आपका पासवर्ड मैनेजर बेहतर संकेत देता है**, क्योंकि उसे पता है कि चेतावनी वाली सेवा से vault की कौन-सी एंट्री जुड़ी है और वह सीधे उन्हें दिखाता है।
+- **आपका पासवर्ड मैनेजर बेहतर संकेत देता है**, क्योंकि उसे पता होता है कि सूचना में बताई गई सेवा से पासवर्ड मैनेजर के सुरक्षित संग्रह की कौन-सी प्रविष्टियाँ संबंधित हैं, और वह उन प्रविष्टियों को सीधे चिह्नित करता है।
 
 *उपयोगी प्रक्रिया छोटी है: अलर्ट आता है, प्रभावित अकाउंट का पासवर्ड बदलें और जहाँ पुराना दोबारा इस्तेमाल किया था वहाँ भी बदलें। स्तर 1 के काम 1 का लाभ यह है कि अलग पासवर्ड दूसरे कदम को हटा देता है।*
 
@@ -215,7 +215,7 @@ ref: ["/articles/how-to-form-your-own-personal-threat-model-safeguard-online-sec
 
 *ब्राउज़र फिंगरप्रिंट रैंडमाइज़ेशन समझने लायक है, पर इसे प्राथमिकता देना शायद ही उचित है। इसका मूल्य शून्य नहीं। बस यह काम 1 से 5 के मुकाबले कम लाभ देता है और साइटें तोड़ता है।*
 
-पूरा विश्लेषण **[2026 के सर्वश्रेष्ठ प्राइवेसी ब्राउज़र: LibreWolf बनाम Brave और Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)** में देखें।
+पूरा विश्लेषण **[सर्वश्रेष्ठ प्राइवेसी ब्राउज़र 2026: LibreWolf बनाम Brave बनाम Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)** में देखें।
 
 ### 11. DNS एन्क्रिप्ट करें
 
@@ -349,7 +349,7 @@ ref: ["/articles/how-to-form-your-own-personal-threat-model-safeguard-online-sec
 3. **थ्रेट मॉडल के अनुसार फ़िल्टर और प्रगति दर्ज करने के लिए इंटरैक्टिव संस्करण उपयोग करें**: **[Digital Defense](https://digital-defense.io)**
 4. **पेशेवर समकक्षों के लिए साइट की संगठनात्मक चेकलिस्ट उपयोग करें**: **[पासवर्ड सुरक्षा](/checklists/password-security-checklist/)**, **[फिशिंग जागरूकता](/checklists/phishing-awareness-checklist/)**, **[डेटा बैकअप और रिकवरी](/checklists/data-backup-recovery-checklist/)**, **[मोबाइल डिवाइस सुरक्षा](/checklists/mobile-device-security-checklist/)** और **[सोशल मीडिया सुरक्षा](/checklists/social-media-security-checklist/)**
 5. आर्किटेक्चर तुलना के साथ **पासवर्ड मैनेजर चुनें**: **[Bitwarden बनाम KeePassXC](/articles/bitwarden-and-keepassxc-vs-the-rest/)**
-6. कमज़ोर ब्राउज़र को ऑप्टिमाइज़ करने की बजाय **बेहतर ब्राउज़र चुनें**: **[LibreWolf बनाम Brave और Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)**
+6. कमज़ोर ब्राउज़र को ऑप्टिमाइज़ करने की बजाय **बेहतर ब्राउज़र चुनें**: **[सर्वश्रेष्ठ प्राइवेसी ब्राउज़र 2026: LibreWolf बनाम Brave बनाम Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)**
 7. वर्चुअल कार्ड नंबर से **भुगतान जानकारी सुरक्षित रखें**: **[Privacy.com वर्चुअल कार्ड](/articles/privacy-com-virtual-debit-cards-security-privacy/)**
 8. **टूल स्थानीय रूप से उपयोग करें**, शुरुआत **[पासवर्ड जनरेटर](/password-generator/)** और **[TOTP जनरेटर](/totp-generator/)** से करें।
 
@@ -361,7 +361,7 @@ ref: ["/articles/how-to-form-your-own-personal-threat-model-safeguard-online-sec
 | **[2026 के सर्वश्रेष्ठ पासवर्ड मैनेजर: Bitwarden बनाम KeePassXC](/articles/bitwarden-and-keepassxc-vs-the-rest/)** | क्लाउड-सिंक और ऑफ़लाइन vault आर्किटेक्चर में चुनाव |
 | **[2026 में मज़बूत पासवर्ड कैसे बनाएँ](/articles/how-to-create-strong-passwords/)** | entropy, passphrase और चिह्न बदलने से लंबाई क्यों बेहतर है |
 | **[मल्टी-फ़ैक्टर प्रमाणीकरण की गाइड](/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)** | दूसरे फ़ैक्टर तुलना के पीछे फ़ैक्टर वर्गीकरण |
-| **[2026 के सर्वश्रेष्ठ प्राइवेसी ब्राउज़र: LibreWolf बनाम Brave और Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)** | स्तर 3 के लिए ब्राउज़र सख़्त करना |
+| **[सर्वश्रेष्ठ प्राइवेसी ब्राउज़र 2026: LibreWolf बनाम Brave बनाम Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)** | स्तर 3 के लिए ब्राउज़र सख़्त करना |
 | **[गोपनीयता और सुरक्षा के शौकीनों के लिए स्मार्टवॉच विकल्प](/articles/smartwatches-for-privacy-and-security-enthusiasts/)** | पहनने योग्य डिवाइसों पर यही टियरिंग लागू करना |
 | **[Privacy.com वर्चुअल कार्ड](/articles/privacy-com-virtual-debit-cards-security-privacy/)** | क्रेडिट फ्रीज़ के साथ भुगतान का जोखिम सीमित करना |
 
