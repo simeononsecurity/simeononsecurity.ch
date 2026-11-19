@@ -1,7 +1,7 @@
 ---
-title: "Automatisierungs-Showdown: Ansible vs. Puppet vs. Chef - Ein Vergleich der wichtigsten Automatisierungswerkzeuge"
+title: "Ansible, Puppet und Chef im Vergleich: wichtige Automatisierungswerkzeuge"
 date: 2023-06-30
-lastmod: 2026-11-15
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Entdecken Sie in diesem umfassenden Vergleich die Unterschiede zwischen Ansible, Puppet und Chef, um das richtige Automatisierungstool für die Anforderungen Ihres Unternehmens auszuwählen."
