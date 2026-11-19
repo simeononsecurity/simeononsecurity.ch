@@ -1,7 +1,7 @@
 ---
-title: "Veilige cloudoplossingen: AWS vs. Azure vs. Google Cloud Platform - De beste kiezen voor uw bedrijf"
+title: "AWS, Azure en Google Cloud 2026: volledige vergelijking van cloudplatforms"
 date: 2023-07-01
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Ontdek de belangrijkste cloudbeveiligingsfuncties en certificeringen van AWS, Azure en Google Cloud Platform om de beste veilige cloudoplossing voor uw bedrijf te kiezen."

@@ -1,6 +1,7 @@
 ---
-title: "セキュアなクラウドソリューションAWS vs. Azure vs. Google Cloud Platform - ビジネスに最適なクラウドソリューションの選択"
+title: "AWS・Azure・Google Cloud 2026年版：クラウドプラットフォームの完全比較"
 date: 2023-07-01
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "AWS、Azure、Google Cloud Platformのトップクラスのクラウドセキュリティ機能と認定をご覧いただき、ビジネスに最適なセキュアなクラウドソリューションをお選びください。"

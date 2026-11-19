@@ -1,7 +1,7 @@
 ---
-title: "AWS vs Azure vs Google Cloud 2026: Vollständiger Cloud-Plattformvergleich – Preise, Sicherheit, Dienste und Leistung"
+title: "AWS, Azure und Google Cloud im Vergleich 2026: Vollständiger Cloud-Plattformvergleich – Preise, Sicherheit, Dienste und Leistung"
 date: 2023-07-01
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Umfassender Vergleich von AWS, Microsoft Azure und Google Cloud Platform (GCP) für 2026. Detaillierte Analyse von Preisen, Sicherheitsfunktionen, Compliance-Zertifizierungen, Diensten, Leistungs-Benchmarks und Entscheidungsrahmen für die Wahl des besten Cloud-Anbieters für Ihre Geschäftsanforderungen."
@@ -274,8 +274,8 @@ Sicherheit bleibt die oberste Priorität bei der Cloud-Einführung. Alle drei An
 | **Relationale (verwaltet)** | RDS (7 Engines), Aurora | SQL Database, Database for MySQL/PostgreSQL | Cloud SQL |
 | **Globale relationale** | Aurora Global Database | Cosmos DB (SQL API) | Cloud Spanner |
 | **NoSQL Dokument** | DocumentDB | Cosmos DB | Firestore |
-| **NoSQL Key-Value** | DynamoDB | Cosmos DB (Table API) | Bigtable, Firestore |
-| **In-Memory** | ElastiCache (Redis/Memcached) | Cache für Redis | Memorystore |
+| **NoSQL-Schlüssel-Wert-Datenbanken** | DynamoDB | Cosmos DB (Table API) | Bigtable, Firestore |
+| **In-Memory-Datenbanken** | ElastiCache (Redis/Memcached) | Cache für Redis | Memorystore |
 | **Data Warehouse** | Redshift | Synapse Analytics | BigQuery (serverless) |
 
 **Gewinner**: **AWS Aurora** für relationale Datenbanken, **Google BigQuery** für Analytics (serverless, beste Leistung/Kosten).
@@ -358,7 +358,7 @@ Sicherheit bleibt die oberste Priorität bei der Cloud-Einführung. Alle drei An
 | Tool | AWS | Azure | Google Cloud |
 |------|-----|-------|--------------|
 | **Native Verwaltung** | Control Tower (nur AWS) | Arc (Azure + andere) | Anthos (GCP + andere) |
-| **Infrastructure-as-Code** | CloudFormation | ARM templates, Bicep | Deployment Manager |
+| **Infrastruktur als Code** | CloudFormation | ARM templates, Bicep | Deployment Manager |
 | **Cross-Cloud IaC** | Terraform, Pulumi | Terraform, Pulumi | Terraform, Pulumi |
 | **Monitoring** | CloudWatch | Azure Monitor | Cloud Operations |
 

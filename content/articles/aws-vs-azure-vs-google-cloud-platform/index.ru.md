@@ -1,6 +1,7 @@
 ---
-title: "Безопасные облачные решения: AWS vs. Azure vs. Google Cloud Platform - выбор лучшего для вашего бизнеса"
+title: "AWS, Azure и Google Cloud в 2026 году: полное сравнение облачных платформ"
 date: 2023-07-01
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Ознакомьтесь с основными функциями облачной безопасности и сертификатами AWS, Azure и Google Cloud Platform, чтобы выбрать наиболее безопасное облачное решение для вашего бизнеса."

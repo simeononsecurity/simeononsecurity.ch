@@ -1,6 +1,7 @@
 ---
-title: "安全云解决方案：AWS vs. Azure vs. Google 云平台--选择最适合您企业的方案"
+title: "AWS、Azure 与 Google Cloud：2026 年完整对比"
 date: 2023-07-01
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "了解 AWS、Azure 和 Google Cloud Platform 的顶级云安全功能和认证，为您的企业选择最佳的安全云解决方案。"

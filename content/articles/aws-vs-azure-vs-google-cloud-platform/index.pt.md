@@ -1,7 +1,7 @@
 ---
-title: "AWS vs Azure vs Google Cloud 2026: comparação completa"
+title: "AWS, Azure e Google Cloud 2026: comparação completa de plataformas de nuvem"
 date: 2023-07-01
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Compare AWS, Azure e Google Cloud em 2026, incluindo preços, segurança, conformidade, serviços, desempenho e escolha do provedor."
