@@ -1,7 +1,7 @@
 ---
 title: "Ansible ਬਨਾਮ Puppet ਬਨਾਮ Chef 2026: ਕਨਫਿਗਰੇਸ਼ਨ ਪ੍ਰਬੰਧਨ"
 date: 2026-05-24
-lastmod: 2026-11-13
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "ਆਰਕੀਟੈਕਚਰ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ, ਸਿੱਖਣ ਦੇ ਸਮੇਂ, ਕਾਰਗੁਜ਼ਾਰੀ, ਕੀਮਤਾਂ ਅਤੇ ਵਰਤੋਂ ਦੇ ਮਾਮਲਿਆਂ ਅਨੁਸਾਰ 2026 ਵਿੱਚ Ansible, Puppet ਅਤੇ Chef ਦੀ ਤੁਲਨਾ।"
@@ -302,7 +302,7 @@ end
 - **Syntax ਜਾਂਚ**: `puppet parser validate`
 - **ਟੈਸਟਿੰਗ**: unit tests ਲਈ rspec-puppet, acceptance tests ਲਈ Beaker
 - **Simulation**: `puppet agent --test --noop`
-- **CI/CD**: GitLab CI, Jenkins pipelines
+- **CI/CD**: GitLab CI ਅਤੇ Jenkins ਦੀਆਂ ਪਾਈਪਲਾਈਨਾਂ
 
 **Chef**:
 - **Linting**: cookstyle (RuboCop-ਆਧਾਰਿਤ), foodcritic
