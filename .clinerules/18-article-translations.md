@@ -217,10 +217,15 @@
   In Snyk references, keep the product name `Snyk` and translate generic
   descriptors such as `Open Source Security Platform`; do not carry over the
   full English link label just because it starts with a brand name.
+  Translate descriptive link anchors such as `TLS RFC`; preserve the RFC URL
+  and the TLS acronym.
   Translate them even when surrounding table rows are localized. Treat an exact
   English label in a locale file as a blocker unless the reviewer documents why
   the literal English is required. Record the source and target wording in the
   review ledger, then rerun the strict fallback screen after corrections.
+  For reference links, preserve an English label as an official title only
+  after checking that the destination uses that exact title. Localize
+  author-written descriptions while retaining the organization or product name.
   Apply the same check to genre and tag values. The strict checker blocks exact
   carryovers for reviewed generic labels such as `ad-blocking`, `cross-platform`,
   `data privacy`, `internet privacy`, `open-source`, `python interpreter`, and

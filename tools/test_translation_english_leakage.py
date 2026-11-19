@@ -13,7 +13,11 @@ from check_translation_english_leakage import (
     CSV_FIELDS,
     audit_bundle,
     copied_english_prose_spans,
+    copied_english_mixed_phrases,
+    copied_english_generic_terms,
     copied_english_link_labels,
+    copied_english_generic_link_labels,
+    copied_english_shortcode_descriptions,
     copied_english_internal_link_labels,
     copied_english_link_connectors,
     copied_english_headings,
@@ -29,6 +33,7 @@ from check_translation_english_leakage import (
     taxonomy_count_differences,
     copied_reader_fenced_examples,
     copied_reader_fenced_lines,
+    copied_english_fenced_formulas,
     copied_reader_code_prose,
     english_reader_code_prose_fallback,
     copied_unlabeled_fence_lines,
@@ -204,6 +209,31 @@ class FencedProseTests(unittest.TestCase):
                 self.assertEqual(
                     copied_english_inline_acronym_expansions(source, target, locale),
                     (expected_blockers, expected_reviews),
+                )
+
+    def test_inline_acronym_screen_recognizes_reviewed_polish_glosses(self):
+        cases = (
+            (
+                "AES (Advanced Encryption Standard) protects data.",
+                "AES (zaawansowany standard szyfrowania, Advanced Encryption Standard) chroni dane.",
+                "aes: advanced encryption standard",
+            ),
+            (
+                "OWASP (Open Web Application Security Project) publishes guidance.",
+                "OWASP (Otwarty projekt bezpieczeństwa aplikacji internetowych, Open Web Application Security Project) publikuje zalecenia.",
+                "owasp: open web application security project",
+            ),
+            (
+                "TLS (Transport Layer Security) protects connections.",
+                "TLS (bezpieczeństwo warstwy transportowej, Transport Layer Security) chroni połączenia.",
+                "tls: transport layer security",
+            ),
+        )
+        for source, target, expected_review in cases:
+            with self.subTest(expected_review=expected_review):
+                self.assertEqual(
+                    copied_english_inline_acronym_expansions(source, target, "pl"),
+                    ([], [expected_review]),
                 )
 
     def test_inline_acronym_screen_accepts_localized_compounds_for_manual_review(self):
@@ -1289,39 +1319,45 @@ class FencedProseTests(unittest.TestCase):
     def test_identifies_unchanged_generic_english_taxonomy_labels(self):
         source = {
             "genre": ["Data Privacy", "Python Security"],
-            "tags": ["ad-blocking", "cross-platform", "Python interpreter", "FISMA"],
+            "tags": ["ad-blocking", "cross-platform", "Python interpreter", "internet privacy", "open-source", "FISMA"],
         }
         target = {
             "genre": ["Data Privacy", "Sicherheit für Python"],
-            "tags": ["ad-blocking", "cross-platform", "Python interpreter", "FISMA"],
+            "tags": ["ad-blocking", "cross-platform", "Python interpreter", "internet privacy", "open-source", "FISMA"],
         }
 
         self.assertEqual(
             copied_generic_english_taxonomy(source, target),
             {
                 "genre": ["Data Privacy"],
-                "tags": ["Python interpreter", "ad-blocking", "cross-platform"],
+                "tags": ["Python interpreter", "ad-blocking", "cross-platform", "internet privacy", "open-source"],
             },
         )
         self.assertEqual(
             copied_generic_english_taxonomy(source, target, "de"),
             {
                 "genre": ["Data Privacy"],
-                "tags": ["ad-blocking", "cross-platform"],
+                "tags": ["ad-blocking", "cross-platform", "internet privacy", "open-source"],
             },
         )
         self.assertEqual(
             copied_generic_english_taxonomy(source, target, "nl"),
             {
                 "genre": ["Data Privacy"],
-                "tags": ["ad-blocking", "cross-platform"],
+                "tags": ["ad-blocking", "cross-platform", "internet privacy", "open-source"],
             },
         )
         self.assertEqual(
             copied_generic_english_taxonomy(source, target, "fr"),
             {
                 "genre": ["Data Privacy"],
-                "tags": ["Python interpreter", "ad-blocking", "cross-platform"],
+                "tags": [
+                    "Python interpreter",
+                    "ad-blocking",
+                    "cross-platform",
+                    "internet privacy",
+                    "open-source",
+                ],
             },
         )
 
@@ -1330,12 +1366,12 @@ class FencedProseTests(unittest.TestCase):
             bundle = Path(temporary_directory).resolve() / "browser-guide"
             bundle.mkdir()
             (bundle / "index.en.md").write_text(
-                '---\ntitle: "Browser privacy guide"\ntags: ["ad-blocking"]\n---\n'
+                '---\ntitle: "Browser privacy guide"\ntags: ["ad-blocking", "open-source"]\n---\n'
                 "This article explains how browser extensions block advertising and protect privacy.\n",
                 encoding="utf-8",
             )
             (bundle / "index.nl.md").write_text(
-                '---\ntitle: "Gids voor browserprivacy"\ntags: ["ad-blocking"]\n---\n'
+                '---\ntitle: "Gids voor browserprivacy"\ntags: ["ad-blocking", "open-source"]\n---\n'
                 "Dit artikel legt uit hoe browserextensies advertenties blokkeren en privacy beschermen.\n",
                 encoding="utf-8",
             )
@@ -1351,6 +1387,33 @@ class FencedProseTests(unittest.TestCase):
                 result = checker_main()
 
         self.assertEqual(result, 1)
+
+    def test_strict_gate_accepts_localized_python_interpreter_loanword(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "python-guide"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                '---\ntitle: "Python security guide"\ntags: ["python interpreter"]\n---\n'
+                "This article explains how to secure Python applications and their data.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.de.md").write_text(
+                '---\ntitle: "Leitfaden zur Python-Sicherheit"\ntags: ["Python-Interpreter"]\n---\n'
+                "Dieser Artikel erklärt, wie Sie Python-Anwendungen und ihre Daten schützen.\n",
+                encoding="utf-8",
+            )
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["de"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", str(bundle)],
+                ),
+                redirect_stdout(io.StringIO()),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 0)
 
     def test_flags_unchanged_headings_for_context_review(self):
         source = (
@@ -1797,6 +1860,67 @@ class FencedProseTests(unittest.TestCase):
         self.assertEqual(result, 1)
         self.assertIn("English_reader_table_cell_copy", stdout.getvalue())
 
+    def test_strict_gate_blocks_an_unchanged_shortcode_description(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            shortcode = (
+                '{{< youtube id="abc" title="Official Video Title" '
+                'description="Local and hosted models, memory requirements, and agent verification." >}}'
+                '\n{{< figure caption="A descriptive network diagram" alt="Secure network icon" >}}'
+            )
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Local models guide'\n---\n" + shortcode,
+                encoding="utf-8",
+            )
+            (bundle / "index.de.md").write_text(
+                "---\ntitle: 'Leitfaden für lokale Modelle'\n---\n" + shortcode,
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["de"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_shortcode_description", stdout.getvalue())
+
+    def test_strict_gate_blocks_missing_taxonomy_values(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'A guide to network security'\n"
+                "tags: [network security, privacy tools, secure networks]\n---\n"
+                "A useful guide for protecting your network and its data.\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Guide de sécurité réseau'\ntags: [sécurité réseau]\n---\n"
+                "Un guide utile pour protéger votre réseau et ses données.\n",
+                encoding="utf-8",
+            )
+            report = Path(temporary_directory) / "leakage.csv"
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", "--csv", str(report), str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+            report_text = report.read_text(encoding="utf-8")
+
+        self.assertEqual(result, 1)
+        self.assertIn("taxonomy_count_mismatch", report_text)
+        self.assertIn("taxonomy_count_mismatch", stdout.getvalue())
+
     def test_flags_english_fragments_in_mixed_language_headings(self):
         source = "## Gateways and All-in-One"
         target = "## Gateways / Todo en uno"
@@ -1835,6 +1959,78 @@ class FencedProseTests(unittest.TestCase):
             ["here => here => https://example.com/help"],
         )
 
+    def test_strict_gate_blocks_unchanged_generic_bibliography_link_label(self):
+        source = "[Link](https://example.com/documentation)"
+        target = "[Link](https://example.com/documentation)"
+        self.assertEqual(
+            copied_english_generic_link_labels(source, target, "fr"),
+            ["Link => Link => https://example.com/documentation"],
+        )
+        self.assertEqual(
+            copied_english_generic_link_labels(
+                "[TLS RFC](https://tools.ietf.org/html/rfc5246)",
+                "[TLS RFC](https://tools.ietf.org/html/rfc5246)",
+                "ru",
+            ),
+            ["TLS RFC => TLS RFC => https://tools.ietf.org/html/rfc5246"],
+        )
+        self.assertEqual(
+            copied_english_generic_link_labels(
+                "[NIST - Role-Based Access Control](https://example.com/rbac)",
+                "[NIST - Role-Based Access Control](https://example.com/rbac)",
+                "de",
+            ),
+            [
+                "NIST - Role-Based Access Control => NIST - Role-Based Access Control => "
+                "https://example.com/rbac"
+            ],
+        )
+        self.assertEqual(
+            copied_english_generic_link_labels(
+                "[OWASP RBAC Cheat Sheet](https://example.com/owasp)",
+                "[OWASP RBAC Cheat Sheet](https://example.com/owasp)",
+                "ja",
+            ),
+            [
+                "OWASP RBAC Cheat Sheet => OWASP RBAC Cheat Sheet => "
+                "https://example.com/owasp"
+            ],
+        )
+        self.assertEqual(
+            copied_english_generic_link_labels(
+                "[Python website](https://www.python.org/downloads/)",
+                "[Python-Website](https://www.python.org/downloads/)",
+                "de",
+            ),
+            [],
+        )
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Security guide'\n---\n"
+                "This article explains how to secure your software and protect data.\n\n"
+                "[Link](https://example.com/documentation)\n"
+                "[TLS RFC](https://tools.ietf.org/html/rfc5246)\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Guide de sécurité'\n---\n"
+                "Cet article explique comment sécuriser les logiciels et protéger les données.\n\n"
+                "[Link](https://example.com/documentation)\n"
+                "[TLS RFC](https://tools.ietf.org/html/rfc5246)\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_generic_link_label", stdout.getvalue())
+
     def test_flags_english_source_phrase_inside_longer_target_link_label(self):
         source = "[Cybersecurity framework](https://example.com/framework)"
         target = "[Consulte el Cybersecurity framework recomendado aquí](https://example.com/framework)"
@@ -1845,6 +2041,47 @@ class FencedProseTests(unittest.TestCase):
                 "Cybersecurity framework => Consulte el Cybersecurity framework recomendado aquí => "
                 "https://example.com/framework"
             ],
+        )
+
+    def test_flags_unchanged_shortcode_descriptions_but_ignores_official_titles(self):
+        source = (
+            '{{< youtube id="abc" title="Official Video: Source Name" '
+            'description="Local and hosted models, memory requirements, and agent verification." >}}'
+        )
+        unchanged = source
+        localized = (
+            '{{< youtube id="abc" title="Título oficial: Nombre" '
+            'description="Modelos locais e hospedados, requisitos de memória e verificação de agentes." >}}'
+        )
+
+        self.assertEqual(
+            copied_english_shortcode_descriptions(source, unchanged),
+            ["youtube.description: Local and hosted models, memory requirements, and agent verification."],
+        )
+        self.assertEqual(copied_english_shortcode_descriptions(source, localized), [])
+
+    def test_shortcode_reader_text_matches_attributes_independently_and_ignores_data_alt(self):
+        source = (
+            '{{< figure alt="Secure network icon" caption="A sample network diagram" >}}\n'
+            '{{< figure alt="Another network illustration" >}}'
+        )
+        target = (
+            '{{< figure caption="A sample network diagram" data-alt="Secure network icon" '
+            'alt="Icono de red segura" >}}\n'
+            '{{< figure alt="Another network illustration" >}}'
+        )
+
+        self.assertEqual(
+            copied_english_shortcode_descriptions(source, target),
+            [
+                "figure.caption: A sample network diagram",
+                "figure.alt: Another network illustration",
+            ],
+        )
+        short_alt = '{{< figure alt="Secure network icon" >}}'
+        self.assertEqual(
+            copied_english_shortcode_descriptions(short_alt, short_alt),
+            ["figure.alt: Secure network icon"],
         )
 
     def test_flags_copied_source_link_phrase_with_attached_cjk_suffix(self):
@@ -1962,6 +2199,30 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(findings, [])
 
+    def test_internal_link_gate_ignores_shared_brand_words_in_localized_label(self):
+        with TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            articles = root / "articles"
+            sibling = articles / "flock-finder"
+            sibling.mkdir(parents=True)
+            (sibling / "index.fr.md").write_text(
+                "---\ntitle: 'Cartographier les caméras Flock Safety'\n---\n",
+                encoding="utf-8",
+            )
+            source = (
+                "Read [Flock Finder: Map Flock Safety ALPR Cameras]"
+                "(https://simeononsecurity.com/articles/flock-finder/)."
+            )
+            target = (
+                "Lisez [Flock Finder: Cartographier les caméras Flock Safety]"
+                "(https://simeononsecurity.com/articles/flock-finder/)."
+            )
+
+            with patch("check_translation_english_leakage.ARTICLES", articles):
+                findings = copied_english_internal_link_labels(source, target, "fr")
+
+        self.assertEqual(findings, [])
+
     def test_flags_english_and_connector_between_linked_list_items(self):
         text = (
             "Algunos servicios incluyen [A](https://example.com/a), "
@@ -2023,7 +2284,7 @@ class FencedProseTests(unittest.TestCase):
                 result = checker_main()
 
         self.assertEqual(result, 1)
-        self.assertIn("high-confidence English fallbacks: 1", stdout.getvalue())
+        self.assertIn("strict blockers: 1", stdout.getvalue())
         self.assertIn("copied_english_link_connector", stdout.getvalue())
         self.assertNotIn("English_dominant_reader_body", stdout.getvalue())
 
@@ -2055,6 +2316,47 @@ class FencedProseTests(unittest.TestCase):
 
         self.assertEqual(result, 1)
         self.assertIn("English_reader_code_prose_fallback", stdout.getvalue())
+
+    def test_strict_gate_blocks_unchanged_reader_facing_formula_lines(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'KV cache estimate'\n---\n"
+                "## Estimate\n\nThe calculation gives the bytes needed per token.\n\n"
+                "```text\nFull-attention KV bytes per token:\n"
+                "16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes\n"
+                "```\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.fr.md").write_text(
+                "---\ntitle: 'Estimation du cache KV'\n---\n"
+                "## Estimation\n\nLe calcul donne les octets requis par jeton.\n\n"
+                "```text\nOctets KV en attention complète par jeton :\n"
+                "16 layers × 4 KV heads × 256 dimensions × 2 (K and V) × 2 bytes\n"
+                "```\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["fr"]),
+                patch.object(sys, "argv", ["checker", "--fail-on-english-fallback", str(bundle)]),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+            self.assertEqual(result, 1)
+            self.assertIn("copied_english_fenced_formula", stdout.getvalue())
+            self.assertIn(
+                "16 layers 4 kv heads 256 dimensions 2 k and v 2 bytes",
+                copied_english_fenced_formulas(
+                    (bundle / "index.en.md").read_text(encoding="utf-8"),
+                    (bundle / "index.fr.md").read_text(encoding="utf-8"),
+                ),
+            )
+            status_output = (
+                "```text\nStatus: 200 records in 4 files, 16 events, and 2 errors.\n```"
+            )
+            self.assertEqual(copied_english_fenced_formulas(status_output, status_output), [])
 
     def test_keeps_text_fences_and_excludes_executable_fences(self):
         sample = (
@@ -2691,6 +2993,110 @@ print('She said "Continue before saving"')
         target = "[All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://example.com/book) を参照してください。"
 
         self.assertFalse(copied_english_prose_spans(source, target))
+
+    def test_finds_source_matched_english_phrases_in_bengali_prose(self):
+        source = (
+            "Required memory = resident weights + context cache + runtime allowance\n"
+            "| Relevant context | Edits an unrelated file |"
+        )
+        target = (
+            "প্রয়োজনীয় মেমরি = resident weights + context cache + runtime allowance\n"
+            "| Relevant context | অসংশ্লিষ্ট ফাইল সম্পাদনা করে |"
+        )
+
+        findings = copied_english_mixed_phrases(source, target, "bn")
+        self.assertIn("resident weights", findings)
+        self.assertIn("context cache", findings)
+        self.assertIn("runtime allowance", findings)
+        self.assertIn("Relevant context", findings)
+        self.assertEqual(copied_english_mixed_phrases(source, target, "fr"), [])
+
+    def test_strict_gate_blocks_generic_technical_descriptors(self):
+        with TemporaryDirectory() as temporary_directory:
+            bundle = Path(temporary_directory).resolve() / "candidate"
+            bundle.mkdir()
+            (bundle / "index.en.md").write_text(
+                "---\ntitle: 'Network switch guide'\n---\n"
+                "Required memory = resident weights + context cache + runtime allowance\n\n"
+                "Omada ER7206 (Multi-Gigabit): $199\n\n"
+                "Snyk - Open Source Security Platform\n",
+                encoding="utf-8",
+            )
+            (bundle / "index.bn.md").write_text(
+                "---\ntitle: 'নেটওয়ার্ক সুইচ নির্দেশিকা'\n---\n"
+                "প্রয়োজনীয় মেমরি = resident weights + context cache + runtime allowance\n\n"
+                "Omada ER7206 (Multi-Gigabit): $199\n\n"
+                "Snyk - Open Source Security Platform\n",
+                encoding="utf-8",
+            )
+            stdout = io.StringIO()
+            report = bundle.parent / "leakage.csv"
+            with (
+                patch("check_translation_english_leakage.configured_locales", return_value=["bn"]),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["checker", "--fail-on-english-fallback", "--csv", str(report), str(bundle)],
+                ),
+                redirect_stdout(stdout),
+            ):
+                result = checker_main()
+            with report.open(encoding="utf-8", newline="") as handle:
+                reader = csv.DictReader(handle)
+                report_fields = reader.fieldnames
+                report_rows = list(reader)
+
+        self.assertEqual(result, 1)
+        self.assertIn("copied_english_generic_term", stdout.getvalue())
+        self.assertIn("source-matched mixed-script phrase reviews:", stdout.getvalue())
+        self.assertIn("copied_english_mixed_phrases", report_fields)
+        self.assertIn("copied_english_generic_terms", report_fields)
+        self.assertTrue(any("resident weights" in row["copied_english_mixed_phrases"] for row in report_rows))
+        self.assertTrue(any("multi-gigabit" in row["copied_english_generic_terms"] for row in report_rows))
+        self.assertTrue(
+            any("open source security platform" in row["copied_english_generic_terms"] for row in report_rows)
+        )
+
+    def test_generic_descriptor_screen_catches_hardware_controller(self):
+        self.assertEqual(
+            copied_english_generic_terms(
+                "Omada OC200 Hardware Controller: $89",
+                "Omada OC200 Hardware Controller: $89",
+                "de",
+            ),
+            ["hardware controller"],
+        )
+        self.assertEqual(
+            copied_english_generic_terms(
+                "- **Use Prepared Statements**: explanatory localized text",
+                "- **Use Prepared Statements**: 解释性本地化文本",
+                "zh",
+            ),
+            ["use prepared statements"],
+        )
+        self.assertEqual(
+            copied_english_generic_terms(
+                "Snyk - Open Source Security Platform",
+                "Snyk - Open Source Security Platform",
+                "fr",
+            ),
+            ["open source security platform"],
+        )
+        self.assertEqual(
+            copied_english_generic_terms(
+                "Snyk - Open Source Security Platform",
+                "Snyk - plate-forme de sécurité open source",
+                "fr",
+            ),
+            [],
+        )
+        self.assertEqual(
+            copied_english_generic_terms(
+                "Multi-Gigabit capability", "Multi-Gigabit-fähig", "de"
+            ),
+            [],
+        )
+        self.assertEqual(copied_english_mixed_phrases("Astra max", "Astra max", "bn"), [])
 
 
 if __name__ == "__main__":

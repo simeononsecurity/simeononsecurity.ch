@@ -78,9 +78,16 @@ GENERIC_ENGLISH_TAXONOMY_LABELS = {
     "ad blocking",
     "cross platform",
     "data privacy",
+    "internet privacy",
+    "open source",
     "python interpreter",
     "python security documentation",
 }
+GENERIC_ENGLISH_TECHNICAL_TERMS = {
+    "hardware controller", "multi-gigabit", "open source security platform",
+    "use prepared statements",
+}
+MIXED_PHRASE_FIXED_VALUES = {"astra max", "glm-5 max", "opus max"}
 LOCALE_ACCEPTED_TAXONOMY_LOANWORDS = {
     "de": {"python interpreter"},
     "nl": {"python interpreter"},
@@ -97,6 +104,37 @@ GENERIC_ENGLISH_LINK_LABELS = {
     "website",
     "source",
     "documentation",
+    "link",
+    "python website",
+    "python downloads page",
+    "python security documentation",
+    "python website downloads",
+    "aes wikipedia page",
+    "wikipedia page",
+    "downloads page",
+    "security documentation",
+    "tls rfc",
+    "nist role based access control",
+    "owasp rbac cheat sheet",
+}
+ACCEPTED_GENERIC_LINK_LABELS = {
+    "de": {
+        ("python website", "python-website"),
+        ("python website - downloads", "python-website – downloads"),
+    },
+}
+ACCEPTED_GENERIC_TECHNICAL_COMPOUNDS = {
+    "de": {"multi-gigabit-fähig"},
+}
+ENGLISH_INTERNAL_LINK_DESCRIPTIVE_WORDS = {
+    "enable", "two", "factor", "authentication", "compromised", "email",
+    "flash", "download", "setup", "guide", "create", "strong", "password",
+    "protect", "privacy", "security", "what", "think", "your", "how", "read",
+}
+LOCALIZED_TECHNICAL_LOANWORDS = {
+    # Italian uses "password" in standard phrases such as "gestore di password".
+    # Exact copied labels still fail the equality check below.
+    "it": {"password"},
 }
 UNLABELED_FENCE_SINGLE_WORD_LABELS = {
     "additional", "category", "common", "description", "device", "done",
@@ -128,6 +166,11 @@ LOCALE_ACRONYM_LOCALIZATION_MARKERS = {
         "netwerk"
         .split()
     ),
+    "pl": set(
+        "zaawansowan standard szyfrow bezpiecze warstw transportow otwarty projekt "
+        "aplikac internet"
+        .split()
+    ),
     "pt": set(
         "dados rede privad segurança segur conexã protocol proteg virtual transfer"
         .split()
@@ -137,6 +180,7 @@ CSV_FIELDS = [
     "path", "locale", "reasons", "tokens", "english_stopword_ratio",
     "locale_stopword_ratio", "exact_english_paragraphs",
     "exact_english_sentences", "copied_reader_fenced_lines",
+    "copied_english_fenced_formulas",
     "copied_reader_code_prose", "copied_unlabeled_fence_lines", "copied_english_spans",
     "split_word_emphasis", "english_dominant_paragraphs",
     "copied_english_table_cells", "copied_english_headings",
@@ -144,7 +188,11 @@ CSV_FIELDS = [
     "expected_script_ratio", "copied_english_opening", "copied_link_labels",
     "english_dominant_title", "english_dominant_title_review",
     "copied_english_link_connectors",
+    "copied_english_generic_link_labels",
     "copied_english_internal_link_labels",
+    "copied_english_shortcode_descriptions",
+    "copied_english_mixed_phrases",
+    "copied_english_generic_terms",
     "copied_english_reader_verbs",
     "copied_english_acronym_expansions",
     "copied_english_inline_acronym_expansion_review",
@@ -923,6 +971,22 @@ def copied_reader_fenced_lines(source: str, target: str) -> set[str]:
     return eligible_lines(source) & eligible_lines(target)
 
 
+def copied_english_fenced_formulas(source: str, target: str) -> list[str]:
+    """Find copied English unit labels in reader-facing calculation lines."""
+    units = {
+        "layer", "layers", "head", "heads", "dimension", "dimensions",
+        "byte", "bytes", "token", "tokens",
+    }
+    findings = []
+    for line in copied_reader_fenced_lines(source, target):
+        words = line.split()
+        number_count = sum(word.isdigit() for word in words)
+        unit_count = len(set(words) & units)
+        if number_count >= 4 and unit_count >= 2:
+            findings.append(line)
+    return sorted(findings)
+
+
 def copied_unlabeled_fence_lines(source: str, target: str) -> set[str]:
     """Find unchanged descriptive lines in fences without an info string."""
     def eligible_lines(text: str) -> set[str]:
@@ -1078,6 +1142,53 @@ def copied_english_link_labels(source: str, target: str) -> list[str]:
     return copied
 
 
+def copied_english_generic_link_labels(source: str, target: str, locale: str) -> list[str]:
+    """Find unchanged generic English link labels that should be localized."""
+    copied = []
+    for source_label, source_target in markdown_links(source):
+        for target_label, target_target in markdown_links(target):
+            accepted_label = (
+                source_label.strip().casefold(), target_label.strip().casefold()
+            )
+            if (
+                source_target == target_target
+                and normalize(source_label) in GENERIC_ENGLISH_LINK_LABELS
+                and normalize(source_label) == normalize(target_label)
+                and accepted_label not in ACCEPTED_GENERIC_LINK_LABELS.get(locale, set())
+            ):
+                copied.append(f"{source_label} => {target_label} => {source_target}")
+    return copied
+
+
+def copied_english_shortcode_descriptions(source: str, target: str) -> list[str]:
+    """Find unchanged reader-facing descriptions/captions/alts in shortcodes."""
+    shortcode_pattern = re.compile(r"\{\{[<%]\s*([\w-]+)(?P<attrs>.*?)\s*[>%]\}\}", re.S)
+    attr_pattern = re.compile(
+        r"(?<![\w-])(?P<key>description|caption|alt)\s*=\s*"
+        r"(?P<quote>[\"'])(?P<value>.*?)(?P=quote)",
+        re.S,
+    )
+
+    def values(text: str) -> list[tuple[str, str, str]]:
+        found = []
+        for shortcode in shortcode_pattern.finditer(text):
+            for attr in attr_pattern.finditer(shortcode.group("attrs")):
+                found.append((shortcode.group(1), attr.group("key"), attr.group("value")))
+        return found
+
+    source_values = values(source)
+    target_values = values(target)
+    target_fields = {(name, key, normalize(value)) for name, key, value in target_values}
+    copied = []
+    for source_name, key, source_value in source_values:
+        normalized = normalize(source_value)
+        if len(normalized.split()) < 2:
+            continue
+        if (source_name, key, normalized) in target_fields:
+            copied.append(f"{source_name}.{key}: {source_value}")
+    return copied
+
+
 def copied_english_internal_link_labels(source: str, target: str, locale: str) -> list[str]:
     """Block copied labels for first-party articles with a localized sibling title."""
     copied = []
@@ -1090,10 +1201,12 @@ def copied_english_internal_link_labels(source: str, target: str, locale: str) -
         matched_source = None
         for source_label in source_labels:
             source_words = set(normalize(source_label).split())
+            shared_words = source_words & target_words
+            shared_descriptive_words = shared_words & ENGLISH_INTERNAL_LINK_DESCRIPTIVE_WORDS
+            shared_descriptive_words -= LOCALIZED_TECHNICAL_LOANWORDS.get(locale, set())
             if (
                 source_words == target_words
-                or (len(target_words) >= 3 and target_words <= source_words)
-                or len(source_words & target_words) >= 3
+                or bool(shared_descriptive_words)
             ):
                 matched_source = source_label
                 break
@@ -1117,7 +1230,7 @@ def copied_english_internal_link_labels(source: str, target: str, locale: str) -
             and normalize(translated_title)
             and normalize(translated_title) != normalize(target_label)
         ):
-            copied.append(f"{matched_source} => {target_label} => {source_target}")
+            copied.append(f"{matched_source} => {target_label} => {target_target}")
     return copied
 
 
@@ -1788,6 +1901,75 @@ def copied_english_prose_spans(source: str, target: str) -> set[str]:
     }
 
 
+def copied_english_mixed_phrases(source: str, target: str, locale: str) -> list[str]:
+    """Find exact English source phrases embedded in non-Latin translations."""
+    if locale not in SCRIPT_RANGES:
+        return []
+
+    word_pattern = re.compile(r"[A-Za-z][A-Za-z0-9'-]*")
+
+    def phrases(text: str) -> dict[tuple[tuple[str, ...], tuple[bool, ...]], str]:
+        found: dict[tuple[tuple[str, ...], tuple[bool, ...]], str] = {}
+        for line in visible_text(text).splitlines():
+            words = word_pattern.findall(line)
+            for size in range(2, 7):
+                for start in range(max(0, len(words) - size + 1)):
+                    original = words[start:start + size]
+                    if sum(len(re.sub(r"[^A-Za-z]", "", word)) >= 3 for word in original) < 2:
+                        continue
+                    # Multiword title case is usually an official name or
+                    # product label; dedicated checks cover reviewed generic
+                    # labels that use this capitalization.
+                    if sum(word[:1].isupper() for word in original) > 1:
+                        continue
+                    literal_phrase = r"(?<![A-Za-z0-9])" + r"[\s-]+".join(
+                        re.escape(word) for word in original
+                    ) + r"(?![A-Za-z0-9])"
+                    # Do not join words separated by commas, parentheses,
+                    # Markdown table cells, or other punctuation. Such joins
+                    # create false matches between product names in lists.
+                    if not re.search(literal_phrase, line, re.I):
+                        continue
+                    key = (
+                        tuple(word.lower() for word in original),
+                        tuple(word[:1].isupper() for word in original),
+                    )
+                    found.setdefault(key, " ".join(original))
+        return found
+
+    source_phrases = phrases(source)
+    target_phrases = phrases(target)
+    matches = source_phrases.keys() & target_phrases.keys()
+    return sorted(
+        source_phrases[key]
+        for key in matches
+        if " ".join(key[0]) not in MIXED_PHRASE_FIXED_VALUES
+    )
+
+
+def copied_english_generic_terms(source: str, target: str, locale: str) -> list[str]:
+    """Find reviewed generic technical descriptors copied verbatim from English."""
+    source_text = visible_text(source)
+    target_text = visible_text(target)
+    findings = []
+    for term in GENERIC_ENGLISH_TECHNICAL_TERMS:
+        pattern = re.escape(term).replace(r"\ ", r"\s+")
+        boundary = rf"(?<![A-Za-z0-9]){pattern}(?![A-Za-z0-9])"
+        accepted_compound = any(
+            re.search(
+                rf"(?<![A-Za-z0-9]){re.escape(compound)}(?![A-Za-z])",
+                target_text,
+                re.I,
+            )
+            for compound in ACCEPTED_GENERIC_TECHNICAL_COMPOUNDS.get(locale, set())
+        )
+        if term == "multi-gigabit" and accepted_compound:
+            continue
+        if re.search(boundary, source_text, re.I) and re.search(boundary, target_text, re.I):
+            findings.append(term)
+    return sorted(findings)
+
+
 def english_dominant_paragraphs(text: str, locale: str) -> list[str]:
     """Screen for English paragraphs inside otherwise translated articles.
 
@@ -2025,6 +2207,8 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             if sum(word in ENGLISH_STOPWORDS for word in sentence.split()) >= 2
         ]
         copied_spans = copied_english_prose_spans(source_body, body)
+        copied_mixed_phrases = copied_english_mixed_phrases(source_body, body, locale)
+        copied_generic_terms = copied_english_generic_terms(source_body, body, locale)
         copied_prose_paragraphs = copied_english_prose_paragraphs(source_body, body)
         english_paragraphs = english_dominant_paragraphs(body, locale)
         high_confidence_english_paragraphs_found = high_confidence_english_paragraphs(body, locale)
@@ -2094,6 +2278,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         copied_fence_lines = sorted(copied_reader_fenced_lines(source_body, body))
         if copied_fence_lines:
             reasons.append("copied_reader_fenced_line")
+        copied_fence_formulas = copied_english_fenced_formulas(source_body, body)
+        if copied_fence_formulas:
+            reasons.append("copied_english_fenced_formula")
         copied_unlabeled_fence = sorted(copied_unlabeled_fence_lines(source_body, body))
         if copied_unlabeled_fence:
             reasons.append("copied_unlabeled_fence_line")
@@ -2110,6 +2297,10 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
             reasons.append("exact_English_sentences")
         if copied_spans:
             reasons.append("copied_English_prose_span")
+        if copied_mixed_phrases:
+            reasons.append("copied_english_mixed_phrase_review")
+        if copied_generic_terms:
+            reasons.append("copied_english_generic_term")
         if copied_prose_paragraphs:
             reasons.append("copied_english_prose_paragraph")
         if english_paragraphs:
@@ -2141,8 +2332,16 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
         if taxonomy_counts:
             reasons.append("taxonomy_count_mismatch:" + ",".join(sorted(taxonomy_counts)))
         copied_link_labels = copied_english_link_labels(source_body, body)
+        copied_generic_link_labels = copied_english_generic_link_labels(
+            source_body, body, locale
+        )
         if copied_link_labels:
             reasons.append("English_reader_link_label_copy")
+        if copied_generic_link_labels:
+            reasons.append("copied_english_generic_link_label")
+        copied_shortcode_descriptions = copied_english_shortcode_descriptions(source_body, body)
+        if copied_shortcode_descriptions:
+            reasons.append("copied_english_shortcode_description")
         copied_internal_link_labels = copied_english_internal_link_labels(
             source_body, body, locale
         )
@@ -2164,10 +2363,13 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "exact_english_paragraphs": f"{exact}/{len(paragraphs)}",
                 "exact_english_sentences": " | ".join(copied_sentences),
                 "copied_reader_fenced_lines": " | ".join(copied_fence_lines),
+                "copied_english_fenced_formulas": " | ".join(copied_fence_formulas),
                 "copied_reader_code_prose": " | ".join(copied_code_prose),
                 "english_reader_code_prose_fallback": " | ".join(english_code_fallback),
                 "copied_unlabeled_fence_lines": " | ".join(copied_unlabeled_fence),
                 "copied_english_spans": " | ".join(sorted(copied_spans)),
+                "copied_english_mixed_phrases": " | ".join(copied_mixed_phrases),
+                "copied_english_generic_terms": " | ".join(copied_generic_terms),
                 "split_word_emphasis": " | ".join(split_emphasis),
                 "english_dominant_paragraphs": " | ".join(english_paragraphs),
                 "high_confidence_english_paragraphs": " | ".join(high_confidence_english_paragraphs_found),
@@ -2191,7 +2393,9 @@ def audit_bundle(source: Path, locales: list[str]) -> list[dict[str, str]]:
                 "expected_script_ratio": "" if ratio is None else f"{ratio:.3f}",
                 "copied_english_opening": copied_opening,
                 "copied_link_labels": " | ".join(copied_link_labels),
+                "copied_english_generic_link_labels": " | ".join(copied_generic_link_labels),
                 "copied_english_internal_link_labels": " | ".join(copied_internal_link_labels),
+                "copied_english_shortcode_descriptions": " | ".join(copied_shortcode_descriptions),
                 "copied_english_link_connectors": " | ".join(copied_link_connectors),
                 "copied_english_body": copied_body,
                 "copied_english_prose_paragraphs": " | ".join(copied_prose_paragraphs),
@@ -2212,13 +2416,14 @@ def main() -> int:
         "--fail-on-english-fallback",
         action="store_true",
         help=(
-            "fail on high-confidence English fallback signals: an exact English body or prose paragraph, "
+            "fail on English fallbacks and required taxonomy-count mismatches: an exact English body or prose paragraph, "
             "one English-dominant reader paragraph, many copied English paragraphs, "
             "English stopword dominance, changed English-dominant titles, unchanged lowercase "
             "inline acronym expansions without a localized gloss; source-identical titles and "
             "bilingual or "
             "title-case expansions need manual review, copied reader-facing "
-            "code text, or a missing target script"
+            "code text or English calculation labels, copied generic descriptors or link labels, "
+            "or a missing target script"
         ),
     )
     args = parser.parse_args()
@@ -2253,24 +2458,47 @@ def main() -> int:
             "copied_english_reader_verb",
             "expected_script_missing",
             "copied_english_opening",
+            "copied_english_fenced_formula",
             "copied_english_link_connector",
+            "copied_english_generic_link_label",
             "English_reader_code_prose_fallback",
             "copied_english_acronym_expansion",
             "missing_acronym_key",
             "copied_english_internal_link_label",
+            "copied_english_shortcode_description",
+            "copied_english_mixed_phrase",
+            "copied_english_generic_term",
             "English_reader_table_cell_copy",
             "copied_generic_english_taxonomy",
+            "taxonomy_count_mismatch",
         }
         blockers = [
             row for row in findings
             if high_confidence.intersection(row["reasons"].split(";"))
+            or any(
+                reason.startswith("taxonomy_count_mismatch:")
+                for reason in row["reasons"].split(";")
+            )
         ]
         print(
             f"published bundles scanned: {len(sources)}; configured locales: {len(locales)}; "
-            f"high-confidence English fallbacks: {len(blockers)}"
+            f"strict blockers: {len(blockers)}"
         )
+        mixed_phrase_reviews = [
+            row for row in findings
+            if "copied_english_mixed_phrase_review" in row["reasons"].split(";")
+        ]
+        print(f"source-matched mixed-script phrase reviews: {len(mixed_phrase_reviews)}")
+        for row in mixed_phrase_reviews:
+            print(
+                f"{row['path']}\t{row['locale']}\t"
+                f"{row['copied_english_mixed_phrases']}"
+            )
         for row in blockers:
-            reasons = high_confidence.intersection(row["reasons"].split(";"))
+            reasons = [
+                reason for reason in row["reasons"].split(";")
+                if reason in high_confidence or reason.startswith("taxonomy_count_mismatch:")
+            ]
             print(
                 f"{row['path']}\t{','.join(sorted(reasons))}\t"
                 f"English paragraphs {row['exact_english_paragraphs']}\t"

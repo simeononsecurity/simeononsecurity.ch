@@ -1,7 +1,7 @@
 ---
 title: "Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych"
 date: 2023-08-01
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania."
@@ -11,11 +11,11 @@ cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "Ilustracja tarczy chroniącej kod i dane Pythona, symbolizująca najlepsze praktyki bezpieczeństwa Pythona."
 coverCaption: "Zabezpiecz swój kod i dane w Pythonie za pomocą tych najlepszych praktyk."
 ---
- Najlepsze praktyki bezpieczeństwa: Ochrona kodu i danych**
+**Najlepsze praktyki bezpieczeństwa Pythona: ochrona kodu i danych**
 
 ## Wprowadzenie
 
-Python to potężny i wszechstronny język programowania, który jest szeroko stosowany do różnych celów, w tym do tworzenia stron internetowych, analizy danych i uczenia maszynowego. Jednak, jak każde inne oprogramowanie, aplikacje Python są podatne na luki w zabezpieczeniach. W tym artykule omówimy **najlepsze praktyki w zakresie bezpieczeństwa Pythona**, które pomogą chronić kod i dane przed potencjalnymi zagrożeniami.
+Python to potężny i wszechstronny język programowania, który jest szeroko stosowany do różnych celów, w tym do tworzenia stron internetowych, analizy danych i uczenia maszynowego. Jednak, jak każde inne oprogramowanie, aplikacje Python są podatne na luki w zabezpieczeniach. W tym artykule omówimy [**najlepsze praktyki w zakresie bezpieczeństwa Pythona**](https://simeononsecurity.com/articles/secure-coding-standards-for-python/), które pomogą chronić kod i dane przed potencjalnymi zagrożeniami.
 
 ______
 
@@ -34,19 +34,19 @@ Wdrożenie solidnych środków bezpieczeństwa w aplikacjach Python pomaga ogran
 
 ______
 
-## Najlepsze praktyki bezpieczeństwa Pythona
+## [Najlepsze praktyki bezpieczeństwa Pythona](https://simeononsecurity.com/articles/secure-coding-standards-for-python/)
 
 Aby zwiększyć bezpieczeństwo aplikacji Python, należy przestrzegać poniższych najlepszych praktyk:
 
 ### 1. Aktualizuj swój interpreter Pythona
 
-Regularne aktualizowanie **interpretera Pythona** do najnowszej stabilnej wersji zapewnia dostęp do najnowszych **łatek bezpieczeństwa** i **poprawek błędów**. Społeczność Pythona aktywnie usuwa luki w zabezpieczeniach i wydaje aktualizacje w celu poprawy **bezpieczeństwa i stabilności** języka. Odwiedź stronę [Python website](https://www.python.org/downloads/) aby pobrać najnowszą wersję.
+Regularne aktualizowanie **interpretera Pythona** do najnowszej stabilnej wersji zapewnia dostęp do najnowszych **łatek bezpieczeństwa** i **poprawek błędów**. Społeczność Pythona aktywnie usuwa luki w zabezpieczeniach i wydaje aktualizacje w celu poprawy **bezpieczeństwa i stabilności** języka. Odwiedź stronę [oficjalna witryna Pythona](https://www.python.org/downloads/) aby pobrać najnowszą wersję.
 
 Aktualizując interpreter Pythona, korzystasz z **najnowszych poprawek bezpieczeństwa**, które usuwają znane luki w zabezpieczeniach. Aktualizacje te mają na celu **zminimalizowanie ryzyka** i ochronę aplikacji przed potencjalnymi atakami. Dodatkowo, bycie na bieżąco pozwala wykorzystać nowe funkcje i ulepszenia wprowadzone w nowszych wersjach Pythona.
 
 Na przykład, jeśli używasz Pythona 3.7 i zostanie odkryta krytyczna luka w zabezpieczeniach, społeczność Pythona wyda poprawkę specjalnie usuwającą tę lukę. Aktualizując swój interpreter Pythona do najnowszej wersji, takiej jak Python 3.9, zapewniasz, że twój kod jest chroniony przed znanymi lukami w zabezpieczeniach.
 
-Aktualizacja interpretera Pythona jest prostym procesem. Wystarczy odwiedzić stronę [Python downloads page](https://www.python.org/downloads/) i wybierz odpowiedni instalator dla swojego systemu operacyjnego. Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zaktualizować interpreter Pythona do najnowszej wersji.
+Aktualizacja interpretera Pythona jest prostym procesem. Wystarczy odwiedzić stronę [strona pobierania Pythona](https://www.python.org/downloads/) i wybierz odpowiedni instalator dla swojego systemu operacyjnego. Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zaktualizować interpreter Pythona do najnowszej wersji.
 
 Pamiętaj, aby okresowo sprawdzać dostępność aktualizacji i regularnie aktualizować interpreter Python, aby wyprzedzić potencjalne zagrożenia bezpieczeństwa.
 
@@ -54,9 +54,9 @@ Pamiętaj, aby okresowo sprawdzać dostępność aktualizacji i regularnie aktua
 
 Przyjęcie **bezpiecznych praktyk kodowania** minimalizuje prawdopodobieństwo wprowadzenia luk w zabezpieczeniach do kodu Pythona. Postępując zgodnie z tymi praktykami, możesz wzmocnić **stan bezpieczeństwa** swoich aplikacji i chronić się przed typowymi wektorami ataków. Przyjrzyjmy się kilku kluczowym praktykom:
 
-- **Weryfikacja danych wejściowych**: **Waliduj wszystkie dane wejściowe użytkownika**, aby zapobiec **atakom wstrzykiwania** i innym kwestiom bezpieczeństwa związanym z danymi wejściowymi. Zaimplementuj techniki takie jak **whitelisting**, **input sanitization** i **parameterized queries**, aby upewnić się, że dane dostarczane przez użytkownika są zweryfikowane i bezpieczne w użyciu. Na przykład, podczas akceptowania danych wejściowych użytkownika za pośrednictwem formularza internetowego, należy zweryfikować i oczyścić dane wejściowe przed ich przetworzeniem lub zapisaniem w bazie danych. Pomaga to zapobiec przedostawaniu się złośliwego kodu lub niezamierzonych danych wejściowych do aplikacji.
+- **Weryfikacja danych wejściowych**: **Waliduj wszystkie dane wejściowe użytkownika**, aby zapobiec **atakom wstrzykiwania** i innym kwestiom bezpieczeństwa związanym z danymi wejściowymi. Zaimplementuj techniki takie jak **tworzenie list dozwolonych**, **oczyszczanie danych wejściowych** i **zapytania parametryzowane**, aby upewnić się, że dane dostarczane przez użytkownika są zweryfikowane i bezpieczne w użyciu. Na przykład, podczas akceptowania danych wejściowych użytkownika za pośrednictwem formularza internetowego, należy zweryfikować i oczyścić dane wejściowe przed ich przetworzeniem lub zapisaniem w bazie danych. Pomaga to zapobiec przedostawaniu się złośliwego kodu lub niezamierzonych danych wejściowych do aplikacji.
 
-- **Unikaj wstrzykiwania kodu**: Nigdy nie wykonuj **kodu dostarczonego przez użytkownika** bez odpowiedniej walidacji i sanityzacji. **Ataki typu "code injection" mają miejsce, gdy atakujący jest w stanie wstrzyknąć i wykonać dowolny kod w kontekście aplikacji. Aby temu zapobiec, należy dokładnie ocenić i zweryfikować każdy kod dostarczony przez użytkowników przed jego wykonaniem. Używaj bezpiecznych praktyk kodowania i bibliotek, które zapewniają ochronę przed lukami we wstrzykiwaniu kodu.
+- **Unikaj wstrzykiwania kodu**: Nigdy nie wykonuj **kodu dostarczonego przez użytkownika** bez odpowiedniej walidacji i sanityzacji. **Ataki polegające na wstrzyknięciu kodu** mają miejsce, gdy atakujący jest w stanie wstrzyknąć i wykonać dowolny kod w kontekście aplikacji. Aby temu zapobiec, należy dokładnie ocenić i zweryfikować każdy kod dostarczony przez użytkowników przed jego wykonaniem. Używaj bezpiecznych praktyk kodowania i bibliotek, które zapewniają ochronę przed lukami we wstrzykiwaniu kodu.
 
 - **Bezpieczna obsługa haseł**: Podczas pracy z hasłami kluczowe znaczenie ma ich bezpieczna obsługa. **Hashowanie i solenie haseł** przy użyciu odpowiednich **algorytmów hashowania** i **technik rozciągania klucza**. Przechowywanie haseł w postaci zwykłego tekstu jest wysoce odradzane, ponieważ naraża użytkowników na znaczne ryzyko. Zamiast tego **przechowuj tylko skróty haseł** i zapewnij ich bezpieczne przechowywanie. Używaj silnych algorytmów haszujących, takich jak **bcrypt** lub **Argon2** i rozważ zastosowanie technik takich jak **sól** i **pieprz**, aby jeszcze bardziej zwiększyć bezpieczeństwo haseł. Wdrażając bezpieczne praktyki obsługi haseł, można chronić dane uwierzytelniające użytkowników, nawet jeśli bazowa baza danych zostanie naruszona.
 
@@ -80,11 +80,11 @@ Wdrożenie RBAC obejmuje kilka kroków, w tym:
 
 Wdrażając RBAC, ustanawiasz **granularny system kontroli dostępu**, który zapewnia użytkownikom odpowiedni poziom dostępu w oparciu o ich role. Pomaga to zapobiegać nieautoryzowanym działaniom i ogranicza potencjalne szkody w przypadku naruszenia bezpieczeństwa.
 
-Aby dowiedzieć się więcej na temat implementacji RBAC w Pythonie, możesz zapoznać się z oficjalną stroną [Python Security documentation](https://docs.python.org/3/library/security.html) lub zbadać odpowiednie biblioteki i frameworki Pythona, które zapewniają funkcje RBAC, takie jak **Flask-Security**, **Django Guardian** lub **Pyramid Authorization**.
+Aby dowiedzieć się więcej na temat implementacji RBAC w Pythonie, możesz zapoznać się z oficjalną stroną [dokumentacja bezpieczeństwa Pythona](https://docs.python.org/3/library/security.html) lub zbadać odpowiednie biblioteki i frameworki Pythona, które zapewniają funkcje RBAC, takie jak **Flask-Security**, **Django Guardian** lub **Pyramid Authorization**.
 
 ### 4. Ochrona wrażliwych danych
 
-Podczas obsługi **wrażliwych danych** w aplikacjach Pythona, kluczowe jest stosowanie silnych technik szyfrowania w celu **ochrony poufności i integralności** danych. Używając dobrze znanych algorytmów i protokołów szyfrowania, takich jak **AES (Advanced Encryption Standard)** i **TLS (Transport Layer Security)**, możesz zapewnić, że dane są szyfrowane zarówno w spoczynku, jak i podczas przesyłania.
+Podczas obsługi **wrażliwych danych** w aplikacjach Pythona, kluczowe jest stosowanie silnych technik szyfrowania w celu **ochrony poufności i integralności** danych. Używając dobrze znanych algorytmów i protokołów szyfrowania, takich jak **AES (zaawansowany standard szyfrowania, Advanced Encryption Standard)** i **TLS (bezpieczeństwo warstwy transportowej, Transport Layer Security)**, możesz zapewnić, że dane są szyfrowane zarówno w spoczynku, jak i podczas przesyłania.
 
 **Szyfrowanie** to proces przekształcania danych w nieczytelny format, znany jako szyfrogram, przy użyciu algorytmów szyfrowania i kluczy kryptograficznych. Tylko upoważnione strony posiadające odpowiednie klucze deszyfrujące mogą odszyfrować szyfrogram i uzyskać dostęp do oryginalnych danych.
 
@@ -92,11 +92,11 @@ Oto kilka przykładów tego, jak można chronić wrażliwe dane w Pythonie:
 
 - **Szyfrowanie danych**: Używaj algorytmów szyfrowania, takich jak AES, do szyfrowania wrażliwych danych przed przechowywaniem ich w bazach danych lub innych systemach pamięci masowej. Pomaga to zapewnić, że nawet jeśli dostęp do danych zostanie uzyskany bez autoryzacji, pozostaną one nieczytelne i bezużyteczne.
 
-- Szyfrowanie TLS**: Podczas przesyłania poufnych danych przez sieci, na przykład podczas wywołań API lub uwierzytelniania użytkowników, należy używać **szyfrowania TLS** w celu ustanowienia bezpiecznych i szyfrowanych połączeń. TLS zapewnia, że dane wymieniane między klientem a serwerem są szyfrowane, zapobiegając podsłuchiwaniu i manipulowaniu danymi.
+- **Szyfrowanie TLS**: Podczas przesyłania poufnych danych przez sieci, na przykład podczas wywołań API lub uwierzytelniania użytkowników, należy używać **szyfrowania TLS** w celu ustanowienia bezpiecznych i szyfrowanych połączeń. TLS zapewnia, że dane wymieniane między klientem a serwerem są szyfrowane, zapobiegając podsłuchiwaniu i manipulowaniu danymi.
 
 Stosując techniki szyfrowania w celu ochrony wrażliwych danych, dodajesz dodatkową warstwę zabezpieczeń do swoich aplikacji Python. Znacznie zmniejsza to ryzyko naruszenia danych i nieautoryzowanego dostępu do poufnych informacji.
 
-Aby dowiedzieć się więcej o szyfrowaniu w Pythonie i jak skutecznie je wdrożyć, można skorzystać z odpowiednich bibliotek i dokumentacji, takich jak biblioteka **Python Cryptography** i oficjalna dokumentacja **Python Cryptography**. [TLS RFC](https://tools.ietf.org/html/rfc5246) dla zrozumienia protokołu TLS.
+Aby dowiedzieć się więcej o szyfrowaniu w Pythonie i jak skutecznie je wdrożyć, można skorzystać z odpowiednich bibliotek i dokumentacji, takich jak biblioteka **Python Cryptography**. [RFC dotyczący TLS](https://tools.ietf.org/html/rfc5246) dla zrozumienia protokołu TLS.
 
 Należy pamiętać, że szyfrowanie to tylko jeden z aspektów ochrony wrażliwych danych. Równie ważne jest wdrożenie **bezpiecznego przechowywania**, **kontroli dostępu** i **bezpiecznego zarządzania kluczami**, aby zapewnić kompleksową ochronę danych.
 
@@ -106,7 +106,7 @@ Jeśli twoja aplikacja Python wchodzi w interakcje z bazami danych, konieczne je
 
 - **Używaj przygotowanych instrukcji**: Podczas wykonywania zapytań do bazy danych, używaj **przygotowanych instrukcji** lub **parametryzowanych zapytań**, aby zapobiec **atakom wstrzyknięcia SQL**. Przygotowane instrukcje oddzielają kod SQL od danych dostarczonych przez użytkownika, zmniejszając ryzyko nieautoryzowanego dostępu do bazy danych. Na przykład w Pythonie można użyć bibliotek takich jak **SQLAlchemy** lub **psycopg2** do implementacji przygotowanych instrukcji i ochrony przed lukami we wstrzyknięciach SQL.
 
-- **Implement Least Privilege**: Upewnij się, że **użytkownik bazy danych** powiązany z twoją aplikacją Python ma **minimalne niezbędne uprawnienia** wymagane dla jej funkcjonalności. Postępując zgodnie z zasadą **najniższych uprawnień**, ograniczasz możliwości użytkownika bazy danych tylko do tego, co jest konieczne, minimalizując potencjalny wpływ naruszonego połączenia z bazą danych. Na przykład, jeśli aplikacja wymaga tylko dostępu tylko do odczytu do niektórych tabel, należy przyznać użytkownikowi bazy danych uprawnienia tylko do odczytu dla tych konkretnych tabel, a nie pełny dostęp do całej bazy danych.
+- **Stosuj zasadę najmniejszych uprawnień**: Upewnij się, że **użytkownik bazy danych** powiązany z twoją aplikacją Python ma **minimalne niezbędne uprawnienia** wymagane dla jej funkcjonalności. Postępując zgodnie z zasadą **najniższych uprawnień**, ograniczasz możliwości użytkownika bazy danych tylko do tego, co jest konieczne, minimalizując potencjalny wpływ naruszonego połączenia z bazą danych. Na przykład, jeśli aplikacja wymaga tylko dostępu tylko do odczytu do niektórych tabel, należy przyznać użytkownikowi bazy danych uprawnienia tylko do odczytu dla tych konkretnych tabel, a nie pełny dostęp do całej bazy danych.
 
 Korzystając z przygotowanych instrukcji i wdrażając najmniejsze uprawnienia, wzmacniasz bezpieczeństwo dostępu do bazy danych i ograniczasz ryzyko związane z typowymi wektorami ataków. Ważne jest również, aby być na bieżąco z najnowszymi wytycznymi dotyczącymi bezpieczeństwa i najlepszymi praktykami dostarczanymi przez dostawców baz danych i odpowiednią dokumentację.
 
@@ -142,7 +142,7 @@ Włączając rejestrowanie i monitorowanie, można:
 
 - **Wykrywanie incydentów bezpieczeństwa**: Wpisy w dzienniku i dane monitorowania mogą pomóc w identyfikacji incydentów bezpieczeństwa lub podejrzanych działań, umożliwiając szybką i skuteczną reakcję.
 
-- Badać naruszenia**: W przypadku wystąpienia incydentu bezpieczeństwa, dzienniki i dane z monitoringu dostarczają cennych informacji do **badań po incydencie** i **analizy kryminalistycznej**.
+- **Badaj naruszenia**: W przypadku wystąpienia incydentu bezpieczeństwa, dzienniki i dane z monitoringu dostarczają cennych informacji do **badań po incydencie** i **analizy kryminalistycznej**.
 
 - **Poprawa bezpieczeństwa**: Analizując dzienniki i dane monitorowania, można uzyskać wgląd w **skuteczność środków bezpieczeństwa**, zidentyfikować potencjalne luki w zabezpieczeniach i podjąć proaktywne kroki w celu poprawy stanu bezpieczeństwa aplikacji.
 
@@ -164,7 +164,7 @@ Oto kilka kroków, które możesz podjąć, aby promować edukację i szkolenia 
 
 - **Narzędzia ukierunkowane na bezpieczeństwo**: Zintegruj narzędzia skoncentrowane na bezpieczeństwie, takie jak narzędzia do **statycznej analizy kodu**, z przepływem pracy programistycznej. Narzędzia te mogą automatycznie identyfikować potencjalne kwestie bezpieczeństwa, niezabezpieczone wzorce kodowania i luki w bazie kodu. W przypadku języka Python można skorzystać z narzędzi takich jak **Bandit** lub **Pylint**, aby przeanalizować kod pod kątem luk w zabezpieczeniach.
 
-- **Ciągłe uczenie się**: Zachęcaj deweloperów do bycia na bieżąco z najnowszymi **trendami bezpieczeństwa**, **najlepszymi praktykami** i pojawiającymi się zagrożeniami w ekosystemie Pythona. Można to osiągnąć poprzez uczestnictwo w konferencjach bezpieczeństwa, webinariach lub poprzez śledzenie renomowanych zasobów bezpieczeństwa, takich jak społeczność **OWASP (Open Web Application Security Project)**.
+- **Ciągłe uczenie się**: Zachęcaj deweloperów do bycia na bieżąco z najnowszymi **trendami bezpieczeństwa**, **najlepszymi praktykami** i pojawiającymi się zagrożeniami w ekosystemie Pythona. Można to osiągnąć poprzez uczestnictwo w konferencjach bezpieczeństwa, webinariach lub poprzez śledzenie renomowanych zasobów bezpieczeństwa, takich jak społeczność **OWASP (Otwarty projekt bezpieczeństwa aplikacji internetowych, Open Web Application Security Project)**.
 
 Inwestując w edukację i szkolenia deweloperów, tworzysz solidne podstawy do tworzenia bezpiecznych aplikacji Python. Promowanie wśród deweloperów sposobu myślenia skoncentrowanego na bezpieczeństwie pomaga w zapobieganiu incydentom bezpieczeństwa, zmniejszaniu luk w zabezpieczeniach i zapewnianiu ogólnego bezpieczeństwa oprogramowania.
 
@@ -176,23 +176,23 @@ ______
 
 Oto zwięzła ściągawka podsumowująca **najlepsze praktyki bezpieczeństwa** Pythona omówione w tym artykule:
 
-1. **Zaktualizuj swój interpreter Pythona** do najnowszej stabilnej wersji, aby korzystać z łatek bezpieczeństwa i poprawek błędów. Odwiedź stronę [Python website - Downloads](https://www.python.org/downloads/) aby pobrać najnowszą wersję.
+1. **Zaktualizuj swój interpreter Pythona** do najnowszej stabilnej wersji, aby korzystać z łatek bezpieczeństwa i poprawek błędów. Odwiedź stronę [oficjalna witryna Pythona - Pliki do pobrania](https://www.python.org/downloads/) aby pobrać najnowszą wersję.
 
 2. **Przestrzeganie praktyk bezpiecznego kodowania**, w tym **walidacji danych wejściowych** w celu zapobiegania atakom typu injection, **unikania wstrzykiwania kodu** poprzez walidację i oczyszczanie kodu dostarczanego przez użytkownika oraz **bezpiecznej obsługi haseł** poprzez stosowanie odpowiednich algorytmów haszujących i technik przechowywania haseł.
 
-3. **Wdrożenie kontroli dostępu opartej na rolach (RBAC)** w celu ograniczenia nieautoryzowanego dostępu. RBAC przypisuje role użytkownikom w oparciu o ich obowiązki i odpowiednio przyznaje uprawnienia dostępu. Patrz [NIST - Role-Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) aby uzyskać więcej informacji.
+3. **Wdrożenie kontroli dostępu opartej na rolach (RBAC)** w celu ograniczenia nieautoryzowanego dostępu. RBAC przypisuje role użytkownikom w oparciu o ich obowiązki i odpowiednio przyznaje uprawnienia dostępu. Patrz [NIST: kontrola dostępu oparta na rolach](https://csrc.nist.gov/projects/role-based-access-control) aby uzyskać więcej informacji.
 
-4. **Ochrona wrażliwych danych** przy użyciu **silnych technik szyfrowania**. Wykorzystaj dobrze znane algorytmy szyfrowania, takie jak **AES (Advanced Encryption Standard)** i zapewnij bezpieczne przechowywanie i przesyłanie poufnych informacji. Możesz odnieść się do [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) więcej informacji.
+4. **Ochrona wrażliwych danych** przy użyciu **silnych technik szyfrowania**. Wykorzystaj dobrze znane algorytmy szyfrowania, takie jak **AES (zaawansowany standard szyfrowania, Advanced Encryption Standard)** i zapewnij bezpieczne przechowywanie i przesyłanie poufnych informacji. Możesz odnieść się do [artykuł o AES w Wikipedii](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) więcej informacji.
 
-5. **Zabezpiecz dostęp do bazy danych** za pomocą **instrukcji przygotowanych**, aby zapobiegać atakom SQL injection, oraz stosuj **zasadę najmniejszych uprawnień**, aby ograniczyć uprawnienia użytkowników bazy danych. Te praktyki zmniejszają ryzyko nieautoryzowanego dostępu do poufnych danych. Więcej o instrukcjach przygotowanych znajdziesz w [dokumentacji SQLAlchemy](https://www.sqlalchemy.org), a o zasadzie najmniejszych uprawnień w [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
+5. **Zabezpiecz dostęp do bazy danych** za pomocą **instrukcji przygotowanych**, aby zapobiegać atakom SQL injection, oraz stosuj **zasadę najmniejszych uprawnień**, aby ograniczyć uprawnienia użytkowników bazy danych. Te praktyki zmniejszają ryzyko nieautoryzowanego dostępu do poufnych danych. Więcej o **instrukcjach przygotowanych** znajdziesz w [dokumentacji SQLAlchemy](https://www.sqlalchemy.org), a o **zasadzie najmniejszych uprawnień** w [przewodniku OWASP RBAC](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
 
-6. **Regularnie aktualizuj zależności**, aby wyeliminować luki w zabezpieczeniach i korzystać z poprawek błędów. Narzędzia takie jak [Snyk - Open Source Security Platform](https://snyk.io/) może pomóc zidentyfikować luki w zależnościach projektu.
+6. **Regularnie aktualizuj zależności**, aby wyeliminować luki w zabezpieczeniach i korzystać z poprawek błędów. Narzędzia takie jak [Snyk - platforma bezpieczeństwa oprogramowania open source](https://snyk.io/) może pomóc zidentyfikować luki w zależnościach projektu.
 
 7. **Włącz rejestrowanie i monitorowanie** w celu wykrywania i badania incydentów bezpieczeństwa. Rejestrowanie przechwytuje istotne informacje o zdarzeniach aplikacji, podczas gdy monitorowanie zapewnia wgląd w zachowanie systemu w czasie rzeczywistym. Rozważ skorzystanie z usług takich jak **AWS CloudWatch**, **Datadog** lub **Prometheus** w celu kompleksowego monitorowania.
 
 8. **Edukacja i szkolenie deweloperów** w zakresie bezpiecznych praktyk kodowania i typowych luk w zabezpieczeniach. Promowanie programów zwiększających świadomość w zakresie bezpieczeństwa, ustanowienie wytycznych dotyczących bezpiecznego kodowania oraz zachęcanie do przeglądów kodu i programowania w parach. Poznaj narzędzia bezpieczeństwa, takie jak **Bandit** lub **Pylint** do statycznej analizy kodu.
 
-Bardziej kompleksowy przewodnik po bezpieczeństwie Pythona można znaleźć na oficjalnej stronie [Python Security documentation](https://docs.python.org)
+Bardziej kompleksowy przewodnik po bezpieczeństwie Pythona można znaleźć na oficjalnej stronie [dokumentacja bezpieczeństwa Pythona](https://docs.python.org)
 
 ______
 
@@ -206,20 +206,20 @@ ______
 
 ## Referencje
 
-1. Witryna Python - Pliki do pobrania: [Link](https://www.python.org/downloads/)
-2. NIST - Kontrola dostępu oparta na rolach: [Link](https://csrc.nist.gov/projects/role-based-access-control)
-3. TLS - Transport Layer Security: [Link](https://tools.ietf.org/html/rfc5246)
-4. Snyk - platforma bezpieczeństwa typu open source: [Link](https://snyk.io/)
-5. Oficjalna dokumentacja Pythona: [Link](https://docs.python.org)
-6. OWASP - Open Web Application Security Project: [Link](https://owasp.org)
-7. NIST - Narodowy Instytut Standardów i Technologii: [Link](https://www.nist.gov)
-8. Wybielacz: [Link](https://bleach.readthedocs.io)
-9. html5lib: [Link](https://html5lib.readthedocs.io)
-10. SQLAlchemy: [Link](https://www.sqlalchemy.org)
-11. psycopg2: [Link](https://www.psycopg.org)
-12. bcrypt: [Link](https://pypi.org/project/bcrypt/)
-13. Argon2: [Link](https://argon2-cffi.readthedocs.io)
-14. AES - zaawansowany standard szyfrowania: [Link](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-15. RSA - RSA (kryptosystem): [Link](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
-16) Pipenv: [Link](https://pipenv.pypa.io)
-17. Conda: [Link](https://conda.io)
+1. Witryna Python - Pliki do pobrania: [Łącze](https://www.python.org/downloads/)
+2. NIST - Kontrola dostępu oparta na rolach: [Łącze](https://csrc.nist.gov/projects/role-based-access-control)
+3. TLS - bezpieczeństwo warstwy transportowej (Transport Layer Security): [Łącze](https://tools.ietf.org/html/rfc5246)
+4. Snyk - platforma bezpieczeństwa typu open source: [Łącze](https://snyk.io/)
+5. Oficjalna dokumentacja Pythona: [Łącze](https://docs.python.org)
+6. OWASP - Otwarty projekt bezpieczeństwa aplikacji internetowych (Open Web Application Security Project): [Łącze](https://owasp.org)
+7. NIST - Narodowy Instytut Standardów i Technologii (National Institute of Standards and Technology): [Łącze](https://www.nist.gov)
+8. Bleach: [Łącze](https://bleach.readthedocs.io)
+9. html5lib: [Łącze](https://html5lib.readthedocs.io)
+10. SQLAlchemy: [Łącze](https://www.sqlalchemy.org)
+11. psycopg2: [Łącze](https://www.psycopg.org)
+12. bcrypt: [Łącze](https://pypi.org/project/bcrypt/)
+13. Argon2: [Łącze](https://argon2-cffi.readthedocs.io)
+14. AES - zaawansowany standard szyfrowania: [Łącze](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+15. RSA - RSA (kryptosystem): [Łącze](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+16) Pipenv: [Łącze](https://pipenv.pypa.io)
+17. Conda: [Łącze](https://conda.io)

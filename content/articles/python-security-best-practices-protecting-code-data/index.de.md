@@ -4,18 +4,18 @@ date: 2023-08-01
 lastmod: 2026-11-19
 toc: true
 draft: false
-description: "Lernen Sie die wichtigsten Best Practices für Python-Sicherheit kennen, um Ihren Code und Ihre Daten vor potenziellen Bedrohungen zu schützen, Datenschutz und Systemintegrität zu gewährleisten und Vertrauen aufzubauen."
-genre: ["Python-Sicherheit", "Code Sicherheit", "Datenschutz", "Software-Entwicklung", "Cybersecurity", "Sichere Kodierung", "Web-Entwicklung", "Datenschutz", "Anwendungssicherheit", "IT-Sicherheit"]
+description: "Lernen Sie bewährte Vorgehensweisen für Python-Sicherheit kennen, um Ihren Code und Ihre Daten vor potenziellen Bedrohungen zu schützen, Datenschutz und Systemintegrität zu gewährleisten und Vertrauen aufzubauen."
+genre: ["Python-Sicherheit", "Code Sicherheit", "Datenschutz", "Software-Entwicklung", "Cybersicherheit", "Sichere Kodierung", "Web-Entwicklung", "Datenschutz", "Anwendungssicherheit", "IT-Sicherheit"]
 tags: ["Python-Sicherheit", "beste Praktiken", "Codesicherheit", "datenschutz", "Systemintegrität", "sichere Kodierung", "Datenschutz", "Anwendungssicherheit", "Cybersicherheit", "Web-Entwicklung", "Software-Entwicklung", "python programmierung", "sichere Programmierung", "Datenverschlüsselung", "rollenbasierte Zugangskontrolle", "sichere Handhabung von Passwörtern", "Eingabeüberprüfung", "SQL-Injection-Verhinderung", "Datenbanksicherheit", "Abhängigkeitsmanagement", "Protokollierung und Überwachung", "Entwicklerschulung", "Python-Interpreter", "Python-Sicherheitsdokumentation", "AES-Verschlüsselung", "TLS-Verschlüsselung", "OWASP", "NIST", "Snyk"]
 cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "Eine Illustration eines Schildes, das Python-Code und -Daten schützt, als Symbol für bewährte Python-Sicherheitspraktiken."
 coverCaption: "Sichern Sie Ihren Python-Code und Ihre Daten mit diesen bewährten Verfahren."
 ---
- Bewährte Sicherheitspraktiken: Schützen Sie Ihren Code und Ihre Daten**
+**Bewährte Python-Sicherheitspraktiken: Schützen Sie Ihren Code und Ihre Daten**
 
 ## Einführung
 
-Python ist eine leistungsstarke und vielseitige Programmiersprache, die für verschiedene Zwecke wie Webentwicklung, Datenanalyse und maschinelles Lernen eingesetzt wird. Wie jede andere Software sind jedoch auch Python-Anwendungen anfällig für Sicherheitslücken. In diesem Artikel werden wir die **Best Practices für Python-Sicherheit** erörtern, die Ihnen helfen, Ihren Code und Ihre Daten vor potenziellen Bedrohungen zu schützen.
+Python ist eine leistungsstarke und vielseitige Programmiersprache, die für verschiedene Zwecke wie Webentwicklung, Datenanalyse und maschinelles Lernen eingesetzt wird. Wie jede andere Software sind jedoch auch Python-Anwendungen anfällig für Sicherheitslücken. In diesem Artikel werden wir die [**bewährten Vorgehensweisen für Python-Sicherheit**](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) erörtern, die Ihnen helfen, Ihren Code und Ihre Daten vor potenziellen Bedrohungen zu schützen.
 
 ______
 
@@ -34,19 +34,19 @@ Die Implementierung robuster Sicherheitsmaßnahmen in Ihren Python-Anwendungen t
 
 ______
 
-## Best Practices für Python-Sicherheit
+## [Bewährte Vorgehensweisen für Python-Sicherheit](https://simeononsecurity.com/articles/secure-coding-standards-for-python/)
 
-Um die Sicherheit Ihrer Python-Anwendungen zu verbessern, sollten Sie unbedingt die folgenden Best Practices befolgen:
+Um die Sicherheit Ihrer Python-Anwendungen zu verbessern, sollten Sie unbedingt den folgenden bewährten Vorgehensweisen folgen:
 
 ### 1. Halten Sie Ihren Python-Interpreter auf dem neuesten Stand
 
-Wenn Sie Ihren **Python-Interpreter** regelmäßig auf die neueste stabile Version aktualisieren, stellen Sie sicher, dass Sie über die neuesten **Sicherheitspatches** und **Fehlerbehebungen** verfügen. Die Python-Gemeinschaft kümmert sich aktiv um Sicherheitslücken und veröffentlicht Updates, um die **Sicherheit und Stabilität** der Sprache zu verbessern. Besuchen Sie die [Python website](https://www.python.org/downloads/) um die neueste Version herunterzuladen.
+Wenn Sie Ihren **Python-Interpreter** regelmäßig auf die neueste stabile Version aktualisieren, stellen Sie sicher, dass Sie über die neuesten **Sicherheitspatches** und **Fehlerbehebungen** verfügen. Die Python-Gemeinschaft kümmert sich aktiv um Sicherheitslücken und veröffentlicht Updates, um die **Sicherheit und Stabilität** der Sprache zu verbessern. Besuchen Sie die [Python-Website](https://www.python.org/downloads/) um die neueste Version herunterzuladen.
 
 Wenn Sie Ihren Python-Interpreter auf dem neuesten Stand halten, profitieren Sie von den **neuesten Sicherheitsverbesserungen**, die bekannte Sicherheitslücken schließen. Diese Aktualisierungen dienen dazu, **Risiken zu verringern** und Ihre Anwendungen vor potenziellen Angriffen zu schützen. Darüber hinaus können Sie neue Funktionen und Verbesserungen, die in neueren Python-Versionen eingeführt wurden, nutzen, wenn Sie auf dem neuesten Stand bleiben.
 
 Wenn Sie beispielsweise Python 3.7 verwenden und eine kritische Sicherheitslücke entdeckt wird, wird die Python-Gemeinschaft einen Patch veröffentlichen, der speziell diese Sicherheitslücke behebt. Indem Sie Ihren Python-Interpreter auf die neueste Version, z. B. Python 3.9, aktualisieren, stellen Sie sicher, dass Ihr Code gegen bekannte Sicherheitslücken geschützt ist.
 
-Die Aktualisierung Ihres Python-Interpreters ist ein unkomplizierter Prozess. Besuchen Sie einfach die [Python downloads page](https://www.python.org/downloads/) und wählen Sie das entsprechende Installationsprogramm für Ihr Betriebssystem. Befolgen Sie die Installationsanweisungen, um Ihren Python-Interpreter auf die neueste Version zu aktualisieren.
+Die Aktualisierung Ihres Python-Interpreters ist ein unkomplizierter Prozess. Besuchen Sie einfach die [Python-Downloadseite](https://www.python.org/downloads/) und wählen Sie das entsprechende Installationsprogramm für Ihr Betriebssystem. Befolgen Sie die Installationsanweisungen, um Ihren Python-Interpreter auf die neueste Version zu aktualisieren.
 
 Denken Sie daran, regelmäßig nach Aktualisierungen zu suchen und Ihren Python-Interpreter regelmäßig zu aktualisieren, um potenziellen Sicherheitsrisiken einen Schritt voraus zu sein.
 
@@ -80,11 +80,11 @@ Die Implementierung von RBAC umfasst mehrere Schritte, darunter:
 
 Durch die Implementierung von RBAC richten Sie ein **granulares Zugriffskontrollsystem** ein, das sicherstellt, dass die Benutzer auf der Grundlage ihrer Rollen die richtige Zugriffsebene haben. Dies trägt dazu bei, unbefugte Aktionen zu verhindern und den potenziellen Schaden im Falle eines Sicherheitsverstoßes zu begrenzen.
 
-Um mehr über die Implementierung von RBAC in Python zu erfahren, können Sie sich auf die offizielle [Python Security documentation](https://docs.python.org/3/library/security.html) oder erkunden Sie relevante Python-Bibliotheken und -Frameworks, die RBAC-Funktionen bieten, wie **Flask-Security**, **Django Guardian** oder **Pyramid Authorization**.
+Um mehr über die Implementierung von RBAC in Python zu erfahren, können Sie sich auf die offizielle [Python-Sicherheitsdokumentation](https://docs.python.org/3/library/security.html) oder erkunden Sie relevante Python-Bibliotheken und -Frameworks, die RBAC-Funktionen bieten, wie **Flask-Security**, **Django Guardian** oder **Pyramid Authorization**.
 
 ### 4. Sensible Daten schützen
 
-Beim Umgang mit **sensiblen Daten** in Ihren Python-Anwendungen ist es entscheidend, starke Verschlüsselungstechniken einzusetzen, um die **Vertraulichkeit und Integrität** der Daten zu schützen. Durch die Verwendung etablierter Verschlüsselungsalgorithmen und -protokolle wie **AES (Advanced Encryption Standard)** und **TLS (Transport Layer Security)** können Sie sicherstellen, dass die Daten sowohl im Ruhezustand als auch bei der Übertragung verschlüsselt sind.
+Beim Umgang mit **sensiblen Daten** in Ihren Python-Anwendungen ist es entscheidend, starke Verschlüsselungstechniken einzusetzen, um die **Vertraulichkeit und Integrität** der Daten zu schützen. Durch die Verwendung etablierter Verschlüsselungsalgorithmen und -protokolle wie **AES (Advanced Encryption Standard, fortgeschrittener Verschlüsselungsstandard)** und **TLS (Transport Layer Security, Transportsicherheit)** können Sie sicherstellen, dass die Daten sowohl im Ruhezustand als auch bei der Übertragung verschlüsselt sind.
 
 Bei der **Verschlüsselung** werden Daten mithilfe von Verschlüsselungsalgorithmen und kryptografischen Schlüsseln in ein unlesbares Format, den so genannten Chiffretext, umgewandelt. Nur autorisierte Parteien mit den entsprechenden Entschlüsselungsschlüsseln können den Chiffretext entschlüsseln und auf die Originaldaten zugreifen.
 
@@ -96,13 +96,13 @@ Hier sind einige Beispiele dafür, wie Sie sensible Daten in Python schützen k�
 
 Durch den Einsatz von Verschlüsselungstechniken zum Schutz sensibler Daten fügen Sie Ihren Python-Anwendungen eine zusätzliche Sicherheitsebene hinzu. Dadurch wird das Risiko von Datenschutzverletzungen und des unbefugten Zugriffs auf sensible Informationen erheblich verringert.
 
-Um mehr über Verschlüsselung in Python zu erfahren und darüber, wie man sie effektiv einsetzt, können Sie die einschlägigen Bibliotheken und Dokumentationen zu Rate ziehen, z. B. die **Python Cryptography**-Bibliothek und die offizielle [TLS RFC](https://tools.ietf.org/html/rfc5246) zum Verständnis des TLS-Protokolls.
+Um mehr über Verschlüsselung in Python zu erfahren und darüber, wie man sie effektiv einsetzt, können Sie die einschlägigen Bibliotheken und Dokumentationen zu Rate ziehen, z. B. die **Python Cryptography**-Bibliothek und die offizielle [RFC zum TLS-Protokoll](https://tools.ietf.org/html/rfc5246) zum Verständnis des TLS-Protokolls.
 
 Denken Sie daran, dass die Verschlüsselung nur ein Aspekt des Schutzes sensibler Daten ist. Um einen umfassenden Datenschutz zu gewährleisten, ist es ebenso wichtig, **sichere Speicherung**, **Zugangskontrollen** und **sichere Schlüsselverwaltung** zu implementieren.
 
 ### 5. Sicherer Datenbankzugang
 
-Wenn Ihre Python-Anwendung mit Datenbanken interagiert, ist es wichtig, **Sicherheitspraktiken** zu befolgen, um sich vor potenziellen Schwachstellen zu schützen. Beachten Sie die folgenden Best Practices:
+Wenn Ihre Python-Anwendung mit Datenbanken interagiert, ist es wichtig, **Sicherheitspraktiken** zu befolgen, um sich vor potenziellen Schwachstellen zu schützen. Beachten Sie folgende bewährte Vorgehensweisen:
 
 - **Verwenden Sie vorbereitete Anweisungen**: Verwenden Sie bei der Ausführung von Datenbankabfragen **vorbereitete Anweisungen** oder **parametrisierte Abfragen**, um **SQL-Injektionsangriffe** zu verhindern. Prepared Statements trennen den SQL-Code von den vom Benutzer bereitgestellten Daten und verringern so das Risiko eines unbefugten Datenbankzugriffs. In Python können Sie beispielsweise Bibliotheken wie **SQLAlchemy** oder **psycopg2** verwenden, um Prepared Statements zu implementieren und sich vor SQL-Injection-Schwachstellen zu schützen.
 
@@ -152,7 +152,7 @@ Durch die Implementierung von **Protokollverwaltungslösungen** und die Verwendu
 
 ### 8. Ausbildung und Schulung von Entwicklern
 
-Um die **Best Practices für Python-Sicherheit** zu stärken, ist es wichtig, **in die Ausbildung und Schulung Ihrer Python-Entwickler** zu investieren. Indem Sie ihnen die notwendigen Kenntnisse und Fähigkeiten vermitteln, befähigen Sie Ihr Entwicklungsteam, **sicheren Code** zu schreiben und potenzielle Sicherheitsprobleme frühzeitig im Entwicklungszyklus zu erkennen.
+Um **bewährte Vorgehensweisen für Python-Sicherheit** zu verankern, ist es wichtig, **in die Ausbildung und Schulung Ihrer Python-Entwickler** zu investieren. Indem Sie ihnen die notwendigen Kenntnisse und Fähigkeiten vermitteln, befähigen Sie Ihr Entwicklungsteam, **sicheren Code** zu schreiben und potenzielle Sicherheitsprobleme frühzeitig im Entwicklungszyklus zu erkennen.
 
 Hier sind einige Schritte, die Sie unternehmen können, um die Ausbildung und Schulung von Entwicklern zu fördern:
 
@@ -164,7 +164,7 @@ Hier sind einige Schritte, die Sie unternehmen können, um die Ausbildung und Sc
 
 - **Sicherheitsrelevante Tools**: Integrieren Sie sicherheitsorientierte Tools, wie z. B. **Static Code Analysis**-Tools, in Ihren Entwicklungsablauf. Diese Tools können automatisch potenzielle Sicherheitsprobleme, unsichere Codierungsmuster und Schwachstellen in der Codebasis identifizieren. Für Python können Sie Tools wie **Bandit** oder **Pylint** nutzen, um Ihren Code auf Sicherheitslücken zu analysieren.
 
-- **Kontinuierliches Lernen**: Ermutigen Sie die Entwickler, sich über die neuesten **Sicherheitstrends**, **Best Practices** und aufkommende Bedrohungen im Python-Ökosystem zu informieren. Dies kann durch die Teilnahme an Sicherheitskonferenzen, Webinaren oder durch das Verfolgen seriöser Sicherheitsressourcen wie der **OWASP (Open Web Application Security Project)**-Community erreicht werden.
+- **Kontinuierliches Lernen**: Ermutigen Sie die Entwickler, sich über die neuesten **Sicherheitstrends**, **bewährte Vorgehensweisen** und aufkommende Bedrohungen im Python-Ökosystem zu informieren. Dies kann durch die Teilnahme an Sicherheitskonferenzen, Webinaren oder durch das Verfolgen seriöser Sicherheitsressourcen wie der **OWASP (Open Web Application Security Project, offenes Projekt zur Sicherheit von Webanwendungen)**-Community erreicht werden.
 
 Wenn Sie in die Ausbildung und Schulung von Entwicklern investieren, schaffen Sie eine solide Grundlage für die Entwicklung sicherer Python-Anwendungen. Die Förderung eines sicherheitsorientierten Denkens unter den Entwicklern hilft dabei, Sicherheitsvorfälle zu verhindern, Schwachstellen zu reduzieren und die allgemeine Sicherheit Ihrer Software zu gewährleisten.
 
@@ -174,31 +174,31 @@ ______
 
 ## Spickzettel für bewährte Python-Sicherheitspraktiken
 
-Hier ist ein kurzer Spickzettel, der die in diesem Artikel besprochenen **Python Security Best Practices** zusammenfasst:
+Hier ist ein kurzer Spickzettel, der die in diesem Artikel besprochenen **bewährte Vorgehensweisen für Python-Sicherheit** zusammenfasst:
 
-1. **Halten Sie Ihren Python-Interpreter auf dem neuesten Stand**, um von Sicherheitspatches und Fehlerbehebungen zu profitieren. Besuchen Sie die [Python website - Downloads](https://www.python.org/downloads/) um die neueste Version herunterzuladen.
+1. **Halten Sie Ihren Python-Interpreter auf dem neuesten Stand**, um von Sicherheitspatches und Fehlerbehebungen zu profitieren. Besuchen Sie die [Python-Website – Downloads](https://www.python.org/downloads/) um die neueste Version herunterzuladen.
 
 2. Befolgen Sie **sichere Kodierungspraktiken**, einschließlich **Eingabevalidierung** zur Verhinderung von Injektionsangriffen, **Vermeidung von Code-Injektion** durch Validierung und Bereinigung des vom Benutzer bereitgestellten Codes und **sichere Passwortbehandlung** durch Verwendung geeigneter Hashing-Algorithmen und Passwortspeichertechniken.
 
-3. **Implementieren Sie eine rollenbasierte Zugriffskontrolle (RBAC)**, um den unbefugten Zugriff einzuschränken. RBAC weist den Benutzern auf der Grundlage ihrer Verantwortlichkeiten Rollen zu und gewährt ihnen entsprechende Zugriffsrechte. Siehe die [NIST - Role-Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) Dokumentation für weitere Details.
+3. **Implementieren Sie eine rollenbasierte Zugriffskontrolle (RBAC)**, um den unbefugten Zugriff einzuschränken. RBAC weist den Benutzern auf der Grundlage ihrer Verantwortlichkeiten Rollen zu und gewährt ihnen entsprechende Zugriffsrechte. Siehe die [NIST: rollenbasierte Zugriffskontrolle](https://csrc.nist.gov/projects/role-based-access-control) Dokumentation für weitere Details.
 
-4. **Schützen Sie sensible Daten** mit **starken Verschlüsselungstechniken**. Verwenden Sie bewährte Verschlüsselungsalgorithmen wie **AES (Advanced Encryption Standard)** und sorgen Sie für eine sichere Speicherung und Übertragung sensibler Daten. Sie können sich auf die [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) für weitere Informationen.
+4. **Schützen Sie sensible Daten** mit **starken Verschlüsselungstechniken**. Verwenden Sie bewährte Verschlüsselungsalgorithmen wie **AES (Advanced Encryption Standard, fortgeschrittener Verschlüsselungsstandard)** und sorgen Sie für eine sichere Speicherung und Übertragung sensibler Daten. Sie können sich auf die [Wikipedia-Seite zum AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) für weitere Informationen.
 
-5. **Sichern Sie den Datenbankzugriff** mit **vorbereiteten Anweisungen**, um SQL-Injection-Angriffe zu verhindern, und setzen Sie das **Prinzip der geringsten Rechte** um, um Datenbankbenutzerrechte einzuschränken. Diese Maßnahmen senken das Risiko eines unbefugten Zugriffs auf sensible Daten. Weitere Informationen zu vorbereiteten Anweisungen finden Sie in der [SQLAlchemy-Dokumentation](https://www.sqlalchemy.org) und zum Prinzip der geringsten Rechte im [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
+5. **Sichern Sie den Datenbankzugriff** mit **vorbereiteten Anweisungen**, um SQL-Injection-Angriffe zu verhindern, und setzen Sie das **Prinzip der geringsten Rechte** um, um Datenbankbenutzerrechte einzuschränken. Diese Maßnahmen senken das Risiko eines unbefugten Zugriffs auf sensible Daten. Weitere Informationen zu **vorbereiteten Anweisungen** finden Sie in der [SQLAlchemy-Dokumentation](https://www.sqlalchemy.org) und zum **Prinzip der geringsten Rechte** im [OWASP-Leitfaden zur rollenbasierten Zugriffskontrolle](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
 
-6. **Regelmäßige Aktualisierung von Abhängigkeiten**, um Sicherheitslücken zu schließen und von Fehlerbehebungen zu profitieren. Tools wie [Snyk - Open Source Security Platform](https://snyk.io/) kann Ihnen helfen, Schwachstellen in Ihren Projektabhängigkeiten zu erkennen.
+6. **Regelmäßige Aktualisierung von Abhängigkeiten**, um Sicherheitslücken zu schließen und von Fehlerbehebungen zu profitieren. Tools wie [Snyk – Open-Source-Sicherheitsplattform](https://snyk.io/) können Ihnen helfen, Schwachstellen in Ihren Projektabhängigkeiten zu erkennen.
 
 7. **Aktivieren Sie die Protokollierung und Überwachung**, um Sicherheitsvorfälle zu erkennen und zu untersuchen. Die Protokollierung erfasst relevante Informationen über Anwendungsereignisse, während die Überwachung einen Echtzeiteinblick in das Systemverhalten ermöglicht. Erwägen Sie die Verwendung von Diensten wie **AWS CloudWatch**, **Datadog** oder **Prometheus** für eine umfassende Überwachung.
 
 8. **Schulung und Ausbildung von Entwicklern** in Bezug auf sichere Kodierungspraktiken und häufige Sicherheitsschwachstellen. Fördern Sie Programme zur Förderung des Sicherheitsbewusstseins, erstellen Sie Richtlinien zur sicheren Kodierung und fördern Sie Code-Reviews und Pair Programming. Erforschen Sie Sicherheitstools wie **Bandit** oder **Pylint** für die statische Codeanalyse.
 
-Einen umfassenderen Leitfaden zur Sicherheit in Python finden Sie in der offiziellen [Python Security documentation](https://docs.python.org)
+Einen umfassenderen Leitfaden zur Sicherheit in Python finden Sie in der offiziellen [Python-Sicherheitsdokumentation](https://docs.python.org)
 
 ______
 
 ## Schlussfolgerung
 
-Der Schutz Ihres Python-Codes und Ihrer Daten vor Sicherheitslücken sollte für jeden Entwickler und jedes Unternehmen oberste Priorität haben. Wenn Sie die in diesem Artikel beschriebenen Best Practices befolgen, können Sie das Risiko von Sicherheitsverletzungen minimieren und die Integrität und Vertraulichkeit Ihrer Anwendungen gewährleisten. Halten Sie sich über die neuesten Sicherheitsbedrohungen auf dem Laufenden, wenden Sie sichere Kodierungsverfahren an und geben Sie der Sicherheit während des gesamten Entwicklungszyklus Priorität.
+Der Schutz Ihres Python-Codes und Ihrer Daten vor Sicherheitslücken sollte für jeden Entwickler und jedes Unternehmen oberste Priorität haben. Wenn Sie die in diesem Artikel beschriebenen Vorgehensweisen befolgen, können Sie das Risiko von Sicherheitsverletzungen minimieren und die Integrität und Vertraulichkeit Ihrer Anwendungen gewährleisten. Halten Sie sich über die neuesten Sicherheitsbedrohungen auf dem Laufenden, wenden Sie sichere Kodierungsverfahren an und geben Sie der Sicherheit während des gesamten Entwicklungszyklus Priorität.
 
 Denken Sie daran, dass die Sicherung Ihrer Python-Anwendungen ein fortlaufender Prozess ist. Aktualisieren Sie regelmäßig Ihren Code, bleiben Sie über neue Bedrohungen informiert und verbessern Sie kontinuierlich Ihre Sicherheitspraktiken, um potenziellen Angreifern einen Schritt voraus zu sein.
 
@@ -206,20 +206,20 @@ ______
 
 ## Referenzen
 
-1. Python-Website - Downloads: [Link](https://www.python.org/downloads/)
-2. NIST - Rollenbasierte Zugriffskontrolle: [Link](https://csrc.nist.gov/projects/role-based-access-control)
-3. TLS - Transport Layer Security: [Link](https://tools.ietf.org/html/rfc5246)
-4. Snyk - Open Source Sicherheitsplattform: [Link](https://snyk.io/)
-5. Offizielle Python-Dokumentation: [Link](https://docs.python.org)
-6. OWASP - Open Web Application Security Project: [Link](https://owasp.org)
-7. NIST - Nationales Institut für Standards und Technologie: [Link](https://www.nist.gov)
-8. Bleichen: [Link](https://bleach.readthedocs.io)
-9. html5lib: [Link](https://html5lib.readthedocs.io)
-10 SQLAlchemy: [Link](https://www.sqlalchemy.org)
-11. psycopg2: [Link](https://www.psycopg.org)
-12. bcrypt: [Link](https://pypi.org/project/bcrypt/)
-13. Argon2: [Link](https://argon2-cffi.readthedocs.io)
-14. AES - Advanced Encryption Standard: [Link](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-15. RSA - RSA (Kryptosystem): [Link](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
-16) Pipenv: [Link](https://pipenv.pypa.io)
-17. Conda: [Link](https://conda.io)
+1. Python-Website - Downloads: [Quelle](https://www.python.org/downloads/)
+2. NIST - Rollenbasierte Zugriffskontrolle: [Quelle](https://csrc.nist.gov/projects/role-based-access-control)
+3. TLS - Transportsicherheit auf der Transportschicht: [Quelle](https://tools.ietf.org/html/rfc5246)
+4. Snyk – Open-Source-Sicherheitsplattform: [Quelle](https://snyk.io/)
+5. Offizielle Python-Dokumentation: [Quelle](https://docs.python.org)
+6. OWASP - offenes Projekt für Webanwendungssicherheit (Open Web Application Security Project): [Quelle](https://owasp.org)
+7. NIST - Nationales Institut für Standards und Technologie: [Quelle](https://www.nist.gov)
+8. Bleach: [Quelle](https://bleach.readthedocs.io)
+9. html5lib: [Quelle](https://html5lib.readthedocs.io)
+10. SQLAlchemy: [Quelle](https://www.sqlalchemy.org)
+11. psycopg2: [Quelle](https://www.psycopg.org)
+12. bcrypt: [Quelle](https://pypi.org/project/bcrypt/)
+13. Argon2: [Quelle](https://argon2-cffi.readthedocs.io)
+14. AES - fortgeschrittener Verschlüsselungsstandard: [Quelle](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+15. RSA - RSA (Kryptosystem): [Quelle](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+16) Pipenv: [Quelle](https://pipenv.pypa.io)
+17. Conda: [Quelle](https://conda.io)

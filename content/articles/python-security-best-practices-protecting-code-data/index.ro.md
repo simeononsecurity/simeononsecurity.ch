@@ -1,7 +1,7 @@
 ---
 title: "Cele mai bune practici de securitate Python: Protejarea codului și a datelor dvs"
 date: 2023-08-01
-lastmod: 2026-11-14
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Învățați cele mai bune practici esențiale de securitate Python pentru a vă proteja codul și datele de potențiale amenințări, asigurând protecția datelor, integritatea sistemului și consolidarea încrederii."
@@ -11,11 +11,11 @@ cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "O ilustrație a unui scut care protejează codul și datele Python, simbolizând cele mai bune practici de securitate Python."
 coverCaption: "Protejați-vă codul și datele Python cu aceste bune practici."
 ---
- Cele mai bune practici de securitate: Protejarea codului și a datelor dumneavoastră**
+**Cele mai bune practici de securitate: Protejarea codului și a datelor dumneavoastră**
 
 ## Introducere
 
-Python este un limbaj de programare puternic și versatil care este utilizat pe scară largă în diverse scopuri, inclusiv pentru dezvoltarea web, analiza datelor și învățarea automată. Cu toate acestea, ca orice alt software, aplicațiile Python sunt susceptibile la vulnerabilități de securitate. În acest articol, vom discuta despre **cele mai bune practici pentru securitatea Python** pentru a vă ajuta să vă protejați codul și datele de potențiale amenințări.
+Python este un limbaj de programare puternic și versatil care este utilizat pe scară largă în diverse scopuri, inclusiv pentru dezvoltarea web, analiza datelor și învățarea automată. Cu toate acestea, ca orice alt software, aplicațiile Python sunt susceptibile la vulnerabilități de securitate. În acest articol, vom discuta despre [**cele mai bune practici pentru securitatea Python**](https://simeononsecurity.com/articles/secure-coding-standards-for-python/) pentru a vă ajuta să vă protejați codul și datele de potențiale amenințări.
 
 ______
 
@@ -34,19 +34,19 @@ Implementarea unor măsuri de securitate solide în aplicațiile dumneavoastră 
 
 ______
 
-## Cele mai bune practici de securitate Python
+## [Cele mai bune practici de securitate Python](https://simeononsecurity.com/articles/secure-coding-standards-for-python/)
 
 Pentru a spori securitatea aplicațiilor Python, este esențial să urmați aceste bune practici:
 
 ### 1. Păstrați actualizat interpretorul Python
 
-Actualizarea regulată a **interpretului dumneavoastră **Python** la cea mai recentă versiune stabilă vă asigură că aveți cele mai recente **patch-uri de securitate** și **corecturi de erori**. Comunitatea Python abordează în mod activ vulnerabilitățile și lansează actualizări pentru a îmbunătăți **securitatea și stabilitatea** limbajului. Vizitați pagina [Python website](https://www.python.org/downloads/) pentru a descărca cea mai recentă versiune.
+Actualizarea regulată a **interpretului dumneavoastră Python** la cea mai recentă versiune stabilă vă asigură că aveți cele mai recente **patch-uri de securitate** și **corecturi de erori**. Comunitatea Python abordează în mod activ vulnerabilitățile și lansează actualizări pentru a îmbunătăți **securitatea și stabilitatea** limbajului. Vizitați pagina [site-ul oficial Python](https://www.python.org/downloads/) pentru a descărca cea mai recentă versiune.
 
 Dacă vă mențineți interpretul Python la zi, beneficiați de **cele mai recente îmbunătățiri de securitate** care abordează vulnerabilitățile cunoscute. Aceste actualizări sunt concepute pentru a **mitiga riscurile** și pentru a vă proteja aplicațiile de potențiale atacuri. În plus, menținerea la zi vă permite să profitați de noile caracteristici și îmbunătățiri introduse în versiunile mai noi ale Python.
 
 De exemplu, dacă folosiți Python 3.7 și este descoperită o vulnerabilitate critică de securitate, comunitatea Python va lansa un patch care să abordeze în mod specific acea vulnerabilitate. Prin actualizarea interpretorului Python la cea mai recentă versiune, cum ar fi Python 3.9, vă asigurați că codul dumneavoastră este protejat împotriva problemelor de securitate cunoscute.
 
-Actualizarea interpretului Python este un proces simplu. Nu trebuie decât să vizitați pagina [Python downloads page](https://www.python.org/downloads/) și alegeți programul de instalare corespunzător pentru sistemul de operare. Urmați instrucțiunile de instalare furnizate pentru a vă actualiza interpretorul Python la cea mai recentă versiune.
+Actualizarea interpretului Python este un proces simplu. Nu trebuie decât să vizitați pagina [pagina de descărcare Python](https://www.python.org/downloads/) și alegeți programul de instalare corespunzător pentru sistemul de operare. Urmați instrucțiunile de instalare furnizate pentru a vă actualiza interpretorul Python la cea mai recentă versiune.
 
 Nu uitați să verificați periodic dacă există actualizări și să faceți din actualizarea regulată a interpretului Python o practică optimă pentru a fi în fața unor potențiale riscuri de securitate.
 
@@ -54,17 +54,17 @@ Nu uitați să verificați periodic dacă există actualizări și să faceți d
 
 Adoptarea **practicilor de codare sigură** minimizează probabilitatea de a introduce vulnerabilități de securitate în codul dumneavoastră Python. Urmând aceste practici, puteți consolida **postură de securitate** a aplicațiilor dvs. și vă puteți proteja împotriva vectorilor de atac comuni. Să explorăm câteva practici cheie:
 
-- **Validarea intrărilor**: **Validați toate intrările utilizatorului** pentru a preveni **atacurile prin injecție** și alte probleme de securitate legate de intrări. Implementați tehnici precum **whitelisting**, **input sanitization** și **parameterized queries** pentru a vă asigura că datele furnizate de utilizator sunt validate și pot fi utilizate în siguranță. De exemplu, atunci când acceptați datele de intrare ale utilizatorului printr-un formular web, validați și curățați datele de intrare înainte de a le procesa sau de a le stoca într-o bază de date. Acest lucru ajută la prevenirea compromiterii aplicației de către coduri malițioase sau intrări neintenționate.
+- **Validarea intrărilor**: **Validați toate intrările utilizatorului** pentru a preveni **atacurile prin injecție** și alte probleme de securitate legate de intrări. Implementați tehnici precum **listele de valori permise**, **validarea și curățarea intrărilor** și **interogările parametrizate** pentru a vă asigura că datele furnizate de utilizator sunt validate și pot fi utilizate în siguranță. De exemplu, atunci când acceptați datele de intrare ale utilizatorului printr-un formular web, validați și curățați datele de intrare înainte de a le procesa sau de a le stoca într-o bază de date. Acest lucru ajută la prevenirea compromiterii aplicației de către coduri malițioase sau intrări neintenționate.
 
 - **Evitați injecția de cod**: Nu executați niciodată **cod furnizat de utilizator** fără o validare și o dezinfectare corespunzătoare. **Atacurile de injecție de cod** apar atunci când un atacator este capabil să injecteze și să execute cod arbitrar în contextul aplicației dumneavoastră. Pentru a preveni acest lucru, evaluați și validați cu atenție orice cod furnizat de utilizatori înainte de a-l executa. Utilizați practici de codare sigure și biblioteci care oferă protecție împotriva vulnerabilităților de injectare de cod.
 
-- **Manipulare securizată a parolelor**: Atunci când lucrați cu parole, este esențial să le gestionați în siguranță. **Hash și sărați parolele** folosind **algoritmi de hashing** și **tehnici de întindere a cheilor** adecvate. Stocarea parolelor în text simplu este foarte puțin recomandată, deoarece expune utilizatorii la riscuri semnificative. În schimb, **depozitați numai hash-urile de parole** și asigurați stocarea lor în siguranță. Utilizați algoritmi de hashing puternici, cum ar fi **bcrypt** sau **Argon2** și luați în considerare aplicarea unor tehnici precum **salt** și **pepper** pentru a spori și mai mult securitatea parolelor. Prin implementarea unor practici sigure de gestionare a parolelor, puteți proteja acreditările utilizatorilor chiar dacă baza de date de bază este compromisă.
+- **Manipulare securizată a parolelor**: Atunci când lucrați cu parole, este esențial să le gestionați în siguranță. **Calculați amprente criptografice pentru parole și adăugați valori aleatorii unice** folosind **algoritmi de calculare a amprentelor criptografice** și **tehnici de întindere a cheilor** adecvate. Stocarea parolelor în text simplu este foarte puțin recomandată, deoarece expune utilizatorii la riscuri semnificative. În schimb, **depozitați numai amprentele criptografice ale parolelor** și asigurați stocarea lor în siguranță. Utilizați algoritmi puternici, cum ar fi **bcrypt** sau **Argon2**, și luați în considerare aplicarea unei **valori aleatorii unice (salt)** și a unui **secret suplimentar păstrat separat (pepper)** pentru a spori și mai mult securitatea parolelor. Prin implementarea unor practici sigure de gestionare a parolelor, puteți proteja acreditările utilizatorilor chiar dacă baza de date de bază este compromisă.
 
 Este important să rețineți că practicile de codare securizată depășesc aceste exemple. Fiți întotdeauna vigilenți și țineți pasul cu cele mai recente orientări și recomandări de securitate pentru a vă asigura că codul dumneavoastră Python rămâne sigur.
 
 ### 3. Implementați controlul accesului bazat pe roluri (RBAC)
 
-**Role-Based Access Control (RBAC)** este un model de securitate puternic care restricționează accesul la resurse în funcție de rolurile atribuite utilizatorilor. Prin implementarea RBAC în aplicațiile dumneavoastră Python, vă puteți asigura că **utilizatorii au doar privilegiile necesare** pentru a-și îndeplini sarcinile atribuite, **minimizând riscul de acces neautorizat** și **reducând suprafața de atac**.
+**Controlul accesului bazat pe roluri (RBAC)** este un model de securitate puternic care restricționează accesul la resurse în funcție de rolurile atribuite utilizatorilor. Prin implementarea RBAC în aplicațiile dumneavoastră Python, vă puteți asigura că **utilizatorii au doar privilegiile necesare** pentru a-și îndeplini sarcinile atribuite, **minimizând riscul de acces neautorizat** și **reducând suprafața de atac**.
 
 În RBAC, fiecărui utilizator i se atribuie unul sau mai multe roluri, iar fiecare rol este asociat cu permisiuni și drepturi de acces specifice. De exemplu, într-o aplicație web, puteți avea roluri precum **admin**, **utilizator** și **invitat**. Rolul **admin** poate avea acces complet la toate caracteristicile și funcționalitățile, în timp ce rolul **utilizator** poate avea acces limitat, iar rolul **invitat** poate avea acces minim sau doar pentru citire.
 
@@ -80,11 +80,11 @@ Implementarea RBAC implică mai multe etape, printre care:
 
 Prin punerea în aplicare a RBAC, se stabilește un **sistem de control al accesului în funcție de roluri** care asigură că utilizatorii au nivelul de acces adecvat în funcție de rolurile lor. Acest lucru ajută la prevenirea acțiunilor neautorizate și restricționează daunele potențiale în cazul unei breșe de securitate.
 
-Pentru a afla mai multe despre implementarea RBAC în Python, puteți consulta pagina oficială [Python Security documentation](https://docs.python.org/3/library/security.html) sau explorați bibliotecile și cadrele Python relevante care oferă funcționalități RBAC, cum ar fi **Flask-Security**, **Django Guardian** sau **Pyramid Authorization**.
+Pentru a afla mai multe despre implementarea RBAC în Python, puteți consulta pagina oficială [documentația de securitate Python](https://docs.python.org/3/library/security.html) sau explorați bibliotecile și cadrele Python relevante care oferă funcționalități RBAC, cum ar fi **Flask-Security**, **Django Guardian** sau **Pyramid Authorization**.
 
 ### 4. Protejați datele sensibile
 
-Atunci când manipulați **date sensibile** în aplicațiile dumneavoastră Python, este esențial să folosiți tehnici de criptare puternice pentru a **proteja confidențialitatea și integritatea** datelor. Prin utilizarea unor algoritmi și protocoale de criptare bine stabilite, cum ar fi **AES (Advanced Encryption Standard)** și **TLS (Transport Layer Security)**, vă puteți asigura că datele sunt criptate atât în repaus, cât și în tranzit.
+Atunci când manipulați **date sensibile** în aplicațiile dumneavoastră Python, este esențial să folosiți tehnici de criptare puternice pentru a **proteja confidențialitatea și integritatea** datelor. Prin utilizarea unor algoritmi și protocoale de criptare bine stabilite, cum ar fi **AES (standardul avansat de criptare)** și **TLS (securitatea stratului de transport)**, vă puteți asigura că datele sunt criptate atât în repaus, cât și în tranzit.
 
 **Criptarea** este procesul de transformare a datelor într-un format ilizibil, cunoscut sub numele de text cifrat, folosind algoritmi de criptare și chei criptografice. Numai părțile autorizate care dispun de cheile de decriptare corespunzătoare pot descifra textul cifrat și pot accesa datele originale.
 
@@ -96,7 +96,7 @@ Iată câteva exemple despre cum puteți proteja datele sensibile în Python:
 
 Prin aplicarea tehnicilor de criptare pentru a proteja datele sensibile, adăugați un nivel suplimentar de securitate aplicațiilor dumneavoastră Python. Acest lucru reduce semnificativ riscul de încălcare a datelor și de acces neautorizat la informații sensibile.
 
-Pentru a afla mai multe despre criptarea în Python și despre cum să o implementați în mod eficient, puteți consulta bibliotecile și documentația relevante, cum ar fi biblioteca **Python Cryptography** și manualul oficial [TLS RFC](https://tools.ietf.org/html/rfc5246) pentru înțelegerea protocolului TLS.
+Pentru a afla mai multe despre criptarea în Python și despre cum să o implementați în mod eficient, puteți consulta bibliotecile și documentația relevante, cum ar fi biblioteca **Python Cryptography** și manualul oficial [RFC-ul TLS](https://tools.ietf.org/html/rfc5246) pentru înțelegerea protocolului TLS.
 
 Nu uitați că criptarea este doar un aspect al protecției datelor sensibile. Este la fel de important să se implementeze practici de **stocare securizată**, **controale de acces** și **gestionare securizată a cheilor** pentru a asigura o protecție completă a datelor.
 
@@ -164,7 +164,7 @@ Iată câteva măsuri pe care le puteți lua pentru a promova educația și form
 
 - **Instrumente axate pe securitate**: Integrați instrumentele axate pe securitate, cum ar fi instrumentele de **analiză statică a codului**, în fluxul de lucru al dezvoltării dumneavoastră. Aceste instrumente pot identifica în mod automat potențiale probleme de securitate, modele de codificare nesigură și vulnerabilități în baza de cod. Pentru Python, puteți explora instrumente precum **Bandit** sau **Pylint** pentru a vă analiza codul în căutarea vulnerabilităților de securitate.
 
-- **Învățare continuă**: Încurajați dezvoltatorii să rămână la curent cu cele mai recente **tendințe de securitate**, **cele mai bune practici** și amenințările emergente din ecosistemul Python. Acest lucru poate fi realizat prin participarea la conferințe de securitate, webinarii sau prin urmărirea unor resurse de securitate de renume, cum ar fi comunitatea **OWASP (Open Web Application Security Project)**.
+- **Învățare continuă**: Încurajați dezvoltatorii să rămână la curent cu cele mai recente **tendințe de securitate**, **cele mai bune practici** și amenințările emergente din ecosistemul Python. Acest lucru poate fi realizat prin participarea la conferințe de securitate, webinarii sau prin urmărirea unor resurse de securitate de renume, cum ar fi comunitatea **OWASP (Open Web Application Security Project, proiect deschis pentru securitatea aplicațiilor web)**.
 
 Investind în educația și formarea dezvoltatorilor, creați o bază solidă pentru crearea unor aplicații Python sigure. Promovarea unei mentalități axate pe securitate în rândul dezvoltatorilor ajută la prevenirea incidentelor de securitate, la reducerea vulnerabilităților și la asigurarea securității generale a software-ului dumneavoastră.
 
@@ -176,23 +176,23 @@ ______
 
 Iată o foaie de informații concisă care rezumă cele mai bune practici de securitate **Python** discutate în acest articol:
 
-1. **Mențineți interpretul Python actualizat** la cea mai recentă versiune stabilă pentru a beneficia de patch-uri de securitate și de remedieri de erori. Vizitați site-ul [Python website - Downloads](https://www.python.org/downloads/) pentru a descărca cea mai recentă versiune.
+1. **Mențineți interpretul Python actualizat** la cea mai recentă versiune stabilă pentru a beneficia de patch-uri de securitate și de remedieri de erori. Vizitați site-ul [site-ul oficial Python - Descărcări](https://www.python.org/downloads/) pentru a descărca cea mai recentă versiune.
 
-2. **Să urmeze practici de codare sigure**, inclusiv **validarea intrărilor** pentru a preveni atacurile prin injectare, **evitarea injectării de cod** prin validarea și curățarea codului furnizat de utilizator și **manipularea securizată a parolelor** prin utilizarea unor algoritmi de hashing și a unor tehnici de stocare a parolelor adecvate.
+2. **Să urmeze practici de codare sigure**, inclusiv **validarea intrărilor** pentru a preveni atacurile prin injectare, **evitarea injectării de cod** prin validarea și curățarea codului furnizat de utilizator și **manipularea securizată a parolelor** prin utilizarea unor algoritmi de calculare a amprentelor criptografice (hash-uri) și a unor tehnici de stocare a parolelor adecvate.
 
-3. **Implementarea controlului accesului bazat pe roluri (RBAC)** pentru a restricționa accesul neautorizat. RBAC atribuie roluri utilizatorilor în funcție de responsabilitățile acestora și acordă privilegii de acces în consecință. Consultați documentul [NIST - Role-Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) pentru mai multe detalii.
+3. **Implementarea controlului accesului bazat pe roluri (RBAC)** pentru a restricționa accesul neautorizat. RBAC atribuie roluri utilizatorilor în funcție de responsabilitățile acestora și acordă privilegii de acces în consecință. Consultați documentul [NIST - controlul accesului bazat pe roluri](https://csrc.nist.gov/projects/role-based-access-control) pentru mai multe detalii.
 
-4. **Protejați datele sensibile** utilizând **tehnici de criptare puternice**. Utilizați algoritmi de criptare bine stabiliți, cum ar fi **AES (Advanced Encryption Standard)** și asigurați stocarea și transmiterea în siguranță a informațiilor sensibile. Puteți face referire la [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) pentru mai multe informații.
+4. **Protejați datele sensibile** utilizând **tehnici de criptare puternice**. Utilizați algoritmi de criptare bine stabiliți, cum ar fi **AES (standardul avansat de criptare)** și asigurați stocarea și transmiterea în siguranță a informațiilor sensibile. Puteți face referire la [articolul AES de pe Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) pentru mai multe informații.
 
-5. **Securizați accesul la baza de date** folosind **instrucțiuni pregătite** pentru a preveni atacurile de tip SQL injection și aplicând **principiul privilegiului minim** pentru a limita permisiunile utilizatorilor bazei de date. Aceste practici reduc riscul accesului neautorizat la date sensibile. Consultați [documentația SQLAlchemy](https://www.sqlalchemy.org) despre instrucțiunile pregătite și [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) despre principiul privilegiului minim.
+5. **Securizați accesul la baza de date** folosind **instrucțiuni pregătite** pentru a preveni atacurile de tip injecție SQL și aplicând **principiul privilegiului minim** pentru a limita permisiunile utilizatorilor bazei de date. Aceste practici reduc riscul accesului neautorizat la date sensibile. Consultați [documentația SQLAlchemy](https://www.sqlalchemy.org) despre **instrucțiunile pregătite** și [OWASP - fișă de referință pentru controlul accesului bazat pe roluri (RBAC)](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) despre **principiul privilegiului minim**.
 
-6. **Actualizați în mod regulat dependențele** pentru a rezolva vulnerabilitățile de securitate și a beneficia de corecții de erori. Instrumente precum [Snyk - Open Source Security Platform](https://snyk.io/) vă poate ajuta să identificați vulnerabilitățile din dependențele proiectului dumneavoastră.
+6. **Actualizați în mod regulat dependențele** pentru a rezolva vulnerabilitățile de securitate și a beneficia de corecții de erori. Instrumente precum [Snyk - platformă de securitate cu sursă deschisă](https://snyk.io/) vă poate ajuta să identificați vulnerabilitățile din dependențele proiectului dumneavoastră.
 
 7. **Activați jurnalizarea și monitorizarea** pentru a detecta și investiga incidentele de securitate. Logging-ul captează informații relevante despre evenimentele din aplicații, în timp ce monitorizarea oferă vizibilitate în timp real asupra comportamentului sistemului. Luați în considerare utilizarea unor servicii precum **AWS CloudWatch**, **Datadog** sau **Prometheus** pentru o monitorizare cuprinzătoare.
 
-8. **Educeți și instruiți dezvoltatorii** cu privire la practicile de codare sigură și la vulnerabilitățile comune de securitate. Promovați programe de conștientizare a securității, stabiliți orientări privind codarea sigură și încurajați revizuirile de cod și programarea în perechi. 9. Explorați instrumente de securitate precum **Bandit** sau **Pylint** pentru analiza statică a codului.
+8. **Educeți și instruiți dezvoltatorii** cu privire la practicile de codare sigură și la vulnerabilitățile comune de securitate. Promovați programe de conștientizare a securității, stabiliți orientări privind codarea sigură și încurajați revizuirile de cod și programarea în perechi. Explorați instrumente de securitate precum **Bandit** sau **Pylint** pentru analiza statică a codului.
 
-Pentru un ghid mai cuprinzător privind securitatea Python, consultați ghidul oficial [Python Security documentation](https://docs.python.org)
+Pentru un ghid mai cuprinzător privind securitatea Python, consultați ghidul oficial [documentația de securitate Python](https://docs.python.org)
 
 ______
 
@@ -206,20 +206,20 @@ ______
 
 ## Referințe
 
-1. Site-ul Python - Descărcări: [Link](https://www.python.org/downloads/)
-2. NIST - Controlul accesului bazat pe roluri: [Link](https://csrc.nist.gov/projects/role-based-access-control)
-3. TLS - Transport Layer Security: [Link](https://tools.ietf.org/html/rfc5246)
-4. Snyk - Platforma de securitate cu sursă deschisă: [Link](https://snyk.io/)
-5. Documentația oficială Python: [Link](https://docs.python.org)
-6. OWASP - Open Web Application Security Project: [Link](https://owasp.org)
-7. NIST - Institutul Național de Standarde și Tehnologie: [Link](https://www.nist.gov)
-8. Bleach: [Link](https://bleach.readthedocs.io)
-9. html5lib: [Link](https://html5lib.readthedocs.io)
-10. SQLAlchemy: [Link](https://www.sqlalchemy.org)
-11. psycopg2: [Link](https://www.psycopg.org)
-12. bcrypt: [Link](https://pypi.org/project/bcrypt/)
-13. Argon2: [Link](https://argon2-cffi.readthedocs.io)
-14. AES - Advanced Encryption Standard (Standard de criptare avansată): [Link](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-15. RSA - RSA (criptosistem): [Link](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
-16) Pipenv: [Link](https://pipenv.pypa.io)
-17. Conda: [Link](https://conda.io)
+1. Site-ul Python - Descărcări: [Legătură](https://www.python.org/downloads/)
+2. NIST - Controlul accesului bazat pe roluri: [Legătură](https://csrc.nist.gov/projects/role-based-access-control)
+3. TLS - securitatea stratului de transport: [Legătură](https://tools.ietf.org/html/rfc5246)
+4. Snyk - platformă de securitate cu sursă deschisă: [Legătură](https://snyk.io/)
+5. Documentația oficială Python: [Legătură](https://docs.python.org)
+6. OWASP - Open Web Application Security Project (proiect deschis pentru securitatea aplicațiilor web): [Legătură](https://owasp.org)
+7. NIST - Institutul Național de Standarde și Tehnologie: [Legătură](https://www.nist.gov)
+8. Bleach: [Legătură](https://bleach.readthedocs.io)
+9. html5lib: [Legătură](https://html5lib.readthedocs.io)
+10. SQLAlchemy: [Legătură](https://www.sqlalchemy.org)
+11. psycopg2: [Legătură](https://www.psycopg.org)
+12. bcrypt: [Legătură](https://pypi.org/project/bcrypt/)
+13. Argon2: [Legătură](https://argon2-cffi.readthedocs.io)
+14. AES - Advanced Encryption Standard (Standard de criptare avansată): [Legătură](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+15. RSA - RSA (criptosistem): [Legătură](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+16. Pipenv: [Legătură](https://pipenv.pypa.io)
+17. Conda: [Legătură](https://conda.io)
