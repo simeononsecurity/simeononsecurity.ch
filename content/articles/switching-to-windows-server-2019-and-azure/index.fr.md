@@ -1,6 +1,7 @@
 ---
 title: "Passer à Windows Server 2019 ou à Azure : Quelle option convient le mieux à votre entreprise ?"
 date: 2023-02-08
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Cet article explore les avantages de la mise à niveau vers Server 2019 ou du passage à Azure, notamment l'amélioration de la sécurité, des performances, de l'intégration et de l'assistance, afin d'aider les entreprises à prendre la meilleure décision pour leur infrastructure informatique."
@@ -10,9 +11,19 @@ coverAlt: "Image d'une salle de serveurs avec des racks de serveurs d'un côté 
 coverCaption: ""
 ---
 
-## Introduction :
+## Présentation :
 
 Dans l'environnement commercial actuel, qui évolue rapidement, **les organisations sont toujours à la recherche de moyens d'améliorer leur infrastructure informatique et de rester au fait des dernières avancées technologiques**. Par conséquent, de nombreuses organisations sont confrontées à la décision de **mettre à niveau leur serveur actuel ou de passer à une solution basée sur le cloud**. Cet article explore les raisons pour lesquelles les organisations devraient envisager de mettre à niveau leur serveur vers **Server 2019** ou de passer à **Azure**.
+
+### Critères de décision
+
+| Option | Adapté aux besoins suivants | Principale contrainte |
+| --- | --- | --- |
+| **Server 2019** | Charges de travail nécessitant un contrôle local, du matériel existant ou une faible latence locale | Vous gérez les correctifs, la capacité et la reprise après sinistre. |
+| **Azure** | Charges de travail nécessitant une capacité élastique ou des services de plateforme gérés | Les coûts récurrents d’utilisation, de réseau et de transfert des données doivent être examinés. |
+| **Hybride** | Charges de travail réparties entre dépendances locales et services cloud | L’identité, les chemins réseau, la surveillance et les plans de reprise deviennent des responsabilités partagées. |
+
+Avant de choisir, documentez les dépendances des charges de travail, les objectifs de reprise, l’emplacement des données et une estimation des coûts sur trois ans.
 
 ### Pourquoi passer à Server 2019 ?
 
@@ -20,7 +31,7 @@ Dans l'environnement commercial actuel, qui évolue rapidement, **les organisati
 
 2. **Amélioration des performances** : Server 2019 comprend de nombreuses améliorations des performances par rapport à Server 2012. Par exemple, il inclut la prise en charge de technologies de stockage plus rapides telles que **NVMe** et une meilleure prise en charge des charges de travail informatiques hautes performances.
 
-3. **Meilleure intégration avec Azure** : Server 2019 est conçu pour fonctionner de manière transparente avec Azure, ce qui permet aux entreprises de déplacer plus facilement leurs charges de travail sur site vers le cloud. Cette intégration permet aux entreprises de profiter de l'évolutivité et de la rentabilité d'Azure** tout en gardant le contrôle de leur infrastructure sur site.
+3. **Meilleure intégration avec Azure** : Server 2019 est conçu pour fonctionner de manière transparente avec Azure, ce qui permet aux entreprises de déplacer plus facilement leurs charges de travail sur site vers le cloud. Cette intégration permet aux entreprises de profiter de **l'évolutivité et de la rentabilité d'Azure** tout en gardant le contrôle de leur infrastructure sur site.
 
 4. **Support à long terme** : Server 2019 bénéficiera du support de Microsoft jusqu'en 2029, ce qui signifie que les organisations peuvent continuer à recevoir des mises à jour de sécurité et des corrections de bogues pendant une période plus longue. En comparaison, Server 2012 ne bénéficiera d'un support que jusqu'en 2023, après quoi les organisations ne recevront plus de mises à jour de sécurité ni de corrections de bogues.
 
@@ -40,6 +51,6 @@ Il convient de mentionner que les organisations n'ont pas à choisir entre la mi
 
 _________
 
-## Conclusion :
+## Bilan :
 
 En conclusion, les organisations devraient envisager de mettre à niveau vers Server 2019 ou de passer à Azure, car les deux solutions offrent une sécurité, des performances, une intégration et un support améliorés. En profitant de l'évolutivité et de la rentabilité d'Azure ou de la sécurité et des performances améliorées de Server 2019, les organisations peuvent améliorer leur infrastructure informatique et garder une longueur d'avance sur la concurrence. En outre, en adoptant une approche hybride, les entreprises peuvent profiter des avantages des deux solutions et créer une infrastructure informatique flexible et résiliente, capable de s'adapter.

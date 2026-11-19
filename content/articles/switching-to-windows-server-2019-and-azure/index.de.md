@@ -1,6 +1,7 @@
 ---
 title: "Upgrade auf Windows Server 2019 oder Wechsel zu Azure: Welche Option ist die richtige für Ihr Unternehmen?"
 date: 2023-02-08
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Dieser Artikel befasst sich mit den Vorteilen eines Upgrades auf Server 2019 oder eines Wechsels zu Azure, einschließlich verbesserter Sicherheit, Leistung, Integration und Support, um Unternehmen dabei zu helfen, die beste Entscheidung für ihre IT-Infrastruktur zu treffen."
@@ -14,6 +15,16 @@ coverCaption: ""
 
 In der heutigen schnelllebigen Geschäftswelt sind **Organisationen immer auf der Suche nach Möglichkeiten, ihre IT-Infrastruktur zu verbessern und mit den neuesten technologischen Entwicklungen Schritt zu halten**. Infolgedessen stehen viele Unternehmen vor der Entscheidung, ob sie **ihren aktuellen Server aufrüsten oder zu einer Cloud-basierten Lösung** wechseln sollen. In diesem Artikel werden die Gründe untersucht, warum Unternehmen ein Upgrade ihres Servers auf **Server 2019** oder einen Wechsel zu **Azure** in Betracht ziehen sollten.
 
+### Entscheidungskriterien
+
+| Auswahl | Am besten geeignet für | Wichtigste Einschränkung |
+| --- | --- | --- |
+| **Server 2019** | Arbeitslasten mit Bedarf an lokaler Kontrolle, vorhandener Hardware oder geringer Latenz vor Ort | Sie sind für Patches, Kapazität und Notfallwiederherstellung verantwortlich. |
+| **Azure** | Arbeitslasten mit Bedarf an elastischer Kapazität oder verwalteten Plattformdiensten | Laufende Nutzungs-, Netzwerk- und Datenübertragungskosten müssen geprüft werden. |
+| **Hybrid** | Arbeitslasten, die auf lokale Abhängigkeiten und Cloud-Dienste verteilt sind | Identität, Netzwerkpfade, Überwachung und Wiederherstellungspläne werden gemeinsam verantwortet. |
+
+Dokumentieren Sie vor der Entscheidung die Abhängigkeiten der Arbeitslasten, Wiederherstellungsziele, den Datenstandort und eine Kostenschätzung für drei Jahre.
+
 ### Warum ein Upgrade auf Server 2019?
 
 1. **Erhöhte Sicherheit**: Server 2019 enthält mehrere Sicherheitsverbesserungen, die ihn sicherer machen als seinen Vorgänger, Server 2012. Zum Beispiel enthält er **Windows Defender Advanced Threat Protection (ATP)**, eine umfassende Sicherheitslösung, die vor hochentwickelten Cyber-Bedrohungen schützt.
@@ -22,7 +33,7 @@ In der heutigen schnelllebigen Geschäftswelt sind **Organisationen immer auf de
 
 3. **Bessere Integration mit Azure**: Server 2019 ist so konzipiert, dass er nahtlos mit Azure zusammenarbeitet, wodurch es für Unternehmen einfacher wird, ihre lokalen Arbeitslasten in die Cloud zu verlagern. Diese Integration ermöglicht es Unternehmen, die **Skalierbarkeit und Kosteneffizienz von Azure** zu nutzen und gleichzeitig die Kontrolle über ihre lokale Infrastruktur zu behalten.
 
-4. **Langfristiger Support**: Server 2019 wird von Microsoft bis 2029 unterstützt, was bedeutet, dass Unternehmen über einen längeren Zeitraum Sicherheitsupdates und Fehlerbehebungen erhalten können. Im Vergleich dazu wird Server 2012 nur bis 2024 unterstützt, danach erhalten Unternehmen keine Sicherheitsupdates oder Fehlerbehebungen mehr.
+4. **Langfristiger Support**: Server 2019 wird von Microsoft bis 2029 unterstützt, was bedeutet, dass Unternehmen über einen längeren Zeitraum Sicherheitsupdates und Fehlerbehebungen erhalten können. Im Vergleich dazu wird Server 2012 nur bis 2023 unterstützt, danach erhalten Unternehmen keine Sicherheitsupdates oder Fehlerbehebungen mehr.
 
 ### Warum zu Azure wechseln?
 

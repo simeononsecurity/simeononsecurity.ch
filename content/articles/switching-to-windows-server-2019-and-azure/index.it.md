@@ -1,10 +1,11 @@
 ---
 title: "Aggiornamento a Windows Server 2019 o passaggio ad Azure: Quale opzione è giusta per la vostra azienda?"
 date: 2023-02-08
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Questo articolo esplora i vantaggi dell'aggiornamento a Server 2019 o del passaggio ad Azure, tra cui il miglioramento della sicurezza, delle prestazioni, dell'integrazione e del supporto, per aiutare le aziende a prendere la decisione migliore per la loro infrastruttura IT."
-tags: ["Aggiornamento a Server 2019", "Passare ad Azure", "Infrastruttura IT", "Tecnologia aziendale", "Miglioramenti della sicurezza", "Miglioramenti delle prestazioni", "Integrazione con Azure", "Supporto a lungo termine", "Scalability", "Costo-efficacia", "Maggiore affidabilità", "Analisi avanzata", "Approccio ibrido", "Infrastruttura IT flessibile e resiliente"]
+tags: ["Aggiornamento a Server 2019", "Passare ad Azure", "Infrastruttura IT", "Tecnologia aziendale", "Miglioramenti della sicurezza", "Miglioramenti delle prestazioni", "Integrazione con Azure", "Supporto a lungo termine", "Scalabilità", "Costo-efficacia", "Maggiore affidabilità", "Analisi avanzata", "Approccio ibrido", "Infrastruttura IT flessibile e resiliente"]
 cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "Un'immagine di una sala server con rack di server da un lato e una nuvola dall'altro, con una persona in piedi al centro che li guarda entrambi."
 coverCaption: ""
@@ -13,6 +14,16 @@ coverCaption: ""
 ## Introduzione:
 
 Nel frenetico ambiente aziendale di oggi, le **organizzazioni sono sempre alla ricerca di modi per migliorare la propria infrastruttura IT e stare al passo con gli ultimi progressi tecnologici**. Di conseguenza, molte organizzazioni si trovano a dover decidere se **aggiornare il proprio server attuale o passare a una soluzione basata sul cloud**. In questo articolo verranno analizzati i motivi per cui le aziende dovrebbero prendere in considerazione l'aggiornamento del proprio server a **Server 2019** o il passaggio ad **Azure**.
+
+### Criteri decisionali
+
+| Opzione | Ideale per | Vincolo principale |
+| --- | --- | --- |
+| **Server 2019** | Carichi di lavoro che richiedono controllo locale, hardware esistente o bassa latenza locale | La gestione delle patch, della capacità e del ripristino di emergenza spetta a te. |
+| **Azure** | Carichi di lavoro che richiedono capacità elastica o servizi di piattaforma gestiti | Occorre valutare i costi ricorrenti di utilizzo, rete e trasferimento dei dati. |
+| **Ibrido** | Carichi di lavoro distribuiti tra dipendenze locali e servizi cloud | Identità, percorsi di rete, monitoraggio e piani di ripristino diventano responsabilità condivise. |
+
+Prima di scegliere, documenta le dipendenze dei carichi di lavoro, gli obiettivi di ripristino, la posizione dei dati e una stima dei costi su tre anni.
 
 ### Perché aggiornare a Server 2019?
 
@@ -42,4 +53,4 @@ _________
 
 ## Conclusioni:
 
-In conclusione, le aziende dovrebbero prendere in considerazione l'aggiornamento a Server 2019 o il passaggio ad Azure perché entrambe le soluzioni offrono sicurezza, prestazioni, integrazione e supporto migliori. Sfruttando la scalabilità e l'economicità di Azure o la sicurezza e le prestazioni migliorate di Server 2019, le aziende possono migliorare la loro infrastruttura IT e rimanere in testa alla concorrenza. Inoltre, adottando un approccio ibrido, le aziende possono sfruttare i vantaggi di entrambe le soluzioni e creare un'infrastruttura IT flessibile e resiliente in grado di adattarsi alle esigenze dei clienti.
+In conclusione, le aziende dovrebbero prendere in considerazione l'aggiornamento a Server 2019 o il passaggio ad Azure perché entrambe le soluzioni offrono sicurezza, prestazioni, integrazione e supporto migliori. Sfruttando la scalabilità e l'economicità di Azure o la sicurezza e le prestazioni migliorate di Server 2019, le aziende possono migliorare la loro infrastruttura IT e rimanere in testa alla concorrenza. Inoltre, adottando un approccio ibrido, le aziende possono sfruttare i vantaggi di entrambe le soluzioni e creare un'infrastruttura IT flessibile e resiliente in grado di adattarsi alle mutevoli esigenze aziendali.

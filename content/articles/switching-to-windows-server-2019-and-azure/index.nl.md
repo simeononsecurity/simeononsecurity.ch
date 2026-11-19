@@ -1,6 +1,7 @@
 ---
 title: "Upgraden naar Windows Server 2019 of overstappen naar Azure: Welke optie is de juiste voor uw bedrijf?"
 date: 2023-02-08
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Dit artikel onderzoekt de voordelen van upgraden naar Server 2019 of overstappen naar Azure, waaronder verbeterde beveiliging, prestaties, integratie en ondersteuning, om organisaties te helpen de beste beslissing te nemen voor hun IT-infrastructuur."
@@ -12,7 +13,17 @@ coverCaption: ""
 
 ## Introductie:
 
-In de huidige snelle bedrijfsomgeving zijn **organisaties altijd op zoek naar manieren om hun IT-infrastructuur te verbeteren en bij te blijven met de nieuwste technologische ontwikkelingen**. Als gevolg daarvan staan veel organisaties voor de keuze om hun huidige server te upgraden of over te stappen op een cloud-gebaseerde oplossing**. Dit artikel gaat in op de redenen waarom organisaties zouden moeten overwegen hun server te upgraden naar **Server 2019** of over te stappen naar **Azure**.
+In de huidige snelle bedrijfsomgeving zijn **organisaties altijd op zoek naar manieren om hun IT-infrastructuur te verbeteren en bij te blijven met de nieuwste technologische ontwikkelingen**. Als gevolg daarvan staan veel organisaties voor de keuze om **hun huidige server te upgraden of over te stappen op een cloud-gebaseerde oplossing**. Dit artikel gaat in op de redenen waarom organisaties zouden moeten overwegen hun server te upgraden naar **Server 2019** of over te stappen naar **Azure**.
+
+### Beslissingscriteria
+
+| Keuze | Meest geschikt voor | Belangrijkste beperking |
+| --- | --- | --- |
+| **Server 2019** | Workloads waarvoor lokale controle, bestaande hardware of lage lokale latentie nodig is | Je beheert patches, capaciteit en herstel na calamiteiten. |
+| **Azure** | Workloads waarvoor elastische capaciteit of beheerde platformdiensten nodig zijn | Doorlopende kosten voor gebruik, netwerken en gegevensoverdracht moeten worden beoordeeld. |
+| **Hybride** | Workloads verdeeld over lokale afhankelijkheden en clouddiensten | Identiteit, netwerkpaden, bewaking en herstelplannen worden gedeelde verantwoordelijkheden. |
+
+Leg vóór je een keuze maakt de workloadafhankelijkheden, hersteldoelen, gegevenslocatie en een kostenraming voor drie jaar vast.
 
 ### Waarom upgraden naar Server 2019?
 
@@ -42,4 +53,4 @@ _________
 
 ## Conclusie:
 
-Concluderend zouden organisaties moeten overwegen om te upgraden naar Server 2019 of over te stappen naar Azure, omdat beide oplossingen verbeterde beveiliging, prestaties, integratie en ondersteuning bieden. Door te profiteren van de schaalbaarheid en kosteneffectiviteit van Azure of de verbeterde beveiliging en prestaties van Server 2019, kunnen organisaties hun IT-infrastructuur verbeteren en de concurrentie voorblijven. Door te kiezen voor een hybride aanpak kunnen organisaties bovendien profiteren van de voordelen van beide oplossingen en een flexibele en veerkrachtige IT-infrastructuur creëren die zich kan aanpassen aan de behoeften van de klant.
+Concluderend zouden organisaties moeten overwegen om te upgraden naar Server 2019 of over te stappen naar Azure, omdat beide oplossingen verbeterde beveiliging, prestaties, integratie en ondersteuning bieden. Door te profiteren van de schaalbaarheid en kosteneffectiviteit van Azure of de verbeterde beveiliging en prestaties van Server 2019, kunnen organisaties hun IT-infrastructuur verbeteren en de concurrentie voorblijven. Door te kiezen voor een hybride aanpak kunnen organisaties bovendien profiteren van de voordelen van beide oplossingen en een flexibele en veerkrachtige IT-infrastructuur creëren die zich kan aanpassen aan veranderende bedrijfsbehoeften.

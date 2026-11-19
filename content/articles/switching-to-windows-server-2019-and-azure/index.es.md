@@ -1,6 +1,7 @@
 ---
 title: "Actualizar a Windows Server 2019 o cambiar a Azure: ¿Qué opción es la adecuada para tu empresa?"
 date: 2023-02-08
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Este artículo explora los beneficios de actualizar a Server 2019 o cambiar a Azure, incluida la mejora de la seguridad, el rendimiento, la integración y el soporte, para ayudar a las organizaciones a tomar la mejor decisión para su infraestructura de TI."
@@ -13,6 +14,16 @@ coverCaption: ""
 ## Introducción:
 
 En el vertiginoso entorno empresarial actual, **las organizaciones siempre buscan formas de mejorar su infraestructura de TI y mantenerse al día de los últimos avances tecnológicos**. Como resultado, muchas organizaciones se enfrentan a la decisión de **actualizar su servidor actual o cambiar a una solución basada en la nube**. Este artículo explorará las razones por las que las organizaciones deberían considerar actualizar su servidor a **Server 2019** o cambiar a **Azure**.
+
+### Criterios de decisión
+
+| Opción | Más adecuado para | Principal limitación |
+| --- | --- | --- |
+| **Server 2019** | Cargas de trabajo que necesitan control local, hardware existente o baja latencia local | Tú te encargas de los parches, la capacidad y la recuperación ante desastres. |
+| **Azure** | Cargas de trabajo que necesitan capacidad elástica o servicios de plataforma administrados | Hay que revisar los costes continuos de uso, red y transferencia de datos. |
+| **Híbrido** | Cargas de trabajo repartidas entre dependencias locales y servicios en la nube | La identidad, las rutas de red, la supervisión y los planes de recuperación pasan a ser responsabilidades compartidas. |
+
+Documenta las dependencias de las cargas de trabajo, los objetivos de recuperación, la ubicación de los datos y una estimación de costes a tres años antes de elegir.
 
 ### ¿Por qué actualizar a Server 2019?
 
