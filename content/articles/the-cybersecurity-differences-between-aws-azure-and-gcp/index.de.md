@@ -1,6 +1,7 @@
 ---
-title: "Cloud-Sicherheits-Showdown: AWS gegen Azure gegen Google Cloud Platform"
+title: "Cloud-Sicherheit im Vergleich: AWS, Azure und Google Cloud Platform"
 date: 2023-03-29
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Vergleichen Sie AWS, Azure und Google Cloud Platform in Bezug auf die Cloud-Sicherheit, und lernen Sie die Unterschiede kennen, um eine fundierte Entscheidung für Ihr Unternehmen zu treffen."

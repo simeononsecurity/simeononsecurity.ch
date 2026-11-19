@@ -1,6 +1,7 @@
 ---
-title: "Cloud Beveiliging Showdown: AWS vs Azure vs Google Cloud Platform"
+title: "Cloudbeveiliging: AWS, Azure en Google Cloud Platform vergeleken"
 date: 2023-03-29
+lastmod: 2026-11-19
 toc: true
 draft: false
 description: "Vergelijk AWS, Azure en Google Cloud Platform op het gebied van cloudbeveiliging en leer de verschillen om een weloverwogen beslissing te nemen voor jouw organisatie."
