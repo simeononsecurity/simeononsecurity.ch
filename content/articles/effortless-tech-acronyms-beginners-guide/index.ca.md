@@ -880,6 +880,31 @@ En el paisatge tecnològic que canvia ràpidament, les abreviatures i acrònims 
   - Una capa en el sistema de fitxers ZFS que proporciona compatibilitat amb l'estàndard POSIX per a operacions de fitxers.
 
 
+## Com llegir les sigles de tecnologia de la informació
+
+El significat d'una sigla depèn del context. Abans d'escriure'n el significat complet, comprova el sistema, el protocol o la funció laboral del seu entorn.
+
+| Terme | Significats habituals | Comprova el context |
+|------|----------------------|----------------------|
+| **AD** | Active Directory, anunci | Identitat a Windows o context de màrqueting |
+| **AI** | Intel·ligència artificial, Adobe Illustrator | Aprenentatge automàtic o programari de disseny |
+| **DOS** | Denegació de servei, sistema operatiu de disc | Incident de seguretat o sistema operatiu antic |
+| **MAC** | Adreça de control d'accés al medi (Media Access Control), macOS | Adreça de maquinari de xarxa o sistema operatiu d'Apple |
+| **OTP** | Contrasenya d'un sol ús, bloc d'un sol ús | Procés d'autenticació o criptografia |
+| **SSL/TLS** | Nom històric d'SSL associat amb el TLS actual | En parlar dels protocols actuals, fes servir TLS. SSL és obsolet. |
+
+Algunes entrades anteriors descriuen termes històrics, informals, específics d'un proveïdor o amb significats superposats. **No tractis una definició del glossari com una recomanació de configuració.** Consulta l'estàndard o la documentació del proveïdor abans de triar un protocol, un algorisme, un servei al núvol o un control de seguretat.
+
+Per als termes de xarxa i seguretat, l'[índex RFC de l'Internet Engineering Task Force](https://www.rfc-editor.org/) recull els estàndards. Per a l'administració de Windows, consulta [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Per als termes criptogràfics, consulta el [glossari del NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Llista de verificació per estudiar sigles
+
+1. Escriu l'expansió completa i el sistema on has trobat el terme.
+2. Anota si designa un protocol, un producte, un rol, un format de fitxer, una mètrica o una política.
+3. Comprova la data i la versió quan el terme descrigui un producte o un estàndard.
+4. Separa una definició d'una recomanació.
+5. Abans d'utilitzar una sigla desconeguda en una sol·licitud de canvi, contrasta-la amb el document d'origen.
+
 ## Conclusió
 
 A mesura que la tecnologia continua avançant, sens dubte apareixeran noves abreviatures i acrònims per descriure conceptes i innovacions noves. La capacitat de desxifrar aquestes abreviatures no només és valuosa per als professionals del sector sinó també per a qualsevol persona que vulgui navegar pel món digital amb confiança. En aquest article, hem explorat una col·lecció completa d'abreviatures relacionades amb la tecnologia, explicant la jerga essencial que sustenta l'univers tecnològic. Amb aquest coneixement, estàs millor preparat per desxifrar el llenguatge de la tecnologia i mantenir-te informat en un paisatge tecnològic que canvia ràpidament.

@@ -279,7 +279,7 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **EHR** : Dossier de santé électronique (Electronic Health Record)
   - Un dossier numérique de la santé et de l'historique médical d'un patient qui peut être partagé et consulté par des professionnels de santé autorisés.
 
-- **EIP** : IP élastique (Elastic IP)
+- **EIP** : adresse IP élastique (Elastic IP)
   - Une fonctionnalité des plateformes de cloud computing qui permet aux utilisateurs d'allouer une adresse IP publique statique à leurs instances virtuelles ou services, les rendant accessibles depuis Internet.
 
 - **ELB** : Équilibreur de charge élastique (Elastic Load Balancer)
@@ -879,6 +879,31 @@ Dans le paysage technologique en constante évolution, les abréviations et acro
 - **ZPL** : Couche conforme POSIX de ZFS
   - Une couche dans le système de fichiers ZFS qui assure la compatibilité avec la norme POSIX pour les opérations sur fichiers.
 
+
+## Comment lire les acronymes de l’informatique
+
+Le sens d’un acronyme dépend du contexte. Avant de le développer, vérifie le système, le protocole ou la fonction professionnelle autour de lui.
+
+| Terme | Sens courants | Vérification du contexte |
+|------|----------------|--------------------------|
+| **AD** | Active Directory, publicité | Identité Windows ou contexte marketing |
+| **AI** | Intelligence artificielle, Adobe Illustrator | Apprentissage automatique ou logiciel de conception |
+| **DOS** | Déni de service, système d’exploitation sur disque | Incident de sécurité ou ancien système d’exploitation |
+| **MAC** | Adresse de contrôle d’accès au support (Media Access Control), macOS | Adresse matérielle réseau ou système d’exploitation Apple |
+| **OTP** | Mot de passe à usage unique, masque jetable | Processus d’authentification ou cryptographie |
+| **SSL/TLS** | Ancienne appellation SSL associée au TLS actuel | Pour parler des protocoles actuels, utilise TLS. SSL est obsolète. |
+
+Certaines entrées ci-dessus désignent des termes historiques, informels, propres à un fournisseur ou qui se chevauchent. **Ne prends pas le développement d’un glossaire pour une recommandation de configuration.** Consulte la norme concernée ou la documentation du fournisseur avant de choisir un protocole, un algorithme, un service cloud ou une mesure de sécurité.
+
+Pour les termes de réseau et de sécurité, l’[index RFC de l’Internet Engineering Task Force](https://www.rfc-editor.org/) répertorie les normes. Pour l’administration de Windows, consulte [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Pour la cryptographie, consulte le [glossaire du NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Liste de contrôle pour étudier les acronymes
+
+1. Note le développement complet et le système dans lequel tu as trouvé le terme.
+2. Indique s’il désigne un protocole, un produit, un rôle, un format de fichier, une métrique ou une politique.
+3. Vérifie la date et la version lorsque le terme décrit un produit ou une norme.
+4. Distingue une définition d’une recommandation.
+5. Vérifie un acronyme inconnu dans le document source avant de l’utiliser dans une demande de modification.
 
 ## Conclusion
 

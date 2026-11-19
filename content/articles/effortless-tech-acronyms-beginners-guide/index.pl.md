@@ -880,6 +880,31 @@ W szybko zmieniającym się świecie technologii skróty i akronimy są wszechob
   - Warstwa w systemie plików ZFS zapewniająca zgodność ze standardem POSIX dla operacji na plikach.
 
 
+## Jak czytać akronimy z zakresu technologii informacyjnych
+
+Znaczenie akronimu zależy od kontekstu. Zanim rozwiniesz skrót, sprawdź otaczający go system, protokół lub zakres obowiązków.
+
+| Termin | Częste znaczenia | Sprawdź kontekst |
+|------|------------------|------------------|
+| **AD** | Active Directory, reklama | Tożsamość w Windows lub marketing |
+| **AI** | Sztuczna inteligencja, Adobe Illustrator | Uczenie maszynowe lub oprogramowanie do projektowania |
+| **DOS** | Odmowa usługi, dyskowy system operacyjny | Incydent bezpieczeństwa lub starszy system operacyjny |
+| **MAC** | Adres Media Access Control, macOS | Adres sprzętu sieciowego lub system operacyjny Apple |
+| **OTP** | Hasło jednorazowe, szyfr jednorazowy | Proces uwierzytelniania lub kryptografia |
+| **SSL/TLS** | Historyczna nazwa SSL zestawiana z obecnym TLS | W odniesieniu do obecnych protokołów używaj TLS. SSL jest przestarzały. |
+
+Niektóre powyższe hasła są historyczne, nieformalne, specyficzne dla dostawcy lub mają nakładające się znaczenia. **Nie traktuj rozwinięcia z glosariusza jako zalecenia konfiguracji.** Przed wyborem protokołu, algorytmu, usługi chmurowej lub zabezpieczenia sprawdź odpowiedni standard albo dokumentację dostawcy.
+
+W przypadku terminów sieciowych i bezpieczeństwa [indeks RFC organizacji Internet Engineering Task Force](https://www.rfc-editor.org/) zawiera rejestr standardów. Informacje o administracji Windows znajdziesz w [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Terminy kryptograficzne sprawdzisz w [glosariuszu NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Lista kontrolna do nauki akronimów
+
+1. Zapisz pełne rozwinięcie oraz system, w którym pojawił się termin.
+2. Określ, czy termin oznacza protokół, produkt, rolę, format pliku, miarę czy politykę.
+3. Sprawdź datę i wersję, gdy termin opisuje produkt lub standard.
+4. Oddziel definicję od zalecenia.
+5. Zanim użyjesz nieznanego akronimu w zgłoszeniu zmiany, sprawdź go w dokumencie źródłowym.
+
 ## Podsumowanie
 
 W miarę jak technologia nadal się rozwija, niewątpliwie pojawią się nowe skróty i akronimy opisujące nowe koncepcje i innowacje. Umiejętność rozumienia tych skrótów jest cenna nie tylko dla profesjonalistów, ale także dla każdego, kto chce poruszać się po cyfrowym świecie z pewnością siebie. W tym artykule przedstawiliśmy obszerny zbiór skrótów związanych z technologią, wyjaśniając podstawowy żargon, który stanowi fundament świata technologii. Dzięki tej wiedzy jesteś lepiej przygotowany, by rozumieć język technologii i być na bieżąco w szybko zmieniającym się środowisku technologicznym.

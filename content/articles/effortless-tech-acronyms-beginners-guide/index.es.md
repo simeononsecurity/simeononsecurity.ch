@@ -880,6 +880,31 @@ En el panorama tecnológico que cambia rápidamente, las abreviaturas y acrónim
   - Una capa en el sistema de archivos ZFS que proporciona compatibilidad con el estándar POSIX para operaciones de archivos.
 
 
+## Cómo leer los acrónimos de tecnología de la información
+
+El significado de un acrónimo depende del contexto. Antes de desarrollarlo, comprueba el sistema, el protocolo o la función laboral que lo rodea.
+
+| Término | Significados habituales | Comprueba el contexto |
+|------|------------------------|----------------------|
+| **AD** | Active Directory, anuncio | Identidad de Windows o contexto de marketing |
+| **AI** | Inteligencia artificial, Adobe Illustrator | Aprendizaje automático o software de diseño |
+| **DOS** | Denegación de servicio, sistema operativo de disco | Incidente de seguridad o sistema operativo antiguo |
+| **MAC** | Dirección de control de acceso al medio (Media Access Control), macOS | Dirección de hardware de red o sistema operativo de Apple |
+| **OTP** | Contraseña de un solo uso, libreta de un solo uso | Flujo de autenticación o criptografía |
+| **SSL/TLS** | Nombre histórico de SSL junto con el TLS actual | Usa TLS al hablar de protocolos actuales. SSL está obsoleto. |
+
+Algunas entradas anteriores describen términos históricos, informales, específicos de un proveedor o con significados solapados. **No tomes la expansión de un glosario como una recomendación de configuración.** Consulta la norma pertinente o la documentación del proveedor antes de elegir un protocolo, algoritmo, servicio en la nube o control de seguridad.
+
+Para términos de redes y seguridad, el [índice RFC del Internet Engineering Task Force](https://www.rfc-editor.org/) reúne las normas. Para administrar Windows, consulta [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Para términos criptográficos, consulta el [glosario del NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Lista de comprobación para estudiar acrónimos
+
+1. Anota la expansión completa y el sistema donde encontraste el término.
+2. Indica si nombra un protocolo, producto, función, formato de archivo, métrica o política.
+3. Comprueba la fecha y la versión cuando el término describa un producto o una norma.
+4. Separa una definición de una recomendación.
+5. Contrasta un acrónimo desconocido con el documento de origen antes de usarlo en una solicitud de cambio.
+
 ## Conclusión
 
 A medida que la tecnología continúa avanzando, sin duda surgirán nuevas abreviaturas y acrónimos para describir conceptos e innovaciones novedosas. La capacidad de descifrar estas abreviaturas no solo es valiosa para profesionales del campo, sino también para cualquiera que busque navegar el mundo digital con confianza. En este artículo, hemos explorado una colección completa de abreviaturas relacionadas con la tecnología, explicando la jerga esencial que sustenta el universo tecnológico. Armado con este conocimiento, estás mejor preparado para descifrar el lenguaje de la tecnología y mantenerte informado en un panorama tecnológico que cambia rápidamente.

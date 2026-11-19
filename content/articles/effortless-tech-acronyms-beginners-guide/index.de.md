@@ -880,6 +880,31 @@ Im sich schnell wandelnden Technologiebereich sind Abkürzungen und Akronyme all
   - Eine Schicht im ZFS-Dateisystem, die Kompatibilität mit dem POSIX-Standard für Dateioperationen bietet.
 
 
+## Akronyme der Informationstechnologie richtig lesen
+
+Ein Akronym erhält seine Bedeutung erst im Kontext. Prüfe das umgebende System, Protokoll oder Aufgabenfeld, bevor du einen Begriff ausschreibst.
+
+| Begriff | Häufige Bedeutungen | Kontext prüfen |
+|------|----------------------|----------------|
+| **AD** | Active Directory, Werbung | Windows-Identität oder Marketing |
+| **AI** | Künstliche Intelligenz, Adobe Illustrator | Maschinelles Lernen oder Designsoftware |
+| **DOS** | Dienstverweigerungsangriff, Betriebssystem für Datenträger | Sicherheitsvorfall oder älteres Betriebssystem |
+| **MAC** | Adresse für Medienzugriffskontrolle (Media Access Control), macOS | Netzwerkhardware-Adresse oder Apple-Betriebssystem |
+| **OTP** | Einmalpasswort, Einmalschlüssel | Authentifizierungsablauf oder Kryptografie |
+| **SSL/TLS** | Historische SSL-Bezeichnung zusammen mit dem aktuellen TLS | Verwende TLS, wenn du über aktuelle Protokolle sprichst. SSL ist veraltet. |
+
+Einige Einträge oben beschreiben historische, informelle, anbieterspezifische oder sich überschneidende Begriffe. **Behandle eine Glossarauflösung nicht als Konfigurationsempfehlung.** Prüfe den einschlägigen Standard oder die Dokumentation des Anbieters, bevor du ein Protokoll, einen Algorithmus, einen Cloud-Dienst oder eine Sicherheitsmaßnahme auswählst.
+
+Für Netzwerk- und Sicherheitsbegriffe bietet der [RFC-Index der Internet Engineering Task Force](https://www.rfc-editor.org/) die Standards. Für die Windows-Verwaltung nutze [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Begriffe aus der Kryptografie findest du im [Glossar des NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Checkliste zum Lernen von Akronymen
+
+1. Notiere die vollständige Auflösung und das System, in dem du den Begriff gefunden hast.
+2. Halte fest, ob der Begriff ein Protokoll, Produkt, eine Rolle, ein Dateiformat, einen Messwert oder eine Richtlinie bezeichnet.
+3. Prüfe Datum und Version, wenn der Begriff ein Produkt oder einen Standard beschreibt.
+4. Trenne Definitionen von Empfehlungen.
+5. Prüfe ein unbekanntes Akronym anhand des Quelldokuments, bevor du es in einem Änderungsantrag verwendest.
+
 ## Fazit
 
 Da die Technologie sich ständig weiterentwickelt, werden zweifellos neue Abkürzungen und Akronyme entstehen, um neue Konzepte und Innovationen zu beschreiben. Die Fähigkeit, diese Abkürzungen zu entschlüsseln, ist nicht nur für Fachleute im Bereich wertvoll, sondern auch für jeden, der sich sicher in der digitalen Welt bewegen möchte. In diesem Artikel haben wir eine umfassende Sammlung technikbezogener Abkürzungen untersucht und die wesentliche Fachsprache erklärt, die das technikaffine Universum prägt. Mit diesem Wissen sind Sie besser gerüstet, die Sprache der Technologie zu verstehen und in einer sich schnell verändernden technologischen Landschaft informiert zu bleiben.

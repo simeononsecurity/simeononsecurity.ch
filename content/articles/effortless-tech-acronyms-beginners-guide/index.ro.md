@@ -880,6 +880,31 @@ coverCaption: Demistificarea Terminologiei Tehnice pentru Începători
   - Un strat în sistemul de fișiere ZFS care oferă compatibilitate cu standardul POSIX pentru operațiuni pe fișiere.
 
 
+## Cum să citești acronimele din tehnologia informației
+
+Sensul unui acronim depinde de context. Înainte să-l extinzi, verifică sistemul, protocolul sau atribuțiile din jurul lui.
+
+| Termen | Sensuri frecvente | Verifică contextul |
+|------|-------------------|--------------------|
+| **AD** | Active Directory, reclamă | Identitatea Windows sau context de marketing |
+| **AI** | Inteligență artificială, Adobe Illustrator | Învățare automată sau software de proiectare |
+| **DOS** | Refuzul serviciului, sistem de operare pe disc | Incident de securitate sau sistem de operare vechi |
+| **MAC** | Adresă Media Access Control, macOS | Adresă hardware de rețea sau sistem de operare Apple |
+| **OTP** | Parolă de unică folosință, cifru cu cheie de unică folosință | Flux de autentificare sau criptografie |
+| **SSL/TLS** | Denumirea istorică SSL asociată cu TLS-ul actual | Pentru protocoalele actuale, folosește TLS. SSL este depășit. |
+
+Unele intrări de mai sus descriu termeni istorici, informali, specifici unui furnizor sau cu sensuri care se suprapun. **Nu trata dezvoltarea unui acronim din glosar drept recomandare de configurare.** Consultă standardul relevant sau documentația furnizorului înainte să alegi un protocol, algoritm, serviciu cloud sau control de securitate.
+
+Pentru termenii de rețea și securitate, [indexul RFC al Internet Engineering Task Force](https://www.rfc-editor.org/) oferă evidența standardelor. Pentru administrarea Windows, consultă [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Pentru criptografie, consultă [glosarul NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Listă de verificare pentru studierea acronimelor
+
+1. Notează forma completă a acronimului și sistemul în care ai întâlnit termenul.
+2. Înregistrează dacă termenul denumește un protocol, produs, rol, format de fișier, metrică sau politică.
+3. Verifică data și versiunea când termenul descrie un produs sau un standard.
+4. Separă definiția de recomandare.
+5. Verifică un acronim necunoscut în documentul-sursă înainte să-l folosești într-o solicitare de modificare.
+
 ## Concluzie
 
 Pe măsură ce tehnologia continuă să avanseze, noi abrevieri și acronime vor apărea cu siguranță pentru a descrie concepte și inovații noi. Capacitatea de a descifra aceste abrevieri nu este valoroasă doar pentru profesioniștii din domeniu, ci și pentru oricine dorește să navigheze în lumea digitală cu încredere. În acest articol, am explorat o colecție cuprinzătoare de abrevieri legate de tehnologie, explicând jargonul esențial care stă la baza universului tehnologic. Înarmat cu aceste cunoștințe, ești mai bine pregătit să descifrezi limbajul tehnologiei și să rămâi informat într-un peisaj tehnologic în continuă schimbare.

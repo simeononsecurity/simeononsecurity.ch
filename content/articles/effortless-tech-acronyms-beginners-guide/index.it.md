@@ -880,6 +880,31 @@ Nel panorama in rapida evoluzione della tecnologia, abbreviazioni e acronimi son
   - Un livello nel file system ZFS che fornisce compatibilità con lo standard POSIX per le operazioni sui file.
 
 
+## Come leggere gli acronimi dell’informatica
+
+Il significato di un acronimo dipende dal contesto. Prima di scioglierlo, controlla il sistema, il protocollo o la funzione lavorativa in cui compare.
+
+| Termine | Significati comuni | Verifica del contesto |
+|------|-------------------|-----------------------|
+| **AD** | Active Directory, pubblicità | Identità Windows o contesto di marketing |
+| **AI** | Intelligenza artificiale, Adobe Illustrator | Apprendimento automatico o software di progettazione |
+| **DOS** | Negazione del servizio, sistema operativo su disco | Incidente di sicurezza o sistema operativo legacy |
+| **MAC** | Indirizzo Media Access Control, macOS | Indirizzo hardware di rete o sistema operativo Apple |
+| **OTP** | Password monouso, blocco monouso | Flusso di autenticazione o crittografia |
+| **SSL/TLS** | Nome storico SSL associato all’attuale TLS | Per i protocolli attuali, usa TLS. SSL è obsoleto. |
+
+Alcune voci descrivono termini storici, informali, specifici di un fornitore o con significati sovrapposti. **Non considerare lo scioglimento di un acronimo nel glossario come una raccomandazione di configurazione.** Consulta lo standard pertinente o la documentazione del fornitore prima di scegliere un protocollo, un algoritmo, un servizio cloud o un controllo di sicurezza.
+
+Per i termini di rete e sicurezza, l’[indice RFC dell’Internet Engineering Task Force](https://www.rfc-editor.org/) raccoglie gli standard. Per l’amministrazione di Windows, consulta [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Per la crittografia, consulta il [glossario del NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Lista di controllo per studiare gli acronimi
+
+1. Scrivi lo scioglimento completo e il sistema in cui hai trovato il termine.
+2. Indica se il termine definisce un protocollo, un prodotto, un ruolo, un formato di file, una metrica o una norma.
+3. Verifica data e versione quando il termine descrive un prodotto o uno standard.
+4. Tieni separate definizioni e raccomandazioni.
+5. Verifica un acronimo sconosciuto nel documento di origine prima di usarlo in una richiesta di modifica.
+
 ## Conclusione
 
 Con il continuo avanzamento della tecnologia, emergeranno senza dubbio nuove abbreviazioni e acronimi per descrivere concetti e innovazioni inedite. La capacità di decifrare queste abbreviazioni non è preziosa solo per i professionisti del settore, ma anche per chiunque voglia muoversi nel mondo digitale con sicurezza. In questo articolo, abbiamo esplorato una raccolta completa di abbreviazioni legate alla tecnologia, spiegando il gergo essenziale che sostiene l'universo tecnologico. Armati di questa conoscenza, sei meglio preparato a decifrare il linguaggio della tecnologia e a rimanere informato in un panorama tecnologico in rapido cambiamento.

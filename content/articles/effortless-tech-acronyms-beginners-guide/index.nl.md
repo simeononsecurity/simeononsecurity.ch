@@ -880,6 +880,31 @@ In het snel veranderende landschap van technologie zijn afkortingen en acronieme
   - Een laag in het ZFS-bestandssysteem die compatibiliteit biedt met de POSIX-standaard voor bestandsbewerkingen.
 
 
+## Acroniemen in de informatietechnologie lezen
+
+De betekenis van een acroniem hangt af van de context. Controleer het omringende systeem, protocol of de functie voordat je een term uitschrijft.
+
+| Term | Veelvoorkomende betekenissen | Controleer de context |
+|------|------------------------------|-----------------------|
+| **AD** | Active Directory, advertentie | Windows-identiteit of marketingcontext |
+| **AI** | Kunstmatige intelligentie, Adobe Illustrator | Machine learning of ontwerpsoftware |
+| **DOS** | Dienstweigeringsaanval, schijfbesturingssysteem | Beveiligingsincident of verouderd besturingssysteem |
+| **MAC** | Adres voor mediatoegangscontrole (Media Access Control), macOS | Netwerkhardwareadres of Apple-besturingssysteem |
+| **OTP** | Eenmalig wachtwoord, eenmalig cijferblok | Authenticatieproces of cryptografie |
+| **SSL/TLS** | Historische SSL-naam naast het huidige TLS | Gebruik TLS voor huidige protocollen. SSL is verouderd. |
+
+Sommige termen hierboven zijn historisch, informeel, leverancierspecifiek of overlappen in betekenis. **Beschouw een uitgeschreven woordenlijstterm niet als configuratieadvies.** Raadpleeg de relevante standaard of leveranciersdocumentatie voordat je een protocol, algoritme, clouddienst of beveiligingsmaatregel kiest.
+
+Voor netwerk- en beveiligingstermen bevat de [RFC-index van de Internet Engineering Task Force](https://www.rfc-editor.org/) de normen. Raadpleeg [Microsoft Learn](https://learn.microsoft.com/en-us/windows/) voor Windows-beheer. Cryptografische termen staan in de [woordenlijst van het NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Checklist voor het bestuderen van acroniemen
+
+1. Noteer de volledige betekenis en het systeem waarin je de term hebt aangetroffen.
+2. Leg vast of de term een protocol, product, functie, bestandsindeling, meetwaarde of beleid aanduidt.
+3. Controleer de datum en versie als de term een product of norm beschrijft.
+4. Houd definities en aanbevelingen uit elkaar.
+5. Controleer een onbekend acroniem in het brondocument voordat je het in een wijzigingsverzoek gebruikt.
+
 ## Conclusie
 
 Naarmate technologie zich blijft ontwikkelen, zullen ongetwijfeld nieuwe afkortingen en acroniemen ontstaan om nieuwe concepten en innovaties te beschrijven. Het vermogen om deze afkortingen te ontcijferen is niet alleen waardevol voor professionals in het veld, maar ook voor iedereen die met vertrouwen de digitale wereld wil navigeren. In dit artikel hebben we een uitgebreide verzameling tech-gerelateerde afkortingen verkend en de essentiële jargon uitgelegd die het tech-savvy universum ondersteunt. Gewapend met deze kennis ben je beter toegerust om de taal van technologie te ontcijferen en op de hoogte te blijven in een snel veranderend technologisch landschap.

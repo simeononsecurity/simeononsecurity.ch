@@ -880,6 +880,31 @@ No cenário em rápida mudança da tecnologia, abreviações e acrônimos são o
   - Uma camada no sistema de arquivos ZFS que fornece compatibilidade com o padrão POSIX para operações de arquivos.
 
 
+## Como ler acrônimos de tecnologia da informação
+
+O significado de um acrônimo depende do contexto. Antes de expandi-lo, verifique o sistema, protocolo ou função de trabalho ao redor.
+
+| Termo | Significados comuns | Verifique o contexto |
+|------|---------------------|----------------------|
+| **AD** | Active Directory, anúncio | Identidade do Windows ou contexto de marketing |
+| **AI** | Inteligência artificial, Adobe Illustrator | Aprendizado de máquina ou software de design |
+| **DOS** | Negação de serviço, sistema operacional de disco | Incidente de segurança ou sistema operacional antigo |
+| **MAC** | Endereço de controle de acesso ao meio (Media Access Control), macOS | Endereço de hardware de rede ou sistema operacional da Apple |
+| **OTP** | Senha de uso único, cifra de uso único | Fluxo de autenticação ou criptografia |
+| **SSL/TLS** | Nome histórico de SSL associado ao TLS atual | Use TLS ao falar de protocolos atuais. SSL está obsoleto. |
+
+Algumas entradas acima descrevem termos históricos, informais, específicos de fornecedores ou com significados sobrepostos. **Não trate a expansão de um glossário como recomendação de configuração.** Consulte o padrão pertinente ou a documentação do fornecedor antes de escolher um protocolo, algoritmo, serviço de nuvem ou controle de segurança.
+
+Para termos de rede e segurança, o [índice RFC da Internet Engineering Task Force](https://www.rfc-editor.org/) reúne os padrões. Para administração do Windows, consulte [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). Para termos de criptografia, consulte o [glossário do NIST Computer Security Resource Center](https://csrc.nist.gov/glossary).
+
+## Lista de verificação para estudar acrônimos
+
+1. Registre a expansão completa e o sistema em que encontrou o termo.
+2. Anote se o termo designa um protocolo, produto, função, formato de arquivo, métrica ou política.
+3. Verifique a data e a versão quando o termo descrever um produto ou padrão.
+4. Separe uma definição de uma recomendação.
+5. Confira um acrônimo desconhecido no documento de origem antes de usá-lo em uma solicitação de mudança.
+
 ## Conclusão
 
 À medida que a tecnologia continua a avançar, novas abreviações e siglas inevitavelmente surgirão para descrever conceitos e inovações inéditas. A capacidade de decifrar essas abreviações não é apenas valiosa para profissionais da área, mas também para qualquer pessoa que deseje navegar pelo mundo digital com confiança. Neste artigo, exploramos uma coleção abrangente de abreviações relacionadas à tecnologia, explicando o jargão essencial que sustenta o universo tecnológico. Armado com esse conhecimento, você está melhor preparado para decifrar a linguagem da tecnologia e manter-se informado em um cenário tecnológico em rápida mudança.
