@@ -1,7 +1,7 @@
 ---
 title: "Ubiquiti Unifi e TP-Link Omada: quale sistema di rete scegliere?"
 date: 2023-05-06
-lastmod: 2026-11-13
+lastmod: 2026-11-18
 toc: true
 draft: false
 description: "Confronta i sistemi di rete Ubiquiti Unifi e TP-Link Omada per gestione, hardware, supporto, funzionalità e prezzi, così da scegliere quello adatto alle tue esigenze."
@@ -27,9 +27,9 @@ La linea **Unifi** offre un'ampia gamma di hardware di rete, tra cui **access po
 ### Prodotti Unifi principali (2026)
 
 **Access point:**
-- [**Unifi U7 Pro**](https://store.ui.com/) - Il più recente access point Wi-Fi 7, con throughput aggregato di 6,5 Gbps.
+- [**Unifi U7 Pro**](https://store.ui.com/) - Il più recente access point Wi-Fi 7, con velocità di trasferimento aggregata di 6,5 Gbps.
 - [**Unifi U6 Enterprise**](https://store.ui.com/) - Wi-Fi 6E, capacità di 7,2 Gbps e supporto per oltre 300 client.
-- [**Unifi U6 Pro**](https://store.ui.com/) - Wi-Fi 6 di fascia media a $179, throughput aggregato di 5,3 Gbps.
+- [**Unifi U6 Pro**](https://store.ui.com/) - Wi-Fi 6 di fascia media a $179, velocità di trasferimento aggregata di 5,3 Gbps.
 - [**Unifi U6 Lite**](https://store.ui.com/) - Wi-Fi 6 economico a $99, adatto a case e piccoli uffici.
 
 **Switch:**
@@ -38,9 +38,9 @@ La linea **Unifi** offre un'ampia gamma di hardware di rete, tra cui **access po
 - **Unifi Lite 16 PoE** - Switch conveniente a 16 porte con budget PoE totale di 45 W.
 
 **Gateway:**
-- **Unifi Dream Machine SE** - Router e controller all-in-one con WAN da 10 Gbps, a $499.
+- **Unifi Dream Machine SE** - Router e controller in un unico dispositivo con WAN da 10 Gbps, a $499.
 - **Unifi Dream Machine Pro Max** - Gateway enterprise con IDS/IPS a velocità di linea di 10 Gbps.
-- **Unifi Express** - Dispositivo compatto all-in-one per piccoli ambienti, a $149.
+- **Unifi Express** - Dispositivo compatto con funzioni integrate per piccoli ambienti, a $149.
 
 L'interfaccia **Unifi Controller** offre navigazione intuitiva e un design facile da usare. Permette di configurare e personalizzare rapidamente la rete. Include **tag VLAN**, **regole firewall**, **traffic shaping** e **deep packet inspection** per migliorare la **sicurezza** e le **prestazioni**.
 
@@ -74,7 +74,7 @@ Il **sistema Unifi** offre funzioni enterprise, ma in genere costa più delle al
 - Unifi Pro 24 PoE: $499
 - Unifi Enterprise 48 PoE: $1.799
 
-**Gateway/all-in-one:**
+**Gateway con funzioni integrate:**
 - Unifi Express: $149
 - Unifi Dream Machine: $299
 - Unifi Dream Machine SE: $499
@@ -122,7 +122,7 @@ ______
 ### Prodotti Omada principali (2026)
 
 **Access point:**
-- **Omada EAP773** - Modello Wi-Fi 7 di punta, throughput aggregato di 11 Gbps a $349.
+- **Omada EAP773** - Modello Wi-Fi 7 di punta, velocità di trasferimento aggregata di 11 Gbps a $349.
 - **Omada EAP670** - Wi-Fi 6E con capacità di 6,6 Gbps a $159.
 - **Omada EAP660 HD** - Wi-Fi 6 per ambienti ad alta densità, supporta oltre 1.000 client e costa $179.
 - **Omada EAP650** - Wi-Fi 6 di fascia media a $119.
@@ -135,7 +135,7 @@ ______
 
 **Gateway:**
 - **Omada ER8411** - Router enterprise da 10 Gbps con NAT hardware, a $699.
-- **Omada ER7212PC** - Dispositivo all-in-one con switch PoE a 8 porte, a $399.
+- **Omada ER7212PC** - Dispositivo tutto-in-uno dotato di switch PoE a 8 porte, a $399.
 - **Omada ER605** - Router multi-WAN economico, a $59.
 
 ### Funzionalità
@@ -242,7 +242,7 @@ I dati seguenti si basano su test indipendenti in ambienti reali.
 
 | Metrica | Unifi U6 Pro ($179) | Omada EAP650 ($119) | Vincitore |
 |--------|---------------------|---------------------|--------|
-| Throughput massimo (5 GHz) | 1,68 Gbps | 1,54 Gbps | Unifi |
+| Velocità di trasferimento massima (5 GHz) | 1,68 Gbps | 1,54 Gbps | Unifi |
 | Numero massimo di client testati | 150 | 125 | Unifi |
 | Copertura interna | 175 ft | 160 ft | Unifi |
 | Consumo PoE | 12,5 W | 13,2 W | Unifi |
@@ -262,9 +262,9 @@ I dati seguenti si basano su test indipendenti in ambienti reali.
 
 | Metrica | Unifi Dream Machine SE ($499) | Omada ER7212PC ($399) | Vincitore |
 |--------|-------------------------------|------------------------|--------|
-| Throughput WAN (routing) | 10 Gbps | 9 Gbps | Unifi |
-| Throughput IDS/IPS | 3,5 Gbps | 2,5 Gbps | Unifi |
-| Throughput VPN (IPsec) | 1,5 Gbps | 1,0 Gbps | Unifi |
+| Velocità di trasferimento WAN (routing) | 10 Gbps | 9 Gbps | Unifi |
+| Velocità di trasferimento IDS/IPS | 3,5 Gbps | 2,5 Gbps | Unifi |
+| Velocità di trasferimento VPN (IPsec) | 1,5 Gbps | 1,0 Gbps | Unifi |
 | Sessioni simultanee | 1.000.000 | 750.000 | Unifi |
 | Funzioni integrate | Router + controller + switch PoE | Router + controller + switch PoE a 8 porte | Unifi |
 
@@ -352,7 +352,7 @@ I dati seguenti si basano su test indipendenti in ambienti reali.
 **Consiglio Ubiquiti:**
 - Unifi Express + 2x U6 Lite APs
 - Costo: $347
-- Vantaggi: Configurazione all-in-one semplice, eccellente app mobile e possibilità di espansione.
+- Vantaggi: Configurazione integrata semplice, eccellente app mobile e possibilità di espansione.
 - Svantaggi: Costo iniziale più alto.
 
 **Consiglio TP-Link:**
@@ -379,7 +379,7 @@ I dati seguenti si basano su test indipendenti in ambienti reali.
 - Vantaggi: Hardware robusto, buona piattaforma cloud, costo inferiore per ogni access point aggiuntivo in sede.
 - Svantaggi: In questa configurazione specifica è leggermente più costoso.
 
-**Vincitore**: **Unifi** per la semplicità all-in-one; **Omada** se si preferisce separare router e access point.
+**Vincitore**: **Unifi** per la semplicità della soluzione integrata; **Omada** se si preferisce separare router e access point.
 
 **Scenario 3: azienda tecnologica (150 dipendenti, molta banda)**
 
@@ -447,7 +447,7 @@ ______
 ✓ hai bisogno di **ottimizzazione AI avanzata** e analisi predittive\
 ✓ apprezzi **un'ampia community di supporto** e integrazioni di terze parti\
 ✓ hai **flessibilità di budget** per funzioni e prestazioni premium\
-✓ preferisci dispositivi **all-in-one** come la serie Dream Machine\
+✓ preferisci dispositivi **con funzioni integrate** come la serie Dream Machine\
 ✓ vuoi **aggiornamenti firmware mensili** con le ultime funzioni\
 ✓ hai bisogno di **deep packet inspection** per la sicurezza enterprise\
 ✓ prevedi di passare a **implementazioni molto grandi** (oltre 1.000 dispositivi)
